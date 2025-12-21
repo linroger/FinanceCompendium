@@ -1,13 +1,23 @@
 ---
-parent_directory:
-title: M&M on Valuation
-tags:
-aliases:
-parent_folder: Background Readings
-subfolder:
-key_concepts:
+title: "M&M on Valuation"
+parent_directory: VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Background Readings
+formatted: 2025-12-21 03:45:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - miller modigliani valuation
+  - price earnings multiples
+  - return on capital
+secondary_tags:
+  - steady state value
+  - franchise value
+  - valuation multiples
+  - economic value creation
+  - expectations investing
+  - commodity multiple
+  - growth valuation
+  - competitive advantage period
 cssclasses: academia
-linter-yaml-title-alias: M&M on Valuation
 ---
 
 # M&M on Valuation
@@ -26,7 +36,7 @@ Source: CSFB HOLT, LMCM analysis.
 - The role of growth in valuation is completely contingent on a firm's return on capital.  
 - The key for an investor is to anticipate expectation revisions.
 
-# Introduction
+## Introduction
 
 Price-earnings (P/E) multiples are by far the most popular valuation metric on Wall Street. A recent academic study found that 99.1 percent of analyst reports mention some sort of earnings multiple, and less than 13 percent provide any variation of a discounted cash flow model. Still, most investors don't have a clear sense of what a price-earnings multiple implies about a company's future financial performance, or how a company's price-earnings multiple will likely change over time.
 
@@ -36,7 +46,7 @@ In this short piece, we offer an analytical bridge between earnings multiples (a
 
 One of the investment industry's all-time great thinkers, Marty Leibowitz, covered many of these topics in a series of papers and monographs over the past 20 years (much of this work was in collaboration with Stanley Kogelman). These articles have been compiled for Leibowitz's new book, Franchise Value: A Modern Approach to Security Analysis (New York: John Wiley & Sons, 2004), which we recommend highly for readers who want to delve into this valuation topic in more detail.
 
-# M&M: Melt it into Your Head
+## M&M: Melt it into Your Head
 
 One sound and intuitive place to start to understand price-earnings multiples is Merton H. Miller and Franco Modigliani's seminal 1961 paper, "Dividend Policy, Growth, and the Valuation of Shares". In the section that demonstrates the theoretical equivalence of various valuation approaches, they show that an investor can express the value of a company in two parts:
 
@@ -48,31 +58,93 @@ Steady state value = Net operating profit after tax (normalized) + cash and non 
 
 And:
 
-Future value = Investment * (Return on capital - cost of capital) * Competitive advantage period Cost of capital * (1 + cost of capital)
+Future value = Investment * (Return on capital - cost of capital) * Competitive advantage period / Cost of capital * (1 + cost of capital)
 
 According to Miller and Modigliani (M&M), this formula "has a number of revealing features and deserves to be more widely used in discussions of valuation." What are these features, and how can they inform our valuation discussion? Here are some of the applications:
 
-- The formula allows you to disaggregate a price-earnings multiple into a commodity component and a franchise component.  
-Return on invested capital's central significance in valuation becomes immediately clear.  
-The formula reveals the magnifying impact of growth—for better or worse.  
-The equation illustrates the proper precautions in using relative valuation metrics.  
-The formula offers a very handy guide for assessing the expectations in a stock.
+- The formula allows you to disaggregate a price-earnings multiple into a commodity component and a franchise component.
+- Return on invested capital's central significance in valuation becomes immediately clear.
+- The formula reveals the magnifying impact of growth—for better or worse.
+- The equation illustrates the proper precautions in using relative valuation metrics.
+- The formula offers a very handy guide for assessing the expectations in a stock.
+
+```d2
+direction: right
+
+Company Value: Company Value {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+Steady State Value: Steady State Value {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+Future Value Creation: Future Value Creation {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+Company Value -> Steady State Value: Current Operations
+Company Value -> Future Value Creation: Growth Opportunities
+
+ROC: Return on Capital {
+  shape: diamond
+  style.fill: "#fce4ec"
+  style.stroke: "#c2185b"
+}
+
+Investment: Investment Magnitude {
+  shape: circle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+Duration: Competitive Advantage Period {
+  shape: hexagon
+  style.fill: "#e0f2f1"
+  style.stroke: "#00695c"
+}
+
+WACC: Cost of Capital {
+  shape: square
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
+
+Future Value Creation -> ROC: ROC > WACC creates value
+Future Value Creation -> Investment: Scale of opportunities
+Future Value Creation -> Duration: Sustainability period
+Future Value Creation -> WACC: Discount rate
+
+note: M&M Valuation Framework {
+  shape: callout
+  style.fill: "#fff9c4"
+  content: "Company value = Steady state value + Future value creation\n\nFuture value creation depends on:\n• Spread between ROC and WACC\n• Investment magnitude\n• Duration of competitive advantage"
+}
+```
+
+This diagram illustrates the M&M valuation framework, showing how company value is decomposed into current operations value and future growth opportunities. The future value creation component depends critically on the return on capital spread, investment scale, and sustainability period.
 
 Let's take a look at these features in some more detail.
 
-# Disrobing the Price-earnings Multiple Part I: The Steady State Value
+## Disrobing the Price-earnings Multiple Part I: The Steady State Value
 
-The steady state value equals a business's worth if it doesn't create additional value and maintains its normalized earnings.  ${}^{4}$  Note that the steady state says nothing about corporate growth, it only assumes the incremental investments will earn the cost of capital. Companies can and do grow earnings per share without creating shareholder value. This term allows us to calculate a steady-state price-earnings multiple:  ${}^{5}$
+The steady state value equals a business's worth if it doesn't create additional value and maintains its normalized earnings. $^{4}$ Note that the steady state says nothing about corporate growth, it only assumes the incremental investments will earn the cost of capital. Companies can and do grow earnings per share without creating shareholder value. This term allows us to calculate a steady-state price-earnings multiple: $^{5}$
 
 $$
-\text {S t e a d y s t a t e p r i c e - e a r n i n g s m u l t i p l e} = \frac {1}{C o s t o f c a p i t a l}
+\text{Steady state price-earnings multiple} = \frac{1}{\text{Cost of capital}}
 $$
 
 If we assume an 8 percent cost of capital—a 4 percent risk-free rate plus a 4 percent equity risk premium—the steady state price-earnings multiple is 12.5 times. The market expects any company with a P/E multiple above 12.5 to create future value. If a company has a P/E multiple at or below 12.5, the market either assumes no value creation or anticipates that future value creation will not offset a decline in the current base business.
 
 We can also think of the steady state P/E as a commodity multiple, the level all companies reach at the end of their life cycle. Life cycle theory suggests that companies earning a return above the cost of capital will attract competition, eventually driving industry returns to the cost of capital. Over time, economic forces push multiples down to a commodity, or steady state, level.<sup>6</sup>
 
-Exhibit 1 shows how the warranted P/E for a company changes over time. In this theoretical example, the company's year 1 return on invested capital is  $56\%$  and the earnings growth rate is  $25\%$ . We then fade both the returns (from  $56\%$  to an  $8\%$  assumed cost of capital) and growth (from  $25\%$  to  $5\%$ ) over 25 years. Note the warranted P/E is close to 70 for high growth, high return businesses.
+Exhibit 1 shows how the warranted P/E for a company changes over time. In this theoretical example, the company's year 1 return on invested capital is $56\%$ and the earnings growth rate is $25\%$. We then fade both the returns (from $56\%$ to an $8\%$ assumed cost of capital) and growth (from $25\%$ to $5\%$) over 25 years. Note the warranted P/E is close to 70 for high growth, high return businesses.
 
 Exhibit 1: Multiple Reversion to the Mean  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/8a17f300-9a53-46d2-ac89-4833c86dac13/41bc57f6b279f7fa6260014ab851a503717366ceae8761d19c1f09e8dd717432.jpg)  
@@ -84,7 +156,7 @@ Modified steady state value = Net operating profit after tax (1 + growth) / Cost
 
 The last, obvious point here is that companies trading near a commodity multiple with a stable base business and reasonable prospects for future value creation are good candidates for purchase.
 
-# Disrobing the Price-earnings Multiple Part II: Value Growth Opportunities
+## Disrobing the Price-earnings Multiple Part II: Value Growth Opportunities
 
 At the time of this writing, the S&P 500's P/E is about 17.0 based on consensus 2005 estimates. If the formula applies, 25 percent or more of the market's value comes from future value creation. What are the key issues in thinking about future value creation?
 
@@ -130,7 +202,7 @@ The final driver of franchise value is the sustainability of excess-return inves
 
 A central task for an investor is to assess how long a company earning above its cost of capital can continue to find productive investment opportunities. Stock prices often reflect ten to twenty years of value-creating cash flows. Competitive strategy analysis is particularly useful in this effort.
 
-# Relative and Comparable Multiple Valuation
+## Relative and Comparable Multiple Valuation
 
 A Barron's columnist recently suggested that a Wall Street analyst had won his "devoted admiration" with the simple proclamation, "We think Amazon.com is a retailer." Why was this seemingly innocuous statement so pleasing? Because, "I have been patiently waiting for the day when Wall Street ends this nonsense of giving blue-sky premiums and special treatment to Internet-era darlings, including, but not limited to, Amazon."12
 
@@ -146,7 +218,7 @@ Pundits often compare today's market P/E to past P/Es to divine whether or not t
 
 Theoretical and empirical analysis of P/E ratios for the market suggests nonstationarity. Research of the past 125 years shows no statistically significant relationship between a P/E ratio at the beginning of the year and the subsequent 12and 24-month returns. $^{14}$  The three main drivers of P/E nonstationarity for the market are the role of taxes and inflation; changes in the composition of the market; and shifts in the equity risk premium. $^{15}$
 
-# The Expectations Approach
+## The Expectations Approach
 
 One important point about this discussion: a company's stock price reflects a set of expectations about future financial performance. Low multiples generally reflect low (and justified) expectations and high multiples often indicate lofty expectations. An investor must anticipate expectation revisions.
 
@@ -158,7 +230,7 @@ The second step is to determine "how high" the company can jump, or whether or n
 
 The final step is to make a buy, sell, or hold decision. Using a range of possible value outcomes and probabilities, an investor can calculate an expected value. Stocks trading at a discount to expected value are attractive, but the amount of the price discount to expected value and how long it takes for the value-to-price disparity to close ultimately determine excess returns.
 
-# Value Investing and Value Creation
+## Value Investing and Value Creation
 
 When taken together, the value equation and the expectations approach make it clear why distinctions between value and growth investing are vacuous. Growth considered in isolation is indeterminate; an investor needs first to understand returns on invested capital. Expectations investing shows that what matters is not the absolute level of today's implied performance but rather where expectations will move.
 
@@ -166,7 +238,7 @@ Classic value investors seek to arbitrage the difference between price and value
 
 Ideally, value investors can find businesses with prices below value where the value will increase over time. This value increase comes as management successfully deploys capital at attractive returns and fends off the migration to the commodity P/E multiple. In this case, value creation for the investor compounds in two ways—as the price to value gap narrows and as value grows.
 
-# Summary
+## Summary
 
 Often what passes as valuation is the simple application of historical or relative multiples without full consideration of what a multiple means. Breaking down a valuation, as Miller and Modigliani did over 40 years ago, provides critical insights into what drives corporate value and hence valuations.
 
@@ -176,13 +248,13 @@ Here are three of the errors we see most often:
 - Comparisons of companies based on their attributes (industry) instead of their circumstances (economic model). History is filled with companies that lost out to disruptive technologies. In many of those cases, the disruptive business learned to make money at a lower price point—often as the result of more efficient balance sheet utilization. Comparing companies to industry peers frequently doesn't properly take into consideration returns and growth.
 - Use of historical multiples. Historical multiples only apply when the economic circumstances (both macro and micro) are unchanged. As a company loses its economic franchise, its multiple will drift to the commodity level. In some instances, companies do figure out ways to improve returns or extend their period of excess returns, both leading to higher multiples than history would indicate.
 
-# Appendix A
+## Appendix A
 
 This short appendix makes two main points. First, valuation does not change in the face of rising rates unless the real (inflation-adjusted) discount rate and/or the real growth rate change. Substantial evidence suggests that these rates are very sticky over time in the aggregate. But investors must exercise judgment for an individual company.
 
 Second, investors tend to be very poor at adjusting their earnings growth rates to reflect inflation. Generally, investors take recent inflation rates and extrapolate them. Modigliani and Cohn forcefully argued this point 25 years ago, and Campbell and Vuolteenaho reiterate the point in a current paper. $^{16}$
 
-# Valuation and rate changes
+### Valuation and rate changes
 
 A logical starting point is to show that you get the same value if you model a financial asset on a real or nominal basis.
 
@@ -190,9 +262,9 @@ Assume a firm and the following conditions:
 
 Distributable earnings = \$100
 
-Growth next 3 years (real) =  $5\%$
+Growth next 3 years (real) = $5\%$
 
-Growth beyond 3 years (real) =  $3\%$
+Growth beyond 3 years (real) = $3\%$
 
 Ten-year note = 4.75%
 
@@ -200,7 +272,7 @@ Equity risk premium = 4%
 
 Beta = 1.0
 
-Expected inflation  $=$  3%
+Expected inflation = $3\%$
 
 What are the growth rates?
 
@@ -210,19 +282,19 @@ Real First 3 years  $5 \%$
 
 Nominal
 
-$(1.05)^{*}(1.03) - 1 = 8.2\%$
+$(1.05)\cdot(1.03) - 1 = 8.2\%$
 
-$(1.03)^{*}(1.03) - 1 = 6.1\%$
+$(1.03)\cdot(1.03) - 1 = 6.1\%$
 
 What are the discount rates?
 
 $$
-\frac {\text {Real}}{(1 . 0 8 7 5 / 1 . 0 3) - 1} = 5. 5 8
+\frac{\text{Real}}{(1.0875/1.03)-1} = 5.58
 $$
 
 Nominal
 
-$4.75\% + 1^{\ast}(4.0\%) = 8.75\%$
+$4.75\% + 1\cdot(4.0\%) = 8.75\%$
 
 What are the cash flows?
 
@@ -270,13 +342,13 @@ The main message is the importance of consistency in matching cash flows with di
 
 Broadly speaking, rising rates are consistent with rising earnings growth rates.
 
-# The Inflation Illusion
+### The Inflation Illusion
 
 In 1979, Modigliani and Cohn claimed stock market investors are subject to "inflation illusion." Specifically, they argued stock market investors fail to understand the effect of inflation on nominal growth rates. Rather, they extrapolate historical nominal growth rates even in times of changing inflation.
 
 Recognizing this tendency, investors must remain very careful to make sure cash flows and discount rates are consistent.
 
-# Appendix B
+## Appendix B
 
 Level of investment and return on invested capital form two of the three drivers of future value. What's going on today is interesting on both counts.
 

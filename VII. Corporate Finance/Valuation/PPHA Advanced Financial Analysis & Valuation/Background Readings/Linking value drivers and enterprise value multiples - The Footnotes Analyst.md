@@ -1,13 +1,27 @@
 ---
-parent_directory:
-title: The Footnotes Analyst
-tags:
-aliases:
-parent_folder: Background Readings
-subfolder:
-key_concepts:
+title: "Linking value drivers and enterprise value multiples - The Footnotes Analyst"
+parent_directory: Background Readings
+formatted: 2025-12-21 03:50:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - enterprise value multiples
+  - valuation multiples
+  - target multiple model
+  - value drivers
+  - equity valuation
+secondary_tags:
+  - discounted cash flow
+  - growth assumptions
+  - return on investment
+  - cost of capital
+  - terminal value
+  - investment decision
+  - comparative valuation
+  - consensus forecasts
+  - implied growth
+  - fundamental analysis
 cssclasses: academia
-linter-yaml-title-alias: The Footnotes Analyst
 ---
 
 # The Footnotes Analyst
@@ -26,7 +40,7 @@ CONTACT
 
 SEARCH
 
-# Linking value drivers and enterprise value multiples
+## Linking value drivers and enterprise value multiples
 
 Published 5 September 2019
 
@@ -44,19 +58,94 @@ Focusing on underlying value drivers facilitates better judgement in equity valu
 
 A target or implied valuation multiple approach can be a bridge between multiples and DCF. It enables key value drivers to be linked to target multiples using an underlying DCF approach. At the same time, a target multiple calculator retains the simplicity that makes multiple based analysis more suited to the 'art' of equity valuation, while the focus on explicit value drivers facilitates better judgement.
 
-# Click here to open our interactive target enterprise value multiple model
+[Click here to open our interactive target enterprise value multiple model](interactive-model-link)
 
-For example, during a recent engagement with an asset manager, we discussed a stock that had doubled in price over the last 12 months and now trades at a valuation multiple that is  $36\%$  higher than a comparable company we selected. The question is whether the premium rating is justified or not. Analysis of the fundamentals and consensus forecasts suggests a premium of some sort may be appropriate, but quantifying by how much is more of a challenge.
+For example, during a recent engagement with an asset manager, we discussed a stock that had doubled in price over the last 12 months and now trades at a valuation multiple that is $36\%$ higher than a comparable company we selected. The question is whether the premium rating is justified or not. Analysis of the fundamentals and consensus forecasts suggests a premium of some sort may be appropriate, but quantifying by how much is more of a challenge.
 
 A target multiple approach makes it possible to (approximately) quantify the underlying difference in implied value drivers, thereby providing a better basis for the investment decision.
 
 The stock in question is 'Food on the Go' company Greggs. We shall return to the analysis below, but first, let's discuss how a target or implied multiple model can be used.
 
-# Applying a target EV multiple model
+## Applying a target EV multiple model
 
-A target multiple approach can be used to value a stock based on a set of input assumptions or, in reverse,, to derive the value drivers such as growth or returns, that are implied by an observed multiple for a company or index. In addition, the approach is particularly suited to the calculation of terminal values in DCF analysis.
+A target multiple approach can be used to value a stock based on a set of input assumptions or, in reverse, to derive the value drivers such as growth or returns, that are implied by an observed multiple for a company or index. In addition, the approach is particularly suited to the calculation of terminal values in DCF analysis.
 
-# Valuing a business or stock
+```d2
+direction: right
+
+Value Drivers: Value Drivers {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+Growth Rate: Growth Rate {
+  style.fill: "#c8e6c9"
+}
+
+Return on Investment: Return on Investment {
+  style.fill: "#c8e6c9"
+}
+
+Risk Profile: Risk Profile {
+  style.fill: "#c8e6c9"
+}
+
+Cost of Capital: Cost of Capital {
+  style.fill: "#c8e6c9"
+}
+
+Value Drivers -> Growth Rate
+Value Drivers -> Return on Investment
+Value Drivers -> Risk Profile
+Value Drivers -> Cost of Capital
+
+DCF Model: DCF Model {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+Target Multiple: Target Multiple {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+Growth Rate -> DCF Model
+Return on Investment -> DCF Model
+Risk Profile -> DCF Model
+Cost of Capital -> DCF Model
+
+DCF Model -> Target Multiple: "Links to"
+
+Observed Multiple: Observed Multiple {
+  shape: rectangle
+  style.fill: "#fce4ec"
+  style.stroke: "#c2185b"
+}
+
+Market Price: Market Price {
+  shape: rectangle
+  style.fill: "#fce4ec"
+  style.stroke: "#c2185b"
+}
+
+Target Multiple -> Observed Multiple: "Compare with"
+Observed Multiple -> Market Price
+
+Target Multiple -> Market Price: "Implied value"
+
+Fair Value: Fair Value? {
+  shape: diamond
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+Market Price -> Fair Value
+```
+
+### Valuing a business or stock
 
 To value a stock enter estimated value drivers to derive implied target EV multiples (for more detail about the value driver inputs see the explanations accompanying the model itself). Apply these target multiples to the relevant statistic (NOPAT, EBIT, etc.) of the company to produce a core enterprise value consistent with those value drivers. Use 12-month forward forecasts for these metrics.
 
@@ -70,7 +159,7 @@ Finally, divide the implied equity value by the number of outstanding shares. Us
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/6eccff3a-c2e9-4a7d-b3d1-bdc471b680fc/e4fa6ee4d43619678efe3439ab9807b1774393d9ae13ee183e5f007d9d21a61b.jpg)
 
-# What is in the price analysis
+## What is in the price analysis
 
 How do you determine whether an observed market valuation multiple is deserved or not? One approach is to construct a set of value drivers that replicates the multiple and then consider whether you think those implied value drivers look conservative or aggressive to help you reach better conclusions on value.
 
@@ -78,7 +167,7 @@ Enter values for all of the value drivers except one and then solve for the miss
 
 In doing this type of analysis remember that your input value drivers need to be mid-points in a distribution, they should not be the 'success scenario'. One of the common mistakes in valuation is to consider value based only on the assumed successful implementation of a company's strategy. Values should reflect potential downside as well as upside, which is why forecasts need to be probability weighted expected amounts.
 
-# Quantify a valuation premium or discount
+## Quantify a valuation premium or discount
 
 How do you know whether a multiple is too high or too low? Comparisons with other companies or with historical ranges helps, but it is difficult to explicitly allow for differences in value drivers. You may think that a stock is of higher quality than the comparable companies, but exactly what valuation premium does that justify? Using the target multiple approach to identify what is priced into comparable company stock prices and then adjusting for value driver differences can help in estimating that deserved premium or discount.
 
@@ -90,13 +179,13 @@ Does a difference in underlying value drivers justify a valuation premium or dis
 
 Of course, this can only be a guide. Different combinations of value drivers for the sector could be used to derive the sector multiples and each would yield a different deserved valuation premium for the stock when the growth rate is flexed. In addition, the value drivers other than growth may also differ. Valuation is as much art as science and a target multiple model cannot provide the definitive answer. But at least applying an element of rigorous analysis to multiples makes valuation less based on guesswork.
 
-# DCF terminal value calculations
+## DCF terminal value calculations
 
 A terminal value in DCF analysis tends to be calculated either based on an assumed constant growth in perpetuity of the cash flow in the last explicit forecast period or, alternatively, using observed comparable valuation multiples. Both these methods have their limitations.
 
 An alternative is to use a target multiple model. This gives more flexibility and is more sophisticated than a constant rate of growth in cash flow. For example, it makes it easy to incorporate an interim medium-term set of assumptions. The approach also guards against unrealistic assumptions regarding the level of investment needed to drive future growth, which is a common mistake in DCF – a subject for more detailed consideration by The Footnotes Analyst in a future article.
 
-# Back to the analysis of Greggs ….
+## Back to the analysis of Greggs
 
 The comparison we are interested in is between Greggs and pizza company Dominos (the UK Dominos not the US version). They do not have precisely the same business model, but it is an interesting comparison none the less. Our analysis is based on FactSet data, including consensus forecasts.
 
@@ -104,11 +193,9 @@ In the last 12 months the stock price of Greggs' has more than doubled, while ov
 
 We have assumed that the key value driver to focus on is growth and particularly for how long a premium rate of growth can be sustained. Average annual growth in NOPAT over the 4 years from the actual result in 2017 to the consensus forecast result for 2021, is just  $2\%$  for Dominos but  $13\%$  for Greggs. This is a significant difference in growth, which may explain the valuation premium enjoyed by Greggs.
 
-However, according the sell-side analysts' consensus forecasts, the decline in profit of Domin
+However, according to the sell-side analysts' consensus forecasts, the decline in profit of Dominos from 2017 to 2019e is expected to be reversed in 2020 and 2021. Greggs, on the other hand, has the exact opposite, with higher past growth now forecast to slow.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/6eccff3a-c2e9-4a7d-b3d1-bdc471b680fc/760b45c5859ae7b4676291197829903ea0517d3a229f40bf5dff9c384ed36690.jpg)
-
-from 2017 to 2019e is expected to be reversed in 2020 and 2021. Greggs, on the other hand, has the exact opposite, with higher past growth now forecast to slow. In fact, according the consensus data the expected growth in NOPAT from the 12-month prospective forecast through to 2021 is about the same for both companies at a little over  $8\%$ . This is significant because what matters in valuation is forecasts not history.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/6eccff3a-c2e9-4a7d-b3d1-bdc471b680fc/760b45c5859ae7b4676291197829903ea0517d3a229f40bf5dff9c384ed36690.jpg) In fact, according the consensus data the expected growth in NOPAT from the 12-month prospective forecast through to 2021 is about the same for both companies at a little over $8\%$ . This is significant because what matters in valuation is forecasts not history.
 
 Considering the similarity in short-term forecast growth, we have focused on sustainability of that rate of growth in investigating the valuation difference. For how much longer must Greggs sustain this rate of growth compared with Dominos to justify the valuation difference?
 
@@ -116,9 +203,9 @@ This is what we did …
 
 - Identify a set of value drivers which, when entered into the target EV multiple model, results in a target EV/NOPAT multiple equal to the observed 12-month forward multiple of 17.6x for Dominos.  
 - Consider what differences in value drivers other than growth period might apply for Greggs (if any) and enter these revised value drivers in the model.  
-- Solve for the length of period 1 growth that results in a target EV/NOPAT multiple equal to the observed forward 12-month forward multiple of  $23.8 \times$  for Greggs.
+- Solve for the length of period 1 growth that results in a target EV/NOPAT multiple equal to the observed forward 12-month forward multiple of $23.8\times$ for Greggs.
 
-As you can see from the inputs seen below, we use the same value drivers for each company apart from the duration of period 1 growth. We set this to 2 years, the length of the consensus forecast available for Dominos and assumed that it reverted to a long-term rate of  $1.5\%$  thereafter. The combination of other value drivers was chosen to reconcile the model target multiple to the observed 12-month forward multiple for Dominos. The exact combination does not matter greatly for the analysis as the objective is not to seek an absolute valuation for Dominos, but to try and find a plausible set of value drivers implied by the stock price.
+As you can see from the inputs seen below, we use the same value drivers for each company apart from the duration of period 1 growth. We set this to 2 years, the length of the consensus forecast available for Dominos and assumed that it reverted to a long-term rate of $1.5\%$ thereafter. The combination of other value drivers was chosen to reconcile the model target multiple to the observed 12-month forward multiple for Dominos. The exact combination does not matter greatly for the analysis as the objective is not to seek an absolute valuation for Dominos, but to try and find a plausible set of value drivers implied by the stock price.
 
 One of the challenging inputs is the incremental return on investment. This is important as it determines how much of the profit earned by each business needs to be reinvested, which in turn determines the free cash flow that ultimately drives value. Both businesses have a strong franchise value and high historical returns, which is why we have selected relatively high values for incremental returns. Different estimates of returns would have to be offset by different values for other value drivers for Dominos in order to reconcile back to the observed multiple. This would impact the growth period differential. However, the final result is not particularly sensitive to the return assumption.
 
@@ -132,29 +219,25 @@ Target multiple model inputs we used are:
 
 Source: Factset data, consensus forecasts and Footnotes Analyst estimates. Data current at 1 September 2019.
 
-Solving for the implied length of period 1 growth can be done by trial and error or, if using the excel version of the model, using the in-built solver function. Based on our data we obtain a result of 10 years. So, to justify the  $36 \%$ valuation premium, Greggs would have to sustain the current consensus forecast growth of  $8 \%$ p.a. for 8 more years than Dominos.
+Solving for the implied length of period 1 growth can be done by trial and error or, if using the excel version of the model, using the in-built solver function. Based on our data we obtain a result of 10 years. So, to justify the $36\%$ valuation premium, Greggs would have to sustain the current consensus forecast growth of $8\%$ p.a. for 8 more years than Dominos.
 
 Clearly, our growth period differential calculation is subjective and would differ depending on the assumptions made about other value drivers. You may perhaps take a different view about the relative cost of capital, returns or the growth rate itself for each of the two companies.
 
 In our view, converting the difference in valuation multiples to an implied difference in a key value driver (in our case the length of period 1 growth) provides investors with a more intuitive basis on which to base their stock selection.
 
-The objective of this example is to simply illustrate how a target multiple model can help your analysis. We are certainly not providing an investment recommendation in respect of Greggs or reaching any conclusion about the relative valuation of the two companies. That is not the
+The objective of this example is to simply illustrate how a target multiple model can help your analysis. We are certainly not providing an investment recommendation in respect of Greggs or reaching any conclusion about the relative valuation of the two companies. That is not the purpose of The Footnotes Analyst. Judgements about value and the decisions about whether to invest or not are all yours.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/6eccff3a-c2e9-4a7d-b3d1-bdc471b680fc/1c4264344bac438a181e0f888b9d1d77f94f67bb4c4cf02d674de34e7e63748b.jpg)
 
-Different combinations of value drivers would result in a different
+### Implied growth period
 
-purpose of The Footnotes Analyst. Judgements about value and the decisions about whether to invest or not are all yours.
-
-# implied growth period
-
-# Insights for investors
+## Insights for investors
 
 As you can see, we like target multiples in equity analysis! We have also often used a target multiple model approach when teaching valuation because it is a great way to get students and investors to think about the link between valuation and value drivers.
 
 We like the alternative applications of the model and the insight the approach can provide. For example, we used target multiple models during the dot-com bubble (although many did not think it was a bubble at the time) to analyse the implied value drivers of highly valued tech stocks based on observed revenue multiples. We think the approach is just as useful today.
 
-Click here to open our interactive target enterprise value multiple model
+[Click here to open our interactive target enterprise value multiple model](interactive-model-link)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/6eccff3a-c2e9-4a7d-b3d1-bdc471b680fc/651a911d40888fd149769200dc199bc4268df3109c02a9359f9bb64d82f9c86a.jpg)
 
@@ -166,7 +249,7 @@ Subject tags
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/6eccff3a-c2e9-4a7d-b3d1-bdc471b680fc/c67d5fb3e3a3f23e2c91104e34d6755e0237965a01944525da87262d67a06aae.jpg)
 
-# Related articles:
+## Related articles
 
 - Allocating value: An option-based approach - Air France-KLM  
 Intangible asset accounting and the 'value' false negative  

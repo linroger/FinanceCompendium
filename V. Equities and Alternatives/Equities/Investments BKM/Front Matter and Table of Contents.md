@@ -5,203 +5,125 @@ primary_tags:
   - portfolio theory
   - asset pricing
   - financial markets
+secondary_tags:
   - securities analysis
   - derivatives pricing
   - risk management
   - performance evaluation
-secondary_tags:
   - capital asset pricing model
   - efficient market hypothesis
   - behavioral finance
   - fixed income securities
-  - bond portfolio management
   - equity valuation models
-  - financial statement analysis
   - options markets
   - futures markets
   - international diversification
-  - alternative investments
-  - hedge funds
-  - private equity
-  - technical analysis
-  - arbitrage pricing theory
-  - term structure models
-  - interest rate risk
-  - portfolio optimization
-  - index models
-  - market efficiency
-  - mutual funds
-  - exchange traded funds
-  - venture capital
-  - leveraged buyouts
-  - investment policy
-  - cfa institute framework
-  - performance attribution
-  - market timing
-  - risk adjusted returns
 cssclasses: academia
+formatted: 2025-12-21 04:15:00 PM
+formatter_model: claude-3-7-sonnet-20250219
+cli_tool: claude-code
+parent_directory: Investments BKM
 ---
 
 # Investments
-# Brief Contents
 
-# PARTI
+## Brief Contents
+
+## PART I
 
 # Introduction 1
 
-1
+1. The Investment Environment 1
 
-The Investment Environment 1
+2. Asset Classes and Financial Instruments 31
 
-2
+3. How Securities Are Traded 61
 
-Asset Classes and Financial Instruments 31
+4. Mutual Funds and Other Investment Companies 99
 
-3
-
-How Securities Are Traded 61
-
-4
-
-Mutual Funds and Other Investment
-
-Companies 99
-
-# PART II
+## PART II
 
 # Portfolio Theory and Practice 125
 
-5
+5. Risk, Return, and the Historical Record 125
 
-Risk, Return, and the Historical Record 125
+6. Capital Allocation to Risky Assets 167
 
-6
+7. Efficient Diversification 201
 
-Capital Allocation to Risky Assets 167
+8. Index Models 251
 
-7
-
-Efficient Diversification 201
-
-8
-
-Index Models 251
-
-# PART III
+## PART III
 
 # Equilibrium in Capital Markets 283
 
-9
+9. The Capital Asset Pricing Model 283
 
-The Capital Asset Pricing Model 283
+10. Arbitrage Pricing Theory and Multifactor Models of Risk and Return 315
 
-10
+11. The Efficient Market Hypothesis 341
 
-Arbitrage Pricing Theory and Multifactor Models of Risk and Return 315
+12. Behavioral Finance and Technical Analysis 381
 
-11
+13. Empirical Evidence on Security Returns 409
 
-The Efficient Market Hypothesis 341
-
-12
-
-Behavioral Finance and Technical Analysis 381
-
-13
-
-Empirical Evidence on Security Returns 409
-
-# PART IV
+## PART IV
 
 # Fixed-Income Securities 439
 
-14
+14. Bond Prices and Yields 439
 
-Bond Prices and Yields 439
+15. The Term Structure of Interest Rates 481
 
-15
+16. Managing Bond Portfolios 509
 
-The Term Structure of Interest Rates 481
-
-16
-
-Managing Bond Portfolios 509
-
-# PART V
+## PART V
 
 # Security Analysis 551
 
-17
+17. Macroeconomic and Industry Analysis 551
 
-Macroeconomic and Industry Analysis 551
+18. Equity Valuation Models 583
 
-18
+19. Financial Statement Analysis 629
 
-Equity Valuation Models 583
-
-19
-
-Financial Statement Analysis 629
-
-# PART VI
+## PART VI
 
 # Options, Futures, and Other Derivatives 673
 
-20
+20. Options Markets: Introduction 673
 
-Options Markets: Introduction 673
+21. Option Valuation 715
 
-21
+22. Futures Markets 763
 
-Option Valuation 715
+23. Futures, Swaps, and Risk Management 791
 
-22
-
-Futures Markets 763
-
-23
-
-Futures, Swaps, and Risk Management 791
-
-# PART VII
+## PART VII
 
 # Applied Portfolio Management 827
 
-24
+24. Portfolio Performance Evaluation 827
 
-Portfolio Performance Evaluation 827
+25. International Diversification 867
 
-25
+26. Alternative Assets 895
 
-International Diversification 867
+27. The Theory of Active Portfolio Management 935
 
-26
-
-Alternative Assets 895
-
-27
-
-The Theory of Active Portfolio
-
-Management 935
-
-28
-
-Investment Policy and the Framework of the
-
-CFA Institute 959
+28. Investment Policy and the Framework of the CFA Institute 959
 
 # REFERENCES TO CFA PROBLEMS 995
 
-GLOSSARY G-1
+## GLOSSARY G-1
 
-NAME INDEX I
+## NAME INDEX I
 
-SUBJECT INDEX I-4
+## SUBJECT INDEX I-4
 
-NOTATION, FORMULAS F-1
+## NOTATION, FORMULAS F-1
 
-# Contents
+## Contents
 
 Preface xvi
 
@@ -584,9 +506,7 @@ End of Chapter Material 374-380
 
 Chapter 12
 
-# Behavioral Finance and Technical
-
-# Analysis 381
+# Behavioral Finance and Technical Analysis 381
 
 12.1 The Behavioral Critique 382
 
@@ -614,7 +534,7 @@ Trends and Corrections
 
 Momentum and Moving Averages / Relative Strength / Breadth
 
-Machine Leaning and Technical Analysis / Sentiment Indicators
+Machine Learning and Technical Analysis / Sentiment Indicators
 
 Trin Statistic / Confidence Index / Short Interest / Put/ Call Ratio
 
@@ -646,11 +566,11 @@ Size and B/M as Risk Factors / Behavioral Explanations / Momentum: A Fourth Fact
 
 13.5 The Equity Premium Puzzle 429
 
-Expected versus Realized Returns /Survivorship Bias / Extensions to the CAPM May Mitigate the Equity Premium Puzzle/Liquidity and the Equity Premium Puzzle/ Behavioral Explanations of the Equity Premium Puzzle
+Expected versus Realized Returns / Survivorship Bias / Extensions to the CAPM May Mitigate the Equity Premium Puzzle / Liquidity and the Equity Premium Puzzle / Behavioral Explanations of the Equity Premium Puzzle
 
 End of Chapter Material 435-438
 
-PART IV
+## PART IV
 
 # Fixed-Income Securities 439
 
@@ -663,8 +583,6 @@ Chapter 14
 Treasury Bonds and Notes
 
 Accrued Interest and Quoted Bond Prices
-
-# Contents
 
 Corporate Bonds
 
@@ -698,8 +616,7 @@ Coupon Bonds and Treasury Strips / After-Tax Returns
 
 14.5 Default Risk and Bond Pricing 463
 
-Junk Bonds / Determinants of Bond Safety / Bond dentures
-
+Junk Bonds / Determinants of Bond Safety / Bond Indentures
 
 Sinking Funds / Subordination of Further Debt /
 
@@ -776,7 +693,7 @@ Sources of Potential Profit / Horizon Analysis
 
 End of Chapter Material 539-550
 
-# PART V
+## PART V
 
 # Security Analysis 551
 
@@ -835,12 +752,7 @@ Limitations of Book Value
 
 18.3 Dividend Discount Models 587
 
-The Constant-Growth DDM / Convergence of Price to Intrinsic Value / Stock Prices and Investment
-
-
-# Contents
-
-Opportunities / Life Cycles and Multistage Growth Models / Multistage Growth Models
+The Constant-Growth DDM / Convergence of Price to Intrinsic Value / Stock Prices and Investment Opportunities / Life Cycles and Multistage Growth Models / Multistage Growth Models
 
 18.4 The Price-Earnings Ratio 601
 
@@ -882,7 +794,7 @@ Inventory Valuation / Depreciation / Inflation and Interest Expense / Fair Value
 
 End of Chapter Material 659-672
 
-# PART VI
+## PART VI
 
 # Options, Futures, and Other Derivatives 673
 
@@ -1006,7 +918,7 @@ Analysis for Commodity Futures
 
 End of Chapter Material 817-826
 
-# PART VII
+## PART VII
 
 # Applied Portfolio Management 827
 
@@ -1076,8 +988,6 @@ Transparency / Investors / Investment Strategies /
 
 Liquidity / Investment Horizon / Fee Structure
 
-# Contents
-
 Role of Alternative Assets in Diversified Portfolios / Growth of Alternative Assets
 
 # 26.2 Hedge Funds 900
@@ -1108,9 +1018,7 @@ Survivorship Bias and Backfill Bias / Tail Events /
 
 Historical Hedge Fund Performance / Style Analysis / Historical Performance of Private Equity
 
-Grandstanding / Industry Specialization
-
-Efficient Frontier
+Grandstanding / Industry Specialization / Efficient Frontier
 
 # 26.6 Fee Structure in Alternative Investments 926
 
@@ -1212,10 +1120,10 @@ End of Chapter Material 984-994
 
 # REFERENCES TO CFA PROBLEMS 995
 
-# GLOSSARY G-1
+## GLOSSARY G-1
 
-# NAME INDEX I
+## NAME INDEX I
 
-# SUBJECT INDEX I-4
+## SUBJECT INDEX I-4
 
-# NOTATION, FORMULAS F-1
+## NOTATION, FORMULAS F-1

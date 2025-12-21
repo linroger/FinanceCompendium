@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Practical Guide to Yield Curves, Discounting, and Derivatives
-linter-yaml-title-alias: Practical Guide to Yield Curves, Discounting, and Derivatives
+parent_directory: VII. Corporate Finance/Strategy and Events/PPHA Applied Financial Management
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - yield curves
+  - discounting
+  - forward rates
+  - risk adjusted discounting
+secondary_tags:
+  - zero rates
+  - bond valuation
+  - utility theory
+  - certainty equivalent
+  - swap valuation
+  - credit default swaps
+  - martingale modeling
+cssclasses: academia
 ---
 
 # Practical Guide to Yield Curves, Discounting, and Derivatives
@@ -14,7 +26,7 @@ Thomas S. Coleman
 
 Draft - April 14, 2019
 
-# Contents
+## Contents
 
 I Forward Curves and Yield Curves 4  
 1 Introduction - Discounting and Example 4  
@@ -79,9 +91,9 @@ II Risk Adjusted Discounting 15
 
 # Part I
 
-# Forward Curves and Yield Curves
+## Forward Curves and Yield Curves
 
-# 1 Introduction - Discounting and Example
+### 1 Introduction - Discounting and Example
 
 Everything we do for yield curves is based on the fundamental idea of discounting cash flows at appropriate rates. We will focus on the example of a 2-year and 5-year bond, as shown in Figure 1. The top shows the cash flow diagram for a 2-year bond (or the "fixed bond" side of an interest rate swap - remember that the PV of a swap is +PV(fixed bond) - PV(floating bond)). Coupons are paid semi-annually and the discount rate is quoted semi-annually compounded. The coupon and discount rate (yield) are the same so that the present value of the bond is \$100. The bottom part of the panel shows a 5-year bond (also semi-annual coupon and semi-annually compounded discount rate), with a higher coupon and a higher yield or discount rate.
 

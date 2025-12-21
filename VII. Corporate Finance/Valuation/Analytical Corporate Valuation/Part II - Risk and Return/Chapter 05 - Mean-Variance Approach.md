@@ -1,4 +1,27 @@
-Abstract The mean-variance approach is the most widely used in the portfolio selections. The portfolio selection is based on two variables: (i) expected value of the portfolio return; (ii) variance of the expected portfolio return measuring the portfolio risk. An efficient portfolio must satisfy the Pareto optimal condition. Therefore, the investor prefers the portfolio that is capable of maximising its expected return to an equal variance or the portfolio capable of minimizing its variance to an equal expected return. This approach simplifies the problem of portfolio selection. There are two main advantages: first, it does not require specification about probability distribution; second, it is simple and intuitive because it is only based on the mean and variance. However, it is also true that this approach neglects a lot of relevant information about distribution probability. The entire portfolio selection process can be simplified on the basis of two main phases of the portfolio selection process:
+---
+title: "Chapter 05: Mean-Variance Approach"
+parent_directory: "Part II - Risk and Return"
+formatted: "2025-12-21 04:05:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "claude-code"
+primary_tags:
+  - mean variance approach
+  - portfolio optimization
+  - efficient frontier
+secondary_tags:
+  - expected return calculation
+  - portfolio variance
+  - pareto optimal portfolios
+  - diversification theory
+  - risk return trade off
+cssclasses: academia
+---
+
+# Chapter 05: Mean-Variance Approach
+
+## Abstract
+
+The mean-variance approach is the most widely used in portfolio selection. The portfolio selection is based on two variables: (i) expected value of the portfolio return; (ii) variance of the expected portfolio return measuring the portfolio risk. An efficient portfolio must satisfy the Pareto optimal condition. Therefore, the investor prefers the portfolio that is capable of maximising its expected return for an equal variance or the portfolio capable of minimizing its variance for an equal expected return. This approach simplifies the problem of portfolio selection. There are two main advantages: first, it does not require specification about probability distribution; second, it is simple and intuitive because it is only based on the mean and variance. However, it is also true that this approach neglects a lot of relevant information about the probability distribution. The entire portfolio selection process can be simplified on the basis of two main phases of the portfolio selection process:
 
 (1) optimization phase: the aim is to define the diversified portfolio and the efficient frontier. The definition of the diversified portfolio is based on the statistical characteristics of the assets. Specifically, the expected return of the portfolio is equal to the weighted average of the expected returns of the assets, while the portfolio variance is the function of the covariance between the assets' expected returns. The assumption refers to the investors' homogeneous expectations about the statistical characteristics of the assets implying that all investors define the same efficient frontier.
 (2) maximization phase: the aim is to choose the optimal portfolio among the efficient portfolios defined on the efficient frontier. None of the efficient portfolios on the efficient frontiers can be preferred over the others by definition. The choice of the optimal portfolio among the efficient portfolios requires a clear definition of the investor's preferences about risk.
@@ -16,18 +39,18 @@ The first three steps (1, 2, 3) define the optimization phase while the last ste
 
 The mean-variance approach is the most widely used in the portfolio selections (Markowitz 1952, 1956, 1959, 1976, 2014, 2016; Tobin 1958). The portfolio selection is based on two variables:
 
-(1) expected value of the portfolio return  $(\mu_P)$ ;
-(2) variance of the expected portfolio returns  $(\sigma_P^2)$  measuring the portfolio's risk.
+(1) expected value of the portfolio return $(\mu_P)$;
+(2) variance of the expected portfolio returns $(\sigma_P^2)$ measuring the portfolio's risk.
 
 The efficient portfolio must satisfy the Pareto optimal condition: it is impossible to improve one objective without worsening the other. Therefore, the investor prefers the portfolio that is capable of maximising its expected return to an equal variance or the portfolio capable of minimising its variance to an equal expected return. Therefore, the portfolio is efficient only if:
 
 - for a given level of expected return, it minimizes the variance (and therefore the portfolio risk);
 - for a given level of variance, it maximizes the portfolio expected return.
 
-By considering a portfolio  $(A)$  with mean  $\mu_{A}$  and variance  $\sigma_A^2$  and a portfolio  $(B)$  with mean  $\mu_B$  and variance  $\sigma_B^2$ , the portfolio  $(A)$  dominates (it is strictly preferred) the portfolio  $(B)$  if one of the following two conditions is achieved:
+By considering a portfolio $(A)$ with mean $\mu_{A}$ and variance $\sigma_A^2$ and a portfolio $(B)$ with mean $\mu_B$ and variance $\sigma_B^2$, the portfolio $(A)$ dominates (it is strictly preferred) the portfolio $(B)$ if one of the following two conditions is achieved:
 
 $$
-\mathrm {A} \succ \mathrm {B} \quad \text {i f} \left\{ \begin{array}{c} \mu_ {\mathrm {A}} > \mu_ {\mathrm {B}}; \quad \sigma_ {\mathrm {A}} ^ {2} \leq \sigma_ {\mathrm {B}} ^ {2} \\ \text {o r} \\ \sigma_ {\mathrm {A}} ^ {2} <   \sigma_ {\mathrm {B}} ^ {2}; \quad \mu_ {\mathrm {A}} \geq \mu_ {\mathrm {B}} \end{array} \right.
+\mathrm{A} \succ \mathrm{B} \quad \text{if} \left\{ \begin{array}{c} \mu_{\mathrm{A}} > \mu_{\mathrm{B}}; \quad \sigma_{\mathrm{A}}^{2} \leq \sigma_{\mathrm{B}}^{2} \\ \text{or} \\ \sigma_{\mathrm{A}}^{2} < \sigma_{\mathrm{B}}^{2}; \quad \mu_{\mathrm{A}} \geq \mu_{\mathrm{B}} \end{array} \right.
 $$
 
 This approach simplifies the problem of portfolio selection. There are two main advantages: first, it does not require specification about probability distribution; second, it is simple and intuitive because it is only based on the mean and variance. However, it is also true that this approach neglects a lot of relevant information about the probability distribution.
@@ -70,16 +93,16 @@ Therefore, the first step of the process is the construction of the diversified 
 
 The problem of the estimate of the portfolio expected return has a simple solution. Indeed, the portfolio expected return is equal to the weighted average of the expected return of its assets. The weight of the assets is equal to the part of wealth invested in it.
 
-Assuming a portfolio of two assets denoted as Asset 1 and Asset 2 and assuming that the wealth invested in the portfolio is equal to  $w$  and that the weights of the two assets are  $\alpha_{1}$  and  $\alpha_{2}$  respectively, the result is:
+Assuming a portfolio of two assets denoted as Asset 1 and Asset 2 and assuming that the wealth invested in the portfolio is equal to $w$ and that the weights of the two assets are $\alpha_{1}$ and $\alpha_{2}$ respectively, the result is:
 
 $$
-w _ {1} + w _ {2} = w \rightarrow \alpha_ {1} = \frac {w _ {1}}{w}; \quad \alpha_ {2} = \frac {w _ {2}}{w} \rightarrow \alpha_ {1} + \alpha_ {2} = 1 \tag {5.1}
+w_{1} + w_{2} = w \rightarrow \alpha_{1} = \frac{w_{1}}{w}; \quad \alpha_{2} = \frac{w_{2}}{w} \rightarrow \alpha_{1} + \alpha_{2} = 1 \tag{5.1}
 $$
 
 Assuming that the expected return of the two assets in the state of nature  $s$  are equal to  $R_{1,s}$  for Asset 1 and  $R_{2,s}$  for the Asset 2, the expected return of the portfolio  $(y_s)$  can be defined as follows (Saltari 2011):
 
 $$
-\mathbf {y} _ {\mathrm {s}} = \mathrm {w} \left(\alpha_ {1} \mathrm {R} _ {1, \mathrm {s}} + \alpha_ {2} \mathrm {R} _ {2, \mathrm {s}}\right) \tag {5.2}
+\mathbf{y}_{\mathrm{s}} = \mathrm{w} \left(\alpha_{1} \mathrm{R}_{1,\mathrm{s}} + \alpha_{2} \mathrm{R}_{2,\mathrm{s}}\right) \tag{5.2}
 $$
 
 In Eq. (5.2) the weights assigned to the two assets  $(\alpha_{1};\alpha_{2})$  are the only unknown variables. The choice of the couple  $(\alpha_{1};\alpha_{2})$  allows for definition of the optimal portfolio.
@@ -87,16 +110,113 @@ In Eq. (5.2) the weights assigned to the two assets  $(\alpha_{1};\alpha_{2})$  
 In order to simplify, assuming that the wealth invested in the portfolio is equal to  $1$  ( $w = 1$ ), Eq. (5.2) can be re-written as follows (Saltari 2011):
 
 $$
-\mathrm {E} \left(\mathrm {y} _ {\mathrm {s}}\right) = \alpha_ {1} \mathrm {E} \left(\mathrm {R} _ {1, \mathrm {s}}\right) + \alpha_ {2} \mathrm {E} \left(\mathrm {R} _ {2, \mathrm {s}}\right)
+\mathrm{E} \left(\mathrm{y}_{\mathrm{s}}\right) = \alpha_{1} \mathrm{E} \left(\mathrm{R}_{1,\mathrm{s}}\right) + \alpha_{2} \mathrm{E} \left(\mathrm{R}_{2,\mathrm{s}}\right)
 $$
 
 # 5.1 Diversified Portfolio
 
-and by considering that  $\operatorname{E}(.)\equiv \mu (.)$  , we have:
+and by considering that $\operatorname{E}(.)\equiv \mu (.)$, we have:
 
 $$
-\mu_ {\mathrm {P}} = \alpha_ {1} \mu_ {1} + \alpha_ {2} \mu_ {2} \tag {5.3}
+\mu_{\mathrm{P}} = \alpha_{1} \mu_{1} + \alpha_{2} \mu_{2} \tag{5.3}
 $$
+
+## Mean-Variance Portfolio Theory Overview
+
+```d2
+direction: right
+
+risk_return_plane: Risk-Return Plane {
+  shape: rectangle
+  label: |md
+    **Mean-Variance Portfolio Theory**
+    - X-axis: Portfolio Risk (σ_P)
+    - Y-axis: Expected Return (μ_P)
+    - Goal: Maximize return for given risk or minimize risk for given return
+  |
+}
+
+efficient_frontier: Efficient Frontier {
+  shape: oval
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+
+  label: |md
+    **Efficient Frontier**
+    - Curved line of optimal portfolios
+    - Maximum return for each risk level
+    - Minimum risk for each return level
+    - All portfolios above/below are inefficient
+  |
+}
+
+minimum_variance: Minimum Variance Portfolio {
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+
+  label: |md
+    **Global Minimum Variance**
+    - Lowest risk portfolio on frontier
+    - Leftmost point on efficient frontier
+    - Typically not optimal for most investors
+  |
+}
+
+risk_free: Risk-Free Asset {
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+
+  label: |md
+    **Risk-Free Asset**
+    - Zero variance (σ_RF = 0)
+    - Known return (μ_RF)
+    - Enables capital allocation line
+  |
+}
+
+cal: Capital Allocation Line {
+  style.stroke: "#9c27b0"
+  style.stroke-width: 3
+
+  label: |md
+    **Capital Allocation Line (CAL)**
+    - Straight line from risk-free asset
+    - Tangent to efficient frontier
+    - Optimal portfolios for risk-averse investors
+  |
+}
+
+optimal_portfolio: Optimal Portfolio {
+  style.fill: "#fce4ec"
+  style.stroke: "#e91e63"
+
+  label: |md
+    **Optimal Portfolio (Tangency Point)**
+    - Point where CAL touches efficient frontier
+    - Maximum Sharpe ratio
+    - Best risk-return combination
+  |
+}
+
+risk_return_plane -> efficient_frontier: Contains
+efficient_frontier -> minimum_variance: Includes
+risk_free -> cal: Defines slope
+cal -> optimal_portfolio: Touches at
+
+investor_choice: Investor Choice {
+  near: bottom-right
+  style.fill: "#f3e5f5"
+  style.stroke: "#9c27b0"
+
+  label: |md
+    **Individual Investor Choice**
+    - Along CAL based on risk tolerance
+    - More risk → higher expected return
+    - Utility maximization subject to preferences
+  |
+}
+```
+
 
 Equation (5.3) shows that the portfolio expected return  $(\mu_P)$  is equal to the linear combination of the expected returns of the two assets  $(\mu_1; \mu_2)$  weighted on the basis of their weights  $(\alpha_1; \alpha_2)$  in the portfolio.
 

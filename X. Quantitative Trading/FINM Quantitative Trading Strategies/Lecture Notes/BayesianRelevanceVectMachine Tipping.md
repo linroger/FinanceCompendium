@@ -1,13 +1,26 @@
 ---
-parent_directory:
-title: Sparse Bayesian Learning and the Relevance Vector Machine
-tags:
-aliases:
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+title: "Sparse Bayesian Learning and the Relevance Vector Machine"
+parent_directory: "FINM Quantitative Trading Strategies"
+formatted: "2025-12-21 04:00:00 AM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli_tool: "claude-code"
+primary_tags:
+  - sparse bayesian learning
+  - relevance vector machine
+  - gaussian processes
+  - automatic relevance determination
+secondary_tags:
+  - support vector machines
+  - marginal likelihood
+  - hyperparameter optimization
+  - probabilistic predictions
+  - kernel methods
+  - regression analysis
+  - classification algorithms
+  - model sparsity
+  - bayesian inference
+  - machine learning
 cssclasses: academia
-linter-yaml-title-alias: Sparse Bayesian Learning and the Relevance Vector Machine
 ---
 
 # Sparse Bayesian Learning and the Relevance Vector Machine
@@ -24,32 +37,30 @@ Cambridge CB2 3NH, U.K.
 
 Editor: Alex Smola
 
-# Abstract
+## Abstract
 
 This paper introduces a general Bayesian framework for obtaining sparse solutions to regression and classification tasks utilising models linear in the parameters. Although this framework is fully general, we illustrate our approach with a particular specialisation that we denote the 'relevance vector machine' (RVM), a model of identical functional form to the popular and state-of-the-art 'support vector machine' (SVM). We demonstrate that by exploiting a probabilistic Bayesian learning framework, we can derive accurate prediction models which typically utilise dramatically fewer basis functions than a comparable SVM while offering a number of additional advantages. These include the benefits of probabilistic predictions, automatic estimation of 'nuisance' parameters, and the facility to utilise arbitrary basis functions (e.g. non-Mercer' kernels).
 
 We detail the Bayesian framework and associated learning algorithm for the RVM, and give some illustrative examples of its application along with some comparative benchmarks. We offer some explanation for the exceptional degree of sparsity obtained, and discuss and demonstrate some of the advantageous features, and potential extensions, of Bayesian relevance learning.
 
-# 1. Introduction
+## 1. Introduction
 
 In supervised learning we are given a set of examples of input vectors  $\{\mathbf{x}_n\}_{n=1}^N$  along with corresponding targets  $\{t_n\}_{n=1}^N$ , the latter of which might be real values (in regression) or class labels (classification). From this 'training' set we wish to learn a model of the dependency of the targets on the inputs with the objective of making accurate predictions of  $t$  for previously unseen values of  $\mathbf{x}$ . In real-world data, the presence of noise (in regression) and class overlap (in classification) implies that the principal modelling challenge is to avoid 'over-fitting' of the training set.
 
 Typically, we base our predictions upon some function  $y(\mathbf{x})$  defined over the input space, and 'learning' is the process of inferring (perhaps the parameters of) this function. A flexible and popular set of candidates for  $y(\mathbf{x})$  is that of the form:
 
 $$
-y (\mathbf {x}; \mathbf {w}) = \sum_ {i = 1} ^ {M} w _ {i} \phi_ {i} (\mathbf {x}) = \mathbf {w} ^ {\mathrm {T}} \boldsymbol {\phi} (\mathbf {x}), \tag {1}
+y(\mathbf{x};\mathbf{w}) = \sum_{i=1}^{M} w_{i} \phi_{i}(\mathbf{x}) = \mathbf{w}^{\mathrm{T}} \boldsymbol{\phi}(\mathbf{x}), \tag{1}
 $$
 
-where the output is a linearly-weighted sum of  $M$ , generally nonlinear and fixed, basis functions  $\phi (\mathbf{x}) = (\phi_{1}(\mathbf{x}),\phi_{2}(\mathbf{x}),\ldots ,\phi_{M}(\mathbf{x}))^{\mathrm{T}}$ . Analysis of functions of the type (1) is facilitated
-
-since the adjustable parameters (or 'weights')  $\mathbf{w} = (w_{1}, w_{2}, \ldots, w_{M})^{\mathrm{T}}$  appear linearly, and the objective is to estimate 'good' values for those parameters.
+where the output is a linearly-weighted sum of  $M$ , generally nonlinear and fixed, basis functions  $\phi (\mathbf{x}) = (\phi_{1}(\mathbf{x}),\phi_{2}(\mathbf{x}),\ldots ,\phi_{M}(\mathbf{x}))^{\mathrm{T}}$ . Analysis of functions of the type (1) is facilitated since the adjustable parameters (or 'weights')  $\mathbf{w} = (w_{1}, w_{2}, \ldots, w_{M})^{\mathrm{T}}$  appear linearly, and the objective is to estimate 'good' values for those parameters.
 
 In this paper, we detail a Bayesian probabilistic framework for learning in general models of the form (1). The key feature of this approach is that as well as offering good generalisation performance, the inferred predictors are exceedingly sparse in that they contain relatively few non-zero  $w_{i}$  parameters. The majority of parameters are automatically set to zero during the learning process, giving a procedure that is extremely effective at discerning those basis functions which are 'relevant' for making good predictions.
 
 While the range of models of the type (1) that we can address is extremely broad, we concentrate here on a specialisation that we denote the 'relevance vector machine' (RVM), originally introduced by Tipping (2000). We consider functions of a type corresponding to those implemented by another sparse linearly-parameterised model, the support vector machine (SVM) (Boser et al., 1992; Vapnik, 1998; Scholkopf et al., 1999a). The SVM makes predictions based on the function:
 
 $$
-y (\mathbf {x}; \mathbf {w}) = \sum_ {i = 1} ^ {N} w _ {i} K (\mathbf {x}, \mathbf {x} _ {i}) + w _ {0}, \tag {2}
+y(\mathbf{x};\mathbf{w}) = \sum_{i=1}^{N} w_{i} K(\mathbf{x}, \mathbf{x}_{i}) + w_{0}, \tag{2}
 $$
 
 where  $K(\mathbf{x},\mathbf{x}_i)$  is a kernel function, effectively defining one basis function for each example in the training set. The key feature of the SVM is that, in the classification case, its target function attempts to minimise a measure of error on the training set while simultaneously maximising the 'margin' between the two classes (in the feature space implicitly defined by the kernel). This is a highly effective mechanism for avoiding over-fitting, which leads to good generalisation, and which furthermore results in a sparse model dependent only on a subset of kernel functions: those associated with training examples  $\mathbf{x}_n$  (the "support vectors") that lie either on the margin or on the 'wrong' side of it. State-of-the-art results have been reported on many tasks where the SVM has been applied.
@@ -74,15 +85,13 @@ We now detail the sparse Bayesian regression model and associated inference proc
 Given a data set of input-target pairs  $\{\mathbf{x}_n, t_n\}_{n=1}^N$ , considering scalar-valued target functions only, we follow the standard probabilistic formulation and assume that the targets are samples from the model with additive noise:
 
 $$
-t _ {n} = y (\mathbf {x} _ {n}; \mathbf {w}) + \epsilon_ {n},
+t_{n} = y(\mathbf{x}_{n};\mathbf{w}) + \epsilon_{n},
 $$
 
-where  $\epsilon_{n}$  are independent samples from some noise process which is further assumed to be mean-zero Gaussian with variance  $\sigma^2$ . Thus  $p(t_n|\mathbf{x}) = \mathcal{N}(t_n|y(\mathbf{x}_n),\sigma^2)$ , where the notation
-
-specifies a Gaussian distribution over  $t_n$  with mean  $y(\mathbf{x}_n)$  and variance  $\sigma^2$ . The function  $y(\mathbf{x})$  is as defined in (2) for the SVM where we identify our general basis functions with the kernel as parameterised by the training vectors:  $\phi_i(\mathbf{x}) \equiv K(\mathbf{x},\mathbf{x}_i)$ . Due to the assumption of independence of the  $t_n$ , the likelihood of the complete data set can be written as
+where  $\epsilon_{n}$  are independent samples from some noise process which is further assumed to be mean-zero Gaussian with variance  $\sigma^2$ . Thus  $p(t_n|\mathbf{x}) = \mathcal{N}(t_n|y(\mathbf{x}_n),\sigma^2)$ , where the notation specifies a Gaussian distribution over  $t_n$  with mean  $y(\mathbf{x}_n)$  and variance  $\sigma^2$ . The function  $y(\mathbf{x})$  is as defined in (2) for the SVM where we identify our general basis functions with the kernel as parameterised by the training vectors:  $\phi_i(\mathbf{x}) \equiv K(\mathbf{x},\mathbf{x}_i)$ . Due to the assumption of independence of the  $t_n$ , the likelihood of the complete data set can be written as
 
 $$
-p (\mathbf {t} | \mathbf {w}, \sigma^ {2}) = (2 \pi \sigma^ {2}) ^ {- N / 2} \exp \left\{- \frac {1}{2 \sigma^ {2}} \| \mathbf {t} - \boldsymbol {\Phi} \mathbf {w} \| ^ {2} \right\}, \tag {4}
+p(\mathbf{t}|\mathbf{w}, \sigma^{2}) = (2\pi\sigma^{2})^{-N/2} \exp\left\{-\frac{1}{2\sigma^{2}} \|\mathbf{t} - \boldsymbol{\Phi}\mathbf{w}\|^{2}\right\}, \tag{4}
 $$
 
 where  $\mathbf{t} = (t_1\ldots t_N)^\mathrm{T}$ ,  $\mathbf{w} = (w_0\ldots w_N)^\mathrm{T}$  and  $\Phi$  is the  $N\times (N + 1)$  'design' matrix with  $\Phi = [\phi (\mathbf{x}_1),\phi (\mathbf{x}_2),\dots ,\phi (\mathbf{x}_N)]^\mathrm{T}$ , wherein  $\phi (\mathbf{x}_n) = [1,K(\mathbf{x}_n,\mathbf{x}_1),K(\mathbf{x}_n,\mathbf{x}_2),\dots ,K(\mathbf{x}_n,\mathbf{x}_N)]^\mathrm{T}$ . For clarity, we omit to note the implicit conditioning upon the set of input vectors  $\{\mathbf{x}_n\}$  in (4) and subsequent expressions.
@@ -92,7 +101,7 @@ With as many parameters in the model as training examples, we would expect maxim
 We encode a preference for smoother (less complex) functions by making the popular choice of a zero-mean Gaussian prior distribution over  $\mathbf{w}$ :
 
 $$
-p (\mathbf {w} | \boldsymbol {\alpha}) = \prod_ {i = 0} ^ {N} \mathcal {N} \left(w _ {i} | 0, \alpha_ {i} ^ {- 1}\right), \tag {5}
+p(\mathbf{w}|\boldsymbol{\alpha}) = \prod_{i=0}^{N} \mathcal{N}(w_{i}|0, \alpha_{i}^{-1}), \tag{5}
 $$
 
 with  $\alpha$  a vector of  $N + 1$  hyperparameters. Importantly, there is an individual hyperparameter associated independently with every weight, moderating the strength of the prior thereon. $^4$
@@ -100,17 +109,17 @@ with  $\alpha$  a vector of  $N + 1$  hyperparameters. Importantly, there is an 
 To complete the specification of this hierarchical prior, we must define hyperpriors over  $\alpha$ , as well as over the final remaining parameter in the model, the noise variance  $\sigma^2$ . These quantities are examples of scale parameters, and suitable priors thereover are Gamma distributions (see, e.g., Berger, 1985):
 
 $$
-p (\boldsymbol {\alpha}) = \prod_ {i = 0} ^ {N} \operatorname {G a m m a} \left(\alpha_ {i} | a, b\right),
+p(\boldsymbol{\alpha}) = \prod_{i=0}^{N} \operatorname{Gamma}(\alpha_{i}|a, b),
 $$
 
 $$
-p (\beta) = \operatorname {G a m m a} (\beta | c, d),
+p(\beta) = \operatorname{Gamma}(\beta|c, d),
 $$
 
-with  $\beta \equiv \sigma^{-2}$  and where
+with $\beta \equiv \sigma^{-2}$ and where
 
 $$
-\operatorname {G a m m a} (\alpha | a, b) = \Gamma (a) ^ {- 1} b ^ {a} \alpha^ {a - 1} e ^ {- b \alpha}, \tag {6}
+\operatorname{Gamma}(\alpha|a, b) = \Gamma(a)^{-1} b^{a} \alpha^{a-1} e^{-b\alpha}, \tag{6}
 $$
 
 with  $\Gamma(a) = \int_{0}^{\infty} t^{a - 1} e^{-t} dt$ , the 'gamma function'. To make these priors non-informative (i.e. flat), we might fix their parameters to small values:  $e.g. a = b = c = d = 10^{-4}$ . However, by
@@ -121,18 +130,18 @@ This formulation of prior distributions is a type of automatic relevance determi
 
 Here, the assignment of an individual hyperparameter to each weight, or basis function, is the key feature of the relevance vector machine, and is responsible ultimately for its sparsity properties. To introduce an additional  $N + 1$  parameters to the model may seem counter-intuitive, since we have already conceded that we have too many parameters, but from a Bayesian perspective, if we correctly 'integrate out' all such 'nuisance' parameters (or can approximate such a procedure sufficiently accurately), then this presents no problem from a methodological perspective (see Neal, 1996, pp. 16-17). Any subsequently observed 'failure' in learning is attributable to the form, not the parameterisation, of the prior over functions.
 
-# 2.2 Inference
+## 2.2 Inference
 
 Having defined the prior, Bayesian inference proceeds by computing, from Bayes' rule, the posterior over all unknowns given the data:
 
 $$
-p (\mathbf {w}, \boldsymbol {\alpha}, \sigma^ {2} | \mathbf {t}) = \frac {p (\mathbf {t} | \mathbf {w} , \boldsymbol {\alpha} , \sigma^ {2}) p (\mathbf {w} , \boldsymbol {\alpha} , \sigma^ {2})}{p (\mathbf {t})}. \tag {7}
+p(\mathbf{w}, \boldsymbol{\alpha}, \sigma^{2}|\mathbf{t}) = \frac{p(\mathbf{t}|\mathbf{w}, \boldsymbol{\alpha}, \sigma^{2}) p(\mathbf{w}, \boldsymbol{\alpha}, \sigma^{2})}{p(\mathbf{t})}. \tag{7}
 $$
 
 Then, given a new test point,  $\mathbf{x}_{*}$ , predictions are made for the corresponding target  $t_{*}$ , in terms of the predictive distribution:
 
 $$
-p \left(t _ {*} \mid \mathbf {t}\right) = \int p \left(t _ {*} \mid \mathbf {w}, \boldsymbol {\alpha}, \sigma^ {2}\right) p \left(\mathbf {w}, \boldsymbol {\alpha}, \sigma^ {2} \mid \mathbf {t}\right) d \mathbf {w} d \boldsymbol {\alpha} d \sigma^ {2}. \tag {8}
+p(t_{*}|\mathbf{t}) = \int p(t_{*}|\mathbf{w}, \boldsymbol{\alpha}, \sigma^{2}) p(\mathbf{w}, \boldsymbol{\alpha}, \sigma^{2}|\mathbf{t}) d\mathbf{w} d\boldsymbol{\alpha} d\sigma^{2}. \tag{8}
 $$
 
 To those familiar, or even not-so-familiar, with Bayesian methods, it may come as no surprise to learn that we cannot perform these computations in full analytically, and must seek an effective approximation.
@@ -140,23 +149,23 @@ To those familiar, or even not-so-familiar, with Bayesian methods, it may come a
 We cannot compute the posterior  $p(\mathbf{w}, \boldsymbol{\alpha}, \sigma^2 | \mathbf{t})$  in (7) directly since we cannot perform the normalising integral on the right-hand-side,  $p(\mathbf{t}) = \int p(\mathbf{t} | \mathbf{w}, \boldsymbol{\alpha}, \sigma^2) p(\mathbf{w}, \boldsymbol{\alpha}, \sigma^2) d\mathbf{w} d\boldsymbol{\alpha} d\sigma^2$ . Instead, we decompose the posterior as:
 
 $$
-p (\mathbf {w}, \boldsymbol {\alpha}, \sigma^ {2} | \mathbf {t}) = p (\mathbf {w} | \mathbf {t}, \boldsymbol {\alpha}, \sigma^ {2}) p (\boldsymbol {\alpha}, \sigma^ {2} | \mathbf {t}), \tag {9}
+p(\mathbf{w}, \boldsymbol{\alpha}, \sigma^{2}|\mathbf{t}) = p(\mathbf{w}|\mathbf{t}, \boldsymbol{\alpha}, \sigma^{2}) p(\boldsymbol{\alpha}, \sigma^{2}|\mathbf{t}), \tag{9}
 $$
 
 and note that we can compute analytically the posterior distribution over the weights since its normalising integral,  $p(\mathbf{t}|\boldsymbol{\alpha}, \sigma^2) = \int p(\mathbf{t}|\mathbf{w}, \sigma^2) p(\mathbf{w}|\boldsymbol{\alpha}) d\mathbf{w}$ , is a convolution of Gaussians. The posterior distribution over the weights is thus given by:
 
 $$
-\begin{array}{l} p (\mathbf {w} | \mathbf {t}, \boldsymbol {\alpha}, \sigma^ {2}) = \frac {p (\mathbf {t} | \mathbf {w} , \sigma^ {2}) p (\mathbf {w} | \boldsymbol {\alpha})}{p (\mathbf {t} | \boldsymbol {\alpha} , \sigma^ {2})}, (10) \\ = (2 \pi) ^ {- (N + 1) / 2} | \boldsymbol {\Sigma} | ^ {- 1 / 2} \exp \left\{- \frac {1}{2} (\mathbf {w} - \boldsymbol {\mu}) ^ {\mathrm {T}} \boldsymbol {\Sigma} ^ {- 1} (\mathbf {w} - \boldsymbol {\mu}) \right\}, (11) \\ \end{array}
+\begin{array}{l} p(\mathbf{w}|\mathbf{t}, \boldsymbol{\alpha}, \sigma^{2}) = \frac{p(\mathbf{t}|\mathbf{w}, \sigma^{2}) p(\mathbf{w}|\boldsymbol{\alpha})}{p(\mathbf{t}|\boldsymbol{\alpha}, \sigma^{2})}, (10) \\ = (2\pi)^{-(N+1)/2} |\boldsymbol{\Sigma}|^{-1/2} \exp\left\{-\frac{1}{2} (\mathbf{w} - \boldsymbol{\mu})^{\mathrm{T}} \boldsymbol{\Sigma}^{-1} (\mathbf{w} - \boldsymbol{\mu})\right\}, (11) \\ \end{array}
 $$
 
 where the posterior covariance and mean are respectively:
 
 $$
-\boldsymbol {\Sigma} = \left(\sigma^ {- 2} \boldsymbol {\Phi} ^ {T} \boldsymbol {\Phi} + \mathbf {A}\right) ^ {- 1}, \tag {12}
+\boldsymbol{\Sigma} = (\sigma^{-2} \boldsymbol{\Phi}^{\mathrm{T}} \boldsymbol{\Phi} + \mathbf{A})^{-1}, \tag{12}
 $$
 
 $$
-\boldsymbol {\mu} = \sigma^ {- 2} \boldsymbol {\Sigma} \boldsymbol {\Phi} ^ {\mathrm {T}} \mathbf {t}, \tag {13}
+\boldsymbol{\mu} = \sigma^{-2} \boldsymbol{\Sigma} \boldsymbol{\Phi}^{\mathrm{T}} \mathbf{t}, \tag{13}
 $$
 
 with  $\mathbf{A} = \mathrm{diag}(\alpha_0,\alpha_1,\dots ,\alpha_N)$
@@ -174,12 +183,12 @@ Relevance vector 'learning' thus becomes the search for the hyperparameter poste
 For the case of uniform hyperpriors (we consider the general case in Appendix A), we need only maximise the term  $p(\mathbf{t}|\boldsymbol{\alpha}, \sigma^2)$ , which is computable and given by:
 
 $$
-\begin{array}{l} p (\mathbf {t} | \boldsymbol {\alpha}, \sigma^ {2}) = \int p (\mathbf {t} | \mathbf {w}, \sigma^ {2}) p (\mathbf {w} | \boldsymbol {\alpha}) d \mathbf {w}, \\ = (2 \pi) ^ {- N / 2} \left| \sigma^ {2} \mathbf {I} + \boldsymbol {\Phi} \mathbf {A} ^ {- 1} \boldsymbol {\Phi} ^ {\mathrm {T}} \right| ^ {- 1 / 2} \exp \left\{- \frac {1}{2} \mathbf {t} ^ {\mathrm {T}} \left(\sigma^ {2} \mathbf {I} + \boldsymbol {\Phi} \mathbf {A} ^ {- 1} \boldsymbol {\Phi} ^ {\mathrm {T}}\right) ^ {- 1} \mathbf {t} \right\}. \tag {15} \\ \end{array}
+\begin{array}{l} p(\mathbf{t}|\boldsymbol{\alpha}, \sigma^{2}) = \int p(\mathbf{t}|\mathbf{w}, \sigma^{2}) p(\mathbf{w}|\boldsymbol{\alpha}) d\mathbf{w}, \\ = (2\pi)^{-N/2} \left|\sigma^{2} \mathbf{I} + \boldsymbol{\Phi} \mathbf{A}^{-1} \boldsymbol{\Phi}^{\mathrm{T}}\right|^{-1/2} \exp\left\{-\frac{1}{2} \mathbf{t}^{\mathrm{T}} \left(\sigma^{2} \mathbf{I} + \boldsymbol{\Phi} \mathbf{A}^{-1} \boldsymbol{\Phi}^{\mathrm{T}}\right)^{-1} \mathbf{t}\right\}. \tag{15} \\ \end{array}
 $$
 
 In related Bayesian models, this quantity is known as the marginal likelihood, and its maximisation known as the type-II maximum likelihood method (Berger, 1985). The marginal likelihood is also referred to as the "evidence for the hyperparameters" by MacKay (1992a), and its maximisation as the "evidence procedure".
 
-# 2.3 Optimising the Hyperparameters
+## 2.3 Optimising the Hyperparameters
 
 Values of  $\alpha$  and  $\sigma^2$  which maximise (15) cannot be obtained in closed form, and here we summarise formulae for their iterative re-estimation. Further details concerning hyperparameter estimation, including alternative expectation-maximisation-based re-estimates, are given in Appendix A.
 
@@ -205,16 +214,14 @@ $$
 
 Note that the  $N$  in the denominator refers to the number of data examples and not the number of basis functions.
 
-The learning algorithm thus proceeds by repeated application of (16) and (18), concurrent with updating of the posterior statistics  $\pmb{\Sigma}$  and  $\pmb{\mu}$  from (12) and (13), until some suitable convergence criteria have been satisfied (see Appendix A for some further implementation details). In practice, during re-estimation, we generally find that many of the  $\alpha_{i}$  tend to infinity (or, in fact, become numerically indistinguishable from infinity given the machine accuracy)<sup>7</sup>. From (11), this implies that  $p(w_{i}|\mathbf{t},\boldsymbol{\alpha},\sigma^{2})$  becomes highly (in principle
+The learning algorithm thus proceeds by repeated application of (16) and (18), concurrent with updating of the posterior statistics  $\pmb{\Sigma}$  and  $\pmb{\mu}$  from (12) and (13), until some suitable convergence criteria have been satisfied (see Appendix A for some further implementation details). In practice, during re-estimation, we generally find that many of the  $\alpha_{i}$  tend to infinity (or, in fact, become numerically indistinguishable from infinity given the machine accuracy)<sup>7</sup>. From (11), this implies that $p(w_{i}|\mathbf{t},\boldsymbol{\alpha},\sigma^{2})$ becomes highly (in principle, infinitely) peaked at zero — i.e. we are a posteriori 'certain' that those $w_{i}$ are zero. The corresponding basis functions can thus be 'pruned', and sparsity is realised.
 
-ple, infinitely) peaked at zero — i.e. we are a posteriori 'certain' that those  $w_{i}$  are zero. The corresponding basis functions can thus be 'pruned', and sparsity is realised.
-
-# 2.4 Making Predictions
+## 2.4 Making Predictions
 
 At convergence of the hyperparameter estimation procedure, we make predictions based on the posterior distribution over the weights, conditioned on the maximising values  $\alpha_{\mathrm{MP}}$  and  $\sigma_{\mathrm{MP}}^2$ . We can then compute the predictive distribution, from (8), for a new datum  $\mathbf{x}_*$  using (11):
 
 $$
-p \left(t _ {*} \mid \mathbf {t}, \boldsymbol {\alpha} _ {\mathrm {M P}}, \sigma_ {\mathrm {M P}} ^ {2}\right) = \int p \left(t _ {*} \mid \mathbf {w}, \sigma_ {\mathrm {M P}} ^ {2}\right) p \left(\mathbf {w} \mid \mathbf {t}, \boldsymbol {\alpha} _ {\mathrm {M P}}, \sigma_ {\mathrm {M P}} ^ {2}\right) d \mathbf {w}. \tag {19}
+p(t_{*}|\mathbf{t}, \boldsymbol{\alpha}_{\mathrm{MP}}, \sigma_{\mathrm{MP}}^{2}) = \int p(t_{*}|\mathbf{w}, \sigma_{\mathrm{MP}}^{2}) p(\mathbf{w}|\mathbf{t}, \boldsymbol{\alpha}_{\mathrm{MP}}, \sigma_{\mathrm{MP}}^{2}) d\mathbf{w}. \tag{19}
 $$
 
 Since both terms in the integrand are Gaussian, this is readily computed, giving:
@@ -226,23 +233,23 @@ $$
 with
 
 $$
-y _ {*} = \boldsymbol {\mu} ^ {\mathrm {T}} \phi (\mathbf {x} _ {*}), \tag {21}
+y_{*} = \boldsymbol{\mu}^{\mathrm{T}} \phi(\mathbf{x}_{*}), \tag{21}
 $$
 
 $$
-\sigma_ {*} ^ {2} = \sigma_ {\mathrm {M P}} ^ {2} + \phi \left(\mathbf {x} _ {*}\right) ^ {\mathrm {T}} \boldsymbol {\Sigma} \phi \left(\mathbf {x} _ {*}\right). \tag {22}
+\sigma_{*}^{2} = \sigma_{\mathrm{MP}}^{2} + \phi(\mathbf{x}_{*})^{\mathrm{T}} \boldsymbol{\Sigma} \phi(\mathbf{x}_{*}). \tag{22}
 $$
 
 So the predictive mean is intuitively  $y(\mathbf{x}_{*};\pmb{\mu})$ , or the basis functions weighted by the posterior mean weights, many of which will typically be zero. The predictive variance (or 'error-bars') comprises the sum of two variance components: the estimated noise on the data and that due to the uncertainty in the prediction of the weights. In practice, then, we may thus choose to set our parameters  $\mathbf{w}$  to fixed values  $\pmb{\mu}$  for the purposes of point prediction, and retain  $\pmb{\Sigma}$  if required for computation of error bars (see Appendix D.1).
 
-# 3. Sparse Bayesian Classification
+## 3. Sparse Bayesian Classification
 
 Relevance vector classification follows an essentially identical framework as detailed for regression in the previous section. We simply adapt the target conditional distribution (likelihood function) and the link function to account for the change in the target quantities. As a consequence, we must introduce an additional approximation step in the algorithm.
 
 For two-class classification, it is desired to predict the posterior probability of membership of one of the classes given the input  $\mathbf{x}$ . We follow statistical convention and generalise the linear model by applying the logistic sigmoid link function  $\sigma(y) = 1/(1 + e^{-y})$  to  $y(\mathbf{x})$  and, adopting the Bernoulli distribution for  $P(t|\mathbf{x})$ , we write the likelihood as:
 
 $$
-P (\mathbf {t} | \mathbf {w}) = \prod_ {n = 1} ^ {N} \sigma \left\{y \left(\mathbf {x} _ {n}; \mathbf {w}\right) \right\} ^ {t _ {n}} [ 1 - \sigma \left\{y \left(\mathbf {x} _ {n}; \mathbf {w}\right) \right\} ] ^ {1 - t _ {n}}, \tag {23}
+P(\mathbf{t}|\mathbf{w}) = \prod_{n=1}^{N} \sigma\{y(\mathbf{x}_{n};\mathbf{w})\}^{t_{n}} [1 - \sigma\{y(\mathbf{x}_{n};\mathbf{w})\}]^{1 - t_{n}}, \tag{23}
 $$
 
 where, following from the probabilistic specification, the targets  $t_n \in \{0,1\}$ . Note that there is no 'noise' variance here.
@@ -254,7 +261,7 @@ However, unlike the regression case, we cannot integrate out the weights analyti
 Since  $p(\mathbf{w}|\mathbf{t},\boldsymbol {\alpha})\propto P(\mathbf{t}|\mathbf{w})p(\mathbf{w}|\boldsymbol {\alpha})$  , this is equivalent to finding the maximum, over  $\mathbf{w}$  of
 
 $$
-\log \left\{P (\mathbf {t} | \mathbf {w}) p (\mathbf {w} | \boldsymbol {\alpha}) \right\} = \sum_ {n = 1} ^ {N} \left[ t _ {n} \log y _ {n} + (1 - t _ {n}) \log (1 - y _ {n}) \right] - \frac {1}{2} \mathbf {w} ^ {\mathrm {T}} \mathbf {A} \mathbf {w}, \tag {24}
+\log\{P(\mathbf{t}|\mathbf{w}) p(\mathbf{w}|\boldsymbol{\alpha})\} = \sum_{n=1}^{N} [t_{n} \log y_{n} + (1 - t_{n}) \log(1 - y_{n})] - \frac{1}{2} \mathbf{w}^{\mathrm{T}} \mathbf{A} \mathbf{w}, \tag{24}
 $$
 
 with  $y_{n} = \sigma \{y(\mathbf{x}_{n};\mathbf{w})\}$ . This is a standard procedure, since (24) is a penalised (regularised) logistic log-likelihood function, and necessitates iterative maximisation. Second-order Newton methods may be effectively applied, since the Hessian of (24), required next in step 2, is explicitly computed. We adapted the efficient 'iteratively-reweighted least-squares' algorithm (e.g. Nabney, 1999) to find  $\mathbf{w}_{\mathrm{MP}}$ .
@@ -262,7 +269,7 @@ with  $y_{n} = \sigma \{y(\mathbf{x}_{n};\mathbf{w})\}$ . This is a standard pro
 2. Laplace's method is simply a quadratic approximation to the log-posterior around its mode. The quantity (24) is differentiated twice to give:
 
 $$
-\left. \nabla_ {\mathbf {w}} \nabla_ {\mathbf {w}} \log p (\mathbf {w} | \mathbf {t}, \boldsymbol {\alpha}) \right| _ {\mathbf {w} _ {\mathrm {M P}}} = - \left(\boldsymbol {\Phi} ^ {\mathrm {T}} \mathbf {B} \boldsymbol {\Phi} + \mathbf {A}\right), \tag {25}
+\left. \nabla_{\mathbf{w}} \nabla_{\mathbf{w}} \log p(\mathbf{w}|\mathbf{t}, \boldsymbol{\alpha}) \right|_{\mathbf{w}_{\mathrm{MP}}} = -(\boldsymbol{\Phi}^{\mathrm{T}} \mathbf{B} \boldsymbol{\Phi} + \mathbf{A}), \tag{25}
 $$
 
 where  $\mathbf{B} = \mathrm{diag}\left(\beta_{1},\beta_{2},\ldots ,\beta_{N}\right)$  is a diagonal matrix with  $\beta_{n} = \sigma \{y(\mathbf{x}_{n})\} [1 - \sigma \{y(\mathbf{x}_{n})\} ]$  This is then negated and inverted to give the covariance  $\pmb{\Sigma}$  for a Gaussian approximation to the posterior over weights centred at  $\mathbf{w}_{\mathrm{MP}}$
@@ -272,11 +279,11 @@ where  $\mathbf{B} = \mathrm{diag}\left(\beta_{1},\beta_{2},\ldots ,\beta_{N}\ri
 At the mode of  $p(\mathbf{w}|\mathbf{t},\pmb {\alpha})$ , using (25) and the fact that  $\nabla_{\mathbf{w}}\log p(\mathbf{w}|\mathbf{t},\pmb {\alpha})\big|_{\mathbf{w}_{\mathrm{MP}}} = 0$ , we can write:
 
 $$
-\boldsymbol {\Sigma} = \left(\boldsymbol {\Phi} ^ {\mathrm {T}} \mathbf {B} \boldsymbol {\Phi} + \mathbf {A}\right) ^ {- 1}, \tag {26}
+\boldsymbol{\Sigma} = (\boldsymbol{\Phi}^{\mathrm{T}} \mathbf{B} \boldsymbol{\Phi} + \mathbf{A})^{-1}, \tag{26}
 $$
 
 $$
-\mathbf {w} _ {\mathrm {M P}} = \boldsymbol {\Sigma} \boldsymbol {\Phi} ^ {\mathrm {T}} \mathbf {B} \mathbf {t}. \tag {27}
+\mathbf{w}_{\mathrm{MP}} = \boldsymbol{\Sigma} \boldsymbol{\Phi}^{\mathrm{T}} \mathbf{B} \mathbf{t}. \tag{27}
 $$
 
 These equations are equivalent to the solution to a 'generalised least squares' problem (e.g. Mardia et al., 1979, p.172). Compared with (12) and (13), it can be seen that the Laplace approximation effectively maps the classification problem to a regression one with data-dependent (heteroscedastic) noise, with the inverse noise variance for  $\epsilon_{n}$  given by  $\beta_{n} = \sigma \{y(\mathbf{x}_{n})\} [1 - \sigma \{y(\mathbf{x}_{n})\} ]$
@@ -286,21 +293,21 @@ How accurate is the Laplace approximation? In the Bayesian treatment of multilay
 For polychotomous classification, where the number of classes  $K$  is greater than two, the likelihood (23) is generalised to the standard multinomial form:
 
 $$
-P (\mathbf {t} | \mathbf {w}) = \prod_ {n = 1} ^ {N} \prod_ {k = 1} ^ {K} \sigma \left\{y _ {k} \left(\mathbf {x} _ {n}; \mathbf {w} _ {k}\right) \right\} ^ {t _ {n k}}, \tag {28}
+P(\mathbf{t}|\mathbf{w}) = \prod_{n=1}^{N} \prod_{k=1}^{K} \sigma\{y_{k}(\mathbf{x}_{n};\mathbf{w}_{k})\}^{t_{nk}}, \tag{28}
 $$
 
 where a conventional "one-of-  $K$ " target coding for  $t$  is used and the classifier has multiple outputs  $y_{k}(\mathbf{x};\mathbf{w}_{k})$ , each with its own parameter vector  $\mathbf{w}_k$  and associated hyperparameters  $\alpha_{k}$  (although the hyperparameters could be shared amongst outputs if desired). The modified Hessian is computed from this (see Nabney, 1999) and inference proceeds as shown above. There is no need to heuristically combine multiple classifiers as is the case with, for example, the SVM. However, the size of  $\pmb{\Sigma}$  scales with  $K$ , which is a highly disadvantageous consequence from a computational perspective.
 
-# 4. Relevance Vector Examples
+## 4. Relevance Vector Examples
 
 In this section we first present some visualisations of the relevance vector machine applied to simple example synthetic data sets in both regression (Section 4.1) and classification (Section 4.2), followed by another synthetic regression example to demonstrate some potential extensions of the approach (Section 4.3). We then offer some illustrative 'benchmark' results in Section 4.4.
 
-# 4.1 Relevance Vector Regression: the 'sinc' function
+## 4.1 Relevance Vector Regression: the 'sinc' function
 
 The function  $\operatorname{sinc}(x) = \sin (x) / x$  has been a popular choice to illustrate support vector regression (Vapnik et al., 1997; Vapnik, 1998), where in place of the classification margin, the  $\epsilon$ -insensitive region is introduced, a 'tube' of  $\pm \epsilon$  around the function within which errors are not penalised. In this case, the support vectors lie on the edge of, or outside, this region. For example, using a univariate 'linear spline' kernel:
 
 $$
-K (x _ {m}, x _ {n}) = 1 + x _ {m} x _ {n} + x _ {m} x _ {n} \min (x _ {m}, x _ {n}) - \frac {x _ {m} + x _ {n}}{2} \min (x _ {m}, x _ {n}) ^ {2} + \frac {\min (x _ {m} , x _ {n}) ^ {3}}{3}, \tag {29}
+K(x_{m}, x_{n}) = 1 + x_{m} x_{n} + x_{m} x_{n} \min(x_{m}, x_{n}) - \frac{x_{m} + x_{n}}{2} \min(x_{m}, x_{n})^{2} + \frac{\min(x_{m}, x_{n})^{3}}{3}, \tag{29}
 $$
 
 and with  $\epsilon = 0.01$ , the approximation of  $\operatorname{sinc}(x)$  based on 100 uniformly-spaced noise-free samples in  $[-10, 10]$  utilises 36 support vectors as shown in Figure 1 (left).
@@ -319,14 +326,14 @@ Figure 2: Support (left) and relevance (right) vector approximations to  $\opera
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e82d8671-f4d5-422d-97f2-2bf04b552faa/e766538f8df40291d3ed4ece51c250c8fb9817bcf6164389f02b2cd373265b9b.jpg)
 
-# 4.2 Relevance Vector Classification: Ripley's synthetic data
+## 4.2 Relevance Vector Classification: Ripley's synthetic data
 
 We utilise artificially-generated data in two dimensions in order to illustrate graphically the selection of relevance vectors for classification. Both class 1 (denoted by  $\times$ ) and class 2 ( $\bullet$ ) were generated from mixtures of two Gaussians by Ripley (1996), with the classes overlapping to the extent that the Bayes error is around  $8\%$ .
 
 A relevance vector classifier is compared to its support vector counterpart, using a 'Gaussian' kernel which we define as
 
 $$
-K (\mathbf {x} _ {m}, \mathbf {x} _ {n}) = \exp (- r ^ {- 2} \| \mathbf {x} _ {m} - \mathbf {x} _ {n} \| ^ {2}), \tag {30}
+K(\mathbf{x}_{m}, \mathbf{x}_{n}) = \exp(-r^{-2} \|\mathbf{x}_{m} - \mathbf{x}_{n}\|^{2}), \tag{30}
 $$
 
 with  $r$  the 'width' parameter, chosen here to be 0.5. A value of  $C$  for the SVM was selected using 5-fold cross-validation on the training set. The results for a 100-example training set (randomly chosen from Ripley's original 250) are given in Figure 3. The test error (from the associated 1000-example test set) for the RVM (9.3%) is slightly superior to the SVM (10.6%), but the remarkable feature of contrast is the complexity of the classifiers. The support vector machine utilises 38 kernel functions compared to just 4 for the relevance vector method. This considerable difference in sparsity between the two methods is typical, as the later results on benchmark data sets support.
@@ -340,7 +347,7 @@ Of interest also is the fact that, unlike for the SVM, the relevance vectors are
 
 indicator of class membership (i.e. its output is poorly-aligned with the data set in  $\mathbf{t}$ -space — see Section 5.2 for an illustration of this concept), and such basis functions are naturally penalised (deemed 'irrelevant') under the Bayesian framework. Of course, there is no implication that the utilisation of either boundary-located or prototypically-located functions is 'correct' in any sense.
 
-# 4.3 Extensions
+## 4.3 Extensions
 
 Before giving some example results on benchmark data sets, we use another synthetic example to demonstrate the potential of two advantageous features of the sparse Bayesian approach: the ability to utilise arbitrary basis functions, and the facility to directly 'optimize' parameters within the kernel specification, such as those which moderate the input scales.
 
@@ -371,7 +378,7 @@ basis functions that we feel might be useful in a given problem. Here, mirroring
 A second modification is to directly optimise the marginal likelihood with respect to the kernel input scale parameters. For this problem we thus introduce the parameters  $\eta_{1}$  and  $\eta_{2}$  such that the kernel function becomes
 
 $$
-K (\mathbf {x} _ {m}, \mathbf {x} _ {n}) = \exp \left\{- \eta_ {1} (x _ {m 1} - x _ {n 1}) ^ {2} - \eta_ {2} (x _ {m 2} - x _ {n 2}) ^ {2} \right\}. \qquad \qquad (3 1)
+K(\mathbf{x}_{m}, \mathbf{x}_{n}) = \exp\left\{-\eta_{1} (x_{m1} - x_{n1})^{2} - \eta_{2} (x_{m2} - x_{n2})^{2}\right\}. \tag{31}
 $$
 
 To estimate these parameters, at each iteration of the hyperparameter updates (16) a cycle of maximisation of the marginal likelihood (15) with respect to  $\eta_{1}$  and  $\eta_{2}$  was performed (using a gradient-based method). We give further implementation details in Appendix C.

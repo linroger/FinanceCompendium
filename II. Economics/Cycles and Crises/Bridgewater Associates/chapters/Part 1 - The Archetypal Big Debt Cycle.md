@@ -1,11 +1,9 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Table of Contents
-linter-yaml-title-alias: Table of Contents
+title: Principles for Navigating Big Debt Crises
+parent_directory: chapters
+formatted: 2025-12-21 04:00:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: obsidian-formatting-agent
 primary_tags:
 - cycle archetypal big debt
 - currency weakening capital flows
@@ -30,45 +28,16 @@ secondary_tags:
 - depressions currency crises phases
 - amcs steps restructure debt
 - stronger currency debt
-tags_extracted: '2025-12-18T00:08:11.093293'
+cssclasses: academia
 ---
 # Principles for Navigating Big Debt Crises
 ### RAY DALIO
 
 ## PART 1: THE ARCHETYPAL BIG DEBT CYCLE
 
-# Table of Contents
+## Table of Contents
 
-- Introduction
-
-## Part 1: The Archetypal Big Debt Cycle
-- How I Think about Credit and Debt
-- The Template for the Archetypal Long-Term/Big Debt Cycle
-- Our Examination of the Cycle
-
-## The Phases of the Classic Deflationary Debt Cycle
-- The Early Part of the Cycle
-- The Bubble
-- The Top
-- The "Depression"
-- The "Beautiful Deleveraging"
-- "Pushing on a String"
-- Normalization
-
-## Inflationary Depressions and Currency Crises
-
-## The Phases of the Classic Inflationary Debt Cycle
-- The Early Part of the Cycle
-- The Bubble
-- The Top and Currency Defense
-- The Depression (Often When the Currency Is Let Go)
-- Normalization
-- The Spiral from a More Transitory Inflationary Depression to Hyperinflation
-
-## War Economies
-
-## In Summary
-# Introduction
+## Introduction
 
 I am writing this on the tenth anniversary of the 2008 financial crisis in order to offer the perspective of an investor who navigated that crisis well because I had developed a template for understanding how all debt crises work. I am sharing that template here in the hope of reducing the likelihood of future debt crises and helping them be better managed.
 
@@ -86,9 +55,9 @@ To me, watching the economy and markets, or just about anything else, on a day-t
 
 To be clear, I appreciate that different people have different perspectives, that mine is just one, and that by putting our perspectives out there for debate we can all advance our understandings. I am sharing this study to do just that.
 
-# The Archetypal Big Debt Cycle
+## The Archetypal Big Debt Cycle
 
-# How I Think about Credit and Debt
+## How I Think about Credit and Debt
 
 Since we are going to use the terms "credit" and "debt" a lot, I'd like to start with what they are and how they work.
 

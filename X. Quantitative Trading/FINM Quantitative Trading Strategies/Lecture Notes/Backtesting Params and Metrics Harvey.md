@@ -26,26 +26,24 @@ cssclasses: academia
 
 # Backtesting
 
-# CAMPBELL R. HARVEY AND YAN LIU
+## CAMPBELL R. HARVEY AND YAN LIU
 
-# CAMPBELL R. HARVEY
+## CAMPBELL R. HARVEY
 
 is a professor at Duke University in Durham, NC, and a research associate at the National Bureau of Economic Research in Cambridge, MA. cam.harvey@duke.edu
 
-# YAN LIU
+## YAN LIU
 
 is an assistant professor at Texas A&M University in College Station, TX.  
 y-liu@mays.tamu.edu
 
-A common practice in evaluating backtests of trading strategies is to discount the reported Sharpe ratios by  $50\%$ . There are good economic and statistical reasons for reducing the Sharpe ratios. The discount is a result of data mining. This mining may manifest itself in academic researchers searching for asset-pricing factors that explain the behavior of equity returns, or by researchers at firms that specialize in quantitative equity strategies trying to develop profitable systematic strategies.
+A common practice in evaluating backtests of trading strategies is to discount the reported Sharpe ratios by  \$50\% . There are good economic and statistical reasons for reducing the Sharpe ratios. The discount is a result of data mining. This mining may manifest itself in academic researchers searching for asset-pricing factors that explain the behavior of equity returns, or by researchers at firms that specialize in quantitative equity strategies trying to develop profitable systematic strategies.
 
-The  $50\%$  haircut is only a rule of thumb. Our article's goal is to develop an analytical way to determine the haircut's magnitude.
+The  \$50\%  haircut is only a rule of thumb. Our article's goal is to develop an analytical way to determine the haircut's magnitude.
 
 Our framework relies on the statistical concept of multiple testing. Suppose you have some new data, Y, and you propose that variable X explains Y. Your statistical analysis finds a significant relation between Y and X with a  $t$ -ratio of 2.0, which has a probability value of 0.05. We refer to this as a single test. Now consider the same researcher trying to explain Y with variables  $X_{1}, X_{2}, \ldots, X_{100}$ . In this case, you cannot use the same criteria for significance. You expect that, by chance, some of these variables will produce  $t$ -ratios of 2.0 or higher. What is an appropriate cut off for statistical significance?
 
-In this article, we present three approaches to multiple testing and the question in the previous example. The  $t$ -ratio is
-
-generally higher as the number of tests (or X variables) increases.
+In this article, we present three approaches to multiple testing and the question in the previous example. The  $t$ -ratio is generally higher as the number of tests (or X variables) increases.
 
 In summary, any given strategy produces a Sharpe ratio. We transform the Sharpe ratio into a  $t$ -ratio. Suppose that  $t$ -ratio is 3.0. Although a  $t$ -ratio of 3.0 is highly significant in a single test, it may not be if we take multiple tests into account. We proceed to calculate a  $p$ -value that appropriately reflects multiple testing.
 
@@ -67,7 +65,7 @@ Fourth, we must make a choice of the multiple testing method. We present results
 
 Given choices three to five, it is important to determine the haircuts' robustness to changes in these inputs. We provide a program that lets the user vary the key parameters to investigate the effect on the haircuts.2 We also provide a program that determines the minimal level of profitability for a trading strategy to be considered significant.
 
-# METHOD
+## METHOD
 
 We start by describing the simplest situation in which a Sharpe ratio is used to evaluate the performance of a single investment strategy.
 
@@ -78,7 +76,7 @@ To evaluate whether an investment strategy can generate and maintain true profit
 two-sided alternative hypothesis. In other words, insofar as the long-short strategy can generate a mean return that is significantly different from zero (either positive or negative), we think of it as a profitable strategy. To test this hypothesis, we first construct key sample statistics. Given a sample of historical returns  $(r_1, r_2, \ldots, r_T)$ , let  $\hat{\mu}$  denote the mean and  $\hat{\sigma}$  the standard deviation. A  $t$ -statistic is constructed to test the null hypothesis that the average return is zero:
 
 $$
-t \text { - s t a t i s t i c} = \frac {\hat {\mu}}{\hat {\sigma} / \sqrt {T}} \tag {1}
+t \text{-statistic} = \frac {\hat {\mu}}{\hat {\sigma} / \sqrt {T}} \tag {1}
 $$
 
 Under the assumption that returns are i.i.d. normal, $^3$  the  $t$ -statistic follows a  $t$ -distribution with  $T - 1$  degrees of freedom under the null hypothesis.
@@ -88,7 +86,7 @@ We can follow standard hypothesis-testing procedures to assess the statistical s
 The Sharpe ratio, one of the most commonly used summary statistics in finance, is linked to the  $t$ -statistic in a simple manner. Given  $\hat{\mu}$  and  $\hat{\sigma}$ , the Sharpe ratio  $(\widehat{SR})$  is defined as
 
 $$
-\widehat {S R} = \frac {\hat {\mu}}{\hat {\sigma}} \tag {2}
+\widehat{SR} = \frac{\hat{\mu}}{\hat{\sigma}} \tag{2}
 $$
 
 which, based on Equation 1, is simply  $t$ -ratio  $/ \sqrt{T}$ .<sup>4</sup> Therefore, for a fixed  $T$ , a higher Sharpe ratio implies a higher  $t$ -statistic, which in turn implies a higher significance level (lower  $p$ -value) for the investment strategy. This equivalence between the Sharpe ratio and the  $t$ -statistic, among many other reasons, justifies the use of Sharpe ratio as an appropriate measure of an investment strategy's attractiveness under our assumptions.
@@ -466,12 +464,12 @@ To give an example of how the program works, suppose we are interested in the re
 Input vector
 
 $$
-= \left[ \begin{array}{c} \text {S i g n i f i c a n c e l e v e l} \\ \# \text {o f o b s} \\ \text {A n n u a l i z e d r e t u r n v o l a t i l i t y} \\ \# \text {o f t e s t s a s u m e d} \\ \text {A v e r a g e c o r r e l a t i o n a s s u m e d} \end{array} \right] = \left[ \begin{array}{c} 0. 0 5 \\ 2 4 0 \\ 0. 1 \\ 3 0 0 \\ 0. 4 \end{array} \right]
+= \left[ \begin{array}{c} \text{Significance level} \\ \# \text {o f o b s} \\ \text {A n n u a l i z e d r e t u r n v o l a t i l i t y} \\ \# \text {o f t e s t s a s u m e d} \\ \text {A v e r a g e c o r r e l a t i o n a s s u m e d} \end{array} \right] = \left[ \begin{array}{c} 0. 0 5 \\ 2 4 0 \\ 0. 1 \\ 3 0 0 \\ 0. 4 \end{array} \right]
 $$
 
 Passing the input vector to Profit_Hurdle, the function generates a sequence of outputs, as shown in Exhibit 6. The program summarizes the data the user provides. The program output includes return hurdles for a variety of adjustment methods. For instance, the adjusted return hurdle under BHY is  $0.621\%$  per month and the average multiple testing return hurdle is  $0.670\%$  per month.
 
-# Correlation Adjustment
+## Correlation Adjustment
 
 We use the model estimated in HLZ to provide correlation adjustment when tests are correlated.
 

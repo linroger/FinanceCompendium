@@ -1,19 +1,25 @@
 ---
-parent_directory: Background Readings
-title: Fundamental Analysis Redux
-tags:
-aliases:
-  - Fundamental Analysis Redux
-parent_folder: Background Readings
-subfolder:
-key_concepts:
+title: "Fundamental Analysis Redux"
+parent_directory: "Background Readings"
+formatted: 2025-12-21 03:50:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+  - fundamental analysis
+  - quantitative investing
+  - value investing
+secondary_tags:
+  - security analysis
+  - market efficiency
+  - financial statement analysis
+  - accounting anomalies
+  - intrinsic value
 cssclasses: academia
-linter-yaml-title-alias: Fundamental Analysis Redux
 ---
 
-# PRESIDENTIAL SCHOLAR
-
 # Fundamental Analysis Redux
+
+## Presidential Scholar
 
 Richard G. Sloan
 
@@ -27,7 +33,7 @@ Keywords: fundamental analysis; quantitative investing; market efficiency.
 
 # I. INTRODUCTION
 
-I have spent much of my career teaching students how to interpret financial statements. A key lesson I impress on students is that they should not make financial decisions based solely on a handful of financial ratios. Instead, they should conduct a thorough analysis of the underlying business and carefully analyze the extent to which the accounting numbers reflect economic reality. $^{1}$
+I have spent much of my career teaching students how to interpret financial statements. A key lesson I impress on students is that they should not make financial decisions based solely on a handful of financial ratios. Instead, they should conduct a thorough analysis of the underlying business and carefully analyze the extent to which the accounting numbers reflect economic reality.$^{1}$
 
 Accounting textbooks are replete with examples of how accounting principles can distort economic reality. The requirement to expense most investments in research and development is a case in point. In other cases, managers must choose between accounting methods that can poorly reflect economic reality. Examples include different inventory cost flow assumptions and different long-lived asset depreciation and amortization methods. Finally, many accounting numbers require substantial judgement and estimation. Examples include the allowance for loan losses on receivables and the liability for employee postretirement benefit obligations.
 
@@ -47,7 +53,7 @@ Accepted: December 2018
 
 Published Online: March 2019
 
-academic finance and the investment world today are increasingly dominated by quantitative investment strategies. These strategies typically select securities using a few financial ratios, often in conjunction with mathematical portfolio optimization techniques. Recent changes have been so profound that the Wall Street Journal recently proclaimed that "The Quants Run Wall Street Now."2
+academic finance and the investment world today are increasingly dominated by quantitative investment strategies. These strategies typically select securities using a few financial ratios, often in conjunction with mathematical portfolio optimization techniques. Recent changes have been so profound that the Wall Street Journal recently proclaimed that "The Quants Run Wall Street Now." $^2$
 
 Quantitative investing strategies are often referred to as "rules-based" strategies. A common example is the construction of a portfolio of stocks with high book-to-market ratios. The benefits of such strategies are well-documented. These rules-based strategies can quickly select securities from a large investment universe, while the traditional fundamental analyst can typically analyze only a small subset of the investment universe. Quantitative strategies are also objective, thus avoiding the well-documented behavioral biases affecting many human investors, such as chasing glamor stocks or holding on to losing stocks. Finally, the past performance of quantitative strategies can be objectively verified using backtests.
 
@@ -120,6 +126,82 @@ My discussion of quantitative investing thus far has focused on index-based prod
 
 # IV. A PERSPECTIVE ON QUANTITATIVE INVESTING
 
+## Evolution of Investment Approaches
+
+```d2
+direction: right
+
+fundamental_analysis: Fundamental Analysis {
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+
+  label: |md
+    **1934: Graham & Dodd**
+    - Comprehensive analysis
+    - Qualitative + quantitative
+    - Intrinsic value focus
+    - Manual process
+  |
+}
+
+efficient_markets: Efficient Markets Hypothesis {
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+
+  label: |md
+    **1970s: EMH**
+    - Prices reflect fundamentals
+    - Random walk theory
+    - Indexing becomes popular
+    - Fundamental analysis sidelined
+  |
+}
+
+quantitative_anomalies: Quantitative Anomalies {
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+
+  label: |md
+    **1990s-2000s: Anomalies**
+    - Value, momentum, quality factors
+    - Book-to-market, accruals
+    - Backtested strategies
+    - Index funds emerge
+  |
+}
+
+modern_quant: Modern Quantitative Investing {
+  style.fill: "#fce4ec"
+  style.stroke: "#e91e63"
+
+  label: |md
+    **2010s: "Quants Run Wall Street"**
+    - Multi-factor strategies
+    - Smart beta ETFs
+    - Big data approaches
+    - Competition erodes returns
+  |
+}
+
+fundamental_analysis -> efficient_markets: Challenged by EMH
+efficient_markets -> quantitative_anomalies: Anomalies discovered
+quantitative_anomalies -> modern_quant: Proliferation of factors
+modern_quant -> fundamental_analysis: Returns to comprehensive analysis
+
+back_to_fundamentals: Back to Fundamentals {
+  style.fill: "#f3e5f5"
+  style.stroke: "#9c27b0"
+  near: bottom-center
+
+  label: |md
+    **Sloan's Argument:**
+    - Quantitative strategies overlook fundamentals
+    - Identify temporary distortions, not mispricing
+    - Comprehensive analysis essential for efficiency
+  |
+}
+```
+
 The histories of fundamental analysis and quantitative analysis illustrate how approaches to investing have come full circle since the publication of Graham and Dodd (1934). Graham and Dodd's (1934) original text cautioned against making investments purely on the basis of a handful of quantitative factors, such as book value and earnings, and recommended that investors undertake a thorough fundamental analysis to determine intrinsic value. With the advent of the efficient markets hypothesis (EMH), investors were encouraged to assume that prices reflect intrinsic value and to concentrate on forming appropriately diversified portfolios. This led to the popularity of indexing. Subsequently, research on the EMH uncovered various anomalies, whereby stocks with specific characteristics were shown to have outperformed the broader market. Several of the most robust anomalies were based on accounting numbers. Appealing to asset pricing theory, the characteristics underlying these anomalies have been used to create investment products labeled "factors" and "smart betas." Monikers are attached to these factors to associate them with fundamental analysis, such as "value" and "quality," and they are marketed as strategies designed to yield superior investment performance.
 
 This brings us back to Fama's (1965) comments on investing in efficient markets. Can today's markets be so inefficient that investing based on simple and well-known financial ratios can systematically identify mispriced securities? Kok et al. (2017) address this issue directly in the case of formulaic value investing strategies, such as strategies based on the book-to-market ratio. For U.S. equities, they find no compelling evidence to support the outperformance of the book-to-market strategy. They find that the backtest results supporting the outperformance of the book-to-market strategy are primarily driven by the underperformance of small cap growth stocks. But these backtests ignore lending fees and other impediments to arbitrage that are particularly pronounced for small cap growth stocks. Thus, Kok et al. (2017) question whether these returns are realizable in practice.
@@ -156,13 +238,13 @@ In this section, I present two case studies to illustrate the pitfalls of quanti
 
 # Case Study 1: Whiting Petroleum
 
-Whiting Petroleum is an independent oil and gas company engaged in development, production, acquisition, and exploration activities, primarily in the Rocky Mountains Region of the United States. Whiting's major assets are its proven reserves of oil and gas. Table 3, which summarizes Whiting's financial position from 2013 through 2016, shows that the standardized value of Whiting's proven oil and gas reserves plummeted from \(10,843M at the end of 2014 to \)4,574M at the end of 2015.[13] This was accompanied by a sharp decline in Whiting's market capitalization from \(5,507M to \)1,927M. The differences between the values of the proven reserves and the market capitalizations are largely explained by the fact that Whiting was financed by about \)5,000M of debt during this period. The declines in both the value of Whiting's reserves and its market value were driven by a steep drop in the price of oil. The price for a barrel of oil had been in excess of \$100 a barrel during the fall of 2014, but had declined to \$55 by the end of 2014 and \$37 by the end of 2015.
+Whiting Petroleum is an independent oil and gas company engaged in development, production, acquisition, and exploration activities, primarily in the Rocky Mountains Region of the United States. Whiting's major assets are its proven reserves of oil and gas. Table 3, which summarizes Whiting's financial position from 2013 through 2016, shows that the standardized value of Whiting's proven oil and gas reserves plummeted from \$10,843M at the end of 2014 to \$4,574M at the end of 2015.$^{13}$ This was accompanied by a sharp decline in Whiting's market capitalization from \$5,507M to \$1,927M. The differences between the values of the proven reserves and the market capitalizations are largely explained by the fact that Whiting was financed by about \$5,000M of debt during this period. The declines in both the value of Whiting's reserves and its market value were driven by a steep drop in the price of oil. The price for a barrel of oil had been in excess of \$100 a barrel during the fall of 2014, but had declined to \$55 by the end of 2014 and \$37 by the end of 2015.
 
 Given that Whiting's major asset is its proven reserves and that Whiting was highly levered, it makes sense that Whiting's stock price plummeted in response to the collapse in the price of oil. Yet it is also apparent that the net book value of Whiting's property, plant, and equipment (PP&E) and the associated book value of common equity did not drop by nearly as much. This caused Whiting's book-to-market ratio to rise sharply. Figure 1 shows how Whiting's book value per share and stock price responded to the drop in the price of oil. While Whiting's stock price moved in lockstep with the price of oil, Whiting's book value exhibited a much more muted response. Whiting did not record an impairment to its oil and gas properties until the third quarter of 2015, and that impairment amounted to only about  \$10/share, even though the decline in the price of oil had wiped out about\$ 70/share from Whiting's stock price. This caused Whiting's book-to-market ratio to increase from around 0.4 in mid-2014 to 2.0 just before the write-down, with a decline to about 1.0 immediately after the write-down.
 
 Those familiar with the accounting for oil and gas properties should realize what happened. Whiting uses the "successful efforts" method to account for its oil and gas properties. This means that when Whiting discovers a commercially viable property, it capitalizes the exploration and developments costs incurred for that property as an asset. If the fair value of a property exceeds
 
-This shift is discussed in: http://www.ftserussell.com/files/press-releases/ftse-russell-announces-preliminary-lists-2015-russell-indexes-reconstitution  
+This shift is discussed in: http://www.ftserussell.com/files/press-releases/ftse-russell-announces-preliminary-lists-2015-russell-indexes-reconstitution
 Pursuant to Financial Accounting Standards Board (FASB) and Securities and Exchange Commission (SEC) rules, the commodity price used in the year-end standardized measure is based on the unweighted arithmetic average of the first-day-of-the-month price for each month of the fiscal year. This is why the standardized measure peaks at the end of 2014, even though oil prices had already begun their tumble by then.
 
 TABLE 3  
@@ -256,6 +338,172 @@ sold by year-end. As such, it was just a temporary timing difference in the payo
 The Big Five case illustrates several pitfalls of the generic multi-factor approach to investing. First, as in the Whiting case, the use of value factors leads to false inferences along the lines explained by Kok et al. (2017). Cheap valuation ratios typically identify firms with temporarily high fundamentals. Second, screening on momentum does not necessarily eliminate firms with deteriorating fundamentals. Even these firms experience occasional periods of outperformance due to the exit of competitors or other short-term shocks. Finally, accounting quality measures, such as high accounting rates of return, low leverage ratios, and low accruals, can overlook important fundamental insights. The old plant trap is a classic example and it is particularly pernicious for multi-factor quants screens, as it boosts the accounting rate of return for mature firms in secular decline. The exclusion of operating lease obligations from leverage ratios is another example of how accounting ratios can distort economic reality. And limitations of cash flows as a measure of periodic performance are the reason why accrual accounting was developed in the first place. My students often question whether investors overlook such fundamental insights. I offer quality factor funds as prime examples.
 
 Fortunately, accounting rules are about to change to require the constructive capitalization of most operating leases. This is a good example of how improved accounting rules can better reflect economic reality and so protect investors who rely on simple accounting ratios. In the meantime, I expect that quantitative investors will continue to adapt their strategies to adjust for well-known accounting distortions. But in an ever-changing and increasingly complex business world, I do not think we will soon see the day when accountants and quantitative investors will render traditional fundamental analysis obsolete.
+
+# Evolution of Investment Analysis Paradigms
+
+```d2
+direction: right
+
+fundamental_era: Fundamental Analysis Era {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+
+  graham_dodd: Graham & Dodd (1934) {
+    style.fill: "#c8e6c9"
+  }
+
+  intrinsic_value: Intrinsic Value Focus
+  comprehensive_analysis: Comprehensive Business Analysis
+  qualitative_factors: Qualitative + Quantitative
+}
+
+transition: Paradigm Shift {
+  shape: diamond
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+
+  efficient_markets: Efficient Markets Hypothesis
+  modern_portfolio: Modern Portfolio Theory
+  capm: Capital Asset Pricing Model
+}
+
+quantitative_era: Quantitative Investing Era {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+
+  anomalies: Accounting Anomalies {
+    style.fill: "#ffcdd2"
+  }
+
+  factor_indices: Value, Momentum, Quality Indices
+  smart_betas: Smart Beta ETFs
+  machine_learning: Algorithmic Strategies
+}
+
+fundamental_era -> transition -> quantitative_era: Historical Evolution
+```
+
+## Fundamental vs Quantitative Analysis Comparison
+
+```d2
+direction: down
+
+comparison: Analysis Approaches {
+  shape: rectangle
+  style.fill: "#f5f5f5"
+  style.stroke: "#616161"
+}
+
+fundamental: Fundamental Analysis {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+
+  approach: Comprehensive Approach
+  focus: Business Understanding
+  time_horizon: Long-term Value
+  skills: Broad Business Skills
+  cost: High (Labor Intensive)
+  advantage: Deep Insights
+}
+
+quantitative: Quantitative Analysis {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+
+  approach: Rules-Based Approach
+  focus: Statistical Patterns
+  time_horizon: Short-term Returns
+  skills: Mathematical/Programming
+  cost: Low (Scalable)
+  advantage: Speed & Objectivity
+}
+
+fundamental -> comparison
+quantitative -> comparison
+```
+
+## Case Study: Accounting Distortions in Value Investing
+
+```d2
+direction: right
+
+value_investing: Value Investing Challenge {
+  shape: rectangle
+  style.fill: "#fff8e1"
+  style.stroke: "#ff9800"
+
+  book_market_ratio: Book-to-Market Ratio {
+    style.fill: "#ffe082"
+  }
+
+  apparent_mispricing: Apparent Mispricing
+  accounting_lag: Accounting Recognition Lag
+  true_mispricing: True Mispricing?
+}
+
+whiting_case: Whiting Petroleum Example {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+
+  oil_price_drop: Oil Price Collapse
+  asset_impairment_lag: Delayed Impairment Recognition
+  inflated_book_value: Inflated Book-to-Market Ratio
+  false_value_signal: False "Value" Signal
+}
+
+big_five_case: Big Five Sporting Goods Example {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#9c27b0"
+
+  competitor_bankruptcy: Competitor Bankruptcies
+  temporary_sales_boost: Temporary Sales Growth
+  inflated_quality_ratios: Inflated Quality Metrics
+  secular_decline_hidden: Secular Industry Decline Hidden
+}
+
+value_investing -> whiting_case: Oil & Gas Accounting
+value_investing -> big_five_case: Retail Industry Dynamics
+```
+
+## The Future of Investment Analysis
+
+```d2
+direction: down
+
+future: Investment Analysis Evolution {
+  shape: circle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+
+  synthesis: Best of Both Worlds {
+    style.fill: "#c8e6c9"
+  }
+
+  fundamental_skills: Fundamental Analysis Skills
+  quantitative_tools: Quantitative Tools
+  improved_reporting: Better Financial Reporting
+  integrated_approach: Integrated Approach
+}
+
+outcomes: Expected Outcomes {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+
+  efficient_markets: More Efficient Markets
+  better_allocation: Better Resource Allocation
+  informed_investors: Better Informed Investors
+  sustainable_alpha: Sustainable Alpha Generation
+}
+
+future -> outcomes: Leads to
+```
 
 # VI. CONCLUSIONS AND IMPLICATIONS
 

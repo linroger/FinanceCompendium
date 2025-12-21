@@ -1,13 +1,21 @@
 ---
-parent_directory:
 title: "Beyond Black-Litterman in Practice: a Five-Step Recipe to Input Views on non-Normal Markets"
-tags:
-aliases:
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+parent_directory: "X. Quantitative Trading/FINM Quantitative Trading Strategies/Lecture Notes"
+formatted: "2025-12-21 04:05:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - copula opinion pooling
+  - black litterman extension
+  - portfolio optimization
+  - non normal markets
+secondary_tags:
+  - subjective views
+  - monte carlo simulation
+  - risk measures
+  - expected shortfall
+  - quantitative portfolio management
 cssclasses: academia
-linter-yaml-title-alias: "Beyond Black-Litterman in Practice: a Five-Step Recipe to Input Views on non-Normal Markets"
 ---
 
 # Beyond Black-Litterman in Practice: a Five-Step Recipe to Input Views on non-Normal Markets
@@ -40,6 +48,48 @@ However, it turns out that the implementation in practice of the COP approach un
 
 In this note we discuss the above implementation recipe. In section 2 we briefly review the COP approach. In Section 3 we start the implementation by collecting the necessary inputs, namely the market prior and the practitioner's views, under extremely general assumptions. In Section 4 we detail five simple steps that lead from the COP inputs to the final COP output, namely the posterior market distribution. In Section 5 we show how to solve a portfolio optimization problem with the very general representation of the posterior obtained above. In Section 6 we conclude.
 
+```d2
+direction: right
+
+Prior: Market Prior Distribution {
+  shape: database
+  style.fill: "#e3f2fd"
+}
+
+Views: Practitioner Views {
+  shape: document
+  style.fill: "#f3e5f5"
+}
+
+COP: Copula-Opinion Pooling {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+}
+
+Posterior: Market Posterior Distribution {
+  shape: database
+  style.fill: "#fff3e0"
+}
+
+Optimization: Portfolio Optimization {
+  shape: square
+  style.fill: "#fce4ec"
+}
+
+Prior -> COP: Market beliefs
+Views -> COP: Subjective opinions
+COP -> Posterior: Blended distribution
+Posterior -> Optimization: Risk-return analysis
+
+COP.label: |
+  1. Rotate to view coordinates
+  2. Compute marginal CDFs
+  3. Pool opinions
+  4. Sample posterior
+  5. Rotate back to market
+|
+```
+
 In order to illustrate the general implementation recipe we discuss a nontrivial example in the Treasuries market. For the reader's convenience we also provide fully documented MATLAB code at symmsy.com > Book > Downloads > MATLAB > COP.
 
 # 2 Review of the COP approach
@@ -51,7 +101,7 @@ The starting point of the COP approach is the multivariate distribution of the  
 Financial institutions estimate and model the distribution in which they operate. We represent this generic distribution in terms of its probability distribution function (pdf):
 
 $$
-\mathbf {M} \sim f _ {\mathbf {M}} \tag {1}
+\mathbf{M} \sim f_{\mathbf{M}} \tag{1}
 $$
 
 The market distribution is estimated and modeled by means of sophisticated proprietary models. This distribution represents the "prior" benchmark distribution, which managers twist according to their subjective views.
@@ -59,13 +109,13 @@ The market distribution is estimated and modeled by means of sophisticated propr
 A practitioner can have  $K \leq N$  subjective views on linear combinations of the market  $\mathbf{M}$ . These linear combinations are represented by a  $K \times N$  dimensional "pick" matrix  $\mathbf{P}$ : the generic  $k$ -th row of the pick matrix determines the weights of the  $k$ -th view. Furthermore, we can always choose  $N - K$  additional complementary linear combinations on which no view is expressed. We compact these complementary directions as rows of a  $(N - K) \times N$  matrix  $\mathbf{P}^{\perp}$ . The resulting invertible matrix
 
 $$
-\overline {{\mathbf {P}}} \equiv \left( \begin{array}{c} \mathbf {P} \\ \mathbf {P} ^ {\perp} \end{array} \right) \tag {2}
+\overline{\mathbf{P}} \equiv \left( \begin{array}{c} \mathbf{P} \\ \mathbf{P}^{\perp} \end{array} \right) \tag{2}
 $$
 
 defines the view-adjusted market coordinates. In other words, the  $N$ -dimensional random vector:
 
 $$
-\mathbf {V} \equiv \overline {{\mathbf {P}}} \mathbf {M} \tag {3}
+\mathbf{V} \equiv \overline{\mathbf{P}} \mathbf{M} \tag{3}
 $$
 
 is fully equivalent to the market  $\mathbf{M}$ .
@@ -73,19 +123,19 @@ is fully equivalent to the market  $\mathbf{M}$ .
 The practitioner's views correspond to statements on the first  $K$  entries of  $\mathbf{V}$ . Each of these statements, i.e. the generic  $k$ -th subjective view, is expressed in terms of a cumulative distribution function (cdf):
 
 $$
-\widehat {F} _ {k} (v) \equiv \mathbb {P} _ {s u b j} \left\{V _ {k} \leq v \right\}, \quad k = 1, \dots , K. \tag {4}
+\widehat{F}_{k}(v) \equiv \mathbb{P}_{subj}\left\{V_{k} \leq v\right\}, \quad k = 1, \dots, K. \tag{4}
 $$
 
 The prior distribution (1) also implies a distribution for each view, which we represent by its cdf:
 
 $$
-F _ {k} (v) \equiv \mathbb {P} _ {\text {p r i o r}} \left\{V _ {k} \leq v \right\}, \quad k = 1, \dots , K. \tag {5}
+F_{k}(v) \equiv \mathbb{P}_{\text{prior}}\left\{V_{k} \leq v\right\}, \quad k = 1, \dots, K. \tag{5}
 $$
 
 In general the practitioner's views (4) are different than the respective market-implied distributions (5). The COP approach resolves this dichotomy by means of opinion pooling techniques. The posterior cdf is defined as a weighted average:
 
 $$
-\widetilde {F} _ {k} \equiv c _ {k} \widehat {F} _ {k} + (1 - c _ {k}) F _ {k}, \quad k = 1, \dots , K, \tag {6}
+\widetilde{F}_{k} \equiv c_{k} \widehat{F}_{k} + (1 - c_{k}) F_{k}, \quad k = 1, \dots, K, \tag{6}
 $$
 
 where the weights  $c_k$  represents the confidence in the respective view. The confidence can be set endogenously, i.e. directly from the practitioner, or exogenously, i.e. from the top management in terms of the practitioner's skills, see Meucci (2006).
@@ -93,19 +143,19 @@ where the weights  $c_k$  represents the confidence in the respective view. The 
 Formula (6) defines the posterior marginal distribution of each view. In the COP approach the copula of the posterior distribution of the views is inherited from the prior copula:
 
 $$
-\left( \begin{array}{c} C _ {1} \\ \vdots \\ C _ {K} \end{array} \right) \stackrel {{d}} {{=}} \left( \begin{array}{c} F _ {1} \left(V _ {1}\right) \\ \vdots \\ F _ {K} \left(V _ {K}\right) \end{array} \right). \tag {7}
+\left( \begin{array}{c} C_{1} \\ \vdots \\ C_{K} \end{array} \right) \stackrel{d}{=} \left( \begin{array}{c} F_{1}\left(V_{1}\right) \\ \vdots \\ F_{K}\left(V_{K}\right) \end{array} \right). \tag{7}
 $$
 
 Therefore the posterior joint distribution of the views is defined as follows:
 
 $$
-\left( \begin{array}{c} V _ {1} \\ \vdots \\ V _ {K} \end{array} \right) \stackrel {{d}} {{=}} \left( \begin{array}{c} \widetilde {F} _ {1} ^ {- 1} \left(C _ {1}\right) \\ \vdots \\ \widetilde {F} _ {K} ^ {- 1} \left(C _ {K}\right) \end{array} \right). \tag {8}
+\left( \begin{array}{c} V_{1} \\ \vdots \\ V_{K} \end{array} \right) \stackrel{d}{=} \left( \begin{array}{c} \widetilde{F}_{1}^{-1}\left(C_{1}\right) \\ \vdots \\ \widetilde{F}_{K}^{-1}\left(C_{K}\right) \end{array} \right). \tag{8}
 $$
 
 Finally, to determine the posterior distribution of the market  $\mathbf{M} \sim \widetilde{f}_{\mathbf{M}}$  we apply (3) backwards and rotate the views back into the market coordinates:
 
 $$
-\mathbf {M} \stackrel {d} {=} \overline {{\mathbf {P}}} ^ {- 1} \mathbf {V}, \tag {9}
+\mathbf{M} \stackrel{d}{=} \overline{\mathbf{P}}^{-1} \mathbf{V}, \tag{9}
 $$
 
 where the first  $K$  entries of  $\mathbf{V}$  follow the posterior distribution (8) and the remaining entries are left unaltered.
@@ -121,7 +171,7 @@ The inputs for the COP approach are the prior market distribution (1) and the pr
 We represent the prior market distribution by means of a large number of Monte Carlo simulations. More precisely, the prior market distribution is represented by a  $J \times N$  panel  $\mathcal{M}$ :
 
 $$
-\mathbf {M} \sim f _ {\mathbf {M}} \Longleftrightarrow \mathcal {M}. \tag {10}
+\mathbf{M} \sim f_{\mathbf{M}} \Longleftrightarrow \mathcal{M}. \tag{10}
 $$
 
 Each  $N$ -dimensional row represents one of the  $J$  simulated joint scenarios for the market variable  $\mathbf{M}$ . The representation of the prior market distribution in terms of a panel of simulations  $\mathcal{M}$  is very general, easy to implement and
@@ -155,19 +205,19 @@ The second input of the COP approach are the practitioner's views. Any parametri
 To illustrate, we consider a manager who expresses a 10 b.p. steepening view on the 2-20 spread and a 5 b.p. bullish view on the 2-5-10 butterfly. Therefore, the "pick" matrix reads:
 
 $$
-\mathbf {P} \equiv \left( \begin{array}{c c c c c c} 0 & - 1 & 0 & 0 & 1 & 0 \\ 0 & - 0. 5 & 1 & - 0. 5 & 0 & 0 \end{array} \right). \tag {12}
+\mathbf{P} \equiv \left( \begin{array}{cccccc} 0 & -1 & 0 & 0 & 1 & 0 \\ 0 & -0.5 & 1 & -0.5 & 0 & 0 \end{array} \right). \tag{12}
 $$
 
 We assume that the manager has uninformative views over the given ranges, which can be modeled by the uniform distribution:
 
 $$
-\widehat {F} _ {k} (v) \equiv \left\{ \begin{array}{c c} 0 & v \leq a _ {k} \\ \frac {v - a _ {k}}{b _ {k} - a _ {k}} & v \in [ a _ {k}, b _ {k} ] \\ 1 & v \geq b _ {k}. \end{array} \right., \quad k = 1, 2. \tag {13}
+\widehat{F}_{k}(v) \equiv \left\{ \begin{array}{cc} 0 & v \leq a_{k} \\ \frac{v - a_{k}}{b_{k} - a_{k}} & v \in [a_{k}, b_{k}] \\ 1 & v \geq b_{k}. \end{array} \right., \quad k = 1, 2. \tag{13}
 $$
 
 In our case, the boundaries of the ranges read:
 
 $$
-\mathbf {a} ^ {\prime} \equiv (0, 0), \quad \mathbf {b} ^ {\prime} \equiv (0. 0 0 1, 0. 0 0 0 5). \tag {14}
+\mathbf{a}^{\prime} \equiv (0, 0), \quad \mathbf{b}^{\prime} \equiv (0.001, 0.0005). \tag{14}
 $$
 
 Also, we assume that the manager expresses a  $25\%$  confidence in both views. In other words,  $c_{1} \equiv c_{2} \equiv 0.25$ . As in BL, the confidence level is a sensitive parameter, refer to Figure 1 and comments thereafter in Meucci (2006) for a sensitivity study and a comparison with BL.
@@ -189,7 +239,7 @@ $$
 Then we rotate the market into the views coordinates as in (3). In terms of the panel representation of the market prior (10) this operation corresponds to a simple matrix multiplication:
 
 $$
-\mathcal {V} \equiv \mathcal {M} \overline {{\mathbf {P}}} ^ {\prime}. \tag {15}
+\mathcal{V} \equiv \mathcal{M} \overline{\mathbf{P}}^{\prime}. \tag{15}
 $$
 
 Each row of the  $J \times N$  panel  $\mathcal{V}$  is an independent joint realization of the market in the views coordinates.
@@ -201,13 +251,13 @@ We sort the first  $K$  columns of the panel (15) and obtain two  $J \times K$  
 The generic  $k$ -th column  $W_{,k}$  of the panel  $\mathcal{W}$  contains the same entries as the respective column  $V_{,k}$  in  $\mathcal{V}$ , only rearranged in ascending order:  $W_{1,k} \leq W_{2,k} \leq \ldots < W_{J,k}$ . The prior cdf (5) of the  $k$ -th view evaluated at the sorted values is approximated with extreme accuracy by its empirical counterpart:
 
 $$
-F _ {k} \left(W _ {j, k}\right) \equiv \frac {j}{J + 1}. \tag {16}
+F_{k}\left(W_{j,k}\right) \equiv \frac{j}{J + 1}. \tag{16}
 $$
 
 The generic element  $C_{j,k}$  of the panel  $\mathcal{C}$  represents the ranking of the respective entry of the panel  $\mathcal{V}$  within its column, normalized by the total number of simulations. For instance, if  $V_{5,7}$  is the 4,203-th smallest simulations in column 7, then  $C_{5,7} \equiv 4,203 / (J + 1)$ . Each row of the panel  $\mathcal{C}$  represents a joint simulation of the grades (7). In other words, the ranking panel  $\mathcal{C}$  represents the copula of the views:
 
 $$
-\operatorname {c o p u l a} \mathbf {C} \Longleftrightarrow \text {r a n k i n g} \mathcal {C}. \tag {17}
+\operatorname{copula} \mathbf{C} \Longleftrightarrow \text{ranking} \mathcal{C}. \tag{17}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/6431e29b-e233-4990-97b2-49a796282e9b/ca144fa8b143ab9abf65864da970a672d489ab8f40a8c19a4fa92b8ac9923403.jpg)  
@@ -222,7 +272,7 @@ Notice that both the sorted values  $\mathcal{W}$  and the ranking  $\mathcal{C}
 The posterior marginal cdf's are approximated with extreme accuracy by their empirical counterparts. From (16) it follows that the  $J \times K$  panel  $\mathcal{F}$  defined as
 
 $$
-\widetilde {F} _ {j, k} \equiv c _ {k} \widehat {F} _ {k} \left(W _ {j, k}\right) + \left(1 - c _ {k}\right) \frac {j}{J + 1} \tag {18}
+\widetilde{F}_{j,k} \equiv c_{k} \widehat{F}_{k}\left(W_{j,k}\right) + \left(1 - c_{k}\right) \frac{j}{J + 1} \tag{18}
 $$
 
 represents the posterior marginal cdf's (6) evaluated in correspondence to the respective entries in the sorted panel  $\mathcal{W}$ .
@@ -243,7 +293,7 @@ Figure 2: Cdf of the steepening view: as implied by the market (prior); as state
 We can produce a  $J \times K$  panel  $\tilde{\mathcal{V}}$  of joint scenarios from the posterior distribution of the views (8) by means of the linear interpolator:
 
 $$
-\widetilde {V} _ {j, k} \equiv \operatorname {i n t e r p} \left(C _ {j, k}; \widetilde {F} _ {\cdot , k}, W _ {\cdot , k}\right), \tag {19}
+\widetilde{V}_{j,k} \equiv \operatorname{interp}\left(C_{j,k}; \widetilde{F}_{\cdot,k}, W_{\cdot,k}\right), \tag{19}
 $$
 
 where  $C_{j,k}$  is the  $(j,k)$ -th entry of the ranking panel  $\mathcal{C}$ ,  $\widetilde{F}_{\cdot,k}$  denotes the  $k$ -th column of the cdf panel  $\widetilde{\mathcal{F}}$  and  $W_{\cdot,k}$  denotes the  $k$ -th column of the sorted simulations of the views  $\mathcal{W}$ .
@@ -255,7 +305,7 @@ Indeed, as we illustrate Figure 3, from Step 3 it follows that  $W_{.,k}$  repre
 First we extend the  $J \times K$  panel (19) to a  $J \times N$  panel of posterior simulations for the whole market in the view-adjusted coordinates by juxtaposing the last  $N - K$  columns of  $\mathcal{V}$  defined in (15). Then we rotate these simulations back into the market coordinates as in (9) by means of a simple matrix multiplication:
 
 $$
-\widetilde {\mathcal {M}} \equiv \widetilde {\mathcal {V}} \overline {{\mathbf {P}}} ^ {\prime - 1}. \tag {20}
+\widetilde{\mathcal{M}} \equiv \widetilde{\mathcal{V}} \overline{\mathbf{P}}^{\prime-1}. \tag{20}
 $$
 
 Each  $N$ -dimensional row represents an independent joint scenario from the COP posterior market distribution  $\tilde{f}_{\mathbf{M}}$ .

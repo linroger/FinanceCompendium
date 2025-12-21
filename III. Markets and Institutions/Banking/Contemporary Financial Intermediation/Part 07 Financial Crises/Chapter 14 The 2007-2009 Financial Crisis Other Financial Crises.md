@@ -1,14 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 14 The 2007-2009 Financial Crisis Other Financial Crises
+parent_directory: Part 07 Financial Crises
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: open code
+primary_tags:
+  - financial crisis causes
+  - 2007-2009 crisis
+  - regulatory responses
+secondary_tags:
+  - housing bubble
+  - securitization risks
+  - monetary policy
+  - bank recapitalization
+  - central bank interventions
 cssclasses: academia
-title: GLOSSARY OF TERMS
-linter-yaml-title-alias: GLOSSARY OF TERMS
 ---
 
-# GLOSSARY OF TERMS
+## GLOSSARY OF TERMS
 
 Breaking the Buck Money market funds invest in relatively safe securities and seek to maintain a stable net asset value (NAV) of \$1 per share. When the NAV drops below \$1, it is said that the fund "broke the buck."  
 EBRD European Bank for Reconstruction and Development. This is an institution - funded by many western countries - that provides help to countries in central and Eastern Europe, Central Asia, and the Southern and Eastern Mediterranean to make transitions to market economies.  
@@ -23,9 +32,9 @@ MBS Mortgage-backed securities
 OTD Originate-to-distribute model in securitization, wherein a bank originates a loan to securitize it (distribute securities to others) rather than hold it on its books.  
 Tail Risks Extreme risks involving large losses but very low probabilities of occurrence.
 
-# INTRODUCTION
+## INTRODUCTION
 
-The financial crisis of 2007-2009 is widely regarded as the worst financial crisis since the Great Depression of the 1930s. The crisis threatened the global financial system with total collapse, led to the bailouts of many large financial institutions by their national governments, caused big declines in stock prices, followed by smaller and more expensive loans for corporate borrowers as banks pulled back from lending, and decline in consumer lending, as well as lower investments in the real sector. The decline in lending to consumers and corporations also caused unemployment to rise. In the United States, Lehman Brothers, a global 158-year old investment bank, filed for bankruptcy, whereas Fannie Mae and Freddie Mac, two huge government-sponsored enterprises that have been key players in the securitization market in the United States, as well as the insurance giant AIG, were bailed out by the government, and Wachovia (the fourth largest bank in the United States) was bought out by Citigroup. In response to these events, financial markets became highly volatile, and the Dow Jones
+The financial crisis of 2007-2009 is widely regarded as the worst financial crisis since the Great Depression of the 1930s. The crisis threatened the global financial system with total collapse, led to the bailouts of many large financial institutions by their national governments, caused big declines in stock prices, followed by smaller and more expensive loans for corporate borrowers as banks pulled back from lending, and decline in consumer lending, as well as lower investments in the real sector. The decline in lending to consumers and corporations also caused unemployment to rise. In the United States, Lehman Brothers, a global 158-year old investment bank, filed for bankruptcy, whereas Fannie Mae and Freddie Mac, two huge government-sponsored enterprises that have been key players in the securitization market in the United States, as well as the insurance giant AIG, were bailed out by the government, and Wachovia (the fourth largest bank in the United States) was bought out by Citigroup. In response to these events, financial markets became highly volatile, and the Dow Jones Industrial Average
 
 1. See Bernanke, Ben, S., "Some Reflections on the Crisis and the Policy Response", speech at the Russell Sage Foundation and the Century Foundation Conference on "Rethinking Finance," New York, April 13, 2012. See also Bernanke (2010).  
 2. The material in this chapter relies on the review of the 2007-2009 financial crisis in Thakor (2015).  
@@ -56,7 +65,7 @@ In the aftermath of the crisis, the U.S. Congress passed the Dodd-Frank Act, an 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/c41d355f-e7c3-4cfc-b661-bc5ac69057be/1c8f4ca6020f8b39a53cd0f7ba40208711d7f595380ddcded3df62cb069b48b3.jpg)  
 FIGURE 14.2 Real GDP Per Capital Before and After Crises. Note: The gray area indicates the range of major recessions since 1960, excluding the short 1980 recession. (Source: Bureau of Economic Analysis, Census Bureau, and Atkinson et al. (2013)).
 
-# WHAT HAPPENED
+## WHAT HAPPENED
 
 The financial crisis of 2007-2009 came on the heels of a credit crunch that began in the summer of 2006 and continued into 2007. Most agree that the crisis was rooted in the U.S. housing market. The factors that contributed to the housing price bubble that burst during the crisis will be discussed later in this chapter. The first signs of problems surfaced in early 2007 when Freddie Mac announced that it would no longer purchase high-risk mortgages, and New Century Financial Corporation, a leading mortgage lender to risky borrowers, filed for bankruptcy. These developments elevated concerns about the credit risks in mortgages and the solvency of institutions that held them. A timeline of these events and those that followed is discussed below and summarized in Table 14.2.
 
@@ -80,7 +89,7 @@ to Europe, forcing central banks around the globe to cooperate and announce coor
 
 The crisis continued into 2009. By October, the unemployment rate in the United States had hit  $10\%$ .
 
-# CAUSE AND EFFECT: THE CAUSES OF THE CRISIS AND ITS REAL EFFECTS
+## CAUSE AND EFFECT: THE CAUSES OF THE CRISIS AND ITS REAL EFFECTS
 
 Although there is some agreement on the causes of the crisis, there are disagreements among experts on many of the links in the causal chain of events. We begin by providing a pictorial depiction of the chain of events that led to the crisis, and then discuss each link in the chain (Figure 14.3).
 
@@ -234,7 +243,7 @@ The ABCP market fell by \$350 billion in the second half of 2007. Many of these 
 
 On balance, it appears that the evidence suggests that this was, in the end, an insolvency crisis in which rising perceptions of the default risks of mortgages caused investors to withdraw funding from the institutions that held MBS and especially those that used them as collateral for short-term funding. The massive withdrawal of funding created the appearance of a liquidity crisis.
 
-# The Real Effects of the Crisis
+## The Real Effects of the Crisis
 
 This financial crisis had significant real effects. These effects can be pictorially depicted as shown in Figure 14.13.
 
@@ -265,7 +274,7 @@ With both household consumption going down and credit becoming more scarce and m
 
 The U.S. automobile industry was particularly hard hit. Car sales fell  $31.9\%$  in October 2008 compared to September 2008. Retail sales in the U.S. declined by  $2.8\%$  between September and October 2008, and by  $4.1\%$  compared to September 2007.
 
-# THE POLICY RESPONSES TO THE CRISIS
+## THE POLICY RESPONSES TO THE CRISIS
 
 Beginning in August 2007, the governments of all developed countries undertook a variety of measures to deal with the financial crisis. The IMF (2009) identifies as many as 153 separate policy actions taken by 13 countries, including 49 in the United States alone. That represents too large a set of policy interventions to discuss here. So we will briefly describe the major categories of interventions here (Figure 14.14).[52]
 
@@ -332,7 +341,7 @@ The study goes on to show that in October 2008, the crisis worsened as the LIBOR
 
 It also appears that central banks – especially the U.S. Federal Reserve – eventually came to recognize that this was an insolvency crisis at its very root, and that measures like recapitalizing banks were needed to reduce concerns about counterparty risk. These measures eventually helped to end the crisis.
 
-# FINANCIAL CRISES IN OTHER COUNTRIES AND REGULATORY INTERVENTIONS
+## FINANCIAL CRISES IN OTHER COUNTRIES AND REGULATORY INTERVENTIONS
 
 Financial crises have occurred in many different countries, and many have involved various forms of central bank intervention. The IMF found that governments intervened with some form of recapitalization or capital injection in 32 of the 42 banking crises around the world. So in this sense, the recapitalization initiatives of the U.S. Federal Reserve in the 2007-2009 crisis were not exceptions. Below we discuss a handful of other crises to provide a contrast in regulatory responses.[58]
 
@@ -364,7 +373,7 @@ The third part of the triple crisis was when the financial distress forced the c
 
 Government intervention also involved additional steps, including the conversion of dollar-denominated loans and deposits from dollar to peso at different rates, the authorization of regulatory forbearance, the nationalization of three banks, and the closure of another.
 
-# CONCLUSION
+## CONCLUSION
 
 This chapter has reviewed a very large body of research on the causes and effects of the most devastating financial crisis since the Great Depression, and the policy responses undertaken by central banks to deal with the crisis. It appears that the crisis resulted from a toxic brew of many factors that interacted with each other: politics, monetary policy, global economic developments, misaligned incentives, the growth of securitization, and a complacency born of success-driven skill inferences.
 
@@ -372,7 +381,7 @@ Whatever the cause, the crisis lasted longer than expected and had a huge impact
 
 It does appear, however, that having significantly higher levels of capital in banking (including shadow banking) would have gone a long way in reducing the likelihood of this crisis. Research indicates that higher levels of bank capital reduce both insolvency risk, and funding or liquidity risk.[59] Thus, better capital regulation should be a central focus in discussions of how to reduce the likelihood of future crises.
 
-# REFERENCES
+## REFERENCES
 
 Agarwal, S., Benmelech, E., Bergman, N., Seru, A., 2012. Did the Community Reinvestment Act (CRA) Lead to Risky Lending? NBER Working Paper No. 18609, December.  
 Atkinson, T., Luttrell, D., Rosenblum, H., 2013. How bad was it? The costs and consequences of the 2007-2009 Financial Crisis. Staff Paper No. 20, Federal Reserve Bank of Dallas.  

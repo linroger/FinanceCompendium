@@ -1,13 +1,24 @@
 ---
-parent_directory:
-title: Bayesian mapping of genotype  $\times$  expression interactions in quantitative and qualitative traits
-tags:
-aliases:
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+title: Bayesian mapping of genotype × expression interactions in quantitative and qualitative traits
+parent_directory: Lecture Notes
+primary_tags:
+  - bayesian gene mapping
+  - genotype expression interactions
+  - quantitative trait loci
+  - sparse bayesian methods
+secondary_tags:
+  - genetical genomics
+  - molecular markers
+  - mcmc estimation
+  - heritability estimation
+  - marker gene pairs
+  - yeast data analysis
+  - inbred line crosses
+  - probit regression
 cssclasses: academia
-linter-yaml-title-alias: Bayesian mapping of genotype  $\times$  expression interactions in quantitative and qualitative traits
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 ---
 
 # Bayesian mapping of genotype  $\times$  expression interactions in quantitative and qualitative traits

@@ -1,13 +1,30 @@
 ---
-parent_directory:
 title: Term Structure of Interest Rates
-tags:
-aliases:
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+parent_directory: PPHA Applied Financial Management
+formatted: 2025-12-21 03:42:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - term structure models
+  - yield curve dynamics
+  - forward rate agreements
+  - zero coupon bonds
+  - interest rate derivatives
+secondary_tags:
+  - bond valuation
+  - discount factors
+  - spot rate derivation
+  - martingale measure
+  - change of numeraire
+  - risk neutral pricing
+  - Heath-Jarrow-Morton
+  - short rate models
+  - calibration methods
+  - no arbitrage pricing
+  - cap and floor pricing
+  - swaption pricing
+  - volatility smile
 cssclasses: academia
-linter-yaml-title-alias: Term Structure of Interest Rates
 ---
 
 # Term Structure of Interest Rates
@@ -18,39 +35,39 @@ Thomas S. Coleman
 
 4 April 2023; Draft April 1, 2023
 
-# Outline
+## Outline
 
-# Contents
+### Contents
 
-# 1 Term Structure of Interest Rates 2
+## 1 Term Structure of Interest Rates
 
-1.1 Graphing "Yield Curve" - 2yr & 5yr Example 2  
-1.2 "Yield Curve" - Some Terminology & Math 4  
-1.3 Calculating "Yield Curve" - 2yr & 5yr Example 6  
-1.4 Mathematics of Forward and Zero (Spot) Rates - Skip This Section 9  
-1.5 PV for New 4-yr Bond: Using Forward and Zero (Spot) Rates 10
+### 1.1 Graphing "Yield Curve" - 2yr & 5yr Example
+### 1.2 "Yield Curve" - Some Terminology & Math
+### 1.3 Calculating "Yield Curve" - 2yr & 5yr Example
+### 1.4 Mathematics of Forward and Zero (Spot) Rates - Skip This Section
+### 1.5 PV for New 4-yr Bond: Using Forward and Zero (Spot) Rates
 
-# 1 Term Structure of Interest Rates
+## 1 Term Structure of Interest Rates
 
 Lecture Notes and Section I of "Practical Guide to Yield Curves" (Canvas)
 
-# 1.1 Graphing "Yield Curve" - 2yr & 5yr Example
+## 1.1 Graphing "Yield Curve" - 2yr & 5yr Example
 
-# Contents
+#### Contents
 
-# 2yr & 5yr Have Different Yield-to-Maturity
+## 2yr & 5yr Have Different Yield-to-Maturity
 
 Consider 2yr & 5yr bonds (both trading at \$100)
 
-- 2yr, 1.162% sab coupon (& yield)  
-- 5yr,  $1.721\%$  sab coupon (& yield)
+- 2yr, 1.162% sab coupon (& yield)
+- 5yr, $1.721\%$ sab coupon (& yield)
 
 Naively, "Yield Curve" connects dots
 
 - May be upward or downward sloping
-- More often upward  
-- Thinking about preferences (and costs) for short-term vs long-term investing  
-- 2yr yield tells us market-wide trade-off between future and present CFs between now & 2yrs  
+- More often upward
+- Thinking about preferences (and costs) for short-term vs long-term investing
+- 2yr yield tells us market-wide trade-off between future and present CFs between now & 2yrs
 - Can graph for either (both) nominal yields or real yields
 
 Naively, "Yield Curve" connects dots
@@ -67,6 +84,23 @@ Two reasons for looking at "The Yield Curve"
 1. Conceptual: preferences, trade-off between today vs 2yrs vs 5yrs  
 2. Practical: use for discounting new or different cash flows
 
+```d2
+direction: down
+yield_curve_purpose: Yield Curve Purpose {
+  conceptual: Conceptual Analysis {
+    shape: rectangle
+    label: Preferences and trade-offs\nbetween different maturities
+  }
+  
+  practical: Practical Application {
+    shape: rectangle
+    label: Discounting cash flows\nfor valuation
+  }
+  
+  conceptual -> practical: Requires consistent rates
+}
+```
+
 Need to introduce some new concepts (and new math)
 
 - Yield Curve & Term Structure of Interest Rates: general terms for the pattern of yields (discount rates) across maturities  
@@ -82,7 +116,7 @@ What is yield for a 4yr  $2 \%$  coupon bond?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/47c2e5be0577359a18d9f6a0840669d8463b432cccbb680544847b90a65ce490.jpg)
 
-# Bring in 5-year: Shows Problem with Naïve Yield-to-Maturity
+## Bring in 5-year: Shows Problem with Naïve Yield-to-Maturity
 
 Yield-to-Maturity: discount each bond at own rate
 
@@ -97,12 +131,12 @@ But cannot be the right way: cash flows overlap
 
 Yield for 5yr bond is complicated average of 0-2 and 2-5 yr rates
 
-# Must Discount CFs at Same (Consistent) Forward Rates
+## Must Discount CFs at Same (Consistent) Forward Rates
 
-We know  $f_{0\rightarrow 2} = 1.162\%$  - discount coupons for yr 1 & 2 at  $1.162\%$
+We know $f_{0\rightarrow 2} = 1.162\%$ - discount coupons for yr 1 & 2 at $1.162\%$
 
 $$
-\begin{array}{l} P V _ {5 y r} = \frac {1 . 7 2 1 / 2}{(1 + . 0 1 1 6 2 / 2) ^ {1}} + \dots + \frac {1 . 7 2 1 / 2}{(1 + . 0 1 1 6 2 / 2) ^ {4}} \\ + \frac {1}{(1 + . 0 1 1 6 2 / 2) ^ {4}} \left[ \frac {1 . 7 2 1 / 2}{(1 + f _ {2 \rightarrow 5} / 2) ^ {1}} + \dots + \frac {1 . 7 2 1 / 2}{(1 + f _ {2 \rightarrow 5} / 2) ^ {6}} + \frac {1 0 0}{(1 + f _ {2 \rightarrow 5} / 2) ^ {6}} \right] \\ \end{array}
+\begin{array}{l} PV_{5yr} = \frac{1.721/2}{(1 + 0.01162/2)^{1}} + \dots + \frac{1.721/2}{(1 + 0.01162/2)^{4}} \\ + \frac{1}{(1 + 0.01162/2)^{4}} \left[ \frac{1.721/2}{(1 + f_{2 \rightarrow 5}/2)^{1}} + \dots + \frac{1.721/2}{(1 + f_{2 \rightarrow 5}/2)^{6}} + \frac{100}{(1 + f_{2 \rightarrow 5}/2)^{6}} \right] \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/b37148708df486005c9bbfcf2ce4d455d6753e3baf133b5cc4d12285d893e86f.jpg)
@@ -111,13 +145,35 @@ $$
 
 Now bonds consistent - just need to solve for  $f_{2\rightarrow 5} = \ref{eq:1}$
 
-# Graphing Yield-to-Maturity - Results
+## Graphing Yield-to-Maturity - Results
 
 Three graphs saying the same in different ways
 
 1. Yield-to-maturity: treat each bond in its own world  
 2. Zero rate: rate from today to some date (eg  $0 \to 2yr$ ,  $0 \to 5yr$ )  
 3. Forward rate: rate between dates (eg  $2yr\rightarrow 5yr$
+
+```d2
+direction: down
+yield_curve_representations: Yield Curve Representations {
+  ytm: Yield-to-Maturity {
+    shape: rectangle
+    label: Average rate for entire bond
+  }
+  
+  zero: Zero Rate {
+    shape: rectangle
+    label: Rate from today to specific date
+  }
+  
+  forward: Forward Rate {
+    shape: rectangle
+    label: Rate between two future dates
+  }
+  
+  ytm -> zero -> forward: Increasing precision
+}
+```
 
 Look at some actual bonds prices & yields:
 
@@ -128,14 +184,14 @@ Look at some actual bonds prices & yields:
 3. $2yr\rightarrow 5yr$  Forward of  $2.111\%$  : for CFs between 2 & 5
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/db53d3079d15a6f27a5eba2c789db964a1405171149ab9db4836cdbb2bba5f7a.jpg)
-
-# 1.2 "Yield Curve" - Some Terminology & Math
-
-# Contents
+ 
+## 1.2 "Yield Curve" - Some Terminology & Math
+ 
+## Contents
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/a976c8ff5b62f51c93714d97d3b0e8879268ec9e5c2535a6b219ddab35288c12.jpg)
 
-# "Yield Curve" - Some Terminology & Math
+## "Yield Curve" - Some Terminology & Math
 
 - General terms for the graph of rates versus maturity  
 - "Yield Curve", "Term Structure of Interest Rates", "Forward Curve", "Zero Curve"
@@ -151,9 +207,9 @@ Write 2yr swap (coup  $1.162/yr, PV=$ 100) various ways
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/059c51643b9982981afd68e14896c03399782a9fbfab09123189585599fed708.jpg)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/23c135fb8a6fbe416cd11899ca411ec08f2d752515426b75d76a4d21cd543e49.jpg)
-
-# Yield, Zero, Forward for 2-year Swap
-
+ 
+## Yield, Zero, Forward for 2-year Swap
+ 
 Write 2yr swap (coup  $1.162/yr, PV=$ 100) various ways
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/9535b1605f65fc6fd91b51eb919dbb6759ed00803db8d86e525ca735d0caa9d9.jpg)
@@ -163,20 +219,20 @@ Write 2yr swap (coup  $1.162/yr, PV=$ 100) various ways
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/6ac0aafbf9c9c0f7bf7859b0d67f219b476d5b92488eb84cecedc029224d337f.jpg)
 
 $$
-Y T M: P V = \frac {1 . 1 6 2 / 2}{(1 + y / 2)} + \frac {1 . 1 6 2 / 2}{(1 + y / 2) ^ {2}} + \dots + \frac {1 0 0}{(1 + y / 2) ^ {4}}
+YTM: PV = \frac{1.162/2}{(1 + y/2)} + \frac{1.162/2}{(1 + y/2)^{2}} + \dots + \frac{100}{(1 + y/2)^{4}}
 $$
 
 $$
-Z e r o: P V = \frac {1 . 1 6 2 / 2}{(1 + z _ {5} / 2)} + \frac {1 . 1 6 2 / 2}{(1 + z _ {1} / 2) ^ {2}} + \dots + \frac {1 0 0}{(1 + z _ {2} / 2) ^ {4}}
+Zero: PV = \frac{1.162/2}{(1 + z_{5}/2)} + \frac{1.162/2}{(1 + z_{1}/2)^{2}} + \dots + \frac{100}{(1 + z_{2}/2)^{4}}
 $$
 
 $$
-F w d: P V = \frac {1 . 1 6 2 / 2}{\left(1 + f _ {0 \rightarrow . 5} / 2\right)} + \frac {1 . 1 6 2 / 2}{\left(1 + f _ {0 \rightarrow . 5} / 2\right)\left(1 + f _ {5 \rightarrow 1} / 2\right)} + \dots + \frac {1 0 0}{\left(1 + f _ {0 \rightarrow . 5} / 2\right) \cdots \left(1 + f _ {1 . 5 \rightarrow 2} / 2\right)}
+Fwd: PV = \frac{1.162/2}{(1 + f_{0 \rightarrow 0.5}/2)} + \frac{1.162/2}{(1 + f_{0 \rightarrow 0.5}/2)(1 + f_{0.5 \rightarrow 1}/2)} + \dots + \frac{100}{(1 + f_{0 \rightarrow 0.5}/2) \cdots (1 + f_{1.5 \rightarrow 2}/2)}
 $$
 
 Here they are all the same number (1.162%sab) - flat curve 0-2 years
 
-# Zero (Spot) vs Forward: Simple Relationship
+## Zero (Spot) vs Forward: Simple Relationship
 
 Compare 2-year spot rate vs forwards  $0 \to 1$  &  $1 \to 2$  (annual instead of sab rates):
 
@@ -202,7 +258,7 @@ $$
 1 + f _ {n - 1 \rightarrow n} = \frac {(1 + z _ {n}) ^ {n}}{(1 + z _ {n - 1}) ^ {n - 1}}
 $$
 
-# Actual Bonds - Nothing Simple
+## Actual Bonds - Nothing Simple
 
 Textbook highlights "stripped" or zero-coupon Treasuries
 
@@ -220,14 +276,14 @@ For actual bonds and bond yields, nothing simple: read my paper (Canvas & https:
 - Dealers use coupon bonds to calculate zero-coupon rates (not vice-versa)
 
 Paper on estimating forward rates: "Fitting Forward Rates to Market Data" https://papers.ssrn.com/abstract=994870
+ 
+## 1.3 Calculating "Yield Curve" - 2yr & 5yr Example
 
-# 1.3 Calculating "Yield Curve" - 2yr & 5yr Example
-
-# Contents
+## Contents
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/0c7713871f2fb34b8b3a1f6e723985a3a36f6d599bbc76b20afa5fefecee36aa.jpg)
 
-# Solving for Forward: Split 5yr into Two: 0-2 & 2-5 Years
+## Solving for Forward: Split 5yr into Two: 0-2 & 2-5 Years
 
 We can forward value the  $1.721\%$  coupon to get FV as of yr 2
 
@@ -247,7 +303,7 @@ For reference, here the last column are forward rates, cc
 
 <table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Fwd Rate cc</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.1586%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>2.0999%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.6849%</td></tr></table>
 
-# Split 5yr into Two: 0-2 & 2-5 Years
+## Split 5yr into Two: 0-2 & 2-5 Years
 
 <table><tr><td></td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>4</td><td>1.162</td><td>-100</td><td>0.8605</td><td></td></tr><tr><td>Solve For</td><td></td><td></td><td></td><td></td><td>98.87222</td></tr></table>
 
@@ -257,7 +313,7 @@ For reference, here the last column are forward rates, cc
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/9817e5f41c25fe7340c8c057834ffd0675a9657ce7ea941b449c1d2e74369b33.jpg)
 
-# Yield as "Average" of Forward Rates
+## Yield as "Average" of Forward Rates
 
 $$
 P V _ {5 y r} = \frac {1 . 7 2 1 / 2}{(1 + y _ {5} / 2) ^ {1}} + \frac {1 . 7 2 1 / 2}{(1 + y _ {5} / 2) ^ {2}} + \dots + \frac {1 . 7 2 1 / 2}{(1 + y _ {5} / 2) ^ {1 0}} + \frac {1 0 0}{(1 + y _ {5} / 2) ^ {1 0}}
@@ -271,7 +327,7 @@ $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/3e1e98cc92a8288a09adddcf84555b953227e14ea2e6ed09ff991a21e6a5aef3.jpg)
 
-# Solving Equation for  $2\rightarrow 5$  -yr Forward
+## Solving Equation for  $2\rightarrow 5$  -yr Forward
 
 $$
 \begin{array}{l} {P V _ {5 y r}} = {\frac {1 . 7 2 1 / 2}{(1 + f _ {0 \rightarrow 2} / 2) ^ {1}} + \dots + \frac {1 . 7 2 1 / 2}{(1 + f _ {0 \rightarrow 2} / 2) ^ {4}}} \\ + \frac {1 . 7 2 1 / 2}{\left(1 + f _ {0 \rightarrow 2} / 2\right) ^ {4} \left(1 + f _ {2 \rightarrow 5} / 2\right) ^ {1}} + \dots + \frac {1 . 7 2 1 / 2 + 1 0 0}{\left(1 + f _ {0 \rightarrow 2} / 2\right) ^ {4} \left(1 + f _ {2 \rightarrow 5} / 2\right) ^ {6}} \\ \end{array}
@@ -288,9 +344,9 @@ $$
 NB - this is using  $2\mathrm{p / yr}$
 
 The point here is that we know the  $0 - > 2$  year rate from the 2-yr bond. We should use that, and then ask "what is the  $2 - > 5$  yr forward?"
-
-# 1.4 Mathematics of Forward and Zero (Spot) Rates - Skip This Section Contents
-
+ 
+## 1.4 Mathematics of Forward and Zero (Spot) Rates - Skip This Section Contents
+ 
 Mathematics of Zero (Spot) and Forward Rates
 
 For semi-annual compounding:
@@ -381,18 +437,18 @@ $\mathbf{f}_{\mathbf{cc}}(\mathbf{u})$  (Instantaneous) Forward Rate at date  $u
 
 $\mathbf{z}_{\mathbf{cc}}(t)$  Zero Rate (also called Spot Rate), or the discount rate that applies for discounting back to today from a future date  $t$ .
 
-$\mathbf{f_{t1 - > t2}}$  Forward Rate between  $t_1$  to  $t_2$ , or the discount rate that applies from  $t_1$  to  $t_2$ , that is for discounting back to  $t_1$  from a more distant date  $t_2$ .
+$\mathbf{f_{t1 \rightarrow t2}}$  Forward Rate between  $t_1$  to  $t_2$ , or the discount rate that applies from  $t_1$  to  $t_2$ , that is for discounting back to  $t_1$  from a more distant date  $t_2$ .
 
 $$
-P V = \sum_ {t} C F _ {t} d f _ {t}
-$$
-
-$$
-d f (t) = e x p \left(- t \cdot z _ {c c} (t)\right) = e x p \left(- \int_ {0} ^ {t} f _ {c c} (u) d u\right)
+PV = \sum_{t} CF_{t} df_{t}
 $$
 
 $$
-z _ {c c} (t) = \frac {1}{t} \int_ {0} ^ {t} f _ {c c} (u) d u \quad f _ {t 1 \rightarrow t 2} = \frac {1}{t 2 - t 1} \int_ {t 1} ^ {t 2} f _ {c c} (u) d u
+df(t) = \exp\left(-t \cdot z_{cc}(t)\right) = \exp\left(-\int_{0}^{t} f_{cc}(u) du\right)
+$$
+
+$$
+z_{cc}(t) = \frac{1}{t} \int_{0}^{t} f_{cc}(u) du \quad f_{t1 \rightarrow t2} = \frac{1}{t2 - t1} \int_{t1}^{t2} f_{cc}(u) du
 $$
 
 Example, 2, 5, 10yr
@@ -404,20 +460,20 @@ Example Bonds and Implied Forward Rates
 With the forward or zero rates, we can PV any CF
 
 $$
-d f (t) = \frac {1}{(1 + z _ {a b}) ^ {t}} = e x p (- t \cdot z _ {t}) = e x p \left(- \int_ {0} ^ {t} f (u) d u\right)
+df(t) = \frac{1}{(1 + z_{ab})^{t}} = \exp(-t \cdot z_{t}) = \exp\left(-\int_{0}^{t} f(u) du\right)
 $$
 
 $$
-z _ {c c} (t) = \frac {1}{t} \int_ {0} ^ {t} f _ {c c} (u) d u = \frac {1}{t} \ln \left(\frac {1}{d \bar {f} (t)}\right) \quad z _ {a b} (t) = \left(\frac {1}{d \bar {f} (t)}\right) ^ {(1 / t)}
+z_{cc}(t) = \frac{1}{t} \int_{0}^{t} f_{cc}(u) du = \frac{1}{t} \ln\left(\frac{1}{d\bar{f}(t)}\right) \quad z_{ab}(t) = \left(\frac{1}{d\bar{f}(t)}\right)^{(1/t)}
 $$
 
 $$
-f _ {c c} (t 1 \rightarrow t 2) = \frac {1}{t 2 - t 1} \int_ {t 1} ^ {t 2} f _ {c c} (u) d u \quad f _ {a b} (t 1 \rightarrow t 2) = \left(\frac {d f (t 1)}{d f (t 2)}\right) ^ {(1 / (t 2 - t 1))}
+f_{cc}(t1 \rightarrow t2) = \frac{1}{t2 - t1} \int_{t1}^{t2} f_{cc}(u) du \quad f_{ab}(t1 \rightarrow t2) = \left(\frac{df(t1)}{df(t2)}\right)^{(1/(t2 - t1))}
 $$
 
-# 1.5 PV for New 4-yr Bond: Using Forward and Zero (Spot) Rates Contents
+## 1.5 PV for New 4-yr Bond: Using Forward and Zero (Spot) Rates Contents
 
-# Using Forward Rates: PV for Arbitrary CFs
+### Using Forward Rates: PV for Arbitrary CFs
 
 <table><tr><td>Name</td><td>Price</td><td>Coupon</td><td>Matur</td><td>Yield</td><td>Fwd Period</td><td>Fwd Rate sab</td><td>Zero sab</td></tr><tr><td>2-year</td><td>100</td><td>$1.162</td><td>2yr</td><td>1.162%</td><td>0-2</td><td>1.162%</td><td>1.162%</td></tr><tr><td>5-year</td><td>100</td><td>$1.721</td><td>5yr</td><td>1.721%</td><td>2-5</td><td>2.111%</td><td>1.731%</td></tr><tr><td>10-year</td><td>100</td><td>\$2.183</td><td>10yr</td><td>2.183%</td><td>5-10</td><td>2.703%</td><td>2.216%</td></tr></table>
 
@@ -444,7 +500,7 @@ Note a few things:
 The formula for a par bond is
 
 $$
-1 0 0 = c \cdot P V (\S 1 a n n u i t y) + P V (\S 1 0 0)
+100 = c \cdot PV(\$1 annuity) + PV(\$100)
 $$
 
 In this case
@@ -456,11 +512,11 @@ In this case
 <table><tr><td></td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>4</td><td>1.162</td><td></td><td>0</td><td>95.887099</td></tr><tr><td>Solve For</td><td></td><td></td><td>-93.690678</td><td></td><td></td></tr></table>
 
 $$
-1 0 0 = c \cdot P V (\S 1 a n n u i t y) + P V (\S 1 0 0)
+100 = c \cdot PV(\$1 annuity) + PV(\$100)
 $$
 
 $$
-1 0 0 = c \cdot 3. 8 7 4 9 7 4 + 9 3. 6 9 0 6 7 8
+100 = c \cdot 3.874974 + 93.690678
 $$
 
 and so  $c = 1.6282$
@@ -479,4 +535,4 @@ and so  $c = 1.6282$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec236eec-a238-43bc-b6da-a316d9fe7afe/343741d189935cf59df7680fa95e5a42751a35637dd73e1ddd4e3f6bc66a24b0.jpg)
 
-# References
+## References

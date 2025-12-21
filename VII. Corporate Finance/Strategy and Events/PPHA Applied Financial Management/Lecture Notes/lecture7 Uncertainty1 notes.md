@@ -1,13 +1,21 @@
 ---
-parent_directory:
 title: PV for Uncertain Cash Flows
-tags:
-aliases:
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+parent_directory: Lecture Notes
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - uncertainty vs risk
+  - certainty equivalent
+  - risk adjusted discounting
+secondary_tags:
+  - utility theory
+  - expected utility
+  - risk premium
+  - discounting uncertain cash flows
+  - standard deviation measures
+  - risk neutral valuation
 cssclasses: academia
-linter-yaml-title-alias: PV for Uncertain Cash Flows
 ---
 
 # PV for Uncertain Cash Flows
@@ -18,26 +26,22 @@ Thomas S. Coleman
 
 10 April 2023 Draft April 12, 2023
 
-# Outline
+## Outline
 
-# Contents
+### Contents
 
-1 Uncertainty versus Risk 1  
-2 Problem - We Don't Know How to PV Uncertain CFs (notes) 2.0.1 Section II of "Practical Guide to Yield Curves" (Canvas). Plus lecture notes 2
+1 Uncertainty versus Risk
+2 Problem - We Don't Know How to PV Uncertain CFs (notes)
+2.1 We Think We're Smart - But Can't PV FIS
+2.2 Simple Example for Solution
+2.3 Program for Valuing Uncertain CFs
+3 PV for Uncertain CFs: Utility and Certainty Equivalent
+3.1 Defining Certainty Equivalent - CF Equivalent to Utility
+3.2 Risk-Adjusted Discounting: Adjust CFs
+3.3 Return to UST & FIS
+4 Securitization
 
-2.1 We Think We're Smart - But Can't PV FIS 2  
-2.2 Simple Example for Solution 4  
-2.3 Program for Valuing Uncertain CFs 5
-
-3 PV for Uncertain CFs: Utility and Certainty Equivalent 7
-
-3.1 Defining Certainty Equivalent - CF Equivalent to Utility 7  
-3.2 Risk-Adjusted Discounting: Adjust CFs 10  
-3.3 Return to UST & FIS 12
-
-4 Securitization 15
-
-# 1 Uncertainty versus Risk
+## 1 Uncertainty versus Risk
 
 Section II of "Practical Guide to Yield Curves, Discounting, and Derivatives" (Canvas); ch 2 of "Practical Guide to Risk Mgmt" (Amazon or CFA)
 
@@ -57,14 +61,14 @@ Risk: the price or value we assign to the Uncertainty
 
 - Difference in PV between certain and uncertain CFs
 
-# We are all Sloppy about Uncertainty vs Risk
+### We are all Sloppy about Uncertainty vs Risk
 
 Everyone uses "Uncertainty" and "Risk" interchangeably
 
 - "Uncertainty" is about nature - spread of CFs  
 - "Risk" is about us - how much we love or hate uncertainty
 
-# Standard Deviation (Volatility) - Measures Uncertainty
+### Standard Deviation (Volatility) - Measures Uncertainty
 
 Reminder about Standard Deviation
 
@@ -78,21 +82,21 @@ We will often use Standard Deviation
 
 # 2 Problem – We Don't Know How to PV Uncertain CFs (notes)
 
-2.0.1 Section II of "Practical Guide to Yield Curves" (Canvas). Plus lecture notes [?]
+#### 2.0.1 Section II of "Practical Guide to Yield Curves" (Canvas). Plus lecture notes [?]
 
-# 2.1 We Think We're Smart - But Can't PV FIS
+### 2.1 We Think We're Smart - But Can't PV FIS
 
-# Contents
+#### Contents
 
-# We Think We're Smart, But Why Different Yields for UST & FIS?
+##### We Think We're Smart, But Why Different Yields for UST & FIS?
 
-Turns out we don't even how to PV our FIS bond Let's look at UST & FIS, and calculate yields
+Turns out we don't even know how to PV our FIS bond. Let's look at UST & FIS, and calculate yields
 
 - UST:  $2.25\%$  coupon, 15-nov-25 (31-dec-15)  $\mathrm{P} = 99.84375$ ,  $\mathrm{Y} = 2.268\%$ .
 
 <table><tr><td></td><td>Type</td><td>Settle</td><td>Mat</td><td>CPN%</td><td>YLD%</td><td>Price</td></tr><tr><td>Given</td><td>A/A Semi</td><td>12.312015</td><td>11.152025</td><td>2.25</td><td></td><td>99.84375</td></tr><tr><td>Solve For</td><td></td><td></td><td></td><td></td><td>2.268</td><td></td></tr></table>
 
-FIS: 30/360, semi  $5\%$  coupon, 15-oct-25 (31-dec-15)  $\mathrm{P} = 103.626$ $\mathrm{Y} = 4.536\%$
+FIS: 30/360, semi $5\%$ coupon, 15-oct-25 (31-dec-15) $P = 103.626$, $Y = 4.536\%$
 
 <table><tr><td></td><td>Type</td><td>Settle</td><td>Mat</td><td>CPN%</td><td>YLD%</td><td>Price</td></tr><tr><td>Given</td><td>360 Semi</td><td>12.312015</td><td>10.152025</td><td>5</td><td></td><td>103.626</td></tr><tr><td>Solve For</td><td></td><td></td><td></td><td></td><td>4.536</td><td></td></tr></table>
 
@@ -100,7 +104,7 @@ These UST and FIS prices (and yields) are from December 2015.
 
 # Our Discounting for FIS Totally Wrong
 
-- UST:  $2.25\%$  coupon, 15-nov-25 (31-dec-15)  $\mathrm{P} = 99.84375$ ,  $\mathrm{Y} = 2.268\%$ .  
+- UST: $2.25\%$ coupon, 15-nov-25 (31-dec-15) $P = 99.84375$, $Y = 2.268\%$.
 FIS:  $5\%$  coupon, 15-oct-25 (31-dec-15)  $\mathrm{P} = 103.626$ $\mathrm{Y} = 4.536\%$
 
 This cannot be right - such huge discounting differences
@@ -264,14 +268,14 @@ Need to go back to basics: think about utility and value of the distribution
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/daa3f1a4-5858-41cb-8186-d3dbc3b8410a/af199b2bed17e79a639086613fd0a033a24f173540d0616e3ef2d9df174765f8.jpg)  
 Value of Office Building
 
-# Averaging Utility - Not CFs
+### Averaging Utility - Not CFs
 
 We want utility or value of those two possibilities
 
 We have to average the utility not CFs (expected utility not expected CF)
 
 $$
-E U = U \left(C _ {l}, C _ {h}\right) = p \cdot u \left(C _ {l}\right) + (1 - p) \cdot u \left(C _ {h}\right) \neq u \left(p \cdot C _ {l} + (1 - p) \cdot C _ {h}\right)
+E U = U \left(C_{l}, C_{h}\right) = p \cdot u \left(C_{l}\right) + (1 - p) \cdot u \left(C_{h}\right) \neq u \left(p \cdot C_{l} + (1 - p) \cdot C_{h}\right)
 $$
 
 To make concrete, Constant Relative Risk Aversion:  $u(C) = \frac{C^{1 - \gamma}}{1 - \gamma}$ , with  $\gamma = 8$
@@ -283,7 +287,7 @@ But we can always ask "what single CF is equivalent to our utility?"
 Solve for Certainty Equivalent:
 
 $$
-U \left(C _ {C E}\right) = E U \left(C _ {l}, C _ {h}\right) = U \left(C _ {l}, C _ {h}\right) = p \cdot u \left(C _ {l}\right) + (1 - p) \cdot u \left(C _ {h}\right)
+U \left(C_{CE}\right) = E U \left(C_{l}, C_{h}\right) = U \left(C_{l}, C_{h}\right) = p \cdot u \left(C_{l}\right) + (1 - p) \cdot u \left(C_{h}\right)
 $$
 
 $\gamma = 8$  (a reasonable number which produces reasonable risk aversion)
@@ -295,13 +299,13 @@ Certainty Equivalent - CF that Gives Correct Utility
 Solve for Certainty Equivalent:
 
 $$
-U \left(C _ {C E}\right) = E U \left(C _ {l}, C _ {h}\right) = U \left(C _ {l}, C _ {h}\right) = p \cdot u \left(C _ {l}\right) + (1 - p) \cdot u \left(C _ {h}\right)
+U \left(C_{CE}\right) = E U \left(C_{l}, C_{h}\right) = U \left(C_{l}, C_{h}\right) = p \cdot u \left(C_{l}\right) + (1 - p) \cdot u \left(C_{h}\right)
 $$
 
 Avg utility (exp utility), not CF (exp CF)
 
 $$
-E U = U \left(C _ {l}, C _ {h}\right) = p \cdot u \left(C _ {l}\right) + (1 - p) \cdot u \left(C _ {h}\right) \neq u \left(p \cdot C _ {l} + (1 - p) \cdot C _ {h}\right)
+E U = U \left(C_{l}, C_{h}\right) = p \cdot u \left(C_{l}\right) + (1 - p) \cdot u \left(C_{h}\right) \neq u \left(p \cdot C_{l} + (1 - p) \cdot C_{h}\right)
 $$
 
 But we can always ask "what single CF is equivalent to our utility?"
@@ -325,7 +329,7 @@ $$
 Certainty Equivalent:
 
 $$
-U \left(C _ {C E}\right) = E U \left(C _ {l}, C _ {h}\right) = U \left(C _ {l}, C _ {h}\right) = p \cdot u (C _ {l}) + (1 - p) \cdot u (C _ {h})
+U \left(C_{CE}\right) = E U \left(C_{l}, C_{h}\right) = U \left(C_{l}, C_{h}\right) = p \cdot u (C_{l}) + (1 - p) \cdot u (C_{h})
 $$
 
 # Expected Utility And Certainty Equivalent
@@ -333,7 +337,7 @@ $$
 For our simple distribution (Figure ??) the average of the cash flows (the expected cash flow) is  \$800k. Most people, however, would rather have\$ 800k for sure (probability 1) rather than a 50/50 chance of high or low - most people are risk averse. Whatever the attitude towards risk, we can use utility theory and represent the value in expected utility terms:
 
 $$
-E U = U \left(C _ {l}, C _ {h}\right) = p \cdot u \left(C _ {l}\right) + (1 - p) \cdot u \left(C _ {h}\right) \tag {1}
+E U = U \left(C_{l}, C_{h}\right) = p \cdot u \left(C_{l}\right) + (1 - p) \cdot u \left(C_{h}\right) \tag {1}
 $$
 
 where
@@ -351,19 +355,19 @@ The fundamental issue is that utility is usually not linear  $(u(Y) \neq Y)$  an
 We can, however, calculate what cash flow would correspond to the expected utility EU (-9.4E-22 for our sample utility function). This is the Certainty Equivalent, the single cash flow that is valued the same (in utility terms) as the distribution of the two cash flows, \$711.41 and \$888.59. We just need to solve
 
 $$
-U \left(C _ {C E}\right) = E U \left(C _ {l}, C _ {h}\right) = U \left(C _ {l}, C _ {h}\right) = p \cdot u (C _ {l}) + (1 - p) \cdot u (C _ {h}).
+U \left(C_{CE}\right) = E U \left(C_{l}, C_{h}\right) = U \left(C_{l}, C_{h}\right) = p \cdot u (C_{l}) + (1 - p) \cdot u (C_{h}).
 $$
 
 In our case (with our sample CRRA utility function,  $\gamma = 8$ ), this is:
 
 $$
-- 9. 3 7 8 E - 2 2 = \frac {C _ {C E} ^ {1 - \gamma}}{1 - \gamma}
+- 9. 3 7 8 E - 2 2 = \frac {C_{CE} ^ {1 - \gamma}}{1 - \gamma}
 $$
 
 and the Certainty Equivalent turns out to be \(764.28. This is the certain cash flow with the same value as the distribution of cash flows. More generally, the certainty equivalent is the solution to:
 
 $$
-u (C E) = p \cdot u \left(C _ {l}\right) + (1 - p) \cdot u \left(C _ {h}\right)
+u (C E) = p \cdot u \left(C_{l}\right) + (1 - p) \cdot u \left(C_{h}\right)
 $$
 
 It is no accident that the certainty equivalent from our utility example is the same as the market value, the certain value determined by the market. In a sense, this has to be the case: the market value is the cash value adjusted for the risk of the distribution of risky cash flows.
@@ -390,7 +394,7 @@ From the market
 Now perform a backwards trick: adjust CFs (in a neat way) so that
 
 $$
-C E = p \cdot C F _ {a d j} ^ {l o} + (1 - p) \cdot C F _ {a d j} ^ {h i}
+C E = p \cdot C F_{a d j} ^ {l o} + (1 - p) \cdot C F_{a d j} ^ {h i}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/daa3f1a4-5858-41cb-8186-d3dbc3b8410a/a748e8ff61784b5c7d318c1ac29ba978f4903f2e12cd81bdb3091bfc06cf97c5.jpg)
@@ -402,45 +406,45 @@ We have multiple steps:
 1. Get CE (certainty equivalent) from dist'n using utility
 
 $$
-u (C E) = p \cdot u \left(C _ {l}\right) + (1 - p) \cdot u \left(C _ {h}\right)
+u (C E) = p \cdot u \left(C_{l}\right) + (1 - p) \cdot u \left(C_{h}\right)
 $$
 
 $$
-u (7 4 6. 2 8) = \frac {1}{2} \cdot u (7 1 1. 4 1) + \frac {1}{2} \cdot u (8 8 8. 5 9)
+u(746.28) = \frac{1}{2} \cdot u(711.41) + \frac{1}{2} \cdot u(888.59)
 $$
 
 2. Adjust CFs so they average to CE:
 
 $$
-C E = p \cdot C F _ {a d j} ^ {l o} + (1 - p) \cdot C F _ {a d j} ^ {h i}
+C E = p \cdot C F_{a d j} ^ {l o} + (1 - p) \cdot C F_{a d j} ^ {h i}
 $$
 
 $$
-7 6 4. 2 8 = \frac {1}{2} \cdot 6 7 9. 6 6 + \frac {1}{2} \cdot 8 4 8. 9 3
+764.28 = \frac{1}{2} \cdot 679.66 + \frac{1}{2} \cdot 848.93
 $$
 
 3. Write adjustment as  $1 / 1 + rp$ :
 
 $$
-C E = p \cdot \frac {C F _ {o r i g} ^ {l o}}{1 + r p} + (1 - p) \cdot \frac {C F _ {o r i g} ^ {h i}}{1 + r p}
+C E = p \cdot \frac {C F_{o r i g} ^ {l o}}{1 + r p} + (1 - p) \cdot \frac {C F_{o r i g} ^ {h i}}{1 + r p}
 $$
 
 $$
-C E = \frac {1}{1 + r p} \left[ p \cdot C F _ {o r i g} ^ {l o} + (1 - p) \cdot C F _ {o r i g} ^ {h i} \right] = \frac {C F _ {o r i g} ^ {a v g}}{1 + r p}
+C E = \frac {1}{1 + r p} \left[ p \cdot C F_{o r i g} ^ {l o} + (1 - p) \cdot C F_{o r i g} ^ {h i} \right] = \frac {C F_{o r i g} ^ {a v g}}{1 + r p}
 $$
 
 $$
-C E = p \cdot \frac {C F _ {o r i g} ^ {t o}}{1 + r p} + (1 - p) \cdot \frac {C F _ {o r i g} ^ {h i}}{1 + r p}
+C E = p \cdot \frac {C F_{o r i g} ^ {t o}}{1 + r p} + (1 - p) \cdot \frac {C F_{o r i g} ^ {h i}}{1 + r p}
 $$
 
 $$
-7 6 4. 2 8 = \frac {1}{1 + . 0 4 6 7 3} \left[ \frac {1}{2} \cdot 7 1 1. 4 1 + \frac {1}{2} \cdot 8 8 8. 5 9 \right] = \frac {8 0 0}{1 + . 0 4 6 7 3}
+764.28 = \frac{1}{1 + 0.04673} \left[ \frac{1}{2} \cdot 711.41 + \frac{1}{2} \cdot 888.59 \right] = \frac{800}{1 + 0.04673}
 $$
 
 4. Discount CE at risk-free, original avg CF at  $rf + rp$ :
 
 $$
-P V = \frac {C E}{1 + r f} = \frac {C F _ {\text {o r i g}} ^ {\text {a v g}}}{(1 + r f) (1 + r p)} = \frac {C F _ {\text {o r i g}} ^ {\text {a v g}}}{(1 + y _ {\text {r i s k y}})}
+P V = \frac {C E}{1 + r f} = \frac {C F_{\text {o r i g}} ^ {\text {a v g}}}{(1 + r f) (1 + r p)} = \frac {C F_{\text {o r i g}} ^ {\text {a v g}}}{(1 + y_{\text {r i s k y}})}
 $$
 
 $$
@@ -452,7 +456,7 @@ Looks like regular yield-to-maturity, just a higher "risk-adjusted" rate
 Now perform a backwards trick: adjust CFs (via  $CF_{adj} = \frac{CF_{orig}}{1 + rp}$ ) so that
 
 $$
-C E = p \cdot C F _ {a d j} ^ {l o} + (1 - p) \cdot C F _ {a d j} ^ {h i}
+C E = p \cdot C F_{a d j} ^ {l o} + (1 - p) \cdot C F_{a d j} ^ {h i}
 $$
 
 $$
@@ -462,13 +466,13 @@ $$
 This looks pretty arbitrary but it turns out to be very general and works wonderfully well. Let's continue on for a moment and write this adjustment as  $1 / 1 + \mathrm{rp}$ ):
 
 $$
-\begin{array}{l} C E = p \cdot \frac {C F _ {o r i g} ^ {l o}}{1 + r p} + (1 - p) \cdot \frac {C F _ {o r i g} ^ {h i}}{1 + r p} \\ = \frac {1}{1 + r p} \left[ p \cdot C F _ {o r i g} ^ {l o} + (1 - p) \cdot C F _ {o r i g} ^ {h i} \right] \\ = \frac {C F _ {\text {o r i g}} ^ {a v g}}{1 + r p} \\ \end{array}
+\begin{array}{l} C E = p \cdot \frac {C F_{o r i g} ^ {l o}}{1 + r p} + (1 - p) \cdot \frac {C F_{o r i g} ^ {h i}}{1 + r p} \\ = \frac {1}{1 + r p} \left[ p \cdot C F_{o r i g} ^ {l o} + (1 - p) \cdot C F_{o r i g} ^ {h i} \right] \\ = \frac {C F_{\text {o r i g}} ^ {a v g}}{1 + r p} \\ \end{array}
 $$
 
 Now we have something that looks surprisingly like discounting. In fact, we can now discount back to today because the Certainty Equivalent is a known and certain cash flow so we can discount with the risk-free rate, just as we have been doing for any known cash flow:
 
 $$
-P V = \frac {C E}{1 + r f} = \frac {C F _ {\text {o r i g}} ^ {\text {a v g}}}{(1 + r f) (1 + r p)} = \frac {C F _ {\text {o r i g}} ^ {\text {a v g}}}{(1 + y _ {\text {r i s k y}})}
+P V = \frac {C E}{1 + r f} = \frac {C F_{\text {o r i g}} ^ {\text {a v g}}}{(1 + r f) (1 + r p)} = \frac {C F_{\text {o r i g}} ^ {\text {a v g}}}{(1 + y_{\text {r i s k y}})}
 $$
 
 So now we can use the average CF (or promised CF) from the distribution, which is usually easy to get, and use this single number to discount in the way we always have, but with the additional adjustment of the  $\frac{1}{1 + rp}$ .
@@ -482,7 +486,7 @@ Discounting Certainty Equivalent at Risk-Free Rate
 Discounting Avg (Promised) CF at Risk-Adjusted Rate
 
 $$
-P V = \frac {C E}{1 + r f} = \frac {C F _ {\text {o r i g}} ^ {\text {a v g}}}{(1 + r f) (1 + r p)} = \frac {C F _ {\text {o r i g}} ^ {\text {a v g}}}{(1 + y _ {\text {r i s k y}})}
+P V = \frac {C E}{1 + r f} = \frac {C F_{\text {o r i g}} ^ {\text {a v g}}}{(1 + r f) (1 + r p)} = \frac {C F_{\text {o r i g}} ^ {\text {a v g}}}{(1 + y_{\text {r i s k y}})}
 $$
 
 $$
@@ -495,7 +499,7 @@ Looks like regular yield-to-maturity, just a higher "risk-adjusted" rate
 
 # Contents
 
-# Return to UST & FIS
+## Return to UST & FIS
 
 Apply our ideas of Risk Adjusted Discounting
 
@@ -535,7 +539,7 @@ Market gives us risk premium - embedded in price (settle 31-dec-15)
 - UST:  $2.25\%$  coupon, 15-nov-25  $\mathrm{P} = 99.84375$ ,  $\mathrm{Y} = 2.268\% \mathrm{stab}$
 
 $$
-- 1. 0 2 2 6 8 = (1 + r f)
+- 1.02268 = (1 + rf)
 $$
 
 FIS:  $5\%$  coupon, 15-oct-25 P=103.626, Y=4.536%Sab

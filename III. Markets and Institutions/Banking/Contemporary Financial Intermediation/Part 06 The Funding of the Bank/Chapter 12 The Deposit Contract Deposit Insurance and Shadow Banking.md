@@ -1,15 +1,33 @@
 ---
-aliases:
-  - The Deposit Contract Deposit Insurance and Shadow Banking
-tags:
-key_concepts:
-parent_directory: Contemporary Financial Intermediation
-cssclasses: academia
 title: Chapter 12 - The Deposit Contract Deposit Insurance and Shadow Banking
-linter-yaml-title-alias: Chapter 12 - The Deposit Contract Deposit Insurance and Shadow Banking
+primary_tags:
+  - deposit contracts
+  - deposit insurance
+  - shadow banking
+  - bank runs
+  - moral hazard
+secondary_tags:
+  - liability management
+  - bank panics
+  - regulatory forbearance
+  - asset substitution
+  - sequential service constraint
+  - federal deposit insurance corporation
+  - federal savings and loan insurance corporation
+  - bank holding companies
+  - securitization
+  - repurchase agreements
+  - asset backed commercial paper
+  - money market mutual funds
+  - collateralized debt obligations
+cssclasses: academia
+formatted: 2025-12-21 04:10:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+parent_directory: Contemporary Financial Intermediation
 ---
 
-# GLOSSARY OF TERMS
+## GLOSSARY OF TERMS
 
 Charter Value The economic value of a bank to its owners (the shareholders). It can be viewed as the net present value of the profits expected to accrue to the shareholders over the life of the bank.
 
@@ -21,17 +39,15 @@ Junk Bonds Very high (default) risk bonds issued by corporations. These bonds ha
 
 Capital Asset Pricing Model A model describing how risk is priced in the capital market. In particular, it predicts a linear relationship between the expected return on a security and its systematic risk factor (defined as "beta," the ratio of the covariance of the return on the security with that of the market to the variance of the market return).
 
-# INTRODUCTION
+## INTRODUCTION
 
-In earlier chapters, we focused on the asset side of the balance sheet for depository institutions. We now shift to the liability side. Although depository institutions have a wide variety of liabilities, in this chapter we will concentrate on different types of deposits, since this source of funding dominates for depository institutions. For example, at the end of the first quarter of 2018, U.S. banks had  \$17.53 trillion in assets, financed with\$ 13.53 trillion in deposits. After covering depository institutions, we will discuss how institutions fund themselves in the shadow-banking system.
+In earlier chapters, we focused on the asset side of the balance sheet for depository institutions. We now shift to the liability side. Although depository institutions have a wide variety of liabilities, in this chapter we will concentrate on different types of deposits, since this source of funding dominates for depository institutions. For example, at the end of the first quarter of 2018, U.S. banks had  \$17.53 trillion in assets, financed with \$13.53 trillion in deposits. After covering depository institutions, we will discuss how institutions fund themselves in the shadow-banking system.
 
 In the United States, the terms "bank deposits" and "deposit insurance" are almost inseparable. Yet, it is essential to distinguish the issues raised by the deposit contract per se from those related to deposit insurance. Thus, we will first discuss the deposit contract without the insurance aspect. We will then discuss "liability management", which is the process of managing the bank's net interest margin, that is, the difference between the asset revenues and the liability costs, expressed as a fraction of total assets. This will be followed by an analysis of deposit insurance. Having previously discussed the uninsured deposit contract, we will be able to see how governmental deposit insurance alters the deposit contract, and the behaviors of deposit takers.
 
 We doubt that anyone remains to be convinced about the importance of deposit insurance-related issues. The increasing frequency of financial crises and the economic disruptions they have caused seem to reinforce the need for safety nets that reassure savers that they need not worry about the safety of the money they deposit in banks. This is because if they were worried, they would be more prone to take their money out at the first sign of trouble, which would then make the whole system vulnerable to runs on banks caused by rumors and unsubstantiated innuendos. Nonetheless, deposit insurance is not without its detractors. The main criticism is that the safety net it provides creates a moral hazard because depositors have little incentive to take the trouble to exert market discipline on the bank if it is taking excessive risk or making other imprudent choices. Many have blamed deposit insurance and greed for the S&L crisis and the widespread banking failures of the 1980s.<sup>1</sup> While this seems to be accepted, it is more difficult to explain why we have deposit insurance, and in particular, why we have the kind of deposit contract that seems to make federal insurance desirable. Discussions of these issues figure prominently in this chapter. What is unfortunate is that the S&L crisis was, to a great extent, avoidable, and the regulatory reforms that followed the crisis made sense well before the crisis occurred. As early as 1977, academic publications made the point that federally insured depository institutions had powerful incentives to take asset risk that was excessive from a
 
-social welfare standpoint, and that capital regulation, as it existed then, by itself was incapable of controlling these incentives, so that a fundamental reform of regulation was necessary.
-
-Some might argue, however, that our historical experience (particularly since the advent of federal deposit insurance, following the Great Depression) did not prepare us for the systemic shocks like the S&L crisis. In the post-1933 period, extremely low bank failure rates made banking a rather unusual industry. So another puzzle is: Why the rash of failures did not occur prior to the 1980s? It turns out that the empirical and theoretical research on which this chapter is based provides valuable insights into the timing of financial crises, and leads us to conclude that, despite our comfortable post-Depression experience, we should have foreseen many of the things that happened.
+social welfare standpoint, and that capital regulation, as it existed then, by itself was incapable of controlling these incentives, so that a fundamental reform of regulation was necessary. Some might argue, however, that our historical experience (particularly since the advent of federal deposit insurance, following the Great Depression) did not prepare us for the systemic shocks like the S&L crisis. In the post-1933 period, extremely low bank failure rates made banking a rather unusual industry. So another puzzle is: Why the rash of failures did not occur prior to the 1980s? It turns out that the empirical and theoretical research on which this chapter is based provides valuable insights into the timing of financial crises, and leads us to conclude that, despite our comfortable post-Depression experience, we should have foreseen many of the things that happened.
 
 The regulatory reforms put in place after the S&L crisis of the 1980s, especially those dealing with capital requirements for depository institutions and regulatory forbearance, have served the purpose of increasing the safety and soundness of the depository banking industry fairly well, at least for the smaller institutions that were at the center of the S&L crisis. However, since 2000, massive consolidation in the banking sector and the explosive growth of the shadow-banking system, due in no small measure to the burgeoning popularity of securitization of a growing number of assets, were creating all sorts of risks that banking regulators seemed unprepared for. Also very fragile funding structures and high leverage became prevalent. A major part of this lack of regulatory oversight had to do with the fact that most of the shadow-banking institutions – brokerage house, money market mutual funds, investment banks, asset-backed securities conduits and the like – are not depository institutions and hence not covered by deposit insurance and banking supervisors, but under the purview of the Securities and Exchange Commission (SEC). However, the subprime crisis of 2007–2009 originated in the United States in the shadow-banking sector. Many of the institutions that became financially distressed as a result of the crisis – like AIG and Bear Sterns – were interconnected with many other institutions – including depository institutions – through swap contracts and other arrangements, and the opaqueness of these institutions and their arrangements meant that regulatory bodies like the Federal Reserve and the Treasury Department could not determine with certainty the consequences of allowing them to fail. Further complicating matters, ever-expanding bank holding companies were increasingly conducting shadow banking activities. Thus, even though these were not necessarily deposit-insured institutions, the Federal Reserve stepped in with unprecedented forms of assistance to forestall the failures of many of these institutions. These events will be discussed in greater depth in Chapter 14, which is devoted to the 2007–2009 financial crisis, but for now we note that the crisis was a rude awakening in that we have now come to appreciate that institutions can not only be too big to fail, but also "too interconnected to fail," and that systemic risk is not just some exogenous shock that comes out of thin air, but rather a consequence of the incentives built into the system, and the responses of individual institutions to those incentives.
 
@@ -45,10 +61,9 @@ Deposit contracts either have defined maturities like certificates of deposit (C
 
 The demand deposit contract has four important features:
 
-It is a debt contract.  
-
-- Its maturity is infinitesimal and it can be rolled over indefinitely.  
-- It is not traded in a secondary market.  
+- It is a debt contract.
+- Its maturity is infinitesimal and it can be rolled over indefinitely.
+- It is not traded in a secondary market.
 - It is governed by a "sequential service" constraint.
 
 # Debt Contract
@@ -95,21 +110,26 @@ This argument suggests that the demandable nature of deposits helps to keep the 
 
 # Example 12.1
 
-Consider a bank that receives a \(1 deposit at \(t = 0\) from each of 105 different depositors. It invests \(\$ 10\)of shareholders' equity in the bank and lends \(\$ 110\), keeping \(\$ 5\)as cash reserves. Out of the 105 depositors, there are 30 depositors (called type-\(D_{1}\) depositors) who are capable of monitoring the bank's management; the remaining depositors (called type-\(D_{2}\) depositors) keep their money in the bank simply for transactions and safekeeping purposes. The cost of monitoring the bank for an individual type-\(D_{1}\) depositor is \(\$ 0.01\)per period.
+Consider a bank that receives a $1 deposit at $t = 0$ from each of 105 different depositors. It invests $\$10$ of shareholders' equity in the bank and lends $\$110$, keeping $\$5$ as cash reserves. Out of the 105 depositors, there are 30 depositors (called type-\(D_{1}\) depositors) who are capable of monitoring the bank's management; the remaining depositors (called type-\(D_{2}\) depositors) keep their money in the bank simply for transactions and safekeeping purposes. The cost of monitoring the bank for an individual type-$D_{1}$ depositor is $\$0.01$ per period.
 
-The bank has two mutually exclusive investment opportunities. Project (or loan) A pays  \$200 with probability 0.7 and zero with probability 0.3 at \(t = 1\$ . Project B pays \)150 with probability 0.9 and \$112 with probability 0.1 at  $t = 1$ . If the bank chooses one of these projects, the probability that the bank will actually end up with that project is 0.9. With probability 0.1, the bank will
+The bank has two mutually exclusive investment opportunities. Project (or loan) A pays $\$200$ with probability 0.7 and zero with probability 0.3 at $t = 1$. Project B pays $\$150$ with probability 0.9 and $\$112$ with probability 0.1 at $t = 1$. If the bank chooses one of these projects, the probability that the bank will actually end up with that project is 0.9. With probability 0.1, the bank will
 
-have inadvertently chosen the other project. Thus, we assume that the bank may make errors in project choice.<sup>6</sup> By monitoring the bank, a type- $\mathbf{D}_1$  depositor can discover the bank's true project choice at some point in time intermediate between  $t = 0$  and  $t = 1$ , say at  $t = 1/2$ . These depositors can, if they desire, force liquidation of the bank by withdrawing their deposits at  $t = 1/2$ , and the threat of this liquidation provides a disincentive to the bank to choose the risky project. Note that the bank's projects or loans mature at  $t = 1$ . If they are liquidated at  $t = 1/2$ , they are worth only \$25 to the bank. Under the terms of the deposit contract, the bank promises to pay a  $12\%$  interest (conditional on the bank having the financial capacity to do so) if deposit withdrawal occurs at  $t = 1$ , and no interest if withdrawal occurs before that. Thus, a depositor is entitled to \$1.12 if she withdraws at  $t = 1$ , and \$1 if she withdraws at  $t = 1/2$ . The risk-free discount rate is zero and all agents are risk neutral.
+have inadvertently chosen the other project. Thus, we assume that the bank may make errors in project choice.<sup>6</sup> By monitoring the bank, a type- $\mathbf{D}_1$  depositor can discover the bank's true project choice at some point in time intermediate between  $t = 0$  and  $t = 1$ , say at $t = 1/2$. These depositors can, if they desire, force liquidation of the bank by withdrawing their deposits at $t = 1/2$, and the threat of this liquidation provides a disincentive to the bank to choose the risky project. Note that the bank's projects or loans mature at $t = 1$. If they are liquidated at $t = 1/2$, they are worth only $\$25$ to the bank. Under the terms of the deposit contract, the bank promises to pay a $12\%$ interest (conditional on the bank having the financial capacity to do so) if deposit withdrawal occurs at $t = 1$, and no interest if withdrawal occurs before that. Thus, a depositor is entitled to $\$1.12$ if she withdraws at $t = 1$, and $\$1$ if she withdraws at $t = 1/2$. The risk-free discount rate is zero and all agents are risk neutral.
 
-All the type- $\mathrm{D}_2$  depositors plan to withdraw at  $t = 1$ , but each is subject to a random liquidity-motivated desire to withdraw at  $t = 1/2$ . To simplify, we will assume that even though no one knows in advance which (type- $\mathrm{D}_2$ ) depositors will wish to withdraw at  $t = 1/2$ , the fraction of those who will wish to withdraw is known to be 5/75. That is, five type- $\mathrm{D}_2$  depositors will wish to withdraw at  $t = 1/2$ . Assume that the bank's managers make decisions in the best interests of their shareholders. Compute the equilibrium strategies of the bank and its depositors.
+All the type- $\mathrm{D}_2$  depositors plan to withdraw at  $t = 1$ , but each is subject to a random liquidity-motivated desire to withdraw at  $t = 1/2$ . To simplify, we will assume that even though no one knows in advance which (type- $\mathrm{D}_2$ ) depositors will wish to withdraw at  $t = 1/2$ , the fraction of those who will wish to withdraw is known to be $5/75$. That is, five type- $\mathrm{D}_2$  depositors will wish to withdraw at  $t = 1/2$ . Assume that the bank's managers make decisions in the best interests of their shareholders. Compute the equilibrium strategies of the bank and its depositors.
 
 # Solution
 
 It is useful to summarize the strategies available to the bank and the different types of depositors before we begin to analyze the solution. These are listed in Table 12.1.
 
-TABLE 12.1 Strategies of Participants  
+TABLE 12.1 Strategies of Participants
 
-<table><tr><td>Agent</td><td colspan="3">Strategies</td></tr><tr><td>Bank</td><td>Choose project A at t = 0</td><td>Choose project B at t = 0</td><td></td></tr><tr><td>Type-D1depositors</td><td>Monitor and decide whether or not to withdraw at t = 1/2 based upon result of monitoring</td><td>Do not monitor and withdraw at t = 1</td><td>Do not monitor and withdraw at t = 1/2</td></tr><tr><td>Liquidity-motivated Type-D2depositors</td><td>Withdraw at t = 1/2</td><td>Withdraw at t = 1/2</td><td></td></tr><tr><td>Other (Patient) Type-D2depositors</td><td>Withdraw at t = 1</td><td>Withdraw at t = 1</td><td></td></tr></table>
+| Agent | Strategies |
+|-------|------------|
+| Bank | Choose project A at t = 0<br>Choose project B at t = 0 |
+| Type-D1 depositors | Monitor and decide whether or not to withdraw at t = 1/2 based upon result of monitoring<br>Do not monitor and withdraw at t = 1<br>Do not monitor and withdraw at t = 1/2 |
+| Liquidity-motivated Type-D2 depositors | Withdraw at t = 1/2<br>Withdraw at t = 1/2 |
+| Other (Patient) Type-D2 depositors | Withdraw at t = 1<br>Withdraw at t = 1 |
 
 We will solve this problem in four steps. First, we analyze the bank's project choice in the case in which the type- $\mathsf{D}_1$  depositors do not monitor and the bank knows that there is no monitoring. We show that the bank chooses project A in this case. Second, we show that our assumption in Step 1 is invalid because it cannot be a Nash equilibrium for no type- $\mathsf{D}_1$  depositors to monitor. Next, we wish to examine if it is a Nash equilibrium for all the type- $\mathsf{D}_1$  depositors to monitor. We do this in two steps. In Step 3, we show that the bank chooses project B if it believes that all the type- $\mathsf{D}_1$  depositors will monitor. Then in Step 4, we examine the strategy of a type- $\mathsf{D}_1$  depositor when he knows that all the other type-D1 depositors will monitor and the bank has opted for project B. We show that this type- $\mathsf{D}_1$  depositor will wish to monitor. This verifies that it is indeed a Nash equilibrium for all the type- $\mathsf{D}_1$  depositors to monitor.
 
@@ -287,15 +307,15 @@ The reason why deposit insurance has to be federal is the credibility of the fed
 
 The overall effect of reduced monitoring costs will be to increase the effective interest rates on deposits,[14] but this benefit of deposit insurance may be offset by a host of implementation problems that we have yet to address.
 
-# Banking Runs and Panics: Theories and the Empirical Evidence
+## Banking Runs and Panics: Theories and the Empirical Evidence
 
 Although the idea that deposit insurance can eliminate bank runs is an old one, research in the last decade has provided a clearer understanding of why bank runs and banking panics occur. In light of the recent S&L and banking turmoil, linked by many to federal deposit insurance, alternative arrangements deserve careful consideration. This subsection offers a perspective that should be useful in thinking about these issues.
 
 When informational imperfections interfere with the functioning of a market, governmental intervention may be warranted. An example is Akerlof's lemons problem in the used car market (recall Chapter 1); "lemons laws" protect used car buyers in many states. Another example is the Federal Aviation Authority's regulation of airline safety and the Federal Drug Administration's regulation of the medicinal drug market. In these markets, it is very costly for consumers to let the market provide the necessary disciplining of providers. Similarly, if banking panics disrupt the productive sector of the economy, federal deposit insurance may be warranted if it is effective in reducing the likelihood of panics. The two main theories discussed below explain how deposit insurance can prevent runs and panics.
 
-1. The "Sunspots" Theory of Bank Runs: This theory maintains that bank runs are triggered by completely random events like "sunspots."15 Suppose that we live in a two-period world with three points in time: t = 0, 1, 2. Individuals are risk averse. At t = 0, individuals have endowments of wealth that they wish to invest in projects. Each project requires a \$1 investment at t = 1, pays off $R for sure at t = 2 if not liquidated earlier, and has positive NPV, that is, each offers a rate of return sufficiently higher than the riskless rate (which is zero) if continued until t = 2. Let R > \$1. However, if the project is liquidated prematurely at t = 1, then there is a loss of productive efficiency and the project pays off only \$1.
+1. The "Sunspots" Theory of Bank Runs: This theory maintains that bank runs are triggered by completely random events like "sunspots."15 Suppose that we live in a two-period world with three points in time: t = 0, 1, 2. Individuals are risk averse. At t = 0, individuals have endowments of wealth that they wish to invest in projects. Each project requires a $\$1$ investment at $t = 1$, pays off $R$ for sure at $t = 2$ if not liquidated earlier, and has positive NPV, that is, each offers a rate of return sufficiently higher than the riskless rate (which is zero) if continued until $t = 2$. Let $R > \$1$. However, if the project is liquidated prematurely at t = 1, then there is a loss of productive efficiency and the project pays off only \$1.
 
-At  $t = 0$ , individuals are unsure of their future preferences for the timing of their consumption. At  $t = 1$ , they receive a "preference shock" and learn whether they are about to die or will live another period. If they are about to die, they want to withdraw the money they have invested and consume it immediately at  $t = 1$ . If they learn that they will live, then they want to leave their money in the projects and consume $R at  $t = 2\$ . For the population as a whole, a (random) fraction,  $f$ , of individuals are "diers" at  $t = 1$  and a fraction,  $1 - f$ , are "livers."
+At $t = 0$, individuals are unsure of their future preferences for the timing of their consumption. At $t = 1$, they receive a "preference shock" and learn whether they are about to die or will live another period. If they are about to die, they want to withdraw the money they have invested and consume it immediately at $t = 1$. If they learn that they will live, then they want to leave their money in the projects and consume $R$ at $t = 2$. For the population as a whole, a (random) fraction, $f$, of individuals are "diers" at $t = 1$ and a fraction, $1 - f$, are "livers."
 
 What would happen without a bank? Well, if you discover at  $t = 1$  that you are a dier, you will liquidate your investment and consume \$1. Call the first-period consumption  $C_1^{\mathrm{D}}$ , that is,  $C_1^{\mathrm{D}} = 1$ , and your second-period consumption,  $C_2^{\mathrm{D}} = 0$ . If you discover that you are a "liver," then you will choose to consume nothing at  $t = 1$  (i.e.,  $C_1^{\mathrm{L}} = 0$ ) and you will consume an amount  $C_2^{\mathrm{L}} = R$  at  $t = 2$ . Thus, the nonbank outcome is the pair  $\{C_1^{\mathrm{D}} = 1, C_2^{\mathrm{L}} = 0\}$  or the pair  $\{C_1^{\mathrm{L}} = 0, C_2^{\mathrm{L}} = R\}$ , depending on the individual's type. Is this the best outcome from the standpoint of an individual at  $t = 0$ ? The answer is obviously no! Since you are a risk-averse individual, you would like some insurance at  $t = 0$  against a random future shock to your own preference for consumption. This is where a bank can help.
 
@@ -307,7 +327,7 @@ How do you preclude the bad Nash equilibrium? One way is to provide deposit insu
 
 # Example 12.2
 
-Suppose there are 100 risk-averse individuals, each with  \$1 to invest in a project at \(t = 0\$ . The project will yield \)1 if liquidated at  $t = 1$  and \$2.25 if liquidated at  $t = 2$ . At  $t = 0$ , no individual knows what his "type" (denoting his consumption preference) will be at  $t = 1$ . If the individual turns out to be a "dier" (type D), then his utility function for consumption will be
+Suppose there are 100 risk-averse individuals, each with $\$1$ to invest in a project at $t = 0$. The project will yield $\$1$ if liquidated at $t = 1$ and $\$2.25$ if liquidated at $t = 2$. At  $t = 0$ , no individual knows what his "type" (denoting his consumption preference) will be at  $t = 1$ . If the individual turns out to be a "dier" (type D), then his utility function for consumption will be
 
 $$
 U_{D} = \sqrt{C_{1}^{D}}.
@@ -316,12 +336,12 @@ $$
 If he turns out to be a "liver" (type L), then his utility function for consumption will be
 
 $$
-U_{\mathrm{L}} = 0. 6 \sqrt{C_{1}^{\mathrm{L}} + C_{2}^{\mathrm{L}}}.
+U_{\mathrm{L}} = 0.6 \sqrt{C_{1}^{\mathrm{L}} + C_{2}^{\mathrm{L}}}.
 $$
 
 These utility functions capture the idea that the dier benefits from consumption at  $t = 1$  only, and the liver is indifferent between consuming at  $t = 1$  or  $t = 2$  (he gets equal utility from each) so that he will prefer the higher of the two consumptions. It is known
 
-at  $t = 0$  that  $40\%$  of the individuals will end up being diers and  $60\%$  will be livers at  $t = 1$ . Compute the ex ante  $(t = 0)$  expected utility of each individual if (i) there is no bank and each individual invests in his own projects, and (ii) there is a bank that accepts a \$1 deposit from each individual and invests all the proceeds in 100 projects.
+at $t = 0$ that $40\%$ of the individuals will end up being diers and $60\%$ will be livers at $t = 1$. Compute the ex ante  $(t = 0)$  expected utility of each individual if (i) there is no bank and each individual invests in his own projects, and (ii) there is a bank that accepts a \$1 deposit from each individual and invests all the proceeds in 100 projects.
 
 # Solution
 
@@ -406,13 +426,35 @@ Empirical evidence supports this version of the adverse information hypothesis. 
 
 An empirical examination of panics in the pre-Federal Reserve era provides insight into the relationship between changes in risk perceptions and banking panics.[25] To serve as a proxy for perceived risk, empiricists use unanticipated changes in the liabilities of failed businesses.[26] This is reasonable since the fortunes of nonfinancial firms affect the fortunes of banks. As Table 12.2 shows, panic dates correspond to the timing of the largest values of the liabilities shocks. Panics also follow the business cycle peak by several months.
 
-TABLE 12.2 The Relationship Between the Timing of the Largest Unanticipated Changes in the Liabilities of Failed Businesses and the Timing of Banking Panics in the National Banking Era  
+TABLE 12.2 The Relationship Between the Timing of the Largest Unanticipated Changes in the Liabilities of Failed Businesses and the Timing of Banking Panics in the National Banking Era
 
-<table><tr><td>NBER Chronology Peak-Trough (Business Cycle)</td><td>Timing of Largest Value of Unanticipated Changes in Liabilities of Failed Businesses</td><td>Panic Date</td></tr><tr><td>Oct. 1873–Mar. 1879</td><td>Dec. 1873</td><td>Dec. 1873</td></tr><tr><td>Mar. 1882–May 1885</td><td>June 1884</td><td>June 1884</td></tr><tr><td>Mar. 1887–Apr. 1888</td><td>Nov. 1887</td><td>No panic</td></tr><tr><td>July 1890–May 1891</td><td>Dec. 1890</td><td>Dec. 1890</td></tr><tr><td>Jan. 1893–June 1894</td><td>July 1893</td><td>July 1893</td></tr><tr><td>Dec. 1895–June 1897</td><td>Oct. 1896</td><td>Oct. 1896</td></tr><tr><td>June 1899–Dec. 1900</td><td></td><td>No panic</td></tr><tr><td>Sep. 1902–Aug. 1904</td><td></td><td>No panic</td></tr><tr><td>May 1907–June 1908</td><td>Feb. 1908</td><td>Dec. 1907</td></tr><tr><td>Jan. 1910–Jan. 1912</td><td>Mar. 1910</td><td>No panic</td></tr><tr><td>Jan. 1913–Dec. 1914</td><td>Mar. 1914</td><td>Sep. 1914</td></tr><tr><td colspan="3">Source: Gorton (1988).</td></tr></table>
+| NBER Chronology Peak-Trough (Business Cycle) | Timing of Largest Value of Unanticipated Changes in Liabilities of Failed Businesses | Panic Date |
+|----------------------------------------------|-------------------------------------------------------------------------------------|------------|
+| Oct. 1873–Mar. 1879 | Dec. 1873 | Dec. 1873 |
+| Mar. 1882–May 1885 | June 1884 | June 1884 |
+| Mar. 1887–Apr. 1888 | Nov. 1887 | No panic |
+| July 1890–May 1891 | Dec. 1890 | Dec. 1890 |
+| Jan. 1893–June 1894 | July 1893 | July 1893 |
+| Dec. 1895–June 1897 | Oct. 1896 | Oct. 1896 |
+| June 1899–Dec. 1900 |  | No panic |
+| Sep. 1902–Aug. 1904 |  | No panic |
+| May 1907–June 1908 | Feb. 1908 | Dec. 1907 |
+| Jan. 1910–Jan. 1912 | Mar. 1910 | No panic |
+| Jan. 1913–Dec. 1914 | Mar. 1914 | Sep. 1914 |
 
-TABLE 12.3 The Relationship Between the Timing of the Largest Unanticipated Changes in the Liabilities of Failed Businesses and the Timing of Banking Panics in the Federal Reserve Era  
+Source: Gorton (1988).
 
-<table><tr><td>Peak-Trough (Business Cycle)</td><td>Timing of Largest Value of Unanticipated Changes in Liabilities of Failed Businesses</td><td>Panic Date</td></tr><tr><td>Aug. 1918–Mar. 1919</td><td>Nov. 1918</td><td>No panic</td></tr><tr><td>Jan. 1920–July 1921</td><td>June 1920</td><td>No panic</td></tr><tr><td>May 1923–July 1924</td><td>Nov. 1923</td><td>No panic</td></tr><tr><td>Oct. 1926–Nov. 1927</td><td>Apr. 1927</td><td>No panic</td></tr><tr><td>Aug. 1929–Mar. 1933</td><td>Dec. 1929</td><td>Oct. 1930</td></tr><tr><td></td><td></td><td>Mar. 1931</td></tr><tr><td></td><td></td><td>Jan. 1933</td></tr></table>
+TABLE 12.3 The Relationship Between the Timing of the Largest Unanticipated Changes in the Liabilities of Failed Businesses and the Timing of Banking Panics in the Federal Reserve Era
+
+| Peak-Trough (Business Cycle) | Timing of Largest Value of Unanticipated Changes in Liabilities of Failed Businesses | Panic Date |
+|------------------------------|-------------------------------------------------------------------------------------|------------|
+| Aug. 1918–Mar. 1919 | Nov. 1918 | No panic |
+| Jan. 1920–July 1921 | June 1920 | No panic |
+| May 1923–July 1924 | Nov. 1923 | No panic |
+| Oct. 1926–Nov. 1927 | Apr. 1927 | No panic |
+| Aug. 1929–Mar. 1933 | Dec. 1929 | Oct. 1930 |
+|  |  | Mar. 1931 |
+|  |  | Jan. 1933 |
 
 Note: The change in perceived risk in June 1920 was large enough to have caused a panic in the pre-Fed Era. Source: Gorton (1988).
 
@@ -422,7 +464,7 @@ The formation of the Federal Reserve System in 1914 and the initiation of deposi
 
 The introduction of deposit insurance again significantly changed depositor behavior. In the period from 1935 to 1972, until after deposit insurance was introduced, there were several instances of large failed business liabilities shocks, none of which resulted in panics. Thus, deposit insurance appears to have served its purpose.
 
-# Deposit Insurance Pricing and Moral Hazard
+## Deposit Insurance Pricing and Moral Hazard
 
 Until the 1980s, the pricing of federal deposit insurance was largely risk insensitive. That is, each bank was charged an insurance premium that depended only on its volume of deposits, and not on its riskiness. Many have charged that this heightened incentives for insured depository institutions to take excessive levels of risk. Note that institutions like banks can increase risk in a variety of ways. However, for the purposes of this discussion, we will focus on the bank's incentive to invest in assets with high default risk. Although deposit insurance premiums are now risk sensitive, only a limited number of risk categories are used and at best, the premiums are only crudely related to risk for most banks. In this section, we will show how the imperfectly risk-sensitive structure of deposit insurance pricing also creates incentives for excessive risk-taking by banks.[28]
 
@@ -535,7 +577,15 @@ In the box below, we provide an illustration of the effect of moral hazard in th
 
 Consider a bank with federally insured deposits maturing in one year. Imagine that the bank's asset value changes monthly and you have been provided the following data on asset values for the past seven months (you may assume that the probability distribution of asset value changes remains stationary through time).
 
-<table><tr><td>Month</td><td>Bank Asset Value (in millions of dollars)</td></tr><tr><td>1</td><td>100</td></tr><tr><td>2</td><td>101</td></tr><tr><td>3</td><td>99</td></tr><tr><td>4</td><td>102</td></tr><tr><td>5</td><td>100</td></tr><tr><td>6</td><td>98</td></tr><tr><td>7</td><td>97.605074</td></tr></table>
+| Month | Bank Asset Value (in millions of dollars) |
+|-------|------------------------------------------|
+| 1 | 100 |
+| 2 | 101 |
+| 3 | 99 |
+| 4 | 102 |
+| 5 | 100 |
+| 6 | 98 |
+| 7 | 97.605074 |
 
 Suppose the bank's current deposit-to-asset value ratio is 0.95. Compute the value to the bank of the deposit insurance guarantee per dollar of insured deposits. Also compute the value of this guarantee for a higher deposit-to-total-asset-value ratio (of your choice), holding fixed the variance of asset value changes, and the value of this guarantee for a higher variance, holding fixed the deposit-to-total-asset-value ratio.
 
@@ -547,20 +597,22 @@ We solve this problem in three steps. First, we will compute  $\tau$ , the varia
 
 To compute  $\tau$ , we define  $V_{t}$  as the asset value in month  $t$  and  $V_{t-1}$  as the asset value in month  $t-1$ . Thus, when we write the asset value in month 2, for example, we will write  $V_{2}$ , and when we write the ratio  $V_{t} / V_{t-1}$  in month 2, we will write  $V_{2} / V_{1}$ . We can construct Table 12.4.
 
-TABLE 12.4 Calculation of Asset Value Variance  
+TABLE 12.4 Calculation of Asset Value Variance
 
-<table><tr><td>A
-Month</td><td>B
-Asset Value Vt</td><td>C
-Vt/Vt-1</td><td>D
-log (Vt/Vt-1)</td><td>E
-D-Sample Mean</td><td>F
-(E)2</td></tr><tr><td>1</td><td>100</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>2</td><td>101</td><td>1.01</td><td>0.00995</td><td>0.013988</td><td>0.0001957</td></tr><tr><td>3</td><td>99</td><td>0.9802</td><td>-0.02000</td><td>-0.015962</td><td>0.0002548</td></tr><tr><td>4</td><td>102</td><td>1.0303</td><td>0.02985</td><td>0.033888</td><td>0.0011484</td></tr><tr><td>5</td><td>100</td><td>0.9804</td><td>-0.01979</td><td>-0.015752</td><td>0.0002481</td></tr><tr><td>6</td><td>98</td><td>0.9800</td><td>-0.0202</td><td>-0.016162</td><td>0.0002612</td></tr><tr><td>7</td><td>97.605074</td><td>0.9959701</td><td>-0.004038</td><td>0</td><td>0</td></tr></table>
+| Month | Asset Value Vt | Vt/Vt-1 | log (Vt/Vt-1) | D-Sample Mean | (E)² |
+|-------|----------------|----------|----------------|---------------|------|
+| 1 | 100 | - | - | - | - |
+| 2 | 101 | 1.01 | 0.00995 | 0.013988 | 0.0001957 |
+| 3 | 99 | 0.9802 | -0.02000 | -0.015962 | 0.0002548 |
+| 4 | 102 | 1.0303 | 0.02985 | 0.033888 | 0.0011484 |
+| 5 | 100 | 0.9804 | -0.01979 | -0.015752 | 0.0002481 |
+| 6 | 98 | 0.9800 | -0.0202 | -0.016162 | 0.0002612 |
+| 7 | 97.605074 | 0.9959701 | -0.004038 | 0 | 0 |
 
 In this table, we compute the "sample mean" by adding up the entries in column D and dividing by 6 to obtain  $-0.004038$ . Column E is then obtained by subtracting the sample mean from each entry in column D. Column F is merely each entry in column E squared. Now,
 
 $$
-\begin{array}{l} \sigma^{2} = \frac{\text{su mo fa ll en tr ie si nc ol um nF}}{5} \\ = \frac{0 . 0 0 2 1 0 8 2}{5} = 0. 0 0 0 4 2 1 6. \\ \end{array}
+\begin{array}{l} \sigma^{2} = \frac{\text{sum of all entries in column F}}{5} \\ = \frac{0.0021082}{5} = 0.0004216. \\ \end{array}
 $$
 
 Note that we divide by 5 because we lose one degree of freedom in computing the variance. Now,  $\tau = \sigma^2 T = 0.0004216 \times 12 = 0.005$  approximately. Note that  $T = 12$  since the deposit maturity is 1 year and asset values change monthly.
@@ -570,13 +622,13 @@ Note that we divide by 5 because we lose one degree of freedom in computing the 
 Next, we compute  $\mathrm{h}_1$  using Equation (12.5) as
 
 $$
-\begin{array}{l} h_{1} = \frac{\log (0 . 9 5) - (0 . 0 0 5 / 2)}{\sqrt{0 . 0 0 5}} \\ = - 0. 7 6 0 7 6 \\ \end{array}
+\begin{array}{l} h_{1} = \frac{\log (0.95) - (0.005 / 2)}{\sqrt{0.005}} \\ = -0.76076 \\ \end{array}
 $$
 
 and  $h_2$  using Equation (12.6) is
 
 $$
-h_{2} = - 0. 7 6 0 7 6 + \sqrt{0 . 0 0 5} = - 0. 6 9 0 0 5.
+h_{2} = -0.76076 + \sqrt{0.005} = -0.69005.
 $$
 
 # Step 3
@@ -584,23 +636,33 @@ $$
 Using Equation (12.4), we can now compute  $g$  as
 
 $$
-g = \Phi (- 0. 6 9 0 0 5) - \frac{1}{0 . 9 5} \Phi (- 0. 7 6 0 7 6) \cong 0. 0 0 9 9.
+g = \Phi (-0.69005) - \frac{1}{0.95} \Phi (-0.76076) \cong 0.0099.
 $$
 
 Thus, the value to the bank of having the deposit insurance guarantee is roughly 99 cents per \$100 of insured deposits. This is much higher than the premia often charged in the past (e.g. 25 cents per \$100 of insured deposits). In Table 12.5, we present calculations for a variety of deposit-to-asset value ratios and values of τ. Note that if we increase d' to 1 and hold τ fixed at 0.005, the value of g rises to $2.82 per $100 of insured deposits. This illustrates the bank's incentive for leverage emanating from deposit insurance. Similarly, if we hold d' fixed at 0.95 and increase τ to 0.006, the value of g rises to $1.209 per $100 of insured deposits. This illustrates the bank's incentive to take on more risky assets.
 
 The option pricing approach indicates factors that must be considered in setting the deposit insurance premium. The premium per dollar of insured deposits must be sensitive to the volatility of the bank's assets and to its deposit-to-total-asset ratio. If not, the bank will have an incentive to reduce its capital and increase its asset risk in the interests of its shareholders. The option pricing approach is not meant to be taken literally as a precise way to set the deposit insurance premium, since many of the standard Black-Scholes assumptions are not satisfied.[30] For example, the asset values of banks often exhibit jumps rather than following a continuous path through time as assumed by Black-Scholes. In any case, the numerical values in Table 12.5 suggest the magnitude of the gains to banks from exploiting risk-insensitive deposit insurance pricing.
 
-TABLE 12.5 Cost of Deposit Insurance Per Dollar of Insured Deposits  
+TABLE 12.5 Cost of Deposit Insurance Per Dollar of Insured Deposits
 
-<table><tr><td>Cost of Deposit of Insurance (g)</td><td>Deposit-to-Asset Value Ratio</td><td>Variance (τ)</td></tr><tr><td>0.00055</td><td>0.85</td><td>0.00600</td></tr><tr><td>0.00040</td><td>0.85</td><td>0.00550</td></tr><tr><td>0.00028</td><td>0.85</td><td>0.00500</td></tr><tr><td>0.00018</td><td>0.85</td><td>0.00450</td></tr><tr><td>0.00011</td><td>0.85</td><td>0.00400</td></tr><tr><td>0.00326</td><td>0.90</td><td>0.00600</td></tr><tr><td>0.00274</td><td>0.90</td><td>0.00550</td></tr><tr><td>0.00223</td><td>0.90</td><td>0.00500</td></tr><tr><td>0.00176</td><td>0.90</td><td>0.00450</td></tr><tr><td>0.00132</td><td>0.90</td><td>0.00400</td></tr><tr><td>0.00093</td><td>0.90</td><td>0.00350</td></tr><tr><td>0.00060</td><td>0.90</td><td>0.00300</td></tr><tr><td>0.00015</td><td>0.90</td><td>0.00200</td></tr><tr><td>0.01209</td><td>0.95</td><td>0.00600</td></tr><tr><td>0.01102</td><td>0.95</td><td>0.00550</td></tr><tr><td>0.00992</td><td>0.95</td><td>0.00500</td></tr><tr><td>0.00880</td><td>0.95</td><td>0.00450</td></tr><tr><td>0.00765</td><td>0.95</td><td>0.00400</td></tr><tr><td>0.00647</td><td>0.95</td><td>0.00350</td></tr><tr><td>0.00528</td><td>0.95</td><td>0.00300</td></tr><tr><td>0.00287</td><td>0.95</td><td>0.00200</td></tr><tr><td>0.00172</td><td>0.95</td><td>0.00150</td></tr><tr><td>0.00072</td><td>0.95</td><td>0.00100</td></tr><tr><td>0.00033</td><td>0.95</td><td>0.00075</td></tr><tr><td>0.03089</td><td>1.00</td><td>0.00600</td></tr><tr><td>0.02958</td><td>1.00</td><td>0.00550</td></tr><tr><td>0.02820</td><td>1.00</td><td>0.00500</td></tr><tr><td>0.02676</td><td>1.00</td><td>0.00450</td></tr><tr><td>0.02523</td><td>1.00</td><td>0.00400</td></tr><tr><td>0.02360</td><td>1.00</td><td>0.00350</td></tr><tr><td>0.02185</td><td>1.00</td><td>0.00300</td></tr><tr><td>0.01784</td><td>1.00</td><td>0.00200</td></tr><tr><td>0.01545</td><td>1.00</td><td>0.00150</td></tr><tr><td>0.01262</td><td>1.00</td><td>0.00100</td></tr><tr><td>0.01093</td><td>1.00</td><td>0.00075</td></tr><tr><td>0.00892</td><td>1.00</td><td>0.00050</td></tr><tr><td>0.00631</td><td>1.00</td><td>0.00025</td></tr><tr><td>0.00564</td><td>1.00</td><td>0.00020</td></tr><tr><td>0.00489</td><td>1.00</td><td>0.00015</td></tr><tr><td>0.00399</td><td>1.00</td><td>0.00010</td></tr><tr><td>0.00282</td><td>1.00</td><td>0.00005</td></tr><tr><td>0.00126</td><td>1.00</td><td>0.00001</td></tr></table>
+| Cost of Deposit Insurance (g) | Deposit-to-Asset Value Ratio | Variance (τ) |
+|------------------------------|------------------------------|--------------|| 0.00055 | 0.85 | 0.00600 |
+| 0.00040 | 0.85 | 0.00550 |
+| 0.00028 | 0.85 | 0.00500 |
+| 0.00018 | 0.85 | 0.00450 |
+| 0.00011 | 0.85 | 0.00400 |
+| 0.00326 | 0.90 | 0.00600 |
+| 0.00274 | 0.90 | 0.00550 |
+| 0.00223 | 0.90 | 0.00500 |
+| 0.00176 | 0.90 | 0.00450 |
+| 0.00132 | 0.90 | 0.00400 |<tr><td>0.00093</td><td>0.90</td><td>0.00350</td></tr><tr><td>0.00060</td><td>0.90</td><td>0.00300</td></tr><tr><td>0.00015</td><td>0.90</td><td>0.00200</td></tr><tr><td>0.01209</td><td>0.95</td><td>0.00600</td></tr><tr><td>0.01102</td><td>0.95</td><td>0.00550</td></tr><tr><td>0.00992</td><td>0.95</td><td>0.00500</td></tr><tr><td>0.00880</td><td>0.95</td><td>0.00450</td></tr><tr><td>0.00765</td><td>0.95</td><td>0.00400</td></tr><tr><td>0.00647</td><td>0.95</td><td>0.00350</td></tr><tr><td>0.00528</td><td>0.95</td><td>0.00300</td></tr><tr><td>0.00287</td><td>0.95</td><td>0.00200</td></tr><tr><td>0.00172</td><td>0.95</td><td>0.00150</td></tr><tr><td>0.00072</td><td>0.95</td><td>0.00100</td></tr><tr><td>0.00033</td><td>0.95</td><td>0.00075</td></tr><tr><td>0.03089</td><td>1.00</td><td>0.00600</td></tr><tr><td>0.02958</td><td>1.00</td><td>0.00550</td></tr><tr><td>0.02820</td><td>1.00</td><td>0.00500</td></tr><tr><td>0.02676</td><td>1.00</td><td>0.00450</td></tr><tr><td>0.02523</td><td>1.00</td><td>0.00400</td></tr><tr><td>0.02360</td><td>1.00</td><td>0.00350</td></tr><tr><td>0.02185</td><td>1.00</td><td>0.00300</td></tr><tr><td>0.01784</td><td>1.00</td><td>0.00200</td></tr><tr><td>0.01545</td><td>1.00</td><td>0.00150</td></tr><tr><td>0.01262</td><td>1.00</td><td>0.00100</td></tr><tr><td>0.01093</td><td>1.00</td><td>0.00075</td></tr><tr><td>0.00892</td><td>1.00</td><td>0.00050</td></tr><tr><td>0.00631</td><td>1.00</td><td>0.00025</td></tr><tr><td>0.00564</td><td>1.00</td><td>0.00020</td></tr><tr><td>0.00489</td><td>1.00</td><td>0.00015</td></tr><tr><td>0.00399</td><td>1.00</td><td>0.00010</td></tr><tr><td>0.00282</td><td>1.00</td><td>0.00005</td></tr><tr><td>0.00126</td><td>1.00</td><td>0.00001</td></tr></table>
 
 Source: Merton, (1977).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/c41d355f-e7c3-4cfc-b661-bc5ac69057be/027c96849f4d912a0641d61a05f5b24d2ca02e6b2ed71c302969863a24b9e242.jpg)  
 FIGURE 12.2 Capital Ratio for Federal Credit Unions. (Source: National Credit Union Administration).
 
-# Empirical Evidence on Moral Hazard
+## Empirical Evidence on Moral Hazard
 
 Apart from the anecdotal evidence on moral hazard, there is now substantial scientific evidence to support the theories we have reviewed. Federal deposit insurance has been in existence for banks since 1934, but the more visible problems were encountered only during 1970-1990. This suggests that there must have been countervailing forces in the past that diminished the risk-taking propensity created by deposit insurance. The empirical evidence we discuss here sheds some light on these forces.
 
@@ -638,7 +700,7 @@ In Figure 12.6, we show the number of bank failures during 1992-2011. As is evid
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/c41d355f-e7c3-4cfc-b661-bc5ac69057be/5f95441d1dc39472e6501af1662cc0e5d53cb7ea26a9490021859937d2caefec.jpg)  
 FIGURE 12.6 Annual Failures of FDIC Insured Commercial Banks and Savings Institutions (including Savings Banks and Savings Associations). (Source: FDIC Historical Statistics on Banking).
 
-# THE GREAT DEPOSIT INSURANCE DEBACLE
+## THE GREAT DEPOSIT INSURANCE DEBACLE
 
 # General Background
 
@@ -694,7 +756,7 @@ To summarize, the greatest banking debacle since the Great Depression was not ju
 
 In later years, the subprime crisis of 2007-2009 eclipsed the S&L crisis in terms of its magnitude and global impact. Although it affected the shadow-banking system more than depository institutions in the United States, it also affected depository institutions in other countries. We will say more about this in Chapter 14.
 
-# Banking Fragility, Deposit Insurance, and Developments Since the Great Deposit Insurance Debacle
+## Banking Fragility, Deposit Insurance, and Developments Since the Great Deposit Insurance Debacle
 
 We have seen in this chapter that deposit insurance induces moral hazard and invites banks to engage in reckless risk-taking. That is, there is an inherent paradox in the use of deposit insurance as a way to diminish the likelihood of bank runs and banking fragility. The safer banks feel due to deposit insurance, the greater is their risk-taking propensity! It is for this reason that it may be socially efficient to impose a limit on the level of deposit insurance, thereby leaving room for market discipline, which then opens up the possibility of bank runs and banking fragility. In other words, there may be an "optimal" amount of banking fragility that strikes the right balance between the market discipline associated with the possibility of bank runs to temper banks' risk-taking incentives and the need to ensure that the likelihood of runs is not so high as to make banking excessively fragile.[40] Of course, the subprime crisis of 2007-2009 has taught us that even though such thought out experiments may make sense on paper, in reality regulators often have a hard time saying no to bailouts ex post, especially when confronted with the possibility of large and interconnected institutions failing. Thus, market discipline may be substantially weakened by the ex ante expectation by creditors of banks that there will be regulatory forbearance ex post, regardless of whether there is deposit insurance.
 
@@ -704,7 +766,7 @@ The real question, however, is whether we need deposit insurance in the first pl
 
 considers that selective bailouts of uninsured institutions may be used to promote the safety of the financial system, as in the subprime crisis.[43] If this is true, the entire system of deposit insurance and regulations may have to be reconsidered.
 
-# FUNDING IN THE SHADOW-BANKING SECTOR
+## FUNDING IN THE SHADOW-BANKING SECTOR
 
 With depository financial intermediaries – the traditional banking sector – savers deposit money in banks which is then channeled to investors through bank loans. By contrast, the shadow-banking system is a web of specialized nondepository financial institutions that channel funding from savers to investors through a range of securitization and secured funding techniques.[44] Shadow banks engage in credit and maturity transformation, just like traditional banks do, but without formal access to public sources of liquidity (e.g., discount window) and deposit insurance.
 
@@ -748,7 +810,7 @@ Commercial banks get involved in shadow banking in various ways. The most obviou
 
 In the future, as BHCs are subjected to more stringent and liquidity requirements, some shadow-banking activities may migrate out of BHCs into the shadow-banking system.
 
-# CONCLUSION
+## CONCLUSION
 
 We have devoted this chapter to an extensive discussion of the deposit contract, liability management, and deposit insurance. The nature of the deposit contract is such that it leaves the bank vulnerable to runs, and the banking system vulnerable to panics. It appears that deposit insurance served its purpose of minimizing bank runs and panics. Indeed, for almost 50 years since the inception of federal deposit insurance in 1933, failure rates in the banking and thrift industries have been abnormally low compared to other industries. Moreover, this stable environment meant that liability management was not a pressing issue for banks.
 

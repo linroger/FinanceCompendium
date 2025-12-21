@@ -22,11 +22,11 @@ cssclasses: academia
 
 # Chapter 17: Primary Markets
 
-# CONTENTS
+## Contents
 
-# Learning Objectives
+## Learning Objectives
 
-# Regulation of the Primary Market
+## Regulation of the Primary Market
 
 Defining a Security
 
@@ -36,7 +36,7 @@ SEC filing requirements
 
 Solicitation of Funds
 
-# Variations in the Underwriting of Securities
+## Variations in the Underwriting of Securities
 
 Issuance via a Bought Deal
 
@@ -46,15 +46,15 @@ Use of auction for an IPO
 
 Preemptive Rights Offering
 
-# World Capital Markets Integration and Fundraising Implications
+## World Capital Markets Integration and Fundraising Implications
 
 Motivation for Raising Funds Outside the Domestic Market
 
-# Key Points
+## Key Points
 
 # Questions
 
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -75,7 +75,7 @@ The participants in the marketplace that work with issuers to distribute newly i
 
 In this chapter, we explain primary markets, focusing on the regulations followed by many developed countries and the various ways in which new securities are issued. In chapter 28 we describe the various financial instruments that can be used by start-up companies to raise funds. We begin with a description of the regulation of the primary market in the United States and then discuss regulation in other countries. In chapter 18, we cover the secondary market.
 
-# Regulation of the Primary Market
+## Regulation of the Primary Market
 
 Entities seeking to raise funds in every developed country are required to comply with that country's securities laws. In the United States, for example, there are two principal pieces of federal legislation regarding securities, the Securities Act of 1933 (Securities Act) and the Securities Exchange Act of 1934 (Exchange Act). Subsequent legislation has amended various regulations of both acts, with major amendments with respect to fundraising resulting from the major financial crises that have occurred in the intervening years. These amendments include the Sarbanes-Oxley Act of 2002, the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 (Dodd-Frank Act), and the Jumpstart Our Business Startups Act of 2012 (the JOBS Act).
 
@@ -88,13 +88,13 @@ In all countries, securities laws dealing with the primary market cover three cr
 - disclosure requirements when securities are issued, and
 - the solicitation of funds.
 
-# Defining a Security
+## Defining a Security
 
 The securities law of all countries begins with defining what a security is. It is natural to think of the financial products that we describe in later chapters in this book as securities (stocks and bonds). Although the term "security" has been used throughout this book interchangeably with "financial instrument," in terms of security law, it has a far broader meaning than just stocks and bonds. The decision in a 1946 landmark Supreme Court case (SEC v. W. J. Howey Co.) involving land sales contracts has been used to determine whether a transaction falls in the realm of a "securities" transaction. The court ruled that "an investment contract for purposes of the Securities Act means a contract, transaction or scheme whereby a person invests his money in a common enterprise and is led to expect profits solely from the efforts of the promoter or a third party." It does not make a difference whether there is a formal certificate or nominal interests in the physical assets that may be used by the entity obtaining funds.
 
 The definition of a security as provided by the Supreme Court in the Howey decision has been applied in the analysis of whether a transaction is a security transaction in matters involving shares in fishing boats, sale of franchises, sale of cemetery lots, and housing cooperative shares. In fact, a 2004 Supreme Court decision in a matter involving the public sale of pay phones by ETS Payphones Inc. found the arrangement to be a security transaction. The transaction involved the sale and leaseback arrangement for pay phones. Although lower courts indicated that this type of transaction was not a security transaction, the Supreme Court ultimately ruled that it was, thereby reaffirming the Howey decision. The U.S. courts have ruled that when an investment is made in an entity for a reason other than for profit or financial gain, the investment instrument is not a security. For example, in a 1975 case involving an investment by certain individuals in a cooperative housing project (United Housing Foundation, Inc. v. Foreman), the court ruled that the investment by the individuals was for the purpose of obtaining a residence and not for financial gain or profit.
 
-# Disclosure Requirements
+## Disclosure Requirements
 
 There are two basic objectives of the U.S. Securities Act, and they are typically also the objectives in other countries. The first objective deals with the disclosure of information about the securities that an entity is planning to issue. Disclosure is accomplished by the issuance of a prospectus that provides "full and fair disclosure of the character of securities sold in interstate and foreign commerce and through the mails." The second objective of the Securities Act is to prevent the sale of securities as a result of deceit, misrepresentation, and other fraud. These two objectives of the Securities Act deal with the initial distribution of securities and the registration of those securities, whereas the Exchange Act deals with the secondary market for securities by mandating ongoing periodic reporting of financial information to investors.
 
@@ -176,11 +176,11 @@ Table 17.1 Illustration of an auction for an IPO.
 
 <table><tr><td>Investor</td><td>Bid Price per Share ($)</td><td>Aggregate Number of Shares Bid</td><td>Remaining Shares to Be Allocated</td></tr><tr><td>A</td><td>50.00</td><td>3,000,000</td><td>27,000,000</td></tr><tr><td>B</td><td>48.00</td><td>3,000,000</td><td>24,000,000</td></tr><tr><td>C</td><td>46.00</td><td>7,000,000</td><td>17,000,000</td></tr><tr><td>D</td><td>44.00</td><td>5,000,000</td><td>12,000,000</td></tr><tr><td>E</td><td>42.00</td><td>2,000,000</td><td>10,000,000</td></tr><tr><td>F</td><td>40.00</td><td>2,000,000</td><td>8,000,000</td></tr><tr><td>G</td><td>38.00</td><td>2,000,000</td><td>6,000,000</td></tr><tr><td>H</td><td>36.00</td><td>2,000,000</td><td>4,000,000</td></tr><tr><td>I</td><td>34.00</td><td>2,000,000</td><td>2,000,000</td></tr><tr><td>J</td><td>32.00</td><td>3,000,000</td><td>-1,000,000</td></tr><tr><td>K</td><td>30.00</td><td>4,000,000</td><td>0</td></tr><tr><td>L</td><td>28.00</td><td>3,000,000</td><td>0</td></tr><tr><td>M</td><td>26.00</td><td>4,000,000</td><td>0</td></tr><tr><td>N</td><td>24.00</td><td>5,000,000</td><td>0</td></tr></table>
 
-# Variations in the Underwriting of Securities
+## Variations in the Underwriting of Securities
 
 In our discussion in chapter 9 of the role of investment bankers, we described the traditional syndication process; however, not all deals are underwritten using this process. Variations include the "bought deal" for the underwriting of bonds, the auction process for both stocks and bonds, and a rights offering for common stock.
 
-# Issuance via a Bought Deal
+## Issuance via a Bought Deal
 
 A bought deal refers to the offering of a security (stock or bond) whereby an underwriter agrees to purchase all of the security from the issuer at a fixed price without premarketing the deal before purchasing it from the issuer. The bought deal was introduced in the Eurobond market in 1981, when Credit Suisse First Boston (now Credit Suisse) purchased from General Motors Acceptance Corporation a 100 million issue. Although initially used for public bond offerings, the bought deal is now also commonly used for the public offering of equity.
 
@@ -190,7 +190,7 @@ When used in the case of common stock, it is not for an IPO. Instead it is for t
 
 For example, in June 2017, Cantor Fitzgerald Canada Corporation, a subsidiary of the U.S. investment banking firm Cantor Fitzgerald, agreed to buy on a bought deal basis 31,250,000 common shares of the Canadian company Prometic Life Sciences for a price  \$1.70 per share for gross proceeds of\$ 53,125,000.
 
-# Issuance of a Security via an Auction Process
+## Issuance of a Security via an Auction Process
 
 Another variation for the issuance of securities is the auction process, in which the issuer announces the terms of the issue, and interested parties submit sealed bids to receive an allotment or all of the securities auctioned. The U.S. Department of the Treasury uses an auction system for the allocation of its massive offering of securities. The auction process is also used by state and local governments in the issuance of bonds and by public utilities. This process is referred to as a "competitive sale." In the case of bonds, the bidders are individual underwriters and underwriter syndicates. The winning underwriter (syndicate) is the one that bids the lowest interest cost and, on winning the entire offering, reoffers the bonds to its client base.
 
@@ -214,7 +214,7 @@ A corporation can issue new common stock directly to existing shareholders throu
 
 For the shares sold through a preemptive rights offering, the underwriting services of an investment banker are not needed. However, the issuing corporation may use the services of an investment banker for the distribution of common stock that is not subscribed to. A standby underwriting arrangement will be used in such instances. This arrangement calls for the underwriter to buy the unsubscribed shares. The issuing corporation pays a standby fee to the investment banking firm.
 
-# World Capital Markets Integration and Fundraising Implications
+## World Capital Markets Integration and Fundraising Implications
 
 An entity may seek funds outside its local capital market with the expectation of doing so at a lower cost than if its funds were raised in its local capital market. Whether lower costs are possible depends on the degree of integration of capital markets. At the two extremes, the world capital markets can be classified as either completely segmented or completely integrated.
 
@@ -238,7 +238,7 @@ The fourth reason is that a corporation may issue a security denominated in a fo
 
 Corporate Financing Week asked the corporate treasurers of several multinational corporations why they used nondomestic markets to raise funds. The treasurers' responses reflected one or more of the reasons just cited. For example, the director of corporate finance of General Motors said that the company used the Eurobond market with the objective of "diversifying funding sources, attract[ing] new investors and achieving [ing] comparable, if not cheaper, financing." A managing director of Sears, Roebuck stated that the company "has a long-standing policy of diversifying geographical [funding] sources and instruments to avoid reliance on any specific market, even if the cost is higher." He stated further that "Sears cultivates a presence in the international market by issuing every three years or so."
 
-# Key Points
+## Key Points
 - The primary market involves the distribution to investors of newly issued securities and seasoned offerings.
 - Entities seeking to raise funds in every developed country are required to comply with that country's securities laws.
 - In the United States, there are two principal pieces of federal legislation regarding securities: the Securities Act of 1933 (Securities Act) and the Securities Exchange Act of 1934 (Exchange Act).
@@ -251,7 +251,7 @@ Corporate Financing Week asked the corporate treasurers of several multinational
 - Variations in the underwriting process include the bought deal for the underwriting of bonds and seasoned equity offerings, the auction process, and preemptive rights offering for underwriting common stock.
 - A private placement is different from the public offering of securities in terms of the regulatory requirements that must be satisfied by the issuer. Certain provisions in federal securities law allow issuers to be exempt from registering a new issue with the SEC.
 
-# Questions
+## Questions
 
 1. Why must a country's securities law provide guidance as to what a security is?
 2. Why is it critical for the securities law of a country to set forth what a public offering of securities is?

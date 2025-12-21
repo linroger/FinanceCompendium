@@ -1,19 +1,40 @@
-Abstract In this third step of the fundamental company analysis, attention is placed on product profitability. Company ability to create profit over time is a function of product profitability. An analysis of product capability to create profit is not easy because it requires good knowledge of product cost in every time of company life. In this context product cost is analysed on the basis of two main approaches:
+---
+title: "Chapter 03 - Product Profitability Analysis"
+parent_directory: "VII. Corporate Finance/Valuation/Analytical Corporate Valuation/Part I - Fundamental Analysis"
+formatted: "2025-12-21 04:06:00 AM"
+formatter_agent: "obsidian-formatting-agent"
+cli-tool: "claude-code"
+primary_tags:
+  - product profitability analysis
+  - cost volume profit analysis
+  - contribution margin analysis
+secondary_tags:
+  - direct product costing
+  - full product costing
+  - variable fixed costs
+  - break even analysis
+  - contribution margin
+cssclasses: academia
+---
 
-- direct product cost: it is based on the difference between variable and fixed costs:
+# Chapter 03: Product Profitability Analysis
+
+## Abstract
+
+In this third step of the fundamental company analysis, attention is placed on product profitability. Company ability to create profit over time is a function of product profitability. An analysis of product capability to create profit is not easy because it requires good knowledge of product cost in every time of company life. In this context product cost is analysed on the basis of two main approaches:
+
+- direct product cost: it is based on the difference between variable and fixed costs
 - full product cost: it is based on the difference between direct costs and indirect costs.
 
 The definition of the standard product cost is a part of the problem. The other part is the analysis includes the actual product cost as function of the actual company cost. Therefore, the last part of the chapter focuses on the difference between budget and actual Net Income on the basis of the variance analysis.
 
-# 3.1 Direct Cost of Product
+## 3.1 Direct Cost of Product
 
 Profitability of the company is a function of product profitability. Therefore, to further understand the company's ability to create profit over time it is necessary to investigate into product profitability.
 
 In each period of company life, the right definition and knowledge of the product cost is one of the most relevant success factors. It is fundamental for pricing of the product and subsequently for the right measurement of product profitability and, in general terms, for company profitability (Anthony et al. 2011; Garrison et al. 2014; Atrill and McLaney 2018; Banker et al. 2000; Bhimani et al. 2015; Drury 2016; Kaplan and Atkinson 1998; Sahaf 2013; Seal and Rohde 2014; Tennent 2014).
 
-Therefore, with the correct measurement and knowledge in each period the product cost allows us to answer some fundamental questions such as: how much
-
-did the product cost? What is the right price on the basis of production costs on the one hand, and market competition on the other? What is product profitability?
+Therefore, with the correct measurement and knowledge in each period the product cost allows us to answer some fundamental questions such as: how much did the product cost? What is the right price on the basis of production costs on the one hand, and market competition on the other? What is product profitability?
 
 Consequently, the correct measurement of product cost is a fundamental for correct understanding of product profitability and company profitability over time.
 
@@ -279,9 +300,7 @@ $$
 
 By distinguishing costs between variable and fixed costs, the marginal income  $(MI)$  can be computed based on the unit contribution margin as follows:
 
-# 3.1 Direct Cost of Product
-
-$$
+### Direct Product Cost Components
 M I = C M _ {U} \cdot V - F C _ {T} \leftrightarrow M I = \left(R _ {U} - V C _ {U}\right) \cdot V - F C _ {T} \tag {3.16}
 $$
 
@@ -397,7 +416,7 @@ $$
 N I = \left(C M _ {U (E)} \cdot Q _ {(T)}\right) - F C _ {T} \tag {3.19}
 $$
 
-# 3.2 Full Cost of Product
+## 3.2 Full Cost of Product
 
 The full cost defines all resources used for a defined cost object that can be anything for which the cost is measured. With regards to any well defined cost object, the main difference is between direct cost and indirect cost (Anthony et al. 2011; Garrison et al. 2014).
 
@@ -625,7 +644,7 @@ over-absorbed of indirect costs: the amount of estimated indirect costs absorbed
 
 The problem of cross subsidies is strictly connected with these two phenomenon. Generally, if the indirect cost structure is quite complex, use of the allocation rate leads to understatement of some product costs and overstatement of other product costs.
 
-# 3.3 Variance Analysis
+## 3.3 Variance Analysis
 
 The procedure used to calculate the full cost as described previously, gives two types of outputs according to the definition of direct and indirect costs:
 
@@ -690,17 +709,15 @@ Differently, favourable variance makes Actual Net Income higher than Budget Net 
 
 Finally, note that words "standard" and "budget" refer both to the estimated data and therefore what costs and revenues should be. Usually, standard is used with per-unit cost and revenue amounts, while budget is used with total amounts of revenues and costs.
 
-# (a) Production Cost Variances
+### (a) Production Cost Variances
 
 The production cost variances involve the analysis of the variance with regards to direct costs (direct material and direct labour) and indirect costs. Therefore, there are three main components (Anthony et al. 2011):
 
-# 3.3 Variance Analysis
-
-- Direct Material Costs;
+### Production Cost Variances
 - Direct Labour Costs;
 - Indirect Production Costs.
 
-# Direct Material Variances
+#### Direct Material Variances
 
 The standard direct material cost per unit of product (or one unit of output)  $(\mathrm{MC}_{\mathrm{U}(\mathrm{S})})$  is equal to the standard quantity of material per unit of product  $(\mathrm{QM}_{\mathrm{U}(\mathrm{S})})$  multiplied by the standard cost (or price) of material per unit of product  $(\mathrm{C}_{\mathrm{U}(\mathrm{S})})$  (Anthony et al. 2011).
 
@@ -762,11 +779,7 @@ $$
 D M V _ {(Q)} = \Delta \text {Q u a n t i t y} \cdot \text {S t a n d a r d C o s t}
 $$
 
-(2) Material cost variance (also called material price variance or price component)  $(\mathrm{DMV}_{(\mathbf{C})})$ : it is equal to the difference between standard cost (or price) of material per unit of product  $(\mathrm{C_{U(S)}})$  and the actual cost (or price) of material per unit of product  $(\mathrm{C_{U(A)}})$  multiplied by the total actual quantity of material  $(\mathrm{QM}_{\mathrm{T(A)}})$  used. Therefore, the material cost variance is equal to delta  $(\Delta)$
-
-# 3.3 Variance Analysis
-
-between standard and actual cost of material per unit of product multiplied by actual quantity of material:
+(2) Material cost variance (also called material price variance or price component)  $(\mathrm{DMV}_{(\mathbf{C})})$ : it is equal to the difference between standard cost (or price) of material per unit of product  $(\mathrm{C_{U(S)}})$  and the actual cost (or price) of material per unit of product  $(\mathrm{C_{U(A)}})$  multiplied by the total actual quantity of material  $(\mathrm{QM}_{\mathrm{T(A)}})$  used. Therefore, the material cost variance is equal to delta  $(\Delta)$ between standard and actual cost of material per unit of product multiplied by actual quantity of material:
 
 $$
 D M V _ {(C)} = \Delta C o s t \cdot A c t u a l Q u a n t i t y
@@ -780,7 +793,7 @@ $$
 
 The distinction of Direct Material Variances in its two components, Material Usage Variance and Material Price Variance, is fundamental for the management analysis for planning and control.
 
-# Direct Labour Variances
+#### Direct Labour Variances
 
 The standard direct labour cost per unit of product (or output)  $(\mathrm{LC}_{\mathrm{UP(S)}})$  is equal to the standard labour time per unit of product (or outputs)  $(\mathrm{LT}_{\mathrm{UP(S)}})$  usually expressed in hours, multiplied by a standard labour cost (or standard rate) per unit of time  $(\mathrm{LC}_{\mathrm{UT(S)}})$ .
 
@@ -840,9 +853,7 @@ $$
 \begin{array}{l} D L V _ {(Q)} = \left[ L C _ {U T (S)} - L C _ {U T (A)} \right] \cdot L T _ {U P (A)} \leftrightarrow D L V _ {(Q)} \tag {3.31} \\ = \Delta L C _ {U T (S - A)} \cdot L T _ {U P (A)} \\ \end{array}
 $$
 
-# 3.3 Variance Analysis
-
-# Indirect Production Cost Variances
+### Indirect Production Cost Variances
 
 Indirect Production Costs are allocated to the product through predetermined allocation rates. These rates are calculated by dividing the estimated product activity level (normal or standard volume) by the estimated total indirect costs to be incurred at that volume (Anthony et al. 2011).
 
@@ -911,7 +922,7 @@ Therefore, the Indirect Production Cost Variance (ICV) is equal to the sum of Pr
 (b) Production Volume Variance (PVV): it is equal to absorbed costs less budgeted costs. It is always borne in mind that both the absorbed and budgeted cost amounts are based on the actual production volume of the period. Note that the production volume variance is also equal to the fixed portion of the allocation rate multiplied by the difference between actual volume and standard volume.
 (c) Spending Variance (SV): it is equal to budgeted costs less actual costs.
 
-# (b) Marketing Variances
+## (b) Marketing Variances
 
 Usually, the marketing department focuses on two main goals: the gross margin to be achieved and the expenses limit in its budget to be respected. Based on these two goals, the marketing variance can be divided up into two parts: (i) Expenses Variances and (ii) Gross Margin Variances (Anthony et al. 2011).
 
@@ -931,16 +942,15 @@ The Gross Margin is equal to the difference between sales revenues (equal to the
 
 The Gross Margin Variance can be divided up into three main components (Anthony et al. 2011):
 
-# 3.3 Variance Analysis
+### Components of Gross Margin Variance
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/07318f232998ce522bb113325703d157f156ebbb5575e8bf62ecb5bbc8b184da.jpg)
-Fig. 3.14 Indirect production cost variance: budgeted, absorbed and actual indirect production costs
+![Indirect production cost variance: budgeted, absorbed and actual indirect production costs](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/07318f232998ce522bb113325703d157f156ebbb5575e8bf62ecb5bbc8b184da.jpg)
 
-- Unit Margin Variance;
-Sales Volume Variance;
-- Product Mix Variance.
+- Unit Margin Variance
+- Sales Volume Variance
+- Product Mix Variance
 
-# Unit Margin Variance
+#### Unit Margin Variance
 
 It is due to the difference between budget gross margin per unit of product and actual gross margin per unit of product. Specifically, the Unit Margin Variance  $(UMV)$  is equal to the difference between actual unit margin  $(MU_{(A)})$  and budget unit margin  $(MU_{(B)})$  multiplied by actual volume  $(Q_{(A)})$ :
 
@@ -966,7 +976,7 @@ Therefore, in this case the unit margin variance  $(UMV)$  is caused solely by t
 
 Consequently, if the company uses the same standard unit costs during the year as were used in preparing that year's budget, the unit margin variance is called selling price variance because it is due to the difference between actual and budget selling unit price.
 
-# Sales Volume Variance
+#### Sales Volume Variance
 
 It is due to the difference between budget sales volume (in units of product) and actual sales volume (in units of product). Specifically, the sales volume variance  $(SVV)$  is equal to the difference between actual volume  $(Q_{(A)})$  and budget volume  $(Q_{(B)})$  multiplied by budget unit margin  $(MU_{(B)})$ :
 
@@ -982,15 +992,13 @@ $$
 I V V = \left(I V _ {(A)} - I V _ {(B)}\right) \cdot M S _ {(B)} \cdot M U _ {(B)} \rightarrow I V V = \Delta I V _ {(A - B)} \cdot M S _ {(B)} \cdot M U _ {(B)} \tag {3.39}
 $$
 
-# 3.3 Variance Analysis
-
 Market share variance  $(MSV)$  is equal to the difference between actual market share  $(MS_{(A)})$  and budget market share  $(MS_{(B)})$  multiplied by actual industry volume  $(IV_{(A)})$  and budget unit margin  $(MU_{(B)})$ :
 
 $$
 M S V = \left(M S _ {(A)} - M S _ {(B)}\right) \cdot I V _ {(A)} \cdot M U _ {(B)} \rightarrow M S V = \Delta M S _ {(A - B)} \cdot I V _ {(A)} \cdot M U _ {(B)} \tag {3.40}
 $$
 
-# Product Mix Variance
+#### Product Mix Variance
 
 It highlights if the company sells several products with different unit gross margins. If the company sells several products with different unit gross margins, the mix of high-margin and low-margin products have relevant effects on total gross margin.
 
@@ -1003,7 +1011,7 @@ Note the difference use of volume for the calculation of production variances an
 - the analysis of marketing variances is based on sales volume and the difference between actual sales volume and budget sales volume. Indeed, the actual net income is based on actual sales volume as well as the budget net income is based on budget sales volume;
 - the analysis of production variances is based on production volume and not on sales volumes. Also, the difference between actual and standard (in budget) production volume is relevant only with regards to indirect product costs volume variance. Indeed, in direct material and direct labour costs variances, the budget production volume is always irrelevant.
 
-# (c) General and Administrative Costs Variances
+### (c) General and Administrative Costs Variances
 
 The general and administrative expenses (or Costs) include all others administrative costs, financial costs, non-operating costs and taxes.
 

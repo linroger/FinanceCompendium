@@ -1,20 +1,26 @@
 ---
-parent_directory:
 title: "SIVs: An Oasis of Calm in the Sub-prime Maelstrom"
-tags:
-aliases:
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+parent_directory: "Class 7-CP, Repo, and the Crisis"
+formatted: 2025-12-21 03:45:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - structured investment vehicles
+  - subprime crisis
+secondary_tags:
+  - moody's ratings
+  - net asset value
+  - mark to market
+  - commercial paper
+  - medium term notes
 cssclasses: academia
-linter-yaml-title-alias: "SIVs: An Oasis of Calm in the Sub-prime Maelstrom"
 ---
 
 # SIVs: An Oasis of Calm in the Sub-prime Maelstrom
 
 Structured Investment Vehicles
 
-# Author
+## Author
 
 Henry Table
 
@@ -24,7 +30,7 @@ Managing Director
 
 Henry.Table@moodys.com
 
-# Additional Contacts
+## Additional Contacts
 
 Mark Abbott
 
@@ -42,7 +48,7 @@ Vice President - Senior Analyst
 
 Martin.Rast@moodys.com
 
-# Investor Liaison
+## Investor Liaison
 
 New York
 
@@ -54,7 +60,7 @@ Investor Liaison Specialist
 
 Brett.Hemmerling@moodys.com
 
-# Client Service Desk
+## Client Service Desk
 
 Frankfurt: +49 69 2222-7847
 
@@ -68,28 +74,28 @@ Paris: +33 1 7070-2229
 
 clientservices.emea@moodys.com
 
-# Monitoring
+## Monitoring
 
 monitor.siv@moodys.com
 
-# Website
+## Website
 
 www.moodys.com
 
-# Table of Contents
+## Table of Contents
 
 SIVs - An Overview  
 Sector Composition  
 Mark-to-Market Procedures and NAV Evolution  
 Conclusion
 
-# SIVS - AN OVERVIEW
+## SIVS - AN OVERVIEW
 
 SIVs are high-grade, highly diversified structured credit vehicles that raise funds through the issuance of Prime-1 rated Commercial Paper, Aaa-rated Medium Term Notes and Capital Notes typically rated low investment grade. The sector is amongst the high growth areas of Structured Finance with US \$370 billion of assets managed across 28 vehicles, 10 of which were launched in the last 18 months. SIV CDOs (or "SIV-lites") and SLVs (Structured Loan Vehicles) are hybrids of SIVs that typically invest in US RMBS and leveraged loans, respectively. In total, Moody's rates 36 SIVs or SIV hybrids that currently manage US\$  395 billion of assets.
 
 SIVs engage in maturity transformation through the purchase of long-term assets to support senior short-term liabilities, engendering asset-liability maturity gaps in the range of 2.4 to 4.8 years. The vehicles must therefore mark portfolios to market on a frequent basis to gauge value should it become necessary to de-lever following an inability to roll liabilities or unexpected downgrades or defaults in the portfolio.
 
-# SECTOR COMPOSITION
+## SECTOR COMPOSITION
 
 Following the recent wave of downgrades and watchlistings of securities backed by US sub-prime mortgages, market participants, including managers of SIVs and related hybrids, have conducted re-underwriting exercises across their portfolios to ensure that there are no hidden pockets of sub-prime exposures within the vehicles.
 
@@ -110,7 +116,7 @@ Sector and Rating Composition - SIVs
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d3ef2b1a-f80c-4e06-8176-a68224827d0b/11b37d65f52bcf421e1b07ca5448d4c9289b3fdb2f5a823641928fe67626c408.jpg)  
 Chart 4: Sector and Rating Composition - SIV-lites
 
-# MARK-TO-MARKET PROCEDURES AND NAV EVOLUTION
+## MARK-TO-MARKET PROCEDURES AND NAV EVOLUTION
 
 The SIV manager marks the vehicle's portfolio to market at least weekly. The manager's operations team has sole responsibility for obtaining prices from sources specified in the vehicle's operations manual (which include Bloomberg, IDC, and broker/dealers). Front office portfolio managers, traders and credit analysts have no material input in the process. Moody's considers the integrity of the mark-to-market process as part of our operations review, incorporating our findings in the SIV's Manager Quality rating.
 
@@ -126,27 +132,27 @@ Sector NAV - SIVs
 Chart 6:  
 Sector NAV - SIV-lites
 
-# CONCLUSION
+## CONCLUSION
 
 SIVs and SIV-lites, like most market value based structured credit funds, invest in Aaa and Aa US RMBS and CDOs of ABS. Exposures to these asset classes are limited in SIVs owing to the inherent diversity of their portfolios. The strict pricing and reporting discipline observed by SIVs and SIV-lites ensures that NAVs are reflective of asset market values within the funds. Furthermore, the vehicles are not structured to forcibly liquidate assets in times of crisis. Even in the face of a rapid and dramatic deterioration in NAV that results in an inability to roll liabilities, SIVs and SIV-lites may, prior to liquidating the portfolio, draw down on committed liquidity, withdraw breakable deposits and extract asset-based liquidity (e.g., through the sale of short-maturity prime Aaa credit card and auto loan ABS). This obviates the need to liquidate large buckets of assets at potentially the worst period in the life of the vehicle. Moody's therefore expects ratings in the SIV and hybrid SIV sectors to remain stable amid the current maelstrom surrounding the US sub-prime housing market.
 
-# RELATED RESEARCH
+## RELATED RESEARCH
 
 For a more detailed explanation of Moody's approach to SIVs please refer to the following reports:
 
-# Rating Methodology
+## Rating Methodology
 
 - An Introduction to Structured Investment Vehicles, January 2002 (SF11961)  
 - The Moody's Capital Model, January 2004 (SF27525)  
 SIV Management Quality Ratings, January 2006 (SF66229)
 
-# Special Report
+## Special Report
 
 Moody's Review of SIV Capital Note Ratings, May 2005 (SF54643)
 
 To access any of these reports, click on the entry above. Note that these references are current as of the date of publication of this report and that more recent reports may be available. All research may not be available to all clients.
 
-# SF102802isf
+## SF102802isf
 
 Copyright 2007, Moody's Investors Service, Inc. and/or its licensors and affiliates including Moody's Assurance Company, Inc. (together, "MOODY'S"). All rights reserved. ALL INFORMATION CONTAINED HEREIN IS PROTECTED BY COPYRIGHT LAW AND NONE OF SUCH INFORMATION MAY BE COPIED OR OTHERWISE REPRODUCED, REPACKAGED, FURTHER TRANSMITTED, TRANSFERRED, DISSEMINATED, REDISTRIBUTED OR RESOLD, OR STORED FOR SUBSEQUENT USE FOR ANY SUCH PURPOSE, IN WHOLE OR IN PART, IN ANY FORM OR MANNER OR BY ANY MEANS WHATSOEVER, BY ANY PERSON WITHOUT MOODY'S PRIOR WRITTEN CONSENT. All information contained herein is obtained by MOODY'S from sources believed by it to be accurate and reliable. Because of the possibility of human or mechanical error as well as other factors, however, such information is provided "as is" without warranty of any kind and MOODY'S, in particular, makes no representation or warranty, express or implied, as to the accuracy, timeliness, completeness, merchantability or fitness for any particular purpose of any such information. Under no circumstances shall MOODY'S have any liability to any person or entity for (a) any loss or damage in whole or in part caused by, resulting from, or relating to, any error (negligent or otherwise) or other circumstance or contingency within or outside the control of MOODY'S or any of its directors, officers, employees or agents in connection with the procurement, collection, compilation, analysis, interpretation, communication, publication or delivery of any such information, or (b) any direct, indirect, special, consequential, compensatory or incidental damages whatsoever (including without limitation, lost profits), even if MOODY'S is advised in advance of the possibility of such damages, resulting from the use of or inability to use, any such information. The credit ratings and financial reporting analysis observations, if any, constituting part of the information contained herein are, and must be construed solely as, statements of opinion and not statements of fact or recommendations to purchase, sell or hold any securities. NO WARRANTY, EXPRESS OR IMPLIED, AS TO THE ACCURACY, TIMELINESS, COMPLETENESS, MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OF ANY SUCH RATING OR OTHER OPINION OR INFORMATION IS GIVEN OR MADE BY MOODY'S IN ANY FORM OR MANNER WHATSOEVER. Each rating or other opinion must be weighed solely as one factor in any investment decision made by or on behalf of any user of the information contained herein, and each such user must accordingly make its own study and evaluation of each security and of each issuer and guarantor of, and each provider of credit support for, each security that it may consider purchasing, holding or selling.
 

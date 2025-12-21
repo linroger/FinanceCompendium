@@ -1,10 +1,35 @@
-Abstract In this second step of the fundamental company analysis, attention is focused on the company's profitability measurements. Several tools can be used. The choice is usually based on an analysis perspective and its nature. In this context a financial perspective is followed. The analysis is developed on three main fronts:
+---
+title: Chapter 02 - Company Profitability Analysis
+parent_directory: VII. Corporate Finance/Valuation/Analytical Corporate Valuation/Part I - Fundamental Analysis
+formatted: 2025-12-21 11:00:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - company profitability analysis
+  - financial ratios
+  - return on investment
+  - capital structure analysis
+secondary_tags:
+   - operating income metrics
+   - net income evaluation
+   - free cash flow
+   - growth rate estimation
+   - economic dynamics
+   - debt financing
+   - equity returns
+    - ratio analysis
+cssclasses: academia
+---
+
+# Chapter 02 - Company Profitability Analysis
+
+**Abstract.** In this second step of the fundamental company analysis, attention is focused on the company's profitability measurements. Several tools can be used. The choice is usually based on an analysis perspective and its nature. In this context a financial perspective is followed. The analysis is developed on three main fronts:
 
 - analysis of the economic and financial dynamics over time. The analysis can start from each economic and financial figure. In this context, it can be useful to start the analysis from capital sources and their investment in the company's activities and to measure their returns in terms of earnings and dividends;
 - the analysis of the main financial ratios. There are many well-known ratios in literature. In this context the most commonly used financial ratios used in the financial community are considered. They are able to complete the analysis because they are in line with the analytical schemes regarding Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity;
 - the analysis of the growth rate. The fundamental company analysis leads to investigate into the expected consistency of future economic and financial dynamics. Consequently, one of the most relevant key of the analysis is the estimate of the company's future growth rate with regards mainly to both Net Income and Operating Income.
 
-# 2.1 Analysis of Economic and Financial Dynamics
+## 2.1 Analysis of Economic and Financial Dynamics
 
 The analytical schemes showed in the previous chapter focus on the definition of the Operating and Net Income, Capital Invested and Capital Structure, and Free Cash-flow from Operations and Free Cash-flow to Equity.
 
@@ -26,7 +51,7 @@ Finally, it is important to point out that the increase in financial debt increa
 
 The sum between equity and financial debt defines the Capital Structure of the company. Capital sources are invested in assets, both operating and non-operating, Net Working Capital and Liquidity in order to achieve company activities.
 
-# Investments in Operating Assets
+## Investments in Operating Assets
 
 They can be distinguished in operating capital expenditure (Capex) and in Net Working Capital (NWC).
 
@@ -54,7 +79,7 @@ The increase in NWC (due to the increase in TWC, other operating receivables and
 
 The increase and decrease in NWC over time have direct effects on cash-flows. In cash-flow terms the increase (decrease) of receivables (both trade and other operating) and inventory are considered cash-out (cash-in) while the increase (decrease) of payables (both trade and other operating) are considered cash-in (cash-out). Therefore, the increase in NWC can be considered a cash-out and it subsequently reduces the Free Cash-flow from Operations (FCFO); otherwise, the decrease in NWC can be considered as a cash-in and then it increases the Free Cash-flow from Operations (FCFO).
 
-# Investments in Non-operating Assets
+## Investments in Non-operating Assets
 
 They refer to the investments in Surplus Assets. It is possible to distinguish between investments in tangible, intangible and financial Surplus Assets, and investments in non-operating and non-current operating receivables and payables.
 
@@ -78,7 +103,7 @@ If the non-operating and non-current operating receivables are higher than the n
 
 In cash-flow terms, the increase (decrease) of non-operating and non-current operating receivables can be considered as cash-out (cash-in) and the increase (decrease) of non-operating and non-current operating payables can be considered cash-in (cash-out). Therefore, the increase in Surplus Assets is a cash-out and therefore it reduces the Free Cash-flow to Equity (FCFE); otherwise, the decrease in Surplus Assets is a cash-in and thus it increases the Free Cash-flow to Equity (FCFE). Also, in this case the Free Cash-flow from Operations (FCFO) are not affected because they are not related to the core-business.
 
-# Investment in Liquidity
+## Investment in Liquidity
 
 Specific reasoning must be reserved to investments in Liquidity. It refers to the amount of cash, cash equivalent, financial credits and marketable securities that a company decides to maintain in the company. Therefore, it is not a capital source but capital invested because it is an investment decision. Indeed, liquidity is positioned in the Net Financial Position by reducing its value.
 
@@ -88,7 +113,7 @@ Liquidity can generate operating and non-operating financial revenues with posit
 
 In cash-flow terms, it can be considered as a cash-out. Therefore, the increase in Liquidity reduces the Free Cash-flow to Equity (FCFE).
 
-# Provisions
+## Provisions
 
 Finally, it is necessary to consider Provisions for risk and charges, taxes and employees. They reduce the Capital Invested (CI).
 
@@ -96,7 +121,7 @@ Accruals for provisions (employees, taxes, risk and charges) are located in the 
 
 In cash-flow terms, they only have effects if they are really used with consequent cash-out by reducing the Free Cash-flow from Operations (FCFO).
 
-# 2.2 Financial Ratios Analysis
+## 2.2 Financial Ratios Analysis
 
 The analysis of economic and financial dynamics can be improved by using some ratios. There are many ratios well-known in literature (Benninga 2014; Brealey et al. 2016; Berk and DeMarzo 2008; Damodaran 2012, 2015; Vernimmen et al. 2014; Hillier et al. 2016; Koller et al. 2015; Copeland et al. 2004; Fuller and Farrell 1987; Ross 2015). In this context the most commonly used Financial Ratios in the financial community are considered. They are able to complete the analysis because they are in line with the analytical schemes regarding Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity.
 
@@ -120,7 +145,7 @@ However, it is common use to start the analysis with the economic dynamic. In th
 
 The analysis must be completed by considering the Operating Leverage (OL) and Financial Risk Level (FRL) jointly of Sections 1-4. The Operating Leverage relates to the relationship between operating revenues and contribution margin, while the Financial Risk Level relates to the relationship between the EBIT and Net Income due to the weight of financial cost of debt.
 
-# Section 1
+### Section 1
 
 An analysis of the relationships between Operating Revenues, Capital Invested and Structure, and Free Cash-flows from Operations and Free Cash-flow to Equity, it can be achieved on the basis of several main ratios:
 
@@ -152,9 +177,7 @@ $$
 C F O R = \frac {\text {C a s h - f l o w} (C F)}{\text {O p e r a t i n g R e v e n u e s} (O R)} \tag {2.3}
 $$
 
-The CFOR ratio measures the relationship between Cash-flow and Operating Revenues. It can be considered as an indirect and approximate measure of the company's ability to transform Operating Revenues into Cash-flows. Specifically a
-
-low value of ratio means a bad relationship between Operating Revenues and Cash-flows. On the contrary, a high value of ratio means a good relationship between Operating Revenues and Cash-flows.
+The CFOR ratio measures the relationship between Cash-flow and Operating Revenues. It can be considered as an indirect and approximate measure of the company's ability to transform Operating Revenues into Cash-flows. Specifically a low value of ratio means a bad relationship between Operating Revenues and Cash-flows. On the contrary, a high value of ratio means a good relationship between Operating Revenues and Cash-flows.
 
 Considering two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity, the ratio can be applied in two versions:
 
@@ -162,7 +185,7 @@ $$
 C F O R = \frac {C F}{O R} \rightarrow \quad\begin{array}{l}C F O O R = \frac {\text {F r e e C a s h - f l o w f r o m O p e r a t i o n s (F C F O)}}{\text {O p e r a t i n g R e v e n u e s (O R)}}\\C F E O R = \frac {\text {F r e e C a s h - f l o w t o E q u i t y (F C F E)}}{\text {O p e r a t i n g R e v e n u e s (O R)}}\end{array}\tag {2.4}
 $$
 
-# Section 2
+### Section 2
 
 The analysis of the relationships between Operating Income, Capital Invested and Capital Structure, and Free Cash-flows from Operations and Free Cash-flows to Equity can focus on the following main ratios:
 
@@ -184,8 +207,6 @@ The ratio measures the return of capital invested in operating assets of the com
 The Capital Invested in Operating Assets is the capital sources invested to support the company's core-business activities. Therefore, investments in non-operating activities are not included. By following the analytical scheme proposed in the previous Chapter, the Capital Invested in Operating Assets is the Net Operating Capital Invested (NOCI). It is equal to the total of investments in Net Operating Capital Expenditures (Capex) and Net Working Capital (NWC).
 
 The Operating Income is the difference between Operating Revenues and Operating Costs. Therefore, it measures the results of the Operating activities. It can be measured by three main figures: EBITDA, EBIT and NOPAT. Therefore, the ratio can be applied in three versions:
-
-# 2.2 Financial Ratios Analysis
 
 $$
 R O I C = \frac {E B I T D A}{\text {N e t O p e r a t i n g C a p i t a l I n v e s t e d (N O C I)}}
@@ -271,8 +292,6 @@ $$
 F D G P = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {G r o s s P r o f i t} (G P)} \leftrightarrow N F D O I = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (\text {N F P})}{\text {G r o s s P r o f i t} (G P)} \tag {2.13}
 $$
 
-# 2.2 Financial Ratios Analysis
-
 (c) Cost of Financial Debt on Cash-flows (CDCF):
 
 $$
@@ -307,7 +326,7 @@ $$
 \begin{array}{l} C F O I = \frac {C F}{O T} \rightarrow \quad\begin{array}{l}C F O O I = \frac {\text {F r e e C a s h f l o w f r o m O p e r a t i o n s (F C F O)}}{\text {O p e r a t i n g I n c o m e (O I)}}\\\text {F r e e C a s h f l o w t o E q u i v i e n c y (E C F E)}\end{array}\tag {2.18} \\ C F E O I = \frac {\text {F r e e C a s h f l o w t o E q u i t y (F C F E)}}{\text {O p e r a t i n g I n c o m e (O I)}} \\ \end{array}
 $$
 
-# Section 3
+### Section 3
 
 An analysis of the relationships between Net Income, Capital Invested and Capital Structure, and Free Cash-flows from Operations and Free Cash-flow to Equity can be focus on the following main ratios:
 
@@ -461,7 +480,7 @@ $$
 
 Technically, there is an additional cross-term that reflects the interaction of the share price change and the  $P / Er$  change, but it is generally small and therefore it can be ignored in this context.
 
-Three are the main problems of this traditional approach (Koller et al. 2015):
+There are three main problems of this traditional approach (Koller et al. 2015):
 
 - first, the manager might assume that all forms of earnings can create an equal amount of value. But different sources of growth in earnings may create different amounts of value because they are associated with different returns on capital by generating different cash flows;
 - second, it suggests that the dividend yield can be increased without affecting future earnings. But dividends are merely residual and they themselves are not able to create value;
@@ -512,7 +531,7 @@ where:
 
 On the basis of Eq. (2.30) it refers to the Percentage Increase in Earning  $(\Delta Er)$  and Eq. (2.33) refers to the Dividend Yield  $(DY)$ , Eq. (2.29) can be re-written as follows:
 
-# 2.2 Financial Ratios Analysis
+## 2.2 Financial Ratios Analysis
 
 $$
 T R S = \Delta R + \Delta P M + \Delta \left(\frac {P}{E r}\right) + \left(\frac {E r}{P}\right) - \left(\frac {g _ {n}}{R O I C} \cdot \frac {E r}{P}\right)
@@ -571,7 +590,7 @@ $$
 C F N I = \frac {C F}{N I} \rightarrow\begin{array}{l}C F N I = \frac {\text {F r e e C a s h f l o w f r o m O p e r a t i o n s (F C F O)}}{\text {N e t I n c o m e (N I)}}\\C F N I = \frac {\text {F r e e C a s h f l o w t o E q u i t y (F C F E)}}{\text {N e t I n c o m e (N I)}}\end{array}\tag {2.39}
 $$
 
-# Section 4
+### Section 4
 
 The analysis of the relationships between Capital Invested and Capital Structure, and Free Cash-flows from Operations and Free Cash-flow to Equity can be focused on the following main ratios:
 
@@ -586,8 +605,6 @@ E C F = \frac {\text {E q u i t y} (E)}{\text {C a s h f l o w s} (C F)} \tag {2
 $$
 
 The ratio ECF defines the relationship between Equity (E) and the Cash-flows (CF). Considering two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity (FCFE), the ratio can be applied in two versions:
-
-# 2.2 Financial Ratios Analysis
 
 $$
 E C F = \frac {E}{C F} \rightarrow\begin{array}{l}E C F = \frac {\text {E q u i t y} (E)}{\text {F r e e C a s h f l o w f r o m O p e r a t i o n s} (\text {F C F O})}\\E C F = \frac {\text {E q u i t y} (E)}{\text {F r e e C a s h f l o w t o E q u i t y} (\text {F C F E})}\end{array}\tag {2.41}
@@ -625,7 +642,7 @@ $$
 C C F = \frac {C}{C F} \rightarrow\begin{array}{l}C C F = \frac {\text {C a p e x} (c)}{\text {F r e e C a s h f l o w f r o m O p e r a t i o n s} (\text {F C F O})}\\E C F = \frac {\text {C a p e x} (c)}{\text {F r e e C a s h f l o w t o E q u i t y} (\text {F C F E})}\end{array}\tag {2.45}
 $$
 
-# Operating Leverage and Financial Risk Level
+### Operating Leverage and Financial Risk Level
 
 The analysis of Sects. 2.1-2.4 must be completed by considering the Operating Leverage and Financial Risk Level (Anthony et al. 2011; Garrison et al. 2015).
 
@@ -674,8 +691,6 @@ O L = \frac {C M}{E B I T} \tag {2.48}
 $$
 
 Note that by expressing Eq. (2.46) for EBIT, it gets:
-
-# 2.2 Financial Ratios Analysis
 
 $$
 \Delta (\%) E B I T = O L \cdot \Delta (\%) V \tag{2.49}
@@ -754,7 +769,7 @@ The FRL measures the effects of interest on debt on Net Income dynamic: the high
 
 Therefore, the greater the FRL, the higher is the variability of the Net Income to the variances of the Volume of goods sold.
 
-# 2.3 Growth Rate Analysis
+## 2.3 Growth Rate Analysis
 
 The fundamental analysis of the firm leads to investigate into the expected consistency of the future economic and financial dynamics. Consequently, one of the most relevant keys to the analysis is an estimate of the company's future growth rate with regards to mainly both Net Income and Operating Income. Two are the mean approaches used to estimate the company's expected growth rate:
 
@@ -767,7 +782,7 @@ In this context, only the first approach is considered. Therefore, the growth ra
 
 The estimate of the company's growth rate based on the analysis of the historical trends requires specific knowledge of advanced statistical models. For their analysis refer to the reference literature.
 
-# Growth Rate in Net Income
+#### 2.3.1 Growth Rate in Net Income
 
 The expected Growth Rate in Net Income  $(g_{NI})$  is linked to the equity reinvested in the company and to the return on equity (Damodaran 2012).
 
@@ -819,8 +834,6 @@ N I _ {t - 1} = E _ {t - 2} \cdot R O E _ {t - 1} = \left(E _ {t - 3} + R E _ {t
 $$
 
 The difference between the Net Income in the two periods  $t$  and  $t - 1$  is equal to:
-
-# 2.3 Growth Rate Analysis
 
 $$
 \begin{array}{l} N I _ {t} - N I _ {t - 1} = \left[ \left(E _ {t - 2} + R E _ {t - 1}\right) \cdot R O E \right] - \left[ \left(E _ {t - 3} + R E _ {t - 2}\right) \cdot R O E \right] \\ = \left(E _ {t - 2} + R E _ {t - 1} - E _ {t - 3} - R E _ {t - 2}\right) \cdot R O E \\ \end{array}
@@ -889,16 +902,16 @@ $$
 In this case, the growth rate of Net income, is equal to:
 
 $$
-g _ {N I} = E R \cdot R O E = \left(\frac {\Delta C a p e x + \Delta N W C + D R}{N I}\right) \cdot R O E \tag {2.64}
+g_{NI} = ER \cdot ROE = \left(\frac {\Delta Capex + \Delta NWC + DR}{NI}\right) \cdot ROE \tag {2.64}
 $$
 
 These two extensions can be considered jointly as follows:
 
 $$
-\begin{array}{l} g _ {N I} = E R \cdot R O E \\ = \left(\frac {\Delta C a p e x + \Delta N W C + D R}{N I}\right) \cdot \left[ \left[ R O I + L \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right) \right] \tag {2.65} \\ \end{array}
+\begin{array}{l} g_{NI} = ER \cdot ROE \\ = \left(\frac {\Delta Capex + \Delta NWC + DR}{NI}\right) \cdot \left[ \left[ ROI + L \cdot \left(ROI - K_{D}\right) \right] \cdot \left(1 - t_{c}\right) \right] \tag {2.65} \\ \end{array}
 $$
 
-# Growth Rate in Operating Income
+#### 2.3.2 Growth Rate in Operating Income
 
 The expected Growth Rate in Operating Income ( $g_{OI}$ ) is connected with the reinvestments in the company's operating assets and to the Return on Capital Invested (Damodaran 2012).
 
@@ -907,22 +920,20 @@ An estimate of the expected growth rate in Operating Income  $(g_{OI})$  can be 
 - Investment Rate (IR): measuring the percentage of Operating Income reinvested in the operating assets;
 - Return on Capital Invested (ROCI): measuring the return on investment in operating assets. The Investment Rate (IR) can be defined on the basis of investments in Capex and Net Working Capital (NWC), and the EBIT, as follows:
 
-# 2.3 Growth Rate Analysis
-
 $$
-I R = \frac {C a p e x + N W C}{E B I T}
+IR = \frac {Capex + NWC}{EBIT}
 $$
 
 By assuming a constant ROIC over time, the expected Growth Rate in Operating Income  $(g_{OI})$  is equal to the product between the Return on Invested Capital (ROIC) and the Investment Rate (IR) as follows:
 
 $$
-g _ {O I} = I R \cdot R O I C \tag {2.66}
+g_{OI} = IR \cdot ROIC \tag {2.66}
 $$
 
 Equation (2.66) can be solved by Investment Rare (IR) as follows:
 
 $$
-I R = \frac {g O I}{R O I C} \tag {2.67}
+IR = \frac {g_{OI}}{ROIC} \tag {2.67}
 $$
 
 It is worth noting that the relationship between the Growth Rate in Operating Income, Investment Rate and the ROIC can be summarized as follows:
@@ -933,7 +944,7 @@ It is worth noting that the relationship between the Growth Rate in Operating In
 By removing the assumption of constant ROIC over time, a new component of the growth must be considered. This additional growth is function of the changes in ROIC over time. This amount has to be added to the growth rate as previously computed as follows:
 
 $$
-g _ {O I} = I R \cdot R O I C + \left(\frac {R O I _ {t} - R O I _ {t - 1}}{R O I _ {t}}\right) \tag {2.68}
+g_{OI} = IR \cdot ROIC + \left(\frac {ROI_{t} - ROI_{t-1}}{ROI_{t}}\right) \tag {2.68}
 $$
 
 Therefore, the Growth Rate will be increased if the additional part is positive, and will be decreased if the additional part is negative.
@@ -947,19 +958,19 @@ Therefore, based on the baseline equation, company growth increases its value on
 This relationship can be clearly understood by considering Dividends  $(Div)$ . In order to simplify the analysis without loss of significance, it is possible to assume that Earnings  $(Er)$  can be used as dividends less a part reinvested in the operating assets of the firm as follows:
 
 $$
-D i v = E r \cdot (1 - I R)
+Div = Er \cdot (1 - IR)
 $$
 
 On the basis of Eq. (2.67), we have:
 
 $$
-I R = \frac {g _ {O I}}{R O I C}
+IR = \frac {g_{OI}}{ROIC}
 $$
 
 and by substituting it, we have:
 
 $$
-D i v = E r \cdot \left(1 - \frac {g o I}{R O I C}\right) \tag {2.69}
+Div = Er \cdot \left(1 - \frac {g_{OI}}{ROIC}\right) \tag {2.69}
 $$
 
 Equation (2.69) shows the relationship between Growth Rate in Operating Income  $(g_{OI})$ , ROIC, Investment Rate (IR) and Dividend  $(Div)$ . Specifically, it shows how the key role is played by the ROIC. In fact:
@@ -979,7 +990,7 @@ a low ROIC it should focus on improving ROIC before improving Growth Rate (Kolle
 
 As the higher the ROIC than the cost of capital (and the longer it can sustain a rate of return on that capital greater than its cost of capital), the greater is the creation of value, therefore it is critical to understand the drivers of the ROIC and assess impacts of every strategic and investment decision on them. The drivers of the ROIC are based in the Strategic Formula of the company.
 
-# 2.4 Investment Analysis
+## 2.4 Investment Analysis
 
 The baseline concept of present value is that a dollar received in the future is less valuable than a dollar received today.
 
@@ -988,7 +999,7 @@ The main techniques for the investments analysis are the Net Present Value and t
 The present value (PV) is the baseline instrument to evaluate the profitability of an investment. The PV measures the present value of the future expected cash-flows  $(CF_{t})$  discounted at interest rate  $(i)$ , as follows:
 
 $$
-P V = \sum_ {t = 1} ^ {n} \frac {C F _ {t}}{(1 + i) ^ {t}} \tag {2.70}
+P V = \sum_ {t = 1} ^ {n} \frac {CF_{t}}{(1 + i) ^ {t}} \tag {2.70}
 $$
 
 It is possible to assume that cash-flows are expected to grow at the same constant growth rate  $(g_{n})$  in each period over time, as follows:
@@ -1010,7 +1021,7 @@ The baseline equation to measure the investment capability to create value is th
 The NPV measures the value as a difference between the present value of future expected cash-in (CFI) less the cash-out (CFO) as follows:
 
 $$
-N P V = C F O _ {(t _ {0})} + \sum_ {t = 1} ^ {n} \frac {C F I _ {t}}{(1 + i) ^ {t}} \tag {2.72}
+NPV = CFO_{(t_{0})} + \sum_{t=1}^{n} \frac {CFI_{t}}{(1 + i)^{t}} \tag {2.72}
 $$
 
 Note that  $CFO$  is a negative value.
@@ -1018,7 +1029,7 @@ Note that  $CFO$  is a negative value.
 If the investment requires plus then one cash-out in different future years, Eq. (2.72) can be re-written as follows:
 
 $$
-N P V = \sum_ {t = 0} ^ {n} \frac {C F O _ {t}}{\left(1 + R _ {f}\right) ^ {t}} + \sum_ {t = 1} ^ {n} \frac {C F I _ {t}}{\left(1 + i\right) ^ {t}} \tag {2.73}
+NPV = \sum_{t=0}^{n} \frac {CFO_{t}}{\left(1 + R_{f}\right)^{t}} + \sum_{t=1}^{n} \frac {CFI_{t}}{\left(1 + i\right)^{t}} \tag {2.73}
 $$
 
 The Interest Rate  $(i)$  uses the time value of money through the risk-free rate  $\left(R_{f}\right)$  to discount cash-flows measures, plus the premium risk related to the riskiness of investment  $\left(P_{r}\right)$  related to effective execution of the future expected cash-in.

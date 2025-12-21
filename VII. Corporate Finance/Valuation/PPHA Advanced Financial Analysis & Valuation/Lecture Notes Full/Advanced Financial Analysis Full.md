@@ -1,13 +1,22 @@
 ---
-parent_directory:
-title: Advanced Financial Analysis and Valuation of Global Firms
-tags:
-aliases:
-parent_folder: 2024 Adv Fin Analysis & Valuation
-subfolder:
-key_concepts:
+title: "Advanced Financial Analysis and Valuation of Global Firms"
+parent_directory: Lecture Notes Full
+formatted: 2025-12-21 04:10:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - financial analysis frameworks
+  - enterprise valuation models
+  - value driver analysis
+  - market efficiency concepts
+secondary_tags:
+  - discounted cash flow modeling
+  - business model evaluation
+  - accounting analysis techniques
+  - fundamental analysis methods
+  - competitive advantage assessment
+  - economic profit sustainability
 cssclasses: academia
-linter-yaml-title-alias: Advanced Financial Analysis and Valuation of Global Firms
 ---
 
 Thomas Rauter
@@ -27,7 +36,7 @@ The University of Chicago Booth School of Business
 What is market efficiency?
 
 - Stock prices rapidly adjust to new information
-- New information is fully reflected in prices  $\Rightarrow$  trading on this information does not offer an abnormal rate of return
+- New information is fully reflected in prices $\Rightarrow$ trading on this information does not offer an abnormal rate of return
 - Efficiency implies that capital markets become a fair game
 - Only new information should move prices  $\Rightarrow$  prices follow a random walk
 - Market efficiency is a relative concept
@@ -176,7 +185,7 @@ Note that the 10-K released in Feb 2010 is the one for fiscal 2009
 - Study analyzes changes in the text of firms' 10-K filings
 - Shows that Baxter example is not an isolated case
 - Investors seem to miss 10-K changes
-- Strategy going long in "Non-Changers" and short in "Changers" yields alpha of  $7 \%$
+- Strategy going long in "Non-Changers" and short in "Changers" yields alpha of $7\%$$
 - Even larger when using changes in the risk-factor discussion in the 10-K specifically
 - Results are across all stocks (even large ones)
 - What do you predict will happen to this result?
@@ -306,15 +315,15 @@ The University of Chicago Booth School of Business
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e65e72f2-451a-4831-b786-a564ab73d9de/e324595ae2505d70b93d066544a351bb8739970bf694fd8072f5b526005b7508.jpg)
 
 $$
-\rho_ {\mathrm {E}} = \text {d i s c o u n t f a c t o r}
+\rho_{\mathrm{E}} = \text{discount factor}
 $$
 
 $$
-(= 1 + \mathrm {c o s t} \mathrm {o f e q u i t y})
+(= 1 + \text{cost of equity})
 $$
 
 $$
-V _ {0} = \sum_ {t = 1} ^ {4} \frac {\overline {{d}} _ {t}}{\rho_ {E} ^ {t}} + \frac {\overline {{T V _ {4}}}}{\rho_ {E} ^ {4}}
+V_{0} = \sum_{t=1}^{4} \frac{\overline{d}_{t}}{\rho_{\mathrm{E}}^{t}} + \frac{\overline{TV_{4}}}{\rho_{\mathrm{E}}^{4}}
 $$
 
 # So what do we do instead?
@@ -395,7 +404,7 @@ Financial statements provide a starting point
 
 From 10K: ExampleCo rents equipment to customers. For the fiscal year 2013, ExampleCo completed a review of its rental equipment amortization methodology and updated the methodology in order to add greater precision to cost amortization. The previous method recognized accelerated amortization of costs at a rate faster than the decline in the equipment value due to the recognition of charges in addition to the normal rental curve amortization to account for potential damage. The Company's most recent analysis has shown that its amortization curves can reasonably capture the effect of potential damage and therefore eliminates the need for additional charges and provides a better correlation of costs to revenue. The modified approach to amortizing the cost of the equipment is based on updated rental curves, which incorporate damage estimates, and provides a more systematic method for recognizing the replacement costs. The Company anticipates this new method will better align the recognition of costs with related revenue.
 
-The effect of this change resulted in a reduction of product costs, as reported in operating expenses. The change resulted in a corresponding increase to the balance of our rental equipment inventory. For the fiscal year 2013, the change resulted in a benefit to net income of  \$15 million or\$ 0.10 in basic earnings per share.
+The effect of this change resulted in a reduction of product costs, as reported in operating expenses. The change resulted in a corresponding increase to the balance of our rental equipment inventory. For the fiscal year 2013, the change resulted in a benefit to net income of \$15 million or \$0.10 in basic earnings per share.
 
 Basic EPS
 
@@ -485,7 +494,7 @@ Free cash flow forecast (SMM)
 
 <table><tr><td></td><td>FY2018A</td><td>FY2019E</td><td>FY2020E</td><td>FY2021E</td><td>FY2022E</td><td>FY2023E</td></tr><tr><td>Revenue</td><td>$66,832</td><td>$67,634</td><td>$68,987</td><td>$70,366</td><td>$71,914</td><td>$73,497</td></tr><tr><td>% NOPAT margin</td><td>14.77%</td><td>14.77%</td><td>14.77%</td><td>14.77%</td><td>14.77%</td><td>14.77%</td></tr><tr><td>NOPAT</td><td>9,872</td><td>9,990</td><td>10,190</td><td>10,394</td><td>10,623</td><td>10,856</td></tr><tr><td>NOA</td><td>81,600</td><td>83,762</td><td>84,907</td><td>87,135</td><td>88,692</td><td>91,003</td></tr><tr><td>NOA turnover</td><td>.82x</td><td>.82x</td><td>.82x</td><td>.82x</td><td>.82x</td><td>.82x</td></tr><tr><td>Δ NOA</td><td>(201)</td><td>2,162</td><td>1,145</td><td>2,228</td><td>1,557</td><td>2,311</td></tr><tr><td>FCF (NOPAT - Δ NOA)</td><td>10,073</td><td>7,829</td><td>9,045</td><td>8,166</td><td>9,066</td><td>8,545</td></tr></table>
 
-- Sales growth estimates (yoy):  $1.2\%$ ,  $2\%$ ,  $2\%$ ,  $2.2\%$
+- Sales growth estimates (yoy): $1.2\%$, $2\%$, $2\%$, $2.2\%$
 - Margin and NOA turnover: constant
 - Your turnover forecast pins down your forecasted NOA (and hence investments) –  $\Delta$ NOA is change in investment = required net investment
 
@@ -501,10 +510,10 @@ Free cash flow forecast (SMM)
 - Suppose the firm has depreciation of 200 and buys new PPE for 400
 - Avenue 1: Directly adjust investment and depreciation
 - To go from NOPAT to FCF, we want to subtract the 400 in investment and add back the 200 in depreciation
-- Cash used up is  $200 = 400 - 200$
+- Cash used up is $200 = 400 - 200$
 - Avenue 2: Adjust the net change in PPE
 - New Net PPE is 1200
-- Change in Net PPE is  $200 = 1200 - 1000$
+- Change in Net PPE is $200 = 1200 - 1000$
 
 $\rightarrow$  Non-cash items are automatically adjusted when subtracting the change in NOAA
 
@@ -686,18 +695,18 @@ What is key for this valuation?
 # Basic idea
 
 - PE ratio is essentially based on a perpetuity
-- Perpetuity:  $P = CF / r$  (where  $CF$  is cash flow to equity)
+- Perpetuity: $P = \frac{CF}{r}$ (where $CF$ is cash flow to equity)
 - Earnings predict future cash flows
 - Includes replacement investments (or maintenance)
 - You can view earnings as an estimate of "normalized" cash flow to equity in steady state (rather than the dividend)
-- Thus:  $P = E / r \Rightarrow P / E = 1 / r$
+- Thus: $P = \frac{E}{r} \Rightarrow \frac{P}{E} = \frac{1}{r}$
 
 This is just the simplest representation
 
 - We can add other factors (e.g., growth)
 
 $$
-- P / E = 1 / (r - g)
+- $\frac{P}{E} = \frac{1}{r - g}$
 $$
 
 - PEG ratio
@@ -705,7 +714,7 @@ $$
 
 # Challenges for multiples
 
-- Multiple is essentially a valuation model with a forecast horizon of  $T = 1$
+- Multiple is essentially a valuation model with a forecast horizon of $T = 1$
 - One-year forward PE ratio
 - Complexity of valuation has not disappeared – all 'crammed' into:
 
@@ -1008,7 +1017,7 @@ Continuing value represents the value of the firm's FCFs after the explicit fore
 - With growth & reinvestment, continuing value is defined as:
 
 $$
-\text {C o n t i n u i n g V a l u e} _ {t} = \frac {\mathrm {N O P L A T} _ {t + 1} \left(1 - \frac {g}{\mathrm {R O N I C}}\right)}{\mathrm {W A C C} - g}
+\text{Continuing Value}_{t} = \frac{\mathrm{NOPLAT}_{t+1} \left(1 - \frac{g}{\mathrm{RONIC}}\right)}{\mathrm{WACC} - g}
 $$
 
 where:

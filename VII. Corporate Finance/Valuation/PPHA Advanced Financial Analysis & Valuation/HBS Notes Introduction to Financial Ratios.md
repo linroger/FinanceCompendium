@@ -1,14 +1,22 @@
 ---
-parent_directory: PPHA Advanced Financial Analysis & Valuation
-title: Introduction to Financial Ratios and Financial Statement Analysis
-tags:
-aliases:
-  - Introduction to Financial Ratios and Financial Statement Analysis
-parent_folder: PPHA Advanced Financial Analysis & Valuation
-subfolder:
-key_concepts:
+title: "Introduction to Financial Ratios and Financial Statement Analysis"
+parent_directory: "PPHA Advanced Financial Analysis & Valuation"
+formatted: "2025-12-21 04:05:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+primary_tags:
+  - financial ratios analysis
+  - profitability ratios
+  - solvency ratios
+  - financial statement analysis
+secondary_tags:
+  - return on assets
+  - current ratio
+  - debt ratio
+  - price earnings ratio
+  - common size statements
+  - du pont analysis
 cssclasses: academia
-linter-yaml-title-alias: Introduction to Financial Ratios and Financial Statement Analysis
 ---
 
 WILLIAM BRUNS
@@ -29,9 +37,7 @@ Similarly, comparisons of firms only on the basis of ratios can lead to erroneou
 
 # Profitability Ratios
 
-Profitability ratios seek to associate the amount of income earned with either the amount of resources used or the amount of activity that has taken place. These correspond to efficiency measures often used in economic and engineering theory. Ideally, the firm should produce as much income as possible with a given amount of resources or a satisfactory amount of income using as few resources as possible.
-
-# Return on Investment (ROI)
+## Return on Investment (ROI)
 
 Dividing net income by the amount of investment expresses the idea of economic efficiency. Return on assets (ROA), return on investment capital (ROIC), and return on owners' equity (ROE) are all used in financial analysis as measures of the effectiveness with which assets have been employed.
 
@@ -83,17 +89,9 @@ $$
 
 Note that for this ratio stockholders' equity is the correct denominator because the ratio is an attempt to understand what the investment by the owners alone has earned. (For Gillette, the return on equity is higher than other companies often report, because Gillette has been buying its own stock, called treasury stock, for several years.)
 
-# Earnings per Share (EPS)
+## Earnings per Share (EPS)
 
-Because corporations have many owners, not all of whom own an equal number of shares, it is quite common to express earnings of a company on a per-share basis for those who wish to calculate their proportional share of earnings. The calculation of earnings per share can be complicated if there is more than one class of ownership, each with differing claims against the income of the firm. Preferred stock or other securities that are convertible into common shares are often treated as common stock equivalents in making this calculation. In published financial reports, this ratio is required to be presented, often in several variations such as "basic" or "diluted" (a very conservative form) EPS. Although the actual formulas for EPS are usually very complex, a simplified formula showing the basic common elements is:
-
-$$
-E a r n i n g s p e r S h a r e (E P S) = \frac {\text {N e t I n c o m e - P r e f e r e d S t o c k D i v i d e n d s}}{\text {N u m b e r o f S h a r e s o f C o m m o n S t o c k + E q u i v a l e n t s}}
-$$
-
-Net earnings per share for the Gillette Company for 2003 were \$1.35.
-
-# Profit Margin
+## Profit Margin
 
 This ratio, which gives a rate of return on sales, relates two statements of income measurements to each other. For this reason, it is not a measure of efficiency, but instead, gives some indication of the sensitivity of income to price changes or changes in cost structure. The formula for this ratio is:
 
@@ -106,14 +104,12 @@ It is important to note that neither a high nor low profit margin necessarily me
 The profit margin in 2003 for Gillette was:
 
 $$
-\mathrm {N e t P r o f i t} = \frac {\mathbb {S} 1 , 3 8 5}{\mathbb {S} 9 , 2 5 2} = 1 5. 0
+\text{Net Profit} = \frac{\$1,385}{\$9,252} = 15.0
 $$
 
 # Activity Ratios
 
-Activity ratios provide an indication of how well assets are utilized by the organization. Efficiency in using assets minimizes the need for investment by lenders or owners. Activity ratios provide measurements of how well assets or capital are being utilized.
-
-# Asset Turnover
+## Asset Turnover
 
 This ratio measures the company's effectiveness in utilizing all of its assets. The formula for this ratio is:
 
@@ -124,6 +120,14 @@ $$
 For the Gillette Company in 2003, the asset turnover was:
 
 $$
+\text{Asset Turnover} = \frac{\text{Net Sales}}{\text{Total Assets}}
+$$
+
+For the Gillette Company in 2003, the asset turnover was:
+
+$$
+\text{Asset Turnover} = \frac{\$9,252}{\$9,955} = 0.929
+$$
 \text {A s s e t T u r n o v e r} = \frac {\mathbb {S} 9 , 2 5 2}{\mathbb {S} 9 , 9 5 5} = . 9 2 9
 $$
 
@@ -133,33 +137,9 @@ turnover ratio can be obscured, and the most valid comparisons of an asset turno
 
 Asset turnover ratios can be calculated for any group of assets. Accounts receivable, inventory, and total working capital are all asset classifications for which comparison of turnover is potentially interesting and important.
 
-# Days' Receivables
+## Days' Receivables
 
-Evidence about the amount of time that lapses between sales and receipt of payment from customers can be important information about the financial structure of a company. An approximation of the number of days that elapse can be obtained by dividing the amount of accounts receivable (and notes receivable if these are related to customer accounts) by the average day's sales. In cases where cash sales are a significant portion of the total, the amount of charge sales must be estimated for use in judging the length of collection.
-
-The collection period for accounts receivable can be calculated by first dividing net sales by 365 days to determine average sales per day.
-
-$$
-\text {A v e r a g e D a y ' s S a l e s} = \frac {\text {N e t S a l e s}}{3 6 5}
-$$
-
-Then calculate the collection period using the following formula:
-
-$$
-\text {D a y ' s R e c e i v a b l e s} = \frac {\text {A c c o u n t s R e c e i v a b l e}}{\text {A v e r a g e D a y ' s S a l e s}}
-$$
-
-Days' receivables in 2003 for the Gillette Company was:
-
-$$
-\text {A v e r a g e D a y ' s S a l e s} = \frac {\mathbb {S} 9 . 2 5 2}{3 6 5} = \mathbb {S} 2 5. 3 \text {m i l l i o n}
-$$
-
-$$
-\text {D a y ' s R e c e i v a b l e s} = \frac {\mathbb {S} 9 2 0}{\mathbb {S} 2 5 . 3} = 3 6 \text {d a y s}
-$$
-
-# Inventory Turnover
+## Inventory Turnover
 
 Determining the number of times that inventory is sold during the year provides some measure of its liquidity and the ability of the company to convert inventories to cash quickly if that were to become necessary. When turnover is slow, it may indicate that inventories are not a liquid asset and suggest they should be excluded from that category for analytical purposes. On the other hand, when turnover is quite rapid, that is when inventory is sold several times each year, the liquid character of inventory can provide funds if needed in the short term and may protect the firm against inventory obsolescence.
 
@@ -187,25 +167,11 @@ $$
 \text {D a y s} ^ {\prime} \text {I n v e n t o r y} = \frac {3 6 5}{3 . 6} = 1 0 0 \text {d a y s}
 $$
 
-# Working Capital Turnover
-
-Working capital turnover is a measure of the speed with which funds are provided by current assets to satisfy current liabilities. The formula for this ratio is:
-
-$$
-\text {W o r k i n g C a p i t a l T u r n o v e r} = \frac {\text {N e t S a l e s}}{\text {A v e r a g e C u r r e n t A s s e t s - A v e r a g e C u r r e n t L i a b i l i t i e s}}
-$$
-
-Working capital turnover in 2003 for the Gillette Company was:
-
-$$
-\text {W o r k i n g C a p i t a l T u r n o v e r} = \frac {\mathbb {S} 9 , 2 5 2}{(\mathbb {S} 3 , 7 2 3 . 5 - \mathbb {S} 3 , 5 7 3 . 0)} = 6 1. 5 x
-$$
+## Working Capital Turnover
 
 # Solvency and Leverage Ratios
 
-When an organization is unable to meet its financial obligations, it is said to be insolvent. Because insolvency leads to organizational distress, or even to bankruptcy or organization extinction, ratios to test solvency are often used by investors and creditors. By measuring a company's ability to meet its financial obligations as they become current, solvency ratios give an indication of the liquidity of the company.
-
-# Current Ratio
+## Current Ratio
 
 This ratio is commonly used for testing liquidity or solvency. The formula for this ratio is:
 
@@ -218,24 +184,12 @@ The size of the current ratio that a healthy company needs to maintain is depend
 The current ratio at the end of 2003 for the Gillette Company was:
 
 $$
-\text {C u r r e n t} = \frac {\mathbb {S} 3 , 6 5 0}{\mathbb {S} 3 , 6 5 8} = 1. 0
+\text{Current Ratio} = \frac{\$3,650}{\$3,658} = 1.0
 $$
 
-# Acid Test Ratio
+## Acid Test Ratio
 
-In cases where there is a desire or a need to confirm the absolute liquidity of an organization, the current ratio is modified by eliminating from current assets all that cannot be liquidated on very short notice. Typically, then, this ratio consists of the ratio of so-called "quick" assets (cash, marketable security, and some forms of accounts receivable) to current liabilities.
-
-$$
-\text {A c i d T e s t R a t i o} = \frac {\text {Q u i c k A s s e t s}}{\text {C u r r e n t L i a b i l i t i e s}}
-$$
-
-For 2003, add the cash, short-term investments, and receivables to calculate the acid test ratio for the Gillette Company.
-
-$$
-\text {A c i d T e s t R a t i o} = \frac {\mathbb {S} 1 , 9 5 2}{\mathbb {S} 3 , 6 5 8} = . 5 3
-$$
-
-# Debt Ratio
+## Debt Ratio
 
 The degree to which the activities of a company are supported by liabilities and long-term debt as opposed to owner contributions is referred to as leverage. A firm that has a high proportion of debt to stockholder contributions would be referred to as being highly leveraged. The advantage to the owners of the firm of having high debt is that profits earned after payment of interest accrue to a smaller group of owners. On the other hand, when a firm is highly leveraged, risk rises when profits and cash flows fall. A company can be forced to the point of insolvency by the cost of interest on the debt.
 
@@ -256,30 +210,14 @@ Care must be taken in interpreting either of these ratios because there is no ab
 Using the second of the two formulas above, the 2003 debt-to-equity ratio for the Gillette Company was:
 
 $$
-\text {D e b t - t o - E q u i t y R a t i o} = \frac {\mathbb {S} 9 , 9 5 5 - \mathbb {S} 2 , 2 2 4}{\mathbb {S} 2 , 2 2 4} = 3. 5
+\text{Debt-to-Equity Ratio} = \frac{\$9,955 - \$2,224}{\$2,224} = 3.5
 $$
 
-# Times Interest Earned
-
-Almost every firm has continuing commitments that must be met by future flows if the company is to remain solvent. Interest payments are an example of such commitments. The common ratio that measures the ability of a company to meet its interest payments is times interest earned. The formula for this ratio is:
-
-$$
-\text {T i m e s I n t e r e s t E a r n e d} = \frac {\text {P r e t a x O p e r a t i n g I n c o m e} + \text {I n t e r e s t E x p e n s e}}{\text {I n t e r e s t}}
-$$
-
-The number of times interest payments are covered by current earnings offers some measure of the degree to which income could fall without causing insolvency in this account. In many cases, this is not so much a test of solvency as a test of staying power under adversity. Times interest earned for 2003 for the Gillette Company was:
-
-$$
-\text {T i m e s I n t e r e s t E a r n e d} = \frac {\mathbb {S} 1 . 9 6 4 + \mathbb {S} 5 4}{\mathbb {S} 5 4} = 3 7. 4 \mathrm {x}
-$$
+## Times Interest Earned
 
 # Market-Related and Dividend Ratios
 
-Two ratios are affected by the market price for shares of ownership in corporations. These are the price earnings ratio and the dividend yield ratio. In addition, analysts sometimes calculate a dividend
-
-payout ratio as a measure of the degree to which the firm is likely to be able to continue its dividend payments provided there is fluctuation in future income.
-
-# Price Earnings Ratio (PE)
+## Price Earnings Ratio (PE)
 
 The relationship of the market price of shares of stock to the earnings of the company is of great interest to investors. Companies that are growing rapidly and are thought to have good potential for future growth often find that their shares are traded at a multiple of earnings per share much higher than companies thought to have less promise. The price earnings ratio is often included in stock market tables in investment information prepared by analysts. The formula for this ratio is:
 
@@ -287,27 +225,15 @@ $$
 \text {P r i c e E a r n i n g s R a t i o (P E)} = \frac {\text {M a r k e t P r i c e p e r S h a r e o f S t o c k}}{\text {E a r n i n g s p e r S h a r e}}
 $$
 
-Since the market price of shares frequently fluctuates, this ratio is sometimes calculated using an average market price for a period of time. If the average price of a share of Gillette stock in 2003 was \$34.00, the price earnings ratio would have been  $25.2\%$ .
+Since the market price of shares frequently fluctuates, this ratio is sometimes calculated using an average market price for a period of time. If the average price of a share of Gillette stock in 2003 was \$34.00, the price earnings ratio would have been 25.2.
 
 $$
-2 0 0 3 \quad \text {P r i c e E a r n i n g s R a t i o} = \frac {\mathbb {S} 3 4 . 0 0}{\mathbb {S} 1 . 3 5} = 2 5. 2
+2003 \quad \text{Price Earnings Ratio} = \frac{\$34.00}{\$1.35} = 25.2
 $$
 
-# Dividend Yield Ratio
+## Dividend Yield Ratio
 
-The dividend yield to common shareholders is dependent upon the market price originally paid for the share and is calculated by dividing dividends received by the market price originally paid for the shares. For a prospective investor, dividend yield is the dividend per share divided by the current market price of the stock.
-
-$$
-\text {D i v i d e n d Y i e l d} = \frac {\text {D i v i d e n d s p e r S h a r e}}{\text {M a r k e t P r i c e p e r S h a r e}}
-$$
-
-If the market price of shares in the Gillette Company was \$34.00, the dividend yield in 2003 when dividends per share of $.65 were paid to shareholders would have been:
-
-$$
-\text{Dividend Yield} = \frac {\mathbb {S}. 65}{\mathbb {S} 34.00} = 1.9 \%
-$$
-
-# Dividend Payout
+## Dividend Payout
 
 The dividend payout ratio shows the proportion of net income that was paid in dividends. Both the dividend yield and dividend payout ratio are useful for forecasting future dividend streams to investors in the company's common stock. The formula for this ratio is:
 
@@ -323,15 +249,7 @@ $$
 
 # Using Ratios to Think about Management Strategies
 
-Sometimes it is useful when conducting a financial analysis to think about the interrelationships between ratios and to use them to think about the strategies that management has adopted or might adopt. One well-known algebraic construction using ratios is known as the du Point model because financial analysts at the E. I. du Point de Nemours & Co. are credited with its development and use during the 1920s. The du Point model multiplies profit margin times asset turnover times a ratio of assets over equity to calculate return on stockholders' equity. If we look at this algebraic construction, we can see why it is so useful.
-
-$$
-\frac {\text {I n c o m e}}{\text {S a l e s}} \times \frac {\text {S a l e s}}{\text {A s s e t s}} \times \frac {\text {A s s e t s}}{\text {O w n e r s} ^ {\prime} \text {E q u i t y}} = \text {R e t u r n o n O w n e r s} ^ {\prime} \text {E q u i t y}
-$$
-
-The first ratio, profit margin, can be used to focus management's attention on the relationship between the price and cost of products or services sold. The second ratio, asset turnover, emphasizes the efficient use of resources in producing products and services. The third ratio, assets over equity, focuses on the ability of management to leverage the firm properly to provide maximum return to stockholders. Each of these major classes of decisions that managers must make can be examined in light of its ability to provide the overall objective of increasing return to stockholders.
-
-# Common Size Financial Statements
+## Common Size Financial Statements
 
 In order to examine the changing financial structure of a firm through time and the changing nature of operations, many analysts like to create common size financial statements in which the balance sheet and the statement of income are prepared in the percentage format. In a common size balance sheet, each asset, liability, and owners' equity amount is expressed as a percentage of total assets. In a common size statement of income, sales is set at  $100\%$ , and each item is expressed as a percentage of sales.
 

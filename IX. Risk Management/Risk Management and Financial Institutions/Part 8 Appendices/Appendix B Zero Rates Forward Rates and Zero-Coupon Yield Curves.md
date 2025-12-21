@@ -1,16 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Appendix B: Zero Rates, Forward Rates, and Zero-Coupon Yield Curves"
+parent_directory: "Part 8 Appendices"
+formatted: "2025-12-21 03:45:00 AM"
+formatter_model: "claude-haiku-4-5-20251001"
+primary_tags:
+  - zero rates
+  - forward rates
+  - yield curves
+  - bond pricing
+secondary_tags:
+  - treasury rates
+  - bootstrap method
+  - continuous compounding
+  - interest rate calculations
+  - zero coupon bonds
 cssclasses: academia
-title: Appendix B
-linter-yaml-title-alias: Appendix B
 ---
 
-# Appendix B
-
-# Zero Rates, Forward Rates, and Zero-Coupon Yield Curves
+# Appendix B: Zero Rates, Forward Rates, and Zero-Coupon Yield Curves
 
 The  $n$ -year zero-coupon interest rate is the rate of interest earned on an investment that starts today and lasts for  $n$  years. All the interest and principal is realized at the end of  $n$  years. There are no intermediate payments. The  $n$ -year zero-coupon interest rate is sometimes also referred to as the  $n$ -year spot interest rate, the  $n$ -year zero rate, or just the  $n$ -year zero. The zero rate as a function of maturity is referred to as the zero curve. Suppose a five-year zero rate with continuous compounding is quoted as  $5\%$  per annum. (See Appendix A for a discussion of compounding frequencies.) This means that  $\$ 100$ , if invested for five years, grows to
 

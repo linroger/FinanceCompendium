@@ -1,58 +1,46 @@
 ---
+title: "Chapter 17: Balance of Payments I - Gains from Financial Globalization"
+parent_directory: "Part 7 - The Balance of Payments"
+formatted: "2025-12-21 11:35:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- balance payments gains
-- household cope economic shocks
-- external wealth position argentina
-- financial globalization save rainy
-- norway took advantage openness
-- suppose argentina year debt
+  - balance of payments gains
+  - financial globalization benefits
+  - consumption smoothing
+  - efficient investment
+  - risk diversification
 secondary_tags:
-- gains financial globalization large
-- country investment capital accumulation
-- argentina invests 84
-- financially open countries
-- countries deal shocks
-- external wealth year assume
-- countries marginal product high
-- shock responses illustrate financial
-- 05 200 argentina fund
-- question international macroeconomics
-- households limit country borrow
-- trade balances external wealth
-- hurricanes intertemporal trade capital
-- financial challenges
-- peak current account deficit
-- damage financial dealings household
-tags_extracted: '2025-12-18T00:42:53.808504'
+  - long run budget constraint
+  - external wealth dynamics
+  - intertemporal trade
+  - hurricane economic impact
+  - current account deficits
+  - trade balance adjustments
+cssclasses: academia
 ---
 
-# Balance of Payments I: the Gains from Financial Globalization
+# Chapter 17: Balance of Payments I - Gains from Financial Globalization
+
+## Introduction
 
 Save for a rainy day.
 
-Make bay while the sun shines.
+Make hay while the sun shines.
 
 Don't put all your eggs in one basket.
 
-# H
-
-ow does your household cope with economic shocks and the financial
-
-challenges they pose? Let's take an extreme example. Suppose you are self-employed and own a business. A severe storm appears and a flood overwhelms your town. This is bad news on several fronts. As people recover from the disaster, businesses, including yours, suffer and your income is lower for several months. If your business premises are damaged, you must also plan to make new investments to repair the damage.
+How does your household cope with economic shocks and the financial challenges they pose? Let's take an extreme example. Suppose you are self-employed and own a business. A severe storm appears and a flood overwhelms your town. This is bad news on several fronts. As people recover from the disaster, businesses, including yours, suffer and your income is lower for several months. If your business premises are damaged, you must also plan to make new investments to repair the damage.
 
 If you have no financial dealings with anyone, your household, as a little closed economy, faces a difficult trade-off as your income falls. Your household income has to equal its consumption plus investment. Would you try to maintain your level of consumption, and neglect the need to invest? Or would you invest, and let your household suffer as you cut back drastically on consumption? Faced with an emergency like this, most of us look for help beyond our own household, if we can: we might hope for transfers (gifts from friends and family, or emergency relief payments from the government or a charity), or we might rely on financial markets (dip into savings, apply for a loan, rely on an insurance payout, etc.).
 
-What does this story have to do with international economics? If we redraw the boundaries of this experiment and expand from the household unit, to the local, regional, and finally national level, the same logic applies. Countries face shocks all the time, and how they are able cope with them depends on whether they are open or closed to economic interactions with other nations.
+What does this story have to do with international economics? If we redraw the boundaries of this experiment and expand from the household unit, to the local, regional, and finally national level, the same logic applies. Countries face shocks all the time, and how they can cope with them depends on whether they are open or closed to economic interactions with other nations.
 
-1 The Limits on How Much a Country Can Borrow: The Long-Run Budget Constraint
-2 Gains from Consumption Smoothing
-3 Gains from Efficient Investment
-4 Gains from Diversification of Risk
-5 Conclusions
+## 1 The Limits on How Much a Country Can Borrow: The Long-Run Budget Constraint
 
 To get a sense of how countries can deal with shocks, we can look at data from Caribbean and Central American countries that have faced the same kinds of shock as the household we just described. Every year many tropical storms, some of them of hurricane strength, sweep through this region. The storms are large—hundreds of miles across—and most countries in the region are much smaller in size, some no more than little islets. For them, a hurricane is the town flood blown up to a national scale. The worst storms cause widespread destruction and loss of life.
 
-Hurricanes are tragic human events, but they provide an opportunity for research. Economists study them because such an "act of God"—in economics jargon, a "natural experiment"—provides a laboratory-like test of economic theory. Figure 17-1 shows the average macroeconomic response in these countries after they were hit by a hurricane. In the aftermath, these countries do some of the things we would expect households to do: accept nonmarket gifts (transfers from foreign countries) and borrow (by running a current account deficit). If we subtract nonmarket transfers and examine market behavior alone, the patterns are striking. As a fraction of GDP, investment is typically  $ 3\% $ to $ 6\% $ higher than normal in the three years after a hurricane, and saving is $ 1\% $ to $ 5\% $ lower (excluding transfers). Combining the two effects, the current account (saving minus investment) falls dramatically and is $ 6\% $ to $ 10\% $  more in deficit than normal.
+Hurricanes are tragic human events, but they provide an opportunity for research. Economists study them because such an "act of God"—in economics jargon, a "natural experiment"—provides a laboratory-like test of economic theory. Figure 17-1 shows the average macroeconomic response in these countries after they were hit by a hurricane. In the aftermath, these countries do some of the things we would expect households to do: accept nonmarket gifts (transfers from foreign countries) and borrow (by running a current account deficit). If we subtract nonmarket transfers and examine market behavior alone, the patterns are striking. As a fraction of GDP, investment is typically $3\%$ to $6\%$ higher than normal in the three years after a hurricane, and saving is $1\%$ to $5\%$ lower (excluding transfers). Combining the two effects, the current account (saving minus investment) falls dramatically and is $6\%$ to $10\%$ more in deficit than normal.
 
 Hurricanes are extreme examples of economic shocks. They are not representative of the normal fluctuations that countries experience, but the size and randomness of the hurricanes allow us to look at the nations' macroeconomic responses to such a shock. These responses illustrate some of the financial mechanisms that help open economies cope with all types of shocks, large and small, natural or human in origin.
 
@@ -61,13 +49,13 @@ In this chapter, we see how financially open economies can, in theory, reap gain
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/bef0533ac8b8193c1a47acb44689bb20f8d32798b5d76714d824b974d6803b7d.jpg)
 FIGURE 17-1
 
-# The Macroeconomics Of
+### The Macroeconomics of Hurricanes
 
-Hurricanes The figure shows the average response (excluding transfers) of investment, saving, and the current account in a sample of Caribbean and Central American countries in the years during and after severe hurricane damage. The responses are as expected: investment rises (to rebuild) and saving falls (to limit the fall in consumption); hence, the current account moves sharply toward deficit.
+The figure shows the average response (excluding transfers) of investment, saving, and the current account in a sample of Caribbean and Central American countries in the years during and after severe hurricane damage. The responses are as expected: investment rises (to rebuild) and saving falls (to limit the fall in consumption); hence, the current account moves sharply toward deficit.
 
-Note: Transfers are excluded from saving and the current account, and the saving measure is calculated as  $ S - \text{NUT} = I + CA - \text{NUT} $ .
+**Note:** Transfers are excluded from saving and the current account, and the saving measure is calculated as $S - \text{NUT} = I + CA - \text{NUT}$.
 
-Source: John C. Bluehorn, 2005, "Hurricanes: Intertemporal Trade and Capital Shocks," Oxford Economics Working Paper No. 2005-241.
+**Source:** John C. Bluehorn, 2005, "Hurricanes: Intertemporal Trade and Capital Shocks," Oxford Economics Working Paper No. 2005-241.
 
 ■ consumption smoothing (steadying consumption when income fluctuates);
 ■ efficient investment (borrowing to build a productive capital stock); and
@@ -75,10 +63,7 @@ Source: John C. Bluehorn, 2005, "Hurricanes: Intertemporal Trade and Capital Sho
 
 Along the way, we look at how well the theoretical gains from financial globalization translate into reality (an area of some dispute among economists) and find that many of these gains have yet to be realized. In advanced countries, the gains from financial globalization are often large and more attainable, but in poorer countries the gains may be smaller and harder to realize. We want to understand why these differences exist, and what risks may arise for poor countries that attempt to capture the gains from financial globalization.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/afac9ad42d317ae8a68e02cfa1bf6a021752952aecb6fdaed7ec6481e2dafb6b.jpg)
-NOAA/Satellite and Information Service
-
-# 1 the Limits on How Much a Country Can Borrow: the Long-run Budget Constraint
+## 1 The Limits on How Much a Country Can Borrow: The Long-Run Budget Constraint
 
 Our introductory examples show how borrowing can help countries (like households) better cope with shocks. But, also like households, there is a limit to how much a country can borrow (or, how much lenders will lend). Understanding the constraints on how countries might borrow and lend to each other is our critical first task in this chapter. With this understanding we can then examine how financial globalization shapes the economic choices available to a country as economic conditions change over time. The ability to borrow in times of need and lend in times of prosperity has profound effects on a country's well-being.
 
@@ -98,35 +83,41 @@ Case 2 A debt that is not serviced. You pay neither interest nor principal but a
 
 Case 2 is not sustainable. If the bank allows it, your debt level will explode to infinity as it grows by  $ 10\% $  every year forever. This case, sometimes called a rollover scheme, a pyramid scheme, or a Ponzi game, illustrates the limits or constraints on the use of borrowing, which implies negative external wealth. In the long run, lenders will simply not allow the debt to grow beyond a certain point. Debts must be paid off eventually. This requirement is the essence of the long-run budget constraint.
 
-# How the Long-run Budget Constraint is Determined
+## How the Long-Run Budget Constraint is Determined
 
 As is usual when building an economic model, we start with a basic model that makes a number of simplifying assumptions, but yields lessons that can be extended to more complex cases. Here are the assumptions we make about various conditions that affect our model:
 
 - Prices are perfectly flexible. Under this assumption, all analysis in this chapter can be conducted in terms of real variables, and all monetary aspects of the economy can be ignored. (To adjust for inflation and convert to real terms, we could divide all nominal quantities by an index of prices.)
-The country is a small open economy. The country trades goods and services with the rest of the world through exports and imports and can lend or borrow overseas, but only by issuing or buying debt (bonds). Because it is small, the country cannot influence prices in world markets for goods and services.
-- All debt carries a real interest rate  $ r^* $ , the world real interest rate, which we assume to be constant. Because the country is small, it takes the world real interest rate as given, and we assume it can lend or borrow an unlimited amount at this interest rate.
-- The country pays a real interest rate  $ r^{*} $ on its start-of-period debt liabilities $ L $ and is paid the same interest rate $ r^{*} $ on its start-of-period debt assets $ A $. In any period, the country earns net interest income payments equal to $ r^{*}A $ minus $ r^{*}L $ or, more simply, $ r^{*}W $, where $ W $ is external wealth $ (A - L) $  at the start of the period. External wealth may vary over time.
-- There are no unilateral transfers  $ (NUT = 0) $, no capital transfers $ (KA = 0) $, and no capital gains on external wealth. Under these assumptions, there are only two nonzero items in the current account: the trade balance TB and net factor income from abroad, $ r^{*}W $. If $ r^{*}W $ is positive, the country is earning interest and is a lender/creditor with positive external wealth. If $ r^{*}W $  is negative, the country is paying interest and is a borrower/debtor with negative external wealth.
+- The country is a small open economy. The country trades goods and services with the rest of the world through exports and imports and can lend or borrow overseas, but only by issuing or buying debt (bonds). Because it is small, the country cannot influence prices in world markets for goods and services.
+- All debt carries a real interest rate $r^*$, the world real interest rate, which we assume to be constant. Because the country is small, it takes the world real interest rate as given, and we assume it can lend or borrow an unlimited amount at this interest rate.
+- The country pays a real interest rate $r^{*}$ on its start-of-period debt liabilities $L$ and is paid the same interest rate $r^{*}$ on its start-of-period debt assets $A$. In any period, the country earns net interest income payments equal to $r^{*}A$ minus $r^{*}L$ or, more simply, $r^{*}W$, where $W$ is external wealth $(A - L)$ at the start of the period. External wealth may vary over time.
+- There are no unilateral transfers $(NUT = 0)$, no capital transfers $(KA = 0)$, and no capital gains on external wealth. Under these assumptions, there are only two nonzero items in the current account: the trade balance TB and net factor income from abroad, $r^{*}W$. If $r^{*}W$ is positive, the country is earning interest and is a lender/creditor with positive external wealth. If $r^{*}W$ is negative, the country is paying interest and is a borrower/debtor with negative external wealth.
 
-Calculating the Change in Wealth Each Period In the previous balance of payments chapter, we saw that the change in external wealth equals the sum of three terms: the current account, the capital account, and capital gains on external wealth. In the special case we are studying, our assumptions tell us that the last two terms are zero, and that the current account equals the sum of just two terms: the trade balance  $ TB $ plus any net interest payments $ r^{*}W $  at the world interest rate on the external wealth held at the end of the last period.
+### Calculating the Change in Wealth Each Period
 
-Mathematically, we can write the change in external wealth from end of year  $ N - 1 $ to end of year $ N $ as follows (where subscripts denote periods, here years): $ $
+In the previous balance of payments chapter, we saw that the change in external wealth equals the sum of three terms: the current account, the capital account, and capital gains on external wealth. In the special case we are studying, our assumptions tell us that the last two terms are zero, and that the current account equals the sum of just two terms: the trade balance $TB$ plus any net interest payments $r^{*}W$ at the world interest rate on the external wealth held at the end of the last period.
 
-\Delta W_{N} = \underbrace {W_{N} - W_{N - 1}}_{\text{Ch an ge in ex te rn al}} = \underbrace {T B_{N}}_{\text{Tr ad eb an ce}} + \underbrace {r^{*} W_{N - 1}}_{\text{In te rs tp ai d /r ec ei ve do n}}
+Mathematically, we can write the change in external wealth from end of year $N - 1$ to end of year $N$ as follows (where subscripts denote periods, here years):
 
-$ $
+$$
+\Delta W_{N} = \underbrace{W_{N} - W_{N - 1}}_{\text{Change in external}} = \underbrace{TB_{N}}_{\text{Trade balance}} + \underbrace{r^{*} W_{N - 1}}_{\text{Interest paid/received}}
+$$
+
 In this simplified world, external wealth can change for only two reasons: surpluses or deficits on the trade balance in the current period, or surpluses and deficits on net factor income arising from interest received or paid.
 
-Calculating Future Wealth Levels Now that we have a formula for wealth changes, and assuming we know the initial level of wealth in year  $ N - 1 $ , we can compute the level of wealth at any time in the future by repeated application of the formula.
+### Calculating Future Wealth Levels
 
-To find wealth at the end of year  $ N $, we rearrange the preceding equation: $ $
+Now that we have a formula for wealth changes, and assuming we know the initial level of wealth in year $N - 1$, we can compute the level of wealth at any time in the future by repeated application of the formula.
 
-\underbrace {W_{N}}_{\substack {\text{Externalwealthat} \\ \text{theendofthisperiod}}} = \underbrace {T B_{N}}_{\substack {\text{Tradebalance} \\ \text{thisperiod}}} + \underbrace {(1 + r^{*}) W_{N - 1}}_{\substack {\text{Lastperiod'sexternalwealth} \\ \text{plusinterestpaid/received}}}
+To find wealth at the end of year $N$, we rearrange the preceding equation:
 
-$ $
-This equation presents an important and intuitive result: it shows that wealth at the end of a period is the sum of two terms. The trade balance this period captures the addition to wealth from net exports (exports minus imports). Wealth at the end of last period times  $ (1 + r^{*}) $  captures the wealth from last period plus the interest earned on that wealth. The examples in the following sections will help us understand the changes in a country's external wealth and the role that the trade balance plays here.
+$$
+\underbrace{W_{N}}_{\substack{\text{External wealth at} \\ \text{the end of this period}}} = \underbrace{TB_{N}}_{\substack{\text{Trade balance} \\ \text{this period}}} + \underbrace{(1 + r^{*}) W_{N - 1}}_{\substack{\text{Last period's external wealth} \\ \text{plus interest paid/received}}}
+$$
 
-# The Budget Constraint in a Two-period Example
+This equation presents an important and intuitive result: it shows that wealth at the end of a period is the sum of two terms. The trade balance this period captures the addition to wealth from net exports (exports minus imports). Wealth at the end of last period times $(1 + r^{*})$ captures the wealth from last period plus the interest earned on that wealth. The examples in the following sections will help us understand the changes in a country's external wealth and the role that the trade balance plays here.
+
+### The Budget Constraint in a Two-Period Example
 
 We first put these ideas to work in a simplified two-period example. Suppose we start in year 0, so  $ N = 0 $. Suppose further that a country has some initial external wealth from year $ -1 $  (an inheritance from the past), and can borrow or lend in the present period (year 0). We also impose the following limit: by the end of year 1, the country must pay off what it has borrowed from other countries and must call in all loans it has made to other countries. That is, the country must end year 1 with zero external wealth.
 

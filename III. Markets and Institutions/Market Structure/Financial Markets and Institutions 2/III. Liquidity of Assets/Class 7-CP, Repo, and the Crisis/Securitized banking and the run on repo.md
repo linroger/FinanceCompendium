@@ -1,11 +1,23 @@
 ---
-parent_directory:
 title: Securitized banking and the run on repo
-tags:
-aliases:
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+parent_directory: Class 7-CP, Repo, and the Crisis
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - securitized banking
+  - repo crisis
+  - financial crisis
+  - subprime mortgages
+secondary_tags:
+  - repurchase agreements
+  - asset-backed securities
+  - collateralized debt obligations
+  - counterparty risk
+  - interbank markets
+  - bank runs
+  - systemic risk
+  - liquidity crisis
 cssclasses: academia
 ---
 

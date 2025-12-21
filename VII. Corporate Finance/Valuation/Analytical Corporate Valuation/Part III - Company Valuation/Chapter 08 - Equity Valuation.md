@@ -1,3 +1,21 @@
+---
+title: "Chapter 08 - Equity Valuation"
+parent_directory: Part III - Company Valuation
+formatted: 2025-12-21 12:15:00 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - equity valuation
+  - dividend discount model
+  - free cash flow equity
+secondary_tags:
+  - valuation models
+  - cost of equity
+  - terminal value
+  - growth models
+cssclasses: academia
+---
+
 Abstract Company value is a function of its ability to create positive performance in the future. The value of the company is equal to the current value of expected future cash flows and the cost of capital is used as a discount rate. There are three main variables: (i) Time: the value of the company is strictly related to future performance rather than to past performance; (ii) Cash-flows: the expected future cash-flows from operations and equity; (iii) Cost of capital: it defines the discount rate for expected future cash-flows. In the evaluation process, two perspectives can be used: (i) Equity side, in which the equity value is estimated; (ii) Asset side, in which the enterprise value is estimated. This Chapter focuses on the Equity Valuation, while the next Chapter focuses on the Enterprise Valuation. The Equity Value is estimated on the basis of free cash-flows to equity discounted at the cost of equity.
 
 # 8.1 the General Equation of Value
@@ -22,12 +40,46 @@ $$
 W _ {F} = \sum_ {t = 1} ^ {\infty} \frac {C F _ {t}}{(1 + k) ^ {t}} \tag {8.1}
 $$
 
+```d2
+direction: right
+
+Valuation Fundamentals {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+  style.stroke: "#2e7d32"
+
+  Time: Future Performance {
+    shape: circle
+    style.fill: "#fff3e0"
+  }
+
+  CashFlows: Expected CF {
+    shape: circle
+    style.fill: "#e3f2fd"
+  }
+
+  CostOfCapital: Discount Rate {
+    shape: circle
+    style.fill: "#f3e5f5"
+  }
+
+  CompanyValue: PV of Future CF {
+    shape: rectangle
+    style.fill: "#c8e6c9"
+  }
+
+  Time -> CompanyValue: Drives valuation
+  CashFlows -> CompanyValue: Numerator
+  CostOfCapital -> CompanyValue: Denominator
+}
+```
+
 where:
 
--  $W_{F}$ : is the company's value;
--  $t$ : is the period-time of valuation;
--  $CF_{t}$ : is the expected future cash-flows for each year ( $t$ ). Note that they refer to the expected value of cash-flows but in order to simplify the formalization the operator  $\operatorname{E}[CF_t]$  is not used, by the meaning is the same;
--  $k$ : is the cost of capital used as a discounted rate.
+- $W_{F}$: is the company's value;
+- $t$: is the period-time of valuation;
+- $CF_{t}$: is the expected future cash-flows for each year ($t$). Note that they refer to the expected value of cash-flows but in order to simplify the formalization the operator $\operatorname{E}[CF_t]$ is not used, by the meaning is the same;
+- $k$: is the cost of capital used as a discounted rate.
 
 The Eq. (8.1) has a great theoretical relevance. It estimates the value of the company based on expected cash flows, arising from the fundamental analysis of the company and the cost of capital. Also the equation defines the relationship between company value, the expected cash flow and the cost of capital in the time of valuation: the company's value increases together with an increase in the expected cash flow and decreases together with an increase in the cost of capital.
 
@@ -38,7 +90,7 @@ the valuation time-period;
 
 # Valuation Time-Period
 
-The first problem is the definition of the valuation time-period. In Eq. (8.1) time goes from  $1$  ( $t = 1$ ) to infinite ( $t = n$ ). Therefore, the Eq. (8.1) is not directly applicable. The problem can be solved by dividing the valuation time-period in two conceptual parts:
+The first problem is the definition of the valuation time-period. In Eq. (8.1) time goes from $1$ ($t = 1$) to infinite ($t = n$). Therefore, the Eq. (8.1) is not directly applicable. The problem can be solved by dividing the valuation time-period in two conceptual parts:
 
 - definite time-period: it is the time period of analytic valuation. Generally, this time period is equal to 3 or 5 years on the basis of company characteristics and its market, and it defines the time period of the business plan;
 - indefinite time-period: it is the time period of synthetic valuation. It goes from the end of time-period of analytic valuation to infinity by using the Terminal
@@ -56,7 +108,7 @@ $$
 W _ {F} = \sum_ {t = 1} ^ {n} \frac {C F _ {t}}{(1 + K) ^ {t}} + \frac {T V _ {n}}{(1 + K) ^ {n}} \tag {8.2}
 $$
 
-where  $TV_{n}$  indicates the Terminal Value at the end ( $t = n$ ) of the period of the analytical valuation.
+where $TV_{n}$ indicates the Terminal Value at the end ($t = n$) of the period of the analytical valuation.
 
 Therefore, while the first part of the equation estimates the company value in a given time period (analytic value of the company), the second part of the equation estimates the company value in an indefinite time period by using the Terminal Value (synthetic value of the company).
 
@@ -65,9 +117,7 @@ It is possible to summarize these two different periods on value as follows:
 Company Value  $(\mathrm{W_F}) =$  Present Value of Cash-Flows during the Explicit Forecast Period
 + Present Value of Cash-Flows after the Explicit Forecast Period
 
-Consequently, the Terminal Value plays a key role in the equation. Usually, its weight in the estimation of company value is relevant. If it very much relevant, the entire valuation process can be considered unreliable: the greater the Terminal Value, greater the synthetic valuation and lower the analytic valuation; therefore, much of the estimated value is out of the business plan and, then out of the
-
-company's fundamental analysis. In our perspective the Terminal Value should be less than  $40\%$  of company value.
+Consequently, the Terminal Value plays a key role in the equation. Usually, its weight in the estimation of company value is relevant. If it very much relevant, the entire valuation process can be considered unreliable: the greater the Terminal Value, greater the synthetic valuation and lower the analytic valuation; therefore, much of the estimated value is out of the business plan and, then out of the company's fundamental analysis. In our perspective the Terminal Value should be less than $40\%$ of company value.
 
 The Terminal Value estimation, on the basis of the ongoing concern approach, can be estimated on the basis of two main techniques (Damodaran 2012):
 
@@ -80,12 +130,12 @@ $$
 
 # Where:
 
--  $t + 1$ : is the first year after the end-time of analytic valuation;
--  $CF$ : is the future normalized expected cash-flow from the first year after the end-time of analytic valuation;
--  $K$ : is the cost of capital;
-$g_{n}$  : is the stable growth rate.
+- $t + 1$: is the first year after the end-time of analytic valuation;
+- $CF$: is the future normalized expected cash-flow from the first year after the end-time of analytic valuation;
+- $K$: is the cost of capital;
+$g_{n}$: is the stable growth rate.
 
-In the Terminal Value equation, there are two main problems: (i) estimation of the stable growth rate  $\left(g_{n}\right)$  and (ii) the normalized value of the expected cash-flows in perpetuity. Small changes in these value can change the Terminal Value significantly and therefore the company value.
+In the Terminal Value equation, there are two main problems: (i) estimation of the stable growth rate $\left(g_{n}\right)$ and (ii) the normalized value of the expected cash-flows in perpetuity. Small changes in these value can change the Terminal Value significantly and therefore the company value.
 
 The assumption that the stable growth rate is constant in perpetuity requires strong restrictions about its estimation. Specifically, three main caveats should be kept in mind (Damodaran 2012):
 
@@ -410,7 +460,7 @@ $$
 P _ {0} = \frac {\text {D i v} _ {1}}{K _ {E} - r b} \tag {8.20}
 $$
 
-And in terms of expected returns of investors' in equity  $r_E$ , we have:
+And in terms of expected returns of investors' in equity $r_E$, we have:
 
 # 8.2 Dividend Discount Model
 
@@ -450,15 +500,13 @@ $$
 
 The Eq. (8.22) shows that (Elton and Gruber 1976; Elton et al. 2013):
 
-- if there are no extraordinary investment opportunities,  $\alpha = 1$  and consequently the Eq. (8.22) becomes  $r_{E} = E_{1} / P_{0}$ . Therefore, the Equity-holder requires the inverse of Price-Earnings ratio.
-- if there are extraordinary investment opportunities,  $\alpha > 1$  and consequently the Eq. (8.22) implies that investment opportunities are expected to offer a return above the one required by the Equity holders.
+- if there are no extraordinary investment opportunities, $\alpha = 1$ and consequently the Eq. (8.22) becomes $r_{E} = E_{1} / P_{0}$. Therefore, the Equity-holder requires the inverse of Price-Earnings ratio.
+- if there are extraordinary investment opportunities, $\alpha > 1$ and consequently the Eq. (8.22) implies that investment opportunities are expected to offer a return above the one required by the Equity holders.
 
 The C-DDM is simple but its utility is limited. The main caveats to keep in mind are the following (Elton et al. 2013; Damodaran 2012):
 
 - first, the model requires an estimation of the dividends of the following year, the company's growth rate in perpetuity and the rate of return required by the Equity holder for holding the stock;
-- second, the model can be used with some utility only by the companies characterised by a stable growth rate. Specifically, the model can be useful for the companies with a growth rate in line or lower than the nominal growth rate in
-
-the economy and with a well-established dividend payout policy over time to be continuous in the future;
+- second, the model can be used with some utility only by the companies characterised by a stable growth rate. Specifically, the model can be useful for the companies with a growth rate in line or lower than the nominal growth rate in the economy and with a well-established dividend payout policy over time to be continuous in the future;
 
 - third, since the growth rate in dividends is expected to last forever, the other measures of the company's performances (revenues, costs, and earnings) are expected to grow at the same rate. It can generate a trade-off because the growth is not free: when the growth rate is increased, the payout ratio should be decreased in order to increase self-financing. Therefore, there is a trade-off on growth with the net effect on increasing growth being positive, neutral or even negative. Therefore, the model underestimates the company with the self-financing process. In this case the earnings are used to self-finance the company with a reduction in dividends;
 - fourth, the growth rate of the stable growth has to be less than or equal to the growth rate of the markets referenced. It is unreasonable to assume that the company can grow at a rate greater than the growth rate of the referenced market in the long-term.
@@ -467,16 +515,14 @@ the economy and with a well-established dividend payout policy over time to be c
 
 The Two-Stage Growth DDM (2S-DDM) (Malkiel 1963; Fuller and Hsia 1984), also called Two-Period Growth Model, is based on two stages of growth:
 
-- extraordinary growth period: it is the first period of the growth rate of dividend that cannot be considered stable over time. In this period it lasts in the first  $n$  years ( $t = 1 \rightarrow t = n$ ) the growth rate of dividend can be higher or lower than the stable growth rate. The term "extraordinary" is used because the growth rate of dividend in this first period can be greater or lower than the second period;
-- steady-state growth period: it is the second period growth rate of dividend and is assumed stable over time. In this second period ( $t = n + 1 \to t = \infty$ ) the growth rate of dividend is assumed stable over time.
+- extraordinary growth period: it is the first period of the growth rate of dividend that cannot be considered stable over time. In this period it lasts in the first $n$ years ($t = 1 \rightarrow t = n$) the growth rate of dividend can be higher or lower than the stable growth rate. The term "extraordinary" is used because the growth rate of dividend in this first period can be greater or lower than the second period;
+- steady-state growth period: it is the second period growth rate of dividend and is assumed stable over time. In this second period ($t = n + 1 \to t = \infty$) the growth rate of dividend is assumed stable over time.
 
 It is reasonable to assume two periods of growth. Indeed, after some years (3, 5, 8 years) it is difficult to make assumptions on future growth. Therefore, after some years, it is reasonable to assume that company will grow with a constant growth rate.
 
-Assume that the length of the first period is equal  $n$  years. In this first period, the extraordinary (good or bad) growth rate is equal to  $g_{e}$  while in the second period the stable growth rate is equal to  $g_{n}$ . Denoting with  $P_{N}$  the price at the end of  $n$ -periods and then the price of stock in the second period. In both periods, the discount rate is the Cost of Equity  $(K_{E})$ . Denoting with  $K_{E,eg}$  the cost of equity in the first period (extraordinary growth) and with  $K_{E,st}$  the cost of equity in the second period (constant growth). It is possible to assume that they are equal among them so that  $K_{E,st} = K_{E,eg}$ .
+Assume that the length of the first period is equal $n$ years. In this first period, the extraordinary (good or bad) growth rate is equal to $g_{e}$ while in the second period the stable growth rate is equal to $g_{n}$. Denoting with $P_{N}$ the price at the end of $n$-periods and then the price of stock in the second period. In both periods, the discount rate is the Cost of Equity $(K_{E})$. Denoting with $K_{E,eg}$ the cost of equity in the first period (extraordinary growth) and with $K_{E,st}$ the cost of equity in the second period (constant growth). It is possible to assume that they are equal among them so that $K_{E,st} = K_{E,eg}$.
 
-The current stock Price  $(P_0)$  can be estimated as follows (Elton et al. 2013):
-
-# 8.2 Dividend Discount Model
+The current stock Price $(P_0)$ can be estimated as follows (Elton et al. 2013):
 
 $$
 P _ {0} = \left[ \frac {D i v _ {1}}{\left(1 + K _ {E , e g}\right)} + \frac {D i v _ {1} \left(1 + g _ {e}\right)}{\left(1 + K _ {E , e g}\right) ^ {2}} + \frac {D i v _ {1} \left(1 + g _ {e}\right) ^ {2}}{\left(1 + K _ {E , e g}\right) ^ {3}} + \dots + \frac {D i v _ {1} \left(1 + g _ {e}\right) ^ {n - 1}}{\left(1 + K _ {E , e g}\right) ^ {n}} \right] + \frac {P _ {n}}{\left(1 + K _ {E , s t}\right) ^ {n}}
@@ -866,7 +912,7 @@ The Eq. (8.40) estimates the Equity Value on the basis of two parts:
 - the first part, is the present value of the expected FCFE estimated in the first period for each year. Therefore, it is an analytical valuation;
 - the second part, is the present value of expected Terminal Value estimated in the second period from the end of the first period in perpetuity. Therefore, it is a synthetic valuation.
 
-The Cost of Equity  $(K_{E})$  used to discount both the expected FCFE and Terminal Value, may be the same in the two periods.
+The Cost of Equity $(K_{E})$ used to discount both the expected FCFE and Terminal Value, may be the same in the two periods.
 
 # Three-Stage Edm
 
@@ -876,7 +922,7 @@ The Three-Stage EDM (3S-EDM) can be used to evaluate companies characterized by 
 - transitional growth period: it is the second period and it is characterized by a declining or increasing growth rate to reach a stable level;
 - steady-state growth period: it is the third period and it is characterized by a steady-state growth rate.
 
-The Equity Value is equal to the sum of present values of expected FCFE in a high or low growth period (first period), transaction period (second period) and steady-state period (third period) (Damodaran 2012). By considering the extraordinary growth rate  $(g_{a})$ , transitional growth rate  $(g_{tr})$  and the steady-state growth rate  $(g_{n})$  and the cost of equity  $(K_{E})$  in the first period  $(K_{E,eg})$ , second period  $(K_{E,tr})$  and third period  $(K_{E,st})$ , the Equity Value  $(W_{E})$  is equal to:
+The Equity Value is equal to the sum of present values of expected FCFE in a high or low growth period (first period), transaction period (second period) and steady-state period (third period) (Damodaran 2012). By considering the extraordinary growth rate $(g_{a})$, transitional growth rate $(g_{tr})$ and the steady-state growth rate $(g_{n})$ and the cost of equity $(K_{E})$ in the first period $(K_{E,eg})$, second period $(K_{E,tr})$ and third period $(K_{E,st})$, the Equity Value $(W_{E})$ is equal to:
 
 $$
 W _ {E} = \sum_ {t = 1} ^ {n} \frac {F C F E _ {t}}{\left(1 + K _ {E , e g}\right) ^ {t}} + \sum_ {t = n + 1} ^ {m} \frac {F C F E _ {t}}{\left(1 + K _ {E , t r}\right) ^ {t}} + \frac {T V _ {m}}{\left(1 + K _ {E , s t}\right) ^ {m}} \tag {8.41}

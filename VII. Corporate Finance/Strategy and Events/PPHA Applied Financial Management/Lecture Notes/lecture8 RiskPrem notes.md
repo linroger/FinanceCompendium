@@ -1,13 +1,24 @@
 ---
-parent_directory:
 title: Risk Premium & Risk-Adjusted Discounting in Practice
-tags:
-aliases:
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+parent_directory: Lecture Notes
+formatted: 2025-12-21 11:50:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - risk adjusted discounting
+  - credit spreads
+  - bankruptcy default
+  - credit ratings
+  - risk neutral valuation
+secondary_tags:
+  - market risk premium
+  - bond valuation
+  - default probability
+  - sovereign default
+  - corporate bonds
+  - callable bonds
+  - indenture provisions
 cssclasses: academia
-linter-yaml-title-alias: Risk Premium & Risk-Adjusted Discounting in Practice
 ---
 
 # Risk Premium & Risk-Adjusted Discounting in Practice
@@ -18,25 +29,28 @@ Thomas S. Coleman
 
 12 April 2022; Draft April 17, 2023
 
-# Outline
+### Outline
 
-# Contents
+## Contents
 
-1 Risk-Adjusted Discounting in Practice 1
+## 1 Risk-Adjusted Discounting in Practice
 
-1.1 Where Do We Get Risk-Premium? (notes) 1  
-1.2 Bankruptcy & Default (notes, BKM 14.5) 5  
-1.3 Credit Spreads - Market Measure of Default Uncertainty - Revisit Sovereign Default 9  
-1.4 Credit ratings (BMA 23.3 (custom Ch 8)) 13
+### 1.1 Where Do We Get Risk-Premium? (notes)  
+### 1.2 Bankruptcy & Default (notes, BKM 14.5)
 
-2 Risk-Neutral Valuation: Adjust Probabilities - Introduction to Options 16  
-3 Corporate Bonds (Sharpe 14.6) 18
+### 1.3 Credit Spreads - Market Measure of Default Uncertainty - Revisit Sovereign Default
 
-# 1 Risk-Adjusted Discounting in Practice
+### 1.4 Credit ratings (BMA 23.3 (custom Ch 8))
 
-# 1.1 Where Do We Get Risk-Premium? (notes)
+## 2 Risk-Neutral Valuation: Adjust Probabilities - Introduction to Options
 
-# Contents
+## 3 Corporate Bonds (Sharpe 14.6)
+
+## 1 Risk-Adjusted Discounting in Practice
+
+### 1.1 Where Do We Get Risk-Premium? (notes)
+
+#### Contents
 
 Calculating Risk Premium Seems Complicated
 
@@ -58,7 +72,7 @@ $$
 C E = p \cdot C F _ {a d j} ^ {t o} + (1 - p) \cdot C F _ {a d j} ^ {h i}
 $$
 
-Write the adjustment as a ratio  $1 / (1 + \mathrm{rp})$ $CE = \frac{1}{1 + rp}\left[p\cdot CF_{orig}^{lo} + (1 - p)\cdot CF_{orig}^{hi}\right] = \frac{CF_{orig}^{avg}}{1 + rp}$  
+Write the adjustment as a ratio $1/(1 + \mathrm{rp})$: $CE = \frac{1}{1 + rp}[p \cdot CF_{orig}^{lo} + (1 - p) \cdot CF_{orig}^{hi}] = \frac{CF_{orig}^{avg}}{1 + rp}$  
 
 - Apply the adjustment and discounting together to end at risk-adjusted discounting
 
