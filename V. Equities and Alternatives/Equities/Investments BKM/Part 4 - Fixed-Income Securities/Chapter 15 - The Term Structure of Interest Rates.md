@@ -459,10 +459,6 @@ A: Forward Rate = 7.01\%
 
 B: For a General Forward Rate. The short rates in the two periods are  $r_1$  (which is observable today) and  $r_2$  (which is not). The rate that can be locked in for a one-period-ahead loan is  $f_2$ .
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/13a9be5b0f0842f23fce93b507a53204d8f693a1a3df7e52ebb325f333a5cd15.jpg)
-Figure 15.7 Engineering a synthetic forward loan
-
-
 # Concept Check 15.9
 
 Continuing Example 15.7, now suppose that the price of 3-year zero-coupon bonds is 816.30. What is the forward rate for the third year? How would you construct a synthetic 1-year forward loan that commences at  t = 2  and matures at  t = 3 ?

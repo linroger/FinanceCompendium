@@ -1,79 +1,51 @@
 ---
-aliases:
-- Secondary Markets
-tags: null
-key_concepts: null
-parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
-cssclasses: academia
-title: 'Chapter 18: Secondary Markets'
-linter-yaml-title-alias: 'Chapter 18: Secondary Markets'
+title: "Chapter 18: Secondary Markets"
+parent_directory: "II. Economics/International/Foundations of Global Financial Markets"
+formatted: "2025-12-21 03:00:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
-- secondary market issuer asset
-- selling market timing cost
-- perfect market characteristics short
-- pricing efficiency refers market
-- executed market price efficient
+   - secondary markets
+   - market efficiency
+   - order driven markets
+   - quote driven markets
+   - short selling
 secondary_tags:
-- characteristics secondary markets
-- term efficient capital market
-- function securities markets explain
-- importance financial markets theoretical
-- internally efficient market
-- markets contents learning
-- market brokers necessary role
-- capital market distinction operationally
-- operating characteristics capital market
-- pricing efficiency market participants
-- order driven market structure
-- markets later chapters function
-tags_extracted: '2025-12-18T00:20:45.275968'
+   - market makers
+   - bid ask spread
+   - operational efficiency
+   - pricing efficiency
+   - electronic trading
+   - perfect market characteristics
+   - broker dealer roles
+   - trading mechanisms
+   - capital market theory
+   - financial market structure
+   - continuous call markets
+   - auction market structures
+   - dealer market roles
+   - short selling mechanics
+   - market friction analysis
+cssclasses: academia
 ---
 
-# 18
+# Chapter 18: Secondary Markets
 
-# Secondary Markets
+# Contents
 
-# CONTENTS
-
-Learning Objectives
-
-Function of Secondary Markets
-
-Architectural Structure of Secondary Markets
-
-Potential Parties to a Trade
-
-Order-Driven Markets and Quote-Driven Markets
-
-Types of Order-Driven Markets
-
-Trading Locations
-
-Theoretically Perfect Market Characteristics
-
-Short Selling and Its Importance in Financial Markets
-
-Theoretical and empirical rationales for short selling
-
-Mechanics of short selling
-
-Role of Brokers and Dealers in Real Markets
-
-Brokers
-
-Dealers as Market Makers
-
-Market Efficiency
-
-Operational Efficiency
-
-Pricing Efficiency
-
-Electronic Trading
-
-Key Points
-
-Questions
+- Learning Objectives
+- Function of Secondary Markets
+- Architectural Structure of Secondary Markets
+- Potential Parties to a Trade
+- Order-Driven Markets and Quote-Driven Markets
+- Types of Order-Driven Markets
+- Trading Locations
+- Theoretically Perfect Market Characteristics
+- Short Selling and Its Importance in Financial Markets
+- Role of Brokers and Dealers in Real Markets
+- Market Efficiency
+- Electronic Trading
+- Key Points
 
 Learning Objectives
 
@@ -97,7 +69,7 @@ In chapter 1, we described the various functions of financial markets. We noted 
 
 In this chapter, we explain the various features of secondary markets. These features are common to the trading of any type of financial instrument. We take a closer look at individual markets in later chapters.
 
-# Function of Secondary Markets
+## Function of Secondary Markets
 
 It is worthwhile to review once again the function of secondary markets. In the secondary market, an issuer of securities—whether it is a corporation or a governmental unit—can obtain regular information about the value of the asset. The periodic trading of the asset reveals to the issuer the consensus price that the asset commands in an open market. Thus, firms can discover what value investors attach to their stocks, and firms or noncorporate issuers can observe the prices of their bonds and the implied interest rates investors expect and demand from them. Such information helps issuers assess how well they are using the funds acquired from earlier primary market activities, and it also indicates how receptive investors would be to new offerings.
 
@@ -105,11 +77,45 @@ The other service that a secondary market offers issuers is the opportunity for 
 
 Investors in financial assets receive several benefits from a secondary market. Such a market obviously offers them liquidity for their assets as well as information about the assets' fair or consensus values. Furthermore, secondary markets bring together many interested parties and thereby reduce the costs of searching for likely buyers and sellers of assets. Moreover, by accommodating many trades, secondary markets keep the cost of transactions low. By keeping the costs of both searching and transacting low, secondary markets encourage investors to purchase financial assets.
 
-# Architectural Structure of Secondary Markets
+## Architectural Structure of Secondary Markets
 
 Different architectural structures can be used when establishing a secondary market for a financial asset. The two general architectural structures are order-driven and quote-driven markets. Real-world financial markets use a blend of these structures for different types of financial assets. To understand the difference between an order-driven and a quote-driven market, we must make clear who the potential parties are.
 
+```d2
+direction: right
+
+order_driven: Order-Driven Market {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
+
+quote_driven: Quote-Driven Market {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+}
+
+natural_buyers: Natural Buyers
+natural_sellers: Natural Sellers
+
+natural_buyers -> order_driven: Buy Orders
+natural_sellers -> order_driven: Sell Orders
+
+dealer: Dealer
+
+dealer -> quote_driven: Quotes (Bid/Ask)
+
+order_driven -> price: Clearing Price
+quote_driven -> price: Dealer Price
+
+price: Market Price {
+  shape: circle
+  style.fill: "#c8e6c9"
+}
+```
+
 The potential parties to a trade include (1) natural buyers, (2) natural sellers, (3) brokers, and (4) dealers. The natural buyers and natural sellers want to take a position for their own portfolios. They can be retail investors or institutional investors.
+
+### Potential Parties to a Trade
 
 A broker is a third party in a trade that acts on behalf of a buyer or seller who wishes to execute an order. In economic and legal terms, a broker is said to be an "agent" of one of the parties to the trade. The brokerage activity does not require the broker to buy and hold in inventory or sell from inventory the financial asset that is the subject of the trade. Instead the broker receives, transmits, and executes a customer's orders. In exchange for this service, the broker receives an explicit commission.
 
@@ -117,13 +123,13 @@ A dealer is an entity that acts as an intermediary in a trade by buying and sell
 
 A special type of dealer is called a market maker. This term describes a dealer that has a special obligation in the secondary market. That special obligation is to use its capital to make an orderly market for designated financial assets.
 
-Order-Driven Markets and Quote-Driven Markets
+### Order-Driven Markets and Quote-Driven Markets
 
 Now let's explore what is meant by an "order-driven market" and a "quoted-driven market." The difference is based on how trading takes place and how the price is determined. In its purest sense, an order-driven market is one in which all of the participants in the trade are natural buyers and natural sellers—no dealer is acting as an intermediary. The clearing price is determined by the flow of buy and sell orders. Another term used to describe an order-driven market is an auction market.
 
 In a quote-driven market, rather than the price being determined by the interaction of natural buyers and natural sellers, it is determined by the dealer and is based on prevailing market information. The dealer then stands ready to buy and sell a financial asset at the prices it quotes. Because of the role played by the dealer in a quote-driven market, this market structure is also is also referred to as a dealer market or dealership market.
 
-Types of Order-Driven Markets
+#### Types of Order-Driven Markets
 
 An order-driven market can be further classified as a continuous order-driven market or a periodic call auction.
 
@@ -133,7 +139,7 @@ The other type of order-driven market structure is the periodic call auction, in
 
 In a price scan auction, an auctioneer announces tentative prices and the participants physically present respond indicating how much they would be willing to buy and sell at each tentative price. The market-clearing price is then determined by the price that will balance the buy and sell orders. In a sealed bid/ask auction, the bid price/ask price and the quantities a participant is willing to transact are submitted. Information about the order of a party who participates in the auction is not disclosed to the other participants involved in the auction. Buy and sell orders are then cumulated by price: from the highest bid price to the lowest bid price for buyers and from the lowest ask price to the highest ask price for sellers. The market-clearing price is the price at which the cumulated buy orders equal the cumulated sell orders.
 
-# Trading Locations
+## Trading Locations
 
 In chapter 22, we describe the different types of trading venues for stocks, bonds, and derivative instruments. Trading venues can be divided into exchanges, over-the-counter (OTC) markets, and off-exchange markets, which mean trading venues that are not exchanges or OTC. Here we briefly describe the first two venues.
 
@@ -145,7 +151,7 @@ Trading in the OTC market is done by geographically dispersed traders linked to 
 
 The architectural structure of an exchange market can be either order driven or quote driven. The New York Stock Exchange (NYSE) is an order-driven market and is a hybrid continuous order-driven/periodic call auction market. In contrast, the Nasdaq is an exchange that is a quote-driven market but has an element of an order-driven market. This is because the opening of the Nasdaq is a periodic call auction. All OTC markets are quote-driven markets.
 
-# Theoretically Perfect Market Characteristics
+## Theoretically Perfect Market Characteristics
 
 To explain the ideal characteristics of secondary markets, we first describe a perfect market for a financial asset. Then we can show how common occurrences in real markets keep them from being theoretically perfect.
 
@@ -162,7 +168,7 @@ In the case of financial markets, frictions include:
 - restrictions on market makers; and
 - halts to trading that may be imposed by regulators where the financial asset is traded.
 
-Short Selling and Its Importance in Financial Markets
+## Short Selling and Its Importance in Financial Markets
 
 An investor who expects the price of a security to increase can benefit from buying that security. However, suppose that an investor expects the price of a security to decline and wants to benefit if the price actually does decline. What can the investor do? The investor may be able to sell the security without owning it. Various institutional arrangements allow an investor to borrow securities so that the borrowed security can be delivered to satisfy the sale.
 
@@ -172,27 +178,25 @@ The ability of investors to sell short is an important mechanism in financial ma
 
 Below we first explain the importance of a having a mechanism for selling short to the functioning of financial markets and then describe the mechanics of short selling.
 
-Theoretical and empirical rationales for short selling Let's first look at the theoretical arguments in favor of short selling. When restrictions are imposed on short selling a security, the price of that security is then set by the most optimistic investors. There are limited trading opportunities for investors who are less optimistic about the issuer's future prospects, which impacts the security's future price. For those investors who are less optimistic about the security's price, in the absence of (or restrictions on) short selling, they would have to sell their holdings. The result is potential overpricing of some securities. The opportunity to short sell such overpriced securities is exploitable only when the overpricing is due to factors that are likely to be revealed in the relatively near future.
+#### Theoretical and empirical rationales for short selling Let's first look at the theoretical arguments in favor of short selling. When restrictions are imposed on short selling a security, the price of that security is then set by the most optimistic investors. There are limited trading opportunities for investors who are less optimistic about the issuer's future prospects, which impacts the security's future price. For those investors who are less optimistic about the security's price, in the absence of (or restrictions on) short selling, they would have to sell their holdings. The result is potential overpricing of some securities. The opportunity to short sell such overpriced securities is exploitable only when the overpricing is due to factors that are likely to be revealed in the relatively near future.
 
 Edward Miller builds on this principle by arguing that a substantial divergence of investor opinion about a stock implies a negative expected return. This is because restrictions on short selling prevent unfavorable opinions from being fully reflected in stock prices. Therefore, with restricted short selling, divergence of opinion tends to raise prices, and profits can be improved by avoiding securities with a high divergence of opinion, especially those that analysts disagree about. Miller further demonstrates that because risk correlates with divergence of opinion, the return to risk is less than what investors would otherwise require. This reasoning led Miller to suggest that typical investors should overweight the less risky stocks in their portfolio.
 
 The description of the short selling of common stock in chapter 23 shows that in real-world markets, constraints are imposed on investors who want to sell short. These constraints include transaction costs and the legal and institutional constraints. When such constraints are imposed on certain securities, these securities can be overpriced and thus have low future returns until the overpricing is corrected. Focusing on stocks, Lamont and Jones provide empirical evidence of such overpricing by showing that stocks with high short-sale constraints tend to experience particularly low returns in the future. They also present specific cases where extremely high short-sale constraints led to extremely high prices.
 
-Mechanics of short selling To illustrate short selling with an example, suppose Ms. Stokes believes that Wilson Pharmaceuticals common stock is overpriced at \$20 per share and wants to be in a position to benefit if her assessment is correct. Ms. Stokes calls her broker, Mr. Yats, indicating that she wants to sell 100 shares of Wilson Pharmaceuticals. Mr. Yats will do two things: sell 100 shares of Wilson Pharmaceuticals on behalf of Ms. Stokes, and arrange to borrow 100 shares of that stock. Suppose that Mr. Yats is able to sell the stock for \$20 per share and arrange to borrow the stock from Mr. Jordan. The shares borrowed from Mr. Jordan will be delivered to the buyer of the 100 shares. The proceeds from the sale (ignoring commissions) will be 2,000. However, the proceeds will not be given to Ms. Stokes, because she has not given her broker the 100 shares.
+#### Mechanics of short selling To illustrate short selling with an example, suppose Ms. Stokes believes that Wilson Pharmaceuticals common stock is overpriced at \$20 per share and wants to be in a position to benefit if her assessment is correct. Ms. Stokes calls her broker, Mr. Yats, indicating that she wants to sell 100 shares of Wilson Pharmaceuticals. Mr. Yats will do two things: sell 100 shares of Wilson Pharmaceuticals on behalf of Ms. Stokes, and arrange to borrow 100 shares of that stock. Suppose that Mr. Yats is able to sell the stock for \$20 per share and arrange to borrow the stock from Mr. Jordan. The shares borrowed from Mr. Jordan will be delivered to the buyer of the 100 shares. The proceeds from the sale (ignoring commissions) will be 2,000. However, the proceeds will not be given to Ms. Stokes, because she has not given her broker the 100 shares.
 
-Now, suppose that one week later, the price of Wilson Pharmaceuticals stock declines to  \$15 per share. Ms. Stokes may instruct her broker to buy 100 shares of Wilson Pharmaceuticals. The cost of buying the shares (once again ignoring commissions) is\$ 1,500. The shares purchased are then delivered to Mr. Jordan, who loaned the original 100 shares to Ms. Stokes. At this point, Ms. Stokes has sold 100 shares and bought 100 shares, so she no longer has any obligation to her broker or to Mr. Jordan—she has "covered her short position". She is entitled to the funds in her account that were generated by the selling and buying activity. She sold the stock for
+Now, suppose that one week later, the price of Wilson Pharmaceuticals stock declines to \$15 per share. Ms. Stokes may instruct her broker to buy 100 shares of Wilson Pharmaceuticals. The cost of buying the shares (once again ignoring commissions) is \$1,500. The shares purchased are then delivered to Mr. Jordan, who loaned the original 100 shares to Ms. Stokes. At this point, Ms. Stokes has sold 100 shares and bought 100 shares, so she no longer has any obligation to her broker or to Mr. Jordan—she has "covered her short position". She is entitled to the funds in her account that were generated by the selling and buying activity. She sold the stock for \$2,000 and bought it for \$1,500. Thus, she realizes a profit of \$500 before commissions and fees. The broker's commission and a fee charged by the lender of the stock are then subtracted from the \$500. Furthermore, if any dividends were paid by Wilson Pharmaceuticals while the stock was borrowed, Ms. Stokes must return them to Mr. Jordan, who still owned the stock at the time.
 
-\$2,000 and bought it for\$ 1,500. Thus, she realizes a profit of  \$500 before commissions and fees. The broker's commission and a fee charged by the lender of the stock are then subtracted from the\$ 500. Furthermore, if any dividends were paid by Wilson Pharmaceuticals while the stock was borrowed, Ms. Stokes must return them to Mr. Jordan, who still owned the stock at the time.
-
-Instead of falling, suppose that the price of Wilson Pharmaceuticals stock rises. Ms. Stokes will realize a loss when she is forced to cover her short position. For example, if the price rises to  \$27 per share, Ms. Stokes will lose\$ 700, to which must be added commissions and the cost of borrowing the stock.
+Instead of falling, suppose that the price of Wilson Pharmaceuticals stock rises. Ms. Stokes will realize a loss when she is forced to cover her short position. For example, if the price rises to \$27 per share, Ms. Stokes will lose \$700, to which must be added commissions and the cost of borrowing the stock.
 
 Note the downside risk for a short seller versus a long buyer. When an investor purchases a stock (i.e., takes a long position), the most that the investor can lose is the purchase price. In contrast, when an investor sells short a stock, the maximum amount of the loss can be significant and not known at the time the stock is sold short. For example, in our illustration, if the price of Wilson Pharmaceutical increases to \$50 per share, then loss would be \$3,000. A price increase to \$100 would result in a loss of \$8,000. This is the reason that short selling is a very risky transaction.
 
-# Role of Brokers and Dealers in Real Markets
+## Role of Brokers and Dealers in Real Markets
 
 Common occurrences in real markets keep them from meeting the theoretical standards of being perfect. Because of these occurrences, brokers and dealers are necessary to the smooth functioning of a secondary market.
 
-# Brokers
+### Brokers
 
 One way in which a real market might not meet all the exacting standards of a theoretically perfect market is that many investors may not be present at all times in the marketplace.
 
@@ -200,7 +204,7 @@ Furthermore, a typical investor may not be skilled in the art of the deal or com
 
 A broker is an entity that acts on behalf of an investor who wishes to execute orders rather than trading for his or her own account. That is, the risks associated with the transaction (long or short) belong to the client (i.e., the investor), not the broker. These functions are performed by brokers or agents of the investor. It is important to realize that the brokerage activity does not require the broker to buy and sell or hold in inventory the financial asset that is the subject of the trade. (Such activity is termed "taking a position" in the asset, and it is the role of the dealer, another important financial market participant discussed in the following text.) Instead, the broker receives, transmits, and executes investors' orders with other investors. The broker receives an explicit commission for these services, and the commission is a transactions cost of the securities markets. If the broker also provides other services, such as research, recordkeeping, or advising, investors may pay additional charges.
 
-# Dealers as Market Makers
+### Dealers as Market Makers
 
 A real market might also differ from the perfect market because of the possibly frequent event of a temporary imbalance in the number of buy and sell orders that investors may place for any security at any given time. Such unmatched or unbalanced flow causes two problems. One is that the security's price may change abruptly, even if there has been no shift in either supply or demand for the security. Another problem is that buyers may have to pay higher than market-clearing prices (or sellers accept lower ones) if they want to make their trades immediately.
 
@@ -222,15 +226,15 @@ Dealers also have to be compensated for bearing risk. A dealer's position may in
 
 The second type of risk has to do with the expected time it will take the dealer to unwind a position and its uncertainty. And this, in turn, depends primarily on the number of buyers and sellers in the market for the security. In a thin market, there is a low number of buyers and sellers seeking transactions in the security, while in thick market there is a large number of buyers and sellers. Finally, even though a dealer may have access to better information about order flows than the general public does, there are some trades where the dealer takes the risk of trading with someone who has better information. This results in the better-informed trader obtaining a better price at the expense of the dealer. Consequently, when establishing the bid-ask spread for a trade, a dealer will assess whether the trader might have better information.
 
-# Market Efficiency
+## Market Efficiency
 
 The term "efficient capital market" has been used in several contexts to describe the operating characteristics of a capital market. There is a distinction, however, between an operationally (or internally) efficient market and a pricing (or externally) efficient capital market.[10]
 
-# Operational Efficiency
+### Operational Efficiency
 
 In an operationally efficient market, investors can obtain transaction services as cheaply as possible, given the costs associated with furnishing those services. The cost of transacting is critical to investors and professional asset managers. Moreover, the SEC has continued to amend the Securities Exchange Act so that investors can obtain the best execution possible. Below we provide a brief explanation of trading costs.[11]
 
-Transaction costs are more than merely brokerage commissions—they consist of commissions, fees, execution costs, and opportunity costs. Commissions are the fees paid to brokers to execute orders, and the commission is negotiable between the investor and the broker. Other types of fees include custodial fees and transfer fees. Custodial fees are the those charged by the financial entity that holds securities in safekeeping for an investor.
+Transaction costs are more than merely brokerage commissions—they consist of commissions, fees, execution costs, and opportunity costs. Commissions are the fees paid to brokers to execute orders, and the commission is negotiable between the investor and the broker. Other types of fees include custodial fees and transfer fees. Custodial fees are those charged by the financial entity that holds securities in safekeeping for an investor.
 
 Beyond fees, there are hidden costs of trading. Execution costs represent the difference between the execution price of a security and the price that would have existed in the absence of the trade. Execution costs can be further decomposed into market (or price) impact and market timing costs. Market impact cost (or simply impact cost) is the result of the bid-ask spread and a price concession extracted by dealers to mitigate their risk that an investor's demand for liquidity is information motivated. (By a "price concession," we mean the investor will have to pay a higher price when buying and a lower price when selling.) Market timing cost arises when an adverse price movement of the security during the time of the transaction can be attributed in part to other activity in the security and is not the result of a particular transaction. Execution costs, then, are related to both the demand for liquidity and the trading activity on the trade date.
 
@@ -242,7 +246,7 @@ The cost of not transacting represents an opportunity cost.[13] Opportunity cost
 
 Opportunity costs are characterized as the hidden cost of trading. Some analysts suggest that the shortfall in performance of many actively managed portfolios is the consequence of failing to execute all desired trades.[14] Measurement of opportunity costs is subject to the same problems as measurement of execution costs. The true measure of opportunity costs depends on knowing the resulting performance of a security if all desired trades were executed at the desired time across an investment horizon. Because these desired trades were not executed, the benchmark is inherently unobservable.
 
-# Pricing Efficiency
+### Pricing Efficiency
 
 Pricing efficiency refers to a market where prices at all times fully reflect all available information that is relevant to the valuation of securities. That is, relevant information about the security is quickly integrated into the price of securities.
 
@@ -252,7 +256,7 @@ When defining the "relevant" information set that prices should reflect, Fama cl
 
 A price-efficient market carries certain implications for the investment strategy that investors wish to pursue. Throughout this book, we refer to various active strategies employed by investors. In an active strategy, investors seek to capitalize on what they perceive to be the mispricing of a security or securities. In a market that is price efficient, active strategies will not consistently generate an abnormal return after taking into consideration transaction costs and the risks associated with a strategy that is actively managed rather than simply buying and holding securities. In certain markets that empirical evidence suggests are price efficient, investors may pursue a strategy of indexing, which simply seeks to match the performance of some financial index. We look at the pricing efficiency of the stock market in chapter 23.
 
-# Electronic Trading
+## Electronic Trading
 
 Traditionally, securities trading has historically occurred mainly in person (e.g., on stock exchange trading floors) or via the telephone (typically in the bond market, as explained in chapter 26). Currently, however, securities buyers and seller are mainly brought together electronically (that is, through electronic trading platforms), which is referred to as etrading, Electronic trading provides virtual trading platforms. Often systems for clearing and settlement of trades are integrated in trading systems. This is referred to as straight-through processing. There are many types of equity and bond electronic trading systems.
 
@@ -285,56 +289,4 @@ Traditionally, securities trading has historically occurred mainly in person (e.
 - In a price-efficient market, active strategies pursued will not consistently produce superior returns after adjusting for risk and transactions costs.
 - Electronic trading (or etrading) brings buyers and sellers together electronically, replacing personal and telephone contact in most markets.
 
-# Questions
-
-1. How do secondary markets benefit investors?
-2. What is meant by an "OTC market"?
-3. How does an order-driven market differ from a quote-driven market?
-4. Explain why you agree or disagree with the following statements: a. "Real-world financial markets can be either a continuous order-driven market or a periodic call auction, but cannot be both."
-
-b. "The market structure in the OTC market is a periodic call auction."
-
-5. A market can be perfect, in a theoretical sense, only if it meets certain conditions. What are those conditions?
-6. What is meant by the statement that "dealers offer both immediacy and price continuity to investors"?
-7. Some years ago, legislators in a state claimed that speculation on land was driving prices to too high a level. They proposed to pass a law that would require the buyer of any piece of land in the state to hold the land for at least three years before he or she could resell it.
-
-a. Analyze this proposal in terms of perfect markets and possible frictions that have been described in this chapter.
-
-b. If that proposal had passed, do you think land prices would have risen or fallen?
-
-8. a. Why would an investor sell short a security?
-
-b. What happens if the price of a security that is sold short rises?
-
-9. What is the role of the broker in a short sale?
-10. What might be expected in a financial market that does not allow investors to sell short?
-11. What is the difference between a broker and a dealer?
-12. How does a dealer make a profit when making a market?
-13. What are the risks that a dealer accepts in making a market?
-14. The residential real estate market boasts many brokers but very few dealers. What explains this situation?
-15. What is meant by the "bid-ask spread"?
-16. How does the rate of order flow (or thickness) of a market affect a dealer's bid-ask spread?
-17. What are the benefits that a market derives from the actions of dealers?
-18. a. What is meant by an "information-motivated trade"?
-
-b. What is meant by an "informationless trade"?
-
-19. What makes a market operationally or internally efficient?
-20. What is the key characteristic of a market that has pricing or external efficiency?
-21. What is meant by the "semi-strong form" of market efficiency?
-22. Indicate why you agree or disagree with the following statement: "An investor who believes a market is price efficient should pursue an active investment strategy."
-23. Historically, Nasdaq (at one time abbreviated as NASDAQ, standing for "National Association of Securities Dealers Quotations") started as an OTC stock market. Now the stocks traded on the Nasdaq exchange are listed stocks.
-24. See Edward M. Miller, "Risk, Uncertainty, and Divergence of Opinion," Journal of Finance 32 (1977): 1151-1168, and the following two chapters in Frank J. Fabozzi, ed., Short Selling: Strategies, Risks, and Rewards (Hoboken, NJ: John Wiley & Sons, 2004): "Implications of Short Selling and Divergence of Opinion for Investment Strategy" (chapter 5), and "Short Selling and Financial Puzzles" (chapter 6).
-25. Charles M. Jones and Owen A. Lamont, "Short Sale Constraints and Stock Returns," Journal of Financial Economics 66 (2002): 207-239.
-26. George Stigler, "Public Regulation of Securities Markets," Journal of Business 37 (1964): 117-134.
-27. Harold Demsetz, "The Cost of Transacting," Quarterly Journal of Economics 82 (1968): 35-36.
-28. For a more detailed discussion, see chapter 1 in Robert A. Schwartz, Equity Markets: Structure, Trading, and Performance (New York: Harper & Row, 1988), 389-397.
-29. Walter Bagehot, "The Only Game in Town," *Financial Analysts Journal* 27, no. 2 (1971): 12-14, 22.
-30. Some trades that we will discuss in Chapter 18 can be viewed as informationless trades: The dealer knows or believes that a trade is being requested to accomplish an investment objective that is not motivated by the potential future price movement of the security.
-31. Richard R. West, "Two Kinds of Market Efficiency," Financial Analysts Journal 31, no. 6 (1975): 30-34.
-32. Some of this discussion draws from Bruce M. Collins and Frank J. Fabozzi, "A Methodology for Measuring Transactions Costs," *Financial Analysts Journal* 47, no. 2 (1991): 27-36.
-33. Larry Cuneo and Wayne Wagner, "Reducing the Cost of Stock Trading," *Financial Analysts Journal* 31, no. 6 (1975), pp. 35-43.
-34. For a discussion of opportunity cost in the context of costs defined as the implementation shortfall of an investment strategy, see André F. Perold, "The Implementation Shortfall: Paper versus Reality," Journal of Portfolio Management 14 (1988): 4-9.
-35. For a discussion of the consequences of high opportunity costs, see Jack L. Treynor, "What Does It Take to Win the Trading Game?" *Financial Analysts Journal* 37, no. 1 (1981), pp. 55-60.
-36. Eugene F. Fama, "Efficient Capital Markets: A Review of Theory and Empirical Work," Journal of Finance 25 (1970): 383-417.
 

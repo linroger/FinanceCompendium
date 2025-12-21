@@ -1,24 +1,37 @@
 ---
+title: Exchange Rate Crises: How Pegs Work and How They Break
+parent_directory: Part 8 - Applications and Policy Issues
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- domestic credit reserves vertical
-- floating central bank balance
-- exchange rate pegs break
-- understanding exchange rate crises
-- pegging andean peso dollar
+- exchange rate crises
+- fixed exchange rates
+- speculative attacks
+- self-fulfilling crises
+- corners hypothesis
 secondary_tags:
-- supply level central bank
-- money supply point reserves
-- money supply fixed exchange
-- rate crises pegs
-- peg cycle crises
-- peso dollar assume following
-- political costs crises exchange
-- exchange rate regimes makes
-- liabilities central bank chooses
-- peso runs reserves nominal
-- peg sufficient liquidity foreign
-- line points domestic credit
-tags_extracted: '2025-12-18T00:43:55.386138'
+- central bank balance sheet
+- reserves and domestic credit
+- backing ratio
+- sterilization
+- lender of last resort
+- bailouts
+- currency boards
+- reserve accumulation
+- international monetary fund
+- first-generation models
+- second-generation models
+- multiple equilibria
+- contingent commitments
+- capital controls
+- George Soros
+- ERM crisis
+- IMF bailouts
+- fiscal policy
+- monetary policy
+- risk premiums
+cssclasses: academia
 ---
 
 # Exchange Rate Crises: How Pegs Work and How They Break
@@ -35,15 +48,7 @@ In the last chapter, we treated the question "fixed or floating?" as a one-time 
 
 Unfortunately, the reality is different. The typical fixed exchange rate succeeds for a few years, only to break. A recent study found that the average duration of any peg was about five years, and the median duration was only two years. When the break occurs, there is often a large, sudden depreciation accompanied by high economic and political costs. Such a collapse is known as an exchange rate crisis. When a country shifts from floating to fixed it is generally smooth and planned, but when a country shifts from fixed to floating it is typically unplanned and catastrophic.
 
-Despite the fragility exposed by recurrent crises, fixed exchange rate regimes are still in use. Typically, after a crisis, a country that prefers to have a fixed exchange rate
-
-1 Facts About Exchange Rate Crises
-2 How Pegs Work: The Mechanics of a Fixed Exchange Rate
-3 How Pegs Break I: Inconsistent Fiscal Policies
-4 How Pegs Break II: Contingent Monetary Policies
-5 Conclusions
-
-will try to peg again: the cycle of crises may continue. Understanding exchange rate crises is a major goal of international macroeconomics because of the damage they do, not only to the country in which the crisis occurs but often to its neighbors and trading partners. In this chapter we learn about exchange rate crises, their causes, and their consequences.
+Despite the fragility exposed by recurrent crises, fixed exchange rate regimes are still in use. Typically, after a crisis, a country that prefers to have a fixed exchange rate will try to peg again: the cycle of crises may continue. Understanding exchange rate crises is a major goal of international macroeconomics because of the damage they do, not only to the country in which the crisis occurs but often to its neighbors and trading partners. In this chapter we learn about exchange rate crises, their causes, and their consequences.
 
 # 1 Facts About Exchange Rate Crises
 
@@ -455,9 +460,7 @@ The Central Bank and the Financial Sector In panel (a), a bailout occurs when th
 
 The Old Lady doth protest too much: In September 2007, the Bank of England assured Northern Rock depositors that the bank would not fail. The bank's balance sheet was widely believed to be healthy (solvency), but the bank had run short of cash to fund mortgages (illiquidity). Despite official assurances, there was a run on the bank because depositors preferred cash in hand to government promises.
 
-possible failures. In many emerging markets and developing countries, this kind of panic often leads depositors to hold foreign bank deposits instead of deposits in local currency. This flight to foreign bank deposits happens because depositors do not know if, when, or how much of a bailout will occur. Thus they cannot be sure if the peg will hold, and if their peso deposits will
-
-in the end keep their value in dollar terms. In such circumstances, depositors' fears can be self-fulfilling. A bank that faces a run may have to sell illiquid assets in a hurry at a low price, damaging itself and magnifying the problem. As depositors demand foreign currency, they drain reserves and make it more likely that devaluation will happen. A country at risk for devaluation faces a higher-risk premium, which in turn worsens economic conditions and encourages a flight from the domestic currency. If a depreciation happens, then banks and firms that have foreign currency liabilities will be in even worse shape, so running looks even better. And so the vicious circle continues.
+possible failures. In many emerging markets and developing countries, this kind of panic often leads depositors to hold foreign bank deposits instead of deposits in local currency. This flight to foreign bank deposits happens because depositors do not know if, when, or how much of a bailout will occur. Thus they cannot be sure if the peg will hold, and if their peso deposits will in the end keep their value in dollar terms. In such circumstances, depositors' fears can be self-fulfilling. A bank that faces a run may have to sell illiquid assets in a hurry at a low price, damaging itself and magnifying the problem. As depositors demand foreign currency, they drain reserves and make it more likely that devaluation will happen. A country at risk for devaluation faces a higher-risk premium, which in turn worsens economic conditions and encourages a flight from the domestic currency. If a depreciation happens, then banks and firms that have foreign currency liabilities will be in even worse shape, so running looks even better. And so the vicious circle continues.
 
 To get a sense of the challenges faced by a central bank when confronted with difficulties in the banking sector under a fixed exchange rate, let us return to the case of Argentina after the Mexican Tequila crisis.
 
@@ -962,62 +965,4 @@ corners hypothesis, p. 805
 
 International Monetary Fund (IMF), p. 806
 
-# Problems
-
-1. The economic costs of currency crises appear to be larger in emerging markets and developing countries, than they are in advanced countries. Discuss why this is the case, citing the interaction between the currency crisis and the financial sector. In what ways do currency crises lead to banking crises in these countries? In what ways do banking crises spark currency crises?
-
-2. Using the central bank balance sheet diagrams, evaluate how each of the following shocks affects a country's ability to defend a fixed exchange rate.
-
-a. The central bank buys government bonds.
-b. Currency traders expect an appreciation in the home currency in the future.
-c. An economic expansion leads to a change in home money demand.
-d. The foreign interest rate increases.
-
-3. Consider the central bank balance sheet for the country of Riqueza. Riqueza currently has \$ 1,800 million escudos in its money supply, \$ 1,100 million of which is backed by domestic government bonds; the rest is backed by foreign exchange reserves. Assume that Riqueza maintains a fixed exchange rate of one escudo per dollar, the foreign interest rate remains unchanged, and money demand takes the usual form, M/P = L(i)Y. Assume prices are sticky.
-
-a. Show Riqueza's central bank balance sheet, assuming there are no private banks. What is the backing ratio?
-b. Suppose that Riqueza's central bank sells \(200 million in government bonds. Show how this affects the central bank balance sheet. Does this change affect Riqueza's money supply? Explain why or why not. What is the backing ratio now?
-c. Now, starting from this new position, suppose that there is an economic downturn in Riqueza, so that real income contracts by  $ 10\% $ . How will this affect money demand in Riqueza? How will forex traders respond to this change? Explain the responses in the money market and the forex market.
-
-d. Using a new balance sheet, show how the change described in (c) affects Riqueza's central bank. What happens to domestic credit? What happens to Riqueza's foreign exchange reserves? Explain the responses in the money market and the forex market.
-e. How will the change above affect the central bank's ability to defend the fixed exchange rate? What is the backing ratio now? Describe how this situation differs from one in which the central bank buys government bonds, as in part (b).
-
-4. What is a currency board? Describe the strict rules about the composition of reserves and domestic credit that apply to this type of monetary arrangement.
-5. What is a lender of last resort and what does it do? If a central bank acts as a lender of last resort under a fixed exchange rate regime, why are reserves at risk?
-6. Suppose that a country's money supply is  \$ 1,200 million and its domestic credit is equal to \$ 800 million in the year 2005. The country maintains a fixed exchange rate, the central bank monetizes any government budget deficit, and prices are sticky.
-
-a. Compute total reserves for the year 2005. Illustrate this situation on a central bank balance sheet diagram.
-b. Now, suppose the government unexpectedly runs a \$ 100 million deficit in the year 2006 and the money supply is unchanged. Illustrate this change on your diagram. What is the new level of reserves?
-c. If the deficit is unexpected, will the central bank be able to defend the fixed exchange rate?
-d. Suppose the government runs a deficit of \(100 million each year from this point forward. What will eventually happen to the central bank's reserves?
-e. In what year will the central bank be forced to abandon its exchange rate peg and why?
-f. What if the future deficits are anticipated? How does your answer to part (e) change? Explain briefly.
-
-7. Consider two countries with fixed exchange rate regimes. In one country, government authorities exert fiscal dominance. In the other, they do not. Describe how this affects the central bank's ability to defend the exchange rate peg. How might this difference in fiscal dominance affect the central bank's credibility?
-
-8. The government of the Republic of Andea is currently pegging the Andean peso to the dollar at  $ E = 1 $ peso per dollar. Assume the following: In year 1 the money supply $ M $ is 2,250 pesos, reserves $ R $ are 1,250 pesos, and domestic credit $ B $ is 1,000 pesos. To finance spending, $ B $ is growing at $ 50\% $ per year. Inflation is currently zero, prices are flexible, PPP holds at all times, and initially, $ P = 1 $. Assume also that the foreign price level is $ P^{*} = 1 $, so PPP holds. The government will float the peso if and only if it runs out of reserves. The U.S. nominal interest rate is $ 5\% $. Real output is fixed at $ Y = 2,250 $ at all times. Real money balances are $ M / P = 2,250 = L(i)Y $, and $ L $  is initially equal to 1.
-
-a. Assume that Andean investors are myopic and do not foresee the reserves running out. Compute domestic credit in years 1, 2, 3, 4, and 5. At each date, also compute reserves, money supply, and the growth rate of money supply since the previous period (in percent).
-
-b. Continue to assume myopia. When do reserves run out? Call this time  $ T $. Assume inflation is constant after time $ T $ . What will that new inflation rate be? What will the rate of depreciation be? What will the new domestic interest rate be? (Hint: Use PPP and the Fisher effect.)
-
-c. Continue to assume myopia. Suppose that at time  $ T $, when the home interest rate $ i $ increases, then $ L(i) $ drops from 1 to 2/3. Recall that $ Y $ remains fixed. What is $ M / P $ before time $ T $ ? What will be the new level of $ M / P $ after time $ T $ , once reserves have run out and inflation has started?
-
-d. Continue to assume myopia. At time  $ T $ , what is the price level going to be right before reserves run out? Right after? What is the percentage increase in the price level? In the exchange rate? [Hint: Use the answer to part (c) and PPP.]
-
-e. Suppose investors know the rate at which domestic credit is growing. Is the path described above consistent with rational behavior? What would rational investors want to do instead?
-
-f. Given the data presented in the question so far, when do you think a speculative attack would occur? At what level of reserves will such an attack occur? Explain your answer.
-
-9. A peg is not credible when investors fear depreciation in the future, despite official announcements. Why is the home interest rate always higher under a noncredible peg than under a credible peg? Why does that make it more costly to maintain a noncredible peg than a credible peg? Explain why nothing more than a shift in investor beliefs can cause a peg to break.
-
-10. You are the economic advisor to Sir Bufton Tufton, the prime minister of Perfidia. The Bank of Perfidia is pegging the exchange rate of the local currency, the Perfidian albion. The albion is pegged to the wotan, which is the currency of the neighboring country of Wagneria. Until this week both countries have been at full employment. This morning, new data showed that Perfidia was in a mild recession,  $ 1\% $ below desired output. Tufton believes a downturn of $ 1\% $  or less is economically and politically acceptable but a larger downturn is not. He must face the press in 15 minutes and is considering making one of three statements:
-
-a. "We will abandon the peg to the wotan immediately."
-b. "Our policies will not change unless economic conditions deteriorate further."
-c. "We shall never surrender our peg to the wotan."
-
-What would you say to Tufton concerning the merits of each statement?
-
-11. What steps have been proposed to prevent exchange rate crises? Discuss their pros and cons.
 

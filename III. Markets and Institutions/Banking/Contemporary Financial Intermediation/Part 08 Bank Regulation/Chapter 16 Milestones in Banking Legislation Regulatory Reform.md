@@ -353,13 +353,13 @@ An additional argument against expanded banking powers is that they may dilute f
 
 The effect of expanded powers on banks is ultimately an empirical issue. Empirical research has provided interesting evidence. Using data on 107 countries, one study shows that restricting bank activities has an adverse effect on bank development and stability.[26] This could provide some support for universal banking, which is common in Europe, Latin America, and other parts of the world.[27] Note, however, that this does not provide support for having purely speculative activities become part of banks. The universal banking model works best when it is client-centric, and thus relationship based.
 
-# THE 1991 FDICIA AND BEYOND
+## THE 1991 FDICIA AND BEYOND
 
 In 1991, the U.S. Treasury proposed sweeping regulatory reform of banking aimed at promoting the global competitiveness of American banking institutions, reducing taxpayers' exposure deriving from deposit insurance, and promoting the safety and soundness of American financial institutions. The key elements of the proposal were: (i) limiting deposit insurance coverage, (ii) achieving regulatory consolidation, (iii) involving the Treasury as well as the Federal Reserve in TBTF decisions, and (iv) dismantling the Glass-Steagall and McFadden restrictions on banking activities.
 
 This initiative culminated in the Federal Deposit Insurance Corporation Improvement Act (FDICIA) in December 1991. The main focus of FDICIA was on reducing taxpayer exposure deriving from deposit insurance and promoting the safety and soundness of American financial institutions. The key features of FDICIA are discussed below.
 
-# Bank Regulation
+## Bank Regulation
 
 FDICIA linked supervision to bank capital (Figure 16.6). Regulators were required to establish five capital compliance categories for banks and thrifts: well-capitalized, adequately capitalized, undercapitalized, significantly undercapitalized, and critically undercapitalized. Regulatory forbearance was restricted by requiring "prompt corrective action" as capital dissipated. In particular, regulators are required to close banks before they become insolvent. If capital declines to levels below positive trigger points, regulators must impose caps on growth, enforce reductions or suspension of dividends, instruct bank management to raise capital, and mandate management changes if necessary. Regulators are also permitted to close critically undercapitalized banks, where the ratio of tangible equity capital to total assets is less than  $2\%$ . FDICIA also permits bank regulators to place a bank in receivership or conservatorship for other transgressions, including violation of a cease-and-desist order, concealment of records or assets, inability to cover deposit withdrawals, or failure to either develop or implement a required plan to raise capital. Moreover, FDICIA requires bank regulators to take action within 90 days of a bank becoming critically undercapitalized. The key principles of the supervisory review under FDICIA are summarized in Figure 16.6.
 
@@ -372,23 +372,23 @@ General of the United States, to members of Congress upon request, and to the pu
 
 In addition to supervision, regulators were instructed to come up with a way to link bank capital requirements to interest-rate risk, credit risk of concentrations of credit, and the risk of nontraditional activities, and to draft a new set of noncapital measures of bank safety, such as underwriting standards. Regulators also are required to perform annual on-site bank examinations, place limits on real estate lending by banks and tighten auditing requirements.
 
-# Deposit Insurance
+## Deposit Insurance
 
 FDICIA transferred to the FDIC the responsibility for insuring thrifts as well as commercial banks. (Credit unions continue to have a separate deposit insurance agency, the NCUA.) While the deposit insurance of thrifts and banks was consolidated into the FDIC, the two types of intermediaries retained separate insurance reserve funds – bank deposits are insured by the Bank Insurance Fund (BIF) and thrift deposits by the Savings Association Insurance Fund (SAIF).
 
 FDICIA also reduced the scope of federal deposit insurance. The most significant change is the restriction on the TBTF initiatives that provide governmental protection of deposits beyond the prescribed  \$100,000 limit. The FDIC's ability to reimburse uninsured depositors - those with over\$ 100,000 and those with foreign deposits - was severely limited. FDICIA, however, does permit TBTF initiatives if failure would "have serious adverse effects on economic conditions or financial stability." This exception requires the agreement of a two-thirds majority of the directors of the FDIC, a two-thirds majority of the Board of Governors of the Federal Reserve System, and concurrence of the Secretary of the Treasury. The Secretary of the Treasury is required to document the need to invoke the systemic risk exception. The GAO must review any actions taken, and analyze the potential effect on the behavior of other insured depository institutions as well as uninsured depositors. The rest of the banking industry is required to pay the cost of any bailout through an emergency assessment by the FDIC that is proportional to each bank's average total tangible assets.[28] Only the best-capitalized banks will be able to offer insured brokered deposits (large CDs sold through brokerage firms) or accounts established under employee pension plans that offer pass-through insurance.[29] FDICIA also required the FDIC to adopt risk-sensitive deposit insurance premia.
 
-# FDIC Funding
+## FDIC Funding
 
 The shrinking bank deposit insurance fund was bolstered with an additional  \$70 billion in borrowing authority. The FDIC's authority to borrow from the Treasury was increased from\$ 5 billion to \$30 billion. The loans were to be repaid with increased deposit insurance charges on the banks. The FDIC was authorized to borrow additionally for working capital needs. The money, about \$45 billion, and interest would be repaid as the FDIC gradually disposes of the assets of failed banks. The FDIC also was instructed to rebuild the BIF to 1.25% of insured domestic deposits by the year 2006, which was achieved well before that.
 
-# The Discount Window
+## The Discount Window
 
 FDICIA limits the Federal Reserve's ability to use the discount window to support a financially troubled bank. Permitting discount window access to a failing bank allows uninsured deposits to be withdrawn prior to FDIC resolution, thereby increasing the exposure of the deposit insurance fund. FDICIA limits the amount of discount window lending to a bank's capital, with restrictions applying to undercapitalized (capital less than  $8\%$  of assets) and critically undercapitalized banks. Although the Federal Reserve retains considerable discretion in its discount window policy, it is liable to the FDIC for losses suffered by the deposit insurance fund due to discount window access provided to critically undercapitalized banks.
 
 Another significant change in the discount window is that FDICIA now permits all nonbank U.S. firms – brokerage and other financial services firms as well as nonfinancial firms – to borrow at the discount window for emergency purposes under the same collateral terms afforded to banks.
 
-# Corporate Governance of Banks
+## Corporate Governance of Banks
 
 FDICIA contains provisions aimed at strengthening the audit function of the boards of directors of banks and developing guidelines for the compensation of directors and officers. These provisions are designed to protect the deposit insurance fund by enhancing managerial and director accountability.
 
@@ -396,27 +396,27 @@ Specifically, banks are required to have audit committees composed exclusively o
 
 FDICIA's impact on board compensation committees is less direct. FDICIA does not specify the composition of the board's compensation committee, but it calls for federal banking agencies to prescribe guidelines for executive and board compensation that preclude employment contracts that could jeopardize the financial health of the institution.
 
-# Foreign Banks and Foreign Deposits
+## Foreign Banks and Foreign Deposits
 
 FDICIA gives the Federal Reserve new authority to regulate foreign bank operations in the United States. The FDIC is generally prohibited from protecting foreign branch deposits of a failed bank. In cases where the agency determines offshore deposits must be repaid to protect the system, it is required to recover losses through an industry-wide assessment on an expanded base that has the effect of assessing foreign deposits.
 
-# Accounting Reforms
+## Accounting Reforms
 
 The federal banking agencies must issue regulations requiring banks to report off-balance-sheet items on financial statements. In addition, the agencies must require disclosure of the fair market value of all assets, to the extent possible.
 
-# Restrictions on State Bank Powers
+## Restrictions on State Bank Powers
 
 FDICIA prohibits state banks from exercising powers not permissible to federally chartered institutions, including insurance underwriting. The bill "grandfathers" banks already lawfully engaged in underwriting insurance under state law. Another exemption permits state banks to invest up to  $10\%$  of their portfolio in stocks listed on national securities exchanges, provided they are already in the business.
 
-# Consumer Provisions
+## Consumer Provisions
 
 The principal consumer protection is the truth-in-savings provision, which requires uniform disclosure of the terms and conditions of savings accounts. A "greenlining" amendment provides incentives for banks to lend money in less affluent neighborhoods. The FDIC is required to start an affordable housing program and to give nonprofit organizations an opportunity to purchase residential properties acquired from failed banks.
 
-# Miscellaneous Provisions
+## Miscellaneous Provisions
 
 FDICIA also relaxes the "qualified thrift lender test" allowing thrifts to invest more of their assets outside of housing-related areas.
 
-# An Evaluation of FDICIA30
+## An Evaluation of FDICIA30
 
 As we have seen in earlier chapters, banks must process risk if they are to serve as qualitative asset transformers. However, because of the regulatory safety net that is needed to foster banking stability, a moral hazard arises stemming from banks' propensities to take excessive risks. The goal of bank regulation should be to address this moral hazard without stifling the intermediation function of banks.
 
@@ -436,7 +436,7 @@ Another competitive weakness of FDICIA relates to Glass-Steagall and interstate 
 
 While these criticisms might be well founded, in retrospect, one could come up with a very positive assessment of FDICIA that may prevail. Prompt corrective action and the focus on getting banks to keep more capital on the balance sheet – effectively through a leverage ratio – have become a central part of the Basel III Capital Accord, 20 years later.
 
-# THE FINANCIAL SERVICES MODERNIZATION ACT OF 1999
+## THE FINANCIAL SERVICES MODERNIZATION ACT OF 1999
 
 After a relentless weakening of its key separation provisions, the Glass-Steagall Act was finally formally dismantled in 1999 with the passage of the Financial Services Modernization Act or the Gramm-Leach-Bliley Act. This act repealed Sections 20 and 32 of the Glass-Steagall Act. It also authorized BHCs and foreign banks that meet eligibility criteria to become financial holding companies, thus allowing them to engage in a broad array of financially related activities. In addition, the Act addressed the functional regulation of financial holding companies, the protection of nonpublic customer information held by financial institutions, the supervision of the Community Reinvestment Act (CRA), and other regulatory practices. A summary of the key elements of the act are provided below.
 
@@ -456,17 +456,17 @@ Banks and savings and loan associations with total assets less than \(100 millio
 - Bank Securities Activities. While eliminating the broad exemption that banks enjoyed from registration as a broker or dealer under the securities laws, the bill makes clear that banks serving as custodians to self-directed IRAs will not be required to push these activities out of the bank and into a registered broker or dealer. Banks often function as service providers to pension, retirement, profit sharing, bonus, thrift, savings, incentive and other plans. The SEC, with the concurrence of the Federal Reserve Board, may determine by regulation those new products which, if offered or sold by a bank, would subject it to registration with the SEC. A bank may offer or sell "traditional banking products," as defined in this section, without becoming subject to registration with the SEC.
 - Federal Home Loan Bank Reforms. Includes provisions to modernize the operations of the Federal Home Loan Bank System. As of June 1, 2000, membership in the Federal Home Loan Bank System was made voluntary. Community banks (those banks with total assets less than \$500 million) will be able to become members without regard to the percentage of total assets represented by residential mortgage loans. Community banks will be able to use advances for small business, small farm and small agribusiness lending. It also allows community banks to collateralize advances with small business and agricultural loans, and modifies the governance structure of the System to give more authority to the regional banks.
 
-# THE DODD-FRANK WALL STREET REFORM AND CONSUMER PROTECTION ACT
+## THE DODD-FRANK WALL STREET REFORM AND CONSUMER PROTECTION ACT
 
 In a response to the global financial crisis, the US policymakers enacted The Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act) in 2010. The Dodd-Frank Act presents a sweeping regulatory overhaul across several aspects of banking regulation and reshapes the banking regulatory and legal environment for years to come.[35]
 
 The Dodd-Frank Act consists of 16 titles. It creates several new regulatory agencies (e.g., the Financial Stability Oversight Council (FSOC), the Office of Financial Research (OFR), and the Bureau of Consumer Financial Protection) and merges or eliminates others (e.g., it abolishes the OTS). The regulatory reform aims at mitigating systemic risk to protect the US economy and consumers, businesses and investors alike. It focuses on the regulation and supervision of financial institutions that are too-big-to-fail with the idea to end the reliance on the tax payer. The Dodd-Frank Act provides mechanisms for orderly wind down of the systemically important institution (SIIIs), defines the framework for consumer protection, regulates credit rating agencies, and provides rules on executive compensation and corporate governance.
 
-# Title I – Financial Stability
+## Title I – Financial Stability
 
 Title I of the Dodd-Frank Act establishes a regulatory structure capable of identifying and mitigating systemic risk. The importance of addressing systemic risk was explained in Chapter 15. A more integral view of the financial system, focusing on the interconnectiveness across financial institutions and the macroprudential regulation needed to address it, has gained importance.
 
-# What Made Systemic Risk More Prevalent?
+## What Made Systemic Risk More Prevalent?
 
 As highlighted in Chapter 3, banks have become increasingly sensitive to financial market developments. This more intertwined nature of banks and financial markets has exposed banks to the boom and bust nature of those markets and possibly augmented instability.[36] Moreover, (opportunistic) decision-making in momentum-driven financial markets may induce herding, and, as a consequence, banks may become more similar in terms of risk exposure. Systemic risk may then become paramount. Meaning, when all institutions make the same bets, risk exposures become more highly correlated and a simultaneous failure of institutions is more likely.[37]
 
@@ -488,7 +488,7 @@ The FDIC is granted examination and enforcement authority over BHCs whose subsid
 
 Title I of the Dodd-Frank Act equips the regulator with powers to tackle SIIIs, the so-called SIFIs – systemically significant financial institutions (either banks, BHCs, or non-bank financial institutions). Key issues that remain are how to identify SIFIs and whether too much focus on SIFIs would possibly distract from discovering systemic risk building up elsewhere.[38]
 
-# Title II – Orderly Liquidation Authority
+## Title II – Orderly Liquidation Authority
 
 The global financial crisis showed that regulators had insufficient authority to orderly wind down large, nondepository financial institutions, such as investment banks or BHCs. Title II of the Dodd-Frank Act provides authority for orderly liquidation to the Federal Reserve and to the FDIC, mimicking the resolution process for the depository institution under the FDICIA.
 
@@ -502,15 +502,15 @@ Under the receivership, the FDIC has far-reaching powers that largely mimic the 
 
 the company or liquidate its business. The FDIC can merge the company with another company and/or transfer assets and liabilities.[39]
 
-# Title VI – Improvements to Regulation of Bank and Savings Association Holding Companies and Depository Institutions
+## Title VI – Improvements to Regulation of Bank and Savings Association Holding Companies and Depository Institutions
 
 Title VI provides for a variety of measures to strengthen the regulation of BHCs, saving and loan holding companies and depository institutions to ensure that these will not threaten the stability of the U.S. financial system. Title VI contains the Volcker Rule, which prohibits banks and BHCs from engaging in proprietary trading, and from investing in private equity funds and hedge funds (see Chapter 15 for a more detailed discussion of the Volcker Rule). It also contains other measures that give the Federal Reserve the power to evaluate mergers and acquisitions based on their impact on stability, and to prescribe countercyclical capital buffers when deemed necessary.
 
-# Title VII – Wall Street Transparency and Accountability
+## Title VII – Wall Street Transparency and Accountability
 
 Title VII regulates over the counter (OTC) derivatives markets. It requires various OTC to be cleared at the clearinghouses or exchanges. The aim of Title VII is to lower the interconnectedness of financial companies through the OTC market (eliminate counterparty risk) and to increase transparency in the OTC derivatives markets. Under Title VII of the Dodd-Frank Act, over-the-counter derivatives will be subject to robust regulation for the first time. The Commodity Futures Trading Commission (CFTC) will be granted regulatory jurisdiction over interest rate, foreign exchange, and commodity derivatives – swaps and futures primarily. Title VII instructs the CFTC to implement several regulatory mandates, including registration, business conduct standards, central clearing, trading, capital, margin, and reporting requirements.
 
-# Title IX – Investor Protections and Improvements to the Regulation of Securities
+## Title IX – Investor Protections and Improvements to the Regulation of Securities
 
 Title IX devotes significant attention to investor protection and disclosure of relevant information in the securitization process in particular. It also addresses disclosures related to executive compensation.
 
@@ -522,23 +522,23 @@ The Dodd-Frank Act seeks to address the conflict of interest within credit ratin
 
 Title IX also broadens their potential liability and allows the SEC to charge higher penalties. In addition, Title IX asks for higher disclosure standards with respect to the characteristics of a debt instrument that has a credit rating. Greater disclosure of the rating process itself, including the information, procedures, and methodologies used, is also part of Title IX.
 
-# Title X - Bureau of Consumer Financial Protection
+## Title X - Bureau of Consumer Financial Protection
 
 Title X establishes the Consumer Financial Protection Bureau (CFPB). The CFPB is equipped with far-reaching powers from several Federal consumer protection laws. It has a broad rule-making authority to shape consumer protection in the United States. Its decisions may in a few instances be overruled by the FSOC.
 
 The CFPB must direct its activities to prohibit abusive, deceptive, or unfair financial practices. Its responsibilities with respect to the mortgage reform are further defined under Title XIV of the Dodd-Frank Act. Title X also sets limits on interchange fees for debit card transactions.
 
-# Title XI - Federal Reserve System Provisions
+## Title XI - Federal Reserve System Provisions
 
 Title XI sets higher limitations on when the Federal Reserve may use emergency assistance to financial institutions. The Federal Reserve may only provide emergency assistance if needed on a broad-based scale to provide liquidity to the financial system or part of it (under the approval of the Treasury Secretary). Emergency assistance should not be used to support failing institutions. The hope is that such a limitation may enhance its credibility, lower ex-ante risk taking of financial institutions and reduce the probability and severity of future crises.
 
 Title XI also provides the FDIC the possibility to guarantee bank debt. In the case of extraordinary financial distress (and upon the approval of two-thirds of the members of the board of the Federal Reserve and FDIC and the Treasury Secretary), the FDIC is to create a program of debt guarantees for solvent insured banks and BHCs. The maximum amount of guarantees is determined by the Treasury in consultation with the President and requires Congressional approval.
 
-# Title XII – Improving Access to Mainstream Financial Institutions
+## Title XII – Improving Access to Mainstream Financial Institutions
 
-Title XII aims to improve access to basic financial services and products for lowand medium-income citizens by offering three voluntary programs that the financial institutions may tap into. First, the Secretary Treasury should establish a program to provide lowand medium-income individuals with the incentives to open an account at a depository institutions. Second, the financial institutions should be supported in their offering of small dollar value loans under attractive interest rates. Such loans are intended to replace payday loans that were often offered by financial institutions under unreasonable and excessive interest rates. Third, additional financial assistance should be provided for community development and financial institutions that provide small dollar loan programs.
+Title XII aims to improve access to basic financial services and products for low- and medium-income citizens by offering three voluntary programs that the financial institutions may tap into. First, the Secretary Treasury should establish a program to provide low- and medium-income individuals with the incentives to open an account at a depository institutions. Second, the financial institutions should be supported in their offering of small dollar value loans under attractive interest rates. Such loans are intended to replace payday loans that were often offered by financial institutions under unreasonable and excessive interest rates. Third, additional financial assistance should be provided for community development and financial institutions that provide small dollar loan programs.
 
-# Other Titles to the Dodd-Frank Act
+## Other Titles to the Dodd-Frank Act
 
 Title III – Transfer of Powers to the Comptroller of the Currency, the Corporation, and the Board of Governors, eliminates the OTS and transfers its supervisory responsibilities to the Federal Reserve, the Office of the Comptroller of the Currency, and the FDIC. Title IV – Regulation of Advisers to Hedge Funds and Others, requires additional obligations (e.g., net worth requirements) to the previously very lightly regulated private funds (e.g., venture capital funds, hedge funds, and equity funds).
 
@@ -554,7 +554,7 @@ Title XV - Miscellaneous Provisions.
 
 Title XVI - Section 1256 Contracts, preserves pre-Title VII derivative tax law for certain swaps and future contracts.
 
-# Recent Changes to the Dodd-Frank Act
+## Recent Changes to the Dodd-Frank Act
 
 In May 2018, numerous legislative changes were made to Dodd-Frank. The gist of these changes was to offer regulatory relief to all but the largest banks. Here is a brief summary:42
 
@@ -563,7 +563,7 @@ In May 2018, numerous legislative changes were made to Dodd-Frank. The gist of t
 - Banks With Less Than \$20 Billion in Assets: Federal Savings Associations can choose to operate with the same powers as a national bank without converting their charters. They would then be able to do commercial lending in the same way as commercial banks.  
 - Banks With Less Than \$50 Billion in Assets: The SIFI (Systemically Important Financial Institutions) threshold for enhanced prudential regulation standards, including the CCAR stress tests and elevated risk management and liquidity standards, is increased from \$50 billion to \$250 billion. Company-run stress tests are only required now for banks with more than \$250 billion assets.
 
-# EU REGULATORY AND SUPERVISORY OVERHAUL AND THE DE LAROSIÈRE REPORT
+## EU REGULATORY AND SUPERVISORY OVERHAUL AND THE DE LAROSIÈRE REPORT
 
 In 2008, the president of the European Commission José Manuel Barroso established a High-Level Group on financial supervision in the EU, chaired by Jacques de Larosière, to propose regulatory and supervisory overhaul in the EU. The so-called de Larosière Report reviews the causes of the global financial crisis, suggests changes to bank regulation, proposes a better EU supervisory framework, and discusses the regulatory/supervisory developments needed on the global level (de Larosière (2009)).
 
@@ -571,7 +571,7 @@ One of the crucial findings of the de Larosière Report is that the European sys
 
 The European policymakers have largely followed the recommendations of the de Larosière Report. They have established the European Systemic Risk Board (ESRB) to be in charge of spotting the systemic risks in the EU financial system. In addition, at the microlevel, existing coordination committees were replaced with three sector bodies: the European Banking Authority (EBA), the European Insurance and Occupational Pensions Authority (EIOPA), and the European Securities and Markets Authority (ESMA), each responsible for primarily pan-European coordination in their particular field. These EU-linked coordinating agencies have little real power. As indicated in Chapter 15, the development of a banking union, with strong supervisory powers in the hands of the ECB, may lessen the significance of these EU agencies.
 
-# Other EU Directives
+## Other EU Directives
 
 A single rulebook for regulation across the EU has been established by common capital regulation (Capital requirements regulation and directive -  $\mathrm{CRR}^{43} / \mathrm{CRDIV}^{44}$ ), common rules on deposit insurance (Directive on deposit guarantee schemes $^{45}$ ) and on bank recovery and resolution (Single Resolution Mechanism Regulation $^{46}$  and the Bank Recovery and Resolution Directive $^{47}$ ). Moreover, in November 2013, the Single Supervisory Mechanism (SSM) – conferring bank-supervisory powers on the ECB – came into effect. The SSM creates a new system of financial supervision comprising the ECB and the national supervisory authorities of participating EU countries. In tandem, the Single Resolution Mechanism and the SSM are referred to as the "Banking Union."
 
@@ -601,9 +601,9 @@ The SSM tasks the ECB with the supervisory authority over significant banks in t
 
 The European Union also seeks to strengthen the functioning of capital markets, and particularly reduce the fragmentation along national lines. Proposals have been made to create a so-called Capital Market Union, a step in the direction of making Europe less bank-dependent by easing access to nonbank funding sources.
 
-# Structural reform proposals
+## Structural reform proposals
 
-# UK Vickers Report
+## UK Vickers Report
 
 As discussed in Chapter 15, in the wake of the global financial crisis, the UK government established a commission with a task to analyze how to enhance financial stability and competition in financial services (Independent Commission on Banking (2011)). The objectives of the Independent Commission on Banking were: (i) to reduce the severity and frequency of the future systemic financial crises; (ii) to enhance the ability of the financial system to support the real economy (e.g., by providing credit, risk management, and other financial products to households and businesses), and; (iii) to secure the stability of the payment system and assure capital and liquidity certainty of individuals and small and medium enterprises.
 
@@ -647,7 +647,7 @@ The Liikanen Report also suggests a reevaluation of risk-weights used within the
 
 All this is very much work in progress. The complexity in implementing the various proposals makes it difficult to assess their future impact.[53] Having said this, one intended purpose of all of these measures is to make the financial system simpler, that is, reduce complexity. We have yet not seen the implementation of the proposed measures, but if they reduce complexity, then more timely intervention ("prompt corrective action") might be facilitated. Also resolving financial distress might become easier. To this end, also "living will" requirements are imposed. These seek to provide for a more orderly dismantling/liquidation of failed institutions.
 
-# CONCLUSION
+## CONCLUSION
 
 U.S. banking history was shaped by American populism and the frontier mentality. The result was a fragmented financial services industry and a similarly fragmented public regulation of financial services. The issuance of bank notes and the need for cash-asset reserves conditioned the focus on liquidity in banking. The pyramiding of liquidity reserves led to systemic risk in the national banking system of the nineteenth century and to periodic financial panics. This led to the creation of the Federal Reserve System. Federal deposit insurance was added in 1933 in response to a virtual collapse of the banking system.
 
@@ -657,22 +657,9 @@ The 2007-2009 global financial crisis has led to the regulatory and supervisory 
 
 Regulatory reform has almost always been a reflexive reaction to financial crises. Actions following the 2007-2009 global financial crisis were no different. The unanswered question is: what are the welfare effects of these legislative and regulatory actions? There is a dearth of cost-benefit analyses.
 
-# REVIEW QUESTIONS
+## APPENDIX
 
-1. What are the key milestones of bank regulation in the United States?  
-2. If deposit insurance is deemed necessary, what steps should be taken to reform the system?
-3. What are the pros and cons of market value accounting?  
-4. What are the pros and cons of "expanded" banking powers?  
-5. Do regulators always maximize social welfare? Why or why not? Can anything be done about this?  
-6. Discuss the key elements of FDICIA and provide a critique of it.  
-7. What is the main objective of the Dodd Frank Act?  
-8. Which measures in the Dodd Frank Act directly address systemic risk?  
-9. How would you reform our banking system?  
-10. What are the main legislative initiatives in the EU?
-
-# APPENDIX
-
-# Liquidity Constraints, Capital Requirements, and Monetary Policy
+## Liquidity Constraints, Capital Requirements, and Monetary Policy
 
 The size and composition of banks' balance sheets are constrained by the legal reserve requirement, which establishes a minimum ratio of cash assets to deposit liabilities, and the capital requirement that establishes minimum ratios of bank capital to risky assets (loans, to a first approximation) and to total assets (the so-called leverage ratio). For most of U.S. history, and certainly for the half-century following the Great Depression, capital requirements tended to be without effect or not binding. Therefore, the operating constraint on banks' size was the legal cash-asset reserve requirement.[54] This changed in the late 1980s when increased credit risks of banks' onand off-balance-sheet activities were recognized. At the same time, legal cash-asset reserve requirements were reduced in a series of steps, at least partly in response to the dismal record of bank earnings. For many banks, the position of reserve requirements and capital requirements was reversed, so that the capital requirement became binding. This affected the way monetary policy, especially the Federal Reserve's open-market operations, played out in the economy.
 
@@ -690,7 +677,7 @@ Now consider a leverage-type capital ratio that fixes the maximum amount of tota
 
 Supplanting cash-asset reserve requirements with capital requirements inevitably alters the way in which monetary policy affects the economy at large, and this has special relevance for understanding the 1991–1992 credit crunch. Bank loans were said to be unavailable despite the Federal Reserve's efforts to stimulate the economy by lowering short-term interest rates.[56] The Federal Reserve actively purchased government securities, expanding the reserves of the banking system, and bank assets grew, but lending remained largely unaffected. Banks simply increased their holding of government securities, and the economy grew sluggishly until the end of 1993.
 
-# REFERENCES
+## REFERENCES
 
 ABA, American Bankers Association, 2010. Reg Reform Title Listing, Dodd-Frank Wall Street Reform and Consumer Protection Act, Title Summaries. Washington, July, 2010. http://www.aba.com/Issues/RegReform/Pages/RR_TitleMenu.aspx.  
 Acharya, V.V., Brownlees, C., Engle, R., Farazmand, F., Richardson, M.P., 2011a. Measuring systemic risk. In: Acharya, V.V., Cooley, T.F., Richardson, M.P., Walter, I. (Eds.), Regulating Wall Street: the Dodd-Frank Act and the New Architecture of Global Finance. Wiley, New York, pp. 443-467.  
@@ -767,7 +754,7 @@ Wall, L.D., January/February 1993. Too-big-to-fail after FDICIA. Econ. Rev. Fede
 White, L., 1988. Market Value Accounting: An Important Part of the Reform of the Deposit Insurance System. In Capital Issues in Banking, Association of Reserve City Bankers and the Banking Research Center, Northwestern University.  
 White, L., 2010. Markets: the credit rating agencies. J. Econ. Perspect. 24, 211-226.
 
-# The Evolution of Banks and Markets and the Role of Financial Innovation
+## The Evolution of Banks and Markets and the Role of Financial Innovation
 
 "Finance is wholly different from the rest of the economy."
 

@@ -1,43 +1,51 @@
 ---
-parent_directory:
 title: "Bond Sensitivity: BPV, DV01, and Duration"
-tags:
-aliases:
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+parent_directory: "VII. Corporate Finance/Strategy and Events/PPHA Applied Financial Management/Lecture Notes"
+formatted: "2025-12-21 03:00:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - bond sensitivity
+  - bpv dv01 duration
+  - yield price relationship
+  - bond valuation
+  - interest rate risk
+secondary_tags:
+  - basis point value
+  - dollar value 01
+  - duration measures
+  - yield changes
+  - bond hedging
+  - compounding frequency
+  - periodic payments
+  - short selling leverage
+  - market efficiency
+  - hp calculator
 cssclasses: academia
-linter-yaml-title-alias: "Bond Sensitivity: BPV, DV01, and Duration"
 ---
 
 # Bond Sensitivity: BPV, DV01, and Duration
 
-Lecture 5
+**Lecture 5**  
+**Thomas S. Coleman**  
+**2 April 2023; Draft April 8, 2023**
 
-Thomas S. Coleman
+## Outline
 
-2 April 2023; Draft April 8, 2023
+## Contents
 
-# Outline
-
-# Contents
-
-1 Periodic Payments & Compounding - Duplicated from Lecture 4  
-2 Why We Use Yield Instead of Price 7  
-3 BPV, DV01, & Duration 8
-
-3.1 Converting from Yield to Price Changes 8  
-3.2 BPV & DV01: Bond Sensitivity 9  
-3.3 Duration 11  
-3.4 BPV / DV01 for Predicted P&L and Hedging 13  
-3.5 Decomposing P&L - Pure Discounting & Spread 14
-
-4 A Digression on Shorting & Leverage 17
-
-4.1 Shorting (BKM 3.8, 3.9) 18  
-4.2Leverage 23
-
-5 Digression on HP Calculator SOLVE Menu 24
+- 1 Periodic Payments & Compounding - Duplicated from Lecture 4
+- 2 Why We Use Yield Instead of Price
+- 3 BPV, DV01, & Duration
+  - 3.1 Converting from Yield to Price Changes
+  - 3.2 BPV & DV01: Bond Sensitivity
+  - 3.3 Duration
+  - 3.4 BPV / DV01 for Predicted P&L and Hedging
+  - 3.5 Decomposing P&L - Pure Discounting & Spread
+- 4 A Digression on Shorting & Leverage
+  - 4.1 Shorting (BKM 3.8, 3.9)
+  - 4.2 Leverage
+- 5 Digression on HP Calculator SOLVE Menu
 
 # 1 Periodic Payments & Compounding - Duplicated from Lecture 4
 
@@ -52,14 +60,17 @@ Almost always express yield "per year":  $PV = \frac{FV}{(1 + y)^n}$  with  $n =
 Example: 4yr  $6.5\%$  coupon bond,  $\mathrm{P} = 99.658$ :
 
 $$
-9 9. 6 5 8 = \frac {6 . 5}{(1 + y _ {a b})} + \frac {6 . 5}{(1 + y _ {a b}) ^ {2}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {3}} + \frac {6 . 5}{(1 + y _ {a b}) ^ {4}} + \frac {1 0 0}{(1 + y _ {a b}) ^ {4}}
+99.658 = \frac{6.5}{(1 + y_{ab})} + \frac{6.5}{(1 + y_{ab})^{2}} + \frac{6.5}{(1 + y_{ab})^{3}} + \frac{6.5}{(1 + y_{ab})^{4}} + \frac{100}{(1 + y_{ab})^{4}}
 $$
 
 TVM does this automatically, gives Yield (Interest) per yr (I%YR)
 
 - Make sure set right: <Blue> <MAIN> <FIN> <TVM> <1 P/YR> <END>
 
-<table><tr><td></td><td>N</td><td>I%YR</td><td>PV</td><td>PMT</td><td>FV</td></tr><tr><td>Given</td><td>4</td><td></td><td>-99.658</td><td>6.5</td><td>100</td></tr><tr><td>Solve For</td><td></td><td>6.6</td><td></td><td></td><td></td></tr></table>
+|  | N | I%YR | PV | PMT | FV |
+|---|----|------|----|-----|----|
+| Given | 4 |  | -99.658 | 6.5 | 100 |
+| Solve For |  | 6.6 |  |  |  |
 
 # Periodic CFs (Not 1 per year)
 
@@ -74,7 +85,7 @@ But what if pays every 6mths (like UST)? Get \$3.25 every half-year.
 - Seems natural to use annual rate, for "number of years" (may be 1/2 year):
 
 $$
-9 9. 6 5 8 = \frac {3 . 2 5}{\left(1 + y _ {a b}\right) ^ {1 / 2}} + \frac {3 . 2 5}{\left(1 + y _ {a b}\right) ^ {1}} + \frac {3 . 2 5}{\left(1 + y _ {a b}\right) ^ {1 . 5}} + \dots + \frac {3 . 2 5}{\left(1 + y _ {a b}\right) ^ {4}} + \frac {1 0 0}{\left(1 + y _ {a b}\right) ^ {4}}
+99.658 = \frac{3.25}{(1 + y_{ab})^{1/2}} + \frac{3.25}{(1 + y_{ab})^{1}} + \frac{3.25}{(1 + y_{ab})^{1.5}} + \dots + \frac{3.25}{(1 + y_{ab})^{4}} + \frac{100}{(1 + y_{ab})^{4}}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/2b941e9b-ceca-4d95-8994-76d1655223a0/aa5f2d12ffb321dddb5435256fe32efe911470dc06558f56547a2c72f37fb6f7.jpg)
@@ -489,30 +500,32 @@ $$
 
 The change in bond price  $(PV(y + h) - PV(y - h))$  is different for each, because we are bumping up and down by different amounts. Those changes in bond price on their own will not be useful for the derivative because they measure changes for different amounts of change in yield. But we can normalize and convert them all to the change in bond price per 1 percentage point change in yield if we divide by the amount of the bump  $(2 \times h)$ . We see that the change in price from bumping up-and-down by 6bp is twice the change in prices using 3bp (to four decimals at least). We can use either one to give us our approximation to the derivate (change in price per 1 percentage point  $(100\mathrm{bp})$  change in yield). I tell you to use 5bp. Either 3 or 6 would also work, as long as we divide by the right  $2 \times h$ . But using  $\pm 50\mathrm{bp}$  is not a good idea because that is too big a change. We use a small change (small bump  $h$ ), and then normalize by the size of the bump to get the approximation per 1 percentage point change in yield.
 
-# 3.3 Duration
+## 3.3 Duration
 
-# Contents
-
-# Duration: Length vs Sensitivity
+### Duration: Length vs Sensitivity
 
 Three Concepts - I always start with BPV & DV01
 
 - BPV & DV01 - dollar change per change in yield - (aka dollar duration)
 
 $$
-B P V \& D V 0 1 = - \frac {\partial P V}{\partial y} \approx - \frac {P V (y + h) - P V (y - h)}{2 h}
+BPV \& DV01 = - \frac{\partial PV}{\partial y} \approx - \frac{PV(y + h) - PV(y - h)}{2h}
 $$
 
 - Modified (Adjusted) Duration - % change per change in yield
 
 $$
-M o d D u r = - \frac {1}{P V} \frac {\partial P V}{\partial y} = 1 0 0 \cdot \frac {B P V}{P V}
+ModDur = - \frac{1}{PV} \frac{\partial PV}{\partial y} = 100 \cdot \frac{BPV}{PV}
 $$
 
 - Macaulay Duration - weighted avg time until get repayed in years (MacDur≤maturity)
 
 $$
-M a c D u r = \sum t _ {i} \cdot \frac {P V _ {i}}{P V _ {T}}; t _ {i} i s t i m e t o p a y m e n t i; \frac {P V _ {i}}{P V _ {T}} i s w e i g h t
+MacDur = \sum t_{i} \cdot \frac{PV_{i}}{PV_{T}}; t_{i} is time to payment i; \frac{PV_{i}}{PV_{T}} is weight
+$$
+
+$$
+MacDur = \left(1 + \frac{y}{freq}\right) \cdot ModDur = 100 \cdot \frac{BPV}{PV} \cdot \left(1 + \frac{y}{freq}\right)
 $$
 
 $$
@@ -546,11 +559,18 @@ History.
 Macaulay duration for 4yr  $6.5\%$  bond  $= 3.65$  yrs  
 (annual coupon  $6.5\%$  4yrs, price 99.6582,yield  $6.6\% \mathrm{ab}$
 
-<table><tr><td>6.60%ab yield</td><td>BPV (\$100 bond, 100bp yld ch)</td><td>Modified Duration (%, 100bp)</td><td>Macaulay Duration (years)</td></tr><tr><td>4yr 6.5% bond, P=99.658</td><td>\$3.410</td><td>3.422%</td><td>3.648 yrs</td></tr><tr><td>6yr 7.0% bond, P=101.930</td><td>\$4.886</td><td>4.794%</td><td>5.110 yrs</td></tr></table>
+| 6.60%ab yield | BPV (\$100 bond, 100bp yld ch) | Modified Duration (%, 100bp) | Macaulay Duration (years) |
+|---------------|----------------------------------|------------------------------|---------------------------|
+| 4yr 6.5% bond, P=99.658 | \$3.410 | 3.422% | 3.648 yrs |
+| 6yr 7.0% bond, P=101.930 | \$4.886 | 4.794% | 5.110 yrs |
 
 In-Class Exercise 2: Duration / BPV  
 
-<table><tr><td>6.60%ab yield</td><td>BPV (\$100 bond, 100bp yld ch)</td><td>Modified Duration (%, 100bp)</td><td>Macaulay Duration (years)</td></tr><tr><td>4yr 6.5% bond, P=99.658</td><td>\$3.410</td><td>3.422%</td><td>3.648 yrs</td></tr><tr><td>6yr 7.0% bond, P=101.930</td><td>\$4.886</td><td>4.794%</td><td>5.110 yrs</td></tr><tr><td>10yr 7.0% bond, P=102.862</td><td>\$7.289</td><td>7.086%</td><td>7.554 yrs</td></tr></table>
+| 6.60%ab yield | BPV (\$100 bond, 100bp yld ch) | Modified Duration (%, 100bp) | Macaulay Duration (years) |
+|---------------|----------------------------------|------------------------------|---------------------------|
+| 4yr 6.5% bond, P=99.658 | \$3.410 | 3.422% | 3.648 yrs |
+| 6yr 7.0% bond, P=101.930 | \$4.886 | 4.794% | 5.110 yrs |
+| 10yr 7.0% bond, P=102.862 | \$7.289 | 7.086% | 7.554 yrs |
 
 1. Guess at Macaulay Duration, and from that BPV & Modified Duration  
 2. Calculate BPV (formula below)  

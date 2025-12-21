@@ -1,13 +1,27 @@
 ---
-parent_directory:
-title: Backtesting
-tags:
-aliases:
-parent_folder: Advanced Investments
-subfolder:
-key_concepts:
+title: "Backtesting Params and Metrics Harvey"
+parent_directory: "Quantitative Trading/FINM Quantitative Trading Strategies/Lecture Notes"
+formatted: "2025-12-21 03:20:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - "backtesting"
+  - "Sharpe ratio"
+  - "multiple testing"
+  - "data mining"
+  - "investment strategies"
+secondary_tags:
+  - "t-statistic"
+  - "p-value"
+  - "Bonferroni adjustment"
+  - "Holm adjustment"
+  - "false discovery rate"
+  - "family-wise error rate"
+  - "Sharpe ratio adjustment"
+  - "multiple hypothesis testing"
+  - "statistical significance"
+  - "trading strategies"
 cssclasses: academia
-linter-yaml-title-alias: Backtesting
 ---
 
 # Backtesting
