@@ -1,23 +1,25 @@
 ---
 title: Securitized banking and the run on repo
 parent_directory: Class 7-CP, Repo, and the Crisis
-formatted: 2025-12-21 12:00:00 PM
-formatter_model: grok-code-fast-1
+formatted: 2025-12-21 5:10:00 PM
+formatter_model: claude-sonnet-4
 cli_tool: opencode
 primary_tags:
-  - securitized banking
-  - repo crisis
-  - financial crisis
-  - subprime mortgages
+   - securitized banking
+   - repo crisis
+   - repo haircuts
+   - systemic risk
 secondary_tags:
-  - repurchase agreements
-  - asset-backed securities
-  - collateralized debt obligations
-  - counterparty risk
-  - interbank markets
-  - bank runs
-  - systemic risk
-  - liquidity crisis
+   - counterparty risk
+   - liquidity crisis
+   - bank runs
+   - repo spreads
+   - financial contagion
+   - repurchase agreements
+   - asset-backed securities
+   - collateralized debt obligations
+   - subprime mortgages
+   - interbank markets
 cssclasses: academia
 ---
 
@@ -28,7 +30,7 @@ Gary Gorton $^{a,b,*}$ , Andrew Metrick $^{a,b}$
 a Yale, USA  
 b NBER, USA
 
-# ARTICLEINFO
+### Article Info
 
 Article history:
 
@@ -64,15 +66,15 @@ Securitization
 
 Subprime
 
-# ABSTRACT
+## Abstract
 
 The panic of 2007-2008 was a run on the sale and repurchase market (the repo market), which is a very large, short-term market that provides financing for a wide range of securitization activities and financial institutions. Repo transactions are collateralized, frequently with securitized bonds. We refer to the combination of securitization plus repo finance as "securitized banking" and argue that these activities were at the nexus of the crisis. We use a novel data set that includes credit spreads for hundreds of securitized bonds to trace the path of the crisis from subprime-housing related assets into markets that had no connection to housing. We find that changes in the LIB-OIS spread, a proxy for counterparty risk, were strongly correlated with changes in credit spreads and repo rates for securitized bonds. These changes implied higher uncertainty about bank solvency and lower values for repo collateral. Concerns about the liquidity of markets for the bonds used as collateral led to increases in repo haircuts, that is the amount of collateral required for any given transaction. With declining asset values and increasing haircuts, the US banking system was effectively insolvent for the first time since the Great Depression.
 
 © 2011 Elsevier B.V. All rights reserved.
 
-# 1. Introduction
+## Introduction
 
-The 2007-2008 financial crisis was a system wide bank run. What makes this bank run special is that it did not occur in the traditional-banking system, but instead took place in
+The 2007-2008 financial crisis was a system wide bank run. What makes this bank run special is that it did not occur in the traditional-banking system, but instead took place in the "securitized-banking" system. A traditional-banking run is driven by the withdrawal of deposits, a securitized-banking run is driven by the withdrawal of repurchase (repo) agreements. Hence, we describe the crisis as a run on repo. The purpose of this paper is to propose a mechanism for this new kind of bank run and to provide supporting evidence for this mechanism through analysis of two novel data sets.
 
 $^{\star}$  We thank Lei Xie for research assistance, Sara Dowling for editorial assistance, numerous anonymous traders and bankers for help with data, and seminar participants at the National Bureau of Economic Research Crisis Conference, New York Federal Reserve Bank, the Board of Governors of the Federal Reserve System, University of Texas, Massachusetts Institute of Technology, Harvard, London School of Economics and Political Science, the Allied Social Science Association Meetings, the European Central Bank, the International Monetary Fund, the National Association of Business Economists, the Brookings Institution, the Santa Fe Institute, Fidelity, State Street, Wellington Capital Management, and the Moody's/Stern Credit Conference for comments. Also, thanks to Charles Calomiris, Yingmei Cheng, Kent Daniel, Chi-fu Huang, Kevin James, Manfred Kremer, Greg Nini, Richard Rosen, and Jeremy Stein for comments and suggestions. We thank Krista Schwartz for sharing her data with us. Finally, thanks to all those who emailed comments and suggestions.
 
@@ -80,17 +82,15 @@ $^{\star}$  We thank Lei Xie for research assistance, Sara Dowling for editorial
 
 E-mail address: gary.gorton@yale.edu (G. Gorton).
 
-the "securitized-banking" system. A traditional-banking run is driven by the withdrawal of deposits, a securitized-banking run is driven by the withdrawal of repurchase (repo) agreements. Hence, we describe the crisis as a run on repo. The purpose of this paper is to propose a mechanism for this new kind of bank run and to provide supporting evidence for this mechanism through analysis of two novel data sets.
-
 Traditional banking is the business of making and holding loans, with insured demand deposits as the main source of funds. Securitized banking is the business of packaging and reselling loans, with repo agreements as the main source of funds. Securitized-banking activities were central to the operations of firms formerly known as investment banks (e.g. Bear Stearns, Lehman Brothers, Morgan Stanley, and Merrill Lynch), but they also play a role at commercial banks, as a supplement to traditional-banking activities of firms such as Citigroup, J.P. Morgan, and Bank of America.<sup>1</sup>
 
-We argue that the financial crisis that began in August 2007 was a systemic event, to meaning that the banking sector became insolvent, in the sense that it could not pay off its debt. What happened is analogous to the banking panics of the 19th century in which depositors en masse went to their banks seeking to withdraw cash in exchange for demand and savings deposits. The banking system could not honor these demands because the cash had been lent out and the loans were illiquid so they suspended convertibility and relied on clearinghouses to issue certificates as makeshift currency.2 Evidence of the insolvency of the banking system (i.e., that the system cannot pay off the demand deposits, as demanded by depositors) in these earlier episodes is the discount on these certificates. We argue that the current crisis is similar in that contagion led to withdrawals in the form of unprecedented high repo haircuts and even the cessation of repo lending on many forms of collateral. Evidence of insolvency in 2008 is the bankruptcy or forced rescue of several large firms, with other (even larger) firms requiring government support to stay in business.
+We argue that the financial crisis that began in August 2007 was a systemic event, so meaning that the banking sector became insolvent, in the sense that it could not pay off its debt. What happened is analogous to the banking panics of the 19th century in which depositors en masse went to their banks seeking to withdraw cash in exchange for demand and savings deposits. The banking system could not honor these demands because the cash had been lent out and the loans were illiquid so they suspended convertibility and relied on clearinghouses to issue certificates as makeshift currency.2 Evidence of the insolvency of the banking system (i.e., that the system cannot pay off the demand deposits, as demanded by depositors) in these earlier episodes is the discount on these certificates. We argue that the current crisis is similar in that contagion led to withdrawals in the form of unprecedented high repo haircuts and even the cessation of repo lending on many forms of collateral. Evidence of insolvency in 2008 is the bankruptcy or forced rescue of several large firms, with other (even larger) firms requiring government support to stay in business.
 
 To perform our analysis, we use two novel data sets, one with information on 392 securitized bonds and related assets, including many classes of asset-backed securities (ABSs), collateralized debt obligations (CDOs), and credit default swaps (CDSs) and the other repo rates and repo haircuts. Using these data, we are able to provide a new perspective on the contagion in this crisis. In our exposition, we use this term "contagion" specifically to mean the spread of the crisis from subprime housing assets to non-subprime assets that have no direct connection to the housing market. In fact, we argue that to explain the crisis requires explaining why the spreads on non-subprime related asset classes rose dramatically.
 
 To provide background for our analysis, we illustrate the differences between traditional banking and securitized banking in Figs. 1 and 2. Fig. 1 provides the classic picture of the financial intermediation of mortgages by the traditional-banking system. In Step A, depositors transfer money to the bank, in return for a checking or savings account from which withdrawals can be made at any time. In Step B, the bank loans these funds to a borrower, who promises to repay through a mortgage on the property. The bank then holds this mortgage on its
 
-# (footnote continued)
+**Footnote continued:**
 
 activity and as a crucial source of the collateral used to raise funds in repo transactions. Other banking terms such as "wholesale banking," "shadow banking," and "investment banking" have broader connotations and do not completely encompass our definition of securitized banking. The closest notion to our definition of securitized banking is the model of "unstable banking" proposed by Shleifer and Vishny (2009).
 
@@ -105,7 +105,7 @@ balance sheet, along with other non-mortgage loans made to retail and commercial
 
 Traditional-banking runs, for the most part, were ended in United States after the Great Depression, owing to a combination of influences, including enhanced discount window lending by the Federal Reserve and the introduction of deposit insurance. Deposit insurance removes any incentive for insured depositors to withdraw their funds, but larger insured banks cannot offer insured depositors to non retail depositors (including sovereign wealth funds, mutual funds, and cash-rich companies). One solution to this problem is the securitized-banking system illustrated in Fig. 2, which takes large deposits from investors (Step 1) and then intermediates these deposits to mortgage borrowers (Steps 2 and 3) and other debtors.
 
-Step 1 in Fig. 2 is an analogue to Step A from Fig. 1, with one important difference. In the traditional-banking system shown in Fig. 1, the deposits are insured by the government. To achieve similar protection in Step 1 of Fig. 2, the investor receives collateral from the bank. In practice, this deposit-collateral transaction takes the form of a repo agreement: the investor buys some asset (i.e., the collateral) from the bank for  $X, and the bank agrees to repurchase the same asset some time later (perhaps the next day) for$ Y. The percentage  $(Y - X) / X$  is the repo rate, and is analogous to the interest rate on a bank deposit.
+Step 1 in Fig. 2 is an analogue to Step A from Fig. 1, with one important difference. In the traditional-banking system shown in Fig. 1, the deposits are insured by the government. To achieve similar protection in Step 1 of Fig. 2, the investor receives collateral from the bank. In practice, this deposit-collateral transaction takes the form of a repo agreement: the investor buys some asset (i.e., the collateral) from the bank for  \$X, and the bank agrees to repurchase the same asset some time later (perhaps the next day) for\$ Y. The percentage  $(Y - X) / X$  is the repo rate, and is analogous to the interest rate on a bank deposit.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/bb662ad9-3c13-41f3-8359-5b617643e660/8bde8aa838a3ae93df08e0261a62262a4feae1db9e32d59f3ecf8ad578d523f8.jpg)  
 Fig. 2. Securitized banking.
@@ -507,14 +507,12 @@ It seems natural that banks would have to raise repo spreads to attract funds. B
 
 themselves cause a systemic event. For a run on repo, we need to see that the depositors withdraw from the bank, that is, market participants demand higher repo haircuts. Fig. 4 shows that this did occur. In this subsection we turn to examining repo haircuts.
 
-First, regarding the data, the size of repo haircuts depends on the identities of the counterparties and on the type of collateral. Our data set is from a high-quality dealer bank transacting with other high-quality dealer banks. Other repo data that we have involve different types of counterparties, e.g., a dealer bank providing
-
-collateralized funds to a hedge fund, via reverse repo. The haircuts that a hedge fund faces when borrowing from a dealer bank are larger than what the dealer faces in the interbank market, for the same bond (on the same date). All the haircut data sets show the same pattern as displayed in Fig. 4, but they do not all start at zero haircuts prior to the crisis. The data set we analyze here is the most extensive.
+First, regarding the data, the size of repo haircuts depends on the identities of the counterparties and on the type of collateral. Our data set is from a high-quality dealer bank transacting with other high-quality dealer banks. Other repo data that we have involve different types of counterparties, e.g., a dealer bank providing collateralized funds to a hedge fund, via reverse repo. The haircuts that a hedge fund faces when borrowing from a dealer bank are larger than what the dealer faces in the interbank market, for the same bond (on the same date). All the haircut data sets show the same pattern as displayed in Fig. 4, but they do not all start at zero haircuts prior to the crisis. The data set we analyze here is the most extensive.
 
 Haircuts are a puzzle. If depositors in the repo market, receiving collateral to protect their deposits, were concerned that the bank might fail, causing them to need to sell the collateral, then the risks of what price they would realize would enter their calculation. If the market for the collateral is volatile, then standard finance theory suggests that they should ask for a higher repo rate initially. Dang, Gorton, and Holmstrom (2011) argue that debt and in particular, repo are optimally designed securities which are used to intertemporally transport value. Their design is such as to minimize the variance of their value in the face of public shocks. A haircut is sometimes needed to protect against such volatility and provide an incentive for a counterparty to repurchase the security. We next explore the factors related to these increases using the same regression framework as we did for repo spreads:
 
 $$
-\Delta H_{j, t} = a_{1} + b_{1} \Delta \mathbf {A B X}_{t} + b_{2} \Delta \mathbf {L I B} - \mathbf {O I S}_{t} + b_{3} \Delta \mathbf {X}_{t} + b_{4} \Delta \mathbf {V O L}_{j, t} + e_{i, t} \tag {7}
+\Delta H_{j, t} = a_{1} + b_{1} \Delta \mathbf{ABX}_{t} + b_{2} \Delta \mathbf{LIB} - \mathbf{OIS}_{t} + b_{3} \Delta \mathbf{X}_{t} + b_{4} \Delta \mathbf{VOL}_{j, t} + e_{i, t} \tag {7}
 $$
 
 where  $H_{j,t}$  is the average haircut for all assets in class  $j$  and all other variables are defined as in Eq. (3). Because haircuts are already defined as a percentage of the total value of the underlying collateral, the change in haircuts on the left-hand side of Eq. (7) is already given in percentages. Table 7 summarizes the results. As we have found in earlier tests, the ABX and the control variables are not significant. In contrast to previous regressions, the change in the LIB-OIS is also not significant. The only variable with any explanatory power is the proxy for expected volatility, which is significant for three of the five classes of collateral.
@@ -541,13 +539,9 @@ Overall, these results support the interpretation of LIB-OIS as a proxy for coun
 
 # 6. Conclusion
 
-How did problems in the subprime mortgages cause a systemic event? Our answer is that there was a run in the repo market. The location and size of subprime risks held by counterparties in the repo market were not known and led to fear that liquidity would dry up for collateral, in
+How did problems in the subprime mortgages cause a systemic event? Our answer is that there was a run in the repo market. The location and size of subprime risks held by counterparties in the repo market were not known and led to fear that liquidity would dry up for collateral, in particular non-subprime related collateral. Public shocks causing expected future spread volatility led to increases in the repo haircuts, which is tantamount to massive withdrawals from the banking system.
 
-particular non-subprime related collateral. Public shocks causing expected future spread volatility led to increases in the repo haircuts, which is tantamount to massive withdrawals from the banking system.
-
-The banking system has changed, with securitized banking playing an increasing role alongside traditional banking. One large area of securitized banking, the securitization of subprime home mortgages, began to weaken in early 2007 and continued to decline throughout 2007 and 2008. But, the weakening of subprime per se was not the shock that
-
-caused systemic problems. The first systemic event occurs in August 2007, with a shock to the repo market that we demonstrate using the LIB-OIS, the spread between the LIBOR and the Is, as a proxy. The reason that this shock occurred in August 2007, as opposed to any other month of 2007, is perhaps unknowable. We hypothesize that the market slowly became aware of the risks associated with the subprime market, which then led to doubts about repo collateral and bank solvency. At some point (August 2007 in this telling) a critical mass of such fears led to the first run on repo, with lenders no longer willing to provide short-term finance at historical spreads and haircuts.
+The banking system has changed, with securitized banking playing an increasing role alongside traditional banking. One large area of securitized banking, the securitization of subprime home mortgages, began to weaken in early 2007 and continued to decline throughout 2007 and 2008. But, the weakening of subprime per se was not the shock that caused systemic problems. The first systemic event occurs in August 2007, with a shock to the repo market that we demonstrate using the LIB-OIS, the spread between the LIBOR and the Is, as a proxy. The reason that this shock occurred in August 2007, as opposed to any other month of 2007, is perhaps unknowable. We hypothesize that the market slowly became aware of the risks associated with the subprime market, which then led to doubts about repo collateral and bank solvency. At some point (August 2007 in this telling) a critical mass of such fears led to the first run on repo, with lenders no longer willing to provide short-term finance at historical spreads and haircuts.
 
 After August 2007, the securitized-banking model was under pressure, with small equity bases stretched by increasing haircuts on high-grade collateral. We see evidence of this pressure in the co-movement of spreads on a wide variety of AAA and AA credits. This pressure contributed to the forced rescue of Bear Stearns in March 2008 and the failure of Lehman Brothers in September 2008. The second systemic event and run on repo occurred with the failure of Lehman. In this second event, we see parallels to 19th century banking crises, with a famine of liquidity leading to significant premia on even the safest of assets.
 
@@ -666,7 +660,7 @@ For fixed rate instruments, the spread is the yield spread, i.e., the difference
 The discount margin, dm, satisfies the following relation:
 
 $$
-P = 1 0 0 + \sum_{i = 1}^{n} \frac{1 0 0 (q m - d m) / m}{\left(1 + y_{i} + d m\right)^{i}}
+P = 100 + \sum_{i = 1}^{n} \frac{100 (qm - dm) / m}{\left(1 + y_{i} + dm\right)^{i}}
 $$
 
 where \(P\) is the price of the floating rate note (FRN) per \\(100 face value; \(qm\) is the quoted margin on FRN; \(dm\) is the discount margin; \(y_{i}\) is the assumed value of the reference rate (LIBOR) in period i; \(n\) is the number of period until maturity; and \(m\) is the number of period per year.

@@ -1,26 +1,38 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Central banking
-linter-yaml-title-alias: Central banking
+parent_directory: Modern Financial Markets and Institutions
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+primary_tags:
+  - monetary policy tools
+  - central bank functions
+  - bank supervision
+secondary_tags:
+  - open market operations
+  - discount rate policy
+  - reserve requirements
+  - quantitative easing
+  - deposit insurance
+  - lender of last resort
+  - too big to fail
+  - Basel Accords
+  - CAMELS rating system
+  - central bank independence
+cssclasses: academia
 ---
 
 # Central banking
 
-# LEARNING OUTCOMES
+**LEARNING OUTCOMES**
 
-A modern society could not function efficiently without the services provided by a central bank. They not only improve the well-being of the banking sector but, through their oversight of the entire financial system, make life better for all of us. By the end of this chapter you should be able to: explain the conduct of monetary policy through the system of reserve requirements combined with open market operations and discount rate changes;
+A modern society could not function efficiently without the services provided by a central bank. They not only improve the well-being of the banking sector but, through their oversight of the entire financial system, make life better for all of us. By the end of this chapter you should be able to:
 
-make clear the ways in which monetary policy impacts various aspects of the nation's economy;
-
-■ discuss the advantages and disadvantages of maintaining a central bank independent of political influence; describe the rationale and importance of deposit insurance, the lender of last resort function and the measures to control the banks judged too big to fail;
-
-explain the main regulatory variables that a central bank examines when judging a bank's safety and soundness (using the CAMELS system); explain the issues of bank liquidity and solvency risk, and describe the ways in which the regulators have tried to reduce these, including the Basel Accords;
-
-■ outline the central bank's role in the following:
+- explain the conduct of monetary policy through the system of reserve requirements combined with open market operations and discount rate changes;
+- make clear the ways in which monetary policy impacts various aspects of the nation's economy;
+- discuss the advantages and disadvantages of maintaining a central bank independent of political influence; describe the rationale and importance of deposit insurance, the lender of last resort function and the measures to control the banks judged too big to fail;
+- explain the main regulatory variables that a central bank examines when judging a bank's safety and soundness (using the CAMELS system); explain the issues of bank liquidity and solvency risk, and describe the ways in which the regulators have tried to reduce these, including the Basel Accords;
+- outline the central bank's role in the following:
 
 - banker to the national government and management of national debt;
 - the issue of currency;
@@ -37,7 +49,7 @@ In addition to the crucial functions of monetary policy (interest rate and money
 
 Note that this chapter describes the wide variety of responsibilities that a nation may choose to allocate to the purview of the central bank. However, many countries decide to establish alternative organisations to undertake some of the tasks described here while leaving the central bank to concentrate on a few of them.
 
-# Monetary policy
+## Monetary policy
 
 Central banks are given the task of managing the amount of money in an economy and the interest rates in that economy. That is, they conduct monetary policy. Getting monetary policy right is crucial to the well-being of a society. If there is too much money relative to the output of goods and services, with interest rates held too low, then inflation will take off. The resulting uncertainty about future price levels is likely to inhibit economic growth, or, at the very least, penalise those who are not protected against inflation. If monetary policy is too tight, with too little money in the economy and interest rates too high, then production will be lower than it otherwise could be and the greater unemployment will cause misery.
 
@@ -65,25 +77,25 @@ Bank A's opening balance sheet
 
 # Exhibit 7.1 Continued
 
-Now if deposits in Bank A are increased by  \$5 million the position changes. Deposits rise to\$ 105 million and reserves rise to \$25 million as the additional \$5 million is initially held as reserves at the central bank.
+Now if deposits in Bank A are increased by $5 million the position changes. Deposits rise to $105 million and reserves rise to $25 million as the additional $5 million is initially held as reserves at the central bank.
 
 Bank A. An increase in deposits – intermediate period
 
 <table><tr><td>Assets</td><td></td><td>Liabilities</td><td></td></tr><tr><td>Reserves</td><td>$25m</td><td>Deposits</td><td>$105m</td></tr><tr><td>Loans</td><td>80m</td><td></td><td></td></tr></table>
 
-This means that the reserve ratio has risen to $25m ÷ $105m = 23.8 per cent. The bank earns no or little interest from reserves, so it will wish to reduce it back to 20 per cent by lending out the extra. The next balance sheet shows the amount of lending that leaves a 20 per cent reserve ratio, 84 million.
+This means that the reserve ratio has risen to $25m ÷ $105m = 23.8 per cent. The bank earns no or little interest from reserves, so it will wish to reduce it back to 20 per cent by lending out the extra. The next balance sheet shows the amount of lending that leaves a 20 per cent reserve ratio, $84m.
 
 Bank A. Lending out just enough to attain minimum reserve ratio
 
 <table><tr><td>Assets</td><td></td><td>Liabilities</td><td></td></tr><tr><td>Reserves</td><td>$21m</td><td>Deposits</td><td>$105m</td></tr><tr><td>Loans</td><td>84m</td><td></td><td></td></tr></table>
 
-Now let us bring in more banks. In lending an additional \$4 million Bank A will have an impact on the rest of the banking system. If the \$4 million is lent to a company and, initially at least, that company deposits the money in Bank B, then at the central bank, Bank A's account will be debited (reserves go down) and Bank B's account will be credited (reserves increase). Bank B will lend out 80 per cent of the amount, or \$3.2 million keeping \$800,000 in reserves to maintain its 20 per cent ratio of reserves to deposits. The 3.2 million lent finds its way to Bank C, which again holds 20 per cent as reserves and lends the rest, and so on. At each stage 80 per cent of the deposit is lent out, increasing the deposits of other banks, encouraging them to lend.
+Now let us bring in more banks. In lending an additional $4 million Bank A will have an impact on the rest of the banking system. If the $4 million is lent to a company and, initially at least, that company deposits the money in Bank B, then at the central bank, Bank A's account will be debited (reserves go down) and Bank B's account will be credited (reserves increase). Bank B will lend out 80 per cent of the amount, or $3.2 million keeping $800,000 in reserves to maintain its 20 per cent ratio of reserves to deposits. The 3.2 million lent finds its way to Bank C, which again holds 20 per cent as reserves and lends the rest, and so on. At each stage 80 per cent of the deposit is lent out, increasing the deposits of other banks, encouraging them to lend.
 
-The effect on the banking system of an injection of  $\$ 5\mathrm{m}$  of money, under a reserve ratio of  ${20}\%$
+The effect on the banking system of an injection of $5m of money, under a reserve ratio of $20\%$
 
 <table><tr><td></td><td>Change in deposits, $m</td><td>Change in loans, $m</td><td>Change in reserves, $m</td></tr><tr><td>Bank A</td><td>5.00</td><td>4.00</td><td>1.00</td></tr><tr><td>Bank B</td><td>4.00</td><td>3.20</td><td>0.80</td></tr><tr><td>Bank C</td><td>3.20</td><td>2.56</td><td>0.64</td></tr><tr><td>Bank D</td><td>2.56</td><td>2.05</td><td>0.51</td></tr><tr><td>Bank E</td><td>2.05</td><td>1.64</td><td>0.41</td></tr><tr><td>Bank F</td><td>….</td><td>….</td><td>….</td></tr><tr><td>Bank G</td><td>….</td><td>….</td><td>….</td></tr><tr><td>Total of all banks</td><td>25</td><td>20</td><td>5</td></tr></table>
 
-The credit multiplier is a reciprocal of the reserve ratio, which in this case  $= 1 \div 0.20 = 5$ . Following an injection of \$5 million into the financial system the whole process ends when an additional \$25 million of deposits has been created; equilibrium has been reached again. (The model is a simplification for illustrative purposes. In reality, there might be leakages from the system due to money flowing abroad, or people holding cash or buying government bonds rather than placing it in bank deposits.)
+The credit multiplier is a reciprocal of the reserve ratio, which in this case $= 1 \div 0.20 = 5$. Following an injection of \$5 million into the financial system the whole process ends when an additional \$25 million of deposits has been created; equilibrium has been reached again. (The model is a simplification for illustrative purposes. In reality, there might be leakages from the system due to money flowing abroad, or people holding cash or buying government bonds rather than placing it in bank deposits.)
 
 Remember: the creator of the monetary base is the central bank because it has a monopoly on the issuance of currency. If it has control over this then it can strongly influence the broader money supply (including deposits at banks) through the reserves requirements. So, once the system has settled down from the injection of a new deposit, it will be fairly stable – little money creation or removal.
 
@@ -112,7 +124,7 @@ Bank A balance sheet after an injection of 6m
 
 <table><tr><td>Assets</td><td></td><td>Liabilities</td><td></td></tr><tr><td>Reserves</td><td>$27m</td><td>Deposits</td><td>$111m</td></tr><tr><td>Loans</td><td>84m</td><td></td><td></td></tr></table>
 
-Bank A has a very high reserve level relative to its deposits,  $\27\mathrm{m} \div \$ 111\mathrm{m} = 24.3  per cent. The managers will want to employ the surplus money above that needed to maintain the target reserve ratio (20 per cent) to earn higher interest by lending it, thus new money flows into the financial system. If the central bank wanted to drain money from the system through open market operations it would sell government securities to investors, which reduces the amount held by banks in their reserve accounts at the central bank or reduces vault cash. This would curb lending and raise interest rates.
+Bank A has a very high reserve level relative to its deposits, $\27\mathrm{m} \div \$111\mathrm{m} = 24.3$ per cent. The managers will want to employ the surplus money above that needed to maintain the target reserve ratio (20 per cent) to earn higher interest by lending it, thus new money flows into the financial system. If the central bank wanted to drain money from the system through open market operations it would sell government securities to investors, which reduces the amount held by banks in their reserve accounts at the central bank or reduces vault cash. This would curb lending and raise interest rates.
 
 Central banks tend to use Treasury securities to conduct open market operations because the secondary market in these securities is very liquid and a large volume of these securities held by dealers and investors, meaning that the market can absorb a large number of buy and sell transactions. The main method used is a repurchase agreement – a repo – in which the central bank purchases securities with a prior agreement to sell them back to the counterparty after, say, 24 hours, 7 days or 14 days. The difference between the buying and selling price provides the effective interest rate. If the central bank wanted to drain money it would engage in a reverse repo (there is more on repos in Chapter 5).
 

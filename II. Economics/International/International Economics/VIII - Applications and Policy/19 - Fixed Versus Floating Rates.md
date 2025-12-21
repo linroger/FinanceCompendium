@@ -1,31 +1,27 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'Exchange Rate Crises: How Pegs Work and How They Break'
-linter-yaml-title-alias: 'Exchange Rate Crises: How Pegs Work and How They Break'
+title: "19 - Fixed Versus Floating Rates"
+parent_directory: "VIII - Applications and Policy"
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
 primary_tags:
-- lecture contractionary currency crashes
-- sufficient liquidity foreign currency
-- fixed central bank
-- political costs crises exchange
-- forex market defend peg
+  - exchange rate crises
+  - fixed exchange rates
+  - currency pegs
+  - central bank reserves
+  - interest rate spreads
 secondary_tags:
-- understanding exchange rate crises
-- exchange rate pegs break
-- level fixed money demand
-- money supply alternative view
-- exchange rate floating central
-- rate crises pegs
-- peg cycle crises
-- suppose central bank increases
-- exchange rate regimes makes
-- peg central bank rate
-- circulation outside central bank
-- currency central bank example
-tags_extracted: '2025-12-18T00:47:10.288052'
+  - emerging market crises
+  - banking crises
+  - sovereign debt crises
+  - twin crises
+  - lender of last resort
+  - sterilization interventions
+  - currency board systems
+  - risk premiums
+  - contagion effects
+  - exchange rate regime choice
+cssclasses: academia
 ---
 
 # Exchange Rate Crises: How Pegs Work and How They Break
@@ -42,15 +38,9 @@ In the last chapter, we treated the question "fixed or floating?" as a one-time 
 
 Unfortunately, the reality is different. The typical fixed exchange rate succeeds for a few years, only to break. A recent study found that the average duration of any peg was about five years, and the median duration was only two years. When the break occurs, there is often a large, sudden depreciation accompanied by high economic and political costs. Such a collapse is known as an exchange rate crisis. When a country shifts from floating to fixed it is generally smooth and planned, but when a country shifts from fixed to floating it is typically unplanned and catastrophic.
 
-Despite the fragility exposed by recurrent crises, fixed exchange rate regimes are still in use. Typically, after a crisis, a country that prefers to have a fixed exchange rate
+Despite the fragility exposed by recurrent crises, fixed exchange rate regimes are still in use. Typically, after a crisis, a country that prefers to have a fixed exchange rate will try to peg again: the cycle of crises may continue. Understanding exchange rate crises is a major goal of international macroeconomics because of the damage they do, not only to the country in which the crisis occurs but often to its neighbors and trading partners. In this chapter we learn about exchange rate crises, their causes, and their consequences.
 
-1 Facts About Exchange Rate Crises
-
-2 How Pegs Work: The Mechanics of a Fixed Exchange Rate
-
-3 How Pegs Break I: Inconsistent Fiscal Policies
-
-4 How Pegs Break II: Contingent Monetary Policies
+## 1 Facts About Exchange Rate Crises
 
 5 Conclusions will try to peg again: the cycle of crises may continue. Understanding exchange rate crises is a major goal of international macroeconomics because of the damage they do, not only to the country in which the crisis occurs but often to its neighbors and trading partners. In this chapter we learn about exchange rate crises, their causes, and their consequences.
 
@@ -150,7 +140,7 @@ Source: Jeffrey A. Frankel, 2005, "Mundell-Fleming Lecture: Contractionary Curre
 International macroeconomists thus have three crisis types to consider: exchange rate crises, banking crises, and default crises. Evidence shows they can occur one at a time, but they are quite likely to occur simultaneously:
 
 - The likelihood of a banking or default crisis increases significantly when a country is having an exchange rate crisis. One study found that the probability of a banking crisis was 1.6 times higher during an exchange rate crisis (16\% versus 10\% on average). Another study found that the probability of a default crisis was more than 3 times higher during an exchange rate crisis (39\% versus 12\% on average). [5] Explanations for these findings focus on valuation effects. As we saw in the last chapter, a big depreciation causes a sudden increase in the local currency value of dollar debts (principal and interest). Because this change in value can raise debt burdens to intolerable levels, exchange rate crises are frequently accompanied by financial distress in the private and public sectors.
-The likelihood of an exchange rate crisis increases significantly when a country is having a banking or default crisis. The same two studies just noted found that the probability of an exchange rate crisis was 1.5 times higher during a banking crisis (46\% versus 29\% on average). The probability of an exchange rate crisis was more than 5 times higher during a default crisis (84\% versus 17\% on average).
+- The likelihood of an exchange rate crisis increases significantly when a country is having a banking or default crisis. The same two studies just noted found that the probability of an exchange rate crisis was 1.5 times higher during a banking crisis (46\% versus 29\% on average). The probability of an exchange rate crisis was more than 5 times higher during a default crisis (84\% versus 17\% on average).
 
 Explanations for these reverse effects center on the issuance of money by the central bank to bail out banks and governments. Banking crises can be horrendously costly. As can be seen in Table 20-1, countries have to cope not only with direct fiscal costs of fixing a damaged banking sector (e.g., through the bailout and recapitalization of insolvent institutions) but also with typically very long and protracted recessions where output is significantly below trend. These slumps in turn create added cyclical drag on the government's fiscal position (lower taxes, higher spending) leading to a large run up in public debt. Such burdens might be handled purely via future fiscal adjustments, but they can sometimes endanger monetary policy and the nominal anchor. If a country is having a banking crisis, the central bank will be under pressure to extend credit or outright transfers to weak banks to prop them up. If a country is having a default crisis, the government will lose access to foreign and domestic loans and may pressure the central bank to lend to the government. This raises a key question: Why does the extension of credit by the central bank threaten an exchange rate peg? In this chapter, we show how a peg works—and how, if the central bank issues too much money to pay for bailouts and/or government deficits, it can place the peg at risk by causing a loss of reserves.
 
@@ -158,7 +148,7 @@ These findings show how crises are likely to happen in pairs, known as twin cris
 
 # Summary
 
-Exchange rate crises have been recurring for more than 100 years, and we have not seen the last of them. They can generate significant economic costs, and policy makers and scholars are seriously concerned about how to prevent them. What is it about
+Exchange rate crises have been recurring for more than 100 years, and we have not seen the last of them. They can generate significant economic costs, and policy makers and scholars are seriously concerned about how to prevent them. What is it about fixed exchange rate regimes that makes them so fragile? Why and how do crises happen? And how can the risks of such crises be mitigated? These are the questions we address in the rest of this chapter.
 
 Costly Banking Crises The table shows the estimated costs of major banking crises since 1991 in both advanced and emerging economies. Various measures are shown: the loss of output relative to trend, the direct costs to the government of repairing the banking system, and the change in the level of public debt.
 
@@ -172,9 +162,7 @@ TABLE 20-1
 
 Source: Peter Hooper, Michael Spencer, Torsten Slaek, and Thomas Mayer, 2013, "Financial Crises: Past and Present," Global Economic Perspectives, 15 May (Deutsche Bank, Markets Research, Global Economics); based on Fabian Valencia and Luc Laeven, 2012, "Systemic Banking Crises Database: An Update," IMF Working Paper 12/163, International Monetary Fund.
 
-fixed exchange rate regimes that makes them so fragile? Why and how do crises happen? And how can the risks of such crises be mitigated? These are the questions we address in the rest of this chapter.
-
-# 2 How Pegs Work: The Mechanics of a Fixed Exchange Rate
+## 2 How Pegs Work: The Mechanics of a Fixed Exchange Rate
 
 To start, we must first understand how a pegged exchange rate works. Once we know what policy makers have to do to make a peg work, we will then be in a position to understand the factors that make a peg break.
 
@@ -607,7 +595,7 @@ Two Types of Exchange Rate Crisis In our model, using the central bank balance s
 
 In the next two sections, we develop models of these two types of crisis. Although the descriptions just given appear simple, a deeper examination reveals some peculiar features that illustrate the powerful role played by market expectations in triggering crises.
 
-# 3 How Pegs Break I: Inconsistent Fiscal Policies
+## 3 How Pegs Break I: Inconsistent Fiscal Policies
 
 We begin with a so-called first-generation crisis model of inconsistent fiscal policies in a country with a fixed exchange rate, a model proposed by economist Paul Krugman.[17] This kind of crisis model has been successfully applied to many historical cases, including a series of Latin American crises in the 1980s.
 
@@ -749,9 +737,7 @@ The first-generation crisis model tells us that inconsistent fiscal policies can
 
 For example, some economists have argued that expected future deficits were a factor in the Asian currency crisis of 1997: the countries were affected by "crony capitalism" and the banking sectors were insolvent because of bad loans to insiders. Once the scale of these problems became known, investors believed that the monetary authorities would bail out the banks. Fears of a rapid future expansion of domestic credit thus undermined the pegs.[21]
 
-# 4 How Pegs Break II:
-
-# Contingent Monetary Policies
+## 4 How Pegs Break II: Contingent Monetary Policies
 
 In the previous section, we found that inconsistent fiscal policies under a fixed exchange rate regime eventually cause an exchange rate crisis. However, the crises of the 1990s often did not conform to a model based on deficit monetization because budget problems were absent in many cases. In particular, the Exchange Rate Mechanism (ERM) crisis of 1992 affected developed countries in Europe, most of which were unlikely to monetize deficits. In countries with apparently sound economic policies, foreign currency speculators went for the attack and pegs broke.[22]
 
@@ -885,7 +871,7 @@ It was all over by lunchtime, with the bulk of the reserves lost, and an estimat
 
 Our results are striking. If government policies are contingent, then they will depend on market sentiment. But market sentiment, in turn, depends on what the market believes the government will do. If costs of pegging are "low," then pegs hold when they "should"—when the government has no desire to exit. If costs of pegging are "high," then crises happen when they "should"—when the government clearly wants to exit. But in between these extremes, an ambiguity arises in the form of multiple equilibria because for some "medium" range of costs, a crisis occurs if and only if the market expects a crisis.
 
-# 5 Conclusions
+## 5 Conclusions
 
 Fixed exchange rates exhibit no signs of disappearing. Despite all their potential benefits, however, history shows another persistent feature—the recurrent crises that mark the collapse of fixed regimes.
 

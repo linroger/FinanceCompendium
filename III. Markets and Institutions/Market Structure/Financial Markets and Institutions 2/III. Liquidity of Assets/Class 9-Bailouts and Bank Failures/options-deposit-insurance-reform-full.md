@@ -1,12 +1,26 @@
 ---
 title: "Class 9 - Options for Deposit Insurance Reform"
-aliases:
-  - "Options for Deposit Insurance Reform"
-tags:
-key_concepts:
-parent_directory: "Class 9-Bailouts and Bank Failures"
+parent_directory: "III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/III. Liquidity of Assets/Class 9-Bailouts and Bank Failures"
+formatted: "2025-12-21 05:15:00 AM"
+formatter_model: "claude-sonnet-4-5-20251001"
+cli_tool: "claude-code"
+primary_tags:
+  - deposit insurance reform
+  - bank run prevention
+  - financial stability
+  - uninsured deposits
+secondary_tags:
+  - deposit insurance limits
+  - FDIC insurance coverage
+  - banking system risks
+  - deposit insurance pricing
+  - moral hazard
+  - depositor discipline
+  - targeted deposit coverage
+  - unlimited deposit insurance
+  - bank resolution
+  - systemic risk
 cssclasses: academia
-linter-yaml-title-alias: "Class 9 - Options for Deposit Insurance Reform"
 ---
 
 # OPTIONS FOR DEPOSIT INSURANCE REFORM
@@ -15,43 +29,21 @@ MAY 1, 2023
 
 # Table of Contents
 
-Section 1: Executive Summary. 1
+Section 1: Executive Summary
 
-Section 2: Introduction and Background 5
+Section 2: Introduction and Background
 
-Introduction 5  
-Background. 6
+Section 3: History of Deposit Insurance in the U.S.
 
-Section 3: History of Deposit Insurance in the U.S. 13
+Section 4: Objectives and Possible Consequences of Deposit Insurance
 
-The History of FDIC Insurance Coverage Limits 13  
-The Transaction Account Guarantee Program 16  
-Composition of Deposits 19  
-History of Uninsured Depositor Losses 21  
-What's Different Today? 22
+Section 5: Tools to Support Objectives and Address Possible Consequences
 
-Section 4: Objectives and Possible Consequences of Deposit Insurance 25
+Section 6: Options for Increased Deposit Insurance Coverage
 
-Objectives 25  
-Possible Consequences 29
+Section 7: Conclusion
 
-Section 5: Tools to Support Objectives and Address Possible Consequences. 33
-
-Bank Regulation and Supervision 33  
-Deposit Insurance Pricing 35  
-Fund Adequacy 39
-
-Section 6: Options for Increased Deposit Insurance Coverage 41
-
-Limited Coverage 41  
-Unlimited Coverage 44  
-Targeted Coverage 46  
-Excess Deposit Insurance Coverage 49  
-Additional Options. 51
-
-Section 7: Conclusion 55
-
-References 57
+References
 
 # Section 1: Executive Summary
 
@@ -77,7 +69,7 @@ Bank runs are a costly form of market discipline to mitigate moral hazard. Bank 
 
 Even with deposit insurance, non-deposit creditors and shareholders may still constrain bank risk-taking. However, deposit insurance may reduce the cost of deposit funding and so reduce bank incentives to raise non-deposit funding. Policies that promote reliance on other market participants to constrain bank risk-taking can dampen moral hazard concerns related to deposit insurance.
 
-# Deposit insurance has broader market effects.
+Deposit insurance has broader market effects.
 
 Banks compete for deposits on several dimensions. As deposit insurance increases, deposits become a relatively more attractive asset. In addition, as deposit insurance coverage increases, demand for deposits may rise, leading to a decline in deposit interest rates and an increase in bank reliance on deposit funding. Understanding the broader market implications of changes to deposit insurance is important for any policy decision.
 
@@ -91,7 +83,7 @@ to insured deposits. Increasing the size of the Fund must be done through increa
 
 Deposit insurance pricing is a tool that promotes fund adequacy, encourages the fair allocation of the cost of deposit insurance across banks and, to some extent, influences bank risk-taking. Requiring collateralization of large uninsured deposits may also be considered an option to limit bank reliance on uninsured deposits, reduce depositor run incentives, and increase depositor discipline. Limiting the convertibility of large uninsured deposits would restrict the capacity of depositors to run and may improve depositor discipline in a manner that does not threaten financial stability.
 
-This report evaluates three options to reform the deposit insurance system. Ordered only for clarity of discussion, Limited Coverage maintains the current structure of deposit insurance in which there is a finite deposit insurance limit that applies across depositors and types of accounts. Limited Coverage includes the possibility of an increased, but finite, deposit insurance limit. Unlimited Coverage provides unlimited deposit insurance. Targeted Coverage allows for different levels of deposit insurance coverage across different types of accounts and focuses on higher coverage for busi payment accounts. Targeted Coverage includes the possibility that some account types receive unlimited coverage, while others do not. Although each option has strengths and weaknesses, Targeted Coverage captures many of the financial stability benefits of expanded coverage while mitigating many of the undesirable consequences.
+This report evaluates three options to reform the deposit insurance system. Ordered only for clarity of discussion, Limited Coverage maintains the current structure of deposit insurance in which there is a finite deposit insurance limit that applies across depositors and types of accounts. Limited Coverage includes the possibility of an increased, but finite, deposit insurance limit. Unlimited Coverage provides unlimited deposit insurance. Targeted Coverage allows for different levels of deposit insurance coverage across different types of accounts and focuses on higher coverage for business payment accounts. Targeted Coverage includes the possibility that some account types receive unlimited coverage, while others do not. Although each option has strengths and weaknesses, Targeted Coverage captures many of the financial stability benefits of expanded coverage while mitigating many of the undesirable consequences.
 
 Each option should be viewed alongside other policy changes. Because each of the options has relative strengths and weaknesses, their effectiveness depends upon the extent to which other policies are pursued simultaneously. Regulation and supervision and deposit insurance pricing can be used to support financial stability objectives and mitigate consequences. In addition, limiting the convertibility of large uninsured deposits, requiring collateralization
 
@@ -133,7 +125,7 @@ TABLE 1.1 Summary of Advantages and Disadvantages of the Options for Deposit Ins
 
 # Section 2: Introduction and Background
 
-# Introduction
+## Introduction
 
 The Federal Deposit Insurance Corporation was established in 1933 in response to widespread bank runs and bank failures that inflicted severe damage on the U.S. economy.<sup>1</sup> Although many banks have failed since, with the advent of FDIC insurance all insured deposits have been fully protected.
 

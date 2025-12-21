@@ -1,12 +1,23 @@
 ---
-aliases:
-  - Hedge funds and private equity
-tags:
-key_concepts:
-parent_directory: Modern Financial Markets and Institutions
+---
+title: "Hedge funds and private equity"
+parent_directory: III. Markets and Institutions/Market Structure/Modern Financial Markets and Institutions
+formatted: 2025-12-21 05:07:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - hedge funds
+  - private equity
+secondary_tags:
+  - hedge fund strategies
+  - hedge fund fees
+  - hedge fund regulation
+  - hedge fund performance
+  - hedge fund investors
+  - fund of funds
+  - hedge fund managers
 cssclasses: academia
-title: "Chapter 14: Hedge funds and private equity"
-linter-yaml-title-alias: "Chapter 14: Hedge funds and private equity"
+---
 ---
 
 # Hedge funds and private equity

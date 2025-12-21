@@ -1,24 +1,39 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: The Value of the Financial System
+parent_directory: Modern Financial Markets and Institutions
+formatted: 2025-12-21 04:58:25 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - financial system overview
+  - market instruments institutions
+  - economic growth channels
+  - financial intermediation
+secondary_tags:
+  - bond market impacts
+  - equity market dynamics
+  - money market operations
+  - foreign exchange markets
+  - derivative commodity markets
+  - banking functions
+  - financial centre rankings
+  - market liberalization
+  - primary secondary markets
+  - exchange traded OTC
 cssclasses: academia
-title: The value of the financial system
-linter-yaml-title-alias: The value of the financial system
 ---
 
 # The value of the financial system
 
-# LEARNING OUTCOMES
+## LEARNING OUTCOMES
 
 This opening chapter provides an overview of the role of the financial system and briefly describes the main categories of markets, instruments and institutions. By the end of this chapter the reader should be able to:
 
-■ outline the character and importance of the main financial markets and instruments; explain the key roles played in a modern society by the financial products, markets and institutions;
+- outline the character and importance of the main financial markets and instruments; explain the key roles played in a modern society by the financial products, markets and institutions;
 
-describe the relative standing of the major financial centres;
+- describe the relative standing of the major financial centres;
 
-■ discuss the changes that have taken place in the way financial services are provided; define and illustrate some key financial terms, such as primary market and over-the-counter.
+- discuss the changes that have taken place in the way financial services are provided; define and illustrate some key financial terms, such as primary market and over-the-counter.
 
 When we switch on the evening news it is not long before there is a report about the financial markets or those institutions that provide financial services. Perhaps it is the Greek or UK governments straining to reduce public expenditure so that they do not have to borrow so much in the bond markets – politicians make pained pronouncements that they do not have any choice because the markets are putting so much pressure on them. Perhaps it is an announcement that workers are to receive much lower pensions than first promised because share prices have declined for years. Perhaps a rise in interest rates is hurting business borrowers and young families with mortgages. Or, perhaps, a few home owners in the US cannot repay their debt which, through a chain reaction, leads to the downfall of some mighty banks and threatens worldwide depression.
 
@@ -26,17 +41,18 @@ You do not need me to tell you that financial markets touch the lives of us all,
 
 This chapter explains the importance of the modern financial system by outlining the role of the main markets and institutions. Financial markets and institutions have a major role to play in channeling funds from those with a surplus looking for a return on their money to those in need of investment funds to, say, grow their business or buy a family home. In a well-functioning financial system, funds can flow easily and at low cost from savers to those with a productive use for the money. The increases in wealth we have seen over the past 100 years in most parts of the globe are in no small part due to the development of highly effective financial markets and institutions. Indeed, we can go so far as to say that one of the major reasons that some countries have failed to grow out of poverty is that they have not yet created a properly functioning mechanism for mobilising the savings of their citizens so that they can be used for investment in productive assets such as factories within their country.
 
-# The impact of these markets on our lives
+## The impact of these markets on our lives
 
-We will first look at a number of financial markets and illustrate the impact they have on ordinary people's lives. The markets are: the bond markets;
-
-the share markets; the money markets;
-
-the foreign exchange markets; the derivative and commodity markets.
+We will first look at a number of financial markets and illustrate the impact they have on ordinary people's lives. The markets are:
+- the bond markets;
+- the share markets;
+- the money markets;
+- the foreign exchange markets;
+- the derivative and commodity markets.
 
 We will also look at the impact of banking.
 
-# Bond markets
+## Bond markets
 
 Companies often need to borrow money so that they can build useful things such as factories and research establishments, for instance stem cell or cancer drug laboratories. One way for them to borrow is to produce a legally binding document, a bond, that states that the company will pay interest for, say, ten years and a capital sum at the end to whoever buys the bond. This is an attractive way for people, pension funds and others to obtain a return on their savings. It is made even more attractive by the fact that the lender does not have to keep their money tied up in the bond for the full ten years, but can sell it to other investors in an active market for bonds. The buyer of the bond may be willing to pay the same as the sum paid by the original owner to obtain the promise of future interest, or they may be willing to pay more or less – much depends on current going rates of return for that type of bond given its risk and anticipated inflation.
 
@@ -52,7 +68,7 @@ Exhibit 1.1 Yields on corporate bonds issued in pounds and euros, and yields on 
 
 Source: DATASTREAM
 
-# Equity markets
+## Equity markets
 
 An important innovation that has allowed much faster growth in people's economic well-being has been the principle of limited liability for companies. This means that if you or I buy a share in a company and then the company runs into difficulty and its creditors are chasing after it for payment, those creditors cannot come to us as shareholders and demand what the company owes them. So, if the firm cannot pay, we are not forced into selling our houses, cars, etc. simply because we have supplied share capital to a business to allow it to grow. It is different with sole traders and partnerships where the individuals are liable for the debts of the business.
 
@@ -60,15 +76,11 @@ As a result of limited liability millions of us now own shares (also called equi
 
 All major economies now have share markets, which encourages savers to put money into companies because once the shares have been sold by the company to raise the money it needs, they can then be sold on to other investors in the market should the original investor wish to raise some cash or invest elsewhere. Thus stock exchanges have been important sources of long-term capital for tens of thousands of companies.
 
-Exhibit 1.2 shows that the market value of UK and US shares has been something of a roller-coaster ride over the past 20 years (UK shares are represented by the FTSE 100 index, comprising the largest 100 companies on the market; US shares by the S&P 500 index, representing the largest 500 companies). Market prices shot up in the late 1990s as investors became excited by the new economy shares of the dot.com revolution. When equity markets are booming it can have an effect on people's confidence. They go out and spend more. They invest more in factories, machinery, etc. Thus the economy can get a lift. Conversely, when people feel poorer because
-
-# Exhibit 1.2
-
-# UK and US share market price movements, 1990-2011 (with the US S&P 500 index rebased to the UK FTSE 100 in 1991) their investments are down and they are told that their pensions will not have enough value left in them to support them in their old age they become more cautious spenders and investors, resulting in declining demand – as was the case in 2008 and 2011. While stock market movements are not the only causes of economic fluctuations, they are contributors.
+Exhibit 1.2 shows that the market value of UK and US shares has been something of a roller-coaster ride over the past 20 years (UK shares are represented by the FTSE 100 index, comprising the largest 100 companies on the market; US shares by the S&P 500 index, representing the largest 500 companies). Market prices shot up in the late 1990s as investors became excited by the new economy shares of the dot.com revolution. When equity markets are booming it can have an effect on people's confidence. They go out and spend more. They invest more in factories, machinery, etc. Thus the economy can get a lift. Conversely, when people feel poorer because their investments are down and they are told that their pensions will not have enough value left in them to support them in their old age they become more cautious spenders and investors, resulting in declining demand – as was the case in 2008 and 2011. While stock market movements are not the only causes of economic fluctuations, they are contributors.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/bdbfb88364c44d121062fe51ce1a40d4a947a7ff5e078aa8d4f17be6463d636f.jpg)
 
-# Money markets
+## Money markets
 
 You and I might, from time to time, need to borrow money for a short while, say on a credit card or via an overdraft. Similarly, large organisations such as companies, governments and banks often need to borrow money for a period of a few days or weeks. They tend not to borrow on credit cards and may find overdrafts inconvenient or relatively expensive. This is where the money markets come in – they allow companies, etc. to issue instruments that promise to pay a sum of money after, say, 30 days if the buyer pays an amount now for owning that right. Obviously the amount the lender puts down at the beginning of the 30 days is less than what they collect at the end, thus an effective interest rate is charged. We say that the money markets are wholesale markets because they involve large transactions each time – £500,000/€1,000,000 or more. They enable borrowing for less than one year. Banks are particularly active in this market – both as lenders and as borrowers. Large corporations, local government bodies and non-banking financial institutions also lend when they have surplus cash and borrow when short of money.
 
@@ -78,21 +90,23 @@ Exhibit 1.3 shows the interest rates that the UK government had to offer investo
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/c44e29303877d9024dd6498853229e0c8beee45c7794afd247a2aa0b79d81fbe.jpg)
 
-Exhibit 1.3 The interest rate the UK government offered investors in its various three-month Treasury bills issued each month 1991-2011 interest rates shown are annualised up. So, if an investor receives 0.2 per cent for lending for 91 days, the chart will show a figure of 0.8 per cent. You can see that normally the government pays around 4-6 per cent per year to borrow using three-month loans. In an economy where inflation is around 1.5-3 per cent this allows the lender to the UK government to obtain a real return (above inflation) of around 1-3 per cent. (In the early 1990s the UK had much higher inflation rates.) However, in the wake of the financial crisis the Bank of England significantly reduced interest rates for short-term borrowing for all sorts of instruments and this had a knock-on effect on the interest rate the government had to pay to borrow for three months - it has come all the way down to around 0.5 per cent (around 0.125 per cent for three months). This lowered the borrowing cost for the government, which is just as well given that it borrowed so much.
+Exhibit 1.3 The interest rate the UK government offered investors in its various three-month Treasury bills issued each month 1991-2011
+
+Interest rates shown are annualised up. So, if an investor receives 0.2 per cent for lending for 91 days, the chart will show a figure of 0.8 per cent. You can see that normally the government pays around 4-6 per cent per year to borrow using three-month loans. In an economy where inflation is around 1.5-3 per cent this allows the lender to the UK government to obtain a real return (above inflation) of around 1-3 per cent. (In the early 1990s the UK had much higher inflation rates.) However, in the wake of the financial crisis the Bank of England significantly reduced interest rates for short-term borrowing for all sorts of instruments and this had a knock-on effect on the interest rate the government had to pay to borrow for three months - it has come all the way down to around 0.5 per cent (around 0.125 per cent for three months). This lowered the borrowing cost for the government, which is just as well given that it borrowed so much.
 
 However, the extremely low interest rates throughout the financial system, including bank account savings rates, produced howls of complaint from savers, who received interest significantly less than inflation. Much of this saving is done through pension funds and so people's pension pots were made smaller.
 
-# Foreign exchange markets
+## Foreign exchange markets
 
-Individuals and businesses often need to exchange foreign currency, sometimes purely for pleasure, a holiday say, but mostly for business. For example, a French company building a manufacturing plant in the US exchanges euros for dollars. Today the foreign exchange markets are enormous, with transactions worth 4,000 billion taking place every day. The movements of exchange rates can make a big difference to ordinary people and businesses alike. Consider Manuel, who borrowed €300,000 to buy an apartment in London early in 2006. At that time he could get £1 for every €1.50 – see Exhibit 1.4 – and so he could buy a £200,000 apartment. Unfortunately, in 2009 he needed to sell his apartment to raise cash to support his Spanish business. Not only was Manuel hit by the UK recession, he was doubly unfortunate because at 2009 exchange rates (€1.10 to £1) he could obtain only €220,000, even if he sold the apartment for £200,000. He made an €80,000 loss simply
+Individuals and businesses often need to exchange foreign currency, sometimes purely for pleasure, a holiday say, but mostly for business. For example, a French company building a manufacturing plant in the US exchanges euros for dollars. Today the foreign exchange markets are enormous, with transactions worth 4,000 billion taking place every day. The movements of exchange rates can make a big difference to ordinary people and businesses alike. Consider Manuel, who borrowed €300,000 to buy an apartment in London early in 2006. At that time he could get £1 for every €1.50 – see Exhibit 1.4 – and so he could buy a £200,000 apartment. Unfortunately, in 2009 he needed to sell his apartment to raise cash to support his Spanish business. Not only was Manuel hit by the UK recession, he was doubly unfortunate because at 2009 exchange rates (€1.10 to £1) he could obtain only €220,000, even if he sold the apartment for £200,000. He made an €80,000 loss simply because currency rates shifted.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/d61323eec263897f5005d760a4a3769ca9d2afa0662096c8d3a430f194bc14fb.jpg)
 
-Exhibit 1.4 The exchange rate between euros and UK pounds, 2001-2011 because currency rates shifted. As you can see from the chart, they do this quite a lot. The markets and institutions have devised various tools to help individuals like Manuel as well as large organisations such as Unilever reduce the impact of foreign exchange shifts.
+Exhibit 1.4 The exchange rate between euros and UK pounds, 2001-2011 As you can see from the chart, they do this quite a lot. The markets and institutions have devised various tools to help individuals like Manuel as well as large organisations such as Unilever reduce the impact of foreign exchange shifts.
 
 Foreign exchange (forex, FX) markets are simply markets in which one currency is exchanged for another. They include the spot market, where currencies are bought and sold for 'immediate' delivery (in reality, one or two days later), and the forward markets, where the deal is agreed now to exchange currencies at some fixed point in the future. Also currency futures and options and other forex derivatives are employed to hedge (manage) risk and to speculate. Chapter 12 is devoted to the FX markets.
 
-# Derivative and commodity markets
+## Derivative and commodity markets
 
 Imagine you are a cocoa farmer in Ghana. You would like to have certainty on the price you will receive for your cocoa when you harvest it six months from now. An organisation such as Cadbury would also like to know the cost of its cocoa six months from now so that it, like the farmer, can plan ahead and avoid the risk of the spot price at that time being dramatically different from what it is now.
 
@@ -104,9 +118,9 @@ You can see from Exhibit 1.5 that the futures price of cocoa fluctuates over tim
 
 A derivative is a financial instrument whose value is derived from the value of other financial securities or some other underlying asset because it grants a right to undertake a transaction. This right becomes a saleable derived financial instrument. Futures have been illustrated, but there are other derivatives. For example, an option gives the purchaser the right, but not the obligation, to buy or sell something at some point in the future, at a price agreed now. The performance of the derivative depends on the behaviour of the underlying asset. Companies can use these markets for the management and transfer of risk. They can be used to reduce risk (hedging) or to speculate. We will look at these possibilities in Chapters 10 and 11.
 
-# Banking
+## Banking
 
-A major element in the fabric of the financial system we have not yet discussed is banking. Banks perform many functions, but the main ones are taking deposits, providing loans and allowing people and organisations to make payments to each other. The interest rates bank charge can have a profound effect on people's lives. The rate that the borrower pays is often linked to the bank base rate. Some borrowers may pose a low risk to the bank and so may be charged, say, 2 per cent over the base rate. More risky borrowers pay base rate plus, say, 7 per cent. Exhibit 1.6 shows that the average base rate set by UK banks over the ten years to 2011 was subject to significant fluctuations. In 2009 the base rate fell to an all-time low rate of 0.5 per cent and so we had remarkably low interest rates charged by the banks. The actions by central banks around the world to lower interest rates had the desired effect, as many families with mortgages or businesses with loans were saved when base rates were pushed down. If base rates had remained at 5 per cent we would have seen much higher house repossession rates, widespread business failure and mass unemployment.
+A major element in the fabric of the financial system we have not yet discussed is banking. Banks perform many functions, but the main ones are taking deposits, providing loans and allowing people and organisations to make payments to each other. The interest rates banks charge can have a profound effect on people's lives. The rate that the borrower pays is often linked to the bank base rate. Some borrowers may pose a low risk to the bank and so may be charged, say, 2 per cent over the base rate. More risky borrowers pay base rate plus, say, 7 per cent. Exhibit 1.6 shows that the average base rate set by UK banks over the ten years to 2011 was subject to significant fluctuations. In 2009 the base rate fell to an all-time low rate of 0.5 per cent and so we had remarkably low interest rates charged by the banks. The actions by central banks around the world to lower interest rates had the desired effect, as many families with mortgages or businesses with loans were saved when base rates were pushed down. If base rates had remained at 5 per cent we would have seen much higher house repossession rates, widespread business failure and mass unemployment.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/33dc831f1b17d758c7d294726136aa57bc881070be6f309575973fb8b79f9383.jpg)
 
@@ -116,27 +130,27 @@ Exhibit 1.5 The futures price of cocoa, March 2009 to March 2011
 
 Exhibit 1.6 UK bank base rates, 2001-2011
 
-# Importance of different financial centres
+## Importance of different financial centres
 
 People and institutions involved in financial market activity tend to be concentrated in a few major centres around the world. Every six months the largest 75 financial centres are rated and ranked by drawing on both statistical data and assessments from finance service professionals in an online survey. The results are published in the Global Financial Centres Report, sponsored by Qatar Financial Centre Authority and produced by the think-tank Z/Yen Group.
 
 The five groups of factors considered are shown in Exhibit 1.7. As you can see, the centres are rated not simply by volume of business (such as share turnover) and other quantitative data but by a number of other factors too. So, for example, evidence about a fair and just business environment is drawn from a corruption perception index and an opacity index. In all, 75 indicators have been used, including office rental rates, airport satisfaction and transport. Around 33,000 financial services professionals (e.g. bankers, asset managers, insurers, lawyers) respond to the online questionnaire in which they are asked to rate on a number of factors those centres with which they are most familiar. To ensure that there is no bias towards their home base, the assessments given on their own centre are excluded from the calculations.
 
-# Exhibit 1.7 The five groups of instrumental factors for judging the quality of a financial centre
+## Exhibit 1.7 The five groups of instrumental factors for judging the quality of a financial centre
 
-# People
+### People
 - The availability of skilled personnel, the flexibility of the labour market, business education and the development of 'human capital'.
 
-# Business environment
+### Business environment
 - This is regarded as the most important factor in judging the competitiveness of a financial centre. It covers regulation and tax rates, levels of corruption, economic freedom and the ease of doing business. Fair and just business environment. Government support for the finance sector. Transparency and predictability of regulation.
 
-# Market access
+### Market access
 - Access to international financial markets. Volume and value of trading in equities and bonds as well as the clustering effect of having many firms involved in the financial services sector together in one centre.
 
-# Infrastructure
+### Infrastructure
 - IT and transport infrastructure. The cost and availability of buildings and office space. Access to suppliers of professional services such as legal services.
 
-# General competitiveness
+### General competitiveness
 - The concept that the whole is 'greater than the sum of the parts' considers overall competitiveness levels of cities and how cities are perceived as places to live. Culture and language.
 
 The map in Exhibit 1.8 shows the ranking of the top 20 financial centres. There is very little difference in the ratings for London and New York. The survey respondents believe that these two centres work together for mutual benefit; a gain for one does not mean a loss for the other. The position of Hong Kong has improved immensely in recent years so that it is now a mere ten points (out of 1,000) behind London. It is one of only a handful of genuine global financial centres. Singapore is expected to join this trio soon. Between them, for example, the top four centres account for 70 per cent of all equity trading.
@@ -157,9 +171,9 @@ Exhibit 1.9 describes the relative importance of Hong Kong and Shanghai as place
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/72a6d5b843d93ef39dea5cae466ddc9e3e77cf3ad4f99c392bdb3305a1bcbf8d.jpg)
 
-# Robert Cookson
+### Robert Cookson
 
-The up-to- $\$ 20.5$ bn initial public offering of AIG's prized Asian business is the talk of the town in Hong Kong, but alongside that juggernaut there are dozens of other companies flocking to list in the city.
+The up-to-\$20.5 bn initial public offering of AIG's prized Asian business is the talk of the town in Hong Kong, but alongside that juggernaut there are dozens of other companies flocking to list in the city.
 
 So great is the wave of listings that Hong Kong is on track for the second year in a row to eclipse its rivals Shanghai, London, and New York as the world's biggest centre for IPOs.
 
@@ -490,7 +504,7 @@ Source: Balance sheet of respective banks.
 - Assistance in corporate restructuring Investment banks earn large fees from advising acquirers on mergers and assisting with the merger process. They also gain by helping target firms avoid being taken over too cheaply. Corporate disposal programmes, such as selling off a division, may also need the services of an investment bank.
 - Assisting risk management using derivatives Risk can be reduced through hedging strategies using futures, options, swaps and the like. However, this is a complex area, with significant room for error and terrible penalties if a mistake is made. The banks may have specialist knowledge to offer in this area.
 
-# International banks
+## International banks
 
 There are two main types of international banking:
 
@@ -499,23 +513,23 @@ There are two main types of international banking:
 
 The major part of international banking these days is borrowing and lending in foreign currencies. There are about 250 non-UK banks operating in London, the most prominent of which are American, German and Japanese. Their initial function was mainly to provide services for their own nationals, for example for export and import transactions, but nowadays their main emphasis is in the Eurocurrency market and international securities (shares, bonds, etc.) trading. Often funds are held in the UK for the purpose of trading and speculation on the foreign exchange market.
 
-# The mutuals
+## The mutuals
 
 Building societies are mutual organisations owned by their members. They collect funds from millions of savers by enticing them to put their money in interest-bearing accounts. The vast majority of that deposited money is then lent to people wishing to buy a home – in the form of a mortgage. Thus, they take in short-term deposits (although they also borrow on the wholesale financial markets) and they lend money for long periods, usually for 25 years. The number of building societies has declined with a trend to move away from mutual status by the biggest societies and convert to companies with shareholders, offering general banking services.
 
 Many countries have savings banks that, like building societies, do not have outside shareholders but are 'mutually' owned by their members (which generally means customers). There are also savings and loans and cooperative banks constituted along similar lines. Some of these have grown very large and now offer a wide range of services beyond mortgages and the acceptance of deposits.
 
-# Finance houses
+## Finance houses
 
 Finance houses are responsible for the financing of hire purchase agreements and other installment credit, for example leasing. If you buy a large durable good such as a car or a washing machine you often find that the sales assistant also tries to get you interested in taking the item on credit, so you pay for it over a period of, say, three years. It is usually not the retailer that provides the finance for the credit. The retailer generally works with a finance house which pays the retailer the full purchase price of the good and therefore becomes the owner. You, the customer, get to use the good, but in return you have to make regular payments to the finance house, including interest. Under a hire purchase (HP) agreement, when you have made enough payments you will become the owner. Under leasing the finance house retains ownership. Finance houses also provide factoring services – providing cash to firms in return for the right to receive income from the firms' debtors when they pay up. Most of the large finance houses are subsidiaries of the major conglomerate banks.
 
-# Long-term savings institutions
+## Long-term savings institutions
 
-# Pension funds
+### Pension funds
 
 Pension funds are set up to provide pensions for members. For example, the University Superannuation Scheme (USS), to which university lecturers belong, takes 7.5 per cent of working members' salaries each month and puts it into the fund. In addition, the employing organisation pays money into the scheme. When a member retires the USS will pay a pension. Between the time of making a contribution and payment in retirement, which may be decades, the pension trustees oversee the management of the fund. They may place some or all of the fund with specialist investment managers. This is a particularly attractive form of saving because of the generous tax reliefs provided. The long time horizon of the pension business means that large sums are built up and available for investment – for example around £800 billion in the UK funds at the time of writing. Roughly half of this money is invested in UK and overseas shares, with some going to buy bonds and other assets such as money market instruments and property.
 
-# Insurance funds
+### Insurance funds
 
 Insurance companies engage in two types of activities:
 
@@ -524,41 +538,41 @@ Insurance companies engage in two types of activities:
 
 Life assurance companies also provide annuities. Here a policy holder pays an initial lump sum and in return receives regular payments in subsequent years. They have also moved into personal pensions in the UK. Life assurance companies have more than £900 billion under management.
 
-# The risk spreaders
+## The risk spreaders
 
 These institutions allow small savers a stake in a large diversified portfolio. Thus investors can contribute a small amount each month to an investment fund alongside thousands of other investors and then the pooled fund is professionally managed.
 
-# Unit trusts
+### Unit trusts
 
 Unit trusts are 'open-ended' funds, which means that the size of the fund and the number of units depends on the amount of money investors put into the fund. If a fund of 1m units suddenly doubled in size because of an inflow of investor funds it would become a fund of two million units through the creation and selling of more units. The buying and selling prices of the units are determined by the value of the fund. So if a 2m unit fund is invested in £2m worth of shares in the UK stock market the value of each unit will be £1. If over a period the value of the shares rises to £3m, the units will be worth £1.50 each. Unit holders sell units back to the managers of the unit trust if they want to liquidate their holding. The manager would then either sell the units to another investor or sell some of the underlying investments to raise cash to pay the unit holder. The units are usually quoted at two prices depending on whether you are buying (higher) or selling (lower). There is also an ongoing management charge for running the fund.
 
 There is a wide choice of unit trusts specialising in different types of investments ranging from Japanese equities to privatised European companies. Of the £500 billion or so invested in unit trusts and their cousins, open-ended investment companies (OEICs), 50-60 per cent is devoted to shares (one half of which are non-UK) with 20 per cent devoted to bonds. Instruments similar to unit trusts are often called mutual funds in other countries.
 
-# Mutual funds
+### Mutual funds
 
 Mutual funds comprise a major portion of the US and Canadian investment market, where the greater part of the population owns some mutual fund shares. They are attractive to individual investors because they offer investment diversification and professional fund management. Not many people have the time or expertise to devote to poring over financial statistics in an attempt to pick a good (i.e. profitable) investment. For these people mutual funds provide a satisfactory solution, although they must be aware that past performance is no indicator of future performance and that just because a mutual fund manager has come top of the pile does not mean that he will do the same the following year, and that they will have to pay charges for investing in a fund. Investors can choose the type of investment they prefer, capital growth, income, etc. – and they have the security of knowing that their investment portfolios are safely stored with a custodian, usually a bank.
 
-# Investment trusts (investment companies)
+### Investment trusts (investment companies)
 
 Investment trusts differ from unit trusts – they are companies able to issue shares and other securities rather than units. Investors can purchase these securities when the investment company is first launched or purchase shares in the secondary market from other investors. These are known as closed-end funds because the company itself is closed to new investors – if you wished to invest your money you would go to an existing investor (via a broker) to buy shares and not buy from the company. Investment companies usually spread their funds across a range of other companies' shares. They are also more inclined to invest in a broader range of assets than unit trusts – even property, or shares not listed on a stock market. Approximately half of the money devoted to the 400 or so UK investment companies (£80 billion) is put into UK securities, with the remainder placed in overseas securities. The managers of these funds are able to borrow in order to invest. This has the effect of increasing returns to shareholders when things go well. Correspondingly, if the value of the underlying investments falls, the return to shareholders falls even more because of the obligation to meet interest charges.
 
-# Open-ended investment companies
+### Open-ended investment companies
 
 Open-ended investment companies are hybrid risk-spreading instruments which allow an investment in an open-ended fund. Designed to be more flexible and transparent than either investment trusts or unit trusts, OEICs have just one price. However, as with unit trusts, OEICs can issue more shares, in line with demand from investors, and they can borrow. Investors may invest in one particular OEIC or in a variety of separate sub-funds under the same management structure.
 
-# The risk takers
+## The risk takers
 
-# Private equity funds
+### Private equity funds
 
 These are funds that invest in companies that do not have a stock market trading quote for their shares. The firms are often young and on a rapid growth trajectory, but private equity funds also supply finance to well-established companies. The funds usually buy shares in these companies and occasionally supply debt finance. Frequently the private equity funds are themselves funded by other financial institutions, such as a group of pension funds. Private equity has grown tremendously over the last 20 years to the point where now more than one-fifth of non-government UK workers are employed in a firm financed by private equity.
 
-# Hedge funds
+#### Hedge funds
 
 Hedge funds gather together investors' money and invest it in a wide variety of financial strategies largely outside the control of the regulators, being created either outside the major financial centres or as private investment partnerships. The investors include wealthy individuals as well as institutions, such as pension funds, insurance funds and banks. Being outside normal regulatory control hedge funds are not confined to investing in particular types of securities or to using particular investment methods. For example, they have far more freedom than unit trusts in 'going short', i.e. selling a security first and then buying it later, hopefully at a lower price. They can also borrow many times the size of the fund to punt on a small movement of currency rates, or share movements, orange juice futures, or whatever they judge will go up (or go down). If the punt (or rather, a series of punts over the year) goes well, the fund managers earn million-pound bonuses (often on the basis of 2 per cent of funds under management fee plus 20 per cent of the profit made for client investors).
 
 Originally, the term 'hedge' made some sense when applied to these funds. They would, through a combination of investments, including derivatives, try to hedge (lower or eliminate) risk while seeking a high absolute return (rather than a return relative to an index). Today the word 'hedge' is misapplied to most of these funds because they generally take aggressive bets on the movements of currencies, equities, interest rates, bonds, etc. around the world. For example, in 2006 one fund, Amaranth, bet on the movement of the price of natural gas and lost US6 billion in a matter of days. Their activities would not be a concern if they had remained a relatively small part of the investment scene. However, today they command enormous power and billions more are being placed in these funds every week. Already more than £1,300 billion is invested in these funds. Add to that the borrowed money – sometimes ten times the fund's base capital – and you can see why they are to be taken very seriously. Up to 50 per cent of the share trades on a typical day in London or New York is said to be due to hedge funds.
 
-# Concluding comments
+## Concluding comments
 
 Financial systems in all their various forms are vital. The growth in financial markets of all types has been exponential in the years following the Second World War. There has been a massive increase in the variety of new and innovative financial instruments available on the markets, as well as a huge increase in the number of markets, along with a trend towards deregulation and globalisation, especially in developing countries. The world of finance is of major importance to countries' economies. In the absence of an effective financial services industry a country will find it difficult or impossible to grow. In the UK, finance is even more important because it is a highly significant factor in exports.
 
@@ -590,9 +604,7 @@ Some senior bankers consider India's largely state-owned banking system as sever
 
 Mention of insurance and pension reforms was omitted in a budget statement shortly after the election, and senior cabinet ministers have said consensus within the ruling coalition is lacking over the immediate reform agenda.
 
-Mr Singh, who is widely credited for opening up India's economy in
-
-1991 while finance minister, assured foreign investors that he was undeterred from modernising India's economy and making it more welcome to foreign capital. He said the 121bn of foreign direct investment in India over the past eight years was "small", given the size of Asia's third largest economy.
+Mr Singh, who is widely credited for opening up India's economy in 1991 while finance minister, assured foreign investors that he was undeterred from modernising India's economy and making it more welcome to foreign capital. He said the 121bn of foreign direct investment in India over the past eight years was "small", given the size of Asia's third largest economy.
 
 Last week, the government made it mandatory for all profitmaking, listed, state-run firms to float at least a 10 per cent stake for sale to private investors.
 

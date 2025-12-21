@@ -1,12 +1,27 @@
 ---
-aliases:
-  - Futures markets
-tags:
-key_concepts:
+title: Chapter 10 Futures markets
 parent_directory: Modern Financial Markets and Institutions
+formatted: 2025-12-21 05:15:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: opencode
+primary_tags:
+  - futures markets
+  - derivatives trading
+  - risk management
+  - hedging strategies
+secondary_tags:
+  - forward contracts
+  - exchange-traded derivatives
+  - clearing house
+  - margin requirements
+  - marking to market
+  - interest rate futures
+  - single stock futures
+  - forward rate agreements
+  - speculative trading
+  - arbitrage
+  - over-the-counter markets
 cssclasses: academia
-title: "Chapter 10: Futures markets"
-linter-yaml-title-alias: "Chapter 10: Futures markets"
 ---
 
 # Futures markets
@@ -24,6 +39,48 @@ Derivatives – forwards, futures, options, swaps, etc. – are the subject of t
 # What is a derivative?
 
 A derivative instrument is an asset whose performance is based on (derived from) the behaviour of the value of an underlying asset (usually referred to simply as the 'underlying'). The most common underlyings include commodities (for example, tea or pork bellies), shares, bonds, share indices, currencies and interest rates. Derivatives are contracts which give the right, and sometimes the obligation, to buy or sell a quantity of the underlying, or benefit in another way from a rise or fall in the value of the underlying. It is the legal right that becomes an asset, with its own value, and it is the right that is purchased or sold.
+
+```d2
+direction: right
+
+Derivatives: Derivatives {
+  shape: rectangle
+  style.fill: "#e1f5fe"
+  style.stroke: "#01579b"
+}
+
+Forwards: Forwards {
+  shape: oval
+  style.fill: "#f3e5f5"
+  style.stroke: "#4a148c"
+}
+
+Futures: Futures {
+  shape: oval
+  style.fill: "#e8f5e9"
+  style.stroke: "#1b5e20"
+}
+
+Options: Options {
+  shape: oval
+  style.fill: "#fff3e0"
+  style.stroke: "#e65100"
+}
+
+Swaps: Swaps {
+  shape: oval
+  style.fill: "#fce4ec"
+  style.stroke: "#880e4f"
+}
+
+Derivatives -> Forwards: "Commit to future exchange"
+Derivatives -> Futures: "Standardized exchange-traded"
+Derivatives -> Options: "Right but not obligation"
+Derivatives -> Swaps: "Exchange cash flows"
+
+Forwards -> Futures: "Evolved to standardized"
+```
+```
 
 The derivatives markets have received an enormous amount of attention from the press in recent years. This is hardly surprising as spectacular losses have been made and a number of companies brought to the point of collapse through the employment of derivative instruments. Some examples of the unfortunate use of derivatives include:
 
@@ -531,6 +588,35 @@ There are three types of user of the derivatives markets: hedgers, speculators a
 # Hedgers
 
 To hedge is to enter into transactions which protect a business or assets against changes in some underlying. The instruments bought as a hedge tend to have the opposite-value movements to the underlying. Financial and commodity markets are used to transfer risk from an individual or corporation to another more willing and/or able to bear that risk.
+
+```d2
+direction: down
+
+Hedger: Hedger {
+  shape: person
+  style.fill: "#e8f5e9"
+}
+
+Underlying: Underlying Asset {
+  shape: rectangle
+  style.fill: "#fff3e0"
+}
+
+Derivative: Derivative Position {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
+
+Risk: Risk Transfer {
+  shape: diamond
+  style.fill: "#fce4ec"
+}
+
+Hedger -> Derivative: "Takes opposite position"
+Underlying -> Risk: "Price changes"
+Derivative -> Risk: "Offsetting gains/losses"
+Risk -> Hedger: "Reduces net exposure"
+```
 
 Consider a firm which discovers a rich deposit of platinum in Kenya. The management are afraid to develop the site because they are uncertain about the revenues that will actually be realised. Some of the sources of uncertainty are that: (a) the price of platinum could fall, (b) the floating-rate loan taken out to develop the site could become expensive if interest rates rise and (c) the value of the currencies could move adversely. The senior managers have more or less decided that they will apply the firm's funds to a less risky venture. A recent graduate steps forward and suggests that this would be a pity, saying: 'The company is passing up a great opportunity, and Kenya and the world economy will be poorer as a result. Besides, the company does not have to bear all of these risks given the sophistication of modern financial markets. The risks can be hedged, to limit the downside. For example, the platinum could be sold on the forwards or the futures market, which will provide a firm price. The interest-rate risk can be reduced by using an FRA or the interest futures markets. Other possibilities here include a 'cap' or a swap arrangement into a fixed-rate loan (these are discussed in the next chapter). The currency risk can be controlled by using currency forwards or options (discussed in Chapter 12).' The board decide to press ahead with development of the mine and thus show that derivatives can be used to promote economic well-being by transferring risk.
 

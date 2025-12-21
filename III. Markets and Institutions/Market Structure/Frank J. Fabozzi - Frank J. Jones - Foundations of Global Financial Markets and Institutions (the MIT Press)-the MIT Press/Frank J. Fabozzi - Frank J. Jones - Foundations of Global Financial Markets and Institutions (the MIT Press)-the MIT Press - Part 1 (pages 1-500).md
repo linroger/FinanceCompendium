@@ -1,45 +1,59 @@
 ---
-parent_directory:
-title: "**`I`**"
-tags:
-aliases:
-parent_folder: Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press
-subfolder:
-key_concepts:
+title: "Foundations of Global Financial Markets and Institutions - Part 1 (Pages 1-500)"
+parent_directory: Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - financial markets
+  - financial institutions
+  - global finance
+  - market structure
+  - asset pricing
+  - risk management
+secondary_tags:
+  - government role
+  - credit rating agencies
+  - depository institutions
+  - central banks
+  - insurance companies
+  - investment banking
+  - return distributions
+  - portfolio selection
+  - asset pricing theories
+  - interest rates
+  - credit risk
+  - primary markets
+  - secondary markets
+  - foreign exchange market
+  - sovereign debt markets
+  - municipal debt markets
+  - equity markets
+  - corporate debt markets
+  - asset-backed securities
+  - real estate markets
+  - collective investment vehicles
+  - financial derivatives markets
 cssclasses: academia
-linter-yaml-title-alias: "**`I`**"
 ---
 
----
-title: "Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press - Part 1 (pages 1-500)"
-source: "Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press - Part 1 (pages 1-500).pdf"
-converted: "2025-11-28T13:34:14.717928"
-type: document
----
+# Foundations of Global Financial Markets and Institutions - Part 1 (Pages 1-500)
 
-```
-Foundations of Global Financial Markets and Institutions
+## Book Information
 
-Fifth Edition
+**Fifth Edition**
 
-Frank J. Fabozzi and Frank J. Jones
+**Authors:** Frank J. Fabozzi and Frank J. Jones  
+**With:** Francesco A. Fabozzi and Steven V. Mann
 
-With Francesco A. Fabozzi and Steven V. Mann
+**Publisher:** The MIT Press  
+**Location:** Cambridge, Massachusetts / London, England
 
-The MIT Press
-
-Cambridge, Massachusetts
-London, England
-
-```
+## Copyright
 
 © 2019 Massachusetts Institute of Technology
 
-All rights reserved. No part of this book may be reproduced in any form by any electronic or
-
-mechanical means (including photocopying, recording, or information storage and retrieval) without
-
-permission in writing from the publisher.
+All rights reserved. No part of this book may be reproduced in any form by any electronic or mechanical means (including photocopying, recording, or information storage and retrieval) without permission in writing from the publisher.
 
 This book was set in Times Roman by Westchester Publishing Services. Printed and bound in the
 
@@ -75,118 +89,61 @@ To my wife, Sally.
 
 - FJJ
 
-```
 Contents
-
-   Preface
-
-   Acknowledgments
-
-   Overview of the Book
-
+    Preface
+    Acknowledgments
+    Overview of the Book
 I Financial Markets and Players
-
-   1  Introduction
-
-   2  Role of Governments in Financial Markets
-
-   3  Financial Institutions, Financial Intermediaries, and Asset Management Firms
-
-   4  Overview of Private Market Participants
-
-   5  Credit Rating Agencies and Their Role in Financial Markets
-
-   6  Depository Institutions: Activities and Characteristics
-
-   7  Central Banks
-
-   8  Insurance Companies
-
-   9  Investment Banking Firms
-
+    1  Introduction
+    2  Role of Governments in Financial Markets
+    3  Financial Institutions, Financial Intermediaries, and Asset Management Firms
+    4  Overview of Private Market Participants
+    5  Credit Rating Agencies and Their Role in Financial Markets
+    6  Depository Institutions: Activities and Characteristics
+    7  Central Banks
+    8  Insurance Companies
+    9  Investment Banking Firms
 II    Understanding Risks and Asset Pricing
-
-   10 Overview of Risks and Their Management
-
-   11  Properties and Pricing of Financial Assets
-
-   12  Return Distributions, Risk Measures, and Risk-Return Ratios
-
-   13  Portfolio Selection Theory
-
-   14  Asset Pricing Theories
-
+    10 Overview of Risks and Their Management
+    11  Properties and Pricing of Financial Assets
+    12  Return Distributions, Risk Measures, and Risk-Return Ratios
+    13  Portfolio Selection Theory
+    14  Asset Pricing Theories
 III Interest Rates, Interest Rate Risk, and Credit Risk
-
-   15  The Theory of Interest Rates
-
-   16  The Structure of Interest Rates
-
+    15  The Theory of Interest Rates
+    16  The Structure of Interest Rates
 IV   Primary and Secondary Markets
-
-   17  Primary Markets
-
-   18  Secondary Markets
-
-```
-
-```
-   19 The Foreign Exchange Market
-
+    17  Primary Markets
+    18  Secondary Markets
+    19 The Foreign Exchange Market
 V   Global Government Debt Markets
-
-   20  Sovereign Debt Markets
-
-   21  Subnational (Municipal) Government Debt Markets
-
+    20  Sovereign Debt Markets
+    21  Subnational (Municipal) Government Debt Markets
 VI   Corporate Funding Markets
-
-   22  The Structure and Trading Venues of the Equity Market
-
-   23 U.S. Common Stock Market: Pricing Efficiency, Trading, and Investment
-     Strategies
-
-   24  Non-U.S. Equity Markets
-
-   25  Global Short-Term Funding and Investing Markets
-
-   26  Corporate Debt Markets
-
-   27  Market for Asset-Backed Securities
-
-   28 Financing Market for Small, Medium-Sized, and Entrepreneurial Enterprises
-
+    22  The Structure and Trading Venues of the Equity Market
+    23 U.S. Common Stock Market: Pricing Efficiency, Trading, and Investment
+      Strategies
+    24  Non-U.S. Equity Markets
+    25  Global Short-Term Funding and Investing Markets
+    26  Corporate Debt Markets
+    27  Market for Asset-Backed Securities
+    28 Financing Market for Small, Medium-Sized, and Entrepreneurial Enterprises
 VII  Real Estate Markets
-
-   29  The Residential Mortgage Market
-
-   30  Residential Mortgage-Backed Securities Market
-
-   31  Commercial Real Estate Markets
-
+    29  The Residential Mortgage Market
+    30  Residential Mortgage-Backed Securities Market
+    31  Commercial Real Estate Markets
 VIII  Collective Investment Vehicles and Financial Derivatives Markets
-
-   32 Market for Collective Investment Vehicles
-
-   33  Financial Futures Markets
-
-   34  Options Markets
-
-   35  Pricing Futures and Options Contracts
-
-   36  Applications of Futures and Options Contracts
-
-   37 Over-the-Counter Interest Rate Derivatives: Forward Rate Agreements, Swaps,
-     Caps, and Floors
-
-   38  Market for Foreign Exchange Derivatives
-
-   39  Market for Credit Risk Transfer Vehicles
-
-   Index
-
+    32 Market for Collective Investment Vehicles
+    33  Financial Futures Markets
+    34  Options Markets
+    35  Pricing Futures and Options Contracts
+    36  Applications of Futures and Options Contracts
+    37 Over-the-Counter Interest Rate Derivatives: Forward Rate Agreements, Swaps,
+      Caps, and Floors
+    38  Market for Foreign Exchange Derivatives
+    39  Market for Credit Risk Transfer Vehicles
+    Index
 List of Figures
-
 ```
 
 **`Figure 1.1`** **Classification of global financial markets.**
@@ -482,55 +439,9 @@ Preface
 
 ```
 
-The first edition of this book, published in 1994, was written by Frank
+The first edition of this book, published in 1994, was written by Frank Fabozzi and Franco Modigliani, the 1985 recipient of the Nobel Memorial Prize in Economic Sciences. In the Preface to the first edition, they wrote that the prior 30 years had been a time of profound, indeed revolutionary, change in the financial markets and institutions of the world. The hallmarks of that change were innovation, globalization, and deregulation. Since 1994, those forces have actually gathered more strength, and the financial landscape continues to undergo large and visible changes around the globe. Their purpose in writing the book was to instruct students about this fascinating revolution. They described the wide array of financial instruments that are now available for investing, funding operations, and
 
-Fabozzi and Franco Modigliani, the 1985 recipient of the Nobel Memorial
-
-Prize in Economic Sciences. In the Preface to the first edition, they wrote
-
-that the prior 30 years had been a time of profound, indeed revolutionary,
-
-change in the financial markets and institutions of the world. The hallmarks
-
-- f that change were innovation, globalization, and deregulation. Since 1994,
-those forces have actually gathered more strength, and the financial
-landscape continues to undergo large and visible changes around the globe.
-Their purpose in writing the book was to instruct students about this
-fascinating revolution. They described the wide array of financial
-instruments that are now available for investing, funding operations, and
-controlling the wide range of financial risks. Each type of financial
-instrument was shown to be a response to the needs of borrowers, lenders,
-and investors, who manage assets and liabilities in a world of constantly
-changing interest rates, asset prices, regulatory constraints, and international
-competition and opportunities. The book devoted a considerable amount of
-space to explaining how the world's key financial institutions manage their
-assets and liabilities and how innovative financial instruments support that
-management. The focus on the actual practices of financial institutions was
-particularly beneficial to students who will inevitably have to respond to
-changes in those institutions and their environment.
-
-This is the fifth edition of the book. The fourth edition was published in
-
-2009. Given the significant changes in various aspects of the global
-
-financial markets, this edition is a substantial revision of the fourth edition.
-
-The table on pages xix–xxi compares the fourth edition to this new edition.
-
-The overriding emphasis when revising the book was to make it more
-
-global centric—hence the addition of the word "Global" in the book's new
-
-title. Consequently, the U.S. financial market is still covered in considerable
-
-detail, but we describe non-U.S. financial markets as well. For practical
-
-reasons, it is not possible for us to include a detailed discussion of every
-
-country's financial market. Instead, we show how the financial markets of
-
-- ther countries may be similar to or differ significantly from that of the U.S.
-market.
+The table on pages xix–xxi compares the fourth edition to this new edition. The overriding emphasis when revising the book was to make it more global centric—hence the addition of the word "Global" in the book's new title. Consequently, the U.S. financial market is still covered in considerable detail, but we describe non-U.S. financial markets as well. For practical reasons, it is not possible for us to include a detailed discussion of every country's financial market. Instead, we show how the financial markets of other countries may be similar to or differ significantly from that of the U.S. market.
 
 Frank J. Fabozzi
 
@@ -541,77 +452,17 @@ Acknowledgments
 
 ```
 
-We benefited greatly from the assistance of several individuals. Steven
+We benefited greatly from the assistance of several individuals. Steven Mann and Francesco Fabozzi made major contributions. Steven Mann coauthored two chapters. Francesco Fabozzi provided research for several chapters, coauthored chapter 12, and prepared the end-of-chapter questions for more than half of the chapters. For this reason, they are given special recognition on the title page and book's cover.
 
-Mann and Francesco Fabozzi made major contributions. Steven Mann
+Discussions with the following individuals were helpful in preparing some of the chapters: Michele-Leonardo Bianchi, Jeff Buetow, Jack Francis, Andy Jones, Andrew Kalotay, Jang Ho Kim, Woo Chang Kim, Svetlozar Rachev, and Stoyan Stoyanov.
 
-coauthored two chapters. Francesco Fabozzi provided research for several
+Many chapters in the fifth edition were read by students who provided feedback that we found useful when revising some of the chapters. These students are Trey Aslanian (Princeton University), Matt Scarpill (St. Joseph's University), Aidan Young (University of Pennsylvania), and Desmond Young (University of Pennsylvania).
 
-chapters, coauthored chapter 12, and prepared the end-of-chapter questions
+We are grateful to Professor Robert Shiller of Yale University, who has been supportive of all editions of this book. His endorsement of prior editions of this book is in his courseware video (Open Yale Course: https://oyc.yale.edu/economics/econ-252-08).
 
-for more than half of the chapters. For this reason, they are given special
+We also acknowledge some individuals who have helped us in numerous respects in the prior four editions of the book; they do not bear the burden of any errors or mistakes that may appear in the text. The following people, listed in alphabetical order, read some parts of the material that has gone into one of the editions of this text: Robert Arnott, Paul Asquith, Anand Bhattacharya, Helen M. Bowers, John H. Carlson, Bruce Collins, John Crockett, Henry Gabbay, Gary L. Gastineau, Gerald Hanweck, Arthur Hogan, Jane Howe, David P. Jacob, Frank Keane, Robert Kieschnick, Martin Leibowitz, K. C. Ma, Inayat U. Mangla, Ed Murphy, Mark Pitts, Richard Puntillo, Scott Richard, Manijeh Sabi, Dexter Senft, Richard Wilson, Eleanor Xu, Uzi Yaari, and Jot Yau.
 
-recognition on the title page and book's cover.
-
-Discussions with the following individuals were helpful in preparing
-
-some of the chapters: Michele-Leonardo Bianchi, Jeff Buetow, Jack
-
-Francis, Andy Jones, Andrew Kalotay, Jang Ho Kim, Woo Chang Kim,
-
-Svetlozar Rachev, and Stoyan Stoyanov.
-
-Many chapters in the fifth edition were read by students who provided
-
-feedback that we found useful when revising some of the chapters. These
-
-students are
-
-Trey Aslanian (Princeton University),
-
-Matt Scarpill (St. Joseph's University),
-
-Aidan Young (University of Pennsylvania), and
-
-Desmond Young (University of Pennsylvania).
-
-We are grateful to Professor Robert Shiller of Yale University, who has
-
-been supportive of all editions of this book. His endorsement of prior
-
-editions of this book is in his courseware video (Open Yale Course: https://
-
-- yc.yale.edu/economics/econ-252-08).
-
-We also acknowledge some individuals who have helped us in numerous
-
-respects in the prior four editions of the book; they do not bear the burden
-
-- f any errors or mistakes that may appear in the text. The following people,
-
-listed in alphabetical order, read some parts of the material that has gone
-
-into one of the editions of this text: Robert Arnott, Paul Asquith, Anand
-
-Bhattacharya, Helen M. Bowers, John H. Carlson, Bruce Collins, John
-
-Crockett, Henry Gabbay, Gary L. Gastineau, Gerald Hanweck, Arthur
-
-Hogan, Jane Howe, David P. Jacob, Frank Keane, Robert Kieschnick,
-
-Martin Leibowitz, K. C. Ma, Inayat U. Mangla, Ed Murphy, Mark Pitts,
-
-Richard Puntillo, Scott Richard, Manijeh Sabi, Dexter Senft, Richard
-
-Wilson, Eleanor Xu, Uzi Yaari, and Jot Yau.
-
-Finally, Frank Fabozzi is grateful to his wife Donna for sacrificing social
-
-time to allow him to complete this three-year project and for her
-
-encouragement. Frank Jones is grateful to his wife Sally, whose limitless
-
-support was indispensable.
+Finally, Frank Fabozzi is grateful to his wife Donna for sacrificing social time to allow him to complete this three-year project and for her encouragement. Frank Jones is grateful to his wife Sally, whose limitless support was indispensable.
 
 ```
 Overview of the Book
@@ -620,7 +471,7 @@ Overview of the Book
 
 The emphasis on topic coverage is best explained by providing an overview
 
-- f the book and how the current edition differs from the previous edition
+of the book and how the current edition differs from the previous edition
 (the fourth edition). The book is divided into eight parts. Every chapter
 concludes with key points that are in bullet format so that the student can
 quickly review the concepts and principles covered in the chapter.
@@ -651,11 +502,7 @@ chapter 5 (a new chapter). Chapter 6 focuses on depository institutions,
 followed in chapter 7 (a new chapter) by the role of central banks.
 Insurance companies and the wide range of activities of investment banking
 firms are the subjects of chapters 8 and 9, respectively.
-
-```
-Part II: Understanding Risks and Asset Pricing
-
-```
+## Part II: Understanding Risks and Asset Pricing
 
 The five chapters in part II cover the risks that investors and issuers are
 
@@ -675,7 +522,7 @@ chapter to this edition of the book—we provide an overview of risk. The
 
 chapter covers the difference between risk and uncertainty, the key elements
 
-- f financial risk management and the identification of financial risks, the
+of financial risk management and the identification of financial risks, the
 various types of investment risk faced by investors, and the various types of
 funding risk faced by entities seeking to raise capital.
 
@@ -756,7 +603,7 @@ The structure of interest rates and interest rate and credit risks are the
 
 subjects of part III. Chapter 15, the first of two chapters in part III, focuses
 
-- n the classical theory of interest rates, which, it is assumed, provides the
+on the classical theory of interest rates, which, it is assumed, provides the
 anchor for all interest rates in an economy.
 
 The classical theory of interest rates provides insight into what factors
@@ -876,7 +723,7 @@ A new addition to the book is the financial market for small and
 
 medium-sized enterprises and new entrepreneurial ventures, with emphasis
 
-- n start-ups and venture capital. This coverage is in chapter 28, where the
+on start-ups and venture capital. This coverage is in chapter 28, where the
 various types of financial instruments available to such entities—as well as
 the regulations pertaining to the issuance of those financial instruments—
 are discussed.
@@ -901,7 +748,7 @@ stripped mortgage-backed securities.
 
 Commercial real estate is income-producing properties and is the subject
 
-- f chapter 31. The major commercial property types are multifamily
+of chapter 31. The major commercial property types are multifamily
 housing, apartment buildings, office buildings, industrial properties
 (including warehouses), shopping centers, hotels, health care facilities (e.g.,
 senior housing care facilities), and timberlands. Commercial real estate
@@ -961,25 +808,15 @@ Fifth Edition versus Fourth Edition
 
 Comments
 
-1  Introduction Modified from chapter 1 to
-
-reflect the new structure of
-
-the book
+1  Introduction Modified from chapter 1 to reflect the new structure of the book
 
 2  Role of Governments in Financial Markets New chapter
 
-3  Financial Institutions, Financial Update of chapter 2
-
-Intermediaries, and Asset Management
-
-Firms
+3 Financial Institutions, Financial Intermediaries, and Asset Management Firms Update of chapter 2
 
 4  Overview of Private Market Participants New chapter
 
-5  Credit Rating Agencies and Their Role in New chapter
-
-Financial Markets
+5 Credit Rating Agencies and Their Role in Financial Markets New chapter
 
 6  Depository Institutions: Activities and
 
@@ -996,9 +833,7 @@ Update of chapter 3
 **Part II: Understanding Risks and Asset Pricing**
 10 Overview of Risks and Their Management New chapter
 11 Properties and Pricing of Financial Assets Chapter 9 in 4th edition
-12 Return Distributions, Risk Measures, and New chapter
-
-Risk-Return Ratios
+12 Return Distributions, Risk Measures, and Risk-Return Ratios New chapter
 
 13 Portfolio Selection Theory New chapter
 
@@ -1027,21 +862,13 @@ Markets
 
 Equity Market
 
-23 U.S. Common Stock Market: Pricing
-
-Efficiency, Trading, and Investment
-
-Strategies
-
-Revised chapters 17 and 18
+23 U.S. Common Stock Market: Pricing Efficiency, Trading, and Investment Strategies Revised chapters 17 and 18
 
 Revised chapters 17 and 18
 
 24 Non-U.S. Equity Markets New chapter
 
-25 Global Short-Term Funding and Investing New chapter
-
-Markets
+25 Global Short-Term Funding and Investing Markets New chapter
 
 26 Corporate Debt Markets Revised chapters 19 and 20
 

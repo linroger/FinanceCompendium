@@ -1,31 +1,30 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'Exchange Rates II: The Asset Approach in the Short Run'
-linter-yaml-title-alias: 'Exchange Rates II: The Asset Approach in the Short Run'
+title: Exchange Rates I - The Asset Approach in the Short Run
+parent_directory: VI - Exchange Rates
+formatted: 2025-12-21 05:10:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
 primary_tags:
-- expectations empirically challenge wars
-- exchange rates theory
-- exchange market wartime theory
-- equilibrium foreign
-- country monetary approach used
+  - asset approach to exchange rates
+  - uncovered interest parity
+  - exchange rate overshooting
+  - trilemma in macroeconomics
+  - monetary policy autonomy
+  - fixed exchange rate regimes
 secondary_tags:
-- exchange rate long run
-- ii asset approach short
-- expectations change exchange rates
-- monetary independence danish
-- theory guide exchange rate
-- theory capital mobility parity
-- arbitrage expectations developed theory
-- war currencies
-- autonomy likely postwar currency
-- currency rate dictated victors
-- common currency equalized
-- short run theory
-tags_extracted: '2025-12-18T00:45:40.747996'
+  - forex market equilibrium
+  - arbitrage in FX market
+  - short run vs long run
+  - complete theory of exchange rates
+  - permanent vs temporary shocks
+  - monetary approach vs asset approach
+  - capital mobility constraints
+  - interest parity conditions
+  - exchange rate expectations
+  - money market equilibrium
+  - nominal anchor policies
+  - currency crisis dynamics
+cssclasses: academia
 ---
 
 # Exchange Rates II: The Asset Approach in the Short Run
@@ -62,18 +61,17 @@ The asset approach differs from the monetary approach in its time frame and assu
 
 So far, we have assumed that exchange rates are determined by market forces in the goods, money, and forex markets—so our theory is relevant when the exchange rate floats, and the authorities leave it to find its own market-determined level. Can our theory also tell us anything about fixed exchange rates? Yes. At the end of the chapter, we see how the same theoretical framework can be applied to a fixed exchange rate regime.
 
-# 1 Exchange Rates and Interest Rates in the Short Run: UIP and FX Market Equilibrium
+### 1 Exchange Rates and Interest Rates in the Short Run: UIP and FX Market Equilibrium
 
 To begin our study of exchange rates in the short run, let's recap the crucial equilibrium condition for the forex market. In our earlier presentation, we considered a U.S. investor with two alternative investment strategies: a one-year investment in a U.S. dollar account with an interest rate  $i_{\S}$ , or a one-year investment in a euro account with an interest rate  $i_{\epsilon}$ . Here are the essentials.
 
-# Risky Arbitrage
+#### Risky Arbitrage
 
 For the case of risky arbitrage, the forex market is in equilibrium when there is no expected difference in the rates of return on each type of currency investment in the two countries or locations. As before, we assume Home is the United States (U.S.); and Foreign is Europe (EUR, meaning the Eurozone). As we saw in the approximate uncovered interest parity condition—Equation (13-3), and repeated in this section as Equation (15-1)—this outcome requires that the dollar rate of return on the home investment (the dollar deposit) equal the expected dollar rate of return on the foreign investment (the euro deposit),
 
 $$
-\underbrace {i_{\S}}_{\substack {\text{Interestrate} \\ \text{ondollardeposits} \\ = \\ \text{Dollarrateofreturn} \\ \text{ondollardeposits}}} = \underbrace {i_{\epsilon}}_{\substack {\text{Interestrate} \\ \text{oneurodeposits}}} + \underbrace {\frac{\left(E_{\S / \epsilon}^{e} - E_{\S / \epsilon}\right)}{E_{\S / \epsilon}}}_{\substack {\text{Expectedrateofdepreciation} \\ \text{ofthedollar}}} \tag{15 - 1}
-$$ where each interest rate is an annual rate,  $E_{\mathbb{S} / \epsilon}$  is today's exchange rate (the spot rate), and  $E_{\mathbb{S} / \epsilon}^{\epsilon}$  is the expected future exchange rate that will prevail one year ahead.
-
+\underbrace{i_{\$}}_{\substack{\text{Interest rate} \\ \text{on dollar deposits} \\ = \\ \text{Dollar rate of return} \\ \text{on dollar deposits}}} = \underbrace{i_{\epsilon}}_{\substack{\text{Interest rate} \\ \text{on euro deposits}}} + \underbrace{\frac{\left(E_{\$/\epsilon}^{e} - E_{\$/\epsilon}\right)}{E_{\$/\epsilon}}}_{\substack{\text{Expected rate of depreciation} \\ \text{of the dollar}}} \tag{15-1}
+$$
 
 The uncovered interest parity (UIP) equation is the fundamental equation of the asset approach to exchange rates, and from now on, we use it in the form of Equation (15-1). As we have seen, by rearranging this equation, we can solve it for the spot exchange rate, if we know all of the other variables. Thus, the asset approach employs the UIP equation to determine today's spot exchange rate, as illustrated in Figure 15-1. Note that the theory is useful only if we know the future expected exchange rate and the short-term interest rates. Where does that knowledge come from?
 
@@ -103,11 +101,11 @@ Building Block: Uncovered Interest Parity—The Fundamental Equation of the Asse
 
 Approach In this model, the nominal interest rate and expected future exchange rate are treated as known exogenous variables (in green). The model uses these variables to predict the unknown endogenous variable (in red), the current spot exchange rate.
 
-# Equilibrium in the FX Market: An Example
+#### Equilibrium in the FX Market: An Example
 
 To explore the concepts we've just studied, let's work through a numerical example to show how equilibrium in the forex market is determined.
 
-Suppose that the current European interest rate  $i_{\epsilon}$  is  $3\%$ , and the current U.S. interest rate  $i_{\mathrm{S}}$  is  $5\%$ . Suppose also that we have made a forecast (using the long-run monetary model of exchange rates) that the expected future exchange rate  $E_{\mathbb{S} / \epsilon}^{e}$  (in one year's time) is 1.224 dollars per euro.
+Suppose that the current European interest rate $i_{\epsilon}$ is $3\%$, and the current U.S. interest rate $i_{\$}$ is $5\%$. Suppose also that we have made a forecast (using the long-run monetary model of exchange rates) that the expected future exchange rate $E_{\$/\epsilon}^{e}$ (in one year's time) is 1.224 dollars per euro.
 
 Now examine Table 15-1 to see how, for various values of the spot exchange rate  $E_{\$/\epsilon}$ , we can calculate the domestic rate of return and expected foreign rate of return in U.S. dollars. (Remember that  $5\% = 0.05$ ,  $3\% = 0.03$ , etc.) As you work through the table, remember that the foreign returns have two components: one due to the European interest rate  $i_{\epsilon}$  and the other due to the expected rate of depreciation of the dollar, as in Equation (15-1).
 
@@ -129,7 +127,7 @@ The returns calculated in Table 15-1 are plotted in this figure. The dollar inte
 
 What is the equilibrium level of the spot exchange rate? According to Table 15-1, the equilibrium exchange rate is  $1.20 \, \text{$/€}$ . Only at that exchange rate are domestic returns and foreign returns equalized. To illustrate the solution graphically, domestic and foreign returns are plotted in Figure 15-2. The FX market is in equilibrium, and foreign and domestic returns are equal, at point 1 where the  $FR$  and  $DR$  curves intersect.
 
-# Adjustment to Forex Market Equilibrium
+#### Adjustment to Forex Market Equilibrium
 
 Our forex market equilibrium condition and its graphical representation should now be clear. But how is this equilibrium reached? It turns out that arbitrage automatically pushes the level of the exchange rate toward its equilibrium value.
 
@@ -141,7 +139,7 @@ The same idea applies to a situation in which the spot exchange rate  $E_{\$/ \e
 
 Only at point 1 is the euro trading at a price at which the foreign return equals the domestic return. At point 1, the euro is neither too cheap nor too expensive—its price is just right for uncovered interest parity to hold, for arbitrage to cease, and for the forex market to be in equilibrium.
 
-# Changes in Domestic and Foreign Returns and FX Market Equilibrium
+#### Changes in Domestic and Foreign Returns and FX Market Equilibrium
 
 When economic conditions change, the two curves depicting domestic and foreign returns shift. In the case of the domestic return curve, the movements are easy to understand because the curve is a horizontal line that intersects the vertical axis at the domestic interest rate. If the domestic interest changes, the curve shifts up or down. Shifts in the foreign returns curve are a bit more complicated because there are two parts to the foreign return: the foreign interest rate plus any expected change in the exchange rate.
 
@@ -172,17 +170,17 @@ A Change in the Foreign Interest Rate In Figure 15-3, panel (b), when  $i_{\epsi
 
 A Change in the Expected Future Exchange Rate In Figure 15-3, panel (c), a decrease in the expected future exchange rate  $E_{\mathbb{S} / \mathbb{E}}^e$  lowers the foreign return because a future euro is expected to be worth fewer dollars in the future. The foreign return curve  $FR$  shifts down from  $FR_1$  to  $FR_2$ . The domestic return is unaffected. At the old equilibrium rate of  $1.20$ $\mathbb{E} / \mathbb{E}$ , the foreign return (point 6) is lower than the domestic return. Again, traders sell euros and buy dollars, causing the dollar to appreciate and the spot exchange rate to fall to  $1.177$ $\mathbb{E} / \mathbb{E}$ . The new equilibrium is point 7.
 
-# Summary
+#### Summary
 
 The FX market diagram, with its representation of domestic returns and foreign returns, is central to our analysis in this chapter and later in the book. Be sure that you understand that domestic returns depend only on the home interest rate  $i_{\S}$  but that foreign returns depend on both the foreign interest rate  $i_{\epsilon}$  and the expected future exchange rate  $E_{\S/\epsilon}^{e}$ . Remember: any change that raises (lowers) the foreign return relative to the domestic return makes euro deposits more (less) attractive to investors, so that traders will buy (sell) euro deposits. The traders' actions push the forex market toward a new equilibrium at which the dollar will have depreciated (appreciated) against the euro.
 
 To check your understanding, you might wish to rework the three examples and the figures for the opposite cases of a decrease in  $i_{\mathbb{S}}$ , an increase in  $i_{\mathbb{C}}$ , and an increase in  $E_{\mathbb{S} / \mathbb{C}}^{e}$ ; constructing the equivalent of Table 15-1 for each case may also prove helpful.
 
-# 2 Interest Rates in the Short Run: Money Market Equilibrium
+### 2 Interest Rates in the Short Run: Money Market Equilibrium
 
 The previous section laid out the essentials of the asset approach to exchange rates. Figure 15-1 sums up the uncovered interest parity relationship at the heart of the asset approach. The spot exchange rate is the output (endogenous variable) of this model, and the expected future exchange rate and the home and foreign interest rates are the inputs (exogenous variables). But where do these inputs come from? In the last chapter, we developed a theory of the long-run exchange rate, the monetary approach, which can be used to forecast the future exchange rate. That leaves us with just one unanswered question: How are current interest rates determined?
 
-# Money Market Equilibrium in the Short Run: How Nominal Interest Rates Are Determined
+#### Money Market Equilibrium in the Short Run: How Nominal Interest Rates Are Determined
 
 Having seen how the supply and demand for money work in the previous chapter, we can build on that foundation here. We consider two money markets in two locations: the United States and Europe. Both markets are in equilibrium with money demand equal to money supply. In both locations, the money supply is controlled by a central bank and is taken as given; the demand for real money balances  $M / P = L(i)Y$  is a function of the interest rate  $i$  and real income  $Y$ .
 
@@ -221,11 +219,11 @@ $$
 
 To recap: In the long run, prices adjust to clear the money market and bring money demand and money supply into line. In the short run, when prices are sticky, such adjustment is not possible. However, nominal interest rates are free to adjust. In the short run, the nominal interest rate in each country adjusts to bring money supply and money demand into equilibrium.
 
-# Money Market Equilibrium in the Short Run: Graphical Solution
+#### Money Market Equilibrium in the Short Run: Graphical Solution
 
 Figure 15-4 represents the U.S. money market (a similar diagram applies to the European market). On the horizontal axis is the quantity of U.S. real money balances  $M_{US} / P_{US}$  and on the vertical axis is the U.S. nominal interest rate  $i_{\S}$ . The vertical line represents the supply of real money balances; this supply is fixed by the central bank at the level  $M_{US}^{1} / \overline{P}_{US}^{1}$  and is independent of the level of the interest rate. The downward-sloping line represents the demand for real money balances,  $L(i_{\S}) \times Y_{US}$ . Demand decreases as the U.S. nominal interest rate increases because the opportunity cost of holding money rises and people don't want to hold high money balances. The money market is in equilibrium at point 1: the demand and supply of real money balances are equal at  $M_{US}^{1} / \overline{P}_{US}^{1}$  and at a nominal interest rate  $i_{\S}^{1}$ .
 
-# Adjustment to Money Market Equilibrium in the Short Run
+#### Adjustment to Money Market Equilibrium in the Short Run
 
 If interest rates are flexible in the short run, as we assume they are, there is nothing to prevent them from adjusting to clear the money market. But how do market forces ensure that a nominal interest rate  $i_{\mathrm{S}}^{1}$  is attained? The adjustment process works as follows.
 
@@ -242,11 +240,11 @@ by exchanging money for interest-bearing assets such as bonds, saving accounts, 
 
 A similar story can be told if the money market is initially at point 3, where there is an excess demand for money. In this case, the public wishes to reduce their savings in the form of interest-bearing assets and turn them into cash. Now fewer loans are extended. The loan market will suffer an excess demand. But borrowers will not want to borrow less unless the cost of borrowing rises. So the interest rate will be driven up as eager borrowers compete to attract scarce lenders. These adjustments end only when point 1 is reached and there is no excess supply of real money balances.
 
-# Another Building Block: Short-Run Money Market Equilibrium
+#### Another Building Block: Short-Run Money Market Equilibrium
 
 This model of the money market may be familiar from previous courses in macroeconomics. The lessons that are important for our theory of exchange rates are summed up in Figure 15-5. We treat the price level in each country as fixed and known in the short run. We also assume that the money supply and real income in each country are known. The equilibrium equations for the money market, Equations (15-2) and (15-3), then tell us the interest rates in each country. Once these are known, we can put them to use in another building block seen earlier: the interest rates can be plugged into the fundamental equation of the asset approach to exchange rate determination, Equation (15-1), along with the future expected exchange rate derived from a forecast based on the long-run monetary model of the previous chapter. In that way, the spot exchange rate can finally be determined.
 
-# Changes in Money Supply and the Nominal Interest Rate
+#### Changes in Money Supply and the Nominal Interest Rate
 
 Money market equilibrium depends on money supply and money demand. If either changes, the equilibrium will change. To help us better understand how exchange rates are determined, we need to understand how these changes occur.
 
@@ -273,7 +271,7 @@ Fortunately, our graphical analysis shows that, for a given money demand curve, 
 
 # APPLICATION
 
-# Can Central Banks Always Control the Interest Rate? A Lesson from the Crisis of 2008-2009
+##### Can Central Banks Always Control the Interest Rate? A Lesson from the Crisis of 2008-2009
 
 In our analyses so far, we have assumed that central banks can control the money market interest rate, and that they can effectively do so whether they set the interest rate or the money supply. These assumptions are critical in this chapter and in the rest of this book. But are they really true? In general, perhaps, but policy operations by central banks can be undermined by financial market disruptions. Recent events in many countries illustrate the problem.
 
@@ -299,13 +297,13 @@ Similar crisis actions were taken by the Bank of England and, eventually, by the
 To sum up, with the traditional transmission mechanism broken, central banks had to find different tools. In the Fed's case, by directly intervening in markets for different types of private credit at different maturities, policy makers hoped to circumvent the impaired transmission mechanism. Would matters have been much worse if the central banks had done nothing at all? It's hard to say. However, if the aim was to lower market interest rates in a meaningful way and expand broader monetary aggregates, it is not clear that these policies had significant economic effects.
 
 
-# Changes in Real Income and the Nominal Interest Rate
+#### Changes in Real Income and the Nominal Interest Rate
 
 Figure 15-6, panel (b), shows how the money market responds to an increase in home (U.S.) real income from  $Y_{US}^{1}$  to  $Y_{US}^{2}$ . The increase in real income causes real money demand to increase as reflected in the shift from  $MD_{1}$  to  $MD_{2}$ . At the initial interest rate  $i_{\mathrm{S}}^{1}$ , there is now an excess demand for real money balances. To restore equilibrium at point 2, the interest rate rises from  $i_{\mathrm{S}}^{1}$  to  $i_{\mathrm{S}}^{2}$  to encourage people to hold lower dollar balances. Similarly, a reduction in real income will lower the interest rate.
 
 To sum up, in the short run, all else equal, an increase in a country's real income will raise the country's nominal interest rate; a decrease in a country's real income will lower the country's nominal interest rate.
 
-# The Monetary Model: The Short Run Versus the Long Run
+#### The Monetary Model: The Short Run Versus the Long Run
 
 The short-run implications of the model we have just discussed differ from the long-run implications of the monetary approach we presented in the previous chapter. It is important that we look at these differences, and understand how and why they arise.
 
@@ -321,11 +319,11 @@ What is the intuition for these findings? In the short run, when we study the im
 
 A good grasp of these key differences between the short- and long-run approaches is essential to understanding how exchange rates are determined. To cement our understanding, in the rest of the chapter we explore the different implications of temporary and permanent policy changes. To make our exploration a bit easier, we now lay out the short-run model in a succinct, graphical form.
 
-# 3 The Asset Approach: Applications and Evidence
+### 3 The Asset Approach: Applications and Evidence
 
 To simplify the graphical presentation of the asset approach, we focus on conditions in the home economy; a similar approach can be used for the foreign economy. For illustration we again assume that Home is the United States and Foreign is Europe meaning the Eurozone.
 
-# The Asset Approach to Exchange Rates: Graphical Solution
+#### The Asset Approach to Exchange Rates: Graphical Solution
 
 Figure 15-7 shows two markets: panel (a) shows the home money market (for the United States), and panel (b) shows the FX market diagram (for the dollar-euro market). This figure summarizes the asset approach in the short run.
 
@@ -363,7 +361,7 @@ To solve for the exchange rate, we start in the home money market in panel (a) o
 
 Our graphical treatment shows that solving the model is as simple as tracing a path around the diagrams. While we gain in simplicity, we also lose some generality because one market, the foreign money market, has been left out of the analysis. However, the same analysis also applies to the foreign country. As a quick check that you understand the logic of the asset approach to exchange rates, you might try to construct the equivalent of Figure 15-7 under the assumption that Europe is Home and the United States is Foreign. (Hint: In the FX market, you will need to treat the home [European] expected future exchange rate  $E_{\epsilon/\S}^{\epsilon}$  and the foreign [U.S.] interest rate  $i_{\S}$  as given. Take care with the currency units of every variable when making the switch.)
 
-# Short-Run Policy Analysis
+#### Short-Run Policy Analysis
 
 The graphical exposition in Figure 15-7 shows how the asset approach works to determine the exchange rate. This approach can be used to analyze the impacts of economic policy or other shocks to the economy.
 
@@ -411,7 +409,7 @@ To ensure you have grasped the model fully, you might try two exercises. First, 
 
 # APPLICATION
 
-# The Rise and Fall of the Dollar, 1999-2004
+##### The Rise and Fall of the Dollar, 1999-2004
 
 In the 1990s, many developed countries adopted monetary policies that established clear, long-run nominal anchors. The European Central Bank, for example, adopted an explicit inflation target. The Federal Reserve in the United States operated with a more implicit target, but nonetheless could claim to have a credible anchor, too.
 
@@ -432,7 +430,7 @@ U.S.-Eurozone Interest Rates and Exchange Rates, 1999-2004 From the euro's birth
 Sources: Websites of central banks; oanda.com to foreign), and our model predicts a dollar depreciation in the short run. Looking at the path of the dollar-euro exchange rate in the figure, we can see that the model accords well with reality.
 
 
-# 4 A Complete Theory: Unifying the Monetary and Asset Approaches
+### 4 A Complete Theory: Unifying the Monetary and Asset Approaches
 
 In this section, we extend our analysis from the short run to the long run, and examine permanent as well as temporary shocks. To do this, we put together a complete theory of exchange rates that couples the long-run and short-run approaches, as shown schematically in Figure 15-11:
 
@@ -440,7 +438,7 @@ We need the asset approach (this chapter)—short-run money market equilibrium a
 
 $$
 
-\left. \begin{array}{l} \overline {{P}}_{U S} = M_{U S} / \left[ L_{U S} \left(i_{\S}\right) Y_{U S} \right] \\ \overline {{P}}_{E U R} = M_{E U R} / \left[ L_{E U R} \left(i_{\ell}\right) Y_{E U R} \right] \\ i_{\S} = i_{\ell} + \frac{E_{\S / \ell}^{e} - E_{\S / \ell}}{E_{\S / \ell}} \end{array} \right\} \text{Th ea ss et ap pr oa ch .} \tag {15-4}
+\left. \begin{array}{l} \overline {{P}}_{U S} = M_{U S} / \left[ L_{U S} \left(i_{\S}\right) Y_{U S} \right] \\ \overline {{P}}_{E U R} = M_{E U R} / \left[ L_{E U R} \left(i_{\ell}\right) Y_{E U R} \right] \\ i_{\S} = i_{\ell} + \frac{E_{\S / \ell}^{e} - E_{\S / \ell}}{E_{\S / \ell}} \end{array} \right\} \text{The asset approach.} \tag {15-4}
 
 $$
 
@@ -449,7 +447,7 @@ $$
 
 $$
 
-\left. \begin{array}{l} P_{U S}^{e} = M_{U S}^{e} / \left[ L_{U S} \left(i_{\S}^{e}\right) Y_{U S}^{e} \right] \\ P_{E U R}^{e} = M_{E U R}^{e} / \left[ L_{E U R} \left(i_{\epsilon}^{e}\right) Y_{E U R}^{e} \right] \\ E_{\S / \epsilon}^{e} = P_{U S}^{e} / P_{E U R}^{e} \end{array} \right\} \quad \text{Th em on et ar ya pp ro ac h .} \tag {15-5}
+\left. \begin{array}{l} P_{U S}^{e} = M_{U S}^{e} / \left[ L_{U S} \left(i_{\S}^{e}\right) Y_{U S}^{e} \right] \\ P_{E U R}^{e} = M_{E U R}^{e} / \left[ L_{E U R} \left(i_{\epsilon}^{e}\right) Y_{E U R}^{e} \right] \\ E_{\S / \epsilon}^{e} = P_{U S}^{e} / P_{E U R}^{e} \end{array} \right\} \quad \text{The monetary approach.} \tag {15-5}
 
 $$
 
@@ -461,21 +459,19 @@ It is only now, with all the building blocks in place, that we can fully appreci
 
 After all our hard work, we have arrived at a complete theory to explain exchange rates in the short run and the long run. The model incorporates all of the key economic fundamentals that affect exchange rates and, in practice, although forex markets exhibit a great deal of turbulence and uncertainty, there is evidence that these fundamentals play a major role in shaping traders' decisions (see Side Bar: Confessions of a Forex Trader).
 
-# Long-Run Policy Analysis
+#### Long-Run Policy Analysis
 
 When and how can we apply the complete model? The downside of working with the complete model is that we have to keep track of multiple mechanisms and variables; the upside is that the theory is fully developed and can be applied to short-run and long-run policy shocks.
 
-The temporary shocks we saw in the last section represent only one kind of monetary policy change, one that does not affect the long-run nominal anchor. The fact that these shocks were temporary allowed us to conduct all of the analysis under
+The temporary shocks we saw in the last section represent only one kind of monetary policy change, one that does not affect the long-run nominal anchor. The fact that these shocks were temporary allowed us to conduct all of the analysis under the assumption that the long-run expected level of the exchange rate remained unchanged.
 
 FIGURE 15-11
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/5e4bf5e80f93e4d0d68b2e79e4fe9ff6f257872872d61eca749716f9c499d959.jpg)
 A Complete Theory of Floating Exchange Rates: All the Building Blocks Together Inputs to the model are known exogenous variables (in green boxes). Outputs of the model are unknown endogenous variables (in red boxes). The levels of money supply and real income determine exchange rates.
 
-the assumption that the long-run expected level of the exchange rate remained unchanged.
-
 When the monetary authorities decide to make a permanent change, however, this assumption of unchanged expectations is no longer appropriate. Under such a change, the authorities would cause an enduring change in all nominal variables; that is, they would be electing to change their nominal anchor policy in some way. Thus, when a monetary policy shock is permanent, the long-run expectation of the level of the exchange rate has to adjust. This change will, in turn, cause the exchange rate predictions of the short-run model to differ from those made when the policy shock was only temporary.
 
-# Confessions of a Foreign Exchange Trader
+#### Confessions of a Foreign Exchange Trader
 
 Trying to forecast exchange rates is a major enterprise in financial markets and serves as the basis of any trading strategy. A tour of the industry would find many firms offering forecasting services at short, medium, and long horizons. Forecasts are generally based on three methodologies (or some mix of all three):
 
@@ -596,7 +592,7 @@ Exchange rate (U.S. $ per local currency unit) Logarithmic scale
 
 Source: IMF, International Financial Statistics.
 
-# 5 Fixed Exchange Rates and the Trilemma
+### 5 Fixed Exchange Rates and the Trilemma
 
 We have developed a complete theory of exchange rates, based on the assumption that market forces in the money market and the foreign exchange market determine exchange rates. Our models have the most obvious application to the case of floating exchange rate regimes. But as we have seen, not every country floats. Can our theory also be applied to the equally important case of fixed exchange rate regimes and to other intermediate regimes? The answer is yes, and we conclude this chapter by adapting our existing theory for the case of fixed regimes.
 
@@ -751,7 +747,7 @@ not: since 1999 the Danish interest rate has tracked the ECB's rate almost exact
 
 These monetary policy ties to Frankfurt even predate the euro itself. Before 1999 Denmark, and some countries such as Austria and the Netherlands, pegged to the German mark with the same result: their interest rates had to track the German interest rate, but the U.K. interest rate did not. The big difference is that Austria and the Netherlands have formally abolished their national currencies, the schilling and the guilder, and have adopted the euro—an extreme and explicit renunciation of monetary independence. Meanwhile, the Danish krone lives on, showing that a national currency can suggest monetary sovereignty in theory but may deliver nothing of the sort in practice.
 
-# 6 Conclusions
+### 6 Conclusions
 
 In this chapter, we drew together everything we have learned so far about exchange rates. We built on the concepts of arbitrage and equilibrium in the foreign exchange market in the short run, taking expectations as given and applying uncovered interest parity. We also relied on the purchasing power parity theory as a guide to exchange rate determination in the long run. Putting together all these building blocks provides a complete and internally consistent theory of exchange rate determination.
 
@@ -836,13 +832,13 @@ What became of all these dinars? Iraqis fared better than the holders of Confede
 7. A permanent home monetary expansion causes home interest rates to fall and the home exchange rate to depreciate and, in the short run, overshoot what will eventually be its long-run level. This permanent policy is inconsistent with a nominal anchor in the long run.
 8. The case of fixed exchange rates can also be studied using this theory. Under capital mobility, interest parity becomes very simple. In this case, the home interest rate equals the foreign interest rate. Home monetary policy loses all autonomy compared with the floating case. The only way to recover it is to impose capital controls. This is the essence of the trilemma.
 
-# KEY TERMS asset approach to exchange rates, p. 522
-
-fundamental equation of the asset approach to exchange rates, p. 523
-
-FX market diagram, p. 524 nominal rigidity, p. 529
-
-overshooting, p. 548 trilemma, p. 555
+# KEY TERMS
+- asset approach to exchange rates, p. 522
+- fundamental equation of the asset approach to exchange rates, p. 523
+- FX market diagram, p. 524
+- nominal rigidity, p. 529
+- overshooting, p. 548
+- trilemma, p. 555
 
 # PROBLEMS
 

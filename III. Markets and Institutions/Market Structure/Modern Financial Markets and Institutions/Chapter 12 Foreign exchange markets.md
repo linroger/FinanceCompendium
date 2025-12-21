@@ -1,17 +1,30 @@
 ---
-aliases:
-  - Foreign exchange markets
-tags:
-key_concepts:
+title: "Chapter 12: Foreign Exchange Markets"
 parent_directory: Modern Financial Markets and Institutions
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - foreign exchange markets
+  - currency trading
+  - exchange rates
+  - fx trading
+secondary_tags:
+  - spot transactions
+  - forward contracts
+  - currency swaps
+  - exchange rate regimes
+  - bretton woods
+  - floating exchange rates
+  - transaction risk
+  - translation risk
+  - economic risk
 cssclasses: academia
-title: "Chapter 12: Foreign exchange markets"
-linter-yaml-title-alias: "Chapter 12: Foreign exchange markets"
 ---
 
 # Foreign exchange markets
 
-# LEARNING OUTCOMES
+## LEARNING OUTCOMES
 
 The currency markets have an enormous impact on businesses and on individuals. These are often indirect effects, e.g. redundancies arising through loss of international competitiveness. This chapter sheds light on the nature of the FX markets and on the impact of FX shifts and discusses ways of reducing the risk. By the end of it the reader should be able to: explain the role and importance of the foreign exchange markets;
 
@@ -27,7 +40,7 @@ Today most of that trading is carried out by the FX departments of major banks. 
 
 This chapter looks at the foreign exchange markets from a number of angles. First, there is a description of the different types of FX markets, from simple spot 'immediate' delivery of one currency for another (immediate means within two days), to forwards which allow exchange of currency at a future date. Then we examine the way in which FX prices are quoted, with a particular emphasis on understanding the tables in the Financial Times. It has not always been the case that the main currencies have been allowed to float against each other determined by market forces. In the past rates of exchange were usually set by government in a variety of interventionist regimes. We look at some of these alternatives to floating. Another important angle is the impact of shifts in FX rates on people and businesses. Significant sums can be lost and firms can go out of business if they fail to manage the risk. We discuss some of the techniques used, which helps to illustrate a number of the instruments available in the FX markets. Finally, we ask how the level of exchange rate is determined: What are the major influences?
 
-# The foreign exchange markets
+## The Foreign Exchange Markets
 
 On the most basic level, foreign exchange markets are (hugely liquid) markets in which one currency is exchanged for another, at a rate usually determined by market supply and demand. For example, if there is a lot of demand from the UK for US dollars, then the buying actions of market players will lead to pressure for the price of each US dollar to rise and conversely the price of each UK pound will fall (less demand and greater supply).
 
@@ -65,7 +78,7 @@ Source: Triennial Central Bank Survey: Report on global foreign exchange market 
 
 The US dollar has become the currency that is accepted and used worldwide. This is partly due to the legacy left from the Bretton Woods agreement (see later in the chapter for details on this), but mostly to do with the size, strength and stability of the US economy.
 
-# FX mistakes
+## FX Mistakes
 
 There are many cases of calamitous FX trading, where one counterparty in the trading has made major losses either through inexperience, arrogance or simple error.
 
@@ -75,7 +88,7 @@ In 2002, US currency trader John Rusnak racked up losses of 691 million for his 
 
 The Hong Kong-based steel and mining conglomerate Citic Pacific was hit by losses of US \$1.9 billion in October 2008. Citic has an iron ore mining project in Western Australia. For this operation it needs Australian dollars. To minimise currency exposure the company took out hedges in the A$  against the US$; unfortunately there was a decline in the A$ against the US$. Citic had not put any stop losses into its contracts to automatically close the position on an adverse movement below a certain level, and so made the US\$1.9 billion loss.
 
-# FX trading
+## FX Trading
 
 In contrast to equity trading, where most countries tend to have one (or, at most, a handful of) major trading exchanges and trading is tightly regulated, trading on the foreign exchange market does not have a focal position where all trading is supervised and data is collected and displayed. The trading is carried out in numerous locations, wherever a trader is and can access a computer screen or a mobile phone screen. Many trading platforms now offer an app for the new generation of mobile phones and tablet computers giving traders full access to all their facilities and data, enabling them to download data and carry out trading wherever they are. Individual investors can also take advantage of this new technology, giving them access to data that was once available only to professional traders.
 
@@ -115,7 +128,7 @@ Exhibit 12.5 Foreign exchange market turnover by execution method, 2010 of the s
 
 Source: Triennial Central Bank Survey: Report on global foreign exchange market activity in 2010. Bank for International Settlements, www.bis.org
 
-# Exchange rates
+## Exchange Rates
 
 We now look more closely at exchange rates. We start with some terms used in FX markets. First, we provide a definition of an exchange rate:
 
@@ -153,7 +166,7 @@ $$
 
 The foreign exchange dealers are transacting with numerous buyers and sellers every day and they make a profit on the difference between the bid price and offer price (the bid/offer spread). In the above example if a dealer sold US \$1 million and bought US\$ 1 million with a bid/offer spread of 0.04 of a cent, a profit of £625,547 - £625,391 = £156 is made.
 
-# Worked example 12.1 Forex
+## Worked Example 12.1 Forex
 
 The basic elements of forex are so important for the rest of the chapter that it is worthwhile to pause and consolidate understanding of the quoted rates through some exercises.
 
@@ -167,7 +180,7 @@ Answer the following questions on the basis that the euro/US$ (EUR/USD) exchange
 
  4 How many euros would be received from selling US240,000?
 
-# Answers
+## Answers
 
 1 €200,000 × 1.3609 = 272,180
 
@@ -181,7 +194,7 @@ Answer the following questions on the basis that the euro/US$ (EUR/USD) exchange
 
 1.3609 = €176,354
 
-# Sources of information
+## Sources of Information
 
 Information on currency exchange rates is easily available in newspapers such as the Financial Times, or on websites such as Reuters, Yahoo Finance or any of the other numerous financial websites. Rates may vary very slightly between them all.
 

@@ -1,39 +1,30 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'Fixed Versus Floating: International Monetary Experience'
-linter-yaml-title-alias: 'Fixed Versus Floating: International Monetary Experience'
+title: "18 - Balance of Payments II - Output and Policies"
+parent_directory: "VII - Balance of Payments"
+formatted: "2025-12-21 05:15:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- wealth losses net foreign
-- large exposure foreign currency
-- criteria fixed exchange rate
-- theory pairs countries
-- hyperinflation economy usually point
-- experienced crises large depreciations
+- exchange rate regime choice
+- fixed versus floating rates
+- balance of payments policies
+- international monetary systems
+- gold standard history
 secondary_tags:
-- versus floating international monetary
-- currency depreciation affects wealth
-- countries gold standard floated
-- depreciations liability dollarization countries
-- losses foreign currency debt
-- exchange rate depreciations changes
-- currency liabilities suffered large
-- effects wealth countries countries
-- exchange rate different points
-- dollars external liabilities
-- shows impact exchange rate
-- dollarization countries saw large
-- argument favor fixed exchange
-- gold standard orthodoxy argued
-- gold standard bilateral
-- exchange rate crises
-tags_extracted: '2025-12-18T00:46:56.035259'
+- economic integration benefits
+- asymmetric shock costs
+- trilemma policy constraints
+- bretton woods system
+- eurozone monetary union
+- currency crisis analysis
+- beggar thy neighbor policies
+- fear of floating
+- original sin problem
+- liability dollarization
+cssclasses: academia
 ---
 
-# Fixed Versus Floating: International Monetary Experience
+# 18 - Balance of Payments II - Output and Policies
 
 In truth, the gold standard is already a barbarous relic. All of us, from the Governor of the Bank of England downwards, are now primarily interested in preserving the stability of business, prices, and employment, and are not likely, when the choice is forced on us, deliberately to sacrifice these to the outworn dogma… . Advocates of the ancient standard do not observe how remote it now is from the spirit and the requirements of the age.
 
@@ -43,23 +34,15 @@ How many more fiascoes will it take before responsible people are finally convin
 
 Milton Friedman, 1992
 
-The gold standard in particular—and even pegged exchange rates in general—have a bad name. But the gold standard's having lost her name in the 1920s and 1930s should not lead one to forget her 19th century virtues… . Can these lost long-term virtues be retrieved without the world again being in thrall to the barbarous relic? … In an integrated world economy, the choice of an exchange rate regime—and thus the common price level—should not be left to an individual country. The spillover effects are so high that it should be a matter of collective choice.
+The gold standard in particular—and even pegged exchange rates in general—have a bad name. But the gold standard's having lost her name in the 1920s and 1930s should not lead one to forget her 19th century virtues. Can these lost long-term virtues be retrieved without the world again being in thrall to the barbarous relic? In an integrated world economy, the choice of an exchange rate regime—and thus the common price level—should not be left to an individual country. The spillover effects are so high that it should be a matter of collective choice.
 
 Ronald McKinnon, 2002
 
-# A century ago, economists and policy makers may have had their differon, but—unlike today—almost all of them agreed that a fixed exchange deal choice of exchange rate regime. Even if some countries occasionally ting rate, it was usually with the expectation that they would soon return egged rate.
+## Exchange Rate Regime Choice: Historical Perspective
 
-The preferred method for fixing the exchange rate was the gold standard, a system in which the value of a country's currency was fixed relative to an ounce of gold. As a result, the currency's value was also fixed against all other currencies that were
+A century ago, economists and policy makers may have had their differences, but—unlike today—almost all of them agreed that a fixed exchange rate was the optimal choice of exchange rate regime. Even if some countries occasionally floated their currencies, it was usually with the expectation that they would soon return to a pegged rate.
 
-1 Exchange Rate Regime Choice: Key Issues
-
-2 Other Benefits of Fixing
-
-3 Fixed Exchange Rate Systems
-
-4 International Monetary Experience
-
-6 Conclusions also pegged to gold. The requirements of maintaining the gold standard were strict: although monetary authorities could issue paper money, they had to be willing and able to exchange paper currency for gold at the official fixed rate when asked to do so.
+The preferred method for fixing the exchange rate was the gold standard, a system in which the value of a country's currency was fixed relative to an ounce of gold. As a result, the currency's value was also fixed against all other currencies that were also pegged to gold. The requirements of maintaining the gold standard were strict: although monetary authorities could issue paper money, they had to be willing and able to exchange paper currency for gold at the official fixed rate when asked to do so.
 
 Figure 19-1 documents 140 years of exchange rate arrangements around the world. From 1870 to 1913, most of the world used the gold standard. At the peak in 1913, approximately  $70\%$  of the world's countries were part of the gold standard system; a few floated (about  $20\%$ ) or used other metallic standards (about  $10\%$ ). Since 1913 much has changed. Adherence to the gold standard weakened during World War I, waxed and waned in the 1920s and 1930s, then was never seen again. In the 1940s, John Maynard Keynes and policy makers from all over the world designed a new system of fixed exchange rates, the Bretton Woods system.
 
@@ -81,7 +64,7 @@ currency regimes in the 1980s and 1990s); in recent years, fixed exchange rates 
 
 Why do some countries choose to fix and others to float? Why do they change their minds at different times? These are among the most enduring and controversial questions in international macroeconomics and they have been the cause of conflicts among economists, policy makers, and commentators for many years. On one side of the debate are those like Milton Friedman (quoted at the start of this chapter) who in the 1950s, against the prevailing gold standard orthodoxy, argued that floating rates are obviously to be preferred because of their clear economic and political advantages. On the opposing side of the debate are figures such as Ronald McKinnon (also quoted above) who think that only a system of fixed rates can encourage cooperative policy making, keep prices and output stable, and encourage international flows of trade and finance. In this chapter, we examine the pros and cons of different exchange rate regimes.
 
-# 1 Exchange Rate Regime Choice: Key Issues
+## 1 Exchange Rate Regime Choice: Key Issues
 
 In previous chapters, we have examined the workings of the economy under fixed and floating exchange rates. One advantage of understanding the workings of these regimes in such detail is that we are now in a position to address a perennially important macroeconomic policy question: What is the best exchange rate regime choice for a given country at a given time? In this section, we explore the pros and cons of fixed and floating exchange rates by combining the models we have developed with additional theory and evidence. We begin with an application about Germany and Britain in the early 1990s. This story highlights the choices policy makers face as they choose between fixed exchange rates (pegs) and floating exchange rates (floats).
 
@@ -119,7 +102,7 @@ Off the Mark: Britain's Departure from the ERM in 1992 In panel (a), German reun
 
 8. With same  $E$ , higher  $i$ , demand and output must fall (point 2). Britain suffers a recession.
 
-to avoid that outcome. Using its policy autonomy, the Bundesbank tightened its monetary policy by contracting the money supply and raising interest rates. This policy change is seen in the upward shift of the German LM curve, from  $LM_{1}^{*}$  to  $LM_{2}^{*}$  in panel (a). We suppose that the Bundesbank stabilizes German output at its initial level  $Y_{1}^{*}$  by raising German interest rates to the even higher level of  $i_{2}^{*3}$ .
+to avoid that outcome. Using its policy autonomy, the Bundesbank tightened its monetary policy by contracting the money supply and raising interest rates. This policy change is seen in the upward shift of the German LM curve, from  $LM_{1}^{*}$  to  $LM_{2}^{*}$  in panel (a). We suppose that the Bundesbank stabilizes German output at its initial level  $Y_{1}^{*}$  by raising German interest rates to the even higher level of  $i_{2}^{*}$ .
 
 Choices for the Other ERM Countries What happened in the countries of the ERM that were pegging to the DM? We examine what these events implied for Britain, but the other ERM members faced the same problems. The IS-LM-FX model tells us that events in Germany have two implications for the British IS-LM-FX model. First, as the German interest rate  $i^{*}$  rises, the British foreign return curve FR shifts up in the British forex market (to recap: German deposits pay higher interest, all else equal). Second, as the German interest rate  $i^{*}$  rises, the British IS curve shifts out (to recap: at any given British interest rate, the pound has to depreciate more, boosting British demand via expenditure switching). Now we only have to figure out how much the British IS curve shifts, what the British LM curve is up to, and hence how the equilibrium outcome depends on British policy choices.
 
@@ -167,19 +150,17 @@ Most Britons are opposed to the euro, some vehemently so.
 
 maintained its ERM peg. After leaving the ERM in September 1992, Britain lowered interest rates [panel (a)] in the short run and depreciated its exchange rate against the DM [panel (b)]. In comparison, France never depreciated and had to maintain higher interest rates to keep the franc pegged to the DM until German monetary policy eased a year or two later. As our model would predict, the British economy boomed in subsequent years panel (c). The French suffered slower growth, a fate shared by most of the other countries that stayed in the ERM.
 
-The British choice stands to this day. Although the option to rejoin the ERM has remained open since
+The British choice stands to this day. Although the option to rejoin the ERM has remained open since 1992, the idea of pegging to (much less joining) the euro is unpopular in Britain. All subsequent British governments have decided that the benefits of increased trade and economic integration with Europe were smaller than the associated costs of sacrificing British monetary autonomy.[5]
 
-1992, the idea of pegging to (much less joining) the euro is unpopular in Britain. All subsequent British governments have decided that the benefits of increased trade and economic integration with Europe were smaller than the associated costs of sacrificing British monetary autonomy.[5]
+## Key Factors in Exchange Rate Regime Choice: Integration and Similarity
 
-# Key Factors in Exchange Rate Regime Choice: Integration and Similarity
-
-We started this chapter with an application about the policy choice and tradeoffs. Britain faced in 1992 when it needed to decide between a fixed exchange rate (peg) and a floating exchange rate (float).
+We started this chapter with an application about the policy choice and tradeoffs Britain faced in 1992 when it needed to decide between a fixed exchange rate (peg) and a floating exchange rate (float).
 
 At different times, British authorities could see the potential benefits of participating fully in an economically integrated single European market and the ERM fixed exchange rate system. The fixed exchange rate, for example, would lower the costs of economic transactions among the members of the ERM zone. But, especially in 1992, the British could also see that there would be times when the monetary policy being pursued by authorities in Germany would be out of line with policy that was best for Britain. The fundamental source of this divergence between what Britain wanted and what Germany wanted was that each country faced different shocks. The fiscal shock that Germany experienced after reunification was not felt in Britain or any other ERM country.
 
 To better understand these trade-offs, and the decision to fix or float, we now examine the issues that are at the heart of this decision: economic integration as measured by trade and other transactions, and economic similarity, as measured by the similarity of shocks.
 
-# Economic Integration and the Gains in Efficiency
+## Economic Integration and the Gains in Efficiency
 
 The term economic integration refers to the growth of market linkages in goods, capital, and labor markets among regions and countries. By lowering transaction costs, a fixed exchange rate might promote integration and increase economic efficiency.
 
@@ -327,7 +308,7 @@ Source: Julian di Giovanni and Jay C. Shambaugh, 2008, "The Impact of Foreign In
 
 its interest rate, it spreads economic pain to those countries pegging to it, but not to the countries that float. These findings confirm that one cost of a fixed exchange rate regime is a more volatile level of output.
 
-# 2 Other Benefits of Fixing
+## 2 Other Benefits of Fixing
 
 We began the chapter by emphasizing two key factors that influence the choice of fixed versus floating rate regimes: economic integration (market linkages) and economic similarity (symmetry of shocks). Other factors can play a role, however, and in this section, we explore some benefits of a fixed exchange rate regime that can be particularly important in emerging markets and developing countries.
 
@@ -350,7 +331,7 @@ What is the inflation tax worth to the government? It can spend the extra money 
 The amount that the inflation tax transfers from household to the government is called seigniorage, which can be written as
 
 $$
-\underbrace {\text{Se ig ni or ag e}}_{\text{In fl at io nt ax}} = \underset {\text{Ta xr at e}} {\pi} \times \underset {\text{Ta xb as e}} {\frac{M}{P}} = \pi \times L (r^{*} + \pi) Y
+\underbrace {\text{Seigniorage}}_{\text{Inflation tax}} = \underset {\text{Tax rate}} {\pi} \times \underset {\text{Tax base}} {\frac{M}{P}} = \pi \times L (r^{*} + \pi) Y
 $$
 
 The two terms are often viewed as the tax rate (here, the inflation rate  $\pi$ ) and the tax base (the thing being taxed; here, real money balances  $M / P = L$ ). The first term rises as inflation  $\pi$  rises, but the second term goes to zero as  $\pi$  gets large because if inflation becomes very high, people try to hold almost no money, that is, real money demand given by  $L(i) = L(r^{*} + \pi)Y$  falls to zero.
@@ -388,7 +369,7 @@ $$
 Now suppose there is a small change  $\Delta E$  in the exchange rate, all else equal. This does not affect the values of  $A_H$  and  $L_H$ , but it does change the values of  $EA_F$  and  $EL_F$  expressed in pesos. We can express the resulting change in national wealth as
 
 $$
-\Delta W = \underbrace {\Delta E}_{\text{Ch an ge in}} \times \underbrace {[ A_{F} - L_{F} ]}_{\text{Ne ti nt er na ti on}} \tag {19-1}
+\Delta W = \underbrace {\Delta E}_{\text{Change in}} \times \underbrace {[ A_{F} - L_{F} ]}_{\text{Net international}} \tag {19-1}
 $$
 
 The expression is intuitive and revealing. After a depreciation  $(\Delta E > 0)$ , the wealth effect is positive if Foreign currency assets exceed Foreign currency liabilities (the net dollar position in brackets is positive) and negative if Foreign currency liabilities exceed Foreign currency assets (the net dollar position in brackets is negative).
@@ -483,7 +464,7 @@ FIGURE 19-10
 
 A Shift in the FIX Line Additional benefits of fixing or higher costs of floating will lower the threshold for choosing a fixed exchange rate. The FIX line moves down. Choosing a fixed rate now makes sense, even at lower levels of symmetry or integration (e.g., at point 2).
 
-# 3 Fixed Exchange Rate Systems
+## 3 Fixed Exchange Rate Systems
 
 So far, our discussion has considered only the simplest type of fixed exchange rate: a single home country that unilaterally pegs to a foreign base country. In reality there are more complex arrangements, called fixed exchange rate systems, which involve multiple countries. Examples include the global Bretton Woods system, in the 1950s and 1960s, and the European Exchange Rate Mechanism (ERM), to which all members have to adhere for at least two years as a precondition to euro entry.
 
@@ -607,7 +588,7 @@ Third, gold arbitrage would enforce a fixed exchange rate at  $E_{\mathrm{par}}$
 
 Fourth, and most important, we see the inherent symmetry of the gold standard system when operated according to these principles. Both countries share in the adjustment mechanism, with the money supply contracting in the gold outflow country (here, Britain) and the money supply expanding in the gold inflow country (here, France). In theory, if these principles were adhered to, neither country has the privileged position of being able to not change its monetary policy, in marked contrast to a center country in a reserve currency system. But in reality, the gold standard did not always operate quite so smoothly, as we see in the next section.
 
-# 4 International Monetary Experience
+## 4 International Monetary Experience
 
 A vast diversity of exchange rate arrangements have been used throughout history. In the chapter that introduced exchange rates, we saw how different countries fix or float at present; at the start of this chapter, we saw how exchange rate arrangements have fluctuated over more than a century. These observations motivated us to study how countries choose to fix or float.
 
@@ -699,7 +680,7 @@ Some countries, both developed and developing, have camped in the middle ground:
 
 Finally, some countries still impose some capital controls rather than embrace globalization. China has been in this position, although things are gradually starting to change and the authorities have suggested further moves toward financial liberalization in the future. These countries, mostly developing countries, are clinging to the bottom left corner of the trilemma diagram.
 
-# 5 Conclusions
+## 5 Conclusions
 
 Exchange rate regimes have varied greatly across countries and across time and continue to do so. Explaining why this is the case and figuring out the optimal choice of exchange rate regime are major tasks in international macroeconomics.
 

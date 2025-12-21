@@ -1,63 +1,50 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'Balance of Payments I: The Gains from Financial Globalization'
-linter-yaml-title-alias: 'Balance of Payments I: The Gains from Financial Globalization'
+title: "16 - National and International Accounts"
+parent_directory: "VII - Balance of Payments"
+formatted: "2025-12-21 05:04:43 PM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
 primary_tags:
-- investment process limits country
-- country positive initial wealth
-- relationship aid inflows country
-- household cope economic shocks
-- oil boom provides good
-- financial globalization save rainy
+  - "financial globalization benefits"
+  - "consumption smoothing gains"
+  - "investment efficiency gains"
+  - "risk diversification gains"
+  - "long run budget constraint"
 secondary_tags:
-- financial globalization doesn work
-- aid directed countries better
-- balance payments gains
-- investment implies consumption creates
-- aid squandered reasons
-- global capital markets
-- low output implies capital
-- financial liberalization large barriers
-- benefits financial globalization
-- foreign aid administered little
-- doubts vast amounts aid
-- developing countries financial openness
-- investment inefficiency global level
-- capital markets failing criticism
-- saving decisions norwegians did
-- slowly access global capital
-tags_extracted: '2025-12-18T00:46:19.702773'
+  - "international borrowing limits"
+  - "economic shocks coping"
+  - "household analogy economics"
+  - "hurricane economic impact"
+  - "current account deficits"
+  - "capital markets access"
+  - "foreign aid effectiveness"
+  - "developing countries finance"
+cssclasses: academia
 ---
 
 # Balance of Payments I: The Gains from Financial Globalization
 
 Save for a rainy day.
 
-Make bay while the sun shines.
+Make hay while the sun shines.
 
 Don't put all your eggs in one basket.
 
-# H ow does your household cope with economic shocks and the financial
-
-challenges they pose? Let's take an extreme example. Suppose you are self-employed and own a business. A severe storm appears and a flood overwhelms your town. This is bad news on several fronts. As people recover from the disaster, businesses, including yours, suffer and your income is lower for several months. If your business premises are damaged, you must also plan to make new investments to repair the damage.
+How does your household cope with economic shocks and the financial challenges they pose? Let's take an extreme example. Suppose you are self-employed and own a business. A severe storm appears and a flood overwhelms your town. This is bad news on several fronts. As people recover from the disaster, businesses, including yours, suffer and your income is lower for several months. If your business premises are damaged, you must also plan to make new investments to repair the damage.
 
 If you have no financial dealings with anyone, your household, as a little closed economy, faces a difficult trade-off as your income falls. Your household income has to equal its consumption plus investment. Would you try to maintain your level of consumption, and neglect the need to invest? Or would you invest, and let your household suffer as you cut back drastically on consumption? Faced with an emergency like this, most of us look for help beyond our own household, if we can: we might hope for transfers (gifts from friends and family, or emergency relief payments from the government or a charity), or we might rely on financial markets (dip into savings, apply for a loan, rely on an insurance payout, etc.).
 
-What does this story have to do with international economics? If we redraw the boundaries of this experiment and expand from the household unit, to the local, regional, and finally national level, the same logic applies. Countries face shocks all the time, and how they are able cope with them depends on whether they are open or closed to economic interactions with other nations.
+What does this story have to do with international economics? If we redraw the boundaries of this experiment and expand from the household unit, to the local, regional, and finally national level, the same logic applies. Countries face shocks all the time, and how they are able to cope with them depends on whether they are open or closed to economic interactions with other nations.
 
-1 The Limits on How Much a Country Can Borrow: The Long-Run Budget Constraint
+## 1 The Limits on How Much a Country Can Borrow: The Long-Run Budget Constraint
 
-2 Gains from Consumption Smoothing
+## 2 Gains from Consumption Smoothing
 
-3 Gains from Efficient Investment
+## 3 Gains from Efficient Investment
 
-4 Gains from Diversification of Risk
+## 4 Gains from Diversification of Risk
 
-5 Conclusions
+## 5 Conclusions
 
 To get a sense of how countries can deal with shocks, we can look at data from Caribbean and Central American countries that have faced the same kinds of shock as the household we just described. Every year many tropical storms, some of them of hurricane strength, sweep through this region. The storms are large—hundreds of miles across—and most countries in the region are much smaller in size, some no more than little islets. For them, a hurricane is the town flood blown up to a national scale. The worst storms cause widespread destruction and loss of life.
 
@@ -71,9 +58,9 @@ In this chapter, we see how financially open economies can, in theory, reap gain
 
 FIGURE 17-1
 
-# The Macroeconomics of
+## The Macroeconomics of Hurricanes
 
-Hurricanes The figure shows the average response (excluding transfers) of investment, saving, and the current account in a sample of Caribbean and Central American countries in the years during and after severe hurricane damage. The responses are as expected: investment rises (to rebuild) and saving falls (to limit the fall in consumption); hence, the current account moves sharply toward deficit.
+The figure shows the average response (excluding transfers) of investment, saving, and the current account in a sample of Caribbean and Central American countries in the years during and after severe hurricane damage. The responses are as expected: investment rises (to rebuild) and saving falls (to limit the fall in consumption); hence, the current account moves sharply toward deficit.
 
 Note: Transfers are excluded from saving and the current account, and the saving measure is calculated as  $S - \text{NUT} = I + CA - \text{NUT}$ .
 
@@ -91,7 +78,7 @@ Along the way, we look at how well the theoretical gains from financial globaliz
 
 NOAA/Satellite and Information Service
 
-# 1 The Limits on How Much a Country Can Borrow: The Long-Run Budget Constraint
+## 1 The Limits on How Much a Country Can Borrow: The Long-Run Budget Constraint
 
 Our introductory examples show how borrowing can help countries (like households) better cope with shocks. But, also like households, there is a limit to how much a country can borrow (or, how much lenders will lend). Understanding the constraints on how countries might borrow and lend to each other is our critical first task in this chapter. With this understanding we can then examine how financial globalization shapes the economic choices available to a country as economic conditions change over time. The ability to borrow in times of need and lend in times of prosperity has profound effects on a country's well-being.
 
@@ -105,18 +92,19 @@ Case 1 A debt that is serviced. Every year you pay the  $10\%$  interest due on 
 
 Hurricane Mitch battered Central America from October 22, 1998, to November 5, 1998. It was the deadliest hurricane in more than 200 years and the second deadliest ever recorded.
 
-end of each year, the bank renews the loan (a rollover), and your wealth remains constant at  $-\$ 100,000$ .
+end of each year, the bank renews the loan (a rollover), and your wealth remains constant at  $-\$100,000$.
 
 Case 2 A debt that is not serviced. You pay neither interest nor principal but ask the bank to roll over the principal plus the interest due on it each year. In year 1, the overdue interest is  \$10,000, and your debt grows by 10\%$  to 110,000. In year 2, the overdue interest is  $10\%$  of \$110,000, or \$11,000, and your debt grows by  $10\%$  again to \$121,000. Assuming this process goes on and on, your level of debt grows by  $10\%$  every year.
 
 Case 2 is not sustainable. If the bank allows it, your debt level will explode to infinity as it grows by  $10\%$  every year forever. This case, sometimes called a rollover scheme, a pyramid scheme, or a Ponzi game, illustrates the limits or constraints on the use of borrowing, which implies negative external wealth. In the long run, lenders will simply not allow the debt to grow beyond a certain point. Debts must be paid off eventually. This requirement is the essence of the long-run budget constraint.
 
-# How the Long-Run Budget Constraint Is Determined
+## How the Long-Run Budget Constraint Is Determined
 
 As is usual when building an economic model, we start with a basic model that makes a number of simplifying assumptions, but yields lessons that can be extended to more complex cases. Here are the assumptions we make about various conditions that affect our model:
 
 - Prices are perfectly flexible. Under this assumption, all analysis in this chapter can be conducted in terms of real variables, and all monetary aspects of the economy can be ignored. (To adjust for inflation and convert to real terms, we could divide all nominal quantities by an index of prices.)
-The country is a small open economy. The country trades goods and services with the rest of the world through exports and imports and can lend or borrow overseas, but only by issuing or buying debt (bonds). Because it is small, the country cannot influence prices in world markets for goods and services.
+
+- The country is a small open economy. The country trades goods and services with the rest of the world through exports and imports and can lend or borrow overseas, but only by issuing or buying debt (bonds). Because it is small, the country cannot influence prices in world markets for goods and services.
 - All debt carries a real interest rate  $r^*$ , the world real interest rate, which we assume to be constant. Because the country is small, it takes the world real interest rate as given, and we assume it can lend or borrow an unlimited amount at this interest rate.
 - The country pays a real interest rate  $r^{*}$  on its start-of-period debt liabilities  $L$  and is paid the same interest rate  $r^{*}$  on its start-of-period debt assets  $A$ . In any period, the country earns net interest income payments equal to  $r^{*}A$  minus  $r^{*}L$  or, more simply,  $r^{*}W$ , where  $W$  is external wealth  $(A - L)$  at the start of the period. External wealth may vary over time.
 - There are no unilateral transfers  $(NUT = 0)$ , no capital transfers  $(KA = 0)$ , and no capital gains on external wealth. Under these assumptions, there are only two nonzero items in the current account: the trade balance TB and net factor income from abroad,  $r^{*}W$ . If  $r^{*}W$  is positive, the country is earning interest and is a lender/creditor with positive external wealth. If  $r^{*}W$  is negative, the country is paying interest and is a borrower/debtor with negative external wealth.
@@ -228,7 +216,7 @@ This formula helps us compute  $PV(X)$  for any stream of constant payments, som
 For example, if the constant payment is  $X = 100$  and the interest rate is  $5\%$  ( $r^{*} = 0.05$ ), Equation (17-2) says that the present value of a stream of payments of 100 starting in year 1 is  $100 / 0.05 = 2,000$ :
 
 $$
-\frac{1 0 0}{(1 + 0 . 0 5)} + \frac{1 0 0}{(1 + 0 . 0 5)^{2}} + \frac{1 0 0}{(1 + 0 . 0 5)^{3}} + \dots = \frac{1 0 0}{0 . 0 5} = 2, 0 0 0
+\frac{100}{(1+0.05)} + \frac{100}{(1+0.05)^{2}} + \frac{100}{(1+0.05)^{3}} + \dots = \frac{100}{0.05} = 2,000
 $$
 
 This example, which we will often revisit later in this chapter, shows the stream of interest payments on a perpetual loan (i.e., an interest-only loan or, equivalently, a sequence of loans for which only the principal is refinanced or rolled over every year). If the amount loaned by the creditor is  \$2,000 in year 0, and this principal amount is outstanding forever, then the interest that must be paid each year to service the debt is 5\%$  of 2,000, or 100. Under these conditions, wherein the loan payments are always fully serviced, the present value of the future interest payments equals the value of the amount loaned in year 0 and the LRBC is satisfied.

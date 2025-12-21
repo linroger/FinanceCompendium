@@ -1,24 +1,39 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Equity Markets"
+parent_directory: "Modern Financial Markets and Institutions"
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+  - equity markets
+  - stock exchanges
+  - share trading
+  - market structure
+secondary_tags:
+  - ordinary shares
+  - preference shares
+  - limited liability
+  - joint stock companies
+  - share valuation
+  - dividend policy
+  - market capitalisation
+  - trading mechanisms
+  - multilateral trading facilities
+  - high frequency trading
+  - clearing and settlement
+  - regulatory frameworks
+  - international exchanges
+  - market microstructure
 cssclasses: academia
-title: Equity markets
-linter-yaml-title-alias: Equity markets
 ---
 
-# Equity markets
+# Equity Markets
 
-# LEARNING OUTCOMES
+## LEARNING OUTCOMES
 
-This chapter is designed to help you understand the main features of equity capital and the markets on which shares are traded. By the end of it the reader should be able to: compare and contrast equity and debt capital, as well as explain the features of preference shares;
+This chapter is designed to help you understand the main features of equity capital and the markets on which shares are traded. By the end of it the reader should be able to: compare and contrast equity and debt capital, as well as explain the features of preference shares; discuss the role and functioning of stock markets; describe and explain the recent innovations leading to more equity trading taking place outside the main exchanges;
 
-discuss the role and functioning of stock markets; describe and explain the recent innovations leading to more equity trading taking place outside the main exchanges;
-
-explain the different markets available to companies on the London Stock Exchange and the way in which shares are traded there;
-
-■ outline the trends in the ownership of UK shares over the past 50 years.
+explain the different markets available to companies on the London Stock Exchange and the way in which shares are traded there; outline the trends in the ownership of UK shares over the past 50 years.
 
 Society needs people who are willing to take the risk of total failure of a business enterprise. Banks are not willing to accept that risk. They strike deals with companies whereby even if the profits are low or a loss is made they are still paid interest and capital. Also, they usually require collateral so that if the business plan turns out to be a dud the bank can recoup its money by selling off property or other assets (or, at least most of their money most of the time). Holders of other forms of debt capital, such as bonds, take similar low-risk/low-return deals.
 
@@ -26,15 +41,15 @@ Imagine if debt were the only form of capital available for businesses to grow. 
 
 Now consider a company producing TV programmes. Could it finance itself entirely with debt? No, because if £100 million was put in by lenders to invest in ten TV serials there would be nothing for them to fall back on should half of its shows be poorly received by viewers, or even if one-tenth was poorly received. They might be willing to lend, say, £40 million if the other £60 million came from investors who were willing to accept the risk of total loss. Then the lenders would know that their money was likely to be reasonably safe (assuming that they had faith in the track record of the executives in charge and the historical statistics suggested that only two or three programmes were likely to be commercial flops). Naturally, the risk takers providing this £60 million of capital would want a high reward for exposing their hard-earned savings. They would also want some say over who the directors of the company were and the power to vote down major moves proposed by the managers. They would also require regular information on progress. These holders of shares (equities) in the success or failure of the enterprise act as shock-absorbers so that other parties contributing to a firm, from suppliers and creditors to bankers and leasing companies, do not have to bear the shock of a surprise recession, a loss of market share to competitors or a badly made TV series.
 
-Another attractive feature of share capital for building businesses is that it does not have a date at which it will be redeemed by the company. Thus the managers (and creditors) know that the capital will be available for the very long term, that the shareholders cannot turn around one day and demand their money back. However, this causes a problem for investors because they may want to sell their shares a year a two down the line. While many shareholders are willing to accept that their companies are too small to join a stock market or that the disadvantages of doing so outweigh the advantages, a minority of companies have decided to float their shares on an exchange. This brings many benefits in addition to permitting shareholders to sell (or buy more) when they want to, including facilitating mergers and the raising of more equity finance.
+Another attractive feature of share capital for building businesses is that it does not have a date at which it will be redeemed by the company. Thus the managers (and creditors) know that the capital will be available for the very long term, that the shareholders cannot turn around one day and demand their money back. However, this causes a problem for investors because they may want to sell their shares a year or two down the line. While many shareholders are willing to accept that their companies are too small to join a stock market or that the disadvantages of doing so outweigh the advantages, a minority of companies have decided to float their shares on an exchange. This brings many benefits in addition to permitting shareholders to sell (or buy more) when they want to, including facilitating mergers and the raising of more equity finance.
 
 After discussing the different types of long-term capital available to a company this chapter describes stock exchanges around the world and their importance. Challenges to the old established exchanges such as new share-trading facilities set up in the last five years, or high-frequency trading and dark pools of liquidity are also explored. We then look at the London Stock Exchange in more detail, comparing it to the other major exchanges. Also, the ways in which shares are traded are discussed, including the role of clearing houses and settlement systems.
 
-# The value of joint stock enterprises/a little history
+## The value of joint stock enterprises/a little history
 
 Although it is thought that Roman publicani (state contractors) carried out some active trading in parts of their businesses, it was in seventeenth-century Europe that the first shares were issued and traded, and the first stock exchange was founded in Amsterdam. These shares were in the Vereinigte Oostindische Compagnie (the Dutch East India Company). The oldest VOC share still in existence was issued on 27 September 1606 (see Exhibit 8.1).
 
-# Exhibit 8.1 World's oldest surviving share certificate
+## Exhibit 8.1 World's oldest surviving share certificate
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/522de0a2006f789e513ab719c4f694945ca7553df6aff66cbc65e671a53934aa.jpg)
 
@@ -46,7 +61,7 @@ In the UK, trading in securities began in 1698 when a John Castaing based at Jon
 
 Shares enabled companies to expand to take advantage of the industrial age by attracting investors to buy equity in the companies in return for a share in the profits. As the sums needed to finance this expansion grew ever larger, financing by means of equities proved to be a satisfactory solution.
 
-# Ordinary shares (equity)
+## Ordinary shares (equity)
 
 Ordinary shares represent the equity capital of the firm and are a means of raising long-term finance to run the business. The holders of these securities share in the (hopefully) rising prosperity of a company. These investors, as owners of the firm, have the right to exercise some control over the company. They can vote at shareholder meetings to determine such crucial matters as the composition of the team of directors. They can also vote on major strategic and policy issues such as the type of activities that the firm might engage in, or the decision to merge with another firm. These ordinary shareholders have a claim to a share of the company's profits in the form of dividend payments, and in a worst-case scenario, a right to share in the proceeds of a liquidation sale of the firm's assets, albeit after all other creditors such as banks, tax authorities, trade creditors etc. have been paid.
 
@@ -58,7 +73,7 @@ To regain invested funds an equity investor must either sell the shares to anoth
 
 Annual, semi-annual or quarterly dividend payments are paid at the discretion of the directors, and individual shareholders are often effectively powerless to influence the income from a share – not only because of the risk attached to the trading profits which generate the resources for a dividend, but also because of the relative power of directors in a firm with a disparate or divided shareholder body. If a shareholder owns 100 shares of a company with millions of shares in issue, there is little likelihood of this person exerting any influence at all; institutional shareholders who often own very large numbers of shares are able to bring more pressure to bear.
 
-# Contrasting equity and debt finance
+## Contrasting equity and debt finance
 
 Debt is another means of raising finance, but it is very different from equity finance. Usually the lenders to the firm have no official control; they are unable to vote at general meetings and therefore cannot choose directors and determine major strategic issues. However, there are circumstances in which lenders have significant influence. For instance, they may insist that the company does not exceed certain liquidity or solvency ratio levels (not too much debt), or they may take a charge over a particular building as security for a loan, thus restricting the directors' freedom of action over the use and disposal of that building. Debt finance also contrasts with equity finance in that it usually requires regular cash outlays in the form of interest and the repayment of the capital sum, whereas equity finance is not compelled to make any dividend payments. The firm will be obliged to maintain the repayment schedule through good years and bad or face the possibility of action being taken by the lender to recover its money by forcing the firm to sell assets or liquidate. With equity finance, in bad times dividend payments can be suspended to aid cash flow.
 
@@ -68,19 +83,19 @@ The attraction of share issuing for companies is that, unlike a loan, share fina
 
 There is some lack of clarity as to the distinction between stocks and shares. Shares are equities in companies. Stocks are financial instruments that pay interest (e.g. bonds). However, in the US shares are also called 'common stocks' and the shareholders are usually referred to as the stockholders. So when some people use the term 'stocks' they could be referring to either bonds or shares.
 
-# Preference shares
+## Preference shares
 
 Preference shares usually offer their owners a fixed rate of dividend each year. However, if the firm has insufficient profits the amount paid may be reduced, sometimes to zero. Thus, there is no guarantee that an annual income will be received, unlike with debt capital. The dividend on preference shares is paid before anything is paid out to ordinary shareholders – indeed, after the preference dividend obligation has been met there may be nothing left for ordinary shareholders. Preference shares are attractive to some investors because they offer a regular income at a higher rate of return than that available on fixed-interest securities, e.g. bonds. However, this higher return also comes with higher risk, as the preference dividend ranks after bond interest and upon liquidation preference holders are further back in the queue as recipients of the proceeds of asset sell-offs.
 
 Preference shares are part of shareholders' funds but are not equity share capital. The holders are not usually able to benefit from any extraordinarily good performance of the firm - any profits above expectations go to the ordinary shareholders. Also preference shares usually carry no voting rights, except if the dividend is in arrears or in the case of liquidation. Many preference share prices and other data are listed in the financial pages of newspapers.
 
-# Advantages to the firm of preference share capital
+## Advantages to the firm of preference share capital
 - Dividend 'optional' Preference dividends can be omitted for one or more years, giving directors more flexibility and a greater chance of surviving a downturn in trading.
 - Influence over management Preference shares are an additional source of capital which, because they do not have voting rights, do not dilute the influence of the ordinary shareholders. Thus it is possible to raise shareholder capital and retain voting control.
 - Extraordinary profits Preference shareholders receive a set return and do not share in extraordinary profits (unless the preference shares are 'participating' - see below).
 - Financial gearing considerations There are limits to safe levels of borrowing. If a firm is unable to raise finance by borrowing, preference shares are an alternative source of financing, if shareholders are unwilling to provide more equity risk capital. They can be an alternative, though less effective, shock-absorber to selling more ordinary shares.
 
-# Disadvantages to the firm of preference share capital
+## Disadvantages to the firm of preference share capital
 - High cost of capital The higher risk attached to the annual returns and capital cause preference shareholders to demand a higher level of return than debt holders.
 - Dividends are not tax deductible Tax is payable on the firm's profit before the deduction of the preference dividend (as it is for ordinary share dividends). In contrast, interest has to be paid whether or not a profit is made. This cost is regarded as a legitimate expense reducing taxable profit – see Exhibit 8.2. Both firms have raised £1m, but Company A sold bonds yielding 8 per cent, Company B sold preference shares offering a dividend yield of 8 per cent.
 
@@ -150,7 +165,7 @@ By Peter Wise in Lisbon, Andrew Parker in New York and Mark Mulligan in Madrid
 
 Lisbon has used special veto rights to override shareholders and block Telefonica's €7.15bn (£5.8bn) bid to buy Portugal Telecom out of Vivo, their Brazilian mobile phone joint venture.
 
-The use by the Portuguese government of its "golden shares" to overrule 74 per cent of shareholders who voted in favour of the offer was a surprise new twist to the acrimonious bid battle between the two Iberian operators. The government owns 500 golden shares in Portugal Telecom, which give the state spe cial veto rights over important company decisions.
+The use by the Portuguese government of its "golden shares" to overrule 74 per cent of shareholders who voted in favour of the offer was a surprise new twist to the acrimonious bid battle between the two Iberian operators. The government owns 500 golden shares in Portugal Telecom, which give the state special veto rights over important company decisions.
 
 But the intervention is expected to be challenged by the European Commission and by Telefonica, which had raised its bid by 10 per cent to €7.15bn hours before Portugal Telecom shareholders met to vote on it.
 
@@ -1351,7 +1366,7 @@ See www.pearsoned.co.uk/arnold for case study synopses.
 Also see Harvard University: http://hbsp.harvard.edu/product/cases
 
 - CalPERS' Emerging Equity Markets Principles (2009) Authors: Robert G. Eccles and Aldo Sesia. Harvard Business School.
-$\bullet$  Microstrategy, Incorporated: Pipe (2003) Authors: Richard Crawford and Susan Chaplinsky. Darden, University of Pennsylvania. Available at Harvard website.
+- Microstrategy, Incorporated: Pipe (2003) Authors: Richard Crawford and Susan Chaplinsky. Darden, University of Pennsylvania. Available at Harvard website.
 Freeport-McMoRan: Financing an Acquisition (2009) Author: David Stowell. Kellogg School of Management. Available at Harvard website.
 Note on Depositary Receipts (2004) Author: Walter Kuemmerle. Harvard Business School.
 Cross-Border Listings and Depositary Receipts (2004) Author: Mithir Desai. Harvard Business School.

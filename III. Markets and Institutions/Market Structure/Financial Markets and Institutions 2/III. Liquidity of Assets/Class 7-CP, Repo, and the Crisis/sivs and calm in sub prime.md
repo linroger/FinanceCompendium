@@ -1,16 +1,16 @@
 ---
 title: "SIVs: An Oasis of Calm in the Sub-prime Maelstrom"
 parent_directory: "Class 7-CP, Repo, and the Crisis"
-formatted: 2025-12-21 03:45:00 PM
-formatter_model: grok-code-fast-1
-cli_tool: opencode
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
 primary_tags:
   - structured investment vehicles
   - subprime crisis
 secondary_tags:
-  - moody's ratings
-  - net asset value
-  - mark to market
+  - moody's rating methodology
+  - net asset value calculation
+  - mark to market procedures
   - commercial paper
   - medium term notes
 cssclasses: academia
@@ -18,9 +18,7 @@ cssclasses: academia
 
 # SIVs: An Oasis of Calm in the Sub-prime Maelstrom
 
-Structured Investment Vehicles
-
-## Author
+### Author
 
 Henry Table
 
@@ -30,7 +28,7 @@ Managing Director
 
 Henry.Table@moodys.com
 
-## Additional Contacts
+### Additional Contacts
 
 Mark Abbott
 
@@ -48,7 +46,7 @@ Vice President - Senior Analyst
 
 Martin.Rast@moodys.com
 
-## Investor Liaison
+### Investor Liaison
 
 New York
 
@@ -60,7 +58,7 @@ Investor Liaison Specialist
 
 Brett.Hemmerling@moodys.com
 
-## Client Service Desk
+### Client Service Desk
 
 Frankfurt: +49 69 2222-7847
 
@@ -74,26 +72,49 @@ Paris: +33 1 7070-2229
 
 clientservices.emea@moodys.com
 
-## Monitoring
+### Monitoring
 
 monitor.siv@moodys.com
 
-## Website
+### Website
 
 www.moodys.com
 
 ## Table of Contents
 
-SIVs - An Overview  
-Sector Composition  
-Mark-to-Market Procedures and NAV Evolution  
-Conclusion
+- SIVs - An Overview
+- Sector Composition
+- Mark-to-Market Procedures and NAV Evolution
+- Conclusion
 
 ## SIVS - AN OVERVIEW
 
-SIVs are high-grade, highly diversified structured credit vehicles that raise funds through the issuance of Prime-1 rated Commercial Paper, Aaa-rated Medium Term Notes and Capital Notes typically rated low investment grade. The sector is amongst the high growth areas of Structured Finance with US \$370 billion of assets managed across 28 vehicles, 10 of which were launched in the last 18 months. SIV CDOs (or "SIV-lites") and SLVs (Structured Loan Vehicles) are hybrids of SIVs that typically invest in US RMBS and leveraged loans, respectively. In total, Moody's rates 36 SIVs or SIV hybrids that currently manage US\$  395 billion of assets.
+SIVs are high-grade, highly diversified structured credit vehicles that raise funds through the issuance of Prime-1 rated Commercial Paper, Aaa-rated Medium Term Notes and Capital Notes typically rated low investment grade. The sector is amongst the high growth areas of Structured Finance with US \$370 billion of assets managed across 28 vehicles, 10 of which were launched in the last 18 months. SIV CDOs (or "SIV-lites") and SLVs (Structured Loan Vehicles) are hybrids of SIVs that typically invest in US RMBS and leveraged loans, respectively. In total, Moody's rates 36 SIVs or SIV hybrids that currently manage US\$ 395 billion of assets.
 
 SIVs engage in maturity transformation through the purchase of long-term assets to support senior short-term liabilities, engendering asset-liability maturity gaps in the range of 2.4 to 4.8 years. The vehicles must therefore mark portfolios to market on a frequent basis to gauge value should it become necessary to de-lever following an inability to roll liabilities or unexpected downgrades or defaults in the portfolio.
+
+```d2
+direction: right
+
+Long-term Assets: Long-term Assets\n(2.4-4.8 years) {
+  shape: rectangle
+  style.fill: "#4caf50"
+}
+
+Short-term Liabilities: Short-term Liabilities\n(Daily/Weekly rollover) {
+  shape: rectangle
+  style.fill: "#f44336"
+}
+
+Maturity Gap: Maturity Gap {
+  shape: diamond
+  style.fill: "#ff9800"
+}
+
+Long-term Assets -> Maturity Gap: Creates
+Short-term Liabilities -> Maturity Gap: Requires management of
+Maturity Gap -> Mark-to-Market: Necessitates frequent
+```
 
 ## SECTOR COMPOSITION
 
@@ -104,8 +125,9 @@ As shown in Chart 1, the SIV sector has  $23\%$  exposure to RMBS, which include
 SIV-lites invest primarily in US RMBS (Charts 2 and 4), with the majority of these vehicles holding some US sub-prime exposures. Since these exposures are typically rated Aaa or Aa (Chart 4), and managers are incentivised to observe a strict pricing discipline owing to the rated nature of liabilities, the mark-to-market impact on the vehicles is limited. Net asset values<sup>1</sup> (NAVs) currently average  $95.4\%$  across the SIV-lite sub-sector (see Chart 6). The SIV capital model (also employed by SIV-lites) sizes capital adequacy dynamically; deteriorations in NAV are therefore immediately reflected in capital requirements.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d3ef2b1a-f80c-4e06-8176-a68224827d0b/623c41d2f1e6d83158146ba1bbdcf62dec8bec516feab470ca8a252853e8a74d.jpg)  
-Chart 1: Sector Composition - SIVs  
-Chart 3:
+Chart 1: Sector Composition - SIVs
+
+Chart 3: Sector and Rating Composition - SIVs
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d3ef2b1a-f80c-4e06-8176-a68224827d0b/58e05af8e6c3a6808d5328a98dbb827e4137a79cf473889a3f6315f1910673e9.jpg)  
 Chart 2: Sector Composition - SIV-lites
@@ -115,6 +137,40 @@ Sector and Rating Composition - SIVs
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/d3ef2b1a-f80c-4e06-8176-a68224827d0b/11b37d65f52bcf421e1b07ca5448d4c9289b3fdb2f5a823641928fe67626c408.jpg)  
 Chart 4: Sector and Rating Composition - SIV-lites
+
+```d2
+direction: down
+
+SIV Structure: Structured Investment Vehicle {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+
+  Assets: Long-term Assets {
+    RMBS: Residential Mortgage-Backed Securities
+    CDOs: Collateralized Debt Obligations
+    ABS: Asset-Backed Securities
+  }
+
+  Liabilities: Short-term Funding {
+    CP: Commercial Paper (Prime-1 rated)
+    MTNs: Medium Term Notes (Aaa rated)
+  }
+
+  Capital: Rated Capital Notes {
+    Rating: Low investment grade
+  }
+
+  NAV: Net Asset Value {
+    Calculation: Mark-to-market weekly
+  }
+}
+
+SIV -> Assets: Invests in
+SIV -> Liabilities: Funds through
+SIV -> Capital: Protected by
+SIV -> NAV: Maintains
+```
 
 ## MARK-TO-MARKET PROCEDURES AND NAV EVOLUTION
 
@@ -140,13 +196,13 @@ SIVs and SIV-lites, like most market value based structured credit funds, invest
 
 For a more detailed explanation of Moody's approach to SIVs please refer to the following reports:
 
-## Rating Methodology
+### Rating Methodology
 
 - An Introduction to Structured Investment Vehicles, January 2002 (SF11961)  
 - The Moody's Capital Model, January 2004 (SF27525)  
 SIV Management Quality Ratings, January 2006 (SF66229)
 
-## Special Report
+### Special Report
 
 Moody's Review of SIV Capital Note Ratings, May 2005 (SF54643)
 

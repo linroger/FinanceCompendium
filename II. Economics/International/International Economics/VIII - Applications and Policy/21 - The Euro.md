@@ -1,30 +1,28 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Topics in International Macroeconomics
-linter-yaml-title-alias: Topics in International Macroeconomics
+title: "Topics in International Macroeconomics"
+parent_directory: "VIII - Applications and Policy"
+formatted: "2025-12-21 11:30:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
 primary_tags:
-- international macroeconomics
-- arbitrage home foreign arbitrage
-- parity debt default global
+  - purchasing power parity
+  - real exchange rates
+  - uncovered interest parity
 secondary_tags:
-- theory exchange rates forex
-- parity exchange rates
-- exchange rates learned long
-- long run theory
-- macroeconomics economics science thinking
-- model real exchange
-tags_extracted: '2025-12-18T00:47:56.624716'
+  - arbitrage costs
+  - trade costs
+  - forex market
+  - exchange rate theory
+  - international finance
+  - macroeconomic models
+cssclasses: academia
 ---
 
 # Topics in International Macroeconomics
 
 Economics is a science of thinking in terms of models joined to the art of choosing models which are relevant to the contemporary world.
 
-John Maynard Keynes, 1938 ike other fields of economics, international macroeconomics is evolving continually. New empirical analyses are constantly appearing, deepening our understanding, and bringing attention to new phenomena. New theoretical models are always being developed, to better explain long-standing puzzles or to confront new ones. The fast-changing global economic environment of recent years has pushed forward research faster than ever.
+John Maynard Keynes, 1938 Like other fields of economics, international macroeconomics is evolving continually. New empirical analyses are constantly appearing, deepening our understanding, and bringing attention to new phenomena. New theoretical models are always being developed, to better explain long-standing puzzles or to confront new ones. The fast-changing global economic environment of recent years has pushed forward research faster than ever.
 
 In the four stand-alone sections of this final chapter, we examine several important topics that have occupied researchers for many years and that remain at the cutting edge. In these "mini-chapters" we explore new issues as well as important extensions to the core models presented earlier in the book:
 
@@ -45,9 +43,9 @@ We look at the performance of the global macroeconomy before, during, and after 
 
 # 1 Exchange Rates in the Long Run: Deviations from Purchasing Power Parity
 
-According to the most recent data from the World Bank, in 2012 gross national income per capita in the United States was  \$50,120, but by converting incomes using the exchange rate, it was found that gross national income per capita in China was only\$ 5,740, about 11.5\% of the U.S. level. Were the Chinese really that poor in terms of material living standards? No.
+According to the most recent data from the World Bank, in 2012 gross national income per capita in the United States was $50,120, but by converting incomes using the exchange rate, it was found that gross national income per capita in China was only $5,740, about 11.5\% of the U.S. level. Were the Chinese really that poor in terms of material living standards? No.
 
-When the calculations were repeated by comparing dollar incomes with the dollar prices of baskets of consumer goods, Chinese gross national income per capita was found to be about 9,210 in terms of U.S. consumer goods, so that nation's living standards were now seen to be almost twice as high, at 18.4\% of the U.S. level. The reason: in dollar terms, most goods cost a lot less in China than in the United States. The dollar price level in China was lower than in the United States. The implication: purchasing power parity (PPP) does not hold, and the real exchange rate is a long way from 1.
+When the calculations were repeated by comparing dollar incomes with the dollar prices of baskets of consumer goods, Chinese gross national income per capita was found to be about $9,210 in terms of U.S. consumer goods, so that nation's living standards were now seen to be almost twice as high, at 18.4\% of the U.S. level. The reason: in dollar terms, most goods cost a lot less in China than in the United States. The dollar price level in China was lower than in the United States. The implication: purchasing power parity (PPP) does not hold, and the real exchange rate is a long way from 1.
 
 These adjustments have many implications: for example, they affect calculations of living standards, poverty, allocations of aid, and projections of growth, consumption, demographics, pollution, and so on. So we need to understand these deviations from PPP for many reasons, including the need to refine our theory of exchange rates. When we learned about long-run exchange rates, we showed that we could predict the expected future exchange rate using the monetary approach to exchange rates, if purchasing power parity holds, that is, if baskets of goods sell for the same price in all locations. This theory provided a workable model of real exchange rates, but it was far from perfect. In this section, we address a major deficiency in PPP theory: its assumption that all goods are costlessly tradable.
 
@@ -55,13 +53,13 @@ These adjustments have many implications: for example, they affect calculations 
 
 One way to set up a more realistic economic model would be to introduce costs of trading, which is now an important area of research in international economics.
 
-To gain familiarity with trade costs and to see how they matter, let's assume that the cost of trading the good equals some fraction  $c$  of the unit cost of the good at its
+To gain familiarity with trade costs and to see how they matter, let's assume that the cost of trading the good equals some fraction $c$ of the unit cost of the good at its
 
-source. For example, suppose there is one good, and it sells for P = \$100 in Home. It costs \$10 to ship the good from Home to another country, Foreign. The trade cost is c = 0.1 = 10\%. The cost of the good on arrival in Foreign, including the trade cost, would be P × (1 + c) = 110.
+source. For example, suppose there is one good, and it sells for $P = \$100$ in Home. It costs \$10 to ship the good from Home to another country, Foreign. The trade cost is $c = 0.1 = 10\%$. The cost of the good on arrival in Foreign, including the trade cost, would be $P \times (1 + c) = 110$.
 
-How do trade costs affect arbitrage? If you were considering trying to make an arbitrage profit by shipping a \$100 widget from Home to Foreign, then you wouldn't even think of doing it unless the Foreign price converted into dollars EP* was at least \$110 (where E is Home's exchange rate, and P* is the Foreign price in Foreign currency). Otherwise, you make a loss once the trading costs are taken into account. Similarly, going from Foreign to Home, you wouldn't ship goods unless the Home price P was at least 10\% above the foreign price EP*.
+How do trade costs affect arbitrage? If you were considering trying to make an arbitrage profit by shipping a \$100 widget from Home to Foreign, then you wouldn't even think of doing it unless the Foreign price converted into dollars $EP^*$ was at least \$110 (where $E$ is Home's exchange rate, and $P^*$ is the Foreign price in Foreign currency). Otherwise, you make a loss once the trading costs are taken into account. Similarly, going from Foreign to Home, you wouldn't ship goods unless the Home price $P$ was at least 10\% above the foreign price $EP^*$.
 
-Formally, the ratio of the prices in the two locations can be written in proportional terms as  $q = EP^{*} / P$ . As we learned in our study of long-run exchange rates, for any basket of goods,  $q$  is also known as the real exchange rate of the home country. Thus, if  $P = \100$  and  $EP^{*} = \$ 110 , then this relative price ratio would be  $(110 / 100) = 1.1$ .
+Formally, the ratio of the prices in the two locations can be written in proportional terms as $q = EP^{*} / P$. As we learned in our study of long-run exchange rates, for any basket of goods, $q$ is also known as the real exchange rate of the home country. Thus, if $P = \$100$ and $EP^{*} = \$110$, then this relative price ratio would be $(110 / 100) = 1.1$.
 
 As we have just seen, arbitrage from Home to Foreign is profitable only if the Foreign price is higher than the Home price adjusted for the trade cost, which requires  $q = EP^{*} / P > 1 + c$ . Conversely, arbitrage the other way is profitable only if the Home price is sufficiently higher than the Foreign price, with  $1 / q = P / (EP^{*}) > 1 + c$ .
 

@@ -1,15 +1,27 @@
 ---
-parent_directory:
 title: Risk Management Lessons from Long-Term Capital Management
-tags:
-aliases:
-parent_folder: Class 9-Bailouts and Bank Failures
-subfolder:
-key_concepts:
+parent_directory: Class 9-Bailouts and Bank Failures
+formatted: 2025-12-21 05:05:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - long-term capital management
+  - hedge fund failure
+  - value at risk
+  - risk management
+secondary_tags:
+  - convergence arbitrage
+  - leverage risk
+  - financial crisis
+  - portfolio optimization
+  - stress testing
+  - counterparty risk
+  - capital adequacy
+  - market volatility
 cssclasses: academia
 ---
 
-# Risk Management Lessons from Long-Term Capital Management
+## Risk Management Lessons from Long-Term Capital Management
 
 Philippe Jorion
 
@@ -36,9 +48,9 @@ E-mail: pjorion@uci.edu
 
 $\langle \widehat{\mathbb{C}}\rangle$  2000 P. Jorion
 
-# Risk Management Lessons from Long-Term Capital Management
+## Risk Management Lessons from Long-Term Capital Management
 
-# ABSTRACT
+## ABSTRACT
 
 The 1998 failure of Long-Term Capital Management (LTCM) is said to have nearly blown up the world's financial system. For such a near-catastrophic event, the finance profession has precious little information to draw from. By piecing together publicly available information, this paper draws risk management lessons from LTCM.
 
@@ -46,7 +58,7 @@ LTCM's strategies are analyzed in terms of the fund's Value at Risk (VAR) and th
 
 JEL Classification Numbers: G-11, G-13, G-14, G-23
 
-# Risk Management Lessons from Long-Term Capital Management
+## Risk Management Lessons from Long-Term Capital Management
 
 "Had the failure of LTCM triggered the seizing up of markets, substantial damage could have been inflicted on many market participants, including some not directly involved with the firm, and could have potentially impaired the economies of many nations, including our own."
 
@@ -66,7 +78,7 @@ This application, however, is fraught with danger. VAR has been primarily develo
 
 VAR to measure risk leads to serious optimization biases, which are illustrated in Section 4. Section 5 also shows that the nature of the bets taken by LTCM was singularly unidirectional. Finally, the last section provides some concluding comments.
 
-# 1 How LTCM Lost its Capital
+## 1 How LTCM Lost its Capital
 
 "Sources say Long Term Capital has warned investors to expect swings as high as  $80\%$  and as low as  $-20\%$  in a given year."
 
@@ -128,7 +140,7 @@ Unfortunately, this also increased the risks. Troubles began in May and June of 
 
 Then came August 17. Russia announced that its was "restructuring" its bond payments—de facto defaulting on its debt. This bombshell led to a reassessment of credit and sovereign risks across all financial markets. Credit spreads, risk premia, and liquidity spreads jumped up sharply. Stock markets dived. LTCM lost \$550 million on August 21 alone. Swap spreads, which usually never moved by more than a couple of basis points every day, had moved by 21 basis points.
 
-By August, the fund had lost  $52 \%$ of its December 31 value. With assets still at \$126 billion, the leverage ratio had increased from 28 to 55to-1. LTCM badly needed new capital. In his September 2 letter to investors, Meriwether revealed the extent of the losses and wrote that "Since it is prudent to raise additional capital, the Fund is offering you the opportunity
+By August, the fund had lost  $52 \%$ of its December 31 value. With assets still at \$126 billion, the leverage ratio had increased from 28 to 55-to-1. LTCM badly needed new capital. In his September 2 letter to investors, Meriwether revealed the extent of the losses and wrote that "Since it is prudent to raise additional capital, the Fund is offering you the opportunity
 
 to invest on special terms related to LTCM fees. If you have an interest in investing, please contact…" There were no takers, though.
 
@@ -142,7 +154,7 @@ These fresh funds came just in time to avoid meltdown. By September 28, the fund
 
 LTCM is now operating under the control of the 14-member consortium, formally known as Oversight Partners I LLC. Helped by recovering financial markets, the portfolio gained  $13\%$  to December 1998. The portfolio was unwound over the following months. By the end of 1999, all of the money had been paid back to investors and John Meriwether had started a new hedge fund.
 
-# 2 VAR and Equity Capital
+## 2 VAR and Equity Capital
 
 "LTCM now stands as a cautionary tale of the fallibility of some of the most sophisticated VAR models."
 
@@ -196,7 +208,7 @@ Notes: Equity coverage is defined as the number of annual standard deviations (s
 
 This framework also shows that the quantitative parameters are related. Cumulative default rates increase over longer horizons. Hence the same credit rating can be achieved with a higher confidence level over a short horizon or lower level over a longer horizon.
 
-# 3 LTCM's Risk Management Story
+## 3 LTCM's Risk Management Story
 
 "LTCM asserts that the portfolio was managed so that its target risk was no larger than the risk of an unleveraged position in the S&P 500."
 
@@ -243,7 +255,7 @@ Apparently, his views were narrowly based on recent history. It is true that the
 
 Admittedly, the losses were exacerbated due to the size of the positions and the drying up of liquidity in turbulent financial markets. LTCM also claims that the selling of securities was made worse by brokers basically front-running the LTCM portfolio.[22] It is hard to verify these claims. More fundamentally, the firm had badly underestimated its risk and did not have enough long-term capital to ride out the turbulence of 1998.
 
-# 4 Portfolio Optimization and Leverage
+## 4 Portfolio Optimization and Leverage
 
 "These models enable us to pursue a large position without a severe concern that our strategies are very exposed to interest rates or yield-curve changes."
 

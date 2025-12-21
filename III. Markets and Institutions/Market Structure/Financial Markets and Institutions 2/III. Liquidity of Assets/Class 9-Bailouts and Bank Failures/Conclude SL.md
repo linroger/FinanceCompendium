@@ -1,35 +1,37 @@
 ---
 title: "Class 9 - The Two Central Principles Underpinning Our Individual Recommendations"
-aliases:
-  - "The Two Central Principles Underpinning Our Individual Recommendations"
-tags:
-key_concepts:
 parent_directory: "Class 9-Bailouts and Bank Failures"
+formatted: 2025-12-21 05:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - financial regulation principles
+  - systemic risk management
+  - bailout prevention
+secondary_tags:
+  - central bank oversight
+  - capital requirements
+  - compensation holdbacks
+  - living wills
+  - regulatory reforms
 cssclasses: academia
-linter-yaml-title-alias: "Class 9 - The Two Central Principles Underpinning Our Individual Recommendations"
 ---
 
 # THE TWO CENTRAL PRINCIPLES UNDERPINNING OUR INDIVIDUAL RECOMMENDATIONS
 
 This book should be seen as our collective best answer to the question of how the financial system can be organized to facilitate economic growth without the need for recurring taxpayer support. Our answers are summarized in two broad principles.
 
-The first principle is that, when developing and enforcing regulations, government officials must consider the implications not only for individual institutions but also for the financial system as a whole. Financial regulations in almost all countries have been designed to ensure that individual institutions, principally commercial banks, will remain sound when they suffer unexpected losses on their assets. This focus on individual firms ignores critical interactions between institutions. Attempts by individual institutions to remain solvent in a crisis, for example by selling assets, cutting back on loans to viable borrowers, or requiring more collateral, can undermine the stability of the system as a whole. The focus on individual firms can also
-
-cause regulators to overlook important changes in the overall financial system. For example, although the markets for securitized assets and the broader shadow banking system of lightly regulated financial institutions grew dramatically in the years before the current crisis, existing regulatory structures did not evolve with them.
+The first principle is that, when developing and enforcing regulations, government officials must consider the implications not only for individual institutions but also for the financial system as a whole. Financial regulations in almost all countries have been designed to ensure that individual institutions, principally commercial banks, will remain sound when they suffer unexpected losses on their assets. This focus on individual firms ignores critical interactions between institutions. Attempts by individual institutions to remain solvent in a crisis, for example by selling assets, cutting back on loans to viable borrowers, or requiring more collateral, can undermine the stability of the system as a whole. The focus on individual firms can also cause regulators to overlook important changes in the overall financial system. For example, although the markets for securitized assets and the broader shadow banking system of lightly regulated financial institutions grew dramatically in the years before the current crisis, existing regulatory structures did not evolve with them.
 
 Chapters 2 and 3 elaborate on this first principle. Chapter 2 argues that in each country, one regulatory organization—which, we argue, on balance, should be the central bank—should be responsible for overseeing the health and stability of the overall financial system. Chapter 3 argues that this systemic regulator needs a new infrastructure to collect and analyze adequate information from large and systemically important financial institutions. This new information framework would bolster the government's ability to foresee, contain, and ideally prevent disruptions to the overall financial services industry.
 
 Chapter 4 suggests that the public may also benefit from the systematic provision of information. We recommend simple and standardized disclosures of risks in financial products, specifically in mutual funds used in tax-favored retirement accounts. Some commentators argue that weak public understanding of complex financial products contributed to the rapid growth in household debt that preceded the World Financial Crisis. While this claim is unproven, public trust in and understanding of the financial system are important for the functioning of an advanced economy. We believe that improved risk disclosures can contribute to such trust and understanding.
 
-The early chapters of our book emphasize that regulators must take a broad view of the financial system, and
-
-must gather information that will allow them to do that. The experience of the World Financial Crisis suggests that strict regulation of a narrow portion of the financial system, such as the commercial banking industry, encourages migration of financial activities outside the regulated system to a shadow financial system whose risks are then poorly understood and inadequately monitored. Problems in the shadow system can cause financial instability both through connections with regulated institutions and because people come to rely on the shadow system to perform key financial functions such as risk transfer. Moreover, the successful separation of regulated from unregulated activities requires that the government commit itself in advance not to bail out the unregulated financial system in the event of a crisis, and that this commitment be credible. We doubt that such a credible commitment can be made.
+The early chapters of our book emphasize that regulators must take a broad view of the financial system, and must gather information that will allow them to do that. The experience of the World Financial Crisis suggests that strict regulation of a narrow portion of the financial system, such as the commercial banking industry, encourages migration of financial activities outside the regulated system to a shadow financial system whose risks are then poorly understood and inadequately monitored. Problems in the shadow system can cause financial instability both through connections with regulated institutions and because people come to rely on the shadow system to perform key financial functions such as risk transfer. Moreover, the successful separation of regulated from unregulated activities requires that the government commit itself in advance not to bail out the unregulated financial system in the event of a crisis, and that this commitment be credible. We doubt that such a credible commitment can be made.
 
 Our second central principle is that regulators must create conditions that minimize the likelihood of bailouts of financial firms by forcing them to internalize the costs of failure they have been imposing on taxpayers and the broader economy. During the World Financial Crisis, several governments bailed out ailing financial firms through fiscal transfers and other mechanisms because they feared that these firms were too large or too systemic to fail without catastrophic costs. Many of our recommendations are intended to create a robust financial system in which any troubled financial company is allowed to fail.
 
-Regulators should use many tools to make firms internalize systemic dangers and reduce the chance of a crisis, but capital requirements are among the most powerful. Financial institutions that create more systemic risk should have
-
-higher capital requirements. Capital reduces risk directly, by providing a buffer against losses, and indirectly, by forcing stockholders to bear the losses from risky strategies. Chapter 5 proposes systemically sensitive capital requirements that require larger and more complex banks to hold more capital.
+Regulators should use many tools to make firms internalize systemic dangers and reduce the chance of a crisis, but capital requirements are among the most powerful. Financial institutions that create more systemic risk should have higher capital requirements. Capital reduces risk directly, by providing a buffer against losses, and indirectly, by forcing stockholders to bear the losses from risky strategies. Chapter 5 proposes systemically sensitive capital requirements that require larger and more complex banks to hold more capital.
 
 Rather than relying only on shareholders to discipline the risk-taking tendencies of financial institutions, regulators should also impose costs of failure on the management of these institutions that are greater than those shareholders are likely to impose on their own. Chapter 6 argues that each systemically important financial institution should be required to withhold a significant share of each senior manager's total annual compensation for several years, with these holdbacks forfeited if the firm goes bankrupt or receives extraordinary government assistance.
 
@@ -43,15 +45,13 @@ The World Financial Crisis, and specifically the failure of Lehman Brothers, rev
 
 The measures we propose in Chapters 7 through 10 have two important effects. First, they make it much easier for governments to allow financial institutions to fail if a crisis does occur. Thus they directly reduce the likelihood of costly, ad hoc interventions. Second, to the extent that bondholders, shareholders, and managers of financial institutions understand that they are less likely to be bailed out in a crisis and, in the case of bondholders and managers, will suffer costs if such a bailout does occur, they will be more cautious beforehand. This will reduce the likelihood that a crisis occurs in the first place.
 
-Taken together, our proposals would reduce both the likelihood and the severity of future financial crises. Existing rules in the United States and many other countries have led to ad hoc, emergency interventions to save unprofitable banks at great current and future cost to taxpayers and great collateral damage to the broader economy. We offer a
+Taken together, our proposals would reduce both the likelihood and the severity of future financial crises. Existing rules in the United States and many other countries have led to ad hoc, emergency interventions to save unprofitable banks at great current and future cost to taxpayers and great collateral damage to the broader economy. We offer a robust regulatory system that would be less prone to crisis and would better allow struggling banks to fail.
 
-robust regulatory system that would be less prone to crisis and would better allow struggling banks to fail.
-
-# REPLAYING THE WORLD FINANCIAL CRISIS: HOW OUR RECOMMENDATIONS MIGHT HAVE HELPED
+## REPLAYING THE WORLD FINANCIAL CRISIS: HOW OUR RECOMMENDATIONS MIGHT HAVE HELPED
 
 How would the World Financial Crisis have played out had all our policy proposals been in place? Our answers are obviously speculative and benefit from 20/20 hindsight. They should not be interpreted as criticism of the actions of regulators and policymakers during a difficult and chaotic period. Nevertheless, the Crisis allows us to illustrate how our recommendations could work in practice.
 
-# The Buildup to the Crisis
+### The Buildup to the Crisis
 
 We recommend that central banks assume the role of systemic regulator, empowered to "understand trends and emerging risks in the financial industry" and then "design and implement financial regulations with a systemic focus" (Chapter 2). We do not recommend that the systemic regulator should try to identify asset price bubbles. In fact, financial economists argue about whether reliable identification of bubbles is even possible in real time. However, dangerous buildups of leverage in the financial system, which sometimes accompany rising asset prices, are clearly an appropriate object of concern for regulators. Thus, it is likely that a systemic regulator would have devoted attent
 
@@ -61,11 +61,9 @@ Many central bankers were in fact keenly watching real estate and related deriva
 
 Monitoring, reporting, and regulating systemic risk is challenging. Thus, the systemic regulator, which we argue should be the central bank, should be allocated resources for staff explicitly charged with analyzing the whole financial system. Even with this focus and these resources, we do not presume that systemic regulators can avoid all crises and related recessions—including the one just past. However, we do think that systemic regulators might have reduced some of the problems that created the World Financial Crisis.
 
-One of the central goals of our recommendations is to eliminate expensive bailouts for financial firms. How would our policy recommendations have altered the nature
+One of the central goals of our recommendations is to eliminate expensive bailouts for financial firms. How would our policy recommendations have altered the nature and extent of support for five firms at the epicenter of the World Financial Crisis, Bear Stearns, Fannie Mae, Freddie Mac, AIG, and Lehman Brothers?
 
-and extent of support for five firms at the epicenter of the World Financial Crisis, Bear Stearns, Fannie Mae, Freddie Mac, AIG, and Lehman Brothers?
-
-# Bear Stearns
+## Bear Stearns
 
 The Securities and Exchange Commission, Bear Stearns' main regulator, was not up to the task of supervising the firm. Indeed, the SEC Chairman infamously announced that all was fine with the company just 48 hours before it failed. Inadequate supervision meant that no one in government understood clearly Bear Stearns' balance sheet, funding strategy, or interconnections to the overall financial system. Because of these problems, Bear Stearns' rescue was orchestrated using very incomplete information and very rough guesses about how failure might impair the financial system.
 
@@ -81,17 +79,15 @@ Third and finally, the systemic regulator would have been more familiar with Bea
 
 be the authority that monitors and approves living wills, in which financial institutions would identify potential low-cost buyers for key parts of their firms (Chapter 8). This living will information would have been valuable in arranging the distressed sale of Bear Stearns.
 
-# Fannie Mae and Freddie Mac
+## Fannie Mae and Freddie Mac
 
 Unlike Bear Stearns, the problems of Fannie Mae and Freddie Mac were well understood by many government officials. For instance, starting in 2004, Federal Reserve Chairman Greenspan testified on several occasions about the risks posed by these firms. After major accounting scandals at both firms, the Bush administration proposed legislation to revise their supervision. It could not get congressional support, however, and reform efforts stalled. Indeed, in late 2007 some members of Congress were calling for Fannie Mae and Freddie Mac to expand their operations to support the faltering housing market. Given the depth of support the two companies had over many years from many parts of the federal government, the existing regulatory system failed spectacularly to control their operations and overall systemic risk.
 
-Fannie Mae and Freddie Mac have two lines of business. One is guaranteeing securitizations of prime mortgages that meet their underwriting standards. The other is holding a portfolio of mortgages and of mortgage backed securities that they themselves guarantee. This portfolio grew dramatically through the 1990s until leveling off in the early 2000s. Around that time, Fannie and Freddie began to build a large portfolio of lower-quality (subprime
-
-and alt-A) mortgages and the AAA tranches of securities backed by lower-quality mortgages. These purchases were seen by the enterprises as part of their mission to promote housing finance. However, because Fannie and Freddie operated with so little capital, once the housing market began to deteriorate, they had an inadequate buffer to protect against the losses in their portfolio and on the mortgage-backed securities they guaranteed. As of early 2010, the Congressional Budget Office estimates that taxpayer losses from these two institutions will exceed \$300 billion.
+Fannie Mae and Freddie Mac have two lines of business. One is guaranteeing securitizations of prime mortgages that meet their underwriting standards. The other is holding a portfolio of mortgages and of mortgage backed securities that they themselves guarantee. This portfolio grew dramatically through the 1990s until leveling off in the early 2000s. Around that time, Fannie and Freddie began to build a large portfolio of lower-quality (subprime and alt-A) mortgages and the AAA tranches of securities backed by lower-quality mortgages. These purchases were seen by the enterprises as part of their mission to promote housing finance. However, because Fannie and Freddie operated with so little capital, once the housing market began to deteriorate, they had an inadequate buffer to protect against the losses in their portfolio and on the mortgage-backed securities they guaranteed. As of early 2010, the Congressional Budget Office estimates that taxpayer losses from these two institutions will exceed \$300 billion.
 
 It is clear that a competent systemic risk regulator would have flagged these institutions as a source of risk (Chapter 2). This regulator would then have had the authority to raise their capital requirements (Chapter 5). On closer examination, it also might have insisted on tighter rules for minimum down payments. These policies would likely have greatly reduced the ultimate taxpayer cost of these two firms.
 
-# Lehman Brothers
+## Lehman Brothers
 
 The Lehman Brothers bankruptcy remains one of the most controversial events of the World Financial Crisis. As the fourth largest investment bank, with more than \(600 billion in assets at the time of its failure, our capitalrequirement recommendations would have mandated that Lehman hold more capital during its pre-Crisis expansion because of both its size and its reliance on short-term funding (Chapter 5). The compensation holdbacks we propose would have generated more pressure for Lehman to find a buyer without government support (Chapter 6). And, like Bear Stearns,
 
@@ -107,11 +103,9 @@ Third, the bankruptcy filing has been difficult because of the complexity of Leh
 
 Most important, had our proposals been in place and understood, expectations of a government bailout of Lehman would have been much lower, and the firm's failure would not have triggered a major change in expectations about the rest of the financial system.
 
-# American International Group
+## American International Group
 
-AIG's regulators were ill-equipped to understand the workings of AIG Financial Products, the subsidiary that wrote the derivatives that played a critical role in AIG's problems. AIG's financing crisis arose because many of its derivative contracts forced it to post large amounts of additional collateral if its credit ratings from Moody's and Standard and
-
-Poor's were downgraded. When AIG's ratings were downgraded in September 2008 in the wake of Lehman's failure, AIG was required to post more than  \$13 billion in collateral. Although failure to post the collateral would have meant AIG was in default on its contracts, it was not able to raise funds quickly enough to do so. AIG had written more than\$ 375 billion in credit default swaps, including \$70 billion on CDOs, and was a significant counterparty to many of the financial system's most important firms. Its default would have led to significant losses for many of them. To prevent AIG's default, authorities rescued the firm the day after Lehman's bankruptcy.
+AIG's regulators were ill-equipped to understand the workings of AIG Financial Products, the subsidiary that wrote the derivatives that played a critical role in AIG's problems. AIG's financing crisis arose because many of its derivative contracts forced it to post large amounts of additional collateral if its credit ratings from Moody's and Standard and Poor's were downgraded. When AIG's ratings were downgraded in September 2008 in the wake of Lehman's failure, AIG was required to post more than  \$13 billion in collateral. Although failure to post the collateral would have meant AIG was in default on its contracts, it was not able to raise funds quickly enough to do so. AIG had written more than\$ 375 billion in credit default swaps, including \$70 billion on CDOs, and was a significant counterparty to many of the financial system's most important firms. Its default would have led to significant losses for many of them. To prevent AIG's default, authorities rescued the firm the day after Lehman's bankruptcy.
 
 A systemic regulator armed with the information and tools we propose could in many ways have helped AIG, taxpayers, and the overall financial system. Because of AIG's size, it would have faced substantially higher capital requirements as it grew in the years preceding the crisis (Chapter 5). Our proposed information infrastructure would have revealed its burgeoning unhedged CDS positions—information that, in turn, could have triggered the systemic regulator to initiate risk-control conversations with AIG management long before the fateful Lehman bankruptcy (Chapter 3). The regulators overseeing AIG Financial Products had no reason to consider how a failure of AIG would affect its counterparties, but a systemic regulator would have been responsible for assessing the firm's interactions with other systemically important institutions. AIG's living will would have discussed obvious distress scenarios—one of which likely would have been a rating-agency downgrade (Chapter 8). Compensation holdbacks might have
 
@@ -119,13 +113,11 @@ raised the incentive of key AIG managers to limit the firm's growing risk (Chapt
 
 The net impact our recommendations would have made in the World Financial Crisis will always be uncertain and debatable. However, it seems reasonable to conclude that with these measures in place, many of the central features of the Crisis would have played out differently, with less damage to the overall financial system, lower cost to taxpayers, and perhaps better outcomes for key firms as well.
 
-# LIKELY CHALLENGES WITH IMPLEMENTING OUR RECOMMENDATIONS
+## LIKELY CHALLENGES WITH IMPLEMENTING OUR RECOMMENDATIONS
 
 Our full set of recommendations will require significant changes in laws and practices. Though our expertise is in financial economics rather than politics, we can anticipate several challenges that may impede these changes.
 
-The economic hardships triggered by the World Financial Crisis have caused government officials and citizens around the world to demand regulatory reforms that will prevent financial crises. There is no reasonable way to accomplish this goal. Financial crises have recurred throughout modern history. The run-up and collapse of house prices in the recent
-
-Crisis echo the speculation in tulip bulbs in the 1630s, in British railway stocks in the 1840s, and in Florida land in the 1920s. We expect that financial crises will continue to happen for centuries into the future. Our goal is not to prevent such crises but to reduce their frequency and severity. This goal is intellectually sound and attainable, but we acknowledge that it may seem overwhelming. Unreasonable expectations by the public, however, may keep legislators and regulators from enacting important changes that will reduce the conflict between financial firms and society.
+The economic hardships triggered by the World Financial Crisis have caused government officials and citizens around the world to demand regulatory reforms that will prevent financial crises. There is no reasonable way to accomplish this goal. Financial crises have recurred throughout modern history. The run-up and collapse of house prices in the recent Crisis echo the speculation in tulip bulbs in the 1630s, in British railway stocks in the 1840s, and in Florida land in the 1920s. We expect that financial crises will continue to happen for centuries into the future. Our goal is not to prevent such crises but to reduce their frequency and severity. This goal is intellectually sound and attainable, but we acknowledge that it may seem overwhelming. Unreasonable expectations by the public, however, may keep legislators and regulators from enacting important changes that will reduce the conflict between financial firms and society.
 
 Elected officials around the globe have been heavily criticized for many decisions made during the Crisis. Populist pressure in many countries has impeded discussion of even technical issues such as resolution reform. Some mistakenly claim, for example, that the intent of sensible bankruptcy reform is to enable future bailouts. Political rhetoric that reinforces this confusion delays meaningful change.
 
@@ -141,7 +133,7 @@ These challenges can be met and overcome. With appropriate new regulations, fina
 
 regulations are misguided, however, we will continue to be threatened by severe financial crises and the recessions and unemployment that often accompany them, or we will face the even worse prospect of an overregulated and politicized financial system that cannot support a dynamic growing economy. We all should hope that policymakers are up to the task. Our book aims to support this effort.
 
-# NOTES
+## NOTES
 
 1. See, for example, SEC Office of Inspector General, SEC's Oversight of Bear Stearns and Related Entities: The Consolidated Supervised Entity Program, SEC Report 446-A, September 25, 2008. This report would have received greater public attention had it not been released at the height of the World Financial Crisis.  
 2. Kate Kelly, "Lost Opportunities Haunt Final Days of Bear Stearns: Executives Bickered Over Raising Cash, Cutting Mortgages," *Wall Street Journal*, May 27, 2008, A1.  

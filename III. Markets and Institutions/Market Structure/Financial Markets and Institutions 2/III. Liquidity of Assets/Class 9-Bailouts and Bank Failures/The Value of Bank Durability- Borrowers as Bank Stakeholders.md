@@ -1,11 +1,24 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: "The Value of Bank Durability: Borrowers as Bank Stakeholders"
-linter-yaml-title-alias: "The Value of Bank Durability: Borrowers as Bank Stakeholders"
+parent_directory: "III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/III. Liquidity of Assets/Class 9-Bailouts and Bank Failures"
+formatted: 2025-12-21 05:15:00 AM
+formatter_model: claude-opus-4-5-20251101
+cli_tool: claude-code
+primary_tags:
+   - bank durability
+   - borrower-bank relationships
+   - FDIC rescue
+secondary_tags:
+   - stakeholder theory
+   - Continental Illinois Bank
+   - bank failure
+   - lending relationships
+   - private information
+   - monitoring costs
+   - relationship-specific investments
+   - quasi rents
+   - bank insolvency
+cssclasses: academia
 ---
 
 The Value of Bank Durability: Borrowers as Bank Stakeholders
@@ -22,31 +35,25 @@ JSTOR is a not-for-profit service that helps scholars, researchers, and students
 
 Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at https://about.jstor.org/terms
 
-# The Value of Bank Durability: Borrowers as Bank Stakeholders
+## The Value of Bank Durability: Borrowers as Bank Stakeholders
 
 MYRON B. SLOVIN, MARIE E. SUSHKA, and JOHN A. POLONCHEK*
 
-# ABSTRACT
+## ABSTRACT
 
 We examine the value of bank durability to borrowing firms. The analysis is based on theoretical models of the asset services view of intermediation which imply that private information and associated relationship-specific activities are intrinsic to bank lending. We analyze share price effects on firms with lending relationships with Continental Illinois Bank during its de facto failure and subsequent FDIC rescue. We find the bank's impending insolvency had negative effects and the FDIC rescue positive effects on client firm share prices. We conclude that borrowers incur significant costs in response to unanticipated reductions in bank durability and thus are bank stakeholders.
 
 WE ANALYZE THE VALUE OF bank durability to borrowing firms within the context of the asset services view of intermediation and contracting theory. We examine excess returns for firms with publicly documented lending relationships with the Continental Illinois Bank during the period of its de facto failure and rescue by the FDIC in 1984.<sup>1</sup> At that time, Continental Illinois was the seventh largest domestic bank holding company and had a large corporate client base. This was the last government rescue of a major bank prior to the "too big to fail" doctrine, initiated several months afterwards. We find client firm value is correlated with unexpected changes in bank durability, indicating that borrowers have a valuable stake in lending relationships.
 
-The effects of bank failure on client firms are related to the extent to which borrowers obtain relationship-based cost advantages from bank lending. Financial market efficiency implies that share prices will capitalize any losses borrowers incur as a result of bank failure. We find client firms of Continental Illinois incur average excess returns of  $-4.2\%$  during the bank's impending insolvency. In response to the government rescue announcement, which revived the bank's durability, client firms gain  $2.0\%$  on average. These effects
-
-* The authors are from, respectively, Department of Finance, Louisiana State University, Department of Finance, Arizona State University, and Department of Finance, Oklahoma State University. We acknowledge valuable suggestions from an anonymous referee, an anonymous associate editor, and René Stulz (the editor).
-
-<sup>1</sup> Throughout the paper we use the terminology Continental Illinois Bank or Continental Illinois. The official name of the parent bank holding company at that time was Continental Illinois Corporation and its banking subsidiary was Continental Illinois National Bank and Trust Company of Chicago.
-
-are significant only for firms for which Continental Illinois Bank served as direct lender or as manager of a syndicated loan. Cross-sectional regressions indicate valuation effects are significantly magnified by the extent of client firm leverage or size of credit facility, but are mitigated for firms with publicly documented, contemporaneous lending relations with other banks, separate from those with Continental Illinois. Share price effects in response to the rescue are more favorable for firms with no publicly traded debt.
+The effects of bank failure on client firms are related to the extent to which borrowers obtain relationship-based cost advantages from bank lending. Financial market efficiency implies that share prices will capitalize any losses borrowers incur as a result of bank failure. We find client firms of Continental Illinois incur average excess returns of  $-4.2\%$  during the bank's impending insolvency. In response to the government rescue announcement, which revived the bank's durability, client firms gain $2.0\%$ on average. These effects are significant only for firms for which Continental Illinois Bank served as direct lender or as manager of a syndicated loan. Cross-sectional regressions indicate valuation effects are significantly magnified by the extent of client firm leverage or size of credit facility, but are mitigated for firms with publicly documented, contemporaneous lending relations with other banks, separate from those with Continental Illinois. Share price effects in response to the rescue are more favorable for firms with no publicly traded debt.
 
 We conclude that bank financial distress harms client firms as a result of their loss of relationship-based cost advantages intrinsic to bank lending. The existence of these quasi rents implies borrowers are bank stakeholders. Our results support asset services models of intermediation that emphasize the relationship-specific nature of bank lending and have implications for bank regulation and for policies pursued by regulatory authorities charged with evaluating bank solvency and initiating closures and rescues.
 
 The paper is organized as follows. In Section I we discuss the theoretical background relevant for assessing the value of bank durability to borrowing firms, derive empirical hypotheses, and consider implications of regulatory policy. Sample collection procedures and methodology are described in Section II. In Section III event study and cross-sectional regression results are reported. Conclusions are presented in Section IV.
 
-# I. Private Information and the Value of Bank Lending Relations
+## I. Private Information and the Value of Bank Lending Relations
 
-# A. Models of Banking Relationships and Firm Value
+## A. Models of Banking Relationships and Firm Value
 
 In Myers and Majluf (1984) and Miller and Rock (1985), information imbalance between investors and corporate managers makes it more difficult for firms to raise external funds, adversely affecting corporate investment. Diamond (1984), Ramakrishnan and Thakor (1984), and Boyd and Prescott (1986) argue that banks' comparative advantage at assessing private corporate information and monitoring managers mitigates this information-based problem. Fama (1985), Sharpe (1990), Rajan (1992), and Diamond (1991a, 1991b) model bank-borrower interaction over multiple periods, including loan renewals, which fosters private information flows over time. These models imply that banks are well-informed compared to investors operating on only public information and have a comparative advantage in monitoring borrowers relative to dispersed debtholders. As a result, banks can offer some borrowers lower financing costs relative to the public securities market. The short-term, bilateral structure of loan contracts facilitates renegotiation between borrower and lender in response to new information. Thus, there are relationship-specific cost advantages to bank lending.
 
@@ -62,13 +69,13 @@ In Black's (1975) view of banking, there are neither relationship-specific activ
 
 There is evidence that bank-firm relationships generate favorable valuation effects for borrowers by providing a future stream of evaluation and monitoring services which lowers financing costs relative to less-informed sources of funds. James (1987) and Slovin, Sushka, and Hudson (1988) report that bank loans or standby letters of credit increase client firm value. In Lummer and McConnell (1989), announcements of loan renewals, though not loan initiations, increase client firm share prices. Slovin, Sushka, and Hudson (1990) find that bank debt in corporate capital structures mitigates negative share price effects of seasoned equity issues. In Slovin and Young (1990) and James and Wier (1990), banking relationships reduce underpricing of initial public offerings of common stock.
 
-# B. Empirical Hypotheses
+## B. Empirical Hypotheses
 
 We examine valuation effects of an unexpected, exogenous, potential termination of bank-borrower relations. If banks operate on only public information or if banks extract all relationship-specific quasi rents as they accrue, borrowers should incur no loss from bank failure; i.e., on average, customer share prices should be unaffected. In contrast, if the borrower has an implicit contract that its bank will continue favorable treatment based on accumulated private information or otherwise expects to accrue a share of relationship-specific quasi rents, a bank's demise should adversely affect borrower valuation. In this case, cost advantages that would accrue in the future are lost to the borrower. Financial market efficiency implies firm value should reflect the market's expectation of the present value of the client firm's share of any future quasi rents. Thus, the average loan customer's stock price should fall when the bank fails. This is the rationale for our empirical test as to whether a firm is a stakeholder in the bank from which it borrows.<sup>3</sup>
 
 Given Diamond's (1991a) hypothesis that bank lending is especially valuable for firms that do not have access to public debt markets, bank failure may increase the probability of bankruptcy for client firms, especially highly levered firms, that use bank lending agreements as a major source of liquidity and certification of value. Likewise, losses should be mitigated for client firms that have established separate lending relations with other banks or have access to publicly traded debt.
 
-# C. Implications of Regulatory Policy
+## C. Implications of Regulatory Policy
 
 There are a number of different ways by which bank financial distress is resolved, depending on decisions made by the regulatory authorities. If a
 
@@ -76,24 +83,22 @@ bank is liquidated, the capitalized value of bank-borrower relationships based o
 
 In the case of a sale, new bank management may make changes adversely affecting a client of the failed bank, including reneging on or reducing implicit commitments or adversely changing terms of agreements made by previous managers (e.g., unfavorably revaluing collateral or tightening restrictive covenants). Information generated by previous loan officers consists of their implicit as well as explicit evaluations of corporate managers and associated lending commitments which, unlike more concrete forms of data (such as profits and sales), is difficult to credibly transfer to a new bank's officers. Moreover, healthy banks that purchase loan portfolios of failed banks face capital constraints that can lead them to call loans or cancel (or not renew) credit facilities of firms with which they do not have longstanding relations.
 
-In the case of government control, the FDIC is not required to honor terms of agreements of the failed bank. In particular, technically sound revolving credit and term loan agreements in which the client has not borrowed the full amount can be canceled. Moreover, regulator approval is typically required for all major managerial decisions after seizure. For example, after the FDIC rescue, Continental Illinois managers were required to obtain regulator approval for any decision involving a loan of \(100 million or more. Since the FDIC is a capital-constrained institution and operates under political pressure to minimize its demand for working capital, it has utilized cancellation rights to increase its reserves rather than maintaining potentially profitable loans. For example, the Wall Street Journal (February 15, 1991) reported that subsequent to the seizure of the Bank of New England by the FDIC, many lines of credit or unfunded loan obligations were canceled, creating severe difficulties for certain businesses with longstanding relationships with the bank.[5]
+In the case of government control, the FDIC is not required to honor terms of agreements of the failed bank. In particular, technically sound revolving credit and term loan agreements in which the client has not borrowed the full amount can be canceled. Moreover, regulator approval is typically required for all major managerial decisions after seizure. For example, after the FDIC rescue, Continental Illinois managers were required to obtain regulator approval for any decision involving a loan of \(100 million or more. Since the FDIC is a capital-constrained institution and operates under political pressure to minimize its demand for working capital, it has utilized cancellation rights to increase its reserves rather than maintaining potentially profitable loans. For example, the Wall Street Journal (February 15, 1991) reported that subsequent to the seizure of the Bank of New England by the FDIC, many lines of credit or unfunded loan obligations were canceled, creating severe difficulties for certain businesses with longstanding relationships with the bank.<sup>5</sup>
 
-4 Regulators control entry and exit for the banking industry. Technically, the chartering agency or the FDIC declares the state of insolvency.  
-5 A spokesman for the FDIC indicated that "These are some of the disruptions that can happen when a bank goes into receivership."
+<sup>4</sup> Regulators control entry and exit for the banking industry. Technically, the chartering agency or the FDIC declares the state of insolvency.  
+<sup>5</sup> A spokesman for the FDIC indicated that "These are some of the disruptions that can happen when a bank goes into receivership."
 
 Overall, the government's willingness to support a bank rather than allow its liquidation is a public policy judgment that liquidation leads to significant losses in social welfare because gains associated with accrual of private information by screening and monitoring, and the development of borrower reputation associated with continuous relations, are bank specific and nonsalvageable. Nevertheless, the nationalization or sale of a distressed bank is not likely to be a perfect substitute for the continuation of a private sector bank if there are relationship-based cost advantages to bank lending.
 
-# II. Sample and Methodology
+## II. Sample and Methodology
 
-# A. Sample
+## A. Sample
 
 We examine share price effects on borrowers due to an unexpected change in probability of bank dissolution caused by forces external to the borrowers examined, specifically the de facto insolvency and subsequent rescue of the Continental Illinois Bank by the FDIC in 1984. If borrowers are bank stakeholders, then (1) deterioration in the Continental Illinois Bank's durability and quality should on average reduce market values of its client firms, and (2) the FDIC rescue and willingness to maintain Continental Illinois as a publicly traded, government-supported bank should on average increase client firm value. If banks are passive institutional investors with no private information or if client firms do not accrue future relationship-specific quasi rents, there should be no change in client firm values due to the bank's difficulties. We use event study methodology and cross-sectional regression analysis to assess the impact of the impending failure and subsequent rescue on share prices of loan customers of Continental Illinois.<sup>6</sup>
 
 The size and stature of the Continental Illinois Bank facilitate our test. At year-end 1983, the bank was the seventh largest U.S. bank holding company (in terms of both deposits and total assets). Continental Illinois Bank was a major corporate lender and served as lead manager of syndicated loans for publicly traded corporate clients. The bank's size and national scope of its corporate lending activities increase the potential for obtaining public information about bank-borrower relationships. In contrast, regional bank asset portfolios are dominated by loans to smaller, lesser-known corporations, typically not listed on a major exchange, so little public information is available about their clients' banking relationships.
 
-The de facto failure of Continental Illinois represents the last major case in which the liquidation of a large bank was a realistic probability. Indeed, officials in the Reagan administration, especially at the U.S. Treasury, opposed the bailout up to the rescue announcement. Regulators, however, argued that closure and deposit payoff would be complex, lengthy, and costly. Immediately after the announced bailout, bank regulators insisted the Conti
-
-nental Illinois problem was unique. During Congressional hearings two months later, however, regulators promulgated the "too big to fail" doctrine. Thus, it is unlikely the public has perceived the liquidation of a money center bank to be a realistic probability after the Continental Illinois action. Consequently, this case represents a unique example of a very large bank, with publicly documented lending relations with publicly traded firms, that faced a significant probability of liquidation.
+The de facto failure of Continental Illinois represents the last major case in which the liquidation of a large bank was a realistic probability. Indeed, officials in the Reagan administration, especially at the U.S. Treasury, opposed the bailout up to the rescue announcement. Regulators, however, argued that closure and deposit payoff would be complex, lengthy, and costly. Immediately after the announced bailout, bank regulators insisted the Continental Illinois problem was unique. During Congressional hearings two months later, however, regulators promulgated the "too big to fail" doctrine. Thus, it is unlikely the public has perceived the liquidation of a money center bank to be a realistic probability after the Continental Illinois action. Consequently, this case represents a unique example of a very large bank, with publicly documented lending relations with publicly traded firms, that faced a significant probability of liquidation.
 
 Developing our sample is necessarily complicated for several reasons. First, banks do not provide consistent public reporting about their clients. Second, the FDIC will not provide the public with the identity of a bank's clients even after a rescue. This is because the FDIC has ruled that when it takes possession of bank records, it does not hold them as a federal agency but stands in the shoes of the bank and as such is exempt from the Freedom of Information Act (5 USC Section 552).<sup>7</sup> Thus, we are confined to developing a sample of client firms via indirect methods.
 
@@ -120,17 +125,17 @@ Panel C: Distribution of Ratios of Credit Facilities to Market Value of Equity
 
 <table><tr><td>Range of Ratios (R)</td><td>Frequency</td></tr><tr><td>R &lt; 0.10</td><td>6</td></tr><tr><td>0.10 ≤ R &lt; 0.20</td><td>6</td></tr><tr><td>0.20 ≤ R &lt; 0.30</td><td>6</td></tr><tr><td>0.30 ≤ R &lt; 0.40</td><td>2</td></tr><tr><td>0.40 ≤ R &lt; 0.50</td><td>8</td></tr><tr><td>0.50 ≤ R &lt; 0.60</td><td>7</td></tr><tr><td>0.60 ≤ R &lt; 0.70</td><td>2</td></tr><tr><td>0.70 ≤ R &lt; 0.80</td><td>1</td></tr><tr><td>0.80 ≤ R</td><td>15</td></tr></table>
 
-the median is  \$210 million. These data represent a minimum estimate of the extent of lending relationships with Continental Illinois since firms do not consistently report their total bank debt nor information about relationship-based services purchased from Continental Illinois that could be a factor in pricing relationship-based credit. The mean (median) market value of equity of client firms is\$ 1085.1 million (\$692.6 million). Statistics for the leverage ratio (total long-term plus short-term debt divided by market value of equity) are reported utilizing 1983 year-end data.
+the median is  \$210 million. These data represent a minimum estimate of the extent of lending relationships with Continental Illinois since firms do not consistently report their total bank debt nor information about relationship-based services purchased from Continental Illinois that could be a factor in pricing relationship-based credit. The mean (median) market value of equity of client firms is $1085.1 million ($692.6 million). Statistics for the leverage ratio (total long-term plus short-term debt divided by market value of equity) are reported utilizing 1983 year-end data.
 
-# B. Methodology
+## B. Methodology
 
 We calculate daily average prediction errors, APE, using market model methodology. The announcement date,  $t = 0$ , is Monday, July 23, 1984, the first trading day after weekend reports the FDIC would take a controlling equity interest in Continental Illinois. Since the events are perfectly clustered with respect to calendar time, client firms are combined in a single portfolio. Firms are diversified with respect to industry, however, so there is little cross-sectional dependence in securities returns, and results are similar if firms are not combined into a single portfolio.
 
 The adjusted (excess) returns are the difference between the arithmetic return and the conditional expected return, obtained from a least squares regression estimated over a 120 day preevent period,  $t = -347$  to  $-228$ , where the return on the CRSP equally weighted index is the explanatory variable. This estimation period is prior to the sale of Continental Illinois' credit card division in March 1984, the first substantive action revealing concern about the bank's capital position. The null hypothesis of the statistical test is that the APE for the portfolio for each subperiod equals zero. The test statistic is the ratio of the relevant APE to its standard deviation estimated from the time series of excess returns during the preevent period  $(-347$  to  $-228)$ . For multiple-day event periods, the standard error is the square root of the number of days in the window multiplied by the single-day standard error. The  $t$ -statistics are reported in parentheses, the proportion of returns negative in brackets (statistical significance based on the Wilcoxon signed ranks test), and median returns in braces. In cross-sectional regressions, relevant event window adjusted returns are used as dependent variables and explanatory variables test effects of type and size of lending arrangement, leverage, documented contemporaneous lending relations, and access to public debt markets.
 
-# III. Empirical Results
+## III. Empirical Results
 
-# A. Valuation Effects on Client Firms
+## A. Valuation Effects on Client Firms
 
 Empirical results for the full sample are reported in column 1 of Table II. The sale of the bank's credit card division, announced on  $t = -78$ , is followed by a progression of deleterious news about Continental Illinois. Initial rumors of difficulties are followed by reports of significant borrowings at the Federal
 
@@ -151,7 +156,7 @@ Overall, firms with publicly reported lending relationships with Continental Ill
 
 The positive excess returns associated with the rescue are smaller than the negative excess returns prior to the rescue. For the entire period,  $-79$  to  $0$ , the cumulative average excess return is  $-8.71\%$  with a  $t$ -statistic of  $-2.48$ . Thus, even though the bank is rescued, rather than liquidated, client firms sustain significant overall losses as a result of the bank's distress. This is consistent with the view that a government-assisted bank, with a new team of managers selected and subject to close oversight by regulators, may not honor prior commitments or serve as an equivalent quality lender and monitor. This suggests the effective nationalization of a distressed bank is not a perfect substitute for the continued durability of a private sector bank.
 
-# B. Effects of Type of Lending Arrangement
+## B. Effects of Type of Lending Arrangement
 
 Next we examine whether the type of lending relationship influences the sensitivity of client firm share prices to changes in expected bank durability. The rights and obligations of a lender and its relationship to the borrower in a syndicated loan vary depending on the type of agreement. Although each loan participation is unique, there are two dominant structuring methods: a direct loan participation in which each bank signs a separate note with the borrower, and an indirect participation in which one note is issued to the borrower made payable to the lead bank which executes separate agreements specifying the relationships between each participant bank. Since these documents are private, we are not able to obtain this information for syndications in the sample.
 
@@ -172,7 +177,7 @@ cannot be explained by the argument that a change in the quality of these borrow
 
 Our results indicate that firms with syndicated loans in which Continental Illinois is only a participant are not affected by its distress or rescue. This suggests that although supplying funds, Continental Illinois did not provide asset services such as private information processing and monitoring. In contrast, the evidence suggests client firms are stakeholders in a bank that lends them funds directly or serves as manager of a loan syndication.
 
-# C. Multivariate Regression Analysis
+## C. Multivariate Regression Analysis
 
 In the cross-sectional regressions, cumulative adjusted returns from the event study are the observations for the dependent variables. We estimate separate regressions for the preevent period,  $-5$  to  $-2$ , and the two-day announcement window,  $-1$  to  $0$ , using weighted least squares. The weighting factor is the standard deviation of the estimation period residuals. To account for the type of lending relationship we specify a qualitative independent variable, AGENT, that equals unity if Continental Illinois Bank is lead manager or direct lender, and zero otherwise.
 
@@ -197,7 +202,7 @@ Finally, we test whether the size of credit facilities influences adjusted retur
 
 Overall, the cross-sectional regression results indicate that the extent and type of banking relationship with Continental Illinois (primary lender versus participant), client firm leverage, and the presence of a relationship with another bank have statistically significant effects on excess returns to client firms for the period of the bank's distress and FDIC rescue. There is also evidence that lack of access to public debt markets enhances excess returns in response to the bailout.
 
-# IV. Conclusions and Implications for Bank Regulation
+## IV. Conclusions and Implications for Bank Regulation
 
 We examine the value of bank-borrower relationships and associated implicit contracts which entail processing of private information and monitoring. We find that client firms are stakeholders in the banks from which they borrow. The value of these implicit claims is relationship specific and nonsalvageable so that an unexpected deterioration in bank durability or bank failure imposes costs on client firms. Our empirical evidence indicates that an unexpected increase in the probability of dissolution of bank-borrower relationships is a negative event and the rescue of a bank expected to fail is a positive event for client firms. These effects are exacerbated by client firm
 
@@ -214,41 +219,41 @@ leverage or the size of the credit facility, but are mitigated if firms maintain
 
 Bank insolvency typically leads to regulator-arranged mergers and acquisitions, including FDIC auctions. This approach probably reduces the loss in the value of bank-borrower contracts relative to liquidation. The relationship-specific character of lending suggests a more active market for corporate control is a preferable alternative to bank industry exit via failure or liquidation. The banking industry is characterized by severe limitations as to the set of agents who can bid for control. Liberalizing restrictions on bidding could make the market for bank control more effective by permitting a wider set of managerial teams to compete for control. The price system is an effective mechanism to transfer control since bidders have an incentive to structure offers to maximize the value of banking relationships and associated monitoring and certification services.
 
-# Appendix
+## Appendix
 
 Examples of lending relationships involving client firms and Continental Illinois Bank as direct lender or lead manager (agent) of loan syndications from corporate annual reports.
 
-# A. Galaxy Carpet Mills, Inc.
+## A. Galaxy Carpet Mills, Inc.
 
-# A.1. 1983 Annual Report
+## A.1. 1983 Annual Report
 
 "On January 17, 1983, the Company amended and restated its bank credit agreement with the Continental Illinois National Bank and Trust Company of Chicago, to be effective retroactively to December 1, 1982. Under the terms of agreement the Bank will make revolving loans to the Company in amounts not to exceed \$12,000,000, with such loans convertible to a term loan on June 17, 1985…
 
 "The Company's loan agreements include, among other provisions, requirements that the Company maintain minimum working capital of \$27,000,000 and not allow the ratio of total debt to net worth to exceed 2 to 1. The loan agreements were amended effective October 1, 1983 to require the Company to maintain a current ratio of 2.15 to 1 through December 31, 1983 and 2.25 to 1 thereafter. Management believes that as in the past the current amendment will be renewed, if necessary. The agreements contain certain other restrictions, principally relating to the payment of cash dividends and the repurchase of the Company's capital stock."
 
-# A.2. 1984 Annual Report
+## A.2. 1984 Annual Report
 
 "Under the terms of the bank credit agreement, as amended and restated, the Continental Illinois National Bank and Trust Company of Chicago will make revolving loans to the Company in amounts not to exceed \(12,000,000. Such loans are convertible to a term loan on June 17, 1986…
 
 "The Company's loan agreements, as amended, include, among other provisions, requirements that the Company maintain minimum working capital of \(38,000,000; not allow the ratio of total debt to net worth to exceed 2 to 1, maintain a current ratio of 2 to 1. The agreements contain certain other restrictions, principally relating to the payment of cash dividends and the repurchase of the Company's capital stock."
 
-# B. Waste Management, Inc.
+## B. Waste Management, Inc.
 
-# B.1. 1983 Annual Report
+## B.1. 1983 Annual Report
 
 "Under the Company's revolving credit agreement, as amended with five banks, including Continental Illinois National Bank and Trust Company of Chicago, for itself and as agent, the banks have agreed to loan the Company an aggregate of \(100,000,000 on an unsecured basis. The agreement provides for conversion of current loans into six-year term loans on June 30, 1984 (subject to extension to any second subsequent calendar year by agreement of the banks) …
 
 "Agreements… require the Company to maintain certain financial ratios and impose certain restrictions on, among other things, additional debt, new lines of business, payment of cash dividends and certain investments."
 
-# B.2. 1984 Annual Report
+## B.2. 1984 Annual Report
 
 "Under the Company's revolving credit agreement, as amended, with five banks, including Continental Illinois National Bank and Trust Company of Chicago, for itself and as agent, the banks have agreed to loan the Company an aggregate of \(400,000,000 on an unsecured basis. The agreement provides for conversion of current loans into six-year term loans on June 30, 1986 (subject to extension to any second subsequent calendar year by agreement of the Company and the respective banks)…
 
 "Agreements… require the Company to maintain certain financial ratios and impose certain restrictions on, among other things, additional debt, new lines of business, payment of cash dividends and certain investments."
 
-# C. Lear Petroleum Corporation
+## C. Lear Petroleum Corporation
 
-# C.1. 1983 Annual Report
+## C.1. 1983 Annual Report
 
 "On March 31, 1983, as amended December 23, 1983, the Company entered into a revolving credit agreement with Continental Illinois National Bank and Trust Company of Chicago ("Continental") and three other domestic
 
@@ -256,7 +261,7 @@ banks replacing a revolving credit agreement dated May 22, 1981. The agreement p
 
 "Certain restrictions have been placed on the Company and its operations in connection with the credit agreement. The more significant of these restrictions include the maintenance of  \$1 of working capital, the Company's working capital coverage of fixed charges, consolidated net worth in excess of\$ 75,000,000, consolidated liabilities, not including subordinated indebtedness, at less than 200% of consolidated net worth increased by subordinated indebtedness, and limitations on payment of cash dividends (not to exceed 10% of the consolidated net income of the Company for the two fiscal years immediately preceding the fiscal year during which the dividend is paid), investments in or disposals of producing properties and recurrence of additional indebtedness."
 
-# REFERENCES
+## REFERENCES
 
 Bailey, D., and D. Mullineaux, 1989, The nonuniqueness of bank loans, Unpublished manuscript, University of Kentucky, Lexington.  
 Black, F., 1975, Bank funds management in an efficient market, Journal of Financial Economics 2, 323-339.  

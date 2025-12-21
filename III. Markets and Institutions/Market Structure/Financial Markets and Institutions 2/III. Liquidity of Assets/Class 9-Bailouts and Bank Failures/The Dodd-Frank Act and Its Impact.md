@@ -1,5 +1,9 @@
 ---
-aliases:
+title: "The Dodd-Frank Act and Its Impact"
+parent_directory: "Class 9-Bailouts and Bank Failures"
+formatted: "2025-12-21 05:05:30 PM"
+formatter_model: "claude-sonnet-4-5-20251001"
+cli_tool: "claude-code"
 primary_tags:
   - dodd frank act
   - financial regulation reform
@@ -30,16 +34,47 @@ secondary_tags:
   - contingent capital structures
   - credit risk retention
   - federal reserve oversight
-formatted: 2025-12-21 03:00:00 PM
-formatter_model: claude-sonnet-4
-cli_tool: claude-code
-parent_directory: Class 9-Bailouts and Bank Failures
 cssclasses: academia
 ---
 
 # The Dodd-Frank Act and Its Impact
 
 On July 21, 2010, President Obama signed into law the Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act), one of the most sweeping financial reform bills in the history of the United States. The Dodd-Frank Act, in response to the preceding financial crisis of 2008-09, fundamentally changed the finance industry and greatly affected its biggest players. This technical note gives an overview of the most important parts of the act (and other regulatory reform) and the effect these reforms may have on the country's largest financial institutions. It is important to note that the Dodd-Frank Act does not necessarily create hard and fast rules but often provides only guidance for regulators to proceed with rulemaking activities.
+
+```d2
+direction: right
+
+DoddFrankAct: Dodd-Frank Act {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+Goals: Key Goals {
+  FinancialStability: "Financial Stability"
+  EndTooBigToFail: "End 'Too Big to Fail'"
+  ProtectTaxpayers: "Protect Taxpayers"
+  ConsumerProtection: "Consumer Protection"
+}
+
+KeyComponents: Major Components {
+  FSOC: "Financial Stability Oversight Council"
+  BaselIII: "Basel III Capital Requirements"
+  VolckerRule: "Volcker Rule"
+  OLA: "Orderly Liquidation Authority"
+  ConsumerProtection: "Consumer Protection Bureau"
+}
+
+Implementation: Implementation {
+  RegulatoryGuidance: "Regulatory Guidance & Rulemaking"
+  PhaseInPeriods: "Phase-in Periods (2013-2019)"
+  EnhancedOversight: "Enhanced Federal Reserve Oversight"
+}
+
+DoddFrankAct -> Goals
+DoddFrankAct -> KeyComponents
+KeyComponents -> Implementation
+```
 
 ## Costs of the Crisis
 
@@ -57,11 +92,11 @@ Prior to the passage of the Dodd-Frank Act, the U.S. financial regulatory system
 
 As a result of the Dodd-Frank Act, the Fed will wield the most oversight power, and it is now the explicit responsibility of the Fed to "identify, measure, and monitor risks to the financial stability of the United States."4 In line with this objective, the Fed will now be the regulator for certain nonbank financial institutions (i.e., insurance companies, investment banks, and broker-dealers) that are determined to be systemically important and their subsidiaries in the same manner and to the same extent as if they were a BHC. Additionally, the Fed is required to establish prudential standards that include:
 
-- Risk-based capital requirements and leverage limits  
-- Liquidity requirements  
-Overall risk management  
-- Resolution plan and credit exposure reporting requirements  
-- Concentration limits  
+- Risk-based capital requirements and leverage limits
+- Liquidity requirements
+- Overall risk management
+- Resolution plan and credit exposure reporting requirements
+- Concentration limits
 - Other standards deemed appropriate, including but not limited to contingent capital requirements
 
 Of important note for BHCs and any other company that controls an insured depository institution, the act now requires them to serve as a source of strength for their depository institution subsidiaries. This essentially means that parent companies now will be liable for a subsidiary that is experiencing financial difficulty and can no longer let it fail with no consequences to the parent.
@@ -72,13 +107,13 @@ more stringent leverage limits or forcing large institutions to divest some of t
 
 The FSOC also has broad supervisory authority over financial institutions. It has the power to monitor, investigate, assess risks to the financial system, and collect information from BHCs and nonbank financial institutions. Also, the FSOC will continue to perform stress tests on the largest financial institutions to ensure that they have adequate capital in the event of another financial crisis. Finally, the FSOC will work with other regulators to recommend enhanced capital, liquidity, and risk management standards for systemically important financial firms.
 
-# Basel III Accord
+## Basel III Accord
 
 In September 2010, the Basel Committee on Banking Supervision passed the newest Basel Accord, commonly known as Basel III, which will be phased in over the next eight years. The Basel Accords serve as minimum prudential standards for participating international banking regulators. Regulators may require more stringent standards but cannot go below those specified by the Basel Accords. Based on Basel III, banks will be required to hold common equity (essentially the same as tier 1 capital) equal to at least $7\%$ of the bank's assets, up from $4\%$ in the United States and $2\%$ internationally, and across a wider range of assets. Part of that equity will be a $2.5\%$ conservation buffer during strong economic periods (to be built up between 2015 and 2019). If a bank falls below this buffer level, regulators could force it to retain more of its earnings in order to augment its regulatory capital. Regulators also discussed but did not come to an agreement about rules forcing banks to meet certain liquidity requirements; the issue will be revisited in 2015 when new rules are discussed.
 
 The implications of the rules laid out in Basel III are not great for U.S. financial institutions because it is likely that U.S. regulators will install more stringent prudential standards following the Dodd-Frank Act. U.S. regulators have already contemplated measures similar to the conservation buffer, wider asset base, and increased capital requirements. Also most banks strive to be well-capitalized and already hold capital sufficient to meet the new standards set forth in Basel III.
 
-# The Collins Amendment: Capital Requirements
+## The Collins Amendment: Capital Requirements
 
 The Collins Amendment is the portion of the Dodd-Frank Act that sets forth the new standards for capital requirements. In addition to setting new standards for banks, it also extends the application of these rules to nonbank financial institutions that are supervised by the Fed. The amendment sets forth some guiding principles for regulators in establishing new capital requirements so that capital levels are counter to economic cycles and requirements for BHCs and nonbank financial institutions are at least as stringent as those for banks. At a minimum, there will be no reduction in capital requirements, and it is expected that the Fed will increase current capital requirements by 200 basis points.
 
@@ -86,7 +121,7 @@ The mandate that capital requirements be countercyclical to the broader economy 
 
 The Dodd-Frank Act additionally expands the asset base upon which capital requirements will be calculated. For the first time, in determining capital ratios, regulators will include many off-balance sheet items in the asset base. Such items would be repurchase agreements, asset sales with recourse, credit and interest rate swaps, forward contracts, and other assets.
 
-# Trust Preferred Securities
+## Trust Preferred Securities
 
 Trust preferred securities (TRUPs) first appeared in 1993 as a way for banks to raise tier 1 capital while making a ratings play. Because TRUPs received equity credit from rating agencies but were priced as debt, issuers were able to exploit an arbitrage opportunity in the rating system. If the rating agencies had not certified the TRUPs, it is likely the security would not have come into existence. Initially, because of the high transaction costs, all but the largest banks were prevented from participating. But the creation of pooled offerings, where multiple banks issued debt securities to the same trust and the trust issued uniform securities to the public, made TRUPs accessible to firms of all sizes.
 
@@ -96,7 +131,7 @@ As the financial crisis started to hit the broader economy, the TRUPs market beg
 
 The Collins Amendment, in trying to increase the quality of tier 1 capital, eliminated TRUPs from inclusion in tier 1 capital for BHCs with more than $15 billion in assets. Previously, TRUPs could account for up to 25% of tier 1 capital (and they will still be afforded tier 2 treatment). This represents a move toward tier 1 being only common or tangible common equity. The elimination of TRUPs from tier 1 will be phased in over three years beginning in 2013. Because many outstanding TRUPs mature after the phase-in deadline, it is common for the securities to include a clause that triggers early redemption if TRUPs lose their tier 1 treatment. Much of this legislation, however, will be moot as the market for TRUPs has essentially disappeared, and regulators have proposed a new species of hybrid securities, contingent convertibles, to effectively replace TRUPs in the capital structure.
 
-# Contingent Convertible Securities
+## Contingent Convertible Securities
 
 One provision in the Dodd-Frank Act that is surrounded by uncertainty is the introduction of contingent capital to bank capital structures. This contingent capital will likely come in the form of contingent convertible securities (CoCos), which will convert from debt to loss-absorbing equity in times of distress and are seen as a replacement of sorts for current hybrid securities such as TRUPs. Banks would issue an as yet to be determined amount of subordinated debt in the form of bonds that would automatically convert to common or preferred stock at a series of predefined points (i.e., percentage decline in stock price, decline in tier 1 capital, or a ratings downgrade). The nonnegotiable trigger feature of CoCos is designed to address two of the major downfalls of old hybrid securities: banks are reluctant to halt coupon payments and/or avoid paying back the principal to placate bond investors or to use the securities as loss-absorbing equity in times of distress. CoCos, however, automatically become loss-absorbing equity in times of distress and convert to securities on which the issuer is not required to make coupon payments but rather can accrue any dividends payable (or eliminate dividends entirely). This would help banks avert insolvency in times of trouble, so they will not be forced to default, but CoCos will not necessarily address liquidity issues because the conversion does not mean a new injection of capital, just a change in capital structure. But the ability to halt coupon payments does ease some of the pressure on illiquid institutions. Also it is important to note that CoCos are different from traditional subordinated convertible debentures in that they convert upon a decrease in stock price (or some similar trigger) rather than an increase in stock price. Because of this feature, CoCos are likely to carry a higher interest rate than traditional convertibles because there is no downside protection.
 
@@ -126,7 +161,7 @@ Lloyds issued over $12 billion of contingent convertibles but as an exchange for
 
 The Rabobank Group's issuance of CoCos, which occurred in early 2010, is markedly different than the Lloyds offering. Most notably, Rabobank Group did it from a position of strength, as it was well-capitalized and maintained an AAA rating. Its issuance consisted of EUR25 billion unsecured 10-year bonds that would convert if the bank lost $15 billion of its $35 billion of equity (when its tier 1 capital would fall below $7\%$). Yet the price was steep as the bonds sold at an interest rate of 6.875%, 351 bps over equivalent swaps and 495 bps more than similar maturity government debt—almost seven times the normal spread of 73 bps for AAA rated companies. Additionally, the bonds will not count toward the bank's regulatory capital and were not rated. But the most interesting feature is that if the trigger is hit, the bonds will be subject to an immediate 75% haircut and will not be converted into equity but rather will be payable in cash. The idea is that this would reduce the bank's liabilities in a time of financial distress, and conversion seems such a remote possibility for Rabobank Group's CoCos that investors have largely ignored this feature. Nonetheless, the bonds performed poorly initially.
 
-# The Volcker Rule
+## The Volcker Rule
 
 The Volcker Rule was one of the most hotly debated parts of the Dodd-Frank Act and is largely aimed at investment banks and large financial institutions who engage in a wide range of activities. The rule prohibits a bank or institution that owns a bank from engaging in proprietary trading that isn't at the behest of its clients and from owning and investing in a hedge fund or private equity fund. Prop trading is defined to include the purchase or sale of any security, any derivative, or any contract for sale of a commodity for future delivery, with exceptions for trading in U.S. government securities and bonds issued by government-backed entities. Additionally, the largest financial institutions are limited in the liabilities they can hold and banned from conflict of interest trading (taking positions opposite those of clients). The prohibition on conflict of interest trading is of special concern for large financial institutions because it refers to those firms hedging their exposure to trades done on behalf of clients. Financial institutions will, however, be allowed to use swaps to hedge their own exposure, but the dealing of these swaps, like many other derivatives, will be forced into separately capitalized "hives." These hives will be legally separated from the rest of the bank so that the bank will not be exposed to any losses.
 
@@ -134,11 +169,11 @@ Another important part of the Volcker Rule prohibits banks from investing more t
 
 Finally, the Volcker Rule requires that many derivatives be traded on exchanges. The idea behind this provision is that it will lessen the risk that one dealer's failure brings down others as investors try to figure out who actually is the counterparty. Certain derivatives will be subject to capital and margin requirements as well as collateral posting requirements. Notably, Berkshire Hathaway has stated that it plans to scale back its derivative contracts due to the collateral posting requirements, which will make such contracts too costly. David Sokol, a chairman of two Berkshire subsidiaries, said, "If you are now going to have to post dollar-for-dollar collateral, and you can't get a price in the market that we think reflects the value of the credit quality of the company, then we wouldn't take on the risk… Ultimately what it will do is alter the pricing." In the end, the effectiveness of this provision is uncertain. Not all derivative contracts will be subject to regulation, and the most profitable contracts will be those that are not required to be exchange traded.
 
-# Asset Securitization
+## Asset Securitization
 
 Much of the financial crisis of 2008-09 was blamed on unchecked asset securitization. To address this concern, the Dodd-Frank Act requires federal regulators to set rules imposing credit risk retention obligations on securitizers and originators who, through the issuance of an asset-backed security, transfers, sells, or conveys the economic interest to a third party. Securitizers will be required to retain not less than $5\%$ of the credit risk for residential mortgages (may be more depending on the forthcoming rules) and are prohibited from hedging or transferring this risk.[10] Securitizers will be allowed to retain less than $5\%$ of commercial mortgages and other assets, provided they meet certain disclosure requirements. Furthermore, the SEC is tasked with adopting regulations requiring issuers to disclose information that will help identify each asset backing the security for each tranche or class of security.
 
-# Orderly Liquidation Authority
+## Orderly Liquidation Authority
 
 The Orderly Liquidation Authority (OLA) is another major regulatory change introduced by the Dodd-Frank Act and is designed to address the problem of too big to fail. While the exact resolution process is not laid out in the legislation, the act does provide the framework for liquidation by the FDIC of institutions that pose systemic risk. Many observers see the OLA as an alternative to but not an outright prohibition of bailouts, as regulators are still allowed to implement generalized programs to help large financial institutions through TARP. Large institutions must periodically submit plans for rapid and orderly shutdown if they were to go under in order to expedite the process should such an event occur. The key to the OLA is that regulators can seize any financial company whose failure threatens the financial system and quickly pay off secured creditors while imposing losses on shareholders as well as unsecured creditors. This process already existed for banks but can now be applied to nonbank financial companies such as Lehman Brothers or AIG. Of important note, liquidation is now required for all firms put into receivership. The process of FDIC liquidation under the OLA is shown in Exhibit 2.
 

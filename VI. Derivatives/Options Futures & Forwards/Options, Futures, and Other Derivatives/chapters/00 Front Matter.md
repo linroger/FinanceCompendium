@@ -1,31 +1,22 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
-title: OPTIONS, FUTURES, AND OTHER DERIVATIVES
-linter-yaml-title-alias: OPTIONS, FUTURES, AND OTHER DERIVATIVES
----
-
---- title: John Hull   Options, Futures, And Other Derivatives Pearson (2021)
-tags:
-- accounting_analysis
-- banking_institutions
-- derivatives
-- financial_engineering
-- fixed_income
-- forward
-- futures
-- hedging
-- model
-- numerical
-- risk
-- risk_management
-- volatility aliases:
-- John Hull   Options, Futures, And Other Derivatives Pearson (2021) parent_folder: Lecture Notes
-subfolder: key_concepts:
-
+title: "Options, Futures, and Other Derivatives"
+parent_directory: "chapters"
+formatted: "2025-12-21 12:00:00 PM"
+formatter_model: "claude-sonnet-4"
+cli_tool: "claude-code"
+primary_tags:
+   - derivatives pricing
+   - options markets
+   - futures contracts
+   - risk management
+secondary_tags:
+   - hedging strategies
+   - financial engineering
+   - volatility modeling
+   - interest rate derivatives
+   - credit risk
+   - exotic options
+   - numerical methods
 cssclasses: academia
 ---
 # OPTIONS, FUTURES, AND OTHER DERIVATIVES
@@ -34,51 +25,43 @@ John C. Hull
 
 ELEVENTH EDITION
 
-<toc>
-
-1. Introduction 1
-2. Futures markets and central counterparties 24
-
-3.Hedging strategies using futures 48
-
-4. Interest rates 76
-5. Determination of forward and futures prices 102
-6. Interest rate futures 130
-7. Swaps 150
-8. Securitization and the financial crisis of 2007-8 179
-
-9.XVAs 194
-
-10. Mechanics of options markets 205
-11. Properties of stock options 225
-12. Trading strategies involving options 246
-13. Binomial trees 266
-14. Wiener processes and Itô's lemma 294
-15. The Black-Scholes-Merton model 316
-16. Employee stock options 349
-17. Options on stock indices and currencies 362
-18. Futures options and Black's model 379
-19. The Greek letters 395
-20. Volatility smiles and volatility surfaces 429
-21. Basic numerical procedures 448
-22. Value at risk and expected shortfall 492
-23. Estimating volatilities and correlations 520
-24. Credit risk 540
-25. Credit derivatives 565
-26. Exotic options 592
-27. More on models and numerical procedures 618
-28. Martingales and measures 648
-29. Interest rate derivatives: The standard market models 666
-30. Convexity, timing, and quanto adjustments 685
-31. Equilibrium models of the short rate 697
-32. No-arbitrage models of the short rate 710
-33. Modeling forward rates 733
-34. Swaps revisited 751
-35. Energy and commodity derivatives 763
-36. Real options 780
-37. Derivatives mishaps and what we can learn from them 793
-
-</toc>
+1. Introduction
+2. Futures markets and central counterparties
+3. Hedging strategies using futures
+4. Interest rates
+5. Determination of forward and futures prices
+6. Interest rate futures
+7. Swaps
+8. Securitization and the financial crisis of 2007-8
+9. XVAs
+10. Mechanics of options markets
+11. Properties of stock options
+12. Trading strategies involving options
+13. Binomial trees
+14. Wiener processes and Itô's lemma
+15. The Black-Scholes-Merton model
+16. Employee stock options
+17. Options on stock indices and currencies
+18. Futures options and Black's model
+19. The Greek letters
+20. Volatility smiles and volatility surfaces
+21. Basic numerical procedures
+22. Value at risk and expected shortfall
+23. Estimating volatilities and correlations
+24. Credit risk
+25. Credit derivatives
+26. Exotic options
+27. More on models and numerical procedures
+28. Martingales and measures
+29. Interest rate derivatives: The standard market models
+30. Convexity, timing, and quanto adjustments
+31. Equilibrium models of the short rate
+32. No-arbitrage models of the short rate
+33. Modeling forward rates
+34. Swaps revisited
+35. Energy and commodity derivatives
+36. Real options
+37. Derivatives mishaps and what we can learn from them
 
 # CONTENTS
 

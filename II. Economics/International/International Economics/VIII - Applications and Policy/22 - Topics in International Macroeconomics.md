@@ -1,43 +1,28 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: FIGURE 22-13
-linter-yaml-title-alias: FIGURE 22-13
+title: "22 - Topics in International Macroeconomics"
+parent_directory: "VIII - Applications and Policy"
+formatted: "2025-12-21 05:00:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "opencode"
 primary_tags:
-- loan market equilibrium volatility
-- global recovery remains unclear
-- imf complacency
-- financial crisis aftermath
-- rate crises 2008
-- threat monetary regime convertibility
+  - "sovereign debt default"
+  - "international financial crises"
+  - "volatility and lending"
 secondary_tags:
-- talk imf irrelevance overdone
-- debt levels higher volatility
-- demand volatility rises loan
-- repayment likely volatility
-- volatility means country
-- level volatility
-- means higher probability default
-- volatility causes demand
-- loan demand curve
-- imf world needs economic
-- economy wealth destroyed panic
-- isn good thing imf
-- global financial crisis primarily
-- rate rises defaults likely
-- buffered economies global shock
-- markets thing imf bretton
-tags_extracted: '2025-12-18T00:48:14.414797'
+  - "loan market equilibrium"
+  - "default costs and penalties"
+  - "triple crisis dynamics"
+  - "argentina crisis 2001"
+  - "global financial crisis"
+  - "imf role in crises"
+cssclasses: academia
 ---
 
 An Increase in Volatility What happens if the country has a higher level of volatility  $V'$ ? We now show how the loan supply and demand curves will shift to  $LS(V')$  and  $LD(V')$ , as shown in Figure 22-13.
 
 In panel (a), higher volatility means that default starts to become a possibility at a low level of debt compared with the low volatility case, as we saw previously. Once above that level of debt, repayment is less likely than when volatility is low. This means that the lending rate rises more quickly to ensure the lenders break even, and
 
-# FIGURE 22-13
+## FIGURE 22-13
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/0bc89ca60a754d31dfb68f28a99198b3d9628f12df22fbeb1bf298d5c7c1f08f.jpg)
 
@@ -49,7 +34,7 @@ In panel (a), higher volatility means that default starts to become a possibilit
 
 Level of debt,  $L$
 
-# Loan Market Equilibrium When Volatility Is High
+## Loan Market Equilibrium When Volatility Is High
 
 More debt means a higher probability of default between points 3 and 4 in panel (a), so repayment probabilities now decline more rapidly starting at the debt level  $L_{V}^{\prime}$ . In panel (b), therefore, to the right of point 4, default is now possible, and the loan supply curve LS shifts up and to the left in that zone. At the same time, at any given lending rate, higher volatility causes demand for debt to expand so as to give the country better insurance, so the loan demand curve LD shifts right. The new equilibrium is now at point 5 where demand and supply intersect. The lending rate rises; defaults are more likely; debt levels may rise or fall.
 

@@ -1,27 +1,23 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'Exchange Rates I: The Monetary Approach in the Long Run'
-linter-yaml-title-alias: 'Exchange Rates I: The Monetary Approach in the Long Run'
+title: Exchange Rates I: The Monetary Approach in the Long Run
+parent_directory: VI - Exchange Rates
+formatted: 2025-12-21 05:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- supply korea rate
+- purchasing power parity
+- law of one price
+- real exchange rate
 - monetary approach exchange rates
-- certain price foreign money
-- answer questions 1970 dollar
 secondary_tags:
-- exchange rates prices long
-- exchange rates raises question
-- foreign country inflation
-- conclusions example canadian prices
-- currency remains comparable baskets
-- monetary model longer assumed
-- 1990 canadian dollar depreciated
-- basket exchange rates prices
-- country combining monetary theory
-tags_extracted: '2025-12-18T00:45:28.115334'
+- inflation differentials
+- exchange rate depreciation
+- big mac index
+- money market equilibrium
+- quantity theory money
+- absolute ppp
+- relative ppp
+cssclasses: academia
 ---
 
 # Exchange Rates I: The Monetary Approach in the Long Run
@@ -40,17 +36,7 @@ Did these price changes cause U.S. goods to appear relatively cheaper? Would the
 
 The answer to these questions is no. In 1970 C\$1 was worth almost exactly \$1 (1 U.S. dollar). So in 1970 both baskets cost the same when their cost was expressed in a common currency, about C$100 = $100. By 1990, however, the Canadian dollar had depreciated relative to its 1970 value and C\$1.16 was needed to buy \$1.00. Thus, the \$336 U.S. basket in 1990 actually cost $336 × 1.16 = C$390 when expressed in Canadian currency—almost the same price as the C\$392 Canadian basket! (Conversely, expressed in U.S. currency, the Canadian basket cost about 392/1.16 = \$338, almost the same as the \$336 U.S. basket.)
 
-1 Exchange Rates and Prices in the Long Run: Purchasing Power Parity and Goods Market Equilibrium
 
-2 Money, Prices, and Exchange Rates in the Long Run: Money Market Equilibrium in a Simple Model
-
-3 The Monetary Approach: Implications and Evidence
-
-4 Money, Interest Rates, and Prices in the Long Run: A General Model
-
-5 Monetary Regimes and Exchange Rate Regimes
-
-6 Conclusions
 
 In this example, although Canadian prices rose about  $16\%$  more than U.S. prices, U.S. residents also found that each of their U.S. dollars could buy about  $16\%$  more loonies. From the U.S. point of view, the cost of the baskets in each country expressed in U.S. dollars rose by about the same amount. The same was true from the Canadian perspective with all prices expressed in loonies. Economists (such as Gustav Cassel, quoted previously) would say that the relative purchasing power of each currency (in terms of U.S. versus Canadian goods) had remained the same.
 
@@ -107,7 +93,7 @@ We can define a price level (denoted  $P$ ) in each location as a weighted avera
 To express PPP algebraically, we can compute the relative price of the two baskets of goods in each location, denoted  $q_{US/EUR}$ :
 
 $$
-\underbrace {q_{U S / E U R}}_{\text{Re la ti ve pr ic eo f}} = \underbrace {(E_{\S / \mathrm{e}} P_{E U R})}_{\text{Eu ro pe an}} / \underbrace {P_{U S}}_{\text{U .S .p ri ce of ba sk et}}
+\underbrace {q_{U S / E U R}}_{\text{Relative price of}} = \underbrace {(E_{\S / \epsilon} P_{E U R})}_{\text{European}} / \underbrace {P_{U S}}_{\text{U.S. price of basket}}
 $$
 
 Just as there were three possible outcomes for the law of one price, there are three possibilities for PPP: the basket is cheaper in United States; the basket is cheaper in Europe; or  $E_{\mathbb{S} / \mathbb{E}}P_{\mathbb{E}\mathbb{U}\mathbb{R}} = P_{\mathbb{U}\mathbb{S}}$ ; the basket is the same price in both locations, and  $q_{\mathrm{US} / \mathrm{EUR}} = 1$ . In the first two cases, the basket is cheaper in one location and profitable arbitrage on the baskets is possible. Only in the third case is there no arbitrage. PPP holds when price levels in two countries are equal when expressed in a common currency. This statement about equality of price levels is also called absolute PPP.
@@ -145,7 +131,7 @@ For example, if a European basket costs  $E_{\mathbb{S} / \mathbb{E}}P_{\text{EU
 Finally, just as we did with the law of one price, we can rearrange the no-arbitrage equation for the equality of price levels,  $E_{\mathbb{S} / \epsilon}P_{EUR} = P_{US}$ , to allow us to solve for the exchange rate that would be implied by absolute PPP:
 
 $$
-\text{Ab so lu te PP P :} \underbrace {E_{\mathbb {S} / \epsilon}}_{\text{Ex ch an ge ra te}} = \underbrace {P_{U S} / P_{E U R}}_{\text{Ra ti oo fp ri ce le ve ls}} \tag {14-1}
+\text{Absolute PPP:} \underbrace {E_{\mathbb {S} / \epsilon}}_{\text{Exchange rate}} = \underbrace {P_{U S} / P_{E U R}}_{\text{Ratio of price levels}} \tag {14-1}
 $$
 
 This is one of the most important equations in our course of study because it shows how PPP (or absolute PPP) makes a clear prediction about exchange rates: Purchasing power parity implies that the exchange rate at which two currencies trade equals the relative price levels of the two countries.
@@ -189,7 +175,7 @@ If Equation (14-1) holds for levels of exchange rates and prices, then it must a
 
 $$
 
-\text{Re la ti ve PP P :} \quad \underbrace {\frac{\Delta E_{\S / \epsilon , t}}{E_{\S / \epsilon , t}}} = \underbrace {\pi_{U S , t} - \pi_{E U R , t}}_{\text{In fl at io nd if fe re nt ia l}} \tag {14-2}
+\text{Relative PPP:} \quad \underbrace {\frac{\Delta E_{\S / \epsilon , t}}{E_{\S / \epsilon , t}}} = \underbrace {\pi_{U S , t} - \pi_{E U R , t}}_{\text{Inflation differential}} \tag {14-2}
 
 $$
 
@@ -205,7 +191,7 @@ Two points should be kept in mind about relative PPP. First, unlike absolute PPP
 
 The purchasing power parity theory, whether in the absolute PPP or relative PPP form, suggests that price levels in different countries and exchange rates are tightly linked, either in their absolute levels or in the rates at which they change. To assess how useful this theory is, let's look at some empirical evidence to see how well the theory matches reality. We can then reexamine the workings of PPP and reassess its underlying assumptions.
 
-# APPLICATION
+## APPLICATION
 
 # Evidence for PPP in the Long Run and Short Run
 
@@ -308,7 +294,7 @@ The Big Mac Index The table shows the price of a Big Mac in July 2012 in local c
 
 Source: © The Economist Newspaper Limited, London (July 26, 2012). Actual market exchange rates are for July 25, 2012. PPP-implied rate is local currency price divided by price in United States. The U.S. price is average of four cities; China price is average of five cities; Euro area price is weighted average of prices in euro area; India price is the price of a Maharaja Mac.
 
-# 2 Money, Prices, and Exchange Rates in the Long Run: Money Market Equilibrium in a Simple Model
+## 2 Money, Prices, and Exchange Rates in the Long Run: Money Market Equilibrium in a Simple Model
 
 It is time to take stock of the theory developed so far in this chapter. Up to now, we have concentrated on PPP, which says that in the long run the exchange rate is determined by the ratio of the price levels in two countries. But this prompts a question: What determines those price levels?
 
@@ -514,11 +500,11 @@ If the U.S. economy grows faster in the long run, the dollar will appreciate mor
 
 With a change of notation to make the United States the foreign country, the same lessons could be derived for Europe and the euro.
 
-# 3 The Monetary Approach: Implications and Evidence
+## 3 The Monetary Approach: Implications and Evidence
 
 The monetary approach is the workhorse model in the study of long-run exchange rate movements. In this section, we look at some applications and empirical evidence.
 
-# Exchange Rate Forecasts Using the Simple Model
+## Exchange Rate Forecasts Using the Simple Model
 
 An important application of the monetary approach to exchange rate determination is to provide a forecast of the future exchange rate. Remember from the previous chapter that foreign exchange (forex) market arbitrageers need such a forecast to be able to make arbitrage calculations using uncovered interest parity. Using Equation (14-3), we can see that a forecast of future exchange rates (the left-hand side) can be constructed as long as we know how to forecast future money supplies and real income (the right-hand side).
 
@@ -552,7 +538,7 @@ d. PPP implies that the exchange rate  $E$  and price level  $P$  must move in t
 
 Corresponding to these four steps, the four panels of Figure 14-6 illustrate the path of the key variables in this example. This figure shows that if we can forecast
 
-# FIGURE 14-6
+## FIGURE 14-6
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/3ced117f28d46b01ec6014e19539e0d9581c1ce41f0fdfd1a9f6d167108b9337.jpg)
 
@@ -574,9 +560,9 @@ An Increase in the Growth Rate of the Money Supply in the Simple Model Before ti
 
 the money supply at any future period as in (a), and if we know real money balances remain constant as in (b), then we can forecast prices as in (c) and exchange rates as in (d). These forecasts are good in any future period, under the assumptions of the monetary approach. Again, Equation (14-3) supplies the answer more quickly; under the assumptions we have made, money, prices, and exchange rates all move in proportion to one another.
 
-# APPLICATION
+## APPLICATION
 
-# Evidence for the Monetary Approach
+## Evidence for the Monetary Approach
 
 The monetary approach to prices and exchange rates suggests that, all else equal, increases in the rate of money supply growth should be the same size as increases in the rate of inflation and the rate of exchange rate depreciation. Looking for evidence of this relationship in real-world data is one way to put this theory to the test.
 
@@ -608,9 +594,9 @@ Source: IMF, International Financial Statistics.
 
 money supply growth rates but also in their real income growth rates. Another explanation is that we have been assuming that the money demand parameter  $L$  is constant, and this may not be true in reality. This is an issue we must now confront.
 
-# APPLICATION
+## APPLICATION
 
-# Hyperinflations
+## Hyperinflations
 
 The monetary approach assumes long-run PPP, which has some support, as we saw in Figure 14-2. But we have been careful to note, again, that PPP generally works poorly in the short run. However, there is one notable exception to this general failure of PPP in the short run: hyperinflations.
 
@@ -618,7 +604,7 @@ Economists traditionally define a hyperinflation as occurring when the inflation
 
 There have been many hyperinflations worldwide since the early twentieth century. They usually occur when governments face a budget crisis, are unable to borrow to finance a deficit, and instead choose to print money to cover their financing needs. The situation is not sustainable and usually leads to economic, social, or political crisis, which is eventually resolved with a return to price stability. (For more discussion of hyperinflations and their consequences, see Side Bar: Currency Reform and Headlines: The First Hyperinflation of the Twenty-First Century.)
 
-# SIDE BAR
+## SIDE BAR
 
 # Currency Reform
 
@@ -846,7 +832,7 @@ $$
 
 Thus, in each country, the long-run expected nominal interest rate is the long-run world real interest rate plus that country's expected long-run inflation rate. For example, if the world real interest rate is  $r^* = 2\%$ , and the country's long-run expected inflation rate goes up by two percentage points from  $3\%$  to  $5\%$ , then its long-run nominal interest rate also goes up by two percentage points from the old level of  $2 + 3 = 5\%$  to a new level of  $2 + 5 = 7\%$ .
 
-# APPLICATION
+## APPLICATION
 
 # Evidence on the Fisher Effect
 
@@ -938,7 +924,7 @@ Comparing Figure 14-14 with Figure 14-6, we can observe the subtle qualitative d
 
 Looking Ahead We can learn a little more by thinking through the market mechanism that produces this result. People learn at time  $T$  that money growth will be more rapid in the United States. This creates expectations of higher inflation in the United States. If people believe PPP holds in the long run, they will believe higher future inflation will cause the U.S. currency to depreciate in the future. This prospect makes holding dollars less attractive, by UIP. People try to sell dollars, and invest in euros. This creates immediate downward pressure on the dollar—even though at time  $T$  itself the supply of dollars does not change at all! This lesson underlines yet again the importance of expectations in determining the exchange rate. Even if actual economic conditions today are completely unchanged, news about the future affects today's exchange rate. This crucial insight can help us explain many phenomena relating to the volatility and instability in spot exchange rates, an idea we develop further in the chapters that follow.
 
-# 5 Monetary Regimes and Exchange Rate Regimes
+## 5 Monetary Regimes and Exchange Rate Regimes
 
 The monetary approach shows that, in the long run, all nominal variables—the money supply, interest rate, price level, and exchange rate—are interlinked. Hence, monetary policy choices can radically affect some important economic outcomes, notably prices and inflation, about which policy makers, governments, and the people they represent deeply care. The approach therefore highlights issues that must be taken into account in long-run economic policy design, and we will explore these important connections between theory and policy in this final section of the chapter.
 
@@ -988,7 +974,7 @@ Exchange Rate Regimes and Nominal Anchors This table illustrates the possible ex
 
 Second, whatever target choice is made, a country that commits to a target as a way of nominal anchoring is committing itself to set future money supplies and interest rates in such a way as to meet the target. Only one path for future policy will be compatible with the target in the long run. Thus, a country with a nominal anchor sacrifices monetary policy autonomy in the long run.
 
-# APPLICATION
+## APPLICATION
 
 # Nominal Anchors in Theory and Practice
 

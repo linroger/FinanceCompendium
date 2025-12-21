@@ -1,368 +1,190 @@
 ---
-parent_directory:
-title: "**`31`**"
-tags:
-aliases:
-parent_folder: Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press
-subfolder:
-key_concepts:
+title: "Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (The MIT Press) - The MIT Press - Part 3 (Pages 1001-1434)"
+parent_directory: "Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press"
+formatted: "2025-12-21 08:30:00 AM"
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
+primary_tags:
+  - mortgage backed securities
+  - prepayment risk
+  - collateralized mortgage obligations
+secondary_tags:
+  - pass through securities
+  - extension risk
+  - contraction risk
+  - conditional prepayment rate
+  - single monthly mortality rate
+  - psa benchmark
 cssclasses: academia
-linter-yaml-title-alias: "**`31`**"
 ---
 
----
-title: "Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press - Part 3 (pages 1001-1434)"
-source: "Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press - Part 3 (pages 1001-1434).pdf"
-converted: "2025-11-28T13:34:50.053522"
-type: document
----
+Now let's look at what happens if mortgage rates rise to 9.5%. The price of the pass-through, like the price of any bond, will decline. But again, it will decline more, because the higher rates will tend to slow down the rate of prepayment, in effect increasing the amount invested at the coupon rate, which is lower than the market rate. Prepayments will slow down, because homeowners will not refinance or partially prepay their mortgages when mortgage rates are higher than the contractual rate of 7.5%. Of course, it is just the time when investors want prepayments to speed up, so that they can reinvest the prepayments at the higher market interest rate. This adverse consequence of rising mortgage rates is called **extension risk**.
 
-Now let's look at what happens if mortgage rates rise to 9.5%. The price
+Therefore, prepayment risk encompasses contraction risk and extension risk. Prepayment risk makes pass-throughs unattractive for certain financial institutions to hold from an asset/liability perspective. Let's look at why particular institutional investors may find pass-throughs unattractive:
 
-- f the pass-through, like the price of any bond, will decline. But again, it will
-decline more, because the higher rates will tend to slow down the rate of
-prepayment, in effect increasing the amount invested at the coupon rate,
-which is lower than the market rate. Prepayments will slow down, because
-homeowners will not refinance or partially prepay their mortgages when
-mortgage rates are higher than the contractual rate of 7.5%. Of course, it is
-just the time when investors want prepayments to speed up, so that they can
-reinvest the prepayments at the higher market interest rate. This adverse
-consequence of rising mortgage rates is called **extension risk** .
+1. Thrifts and commercial banks, as explained in chapter 4, want to lock in a spread over their cost of funds. Their funds are raised on a short-term basis. If they invest in fixed-rate pass-through securities, they mismatch, because a pass-through is a longer-term security. In particular, depository institutions are exposed to extension risk when they invest in pass-through securities.
 
-Therefore, prepayment risk encompasses contraction risk and extension
+2. To satisfy certain obligations of insurance companies, pass-through securities may be unattractive. More specifically, let's consider a life insurance company that has issued a four-year guaranteed investment contract. The uncertainty about the cash flow from a pass-through security, and the likelihood that slow prepayments will result in the instrument being long term, make it an unappealing investment vehicle for such accounts. In such instances, a pass-through security exposes the insurance company to extension risk.
 
-risk. Prepayment risk makes pass-throughs unattractive for certain financial
+3. A pension fund may want to fund a 15-year liability. Buying a pass-through security exposes the pension fund to the risk that prepayments will speed up and that the maturity of the investment will shorten to considerably less than 15 years. Prepayments speed up when interest rates decline, thereby forcing reinvestment of the prepaid amounts at a lower interest rate. In this case, the pension fund is open to contraction risk.
 
-institutions to hold from an asset/liability perspective. Let's look at why
+We can see that some institutional investors are concerned with extension risk and others with contraction risk when they purchase a pass-through security. Altering the cash flow of a pass-through so as to reduce the contraction risk and extension risk for institutional investors is explained later in this chapter when we cover CMOs.
 
-particular institutional investors may find pass-throughs unattractive:
+**Prepayment conventions** The only way to project a cash flow is to make some assumption about the prepayment rate over the life of the underlying mortgage pool. The prepayment rate assumed is called the **prepayment speed**, or simply, **speed**.
 
-1. Thrifts and commercial banks, as explained in chapter 4, want to lock
-in a spread over their cost of funds. Their funds are raised on a shortterm basis. If they invest in fixed-rate pass-through securities, they
-mismatch, because a pass-through is a longer-term security. In
-particular, depository institutions are exposed to extension risk when
-they invest in pass-through securities.
+The **conditional prepayment rate** (CPR) assumes that some fraction of the remaining principal in the pool is prepaid each year for the remaining term of the mortgage. The prepayment rate assumed for a pool is based on the characteristics of the pool (including its historical prepayment experience) and the current and expected future economic environment. It is referred to as a "conditional rate," because it is conditional on the remaining mortgage balance.
 
-2. To satisfy certain obligations of insurance companies, pass-through
-securities may be unattractive. More specifically, let's consider a life
-insurance company that has issued a four-year guaranteed investment
-contract. The uncertainty about the cash flow from a pass-through
-security, and the likelihood that slow prepayments will result in the
-instrument being long term, make it an unappealing investment vehicle
-for such accounts. In such instances, a pass-through security exposes
-the insurance company to extension risk.
+The CPR is an annual prepayment rate. To estimate monthly prepayments, the CPR must be converted into a monthly prepayment rate, commonly referred to as the **single-monthly mortality rate** (SMM). The following formula can be used to determine the SMM for a given CPR:
 
-3. A pension fund may want to fund a 15-year liability. Buying a passthrough security exposes the pension fund to the risk that prepayments
-will speed up and that the maturity of the investment will shorten to
-considerably less than 15 years. Prepayments speed up when interest
-rates decline, thereby forcing reinvestment of the prepaid amounts at a
+$$
+SMM = 1 - (1 - CPR)^{1/12}
+$$
 
-lower interest rate. In this case, the pension fund is open to contraction
+Suppose that the CPR used to estimate prepayments is 6%. The corresponding SMM is 0.5143%.
 
-risk.
+An SMM of _w_ % means that approximately _w_ % of the remaining mortgage balance at the beginning of the month, less the scheduled principal payment, will prepay that month. That is,
 
-We can see that some institutional investors are concerned with extension
+$$
+\text{Prepayment} = SMM \times (\text{Beginning Balance} - \text{Scheduled Principal Payment})
+$$
 
-risk and others with contraction risk when they purchase a pass-through
+For example, suppose that an investor owns a pass-through in which the remaining mortgage balance at the beginning of some month is \$290 million. Assuming that the SMM is 0.5143% and the scheduled principal payment is \$3 million, the estimated prepayment for the month is
 
-security. Altering the cash flow of a pass-through so as to reduce the
-
-contraction risk and extension risk for institutional investors is explained
-
-later in this chapter when we cover CMOs.
-
-**`Prepayment conventions`** The only way to project a cash flow is to make
-some assumption about the prepayment rate over the life of the underlying
-mortgage pool. The prepayment rate assumed is called the **prepayment**
-**speed**, or simply, **speed** .
-
-The **conditional prepayment rate** (CPR) assumes that some fraction of
-
-the remaining principal in the pool is prepaid each year for the remaining
-
-term of the mortgage. The prepayment rate assumed for a pool is based on
-
-the characteristics of the pool (including its historical prepayment
-
-experience) and the current and expected future economic environment. It is
-
-referred to as a "conditional rate," because it is conditional on the remaining
-
-mortgage balance.
-
-The CPR is an annual prepayment rate. To estimate monthly
-
-prepayments, the CPR must be converted into a monthly prepayment rate,
-
-commonly referred to as the **single-monthly mortality rate** (SMM). The
-
-following formula can be used to determine the SMM for a given CPR:
-
-Suppose that the CPR used to estimate prepayments is 6%. The
-
-corresponding SMM is
-
-An SMM of _w_ % means that approximately _w_ % of the remaining
-
-mortgage balance at the beginning of the month, less the scheduled principal
-
-payment, will prepay that month. That is,
-
-For example, suppose that an investor owns a pass-through in which the
-
-remaining mortgage balance at the beginning of some month is \$290 million.
-
-Assuming that the SMM is 0.5143% and the scheduled principal payment is
-
-\$3 million, the estimated prepayment for the month is
-
-The Public Securities Association (PSA) prepayment benchmark is
-
-expressed as a monthly series of annual prepayment rates. The PSA
-
-benchmark assumes that prepayment rates are low for newly originated
-
-mortgages and then speed up as the mortgages become seasoned.
+The Public Securities Association (PSA) prepayment benchmark is expressed as a monthly series of annual prepayment rates. The PSA benchmark assumes that prepayment rates are low for newly originated mortgages and then speed up as the mortgages become seasoned.
 
 The PSA benchmark assumes the following CPRs for 30-year mortgages:
 
-1. A CPR of 0.2% for the first month, increased by 0.2% per year per
-month for the next 30 months, when it reaches 6% per year.
+1. A CPR of 0.2% for the first month, increased by 0.2% per year per month for the next 30 months, when it reaches 6% per year.
 
 2. A 6% CPR for the remaining years.
 
-This benchmark, referred to as "100% PSA," or simply, "100 PSA," is
+This benchmark, referred to as "100% PSA," or simply, "100 PSA," is graphically depicted in figure 30.2. Mathematically, 100 PSA can be expressed as follows:
 
-graphically depicted in figure 30.2. Mathematically, 100 PSA can be
-
-expressed as follows:
-
-if _t_ ≤ 30, then CPR = 6% ( _t_ /30),
-
-if _t_ - 30, then CPR = 6%,
+$$
+\begin{cases}
+\text{CPR} = 6\% \times \left(\frac{t}{30}\right) & \text{if } t \leq 30 \\
+\text{CPR} = 6\% & \text{if } t > 30
+\end{cases}
+$$
 
 where _t_ is the number of months since the mortgage originated.
 
 ```
 Figure 30.2
-
 ```
 
 Graphical depiction of 100 PSA.
 
 Slower or faster speeds are then referred to as some percentage of PSA.
 
-For example, "50 PSA" means one-half the CPR of the PSA benchmark
+For example, "50 PSA" means one-half the CPR of the PSA benchmark prepayment rate; "150 PSA" means one and a half times the CPR of the PSA benchmark prepayment rate; "300 PSA" means three times the CPR of the benchmark prepayment rate. A prepayment rate of 0 PSA means that no prepayments are assumed.
 
-prepayment rate; "150 PSA" means one and a half times the CPR of the PSA
-
-benchmark prepayment rate; "300 PSA" means three times the CPR of the
-
-benchmark prepayment rate. A prepayment rate of 0 PSA means that no
-
-prepayments are assumed.
-
-The CPR is converted to an SMM using equation (30.1). For example,
-
-the SMMs for month 5, month 20, and months 31 through 360 assuming 100
-
-PSA are calculated as follows:
+The CPR is converted to an SMM using equation (30.1). For example, the SMMs for month 5, month 20, and months 31 through 360 assuming 100 PSA are calculated as follows:
 
 For month 5:
 
+$$
+\text{CPR} = 6\% \times \frac{5}{30} = 1.0\%, \quad SMM = 1 - (1 - 0.01)^{1/12} \approx 0.0083\%
+$$
+
 For month 20:
+
+$$
+\text{CPR} = 6\% \times \frac{20}{30} = 4.0\%, \quad SMM = 1 - (1 - 0.04)^{1/12} \approx 0.0340\%
+$$
 
 For months 31 to 360:
 
-Assuming 165 PSA, the SMMs for month 5, month 20, and months 31
+$$
+\text{CPR} = 6\%, \quad SMM = 1 - (1 - 0.06)^{1/12} \approx 0.0051\%
+$$
 
-through 360 are computed as follows:
+Assuming 165 PSA, the SMMs for month 5, month 20, and months 31 through 360 are computed as follows:
 
 For month 5:
 
+$$
+\text{CPR} = 1.65 \times 1.0\% = 1.65\%, \quad SMM = 1 - (1 - 0.0165)^{1/12} \approx 0.0137\%
+$$
+
 For month 20:
+
+$$
+\text{CPR} = 1.65 \times 4.0\% = 6.6\%, \quad SMM = 1 - (1 - 0.066)^{1/12} \approx 0.0562\%
+$$
 
 For months 31 to 360:
 
-Notice that the SMM assuming 165 PSA is not just 1.65 times the SMM
+$$
+\text{CPR} = 1.65 \times 6\% = 9.9\%, \quad SMM = 1 - (1 - 0.099)^{1/12} \approx 0.0846\%
+$$
 
-assuming 100 PSA. It is the CPR that is a multiple of the CPR assuming 100
+Notice that the SMM assuming 165 PSA is not just 1.65 times the SMM assuming 100 PSA. It is the CPR that is a multiple of the CPR assuming 100 PSA.
 
-PSA.
-
-**`Illustration of monthly cash flow construction`** We now show how
-to construct a monthly cash flow for a hypothetical pass-through given a
-PSA assumption. For the purpose of this illustration, the underlying
-mortgages for this hypothetical pass-through are assumed to be fixed-rate,
-level-payment mortgages, and the pass-through rate is assumed to be 7.5%.
-Furthermore, it is assumed that the weighted average maturity (WAM) of the
-pool of mortgages is 357 months. [1]
+**Illustration of monthly cash flow construction** We now show how to construct a monthly cash flow for a hypothetical pass-through given a PSA assumption. For the purpose of this illustration, the underlying mortgages for this hypothetical pass-through are assumed to be fixed-rate, level-payment mortgages, and the pass-through rate is assumed to be 7.5%. Furthermore, it is assumed that the weighted average maturity (WAM) of the pool of mortgages is 357 months. [1]
 
 Table 30.1 shows the cash flow for selected months assuming 100 PSA.
 
-The cash flow breaks down into three components: (1) interest (based on the
-
-pass-through rate), (2) the regularly scheduled principal repayment, and (3)
-
-prepayments based on 100 PSA.
+The cash flow breaks down into three components: (1) interest (based on the pass-through rate), (2) the regularly scheduled principal repayment, and (3) prepayments based on 100 PSA.
 
 ```
 Table 30.1
-
 ```
 
 Monthly cash flow for a \$400 million pass-through security (assuming 100 PSA).
 
 Let's walk through table 30.1 column by column:
 
- - Column 1 ("Month"): This indicates the month.
- - Column 2 ("Outstanding Balance"): The outstanding mortgage
-balance at the beginning of the month equals the outstanding balance at
-the beginning of the previous month reduced by the total principal
-payment in the previous month.
+- Column 1 ("Month"): This indicates the month.
+- Column 2 ("Outstanding Balance"): The outstanding mortgage balance at the beginning of the month equals the outstanding balance at the beginning of the previous month reduced by the total principal payment in the previous month.
 
- - Column 3 ("SMM," Single-Monthly Mortality): The SMM for 100
-PSA changes, based on the assumptions for the CPR. Two aspects of
-this column should be noted. First, for month 1, the SMM is for a passthrough that has seasoned three months; that is, the CPR is 0.8%,
-because the WAM is 357. Second, from month 27 on, the SMM is
-0.00514, which corresponds to a CPR of 6%.
+- Column 3 ("SMM," Single-Monthly Mortality): The SMM for 100 PSA changes, based on the assumptions for the CPR. Two aspects of this column should be noted. First, for month 1, the SMM is for a pass-through that has seasoned three months; that is, the CPR is 0.8%, because the WAM is 357. Second, from month 27 on, the SMM is 0.00514, which corresponds to a CPR of 6%.
 
- - Column 4 ("Mortgage Payment"): The total monthly mortgage
-payment declines over time as prepayments reduce the mortgage
-balance outstanding. A formula determines what the monthly balance
-will be for each month given prepayments. [2]
+- Column 4 ("Mortgage Payment"): The total monthly mortgage payment declines over time as prepayments reduce the mortgage balance outstanding. A formula determines what the monthly balance will be for each month given prepayments. [2]
 
- - Column 5 ("Net Interest"): The monthly interest paid to the passthrough investor is determined by multiplying the outstanding mortgage
-balance at the beginning of the month by the pass-through rate of 7.5%
-and dividing by 12.
+- Column 5 ("Net Interest"): The monthly interest paid to the pass-through investor is determined by multiplying the outstanding mortgage balance at the beginning of the month by the pass-through rate of 7.5% and dividing by 12.
 
- - Column 6 ("Scheduled Principal"): The regularly scheduled principal
-repayment is the difference between the total monthly mortgage
-payment (the amount shown in column 4) and the gross coupon interest
-for the month. The gross coupon interest is 8.125% multiplied by the
+- Column 6 ("Scheduled Principal"): The regularly scheduled principal repayment is the difference between the total monthly mortgage payment (the amount shown in column 4) and the gross coupon interest for the month. The gross coupon interest is 8.125% multiplied by the outstanding mortgage balance at the beginning of the month, then divided by 12.
 
- - utstanding mortgage balance at the beginning of the month, then
-divided by 12.
+- Column 7 ("Prepayment"): The prepayment for the month is found by using equation (30.2). So, for example, in month 100, the beginning mortgage balance is \$231,249,776, the scheduled principal payment is \$332,298, and the SMM at 100 PSA is 0.00514301 (only 0.00514 is shown in the table, to save space), so the prepayment is 1.00514301($231,249,776 − $332,928) = \$1,187,608.
 
- - Column 7 ("Prepayment"): The prepayment for the month is found
-by using equation (30.2). So, for example, in month 100, the beginning
-mortgage balance is \$231,249,776, the scheduled principal payment is
-\$332,298, and the SMM at 100 PSA is 0.00514301 (only 0.00514 is
-shown in the table, to save space), so the prepayment is
-1.00514301($231,249,776 − $332,928) = \$1,187,608.
+- Column 8 ("Total Principal"): The total principal payment combines the scheduled principal payment and the prepayment amounts from columns 6 and 7.
 
-   - Column 8 ("Total Principal"): The total principal payment combines
-the scheduled principal payment and the prepayment amounts from
-columns 6 and 7.
+- Column 9 ("Total Cash Flow"): The projected monthly cash flow for this pass-through is the sum of the interest paid to the pass-through investor in column 5 and the total principal payments for the month in column 8.
 
-   - Column 9 ("Total Cash Flow"): The projected monthly cash flow for
-this pass-through is the sum of the interest paid to the pass-through
-investor in column 5 and the total principal payments for the month in
-column 8.
-
-Table 30.2 shows selected monthly cash flows for the same pass-through
-
-but assuming 165 PSA.
+Table 30.2 shows selected monthly cash flows for the same pass-through but assuming 165 PSA.
 
 ```
 Table 30.2
-
 ```
 
 Monthly cash flow for a \$400 million pass-through security (assuming 165 PSA).
 
-**`Average Life`** The stated maturity of a mortgage pass-through security is
-an inappropriate measure of the security's life because of prepayments.
-Instead, market participants commonly use the security's average life. The
-**average life** - f an MBS is the average time to receipt of principal payments
-(scheduled principal payments and projected prepayments), weighted by the
-amount of principal expected. Mathematically, the average life is expressed
-as follows:
+**Average Life** The stated maturity of a mortgage pass-through security is an inappropriate measure of the security's life because of prepayments. Instead, market participants commonly use the security's average life. The **average life** of an MBS is the average time to receipt of principal payments (scheduled principal payments and projected prepayments), weighted by the amount of principal expected. Mathematically, the average life is expressed as follows:
+
+$$
+\text{Average Life} = \frac{\sum_{t=1}^{T} t \times \text{Principal Payment}_t}{\sum_{t=1}^{T} \text{Principal Payment}_t}
+$$
 
 where _T_ is the number of months.
 
-The average life of a pass-through depends on the PSA prepayment
-
-assumption. To see this, the average life (in years) is shown below for
-
-different prepayment speeds for the pass-through used to illustrate the cash
-
-flow for 100 PSA and 165 PSA in table 30.1 and table 30.2:
+The average life of a pass-through depends on the PSA prepayment assumption. To see this, the average life (in years) is shown below for different prepayment speeds for the pass-through used to illustrate the cash flow for 100 PSA and 165 PSA in table 30.1 and table 30.2:
 
 PSA speed 50 100 165 200 300 400 500 600 700
 
 Average life 15.11 11.66 8.76 7.68 5.63 4.44 3.68 3.16 2.78
 
-```
-U.S. Agency CMOs
+## U.S. Agency CMOs
 
-```
+Some institutional investors are concerned with extension risk and others with contraction risk when they invest in a pass-through. This problem can be mitigated by redirecting the cash flows of mortgage pass-through securities to different bond classes, called **tranches**, so as to create securities that have different exposure to prepayment risk and, therefore, risk/return patterns that differ from those of the pass-through securities from which the tranches were created.
 
-Some institutional investors are concerned with extension risk and others
+When the cash flows of pools of mortgage pass-through securities are redistributed to different bond classes, the resulting securities are called **agency collateralized mortgage obligations**. The creation of an agency CMO cannot eliminate prepayment risk; it can only distribute the various forms of this risk among different classes of bondholders. The CMO's major financial innovation is that the securities created more closely satisfy the asset/liability needs of institutional investors and thus broaden the appeal of mortgage-backed products to traditional bond investors.
 
-with contraction risk when they invest in a pass-through. This problem can
+Rather than list the different types of tranches that can be created in a CMO structure, we show how the tranches can be created as an illustration of financial engineering. Although many different types of CMOs have been created, we look at just three of the key innovations in the CMO market: sequential-pay tranches, accrual tranches, and planned amortization class tranches. Two other important tranches that are not illustrated here are the floating-rate tranche and the inverse floating-rate tranche.
 
-be mitigated by redirecting the cash flows of mortgage pass-through
+**Sequential-pay tranches** The first CMO was created in 1983 and was structured so that each class of bond would be retired sequentially. Such structures are referred to as **sequential-pay CMOs**. To illustrate a sequential-pay CMO, we discuss CMO-1, a hypothetical deal made up to illustrate the basic features of the structure. The collateral for this hypothetical CMO is a pass-through with a total par value of \$400 million and the following characteristics: (1) the pass-through coupon rate is 7.5%, (2) the WAC is 8.125%, and (3) the WAM is 357 months. We used this same pass-through earlier in the chapter to describe the cash flow of a pass-through based on some PSA assumptions.
 
-securities to different bond classes, called **tranches**, so as to create securities
-
-that have different exposure to prepayment risk and, therefore, risk/return
-
-patterns that differ from those of the pass-through securities from which the
-
-tranches were created.
-
-When the cash flows of pools of mortgage pass-through securities are
-
-redistributed to different bond classes, the resulting securities are called
-
-**agency collateralized mortgage obligations** . The creation of an agency
-
-CMO cannot eliminate prepayment risk; it can only distribute the various
-
-forms of this risk among different classes of bondholders. The CMO's major
-
-financial innovation is that the securities created more closely satisfy the
-
-asset/liability needs of institutional investors and thus broaden the appeal of
-
-mortgage-backed products to traditional bond investors.
-
-Rather than list the different types of tranches that can be created in a
-
-CMO structure, we show how the tranches can be created as an illustration
-
-- f financial engineering. Although many different types of CMOs have been
-created, we look at just three of the key innovations in the CMO market:
-sequential-pay tranches, accrual tranches, and planned amortization class
-tranches. Two other important tranches that are not illustrated here are the
-floating-rate tranche and the inverse floating-rate tranche.
-
-**`Sequential-pay tranches`** The first CMO was created in 1983 and was
-structured so that each class of bond would be retired sequentially. Such
-structures are referred to as **sequential-pay CMOs** . To illustrate a
-sequential-pay CMO, we discuss CMO-1, a hypothetical deal made up to
-illustrate the basic features of the structure. The collateral for this
-
-hypothetical CMO is a pass-through with a total par value of \$400 million
-
-and the following characteristics: (1) the pass-through coupon rate is 7.5%,
-
-(2) the WAC is 8.125%, and (3) the WAM is 357 months. We used this same
-
-pass-through earlier in the chapter to describe the cash flow of a passthrough based on some PSA assumptions.
-
-From this \$400 million of collateral, four bond classes or tranches are
-
-created. Their characteristics are summarized in table 30.3. The total par
-
-value of the four tranches is equal to the par value of the collateral (i.e., the
-
-pass-through security). In this simple structure, the coupon rate is the same
-
-for each tranche and is also the same as the coupon rate on the collateral. In
-
-reality, the coupon rate typically varies by tranche.
+From this \$400 million of collateral, four bond classes or tranches are created. Their characteristics are summarized in table 30.3. The total par value of the four tranches is equal to the par value of the collateral (i.e., the pass-through security). In this simple structure, the coupon rate is the same for each tranche and is also the same as the coupon rate on the collateral. In reality, the coupon rate typically varies by tranche.
 
 ```
 Table 30.3
@@ -382,105 +204,25 @@ D 73,000,000 7.5
 
 Total 400,000,000
 
-_Notes:_ The payment rules are as follows. 1. For payment of periodic coupon interest: Disburse periodic coupon
+_Notes:_ The payment rules are as follows. 1. For payment of periodic coupon interest: Disburse periodic coupon interest to each tranche based on the amount of principal outstanding at the beginning of the period. 2. For disbursement of principal payments: Disburse principal payments to tranche A until it is completely paid off. After tranche A is completely paid off, disburse principal payments to tranche B until it is completely paid off. After tranche B is completely paid off, disburse principal payments to tranche C until it is completely paid off. After tranche C is completely paid off, disburse principal payments to tranche D until it is completely paid off.
 
-interest to each tranche based on the amount of principal outstanding at the beginning of the period. 2. For
+We recall here that a CMO is created by redistributing the cash flow—interest and principal—to the different tranches based on a set of payment rules. The payment rules in the note at the bottom of table 30.3 describe how the cash flow from the pass-through (i.e., collateral) is to be distributed to the four tranches. Separate rules determine the payment of the coupon interest and the payment of the principal, the principal being the total of the regularly scheduled principal payment and any prepayments.
 
-disbursement of principal payments: Disburse principal payments to tranche A until it is completely paid off. After
+In CMO-1, each tranche receives periodic coupon interest payments based on the amount of the outstanding balance at the beginning of the month. The disbursement of the principal, however, is made in a special way. A tranche is not entitled to receive principal until the entire principal of the tranche before it in the priority structure is paid off. More specifically, tranche A receives all the principal payments until the entire principal amount owed to that bond class, \$194,500,000, is paid off; then tranche B begins to receive principal and continues to do so until it is paid the entire \$36,000,000. Tranche C then receives principal, and when it is paid off, tranche D starts receiving principal payments.
 
-tranche A is completely paid off, disburse principal payments to tranche B until it is completely paid off. After
+Although the priority rules for the disbursement of the principal payments are known, the precise amount of the principal in each period is not. This amount depends on the cash flow and therefore on the principal payments of the collateral, which depend on the actual prepayment rate of the collateral. An assumed PSA speed allows the cash flow to be projected.
 
-tranche B is completely paid off, disburse principal payments to tranche C until it is completely paid off. After
+Table 30.2 shows the cash flow (interest, regularly scheduled principal repayment, and prepayments) assuming 165 PSA. Assuming that the collateral does prepay at 165 PSA, the cash flow available to all four tranches in CMO-1 will be precisely the cash flow shown in table 30.2.
 
-tranche C is completely paid off, disburse principal payments to tranche D until it is completely paid off.
-
-We recall here that a CMO is created by redistributing the cash flow—
-
-interest and principal—to the different tranches based on a set of payment
-
-rules. The payment rules in the note at the bottom of table 30.3 describe how
-
-the cash flow from the pass-through (i.e., collateral) is to be distributed to
-
-the four tranches. Separate rules determine the payment of the coupon
-
-interest and the payment of the principal, the principal being the total of the
-
-regularly scheduled principal payment and any prepayments.
-
-In CMO-1, each tranche receives periodic coupon interest payments
-
-based on the amount of the outstanding balance at the beginning of the
-
-month. The disbursement of the principal, however, is made in a special
-
-way. A tranche is not entitled to receive principal until the entire principal of
-
-the tranche before it in the priority structure is paid off. More specifically,
-
-tranche A receives all the principal payments until the entire principal
-
-amount owed to that bond class, \$194,500,000, is paid off; then tranche B
-
-begins to receive principal and continues to do so until it is paid the entire
-
-\$36,000,000. Tranche C then receives principal, and when it is paid off,
-
-tranche D starts receiving principal payments.
-
-Although the priority rules for the disbursement of the principal
-
-payments are known, the precise amount of the principal in each period is
-
-not. This amount depends on the cash flow and therefore on the principal
-
-payments of the collateral, which depend on the actual prepayment rate of
-
-the collateral. An assumed PSA speed allows the cash flow to be projected.
-
-Table 30.2 shows the cash flow (interest, regularly scheduled principal
-
-repayment, and prepayments) assuming 165 PSA. Assuming that the
-
-collateral does prepay at 165 PSA, the cash flow available to all four
-
-tranches in CMO-1 will be precisely the cash flow shown in table 30.2.
-
-To demonstrate how the priority rules for CMO-1 work, table 30.4 shows
-
-the cash flow for selected months, assuming the collateral prepays at 165
-
-PSA. For each tranche, the table shows (1) the balance at the end of the
-
-month, (2) the principal paid down (regularly scheduled principal repayment
-
-plus prepayments), and (3) interest. In month 1, the cash flow for the
-
-collateral consists of a principal payment of \$709,923 and an interest
-
-payment of \$2.5 million (0.075 × \$400 million/12). The interest payment is
-
-distributed to the four tranches based on the amount of the par value
-
-- utstanding. So, for example, tranche A receives \$1,215,625 (0.075 ×
-\$194,500,000/12) of the \$2.5 million. The principal, however, is all
-distributed to tranche A. Therefore, the cash flow for tranche A in month 1 is
-\$1,925,548. The principal balance at the end of month 1 for tranche A is
-\$193,790,076 (Original principal balance of \$194,500,000 − Principal
-payment of \$709,923). No principal payment is distributed to the three other
-tranches, because a principal balance is still outstanding for tranche A. This
-scenario will be true for months 2 through 80.
+To demonstrate how the priority rules for CMO-1 work, table 30.4 shows the cash flow for selected months, assuming the collateral prepays at 165 PSA. For each tranche, the table shows (1) the balance at the end of the month, (2) the principal paid down (regularly scheduled principal repayment plus prepayments), and (3) interest. In month 1, the cash flow for the collateral consists of a principal payment of \$709,923 and an interest payment of \$2.5 million (0.075 × \$400 million/12). The interest payment is distributed to the four tranches based on the amount of the par value outstanding. So, for example, tranche A receives \$1,215,625 (0.075 × \$194,500,000/12) of the \$2.5 million. The principal, however, is all distributed to tranche A. Therefore, the cash flow for tranche A in month 1 is \$1,925,548. The principal balance at the end of month 1 for tranche A is \$193,790,076 (Original principal balance of \$194,500,000 − Principal payment of \$709,923). No principal payment is distributed to the three other tranches, because a principal balance is still outstanding for tranche A. This scenario will be true for months 2 through 80.
 
 ```
 Table 30.4
-
 ```
 
 Monthly cash flow for selected months for CMO-1 (assuming 165 PSA).
 
-After month 81, the principal balance will be zero for tranche A. For the
-
-collateral, the cash flow in month 81 is \$3,318,521, consisting of a principal
+After month 81, the principal balance will be zero for tranche A. For the collateral, the cash flow in month 81 is \$3,318,521, consisting of a principal
 
 payment of \$2,032,196 and an interest payment of \$1,286,325. At the
 
@@ -535,9 +277,7 @@ Table 30.5
 
 Average life for the collateral and the four tranches of CMO-1 (years).
 
-A major problem remains: The average life for the tranches varies
-
-considerably. We see how this issue can be tackled later in this chapter.
+A major problem remains: The average life for the tranches varies considerably. We see how this issue can be tackled later in this chapter.
 
 However, some protection is provided for each tranche against prepayment
 
@@ -590,7 +330,7 @@ Z (Accrual) 73,000,000 7.5
 
 Total 400,000,000
 
-_Notes_ : Payment rules: 1. For payment of periodic coupon interest: Disburse periodic coupon interest to tranches A,
+_Notes:_ Payment rules: 1. For payment of periodic coupon interest: Disburse periodic coupon interest to tranches A,
 
 B, and C based on the amount of principal outstanding at the beginning of the period. For tranche Z, accrue the
 
@@ -658,9 +398,7 @@ including an accrual bond. The accrual bond appeals to investors who are
 
 concerned with reinvestment risk. The lack of coupon payments that must be
 
-reinvested eliminates reinvestment risk until all the other tranches are paid
-
-- ff.
+reinvested eliminates reinvestment risk until all the other tranches are paid off.
 
 **`Planned amortization class tranches`** In the 1980s, many investors
 were still concerned about investing in an instrument they continued to
@@ -684,10 +422,9 @@ as **planned amortization class (PAC) bonds**, occurs because of a principal
 
 repayment schedule that must be satisfied. PAC bond-holders take priority
 
-- ver all other classes in the CMO issue in receiving principal payments from
+over all other classes in the CMO issue in receiving principal payments from
 the underlying collateral. The greater certainty of the cash flow for the PAC
-bonds comes at the expense of the non-PAC classes, called the **support** - r
-**companion bonds** . These bonds absorb the prepayment risk. Because PAC
+bonds comes at the expense of the non-PAC classes, called the **support or companion bonds**. These bonds absorb the prepayment risk. Because PAC
 bonds have protection against both extension risk and contraction risk, they
 are said to provide **two-sided prepayment protection** .
 
@@ -789,7 +526,7 @@ Month At 90 PSA ($) At 300 PSA ($) Minimum Principal Payment—PAC Schedule ($)
 
 357 601,489.39 10,029.78 0
 
-_Note_ : Pass-through rate = 7.5%; WAC = 8.125%; WAM = 357 months.
+_Note:_ Pass-through rate = 7.5%; WAC = 8.125%; WAM = 357 months.
 
 The last column of table 30.7 gives the _minimum_ principal payment if the
 
@@ -871,7 +608,7 @@ S (Support) 156,200,000 7.5
 
 Total 400,000,000
 
-_Note_ : Payment rules: 1. For payment of periodic coupon interest: Disburse periodic coupon interest to each tranche
+_Note:_ Payment rules: 1. For payment of periodic coupon interest: Disburse periodic coupon interest to each tranche
 
 based on the amount of principal outstanding at the beginning of the period. 2. For disbursement of principal
 

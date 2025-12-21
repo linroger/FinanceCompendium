@@ -1,18 +1,36 @@
 ---
-parent_directory:
-title: "Re: Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank"
-tags:
-aliases:
-parent_folder: Class 9-Bailouts and Bank Failures
-subfolder:
-key_concepts:
+title: "Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank"
+parent_directory: Class 9-Bailouts and Bank Failures
+formatted: 2025-12-21 05:05:00 AM
+formatter_model: obsidian-formatting-agent
+cli-tool: claude-code
+primary_tags:
+  - federal reserve supervision
+  - silicon valley bank failure
+  - banking regulation review
+secondary_tags:
+  - interest rate risk management
+  - liquidity risk oversight
+  - governance and controls
+  - enhanced prudential standards
+  - tailoring framework review
+  - bank holding company regulation
+  - supervisory rating systems
+  - capital and liquidity requirements
+  - stress testing protocols
+  - incentive compensation programs
+  - rapid bank growth risks
+  - uninsured deposit vulnerabilities
+  - technology sector banking
+  - venture capital financing
+  - market risk assessment
+  - regulatory transition periods
 cssclasses: academia
-linter-yaml-title-alias: "Re: Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank"
 ---
 
 April 28, 2023
 
-# Re: Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank
+# Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank
 
 Silicon Valley Bank (SVB) failed because of a textbook case of mismanagement by the bank. Its senior leadership failed to manage basic interest rate and liquidity risk. Its board of directors failed to oversee senior leadership and hold them accountable. And Federal Reserve supervisors failed to take forceful enough action, as detailed in the report.
 
@@ -45,9 +63,7 @@ In SVB's case, the firm's rapid growth but slow transition to heightened standar
 
 Within our supervisory structure, we should introduce more continuity between the portfolios, so that as a bank grows in size and changes its supervisory portfolio, the bank will be ready to comply with heightened regulatory and supervisory standards more quickly, rather than providing a long transition to comply with those heightened standards.
 
-We also need to be attentive to the particular risks that firms with rapid growth, concentrated business models, or other special factors might pose regardless of asset size. As I have previously announced, the Federal Reserve has begun to build a dedicated novel activity supervisory group to focus on the risks of novel activities (such as fintech or crypto activities) as a complement to existing supervisory teams. As we do so, we will
-
-identify whether there are other risk factors—such as high growth or concentration—that warrant additional supervisory attention.
+We also need to be attentive to the particular risks that firms with rapid growth, concentrated business models, or other special factors might pose regardless of asset size. As I have previously announced, the Federal Reserve has begun to build a dedicated novel activity supervisory group to focus on the risks of novel activities (such as fintech or crypto activities) as a complement to existing supervisory teams. As we do so, we will identify whether there are other risk factors—such as high growth or concentration—that warrant additional supervisory attention.
 
 Once issues are identified, they should be addressed more quickly, both by the bank and by supervisors. Today, for example, the Federal Reserve generally does not require additional capital or liquidity beyond regulatory requirements for a firm with inadequate capital planning, liquidity risk management, or governance and controls. We need to change that in appropriate cases. Higher capital or liquidity requirements can serve as an important safeguard until risk controls improve, and they can focus management's attention on the most critical issues. As a further example, limits on capital distributions or incentive compensation could be appropriate and effective in some cases.
 
@@ -101,17 +117,53 @@ The Federal Reserve System is the central bank of the United States. It performs
 
 # The Federal Reserve
 
-■ conducts the nation's monetary policy to promote maximum employment and stable prices in the U.S. economy;  
-promotes the stability of the financial system and seeks to minimize and contain systemic risks through active monitoring and engagement in the U.S. and abroad;  
-promotes the safety and soundness of individual financial institutions and monitors their impact on the financial system as a whole;  
-■ fosters payment and settlement system safety and efficiency through services to the banking industry and the U.S. government that facilitate U.S.-dollar transactions and payments; and  
-promotes consumer protection and community development through consumer-focused supervision and examination, research and analysis of emerging consumer issues and trends, community economic development activities, and administration of consumer laws and regulations.
+- conducts the nation's monetary policy to promote maximum employment and stable prices in the U.S. economy;
+- promotes the stability of the financial system and seeks to minimize and contain systemic risks through active monitoring and engagement in the U.S. and abroad;
+- promotes the safety and soundness of individual financial institutions and monitors their impact on the financial system as a whole;
+- fosters payment and settlement system safety and efficiency through services to the banking industry and the U.S. government that facilitate U.S.-dollar transactions and payments; and
+- promotes consumer protection and community development through consumer-focused supervision and examination, research and analysis of emerging consumer issues and trends, community economic development activities, and administration of consumer laws and regulations.
 
 To learn more about us, visit www.federalreserve.gov/aboutthefed.htm.
 
 # Key Takeaways
 
 This report examines the factors that contributed to the failure of Silicon Valley Bank. The report focuses on the role of the Federal Reserve, which was the primary federal supervisor for the bank and the bank holding company.
+
+```d2
+direction: right
+
+# Key Factors Contributing to SVB's Failure
+failure_factors: Key Factors Leading to SVB Failure {
+  governance: Governance Failures {
+    board: Board Oversight Weaknesses
+    management: Management Risk Management Failures
+    incentives: Poor Incentive Compensation
+  }
+
+  risks: Core Risk Management Issues {
+    liquidity: Liquidity Risk Management Deficiencies
+    interest_rate: Interest Rate Risk Management Weaknesses
+    concentration: High Concentration in Uninsured Deposits
+  }
+
+  supervision: Federal Reserve Supervision Issues {
+    identification: Slow Risk Identification
+    action: Delayed Supervisory Action
+    tailoring: Tailoring Framework Reduced Standards
+  }
+
+  environment: External Environment {
+    rates: Rising Interest Rates
+    tech: Tech Sector Slowdown
+    deposits: Rapid Deposit Outflows
+  }
+}
+
+governance -> risks: Enabled
+risks -> failure_factors: Created Vulnerabilities
+supervision -> risks: Failed to Mitigate
+environment -> risks: Triggered Crisis
+```
 
 There are four key takeaways from the report:
 
@@ -121,11 +173,11 @@ The report shows that Silicon Valley Bank was a highly vulnerable firm in ways t
 
 The full board of directors did not receive adequate information from management about risks at Silicon Valley Bank and did not hold management accountable for effectively managing the firm's risks. The bank failed its own internal liquidity stress tests and did not have workable plans to access liquidity in times of stress. Silicon Valley Bank managed interest rate risks with a focus on short-run profits and protection from potential rate decreases, and removed interest rate hedges, rather than managing long-run risks and the risk of rising rates. In both cases, the bank changed its own risk-management assumptions to reduce how these risks were measured rather than fully addressing the underlying risks.
 
-On March 8, 2023, Silicon Valley Bank announced a balance sheet restructuring that included the sale of certain securities and an intention to raise capital. This occurred during a period of heightened uncertainty for the technology sector, and the bank faced a run by depositors on March 9. Deposit outflows were over  \$40 billion on March 9, and management expected\$ 100 billion more the next day. This unprecedented outflow led the California Department of Financial Protection and Innovation (CDFPI) to close the bank on March 10.
+On March 8, 2023, Silicon Valley Bank announced a balance sheet restructuring that included the sale of certain securities and an intention to raise capital. This occurred during a period of heightened uncertainty for the technology sector, and the bank faced a run by depositors on March 9. Deposit outflows were over \$40 billion on March 9, and management expected \$100 billion more the next day. This unprecedented outflow led the California Department of Financial Protection and Innovation (CDFPI) to close the bank on March 10.
 
 # 2. Supervisors did not fully appreciate the extent of the vulnerabilities as Silicon Valley Bank grew in size and complexity.
 
-While the firm was growing rapidly from  \$71 billion to over\$ 211 billion in assets from 2019 to 2021, it was not subject to heightened supervisory or regulatory standards. The Federal Reserve
+While the firm was growing rapidly from \$71 billion to over \$211 billion in assets from 2019 to 2021, it was not subject to heightened supervisory or regulatory standards. The Federal Reserve
 
 did not appreciate the seriousness of critical deficiencies in the firm's governance, liquidity, and interest rate risk management. These judgments meant that Silicon Valley Bank remained well-rated, even as conditions deteriorated and significant risk to the firm's safety and soundness emerged.
 
@@ -264,7 +316,7 @@ SVBFG management was focused on the short-run impact on profits. SVBFG's interna
 
 # Failure of SVB
 
-As the risks to the firm's balance sheet mounted, SVBFG took steps to address the issues and announced a plan on March 8, 2023, to restructure its balance sheet. SVBFG had sold  \$21 billion in available-for-sale (AFS) securities, was booking a\$ 1.8 billion after-tax loss, was planning to increase term borrowings by \$15 billion to \$30 billion, and was seeking to raise \$2.25 billion in capital. The next day, SVB experienced a bank run as withdrawals of uninsured deposits rapidly accelerated. These deposit outflows reflected fundamental concerns about the bank and appear to have been sparked by a number of interrelated factors: heightened uncertainty and changing sentiment around the technology sector; potential negative action from credit rating agencies; and highly correlated withdrawals from SVBFG's concentrated network of VC investors and technology firms who, fueled by social media, withdrew uninsured deposits in a coordinated manner at an unprecedented rate.
+As the risks to the firm's balance sheet mounted, SVBFG took steps to address the issues and announced a plan on March 8, 2023, to restructure its balance sheet. SVBFG had sold \$21 billion in available-for-sale (AFS) securities, was booking a \$1.8 billion after-tax loss, was planning to increase term borrowings by \$15 billion to \$30 billion, and was seeking to raise \$2.25 billion in capital. The next day, SVB experienced a bank run as withdrawals of uninsured deposits rapidly accelerated. These deposit outflows reflected fundamental concerns about the bank and appear to have been sparked by a number of interrelated factors: heightened uncertainty and changing sentiment around the technology sector; potential negative action from credit rating agencies; and highly correlated withdrawals from SVBFG's concentrated network of VC investors and technology firms who, fueled by social media, withdrew uninsured deposits in a coordinated manner at an unprecedented rate.
 
 On March 9, SVB lost over \$40 billion in deposits, and SVBFG management expected to lose over \$100 billion more on March 10. This deposit outflow was remarkable in terms of scale and scope and represented roughly 85 percent of the bank's deposit base. By comparison, estimates suggest that the failure of Wachovia in 2008 included about \$10 billion in outflows over 8 days, while the failure of Washington Mutual in 2008 included \$19 billion over 16 days. In response to these actual and expected deposit outflows, SVB failed on March 10, 2023, which in turn led to the later bankruptcy of SVBFG.
 
@@ -278,7 +330,7 @@ to develop sufficient contingent funding capacity. This contributed to a disorde
 
 Federal Reserve oversight of supervised firms involves the Federal Reserve Board and the 12 Reserve Banks. The Board establishes the regulations to which banks are subject and designs the programs used to supervise firms. In general, the Reserve Banks are responsible for the assessment of firms, such as SVBFG, in each District as part of delegated authority from the Board. In this arrangement, the Board staff provide input and support in supervision and also provide oversight of the Reserve Banks. In the case of SVBFG, the Federal Reserve Bank of San Francisco (FRBSF) was the responsible Reserve Bank. By policy design, supervisory and regulatory standards generally increase with a firm's size and complexity.[7]
 
-The Federal Reserve organizes its supervisory approach based on asset size, with the exception of the global systemically important banks (G-SIBs) that are supervised within the Large Institution Supervision Coordinating Committee (LISCC) portfolio. Banks with assets of  \$100 billion or more that are not G-SIBs are supervised within the Large and Foreign Banking Organization, or LFBO, portfolio. Banks with assets in the\$ 10 billion to \$100 billion range are supervised within the Regional Banking Organization, or RBO, portfolio. Banks with assets of less than \$10 billion are supervised within the Community Banking Organization, or CBO, portfolio. While SVBFG was in the RBO portfolio, examination staffing generally came from pools of RBO and CBO examiners, who may have had less experience with the governance and risk-management practices required for a more sizable and complex institution like SVBFG.
+The Federal Reserve organizes its supervisory approach based on asset size, with the exception of the global systemically important banks (G-SIBs) that are supervised within the Large Institution Supervision Coordinating Committee (LISCC) portfolio. Banks with assets of \$100 billion or more that are not G-SIBs are supervised within the Large and Foreign Banking Organization, or LFBO, portfolio. Banks with assets in the \$10 billion to \$100 billion range are supervised within the Regional Banking Organization, or RBO, portfolio. Banks with assets of less than \$10 billion are supervised within the Community Banking Organization, or CBO, portfolio. While SVBFG was in the RBO portfolio, examination staffing generally came from pools of RBO and CBO examiners, who may have had less experience with the governance and risk-management practices required for a more sizable and complex institution like SVBFG.
 
 Federal Reserve oversight of SVBFG proved inadequate for the well-documented and significant vulnerabilities and managerial weaknesses at SVBFG. The record shows that supervisors identified some of the material issues, but also underappreciated important ones, particularly during the period of SVBFG's rapid growth while in the RBO portfolio. SVB's foundational problems were widespread and well-known, yet core issues were not resolved, and stronger oversight was not put in place. As is often the case with complex problems, this outcome reflects a combination of many interconnected factors and not a single point of failure.
 
@@ -498,9 +550,7 @@ SVBFG's tech-focused business model made it an outlier relative to its peers in 
 
 # SVB's Failure
 
-In 2023, SVB's deposit outflows accelerated as clients burned through cash, according to SVBFG public documents. Concerns increased following a Financial Times article that highlighted SVBFG's large securities portfolio.[42] On March 8, SVBFG announced a restructuring of its balance sheet,
-
-including a completed sale of  \$21 billion of AFS securities for a\$ 1.8 billion after-tax loss and a planned equity offering of \$2.25 billion. SVBFG also guided investors to expect lower growth
+In 2023, SVB's deposit outflows accelerated as clients burned through cash, according to SVBFG public documents. Concerns increased following a Financial Times article that highlighted SVBFG's large securities portfolio.[42] On March 8, SVBFG announced a restructuring of its balance sheet, including a completed sale of $21 billion of AFS securities for a $1.8 billion after-tax loss and a planned equity offering of $2.25 billion. SVBFG also guided investors to expect lower growth
 
 Figure 9. Estimated unrealized gains (losses) on SVBFG's investment portfolio securities  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/5c9dcda0-97c7-4ff1-bdc2-a26a590bf0bc/91a5edc1df17f60ef23137fa434a3e8224cd8a49c333a4ab0e6d03e2e3546577.jpg)  
@@ -512,7 +562,7 @@ Table 1. Peer comparison, 2022:Q4 Percent
 <table><tr><td>Metric</td><td>SVBFG</td><td>LBOs</td></tr><tr><td>Loans as a percentage of total assets</td><td>35</td><td>58</td></tr><tr><td>Securities as a percentage of total assets</td><td>55</td><td>25</td></tr><tr><td>Held-to-maturity securities as a percentage of total securities</td><td>78</td><td>42</td></tr><tr><td>Total deposits as a percentage of total liabilities</td><td>89</td><td>82</td></tr><tr><td>Uninsured deposits as a percentage of total deposits</td><td>94</td><td>41</td></tr><tr><td>Common equity tier 1 capital as a percentage of total risk-weighted assets</td><td>12</td><td>10</td></tr><tr><td colspan="3">Note: Values for large banking organizations (LBOs) represent weighted averages of all U.S. bank holding companies and savings &amp; loan holding companies with total assets greater than \$100 billion, with the exception of banking organizations in the Large Institution Supervision Coordinating Committee (LISCC) supervisory portfolio. 
 Source: FRY-9C and Call Report.</td></tr></table>
 
-and income for fiscal year 2023 amid continued slowdown in tech sector activity. $^{43}$  SVBFG noted that the credit rating agencies Moody's and S&P were considering negative ratings actions. In an accompanying message to investors, management cited its expectation for "continued slow public markets, further declines in venture capital deployment, and a continued elevated cash burn" as pressuring 2023 earnings performance. $^{44}$  Moreover, on March 8, Silvergate Capital Corporation announced an intention to wind down operations and voluntarily liquidate Silvergate Bank, which further affected depositor sentiment. $^{45}$
+and income for fiscal year 2023 amid continued slowdown in tech sector activity. $^{43}$ SVBFG noted that the credit rating agencies Moody's and S&P were considering negative ratings actions. In an accompanying message to investors, management cited its expectation for "continued slow public markets, further declines in venture capital deployment, and a continued elevated cash burn" as pressuring 2023 earnings performance. $^{44}$  Moreover, on March 8, Silvergate Capital Corporation announced an intention to wind down operations and voluntarily liquidate Silvergate Bank, which further affected depositor sentiment. $^{45}$
 
 Uninsured depositors interpreted SVBFG's announcements on March 8 as a signal that SVBFG was in financial distress and began withdrawing deposits on March 9, when SVB experienced a total deposit outflow of over \$40 billion. This run on deposits at SVB appears to have been fueled by social media and SVB's concentrated network of venture capital investors and technology firms that withdrew their deposits in a coordinated manner with unprecedented speed. On the evening of March 9 and into the morning of March 10, SVB communicated to supervisors that the firm expected an additional over \$100 billion in outflows during the day on March 10. SVB did not have enough cash or collateral to meet the extraordinary and rapid outflows. The California Department of Financial Protection and Innovation (CDFPI) closed SVB on the morning of March 10 and appointed the FDIC as receiver.
 

@@ -1,22 +1,43 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Chapter 09 Raising share capital"
+parent_directory: "Modern Financial Markets and Institutions"
+formatted: "2025-12-21 05:05:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - equity finance raising
+  - initial public offerings
+  - stock market flotation
+  - corporate governance regulations
+  - rights issues and placings
+secondary_tags:
+  - financial advisers roles
+  - london stock exchange
+  - ukla listing requirements
+  - alternative investment market
+  - share price indices
+  - dividend policies
+  - corporate governance code
+  - flotation costs analysis
+  - prospectus requirements
+  - underwriters responsibilities
+  - nominated advisers
+  - plus markets
+  - financial times guide
+  - market capitalisation
+  - institutional investors
 cssclasses: academia
-title: Raising share capital
-linter-yaml-title-alias: Raising share capital
 ---
 
 # Raising share capital
 
-# LEARNING OUTCOMES
+## Learning Outcomes
 
 Much of what financial markets and institutions do is related to raising finance for companies. This chapter will help orientate you in the world of equity finance raising for stock market quoted companies. By the end of the chapter you should be able to: explain the processes involved in a company joining a stock market to have its shares traded in a regulated market for the first time. This includes describing the role of various financial advisers and institutions;
 
-■ outline the main ongoing regulations for a company quoted on the London Stock Exchange, including disclosure of price-sensitive information, reporting profits and other accounts, restrictions on directors and the corporate governance regulations;
+- outline the main ongoing regulations for a company quoted on the London Stock Exchange, including disclosure of price-sensitive information, reporting profits and other accounts, restrictions on directors and the corporate governance regulations;
 
-■ demonstrate understanding of the figures presented in the financial pages for shares and share indices; run through the main considerations for rights issues, placings, open offers, vendor placings, scrip issues, share splits, warrants, share buy-backs and special dividends.
+- demonstrate understanding of the figures presented in the financial pages for shares and share indices; run through the main considerations for rights issues, placings, open offers, vendor placings, scrip issues, share splits, warrants, share buy-backs and special dividends.
 
 Many institutions assist a company in floating its shares on a stock market for the first time, as well as help a company to raise additional equity finance in the years following the initial public offering. This chapter describes their various roles, from investment bankers acting as sponsors to corporate brokers, registrars and lawyers. It also explains the regulations for stock market quoted companies, such as the need to make public all price-sensitive information or the restrictions placed on directors.
 
@@ -24,7 +45,7 @@ It is important that a student of finance be able to read and interpret the data
 
 Throughout this chapter there is focus on the UK, but the key principles are in place in all major financial centres.
 
-# Floating on the Main Market of the London Stock Exchange
+## Floating on the Main Market of the London Stock Exchange
 
 Once a company reaches a certain size, it has the possibility of floating on a stock market, 'going public', through a 'new issue' of shares also called an initial public offering (IPO). To become a listed company is a major step for a firm, and the substantial sums of money involved can lead to a new, accelerated phase of business growth. While this opens up fresh possibilities of investment finance from outside investors it also brings the disadvantage for current shareholders of giving away some influence and control as well as incurring some significant costs. Many, if not most, companies are content to grow without the aid of stock markets. For example, J.C. Bamford (JCB), which manufactures earth-moving machines, has built a large, export award-winning company, without needing to bring in outside shareholders, and remains a private company.
 
@@ -34,7 +55,7 @@ Joining the MM of the LSE involves two stages. The securities (usually shares) h
 
 Going public can wrack up huge costs - see Exhibit 9.1. The cost as a proportion of the amount raised varies but is usually at least 5 per cent and can be as high as one-third - many of the costs are fixed so if only a small number of new shares are issued the percentage costs are high.
 
-Exhibit 9.1 Typical floating costs for a company issuing £20 million of shares in an IPO on the Main Market of the London Stock Exchange
+### Exhibit 9.1 Typical floating costs for a company issuing £20 million of shares in an IPO on the Main Market of the London Stock Exchange
 
 <table><tr><td></td><td>£</td></tr><tr><td>Financial advisers</td><td>200,000–400,000</td></tr><tr><td>Underwriters</td><td>400,000–1,000,000</td></tr><tr><td>Legal expenses</td><td>200,000–400,000</td></tr><tr><td>Accounting</td><td>100,000–300,000</td></tr><tr><td>Listing fees</td><td>&lt; 20,000</td></tr><tr><td>Printing, public relations, etc.</td><td>&lt; 100,000</td></tr><tr><td>Total costs</td><td>1,020,000–2,220,000</td></tr></table>
 
@@ -42,9 +63,9 @@ Many firms consider the stresses and the costs worthwhile because listing brings
 
 All companies obtaining a full MM listing must ensure that at least 25 per cent of their share capital is in public hands, so that the shares are capable of being traded actively on the market. The Indian markets adopted the same 25 per cent rule in 2010 - see Exhibit 9.2.
 
-# Exhibit 9.2
+### Exhibit 9.2
 
-# India flotation demand set to hit valuations
+### India flotation demand set to hit valuations
 
 By Joe Leahy in Mumbai
 
@@ -62,7 +83,7 @@ Under the rules, the government said those listed companies that presently have 
 
 Source: Financial Times, 5 June 2010, p. 16. Reprinted with permission.
 
-# United Kingdom Listing Authority (UKLA)
+## United Kingdom Listing Authority (UKLA)
 
 The UKLA is responsible for approval of the prospectuses and admission to the Official List (most of these companies are on the Main Market of the LSE, although PLUS markets – see later – may also admit Official List companies). The UKLA maintains details of all listed companies and updates its list daily with additions, cancellations, suspensions and restorations. It also rigorously enforces a set of demanding rules regarding the conduct of the company and its officials in the years following the listing.
 
@@ -70,19 +91,19 @@ The UKLA usually insists that a company has a track record (in the form of accou
 
 The first step in floating a company is to apply to the UKLA to be put on the Official List. The listing fee is £225, plus an annual fee, based on the market capitalisation of the company, of at least £3,700 rising to more than £1 million for capitalisation over £25,000 million.
 
-# Financial advisers
+## Financial advisers
 
-# The sponsor
+### The sponsor
 
 Experts are required to guide firms through the complexities of an official listing. The key adviser in a flotation is the sponsor. This may be an investment bank, stockbroker or other professional adviser, but must be on the UKLA's approved list of sponsors. Directors, particularly of small companies, often first seek advice from their existing professional advisers, for example accountants and lawyers. Sponsors have to be chosen with care as the relationship is likely to be one which continues long after the flotation. For large or particularly complex issues investment banks are employed, although experienced stockbrokers have been used. The UKLA requires sponsors to certify that a company has complied with all the regulatory requirements and to ensure that all necessary documentation is filed on time.
 
 The sponsor (sometimes called the issuing house) will first examine the company and the aspirations of the management team to assess whether flotation is an appropriate corporate objective by taking into account its structure, strategy and capital needs. The sponsor will also comment on the composition of the board and the calibre of the directors. The sponsor may even recommend supplementation with additional directors if the existing team does not come up to the quality expected. Sponsors can be quite forceful in this because they do not want to damage their reputation by bringing a poorly managed company to market. The sponsor will draw up a timetable, which can be lengthy – sometimes the planning period for a successful flotation may extend over two years. Another important function is to help draft the prospectus and provide input to the marketing strategy. Throughout the process of flotation there will be many other professional advisers involved and it is vital that their activities mesh into a coherent whole. It is the sponsor's responsibility to coordinate the activities of all the other professional advisers.
 
-# The corporate broker
+### The corporate broker
 
 When a corporate broker is employed as a sponsor the two roles can be combined. If the sponsor is, say, an investment bank, the UKLA requires that a broker is also appointed. However, most investment banks also have corporate broking arms and so can take on both roles. Brokers play a vital role in advising on share market conditions and the likely demand from investors for the company's shares. They also represent the company to investors to try to generate interest. When debating issues such as the method of share issue to be employed, the marketing strategy, the size of the issue, the timing or the pricing of the shares, the company may value the market knowledge the broker has to offer.
 
-# Underwriters
+### Underwriters
 
 Shortly before the flotation the sponsor will have the task of advising on the best price to ask for the shares, and, at the time of flotation, the sponsor will usually underwrite the issue. Most new issues are underwritten because the correct pricing of a new issue of shares is extremely difficult. If the price is set too high, demand will be less than supply and not all the shares will be taken up. The company is usually keen to know that it will receive the expected money from the issue so that it can plan ahead. To make sure it sells the shares it buys a kind of insurance called **underwriting**. In return for a fee the underwriter guarantees to buy the proportion of the issue not taken up by the market. An investment bank sponsoring the issue will usually charge a fee of 2-4 per cent of the issue proceeds and then pays part of that fee, say 1.25-3.0 per cent of the issue proceeds, to sub-underwriters (usually large financial institutions such as pension funds and banks), which each agree to buy a certain number of shares if called on to do so. In most cases the underwriters do not have to purchase any shares because the general public are keen to take them up. However, occasionally they receive a shock and have to buy large quantities.
 
@@ -90,17 +111,17 @@ Shortly before the flotation the sponsor will have the task of advising on the b
 
 All legal requirements in the flotation preparation and in the information displayed in the prospectus must be observed. Lawyers prepare the 'verification' questions which are used to confirm that every statement in the prospectus can be justified as fact. Directors bear the ultimate responsibility for the truthfulness of the documents. Examples of other legal issues are directors' contracts, changes to the articles of association, re-registering the company as a public limited company (rather than a limited company which is not able to offer its shares to the wider public), underwriting agreements and share option schemes.
 
-# Accounting
+### Accounting
 
 The reporting accountant in a flotation has to be different from the company's existing auditors, but can be a separate team in the same firm.
 
 The accountant will be asked by the sponsor to prepare a detailed report on the firm's financial controls, track record, financing and forecasts (the 'long form' report). Not all of this information will be included in the prospectus but it does serve to reassure the sponsor that the company is suitable for flotation. Accountants may also have a role in tax planning from both the company's viewpoint and that of its shareholders. They also investigate working capital requirements. The UKLA insists that companies show that they have enough working capital for current needs and for at least the next 12 months.
 
-# Registrar
+### Registrar
 
 The record on the ownership of shares is maintained by registrars as shares are bought and sold. Registrars keep the company's register and issue share certificates. There are about two dozen major registrars linked up to CREST through which they are required to electronically adjust their records of ownership of company shares within two hours of a trade taking place.
 
-# Listing fees
+### Listing fees
 
 Listing fees are charged by stock markets for admission to listing, followed by annual charges, graduated according to the size of the company. See Exhibit 9.3 for LSE fees.
 
@@ -108,17 +129,17 @@ Exhibit 9.3 London Stock Exchange listing fees 2011
 
 <table><tr><td>Main Market admission fees</td><td>£</td></tr><tr><td>Minimum (under £5m capitalisation)</td><td>6,708</td></tr><tr><td>Maximum (over £500m capitalisation)</td><td>388,173</td></tr><tr><td>Main Market annual fees</td><td>UK</td></tr><tr><td>Minimum (under £50m capitalisation)</td><td>4,410</td></tr><tr><td>Maximum (over £500m capitalisation)</td><td>43,470</td></tr><tr><td></td><td>International</td></tr><tr><td>Minimum (under £25m capitalisation)</td><td>6,773</td></tr><tr><td>Maximum (over £1,025m capitalisation)</td><td>21,634</td></tr><tr><td>AIM admission fees</td><td></td></tr><tr><td>Minimum (under £5m capitalisation)</td><td>6,720</td></tr><tr><td>Maximum (over £250m capitalisation)</td><td>75,810</td></tr><tr><td>AIM annual fee</td><td>5,350</td></tr></table>
 
-# Printing, advertising, public relations, etc.
+### Printing, advertising, public relations, etc.
 
 Public relations and advertising companies are used to influence investors and persuade them to buy the shares. Although the shares are underwritten, and therefore there is a guarantee that they will all be sold, albeit maybe at a lower price than the offer price, it is a huge relief to all concerned if the public response is favourable and the shares are sold to investors. It demonstrates public confidence in the company and shows that the listing was justified, and the sponsors can gauge investor appetite accurately.
 
-# Prospectus
+### Prospectus
 
 To create a stable market and encourage investors to place their money with companies the UKLA tries to minimise the risk of investing by ensuring that the firms which obtain a quotation abide by high standards; this includes producing a well-crafted prospectus. The prospectus ('listing particulars') is designed to inform potential shareholders about the company. This may contain far more information about the firm than it has previously dared to put into the public domain. The prospectus acts as a marketing tool as the firm attempts to persuade investors to apply for shares.
 
 The content and accuracy of this vital document are the responsibility of the directors. Contained within it must be three years of audited accounts, details of indebtedness and a statement as to the adequacy of working capital. Statements by experts are often required: valuers may be needed to confirm the current value of property, engineers may be needed to state the viability of processes or machinery and accountants may be needed to comment on the profit figures. All major contracts entered into in the past two years will have to be detailed and a description of the risks facing the firm provided. Any persons with a shareholding of more than 3 per cent have to be named. A mass of operational data is also required, ranging from an analysis of sales by geographical area and type of activity, to information on research and development and significant investments in other companies.
 
-# Methods of issue
+### Methods of issue
 
 The sponsor will look at the motives for wanting a quotation, at the amount of money that is to be raised, at the history and reputation of the firm, and will then advise on the best method of issuing the shares. There are various methods, ranging from a full-scale offer for sale to a relatively simple introduction. The final choice often rests on the costs of issue, which can vary considerably. Here are the main options:
 
@@ -501,7 +522,7 @@ Shallow local roots can also deepen into a substantial presence, as proved by SA
 <table><tr><td>British Petroleum</td><td colspan="2">Shell
 Transport &amp; Trading</td><td>GEC</td><td>ICI</td><td>Marks and Spencer</td></tr><tr><td>7.4</td><td colspan="2">6.3</td><td>4.9</td><td>3.9</td><td>2.8</td></tr><tr><td>BAT Industries</td><td>Glaxo</td><td>BTR</td><td colspan="2">Beecham</td><td>Grand Metropolitan</td></tr><tr><td>2.6</td><td>2.6</td><td>2.2</td><td colspan="2">2.2</td><td>2.0</td></tr></table>
 
-# Mining sector has grown …
+## Mining sector has grown …
 
 Basic materials* sector \% share of FTSE 100 index
 
@@ -515,7 +536,7 @@ Top 10 miners 2010 Market capitalisation (£bn)
 
 * includes mining and chemicals
 
-# … while industrial companies have waned
+## … while industrial companies have waned
 
 Top 10 industrial companies 1984
 

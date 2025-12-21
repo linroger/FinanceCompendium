@@ -1,36 +1,26 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: The Euro
-linter-yaml-title-alias: The Euro
+parent_directory: VIII - Applications and Policy
+formatted: 2025-12-21 05:10:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
 primary_tags:
-- differences symmetry eu countries
-- criteria joining monetary union
-- created central bank european
-- collective burden sharing eurozone
-- eurozone thought
-- end currency european union
+  - optimum currency areas
+  - european central bank
+  - eurozone integration
+  - monetary union economics
+  - exchange rate mechanism
+  - maastricht criteria
 secondary_tags:
-- inflation countries maastricht criteria
-- costs breaking eurozone bad
-- historical political logic euro
-- euro countries transition pegged
-- financial conflicts eurozone risk
-- inflation criticism convergence criteria
-- rules countries desire monetary
-- currency union policy
-- oca criteria eurozone selected
-- erm countries suffered exchange
-- german currencies ended
-- fiscal rules monetary union
-- common currency fits political
-- wolf euro crisis
-- discussion inflation bias countries
-- eurozone people born different
-tags_extracted: '2025-12-18T00:47:32.077424'
+  - inflation bias problem
+  - fiscal federalism
+  - labor market mobility
+  - balance of payments
+  - political economy euro
+  - german monetary model
+  - stability growth pact
+  - sovereign debt crisis
+cssclasses: academia
 ---
 
 # The Euro
@@ -55,15 +45,15 @@ Almost 40 years later, on January 1, 1999, 11 nations in Europe joined together 
 
 The Eurozone has since expanded and continues to expand. By January 1, 2014, it comprised 18 of the 28 member states of the European Union. They use the notes and coins bearing the name euro and the symbol € that have taken the place of former national currencies (francs, marks, liras, and others).
 
-1 The Economics of the Euro
+## 1 The Economics of the Euro
 
-2 The History and Politics of the Euro
+## 2 The History and Politics of the Euro
 
-3 Eurozone Tensions in Tranquil Times, 1999-2007
+## 3 Eurozone Tensions in Tranquil Times, 1999-2007
 
-4 The Eurozone in Crisis, 2008-2013
+## 4 The Eurozone in Crisis, 2008-2013
 
-5 Conclusions: Assessing the Euro
+## 5 Conclusions: Assessing the Euro
 
 The euro remains one of the boldest experiments in the history of the international monetary system. It is a new currency that is used by more than 330 million people in one of the world's most prosperous economic regions. The euro is having enormous economic impacts that will be felt for many years to come.
 
@@ -77,7 +67,9 @@ The map in Figure 21-1 shows the state of play at the time of this writing in la
 
 As of 2014, the EU comprised 28 countries (EU-28). Ten of these had joined as of 2004, Romania and Bulgaria joined in 2007, and Croatia in mid-2013. Five more official candidate countries were formally seeking to join—Iceland, Macedonia, Montenegro, Serbia, and Turkey.
 
-A country can be in the EU but not in the Eurozone. It is important to remember who's "in" and who's "out." In 1999, just 3 of 15 EU members
+A country can be in the EU but not in the Eurozone. It is important to remember who's "in" and who's "out." In 1999, just 3 of 15 EU members opted to stay out of the Eurozone and keep their national currencies: these "out" countries were Denmark, Sweden, and the United Kingdom. The other 12 all went "in" by 2001. From then until 2013, a total of 13 new entrants joined the EU, with all of them initially "out" of the euro. Then, on January 1, 2007, the first of these countries, Slovenia, became a member of the Eurozone, followed by Cyprus and Malta (2008), Slovakia (2009), Estonia (2011), and Latvia (2014). As of 2014, the other 7 new entrants still remained "out" of the Eurozone.
+
+Most of the "outs" want to be "in." The official procedure to join the Eurozone requires that those who wish to get "in" must first peg their exchange rates to the euro in a system known as the Exchange Rate Mechanism (ERM) for at least two years and must also satisfy certain other qualification criteria. Two countries were part of the ERM as of 2014: Denmark and Lithuania. Participation in the ERM is usually taken as an indication of the intent to adopt the euro shortly (Latvia left the ERM to join the euro in January 2014). We discuss the ERM, the qualification criteria, and other peculiar rules later in this chapter.
 
 # FIGURE 21-1
 
@@ -182,6 +174,8 @@ Symmetry of shocks
 If other OCA criteria change such that benefits rise or costs fall, then the OCA line shifts in.
 
 Market integration
+
+Changes in Other OCA Criteria Several other criteria can make a currency union more attractive, even for given levels of market integration. Factors that lower costs or raise benefits will shift the OCA line down and to the left, expanding the OCA zone.
 
 Changes in Other OCA Criteria Several other criteria can make a currency union more attractive, even for given levels of market integration. Factors that lower costs or raise benefits will shift the OCA line down and to the left, expanding the OCA zone.
 
@@ -504,9 +498,9 @@ No more than  $60\%$  of GDP in previous financial year.2
 
 Notes:
 
-The ERM bands in effect at the time of the Maastricht Treaty were narrow  $(\pm 2.25\%$  or  $\pm 6\%)$ ; since 1993 they have been wide  $(\pm 15\%)$ . The first rule is now applied using the wide bands. Escape clauses are included in the last two fiscal rules, as follows:
+The ERM bands in effect at the time of the Maastricht Treaty were narrow $(\pm 2.25\%$ or $\pm 6\%)$; since 1993 they have been wide $(\pm 15\%)$. The first rule is now applied using the wide bands. Escape clauses are included in the last two fiscal rules, as follows:
 
- Or "the ratio must have declined substantially and continuously and reached a level close to 3\% or, alternatively, must remain close to 3\% while representing only an exceptional and temporary excess."
+1 Or "the ratio must have declined substantially and continuously and reached a level close to $3\%$ or, alternatively, must remain close to $3\%$ while representing only an exceptional and temporary excess."
 
 2 Or "the ratio must have sufficiently diminished and must be approaching the reference value at a satisfactory pace."
 
@@ -552,7 +546,7 @@ Breaking of Fiscal Rules The fiscal convergence criteria laid down by the Maastr
 
 Source: Martin Wolf, "Implications of the Crisis for Stability and Growth in the Eurozone," World Bank Workshop on Inclusive Growth in Advanced Countries, New York University, October 8, 2010.
 
-# Sticking to the Rules
+## Sticking to the Rules
 
 If "in" countries desire more monetary and fiscal flexibility than the rules allow, and being "in" means they no longer risk the punishment of being excluded from the Eurozone, then a skeptic would have to expect more severe budgetary problems and more lobbying for loose monetary policy to appear once countries had entered the Eurozone.
 
@@ -573,7 +567,7 @@ Once countries joined the euro, the main "carrot" enticing them to follow the SG
 
 These failures of the SGP came to light only gradually, but by 2003 the pact was in ruins, once it became clear that France and (ironically) Germany would be in breach of the pact and that no serious action would be taken against them. As we see next, fiscal problems in the Eurozone have only gotten worse, although whether the principles of the SGP can, or should, be reinstated is the subject of ongoing disagreement.
 
-# 4 The Eurozone in Crisis, 2008-2013
+## 4 The Eurozone in Crisis, 2008-2013
 
 For almost 10 years, Eurozone policy making focused on two main macroeconomic goals: the ECB's monetary policy credibility and inflation target, seen as a broad success given low and stable inflation outcomes; and the Eurozone governments' fiscal responsibility, seen as a failure given the general disregard for the SGP rules. However, policy makers (like their counterparts all over the world) failed to spot key macroeconomic and financial developments that were to plunge the Eurozone into crisis in 2008 and beyond.
 
@@ -678,7 +672,7 @@ Not coincidentally, in late 2011 the Eurozone went into a double-dip recession, 
 
 If all these efforts to keep the Eurozone intact fail, and if political will evaporates, one or more peripheral countries may default, and even exit the Eurozone. In that event, huge economic sacrifices and deep social damage will have been imposed on their populations, seemingly for nothing. Core countries may also take large losses if they attempt to prop up the system, and they could balk at a "transfer union" based on payments to a group of peripherals to defend the honor of their single currency project. If uncontained, the potentially serious side effects of such an event would surely be an adverse shock for the global economy, but they would be an incredibly serious crisis for Europe itself. Should a scenario like this unfold, tensions will rise, and the Eurozone in its present form might be in peril (see Headlines: A Bad Marriage?).
 
-# 5 Conclusions: Assessing the Euro
+## 5 Conclusions: Assessing the Euro
 
 The euro project must be understood at least as much in political terms as in economic terms. We have seen how the OCA criteria can be used to examine the logic of currency unions, but in the case of the EU these are not the whole story: Europe does not appear to satisfy the narrow definition of an optimum currency area. In contrast, some of the most important criteria for the survival of the euro may relate to the non-OCA criteria that were included in the Maastricht Treaty. How well can the euro hold up in the future? Even after the crisis, both optimistic and pessimistic views persist.
 

@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Runs and Interventions in the Time of Covid-19: Evidence from Money Funds
+parent_directory: Class 7-CP, Repo, and the Crisis
+formatted: 2025-12-21 05:06:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - money market funds
+  - covid-19 crisis
+  - liquidity regulations
+secondary_tags:
+  - prime mmfs
+  - redemption gates
+  - mmlf facility
+  - institutional investors
+  - funding freeze
+  - preemptive runs
+  - commercial paper
+  - certificates of deposit
 cssclasses: academia
-title: "Runs and Interventions in the Time of Covid-19: Evidence from Money Funds"
-linter-yaml-title-alias: "Runs and Interventions in the Time of Covid-19: Evidence from Money Funds"
 ---
 
 # Runs and Interventions in the Time of Covid-19: Evidence from Money Funds
@@ -20,7 +32,7 @@ Xing (Alex) Zhou*
 
 May 21, 2020
 
-# Abstract
+## Abstract
 
 Liquidity restrictions, like the redemption gates and fees introduced in the 2016 Money Market Fund reform, are meant to improve stability during runs. However, we find evidence that they may have inadvertently exacerbated the run on prime funds during the Covid-19 crisis. Severe outflows from prime funds amid frozen short-term funding markets led the Federal Reserve to intervene with the Money Market Mutual Fund Liquidity Facility (MMLF). By providing "liquidity of last resort", the MMLF successfully stopped the run on prime funds and gradually improved conditions in funding markets, lowering funding costs and resuming the supply of funding to corporations.
 
@@ -28,7 +40,7 @@ JEL classification: G23, G28, E58.
 
 Keywords: runs, money market funds, Covid-19, MMLF.
 
-# 1 Introduction
+## 1 Introduction
 
 In the aftermath of the 2007-09 financial crisis, financial regulators worldwide introduced a new wave of regulations aimed at promoting financial stability. Various liquidity regulations were designed with the intention to make financial institutions capable of withstanding funding stress without the need for emergency interventions. For example, the Basel III liquidity coverage ratio (LCR) requires banks to hold enough liquidity to withstand a 30-day run without the need for emergency liquidity support. For money market funds (MMFs), the SEC introduced two reforms, one in 2010 and one in 2016, to reduce run risks. The 2010 SEC reform required MMFs to hold at least 30 percent of assets in securities that could convert into cash within a week (called weekly liquid assets, or WLA). In addition, another SEC reform enacted in 2016 allowed MMFs to impose redemptions gates and liquidity fees in the event that WLA drops below 30 percent of assets. In the same spirit of the LCR, the MMF reform was meant to endow MMFs with tools to deal with runs on their own, without the need for external emergency interventions.
 
@@ -36,17 +48,13 @@ These liquidity regulations require institutions to hold large liquidity buffers
 
 In this paper, we show that the possibility that a MMF could impose redemption gates and liquidity fees may have exacerbated runs on prime MMFs (especially the less liquid ones) during the Covid-19 crisis of March 2020. We study the anatomy of the run on prime MMFs and assess the efficacy of the main emergency intervention targeted at stabilizing short-term funding markets and MMFs.
 
-In mid-February, with increasing Covid-19 cases in the U.S. and Europe, stock prices
-
-started to plunge, accompanied by widening yield spreads on corporate bonds (panel (a) in Figure 1). By mid-March, spreads on various short-term funding securities, including commercial paper (CP) and negotiable certificates of deposit (CDs), had surged to the levels last seen during the 2008 financial crisis (panel (b) in Figure 1). Amid the broad risk-off sentiment, investors started to run on prime MMFs, which are significantly invested in CP and negotiable CDs. Within two weeks from March 9, \$96 billion of investments (about  $30\%$  of assets under management) were withdrawn from institutional prime MMFs.
+In mid-February, with increasing Covid-19 cases in the U.S. and Europe, stock prices started to plunge, accompanied by widening yield spreads on corporate bonds (panel (a) in Figure 1). By mid-March, spreads on various short-term funding securities, including commercial paper (CP) and negotiable certificates of deposit (CDs), had surged to the levels last seen during the 2008 financial crisis (panel (b) in Figure 1). Amid the broad risk-off sentiment, investors started to run on prime MMFs, which are significantly invested in CP and negotiable CDs. Within two weeks from March 9, \$96 billion of investments (about  $30\%$  of assets under management) were withdrawn from institutional prime MMFs.
 
 The run on prime MMFs was especially concentrated among institutional investors (panel (a) in Figure 2) who, particularly concerned about the potential imposition of gates and fees, ran more intensely on funds with lower liquidity levels (panel (b) in Figure 2). Worried about investors' panicking and accelerating redemptions, prime MMFs started to hoard liquidity and refrained from investing in instruments with maturities greater than one week. This liquidity crunch accelerated the deterioration of conditions in funding markets like CP and CDs. Issuance of CP and CDs with maturities longer than one week mostly stopped.
 
 Facing this downward liquidity spiral in money markets, an intervention to restore stability was deemed necessary. The Federal Reserve announced in the late evening of March 18 the plan to implement the Money Market Mutual Fund Liquidity Facility (MMLF) to support the liquidity and functioning of money markets. Under the MMLF, banks could purchase high-quality CP and CDs from MMFs and pledge those assets at the MMLF in exchange for a cash loan for the whole life of the security.<sup>1</sup> With the help of the MMLF, MMFs were able to liquidate some of their longer-tenor assets to meet redemptions. As a result, funding conditions in the CP and CD markets greatly improved. As of April 7, the outstanding amount of MMLF usage totaled \$53.2 billion.
 
-We start our empirical analysis by comparing this crisis to the previous two prominent MMF runs, namely, the financial crisis run around the September 2008 Lehman
-
-bankruptcy and the Eurozone sovereign debt crisis run in the summer of 2011. The Covid-19 run and the 2008 one are especially similar in terms of timing and intensity, with institutional prime funds losing more than  $30\%$  of assets in about 20 days (Figure 3). However, a key difference between the 2020 run and the two earlier ones is that, starting in 2016, the SEC allowed institutional prime funds to impose gates and fees whenever their WLAs fall below  $30\%$  of assets. The possibility of imposing these restrictions may have incentivized investors to preemptively run on less liquid funds in 2020.
+We start our empirical analysis by comparing this crisis to the previous two prominent MMF runs, namely, the financial crisis run around the September 2008 Lehman bankruptcy and the Eurozone sovereign debt crisis run in the summer of 2011. The Covid-19 run and the 2008 one are especially similar in terms of timing and intensity, with institutional prime funds losing more than  $30\%$  of assets in about 20 days (Figure 3). However, a key difference between the 2020 run and the two earlier ones is that, starting in 2016, the SEC allowed institutional prime funds to impose gates and fees whenever their WLAs fall below  $30\%$  of assets. The possibility of imposing these restrictions may have incentivized investors to preemptively run on less liquid funds in 2020.
 
 We find that investors ran substantially more from funds with lower liquid holdings (i.e., WLA) during the 2020 crisis relative to any of the previous two crises. Specifically, while a decrease of 10 percentage points of WLA is associated with an increase in daily outflows by 0.1 percentage points during the 2008 crisis, it is associated with 1 percentage point additional daily outflows during the 2020 crisis (ten times the 2008 effect). Furthermore, funds with WLA close to the  $30\%$  threshold suffered incrementally more outflows in 2020 but not in the previous two crises. The nonlinearity of runs as WLA approaches 30 during the 2020 crisis suggests an acceleration of runs when investors are concerned about potential imposition of fees and gates. Taken together, these findings suggest that the inclusion of redemption gates and fees in the 2016 MMF reform might have inadvertently exacerbated the run on institutional prime MMFs during the Covid-19 crisis.[2]
 
@@ -64,11 +72,11 @@ and Vuillemey (2017); Gorton and Metrick (2012); Copeland, Martin and Walker (20
 
 We also contribute to the literature that studies the effects of the 2016 SEC reform on MMFs. Cipriani and La Spada (forthcoming); Baghai, Giannetti and Jäger (2018) study the effects of the reform on the premium paid by investors to maintain moneyness and on the risk-taking of the surviving prime funds. In a theoretical framework, Cipriani et al. (2014) discuss the possibility that the introduction of gates and fees may trigger preemptive runs. To the best of our knowledge, our paper is the first empirical study that documents the impact of the 2016 reform on prime MMF flows during a crisis.
 
-# 2 Background
+## 2 Background
 
 In this section we introduce the money fund industry, as well as the purpose and effects of the two SEC reforms of 2010 and 2016. We then describe the MMLF which was introduced by the Federal Reserve to stabilize conditions in money markets at the onset of the Covid-19 crisis.
 
-# 2.1 Money Market Funds
+### 2.1 Money Market Funds
 
 Money market funds raise cash from both retail and institutional investors by issuing shares that can be redeemed on demand. Money fund managers then invest the pool of cash in a set of eligible assets. Since investors can withdraw on demand, MMFs typically hold a diversified portfolio composed of short-term high-quality debt instruments. There are three broad MMF types: government funds invest in government debt (Treasury and agency debt) and repos backed by government debt; prime funds mainly invest in short-term high-quality corporate debt, including time deposits, CP, and CDs, as well as repos backed by corporate collateral; finally, tax-exempt funds invest in municipal and state debt. Altogether, the money fund industry manages around \$5 trillion in assets.<sup>3</sup> For a fund to be considered a money market fund, it has to follow SEC 2a-7 rules.
 
@@ -80,9 +88,9 @@ funds catering to institutional investors to transact at a floating net asset va
 
 Secondly, the reform allows non-government funds to impose redemption gates and liquidity fees if the fund's weekly liquid assets fall below a regulatory minimum. WLA is defined as under the 2010 MMF reform: securities that convert into cash (mature) within one week, including Treasuries, and certain agency notes that mature in 60 days or less. If WLA falls below  $30\%$ , the fund can impose liquidity fees (up to  $2\%$ ) and suspend redemptions for up to 10 business days in a 90-day period.
 
-Institutional investors in prime MMFs treat their money fund shares as cash, and many of them did not like the idea of potentially being unable to access their cash due to the imposition of gates, or redeeming at less than  \$1 per share due to liquidity fees and floating NAV. Therefore, many institutional investors in prime funds decided to move their money from prime funds to government funds as a result of the 2016 reform, and about\$ 1 trillion moved from prime to government funds over the one year leading up to the reform implementation. Over time, however, some investors returned to prime funds, possibly enticed by the relatively higher returns. From the low of the post-reform period, when prime funds managed \$500 billion, they saw steady inflows until they managed about \$ 1.1 trillion right before the Covid-19 crisis.
+Institutional investors in prime MMFs treat their money fund shares as cash, and many of them did not like the idea of potentially being unable to access their cash due to the imposition of gates, or redeeming at less than  \$1 per share due to liquidity fees and floating NAV. Therefore, many institutional investors in prime funds decided to move their money from prime funds to government funds as a result of the 2016 reform, and about \$1 trillion moved from prime to government funds over the one year leading up to the reform implementation. Over time, however, some investors returned to prime funds, possibly enticed by the relatively higher returns. From the low of the post-reform period, when prime funds managed \$500 billion, they saw steady inflows until they managed about \$ 1.1 trillion right before the Covid-19 crisis.
 
-# 2.2 The Money Market Mutual Fund Liquidity Facility (MMLF)
+### 2.2 The Money Market Mutual Fund Liquidity Facility (MMLF)
 
 As the severity of the pandemic started to be priced in short term funding markets in early March, investors began to redeem cash from prime MMFs. The latter were faced with the arduous task to accommodate outflows while maintaining sizable liquidity buffers. They tried to achieve this by selling longer-term CP and CDs to dealers, but to no avail. The secondary market for CP and CDs was frozen. As a result, many prime funds saw their WLA decline, some close to the  $30\%$  minimum requirement. In
 
@@ -94,11 +102,9 @@ Initially, MMLF-eligible assets included CP as well as government securities (Tr
 
 It is worth noting that, economically, pledging assets to the MMLF is similar to selling the assets to the Federal Reserve. The principal amount of the MMLF loan is equal to the value of the collateral. The MMLF loan is made without recourse to the borrowers and has the same maturity date as the collateral. In addition, on March 19, 2020, U.S. regulators issued a rule that effectively neutralizes the effect of asset purchases under the MMLF on banks capital ratios.
 
-Due to the large potential demand for MMLF liquidity, banks quickly set up operations to purchase assets from prime funds to pledge at the MMLF as soon as the facility
+Due to the large potential demand for MMLF liquidity, banks quickly set up operations to purchase assets from prime funds to pledge at the MMLF as soon as the facility was announced on March 18. Starting its operations on March 23, public H.4.1 data shows that MMLF loans outstanding spiked to \$30.6 billion on March 25 in just two days, climbed to \$52.7 billion on April 1, and reached \$53.2 billion on April 7. As the runs on prime funds subsided, so did usage at the facility. Indeed, as fewer new loans were originated while some were already maturing, MMLF loans outstanding started to decline, with \$50.7 billion outstanding on April 15 and \$48.8 billion on April 22.
 
-was announced on March 18. Starting its operations on March 23, public H.4.1 data shows that MMLF loans outstanding spiked to \$30.6 billion on March 25 in just two days, climbed to \$52.7 billion on April 1, and reached \$53.2 billion on April 7. As the runs on prime funds subsided, so did usage at the facility. Indeed, as fewer new loans were originated while some were already maturing, MMLF loans outstanding started to decline, with \$50.7 billion outstanding on April 15 and \$48.8 billion on April 22.
-
-# 3 Data
+## 3 Data
 
 Our main data set is compiled from three sources. First, we obtain share-class level MMF information from iMoneyNet, at daily, weekly, and monthly frequencies. Daily and weekly data are available for both domestic MMFs (i.e., 2a-7 funds defined by the SEC) and offshore USD MMFs, and include the following fund characteristics: assets under management (AUMs), weekly liquid assets (WLA), weighted average maturity (WAM), expense ratios, investor type (institutional or retail), as well as funds' portfolio composition, including shares of the portfolio invested in Treasuries, agency debt, repos, time deposits, unsecured CP, ABCP, CDs, and floating rate notes. Since one fund can have many share classes catering to the needs of various types of investors, we aggregate the share-class level data to the fund level, uniquely identified by the fund's SEC filing ID.
 
@@ -108,13 +114,13 @@ Finally, we use confidential CP and CD micro level data from Depository Trust & 
 
 for each instrument. The transaction data provide detailed information for each primary market trade, including CUSIP, transaction date and maturity date, yield, and quantity. For CP, the data also include ratings assigned by both Moody's and S&P. For some tests, we merge the DTCC data with the N-MFP security-level holding data based on the securities' CUSIP information.
 
-# 4 Runs on prime MMFs: what is new this time?
+## 4 Runs on prime MMFs: what is new this time?
 
 From late February to early March, as equity and bond markets went into a tailspin (Figure 1), stress in short-term funding markets also mounted and prime MMFs saw large redemptions from their institutional investors in mid-March (Figure 2).
 
 Prime MMFs have two ways to raise cash to meet investors redemptions. The first option is to tap into their liquid assets that are readily convertible into cash and the second option is to sell longer-term holdings, like CP and CDs. According to the 2016 SEC reform, institutional prime funds can apply liquidity fees and redemption gates when their WLA fall below  $30\%$  of their total assets. Therefore, investors could get anxious and run preemptively when funds' WLA approaches that threshold. As investors started to withdraw from prime funds, eroding their liquidity buffers, fund managers would try to sell their longer-term CP and CDs in an attempt to raise liquidity. However, CP and CD dealers, who act as intermediaries and often do not take one-sided bets, had difficulty in finding third parties interested in buying those securities.<sup>5</sup> A flight to liquidity emerged, and the secondary markets for CP and CDs were essentially frozen. The frozen short-term funding markets in turn triggered even larger redemptions from investors.
 
-# 4.1 Empirical design and Summary Statistics
+### 4.1 Empirical design and Summary Statistics
 
 To gauge the magnitude of MMF runs during the Covid-19 crisis and to explore whether the 2016 MMF reform changed the nature of runs on money funds, in this section we
 
@@ -132,12 +138,12 @@ daily redemptions of  $1.3\%$ ,  $0.3\%$ , and  $2.4\%$  of their assets for 200
 
 Compared to 2008, prime funds hold substantially more weekly liquid assets (WLAs) in 2011 and 2020. More interestingly, only  $3\%$  of institutional prime funds have their WLAs below  $35\%$  in 2020 during the normal period, while  $72\%$ $(44\%)$  of such funds have WLAs lower than  $35\%$  in 2008 (2011). These findings suggest that institutional prime MMFs are extremely careful in managing their liquid asset holdings in the post-2016-reform era.
 
-# 4.2 Regression Results
+### 4.2 Regression Results
 
 To assess whether the presence of contingent liquidity restrictions changed the nature of investor runs on prime funds, we run a set of regressions that compare the flow sensitivity to WLA during the 2020 run to that of the 2008 and 2011 runs. Specifically, we use daily and weekly MMF data from iMoneyNet and estimate the following regressions for the three subsamples: $^7$
 
 $$
-\begin{array}{l} F l o w_{i, t} = \beta_{1} C r i s i s_{t} + \beta_{2} W L A_{i, t - 1} + \beta_{3} C r i s i s_{t} \times W L A_{i, t - 1} \\ \left(+ \beta_{4} \mathbb {1} (W L A <   3 5) + \beta_{5} C r i s i s_{t} \times \mathbb {1} (W L A <   3 5)\right) + \varepsilon_{i, t}, \quad (1) \\ \end{array}
+\begin{array}{l} Flow_{i,t} = \beta_{1} Crisis_{t} + \beta_{2} WLA_{i,t-1} + \beta_{3} Crisis_{t} \times WLA_{i,t-1} \\ \left( + \beta_{4} \mathbb{1}(WLA < 35) + \beta_{5} Crisis_{t} \times \mathbb{1}(WLA < 35) \right) + \varepsilon_{i,t}, \quad (1) \\ \end{array}
 $$
 
 where  $Flow_{i,t}$  is the daily percentage change in the AUM of fund  $i$ , winsorized at the 1% and 99% levels. $^{8}$ $WLA_{i,t-1}$  (in percent) is the share of weekly liquid assets to total assets of fund  $i$  on the previous Tuesday, $^{9}$  and  $\mathbb{1}(WLA < 35)$  equals one if  $WLA_{i,t-1}$  is below 35%.  $Crisis_t$  equals one during each of the crisis periods: September 10–30 in 2008, June 10–August 1 in 2011 and March 6–24 in 2020.
@@ -159,7 +165,7 @@ In unreported tests, we also control for a battery of lagged fund characteristic
 Table 3 combines the three subsamples together to assess the difference in flow sensitivity to WLA across crises and how significant such difference is. In particular, we estimate the following regressions:
 
 $$
-\begin{array}{l} F l o w_{i, t} = \beta_{1} C r i s i s_{t} + \beta_{2} C r i s i s_{t} \times Y e a r_{t} + \beta_{3} C r i s i s_{t} \times W L A_{i, t - 1} \\ + \beta_{4} \text{Cr is is}_{t} \times W L A_{i, t - 1} \times \text{Ye ar}_{t} + \text{co nt ro ls}_{i, t - 1} + F E_{i, t} + \varepsilon_{i, t}, \tag {2} \\ \end{array}
+\begin{array}{l} Flow_{i,t} = \beta_{1} Crisis_{t} + \beta_{2} Crisis_{t} \times Year_{t} + \beta_{3} Crisis_{t} \times WLA_{i,t-1} \\ + \beta_{4} Crisis_{t} \times WLA_{i,t-1} \times Year_{t} + controls_{i,t-1} + FE_{i,t} + \varepsilon_{i,t}, \tag{2} \\ \end{array}
 $$
 
 where controls include various fund characteristics and asset holdings, and year fixed effects are included in all specifications. In some specifications we use the dummy  $\mathbb{1}(WLA < 35)$  instead of  $WLA$ . The baseline Crisis dummy refers to the 2020 run, and the interactions with  $Year = 2008\$  or  $Year = 2011\$  estimate the additional effects of the 2008 and 2011 runs relative to the most recent one.
@@ -172,11 +178,11 @@ It is worth noting that the 2016 MMF reform not only allows institutional prime 
 
 One possible reason for our finding is that MMFs' floating NAVs actually stayed far above the threshold for "breaking the buck" (i.e., falling below 0.995) during the crisis, while WLAs have dropped close to or even below  $30\%$  for some funds. Indeed, among all institutional prime MMFs, the lowest NAV ever observed during the crisis is 0.998, and the lowest WLA during the same crisis period is  $27\%$ . Therefore, we focus the empirical analysis on the sensitivity of flows to WLA.
 
-# 5 The calming effects of the MMLF
+## 5 The calming effects of the MMLF
 
 In this section, we estimate the calming effects of the MMLF on prime funds and examine whether the stability effects of the MMLF accrued to a greater extent to funds holding more MMLF-eligible assets. We also study the spillover effect of the facility to offshore USD prime MMFs. The latter are characteristically similar to domestic prime MMFs and suffered similarly large outflows during the crisis, but are not covered by the MMLF.
 
-# 5.1 Effects and channels of the MMLF on prime funds
+### 5.1 Effects and channels of the MMLF on prime funds
 
 Table 4 presents summary statistics for three different types of prime MMFs during the crisis and the post-MMLF period. With the MMLF becoming operational on March 23, we define the two weeks before the implementation of the MMLF as the "crisis" period (i.e., March 9 to March 20, business days only) and the two weeks immediately after implementation as the "MMLF" period (i.e., March 23 to April 3, business days only).
 
@@ -185,7 +191,7 @@ Table 4 shows that on average institutional funds suffered the most severe outfl
 We formally test the relation between the MMLF and prime fund flows by estimating the following regressions:
 
 $$
-\begin{array}{l} F l o w_{i, t} = \beta_{1} M M L F_{t} + \beta_{2} W L A_{i, t - 1} + \beta_{3} M M L F_{t} \times W L A_{i, t - 1} \\ + c o n t r o l s_{i, t - 1} + F E_{i} + \varepsilon_{i, t}, (3) \\ \end{array}
+\begin{array}{l} Flow_{i,t} = \beta_{1} MMLF_{t} + \beta_{2} WLA_{i,t-1} + \beta_{3} MMLF_{t} \times WLA_{i,t-1} \\ + controls_{i,t-1} + FE_{i} + \varepsilon_{i,t}, (3) \\ \end{array}
 $$
 
 where  $Flow_{i,t}$  is the daily percentage change in the AUM of fund  $i$ ,  $WLA_{i,t-1}$  (in percent) is the share of weekly liquid assets to total assets of fund  $i$  on the previous Tuesday, and  $MMLF_t$  is the dummy for the post-MMLF period (i.e., equals one for the period of March 23 to April 3). We double cluster standard errors at fund and day levels.
@@ -205,7 +211,7 @@ To test the potential channel for the MMLF effect on fund flows, we use the CUSI
 background section, to be MMLF-eligible, assets (including unsecured CP, ABCP, and CDs) had to satisfy certain maturity, rating, and domicile criteria. Utilizing the granular security-level information in N-MFP, we are able to identify assets that are MMLF-eligible for each MMF. We then merge the N-MFP information with the iMoneyNet data and run the following regression:
 
 $$
-\begin{array}{l} F l o w_{i, t} = \beta_{1} M M L F_{t} + \beta_{2} E l i g i b l e P c t_{i} + \beta_{3} M M L F_{t} \times E l i g i b l e P c t_{i} \\ + c o n t r o l s_{i, t - 1} + F E_{i} + \varepsilon_{i, t}, (4) \\ \end{array}
+\begin{array}{l} Flow_{i,t} = \beta_{1} MMLF_{t} + \beta_{2} EligiblePct_{i} + \beta_{3} MMLF_{t} \times EligiblePct_{i} \\ + controls_{i,t-1} + FE_{i} + \varepsilon_{i,t}, (4) \\ \end{array}
 $$
 
 where  $EligiblePct_{i}$  is defined as the share of MMLF-eligible assets relative to the fund AUM on February 28 for fund  $i$ . In all specifications, standard errors are two-way clustered at the fund and day level.
@@ -220,14 +226,14 @@ Alternatively, MMFs saw the largest liquidity benefits from pledging the longest
 
 Finally, in unreported results we show that the MMLF also had a positive effect on stabilizing floating NAVs, bringing them back up from the lower levels seen during the crisis. However, we do not emphasize this result since, as previously discussed, floating NAVs seem not to be significant drivers of outflows during the crisis.
 
-# 5.2 Spillover Effects of the MMLF on offshore USD MMFs
+### 5.2 Spillover Effects of the MMLF on offshore USD MMFs
 
 In mid-March, as institutional investors started to run on domestic prime MMFs, similar runs occurred on offshore USD prime MMFs, which invest in exactly the same pool of assets as their domestic counterparts and cater to global investors.[11] Moreover, as shown in Table 4, offshore USD prime funds on average invest in less liquid and riskier asset portfolios, as represented by their lower WLA, longer weighted average maturity, more risky assets, and less safe instruments. Assets in offshore USD prime funds also dropped by about  $25\%$  during the crisis time.
 
 The MMLF was designed to protect U.S. investors and MMFs, and thus offshore USD funds, although also investing in the U.S. short-term debt instruments, were not covered by the MMLF. This fact offers us a great opportunity to study the potential spillover effects of the MMLF to similar but ineligible market participants, namely, offshore USD prime MMFs. Specifically, we estimate the following regression:
 
 $$
-\begin{array}{l} F l o w_{i, t} = \beta_{1} O f f s h o r e_{i} + \beta_{2} M M L F_{t} + \beta_{3} O f f s h o r e_{i} \times M M L F_{t} \\ + c o n t r o l s_{i, t - 1} + F E_{i} + \varepsilon_{i, t}, (5) \\ \end{array}
+\begin{array}{l} Flow_{i,t} = \beta_{1} Offshore_{i} + \beta_{2} MMLF_{t} + \beta_{3} Offshore_{i} \times MMLF_{t} \\ + controls_{i,t-1} + FE_{i} + \varepsilon_{i,t}, (5) \\ \end{array}
 $$
 
 where  $Offshore_{i}$  equals one for offshore USD prime funds and  $MMLF_{t}$  equals one after
@@ -240,7 +246,7 @@ Columns (5)-(8) are designed to test for the speed of investors' reaction to the
 
 In sum, the MMLF had a calming effect on market participants beyond its direct coverage, although the magnitude of such effects is smaller and the reaction time is longer.
 
-# 6 The Impact of MMLF on CP and CD Markets
+## 6 The Impact of MMLF on CP and CD Markets
 
 As the MMLF stabilized MMF flows and liquidity conditions, these funds were able once again to purchase CP and CDs at tenors greater than one week. In this section, we conduct a battery of tests to evaluate the impact of MMLF on the CP and CD markets. While MMLF might have had a stabilizing effect on the overall CP and CD markets, such effect should be stronger within the set of instruments more heavily traded by money funds and therefore effectively pledgeable at the MMLF.
 
@@ -251,7 +257,7 @@ across instruments issued by the same CP issuer  $j$ , on the same day  $t$ , an
 Our first identification strategy focuses on testing the differential effect of MMLF across CP with different credit quality. To be considered MMLF-eligible, CP must belong to the top rating category. If the MMLF stabilized the CP market following its launch on March 23, we should expect such effect to be stronger among MMLF-eligible CP, namely with top rating. To test this hypothesis, we create a dummy  $TopRating_{t}$  that takes the value one if a CP's composite rating is equal to 1 on day  $t$ , and estimate the following panel regression:
 
 $$
-S p r e a d_{j, t, m} = \beta M M L F_{t} \times T o p R a t i n g_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j, t, m} \tag {6}
+Spread_{j,t,m} = \beta MMLF_{t} \times TopRating_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j,t,m} \tag{6}
 $$
 
 where  $MMLF_{t}$  is a dummy for the two weeks following the launch of MMLF, and  $\mu_{j}, \mu_{t}, \mu_{m}, \mu_{r}$  represent issuer, day, maturity, and rating fixed effects, respectively. Standard errors are two-way clustered at the issuer and day level. Consistent with the MMLF design, Table 8 shows that spreads in top rated CP declined by more following the launch of the facility. The coefficient of the interation of  $MMLF_{t}$  and  $TopRating_{t}$  is negative and highly significant. The magnitude is also economically meaningful. A1/P1-rated CP experienced an additional 45 bps decline in rate spreads compared to other lower-rated CP during the two weeks post MMLF.
@@ -271,7 +277,7 @@ MMLF, new CP issuance dropped precipitously and many market participants viewed 
 To understand the MMLF impact on CP issuance, we use the same CP sample and estimate the following panel regression:
 
 $$
-L o g (I s s u a n c e)_{j, t, m} = \beta M M L F_{t} \times T o p R a t i n g_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j, t, m} \tag {7}
+Log(Issuance)_{j,t,m} = \beta MMLF_{t} \times TopRating_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j,t,m} \tag{7}
 $$
 
 where  $\operatorname{Log}(\text{Issuance})_{j,t,m}$  is the log of one plus the amount issued by borrower  $j$  on day  $t$  with time to maturity within maturity bucket  $m$ . Since not issuing debt is valuable information, we consider issuer-day-term observations with no issuance as zero issuance, leading to  $\operatorname{Log}(\text{Issuance})_{j,t}$  being equal to zero in those cases.
@@ -285,11 +291,11 @@ London inter-bank offered rate (LIBOR). Therefore, the MMLF effect, if any, shou
 Using its pricing feature, we develop our third test to identify the MMLF impact on the CP market. Specifically, we estimate  $\text{Log(Issuance)}_{j,t,m}$  separately for CPs issued at rates greater than 125 bps and those below 125 bps, and name them  $\text{Log(HighRateIssuance)}_{j,t,m}$  and  $\text{Log(LowRateIssuance)}_{j,t,m}$  respectively. We then estimate the following panel regressions:
 
 $$
-L o g (H i g h R a t e I s s u a n c e)_{j, t, m} = \beta M M L F_{t} \times S h a r e M M F_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j, t, m}
+Log(HighRateIssuance)_{j,t,m} = \beta MMLF_{t} \times ShareMMF_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j,t,m}
 $$
 
 $$
-L o g (L o w R a t e I s s u a n c e)_{j, t, m} = \beta M M L F_{t} \times S h a r e M M F_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j, t, m}
+Log(LowRateIssuance)_{j,t,m} = \beta MMLF_{t} \times ShareMMF_{t} + \mu_{j} + \mu_{t} + \mu_{m} + \mu_{r} + \varepsilon_{j,t,m}
 $$
 
 where the explanatory variables are defined as in Equation 7. Consistent with the hypothesis that CP more profitable to pledge (with rate above 125 bps) benefited particularly from the MMLF, we find that issuance restarted significantly more for CP issuers with more reliance on MMFs only when the CP yields more than 125 bps. The coefficient of the interaction of  $MMLF_{t}$  and  $\text{ShareMMF}_{t}$  is positive and highly significant in Equation 8, but negative and not significant in Equation 8 (columns (4) and (5)). Excluding overnight issuance yields similar findings. The limited effects of the MMLF on issuance of cheaper CP (with rate below 125 bps) suggests that MMFs were not particularly interested in purchasing these instruments since they may not have been able to liquidate them at the MMLF in case of need.
@@ -300,7 +306,7 @@ among CD instruments offering more than 125 bps, similarly to what we found for 
 
 Once again, the fact that the spread reduction and increased issuance effects are concentrated among instruments that are economically viable to pledge at the MMLF and those more heavily purchased by MMLF eligible participants, namely money funds, suggests that the MMLF provided stability benefits in addition to any effect coming from the PDCF.
 
-# 7 Conclusion
+## 7 Conclusion
 
 Financial stability regulations are expected to curb excessive risk taking ex-ante so as to reduce the severity of a crisis whenever it occurs. It is therefore understood that some of these regulations create a trade-off: they reduce liquidity transformation and risk-taking in normal times to provide more stability in bad times. We compare three runs on prime money funds, two of which happened prior to the introduction of strict liquidity restrictions on prime funds and one that occurred after these restrictions were put in place. We find evidence consistent with the fact that the introduction of gates and fees that was meant to curb runs actually created an incentive for investors to preemptively run on the less liquid funds. After documenting the run on prime funds that occurred during the Covid-19 crisis, we study the effectiveness of the introduction of the Money Market Mutual Funds Liquidity Facility (MMLF). By providing "liquidity of last resort", it allowed prime funds to quickly rebuild liquidity buffers, improving investors' confidence. The MMLF quickly stopped prime MMF outflows and allowed funds to restart the provision of funding to banks and corporations in the CP and CD markets, and at cheaper rates.
 
@@ -308,7 +314,7 @@ The recent Covid-19 crisis highlighted that ex-ante liquidity regulations could 
 
 concerns arise and investors run on money funds while dealers stop providing secondary market liquidity, ex-post interventions are necessary.
 
-# References
+## References
 
 Acharya, Viral V, Michael J Fleming, Warren B Hrung, and Asani Sarkar. 2017. "Dealer financial conditions and lender-of-last-resort facilities." Journal of Financial Economics, 123(1): 81-107.  
 Armantier, Olivier, Eric Ghysels, Asani Sarkar, and Jeffrey Shrader. 2015. "Discount window stigma during the 2007-2008 financial crisis." Journal of Financial Economics, 118(2): 317-335.  
@@ -420,7 +426,7 @@ The daily sample goes from March 9, 2020 to April 3, 2020 and contains CD data a
 
 <table><tr><td></td><td>(1) Spread</td><td>(2) Log(Issuance)</td><td colspan="2">(3) Log(Issuance)</td></tr><tr><td>Original Rate:</td><td></td><td></td><td>≥ 125bps</td><td>&lt; 125bps</td></tr><tr><td>ShareMMF × MMLF</td><td>-0.532**</td><td>0.946*</td><td>0.680**</td><td>0.275</td></tr><tr><td></td><td>(0.249)</td><td>(0.462)</td><td>(0.263)</td><td>(0.298)</td></tr><tr><td>Sample</td><td>Full</td><td>Full</td><td>Full</td><td>Full</td></tr><tr><td>Obs.</td><td>389</td><td>10,880</td><td>10,880</td><td>10,880</td></tr><tr><td>Adj. R2</td><td>0.679</td><td>0.060</td><td>0.041</td><td>0.034</td></tr><tr><td>Issuer FE</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr><tr><td>Day FE</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr><tr><td>Term FE</td><td>✓</td><td>✓</td><td>✓</td><td>✓</td></tr></table>
 
-# Appendix: MMLF and other emergency facilities
+## Appendix: MMLF and other emergency facilities
 
 There are a couple of other Federal Reserve facilities that were announced around the time of the MMLF announcement and might also have some impact on the CP and CD markets. The Commercial Paper Funding Facility (CPFF) was announced on March 17. CPFF supports liquidity in the CP market by purchasing paper directly from issuers and by giving investors confidence that issuers will be able to roll maturing CP. However, the CPFF was not operational until April 14, where the market conditions had improved substantially since MMLF operations began on March 23.
 
@@ -432,7 +438,7 @@ There are several important differences between PDCF and MMLF. First, PDCF is op
 
 under PDCF, primary dealers cannot pledge securities issued by themselves as collateral for loans. There is no such limitation on MMLF collateral. Fourth, PDCF loans do not have preferential treatment with respect to regulatory capital ratios, and are made with recourse beyond the pledged collateral to the primary dealers. MMLF loans do not affect banks capital ratios and have no recourse. Fifth, A2/P2-rates CP and CDs are eligible collateral for PDCF loans, while MMLF loans only accept A1/P1-rates CP and CDs as collateral. Last, the PDCF loans are priced at a fixed rate equal to the PCR, regardless of collateral type or loan maturity and loan amount is limited to the amount of margin-adjusted eligible collateral. MMLF loans have no margin-adjustments and are priced at a fixed spread over PCR, depending on the type of the collateral.
 
-# Table A.1: Timeline of Main Federal Reserve Interventions
+## Table A.1: Timeline of Main Federal Reserve Interventions
 
 This table summarizes the timeline of major interventions by the Federal Reserve during the Covid-19 crisis. CPFF refers to the Commercial Paper Funding Facility; PDCF to Primary Dealer Credit Facility; MMLF to Money Market Mutual Fund Liquidity Facility; PMCCF to Primary Market Corporate Credit Facility; SMCCF to Secondary Market Corporate Credit Facility; TALF to Term Asset-Backed Securities Loan Facility; PPPLF to Paycheck Protection Program Lending Facility; MLF to Municipal Liquidity Facility; MSLP to Main Street Lending Program. Finally, VRDNs stands for variable rate discount notes and CDs for certificates of deposit.
 

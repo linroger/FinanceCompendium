@@ -1,17 +1,27 @@
 ---
-aliases:
-  - Trade, shipping, commodities and gold
-tags:
-key_concepts:
-parent_directory: Modern Financial Markets and Institutions
-cssclasses: academia
 title: "Chapter 13: Trade, shipping, commodities and gold"
-linter-yaml-title-alias: "Chapter 13: Trade, shipping, commodities and gold"
+parent_directory: Modern Financial Markets and Institutions
+formatted: 2025-12-21 05:06:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+   - international trade finance
+   - documentary letters of credit
+   - commodity exchanges
+   - shipping finance
+secondary_tags:
+   - bills of exchange
+   - bankers acceptances
+   - forfaiting
+   - factoring
+   - marine insurance
+   - gold trading london
+cssclasses: academia
 ---
 
 # Trade, shipping, commodities and gold
 
-# LEARNING OUTCOMES
+## LEARNING OUTCOMES
 
 The financial services described in this chapter have been operating for centuries because they have satisfied such obvious needs for safe and efficient trading venues, finance to oil the wheels of trade and risk reducing tools to encourage buyers and sellers to come together. By the end of this chapter the reader should be able to: explain the techniques developed to reduce risk for companies buying or selling overseas, including documentary letters of credit, bills of exchange, banker's acceptances, forbaiting, factoring, insurance and export credit guarantees;
 
@@ -29,7 +39,7 @@ Producers of foods, metals, plastics, oil and other commodities need an organise
 
 Finally, this chapter looks at the trading of a special commodity, gold. Some of the demand for gold derives from its industrial uses, but the majority is due to human affection for a metal that never rusts or tarnishes and is in short supply. We look at the operation of the world's leading trading centre in London.
 
-# Trade
+## Trade
 
 International trade consists of the import and export of goods and services using various means of transport and transfer. Figures from the United Nations Conference on Trade and Development (UNCTAD) show the amazing growth in world trade exports and imports over the past 30 years – much faster than growth in the output of goods and services worldwide – see Exhibit 13.1.
 
@@ -37,11 +47,11 @@ Despite the contraction in 2009 compared with 2008 due to the recession, exports
 
 For this trade to be carried out efficiently, a huge infrastructure is needed, including legal services (cross-border trading requires efficient processing of the necessary documentation), accounting, financing, transportation, as well as risk mitigation. One of the most important issues is the transfer of money overseas safely and securely, and in a way that is fair and as risk-free as possible to both sides. For companies exporting goods, how and when they receive payments for their goods is of paramount importance.
 
-# Payment for exports
+### Payment for exports
 
 Exhibit 13.2 describes two extreme approaches to payments for exports. The following tools help to reduce risk for both the importer and exporter.
 
-# 1 Documentary letters of credit
+#### 1 Documentary letters of credit
 
 These are issued by financial institutions, normally banks. In return for reassurance (evidence) that all the documents needed for the goods to be exported and imported, documents showing actual shipment of the goods ('bills of lading' - see below) and official licences, etc. are present and correct, the exporter receives full payment from the importer's bank. Obviously, the importer needs to make the arrangement with its bank beforehand and will later reimburse the bank the sum transferred to the exporter. Thus, once shipment has occurred exporters are able to receive
 

@@ -1,24 +1,43 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Investment banking and other banking
-linter-yaml-title-alias: Investment banking and other banking
+parent_directory: Modern Financial Markets and Institutions
+formatted: 2025-12-21 01:15:00 PM
+formatter_model: claude-haiku-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+  - investment banking
+  - international banking
+  - mutual banking organizations
+  - finance houses
+  - islamic banking
+secondary_tags:
+  - mergers and acquisitions
+  - securitization
+  - proprietary trading
+  - market making
+  - underwriting
+  - asset management
+  - wealth management
+  - prime brokerage
+  - hire purchase
+  - leasing
+  - factoring
+  - risk management
+  - corporate finance
+cssclasses: academia
 ---
 
 # Investment banking and other banking
 
-# LEARNING OUTCOMES
+### LEARNING OUTCOMES
 
 Banking is now a term that covers a surprisingly complex and intellectually rich range of activities. This chapter explains some of that diversity so that the reader might have a sounder grasp of the important functions performed by bankers. By the end of this chapter the reader should be able to: describe the wide variety of activities undertaken by investment bankers;
 
 explain the nature and significance of international banking in the modern world;
 
-■ outline the important roles taken on by the banks set up as mutual organisations;
+- outline the important roles taken on by the banks set up as mutual organisations;
 
-■ discuss the nature of hire purchase, leasing and factoring businesses conducted by finance houses; describe Islamic banking and outline how it differs from conventional banking.
+- discuss the nature of hire purchase, leasing and factoring businesses conducted by finance houses; describe Islamic banking and outline how it differs from conventional banking.
 
 Most of us do not encounter investment banks in our daily lives. Despite them operating in the background, working with companies, governments and other large organisations they are highly influential. The extent of their importance was harshly brought home with the financial crisis of 2008. Even those of us who work in the field of finance had hardly heard of US sub-prime mortgages or the repackaging of these mortgages into bonds issued by investment bankers, let alone the repackaging of the repackaged bonds. And yet all this financial engineering led to a calamity with enormous implications for all of us.
 
@@ -28,19 +47,19 @@ The chapter moves on to discuss a number of other types of banking. With increas
 
 When people or businesses obtain an asset through hire purchase or leasing, the obligations under the agreement are in many ways similar to those of a bank loan. These are certainly considered alternative ways of borrowing money and so can be included under banking. Indeed, most of the large finance houses that operate in these areas are, in fact, subsidiaries of the major banks. Finally, this chapter highlights the differences between conventional banking and Islamic banking.
 
-# Investment banking
+## Investment banking
 
 Investment banks are complex organisations selling a wide range of services as well as trading securities for their own profit. Not all of them are active in the full range discussed below; many are content to specialise in certain services or trading areas. It is important to note that of the services they offer companies and governments, many are regarded as loss-leaders (e.g. analysis of company shares, or even lending by the bank to companies) so that they can engage with potential clients over a long period of time, gain their trust and then offer highly lucrative services when the company makes a major move such as the takeover of another company. Thus, for investment banks to maximise profits they need to be very good at coordinating their various activities so that they can sell a number of different services to a client company or government.
 
-It is people who form relationships rather than organisations, so investment banks need talented employees who can form strong bonds with clients. Such talent is expensive, especially once they have some leverage with their employers because the client executives trust them as individuals, rather than the bank, to help them with, say, a rights issue – there is always the possibility of an investment banker taking his client contact list with him to another employer. This partly explains the high bonus culture at investment banks. Then, on the trading side, the talented individuals who make good bets on the movements of securities, commodities, exchange rates, etc. can also command high bonuses. Investment banks typically put aside around 50 per cent of income for employee compensation (salary + bonuses etc.). Just to give you some idea, the average compensation and benefits for each Goldman Sachs employee in 2010 was  \$430,000: at the investment bank arm of JP Morgan Chase it was\$ 369,651. See Exhibit 3.1 to gain some idea of more general pay in the sector – these are the rates after they made a major contribution to the financial crisis! (VP = vice president of a section, MD = managing director of a section – they tend to have a lot of VPs and MDs.) There are now new rules in the major economies limiting the amount that can be taken as cash to less than 30 per cent of the bonus, with the rest payable over five years or so in shares. This is an attempt to align the interests of the bankers with the long-term interests of their shareholders and wider society. It was felt that they had been focusing on short-term gains and taking high risks to do it so that they could get a large bonus – if it all went wrong then the government would bail them out, they reasoned. And anyway, after a year or two of high bonuses they already had the house in Mayfair and a bulging Swiss bank account.
+It is people who form relationships rather than organisations, so investment banks need talented employees who can form strong bonds with clients. Such talent is expensive, especially once they have some leverage with their employers because the client executives trust them as individuals, rather than the bank, to help them with, say, a rights issue – there is always the possibility of an investment banker taking his client contact list with him to another employer. This partly explains the high bonus culture at investment banks. Then, on the trading side, the talented individuals who make good bets on the movements of securities, commodities, exchange rates, etc. can also command high bonuses. Investment banks typically put aside around 50 per cent of income for employee compensation (salary + bonuses etc.). Just to give you some idea, the average compensation and benefits for each Goldman Sachs employee in 2010 was  $430,000: at the investment bank arm of JP Morgan Chase it was $369,651. See Exhibit 3.1 to gain some idea of more general pay in the sector – these are the rates after they made a major contribution to the financial crisis! (VP = vice president of a section, MD = managing director of a section – they tend to have a lot of VPs and MDs.) There are now new rules in the major economies limiting the amount that can be taken as cash to less than 30 per cent of the bonus, with the rest payable over five years or so in shares. This is an attempt to align the interests of the bankers with the long-term interests of their shareholders and wider society. It was felt that they had been focusing on short-term gains and taking high risks to do it so that they could get a large bonus – if it all went wrong then the government would bail them out, they reasoned. And anyway, after a year or two of high bonuses they already had the house in Mayfair and a bulging Swiss bank account.
 
 # Exhibit 3.1
 
-# Bonusss for performers to rise
+#### Bonusss for performers to rise
 
 FT
 
-# Average global investment bank pay, 2009
+##### Average global investment bank pay, 2009
 
 \$'000
 
@@ -48,7 +67,7 @@ FT
 
 *1st year
 
-# Total compensation
+##### Total compensation
 
 Global head Head of Americas
 
@@ -70,9 +89,9 @@ Exhibit 3.3 discusses the difficulties of introducing more competition into inve
 
 Another place to look for an explanation for the exceptional profits is the extent of the variety of tasks undertaken by the banks – perhaps they gain some special advantage in doing so many different things for other traders, for investors or for companies. So, while helping a company
 
-# Exhibit 3.2
+### Exhibit 3.2
 
-# Pressure rises for formal bank fees inquiry
+#### Pressure rises for formal bank fees inquiry
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/f02f808621c69ff600d4f3ffa9a02c4c282821a5d421fba0f0dc9592eb3651e9.jpg)
 
@@ -108,9 +127,9 @@ Lindsay Tomlinson, chairman of the National Association of Pension Funds, said: 
 
 Source: Financial Times, 26 March 2010, p. 6. Reprinted with permission.
 
-# Exhibit 3.3
+### Exhibit 3.3
 
-# Outsized risk and regulation inhibit entrants
+#### Outsized risk and regulation inhibit entrants
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/ff19ae0356f3e3fa8eb01a0555b6295c27fe35c5b4c89542e06dc2473f9e8f04.jpg)
 
@@ -226,7 +245,7 @@ The balance sheet of an investment bank is somewhat different to that of a comme
 
 Instead of holding deposits with the central bank, investment banks tend to place cash at the retail banks or buy money market instruments if they have a temporary surplus of cash.
 
-# Global investment banks
+### Global investment banks
 
 Bulge bracket investment banks are those that are regarded as the leaders. They are dominant in key activities such as assisting corporations with bond and equity issuance, underwriting and mergers and acquisition, particularly for larger companies. Goldman Sachs and Morgan Stanley Capital are examples of bulge bracket firms. Global banks are those active in a number of countries. The US investment banks became very large in the US between the 1930s and the 1990s because after the Great Depression US banks could become either commercial banks or investment banks but not both. Investment banks were not allowed to take deposits but they were allowed to assist with the issuance of securities, underwriting, securities dealing and other market-related activities. Commercial banks could take deposits and lend but were restricted in their business activities; in particular they were not to engage in underwriting and trading of securities.
 
@@ -234,9 +253,9 @@ Thus, as corporations grew and realised they needed investment banking-type serv
 
 There are two main types of investment bank today. First, there are the huge, global banks that perform the wide variety of functions described in this chapter. Second, there are much smaller outfits that specialise in particular areas. Thus you might have a boutique investment bank that simply advises companies on financing issues and mergers but does not raise finance for the firm, or underwrite, or engage in securities trading. Rothschild and Lazard are two of the more established names, which, while not exactly boutique, do have fewer potential conflicts of interest as they concentrate on advice and do not undertake secondary market trading or many other aspects of the securities business conducted by the global investment banks. Occasionally boutiques get bought up by the global banks – see Exhibit 3.5 for an example.
 
-# Exhibit 3.5
+### Exhibit 3.5
 
-# Nomura takeover of Tricorn will see reversal of flight to boutiques
+#### Nomura takeover of Tricorn will see reversal of flight to boutiques
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/f032f9cf193dd9e00fec9f93ad75c7b0189e535fa95b2f3260c6b426cd3ef161.jpg)
 
@@ -256,9 +275,9 @@ Mr Dawson and Mr Dowley will also focus on boosting Nomura's roster of corporate
 
 Source: Financial Times, 16 December 2009, p. 21. Reprinted with permission.
 
-# Corporate and government assistance
+### Corporate and government assistance
 
-# Advice on financing and raising finance
+### Advice on financing and raising finance
 
 A corporation reaching the point when it needs to raise capital from outside the firm (i.e. not rely on retained profits) faces a dizzying array of alternative types of finance and ways of raising that finance, from a syndicate bank loan to a bond to selling new shares. Investment banks can advise on the advantages and disadvantages of each and suggest paths to take.
 
@@ -278,13 +297,13 @@ A number of investment banks were given a big boost hundreds of years ago when g
 
 Here is a point of confusion: in order to distinguish the central activities of financial advice, raising funds for companies and governments, (including underwriting) from the other activities undertaken by the bank, the former are sometimes collectively referred to as 'investment banking' within investment banks. They are also referred to as corporate finance. (In some banks these terms may also encompass mergers, acquisitions and corporate restructuring.) But as you can see below there are many other activities within investment banks than 'investment banking'. I suppose, at least, it separates some of the core elements focused on helping companies (and governments) from the rest.
 
-# Mergers, acquisitions, corporate restructuring
+## Mergers, acquisitions, corporate restructuring
 
 Investment banks often have large departments ready to advise companies contemplating the merger or takeover of another firm. This sort of help can be very lucrative for the bank – it would seem that for once-in-a-blue-moon corporate actions like this directors do not look too carefully at the amount they have to pay for what is supposedly the best advice available. Indeed, the M&A departments of the banks do attract some very able people, but the fees seem on the high side for handholding and guidance. But then, they do offer, besides expertise on, say, takeover regulation and tactics, a recognised 'name' respected by investors should the acquiring company need to raise additional finance through a bond issue or a rights issue. The fees for a bundle of services like this can run into tens of millions – see Exhibit 3.6. For pure advice (without fund raising) the fees for smaller company deals are around 3–4 per cent of the total sale value; for larger deals (billions) they are generally in the range of 0.125–0.5 per cent. When you consider that Goldman Sachs and Morgan Stanley each assist more than 600 billion of M&A each year, even 0.125 per cent fees amount to a large income for advice. And they make a lot more on top by raising finance for the deal makers. Other players in this market usually near the top of the rankings in terms of value of mergers advised on include Credit Suisse, Citigroup, Deutsche Bank, JP Morgan, Lazard, UBS, Barclays and Bank of America Merrill Lynch. In some cases fees are payable by the bidder only if the bid is successful or by the target if there is a successful defence
 
-# Exhibit 3.6
+#### Exhibit 3.6
 
-# Investors angered as costs soar over 750m
+##### Investors angered as costs soar over 750m
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/1885d0af84c873dbf4b1370e78ce46abe22fe8b18f41f031805de2c5da7f5636.jpg)
 
@@ -322,15 +341,15 @@ Sometimes the chief executive of a corporation announces that they are undertaki
 
 The corporate finance bankers within investment banks are generally sophisticated, suave communicators who nurture long-term relationships with key executives in the large corporations. These relationship managers tend to spend their time visiting chief executives and chief financial officers of companies, either those that already work with the investment bank or prospective clients. They are not trying to push one particular product onto clients, but give advice on the most suitable from across the bank's full range for the client at that stage of its development – offering the right solution at the right time. The very best relationship managers (often the corporate broker in the UK) put the needs of the client first at all times. Over a period of years they develop a good understanding of the client's business strategy and financing needs. They are then in a position to draw on the various product specialists within the bank to put together a suitable package of services. They are focused on a very distant horizon, often providing financing advice without a fee for many years in the hope that when the time is right for the corporation to launch an IPO, an SEO or a merger bid, it will pay large fees to the bankers it has trusted for so many years. The following is crude stereotyping, but contains enough truth to be interesting: the traders within the banks (see below for trading activities) tend to have a different personality and culture and there can be a degree of suspicion and mutual misunderstanding between them and the corporate bankers. Traders are focused on making money over short time periods. Corporate bankers sometimes characterise the traders as pushy and uncouth. Meanwhile, the traders often fail to understand the corporate bankers' lack of impatience at making money.
 
-# Risk management
+## Risk management
 
 The treasury departments of large companies have to deal with significant amounts of temporary cash and try to earn a return on this cash for a short period. They also need to manage various risk exposures that the firm has, e.g. the problems that can be caused by shifts in interest rates, commodity prices or foreign exchange rates. Investment banks are able to assist with the investment of temporary cash surpluses and discuss with corporate treuers the outlook for risk exposures and advise them on how to mitigate the risk.
 
-# Lending
+## Lending
 
 With a syndicated loan the investment bank may do more than simply advise and arrange the deal – they might participate as a lender. Investment banks may make other loans available to firms. The fact that most investment banks are part of universal banks is used as a competitive weapon – they can use the big bank's enormous balance sheet to offer low-cost loans to help win investment banking business.
 
-# Privatisation
+## Privatisation
 
 The Thatcher government in the 1980s hit upon the idea of selling off state-owned assets such as Rolls-Royce, British Airways and British Gas. The investment banks assisted in this process, advising and organising the sell-offs, and thus built up a specialised knowledge of privatisation which they were then able to take to other countries as the idea caught on around the globe. The banks have also helped set up public-private partnerships (PPPs) in which governments persuade private firms to build and operate, say, a school or a prison in return for an income flow in subsequent years.
 
@@ -338,9 +357,9 @@ Investment banks are looking forward to helping in the sale of the banks that we
 
 Thus investment banks benefit from the aftermath of a crisis they helped to create.
 
-# Exhibit 3.7
+#### Exhibit 3.7
 
-# Advisers set to pitch for share sale of rescued banks
+##### Advisers set to pitch for share sale of rescued banks
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/02349b6b6c737e692bc2f60fe036263cc7da2e3a1ecf1a476d990799ed436a24.jpg)
 
@@ -368,7 +387,7 @@ But some bankers believe the UKFI, which stresses its independence from governme
 
 Source: Financial Times, 18 July 2009, p. 2. Reprinted with permission.
 
-# Market activities
+### Market activities
 
 Alongside great skill in assisting companies with primary market issuance of bonds and shares, investment banks have developed experience and superior capability in secondary market dealing for equities, bonds, money market instruments, derivatives, commodities, currencies, etc. They perform one, two or all three of the following roles in market trading:
 
@@ -384,7 +403,7 @@ An investment bank may also have a corporate broker arm, which acts on behalf of
 
 # Exhibit 3.8
 
-# Broking under scrutiny as banks seek fees
+#### Broking under scrutiny as banks seek fees
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/c3539ebe906f0ca6b99cd3685d0fbcac2b179987d08b87018028fe926468a63b.jpg)
 
@@ -416,7 +435,7 @@ As global regulators rewrite the industry's rule-book, forcing banks to hold mor
 
 BarCap, for example, is on a hiring drive as part of a push
 
-# Exhibit 3.8 continued into broking as it tries to build up its European equities business. However, it does not expect overnight success.
+#### Exhibit 3.8 continued into broking as it tries to build up its European equities business. However, it does not expect overnight success.
 
 The three dominant forces in the market, JPMorgan Cazenove, UBS and Bank of America Merrill Lynch, have historically focused on a strategy of critical mass.
 
@@ -459,9 +478,7 @@ Source: Financial Times, 8 October 2010, p. 21. Reprinted with permission.
 
 Market makers, also known as dealers, fulfil a crucial role in the markets: in those securities in which market makers agree to make a market there will always be someone available who will quote a price at which they will buy or sell – as a purchaser or seller you may not like the price but at least someone is making a trade possible. To take share trading as an example, imagine if you wanted to invest in a small company's shares and there were no market makers. You might hesitate because the shares would fail to have the important quality of liquidity, that is the ability to sell the shares quickly at a low transaction cost without moving the price against you. Investors in companies lacking an active secondary market will demand higher rates of return (lower share prices) to compensate for the inability to quickly find a counterparty willing to trade.
 
-We refer to a trading system with market makers at the centre as a quote-driven system because client investing firms can obtain firm bid and offer (ask) prices on a security and the dealers stand ready to trade. A bid price is one that the market maker will buy at (what the client firm could get from selling). An ask or offer price is what the market maker is willing to sell at
-
-(what the client firm would have to pay should they want to trade). Naturally, because the market maker is trying to make a profit, the bid price is always lower than the offer price. If the gap becomes too wide, clients will be lured away by better prices offered by competing market makers in that security. The difference between the prices is known as the trader's spread or bid-offer spread. Many of these prices are displayed on electronic systems so that clients can see them displayed on their computer screens throughout the day. Other security bid-offer prices are given to you only if you telephone the market maker and ask for a quote.
+We refer to a trading system with market makers at the centre as a quote-driven system because client investing firms can obtain firm bid and offer (ask) prices on a security and the dealers stand ready to trade. A bid price is one that the market maker will buy at (what the client firm could get from selling). An ask or offer price is what the market maker is willing to sell at (what the client firm would have to pay should they want to trade). Naturally, because the market maker is trying to make a profit, the bid price is always lower than the offer price. If the gap becomes too wide, clients will be lured away by better prices offered by competing market makers in that security. The difference between the prices is known as the trader's spread or bid-offer spread. Many of these prices are displayed on electronic systems so that clients can see them displayed on their computer screens throughout the day. Other security bid-offer prices are given to you only if you telephone the market maker and ask for a quote.
 
 Market makers take a considerable risk: they have to hold inventories of shares and other securities to supply those who want to buy. Tying up a lot of money in inventories of shares, bonds, etc. can be very expensive, and there is always the possibility of downward movement in price while they hold millions of pounds or euros in inventory. The degree of risk varies from one security to another and this helps explain the differences in the size of the bid-offer spread. For some securities it is significantly less than 1 per cent of the value, in others it can be 20 per cent or more. The other major factor influencing the spread is the volume of trade that takes place relative to the amount that has to be held in inventory – high volume gives access to a liquid market for the market maker. Thus Marks & Spencer has millions of shares traded every day and so the market maker is not likely to have M&S shares on its hands for long, because they are going out of the door as fast as they are coming in – spreads here can be around one-tenth of 1 per cent. Shares of a small engineering company, meanwhile, might trade in lots of only a few hundred at twoor three-day intervals. Thus the market maker has money tied up for days before selling and is fearful of a price fall between trading days.
 
@@ -491,7 +508,7 @@ It is not easy to draw a line between prop trading and other activities such as 
 
 You may think there might be some conflict of interest between advising a firm on its finances or acting as a broker to a pension fund, thus gaining advanced and special knowledge of client actions on the one hand, and to try to make profits by trading the same or similar securities on their own account on the other. You may think that, but I could not possibly comment.
 
-# Leaving a lasting Wall Street legacy
+#### Leaving a lasting Wall Street legacy
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/f81d5d40a8ac781cd920b06844bcdfc511deb06987081c8f2cc5dec5498c8198.jpg)
 
@@ -541,15 +558,13 @@ Patrick Jenkins
 
 From Wall Street to the City of London, "prop" traders - who deal for their bank's own (proprietary) account - are renowned as the widest of wide boys. They are the archetypal buyers of Rolex watches and red Ferraris, the incarnation of the fat-walleted banker.
 
-Politically, then, they were a logical enough target for Barack Obama's broadside against banks, designed to "protect taxpayers" and
+Politically, then, they were a logical enough target for Barack Obama's broadside against banks, designed to "protect taxpayers" and "rein in excesses". The same motivation lay behind the UK's 50 percent supertax on bank bonuses.
 
-"rein in excesses". The same motivation lay behind the UK's 50 percent supertax on bank bonuses.
-
-For Mr Obama, though, there was an intellectually compelling justification too. By stopping banks
+For Mr Obama, though, there was an intellectually compelling justification too. By stopping banks from owning hedge funds, private equity and prop trading operations - the kind of "casino banking" that involves betting bank capital to generate quick profits - he is trying to cut risk in the financial sector.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/62bcaf7f519222bb47112a6c71f94a5d721c7ce426f7a13b336a611c41240a2a.jpg)
 
-# Exhibit 3.11 continued from owning hedge funds, private equity and prop trading operations - the kind of "casino banking" that involves betting bank capital to generate quick profits - he is trying to cut risk in the financial sector.
+# Exhibit 3.11 continued
 
 The first two of the three taboos (if Congress backs the president's plan), will be straightforward to implement. But cracking down on prop trading will be far from easy.
 
@@ -989,7 +1004,7 @@ Divestiture - the selling-off of a subsidiary
 - Investment banks advised the UK government on privatisation (the selling-off of state-owned assets).
 - Investment banks assist with the setting up of public-private partnerships (PPPs), which allow private firms to build and operate a facility (e.g. a prison) in return for an income flow.
 
-# Brokerage
+## Brokerage
 - They act as corporate brokers to companies, advising on regulations and all aspects of bond and equity issuance. They may offer services to retail and wholesale investor clients as well, advising on, and facilitating, the buying and selling of securities.
 
 Market making or dealing: they facilitate the buying and selling of shares by offering bid (buying) and offer or ask (selling) prices.
@@ -1012,7 +1027,7 @@ Securitisation is the bundling together of a group of assets, such as the right 
 - Investment banks assist with, and occasionally provide funds for, private equity (venture capital) trading in unquoted companies.
 - International banking is banking business conducted across national borders and/or with foreign currencies.
 
-# Different types of international banking
+## Different Types of International Banking
 - For nationals at home
 - For non-nationals at home
 - Eurocurrency banking is with money deliberately held outside the control of the regulators and governments of the currency
@@ -1046,7 +1061,7 @@ An operating lease commits the lessee to only a short-term contract, less than t
 A finance lease commits the lessee to a contract for the substantial part of the useful life of the asset.
 - Islamic banking: under Islamic Sharia law the payment of riba (interest) is prohibited and the receiver of finance must not bear all the risk of failure. Also, investment in alcohol, tobacco, pornography or gambling is not allowed. However, Islam does encourage entrepreneurial activity and the sharing of risk through equity shares. Thus a bank can create profit-sharing products to offer customers.
 
-# References and further reading
+## References and Further Reading
 
 To keep up to date and reinforce knowledge gained by reading this chapter I can recommend the following publications: Financial Times, The Economist, Bank of England Quarterly Bulletin and Bank for International Settlements Quarterly Review (www.bis.org).
 
@@ -1070,7 +1085,7 @@ Saunders, A. and Cornett, M. M (2007) Financial Markets and Institutions, 3rd en
 
 A US perspective on banking.
 
-# Websites
+### Websites
 
 Association for Financial Markets in Europe www.afme.eu
 
@@ -1098,11 +1113,11 @@ Financial Times www.ft.com
 
 International Capital Markets Association www.icmagroup.org
 
-# Video presentations
+### Video Presentations
 
 Bank chief executives and other senior people describe and discuss policy and other aspects of banking in interviews, documentaries and webcasts at Cantos.com. (www.cantos.com) – these are free to view.
 
-# Case study recommendations
+### Case Study Recommendations
 
 See www.pearsoned.co.uk/arnold for case study synopses.
 
@@ -1114,112 +1129,4 @@ The Credit Suisse/Gerson Lehrman Group Alliance (2010) Authors: Robert G. Eccles
 
 Société Générale (A): The Jérôme Kerviel Affair (2010) Author: Francois Brochet. Harvard Business Review.
 
-# Self-review questions
 
-1 What is an investment bank?
-
-2 Why are certain individual investment bank employees crucial to the bank's profitability?
-
-3 Give explanations for the high profits that investment banks make.
-
-4 Why might investment bank employees be thought to have knowledge that could create a conflict of interest?
-
-5 Why are investment banks not subject to problems caused by excessive withdrawal of cash by depositors?
-
-6 What are (a) bulge bracket investment banks, (b) global investment banks, (c) boutique investment banks?
-
-7 Explain the underwriting that investment banks carry out.
-
-8 What is (a) an IPO, (b) an SEO?
-
-9 How do investment banks aid overseas trade?
-
-10 Explain corporate financial restructuring and when it might be needed.
-
-11 What is a strategic review and in what circumstances would it be undertaken?
-
-12 What is the importance of relationship managers?
-
-13 What is the difference between a private-client broker and a corporate broker?
-
-14 What is a quote-driven system?
-
-15 What is a bid-offer spread?
-
-16 Explain the significance of proprietary trading.
-
-17 What are Chinese walls?
-
-18 Name as many elements as you can of FICC trading.
-
-19 What is asset management?
-
-20 What is the difference between a private-client representative and an institutional salesman?
-
-21 Describe two types of international banking that do not require staffing overseas offices.
-
-22 Explain the following ways of conducting international banking: correspondent banking, representative office, overseas branches, overseas subsidiary.
-
-23 Describe the difference between a building society and a credit union.
-
-24 What is a Sparkasse, Landesbank and a savings and loan association?
-
-25 What is hire purchase and what are the advantages of this form of finance compared with a bank loan for a corporation?
-
-26 How does hire purchase differ from leasing?
-
-27 Explain the terms 'operating lease' and 'finance lease'.
-
-28 How does Islamic banking differ from conventional banking?
-
-# Questions and problems
-
-1 Give an explanation for the supremacy of US investment banks, with examples.
-
-2 Describe and explain how investment banks assist companies wishing to raise finance.
-
-3 Write a description of investment banks' market activities.
-
-4 Explain the function of market makers, how they operate and what risks they face.
-
-5 Discuss the conflicts of interest that are apparent in FICC trading.
-
-6 (a) Using the internet, choose an investment bank and discuss its securitisation policy.
-
-(b) How did the economic downturn of 2008-2010 affect securitisations?
-
-7 Describe and explain the various ways in which international banking can be conducted.
-
-8 Building societies, mutual savings banks, savings and loans, credit unions and cooperative banks are highly influential in many countries. Describe the nature of these organisations and compare them with shareholder-owned banks.
-
-9 Gordons plc has an annual turnover of £3 million and a pre-tax profit of £400,000. It is not quoted on a stock exchange and the family owning all the shares has no intention of permitting the sale of shares to outsiders or providing more finance themselves. Like many small and medium-sized firms, Gordons has used retained earnings and a rolled-over overdraft facility to finance expansion. This is no longer seen as adequate, especially now that the bank manager is pushing the firm to move to a term loan as its main source of external finance.
-
-You, as the recently hired finance director, have been in contact with some financial institutions. The Matey hire purchase company is willing to supply the £1 million of additional equipment the firm needs. Gordons will have to pay for this over 25 months at a rate of £50,000 per month with no initial deposit.
-
-The Helpful Leasing Company is willing to buy the equipment and rent it to Gordons on a finance lease stretching over the four-year useful life of the equipment, with a nominal rent thereafter. The cost of this finance is virtually identical to that for the term loan, that is, 13 per cent annual percentage rate.
-
-# Required
-
-Write a report for the board of directors explaining the nature of the four forms of finance which may be used to purchase the new equipment: hire purchase, leasing, bank term loan and overdraft. Point out their relative advantages and disadvantages.
-
-10 A small firm is considering the purchase of a photocopier. This will cost £2,000. An alternative to purchase is to enter into a leasing agreement known as an operating lease, in which the agreement can be terminated with only one month's notice. This will cost £60 per month. The firm is charged interest of 12 per cent on its overdraft.
-
-# Required
-
-Consider the advantages and disadvantages of each method of obtaining the use of a photocopier.
-
-11 Explain some of the reasons for the growth in the hire purchase and leasing industry around the world over the past two decades.
-
-12 Explain why a loss-making company is more likely to lease an asset than to buy it.
-
-# Assignments
-
-1 Look at a few annual reports and accounts of a non-financial company you know well. Write a report detailing the uses that this company has made of the banking and related services discussed in this chapter.
-
-2 Examine the reports and accounts of six universal banks. Analyse the extent to which their activities are retail, corporate or investment banking, and how they have changed in this regard over the last five years.
-
-# Web-based exercises
-
-1 Go to the websites of a number of investment banks and write a report describing their various investment banking activities. Include tables showing the way income from these activities has changed over the past five years.
-
-2 Go to www.fla.org.uk and obtain statistics on leasing and hire purchase. Write a report explaining the different types of asset finance available. Include statistics.

@@ -1,25 +1,40 @@
 ---
-aliases:
-  - Options and swaps
-tags:
-key_concepts:
+title: "Chapter 11: Options and Swaps"
 parent_directory: Modern Financial Markets and Institutions
+formatted: 2025-12-21 05:05:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+   - options trading
+   - interest rate swaps
+   - credit default swaps
+   - derivative instruments
+   - hedging strategies
+secondary_tags:
+   - call options
+   - put options
+   - spread betting
+   - contracts for difference
+   - interest rate caps
+   - currency swaps
+   - option pricing models
+   - black-scholes model
+   - swap market intermediaries
+   - naked credit default swaps
 cssclasses: academia
-title: "Chapter 11: Options and swaps"
-linter-yaml-title-alias: "Chapter 11: Options and swaps"
 ---
 
-# Options and swaps
+# Chapter 11: Options and Swaps
 
-# LEARNING OUTCOMES
+## LEARNING OUTCOMES
 
 There are many practical uses of the derivatives discussed in this chapter, and this is where our emphasis lies, on the practical rather than the theoretical and mathematical. By the end of the chapter you should be able to: explain the nature of options and illustrate the use of individual share options and share index options;
 
 describe the way in which spread betting and contracts for difference deals work;
 
-■ outline the advantages of using caps and floors;
+- outline the advantages of using caps and floors;
 
-■ discuss the use of interest rate swaps, and their relationship with forward rate agreements; show the value of the credit default swaps markets for those faced with credit risk.
+- discuss the use of interest rate swaps, and their relationship with forward rate agreements; show the value of the credit default swaps markets for those faced with credit risk.
 
 The last chapter showed how derivatives can be used to fix a future outcome. So, if you are currently vulnerable to rises in interest rates, for example, you can arrange an offsetting future agreement that has the opposite value movements to your current exposure. If interest rates rise you lose on the underlying but gain an equal amount on the future. If they fall you gain by paying less on the underlying but lose an equal amount on the future.
 
@@ -31,7 +46,7 @@ Credit default swaps, invented only in the 1990s, allow you to pass on the risk 
 
 As well as options, swaps and credit default swaps this chapter examines caps, which permit a limit to be set on interest paid, and floors, which can be used to set a minimum interest to be received. And then there are spread bets and contracts for difference which allow the purchaser to gain from a rise or fall in the price of an underlying without ever owning it. These are very popular with small investors as well as large corporations engaged in takeovers, or simply for hedging and speculating.
 
-# Options
+## Options
 
 An option is a contract giving one party the right, but not the obligation, to buy or sell a financial instrument, commodity or some other underlying asset at a given price, at or before a specified date. The purchaser of the option can either exercise the right or let it lapse – the choice is theirs.
 
@@ -41,15 +56,13 @@ Options can also be traded. Perhaps the option to buy could be sold to another c
 
 Once planning permission has been granted the greenfield site may be worth £1.5 million. If there is an option to buy at £1 million the option right has an intrinsic value of £500,000, representing a 4,900 per cent return on £10,000. From this we can see the gearing effect of options: very large sums can be gained in a short period of time for a small initial cash outlay.
 
-# Share options
+## Share options
 
-Share options have been traded for centuries but their use expanded dramatically with the creation of traded option markets in Chicago, Amsterdam and, in 1978, the London Traded Options Market. In 1992 this became part of the London International Financial Futures and Options
-
-Exchange (LIFFE). Euronext bought LIFFE in 2002, which later combined with the New York Stock Exchange, so LIFFE is now called NYSE Liffe.
+Share options have been traded for centuries but their use expanded dramatically with the creation of traded option markets in Chicago, Amsterdam and, in 1978, the London Traded Options Market. In 1992 this became part of the London International Financial Futures and Options Exchange (LIFFE). Euronext bought LIFFE in 2002, which later combined with the New York Stock Exchange, so LIFFE is now called NYSE Liffe.
 
 A share call option gives the purchaser a right, but not the obligation, to buy a fixed number of shares at a specified price at some time in the future. In the case of traded options on NYSE Liffe, one option contract relates to a quantity of 1,000 shares. The seller of the option, who receives the premium, is referred to as the writer. The writer of a call option is obligated to sell the agreed quantity of shares at the agreed price sometime in the future. American-style options can be exercised by the buyer at any time up to the expiry date, whereas European-style options can be exercised only on a predetermined future date. Just to confuse everybody, the distinction has nothing to do with geography: most options traded in Europe are American-style options.
 
-# Call option holder (call option buyer)
+## Call option holder (call option buyer)
 
 Now let us examine the call options available on an underlying share – AstraZeneca on 17 December 2010. There are a number of options available for this share, many of which are not reported in the table presented in the Financial Times. A section of this table is reproduced as Exhibit 11.1. These are American-style options.
 
@@ -67,7 +80,7 @@ The two exercise price (also called strike price) levels presented in Exhibit 11
 
 To emphasise the key points: the option premiums vary in proportion to the length of time over which the option is exercisable (e.g. they are higher for a February option than for a January option). Also, call options with lower exercise prices will have higher premiums.
 
-# An illustration
+## An illustration
 
 Suppose that you are confident that AstraZeneca shares are going to rise significantly over the next two months to 3200p and you purchase a February 2900 call at 101.5 pence. The cost of this right to purchase 1,000 shares is £1015 (101.5p × 1,000 shares). If the share rises as expected then you could exercise the right to purchase the shares for a total of £29,000 and then sell these in the market for £32,000. A profit of £3,000 less £1015 = £1,985 is made before transaction costs (the brokers' fees, etc. would be in the region of £20–£50). This represents a massive 196 per cent rise before costs (£1,985/£1015).
 

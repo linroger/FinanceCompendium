@@ -1,117 +1,65 @@
 ---
-parent_directory:
-title: "**`16`**"
-tags:
-aliases:
-parent_folder: Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press
-subfolder:
-key_concepts:
+title: Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press - Part 2 (pages 501-1000)
+parent_directory: Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press
+formatted: 2025-12-21 05:05:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - interest rate structure
+  - term structure of interest rates
+secondary_tags:
+  - treasury benchmark rates
+  - risk premium analysis
+  - credit risk ratings
+  - embedded options
+  - yield spreads
 cssclasses: academia
-linter-yaml-title-alias: "**`16`**"
 ---
 
----
-title: "Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press - Part 2 (pages 501-1000)"
-source: "Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press - Part 2 (pages 501-1000).pdf"
-converted: "2025-11-28T13:34:34.426574"
-type: document
----
+## Chapter 16: The Structure of Interest Rates
 
-8. This is described in chapter 3 ("The Principle Determining the Value of Goods of Higher Order")
+### Contents
 
-- f his 1871 book, _Grundsätze der Volkswirtschaftslehre_ . The book was translated by James Dingwall
-and Bert F. Hoselitz, _Principles of Economics_ (Auburn, Alabama: Ludwig von Mises Institute, 1976).
+#### Learning Objectives
 
-9. "What is the Lowest Level of Unemployment That the U.S. Economy Can Sustain?" Available at
-[https://www.federalreserve.org/faqs/economy_14424.htm.](https://www.federalreserve.org/faqs/economy_14424.htm)
+#### The Structure of Interest Rates
 
-10. Kathryn Holston, Thomas Laubach, and John C. Williams, "Measuring the Natural Rate of
-Interest: International Trends and Determinants," _Journal of International Economics_ 108 (2017): 59–
+##### The Base Interest Rate
 
-12. Gary B. Gorton, "The History and Economics of Safe Assets," _Annual Review of Economics_ 9
-(2017): 547–586.
+##### The Risk Premium
 
-13. Peter R. Fisher, "Reflections on the Meaning of 'Risk Free'," in _Sovereign Risk: A World without_
-_Risk-Free Assets_ (Basel, Switzerland: Bank for International Settlements, 2013), pp. 65–72.
+- Types of issuers
+- Perceived creditworthiness of issuer
+- Term to maturity
+- Inclusion of options
+- Taxability of interest
+- Expected liquidity of an issue
 
-14. See, for example, Gauti B. Eggertsson and Paul Krugman, "Debt, Deleveraging, and the Liquidity
-Trap: A Fisher-Minsky-Koo Approach," _Quarterly Journal of Economics_ 127 (2012): 1459–1513; and
-Pierre-Oliver Gourinchas and Jeanne Olivier, "Global Safe Assets," BIS Working Paper 399 (Basel,
-Switzerland: Bank for International Settlements, December 2012).
+##### An Alternative Benchmark Interest Rate: The Swap Rate
 
-15. Fischer Black, "Capital Market Equilibrium with Restricted Borrowing," _Journal of Business_ 45
-(1972): 444–453.
+#### The Term Structure of Interest Rates
 
-16. Marvin Goodfriend and Robert G. King, "The Incredible Volcker Disinflation," _Journal of_
-_Monetary Economics_ 52 (2005): 981–1015.
+##### Spot Rates
+- Constructing the theoretical spot rate curve
+- Using spot rates to value a bond
 
-17. Goodfriend and King, "The Incredible Volcker Disinflation."
+##### Forward Rates
+- Relationship between spot rates and short-term forward rates
+- Forward rate as a hedgeable rate
 
-# **`16`**
+##### Historical Shapes Observed for the Treasury Yield Curve
 
-```
-The Structure of Interest Rates
+##### Determinants of the Shape of the Term Structure
+- Pure expectations theory
+- Liquidity theory
+- Preferred habitat theory
+- Market segmentation theory
 
-CONTENTS
+#### Key Points
 
-```
+#### Questions
 
-**Learning Objectives**
-
-**The Structure of Interest Rates**
-
-The Base Interest Rate
-
-The Risk Premium
-
-Types of issuers
-
-Perceived creditworthiness of issuer
-
-Term to maturity
-
-Inclusion of options
-
-Taxability of interest
-
-Expected liquidity of an issue
-
-An Alternative Benchmark Interest Rate: The Swap Rate
-
-**The Term Structure of Interest Rates**
-
-Spot Rates
-
-Constructing the theoretical spot rate curve
-
-Using spot rates to value a bond
-
-Forward Rates
-
-Relationship between spot rates and short-term forward rates
-
-Forward rate as a hedgeable rate
-
-Historical Shapes Observed for the Treasury Yield Curve
-
-Determinants of the Shape of the Term Structure
-
-Pure expectations theory
-
-Liquidity theory
-
-Preferred habitat theory
-
-Market segmentation theory
-
-**Key Points**
-
-**Questions**
-
-```
-Learning Objectives
-
-```
+##### Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -148,45 +96,14 @@ change: price risk and reinvestment risk.
 
 In chapter 15, we explained interest rate determination in a simple economy.
 
-However, no economy has just one interest rate; instead, there is a structure
-
-- f interest rates. The interest rate that a borrower must pay depends on a
-myriad of factors, which we describe in this chapter. We begin with a
-discussion of the structure of interest rates, explaining the factors that affect
-the yield spread or risk premium for non-U.S. Treasury securities (i.e., why
-
-debt obligations not issued by the U.S. Treasury offer a higher potential yield
-
-than U.S. Treasury securities offer). We then focus on one particular
-
-relationship: the relationship between the yield offered on a debt obligation
-
-and its maturity. This relationship is referred to as the "term structure of
-
-interest rates."
+However, no economy has just one interest rate; instead, there is a structure of interest rates. The interest rate that a borrower must pay depends on a myriad of factors, which we describe in this chapter. We begin with a discussion of the structure of interest rates, explaining the factors that affect the yield spread or risk premium for non-U.S. Treasury securities (i.e., why debt obligations not issued by the U.S. Treasury offer a higher potential yield than U.S. Treasury securities offer). We then focus on one particular relationship: the relationship between the yield offered on a debt obligation and its maturity. This relationship is referred to as the "term structure of interest rates."
 
 ```
 The Structure of Interest Rates
 
 ```
 
-The numerous debt obligations issued by public and private entities
-
-throughout the world offer different interest rates. When an entity agrees to
-
-pay an interest rate on a debt obligation that it has issued, the interest rate is
-
-not randomly determined. Instead, certain factors affect the interest rates that
-
-determine what interest rate an entity will have to pay if it wants to borrow
-
-money. We refer to these factors that determine the interest rate that
-
-borrowers must pay as the "structure of interest rates." The starting point in
-
-determining the interest rate that a borrower must pay is the base interest
-
-rate.
+The numerous debt obligations issued by public and private entities throughout the world offer different interest rates. When an entity agrees to pay an interest rate on a debt obligation that it has issued, the interest rate is not randomly determined. Instead, certain factors affect the interest rates that determine what interest rate an entity will have to pay if it wants to borrow money. We refer to these factors that determine the interest rate that borrowers must pay as the "structure of interest rates." The starting point in determining the interest rate that a borrower must pay is the base interest rate.
 
 ```
 The Base Interest Rate
@@ -221,24 +138,18 @@ reflects the prices at which the securities are issued. Coupon securities pay
 
 interest every six months, plus principal at maturity. Discount securities pay
 
-- nly a contractually fixed amount at maturity. Treasury securities are
-typically issued on an auction basis according to regular cycles for securities
-
-- f specific maturities. The current Treasury practice is to issue all securities
+only a contractually fixed amount at maturity. Treasury securities are
+typically issued on an auction basis according to regular cycles for securities of specific maturities. The current Treasury practice is to issue all securities
 with maturities of one year or less as discount securities, called **Treasury**
-**bills** . All securities with maturities of two years or longer are issued as
-
-_._
-
-**Treasury coupon securities**
+**bills** . All securities with maturities of two years or longer are issued as **Treasury coupon securities**
 
 The most recently auctioned Treasury issues for each maturity are
 
-referred to as **on-the-run issues** - r **current coupon issues** . Issues auctioned
+referred to as **on-the-run issues** or **current coupon issues** . Issues auctioned
 
 prior to the current coupon issues are typically referred to as **off-the-run**
 
-**issues** ; they are not as liquid as on-the-run issues and therefore offer a higher
+**issues**. They are not as liquid as on-the-run issues and therefore offer a higher
 
 yield than the corresponding on-the-run Treasury issue. Note that every day,
 
@@ -252,13 +163,7 @@ for investing in a non-Treasury security is the yield offered on a comparable
 
 maturity for an on-the-run Treasury security. So, for example, if an investor
 
-wanted to purchase a 10-year bond on a particular day at the time that the
-
-10-year on-the-run Treasury is 4.49%, then the minimum yield the investor
-
-would want is 4.49%. The base interest rate is also referred to as the
-
-**benchmark interest rate** . [1]
+wanted to purchase a 10-year bond on a particular day at the time that the 10-year on-the-run Treasury is 4.49%, then the minimum yield the investor would want is 4.49%. The base interest rate is also referred to as the **benchmark interest rate**. [1]
 
 ```
 The Risk Premium
@@ -275,17 +180,11 @@ the yield on a 10-year non-Treasury security is 5.89% when the on-the-run
 
 10-year Treasury yield is 4.49%, then the spread would be 140 basis points.
 
-This spread reflects the additional risks the investor faces by acquiring this
-
-security that is not issued by the U.S. government, and therefore the spread
-
-can be called a **risk premium** . Thus, we can express the interest rate offered
-
-- n a non-Treasury security as
+This spread reflects the additional risks the investor faces by acquiring this security that is not issued by the U.S. government, and therefore the spread can be called a **risk premium**. Thus, we can express the interest rate offered on a non-Treasury security as
 
 Base interest rate + Spread,
 
-- r equivalently,
+or equivalently,
 
 Base interest rate + Risk premium.
 
@@ -309,7 +208,7 @@ There are factors that affect the interest rate by which a security offers
 
 above an otherwise comparable benchmark security. This additional interest
 
-rate is referred to as the **yield spread** - r simply **spread** . The factors that
+rate is referred to as the **yield spread** or simply **spread** . The factors that
 
 drive the yield spread include
 
@@ -347,7 +246,7 @@ Excluding the Treasury market sector, the other market sectors include a
 
 wide range of issuers, each with different abilities to satisfy their contractual
 
-- bligations. For example, in the corporate market sector, issuers are
+obligations. For example, in the corporate market sector, issuers are
 classified as follows: (1) utilities, (2) industrials, (3) finance, and (4) banks.
 The spread between two issues in a market sector is called an **intramarket**
 **sector spread** .
@@ -378,9 +277,7 @@ breakdown within each class, and S&P and Fitch use plus and minus signs
 
 for the same purpose.
 
-Bonds rated triple A (AAA or Aaa) are said to be **prime**, double A (AA
-
-- r Aa) are of **high quality**, single-A issues are called **upper medium grade**,
+Bonds rated triple A (AAA or Aaa) are said to be **prime**, double A (AA or Aa) are of **high quality**, single-A issues are called **upper medium grade**,
 and triple-B issues are **medium grade** _._ Lower-rated bonds are said to have
 speculative elements or to be **distinctly speculative** .
 
@@ -390,7 +287,7 @@ Bond issues assigned a rating in the top four categories are referred to as
 
 categories are referred to as **noninvestment-grade bonds**, or more popularly
 
-as **high-yield bonds** - r **junk bonds** . Thus the bond market can be divided
+as **high-yield bonds** or **junk bonds** . Thus the bond market can be divided
 
 into two sectors, the investment-grade and noninvestment-grade markets.
 
@@ -434,9 +331,7 @@ curve" and is discussed in more detail later in this chapter.) Although this
 spread can be calculated for any sector of the market, it is most commonly
 calculated for the Treasury sector.
 
-In the corporate bond market, a maturity spread can be similarly
-
-calculated, but the issues must have the same credit quality. For example,
+In the corporate bond market, a maturity spread can be similarly calculated, but the issues must have the same credit quality. For example,
 
 suppose that on a given day the following yields are observed for AA-rated
 
@@ -517,11 +412,11 @@ participants require a larger spread over a comparable Treasury security for
 
 an issue with an embedded option that is favorable to the issuer (e.g., a call
 
-- ption) than for an issue without such an option. In contrast, market
+option) than for an issue without such an option. In contrast, market
 participants require a smaller spread over a comparable Treasury security for
 an issue with an embedded option that is favorable to the investor (e.g., a put
 
-- ption or a conversion option). In fact, for a bond with an option that is
+option or a conversion option). In fact, for a bond with an option that is
 favorable to an investor, the interest rate on an issue may be less than that on
 a comparable Treasury security!
 
@@ -574,77 +469,25 @@ After-tax yield = Pre-tax yield × (1 − Marginal tax rate).
 
 For example, suppose a taxable bond issue offers a yield of 3% and is
 
-acquired by an investor facing a marginal tax rate of 35%. The after-tax
-
-yield would then be:
+acquired by an investor facing a marginal tax rate of 35%. The after-tax yield would then be:
 
 After-tax yield = 0.03 × (1 − 0.35) = 0.0195 = 1.95%.
 
-Alternatively, we can determine the yield that must be offered on a
+Alternatively, we can determine the yield that must be offered on a taxable bond issue to give the same after-tax yield as a tax-exempt issue. This yield is called the **equivalent-taxable yield** and is determined as follows:
 
-taxable bond issue to give the same after-tax yield as a tax-exempt issue.
+For example, consider an investor facing a 35% marginal tax rate who purchases a tax-exempt issue with a yield of 1.95%. The equivalent-taxable yield is:
 
-This yield is called the **equivalent-taxable yield** and is determined as
+Note that the lower the marginal tax rate is, the lower the equivalent-taxable yield will be. Thus, in our previous example, if the marginal tax rate were 25% rather than 35%, the equivalent-taxable yield would be 2.6% rather than 4%, as shown here:
 
-follows:
+In the United States, state and local governments may tax interest income on bond issues that are exempt from federal income taxes. Some municipalities exempt interest income paid on all municipal issues from taxation; others do not. Some states exempt interest income from bonds issued by municipalities in the state but tax the interest income from bonds issued by municipalities outside the state. The implication is that two municipal securities of the same quality rating and the same maturity may trade at some spread because of different tax policies and hence the relative demand for bonds of municipalities in different states. For example, in a high-income-tax state, such as the State of New York, the demand for bonds of municipalities drives down their yield relative to the yield of bonds issued by municipalities in low-income-tax states, such as the State of Florida.
 
-For example, consider an investor facing a 35% marginal tax rate who
+In the United States, municipalities are not permitted to tax the interest income from securities issued by the U.S. Treasury. Thus, part of the spread between Treasury securities and taxable non-Treasury securities of the same maturity reflects the value of the exemption from state and local taxes.
 
-purchases a tax-exempt issue with a yield of 1.95%. The equivalent-taxable
+**`Expected liquidity of an issue`** Bonds trade with different degrees of liquidity. The greater the expected liquidity with which an issue trades, the lower will be the yield that investors require.
 
-yield is:
+As noted earlier, Treasury securities are the most liquid securities in the world. The lower yield offered on Treasury securities relative to the yield on non-Treasury securities reflects, to a significant extent, the difference in liquidity. Even in the Treasury market, however, some differences in liquidity occur, because on-the-run issues have greater liquidity than do off-the-run issues. An important factor that affects the liquidity of an issue is the size of the issue. One of the reasons U.S. Treasury securities are highly liquid is the large size of each individual issue.
 
-Note that the lower the marginal tax rate is, the lower the equivalenttaxable yield will be. Thus, in our previous example, if the marginal tax rate
-
-were 25% rather than 35%, the equivalent-taxable yield would be 2.6%
-
-rather than 4%, as shown here:
-
-In the United States, state and local governments may tax interest income
-
-- n bond issues that are exempt from federal income taxes. Some
-municipalities exempt interest income paid on all municipal issues from
-taxation; others do not. Some states exempt interest income from bonds
-issued by municipalities in the state but tax the interest income from bonds
-issued by municipalities outside the state. The implication is that two
-municipal securities of the same quality rating and the same maturity may
-trade at some spread because of different tax policies and hence the relative
-demand for bonds of municipalities in different states. For example, in a
-high-income-tax state, such as the State of New York, the demand for bonds
-
-- f municipalities drives down their yield relative to the yield of bonds issued
-by municipalities in low-income-tax states, such as the State of Florida.
-
-In the United States, municipalities are not permitted to tax the interest
-
-income from securities issued by the U.S. Treasury. Thus, part of the spread
-
-between Treasury securities and taxable non-Treasury securities of the same
-
-maturity reflects the value of the exemption from state and local taxes.
-
-**`Expected liquidity of an issue`** Bonds trade with different degrees of
-liquidity. The greater the expected liquidity with which an issue trades, the
-lower will be the yield that investors require.
-
-As noted earlier, Treasury securities are the most liquid securities in the
-
-world. The lower yield offered on Treasury securities relative to the yield on
-
-non-Treasury securities reflects, to a significant extent, the difference in
-
-liquidity. Even in the Treasury market, however, some differences in
-
-liquidity occur, because on-the-run issues have greater liquidity than do offthe-run issues. An important factor that affects the liquidity of an issue is the
-
-size of the issue. One of the reasons U.S. Treasury securities are highly
-
-liquid is the large size of each individual issue.
-
-```
-An Alternative Benchmark Interest Rate: The Swap Rate
-
-```
+### An Alternative Benchmark Interest Rate: The Swap Rate
 
 Let us return to the interpretation of the yield spread on a non-U.S. Treasury
 
@@ -672,55 +515,13 @@ rate swap and the swap rate in more detail in chapter 37. Here we briefly
 
 explain a generic interest rate swap, which is a derivative instrument.
 
-The parties to an interest rate swap exchange interest rate payments on
+The parties to an interest rate swap exchange interest rate payments on specified dates: One party pays a fixed rate and the other party a floating rate over the life of the swap. In a typical swap, the floating rate is based on a reference rate, and the reference rate is typically LIBOR. LIBOR is the interest rate at which prime banks in London pay other prime banks on U.S. dollar certificates of deposits.
 
-specified dates: One party pays a fixed rate and the other party a floating rate
+The fixed interest rate that is paid by the fixed-rate counterparty is called the **swap rate** . Dealers in the swap market quote swap rates for different maturities. For example, the fixed interest rate may be the 10-year Treasury rate. So a 10-year treasury rate would be "swapped for" the LIBOR. The relationship between the swap rate and the maturity of a swap is called the **swap rate yield curve**, or more commonly, the **swap curve** . Because the reference rate is typically LIBOR, the swap curve is also called the **LIBOR** **curve** .
 
-- ver the life of the swap. In a typical swap, the floating rate is based on a
-reference rate, and the reference rate is typically LIBOR. LIBOR is the
-interest rate at which prime banks in London pay other prime banks on U.S.
-dollar certificates of deposits.
+There is a swap curve for most countries. For euro interest rate swaps, the reference rate is the euro interbank offered rate (Euribor), which is the rate at which bank deposits in EU countries that have adopted the euro currency are offered by one prime bank to another prime bank.
 
-The fixed interest rate that is paid by the fixed-rate counterparty is called
-
-the **swap rate** . Dealers in the swap market quote swap rates for different
-
-maturities. For example, the fixed interest rate may be the 10-year Treasury
-
-rate. So a 10-year treasury rate would be "swapped for" the LIBOR. The
-
-relationship between the swap rate and the maturity of a swap is called the
-
-**swap rate yield curve**, or more commonly, the **swap curve** . Because the
-
-reference rate is typically LIBOR, the swap curve is also called the **LIBOR**
-
-**curve** .
-
-There is a swap curve for most countries. For euro interest rate swaps, the
-
-reference rate is the euro interbank offered rate (Euribor), which is the rate at
-
-which bank deposits in EU countries that have adopted the euro currency are
-
-- ffered by one prime bank to another prime bank.
-
-The swap curve is used as a benchmark in many countries outside the
-
-United States. Unlike a country's government bond yield curve, however, the
-
-swap curve is not a default-free yield curve. Instead, it reflects the credit risk
-
-- f the counterparty to an interest rate swap. Because the counterparty to an
-interest rate swap is typically a bank-related entity, the swap curve reflects
-the average credit risk of representative banks that provide interest rate
-swaps. More specifically, a swap curve is viewed as the **interbank yield**
-**curve** . It is also referred to as the **AA-rated yield curve**, because the banks
-that borrow money from one another at LIBOR have credit ratings of Aa/AA
-
-- r above. In addition, the swap curve reflects liquidity risk. However, the
-liquidity of the interest rate swap market has increased to the point where it
-is now a more liquid market than the market for some government bonds.
+The swap curve is used as a benchmark in many countries outside the United States. Unlike a country's government bond yield curve, however, the swap curve is not a default-free yield curve. Instead, it reflects the credit risk of the counterparty to an interest rate swap. Because the counterparty to an interest rate swap is typically a bank-related entity, the swap curve reflects the average credit risk of representative banks that provide interest rate swaps. More specifically, a swap curve is viewed as the **interbank yield** **curve** . It is also referred to as the **AA-rated yield curve**, because the banks that borrow money from one another at LIBOR have credit ratings of Aa/AA or above. In addition, the swap curve reflects liquidity risk. However, the liquidity of the interest rate swap market has increased to the point where it is now a more liquid market than the market for some government bonds.
 
 One would expect that if a country has a government bond market, the
 
@@ -746,7 +547,7 @@ the swap market, nothing has to be delivered, so technical market factors
 
 have less of an impact. Also, there may be government bonds selling above
 
-- r below their par value. As explained earlier, government tax authorities
+or below their par value. As explained earlier, government tax authorities
 might tax such bonds differently if they are purchased and held to maturity.
 As a result, the yields at which these bonds trade in the marketplace will
 reflect any tax advantage or disadvantage.
@@ -804,7 +605,7 @@ Now we will look at the relationship between the yield on a bond and its
 
 maturity. Because the maturity of a bond is referred to as its **term to**
 
-**maturity** - r simply its **term**, the relationship between yield and maturity is
+**maturity** or simply its **term**, the relationship between yield and maturity is
 
 referred to as the **term structure of interest rates** . Here we explain the
 
@@ -1233,9 +1034,9 @@ depend on their maturity alone. Although the two columns do not change
 
 much at the beginning, they diverge more after the third year, and by the
 
-ninth year, the zero-coupon yield is nearly 100 basis points higher than that
+ ninth year, the zero-coupon yield is nearly 100 basis points higher than that
 
-- f the same maturity with a coupon of 13% and selling at a premium.
+of the same maturity with a coupon of 13% and selling at a premium.
 
 **`Using spot rates to value a bond`** Given the spot rates, the theoretical
 value of a bond can be calculated by discounting a cash flow for a given
@@ -1338,9 +1139,9 @@ that rate is known with certainty. In contrast, with alternative 2, the investor
 
 will realize the six-month spot rate, but the six-month rate six months from
 
-now is unknown. Therefore, for alternative 2, the rate that will be earned
+ now is unknown. Therefore, for alternative 2, the rate that will be earned
 
-- ver one year is not known with certainty. This is illustrated in figure 16.2.
+over one year is not known with certainty. This is illustrated in figure 16.2.
 
 ```
 Figure 16.2
@@ -1373,9 +1174,9 @@ The value of _f_ can be readily determined given the one-year spot rate and
 
 the six-month spot rate. If an investor places \$100 in a one-year instrument
 
-(alternative 1), the total amount in dollars that will be generated at the end of
+ (alternative 1), the total amount in dollars that will be generated at the end of
 
-- ne year is:
+one year is:
 
 Total dollars at the end of year for alternative 1 = \$100 (1 + _z_ 2) [2],
 
@@ -1401,9 +1202,9 @@ Total dollars at the end of year for alternative 2 = \$100 (1 + 1)(1 + _f_ ).
 
 The investor will be indifferent between the two alternatives if the total
 
-dollars are the same. Setting the two equations for the total dollars at the end
+ dollars are the same. Setting the two equations for the total dollars at the end
 
-- f one year for the two alternatives equal, we get:
+of one year for the two alternatives equal, we get:
 
 $100 (1 + _z_ 2) [2] = $100 (1 + _z_ 1)(1 + _f_ ).
 

@@ -1,33 +1,27 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'Balance of Payments II: Output, Exchange Rates, and Macroeconomic Policies
-  in the Short Run'
-linter-yaml-title-alias: 'Balance of Payments II: Output, Exchange Rates, and Macroeconomic
-  Policies in the Short Run'
+title: "Balance of Payments II: Output, Exchange Rates, and Macroeconomic Policies in the Short Run"
+parent_directory: "VII - Balance of Payments"
+formatted: "2025-12-21 05:04:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
 primary_tags:
-- versus fiscal policy
-- fx model open economy
-- stimulus 2009
-- fiscal stimulus major weaknesses
-- government spending great deal
+- macroeconomic policy effectiveness
+- exchange rate regimes
+- is-lm-fx model
+- stabilization policy
+- fiscal vs monetary policy
 secondary_tags:
-- output exchange rates macroeconomic
-- balance payments ii output
-- fiscal stimulus suppose american
-- collapse consumption expenditure
-- stimulus money arra conclusions
-- open economy stabilization policy
-- rates macroeconomic policies short
-- policy great recession
-- monetary policy weaken currency
-- q4 potential gdp fiscal
-- shift trade balance curve
+- keynesian cross
+- trade balance determinants
+- real exchange rate effects
 - money market equilibrium
-tags_extracted: '2025-12-18T00:46:25.935086'
+- forex market equilibrium
+- expenditure switching
+- liquidity trap
+- zero lower bound
+- j-curve phenomenon
+- pass-through effects
+cssclasses: academia
 ---
 
 # Balance of Payments II: Output, Exchange Rates, and Macroeconomic Policies in the Short Run
@@ -36,27 +30,13 @@ If demand shifts from the products of country  $B$  to the products of country  
 
 Robert Mundell, 1961
 
-It is easy to understand the dislike … for a [fixed exchange rate] system which dictated that a slump must be aggravated by monetary reactions, although, doubtless, [people] had forgotten that the same system served to enhance booms.
+It is easy to understand the dislike... for a fixed exchange rate system which dictated that a slump must be aggravated by monetary reactions, although, doubtless, people had forgotten that the same system served to enhance booms.
 
 Alec Ford, 1962
 
 In the wake of the 2008 Global Financial Crisis, exchange rates have been fluctuating a great deal, and not surprisingly they have once again risen to global prominence in economic, financial, and political debates. In late 2010, the Brazilian finance minister Guido Mantega seemed to invoke the ghosts of the 1930s when he spoke of a new "currency war" as the Brazilian real appreciated; in early 2013, the head of the Deutsche Bundesbank Jens Weidmann used the same term as the euro gained strength. Over the same postcrisis period, however, other central bankers, such as the Chairman of the Federal Reserve Ben Bernanke and the Governor of the Bank of England Mervyn King, managed to display much less anxiety about their currency movements, as the values of the dollar and the pound slipped. Why were the Brazilian and the German economists so fretful? Why were their American and British counterparts so relaxed? Their attitudes reflect the idea that the exchange rate matters for the economy as a whole.
 
-Thus far our study of exchange rates has been largely disconnected from real activity and the rest of the economy. Chapters 13 through 15 developed a theory of exchange rates, in which the economy's level of output was taken as given. To gain a more complete
-
-1 Demand in the Open Economy
-
-2 Goods Market Equilibrium: The Keynesian Cross
-
-3 Goods and Forex Market Equilibria: Deriving the IS Curve
-
-4 Money Market Equilibrium: Deriving the LM Curve
-
-5 The Short-Run IS-LM-FX Model of an Open Economy
-
-6 Stabilization Policy
-
-7 Conclusions understanding of how an open economy works, we now extend our theory and explore what happens when exchange rates and output fluctuate in the short run. To do this, we build on the accounting framework we learned in the balance of payments chapter to understand how macroeconomic aggregates (including output, income, consumption, investment, and the trade balance) move together and in response to shocks in an open economy.
+Thus far our study of exchange rates has been largely disconnected from real activity and the rest of the economy. Chapters 13 through 15 developed a theory of exchange rates, in which the economy's level of output was taken as given. To gain a more complete understanding of how an open economy works, we now extend our theory and explore what happens when exchange rates and output fluctuate in the short run. To do this, we build on the accounting framework we learned in the balance of payments chapter to understand how macroeconomic aggregates (including output, income, consumption, investment, and the trade balance) move together and in response to shocks in an open economy.
 
 The model we study is an open-economy variant of the well-known IS-LM model that is widely used in the study of closed-economy macroeconomics. The key assumption of this type of Keynesian model is that prices are "sticky" in the short run so that output is determined by shifts in demand in the goods market. When we are finished, we will have a model that explains the relationships among all the major macroeconomic variables in an open economy in the short run.
 
@@ -83,7 +63,7 @@ Our main objective is to understand how output (income) is determined in the hom
 The simplest model of aggregate private consumption relates household consumption  $C$  to disposable income  $Y^{d}$ . As we learned in Chapter 16, disposable income is the level of total pretax income  $Y$  received by households minus the taxes paid by households  $\overline{T}$ , so that  $Y^{d} = Y - \overline{T}$ . Consumers tend to consume more as their disposable income rises, a relationship that can be represented by an increasing function, called the consumption function:
 
 $$
-\text{Co ns um pt io n} = C = C (Y - \bar {T})
+\text{Consumption} = C = C(Y - \overline{T})
 $$
 
 A typical consumption function of this form is graphed in Figure 18-1; it slopes upward because consumption increases when disposable income increases.
@@ -102,7 +82,7 @@ The Consumption Function The consumption function relates private consumption,  
 
 that private consumption expenditure is sensitive to changes in current income. This assumption seems to be a more reasonable match with reality in the short run: research shows that there is not very much consumption smoothing at the household or national level.
 
-Marginal Effects The consumption function relates the level of consumption to the level of disposable income, but we are more often interested in the response of such variables to small changes in equilibrium, due to policy shocks or other shocks. For that purpose, the slope of the consumption function is called the marginal propensity to consume (MPC), and it tells us how much of every extra  \$1 of disposable income received by households is spent on consumption. We generally assume that MPC is between 0 and 1: when consumers receive an extra unit of disposable income (whether it's a euro, dollar, or yen), they will consume only part of it and save the remainder. For example, if you spend\$ 0.75 of every extra \$1 of disposable income you receive, your MPC is 0.75. The marginal propensity to save (MPS) is 1 - MPC. In this example, MPS = 0.25, meaning that \$0.25 of every extra 1 of disposable income is saved.
+Marginal Effects The consumption function relates the level of consumption to the level of disposable income, but we are more often interested in the response of such variables to small changes in equilibrium, due to policy shocks or other shocks. For that purpose, the slope of the consumption function is called the marginal propensity to consume (MPC), and it tells us how much of every extra  \$1 of disposable income received by households is spent on consumption. We generally assume that MPC is between 0 and 1: when consumers receive an extra unit of disposable income (whether it's a euro, dollar, or yen), they will consume only part of it and save the remainder. For example, if you spend $0.75 of every extra $1 of disposable income you receive, your MPC is 0.75. The marginal propensity to save (MPS) is 1 - MPC. In this example, MPS = 0.25, meaning that \$0.25 of every extra 1 of disposable income is saved.
 
 # Investment
 
@@ -135,11 +115,11 @@ In the unlikely event that  $G = T$  exactly, government spending exactly equals
 Fiscal policy is concerned with the levels of taxes  $T$  and spending  $G$  set by the government. In this chapter, we do not study in detail why or how governments make such policy choices; we make the simple assumption that in the short run the levels of taxes and spending are set exogenously at some fixed levels, denoted by an overbar:
 
 $$
-\text{Go ve nm en tp uc ha se s} = G = \bar {G}
+\text{Government purchases} = G = \bar {G}
 $$
 
 $$
-\mathrm{Ta xe s} = T = \overline {{T}}
+\text{Taxes} = T = \overline {{T}}
 $$
 
 Policy makers may change these levels of taxes and spending at any time. We analyze the impact of such changes on the economy later in this chapter.
@@ -169,7 +149,7 @@ We expect an increase in rest of the world income to be associated with an incre
 Combining the three insights above, we can write the trade balance as a function of three variables: the real exchange rate, home disposable income, and rest of the world disposable income:
 
 $$
-T B = T B (\underbrace {E \overline {{P}}^{*} / \overline {{P}}}_{\text{In cr ea si ng fu nc ti on}}, \underbrace {Y - \overline {{T}}}_{\text{De cr ea si ng fu nc ti on}}, \underbrace {Y^{*} - \overline {{T}}^{*}}_{\text{In cr ea si ng fu nc ti on}})
+TB = TB(\underbrace{E\overline{P}^{*}/\overline{P}}_{\text{Increasing function}}, \underbrace{Y - \overline{T}}_{\text{Decreasing function}}, \underbrace{Y^{*} - \overline{T}^{*}}_{\text{Increasing function}})
 $$
 
 # HEADLINES
@@ -281,16 +261,16 @@ One assumption we made was that prices are sticky in local currency. But what if
 For example, let the foreign country be the United States and suppose a share  $d$  of the home-produced basket of goods is priced in U.S. dollars at a sticky dollar price  $\overline{P}_1$ . Suppose that the remaining share,  $1 - d$ , is priced, as before, in local currency at a sticky local currency price  $\overline{P}_2$ . Hence,
 
 $$
-\left. \begin{array}{l} \text{Pr ic eo ff or gi ng go od s} \\ \text{re la ti ve to do ll ar -p ri ce d} \\ \text{ho me go od s} \end{array} \right\} = \frac{E \times \bar {P}^{*}}{E \times \bar {P}_{1}} = \frac{\bar {P}^{*}}{\bar {P}_{1}} \text{ha sa we ig ht} = d
+\left. \begin{array}{l} \text{Price of foreign goods} \\ \text{relative to dollar-priced} \\ \text{home goods} \end{array} \right\} = \frac{E \times \bar{P}^{*}}{E \times \bar{P}_{1}} = \frac{\bar{P}^{*}}{\bar{P}_{1}} \text{has a weight} = d
 $$
 
 $$
-\left. \begin{array}{l} \text{Pr ic eo ff or gi ng go od s} \\ \text{re la ti ve to lo ca l -c ur re nc y -} \\ \text{pr ic ed ho me go od s} \end{array} \right\} = \frac{E \times \bar {P}^{*}}{\bar {P}_{2}} \text{ha sa we ig ht} = 1 - d
+\left. \begin{array}{l} \text{Price of foreign goods} \\ \text{relative to local-currency-} \\ \text{priced home goods} \end{array} \right\} = \frac{E \times \bar{P}^{*}}{\bar{P}_{2}} \text{has a weight} = 1 - d
 $$
 
 In this setup, what is the price of all foreign-produced goods relative to all home-produced goods (the real exchange rate)? It is the weighted sum of the relative prices of the two parts of the basket. Hence, we find
 
-$$ q = \text{Ho me re al} \quad \text{ex ch an ge} \quad \text{ra te} = d \frac{\bar {P}^{*}}{\bar {P}_{1}} + (1 - d) \frac{E \bar {P}^{*}}{\bar {P}_{2}}
+$$ q = \text{Home real} \quad \text{exchange} \quad \text{rate} = d \frac{\bar{P}^{*}}{\bar{P}_{1}} + (1 - d) \frac{E \bar{P}^{*}}{\bar{P}_{2}}
 $$
 
 The first term with a weight  $d$  does not contain  $E$  because both numerator and denominator are dollar prices (already expressed in a common currency). Only the second term with a weight  $(1 - d)$  contains  $E$ , since the prices are in different currencies. Thus, a  $1\%$  increase in  $E$  will lead to only a  $(1 - d)\%$  increase in the real exchange rate.
@@ -374,7 +354,7 @@ We have now studied the determinants of each component of demand. We next put al
 The total aggregate supply of final goods and services is equal to total national output measured by GDP. Given our assumption that the current account equals the trade balance, gross national income  $Y$  equals GDP:
 
 $$
-\mathrm{Su pp ly} = G D P = Y
+\text{Supply} = GDP = Y
 $$
 
 Aggregate demand, or just "demand," consists of all the possible sources of demand for this supply of output. In the balance of payments chapter, we studied the expenditure side of the national income accounts and saw that supply is absorbed into different uses according to the national income identity. This accounting identity always holds true. But an identity is not an economic model. A model must explain how, in equilibrium, the observed demands take on their desired or planned values and still satisfy the accounting identity. How can we construct such a model?
@@ -382,7 +362,7 @@ Aggregate demand, or just "demand," consists of all the possible sources of dema
 We may write total demand for GDP as
 
 $$
-\mathrm{De ma nd} = D = C + I + G + T B
+\text{Demand} = D = C + I + G + TB
 $$
 
 We can substitute the formulae for consumption, investment, and the trade balance presented in the first section of this chapter into this total demand equation to obtain

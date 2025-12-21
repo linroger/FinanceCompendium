@@ -1,34 +1,39 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Money markets"
+parent_directory: "Modern Financial Markets and Institutions"
+formatted: "2025-12-21 05:00:25 PM"
+formatter_model: "claude-sonnet-4-5-20251001"
+cli_tool: "claude-code"
+primary_tags:
+  - money markets
+  - short-term finance
+  - interbank lending
+  - treasury bills
+  - commercial paper
+secondary_tags:
+  - libor rates
+  - eurocurrency
+  - repurchase agreements
+  - bills of exchange
+  - bankers acceptances
+  - federal funds rate
+  - prime rate
+  - euribor
+  - eonia
+  - sonia
+  - eurocurrency deposits
+  - credit ratings
+  - discount pricing
+  - yield calculations
+  - central bank operations
 cssclasses: academia
-title: Money markets
-linter-yaml-title-alias: Money markets
 ---
 
 # Money markets
 
-# LEARNING OUTCOMES
+## LEARNING OUTCOMES
 
-The money markets allow vital connections between those institutions with money to lend for short periods and those needing to borrow. There is not just one market but a wide range, each with its own modes of operating and jargon. By the end of this chapter the reader should: have a sound grasp of the usefulness of money markets to the well-being of people around the world;
-
-be able to describe the functions of money and the components of the rate of return; describe the key benchmark interest rates, such as LIBOR, used by financial markets and corporations;
-
-explain the operation and social value of the following money markets: interbank
-
-Eurocurrency
-
-Treasury bills
-
-■ commercial paper repurchase agreements
-
-local authority issues certificates of deposit
-
-■ bills of exchange and banker's acceptances; calculate interest rates on various money market instruments, including conversion to annual rates. Also calculate the price of some money market securities;
-
-■ discuss the role of credit rating agencies and the meaning of different ratings, e.g. AAA or A-1+; show an understanding of the money markets table in the Financial Times and on various websites.
+The money markets allow vital connections between those institutions with money to lend for short periods and those needing to borrow. There is not just one market but a wide range, each with its own modes of operating and jargon. By the end of this chapter the reader should: have a sound grasp of the usefulness of money markets to the well-being of people around the world; be able to describe the functions of money and the components of the rate of return; describe the key benchmark interest rates, such as LIBOR, used by financial markets and corporations; explain the operation and social value of the following money markets: interbank, Eurocurrency, Treasury bills, commercial paper, repurchase agreements, local authority issues, certificates of deposit, bills of exchange and banker's acceptances; calculate interest rates on various money market instruments, including conversion to annual rates. Also calculate the price of some money market securities; discuss the role of credit rating agencies and the meaning of different ratings, e.g. AAA or A-1+; show an understanding of the money markets table in the Financial Times and on various websites.
 
 Just as people need to keep control of their finances, making sure that if they do spend more than their income they have a way of tapping into sources of funds by borrowing for short periods (e.g. credit cards or overdraft), so governments, corporations and other organisations have similar requirements. There are times when these organisations are in need of funds for merely a day, a week or the next three months. They thus need a place where they can borrow to make up the shortfall. The money markets fulfil this role. Banks are an alternative source of short-term finance, but in many cases the money markets are cheaper and involve less hassle.
 
@@ -38,7 +43,7 @@ While we, as individuals, borrow to make up shortfalls or lend surpluses (e.g. b
 
 In sum the money markets are wholesale financial markets in which lending and borrowing on a short-term basis takes place – that is, usually for less than one year.
 
-# Interest often comes from discount pricing
+## Interest often comes from discount pricing
 
 In a literal sense money is not actually traded in these markets, financial instruments are. When manufacturing firms, financial institutions, governments, etc. find themselves in need of short-term funds, they sell an instrument which carries the promise to pay, say, £10 million in 30 days from now. For many of the money market instruments the purchaser of that promise will not pay as much as £10 million because they want to receive an effective interest rate for lending. So they might pay, say, £9.9 million. Thus the security is sold for less than face value. The discount is the difference between face value and purchase price. The yield, the rate of interest gained by the holder, occurs when the instrument reaches maturity and the face value is paid by the issuer to the holder. Note that while most money market securities are issued at a discount, this is not true of all of them. Certificates of deposit and interbank deposits, for example, are issued at their face value and then redeemed at a higher value.
 
@@ -48,13 +53,13 @@ However, it must be noted that a loss may be incurred by selling in the secondar
 
 The secondary markets in money market instruments are generally very liquid; that is, those organisations lending temporary surpluses to borrowers by buying money market securities are able to get at their capital (turn it into cash) quickly without the risk of reducing the price significantly, and there are low transaction costs in releasing the cash.
 
-The discount and rate of interest (yield) earned is dependent on the risk level and the maturity of the instrument. The 'maturity' is the length of time between issue of the instrument (start of borrowing) and the time it is redeemed (money due is paid), or the length of time between when a security is priced or purchased in the secondary market and the date of redemption. The maturity length can vary from overnight (borrowing for just 24 hours) to three months to one year (or more, occasionally). Interest is measured in percentage points, which are further divided into basis points (bps). One basis point equals  $1/100$  of a percentage point.
+The discount and rate of interest (yield) earned is dependent on the risk level and the maturity of the instrument. The 'maturity' is the length of time between issue of the instrument (start of borrowing) and the time it is redeemed (money due is paid), or the length of time between when a security is priced or purchased in the secondary market and the date of redemption. The maturity length can vary from overnight (borrowing for just 24 hours) to three months to one year (or more, occasionally). Interest is measured in percentage points, which are further divided into basis points (bps). One basis point equals $\frac{1}{100}$ of a percentage point.
 
-# Example Commercial paper
+**Example Commercial paper**
 
 Commercial paper is a very popular way of raising money for large, well-regarded companies. For example, a corporation wishes to borrow  \$100 million for two months. It issues commercial paper with a face value of\$ 101 million, payable in 60 days' time. A purchaser is prepared to accept the promise of the company to pay out in 60 days and so buys some of the commercial paper, paying  \$25 million for one-quarter of the total issue at a discount to the face value. In 60 days' time, the purchaser collects\$ 25.25 million from the corporation. It has earned  \$250,000 in return for lending the corporation\$ 25 million.
 
-# The markets in short-term money
+## The markets in short-term money
 
 Money markets exist all over the world as a means of facilitating business. Domestic money market means that the funds are borrowed and lent in the country's home currency and under the authority of the country's regulators. There are also money markets outside the jurisdiction of authorities of the currency they are denominated in – these are the international or Euro money markets. This is nothing to do with the currency in Europe: they were termed 'Euro markets' long before the euro was dreamed up.
 
@@ -64,7 +69,7 @@ In the modern era, rather than having one or a few market locations or buildings
 
 Some of the trades are simply private deals with legal obligations to be enforced by each side, but some are conducted through a central clearing house, with each party responsible for reporting the deal to the clearing house, which settles the deal by debiting the account of the buyer and crediting the account of the seller. The clearing house then holds the security on behalf of the buyer. The risk of a counterparty reneging on the deal (counterparty risk) is reduced by trading through a clearing house.
 
-# Case study 5.1 Vodafone
+## Case study 5.1 Vodafone
 
 You can get some idea of the importance of money markets to companies from the table below showing figures taken from Vodafone's annual reports. Vodafone keeps a large amount of cash and cash equivalents in reserve: more than £4 billion in 2010. Cash equivalents are not quite cash but they are so liquid that they are near-cash (near-money or quasi-money). They are financial assets that can easily be sold to raise cash, or which are due to pay back their capital value in a few days, with low risk regarding the amount of cash they will release. These are mostly money market instruments.
 
@@ -72,13 +77,13 @@ Vodafone keeps this large quantity of money available in this highly liquid and 
 
 We will examine the nature of money market funds, repurchase agreements and commercial paper, among a number of other money market instruments, later in the chapter.
 
-# Vodafone's money market holdings
+## Vodafone's money market holdings
 
 Cash and cash equivalents
 
 <table><tr><td></td><td>2010</td><td>2009</td><td>2008</td></tr><tr><td></td><td>£m</td><td>£m</td><td>£m</td></tr><tr><td>Cash at bank and in hand</td><td>745</td><td>811</td><td>451</td></tr><tr><td>Money market funds</td><td>3,678</td><td>3,419</td><td>477</td></tr><tr><td>Repurchase agreements</td><td>-</td><td>648</td><td>478</td></tr><tr><td>Commercial paper</td><td>-</td><td>-</td><td>293</td></tr><tr><td>Cash and cash equivalents as presented in the balance sheet</td><td>4,423</td><td>4,878</td><td>1,699</td></tr></table>
 
-# Money market funds
+## Money market funds
 
 Despite the wholesale nature of the money markets it is possible for private individuals with funds available for lending in thousands of pounds/euros/dollars rather than hundreds of thousands to participate in money market transactions. They can do so via special funds set up to invest in money market instruments by pooling the savings of many people. These money market funds are administered by financial institutions which benefit from economies of scale in investing in a portfolio of money market securities. Savers buy 'shares' in the money market fund. They earn a return, technically a dividend but in effect an interest rate.
 
@@ -86,13 +91,13 @@ Corporations may also deposit money in money market funds to obtain good rates o
 
 Along with much of the rest of the financial sector money markets went through a crisis in 2008. A money market fund, Reserve Primary Fund, had invested a substantial proportion of its funds in Lehman Brothers short-term debt. When Lehmans went bust the fund was unable to return to investors the amount they had paid into it. This breaking of the buck is a great sin in the money market world – all money market funds are supposed to be incredibly safe. What made it worse was the subsequent freezing-up of credit markets: investors in funds could not withdraw their money at short notice as per the agreement. The market became illiquid because the money market funds could not find buyers for the securities they held and so could not raise cash at the moment when a high proportion of their investors clamoured to withdraw cash. In response, the industry bodies in the US, Europe and elsewhere tightened rules to make sure that there was much more easily accessible cash in the funds – see Exhibit 5.1 for the European response. Note that while the European market is very large at around €400 billion, the US market is even larger, at around 3,800 billion.
 
-# Exhibit 5.1
+## Exhibit 5.1
 
-# New rules for money funds
+### New rules for money funds
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/ef1d2eb97ffeac41ff53ac3c9e325a63a11c622e3e7d4c9fd79a5b9ec2bc6bf3.jpg)
 
-# Steve Johnson
+#### Steve Johnson
 
 Europe's €430bn ($388bn, $630bn) triple-A money market fund industry will have to abide by higher standards of maturity, credit quality, liquidity and disclosure under new guidelines due to be unveiled today.
 
@@ -112,7 +117,7 @@ Source: Financial Times, FTFM section, 14 December 2009, p. 2. Reprinted with pe
 
 'Triple-A' means that they have independently been assessed as having a very low risk of defaulting. 'Overnight securities' are those where the lender receives back capital and interest one day after lending. An 'enhanced' fund is one that takes more risk (or invests in lower-liquidity securities) to try to generate a higher return. 'Natural liquidity' means holding securities that pay back their capital in a matter of hours or days rather than the holder relying on selling the securities to other investors in the secondary market.
 
-# Functions of money
+## Functions of money
 
 Before we look at the range of money market instruments and the workings of these markets we need to go right back to basics and discuss what money is and why a rate of return is required.
 
@@ -124,7 +129,7 @@ In any economy, money has three main functions.
 - Unit of account It is important that each unit of coinage represents a particular asset value, is identical to units of the same denomination and that units representing large amounts can be divided into smaller units. In the UK, for example, the unit of account is the pound sterling (£), with 100 sub-units, while in most of Europe the unit of account is the euro (€). To have a standard unit of account is very important for business and personal decisions. Take, for instance, a business with two subsidiaries, operating in different markets – it is very useful to observe their relative performances in terms of a common measuring stick.
 - Store of value Money has enabled individuals to hold a store of value and not use it straightaway, as would necessarily happen with many of the goods in the barter system, but to keep it until required for future consumption. This money must be capable of being stored and keep its value until retrieved. An individual or corporate body may not want to spend immediately the amount they have earned but save it for later consumption, and its face value must be the same at the later date. However, due to the inflation process, money, because it is unchangeable and retains simply its face value, is not necessarily the best means of storing value. Fine art, antiques, property and interest-paying bank accounts are just some of the myriad ways of storing value which may provide protection against inflation.
 
-# The time value of money
+## The time value of money
 
 When people undertake to set aside money for investment, something has to be given up now. For instance, if someone buys shares in a firm or lends to a business, there is a sacrifice of present consumption. One of the incentives to save is the possibility of gaining a higher level of future consumption. Therefore, it is apparent that compensation is required to induce people to make a consumption sacrifice. Compensation will be required for at least three things:
 
@@ -136,7 +141,7 @@ Take the case of Mrs Ann Investor who is considering a €1,000 one-year investm
 
 1 A return of 2 per cent is required for the pure time value of money.
 
-2 Inflation is anticipated to be 3 per cent over the year. At time zero  $(\mathfrak{t}_0)$  €1,000 buys one basket of goods and services. To buy the same basket of goods and services at time  $t_1$  (one year later), €1,030 is needed. To compensate the investor for impatience to consume and inflation, the investment needs to generate a return of 5.06 per cent, that is:
+2 Inflation is anticipated to be 3 per cent over the year. At time zero $(\mathfrak{t}_0)$ €1,000 buys one basket of goods and services. To buy the same basket of goods and services at time $t_1$ (one year later), €1,030 is needed. To compensate the investor for impatience to consume and inflation, the investment needs to generate a return of 5.06 per cent, that is:
 
 $$
 (1 + 0.02)(1 + 0.03) - 1 = 0.0506 = 5.06\%
@@ -158,7 +163,7 @@ The nominal rate of interest is the rate quoted by lenders and includes the infl
 
 Real rate of interest  $=$  nominal rate of interest - inflation
 
-# The interbank market
+## The interbank market
 
 Originally, the interbank market was defined as the market where banks lend to each other, in both the domestic and international markets. This is a rather strict (old-fashioned) definition, and increasingly, as well as banks being lenders, this group includes large industrial and commercial companies, other financial institutions and international organisations. Thus, the interbank markets exist so that a bank or other large institution which has no immediate demand for its surplus cash can place the money in the interbank market and earn interest on it. In the opposite scenario, if a bank needs to supply a loan to a customer but does not have the necessary money to hand, it can borrow on the interbank market.
 
@@ -166,7 +171,7 @@ There is no secondary trading in the interbank market; the loans are 'non-negoti
 
 The loans in this market are not secured with collateral. However, the rate of interest is relatively low because those accepting deposits (borrowers) are respectable and safe banks. This interest rate creates the benchmark (reference) interest rate known as LIBOR - explained in the next section. Banks with lower respectability and safety will have to pay more than the benchmark rates set by the safest institutions.
 
-# Interest rates
+## Interest rates
 
 In the financial pages of serious newspapers you will find a bewildering variety of interest rates quoted from all over the world. Following is an explanation of some of the terms in common use.
 
@@ -328,7 +333,7 @@ $$
 
 See Example 1 for a simple use of this idea.
 
-# Example 1 Bond equivalent rate
+**Example 1 Bond equivalent rate**
 
 If we need to calculate the yield rate (bond equivalent rate or bey) for a 12-month £100 UK Treasury bill which was sold at a discount of 2 per cent, i.e. at £98, then we recognise that the investment made is £98 and we gain £2 when it is redeemed in one year. Thus we know that the true rate of return is slightly over 2 per cent. Given that there is a full year to maturity (assuming the day-count convention is a 365-day year), we know this is going to be the annual rate:
 
@@ -344,7 +349,7 @@ $$
 
 See Example 2.
 
-# Example 2 Discount yield
+**Example 2 Discount yield**
 
 For a T-bill issued at £98 when the face value is £100 and the time to maturity is one year:
 
@@ -364,7 +369,7 @@ Source: www.dmo.gov.uk
 
 The bid to cover ratio is the ratio of the amount that was actually bid and the amount of T-bills offered; if the number is greater than 1 it shows that there were more bids than the amount on offer. Although extremely rare, it is not unknown for an offer to be undersubscribed – it is a sign of lack of confidence in the government's financial situation and/or indigestion in a market faced with an exceptionally high volume of government borrowing. The average yield is expressed as an annual rate (bond equivalent yield). In this month, Treasury bills yielded a rate as low as 0.4419 per cent per annum, or around 0.0368 per cent per month. The average price is the price paid by purchasers for bills which will pay the holders of the bills £100 in one month, three months or six months.
 
-# Example 3
+**Example 3**
 
 If we take the three-month Treasury bill sold at tender on 18 February at a discount price of £99.867658, we can work out the discount (d), yield (bey) and purchase price. Note that the time difference between the date of purchase and redemption is only 91 days in this case and we must express these interest rates in annual terms, so we multiply by 365/91.
 
@@ -383,7 +388,7 @@ $$
 Purchase price:
 
 $$
-\begin{array}{l} P u r c h a s e P r i c e = \text{Fa ce Va lu e} \times \left[ 1 - \left(\frac{\text{Di sc ou nt} \times \text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}}\right) \right] \\ \text{Pu rc ha se Pr ic e} = 1 0 0 \times \left[ 1 - \left(\frac{0 . 0 0 5 3 0 8 2 2 \times 9 1}{3 6 5}\right) \right] = £ 9 9. 8 6 7 6 5 8 \\ \end{array}
+\begin{array}{l} P u r c h a s e P r i c e = \text{Fa ce Va lu e} \times \left[ 1 - \left(\frac{\text{Di sc ou nt} \times \text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}}\right) \right] \\ \text{Purchase Price} = 100 \times \left[ 1 - \left(\frac{0.00530822 \times 91}{365}\right) \right] = £99.867658 \\ \end{array}
 $$
 
 The results for the tender of this 18 February bill are shown in Exhibit 5.5. From this it can be noted that the actual bids from buyers varied from a yield of 0.51 per cent to a high of 0.548 per cent, with an average of 0.531527 per cent. The bill was over-tendered by a factor of 3.19, i.e. the amount on offer was £1 billion (at face value), and there were actual bids offered totalling £3.1905 billion.

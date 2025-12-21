@@ -1,32 +1,28 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'National and International Accounts: Income, Wealth, and the Balance of Payments'
-linter-yaml-title-alias: 'National and International Accounts: Income, Wealth, and
-  the Balance of Payments'
+title: "National and International Accounts: Income, Wealth, and the Balance of Payments"
+parent_directory: "VI - Exchange Rates"
+formatted: "2025-12-21 05:30:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
-- economy international flows
-- balance seen open economy
-- public saving government tax
-- money sent country
-- national international accounts
+  - balance of payments
+  - national income accounts
+  - current account balance
+  - external wealth
+  - trade balance
 secondary_tags:
-- conclusions barter international transactions
-- transactions relate national income
-- deficits cause current account
-- economic transactions countries
-- emigration capital transmission
-- exports called trade balance
-- external wealth conclusions
-- gdp paid foreign
-- rise public saving decline
-- balance payments money
-- macroeconomist measure economic transactions
-- economic resources exchanged
-tags_extracted: '2025-12-18T00:45:47.640534'
+  - gross national expenditure
+  - gross domestic product
+  - gross national income
+  - factor income abroad
+  - unilateral transfers
+  - financial account
+  - capital account
+  - saving investment identity
+  - global imbalances
+  - twin deficits
+  - macroeconomic measurement
+cssclasses: academia
 ---
 
 # National and International Accounts: Income, Wealth, and the Balance of Payments
@@ -39,15 +35,15 @@ In Chapter 13, we encountered George, the hypothetical American tourist in Paris
 
 To that end, the first task of any macroeconomist is to measure economic transactions. The collection and analysis of such data can help improve research and policymaking. In a closed economy there are important aggregate flows to consider, such as national output, consumption, investment, and so on. When an economy is open to transactions with the rest of the world, there are a host of additional economic transactions that take place across borders. In today's world economy these international flows of trade and finance have reached unprecedented levels.
 
-1 Measuring Macroeconomic Activity: An Overview
+## 1 Measuring Macroeconomic Activity: An Overview
 
-2 Income, Product, and Expenditure
+## 2 Income, Product, and Expenditure
 
-3 The Balance of Payments
+## 3 The Balance of Payments
 
-4 External Wealth
+## 4 External Wealth
 
-5 Conclusions
+## 5 Conclusions
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/49e78bb2eceaf33662154469a0977f03a67979ab9135247287ae49416f21090d.jpg)
 
@@ -55,13 +51,75 @@ Beyond barter: International transactions involve not just goods and services bu
 
 Cross-border flows of goods, services, and capital are measured in various ways and are increasingly important subjects of discussion for economists and policy makers, for businesses, and for the well-educated citizen. There are debates about the size of the U.S. trade deficit, trade surpluses in emerging economies like China and India, the growing indebtedness of the United States to the rest of the world, and how these trends might be related to national saving and the government's budget. To understand such debates, we must first know what is being talked about. What do all these measures mean and how are they related? How does the global economy actually function?
 
+```d2
+direction: right
+
+# Closed Economy Circular Flow
+closed_economy: Closed Economy {
+  shape: circle
+  label: "GNE = GDP = GNI = GNDI"
+}
+
+# Open Economy with International Flows
+open_economy: Open Economy {
+  GNE: "Gross National Expenditure\n(C + I + G)"
+  GDP: "Gross Domestic Product\n(GNE + TB)"
+  GNI: "Gross National Income\n(GDP + NFIA)"
+  GNDI: "Gross National Disposable Income\n(GNI + NUT)"
+
+  # International transactions
+  TB: "Trade Balance\n(Exports - Imports)" {
+    style.fill: "#e3f2fd"
+  }
+
+  NFIA: "Net Factor Income\nfrom Abroad" {
+    style.fill: "#f3e5f5"
+  }
+
+  NUT: "Net Unilateral\nTransfers" {
+    style.fill: "#e8f5e9"
+  }
+
+  CA: "Current Account\n(TB + NFIA + NUT)" {
+    style.fill: "#fff3e0"
+    shape: hexagon
+  }
+
+  FA: "Financial Account\n(Asset Exports - Imports)" {
+    style.fill: "#fce4ec"
+  }
+
+  KA: "Capital Account\n(Asset Transfers)" {
+    style.fill: "#f1f8e9"
+  }
+
+  # Flows
+  GNE -> GDP: "+ TB"
+  GDP -> GNI: "+ NFIA"
+  GNI -> GNDI: "+ NUT"
+  GNDI -> GNE: "+ CA + FA + KA\n(Balance of Payments = 0)"
+
+  # Balance of payments components
+  TB -> CA
+  NFIA -> CA
+  NUT -> CA
+  CA -> GNDI
+  FA -> GNDI
+  KA -> GNDI
+}
+
+closed_economy -> open_economy: "Add International Transactions" {
+  style.stroke-dash: 5
+}
+```
+
 The goals of this chapter are to explain the international system of trade and payments, to discover how international trade in goods and services is complemented and balanced by a parallel trade in assets, and to see how these transactions relate to national income and wealth. In the remainder of the book, we use these essential tools to understand the macroeconomic links between nations.
 
-# 1 Measuring Macroeconomic Activity: An Overview
+## 1 Measuring Macroeconomic Activity: An Overview
 
 To understand macroeconomic accounting in an open economy, we build on the principles used to track payments in a closed economy. As you may recall from previous courses in economics, a closed economy is characterized by a circular flow of payments, in which economic resources are exchanged for payments as they move through the economy. At various points in this flow, economic activity is measured and recorded in the national income and product accounts. In an open economy, however, such measurements are more complicated because we have to account for cross-border flows. These additional flows are recorded in a nation's balance of payments accounts. In this opening section, we survey the principles behind these measurements. In later sections, we define the measurements more precisely and explore how they work in practice.
 
-# The Flow of Payments in a Closed Economy: Introducing the National Income and Product Accounts
+### The Flow of Payments in a Closed Economy: Introducing the National Income and Product Accounts
 
 Figure 16-1 shows how payments flow in a closed economy. At the top is gross national expenditure (GNE), the total expenditure on final goods and services by home entities in any given period of measurement (usually a calendar year, unless otherwise noted). It is made up of three parts: personal consumption  $C$ , investment  $I$ , and government spending  $G$ . The sum of these variables equals GNE.
 
@@ -75,7 +133,7 @@ Once GDP is sold, where do the payments flow next? Because GDP measures the valu
 
 Once GNI is received by factors, where do the payments flow next? Clearly, there is no way for a closed economy to finance expenditure except out of its own income, so total income is, in turn, spent and must be the same as total expenditure. This is shown by the loop that flows back to the top of Figure 16-1. What we have seen in our tour around the circular flow is that in a closed economy, all the economic aggregate measures are equal: GNE equals GDP which equals GNI which equals GNE. In a closed economy, expenditure is the same as product, which is the same as income. Our understanding of the closed economy circular flow is complete.
 
-# The Flow of Payments in an Open Economy: Incorporating the Balance of Payments Accounts
+### The Flow of Payments in an Open Economy: Incorporating the Balance of Payments Accounts
 
 The closed-economy circular flow shown in Figure 16-1 is simple and tidy. When a nation opens itself to trade with other nations, however, the flow becomes a good deal more complicated. Figure 16-2 incorporates all of the extra payment flows to and from the rest of the world, which are recorded in a nation's balance of payments (BOP) accounts.
 
@@ -105,11 +163,11 @@ After some effort, at the bottom of Figure 16-2, we have finally computed the to
 
 These modifications to the circular flow in Figure 16-2 tell us something very important about the balance of payments. We start at the top with GNE. We add the trade balance to get GDP, we add net factor income from abroad to get GNI, and then we add net unilateral transfers received to get GNDI. We then add net asset exports measured by the financial account and net capital transfers measured by the capital account, and we get back to GNE. That is, we start with GNE, add in everything in the balance of payments accounts, and still end up with GNE. What does this tell us? The sum of all the items in the balance of payments account, the net sum of all those cross-border flows, must amount to zero! The balance of payments account does balance. We explore the implications of this important result later in this chapter.
 
-# 2 Income, Product, and Expenditure
+## 2 Income, Product, and Expenditure
 
 In the previous section, we sketched out all the important national and international transactions that occur in an open economy. With that overview in mind, we now formally define the key accounting concepts in the two sets of accounts and put them to use.
 
-# Three Approaches to Measuring Economic Activity
+### Three Approaches to Measuring Economic Activity
 
 There are three main approaches to the measurement of aggregate economic activity within a country:
 
@@ -121,7 +179,7 @@ The income approach focuses on payments to owners of factors and tracks the amou
 
 It is crucial to note that in a closed economy the three approaches generate the same number: In a closed economy,  $GNE = GDP = GNI$ . In an open economy, however, this is not true.
 
-# From GNE to GDP: Accounting for Trade in Goods and Services
+### From GNE to GDP: Accounting for Trade in Goods and Services
 
 As before, we start with gross national expenditure, or GNE, which is by definition the sum of consumption  $C$ , investment  $I$ , and government consumption  $G$ . Formally, these three elements are defined, respectively, as follows:
 
@@ -165,7 +223,7 @@ $$
 \begin{array}{r l} G N I & = \underbrace {C + I + G}_{\text{Gr os sn at io na le xp en di tu re}} + \underbrace {(E X - I M)}_{\text{Tr ad eb al in ce}} \\ & \underbrace {G N E}_{G D P} \end{array} + \underbrace {(E X_{F S} - I M_{F S})}_{\text{Ne tf ac to ri nc om ef ro ma br oa d}} \tag {16-2}
 $$
 
-In 2012 the United States received income payments from foreigners  $EX_{FS}$  of \$782 billion and made income payments to foreigners  $IM_{FS}$  of \$539 billion, so the net factor income from abroad NFLA was +243 billion.
+In 2012 the United States received income payments from foreigners  $EX_{FS}$  of \$782 billion and made income payments to foreigners  $IM_{FS}$  of \$539 billion, so the net factor income from abroad NFIA was +243 billion.
 
 # APPLICATION
 
@@ -463,7 +521,7 @@ C A = S_{p} + S_{g} - I \tag {16-10}
 
 $$
 
-Now, suppose the government lowers your taxes by  \$100 this year and borrows to finance the resulting deficit but also says you will be taxed by an extra\$ 100 plus interest next year to pay off the debt. The theory of Ricardian equivalence asserts that you and other households will save the tax cut to pay next year's tax increase, so that any fall in public saving will be fully offset by a rise in private saving. In this situation, the current account—as seen in Equation (16-10)—would be unchanged. However, empirical studies do not support this theory: private saving does not fully offset government saving in practice.[8]
+Now, suppose the government lowers your taxes by  \$100 this year and borrows to finance the resulting deficit but also says you will be taxed by an extra \$100 plus interest next year to pay off the debt. The theory of Ricardian equivalence asserts that you and other households will save the tax cut to pay next year's tax increase, so that any fall in public saving will be fully offset by a rise in private saving. In this situation, the current account—as seen in Equation (16-10)—would be unchanged. However, empirical studies do not support this theory: private saving does not fully offset government saving in practice.[8]
 
 How large is the effect of a government deficit on the current account deficit? Research suggests that a change of  $1\%$  of GDP in the government deficit (or surplus) coincides with a  $0.2\%$  to  $0.4\%$  of GDP change in the current account deficit (or surplus), a result consistent with a partial Ricardian offset.
 
@@ -488,11 +546,11 @@ Source: IMF, World Economic Outlook, October 2012.
 
 site trend: rising investment and saving ratios. For the developing countries, however, the saving increase was larger than the investment increase, allowing a current account surplus to open up. Overall, the industrial country trend of lower saving and investment drove the world trend of lower saving and investment in the 1980s and 1990s. But since the 2000s, the rising share of high-saving emerging and developing countries in the world economy has caused the world trends to reverse. Saving and investment have been on the rise in recent years, but the effects have been felt very unevenly across the globe, leading to the imbalances we have studied.
 
-# 3 The Balance of Payments
+## 3 The Balance of Payments
 
 In the previous section, we saw that the current account summarizes the flow of all international market transactions in goods, services, and factor services plus non-market transfers. In this section, we look at what's left: international transactions in assets. These transactions are of great importance because they tell us how the current account is financed and, hence, whether a country is becoming more or less indebted to the rest of the world. We begin by looking at how transactions in assets are accounted for, once again building on the intuition developed in Figure 16-2.
 
-# Accounting for Asset Transactions: The Financial Account
+### Accounting for Asset Transactions: The Financial Account
 
 The financial account (FA) records transactions between residents and nonresidents that involve financial assets. The total value of financial assets that are received by the rest of the world from the home country is the home country's export of assets, denoted  $EX_{A}$  (the subscript "A" stands for asset). The total value of financial assets that are received by the home country from the rest of the world in all transactions is the home country's import of assets, denoted  $IM_{A}$ .
 
@@ -866,7 +924,7 @@ In a closed economy,  $GNE = GDP = GNI = GNDI$ .
 3. In an open economy, GDP need not equal GNE. When nations can trade, the sum of goods and services demanded by domestic residents need not be the same as the sum of goods and services supplied by domestic firms. The difference between GDP and GNE is the trade balance TB:  $GDP = GNE + TB$ . The trade balance is the difference between a nation's imports and exports of goods and services.
 4. In an open economy, GDP need not equal GNI because imports and exports of factor services
 
-(measured by net factor income from abroad or NFIA) imply that factor income received by domestic residents need not be the same as factor payments made by domestic firms. Thus,  $GNI = GDP + NFLA$ .
+(measured by net factor income from abroad or NFIA) imply that factor income received by domestic residents need not be the same as factor payments made by domestic firms. Thus,  $GNI = GDP + NFIA$ .
 
 5. In an open economy, the true level of disposable income is best measured by gross national disposable income or  $Y = GNDI$ . GNDI need not equal GNI because net unilateral transfers (NUT) to foreigners may be positive, due to foreign aid and other nonmarket gifts. Thus,  $Y = GNDI = GNI + NUT$ .
 6. The sum of all the aforementioned international transactions,  $TB + NFIA + NUT$ , is called the current account (CA).

@@ -1,6 +1,6 @@
 # Handoff.md
 
-**Last Updated (UTC):** 2025-12-21 12:53:49 UTC
+**Last Updated (UTC):** 2025-12-21 12:57:47 UTC
 **Status:** In Progress
 **Current Focus:** Analyze `beads.db` for storage and query characteristics that could explain slow startup in beadster on macOS.
 
@@ -40,6 +40,7 @@
 - **Finding:** `events` occupies ~66.7 MB (~72% of DB), dominating storage.
 - **Finding:** `issues` occupies ~13.2 MB; other tables and indexes are small.
 - **Finding:** Event payload text totals ~54.2 MB across 18,119 rows (avg ~3.1 KB).
+- **Finding:** `updated` events account for ~44.3 MB of payload (~82% of event payload).
 - **Finding:** Free pages ~2,593 pages (~10.6 MB) indicate some deleted data and no shrink (auto_vacuum=0).
 - **Finding:** No orphaned events (all event.issue_id map to issues).
 - **Decision:** Treat `events` history size and payload as the primary DB-level load driver.
@@ -62,6 +63,7 @@
   - `dbstat` size summary → `events` 66,711,552 bytes; `issues` 13,246,464 bytes; others small
   - Row counts: `events` 18,119; `issues` 3,750
   - Event payload totals: 54.16 MB total; avg payload ~3.1 KB
+  - Event payload by type: `updated` 44.34 MB; `created` 5.18 MB; `status_changed` 3.26 MB; others < 1 MB
   - Orphan check: `events` with missing `issues` = 0
 
 ## 9) Remaining Work & Next Steps
@@ -71,3 +73,4 @@
 
 ## 10) Updates to This File (append-only)
 - 2025-12-21 12:53:49 UTC: Created for beads DB performance analysis; added initial findings and evidence.
+- 2025-12-21 12:57:47 UTC: Added event payload breakdown by type; updated verification summary.

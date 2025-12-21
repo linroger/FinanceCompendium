@@ -1,18 +1,35 @@
 ---
-parent_directory:
 title: Subprime RMBS Loss Projection Update, March 2009
-tags:
-aliases:
-parent_folder: Class 7-CP, Repo, and the Crisis
-subfolder:
-key_concepts:
+parent_directory: Class 7-CP, Repo, and the Crisis
+formatted: 2025-12-21 05:15:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+  - subprime RMBS loss projections
+  - Moody's delinquency analysis
+  - default rate methodology
+  - modification impact assessment
+  - rating downgrade implications
+secondary_tags:
+  - collateral-based projections
+  - default burnout factor
+  - performance-based delinquency
+  - principal reduction losses
+  - Homeowner Affordability and Stability Plan
+  - cumulative loss estimates
+  - subprime vintage comparisons
+  - foreclosure severity rates
+  - prepayment rate declines
+  - loan-to-value adjustments
+  - regression-based delinquency
+  - roll rate assumptions
+  - excess spread reduction
 cssclasses: academia
-linter-yaml-title-alias: Subprime RMBS Loss Projection Update, March 2009
 ---
 
 # Subprime RMBS Loss Projection Update, March 2009
 
-# AUTHOR:
+## AUTHOR:
 
 Joseph Rocco
 
@@ -22,7 +39,7 @@ Analyst
 
 Joseph.Rocco@moodys.com
 
-# CONTRIBUTORS:
+## CONTRIBUTORS:
 
 Aashish Marfatia
 
@@ -40,7 +57,7 @@ VP-Sr Credit Officer
 
 Navneet.Agarwal@moodyss.com
 
-# CONTACTS:
+## CONTACTS:
 
 John Park
 
@@ -66,9 +83,9 @@ VP-Sr Credit Officer
 
 Debashish.Chatterjee@moodys.com
 
-# MOODY'S
+## MOODY'S
 
-# CLIENT SERVICES:
+## CLIENT SERVICES:
 
 New York +1-212-553-1653
 
@@ -86,7 +103,7 @@ WEBSITE:
 
 www.moodys.com
 
-# CONTENTS
+## CONTENTS
 
 Summary  
 
@@ -95,7 +112,7 @@ Description of Loss Projection Methodology
 - Updated Loss Projection Results  
 - Appendix: Collateral-Based Delinquency Projection
 
-# SUMMARY
+## SUMMARY
 
 Moody's has updated its projection of cumulative losses for recent vintage subprime pools. Moody's now expects cumulative losses of  $13\%$ ,  $30\%$  and  $36\%$  of original securitized subprime collateral for 2005, 2006 and 2007 vintages, respectively. These projections reflect our opinion of the loss mitigation that will be afforded by the recently announced Homeowner Affordability and Stability Plan (HASP). In the absence of the plan, Moody's loss estimates would have been  $14\%$ ,  $33\%$  and  $40\%$ , respectively, for these vintages.
 
@@ -109,7 +126,20 @@ The rating actions resulting from these revised loss projections will vary by vi
 
 This report will begin by discussing the trends in subprime mortgage performance that have led to Moody's revised loss projections. It will follow with a discussion of Moody's updated loss projection methodology, with a sample mortgage pool examined in detail.
 
-# RECENT PERFORMANCE
+```d2
+direction: right
+
+Loss Projections by Vintage {
+  shape: rectangle
+  2005: "13% cumulative loss"
+  2006: "30% cumulative loss"
+  2007: "36% cumulative loss"
+}
+
+note: "Moody's updated subprime RMBS loss projections as % of original balance"
+```
+
+## RECENT PERFORMANCE
 
 The performance of mortgage pools backing subprime transactions issued in 2005, 2006 and 2007 has
 
@@ -117,13 +147,11 @@ continued to deteriorate. As of January 2009, the seasoning-adjusted rate of ser
 
 While the proportion of delinquent loans has leveled off recently, the stabilization coincides with an acceleration of property liquidations. The rapid growth in cumulative loss levels across all quarter-vintages (Figure 2) is evidence of increasing liquidation volume. Combined, the data suggest that the volume of defaulting loans has continued to accumulate.
 
-Currently,  $42 \%$ of outstanding 2006vintage subprime loans are at least 60 days delinquent, in foreclosure, or held for sale (REO). Moody's believes that, without intervention, nearly all of the alreadydelinquent – loans – would eventually default. This assessment is based on very high observed roll rates to foreclosure combined with increasing unemployment and decreasing property values. In addition, we believe that, by year end, onethird of borrowers who are currently paying their mortgages will become – delinquent – and eventually
+Currently,  $42 \%$ of outstanding 2006vintage subprime loans are at least 60 days delinquent, in foreclosure, or held for sale (REO). Moody's believes that, without intervention, nearly all of the already-delinquent loans would eventually default. This assessment is based on very high observed roll rates to foreclosure combined with increasing unemployment and decreasing property values. In addition, we believe that, by year end, onethird of borrowers who are currently paying their mortgages will become delinquent and eventually default.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/bd6ebcfb-31d7-47d9-9fbd-5a4cf4d5779a/2c32c55c949e63ad1f7f7a9a6048d9aae9f91f0be63c5035f9a58ca536ef8d6c.jpg)
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/bd6ebcfb-31d7-47d9-9fbd-5a4cf4d5779a/a91cc010f1f170ab255353b37aaf8639c5220763a199b5f02f21b74cfd13eb96.jpg)
-
-default. This projection is based on loan-level analysis of the mortgages² and loan characteristics as predictors of future defaults. This analysis includes forecasted loan-to-value ratios (LTVs) for the end of 2009, when the decline in home prices is expected to reach bottom. The LTV ratios were determined by using projections from Moody's Economy.com for metropolitan statistical areas (MSAs). In addition, other predictive metrics such as loan type, occupancy status and documentation level were considered in the analysis.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/bd6ebcfb-31d7-47d9-9fbd-5a4cf4d5779a/a91cc010f1f170ab255353b37aaf8639c5220763a199b5f02f21b74cfd13eb96.jpg) This projection is based on loan-level analysis of the mortgages² and loan characteristics as predictors of future defaults. This analysis includes forecasted loan-to-value ratios (LTVs) for the end of 2009, when the decline in home prices is expected to reach bottom. The LTV ratios were determined by using projections from Moody's Economy.com for metropolitan statistical areas (MSAs). In addition, other predictive metrics such as loan type, occupancy status and documentation level were considered in the analysis.
 
 Loss severities have also worsened in the last few months, rising to  $63\%$  according to the latest subprime performance data. We forecast a continued rise in severity to around  $70\%$ , based on an expected further  $10 - 15\%$  decline in home values. While home prices are expected to slowly recover, subprime severities are likely to remain elevated over time. Even as the housing market boomed in recent years, subprime loss severities increased with loan age. This is generally attributable to accrual of servicer advances and deterioration in property condition over the course of lengthened foreclosure timelines. The likelihood of similar issues persisting in the future leads Moody's to conclude that, despite the anticipated recovery in the housing market, subprime severities are likely to remain elevated over time.
 
@@ -159,11 +187,11 @@ Owned</td><td>Total
 60+ Days</td><td>Cumulative 
 Loss</td></tr><tr><td>05Q1</td><td>17.5%</td><td>1.04%</td><td>0.67%</td><td>1.77%</td><td>1.86%</td><td>1.15%</td><td>5.45%</td><td>3.16%</td></tr><tr><td>05Q2</td><td>21.7%</td><td>1.23%</td><td>0.85%</td><td>2.34%</td><td>2.42%</td><td>1.73%</td><td>7.34%</td><td>3.50%</td></tr><tr><td>05Q3</td><td>28.3%</td><td>1.70%</td><td>1.10%</td><td>2.91%</td><td>3.97%</td><td>2.69%</td><td>10.67%</td><td>5.36%</td></tr><tr><td>05Q4</td><td>37.7%</td><td>2.45%</td><td>1.53%</td><td>3.91%</td><td>5.64%</td><td>3.52%</td><td>14.61%</td><td>6.36%</td></tr><tr><td>06Q1</td><td>40.7%</td><td>2.52%</td><td>1.57%</td><td>4.12%</td><td>6.82%</td><td>4.73%</td><td>17.24%</td><td>8.16%</td></tr><tr><td>06Q2</td><td>48.2%</td><td>3.12%</td><td>2.04%</td><td>5.48%</td><td>8.66%</td><td>5.60%</td><td>21.78%</td><td>8.47%</td></tr><tr><td>06Q3</td><td>57.7%</td><td>3.75%</td><td>2.64%</td><td>6.36%</td><td>9.97%</td><td>5.61%</td><td>24.58%</td><td>7.87%</td></tr><tr><td>06Q4</td><td>64.1%</td><td>4.47%</td><td>3.23%</td><td>7.68%</td><td>10.64%</td><td>5.65%</td><td>27.20%</td><td>7.39%</td></tr><tr><td>07Q1</td><td>71.3%</td><td>5.29%</td><td>3.45%</td><td>8.11%</td><td>10.87%</td><td>5.33%</td><td>27.76%</td><td>6.21%</td></tr><tr><td>07Q2</td><td>78.3%</td><td>5.80%</td><td>3.59%</td><td>7.80%</td><td>11.56%</td><td>5.65%</td><td>28.60%</td><td>4.75%</td></tr><tr><td>07Q3</td><td>83.1%</td><td>6.27%</td><td>3.81%</td><td>8.51%</td><td>10.95%</td><td>4.33%</td><td>27.60%</td><td>2.19%</td></tr><tr><td>07Q4</td><td>85.3%</td><td>6.24%</td><td>3.71%</td><td>6.04%</td><td>10.50%</td><td>3.51%</td><td>23.77%</td><td>1.45%</td></tr></table>
 
-# LOSS PROJECTION METHODOLOGY
+## LOSS PROJECTION METHODOLOGY
 
 While subprime pools are generally homogeneous in terms of their collateral characteristics, collateral attributes such as loan type (FRM vs ARM), geographic location and LTV can be highly predictive of performance. Therefore, we have further enhanced our previously published, loss-curve based methodology. While the updated approach will account for pool characteristics on a deal-by-deal basis, the underlying assumptions for the subprime population as a whole are generally consistent with those underlying our stressed loss curve expectations. Ultimately we migrated away from the loss-curve-based approach outlined in the September paper because we believe that the updated approach will more precisely distinguish between the relative risks across pools.
 
-# The Default Burnout Factor (DBF) Approach with Collateral Analysis
+## The Default Burnout Factor (DBF) Approach with Collateral Analysis
 
 The Default Burnout Factor (DBF) approach is based on the assumption that the portion of a pool that is current when home prices bottom out in the future will perform better than the portion of the pool that has already defaulted or is seriously delinquent at that point in time.
 
@@ -185,7 +213,7 @@ Once delinquencies have been projected, Moody's subprime expected lifetime roll 
 <table><tr><td colspan="3">Figure 5
 Moody&#x27;s Subprime RMBS Lifetime Roll Rate Assumptions &amp; Example</td></tr><tr><td></td><td>Assumed Roll Rate</td><td>Sample Delinquency</td></tr><tr><td>60-89 Days Delinquent</td><td>85.00%</td><td>5.0%</td></tr><tr><td>90+ Days Delinquent</td><td>90.00%</td><td>10.0%</td></tr><tr><td>Foreclosure</td><td>100.00%</td><td>15.0%</td></tr><tr><td>Real Estate Owned</td><td>100.00%</td><td>10.0%</td></tr><tr><td>Projected Default Rate</td><td>95.6%</td><td></td></tr><tr><td>Projeced Defaults</td><td>38.3%</td><td></td></tr></table>
 
-# Calculating Lifetime Default Rate ("Default-to-Liquidation")
+## Calculating Lifetime Default Rate ("Default-to-Liquidation")
 
 Moody's calculates an adjusted Default-to-Liquidation rate based on the current level of cumulative defaults to date, the defaults resulting from the roll rate analysis, and the assumed prepayments.
 
@@ -195,7 +223,7 @@ Moody's calculates an adjusted Default-to-Liquidation rate based on the current 
 
 Default-to-liquidation is calculated by, first, adding cumulative defaults to date to expected defaults from the projected delinquency pipeline. Next, the resulting sum is divided by the pool pay-down to date adjusted for the expected prepayment to year end. The resulting ratio will next be adjusted to reflect expected relative improvement in performance as described below.
 
-# Applying the Default Burn-out Factor
+## Applying the Default Burn-out Factor
 
 Finally, the portion of the pool that is not seriously delinquent on the projection date is assumed to perform better than the portion of the pool that had been seriously delinquent up to that point. This is reflected in the Default Burnout Factor (DBF) assumption. Put simply, the DBF represents one minus the expected reduction in default rates going forward.
 
@@ -207,7 +235,7 @@ After calculating a pool's remaining defaults based on the application of the DB
 
 The result can then be added to cumulative losses incurred to date to arrive at expected lifetime cumulative losses.
 
-# Projecting Loss Given Default ("Loss Severity") & Calculating Losses
+## Projecting Loss Given Default ("Loss Severity") & Calculating Losses
 
 Loss severity is estimated by taking an equally weighted  ${}^{4}$  average of the following three values:
 
@@ -217,7 +245,7 @@ Loss severity is estimated by taking an equally weighted  ${}^{4}$  average of t
 
 In addition, the observed average loss severity component is subject to a floor (55%) and a cap (75%) to eliminate data anomalies and any volatility associated with limited sample sizes. This cap and floor will also be adjusted to account for lender paid mortgage insurance coverage
 
-# Adjusting For Second Lien Loans
+## Adjusting For Second Lien Loans
 
 Many primarily first lien transactions contain portions of collateral that are junior-lien in nature. Therefore, we must adjust the described approach to account for the risk differential between the two asset types.
 
@@ -227,7 +255,7 @@ Since most subprime borrowers are in a negative equity position, second lien loa
 
 As noted above, we have tempered its "no-intervention" loss projections to account for the large-scale mortgage modifications that are now likely. Moody's pre-intervention analytics, outlined in the preceding sections, would forecast average losses to the 2005, 2006 and 2007 vintage subprime pools of  $14\%$ ,  $33\%$ , and  $40\%$  of original securitized balances, respectively. Potential government-sponsored modification programs, notably the Homeowner Affordability and Stability Plan (HASP), lead us to reduce our current cumulative loss forecasts to  $13\%$ ,  $30\%$ , and  $36\%$  of original balances for the respective vintages.
 
-In our opinion, servicers would be substantially more aggressive in modifying mortgages going forward given the incentive structure and explicit guidelines of the HASP Plan. Servicers, however, will be unable to modify some of the loans that are likely to default – including many loans currently in foreclosure and all loans in REO. Additionally many investor property loans, second lien loans, and lowor no-documentation loans will be ineligible for modification. Although the outlined HASP Plan has stressed interest rate reduction as the first option, and any cram-down legislation has yet to pass, we believe that some successful modifications will involve principal reduction. We also anticipate that some small amount of principal losses would occur through the modification of loans that would have otherwise paid in full without the benefit of modification. Ultimate loss reduction in this sector will hinge on the modification program's success in avoiding re-default.
+In our opinion, servicers would be substantially more aggressive in modifying mortgages going forward given the incentive structure and explicit guidelines of the HASP Plan. Servicers, however, will be unable to modify some of the loans that are likely to default – including many loans currently in foreclosure and all loans in REO. Additionally many investor property loans, second lien loans, and low- or no-documentation loans will be ineligible for modification. Although the outlined HASP Plan has stressed interest rate reduction as the first option, and any cram-down legislation has yet to pass, we believe that some successful modifications will involve principal reduction. We also anticipate that some small amount of principal losses would occur through the modification of loans that would have otherwise paid in full without the benefit of modification. Ultimate loss reduction in this sector will hinge on the modification program's success in avoiding re-default.
 
 # Estimating Modification Rates
 
@@ -277,7 +305,7 @@ Finally, the cumulative loss projection (as a percent of original balance) is eq
 
 # Modification Adjustment
 
-Continuing with the previous example, figure 7 below presents how Moody's will adjust the previously described analysis to account for the estimated benefit derived from of large-scale modification.
+Continuing with the previous example, figure 7 below presents how Moody's will adjust the previously described analysis to account for the estimated benefit derived from large-scale modification.
 
 <table><tr><td colspan="5">Modification Adjustment On Sample Subprime Transaction</td></tr><tr><td rowspan="6">Pool Statistics &amp; Results from Loss Projection</td><td>A</td><td>Projected Loss (% of CB)</td><td>48%</td><td></td></tr><tr><td>B</td><td>Expected Loss (% of OB)</td><td>32%</td><td></td></tr><tr><td>C</td><td>Expected Future Severity</td><td>70%</td><td></td></tr><tr><td>D</td><td>Remaining 2nd Liens Loans (% CB)</td><td>1%</td><td></td></tr><tr><td>E</td><td>Foreclosure (% of CB )</td><td>15%</td><td></td></tr><tr><td>F</td><td>REO (% of CB )</td><td>10%</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="8">Modification</td><td>G</td><td>Projected Future Defaults (% of CB)</td><td>69%</td><td>= A / C</td></tr><tr><td>H</td><td>Potential Modifications</td><td>53%</td><td>= G - D - (1/3 * E) - F</td></tr><tr><td>I</td><td>Assumed Modification Rate</td><td>50%</td><td></td></tr><tr><td>J</td><td>Projected Modifications (% of CB)</td><td>26%</td><td></td></tr><tr><td>K</td><td>Projected Lifetime Re-default Rate</td><td>65%</td><td></td></tr><tr><td>L</td><td>Defaults Despite Modification</td><td>17%</td><td>= J * K</td></tr><tr><td>M</td><td>Non Modified Defaults</td><td>42%</td><td>= G - J</td></tr><tr><td>N</td><td>Adjusted Total Defaults</td><td>59%</td><td>= L + M</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="7">Principal Reduction</td><td>O</td><td>% of &quot;Cured&quot; Mods with Principal Reduction</td><td>20%</td><td></td></tr><tr><td>P</td><td>% of Loss Associated with Reduction</td><td>15%</td><td></td></tr><tr><td>Q</td><td>Loss to Trust from &quot;Cured&quot; Principal Reduction (%CB)</td><td>0%</td><td>= (100% - K) * J * O * P</td></tr><tr><td>R</td><td>% of Projected Non-Defaults to be Modified</td><td>30%</td><td></td></tr><tr><td>S</td><td>% of &quot;Non Default&quot; Mods with Principal Reduction</td><td>20%</td><td></td></tr><tr><td>T</td><td>Loss to Trust &quot;Non Default&quot; Principal Reduction (%CB)</td><td>0%</td><td>= (100% - G) * R * S * P</td></tr><tr><td>U</td><td>Loss to Trust from Principal Reduction (%CB)</td><td>1%</td><td>= Q + T</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="2">E(L)</td><td>V</td><td>Projected Loss (% CB )</td><td>42%</td><td>= U + Q + (N * C)</td></tr><tr><td>W</td><td>Net Change in Loss Projections (% OB )</td><td>-6%</td><td>= V - A</td></tr></table>
 
@@ -293,7 +321,7 @@ attributable to principal reductions are then added (row U) to the adjusted loss
 
 The resulting total projected losses for the 2005, 2006 and 2007 vintages are summarized in Figure 8. We continue to observe a material difference in expected cumulative loss by vintage, and anticipate substantially larger losses for late 2006 and early 2007 than for deals securitized earlier.
 
-In Moody's updated projections, the 2005 vintage will ultimately lose an average of  $13\%$  of original securitized balance, corresponding to an additional loss of  $36\%$  of the outstanding balance. 2006 vintage subprime pools will ultimately lose an average of  $30\%$  of the original securitized balance, corresponding to an additional loss of  $45\%$  of the outstanding balance. Subprime pools issued in 2007 pools will on average lose  $36\%$  of original balance, an additional  $42\%$  of the outstanding collateral balance.
+In Moody's updated projections, the 2005 vintage will ultimately lose an average of  $13\%$  of original securitized balance, corresponding to an additional loss of  $36\%$  of the outstanding balance. 2006 vintage subprime pools will ultimately lose an average of  $30\%$  of the original securitized balance, corresponding to an additional loss of  $45\%$  of the outstanding balance. Subprime pools issued in 2007 will on average lose  $36\%$  of original balance, an additional  $42\%$  of the outstanding collateral balance.
 
 A number of factors will influence the extent to which ultimate losses differ from Moody's updated projections. Loss severities will depend in part on whether home price depreciation proceeds ahead of or behind Moody's expectation as well as the speed of the foreclosure and liquidation process. Future default frequencies will likely be influenced by broad economic factors such as unemployment. Further economic decline would hasten the pace of new defaults, while a strong rebound might dampen it. And, among the largest uncertainties, the willingness of the government to directly intervene in the housing and/or securitization markets could have substantial impact on the ultimate outcome.
 

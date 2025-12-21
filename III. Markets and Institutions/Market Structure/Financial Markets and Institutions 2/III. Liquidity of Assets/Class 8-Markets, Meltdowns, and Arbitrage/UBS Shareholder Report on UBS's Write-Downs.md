@@ -1,107 +1,130 @@
 ---
-title: "Class 8 - Shareholder Report on UBS's Write-Downs"
-aliases:
-  - "Shareholder Report on UBS's Write-Downs"
-tags:
-key_concepts:
+title: "Shareholder Report on UBS's Write-Downs"
 parent_directory: "Class 8-Markets, Meltdowns, and Arbitrage"
+formatted: "2025-12-21 05:03:00 AM"
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - subprime mortgage crisis
+  - ubs write-downs
+  - collateralized debt obligations
+  - risk management failures
+  - investment banking losses
+  - structured credit products
+  - market risk control
+  - balance sheet management
+secondary_tags:
+  - dillon read capital management
+  - fixed income trading
+  - super senior tranches
+  - mortgage backed securities
+  - credit default swaps
+  - value at risk
+  - stress testing
+  - hedge funds
+  - asset backed securities
+  - liquidity crisis
+  - financial regulation
+  - internal controls
+  - governance issues
+  - compensation structures
+  - treasury management
 cssclasses: academia
-linter-yaml-title-alias: "Class 8 - Shareholder Report on UBS's Write-Downs"
 ---
 
 # Shareholder Report on UBS's Write-Downs
 
-# Table of Contents
+## Table of Contents
 
-# 1. Introduction 4
+### 1. Introduction
 
-1.1 Background 4  
-1.2 Context for Findings in this Shareholder Report 4  
-1.3 Overview 5
+1.1 Background  
+1.2 Context for Findings in this Shareholder Report  
+1.3 Overview
 
-# 2. Overview of Losses and Key Announcements 6
+### 2. Overview of Losses and Key Announcements
 
-2.1 Chronology.. 6  
-2.2 Business Lines Affected by the Losses 7
+2.1 Chronology  
+2.2 Business Lines Affected by the Losses
 
-# 3. Business Model Pursued by UBS in the Areas Affected by Subprime Losses 8
+### 3. Business Model Pursued by UBS in the Areas Affected by Subprime Losses
 
-3.1 UBS Group – Overall Strategic Objectives 8
+3.1 UBS Group – Overall Strategic Objectives
 
-3.1.1 Establishment of UBS Group Strategic Objectives 8  
-3.1.2 UBS Group Strategy in 2006 and 2007 8
+3.1.1 Establishment of UBS Group Strategic Objectives  
+3.1.2 UBS Group Strategy in 2006 and 2007
 
-3.2 Dillon Read Capital Management 9  
-3.3 Investment Bank Fixed Income business 10
+3.2 Dillon Read Capital Management  
+3.3 Investment Bank Fixed Income business
 
-# 4. How the Losses Developed 12
+### 4. How the Losses Developed
 
-4.1 Dillon Read Capital Management (until re-integration into UBS) 12  
-4.2 UBS Investment Bank: Fixed Income 13
+4.1 Dillon Read Capital Management (until re-integration into UBS)  
+4.2 UBS Investment Bank: Fixed Income
 
-4.2.1 Overview 13  
-4.2.2 Development of the CDO Warehouse 13  
-4.2.3 Super Senior Positions - Retention and Hedging 14  
-4.2.4 Other Fixed Income Businesses – Securitized Product Group Proprietary Trading Desk and Credit Fixed Income 15
+4.2.1 Overview  
+4.2.2 Development of the CDO Warehouse  
+4.2.3 Super Senior Positions - Retention and Hedging  
+4.2.4 Other Fixed Income Businesses – Securitized Product Group Proprietary Trading Desk and Credit Fixed Income
 
-4.3 UBS Investment Bank: Foreign Exchange / Cash Collateral Trading 16
+4.3 UBS Investment Bank: Foreign Exchange / Cash Collateral Trading
 
-# 5. Risk Management and Risk Control Activities 17
+### 5. Risk Management and Risk Control Activities
 
-5.1 Overview 17  
-5.2 Risk Management 17
+5.1 Overview  
+5.2 Risk Management
 
-5.2.1 Risk Management in DRCM 17  
-5.2.2 Risk Management on the CDO Desk 18  
-5.2.3 Risk Management on the ABS Trading Portfolio 18
+5.2.1 Risk Management in DRCM  
+5.2.2 Risk Management on the CDO Desk  
+5.2.3 Risk Management on the ABS Trading Portfolio
 
-5.3 Risk Control - Market Risk and Credit Risk 19
+5.3 Risk Control - Market Risk and Credit Risk
 
-5.3.1 Overall Approach 19  
-5.3.2 Application of Overall Approach to the Write-Down Affected Businesses 20  
-5.3.3 Risk Reporting 21  
-5.3.4 NBI and TRPA Processes 21
+5.3.1 Overall Approach  
+5.3.2 Application of Overall Approach to the Write-Down Affected Businesses  
+5.3.3 Risk Reporting  
+5.3.4 NBI and TRPA Processes
 
-5.4 Risk Control - Finance 22  
-5.5 Risk Control - Group Internal Audit 23  
-5.6 Risk Control - External Audit 24  
-5.7 Other Risk Control Aspects 24  
-5.8 UBS Funding Framework and Balance Sheet Considerations 25
+5.4 Risk Control - Finance  
+5.5 Risk Control - Group Internal Audit  
+5.6 Risk Control - External Audit  
+5.7 Other Risk Control Aspects  
+5.8 UBS Funding Framework and Balance Sheet Considerations
 
-5.8.1 Basis of Funding Arrangements 25
+5.8.1 Basis of Funding Arrangements
 
-5.8.2 Internal Funding Terms 25  
-5.8.3 Development of UBS's Balance Sheet and Risk Weighted Assets 26
+5.8.2 Internal Funding Terms  
+5.8.3 Development of UBS's Balance Sheet and Risk Weighted Assets
 
-# 6. Key Findings Relating to the Causes of the Losses 28
+### 6. Key Findings Relating to the Causes of the Losses
 
-6.1 Implementation of Agreed UBS Growth Strategy 28  
-6.2 Causes Specific to the Individual Businesses 28
+6.1 Implementation of Agreed UBS Growth Strategy  
+6.2 Causes Specific to the Individual Businesses
 
-6.2.1 CDO Warehouse - Causes of Loss 29  
-6.2.2 CDO Super Senior Positions – Causes of Loss 30  
-6.2.3 AMPS and Unhedged Super Seniors 30  
-6.2.4 Dillon Read Capital Management 31  
-6.2.5 FX/CCT ABS Trading Portfolio 32
+6.2.1 CDO Warehouse - Causes of Loss  
+6.2.2 CDO Super Senior Positions – Causes of Loss  
+6.2.3 AMPS and Unhedged Super Seniors  
+6.2.4 Dillon Read Capital Management  
+6.2.5 FX/CCT ABS Trading Portfolio
 
-6.3 Overarching Causes 32
+6.3 Overarching Causes
 
-6.3.1 DRCM 33  
-6.3.2 Fixed Income 34  
-6.3.3 Governance 34  
-6.3.4 Funding Framework and Balance Sheet / RWA Management and Control 36  
-6.3.5 Risk Management 37  
-6.3.6 Risk Control 38  
-6.3.7 Finance Oversight 41  
-6.3.8 Compensation 41
+6.3.1 DRCM  
+6.3.2 Fixed Income  
+6.3.3 Governance  
+6.3.4 Funding Framework and Balance Sheet / RWA Management and Control  
+6.3.5 Risk Management  
+6.3.6 Risk Control  
+6.3.7 Finance Oversight  
+6.3.8 Compensation
 
-# Appendix 1: Letter from KPMG Ltd. 43
+### Appendix 1: Letter from KPMG Ltd.
 
-# Appendix 2: List of Abbreviations and Glossary 45
+### Appendix 2: List of Abbreviations and Glossary
 
-# 1. Introduction
+## 1. Introduction
 
-# 1.1 Background
+### 1.1 Background
 
 In 2007 and in relation to the first quarter of 2008, UBS AG ("UBS") has made several announcements of losses incurred in relation to structuring, trading and investment activities in mortgage and asset-backed securities, in particular with respect to securities referencing US "Subprime" residential mortgages. UBS first announced Subprime-related losses in connection with the closure of Dillon Read Capital Management ("DRCM") in May 2007.1 UBS ultimately reported net losses of USD 18.7 bn in relation to US residential mortgage sector exposures for the year ended 31 December 2007 (the "Subprime Losses").
 
@@ -111,17 +134,9 @@ This Shareholder Report (the "Shareholder Report") sets out UBS's key findings, 
 
 KPMG Ltd, Zurich, has read this Shareholder Report and the report to the EBK (consisting of a factual report, appendices and an executive summary) and determined, in their professional judgement, the Shareholder Report contains a reasonable summary of the information that UBS included in their report to the EBK. The KPMG letter is attached hereto as Appendix 1.
 
-# 1.2 Context for Findings in this Shareholder Report
+### 1.2 Context for Findings in this Shareholder Report
 
-The findings presented in this Shareholder Report must be viewed in the context of market events. Many market observers have characterized the period beginning July 2007 as reflecting an unprecedented dislocation in credit markets (particularly with respect to Subprime securities), as well as an unprecedented lack of liquidity. The facts and business practices described in UBS's analysis should be viewed in the context of wider industry practices and investment strategies that were pursued by many financial institutions during the period. Based on publicly available information<sup>2</sup> UBS believes that its approach to the
-
-risk measurement and valuation of structured credit products reflects issues which were not unique and that a number of other financial institutions with exposure to the US Subprime market used similar approaches.
-
-In reviewing this Shareholder Report, it is also important to note that UBS's analysis was prepared after the US Subprime market suffered the unprecedented dislocation referred to above. Specifically, this Shareholder Report was prepared with the benefit of hindsight and with the knowledge of the Subprime Losses experienced by UBS.
-
-This Shareholder Report addresses only UBS's positions and losses related to the US Subprime residential mortgage market as at 31 December 2007. UBS has other substantial positions arising from US and non-US residential and commercial mortgage businesses and trading strategies, which are not considered in this Shareholder Report. These have, where material to an understanding of UBS's financial position, been described in other publicly available materials, including UBS's Annual Report 2007 and related documents.<sup>3</sup>
-
-# 1.3 Overview
+### 1.3 Overview
 
 Section 2 of this Shareholder Report describes the chronology of key events relating to the Subprime Losses incurred for the year ended 31 December 2007 and identifies the most significant businesses that together suffered the substantial majority of these losses.
 
@@ -139,13 +154,13 @@ Compensation.
 
 For ease of reference, a list of abbreviations and a glossary of financial terms is included in Appendix 2 to this Shareholder Report.
 
-# 2. Overview of Losses and Key Announcements
+## 2. Overview of Losses and Key Announcements
 
-# 2.1 Chronology
+### 2.1 Chronology
 
 The chronology of UBS's disclosure to the market of the Subprime Losses (and other significant events / announcements) is as follows:
 
-- On 3 May 2007, UBS announced the closure of DRCM and net negative revenue at DRCM of USD  $150\mathrm{m}$  for the first quarter 2007.  
+- On 3 May 2007, UBS announced the closure of DRCM and net negative revenue at DRCM of USD $150m$  for the first quarter 2007.  
 - On 6 July 2007, UBS announced that the Board of Directors ("BoD") had appointed M Rohner as UBS's Group CEO to succeed P Wuffli, effective immediately.  
 - On 3 August 2007, UBS announced the appointment of A Esteves as Global Head of Fixed Income for the Investment Bank ("IB").  
 - On 14 August 2007, UBS made a profit warning in connection with its disclosure of results for the second quarter of 2007. Specifically, UBS reported that "if the current turbulent conditions prevail throughout the quarter," UBS "will probably see a very weak trading result in the Investment Bank," and "this makes it likely that profits in the second half of 2007 will be lower than in the second half of [2006]."  
@@ -153,13 +168,11 @@ The chronology of UBS's disclosure to the market of the Subprime Losses (and oth
 - On 30 October 2007, UBS reported an operating loss of CHF 726 m for the third quarter. This reported loss was within the range provided in UBS's 1 October 2007 pre-announcement.  
 - On 10 December 2007, UBS announced that it had taken additional write-downs of roughly USD 10 bn. As a result, UBS expected a loss for the fourth quarter and indicated that it might record a loss for the full year. At the same time, UBS announced measures to substantially strengthen its capital position, including a placement of mandatory convertible notes of CHF 13 bn with two strategic investors.  
 - On 30 January 2008, UBS pre-announced its fourth-quarter 2007 and full-year 2007 results. UBS reported an expected loss of approximately CHF 4.4 bn for full-year 2007, a fourth quarter loss of approximately CHF 12.5 bn, and an additional USD 4 bn in write-downs in positions related to the US residential mortgage market.  
-- On 14 February 2008, UBS announced fourth-quarter 2007 and full-year 2007 results in line with its 30 January 2008 announcement, with losses related to the US residential mortgage market of USD 18.7 bn. On the day before, UBS had also announced the
-
-appointment of J Johannson as Chairman and CEO of the IB and a number of additional appointments to the GEB.
+- On 14 February 2008, UBS announced fourth-quarter 2007 and full-year 2007 results in line with its 30 January 2008 announcement, with losses related to the US residential mortgage market of USD 18.7 bn. On the day before, UBS had also announced the appointment of J Johannson as Chairman and CEO of the IB and a number of additional appointments to the GEB.
 
 Whilst outside the scope of UBS's report to the EBK (and therefore not within the scope of this Shareholder Report), UBS pre-announced its first quarter 2008 results on 1 April 2008. Based on preliminary internal estimates, UBS reported that it expects a net loss attributable to shareholders of approximately CHF 12 bn. The first quarter 2008 figures included additional write-downs of approximately USD 19 bn on US real estate and related structured credit positions. UBS further reported that its exposure to US residential Subprime mortgage related positions declined from USD 27.6 bn as at 31 December 2007 to approximately USD 15 bn as at 31 March 2008, and that the exposure to Alt-A positions declined from USD 26.6 bn as at 31 December 2007 to approximately USD 16 bn as at 31 March 2008. As described in the pre-announcement, these reductions reflect the results of asset disposals as well as the effects of further write-downs. At the same time, UBS announced a fully underwritten rights issue of approximately CHF 15 bn to strengthen Tier 1 capital and that M Ospel, Chairman of UBS, would not seek re-election at the Annual General Meeting of 23 April 2008.
 
-# 2.2 Business Lines Affected by the Losses
+### 2.2 Business Lines Affected by the Losses
 
 UBS had significant levels of Subprime investments in three distinct businesses:
 
@@ -167,72 +180,19 @@ UBS had significant levels of Subprime investments in three distinct businesses:
 - Within the IB, the Fixed Income business area's Rates business had Subprime positions. The Rates business had warehoused and retained Collateralized Debt Obligations ("CDOs") backed by Subprime collateral, including (in particular) Super Senior tranches of such CDOs. These Subprime positions were held principally by the CDO desk within Rates. More detail on this business is set out at section 4.2 of this Shareholder Report.  
 - Also within IB the Foreign Exchange / Cash Collateral Trading ("FX/CCT") business had Subprime positions in the ABS Trading Portfolio, which was a part of the overall Relative Value Trading Portfolio ("RVT Portfolio") managed by the IB FX/CCT ABS Trading team. More detail on this business is set out at section 4.3 of this Shareholder Report.
 
-Losses on the DRCM trading strategies contributed approximately  $16\%$  of UBS's Subprime Losses for the year ended 31 December 2007. The IB's CDO desk contributed approximately  $66\%$  of UBS's Subprime Losses in the same period and losses from the FX/CCT business a further  $10\%$ . Other parts of the IB's Fixed Income business (such as the SPG Proprietary Trading desk and the Credit Fixed Income ("CFI") business) contributed to the remainder of UBS's Subprime Losses. Given the significance of the losses suffered by the three businesses set out above, these are the focus of this Shareholder Report.
+Losses on the DRCM trading strategies contributed approximately $16\%$ of UBS's Subprime Losses for the year ended 31 December 2007. The IB's CDO desk contributed approximately $66\%$ of UBS's Subprime Losses in the same period and losses from the FX/CCT business a further $10\%$. Other parts of the IB's Fixed Income business (such as the SPG Proprietary Trading desk and the Credit Fixed Income ("CFI") business) contributed to the remainder of UBS's Subprime Losses. Given the significance of the losses suffered by the three businesses set out above, these are the focus of this Shareholder Report.
 
-# 3. Business Model Pursued by UBS in the Areas Affected by Subprime Losses
+## 3. Business Model Pursued by UBS in the Areas Affected by Subprime Losses
 
-# 3.1 UBS Group – Overall Strategic Objectives
+### 3.1 UBS Group – Overall Strategic Objectives
 
-This section of the report briefly describes the process by which UBS determined its strategic objectives and then considers how relevant Business Group ("BG") strategies were implemented as relevant within the business areas giving rise to the most significant parts of the Subprime Losses.
+#### 3.1.1 Establishment of UBS Group Strategic Objectives
 
-# 3.1.1 Establishment of UBS Group Strategic Objectives
+#### 3.1.2 UBS Group Strategy in 2006 and 2007
 
-Each year, UBS produces a consolidated 5 Year Strategic Plan. UBS also produces a consolidated 1 Year Operational Plan. These plans are based on input from Senior Management in each BG and are submitted to the Group Executive Board ("GEB") and Chairman's Office ("ChO") for approval.
+### 3.2 Dillon Read Capital Management
 
-Once approved by the GEB, these plans are submitted to the BoD for approval, together with each BG's own 5 Year Plan presentation. In developing strategy, UBS applies a measure of aggregate risk exposure across all risk types and businesses, termed earnings-at-risk ("EaR").
-
-# 3.1.2 UBS Group Strategy in 2006 and 2007
-
-UBS's strategy is to operate as a global firm that concentrates on three global core businesses – (1) wealth management, (2) asset management and (3) investment banking and securities trading – as well as retail and corporate banking in Switzerland. One of the key strategic objectives was the integrated business model, with a "one firm" approach designed to facilitate client referrals and the exchange of products and distribution services between businesses and as a result contribute to revenue flows.
-
-At the Group level, the 5 year strategic focus articulated for 2006 - 2010 was to aim for significant revenue increases whilst also allowing for more cost expansion. However the Group's risk profile in 2006 was not predicted to change substantially, with a moderate growth in overall Risk Weighted Assets ("RWA").
-
-Key strategic growth initiatives for the UBS Group in 2006 included:
-
-- Expanding market share in existing businesses, e.g. by attracting new clients in fast growing segments and increasing business volume with existing clients;  
-- Expansion in emerging markets, e.g. including the acquisition and integration of the Brazilian financial services firm Banco Pactual into UBS's IB, wealth management ("WM") and asset management operations;  
-- Expansion of business in the Asia Pacific ("APAC") region – with strategic emphasis on China, India and Japan and the domestic build-out of wealth management across APAC;  
-- Further US wealth management integration within Global Wealth Management & Business Banking ("GWM&BB") integrating product offerings and strengthening client services;  
-- Expansion of onshore European Wealth Management ("EWM") business; and
-- Implementation of DRCM in line with announcements made in 2005.
-
-The 5 year strategic focus as articulated in the 5 Year Plan for 2007 - 2011 confirmed the previous year's trend of double-digit top-line increases with a slower growth in non-personnel expenses. In 2007, increased overall RWA growth was predicted, with the IB contributing roughly two-thirds of the predicted increase.
-
-The major strategic initiatives noted in the 5 Year Strategic Plan 2007 - 2011 to foster future revenue and profit growth included:
-
-- Within GWM&BB, further emphasis on EWM and key client and product initiatives in WM US;  
-- Within IB, the development / integration of the Pactual business and of the Global Syndicated Finance, Real Estate and Fixed Income businesses; and  
-- Within Global AM, further diversification of investment capabilities, including DRCM, and further diversification into new markets.
-
-In summary therefore, in the period most relevant to assessing UBS's Subprime Losses (i.e. 2006 / 2007), UBS at a Group level focused on initiatives that were intended to further implement the integrated business model and grow businesses in line with UBS's long standing focus on its three global core businesses. There was not, at the Group level, a particular and specific decision either to develop business in, or to increase exposure to, Subprime markets. Additionally, there was no specific decision substantially to increase UBS's overall risk taking in connection with these growth initiatives.
-
-However, within the growth initiatives approved by the BoD and by Group Senior Management, there was, amongst other things, a focus on the growth of certain businesses that did, as part of their activities, invest in or increase UBS's exposure to the US Subprime sector by virtue of investments in securities referencing the sector. In particular, these included DRCM and the IB's Fixed Income business as described below.
-
-# 3.2 Dillon Read Capital Management
-
-On 30 June 2005, UBS announced the launch of a new alternative investment management business within Global AM. At the same time, it was announced that DRCM would be headed by J Costas as CEO (until then the IB's Chairman and CEO and a member of the GEB and deputy CEO UBS) and that J Costas would leave the GEB at the end of 2005. It was also announced that H Jenkins would succeed J Costas as IB CEO.
-
-DRCM's formation dates back to strategy work undertaken in early 2004. The rationale for creating DRCM reflected a desire to:
-
-- Establish a new alternative investment business;  
-Diversify allocation of capital and risk appetite through third party investors;  
-- Meet client demand to co-invest in certain IB investment strategies;  
-- Support retention of existing talent and attraction of new talent; and  
-- Create a valuable franchise for UBS.
-
-Whilst work on the creation of DRCM progressed for some time, decisions on the composition of the Senior Management team were made relatively late in the process. In consequence, the DRCM business case and internal agreements and arrangements to close
-
-the DRCM transaction were eventually effected with considerable speed and concluded with less opportunity for wider internal review than might otherwise have been the case.
-
-On 29 June 2005, an agreement was reached that DRCM would receive the IB's Principal Finance and Credit Arbitrage ("PFCA"), Mortgage Origination Services Group ("MOSG") and Commercial Real Estate ("CRE") businesses, together with approximately 120 staff.
-
-Oversight arrangements for DRCM were relatively complex and reflected a non-standard governance model. DRCM was held within Global AM for reporting and management control, but the IB was exposed to the risks and rewards of DRCM's performance in managing its proprietary capital within DRCM's Controlled Finance Companies ("CFC") – wholly controlled and fully consolidated UBS entities. To support UBS's strategic objectives to allow sufficient third party investment, DRCM also needed to establish separate Outside Investor Funds ("OIF"), in which UBS's risk exposure was limited to its minority interest. This additional organizational layer added complexity, because the OIF was overseen not by the IB but by Global AM's risk and control functions, in a manner consistent with Global AM's general approach to discharging its obligations to third party investment management clients.
-
-On 5 June 2006, the IB's PFCA, MOSG and CRE businesses were transferred to Global AM as part of the formation of DRCM and on 1 November 2006, DRCM launched its first OIF.
-
-The development of the DRCM trading strategies relevant to this Shareholder Report is described in further detail at section 4.
-
-# 3.3 Investment Bank Fixed Income business
+### 3.3 Investment Bank Fixed Income business
 
 As a result of the agreements relating to the formation of DRCM, UBS made two senior leadership changes in the IB. In June 2005, P Wuffli, the then Group CEO recommended to the BoD that H Jenkins succeed J Costas as IB CEO and the BoD approved this appointment on 29 June 2005, effective from 1 July 2005. S Bunce was also recommended to become IB Head of Fixed Income, replacing M Hutchins.
 
@@ -256,93 +216,21 @@ Securitized Products - build out a new Securitized Products Group, including a C
 - Expand businesses and local markets presence in APAC region; and  
 - Expand municipal securitization, derivatives and proprietary trading businesses.
 
-# 4. How the Losses Developed
+## 4. How the Losses Developed
 
-# 4.1 Dillon Read Capital Management (until re-integration into UBS)
+### 4.1 Dillon Read Capital Management (until re-integration into UBS)
 
-On establishment, and following the transfer of the IB's PFCA, MOSG and CRE businesses into DRCM, DRCM operated a number of trading strategies that involved Subprime positions. All of these strategies were previously conducted within the IB. In brief, the most significant DRCM trading strategies relevant to this Shareholder Report were as follows:
+### 4.2 UBS Investment Bank: Fixed Income
 
-ABS Relative Value – This strategy involved the trading of perceived mispriced instruments, both long and short, against other instruments. Within the home equity book, the desk purchased ABS securities collateralized by Subprime and Alt-A mortgages, both  $1^{\text{st}}$  and  $2^{\text{nd}}$  liens, and Net Interest Margin certificates ("NIM") at all credit quality levels. The desk also executed Credit Default Swaps ("CDS") on ABS referencing the ABX and single-name exposures as well as spreadlocks to express both long and short views in these market segments.
+#### 4.2.1 Overview
 
-DRCM took write-downs on the ABS Relative Value strategy's home equity book in Q1 2007, in relation to ABS tranches and NIMs. These occurred substantially in the lower credit quality ABS and NIMs (i.e. rated BB+ and below), and on 2006 vintages with  $2^{\text{nd}}$  lien bonds. The home equity book had taken a net short position on Subprime exposure since September 2006. Short positions in CDS on single ABS, spreadlocks and on the ABX were not considered to be hedges by the DRCM traders, but rather distinct shorting of perceived over-priced assets.
+#### 4.2.2 Development of the CDO Warehouse
 
-Reference Linked Notes – DRCM's RLN desk purchased a pool of assets, including ABS, based on a long-term buy-and-hold strategy (though assets could be risk managed and replaced as part of DRCM's right to manage the reference pool of assets). The desk also purchased credit protection in the form of RLNs marketed and sold to investors. The assets in the pool could be a combination of cash and synthetic instruments. DRCM received the income from the assets held in the pool, and paid investors a premium for credit protection. DRCM purchased different amounts of protection; the lowest amount of protection purchased in any RLN issuance was on  $5.5\%$  of the pool, while the highest amount was approximately  $45\%$ . In some cases, based on investor demands, the RLN holders bore the first-loss risk, while in other cases UBS held equity (and thus bore the first-loss risk).
+#### 4.2.3 Super Senior Positions - Retention and Hedging
 
-Over the course of several weeks around late July 2007, the value of Subprime assets in various RLN deals declined, and the value of protection on those deals was exhausted. The assets could not be sold given the illiquidity in the market and UBS was exposed to further deterioration.
+#### 4.2.4 Other Fixed Income Businesses – Securitized Product Group Proprietary Trading Desk and Credit Fixed Income
 
-ABS CDO Trading – DRCM's ABS and CDO Trading desk accumulated and repackaged CDOs and identified opportunistic situations in the CDO market where the desk served as a bidder of last resort by placing a (low) bid for the equity portion of a rated CDO. The desk also provided a CDO Warehouse facility to clients, building up underlying assets on their clients' behalf. The assets were then passed to an agent for repackaging and issuance.
-
-US Short Term Asset Backed Portfolio – This DRCM desk invested in AAA rated short term instruments as part of investing DRCM's spare liquidity to obtain a positive carry (since the
-
-(expected) yield on these positions exceeded the internal cost of funding and the hedging costs).
-
-Losses on the DRCM trading strategies described above contributed approximately  $16\%$  of the Subprime Losses as at 31 December 2007.
-
-# 4.2 UBS Investment Bank: Fixed Income
-
-# 4.2.1 Overview
-
-The primary contributor to UBS's write-downs in the IB was the CDO desk within the IB's Fixed Income business. As at 31 December 2007, approximately two thirds of the total UBS losses were attributable to the CDO desk.
-
-The CDO desk entered into transactions related to US Subprime residential mortgages principally through CDO securitization and through the purchase or retention of CDO Super Senior positions.
-
-In percentage terms, both resources and profits on this desk increased significantly year on year from 2005 to 2006.
-
-# 4.2.2 Development of the CDO Warehouse
-
-UBS acquired its exposure to CDO Warehouse positions through its CDO origination and underwriting business.
-
-In the initial stage of a CDO securitization, the desk would typically enter into an agreement with a collateral manager. UBS sourced residential mortgage backed securities ("RMBS") and other securities on behalf of the manager. These positions were held in a CDO Warehouse in anticipation of securitization into CDOs. Generally, while in the Warehouse, these positions would be on UBS's books with exposure to market risk. Upon completion of the Warehouse, the securities were transferred to a CDO special-purpose vehicle, and structured into tranches. The CDO desk received structuring fees on the notional value of the deal, and focused on Mezzanine ("Mezz") CDOs, which generated fees of approximately 125 to 150 bp (compared with high-grade CDOs, which generated fees of approximately 30 to 50 bp). Key to the growth of the CDO structuring business was the development of the credit default swap ("CDS") on ABS in June 2005 (when ISDA published its CDS on ABS credit definitions). This permitted simple referencing of ABS through a CDS. Prior to this, cash ABS had to be sourced for inclusion in the CDO Warehouse.
-
-Under normal market conditions, there would be a rise and fall in positions held in the CDO Warehouse line as assets were accumulated ("ramped up") and then sold as CDOs. There was typically a lag of between 1 and 4 months between initial agreement with a collateral manager to buy assets, and the full ramping of a CDO Warehouse.
-
-The CDO Warehouse was a significant contributor to Value at Risk ("VaR") and Stress limits applicable to this business relative to other parts of the CDO securitization process and warehoused collateral was identified as one of the main sources of market risk in reviews by IB Market Risk Control ("MRC") conducted in Q4 2005 and again in Q3 2006.
-
-Throughout 2006 and 2007, there were no aggregate notional limits on the sum of the CDO Warehouse pipeline and retained pipeline positions. Instead, these positions were
-
-subject to Stress and the overall Mortgage US VaR limits. In addition, each warehouse deal required approval by control functions through the IB's "Transaction Requiring Prior Approval" ("TRPA") process. All warehouse deals were subject to, and approved through, the IB's TRPA approval process.
-
-By the end of 2007, losses on the positions held in the CDO Warehouse plus retained pipeline positions represented approximately one quarter of the CDO desk's losses (i.e. approximately  $16\%$  of UBS's total Subprime Losses as at 31 December 2007).
-
-# 4.2.3 Super Senior Positions - Retention and Hedging
-
-Following completion of the CDO securitization process, UBS generally sold subordinate (i.e. lower rated) CDO tranches to external investors. In 2005, the CDO desk also sold the highest rated / AAA rated (the so called "Super Senior") tranches of these CDOs to third party investors along with subordinate tranches. However, after the first few deals, the IB retained the Super Senior tranche of CDOs it structured on its own books. One factor influencing this change was that the CDO desk viewed retaining the Super Senior tranche of CDOs as an attractive source of profit, with the funded positions yielding a positive carry (i.e. return) above the internal UBS funding rate and the unfunded positions generating a positive spread. Further, within the CDO desk, the ability to retain these tranches was seen as a part of the overall CDO business, providing assistance to the structuring business more generally. Apart from the Super Senior positions retained by the CDO desk from its CDO structuring activities, the desk also purchased Super Senior positions from third parties to be hedged and held on UBS's books.
-
-Losses on the Super Senior positions contributed approximately three quarters of the CDO desk's total losses (or  $50\%$  of UBS's total losses) as at 31 December 2007. Within this aggregate position, there are three different categories of Super Senior positions to consider: Negative Basis Super Seniors, AMPS Super Seniors, and Unhedged Super Senior positions:
-
-- Negative Basis Super Seniors: these were Super Senior positions where the risk of loss was hedged through so-called Negative Basis (or "NegBasis") trades where a counterparty, such as a monoline insurer provided  $100\%$  loss protection. The hedge resulted in a credit exposure towards the protection seller. As at the end of 2007, write-downs on these positions represented approximately  $10\%$  of the total Super Senior losses.  
-- Amplified Mortgage Portfolio ("AMPS") Super Seniors: these were Super Senior positions where the risk of loss was initially hedged through the purchase of protection on a proportion of the nominal position (typically between  $2\%$  and  $4\%$  though sometimes more). This level of hedging was based on statistical analyses of historical price movements that indicated that such protection was sufficient to protect UBS from any losses on the position. Much of the AMPS protection has now been exhausted, leaving UBS exposed to write-downs on losses to the extent they exceed the protection purchased. As at the end of 2007, losses on these trades contributed approximately  $63\%$  of total Super Senior losses.  
-- Unhedged Super Senior positions: positions retained by UBS, in anticipation of executing AMPS trades which did not materialise. As at the end of 2007, losses on these trades contributed approximately  $27\%$  of total Super Senior losses.
-
-The Super Senior inventory of UBS grew from low levels in February 2006 to approximately USD 50 bn by September 2007 of which USD 27 bn related to AMPS and unhedged Super Seniors (mainly including the Mezz ABS CDO inventory). In relation to timing, and as noted at section 4.2.2, a time lag existed (typically of 1 to 4 months) between entering into an agreement with a collateral manager and completing the CDO Warehouse. A further time lag existed between completing the Warehouse, retaining the Super Senior tranche and executing a hedging AMPS trade.
-
-Key drivers of the growth of the Super Senior inventory included:
-
-- Increasing use by the CDO desk of hybrid CDO issuance, both in number and size of deals - more than  $75\%$  of total CDOs were hybrids (hybrid CDOs are backed by a combination of cash and synthetic assets);  
-- Increasing volumes of Variable Funding Note ("VFN") Super Seniors. The VFN Super Seniors did not require up-front UBS funding, and only the replacement value showed on the UBS balance sheet: and  
-- Growth in the AMPS business. A hedging methodology enabled the desk to buy relatively low levels of market loss protection (generally 2 to  $4\%$  and sometimes more), and the desk considered the position as fully hedged. All AMPS trades except for one were made before July 2007.
-
-Of the total USD 50 bn Super Seniors held by UBS, UBS purchased USD 20.8 bn of these Super Seniors from third parties. USD 15 bn of this was fully hedged (NegBasis Super Seniors), and the remaining USD 5.8 bn was partially hedged (AMPS).
-
-4.2.4 Other Fixed Income Businesses – Securitized Product Group Proprietary Trading Desk and Credit Fixed Income
-
-The other areas of IB's Fixed Income business contributing to the Subprime write-downs included the SPG Proprietary Trading desk created at the start of 2006 and the IB CFI business.
-
-SPG's proprietary trading strategies included:
-
-- Short-Term Subprime RMBS – effectively a carry strategy with opportunistic selling, borrowing funds at the UBS cost of funding, and investing long in AAA-rated, short-duration Subprime home equity bonds;  
-- Residential Credit – the residential credit trading book was predominantly made up of prime and Alt-A bonds, with some limited Subprime positions; and  
-- Secondary Market CDO Trading – this strategy involved shorting ABX and TABX indices, and taking long positions in AAA CDO bonds.
-
-Prior to the re-integration of DRCM, SPG did not have significant Subprime exposure apart from its Short-Term Subprime RMBS book, generally made up of AAA-rated short-duration bonds. The Short-Term book reached a maximum size of approximately USD 3bn.
-
-In addition to its own Subprime RMBS positions, SPG inherited the majority of DRCM's Subprime positions, amounting to approximately USD 20 bn in Q2 2007. When the DRCM positions were migrated to SPG, in Q2 2007, ABX hedges were executed to offset part of the risk and SPG also sold part of the legacy DRCM bonds in the US Short Term Asset Backed Portfolio.
-
-As at 31 December 2007, write-downs attributable to the SPG business (excluding legacy DRCM positions) represented approximately  $1.5\%$  of UBS's overall losses.
-
-In 2006 and 2007, CFI had comparatively small Subprime exposures in its credit and structured credit businesses. As at 31 December 2007, estimated Subprime losses within CFI contributed less than  $1\%$  of total losses.
-
-# 4.3 UBS Investment Bank: Foreign Exchange / Cash Collateral Trading
+### 4.3 UBS Investment Bank: Foreign Exchange / Cash Collateral Trading
 
 Under the arrangements described in section 5.8 of this report, IB's FX/CCT business has overall responsibility for (i) funding UBS's balance sheet, (ii) providing a central treasury function for all BGs within the UBS Group and (iii) facilitating a single point of entry into the short term wholesale cash markets. In connection with this role, FX/CCT manages UBS's daily liquidity strategy. The ABS Trading Portfolio is one part of the RVT Portfolio managed by FX/CCT within this role. The RVT Portfolio is a proprietary portfolio that historically invested in AAA-rated government and corporate bonds. The primary purpose of the RVT Portfolio (including therefore the ABS Trading Portfolio) was to act as a liquidity buffer or reserve for the UBS Group generally.
 
@@ -358,192 +246,43 @@ REPO-able;
 
 There were also a number of other advantages of ABS perceived at the time, including small spreads, USD denomination and no interest rate dependencies (floating rate instruments only in the portfolio). Because they had a higher yield (e.g. than government bonds), including ABS in the RVT Portfolio meant that there was no negative carry trade in the RVT Portfolio.
 
-# 5. Risk Management and Risk Control Activities
+## 5. Risk Management and Risk Control Activities
 
-# 5.1 Overview
+### 5.1 Overview
 
-The UBS Risk Management & Control Principles set out the overall responsibility for risk management and the risk control framework for the UBS Group. A summary of its five principles is set out below:
+### 5.2 Risk Management
 
-- Business management accountability: BG management "owns the risks" and is responsible for risk management ensuring that risk and return are appropriately balanced;  
-- Independent controls: Control units provide independent checks on risk taking activities and focus specifically on preserving the long term interests of UBS;  
-- Risk disclosure: Timely and transparent disclosure of risks and related P&L;  
-- Earnings protection: Protecting UBS's earnings from unacceptable damage; and  
-- Reputation protection: Safeguarding UBS's reputation.
+#### 5.2.1 Risk Management in DRCM
 
-The Risk Management & Control Principles make it clear that business management is accountable for, and is expected to manage, all risks arising from their business and function and to ensure that risk and profit objectives are balanced. The identification of business risks associated with a business strategy is the responsibility of business Senior Management. The principles explicitly state that the existence of an independent risk control function does not absolve management from its responsibility to manage all risks arising in their business and function.
+#### 5.2.2 Risk Management on the CDO Desk
 
-In this section of the Shareholder Report, UBS presents the wider findings in relation to the implementation of the principles of UBS risk management and control framework with respect to the particular businesses considered at section 4 above. This section of the Report also considers both the Market Risk and Credit Risk frameworks, with particular emphasis on the Market Risk framework, as well as findings in relation to the role and activities of the Finance function. UBS also considers the role of Group Treasury and specifically the impact of the historic UBS funding framework and approach to balance sheet management.
+#### 5.2.3 Risk Management on the ABS Trading Portfolio
 
-# 5.2 Risk Management
+### 5.3 Risk Control - Market Risk and Credit Risk
 
-# 5.2.1 Risk Management in DRCM
+#### 5.3.1 Overall Approach
 
-As noted in section 3.2 above, the establishment of DRCM proved more complex than expected and required considerable effort across a range of logistics and control functions. Whilst the delayed launch of DRCM took place in June 2006 (for the CFC) and November 2006 (for the OIF), by the start of 2007 issues regarding the performance of DRCM were being raised internally. IB expressed dissatisfaction with the investment performance, and Global AM was disappointed with the level of third party assets raised in the OIF, and more generally concerned as to the complexity and associated risk of the operational model.
+#### 5.3.2 Application of Overall Approach to the Write-Down Affected Businesses
 
-In mid-March 2007, DRCM management advised the Group CRO that DRCM had to mark down various Subprime positions, and in late March, DRCM advised that losses had increased.
+#### 5.3.3 Risk Reporting
 
-Internal discussion, analysis and review followed, and at the end of April 2007, the BoD decided to close DRCM and to reintegrate the investment strategies within IB. UBS announced this decision on 3 May 2007.
+#### 5.3.4 NBI and TRPA Processes
 
-Group Internal Audit ("GIA") undertook a specific review of DRCM in response to the early losses it incurred. This review highlighted that (i) improvements were required in analyzing, measuring and reporting risks inherent in Subprime-related activities, and (ii) valuation uncertainties in both IB and DRCM portfolios were not sufficiently transparent and inherent risks not adequately analyzed.
+### 5.4 Risk Control - Finance
 
-UBS also undertook an internal analysis and review of DRCM generally. This identified concerns regarding the lack of a comprehensive business case / plan; the complexity and cost of the business model adopted; a number of cultural issues; and financial performance being out of line with the (limited) prior assessment conducted before establishment. There was no indication that any of the losses at DRCM were the result of any breach of UBS's internal rules or regulations.
+### 5.5 Risk Control - Group Internal Audit
 
-# 5.2.2 Risk Management on the CDO Desk
+### 5.6 Risk Control - External Audit
 
-As described in section 4.2, the CDO desk business grew substantially in 2006. In March 2007 and in response to direct questions from the GEB Risk Subcommittee ("GRSC"), the CDO desk gave an update on UBS's potential Subprime exposure. The GRSC is responsible for the preparation of the decisions of the GEB in relation to the GEB's role as a risk council for the UBS Group.
+### 5.7 Other Risk Control Aspects
 
-The desk presented a relatively pessimistic view on certain aspects of the Subprime market and advised that UBS was suffering along with other players and the inventory was challenging. However, the desk noted that the gross exposure on loans awaiting securitization had been reduced and protection had been bought on indices, so the widening of spreads at the time was beneficial. On this basis, the desk believed that UBS would be generally better positioned than many of its peers because the pipeline was relatively small and there were relatively small residual positions.
+### 5.8 UBS Funding Framework and Balance Sheet Considerations
 
-Notwithstanding this outlook, in late May 2007, the CDO desk presented proposals for limit increases in relation to Negative Basis, Super Senior VFN and AMPS trades. Due to the market deterioration the proposals were not pursued.
+#### 5.8.1 Basis of Funding Arrangements
 
-Exit strategies contemplated by the CDO desk for the Super Senior positions included:
+#### 5.8.2 Internal Funding Terms
 
-Sales of long positions;  
-Purchase of further first-loss protection for particular Super Seniors; and  
-Purchase of macro protection, such as shorting the ABX index.
-
-However, from July / August 2007, these strategies were not readily available, principally due to absence of counterparties willing to execute at prices that were mutually acceptable to both UBS and the counterparties.
-
-# 5.2.3 Risk Management on the ABS Trading Portfolio
-
-UBS did not identify any substantive reassessment of the ABS Trading Portfolio in light of wider market developments before difficulties were experienced in valuing certain
-
-investments in the portfolio for the July 2007 month end (which also coincided with the onset of the liquidity crisis). As a result, no significant measures were taken to reduce ABS exposures in this portfolio prior to that time, other than the trading desk starting to trade the ABX index from early 2007. In practice this did act as a hedge to some of the positions, although the ABX trading proposal was submitted as a profit making opportunity.
-
-The desk responsible for this portfolio also made a proposal to increase ABS limits substantially in Q2 2007 so as to have greater flexibility within the overall RVT portfolio. The proposal was declined by the risk control functions.
-
-# 5.3 Risk Control - Market Risk and Credit Risk
-
-# 5.3.1 Overall Approach
-
-UBS's Market Risk framework relies upon VaR and Stress Loss to set and monitor market risks at a portfolio level. Concentration is captured by Risk Factor Loss ("RFL") measures, Issuer Risk (exposure to individual or related entities) and Operational Limits. Within the Credit Risk Framework limits and monitoring are undertaken across a number of dimensions including portfolios (country ratings and sectors), business types of products and counterparty types.
-
-UBS's Risk Authorities and Risk Management and Control Framework set out the risk authorities at different levels within UBS. While the ChO and the GEB have ultimate risk control authority, under the terms of the Organizational Regulations that authority has been delegated down in part to key position holders at Group level and within the IB such as the Group CRO and the Group Head of Market Risk ("GHMR") and the Group Chief Credit Officer ("Group CCO"); subject in each case to express limits.
-
-During the period considered (2006 / 2007), the largest part of the overall Group VaR limit was allocated to the IB. Similarly, the major share in the overall Group Stress Loss limit was allocated to the IB. These limits were largely unchanged in the period until both the IB's VaR and the Stress Loss limit were reduced in response to market conditions in Q3 2007.
-
-Within the IB, VaR limits are further allocated to business areas (e.g. Equities, Fixed Income), to businesses (e.g. Credit Fixed Income, Rates, MCC) and business lines (e.g. Mortgages US, FX/CCT Relative Value etc.). Stress limits are not allocated beyond business area level. These allocations are endorsed by the UBS IB Risk & Governance Committee ("IB R&GC") and submitted to the Group CRO for approval.
-
-The IB also sets RFL limits which are approved by the IB R&GC and subject to ultimate approval by the Group CRO and the IB CRO. These are designed to limit concentrations of exposures to certain broad risk types such as currencies, particular credit spreads (corporates, ABS) etc. and may be set to include rates or prices or foreign exchange.
-
-Whilst there were a number of credit spread RFL limits in place, there was no RFL that specifically addressed certain factors relevant to Subprime exposure, such as delinquency rates or residential real estate price developments.
-
-Additionally, Operational Limits may be set for risks not otherwise adequately captured by VaR or if the IB R&GC considers such a limit appropriate and / or required by regulators. The Group CRO must approve Operational Limits in relation to material risks. The IB implemented many Operational Limits to build on the VaR, Stress and Risk Factor Loss limits
-
-and a number of relevant Operational Limits existed relevant to the businesses that suffered losses. These included:
-
-- An umbrella aggregate operational limit for Subprime securities and loans covering the MOSG business in DRCM and the RMBS Warehouse in US mortgages;  
-- Operational Limits on Negative Basis cash and Super Senior VFN business; and  
-- Operational Limits on the ABS Trading Portfolio for different ABS sectors and issuer limits in this portfolio to mitigate concentration risk.
-
-There were not however any Operational Limits on the CDO Warehouse, nor was there an umbrella Operational Limit across the IB (or the combination of IB and DRCM) that limited overall exposure to the Subprime sector (securities, derivatives and loans).
-
-# 5.3.2 Application of Overall Approach to the Write-Down Affected Businesses
-
-Based on the above described general approach, we note the following specific points in relation to Market Risk and Credit Risk controls around the write-down affected businesses:
-
-The DRCM businesses were subject (in the case of the CFCs) to risk control within the IB framework and therefore many of the specific comments made in relation to the IB Rates business below apply equally to DRCM.
-
-In the context of the CDO structuring business and Negative Basis and AMPS trades, IB MRC relied primarily upon VaR and Stress limits and monitoring to provide risk control for the CDO desk. As noted above, there were no Operational limits on the CDO Warehouse and throughout 2006 and 2007, there were no notional limits on the retention of unhedged Super Senior positions and AMPS Super Senior positions, or the CDO Warehouse (although approval of warehouse deals by MRC and other control functions was required through the TRPA process – see section 5.3.4).
-
-MRC VaR methodologies relied on the AAA rating of the Super Senior positions. The AAA rating determined the relevant product-type time series to be used in calculating VaR. In turn, the product-type time series determined the volatility sensitivities to be applied to Super Senior positions. Until Q3 2007, the 5-year time series had demonstrated very low levels of volatility sensitivities. As a consequence, even unhedged Super Senior positions contributed little to VaR utilisation.
-
-In monitoring and reporting positions, MRC took data feeds from the front-office systems. In analyzing the retained positions, MRC generally did not "look through" the CDO structure to analyse the risks of the underlying collateral. In addition, the CDO desk does not appear to have conducted such "look through" analysis and the static data maintained in the front-office systems did not capture several important dimensions of the underlying collateral types. For example, the static data did not capture FICO scores,  $1^{\text{st}} / 2^{\text{nd}}$  lien status, collateral vintage (which term relates to the year in which the assets backing the securities had been sourced), and did not distinguish a CDO from an ABS. MRC did not examine or analyze such information on a regular or systematic basis.
-
-With reference to CRC, in the context of the CDO desk and the Super Senior positions specifically, CRC had three particular responsibilities:
-
-- Along with other control functions, involvement in approval of New Business Initiatives ("NBIs") for Negative Basis and Super Senior VFN business and TRPAs for CDOs and AMPS trades;  
-Monitoring limits for counterparties of Negative Basis trades; and  
-- Approval by the Group CCO of non-standard tenors.
-
-In the context of the FX/CCT ABS Trading Portfolio, Operational and notional limits applied to the portfolio at all times (including sector limits and issuer limits intended to reduce concentration risk). Both IB Business Unit Control ("BUC") and IB Risk Control appear to have had few concerns historically regarding the ABS Trading Portfolio. The portfolio was seen as straightforward, with few transactions and no issues in price testing or valuation prior to the July 2007 month end. Similar to the CDO desks approach, representatives of Risk Control, BUC and FX/CCT management involved with the ABS Trading Portfolio have noted that with the benefit of hindsight, granularity of data regarding particular investments beyond looking at rating etc. might have been appropriate. Enhancements were made to systems to facilitate modelling of this portfolio by individual instrument characteristics beyond rating – but these came into effect only as the liquidity crisis began.
-
-# 5.3.3 Risk Reporting
-
-There were many formal reports both within the IB and at Group level which sought to present a portfolio view of UBS's risks, including reports that sought to capture real estate securities and loan exposure. However, there was no comprehensive view available of the gross notional holdings with Subprime exposure across the IB. This was principally due to incomplete data capture and the effects of hedging. Hedging resulted in positions being netted off and therefore not showing up in the overall position data.
-
-UBS's analysis of the various real estate reports revealed that with one exception the projected Stress Loss numbers for US real estate outlined in these reports were relatively modest prior to the onset of the liquidity crisis. In the case of the exception, the projected Stress loss was still a small fraction of UBS's write-downs and the relevant report was not widely distributed outside the Risk function and evaluated the impact of a decline in housing across the broader portfolio (i.e. not just real estate-related securities).
-
-# 5.3.4 NBI and TRPA Processes
-
-The NBI and TRPA processes are intended to ensure that the right level of control function oversight is applied to significant business initiatives and transactions in UBS. Both processes are intended to involve a broad, holistic risk assessment. Amongst other things, they are used to determine the need for and nature and level of relevant limits and other controls to be applied to the business / transaction in question.
-
-The business did not submit NBI requests for either the CDO structuring business or for the AMPS business and there were no overall notional portfolio limits established for CDOs or AMPS. CDO and AMPS deals were approved on a transaction-by-transaction basis, using the TRPA process. Both the Negative Basis and Super Senior VFN deals were approved under the IB's NBI process. The retention of unhedged Super Senior positions was not subject to a specific approval process.
-
-From an overall process perspective, concerns were raised in relation to the effectiveness of both the IB's TRPA and NBI processes. These discussions took place at the business level, for
-
-instance, within the IB Fixed Income Executive Committee, the IB MC as well as the IB R&GC. However, the questions concerning these processes during the course of 2006 and the first half of 2007 were not addressed and no significant changes were made in that period to the processes other than to establish a streamlined process for CDOs (authorized in December 2006). Under this process, any risk position taken in anticipation of a CDO transaction that was an otherwise permissible trading position (i.e. within established market risk limits) did not require a TRPA review (although other control functions (such as Accounting Policy and BUC) were provided with information concerning the transaction prior to execution). This streamlining of the process was supported by business and approved by control functions. However, CRC's approval of the hedge counterparty providing the protection was required in every case.
-
-The creation of the FX/CCT ABS Trading Portfolio was approved in the IB's NBI process in December 2002. The portfolio did not change significantly since inception. In 2003, an NBI was approved to add non-USD denominated ABS and, in 2007, approval was given (again via an NBI) to start to trade the ABX index.
-
-# 5.4 Risk Control - Finance
-
-Under UBS's policy, traders are responsible for determining the fair value of their positions on a daily basis. Independent verification of the desks' valuation marks determined for the positions is performed by BUC, an organisational unit within the IB Finance function. BUC (and IB Accounting Policy) were also involved in the review of relevant NBI and TRPA requests (including the TRPA proposals for each CDO and AMPS trade).
-
-Both the Group and the IB maintain valuation policies. These policies are derived from applicable accounting standards and provide a framework supporting the principal accounting and valuation determinations such as P&L recognition, whether and how to apply fair value accounting to positions, and consideration of, and basis for, fair value adjustments.
-
-For many Subprime positions, the valuation methodology was mark-to-market. In the absence of quoted prices reference was made to equivalent securities (based on both primary and secondary issues).
-
-At the start of September 2007, UBS determined to adopt a "Fundamental Model" approach to valuing certain positions. This approach was based on published research by UBS's Fixed Income Research Group. The Fundamental Model adopted an approach to valuing Subprime securities based on the cash flows expected from the mortgages underlying the RMBS and the remittance data on delinquencies on that cash flow and was subsequently refined in response to market developments and wider market practice.
-
-In the relevant time periods, BUC operated a programme of formal monthly / quarterly valuation reporting which rolled up from desk to BG level. These covered a range of matters, including independent price verification results, valuation adjustments, inventory ageing, and changes in model certification status. BUC shared its work with the relevant business areas and on a quarterly basis its work was reviewed at the Group Risk, Finance and Treasury Meeting, involving senior IB and Group Finance, Risk and Treasury personnel.
-
-BUC evaluated whether Day 1 P&L could be recognised on trades. When model inputs were believed to be unobservable, BUC would conduct a stress test, shocking the parameters to a
-
-99.5% confidence level. If this gave rise to movements of no more than  $10\%$ , it was deemed that such unobservable inputs were not material. If BUC experienced delays in conducting such sensitivity checks, then for that period any Day 1 P&L would be deferred. While in many cases confirmation of Day 1 P&L treatment was given within circa 1 month from execution, in several instances this determination was delayed. BUC explained that such delays have occurred for a number of reasons, including data issues and priorities changing in light of market developments.
-
-All Super Senior positions were determined by BUC to be Day 1 P&L eligible at the time of acquisition by UBS. Additionally, both cash and derivative Super Senior positions were, at the time they were acquired by UBS, deemed to be held for trading, and marked to market. At the time they were acquired by UBS, all Super Senior positions were deemed to be Level 2 Assets. Following re-assessment in Q4 2007, all Super Senior positions are currently categorized as Level 3 Assets. No liquidity reserves were applied to Super Senior positions, although there were increases in retained inventory and potential limitations on sales to counterparties holding a credit rating of AA or better. This treatment was consistent with accounting standards and UBS policy.
-
-The diminished market liquidity and transparency reported in February and March 2007 resulted in a substantial reduction in the coverage of independent price testing of Subprime securities, and BUC reported this fact to the Audit Committee in April 2007, together with its assessment of the principal valuation issues for UBS's mortgage securities. About this time, GIA noted that there was no policy in place with respect to either minimal independent price testing coverage or an escalation procedure for substantial positions that could not be independently tested.
-
-Consistent with its accounting policy and standards, UBS did not take mark-to-market losses on warehouse positions if it was believed that the probability of securitizations was  $90\%$  or better. The question of whether to take mark-to-market losses on the CDO Warehouse securities was escalated by BUC / IB Finance to Group Accounting Policy in early April 2007 and the treatment was confirmed, as the trading desk confirmed that there was at least a  $90\%$  probability that the CDO securitizations would be completed. A securitization was priced in April with realized P&L seen as broadly in line.
-
-In its 8 August 2007 presentation to the Audit Committee ("AC"), BUC set out the extent of untested positions for IB and in so doing described the retained Super Seniors (for example Negative Basis trades and AMPS trades) as net flat risk or low risk for valuation purposes, based on the views of the desk. BUC also stated in a footnote that a review had been initiated in Q2 2007 to test this view, but progress had been impeded by static data and mapping issues.
-
-# 5.5 Risk Control - Group Internal Audit
-
-GIA pursues its activities under a Charter for UBS Internal Audit, with the Head of GIA reporting to the Chairman of the BoD. GIA operates a clearly defined and consistently applied risk assessment and planning process – conducting a formal annual risk assessment in the second half of each year to determine plans for the following year. This risk assessment is conducted at both a macro and micro level. Based on the risk assessment process, an operational audit plan is prepared and submitted to the ChO for approval. GIA communicates planned audit objectives to the BoD and GEB and provide this information to the EBK and UBS's external auditor. GIA generally conducts over 250 reviews per year.
-
-UBS believes that GIA's risk assessment work was comprehensive, included coverage of the various businesses with Subprime exposure, and that proposed relevant audit work was carried out in the period in line with agreed audit objectives. As part of this process, in 2006, GIA undertook eight reviews that are relevant to the subject matter of this Shareholder Report. Five were issued with "Satisfactory" ratings, two were issued with "Qualified" ratings (Rates, Derivatives, BUC and Model Development and Deployment controls), and one was an "Unrated" project review. The findings of eight reviews were issued in 2007, of which five were issued with "Satisfactory" ratings and three were issued with "Qualified" ratings (High Yield & Investment Grade Structured Credit Trading, New Business and TRPA processes and Sales and Trading Supervisory Procedures). The reports with "Qualified" ratings were submitted, in line with UBS internal procedures, to the ChO, relevant members of the GEB and Senior Management of the relevant BG. In each of their reviews, GIA identified and raised opportunities for improving processes and controls. Actions were agreed with relevant management and resolution was monitored by GIA in line with established processes.
-
-# 5.6 Risk Control - External Audit
-
-E&Y presented their 2006 Long Form Report at the 25 April 2007 Audit Committee meeting. E&Y noted that, apart from DRCM, there were no major issues relevant to the matters covered in this Shareholder Report.
-
-At the same meeting, E&Y presented its results of their Q1 2007 review. This presentation, amongst other things, set out a summary of trading losses, challenges on various valuation issues and concluded that nothing had come to their attention to indicate that fair values at 31 March 2007 were inappropriate.
-
-In early January 2007, E&Y produced a report based on their in-depth examination of the UBS Group Risk Reporting Process. The audit was performed in 2 phases: in phase 1, E&Y reviewed the organization, processes and controls at group level to ensure that risk information received from the BGs were promptly, completely and accurately reported in the Group Reporting. In phase 2, E&Y selected Leveraged Finance business and reviewed the credit risk reports of the business to ensure that adequate organization, processes and controls have been put in place to ensure that risks are promptly, accurately and completely reported in the Group Risk Reporting. Based on this work, in relation to Market and Credit Risk E&Y concluded that "the Group risk reporting processes were adequate to ensure that the key risks reported by the Business Groups were adequately included in the Group Risk Reporting", and that "the Group Risk Reporting processes were not complex in their execution and were performed by experienced professionals." In connection with its review of the UBS Group Risk Reporting process, which did not entail an audit of the underlying information coming from the business group to senior management, E&Y also noted that they did not encounter facts that would indicate that significant risks were not being reported in a prompt, complete and accurate manner to Group Senior Management.
-
-# 5.7 Other Risk Control Aspects
-
-UBS did not identify any whistle blowing cases that related to allegations of erroneous valuation or issues in any risk control functions that were relevant to the Subprime businesses. Prior to Q3 2007, there were no relevant category 1 or category 2 items reported via UBS's Sarbanes Oxley certification process or relevant issues of similar significance raised through the UBS Operational Risk framework.
-
-# 5.8 UBS Funding Framework and Balance Sheet Considerations
-
-# 5.8.1 Basis of Funding Arrangements
-
-The governance framework for UBS's overall funding arrangements in effect during the period under review is long established and was approved by the GEB at the end of 2004.
-
-Under this framework, Group Treasury is responsible for the management of UBS Group's financial resources and financial infrastructure and group level governance of treasury processes and transactions and the corresponding risk management. There is no specific policy governing balance sheet management and control in further detail, either at the UBS Group or the IB level. Also within this framework, IB's FX/CCT business managed day to day liquidity as required for the overall centralised funding framework and undertook operational management of the Group's cash and collateral; funded all cash positions of the UBS Group; planned liquidity and funding in day to day business; redistributed funds between BG and business units and was responsible for funds transfer pricing; maintained Central Bank facilities and collateral pledging; and maintained a portfolio of liquid assets that served as a liquidity buffer in a crisis scenario (including the ABS Trading Portfolio described at section 4.3 above).
-
-The UBS Global Policy on Funds Transfer Pricing Methodology defines the conditions under which secured and unsecured cash is transferred between the BG. Under this Policy, FX/CCT is obliged to quote continuously an internal transfer price (bid / offer) for all transactions and for any maturity up to 10 years.
-
-# 5.8.2 Internal Funding Terms
-
-UBS, in pricing internal funding for the businesses, passed on its advantage in accessing funding in the market and the efficiencies provided by its centralised treasury and liquidity management process. This model resulted in significant funding being available to the businesses with prices within the ordinary external market spread (i.e. internal bid prices were always higher than the relevant London Inter-Bank Bid Rate (LIBID) and internal offer prices were always lower than relevant London Inter-Bank Offered Rate (LIBOR)).
-
-Two further points should be noted on the funds pricing arrangements:
-
-- The framework historically operated without any formal matching between the tenor of the funds provided to the relevant business and the nature or liquidity of the assets acquired; and  
-- Whilst assets that constituted eligible collateral e.g. for REPO purposes were financed on a secured basis, the internal funding model was asymmetric in nature. The business received better pricing if assets were eligible collateral (i.e. if secured funding was available) but did not suffer higher costs of funding if the assets held were not eligible collateral.
-
-At all relevant times prior to the onset of the liquidity crunch, the businesses with Subprime exposure in the IB had access to funding on this basis.
-
-The application of the funding framework to DRCM was the subject of substantial discussion prior to establishment of DRCM. It was ultimately agreed that UBS would provide USD 100 bn net balance sheet funding at UBS cost of funding (i.e. pricing as described above). Additionally however, the DRCM funding commitment was subject to a number of
-
-other terms including that  $80 \%$ of the USD 100 bn should be secured via pledge and that DRCM manage the tenor of their funding and report utilization against agreed guidelines. As noted above, there were no such guidelines or requirements applicable to the IB businesses.
-
-# 5.8.3 Development of UBS's Balance Sheet and Risk Weighted Assets
+#### 5.8.3 Development of UBS's Balance Sheet and Risk Weighted Assets
 
 UBS regularly conducted comprehensive analyses of its balance sheet development (with detailed monthly and quarterly reporting to GEB and GRSC). Amongst other things, this reporting concerned the ongoing and continued growth in the overall balance sheet and RWA growth over time. The UBS balance sheet (total assets) grew by approximately  $17\%$  in both 2005 and 2006, and IB's share of the total balance sheet was always over  $80\%$ . That growth rate continued in the first half of 2007 and RWA grew at a commensurate rate throughout the period.
 
@@ -564,7 +303,7 @@ Shortly thereafter, the liquidity crisis in the wider market began. Actions take
 
 # 6. Key Findings Relating to the Causes of the Losses
 
-# 6.1 Implementation of Agreed UBS Growth Strategy
+### 6.1 Implementation of Agreed UBS Growth Strategy
 
 The overriding and consistent UBS strategy in the period was that of a global firm concentrating on three global core businesses – wealth management, asset management and investment banking and securities trading – as well as retail and corporate banking in Switzerland. One of the key strategic objectives was the integrated business model with a "one firm" approach which is designed to facilitate client referrals and the exchange of products and distribution services between businesses and as a result contributed to revenue flows.
 
@@ -761,13 +500,13 @@ particular, there is no indication that MRC was seeking views from other sources
 - Shortcomings in approach: There was no NBI process for the CDO structuring business or for the AMPS business. AMPS trades were subject to repeated TRPA approvals – with the effect that whilst trade-by-trade approvals were obtained, substantively the depth and breadth of assessment was probably not at the same level that would have been applied if an NBI case had been submitted. Additionally, TRPAs for CDOs appear often to have been presented to the control functions for approval only at a relatively late stage, when the majority of the assets backing and to be transferred to the CDO special purpose vehicle had already been warehoused and the consequences of declining the proposal would have entailed costly unwinding of the warehouse.
 - Focus on speed: The NBI and TRPA processes were also seen by some IB business areas, including Fixed Income, as bureaucratic and slow. The IB's NBI and TRPA processes were subject to a number of reviews and recommendations for improvement, over a period of several months – but the emphasis was generally on speeding up approvals as opposed to ensuring that the process achieved the goal of delivering substantive and holistic risk assessment of the proposals presented.
 
-# 6.3.7 Finance Oversight
+### 6.3.7 Finance Oversight
 
 The basis of accounting for, and the valuations applied to, securities and synthetic positions was significant to the economic performance of the businesses with Subprime exposure and to the financial incentives for the staff involved in these businesses. In particular it was important to the timing and levels of profit recorded by the ABS / MBS and CDO desks in the Rates area that their strategies (for example the AMPS trades) were eligible for Day 1 P&L treatment. BUC operated as an independent control unit in confirming the determinations made by the ABS / MBS and CDO desks. UBS considered the approach to valuations and reporting taken by BUC in relation to the positions over the period and identified the following as a factor in UBS's lack of an effective response to the market dislocation:
 
 - Inability to accurately assess valuation risk on a timely basis: A number of key indicators in relation to valuation issues over structured Fixed Income products were identified and reported in the period prior to Q3 2007. These included a reduced ability to source external prices to verify trader marks and general increases in the value of untested positions. Due to limitations in data, BUC were not in a position to challenge on a timely basis the assertion for valuation purposes of the flat or low risk nature of the retained Super Senior positions. BUC reported (as have other independent internal control units) that there were examples where significant manual intervention and reconciliation was required to assess the relevant risk nature, or where data was fragmented or insufficiently granular. These conditions existed for some time and represented latent and significant risks that were not reported by BUC as being of the highest priority until Q3 2007, after the impact of the Subprime crisis had become apparent.
 
-# 6.3.8 Compensation
+### 6.3.8 Compensation
 
 UBS has identified the following contributory factors related to compensation and incentives:
 
@@ -794,7 +533,7 @@ CH-8026 Zurich
 
 Telephone +41 44 249 31 31
 
-Fax+41442492319
+Fax +41 44 249 23 19
 
 Internet www.kpmg.ch
 

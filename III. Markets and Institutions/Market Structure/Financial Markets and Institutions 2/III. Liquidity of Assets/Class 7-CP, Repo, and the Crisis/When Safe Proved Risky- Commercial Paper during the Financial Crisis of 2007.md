@@ -1,11 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: "When Safe Proved Risky: Commercial Paper during the Financial Crisis of 2007-2009"
-linter-yaml-title-alias: "When Safe Proved Risky: Commercial Paper during the Financial Crisis of 2007-2009"
+parent_directory: "Class 7-CP, Repo, and the Crisis"
+formatted: "2025-12-21 12:30:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+primary_tags:
+  - commercial paper crisis
+  - asset backed commercial paper
+  - federal reserve intervention
+  - money market funds
+secondary_tags:
+  - financial crisis 2007-2009
+  - lehman brothers bankruptcy
+  - subprime mortgage crisis
+  - liquidity risk
+  - adverse selection
+  - institutional constraints
+  - credit guarantees
+  - roll-over risk
+  - backup loan commitments
+  - market freeze
+  - flight to quality
+  - systemic risk
+cssclasses: academia
 ---
 
 # When Safe Proved Risky: Commercial Paper during the Financial Crisis of 2007-2009
@@ -14,25 +31,44 @@ Marcin Kacperczyk and Philipp Schnabl
 
 Commercial paper is a short-term debt instrument issued by large corporations. For issuers, commercial paper is a way of raising capital cheaply at short-term interest rates. For investors, commercial paper offers returns slightly higher than Treasury bills in exchange for taking on minimal credit risk. At the beginning of 2007, commercial paper was the largest U.S. short-term debt instrument with more than \$1.97 trillion outstanding. Most of the commercial paper was issued by the financial sector, which accounted for 92 percent of all commercial paper outstanding.
 
-Commercial paper played a central role during the financial crisis of 2007-2009. Before the crisis, market participants regarded commercial paper as a safe asset due to its short maturity and high credit rating. Two events changed this perception. The first event began to unfold on July 31, 2007, when two Bear Stearns' hedge funds that had invested in subprime mortgages filed for bankruptcy. In the following week, other investors also announced losses on subprime mortgages. On August 7, 2007, BNP Paribas suspended withdrawals from its three investment funds because of its inability to assess the value of the mortgages and other investment held by the funds. Given that similar assets served as collateral for a specific category of commercial paper—asset-backed commercial paper—many investors became reluctant to purchase asset-backed commercial paper. The total value of asset-backed commercial paper outstanding fell by 37 percent, from \(1.18 trillion
+Commercial paper played a central role during the financial crisis of 2007-2009. Before the crisis, market participants regarded commercial paper as a safe asset due to its short maturity and high credit rating. Two events changed this perception. The first event began to unfold on July 31, 2007, when two Bear Stearns' hedge funds that had invested in subprime mortgages filed for bankruptcy. In the following week, other investors also announced losses on subprime mortgages. On August 7, 2007, BNP Paribas suspended withdrawals from its three investment funds because of its inability to assess the value of the mortgages and other investment held by the funds. Given that similar assets served as collateral for a specific category of commercial paper—asset-backed commercial paper—many investors became reluctant to purchase asset-backed commercial paper. The total value of asset-backed commercial paper outstanding fell by 37 percent, from $1.18 trillion
 
-■ Marcin Kacperczyk and Philipp Schnabl are both Assistant Professors of Finance, Stern School of Business, New York University, New York, New York. Kacperczyk is also a Faculty Research Fellow, National Bureau of Economic Research, Cambridge, Massachusetts. Their e-mail addresses are  $\langle mkacperc@stern.nyu.edu\rangle$  and  $\langle \text{schnabl} @ \text{stern.nyu.edu}\rangle$ .
+■ Marcin Kacperczyk and Philipp Schnabl are both Assistant Professors of Finance, Stern School of Business, New York University, New York, New York. Kacperczyk is also a Faculty Research Fellow, National Bureau of Economic Research, Cambridge, Massachusetts. Their e-mail addresses are <mkacperc@stern.nyu.edu> and <schnabl@stern.nyu.edu>.
 
 doi=10.1257/jep.24.1.29
 
-in August 2007 to \(745 billion in August 2008. Other categories of commercial paper remained stable during this period.
+in August 2007 to $745 billion in August 2008. Other categories of commercial paper remained stable during this period.
 
-The second event occurred on September 16, 2008, when the Reserve Primary Fund—a large money market fund with  \$65 billion of assets under management—announced that it had suffered significant losses on its\$ 785 million holdings of Lehman Brothers' commercial paper. Instead of each of its shares being worth \$1—a common rule in the money market industry—the Reserve Fund announced its shares were worth only 97 cents. In other words, the fund "broke the buck"—an occurrence that had happened only once before in the history of money market funds. This news triggered the modern-day equivalent of a bank run, leading to about \$172 billion worth of redemptions from the \$3.45-trillion-worth money market fund sector. The run stopped on September 19, 2008—three days after it started—when the U.S. government announced that it would provide deposit insurance to investments in money market funds. Even though the announcement halted the run on money market funds, most funds nonetheless reduced their holdings of all types of commercial paper because they deemed them too risky. Within one month after the Reserve Fund's announcement, the total value of commercial paper outstanding fell by 15 percent, from \$1.76 trillion to \$1.43 trillion.
+The second event occurred on September 16, 2008, when the Reserve Primary Fund—a large money market fund with $65 billion of assets under management—announced that it had suffered significant losses on its $785 million holdings of Lehman Brothers' commercial paper. Instead of each of its shares being worth $1—a common rule in the money market industry—the Reserve Fund announced its shares were worth only 97 cents. In other words, the fund "broke the buck"—an occurrence that had happened only once before in the history of money market funds. This news triggered the modern-day equivalent of a bank run, leading to about $172 billion worth of redemptions from the $3.45-trillion-worth money market fund sector. The run stopped on September 19, 2008—three days after it started—when the U.S. government announced that it would provide deposit insurance to investments in money market funds. Even though the announcement halted the run on money market funds, most funds nonetheless reduced their holdings of all types of commercial paper because they deemed them too risky. Within one month after the Reserve Fund's announcement, the total value of commercial paper outstanding fell by 15 percent, from $1.76 trillion to $1.43 trillion.
 
-To stop the sudden decline in commercial paper, the Federal Reserve decided—for the first time in its history—to purchase commercial paper directly. The Federal Reserve started purchasing commercial paper on October 26, 2008, and its action promptly stabilized the market. By early January 2009, the Federal Reserve was the single largest purchaser of commercial paper and owned paper worth  \$357 billion, or 22.4 percent of the market, through a variety of lending facilities. Throughout the year 2009, the Federal Reserve steadily reduced its holdings and by October 2009 it held\$ 40 billion of commercial paper, accounting for 3.4 percent of the market.
+To stop the sudden decline in commercial paper, the Federal Reserve decided—for the first time in its history—to purchase commercial paper directly. The Federal Reserve started purchasing commercial paper on October 26, 2008, and its action promptly stabilized the market. By early January 2009, the Federal Reserve was the single largest purchaser of commercial paper and owned paper worth $357 billion, or 22.4 percent of the market, through a variety of lending facilities. Throughout the year 2009, the Federal Reserve steadily reduced its holdings and by October 2009 it held $40 billion of commercial paper, accounting for 3.4 percent of the market.
 
 We will offer an analysis of the commercial paper market during the financial crisis. First, we describe the institutional background of the commercial paper market. Second, we analyze the supply and demand sides of the market. Third, we examine the most important developments during the crisis of 2007-2009. Last, we discuss three explanations of the decline in the commercial paper market: substitution to alternative sources of financing by commercial paper issuers, adverse selection, and institutional constraints among money market funds.
 
+```d2
+direction: right
+
+issuers: Commercial Paper Issuers {
+  shape: rectangle
+}
+
+investors: Investors (Money Market Funds) {
+  shape: rectangle
+}
+
+commercial_paper: Commercial Paper {
+  shape: oval
+  label: "Short-term debt\nHigh credit quality\nLow risk perception"
+}
+
+issuers -> commercial_paper: Issue
+commercial_paper -> investors: Purchase & Hold
+investors -> commercial_paper: Roll over at maturity
+```
+
 # Basics of Commercial Paper
 
-In the United States, commercial paper has been an important source of financing since the nineteenth century. According to the Securities Industry and Financial Markets Association, in early 2007, total U.S. short-term debt financing—also referred to as money market financing—accounted for approximately  \$5 trillion. Commercial paper was the largest instrument in this market with more than\$ 1.97 trillion outstanding. The second-largest instrument was U.S. Treasury
-
-bills, which accounted for \(940 billion outstanding. Other important short-term debt instruments were time deposits, repurchase agreements, short-term notes, and bankers' acceptances.\(^{1}\)
+In the United States, commercial paper has been an important source of financing since the nineteenth century. According to the Securities Industry and Financial Markets Association, in early 2007, total U.S. short-term debt financing—also referred to as money market financing—accounted for approximately \$5 trillion. Commercial paper was the largest instrument in this market with more than \$1.97 trillion outstanding. The second-largest instrument was U.S. Treasury bills, which accounted for \$940 billion outstanding. Other important short-term debt instruments were time deposits, repurchase agreements, short-term notes, and bankers' acceptances.[^1]
 
 Commercial paper is usually issued at a discount to a predetermined face value, which means that investors acquire commercial paper at a price below the face value and receive the face value at maturity. The difference between the purchase price and the face value is the discount—that is, the interest received on commercial paper. In practice, the interest rate on commercial paper is a bit higher than the interest rate on Treasury bills of the same maturity and a bit lower than the interest rate on loans of the same maturity such as LIBOR (London Interbank Offered Rate), the benchmark interest rate paid on short-term lending among large banks (Stigum and Crescenzi, 2007).
 
@@ -42,7 +78,7 @@ Commercial paper is issued either via a dealer or directly by a corporation that
 
 Most investors in the commercial paper market purchase the paper at issuance and hold it until maturity. Hence, there is little trading of commercial paper in secondary markets. Instead, many investors continuously roll over maturing commercial paper, which means that they purchase newly issued commercial paper from the same issuer once their holdings of commercial paper mature. As a result, issuers usually refinance the repayment of maturing commercial paper with newly issued commercial paper. However, the need to roll over maturing commercial paper generates the risk that investors may not be willing to refinance maturing commercial paper. This risk is often called roll-over or liquidity risk. In this case, the issuer needs to find financing elsewhere to repay maturing commercial paper.
 
-<sup>1</sup>The commercial paper market also exists in Europe, although the market is smaller. In January 2007, according to Euroclear—a consortium of the main European securities depositories—total value of commercial paper outstanding in that market amounted to \$691 billion. In many ways, the commercial paper market in Europe is similar to that in the United States; the key difference is that offerings are often denominated in currencies other than the U.S. dollar. Nevertheless, many large issuers are active in both markets and issue simultaneously in Europe and in the United States. We will focus here on the commercial paper market in the United States, though most of our analysis also applies to the commercial paper market in Europe.
+[^1]: The commercial paper market also exists in Europe, although the market is smaller. In January 2007, according to Euroclear—a consortium of the main European securities depositories—total value of commercial paper outstanding in that market amounted to \$691 billion. In many ways, the commercial paper market in Europe is similar to that in the United States; the key difference is that offerings are often denominated in currencies other than the U.S. dollar. Nevertheless, many large issuers are active in both markets and issue simultaneously in Europe and in the United States. We will focus here on the commercial paper market in the United States, though most of our analysis also applies to the commercial paper market in Europe.
 
 # Supply Side of Commercial Paper
 
@@ -52,7 +88,7 @@ As an alternative to Section 3(a)(3), issuers can also claim an exemption from r
 
 Depending on the issuer, there are three categories of commercial paper: asset-backed, financial, and corporate commercial paper. For historical reasons, the last two categories are sometimes simply referred to as commercial paper. Corporate financial paper is also referred to as nonfinancial commercial paper. To avoid confusion, we use the term "commercial paper" only when we refer to all three categories at once.
 
-Over the last two decades, the commercial paper market has grown substantially. This growth was mostly spurred by the development of asset-backed commercial paper, which was first issued in the 1980s. The total value of the commercial paper market in 1990 was  \$558 billion, of which 5.7 percent was asset-backed commercial paper, 59.9 percent was financial commercial paper, and 34.4 percent was corporate commercial paper. In January 2007, the total value of commercial paper accounted for\$ 1.97 trillion, of which 56.8 percent was asset-backed commercial paper, 34.4 percent was financial commercial paper, and 5.7 percent was corporate commercial paper.
+Over the last two decades, the commercial paper market has grown substantially. This growth was mostly spurred by the development of asset-backed commercial paper, which was first issued in the 1980s. The total value of the commercial paper market in 1990 was $558 billion, of which 5.7 percent was asset-backed commercial paper, 59.9 percent was financial commercial paper, and 34.4 percent was corporate commercial paper. In January 2007, the total value of commercial paper accounted for $1.97 trillion, of which 56.8 percent was asset-backed commercial paper, 34.4 percent was financial commercial paper, and 5.7 percent was corporate commercial paper.
 
 # Asset-backed Commercial Paper
 
@@ -64,7 +100,7 @@ Conduits typically hold diversified portfolios of financial assets. In the 1980s
 
 To protect outside investors against roll-over risk, the financial institution that manages the conduit typically provides credit guarantees to outside investors. Under these credit guarantees, the financial institution promises to pay off maturing asset-backed commercial paper in case the conduit is unable to do so. From an investor's perspective, the combination of credit guarantees and conduit's assets substantially reduces the default risk of asset-backed commercial paper (Moody's Investors Service, 2003).
 
-Using data from credit rating agencies, Acharya, Schnabl, and Suarez (2009) show that, in January 2007, 296 conduits were authorized to issue asset-backed commercial paper in the United States and Europe. The conduits were supported by a total of 126 sponsoring financial institutions. Most sponsoring financial institutions were large commercial banks—based in the United States and Europe—many of which sponsored more than one conduit. In total, commercial banks accounted for  \$903 billion—or 74.8 percent—of asset-backed commercial paper outstanding. For example, the largest financial institution sponsoring conduits in the United States was Citigroup with 16 conduits and\$ 92.6 billion of asset-backed commercial paper outstanding. The largest financial institution sponsoring conduits in Europe was the Dutch Bank ABN Amro with nine conduits and \$68.6 billion of asset-backed commercial paper outstanding. Besides commercial banks, large sponsors of conduits also included structured investment groups (\$182 billion), mortgage lenders (\$72 billion), and other financial institutions (\$79 billion).
+Using data from credit rating agencies, Acharya, Schnabl, and Suarez (2009) show that, in January 2007, 296 conduits were authorized to issue asset-backed commercial paper in the United States and Europe. The conduits were supported by a total of 126 sponsoring financial institutions. Most sponsoring financial institutions were large commercial banks—based in the United States and Europe—many of which sponsored more than one conduit. In total, commercial banks accounted for $903 billion—or 74.8 percent—of asset-backed commercial paper outstanding. For example, the largest financial institution sponsoring conduits in the United States was Citigroup with 16 conduits and $92.6 billion of asset-backed commercial paper outstanding. The largest financial institution sponsoring conduits in Europe was the Dutch Bank ABN Amro with nine conduits and $68.6 billion of asset-backed commercial paper outstanding. Besides commercial banks, large sponsors of conduits also included structured investment groups ($182 billion), mortgage lenders ($72 billion), and other financial institutions ($79 billion).
 
 About 74.1 percent of outstanding commercial paper was issued by conduits with full credit guarantees. Acharya, Schnabl, and Suarez (2009) show that full credit guarantees are structured to avoid capital requirements required for assets held by banks directly. They argue that the avoidance of capital requirements was an important driver behind the growth of asset-backed commercial paper. An additional 18.4 percent of outstanding commercial paper was issued by conduits with extendible notes guarantees. Extendible notes guarantees are similar to full
 
@@ -74,21 +110,19 @@ credit guarantees except that conduits can extend the commercial paper's maturit
 
 Financial commercial paper is issued by large financial institutions. In contrast to asset-backed commercial paper, financial commercial paper is issued by the institution directly and not via a conduit. Also, financial commercial paper is unsecured and the issuer does not pledge assets as collateral. Financial commercial paper is considered a low-risk asset because of its short maturity and the fact that its issuers are large institutions with strong balance sheets. If the balance sheet of an issuer deteriorates, investors usually become reluctant to roll over maturing commercial paper and the issuer has to exit the commercial paper market.
 
-The main issuers of financial paper are foreign financial institutions, accounting for  \$455 billion of commercial paper in early 2007. Many foreign issuers are U.S. subsidiaries of foreign banks, which are set up primarily to access the U.S. commercial paper market. The two main U.S. issuers of financial commercial paper are captive finance companies and bank-related finance companies. Captive finance companies are subsidiaries of automobile companies or manufacturing companies that issue commercial paper to secure financing for their parent companies (Fabozzi and Mann, 2005). In January 2007, total liabilities of captive finance companies accounted for\$ 1.87 trillion, of which \$165 billion was commercial paper. Some of the largest captive finance companies issuing financial commercial paper are those owned by General Motors, General Electric, and Toyota (Stigum and Crescenzi, 2007; Standard and Poor's, 2009).
+The main issuers of financial paper are foreign financial institutions, accounting for $455 billion of commercial paper in early 2007. Many foreign issuers are U.S. subsidiaries of foreign banks, which are set up primarily to access the U.S. commercial paper market. The two main U.S. issuers of financial commercial paper are captive finance companies and bank-related finance companies. Captive finance companies are subsidiaries of automobile companies or manufacturing companies that issue commercial paper to secure financing for their parent companies (Fabozzi and Mann, 2005). In January 2007, total liabilities of captive finance companies accounted for \$1.87 trillion, of which \$165 billion was commercial paper. Some of the largest captive finance companies issuing financial commercial paper are those owned by General Motors, General Electric, and Toyota (Stigum and Crescenzi, 2007; Standard and Poor's, 2009).
 
-Bank-related finance companies are funding subsidiaries of large bank holding companies. Many bank holding companies use such funding subsidiaries to issue commercial paper and pass the proceeds downstream into the bank. Bank holding companies choose such a structure because banks themselves are usually not allowed to issue commercial paper. Some bank holding companies also issue commercial paper to finance nonbank activities. In January 2007, total liabilities of bank holding companies equaled  \$757 billion, of which\$ 79 billion were in the form of commercial paper. Some of the largest bank holding companies issuing financial paper are those of Citibank and American Express (Saunders and Cornett, 2008; Standards and Poor's, 2009).
+Bank-related finance companies are funding subsidiaries of large bank holding companies. Many bank holding companies use such funding subsidiaries to issue commercial paper and pass the proceeds downstream into the bank. Bank holding companies choose such a structure because banks themselves are usually not allowed to issue commercial paper. Some bank holding companies also issue commercial paper to finance nonbank activities. In January 2007, total liabilities of bank holding companies equaled \$757 billion, of which \$79 billion were in the form of commercial paper. Some of the largest bank holding companies issuing financial paper are those of Citibank and American Express (Saunders and Cornett, 2008; Standards and Poor's, 2009).
 
 # Corporate Commercial Paper
 
-Corporate commercial paper is issued by nonfinancial businesses. In January 2007, total credit market debt of nonfinancial businesses was  \$9.16 trillion of which\$ 145 billion was commercial paper, accounting for 1.6 percent of total liabilities. Like financial commercial paper, corporate commercial paper is unsecured and only large, creditworthy firms with strong balance sheets can issue commercial
-
-paper. Most issuers are in the largest size quintile of publicly traded corporations. For these firms, commercial paper is an important source of financing, representing about 30 percent of their current liabilities (Downing and Oliner, 2007). Among the main issuers of corporate financial paper are General Electric and Coca-Cola (Standard and Poor's, 2009).
+Corporate commercial paper is issued by nonfinancial businesses. In January 2007, total credit market debt of nonfinancial businesses was \$9.16 trillion of which \$145 billion was commercial paper, accounting for 1.6 percent of total liabilities. Like financial commercial paper, corporate commercial paper is unsecured and only large, creditworthy firms with strong balance sheets can issue commercial paper. Most issuers are in the largest size quintile of publicly traded corporations. For these firms, commercial paper is an important source of financing, representing about 30 percent of their current liabilities (Downing and Oliner, 2007). Among the main issuers of corporate financial paper are General Electric and Coca-Cola (Standard and Poor's, 2009).
 
 Historically, commercial paper issuers used the proceeds from issuance to cover their short-term financing needs for working capital and inventory. Over time, many issuers started rolling over maturing commercial paper at regular frequencies, thus effectively financing a constant share of their activities via commercial paper. Kahl, Shivdasani, and Wang (2008) estimate that, on average, commercial paper borrowing represents 36 percent of investment outlays among commercial paper issuers.
 
 # Demand Side of Commercial Paper
 
-Money market funds and mutual funds are the main investors in commercial paper. In January 2007, money market funds and mutual funds owned commercial paper worth  \$767 billion, or 31.4 percent of the market, according to the Federal Reserve Flow of Funds data. Other important investor classes were foreign investors (\$ 299 billion), state and local governments (\$205 billion), funding corporations (\$198 billion), and nonfinancial corporate businesses (\$109 billion). Individual households own little commercial paper directly, but they own commercial paper indirectly through their ownership of money market funds and mutual funds.
+Money market funds and mutual funds are the main investors in commercial paper. In January 2007, money market funds and mutual funds owned commercial paper worth $767 billion, or 31.4 percent of the market, according to the Federal Reserve Flow of Funds data. Other important investor classes were foreign investors ($299 billion), state and local governments ($205 billion), funding corporations ($198 billion), and nonfinancial corporate businesses ($109 billion). Individual households own little commercial paper directly, but they own commercial paper indirectly through their ownership of money market funds and mutual funds.
 
 The dominant role of money market funds and mutual funds as commercial paper investors is relatively new. Money market funds emerged in the 1970s as an alternative to bank deposits that paid regulated interest rates below market-determined rates on commercial paper. Over time, money market funds grew in size and totaled \$2.4 trillion at the start of 2007 (Federal Reserve Flow of Funds data).
 

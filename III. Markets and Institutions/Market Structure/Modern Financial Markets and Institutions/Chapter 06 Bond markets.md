@@ -1,16 +1,15 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+parent_directory: "Modern Financial Markets and Institutions"
+formatted: 2025-12-21 05:05:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 cssclasses: academia
 title: Bond markets
-linter-yaml-title-alias: Bond markets
 ---
 
 # Bond markets
 
-# LEARNING OUTCOMES
+## LEARNING OUTCOMES
 
 An understanding of the key characteristics of the main categories of bond finance is essential to anyone working in the financial sector or making financing decisions for the commercial firm. At the end of this chapter the reader should be able to: explain the nature and the main types of bonds, their pricing and their valuation;
 
@@ -38,7 +37,7 @@ A bond is a long-term contract in which the bond holder lends money to a company
 
 The time to maturity for bonds is generally between 5 and 30 years, although a number of firms have issued bonds with a longer maturity date. IBM and Reliance of India have issued 100-year bonds, as have Coca-Cola and Walt Disney (Disney's was known as the 'Sleeping Beauty bond'). There are even some 1,000-year bonds in existence – Canadian Pacific Corporation is paying a dividend of 4 per cent on a 1,000-year bond issued in 1883.
 
-# Bonds and equity compared
+## Bonds and equity compared
 
 The advantage of placing your money with an organisation via a bond is that you are promised a return. Bond investors are exposed to less risk than share investors because the promise is backed up with a series of legal rights, e.g. the right to receive the annual interest before the equity holders receive any dividend. So in a bad year (e.g. no profits) the bond investors are far more likely to receive a payout than the shareholders. This is usually bolstered with rights to seize company assets if the company reneges on its promise. There is a greater chance of saving the investor's investment if things go very badly for the firm if they are holding its bonds rather than its shares because on liquidation the holders of debt-type financial securities are paid from the proceeds raised by selling off the assets first, before shareholders receive anything.
 
@@ -46,17 +45,17 @@ Offsetting these plus points are the facts that bondholders do not (usually) sha
 
 Bonds are often referred to collectively as fixed-interest securities. While this is an accurate description for many bonds, others do not offer regular interest payments that are fixed amounts. Nevertheless, they are all lumped together as fixed-interest to contrast these types of loan instrument with equities (shares) that do not carry a promise of a return.
 
-# A wide variety
+## A wide variety
 
 There are many different types of bonds: government-issued bonds, corporate bonds, high-yield bonds, municipal bonds, convertible bonds, strip bonds, foreign bonds, mortgage/asset-based bonds, covered bonds, Eurobonds and medium-term notes. Bonds with up to five years left until they mature and pay their principal amount are generally known as shorts, but the boundary lines are often blurry; medium-dated bonds generally have maturities of between 5 and 15 years; longs are bonds with maturities of over 15 years. It should be noted that a bond is classified according to the time remaining to maturity, not the maturity when it was issued, so a 30-year bond which has only two years left until it matures is a short.
 
 The value of a bond may fluctuate considerably during its life and this value reflects the changes in the interest rate. A bond issued with a coupon of 5 per cent will see its value drop if the interest rate rises to 10 per cent. To put it simply – if a five-year £100 bond is issued with a coupon of 5 per cent and market interest rates for bonds with similar risk remain at 5 per cent for the five-year life of the bond, its value will remain at £100 throughout its life. If, however, interest rates on alternative equally risky bonds rise to 10 per cent when the bond has three years to matu rity, its value then will drop to £87.566 to compensate for the change in interest rate – the method for calculating this is explained later in the chapter.
 
-# The size of the bond markets
+## The size of the bond markets
 
 The volume of bonds issued throughout the world is vast: \$91 trillion at the end of 2009 according to the Bank of International Settlements (BIS) – see Exhibits 6.2 (a), (b) and (c). There were over \$64 trillion (million million) bonds outstanding (not yet redeemed – the capital has not been paid off) in the domestic bond markets of countries. In addition to these domestic bonds there were another 27 trillion of bonds issued outside the domestic markets on the international bond markets. To put these numbers in perspective the annual output (GDP) of the UK for one year is about £1.4 trillion.
 
-# Government bond markets
+## Government bond markets
 
 Most governments issue bonds to raise money when their tax receipts are less than their expenditure. We first look at the UK government bond market to get a feel for the workings of these markets, then briefly consider the US, French, German, Japanese and Chinese government bond markets, known as sovereign bond markets. Sovereign bonds issued by reputable governments are the most secure in the world. National governments are aware of the need to maintain a high reputation for paying their debts on time. Furthermore, they are able to print more money or to raise taxes, to ensure they have the means to pay (in worst cases).
 
@@ -78,7 +77,7 @@ Exhibit 6.2 (c) Some of the other domestic bond markets
 
 Source: Bank for International Settlements.
 
-# UK gilts
+## UK gilts
 
 In most years the British government does not raise enough in taxes to cover its expenditure. It makes up a large part of the difference by selling bonds. These are called gilts because in the old days you would receive a very attractive certificate with gold-leaf edges (gilt-edged securities). Buying UK government bonds is one of the safest forms of lending in the world; the risk of the UK government failing to pay is very small – although a few doubts crept in following the high government spending during 2010–2011.
 
@@ -110,7 +109,7 @@ FT affected by worries about Greece and sovereign risk, although there is always
 
 Source: Financial Times, 24 February 2010, p. 32. Reprinted with permission.
 
-# Prices and returns
+## Prices and returns
 
 The coupons showing on different gilts can have a wide range from 2.5 per cent to 12 per cent. These were (roughly) the rates of interest that the government had to offer at the time of issue. The wide variety reflects how interest rates have fluctuated during the past 80 or more years. These original percentages are not the rates of return offered on the gilt to a buyer in the secondary market today. So, if we take an undated gilt offering a coupon of 2.5 per cent on the nominal value we may find that investors are buying and selling this bond that offers £2.50 per year at a price of £50, not at its nominal value of £100. This gilt offers an investor today a yield of 5 per cent:
 
@@ -143,7 +142,7 @@ Of course, these capital gains and losses are based on the assumption that the i
 
 Bond prices and redemption yields move in opposite directions. Take the case of our five-year gilt purchased for  $120$  offering a coupon of 10 per cent with a (approximate) redemption yield of 5 per cent. If general interest rates rise to 6 per cent because of an increase in inflation expectations, investors will no longer be interested in buying this gilt for  $\pounds 120$  because at this price it yields only 5 per cent. Demand will fall, resulting in a price reduction until the bond yields 6 per cent. A rise in yield goes hand in hand with a fall in price.
 
-# Quotes
+## Quotes
 
 The gilts market is focused around gilt-edged market makers (GEMMS) who are prepared to buy from, or sell gilts to, investors. They quote two prices: the bid price is the price at which they will buy, the offer price is their selling price. The difference between the bid price and offer price is known as the dealer's spread, i.e. their potential profit. The table shown in Exhibit 6.4 is from a Saturday edition of the Financial Times; the week-day editions are not so detailed. More information is available at www.ft.com/bonds&rates.
 
@@ -151,7 +150,7 @@ Note that the current redemption yield shown in the  $FT$  is relevant only if y
 
 Redemption yields for gilts are quoted daily online by the Debt Management Office at www.dmo.gov.uk. Other sources of information on prices, and on the gilts market generally, include Bloomberg (www.bloomberg.com), Moody's (www.moodys.com), Standard & Poor's (www.standardandpoors.com), Fitch (www.fitchratings.com), J P Morgan (www.adr.com), Bondscape (www.bondscape.net).
 
-# Cum-dividend and ex-dividend
+## Cum-dividend and ex-dividend
 
 Gilts usually pay coupons twice a year. Between payments the interest accrues on a daily basis. If you buy a gilt you are entitled to the accrued interest since the last coupon. You will receive this when the next coupon is paid. That is, you buy the gilt cum-dividend.
 
@@ -175,7 +174,7 @@ FINANCIAL TIMES MARCH 26/MARCH 27 2011 GILTS - UK CASH MARKET
 
 <table><tr><td rowspan="2" colspan="2">Mar 25 Notes Price £</td><td colspan="2">day&#x27;s wk \%</td><td>Red</td><td colspan="2">52 Week</td><td colspan="2">Notes Price £</td><td colspan="2">day&#x27;s wk \%</td><td>Red</td><td colspan="2">52 Week</td><td colspan="2">Low</td><td colspan="2">Notes Price £</td><td colspan="2">day&#x27;s wk \%</td><td colspan="2">Yld(1) (2)</td><td colspan="2">52 Week</td><td>Low</td><td></td></tr><tr><td>Chng</td><td>Chng</td><td>High</td><td>Low</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="7">Shorts (Lives up to Five Years)</td><td colspan="7">Ten to Fifteen Years</td><td colspan="12">Index-linked</td></tr><tr><td>Tr 3.25pc&#x27;11</td><td>101.77</td><td>-0.02</td><td>-0.1</td><td>0.69</td><td>103.91</td><td>101.64</td><td>Tr 3.75pc&#x27;21</td><td>100.05</td><td>-0.14</td><td>-0.4</td><td>3.74</td><td>100.86</td><td>99.70</td><td>2.5pc&#x27;11 … (74.6)</td><td>308.73</td><td>-0.02</td><td>-0.1</td><td>-</td><td>-312.05</td><td>306.52</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cn 9pc Ln&#x27;11</td><td>102.47</td><td>-0.06</td><td>-0.2</td><td>0.54</td><td>110.58</td><td>102.30</td><td>Tr 8pc&#x27;21</td><td>137.75</td><td>-0.16</td><td>-0.3</td><td>3.59</td><td>147.53</td><td>133.08</td><td>2.5pc&#x27;16 … (81.6)</td><td>319.82</td><td>+0.13</td><td>0.4</td><td>-</td><td>-283.31</td><td>267.47</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 7.75pc&#x27;12-15*</td><td>105.61</td><td>-0.05</td><td>-0.2</td><td>0.96</td><td>111.75</td><td>105.55</td><td>Tr 5pc&#x27;25</td><td>110.71</td><td>-0.16</td><td>-0.5</td><td>3.99</td><td>118.90</td><td>104.76</td><td>1.25pc&#x27;17 .† (193.725)</td><td>109.27</td><td>-0.03</td><td>0.2</td><td>-0.14</td><td>-0.14</td><td>111.13</td><td>104.43</td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 5pc &#x27;12</td><td>103.91</td><td>-0.03</td><td>-0.1</td><td>0.83</td><td>107.59</td><td>103.83</td><td colspan="7">Over Fifteen Years</td><td>2.5pc&#x27;20 … (83.0)</td><td>324.71</td><td>+0.11</td><td>0.2</td><td>0.29</td><td>0.42</td><td>326.47</td><td>300.12</td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 5.25pc&#x27;12</td><td>105.09</td><td>-0.03</td><td>-0.1</td><td>0.96</td><td>108.71</td><td>105.03</td><td>Tr 4.25pc&#x27;27</td><td>101.07</td><td>-0.09</td><td>-0.4</td><td>4.16</td><td>109.11</td><td>95.84</td><td>1.875pc&#x27;22 † (205.65806)</td><td>114.69</td><td>-0.02</td><td>0.0</td><td>0.57</td><td>0.57</td><td>118.05</td><td>107.98</td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 9pc&#x27;12*</td><td>110.69</td><td>-0.06</td><td>-0.2</td><td>1.07</td><td>118.08</td><td>110.07</td><td>Tr 6pc&#x27;28</td><td>122.98</td><td>-0.11</td><td>-0.4</td><td>4.15</td><td>133.11</td><td>117.74</td><td>2.5pc&#x27;24 … (97.7)</td><td>284.65</td><td>+0.21</td><td>0.1</td><td>0.65</td><td>0.74</td><td>287.46</td><td>260.36</td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 8pc&#x27;13</td><td>116.43</td><td>-0.07</td><td>-0.2</td><td>1.29</td><td>121.52</td><td>116.14</td><td>Tr 4.75pc&#x27;30</td><td>106.31</td><td>-0.06</td><td>-0.4</td><td>4.27</td><td>115.53</td><td>101.24</td><td>1.25pc&#x27;27 † (194.06667)</td><td>108.09</td><td>+0.18</td><td>0.0</td><td>0.73</td><td>0.73</td><td>111.97</td><td>99.39</td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 4.5pc&#x27;13</td><td>106.19</td><td>-0.03</td><td>-0.1</td><td>1.26</td><td>109.36</td><td>105.84</td><td>Tr 4.25pc&#x27;32</td><td>99.36</td><td>-0.06</td><td>-0.5</td><td>4.30</td><td>108.42</td><td>94.61</td><td>4.125pc&#x27;30 … (135.1)</td><td>270.55</td><td>+0.72</td><td>0.2</td><td>-</td><td>-274.56</td><td>246.91</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 2.25pc&#x27;14</td><td>101.46</td><td>-0.05</td><td>-0.2</td><td>1.74</td><td>103.94</td><td>99.25</td><td>Tr 4.5pc&#x27;34</td><td>102.29</td><td>-0.07</td><td>-0.6</td><td>4.34</td><td>111.90</td><td>97.20</td><td>2.5pc&#x27;35 … (173.6)</td><td>166.98</td><td>+0.63</td><td>0.1</td><td>-</td><td>-169.89</td><td>150.03</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 5pc&#x27;14</td><td>110.06</td><td>-0.07</td><td>-0.2</td><td>1.96</td><td>114.35</td><td>109.05</td><td>Tr 4.25pc&#x27;36</td><td>98.70</td><td>-0.08</td><td>-0.6</td><td>4.34</td><td>108.22</td><td>93.16</td><td>1.25pc&#x27;32 † (217.13226)</td><td>110.08</td><td>+0.38</td><td>0.0</td><td>-</td><td>-114.40</td><td>101.62</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 2.75pc&#x27;15</td><td>102.11</td><td>-0.06</td><td>-0.2</td><td>2.17</td><td>105.44</td><td>99.49</td><td>Tr 4.75pc&#x27;38</td><td>107.05</td><td>-0.08</td><td>-0.6</td><td>4.31</td><td>117.38</td><td>101.32</td><td>1.125pc&#x27;37 † (202.24286)</td><td>109.86</td><td>+0.50</td><td>0.0</td><td>-</td><td>-118.48</td><td>95.02</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 4.75pc&#x27;15</td><td>110.03</td><td>-0.08</td><td>-0.3</td><td>2.36</td><td>115.02</td><td>108.49</td><td>Tr 4.25pc&#x27;40</td><td>98.63</td><td>-0.06</td><td>-0.7</td><td>4.33</td><td>108.31</td><td>94.20</td><td>0.625pc&#x27;40 † (216.52258)</td><td>97.39</td><td>+0.58</td><td>-0.1</td><td>-</td><td>-104.52</td><td>89.54</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 8pc&#x27;15</td><td>124.93</td><td>-0.11</td><td>-0.3</td><td>2.36</td><td>131.90</td><td>123.34</td><td>Tr 4.5pc&#x27;42</td><td>103.32</td><td>-0.07</td><td>-0.7</td><td>4.31</td><td>113.59</td><td>97.46</td><td>0.625pc&#x27;42 † (212.46452)</td><td>98.25</td><td>+0.72</td><td>0.1</td><td>-</td><td>-103.06</td><td>90.35</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 2pc&#x27;16</td><td>97.57</td><td>-0.06</td><td>-0.2</td><td>2.54</td><td>100.68</td><td>95.68</td><td>Tr 4.25pc&#x27;46</td><td>99.34</td><td>-0.07</td><td>-0.8</td><td>4.29</td><td>109.46</td><td>93.31</td><td>0.75pc&#x27;47 † (207.7667)</td><td>103.79</td><td>+1.01</td><td>0.0</td><td>-</td><td>-109.02</td><td>94.31</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="7">Five to Ten Years</td><td>Tr 4.25pc&#x27;49</td><td>99.46</td><td>-0.07</td><td>-0.8</td><td>4.28</td><td>110.05</td><td>93.19</td><td>0.75pc&#x27;50 … † (213,4000)</td><td>96.06</td><td>+1.15</td><td>0.4</td><td>-</td><td>-101.10</td><td>88.02</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 4pc&#x27;16</td><td>106.71</td><td>-0.09</td><td>-0.3</td><td>2.67</td><td>111.51</td><td>103.72</td><td>Tr 4.35pc&#x27;55</td><td>99.90</td><td>-0.07</td><td>-0.9</td><td>4.26</td><td>111.07</td><td>93.20</td><td>0.5pc&#x27;55 † (192,2000)</td><td>126.22</td><td>+1.64</td><td>0.7</td><td>-</td><td>-134.01</td><td>91.98</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 8.75pc&#x27;17</td><td>134.88</td><td>-0.14</td><td>-0.3</td><td>2.78</td><td>142.66</td><td>132.55</td><td>Tr 4pc&#x27;60</td><td>94.91</td><td>-0.07</td><td>-1.0</td><td>4.25</td><td>105.53</td><td>88.27</td><td>1.25pc&#x27;55 † (192,2000)</td><td>126.22</td><td>+1.64</td><td>0.7</td><td>-</td><td>-134.01</td><td>91.98</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ex 12pc&#x27;13-17 *</td><td>127.91</td><td>-0.10</td><td>-0.3</td><td>1.45</td><td>134.88</td><td>124.18</td><td colspan="7">Undated</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 5pc&#x27;18</td><td>111.99</td><td>-0.11</td><td>-0.3</td><td>3.07</td><td>117.99</td><td>108.39</td><td>Cons 4pc*</td><td>79.45</td><td>-0.06</td><td>-1.1</td><td>5.03‡</td><td>89.71</td><td>75.81</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 3.75pc&#x27;19</td><td>102.26</td><td>-0.11</td><td>-0.2</td><td>3.44</td><td>108.07</td><td>97.38</td><td>War Ln 3.5pc</td><td>75.19</td><td>-0.07</td><td>-1.2</td><td>4.66‡</td><td>85.81</td><td>71.41</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 4.5pc&#x27;19</td><td>108.08</td><td>-0.12</td><td>-0.2</td><td>3.33</td><td>114.14</td><td>103.69</td><td>Cn 3.5pc&#x27;61 Aft *</td><td>73.46</td><td>-0.07</td><td>-1.2</td><td>4.77‡</td><td>83.56</td><td>69.91</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 3.75pc&#x27;20</td><td>101.21</td><td>-0.12</td><td>-0.3</td><td>3.60</td><td>107.49</td><td>98.01</td><td>Tr 3pc&#x27;66 Aft … *</td><td>61.80</td><td>-0.05</td><td>-1.2</td><td>4.85‡</td><td>70.11</td><td>58.87</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tr 4.75pc&#x27;20</td><td>109.48</td><td>-0.12</td><td>-0.3</td><td>3.51</td><td>116.31</td><td>104.75</td><td>Cons 2.5pc*</td><td>52.80</td><td>-0.05</td><td>-1.2</td><td>4.74‡</td><td>60.12</td><td>50.24</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>Tr 2.5pc*</td><td>53.71</td><td>-0.05</td><td>-1.2</td><td>4.66‡</td><td>61.29</td><td>50.84</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-# Index-linked gilts
+## Index-linked gilts
 
 There is a hidden danger with conventional gilts – inflation risk. Say, for example, that you, along with the rest of the gilt-buying community, think that inflation over the next ten years will average 2.5 per cent. As a result you buy ten-year gilts that have a redemption yield of 4.8 per cent, giving a comfortable real income over and above cost-of-living rises. However, two years later inflation starts to take off (oil prices quadruple, or the government goes on a spending spree, or whatever). Now investors reckon that inflation will average 6 per cent over the following eight years. As a result your gilt yield will fail to maintain your capital in real terms.
 
@@ -187,13 +186,13 @@ Any future rises in inflation lead to further growth in the coupon, so that the 
 
 A final point on index-linked gilts: because most investors hold them to maturity, secondary trading is thin and dealing spreads are wider than for conventional gilts.
 
-# Government bonds around the world
+## Government bonds around the world
 
 Most countries in the world issue government bonds which are similar in format to UK gilts and are given a credit rating (see Exhibit 6.5). Some countries are regarded as very safe ('triple-A rated') and so can issue at a low real (after allowing for anticipated inflation) yield. Others, such as Ukraine, are regarded as having more risk and so will have to pay a high-risk premium to entice investors to buy their bonds. Credit ratings are discussed in Chapter 5 and later in this chapter.
 
 As communications have become easy and electronic banking the norm, all bond markets worldwide are interconnected and interest rates have become linked. So, in general, bonds worldwide pay similar rates of interest if they carry the same risk (and inflation is anticipated to be the same). Exhibit 6.6 shows the interest rates for a few of the bonds of the leading government issuers.
 
-# US Treasury notes and bonds
+## US Treasury notes and bonds
 
 Treasury notes are issued on behalf of the US government by Treasury Direct with a face value of 100 and a coupon payable every six months. They have a maturity of two, three, five, seven or ten years and are sold at monthly auctions, except for ten-year notes which are auctioned quarterly. The auctions are based on the yield amount and can be competitive or non-competitive. At the competitive auctions, only banks, brokers or dealers may bid, up to a maximum of 35 per cent of the total amount on offer, and they are allocated some or all of the requested amount. If they
 
@@ -247,35 +246,35 @@ Treasury inflation-protected securities (TIPS) are index-linked bonds whose prin
 
 US government notes and bonds are traded in an active secondary market (in an over-the-counter market rather than on a formal exchange), with dealers posting bid (buying) and ask (selling) prices, and trades conducted over the telephone or by electronic communication. Prices are quoted as a percentage of face value and on a clean basis.
 
-# French bonds
+## French bonds
 
 The French Treasury, Agence France Trésor (AFT), sells by auction OATS (Obligations assimilables du Trésor), which are 7-50-year bonds, mostly fixed rate, but some with floating or index-linked rates, and BTANS (Bons du Trésor à intérêts annuels), which are 2-5-year bonds with a fixed rate of interest.
 
-# German bonds
+## German bonds
 
 In Germany, the German financial agency, Bundesrepublik Deutschland Finanzagentur (BDF), issues at auction 2-, 5-, 10and 30-year notes and bonds, some of which are index-linked and the minimum bid is €1 million. Two-year Federal Treasury Notes – Bundesschatzanweisungen (Schätze) – five-year Federal Notes – Bundesobligationen (Bobls) – and 10and 30-year Federal Bonds – Bundesanleihen (Bunds) – are sold via pre-announced auctions by the Bundesbank, the German central bank, on behalf of the BDF.
 
 The yield to maturity offered on German government bonds usually forms the reference or benchmark interest rate for other borrowings in the euro. In other words, it is the lowest rate available, with other interest rates described as so many basis points above, say, the ten-year bund rate.
 
-# Japanese bonds
+## Japanese bonds
 
 The Japanese Ministry of Finance issues Treasury discount bills and bonds. Japanese government bonds (JGBs) with a maturity of 2, 5, 10 and 20 years are auctioned monthly, 30-year bonds are auctioned every other month, and 40-year bonds quarterly. Inflation-indexed linked JGBs are also issued for ten-year maturities. Retail purchasers must purchase a minimum ¥10,000; other purchasers must buy at least ¥50,000 worth of bonds. Many JGBs are traded in the over-the-counter secondary market. A few are traded on the Tokyo Stock Exchange and other exchanges.
 
-# Chinese bonds
+## Chinese bonds
 
 In 2007, China began dealing in bonds and in 2009 it issued the first bonds denominated in the Chinese renminbi currency. These renminbi sovereign bonds were issued in Hong Kong and available to foreign investors only. China is keen to expand the use of its currency worldwide, hoping to decrease its reliance on the US dollar (China is the largest holder of US Treasury bills and so would be vulnerable if the dollar were to weaken).
 
-# Corporate bonds
+## Corporate bonds
 
 Corporate bonds offer a higher rate of return than well-represented government bonds but, as you might expect, this comes with a greater degree of risk of failure to pay what was agreed (default). They can be a very useful way for companies to raise money without issuing equity or accepting the conditions of a bank loan. Many corporate bonds are sufficiently negotiable (tradable) that they are listed on the London Stock Exchange and other exchanges in Europe, Asia or the Americas, but the majority of trading occurs in the OTC market directly between an investor and a bond dealer. Access to a secondary market means that the investor who originally provided the firm with money does not have to hold on to the bond until the maturity date. However, because so many investors buy and then hold to maturity rather than trade in and out, corporate bonds generally have very thin secondary markets compared with listed shares or money market instruments.
 
 Corporate bonds have generally been the province of investing institutions, such as pension and insurance funds. Private investors tended not to hold them, mainly due to the large amounts of cash involved – the minimum is occasionally £1,000, more often £50,000. The par value of one bond at, say, £50,000, €50,000 or 50,000 is said to have a 50,000 minimum 'lot' or 'piece'. However, in 2010, the London Stock Exchange opened a secondary market trading facility for small investors for a limited range of bonds, where lots are just £100 or £1,000 and the costs of trading are relatively low.
 
-# Infinite variation
+## Infinite variation
 
 Corporate bonds come in a variety of forms. The most common is the type with regular (usually semi-annual or annual) fixed coupons and a specified redemption date. These are known as straight, plain vanilla or bullet bonds. Other corporate bonds are a variation on this. Some pay coupons every three months, some do not pay a fixed coupon but one which varies depending on the level of short-term interest rates (floating rate or variable-rate bonds) and some have interest rates linked to the rate of inflation. In fact, the potential for variety and innovation is almost infinite. Bonds issued in the last few years have linked the interest rates paid or the principal payments to a wide variety of economic events, such as a rise in the price of silver, exchange-rate movements, stock market indices, the price of oil, gold, copper – even to the occurrence of an earthquake. These bonds were generally designed to let companies adjust their interest payments to manageable levels in the event of the firm being adversely affected by the changing of some economic variable. For example, a copper mining company, with its interest payments linked to the price of copper, would pay lower interest on its finance if the copper price were to fall. Sampdoria, the Italian football club, issued a €3.5 million bond that paid a higher rate of return if the club won promotion to the 'Serie A' division, 2.5 per cent if it stayed in Series B, 7 per cent if it moved to Series A and if the club rose to the top four in Series A the coupon would rise to 14 per cent.
 
-# Debentures and loan stocks
+## Debentures and loan stocks
 
 In the UK and a few other countries the most secure type of bond is called a debenture. Debentures are usually secured by either a fixed or a floating charge against the firm's assets. A fixed charge means that specific assets (e.g. buildings, machinery) are used as security, which, in the event of default, can be sold at the insistence of the debenture bond holders and the proceeds used to repay them. Debentures are quite a common way of raising sums of money for capital expenditure – see the debentures issued by Diageo in Exhibit 6.1 for examples. Debentures secured on property may be referred to as mortgage debentures. A floating charge means that the loan is secured by a general charge on all the assets of the corporation (or a class of the firm's assets such as inventory or debtors). In this case the company has a high degree of freedom to use its assets as it wishes, such as sell them or rent them out, until it commits a default which 'crystallises' the floating charge. If this happens a receiver will be appointed with powers to dispose of assets and to distribute the proceeds to the creditors. Even though floating-charge debenture holders can force a liquidation, fixed-charge debenture holders rank above floating-charge debenture holders in the payout after insolvency.
 
@@ -283,7 +282,7 @@ The terms bond, debenture and loan stock are often used interchangeably and the 
 
 In the US, Canada and some other countries the definitions are somewhat different and this can be confusing. In these places a debenture is a long-term unsecured bond and so the holders become general creditors who can claim only assets not otherwise pledged. In the US the secured form of bond is referred to as the mortgage bond and unsecured shorter-dated issues (less than ten years) are called notes.
 
-# Trust deeds and covenants
+## Trust deeds and covenants
 
 Bond investors are willing to lower the interest they demand if they can be reassured that their money will not be exposed to a high risk. Reassurance is conveyed by placing risk-reducing restrictions on the firm. A trust deed (or bond indenture) sets out the terms of the contract between bond holders and the company. A trustee (if one is appointed) ensures compliance with the contract throughout the life of the bond and has the power to appoint a receiver (to liquidate the firm's assets). If a trustee is not appointed the usual practice is to give each holder an independently exercisable right to take legal action against a delinquent borrower.
 
@@ -298,7 +297,7 @@ In addition to these basic covenants are the negative (restrictive) covenants. T
 
 While negative covenants cannot ensure completely risk-free lending they can influence the behaviour of the managerial team so as to reduce the risk of default. The lenders' risk can be further reduced by obtaining guarantees from third parties (for example guaranteed loan stock). The guarantor is typically the parent company of the issuer - see the Diageo example in Exhibit 6.1.
 
-# Repayments
+## Repayments
 
 The principal on many bonds is paid entirely at maturity. However, there are bonds which can be repaid before the final redemption date. A common approach is for the company to issue bonds with a range of dates for redemption; so a bond dated 2018-2022 would allow a company the flexibility to repay the principal over four years. Another way of redeeming bonds is for the issuing firm to buy the outstanding bonds by offering the holder a sum higher than or equal to the amount originally paid. A firm is also able to purchase bonds on the open market.
 
@@ -306,7 +305,7 @@ One way of paying for redemption is to set up a sinking fund that receives regul
 
 Some bonds are described as 'irredeemable' (or 'perpetual') as they have no fixed redemption date. From the investor's viewpoint they may be irredeemable but the firm has the option to repurchase and can effectively redeem the bonds when it wishes.
 
-# Deep discounted bonds
+## Deep discounted bonds
 
 Bonds which are sold at well below the par value are called deep discounted bonds, the most extreme form of which is the zero coupon bond. Because these are sold at a large discount to the nominal value, the investor makes a capital gain by holding the bond instead of receiving coupons. It is easy to calculate the rate of return offered to an investor on this type of bond. For example, if a company issues a bond at a price of £60 which is redeemable at £100 in eight years, the annualised rate of return  $(r)$  is:
 
@@ -316,11 +315,11 @@ $$
 
 These bonds are particularly useful for firms with low cash flows in the near term, for example firms engaged in a major property development that will not mature for many years.
 
-# Floating rate notes
+## Floating rate notes
 
 A major market has developed over the past three decades called the floating-rate note (FRN) (also called variable-rate notes) market. Two factors have led to the rapid growth in FRN usage. First, the oscillating and unpredictable inflation of the 1970s and 1980s caused many investors to make large real-term losses on fixed-rate bonds as the interest rate fell below the inflation rate. As a result many lenders became reluctant to lend at fixed rates on a long-term basis. This reluctance led to FRNs being cheaper for the issuer because it does not need to offer an interest premium to compensate the investor for being locked into a fixed rate. Second, a number of corporations, especially financial institutions, hold assets which give a return that varies with the short-term interest rate level (for example, bank loans and overdrafts) and so prefer to have a similar floating-rate liability. These instruments pay an interest rate that is linked to a benchmark rate – such as the LIBOR (see Chapter 5). The issuer will pay, say, 70 basis points (0.7 of a percentage point) over LIBOR. The coupon might be set for the first six months at the time of issue, after which it is adjusted every six months, so if LIBOR was 3 per cent, the FRN would pay 3.7 per cent for that particular six months.
 
-# Credit rating
+## Credit rating
 
 Firms often pay to have their bonds rated by specialist credit-rating organisations (see Chapter 5). The debt rating depends on the likelihood of payments of interest and/or capital not being paid (that is, default) and in some cases on the extent to which the lender is protected in the event of a default by the loan issuer (the recoverability of debt). Government bonds from the leading economies have an insignificant risk of default whereas unsecured subordinated corporate loan stock has a much higher risk.
 
@@ -468,13 +467,13 @@ Table 6.1 Fitch global corporate finance average cumulative default rates 1990-2
 
 Source: Fitch Ratings Global Corporate Finance 2010 Transition and Default Study http://www.fitchratings.com/creditdesk/reports/report_frame.cfm?rpt_id=606665
 
-# High-yield (junk) bonds
+## High-yield (junk) bonds
 
 High-yield or junk bonds are debt instruments offering a high return with a high risk. They may be either unsecured or secured but rank behind senior loans and bonds. This type of debt generally offers interest rates 2-9 percentage points more than that on senior debt and frequently gives the lenders some right to a share in equity values should the firm perform well. It is a kind of hybrid finance, ranking for payment below straight debt but above equity – it is thus described alternatively as subordinated, intermediate, or low grade. One of the major attractions of this form of finance for the investor is that it often comes with equity warrants or share options attached (see Chapter 11), which can be used to obtain shares in the firm – this is known as an equity kicker. These may be triggered by an event such as the firm joining the stock market.
 
 Bonds with high-risk and high-return characteristics may have started as apparently safe investments but have now become more risky (fallen angels), or they may be bonds issued specifically to provide higher-risk financial instruments for investors. This latter type began its rise to prominence in the US in the 1980s and is now a market with over 100 billion issued per year. The rise of the US junk bond market meant that no business was safe from the threat of takeover, however large – see case study 6.1 on Michael Milken.
 
-# Issuers of high-yield bonds
+## Issuers of high-yield bonds
 
 High-yield bond finance tends to be used when bank borrowing limits are reached and the firm cannot or will not issue more equity. The finance it provides is cheaper (in terms of required return) than would be available on the equity market and it allows the owners of a business to raise large sums of money without sacrificing voting control. It is a form of finance that permits the firm to move beyond what is normally considered acceptable debt:equity ratios (financial gearing, leverage levels).
 
@@ -496,7 +495,7 @@ Junk bond borrowing usually leads to high debt levels, resulting in a high fixed
 
 Fast-growing companies also make use of junk bonds. They have been particularly attractive sources for telecommunications and some media businesses which require large investments in the near term but also can offer a relatively stable profits flow in the long term.
 
-# Market price movements
+## Market price movements
 
 Investment-grade bond prices and returns tend to move in line with government bond interest rates, influenced by perceptions of future inflation rather than the risk of default. Junk bond prices (and their yields), meanwhile, are much more related to the prospects for the company's trading fundamentals because the company needs to thrive if it is to cope with the high debt levels and raised interest, and cause the equity kicker to have some value. Thus the factors that affect equity valuation also impact on junk bond valuations. As a result high-yield bonds tend to be more volatile than investment-grade bonds, going up and down depending on expectations concerning the company's survival, strength and profitability.
 

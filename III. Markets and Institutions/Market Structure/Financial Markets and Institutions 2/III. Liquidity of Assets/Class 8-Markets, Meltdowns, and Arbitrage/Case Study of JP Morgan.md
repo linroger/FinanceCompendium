@@ -1,55 +1,58 @@
 ---
+title: Case Study of JP Morgan
 parent_directory: Class 8-Markets, Meltdowns, and Arbitrage
-title: Class 8 - Case Study of JP Morgan
-tags:
-aliases:
-  - Case Study of JP Morgan
-  - JP Morgan
-parent_folder: Class 8-Markets, Meltdowns, and Arbitrage
-subfolder:
-key_concepts:
+formatted: 2025-12-21 05:15:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
+primary_tags:
+  - JP Morgan risk management
+  - Chief Investment Office losses
+  - synthetic credit portfolio
+  - London whale trading
+secondary_tags:
+  - Basel III regulations
+  - VaR breaches
+  - governance failures
+  - derivatives speculation
 cssclasses: academia
 ---
 
 # Case Study of JP Morgan
 
-# From a forthcoming book by
+## From a forthcoming book by
 
-# Basel III: Proposals for a Better Banking Regime (The Wiley Finance Series) [Hardcover]
+## Basel III: Proposals for a Better Banking Regime (The Wiley Finance Series) [Hardcover]
 
 By Adrian Docherty and Franck Viort (ChicagoBooth MBA)
 
-# © Adrian Docherty and Franck Viort
+## © Adrian Docherty and Franck Viort
 
-# 4.8 JP Morgan
+## 4.8 JP Morgan
 
 JP Morgan counts undisputedly as one of the major winners in the crisis, its reputation as a "rock" for the financial system staying virtually unscathed, at least until May 2012. JP Morgan is the largest bank in the US with 259,000 employees, a diversified range of operations, a strong capital base (stock holder equity of USD 204bn at the end of 2012) and an exceptional ability to grow through external acquisitions. Total net revenue for 2012 reached 97bn and net income USD 21bn.
 
 Chase Manhattan bank is itself the result of the merger more than 1,200 predecessor institutions, including:
 
-J.P. Morgan (2000);  
-
-- Chemical bank which merged with Chase Manhattan in 1996 after it merged with Manufacturers Hanover (in New York City) in 1991;  
-- Bank One in 2004, after it merged with First Chicago, and National Bank of Detroit (in the Midwest);  
+- J.P. Morgan (2000);
+- Chemical bank which merged with Chase Manhattan in 1996 after it merged with Manufacturers Hanover (in New York City) in 1991;
+- Bank One in 2004, after it merged with First Chicago, and National Bank of Detroit (in the Midwest);
 - and more recently as a consequence of the subprime crisis, Bear Stearns and Washington Mutual;
 
 What distinguishes the losses of the Chief Investment Office (CIO) from other banks is not only that they involve one of the most highly regarded player, but that they occur nearly four years after the events of 2008 and after a new regulation designed to stabilize the financial system was introduced. Rumors of major losses at the CIO in May 2012 caught the market's attention, not just because of the magnitude of the losses, but because this revealed an unexpected reality in one of the best run institutions at times of high skepticism on the value of banking. In the words of the New York Times editorial board "Recklessness, tied to speculation in derivatives, still pervades the banking system and still puts the public at risk. (…) JP Morgan saga is a reminder that big banks are too big to fail, to manage, to regulate and to prosecute".
 
-# A recognized leader in risk-management
+## A recognized leader in risk-management
 
-JP Morgan, which counts among the strongest global banks, is at the center of the US economy and played a pivotal role in the rescue of many failed institutions during the crisis, either to structure a lending facility (AIG) when approached by the US Treasury, or help the consolidation
-
-to avoid the bankruptcy of one of its competitors and to stabilize the financial system (Bear Stearns, Washington Mutual). JP Morgan itself has been a pioneer in many of the risk management tools including the development of Value-at-Risk (VaR) and offers advisory services in risk management to its clients. JP Morgan's approach to risk is best described with its own words "Generally speaking, a robust risk management framework is based on five essential components: a strong corporate governance that diffuses a positive risk culture from the top to the bottom of the organisation, a coherent and exhaustive set of policies and procedures, the technological capability to extract data about the organisation's performance and the risk of its uncertain environment, know-how in measuring this uncertainty, and finally, its ability to monitor risk on an ongoing basis in order to optimise the risk taking process."2
+JP Morgan, which counts among the strongest global banks, is at the center of the US economy and played a pivotal role in the rescue of many failed institutions during the crisis, either to structure a lending facility (AIG) when approached by the US Treasury, or help the consolidation to avoid the bankruptcy of one of its competitors and to stabilize the financial system (Bear Stearns, Washington Mutual). JP Morgan itself has been a pioneer in many of the risk management tools including the development of Value-at-Risk (VaR) and offers advisory services in risk management to its clients. JP Morgan's approach to risk is best described with its own words "Generally speaking, a robust risk management framework is based on five essential components: a strong corporate governance that diffuses a positive risk culture from the top to the bottom of the organisation, a coherent and exhaustive set of policies and procedures, the technological capability to extract data about the organisation's performance and the risk of its uncertain environment, know-how in measuring this uncertainty, and finally, its ability to monitor risk on an ongoing basis in order to optimise the risk taking process."2
 
 In contrast with all the failed institutions, the success of JP Morgan could was providing an evidence of the benefits of banking when it was in the hands of a well-run, prudent and well-diversified institution. This expertise, widely recognized by the industry, has won JP Morgan many awards including:
 
-- Derivatives House of the Year (Risk, 2012)  
-Equity Derivatives House of the Year (Risk, 2012)  
-- Commodity and Energy Derivatives House of the Year (Risk, 2012)  
-- Commodity Derivatives House of the Year (IFR, 2011)  
+- Derivatives House of the Year (Risk, 2012)
+- Equity Derivatives House of the Year (Risk, 2012)
+- Commodity and Energy Derivatives House of the Year (Risk, 2012)
+- Commodity Derivatives House of the Year (IFR, 2011)
 - Best Bank for Credit Derivatives and Credit Derivatives Research (Credit, 2011)
 
-# Specificity of the CIO
+## Specificity of the CIO
 
 JP Morgan had established the CIO as a separate entity in 2005, acting like a dedicated fund manager reporting directly to the senior management. As of December 31, 2011, it had 428 employees, consisting of 140 traders and 288 middle and back office 22 employees. The CIO's primary responsibility is to compensate some of the credit risk that JPMorgan faces as a lender and actively manage risk-weighted assets (RWA). But the CIO's responsibility is also to manage the excess between JPMorgan's deposits and loans and engage into long term investments with the objective of generating revenues at the Treasury level. At the end of 2012, the size of the portfolio invested by the CIO amounted to about USD 360 billion (USD \$1.1 trillion in deposits minus USD 700 billion in loans). These numbers are consistent with JP Morgan's consolidated balance-sheet, which exhibits an excess of deposits over loans:
 
@@ -63,9 +66,9 @@ The SCP is designed to protect, in the words of J. Dimon, "the company against a
 
 The trades involved a credit default swap index based on the default risk of major U.S. corporations but the issue seems to be more around the environment in which the transaction was executed, which CEO Dimon described as "flawed, complex, poorly reviewed, poorly executed, and poorly monitored".
 
-The CIO manages a large volume of risk, which exceeded the VaR in JPMorgan's investment bank in Q1 and Q2 2012. To compare, the CIOs average VaR was  \$69 million in Q4 2011 and\$ 67 million in Q1 2012 $^{8}$ , where the investment bank's VaR was \$57 million in Q4 2011 and \$63 million in Q1 2012.
+The CIO manages a large volume of risk, which exceeded the VaR in JPMorgan's investment bank in Q1 and Q2 2012. To compare, the CIOs average VaR was \$69 million in Q4 2011 and \$67 million in Q1 2012 $^{8}$, where the investment bank's VaR was \$57 million in Q4 2011 and \$63 million in Q1 2012.
 
-# Expansion of the SCP beyond control
+## Expansion of the SCP beyond control
 
 For most of 2011, the SCP was positioned "short credit", which means it would benefit in an environment where credit losses would occur, reflecting the views on the economy (economic recession, crisis in the Eurozone, cut in public spending etc.). While these trading positions protected JP Morgan against a deterioration in the credit environment, especially in the more risky segment (High Yield), they also attracted a capital charge and added to the Group's RWA. At the end of 2011, an improvement of economic conditions combined with a desire by the senior management to reduce RWA in response to the upcoming Basel 3 regulations, the SCP was asked to reduce its "short credit" orientation and rebalance its portfolio to a more "neutral" position.
 
@@ -81,7 +84,7 @@ The SCP started implementing a rebalancing of the portfolio through the building
 
 Why did not traders at the SCP simply cancel or significantly reduce the existing "short" High Yield position by purchasing long positions? It would have been more efficient from a pure risk standpoint, but traders at the SCP believed in the benefits of the "short" positioning on the more risky credits to benefit from specific bankruptcies and generate profits.
 
-In the first quarter of 2012, the "neutralization" translated into an increase of notional of the SCP from USD 51bn to USD  $157\mathrm{bn}^9$ . The size of the position achieved was clearly not standard for the market, which operates in "clips" of USD 250mn normally. Transactions of USD 500mn are noticed and USD 1bn clearly move the market and start to attract attention. These were quite rare, until a counterparty accumulated very large positions, trading several clips of USD 1bn per day and raising suspicion it was trying to "corner" the market.
+In the first quarter of 2012, the "neutralization" translated into an increase of notional of the SCP from USD 51bn to USD \$157bn$^9$. The size of the position achieved was clearly not standard for the market, which operates in "clips" of USD 250mn normally. Transactions of USD 500mn are noticed and USD 1bn clearly move the market and start to attract attention. These were quite rare, until a counterparty accumulated very large positions, trading several clips of USD 1bn per day and raising suspicion it was trying to "corner" the market.
 
 Position in March 2012  
 
@@ -89,9 +92,29 @@ Position in March 2012
 
 Source: US Senate JP Morgan Chase Whale Trades: a case history of derivatives risks and abuses 15 March 2013
 
-Also, the CIO had entered these positions in a short period of times, with USD 40bn in the month of March only, which was starting to impact the overall trading conditions. These transactions did not come unnoticed and a number of experienced market participants started
+```d2
 
-to question the identity of the trader soon to be nicknamed "the London whale" $^{10}$ . A story appeared in the Wall Street Journal $^{11}$  and Bloomberg unveiling the role of JP Morgan's CIO in these trades.
+direction: right
+
+SCP: Synthetic Credit Portfolio {
+
+  shape: hexagon
+
+}
+
+US_IG: US Investment Grade
+
+European_IG: European Investment Grade
+
+US_HY: US High Yield
+
+SCP -> US_IG: Long Position
+
+SCP -> European_IG: Long Position
+
+SCP -> US_HY: Short Position
+
+```
 
 The graph below shows the sharp rise in the open interest in CDX.NA.IG.9 (in USD bn) at the end of 2011 and illustrates the price distortion the market it produced and attention it attracted from dealers.
 
@@ -105,7 +128,7 @@ The is trend continued and while the portfolio may be qualified as "risk neutral
 
 Total \$525 million loss
 
-By the end of February, losses at the SCP had increased by  \$69 million$ ^{12}\. At the end of March 2012, the mark-to-market loss on the portfolio was already at USD 718mn. Further worsening of the situation and worsening rumors following articles by the Wall Street Journal and Bloomberg left no other option to the management but to file an 8-K report containing information about the first quarter result on 13 April 2012 followed by a conference call.
+By the end of February, losses at the SCP had increased by  \$69 million$ ^{12}\. At the end of March 2012, the mark-to-market loss on the portfolio was already at USD $718mn. Further worsening of the situation and worsening rumors following articles by the Wall Street Journal and Bloomberg left no other option to the management but to file an 8-K report containing information about the first quarter result on 13 April 2012 followed by a conference call.
 
 Mark-to market losses of the SCP (2012)
 
@@ -113,25 +136,23 @@ Mark-to market losses of the SCP (2012)
 
 In summary, the decision to reduce risk in early 2012, using the word of J. Dimon, had "morphed into something that, rather than protecting the firm, created new and potentially larger risks"13. The losses were not the result of rogue trading, but rather transactions wrongly executed and raise serious questions of risk management and control of the CIO activity.
 
-# Governance and risk management failures
+## Governance and risk management failures
 
-An report form the internal Task Force has identified three levels of failure:
+A report from the internal Task Force has identified three levels of failure:
 
 - "CIO management had not properly understood and vetted the flawed trading strategy and appropriately monitored its execution"  
-- "CIO control functions – including the CIO Risk and Finance organizations – were performing well and were providing effective oversight of CIO's trading strategy"  
+- "CIO control functions – including the CIO Risk and Finance organizations – were not performing well and were not providing effective oversight of CIO's trading strategy"  
 - "the magnitude and significance of the changes in the Synthetic Credit Portfolio during the first quarter of 2012 including the increases in RWA, size, complexity and riskiness of the portfolio"14 had not been fully appreciated.
 
 According to Jamie Dimon, CEO of JP Morgan: "CIO, particularly the Synthetic Credit Portfolio, should have gotten more scrutiny from both senior management, and I include myself in that, and the Firm-wide Risk control function… . . Make sure that people on risk committees are always asking questions, sharing information, and that you have very, very granular limits when you're taking risk… . . In the rest of the company we have those disciplines in place. We didn't have it here."15
 
 The losses have led to a comprehensive discussion and disclosures by JP Morgan on the failures in conception, execution of the trading strategy and escalation of the issues<sup>16</sup>. But execution and misreading of the market solely would not have produced these effects if the risk control procedures had been more prominent at the CIO, as it was in other areas of the bank. In reality, the controls and oversight of CIO in 2012 seemed weak when compared to the importance and complexity of its activities:
 
-1Organizational issues at the CIO Risk Management: CIO Risk Management lacked the personnel and structure necessary to manage the
+1. Organizational issues at the CIO Risk Management: CIO Risk Management lacked the personnel and structure necessary to manage the
 
-risks of the Synthetic Credit Portfolio. With respect to personnel, a new CIO Chief Risk Officer was appointed in early 2012, and he was learning the role at the precise time the traders were building the ultimately problematic positions. More broadly, the CIO Risk function had been
+risks of the Synthetic Credit Portfolio. With respect to personnel, a new CIO Chief Risk Officer was appointed in early 2012, and he was learning the role at the precise time the traders were building the ultimately problematic positions. More broadly, the CIO Risk function had been historically understaffed, and some of the CIO risk personnel lacked the requisite skills. With respect to structural issues, the CIO Risk Committee met only infrequently, and its regular attendees did not include personnel from outside CIO.
 
-historically understaffed, and some of the CIO risk personnel lacked the requisite skills. With respect to structural issues, the CIO Risk Committee met only infrequently, and its regular attendees did not include personnel from outside CIO.
-
-2Risk modeling: The SCP breached the VaR limits more than 330 times between January and April  $2012^{17}$ , but these alerts did not stop the increase of risk. As early as February, the loss using the Comprehensive Risk Measure was estimated at USD  $6.3\mathrm{bn}^{18}$ . Worse still, traders considered the risk measurement as flawed and challenged the results which they claim overstated the risk. Traders eventually obtained the replacement with a new CIO VaR model for the SCP, whose effect was to "immediately lower(ing) the SCP VaR by  $50\%$ "<sup>19</sup>. The old model reported USD 129mn or more in per day was at risk during the first quarter of 2012 when the new model estimate was now USD 67mn.
+2. Risk modeling: The SCP breached the VaR limits more than 330 times between January and April \$2012^{17}$, but these alerts did not stop the increase of risk. As early as February, the loss using the Comprehensive Risk Measure was estimated at USD \$6.3bn^{18}$. Worse still, traders considered the risk measurement as flawed and challenged the results which they claim overstated the risk. Traders eventually obtained the replacement with a new CIO VaR model for the SCP, whose effect was to "immediately lower(ing) the SCP VaR by $50\%$ "<sup>19</sup>. The old model reported USD \$129mn or more per day were at risk during the first quarter of 2012 when the new model estimate was now USD \$67mn.
 
 The risk at the CIO also seems high when compared to JP Morgan's CIB in 2012:
 
@@ -139,9 +160,9 @@ The risk at the CIO also seems high when compared to JP Morgan's CIB in 2012:
 
 Source: JP Morgan Annual report
 
-# Lessons to be drawn from this case study:
+## Lessons to be drawn from this case study:
 
-These losses may have harmed JP Morgan's reputation, but have never threatened its existence. Ironically, the "London whale" episode has affected the wider banking industry more than JP Morgan itself and gave ammunitions to supporters of the separation of banking activities and strengthening of the Volcker rule to reopen the debates. Having traders deciding on the right model to value the risk, converting a department in charge of investing excess deposits and failing to report losses accurately are very severe shortcomings and a reminder that risk remains present in even the strongest banks.
+These losses may have harmed JP Morgan's reputation, but have never threatened its existence. Ironically, the "London whale" episode has affected the wider banking industry more than JP Morgan itself and gave ammunition to supporters of the separation of banking activities and strengthening of the Volcker rule to reopen debates. Having traders deciding on the right model to value the risk, converting a department in charge of investing excess deposits and failing to report losses accurately are very severe shortcomings and a reminder that risk remains present in even the strongest banks.
 
 Appendix - Conclusion from the task force:
 

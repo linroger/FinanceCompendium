@@ -1,21 +1,29 @@
 ---
 title: "Class 9 - What Happened in the World Financial Crisis?"
-aliases:
-  - "What Happened in the World Financial Crisis?"
-tags:
-key_concepts:
 parent_directory: "Class 9-Bailouts and Bank Failures"
+formatted: "2025-12-21 11:30:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+primary_tags:
+  - world financial crisis
+  - bank runs
+  - financial regulation
+secondary_tags:
+  - systemic risk
+  - too big to fail
+  - shadow banking system
+  - federal reserve intervention
+  - mortgage backed securities
+  - credit default swaps
+  - commercial paper market
 cssclasses: academia
-linter-yaml-title-alias: "Class 9 - What Happened in the World Financial Crisis?"
 ---
 
 The financial system promotes our economic welfare by helping borrowers obtain funding from savers and by transferring risks. During the World Financial Crisis, which started in 2007 and seems to have ebbed as we write in 2010, the financial system struggled to perform these critical tasks. The resulting turmoil contributed to a sharp decline in economic output and employment around the globe.
 
 The extraordinary policy interventions during the Crisis helped stabilize the financial system so that banks and other financial institutions could again support economic growth. Though the Crisis led to a severe downturn, a repeat of the Great Depression has so far been averted. The interventions by governments around the world have left us, however, with enormous sovereign debts that threaten decades of slow growth, higher taxes, and the dangers of sovereign default or inflation.
 
-How do we prevent a replay of the World Financial Crisis? This is one of the most important policy questions confronting the world today, and it remains unanswered. In this book, we offer recommendations to strengthen the financial system and thereby reduce the likelihood of such
-
-damaging episodes. Though informed by the lessons of the Crisis, our proposals are guided by long-standing economic principles.
+How do we prevent a replay of the World Financial Crisis? This is one of the most important policy questions confronting the world today, and it remains unanswered. In this book, we offer recommendations to strengthen the financial system and thereby reduce the likelihood of such damaging episodes. Though informed by the lessons of the Crisis, our proposals are guided by long-standing economic principles.
 
 When developing our recommendations, we think carefully about the incentives of those who will be affected and about unintended consequences. We try to identify the specific problem to be solved and the divergence between private and social benefits behind that problem; we carefully examine the possible unintended effects of our proposed solution; and we consider ways in which individuals or institutions can circumvent the regulation or capture the regulators.
 
@@ -25,7 +33,7 @@ In the remainder of this book we present a series of policy proposals, each of w
 
 # WHAT HAPPENED IN THE WORLD FINANCIAL CRISIS?
 
-# The Prelude
+## The Prelude
 
 The first symptoms of the World Financial Crisis appeared in the summer of 2007, as a result of losses on mortgage backed securities. For example, in August, BNP Paribas suspended the redemption of shares in three funds that had invested in these securities, and American Home Mortgage Investment Corp. declared bankruptcy. Mortgage related losses continued throughout the fall, and indicators of stress in the financial system, including the interest rates that banks charge each other, were unusually high. Despite huge injections of liquidity by the U.S. Federal Reserve and the European Central Bank, financial institutions began to hoard cash, and interbank lending declined. Northern Rock was unable to refinance its maturing debt and the firm collapsed in September 2007, becoming the first bank failure in the United Kingdom in over 100 years.
 
@@ -35,7 +43,7 @@ litigation, the major sponsoring banks agreed to pay many of their clients' loss
 
 Bear Stearns' failure in March 2008 proved, in retrospect, a critical turning point. The firm had funded much of its operations with overnight debt, and when it lost a lot of money on mortgage backed securities, its lenders refused to renew that debt. At the same time, customers ran from its prime brokerage business, a process we describe in detail below. Over the weekend of March 15, the U.S. government brokered a rescue by J.P. Morgan that included a generous commitment by the Federal Reserve. Many observers and officials thought that the Crisis was contained at this point and that markets would police credit risks aggressively. That hope proved unfounded.
 
-# The Remarkable Month of September 2008
+## The Remarkable Month of September 2008
 
 The World Financial Crisis moved into an acute phase in September 2008. $^{1}$  Fannie Mae and Freddie Mac, large government-sponsored enterprises that create, sell, and speculate on mortgage backed securities, failed during the first week of September and were placed under the conservatorship of the Federal Housing Finance Agency.
 
@@ -47,13 +55,11 @@ Within days, the U.S. government rescued American International Group. AIG had w
 
 That same week, Treasury Secretary Hank Paulson announced the first Troubled Asset Relief Program (TARP), asking Congress for \$700 billion to buy mortgage backed securities. Federal Reserve Chairman Ben Bernanke and President George W. Bush also gave important speeches warning of grave danger to the financial system. The Securities and Exchange Commission banned the short-selling of several hundred financial stocks, causing pandemonium in the options market, which relies on short-selling to hedge positions, and among hedge funds that employed long-short strategies.[2]
 
-The turmoil of the week did not stop there. Interbank lending declined sharply, the commercial paper market
-
-slowed to a crawl, and there was a run on the Reserve Primary Fund, a money market mutual fund. Unlike other mutual funds, money market funds maintain a constant share price, typically  \$1, by using profits in the fund to pay interest rather than to increase share values. Because the share price is fixed at\$ 1, losses that push a fund's net asset value below  \$1 per share can trigger a run, as investors rush to claim their full dollar payments and force the losses onto other investors. The Reserve Primary Fund, which had more than 1 percent of its assets in commercial paper issued by Lehman, suffered just such a run on September 16, 2008. After Lehman declared bankruptcy, the fund's net asset value dropped to\$ 0.97 per share and investors withdrew more than two-thirds of the Reserve Fund's \$64 billion in assets before the fund suspended redemptions on September 17. Concern spread to investors in other money market funds, and they withdrew almost 10 percent of the \$3.5 trillion invested in U.S. money market funds over the next ten days. To stabilize the market, the government took the unprecedented step of offering a guarantee to every U.S. money market fund.
+The turmoil of the week did not stop there. Interbank lending declined sharply, the commercial paper market slowed to a crawl, and there was a run on the Reserve Primary Fund, a money market mutual fund. Unlike other mutual funds, money market funds maintain a constant share price, typically  \$1, by using profits in the fund to pay interest rather than to increase share values. Because the share price is fixed at\$ 1, losses that push a fund's net asset value below  \$1 per share can trigger a run, as investors rush to claim their full dollar payments and force the losses onto other investors. The Reserve Primary Fund, which had more than 1 percent of its assets in commercial paper issued by Lehman, suffered just such a run on September 16, 2008. After Lehman declared bankruptcy, the fund's net asset value dropped to\$ 0.97 per share and investors withdrew more than two-thirds of the Reserve Fund's \$64 billion in assets before the fund suspended redemptions on September 17. Concern spread to investors in other money market funds, and they withdrew almost 10 percent of the \$3.5 trillion invested in U.S. money market funds over the next ten days. To stabilize the market, the government took the unprecedented step of offering a guarantee to every U.S. money market fund.
 
 In normal times, any one of these events would have been the financial story of the year, yet they all happened in the same week in September 2008. Although much commentary and popular press coverage blames the World Financial Crisis entirely on the government's decision to let Lehman fail, such an analysis ignores the evident contributions of the many other momentous events that occurred during that week.
 
-# October 2008: The Bank Bailout and Credit Crunch
+## October 2008: The Bank Bailout and Credit Crunch
 
 By early October 2008, the U.S. government realized that the TARP plan to buy mortgage backed securities on the open market was not feasible. Instead, the Treasury Department used the appropriated money to purchase preferred stock in large banks, and to provide credit guarantees and other support. Though now remembered as the "bank bailout," the TARP purchases were not simply a transfer to failing institutions. Healthy banks were also forced to accept capital in an attempt to mask the government's opinions about which banks were in more trouble than others. Many policymakers seemed to think that banks were not lending because they had lost too much capital and were not able or willing to raise more. Thus, the goal seemed to be not to save the banks but to recapitalize them so they would lend again. In the end, the former result was achieved—none of the large banks that received TARP funds failed—but the latter, arguably, was not. We analyze these issues in detail below, and recommend some alternative structures and policies that we believe would have worked better.
 
@@ -70,9 +76,9 @@ The flight to quality is apparent in the interest rates on commercial paper, in 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/fab03f47-1284-4671-9f06-2297f40927df/8dbab55424406c9636def09e0c2d5e8448227fe143fdb95adbae1cfde2fb9b6b.jpg)  
 Figure 1: Annualized Percent Yields on 30-Day High-Quality (AA) Financial and Nonfinancial Commercial Paper and Medium-Quality (A2/P2) Nonfinancial Commercial Paper, in Percent, August to December 2008. Source: Federal Reserve
 
-thy nonfinancial companies actually declined. The rate on U.S. Treasury bills, which are viewed as the most secure investment, also fell; the three-month Treasury bill rate actually dropped to zero for brief periods in November and December 2008.
+creditworthy nonfinancial companies actually declined. The rate on U.S. Treasury bills, which are viewed as the most secure investment, also fell; the three-month Treasury bill rate actually dropped to zero for brief periods in November and December 2008.
 
-# THE RUN ON THE SHADOW BANKING SYSTEM
+## THE RUN ON THE SHADOW BANKING SYSTEM
 
 The panic that struck financial markets in the fall of 2008 has been characterized as a run on the shadow banking system, and with good reason. Before the Crisis, many bonds, mortgage backed securities, and other credit instruments
 
@@ -92,18 +98,11 @@ risk); (2) fixed and floating rate investments (a sequence of short-term investm
 
 The breakdown of these normal pricing relations does little direct harm to the rest of the economy. A 20-basis-point violation of covered interest parity has little effect on a U.S. exporter using currency contracts to lock in the rate at which it can convert future Japanese revenue back into dollars. These violations show, however, that markets were not functioning normally. In particular, they suggest there was not much capital available to provide liquidity to buyers and sellers. Anyone needing to sell securities quickly in such a market—such as a financial institution trying to reduce its risk—was not likely to get a good price.
 
-# LENDING, BANKING, AND THE RECESSION
+## LENDING, BANKING, AND THE RECESSION
 
 During the fall of 2008, output and financing activity contracted sharply. Commercial paper, corporate bond, and equity issuance all fell dramatically, as did mortgage originations.
 
-Originations of most types of asset backed securities also slowed to a trickle. Many banks in the United States
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/fab03f47-1284-4671-9f06-2297f40927df/9b360ebc43ef86e3de085771ac18d3b4cae274326a1b3d4c08785c50e588d229.jpg)  
-Figure 2: Asset Backed Securities Issued in the United States, January 2004 to December 2009, Billions of Dollars per Month. Source: Federal Reserve
-
-and other countries no longer hold much of the credit they issue. They have moved instead to an "originate and sell" model in which they bundle together similar loans, such as jumbo mortgages, commercial loans, student loans, or credit card debt, and sell them to investors as asset backed securities. New issues of these securities essentially stopped in October and November 2008. Figure 2 shows that the amount of asset backed securities issued in the United States rose from  \$28.8 billion in January 2000 to\$ 385.3 billion in June 2007, and then plunged to \$102.6 billion in September 2007. Issuance in the United States continued to decline over the next year, eventually falling to only \$8.7 billion in October 2008 and \$6.6 billion in
-
-November—just 2 percent of the volume 18 months earlier. Only mortgages pooled by Fannie Mae and Freddie Mac, with an explicit government guarantee and subject to huge Federal Reserve purchases, continued to flow to the market.
+Originations of most types of asset backed securities also slowed to a trickle. Many banks in the United States and other countries no longer hold much of the credit they issue. They have moved instead to an "originate and sell" model in which they bundle together similar loans, such as jumbo mortgages, commercial loans, student loans, or credit card debt, and sell them to investors as asset backed securities. New issues of these securities essentially stopped in October and November 2008. Figure 2 shows that the amount of asset backed securities issued in the United States rose from \$28.8 billion in January 2000 to \$385.3 billion in June 2007, and then plunged to \$102.6 billion in September 2007. Issuance in the United States continued to decline over the next year, eventually falling to only \$8.7 billion in October 2008 and \$6.6 billion in November—just 2 percent of the volume 18 months earlier. Only mortgages pooled by Fannie Mae and Freddie Mac, with an explicit government guarantee and subject to huge Federal Reserve purchases, continued to flow to the market.
 
 There is plenty of anecdotal and survey evidence that bank lending also dried up during the Crisis. For example, loan officers surveyed by the Federal Reserve reported that credit conditions progressively tightened during 2008. In a survey about their perceptions of credit conditions and corporate decisions as of late November 2008, more than half of the chief financial officers of large American firms who responded said that their firms were either "somewhat or very affected by the cost or availability of credit."8
 
@@ -120,29 +119,23 @@ in the United States in 2008 and 2009. Starting in October 2008 there was a spik
 
 Economists will argue about the events of the World Financial Crisis for years to come. In fact, we still argue about the Great Depression. None of the analysis behind our recommendations, however, depends on how these debates are settled. For example, no matter how capital-constrained the banking system really was in the fall of 2008, our proposals for changes that make such constraints less binding and give policymakers better tools when they fear capital constraints remain valid.
 
-# WHAT WAS WRONG WITH THE FINANCIAL SYSTEM DURING THE CRISIS?
+## WHAT WAS WRONG WITH THE FINANCIAL SYSTEM DURING THE CRISIS?
 
 The Crisis revealed a number of serious problems with our financial system. Some had been in the background all along, others did not appear until the Crisis. In this book we emphasize four categories of problems: conflicts of interest, known to economists as agency problems; the difficulty of applying standard bankruptcy procedures to financial institutions; the emergence of a modern form of bank runs; and the inadequacy of the regulatory structure, which had not kept up with recent financial innovation. (In fact, much innovation served to escape regulations.)
 
 # Conflicts of Interest: Agency Problems
 
-Conflicts of interest that cannot be resolved easily by contracts or markets occur throughout the economy, but they
+Conflicts of interest that cannot be resolved easily by contracts or markets occur throughout the economy, but they can be particularly harmful in the financial system. There are several reasons. First, many financial transactions and contracts involve a principal, such as an investor or shareholder, asking a trader, manager, or other agent to act on his or her behalf. Second, most financial transactions involve highly uncertain future payoffs, and in many transactions one party is better informed about the payoffs than the other. Third, the high volatility of the future payoffs often makes it hard to assess whether the outcome of a financial transaction is due to the agent's efforts or luck. And fourth, the sums involved can be huge.
 
-can be particularly harmful in the financial system. There are several reasons. First, many financial transactions and contracts involve a principal, such as an investor or shareholder, asking a trader, manager, or other agent to act on his or her behalf. Second, most financial transactions involve highly uncertain future payoffs, and in many transactions one party is better informed about the payoffs than the other. Third, the high volatility of the future payoffs often makes it hard to assess whether the outcome of a financial transaction is due to the agent's efforts or luck. And fourth, the sums involved can be huge.
-
-Some proprietary traders, for example, earn a lot when their trades do well, but their personal losses are limited when their trades do poorly. Because of the asymmetric nature of their compensation, these traders can increase their expected income by taking riskier positions. This problem is dramatically illustrated by periodic cases in which "rogue traders" incur losses that are big enough to damage or even destroy large financial institutions. In 1995 Nick Leeson brought down Barings Bank with a  \$1.3 billion loss, and in 2008 it was revealed that Jérôme Kerviel had severely damaged Société Générale with a loss of over\$ 7 billion.
+Some proprietary traders, for example, earn a lot when their trades do well, but their personal losses are limited when their trades do poorly. Because of the asymmetric nature of their compensation, these traders can increase their expected income by taking riskier positions. This problem is dramatically illustrated by periodic cases in which "rogue traders" incur losses that are big enough to damage or even destroy large financial institutions. In 1995 Nick Leeson brought down Barings Bank with a \$1.3 billion loss, and in 2008 it was revealed that Jérôme Kerviel had severely damaged Société Générale with a loss of over \$7 billion.
 
 Conflicts of interest, or "agency problems," also exist at many other levels within the financial system. Shareholders of financial institutions have a conflict of interest with the bank's senior executives, especially when those executives are rewarded for good performance but do not have a large fraction of their wealth tied up in the shares of the bank.
 
-Many financial institutions have large quantities of debt,
-
-which creates a conflict of interest between the bank's creditors and its shareholders. Shareholders have an incentive to authorize excessively risky investments, for example, especially after a bank has incurred losses that erode the value of the shareholders' claim. The gains on these risky investments will accrue largely to shareholders, while the losses will mostly be borne by creditors. The conflict with creditors also reduces the incentives for the shareholders of troubled institutions to raise new capital because that would strengthen the position of creditors while diluting the shareholders' position. This "debt overhang" problem was widely cited during the World Financial Crisis, when many banks that were insolvent, or close to insolvency, seemed reluctant either to raise new capital or to reduce their risks by selling distressed securities.[11]
+Many financial institutions have large quantities of debt, which creates a conflict of interest between the bank's creditors and its shareholders. Shareholders have an incentive to authorize excessively risky investments, for example, especially after a bank has incurred losses that erode the value of the shareholders' claim. The gains on these risky investments will accrue largely to shareholders, while the losses will mostly be borne by creditors. The conflict with creditors also reduces the incentives for the shareholders of troubled institutions to raise new capital because that would strengthen the position of creditors while diluting the shareholders' position. This "debt overhang" problem was widely cited during the World Financial Crisis, when many banks that were insolvent, or close to insolvency, seemed reluctant either to raise new capital or to reduce their risks by selling distressed securities.[11]
 
 At the highest level, there is a conflict of interest between society as a whole and the private owners of financial institutions. Because robust financial institutions promote economic growth and employment, during financial crises governments often rescue troubled firms they perceive to be systemically important. The result is privatized gains and socialized losses. If things go well, the firms' owners and managers claim the profits, but if things go poorly, society subsidizes the losses.
 
-The candidates for government bailouts are popularly described as "too big to fail." More precisely, the argument for government support—which many economists challenge—is about firms that are too systemically important to fail. In its 2004 Annual Report, the European Central Bank described systemic risk as "The risk that the inability of one
-
-institution to meet its obligations when due will cause other institutions to be unable to meet their obligations when due. Such a failure may cause significant liquidity or credit problems and, as a result, could threaten the stability of or confidence in markets." Systemically important firms are those whose failure could pose a large threat to the stability of or confidence in markets. These firms are likely to be large, but they also tend to have complex interconnections with other financial institutions.
+The candidates for government bailouts are popularly described as "too big to fail." More precisely, the argument for government support—which many economists challenge—is about firms that are too systemically important to fail. In its 2004 Annual Report, the European Central Bank described systemic risk as "The risk that the inability of one institution to meet its obligations when due will cause other institutions to be unable to meet their obligations when due. Such a failure may cause significant liquidity or credit problems and, as a result, could threaten the stability of or confidence in markets." Systemically important firms are those whose failure could pose a large threat to the stability of or confidence in markets. These firms are likely to be large, but they also tend to have complex interconnections with other financial institutions.
 
 Too-big-to-fail policies offer systemically important firms the explicit or implicit promise of a bailout when things go wrong. These policies are destructive, for several reasons. First, because the possibility of a bailout means a firm's stakeholders claim all the profits but only some of the losses, financial firms that might receive government support have an incentive to take extra risk. The firm's shareholders, creditors, employees, and management all share the temptation. The result is an increase in the risks borne by society as a whole.
 
@@ -182,7 +175,7 @@ as collateral. Because they are over-collateralized, with assets worth perhaps  
 
 Prime brokerage accounts also saw a run-like withdrawal by customers. Many large banks have prime brokerage groups that assist hedge funds and other institutional investors by providing financing, securities lending, clearing, custodial services, and operational support. In exchange, the funds pay fees and, critically, post collateral to secure their loans. With some restrictions that we explain in Chapter 10, the prime broker can then use the collateral in its own business, in some cases commingling it with the firm's own assets. During the Crisis, hedge funds monitored the financial well-being of their prime brokers and, like depositors in the Depression, fled with their collateral at the first sign of trouble. Bear Stearns, for example, had a large prime brokerage business. According to press accounts, one of the largest hedge funds that used Bear Stearns as a
 
-prime broker, Renaissance Technologies, withdrew  \$5 billion of cash in the week the firm failed. With such outflows, it is not surprising that Bear Stearns ran out of money even though it had more than\$ 18 billion in cash a week earlier.
+prime broker, Renaissance Technologies, withdrew \$5 billion of cash in the week the firm failed. With such outflows, it is not surprising that Bear Stearns ran out of money even though it had more than \$18 billion in cash a week earlier.
 
 Like classic bank runs, modern bank runs are both destructive and self-fulfilling. Concern that a bank might be in trouble spurs its creditors and counterparties to withdraw or withhold their capital. As a result, even rumors of a problem may be enough to destroy a viable institution. The importance of modern bank runs during the World Financial Crisis is a recurring theme throughout the book, and we make several proposals that are intended to reduce the frequency of such events.
 

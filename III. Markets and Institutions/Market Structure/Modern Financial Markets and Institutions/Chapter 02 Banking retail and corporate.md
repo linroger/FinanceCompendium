@@ -1,22 +1,44 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Banking: retail and corporate
+parent_directory: Modern Financial Markets and Institutions
+formatted: 2025-12-21 05:00:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - banking types
+  - retail banking
+  - corporate banking
+  - deposit taking
+  - lending
+  - payments
+secondary_tags:
+  - liquidity management
+  - asset management
+  - liability management
+  - capital adequacy
+  - return on assets
+  - return on equity
+  - net interest margin
+  - project finance
+  - syndicated loans
+  - cash management
+  - payment mechanisms
+  - clearing systems
+  - interbank lending
+  - reserve requirements
+  - loan deposit ratio
 cssclasses: academia
-title: "Banking: retail and corporate"
-linter-yaml-title-alias: "Banking: retail and corporate"
 ---
 
 # Banking: retail and corporate
 
-# LEARNING OUTCOMES
+### LEARNING OUTCOMES
 
 By the end of this chapter the reader should be able to:
 
 - contrast the following types of banking: retail, corporate, commercial, investment, universal; describe the core elements of banking and the social functions they serve: deposit taking, lending and payments;
 discuss the main types of loans made by banks and the key factors that bankers consider when granting loans;
-■ outline the range of services offered by banks beyond the core banking functions, such as cash management, insurance, stock broking, providing guarantees and help with overseas trade; explain the importance of:
+- outline the range of services offered by banks beyond the core banking functions, such as cash management, insurance, stock broking, providing guarantees and help with overseas trade; explain the importance of:
 
 (a) good liquidity management – ensuring there are sufficient liquid assets to repay obligations falling due to avoid fear of a sudden outflow of cash;
 
@@ -640,11 +662,11 @@ $$
 $$
 
 $$
-\text{ForBarcSan:ROE} = \frac{\text{£150m}}{\text{£900m}} = 16.7\%
+\text{For BarcSan: ROE} = \frac{\text{£150m}}{\text{£900m}} = 16.7\%
 $$
 
 $$
-\text{ForMercurial:ROE} = \frac{\text{£150m}}{\text{£400m}} = 37.5\%
+\text{For Mercurial: ROE} = \frac{\text{£150m}}{\text{£400m}} = 37.5\%
 $$
 
 Mercurial appears to be super-profitable, simply because it obtained such a small proportion of its funds from shareholders. Many conservatively-run banks were quizzed by their shareholders in the mid-noughties on why their returns to equity were low compared with other banks, and 'couldn't they just push up returns with a little less caution on the capital ratio?' Many were tempted to follow the crowd in the good times only to suffer very badly when bank capital levels were exposed as far too daring. You can understand the temptation, and that is why regulation is needed to insist on minimum levels of capital – this is discussed in Chapter 7.
@@ -811,10 +833,10 @@ personal guarantees;
 - Payment mechanisms:
 - cheque;
 - giro;
-- standing orders; directdebits;
+- standing orders; direct debits;
 - debit cards; credit cards;
 store cards; smart cards (electronic purses, chip cards);
--e-money,e-cash;
+-e-money, e-cash;
 - landlines and mobile phones;
 - internet.
 - Clearing system: a system for transferring money from one bank account to another conducted by clearing banks.
@@ -858,7 +880,7 @@ $$
 - Return on equity (ROE):
 
 $$
-R O E = \frac{\text{Ne tp ro fi ta ft er ta x}}{\text{Eq ui ty ca pi ta l}}
+ROE = \frac{\text{Net profit after tax}}{\text{Equity capital}}
 $$
 
 A bank's income statement is split into two sources of income and three types of operating expense. Income: (i) interest income (ii) non-interest income.
@@ -868,7 +890,7 @@ Operating expenses: (i) interest expense; (ii) non-interest expense; (iii) provi
 Net interest margin (NIM):
 
 $$
-N I M = \frac{\text{In te re st in co me -I nt er es te xp en se}}{\text{As se ts}}
+NIM = \frac{\text{Interest income - Interest expense}}{\text{Assets}}
 $$
 - Loan to deposit ratio: amount of loans lent out divided by the amount of funds attracted to bank accounts.
 Net interest income (NII): interest income minus interest expense.
@@ -999,32 +1021,4 @@ An Overview of Project Finance and Infrastructure Finance - 2009 Update (2010) A
 
 26 What are (a) NIM, (b) NII?
 
-# Questions and problems
 
-1 Describe and illustrate, using simplified bank balance sheets, how a bank could find itself with a liquidity crisis and a capital reserve crisis. Describe and explain the actions it can take to move back to more prudent liquidity and capital reserve levels after such a crisis.
-
-2 'Bankers are simply over-paid parasites on the really productive parts of the economy!' Describe and explain the functions of commercial banks and discuss whether you agree with this opinion held by an irate politician.
-
-3 Write an essay distinguishing between the four different types of banking and explain their different functions.
-
-4 Discuss the structure of a bank's source of funds.
-
-5 Compare and contrast (describe and explain the relative advantages and disadvantages) of an overdraft versus a term loan versus project finance versus a syndicated loan.
-
-6 Describe and explain the different ways banks try to mitigate risk in their lending operations.
-
-7 Describe and compare the various types of uncommitted and committed loan facilities provided by banks.
-
-8 Describe, explain and illustrate how a bank could find itself insolvent.
-
-# Assignments
-
-1 Collect as much information as you can about the services provided by a bank you know well. Describe those services and discuss the importance to businesses of their provision.
-
-2 Examine the accounts of a number of banks and write a report comparing them on the basis of the key banking ratios and measures.
-
-# Web-based exercises
-
-1 Go to www.ukpayments.org.uk. Obtain statistics on payment transactions and write a report on the relative importance of the various payment mechanisms over time.
-
-2 Go to the statistical section of www.bankofengland.co.uk. Obtain statistics on lending to individuals, lending secured on dwellings, consumer credit and a range of other lending to compile a report describing the shifts that have taken place over the last few years.

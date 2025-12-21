@@ -1,32 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Insurance, pensions and collective investments
-linter-yaml-title-alias: Insurance, pensions and collective investments
+parent_directory: III. Markets and Institutions/Market Structure/Modern Financial Markets and Institutions
+formatted: 2025-12-21 05:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - insurance industry
+  - pension schemes
+  - collective investments
+secondary_tags:
+  - reinsurance markets
+  - insurance underwriting
+  - pension fund management
+  - defined benefit pensions
+  - defined contribution pensions
+  - unit trusts
+  - exchange traded funds
+  - investment trusts
+  - mutual funds
+  - sovereign wealth funds
+cssclasses: academia
 ---
 
 # Insurance, pensions and collective investments
 
-# LEARNING OUTCOMES
+## LEARNING OUTCOMES
 
 By the end of this chapter the reader should be able to: describe the basic functions of insurance and distinguish between the different types;
 
 ■ outline the proportions of insurance fund money that are invested in various assets classes; explain reinsurance, and the insurance markets in London, including Lloyds;
 
-describe the different types of pension arrangements, distinguishing funded from unfunded, defined benefit from defined contribution, private from public; explain the roles of pension fund trustees, consultants and managers;
-
-■ discuss the regulation of the pensions industry and the protection of people's pensions;
-
-■ distinguish between open-ended collective investment schemes and closed-ended investment schemes, describing the differences between funds such as unit trusts, mutual funds, investment trusts and exchange-traded funds; explain the importance of sovereign wealth funds in shifting investment funds around the world.
-
-Insurance companies and pension organisations play important roles in the financial system, not only by reducing and transferring risk and in helping us save for our old age but also as substantial holders of financial securities. Because they control enormous funds, their investment decisions can have profound effects on the equity markets, the bond markets and the other places where they apply their money, such as property, private equity and hedge funds.
-
-Another group of organisations that allocates funds to the purchase of securities are the pooled or collective investment funds. These go under various names, from mutual funds and unit trusts to investment trusts and sovereign wealth funds. They help investors to spread their savings across a range of securities under professional management.
-
-# Insurance
+## Insurance
 
 In the twenty-first century, insurance plays a large and important role in society worldwide. According to Swiss Re, a leading global reinsurer, $^{1}$  in 2009  \$4,100 billion$ ^{2} of insurance premiums were paid. This equates to roughly  $\$600$  for every single human being in the world. It is a vast industry, nearly doubling the amount of premiums paid in the past ten years, and impinges on everybody's life. It is an important source of overseas income to the countries which provide it, and plays a vital role in commerce by taking away from companies the risk that they would be forced out of business by, say, a fire on their premises. Instead of being faced by financial ruin, that risk is assumed by the insurance company in return for a carefully calculated premium.
 
@@ -42,17 +46,17 @@ Source: www.swissre.com
 
 There are also offshore tax haven countries which specialise in insurance. The largest of these is Bermuda, a self-governing British overseas territory, where company taxes are significantly lower than in most countries. Thanks to its position as a financial centre where most of the world's large insurance companies have a base, Bermuda has one of the highest per capita GDPs in the world, and is the biggest centre for reinsurance, a specialised form of insurance, where insurance companies insure their insurance business against loss. Bermuda, New York and London make up the three main centres of reinsurance.
 
-# History of insurance
+### History of insurance
 
 Insurance in some form has been in existence since ancient times, when traders faced the risk of financial ruin if their cargoes met with disaster. Traders might contribute to a fund from which those who suffered loss could claim some compensation. As trading developed and increased, rich businessmen would agree to pay for part of any losses in return for a sum of money, and would sign a contract to this effect, writing their name under the wording of the contract; this is where the term underwriting originates.
 
 The first modern-day insurance companies were fire insurance companies formed after the Great Fire of London in 1666: Hand in Hand (1696), Sun Fire Office (1710) and the Royal Exchange Assurance (1753). During the same period in London, a certain Edward Lloyd's coffee house became a centre for meetings of people with commercial interest in the rapidly expanding shipping industry (see the section on Lloyds of London later in this chapter).
 
-# Why do we need insurance?
+### Why do we need insurance?
 
 In life, things go wrong – the car breaks down, the house is flooded, or an ocean tanker goes aground and spills its cargo of oil. In return for a premium, insurance offers customers financial compensation should any of these, or indeed other, things occur. Rather than take the risk upon themselves and maybe find that they are saddled with a large unexpected expense which they cannot meet, people and companies prefer to pay out a premium to insure against risk, even though they could go through the whole of their life paying premiums every year and never making a claim.
 
-# Insurance firms
+### Insurance firms
 
 Insurance firms are either normal companies owned by shareholders or mutual organisations which are owned by their policy holders. The insurance firms' task is to make sure that they understand the risks involved and that they receive more in premiums than they pay out in claims and running costs. This has become more difficult with our increasingly litigious society, and the advent of new and expensive-to-replace technology, pollution and modern-day diseases such as AIDS and cancer.
 
@@ -60,11 +64,11 @@ Insurance firms are regulated by domestic legislation, but where they establish 
 
 For the remainder of the chapter, for brevity insurance mutuals will be included in the term insurance company.
 
-# Insurance underwriting
+### Insurance underwriting
 
 Underwriters work for insurance companies, assessing the risk involved and setting the terms and cost of the premium to be paid. Underwriting is a complex job and has to take into account any number of variables, while coming up with a premium that is both profitable to the insurance company and acceptable (competitive) to its customers. Because of the complexity involved, underwriters usually specialise in one particular type of insurance, such as motor, life, business, etc., so that they can build up their knowledge base and make sound decisions which will make money for their company but also attract custom. A lot of their decisions are based on historical statistics, which help them analyse the risk involved and the likelihood of a claim being made. The greater the number of statistics available, the easier it is to predict risk. It is all a balancing act, and the underwriters' task is to ensure that the balance is weighted in favour of the company.
 
-# Asymmetric information
+### Asymmetric information
 
 There are various pitfalls which can trap the unwary underwriter or customer into making a bad decision. Asymmetric information is when one party in a negotiation or relationship is not in the same position as the other parties, being ignorant of, or unable to observe, some information which is essential to the contracting and decision-making process. Thus, while insurance companies ask prospective policy holders to give a lot of information when trying to assess the level of risk exposure, the client will always know more than the insurer.
 
@@ -72,7 +76,7 @@ Adverse selection occurs when there is an opportunity or incentive for some firm
 
 Moral hazard recognises the danger that someone who is insured may be more likely to take risks and be less careful because they are insured – someone might not bother to lock their car 'because it's insured anyway', for instance. Insurers try to minimise this problem by decreasing the amount paid out in a claim, e.g. increasing the excess (the loss that the policy holder bears before the insurer pays out) to be paid if the car is not locked.
 
-# The insurance process
+### The insurance process
 
 Insurance is sold in a variety of ways:
 
@@ -82,7 +86,7 @@ Insurance is sold in a variety of ways:
 
 Wherever policies are obtained, the process is the same: a proposal form with relevant questions is completed and sent to the underwriter for assessment of the risk. If information given on proposals is incorrect, the insurance will be invalid.
 
-# Types of insurance
+### Types of insurance
 
 Insurance can be split into two types: life (or long-term insurance) and general (or non-life insurance). Both generate significant amounts of money in premiums (see Exhibit 4.2), with life policies taking the greater share – approximately 60 per cent compared to approximately 40 per cent for general insurance.
 
@@ -92,7 +96,7 @@ Exhibit 4.2 Global premium income 2000-09
 
 Source: Swiss Re.
 
-# Life/long-term insurance
+## Life/long-term insurance
 
 Life insurance includes a variety of insurance policies to cover people in different ways for loss of life, usually their own. Many life policies allow the insured to add money into the policy amount beyond what is needed for payouts on death, so if the insured is still alive after, say, ten years, a sum of money is received. Thus for many people it is a way of saving, and the insurance companies have to attract customers and compete against other forms of saving.
 
@@ -102,7 +106,7 @@ Life insurance includes a variety of insurance policies to cover people in diffe
 - Annuities provide a regular income until the death of the insured in return for a lump-sum payment. The insurance company takes the lump sum and invests in the financial markets and elsewhere to make a return.
 Insurance companies may also run pension schemes for individuals - see later in the chapter.
 
-# General/non-life insurance
+## General/non-life insurance
 
 This encompasses all other types of insurance. It is usually renewed annually and the premium may be adjusted when required. There are broadly three categories:
 
@@ -110,7 +114,7 @@ This encompasses all other types of insurance. It is usually renewed annually an
 - Casualty insurance includes aviation and marine insurance, car insurance, travel insurance, private medical insurance, pet insurance, accident, sickness or unemployment insurance, critical illness insurance and long-term care insurance.
 - Liability insurance protects the insured against third-party claims and includes employers' liability, public liability (e.g. a member of the public being hurt by falling masonry from a building site), product liability, pollution liability and commercial fleet liability (e.g. companies that use vehicles as part of their business will have all their vehicles covered by one policy, so that if any of their fleet is involved in an accident, the vehicle and its driver are fully covered by insurance).
 
-# What do insurance companies do with the premiums?
+### What do insurance companies do with the premiums?
 
 All insurance companies take in premiums constantly and they are therefore in possession of a substantial 'pool' or 'float' of ready cash which they are able to invest in various ways - see Exhibit 4.3 for UK insurance companies' investments.
 
@@ -140,7 +144,7 @@ Source:IFSL (www.thecityUK.com).
 
 If insurance companies fail to do their underwriting or to invest their assets competently, they run the risk of not being able to pay out on claims, but even if they are managed efficiently, they could still suffer from a stretch of bad luck and run out of funds. Insurance companies need several years of profits to make up for a bad year on claims, and each year a number of companies fail when their capital has diminished to the point where it is likely that they will be unable to meet their insurance liabilities. Between 1969 and 1998 in the US insurance companies alone suffered more than 640 insolvencies. Governments worldwide have increased regulations on insurance companies to ensure that they have sufficient financial funding and are run efficiently. In the UK since 2001 the Financial Services Authority (Financial Conduct Authority from 2013) has overseen all insurance companies, including Lloyds. In the EU, there will be a new directive in 2012, Solvency II, which will aim to implement solvency requirements (keeping a good reserve of capital) that better reflect the risks that companies face and to deliver a supervisory system that is consistent across all member states.
 
-# Reinsurance
+### Reinsurance
 
 Reinsurance has evolved as an effective means of coping with the growing number and increasingly complex nature of risks. It is the process by which insurance companies lessen their exposure to risk by transferring the risk to a reinsurer. By transferring all or part of the risk, the insurance company is able to accept more or larger risks from a client. Insurers should only underwrite risk in proportion to the amount of capital they possess, so reinsurance is a way to expand their business without the need to raise further capital.
 
@@ -157,7 +161,7 @@ Exhibit 4.5 Largest global reinsurers (2009)
 
 The purchase of reinsurance by reinsurance companies is known as retrocession. It is entirely possible for a reinsurance company to unknowingly reinsure itself by taking on part of a risk that it has distributed among other reinsurance companies, which in turn redistribute the risk; this is known as spiralling.
 
-# The London market
+### The London market
 
 The London market is a separate part of the UK insurance and reinsurance business centred in the City of London, and comprises Lloyd's and Lloyd's syndicates, Protection and Indemnity (P & I) Clubs and members of the IUA (the International Underwriting Association of London). Together they provide international general insurance and reinsurance for complex large commercial risks. It is the only market in which all of the world's 20 largest reinsurance groups are represented. The amount of expertise available from these insurers means that brokers are able to underwrite just about any type of risk. Business is facilitated by their geographical proximity, with every kind of ancillary service providers, such as lawyers and IT, close at hand. The close community of specialist insurers and support service providers means that information spread is rapid and deals can be made quickly.
 
@@ -169,11 +173,11 @@ Exhibit 4.6 The London market premium income
 
 Source: ABI.
 
-# IUA
+### IUA
 
 The International Underwriting Association is the world's largest organisation for international and wholesale insurance and reinsurance companies. It was formed in 1998 by the merger of two separate bodies which previously represented marine and non-marine insurance.
 
-# P & I Clubs
+### P & I Clubs
 
 Protection and Indemnity (P & I) Clubs (often called Marine P & I Clubs) have been in existence for over 140 years and offer protection and indemnity (insurance) in respect of third-party liabilities and expenses arising from owning or operating ships. They do not cover the actual ships or their cargoes, but do cover third-party risks such as collision, pollution, injury to or loss of life of passengers or crew members, and a long list of others. They are run on a mutual basis (owned by members and not run for profit), although there has recently been a trend towards demutualisation and the provision of insurance cover with fixed premiums.
 
@@ -189,7 +193,7 @@ Exhibit 4.7 Lloyd's of London insurance cover (2009)
 
 Among the more interesting risks that Lloyd's syndicates have underwritten are Father Christmas's beard, the 1981 Derby winner Shergar, which was owned by a syndicate of individuals when it was kidnapped in 1983 (payments were made to horse syndicate members who were insured for theft, but not to those who insured for loss of life), the legs of Betty Grable (1 million each leg) and Michael Flatley (47 million!), Ken Dodd's teeth, accidental injury to any of The Beatles, Bruce Springsteen's voice (6 million), the taste buds of Egon Ronay, the risk that Queen Victoria's first born would be twins, and death from excessive laughter (this cover was taken out in the 1920s when the early comedic films were shown for the first time and had a dramatic effect on their audience).
 
-# The structure of Lloyd's
+#### The structure of Lloyd's
 
 Lloyd's is not an insurance company, it is a society of members – that is, a group of members who trade in insurance via brokers, in an environment run by the Corporation of Lloyd's, which is overseen by the Council of Lloyd's.
 
@@ -512,19 +516,19 @@ A pension may be taken while still in employment. There is a wide range of funds
 
 A stakeholder pension (SHP) is a contract-based pension introduced in 2001 by the UK government. It places limits on charges and allows individuals flexibility around contributions. SHPs are available for an individual to take out on their own, or through an employer in a group scheme (Group SHP). Tax relief rules allow tax to be claimed back on contributions, even for non-taxpayers.
 
-# Self-invested personal pension (SIPPs)
+### Self-invested personal pension (SIPPs)
 
 Self invested personal pensions are pension plans that allow the contributor to control the type and amount of investments made and have the same tax advantages as personal pension schemes. SIPPs were originally aimed at people with large pension funds (over £200,000) but are now available to anyone with a contribution of £3,600 or more per year. People with multiple pension schemes can bring them all under one SIPP wrapper, resulting in easier management. The downside of SIPPs is that there are likely to be more charges than for a standard personal pension: a set-up fee followed by fixed annual fees, plus charges for each deal. Online SIPP providers can offer a more cost-effective way of managing the plan.
 
 SIPP plans can invest in a wide variety of investments: domestic or international shares, gilts, corporate bonds, unit trusts, OEICs, investment trusts, insurance company funds, exchange-traded derivatives, gold bullion, loans and deposit accounts or even commercial property.
 
-# Public pensions
+### Public pensions
 
 Nearly all countries in the developed world provide some sort of state-funded i.e. public pension for their people. Sometimes these pensions are means-tested (people's incomes and assets are examined to ensure they are poor enough to qualify) and the state will top up the income of the really poor if the pension is insufficient. These pensions are funded by public money, taxes and revenues, and as we have already said, are becoming an increasing burden on government finances. Governments around the world are encouraging people to contribute to private or personal pensions, thus relieving them of an onerous responsibility.
 
 In the UK, a non-earnings-related pension is paid by the state, based on the National Insurance contributions a person has put in over the course of their working life. This is a PAYG scheme, in that the current working generation's payments into the scheme funds current pensioners' income. The UK government, in line with other countries, has plans to increase the pension age to 66 (women 65) in the near future, with a further increase to 70 under discussion, as a way of lowering the amount that has to be raised in taxes to pay these pensions.
 
-# Pension fund trustees, consultants and managers
+### Pension fund trustees, consultants and managers
 
 Pension funds create large pools of assets and the task of the funds' controllers is to manage the assets well and generate sufficient income to pay out pension liabilities. The growth in the size of these funds has been quite remarkable and now the amount of assets at their disposal is enormous (more than 30 trillion in 2010), so the managers in charge of the funds are in an incredibly influential position. Indeed, pension funds are now the largest category of investor: they invest in both domestic and international financial markets and can have huge influence on countries' wealth, development and industries.
 
@@ -536,7 +540,7 @@ Consultants are asked to give their professional advice to trustees on the type 
 
 Managers are tasked with investing and ensuring that the fund returns are satisfactory, but they can sometimes be too cautious or too rash, with disastrous results for the pensioners. As pension funds increased in size, it became apparent that in most cases a single manager could not cope with the volume of investment. This started a trend towards decentralisation – employing multiple managers, each specialising in a particular asset class of investing. Some funds are run only by one or a number of in-house investment fund managers working directly for the fund; others outsource their investment manager functions – this is where the consultants can help in selection. Still others have a mixture, with some of the money managed in-house and some by professional fund managers. See Exhibit 4.17 for a discussion on this ('Alpha' is outperformance in the market after adjusting for increased risk).
 
-# 20-year study finds pension funds rational
+#### 20-year study finds pension funds rational
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/5c2c802eea25426529679378420541af9c416a1d90742c51cb30c1a4ec0d556f.jpg)
 
@@ -572,7 +576,7 @@ David Blake is director of the Pensions Institute at Cass Business School, Londo
 
 Source: Financial Times, 7 December 2009, p. 6. Reprinted with permission.
 
-# Pension fund asset holdings
+### Pension fund asset holdings
 
 Pension funds are major purchasers of long-term investments which suit their liabilities well; they need to be able to generate sufficient to be in a position to pay out pension liabilities decades in the future. Until the recent financial crisis, many pension funds held a large proportion of their funds in equities. Since then, equities have been reduced in favour of long-term bonds and fixed-rate instruments, which are thought to give a more secure return (see Exhibit 4.18). The important factor is to look at the long-term future stability of the fund and invest where this can be best guaranteed.
 
@@ -592,9 +596,9 @@ Percentage of the total fund allocated to each
 
 Following the financial crisis of 2008, BTPS policy has been to move out of higher-risk UK equities (down to 10 per cent from 29 per cent in 2005) and into 'safer' fixed-rate securities, such as government bonds. It is interesting to see the increase in investment in hedge funds, which were once regarded as highly speculative. Pension funds are trying to recoup their losses through higher-performing investments (see Exhibit 4.20).
 
-# Exhibit 4.20
+#### Exhibit 4.20
 
-# Pensions regain faith in hedge funds
+#### Pensions regain faith in hedge funds
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/7cd0b4f21308db5c9e74551452cb33479a4b1ed54f527a2112dad2cd64f377ab.jpg)
 
@@ -632,13 +636,13 @@ Exhibit 4.22 4.22 BTPS 14 largest investments (2009)
 
 Source: BTPS Annual Report 2009.
 
-# Regulations
+### Regulations
 
 In the UK, the Pensions Regulator is empowered by the government to regulate work-based pension schemes and has wide-ranging powers to enforce its decisions. Its aim is to protect members' benefits and encourage high standards in running pension schemes. It has powers to compel companies to inject additional money into their pension schemes and to remove trustees should a conflict of interest get in the way of them acting solely for the pension fund members. The regulator also tries to limit the claims made by failed schemes on the Pension Protection Fund (see below). Exhibit 4.23 describes some of the cases the regulator has dealt with.
 
 In the US, the Department of Labor's Employee Benefits Security Administration (EBSA) and Employee Retirement Income Security Act of 1974 (ERISA) are responsible for overseeing retirement (pension) plans and have established minimum standards for them.
 
-# Exhibit 4.23
+#### Exhibit 4.23
 
 # Regulator takes aim as recession hits pensions
 
@@ -688,13 +692,13 @@ In the past, pension funds have been subject to plenty in the way of guidelines 
 
 Some experts think that pension schemes should be subject to the same stringent rules about solvency that will be applied by the EU to insurance companies by 2012, but that does not solve the problem of present deficits.
 
-# Pension protection schemes
+### Pension protection schemes
 
 In the UK, the Pension Protection Fund (PPF) was established in 2005 to compensate members of DB funds should their company fail and be liquidated, leaving insufficient assets in the pension scheme to cover its pension liabilities. If the scheme has to or will have to pay out more than the contributions put in, then the scheme can be in deficit and be unable to meet its pension liabilities. The PPF pays out up to 90 per cent of what has been promised, up to a maximum of £29,897.42 a year. The cash to finance the PPF comes from a levy imposed on all eligible pension funds.
 
 DC scheme members lose out if fraud or theft occurs and may then be eligible for compensation from the PPF, but they cannot claim compensation for shortfalls in the fund. Their contributions are invested with the hope that they will provide an adequate pension, so although the eventual pension will vary according to the ability (and luck!) of the pension fund managers, their individual fund cannot be in deficit other than through fraud or theft.
 
-# Institutional Shareholder Committee
+### Institutional Shareholder Committee
 
 The Institutional Shareholder Committee, founded in 1991, sets out the principles of behaviour for institutional shareholders (such as managers of pension and insurance funds, investment trusts, etc.). It also set standards of behaviour it expects from corporations in which its members hold shares and other securities. The members of the committee are the Association of British Insurers (the trade association for the 300 or so British Insurance Companies), the Association of Investment Companies (the trade association for the closed-ended investment company industry – see later in the chapter), the Investment Management Association (representing the UK investment management industry) and the National Association of Pension Funds (representing the interests of occupational pension schemes).
 
@@ -723,11 +727,11 @@ Collective investment offers some significant advantages to the investor.
 
 These advantages are considerable, but they can often be outweighed by the disadvantages of pooled funds, which include high fund-management costs and possible underperformance compared with the market index. Also, collective investors lose any rights that accompany direct share investment, including the right to attend the company's AGM or receive shareholder perks, and lose the fun of selecting their own shares with the attendant emotional highs and lows, triumphs and lessons in humility.
 
-# Open-ended investment vehicles
+### Open-ended investment vehicles
 
 OEIVs are a type of collective fund that does not have restrictions on the amount of shares (or 'units') the fund will issue. If demand is high enough, the fund will continue to issue shares no matter how many investors there are; the size of the fund is dictated by the amount of investment in it. The value of each share is dictated by the net asset value (NAV) divided by the number of existing shares. The NAV is defined as the total value of assets at current market value less any liabilities. Open-ended funds must buy back shares when investors wish to sell. The most common types of OEIVs are unit trusts, open-ended investment companies (OEICs), exchange-traded funds (ETFs) and mutual funds.
 
-# Unit trusts
+#### Unit trusts
 
 Unit trusts are issued in Australia, Ireland, the Isle of Man, Jersey, New Zealand, South Africa, Singapore and the UK, and sold in units not shares. The first to be issued was in 1931 by M&G. According to the Investment Management Association (IMA), in January 2011 there were 737 funds in the UK managing £220.8 billion – see Exhibit 4.25 for the ten largest fund managers. They are administered by a trustee (usually a bank or insurance company rather than a single person) who is the legal owner of the trust's assets and runs the trust on behalf of its investors, appointing managers and making sure that the trust is run responsibly. In the UK, they are subject to Financial Services Authority (Financial Conduct Authority) regulations, which dictate to some extent the proportion of holdings allowed.
 
@@ -739,7 +743,7 @@ The value of the units is determined by the market valuation of the securities o
 
 Unit holders sell units back to the managers of the unit trust if they want to liquidate their holding (turn it into cash). The manager would then either sell the units to other investors or, if that is not possible because of low demand, sell some of the underlying investments to raise cash to redeem the units. Thus, the number of units can change daily, or at least every few days. There is no secondary market trading in unit trusts as all transactions are carried out through the trust managers.
 
-# Pricing
+##### Pricing
 
 The pricing of unit trusts is divided into two parts, the bid price and the offer price. The offer price, the price a new investor has to pay, is calculated by valuing the investments underlying the fund once a day using a method prescribed by the Financial Services Authority (FSA). The bid price, the price a seller receives, is usually set 5-6 per cent below the offer price (for funds invested in shares). The difference between the bid and offer prices is called the spread and pays for two things: first, fund administration, management of the investments, marketing, as well as commission for selling the units; second, the market makers' spreads and brokers' commissions payable by the fund when it buys and sells shares.
 
@@ -747,7 +751,7 @@ Most unit trusts are now priced on a forward basis, which means that the price p
 
 Quite a high proportion of the initial charge in the bid-offer spread (maybe 4-5 per cent) is commission payable to financial advisers, who recommend investment to individuals. Fund supermarkets $^{13}$  frequently give a discount on the initial charge. Thus, we have the slightly odd situation where going directly to the fund manager to buy units will result in being charged the full initial fee, whereas buying through an agent may cost 4-5 per cent less. $^{14}$
 
-# Charges
+##### Charges
 
 There are three charges:
 
@@ -757,7 +761,7 @@ There are three charges:
 
 3 Exit charges. Some funds make an exit charge instead of an initial charge if the units are sold within, say, the first five years.
 
-# Reading the Financial Times
+##### Reading the Financial Times
 
 The Financial Times publishes unit trust bid and offer prices every day. An example is shown in Exhibit 4.26. The list for Schroders displays both unit trusts and OEICs (discussed below). OEICs have a single price.
 
@@ -765,11 +769,11 @@ The Financial Times publishes unit trust bid and offer prices every day. An exam
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/54508c2b2a47e7206397bf73052a557f104866b102f96ccabaf3eb837dee0a5b.jpg)
 
-# Buying and selling units
+##### Buying and selling units
 
 Units can be bought direct from the unit trust management company by filling out an application form. Alternatively, they can be bought through a financial adviser, discount broker or fund supermarket. Because of the uncertainty about the exact purchase price, it is possible to set a limit on the price when buying. When it comes to selling all or some units, they can be sold back to the management company, which is obliged to purchase. Payment will be made within five days.
 
-# Who looks after the unit holders' interests?
+##### Who looks after the unit holders' interests?
 
 There are four levels of protection for the unit holder:
 
@@ -778,25 +782,25 @@ There are four levels of protection for the unit holder:
 - The ombudsman Complaints that have not been satisfactorily settled by the management company can be referred to the Financial Ombudsman – see Chapter 15.
 - The Financial Services Compensation Scheme Up to £50,000 is available for a valid claim – for example, when an FSA/FCA-authorised fund becomes insolvent or suffers from poor investment management (see Chapter 15 for more on this).
 
-# Types of trust available
+##### Types of trust available
 
 Unit trusts in the UK offer a wide range of investment choice. UK All Companies funds invest at least 80 per cent of their assets in UK shares. Some funds focus investment in shares paying high dividends (UK Equity Income), others split the funds between equity and bonds (UK Equity and Bond Income), while some invest mostly in government bonds or corporate bonds. Some place the bulk of their money in smaller companies, some in Far East shares. A few trusts invest in commercial property. The possibilities are endless – see www.investmentuk.org for a definition of dozens of classes of funds.
 
-# Returns
+##### Returns
 
 The return on a unit trust consists of two elements: first, income is gained on the underlying investments in the form of interest or dividends; second, the prices of the securities held could rise over time. Some unit trusts pay out all income, after deducting management charges, etc., on set dates (usually twice a year) in cash. Accumulation units reinvest the income on behalf of the unit holders and as a result the price of accumulation units tends to rise more rapidly than income units. The Financial Times shows listings for prices of income ('Inc') units (also called distribution units) and accumulation ('Acc') units.
 
-# Minimum investment
+##### Minimum investment
 
 Some trusts ask for an initial minimum investment of only  $250$  or so, whereas others insist on at least  $\pounds 1,500$ . Thereafter, under a savings plan, it may be possible to put in as little as  $\pounds 25$ . It is often possible to use shares instead of cash as payment for units through a share exchange scheme.
 
-# Following the units' progress
+##### Following the units' progress
 
 A manager's report will be sent every six months detailing the performance of the fund over the half year, the events in the market(s) in which the fund invests, and explaining the manager's investment strategy. It will also comment on future prospects, list the securities held by the fund and display the fund's financial accounts. At least once a year a statement is sent showing the number of units held and the latest prices.
 
 The most obvious place to track units is in newspapers such as the Financial Times. Money Management magazine tracks fund performance over periods of one, two, three, and five years. Many websites, such as fund supermarket websites, carry details of units, e.g. www.citywire.co.uk.
 
-# Open-ended investment company
+#### Open-ended investment company
 
 OEICs (pronounced 'oiks') have been around since May 1997 and were introduced as a more flexible and simpler alternative to existing unit trusts. Many unit trusts have turned themselves into OEICs. An OEIC is a company which can be listed on the stock exchange and it issues shares whereas a trust issues units. It is an open-ended diversified collective investment vehicle. OEICs are regulated in a similar way to unit trusts, so investor protection is much the same. Investment in OEICs may be made on a regular basis, or as a lump sum. Exhibit 4.27 shows the largest OEIC management companies and the total amount invested in their different OEICs.
 
@@ -812,7 +816,7 @@ As an open-ended instrument the fund gets bigger and more shares are created as 
 
 The OEIC may be a stand-alone fund or may have an 'umbrella' structure, which means that it contains a number of sub-funds, each with a different investment objective, e.g. income or growth. Sub-funds may focus on differing equities, US shares, UK shares, etc. Each sub-fund could have different investors and asset pools. Similarly to unit trusts, OEICs offer income or accumulation shares; income shares offer regular income to investors as the OEIC collects dividends, etc. from investments, while accumulation shares reinvest the income into more shares, so the shareholding increases.
 
-# Exchange-traded funds
+#### Exchange-traded funds
 
 First introduced in the US in 1990, exchange-traded funds take the idea of tracking a stock market index or sector a stage further. ETFs are set up as companies issuing shares and the money raised is used to buy a range of securities, such as a collection of shares in a particular stock market index or sector, say the FTSE 100 or pharmaceutical shares. Thus, if BP comprises 8 per cent of the total value of the FTSE 100 and the ETF has £100 million to invest, it will buy £8 million of BP shares; if Whitbread is 0.15 per cent of the FTSE 100, the ETF buys £150,000 of Whitbread shares. (Alternatively, many ETFs do not buy the actual shares but gain exposure to the share returns by the purchase of derivatives of the shares.)
 
@@ -832,7 +836,7 @@ Private investors can purchase ETFs from brokers. Their minimum charge is betwee
 
 We have moved a long way from the simple traditional equity ETFs of the 1990s. Nowadays the ETF manager may not purchase all the shares in the index but merely a sample. This is useful for
 
-# Exhibit 4.28 Exchange-traded fund price in the Financial Times
+##### Exhibit 4.28 Exchange-traded fund price in the Financial Times
 
 # Exchange Traded Funds
 
@@ -886,7 +890,7 @@ BlackRock estimated there were 515 swap-based ETFs with assets of  \$101.9bn at 
 
 The first ever ETF, the Toronto 35 Index Participation Fund, was created in March 1990. "Today, there is a growing fan club who cite ETFs as one of the greatest financial innovations of the past two decades," said Ms Fuhr.
 
-# Mutual funds
+#### Mutual funds
 
 Sometimes the term mutual fund is used as a generic term for collective or pooled investments. However, in the US and Canada the term has the specific meaning in terms of their organisation and legal structure.
 
@@ -902,7 +906,7 @@ Mutual shares are sold to investors, and the manager of the fund, called the por
 
 There are various types of funds, including stock (equity) funds, bond funds, sector funds, money market funds and balanced funds (investing in a mixture of asset types).
 
-# Undertakings for Collective Investments in Transferable Securities (UCITS)
+#### Undertakings for Collective Investments in Transferable Securities (UCITS)
 
 For anyone wishing to invest in funds outside their own country, problems occurred because there were no common regulations governing investment funds, and it was difficult, if not impossible, to have any degree of trust in foreign investment companies. There was also a lack of a safety net (e.g. compensation scheme from the industry or government) if the fund turned out to be fraudulently or incompetently run. To counter these problems, the 1985 UCITS directive established 'Undertakings for Collective Investments in Transferable Securities', introducing EU-wide rules governing collective investments which could be sold across the EU subject to local tax and marketing laws. So an investor could, with confidence, invest in French, German, Spanish, etc. funds, safe in the knowledge that the funds were subject to statutory regulations.
 
@@ -912,11 +916,11 @@ UCITS III further increased the flexibility of cross-border funds. They can now 
 
 Any eligible collective fund (e.g. UK unit trusts or OEICs, but not investment trusts) may apply for UCITS status, enabling them to market their fund throughout the EU.
 
-# Closed-ended investment vehicles
+### Closed-ended investment vehicles
 
 These are collective investment vehicles that do not create or redeem shares on a daily basis in response to increases and decreases in demand (in contrast to OEIVs, unit trusts and OEICs, etc.). They are publicly traded companies that have raised their capital through an initial public offering (IPO) and have a fixed number of shares for lengthy periods, as with any other company that issues shares. They are actively managed and often concentrate on a particular sector or industry. The value of their shares fluctuates according to market forces.
 
-# Investment trusts (investment companies)
+#### Investment trusts (investment companies)
 
 Investment trusts were first launched in London in 1868 to invest in foreign government bonds or fixed-interest stocks. Investment trusts (companies) place the money they raise in assets such as shares, government bonds, corporate bonds and property. Unlike unit trusts, they are set up as companies (they are not trusts at all!) and are subject to company law.[17] If you wish to place your money with an investment trust you do so by buying its shares. Investment trusts are floated on the London Stock Exchange where there is an active secondary market.
 
@@ -926,7 +930,7 @@ As a company an investment trust will have a board of directors answerable to sh
 
 The selection of investments for the trust and the general management of the fund may be undertaken by an in-house team of investment managers who are employees of the trust (a 'self-managed' trust) or the investment management task may be handed over to external managers. Most are externally managed. More than 100 investment companies are venture capital trusts (VCTs), which are given tax breaks by the UK government to encourage investment in small businesses not listed on a stock market – see Chapter 14.
 
-# Discounts and premiums
+##### Discounts and premiums
 
 The biggest factor influencing the share price of an investment trust is the value of the underlying assets owned by the trust. This is expressed as a net asset value per share. In theory, the trust's share price should be pretty close to the value of the assets held, but in practice they frequently sell at a large discount to NAV – only a few sell at a premium to NAV. Discounts of 10–20 per cent are not uncommon; they have even reached 68 per cent. The main factor that drags the price below NAV is the lack of demand for the shares. Here is a typical scenario.
 
@@ -942,11 +946,11 @@ While much of the discount on a typical investment trust is due to negative sent
 - NAV is calculated after deducting the nominal (stated book) value of the debt and preference shares. In reality, the trust may have to pay back more on the debt and preference shares than this.
 - Liquidating the fund incurs costs (e.g. contract cancellations, advisers' fees, stockbrokers' fees) so NAV is not achieved.
 
-# Costs
+##### Costs
 
 When buying (or selling) investment trust shares, commission will be payable to the stockbroker $^{19}$  as usual when buying shares (usually £20–40 for purchases of a few thousand pounds). The trust managers' costs for managing the investments and for administration are charged to the fund, either against annual income or against capital. A typical total expense ratio (TER), including the costs of investment management and administration, directors' fees, audit fees and share registration expenses, is between 1.5 per cent and 1.8 per cent of the fund value (but this excludes performance fees that managers often take). Some voices are saying that investment trusts are not being organised for the benefit of investors as much as they should be – see Exhibit 4.31.
 
-# Borrowing
+##### Borrowing
 
 Investment trusts have the freedom to borrow (unlike unit trusts or OEICs). Borrowing to buy assets is fine if the return on assets over time exceeds the interest charged. However, it is a double-edged sword. The risk associated with gearing up returns becomes all too apparent when asset values fall. Take the case of our trust investing in eastern Europe. If it had sold 50 million shares at £1 each and also borrowed £50 million to buy £100 million of eastern European shares, the NAV would still start at £1 per share (£100 million of assets minus £50 million debt owed, for 50 million shares). If underlying asset values fall by 40 per cent because of the fall in the Warsaw Stock
 
@@ -996,7 +1000,7 @@ Some board members make an active effort to be proactive, however. Hamish Buchan
 
 The Association of Investment Companies also says that putting too much pressure on boards to remove poorly performing fund managers could result in a dismissal at the wrong time.
 
-There are many other options open to boards to improve floundering investment trusts: implementing regular share buy-back schemes to control the discount, request ing a new fund manager from the same fund management house or simply communicating better with shareholders.
+There are many other options open to boards to improve floundering investment trusts: implementing regular share buy-back schemes to control the discount, requesting a new fund manager from the same fund management house or simply communicating better with shareholders.
 
 Others think the best thing boards can do is encourage their brokers do get more people interested in a sector that is facing increasing competition from cheaper tracker funds and open-ended fund managers' marketing clout.
 
@@ -1012,33 +1016,65 @@ Exchange, the net asset value per share falls dramatically from 1 to 20p - an 80
 Value of eastern European shares £60m Less debt -50m 10m
 ```
 
-Net asset value per share:  $\frac{\text{£10m}}{50\text{m}} = 20\text{p}$
+Net asset value per share: $\frac{\text{£10m}}{50\text{m}} = 20\text{p}$
 
 You can see why trusts that borrow a lot can be very volatile.
 
-# Sovereign wealth funds
+#### Sovereign wealth funds
 
-Sovereign wealth funds (SWFs) are collective funds set up and managed by governments. Thus, a country that has a large flow of income, due to say oil, may establish a fund on behalf of its people so that they can gain a future income from the investment fund after the oil has gone. Given that they now control  $3,000 -$ 4,000 billion of investments around the world, their decisions on where to place money can have a significant effect on finance and economics. They used to be buy-and-hold-type investors looking for long-term returns. However, following the financial crisis, many were used as sources of finance to support their domestic economies; this kind of political interference may grow. Exhibit 4.32 describes a number of SWFs.
+Sovereign wealth funds (SWFs) are collective funds set up and managed by governments. Thus, a country that has a large flow of income, due to say oil, may establish a fund on behalf of its people so that they can gain a future income from the investment fund after the oil has gone. Given that they now control $3,000–$4,000 billion of investments around the world, their decisions on where to place money can have a significant effect on finance and economics. They used to be buy-and-hold-type investors looking for long-term returns. However, following the financial crisis, many were used as sources of finance to support their domestic economies; this kind of political interference may grow. Exhibit 4.32 describes a number of SWFs.
 
-# Custodians
+```d2
+direction: right
+
+collective_investments: Collective Investments
+
+unit_trusts: Unit Trusts {
+  shape: rectangle
+}
+
+oeics: OEICs {
+  shape: rectangle
+}
+
+etfs: ETFs {
+  shape: rectangle
+}
+
+mutual_funds: Mutual Funds {
+  shape: rectangle
+}
+
+investment_trusts: Investment Trusts {
+  shape: rectangle
+}
+
+collective_investments -> unit_trusts
+collective_investments -> oeics
+collective_investments -> etfs
+collective_investments -> mutual_funds
+collective_investments -> investment_trusts
+```
+
+### Custodians
 
 Custodians are guardians or safe-keepers of securities. The term often refers to custodian banks, whose legal remit is to look after the various assets of investment companies, especially pension funds (and mutual funds in the US), in return for a fee. They safeguard the securities or other assets which the funds own, check on and distribute dividend payments, capital gains and general information relating to the diverse range of assets. One of HSBC's custodianship tasks is to safeguard gold bullion bars (worth £33 billion in 2010) backing a gold investment fund.
 
-# Wealth of nations
+#### Wealth of nations
 
 FT
 
-# Abu Dhabi
+### Abu Dhabi
 
 Outside estimates put the value of the opaque Abu Dhabi Investment Authority, the world's biggest sovereign fund, at upwards of \$600bn. The portfolio includes quoted equities, fixed income, property, infrastructure and private equity, with global equities the biggest category. The aim is to secure the welfare of the emirate and provide stabilisation funding when necessary. Adia does not seek active management or control. About 60 per cent of the portfolio is in index-replicating assets. It is suing Citigroup over losses on its \$7.5bn purchase of shares in the bank in 2007.
 
-# Norway
+### Norway
 
-The aim of the Government Pension Fund Global is to manage national petroleum wealth and to meet rising public pension liabilities; while also preventing the "Dutch disease" - whereby windfall revenues lead to an overvalued exchange rate that distorts the domestic economy - taking hold. The 510bn fund is split 60/40 between foreign equities and bonds. It takes contrarian views, recently buying Greek government bonds; and ethical views, excluding from the portfolio in August two Israeli companies involved in developing Jewish settlements in occupied Palestinian territory.
+The aim of the Government Pension Fund Global is to manage national petroleum wealth and to meet rising public pension liabilities; while also preventing the "Dutch disease" - whereby windfall revenues lead to an overvalued exchange rate that distorts the domestic economy - taking hold. The $510bn fund is split 60/40 between foreign equities and bonds. It takes contrarian views, recently buying Greek government bonds; and ethical views, excluding from the portfolio in August two Israeli companies involved in developing Jewish settlements in occupied Palestinian territory.
 
-# Russia
+### Russia
 
-In 2008 the Oil Stabilisation Fund, managing state-controlled energy groups' revenues, was split to recognise its different functions: one managing official reserves; the other, which became the National Welfare Fund SWF, making higher risk investments. The purpose of this SWF is to smooth fluctuations in energy revenues and to fund pensions. But during the financial crisis, when foreign capital fled the country, it sold foreign investments to plug the budget deficit, support the mortgage market and prop up
+In 2008 the Oil Stabilisation Fund, managing state-controlled energy groups' revenues, was split to recognise its different functions: one managing official reserves; the other, which became the National Welfare Fund SWF, making higher risk investments. The purpose of this SWF is to smooth fluctuations in energy revenues and to fund pensions. But during the financial crisis, when foreign capital fled the country, it sold foreign investments to plug the budget deficit, support the mortgage market and prop up domestic share prices. It is reportedly worth just under $40bn.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/323fe1ac78eb6ef369b856d74770654a6ef12be28ac54de5d2e11329478879ec.jpg)
 
@@ -1054,17 +1090,19 @@ By assets under management 2009  $(\%)$
 
 Sources: Sovereign Wealth Fund Institute
 
-* State Aministration of Foreign Exchange domestic share prices. It is reportedly worth just under 40bn.
+### China
 
-# Singapore
+The State Administration of Foreign Exchange (SAFE) manages China's foreign exchange reserves and acts as its sovereign wealth fund. It is reportedly worth just under $40bn.
 
-Temasek – the smaller of the country's two SWFs, with 144bn under management – is one of the rare funds in the sector that aims to engage with the boards and managements of the companies in which it invests. Of its portfolio, 32 per cent is invested in Singapore, with 46 per cent in the rest of Asia (excluding Japan). It attracted headlines by incurring big losses on the sale of holdings in Bank of America and Barclays but has fully recouped the ground lost in 2008-09. It boasts a total shareholder return of 17 per cent a year since it was set up in 1974.
+### Singapore
+
+Temasek – the smaller of the country's two SWFs, with $144bn under management – is one of the rare funds in the sector that aims to engage with the boards and managements of the companies in which it invests. Of its portfolio, 32 per cent is invested in Singapore, with 46 per cent in the rest of Asia (excluding Japan). It attracted headlines by incurring big losses on the sale of holdings in Bank of America and Barclays but has fully recouped the ground lost in 2008-09. It boasts a total shareholder return of 17 per cent a year since it was set up in 1974.
 
 They provide a very necessary protection for investors against any illegal or fraudulent activities of any fund manager, who could be tempted into dishonest behaviour simply by the enormity of the sums involved. The idea is to keep the assets at arm's length from the individuals running the fund.
 
 In the UK, HM Revenue and Customs keeps a list of approved custodians. Domestic custodians look after domestic assets; global custodians oversee assets held in the rest of the world.
 
-# Concluding comments
+### Concluding comments
 
 Imagine life without insurance. Would you dare to drive a car? What if you had an accident and were required to replace someone else's car? Or worse, you injured someone so badly that you had to pay out £1 million in compensation? Surely the absence of car insurance alone would cause a reduction in economic output and in the quality of life because we would rarely take the risk of driving. The same logic applies to shipping goods around the world or constructing a building. Ship owners, airlines and builders cannot take the risks of hurting someone, or the risk of a fire or of loss of property from theft or accident, and so would generally refuse to take part in productive activity. We would all be poorer as a result. So clearly, even though the white-collar workers in the insurance industry do not produce a tangible thing that you can see and touch, they do help the rest of society go about pleasurable and business activity.
 
@@ -1072,7 +1110,7 @@ Imagine a world without pension funds. How fearful would you be as you grew olde
 
 Imagine a world without collective investment funds. If you wanted to invest in shares you would have to do so as an individual. Not only would the costs be high if you have only a small amount of savings, but the need for expertise would put off many people from even starting the process. As a result companies needing capital to grow would have fewer potential investors and would have to pay higher rates of return on the funds that were provided, reducing their willingness to go ahead with that new factory or develop that new computer program. A world without collective investment would be one with far fewer investment asset choices available to savers – most people would not be any more adventurous than sticking their money in a bank account. At the end of the day they would be poorer and society would be poorer because less risk capital would be employed to create new firms and industries. Clearly, collective investment vehicles under professional management help mobilise savings for productive investment, helping the savers to build their nest-eggs and helping companies to grow.
 
-# Key points and concepts
+### Key points and concepts
 
 Insurance - in return for a premium, risk is assumed by the insurer.
 
@@ -1151,7 +1189,7 @@ Management charges are much lower than for mutual funds, unit trusts and investm
 Sovereign wealth funds are collective funds set up and managed by governments.
 - Custodians are guardians or safe-keepers of securities. Custodians give protection to investors against fraud and dishonesty.
 
-# References and further reading
+### References and further reading
 
 To keep up to date and reinforce knowledge gained by reading this chapter I recommend that you regularly read the Financial Times and The Economist.
 
@@ -1185,7 +1223,7 @@ Stevenson, D. (2010) The Financial Times Guide to Exchange Traded Funds and Inde
 
 An easy to follow introduction for beginners.
 
-# Websites
+## Websites
 
 Association of British Insurers www abi.org.uk
 
@@ -1255,11 +1293,11 @@ Pensions regulator www.thepensionsregulator.gov.uk
 
 Trustnet, financial analysis www.trustnet.com
 
-# Video presentations
+## Video presentations
 
 Bank chief executives and other senior people describe issues connected with financial markets in interviews, documentaries and webcasts at Cantos.com (www.cantos.com) – these are free to view.
 
-# Case study recommendations
+## Case study recommendations
 
 See www.pearsoned.co.uk/arnold for case study synopses. Also see Harvard University: http://hbsp.harvard.edu/product/cases
 
@@ -1276,154 +1314,4 @@ The Chubb Corporation in China (2008) Authors Li Jin, Michael Shih-Ta Chen and A
 - Pension Roulette: Have You Bet Too Much on Equities? (2003) Author: G. Bennett Stewart III, Harvard Business Review, June. Available at Harvard Case Study website.
 Fixing the Pension Fund Mix (2004) Author: Robert C. Pozen. Harvard Business Review, March. Available at Harvard Case Study website.
 
-# Self-review questions
 
-1 What is the purpose of insurance and why do people pay premiums even though the premiums add up to less than they expect to lose?
-
-2 What are underwriters, and what do they do?
-
-3 How is insurance obtained?
-
-4 Distinguish between the two main types of insurance.
-
-5 Who regulates insurance companies in the UK?
-
-6 What is Solvency II?
-
-7 How has membership of Lloyd's of London altered over the past 20 years?
-
-8 What is a pension?
-
-9 How do defined benefit schemes differ from defined contribution schemes?
-
-10 What is the difference between a public and private pension?
-
-11 What are collective funds?
-
-12 How does a unit trust differ from an investment trust?
-
-13 What is an investment trust and how does it differ from other funds?
-
-14 Define NAV for an investment trust.
-
-15 What are UCITS and what are their advantages?
-
-16 What is an ETF?
-
-17 What are sovereign wealth funds?
-
-# Questions and problems
-
-# Insurance
-
-1 Explain the following key elements to insurance:
-
-(a) asymmetric information;
-
-(b) adverse selection;
-
-(c) moral hazard;
-
-(d) float.
-
-2 Describe and explain the main categories of life insurance and general insurance.
-
-3 Describe and explain reinsurance and its social role.
-
-4 Explain the functioning of Lloyd's of London and discuss its special role in the world insurance market.
-
-5 Describe the difference in the mix of assets in an investment portfolio held by (a) life insurance companies, (b) general insurance companies.
-
-# Pensions
-
-1 Distinguish between funded and unfunded pension schemes, and give the advantages and drawbacks of each type of pension.
-
-2 Describe and explain the roles played by trustees, consultants and managers in running defined benefit funded pension schemes.
-
-3 Describe and explain personal pensions.
-
-4 What types of investments do pension funds make and how have the allocations changed over the past ten years?
-
-5 Describe how UK pension funds are regulated.
-
-6 What is the Institutional Shareholder Committee, and what does it do?
-
-# Collective investments
-
-1 What are the advantages and disadvantages of collective funds rather than individuals investing on their own?
-
-2 Explain the differences between openand closed-ended funds, including a description of four types of open-ended investment vehicles.
-
-3 For unit trusts:
-
-(a) Describe the make-up of a unit and how the size of the trust is dictated.
-
-(b) What charges are made to the unit holders?
-
-(c) What type of protection does a unit trust holder have?
-
-4 Compare and contrast an OEIC, an investment trust and an ETF.
-
-In the context of collective investments, if a discount on an investment trust is not a price reduction when they are first sold, what is it? Describe the biggest factors influencing the share price of an investment trust.
-
-6 Explain the following for collective investments:
-
-(a) pricing on a forward basis;
-
-(b) open-ended;
-
-(c) initial charge;
-
-(d) accumulation units;
-
-(e) total expense ratio;
-
-(f) premium to NAV.
-
-# Assignments
-
-# Insurance
-
-1 Consider a family you know well. Describe the different types of insurance they currently pay for. Also describe two types of insurance they could take out but so far have chosen not to. For all the types of insurance discuss the costs and benefits to the family.
-
-2 Examine the reports and accounts of three insurance companies as well as their websites and compile a report describing the different types of insurance they provide explaining the social benefits they provide.
-
-# Pensions
-
-1 If you are currently a member of a funded pension scheme, obtain as much information as you can about the deal you have signed up to. In an essay describing the operation of the scheme include a consideration of the tax advantages of the scheme, the management of the fund and the assets that have been bought. (If you are not a member of scheme examine the scheme of someone you know well.)
-
-2 Examine the past five years of annual reports of three leading defined benefit pension schemes, e.g. Universities Superannuation Scheme. To what extent do they use outside managers trying to pick winning shares and other securities? Describe how have they allocated the funds entrusted to them and critically assess their decisions.
-
-3 Mr and Mrs Wright have no company or private pension. They are both aged 47 and in employment. What are their options to provide a pension when they reach retirement age?
-
-# Collective investments
-
-1 Obtain the reports and accounts of five leading fund managers who manage unit trusts/OEICs. Also look at their marketing and other material they use to encourage and inform existing and potential investors. Write a report explaining the investment strategies, charges, range of investments and management of the funds.
-
-2 Examine five investment trust companies quoted on the London Stock Exchange. Obtain their accounts and read their stock exchange announcement on financial websites to build up a picture of their operations. Write a report detailing performance, discounts or premiums, management and charges levied on investors.
-
-# Web-based exercises
-
-# Insurance
-
-Using online insurance companies, get quotes for your life insurance if you are (a) a smoker and (b) a non-smoker. Comment on the results in the context of the usefulness of insurance.
-
-# Pensions
-
-Go to the website of Universities Superannuation Scheme (www.uss.co.uk) and, using the annual reports over the past 8 years, write a report on the way the fund is set up, and how its investments have changed.
-
-# Collective investments
-
-1 From the Financial Times (www.ft.com), choose a unit trust beginning with the letter D and write a report on its performance over one year and three years.
-
-2 Conduct a web search to find:
-
-(a) a UK OEIC prospectus;
-
-(b) an ETF prospectus;
-
-(c) a mutual fund prospectus; and
-
-(d) an investment trust prospectus.
-
-Write a report on management, purpose and charges. Comment on the relative advantages and disadvantages of these types of funds.
