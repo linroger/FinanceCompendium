@@ -1,32 +1,32 @@
 ---
 title: Leverage as a Measure of Risk
 primary_tags:
-  - leverage
-  - risk_management
-  - derivatives
-  - portfolio_management
-  - accounting_leverage
+  - leverage analysis
+  - risk management
+  - derivatives pricing
+  - portfolio management
+  - accounting leverage
 secondary_tags:
-  - risk_based_leverage
-  - equivalent_security_approach
-  - bucketized_risk
-  - financial_crisis
-  - structured_finance
-  - portfolio_risk_control
-  - delta_hedging
+  - risk based leverage
+  - equivalent security approach
+  - bucketized risk
+  - financial crisis
+  - structured finance
+  - portfolio risk control
+  - delta hedging
   - dv01
-  - risk_sensitivity
-  - portfolio_nav
-  - leverage_measurement
-  - risk_metrics
-  - portfolio_optimization
-  - hedge_ratios
-  - risk_exposure
-  - volatility_analysis
-  - option_greeks
-  - duration_matching
-  - curve_risk
-  - interest_rate_sensitivity
+  - risk sensitivity
+  - portfolio nav
+  - leverage measurement
+  - risk metrics
+  - portfolio optimization
+  - hedge ratios
+  - risk exposure
+  - volatility analysis
+  - option greeks
+  - duration matching
+  - curve risk
+  - interest rate sensitivity
 cssclasses: academia
 ---
 
@@ -40,11 +40,11 @@ January 20, 2009
 
 Leverage is treated as a measure of risk factor sensitivity. It can be computed using the "equivalent security" approach to determine "bucketized risk".
 
-## 1 Justification
+## 1. Justification
 
 The unfolding financial crisis has brought the issue of leverage into the limelight. "Overleveraging" is often blamed for the demise of structured finance yet the issue is often viewed from the traditional, purely accounting standpoint. This technical note expands the concept of leverage to derivative products and provides a tool for assessing its impact when the "traditional" approach does not work. The intended audience is non-technical practitioners interested in controlling portfolio risks associated with leverage.
 
-## 2 Accounting and Risk-Based Leverage
+## 2. Accounting and Risk-Based Leverage
 
 Accounting leverage can be defined as
 
@@ -61,12 +61,12 @@ Let us illustrate this with an example.
 In this example, a $10\%$ return on assets (ROA) ($\frac{50,000}{500,000} = 10\%$) results in a $100\%$ return on equity (ROE), and a $-10\%$ ROA ($\frac{-50,000}{500,000} = -10\%$) yields a $-100\%$ ROE. From (1),
 
 $$
-L(t_0) = \frac{\text{assets}(t_0)}{\text{equity}(t_0)} = \frac{\frac{P\&L(t_0, t_1)}{\text{equity}(t_0)}}{\frac{P\&L(t_0, t_1)}{\text{assets}(t_0)}} = \frac{\frac{\text{change in equity}(t_0, t_1)}{\text{equity}(t_0)}}{\frac{\text{change in assets}(t_0, t_1)}{\text{assets}(t_0)}} = \frac{ROE}{ROA} \tag{2}
+L(t_0) = \frac{\text{assets}(t_0)}{\text{equity}(t_0)} = \frac{\frac{\text{P\&L}(t_0, t_1)}{\text{equity}(t_0)}}{\frac{\text{P\&L}(t_0, t_1)}{\text{assets}(t_0)}} = \frac{\frac{\text{change in equity}(t_0, t_1)}{\text{equity}(t_0)}}{\frac{\text{change in assets}(t_0, t_1)}{\text{assets}(t_0)}} = \frac{ROE}{ROA} \tag{2}
 $$
 
 which gives us an alternative definition of leverage. Note here that this definition only makes sense under the going concern assumptions, i.e., in situations where the portfolio has sufficient equity to prevent liquidation. In fact, if your house value increases to $550,000 (and your debt doesn't change), your leverage falls to $\frac{550,000}{550,000 - 450,000} = 5.5$. If your house value decreases to $450,000 (or less) under the same assumptions, your leverage becomes infinite: $\frac{450,000}{450,000 - 450,000} = \infty$, and (2) becomes meaningless.
 
-**Example 2** (see [1]) Suppose you bought a 3-month European call option struck at $80 on a stock currently trading at $75. Here the underlying stock plays the role of an asset and the call itself plays the role of equity. Assuming (annualized) implied volatility of 20% and simple 3-month risk-free rate at 0.1%, the price of this call is $1.22 and its delta is $\Delta = 0.28^1$. Accounting leverage as defined by (1) is equal to 1, since you bought the option with your own money. Risk-based leverage defined by (2), however, is
+**Example 2** (see [1]) Suppose you bought a 3-month European call option struck at $80 on a stock currently trading at $75. Here the underlying stock plays the role of an asset and the call itself plays the role of equity. Assuming (annualized) implied volatility of 20% and simple 3-month risk-free rate at 0.1%, the price of this call is $1.22 and its delta is $\Delta = 0.28$. Accounting leverage as defined by (1) is equal to 1, since you bought the option with your own money. Risk-based leverage defined by (2), however, is
 
 $$
 L(t_0) = \frac{\frac{\text{change in equity}(t_0, t_1)}{\text{equity}}}{\frac{\text{change in assets}(t_0, t_1)}{\text{assets}}} = \Delta \frac{\text{assets}}{\text{equity}} = 0.28 \frac{75}{1.22} = 17 \tag{3}
@@ -81,7 +81,7 @@ Summarizing,
 - risk-based leverage yields the same result as accounting leverage for "traditional" assets;
 - risk-based leverage is a dynamic measure, i.e., it requires that asset and equity P&L be known, whereas accounting leverage is a static measure not requiring such knowledge.
 
-## 3 Application of Risk-Based Leverage to Portfolio Management
+## 3. Application of Risk-Based Leverage to Portfolio Management
 
 As follows from Section 2, risk-based leverage, and not accounting leverage, is an appropriate measure for a portfolio that includes derivative products (futures, swaps, options and other exotics). In this case, "equity" is the current portfolio net asset value (NAV). It is unclear, however, how "assets" can be defined in the case of a complex portfolio. A case can be made for the following algorithm:
 
@@ -138,7 +138,7 @@ Differentiating (A.1) - (A.4) with respect to $S$, we obtain $\frac{\partial c}{
 
 ## References
 
-[1] D. Goldman. Seeing is not believing: Fund of funds and hedge fund risk assessment and transparency, survival and leverage. Working paper, MeasuriskTM, 2003.
+[1] D. Goldman. Seeing is not believing: Fund of funds and hedge fund risk assessment and transparency, survival and leverage. Working paper, Measurisk™, 2003.
 
 [2] J. Hull. Options, Futures and Other Derivatives. Prentice Hall, 6th edition, 2006.
 
@@ -198,4 +198,3 @@ amplification: "Amplification Effect\nROE = L * ROA"
 roa -> amplification: "Amplified by L"
 leverage_ratio -> amplification: "Multiplier"
 amplification -> roe: "Resulting ROE"
-```

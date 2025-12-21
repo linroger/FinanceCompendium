@@ -5,17 +5,20 @@
 ```yaml
 ---
 title: [Descriptive Title Here]
-tags:
-  - [domain_tag]
-  - [concept_tag_1]
-  - [concept_tag_2]
-  - [concept_tag_3]
 parent_directory:
   - [Parent Folder]
-key_concepts:
-  - [Key Concept A]
-  - [Key Concept B]
-  - [Key Concept C]
+formatted: [YYYY-MM-DD HH:MM:SS AM/PM]
+formatter_model: [model-name]
+cli-tool: [tool-name]
+primary_tags:
+  - [core_concept_1]
+  - [core_concept_2]
+  - [core_concept_3]
+secondary_tags:
+  - [supporting_concept_1]
+  - [supporting_concept_2]
+  - [supporting_concept_3]
+  - [supporting_concept_4]
 cssclasses: academia
 ---
 ```
@@ -30,32 +33,41 @@ cssclasses: academia
   - Include topic/subject matter
   - For numbered documents: "Chapter 03 - Bond Valuation Methods"
 
-### tags
-- **Required:** Yes
-- **Format:** snake_case, lowercase
-- **Count:** 3-6 tags
-- **Rules:**
-  - Derived from content, not document structure
-  - General enough to apply to multiple documents
-  - Specific enough to be meaningful
-  - No instance-specific tags
-
 ### parent_directory
 - **Required:** Yes
 - **Format:** Name of folder containing document
 - **Rules:**
   - Identifies the immediate folder where the document is stored
 
+### formatted
+- **Required:** Yes
+- **Format:** `YYYY-MM-DD HH:MM:SS AM/PM`
+- **Rules:** Time when document formatting is complete
 
+### formatter_model
+- **Required:** Yes
+- **Rules:** The AI model used to format the document (e.g., `claude-3-5-sonnet-20241022`)
 
-### key_concepts
-- **Required:** Recommended
-- **Format:** Descriptive phrases
-- **Count:** 2-5 concepts
+### cli-tool
+- **Required:** Yes
+- **Rules:** The tool used (e.g., `claude-code`, `github-copilot`)
+
+### primary_tags
+- **Required:** Yes
+- **Format:** snake_case, lowercase (multi-word phrases preferred, 2-4 words)
+- **Count:** 1-10 tags (see distribution formula)
 - **Rules:**
-  - More descriptive than tags
-  - Can include specific applications
-  - Helps with understanding document scope
+  - The MOST important key phrases
+  - Core concepts, central themes, main methodologies
+  - Must appear in title or main heading
+
+### secondary_tags
+- **Required:** Yes
+- **Format:** snake_case, lowercase (multi-word phrases preferred, 2-4 words)
+- **Count:** Up to 25 tags (see distribution formula)
+- **Rules:**
+  - Supporting key phrases
+  - Related concepts, peripheral topics, additional context
 
 ### cssclasses
 - **Required:** Yes
@@ -68,17 +80,21 @@ cssclasses: academia
 ```yaml
 ---
 title: "Lecture 05 - Stochastic Processes and Ito's Lemma"
-tags:
+parent_directory:
+  - Financial Mathematics
+formatted: 2025-12-20 02:30:00 PM
+formatter_model: claude-3-5-sonnet-20241022
+cli-tool: claude-code
+primary_tags:
   - stochastic_calculus
   - brownian_motion
   - itos_lemma
+secondary_tags:
+  - geometric_brownian_motion
   - derivatives_pricing
-parent_directory:
-  - Financial Mathematics
-key_concepts:
-  - Geometric Brownian Motion
-  - Ito's Lemma derivation
-  - Application to option pricing
+  - martingale_property
+  - quadratic_variation
+  - stochastic_differential_equations
 cssclasses: academia
 ---
 ```
@@ -88,57 +104,22 @@ cssclasses: academia
 ```yaml
 ---
 title: "Chapter 12 - Term Structure of Interest Rates"
-tags:
+parent_directory:
+  - Fixed Income Securities
+formatted: 2025-12-20 03:15:00 PM
+formatter_model: gpt-4o
+cli-tool: github-copilot
+primary_tags:
   - fixed_income
   - term_structure
   - yield_curves
+secondary_tags:
   - forward_rates
-parent_directory:
-  - Fixed Income Securities
-key_concepts:
-  - Yield curve construction
-  - Forward rate derivation
-  - Term premia and expectations
-cssclasses: academia
----
-```
-
-### Case Study
-
-```yaml
----
-title: "Corporate Restructuring and Debt Workouts"
-tags:
-  - corporate_finance
-  - debt_restructuring
-  - distressed_investing
-  - bankruptcy
-parent_directory:
-  - Credit Markets
-key_concepts:
-  - Out-of-court workouts
-  - Chapter 11 process
-  - Creditor priority and recovery rates
-cssclasses: academia
----
-```
-
-### Problem Set Solutions
-
-```yaml
----
-title: "Problem Set 3 Solutions - Option Pricing"
-tags:
-  - derivatives
-  - option_pricing
-  - black_scholes
-  - binomial_model
-parent_directory:
-  - Financial Instruments
-key_concepts:
-  - Risk-neutral valuation
-  - Put-call parity applications
-  - Early exercise boundaries
+  - spot_rates
+  - expectations_hypothesis
+  - liquidity_preference_theory
+  - market_segmentation_theory
+  - bootstrapping_method
 cssclasses: academia
 ---
 ```

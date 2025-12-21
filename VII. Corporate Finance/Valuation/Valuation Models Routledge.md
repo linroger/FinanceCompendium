@@ -1,23 +1,15 @@
 ---
-title: Valuation Models - An Issue of Accounting Theory
-cssclasses: academia
-parent_directory: VII. Corporate Finance/Valuation
-key_concepts:
-  - valuation models
-  - accounting theory
-  - equity valuation
-  - discounted cash flow
-  - residual income model
+title: Valuation Models An Issue of Accounting Theory
 primary_tags:
   - valuation models
   - accounting theory
   - equity valuation
   - discounted cash flow
+secondary_tags:
   - residual income model
   - dividend discount model
   - abnormal earnings growth model
   - clean surplus accounting
-secondary_tags:
   - no arbitrage valuation
   - required return
   - finite horizon forecasting
@@ -32,6 +24,7 @@ secondary_tags:
   - market efficiency
   - gordon model
   - clean surplus equation
+cssclasses: academia
 ---
 
 # Valuation Models: An Issue of Accounting Theory
@@ -40,21 +33,21 @@ Stephen H. Penman
 
 Columbia Business School, Columbia University
 
-The last 20 years has seen a significant development in valuation models. Up to the 1990s, the premier model, in both text books and practice, was the discounted cash flow model. Now alternative models based on earnings and book values—the so-called residual earnings model and the abnormal earnings growth model, for example—have come to the fore in research and have made their way into the textbooks and into practice. At the same time, however, there has been a growing skepticism, particularly in practice, that valuation models don't work. This finds investment professionals reverting to simple schemes such as multiple pricing that are not really satisfactory. Part of the problem is a failure to understand what valuations models tell us. So this paper lays out the models and the features that differentiate them. This understanding also exposes the limitations of the models, so skepticism remains—indeed, it becomes more focused. So the paper identifies issues that have yet to be dealt with in research.
+The last 20 years have seen a significant development in valuation models. Up to the 1990s, the premier model, in both textbooks and practice, was the discounted cash flow model. Now alternative models based on earnings and book values—the so-called residual earnings model and the abnormal earnings growth model, for example—have come to the fore in research and have made their way into the textbooks and into practice. At the same time, however, there has been a growing skepticism, particularly in practice, that valuation models don't work. This finds investment professionals reverting to simple schemes such as multiple pricing that are not really satisfactory. Part of the problem is a failure to understand what valuation models tell us. So this paper lays out the models and the features that differentiate them. This understanding also exposes the limitations of the models, so skepticism remains—indeed, it becomes more focused. So the paper identifies issues that have yet to be dealt with in research.
 
 The skepticism about valuation models is not new. Benjamin Graham, considered the father of value investing, appeared to be of the same view:
 
 The concept of future prospects and particularly of continued growth in the future invites the application of formulas out of higher mathematics to establish the present value of the favored issue. But the combination of precise formulas with highly imprecise assumptions can be used to establish, or rather justify, practically any value one wishes, however high, for a really outstanding issue.
 
-— Benjamin Graham, The Intelligent Investor,  $4^{\text{th}}$  rev. ed., 315-316.
+— Benjamin Graham, The Intelligent Investor,  $4^{\\text{th}}$  rev. ed., 315-316.
 
-One might hesitate is calling a valuation model a "formula out of higher mathematics", but Graham's point is that models can be used to accommodate any assumption about the future. This is behind current skepticism: valuations are very sensitive to assumptions about the cost of capital and growth rates (the "continued growth" that Graham highlights). Valuation is about reducing uncertainty about what to pay for an investment but, given the uncertainty about these and other inputs, how certain can we be?
+One might hesitate in calling a valuation model a "formula out of higher mathematics", but Graham's point is that models can be used to accommodate any assumption about the future. This is behind current skepticism: valuations are very sensitive to assumptions about the cost of capital and growth rates (the "continued growth" that Graham highlights). Valuation is about reducing uncertainty about what to pay for an investment but, given the uncertainty about these and other inputs, how certain can we be?
 
 This paper lays out alternative valuation models and evaluates their features. Three themes underlie the discussion. First, we require that the models be consistent with the theory of finance. Second, valuation involves accounting, so accounting theory as well as finance theory comes into play. Third, valuation models are a tool for practical valuation, so the respective models are judged on how they perform or do not perform (as a practical matter), with the emphasis is on caveat emptor.
 
 # 1. Valuation Models
 
-All valuation models start with the idea that the value of an investment is based on the cash flows it is expected to deliver. This idea is noncontroversial in economics because it ties back to the premise that individuals are concerned with consumption and cash buys consumption. An investment is current consumption deferred to buy future consumption, and it is future cash that buys that consumption. So the value of an investment is the present value of the cash that it is expected to deliver. Cash given up to buy the investment has a time value, so expected future cash must be discounted for the time value of money. Further, it there is a risk of not receiving the expected cash, the expectation must be discounted for that risk. Accordingly, value is the present value of (discounted) expected cash flows.
+All valuation models start with the idea that the value of an investment is based on the cash flows it is expected to deliver. This idea is noncontroversial in economics because it ties back to the premise that individuals are concerned with consumption and cash buys consumption. An investment is current consumption deferred to buy future consumption, and it is future cash that buys that consumption. So the value of an investment is the present value of the cash that it is expected to deliver. Cash given up to buy the investment has a time value, so expected future cash must be discounted for the time value of money. Further, if there is a risk of not receiving the expected cash, the expectation must be discounted for that risk. Accordingly, value is the present value of (discounted) expected cash flows.
 
 ```d2
 # Valuation Models Overview
@@ -117,7 +110,7 @@ ddm_components: "Dividend Discount Model Components" {
 }
 ```
 
-where  $\rho$  is one plus the discount rate (also known as the required return or the cost of capital). Here and elsewhere in the paper, amounts for  $t > 0$  are expected values. Equities (and the businesses behind them) are considered to be going concerns, and thus the infinite summation in the expression. While this is a valuation model, it is also a statement of no-arbitrage: for a given expectation of future dividends, value is the amount paid for an investment that yields the required return.
+where $\\rho$ is one plus the discount rate (also known as the required return or the cost of capital). Here and elsewhere in the paper, amounts for $t > 0$ are expected values. Equities (and the businesses behind them) are considered to be going concerns, and thus the infinite summation in the expression. While this is a valuation model, it is also a statement of no-arbitrage: for a given expectation of future dividends, value is the amount paid for an investment that yields the required return.
 
 In the theory of finance, value must be a no-arbitrage value (otherwise another value is implied). As a practical matter, the (active) investor wishes to discover the no-arbitrage value to compare that value with price, and so discover an "inefficient" price (that is subject to arbitrage). The constant discount rate in the model is thus suspect for, with stochastic discount rates, this model is inconsistent with no-arbitrage. This issue is dealt with by discounting for risk in the numerator, then discounting for the time value of money in the denominator, as in Rubinstein (1976). Formally, given no-arbitrage,
 
@@ -125,7 +118,7 @@ $$
 Value_{0} = \sum_{t=1}^{\infty} \frac{d_{t} - Cov\left(d_{t}, Y_{t}\right)}{R_{Ft}^{t}} \tag{1a}
 $$
 
-where  $R_{Ft}$  is the term structure of (one plus) the spot riskless interest rates for all t,  $Y_{t}$  is a random variable common to all assets, and the covariance term that discounts for risk is the covariance of dividends with this random variable. All valuation models below can accommodate this modification. However, the  $Y_{t}$  variable is unidentified—it is a mathematical construct whose existence is implied by the no-arbitrage assumption but with no economic content (without further restrictions)—so the model is difficult to apply in practice. Accordingly, we maintain the constant discount rate assumption with the model (1) that is so familiar in texts and in practice. In should be recognized, however, that working with a constant discount rate is inconsistent with no-arbitrage valuation (though, as we will see, this is not at the top of the investor's problem with valuation models). Christensen and Feltham (2009) lay out models along the lines of the more general model (1a) and Nekrasov and Shroff (2009) and Bach and Christensen (2013) attempt to bring empirical content to them.
+where $R_{Ft}$ is the term structure of (one plus) the spot riskless interest rates for all t, $Y_{t}$ is a random variable common to all assets, and the covariance term that discounts for risk is the covariance of dividends with this random variable. All valuation models below can accommodate this modification. However, the $Y_{t}$ variable is unidentified—it is a mathematical construct whose existence is implied by the no-arbitrage assumption but with no economic content (without further restrictions)—so the model is difficult to apply in practice. Accordingly, we maintain the constant discount rate assumption with the model (1) that is so familiar in texts and in practice. It should be recognized, however, that working with a constant discount rate is inconsistent with no-arbitrage valuation (though, as we will see, this is not at the top of the investor's problem with valuation models). Christensen and Feltham (2009) lay out models along the lines of the more general model (1a) and Nekrasov and Shroff (2009) and Bach and Christensen (2013) attempt to bring empirical content to them.
 
 While model (1) with its generalization in (1a) is theoretically correct under the no-arbitrage assumption underlying the theory of modern finance, it runs into a practical problem that ties back to another foundational proposition in the theory. The practical problem arises from the infinite summation in the model: the investor has to forecast dividends "to infinity" and this is not practical. He or she requires a model where forecasting for a finite period gives a reasonable handle on the value, the shorter the better. For a company that does not pay dividends, this problem is acute. The theoretical problem is the Miller and Modigliani (1958) dividend irrelevance proposition, also based on no-arbitrage (and some additional assumptions). This says that, even if a firm pays dividends, dividend payout up to the liquidating dividend is irrelevant to value—and going concerns are not expected to liquidate. To see this, restate the DDM for a finite-horizon forecast to year  $T$ ,
 
@@ -136,7 +129,7 @@ Value_{0} = \sum_{t=1}^{T} \frac{d_{t}}{\rho^{t}} + \frac{P_{T}}{\rho^{T}}. \\
 \end{array}
 $$
 
-Here the terminal cash flow is the expected price at which the investment will be sold at T. The valuation merely states the no-arbitrage condition for prices between two points of time and so serves to demonstrate the M&M principle with no-arbitrage. Dividends reduce value, dollar-for-dollar (at least where there are no frictions like taxes), otherwise there would be arbitrage opportunities. Accordingly, any dividend paid up to point  $T$  reduces  $P_T$  by the same present-value amount: dividend payout is a zero-net-present-value activity. Frictions may modify this statement, but they are presumed to be of second order, best dealt with in valuation by understanding the cost of the frictions—liquidity discounts and control premiums, for example—rather than designing a valuation model with frictions as the main driver.
+Here the terminal cash flow is the expected price at which the investment will be sold at T. The valuation merely states the no-arbitrage condition for prices between two points of time and so serves to demonstrate the M&M principle with no-arbitrage. Dividends reduce value, dollar-for-dollar (at least where there are no frictions like taxes), otherwise there would be arbitrage opportunities. Accordingly, any dividend paid up to point $T$ reduces $P_T$ by the same present-value amount: dividend payout is a zero-net-present-value activity. Frictions may modify this statement, but they are presumed to be of second order, best dealt with in valuation by understanding the cost of the frictions—liquidity discounts and control premiums, for example—rather than designing a valuation model with frictions as the main driver.
 
 The DDM presents a conundrum: value is based on expected dividends, but forecasting dividends is irrelevant to valuation. This conundrum must be resolved. The resolution must design a practical approach to valuation while still honoring the theory of modern finance.
 
@@ -177,23 +170,23 @@ model_relationship: "DDM vs DCF Relationship" {
 }
 ```
 
-That is, the net cash from the firm, free cash flow  $(FCF_{t})$ , is applied as cash payout to shareholders,  $d_{t}$ , or to net debt holders,  $F_{t}$ . This is an accounting identity; as a practical matter, the accountant's bank reconciliation will not reconcile without uses of cash equal to sources. Substituting for  $d_{t} = FCF_{t} - F_{t}$  in eq. (1) for all t, the DDM is restated as
+That is, the net cash from the firm, free cash flow $(FCF_{t})$, is applied as cash payout to shareholders, $d_{t}$, or to net debt holders, $F_{t}$. This is an accounting identity; as a practical matter, the accountant's bank reconciliation will not reconcile without uses of cash equal to sources. Substituting for $d_{t} = FCF_{t} - F_{t}$ in eq. (1) for all t, the DDM is restated as
 
 $$
 Value_{0} = \sum_{t=1}^{\infty} \frac{FCF_{t}}{\rho_{f}^{t}} - V_{0}^{ND} \tag{DCF}
 $$
 
-where  $V_0^{ND}$ , the value of the net debt, is the present value of expected cash flows to debt,  $F_t$ . The required return,  $\rho_f$ , now pertains to "the firm" (or "the enterprise") rather than the equity and reconciles to the required return for equity,  $\rho$ , via the Modigliani and Miller (1961) weighted-average cost of capital formula implied by no-arbitrage. The valuation also involves infinite-horizon forecasting, so the (practical) finite-horizon version of the model is implemented in practice:
+where $V_0^{ND}$, the value of the net debt, is the present value of expected cash flows to debt, $F_t$. The required return, $\rho_f$, now pertains to "the firm" (or "the enterprise") rather than the equity and reconciles to the required return for equity, $\rho$, via the Modigliani and Miller (1961) weighted-average cost of capital formula implied by no-arbitrage. The valuation also involves infinite-horizon forecasting, so the (practical) finite-horizon version of the model is implemented in practice:
 
 $$
 Value_{0} = \sum_{t=1}^{T} \frac{FCF_{t}}{\rho_{f}^{t}} + \frac{FCF_{T+1}}{\rho_{f}^{T} \left(\rho_{f} - g_{FCF}\right)} - V_{0}^{ND} \tag{2a}
 $$
 
-where  $g_{FCF}$  is (one plus) the expected growth rate for free cash flow after period  $T + 1$  (and  $g_{FCF} < \rho_f$ ).
+where $g_{FCF}$ is (one plus) the expected growth rate for free cash flow after period $T + 1$ (and $g_{FCF} < \rho_f$).
 
 Is this model an improvement over the DDM? If the firm has no net debt,  $FCF_{t} = d_{t}$ , so the model forecasts the same dividends as the DDM (with its inherent problems). So nothing is being put on the table: pure substitution is not theory. If the firm has net debt, then  $FCF_{t} = d_{t} + F_{t}$  but, under the Modigliani and Miller (1961) debt irrelevance principle, trading in financing debt is a zero-net-present-value activity. One can conjecture cases where issuing and redeeming debt adds value but, again, building a valuation model around such conjectures misses a central point: value comes primarily from investing in businesses.
 
-If  $d_{t} + F_{t}$  is not a valuation metric, neither in free cash flow, for  $FCF_{t} = d_{t} + F_{t}$ . This is best demonstrated by with an example:
+If $d_{t} + F_{t}$ is not a valuation metric, neither is free cash flow, for $FCF_{t} = d_{t} + F_{t}$. This is best demonstrated with an example:
 
 **Starbucks Corporation (in thousands of dollars)**
 
@@ -216,13 +209,13 @@ $$
 Earnings_{t} = FCF_{t} - i_{t} + Investment_{t} + Additional\ accruals_{t},
 $$
 
-where  $i_{t}$  is accrued net interest expense. So the investment that was so troubling in the Starbucks' example is added back to free cash flow, along with added accruals for non-cash flows (sales on credit, accrued expenses, pension liabilities, depreciation, and the like). Corresponding, the investment and additional accruals are added to the balance sheet as net operating assets, NOA:
+where $i_{t}$ is accrued net interest expense. So the investment that was so troubling in the Starbucks' example is added back to free cash flow, along with added accruals for non-cash flows (sales on credit, accrued expenses, pension liabilities, depreciation, and the like). Correspondingly, the investment and additional accruals are added to the balance sheet as net operating assets, NOA:
 
 $$
 Change\ In\ OA_{t} = Investment_{t} + Additional\ accruals_{t}
 $$
 
-The balance sheet is thus comprised of net operating assets involved in the business and net debt involved in the financing of the business, with the difference, the book value of equity,  $B$ , governed by the balance sheet equation:
+The balance sheet is thus comprised of net operating assets involved in the business and net debt involved in the financing of the business, with the difference, the book value of equity, $B$, governed by the balance sheet equation:
 
 $$
 B_{t} = NOA_{t} - ND_{t}.
@@ -256,7 +249,7 @@ $$
 B_{t} = B_{t-1} + Earnings_{t} - d_{t}
 $$
 
-where  $Earnings_{t}$  is comprehensive ("clean-surplus") earnings and  $d_{t}$  is the net dividend to equity holders. Substituting  $d_{t} = Earnings_{t} - (B_{t} - B_{t-1})$  for dividends in model (1) and iterating over future periods,
+where $Earnings_{t}$ is comprehensive ("clean-surplus") earnings and $d_{t}$ is the net dividend to equity holders. Substituting $d_{t} = Earnings_{t} - (B_{t} - B_{t-1})$ for dividends in model (1) and iterating over future periods,
 
 $$
 V_{0}^{T} \equiv B_{0} + \sum_{t=1}^{T} \frac{RE_{t}}{\rho^{t}} \tag{RIM}
@@ -290,9 +283,7 @@ $$
 \rightarrow Value_{0} \text{ in model (1) as } T \rightarrow \infty, \text{ provided that } \frac{B_{T}}{\rho^{T}} \rightarrow 0 \text{ as } T \rightarrow \infty.
 $$
 
-Accordingly this model is equivalent to the DDM for infinite forecasting horizons.  $RE_{t} \equiv$
-
-$Earnings_{t} - (\rho - 1)B_{t-1}$  is residual earnings or residual income and so this the model is known as the residual income model (RIM).<sup>2</sup>
+Accordingly this model is equivalent to the DDM for infinite forecasting horizons. $RE_{t} \equiv Earnings_{t} - (\rho - 1)B_{t-1}$ is residual earnings or residual income and so this model is known as the residual income model (RIM).<sup>2</sup>
 
 Equivalently, by iterating out earnings, book values, and dividends from the future stream of forecasted residual earnings,
 
@@ -372,30 +363,28 @@ This is the so-called AEG model or the Ohlson-Juettner model from Ohlson and Jue
 The first point is demonstrated by a derivation of both models that is more general than that for RIM, as in Ohlson and Juettner-Nauroth (2005). An algebraic zero-sum equality
 
 $$
-0 = y _ {0} + \sum_ {t = 1} ^ {\infty} \frac {1}{\rho^ {t}} \left(y _ {t} - \rho y _ {t - 1}\right)
+0 = y_{0} + \sum_{t = 1}^{\infty} \frac{1}{\rho^{t}} \left(y_{t} - \rho y_{t - 1}\right)
 $$
 
-holds provided the transversality condition,  $\lim_{t\to \infty}\rho^{-t}y_t = 0$ . Adding this series to DDM in equation (1),
+holds provided the transversality condition, $\lim_{t\to \infty}\rho^{-t}y_t = 0$. Adding this series to DDM in equation (1),
 
 $$
 Value_{0} = y_{0} + \sum_{t = 1}^{\infty} \frac{1}{\rho^{t}} (y_{t} + d_{t} - \rho y_{t - 1})
 $$
 
-A valuation model then becomes an issue of specifying the  $y$ -variable. Setting  $y_0 = B_0$  and assuming clean-surplus accounting, we have the RIM. Setting  $y_0 = \frac{Earnings_1}{\rho - 1}$ , we have the AEG model, but without the assumption of clean-surplus accounting (and without book value). See Ohlson and Gao (2006). Penman (2005) evaluates the AEG model against the RIM.
+A valuation model then becomes an issue of specifying the $y$-variable. Setting $y_0 = B_0$ and assuming clean-surplus accounting, we have the RIM. Setting $y_0 = \frac{Earnings_1}{\rho - 1}$, we have the AEG model, but without the assumption of clean-surplus accounting (and without book value). See Ohlson and Gao (2006). Penman (2005) evaluates the AEG model against the RIM.
 
-As the AEG model does not require clean surplus accounting, it is more general. That is probably of little consequence in practice. However the second difference mentioned is. For
-
-finite horizon forecasting, the AEG model with a constant growth rate (for just two forward periods here) is:
+As the AEG model does not require clean surplus accounting, it is more general. That is probably of little consequence in practice. However the second difference mentioned is. For finite horizon forecasting, the AEG model with a constant growth rate (for just two forward periods here) is:
 
 $$
 \begin{array}{l} Value_{0} = \frac{\text{Earnings}_{1}}{\rho - 1} + \frac{1}{\rho - 1}. \frac{\text{AEG}_{2}}{\rho - \mathrm{g}_{\text{AEG}}} (4a) \\ = \frac{\text{Earnings}_{1}}{\rho - 1} \left[ \frac{g_{2} - \left(g_{AEG} - 1\right)}{(\rho - 1) - \left(g_{AEG} - 1\right)} \right] (4b) \\ \end{array}
 $$
 
-where  $g_{AEG} < \rho$  and  $g_2 \equiv (\Delta Earnings_2 + (\rho - 1)d_1) / Earnings_1$ , that is, the expected growth rate in cum-dividend earnings two years ahead. While  $AEG_t = \Delta RE_t$ , given clean-surplus accounting, it is not the case that  $g_{AEG} = g_{RE}$ . This follows simply from the mathematical statement that, if the level of a variable grows as the rate,  $g$ , so do its changes, but the converse is not true. So valuations (3a) and (4a) (for the same forecast horizon) are not equivalent. Indeed, a constant growth rate for  $AEG$  implies a declining rate for  $RE$ . One might suggest that a declining rate is more likely, but that is an empirical matter. The  $g_{AEG}$  rate in the model equals the long run (asymptotic) growth rate in expected earnings, provided dividend payout meets a minimum. This long-run rate is likely to be the same for all firms (the average GDP growth rate?), but that means than  $g_{AEG}$  (the rate at which AEG is expected to grow) is the same for all firms in the cross section. Value is then driven solely by forward earnings, growth in the second period,  $g_2$ , and the discount rate. While that might be doubtful for a two-period horizon (and in model (4a)), the model presumably calibrates better with longer forecast horizons.
+where $g_{AEG} < \rho$ and $g_2 \equiv (\Delta Earnings_2 + (\rho - 1)d_1) / Earnings_1$, that is, the expected growth rate in cum-dividend earnings two years ahead. While $AEG_t = \Delta RE_t$, given clean-surplus accounting, it is not the case that $g_{AEG} = g_{RE}$. This follows simply from the mathematical statement that, if the level of a variable grows as the rate, $g$, so do its changes, but the converse is not true. So valuations (3a) and (4a) (for the same forecast horizon) are not equivalent. Indeed, a constant growth rate for $AEG$ implies a declining rate for $RE$. One might suggest that a declining rate is more likely, but that is an empirical matter. The $g_{AEG}$ rate in the model equals the long run (asymptotic) growth rate in expected earnings, provided dividend payout meets a minimum. This long-run rate is likely to be the same for all firms (the average GDP growth rate?), but that means that $g_{AEG}$ (the rate at which AEG is expected to grow) is the same for all firms in the cross section. Value is then driven solely by forward earnings, growth in the second period, $g_2$, and the discount rate. While that might be doubtful for a two-period horizon (and in model (4a)), the model presumably calibrates better with longer forecast horizons.
 
 # 1.4 Empirical Evidence
 
-Empirical research compares valuation models in three ways. First, a set of papers compares the models on their ability to explain current prices. Second, a number of papers ask whether the models work to determine “value” which is can then compared to traded prices to identify mispriced securities. Third, papers apply the models in reverse engineering fashion to estimate the “implied cost of capital”. This paper does not cover the latter; the literature is long and rather inconclusive, in part because there is no objective benchmark to for the “true” observable cost of capital. And, disappointingly, these papers have had difficulty in showing that their estimates of the cost of capital actually predict average stock returns, though Nekrasov and Ogneva (2011)
+Empirical research compares valuation models in three ways. First, a set of papers compares the models on their ability to explain current prices. Second, a number of papers ask whether the models work to determine “value” which can then be compared to traded prices to identify mispriced securities. Third, papers apply the models in reverse engineering fashion to estimate the “implied cost of capital”. This paper does not cover the latter; the literature is long and rather inconclusive, in part because there is no objective benchmark for the “true” observable cost of capital. And, disappointingly, these papers have had difficulty in showing that their estimates of the cost of capital actually predict average stock returns, though Nekrasov and Ogneva (2011)
 
 and Fitzgerald, Gray, Hall, and Jeyaraj (2013) are recent exceptions. For a survey, see Easton (2009).
 
@@ -403,13 +392,13 @@ Penman and Sougiannis (1997) examined whether valuations based on accrual accoun
 
 Two papers have compared the RIM with the AEG model. In his comments of the AEG model Penman (2005) documents that RIM values approximate traded prices better than AEG. In a more extensive analysis, Jorgenson, Lee, and Yoo (2011) demonstrate the same.
 
-These papers take traded prices as a benchmark with the assumption that prices express value. This "efficient market" assumption is common in much empirical research in accounting and finance, but a second set of papers takes the alternative view: Do valuation models yield values that identify mispricing? Using analysts' consensus earnings forecasts as inputs along with assumptions on the continuing value, Frankel and Lee (1998) show that, while the RIM model values track prices, it also predicts future stock returns in the cross-section, an indicating of mispricing. Lee, Myers, and Swaminathan (1999) conduct a similar analysis for the portfolio of Dow stocks and finds that value relative to the price of the Dow index (V/P) leads the price in
+These papers take traded prices as a benchmark with the assumption that prices express value. This "efficient market" assumption is common in much empirical research in accounting and finance, but a second set of papers takes the alternative view: Do valuation models yield values that identify mispricing? Using analysts' consensus earnings forecasts as inputs along with assumptions on the continuing value, Frankel and Lee (1998) show that, while the RIM model values track prices, it also predicts future stock returns in the cross-section, an indication of mispricing. Lee, Myers, and Swaminathan (1999) conduct a similar analysis for the portfolio of Dow stocks and finds that value relative to the price of the Dow index (V/P) leads the price in
 
 a way that is consistent with V/P identifying mispricing. As in all empirical studies that forecast stock returns, the conclusions of these studies must be qualified because the predicted returns may be due to differences in risk. Ali, Hwang, and Trombley (2003) investigate whether returns predicted by RIM are explained by risk or mispricing.
 
 # 2. Accounting and Valuation
 
-The legitimacy of valuation models rests on their equivalence to the DDM. However, that equivalence holds only for infinite forecast horizons and then via a substitution that simply involves a mathematical relation. With the DCF model, the relation is the cash conservation equation, for RIM the clean surplus equation, and the AEG model from a mathematical equivalence that identifies a  $y$  variable that is then simply nominated as capitalized forward earnings, by fiat. This is hardly satisfactory as a matter of theory, for substitution without additional structure puts little on the table. As the equivalence to DDM necessarily holds only for infinite horizons and practical valuation must involve finite horizons, the theorist can well ask how far we have come. The point is driven home by recognizing that RIM works for random numbers for earnings, provided one forecasts "to infinity." This is because the clean-surplus relation forces a reconciliation to dividends, but only necessarily so with the final payout: book value must go to zero as the final dividend is paid in liquidation.
+The legitimacy of valuation models rests on their equivalence to the DDM. However, that equivalence holds only for infinite forecast horizons and then via a substitution that simply involves a mathematical relation. With the DCF model, the relation is the cash conservation equation, for RIM the clean surplus equation, and the AEG model from a mathematical equivalence that identifies a $y$ variable that is then simply nominated as capitalized forward earnings, by fiat. This is hardly satisfactory as a matter of theory, for substitution without additional structure puts little on the table. As the equivalence to DDM necessarily holds only for infinite horizons and practical valuation must involve finite horizons, the theorist can well ask how far we have come. The point is driven home by recognizing that RIM works for random numbers for earnings, provided one forecasts "to infinity." This is because the clean-surplus relation forces a reconciliation to dividends, but only necessarily so with the final payout: book value must go to zero as the final dividend is paid in liquidation.
 
 Indeed, without further structure, accrual accounting models exhibit a value-irrelevance property with respect to the accounting. This is demonstrated with the finite-horizon RIM in equations 3(a) and 3(b):
 
@@ -417,23 +406,23 @@ $$
 V_{0}^{T} = \frac{1}{\rho^{T}} \left[ \sum_{t = 1}^{T} \rho^{T - t} d_{t} + B_{T} \right] = \frac{1}{\rho^{T}} \left[ B_{0} + \sum_{t = 1}^{T} Earnings_{t}^{C} \right]
 $$
 
-Accrual accounting is a matter of allocating earnings to periods under the constraint that total, life-long earnings equal total cash flows. The allocation to earnings expected before  $T$  can be anything and the asymptotic property still holds: an infinite horizon is needed to correct the "errors" in the accounting. That allocation determines the expected book value at  $T$  and that, in turn, determines the error for the horizon  $T$ ,  $P_T - B_T$  in equation (3c). At one extreme, the allocation could be zero earnings recognized before  $T$ . At the other extreme, all expected earnings could be recognized immediately such that  $T = 0$  and  $Value_0 = B_0\$ . Though RIM model
+Accrual accounting is a matter of allocating earnings to periods under the constraint that total, life-long earnings equal total cash flows. The allocation to earnings expected before $T$ can be anything and the asymptotic property still holds: an infinite horizon is needed to correct the "errors" in the accounting. That allocation determines the expected book value at $T$ and that, in turn, determines the error for the horizon $T$, $P_T - B_T$ in equation (3c). At one extreme, the allocation could be zero earnings recognized before $T$. At the other extreme, all expected earnings could be recognized immediately such that $T = 0$ and $Value_0 = B_0$. Though RIM model
 
 handles the problem of the DDM being insensitive to dividends, it replaces it with the problem of the valuation being insensitive to the accounting. Added structure that specifies the accounting that goes into the model is required for accrual accounting models to have an advantage over the DDM for finite (practical) finite horizons.
 
-The point is further illustrated by recognizing that the difference between the DCF model and RIM is simply an issue of the accounting involved: DCF valuation uses cash accounting and thus forecasts what will come through the cash flow statement whereas RIM uses accrual accounting and thus forecasts future income statements and balance sheets. Indeed, the DCF model is just a special case of RIM, a case that uses a particular accounting, cash accounting. This can be shown by separating the balance sheet and income statement into operating and financing activities, as in Feltham and Ohlson (1995). So,  $B_{t} \equiv NOA_{t} - ND_{t}$  (for all t), where  $ND$  is net debt and  $NOA$  is net operating assets in the business (as earlier). Set,  $B_{t} \equiv -ND_{t}$  (that is, omit any accounting for business operations). The cash conservation equation implies a the clean-surplus relation such that  $ND_{t} = ND_{t-1} - (FCF_{t} - i_{t}) + d_{t}$ , where  $i_{t}$  is net cash interest paid on the debt. Here  $FCF_{t} - i_{t}$  is earnings ("cash flow earnings"). Substituting for dividends in the DDM via the clean surplus equation,
+The point is further illustrated by recognizing that the difference between the DCF model and RIM is simply an issue of the accounting involved: DCF valuation uses cash accounting and thus forecasts what will come through the cash flow statement whereas RIM uses accrual accounting and thus forecasts future income statements and balance sheets. Indeed, the DCF model is just a special case of RIM, a case that uses a particular accounting, cash accounting. This can be shown by separating the balance sheet and income statement into operating and financing activities, as in Feltham and Ohlson (1995). So, $B_{t} \equiv NOA_{t} - ND_{t}$ (for all t), where $ND$ is net debt and $NOA$ is net operating assets in the business (as earlier). Set $B_{t} \equiv -ND_{t}$ (that is, omit any accounting for business operations). The cash conservation equation implies the clean-surplus relation such that $ND_{t} = ND_{t-1} - (FCF_{t} - i_{t}) + d_{t}$, where $i_{t}$ is net cash interest paid on the debt. Here $FCF_{t} - i_{t}$ is earnings ("cash flow earnings"). Substituting for dividends in the DDM via the clean surplus equation,
 
 $$
 V_{0}^{T}(DCF) = -ND_{0} + \sum_{t = 1}^{T} \frac{1}{\rho^{t}} (FCF_{t} - i_{t} + (\rho - 1)ND_{t - 1})
 $$
 
-If net debt is measured at its present value by accruing interest such that  $i_{t} = (\rho_{D} - 1)ND_{t - 1}$  (for all  $t$ , with  $\rho_{D}$  the required return for net debt), then
+If net debt is measured at its present value by accruing interest such that $i_{t} = (\rho_{D} - 1)ND_{t - 1}$ (for all $t$, with $\rho_{D}$ the required return for net debt), then
 
 $$
 V_{0}^{T}(DCF) = \sum_{t = 1}^{T} \frac{FCF_{t}}{\rho_{f}^{t}} - V_{0}^{ND},
 $$
 
-which is the DCF model (2) for a forecast horizon of  $T$ . So, the DCF model is a residual income model with cash accounting for operations and accrual accounting for net debt. Lücke (1955) provides a similar demonstration. Note, from equation (3c), that the error for the DCF model for a finite horizon is  $\frac{1}{\rho^T} (P_T - B_T)$ , but  $B_{T} = -ND_{T}$  is this case, so, the error is quite large (equal to or greater than  $P_T$ ). This might point to the superiority of accrual accounting (which typically
+which is the DCF model (2) for a forecast horizon of  $T$ . So, the DCF model is a residual income model with cash accounting for operations and accrual accounting for net debt. Lücke (1955) provides a similar demonstration. Note, from equation (3c), that the error for the DCF model for a finite horizon is $\frac{1}{\rho^T} (P_T - B_T)$, but $B_{T} = -ND_{T}$ in this case, so the error is quite large (equal to or greater than $P_T$). This might point to the superiority of accrual accounting (which typically
 
 reports positive book values), but there is no necessity that accrual accounting works well without further specification on the type of accrual accounting.
 
@@ -468,9 +457,7 @@ However, while there has been little normative work, there has been some modelin
 
 The clean-surplus operation. In the derivation of the RIM, there is one aspect of the accounting that does bite. The clean-surplus relation is not an identity but rather a prescriptive accounting procedure: accounting starts with book value, calculates earnings, closes the earnings to book value (in the "closing entry"), and then pays dividends out of book value. Unlike the cash conservation equation for the derivation of the DCF model, this procedure does not have to be so: it is part of the design of an accounting system, an accounting principle. Indeed, it is violated with the practice of recognizing "other comprehensive income" in equity rather than in earnings per share under GAAP and IFRS.
 
-It is this principle that we have seen renders a valuation model that is consistent with a fundamental principle in the theory of finance, dividend irrelevance; the clean surplus accounting principle impinges directly on the use of accounting numbers for valuation. So, valuation theory suggests a normative accounting principle: accounting should be clean surplus, at least in expectation. From the point of view of valuing the common (ordinary) shareholders' claim, that rules out preferred dividends going through equity rather than earnings, for example. It also says that GAAP and IFRS fail in not recognizing the loss on the conversion of contingent claims (such as convertible bonds and preferred stock and employee stock options) to equity. From a
-
-practical point of view, it says that an investor using GAAP and IFRS earnings is in danger of overvaluing the equity.<sup>7</sup>
+It is this principle that we have seen renders a valuation model that is consistent with a fundamental principle in the theory of finance, dividend irrelevance; the clean surplus accounting principle impinges directly on the use of accounting numbers for valuation. So, valuation theory suggests a normative accounting principle: accounting should be clean surplus, at least in expectation. From the point of view of valuing the common (ordinary) shareholders' claim, that rules out preferred dividends going through equity rather than earnings, for example. It also says that GAAP and IFRS fail in not recognizing the loss on the conversion of contingent claims (such as convertible bonds and preferred stock and employee stock options) to equity. From a practical point of view, it says that an investor using GAAP and IFRS earnings is in danger of overvaluing the equity.<sup>7</sup>
 
 The cancelling error property. Given clean-surplus accounting, one can substitute  $d_{t} = Earnings_{t} - (B_{t} - B_{t-1})$  for dividends in the stock return,  $P_{t} + d_{t} - P_{t-1}$ , such that
 
@@ -480,15 +467,15 @@ $$
 
 That is, the expected stock return is equal to expected earnings plus the expected change in premium of price over book value. In the case of no expected change in premium, earnings equal the stock return. This expression, found in Easton, Harris and Ohlson (1992), has two implications for valuation.
 
-First, as it is not necessary to have a "correct" balance sheet to infer expected returns, and thus value, if the expected error in the balance sheet is a constant. In this case value is expected earnings capitalized with the required return, and accounting in the balance sheet is irrelevant. Omitted assets, for example, are not a problem if they result in a constant premium, a point made in Penman (2009) is evaluating the accounting for intangible assets. In short, valuation tolerates error in the balance sheet up to a constant. Second, finite-horizon valuation is completed (without error) for a forecast horizon,  $T$ , if  $P_{T+1} - B_{T+1} - (P_t - B_t) = 0$ . In this case,  $P_T = \frac{Earnings_{T+1}}{\rho - 1}$  so the terminal value for the DDM in equation (1b) is supplied by the accounting, as is the valuation error for RIM,  $\frac{1}{\rho^T} (P_T - B_T)$ , in equation (3c). For the AEG model, valuation reduces to capitalized forward earnings, the first term in equation (4) if the expected change in premium in the forward year is zero. More generally, finite-horizon valuation is completed (without error) for any horizon,  $T$ , where the condition is satisfied. For the AEG model it is easy to see that expect AEG = 0 for periods after  $T$  is this case.
+First, as it is not necessary to have a "correct" balance sheet to infer expected returns, and thus value, if the expected error in the balance sheet is a constant. In this case value is expected earnings capitalized with the required return, and accounting in the balance sheet is irrelevant. Omitted assets, for example, are not a problem if they result in a constant premium, a point made in Penman (2009) in evaluating the accounting for intangible assets. In short, valuation tolerates error in the balance sheet up to a constant. Second, finite-horizon valuation is completed (without error) for a forecast horizon, $T$, if $P_{T+1} - B_{T+1} - (P_t - B_t) = 0$. In this case, $P_T = \frac{Earnings_{T+1}}{\rho - 1}$ so the terminal value for the DDM in equation (1b) is supplied by the accounting, as is the valuation error for RIM, $\frac{1}{\rho^T} (P_T - B_T)$, in equation (3c). For the AEG model, valuation reduces to capitalized forward earnings, the first term in equation (4) if the expected change in premium in the forward year is zero. More generally, finite-horizon valuation is completed (without error) for any horizon, $T$, where the condition is satisfied. For the AEG model it is easy to see that expected AEG = 0 for periods after $T$ in this case.
 
 The case of no change in premium has a close resemblance to the canceling error property in accounting theory: earnings are unaffected by the accounting in the balance sheet provided the errors in the opening and closing balances cancel. R&D accounting provides an
 
 example: GAAP R&D accounting leaves investment off the balance sheet such that price is greater than book value. But earnings are the same whether one capitalizes and amortizes R&D expenditures or expenses them immediately provided there is no growth in R&D expenditure. So the accounting treatment of R&D does not matter. Similarly, depreciation and earnings are the same, irrespective of depreciation method, if there is no growth in depreciable assets. The growth qualification makes a point: expected growth in expenditures with error in the balance sheet implies an increase in expected premiums. It is the growth case that accounting theory has to grapple with. This leads us into the properties of accounting numbers under conservatism.
 
-Conservative accounting. The valuation theory in Ohlson (1995) involves "unbiased accounting" where  $P_T - B_T \to 0$  as  $T \to \infty$ . That, of course, facilitates finite-horizon valuation: if, for a given  $T$ ,  $P_T = B_T$ , the valuation is made without error, and the horizon,  $T$ , depends on how quickly book value catches up with price. Feltham and Ohlson (1995) explore an alternative accounting, conservative accounting, where carrying values are systematically below value such that  $P_T - B_T > 0$  for all  $T$ . Zhang (2000) and Cheng (2005) explore this accounting further. It the expected premium is given by a constant (that is, there is no expected change in premium), then a finite valuation is also satisfied, as we have just seen. However, Feltham and Ohlson (1995) show that, with growth in investment, premiums expand under conservative accounting and correspondingly, there is expected growth in earnings and residual earnings and thus  $g_{RE}$  in model 4(b) is greater than 1. As AEG = ΔRE, there is corresponding expected growth in AEG.
+Conservative accounting. The valuation theory in Ohlson (1995) involves "unbiased accounting" where $P_T - B_T \to 0$ as $T \to \infty$. That, of course, facilitates finite-horizon valuation: if, for a given $T$, $P_T = B_T$, the valuation is made without error, and the horizon, $T$, depends on how quickly book value catches up with price. Feltham and Ohlson (1995) explore an alternative accounting, conservative accounting, where carrying values are systematically below value such that $P_T - B_T > 0$ for all $T$. Zhang (2000) and Cheng (2005) explore this accounting further. If the expected premium is given by a constant (that is, there is no expected change in premium), then a finite valuation is also satisfied, as we have just seen. However, Feltham and Ohlson (1995) show that, with growth in investment, premiums expand under conservative accounting and correspondingly, there is expected growth in earnings and residual earnings and thus $g_{RE}$ in model 4(b) is greater than 1. As AEG = ΔRE, there is corresponding expected growth in AEG.
 
-GAAP accounting and IFRS accounting are conservative accounting systems where the price-to-book ratio is typically above 1. The understanding of conservative accounting brings warnings about how to handle accounting numbers. First, book rates of return, like  $ROE$ , are typically above the required return in expectation because of low carrying value for assets in the denominator. This challenges any theory that assumes that  $ROE$  is expected to revert to the required return in the long run, as many do. That assumption requires unbiased accounting such that  $P_T - B_T$  reverts to zero in the long run. Further, it is a mistake to take the accounting rate of return as the economic rate of return, as also is often done when evaluating firms' "profitability": a firm earning normal economic returns (and adding no value above the required return) may report an  $ROE$  greater than the required return under conservative accounting. The effect of conservative accounting on book rate of return is further explored in Livingstone and Salamon
+GAAP accounting and IFRS accounting are conservative accounting systems where the price-to-book ratio is typically above 1. The understanding of conservative accounting brings warnings about how to handle accounting numbers. First, book rates of return, like $ROE$, are typically above the required return in expectation because of low carrying value for assets in the denominator. This challenges any theory that assumes that $ROE$ is expected to revert to the required return in the long run, as many do. That assumption requires unbiased accounting such that $P_T - B_T$ reverts to zero in the long run. Further, it is a mistake to take the accounting rate of return as the economic rate of return, as also is often done when evaluating firms' "profitability": a firm earning normal economic returns (and adding no value above the required return) may report an $ROE$ greater than the required return under conservative accounting. The effect of conservative accounting on book rate of return is further explored in Livingstone and Salamon
 
 (1970), Brief and Lawson (1992), Danielson and Press (2003), Rajan, Reichelstein, and Soliman (2007), and Penman and Zhang (2013).
 
@@ -496,7 +483,7 @@ Accounting methods. Some papers have investigated alternative metrics and their 
 
 # 3. Accounting, Risk, and the Required Return
 
-With all the valuation models examined, one component has gone unmentioned: the required return,  $\rho$ . Practitioners well know the sensitivity of a valuation to this input. Discount rates are compounded in many valuations—for period  $t$  ahead, the discount rate is  $\rho^t$  — so error in the rate has a significant effect. What is the required return?
+With all the valuation models examined, one component has gone unmentioned: the required return, $\rho$. Practitioners well know the sensitivity of a valuation to this input. Discount rates are compounded in many valuations—for period $t$ ahead, the discount rate is $\rho^t$ — so error in the rate has a significant effect. What is the required return?
 
 ```d2
 # Accounting, Risk, and Required Return
@@ -596,7 +583,7 @@ Penman, S. 2001. On comparing cash flow and accrual accounting models for use in
 Penman, S. 2005. Discussion of 'On Accounting-Based Valuation Formulae' and 'Expected EPS and EPS Growth as Determinants of Value'. Review of Accounting Studies 10, 367-378.  
 Penman, S. 2009. Accounting for intangible assets: There is also an income statement. *Abacus* 45, 359-371.  
 Penman, S. 2012. Accounting for Value. New York: Columbia University Press.  
-Penman, S. 2013. Financial Statement Analysis and Security Valuation,  $5^{\text{th}}$  ed. New York: The McGraw-Hill Companies, Inc.  
+Penman, S. 2013. Financial Statement Analysis and Security Valuation,  $5^{\\text{th}}$  ed. New York: The McGraw-Hill Companies, Inc.  
 Penman, S., and F. Reggiani. 2013a. Returns to buying earnings and book value: accounting for growth and risk. *Review of Accounting Studies* 18, xxx-xxx.  
 Penman, S., and F. Reggiani. 2013b. The value trap: Value buys risky growth. Unpublished paper, Columbia University and Bocconi University.  
 Penman, S., F. Reggiani, S. Richardson, and I. Tina. 2013. An accounting-based characteristic model for asset pricing. Un published paper, Columbia University, Bocconi University, and London Business School.

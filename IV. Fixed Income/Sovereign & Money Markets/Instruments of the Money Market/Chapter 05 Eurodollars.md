@@ -1,11 +1,40 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 05 - Eurodollars
+primary_tags:
+  - eurodollar_market
+  - international_banking
+  - offshore_banking
+  - euromarket
+  - interbank_offering_rates
+  - libor
+  - international_banking_facilities
+secondary_tags:
+  - eurodollar_certificates_of_deposit
+  - eurodollar_time_deposits
+  - eurodollar_floating_rate_notes
+  - note_issuance_facilities
+  - euro_commercial_paper
+  - euromarket_regulation
+  - offshore_financial_centers
+  - international_monetary_system
+  - currency_reserves
+  - foreign_exchange_market
+  - deposit_insurance
+  - regulatory_arbitrage
+  - capital_flight
+  - money_market_instruments
+  - offshore_dollar_deposits
+  - international_lending
+  - correspondent_banking
+  - foreign_exchange_hedging
+  - interest_rate_risk
+  - credit_spread
+  - basis_risk
+  - carry_trade
+  - yield_curve_analysis
+  - forward_rate_agreements
+  - cross_currency_basis_swaps
 cssclasses: academia
-title: Chapter 5 EURODOLLARS
-linter-yaml-title-alias: Chapter 5 EURODOLLARS
 ---
 
 # Chapter 5 EURODOLLARS
@@ -148,3 +177,90 @@ Federal Reserve Bank of Richmond
 Richmond, Virginia
 
 1998
+
+## D2 Diagrams for Eurodollar Market Concepts
+
+### Eurodollar Market Structure
+```d2
+# Eurodollar Market Participants
+eurodollar_market: "Eurodollar Market" {
+  direction: down
+}
+
+us_banks: "US Banks (Subject to Regulations)"
+non_us_banks: "Non-US Banks (Offshore Centers)"
+ibfs: "International Banking Facilities (IBFs)"
+depositors: "Depositors (Non-US Residents)"
+borrowers: "Borrowers (International)"
+
+us_banks -> "Subject to US regulations\nReserve requirements\nDeposit insurance"
+non_us_banks -> "Less regulatory burden\nLower operational costs"
+ibfs -> "Located in US but\noperate under relaxed rules"
+depositors -> "Seek higher yields\nAvoid US regulations"
+borrowers -> "Access dollar funding\nLower regulatory costs"
+```
+
+### Eurodollar Instruments Hierarchy
+```d2
+# Eurodollar Instruments
+eurodollar_instruments: "Eurodollar Instruments" {
+  direction: down
+}
+
+time_deposits: "Time Deposits (TDs)"
+eurodollar_cd: "Certificates of Deposit (CDs)"
+floating_rate_notes: "Floating Rate Notes (FRNs)"
+note_issuance: "Note Issuance Facilities (NIFs)"
+euro_commercial_paper: "Euro Commercial Paper"
+
+eurodollar_instruments -> time_deposits: "Fixed-rate, various maturities"
+eurodollar_instruments -> eurodollar_cd: "Negotiable, large denominations"
+eurodollar_instruments -> floating_rate_notes: "Floating rate, protects against interest rate risk"
+eurodollar_instruments -> note_issuance: "Medium-term facilities for short-term paper"
+eurodollar_instruments -> euro_commercial_paper: "Short-term corporate funding"
+```
+
+### Regulatory Arbitrage Framework
+```d2
+# Regulatory Arbitrage in Eurodollar Market
+us_regulation: "US Banking Regulations" {
+  direction: down
+}
+
+reserve_requirements: "Reserve Requirements"
+deposit_insurance: "Deposit Insurance Assessments"
+capital_requirements: "Capital Requirements"
+regulatory_scrutiny: "Intensive Regulatory Scrutiny"
+
+eurodollar_advantage: "Eurodollar Market Advantages" {
+  direction: down
+}
+
+avoid_reserve: "No Reserve Requirements"
+avoid_insurance: "No Deposit Insurance Costs"
+lower_capital: "Lower Capital Costs"
+less_scrutiny: "Less Regulatory Burden"
+
+us_regulation -> reserve_requirements
+us_regulation -> deposit_insurance
+us_regulation -> capital_requirements
+us_regulation -> regulatory_scrutiny
+
+eurodollar_advantage -> avoid_reserve
+eurodollar_advantage -> avoid_insurance
+eurodollar_advantage -> lower_capital
+eurodollar_advantage -> less_scrutiny
+```
+
+### Interest Rate Relationships
+```d2
+# Eurodollar vs US Dollar Rate Relationships
+federal_funds: "Federal Funds Rate"
+libor: "LIBOR (London Interbank Offered Rate)"
+us_cd_rates: "US CD Rates"
+eurodollar_rates: "Eurodollar CD Rates"
+
+federal_funds <-> libor: "Closely correlated"
+libor <-> eurodollar_rates: "Essentially same rates"
+us_cd_rates <-> eurodollar_rates: "Arbitrage keeps aligned\n(minus regulatory costs)"
+```

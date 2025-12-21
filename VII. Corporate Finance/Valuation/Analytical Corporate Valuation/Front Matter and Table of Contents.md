@@ -1,8 +1,18 @@
 ---
 title: "Analytical Corporate Valuation - Front Matter and Table of Contents"
-tags: [corporate_finance, company_valuation, fundamental_analysis, asset_pricing, risk_return, capital_markets, discounted_cash_flows, cost_of_capital, return_on_capital, business_model_analysis]
-key_concepts: ["corporate valuation", "fundamental analysis", "asset pricing", "capital markets", "DCF model"]
 parent_directory: "VII. Corporate Finance/Valuation/Analytical Corporate Valuation"
+formatted: 2025-12-20 11:03:25 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - corporate valuation
+  - fundamental analysis
+secondary_tags:
+  - discounted cash flows
+  - business model analysis
+  - cost of capital
+  - asset pricing
+  - return on capital
 cssclasses: academia
 ---
 
@@ -22,7 +32,7 @@ Fundamental Analysis, Asset Pricing, and Company Valuation
 
 **DOI:** https://doi.org/10.1007/978-3-319-93551-5
 
-$\odot$ Springer Nature Switzerland AG 2018
+$©$ Springer Nature Switzerland AG 2018
 
 ## Copyright Information
 
@@ -85,10 +95,10 @@ By using the DCF approach, the company value is equal to the current value of ex
 The General Equation of Value can be defined based on these three main variables as follows:
 
 $$
-W_F = \sum_{t = 1}^{\infty} \frac{CF_t}{(1 + k)^t} \tag{1}
+W_F = \sum_{t=1}^{\infty} \frac{CF_t}{(1+k)^t} \tag{1}
 $$
 
-where $W_F$ is the company's value; $t$ is the period-time of valuation; $CF_t$ is the expected future cash-flows for each year ($t$); $k$ is the cost of capital used as a discounted rate.
+where $W_F$ is the company's value; $t$ is the period-time of valuation; $CF_t$ is the expected future cash-flows for each year ($t$); $k$ is the cost of capital used as a discount rate.
 
 Equation (1) has a great theoretical relevance. It estimates the value of the company based on expected cash-flows, arising from the fundamental analysis of the company and the cost of capital. Also, the equation defines the relationship
 
@@ -126,103 +136,103 @@ Pasquale De Luca
 
 ### Part I: Fundamental Analysis of the Company
 
-#### 1 Company Business Model Analysis 3
+#### 1 Company Business Model Analysis
 
-- 1.1 Strategic Formula of the Company 4
-- 1.2 Analytical Schemes for the Analysis of Company Performance 20
-- 1.3 Operating and Net Income 22
-- 1.4 Capital Invested and Capital Structure 30
-- 1.5 Free Cash Flow from Operations and Free Cash Flow to Equity 35
+- 1.1 Strategic Formula of the Company
+- 1.2 Analytical Schemes for the Analysis of Company Performance
+- 1.3 Operating and Net Income
+- 1.4 Capital Invested and Capital Structure
+- 1.5 Free Cash Flow from Operations and Free Cash Flow to Equity
 
-*References 40*
+*References*
 
-#### 2 Company Profitability Analysis 43
+#### 2 Company Profitability Analysis
 
-- 2.1 Analysis of Economic and Financial Dynamics 43
-- 2.2 Financial Ratios Analysis 47
-- 2.3 Growth Rate Analysis 65
-- 2.4 Investment Analysis 71
+- 2.1 Analysis of Economic and Financial Dynamics
+- 2.2 Financial Ratios Analysis
+- 2.3 Growth Rate Analysis
+- 2.4 Investment Analysis
 
-*References 76*
+*References*
 
-#### 3 Product Profitability Analysis 77
+#### 3 Product Profitability Analysis
 
-- 3.1 Direct Cost of Product 77
-- 3.2 Full Cost of Product 92
-- 3.3 Variance Analysis 102
+- 3.1 Direct Cost of Product
+- 3.2 Full Cost of Product
+- 3.3 Variance Analysis
 
-*References 116*
+*References*
 
 ### Part II: Risk and Return in the Capital Market
 
-#### 4 Utility Function Approach 119
+#### 4 Utility Function Approach
 
-- 4.1 Decision Under Uncertainty 119
-- 4.2 Investor Behaviour and Risk Measurement 126
-- 4.3 Utility Functions 136
-- 4.4 Utility Functions and Portfolio Choices 146
+- 4.1 Decision Under Uncertainty
+- 4.2 Investor Behaviour and Risk Measurement
+- 4.3 Utility Functions
+- 4.4 Utility Functions and Portfolio Choices
 
-*References 163*
+*References*
 
-#### 5 Mean-Variance Approach 165
+#### 5 Mean-Variance Approach
 
-- 5.1 Diversified Portfolio 166
-- 5.2 Efficient Frontier 192
-- 5.3 Efficient Portfolios 213
-- 5.4 Optimal Portfolio 220
-- 5.5 Single Index Model 224
+- 5.1 Diversified Portfolio
+- 5.2 Efficient Frontier
+- 5.3 Efficient Portfolios
+- 5.4 Optimal Portfolio
+- 5.5 Single Index Model
 
-*References 233*
+*References*
 
-#### 6 Capital Asset Pricing Model 237
+#### 6 Capital Asset Pricing Model
 
-- 6.1 Baseline Assumptions 237
-- 6.2 Intuitive Approach 239
-- 6.3 Rigorous Approach 245
-- 6.4 CAPM in Terms of Prices 251
+- 6.1 Baseline Assumptions
+- 6.2 Intuitive Approach
+- 6.3 Rigorous Approach
+- 6.4 CAPM in Terms of Prices
 
-*References 254*
+*References*
 
 ### Part III: Company Valuation
 
-#### 7 Capital Structure and the Cost of Capital 261
+#### 7 Capital Structure and the Cost of Capital
 
-- 7.1 Capital Structure Choices 261
-- 7.2 Cost of Equity 285
-- 7.3 Cost of Debt 294
-- 7.4 Cost of Capital of the Company 302
+- 7.1 Capital Structure Choices
+- 7.2 Cost of Equity
+- 7.3 Cost of Debt
+- 7.4 Cost of Capital of the Company
 
-*References 312*
+*References*
 
-#### 8 Equity Valuation 319
+#### 8 Equity Valuation
 
-- 8.1 The General Equation of Value 319
-- 8.2 Dividend Discount Model 328
-- 8.3 Free Cash-Flow to Equity Discounted Model 344
-- 8.4 Multiples on Equity Value 348
+- 8.1 The General Equation of Value
+- 8.2 Dividend Discount Model
+- 8.3 Free Cash-Flow to Equity Discounted Model
+- 8.4 Multiples on Equity Value
 
-*References 364*
+*References*
 
-#### 9 Enterprise Valuation 367
+#### 9 Enterprise Valuation
 
-- 9.1 Free Cash Flow from Operations Discounted Model 367
-- 9.2 Free Cash Flow from Operations Discounted Model: Cost of Capital Approach 369
-- 9.3 Free Cash Flow from Operations Discounted Model: Adjusted Present Value Approach 375
-- 9.4 Discounted Economic Profit 379
-- 9.5 Multiplies on Enterprise Value 387
+- 9.1 Free Cash Flow from Operations Discounted Model
+- 9.2 Free Cash Flow from Operations Discounted Model: Cost of Capital Approach
+- 9.3 Free Cash Flow from Operations Discounted Model: Adjusted Present Value Approach
+- 9.4 Discounted Economic Profit
+- 9.5 Multiplies on Enterprise Value
 
-*References 396*
+*References*
 
-#### 10 Debt Valuation 399
+#### 10 Debt Valuation
 
-- 10.1 Interest Rate Rules 399
-- 10.2 Bond: Price and Yield 425
-- 10.3 Term Structure of Interest Rate 432
-- 10.4 Expectation Theory of Term Structure Interest Rate 445
+- 10.1 Interest Rate Rules
+- 10.2 Bond: Price and Yield
+- 10.3 Term Structure of Interest Rate
+- 10.4 Expectation Theory of Term Structure Interest Rate
 
-*References 449*
+*References*
 
-#### 11 Conclusions 451
+#### 11 Conclusions
 
 ## D2 Diagram: Corporate Valuation Framework
 

@@ -1,11 +1,48 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 08 - Securitization
+primary_tags:
+  - securitization
+  - asset_backed_securities
+  - mortgage_backed_securities
+  - collateralized_debt_obligations
+  - structured_finance
+  - special_purpose_vehicle
+  - waterfall_structure
+secondary_tags:
+  - mortgage_pooling
+  - credit_tranching
+  - risk_transfer
+  - financial_engineering
+  - subprime_mortgages
+  - credit_ratings
+  - rating_agencies
+  - gnma
+  - fnma
+  - fhlm
+  - asset_pool
+  - cash_flow_allocation
+  - senior_mezzanine_equity_tranches
+  - default_correlation
+  - credit_enhancement
+  - overcollateralization
+  - credit_default_swaps
+  - financial_crisis
+  - housing_bubble
+  - subprime_lending
+  - adjustable_rate_mortgages
+  - teaser_rates
+  - foreclosure
+  - negative_equity
+  - non_recourse_mortgages
+  - credit_spreads
+  - libor_ois_spread
+  - ted_spread
+  - financial_intermediation
+  - originate_to_distribute_model
+  - moral_hazard
+  - information_asymmetry
+  - regulatory_arbitrage
 cssclasses: academia
-title: 8.1 SECURITIZATION
-linter-yaml-title-alias: 8.1 SECURITIZATION
 ---
 
 # 8.1 SECURITIZATION

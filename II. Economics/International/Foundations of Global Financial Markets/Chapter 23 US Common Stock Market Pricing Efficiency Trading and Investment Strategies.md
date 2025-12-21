@@ -33,75 +33,7 @@ cssclasses: academia
 
 # Chapter 23 - US Common Stock Market Pricing Efficiency Trading and Investment Strategies
 
-## CONTENTS
 
-## Learning Objectives
-
-## Equity Asset Classes
-
-Asset Classes Based on Market Capitalization
-
-Asset Classes Based on Style
-
-## Stock Market Indexes
-
-Stock Weighting Methods
-
-Major U.S. Stock Market Indexes
-
-NYSE Composite Index
-
-NASDAQ Composite Index
-
-Dow Jones Industrial Average
-
-Standard & Poor's 500 Index
-
-MSCI indexes
-
-Russell indexes
-
-Wilshire indexes
-
-CBOE Volatility Index
-
-## Pricing Efficiency of the Stock Market
-
-Forms of Efficiency
-
-Efficient market hypothesis and the random walk hypothesis
-
-### Micro versus Macro Stock Market Efficiency
-
-### Implications of Market Efficiency for Investing in Common Stock
-
-## Common Stock Investment Strategies
-
-## Common Stock Trading Arrangements
-
-Types of Orders
-
-Margin Transactions
-
-Trading (Transaction) Costs
-
-Explicit costs
-
-Implicit costs
-
-Research on trading costs
-
-Trading Arrangements for Institutional Investors
-
-Block trades
-
-Program trades
-
-High-Frequency Trading
-
-Key Points
-
-Questions
 
 Learning Objectives
 
@@ -133,7 +65,7 @@ After reading this chapter, you will understand:
 
 In chapter 22, we looked at the structure of the U.S. equity market, including trading venues and market regulation. In this chapter, we look at U.S. stock market indexes; the pricing efficiency of the equity market and its implications for common stock investment strategies; and equity trading mechanics, trading costs, and trading strategies.
 
-# Equity Asset Classes
+## Equity Asset Classes
 
 As explained in chapter 1, market participants talk about asset classes. Common stock or equity is one of the major asset classes. Based on studies of the performance of different categories of common stock, the market practice is to treat categories of stocks based on market capitalization and style. We discuss each category below.
 
@@ -187,7 +119,7 @@ Any given growth and value style has a substyle based on some measure of size (m
 
 The four cells shown in the above grid have different risk/return combinations. In addition to book value (B), style is often calculated as a ratio to earnings (E); that is, the style ratio is $\mathrm{P/E}$, the price-to-earnings ratio.
 
-# Stock Market Indexes
+## Stock Market Indexes
 
 Stock market indexes perform a variety of functions, from serving as benchmarks for evaluating the performance of professional money managers to answering the question, "How did the market do today?" Thus, stock market indexes (or averages) are a part of everyday life. In general, stock market indexes rise and fall in fairly similar patterns. However, the various indexes do not move in exactly the same way at all times. The differences in movement reflect the different methods used for the construction of the indexes. Common stock indexes that are popularly cited in the media, and which are discussed below, are the Dow Jones Industrial Average, the S&P 500 Index, and the Nasdaq Index.
 
@@ -352,7 +284,7 @@ In this regard, the number of publicly listed stocks has declined by approximate
 
 CBOE Volatility Index Another index which has become very popular in the equity markets is the CBOE Volatility Index (VIX, which stands for "volatility index"). The VIX is not a stock index, but it is a stock-related index. The VIX is a measure of the implied volatility of the S&P 500 index option, which is calculated by the Chicago Board Options Exchange (CBOE) and used by stock traders. The VIX provides a measure of this option's market expectation of the S&P 500 stock market volatility over the next 30-day period. The VIX is quoted as a percentage, which is consistent with its being a volatility. A high VIX measure indicates that the stock market is expected to be very volatile and is regarded as a bearish signal. For this reason, the VIX is regarded as a "fear index." Futures and options contracts on the VIX are available from the CBOE.
 
-# Pricing Efficiency of the Stock Market
+## Pricing Efficiency of the Stock Market
 
 As explained in chapter 18, a price-efficient market is one in which the security prices at all times fully reflect all available information relevant to their valuation. When a market is price efficient, investment strategies pursued to outperform a broad-based stock market index will not consistently produce superior returns after adjusting for risk and transaction costs.
 
@@ -466,7 +398,7 @@ Traditionally, the benchmarks for indexing strategies have been one of the broad
 
 A hybrid of the pure passive and pure active approaches is the core-satellite strategy, wherein the overall portfolio has a core of large holdings in passive, low-cost energy holdings in efficient asset classes and satellites around the core consisting of small holdings of more expensive, active noncore holdings.
 
-# Common Stock Investment Strategies
+## Common Stock Investment Strategies
 
 Investment strategies pursued by professional money managers can be organized in several different ways. The most common method is to divide strategies into two categories: passive and active, as introduced above.
 
@@ -492,7 +424,7 @@ Between the polar extremes of passive and active strategies, there are developme
 
 The strategies addressed thus far have had only long positions, that is, where stocks are purchased with cash. These are called "long-only" strategies. Beginning with hedge funds, however, investors have also used short positions. Short positions are achieved by borrowing a company's stock from another party (for example, a broker), selling the stock, and then using the cash from the sale to purchase additional stocks or let it remain in cash. These are called long-short strategies. Overall, a long positon is a bullish position; that is, the position profits if the stock price increases. A short position is a bearish position; that is, a short position profits if the stock price decreases. Consequently, long-short strategies can be either bullish or bearish, depending on the identities and weights of the long and short positions.
 
-# Common Stock Trading Arrangements
+## Common Stock Trading Arrangements
 
 Trading arrangements involve the types of orders placed by investors. We begin with the types of orders, margin transactions, trading priority rules, and transaction costs. We then discuss trading arrangements for retail trading and those for institutional investors (block trades and program trades) for coping with the trading needs of institutional investors.
 
@@ -625,7 +557,7 @@ A survey paper by Charles Jones at the Columbia Business School delivered the fo
 
 Based on the vast majority of the empirical work to date, HFT and automated, competing markets improve market liquidity, reduce trading costs, and make stock prices more efficient. Better liquidity lowers the cost of equity capital for firms, which is an important positive for the real economy. Minor regulatory tweaks may be in order, but those formulating policy should be especially careful not to reverse the liquidity improvements of the last twenty years.[17]
 
-# Key Points
+## Key Points
 - Common stock is typically classified based on market capitalization; the three most common classes are small, medium, and large market capitalizations.
 - In addition to market capitalization, a universe of common stocks can be classified as either value or growth stocks based on their price-to-book value ratio.
 - Stock market indexes can be classified into two groups: (1) those produced by stock exchanges and include all stocks to be traded on the exchange, and (2) those for which a committee subjectively selects the stocks to be included in the index.
@@ -670,67 +602,13 @@ Based on the vast majority of the empirical work to date, HFT and automated, com
 - The SEC classifies HFT strategies into four categories: passive market-making strategies, arbitrage strategies, structural trading strategies, and directional trading strategies.
 - Latency means "speed" and refers to the time it takes to complete an execution. HFTers refer to latency in milliseconds and even microseconds.
 
-# Questions
 
-1. Why are stocks categorized in terms of market capitalization?
-2. In 2002, a leading sponsor of global indexes shifted to the free float method for calculating market capitalization. What does this mean?
-3. What is the key measure used when classifying stocks as either value or growth stocks?
-4. What is the difference between a market value-weighted index and an equally weighted index?
-5. What are the main features of the S&P 500 common stock index?
-6. "The stocks selected for the S&P 500 are the largest 500 companies in the United States." Indicate whether you agree or disagree with this statement.
-7. Some participants and analysts in the stock market are called "chartists" or "technical analysts." What does the theory that the market is weak-form efficient say about these investors' chances of beating the market?
-8. Why should an investor who believes that the market is efficient pursue an indexing strategy?
-9. Discuss the choice of a trading strategy—active versus passive—depending on the degree of market efficiency of the market being analyzed.
-10. Explain what is meant by "fundamental indexing."
-11. Proponents of a smart beta strategy believe that it can offer superior returns in the long run over an indexing strategy in which the benchmark is a market capitalization index. Explain why.
-12. The following quotation is taken from Wayne H. Wagner:
-
-When a trader decides how to bring an order to the market, he or she must deal with some very important issues; to me, the most important is: What kind of trade is this? It could be either an active or a passive trade. The type of trade will dictate whether speed of execution is more or less important than cost of execution. In other words, do I want immediate trading (a market order); or am I willing to forgo the immediate trade for the possibility of trading less expensively if I am willing to "give" on the timing of the trade (a limit order)?
-
-a. What is meant by a "market order"?
-
-b. Why would a market order be placed when an investor wants immediate trading?
-
-c. What is meant by a "limit order"?
-
-d. What are the risks associated with a limit order?
-
-13. What is meant by "algorithmic trading"?
- 14. Suppose that Ms. Martinez purchased the stock of XYZ for \$90 and that she sets a maximum loss that she will accept on this stock at \$85. What type of order can Ms. Martinez place?
-15. Why would a block trade or program trade be used by an institutional investor?
-16. What is the difference between a block trade and a program trade?
-17. How is a program trade used by an institutional investor?
-18. The following statements are taken from Greta E. Marshall's article in the proceedings of a conference held in New York City on December 3, 1987:
-
-There are three components of trading costs. First there are direct costs which may be measured—commissions. Second, there are indirect—or market impact—costs. Finally, there are the undefined costs of not trading.[19] a. What are market impact costs, and what do you think the "undefined costs of not trading" represent?
-
-Market impact, unlike broker commissions, is difficult to identify and measure.
-
-b. Why is market impact cost difficult to measure?
-
-19. The following statement appears in a report to the Joint Advisory Committee on Emerging Regulatory Issues, September 30, 2010:
-
-Generally, a customer has a number of alternatives as to how to execute a large trade. First, a customer may choose to engage an intermediary, who would, in turn, execute a block trade or manage the position. Second, a customer may choose to manually enter orders into the market. Third, a customer can execute a trade via an automated execution algorithm, which can meet the customer's needs by taking price, time or volume into consideration. Effectively, a customer must make a choice as to how much human judgment is involved while executing a trade.[20]
-
-Explain each of these alternatives for executing a large trade.
-
-20. Charles Schwab, chairman of the brokerage firm Charles Schwab Corporation, came out with the following statement in support of the conclusion in Michael Lewis's book Flash Boys that markets are rigged because of high-frequency trading: "High-frequency trading is a growing cancer that needs to be addressed." He concluded that HFT "is a technological arms race designed to pick the pockets of legitimate market participants," and "a scam … that [regulators] should simply make illegal." Explain whether you agree or disagree with this statement.
-21. In an invited editorial appearing in The Journal of Portfolio Management, the founder of Vanguard, John Bogle, made the following two statements about Michael Lewis's book Flash Boys.
-
-a. Explain whether you agree or disagree with the following statement.
-
-Flash Boys, by best-selling author Michael Lewis, regaled the financial community with its polemic on the rise of HFT. "The stock market is rigged," Lewis told the huge television audience watching 60
-
-Minutes, without explaining precisely what that meant. "Wall Street has gone insane," he intoned to the Guardian, which described his view that his calling is "a moral crusade." But he seems to have largely ignored the vital role of HFT in reducing the frictional costs of trading to minuscule levels. Lewis is particularly strident on the harm HFT does to ordinary individual investors. But it is here that he seems most clearly wrong. Yes, he sees lots of smoke in HFT, but finds the most fire is where that smoke is virtually absent. Retail investors who trade for themselves are beneficiaries of the new trading environment, with lower trading costs and faster market access.[21]
-
-# b. What are the "well-founded concerns" that Mr. Bogle refers to in the following statement?
-
-HFT is a long way from perfection. There are well-founded concerns—and heated arguments pro and con—about front-running by insiders (based largely on knowledge of pending transactions); huge volumes of cancelled orders (from HFT firms, as well as others); those mysterious dark pools; and outlandish profits earned by HFT firms.
+## References
 
 1. Ibbotson SBBI, 2017 Classic Yearbook (Chicago: Morningstar, 2017).
 2. Cited in Robert J. Shiller, Irrational Exuberance, 2nd ed. (New York: Broadway Books, 2001), 243.
 3. See, for example, Robert J. Shiller, "Do Stock Prices Move Too Much to Be Justified by Subsequent Changes in Dividends?" *American Economic Review* 71 (1981): 421-436; Stephen F. LeRoy and Richard D. Porter, "The Present Value Relation: Tests Based on Variance Bounds," *Econometrica* 49 (1981): 555-574; John Y. Campbell and Robert J. Shiller, "The Dividend-Price Ratio and Expectations of Future Dividends and Discount Factors," *Review of Financial Studies* 1 (1988): 195-228; John Y. Campbell and Robert J. Shiller, "Stock Prices, Earnings, and Expected Dividends," *Journal of Finance* 43 (1988): 661-676; John Y. Campbell, "A Variance Decomposition for Stock Returns," *Economic Journal* 101 (1991): 157-179; Tuomo Vuolteenaho, "What Drives Firm-Level Stock Returns?" *Journal of Finance* 57 (2002): 233-264; and Jeeman Jung and Robert J. Shiller, "Samuelson's Dictum and the Stock Market," *Economic Inquiry* 43 (April 2005): 221-228.
-4. Note that  $\sum_{N}^{i=1} W S_{i} = \sum_{N}^{i=1} I S_{i}$  where the  $W S_{i}$  and  $I S_{i}$  are provided as percentages (\%) of the whole portfolio.
+4. Note that  $\sum_{i=1}^{N} WS_{i} = \sum_{i=1}^{N} IS_{i}$  where the  $WS_{i}$  and  $IS_{i}$  are provided as percentages (\%) of the whole portfolio.
 5. William F. Sharpe. "The Arithmetic of Active Management," *Financial Analysts Journal* 47, no. 1 (1991): 7.
 6. A recently developed concept, "active share," is a metric that is the percentage difference between the individual holdings of a portfolio and its benchmark; it has been used to measure the degree of difference from the index. For example, an active share of  $70\%$  of a portfolio (by market cap) deviates from its index and  $30\%$  is consistent with its index. See Antti Petojisto and Martijn Cremers, "How Active Is Your Fund Manager? A New Measure that Predicts Performance," Review of Financial Studies 22, no. 9 (2009): 3329-3365.
 7. Long-short strategies in general and hedge funds, in particular, comprise a wide variety of strategies of various degrees of activeness. These include, for example: market neutral strategy (long and short positions offset each other completely in market risk),  $130\% / 30\%$  strategy (portfolio includes  $130\%$  long positions and  $30\%$  short positions), and bear market strategy (short positions more than completely offset the long positions).

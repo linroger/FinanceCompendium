@@ -954,3 +954,58 @@ Although exchange rates may move quite substantially at times, this is not neces
 _Further Reading for_ _Chapter 1_ _can be found at the end of the book._
 
 36
+
+## D2 Diagrams for Foreign Exchange Market Concepts
+
+### Foreign Exchange Market Participants
+```d2
+# Foreign Exchange Market Participants
+participants: "FX Market Participants" {
+  direction: down
+}
+
+retail_clients: "Retail Clients\n(Businesses, MNCs)"
+commercial_banks: "Commercial Banks\n(Dealers)"
+fx_brokers: "FX Brokers\n(Intermediaries)"
+central_banks: "Central Banks\n(Policy makers)"
+
+participants -> retail_clients: "Need FX for trade"
+participants -> commercial_banks: "Primary dealers"
+participants -> fx_brokers: "Facilitate trades"
+participants -> central_banks: "Intervene in market"
+```
+
+### Spot vs Forward Exchange Rates
+```d2
+# Spot vs Forward Exchange Rates
+spot_rate: "Spot Rate\nImmediate delivery\n(usually T+2 days)"
+forward_rate: "Forward Rate\nFuture delivery\n(at agreed date)"
+arbitrage: "Arbitrage Relationship\nBased on interest rate differential"
+
+spot_rate <-> forward_rate: "Connected via IRP"
+spot_rate -> arbitrage: "No arbitrage condition"
+forward_rate -> arbitrage: "No arbitrage condition"
+```
+
+### Exchange Rate Determinants
+```d2
+# Exchange Rate Determinants
+demand_factors: "Demand Factors\n- Trade flows\n- Investment flows\n- Speculation"
+supply_factors: "Supply Factors\n- Trade flows\n- Investment outflows\n- Central bank interventions"
+exchange_rate: "Exchange Rate\nPrice of one currency\nin terms of another"
+
+demand_factors -> exchange_rate: "Increase demand -> Appreciate"
+supply_factors -> exchange_rate: "Increase supply -> Depreciate"
+```
+
+### FX Market Arbitrage
+```d2
+# Types of FX Arbitrage
+centre_arbitrage: "Centre Arbitrage\nSame rate in all\nfinancial centres"
+cross_arbitrage: "Cross Currency Arbitrage\nTriangular arbitrage\nusing 3 currencies"
+interest_arbitrage: "Interest Rate Arbitrage\nCovered/uncovered\ninterest parity"
+
+centre_arbitrage -> "Eliminates price\ndifferences between centres"
+cross_arbitrage -> "Ensures cross rates\nare consistent"
+interest_arbitrage -> "Links FX rates to\ninterest rates and\ninflation expectations"
+```

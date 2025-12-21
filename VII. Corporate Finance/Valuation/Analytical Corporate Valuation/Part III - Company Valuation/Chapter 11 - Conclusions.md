@@ -1,9 +1,21 @@
 ---
 title: "Chapter 11 - Conclusions - Corporate Valuation Framework"
-tags: [corporate_valuation, value_creation, cost_of_capital, discounted_cash_flows, company_strategic_formula, capital_structure, portfolio_theory, capm]
 parent_directory: "VII. Corporate Finance/Valuation/Analytical Corporate Valuation/Part III - Company Valuation"
-key_concepts: [value_creation, cost_of_capital, company_strategic_formula, discounted_cash_flows, return_on_capital]
-cssclasses: [academia]
+formatted: 2025-12-20 04:53:27 PM
+formatter_model: claude-sonnet-4-20250514
+cli-tool: claude-code
+primary_tags:
+  - corporate valuation
+  - value creation
+  - cost of capital
+  - discounted cash flows
+  - company strategic formula
+secondary_tags:
+  - capital structure
+  - portfolio theory
+  - capm
+  - return on capital
+cssclasses: academia
 ---
 
 
@@ -19,7 +31,7 @@ In the period of the Great Recession as derived by the financial crisis of 2007-
 
 In my opinion, the financial crisis cannot be attributed to a shareholder-oriented capitalism but to its distortion: the problem has been the passage from a long-term perspective to a short-term perspective. Indeed, one of the most fundamental principles in the shareholders' value creation perspective states that the company's capability to create shareholder value in the long period is not the same as maximization of its short-term profits. Often the choice to maximize the shareholders' value in the long-term perspective is irreconcilable with the choice of maximizing the shareholders' value in the short-term period. Consequently, if the value creation in the long-term is confused with the profit in the short-term, it generates a great problem capable of damaging the shareholders' interests as well as the stakeholders' interests. Therefore, the main problem is not the shareholders' value but the short-term perspective of some managers. The best managers do not make decisions able to maximize the profit in the short-term by destroying the company's capability to create value in the long-term. Indeed, the main aim in the shareholder-oriented capitalism is to maximize a company value for a current, as well as, future shareholder. Also, the best managers know that the company's capability to create value over time in the long-term perspective implies the development of the company's fundamentals rather than accounting and financial make-up to increase the short-term profits by pushing-up the current share price. Finally, the best managers know well that the maximization of the shareholders' value implies the maximization of the stakeholders' value as well. Indeed, we should consider the three main categories of stakeholders: employees, customers, suppliers.
 
-With regards to the employees, a company that attempts to increase the profits by reducing the employees' benefits, will have extreme difficulty in engaging and maintaining high quality employees. The lower quality of employees means products of a lower quality and therefore it results in lower customer satisfaction with lower revenues and profit for the shareholders. Today, one of the most important company's resource for its success in business is human capital. In the context characterized by strongly skilled employees, the capacity of the company to attract and to retain the best employees is often the key to success in the long-term. Therefore, in the shareholder's perspective the company's ability to attract and to retain quality employees on the basis of their satisfaction means high productivity that, in turn, results in higher value creation in the long-term. Only on the short term can the company produce profits against its employees. But it a myopic strategy that it leads to value destruction in the long-term and then to the company's failure.
+With regards to the employees, a company that attempts to increase the profits by reducing the employees' benefits, will have extreme difficulty in engaging and maintaining high quality employees. The lower quality of employees means products of a lower quality and therefore it results in lower customer satisfaction with lower revenues and profit for the shareholders. Today, one of the most important company's resource for its success in business is human capital. In the context characterized by strongly skilled employees, the capacity of the company to attract and to retain the best employees is often the key to success in the long-term. Therefore, in the shareholder's perspective the company's ability to attract and to retain quality employees on the basis of their satisfaction means high productivity that, in turn, results in higher value creation in the long-term. Only on the short term can the company produce profits against its employees. But it is a myopic strategy that leads to value destruction in the long-term and then to the company's failure.
 
 With regards to customers, the company's ability to compete in the business is strictly functional of the alignment between products characteristics and customers' expectations. If the company wants to sell the current products as well as the future product generations of product, they must be in line with the customers' expectations in terms of its quality and price. Customers can be fooled once at the most. This strategy can, at the most, increase the revenues but only in the short-term. Anyway, it deeply damages the reputation of the brand with negative effects on the company's capability to create value over time. Consequently, the company's capability to create value over time for shareholders implies the value creation for customers also.
 
@@ -37,6 +49,35 @@ The amount of value is equal to the difference between cash in-flows deriving fr
 
 - the return on capital invested;
 - the cost of capital.
+
+```d2
+# Value Creation Framework
+direction: right
+
+shareholder.value["Shareholder Value Creation"]
+shareholder.value --> stakeholders["Stakeholder Value"]
+stakeholders --> employees["Employees"]
+stakeholders --> customers["Customers"] 
+stakeholders --> suppliers["Suppliers"]
+
+shareholder.value --> business.model["Business Model"]
+business.model --> cfsf["Company Strategic Formula"]
+cfsf --> isf["Internal Strategic Front"]
+cfsf --> esf["External Strategic Front"]
+
+shareholder.value --> fundamentals["Fundamentals Analysis"]
+fundamentals --> return.capital["Return on Capital"]
+fundamentals --> cost.capital["Cost of Capital"]
+
+return.capital --> value.equation["Value Creation: Return > Cost"]
+cost.capital --> value.equation
+
+classDef primary fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+classDef secondary fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+
+class shareholder.value,value.equation primary
+class stakeholders,business.model,fundamentals secondary
+```
 
 In this book the company's ability to invest the capital raised by obtaining a high return, is investigated by the analysis of the company's fundamentals with regards to its business model and its economic and financial performances over time.
 
@@ -66,7 +107,7 @@ The Internal Strategic Front (ISF) refers to the internal structure of the compa
 
 Specifically, the internal structure of the company is defined on the basis of three main elements:
 
-- Corporate governance: it refers to the rules and the procedures by which the decision-making processes in the governmental area and how the managerial and operating activities of the company are defined:
+- Corporate governance: it refers to the rules and the procedures by which the decision-making processes in the governmental area and how the managerial and operating activities of the company are defined.
 - Organizational architecture: it refers to how the company's resources are combined and coordinated between them for company operations. There are two main levels involved: (i) the organizational structure of the company, with regards to both hard and soft elements that give form, substance and operation to all parts of the organization; (ii) the operations, with regards to the processes and procedures that cross the company vertically and horizontally;
 - Strategic resources: it refers to the company's tangible and intangible assets and to the human skills necessary for their coordination. The company's strategic resources represent the most important way of competing in the business. Indeed, they provide the company with uniqueness and are able to protect its competitive advantage from imitation processes by generating "isolation mechanisms".
 
@@ -223,7 +264,7 @@ The second problem is the valuation perspective. Application of Eq. (11.1) requi
 It is possible to summarize as follows:
 
 $$
-W_{F} = \sum_{t = 1}^{n} \frac{CF_{t}}{(1 + K)^{t}} + \frac{TV_{n}}{(1 + K)^{n}} \rightarrow\begin{array}{l}\text{Equity Side} \rightarrow W_{E} = \sum_{t = 1}^{n} \frac{FCFE_{t}}{\left(1 + K_{E}\right)^{t}} + \frac{TV_{n}}{\left(1 + K_{E}\right)^{n}}\\
+W_{F} = \sum_{t = 1}^{n} \frac{CF_{t}}{(1 + K)^{t}} + \frac{TV_{n}}{(1 + K)^{n}} \rightarrow \begin{array}{l}\text{Equity Side} \rightarrow W_{E} = \sum_{t = 1}^{n} \frac{FCFE_{t}}{\left(1 + K_{E}\right)^{t}} + \frac{TV_{n}}{\left(1 + K_{E}\right)^{n}}\\
 \text{Asset Side} \rightarrow W_{A} = \sum_{t = 1}^{n} \frac{FCFO_{t}}{\left(1 + K_{A}\right)^{t}} + \frac{TV_{n}}{\left(1 + K_{A}\right)^{n}}\end{array}\tag{11.3}
 $$
 
@@ -242,144 +283,6 @@ Van Horne J (1966) Interest-rate expectations, the shape of yield curve, and mon
 Vasicek O (1977) An equilibrium characterization of the term structure. J Financ Econ 5 (2):177-188
 Zwick B (1980) Yield on privately placed corporate bonds. J Finance 35(1):23-30
 
-The book deals with the economics of value creation of companies and their measuring processes. In an ideal world, the investors know everything about a company and its managers. In this context it is reasonable to expect that the current share price is perfectly aligned with the intrinsic value of the company as defined on the basis of its fundamentals. Consequently, maximizing the current share price is equivalent to maximizing the value of the company over time.
-
-Unfortunately, in the real-world investors only know something about the company and its managers. Their knowledge about the company is based on public information. Consequently, investors don't know what is really going on within a company, what decisions managers are making and their real effects on the economic and financial performance over time. It does not mean that the stock market is inefficient. On the contrary, markets do a great and fundamental job with public information. It only means that the market cannot price information that it does not have and then in the short-term a misalignment between current share price of the company and its intrinsic value based on its fundamentals is possible. However, in the long-term they tend to align.
-
-Several approaches can be followed to deal with the economics of value creation of the company and its measuring process. This book is based on a shareholder-oriented capitalism. Consequently, the company can thrive only if it is able to create value for the shareholders over time.
-
-In the period of the Great Recession as derived by the financial crisis of 2007-2008, this approach could be unpopular. Indeed, with common sense and in a part of academics the recent financial crisis is usually charged to the shareholder-oriented capitalism. Many parts requested and pushed for more regulations and for a deeper change in company governance and its focus by shifting from the shareholders' value to a set of stakeholders' value. This push is strong in Europe for economic and business culture.
-
-In my opinion, the financial crisis cannot be attributed to a shareholder-oriented capitalism but to its distortion: the problem has been the passage from a long-term
-
-perspective to a short-term perspective. Indeed, one of the most fundamental principles in the shareholders' value creation perspective states that the company's capability to create shareholder value in the long period is not the same as maximization of its short-term profits. Often the choice to maximize the shareholders' value in the long-term perspective is irreconcilable with the choice of maximizing the shareholders' value in the short-term period. Consequently, if the value creation in the long-term is confused with the profit in the short-term, it generates a great problem capable of damaging the shareholders' interests as well as the stakeholders' interests. Therefore, the main problem is not the shareholders' value but the short-term perspective of some managers. The best managers do not make decisions able to maximize the profit in the short-term by destroying the company's capability to create value in the long-term. Indeed, the main aim in the shareholder-oriented capitalism is to maximize a company value for a current, as well as, future shareholder. Also, the best managers know that the company's capability to create value over time in the long-term perspective implies the development of the company's fundamentals rather than accounting and financial make-up to increase the short-term profits by pushing-up the current share price. Finally, the best managers know well that the maximization of the shareholders' value implies the maximization of the stakeholders' value as well. Indeed, we should consider the three main categories of stakeholders: employees, customers, suppliers.
-
-With regards to the employees, a company that attempts to increase the profits by reducing the employees' benefits, will have extreme difficulty in engaging and maintaining high quality employees. The lower quality of employees means products of a lower quality and therefore it results in lower customer satisfaction with lower revenues and profit for the shareholders. Today, one of the most important company's resource for its success in business is human capital. In the context characterized by strongly skilled employees, the capacity of the company to attract and to retain the best employees is often the key to success in the long-term. Therefore, in the shareholder's perspective the company's ability to attract and to retain quality employees on the basis of their satisfaction means high productivity that, in turn, results in higher value creation in the long-term. Only on the short term can the company produce profits against its employees. But it a myopic strategy that it leads to value destruction in the long-term and then to the company's failure.
-
-With regards to customers, the company's ability to compete in the business is strictly functional of the alignment between products characteristics and customers' expectations. If the company wants to sell the current products as well as the future product generations of product, they must be in line with the customers' expectations in terms of its quality and price. Customers can be fooled once at the most. This strategy can, at the most, increase the revenues but only in the short-term. Anyway, it deeply damages the reputation of the brand with negative effects on the company's capability to create value over time. Consequently, the company's capability to create value over time for shareholders implies the value creation for customers also.
-
-Finally, with regards to the suppliers, the main objective of the company is to create solid relationships with them in order to guarantee a high quality product.
-
-Indeed, only in this case the supplies can be in line with product characteristics that, in turn, must be in line with customers' expectations. Whenever the company obtains profit by fooling the suppliers or by imposing harmful conditions on them, it damages the relationships with suppliers with negative and relevant effects on the quality of the product. It reduces the quality for customers with negative effects on the company's capability to create value for shareholders. Also in this case, the bad strategy to generate profits for the company by exploiting suppliers can be, in the best case, effective only in the short-term. In the long-period it destroys value for company and shareholders.
-
-Based on these considerations, the shareholders' value creation is function of the value creation for employees, customers and also suppliers. The company's ability to create value for the current and future shareholders in the long-term implies and requires the same company's capability to create value for employees, customers and suppliers.
-
-It is worth noting that the opposite is not true. Indeed, the maximization of employees' value (by high wages and benefits do not align with performance), customers' value (by an unjustified product price lower than its production costs), suppliers' value (by costs much more than their real value), reduce the company's ability to create profits over time and then it destroys shareholders' value.
-
-The company's ability to create value for the shareholders over time is strictly related to the deep understanding of the business model of the company as well as the investors' behaviour in the capital markets. The company valuation can be considered one of the most relevant fields in which the classical paradigms of the company meets the paradigms of the capital markets. Indeed, the right company's valuation requires high competence in the fields of strategy, financial management, corporate finance and capital markets.
-
-The basic equation of the value is based on a principle dating back to Alfred Marshall in 1890: company creates value if and only if, the return on capital invested exceeds its cost of capital.
-
-The amount of value is equal to the difference between cash in-flows deriving from the investment and the cost of capital invested able to reflect the time value of money and the risk premium. Consequently, to create value over time, the company must invest the capital raised at a rate of return higher than its capital cost. Therefore, there are two main variables of value creation:
-
-- the return on capital invested;
-- the cost of capital.
-
-In this book the company's ability to invest the capital raised by obtaining a high return, is investigated by the analysis of the company's fundamentals with regards to its business model and its economic and financial performances over time.
-
-Otherwise, the company's cost of capital invested in its business is investigated through an analysis of the risk-return profile of the company in the capital markets, on the basis of investors' models about risk-returns.
-
-Therefore, the models of company's fundamental analysis are integrated with the models used by investors in the capital markets to diversify risks and maximize their expected returns.
-
-The integration between the company's fundamental analysis and the investors' risk models and returns in the capital markets is essential for the company's success over time. It is not possible to correctly understand the company's ability to create value over time and to measure this value without the simultaneous deep knowledge of these models and their integration.
-
-# The Return of Capital Invested
-
-The return on capital invested in the business is function of the company's business model and the quantitative effects on its economic and financial dynamics. Specifically, the company's ability to create profit over time requires an analysis based on two main parts:
-
-- the qualitative analysis of the business model;
-- the quantitative analysis of the company's performance which regards to the effects of the business model choices on the economic and financial dynamics over time.
-
-The qualitative analysis of the company's business model is the first step to further understanding the company's ability to create value over time. The qualitative analysis of the company's business model proposed in this context is called "Company Strategic Formula" (CSF).
-
-The CSF defines the strategic profile of the company. Specifically, the CSF defines the way in which the company is organised internally and how it manages the relationships with external players for self-development over time. The CSF can be considered as the ideal conceptual place in which, on the basis of a systemic and dynamic paradigm: (i) the ideas are developed; (ii) the decisions are made; (iii) the operations are defined and planned. On the basis of a systemic and dynamic perspective, the CSF allows for the transformation of the "system of ideas" into the "systems of operations" by means of the "systems of decisions" in order to achieve and maintain economic-financial equilibrium over time.
-
-The CSF defines the strategic profile of the company, by considering two different "strategic fronts":
-
-- internal strategic front: it refers to the internal structure of the company;
-- external strategic front: it refers to the structural relationships between the company and the players of its environment classified into two main groups of business players and financial players.
-
-The Internal Strategic Front (ISF) refers to the internal structure of the company. It is defined from all elements, tangible and intangible, needed for the production of goods and services. The internal structure defines the company's specific characteristics by generating its uniqueness. It gives form and substance to the CSF by establishing the uniqueness of the thinking and operation of the company.
-
-Specifically, the internal structure of the company is defined on the basis of three main elements:
-
-- Corporate governance: it refers to the rules and the procedures by which the decision-making processes in the governmental area and how the managerial and operating activities of the company are defined:
-- Organizational architecture: it refers to how the company's resources are combined and coordinated between them for company operations. There are two main levels involved: (i) the organizational structure of the company, with regards to both hard and soft elements that give form, substance and operation to all parts of the organization; (ii) the operations, with regards to the processes and procedures that cross the company vertically and horizontally;
-- Strategic resources: it refers to the company's tangible and intangible assets and to the human skills necessary for their coordination. The company's strategic resources represent the most important way of competing in the business. Indeed, they provide the company with uniqueness and are able to protect its competitive advantage from imitation processes by generating "isolation mechanisms".
-
-The External Strategic Front (ESF) refers to the structural relationships between the company and external players. Company competitiveness is due to its ability to create value for all of its players simultaneously.
-
-The external players of the company can be classified into two main groups: (i) business players and (ii) financial players. Based on the differences in their nature, interests and behaviour, the external strategic front can be divided in two main parts:
-
-- Strategic Business Area (SBA): it refers to the real market in which the company carries out the business. The company can operate in more than one business. In any case, any strategic business area can be defined on the basis of two main elements: (i) competitive players, that refers to the players with which the company defines relationships. Specifically, they are customers, suppliers, competitors; (ii) product system, that refers to the product offered by the company with regards to its material and immaterial elements, service components and economic and non-economic terms. In each SBA the company competes by means of a defined business strategy in order to satisfy customer requirements and expectations better than competitors. It allows the company to obtain a competitive advantage in the business and greater profitability than competitors.
-Capital Market: it refers to the financial markets in which the company looks for the capital, in equity and debt, needed for its survival and development over time. The capital market can be defined according to two main elements: (i) financial players, that refers to the investors in equity and debt; (ii) financial company profile, that refers to the risk-return profile of the company. It is function of the company's expected cash-flows on one side and investor expectations about risk and returns. In the capital market the company competes
-
-through its financial strategy in order to acquire the capital needed, in equity and debt, at profitable conditions.
-
-The internal and external strategic fronts are two parts of a whole. The success of the company is function of their joint quality. They are subsequently strictly connected by systemic and dynamic relationships. Therefore, the CSF must be characterized by a "consonance" between all structural elements of the internal and external strategic fronts. This consonance must be: (i) Systemic: all elements of the internal and external strategic fronts must be aligned between them; (ii) Structural: there must always be correspondence between the characteristics of each element of the strategic fronts, both internal and external, based on well-defined and structural bidirectional relationships; (iii) Dynamic: the systemic-structural relationships between elements of the internal and external strategic fronts must be dynamic over time and never static. Therefore, the CSF can be defined as "consonant" only if the relationships between all of its elements can be defined as Systemic-Structural-Dynamic.
-
-The quantitative analysis of the company's performances requires an investigation into the economic and financial dynamics over time with regards to the past and the future. In order to simplify the comparison between the past and the future for the same company and between different companies over time, the same analytical schemes should be used. Several analytical schemes should be used. They are defined on the basis of the specific purpose of management according to the decision-making process.
-
-In this context, the analytical schemes used are defined based on the financial approach to company assessment and they are defined in order to investigate the three main pillars:
-
-- Operating Income and Net Income;
-Capital Invested and Capital Structure;
-- Free Cash-flow from Operations and Free Cash-flow to Equity.
-
-While the first defines the economic dynamic, the second and the third define the financial dynamics of the company.
-
-Using the analytical schemes proposed in this context, the following should be borne in mind:
-
-- they are defined with a view to the financial community rather than the accounting one. Therefore, they must not be confused with the analytical schemes used for balance sheet and income statement analysis and for definition of the classic accounting ratios. Moreover, terminology is not strictly based on the accounting rules;
-- they are strictly connected between them. Therefore, the definition of each one is strictly related to the composition of each other;
-- they are defined based on non-financial companies. Furthermore, they can also be used for financial companies after some changes in their structures;
-- they are used to analyse the expected future economic and financial dynamics for an estimate of company value. Therefore, their application to past data is necessary to link the past and future in a coherent manner.
-
-Furthermore, for greater understanding of the economic and financial dynamics of the company over time, past values should be aligned with expected future values. The alignment procedure between past and future values regarding Operating and Net Income, Capital Invested and Capital Structure, and Free Cash-flows from Operations and Free Cash-flows to Equity, as represented in the analytical schemes used, can be achieved by a procedure based on three main steps:
-
-- the first step, is the collection and recognition of past values: the aim is to build Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity of the company in the past. For this objective, the analyses should be based on the statement of financial position, income statement and cash flows statement on the one side and on the internal management accounts of the company on the other. The combination of these two data sources allows for an analysis of the real conditions of the company. An analysis of the management accounts is necessary for three main reasons: (i) they are built to support management in the decision-making phase; (ii) they are characterized by both monetary and non-monetary quantitative data; (iii) they are well known in their composition and dynamics thanks to the technique of the variance analysis implemented constantly;
-- the second step, is the "adjustment" of past values: the aim of this step is to obtain the "normalized" value of Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity of the company in the past. The aim of the process is to define these values in stand-alone conditions of the company. Therefore, their effects on extraordinary events in the broadest sense are not considered;
-- the third step, is an estimate process of value in the future: the aim of this step is to build estimates on Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity of the company in the future. A company business plan should be defined in order to achieve this objective. It is created by defining the Company Strategic Formula and by estimating its effects on future economic and financial dynamics.
-
-Based on these three steps, the origin of the company, where it is and where it plans to go should be clear. Thanks to normalization of the past economic and financial dynamics their values can dialogue with those expected for the future. Consequently, it is easier to highlight the jumps between the past and the future and to evaluate whether or not they can be fulfilled in the future based on the strategies that will be implemented.
-
-The qualitative and quantitative analyses are strictly related. The competitive advantage of the company, on the basis of its business model, must be reflected in the economic and financial values over time. Consequently, it is not possible to
-
-investigate into the company by only taking into consideration the analysis of its business model without considering the effects of the strategic choices on the economic and financial dynamics. At the same time, it is not possible to investigate into the company's ability to perform by considering the economic and financial dynamics without clearly understanding the source of the strategic choices.
-
-In the analysis of these two parts jointly, three are the main caveats to keep in mind:
-
-- first, there must always be full consistency between the business model of the firm and its economic and financial dynamics over time. The economic and financial analysis measures the quantitative effects of the business model on economic and financial dynamics with regards to the three dimensions of Operating and Net Income, Capital Invested and Capital Structure, and Cash-flow from Operations and Cash-flow to Equity. Therefore, while the analysis of the business model is a qualitative analysis, the analysis of economic and financial dynamics is a quantitative analysis. The two types of analysis cannot be separated and they are normally used together in the definition and assessment of the company's business planning. Consequently, an estimate of the expected economic and financial performance must be a coherent and consistent translation of the business model adopted by the company;
-- second, the future is the reference time. The value of the company is function of its ability to generate value in the future. In an analysis of the past, with regards both to the business model adopted and the economic and financial dynamics that it has fulfilled, it is important to understand if the future expectations of the company, as defined in the business model to be implemented and in the estimation of the expected cash-flows, are really reasonable or unreasonable;
-- third, the assumptions are the key variable of the forecast. The business model implemented and the estimation of the expected economic and financial dynamics are based on assumptions. Then, the quality of the forecast is function of the quality of the baseline assumptions.
-
-Generally, an analysis of the assumptions requires strict coherence or a reasonable relationship based on personal elements of the company or straightforward to acquire. In this sense, the reference assumptions should be clearly defined for each variable, also in their relationship with other assumptions. Each assumption must be individually reliable and coherent with each other.
-
-In order to investigate the company's profitability it is necessary to investigate into the product's margin profitability. Indeed, the company's profitability is a function of product's profitability. The most relevant problem concerns the right definition of the full cost of product in every moment of company life. It seems to be simple to define the product cost. Unfortunately, this simplicity is only apparent.
-
-Indeed, the correct measurement and knowledge in each period the product cost allows us to answer some fundamental questions such as: how much did the product cost? What is the right price on the basis of production costs on the one hand, and market competition on the other? What is product margin and then its profitability?
-
-The wrong determination of product cost is one of the main elements of the wrong prediction of product margin and, on a general level, company profitability.
-
-# The Cost of Capital
-
-One of the more relevant problems in the valuation process is the risk. Indeed, the company's value is function of its future capability to create cash-flows higher than the cost of capital. Consequently, risk enters into a valuation process both through the cost of capital, that can be interpreted as the price of risk, and in the uncertainty future cash-flows.
-
-The cost of capital for the company is one of the most relevant variables in the company's valuation models. It is probably one of the most relevant topics for managers and financial economists. For decades several studies focused on the relationship between capital structure, cost of capital and company value. Despite a broad experience approach in both academic and practices, it is not surprising that the method for estimation of the cost of capital is still under intensive discussion.
-
-An estimate of the cost of capital for the company requires the investors' behaviour and expectations in the capital market. Unfortunately, it requires the knowledge of their models about the risk valuation and the expected returns estimation. The greater the managers' skill to understand the investors' behaviour and their choices, the greater the company's probability to satisfy the investors' expectations by acquiring the capital needed for its development at favourable conditions.
-
-Consequently, the managers must define their strategies and operational processes by considering the business and industrial logics with regards to customers, suppliers, competitors as well as the financial criterion with regards to investors in equity and debt.
-
-The theory of the choices under uncertainty leads to the decision-making process in capital markets. The aim is to analyse the behaviour of the rational investor under uncertainty. Specifically, the aim of the theory is not to define a set of criteria for the investor's preference for general validity because all investors are different from one another. Otherwise, the aim of the theory is to define a set of criteria of the decision-making process based on a few principles characterized by generality, rationality, economic significance, consistency with individual criteria, and therefore able to have a normative function.
-
-In this regard, the theory defines the criteria by which the rational investor chooses between the real possible options, considering the restrictions, on the basis of the expected effects that could be achieved according to their nature and that can be sorted in consideration of the relative probability.
-
-The portfolio choices (or portfolio selection) is a problem related to wealth allocation between different investment assets.
-
-The mean-variance approach is the most widely used in the portfolio selections. The portfolio selection is based on two variables: (i) expected value of the portfolio return; (ii) variance of the expected portfolio return measuring the portfolio risk. An
-
-efficient portfolio must satisfy the Pareto optimal condition. Therefore, the investor prefers the portfolio that is capable of maximising its expected return to an equal variance or the portfolio capable of minimizing its variance to an equal expected return.
 
 This approach simplifies the problem of portfolio selection. There are two main advantages: first, it does not require any specifications in terms of probability distribution; second, it is simple and intuitive because it is only based on the mean and variance. However, it is also true that this approach neglects a lot of relevant information about distribution probability.
 
@@ -396,9 +299,7 @@ One of the most popular models to estimate the company's cost of capital derives
 
 The standard form of CAPM provides a clear description of capital market behaviour if its basic assumptions are respected. There are two main problems.
 
-First, it is based on strictly basic assumptions some of which are very far from conditions of reality. This is not a problem in itself. The fact that these differences from reality are irrelevant enough, they do not have a material effect on the model's explanatory power. However, during the years some different versions of the
-
-standard CAPM have been developed by changing specific basic assumptions. The aim is to understand and to explain the standard version of the CPM in greater detail, with the investor's behaviour on the one hand, and the assets price on the other hand.
+First, it is based on strictly basic assumptions some of which are very far from conditions of reality. This is not a problem in itself. The fact that these differences from reality are irrelevant enough, they do not have a material effect on the model's explanatory power. However, during the years some different versions of the standard CAPM have been developed by changing specific basic assumptions. The aim is to understand and to explain the standard version of the CPM in greater detail, with the investor's behaviour on the one hand, and the assets price on the other hand.
 
 Second, the CAPM describes the conditions of equilibrium about returns on the macro level. It does not describe this equilibrium on a micro level with regards to individual investor behaviour. Indeed, most investors and institutions have a risky assets portfolio different from the market portfolio.
 
@@ -414,9 +315,7 @@ The basic equation of value states that the company creates value if and only if
 
 1. the DCF is based on cash-flows. The cash-flows are preferred by investors who distrust of accounting measurements. Specifically, bondholders are interested in cash-flows from operations because the company's capability to pay interest on debt and to reimburse the debt depends on their amount. Otherwise, the shareholders are interested in cash-flows to equity because the company's capability to pay dividends depends on their amount and timing. Accounting earnings and value are not one and the same. Also, if earnings and cash flows are correlated, earnings do not tell the whole story of value creation. Then, focusing too much on earnings, and then earning growths, often it leads the company to stray from a value-creating path. Earnings do not drive value in their own right. Only cash-flows can be considered as the fundamental value drivers.
 
-It is worth noting that cash-flows are the monetary dimensions of the company. In the capital markets only the monetary values can be moved over time by giving real relevance and fairness to the mechanism of actualization and capitalization. Indeed, the capital market has two main functions: first, it allows for the movement of money over time; second, it allows for the allocation of
-
-money between assets and future events. In this context the financial monetary costs as well as the relationship between risk and return are based only on the movement of the monetary value over time in order to consume and invest;
+It is worth noting that cash-flows are the monetary dimensions of the company. In the capital markets only the monetary values can be moved over time by giving real relevance and fairness to the mechanism of actualization and capitalization. Indeed, the capital market has two main functions: first, it allows for the movement of money over time; second, it allows for the allocation of money between assets and future events. In this context the financial monetary costs as well as the relationship between risk and return are based only on the movement of the monetary value over time in order to consume and invest;
 
 2. the value-creation principle states that the company creates value only if the returns on capital invested are greater than the cost of capital. The DCF allows for rewriting of the basic equation between the return on capital invested and the cost of capital in terms of expected cash-flows over time and cost of capital used as discounted rate.
 
@@ -444,10 +343,10 @@ Equation (11.1) has a great theoretical relevance. It estimates the value of the
 
 The general equation has a relevant theoretical importance but it is not applicable directly. There are two main problems to be solved before:
 
-the valuation time-period;
+- the valuation time-period;
 - the valuation perspective.
 
-The first problem is definition of the valuation time-period. In Eq. (11.1) time goes from  $1$  ( $t = 1$ ) to infinite ( $t = n$ ). Therefore, Eq. (11.1) is not directly applicable. The problem can be solved by dividing the valuation time-period in two conceptual parts:
+The first problem is definition of the valuation time-period. In Eq. (11.1) time goes from $1$ ($t = 1$) to infinite ($t = n$). Therefore, Eq. (11.1) is not directly applicable. The problem can be solved by dividing the valuation time-period in two conceptual parts:
 
 - definite time-period: it is the time period of analytic valuation. Generally, this time period is equal to 3 or 5 years on the basis of company characteristics and its market, and it defines the time period of the business plan;
 - indefinite time-period: it is the time period of synthetic valuation. It goes from the end of time-period of analytic valuation to infinity by using the Terminal Value (TV). Generally, the Terminal Value measures the company's value after the analytic valuation.
@@ -458,7 +357,7 @@ $$
 W_{F} = \sum_{t = 1}^{n} \frac{CF_{t}}{(1 + K)^{t}} + \frac{TV_{n}}{(1 + K)^{n}} \tag{11.2}
 $$
 
-where  $TV_{n}$  indicates the Terminal Value at the end ( $t = n$ ) of the period of the analytical valuation.
+where $TV_{n}$ indicates the Terminal Value at the end ($t = n$) of the period of the analytical valuation.
 
 Therefore, while the first part of the equation estimates the company value in a given time period (analytic value of the company), the second part of the equation estimates the company value in an indefinite time period by using the Terminal Value (synthetic value of the company).
 
@@ -470,7 +369,7 @@ The second problem is the valuation perspective. Application of Eq. (11.1) requi
 It is possible to summarize as follows:
 
 $$
-W_{F} = \sum_{t = 1}^{n} \frac{CF_{t}}{(1 + K)^{t}} + \frac{TV_{n}}{(1 + K)^{n}} \rightarrow\begin{array}{l}\text{Equity Side} \rightarrow W_{E} = \sum_{t = 1}^{n} \frac{FCFE_{t}}{\left(1 + K_{E}\right)^{t}} + \frac{TV_{n}}{\left(1 + K_{E}\right)^{n}}\\
+W_{F} = \sum_{t = 1}^{n} \frac{CF_{t}}{(1 + K)^{t}} + \frac{TV_{n}}{(1 + K)^{n}} \rightarrow \begin{array}{l}\text{Equity Side} \rightarrow W_{E} = \sum_{t = 1}^{n} \frac{FCFE_{t}}{\left(1 + K_{E}\right)^{t}} + \frac{TV_{n}}{\left(1 + K_{E}\right)^{n}}\\
 \text{Asset Side} \rightarrow W_{A} = \sum_{t = 1}^{n} \frac{FCFO_{t}}{\left(1 + K_{A}\right)^{t}} + \frac{TV_{n}}{\left(1 + K_{A}\right)^{n}}\end{array}\tag{11.3}
 $$
 

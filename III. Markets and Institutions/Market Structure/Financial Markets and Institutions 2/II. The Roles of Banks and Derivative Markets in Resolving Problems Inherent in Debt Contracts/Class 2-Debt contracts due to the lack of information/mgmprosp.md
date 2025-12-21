@@ -1,13 +1,21 @@
 ---
-parent_directory:
-title: FORM 424B5
-tags:
-aliases:
-parent_folder: Class 2-Debt contracts due to the lack of information
-subfolder:
-key_concepts:
+title: FORM 424B5 MGM MIRAGE DEVELOPMENT
+primary_tags:
+  - sec filings
+  - debt securities
+  - corporate bonds
+  - credit risk
+secondary_tags:
+  - form 424b5
+  - senior notes
+  - gaming industry
+  - credit analysis
+  - prospectus supplement
+  - registration statement
+  - debt offering
+  - interest rate risk
+  - maturity structure
 cssclasses: academia
-linter-yaml-title-alias: FORM 424B5
 ---
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/9325604b-6108-49ad-bee0-3462e476bc84/edf433ecb566e55f6442e5685cae4ad63d73c55949e77cd562ec15f3476fb274.jpg)

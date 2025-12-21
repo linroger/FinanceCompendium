@@ -8,11 +8,16 @@
 
 **Good Tags:**
 ```yaml
-tags:
+primary_tags:
   - fixed_income
   - bond_pricing
   - term_structure
+secondary_tags:
   - duration_convexity
+  - yield_curve_construction
+  - spot_rates
+  - forward_rates
+  - zero_coupon_bonds
 ```
 
 **Bad Tags:**
@@ -28,11 +33,16 @@ tags:
 
 **Good Tags:**
 ```yaml
-tags:
+primary_tags:
   - derivatives
   - option_pricing
-  - black_scholes
+  - black_scholes_model
+secondary_tags:
   - greeks_hedging
+  - implied_volatility
+  - risk_neutral_valuation
+  - put_call_parity
+  - delta_hedging
 ```
 
 **Bad Tags:**
@@ -48,11 +58,16 @@ tags:
 
 **Good Tags:**
 ```yaml
-tags:
+primary_tags:
   - macroeconomics
   - monetary_policy
-  - inflation_targeting
   - central_banking
+secondary_tags:
+  - inflation_targeting
+  - interest_rate_rules
+  - taylor_rule
+  - open_market_operations
+  - quantitative_easing
 ```
 
 **Bad Tags:**
@@ -68,11 +83,16 @@ tags:
 
 **Good Tags:**
 ```yaml
-tags:
+primary_tags:
   - corporate_finance
   - capital_structure
   - valuation_methods
+secondary_tags:
   - dcf_analysis
+  - weighted_average_cost_of_capital
+  - mergers_and_acquisitions
+  - enterprise_value
+  - free_cash_flow
 ```
 
 **Bad Tags:**
@@ -93,27 +113,23 @@ Is this concept...
 ├── A general methodology that could apply to other documents?
 │   └── YES - Good candidate for tag
 ├── The main domain/field of study?
-│   └── YES - Use as primary domain tag (1-2 max)
+│   └── YES - Use as primary tag (1-2 max)
 └── Something a researcher would search for?
     └── YES - Good candidate for tag
 ```
 
-## Key Concepts vs Tags
+## Primary vs Secondary Tags
 
-**Tags:** Short, searchable, snake_case, highly reusable
-```yaml
-tags:
-  - option_pricing
-  - no_arbitrage
-```
+**Primary Tags:**
+- The 1-10 MOST important key phrases
+- Core concepts, central themes, main methodologies
+- Must appear in title or main heading
+- Example: `option_pricing`, `black_scholes_model`
 
-**Key Concepts:** More descriptive, can be phrases, document-specific applications
-```yaml
-key_concepts:
-  - American vs European option exercise
-  - No-arbitrage pricing in complete markets
-  - Risk-neutral valuation framework
-```
+**Secondary Tags:**
+- Up to 25 supporting key phrases
+- Related concepts, peripheral topics, additional context
+- Example: `implied_volatility`, `risk_neutral_valuation`
 
 ## Common Domain Tags Reference
 

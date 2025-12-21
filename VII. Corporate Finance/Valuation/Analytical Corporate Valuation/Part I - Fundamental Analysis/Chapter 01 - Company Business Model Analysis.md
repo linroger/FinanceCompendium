@@ -173,7 +173,7 @@ This alignment must be dynamic since both the internal structure of the company 
 
 Definition of the Organization Structure and Operations must be related to the company strategies in its competitive environment. The alignment between strategies and organization and operating model is the result of the bidirectional relationships based on an iterative logic approach (Grant 1991).
 
-# (c) Strategic Resources
+###### (c) Strategic Resources
 
 The strategic resources of the company refer to the company's tangible and intangible assets and the human skills necessary for their coordination.
 
@@ -227,7 +227,7 @@ Strategic Business Area (SBA) the company refers to the real market in which it 
 
 The relationship between the company and competitors, is characterized by continuous and systematic competition in order to acquire and to maintain a competitive advantage. The relationship is based on strategic interaction arising from the dynamic mechanisms of actions-reactions by generating the competitive dynamics in the market and its average profitability.
 
-The interactions among these players define the competitive system in the SBA (Porter 1985);
+The interactions among these players define the competitive system in the SBA (Porter 1985).
 
 - product system: it refers to the product offered by the company with regards to its material and immaterial elements, service components and economic and non-economic terms. The product must also incorporate the image and reputation of the company. Therefore, it should be defined as a "product system" rather than a product because it incorporates the technical elements, as well as the image, the value, and the history of the company (Bertini 1990; Coda 1988; Bianchi Martini 2009).
 
@@ -366,9 +366,7 @@ Based on this the internal structure of the company allows for the achievement a
 
 The success of the company should not be interpreted as a temporary situation but as a way of being. In this sense, rather than representing a target to be achieved at given periods of time, the Systemic-Structural-Dynamic Consonance of the CSF should be considered as a strategic approach based on change.
 
-The internal structure of the company plays a key role in the CSF. It is the ring that connects the business and financial strategies allowing for the creation of a
-
-virtuous circle between them. Specifically, the distinctive resources allow for the ideation, the design and the development of a product system in line with the needs and expectations of customers in a better way than competitors. The ability of the product system to satisfy the critical factors of strategic business area, allows the company to generate, to develop and to defend a competitive advantage over competitors in the SBA over time by generating company value.
+The internal structure of the company plays a key role in the CSF. It is the ring that connects the business and financial strategies allowing for the creation of a virtuous circle between them. Specifically, the distinctive resources allow for the ideation, the design and the development of a product system in line with the needs and expectations of customers in a better way than competitors. The ability of the product system to satisfy the critical factors of strategic business area, allows the company to generate, to develop and to defend a competitive advantage over competitors in the SBA over time by generating company value.
 
 The company's ability to generate value in the SBA together with an internal structure characterized by efficiency and effectiveness of the organizational and operating model and by good governance, allows the company to present itself to capital market with a risk-return profile in line with investor expectations. The positive assessment of investors allows the company to generate, to develop and to defend a competitive advantage over competitors in the capital market increasing the company's ability to attract the capital required for its development at profitable conditions.
 
@@ -477,7 +475,7 @@ In order to simplify the comparison between the past and the future for the same
 In this contest, the analytical schemes used are defined based on the financial approach to company assessment and they are defined in order to investigate the three main pillars:
 
 - Operating Income and Net Income;
-Capital Invested and Capital Structure;
+- Capital Invested and Capital Structure;
 - Free Cash-flow from Operations and Free Cash-flow to Equity;
 
 While the first defines the economic dynamic, the second and the third define the financial dynamic of the company.
@@ -489,9 +487,7 @@ Using the analytical schemes proposed in this context, the following should be b
 - they are defined based on non-financial companies. Furthermore, they can also be used for financial companies after some changes in their structures;
 - they are used to analyse the expected future economic and financial dynamics for an estimate of company value. Therefore, their application to past data is necessary to link the past and future in a coherent manner.
 
-Furthermore, for greater understanding of the economic and financial dynamics of the company over time, past values should be aligned with expected future values. The alignment procedure between past and future values regarding Operating and Net Income, Capital Invested and Capital Structure, and Free
-
-Cash-flows from Operations and Free Cash-flows to Equity, as represented in the analytical schemes used, can be achieved by a procedure based on three main steps:
+Furthermore, for greater understanding of the economic and financial dynamics of the company over time, past values should be aligned with expected future values. The alignment procedure between past and future values regarding Operating and Net Income, Capital Invested and Capital Structure, and Free Cash-flows from Operations and Free Cash-flows to Equity, as represented in the analytical schemes used, can be achieved by a procedure based on three main steps:
 
 - the first step, is the collection and recognition of past values: the aim is to build Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity of the company in the past. For this objective, the analyses should be based on the balance sheet, income statement and cash flows statement on the one side, and on the internal management accounts of the company on the other side. The combination of these two data sources allows for an analysis of the real condition of the company. An analysis of the management accounts is necessary for three main reasons: (i) they are built to support management in the decision-making phase; (ii) they are characterized by both monetary and non-monetary quantitative data; (iii) they are well known in their composition and dynamics thanks to the technique of the variance analysis implemented constantly;
 - the second step, is the "adjustment" of past values: the aim of this step is to obtain the "normalized" value of Operating and Net Income, Capital Invested and Capital Structure, Free Cash-flow from Operations and Free Cash-flow to Equity of the company in the past. The aim of the process is to define these values in stand-alone conditions of the company. Therefore, their effects on extraordinary events in the broadest sense are not considered;
@@ -588,9 +584,48 @@ style: {
 }
 ```
 
-Table 1.1 Analytical scheme of the Operating and Net Income
+**Table 1.1** Analytical scheme of the Operating and Net Income
 
-<table><tr><td>Net sales revenues</td></tr><tr><td>Net operating revenues</td></tr><tr><td>(Costs of raw materials, parts of products and products)</td></tr><tr><td>(Costs of production of goods and services and distribution services)</td></tr><tr><td>(Costs of direct labour on production)</td></tr><tr><td>Direct operating costs of goods and services sold</td></tr><tr><td>Gross profit</td></tr><tr><td>(Costs of research and development)</td></tr><tr><td>(Costs of marketing and sales)</td></tr><tr><td>(Costs of administration)</td></tr><tr><td>(Costs of advisory)</td></tr><tr><td>(Costs of employees)</td></tr><tr><td>(Costs of leasing and rent)</td></tr><tr><td>(Other general operating costs)</td></tr><tr><td>Indirect operating costs (cash)</td></tr><tr><td>EBITDA</td></tr><tr><td>(Amortization of intangible operating assets)</td></tr><tr><td>(Depreciation of tangible operating assets)</td></tr><tr><td>(Accruals for employees)</td></tr><tr><td>(Accruals for risk, charges and taxes)</td></tr><tr><td>(Changes in value of operating assets)</td></tr><tr><td>Operating costs (non-cash)</td></tr><tr><td>EBIT</td></tr><tr><td>Operating financial revenues</td></tr><tr><td>(Interest on debts)</td></tr><tr><td>(Other financial costs)</td></tr><tr><td>Financial profit/(loss)</td></tr><tr><td>EBT—operating</td></tr><tr><td>Non-operating and non-current operating revenues</td></tr><tr><td>Non-operating financial revenues</td></tr><tr><td>(Non-operating and non-current operating costs)</td></tr><tr><td>(Amortization and depreciation of intangible and tangible surplus assets)</td></tr><tr><td>(Changes in value of surplus assets)</td></tr><tr><td>Non-operating profit/(loss)</td></tr><tr><td>EBT</td></tr><tr><td>(Current operating taxes)</td></tr><tr><td>(Current corporate taxes)</td></tr><tr><td>Net income</td></tr></table>
+| Item |
+|------|
+| Net sales revenues |
+| Net operating revenues |
+| (Costs of raw materials, parts of products and products) |
+| (Costs of production of goods and services and distribution services) |
+| (Costs of direct labour on production) |
+| Direct operating costs of goods and services sold |
+| Gross profit |
+| (Costs of research and development) |
+| (Costs of marketing and sales) |
+| (Costs of administration) |
+| (Costs of advisory) |
+| (Costs of employees) |
+| (Costs of leasing and rent) |
+| (Other general operating costs) |
+| Indirect operating costs (cash) |
+| EBITDA |
+| (Amortization of intangible operating assets) |
+| (Depreciation of tangible operating assets) |
+| (Accruals for employees) |
+| (Accruals for risk, charges and taxes) |
+| (Changes in value of operating assets) |
+| Operating costs (non-cash) |
+| EBIT |
+| Operating financial revenues |
+| (Interest on debts) |
+| (Other financial costs) |
+| Financial profit/(loss) |
+| EBT—operating |
+| Non-operating and non-current operating revenues |
+| Non-operating financial revenues |
+| (Non-operating and non-current operating costs) |
+| (Amortization and depreciation of intangible and tangible surplus assets) |
+| (Changes in value of surplus assets) |
+| Non-operating profit/(loss) |
+| EBT |
+| (Current operating taxes) |
+| (Current corporate taxes) |
+| Net income |
 
 Net sales revenue (or more simply net sales) are the starting point. Revenues are the result of the sale of goods and services to customers. The word "net" refers to the difference between gross sales (the total invoice of goods and services) and the sales returns and allowances that refer to the sales value of goods that were returned by customers and reimbursements to customers due to faulty goods or for some other reason related to the product and service. This amount can be subtracted from sales directly.
 
@@ -668,7 +703,7 @@ A general rule (practical rather than scientific) assumes that the company is ch
 
 - equal or higher than  $40\%$  continuously over time: it has some kind of competitive advantage;
 - lower than  $40\%$ : the business of the company is characterized by a high level of competition, reducing the company's profitability;
-equal or lower than  $20\%$ : the business of the company is characterized by a very high level of competition where no company is characterized by a competitive advantage on competitors sustainable over time. If the company in this type of business does not have a competitive advantage, it normally has a low level of profitability.
+- equal or lower than  $20\%$ : the business of the company is characterized by a very high level of competition where no company is characterized by a competitive advantage on competitors sustainable over time. If the company in this type of business does not have a competitive advantage, it normally has a low level of profitability.
 
 In order to understand further the Gross Profit Margin, a historical track record can be used considering a range between 7 and 10 years. The competitive advantage must exist and it must be sustainable over time. In this sense, the key word about the competitive advantage is "continuity" over time.
 
@@ -685,9 +720,7 @@ The amount of operating costs can be very different among the companies due to t
 
 The relevance of these costs can be measured on the basis of the EBITDA percentage of net operating revenues or on Gross Profit.
 
-Generally, if the market is characterized by a high level of competition and if the company does not have a defined competitive advantage, these costs tend to be high. Generally, these costs absorb between 30 and  $70\%$  of the Gross Profit. If it is equal or lower than  $30\%$  over time, the company can be considered as
-
-high-performing. Otherwise, the closer it get to  $100\%$  the worse the condition of the company.
+Generally, if the market is characterized by a high level of competition and if the company does not have a defined competitive advantage, these costs tend to be high. Generally, these costs absorb between 30 and  $70\%$  of the Gross Profit. If it is equal or lower than  $30\%$  over time, the company can be considered as high-performing. Otherwise, the closer it get to  $100\%$  the worse the condition of the company.
 
 The EBIT (Earnings Before Interest and Taxes) is the net operating income because it incorporates non-cash operating costs such as amortization, depreciation and accruals. These non-cash operating costs define the second part of the hard costs and define the distance between EBITDA and EBIT.
 
@@ -697,7 +730,7 @@ There are two main elements with regards to the difference between EBITDA and EB
 
 If the company invests in operating and non-operating assets, and the investments in non-operating assets are so important as to disturb reading of the EBIT, the amortization and depreciation relate these non-operating assets can be located out of the EBT-Operating. In this case, it is necessary to distinguish between amortization and depreciation operating and non-operating.
 
-accruals for risk and charges: the distance measures the risks undertaken by the company in time. In a dynamic perspective, relevance is mainly due to the probability that they are not enough to cover future costs if they will be executed. Generally, the greater the provision for risk and charges, the higher the probability that the events referenced may be fulfilled and therefore, the higher the risk that they will not be enough. Therefore, the real problem is to understand if the provisions are enough to cover the costs derived from execution of the future events considered to be feasible.
+- accruals for risk and charges: the distance measures the risks undertaken by the company in time. In a dynamic perspective, relevance is mainly due to the probability that they are not enough to cover future costs if they will be executed. Generally, the greater the provision for risk and charges, the higher the probability that the events referenced may be fulfilled and therefore, the higher the risk that they will not be enough. Therefore, the real problem is to understand if the provisions are enough to cover the costs derived from execution of the future events considered to be feasible.
 
 It is worth noting that the difference between EBITDA and EBIT is relevant in the economic perspective only. Indeed, in the financial perspective they are equal because non-cash operating costs do not affect cash flows.
 
@@ -728,9 +761,48 @@ The aim of the analytical scheme proposed is to highlight the main figures whose
 
 Table 1.4 illustrates the analytical scheme used for analysis of the Capital Invested and Capital Structure.
 
-Table 1.4 Analytical scheme of the capital invested and capital structure
+**Table 1.4** Analytical scheme of the capital invested and capital structure
 
-<table><tr><td>Net intangible operating assets</td></tr><tr><td>Net tangible operating assets</td></tr><tr><td>Financial operating assets</td></tr><tr><td>Inventory stable over time</td></tr><tr><td>Net operating capital expenditures (CAPEX)</td></tr><tr><td>Trade receivables net</td></tr><tr><td>(Trade payables)</td></tr><tr><td>Trade working capital (TWC)</td></tr><tr><td>Inventory</td></tr><tr><td>Others operating receivables net</td></tr><tr><td>(Others operating payables)</td></tr><tr><td>Net working capital (NWC)</td></tr><tr><td>Net operating capital invested (NOCI)</td></tr><tr><td>Net intangible surplus assets</td></tr><tr><td>Net tangible surplus assets</td></tr><tr><td>Financial surplus assets</td></tr><tr><td>Non-operating and non-current operating receivables</td></tr><tr><td>(Non-operating payables and non-current operating payables)</td></tr><tr><td>Surplus assets (SA)</td></tr><tr><td>(Provision for employee)</td></tr><tr><td>(Provisions for risk, charges and taxes)</td></tr><tr><td>(Provisions)</td></tr><tr><td>Capital invested (CI)</td></tr><tr><td>Share capital</td></tr><tr><td>Realized retained earnings</td></tr><tr><td>(Treasury shares)</td></tr><tr><td>Net profit (loss)</td></tr><tr><td>Equity (E)</td></tr><tr><td>Long-term financial debts</td></tr><tr><td>(Long-term financial credits)</td></tr><tr><td>Long-term net financial position (L-NFP)</td></tr><tr><td>Short-term financial debts</td></tr><tr><td>(Short-term financial credits)</td></tr><tr><td>(Marketable securities)</td></tr><tr><td>(Cash and cash-equivalent)</td></tr><tr><td>Short-term net financial position (S-NFP)</td></tr><tr><td>Net financial position (NFP)</td></tr><tr><td>Capital structure (CS)</td></tr></table>
+| Item |
+|------|
+| Net intangible operating assets |
+| Net tangible operating assets |
+| Financial operating assets |
+| Inventory stable over time |
+| Net operating capital expenditures (CAPEX) |
+| Trade receivables net |
+| (Trade payables) |
+| Trade working capital (TWC) |
+| Inventory |
+| Others operating receivables net |
+| (Others operating payables) |
+| Net working capital (NWC) |
+| Net operating capital invested (NOCI) |
+| Net intangible surplus assets |
+| Net tangible surplus assets |
+| Financial surplus assets |
+| Non-operating and non-current operating receivables |
+| (Non-operating payables and non-current operating payables) |
+| Surplus assets (SA) |
+| (Provision for employee) |
+| (Provisions for risk, charges and taxes) |
+| (Provisions) |
+| Capital invested (CI) |
+| Share capital |
+| Realized retained earnings |
+| (Treasury shares) |
+| Net profit (loss) |
+| Equity (E) |
+| Long-term financial debts |
+| (Long-term financial credits) |
+| Long-term net financial position (L-NFP) |
+| Short-term financial debts |
+| (Short-term financial credits) |
+| (Marketable securities) |
+| (Cash and cash-equivalent) |
+| Short-term net financial position (S-NFP) |
+| Net financial position (NFP) |
+| Capital structure (CS) |
 
 The Capital Invested (CI) consists of investments in Capex, Net Working Capital, Surplus Assets, less Provisions. The Capital Structure (CS) is defined by Equity and Net Financial Debt.
 
@@ -782,7 +854,7 @@ Nevertheless, they can be considered as debt for the company and thus as financi
 
 The Equity refers to the personal sources of the company. There are two main types:
 
-capital invested by the stockholders;
+- capital invested by the stockholders;
 - self-financing of the company due to the cash-flows generated and not distributed in dividends form, by increasing reserves.
 
 The Net Financial Position (NFP) refers to the net financial debt of the company. It is equal to the difference between financial debts only (both long and short term) and liquidity, marketable assets and financial credits. The NFP can be divided in two parts:

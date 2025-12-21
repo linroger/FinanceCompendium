@@ -1,11 +1,38 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 03 - Hedging Strategies Using Futures
+primary_tags:
+  - futures_hedging
+  - short_hedges
+  - long_hedges
+  - basis_risk
+  - hedge_ratio
+  - cross_hedging
+  - optimal_hedge_ratio
+  - spot_futures_convergence
+  - hedging_effectiveness
+  - futures_contracts
+secondary_tags:
+  - commodity_hedging
+  - currency_hedging
+  - interest_rate_hedging
+  - cross_currency_basis
+  - hedge_accounting
+  - hedging_costs
+  - hedge_rollover
+  - forwardation_backwardation
+  - contango_backwardation
+  - hedge_timing
+  - delivery_month_selection
+  - hedge_termination
+  - hedging_with_swaps
+  - hedging_with_options
+  - portfolio_hedging
+  - systematic_risk_hedging
+  - basis_change_impact
+  - cross_hedge_efficiency
+  - hedge_correlation
+  - minimum_variance_hedge
 cssclasses: academia
-title: 3.1 BASIC PRINCIPLES
-linter-yaml-title-alias: 3.1 BASIC PRINCIPLES
 ---
 
 # 3.1 BASIC PRINCIPLES
@@ -768,4 +795,73 @@ $$ can be used as a basis for hedging a diversified portfolio, as described in S
 Interest rates are a factor in the valuation of virtually all derivatives and will feature prominently in much of the material that will be presented in the rest of this book. This chapter introduces a number of different types of interest rate. It deals with some fundamental issues concerned with the way interest rates are measured and analyzed. It explains the compounding frequency used to define an interest rate and the meaning of continuously compounded interest rates, which are used extensively in the analysis of derivatives. It covers zero rates, par yields, and yield curves, discusses bond pricing, and outlines a "bootstrap" procedure commonly used to calculate zero-coupon interest rates. It also covers forward rates and forward rate agreements and reviews different theories of the term structure of interest rates. Finally, it explains the use of duration and convexity measures to determine the sensitivity of bond prices to interest rate changes.
 
 Chapter 6 will cover interest rate futures and show how the duration measure can be used when interest rate exposures are hedged. For ease of exposition, day count conventions will be ignored throughout this chapter. The nature of these conventions and their impact on calculations will be discussed in Chapters 6 and 7.
+
+## D2 Diagrams for Hedging Strategies
+
+### Basic Hedge Types
+```d2
+# Basic Hedging Strategies
+short_hedge: "Short Hedge\n(Sell Futures)"
+long_hedge: "Long Hedge\n(Buy Futures)"
+spot_position: "Spot Position\nOwn Asset"
+futures_position: "Futures Position\nOpposite Direction"
+
+spot_position -> short_hedge: "Protect against\ndecreasing prices"
+futures_position -> short_hedge: "Sell futures to\noffset spot risk"
+
+spot_position -> long_hedge: "Protect against\nincreasing prices"
+futures_position -> long_hedge: "Buy futures to\noffset spot risk"
+```
+
+### Basis Risk Components
+```d2
+# Basis Risk Structure
+basis: "Basis = Spot Price - Futures Price"
+spot_price: "Spot Price of Asset to be Hedged"
+futures_price: "Futures Price of Contract Used"
+
+basis -> spot_price
+basis -> futures_price
+spot_price -> "Reflects local supply/demand"
+futures_price -> "Reflects broader market conditions"
+
+# Basis behavior over time
+time_zero: "Time 0: Hedge Initiated"
+time_final: "Time T: Hedge Closed"
+basis_zero: "Basis at Initiation"
+basis_final: "Basis at Close"
+
+time_zero -> basis_zero
+time_final -> basis_final
+basis_zero -> basis_final: "Basis converges to zero\nat expiration"
+```
+
+### Cross Hedging Framework
+```d2
+# Cross Hedging Structure
+asset_to_hedge: "Asset to be Hedged\n(Different from Futures Asset)"
+futures_asset: "Futures Contract Asset\n(Underlying Asset)"
+correlation: "Correlation between\nAsset and Futures Prices"
+hedge_ratio: "Optimal Hedge Ratio\nMinimizes Variance"
+
+asset_to_hedge -> correlation: "Price relationship"
+futures_asset -> correlation: "Price relationship"
+correlation -> hedge_ratio: "Determines optimal ratio"
+hedge_ratio -> "Number of futures\ncontracts to trade"
+```
+
+### Hedge Effectiveness Evaluation
+```d2
+# Hedge Effectiveness Analysis
+unhedged_risk: "Unhedged Risk\nFull exposure to price changes"
+hedged_position: "Hedged Position\nReduced exposure via futures"
+basis_risk: "Basis Risk\nRemaining uncertainty"
+hedging_cost: "Hedging Cost\nTransaction fees, slippage"
+
+unhedged_risk -> hedged_position: "Risk reduction"
+hedged_position -> basis_risk: "Residual risk remains"
+hedged_position -> hedging_cost: "Incurs hedging costs"
+basis_risk -> "Uncertainty in basis\nat hedge termination"
+hedging_cost -> "Cost of implementing\nthe hedge strategy"
+```
 

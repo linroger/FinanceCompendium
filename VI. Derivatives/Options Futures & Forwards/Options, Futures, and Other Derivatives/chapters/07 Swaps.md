@@ -1,11 +1,40 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 07 - Swaps
+primary_tags:
+  - interest_rate_swaps
+  - currency_swaps
+  - credit_default_swaps
+  - swap_valuation
+  - comparative_advantage
+  - risk_management
+  - derivatives_markets
+secondary_tags:
+  - libor_transition
+  - sofr_rates
+  - overnight_indexed_swaps
+  - swap_contracts
+  - forward_rate_agreements
+  - zero_coupon_swaps
+  - basis_swaps
+  - cross_currency_swaps
+  - swap_market_makers
+  - bid_ask_spreads
+  - swap_confirmation
+  - isda_master_agreement
+  - day_count_conventions
+  - floating_rate_indices
+  - fixed_rate_bonds
+  - swap_rate
+  - comparative_advantage_argument
+  - swap_valuation_methods
+  - forward_contracts
+  - futures_contracts
+  - counterparty_risk
+  - collateral_requirements
+  - margin_requirements
+  - central_clearing_parties
+  - swap_execution_facilities
 cssclasses: academia
-title: 7.1 MECHANICS OF INTEREST RATE SWAPS
-linter-yaml-title-alias: 7.1 MECHANICS OF INTEREST RATE SWAPS
 ---
 
 # 7.1 MECHANICS OF INTEREST RATE SWAPS
@@ -529,4 +558,72 @@ Derivatives such as forwards, futures, swaps, and options are concerned with tra
 Securitization is of particular interest because of its role in the financial crisis that started in 2007. The crisis had its origins in financial products created from mortgages in the United States, but rapidly spread from the United States to other countries and from financial markets to the real economy. Some financial institutions failed; others had to be rescued by national governments. There can be no question that the first decade of the twenty-first century was disastrous for the financial sector.
 
 In this chapter, we examine the nature of securitization and its role in the crisis. In the course of the chapter, we will learn about the U.S. mortgage market, asset-backed securities, collateralized debt obligations, waterfalls, and the importance of incentives in financial markets.
+
+## D2 Diagrams for Swap Concepts
+
+### Interest Rate Swap Structure
+```d2
+# Interest Rate Swap Components
+fixed_rate_payer: "Fixed Rate Payer"
+floating_rate_payer: "Floating Rate Payer"
+notional_principal: "Notional Principal"
+swap_duration: "Swap Duration"
+intermediary: "Intermediary (Dealer)"
+
+fixed_rate_payer -> intermediary: "Pays Fixed Rate\n(e.g. 3%)"
+floating_rate_payer -> intermediary: "Pays Floating Rate\n(e.g. SOFR)"
+intermediary -> fixed_rate_payer: "Receives Floating Rate"
+intermediary -> floating_rate_payer: "Receives Fixed Rate"
+notional_principal -> "Same for both parties\nNot exchanged (typically)"
+swap_duration -> "Regular payment periods\n(e.g. quarterly)"
+```
+
+### Swap Transformation Strategies
+```d2
+# Swap Transformation Applications
+borrower_fixed: "Fixed Rate Borrower"
+borrower_floating: "Floating Rate Borrower"
+fixed_rate_market: "Fixed Rate Market"
+floating_rate_market: "Floating Rate Market"
+swap_contract: "Interest Rate Swap"
+
+borrower_fixed -> fixed_rate_market: "Borrows at Fixed Rate\n(advantage in fixed market)"
+borrower_floating -> floating_rate_market: "Borrows at Floating Rate\n(advantage in floating market)"
+borrower_fixed -> swap_contract: "Pays Floating, Receives Fixed"
+borrower_floating -> swap_contract: "Pays Fixed, Receives Floating"
+swap_contract -> "Converts borrowing\ncosts to desired type"
+```
+
+### Comparative Advantage Framework
+```d2
+# Comparative Advantage in Swaps
+aaa_company: "AAA Company"
+bbb_company: "BBB Company"
+credit_spread_fixed: "Fixed Rate Credit Spread\nAAA: 0%, BBB: 1.2%"
+credit_spread_floating: "Floating Rate Credit Spread\nAAA: 0%, BBB: 0.7%"
+swap_benefit: "Swap Benefits Both Parties"
+
+aaa_company -> credit_spread_fixed: "Lower borrowing cost in fixed"
+bbb_company -> credit_spread_floating: "Relatively lower cost in floating"
+credit_spread_fixed -> "Fixed spread > Floating spread"
+credit_spread_floating -> "Creates opportunity for swap"
+swap_benefit -> aaa_company: "Gets floating rate\ninstead of fixed"
+swap_benefit -> bbb_company: "Gets fixed rate\ninstead of floating + spread"
+```
+
+### Swap Valuation Components
+```d2
+# Swap Valuation Framework
+fixed_leg: "Fixed Rate Leg\nAnnuity of payments"
+floating_leg: "Floating Rate Leg\nVariable payments linked to index"
+discount_curve: "Discount Curve\nRisk-free rates"
+forward_curve: "Forward Curve\nExpected future rates"
+swap_value: "Swap Value\nPV of fixed leg - PV of floating leg"
+
+fixed_leg -> discount_curve: "Discounted at risk-free rates"
+floating_leg -> forward_curve: "Based on forward rate expectations"
+forward_curve -> discount_curve: "Used for valuation"
+swap_value <- fixed_leg: "PV of fixed payments"
+swap_value <- floating_leg: "PV of floating payments"
+```
 

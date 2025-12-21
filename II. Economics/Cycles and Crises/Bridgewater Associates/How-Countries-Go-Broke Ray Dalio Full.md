@@ -1,32 +1,35 @@
 ---
 title: How Countries Go Broke - Big Debt Cycle by Ray Dalio
+parent_directory: "II. Economics/Cycles and Crises/Bridgewater Associates"
+formatted: 2025-12-20 05:03:41 PM
+formatter_model: claude-sonnet-4-20250514
+cli-tool: claude-code
 primary_tags:
-  - big_debt_cycle
-  - debt_monetization
-  - reserve_currency
-  - economic_cycles
-  - ray_dalio
+  - big debt cycle
+  - debt monetization
+  - reserve currency
+  - economic cycles
+  - ray dalio
 secondary_tags:
-  - bridgewater_associates
-  - debt_crisis
-  - monetary_policy
-  - big_debt_cycles
-  - currency_debasement
-  - central_bank_policy
-  - fiscal_policy
-  - debt_bubbles
+  - bridgewater associates
+  - debt crisis
+  - monetary policy
+  - currency debasement
+  - central bank policy
+  - fiscal policy
+  - debt bubbles
   - deleveraging
-  - financial_crisis
-  - monetary_system
-  - credit_cycle
-  - sovereign_debt
-  - debt_sustainability
-  - inflation_deflation
-  - currency_reserves
-  - gold_standard
-  - fiat_money
-  - interest_rates
-  - asset_bubbles
+  - financial crisis
+  - monetary system
+  - credit cycle
+  - sovereign debt
+  - debt sustainability
+  - inflation deflation
+  - currency reserves
+  - gold standard
+  - fiat money
+  - interest rates
+  - asset bubbles
 cssclasses: academia
 ---
 # How Countries Go Broke
@@ -770,7 +773,18 @@ The first table that follows shows debt levels 10 years forward for various star
 
 DEBT-TO-INCOME AFTER 10 YEARS
 
-<table><tr><td colspan="8">Government Primary Deficit (\% Govt Revenue)</td></tr><tr><td></td><td>0\%</td><td>5\%</td><td>10\%</td><td>15\%</td><td>20\%</td><td>25\%</td><td>30\%</td></tr><tr><td>0\%</td><td>0\%</td><td>50\%</td><td>100\%</td><td>150\%</td><td>200\%</td><td>250\%</td><td>300\%</td></tr><tr><td>100\%</td><td>100\%</td><td>150\%</td><td>200\%</td><td>250\%</td><td>300\%</td><td>350\%</td><td>400\%</td></tr><tr><td>200\%</td><td>200\%</td><td>250\%</td><td>300\%</td><td>350\%</td><td>400\%</td><td>450\%</td><td>500\%</td></tr><tr><td>300\%</td><td>300\%</td><td>350\%</td><td>400\%</td><td>450\%</td><td>500\%</td><td>550\%</td><td>600\%</td></tr><tr><td>400\%</td><td>400\%</td><td>450\%</td><td>500\%</td><td>550\%</td><td>600\%</td><td>650\%</td><td>700\%</td></tr><tr><td>500\%</td><td>500\%</td><td>550\%</td><td>600\%</td><td>650\%</td><td>700\%</td><td>750\%</td><td>800\%</td></tr><tr><td>600\%</td><td>600\%</td><td>650\%</td><td>700\%</td><td>750\%</td><td>800\%</td><td>850\%</td><td>900\%</td></tr><tr><td>700\%</td><td>700\%</td><td>750\%</td><td>800\%</td><td>850\%</td><td>900\%</td><td>950\%</td><td>1000\%</td></tr></table>
+**Table 1.1** Government Primary Deficit (% Govt Revenue)
+
+|  | 0% | 5% | 10% | 15% | 20% | 25% | 30% |
+|---|---|---|---|---|---|---|---|
+| 0% | 0% | 50% | 100% | 150% | 200% | 250% | 300% |
+| 100% | 100% | 150% | 200% | 250% | 300% | 350% | 400% |
+| 200% | 200% | 250% | 300% | 350% | 400% | 450% | 500% |
+| 300% | 300% | 350% | 400% | 450% | 500% | 550% | 600% |
+| 400% | 400% | 450% | 500% | 550% | 600% | 650% | 700% |
+| 500% | 500% | 550% | 600% | 650% | 700% | 750% | 800% |
+| 600% | 600% | 650% | 700% | 750% | 800% | 850% | 900% |
+| 700% | 700% | 750% | 800% | 850% | 900% | 950% | 1000% |
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/3547bc27-1262-4e8f-ad60-d760e9f0a79a/c09a161558c1d11b26720aa5e3615987a944122cfc1d95bcd96999c711daa704.jpg)
 
@@ -780,7 +794,18 @@ Assuming Nominal Interest Rate = Nominal Growth
 
 10YR CHANGE IN DEBT (\% INCOME)
 
-<table><tr><td colspan="8">Government Primary Deficit (\% Govt Revenue)</td></tr><tr><td></td><td>0\%</td><td>5\%</td><td>10\%</td><td>15\%</td><td>20\%</td><td>25\%</td><td>30\%</td></tr><tr><td>0\%</td><td>0\%</td><td>50\%</td><td>100\%</td><td>150\%</td><td>200\%</td><td>250\%</td><td>300\%</td></tr><tr><td>100\%</td><td>0\%</td><td>50\%</td><td>100\%</td><td>150\%</td><td>200\%</td><td>250\%</td><td>300\%</td></tr><tr><td>200\%</td><td>0\%</td><td>50\%</td><td>100\%</td><td>150\%</td><td>200\%</td><td>250\%</td><td>300\%</td></tr><tr><td>300\%</td><td>0\%</td><td>50\%</td><td>100\%</td><td>150\%</td><td>200\%</td><td>250\%</td><td>300\%</td></tr><tr><td>400\%</td><td>0\%</td><td>50\%</td><td>100\%</td><td>150\%</td><td>200\%</td><td>250\%</td><td>300\%</td></tr><tr><td>500\%</td><td>0\%</td><td>50\%</td><td>100\%</td><td>150\%</td><td>200\%</td><td>250\%</td><td>300\%</td></tr><tr><td>600\%</td><td>0\%</td><td>50\%</td><td>100\%</td><td>150\%</td><td>200\%</td><td>250\%</td><td>300\%</td></tr><tr><td>700\%</td><td>0\%</td><td>50\%</td><td>100\%</td><td>150\%</td><td>200\%</td><td>250\%</td><td>300\%</td></tr></table>
+**Table 1.2** Government Primary Deficit (% Govt Revenue)
+
+|  | 0% | 5% | 10% | 15% | 20% | 25% | 30% |
+|---|---|---|---|---|---|---|---|
+| 0% | 0% | 50% | 100% | 150% | 200% | 250% | 300% |
+| 100% | 0% | 50% | 100% | 150% | 200% | 250% | 300% |
+| 200% | 0% | 50% | 100% | 150% | 200% | 250% | 300% |
+| 300% | 0% | 50% | 100% | 150% | 200% | 250% | 300% |
+| 400% | 0% | 50% | 100% | 150% | 200% | 250% | 300% |
+| 500% | 0% | 50% | 100% | 150% | 200% | 250% | 300% |
+| 600% | 0% | 50% | 100% | 150% | 200% | 250% | 300% |
+| 700% | 0% | 50% | 100% | 150% | 200% | 250% | 300% |
 
 Assuming Nominal Interest Rate = Nominal Growth
 
@@ -2996,13 +3021,31 @@ By looking at the indicators in the table, you can get a pretty good picture of 
 
 ASSESSING CENTRAL GOVERNMENT AND CENTRAL BANK LONG-TERM DEBT RISKS: GOVERNMENT DEBT
 
-<table><tr><td></td><td>JPN</td><td>USA</td><td>BRZ</td><td>GBR</td><td>CAN</td><td>SAF</td><td>TUR</td><td>EUR</td><td>CHN</td><td>IND</td><td>MEX</td><td>KOR</td><td>AUS</td><td>SWE</td><td>CHE</td><td>NOR</td><td>RUS</td><td>SAR</td><td>SGP</td></tr><tr><td>Govt Assets vs Govt Debt (\% Ctry GDP)</td><td>-183\%</td><td>-96\%</td><td>-70\%</td><td>-87\%</td><td>-45\%</td><td>-59\%</td><td>-22\%</td><td>-76\%</td><td>-63\%</td><td>-40\%</td><td>-27\%</td><td>-15\%</td><td>-21\%</td><td>-22\%</td><td>84\%</td><td>383\%</td><td>19\%</td><td>94\%</td><td>108\%</td></tr><tr><td>Govt Debt (\% Ctry GDP)</td><td>215\%</td><td>99\%</td><td>81\%</td><td>92\%</td><td>50\%</td><td>73\%</td><td>26\%</td><td>85\%</td><td>90\%</td><td>56\%</td><td>40\%</td><td>49\%</td><td>35\%</td><td>32\%</td><td>15\%</td><td>14\%</td><td>14\%</td><td>26\%</td><td>177\%</td></tr><tr><td>Govt Debt 10Yr Fwd Projection (\% Ctry GDP)</td><td>214\%</td><td>122\%</td><td>114\%</td><td>101\%</td><td>53\%</td><td>79\%</td><td>15\%</td><td>87\%</td><td>112\%</td><td>67\%</td><td>36\%</td><td>40\%</td><td>40\%</td><td>26\%</td><td>12\%</td><td>0\%</td><td>15\%</td><td>47\%</td><td>158\%</td></tr><tr><td>o/w Held by Central Bank</td><td>92\%</td><td>13\%</td><td>21\%</td><td>23\%</td><td>9\%</td><td>1\%</td><td>0\%</td><td>30\%</td><td>1\%</td><td>4\%</td><td>0\%</td><td>1\%</td><td>11\%</td><td>7\%</td><td>0\%</td><td>0\%</td><td>-</td><td>0\%</td><td>2\%</td></tr><tr><td>o/w Held by Other Domestic Players</td><td>96\%</td><td>57\%</td><td>52\%</td><td>45\%</td><td>16\%</td><td>51\%</td><td>16\%</td><td>41\%</td><td>87\%</td><td>48\%</td><td>28\%</td><td>38\%</td><td>8\%</td><td>18\%</td><td>11\%</td><td>6\%</td><td>-</td><td>16\%</td><td>-</td></tr><tr><td>o/w Held Abroad</td><td>27\%</td><td>29\%</td><td>8\%</td><td>24\%</td><td>25\%</td><td>22\%</td><td>9\%</td><td>14\%</td><td>2\%</td><td>3\%</td><td>12\%</td><td>10\%</td><td>15\%</td><td>7\%</td><td>3\%</td><td>8\%</td><td>-</td><td>11\%</td><td>-</td></tr><tr><td>Significant Share in Hard Currency?</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>YES</td><td>YES</td><td>NO</td><td>NO</td><td>NO</td><td>YES</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>NO</td><td>YES</td><td>YES</td><td>NO</td></tr><tr><td>Govt Interest (\% Govt Revenue)</td><td>8\%</td><td>22\%</td><td>38\%</td><td>8\%</td><td>7\%</td><td>18\%</td><td>15\%</td><td>8\%</td><td>3\%</td><td>42\%</td><td>16\%</td><td>5\%</td><td>3\%</td><td>2\%</td><td>2\%</td><td>0\%</td><td>4\%</td><td>-</td><td>-</td></tr></table>
+|  | JPN | USA | BRZ | GBR | CAN | SAF | TUR | EUR | CHN | IND | MEX | KOR | AUS | SWE | CHE | NOR | RUS | SAR | SGP |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Govt Assets vs Govt Debt (% Ctry GDP) | -183% | -96% | -70% | -87% | -45% | -59% | -22% | -76% | -63% | -40% | -27% | -15% | -21% | -22% | 84% | 383% | 19% | 94% | 108% |
+| Govt Debt (% Ctry GDP) | 215% | 99% | 81% | 92% | 50% | 73% | 26% | 85% | 90% | 56% | 40% | 49% | 35% | 32% | 15% | 14% | 14% | 26% | 177% |
+| Govt Debt 10Yr Fwd Projection (% Ctry GDP) | 214% | 122% | 114% | 101% | 53% | 79% | 15% | 87% | 112% | 67% | 36% | 40% | 40% | 26% | 12% | 0% | 15% | 47% | 158% |
+| o/w Held by Central Bank | 92% | 13% | 21% | 23% | 9% | 1% | 0% | 30% | 1% | 4% | 0% | 1% | 11% | 7% | 0% | 0% | - | 0% | 2% |
+| o/w Held by Other Domestic Players | 96% | 57% | 52% | 45% | 16% | 51% | 16% | 41% | 87% | 48% | 28% | 38% | 8% | 18% | 11% | 6% | - | 16% | - |
+| o/w Held Abroad | 27% | 29% | 8% | 24% | 25% | 22% | 9% | 14% | 2% | 3% | 12% | 10% | 15% | 7% | 3% | 8% | - | 11% | - |
+| Significant Share in Hard Currency? | NO | NO | NO | NO | NO | YES | YES | NO | NO | NO | YES | NO | NO | NO | NO | NO | YES | YES | NO |
+| Govt Interest (% Govt Revenue) | 8% | 22% | 38% | 8% | 7% | 18% | 15% | 8% | 3% | 42% | 16% | 5% | 3% | 2% | 2% | 0% | 4% | - | - |
 
 Note that government debt is calculated for the central government only, except for China, where general government debt plus local government financing vehicles is used.
 
 ASSESSING CENTRAL GOVERNMENT AND CENTRAL BANK LONG-TERM DEBT RISKS
 
-<table><tr><td colspan="2"></td><td>JPN</td><td>USA</td><td>BRZ</td><td>GBR</td><td>CAN</td><td>SAF</td><td>TUR</td><td>EUR</td><td>CHN</td><td>IND</td><td>MEX</td><td>KOR</td><td>AUS</td><td>SWE</td><td>CHE</td><td>NOR</td><td>RUS</td><td>SAR</td><td>SGP</td></tr><tr><td rowspan="2">LIQUID RESERVES</td><td>FX Reserves(\% Ctry GDP)</td><td>32\%</td><td>3\%</td><td>11\%</td><td>5\%</td><td>5\%</td><td>14\%</td><td>4\%</td><td>9\%</td><td>20\%</td><td>16\%</td><td>13\%</td><td>23\%</td><td>4\%</td><td>11\%</td><td>99\%</td><td>17\%</td><td>33\%</td><td>40\%</td><td>84\%</td></tr><tr><td>Sovereign Wealth Assets(\% Ctry GDP)</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>7\%</td><td>-</td><td>-</td><td>11\%</td><td>12\%</td><td>-</td><td>-</td><td>380\%</td><td>-</td><td>80\%</td><td>201\%</td></tr><tr><td rowspan="2">OTHER HEALTH MEASURES</td><td>Total Debt(\% Ctry GDP)</td><td>486\%</td><td>340\%</td><td>181\%</td><td>258\%</td><td>377\%</td><td>139\%</td><td>167\%</td><td>169\%</td><td>289\%</td><td>181\%</td><td>130\%</td><td>325\%</td><td>219\%</td><td>322\%</td><td>300\%</td><td>323\%</td><td>233\%</td><td>89\%</td><td>353\%</td></tr><tr><td>Current Account 3Yr MA(\% of Ctry GDP)</td><td>4\%</td><td>-4\%</td><td>-2\%</td><td>-2\%</td><td>-1\%</td><td>-1\%</td><td>-6\%</td><td>2\%</td><td>2\%</td><td>-2\%</td><td>-1\%</td><td>3\%</td><td>-1\%</td><td>6\%</td><td>7\%</td><td>21\%</td><td>5\%</td><td>5\%</td><td>19\%</td></tr><tr><td rowspan="4">RESERVE CURRENCY STATUS</td><td>World Trade(\% of Trans in Ctry FX)</td><td>2.6\%</td><td>52.6\%</td><td>0.9\%</td><td>9.2\%</td><td>1.8\%</td><td>0.4\%</td><td>0.7\%</td><td>15.4\%</td><td>3.6\%</td><td>0.4\%</td><td>0.8\%</td><td>0.9\%</td><td>1.7\%</td><td>0.6\%</td><td>1.2\%</td><td>0.5\%</td><td>0.9\%</td><td>0.5\%</td><td>0.6\%</td></tr><tr><td>World Debt(\% External Debt in Ctry FX)</td><td>1.5\%</td><td>80.7\%</td><td>0.2\%</td><td>1.5\%</td><td>1.3\%</td><td>0.0\%</td><td>0.2\%</td><td>10.4\%</td><td>1.0\%</td><td>0.3\%</td><td>0.2\%</td><td>0.3\%</td><td>0.7\%</td><td>0.0\%</td><td>0.4\%</td><td>0.0\%</td><td>0.0\%</td><td>0.0\%</td><td>0.0\%</td></tr><tr><td>World Equity(\% of Global Market Cap)</td><td>4.7\%</td><td>65.7\%</td><td>0.4\%</td><td>3.0\%</td><td>2.6\%</td><td>0.3\%</td><td>0.1\%</td><td>6.5\%</td><td>5.9\%</td><td>1.9\%</td><td>0.2\%</td><td>0.9\%</td><td>1.5\%</td><td>0.7\%</td><td>1.9\%</td><td>0.1\%</td><td>0.1\%</td><td>0.0\%</td><td>0.3\%</td></tr><tr><td>World Central Bank Reserves(\% in Country FX)</td><td>6.0\%</td><td>57.0\%</td><td>0.0\%</td><td>5.0\%</td><td>3.0\%</td><td>0.0\%</td><td>0.0\%</td><td>20.0\%</td><td>2.0\%</td><td>0.0\%</td><td>0.0\%</td><td>0.0\%</td><td>2.0\%</td><td>0.0\%</td><td>0.0\%</td><td>0.0\%</td><td>0.0\%</td><td>0.0\%</td><td>0.0\%</td></tr></table>
+|  |  | JPN | USA | BRZ | GBR | CAN | SAF | TUR | EUR | CHN | IND | MEX | KOR | AUS | SWE | CHE | NOR | RUS | SAR | SGP |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| LIQUID RESERVES | FX Reserves(% Ctry GDP) | 32% | 3% | 11% | 5% | 5% | 14% | 4% | 9% | 20% | 16% | 13% | 23% | 4% | 11% | 99% | 17% | 33% | 40% | 84% |
+| | Sovereign Wealth Assets(% Ctry GDP) | - | - | - | - | - | - | - | - | 7% | - | - | 11% | 12% | - | - | 380% | - | 80% | 201% |
+| OTHER HEALTH MEASURES | Total Debt(% Ctry GDP) | 486% | 340% | 181% | 258% | 377% | 139% | 167% | 169% | 289% | 181% | 130% | 325% | 219% | 322% | 300% | 323% | 233% | 89% | 353% |
+| | Current Account 3Yr MA(% of Ctry GDP) | 4% | -4% | -2% | -2% | -1% | -1% | -6% | 2% | 2% | -2% | -1% | 3% | -1% | 6% | 7% | 21% | 5% | 5% | 19% |
+| RESERVE CURRENCY STATUS | World Trade(% of Trans in Ctry FX) | 2.6% | 52.6% | 0.9% | 9.2% | 1.8% | 0.4% | 0.7% | 15.4% | 3.6% | 0.4% | 0.8% | 0.9% | 1.7% | 0.6% | 1.2% | 0.5% | 0.9% | 0.5% | 0.6% |
+| | World Debt(% External Debt in Ctry FX) | 1.5% | 80.7% | 0.2% | 1.5% | 1.3% | 0.0% | 0.2% | 10.4% | 1.0% | 0.3% | 0.2% | 0.3% | 0.7% | 0.0% | 0.4% | 0.0% | 0.0% | 0.0% | 0.0% |
+| | World Equity(% of Global Market Cap) | 4.7% | 65.7% | 0.4% | 3.0% | 2.6% | 0.3% | 0.1% | 6.5% | 5.9% | 1.9% | 0.2% | 0.9% | 1.5% | 0.7% | 1.9% | 0.1% | 0.1% | 0.0% | 0.3% |
+| | World Central Bank Reserves(% in Country FX) | 6.0% | 57.0% | 0.0% | 5.0% | 3.0% | 0.0% | 0.0% | 20.0% | 2.0% | 0.0% | 0.0% | 0.0% | 2.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% |
 
 The "Sovereign Wealth Assets" row includes only the top 20 sovereign wealth funds globally. The figures provided for sovereign wealth don't include liquid assets controlled or influenced by the government. For example, in Japan, in addition to the foreign exchange reserves held at the Ministry of Finance, there are assets held at the government's
 
@@ -3653,3 +3696,68 @@ Dalio grew up a very ordinary middle-class kid on Long Island and started invest
 In 2017, he decided to pass along the principles behind his success in a series of books and animated videos. His 2017 book *Principles: Life and Work* was a No. 1 New York Times Best Seller and the No. 1 Amazon business book of the year. It has sold more than 5 million copies worldwide and has been translated into over 30 languages. His 2021 book *Principles for Dealing with the Changing World Order* was also a New York Times Best Seller and has sold more than 1 million copies worldwide. Dalio has also created a series of 30-minute animated YouTube videos ("How the Economic Machine Works," "Principles for Success," and "Principles for Dealing with the Changing World Order"), which have together been watched more than 250 million times. His 2018 book *Principles for Navigating Big Debt Crises* was well-received by economists, policymakers, and investors.
 
 In this latest book, How Countries Go Broke: The Big Cycle, Dalio is for the first time sharing his unique template for understanding the final stages of what he calls the "Big Debt Cycle" and showing how these stages help drive to the "Overall Big Cycle" that governs the kinds of radical monetary, political, and geopolitical changes we are seeing in the world today.
+
+## D2 Diagrams for Big Debt Cycle Concepts
+
+### Big Debt Cycle Stages
+```d2
+# Big Debt Cycle Stages
+sound_money: "Sound Money Stage"
+credit_expansion: "Credit Expansion"
+debt_bubble: "Debt Bubble"
+top_crisis: "Top/Crisis"
+deleveraging: "Deleveraging"
+new_equilibrium: "New Equilibrium"
+
+sound_money -> credit_expansion: "Credit creation incentivized"
+credit_expansion -> debt_bubble: "Debt rises faster than income"
+debt_bubble -> top_crisis: "Bubble peaks, crisis begins"
+top_crisis -> deleveraging: "Debt reduction process"
+deleveraging -> new_equilibrium: "New balance achieved"
+new_equilibrium -> sound_money: "Cycle restarts"
+```
+
+### Big Cycle Forces
+```d2
+# The Five Forces of the Big Cycle
+debt_cycle: "Big Debt Cycle"
+internal_order: "Internal Political Order"
+external_order: "External Geopolitical Order"
+nature: "Acts of Nature"
+technology: "Technology Development"
+
+debt_cycle <-> internal_order: "Interconnected"
+debt_cycle <-> external_order: "Interconnected"
+internal_order <-> external_order: "Interconnected"
+nature <-> all: "Affects all cycles"
+technology <-> all: "Affects all cycles"
+```
+
+### Debt Monetization Process
+```d2
+# Debt Monetization Process
+gov_borrowing: "Government Borrowing"
+central_bank: "Central Bank"
+money_creation: "Money Creation"
+bond_purchases: "Bond Purchases"
+inflation: "Potential Inflation"
+
+gov_borrowing -> central_bank: "Issues bonds"
+central_bank -> bond_purchases: "Purchases bonds"
+bond_purchases -> money_creation: "Creates money"
+money_creation -> inflation: "Risk of inflation"
+```
+
+### Reserve Currency Lifecycle
+```d2
+# Reserve Currency Lifecycle
+emergence: "Currency Emergence"
+reserve_status: "Reserve Currency Status"
+overextension: "Overextension"
+decline: "Reserve Status Decline"
+
+emergence -> reserve_status: "Economic dominance"
+reserve_status -> overextension: "Privilege abuse"
+overextension -> decline: "Loss of confidence"
+decline -> "New reserve currency emerges"
+```
