@@ -1,8 +1,32 @@
-# Managing Bond Portfolios
+---
+title: "Managing Bond Portfolios"
+parent_directory: "Part 4 - Fixed-Income Securities"
+formatted: 2025-12-21 04:35:25 PM
+formatter_model: obsidian-formatting-agent
+cli-tool: claude-code
+primary_tags:
+  - bond portfolio management
+  - interest rate risk
+  - duration and convexity
+  - immunization strategies
+  - passive bond management
+secondary_tags:
+  - bond indexing
+  - active bond strategies
+  - mortgage backed securities
+  - callable bonds
+  - yield curve analysis
+  - credit risk management
+  - fixed income derivatives
+  - portfolio rebalancing
+  - risk return tradeoffs
+  - institutional investing
+cssclasses: academia
+---
 
-# 16
+# Chapter 16: Managing Bond Portfolios
 
-IN THIS CHAPTER we turn to various fixed-income portfolio strategies, making a distinction between passive and active approaches. Rather than attempting to beat the market by exploiting superior information or insight, a passive investment strategy seeks only to maintain an appropriate risk-return balance given market opportunities. One special case of passive management for fixed-income portfolios is a strategy that attempts to insulate or "immunize" the portfolio from interest rate risk.
+In this chapter we turn to various fixed-income portfolio strategies, making a distinction between passive and active approaches. Rather than attempting to beat the market by exploiting superior information or insight, a passive investment strategy seeks only to maintain an appropriate risk-return balance given market opportunities. One special case of passive management for fixed-income portfolios is a strategy that attempts to insulate or "immunize" the portfolio from interest rate risk.
 
 In contrast, an active investment strategy attempts to achieve returns more than commensurate with risk. Active fixed-income managers use either interest rate forecasts to predict movements in the entire bond market or some form of intramarket analysis to identify particular sectors of the market or particular bonds that are relatively mispriced.
 
@@ -17,7 +41,7 @@ You already know that bond prices and yields are inversely related, and that int
 
 Why do bond prices respond to interest rate fluctuations? Remember that in a competitive market, all securities must offer investors fair expected rates of return. If a bond is issued with a  $6\%$  coupon when competitive yields are  $6\%$ , then it will sell at par value. If the market rate rises to  $7\%$ , however, who would be willing to pay par value for a bond offering only a  $6\%$  coupon? The bond price must fall until its expected return increases to the competitive level of  $7\%$ . Conversely, if the market rate falls to  $5\%$ , the  $6\%$  coupon on the bond will be attractive compared to yields on alternative investments. In response, investors eager for that return will bid up the bond price until the expected rate of return at that higher price is no better than the market rate.
 
-# Interest Rate Sensitivity
+## 16.1 Interest Rate Risk
 
 The sensitivity of bond prices to changes in market interest rates is obviously of great concern to investors. To gain some insight into the determinants of interest rate risk, turn to Figure 16.1, which presents the percentage change in price corresponding to changes in yield to maturity for four bonds that differ according to coupon rate, initial yield to maturity, and time to maturity. All four bonds illustrate that bond prices decrease when yields rise and that the price curve is convex, meaning that decreases in yields have bigger impacts on price than increases in yields of equal magnitude. We summarize these observations in the following two propositions:
 
@@ -74,7 +98,7 @@ Prices of zero-coupon bond (semiannual compounding)
 
 *Equals value of bond at a 9\% yield to maturity divided by value of bond at (the original) 8\% yield, minus 1.
 
-# Duration
+### Duration
 
 To measure the effective maturity of a bond making many payments, we average over the maturity of each of the bond's cash flows. Frederick Macaulay called this average the duration of the bond. Macaulay's duration equals the weighted average of the times to each coupon or principal payment, with weights related to the "importance" of that payment to the value of the bond. Specifically, the weight applied to each payment time is the proportion of the total value of the bond accounted for by that payment, that is, the present value of the payment divided by the bond price.
 
@@ -240,7 +264,7 @@ Use Spreadsheet 16.3 to test some of the rules for duration presented a few page
 
 Durations can vary widely among traded bonds. Table 16.3 presents durations computed from Spreadsheet 16.3 for several bonds all paying semiannual coupons and yielding  $4\%$  per half-year. Notice that duration decreases as coupon rates increase, and increases with time to maturity. According to Table 16.3 and Equation 16.2, if the interest rate increases from  $8\%$  to  $8.1\%$ , the  $6\%$  coupon 20-year bond falls in value by about  $10.922 \times .1\% / 1.04 = 1.05\%$ , whereas the  $10\%$  coupon 1-year bond falls by only  $0.976 \times .1\% / 1.04 = 0.094\%$ . Notice also from Table 16.3 that duration is independent of coupon rate only for perpetuities.
 
-# 16.2 Convexity
+## 16.2 Convexity
 
 As a measure of interest rate sensitivity, duration clearly is a key tool in fixed-income portfolio management. Yet the duration rule for the impact of interest rates on bond prices is only an approximation. Equation 16.2, or its equivalent, Equation 16.3, which we repeat here, states that the percentage change in the value of a bond approximately equals the product of modified duration times the change in the bond's yield:
 
@@ -399,7 +423,7 @@ In each period, each tranche receives the interest owed it based on the promised
 
 Many variations on the theme are possible and employed in practice. Different tranches may receive different coupon rates. Some tranches may be given preferential treatment in terms of uncertainty over mortgage prepayment speeds. Complex formulas may be used to dictate the cash flows allocated to each tranche. In essence, the mortgage pool is treated as a source of cash flows that can be reallocated to different investors in accordance with their different tastes.
 
-# 16.3 Passive Bond Management
+## 16.3 Passive Bond Management
 
 Passive managers take bond prices as fairly set and seek to control only the risk of their fixed-income portfolio. Two broad classes of passive management are pursued in the fixed-income market. The first is an indexing strategy that attempts to replicate the performance of a given bond index. The second is known as immunization, which is used widely by financial institutions such as insurance companies and pension funds to shield overall financial status from exposure to interest rate fluctuations.
 
@@ -577,7 +601,7 @@ If the yield curve is not flat, then the definition of duration must be modified
 
 Finally, immunization can be an inappropriate goal in an inflationary environment. Immunization is essentially a nominal notion and makes sense only for nominal liabilities. It makes no sense to immunize a projected obligation that will grow with the price level using nominal assets such as bonds. For example, if your child will attend college in 15 years and if the annual cost of tuition is expected to be  \$50,000 at that time, immunizing your portfolio at a locked-in terminal value of\$ 50,000 is not necessarily a risk-reducing strategy. The tuition obligation will vary with the realized inflation rate, whereas the asset portfolio's final value will not. As a result, the tuition obligation will not be matched by the value of the portfolio.
 
-# 16.4 Active Bond Management
+## 16.4 Active Bond Management
 
 # Sources of Potential Profit
 

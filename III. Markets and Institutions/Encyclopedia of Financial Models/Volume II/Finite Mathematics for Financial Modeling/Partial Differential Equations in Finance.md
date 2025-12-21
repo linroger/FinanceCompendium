@@ -1,4 +1,31 @@
 
+---
+title: "Partial Differential Equations in Finance"
+parent_directory: "Finite Mathematics for Financial Modeling"
+formatted: "2025-12-21 11:03:25 PM"
+formatter_model: "claude-haiku-4-5-20251001"
+cli_tool: "claude-code"
+primary_tags:
+  - partial differential equations
+  - option pricing
+  - numerical methods
+  - financial modeling
+secondary_tags:
+  - black scholes model
+  - american options
+  - finite difference methods
+  - finite element methods
+  - calibration
+  - volatility models
+  - stochastic processes
+  - monte carlo methods
+  - risk neutral pricing
+  - greeks
+  - basket options
+  - barrier options
+cssclasses: academia
+---
+
 # Partial Differential Equations in Finance
 
 YVES ACHDOU, PhD
@@ -16,7 +43,6 @@ Professor, CERMICS, Ecole des Ponts ParisTech, Marne-la-Vallee, France
 Abstract: Partial differential equations are useful in finance in various contexts, in particular for the pricing of European and American options, for stochastic portfolio optimization, and for calibration. They can be used for simple options as well as for more exotic ones, such as Asian or lookback options. They are particularly useful for nonlinear models. They allow for the numerical computations of several spot prices at the same time. Numerical aspects, discretization methods, algorithms, and analysis of the numerical schemes have been under constant development during the last three decades. Finite difference methods are the simplest and most basic approaches. Finite element methods allow the use of nonuniform meshes and refinement procedures can then be applied and improve accuracy near a region of interest. Deterministic approaches based on partial differential equation formulations can also be used for calibration of various volatility models (such as local, stochastic, or Levy-driven volatility models) and by making use of Dupire's formula. Current research directions include the development of discretization methods for high-dimensional problems.
 
 Numerical methods based on partial differential equations (PDEs) in finance are not very popular. Indeed, the models are usually derived from probabilistic arguments and Monte Carlo methods are therefore much more natural. Stochastic methods are also often simpler to implement than the algorithms used for solving the related PDEs. However, when it is possible to efficiently discretize the PDE (which is not always the case, the typical counterexample being high-dimensional problems), deterministic methods are usually more efficient than stochastic ones. Moreover, the solution to the partial differential equation gives more information. In the context of option pricing, one obtains, for example, the price of the option for all values of the maturity and for all spot prices, while the probabilistic formulation
-
 
 typically gives the value of the option for a fixed maturity and a fixed spot price. In particular, this is useful for computing derivatives of the option's price with respect to some parameters of the model (the so-called "Greeks").
 
@@ -70,7 +96,6 @@ $$
 P_{t} = \mathbb {E} \left(\exp \left(- \int_{t}^{T} r d s\right) \phi \left(S_{T}\right) \mid \mathcal {F}_{t}\right) \tag {4}
 $$ where here and in the following,  $\mathbb{E}$  denotes an expectation with respect to the risk-neutral probability  $\mathbb{P}$ . By the so-called arbitrage-free principle,  $P_{t}$  is actually the "fair price" at time  $t$  of the option, which enables its owner to get the payoff  $\phi (S_T)$  at time  $T$ . In the particular context of vanilla options, the solution is analytically known, at least if  $r$  and  $\sigma$  are constant: This is the celebrated Black and Scholes formula. However, in the case when  $r$  and  $\sigma$  are functions of  $t$  and  $S$ , (4) cannot be estimated without a numerical method. We are interested in deterministic numerical methods, based on a PDE related to (4).
 
-
 The second fundamental property of the stochastic process  $S_{t}$  required to obtain a PDE formulation of this problem is a Markov property. Roughly speaking, it states that the expectation of any function of  $(S_{t})_{0\leq t\leq T}$  conditionally to  $\mathcal{F}_t$  is actually a function of the price  $S_{t}$  of the risky asset at time  $t$ . In our context, this property shows that  $P_{t}$  writes
 
 $$
@@ -78,7 +103,7 @@ P_{t} = p (t, S_{t}) \tag {5}
 $$ where  $p$  is a function of  $t\in [0,T]$  and  $S\in [0,\infty)$ , called the pricing function of the option. Notice that even if (5) only involves the value of  $p$  at
 
 
-point  $(t, S_t)$ , the pricing function  $p$  is a deterministic function defined for all values of  $t \geq 0$  and  $S \geq 0$ . By the Markov property of  $S_t$ , we also have the following representation formula for  $p$ :
+point $(t, S_t)$, the pricing function $p$ is a deterministic function defined for all values of $t \geq 0$ and $S \geq 0$. By the Markov property of $S_t$, we also have the following representation formula for $p$:
 
 $$ p (t, x) = \mathbb {E} \left(\exp \left(- \int_{t}^{T} r d s\right) \phi \left(S_{T}^{t, x}\right)\right) \tag {6}
 $$ where  $(S_{\theta}^{t,x})_{t\leq \theta \leq T}$  denotes the process solution to (1) starting from  $x$  at time  $t$
@@ -229,7 +254,7 @@ $$
 Using a decreasing property (65) proved in the Appendix, one then obtains that for any  $\delta t > 0$ ,
 
 $$
-\begin{array}{l} p (t, x) = \mathbb {E} \left(e^{- \int_{t}^{\tau_{\delta t}^{*}} r d s} p \left(\tau_{\delta t}^{*}, S_{\tau_{\delta t}^{*}}^{t, x}\right)\right), \\ \text{wh er e} \tau_{\delta t}^{*} = (t + \delta t) \wedge \tau^{*} \tag {22} \\ \end{array}
+\begin{array}{l} p (t, x) = \mathbb {E} \left(e^{- \int_{t}^{\tau_{\delta t}^{*}} r d s} p \left(\tau_{\delta t}^{*}, S_{\tau_{\delta t}^{*}}^{t, x}\right)\right), \\ \text{where} \tau_{\delta t}^{*} = (t + \delta t) \wedge \tau^{*} \tag {22} \\ \end{array}
 $$
 
 This can be seen as a dynamic programming principle (or Bellman's principle). For a European option we would have more simply
@@ -244,7 +269,6 @@ Hence the PDE for the American option is
 $$
 \left\{ \begin{array}{l} \min  \left(- \frac{\partial p}{\partial t} + \mathcal {A} p, p - \phi\right) = 0, \\ t \in [ 0, T ], x \geq 0, \\ p (T, x) = \phi (x), \quad x \geq 0 \end{array} \right. \tag {23}
 $$ where  $\mathcal{A}$  is defined by (18). The major difference between the PDE (23) for American options and the PDE (8) for European options is that (23) is a nonlinear equation. This makes the theory of existence and uniqueness as well as the numerical approximation more difficult than for European options.
-
 
 In the presentation above, we have used Ito's formula, which requires that  $p$  is  $C^1$  in time and  $C^2$  in the spot variable. This is not true in general. It is however possible, following the same lines, to prove that  $p$  is a weak solution to (23) in the viscosity sense. For a historical derivation of this PDE, see Bensoussan and Lions (1978) or El Karoui (1981) where a variational formulation of (23) is derived (see (52) below). We also refer to Oksendal and Rekvam (1998) for an infinite horizon-related problem, Crandall, Ishii, and Lions (1992) for general results, Pham (1998) for an approach of optimal stopping including jump diffusion processes, and to Barles (1994) for the case of a discontinuous payoff  $\phi$ .
 
@@ -516,7 +540,7 @@ We now have two new difficulties compared to the European case: First, the well-
 One way to circumvent the first difficulty is to introduce a splitting method (see Barles and Souganidis, 1991; Barles, Daher, and Romano, 1995; and Lions and Mercier, 1979). For (23), it writes (a similar modification of (42) could also be considered, yielding a Crank Nicolson-splitting (CN-S) scheme):
 
 $$
-\text{co mp ut e} P^{n, 1} \text{s .t .} - \frac{P_{i}^{n + 1} - P_{i}^{n , 1}}{\delta t} + \left(A P^{n, 1}\right)_{i} = 0 \tag {44a}
+\text{compute} P^{n, 1} \text{s .t .} - \frac{P_{i}^{n + 1} - P_{i}^{n , 1}}{\delta t} + \left(A P^{n, 1}\right)_{i} = 0 \tag {44a}
 $$ and then compute  $P_{i}^{n} = \max (P_{i}^{n,1},\phi (S_{i}))$  (44b)
 
 
@@ -717,7 +741,6 @@ $$ where  $g_{i} = \phi (S_{i})$  and  $P_{i}^{n} = p_{h}^{n}(S_{i})$ . Equivale
 Figure 3 The Adapted Mesh and the Contours of  $P$  One Year to Maturity.  $\sigma_{1} = 0.2$ ,  $\sigma_{2} = 0.1$ ,  $\rho = -0.6$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/a54a2cbb5ede8cce09ec5c40fc3d8a4df8d32238f82cf451695fa5d215dfbe65.jpg)
-
 
 $$
 \begin{array}{l} \min  \left(\left(\left(M_{h} + \delta t A_{h}\right) P^{n} - M_{h} P^{n + 1}\right)_{i}, \left(P^{n} - g\right)_{i}\right) \\ = 0, \quad \forall i \\ \end{array}

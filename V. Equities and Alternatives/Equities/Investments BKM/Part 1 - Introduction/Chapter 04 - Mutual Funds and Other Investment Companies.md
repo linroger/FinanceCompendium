@@ -1,18 +1,22 @@
 ---
-title: "Chapter 04 - Mutual Funds and Other Investment Companies"
-tags:
-  - mutual_funds
-  - investment_companies
-  - net_asset_value
-  - exchange_traded_funds
-  - portfolio_management
-key_concepts:
-  - "Investment companies and their functions"
-  - "Net asset value (NAV) calculation"
-  - "Types of investment companies: UITs, closed-end, open-end"
-  - "Mutual fund investment policies and costs"
-  - "Exchange-traded funds (ETFs) characteristics"
-parent_directory: "V. Equities and Alternatives/Equities/Investments BKM/Part 1 - Introduction"
+title: Chapter 04 - Mutual Funds and Other Investment Companies
+parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 1 - Introduction
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - mutual funds
+  - investment companies
+  - net asset value
+  - exchange traded funds
+  - portfolio management
+secondary_tags:
+  - unit investment trusts
+  - closed end funds
+  - open end funds
+  - fund costs
+  - performance evaluation
+  - tax implications
 cssclasses: academia
 ---
 
@@ -44,10 +48,10 @@ $$
 
 **Example 4.1 Net Asset Value**
 
-Consider a mutual fund that manages a portfolio of securities worth  \$120 million. Suppose the fund owes\$ 4 million to its investment advisers and another 1 million for rent, wages due, and miscellaneous expenses. The fund has 5 million shares outstanding.
+Consider a mutual fund that manages a portfolio of securities worth  \$120 million. Suppose the fund owes \$4 million to its investment advisers and another 1 million for rent, wages due, and miscellaneous expenses. The fund has 5 million shares outstanding.
 
 $$
-\text{Net asset value} = \frac {\$120 \text{million} - \$5 \text{million}}{5 \text{million shares}} = \$23 \text{per share}
+\text{Net asset value} = \frac{\$120 \text{million} - \$5 \text{million}}{5 \text{million shares}} = \$23 \text{per share}
 $$
 
 **Concept Check 4.1**
@@ -79,7 +83,7 @@ Investors who wish to liquidate their holdings of a unit investment trust may se
 
 There are two types of managed companies: closed-end and open-end. In both cases, the fund's board of directors, which is elected by shareholders, hires a management company to manage the portfolio for an annual fee that typically ranges from  $0.2\%$ to $1.25\%$  of assets. In many cases the management company is the firm that organized the fund. For example, Fidelity Management and Research Corporation sponsors many Fidelity mutual funds and is responsible for managing the portfolios. It assesses a management fee on each Fidelity fund. In other cases, a mutual fund will hire an outside portfolio manager. For example, Vanguard has hired Wellington Management as the investment adviser for its Wellington Fund. Most management companies have contracts to manage several funds.
 
-Open-end funds stand ready to redeem or issue shares at their net asset value (although both purchases and redemptions may involve sales charges). When investors in open-end funds wish to "cash out" their shares, they sell them back to the fund at NAV. In contrast, closed-end funds do not redeem or issue shares. Investors who wish to cash out must sell their shares to other investors. Shares of closed-end funds are traded on organized exchanges and can be purchased through brokers just like other
+Open-end funds stand ready to redeem or issue shares at their net asset value (although both purchases and redemptions may involve sales charges). When investors in open-end funds wish to "cash out" their shares, they sell them back to the fund at NAV. In contrast, closed-end funds do not redeem or issue shares. Investors who wish to cash out must sell their shares to other investors. Shares of closed-end funds are traded on organized exchanges and can be purchased through brokers just like other common stock
 
 <table><tr><td>FUND
 (TICKER)</td><td>MARKET

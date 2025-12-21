@@ -1,11 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: A Glossary of Technical Terms Related to Bankruptcy in the U.S.
-linter-yaml-title-alias: A Glossary of Technical Terms Related to Bankruptcy in the U.S.
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - bankruptcy law
+  - chapter 11 reorganization
+  - chapter 7 liquidation
+  - creditor claims
+secondary_tags:
+  - absolute priority rule
+  - automatic stay
+  - cramdown provision
+  - debtor financing
+  - fraudulent transfers
+  - impaired claims
+  - involuntary petition
+  - plan of reorganization
+  - prepackaged bankruptcy
+  - secured debt
+cssclasses: academia
 ---
 
 CARLISS Y. BALDWIN
@@ -18,7 +33,7 @@ RAVI MEHTA
 
 This note briefly describes the most important legal forms of U.S. bankruptcy: Chapter 7 and Chapter 11, and provides definitions of technical terms related to the bankruptcy process.
 
-# Legal Forms of Bankruptcy--an Overview
+## Legal Forms of Bankruptcy--an Overview
 
 The U.S. Constitution (Article 1, Section 8) authorized Congress to enact "uniform laws on the subject of Bankruptcies throughout the United States." The rules of bankruptcy are set by Congress through the Bankruptcy Code (Title 11 of the U. S. Code). The Code was last updated by the Bankruptcy Abuse Prevention and Consumer Protection Act of 2005.
 
@@ -28,13 +43,13 @@ Chapter 7 of the Bankruptcy Code governs the process of the liquidation of the d
 
 Chapter 11 governs the reorganization of a company that continues to do business while in bankruptcy. Normally in Chapter 11, the company files a petition for protection from its creditors and the case is assigned to a bankruptcy judge, who supervises the process. The current management and board of directors remain in charge, and they have the sole right to propose a plan of reorganization during first 120-days after the filing. (This exclusivity period can be extended at the discretion of the judge.)
 
-The company stops paying interest and principal on its debts<sup>1</sup> and its assets are subject to a so-called automatic stay. The bankrupt company can also raise new financing that takes priority over its existing debts. Claims against the company are sorted into classes and a committee formed to represent each class. Classes are asked to vote on the plan of reorganization if their claims are "impaired" but not wiped out. By law, a plan of reorganization must be accepted by at least one
+The company stops paying interest and principal on its debts[^1] and its assets are subject to a so-called automatic stay. The bankrupt company can also raise new financing that takes priority over its existing debts. Claims against the company are sorted into classes and a committee formed to represent each class. Classes are asked to vote on the plan of reorganization if their claims are "impaired" but not wiped out. By law, a plan of reorganization must be accepted by at least one
 
 impaired class. If some classes agree but others dissent, the judge can "cram down" the plan, imposing it on the dissenters. In practice, however, cramdowns take place only after a long, slow process of debate and negotiation.
 
 Once the judge approves the plan of reorganization, he or she has the power to discharge the company's former debts. The company then emerges from Chapter 11 as a going concern with a more sustainable capital structure.
 
-# Technical Terms related to Bankruptcy
+## Technical Terms related to Bankruptcy
 
 363 sale - allows specific assets to be sold as a way to recover value leaving other assets in the estate for liquidation or reorganization.
 

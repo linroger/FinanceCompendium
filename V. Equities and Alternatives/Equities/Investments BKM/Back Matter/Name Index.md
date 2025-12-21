@@ -1,16 +1,23 @@
 ---
-aliases:
-  - Name Index
-tags:
-key_concepts:
-parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Back Matter
+title: Name Index
+parent_directory: Back Matter
+formatted: 2025-12-21 4:30:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - name index
+  - author references
+  - investments book
+secondary_tags:
+  - financial authors
+  - page references
+  - bibliography index
 cssclasses: academia
-title: "Name Index"
 ---
 
 # Name Index
 
-# A
+## A
 
 Acharya,V.V.,303,429
 
@@ -46,7 +53,7 @@ Aragon, George O, 916-917
 
 Arbel, Avner., 360
 
-# B
+## B
 
 Ball,R.,362
 
@@ -120,7 +127,7 @@ Buffett,Warren,287,373
 
 Busse,J.A.,343,371
 
-# C
+## C
 
 Campbell, John Y., 304, 359, 434
 
@@ -158,7 +165,7 @@ Cox,John C.,729
 
 Cruikshank, Jeffrey, 896
 
-# D
+## D
 
 Dabora,E.M.,389
 
@@ -192,7 +199,7 @@ Donaldson, John B., 297
 
 Dunham, Lee M., 384
 
-# E
+## E
 
 Eisen, Ben, 656
 
@@ -202,7 +209,7 @@ Engle, Robert, 304
 
 Evans, Richard, 370, 371
 
-# F
+## F
 
 Fabozzi, Frank, 907
 
@@ -234,7 +241,7 @@ Froot, K. A., 389
 
 Fung, William, 918
 
-# G
+## G
 
 Gabelli,Mario,373
 
@@ -284,7 +291,7 @@ Gruber, Martin J., 329, 373
 
 Guy,J.,267
 
-# H
+## H
 
 Han,Bing,394
 
@@ -328,7 +335,7 @@ Huo,Kewei,426
 
 Hutter, Chad, 913
 
-# 1
+## I
 
 Ibbotson, Roger G., 174
 
@@ -336,7 +343,7 @@ Icahn, Carl, 9
 
 Ingersoll, Jonathan, 843
 
-# J
+## J
 
 Jacquier, Eric, 159, 881
 
@@ -362,7 +369,7 @@ Jones, Howard, 897
 
 Jurion, Philippe, 433
 
-# K
+## K
 
 Kahneman,D.,387
 
@@ -408,7 +415,7 @@ Krische,S.D.,369
 
 Kyrtssou,C.,943
 
-# L
+## L
 
 Laine, Markus, 909
 
@@ -468,7 +475,7 @@ Lucas, Robert, 299
 
 Lynch, Peter, 373, 527
 
-# M
+## M
 
 Macaulay, Frederick, 513
 

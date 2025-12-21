@@ -1,13 +1,23 @@
 ---
-parent_directory:
-title: Kevin McCarthy and Westlake Chemical Corporation (A)
-tags:
-aliases:
-parent_folder: Week 3
-subfolder:
-key_concepts:
+title: "Kevin McCarthy and Westlake Chemical Corporation (A)"
+parent_directory: "VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 3"
+formatted: "2025-12-21 04:32:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - chemical industry analysis
+  - commodity petrochemicals
+  - natural gas volatility
+  - feedstock pricing
+secondary_tags:
+  - olefins production
+  - vinyls manufacturing
+  - ethylene value chain
+  - petrochemical valuation
+  - capacity utilization
+  - margin analysis
+  - interest rate sensitivity
 cssclasses: academia
-linter-yaml-title-alias: Kevin McCarthy and Westlake Chemical Corporation (A)
 ---
 
 EDWARD J. RIEDL
@@ -16,27 +26,27 @@ EDWARD J. RIEDL
 
 In October 2004, Kevin McCarthy, a chemical industry analyst at Banc of America Securities, was evaluating Westlake Chemical Corporation. Westlake was a vertically integrated producer of two families of commodity petrochemicals, olefins and vinyls. Both were produced using natural gas-related hydrocarbons as primary raw materials. Recently, the price of natural gas had experienced substantial volatility (see Exhibit 1). McCarthy had to assess the continued impact this would have on Westlake's prospects.
 
-# Chemical Industry
+## Chemical Industry
 
 The chemical industry comprised firms that converted raw materials (or "feedstocks") into chemicals and included a wide range of products, such as agricultural chemicals, paints and coatings, and other petrochemicals. The latter primarily converted feedstocks derived from petroleum into manufactured organic chemicals.
 
 Broadly, the industry could be divided into two segments: commodity and specialty. Commodity chemicals were characterized by relatively simple, low-value-added products, usually sold in large quantities. Firms in this segment were subject to substantial price competition and cyclicality. In contrast, specialty chemicals were characterized by more complex, high-value-added products that were often sold in lower volumes and were less cyclical. Exhibit 2 summarizes several of these differences.
 
-The industry was generally mature and capital intensive, with additions to capacity requiring two to three years for new plants to be fully constructed and operational. Margins, particularly in the commodity segment, were sensitive to supply and demand balances both domestically and internationally. These balances were quite cyclical, characterized by periods of tight supply, leading to high operating rates (above  $90\%$ ) and peak margins (e.g., 1995), followed by periods of oversupply primarily resulting from significant capacity additions and/or economic recession, leading to reduced operating rates and depressed margins (e.g., 2001-2002).
+The industry was generally mature and capital intensive, with additions to capacity requiring two to three years for new plants to be fully constructed and operational. Margins, particularly in the commodity segment, were sensitive to supply and demand balances both domestically and internationally. These balances were quite cyclical, characterized by periods of tight supply, leading to high operating rates (above $90\%$) and peak margins (e.g., 1995), followed by periods of oversupply primarily resulting from significant capacity additions and/or economic recession, leading to reduced operating rates and depressed margins (e.g., 2001-2002).
 
-# Westlake Chemical Corporation<sup>1</sup>
+## Westlake Chemical Corporation<sup>1</sup>
 
 Westlake was founded in 1986, when the Chao family entered the U.S. market by acquiring a polyethylene plant in Lake Charles, Louisiana. The Chao family had more than 50 years of experience in the plastics and fabrications industries, both in Asia and the U.S.
 
-Westlake had grown internally and via acquisitions, with revenue increasing from  \$66 million in 1987 to\$ 1,423 million in 2003. Despite the rapid growth, the firm had remained principally a domestic firm: almost all of its productive assets were located in the U.S., and over  $85\%$  of annual sales were to U.S. customers (with the remainder sold to Canadian customers). The firm was considered a lean operation: it reported no research and development expenditures and had among the lowest selling, general, and administrative costs for commodity chemical firms.[2] Summary financial data are provided in Exhibit 3. Westlake had recently completed its initial public offering (IPO) listing on the New York Stock Exchange in August 2004, using the net proceeds of almost \$159 million to pay down the firm's debt. The firm's stock price performance is shown in Exhibit 4.
+Westlake had grown internally and via acquisitions, with revenue increasing from \$66 million in 1987 to \$1,423 million in 2003. Despite the rapid growth, the firm had remained principally a domestic firm: almost all of its productive assets were located in the U.S., and over $85\%$ of annual sales were to U.S. customers (with the remainder sold to Canadian customers). The firm was considered a lean operation: it reported no research and development expenditures and had among the lowest selling, general, and administrative costs for commodity chemical firms.[2] Summary financial data are provided in Exhibit 3. Westlake had recently completed its initial public offering (IPO) listing on the New York Stock Exchange in August 2004, using the net proceeds of almost \$159 million to pay down the firm's debt. The firm's stock price performance is shown in Exhibit 4.
 
-Westlake's operations focused on two commodity product segments: olefins (62% of 2003 sales) and vinyls (38% of 2003 sales). Exhibit 5 shows revenue and volume sales for these segments. Exhibit 6 summarizes how Westlake's operations for both segments relate to the ethylene value chain. Macro indicators suggested demand for both olefins and vinyls would grow by about  $3\% -4\%$  annually for the next several years. Further, none of the major North American producers currently had plans for capacity expansions.
+Westlake's operations focused on two commodity product segments: olefins (62% of 2003 sales) and vinyls (38% of 2003 sales). Exhibit 5 shows revenue and volume sales for these segments. Exhibit 6 summarizes how Westlake's operations for both segments relate to the ethylene value chain. Macro indicators suggested demand for both olefins and vinyls would grow by about $3\%-4\%$ annually for the next several years. Further, none of the major North American producers currently had plans for capacity expansions.
 
 The olefins segment primarily manufactured and sold ethylene and polyethylene. Ethylene represented one of the largest-volume commodity chemicals produced in the world and was used to produce plastics, fibers, and other organic chemicals for the packaging, transportation, construction, and other industries. As a monomer, it could be polymerized to form polyethylene, the most common plastic in the world. The majority of sales from this segment were made under long-term agreements, with contracted volumes established within a range. In addition, this segment combined ethylene and benzene (another petroleum product) to create styrene, which could be polymerized to create polystyrene (used in packaging). Exhibit 7 presents industry statistical data relating to ethylene, including production capacity share, capacity utilization, and price/margin data.
 
 The vinyls segment primarily manufactured two products: polyvinyl chloride (PVC) and vinyl chloride monomer (VCM), both of which required ethylene and chlorine as raw inputs. These were used, in turn, to manufacture higher-value-added fabricated products for construction, such as piping and fencing. In addition to using a portion of its internally produced ethylene for the vinyls segment, Westlake used a portion of its internally produced PVC to fabricate these types of products. Due to their use in construction, McCarthy believed overall demand for these products was sensitive to interest rates (see Exhibit 1). Exhibit 8 presents industry statistical data relating to vinyls.
 
-# Feedstocks for Commodity Chemicals
+## Feedstocks for Commodity Chemicals
 
 The key building block for Westlake's olefins and vinyls, ethylene, could be manufactured from feedstock comprising either ethane (which is derived from natural gas) or naphtha (which is derived from crude oil). Exhibit 1 shows the monthly price for both natural gas and crude oil. Commodity chemical firms varied in their use of these two feedstocks. However, Westlake's current production facilities, which were approximately half the U.S. industry average age, were configured to use mainly ethane as a primary feedstock. Other larger producers had greater feedstock flexibility, that is, the ability to use either ethane or naphtha as the feedstock for production of olefins or vinyls.
 

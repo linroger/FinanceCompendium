@@ -1,13 +1,25 @@
 ---
-parent_directory:
 title: "Fundamental Analytics Base Rates: an Outside View on Analyst Forecasts"
-tags:
-aliases:
-parent_folder: Week 2
-subfolder:
-key_concepts:
+parent_directory: PPHA Advanced Financial Analysis & Valuation
+formatted: 2025-12-21 12:35:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - analyst forecasts
+  - base rates
+  - forecasting bias
+  - quant fundamental integration
+secondary_tags:
+  - outside view
+  - inside view
+  - reversion to mean
+  - profitability analysis
+  - return on capital
+  - equity valuation
+  - financial modeling
+  - analyst superiority
+  - mean reversion
 cssclasses: academia
-linter-yaml-title-alias: "Fundamental Analytics Base Rates: an Outside View on Analyst Forecasts"
 ---
 
 # Fundamental Analytics Base Rates: an Outside View on Analyst Forecasts
@@ -30,81 +42,42 @@ We argue that the forecast accuracy of fundamental analysts can benefit greatly 
 
 After discussing some prominent examples of forecast bias, we revisit the framework that governs fundamental value creation to identify the value drivers of interest. We then illustrate the calculation of various base rates for these drivers and offer guidance on how analysts can combine the inside and outside views. We conclude with a brief discussion of the research that shows analysts still dominate algorithms when it comes to forecasting, arguing nonetheless that they should pay more attention to base rates.
 
-# Equities
+## UBS Research Team
 
-Global
+**Global Equity Research - Valuation, Modelling & Accounting**
 
-Valuation, Modelling & Accounting
+- **Guy Weyns, PhD** (Analyst) - guy.weyns@ubs.com, +852 2971 6712
+- **Geoff Robinson, CA FCA** (Analyst) - geoff.robinson@ubs.com, +44-20-7567 1706
+- **Renier Swanepoel** (Analyst) - renier.swanepoel@ubs.com, +44-20-7568 9025
 
-Guy Weyns, PhD
+*www.ubs.com/investmentresearch*
 
-Analyst
+## Contents
 
-guy.weyns@ubs.com
+### How to make money from statistics and biased forecasts
+### What about sell-side analysts' forecasts?
+### What is this report about?
+### Back to basics: active investing and the need for forecasts
+- Forecasting the near term: EPS and other catalysts
+- Forecasting the long term: Intrinsic value
+### The Psychology of Forecasting
+- The Inside vs. the Outside View
+- What are Base Rates?
+### Base Rates: which value drivers should we focus on?
+- What is the point of Profitability Analysis?
+- Taking apart returns on equity
+- The profitability of a company's operations
 
-+852 2971 6712
-
-Geoff Robinson, CA FCA
-
-Analyst
-
-geoff.robinson@ubs.com
-
-+44-20-7567 1706
-
-Renier Swanepoel
-
-Analyst
-
-renier.swanepoel@ubs.com
-
-+44-20-7568 9025
-
-www.ubs.com/investmentresearch
-
-# Contents
-
-# How to make money from statistics and biased forecasts 3
-
-What about sell-side analysts' forecasts? 4
-
-What is this report about? 4
-
-# Back to basics: active investing and the need for forecasts 5
-
-Forecasting the near term: EPS and other catalysts 5
-
-Forecasting the long term: Intrinsic value 5
-
-# The Psychology of Forecasting 7
-
-The Inside vs. the Outside View 7
-
-What are Base Rates? 8
-
-# Base Rates: which value drivers should we focus on? 9
-
-What is the point of Profitability Analysis? 9
-
-Taking apart returns on equity 10
-
-The profitability of a company's operations 10
-
-# Which base rates should we look at? 14
-
-Cross-sectional base rates 14
-
-Time-series base rates 15
-
-Reversion to the mean 16
-
-# Combining the inside and outside views 18
-
-# Rise of the robo-forecaster? Not anytime soon 19
+- Which base rates should we look at?
+  - Cross-sectional base rates
+  - Time-series base rates
+  - Reversion to the mean
+- Combining the inside and outside views
+- Rise of the robo-forecaster? Not anytime soon
 
 # How to make money from statistics and biased forecasts
 
-In 1996 Richard Sloan, then a professor at the University of Pennsylvania's Wharton School, documented one of the most enduring investable market anomalies that ended up being widely referred to as the "accrual anomaly". Sloan demonstrated that company earnings that contain a high proportion of accounting accruals tend to be much less sustainable than earnings that consist primarily of cash. More importantly, he showed that investors did not fully incorporate this publicly available information in their investment decisions: By myopically focusing on aggregate earnings and ignoring the extent to which these earnings were made up of accruals or cash, investors systematically overestimated the persistence of earnings with a high accrual component, and vice versa (Figure 1). As a result, a hedge portfolio that was short the most accrual-rich earnings and long the most cash-rich earnings yielded a return of  $10.4\%$  on average, before transaction costs. In an important 2013 follow-up study, Allen, Larson and  $\mathit{Sloan}^3$  explained why this was happening from a fundamentals perspective. They showed that "extreme" accruals tend to revert strongly in subsequent periods, dragging down earnings – for example, through write-downs of overvalued inventories – and causing negative earnings surprises in the process.
+In 1996 Richard Sloan, then a professor at the University of Pennsylvania's Wharton School, documented one of the most enduring investable market anomalies that ended up being widely referred to as the "accrual anomaly". Sloan demonstrated that company earnings that contain a high proportion of accounting accruals tend to be much less sustainable than earnings that consist primarily of cash. More importantly, he showed that investors did not fully incorporate this publicly available information in their investment decisions: By myopically focusing on aggregate earnings and ignoring the extent to which these earnings were made up of accruals or cash, investors systematically overestimated the persistence of earnings with a high accrual component, and vice versa (Figure 1). As a result, a hedge portfolio that was short the most accrual-rich earnings and long the most cash-rich earnings yielded a return of $10.4\%$ on average, before transaction costs. In an important 2013 follow-up study, Allen, Larson and $\mathit{Sloan}^3$ explained why this was happening from a fundamentals perspective. They showed that "extreme" accruals tend to revert strongly in subsequent periods, dragging down earnings – for example, through write-downs of overvalued inventories – and causing negative earnings surprises in the process.
 
 Needless to say, this arbitrage opportunity would not exist if equity markets were fully efficient: If investors paid attention to this clear statistical pattern, they would revise downward their earnings forecasts for companies whose most recent earnings contained a high accrual component, and vice versa.
 
@@ -116,13 +89,13 @@ Source: Sloan (1996). Year 0 is the year in which all stocks in the sample are r
 
 # What about sell-side analysts' forecasts?
 
-In 2011, Bradshaw, Richardson and  $\mathsf{Sloan}^4$  took the analysis of the accrual anomaly a step further, by specifically focusing on the forecasts made by sell-side analysts. They investigated in particular whether analysts' earnings forecasts reflected the statistically predictable mean reversion of earnings that contain a high accrual component. In addition to showing that the accrual anomaly was still alive and well, their results showed that sell-side analysts' forecast errors – defined as actual EPS minus consensus EPS – were systematically large and negative for firms with unusually high accruals, which is consistent with analysts failing to anticipate the subsequent earnings declines.
+In 2011, Bradshaw, Richardson and $\mathsf{Sloan}^4$ took the analysis of the accrual anomaly a step further, by specifically focusing on the forecasts made by sell-side analysts. They investigated in particular whether analysts' earnings forecasts reflected the statistically predictable mean reversion of earnings that contain a high accrual component. In addition to showing that the accrual anomaly was still alive and well, their results showed that sell-side analysts' forecast errors – defined as actual EPS minus consensus EPS – were systematically large and negative for firms with unusually high accruals, which is consistent with analysts failing to anticipate the subsequent earnings declines.
 
 # What is this report about?
 
 Sloan's work on the accrual anomaly is a beautiful early example of "quant meets fundamental". On the one hand it does not treat earnings and EPS forecasts as mere data points in a factor model, but instead delves into the more detailed mechanics of company fundamentals and GAAP financial statements, as fundamental analysts do. On the other, it uses data and statistics to make fundamental analysis more systematic, mitigating some of the well-documented biases to which human-made forecasts are prone.
 
-This report is about augmenting the "inside view" of the industry expert analyst with simple statistics – "base rates" – that can provide a sanity check or "outside view" on our forecasts. In many instances the uniqueness of the situation will absolutely demand an expert's inside view. On the whole, however, adopting the discipline of systematically sense-checking forecasts against the corresponding base rates will lead to better a better forecasting record.
+This report is about augmenting the "inside view" of the industry expert analyst with simple statistics – "base rates" – that can provide a sanity check or "outside view" on our forecasts. In many instances the uniqueness of the situation will absolutely demand an expert's inside view. On the whole, however, adopting the discipline of systematically sense-checking forecasts against the corresponding base rates will lead to a better forecasting record.
 
 The report starts with a brief review of the need for forecasts in active equity investing, as well as the nature of the forecasts required by the two main investment approaches. After setting the stage, we proceed to highlight the most impactful findings of leading psychologists' applied research on human forecast bias, defining the concept of base rates in the process. The rest of the report zooms in on which value drivers we should care about most, how to go about calculating base rates for those value drivers, and how to combine the base rate information with a situation-specific, inside view.
 
@@ -144,11 +117,9 @@ Although "Consensus EPS" has some widely acknowledged shortcomings – for examp
 
 Estimating intrinsic value requires the analyst to forecast not only the near-term realisations of a company's EPS, but all subsequent realisations as well. In other words, intrinsic value needs a forecast of the entire future earnings growth path, including the long-term, steady-state to which that path is likely to converge. To keep the earnings forecasts honest, the model also requires multi-period forecasts for non-EPS value drivers like cash flow from operations, capital expenditures, and dividend payments.
 
-Whereas the short-term, non-consensus EPS forecast approach has a very clear catalyst event – the company's next earnings announcement – in the intrinsic value approach the catalyst tends to be much fuzzier. The speed with which the
+Whereas the short-term, non-consensus EPS forecast approach has a very clear catalyst event – the company's next earnings announcement – in the intrinsic value approach the catalyst tends to be much fuzzier. The speed with which the company's share price moves towards the analyst's estimate of intrinsic value will depend on how sharply subsequent realisations of the various value drivers update market expectations. Here, the focus is not on short-term noise but on getting the long-term growth path right.
 
 Approaches to active equity investing range from short-term catalyst forecasting to long-term intrinsic value estimation, with various hybrid approaches in between. Either way, industry expert forecasts are needed.
-
-company's share price moves towards the analyst's estimate of intrinsic value will depend on how sharply subsequent realisations of the various value drivers update market expectations. Here, the focus is not on short-term noise but on getting the long-term growth path right.
 
 # Scenario forecasting, testable propositions and Bayesian updating
 
@@ -202,11 +173,9 @@ What connects all these valuation methods, however – either explicitly or impl
 
 # What is the point of Profitability Analysis?
 
-From a pure forecasting perspective, it may seem counterintuitive at first to focus on the components of profitability. Why not forecast directly the line items that make up operating income or earnings? The big risk of the latter approach is that it makes the forecaster lose sight of the structural regularities proper to a company or an industry. For example, the laws of physics and micro-economics will place bounds on the possible range of asset turnovers of companies in a specific industry: there is only so much revenue Walmart or Ikea can generate with a fixed number of stores. If we ignore this reality and forecast revenue growth independently from the operating asset base that is needed to support that growth, at some point our forecasts of free cash flow and cash flow available to
+From a pure forecasting perspective, it may seem counterintuitive at first to focus on the components of profitability. Why not forecast directly the line items that make up operating income or earnings? The big risk of the latter approach is that it makes the forecaster lose sight of the structural regularities proper to a company or an industry. For example, the laws of physics and micro-economics will place bounds on the possible range of asset turnovers of companies in a specific industry: there is only so much revenue Walmart or Ikea can generate with a fixed number of stores. If we ignore this reality and forecast revenue growth independently from the operating asset base that is needed to support that growth, at some point our forecasts of free cash flow and cash flow available to equity holders will be considerably out of kilter. Profitability analysis guides the forecasting task in two ways:
 
 Companies create intrinsic value when their return on capital exceeds the cost of that capital. To use base rates to maximum effect, they should be focused on the drivers of return on capital.
-
-equity holders will be considerably out of kilter. Profitability analysis guides the forecasting task in two ways:
 
 (1) rather than focusing on revenue and earnings growth in isolation, it keeps track of the interconnections between the generation of income, the asset base, the generation of cash flow and the external funding side, ensuring that the main driver of intrinsic value – return on capital – does not become unrealistically high or low;  
 (2) it decomposes the forecasting exercise into a number of intuitive ratios for which we can document base rates and other useful empirical regularities.
@@ -238,25 +207,25 @@ Next, we need a more precise measure of operating income. In this report we will
 We can now combine our metrics for invested capital and operating income and define Return on Net Operating Assets (RNOA), the most important overall driver of operating profitability and therefore intrinsic value:
 
 $$
-R N O A = \frac {N O P A T}{N O A}
+RNOA = \frac{NOPAT}{NOA}
 $$
 
 There are a number of ways in which a company can achieve a high return on its operating assets. It can generate lots of revenue per unit of operating asset but at low profit margins, it can generate little revenue per unit of operating asset but at high profit margins, or it can operate anywhere in between. That is why, from a forecasting perspective, it is both intuitive and useful to decompose RNOA into Operating Profit Margin (OPM) on the one hand, and Operating Asset Turnover (OpATO) on the other:
 
 $$
-R N O A = O P M \times O p A T O
+RNOA = OPM \times OpATO
 $$
 
 where:
 
 $$
-O P M = \frac {N O P A T}{S a l e s}
+OPM = \frac{NOPAT}{Sales}
 $$
 
 and:
 
 $$
-O p A T O = \frac {S a l e s}{N O A}
+OpATO = \frac{Sales}{NOA}
 $$
 
 This decomposition of the return on capital illustrates a powerful general principle of profitability analysis. Starting at the top level, we can:
@@ -269,19 +238,19 @@ Profitability analysis allows us to decompose the drivers of value to the level 
 As an additional example of this principle, we can also analyse OPM at a more granular level by further decomposing it into the Gross Margin (GM) and the Other Operating Expenses Ratio (OOER):
 
 $$
-O P M = G M - O O E R
+OPM = GM - OOER
 $$
 
 where:
 
 $$
-G M = \frac {S a l e s - C O G S}{S a l e s}
+GM = \frac{Sales - COGS}{Sales}
 $$
 
 and:
 
 $$
-O O E R = \frac {\text {O t h e r O p e r a t i n g E x p e n s e s}}{\text {S a l e s}}
+OOER = \frac{\text{Other Operating Expenses}}{Sales}
 $$
 
 The point of this further decomposition is that Cost of Goods Sold (COGS) and Selling, General and Administrative expenses (SG&A), for example, may behave differently from a statistical perspective. Examining the base rates for each ratio separately may be more informative for our forecasts than looking only at their combined impact on OPM.
@@ -437,9 +406,7 @@ $$
 Considering that the inside view is prone to human bias, that a base-rates-driven outside view can help correct that bias, that the range of value-relevant alternative data sources is expanding, and that broad access to state-of-the-art machine learning technology is no longer an issue, could we be moving towards a quant-only world in which the best possible forecasts will be made by some form of AI? Until today, the extensive body of academic research that focuses on the relative accuracy of sell-side analysts' forecasts vs. that of statistical models has been able to pour cold water over that vision. Two notable milestones of this research were:
 
 - Fried and Givoly (1982): Using a large sample of panel data, analysts' forecasts were shown to be more accurate than the forecasts made by a variety of time-series models<sup>8</sup>;  
-- Brown, Griffin, Hagerman, and Zmijewski (1987): Analysts' forecast superiority over time-series models is shown to be due to (i) a timing advantage and (ii) an information advantage $^{9}$ . The former derives from the fact that
-
-analysts can keep adjusting their earnings forecasts all the way up to the next announcement. The latter points to the fact that they process and combine more information sources – many of them unstructured – than the time series.
+- Brown, Griffin, Hagerman, and Zmijewski (1987): Analysts' forecast superiority over time-series models is shown to be due to (i) a timing advantage and (ii) an information advantage $^9$. The former derives from the fact that analysts can keep adjusting their earnings forecasts all the way up to the next announcement. The latter points to the fact that they process and combine more information sources – many of them unstructured – than the time series.
 
 The Brown et al. (1987) study in particular was widely considered as having definitively settled the question of sell-side analysts' superiority over time-series models. As new statistical learning techniques become available, however, the temptation to restart the contest between man and machine seems too strong to resist. A more recent study by Ball and Ghysels (2017)<sup>10</sup> attempts to mimic the analyst's timing and information advantage by augmenting the time series of prior quarterly earnings data with higher-frequency industry and macro data, using a new estimation method (MIDAS) to combine the various information sources. Our Quant colleagues discuss this and other algorithmic earnings forecasting approaches in their report on EPS Forecasting.
 
@@ -473,7 +440,7 @@ Source: UBS. Rating allocations are as of 31 March 2019.
 3:Percentage of companies under coverage globally within the Short-Term rating category.  
 4:Percentage of companies within the Short-Term rating category for which investment banking (IB) services were provided within the past 12 months.
 
-KEY DEFINITIONS: Forecast Stock Return (FSR) is defined as expected percentage price appreciation plus gross dividend yield over the next 12 months. In some cases, this yield may be based on accrued dividends. Market Return Assumption (MRA) is defined as the one-year local market interest rate plus  $5\%$  (a proxy for, and not a forecast of, the equity risk premium). Under Review (UR) Stocks may be flagged as UR by the analyst, indicating that the stock's price target and/or rating are subject to possible change in the near term, usually in response to an event that may affect the investment case or valuation. Short-Term Ratings reflect the expected near-term (up to three months) performance of the stock and do not reflect any change in the fundamental view or investment case. Equity Price Targets have an investment horizon of 12 months.
+KEY DEFINITIONS: Forecast Stock Return (FSR) is defined as expected percentage price appreciation plus gross dividend yield over the next 12 months. In some cases, this yield may be based on accrued dividends. Market Return Assumption (MRA) is defined as the one-year local market interest rate plus $5\%$ (a proxy for, and not a forecast of, the equity risk premium). Under Review (UR) Stocks may be flagged as UR by the analyst, indicating that the stock's price target and/or rating are subject to possible change in the near term, usually in response to an event that may affect the investment case or valuation. Short-Term Ratings reflect the expected near-term (up to three months) performance of the stock and do not reflect any change in the fundamental view or investment case. Equity Price Targets have an investment horizon of 12 months.
 
 EXCEPTIONS AND SPECIAL CASES:UK and European Investment Fund ratings and definitions are: Buy: Positive on factors such as structure, management, performance record, discount; Neutral: Neutral on factors such as structure, management, performance record, discount; Sell: Negative on factors such as structure, management, performance record, discount. Core Banding Exceptions (CBE): Exceptions to the standard  $+ / - 6\%$  bands may be granted by the Investment Review Committee (IRC). Factors considered by the IRC include the stock's volatility and the credit spread of the respective company's debt. As a result, stocks deemed to be very high or low risk may be subject to higher or lower bands as they relate to the rating. When such exceptions apply, they will be identified in the Company Disclosures table in the relevant research piece.
 
@@ -545,7 +512,7 @@ Research will initiate, update and cease coverage solely at the discretion of UB
 
 The analyst(s) responsible for the preparation of this document may interact with trading desk personnel, sales personnel and other parties for the purpose of gathering, applying and interpreting market information. UBS relies on information barriers to control the flow of information contained in one or more areas within UBS into other
 
-are, units, groups or affiles of UBS. The compensation of the analyst who prepared this document is determined exclusively by research management and senior management (not including investment banking). Analyst compensation is not based on investment banking revenues; however, compensation may relate to the revenues of UBS and/or its divisions as a whole, of which investment banking, sales and trading are a part, and UBS's subsidiaries, branches and affiliates as a whole.
+are, units, groups or affiliates of UBS. The compensation of the analyst who prepared this document is determined exclusively by research management and senior management (not including investment banking). Analyst compensation is not based on investment banking revenues; however, compensation may relate to the revenues of UBS and/or its divisions as a whole, of which investment banking, sales and trading are a part, and UBS's subsidiaries, branches and affiliates as a whole.
 
 For financial instruments admitted to trading on an EU regulated market: UBS AG, its affiliates or subsidiaries (excluding UBS Securities LLC) acts as a market maker or liquidity provider (in accordance with the interpretation of these terms under English law or, if not carried out by UBS in the UK the law of the relevant jurisdiction in which UBS determines it carries out the activity) in the financial instruments of the issuer save that where the activity of liquidity provider is carried out in accordance with the definition given to it by the laws and regulations of any other EU jurisdictions, such information is separately disclosed in this document. For financial instruments admitted to trading on a non-EU regulated market: UBS may act as a market maker save that where this activity is carried out in the US in accordance with the definition given to it by the relevant laws and regulations, such activity will be specifically disclosed in this document. UBS may have issued a warrant the value of which is based on one or more of the financial instruments referred to in the document. UBS and its affiliates and employees may have long or short positions, trade as principal and buy and sell in instruments or derivatives identified herein; such transactions or positions may be inconsistent with the opinions expressed in this document.
 

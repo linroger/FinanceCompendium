@@ -1,18 +1,32 @@
 ---
-parent_directory:
-title: "Cooking the books using different ingredients:"
-tags:
-aliases:
-parent_folder: Week 2
-subfolder:
-key_concepts:
+title: Cooking the Books Using Different Ingredients
+parent_directory: PPHA Advanced Financial Analysis & Valuation
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - earnings fraud detection
+  - operating cash flow manipulation
+  - ECF frauds
+  - accrual based earnings management
+  - fraud duration analysis
+secondary_tags:
+  - financial statement fraud
+  - SEC enforcement actions
+  - market reaction studies
+  - executive turnover consequences
+  - securities litigation
+  - cox proportional hazards
+  - estimated damages calculation
+  - accounting irregularities
+  - cash flow misclassification
+  - related party transactions
 cssclasses: academia
-linter-yaml-title-alias: "Cooking the books using different ingredients:"
 ---
 
-# Cooking the books using different ingredients:
+# Cooking the Books Using Different Ingredients
 
-# An examination of earnings frauds that also involve misreported cash flows *
+## An Examination of Earnings Frauds That Also Involve Misreported Cash Flows
 
 Clive Lennox
 
@@ -28,11 +42,7 @@ julia.yu@virginia.edu
 
 May 2020
 
-# Cooking the books using different ingredients:
-
-# An examination of earnings frauds that also involve misreported cash flows
-
-# ABSTRACT
+## Abstract
 
 Prior studies examine how fraud firms manipulate their accruals in order to overstate their earnings. We document that some fraud firms also manipulate their operating cash flows in order to fraudulently overstate earnings. More importantly, we predict that these earnings-cash flow frauds (ECF) are harder to detect and have more severe consequences when compared to earnings frauds in which operating cash flows are not misstated. Consistent with our predictions, we find that earnings-cash flow frauds take longer to detect, have larger estimated damages, elicit more negative market reactions, are more likely to result in CEO and executive turnover, and are more likely to result in securities lawsuits. We conclude that ECF frauds are harder to detect and have more severe consequences.
 
@@ -40,7 +50,7 @@ Prior studies examine how fraud firms manipulate their accruals in order to over
 
 "It's a lot harder to manipulate cash flow from operations than it is earnings per share" - Jordan Alexander, manager of Evergreen Small Cap Value Fund (The Wall Street Journal, March 19, 2002).
 
-# 1. Introduction
+## 1. Introduction
 
 The accounting literature has a long tradition of examining accrual manipulations among firms that are found to have fraudulently overstated their earnings. Consistent with the above quotations, the literature's focus on accruals reflects a widespread belief that operating cash flows are not easy to manipulate. Consider, for example, the most common type of fraudulent reporting; i.e., fictitious sales. It is generally assumed that reporting fictitious cash sales is very difficult because customers are not willing to hand over cash for sales that are fictitious. Therefore, it is usually supposed that fraud firms will record fictitious credit sales, causing earnings to be overstated through accruals rather than through operating cash flows.
 
@@ -70,7 +80,7 @@ Finally, our findings suggest significant pitfalls with relying on accruals metr
 
 cases of fraudulent accounting. It also has important implications for auditors because auditing standards recommend that auditors test earnings by operating cash flows. For example, auditors look for evidence of cash being generated from sales in order to verify that recorded sales actually occurred. Our study shows that an over-reliance on reported cash flows from operations could result in auditors failing to detect the most serious types of frauds, namely those that last longest and that have the most severe consequences.[8]
 
-# 2. A case study example, prior literature, and hypotheses development
+## 2. A Case Study Example, Prior Literature, and Hypotheses Development
 
 2.1 Why are fraud firms motivated to overstate operating cash flows?
 
@@ -92,7 +102,7 @@ misclassifying cash from both financing and investing activities as cash from op
 
 We emphasize, in addition, that the timing of the cash flow overstatement can occur after or at the same time as the overstatement of earnings. Moreover, the overstatement of operating cash flows can occur in the absence of any overstatement of accruals. The details differ depending on the circumstances of the individual case. For example, in the Dynegy case, the firm first overstated its earnings using accruals and later it overstated its operating cash flows in order to close the gap between earnings and operating cash flows. In other ECF frauds, the timing can be different. Sometimes the ECF firm will report fictitious cash transactions, in which case there is no accrual manipulation because the cash misstatement occurs at the exact same time as the earnings misstatement (e.g., Collins & Aikman reported receiving cash rebates from a supplier whereas in fact the cash was from a related party). Thus, an ECF fraud can, but does not always, involve an overstatement of accruals. Offering another variant, the fraud firm will sometimes report a fictitious accrual (e.g., a fictitious credit sale) but the firm will eliminate the accrual prior to the fiscal year-end by reporting that cash was generated prior to the year-end date. Some fraud firms time their cash flow misreporting prior to the fiscal year-end as part of a clever strategy to dupe their auditors (e.g., Lernout & Hauspie).[10]
 
-# 2.2 Accruals and financial misreporting
+### 2.2 Accruals and Financial Misreporting
 
 The possibility that earnings can be misstated through operating cash flows has largely been ignored in the prior literature, which has instead focused on accrual manipulations (Dechow et al. 1996; Beneish 1997; Lee et al. 1999; Jones et al. 2008; Dechow et al. 2011; Perols and Lougee 2011; Bentley et al. 2013). Despite the focus on accruals metrics, the evidence is less than over-whelming that accruals variables are strong predictors of earnings frauds. Some studies find that accruals are significantly different between fraud and no-fraud firms (Lee et al. 1999; Jones et al. 2008; Dechow et al. 2011), whereas other studies find that accruals are insignificant predictors of fraud (Perols and Lougee 2011; Bentley et al. 2013; Markelevich and Rosner 2013).
 
@@ -104,7 +114,7 @@ Our study focuses on the opposite phenomenon; i.e., the problem of false negativ
 
 accruals are likely to attract unwanted scrutiny from investors, analysts, and auditors. The fraud firm can avoid this scrutiny by overstating its operating cash flows rather than relying on overstated accruals alone.
 
-# 2.3 Hypothesis 1: fraud duration
+### 2.3 Hypothesis 1: Fraud Duration
 
 Investors pay close attention to whether reported earnings are supported by operating cash flows (Graham et al. 2005). In the aftermath of the Enron scandal, investors started paying more attention to cash flow statements in order to better monitor the quality of reported earnings (Siegel 2006). Consistent with investors viewing cash flows as important, the managers of fraud firms sometimes draw the attention of investors to reported operating cash flows in order to make the reported earnings appear more credible. For example, when Tyco was engaged in a massive earnings fraud, the Chief Financial Officer (Mark Swartz) attempted to reassure analysts and investors by telling them to "forget reported earnings" and to instead focus on cash flow generation "to show that our quality of earnings is good" (Maremont 2002).[13] It turns out that the earnings were not good because Tyco was overstating both its earnings and its operating cash flows.
 
@@ -126,7 +136,7 @@ We expect difficult-to-detect frauds to last longer. For example, a fraud that h
 
 H1: Earnings frauds have longer duration when they involve overstatements of operating cash flows rather than overstatements of accruals alone.
 
-# 2.4 Hypothesis 2: consequences
+### 2.4 Hypothesis 2: Consequences
 
 We expect the consequences of earnings frauds are more severe when they are accompanied by overstatements of operating cash flows. We form this expectation for three reasons. First, H1 predicts that earnings frauds last longer when earnings overstatements are accompanied by overstatements of operating cash flows. Frauds of longer duration are likely to be more costly to investors and managers when they are discovered because longer lasting frauds have more time to accumulate. Therefore, we expect more severe consequences for investors and managers when ECF frauds are discovered. Second, we expect that managers overstate their operating cash flows in order to make their frauds more difficult to detect. In turn, the lower risk of detection could encourage managers to become even more aggressive in their misreporting. Third, ECF frauds are likely to involve sophisticated planning and greater efforts by management to fool financial statement users and auditors, by convincing them that the overstated earnings are supported by operating cash flows. Once the ECF frauds are
 
@@ -138,9 +148,9 @@ To compare the relative severity of ECF frauds and non-ECF frauds, we examine fo
 
 Note that, although we expect ECF frauds to have more serious consequences for managers (H2), this does not mean that managers are behaving irrationally when they engage in ECF frauds. Given that ECF frauds are more difficult to detect (as predicted in H1), a manager has to trade-off the benefit (i.e., a lower probability of detection) against the cost (i.e., more severe consequences in the event that the fraud is detected).
 
-# 3. Sample, research design, and descriptive statistics
+## 3. Sample, Research Design, and Descriptive Statistics
 
-# 3.1 Sample
+### 3.1 Sample
 
 We identify our sample of accounting frauds using the SEC's Accounting and Auditing Enforcement Releases (AAERs). We use AAERs because they provide the granular information that we require to determine whether earnings frauds involve cash flow misreporting. Other data sources - such as restatement announcements - do not generally
 
@@ -150,9 +160,9 @@ An advantage of using AAERs to identify accounting frauds is that researchers ca
 
 Our sample comprises fraud quarters after July 15, 1988 because cash flow statements are not required prior to that date.[17] Following prior research, we drop firms with missing identifiers (e.g., CIKs, GVKEYs), financial firms (SIC 6000-6999) and frauds in which earnings were not overstated, as well as frauds that are related to the stock option backdating scandal.[18] This gives an initial sample of 460 AAER firms and 3,454 AAER firm-quarters. Requiring data availability for the control variables leaves us with 455 AAER firms and 3,180 firm-quarters.
 
-# [INSERT TABLE 1 HERE]
 
-# 3.2 Data limitations
+
+### 3.2 Data Limitations
 
 We acknowledge that the AAERs, Litigation Releases, and other data sources do not always provide all the information we would like to have about the frauds. The most important data limitation is that these sources generally do not show when the cash flow misreporting begins. Consequently, we are usually unable to determine whether the cash flow misreporting starts at the same time the firm starts to overstate earnings or at some point later in the fraud period.
 
@@ -168,7 +178,7 @@ A final limitation is that the AAERs and Litigation Releases often fail to discl
 
 are provided in fewer than half of the frauds in our sample. Even when the misstatement magnitudes are disclosed, they often do not cover all years and quarters of the fraud period. Moreover, the information on misstatement magnitudes is often unavailable even when firms announce restatements because the restatement period is often shorter than the fraud period.[19] Consequently, we are not able to measure fraud severity using the magnitudes of the earnings overstatements.
 
-# 3.3 Research design
+### 3.3 Research Design
 
 Our fraud duration regression is estimated using a Cox proportional hazards model.
 
@@ -216,11 +226,11 @@ because we expect managerial turnover to be higher when earnings frauds are acco
 
 In eq. (2d), the dependent variable (LAWSUIT) is equal to one if the fraud is associated with a subsequent securities class action lawsuit, and zero otherwise. We predict a positive coefficient on ECF_FRAUD in eq. (2d) because we expect a higher incidence of litigation when earnings frauds are accompanied by overstatements of operating cash flows. In eqs. (2a) to (2d) we include the same controls as those in eq. (1). In addition, we control for accounting restatements in eqs. (2c) and (2d) because we expect that management turnover and securities litigation are more frequent among firms that disclose restatements.
 
-# 3.4 ECF and non-ECF frauds
+### 3.4 ECF and Non-ECF Frauds
 
 Panel A of Table 2 reports descriptive statistics for the 455 fraud firms. Panel A shows that the business equipment industry accounts for the largest proportion of frauds (30.1%). We find that 147 (32%) firms are ECF frauds (ECF_FRAUD = 1), whereas the remaining 308 firms are not (ECF_FRAUD = 0). In untabulated tests, we find no significant differences in industry composition between the ECF frauds (ECF_FRAUD = 1) and the non-ECF frauds (ECF_FRAUD = 0).
 
-# [INSERT TABLE 2 HERE]
+
 
 Panel B of Table 2 reports the mean values of accruals during each fraud quarter. Consistent with Dechow et al. (1996), we find that total accruals are typically negative during the fraud period. Moreover, total accruals do not become larger and larger, the longer that the fraud persists. Indeed, there appears to be no overall trend in total accruals over the duration of the fraud period. Next, we follow Richardson et al. (2005) by using a more comprehensive measure of accruals (RSST_ACCRUALS). As shown in Panel B, the mean values of
 
@@ -248,21 +258,21 @@ American Mobile Systems overstated its cash balance using a check kiting fraud.
 
 Panel D of Table 2 reports descriptive statistics for the ECF and non-ECF samples. We find that the ECF firms are significantly larger than the non-ECF firms (t-stat. = 3.68). In addition, the ECF firms have higher leverage (t-stat. = 1.81), more geographical segments (t-stat. = 1.67), and higher institutional ownership (t-stat. = 1.72). The ECF firms are not significantly different from the non-ECF firms on the other characteristics.
 
-# 4. Main results
+## 4. Main Results
 
-# 4.1 Results for fraud duration (H1)
+### 4.1 Results for Fraud Duration (H1)
 
 Under H1, we expect earnings frauds to be of longer duration when they are accompanied by overstatements of operating cash flows. Univariate tests of this prediction are reported in Panel A of Table 3. The mean duration of the earnings fraud is 10.30 quarters in the ECF sample compared with 7.17 quarters in the non-ECF sample. Consistent with H1, the difference in duration is highly significant (t-stat. = 4.81). We obtain similar findings when examining the median length of fraud duration. The median fraud duration is 8.04 quarters in the ECF sample compared with 6.02 quarters in the non-ECF sample, and the difference is highly significant (z-stat. = 4.50). Consistent with H1, these findings suggest that ECF frauds persist for significantly longer than non-ECF frauds.
 
-# [INSERT TABLE 3 HERE]
+
 
 Panel B reports regression results for the Cox model of fraud duration. Consistent with H1, we find a significant negative coefficient on ECF_FRAUD, indicating that the hazard rate (i.e., the probability of cessation) is significantly lower for ECF frauds (z-stats. = -3.68, -3.29, -3.37). In terms of the control variables, we find the hazard rates are significantly higher (implying shorter fraud duration) for firms with smaller RSST accruals, firms with lower ROA, firms reporting losses, and firms receiving adverse internal control opinions.
 
-# 4.2 Results for H2: Estimated damages
+### 4.2 Results for H2: Estimated Damages
 
 Under H2, we expect estimated damages to be greater when earnings frauds are accompanied by overstatements of operating cash flows. Univariate tests of this prediction are reported in Panel A of Table 4. There, we find that the mean values of estimated damages are  \$8.7 billion for ECF frauds compared with\$ 4.1 billion for non-ECF frauds. This is consistent with our expectation that the estimated damages are greater in ECF frauds. However, these means are strongly influenced by the presence of some very large outliers and consequently the median values of the estimated damages are much smaller than the means. Nevertheless, the medians show the same pattern of difference between ECF and non-ECF frauds. The median values of estimated damages are \$551 million for ECF frauds compared with \$222 million for non-ECF frauds and this difference is highly significant (p < 0.0001).
 
-# [INSERT TABLE 4 HERE]
+
 
 We address the outliers and skewness in the raw values of estimated damages by taking a log transformation (Ln(DAMAGES)). Using this transformed variable, we find that the means and medians are similar for each sub-sample, which demonstrates that the outlier and skewness issues are mitigated. We continue to find that damages are significantly higher for ECF frauds than non-ECF frauds using the logged variable. The mean value of Ln(DAMAGES) is significantly greater in the ECF sample (t-stat. = 4.17) and the median value is also significantly greater in the ECF sample (z-stat. = 4.25).
 
@@ -270,7 +280,7 @@ The OLS regression results are reported in Panel B of Table 4. We find positive 
 
 frauds tend to be of longer duration (H1). (The result for the ECF_FRAUD variable is even stronger if we do not control for DURATION.) As expected, longer duration frauds tend to have larger estimated damages. We also find that estimated damages are positively related to firm size, reported losses, analyst coverage, institutional ownership, and litigation risk. On the other hand, estimated damages are negatively related to firm leverage, ROA, and the book-to-market ratio.
 
-# 4.3 Results for H2: Market reactions to fraud news events
+### 4.3 Results for H2: Market Reactions to Fraud News Events
 
 Table 5 reports the market reactions to the fraud news events. Univariate tests are reported in Panel A, while the regression results are shown in Panel B. Summing across all fraud news events, we find the mean (median) CAR is  $-35.32\%$ $(-33.24\%)$  for ECF frauds compared to  $-24.15\%$ $(-19.75\%)$  for non-ECF frauds. These differences are statistically significant (t-stat. = 3.71; z-stat. = 3.60) as well as economically large.
 
@@ -278,27 +288,27 @@ In addition, Panel A shows there are significantly more news events for the ECF 
 
 ECF frauds are also partly explained by the larger number of fraud news events. Summing across all news events subsequent to the initial triggering event, we find the mean CAR is  $-23.75\%$  for the ECF frauds compared to  $-15.76\%$  for the non-ECF frauds. Again, the difference is statistically significant (t-stat.  $= 2.54$ ). Overall, these findings indicate that the very first news event is more severe for the ECF frauds and the subsequent news events are also more severe for the ECF frauds although there are also more of these news events.
 
-# [INSERT TABLE 5 HERE]
+
 
 Panel B reports the results of OLS regressions that explain the magnitudes of the market reactions. In every model, we find that the market reactions are significantly more negative for ECF frauds compared to non-ECF frauds. This finding holds when we examine the entire market response over all the fraud news events, the market's response to just the initial trigger event, and the market's reaction to all subsequent fraud news events.
 
-# 4.4 Results for H2: Executive turnover
+### 4.4 Results for H2: Executive Turnover
 
 For our next test of H2, we examine the turnover of CEOs and the top four executives following the initial revelation of fraud. We expect higher turnover rates for ECF frauds because these frauds are more severe. Panel A of Table 6 shows that CEO turnover is  $51\%$  for ECF frauds compared to  $38\%$  for non-ECF frauds and the difference is statistically significant  $(t\text{-stat.} = 2.65)$ . When we consider the firm's top four executives, we find that the turnover rate is  $43\%$  for ECF frauds compared to  $35\%$  for non-ECF frauds  $(t\text{-stat.} = 2.25)$ .
 
-# [INSERT TABLE 6 HERE]
+
 
 Panel B of Table 6 reports the regression results for CEO turnover and the turnover rates of the top four executives. Consistent with Panel A, we find significant positive
 
 coefficients on the ECF_FRAUD variable in the models of CEO turnover (z-stats. = 2.98, 3.02, 2.83). There is therefore a significantly higher departure rate for CEOs when earnings frauds are accompanied by cash flow misreporting. Similarly, we find significantly higher turnover rates for the top four executives (t-stats. = 2.78, 2.80, 2.49).[23]
 
-# 4.5 Results for H2: Securities litigation
+### 4.5 Results for H2: Securities Litigation
 
 Next, we test H2 by examining the incidence of litigation against fraud firms and their executives. As shown in Panel A of Table 7, there are subsequent lawsuits for  $83.90\%$  of ECF frauds compared to  $65.59\%$  of non-ECF frauds. The difference is statistically significant (t-stat.  $= 3.68$ ). Panel B reports the logistic regression results. We find significant positive coefficients on the ECF_FRAUD variable in the securities litigation models ( $z$ -stats.  $= 3.16$ , 3.23, 2.91). Consistent with our other tests of H2, these results suggest that ECF frauds are more serious than the non-ECF frauds.
 
-# [INSERT TABLE 7 HERE]
 
-4.6 Is cash flow misreporting a substitute or a complement to accruals-based misreporting?
+
+### 4.6 Is Cash Flow Misreporting a Substitute or Complement to Accruals-Based Misreporting?
 
 In this section, we examine whether cash flow misreporting is a substitute or a complement to accruals misreporting. If the two methods are substitutes, we would expect accruals to be significantly smaller for ECF frauds than non-ECF frauds. Indeed, there are some ECF frauds in our sample where earnings are misreported through cash flows alone and not through
 
@@ -310,15 +320,15 @@ It is therefore an open question whether cash flow misreporting is generally a s
 
 accruals are smaller or larger within the sample of ECF frauds compared to the sample of non-ECF frauds. The results are shown in Table 8. We find the differences in total accruals between ECF and non-ECF frauds are insignificant. In contrast, RSST accruals are significantly larger for ECF frauds than non-ECF frauds, suggesting a complementarity between accruals misreporting and cash flow misreporting. However, this result is weak (t-stat. = 1.77), so we explore it further by examining two additional accruals metrics based on Dechow et al. (1995) and Hribar and Collins (2002). In particular, the DSS_ACCRUALS measure is working capital accruals calculated using the balance sheet approach, while the HC_ACCRUALS measure is current accruals calculated using the cash flow statement. We find that neither accrual variable is significantly correlated with ECF frauds. Overall, we find no evidence that accruals misreporting is a substitute for cash flow misreporting and only weak evidence that they are complementary.
 
-# [INSERT TABLE 8 HERE]
 
-# 4.7 Collusion and related party transactions
+
+### 4.7 Collusion and Related Party Transactions
 
 When developing our argument for H2, we argued that ECF frauds involve sophisticated planning and greater efforts by management to deceive financial statement users and auditors. To test this argument more directly, we examine whether there are more instances of collusion and related party transactions in ECF frauds than non-ECF frauds. We read through the AAERs to identify whether each fraud involves collusion (either among individuals within the firm or outside it) and related party transactions. We expect ECF frauds are more likely to involve collusion and related party transactions because such frauds often require the co-operation of other parties in order to generate the apparent cash from operations. (See Appendix A for examples.)
 
 Consistent with this argument, we find that collusion is present in  $28.67\%$  of the ECF frauds and  $13.22\%$  of the non-ECF frauds and the difference is statistically significant (z-stat.  $= 3.99$ ). Similarly, the AAERs reveal that related party transactions are used to facilitate the fraud in  $20.98\%$  of the ECF frauds and  $6.10\%$  of the non-ECF frauds. Again, the difference is statistically significant ( $z$ -stat.  $= 4.78$ ). In regressions that include all the controls from our tabulated tests, we continue to find that ECF frauds are associated with more collusion and more related party transactions ( $z$ -stats.  $= 3.71$ , 4.11). These results are consistent with ECF frauds being relatively sophisticated with greater efforts from management for concealment.
 
-# 5. Conclusion
+## 5. Conclusion
 
 The existing fraud literature assumes that misreporting is primarily an accrual-based phenomenon. This assumption is somewhat naïve because a fraud firm that relies on accrual manipulations alone is likely to have a higher risk of detection. We argue that sophisticated managers attempt to reduce the risk of detection by misstating earnings through overstatements of operating cash flows. Cash flow misreporting is attractive to firms that fraudulently overstate their earnings because cash flow misstatements obviate the need for accrual reversals from prior periods and they help to ensure that reported accruals do not appear unreasonably large.
 
@@ -326,7 +336,7 @@ Consistent with these arguments we find that ECF frauds last significantly longe
 
 of frauds involve overstated cash flows rather than accruals alone. Moreover, our findings help explain why it is so difficult for financial statement users and academic researchers to detect cases of fraudulent reporting before the frauds are publicly revealed.
 
-# References
+## References
 
 Bao, Y., Ke, B., Li, B., Yu, Y. J., Zhang, J., 2020. Detecting accounting fraud in publicly traded U.S. firms using a machine learning approach. Journal of Accounting Research 58 (1): 199-235.  
 Beneish, M., 1997. Detecting GAAP violations: Implications for assessing earnings management among firms with extreme financial performance. Journal of Accounting and Public Policy 16: 271-309.  
@@ -399,9 +409,9 @@ Tucker, J., Zarowin, P., 2006. Does income smoothing improve earnings informativ
 Zang, A. Y., 2012. Evidence on the trade-off between real activities manipulation and accrual-based earnings management. The Accounting Review 87:2, 675-703.  
 Zhang, F. X., 2007. Accruals, investment, and the accrual anomaly. The Accounting Review 82:5, 1333-1363.
 
-# APPENDIX A
+## Appendix A
 
-# Examples of ECF frauds using excerpts from AAERs and Litigation Releases.
+### Examples of ECF Frauds Using Excerpts from AAERs and Litigation Releases
 
 Enron Corp (fraud duration = 3/31/1997 - 6/30/2001)
 
@@ -409,7 +419,7 @@ AAER 1821 (emphasis added): "As part of the scheme to defraud, Skilling, Causey,
 
 AAER 1542 (emphasis added): "Xerox disguised its true operating performance by using undisclosed accounting maneuvers -- most of which were improper -- that accelerated the recognition of equipment revenue by over \(3 billion and increased earnings by approximately \)1.5 billion…. Throughout 1998, analysts looked to Xerox to increase its liquidity and called for a stronger year-end cash balance throughout 1999. However, due to poor performance and varying liquidity pressures, Xerox was unable to generate the cash demanded by analysts as evidence of a healthy balance sheet. In an attempt to create liquidity, Xerox Treasury, in the fourth quarter of 1999, instructed its largest operating units to explore the possibility of consummating factoring transactions with local banks…. Xerox fraudulently failed to disclose \)288 million of 1999 year-end factoring transactions that allowed the company to report a positive year-end cash balance, instead of a negative number…. In accounting for the \$288 million, Xerox failed to disclose the material impact of these transactions on its cash position and thus misled investors by appearing to generate cash from its operations…. Xerox sold or "factored" receivables at a discount. In other words, Xerox sold its future stream of cash at less than its full long-term value to realize instant cash. This dramatically improved Xerox's year-end cash position…. Xerox senior management was aware of the implications of these transactions. They were characterized internally as "expensive" and "merely window dressing." Xerox management believed that if the market learned of its cash problems that would signal "major operational/control issues." … Xerox also violated GAAP with respect to \$54 million of the \$288 million in factoring transactions. Although it recorded these proceeds as the result of sales by Xerox France and Xerox Mexico, Xerox agreed that it would reacquire the receivables after December 31, when the books were closed on 1999 and the proceeds could be reported as part of cash flow in Xerox's year-end financial report. This action violated GAAP and FAS 125 by accounting for these transactions as true sales. Xerox was aware of the buy-back provisions but failed to disclose them or to reverse the French transaction in its 2000 Annual Report."
 
-# Qwest Communications International (fraud duration = 6/30/1999 - 3/31/2002)
+#### Qwest Communications International (fraud duration = 6/30/1999 - 3/31/2002)
 
 AAER 2613 and Litigation Release No. 18936 (emphasis added): "The Commission's complaint alleged, among other things, that from at least April 1, 1999 through March 31, 2002, Szeliga and others at Qwest engaged in a massive financial fraud that hid from the investing public the true source of the company's revenue and earnings growth. The complaint alleged that to meet aggressive targets for Qwest's revenue and earnings growth, Qwest fraudulently and repeatedly relied on immediate revenue recognition from one-time sales of assets known as "IRUs" and certain equipment, while falsely claiming to the investing public that the revenue was recurring. The complaint also alleged that Szeliga fraudulently and materially misrepresented Qwest's performance and growth to the investing public, failed properly to account for IRU sales transactions in Qwest's financial statements, and caused the company to report falsely approximately \$3 billion in revenue. Each of Qwest's capacity swaps with other carriers required that the parties exchange cash to demonstrate the purported value of the swapped capacity. Often the purchaser of capacity failed to submit its payment to Qwest as required prior to the end of the quarter when Qwest recognized the revenue. Under such circumstances, recognition of the revenue before the cash payment was received was improper under GAAP…. in September 2001, Qwest entered into a swap transaction with
 
@@ -417,47 +427,47 @@ Global Crossing in which Qwest sold  \$63.4 million of North American capacity a
 
 from Global Crossing \$67.2 million in South American capacity. Qwest and Global Crossing tried to "paper over" the transaction by exchanging facsimile copies of checks until wire-transfers could be completed on October 1, 2001, after the close of the quarter."
 
-# Delphi Corporation (fraud duration = 3/31/2000 - 12/31/2004)
+#### Delphi Corporation (fraud duration = 3/31/2000 - 12/31/2004)
 
 AAER = 2504 (emphasis added): "in the fourth quarter of 2000, Delphi sold approximately \$270 million of inventory to two third parties while simultaneously agreeing to repurchase the inventory in the following quarter for the original sales price, plus interest charges and structuring fees. By improperly accounting for the transactions as true sales, rather than as financing transactions, Delphi improperly recognized a material amount in cash flow from operations and materially overstated its reported EPS and net income for the fourth quarter of 2000…. In late December, it became clear to Delphi that its former parent company would not purchase the PGM inventory from Delphi before early 2001. Blahnik knew Delphi would have to pay the Bank a significant fee to achieve an equivalent financial statement result through a structured financing transaction. Nevertheless, with Dawes' and Blahnik's approval, Delphi went forward with the initiative it had discussed with its auditor, ultimately negotiating a transaction with the Bank. The transaction with the Bank had two components: a purchase agreement, pursuant to which the Bank agreed to purchase the PGM inventory from Delphi in December 2000, and a forward agreement, pursuant to which Delphi agreed to repurchase the identical metals from the Bank in January 2001, at specified prices. Neither contract states how the parties arrived at these prices. Delphi and the Bank executed the agreements on December 28, 2000. Blahnik signed on behalf of Delphi. On the same day, the Bank wired \$199,256,785.65 to Delphi. Delphi treated approximately \$193 million of this amount as a reduction in inventory and approximately \$6 million as a credit to cost of sales, resulting in an equivalent increase to income. On January 29, 2001, Delphi wired \$202,514,626.18 back to the Bank. Between December 28 and January 29, the metals remained under Delphi's control and, in fact, continued to be used by Delphi in its production process. The contrived inventory reduction enabled Delphi to report a \$54 million LIFO gain at the end of 2000…. As a result of the transactions, Delphi materially overstated its cash flow from operations by \$200 million and materially overstated its originally reported earnings per share by approximately 13 cents or 36% for the quarter and 7% for the full year…. Additionally, in the fourth quarter of 2001, Delphi solicited a lump sum payment from the IT Company, in return for Delphi providing new business to the IT Company and agreeing to repay the \$20 million, with interest, over a five-year period. Despite knowing that this payment should have been accounted for by Delphi as Delphi's liability to the IT Company, Delphi documented the transaction in a way that misrepresented the nature of the payment and accounted for the payment as an immediate reduction of IT expense in the fourth quarter…. Moreover, from 2003 to 2004, Delphi intentionally failed to disclose material sales of accounts receivable ("factoring"). In its earnings reports filed with the Commission on Forms 8-K in 2003 and in related presentations to investors and analysts in 2003 and 2004, Delphi used pro forma measures of liquidity and operating cash flow, known as Street Liquidity and Street Operating Cash Flow. Under these measures, consistent with rating agency practices, cash flow from factoring is supposed to be treated as borrowing proceeds rather than as cash flow from operations. By failing to disclose a material portion of its total factoring, Delphi materially overstated its Street Liquidity and Street Operating Cash Flow.
 
 AAER 2216 (emphasis added): "The Company inflated its online advertising revenues by engaging in "round-trip" transactions with a host of companies with which it had commercial relationships. These transactions ranged in complexity and sophistication, but in substance, the Company provided its customers with funds to purchase online advertising from AOL. Simultaneously, the customer would enter into an agreement to "purchase" online advertising from AOL in an amount corresponding to the payment from the Company. AOL and AOL TW improperly recognized as online advertising revenue the amounts received pursuant to these purported advertising agreements and improperly accounted for the funds it provided to the customers…. AOL's round-trip transactions took several forms, including: (i) vendor transactions, in which AOL agreed to pay inflated prices for, or forego discounts on, goods and services it purchased in exchange for the vendors' purchases of online advertising in the same amount as the markup or foregone discount; (ii) converting settlements of legal claims into online advertising revenue; (iii) business acquisitions, in which AOL increased the purchase price in exchange for the sellers' purchase of online advertising in the same amount as the increase in the purchase price; and (iv) referral transactions, in which AOL and its counterparties falsely created and reported revenues…. By each of these means, AOL effectively funded its own online advertising revenue by giving the counterparties the means to pay for advertising that they would not otherwise have purchased. To conceal the true nature of the transactions, the Company typically structured and documented round-trip transactions as if they were two or more separate, bona fide transactions, conducted at arm's length and reflecting each party's independent business purpose."
 
-# Comptonix Corporation (fraud duration  $= 3 / 31 / 1989 - 12 / 31 / 1991$ )
+#### Comptonix Corporation (fraud duration $= 3/31/1989 - 12/31/1991$)
 
 AAER 543 (emphasis added): "Beginning in early 1989, the Company, acting through its three senior managers, wrongfully transferred certain costs from cost of sales into its inventory accounts. Comptronix thereby understated its cost of sales and overstated its inventory and income in the Company's interim period financial statements…. Near the end of 1989, the Company's three senior managers, to prevent Comptronix's independent auditors from discovering the scheme during the auditors' year-end audit of Comptronix's financial statements, devised a plan to camouflage the improperly transferred costs. This plan involved removing these costs from the Company's inventory accounts -- where they were more likely to be closely analyzed by the auditors -- and reinstating them in the Company's cost of sales account. Each time they did so, they recorded a corresponding fictitious sale of Comptronix goods and a related account receivable, which inflated the Company's revenues. At the same time that they made these adjustments, they also recorded fictitious purchases of equipment and related accounts payable, thereby again inflating the Company's assets. These sham transactions shifted the scheme's effect on Comptronix's income statement from understatements of the Company's cost of sales during the year to overstatements of the Company's sales at year-end. As a result, Comptronix's financial statements at year-end reflected overstated earnings due to the fictitious sales and overstated assets due to the fictitious equipment purchases…. To create the appearance that the fictitious sales and related receivables were legitimate, the three senior managers made it appear that payments from customers were being received and that payments from customers were being received and that payments to vendors were being made. To do so, Hebding and Medlin prepared checks payable to the purported vendors of the equipment. They retained the checks and deposited them unendorsed back into the Company disbursement account on which they had been drawn…. These purported cash disbursements were recorded on the Company's books as
 
 payments against the phony accounts payable related to the fictitious equipment purchases, thereby eliminating the sham payables that had been established in connection with the sham equipment purchases. At the same time, the deposited unendorsed checks were recorded as payments from customers for the accounts receivable related to the fictitious sales. This entry eliminated the sham receivables established in connection with the fictitious sales."
 
-# Bally Total Fitness Holding Corp (fraud duration = 12/31/1997 - 12/31/2003)
+#### Bally Total Fitness Holding Corp (fraud duration = 12/31/1997 - 12/31/2003)
 
 AAER 3088 and Litigation Release 20470 (emphasis added): "Bally made materially false and misleading statements about its financial condition in SEC filings and other public statements from at least fiscal year 1997 through fiscal year 2003…. certain of Bally's accounting improprieties had the effect of improperly overstating Bally's income by recognizing revenue prematurely. Bally generated revenue by selling gym memberships, personal training services, and nutritional products. Bally improperly accounted for much of this revenue. For example, gym memberships generated two types of revenue for Bally: (1) initial membership fees, also called "initiation fees," and (2) monthly dues. Bally prematurely recognized revenue for initiation fees and monthly dues. Bally also failed to conform to GAAP when accounting for revenue from certain personal training services. Further, Bally sold packages that bundled together gym memberships, nutritional products, and personal training services, but failed to comply with GAAP in accounting for revenue from these packages…. other accounting improprieties by Bally improperly improved Bally's publicly reported financial performance by understating the expenses Bally incurred in operating its chain of health clubs…. It understated certain other current expenses by treating them as capital assets, which enabled Bally improperly to defer recognizing those expenses until years later and thus understate its current expenses while providing Bally with a short-term boost to its financial statements."
 
-# Collins & Aikman (fraud duration = 12/31/2001 - 12/31/2004)
+#### Collins & Aikman (fraud duration = 12/31/2001 - 12/31/2004)
 
 AAER 2581 (emphasis added): "Beginning in late 2001, C&A entered into numerous improper "round-trip" transactions with Elkin B. McCallum ("McCallum"), a member of C&A's Board of Directors and a supplier to C&A. C&A treated more than \$14 million in payments received from McCallum in 2001, 2002, and 2003 as indirect increases to C&A's income, when in fact C&A surreptitiously repaid McCallum for each such payment. These round-trip transactions should have had no impact on C&A's income statement. Beginning in 2002, C&A further inflated its quarterly earnings by improperly recognizing in income numerous rebates received from suppliers in return for anticipated future business and other benefits. In 2004 C&A extended this fraudulent rebate scheme to purchases of capital equipment, improperly recording discounts on equipment as rebates for past purchases of non-capital goods or services. Some of these rebates were recognized in income prematurely, while others should never have been recognized at all. As part of each of these schemes, C&A induced suppliers, including McCallum, to provide false or misleading documentation regarding the payments they made or promised to C&A. C&A then used these false documents to justify accounting for these payments contrary to generally accepted accounting principles ("GAAP").
 
 AAER 1272 (emphasis added): "This proceeding involves a massive fraudulent financial reporting scheme that caused dramatic investor losses. For more than twelve years, until its exposure in 1998, certain members of CUC's senior and middle management devised and operated a systemic, systematic scheme to inflate operating income at CUC. The scheme was driven by senior management's determination that CUC would always meet the earnings expectations of Wall Street analysts and fueled by disregard for any obligation that the earnings reported needed to be "real." CUC senior management overseeing the scheme maintained an annual schedule listing revenue and operating income for each of the company's divisions for its current fiscal year and coming fiscal year and setting forth the so-called "opportunities" or means available for inflating the company's operating income during the coming year. At the beginning of each fiscal year, management decided which of these opportunities to use for that fiscal year and the amount needed from each such opportunity. Accordingly, the schedule served as management's "cheat sheet" for any given year…. the CUC managers implementing the scheme would make cosmetic alterations to certain balance sheet items, most notably directing that cash be adjusted upward to whatever level the managers believed was desirable. Once all the quarterly adjustments had been made, the managers would sometimes tweak the numbers slightly a second time, making small additional adjustments. These additional adjustments, for example, might be made if a comparison with the previous quarter or with the same quarter from the previous year revealed that a particular line item would stand out as a result of the contemplated adjustments…. In the late 1980s, senior management at CUC encountered a sudden, unexpected spike in membership chargebacks from one financial institution. Faced with this exigency, CUC management refused to take the required, one-time charge to the membership cancellation reserve, instead electing to hold the chargebacks off-books for one month and smooth out the impact to the reserve. That decision served as precedent, and the off-books lag was increased in future reporting periods when management was looking for additional opportunities to inflate income and further its scheme. Eventually, CUC developed a policy of keeping rejects and cancellations off the Comp-U-Card general ledger during the last three months of each fiscal year. Instead, those rejects and cancellations appeared only on cash account bank reconciliations compiled by the Comp-U-Card accounting personnel in Trumbull, Connecticut. Because the rejects and cancellations for the final three months were not recorded against the membership cancellation reserve, the policy allowed CUC to hide the fact that the reserve was dramatically understated at each fiscal year-end. Failing to book cancellations and rejects at each fiscal year-end had the added effect of overstating the company's cash position on its year-end balance sheet. In fact, Cendant's Report on Form 10-Q for the quarter ended March 31, 1998, stated that the company had discovered that its balance sheet as of December 31, 1997, had "an approximate \$100 million overstatement in cash." This reported overstatement equaled approximately two-thirds of the \$149.5 million in "cash and cash equivalents" set forth on the company's balance sheet as of December 31, 1997."
 
-# Escala Group, Inc. (fraud duration = 9/30/2003 - 6/30/2005)
+#### Escala Group, Inc. (fraud duration = 9/30/2003 - 6/30/2005)
 
 AAER 3031 (emphasis added): "This is a disclosure and accounting fraud case that concerns fraudulent related party transactions between Escala, then a Nasdaq-listed company in the collectibles market, and its parent company, Afinsa Bienes Tangibles, S.A. ("Afinsa"), a privately held Spanish company that sold investments in portfolios of stamps in Europe, in connection with sales that became part of what Spanish criminal authorities have called a
 
 ponzi or pyramid scheme. In a fraudulent business scheme based upon the secret and dramatic manipulation of collectible stamp values, Escala and its former CEO, Manning, violated the antifraud and reporting provisions of the Exchange Act by: (1) failing to disclose the related party status of Barrett & Worthen, Inc., resulting in control of the Brookman Catalogue and failing to disclose the revenues obtained by virtue of Afinsa and Manning's control of the prices in the Brookman Catalogue; (2) falsely representing that Escala sold Afinsa several large stamp archives at prices determined by reference to independent stamp catalogues and appraisals when in fact Manning set the catalogue prices and influenced and edited the appraisals; (3) selling back to Afinsa in a round-trip transaction inventory acquired from Afinsa in direct contravention of Escala's public promise not to do so; and (4) falsely reporting a payment for business combination-related expenses as the "sale" of certain antiques."
 
-# Tenet Healthcare Corporation (fraud duration = 8/31/1989 - 2/29/1992)
+#### Tenet Healthcare Corporation (fraud duration = 8/31/1989 - 2/29/1992)
 
 AAER 573 (emphasis added): "At some NME psychiatric facilities, inflated billings were rendered to insurers for therapy sessions based upon brief contact with therapists or physicians during daily hospital rounds. Hospital employees referred to this practice as "Howdy Rounds" or "Wave Therapy." In other instances, billing for therapy was based upon the assumption that all patients attended all group or individual therapy sessions scheduled for the treatment program they were in during their hospital stay without confirmation that the patient actually attended any sessions. Hospital employees referred to this practice as "Bundle Billing." … The practices in which NME's psychiatric and substance abuse treatment facilities engaged included delaying patient discharges, without medical justification, in order to permit NME to make use of all-of the patient's available insurance coverage; making medically unnecessary hospital admissions; falsifying patient medical charts to create the appearance of diagnoses that would maximize insurance coverage; making improper payments for referrals; waiving patient copayment obligations; and falsifying patient medical charts to justify billing for services such as therapies, physician consultations and medications that were not provided…. NME falsely described its SHG business as resulting from legitimate business activities and as profitable and growing. In addition, NME subsequently failed to disclose that its revenues and profits were subject to a material loss contingency arising from those same practices…. Contrary to the requirements of government insurers, certain NME psychiatric and other hospitals had a practice of making payments or conferring other benefits on physicians, therapists, counselors, consulting services or treatment centers based on the in-patient referrals that physician, therapist, counselor, consulting service or treatment centers made to NME hospitals."
 
-# American Mobile Systems, Inc. (fraud duration = 9/30/1988 - 12/31/1991)
+#### American Mobile Systems, Inc. (fraud duration = 9/30/1988 - 12/31/1991)
 
 AAER 683 (emphasis added): "the CEO caused deposits and disbursements to be made between the bank account of AMS and the bank accounts of his Affiliates. During this period, AMS's position changed from a borrower to a lender on a frequent basis…. the CEO often provided for AMS's short term cash needs by overdrafting the accounts of Affiliates, and similarly overdrafted AMS's bank accounts to provide cash to Affiliates. The overdrafting took place in accounts maintained at two banks…. In March 1991 the banks determined that, in their view, the CEO had been misusing the overdraft privileges to "kite" funds among the various accounts. The two banks promptly terminated the overdrafting arrangements. By that point, the CEO's banking activity had resulted in overdrafts totaling \$ 8.8 million in the
 
 Affiliate's accounts and  \$1.2 million in AMS's account. In early April 1991, AMS entered into a\$ 12 million revolving credit agreement with another financial institution. Thereafter, AMS's CEO began using the credit facility to make cash advances to his Affiliates from AMS. By June 30, 1991, AMS had receivables due from the Affiliates totaling \$1,117,000. AMS stated in its 1991 Form 10-K that it anticipated payment of the receivable by December 31, 1991. The CEO did not make repayment, however, and continued to cause AMS to advance cash to the Affiliates. AMS accordingly remained a net lender. During January 1992, the CEO caused AMS to advance more than \$4 million to his Affiliates. The CEO was able to make these advances because he had unrestricted access to AMS's assets. The transfers originated from AMS's general bank account, which included proceeds from two private placements that AMS had conducted in November and December 1991. In March 1992, the AMS Board of Directors discovered that the CEO had transferred more than \$4 million to the Affiliates and that the amounts had not been repaid."
 
-# Appendix B
+## Appendix B
 
-# Variable Definitions
+### Variable Definitions
 
 <table><tr><td>Dependent variables</td><td></td></tr><tr><td>DURATION</td><td>= the number of quarters from the start of the fraud period to the end of the fraud period.</td></tr><tr><td>Ln(DAMAGES)</td><td>= natural logarithm of DAMAGES, which is the firm's highest market value during the fraud period minus its lowest market value during the six months following the end of the fraud period (in millions).</td></tr><tr><td>CAR</td><td>= the fraud firm's cumulative two-day abnormal return (0, +1) surrounding the fraud news dates, where the abnormal return is the market adjusted buy-and-hold return.</td></tr><tr><td>CAR_Initial</td><td>= the fraud firm's cumulative two-day abnormal return (0, +1) surrounding the initial fraud news date.</td></tr><tr><td>CAR_Subseq</td><td>= the fraud firm's cumulative two-day abnormal return (0, +1) surrounding the subsequent fraud news dates.</td></tr><tr><td>CEO_TURN</td><td>= one if the CEO leaves the firm within six months following the initial revelation of the fraud, and zero otherwise.</td></tr><tr><td>% EXEC_TURN</td><td>= the turnover rate for executives in the top four positions (i.e., CEO, President, Chairman of Board, and CFO) within six months of the initial revelation of the fraud.</td></tr><tr><td>LAWSUIT</td><td>= one if the fraud is followed by a securities class action lawsuit, and zero otherwise.</td></tr><tr><td>Variable of interest</td><td></td></tr><tr><td>ECF_FRAUD</td><td>= one if the fraudulent earnings overstatement involves an overstatement of operating cash flows, and zero otherwise.</td></tr><tr><td>Control Variables</td><td></td></tr><tr><td>SIZE</td><td>= the natural log of total assets.</td></tr><tr><td>LEVERAGE</td><td>= the ratio of long-term debt to total assets.</td></tr><tr><td>ROA</td><td>= operating income after depreciation divided by total assets.</td></tr><tr><td>BTM</td><td>= the book value of common equity divided by the market value of common equity.</td></tr><tr><td>LOSS</td><td>= one if reported earnings are negative and zero otherwise.</td></tr><tr><td>#BUS_SEG</td><td>= the number of business segments in the annual report.</td></tr><tr><td>#GEO_SEG</td><td>= the number of geographic segments in the annual report.</td></tr><tr><td>#ANALYST</td><td>= the number of analysts following the firm, as per IBES at the end of each fiscal quarter.</td></tr><tr><td>BIG4</td><td>= one if the firm has a Big 4 auditor, and zero otherwise.</td></tr><tr><td>IO</td><td>= the percentage institutional ownership at the end of the previous year.</td></tr><tr><td>LIT_RISK</td><td>= one if the firm operates in a high litigation risk industry, and zero otherwise.</td></tr><tr><td>ACCELFILES</td><td>= one if the firm is an accelerated filer during the post-SOX period, and zero otherwise.</td></tr><tr><td>ICMW</td><td>= one if the firm is an accelerated filer during the post-SOX period and receives an adverse internal control opinion due to a material weakness in its internal controls over financial reporting, and zero otherwise.</td></tr><tr><td>TOTAL_ACCRUALS</td><td>= (EBXI - CFO)/Average total assets, where EBXI = earnings before extraordinary items and discontinued operations; and CFO = operating cash flows (from continuing operations) from the statement of cash flow.</td></tr><tr><td>RSST_ACCRUALS</td><td>= (ΔWC + ΔNCO + ΔFIN)/Average total assets, where WC = (Current Assets - Cash and Short-term Investments) - (Current Liabilities - Debt in Current Liabilities); NCO = (Total Assets - Current Assets - Investments and Advances) - (Total Liabilities - Current Liabilities - Long-term Debt); FIN = (Short-term Investments + Long-term Investments) - (Long-term Debt + Debt in Current Liabilities + Preferred Stock).</td></tr><tr><td>RESTATE</td><td>= one if the firm restated its financial statements on the initial fraud revelation date or during the subsequent six months, and zero otherwise.</td></tr><tr><td>Variables in additional tests</td><td></td></tr><tr><td>DSS_ACCRUALS</td><td>= TA/Average total assets, where TA = (ΔCURRENT ASSETS - ΔCASH) - (ΔCURRENT LIABILITIES - ΔCURRENT MATURITIES OF LONG-TERM DEBT) - DEPRECIATION AND AMORTIZATION EXPENSE, where these variables are taken from the balance sheet.</td></tr><tr><td>HC_ACCRUALS</td><td>= ACC deflated by average total assets, where ACC = - (ΔAR + ΔINV + ΔAP + ΔTAX + ΔOTH + DEP). ΔAR is the change in accounts receivable; ΔINV is the change in inventory; ΔAP is the change in accounts payable; ΔTAX is the change in taxes payable; ΔOTH is the net change in other current assets, and DEP is the depreciation expense, where these variables are taken from the operating section of the statement of cash flows.</td></tr></table>
 
@@ -465,7 +475,7 @@ Table 1 Sample Selection
 
 <table><tr><td></td><td># AAER firms</td><td># AAER firm-quarters</td></tr><tr><td>AAERs with duration information</td><td>460</td><td>3,454</td></tr><tr><td>--Delete missing data for the control variables</td><td>(5)</td><td>(290)</td></tr><tr><td>H1 sample: fraud duration tests</td><td>455</td><td>3,164</td></tr><tr><td>--Delete AAERs with missing stock returns in the fraud period or the six months after the end of the fraud period</td><td>(23)</td><td></td></tr><tr><td>H2 sample: shareholder damages tests</td><td>432</td><td></td></tr><tr><td>--Delete AAERs with missing stock returns on the fraud revelation news dates</td><td>(50)</td><td></td></tr><tr><td>H2 sample: market reactions tests</td><td>405</td><td></td></tr><tr><td>--Delete AAERs with missing data on executive turnover</td><td>None</td><td></td></tr><tr><td>H2 sample: executive turnover tests</td><td>455</td><td></td></tr><tr><td>--Delete AAERs with missing data on class action lawsuit available (1996 onwards)</td><td>(90)</td><td></td></tr><tr><td>H2 sample: class action lawsuit tests</td><td>365</td><td></td></tr></table>
 
-# Note:
+### Note:
 
 Our initial sample screening process requires all firms to have GVKEY, CIK, and PERMNO available from the Compustat, CRSP, and IBES databases. We delete financial firms (SIC: 6000-6999), frauds that did not impact earnings or understate earnings, and frauds related to option backdating.
 
@@ -501,7 +511,7 @@ Fraud Duration (H1)
 
 <table><tr><td></td><td># AAER firms</td><td colspan="2">Mean (Median) Fraud Duration in Quarters</td><td>Diff. in mean t-stat</td><td>Diff. in median z-stat</td></tr><tr><td>ECF_FRAUD = 0</td><td>308</td><td>7.17</td><td>(6.02)</td><td>4.81***</td><td>4.50***</td></tr><tr><td>ECF_FRAUD = 1</td><td>147</td><td>10.30</td><td>(8.04)</td><td>(p &lt; 0.0001)</td><td>(p &lt; 0.0001)</td></tr></table>
 
-# Panel B: Fraud duration regression
+### Panel B: Fraud Duration Regression
 
 The fraud duration regression is estimated using a Cox proportional hazards model.
 
@@ -573,7 +583,7 @@ Securities Class Action Lawsuits (H2)
 
 <table><tr><td colspan="5">Panel A: Univariate test for ECF frauds and non-ECF frauds</td></tr><tr><td></td><td>LAWSUIT = 0</td><td>LAWSUIT = 1</td><td>Total</td><td>Lawsuit %</td></tr><tr><td>Frequency</td><td></td><td></td><td></td><td></td></tr><tr><td>-- ECF_FRAUD = 0</td><td>85</td><td>162</td><td>247</td><td>65.59%</td></tr><tr><td>-- ECF_FRAUD = 1</td><td>19</td><td>99</td><td>118</td><td>83.90%</td></tr><tr><td>t-stat</td><td></td><td></td><td></td><td>3.68***</td></tr><tr><td>(Pr &gt; |t|)</td><td></td><td></td><td></td><td>(0.0003)</td></tr></table>
 
-# Panel B: Regressions
+### Panel B: Regressions
 
 Col. (1) reports the results of a logistic regression for the relation between ECF frauds and the incidence of class action lawsuits.
 

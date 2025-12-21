@@ -299,7 +299,7 @@ Despite the fact that the cost of financial debt has both economic (it is a cost
 The Cost of Financial Debt (CD) is equal to the Interest on Debt (ID) plus the other Financial Costs on Debt (FCD). Therefore:
 
 $$
-CD = ID + FCD \tag{2.15}
+PM = Er / R \tag{2.31}
 $$
 
 The most relevant part is related to the Interest on Debt. Also, by considering that the cash-flows can be distinguished between Free Cash-flow from Operations (FCFO) and Free Cash-flow to Equity (FCFE), it is possible to apply the ratio in several versions as follows:
@@ -343,85 +343,85 @@ In the financial approach the return of shareholders' investment is the aim of t
 The ROE can be defined on the basis of ROI and the Financial Leverage (L). Assuming that there are no non-operating activities, the ROI measures the return on Capital Invested in Operating Assets  $(ROI \equiv ROIC)$ . Also, the Net Income (NI) is equal to the EBIT less Interest on debt (ID) and Taxes (T):
 
 $$
-N I = E B I T - I D - T \tag {2.20}
+Er = TRS - DY \tag{2.32}
 $$
 
 Considering that EBT is equal to EBIT less Interest in debt (ID), we can assume the calculation of Taxes (T) on the basis of a marginal tax rate  $(t_c)$  on EBT. Therefore:
 
 $$
-E B T = E B I T - I D
+EBT = EBIT - ID
 $$
 
 $$
-T = E B T \cdot t _ {c} \rightarrow T = (E B I T - I D) \cdot t _ {c}
+T = EBT \cdot t_{c} \rightarrow T = (EBIT - ID) \cdot t_{c}
 $$
 
 $$
-N I = E B I T - I D - \left[ \left(E B I T - I D\right) \cdot t _ {c} \right] = \left(E B I T - I D\right) \cdot \left(1 - t _ {c}\right)
+NI = EBIT - ID - [(EBIT - ID) \cdot t_{c}] = (EBIT - ID) \cdot (1 - t_{c})
 $$
 
 $$
-N I = (E B I T - I D) \cdot \left(1 - t _ {c}\right) \tag {2.21}
+NI = (EBIT - ID) \cdot (1 - t_{c}) \tag{2.21}
 $$
 
 Considering that:
 
 $$
-R O E = \frac {N I}{E} \rightarrow N I = R O E \cdot E
+ROE = \frac{NI}{E} \rightarrow NI = ROE \cdot E
 $$
 
 $$
-R O I = \frac {E B I T}{C I} \rightarrow E B I T = R O I \cdot C I
+ROI = \frac{EBIT}{CI} \rightarrow EBIT = ROI \cdot CI
 $$
 
 and by considering that the interest on debt (ID) is equal to the Cost of Debt  $(K_{D})$  multiplied by the amount of debt (D) in capital structure:
 
 $$
-I D = D \cdot K _ {D}
+ID = D \cdot K_{D}
 $$
 
 By replacing it, Eq. (2.21) can be re-written as follows:
 
 $$
-R O E \cdot E = (R O I \cdot C I - D \cdot K _ {D}) \cdot \left(1 - t _ {c}\right) \tag {2.22}
+ROE \cdot E = (ROI \cdot CI - D \cdot K_{D}) \cdot (1 - t_{c}) \tag{2.22}
 $$
 
 We can assume that the entire capital, equal to Equity (E) plus Debt (D), is invested in operating assets only. In this case, the Capital Invested (CI) is equal to the Capital Structure (CS) that it is equal to the sum of Equity (E) and Debt (D):
 
 $$
-C I = C S \rightarrow C I = E + D
+CI = CS \rightarrow CI = E + D
 $$
 
 By replacing it, Eq. (2.22) can be re-written as follows:
 
 $$
-\begin{array}{l} R O E \cdot E = [ R O I \cdot (E + D) - D \cdot K _ {D} ] \cdot (1 - t _ {c}) \\ = \left[ R O I \cdot E + D \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right) \\ \end{array}
+\begin{array}{l} ROE \cdot E = [ROI \cdot (E + D) - D \cdot K_{D}] \cdot (1 - t_{c}) \\ = [ROI \cdot E + D \cdot (ROI - K_{D})] \cdot (1 - t_{c}) \\ \end{array}
 $$
 
 Dividing first and second terms by Equity (E), we achieve:
 
 $$
-R O E \cdot E \cdot \frac {1}{E} = [ R O I \cdot E + D \cdot (R O I - K _ {D}) ] \cdot (1 - t _ {c}) \cdot \frac {1}{E}
+ROE \cdot E \cdot \frac{1}{E} = [ROI \cdot E + D \cdot (ROI - K_{D})] \cdot (1 - t_{c}) \cdot \frac{1}{E}
 $$
 
 $$
-R O E = \left[ R O I \cdot \frac {E}{E} + \frac {D}{E} \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right)
+ROE = \left[ ROI \cdot \frac{E}{E} + \frac{D}{E} \cdot (ROI - K_{D}) \right] \cdot (1 - t_{c})
 $$
 
 $$
-R O E = \left[ R O I + \frac {D}{E} \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right)
+ROE = \left[ ROI + \frac{D}{E} \cdot (ROI - K_{D}) \right] \cdot (1 - t_{c})
 $$
 
 The ratio between Debt (D) and Equity (E) defines the Leverage (L):
 
 $$
-L = \frac {D}{E} \tag {2.23}
+L = \frac{D}{E} \tag{2.23}
 $$
 
 And subsequently:
 
 $$
-R O E = \left[ R O I + L \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right) \tag {2.24}
+ROE = [ROI + L \cdot (ROI - K_{D})] \cdot (1 - t_{c}) \tag{2.24}
 $$
 
 Equation (2.24) shows the relationship between ROE, ROI and Leverage (L). Specifically, it shows the multiple effects of debt on ROE. This effect can be positive or negative. It depends on the relationship between the ROI and the Cost of Debt  $(K_{D})$  on the one hand, and the amount of Debt (D) in the Capital Structure on the other hand.
@@ -429,7 +429,7 @@ Equation (2.24) shows the relationship between ROE, ROI and Leverage (L). Specif
 Specifically, the Financial Leverage (FL) can be defined as follows:
 
 $$
-F L = L \cdot \left(R O I - K _ {D}\right) \tag {2.25}
+FL = L \cdot (ROI - K_{D}) \tag{2.25}
 $$
 
 Therefore if:
@@ -440,19 +440,19 @@ Therefore if:
 Note that the ROE is an account measure. Usually, investors prefer the Total Return on Shareholders (TRS). It also takes into account market variations in stock price. Indeed, it combines the amount that shareholders gain through any increase in the share price over a given period with the sum of dividends paid to them over the period. Specifically, TRS is equal to the Percentage Change in Share Price ( $\Delta \mathrm{SP}$ ) plus the Dividend Yield ( $DY$ ) as follows:
 
 $$
-T R S = \Delta S P + D Y \tag {2.26}
+TRS = \Delta SP + DY \tag{2.26}
 $$
 
 The Dividend Yield (DY) measures the annual dividend per share paid by the company to its shareholders expressed as a percentage of its share price. Therefore, the Dividend Yield is equal to Dividend per Share (DPS) divided by Share Price (SP), as follows:
 
 $$
-D Y = \frac {D P S}{S P} \tag {2.27}
+DY = \frac{DPS}{SP} \tag{2.27}
 $$
 
 Note that Dividends are paid typically on a quarterly basis. Therefore, they must be annualized to calculate the Implied Dividend Yield (IDY) as follows:
 
 $$
-I D Y = \frac {\text {M o s t R e c e n t Q u a r t e r l y D P S} \times 4}{\text {C u r r e n t S P}}
+IDY = \frac{\text{Most Recent Quarterly DPS} \times 4}{\text{Current SP}}
 $$
 
 The TRS can be broken down (Koller et al. 2015). The analysis of the TRS's components can be useful for greater understanding of managers' activities and for greater planning of future targets.
@@ -460,7 +460,7 @@ The TRS can be broken down (Koller et al. 2015). The analysis of the TRS's compo
 The Percentage Change in Share Price ( $\Delta \mathrm{SP}$ ) can be expressed in terms of Percent Increase in Earnings ( $\Delta \mathrm{Er}$ ) and the Percentage Change in a Company's Price-to-Earnings Ratio ( $\Delta (\mathrm{P} / \mathrm{Er})$ ) as follows:
 
 $$
-\Delta S P = \Delta E r + \Delta \left(\frac {P}{E r}\right) \tag {2.28}
+\Delta SP = \Delta Er + \Delta \left(\frac{P}{Er}\right) \tag{2.28}
 $$
 
 where:
@@ -471,7 +471,7 @@ where:
 On the basis of Eq. (2.28), Eq. (2.26) can be re-written as follows:
 
 $$
-T R S = \Delta E r + \Delta \left(\frac {P}{E r}\right) + D Y \tag {2.29}
+TRS = \Delta Er + \Delta \left(\frac{P}{Er}\right) + DY \tag{2.29}
 $$
 
 Technically, there is an additional cross-term that reflects the interaction of the share price change and the  $P / Er$  change, but it is generally small and therefore it can be ignored in this context.
@@ -487,7 +487,7 @@ However, it is possible to break down the TRS by overcoming these limits (Koller
 The Percentage Increase in Earning  $(\Delta Er)$  can be broken down into Percent Increase in Revenues  $(\Delta R)$  and in the Percent Change in Profit Margin  $(\Delta PM)$ , as follows:
 
 $$
-\Delta E r = \Delta R + \Delta P M \tag {2.30}
+\Delta Er = \Delta R + \Delta PM \tag{2.33}
 $$
 
 Note that the Profit Margin is equal to the Earnings divided by Revenues  $(PM = Er / R)$ . Therefore, it measures the weight of costs indirectly.
@@ -499,25 +499,25 @@ The Dividend Yield  $(DY)$  is equal to the Dividend amount  $(Div)$  divided by
 In order to simplify the analysis without any loss of significance, it is possible to assume that all revenues immediately generate cash-in and all costs immediately generate cash-out. It implies that there is no Net Working Capital (NWC). It also assumes that there are no other cash movements other than investments. Under these assumptions, it is possible to define Dividend per Share  $(DPS)$  on the basis of Earning  $(Er)$ , growth rate  $(g_{n})$  and ROIC as follows:
 
 $$
-D P S = E r \cdot \left(1 - \frac {g _ {n}}{R O I C}\right) \tag {2.31}
+DPS = Er \cdot \left(1 - \frac{g_n}{ROIC}\right) \tag{2.31}
 $$
 
 The Share Price (SP) can be defined on the basis of Earnings  $(Er)$  and the Price-Earning ratio as follows:
 
 $$
-S P = E r \cdot \left(\frac {P}{E r}\right) \tag {2.32}
+SP = Er \cdot \left(\frac{P}{Er}\right) \tag{2.32}
 $$
 
 On the basis of Eqs. (2.31) and (2.32), Eq. (2.27) can be re-written as follows:
 
 $$
-\begin{array}{l} D Y = \frac {D P S}{S P} = \frac {E r \cdot \left(1 - \frac {g _ {n}}{R O I C}\right)}{E r \cdot \left(\frac {P}{E r}\right)} = \frac {1 - \frac {g _ {n}}{R O I C}}{\frac {P}{E r}} = \left(1 - \frac {g _ {n}}{R O I C}\right) \cdot \left(\frac {E r}{P}\right) \\ = \left(\frac {E r}{P}\right) - \left(\frac {g _ {n}}{R O I C} \cdot \frac {E r}{P}\right) \\ \end{array}
+\begin{array}{l} DY = \frac{DPS}{SP} = \frac{Er \cdot \left(1 - \frac{g_n}{ROIC}\right)}{Er \cdot \left(\frac{P}{Er}\right)} = \frac{1 - \frac{g_n}{ROIC}}{\frac{P}{Er}} = \left(1 - \frac{g_n}{ROIC}\right) \cdot \left(\frac{Er}{P}\right) \\ = \left(\frac{Er}{P}\right) - \left(\frac{g_n}{ROIC} \cdot \frac{Er}{P}\right) \\ \end{array}
 $$
 
 and then:
 
 $$
-D Y = \left(\frac {E r}{P}\right) - \left(\frac {g _ {n}}{R O I C} \cdot \frac {E r}{P}\right) \tag {2.33}
+DY = \left(\frac{Er}{P}\right) - \left(\frac{g_n}{ROIC} \cdot \frac{Er}{P}\right) \tag{2.33}
 $$
 
 where:
@@ -530,13 +530,13 @@ On the basis of Eq. (2.30) it refers to the Percentage Increase in Earning  $(\D
 ## 2.2 Financial Ratios Analysis
 
 $$
-T R S = \Delta R + \Delta P M + \Delta \left(\frac {P}{E r}\right) + \left(\frac {E r}{P}\right) - \left(\frac {g _ {n}}{R O I C} \cdot \frac {E r}{P}\right)
+TRS = \Delta R + \Delta PM + \Delta \left(\frac{P}{Er}\right) + \left(\frac{Er}{P}\right) - \left(\frac{g_n}{ROIC} \cdot \frac{Er}{P}\right)
 $$
 
 that can be rearranged as follows:
 
 $$
-T R S = \Delta R - \left(\frac {g _ {n}}{R O I C} \cdot \frac {E r}{P}\right) + \Delta P M + \left(\frac {E r}{P}\right) + \Delta \left(\frac {P}{E r}\right) \tag {2.34}
+TRS = \Delta R - \left(\frac{g_n}{ROIC} \cdot \frac{Er}{P}\right) + \Delta PM + \left(\frac{Er}{P}\right) + \Delta \left(\frac{P}{Er}\right) \tag{2.34}
 $$
 
 This decomposition leads to four key drivers of TRS:
@@ -551,7 +551,7 @@ Equation (2.34) shows that investor's expectations have a big effect on TRS. It 
 (b) Financial Debt on Net Income (FDNI):
 
 $$
-F D N I = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {N e t I n c o m e} (N I)} \leftrightarrow F D N I = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (N F P)}{\text {N e t I n c o m e} (N I)} \tag {2.35}
+FDNI = \frac{\text{Financial Debt (FD)}}{\text{Net Income (NI)}} \leftrightarrow FDNI = \frac{\text{Net Financial Position (NFP)}}{\text{Net Income (NI)}} \tag{2.35}
 $$
 
 The ratio FDNI can be applied by considering the Financial Debt (FD) or the Net Financial Position (NFPD). In both case, it measures the relationship between Net Income and Financial Debt. Generally the higher the ratio, the lower the company's ability to face Financial Debt.
@@ -559,7 +559,7 @@ The ratio FDNI can be applied by considering the Financial Debt (FD) or the Net 
 (c) Net Income on Capital Invested (NICI):
 
 $$
-N I C I = \frac {\text {N e t I n c o m e} (N I)}{\text {C a p i t a l I n v e s t e d} (C I)} \tag {2.36}
+NICI = \frac{\text{Net Income (NI)}}{\text{Capital Invested (CI)}} \tag{2.36}
 $$
 
 The NICI ratio defines the relationship between Net Income (NI) and the Capital Invested (CI) in the company. Therefore, it measures the return of Capital Invested on Net Income.
@@ -567,7 +567,7 @@ The NICI ratio defines the relationship between Net Income (NI) and the Capital 
 It is possible to measure the return of Capital Invested in Operating Assets (NOCI) on Net Income (NI). It gets the NINOI ratio as follows:
 
 $$
-N I N O C I = \frac {\text {N e t I n c o m e} (N I)}{\text {N e t O p e r a t i n g C a p i t a l I n v e s t e d} (N O C I)} \tag {2.37}
+NINOCI = \frac{\text{Net Income (NI)}}{\text{Net Operating Capital Invested (NOCI)}} \tag{2.37}
 $$
 
 It is worth noting that in all cases, the increase of ratio is not necessarily good news. Net Income being equal, the increase of the ratio is due to a reduction in the capital invested. The decrease of investments implies the reduction of future company abilities to compete in the business and, therefore a future reduction in Operating and Net Income.
@@ -575,7 +575,7 @@ It is worth noting that in all cases, the increase of ratio is not necessarily g
 (d) Cash-flows on Net Income (CFNI):
 
 $$
-C F N I = \frac {\text {C a s h f l o w s} (C F)}{\text {N e t I n c o m e} (N I)} \tag {2.38}
+CFNI = \frac{\text{Cashflows (CF)}}{\text{Net Income (NI)}} \tag{2.38}
 $$
 
 The CFNI ratio measures the relationship between Net Income and Cash-flows. It can be considered as an indirect and approximate measure of the company's ability to transform Net Income in Cash-flows. Indeed a high value of ratio means a good relationship between Net Income and Cash-flows; otherwise, a low value of ratio means a bad relationship between Net Income and Cash-flows.
@@ -583,7 +583,7 @@ The CFNI ratio measures the relationship between Net Income and Cash-flows. It c
 Considering two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity, the ratio can be applied in two versions:
 
 $$
-C F N I = \frac {C F}{N I} \rightarrow\begin{array}{l}C F N I = \frac {\text {F r e e C a s h f l o w f r o m O p e r a t i o n s (F C F O)}}{\text {N e t I n c o m e (N I)}}\\C F N I = \frac {\text {F r e e C a s h f l o w t o E q u i t y (F C F E)}}{\text {N e t I n c o m e (N I)}}\end{array}\tag {2.39}
+CFNI = \frac{CF}{NI} \rightarrow \begin{array}{l}CFNI = \frac{\text{Free Cashflow from Operations (FCFO)}}{\text{Net Income (NI)}}\\CFNI = \frac{\text{Free Cashflow to Equity (FCFE)}}{\text{Net Income (NI)}}\end{array}\tag{2.39}
 $$
 
 ### Section 4
@@ -597,45 +597,45 @@ The analysis of the relationships between Capital Invested and Capital Structure
 (a) Equity on Cash-flows (ECF):
 
 $$
-E C F = \frac {\text {E q u i t y} (E)}{\text {C a s h f l o w s} (C F)} \tag {2.40}
+ECF = \frac{\text{Equity (E)}}{\text{Cashflows (CF)}} \tag{2.40}
 $$
 
 The ratio ECF defines the relationship between Equity (E) and the Cash-flows (CF). Considering two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity (FCFE), the ratio can be applied in two versions:
 
 $$
-E C F = \frac {E}{C F} \rightarrow\begin{array}{l}E C F = \frac {\text {E q u i t y} (E)}{\text {F r e e C a s h f l o w f r o m O p e r a t i o n s} (\text {F C F O})}\\E C F = \frac {\text {E q u i t y} (E)}{\text {F r e e C a s h f l o w t o E q u i t y} (\text {F C F E})}\end{array}\tag {2.41}
+ECF = \frac{E}{CF} \rightarrow \begin{array}{l}ECF = \frac{\text{Equity (E)}}{\text{Free Cashflow from Operations (FCFO)}}\\ECF = \frac{\text{Equity (E)}}{\text{Free Cashflow to Equity (FCFE)}}\end{array}\tag{2.41}
 $$
 
 (b) Financial Debt on Cash-flows (FDCF):
 
 $$
-F D C F = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {C a s h f l o w s} (C F)} \tag {2.42}
+FDCF = \frac{\text{Financial Debt (FD)}}{\text{Cashflows (CF)}} \tag{2.42}
 $$
 
 The ratio ECF defines the relationship between Financial Debt (FD) and the Cash-flows (CF). Considering that it is possible to use the Net Financial Position (NFP) instead of Financial Debt (FD), and by considering that there are two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity, the ratio can be applied in two versions:
 
 $$
-F D C F = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {F r e e C a s h f l o w f r o m O p e r a t i o n s} (\text {F C F O})}
+FDCF = \frac{\text{Financial Debt (FD)}}{\text{Free Cashflow from Operations (FCFO)}}
 $$
 
 $$
-F D C F = \frac {F D}{C F} \rightarrow\begin{array}{l}F D C F = \frac {\text {N e t F i n a n c i a l P o s i t i o n (N F P)}}{\text {F r e e C a s h f l o w f r o m O p e r a t i o n s (F C F O)}}\\F D C F = \frac {\text {F i n a n c i a l D e b t (F D)}}{\text {F r e e C a s h f l o w t o E q u i t y (F C F E)}}\end{array}\tag {2.43}
+FDCF = \frac{FD}{CF} \rightarrow \begin{array}{l}FDCF = \frac{\text{Net Financial Position (NFP)}}{\text{Free Cashflow from Operations (FCFO)}}\\FDCF = \frac{\text{Financial Debt (FD)}}{\text{Free Cashflow to Equity (FCFE)}}\end{array}\tag{2.43}
 $$
 
 $$
-F D C F = \frac {\text {N e t F i n a n c i a l P o s i t i o n (N F P)}}{\text {F r e e C a s h f l o w t o E q u i t y (F C F E)}}
+FDCF = \frac{\text{Net Financial Position (NFP)}}{\text{Free Cashflow to Equity (FCFE)}}
 $$
 
 (c) Capex on Cash-flows (CCF):
 
 $$
-C C F = \frac {\text {C a p e x} (C)}{\text {C a s h f l o w s} (C F)} \tag {2.44}
+CCF = \frac{\text{Capex (C)}}{\text{Cashflows (CF)}} \tag{2.44}
 $$
 
 The ratio CCF defines the relationship between Capex (C) and the Cash-flows (CF). Considering two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity (FCFE), the ratio can be applied in two versions:
 
 $$
-C C F = \frac {C}{C F} \rightarrow\begin{array}{l}C C F = \frac {\text {C a p e x} (c)}{\text {F r e e C a s h f l o w f r o m O p e r a t i o n s} (\text {F C F O})}\\E C F = \frac {\text {C a p e x} (c)}{\text {F r e e C a s h f l o w t o E q u i t y} (\text {F C F E})}\end{array}\tag {2.45}
+CCF = \frac{C}{CF} \rightarrow \begin{array}{l}CCF = \frac{\text{Capex (c)}}{\text{Free Cashflow from Operations (FCFO)}}\\ECF = \frac{\text{Capex (c)}}{\text{Free Cashflow to Equity (FCFE)}}\end{array}\tag{2.45}
 $$
 
 ### Operating Leverage and Financial Risk Level
@@ -649,19 +649,19 @@ Specifically, it is function of the costs structure: the greater the rigidity of
 The Operating Leverage (OL) can be measured on the basis of EBIT and Volume of goods sold (V) in a lead-time  $t_0$ ;  $t_1$  as follows:
 
 $$
-O L = \frac {\Delta (\%) E B I T}{\Delta (\%) V} = \frac {\frac {E B I T _ {1} - E B I T _ {0}}{E B I T _ {0}}}{\frac {V _ {1} - V _ {0}}{V _ {0}}} = \frac {E B I T _ {1} - E B I T _ {0}}{E B I T _ {0}} \cdot \frac {V _ {0}}{V _ {1} - V _ {0}} \tag{2.46}
+OL = \frac{\Delta (\%) EBIT}{\Delta (\%) V} = \frac{\frac{EBIT_{1} - EBIT_{0}}{EBIT_{0}}}{\frac{V_{1} - V_{0}}{V_{0}}} = \frac{EBIT_{1} - EBIT_{0}}{EBIT_{0}} \cdot \frac{V_{0}}{V_{1} - V_{0}} \tag{2.46}
 $$
 
 The EBIT can be defined on the basis of Revenue per Unit  $(R_U)$ , Variable Costs per Unit  $(VC_U)$ , Total Fixed Costs  $(FC_T)$  and Volume of sales  $(V)$  as follows:
 
 $$
-E B I T = \left(R _ {U} - V C _ {U}\right) \cdot V - F C _ {T} \tag {2.47}
+EBIT = (R_{U} - VC_{U}) \cdot V - FC_{T} \tag{2.47}
 $$
 
 Note that the difference between Revenues  $(R)$  and Variable Cost  $(VC)$  defines the Contribution Margin  $(CM)$ . Therefore, the difference between Revenue per Unit  $(R_U)$  and Variable Costs per Unit  $(VC_U)$  defines the Contribution Margin per Unit  $(CM_U)$ :
 
 $$
-C M = (R - V C) \leftrightarrow C M _ {U} = \left(R _ {U} - V C _ {U}\right)\rightarrow C M = C M _ {U} \cdot V = \left(R _ {U} - V C _ {U}\right) \cdot V
+CM = (R - VC) \leftrightarrow CM_{U} = (R_{U} - VC_{U}) \rightarrow CM = CM_{U} \cdot V = (R_{U} - VC_{U}) \cdot V
 $$
 
 On the basis of Eq. (2.47), Eq. (2.46) can be rewritten as follows:
@@ -683,13 +683,13 @@ $$
 The result is:
 
 $$
-O L = \frac {C M}{E B I T} \tag {2.48}
+OL = \frac{CM}{EBIT} \tag{2.48}
 $$
 
 Note that by expressing Eq. (2.46) for EBIT, it gets:
 
 $$
-\Delta (\%) E B I T = O L \cdot \Delta (\%) V \tag{2.49}
+\Delta (\%) EBIT = OL \cdot \Delta (\%) V \tag{2.49}
 $$
 
 Equation (2.49) shows that the higher the Operating Leverage  $(OL)$ , the higher the variability of the EBIT to the variations in the Volume of goods sold  $(V)$ .
@@ -716,13 +716,13 @@ Specifically, it measures the financial risk based on the relationship between E
 Assuming that the difference between EBIT and EBT is due to the interest on debt only, the financial risk can be measured by the ratio between EBIT and EBIT less Interest on Debt on the basis of a lead-time  $t_0$ ;  $t_1$  as follows:
 
 $$
-F R L = \frac {\Delta (\%) E B T}{\Delta (\%) E B I T} = \frac {\frac {E B T _ {1} - E B T _ {0}}{E B T _ {0}}}{\frac {E B I T _ {1} - E B I T _ {0}}{E B I T _ {0}}} = \frac {E B T _ {1} - E B T _ {0}}{E B T _ {0}} \cdot \frac {E B I T _ {0}}{E B I T _ {1} - E B I T _ {0}} \tag{2.50}
+FRL = \frac{\Delta (\%) EBT}{\Delta (\%) EBIT} = \frac{\frac{EBT_{1} - EBT_{0}}{EBT_{0}}}{\frac{EBIT_{1} - EBIT_{0}}{EBIT_{0}}} = \frac{EBT_{1} - EBT_{0}}{EBT_{0}} \cdot \frac{EBIT_{0}}{EBIT_{1} - EBIT_{0}} \tag{2.50}
 $$
 
 By considering that:
 
 $$
-E B T = E B I T - I
+EBT = EBIT - I
 $$
 
 and by changing, it gets:
@@ -792,7 +792,7 @@ Generally, the relationship between Retention Ratio  $(RR)$ , Return on Equity  
 Considering Net Income in time  $t(NI_{t})$  and in previous time  $(NI_{t - 1})$ , the Growth Rate in  $t$ -time  $(g_{NI_t})$  can be measured in simple way as follows:
 
 $$
-g _ {N I _ {t}} = \frac {N I _ {t} - N I _ {t - 1}}{N I _ {t - 1}} = \frac {N I _ {t}}{N I _ {t - 1}} - 1 \tag {2.55}
+g_{NI_{t}} = \frac{NI_{t} - NI_{t-1}}{NI_{t-1}} = \frac{NI_{t}}{NI_{t-1}} - 1 \tag{2.55}
 $$
 
 It is worth noting that in order to measure the Growth Rate  $(g_{NI_t})$  with regards to a specific period time, it is possible to use the CAGR (Compound Annual Growth
@@ -800,7 +800,7 @@ It is worth noting that in order to measure the Growth Rate  $(g_{NI_t})$  with 
 Rate). Denote with:  $N I_{t_n}$  is the ending value of Net Income and then its value at the end of the period considered;  $N I_{t_0}$  is the beginning value of Net Income and then its value at the start of the period considered;  $n$  is the number of years of the period considered. The CAGR is equal to:
 
 $$
-g _ {N I _ {t}} = \left(\frac {N I _ {t _ {n}}}{N I _ {t _ {0}}}\right) ^ {\left(\frac {1}{n}\right)} - 1 \tag {2.56}
+g_{NI_{t}} = \left(\frac{NI_{t_{n}}}{NI_{t_{0}}}\right)^{\left(\frac{1}{n}\right)} - 1 \tag{2.56}
 $$
 
 Note that CAGR is a much more accurate measure of true growth than past earnings when year-to-year growth has been erratic.
@@ -810,47 +810,47 @@ However both equations are characterized by problems. Equation (2.55) considers 
 Considering that the ROE in the  $t$ -time is equal to the ratio between Net Income in the  $t$ -time  $(NI_{t})$  and the book value of Equity in the previous time  $(E_{t-1})$  and by solving for Net Income, we have:
 
 $$
-R O E _ {t} = \frac {N I _ {t}}{E _ {t - 1}} \quad \rightarrow \quad N I _ {t} = E _ {t - 1} \cdot R O E _ {t} \quad \rightarrow \quad\begin{array}{l}N I _ {t - 1} = E _ {t - 2} \cdot R O E _ {t - 1}\\N I _ {t - 2} = E _ {t - 3} \cdot R O E _ {t - 2}\\N I _ {t - 3} = E _ {t - t + 1} \cdot R O E _ {t - t}\end{array}
+ROE_{t} = \frac{NI_{t}}{E_{t-1}} \rightarrow NI_{t} = E_{t-1} \cdot ROE_{t} \rightarrow \begin{array}{l}NI_{t-1} = E_{t-2} \cdot ROE_{t-1}\\NI_{t-2} = E_{t-3} \cdot ROE_{t-2}\\NI_{t-3} = E_{t-t+1} \cdot ROE_{t-t}\end{array}
 $$
 
 Assuming that the company does not issue new shares and it retains part of the Net Income on the basis of Retained Earnings  $(RE)$ . In  $t$ -time Equity  $(E_{t})$  can be defined as follows:
 
 $$
-\begin{array}{l} E _ {t - 1} = E _ {t - 2} + R E _ {t - 1} \\ E _ {t} = E _ {t - 1} + R E _ {t} \quad \rightarrow \quad E _ {t - 2} = E _ {t - 3} + R E _ {t - 2} \\ E _ {t - n} = E _ {t - n + 1} + R E _ {t - n} \\ \end{array}
+\begin{array}{l} E_{t-1} = E_{t-2} + RE_{t-1} \\ E_{t} = E_{t-1} + RE_{t} \rightarrow E_{t-2} = E_{t-3} + RE_{t-2} \\ E_{t-n} = E_{t-n+1} + RE_{t-n} \\ \end{array}
 $$
 
 By replacing  $E_{t-1}$  and  $E_{t-2}$  with their equations respectively, and by assuming that the ROE is constant over time ( $ROE \equiv ROE_{t} = ROE_{t-1} = ROE_{t-n}$ ), the equations of the Net Income in the period  $t$  and  $t-1$  can be re-written as follows:
 
 $$
-N I _ {t} = E _ {t - 1} \cdot R O E _ {t} = \left(E _ {t - 2} + R E _ {t - 1}\right) \cdot R O E _ {t} = \left(E _ {t - 2} + R E _ {t - 1}\right) \cdot R O E
+NI_{t} = E_{t-1} \cdot ROE_{t} = (E_{t-2} + RE_{t-1}) \cdot ROE_{t} = (E_{t-2} + RE_{t-1}) \cdot ROE
 $$
 
 $$
-N I _ {t - 1} = E _ {t - 2} \cdot R O E _ {t - 1} = \left(E _ {t - 3} + R E _ {t - 2}\right) \cdot R O E _ {t - 1} = \left(E _ {t - 3} + R E _ {t - 2}\right) \cdot R O E
+NI_{t-1} = E_{t-2} \cdot ROE_{t-1} = (E_{t-3} + RE_{t-2}) \cdot ROE_{t-1} = (E_{t-3} + RE_{t-2}) \cdot ROE
 $$
 
 The difference between the Net Income in the two periods  $t$  and  $t - 1$  is equal to:
 
 $$
-\begin{array}{l} N I _ {t} - N I _ {t - 1} = \left[ \left(E _ {t - 2} + R E _ {t - 1}\right) \cdot R O E \right] - \left[ \left(E _ {t - 3} + R E _ {t - 2}\right) \cdot R O E \right] \\ = \left(E _ {t - 2} + R E _ {t - 1} - E _ {t - 3} - R E _ {t - 2}\right) \cdot R O E \\ \end{array}
+\begin{array}{l} NI_{t} - NI_{t-1} = [(E_{t-2} + RE_{t-1}) \cdot ROE] - [(E_{t-3} + RE_{t-2}) \cdot ROE] \\ = (E_{t-2} + RE_{t-1} - E_{t-3} - RE_{t-2}) \cdot ROE \\ \end{array}
 $$
 
 and by considering that  $E_{t - 2} = E_{t - 3} + RE_{t - 2}$ , we have:
 
 $$
-N I _ {t} - N I _ {t - 1} = R E _ {t - 1} \cdot R O E \tag {2.57}
+NI_{t} - NI_{t-1} = RE_{t-1} \cdot ROE \tag{2.57}
 $$
 
 By replacing Eq. (2.57), Eq. (2.55) can be re-written as follows:
 
 $$
-g _ {N I _ {t}} = \frac {N I _ {t} - N I _ {t - 1}}{N I _ {t - 1}} = \frac {R E _ {t - 1} \cdot R O E}{N I _ {t - 1}} = \frac {R E _ {t - 1}}{N I _ {t - 1}} \cdot R O E \tag {2.58}
+g_{NI_{t}} = \frac{NI_{t} - NI_{t-1}}{NI_{t-1}} = \frac{RE_{t-1} \cdot ROE}{NI_{t-1}} = \frac{RE_{t-1}}{NI_{t-1}} \cdot ROE \tag{2.58}
 $$
 
 The ratio between  $RE_{t-1}$  and  $NI_{t-1}$  is defined Retention Ratio on Net Income (RR). It measures the amount of equity reinvested back into the company to finance its investments in the business. By replacing this, we have:
 
 $$
-g _ {N I} = R R \cdot R O E \tag {2.59}
+g_{NI} = RR \cdot ROE \tag{2.59}
 $$
 
 Therefore, an estimate of the growth rate on Net Income  $(g_{NI})$  can be made by estimating the expected ROE and defining the amount of the retention on Net Income.
@@ -858,13 +858,13 @@ Therefore, an estimate of the growth rate on Net Income  $(g_{NI})$  can be made
 Obviously, Eq. (2.59) can be solved by Retention Ratio  $(RR_{NI})$  as follows:
 
 $$
-R R = \frac {g N I}{R O E} \tag {2.60}
+RR = \frac{g NI}{ROE} \tag{2.60}
 $$
 
 It is worth noting that by assuming a constant Equity over time, the growth rate of Net Income  $(g_{NI})$  it is equal to the growth of Earnings per Share  $(g_{ES})$  as follows:
 
 $$
-g _ {E S} \equiv g _ {N I} = R R \cdot R O E
+g_{ES} \equiv g_{NI} = RR \cdot ROE
 $$
 
 If this assumption is removed, the growth in Net Income can be different from the growth in earnings per share. If the company issues new equity to finance new projects, and if the new investments increase the Net Income, the increase in the earnings per share is not the same because the shares are changed. In this case, the relationship between Net Income and earnings per share must be redesigned.
@@ -872,7 +872,7 @@ If this assumption is removed, the growth in Net Income can be different from th
 By removing the assumption about the constant value of ROE over time, a new component of the growth must be considered. This additional growth is function of the changes in ROE over time. This amount has to be added to the growth rate as previously computed as follows:
 
 $$
-g _ {N I} = R R \cdot R O E + \frac {\left(R O E _ {t} - R O E _ {t - 1}\right)}{R O E _ {t - 1}} \tag {2.61}
+g_{NI} = RR \cdot ROE + \frac{(ROE_{t} - ROE_{t-1})}{ROE_{t-1}} \tag{2.61}
 $$
 
 Two main extensions of Eq. (2.59) can be considered.
@@ -880,11 +880,11 @@ Two main extensions of Eq. (2.59) can be considered.
 The first refers to the ROE. The ROE can be substituted in the equation by considering the joint effects of ROI and Leverage as follows:
 
 $$
-R O E = \left[ R O I + L \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right)
+ROE = [ROI + L \cdot (ROI - K_{D})] \cdot (1 - t_{c})
 $$
 
 $$
-g _ {N I} = g _ {N I} = R R \cdot R O E = R R \cdot \left[ \left[ R O I + L \cdot \left(R O I - K _ {D}\right) \right] \cdot \left(1 - t _ {c}\right) \right] \tag {2.62}
+g_{NI} = g_{NI} = RR \cdot ROE = RR \cdot [[ROI + L \cdot (ROI - K_{D})] \cdot (1 - t_{c})] \tag{2.62}
 $$
 
 In this case, the effects on Growth Rate of ROI and Leverage (L) can be analysed.
@@ -892,19 +892,19 @@ In this case, the effects on Growth Rate of ROI and Leverage (L) can be analysed
 The second refers to the Retention Rate  $(RR)$ . It is possible to consider the Equity Reinvestment Rate (ER) rather than the Retention Rate on Net Income  $(RR)$ . Specifically, the Equity Reinvestment Rate (ER) can be defined on the basis of equity reinvested in the business in form of Capex, Net Working Capital (NWC), debt reimbursement (DR), and Net Income (NI) as follows:
 
 $$
-E R = \frac {\text {C a p e x} + N W C + D R}{N I} \tag {2.63}
+ER = \frac{\text{Capex + NWC + DR}}{NI} \tag{2.63}
 $$
 
 In this case, the growth rate of Net income, is equal to:
 
 $$
-g_{NI} = ER \cdot ROE = \left(\frac {\Delta Capex + \Delta NWC + DR}{NI}\right) \cdot ROE \tag {2.64}
+g_{NI} = ER \cdot ROE = \left(\frac{\Delta Capex + \Delta NWC + DR}{NI}\right) \cdot ROE \tag{2.64}
 $$
 
 These two extensions can be considered jointly as follows:
 
 $$
-\begin{array}{l} g_{NI} = ER \cdot ROE \\ = \left(\frac {\Delta Capex + \Delta NWC + DR}{NI}\right) \cdot \left[ \left[ ROI + L \cdot \left(ROI - K_{D}\right) \right] \cdot \left(1 - t_{c}\right) \right] \tag {2.65} \\ \end{array}
+\begin{array}{l} g_{NI} = ER \cdot ROE \\ = \left(\frac{\Delta Capex + \Delta NWC + DR}{NI}\right) \cdot [[ROI + L \cdot (ROI - K_{D})] \cdot (1 - t_{c})] \tag{2.65} \\ \end{array}
 $$
 
 #### 2.3.2 Growth Rate in Operating Income
@@ -917,19 +917,19 @@ An estimate of the expected growth rate in Operating Income  $(g_{OI})$  can be 
 - Return on Capital Invested (ROCI): measuring the return on investment in operating assets. The Investment Rate (IR) can be defined on the basis of investments in Capex and Net Working Capital (NWC), and the EBIT, as follows:
 
 $$
-IR = \frac {Capex + NWC}{EBIT}
+IR = \frac{Capex + NWC}{EBIT}
 $$
 
 By assuming a constant ROIC over time, the expected Growth Rate in Operating Income  $(g_{OI})$  is equal to the product between the Return on Invested Capital (ROIC) and the Investment Rate (IR) as follows:
 
 $$
-g_{OI} = IR \cdot ROIC \tag {2.66}
+g_{OI} = IR \cdot ROIC \tag{2.66}
 $$
 
 Equation (2.66) can be solved by Investment Rare (IR) as follows:
 
 $$
-IR = \frac {g_{OI}}{ROIC} \tag {2.67}
+IR = \frac{g_{OI}}{ROIC} \tag{2.67}
 $$
 
 It is worth noting that the relationship between the Growth Rate in Operating Income, Investment Rate and the ROIC can be summarized as follows:
@@ -940,7 +940,7 @@ It is worth noting that the relationship between the Growth Rate in Operating In
 By removing the assumption of constant ROIC over time, a new component of the growth must be considered. This additional growth is function of the changes in ROIC over time. This amount has to be added to the growth rate as previously computed as follows:
 
 $$
-g_{OI} = IR \cdot ROIC + \left(\frac {ROI_{t} - ROI_{t-1}}{ROI_{t}}\right) \tag {2.68}
+g_{OI} = IR \cdot ROIC + \left(\frac{ROI_{t} - ROI_{t-1}}{ROI_{t}}\right) \tag{2.68}
 $$
 
 Therefore, the Growth Rate will be increased if the additional part is positive, and will be decreased if the additional part is negative.
@@ -966,7 +966,7 @@ $$
 and by substituting it, we have:
 
 $$
-Div = Er \cdot \left(1 - \frac {g_{OI}}{ROIC}\right) \tag {2.69}
+Div = Er \cdot \left(1 - \frac{g_{OI}}{ROIC}\right) \tag{2.69}
 $$
 
 Equation (2.69) shows the relationship between Growth Rate in Operating Income  $(g_{OI})$ , ROIC, Investment Rate (IR) and Dividend  $(Div)$ . Specifically, it shows how the key role is played by the ROIC. In fact:
@@ -982,9 +982,7 @@ Three main aspects must be considered:
 
 The second and the third points can be summarized as follows: with other equal conditions, a high ROIC is always positive; the same cannot be said of growth because it is only good if the ROIC is higher than the cost of capital. Consequently, a company with high ROIC and low Growth Rate may have a similar or even greater valuation than a company with higher Growth Rate but low ROIC. In other words, a company with a high ROIC can increase its value by increasing its Growth Rat rather than its ROIC. Otherwise, a company with a low ROIC can generate more value by focusing on the increase of its ROIC rather than on the increase of the Growth Rate. The concept can be summarized as follows: if a company has a high ROIC it should focus on improving Growth Rate; otherwise, if a company has
 
-a low ROIC it should focus on improving ROIC before improving Growth Rate (Koller et al. 2015).
-
-As the higher the ROIC than the cost of capital (and the longer it can sustain a rate of return on that capital greater than its cost of capital), the greater is the creation of value, therefore it is critical to understand the drivers of the ROIC and assess impacts of every strategic and investment decision on them. The drivers of the ROIC are based in the Strategic Formula of the company.
+a low ROIC it should focus on improving ROIC before improving Growth Rate (Koller et al. 2015). As the higher the ROIC than the cost of capital (and the longer it can sustain a rate of return on that capital greater than its cost of capital), the greater is the creation of value, therefore it is critical to understand the drivers of the ROIC and assess impacts of every strategic and investment decision on them. The drivers of the ROIC are based in the Strategic Formula of the company.
 
 ## 2.4 Investment Analysis
 
@@ -995,19 +993,19 @@ The main techniques for the investments analysis are the Net Present Value and t
 The present value (PV) is the baseline instrument to evaluate the profitability of an investment. The PV measures the present value of the future expected cash-flows  $(CF_{t})$  discounted at interest rate  $(i)$ , as follows:
 
 $$
-P V = \sum_ {t = 1} ^ {n} \frac {CF_{t}}{(1 + i) ^ {t}} \tag {2.70}
+PV = \sum_{t=0}^{n} \frac{CF_{t}}{(1 + i)^{t}} \tag{2.72}
 $$
 
 It is possible to assume that cash-flows are expected to grow at the same constant growth rate  $(g_{n})$  in each period over time, as follows:
 
 $$
-P V = \frac {C F _ {0}}{(1 + i) ^ {1}} + \frac {C F _ {0} (1 + g _ {n}) ^ {1}}{(1 + i) ^ {2}} + \frac {C F _ {0} (1 + g _ {n}) ^ {2}}{(1 + i) ^ {3}} + \dots + \frac {C F _ {0} (1 + g _ {n}) ^ {n - 1}}{(1 + i) ^ {n}}
+PV = \frac{CF_{0}}{(1 + i)^{1}} + \frac{CF_{0} (1 + g_{n})^{1}}{(1 + i)^{2}} + \frac{CF_{0} (1 + g_{n})^{2}}{(1 + i)^{3}} + \dots + \frac{CF_{0} (1 + g_{n})^{n-1}}{(1 + i)^{n}}
 $$
 
 That can be generalised as follows:
 
 $$
-P V = \sum_ {t = 1} ^ {\infty} \frac {C F _ {0} \left(1 + g _ {n}\right) ^ {t - 1}}{(1 + i) ^ {t}} \tag {2.71}
+PV = \sum_{t=1}^{\infty} \frac{CF_{0} \left(1 + g_{n}\right)^{t-1}}{(1 + i)^{t}} \tag{2.71}
 $$
 
 It is important to note that when  $g_{n} > i$  cash-flows ( $CF$ ) grow faster than they are discounted, the summation differences increase over time. The sum is infinite. It means that it is impossible to reproduce the cash-flows related to constant growth rate in perpetuity. In practice this type of eternity cannot exist. Consequently, the constant Growth Rate in perpetuity can be considered only if it is lower than the interest rate  $g_{n} < i$  so that each successive term in the sum is less than previous term. In this case the sum is finite (Corelli 2016).
@@ -1053,7 +1051,7 @@ Therefore, IRR does not incorporate environmental factors, but it only considers
 In general terms, the IRR of an investment measures the annualized effective compounded return rate that makes Net Present Value (NPV) of investment equal to zero: it is the discount rate that makes the Net Present Value of cash-out of the investment equal to the Net Present Value of the cash-in of the investment. Formally:
 
 $$
-N P V = 0 \quad \rightarrow \quad \sum_ {t = 1} ^ {n} \frac {C F O _ {t}}{(1 + I R R) ^ {t}} = \sum_ {t = 1} ^ {n} \frac {C F I _ {t}}{(1 + I R R) ^ {t}} \tag {2.74}
+NPV = 0 \quad \rightarrow \quad \sum_{t=1}^{n} \frac{CFO_{t}}{(1 + IRR)^{t}} = \sum_{t=1}^{n} \frac{CFI_{t}}{(1 + IRR)^{t}} \tag{2.74}
 $$
 
 Based on Eq. (2.74) the higher a IRR, the more profitable the investment.
@@ -1065,7 +1063,7 @@ By considering the IRR and the cost of capital, the firm has to prefer available
 Assuming an investment project that requires an initial cash-out equal to  $A$  and several cash-in  $C_n$  over time, we have:
 
 $$
-A = \sum_ {t = 1} ^ {n} \frac {C _ {t}}{(1 + i) ^ {t}} \quad \rightarrow \quad A - \sum_ {t = 1} ^ {n} \frac {C _ {t}}{(1 + i) ^ {t}} = 0
+A = \sum_{t=1}^{n} \frac{C_{t}}{(1 + i)^{t}} \quad \rightarrow \quad A - \sum_{t=1}^{n} \frac{C_{t}}{(1 + i)^{t}} = 0
 $$
 
 The main problem is to define the value of Interest Rate  $i$  so that this equation is achieved. Therefore, the Interest Rate  $i$  is the IRR.
@@ -1075,7 +1073,7 @@ The problem can be solved by using the Newton's algorithm (Sydsaeter et al. 2012
 Assuming that the investment project requires a cash-out equal to  $A$  and it promises three cash-in  $C_1, C_2, C_3$  respectively in  $t_1, t_2, t_3$ . In this case, we have:
 
 $$
-A = \frac {C _ {1}}{(1 + i) ^ {1}} + \frac {C _ {2}}{(1 + i) ^ {2}} + \frac {C _ {3}}{(1 + i) ^ {3}} \quad \rightarrow \quad A - \frac {C _ {1}}{(1 + i) ^ {1}} + \frac {C _ {2}}{(1 + i) ^ {2}} + \frac {C _ {3}}{(1 + i) ^ {3}} = 0
+A = \frac{C_{1}}{(1 + i)^{1}} + \frac{C_{2}}{(1 + i)^{2}} + \frac{C_{3}}{(1 + i)^{3}} \quad \rightarrow \quad A - \frac{C_{1}}{(1 + i)^{1}} + \frac{C_{2}}{(1 + i)^{2}} + \frac{C_{3}}{(1 + i)^{3}} = 0
 $$
 
 Defining a new variable  $\alpha$  as follows:
@@ -1087,13 +1085,13 @@ $$
 so that:
 
 $$
-A = C _ {1} \cdot \alpha + C _ {2} \cdot \alpha^ {2} + C _ {3} \cdot \alpha^ {3} \quad \rightarrow \quad A - C _ {1} \cdot \alpha + C _ {2} \cdot \alpha^ {2} + C _ {3} \cdot \alpha^ {3} = 0
+A = C_{1} \cdot \alpha + C_{2} \cdot \alpha^{2} + C_{3} \cdot \alpha^{3} \quad \rightarrow \quad A - C_{1} \cdot \alpha + C_{2} \cdot \alpha^{2} + C_{3} \cdot \alpha^{3} = 0
 $$
 
 It is possible to define the function  $F(\alpha)$  as follows:
 
 $$
-F (\alpha) = A - C _ {1} \cdot \alpha + C _ {2} \cdot \alpha^ {2} + C _ {3} \cdot \alpha^ {3} = 0 \tag {2.75}
+F(\alpha) = A - C_{1} \cdot \alpha + C_{2} \cdot \alpha^{2} + C_{3} \cdot \alpha^{3} = 0 \tag{2.75}
 $$
 
 Generally, a polynomial of degree  $n$  can have  $n$  solutions.
@@ -1105,31 +1103,31 @@ Now the problem is to find this value of IRR. The Newton algorithm can be used a
 Calculate the first derivative of the function  $F(\alpha)$  respect to the variable  $\alpha$  as following:
 
 $$
-\frac {\partial F (\alpha)}{\partial \alpha} = - C _ {1} - 2 \cdot C _ {2} \cdot \alpha - 3 \cdot C _ {3} \cdot \alpha^ {2}
+\frac{\partial F(\alpha)}{\partial \alpha} = - C_{1} - 2 \cdot C_{2} \cdot \alpha - 3 \cdot C_{3} \cdot \alpha^{2}
 $$
 
 or in equivalent form (by denoting the first derivative as  $\frac{\partial F(\alpha)}{\partial\alpha} = F'(\alpha)$ ), we have:
 
 $$
-F ^ {\prime} (\alpha) = - C _ {1} - 2 \cdot C _ {2} \cdot \alpha - 3 \cdot C _ {3} \cdot \alpha^ {2} \tag {2.76}
+F^{\prime}(\alpha) = - C_{1} - 2 \cdot C_{2} \cdot \alpha - 3 \cdot C_{3} \cdot \alpha^{2} \tag{2.76}
 $$
 
 The analytical first derivative in a generic point  $\alpha_{s}$  can be approximated to the incremental ratio as follows:
 
 $$
-\frac {\partial F \left(\alpha_ {s}\right)}{\partial \alpha_ {s}} \simeq \frac {F \left(\alpha_ {s + 1}\right) - F \left(\alpha_ {s}\right)}{\alpha_ {s + 1} - \alpha_ {s}}
+\frac{\partial F(\alpha_{s})}{\partial \alpha_{s}} \simeq \frac{F(\alpha_{s+1}) - F(\alpha_{s})}{\alpha_{s+1} - \alpha_{s}}
 $$
 
 and therefore:
 
 $$
-\lim  _ {\alpha_ {s + 1} \rightarrow \alpha_ {s}} \frac {F (\alpha_ {s + 1}) - F (\alpha_ {s})}{\alpha_ {s + 1} - \alpha_ {s}} = \frac {F (\alpha_ {s})}{\alpha_ {s}} = \frac {\partial F (\alpha_ {s})}{\partial \alpha_ {s}}
+\lim_{\alpha_{s+1} \rightarrow \alpha_{s}} \frac{F(\alpha_{s+1}) - F(\alpha_{s})}{\alpha_{s+1} - \alpha_{s}} = \frac{F(\alpha_{s})}{\alpha_{s}} = \frac{\partial F(\alpha_{s})}{\partial \alpha_{s}}
 $$
 
 We have to find the Interest Rate able to have the function  $F(\alpha)$  equal to zero. Therefore, it is possible to assume  $F(\alpha_{s + 1}) = 0$  that is the objective value. In this case, it gets:
 
 $$
-\frac {\partial F \left(\alpha_ {s}\right)}{\partial \alpha_ {s}} = \frac {- F \left(\alpha_ {s}\right)}{\alpha_ {s + 1} - \alpha_ {s}}
+\frac{\partial F(\alpha_{s})}{\partial \alpha_{s}} = \frac{- F(\alpha_{s})}{\alpha_{s+1} - \alpha_{s}}
 $$
 
 and by solving for  $\alpha_{s + 1}$  we have:
@@ -1137,13 +1135,13 @@ and by solving for  $\alpha_{s + 1}$  we have:
 # 2.4 Investment Analysis
 
 $$
-\alpha_ {s + 1} = \alpha_ {s} - \frac {F (\alpha_ {s})}{\frac {\partial F (\alpha_ {s})}{\partial \alpha_ {s}}}
+\alpha_{s+1} = \alpha_{s} - \frac{F(\alpha_{s})}{\frac{\partial F(\alpha_{s})}{\partial \alpha_{s}}}
 $$
 
 by denoting the first derivative as  $\frac{\partial F(\alpha_s)}{\partial\alpha_s} = F'(\alpha_s)$ , we have:
 
 $$
-\alpha_ {s + 1} = \alpha_ {s} - \frac {F \left(\alpha_ {s}\right)}{F ^ {\prime} \left(\alpha_ {s}\right)} \tag {2.77}
+\alpha_{s+1} = \alpha_{s} - \frac{F(\alpha_{s})}{F^{\prime}(\alpha_{s})} \tag{2.77}
 $$
 
 Equation (2.77) defines the relationship between  $\alpha_{s+1}$  and  $\alpha_s$ . It is an numerical algorithm able to define interactively the value of IRR which makes the function  $F(\alpha) = 0$ .
@@ -1153,19 +1151,19 @@ On the basis of the equations of  $F(\alpha), F'(\alpha), \alpha_{s+1}$  it is p
 - step 1: assign to a  $\alpha$  any arbitrary value so that  $\alpha = \alpha_{1}$ , so that:
 
 $$
-\alpha_ {1} = \frac {1}{1 + i _ {1}}
+\alpha_{1} = \frac{1}{1 + i_{1}}
 $$
 
 In this case it is a defined value (a number). Therefore, it is possible to calculate the Interest Rate  $i_1$  that it gives the defined value of  $\alpha_1$ :
 
 $$
-i _ {1} = \frac {1}{\alpha_ {1}} - 1
+i_{1} = \frac{1}{\alpha_{1}} - 1
 $$
 
 - step 2: introduce the value  $\alpha_{1}$  in the function  $F(\alpha)$  and verify if it reaches a value near to zero  $F(\alpha) \simeq 0$ . In this sense, it is possible to introduce a convergence criterion. Specifically, if:
 
 $$
-| F (\alpha) | <   \varepsilon \quad \rightarrow \quad F (\alpha) \simeq 0
+| F(\alpha) | < \varepsilon \quad \rightarrow \quad F(\alpha) \simeq 0
 $$
 
 where  $\varepsilon$  is a positive value small enough to make that the  $F(\alpha)$  is near to zero.
@@ -1175,19 +1173,19 @@ Therefore, by introducing the value of  $\alpha_{1}$  in the function, if  $|F(\
 - step 3: calculate the first derivative in the point  $\alpha_{1}$  as follows:
 
 $$
-F ^ {\prime} \left(\alpha_ {1}\right) = - C _ {1} - 2 \cdot C _ {2} \cdot \alpha_ {1} - 3 \cdot C _ {3} \cdot \alpha_ {1} ^ {2}
+F^{\prime}(\alpha_{1}) = - C_{1} - 2 \cdot C_{2} \cdot \alpha_{1} - 3 \cdot C_{3} \cdot \alpha_{1}^{2}
 $$
 
 - step 4: calculate the new value  $\alpha_{2}$  on the basis of the  $\alpha_{1}$  as follows:
 
 $$
-\alpha_ {2} = \alpha_ {1} - \frac {F (\alpha_ {1})}{F ^ {\prime} (\alpha_ {1})}
+\alpha_{s+1} = \alpha_{s} - \frac{F(\alpha_{s})}{F^{\prime}(\alpha_{s})}
 $$
 
 - step 5: introduce the value  $\alpha_{2}$  in the function  $F(\alpha)$  and if the convergence criterion is respected, so that:
 
 $$
-| F (\alpha_ {2}) | <   \varepsilon \quad \rightarrow \quad F (\alpha_ {2}) \simeq 0
+| F(\alpha_{2}) | < \varepsilon \quad \rightarrow \quad F(\alpha_{2}) \simeq 0
 $$
 
 the  $\alpha_{2}$  is correct and the corresponding Interest Rate  $i_{2}$  is the IRR sought and the procedure is closed. If it does not happen, the procedure starts again from step 3 with the definition of the first derivative of the function with  $\alpha_{2}F^{\prime}(\alpha_{2})$ , and the new definition of the  $\alpha_{3}$  in step 4 and its validation in step 5. The procedure continues interactively until the convergence criterion is respected in step 5.

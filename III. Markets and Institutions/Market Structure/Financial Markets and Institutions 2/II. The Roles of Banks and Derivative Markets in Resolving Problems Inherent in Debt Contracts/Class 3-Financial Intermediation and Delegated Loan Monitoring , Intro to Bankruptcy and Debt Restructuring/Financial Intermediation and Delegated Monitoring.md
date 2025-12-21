@@ -1,12 +1,25 @@
 ---
-parent_directory: Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
-title: "Class 3: Financial Intermediation and Delegated Monitoring"
-tags:
-aliases:
-  - Financial Intermediation and Delegated Monitoring
-parent_folder: Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
-subfolder:
-key_concepts:
+title: "Financial Intermediation and Delegated Monitoring"
+parent_directory: "Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring"
+formatted: "2025-12-21 04:40:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - financial intermediation theory
+  - delegated monitoring
+  - bank lending incentives
+  - debt contract optimization
+secondary_tags:
+  - moral hazard resolution
+  - diversification in banking
+  - bankruptcy penalties
+  - loan covenant enforcement
+  - agency problems
+  - risk neutral economy
+  - information asymmetry
+  - monitoring costs
+  - free rider problems
+  - incentive contracts
 cssclasses: academia
 ---
 

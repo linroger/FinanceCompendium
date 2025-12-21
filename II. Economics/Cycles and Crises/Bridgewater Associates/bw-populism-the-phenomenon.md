@@ -1,36 +1,36 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Bridgewater®
-linter-yaml-title-alias: Bridgewater®
+title: "Bridgewater®"
+parent_directory: "Bridgewater Associates"
+formatted: "2025-12-21 11:00:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- chávez program nationalizations resulted
-- major emerging country populists
-- industrialization perón carried
-- farmers came government
-- argentines centralized economic
+  - populism phenomenon
+  - economic cycles crises
+  - political populism
+  - bridgewater associates
 secondary_tags:
-- report examination populism phenomenon
-- populism phenomenon typically germinates
-- trends clear populism surged
-- populist support today compares
-- communists labor unions perón
-- way rise populism
-- past populist
-- world populism index latest
-- chávez imposed capital controls
-- helped galvanize supporters chávez
-- justicialista perónist economy asserts
-- year chávez took
-tags_extracted: '2025-12-18T00:07:13.590929'
+  - populist leaders
+  - economic inequality
+  - political instability
+  - wealth gaps
+  - establishment elites
+  - government ineffectiveness
+  - cultural threats
+  - nationalist policies
+  - protectionism
+  - wealth redistribution
+  - media control
+  - civil conflicts
+  - democratic erosion
+  - authoritarian regimes
+  - international relations
+cssclasses: academia
 ---
 
 # Bridgewater®
 
-# Daily Observations
+## Daily Observations
 
 March 22, 2017
 
@@ -46,7 +46,7 @@ Jason Rogers
 
 Gardner Davis
 
-# Populism: The Phenomenon
+## Populism: The Phenomenon
 
 This report is an examination of populism, the phenomenon—how it typically germinates, grows, and runs its course.
 
@@ -65,7 +65,7 @@ In any case, we think now is the time to brush up on our understandings of popul
 
 In this report, we describe what we see as the "archetypal populist template," which we built out through studying 14 past populist leaders in 10 different countries. In that way, we can show their similarities and differences. While no two cases are identical, most cases are similar—so much so that one might say that there is a "populist playbook." By knowing these historical cases well, we will then be able to compare the developments of contemporary cases with those of the past, both to better understand the phenomenon and to better visualize how it might develop.
 
-# The Archetypical Populist Template
+## The Archetypical Populist Template
 
 Populism is a political and social phenomenon that arises from the common man being fed up with 1) wealth and opportunity gaps, 2) perceived cultural threats from those with different values in the country and from outsiders, 3) the "establishment elites" in positions of power, and 4) government not working effectively for them. These sentiments lead that constituency to put strong leaders in power. Populist leaders are typically confrontational rather than collaborative and exclusive rather than inclusive. As a result, conflicts typically occur between opposing factions (usually the economic and socially left versus the right), both within the country and between countries. These conflicts typically become progressively more forceful in self-reinforcing ways.
 
@@ -77,9 +77,7 @@ In monitoring the early-stage development of populist regimes, the most importan
 
 Classic populist economic policies include protectionism, nationalism, increased infrastructure building, increased military spending, greater budget deficits, and, quite often, capital controls.
 
-In the period between the two great wars (i.e., the 1920s-30s), most major countries were swept away by populism, and it drove world history more than any other force. The previously mentioned sentiments by the common man put into power populist leaders in all major countries except the United States and the UK (though we'd consider Franklin D. Roosevelt to be a quasi-populist, for reasons described below). Disorder and conflict between the left and the right (e.g., strikes that shut down operations, policies meant to undermine the opposition and the press, etc.) prompted democracies in Italy, Germany, Spain, and Japan to choose dictatorships because collective/inclusive decision making was perceived as tolerance for behaviors that
-
-undermined order, so autocratic leaders were given dictatorial powers to gain control. In some cases (like Spain), strife between those of conflicting ideologies led to civil war. In the US and UK, prominent populist leaders emerged as national figures (Oswald Mosley, Father Charles Coughlin, Huey Long), though they didn't take control from mainstream parties.
+In the period between the two great wars (i.e., the 1920s-30s), most major countries were swept away by populism, and it drove world history more than any other force. The previously mentioned sentiments by the common man put into power populist leaders in all major countries except the United States and the UK (though we'd consider Franklin D. Roosevelt to be a quasi-populist, for reasons described below). Disorder and conflict between the left and the right (e.g., strikes that shut down operations, policies meant to undermine the opposition and the press, etc.) prompted democracies in Italy, Germany, Spain, and Japan to choose dictatorships because collective/inclusive decision making was perceived as tolerance for behaviors that undermined order, so autocratic leaders were given dictatorial powers to gain control. In some cases (like Spain), strife between those of conflicting ideologies led to civil war. In the US and UK, prominent populist leaders emerged as national figures (Oswald Mosley, Father Charles Coughlin, Huey Long), though they didn't take control from mainstream parties.
 
 In summary, populism is…
 
@@ -112,46 +110,29 @@ For the most part, the populist patterns were clear (e.g., the conflicts within 
 
 What follows is an examination of 14 of those populists listed above, in 10 countries—some 55 pages of it. It is both too long and too short. It's too long because 50-plus pages is more than many of you are going to want to read. It's too short because describing multi-decade careers of major historical figures in an average of four pages is woefully inadequate in conveying the picture. If you think it's too much, we recommend that you pick the particular characters that you're interested in and review them. To help you do this, a table of contents is provided (note that we don't include full profiles of a couple of the people listed in the tables above):
 
-<toc>
-# 14 Populists in 10 Countries
+## 14 Populists in 10 Countries
 
-# 1930s Cases
+## 1930s Cases
 
-Franklin Roosevelt (US) 8
+Franklin Roosevelt (US)
 
-Huey Long (US) 11
+Huey Long (US)
 
-Father Charles Coughlin (US) 12
+Father Charles Coughlin (US)
 
-Benito Mussolini (Italy) 13
+Benito Mussolini (Italy)
 
-Adolf Hitler (Germany) 18
+Adolf Hitler (Germany)
 
-Francisco Franco (Spain) 24
+Francisco Franco (Spain)
 
-Oswald Mosley (UK) 28
+Oswald Mosley (UK)
 
-1930s Japan 31
+1930s Japan
 
-# Other Cases
+## Other Cases
 
-Andrew Jackson (US 1830s) 35
-
-William Jennings Bryan (US 1890s) 38
-
-Vladimir Lenin (Russia 1910-20s) 42
-
-Juan Perón (Argentina 1940-50s) 45
-
-Pierre Poujade (France 1950s) 50
-
-Robert Muldoon (New Zealand 1970-80s) 52
-
-Hugo Chávez (Venezuela 1990-2000s) 56
-
-</toc>
-
-# The Populists of the Interwar Period (1920-30s)
+## The Populists of the Interwar Period (1920-30s)
 
 Before delving into these cases, we want to make clear that the populism of the interwar period came at a time of global debt crises that induced economic depressions, so it is not clear how much of the bad economic conditions of that period were the result of the debt crises and how much they were due to populist policies such as protectionism.
 
@@ -180,11 +161,9 @@ They tended to be anti-international, anti-global trade, and anti-immigrant. The
 
 - Conflicts between factions became increasingly intense, leading to great obstructionism, crackdowns on opposition and free media, etc. This led to more autocratic leadership. Those that had the weakest norms/shortest history of democratic institutions were quickest to move away from democracy to dictatorship.
 
-# 1. The US: FDR, Huey Long, and Father Coughlin
+## 1. The US: FDR, Huey Long, and Father Coughlin
 
-While populism was a force in the US, and some would say that Roosevelt was a populist of the left—because his policies were both populist and rather extreme at the time (though much less so in retrospect)—we will consider him a "quasi-populist." If you are interested in more classic cases, you might skip to the next section to review those in Europe.
-
-# The Economic Context
+## The Economic Context
 
 In the 1930s, the US saw populists emerge on all sides of the political spectrum—Huey Long was an extreme populist of the left, Father Coughlin showed fascist leanings, and FDR was a center/left populist (depending on one's own perspective).
 
@@ -237,29 +216,13 @@ Populists of the right at the time were xenophobic, as the foreign-born share of
 
 Below we profile three prominent 1930s US populists: Franklin Delano Roosevelt (who we'd consider a 'quasi-populist' of the left), Huey Long, and Father Charles Coughlin.
 
-# Franklin Delano Roosevelt
+## Franklin Delano Roosevelt
 
-# Rise to Power
+##### Rise to Power
 
-The depressed economic conditions led Roosevelt to campaign on a "New Deal" to replace Herbert Hoover's old way of doing things. He promised big changes, and he was elected by the poor and organized labor to make those changes. He won in a landslide in 1932, winning 42 of 48 states and carrying  $57\%$  of the national vote. Populists such as Long and Father Coughlin supported Roosevelt's first bid for president. He embraced populist rhetoric even more so in subsequent elections, emphasizing the struggle between "the American citizen" and the "economic tyranny" of an "industrial dictatorship" and pursuing a number of populist policies.
+##### Key Policies
 
-While he did not come from outside of the political establishment (he had been elected as governor of New York as a Democrat, and was the Democrats' candidate for vice president in 1920), the policies he ultimately implemented were of a populist nature.
-
-# Key Policies
-
-Upon election, Roosevelt immediately devalued the dollar to produce debt relief and implemented sweeping reforms of an unprecedented scale. His New Deal policies sought to tackle the economic depression through a vast expansion of the role of government and support for workers, debtors, and the unemployed. He created Social Security and unemployment insurance; increased financial regulation; created large government programs that directly employed people; and strengthened labor rights. He engineered big debt write-downs that benefited debtors at the expense of creditors, created an agency to aid underwater mortgage borrowers, and created federal agencies to support mortgage lending. He financed his spending programs in part through a significant expansion of the deficit rather than through increased taxation, contributing to the fiscal boost.
-
-Unlike some other populists, he sought to lower tariffs and roll back protectionist policies. Protectionism had taken hold in the 1920s in response to the struggles of American farmers faced with high debts and low commodity prices. The push for protectionism became a central issue in the election of 1928 and ultimately resulted in the Smoot-Hawley Tariff in June 1930, which increased tariffs on over 20,000 goods and is widely considered to be the biggest step away from free trade in modern American history. By the time Roosevelt was elected in 1932, the trade wars that resulted from Smoot-Hawley were seen to have hurt the US economy, and Congress authorized Roosevelt to roll back tariffs when other countries agreed to do the same.
-
-In the interwar period, Roosevelt was more interventionist in foreign affairs relative to his recent predecessors. While the US remained technically neutral during the 1930s, it greatly expanded its military sales to Allied powers through the "cash and carry" policy in 1939 and later through the Lend-Lease Act in 1941. Roosevelt also aimed to deter Japan's military expansionism through enacting more restrictive trade policies with Japan. This strengthened the hand of hardliners in Japan, who escalated the conflict. It was Roosevelt's 1940-41 oil embargo that allowed the Japanese military to take full control of their government's foreign policy and provided the pressure that spurred Japan's attack on Pearl Harbor. It was a classic example of how aggressive foreign relations can empower leaders who hold more extreme positions (we cover these events in more detail in the section on Japan).
-
-It's also worth highlighting that by the 1930s, the US had already largely closed itself off to immigrants, so immigration wasn't a big issue during the Great Depression. In the 1920s, anti-immigrant sentiment led to the passage of the National Origins Act in 1924 (expanded in 1929), which capped the number of immigrants who could enter the US each year, established quotas on immigration for certain regions, and created the Border Patrol to crack down on illegal immigration. Immigration in the 1930s had declined by over  $90\%$  compared to its peak in the early 1900s.
-
-Over time, Roosevelt expanded his base of support, positioning the Democrats as the "big tent" party, which alienated the more ideological left-wing populists. Additionally, he brought new constituencies into the fold,
-
-including Western progressives, intellectuals, rural farmers, and ethnic minorities (who had typically supported Republicans).
-
-# Populism-Related Quotes from Roosevelt
+### Populism-Related Quotes from Roosevelt
 
 - "The money changers have fled from their high seats in the temple of our civilization. We may now restore that temple to the ancient truths." (1933)  
 - "The people of the United States have not failed. In their need they have registered a mandate that they want direct, vigorous action. They have asked for discipline and direction under leadership. They have made me the present instrument of their wishes." (1933)  
@@ -273,25 +236,13 @@ US: Asset Markets in the 1920s and 1930s
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/5885e62a-7c01-4bf2-82fd-becbc2a01760/07242d95af8330c8aa19d24a169ce4a52919f30ec50af3abbf72846e1d16e1df.jpg)
 
-# Huey Long, a US Crusader against the Wealthy and Big Corporations
+## Huey Long, a US Crusader against the Wealthy and Big Corporations
 
-Huey Long was the Bernie Sanders of his time—i.e., a classic firebrand populist of the left.
+##### Rise to Prominence
 
-He was governor of Louisiana and a US senator (1932-1935) who ran for president, polling  $10\%$  nationally, but was assassinated during the primary in 1935 (because of an unrelated Louisiana dispute). He held anti-corporate and anti-Federal Reserve positions and was in favor of radical wealth distribution (for instance,  $100\%$  tax on wealth greater than \$100 million). Roosevelt called him "one of the two most dangerous men in America" (the other was General Douglas MacArthur).
+### Populism-Related Quotes from Long
 
-# Rise to Prominence
-
-Long was a lawyer early in his career, mostly defending individuals against big businesses, often in workers' compensation cases. In his first bid for the governorship of Louisiana, he campaigned on economic equality, though he eventually lost. He won his next bid four years later in 1928, railing against the old money New Orleans aristocrats who had dominated state government and corporations like Standard Oil that he believed had undue influence. His self-written campaign song, "Every Man a King" (a phrase borrowed from William Jennings Bryan), captured the essence of his platform. Once in office, Long (according to many accounts) governed with a heavy hand and expanded Louisiana's welfare programs.
-
-Long won a Senate seat in 1932, his first foray into national politics. He initially supported FDR, before deciding to oppose him in 1933 over the New Deal, which Long deemed inadequate. Long wanted to cap income at \$1 million and inheritances at \$5 million and establish a 30-hour federal workweek. He promoted these beliefs nationwide, and in the early 1930s his grassroots supporters established over 25,000 "Share Our Wealth" clubs. He denounced powerful, wealthy Americans for hoarding the country's wealth and believed the root cause of the economic pain was unsustainable income inequality. Long's Share Our Wealth Society sought to redistribute incomes and achieve a minimum standard of living for all via a high inheritance tax and a graduated income tax. When the media was not in his favor, he began his own radio show, characterized by his animated speeches. He regularly had around 25 million listeners—about 1 in 5 Americans. A hallmark of his speeches (many of which were ad-libbed) was listing the failures of the Roosevelt administration, including failing to redistribute wealth, lower unemployment, and curtail debt. Long's assassination in 1935 ended the hopes of many that he'd become president.
-
-# Populism-Related Quotes from Long
-
-- "They've got a set of Republican waiters on one side and a set of Democratic waiters on the other side, but no matter which set of waiters bring you the dish, the legislative grub is all prepared in the same Wall Street Kitchen." (1932)  
-- "God invited us all to come and eat and drink all we wanted. He smiled on our land and we grew crops of plenty to eat and wear. He showed us in the earth the iron and other things to make everything we wanted. He unfolded to us the secrets of science so that our work might be easy. God called: 'Come to my feast.' Then what happened? Rockefeller, Morgan, and their crowd stepped up and took enough for 120 million people and left only enough for 5 million for all the other 125 million to eat. And so many millions must go hungry and without these good things God gave us unless we call on them to put some of it back." (1934)  
-They say they don't like my methods. Well, I don't like them either. I really don't like to have to do things the way I do. I'd much rather get up before the legislature and say, 'Now this is a good law and it's for the benefit of the people, and I'd like you to vote for it in the interest of the public welfare.' Only I know that laws ain't made that way. You've got to fight fire with fire." (1932)
-
-# Father Charles Coughlin, an American Who Espoused Fascist Views
+## Father Charles Coughlin, an American Who Espoused Fascist Views
 
 Father Charles Coughlin was a classic anti-capitalist populist, sympathetic to fascist leaders in Europe. He was a Roman Catholic priest and one of the first major political radio personalities, with about 30 million listeners at his peak (nearly a quarter of the US population at the time). Though he began as a prominent supporter of FDR and the New Deal, he eventually turned against the president, and his show became increasingly anti-Semitic and sympathetic to the fascist movements that had come to power in Europe.
 
@@ -299,58 +250,21 @@ Father Coughlin started broadcasting on the radio in the late 1920s, with his ea
 
 As his message became more extreme and the aggression of the fascist states became clear, he lost influence and faced opposition from both the US government and the Catholic Church hierarchy. His radio show was removed from the air waves, and in 1942 the church hierarchy forbade him from further political activity, forcing him to retire from political life until his death in 1979.
 
-# Populism-Related Quotes from Coughlin
+### Populism-Related Quotes from Coughlin
 
-- "While we sympathize with the Serbian or the Russian, with the Jew in Germany or the Christian in Russia, the major portion of our sympathy is extended to our dispossessed farmer, our disconsolate laborers who are being crushed at this moment while the spirit of internationalism runs rampant in the corridors of the Capitol, hoping to participate in setting the world aright while chaos clamors at our doors."  
-"I have dedicated my life to fight against the heinous rottenness of modern capitalism because it robs the laborer of this world's goods. But blow for blow I shall strike against communism, because it robs us of the next world's happiness."  
-- "Oh you poor laborers and farmers, we have tried, time and again, to tell you that there can be no resurrection for America until Congress begins to coin and regulate the value of money. We have endeavored to teach you, time and again, that there can be no coming out of this depression until what you earn goes to sustain your wife and your children."  
-- "We shall barter our sovereignty as a free, independent nation or accept the decisions of a World Court as a super-nation to manage our affairs."  
-- "Roosevelt has a poor brand of Russian communism…I think it is significant the leaders among the communists of the world never once attacked international bankers. Roosevelt will not touch that subject."  
-- "We maintain the principle that there can be no lasting prosperity if free competition exists in industry. Therefore, it is the business of government not only to legislate for a minimum annual wage and maximum working schedule to be observed by industry, but also so to curtail individualism that, if necessary, factories shall be licensed and their output shall be limited."
+## Core Europe: Italy/Mussolini, Germany/Hitler, Spain/Franco
 
-# Core Europe: Italy/Mussolini, Germany/Hitler, Spain/Franco
+## 2. Italy: Mussolini
 
-Next, we profile countries where populist extremists gained power: Italy, Germany, and Spain. In all three of these cases, democracies became dictatorships as a result of the conflicts.
+##### Economic/Political Background
 
-# 2. Italy: Mussolini
+##### Rise to Power
 
-Benito Mussolini came to power somewhat earlier than other leaders we profile (1922), and he gained power through force rather than the ballot. But he took advantage of an environment similar to the ones experienced by other populists—social strife, a weak economy, and ineffective leaders—and he also inspired more extreme politics in many of them. Prior to his rise to power, poor economic conditions had led to widespread strikes, factory seizures, and social unrest. Italy's democratically elected leaders were unable to resolve these problems, as politics had become fragmented and unstable. Mussolini promised to turn the chaos and inefficiencies into order and efficiency—to "make the trains run on time." And with these promises, Mussolini was able to mobilize a broad set of disaffected Italians and upend Italy's democracy to take control. Of course, a lot happened from the time he became prime minister in 1922 until he was shot and hanged in 1945. What follows is only a brief review.
+##### Key Policies
 
-# Economic/Political Background
+##### The Economy, Asset Markets, and Wealth
 
-Before World War I, Italy's economy was still mostly agrarian, and living standards and production capacity lagged behind countries like Germany and the UK. The war made things worse. In the aftermath of the war, Italy experienced a substantial economic downturn and high inflation. Unemployment was high from the weak economy and the demobilization of the army, which left many former soldiers out of work. In prior years, Italians who struggled to find work often emigrated to the US, but newly restrictive US immigration laws ended that path. These conditions contributed to substantial labor unrest. Workers seized factories, occupied land, and went on strike.
-
-The democratically elected government failed to resolve these issues. Politics had been especially ineffective and unstable since the 1919 elections, in which the socialists won the most seats for the first time under a new proportional representation system. The socialists were unable to form a governing coalition, and over the next three years Italy quickly cycled through four different prime ministers, none of whom were able to stem the rising social instability. The strikes and occupations carried out by the growing workers' movement challenged the interests of landowners and businesses and raised fears of communists seizing power. Meanwhile, nationalist sentiment was on the rise, as nationalists (including many out-of-work soldiers) felt that Italy had been treated unfairly in post-World War I territorial settlements.
-
-# Rise to Power
-
-The combination of nationalist resentment and chaotic domestic conditions created a prime opportunity for Mussolini to galvanize the support of disillusioned ex-soldiers and frustrated property holders. Mussolini's fascism defined itself in opposition to both socialism and the political elite, and promised to restore Italy to its past glory through territorial expansion. He believed that Italy needed "a man who is ruthless and energetic enough to make a clean sweep" and deal with Italy's social and economic problems, and offered himself as such a man. Along with ex-soldiers, Mussolini also appealed to the frustrations and fears of middle-class Italians and business owners, who had tired of the persistent labor strikes, riots, and general chaos that had characterized socialist rule. For those people, Mussolini's rousing oratory and promise to restore order made him an acceptable—even desirable—alternative to the status quo.
-
-While initially Mussolini sought power through the democratic process, his party did not do well in its first elections. His ultimate path to power relied on political violence. He established a paramilitary force that violently repressed socialist movements, put down labor strikes, and seized de facto control of large parts of Italy, especially the more industrialized north. In 1922, in response to plans for a general strike, his supporters
-
-organized what would later be called the March on Rome. His militia occupied strategic areas of the country, and 30,000 people marched on the capital. The king, fearing a civil war, asked Mussolini to form a government.
-
-Initially, Mussolini formed a cabinet within the existing parliamentary structure, governing in coalition with other parties. The initial transfer of power was tolerated by business and political elites. Business elites thought Mussolini wasn't much of a threat and could be manipulated—after all, his early speeches had a free-market bent. Meanwhile, the king and other politicians thought that Mussolini would operate within the existing political order, rather than overthrowing it. However, Mussolini soon changed electoral laws to favor his supporters and make it easier to obtain a parliamentary majority, bypassed constitutional limits on his power, and manipulated the media to propagate an image of himself as the savior of Italy. Simultaneously, his paramilitary allies continued their campaign of political violence, intimidating or assassinating his detractors. These measures allowed him to achieve a parliamentary majority in the 1924 elections. By 1925, he had largely dismantled Italy's democratic institutions and created a one-party police state.
-
-# Key Policies
-
-Mussolini's goal was to turn Italy into a modern industrialized state, shore up its access to strategic resources, and restore its national glory (e.g., through territorial expansion). While his initial economic policies were classically liberal (reducing taxes, cutting subsidies, taking measures to attract foreign capital, privatizations), his economic policies gradually evolved over time to involve more and more control over private industry and eventually direct ownership of much of the productive capacity, bending companies to serve the interest of the state. Mussolini described his policies as "state capitalism," and by 1934 he claimed that "three-fourths of Italian economy…is in the hands of the state." To summarize some of his policies:
-
-- Controlling private businesses: Mussolini preferred a "corporatist" approach in which the state would exert heavy control over industry, but actual ownership would initially remain in private hands. To achieve this, he pursued political and bureaucratic control of both labor and industrial organizations, nationalizing trade unions and forcing companies to join government-controlled "employer syndicates" that determined major production/investment decisions in each industry. Later, during the Great Depression, the government directly took over many of Italy's large companies.  
-Protectionist policies: He enacted high import tariffs and regulations aimed at capping import volumes, spearheaded a failed attempt to make Italy self-sufficient by ramping up grain production (thus reducing agricultural imports) and increasing intra-empire trade as a share of total trade, and enacted capital controls that eventually prevented Italians from investing abroad.  
-- Xenophobic policies: After striking an alliance with Nazi Germany, he published a racist manifesto and legally prohibited Jews from participating in the economy and in most forms of public life.  
-- The media: Mussolini had the same attitude toward the media as he did toward the rest of the economy; the role of the media was to serve the interests of the Italian fascist state, and the state would intervene to ensure this was the case. In line with this, newspaper editors were appointed by the Fascist party, journalists had to be registered Fascists, and local officials were given the power to suppress publications. Rival political newspapers were banned, and authors who stepped out of line could quickly find their works banned as well. This produced a culture of broad self-censorship, where almost everyone refrained from criticizing the state out of fear of retaliation. Moreover, the central government took a direct hand in deciding what news would and wouldn't be covered by sending out regular directives to editors. These measures transformed the news into an instrument of centrally-directed state propaganda, at first overseen by Mussolini's Press Office and, later, by the newly created Ministry of Popular Culture.  
-- Centralization of power: He outlawed all other political parties and abolished local autonomy, replacing elected mayors and councils with appointments by the Italian Senate.
-- Government stimulus: Mussolini spent on public works, education, and social welfare, including big pushes to modernize infrastructure.  
-Muscular foreign policy: Mussolini sought to partially restore the Roman Empire, through claiming and retaking parts of North Africa and the Balkans. He also directly funded and provided training and support to German and Spanish fascists. Though he was personally dismissive of the Nazi's racial theories and rhetoric, Mussolini adopted the German expansionist concept of Lebensraum for his own state in justifying his wars in Libya, Ethiopia, and later the Balkans. Italian fascism became the source of inspiration for the other major far-right movements in 1930s Europe.
-
-# The Economy, Asset Markets, and Wealth
-
-Mussolini's policies had mixed impacts on the economy and markets. In his first few years in power, the transition from labor unrest to order and the pursuit of free market policies contributed to a recovery in growth and a positive investment climate. Equities did well, rising about  $70\%$  in real terms from 1922 to 1924. However, as Mussolini established full dictatorial control in 1925 and began consolidating his power over industry, equities generally fell. That said, his infrastructure programs provided substantial fiscal stimulus, and his social programs established safety nets that proved helpful in the Great Depression. While growth stagnated, the economic contraction in Italy was substantially smaller than in its fellow gold bloc country, France.
-
-After Mussolini's initial ascent to power, there wasn't much capital flight and little emigration (emigration slowed, while return migration picked up). That said, years later, when the peg came under pressure during the Great Depression, the government began to interfere more significantly in asset markets, imposing capital controls and forcing repatriation of financial assets. Subsequent to the reestablishment of the gold peg, which began in 1926, there was a modest but persistent drain of reserves, which accelerated substantially following the devaluations of the pound and the US dollar in the early 1930s. In response, in 1934, most foreign exchange transactions were banned (with the exception of trade financing and transactions for travel abroad), as was the purchase of foreign securities. Banks and firms were required to sell all their foreign assets to the government, including FX payments received for past trade transactions. In 1936, the government forced all Italians to exchange their foreign securities for Italian treasury bonds, and Italians were "encouraged" to hand over private gold holdings to the government. The forced swap of foreign assets for government debt was used to finance the government's increased debt issuance related to the occupation of Ethiopia.
-
-# Populism-Related Quotes from Mussolini
+##### Populism-Related Quotes from Mussolini
 
 - "This is what we propose now to the Treasury: either the property owners expropriate themselves, or we summon the masses of war veterans to march against these obstacles and overthrow them." (1919)  
 "I declare that henceforth capital and labor shall have equal rights and duties as brothers in the fascist family" (1937)  
@@ -378,7 +292,7 @@ Italy: Asset Markets in the 1920s and 1930s
 
 We won't go into detail on all of the terrible things Hitler did when he was in power, as they are well known. We do, however, want to highlight the role of political discord and economic conditions that helped Hitler turn Germany from a democracy into a dictatorship.
 
-# Economic/Political Background
+### Economic/Political Background
 
 By the early 1930s, Germany had experienced 15 years of extreme economic environments. Germany was barely out of its period of hyperinflation (between 1921 and 1924) before growth started slipping in 1929 and the Great Depression began in 1930. Throughout the economic turmoil, elites were seen to be prospering while others faced the brunt of the economic pain. Through the 1920s, the top  $10\%$  earned about  $40\%$  of Germany's income (higher for Germany than at any time since WWII).
 
@@ -423,7 +337,7 @@ After gaining political power in 1933, the Nazi Party quickly consolidated its c
 
 repossess their equipment. As for independent publishers, they asserted control through multiple avenues: using market tactics, controlling the labor supply, and ultimately relying on state force. They ran independent papers out of business by getting Nazi sympathizers to flood the market with cheap papers, and then when they were nearly bankrupt, bought competitors using a constellation of holding companies that disguised their ownership. In a push to consolidate labor power, the Nazi Ministry of Propaganda took over the German press guild, forbade entry to political enemies, and outlawed unfavorable press coverage. The ministry also sent detailed guidelines to local and regional papers describing which stories to publish and how to report on them. Those who defied these rules were fired or sent to concentration camps.
 
-# The Economy, Asset Markets, and Wealth
+### The Economy, Asset Markets, and Wealth
 
 To gather support among industrialists, Hitler presented himself as an alternative to the looming threat of communism. Immediately after becoming chancellor, Hitler invited the wealthiest Germans to a meeting where he made the case that "private enterprise cannot be maintained in a democracy" and that only by supporting him could they protect their property claims.
 
@@ -438,7 +352,7 @@ In addition to these steps, the government defaulted on much of its external obl
 
 Capital flight was most widespread among persecuted minorities. Those who attempted to leave Germany with their assets were subject to harsh fines. The Reich Flight Tax was enacted before Hitler took power. It assessed a tax on wealthy individuals who attempted to leave and applied retroactively to those who left years earlier. The Nazis expanded the scope of the tax (raising its rate from  $25\%$  initially to  $65\%$  in 1934 and over  $80\%$  in 1936) and its enforcement mechanism. The tax authority worked in conjunction with the Gestapo to monitor individuals who were considered flight risks and could require citizens to surrender a security deposit if they seemed suspicious. In this way, Jews and other minorities who were able to leave Germany had most of their wealth confiscated. At its peak in 1938, the tax earned the government 340 million Reichsmarks, equivalent to  $1\%$  of German GDP.
 
-# Populism-Related Quotes by Hitler
+### Populism-Related Quotes by Hitler
 
 "I only acknowledge one nobility—that of labor." (1936)  
 
@@ -458,7 +372,7 @@ Germany: Asset Markets in the 1920s and 1930s
 
 Spain's story—like those of Italy, Germany, and Japan—is one in which a democratically led government was unable to maintain order in the midst of a conflict between populists of the left and populists of the right. In this case, the conflict was so severe that a civil war began in 1936 during the democracy of the Second Republic between right-wing Nationalists and left-wing Republicans. This is one of those classic cases in which the military took control. Franco was the top general of the Nationalists and assumed power in 1939 when the Nationalists took Madrid. He subsequently governed as a populist.
 
-# Economic/Political Background
+### Economic/Political Background
 
 To quickly scan the complex timeline (and to give a sense of the chaos), in the 20-year period from 1920 to 1940, Spain shifted between several governments, moving from:
 
@@ -485,7 +399,7 @@ In 1936, the Republicans won control of the government by a slight majority and 
 
 Unlike other populists of the time, Franco had no political role prior to the military coup that precipitated the Spanish Civil War. At the start of hostilities in 1936, he was one of several generals that coordinated the war efforts for the Nationalists. By 1937, following the deaths of several other leading generals, Franco consolidated power, heading the Nationalist war effort and eventually becoming Spain's leader after the war.
 
-# Key Policies
+### Key Policies
 
 Authoritarianism: Franco banned political opposition and ruled by intimidation.  
 
@@ -493,7 +407,7 @@ Authoritarianism: Franco banned political opposition and ruled by intimidation.
 - Nationalization of industry: Industries were nationalized and clustered into vertically integrated syndicates, where wages, working conditions, and employment and production quotas were set by the state. Mediation between owners and workers was controlled by the state. Though never fully implemented, the government also took steps toward collectivizing farmland, and at several points set a mandatory price for agricultural products that producers then had to sell to the government.  
 - Spanish nationalism: Franco banned the use of languages other than Spanish in government, schools advertising, and publications (despite Spain having many minority groups that spoke other languages) He also heavily promoted Spanish culture and suppressed aspects of minority cultures.
 
-# The Economy, Asset Markets, and Wealth
+### The Economy, Asset Markets, and Wealth
 
 # Capital Flight and Asset Forfeitures in the 1930s
 
@@ -524,7 +438,7 @@ Spain: Asset Markets in the 1920s and 1930s
 
 Like the US, the UK saw the rise of prominent populists from the extremes who didn't end up gaining much power. Below, we profile the UK's most prominent fascist, Oswald Mosley.
 
-# Economic/Political Background
+### Economic/Political Background
 
 The context in which Mosley arose was not dissimilar to what was happening in the US. The economy severely contracted in the Great Depression and faced high (though declining) levels of wealth and income inequality. Many of those who turned to extremist policies in the UK during the 1930s opposed the establishment politicians, who had failed to alleviate the economic pain of the depression. For instance, standard economic thinking of the time called for balanced budgets, and the British government initially cut unemployment benefits rather than incur deficit spending as revenues collapsed and unemployment rose. Overall, many viewed the government's response to the Great Depression as weak, indecisive, and ineffective.
 
@@ -536,7 +450,7 @@ The context in which Mosley arose was not dissimilar to what was happening in th
 
 Through the 1920s, fascism in Britain was a fringe movement, with its influence limited to minor demonstrations and petty acts of vandalism by a handful of radical groups. In the 1930s, the ideology gained in popularity as the Great Depression worsened in the UK. To some, the emerging Italian and German autocracies began to look like examples of effective "modern" government in comparison to the UK, with streamlined state control that cut through the bureaucracy.
 
-# Rise to Prominence
+### Rise to Prominence
 
 While still a member of Parliament in the Labour Party, Mosley was considered a rising star, noted for his bold ideas and brilliant speechmaking. In response to the Great Depression, Mosley authored a far-reaching, 16-page plan to support the economy (called the Mosley Memorandum) in 1930.
 
@@ -550,7 +464,7 @@ It also attracted more violent elements—by 1933, the organization had the "bla
 
 As he became increasingly isolated from the mainstream, his ideas became more radical and paranoid—he grew more interested in anti-Semitism and began advocating the violent overthrow of the British government. The economic platform that drove his early popularity faded out of his speeches, and he was increasingly seen as the pariah leader of a radical fringe. The BUF was officially banned in 1940, and Mosley was arrested and held in custody until 1945.
 
-# Key Positions
+### Key Positions
 
 Protectionist policies: He supported import controls and an "insulation" of the UK market from the world economy—with an emphasis on shifting away from exports and toward development of the home market.  
 
@@ -558,7 +472,7 @@ Protectionist policies: He supported import controls and an "insulation" of the 
 - Anti-foreigner: Mosley was suspicious of the influence of other countries and international organizations and aimed for Britain to be self-sufficient. Drawn toward anti-Semitism.  
 - Government stimulus: He supported an increase in government deficit spending on "jobs programs" to lower unemployment and stimulate demand (Keynes and Mosley ran in similar social circles, and Keynes allegedly provided Mosley with feedback on his stimulus plan).
 
-# Populism-Related Quotes from Mosley
+### Populism-Related Quotes from Mosley
 
 - "Capitalism is the system by which capital uses the nation for its own purposes. Fascism is the system by which the nation uses capital for its own purposes."  
 - "We challenge the 50-year-old system of free trade which exposes industry in the home market to the chaos of world conditions, such as price fluctuation, dumping, and the competition of sweated labor, which result in the lowering of wages and industrial decay."  
@@ -572,11 +486,11 @@ UK: Asset Markets in the 1920s and 1930s
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/5885e62a-7c01-4bf2-82fd-becbc2a01760/496ce55948e4a0b36e0f2b88e76616d889bd3eba0c7be21b58753f2370cf7996.jpg)
 
-# 6. Japan and the Rise of Military Rule
+## 6. Japan and the Rise of Military Rule
 
 After WWII, Japan, like much of the developed world, experienced poor economic conditions, political dysfunction and the increasing desire for strong leadership. This led to a shift from a weak democracy to a militaristic dictatorship. This is another case in which the desire for a strong leader to take control led to the military taking control. Many of the dynamics that pushed Japan in this direction are evident in other 1930s cases.
 
-# Economic/Political Background
+### Economic/Political Background
 
 In the interwar period, Japan's nascent democracy (its first elections were in 1890) was struggling with big issues—like who should be able to vote, how the economic system should be structured, etc. And more than any other country, Japan struggled with the issue of foreigners, which led to strong xenophobia. Throughout the period, Japanese military was still largely independent and pursued aggressive foreign policy objectives that were often at odds with the civilian government's wishes.
 
@@ -584,7 +498,7 @@ During the 1920s, politics became increasingly fractured and violent. The first 
 
 These political reforms didn't control rising extremism, and political divisions meant that subsequent governments lacked clear mandates and were short-lived, with elections held in 1928, 1930, and 1932. Weaker economic conditions, driven by the Showa Financial Crisis in 1927, further contributed to discontent. Military intervention in politics increased: Prime Minister Tanaka Giichi and his cabinet were forced by the army to resign in 1929, after he objected to the military assassinating a warlord in Manchuria. His successor, Prime Minister Hamaguchi, responded to the Great Depression in Japan by implementing fiscal austerity and returning Japan to the gold standard. The resulting economic downturn, combined with his conciliatory foreign policy, made him unpopular, and he was assassinated in 1931. Meanwhile, anti-foreign sentiment and nationalism continued to grow in response to foreign treaties limiting the size of the Japanese military, as well as restrictions on Japanese migration to the US.
 
-# Military's Rise to Power
+### Military's Rise to Power
 
 By the end of the 1920s, the combination of economic pain, rising anti-foreigner sentiment, an ineffective political establishment, and rising political violence undermined Japanese democracy and created an atmosphere conducive to the military taking power.
 
@@ -592,7 +506,7 @@ The military asserted its power by unilaterally invading Manchuria in 1931 witho
 
 General Hideki Tojo, who served in the Sino-Japanese War before taking the role of Prime Minister from October 1941 through July 1944.
 
-# Key Policies
+### Key Policies
 
 As its power grew, the nationalistic government pursued policies to secure resources for the military and expand its empire. Domestically, the government focused on directing the economy toward military production. Since the start of Japan's industrialization, there had been a limited number of family-controlled, dominant monopoly companies called Zaibatsu, which had tight ties to the government and shifted to military-related production. The military government also maintained Japan's very high tariffs, which had risen during the 1920s to serve the interests of domestic producers, especially the Zaibatsu.
 
@@ -606,7 +520,7 @@ Japan's military ambition required that it secure the necessary military resourc
 
 In the early 1930s, the military government began to tighten its grip on the media, and over the next decade enacted dozens of new regulations censoring all aspects of it. In 1935, films "insulting the national polity, military, or foreign policy" were banned; in 1937, anything regarding national security and foreign relations was deemed a state secret; in 1941, American and British films were banned from theaters. The final takeover came with the 1938 National Mobilization Law and its 1941 revision, which fully eliminated freedom of the press, blocked new media entrants, forced consolidation among the existing outlets, and mandated all publications to be screened by the government prior to publishing. The number of newspapers fell from about 1,500 to 54 by late 1941.
 
-# The Economy, Asset Markets, and Wealth
+### The Economy, Asset Markets, and Wealth
 
 Initially, Japan had one of the better economic bounces following the Great Depression because it was one of the early countries to break the peg with gold (yen fell  $60\%$  versus gold) and print money. Combined with military-oriented fiscal spending, it helped produce a strong economic recovery, which led local equity prices to rise about  $150\%$  in local currency terms. But Japan's continued reliance on lots of money printing to finance fiscal spending eventually contributed to continued yen devaluations and accelerating inflation.
 
@@ -623,15 +537,15 @@ Japan: Asset Markets in the 1920s and 1930s
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/5885e62a-7c01-4bf2-82fd-becbc2a01760/fdc140cc2609001aa4f5e7f71c9f09e98d3dc2548a0ea19cacb996c4a1cb9011.jpg)
 
-# 7. Other Historical Cases of Populism
+## 7. Other Historical Cases of Populism
 
 Below, we scan cases of prominent populists (some democratically elected, some not) from times other than the 1930s, going roughly chronologically. As you'll see, similar patterns are evident in many of these cases.
 
-# US 1830s: Andrew Jackson
+## US 1830s: Andrew Jackson
 
 Andrew Jackson was president from 1829 to 1837—the first US president who was neither a wealthy Virginian plantation owner nor a member of the wealthy Adams family from Boston. Like other populists, he came to power by running against the political and economic elites and supporting the common man. He defeated John Quincy Adams' reelection campaign—Adams had presided over an ineffective and unpopular administration after his controversial election in 1824. Once elected, Jackson ruled as a strong chief executive, while appointing inexperienced people to government posts, favoring agrarian interests over economic elites (such as through his opposition to a national bank), and supporting US expansionism into territory held by Native Americans.
 
-# Economic/Political Background
+### Economic/Political Background
 
 Jackson's populism came at the right time, demographically and economically. Demographically, the US electorate had just expanded to include a far broader portion of the US male population, as property qualifications for voting were significantly decreased in the 1810s and 1820s. And the admission of nine new states to the Union shifted power away from the urban centers and toward the "western" frontier.
 
@@ -639,7 +553,7 @@ Many of these frontier voters also broadly felt like the economic system wasn't 
 
 Jackson also benefited from increasing regional tensions: while the Democratic-Republicans were the only major political party by the late 1810s, this unity masked divisions among the states over major issues, including slavery, economic policy, and westward expansion. These divisions came to a head with the Missouri Crisis (1820), over whether Missouri should be admitted to the US as a slave state or free state. A compromise was reached (admitting Missouri as a slave state along with Maine as a free state, to maintain the balance of slave and free states in the Senate), but it left a bad impression on both sides, leaving an opening for an outsider like Jackson.
 
-# Rise to Power
+### Rise to Power
 
 Jackson first ran for president in 1824, one of four candidates to contest the election. He won a plurality, though not a majority, of both the popular vote and Electoral College, with his support concentrated outside the Northeast. Since no candidate received a majority of the Electoral College, the election was decided by the House of Representatives. The House elected John Quincy Adams as president after the fourth-place finisher, Henry Clay, directed his supporters to vote for Adams. Clay was subsequently appointed secretary of state by Adams. Jackson and his supporters were embittered and described the result as a "corrupt bargain."
 
@@ -647,17 +561,17 @@ Jackson prepared for a second presidential run, founding the Democratic Party wi
 
 Newspaper circulation was growing rapidly in the early 1800s and Jackson used newspapers to spread his message. During his 1828 campaign, Jackson's supporters created an extensive network of newspapers across the country that tailored his populist message to the voters of their region. Once in office, he included several prominent newspaper editors in his "kitchen cabinet" of advisors.
 
-# Key Policies
+### Key Policies
 
 Jackson's governing philosophy mainly focused on supporting agrarian interests and promoting the people at the expense of the political/financial elite. Two of his most prominent policies in favor of agrarian interests were his support of forcibly relocating Native American populations (ignoring the Supreme Court's order against it) and his vociferous opposition to the new national bank, the Second Bank of the United States. He also defended the powers of the federal government against efforts of Southern states to claim greater autonomy, leading to one of the biggest conflicts of his presidency, the Nullification Crisis.
 
 Jackson's populist tendencies were on display from his inauguration, when he invited the public to attend the White House ball afterwards, prompting a wild party. For this and other activities, he was nicknamed "King Mob." Similarly, he expanded the usage of the president's power to replace civil service workers through political appointments, to minimize the autonomy of government bureaucracy. He then appointed inexperienced people to government roles, which produced a dysfunctional cabinet for much of his first administration.
 
-# Nullification Crisis and Tariffs
+#### Nullification Crisis and Tariffs
 
 While Jackson's policies were predominantly in favor of Southern, agrarian interests, he also opposed the arguments of Southern states that they could nullify federal laws or secede from the union. Southern states opposed Adams' "Tariff of Abominations," and South Carolina attempted to nullify the law in the state. Jackson opposed the tariff, but firmly supported the power of the federal government to create it. He publicly feuded with Vice President John C. Calhoun over the issue and threatened to send troops to South Carolina to enforce the law. A compromise was reached when Congress lowered tariff rates in 1833, and South Carolina agreed to respect the old law; the larger dispute over states' rights versus the federal government, however, would continue until culminating in the Civil War.
 
-# Economic Policies and Opposition to the Second Bank
+#### Economic Policies and Opposition to the Second Bank
 
 Jackson also viscerally distrusted economic elites, especially banks, and wanted the government to have a smaller economic footprint (for example, he paid off the US national debt). This distrust led him to oppose the new Second Bank of the United States. Agrarian interests blamed the bank for the Panic of 1819, and Jackson believed that it had corrupt ties with the political elite and abroad. He first vetoed a bill that would have renewed the bank's charter from Congress. The controversy over the bank became a major issue in the 1832 election, and Jackson successfully made the populist case against the bank. After winning the election of 1832 by an even bigger margin than the previous election, Jackson transferred all federal deposits from the Second Bank to smaller state banks. This move both weakened the Second Bank, which eventually liquidated in 1841, and created a vast boom in credit, as it dramatically increased the ability of smaller banks to create deposits. Jackson's opposition crippled the ability of the US to form a centralized monetary policy until the creation of the Federal Reserve in 1913.
 
@@ -674,11 +588,11 @@ Populism-Related Quote from Jackson
 
 - "It is to be regretted that the rich and powerful too often bend the acts of government to their selfish purpose…When the laws undertake to add to these natural and just advantages artificial distinctions, to grant titles, gratuities, and exclusive privileges, to make the rich richer and the potent more powerful, the humble members of society—the farmers, mechanics, and laborers—who have neither the time nor the means of securing like favors to themselves, have a right to complain of the injustice of their government."
 
-# US 1890s: William Jennings Bryan
+## US 1890s: William Jennings Bryan
 
 William Jennings Bryan, known as "The Great Commoner," rose to prominence in 1896 when broad populist support lifted him to the Democratic Party's presidential nomination. Against the backdrop of debtors (especially farmers) being hurt by deflation/tight money, his fiery campaign rhetoric targeted financial elites and championed a return to bimetallism as a way to ease debt burdens.
 
-# Economic/Political Background
+### Economic/Political Background
 
 Bryan's populist rise is deeply rooted in the US government's monetary policies of the late 1800s and the resulting deflationary economic environment. Prior to the Civil War, the US maintained a bimetallic standard, which guaranteed the convertibility of dollars into either gold or silver at fixed exchange rates. But during the war, the government ended this convertibility and moved to a fiat system—which allowed the government to print money freely in order to fund wartime spending. The money printing that followed pushed up prices and in response, after the war, a push to return to a commodity-backed currency started to gain traction. This push was supported strongly by Northeast bankers/creditors, who had suffered losses as inflation eroded the value of their loans, but support was widespread among a population that had grown wary of inflation and saw a commodity-backed dollar as a return to stability.
 
@@ -696,7 +610,7 @@ Despite falling prices, prior to the 1890s the US economy prospered, and this gr
 
 The Panic of 1893 hit the US hard. As banks and businesses failed in droves, unemployment rose above  $10\%$  nationwide and certain hard-hit states saw unemployment rates over  $30\%$ . The economic collapse brought the simmering populism to a boil, and increased support for the easier money bimetallism would provide. Voters blamed the Democrats (who held the House, Senate, and presidency), leading to Democrats losing 127 seats in the House in 1894 (one of the largest percent swings in history) and setting the stage for the Free Silver wing of the Democratic party to subsequently take control of the party.
 
-# Rise to Prominence
+### Rise to Prominence
 
 Bryan first held public office after winning the congressional seat for the First District of Nebraska in 1890, but his true rise to prominence came several years later, when he embarked on a two-year national speaking tour after the panic. His renowned oratorical skills helped him build a reputation as an advocate for the common man, earning him the nickname "The Great Commoner." As the crux of his platform, he championed "free silver" and the unlimited coinage of silver at the prewar 16:1 silver to gold exchange rate ("16:1" was widely featured in campaign marketing).
 
@@ -710,7 +624,7 @@ Ultimately, Bryan could not shake his Republican opponent William McKinley's cha
 
 After Bryan's first campaign, gold discoveries in Alaska and South Africa and technological advancements in gold smelting (partly incentivized by the US gold standard) greatly increased the supply of gold and allowed the money supply to expand, curbing the disinflationary pressures. As popular support for bimetallism waned, Bryan rebuilt his platform by shifting his focus toward other common populist causes.
 
-# Key Positions
+### Key Positions
 
 Bryan's first presidential campaign in 1896 included populist positions that were distinctly agrarian and focused on the issue of bimetallism, namely:
 
@@ -725,22 +639,20 @@ Supported antitrust actions to stem the rising influence of big corporations and
 - Opposed the use of the Navy for the collection of private debts  
 - Opposed US imperialism, including its control over the Philippines
 
-# Populism-Related Quotes from Bryan
+### Populism-Related Quotes from Bryan
 
 - On the gold standard's unfairness to debtors: "making a man pay a debt with a dollar larger than the one he borrowed…If this robbery is permitted, the farmer will be ruined, and then the cities will suffer."  
-- "The man who is employed for wages is as much a business man as his employer…the miners who go down a thousand feet into the earth, or climb two thousand feet upon the cliffs, and bring forth from their hiding places the precious metals to be poured into the channels of trade are as much business
-
-men as the few financial magnates who, in a back room, corner the money of the world. We come to speak of this broader class of business men."
+- "The man who is employed for wages is as much a business man as his employer…the miners who go down a thousand feet into the earth, or climb two thousand feet upon the cliffs, and bring forth from their hiding places the precious metals to be poured into the channels of trade are as much business men as the few financial magnates who, in a back room, corner the money of the world. We come to speak of this broader class of business men."
 
 - "Upon which side will the Democratic Party fight; upon the side of 'the idle holders of idle capital' or upon the side of 'the struggling masses'? That is the question which the party must answer first, and then it must be answered by each individual hereafter. The sympathies of the Democratic Party, as shown by the platform, are on the side of the struggling masses, who have ever been the foundation of the Democratic Party."  
 "Money is the worst of all contrabands because it commands everything else."  
 - In response to a senator's suggestion that a Robespierre may rise from among the silver advocates, "What we need is an Andrew Jackson to stand, as Jackson stood, against the encroachments of organized wealth."
 
-# Russia 1910-20s: Vladimir Lenin and the Russian Revolution
+## Russia 1910-20s: Vladimir Lenin and the Russian Revolution
 
 While the Bolsheviks in Russia gained power through revolution, many of the underlying drivers of populism in other countries drove the revolution there. In particular, high inequality and weak economic conditions combined with an ineffective/out-of-touch government and very weak political institutions to produce a revolution and ideological extremes. The revolution and rise of communism in Russia is also interesting because it was relevant to the 1920-1940 developments around the world—the communist ideology was viewed as either a threat or an opportunity (depending on one's perspective) in a number of countries.
 
-# Economic/Political Background
+### Economic/Political Background
 
 In the early 1900s, most Russians were still extremely poor. It was only in 1861 that the Russian government abolished serfdom (a system in which large portions of the rural population lived essentially as slaves), but the former masters of serfs largely kept ownership over land, and the freed serfs were forced to pay a special tax to the state until 1907. Russia's rapid industrialization in the late 1800s also created a large population of urban poor. Russia was ruled by an autocratic, Tsarist monarchy that was seen as ineffective and largely ignored the well-being of these lower classes.
 
@@ -748,7 +660,7 @@ Russia began to descend into political chaos after the Russo-Japanese War (1904-
 
 World War I proved to be Tsarist Russia's death knell: Russia's military suffered severe defeats against Germany, leading to massive casualties, as well as high inflation and food shortages. In response, an initial revolution occurred in early 1917 (the February Revolution), forcing theabdication of Tsar Nicholas II and producing a liberal republic that legalized political parties.
 
-# Rise to Power
+### Rise to Power
 
 It was during Russia's short-lived and weak democratic period that Vladimir Lenin and the Bolshevik Party were able to seize power. The new provisional liberal government, formed by members of the prior legislative assembly, was barely more effective than the earlier regime. It was forced to share power with the councils of workers (the "Soviets") that helped organize the revolution and had more support from workers and soldiers. The provisional government became unpopular when it unsuccessfully continued Russian participation in WWI.
 
@@ -789,7 +701,7 @@ Russia: Asset Markets in the Early 1900s
 
 Juan Perón was a left-wing populist who served as president of Argentina between 1946 and 1955 and between 1973 and 1974. He first came to power following a period of political disillusionment and economic upheaval. A decade of rule by autocratic, corrupt political elites had produced dissatisfaction with the existing political establishment. At the same time, rapid economic change had disrupted the lives of many workers and exacerbated class tensions. As minister of labor in a military regime, Perón earned the support of working-class Argentines by supporting unions and rolling out improvements to working conditions. When the military leaders became wary of Perón's increasing influence, they imprisoned him, but riots from his blue-collar base forced the military to release him and hold a free election. Those voters carried him to victory in the 1946 presidential election.
 
-# Economic/Political Background
+### Economic/Political Background
 
 In the first decade of the 1900s, Argentina was as rich as Western Europe, with GDP per capita at about  $95\%$  of the level of the UK and  $80\%$  of the US. Its agricultural-export-oriented economy drew many immigrants and attracted plenty of foreign capital to finance growth in railways and industries. Parallels between the United States and Argentina were common.
 
@@ -797,7 +709,7 @@ The Great Depression was the beginning of a long period of political instability
 
 Importantly, the collapse in agricultural exports, coupled with the economic policies of the new government, produced a rapid structural shift in the economy that disrupted the economic conditions of many Argentines. The new government pursued economic self-reliance, attempting to shift the economy away from its traditional agricultural base and promote industrialization through a policy of import substitution (ISI). The traditional agricultural economy was left to stagnate as investment was diverted toward industry, many small landowners were ruined, and rural laborers lost their jobs. Unemployed agricultural workers migrated en masse into urban areas in search of work, and shanty towns sprang up around major cities. As a result, urban workers faced unprecedented competition from this influx of low-cost, non-unionized labor. Real wages declined, and labor unrest increased. Industrial unions became increasingly important and began agitating for workers' rights, carrying out a series of strikes throughout the 1930s. The emergence of this group of increasingly politically active, dissatisfied urban workers set the stage for a populist to arise.
 
-# Rise to Power
+### Rise to Power
 
 Perón rose to power by positioning himself as an ally of Argentina's disaffected working classes and labor unions. In June 1943, Perón had played a relatively minor role in the coup against the widely unpopular government that had ruled Argentina during "the infamous decade." After the new military-dominated administration began a crack-down on communists and labor unions, Perón joined a growing wing of the party that was sympathetic to labor. Less than a year later, those dissenters seized power, and Perón was appointed minister of labor. He passed a series of social reforms to improve working conditions, planting early seeds of loyalty among working-class Argentines and earning him the support of key unions. Conservative members of Perón's party, fearing his rising prominence, arrested and imprisoned him in October 1945. A mass demonstration of loyal working-class supporters forced Perón's release four days later.
 
@@ -805,7 +717,7 @@ Perón then ran for president in June 1946. After the US ambassador to Argentina
 
 re-elected in 1951, and would govern until he was deposed by a military coup in 1955 (returning briefly in 1973, until his death the following year).
 
-# Key Policies
+### Key Policies
 
 Perón's policies were characterized by aggressive interventions in the economy with the aims of achieving economic self-sufficiency and improving the condition of working-class Argentines. He centralized economic control in the hands of the state, promoted industrial development via import substitution and nationalized industries, and rolled out social programs and pro-labor policies.
 
@@ -817,7 +729,7 @@ Perón pursued many policies aimed at improving the condition of working-class A
 
 Perón heavily attacked the press and limited press freedom. He nationalized the country's stock of newsprint and took control over its distribution, reducing the allowances of papers that were hostile to his administration (de facto restricting the amount of physical pages of news that they could print). By 1946, he had established an official government bureau tasked with investigating "lies," which, in practice, referred to any criticism of his government.
 
-# The Economy, Asset Markets, and Wealth
+### The Economy, Asset Markets, and Wealth
 
 Perón's import substitution policies and large spending programs initially boosted domestic demand and industrial profitability, but ultimately produced a much more inefficient economy. While growth averaged about  $10\%$  per year over Perón's first two years in office, this proved short-lived. The economy weakened substantially in subsequent years—from 1949 to 1953, growth would average about  $1\%$ . Over time, his policies substantially eroded Argentina's competitiveness and productivity. His pro-labor policies contributed to higher real wages, while import substitution supported inefficient industries, drove up domestic prices, and led to a decline in agricultural production and export revenues. Inflation rose rapidly, accommodated by money printing. Moreover, his program of nationalization discouraged foreign investment, and bureaucratic mismanagement and corruption contributed to inefficiency within the nationalized industries. Perón had to borrow substantially from abroad to finance the increasing subsidies necessary to support his economic program. These policies would ultimately produce unsustainable pressure on the balance of payments: Perón would engage in three successive currency devaluations totaling over  $70\%$  during his time in power, and default on Argentina's debts in 1951.
 
@@ -862,15 +774,15 @@ Populism-Related Quotes from Perón
 - "The justicialista [i.e., Perónist] economy asserts that the production of the economy should first satisfy the needs of its inhabitants and only export the surplus; the surplus, nothing more. With this theory the boys here, of course, eat more every day and consume more, so that the surplus is smaller. But these poor guys have been submerged for 50 years; for this reason I have let them spend and eat and waste everything they wanted to for five years…but now we undoubtedly must begin to reorder things so as not to waste any more."  
 - "We are not in any way enemies of capital, and it will be seen that we have been its true defenders. It is necessary to discriminate clearly between that which is international capitalism of large consortiums and that which is national industrial and commercial capitalism. International capitalism is an instrument of exploitation and national capitalism is one of welfare. The former represents…misery while the second is prosperity."
 
-# France 1950s: Pierre Poujade, a Right-Wing Populist
+## France 1950s: Pierre Poujade, a Right-Wing Populist
 
 Pierre Poujade was the founder of a French right-wing populist protest movement that saw modest electoral success in the mid-1950s (enough so that his flavor of populism, "Poujadism," is used in France today to pejoratively refer to any anti-ulite movement). He was anti-establishment, anti-tax, anti-modernity, nationalist, and anti-foreigner, and received support from poorer rural voters and traditional small business owners. His movement had some success as a tax protest but never managed to transition beyond a narrow issues protest party. His movement devolved into infighting and fell apart quickly when Charles de Gaulle returned to power at the head of the new, more politically stable Fifth Republic in 1958 (though one of the youngest Poujadist MPs, Jean-Marie Le Pen, would later found the right-wing populist National Front).
 
-# Economic/Political Background
+### Economic/Political Background
 
 Post-WWII French politics were characterized by a series of weak, ineffectual governments, with administrations changing more than once a year on average throughout the Fourth Republic (1946-1958). In particular, government was seen as ineffective at dealing with France's colonial legacy, with the colonies increasingly embroiled in conflict and slipping out of France's grasp. Economically, this was a period of strong growth, high inflation, and rapid change. The Marshall Plan had helped rebuild France after the destruction of the war, but some felt the push toward modernization threatened traditional parts of France's economy (smaller producers, retailers, and farmers). At the start of the 1950s, about half the population was self-employed; by the end of the decade, this would fall to about  $30\%$ . Moreover, the modernization of the French tax system following the war resulted in the creation of a business tax in 1948 and rising tax burdens through the early 1950s.
 
-# Rise to Prominence
+### Rise to Prominence
 
 Poujade's movement began as a tax protest. At the time, many small French towns were in decline, as smaller local industries failed and people moved to cities during the push for economic modernization. It was relatively common for small-town shopkeepers to resort to tax evasion to pocket some extra income. In 1953, as a municipal council in rural France, Poujade began organizing local shopkeepers to resist visiting tax inspectors. The movement spread through the region, and within a few months Poujade had founded a party, the Defense Union of Shopkeepers and Craftsmen.
 
@@ -880,19 +792,19 @@ His movement initially focused on carrying out strikes and protests against taxa
 
 His movement was short-lived and did not accomplish much in parliament. Infighting tore his party apart, and he failed to make the step from a protest movement to a party with a clear vision and broad appeal. Poujade himself was soundly defeated when he finally decided to stand in an off-cycle election; his movement disintegrated quickly with de Gaulle's return to power (which brought stability to government) and was mostly a non-factor by 1958.
 
-# Key Positions
+### Key Positions
 
 Poujade's movement never formed a government and didn't receive much electoral success after the first election it contested; as such, it never really developed a comprehensive platform beyond its core protest areas. The movement was primarily concerned with opposing taxes; supporting traditional French small businesses and the condition of rural French people; opposing industrialization and modernization; and supporting French colonialism. It also had an anti-foreigner bent. Poujade himself also had anti-parliamentary sentiments: he initially refused to stand for office personally, claiming "democracy is done for in France," and advocating a return to the Estates General from the dawn of the French Revolution.
 
-# Populism-Related Quote from Poujade
+### Populism-Related Quote from Poujade
 
 "I must systematically take the side of the small, the downtrodden, the trashed, the ripped-off, the humiliated who live with three times nothing."
 
-# New Zealand 1970-80s: Robert Muldoon
+## New Zealand 1970-80s: Robert Muldoon
 
 Robert Muldoon was a three-time prime minister of New Zealand, serving from 1975 to 1984. Though he was a career politician in a mainstream center-right party, he took a populist turn when he stood for election during a period of economic decline, promising a continuation of New Zealand's generous social welfare programs and economic protections. His message resonated with elderly and rural voters, who helped bring him to power. His time in office was characterized by a mix of interventionist economic policies (including wage freezes and price controls), combined with heavy fiscal spending and the creation of a government-run pension system described as "the most generous universal pension scheme ever introduced in any country in any era." He disdained technocrats and experts and frequently ignored their advice, instead pursuing a number of fiscally unsustainable policies.
 
-# Economic/Political Background
+### Economic/Political Background
 
 For New Zealand, the mid-20th century was an extended period of economic prosperity. New Zealand's economy at the time was driven by agricultural exports and was heavily dependent on the UK market. This dependency was enforced through preferential treatment, where the UK guaranteed high buying quotas at a fixed price for New Zealand exports, and New Zealand imposed high tariffs on non-UK imports to encourage buying from the UK. While restrictive, this was extremely beneficial for New Zealand, which experienced 15 years of uninterrupted growth starting in 1952, close to zero percent unemployment, and among the highest living standards in the world. Because of these favorable trade terms and a growing economic base, the government was able to operate generous pension and social welfare programs. Over the same period, New Zealand politics were largely quiet and uncontroversial. The country had a two-party system (the left-leaning Labour Party and the right-leaning National Party), yet both were in agreement on most economic issues.
 
@@ -900,13 +812,13 @@ The long period of prosperity came to an end as the economic situation worsened 
 
 While New Zealand's political system remained stable, the political consensus around social welfare spending began to break down as the economic situation worsened. The ruling Labour Party favored fiscal austerity coupled with trade liberalization. These reforms were met with strong opposition from the National Party, which remained staunchly protectionist and advocated a continuation of the government's substantial social spending.
 
-# Rise to Power
+### Rise to Power
 
 Muldoon was a career politician in the center-right National Party who rose to power mostly along a traditional political path, spending over two decades gradually rising through the ranks of his party before his election as prime minister. For most of this time, he was known as an aggressive and confrontational statesman, but also a conventional conservative (favoring generally limited government spending and private enterprise). In contrast to his conventional political background, Muldoon's 1975 electoral campaign was classically populist, with an emphasis on bolstering social welfare and providing relief from economic pain through protectionism and government intervention. A cornerstone of his platform was to repeal the Labour government's pension scheme (which had a paycheck-deduction component) and replace it with a universal, government-paid program. His campaign slogan—"New Zealand - The Way You Want It"—reflected his platform of crowd-pleasing social welfare programs and economic protectionism.
 
 Muldoon's populist image benefited from his opponents' attempts to label him as crass and emotional. This characterization backfired as Muldoon embraced the role and became popular with rural, older voters. His supporters named themselves "Rob's Mob" in solidarity with his perceived empathy for "the ordinary bloke." Muldoon further emphasized the divide between himself and his opponents by running a divisive and personal campaign, which included some of the first attack ads in New Zealand politics. In one ad—a Hanna-Barbera-created cartoon—the National Party accused Labour of being communists because they were attempting to liberalize the pension system, using dancing Cossacks and Russian architecture to hammer the point home. Though mild by today's standards, the ads were shocking breaches of protocol for the time. Muldoon ultimately won the election by a large margin.
 
-# Key Policies
+### Key Policies
 
 Muldoon's policies were characterized by fairly heavy-handed interventions in markets (freezing wages, price controls, and subsidies) and a large increase in social spending (through the creation of an extraordinarily generous pension scheme), funded through deficit spending. He also pursued increased free trade with Australia, which he saw as an effective way to bolster New Zealand's export-oriented economy.
 
@@ -939,11 +851,11 @@ Equity Prices (Indexed to 1976)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/5885e62a-7c01-4bf2-82fd-becbc2a01760/c13baeb62436587b77ffb86ef03e2a59e11118a2aa01252c1a75f5cdf607bf82.jpg)
 
-# Venezuela 2000s: Hugo Chavez
+## Venezuela 2000s: Hugo Chavez
 
 Hugo Chávez was a left-wing populist who governed Venezuela from 1999 to 2013. He came to power following years of political and economic decline that saw living standards fall, corruption spread, and inequality rise. His rise to power capitalized on resentment among the poor and working classes, who were moved by his promises to end corruption, eradicate poverty, and reform politics. When in government, he centralized power in the presidency and allowed corruption to spread unchecked. Economically, he pursued socialist economic policies with the aim of redistributing wealth and improving the conditions of the disadvantaged: intervening in markets, nationalizing businesses, placing controls on prices and capital flows, and massively expanding government spending. These economic policies contributed to continual currency declines, high inflation, and, ultimately, hyperinflation.
 
-# Economic/Political Background
+### Economic/Political Background
 
 In the 1970s, Venezuela was a relatively prosperous and stable country. Politics was dominated by two major parties, one of the center-right and one of the center-left, that cooperated to support orderly transitions of power and keep other parties (in particular the communists) from gaining influence. The 1973 oil shock had substantially boosted Venezuela's oil profits and allowed for a massive increase in government spending. Growth boomed, and living conditions improved for much of the decade.
 
@@ -953,7 +865,7 @@ Politically, there was growing dissatisfaction with the two main parties, which 
 
 Venezuela's international relations largely hinged on its bilateral relationship with the US. This relationship was broadly strong at the government level due to economic ties, but there was a great degree of resentment over the power of US oil corporations in Venezuela, which created anti-American and anti-elite sentiments among segments of the population.
 
-# Rise to Power
+### Rise to Power
 
 Chávez's rise to power began within the military. Early in his military career he was inspired by left-wing military dictators in Peru and Panama (whose ideals and policies he admired), and he was soon exposed to Marxist literature, which resonated with him. He became convinced that a left-wing government was needed to serve the interests of the people, even if it had to be installed through a military coup. He began building support for a left-wing revolutionary movement within the armed forces, though with no immediate plan to act.
 
@@ -963,7 +875,7 @@ The coup failed. Chávez did not have enough support in the military and the cou
 
 Chávez spent the next few years building support for his movement. The economic and social situation continued to be rocky—crime was on the rise, growth was moderate, and inflation was now running at around  $30 - 40\%$ , (peaking at over  $100\%$  in 1996 following yet another sharp devaluation in the bolivar). Chávez considered a second coup, but, after seeing one of his allies win a state election, he was persuaded to stand in the presidential election. He formed a political party in 1997 and ran on a platform of ending corruption, eradicating poverty, and reforming politics to end the old system of two-party dominance in the 1998 presidential election. He won support of some of the smaller left-wing parties. Above all, his message resonated with poor and disenfranchised Vénerelans—his support in his first election came disproportionately from the poor (though he also received substantial support from the middle class). His personal charisma and adoption of a more "working-class" style of communication reportedly helped him while campaigning. He won the election with  $56.2\%$  of the vote and was inaugurated in February 1999. He would be re-elected three times, serving as president until his death from cancer in 2013.
 
-# Key Policies
+### Key Policies
 
 Chávez governed as a left-wing socialist with an authoritarian streak. He redistributed wealth and land to benefit the poor, rolled out poverty-reduction programs, and provided poor Vietnameses with free health care and housing subsidies. His spending was financed through a mix of oil revenue, deficit spending (particularly in his later years in office), and money printing. He intervened in markets and business; while he allowed private business to continue, he showed little respect for property rights, nationalized a number of companies, and imposed price controls on food. He resorted to exchange controls early on, in response to persistent currency weakness and capital flight. Measures of economic freedom declined substantially over the course of his presidency.
 

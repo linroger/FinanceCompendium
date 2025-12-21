@@ -1,11 +1,27 @@
 ---
-aliases:
-  - Risk, Return, and the Historical Record
-tags:
-key_concepts:
-parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 2 - Portfolio Theory and Practice
-cssclasses: academia
 title: "Chapter 5: Risk, Return, and the Historical Record"
+parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 2 - Portfolio Theory and Practice
+formatted: 2025-12-21 04:31:25 AM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
+primary_tags:
+  - risk return trade-off
+  - historical investment returns
+  - interest rate dynamics
+  - portfolio risk measurement
+  - inflation and real returns
+secondary_tags:
+  - scenario analysis
+  - holding period returns
+  - effective annual rates
+  - normal distribution
+  - tail risk measures
+  - value at risk
+  - expected shortfall
+  - sharpe ratio
+  - geometric vs arithmetic averages
+  - continuously compounded rates
+cssclasses: academia
 ---
 
 # Risk, Return, and the Historical Record
@@ -31,13 +47,14 @@ We start with the simplest security, a zero-coupon bond that pays its owner only
 
 If we call  $P(T)$  the price paid today for a zero with maturity date  $T$ , then over the life of the bond, the value of the investment grows by the multiple  $100 / P(T)$ . The percentage increase in the value of the investment is
 
-$$ r (T) = \frac {1 0 0}{P (T)} - 1 \tag {5.1}
+$$
+r(T) = \frac{100}{P(T)} - 1 \tag{5.1}
 $$
 
 We can equivalently write this return over the holding period as
 
 $$
-\text {H o l d i n g p e r i o d r e t u r n} = r (T) = \frac {\text {P r i c e i n c r e a s e} + \text {I n c o m e}}{P (T)} = \frac {1 0 0 - P (T) + 0}{P (T)}
+\text{Holding period return} = r(T) = \frac{\text{Price increase} + \text{Income}}{P(T)} = \frac{100 - P(T) + 0}{P(T)}
 $$
 
 It is no surprise that if you are willing to invest your money for longer periods, you should expect to earn higher total returns. The zero-coupon bond with longer maturity will have a lower present value and a lower price, therefore providing a higher total return. But this observation raises the obvious question of how we should compare returns on investments with differing horizons. We must re-express each total return as a rate of return over a common period. We typically express an investment return as an effective annual rate (EAR), defined as the percentage increase in funds per year.
@@ -46,7 +63,7 @@ Table 5.1 illustrates. Column 2 presents prices of zero-coupon bonds with  \ {10
 
 For the one-year investment, the EAR is simply the total return on the bond, the percentage increase in the value of the investment, which is  $4.69\%$ . For investments that last less than one year, let's say six months, we would compound the half-year return. In the top row of the table (labeled half-year), we see that the semiannual return is  $2.71\%$ , so the EAR, the annual rate at which the investment increases, is found by compounding as follows:  $1 + \mathrm{EAR} = 1.0271^{2} = 1.0549$ , implying that  $\mathrm{EAR} = 5.49\%$ .
 
-<table><tr><td>Horizon, T</td><td>Price, P(T)</td><td>r(T) = 100 / (P(T) - 1)</td><td>EAR over Given Horizon</td></tr><tr><td>Half-year</td><td>\$97.36</td><td>100/97.36 - 1 = 0.0271 = 2.71\%</td><td>(1 + .0271)2 - 1 = .0549</td></tr><tr><td>1 year</td><td>\$95.52</td><td>100/95.52 - 1 = 0.0469 = 4.69\%</td><td>(1 + .0469) - 1 = 0.0469</td></tr><tr><td>25 years</td><td>23.30</td><td>100/23.30 - 1 = 3.2918 = 329.18\%</td><td>(1 + 3.2918)1/25 - 1 = .060</td></tr></table>
+<table><tr><td>Horizon, T</td><td>Price, P(T)</td><td>r(T) = 100 / (P(T) - 1)</td><td>EAR over Given Horizon</td></tr><tr><td>Half-year</td><td>\$97.36</td><td>100/97.36 - 1 = 0.0271 = 2.71\%</td><td>(1 + 0.0271)^2 - 1 = 0.0549</td></tr><tr><td>1 year</td><td>\$95.52</td><td>100/95.52 - 1 = 0.0469 = 4.69\%</td><td>(1 + 0.0469)^1 - 1 = 0.0469</td></tr><tr><td>25 years</td><td>23.30</td><td>100/23.30 - 1 = 3.2918 = 329.18\%</td><td>(1 + 3.2918)^{1/25} - 1 = 0.060</td></tr></table>
 
 # Table 5.1
 
@@ -498,7 +515,7 @@ Time series of holding-period returns of actual returns in the time series. This
 
 
 $$
-\begin{array}{l} \text {T e r m i n a l} = (1 + r _ {1}) \times (1 + r _ {2}) \times \dots \times (1 + r _ {5}) = 1. 0 2 7 5 \\ (1 + g) ^ {n} = \text {T e r m i n a l v a l u e} = 1. 0 2 7 5 (\text {c e l l F 6 i n S p r e a d s h e e t 5 . 2}) \tag {5.17} \\ g = \text {Terminal value} ^ {1 / n} - 1 = 1.0275 ^ {1 / 5} - 1 = .0054 = .54 \% (\text {cell F14}) \\ \end{array}
+\begin{array}{l} \text{Terminal} = (1 + r_{1}) \times (1 + r_{2}) \times \dots \times (1 + r_{5}) = 1.0275 \\ (1 + g)^{n} = \text{Terminal value} = 1.0275 (\text{cell F6 in Spreadsheet 5.2}) \tag{5.17} \\ g = \text{Terminal value}^{1/n} - 1 = 1.0275^{1/5} - 1 = 0.0054 = 0.54\% (\text{cell F14}) \\ \end{array}
 $$
 
 Practitioners often call  $g$  a time-weighted (as opposed to dollar-weighted) average return to emphasize that each past return receives an equal weight in the process of averaging. This distinction can be important because investment managers may experience significant changes in funds under management as investors purchase or redeem shares. Rates of return obtained during periods when the fund is large have a greater impact on final value than rates obtained when the fund is small. We discuss this distinction in Chapter 24 on portfolio performance evaluation.
@@ -506,7 +523,7 @@ Practitioners often call  $g$  a time-weighted (as opposed to dollar-weighted) a
 Notice that the geometric average return in Spreadsheet 5.2,  $.54\%$ , is less than the arithmetic average,  $2.1\%$ . The greater the volatility in rates of return, the greater the difference between arithmetic and geometric averages. If returns come from a normal distribution, the expected difference is exactly half the variance of the distribution, that is,
 
 $$
-E [ \text {G e o m e t r i c a v e a r g e} ] = E [ \text {A r i t h m e t i c a v e a r g e} ] - 1 / 2 \sigma^ {2} \tag {5.18}
+E[\text{Geometric average}] = E[\text{Arithmetic average}] - 1/2 \sigma^{2} \tag{5.18}
 $$
 
 (A warning: To use Equation 5.18, you must express returns as decimals, not percentages.) When returns are approximately normal, Equation 5.18 will be a good approximation. $^{8}$
@@ -528,7 +545,7 @@ You invest 1 million at the beginning of 2028 in a stock-index fund. If the rate
 When thinking about risk, we are interested in the likelihood of deviations of actual outcomes from the expected return. Given a scenario analysis, we can define variance using squared deviations around the mean outcome, as in Equation 5.12. However, in practice, we rarely observe expectations directly, so we instead calculate variance by averaging squared deviations from our estimate of the expected return, the arithmetic average,  $\overline{r}$ . Adapting Equation 5.12 for historic data, we again use equal probabilities for each observation and use the sample average in place of the unobservable  $E(r)$ . Therefore, using historical data with  $n$  observations, we estimate variance as
 
 $$
-\hat {\sigma} ^ {2} = \frac {1}{n} \sum_ {s = 1} ^ {n} [ r (s) - \bar {r} ] ^ {2} \tag {5.19}
+\hat{\sigma}^{2} = \frac{1}{n} \sum_{s=1}^{n} [r(s) - \bar{r}]^{2} \tag{5.19}
 $$ where  $\hat{\sigma}$  replaces  $\sigma$  to denote that it is an estimate.
 
 
@@ -539,11 +556,11 @@ Take another look at Spreadsheet 5.2. Column D shows the squared deviation from 
 The variance estimate from Equation 5.19 is biased downward, however. The reason is that we have taken deviations from the sample arithmetic average,  $\overline{r}$ , instead of the unknown, true expected value,  $E(r)$ , and so have introduced a bit of estimation error. Its effect on the estimated variance is sometimes called a degrees of freedom bias. We can eliminate the bias by multiplying the arithmetic average of squared deviations by the factor  $n / (n - 1)$ . The variance and standard deviation then become
 
 $$
-\hat {\sigma} ^ {2} = \left(\frac {n}{n - 1}\right) \times \frac {1}{n} \sum_ {s = 1} ^ {n} [ r (s) - \bar {r} ] ^ {2} = \frac {1}{n - 1} \sum_ {s = 1} ^ {n} [ r (s) - \bar {r} ] ^ {2} \tag {5.20}
+\hat{\sigma}^{2} = \left(\frac{n}{n-1}\right) \times \frac{1}{n} \sum_{s=1}^{n} [r(s) - \bar{r}]^{2} = \frac{1}{n-1} \sum_{s=1}^{n} [r(s) - \bar{r}]^{2} \tag{5.20}
 $$
 
 $$
-\hat {\sigma} = \sqrt {\frac {1}{n - 1} \sum_ {s = 1} ^ {n} [ r (s) - \bar {r} ] ^ {2}}
+\hat{\sigma} = \sqrt{\frac{1}{n-1} \sum_{s=1}^{n} [r(s) - \bar{r}]^{2}}
 $$
 
 Cell D13 shows the unbiased estimate of standard deviation, .1983, which is higher than the .1774 value obtained in cell D11. In Excel, the function STDEV.P calculates standard deviation without any correction for degrees of freedom (consistent with Equation 5.19) while the function STDEV.S applies the correction (consistent with Equation 5.20). For large samples, the distinction is usually not important:  $n / (n - 1)$  is close to 1, and the adjustment for degrees of freedom becomes trivially small.
@@ -565,7 +582,7 @@ Ten annual returns provide as accurate an estimate of the expected rate of retur
 
 In contrast to the mean, the accuracy of estimates of the standard deviation can be made more precise by increasing the number of observations. This is because the more frequent observations give us more information about the distribution of deviations from the average. Thus, we can improve the accuracy of estimates of SD by using more frequent observations.
 
-Estimates of standard deviation begin with the variance. When monthly returns are uncorrelated from one month to another, monthly variances simply add up. Thus, when the variance is the same every month, the variance of annual returns is 12 times the variance of monthly returns: $^9$ $\sigma_A^2 = 12\sigma_M^2$ . In general, the  $T$ -month variance is  $T$  times the 1-month variance. Consequently, standard deviation grows at the rate of  $\sqrt{T}$ ; for example, the standard deviation of annual returns is related to the standard deviation of monthly returns by  $\sigma_A = \sqrt{12}\sigma_M$ . While the mean and variance grow in direct proportion to time, SD grows at the rate of square root of time.
+Estimates of standard deviation begin with the variance. When monthly returns are uncorrelated from one month to another, monthly variances simply add up. Thus, when the variance is the same every month, the variance of annual returns is 12 times the variance of monthly returns: $^9$ $\sigma_A^2 = 12\sigma_M^2$. In general, the $T$-month variance is $T$ times the 1-month variance. Consequently, standard deviation grows at the rate of $\sqrt{T}$; for example, the standard deviation of annual returns is related to the standard deviation of monthly returns by $\sigma_A = \sqrt{12}\sigma_M$. While the mean and variance grow in direct proportion to time, SD grows at the rate of square root of time.
 
 # 5.7 Historic Returns on Risky Portfolios
 
@@ -573,9 +590,7 @@ We can now apply the analytical tools worked out in previous sections to look at
 
 We begin by comparing the performance of Treasury bills, Treasury bonds, and a diversified portfolio of U.S. stocks. T-bills are widely considered the least risky of all assets. There is essentially no risk that the U.S. government will fail to honor its commitments to these investors, and their short maturities mean that their prices are relatively stable. Long-term U.S. Treasury bonds are also certain to be repaid, but the prices of these bonds fluctuate as interest rates vary, so they impose meaningful risk. Finally, common stocks are the riskiest of the three groups of securities. As a part-owner of the corporation, your return will depend on the success or failure of the firm.
 
-Our benchmark stock portfolio is the broadest possible U.S. equity portfolio, including all stocks listed on the NYSE, AMEX, and NASDAQ. We shall denote it as "the
-
-U.S. market index." Because larger firms play a greater role in the economy, this index is a value-weighted portfolio and therefore dominated by the large-firm corporate sector. The data series include returns on these stocks from 1927 to 2021, a sample period spanning 95 years.
+Our benchmark stock portfolio is the broadest possible U.S. equity portfolio, including all stocks listed on the NYSE, AMEX, and NASDAQ. We shall denote it as "the U.S. market index." Because larger firms play a greater role in the economy, this index is a value-weighted portfolio and therefore dominated by the large-firm corporate sector. The data series include returns on these stocks from 1927 to 2021, a sample period spanning 95 years.
 
 Figure 5.7 is a frequency distribution of annual returns on these three portfolios. The greater volatility of stock returns compared to T-bill or T-bond returns is immediately apparent. Compared to stock returns, the distribution of T-bond returns is far more concentrated in the middle of the distribution, with far fewer outliers. The distribution of T-bill returns is even tighter. More to the point, the spread of the T-bill distribution does not reflect risk but rather changes in the risk-free rate over time.[10] Anyone buying a T-bill knows exactly what the (nominal) return will be when the bill matures, so variation in the return is not a reflection of risk over that short holding period.
 
@@ -694,7 +709,7 @@ Therefore, if the monthly returns are normal, then the multi-month returns will 
 We can generalize from this example to arbitrary investment horizons, which we will call  $T$ . If the expected per-period continuously compounded return is called  $E(r_{cc})$ , then the expected cumulative return after an investment of  $T$  periods is  $E(r_{cc})T$ , and the expected final value of the portfolio is  $E(W_T) = W_0\exp [E(r_{cc})T]$ . The variance of the cumulative return is also proportional to the time horizon:  $\mathrm{Var}(r_{cc}T) = T\mathrm{Var}(r_{cc})$ . Therefore, the standard deviation grows in proportion to the square root of the time horizon:
 
 $$
-S D \left(r _ {c c} T\right) = \sqrt {T \operatorname {V a r} \left(r _ {c c}\right)} = \sigma \sqrt {T}
+SD(r_{cc}T) = \sqrt{T \operatorname{Var}(r_{cc})} = \sigma \sqrt{T}
 $$
 
 # Short-Run versus Long-Run Risk

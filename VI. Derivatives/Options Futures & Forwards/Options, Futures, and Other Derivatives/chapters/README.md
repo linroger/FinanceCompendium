@@ -1,9 +1,9 @@
 ---
-title: Hull Options, Futures, and Other Derivatives - Chapters
-parent_directory: Options, Futures, and Other Derivatives/chapters
-formatted: 2025-12-21 02:50:00 AM
-formatter_agent: grok-code-fast-1
-cli_tool: opencode
+title: "Hull Options, Futures, and Other Derivatives - Chapters"
+parent_directory: chapters
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
   - hull options futures
   - chapter organization
@@ -32,14 +32,14 @@ This directory contains the textbook split into individual chapter files for eas
 - [07 Swaps.md](VI.%20Derivatives/Options%20Futures%20&%20Forwards/Options,%20Futures,%20and%20Other%20Derivatives/chapters/07%20Swaps.md) - Chapter 7: Swaps
 - [08 Securitization.md](VI.%20Derivatives/Options%20Futures%20&%20Forwards/Options,%20Futures,%20and%20Other%20Derivatives/chapters/08%20Securitization.md) - Chapter 8: Securitization and the Financial Crisis
 - [09 XVAs.md](09%20XVAs.md) - Chapter 9: XVAs
-- [10 Options Markets Mechanics.md](VI.%20Derivatives/Options%20Futures%20&%20Forwards/Options,%20Futures,%20and%20Other%20Derivatives/chapters/10%20Options%20Markets%20Mechanics.md) - Chapter 10: Mechanics of Options Markets
-- [11 Stock Options Properties.md](VI.%20Derivatives/Options%20Futures%20&%20Forwards/Options,%20Futures,%20and%20Other%20Derivatives/chapters/11%20Stock%20Options%20Properties.md) - Chapter 11: Properties of Stock Options
-- [12 Options Trading Strategies.md](VI.%20Derivatives/Options%20Futures%20&%20Forwards/Options,%20Futures,%20and%20Other%20Derivatives/chapters/12%20Options%20Trading%20Strategies.md) - Chapter 12: Trading Strategies Involving Options
+- [10 Options Markets Mechanics.md](10%20Options%20Markets%20Mechanics.md) - Chapter 10: Mechanics of Options Markets
+- [11 Stock Options Properties.md](11%20Stock%20Options%20Properties.md) - Chapter 11: Properties of Stock Options
+- [12 Options Trading Strategies.md](12%20Options%20Trading%20Strategies.md) - Chapter 12: Trading Strategies Involving Options
 - [13 Binomial Trees.md](13%20Binomial%20Trees.md) - Chapter 13: Binomial Trees
 - [14 Wiener Processes.md](14%20Wiener%20Processes.md) - Chapter 14: Wiener Processes and Itô's Lemma
 - [15 Black Scholes Merton.md](15%20Black%20Scholes%20Merton.md) - Chapter 15: The Black-Scholes-Merton Model
-- [16 Employee Stock Options.md](VI.%20Derivatives/Options%20Futures%20&%20Forwards/Options,%20Futures,%20and%20Other%20Derivatives/chapters/16%20Employee%20Stock%20Options.md) - Chapter 16: Employee Stock Options
-- [17 Options Indices Currencies.md](VI.%20Derivatives/Options%20Futures%20&%20Forwards/Options,%20Futures,%20and%20Other%20Derivatives/chapters/17%20Options%20Indices%20Currencies.md) - Chapter 17: Options on Stock Indices and Currencies
+- [16 Employee Stock Options.md](16%20Employee%20Stock%20Options.md) - Chapter 16: Employee Stock Options
+- [17 Options Indices Currencies.md](17%20Options%20Indices%20Currencies.md) - Chapter 17: Options on Stock Indices and Currencies
 - [18 Futures Options Black.md](18%20Futures%20Options%20Black.md) - Chapter 18: Futures Options and Black's Model
 
 ### Source

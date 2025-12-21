@@ -1,18 +1,27 @@
 ---
-parent_directory: Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
-title: "Class 3: Gordon Bargain Stores, Inc. (B)"
-tags:
-aliases:
-  - Gordon Bargain Stores, Inc. (B)
-  - Gordon Bargain Stores Case Study Part B
-parent_folder: Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
-subfolder:
-key_concepts:
+title: "Gordon Bargain Stores B"
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
+formatted: 2025-12-21 11:45:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+formatter_agent: obsidian-formatting-agent
+primary_tags:
+  - bankruptcy case study
+  - bank lending decisions
+  - financial distress
+secondary_tags:
+  - credit risk management
+  - loan participation agreements
+  - offset rights
+  - debt restructuring
+  - bankruptcy alternatives
+  - bank relationships
+  - liquidity crisis
+  - merger negotiations
 cssclasses: academia
-linter-yaml-title-alias: "Class 3: Gordon Bargain Stores, Inc. (B)"
 ---
 
-# GORDON BARGAIN STORES, INC. (B)
+## GORDON BARGAIN STORES, INC. (B)
 
 "Ben, despite all our discussion, I'm still not sure what we ought to do about Gordon. If, as you suggest, a bankruptcy is inevitable, it certainly does argue for us moving now to offset the balances in Gordon's deposit accounts against our loan. At the moment the deposit balances amount to \$8,625,000 against our loan outstandings of \$12,457,500. That's almost 70% of our exposure right in our hands. And, as you've said, Gordon may be pulling the balances down deliberately so that every day we sit without acting could cost us cold cash. If we let the balances slide away from us, and they do go into Chapter 11 bankruptcy, we stand to take a real bath on Gordon. And, goodness knows, Mr. Quinn is upset enough about the chargeoff outlook for 1984 apart from Gordon. I guess we'll have to leave the final decision up to him, but we sure need to have a solid recommendation for him, and the sooner the better. Tomorrow may be too late.
 
@@ -75,7 +84,7 @@ Projected Funds Flow Statement for GORDON BARGAIN STORES, INC. (B)
 
 <table><tr><td colspan="6">For Fiscal Year Ended, January 31, 1985,</td></tr><tr><td>($ in Thousands)</td><td>First Quarter</td><td>Second Quarter</td><td>Third Quarter</td><td>Fourth Quarter</td><td>Full Year</td></tr><tr><td>Sources Of Funds:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NET INCOME (LOSS)</td><td>$(990)</td><td>$773</td><td>$778</td><td>$1,740</td><td>\$2,300</td></tr><tr><td>Depreciation Expense</td><td>1,323</td><td>1,323</td><td>1,323</td><td>1,323</td><td>5,130</td></tr><tr><td>Funds from Operations</td><td>$333</td><td>$2,095</td><td>$2,100</td><td>$3,063</td><td>\$7,590</td></tr><tr><td>Uses Of Funds:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Fixed Capital Investment</td><td>$0</td><td>$0</td><td>$575</td><td>$863</td><td>\$1,438</td></tr><tr><td>Payment of Long-Term Debt</td><td>1,948</td><td>28</td><td>33</td><td>30</td><td>2,038</td></tr><tr><td>Incr (Decr) Other Assets</td><td>183</td><td>(270)</td><td>125</td><td>253</td><td>290</td></tr><tr><td>Total Uses of Funds</td><td>$2,130</td><td>$(243)</td><td>$733</td><td>$1,145</td><td>\$3,765</td></tr><tr><td>Incr (Decr) Working Capital</td><td>$(1,798)</td><td>$2,338</td><td>$1,368</td><td>$1,918</td><td>\$3,825</td></tr><tr><td>Changes In Components of Working Capital:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Incr (Decr) Cash &amp; Mkt Sec</td><td>$5,655</td><td>$(4,358)</td><td>$(1,128)</td><td>$2,070</td><td>\$2,240</td></tr><tr><td>Incr (Decr) Accts Receivable</td><td>2,475</td><td>2,125</td><td>(473)</td><td>(4,163)</td><td>(35)</td></tr><tr><td>Incr (Decr) Inventories</td><td>11,898</td><td>725</td><td>20,358</td><td>(48,570)</td><td>(15,590)</td></tr><tr><td>Incr (Decr) Recov Income Tax</td><td>(460)</td><td>(768)</td><td>(210)</td><td>0</td><td>(1,438)</td></tr><tr><td>Incr (Decr) Current Assets</td><td>$19,568</td><td>$(2,275)</td><td>$18,548</td><td>$(50,663)</td><td>$(14,823)</td></tr><tr><td>Incr (Decr) Accounts Payable</td><td>$20,893</td><td>$(7,633)</td><td>$16,818</td><td>$(37,415)</td><td>$(7,338)</td></tr><tr><td>Incr (Decr) Notes Payable</td><td>(1,438)</td><td>1,438</td><td>0</td><td>(14,375)</td><td>(14,375)</td></tr><tr><td>Incr (Decr) Accrued Taxes</td><td>0</td><td>0</td><td>555</td><td>1,740</td><td>2,295</td></tr><tr><td>Incr (Decr) Accruals</td><td>1,910</td><td>1,583</td><td>(193)</td><td>(2,530)</td><td>770</td></tr><tr><td>Incr (Decr) Current Liabs</td><td>$21,365</td><td>$(4,613)</td><td>$17,180</td><td>$(52,580)</td><td>$(18,648)</td></tr><tr><td>Incr (Decr) Working Capital</td><td>$(1,798)</td><td>$2,338</td><td>$1,368</td><td>$1,918</td><td>\$3,825</td></tr></table>
 
-# EXHIBIT 5
+## EXHIBIT 5
 
 GORDON BARGAIN STORES, INC. (B)
 

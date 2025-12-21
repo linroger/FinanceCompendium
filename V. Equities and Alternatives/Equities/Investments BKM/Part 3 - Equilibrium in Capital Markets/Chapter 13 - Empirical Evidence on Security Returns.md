@@ -1,6 +1,29 @@
-# Empirical Evidence on Security Returns
+---
+title: "Empirical Evidence on Security Returns"
+parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 3 - Equilibrium in Capital Markets
+formatted: 2025-12-21 11:30:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+formatter_agent: obsidian-formatting-agent
+primary_tags:
+  - empirical asset pricing
+  - capital asset pricing model
+  - risk return relationship
+secondary_tags:
+  - fama-french three factor model
+  - multifactor models
+  - liquidity risk
+  - equity premium puzzle
+  - market anomalies
+  - behavioral finance
+  - factor investing
+  - portfolio theory
+  - systematic risk
+  - beta coefficient
+cssclasses: academia
+---
 
-# 13
+# Empirical Evidence on Security Returns
 
 WHY DO DIFFERENT securities offer different expected rates of return? According to the simple CAPM, one thing and only one thing matters: the systematic risk of the security as measured by its beta. Other measures of risk such as firm-specific volatility should be irrelevant, and expected rates of return should rise in direct proportion to beta.
 
@@ -30,7 +53,7 @@ Equation 13.1 tells us that expected return increases along with beta. Therefore
 Setting Up the Sample Data Determine a sample period of, for example, 60 monthly holding periods. For each month, collect the rates of return on a large number of stocks, for example, 100; a market portfolio proxy (e.g., the CRSP market index); and 1-month (risk-free) T-bills. Your data thus consist of
 
 $$
-\begin{array}{l} \begin{array}{l} r _ {i t} = 6, 0 0 0 \text {r e t u r n s o n t h e 1 0 0 s t o c k s o v e r t h e 6 0 - m o n t h s a m p l e p e r i o d ;} i = 1, \ldots , 1 0 0, \\ \text {a n d} t = 1, \ldots , 6 0. \end{array} \\ r _ {M t} = 6 0 \text {o b s e r v a t i o n s o f t h e r e t u r n s o n t h e C R S P i n d e x o r d e r t h e s a m p l e p e r i o d} (\text {o n e e a c h m o n t h}). \\ r _ {f t} = 6 0 \text {o b s e r v a t i o n s o f t h e r i s k - f r e e r a t e (o n e e a c h m o n t h)}. \\ \end{array}
+\begin{array}{l} \begin{array}{l} r _ {i t} = 6,000 \text {r e t u r n s o n t h e 1 0 0 s t o c k s o v e r t h e 6 0 - m o n t h s a m p l e p e r i o d ;} i = 1, \ldots , 1 0 0, \\ \text {a n d} t = 1, \ldots , 6 0. \end{array} \\ r _ {M t} = 60 \text {o b s e r v a t i o n s o f t h e r e t u r n s o n t h e C R S P i n d e x o r d e r t h e s a m p l e p e r i o d} (\text {o n e e a c h m o n t h}). \\ r _ {f t} = 60 \text {o b s e r v a t i o n s o f t h e r i s k - f r e e r a t e (o n e e a c h m o n t h)}. \\ \end{array}
 $$
 
 This constitutes a table of  $102 \times 60 = 6,120$  rates of return.
@@ -549,52 +572,5 @@ Second-pass regression equation:  $\overline{r_i - r_f} = \gamma_0 + \gamma_1 b_
 
 Fama-French three-factor model:  $E(r_{i}) - r_{f} = a_{i} + b_{i}[E(r_{M}) - r_{f}] + s_{i}E[R_{SMB}] + h_{i}E[R_{HML}]$
 
-# PROBLEM SETS
 
-The following annual excess rates of return were obtained for nine individual stocks  $(A - I)$  and a market index. Use this information to complete Problems 1-7.
-
-excel
-
-Please visit us at www.mhhe.com/Bodie13e
-
-
-Stock Excess Returns (\%)
-
-<table><tr><td>Year</td><td>Market Index</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td></tr><tr><td>1</td><td>29.65</td><td>33.88</td><td>-25.20</td><td>36.48</td><td>42.89</td><td>-39.89</td><td>39.67</td><td>74.57</td><td>40.22</td><td>90.19</td></tr><tr><td>2</td><td>-11.91</td><td>-49.87</td><td>24.70</td><td>-25.11</td><td>-54.39</td><td>44.92</td><td>-54.33</td><td>-79.76</td><td>-71.58</td><td>-26.64</td></tr><tr><td>3</td><td>14.73</td><td>65.14</td><td>-25.04</td><td>18.91</td><td>-39.86</td><td>-3.91</td><td>-5.69</td><td>26.73</td><td>14.49</td><td>18.14</td></tr><tr><td>4</td><td>27.68</td><td>14.46</td><td>-38.64</td><td>-23.31</td><td>-0.72</td><td>-3.21</td><td>92.39</td><td>-3.82</td><td>13.74</td><td>0.09</td></tr><tr><td>5</td><td>5.18</td><td>15.67</td><td>61.93</td><td>63.95</td><td>-32.82</td><td>44.26</td><td>-42.96</td><td>101.67</td><td>24.24</td><td>8.98</td></tr><tr><td>6</td><td>25.97</td><td>-32.17</td><td>44.94</td><td>-19.56</td><td>69.42</td><td>90.43</td><td>76.72</td><td>1.72</td><td>77.22</td><td>72.38</td></tr><tr><td>7</td><td>10.64</td><td>-31.55</td><td>-74.65</td><td>50.18</td><td>74.52</td><td>15.38</td><td>21.95</td><td>-43.95</td><td>-13.40</td><td>28.95</td></tr><tr><td>8</td><td>1.02</td><td>-23.79</td><td>47.02</td><td>-42.28</td><td>28.61</td><td>-17.64</td><td>28.83</td><td>98.01</td><td>28.12</td><td>39.41</td></tr><tr><td>9</td><td>18.82</td><td>-4.59</td><td>28.69</td><td>-0.54</td><td>2.32</td><td>42.36</td><td>18.93</td><td>-2.45</td><td>37.65</td><td>94.67</td></tr><tr><td>10</td><td>23.92</td><td>-8.03</td><td>48.61</td><td>23.65</td><td>26.26</td><td>-3.65</td><td>23.31</td><td>15.36</td><td>80.59</td><td>52.51</td></tr><tr><td>11</td><td>-41.61</td><td>78.22</td><td>-85.02</td><td>-0.79</td><td>-68.70</td><td>-85.71</td><td>-45.64</td><td>2.27</td><td>-72.47</td><td>-80.26</td></tr><tr><td>12</td><td>-6.64</td><td>4.75</td><td>42.95</td><td>-48.60</td><td>26.27</td><td>13.24</td><td>-34.34</td><td>-54.47</td><td>-1.50</td><td>-24.46</td></tr></table>
-
-1. Perform the first-pass regressions for a single-index model and tabulate the summary statistics.
-2. Specify the hypotheses for the second-pass regression used to test the SML of the CAPM.
-3. Perform the second-pass SML regression by regressing the average excess return of each portfolio on its beta.
-4. Summarize your test results and compare them to the results reported in the text.
-5. Group the nine stocks into three portfolios, maximizing the dispersion of the betas of the three resultant portfolios. Repeat the test and explain any changes in the results.
-6. Explain Roll's critique as it applies to the tests performed in Problems 1-5.
-7. Plot the capital market line (CML), the nine stocks, and the three portfolios on a graph of average returns versus standard deviation. Compare the mean-variance efficiency of the three portfolios and the market index. Does the comparison support the CAPM?
-
-Suppose that, in addition to the market factor that has been considered in Problems 1-7, a second factor is considered. The values of this factor for years 1 to 12 were as follows:
-
-<table><tr><td>Year</td><td>\% Change in Factor Value</td><td>Year</td><td>\% Change in Factor Value</td></tr><tr><td>1</td><td>-9.84</td><td>7</td><td>-3.52</td></tr><tr><td>2</td><td>6.46</td><td>8</td><td>8.43</td></tr><tr><td>3</td><td>16.12</td><td>9</td><td>8.23</td></tr><tr><td>4</td><td>-16.51</td><td>10</td><td>7.06</td></tr><tr><td>5</td><td>17.82</td><td>11</td><td>-15.74</td></tr><tr><td>6</td><td>-13.31</td><td>12</td><td>2.03</td></tr></table>
-
-8. Perform the first-pass regressions as in the Chen, Roll, and Ross study and tabulate the relevant summary statistics. (Hint: Use the multiple regression tool from Excel. Estimate the beta of each stock on the two factors.)
-9. Specify the hypothesis for a test of a second-pass regression for the two-factor SML.
-10. Do the data suggest a two-factor economy?
-11. Can you identify a factor portfolio for the second factor?
-12. Suppose you own your own business, which now makes up about half your net worth. On the basis of what you have learned in this chapter, how would you structure your portfolio of financial assets?
-
-1. Identify and briefly discuss three criticisms of beta as used in the capital asset pricing model.
-2. Richard Roll, in an article on using the capital asset pricing model (CAPM) to evaluate portfolio performance, indicated that it may not be possible to evaluate portfolio management ability if there is an error in the benchmark used.
-
-a. In evaluating portfolio performance, describe the generally employed procedure, with emphasis on the benchmark portfolio.
-b. Explain what Roll meant by benchmark error and identify the specific problem with this benchmark.
-c. Draw a graph that shows how a portfolio that has been judged as superior relative to a "measured" security market line (SML) can be inferior relative to the "true" SML.
-d. Assume that you are informed that a given portfolio manager has been evaluated as superior when compared to the Dow Jones Industrial Average, the S&P 500, and the NYSE Composite Index. Explain whether this consensus would make you feel more comfortable regarding the portfolio manager's true ability.
-e. Although conceding the possible problem with benchmark errors as set forth by Roll, some contend this does not mean the CAPM is incorrect, but only that there is a measurement problem when implementing the theory. Others contend that because of benchmark errors, the whole technique should be scrapped. Take and defend one of these positions.
-
-3. Bart Campbell, CFA, is a portfolio manager who has recently met with a prospective client, Jane Black. After conducting a survey market line (SML) performance analysis using the Dow Jones Industrial Average as her market proxy, Black claims that her portfolio has experienced superior performance. Campbell uses the capital asset pricing model as an investment performance measure and finds that Black's portfolio plots below the SML. Campbell concludes that Black's apparent superior performance is a function of an incorrectly specified market proxy, not superior investment management. Justify Campbell's conclusion by addressing the likely effects of an incorrectly specified market proxy on both beta and the slope of the SML.
-
-
-# SOLUTIONS TO CONCEPT CHECKS
-
-1. The SCL is estimated for each stock; hence, we need to estimate 100 equations. Our sample consists of 60 monthly rates of return for each of the 100 stocks and for the market index. Thus each regression is estimated with 60 observations. Equation 13.1 in the text shows that when stated in excess return form, the SCL should pass through the origin, that is, have a zero intercept.
-2. a. When the SML has a positive intercept and its slope is less than the mean excess return on the market portfolio, it is flatter than predicted by the CAPM. Low-beta stocks therefore have provided returns that, on average, were higher than they should have been on the basis of their beta. Conversely, high-beta stocks were found to have provided, on average, lower returns than they should have on the basis of their betas.
-b. A positive coefficient on  $\beta^2$  would indicate that the relationship between risk and return is nonlinear. High-beta securities would provide expected returns more than proportional to risk. A positive coefficient on  $\sigma (e)$  would indicate that firm-specific risk affects expected return, a direct contradiction of the CAPM and APT.
 

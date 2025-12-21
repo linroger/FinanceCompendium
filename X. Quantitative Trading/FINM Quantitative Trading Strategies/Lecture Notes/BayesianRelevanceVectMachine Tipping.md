@@ -122,7 +122,7 @@ $$
 \operatorname{Gamma}(\alpha|a, b) = \Gamma(a)^{-1} b^{a} \alpha^{a-1} e^{-b\alpha}, \tag{6}
 $$
 
-with  $\Gamma(a) = \int_{0}^{\infty} t^{a - 1} e^{-t} dt$ , the 'gamma function'. To make these priors non-informative (i.e. flat), we might fix their parameters to small values:  $e.g. a = b = c = d = 10^{-4}$ . However, by
+with  $\Gamma(a) = \int_{0}^{\infty} t^{a-1} e^{-t} dt$ , the 'gamma function'. To make these priors non-informative (i.e. flat), we might fix their parameters to small values:  $e.g. a = b = c = d = 10^{-4}$ . However, by
 
 setting these parameters to zero, we obtain uniform hyperpriors (over a logarithmic scale). Since all scales are equally likely, a pleasing consequence of the use of such 'improper' hyperpriors here is that of scale-invariance: predictions are independent of linear scaling of both  $\mathbf{t}$  and the basis function outputs so, for example, results do not depend on the unit of measurement of the targets. For completeness, the more detailed derivations offered in Appendix A will consider the case of general Gamma priors for  $\alpha$  and  $\beta$ , but in the main body of the paper, all further analysis and presented results will assume uniform scale priors with  $a = b = c = d = 0$ .
 
@@ -168,7 +168,7 @@ $$
 \boldsymbol{\mu} = \sigma^{-2} \boldsymbol{\Sigma} \boldsymbol{\Phi}^{\mathrm{T}} \mathbf{t}, \tag{13}
 $$
 
-with  $\mathbf{A} = \mathrm{diag}(\alpha_0,\alpha_1,\dots ,\alpha_N)$
+with  $\mathbf{A} = \mathrm{diag}(\alpha_0,\alpha_1,\dots,\alpha_N)$
 
 We are now forced to adopt some approximation, and do so by representing the second term on the right-hand-side in (9), the hyperparameter posterior  $p(\pmb{\alpha}, \sigma^2 | \mathbf{t})$ , by a delta-function at its mode $^6$ , i.e. at its most-probable values  $\pmb{\alpha}_{\mathrm{MP}}, \sigma_{\mathrm{MP}}^2$ . We do so on the basis that this point-estimate is representative of the posterior in the sense that functions generated utilising the posterior mode values are near-identical to those obtained by sampling from the full posterior distribution. It is important to realise that this does not necessitate that the entire mass of the posterior be accurately approximated by the delta-function. For predictive purposes, rather than requiring  $p(\pmb{\alpha}, \sigma^2 | \mathbf{t}) \approx \delta(\pmb{\alpha}_{\mathrm{MP}}, \sigma_{\mathrm{MP}}^2)$ , we only desire
 
@@ -183,7 +183,7 @@ Relevance vector 'learning' thus becomes the search for the hyperparameter poste
 For the case of uniform hyperpriors (we consider the general case in Appendix A), we need only maximise the term  $p(\mathbf{t}|\boldsymbol{\alpha}, \sigma^2)$ , which is computable and given by:
 
 $$
-\begin{array}{l} p(\mathbf{t}|\boldsymbol{\alpha}, \sigma^{2}) = \int p(\mathbf{t}|\mathbf{w}, \sigma^{2}) p(\mathbf{w}|\boldsymbol{\alpha}) d\mathbf{w}, \\ = (2\pi)^{-N/2} \left|\sigma^{2} \mathbf{I} + \boldsymbol{\Phi} \mathbf{A}^{-1} \boldsymbol{\Phi}^{\mathrm{T}}\right|^{-1/2} \exp\left\{-\frac{1}{2} \mathbf{t}^{\mathrm{T}} \left(\sigma^{2} \mathbf{I} + \boldsymbol{\Phi} \mathbf{A}^{-1} \boldsymbol{\Phi}^{\mathrm{T}}\right)^{-1} \mathbf{t}\right\}. \tag{15} \\ \end{array}
+\begin{array}{l} p(\mathbf{t}|\boldsymbol{\alpha}, \sigma^{2}) = \int p(\mathbf{t}|\mathbf{w}, \sigma^{2}) p(\mathbf{w}|\boldsymbol{\alpha}) d\mathbf{w}, \\ = (2\pi)^{-N/2} \left|\sigma^{2} \mathbf{I} + \boldsymbol{\Phi} \mathbf{A}^{-1} \boldsymbol{\Phi}^{\mathrm{T}}\right|^{-1/2} \exp\left\{-\frac{1}{2} \mathbf{t}^{\mathrm{T}} (\sigma^{2} \mathbf{I} + \boldsymbol{\Phi} \mathbf{A}^{-1} \boldsymbol{\Phi}^{\mathrm{T}})^{-1} \mathbf{t}\right\}. \tag{15} \\ \end{array}
 $$
 
 In related Bayesian models, this quantity is known as the marginal likelihood, and its maximisation known as the type-II maximum likelihood method (Berger, 1985). The marginal likelihood is also referred to as the "evidence for the hyperparameters" by MacKay (1992a), and its maximisation as the "evidence procedure".
@@ -195,13 +195,13 @@ Values of  $\alpha$  and  $\sigma^2$  which maximise (15) cannot be obtained in 
 For  $\alpha$ , differentiation of (15), equating to zero and rearranging, following the approach of MacKay (1992a), gives:
 
 $$
-\alpha_ {i} ^ {\text {n e w}} = \frac {\gamma_ {i}}{\mu_ {i} ^ {2}}, \tag {16}
+\alpha_{i}^{\text{new}} = \frac{\gamma_{i}}{\mu_{i}^{2}}, \tag{16}
 $$
 
 where  $\mu_{i}$  is the  $i$ -th posterior mean weight from (13) and we have defined the quantities  $\gamma_{i}$  by:
 
 $$
-\gamma_ {i} \equiv 1 - \alpha_ {i} \Sigma_ {i i},
+\gamma_{i} \equiv 1 - \alpha_{i} \Sigma_{ii},
 $$
 
 with  $\Sigma_{ii}$  the  $i$ -th diagonal element of the posterior weight covariance from (12) computed with the current  $\alpha$  and  $\sigma^2$  values. Each  $\gamma_i \in [0,1]$  can be interpreted as a measure of how 'well-determined' its corresponding parameter  $w_i$  is by the data (MacKay, 1992a). For  $\alpha_i$  large, where  $w_i$  is highly constrained by the prior,  $\Sigma_{ii} \approx \alpha_i^{-1}$  and it follows that  $\gamma_i \approx 0$ . Conversely, when  $\alpha_i$  is small and  $w_i$  fits the data,  $\gamma_i \approx 1$ .
@@ -209,7 +209,7 @@ with  $\Sigma_{ii}$  the  $i$ -th diagonal element of the posterior weight covar
 For the noise variance  $\sigma^2$ , differentiation leads to the re-estimate:
 
 $$
-(\sigma^ {2}) ^ {\mathrm {n e w}} = \frac {\| \mathbf {t} - \boldsymbol {\Phi} \boldsymbol {\mu} \| ^ {2}}{N - \sum_ {i} \gamma_ {i}}. \tag {18}
+(\sigma^{2})^{\mathrm{new}} = \frac{\|\mathbf{t} - \boldsymbol{\Phi} \boldsymbol{\mu}\|^{2}}{N - \sum_{i} \gamma_{i}}. \tag{18}
 $$
 
 Note that the  $N$  in the denominator refers to the number of data examples and not the number of basis functions.
@@ -227,7 +227,7 @@ $$
 Since both terms in the integrand are Gaussian, this is readily computed, giving:
 
 $$
-p (t _ {*} | \mathbf {t}, \boldsymbol {\alpha} _ {\mathrm {M P}}, \sigma_ {\mathrm {M P}} ^ {2}) = \mathcal {N} (t _ {*} | y _ {*}, \sigma_ {*} ^ {2}),
+p(t_{*} | \mathbf{t}, \boldsymbol{\alpha}_{\mathrm{MP}}, \sigma_{\mathrm{MP}}^{2}) = \mathcal{N}(t_{*} | y_{*}, \sigma_{*}^{2}),
 $$
 
 with
@@ -272,7 +272,7 @@ $$
 \left. \nabla_{\mathbf{w}} \nabla_{\mathbf{w}} \log p(\mathbf{w}|\mathbf{t}, \boldsymbol{\alpha}) \right|_{\mathbf{w}_{\mathrm{MP}}} = -(\boldsymbol{\Phi}^{\mathrm{T}} \mathbf{B} \boldsymbol{\Phi} + \mathbf{A}), \tag{25}
 $$
 
-where  $\mathbf{B} = \mathrm{diag}\left(\beta_{1},\beta_{2},\ldots ,\beta_{N}\right)$  is a diagonal matrix with  $\beta_{n} = \sigma \{y(\mathbf{x}_{n})\} [1 - \sigma \{y(\mathbf{x}_{n})\} ]$  This is then negated and inverted to give the covariance  $\pmb{\Sigma}$  for a Gaussian approximation to the posterior over weights centred at  $\mathbf{w}_{\mathrm{MP}}$
+where  $\mathbf{B} = \mathrm{diag}(\beta_{1},\beta_{2},\ldots,\beta_{N})$  is a diagonal matrix with  $\beta_{n} = \sigma \{y(\mathbf{x}_{n})\} [1 - \sigma \{y(\mathbf{x}_{n})\} ]$  This is then negated and inverted to give the covariance  $\pmb{\Sigma}$  for a Gaussian approximation to the posterior over weights centred at  $\mathbf{w}_{\mathrm{MP}}$
 
 3. Using the statistics  $\pmb{\Sigma}$  and  $\mathbf{w}_{\mathrm{MP}}$  (in place of  $\pmb{\mu}$ ) of the Gaussian approximation, the hyperparameters  $\alpha$  are updated using (16) in identical fashion to the regression case.
 
@@ -356,7 +356,7 @@ This latter feature is of considerable importance: in both the SVM and RVM, it i
 Consider now the problem of estimating the following, quite simple, two-dimensional function
 
 $$
-y (x _ {1}, x _ {2}) = \operatorname {s i n c} (x _ {1}) + 0. 1 x _ {2},
+y(x_{1}, x_{2}) = \operatorname{sinc}(x_{1}) + 0.1 x_{2},
 $$
 
 based on 100 examples with additive Gaussian noise of standard deviation 0.1. There are two evident problems with direct application of a support or relevance vector model to this data:
@@ -444,7 +444,7 @@ In Section 2, the marginal likelihood (15) was obtained by marginalising over th
 considered the 'true', weight prior:
 
 $$
-\begin{array}{l} p (w _ {i}) = \int p (w _ {i} | \alpha_ {i}) p (\alpha_ {i}) d \alpha_ {i}, \\ = \frac {b ^ {a} \Gamma \left(a + \frac {1}{2}\right)}{\left(2 \pi\right) ^ {\frac {1}{2}} \Gamma (a)} \left(b + w _ {i} ^ {2} / 2\right) ^ {- \left(a + \frac {1}{2}\right)}, \tag {32} \\ \end{array}
+\begin{array}{l} p(w_{i}) = \int p(w_{i}|\alpha_{i}) p(\alpha_{i}) d\alpha_{i}, \\ = \frac{b^{a} \Gamma\left(a + \frac{1}{2}\right)}{(2\pi)^{\frac{1}{2}} \Gamma(a)} \left(b + w_{i}^{2}/2\right)^{-\left(a + \frac{1}{2}\right)}, \tag{32} \\ \end{array}
 $$
 
 where  $\Gamma(\cdot)$  is the gamma function as defined earlier. Equation (32) corresponds to the density of a Student- $t$  distribution, and so the overall marginal weight prior is a product of independent Student- $t$  distributions over the  $w_i$ . A visualisation of this Student- $t$  prior, alongside a Gaussian, is given in Figure 6. For the case of the uniform hyperprior, with  $a = b = 0$ , we obtain the improper prior  $p(w_i) \propto 1 / |w_i|$ . Intuitively, this looks very much like a 'sparse' prior since it is sharply peaked at zero like the popular Laplace prior  $p(w_i) \propto \exp(-|w_i|)$ , which has been utilised to obtain sparsity both in Bayesian contexts (Williams, 1995), and, taking the negative log, as the ' $L_1$ ' regulariser  $\sum_{i} |w_i|$  elsewhere (e.g. Chen et al., 1995; Grandvalet, 1998; Smola et al., 1999). The implication is that although superficially we appear to be utilising a non-sparse Gaussian prior over the weights, in truth the hierarchical formulation implies that the real weight prior is one which can be clearly recognised as encouraging sparsity.
@@ -459,7 +459,7 @@ Unfortunately, we cannot continue the Bayesian analysis down this route to compu
 to maximisation of a penalised likelihood function of the form:
 
 $$
-\mathcal {L} (\mathbf {w}) = - \frac {\beta}{2} \sum_ {n = 1} ^ {N} \left[ t _ {n} - \mathbf {w} ^ {\mathrm {T}} \phi (\mathbf {x} _ {n}) \right] ^ {2} - \sum_ {i = 0} ^ {N} \log | w _ {i} |, \tag {33}
+\mathcal{L}(\mathbf{w}) = - \frac{\beta}{2} \sum_{n=1}^{N} [t_{n} - \mathbf{w}^{\mathrm{T}} \phi(\mathbf{x}_{n})]^{2} - \sum_{i=0}^{N} \log |w_{i}|, \tag{33}
 $$
 
 where we note that the presence of the log differentiates (33) from  $L_{1}$  regularisation. In fact, we must discount this alternative inference strategy since we typically find that  $\mathcal{L}(\mathbf{w})$ , and so  $p(\mathbf{w}|\mathbf{t})$ , is significantly multi-modal, often extremely so. These modes occur where the likelihood, which has the form of a Gaussian in  $\mathbf{w}$ -space, overlaps the 'spines' (see Figure 6, right) of the prior. (We remind the reader here that the  $\alpha$ -conditional posterior,  $p(\mathbf{w}|\mathbf{t},\boldsymbol{\alpha})$ , which we maximise in step 1 of the classification case in Section 3, is log concave and unimodal.) The implication therefore is that the marginalised weight posterior mode is highly unrepresentative of the distribution of posterior probability mass. A good illustration of this phenomenon is given by MacKay (1999) in the context of single-hyperparameter models. Conversely, as discussed in Section 2.2, all the experimental evidence for relevance vector learning suggests that  $\alpha_{\mathrm{MP}}$  is representative of the posterior  $p(\boldsymbol{\alpha}|\mathbf{t})$ .
@@ -471,7 +471,7 @@ We finally note here that a model with a single hyperparameter governing the inv
 We first note that relevance vector learning in regression is maximising the probability of the  $N$ -dimensional vector of target values  $\mathbf{t}$  under the model of (15). This is a Gaussian process model (Rasmussen, 1996; MacKay, 1998; Williams, 1999): i.e.  $p(\mathbf{t}) = \mathcal{N}(\mathbf{t}|\mathbf{0},\mathbf{C})$  where we re-write  $\mathbf{C}$  from (15) as:
 
 $$
-\mathbf {C} = \sigma^ {2} \mathbf {I} + \sum_ {i = 0} ^ {N} \alpha_ {i} ^ {- 1} \mathbf {v} _ {i} \mathbf {v} _ {i} ^ {\mathrm {T}}, \tag {34}
+\mathbf{C} = \sigma^{2} \mathbf{I} + \sum_{i=0}^{N} \alpha_{i}^{-1} \mathbf{v}_{i} \mathbf{v}_{i}^{\mathrm{T}}, \tag{34}
 $$
 
 and  $\mathbf{v}_i = (\phi_i(\mathbf{x}_1),\phi_i(\mathbf{x}_2),\ldots ,\phi_i(\mathbf{x}_N))^{\mathrm{T}}$  is an  $N$  -vector containing the output of basis function  $i$  evaluated at all the training examples (whereas  $\phi (\mathbf{x})$  earlier denoted the vector of all the basis functions evaluated at a single datum). This implicit, 'weightless', formulation of the Bayesian model can be adopted explicitly in other contexts to realise sparsity, for example in 'sparse kernel PCA' (Tipping, 2001). In Figure 7 we illustrate schematically an idealised two-dimensional 'projection' of the Gaussian process.

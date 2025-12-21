@@ -1,11 +1,19 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Do Bondholders Lose from Junk Bond Covenant Changes?"
+parent_directory: "Class 4- Restructuring Public Debt"
+formatted: 2025-12-21 05:10:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - junk bond covenants
+  - consent solicitations
+  - bondholder wealth effects
+secondary_tags:
+  - coercive solicitations
+  - debt restructuring
+  - covenant modifications
+  - bondholder coordination
 cssclasses: academia
-title: Marcel Kahan
-linter-yaml-title-alias: Marcel Kahan
 ---
 
 Do Bondholders Lose from Junk Bond Covenant Changes?
@@ -22,13 +30,7 @@ JSTOR is a not-for-profit service that helps scholars, researchers, and students
 
 Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at https://about.jstor.org/terms
 
-# Marcel Kahan
-
-New York University
-
-# Bruce Tuckman
-
-New York University
+**Authors:** Marcel Kahan and Bruce Tuckman, New York University
 
 # Do Bondholders Lose from Junk Bond Covenant Changes?*
 

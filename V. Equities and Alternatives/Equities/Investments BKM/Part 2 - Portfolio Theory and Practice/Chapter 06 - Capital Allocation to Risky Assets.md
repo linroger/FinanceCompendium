@@ -1,11 +1,19 @@
 ---
-aliases:
-  - Capital Allocation to Risky Assets
-tags:
-key_concepts:
+title: Capital Allocation to Risky Assets
 parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 2 - Portfolio Theory and Practice
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+primary_tags:
+  - capital allocation to risky assets
+  - risk and risk aversion
+  - utility functions
+secondary_tags:
+  - speculation and gambling
+  - indifference curves
+  - mean-variance criterion
+  - Sharpe ratio
 cssclasses: academia
-title: "Chapter 6: Capital Allocation to Risky Assets"
 ---
 
 # Capital Allocation to Risky Assets
@@ -45,14 +53,14 @@ Intuitively, a portfolio is more attractive when its expected return is higher a
 
 <table><tr><td>Portfolio</td><td>Risk Premium</td><td>Expected Return</td><td>Risk (SD)</td></tr><tr><td>L (low risk)</td><td>2\%</td><td>4\%</td><td>5\%</td></tr><tr><td>M (medium risk)</td><td>4</td><td>6</td><td>10</td></tr><tr><td>H (high risk)</td><td>8</td><td>10</td><td>20</td></tr></table>
 
-# Table 6.1
+**Table 6.1**
 
 Available risky portfolios (risk-free rate  $= 2\%$ )
 
 We will assume that each investor can assign a welfare, or utility, score to competing portfolios on the basis of expected return and risk. Higher utility values are assigned to portfolios with more attractive risk-return profiles. Portfolios receive higher utility scores for higher expected returns and lower scores for higher volatility. Many particular "scoring" systems are reasonable. One function that has been employed by both financial theorists and the CFA Institute assigns a portfolio with expected return  $E(r)$  and variance of returns  $\sigma^2$  the following utility score:
 
 $$
-U = E (r) - \frac {1}{2} A \sigma^ {2} \tag {6.1}
+U = E(r) - \frac{1}{2} A \sigma^{2} \tag{6.1}
 $$ where  $U$  is the utility value and  $A$  is an index of the investor's risk aversion. Equation 6.1 reflects the commonsense notion that utility increases with expected return but falls with volatility. $^{1}$  Notice that the portfolio in question here will potentially serve as the investor's overall or complete portfolio. Hence, assuming normality, standard deviation is the appropriate measure of risk.
 
 
@@ -124,7 +132,7 @@ To help clients quantify their risk aversion, many financial firms have designed
 
 Here is a sample of the sort of questions that can shed light on an investor's risk tolerance.
 
-# MEASURING YOUR RISK TOLERANCE
+## MEASURING YOUR RISK TOLERANCE
 
 Circle the letter that corresponds to your answer.
 
@@ -172,13 +180,13 @@ c. 6 months' salary
 a. No b. Maybe
 c. Yes
 
-# SCORING YOUR RISK TOLERANCE
+## SCORING YOUR RISK TOLERANCE
 
 For each question, give yourself one point if you answered (a), two points if you answered (b), and three points for a (c). The higher your total score, the greater is your risk tolerance, or, equivalently, the lower is your risk aversion.
 
 <table><tr><td>Expected Return, E(r)</td><td>Standard Deviation, σ</td><td>Utility = E(r) - 1/2Aσ2</td></tr><tr><td>0.10</td><td>0.200</td><td>0.10 - 0.5 × 4 × 0.04 = 0.02</td></tr><tr><td>0.15</td><td>0.255</td><td>0.15 - 0.5 × 4 × 0.065 = 0.02</td></tr><tr><td>0.20</td><td>0.300</td><td>0.20 - 0.5 × 4 × 0.09 = 0.02</td></tr><tr><td>0.25</td><td>0.339</td><td>0.25 - 0.5 × 4 × 0.115 = 0.02</td></tr></table>
 
-# Table 6.3
+**Table 6.3**
 
 Utility values of possible portfolios for investor with risk aversion  $A = 4$ portfolios lie in the mean-standard deviation plane on a curve called the indifference curve, which connects all portfolio points with the same utility value (Figure 6.2).
 
@@ -186,11 +194,13 @@ Utility values of possible portfolios for investor with risk aversion  $A = 4$ p
 To determine some of the points that appear on the indifference curve, examine the utility values of several possible portfolios for an investor with  $A = 4$ , presented in Table 6.3. Each portfolio offers identical utility because the portfolios with higher expected return also have higher risk (standard deviation).
 
 
-# Concept Check 6.2 a. How will the indifference curve of a less risk-averse investor compare to the indifference curve drawn in Figure 6.2?
+**Concept Check 6.2**
+
+a. How will the indifference curve of a less risk-averse investor compare to the indifference curve drawn in Figure 6.2?
 
 b. Draw both indifference curves passing through point  $P$ .
 
-# Estimating Risk Aversion
+## Estimating Risk Aversion
 
 How can we estimate the levels of risk aversion of individual investors? A number of methods may be used. The questionnaire in the nearby box is a simple example. More complex questionnaires, designed to pinpoint specific levels of risk aversion coefficients, ask would-be investors to choose from various sets of hypothetical risky prospects.
 
@@ -198,7 +208,7 @@ Access to the investment accounts of active investors would provide observations
 
 Finally, researchers track the behavior of groups of individuals to obtain average degrees of risk aversion. These studies range from observed purchase of insurance policies to labor supply and consumption behavior.
 
-# 6.2 Capital Allocation across Risky and Risk-Free Portfolios
+## 6.2 Capital Allocation across Risky and Risk-Free Portfolios
 
 History shows us that long-term bonds have been riskier investments than Treasury bills and that stocks have been riskier still. On the other hand, the riskier investments have offered higher average returns. Investors, of course, do not make all-or-nothing choices from these investment classes. They can and do construct their portfolios using securities from all asset classes. Some of the portfolio may be in risk-free Treasury bills, some in high-risk stocks.
 
@@ -248,7 +258,7 @@ Risky portfolio  $= E + B = .700$
 
 The risky portfolio makes up  $70\%$  of the complete portfolio.
 
-# Example 6.2 The Risky Portfolio
+## Example 6.2 The Risky Portfolio
 
 Suppose the investor wishes to decrease risk by reducing the allocation to the risky portfolio from  $y = .7$  to  $y = .56$ . The risky portfolio would then total only  $.56 \times \300,000 = \$ 168,000 , requiring the sale of  $\42,000\$  of the original  $\$ 210,000  of risky holdings, with the proceeds used to purchase more shares in Ready Asset (the money market fund). Total holdings in the risk-free asset will increase to  $\300,000 \times (1 - .56) = \$ 132,000 , the original holdings plus the new contribution to the money market fund:
 
@@ -271,11 +281,11 @@ Therefore, rather than thinking of our risky holdings as  $E$  and  $B$  separat
 With this simplification, we turn to the desirability of reducing risk by changing the risky/risk-free asset mix, that is, reducing risk by decreasing the proportion  $y$ . As long as we do not alter the weights of each security within the risky portfolio, the probability distribution of the rate of return on the risky portfolio remains unchanged by the asset reallocation. What will change is the probability distribution of the rate of return on the complete portfolio that consists of the risky asset and the risk-free asset.
 
 
-# Concept Check 6.3
+**Concept Check 6.3**
 
 What will be the dollar value of your position in equities  $(E)$ , and its proportion in your overall portfolio, if you decide to hold  $50\%$  of your investment budget in Ready Asset?
 
-# 6.3 The Risk-Free Asset
+## 6.3 The Risk-Free Asset
 
 By virtue of its power to tax and control the money supply, only the government can issue default-free bonds. Even the default-free guarantee by itself is not sufficient to make the bonds risk-free in real terms. The only risk-free asset in real terms would be a default-free price-indexed bond. Moreover, even that bond would offer a guaranteed real return only if its maturity matched the investor's desired holding period. Even inflation-indexed bonds are subject to interest rate risk because real interest rates change unpredictably through time.
 
@@ -283,7 +293,7 @@ Nevertheless, it is common practice to view Treasury bills as "the" risk-free as
 
 In addition to Treasury bills, many investors view a broad range of money market instruments as effectively risk-free assets. All the money market instruments are virtually free of interest rate risk because of their short maturities and usually pose little default or credit risk. Money market funds hold a variety of these low-risk instruments, so investors may also treat these funds as their effective risk-free asset. As discussed in Chapter 4, this is particularly true of government (as opposed to prime) funds.
 
-# 6.4 Portfolios of One Risky Asset and a Risk-Free Asset
+## 6.4 Portfolios of One Risky Asset and a Risk-Free Asset
 
 In this section, we examine the risk-return combinations available to investors once the properties of the risky portfolio have been determined. This is the "technical" part of capital allocation. In the next section we address the "personal" part of the problem—the individual's choice of the preferred risk-return combination from the feasible set.
 
@@ -301,7 +311,7 @@ Thus, the risk premium on the risky asset is  $E(r_{P}) - r_{f} = 8\%$
 
 With a proportion,  $y$ , in the risky portfolio, and  $1 - y$  in the risk-free asset, the rate of return on the complete portfolio, denoted  $C$ , is  $r_C$  where
 
-$$ r _ {C} = y r _ {P} + (1 - y) r _ {f} \tag {6.2}
+$$ r_C = y r_P + (1 - y) r_f \tag{6.2}
 $$
 
 Taking the expectation of this portfolio's rate of return,
@@ -494,11 +504,13 @@ Expected returns on four indifference curves and the CAL (Investor's risk aversi
 <table><tr><td rowspan="2">σ</td><td colspan="4">Utility level</td><td rowspan="2">E(rC) on the CAL</td></tr><tr><td>0.02</td><td>0.028</td><td>0.03653</td><td>0.044</td></tr><tr><td>0</td><td>0.0200</td><td>0.0280</td><td>0.0365</td><td>0.0440</td><td>0.0200</td></tr><tr><td>0.02</td><td>0.0208</td><td>0.0288</td><td>0.0373</td><td>0.0448</td><td>0.0273</td></tr><tr><td>0.04</td><td>0.0232</td><td>0.0312</td><td>0.0397</td><td>0.0472</td><td>0.0345</td></tr><tr><td>0.06</td><td>0.0272</td><td>0.0352</td><td>0.0437</td><td>0.0512</td><td>0.0418</td></tr><tr><td>0.08</td><td>0.0328</td><td>0.0408</td><td>0.0493</td><td>0.0568</td><td>0.0491</td></tr><tr><td>0.0902</td><td>0.0363</td><td>0.0443</td><td>0.0528</td><td>0.0603</td><td>0.0528</td></tr><tr><td>0.10</td><td>0.0400</td><td>0.0480</td><td>0.0565</td><td>0.0640</td><td>0.0564</td></tr><tr><td>0.12</td><td>0.0488</td><td>0.0568</td><td>0.0653</td><td>0.0728</td><td>0.0636</td></tr><tr><td>0.14</td><td>0.0592</td><td>0.0672</td><td>0.0757</td><td>0.0832</td><td>0.0709</td></tr><tr><td>0.18</td><td>0.0848</td><td>0.0928</td><td>0.1013</td><td>0.1088</td><td>0.0855</td></tr><tr><td>0.22</td><td>0.1168</td><td>0.1248</td><td>0.1333</td><td>0.1408</td><td>0.1000</td></tr><tr><td>0.26</td><td>0.1552</td><td>0.1632</td><td>0.1717</td><td>0.1792</td><td>0.1145</td></tr><tr><td>0.30</td><td>0.2000</td><td>0.2080</td><td>0.2165</td><td>0.2240</td><td>0.1291</td></tr></table>
 
 
-# Concept Check 6.6 a. If an investor's coefficient of risk aversion is  $A = 3$ , how does the optimal asset mix change? What are the new values of  $E(r_{C})$  and  $\sigma_{C}$ ?
+**Concept Check 6.6**
+
+a. If an investor's coefficient of risk aversion is  $A = 3$ , how does the optimal asset mix change? What are the new values of  $E(r_{C})$  and  $\sigma_{C}$ ?
 
 b. Suppose that the borrowing rate,  $r_f^B = 4\%$ , is greater than the lending rate,  $r_f = 2\%$ . Show graphically how the optimal portfolio choice of some investors will be affected by the higher borrowing rate. Which investors will not be affected by the borrowing rate?
 
-# Non-normal Returns
+## Non-normal Returns
 
 In the foregoing analysis, we implicitly assumed normality of returns by treating standard deviation as the appropriate measure of risk. But as we discussed in Chapter 5, departures from normality could result in extreme losses with far greater likelihood than would be plausible under a normal distribution. These exposures, which are typically measured by value at risk (VaR) or expected shortfall (ES), also would be important to investors.
 
@@ -508,7 +520,7 @@ Probabilities of moderate outcomes can be readily assessed from experience becau
 
 Nevertheless, "black swans," those rare but high-impact events that can result in drastic security returns, clearly concern investors. We will see evidence of their concern when we look at empirical evidence on the pricing of options in Chapter 21.
 
-# 6.6 Passive Strategies: The Capital Market Line
+## 6.6 Passive Strategies: The Capital Market Line
 
 The CAL is derived using the risk-free and "the" risky portfolio,  $P$ . Determination of the assets to include in  $P$  may result from a passive or an active strategy. A passive strategy describes a portfolio decision that avoids any direct or indirect security analysis. At first blush, a passive strategy would appear to be naive. As will become apparent, however, forces of supply and demand in large capital markets may make such a strategy the best choice for many investors.
 
@@ -549,7 +561,7 @@ $$
 Of course, this calculation is highly speculative. We have assumed that the average investor holds the naïve view that historical average rates of return and standard deviations are the best estimates of expected rates of return and risk, looking to the future. To the extent that the average investor takes advantage of contemporary information in addition to simple historical data, our estimate of  $A = 3.12$  would be unjustified. Nevertheless, a broad range of studies, taking into account the full range of available assets, places the degree of risk aversion for the representative investor in the range of 2.0 to 4.0.
 
 
-# Concept Check 6.7
+**Concept Check 6.7**
 
 Suppose that expectations about the U.S. equity market and the T-bill rate are the same as they were in 2021, but you find that a greater proportion is invested in T-bills today than in 2021. What can you conclude about the change in risk tolerance over the years since 2021?
 

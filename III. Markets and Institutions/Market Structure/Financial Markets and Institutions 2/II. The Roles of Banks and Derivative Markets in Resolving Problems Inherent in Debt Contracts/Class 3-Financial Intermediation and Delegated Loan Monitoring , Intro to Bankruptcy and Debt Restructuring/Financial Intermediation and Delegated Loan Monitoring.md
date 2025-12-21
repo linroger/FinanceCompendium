@@ -1,41 +1,54 @@
 ---
-parent_directory: Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
-title: "Class 3: Financial Intermediation and Delegated Loan Monitoring"
-tags:
-aliases:
-  - Financial Intermediation and Delegated Loan Monitoring
-parent_folder: Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
-subfolder:
-key_concepts:
+title: "Financial Intermediation and Delegated Loan Monitoring"
+parent_directory: "Class 3-Financial Intermediation and Delegated Loan Monitoring, Intro to Bankruptcy and Debt Restructuring"
+formatted: "2025-12-21 04:37:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - financial intermediation
+  - delegated monitoring
+  - loan contracts
+  - bank asset services
+  - diversification benefits
+secondary_tags:
+  - monitoring costs
+  - agency problems
+  - control rents
+  - liquidation costs
+  - debt contracts
+  - moral hazard
+  - asymmetric information
+  - risk diversification
 cssclasses: academia
-linter-yaml-title-alias: "Class 3: Financial Intermediation and Delegated Loan Monitoring"
 ---
 
-# Class Note 3
+# Financial Intermediation and Delegated Loan Monitoring
 
-# Financial Intermediation and Delegated Loan Monitoring: Bank Asset Services This continues the discussion from class note 2
+## Bank Asset Services
 
-# Financial Intermediation
+This continues the discussion from class note 2.
+
+## Financial Intermediation
 
 If there is a small supply of large investors who can lend 1 on personal account and then monitor (fewer such investors than profitable large projects), and no way to delegate monitoring, then some projects that would benefit from monitoring would be financed with non-monitored, publicly-traded, debt.
 
 I want to show how financial intermediaries can be set up to create synthetic large investors. There will be a profit opportunity to set up such intermediaries if none are present and there is a short supply of large investors. If there are few large investors and no intermediaries then we saw in class note 2 that loans are made at  $31.25\%$  and finding a way to make monitored loans at  $31.25\%$  can allow a banker to make a profit. Of course, if other banks can enter and compete, the loan rates will be pushed down.
 
-# The Example from class note 2
+## The Example from Class Note 2
 
 Suppose that there are no large investors, only small investors each with .0001 (\(100) to lend, and 10,000 small lenders are needed to finance 1 (\)1 million). Suppose the cost of monitoring 0.0002 (\(200) for each. If each of 10,000 lenders were to monitor whenever there is a default on the loan, the cost would be 2, which is prohibitive, and no one would monitor. When monitoring cost is prohibitive, the optimal contract is publicly-traded debt with face value 1.3125 (see class note 2). Delegating monitoring to one agent avoids the duplication, but causes incentive problems for the agent delegated the monitoring task. Small lenders will not observe the effort put into monitoring, or the information monitored by the agent. The agent (let's call him or her "the banker") has a conflict of interest with the small lenders. The conflict is similar to the conflict of interest between the borrower and the small lenders.
 
 How can the monitoring task be delegated without the need to monitor the monitor? Answer: The banker can face liquidation as a function of the amount paid to the 10,000 small lenders.
 
-# Delegated Monitoring Requires Diversification: the one-loan bank
+## Delegated Monitoring Requires Diversification: The One-Loan Bank
 
 Suppose that the banker monitors a single loan (runs a one-loan bank) on behalf of the small lenders, and does not diversify across loans. When the borrower's project returns 1, the banker can monitor and collect the 1 without actually liquidating. However, the bank itself would
 
 need to be liquidated in this case, because the face value of the bank's debt must exceed 1. If the bank's debt contract with the small depositors has a face value of 1 or less, the small depositors never receive more than 1, which delivers less that the 1.05 expected repayment they need to receive the required  $5\%$  expected return.<sup>1</sup> If the bank is liquidated when its loan defaults by paying 1, the bank is liquidated whenever the borrower would have been liquidated, had the borrower used publicly-traded debt. Unless the 10,000 lenders each monitor the banker (costing .0002 each, or a prohibitive total of 2), the one-loan bank will default and be liquidated just as often as the borrower. This seems to imply that delegating the loan monitoring to the banker will not succeed.
 
-# Can the banker use diversification to reduce delegation costs?
+## Can the Banker Use Diversification to Reduce Delegation Costs?
 
-# The two-loan bank
+## The Two-Loan Bank
 
 Suppose the banker monitored not one loan, but a diversified portfolio of loans. A very simple way to show the value of diversification is to examine the two-loan bank.
 
@@ -54,7 +67,7 @@ Assume that liquidating the bank yields nothing to depositors or to the banker, 
 
 If the bank is to be able to pay 2.1875 when one loan defaults (paying 1) and the other does not default (paying F), then  $1 + F$  must be at least 2.1875, and the face value of each loan must satisfy  $F \geq 1.1875$ . If the bank made loans with this face value, it could avoid liquidation with probability .96. In summary, if the bank monitors its loans, it will have the cash and the incentives to pay bank deposits in full with probability .96 so long as  $F \geq 1.1875$ , or the interest rate on bank loans is at least  $18.75\%$ .
 
-# Will the bank monitor?
+## Will the Bank Monitor?
 
 Without monitoring, the bank would not be able to offer to take 1 when only 1 is available, and would instead liquidate the borrower's asset. Monitoring provides no benefit to the banker when all loans pay in full (monitoring is not needed to force a borrower to pay F) nor when all loans default (because the bank fails and is liquidated). If the banker obtains nothing whenever at least one loan defaults, there will be no incentive to monitor. An incentive to
 
@@ -78,7 +91,7 @@ $= {0.0608}$  .  ${}^{3}$
 
 The delegation cost per borrower, D, equals the cost of financial distress of the bank or .04(1)=.04, plus control rent to the banker of .0608, or a total of 0.1008. All parties are better off with the banker as delegated monitor. The borrower prefers to borrow at  $18.875\%$  from the bank, versus  $31.25\%$  direct. The investors get a  $5\%$  expected return in either situation. The banker is happy with any claim with an expected payment above  \$400, and ends up with an expected payment of\$ 122,000.
 
-# Summary of Financial Intermediation and Diversification
+## Summary of Financial Intermediation and Diversification
 
 We considered three types of contracting arrangements:
 
@@ -88,13 +101,13 @@ We considered three types of contracting arrangements:
 
 Diversification within the intermediary works to make option 3 work by reducing the liquidation cost of providing the bank an incentive to repay small investors. To simplify, we use an example where the diversification from a bank making only two loans was sufficient to give the bank reduced delegation costs. However, it is more generally true that diversification allows financial intermediation to provide low cost delegated monitoring. The law of large numbers implies that if the bank gets sufficiently diversified across independent loans with expected repayments in excess of the face value of bank deposits, then the chance that it defaults on its deposits gets arbitrarily close to zero. In the limit of a perfectly diversified bank, the bank would never default and would face no liquidation costs. In addition, the control rent needed to provide incentives to monitor approaches zero. The delegation cost for the bank approaches zero, and the only cost of intermediation is the (unavoidable) cost of monitoring. Competitive and fully-diversified intermediation would drive borrowers' expected cost of capital down to  $5.02\%$ . In the limit of perfect diversification, the face value of bank debt approaches F= 1.06275 which is the solution to .8F + .2(1)= 1.0502; it gives the bank a  $5\%$  expected return after covering the 0.0002 (\$200) cost of monitoring. This is too strong because in practice the default risk of borrowers is not independent, but is positively correlated, and because the number of loans in the bank's portfolio is limited.
 
-# Mathematical Appendix: The General Case for monitoring versus not monitoring.
+## Mathematical Appendix: The General Case for Monitoring versus Not Monitoring
 
 If you don't like math, don't read this. It is not required. Some students like to see more generally what is making things work. This year I have yielded to these requests. Do not memorize these as formulae-- they will rot your brain.
 
 This appendix briefly generalizes the example given above. The derivation is only sketched because the details are provided with the example given above.
 
-# Publicly traded debt without monitoring
+### Publicly Traded Debt without Monitoring
 
 Debt uses the threat of liquidation to get the borrower to pay. Recall that the realized payoff of the project is  $V$  (either  $V = H$  or  $V = L$ ), and that the probability that  $V = H$  is  $P$ . The lenders will get an expected repayment of:  $Pf$  if  $f$  is between  $H$  and  $L$ , or  $f$ , if  $f$  does not exceed  $L$ . This implies that the lowest face value,  $f$ , that provides an expected repayment of  $1 + r$  is given by:
 
@@ -162,7 +175,7 @@ $$
 
 One can show that the delegation cost of monitoring declines as the bank becomes more diversified, but in cases where the number of independent loans is above 2 the equations become a bit messy. The easiest way to show the benefits of increased diversification is the show what happens as  $N$ , the number of independent loans monitored, gets arbitrarily large.
 
-# The Limiting Case: Fully Diversified Banks
+### The Limiting Case: Fully Diversified Banks
 
 Suppose the bank became so diversified that a proportion exactly equal to  $P$  of its loans were able to pay in full and  $1 - P$  could not. The bank will face no uncertainty, and will either always default or never default. Unless it will always default, the well-diversified bank can borrow at the riskless rate of interest. If the average amount of loan payments received per loan, were less than  $1 + r$ , the bank would default. When the average exceeds  $1 + r$ , the bank will repay  $1 + r$  per unit of deposits.
 

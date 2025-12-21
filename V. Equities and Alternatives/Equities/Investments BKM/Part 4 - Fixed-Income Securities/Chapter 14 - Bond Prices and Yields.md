@@ -1,11 +1,16 @@
 ---
-title: Bond Prices and Yields
+title: "Bond Prices and Yields"
+parent_directory: Part 4 - Fixed-Income Securities
+formatted: 2025-12-21 11:35:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+formatter_agent: obsidian-formatting-agent
 primary_tags:
-  - bond pricing
-  - yield to maturity
-  - fixed income securities
-  - interest rate risk
-  - bond valuation
+   - bond pricing
+   - yield to maturity
+   - fixed income securities
+   - interest rate risk
+   - bond valuation
 secondary_tags:
   - treasury bonds
   - corporate bonds
@@ -396,7 +401,7 @@ The bond price used in the function should be the reported, or "flat," price, wi
 
 <table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr><tr><td>1</td><td colspan="3">Semiannual coupons</td><td colspan="2">Annual coupons</td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>Settlement date</td><td>1/1/2000</td><td></td><td>1/1/2000</td><td></td></tr><tr><td>4</td><td>Maturity date</td><td>1/1/2030</td><td></td><td>1/1/2030</td><td></td></tr><tr><td>5</td><td>Annual coupon rate</td><td>0.08</td><td></td><td>0.08</td><td></td></tr><tr><td>6</td><td>Bond price (flat)</td><td>127.676</td><td></td><td>127.676</td><td></td></tr><tr><td>7</td><td>Redemption value (\% of face value)</td><td>100</td><td></td><td>100</td><td></td></tr><tr><td>8</td><td>Coupon payments per year</td><td>2</td><td></td><td>1</td><td></td></tr><tr><td>9</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td>Yield to maturity (decimal)</td><td>0.0600</td><td></td><td>0.0599</td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td colspan="4">The formula entered here is: =YIELD(B3,B4,B5,B6,B7,B8)</td><td></td></tr></table>
 
-# Spreadsheet 14.2
+**Spreadsheet 14.2**
 
 Finding yield to maturity in Excel
 
@@ -490,25 +495,25 @@ Example 14.8 highlights the problem with conventional yield to maturity when rei
 
 Forecasting the realized compound yield over various investment periods is called horizon analysis. The forecast of total return depends on your forecasts of both the price of the bond when you sell it at the end of your horizon and the rate at which you are able to reinvest coupon income. The sales price depends in turn on the yield to maturity at the horizon date. With a longer investment horizon, however, reinvested coupons will be a larger component of final proceeds.
 
-# Example 14.9 Horizon Analysis
+**Example 14.9 Horizon Analysis**
 
 Suppose you buy a 30-year, 7.5\% (annual payment) coupon bond for \$980 (when its yield to maturity is 7.67\%) and plan to hold it for 20 years. You forecast that the bond's yield to maturity will be 8\% when it is sold and that the reinvestment rate on the coupons will be 6\%. At the end of your investment horizon, the bond will have 10 years remaining until maturity, so the forecast sales price (using a yield to maturity of 8\%) is \$966.45. The 20 coupon payments will grow with compound interest to \$2,758.92. (This is the future value of a 20-year \$75 annuity with an interest rate of 6\%).
 
 On the basis of these forecasts, your  \$980 investment will grow in 20 years to$ 966.45 +  $2,758.92 =\$ 3,725.37. This corresponds to an annualized compound return of 6.90\%:
 
 $$
-\begin{array}{l} V _ {0} (1 + r) ^ {2 0} = V _ {2 0} \\ \mathbb {S} 9 8 0 (1 + r) ^ {2 0} = \mathbb {S} 3, 7 2 5. 3 7 \\ r = .0690 = 6.90\% \\ \end{array}
+\begin{array}{l} V_{0}(1 + r)^{20} = V_{20} \\ \$980(1 + r)^{20} = \$3,725.37 \\ r = .0690 = 6.90\% \\ \end{array}
 $$
 
 Examples 14.8 and 14.9 demonstrate that as interest rates change, bond investors are subject to two offsetting sources of risk. On the one hand, when rates rise, bond prices fall, which reduces the value of the portfolio. On the other hand, reinvested coupon income will compound more rapidly at those higher rates. This reinvestment rate risk offsets price risk. In Chapter 16, we will explore this trade-off in more detail and will discover that by carefully tailoring their bond portfolios, investors can precisely balance these two effects for any given investment horizon.
 
-# 14.4 Bond Prices over Time
+## 14.4 Bond Prices over Time
 
 A bond will sell at par value when its coupon rate equals the market interest rate. In this case, the coupon payments are sufficient to provide fair compensation for the time value of money.
 
 When the coupon rate is lower than the market interest rate, the coupon payments alone will not provide bond investors as high a return as they could earn elsewhere. To receive a competitive return, they also need some price appreciation. The bonds, therefore, must sell below par value to provide a "built-in" capital gain on the investment.
 
-# Example 14.10 Fair Holding-Period Return
+**Example 14.10 Fair Holding-Period Return**
 
 Suppose a bond was issued several years ago when the interest rate was  $7\%$ . The bond's annual coupon rate was thus set at  $7\%$ . (We suppose for simplicity that the bond pays its coupon annually.) Now, with three years left in the bond's life, the market interest rate is  $8\%$  per year. The bond's market price is the present value of the remaining annual coupons plus payment of par value. That present value is
 
@@ -524,7 +529,7 @@ $$
 $$ thereby providing a capital gain over the year of  \$7.94. If an investor had purchased the bond at\$ 974.23, the total return over the year would equal the coupon payment plus capital gain, or  $70 +$ 7.94 = \$77.94. This represents a rate of return of  \$77.94/974.23, or 8\%, exactly the rate of return currently available elsewhere in the market.
 
 
-# Concept Check 14.5
+**Concept Check 14.5**
 
 At what price will the bond in Example 14.10 sell in yet another year, when only one year remains until maturity? Assume the yield to maturity remains at  $8\%$ . What is the rate of return to an investor who purchases the bond when its price is 982.17 and sells it one year hence?
 
@@ -545,7 +550,7 @@ Of course, the yields across bonds in Figure 14.1 are not all precisely equal. C
 
 We assume in the figure that the market interest rate is constant. If the market interest rate is volatile, the price path will be "jumpy," vibrating around the price path in Figure 14.6 and reflecting capital gains or losses as interest rates fluctuate. Ultimately, however, the price must reach par value at the maturity date, so the price of the premium bond will fall over time while that of the discount bond will rise.
 
-# Yield to Maturity versus Holding-Period Return
+**Yield to Maturity versus Holding-Period Return**
 
 In Example 14.10, the holding-period return and the yield to maturity were equal. The bond yield started and ended the year at  $8\%$ , and the bond's holding-period return also equaled  $8\%$ . This turns out to be a general result. When the yield to maturity is unchanged over the period, the rate of return on the bond will equal that yield. As we learned from Example 14.10, this should not be surprising: The bond must offer a rate of return competitive with those available on other securities.
 
@@ -568,7 +573,7 @@ Here is another way to think about the difference between yield to maturity and 
 
 We have to be a bit careful here. When yields increase, coupon income can be reinvested at higher rates, which offsets the impact of the initial price decline. If your holding period is sufficiently long, the positive impact of the higher reinvestment rate can more than offset the initial price decline. But common performance evaluation periods for portfolio managers are no more than one year, and over these shorter horizons the price impact will almost always dominate the impact of the reinvestment rate. We discuss the trade-off between price risk and reinvestment rate risk more fully in Chapter 16.
 
-# Zero-Coupon Bonds and Treasury Strips
+**Zero-Coupon Bonds and Treasury Strips**
 
 Original-issue-discount bonds are less common than coupon bonds issued at par. These are bonds that are issued intentionally with low coupon rates that cause the bond to sell at a discount from par value. The most common example of this type of bond is the zero-coupon bond, which carries no coupons and provides all of its return in the form of price appreciation. Zeros provide only one cash flow to their owners, on the maturity date of the bond.
 
@@ -599,7 +604,7 @@ If interest rates actually fall, let's say to 9.9\%, next year's bond price will
 The procedure illustrated in Example 14.12 applies as well to the taxation of other original-issue-discount bonds, even if they are not zero-coupon bonds. Consider a 30-year-maturity bond issued with a coupon rate of  $4\%$  and a yield to maturity of  $8\%$ . For simplicity, we will assume that the bond pays coupons once annually. Because of the low coupon rate, the bond will be issued at a price far below par value, specifically at \$549.69. If the bond's yield to maturity is still  $8\%$ , then its price in one year will rise to \$553.66. (Confirm this for yourself.) The pretax holding-period return (HPR) is exactly  $8\%$ :
 
 $$
-\mathrm {H P R} = \frac {\mathbb {S} 4 0 + (\mathbb {S} 5 5 3 . 6 6 - \mathbb {S} 5 4 9 . 6 9)}{\mathbb {S} 5 4 9 . 6 9} = . 0 8
+\mathrm{HPR} = \frac{\mathbb{S}40 + (\mathbb{S}553.66 - \mathbb{S}549.69)}{\mathbb{S}549.69} = .08
 $$
 
 The increase in the bond price based on a constant yield, however, is treated as interest income, so the investor is required to pay taxes on the explicit coupon income, \$40, as well as the imputed interest income of $553.66 - $549.69 = \$3.97. If the bond's yield actually changes during the year, the difference between the bond's price and the constant-yield value of 553.66 will be treated as capital gains income if the bond is sold.
@@ -682,16 +687,16 @@ The discriminant analysis determines the equation of the line that best separate
 Altman found the following equation to best separate failing and nonfailing firms:
 
 $$
-\begin{array}{l} Z = 3. 1 \frac {\text {E B I T}}{\text {T o t a l a s s e t s}} + 1. 0 \frac {\text {S a l e s}}{\text {A s s e t s}} + . 4 2 \frac {\text {S h a r e h o l d s} ^ {\prime} \text {e q u i t y}}{\text {T o t a l l i a b i l i t i e s}} \\ + . 8 5 \frac {\text {R e t a i n e d e a r n i n g s}}{\text {T o t a l a s s e t s}} + . 7 2 \frac {\text {W o r k i n g c a p i t a l}}{\text {T o t a l a s s e t s}} \\ \end{array}
+\begin{array}{l} Z = 3.1 \frac{\text{EBIT}}{\text{Total assets}} + 1.0 \frac{\text{Sales}}{\text{Assets}} + .42 \frac{\text{Shareholders' equity}}{\text{Total liabilities}} \\ + .85 \frac{\text{Retained earnings}}{\text{Total assets}} + .72 \frac{\text{Working capital}}{\text{Total assets}} \\ \end{array}
 $$ where  $\mathrm{EBIT} =$  earnings before interest and taxes. $^{11}$  Z-scores below 1.23 indicate vulnerability to bankruptcy, scores between 1.23 and 2.90 are a gray area, and scores above 2.90 are considered safe.
 
 
 
-# Concept Check 14.8
+**Concept Check 14.8**
 
 Suppose we add a new variable equal to current liabilities/current assets to Altman's equation. Would you expect this variable to receive a positive or negative coefficient?
 
-# Bond Indentures
+## Bond Indentures
 
 A bond is issued with an indenture, which is the contract between the issuer and the bondholder. Part of the indenture is a set of restrictions that protect the rights of the bondholders. Such restrictions include provisions relating to collateral, sinking funds, dividend policy, and further borrowing. The issuing firm agrees to these protective covenants in order to market its bonds to investors concerned about the safety of the bond issue.
 
@@ -785,12 +790,12 @@ For example, at the height of the financial crisis in October 2008, as Ford Moto
 
 When a bond becomes more subject to default risk, its price will fall, and therefore its promised yield to maturity will rise. Therefore, its default premium will rise. However, its expected yield to maturity will be far less affected. Let's continue Example 14.13.
 
-# Example 14.14 Default Risk and the Default Premium
+**Example 14.14 Default Risk and the Default Premium**
 
 Suppose that the condition of the firm in Example 14.13 deteriorates further, and investors now believe that the bond will pay off only  $55\%$  of face value at maturity. Because of the higher risk, investors now demand an expected yield to maturity of  $12\%$  (i.e.,  $6\%$  semiannually), which is  $4\%$  higher than in Example 14.13. But the price of the bond will fall from  $750 to$ 688  $[n = 20; i = 6; \mathrm{FV} = 550; \mathrm{PMT} = \$45]$ . At this price, the stated yield to maturity based on promised cash flows is  $15.2\%$ . While the expected yield to maturity has increased by  $4\%$ , the drop in price has caused the promised yield to maturity to rise by  $1.5\%$ .
 
 
-# Concept Check 14.9
+**Concept Check 14.9**
 
 What is the expected yield to maturity in Example 14.14 if the firm is in even worse condition? Investors expect a final payment of only \$500, and the bond price has fallen to \$650.
 

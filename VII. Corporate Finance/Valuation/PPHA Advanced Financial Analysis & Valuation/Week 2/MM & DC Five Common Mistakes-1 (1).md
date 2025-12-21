@@ -1,18 +1,36 @@
 ---
-parent_directory:
-title: Methods to Improve Decisions
-tags:
-aliases:
-parent_folder: Week 2
-subfolder:
-key_concepts:
+title: "Methods to Improve Decisions"
+parent_directory: "Week 2"
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - decision making mistakes
+  - behavioral finance
+  - investment process improvement
+  - cognitive biases
+secondary_tags:
+  - overconfidence bias
+  - inside view limitations
+  - prospective hindsight
+  - mind-set rigidity
+  - confirmation bias
+  - fundamental attribution error
+  - stress management
+  - checklist methodology
+  - behavioral finance
+  - cognitive traps
+  - organizational environment
+  - outcome bias
+  - calibration discrimination
+  - prospect theory
+  - decision weights
 cssclasses: academia
-linter-yaml-title-alias: Methods to Improve Decisions
 ---
 
 # Methods to Improve Decisions
 
-Five Common Mistakes and How to Address Them
+**Five Common Mistakes and How to Address Them**
 
 February 24, 2014
 
@@ -36,15 +54,15 @@ Phil Birnbaum
 
 This report covers five common mistakes that investment firms make and offers practical guidance on how to manage each of them.
 
-# Mistake
+## Common Mistakes
 
-1. Relying too much on the "inside view."  
-2. Failure to consider a sufficient range of alternatives.  
-3. Underestimating or underappreciating an opposing point of view.  
-4. Not imposing self-accountability.  
+1. Relying too much on the "inside view."
+2. Failure to consider a sufficient range of alternatives.
+3. Underestimating or underappreciating an opposing point of view.
+4. Not imposing self-accountability.
 5. Creating an environment that is not conducive to good decisions.
 
-# Solution
+## Solutions
 
 Integrate the "outside view."
 
@@ -56,7 +74,71 @@ Maintain a decision-making journal.
 
 Be mindful of your surroundings and work to improve them.
 
-# Introduction
+```d2
+direction: right
+
+mistakes: Decision Making Mistakes {
+  shape: hexagon
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
+
+inside_view: "1. Inside View\nOverconfidence" {
+  style.fill: "#ffcdd2"
+}
+
+alternatives: "2. Limited Alternatives\nInsufficient Range" {
+  style.fill: "#ffcdd2"
+}
+
+opposing_view: "3. Opposing Views\nUnderestimated" {
+  style.fill: "#ffcdd2"
+}
+
+accountability: "4. No Self-Accountability\nMissing Journal" {
+  style.fill: "#ffcdd2"
+}
+
+environment: "5. Poor Environment\nStress & Culture" {
+  style.fill: "#ffcdd2"
+}
+
+solutions: Solutions {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+  style.stroke: "#2e7d32"
+}
+
+outside_view: "Outside View\nReference Class" {
+  style.fill: "#c8e6c9"
+}
+
+premortem: "Premortem\nProspective Hindsight" {
+  style.fill: "#c8e6c9"
+}
+
+red_team: "Red Team\nChallenge Mind-set" {
+  style.fill: "#c8e6c9"
+}
+
+journal: "Decision Journal\nProbabilistic Tracking" {
+  style.fill: "#c8e6c9"
+}
+
+mindful: "Mindful Environment\nStress Management" {
+  style.fill: "#c8e6c9"
+}
+
+mistakes -> solutions: Address with
+
+inside_view -> outside_view
+alternatives -> premortem
+opposing_view -> red_team
+accountability -> journal
+environment -> mindful
+```
+
+## Introduction
 
 In his wonderful book, *The Checklist Manifesto*, Atul Gawande, a surgeon at Brigham and Women's Hospital in Boston, explains the value of using a checklist to improve outcomes in a wide range of fields including medicine, aviation, construction, and investing. The power of a checklist is not that it improves your skill, but rather that it makes sure you apply your skill consistently.
 
@@ -72,13 +154,13 @@ Markets are different from sports in that you are competing not against another 
 
 This report covers five common mistakes and offers concrete and actionable ways to manage them. You can think of these mistakes as the common reasons that investors veer from their investment process or cases where the processes themselves are incomplete.
 
-# Mistake 1: Relying too much on the "inside view." Solution: Integrate the "outside view."
+## Mistake 1: Relying too much on the "inside view."
 
-The results of an experiment by Roger Buehler, a professor of psychology, will come as no surprise to you if you have kids in school. Buehler asked college students to tell him the date by which they were 99 percent confident they would have completed a school assignment. For example, if he asked on a Monday, the students might respond that they were nearly certain to be done with their academic project by Friday.[6]
+**Solution: Integrate the "outside view."**
 
-When Buehler checked on the predictions, he found that only 45 percent of the students had completed the tasks on the designated date. The students had confidence in their estimates that vastly surpassed their
+The results of an experiment by Roger Buehler, a professor of psychology, will come as no surprise to you if you have kids in school. Buehler asked college students to tell him the date by which they were 99 percent confident they would have completed a school assignment. For example, if he asked on a Monday, the students might respond that they were nearly certain to be done with their academic project by Friday.<sup>6</sup>
 
-accomplishments. This tendency to be overly optimistic happens in many settings, from judging how long it will take to remodel your kitchen to estimating the launch date for a new product to forecasting the cost of an infrastructure project.<sup>7</sup>
+When Buehler checked on the predictions, he found that only 45 percent of the students had completed the tasks on the designated date. The students had confidence in their estimates that vastly surpassed their accomplishments. This tendency to be overly optimistic happens in many settings, from judging how long it will take to remodel your kitchen to estimating the launch date for a new product to forecasting the cost of an infrastructure project.<sup>7</sup>
 
 There is a natural way of thinking about plans and predictions, which psychologists call the "inside view." We gather lots of information, consider the specifics of the situation, and combine the two to create a scenario for the future. For instance, a student might consider how busy she is in the upcoming days, assess the difficulty of the assignment, and then figure that it's almost a sure thing that she'll have it done by Friday.
 
@@ -86,7 +168,7 @@ But there's another way to think about plans and predictions that doesn't come n
 
 Research shows that the inside view often yields predictions that are too optimistic, revealing a form of overconfidence. The outside view generally tempers that overconfidence and provides a much stronger foundation for thinking about how the future might unfold.
 
-As a case in point, scientists asked venture capitalists (VCs) to describe a transaction they were working on, including an estimate of the expected rate of return. The average expected return was about 30 percent. The researchers then asked the VCs to consider two other deals that they deemed comparable. The rate of return for those deals was 20 percent. After having exposed the VCs to the outside view, albeit a small sliver of the total number of deals, 80 percent of the VCs revised down the expected rate of return for the focal deal.[9]
+As a case in point, scientists asked venture capitalists (VCs) to describe a transaction they were working on, including an estimate of the expected rate of return. The average expected return was about 30 percent. The researchers then asked the VCs to consider two other deals that they deemed comparable. The rate of return for those deals was 20 percent. After having exposed the VCs to the outside view, albeit a small sliver of the total number of deals, 80 percent of the VCs revised down the expected rate of return for the focal deal.<sup>9</sup>
 
 The contrast between the inside and outside view is a good way to frame the debate about intuition and statistics. Intuition works very well in a narrow number of domains, but people tend to rely on their intuition in cases where the statistics yield much better insight. When given a choice, start with statistics and then allow your intuition a say. Daniel Kahneman, a psychologist who won the Nobel Prize in economics, calls this "disciplined intuition." If you start with intuition and then turn to statistics, you will likely select the data that makes your case.
 
@@ -106,27 +188,25 @@ examine the trajectory of results for companies in a similar position. $^{12}$  
 
 Finding an appropriate reference class and integrating it into a forecast is not always easy, and researchers have given considerable attention to how to do it most effectively. $^{13}$  But you are more likely to make a mistake by ignoring the outside view than you are by misusing it.
 
-In his latest book, *Left Brain, Right Stuff*, Phil Rosenzweig, a professor at IMD, makes a point worth considering. For some decisions, you can have no influence on the outcome. If you flip a coin and call heads, the coin will land on one side or the other without regard for your prediction. In the cases where the decision maker can influence the outcome, Rosenzweig argues that optimism may lead to better performance.[14]
+In his latest book, *Left Brain, Right Stuff*, Phil Rosenzweig, a professor at IMD, makes a point worth considering. For some decisions, you can have no influence on the outcome. If you flip a coin and call heads, the coin will land on one side or the other without regard for your prediction. In the cases where the decision maker can influence the outcome, Rosenzweig argues that optimism may lead to better performance.<sup>14</sup>
 
-Executives and investors generally think by analogy, searching their mental databases for prior cases that appear similar and, hence, instructive. This is the basis for the case study approach. Humans are very good at placing items in categories, and categories facilitate inductive reasoning. For instance, the statement, "Rabbits have Property X; therefore, Squirrels have Property X," is a stronger argument than, "Rabbits have Property X; therefore, Goldfish have Property X," because it is more natural to place rabbits and squirrels in the same category than it is to place rabbits and goldfish together.[15]
+Executives and investors generally think by analogy, searching their mental databases for prior cases that appear similar and, hence, instructive. This is the basis for the case study approach. Humans are very good at placing items in categories, and categories facilitate inductive reasoning. For instance, the statement, "Rabbits have Property X; therefore, Squirrels have Property X," is a stronger argument than, "Rabbits have Property X; therefore, Goldfish have Property X," because it is more natural to place rabbits and squirrels in the same category than it is to place rabbits and goldfish together.<sup>15</sup>
 
 Yet reliance on case studies can be perilous for at least two reasons. First, research shows that when we look for similarities in two items that we compare, we see similarities. But when we look for differences, we see differences.
 
-In the 1970s, Amos Tversky asked subjects which pair of countries they deemed more similar, West Germany and East Germany or Nepal and Ceylon (which changed its name to Sri Lanka in 1972). Two-thirds of the
+In the 1970s, Amos Tversky asked subjects which pair of countries they deemed more similar, West Germany and East Germany or Nepal and Ceylon (which changed its name to Sri Lanka in 1972). Two-thirds of the subjects selected West Germany and East Germany. Tversky then asked subjects which pair of countries they deemed more different. Logic suggests an answer that is the complement of the first response, hence two-thirds finding Nepal and Ceylon more different. But that's not what Tversky found. Seventy percent of the subjects rated West Germany and East Germany more different than the other pair. What you are looking for dictates what you see.<sup>16</sup>
 
-subjects selected West Germany and East Germany. Tversky then asked subjects which pair of countries they deemed more different. Logic suggests an answer that is the complement of the first response, hence two-thirds finding Nepal and Ceylon more different. But that's not what Tversky found. Seventy percent of the subjects rated West Germany and East Germany more different than the other pair. What you are looking for dictates what you see.[16]
+Second, our natural tendency to rely on categorization to reason inductively leads to a focus on attributes as opposed to circumstances. Attributes are features that allow for categorization. For instance, animals with wings and feathers can fly. Circumstances capture causal mechanisms. Since the physics of lift causes flight, animals or objects that can create lift will fly, including most birds and airplanes, and those that can't create lift won't fly. To learn from history, you need to understand causality.<sup>17</sup>
 
-Second, our natural tendency to rely on categorization to reason inductively leads to a focus on attributes as opposed to circumstances. Attributes are features that allow for categorization. For instance, animals with wings and feathers can fly. Circumstances capture causal mechanisms. Since the physics of lift causes flight, animals or objects that can create lift will fly, including most birds and airplanes, and those that can't create lift won't fly. To learn from history, you need to understand causality.[17]
+## Mistake 2: Failure to consider a sufficient range of alternatives.
 
-# Mistake 2: Failure to consider a sufficient range of alternatives.
+**Solution: Conduct a premortem.**
 
-# Solution: Conduct a premortem.
-
-Most people are familiar with a postmortem, where doctors try to learn from the mistakes that led to a patient's death. This technique seeks to learn from the past. The "premortem," popularized by a psychologist named Gary Klein, is another technique that sharpens our decision making. Rather than using the past as a guide for the present, the premortem goes from the future to the present. This is a technique called "prospective hindsight."[18]
+Most people are familiar with a postmortem, where doctors try to learn from the mistakes that led to a patient's death. This technique seeks to learn from the past. The "premortem," popularized by a psychologist named Gary Klein, is another technique that sharpens our decision making. Rather than using the past as a guide for the present, the premortem goes from the future to the present. This is a technique called "prospective hindsight."<sup>18</sup>
 
 Here's the idea. Before you actually make a decision, launch yourself into the future, say one year from now, and pretend that you made the decision. Now assume the decision turned out poorly, and you must document the reasons for the failure. Prospective hindsight places you ahead in time and grants you the knowledge of the bad result. You can then think carefully about what went awry. This process taps into our natural facility to explain events for known outcomes.
 
-Jay Russo and Paul Schoemaker, leading researchers on decision making, provide an example of how this process works.[19] Answer the following question:
+Jay Russo and Paul Schoemaker, leading researchers on decision making, provide an example of how this process works.<sup>19</sup> Answer the following question:
 
 How likely is it that a woman will be elected the leader of your country in the first election after the next one? Think about all the reasons why this might happen. For specificity, provide a numerical probability.
 
@@ -149,17 +229,17 @@ Klein didn't develop the premortem to help investors, but the utility should be 
 
 Some have criticized the premortem as being too negative or pessimistic. The central value in the process is correcting the tendency to be overconfident. So, indeed, it may be useful to run through this exercise using positive scenarios if your assumption is based on negative scenarios. The value of the task is that it draws on the way our minds work to counterbalance the potentially excessive confidence in our view.
 
-# Mistake 3: Underestimating or underappreciating an opposing point of view. Solution: Create a red team to challenge your mind-set.
+## Mistake 3: Underestimating or underappreciating an opposing point of view.
 
-It is common for investment firms to position their portfolios to reflect a particular point of view or theme. For example, the leaders of the firm may be bullish or bearish on the overall market, risk-seeking or risk-averse to reflect a "risk-on" or "risk-off" environment, or exposed to a theme such as "interest rates are rising" or "interest rates are falling." These beliefs, called "mind-sets," need to be explicit. You can define a mind-set as "a series of expectations through which a human sees the world."[22]
+**Solution: Create a red team to challenge your mind-set.**
 
-Mind-sets can be good, of course, when they get everyone on the same page. But mind-sets are a problem if the world changes. As Richards Heuer, who worked in the intelligence office of the Central Intelligence Agency (CIA), wrote, "The disadvantage of a mind-set is that it can color and control our perception to the extent that an experienced specialist may be among the last to see what is really happening when events take
+It is common for investment firms to position their portfolios to reflect a particular point of view or theme. For example, the leaders of the firm may be bullish or bearish on the overall market, risk-seeking or risk-averse to reflect a "risk-on" or "risk-off" environment, or exposed to a theme such as "interest rates are rising" or "interest rates are falling." These beliefs, called "mind-sets," need to be explicit. You can define a mind-set as "a series of expectations through which a human sees the world."<sup>22</sup>
 
-a new and unexpected turn. When faced with a major paradigm shift, analysts who know the most about a subject have the most to unlearn.[23]
+Mind-sets can be good, of course, when they get everyone on the same page. But mind-sets are a problem if the world changes. As Richards Heuer, who worked in the intelligence office of the Central Intelligence Agency (CIA), wrote, "The disadvantage of a mind-set is that it can color and control our perception to the extent that an experienced specialist may be among the last to see what is really happening when events take a new and unexpected turn. When faced with a major paradigm shift, analysts who know the most about a subject have the most to unlearn.<sup>23</sup>
 
 Red-teaming is a technique to offset the rigidity of mind-sets. The idea is an old one that comes from military strategy. A red team attacks and a blue team defends. In this case, the blue team would be assigned to defend the mind-set that underpins the firm's portfolio. The red team would be a small number of people within the analytical team who would be charged with contesting the mind-set. Red-teaming allows for an explicit challenge to the mind-set within the firm, and at a minimum forces the team members to seriously consider an alternative point of view.
 
-There are some helpful guidelines in setting up a red-team, blue-team exercise. The first is to structure the debate using "linchpin analysis," which requires multiple steps:[24]
+There are some helpful guidelines in setting up a red-team, blue-team exercise. The first is to structure the debate using "linchpin analysis," which requires multiple steps:<sup>24</sup>
 
 1. Identify the main uncertain factors or key drivers (variables) that will determine an outcome.  
 2. Pinpoint working assumptions (linchpin premises) about how the key drivers will operate.  
@@ -169,21 +249,21 @@ There are some helpful guidelines in setting up a red-team, blue-team exercise. 
 
 A senior member of the investment team should assign three to four analysts to be on the red team. The people in this group should be diverse and credible and should not be the main advocates for the mind-set. Once the red team has had time to prepare the challenge based on linchpin analysis, the investment team can sit together and the red team can present the case against the status quo. As befitting the intellectual tradition of the exercise, the goal of the red team is to figure out a way to "defeat" the blue team.
 
-One of the essential ground rules in a red-team, blue-team exercise is to explicitly separate facts from opinions. A fact is a piece of information that is presumed to have objective reality. As a consequence, it can be disproved. An opinion is a belief that is stronger than an impression but less strong than positive knowledge. An opinion can be difficult to disprove. Presenters from both sides must be overt about what are facts and what are opinions. Facts, which themselves can change over time, should rule the day.[25]
+One of the essential ground rules in a red-team, blue-team exercise is to explicitly separate facts from opinions. A fact is a piece of information that is presumed to have objective reality. As a consequence, it can be disproved. An opinion is a belief that is stronger than an impression but less strong than positive knowledge. An opinion can be difficult to disprove. Presenters from both sides must be overt about what are facts and what are opinions. Facts, which themselves can change over time, should rule the day.<sup>25</sup>
 
 If you want to practice discriminating between facts and opinions, pick up a report or memo written by a research analyst and highlight the facts in one color and the opinions in another color. You might be surprised at the relative contributions of each. Decision making in the face of uncertainty is a great challenge, and opinion is likely to play a role. But when opinion overshadows fact, it is time to update beliefs.
 
-There is substantial evidence showing that once we reach a mind-set, we are not inclined to change our view. This is even in cases where arriving at the mind-set was intellectually difficult. In theory, our beliefs are supposed to be tentative and subject to change upon the arrival of new information. Bayes's Theorem provides the mathematical way to do this.[26]
+There is substantial evidence showing that once we reach a mind-set, we are not inclined to change our view. This is even in cases where arriving at the mind-set was intellectually difficult. In theory, our beliefs are supposed to be tentative and subject to change upon the arrival of new information. Bayes's Theorem provides the mathematical way to do this.<sup>26</sup>
 
-The primary barrier to updating beliefs is what psychologists call confirmation bias. This bias says that we are more likely to seek information that confirms our belief than information that disconfirms it. It also says that when we face ambiguous information, we naturally interpret it in a way that is favorable to our belief. Confirmation bias is relevant for military leaders, executives, and investors, among others.[27]
+The primary barrier to updating beliefs is what psychologists call confirmation bias. This bias says that we are more likely to seek information that confirms our belief than information that disconfirms it. It also says that when we face ambiguous information, we naturally interpret it in a way that is favorable to our belief. Confirmation bias is relevant for military leaders, executives, and investors, among others.<sup>27</sup>
 
-Whereas the outside view or premortem help anticipate scenarios for the future by overcoming overconfidence, red-teaming seeks to bend a mind-set that has become too rigid by revealing alternative analyses. Michael Handle, formerly a professor at the U.S. Naval War College, wrote: "Clearly, the majority of failures to anticipate strategic surprise can be correlated with conceptual rigidity and a high incidence of perceptual continuity."[28] This is true, too, in the worlds of business and investing.
+Whereas the outside view or premortem help anticipate scenarios for the future by overcoming overconfidence, red-teaming seeks to bend a mind-set that has become too rigid by revealing alternative analyses. Michael Handle, formerly a professor at the U.S. Naval War College, wrote: "Clearly, the majority of failures to anticipate strategic surprise can be correlated with conceptual rigidity and a high incidence of perceptual continuity."<sup>28</sup> This is true, too, in the worlds of business and investing.
 
-# Mistake 4: Not imposing self-accountability.
+## Mistake 4: Not imposing self-accountability.
 
-# Solution: Maintain a decision-making journal.
+**Solution: Maintain a decision-making journal.**
 
-One of the challenges to learning in markets or business is that the environment constantly changes. You can anticipate outcomes only with some probability. As a result, sometimes good decisions turn out poorly and bad decisions turn out well. Since our minds are biased to assume that the outcome reflects the level of skill, keeping track of the quality of our decisions is difficult.[29] Most investment professionals and businesspeople don't keep track of how good their decisions were. They keep track of how things turned out as the result of their decisions.
+One of the challenges to learning in markets or business is that the environment constantly changes. You can anticipate outcomes only with some probability. As a result, sometimes good decisions turn out poorly and bad decisions turn out well. Since our minds are biased to assume that the outcome reflects the level of skill, keeping track of the quality of our decisions is difficult.<sup>29</sup> Most investment professionals and businesspeople don't keep track of how good their decisions were. They keep track of how things turned out as the result of their decisions.
 
 Over the long haul, of course, good decisions provide a much higher chance of desirable outcomes. But in the short run the link between decisions and results can be very loose. The primary way to focus attention on the decision-making process is to keep a journal that documents your thinking. This is how you impose accountability on yourself.
 
@@ -195,21 +275,21 @@ Your decision-making journal stops this process in its tracks. Because your prio
 
 When maintaining your journal, it is essential to describe your views using specific probabilities. For instance, saying "there's a 70 percent chance of rain tomorrow" is a lot better than saying "there's a good chance it will rain tomorrow." There are at least two reasons to express your expectations with numerical probabilities.
 
-The first reason is that language can be very ambiguous. Sherman Kent, the initial director of the CIA Office of National Estimates, asked 23 military officers to assign specific probabilities to various statements. For example, some statements, such as "almost certainly," consistently drew a probability of 80 percent or higher. Likewise, "chances are slight" generally meant a probability of 10 percent or less. But some statements had a wide range of assigned probabilities. "Probable" evoked a range from 25 to 90 percent. A statement that is so vague to its recipients is next to useless.[30]
+The first reason is that language can be very ambiguous. Sherman Kent, the initial director of the CIA Office of National Estimates, asked 23 military officers to assign specific probabilities to various statements. For example, some statements, such as "almost certainly," consistently drew a probability of 80 percent or higher. Likewise, "chances are slight" generally meant a probability of 10 percent or less. But some statements had a wide range of assigned probabilities. "Probable" evoked a range from 25 to 90 percent. A statement that is so vague to its recipients is next to useless.<sup>30</sup>
 
-Specific probabilities in your journal also allow you to keep score. This takes even more discipline, but can provide essential feedback. The Brier score is a classic way to measure the accuracy of probabilistic forecasts. $^{31}$  In its simplest form, a Brier score is the square of the error, where everything is expressed in percentages. For example, if you predict that it will rain tomorrow with 100 percent probability and it does, then the Brier score is zero  $(1.00 - 1)^{2}$ . A zero Brier score is a perfect forecast. If you predict rain tomorrow with 100 percent probability and it doesn't rain, then the Brier score is  $1.00(1.00 - 0)^{2}$ . A Brier score of one is the worst possible score.
+Specific probabilities in your journal also allow you to keep score. This takes even more discipline, but can provide essential feedback. The Brier score is a classic way to measure the accuracy of probabilistic forecasts. $^{31}$  In its simplest form, a Brier score is the square of the error, where everything is expressed in percentages. For example, if you predict that it will rain tomorrow with 100 percent probability and it does, then the Brier score is zero $(1.00 - 1)^{2}$. A zero Brier score is a perfect forecast. If you predict rain tomorrow with 100 percent probability and it doesn't rain, then your Brier score is $(1.00 - 0)^{2}$. A Brier score of one is the worst possible score.
 
-We can consider a slightly more complicated case. Say you predict rain with an 80 probability and it rains. Your Brier score is  $0.04(0.80 - 1)^2$ . If you predict rain with an 80 percent probability and it doesn't rain, then your Brier score is  $0.64(0.80 - 0)^2$ . A Brier score is like golf in that the lower the number the better your ability.
+We can consider a slightly more complicated case. Say you predict rain with an 80 percent probability and it rains. Your Brier score is $(0.80 - 1)^2$. If you predict rain with an 80 percent probability and it doesn't rain, then your Brier score is $(0.80 - 0)^2$. A Brier score is like golf in that the lower the number the better your ability.
 
 In forecasting, there are two key measures of accuracy. The first is calibration, which captures how well your subjective probabilities match the objective probabilities over time. To illustrate, if it rains 70 percent of the days when you predict a 70 percent chance of rain, you are well calibrated. This gauges whether you have the appropriate humility.
 
-The second measure is discrimination, which asks whether over the long haul you assign higher probabilities to things that actually occur. Lots of forecasts of 100 percent probability before rainy days and zero percent probability before sunny days would demonstrate good discrimination. This measure captures justified decisiveness.[32]
+The second measure is discrimination, which asks whether over the long haul you assign higher probabilities to things that actually occur. Lots of forecasts of 100 percent probability before rainy days and zero percent probability before sunny days would demonstrate good discrimination. This measure captures justified decisiveness.<sup>32</sup>
 
 Calibration and discrimination tend to be positively correlated, but they can diverge. Consider the simple prediction that it rains 50 percent of the days in London. This is close to the actual percentage of days that it rains, and hence would be well calibrated over time.
 
 But for planning picnics, you need discrimination. High discrimination would be a series of accurate predictions of rain where roughly half were zero percent probability and the other half 100 percent probability. In this case, both calibration and discrimination would be high, and the predictions would be very useful.
 
-Besides their work on heuristics and biases, Kahneman and Tversky are also known for prospect theory. This theory describes how the choices people make depart from normative economic theory when the decisions are in probabilistic settings and involve risk. For example, most people are loss averse, which means that they suffer from a loss roughly 2.0 - 2.5 times as much as they enjoy a comparable gain.[33]
+Besides their work on heuristics and biases, Kahneman and Tversky are also known for prospect theory. This theory describes how the choices people make depart from normative economic theory when the decisions are in probabilistic settings and involve risk. For example, most people are loss averse, which means that they suffer from a loss roughly 2.0 - 2.5 times as much as they enjoy a comparable gain.<sup>33</sup>
 
 After publishing on prospect theory, Kahneman and Tversky sought to quantify the psychological weights, called "decision weights," which people placed on different types of financial propositions. Exhibit 1 shows the results. Were subjective and objective probabilities to line up in a way consistent with theory, all decisions would land on the line at a 45 degree angle.
 
@@ -219,13 +299,13 @@ Source: Daniel Kahneman, Thinking, Fast and Slow (New York: Farrar, Straus and G
 
 In general, subjects offer accurate weights at the far extremes but have trouble in between. For instance, they tend to overweight low-probability events. Imagine you have a 1 percent chance of winning \$1 million, and you'll know the outcome tomorrow. You have some hope, but it is slim. Subjects place a decision weight of 5.5 percent on a 1 percent objective probability. Kahneman calls this the "possibility effect."
 
-Subjects also tend to underweight high probability events. Now let's say you have a 1 percent chance of not winning the \$1 million. Subjects assign a decision weight of 91.2 percent on a 99 percent objective probability. Anxiety over the possibility of losing is more salient than the hope of winning. Kahneman calls this the "certainty effect." These patterns in decision weights can be highly relevant in setting probabilities, especially near the extremes.[34]
+Subjects also tend to underweight high probability events. Now let's say you have a 1 percent chance of not winning the \$1 million. Subjects assign a decision weight of 91.2 percent on a 99 percent objective probability. Anxiety over the possibility of losing is more salient than the hope of winning. Kahneman calls this the "certainty effect." These patterns in decision weights can be highly relevant in setting probabilities, especially near the extremes.<sup>34</sup>
 
 A journal that chronicles your decisions allows you to get honest feedback about your thoughts and provides valuable material to help sharpen your forecasts. Our best advice is to be disciplined in maintaining your journal, to document your views in probabilities, and to periodically review your predictions and score yourself. Note the essential distinction between calibration and discrimination.
 
-# Mistake 5: Creating an environment that is not conducive to good decisions.
+## Mistake 5: Creating an environment that is not conducive to good decisions.
 
-# Solution: Be mindful of your surroundings and work to improve them.
+**Solution: Be mindful of your surroundings and work to improve them.**
 
 One idea that is well established in social psychology is the fundamental attribution error, or correspondence bias. This idea says that when we observe the behavior of others, we attribute that behavior to the individual's disposition and not to the situation. As important, there is substantial evidence that shows that the situation exerts a very powerful influence on the decisions that people make.
 
@@ -243,7 +323,7 @@ The first step in creating an environment favorable to good decisions is to audi
 
 For example, some investment firms that claim to have a long-term orientation focus disproportionately on the short term following a spell of poor results. Others claim to use a fundamental approach yet use charts to time trades. It is essential to align what you say you do with what you actually do. This is where checklists can act as guardrails to keep the organization consistent and true to its principles.
 
-Leaders of investment organizations must be particularly attuned to the environment they create. The role of stress is a good example. Some stress is good, of course, as it activates the body and mind and encourages focus. But too much stress is bad and causes the quality of decisions to deteriorate rapidly.[37]
+Leaders of investment organizations must be particularly attuned to the environment they create. The role of stress is a good example. Some stress is good, of course, as it activates the body and mind and encourages focus. But too much stress is bad and causes the quality of decisions to deteriorate rapidly.<sup>37</sup>
 
 Robert Sapolsky, a professor of biological sciences at Stanford University, is one of the world's foremost researchers on stress. $^{38}$  He suggests that for most of the animal world, stressors are generally physical: You're a zebra who becomes a lion's target for lunch. In those cases, the stress response kicks in and it's fight-or-flight. But once the emergency has passed, the body returns to its normal state. The stress response is extreme but short-lived.
 
@@ -263,11 +343,11 @@ If you lead an investment team, you may want to evaluate the environment you hav
 4. Are we structured so that we can keep track of the quality of our decisions—our process—as well as our outcomes? Are we communicating using probabilities instead of statements? How good are we at providing feedback?  
 5. Do we have the correct amount of stress in our organization? Have we had episodes where we've veered toward too much stress, hence affecting our decisions?
 
-# Summary
+## Summary
 
 No investment organization is perfect, and almost all seek to improve. There are a couple of paths to improvement. One is to get smarter and the other is to be less stupid. This report covered five common mistakes that investment firms make and offered practical guidance on how to cope with each of them. Each solution relies not on getting smarter but rather on fending off poor practices that you can fix.
 
-# Endnotes
+## Endnotes
 
 <sup>1</sup> Phil Birnbaum, "Eliminating Stupidity Is Easier than Creating Brilliance," *Sabermetric Research Blog*, June 13, 2013. See <http://blog.philbirnbaum.com/2013/06/eliminating-stupidity-is-easier-than.html>.  
 2 Atul Gawande, The Checklist Manifesto: How to Get Things Right (New York: Metropolitan Books, 2009), 168.  
@@ -310,9 +390,9 @@ $^{32}$  Philip E. Tetlock, *Expert Political Judgment: How Good Is It? How Can 
 <sup>38</sup> Robert Sapolsky, *Why Zebras Don't Get Ulcers: A Guide to Stress*, Stress-Related Disease, and Coping (New York: W.H. Freeman & Co., 1994).  
 39 http://www.lucifereffect.com/guide_tenstep.htm.
 
-# Appendix
+## Appendix
 
-# Zimbardo's Ten-Step Program to Build Resistance and Resilience<sup>39</sup>
+### Zimbardo's Ten-Step Program to Build Resistance and Resilience<sup>39</sup>
 
 Philip Zimbardo provides ten steps to help resist undesirable social influence. The steps also promote resilience and civic virtue.
 
@@ -327,7 +407,7 @@ Philip Zimbardo provides ten steps to help resist undesirable social influence. 
 9. Try not to sacrifice personal freedom for the illusion of security. The sacrifices tend to be real in the present but the security is illusory in the future.  
 10. Oppose unjust systems when you identify them as such. These include cults, gangs, families, and even corporations.
 
-# General disclaimer / Important information
+## General Disclaimer / Important Information
 
 This document was produced by and the opinions expressed are those of Credit Suisse as of the date of writing and are subject to change. It has been prepared solely for information purposes and for the use of the recipient. It does not constitute an offer or an invitation by or on behalf of Credit Suisse to any person to buy or sell any security. Nothing in this material constitutes investment, legal, accounting or tax advice, or a representation that any investment or strategy is suitable or appropriate to your individual circumstances, or otherwise constitutes a personal recommendation to you. The price and value of investments mentioned and any income that might accrue may fluctuate and may fall or rise. Any reference to past performance is not a guide to the future.
 

@@ -1,22 +1,64 @@
 ---
-parent_directory:
 title: "Netflix: Valuing a New Business Model"
-tags:
-aliases:
-parent_folder: Week 3
-subfolder:
-key_concepts:
+parent_directory: "PPHA Advanced Financial Analysis & Valuation"
+formatted: 2025-12-21 11:03:25 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - netflix business model
+  - streaming video transition
+  - content acquisition strategy
+  - subscriber pricing changes
+  - dvd rental industry
+secondary_tags:
+  - competitive analysis
+  - accounting challenges
+  - international expansion
+  - subscriber churn management
+  - cash flow valuation
+  - industry disruption
+  - fixed cost business model
+  - revenue sharing agreements
+  - off balance sheet liabilities
+  - insider stock sales
 cssclasses: academia
-linter-yaml-title-alias: "Netflix: Valuing a New Business Model"
 ---
 
-FRANCOIS BROCHET
-
-SURAJ SRINIVASAN
-
-MICHAEL NORRIS
-
 # Netflix: Valuing a New Business Model
+
+```d2
+direction: right
+
+1997: {
+  shape: circle
+  label: DVD-by-Mail\nSubscription Model
+  style.fill: "#4CAF50"
+  style.font-color: white
+}
+
+2007: {
+  shape: hexagon
+  label: Streaming\nLaunch
+  style.fill: "#FF9800"
+  style.font-color: white
+}
+
+2011: {
+  shape: square
+  label: Streaming-Focused\nBusiness Model
+  style.fill: "#2196F3"
+  style.font-color: white
+}
+
+1997 -> 2007: "Added streaming\nservice"
+2007 -> 2011: "Transition to core\nstreaming business"
+
+note: "Netflix Business Model Evolution" {
+  near: bottom-center
+  style.font-size: 14
+  style.fill: "#f5f5f5"
+}
+```
 
 Since its 1997 founding, Netflix had built a reputation for innovation and a \$3.2 billion business by offering film rentals on DVD discs through the mail. In 2007, Netflix expanded into streaming media, the instantaneous delivery of media to computers, set-top boxes, and mobile devices via a broadband Internet connection.<sup>1</sup> By 2011, the company was pursuing streaming as its core business. Underlying this change in business model was Netflix CEO Reed Hastings' belief that streaming video offered the potential for more future growth than DVD rentals. Hastings had been hopeful about the future of streaming for at least a decade, commenting as early as 2001 that the company hoped to offer streaming services in the future.<sup>2</sup> The shift to streaming created several new wrinkles for Netflix, including questions about content acquisition, business segmentation, plan pricing, and accounting.
 
@@ -30,21 +72,19 @@ At the same time, Netflix was engaged in international expansion. In 2010, Netfl
 
 The 2000s was a decade of transition for the home video rental industry, spearheaded by Netflix.
 
-Between 2006 and 2011, the \(6 billion physical DVD rental industry shrank at a \(10 \%\)annual rate, and was expected to continue to decline at a \(13 \%\)annual rate from 2011 to 2016 as consumers rapidly adopted streaming video services and downloaded media.\(7\)
+Between 2006 and 2011, the $6 billion physical DVD rental industry shrank at a $10\%$ annual rate, and was expected to continue to decline at a $13\%$ annual rate from 2011 to 2016 as consumers rapidly adopted streaming video services and downloaded media.(7)
 
-Before the entrance of Netflix, the industry had been dominated by Blockbuster and other brick-and-mortar chains of video rental stores. These stores carried a limited selection of videos with a heavy emphasis on new releases. They typically charged  $3 to$ 4 per rental and imposed late fees if the video was not returned within a specified time period. Netflix's monthly subscription, no late-fee, DVD-by-mail model upended the industry and eventually drove Blockbuster and many independent video rental stores into bankruptcy, according to analysts. New competitors renting physical DVDs from automated kiosks also emerged in the decade. One was Coinstar's Redbox, which was founded in 2002, and offered $1 to $2 DVD rentals at 30,000 kiosks throughout the country by 2011. Many such kiosks were conveniently located in supermarkets and convenience stores.
+Before the entrance of Netflix, the industry had been dominated by Blockbuster and other brick-and-mortar chains of video rental stores. These stores carried a limited selection of videos with a heavy emphasis on new releases. They typically charged $3 to $4 per rental and imposed late fees if the video was not returned within a specified time period. Netflix's monthly subscription, no late-fee, DVD-by-mail model upended the industry and eventually drove Blockbuster and many independent video rental stores into bankruptcy, according to analysts. New competitors renting physical DVDs from automated kiosks also emerged in the decade. One was Coinstar's Redbox, which was founded in 2002, and offered $1 to $2 DVD rentals at 30,000 kiosks throughout the country by 2011. Many such kiosks were conveniently located in supermarkets and convenience stores.
 
 By the end of the decade, though, more Netflix customers were choosing to stream media directly to their computers, set-top boxes, and other devices via the Internet than were renting DVDs, and the company was heavily focused on acquiring streaming content.
 
 # Netflix, Inc.
 
-Netflix was founded in 1997 after Hastings, a successful entrepreneur, found a rented copy of Apollo 13 in his closet and had to pay a  \$40 late fee on it. "I had misplaced the cassette. It was all my fault," Hastings explained. "I didn't want to tell my wife about it. And I said to myself, 'I'm going to compromise the integrity of my marriage over a late fee?' Later, on my way to the gym, I realized they [the gym] had a much better business model. You could pay\$ 30 or \$40 a month and work out as little or as much as you wanted."9
+Netflix was founded in 1997 after Hastings, a successful entrepreneur, found a rented copy of Apollo 13 in his closet and had to pay a \$40 late fee on it. "I had misplaced the cassette. It was all my fault," Hastings explained. "I didn't want to tell my wife about it. And I said to myself, 'I'm going to compromise the integrity of my marriage over a late fee?' Later, on my way to the gym, I realized they [the gym] had a much better business model. You could pay \$30 or \$40 a month and work out as little or as much as you wanted."9
 
 By 2000, Hastings had settled on a business model and launched Netflix. The company charged users a monthly subscription price for an unlimited number of rentals, with no late fees. Pricing was tiered based on how many DVDs a user had at any given time (i.e., having one DVD at a time cost less than having two DVDs at the same time). To use the Netflix service, users paid a monthly subscription fee via credit card, created a profile, set up a queue of movies they wanted to watch, and were mailed the DVDs via the U.S. Postal Service (USPS) when they reached the top of the queue. Netflix used the data generated from its subscriber base (more than one million accounts by 2003, more than 20 million by 2011) to create recommendations for every user. The recommendation engine reduced demand for new releases, which were traditionally the most popular to rent and typically the most expensive DVDs to buy, and drove demand for older or less heavily promoted movies. The company built a nationwide network of processing centers that allowed for one-day DVD delivery to much of the U.S., and monitored users' queues to make shipping more efficient. Netflix went public in 2002.[10] The company enjoyed steady subscriber growth through the decade as it added DVD and streaming content, fueling what Hastings described as a virtuous cycle of more subscribers creating more revenue, which allowed for more content purchases.[11]
 
-Headquartered in Los Gatos, California, Netflix employed more than 2,000 people worldwide in 2011, most of whom worked at its various U.S. DVD distribution facilities. Netflix boasted more than 20 million subscribers worldwide, the vast majority of whom were in the U.S. The company generated  \$3.2 billion in revenue in 2011, up \(48\%$  from 2010. (See Exhibits 3a through 3c for 2002-2011 financials.) Average monthly revenue per subscriber was \)11.84, down  $3\%$  from 2010. In July 2011, Netflix began requiring U.S. subscribers to subscribe separately to the streaming and DVD-by-mail segments of the business. After the addition of streaming services in 2007 and the international expansions of 2010 and
-
-2011, Netflix began operating in three business segments: domestic streaming, international streaming, and (domestic) DVDs by mail.
+Headquartered in Los Gatos, California, Netflix employed more than 2,000 people worldwide in 2011, most of whom worked at its various U.S. DVD distribution facilities. Netflix boasted more than 20 million subscribers worldwide, the vast majority of whom were in the U.S. The company generated \$3.2 billion in revenue in 2011, up $48\%$ from 2010. (See Exhibits 3a through 3c for 2002-2011 financials.) Average monthly revenue per subscriber was $11.84, down $3\%$ from 2010. In July 2011, Netflix began requiring U.S. subscribers to subscribe separately to the streaming and DVD-by-mail segments of the business. After the addition of streaming services in 2007 and the international expansions of 2010 and 2011, Netflix began operating in three business segments: domestic streaming, international streaming, and (domestic) DVDs by mail.
 
 # DVDs-by-Mail Business
 
@@ -54,7 +94,7 @@ Netflix began amassing its library of DVDs without any direct relationships to m
 
 Regardless of where the company got its DVDs, building a business around physical DVD rentals was simpler than with streaming content. Hastings explained the important difference between streaming content and DVDs: "U.S. laws enable anyone to buy a DVD and rent it [to others] as many times as they want. We can go to Wal-Mart, buy DVDs, and place them in our rental library. We don't need a license from the content owner to do so. Online content doesn't work like that. You have to negotiate the distribution rights with the studios."14 The law allowing the rental of physical DVDs without requiring permission from the copyright holder was known as the "First Sale Doctrine"; it was established by the U.S. Supreme Court in 1908.
 
-Accounting for DVDs Netflix accounted for DVDs as a long term asset that was amortized over a one-to threeyear period on its balance sheet. The DVDs were amortized on a "sum-of-th-months" accelerated basis over their estimated useful lives. The company estimated that the useful life of a new release DVD was one year, while the useful life of a back-catalog DVD was three years. The useful life of the DVD was determined by a combination of customer interest and the durability of the actual physical disc.
+Accounting for DVDs Netflix accounted for DVDs as a long term asset that was amortized over a one-to three-year period on its balance sheet. The DVDs were amortized on a "sum-of-th-months" accelerated basis over their estimated useful lives. The company estimated that the useful life of a new release DVD was one year, while the useful life of a back-catalog DVD was three years. The useful life of the DVD was determined by a combination of customer interest and the durability of the actual physical disc.
 
 # Streaming Video Business
 
@@ -62,13 +102,13 @@ The company acquired streaming content through licensing agreements with movie s
 
 Despite the complicated, expensive deals for streaming content, Hastings viewed streaming as the
 
-future of the industry, remarking in 2007, "We named the company Netflix [a name that combined the Internet and "flicks"-a slang term for movies] for a reason; we didn't name it DVDs-by-mail."15 He understood that offering streaming content to customers was a different business proposition than DVDs-by-mail because of its increased content acquisition costs.16 In addition, some analysts feared that Internet service providers (ISPs) would begin to target Netflix because the company's streaming video services would clog ISPs' networks. In autumn 2011, for example, Netflix's streaming services accounted for almost  $33\%$  of peak hours Internet bandwidth used globally.17
+future of the industry, remarking in 2007, "We named the company Netflix [a name that combined the Internet and "flicks"-a slang term for movies] for a reason; we didn't name it DVDs-by-mail."15 He understood that offering streaming content to customers was a different business proposition than DVDs-by-mail because of its increased content acquisition costs.16 In addition, some analysts feared that Internet service providers (ISPs) would begin to target Netflix because the company's streaming video services would clog ISPs' networks. In autumn 2011, for example, Netflix's streaming services accounted for almost $33\%$ of peak hours Internet bandwidth used globally.17
 
 Accounting for streaming content To account for streaming content, Netflix used the Financial Accounting Standards Board's (FASB) standard 63 (FAS 63). This standard specified that broadcasters should account for a license agreement as the purchase of rights. Three criteria had to be fulfilled in order for the rights to broadcast content to be considered an asset:18
 
-1. the cost of each title had to be known or reasonably determinable,  
-2. the title (or the source file in the case of digital content) must have been received by the broadcaster, and  
-3. the title had to be available for its first showing.
+1. The cost of each title had to be known or reasonably determinable,
+2. The title (or the source file in the case of digital content) must have been received by the broadcaster, and
+3. The title had to be available for its first showing.
 
 If content met all three criteria, FAS 63 stipulated that it should be recognized on the balance sheet and the income statement. On the balance sheet the total value of the licensed titles would be recorded as assets in the content library, and the total unpaid value of the licensed titles would be recorded as a liability (called content account payable) if it was due in less than one year, or as other non-current content liabilities if it was due in one year or later. On the income statement, companies had the choice of amortization method used (e.g., straight-line or accelerated) but were encouraged to use a method that reflected expected usage.
 
@@ -76,7 +116,7 @@ If content did not meet all three FAS 63 criteria, it would not be recorded as a
 
 # Subscribers
 
-Netflix's U.S. subscriber base of more than 20 million had steadily grown throughout the company's history. However, subscription cancellations were a major issue for the company. The subscriber mix from one month to the next could be very different. One analyst estimated that annual subscriber churn approached  $45\%$ .[19] Unsubscribing from Netflix was easy. Customers paid for their subscriptions on a monthly basis, unlike a magazine subscription which was typically prepaid for a year or more. When a user unsubscribed from Netflix, his or her account details and queue of upcoming movies or TV shows to watch were saved, making it easy to unsubscribe and resubscribe later. Netflix offered the first month of service free to all new users, so users could potentially unsubscribe and resubscribe with a different email address, street address, or credit card number and get multiple months of service free of charge.
+Netflix's U.S. subscriber base of more than 20 million had steadily grown throughout the company's history. However, subscription cancellations were a major issue for the company. The subscriber mix from one month to the next could be very different. One analyst estimated that annual subscriber churn approached $45\%$.[19] Unsubscribing from Netflix was easy. Customers paid for their subscriptions on a monthly basis, unlike a magazine subscription which was typically prepaid for a year or more. When a user unsubscribed from Netflix, his or her account details and queue of upcoming movies or TV shows to watch were saved, making it easy to unsubscribe and resubscribe later. Netflix offered the first month of service free to all new users, so users could potentially unsubscribe and resubscribe with a different email address, street address, or credit card number and get multiple months of service free of charge.
 
 The company understood the importance of its large subscriber base. Netflix could leverage its subscribers to compel movie studios and TV networks to agree to content deals, and could finance those deals with the consistent monthly payments of its subscribers. The company noted, "If our efforts to satisfy our existing subscribers are not successful, we may not be able to attract subscribers, and as a result, our ability to maintain and/or grow our business will be adversely affected."20
 
@@ -84,7 +124,7 @@ The company understood the importance of its large subscriber base. Netflix coul
 
 Netflix's main competitors in DVDrental operated in two different business models, rental kiosks and rental stores, while its streaming competitors used several business models.
 
-DVD competitors Redbox operated DVD rental kiosks throughout the U.S. The company charged \(1 per rental per day in most locations, although prices varied for Blu-ray movies or video games. Users were required to use a credit or debit card to rent their movie, and the company automatically charged late fees for rentals that were not returned on time.[21] Blockbuster operated about 2,500 stores worldwide in 2011, about half of which were located outside the U.S. The company also offered DVDs-by-mail, streaming video service, and DVD-renal kiosks.[22]
+DVD competitors Redbox operated DVD rental kiosks throughout the U.S. The company charged $1 per rental per day in most locations, although prices varied for Blu-ray movies or video games. Users were required to use a credit or debit card to rent their movie, and the company automatically charged late fees for rentals that were not returned on time.[21] Blockbuster operated about 2,500 stores worldwide in 2011, about half of which were located outside the U.S. The company also offered DVDs-by-mail, streaming video service, and DVD-rental kiosks.[22]
 
 Ad-supported streaming video Companies including CBS, Hulu (a joint venture between NBC Universal, News Corp., and Disney), YouTube (owned by Google), and other television networks offered advertising-supported streaming video content. The amount and quality of content on these ad-supported sites varied, from the hundreds of millions of hours of user-generated content on YouTube to the range of current and past CBS shows on CBS.com, to the variety of TV shows and movies available on Hulu. These websites were free to use and did not require subscriptions; however, some ad-supported sites required users to create a profile and verify their age before they could watch more-mature content. In addition, the range of content could change without notice, and access to back-catalog programming could be limited.
 
@@ -96,11 +136,9 @@ TV Everywhere Netflix considered subscription-based services known as TV Everywh
 
 # Analyst Reactions
 
-Analysts offered mixed reactions to Netflix's shift from a DVD-focused to a streaming-focused
+Analysts offered mixed reactions to Netflix's shift from a DVD-focused to a streaming-focused company. They understood the rapid transition from physical to digital in all forms of media, and knew that Netflix had little choice but to embrace streaming. Some analysts raised issues with Netflix's business model that they believed could make it difficult for the company to succeed, while others came to the company's defense.
 
-company. They understood the rapid transition from physical to digital in all forms of media, and knew that Netflix had little choice but to embrace streaming. Some analysts raised issues with Netflix's business model that they believed could make it difficult for the company to succeed, while others came to the company's defense.
-
-Accounting Before it began investing heavily in streaming content in 2010, Netflix bought its DVDs on a month-to-month basis and amortized them over a oneto three-year period, resulting in about  $40\%$  amortization of assets each quarter.[24] Once it began investing in streaming content, its costs to acquire assets became larger: threeto five-year contracts that posed high up-front costs. These assets were amortized over the life of the streaming contract, rather than the useful life of an individual film or TV title. By the second quarter of 2011, Netflix's quarterly amortization of its content had dropped to about  $24\%$ .[25] Analysts questioned the validity of amortizing the same film over a longer time period based on it being in streaming format rather than a physical DVD. One analyst noted, "This dynamic has eroded the quality of Netflix's earnings and has led to a large disparity between its cash flow and accrual earnings."[26] Other analysts defended Netflix's accounting practices, however. One analyst thought that Netflix's accounting, "could be viewed as conservative… . We expect healthy subscriber growth over time and by amortizing the content on straight-line basis, Netflix is actually initially amortizing the costs of a lower subscriber base and ultimately lower revenue base (assuming subscribers continue to grow).[27]\n\n
+Accounting Before it began investing heavily in streaming content in 2010, Netflix bought its DVDs on a month-to-month basis and amortized them over a one-to three-year period, resulting in about $40\%$ amortization of assets each quarter.[24] Once it began investing in streaming content, its costs to acquire assets became larger: threeto five-year contracts that posed high up-front costs. These assets were amortized over the life of the streaming contract, rather than the useful life of an individual film or TV title. By the second quarter of 2011, Netflix's quarterly amortization of its content had dropped to about $24\%$.[25] Analysts questioned the validity of amortizing the same film over a longer time period based on it being in streaming format rather than a physical DVD. One analyst noted, "This dynamic has eroded the quality of Netflix's earnings and has led to a large disparity between its cash flow and accrual earnings."[26] Other analysts defended Netflix's accounting practices, however. One analyst thought that Netflix's accounting, "could be viewed as conservative… . We expect healthy subscriber growth over time and by amortizing the content on straight-line basis, Netflix is actually initially amortizing the costs of a lower subscriber base and ultimately lower revenue base (assuming subscribers continue to grow).[27]\n\n
 
 Off-balance-sheet obligations Analysts also worried about the amount of streaming content commitments that Netflix did not list on its balance sheet because they did not fall under FAS 63. Some were concerned that Netflix would not have enough future revenue to pay for its streaming content commitments when they came due.[28] (Exhibit 4 shows Netflix's content library and liabilities, Exhibit 5 shows the company's off-balance-sheet commitments, and Exhibit 6 shows the growth in Netflix's content acquisition costs.) As Netflix noted in its SEC filings, however, its off-balance-sheet obligations could be much higher than those currently acknowledged: "The company has entered into certain license agreements … It is unknown whether the company will receive access to these titles or what the ultimate price per title will be. Accordingly such amounts are not reflected … However such amounts are expected to be significant."[29] Analysts defended Netflix's methods, however, claiming they were similar to those used by other media companies.[30]
 
@@ -112,13 +150,68 @@ Insider sales A final point that concerned some analysts was the high level of i
 
 # The Strategic Shift
 
-In November 2010, Netflix offered its first streaming-only subscription:  \$7.99/month for unlimited viewing. At this point, the most popular subscription offered by Netflix was\$ 9.99/month for an unlimited number of DVD rentals (with one DVD out at a time) and unlimited streaming. However, the company had already begun to view streaming as the core future business and, as one manager noted, "DVDs by mail was treated as a \$2 add-on to our unlimited streaming plan."34
+In November 2010, Netflix offered its first streaming-only subscription: \$7.99/month for unlimited viewing. At this point, the most popular subscription offered by Netflix was \$9.99/month for an unlimited number of DVD rentals (with one DVD out at a time) and unlimited streaming. However, the company had already begun to view streaming as the core future business and, as one manager noted, "DVDs by mail was treated as a \$2 add-on to our unlimited streaming plan."34
 
-On July 12, 2011, with Netflix's stock trading at \(291/ share, the company announced a major change in subscription plans and pricing. Subscribers would no longer be able to combine DVD rentals and streaming video in one account. Users could subscribe to a DVD-only plan for \)7.99/month, a streaming-only plan for \$7.99/month or, if they wanted both features, they could sign up for both plans independently for their combined cost, \$15.98/month. This change amounted to a 60% price hike for those customers who wanted to continue to get DVDs and streaming video, which was previously offered for \)9.99/month. Customers were unhappy with the increase in price and many threatened to drop the service when the price change went into effect on September 1.[35] Netflix's stock started a swift decline, dropping about 3% per week for the next several weeks.
+On July 12, 2011, with Netflix's stock trading at $291 per share, the company announced a major change in subscription plans and pricing. Subscribers would no longer be able to combine DVD rentals and streaming video in one account. Users could subscribe to a DVD-only plan for $7.99/month, a streaming-only plan for $7.99/month or, if they wanted both features, they could sign up for both plans independently for their combined cost, $15.98/month. This change amounted to a 60% price hike for those customers who wanted to continue to get DVDs and streaming video, which was previously offered for $9.99/month.
 
-Despite customer complaints, Netflix kept its price change in place and moved one step further with an announcement on September 18 (as the company's stock was trading at \(143/share) of plans to rebrand its DVD-by-mail service as Qwikster. In a blog post,[36] Hastings described that the new service would be housed on an independent website and require customers to create new accounts on www.qwikster.com; the new service would not be integrated with Netflix's billing, recommendation, or queue systems. The company's streaming service would remain under the Netflix brand. In addition, Hastings announced that Qwikster would begin offering video game rentals, something Netflix had never done. Customers reacted to this announcement with more anger; almost 30,000 people commented on Hastings' blog post, many of whom announced their plans to cancel their subscriptions.[37]
+```d2
+direction: down
 
-On October 10, with a stock price of \$111 per share, just 22 days after announcing Qwikster, Hastings responded to the criticism with a simple statement: "no change: one website, one account, one password … in other words, no Qwikster."38 DVD rentals would stay at Netflix.
+old_plan: {
+  label: "OLD PLAN\n(Before July 2011)"
+  shape: rectangle
+  style.fill: "#4CAF50"
+  style.font-color: white
+
+  details: "$9.99/month\n• Unlimited DVDs (1 at a time)\n• Unlimited streaming\n• Combined service"
+}
+
+new_plans: {
+  label: "NEW PLANS\n(After July 2011)"
+  shape: rectangle
+  style.fill: "#F44336"
+  style.font-color: white
+}
+
+dvd_only: {
+  label: "DVD Only\n$7.99/month"
+  shape: square
+  style.fill: "#FF9800"
+}
+
+streaming_only: {
+  label: "Streaming Only\n$7.99/month"
+  shape: square
+  style.fill: "#2196F3"
+}
+
+both_separate: {
+  label: "Both Services\n$15.98/month total"
+  shape: square
+  style.fill: "#9C27B0"
+  style.font-color: white
+}
+
+old_plan -> new_plans: "Split services"
+new_plans -> dvd_only
+new_plans -> streaming_only
+dvd_only -> both_separate: "+"
+streaming_only -> both_separate: "="
+
+price_increase: {
+  label: "60% PRICE INCREASE\nfor combined service"
+  shape: diamond
+  style.fill: "#F44336"
+  style.font-color: white
+  near: bottom-center
+}
+```
+
+Customers were unhappy with the increase in price and many threatened to drop the service when the price change went into effect on September 1.[35] Netflix's stock started a swift decline, dropping about 3% per week for the next several weeks.
+
+Despite customer complaints, Netflix kept its price change in place and moved one step further with an announcement on September 18 (as the company's stock was trading at $143/share) of plans to rebrand its DVD-by-mail service as Qwikster. In a blog post,[36] Hastings described that the new service would be housed on an independent website and require customers to create new accounts on www.qwikster.com; the new service would not be integrated with Netflix's billing, recommendation, or queue systems. The company's streaming service would remain under the Netflix brand. In addition, Hastings announced that Qwikster would begin offering video game rentals, something Netflix had never done. Customers reacted to this announcement with more anger; almost 30,000 people commented on Hastings' blog post, many of whom announced their plans to cancel their subscriptions.[37]
+
+On October 10, with a stock price of $111 per share, just 22 days after announcing Qwikster, Hastings responded to the criticism with a simple statement: "no change: one website, one account, one password … in other words, no Qwikster."38 DVD rentals would stay at Netflix.
 
 # What Should Netflix Order Next?
 
@@ -130,7 +223,7 @@ Source: Casewriter, from Thomson Reuters Datastream, accessed December 2016.
 
 Exhibit 2 Netflix Quarterly Subscriber Growth and Subscriber Acquisition Cost  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/9f674680-e1c0-4f57-a811-e6fc27ee620c/c7db8839261d63c6525eacb2717ca2c46c9b99aca6a32fb899b87d70c850723c.jpg)  
-Source: Casewriter, Netflix 10Q filings, 1Q 2008-4Q 2011, http://ir.nsflicom/sec.cfm?DocType=Quarterly&Year=&FormatFilter=, accessed December 2016.
+Source: Casewriter, Netflix 10Q filings, 1Q 2008-4Q 2011, http://ir.netflix.com/sec.cfm?DocType=Quarterly&Year=&FormatFilter=, accessed December 2016.
 
 Exhibit 3a Condensed Consolidated Statement of Operations, 2002-2011 (in $ thousands, except share and par value data)  
 
@@ -147,13 +240,13 @@ Exhibit 3b Condensed Consolidated Balance Sheet Data 2002-2011 (in $ thousands, 
 
 <table><tr><td></td><td>2002</td><td>2003</td><td>2004</td><td>2005</td><td>2006</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td><td>2011</td></tr><tr><td colspan="11">Assets</td></tr><tr><td>Cash and cash equivalents</td><td>59,814</td><td>89,894</td><td>174,461</td><td>212,256</td><td>400,430</td><td>177,439</td><td>139,881</td><td>134,224</td><td>194,499</td><td>508,053</td></tr><tr><td>Short-term investments</td><td>43,796</td><td>45,297</td><td>0</td><td>0</td><td>0</td><td>207,703</td><td>157,390</td><td>186,018</td><td>155,888</td><td>289,758</td></tr><tr><td>Prepaid expenses</td><td>2,753</td><td>2,231</td><td>2,741</td><td>7,848</td><td>4,742</td><td>6,116</td><td>8,122</td><td>12,491</td><td>62,217</td><td>56,007</td></tr><tr><td>Prepaid revenue sharing expenses</td><td>303</td><td>905</td><td>4,695</td><td>5,252</td><td>9,456</td><td>6,983</td><td>18,417</td><td>17,133</td><td>0</td><td>0</td></tr><tr><td>Current content library, net</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>16,301</td><td>18,691</td><td>37,329</td><td>181,006</td><td>919,709</td></tr><tr><td>Deferred tax assets</td><td>0</td><td>0</td><td>0</td><td>13,666</td><td>3,155</td><td>2,254</td><td>5,617</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Other current assets</td><td>409</td><td>619</td><td>5,449</td><td>4,669</td><td>10,635</td><td>15,627</td><td>13,329</td><td>23,818</td><td>43,621</td><td>57,330</td></tr><tr><td>Total current assets</td><td>107,075</td><td>138,946</td><td>187,346</td><td>243,691</td><td>428,418</td><td>432,423</td><td>361,447</td><td>411,013</td><td>637,231</td><td>1,830,857</td></tr><tr><td>Content library, net</td><td>9,972</td><td>22,238</td><td>42,158</td><td>57,032</td><td>104,908</td><td>112,070</td><td>98,547</td><td>108,810</td><td>180,973</td><td>1,046,934</td></tr><tr><td>Intangible assets, net</td><td>6,094</td><td>2,948</td><td>961</td><td>457</td><td>969</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Property and equipment, net</td><td>5,620</td><td>9,772</td><td>18,728</td><td>40,213</td><td>55,503</td><td>113,175</td><td>124,948</td><td>131,653</td><td>128,570</td><td>136,353</td></tr><tr><td>Deposits</td><td>0</td><td>0</td><td>0</td><td>1,249</td><td>1,316</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Deferred tax assets</td><td>1,690</td><td>1,272</td><td>1,600</td><td>21,239</td><td>15,600</td><td>16,865</td><td>22,409</td><td>15,958</td><td>17,467</td><td>28,300</td></tr><tr><td>Other assets</td><td>79</td><td>836</td><td>1,000</td><td>800</td><td>2,065</td><td>4,465</td><td>10,595</td><td>12,300</td><td>17,826</td><td>26,752</td></tr><tr><td>Total assets</td><td>130,530</td><td>176,012</td><td>251,793</td><td>364,681</td><td>608,779</td><td>678,998</td><td>617,946</td><td>679,734</td><td>982,067</td><td>3,069,196</td></tr><tr><td colspan="11">Liabilities and Stockholders&#x27; Equity</td></tr><tr><td colspan="11">Current liabilities:</td></tr><tr><td>Accounts payable</td><td>20,350</td><td>32,654</td><td>49,775</td><td>63,491</td><td>93,864</td><td>99,951</td><td>100,344</td><td>91,475</td><td>222,824</td><td>1,012,566</td></tr><tr><td>Accrued expenses</td><td>9,102</td><td>11,625</td><td>13,131</td><td>25,563</td><td>29,905</td><td>36,466</td><td>31,394</td><td>33,387</td><td>36,489</td><td>61,374</td></tr><tr><td>Current portion lease financing obligations</td><td>1,231</td><td>416</td><td>68</td><td>0</td><td>0</td><td>823</td><td>1,152</td><td>1,410</td><td>2,083</td><td>2,319</td></tr><tr><td>Deferred revenue</td><td>9,743</td><td>18,324</td><td>31,936</td><td>48,533</td><td>69,678</td><td>71,665</td><td>83,127</td><td>100,097</td><td>127,183</td><td>148,796</td></tr><tr><td>Total current liabilities</td><td>40,426</td><td>63,019</td><td>94,910</td><td>137,587</td><td>193,447</td><td>208,905</td><td>216,017</td><td>226,369</td><td>388,579</td><td>1,225,055</td></tr><tr><td>Long-term debt</td><td>288</td><td>241</td><td>600</td><td>0</td><td>0</td><td>0</td><td>0</td><td>200,000</td><td>200,000</td><td>200,000</td></tr><tr><td>Long-term debt due to related party</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>200,000</td></tr><tr><td>Lease financing obligations, excluding current portion</td><td>460</td><td>44</td><td>0</td><td>842</td><td>1,121</td><td>35,652</td><td>37,988</td><td>36,572</td><td>34,123</td><td>31,800</td></tr><tr><td>Other liabilities</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4,629</td><td>16,786</td><td>17,650</td><td>69,201</td><td>769,531</td></tr><tr><td>Total liabilities</td><td>41,174</td><td>63,304</td><td>95,510</td><td>138,429</td><td>194,568</td><td>249,186</td><td>270,791</td><td>480,591</td><td>691,903</td><td>2,426,386</td></tr><tr><td colspan="11">Stockholders&#x27; equity:</td></tr><tr><td>Common stock</td><td>45</td><td>51</td><td>53</td><td>55</td><td>69</td><td>65</td><td>62</td><td>53</td><td>53</td><td>55</td></tr><tr><td>Additional paid-in capital</td><td>260,044</td><td>270,836</td><td>292,843</td><td>315,868</td><td>454,731</td><td>402,710</td><td>338,577</td><td>0</td><td>51,622</td><td>219,119</td></tr><tr><td>Deferred stock-based compensation</td><td>-11,702</td><td>-5,482</td><td>-4,693</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Treasury stock at cost</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-100,020</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Accumulated other comprehensive income</td><td>774</td><td>596</td><td>-222</td><td>0</td><td>0</td><td>1,611</td><td>84</td><td>273</td><td>750</td><td>706</td></tr><tr><td>Retained earnings</td><td>-159,805</td><td>-153,293</td><td>-131,698</td><td>-89,671</td><td>-40,589</td><td>25,426</td><td>108,452</td><td>198,817</td><td>237,739</td><td>422,930</td></tr><tr><td>Total stockholders&#x27; equity</td><td>89,356</td><td>112,708</td><td>156,283</td><td>226,252</td><td>414,211</td><td>429,812</td><td>347,155</td><td>199,143</td><td>290,164</td><td>642,810</td></tr><tr><td>Total liabilities and stockholders&#x27; equity</td><td>130,530</td><td>176,012</td><td>251,793</td><td>364,681</td><td>608,779</td><td>678,998</td><td>617,946</td><td>679,734</td><td>982,067</td><td>3,069,196</td></tr></table>
 
-Source: Netflix, Inc. Form 10-K, 2002-2011, http://irNetflix.com/sec.cfm?DocType=Quarterly&Year=&FormatFilter=, accessed April 2017.
+Source: Netflix, Inc. Form 10-K, 2002-2011, http://ir.netflix.com/sec.cfm?DocType=Quarterly&Year=&FormatFilter=, accessed April 2017.
 
 Exhibit 3c Condensed Consolidated Statements of Cash Flow, 2002-2011 (in $ thousands, except share and par value data)  
 
 <table><tr><td></td><td>2002</td><td>2003</td><td>2004</td><td>2005</td><td>2006</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td><td>2011</td></tr><tr><td colspan="11">Cash Flows from operating activities:</td></tr><tr><td>Net income</td><td>-20,948</td><td>6,512</td><td>21,595</td><td>42,027</td><td>49,082</td><td>66,608</td><td>83,026</td><td>115,860</td><td>160,853</td><td>226,126</td></tr><tr><td colspan="11">Adjustments to reconcile net income to net cash provided by:</td></tr><tr><td>Acquisition of streaming content library</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-34,821</td><td>-48,290</td><td>-64,217</td><td>-406,210</td><td>-2,320,732</td></tr><tr><td>Change in streaming content liabilities</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-4,014</td><td>167,836</td><td>1,460,400</td></tr><tr><td>Amortization of content library*</td><td>20,558</td><td>46,271</td><td>82,333</td><td>96,883</td><td>141,160</td><td>203,415</td><td>209,757</td><td>319,490</td><td>300,596</td><td>795,872</td></tr><tr><td>Depreciation / amortization of property and equipment and intangibles</td><td>5,919</td><td>4,720</td><td>5,871</td><td>9,134</td><td>16,648</td><td>22,219</td><td>32,454</td><td>38,044</td><td>38,099</td><td>43,747</td></tr><tr><td>Stock-based compensation expense</td><td>8,832</td><td>10,719</td><td>16,587</td><td>14,327</td><td>12,696</td><td>11,976</td><td>12,264</td><td>12,618</td><td>27,996</td><td>61,582</td></tr><tr><td>Excess tax benefits from stock-based compensation</td><td>0</td><td>0</td><td>176</td><td>0</td><td>-13,217</td><td>-26,248</td><td>-5,220</td><td>-12,683</td><td>-62,214</td><td>-45,784</td></tr><tr><td>Other non-cash items</td><td>9,750</td><td>-1,501</td><td>-2,459</td><td>-3,577</td><td>-9,294</td><td>-15,158</td><td>-15,754</td><td>-8,944</td><td>-9,128</td><td>-4,050</td></tr><tr><td>Deferred taxes</td><td>0</td><td>0</td><td>0</td><td>-34,905</td><td>15,988</td><td>-893</td><td>-8,427</td><td>6,328</td><td>-962</td><td>-18,597</td></tr><tr><td colspan="11">Changes in operating assets and liabilities:</td></tr><tr><td>Prepaid expenses and other current assets</td><td>-44</td><td>-290</td><td>-9,130</td><td>-4,884</td><td>-7,064</td><td>-3,893</td><td>-4,181</td><td>-5,358</td><td>-18,027</td><td>-4,775</td></tr><tr><td>Prepaid content</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-5,643</td><td>-35,476</td><td>6,211</td></tr><tr><td>Accounts payable</td><td>6,635</td><td>12,304</td><td>17,121</td><td>8,246</td><td>3,208</td><td>16,555</td><td>7,111</td><td>1,537</td><td>18,098</td><td>24,314</td></tr><tr><td>Accrued expenses</td><td>4,558</td><td>2,523</td><td>1,506</td><td>12,432</td><td>17,559</td><td>32,809</td><td>-1,824</td><td>13,169</td><td>67,209</td><td>68,902</td></tr><tr><td>Deferred revenue</td><td>4,806</td><td>8,581</td><td>13,612</td><td>16,597</td><td>21,145</td><td>1,987</td><td>11,462</td><td>16,970</td><td>27,086</td><td>21,613</td></tr><tr><td>Other assets and liabilities</td><td>48</td><td>-47</td><td>359</td><td>242</td><td>279</td><td>2,868</td><td>11,659</td><td>1,906</td><td>645</td><td>2,883</td></tr><tr><td>Net cash provided by operating activities</td><td>40,114</td><td>89,792</td><td>147,571</td><td>157,507</td><td>248,190</td><td>277,424</td><td>284,037</td><td>325,063</td><td>276,401</td><td>317,712</td></tr><tr><td colspan="11">Cash flows from investing activities</td></tr><tr><td>Acquisition of content library</td><td>-24,070</td><td>-55,620</td><td>-102,971</td><td>-111,446</td><td>-169,528</td><td>-208,647</td><td>-162,849</td><td>-193,044</td><td>-123,901</td><td>-85,154</td></tr><tr><td>Purchases of short-term investments</td><td>-43,022</td><td>-1,679</td><td>-586</td><td>0</td><td>0</td><td>-405,340</td><td>-256,959</td><td>-228,000</td><td>-107,362</td><td>-223,750</td></tr><tr><td>Proceeds from sale of short-term investments</td><td>0</td><td>0</td><td>45,013</td><td>0</td><td>0</td><td>200,832</td><td>307,333</td><td>166,706</td><td>120,857</td><td>50,993</td></tr><tr><td>Proceeds from maturities of short-term investments</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>35,673</td><td>15,818</td><td>38,105</td></tr><tr><td>Purchases of property and equipment</td><td>-2,751</td><td>-8,872</td><td>-14,962</td><td>-27,653</td><td>-27,333</td><td>-44,256</td><td>-43,790</td><td>-45,932</td><td>-33,837</td><td>-49,682</td></tr><tr><td>Acquisition of intangible asset</td><td>0</td><td>0</td><td>0</td><td>-481</td><td>-585</td><td>-550</td><td>-1,062</td><td>-200</td><td>-505</td><td>0</td></tr><tr><td>Proceeds from sale of DVDs</td><td>1,988</td><td>1,833</td><td>5,617</td><td>5,781</td><td>12,909</td><td>21,640</td><td>18,368</td><td>11,164</td><td>12,919</td><td>3,674</td></tr><tr><td>Investment in business</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-6,000</td><td>7,483</td><td>0</td><td>0</td></tr><tr><td>Other assets</td><td>554</td><td>-339</td><td>-492</td><td>551</td><td>-1,332</td><td>297</td><td>-1</td><td>71</td><td>-70</td><td>0</td></tr><tr><td>Net cash provided by (used in) investing activities</td><td>-67,301</td><td>-64,677</td><td>-68,381</td><td>-133,248</td><td>-185,869</td><td>-436,024</td><td>-144,960</td><td>-246,079</td><td>-116,081</td><td>-265,814</td></tr><tr><td colspan="11">Cash flows from financing activities:</td></tr><tr><td>Principal payments of lease financing obligations</td><td>-17,144</td><td>-1,334</td><td>-436</td><td>-79</td><td>-328</td><td>-390</td><td>-823</td><td>-1,158</td><td>-1,776</td><td>-2,083</td></tr><tr><td>Proceeds from issuance of common stock</td><td>88,020</td><td>6,299</td><td>6,035</td><td>13,393</td><td>112,964</td><td>9,609</td><td>18,872</td><td>35,274</td><td>49,776</td><td>19,614</td></tr><tr><td>Excess tax benefits from stock-based compensation</td><td>0</td><td>0</td><td>0</td><td>0</td><td>13,217</td><td>26,248</td><td>5,220</td><td>12,683</td><td>62,214</td><td>45,784</td></tr><tr><td>Borrowings on line of credit, net issuance costs and payments</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-1,022</td><td>0</td><td>0</td></tr><tr><td>Net proceeds from public offering of common stock</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>199,947</td></tr><tr><td>Proceeds from issuance of debt, net of issuance costs</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>193,917</td><td>0</td><td>198,060</td></tr><tr><td>Repurchases of common stock</td><td>-6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-99,858</td><td>-199,904</td><td>-324,335</td><td>-210,259</td><td>-199,666</td></tr><tr><td>Net cash (used in) provided by financing activities</td><td>70,870</td><td>4,965</td><td>5,599</td><td>13,314</td><td>125,853</td><td>-64,391</td><td>-176,635</td><td>-84,641</td><td>-100,045</td><td>261,656</td></tr><tr><td>Effect of exchange rate on cash</td><td>0</td><td>0</td><td>-222</td><td>222</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Net increase (decrease) in cash and cash equivalents</td><td>43,683</td><td>30,080</td><td>84,567</td><td>37,795</td><td>188,174</td><td>-222,991</td><td>-37,558</td><td>-5,657</td><td>60,275</td><td>313,554</td></tr><tr><td>Cash and cash equivalents, beginning of period</td><td>16,131</td><td>59,814</td><td>89,894</td><td>174,461</td><td>212,256</td><td>400,430</td><td>177,439</td><td>139,881</td><td>134,224</td><td>194,499</td></tr><tr><td>Cash and cash equivalents, end of period</td><td>59,814</td><td>89,894</td><td>174,461</td><td>212,256</td><td>400,430</td><td>177,439</td><td>139,881</td><td>134,224</td><td>194,499</td><td>508,053</td></tr></table>
 
-Source: Netflix, Inc. Form 10-K, 2002-2011, http://ir.nsflicom/sec.cfm?DocType=Quarterly&Year=&FormatFilter=, accessed April 2017.
+Source: Netflix, Inc. Form 10-K, 2002-2011, http://ir.netflix.com/sec.cfm?DocType=Quarterly&Year=&FormatFilter=, accessed April 2017.
 
 Exhibit 4 Netflix's Content Library and Content Liabilities, 2010 and 2011 (\$ thousands)  
 
@@ -165,9 +258,9 @@ Source: Netflix, 2011 10K.
 
 Exhibit 5 Netflix's Off-Balance Sheet (non-FAS 63) Commitments by Contract Length as of December 31, 2011  
 
-<table><tr><td>Contractual Obligations (thousands)</td><td>Less Than 1 Year</td><td>1-3 Years</td><td>3-5 Years</td><td>More Than 5 Years</td><td>Total</td></tr><tr><td>Streaming content obligations</td><td>$797,649</td><td>$2,384,373</td><td>$650,480</td><td>$74,696</td><td>\$3,907,198</td></tr></table>
+<table><tr><td>Contractual Obligations (thousands)</td><td>Less Than 1 Year</td><td>1-3 Years</td><td>3-5 Years</td><td>More Than 5 Years</td><td>Total</td></tr><tr><td>Streaming content obligations</td><td>$797,649</td><td>$2,384,373</td><td>$650,480</td><td>$74,696</td><td>$3,907,198</td></tr></table>
 
-Source: Compiled by casewritter from Netflix, Inc., "Netflix Streaming Content Accounting," http://ir.nsf1x.com, accessed December 2016.
+Source: Compiled by casewritter from Netflix, Inc., "Netflix Streaming Content Accounting," http://ir.netflix.com, accessed December 2016.
 
 Exhibit 6 Netflix's Growing Costs of Content Acquisition, 1Q 2008-4Q 2011 (in $ millions)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/9f674680-e1c0-4f57-a811-e6fc27ee620c/19b42baee6a21656a852b8f393bc6e13649c5646dfff15320864ff4f79cd8a11.jpg)  
@@ -179,7 +272,7 @@ Source: Compiled by casewritter from Netflix 10-Q reports, 1Q 2008 through 4Q 20
 
 Exhibit 8 Analyst Price Targets  
 
-<table><tr><td>Analyst</td><td>Price Target, Spring 2011</td><td>Price Target, Fall 2011</td></tr><tr><td>Canaccord Genuity</td><td>$300 - BUY</td><td>$60 - SELL</td></tr><tr><td>Piper Jaffray</td><td>$280 - BUY</td><td>$100 - BUY</td></tr><tr><td>Credit Suisse</td><td>$280 - BUY</td><td>$100 - BUY</td></tr><tr><td>Janney Capital Markets</td><td>\$170 - SELL</td><td>\$51 - SELL</td></tr><tr><td>Oppenheimer</td><td>$360 - BUY</td><td>$100 - BUY</td></tr></table>
+<table><tr><td>Analyst</td><td>Price Target, Spring 2011</td><td>Price Target, Fall 2011</td></tr><tr><td>Canaccord Genuity</td><td>$300 - BUY</td><td>$60 - SELL</td></tr><tr><td>Piper Jaffray</td><td>$280 - BUY</td><td>$100 - BUY</td></tr><tr><td>Credit Suisse</td><td>$280 - BUY</td><td>$100 - BUY</td></tr><tr><td>Janney Capital Markets</td><td>$170 - SELL</td><td>$51 - SELL</td></tr><tr><td>Oppenheimer</td><td>$360 - BUY</td><td>$100 - BUY</td></tr></table>
 
 Source: Compiled by casewrit from Terry Heath, "Netflix, Inc." Canaccord Genuity, May 24, 2011; Jeff Rath, "Netflix, Inc." Canaccord Genuity, November 22, 2011; Michael J. Olson, "Netflix, Inc." Piper Jaffray, May 11, 2011; Michael J. Olson, "Netflix, Inc." Piper Jaffray, November 22, 2011; Tony Wible, "Netflix, Inc." Janney Capital Markets, June 14, 2011; Tony Wible, "Netflix, Inc." Janney Capital Markets, October 25, 2011; John Blackledge, "Netflix, Inc." Credit Suisse, July 22, 2011; John Blackledge, "Netflix, Inc." Credit Suisse, November 22, 2011; Jason Helfstein, "Netflix, Inc." Oppenheimer, July 18, 2011; and Jason Helfstein, "Netflix, Inc." Oppenheimer, October 27, 2011, via Thompson, all accessed January 2013.
 
@@ -205,7 +298,7 @@ Source: Compiled by casewrit from Terry Heath, "Netflix, Inc." Canaccord Genuity
 18 Netflix, Inc., "Netflix Streaming Content Accounting," http://ir.nsflix.com, accessed May 2012.  
 19 Wible, "Liquidity Pressures Fuel Bigger Structural Questions and Overhang Risk."
 
-20 Netflix, Inc., 2010 Annual Report, http://irNetflix.com/sec.cfm?DocType=Quarterly&Year=&Format Filter=, accessed May 2012.  
+20 Netflix, Inc., 2010 Annual Report, http://ir.netflix.com/sec.cfm?DocType=Quarterly&Year=&FormatFilter=, accessed May 2012.  
 21 Redbox, "Facts About Redbox," http://www.redbox.com/facts, accessed May 2012.  
 22 Blockbuster LLC, "Company Overview," http://blockbuster.mwnewsroom.com/Company-Overview, accessed May 2012.  
 23 Netflix, Inc., "Letter to Shareholders, October 24, 2011," http://files.shareholder.com/downloads/NFLX/1845894174x0x511277/85b155bc-69e8-4cb8-a2a3-22465e076d77/Investor%20Letter%20Q3%202011.pdf, accessed May 2012.  
@@ -214,13 +307,13 @@ Source: Compiled by casewrit from Terry Heath, "Netflix, Inc." Canaccord Genuity
 26 Tony Wible, "Liquidity Pressures Fuel Bigger Structural Questions and Overhang Risk."  
 27 John Blackledge, Spencer Wang, and Ashton Ngwena, "Netflix Inc.: Three Controversies (Part II): Streaming Accounting," Credit Suisse Equity Research September 8, 2011, accessed via Thomson, May 2012.  
 28 John Blackledge, Spencer Wang, and Ashton Ngwena, "Netflix Inc.: Three Controversies (Part II): Streaming Accounting," Credit Suisse Equity Research September 8, 2011, accessed via Thomson, May 2012.  
-29 Netflix, Inc., 2011 Annual Report, http://irNetflix.com/sec.cfm?DocType=Quarterly&Year=&Format Filter=, accessed May 2012.  
+29 Netflix, Inc., 2011 Annual Report, http://ir.netflix.com/sec.cfm?DocType=Quarterly&Year=&FormatFilter=, accessed May 2012.  
 30 John Blackledge, Spencer Wang, and Ashton Ngwena, "Netflix Inc.: Three Controversies (Part II): Streaming Accounting," Credit Suisse Equity Research September 8, 2011, accessed via Thomson, May 2012.  
 31 Tony Wible, "Liquidity Pressures Fuel Bigger Structural Questions and Overhang Risk."  
 32 Tony Wible, "Liquidity Pressures Fuel Bigger Structural Questions and Overhang Risk."  
 33 Tony Wible, "Things That Make You go Hmmm…," Janney Capital Markets, September 15, 2011, accessed via Thomson, accessed December 2012.  
 34 Netflix blog, "Netflix Introduces New Plans and Announces Price Changes," July 12, 2011, http://blog.netflix.com/2011/07/Netflix-introduces-new-plans-and.html, accessed May 2012.  
-<sup>35</sup> Comments to Netflix blog, "Netflix Introduces New Plans and Announces Price Changes," July 12, 2011, http://blog.nsflix.com/2011/07/Netflix-introduces-new-plans-and.html, accessed May 2012.  
+<sup>35</sup> Comments to Netflix blog, "Netflix Introduces New Plans and Announces Price Changes," July 12, 2011, http://blog.netflix.com/2011/07/Netflix-introduces-new-plans-and.html, accessed May 2012.  
 36 Reed Hastings, "An Explanation and Some Reflections," September 18, 2011, http://blog.nytimes.com/2011/09/explanation-and-some-reflections.html, accessed May 2012.  
 37 Reed Hastings, "An Explanation and Some Reflections," September 18, 2011, http://blog.nytimes.com/2011/09/explanation-and-some-reflections.html, accessed May 2012.  
-38 Reed Hastings, "DVDs will be staying at Netflix.com," October 10, 2011, http://blogNetflix.com/2011/10/dvds-will-be-staying-at-netflixcom.html, accessed May 2012.
+38 Reed Hastings, "DVDs will be staying at Netflix.com," October 10, 2011, http://blog.netflix.com/2011/10/dvds-will-be-staying-at-netflixcom.html, accessed May 2012.

@@ -1,13 +1,10 @@
 # The Term Structure of Interest Rates
 
-# 15
-
-IN CHAPTER 14 we assumed for the sake of simplicity that the same interest rate is appropriate to discount cash flows of any maturity. In reality, however, this is rarely the case. For example, Figure 14.1 showed that in mid-2021, short-term Treasury bonds and notes carried yields to maturity around  $.4\%$ , while the longest-term bonds offered yields of about  $1.9\%$ . At the time that these bond prices were quoted, anyway, the longer-term securities had higher yields. This, in fact, is a typical pattern, but as we shall see below, the relationship between time to maturity and yield to maturity can vary dramatically from one period to another. In this chapter, we explore the pattern of interest rates for different-term assets. We attempt to identify the factors that account for that pattern and determine what information may be gleaned from an analysis of the so-called term structure of interest rates, the structure of interest rates for discounting cash flows of different maturities.
-
+IN CHAPTER 14 we assumed for the sake of simplicity that the same interest rate is appropriate to discount cash flows of any maturity. In reality, however, this is rarely the case. For example, Figure 14.1 showed that in mid-2021, short-term Treasury bonds and notes carried yields to maturity around $.4\%$, while the longest-term bonds offered yields of about $1.9\%$. At the time that these bond prices were quoted, anyway, the longer-term securities had higher yields. This, in fact, is a typical pattern, but as we shall see below, the relationship between time to maturity and yield to maturity can vary dramatically from one period to another. In this chapter, we explore the pattern of interest rates for different-term assets. We attempt to identify the factors that account for that pattern and determine what information may be gleaned from an analysis of the so-called term structure of interest rates, the structure of interest rates for discounting cash flows of different maturities.
 
 We demonstrate how the prices of Treasury bonds may be derived from prices and yields of stripped zero-coupon Treasury securities. We also examine the extent to which the term structure reveals market-consensus forecasts of future interest rates and how the presence of interest rate risk may affect those inferences. Finally, we show how traders can use the term structure to compute forward rates that represent interest rates on "forward," or deferred, loans, and consider the relationship between forward rates and future interest rates.
 
-# 15.1 The Yield Curve
+## 15.1 The Yield Curve
 
 In the last chapter, Figure 14.1 demonstrated that while yields to maturity on bonds of similar maturities are reasonably close, they do differ. When these bond prices and yields were compiled, long-term bonds sold at higher yields than short-term bonds. Practitioners commonly summarize the relationship between yield and maturity graphically in a yield curve, which is a plot of yield to maturity as a function of time to maturity. The yield curve is one of the key concerns of fixed-income investors. It is central to bond valuation and, in addition, allows investors to gauge their expectations for future interest rates against those of the market. Such a comparison is often the starting point in the formulation of a fixed-income portfolio strategy.
 
@@ -23,17 +20,22 @@ Source: Various editions of The Wall Street Journal.
 
 In 2021, the yield curve was rising, with long-term bonds offering yields higher than those of short-term bonds. But the relationship between yield and maturity can vary widely. Figure 15.1 illustrates yield curves of several different shapes. Panel A is the almost-flat curve of early 2006. Panel B is a more typical upward-sloping curve from 2012. Panel C is a downward-sloping or "inverted" curve, and Panel D is hump-shaped, first rising and then falling.
 
-# Bond Pricing
+## 15.2 Bond Pricing
 
-If yields on different-maturity bonds are not all equal, how should we value coupon bonds that make payments at many different times? For example, suppose that yields on zero-coupon Treasury bonds of different maturities are as given in Table 15.1. Zero-coupon bonds with 1-year maturity sell at a yield to maturity of  $y_{1} = 5\%$ , 2-year zeros sell at yields of  $y_{2} = 6\%$ , and 3-year zeros sell at yields of  $y_{3} = 7\%$ . Which of these rates should we use to discount bond cash flows? The answer: all of them. The trick is to consider each bond cash flow—either coupon or principal payment—as at least potentially sold off separately as a stand-alone zero-coupon bond.
+If yields on different-maturity bonds are not all equal, how should we value coupon bonds that make payments at many different times? For example, suppose that yields on zero-coupon Treasury bonds of different maturities are as given in Table 15.1. Zero-coupon bonds with 1-year maturity sell at a yield to maturity of $y_{1} = 5\%$, 2-year zeros sell at yields of $y_{2} = 6\%$, and 3-year zeros sell at yields of $y_{3} = 7\%$. Which of these rates should we use to discount bond cash flows? The answer: all of them. The trick is to consider each bond cash flow—either coupon or principal payment—as at least potentially sold off separately as a stand-alone zero-coupon bond.
 
-Recall the Treasury STRIPS program we introduced in the last chapter (Section 14.4). Stripped Treasuries are zero-coupon bonds created by selling each coupon or principal
+Recall the Treasury STRIPS program we introduced in the last chapter (Section 14.4). Stripped Treasuries are zero-coupon bonds created by selling each coupon or principal payment from a whole Treasury bond as a separate cash flow. For example, a 1-year-maturity T-bond paying semiannual coupons can be split into a 6-month maturity zero (by selling the first coupon payment as a stand-alone security) and a 12-month zero (corresponding to payment of final coupon and principal). Treasury stripping suggests exactly how to value a coupon bond. If each cash flow can be (and in practice often is) sold off as a separate security, then the value of the whole bond should equal the total value of its cash flows bought piece by piece in the STRIPS market.
 
-Table 15.1
+### Table 15.1
 
-<table><tr><td>Prices and yields to maturity on zero-coupon bonds (1,000 face value)</td></tr></table>
+Prices and yields to maturity on zero-coupon bonds (1,000 face value)
 
-<table><tr><td>Maturity (years)</td><td>Yield to Maturity (\%)</td><td>Price</td></tr><tr><td>1</td><td>5\%</td><td>$952.38 = $1,000/1.05</td></tr><tr><td>2</td><td>6</td><td>$890.00 = $1,000/1.062</td></tr><tr><td>3</td><td>7</td><td>$816.30 = $1,000/1.073</td></tr><tr><td>4</td><td>8</td><td>$735.03 = $1,000/1.084</td></tr></table> payment from a whole Treasury bond as a separate cash flow. For example, a 1-year-maturity T-bond paying semiannual coupons can be split into a 6-month maturity zero (by selling the first coupon payment as a stand-alone security) and a 12-month zero (corresponding to payment of final coupon and principal). Treasury stripping suggests exactly how to value a coupon bond. If each cash flow can be (and in practice often is) sold off as a separate security, then the value of the whole bond should equal the total value of its cash flows bought piece by piece in the STRIPS market.
+| Maturity (years) | Yield to Maturity (%) | Price |
+|------------------|------------------------|-------|
+| 1 | 5% | $952.38 = $1,000/1.05 |
+| 2 | 6 | $890.00 = $1,000/1.062 |
+| 3 | 7 | $816.30 = $1,000/1.073 |
+| 4 | 8 | $735.03 = $1,000/1.084 |
 
 
 What if it weren't? Then there would be easy profits to be made. For example, if investment bankers ever noticed a bond selling for less than the amount at which the sum of its parts could be sold, they would buy the bond, strip it into stand-alone zero-coupon securities, sell off the stripped cash flows, and profit by the price difference. If the bond were selling for more than the sum of the values of its individual cash flows, they would run the process in reverse: buy the individual zero-coupon securities in the STRIPS market, reconstitute (i.e., reassemble) the cash flows into a coupon bond, and sell the whole bond for more than the cost of the pieces. Both bond stripping and bond reconstitution offer opportunities for arbitrage—the exploitation of mispricing among two or more securities to clear a riskless economic profit. Any violation of the Law of One Price, that identical cash flow bundles must sell for identical prices, gives rise to arbitrage opportunities.
@@ -98,104 +100,102 @@ $$
 \begin{array}{l} (1 + y _ {2}) ^ {2} = (1 + r _ {1}) \times (1 + r _ {2}) \\ 1 + y _ {2} = \left[ \left(1 + r _ {1}\right) \times \left(1 + r _ {2}\right) \right] ^ {1 / 2} \\ \end{array}
 $$
 
-Equation 15.1 begins to tell us why the yield curve might take on different shapes at different times. When next year's short rate,  $r_2$ , is greater than this year's short rate,  $r_1$ , the average of the two rates is higher than today's rate, so  $y_2 > r_1$  and the yield curve slopes upward. If next year's short rate were less than  $r_1$ , the yield curve would slope downward.
+Equation 15.1 begins to tell us why the yield curve might take on different shapes at different times. When next year's short rate, $r_2$, is greater than this year's short rate, $r_1$, the average of the two rates is higher than today's rate, so $y_2 > r_1$ and the yield curve slopes upward. If next year's short rate were less than $r_1$, the yield curve would slope downward.
 
 Thus, at least in part, the yield curve reflects the market's assessments of coming interest rates. The following example uses a similar analysis to find the short rate that will prevail in year 3.
 
-# Example 15.2 Finding a Future Short Rate
+### Example 15.2 Finding a Future Short Rate
 
-Now we compare two 3-year strategies. One is to buy a 3-year zero, with a yield to maturity from Table 15.1 of  $7\%$ , and hold it until maturity. The other is to buy a 2-year zero yielding  $6\%$  and roll the proceeds into a 1-year bond in year 3, at the short rate  $r_3$ . The growth factor for the invested funds under each policy will be:
+Now we compare two 3-year strategies. One is to buy a 3-year zero, with a yield to maturity from Table 15.1 of $7\%$, and hold it until maturity. The other is to buy a 2-year zero yielding $6\%$ and roll the proceeds into a 1-year bond in year 3, at the short rate $r_3$. The growth factor for the invested funds under each policy will be:
 
 Buy and hold 3-year zero = Buy 2-year zero; roll proceeds into 1-year bond
 
 $$
-(1 + y _ {3}) ^ {3} = (1 + y _ {2}) ^ {2} \times (1 + r _ {3})
+(1 + y_{3})^{3} = (1 + y_{2})^{2} \times (1 + r_{3})
 $$
 
 $$
-1. 0 7 ^ {3} = 1. 0 6 ^ {2} \times (1 + r _ {3})
-$$ which implies that  $r_3 = 1.07^3 / 1.06^2 - 1 = .09028 = 9.028\%$ . Again, notice that the yield on the 3-year bond reflects a geometric average of the discount factors for the next three years:
-
-
-$$
-1 + y _ {3} = \left[ (1 + r _ {1}) \times (1 + r _ {2}) \times (1 + r _ {3}) \right] ^ {1 / 3}
+1.07^{3} = 1.06^{2} \times (1 + r_{3})
 $$
 
+which implies that $r_3 = 1.07^3 / 1.06^2 - 1 = .09028 = 9.028\%$. Again, notice that the yield on the 3-year bond reflects a geometric average of the discount factors for the next three years:
+
 $$
-1. 0 7 = [ 1. 0 5 \times 1. 0 7 0 1 \times 1. 0 9 0 2 8 ] ^ {1 / 3}
+1 + y_{3} = \left[ (1 + r_{1}) \times (1 + r_{2}) \times (1 + r_{3}) \right]^{1/3}
+$$
+
+$$
+1.07 = [1.05 \times 1.0701 \times 1.09028]^{1/3}
 $$
 
 We conclude that the yield or spot rate on a long-term bond reflects the anticipated path of short rates over the life of the bond.
 
-# Concept Check 15.2
+### Concept Check 15.2
 
-Use Table 15.1 to find the short rate in the fourth year. Confirm that the discount factor on the 4-year zero is a geometric average of  $1 +$  the short rates in the next four years.
+Use Table 15.1 to find the short rate in the fourth year. Confirm that the discount factor on the 4-year zero is a geometric average of $1 +$ the short rates in the next four years.
 
 Figure 15.3 summarizes the results of our analysis and emphasizes the difference between short rates and spot rates. The top line presents the short rates for each year. The lower lines present spot rates—or, equivalently, yields to maturity on zero-coupon bonds for different holding periods—extending from the present to each relevant maturity date.
 
-# Holding-Period Returns
+## 15.3 Holding-Period Returns
 
 We've argued that the multiyear cumulative returns on all of our competing bonds ought to be equal. What about holding-period returns over shorter periods such as a year? You might think that bonds selling at higher yields to maturity will offer higher 1-year returns, but this is not the case. In fact, once you stop to think about it, it's clear that this cannot be true. In a world of certainty, all bonds must offer identical returns, or investors will flock to the higher-return securities, bidding up their prices, and reducing their returns. We can illustrate by using the bonds in Table 15.1.
 
-# Example 15.3 Holding-Period Returns on Zero-Coupon Bonds
+### Example 15.3 Holding-Period Returns on Zero-Coupon Bonds
 
-The 1-year bond in Table 15.1 can be bought today for 1,000/1.05 = \952.38 and will mature to its par value in one year. It pays no coupons, so total investment income is just its price appreciation, and its rate of return is (\1,000 - \952.38)/\952.38 = .05 The 2-year bond can be bought for 1,000 / 1.06^2 = \890.00. Next year, the bond will have a remaining maturity of one year and the 1-year interest rate will be 7.01\%. Therefore, its price next year will be \$ 1,000 / 1.0701 = \934.49, and its 1-year holding-period rate of return will be (\934.49 - \890.00)/\890.00 = .05, for an identical 5\% rate of return.
+The 1-year bond in Table 15.1 can be bought today for $1,000/1.05 = \$952.38$ and will mature to its par value in one year. It pays no coupons, so total investment income is just its price appreciation, and its rate of return is $(\$1,000 - \$952.38)/\$952.38 = .05$. The 2-year bond can be bought for $1,000 / 1.06^2 = \$890.00$. Next year, the bond will have a remaining maturity of one year and the 1-year interest rate will be $7.01\%$. Therefore, its price next year will be $\$1,000 / 1.0701 = \$934.49$, and its 1-year holding-period rate of return will be $(\$934.49 - \$890.00)/\$890.00 = .05$, for an identical $5\%$ rate of return.
 
+### Concept Check 15.3
 
+Show that the rate of return on the 3-year zero in Table 15.1 also will be $5\%$. (Hint: Next year, the bond will have a maturity of two years.) Use the short rates derived in Figure 15.3 to compute the 2-year spot rate that will prevail a year from now.
 
+## 15.4 Forward Rates
 
-# Concept Check 15.3
-
-Show that the rate of return on the 3-year zero in Table 15.1 also will be  $5\%$ . (Hint: Next year, the bond will have a maturity of two years.) Use the short rates derived in Figure 15.3 to compute the 2-year spot rate that will prevail a year from now.
-
-# Forward Rates
-
-We can generalize our approach to inferring a future short rate from the yield curve of zero-coupon bonds. The idea is to equate the total return on two  $n$ -year investment strategies: buying and holding an  $n$ -year zero-coupon bond versus buying an  $(n - 1)$ -year zero and rolling over the proceeds into a 1-year bond.
+We can generalize our approach to inferring a future short rate from the yield curve of zero-coupon bonds. The idea is to equate the total return on two $n$-year investment strategies: buying and holding an $n$-year zero-coupon bond versus buying an $(n - 1)$-year zero and rolling over the proceeds into a 1-year bond.
 
 $$
-(1 + y _ {n}) ^ {n} = (1 + y _ {n - 1}) ^ {n - 1} \times (1 + r _ {n}) \tag {15.2}
-$$ where  $y_{n}$  is the yield to maturity of a zero-coupon bond with an  $n$ -period maturity. Given the observed yield curve, we can solve Equation 15.2 for the short rate in the last period:
+(1 + y_{n})^{n} = (1 + y_{n-1})^{n-1} \times (1 + r_{n}) \tag{15.2}
+$$
 
+where $y_{n}$ is the yield to maturity of a zero-coupon bond with an $n$-period maturity. Given the observed yield curve, we can solve Equation 15.2 for the short rate in the last period:
 
 $$
-\left(1 + r _ {n}\right) = \frac {\left(1 + y _ {n}\right) ^ {n}}{\left(1 + y _ {n - 1}\right) ^ {n - 1}} \tag {15.3}
+\left(1 + r_{n}\right) = \frac{(1 + y_{n})^{n}}{(1 + y_{n-1})^{n-1}} \tag{15.3}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/10567874d139176c5a78743ac1a21074b7ada76053a87cd5e5437fc9e19f0df6.jpg)
 Figure 15.3 Short rates versus spot rates
 
-Equation 15.3 has a simple interpretation. The numerator on the right-hand side is the cumulative growth of an investment in an  $n$ -year zero held until maturity. Similarly, the denominator is the growth of an investment in an  $(n - 1)$ -year zero. Because the former investment lasts for one more year than the latter, the difference in these growth multiples must be the gross rate of return available in year  $n$  when the  $(n - 1)$ -year zero can be rolled over into a 1-year investment.
+Equation 15.3 has a simple interpretation. The numerator on the right-hand side is the cumulative growth of an investment in an $n$-year zero held until maturity. Similarly, the denominator is the growth of an investment in an $(n - 1)$-year zero. Because the former investment lasts for one more year than the latter, the difference in these growth multiples must be the gross rate of return available in year $n$ when the $(n - 1)$-year zero can be rolled over into a 1-year investment.
 
 Of course, when future interest rates are uncertain, there is no meaning to inferring "the" future short rate. No one knows today what that rate will be. At best, we can speculate as to its expected value and associated uncertainty. Nevertheless, it still is common to use Equation 15.3 to investigate the implications of the yield curve for future interest rates. Recognizing that future interest rates are uncertain, we call the interest rate that we infer in this matter the forward interest rate rather than the future short rate.
 
-If the forward rate for period  $n$  is denoted  $f_{n}$ , then
+If the forward rate for period $n$ is denoted $f_{n}$, then
 
 $$
-\left(1 + f _ {n}\right) = \frac {\left(1 + y _ {n}\right) ^ {n}}{\left(1 + y _ {n - 1}\right) ^ {n - 1}} \tag {15.4}
+\left(1 + f_{n}\right) = \frac{(1 + y_{n})^{n}}{(1 + y_{n-1})^{n-1}} \tag{15.4}
 $$
 
 Equivalently, we may rewrite Equation 15.4 as
 
 $$
-(1 + y _ {n}) ^ {n} = (1 + y _ {n - 1}) ^ {n - 1} (1 + f _ {n}) \tag {15.5}
+(1 + y_{n})^{n} = (1 + y_{n-1})^{n-1} (1 + f_{n}) \tag{15.5}
 $$
 
-We see that the forward rate is defined as the "break-even" interest rate that equates the return on an  $n$ -period zero-coupon bond to that of an  $(n - 1)$ -period zero-coupon bond rolled over into a 1-year bond in year  $n$ . The actual total returns on the two  $n$ -year strategies will be equal if the short interest rate in year  $n$  turns out to equal  $f_{n}$ .
+We see that the forward rate is defined as the "break-even" interest rate that equates the return on an $n$-period zero-coupon bond to that of an $(n - 1)$-period zero-coupon bond rolled over into a 1-year bond in year $n$. The actual total returns on the two $n$-year strategies will be equal if the short interest rate in year $n$ turns out to equal $f_{n}$.
 
-# Example 15.4 Forward Rates
+### Example 15.4 Forward Rates
 
 Consider the data in Table 15.1. The forward rate for year 4 is found from
 
 $$
-1 + f _ {4} = \frac {\left(1 + y _ {4}\right) ^ {4}}{\left(1 + y _ {3}\right) ^ {3}} = \frac {1 . 0 8 ^ {4}}{1 . 0 7 ^ {3}} = 1. 1 1 0 6
+1 + f_{4} = \frac{(1 + y_{4})^{4}}{(1 + y_{3})^{3}} = \frac{1.08^{4}}{1.07^{3}} = 1.1106
 $$
 
-Therefore, the forward rate is  $f_{4} = .1106$ , or  $11.06\%$ .
+Therefore, the forward rate is $f_{4} = .1106$, or $11.06\%$.
 
 We emphasize again that the interest rate that actually will prevail in the future need not equal the forward rate, which is calculated from today's data. Indeed, the forward rate may not even equal the expected value of the future short interest rate. We address this issue in the next section. For now, however, we note that forward rates equal future short rates in the special case of interest rate certainty.
 
-
-# Concept Check 15.4
+### Concept Check 15.4
 
 You've been exposed to many "rates" in the last few pages. Explain the differences among spot rates, short rates, and forward rates.
 

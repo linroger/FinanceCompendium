@@ -1,20 +1,32 @@
 ---
-parent_directory:
-title: Tractor Supply Co TSCO (NAS) ★★★
-tags:
-aliases:
-parent_folder: Week 2
-subfolder:
-key_concepts:
+title: "Tractor Supply Co TSCO (NAS) ★★★"
+parent_directory: "PPHA Advanced Financial Analysis & Valuation"
+formatted: "2025-12-21 11:45:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+primary_tags:
+  - tractor supply analysis
+  - retail specialty industry
+  - morningstar equity research
+secondary_tags:
+  - narrow economic moat
+  - rural consumer market
+  - store expansion strategy
+  - private label products
+  - merchandising optimization
+  - financial performance
+  - risk assessment
+  - management stewardship
 cssclasses: academia
-linter-yaml-title-alias: Tractor Supply Co TSCO (NAS) ★★★
 ---
 
-# Tractor Supply Co TSCO (NAS) ★★★
+## Key Statistics
 
 <table><tr><td>Last Price</td><td>Fair Value</td><td>Uncertainty</td><td>Economic MoatTM</td><td>Moat TrendTM</td><td>Stewardship</td><td>Industry Group</td></tr><tr><td>86.97 USD</td><td>93.00 USD</td><td>Medium</td><td>Narrow</td><td>Stable</td><td>Exemplary</td><td>Retail - Apparel &amp; Specialty</td></tr></table>
 
-# Tractor Supply Merchandising Supports Store Traffic, Boosting Sales While Investments Hinder Profits
+## Executive Summary
+
+Tractor Supply Merchandising Supports Store Traffic, Boosting Sales While Investments Hinder Profits
 
 Updated Forecasts and Estimates from 01 Feb 2019
 
@@ -26,7 +38,7 @@ jaime.katz@morningstar.com
 
 +3126966428
 
-# Important Disclosure
+## Important Disclosure
 
 The conduct of Morningstar's analysts is governed by Code of Ethics/Code of Conduct Policy, Personal Security Trading Policy (or an equivalent of), and Investment Research Policy. For information regarding conflicts of interest, visit http://global.morningstar.com/equitydisclosures
 
@@ -42,7 +54,7 @@ Rating updated as of 01 Feb 2019 15:54
 
 Currency amounts expressed with "$" are in U.S. dollars (USD) unless otherwise denoted
 
-# Contents
+## Table of Contents
 
 Business Strategy and Outlook
 
@@ -84,11 +96,11 @@ The firm competes with big-box retailers like PetSmart and Lowe's, which also ha
 
 We believe that Tractor Supply is positioned to reach critical mass in its consumer segment over the next decade, but that consistent operating margin expansion depends on corporate development across arenas, including better customer attribution data, better bargaining with vendors, and more sophisticated logistics. These types of projects can increase operating margins meaningfully and have benefited both Home Depot and Lowe's over the last decade. With the New York distribution center fully operational in 2019, lower freight costs and better local vendor purchasing power should prevail, but investments to improve the firm's offerings, perception and relevance will weigh on near-term operating margin expansion. Over time, improved gross margin results from strong private-label penetration and better merchandising could be offset by SG&A growth, leading to operating margins that rise about 20 basis points on average annually, from  $9\%$  in 2018.
 
-# Vital Statistics
+## Vital Statistics
 
 <table><tr><td>Market Cap (USD Mil)</td><td>10,425</td></tr><tr><td>52-Week High (USD)</td><td>97.65</td></tr><tr><td>52-Week Low (USD)</td><td>58.27</td></tr><tr><td>52-Week Total Return %</td><td>13.6</td></tr><tr><td>YTD Total Return %</td><td>2.4</td></tr><tr><td>Last Fiscal Year End</td><td>31 Dec 2018</td></tr><tr><td>5-Yr Forward Revenue CAGR %</td><td>6.4</td></tr><tr><td>5-Yr Forward EPS CAGR %</td><td>12.4</td></tr><tr><td>Price/Fair Value</td><td>0.95</td></tr></table>
 
-# Valuation Summary and Forecasts
+## Valuation Summary and Forecasts
 
 <table><tr><td></td><td>Fiscal Year:</td><td>2017</td><td>2018</td><td>2019(E)</td><td>2020(E)</td></tr><tr><td>Price/Earnings</td><td></td><td>22.4</td><td>19.4</td><td>18.4</td><td>16.2</td></tr><tr><td>EV/EBITDA</td><td></td><td>12.0</td><td>11.2</td><td>11.4</td><td>10.5</td></tr><tr><td>EV/EBIT</td><td></td><td>14.9</td><td>14.1</td><td>14.5</td><td>13.1</td></tr><tr><td>Free Cash Flow Yield %</td><td></td><td>3.8</td><td>4.4</td><td>4.6</td><td>5.1</td></tr><tr><td>Dividend Yield %</td><td></td><td>1.4</td><td>1.4</td><td>1.6</td><td>1.8</td></tr></table>
 
@@ -98,27 +110,21 @@ Financial Summary and Forecasts (USD Mil)
 
 Historical/forecast data sources are Morningstar Estimates and may reflect adjustments.
 
-# Profile
+## Company Profile
 
 Tractor Supply is the largest operator of retail farm and ranch stores in the United States. The company targets recreational farmers and ranchers and has little exposure to commercial and industrial farm operations. Currently, the company operates 1,765 stores in 49 states, and 175 Petsense stores. Stores are typically located in towns outside of urban areas and in rural communities. Recently, revenue has consisted primarily of livestock and pet  $(46\%)$ , hardware, tools, and truck  $(22\%)$ , and seasonal gift and toy  $(19\%)$ .
 
-# Tractor Supply Co TSCO (NAS) ★★★
-
-<table><tr><td>Last Price</td><td>Fair Value</td><td>Uncertainty</td><td>Economic MoatTM</td><td>Moat TrendTM</td><td>Stewardship</td><td>Industry Group</td></tr><tr><td>86.97 USD</td><td>93.00 USD</td><td>Medium</td><td>Narrow</td><td>Stable</td><td>Exemplary</td><td>Retail - Apparel &amp; Specialty</td></tr></table>
-
 # Morningstar Analysis
 
-# Fair Value & Profit Drivers 01 Feb 2019
+## Fair Value & Profit Drivers
 
 We are increasing our fair value estimate to  \$93 per share from\$ 90 after incorporating 2018 results. Expenses to finance OneTractor initiatives, the rollout of the Stockyard kiosks and mobile point-of-sale systems, and supply chain improvements could still pressure near-term operating margin expansion before beginning to pay off in the second half of 2019. Our fair value estimate implies a 2019 price/earnings ratio of 20 times and an enterprise value/EBITDA multiple of 12 times. This is versus a five-year historical P/E based on fair value of 25 times and an EV/EBITDA multiple of 13 times and a forecast for low-double-digit earnings growth over the majority of our outlook.
 
 While some of the categories that Tractor Supply operates in are relatively mature, we view the breadth of its offerings and potential for growth of its current consumer base as well as increased penetration of new consumers as positive factors that could drive top-line growth. We project that total sales can grow at  $6\%$  over the next five years (after rising  $9\%$  in 2018) supported by low-single-digit comparable-store sales  $(3\%)$  and mid-single-digit square footage growth. We forecast gross margins to rise moderately over the next decade (by roughly 60 basis points, to  $35\%$ ), constrained by our belief that e-commerce retailers can compete in about  $30\%$  of the sales areas Tractor Supply operates within. We forecast the selling, general, and administrative expense ratio to leverage 70 basis points to  $22.2\%$  from 2018 results as the business continues to improve its relationships with vendors and strengthen its supply chain as its footprint scales, while spending on infrastructure.
 
-The company expects 10-50 total basis points in operating margin expansion by 2021 (from 2018) to  $9\% - 9.4\%$ , and our assumptions incorporate margin expansion of about 20 basis points annually over the next decade (with an operating margin of  $9.3\%$  in 2021), helped by more
+The company expects 10-50 total basis points in operating margin expansion by 2021 (from 2018) to  $9\% - 9.4\%$ , and our assumptions incorporate margin expansion of about 20 basis points annually over the next decade (with an operating margin of  $9.3\%$  in 2021), helped by more consistent improvements later in our forecast. Over the next five years, we project a rising double-digit return on invested capital rate versus our  $9\%$  cost of capital assumption, providing support for our narrow economic moat view.
 
-consistent improvements later in our forecast. Over the next five years, we project a rising double-digit return on invested capital rate versus our  $9\%$  cost of capital assumption, providing support for our narrow economic moat view.
-
-# Scenario Analysis
+## Scenario Analysis
 
 We use a scenario analysis to help assess the upside and downside potential of Tractor Supply's intrinsic value. We believe the company has a medium uncertainty rating due to the strong brand recognition, which has helped stabilize sales through the cycle. In our upside scenario, we assume faster-than-expected square footage growth, driving higher total and comp store sales at Tractor Supply. Gross margins rise to  $36\%$ , as vendor negotiations are increasingly in the company's favor and inflation remains tempered. Additionally, the implementation of additional supply chain initiatives and improved sales allow the SG&A ratio to leverage to below  $22\%$ , together generating operating margins above  $12\%$ . If the company manages to hit these financial metrics, our fair value estimate would be \$119 per share.
 

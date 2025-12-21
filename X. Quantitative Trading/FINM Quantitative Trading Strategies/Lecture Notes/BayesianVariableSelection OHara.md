@@ -14,6 +14,29 @@ secondary_tags:
 cssclasses: academia
 ---
 
+---
+title: "A Review of Bayesian Variable Selection Methods: What, How and Which"
+parent_directory: Lecture Notes
+formatted: 2025-12-21 12:30:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - bayesian variable selection
+  - markov chain monte carlo
+  - quantitative trait loci
+  - model selection
+secondary_tags:
+  - stochastic search variable selection
+  - gibbs variable selection
+  - reversible jump mcmc
+  - laplacian shrinkage
+  - adaptive shrinkage
+  - gene mapping
+  - mcmc mixing
+  - variable selection methods
+cssclasses: academia
+---
+
 # A Review of Bayesian Variable Selection Methods: What, How and Which
 
 R.B. O'Hara* and M. J. Sillanpää†
@@ -22,7 +45,7 @@ Abstract. The selection of variables in regression problems has occupied the min
 
 Keywords: Variable Selection, MCMC, BUGS
 
-# 1 Introduction
+## 1 Introduction
 
 An important problem in statistical analysis is the choice of an optimal model from a set of $a$ priori plausible models. In many analyses, this reduces to the choice of which subset of variables should be included into the model. This problem has exercised the minds of many statisticians, leading to a variety of algorithms for searching the model space and selection criteria for choosing between competing models (e.g. Miller 2002; Broman and Speed 2002; Sillanpää and Corander 2002). In the Bayesian framework, the model selection problem is transformed to the form of parameter estimation: rather than searching for the single optimal model, a Bayesian will attempt to estimate the posterior probability of all models within the considered class of models (or in practice, of all models with non-negligible probability). In many cases, this question is asked in variable-specific form: i.e. the task is to estimate the marginal posterior probability that a variable should be in the model.
 
@@ -34,15 +57,15 @@ Although methods for variable selection are reviewed here, this should not be ta
 
 This review is structured so that we first set out the general regression model. We then describe the different variable selection methods, and some of their properties. Then we describe three examples, using simulated and real data sets, to illustrate the performance of the different methods. Finally, we wrap up by discussing the relative merits of these methods, and indicate when different methods might be preferred. BUGS code for the methods is given in Supplementary Material online, as are some supplementary figures.
 
-# 2 The Bayesian Variable Selection Methods
+## 2 The Bayesian Variable Selection Methods
 
-# 2.1 Description of sparse selection problem
+### 2.1 Description of sparse selection problem
 
 The problem is the familiar regression problem of trying to explain a response variable with a (large) number of explanatory variables (whether continuous or discrete factors). The aim is to select a small subset of the variables whilst controlling the rate of false detection, so that it can be inferred that these variables explain the a large fraction of the variation in the response. We may have some a priori knowledge or expectation that only a small proportion of candidates are truly affecting the outcome, and ideally this information should be taken into account in the variable selection. The optimal degree of sparseness and how many false detections are allowed is very problem-specific.
 
 One aspect of the problem is the well known trade-off between bias and variance. In general, a large set of variables is desirable for prediction and a small set of variables (that have a meaningful interpretation) for inference. Another aspect that influences the number of variables in the model is the number of observations in the data set. As a rule of thumb for shrinkage methods, one can safely consider only problems where there are maximally 10-15 times more candidates than observations (Zhang and Xu 2005; Hoti and Sillanpää 2006). However, where the true and safe upper limit exists, is very problem specific and depends on degree of correlation (co-linearity) among the candidate variables.
 
-# 2.2 Regression model
+### 2.2 Regression model
 
 To keep the presentation simple, assume that the task is to explain an outcome  $y_{i}$  for individual  $i$  ( $i = 1,\dots,N$ ) using  $p$  covariates with values  $x_{i,j}, j = 1,\dots,p$ . Naturally, these may be continuous or discrete (dummy) variables. Given a vector of regression parameters  $\theta = (\theta_{j})$  of size  $p$ , the response  $y_{i}$  is modeled as a linear combination of the explanatory variables  $x_{i,j}$ :
 
@@ -55,43 +78,43 @@ Here,  $\alpha$  is the intercept and  $e_i \sim N(0, \sigma^2)$  are the errors
 
 Once the model has been set up, it is usually fitted using MCMC, and many of the methods outlined below use a single-site Gibbs sampler to do this. The variable selection part of the model entails estimating  $I_{j}$  and  $\theta_{j}$ . From this, the posterior probability that a variable is "in" the model, i.e. the posterior inclusion probability, can simply be calculated as the mean value of the indicator  $I_{j}$ . The methods outlined below vary in how they treat  $I_{j}$ ,  $\beta_{j}$  and  $\theta_{j}$ .
 
-# 2.3 Concepts and Properties
+### 2.3 Concepts and Properties
 
 The methodologies of Bayesian variable selection and the differences between them can be best understood using several properties and concepts, which are described here.
 
-# Sparoseness
+#### Sparoseness
 
 The degree of sparseness required, i.e. how complex the model should be is an important property. In some cases, the sparseness may be set according to some optimality criterion (e.g. the best predictive abilities, (Burnham and Anderson 2002)). Taking a decision analytic perspective, we can view the prior as providing a loss function, so unless an objective optimality criterion can be found, it is not clear that one loss function is appropriate for all circumstances. Therefore, some flexibility in the amount of model complexity allowable is needed. An obvious approach to this is to use  $P(I_{j} = 1)$ , the prior probability of variable inclusion, to set the sparseness: a smaller value of  $P(I_{j} = 1)$  leading to sparser models. Typically, this will be independent across the  $j$ 's, so that the prior distribution for the number of covariates is binomial, with mean  $P(I_{j} = 1)$ . A value of 0.5 for this has been suggested for  $P(I_{j} = 1)$  (e.g. George and McCulloch 1993), which makes all models equiprobable. Whilst this may improve mixing properties of the MCMC sampler and may appear attractive as a null prior, it is informative in that it favours models where about half of the variables are selected. In many cases, only a small proportion of variables are likely to be required in the model, so this prior may often bias the model towards being too complex. The choice of value for  $P(I_{j} = 1)$  is then up to the investigator, in some cases a decision analytic approach may be a good way of eliciting the prior.
 
-# Tuning
+#### Tuning
 
 A practical problem in implementing variable selection is tuning the model (by adjusting different components, such as the prior distribution) to ensure good mixing of the MCMC chains, i.e. letting the sampler jump efficiently between the slab and spike. If single-site updaters are being used, this means updating  $I_{j}$  given a value of  $\beta_{j}$ . This relies on confounding of  $I_{j}$  and  $\beta_{j}$ , so that  $\theta_{j} \approx 0$  for both  $I_{j} = 1$  and  $I_{j} = 0$ , and hence the updater for  $I_{j}$  can jump between states easily (and  $\theta_{j}$  be updated subsequently). In general, this will depend on the prior for  $\theta_{j}$ , so the mixing properties of the sampler depend on the prior distributions. This has lead to the suggestion that data-based priors should be designed with the purpose of improving mixing (see references below) or giving good centering and scaling properties (e.g. a fractional prior, Smith and Kohn 2002). Although this is attractive from the computational point of view, it contravenes the Bayesian philosophy, as the prior should be a summary of the beliefs of the analyst (before seeing the data), not a reflection of the ability of the fitting algorithms to do their job. One goal of this review is to find out under what circumstances the different methods work efficiently, so that philosophically correct (subjective) priors can be designed properly. This may require a trade-off, with a sub-optimal model being used, in order to accommodate better (philosophically plausible) priors.
 
 Several of the methods below may exhibit problems in the marginal identifiability (i.e. confounding) of variables  $I_{j}$  and  $\beta_{j}$ . This can occur because almost identical likelihoods can be obtained for  $I_{j} = 1$  and  $I_{j} = 0$  when  $\beta_{j}$  is near zero, as illustrated above. Deliberate confounding of variables can thus be used as a strategy to improve mixing. Because of this, though, it may be more informative to monitor the posterior of the product  $\theta_{j} = I_{j} \times \beta_{j}$  instead of the individual variables (Sillanpää and Bhattacharjee 2005), i.e. monitor the parameter that appears in equation 1.
 
-# Global adaptation
+#### Global adaptation
 
 A natural Bayesian strategy for building a model would be to place a normal prior on  $\beta_{j} \mid (I_{j} = 1)$ . If the variance of this prior is fixed at a constant, the model for the data would be equivalent to a classical fixed effects model, a terminology we will adopt here. But variable selection approaches can be developed where the variance is estimated as well. In some circumstances, this can be done by extending the model (1) above as a hierarchical model; considering the regression coefficients to be exchangeable and be drawn from a common distribution, e.g.  $\beta_{j} \mid (I_{j} = 1)$  is drawn from  $N(0, \tau^{2})$ , where  $\tau^{2}$  is an unknown parameter to be estimated. We will follow the terminology in classical statistics and refer to this as a random effect model. This approach has the advantage of helping tuning, for example if we define  $\theta_{j} = \beta_{j} I_{j}$ , then  $\beta_{j} \mid (I_{j} = 0)$  will also depend on  $\tau^{2}$ . The distribution of  $\theta_{j}$  is thus shrunk towards the correct region of the parameter space by the other  $\theta_{j}$ s. This can help circumvent tuning problems, at the cost of increasing the confounding of  $I_{j}$  and  $\beta_{j}$ , as is discussed more below.
 
-# Local adaptation
+#### Local adaptation
 
 Instead of fitting one common parameter for all the regression coefficients, as in global adaptation, one can use different variance parameters for different covariates (or for covariate groups). This helps tuning and allows heterogeneity, i.e., if there are some local characteristics among covariates. An example of this is where  $\beta_{j} \mid (I_{j} = 1)$  is drawn from  $N(0, \tau_{j}^{2})$ , where  $\tau_{j}^{2}$  is an covariate-specific variance parameter to be estimated (cf. Example 2 in (Iswaran and Rao 2005)).
 
-# Analytical integration
+#### Analytical integration
 
 To speed up the convergence of the MCMC (and mixing with respect to selected covariates) in some of the model selection methods described above, it is possible to analytically integrate over the effects  $\theta$  and  $\sigma^2$  in model (1), and then use Gibbs sampling for the indicator variables (George and McCulloch 1997). Fast mixing is possible because updating an indicator does not depend on values of the effect coefficients. If preferred, the posterior for effect coefficients can still be obtained. Additionally in high dimensional problems, the coefficients  $\beta_{j}$  only need to be updated for covariates with  $I_{j} = 1$  (e.g. Yi 2004).
 
-# Bayesian Model Averaging
+#### Bayesian Model Averaging
 
 One characteristic of the Bayesian approach is the ability to marginalize over nuisance parameters. This carries over into model selection, where posterior distributions of parameters (including indicators for models) can be calculated by averaging over all of the other variables, i.e. over the different models. For example, as we will do below, the probability that a single variable should enter a model can be averaged over all of the models. Of course, this is convenient in the MCMC framework as it just means that the calculations can be done on the MCMC output for each indicator (i.e.  $I_{j}$ ) separately.
 
 It is also well known that, with many covariates, it is the ones that have a large effect that are selected, even if support for estimated effect size is large by chance (e.g. Miller 2002; Lande and Thompson 1990; Goring et al. 2001). Hence, if the same data is used for estimating both the model (i.e. variable selection) and individual contributions (effect sizes), overestimation of effect sizes will almost certainly occur. Fortunately, robust estimation of effect sizes can be done in a Bayesian setting by averaging the effect size over several different models (e.g. Ball 2001; Sillanpää and Corander 2002). Given posterior model probabilities, model-specific effect estimates are weighted by the probability of the corresponding model. This is an especially useful technique if there are several competing models which all show high posterior probabilities.
 
-# 2.4 Variable Selection Methods
+### 2.4 Variable Selection Methods
 
 The approaches to variable selection can be classified into four categories, with different methods in each category. The structures of the models are summarized in Table 1.
 
-# Indicator model selection
+#### Indicator model selection
 
 The most direct approach to variable selection is to set the slab,  $\theta_{j} \mid (I_{j} = 1)$  equal to  $\beta_{j}$ , and the spike,  $\theta_{j} \mid (I_{j} = 0)$  equal to 0. This approach has spawned two methods, differing in the way they treat  $\beta_{j} \mid (I_{j} = 0)$ :
 
@@ -99,7 +122,7 @@ Kuo & Mallick. The first method simply sets  $\theta_{j} = I_{j}\beta_{j}$  (Kuo
 
 GVS. An alternative model formulation called Gibbs variable selection (GVS) was suggested by Dellaportas et al. (1997), extending a general idea of Carlin and Chib (1995). It attempts to circumvent the problem of sampling  $\beta_{j}$  from too vague a prior by sampling  $\beta_{j} \mid (I_{j} = 0)$  from a "pseudo-prior", i.e. a prior distribution which has no effect on the posterior. This is done by setting  $\theta_{j} = I_{j}\beta_{j}$  as before, but now the prior distributions of indicator and effect are assumed to depend on each other, i.e.  $P(I_{j},\beta_{j}) = P(\beta_{j} \mid I_{j})P(I_{j})$ . In effect, a mixture prior is assumed for  $\beta_{j}$ :  $P(\beta_{j} \mid I_{j}) = (1 - I_{j})N(\tilde{\mu},S) + I_{j}N(0,\tau^{2})$  (here and elsewhere we will loosely use  $N(\cdot ,\cdot)$  to denote both a normal distribution and its density function), where constants  $(\tilde{\mu},S)$  are user-defined tuning parameters, and  $\tau^2$  is a fixed prior variance of  $\beta_{j}$ . The intuitive idea is to use a prior for  $\beta_{j} \mid (I_{j} = 0)$  which is concentrated around the posterior density of  $\theta$ , so that when  $I_{j} = 0$ ,  $P(\beta_{j} \mid I_{j} = 1)$  is reasonable large, and hence there is a good probability that the chain will move to  $I_{j} = 1$ . The algorithm does require tuning, i.e.  $(\tilde{\mu},S)$  need to be chosen so that good values of  $\beta_{j}$  are proposed when  $I_{j} = 0$ . The data will determine which values are good but without directly influencing the posterior, and hence tuning can be done to improve mixing without changing the model's priors.
 
-# Stochastic search variable selection (SSVS)
+#### Stochastic search variable selection (SSVS)
 
 In this approach, the spike is a narrow distribution concentrated around zero. Here  $\theta_{j} = \beta_{j}$  and the indicators affect the prior distribution of  $\beta_{j}$ , i.e.,  $P(I_j,\beta_j) = P(\beta_j\mid I_j)P(I_j)$ . A mixture prior for  $\beta$  is used:  $P(\beta_j\mid I_j) = (1 - I_j)N(0,\tau^2) + I_jN(0,g\tau^2)$ , where the first density (the spike) is centred around zero and has a small variance. This model gives identifiability for variables  $I_{j}$  and  $\beta_{j}$ , but in order to obtain convergence the algorithm requires tuning - specification of fixed prior parameters ( $\tau^2$  and  $g\tau^2$ ) which are data (or at least context) dependent. Note that unlike in GVS, values of the prior parameters when  $I_{j} = 0$  influence the posterior. Tuning is not easy, as  $P(\beta_j\mid I_j = 0)$  needs to be very small but at the same time not too restricted around zero (otherwise Gibbs sampler moves between states  $I_{j} = 0$  and  $I_{j} = 1$  are not possible in practice). The technique was introduced by George and McCulloch (1993) and extended for multivariate case by Brown et al. (1998). It has seen extensive use, for example see Yi et al. (2003); Meuwissen and Goddard (2004) for applications to gene mapping.
 
@@ -113,7 +136,7 @@ Jeffreys' prior. A scale invariant Jeffreys' prior,  $P(\tau_j^2) \propto \frac{
 
 Laplacian shrinkage. An alternative to using the Jeffreys' prior on the variance is to use an exponential prior for  $\tau_j^2$  with a parameter  $\mu$ . After analytical integration over the variance components, we obtain a Laplacian double exponential distribution for  $P(\beta_j \mid \mu)$ ; for details, see Figueiredo (2003). The degree of sparseness is controlled by  $\mu$  which has a data-dependent scale and requires tuning. The random effect variant of the method, where  $\mu$  is a parameter and has its own prior, is better known as the Bayesian Lasso (Park and Casella 2008; Yi and Xu 2008). The Lasso (Tibshirani 1996) is the frequentist equivalent of this approach.
 
-# Model space approach
+#### Model space approach
 
 The models above are developed through placing priors on the individual covariates  $\theta_{j}$ s. An alternative approach is to view the model as a whole, and place priors on  $N_{v}$ , the number of covariates selected in the model and their coefficients  $(\theta_{1},\ldots ,\theta_{N_{v}})$ , and then allow the choice of which covariate it is that is in the model to be a secondary problem. This approach can reduce to the models above, if the number of covariates in the model is chosen to be binomially distributed with  $N_{max}$  equal to the number of candidate covariates,  $p$ . However, it is often computationally more convenient to use a lower  $N_{max}$ , i.e. to restrict the maximum number of covariates possible. The advantage of this approach is that the likelihood is smaller, as one only needs to sum over the selected variables, replacing the summation in model (1) by  $\sum_{k = 1}^{N_v}\theta_kx_i,l_k$ . The number of selected variables,  $N_{v}$ , is then itself a random variable, and sparseness can be controlled through the prior distribution of  $N_{v}$ .
 
@@ -134,7 +157,7 @@ Table 1: The qualitative classification of the variable selection methods with r
 
 covariates to enter or leave the model (with the constraint  $\sum_{j}I_{j}\leq N_{max}$ ). As in indicator model selection above,  $\theta_{j} = I_{j}\beta_{j}$  and both a priori independence or dependence between indicators and effects can be assumed. Because the maximum dimension is fixed, the indicators,  $I_{j}$ , are mutually dependent, with maximum and minimum values of  $\sum_{j}I_{j}$  being set. Variable selection is then performed by randomly selecting component  $j$  and then proposing a change of the indicator value  $I_{j}$  (this corresponds to adding or deleting the component). The prior for the number of components can be set in the same way as in reversible jump MCMC. The method was introduced by Godsill (2001), and has been used by Yi (2004) in a gene mapping application. See Kilpikari and Sillanpää (2003) for a closely related approach from the reversible jump MCMC stand point.
 
-# 3 Examples of the Methods
+## 3 Examples of the Methods
 
 The efficiency of using BUGS to fit the different models outlined above was examined by coding each of them for three sets of data: a simulation study and two real data sets, from gene mapping in barley (Tinker et al. 1996) and a classic regression data set of the mortality effects of Pollution (McDonald and Schwing 1973). In following, these three data sets are called Simulated data, Barley data, and Pollution data. The code for the Barley analysis is given in the Appendix, and can easily be modified or extended and used as a part of more complex models.
 
@@ -144,7 +167,7 @@ parameter estimates were similar.
 
 For all three sets of data, the equation (1) formed the basis of the model. However, for the simulated data where a generalized linear model was used, equation 1 gives the expected value on the linear scale for each datum.
 
-# 3.1 Simulated Data
+##### 3.1 Simulated Data
 
 In any real data set, it is unlikely that the "true" regression coefficients are either zero or large; the sizes are more likely to be tapered towards zero. Hence, the problem is not one of finding the zero coefficients, but of finding those that are small enough to be insignificant, and shrinking them towards zero. This situation was mimicked with simulated data, using a simple Poisson model with over-dispersion. 11 replicated data sets were created, each with a total of 200 individuals  $i$  ( $i = 1, \ldots, 200$ ), and 20 covariates with values  $x_{i,j}$ ,  $j = 1, \ldots, 20$ , were used, and the differences being in the true values of the regression parameters  $\theta_j$ . The Poisson simulation model is:
 
@@ -158,7 +181,7 @@ For the simulations, known values of  $\alpha = \ln(10)$  and  $\sigma_e^2 = 0.7
 
 The same model (2), was used to analyse the simulated data sets with prior distributions specified as below and in Table 2.
 
-# 3.2 Barley Data
+##### 3.2 Barley Data
 
 The data was taken from the North American Barley Genome Mapping project (Tinker et al. 1996). This was a study of economically important traits in two-row barley (Hordeum vulgare L.), using 150 doubled-haploid (DH) lines. We concentrate on phenotypic data on time to heading, averaging over all environments for each line with data from every environment. The marker data, set of discrete covariates  $x_{i,j}$ , comes from 127 (biallelic) markers covering on seven chromosomes so that two different genotypes are segregating (in equal proportions) at each marker. The model is, in effect, a
 
@@ -166,11 +189,11 @@ The data was taken from the North American Barley Genome Mapping project (Tinker
 
 Some discrete marker genotypes are missing (in total  $5\%$  of the covariates values, with all individuals having at least  $79\%$  of their covariate information observed). A model for the missing covariate data (i.e.  $x_{i,j}\mathrm{s}$ ) is therefore needed. Because of the design of the crosses, for each covariate, the two alleles (i.e. genotype classes) are equally likely, so we assume that the missing data are missing completely at random (MCAR), and assume  $x_{i,j} \sim \text{Bern}(0.5)$ . For simplicity we assume that the covariates are independent, although in reality dependence will be present as the genetic markers are sometimes close to each other on the chromosome (Fig. 4). A more complex model (e.g. Knapp et al. 1990; Sillanpää and Arjas 1998) would be preferable for a "real" analysis.
 
-# 3.3 Pollution Data
+##### 3.3 Pollution Data
 
 This is a classic data set for investigating variable selection, and was first presented by McDonald and Schwing (1973). The response variable is the age-adjusted mortality rates in 1963, from 60 metropolitan areas of the US. There are 15 potential predictors, all continuous and here are all standardised to have unit variance. We assume that the errors are normally distributed.
 
-# 3.4 Priors for all analyses
+##### 3.4 Priors for all analyses
 
 For each set of data, two sets of priors were used. The first set was chosen to be vague, and the second was chosen to be more informative. In particular, the second set of priors for  $\alpha$  and  $\beta_{j}$  were chosen to be representative of prior knowledge about the range of the effects. A more usual prior for  $I_{j}$  was chosen, so that each model was a priori equally likely. The following priors were assumed for all models, the constants used are given in Table 2:
 
@@ -198,15 +221,15 @@ where  $U(a,b)$  denotes a uniform distribution between  $a$  and  $b$  (for a j
 
 The form of the prior distribution for  $\beta_{j}$  and the indicator  $I_{j}$  depends on which variable selection method is used. Because the adaptive shrinkage method with the Jeffreys' prior has no parameters that can be adjusted to change the degree of sparseness, this model was used as a benchmark for the analysis of each set of data. For this model, the posterior of several of the parameters is bimodal (this corresponds to covariates where  $P(I_{j} = 1\mid data)$  is not near 0 or 1), and a suitable cut-off,  $c$  could be chosen by visual examination, so that  $|\beta_{j}| < c$  would be equivalent to  $I_{j} = 0$  (cf. Hoti and Sillanpää 2006). From this, the number of non-zero components (i.e. number of estimated values of  $|\beta_{j}|$  above  $c$ ) was estimated and rounded to give a prior for  $I_{j}$ .  $P(I_{j} = 1)(= p)$  and  $c$  are also given in Table 2. This approach to prior specification was taken to help give consistency in the comparisons: clearly it should not be used for actual analyses.
 
-# 3.5 Implementation in BUGS
+##### 3.5 Implementation in BUGS
 
 The models were all implemented in OpenBUGS3.0.2, and run in R through the BRugs package (Thomas et al. 2006). The exception to this was the reversible jump MCMC method, which is not presently available in OpenBUGS, so was run in WinBUGS1.4 through the R2WinBUGS package (Sturtz et al. 2005). The BUGS code for the Barley data analyses is given in the Appendix. A description of the models is given here, values of parameters of the prior distributions are given in Table 2. The following models were run:
 
-# No Selection
+####### No Selection
 
 The model with no model selection was used as a baseline for comparison. The vague priors were essentially those for  $I_{j} = 1, \forall j$ , i.e. equation 4 for  $\beta$  for the fixed effect, and equations 4 and 5 for the random effect model (viz., similar to ridge regression).
 
-# Kuo & Mallick
+####### Kuo & Mallick
 
 The method of Kuo and Mallick (1998) was implemented using  $I_{j}$  as a number (0 or 1), and setting  $\theta_{j} = I_{j}\beta_{j}$ . A mathematically equivalent implementation would use  $I_{j}$  as an
 
@@ -230,33 +253,33 @@ $$
 
 This was also investigated, but the performance was the same in either case, so only results from the first implementation are reported. The other priors (e.g. for  $\beta_{j}$ ) are as above, for both the fixed and random effect models.
 
-# GVS
+####### GVS
 
 For GVS a pseudo-prior is needed for  $I_{j} = 0$ , otherwise the model is the same as the Kuo & Mallick model. For this, for both the fixed and random effect models,  $\beta_{j} \mid (I_{j} = 0) \sim N(0, \sigma_{GVS}^{2})$  was used.
 
-# SSVS
+####### SSVS
 
 The priors for  $\beta_{j} \mid (I_{j} = 1)$  are as above for both the fixed and random effect models. Both random effect models suggested above were tried. For the fixed effect model and the first random effect model, for  $I_{j} = 0$  the prior for  $\beta_{j}$  was constructed so that  $P(|\beta_{j}| < c) < 0.01$ , by setting it to be 3 standard deviations away from the mean, i.e.  $\beta_{j} \mid (I_{j} = 0) \sim N(0, (3 \times c)^{2})$ . For the second random effect model (i.e. due to Meuwissen and Goddard 2004) we used  $g = 10^{-3}$ . This second model is referred to as M & G.
 
-# Adaptive shrinkage (Jeffreys' prior)
+####### Adaptive shrinkage (Jeffreys' prior)
 
 Only a single version of this adaptive shrinkage method is possible. The prior for  $\tau_j^2$  was  $log(\tau_j^2) \sim U(-50, 50)$ , for all sets of data, which is an infinite approximation to the fully correct method and should cover the realistic range of  $\tau_j^2$  (approximately  $10^{-22}$  to  $10^{22}$ ).
 
-# Laplacian shrinkage
+############# Laplacian shrinkage
 
 A prior on the scale  $(\mu)$  is needed for this model. For the fixed effect, this was designed so that a priori  $P(\beta_{j} > c)\approx p$ . This leads to the prior  $|\beta_j|\sim Exp(-log(1 - p) / c)$ . For the random effect version (i.e. the Bayesian LASSO), a uniform prior  $\mathrm{U}(0,20)$  was placed on  $\mu$ .
 
-# Reversible Jump MCMC
+####### Reversible Jump MCMC
 
 The priors specified above were used for both fixed and random effects. The prior is given on the number of variables,  $N_v$ , in the model, so this was a binomial distribution with  $P(N_v) \sim \text{Bin}(m, p)$ .
 
-# Composite Model Space
+####### Composite Model Space
 
 The priors defined above were used, but a maximum of 40 variables was set. The results of the short run for the Barley data showed that composite model space was too slow to be useful, being about three times slower than any of the other methods, and with poor mixing (the fixed effect model had not even converged after 1500 MCMC iterations). Full runs were therefore not attempted.
 
 The speed of the Composite Model Space in BUGS is due to the way that BUGS implements the model, rather than an intrinsic problem with the model. BUGS compiles all logical nodes fully, so that for each variable in the model, the node has to include every covariate in its calculation. Hence, each of the possible combinations of covariates is included, and so the likelihood quickly becomes excessively large. Implementations coded from scratch will therefore be much quicker.
 
-# 3.6 Comparisons of Methods
+##### 3.6 Comparisons of Methods
 
 The efficiency and mixing properties of the methods were investigated by carrying out short runs. For all of the data, two chains of each model were run for 1000 MCMC iterations after a burn-in of 500 MCMC iterations (except for the random effect variant of Kuo & Mallick model, which required 1000 MCMC iterations to burn-in). The time taken, the effective number of MCMC samples for  $\alpha$  (Geyer 1992; Plummer et al. 2008), and the number of runs of 0s and 1s in the chains for each  $I_{j}$  were all recorded. The number of runs is a measure of mixing: more runs indicate better mixing (i.e. more flips between the variable being in the model and not). The fixed effect version of the Kuo & Mallick method with the vague priors was omitted from the comparisons with the simulated data because its performance was not stable.
 
@@ -277,26 +300,26 @@ the scale of the Laplacian prior
 
 The mixing of the MCMC chain in the GVS and SSVS models was measured by the number of runs in all of the indicators,  $I_{j}$  whilst the effect of the scale of the Laplacian prior was investigated by examining the posterior distribution of the  $\beta_{j}$ s.
 
-# 4 Results
+### 4 Results
 
 An overall qualitative assessment of different aspects (computational speed, efficiency of mixing and separation) of the performance of the methods in the three data sets is summarized in Table 1.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ef3b9b52-ffad-40d0-9dc2-0ea9d1a5fdde/de0fa2a5f342877576b6546be8e23219ff5795fa8c38c137265230228ddbae34.jpg)  
 Figure 1: Statistics for short runs for three data sets (simulated data as boxplots, Barley and Pollution data as lines) and 11 variable selection methods. (a) Standardized times to run 1000 MCMC iterations (standardised to have a mean of 1), (b) Estimated effective number of MCMC samples for  $\alpha$  (for adaptive shrinkage using Jeffreys' prior applied to Simulated data and all Pollution results  $>150$ ), (c) Total numbers of runs for indicator variables, Priors set 1, (d) Total numbers of runs for indicator variables, Priors set 2. The fixed effect variant of Kuo & Mallick method was not run for the simulated data.
 
-# 4.1 Computational Performance
+##### 4.1 Computational Performance
 
 Summaries of the computational performance of the different methods are plotted in Figure 1. Speedwise, the GVS and Kuo & Mallick methods are slower per iteration than the others, whilst the reversible jump MCMC can be much quicker. The effective number of MCMC samples are all fairly similar, except that the Laplacian shrinkage does less well, and the reversible jump MCMC tends to do better than the other methods. The adaptive shrinkage using Jeffreys' prior performed much better than the rest of the methods for the simulated data.
 
 The number of changes in state of the indicators was generally similar. The fixed effect variants tended to perform poorly, so using a random effects prior (global adaptation) improved the mixing. The effect of the hierarchical variance is to pull the posteriors for the  $\beta_{j}$ 's towards the right part of the parameter space, so that when  $I_{j} = 0$ ,  $\beta_{j}$  is being sampled from close to the correct part of the parameter space. It is interesting that the fixed effect GVS method does not exhibit good mixing.
 
-# 4.2 Estimation: Simulated Data
+##### 4.2 Estimation: Simulated Data
 
 The posterior inclusion probabilities of a variable being in a model are plotted against their true values in Fig. 2, and all of the posterior inclusion probabilities are plotted in Fig. 1 of the Supplementary Material. The slope of the fitted line in Fig. 2 indicates how well the method does in distinguishing between important and minor effects, and the position along the x-axis indicates how sensitive the method is to letting smaller effects into the model. The Laplacian models perform poorly, with worse discrimination than the no selection models. The other methods perform similarly to each other, with the exception of the fixed effect GVS with flat priors, which tends to exclude variables, and the Meuwissen & Goddard form of SSVS with informative priors, which behaves inconsistently.
 
 The posterior distribution of the variable with the largest true effect size is shown in Fig. 3. The conditional distributions (i.e.  $P(\beta_j \mid I_j = 1, data)$ ) are similar: the principal difference being the larger uncertainty in the Laplacian estimates. The figures are similar for the second set of priors (see Fig. 2 in Supplementary Material), except that in the case of the random effects SSVS  $P(\beta_j \mid I_j = 0, data)$  and  $P(\beta_j \mid I_j = 1, data)$  are very similar.
 
-# 4.3 Estimation: Barley data
+##### 4.3 Estimation: Barley data
 
 The posterior estimates of  $P(I_{j} = 1 \mid data)$  from different methods are shown in Fig. 4. For both set of priors, the No Selection and Laplacian shrinkage methods work badly, showing high marginal posterior occupancy probabilities for all loci. In contrast, the
 
@@ -333,13 +356,13 @@ fixed effect methods and the adaptive shrinkage with Jeffreys' prior tended to g
 
 The posterior distributions of $\beta_{j}$ for the 10 loci showing the highest posterior QTL occupancy $P(I_{j} = 1\mid data)$ (averaged over the models) are similar (Fig. 5), although the random effects variants shrink the estimates towards zero, as might be expected (these variables are chosen to be extreme, so the common variance shrinks them towards the other variables). The estimates from the analyses with the second set of priors show a similar pattern (results not shown).
 
-# 4.4 Estimation: Pollution Data
+##### 4.4 Estimation: Pollution Data
 
 The posterior estimates of $P(I_{j} = 1 \mid data)$ from the different methods are shown in Fig.6. In general, the fixed effect variants of the methods show a better separation of the variables, more so with the first set of priors. The result is similar to those in the original paper, with Rainfall, January Temperature, Education, percentage non-white and SO2 potential showing large marginal posterior probabilities of variables being in the model: the difference is that July temperature and population density have low posterior probabilities $P(I_{j} = 1 \mid data)$, whereas they are included in the model after variable selection using Mallow's $C_{p}$ and ridge regression respectively.
 
 The posterior estimated parameters for Rainfall, January Temperature, percentage non-white and SO2 tend to be fairly similar under both priors (Fig. 3 in Supplementary Material). In the case of the vague priors, the random effect variants of the methods shrink the posterior estimates towards zero.
 
-# 4.5 Influence of Tuning
+##### 4.5 Influence of Tuning
 
 Changing the variance of the pseudo-prior in the GVS and the ratio, $g$, in the M & G model had little effect on marginal posterior probabilities $P(I_{j} = 1 \mid data)$, but increasing the standard deviation of the spike in the fixed effect SSVS decreased $P(I_{j} = 1 \mid data)$ values (data not shown). This latter effect is to be expected: if the mass of the likelihood is close to zero, increasing the width of the spike increases the overlap with the likelihood, making it easier for the indicator to flip into state 0.
 
@@ -373,7 +396,7 @@ Increasing the ratio in the M & G model caused a decline in the number of runs (
 
 Reducing the prior variance of the regression coefficients in the Laplacian shrinkage method had little effect on the posterior modes (Fig. 8), other than the small prior variances tending to reduce the coefficients towards zero. This effect is clearer when much smaller prior variances are used (data not shown). Unfortunately, it shrinks all of the coefficients, including those that the other methods suggest should be non-zero. Hence, the method gives bad separation of the variables, which is not the desired behaviour.
 
-# 5 Discussion
+### 5 Discussion
 
 The variety of methods available for variable selection is a tribute to the ingenuity of those who have been working on these problems. Each method has its own properties, and it is unlikely that any one will be optimal for all situations. Our conclusions about the methods are summarized in Table 1. Some recommendations can be made on the basis of these conclusions, especially when BUGS is being used. Some caveats are necessary, and these will be explored below.
 
@@ -403,7 +426,7 @@ Whilst the use of variable selection can be criticised as being hypothesis testi
 
 data) is typical here, where there is often little a priori reason to expect any particular marker to behave differently. It is then perhaps not surprising that much of the recent development has been in this area, although the wider use of these methods will depend on either software being written specifically for an application, or the porting of these methods into general purpose software such as OpenBUGS. It is pleasing, then, that the simpler methods do seem to work well, suggesting that even if they are not optimal, they are still a useful part of the Bayesian's armoury.
 
-# References
+### References
 
 Ball, R. D. (2001). "Bayesian methods for quantitative trait loci based on model selection: approximate analysis using Bayesian information criteria." Genetics, 159: 1351-1364.  
 Broman, K. W. and Speed, T. P. (2002). "A model selection approach for identification of quantitative trait loci in experimental crosses." J. Roy. Stat. Soc. B., 64: 641-656.  
@@ -461,6 +484,6 @@ Yi, N., George, V., and Allison, D. B. (2003). "Stochastic search variable selec
 Yi, N. and Xu, S. (2008). "Bayesian LASSO for quantitative trait loci mapping." Genetics, 179: 1045-1055.  
 Zhang, Y.-M. and Xu, S. (2005). "A penalized maximum likelihood method for estimating epistatic effects of QTL." Heredity, 95: 96-104.
 
-# Acknowledgments
+### Acknowledgments
 
 We would like to thank Nengjun Yi and Roderick D. Ball for their comments on the manuscript. This work was supported by research grants (202324 and 205371) from the Academy of Finland.

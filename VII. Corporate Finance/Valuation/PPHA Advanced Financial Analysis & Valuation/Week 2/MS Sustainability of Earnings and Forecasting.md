@@ -1,13 +1,22 @@
 ---
-parent_directory:
-title: Strategy
-tags:
-aliases:
-parent_folder: Week 2
-subfolder:
-key_concepts:
+title: Sustainability of Earnings and Forecasting
+parent_directory: VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 2
+formatted: 2025-12-21 04:35:00 PM
+formatter_model: obsidian-formatting-agent
+cli-tool: claude-code
+primary_tags:
+   - earnings quality analysis
+   - mean reversion patterns
+   - forecasting accuracy
+secondary_tags:
+   - economic earnings quality
+   - sales growth analysis
+   - profitability sustainability
+   - industry competitiveness
+   - operating margin analysis
+   - asset turnover metrics
+   - eps forecasting
 cssclasses: academia
-linter-yaml-title-alias: Strategy
 ---
 
 May 22, 2012
@@ -65,26 +74,16 @@ Exhibit 1 Earnings Quality, Sustainability, and Valuation
 
 * ESG: Although not a topic of discussion in this report, Environmental, Social, and Governance issues also affect sustainability. Source: Morgan Stanley Research
 
-# Exhibit 2
+## Exhibit 2
 
-# Extreme sales growth is hard to maintain…
+## Extreme sales growth is hard to maintain…
 
-Over a five-year period, the gap between the highest and lowest quintile firms narrows from  $50\%$  to just  $6\%$
+… as is extreme ROA
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/b71e2b5d-4b08-430d-92ed-9a68dcfe823a/fa9c49dc68900a9c4f3b95928a8c0fd242e6156afa879fdeb798c35d26910783.jpg)
-
-# … as is extreme ROA
-
-The gap between the highest and lowest quintile firms narrows from  $18\%$  to  $10\%$  over five years
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/b71e2b5d-4b08-430d-92ed-9a68dcfe823a/1da30a5e4863f0e748e962b6f1152eb5de55ba7fd012e59a5a3e7add6aef3d0c.jpg)  
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/b71e2b5d-4b08-430d-92ed-9a68dcfe823a/1da30a5e4863f0e748e962b6f1152eb5de55ba7fd012e59a5a3e7add6aef3d0c.jpg)
 Note: Shows the distribution of sales growth by quintile over 5 years for same portfolio of firms using a universe of 2,108 firms for 1995-2010. Source: FactSet, Morgan Stanley Research
 
-In the base year, the median sales growth in the top quintile is  $43\%$  and in the bottom quintile  $-7\%$ , a gap of  $50\%$ . Five years later the corresponding numbers for the same portfolio of firms are  $11\%$  and  $5\%$ , a gap of just  $6\%$ . This pattern holds across industries, suggesting that merely extrapolating recent sales growth can lead to forecast errors.
-
-For profitability (ROA and its components), the pattern is similar but less marked, and varies more widely across industries. The degree of mean-reversion – how well a firm can defend its profitability against the forces of competition – depends on how it generates its ROA. In our analysis, asset turnover (ATO) shows the weakest mean-reversion, which intuitively makes sense, given asset efficiency gains (ATO improvement via investment decisions and asset management) tend to be relatively hard to achieve and therefore 'easier' to maintain and defend against competition. In contrast, operating margins (OPM) show stronger mean-reversion, suggesting OPM advantages are harder to defend (many competitive events can lead to changes in sales without affecting operating costs).
-
-Exhibit 3 Earnings quality & forecasting performance drivers  
+Exhibit 3 Earnings quality & forecasting performance drivers
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/b71e2b5d-4b08-430d-92ed-9a68dcfe823a/f55e04ff879ee287b0db3731dc2dfd3f05715508eacc647fe6c511351b6522c6.jpg)  
 Source: Morgan Stanley Research
 
@@ -204,15 +203,13 @@ Note: The chart shows the distribution of asset turnover by quintile over a five
 
 For OPM, the top and bottom quintile move from  $24\%$  and  $0\%$  to  $18\%$  and  $4\%$ , meaning the gap between them shrinks from  $24\%$  to  $13\%$ . ATO appears less subject to the pull of mean-reversion. The top and bottom quintile move from 1.5 and 0.4 to 1.4 and 0.5 (i.e., the gap is 1.1 in the base year and 0.9 five years later).
 
-# These statistical patterns make intuitive sense
+## These statistical patterns make intuitive sense
 
 The strong mean-reversion in sales growth suggests that the economic conditions in which firms operate quickly erode any sales growth outperformance. This is not entirely surprising - extreme sales growth outperformance typically draws fierce responses from competitors. Take, for example, the strong competitive reaction (typically with a lag) to very successful products, such as the iPad. Conversely, if the firm is materially underperforming (severe downward shocks to sales), it will need to drastically reinvent itself if it wants to stay in business. Clearly, the mean-reversion of sales growth will depend on the barriers to entry (technology, patents, etc.) but the statistical evidence strongly suggests that extreme sales growth outperformance is hard to sustain.
 
 This difference in mean-reversion between OPM and ATO is also intuitive. The stronger mean-reversion shown by OPMs is consistent with margin gains tending to be less defensible than efficiency gains and more subject to erosion. OPM is mostly a function of input and output prices, cost management, and economic bargaining power with clients and/or suppliers.
 
-Clearly, all changes in sales that are not mirrored in changes in operating costs (or vice versa) have an immediate effect on
-
-OPMs. For example, it is relatively straightforward to imagine scenarios where OPMs rise or fall quickly as a result of energy prices.
+Clearly, all changes in sales that are not mirrored in changes in operating costs (or vice versa) have an immediate effect on OPMs. For example, it is relatively straightforward to imagine scenarios where OPMs rise or fall quickly as a result of energy prices.
 
 The fact that asset turnover shows the weakest mean-reversion suggests asset efficiency gains (ATO improvement) are harder to achieve and therefore 'easier' to maintain and defend against competitive forces. The relative 'defensibility' of ATO follows from the fact that ATO relates to the investment decisions of a firm and its quality of asset management. Obtaining an advantage in asset efficiency typically involves substantive business decisions that go beyond the effects of volatility in input and output prices – for example, establishing JIT inventory systems or introducing new technologies.
 
@@ -241,7 +238,7 @@ Source: FactSet, Morgan Stanley Research
 Another way to show economic earnings quality, or mean-reversion, is to plot the 'correspondence' of, say sales growth, in the base year and subsequent years across the entire sample. Using (Spearman) correlations yields a similar pattern of results to that above, namely: 1) strong mean reversion for sales growth (i.e., sharply declining correlations); 2) similar pattern of mean-reversion for ROA and OPM; and 3) weakest mean-reversion for ATO.  
 Source: FactSet, Morgan Stanley Research
 
-# Zooming in on Industry Groups
+## Zooming in on Industry Groups
 
 Sales growth mean-reverts strongly in any industry; ROA mean-reversion varies more widely.  
 
@@ -328,8 +325,6 @@ Source: FactSet, Morgan Stanley Research
 The same pattern holds for FY2 EPS forecasts (correlation=-0.56)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/b71e2b5d-4b08-430d-92ed-9a68dcfe823a/ae9a284a34972ecf04f7f40b3784e3e5b545aef60e72f8911769c0643e88e69a.jpg)  
 Source: FactSet, Morgan Stanley Research
-
-# Morgan Stanley
 
 Repeating this analysis for the other operating metrics shows that the connection between EPS forecast quality and EEQ metrics is particularly strong for ROA and OPM, but not for ATO and sales growth. This is not entirely surprising, as EPS is likely to be more closely connected to profitability (ROA) and the income statement metric OPM (which is a function of both revenues and expenses) than to asset turnover and sales growth. As we have seen, ATO exhibits weaker mean-reversion than OPM, so the effects of ATO mean-reversion will have a lesser impact on EPS. Also, sales growth considers only the revenue aspects of the income statement and does not consider expenses.
 
@@ -436,7 +431,7 @@ However, to address the apparent under-appraisal of EEQ in forecasting growth an
 
 # Extreme quintiles map into extreme forecasts
 
-# 1. Sales Growth
+## 1. Sales Growth
 
 Typically, the level of current sales growth will 'guide' expectations about future sales growth. Exhibit 28 shows the distribution of next year's change in sales growth across current sales growth quintiles. $^{13}$  The pattern suggests that the observations with the lowest current sales growth exhibit mostly a positive change in sales growth over both horizons, and those with the highest current sales growth exhibit mostly a negative change in sales growth.
 
@@ -480,7 +475,7 @@ Exhibit 31
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/b71e2b5d-4b08-430d-92ed-9a68dcfe823a/8828ef8a8ba3e1d2fdde3d9b094f32084849d0446ea2281c8edbf4b09831be56.jpg)  
 Source: FactSet, Morgan Stanley Research
 
-# 2. Profitability
+## 2. Profitability
 
 Running this analysis for ROA produces a very similar overall pattern. Both the current ROA quintile and extent of mean-reversion appear to affect the distribution of future ROA and therefore establish priors for forecasting. Again, the accuracy of analyst forecasts appears to be affected by the degree of mean-reversion of ROA. $^{16}$
 
@@ -536,7 +531,7 @@ Overall, the industry-quintiles with the largest forecasted ROA increases start 
 
 # The bottom line
 
-Exhibit 36 and Exhibit 37 illustrate how EEQ analysis can help in a practical context. While these mean-reversion forecasts should not necessarily be taken at face-value – gvien they are based exclusively on the latest value and historical patterns for each metric – they do serve as a useful benchmark to evaluate forecasts that incorporate news and additional information. Forecasts that resist the pull of mean-reversion require support from clear arguments as to why things will be different this time around. Mean-reversion forecasts also serve as a reminder that operational metrics in certain industries are inherently more difficult to forecast than in others.
+Exhibit 36 and Exhibit 37 illustrate how EEQ analysis can help in a practical context. While these mean-reversion forecasts should not necessarily be taken at face-value – given they are based exclusively on the latest value and historical patterns for each metric – they do serve as a useful benchmark to evaluate forecasts that incorporate news and additional information. Forecasts that resist the pull of mean-reversion require support from clear arguments as to why things will be different this time around. Mean-reversion forecasts also serve as a reminder that operational metrics in certain industries are inherently more difficult to forecast than in others.
 
 Exhibit 36  
 Mean-reversion forecasts: Industries with the largest forecast change in sales growth  
@@ -603,17 +598,7 @@ We estimate these regressions using five years of data within each quintile of e
 
 We measure the absolute forecast gap for sales growth as the difference between the mean-reversion and the consensus median forecast of FY1 sales scaled by current sales. The forecast error is the percent difference between median consensus FY1 sales and future realized sales.
 
-In the case of ROA, we measure the absolute forecast gap as the nominal difference between mean-reversion estimates of FY1 EBIT and median consensus FY1 EBIT. Since analysts provide FY1 forecasts of total assets relatively infrequently, we
-
-# Morgan Stanley
-
-# MORGAN STANLEY RESEARCH
-
-May 22, 2012
-
-Strategy
-
-alter the definition of ROA slightly here by scaling the FY1 EBIT forecasts by average assets. The forecast error is the difference between consensus median FY1 EBIT and its realization scaled by average assets.
+In the case of ROA, we measure the absolute forecast gap as the nominal difference between mean-reversion estimates of FY1 EBIT and median consensus FY1 EBIT. Since analysts provide FY1 forecasts of total assets relatively infrequently, we alter the definition of ROA slightly here by scaling the FY1 EBIT forecasts by average assets. The forecast error is the difference between consensus median FY1 EBIT and its realization scaled by average assets.
 
 We measure the degree of mean-reversion per industry using the Spearman correlation approach discussed earlier.
 
@@ -627,9 +612,9 @@ We construct the forecast error graphs using the definitions for sales growth an
 
 We estimate mean-reversion estimates of sales growth and ROA for the current constituents of the MSCI ACWI for which we have 2011 financial statements in three steps.
 
-NaN. We obtain the forecasts by estimating recursive regressions (as defined before) per industry-quintile of forward growth (profitability) on current growth (profitability) using data that spans the period 2000-2010. We require at least 10 observations per regression.  
-NaN. We classify the available 2011 observations in industry-quintiles. We require at least five observations per industry to define the quintiles.  
-NaN. We use the estimated intercepts and slopes per industry-quintile to construct out-of-sample forecasts using the 2011 realizations. Using the forecasted sales growth and ROA we can compute the forecasted change from current 2011 values.
+1. We obtain the forecasts by estimating recursive regressions (as defined before) per industry-quintile of forward growth (profitability) on current growth (profitability) using data that spans the period 2000-2010. We require at least 10 observations per regression.
+2. We classify the available 2011 observations in industry-quintiles. We require at least five observations per industry to define the quintiles.
+3. We use the estimated intercepts and slopes per industry-quintile to construct out-of-sample forecasts using the 2011 realizations. Using the forecasted sales growth and ROA we can compute the forecasted change from current 2011 values.
 
 The exhibits in the note report the medians of all metrics per relevant industry-quintile.
 
@@ -682,111 +667,8 @@ Exhibit 42 … with a 0.42 rank correlation between the five metrics combined an
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/b71e2b5d-4b08-430d-92ed-9a68dcfe823a/e6ce1be481d0ffb351f107124430cfce502541978dbbbb58b1dbec85013c64c3.jpg)  
 Source: FactSet, Morgan Stanley Research
 
-# Disclosure Section
 
-Morgan Stanley & Co. International plc, authorized and regulated by Financial Services Authority, disseminates in the UK research that it has prepared, and approves solely for the purposes of section 21 of the Financial Services and Markets Act 2000, research which has been prepared by any of its affiliates. As used in this disclosure section, Morgan Stanley includes RMB Morgan Stanley (Proprietary) Limited, Morgan Stanley & Co International plc and its affiliates.
 
-For important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/researchdisclosures, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.
-
-For valuation methodology and risks associated with any price targets referenced in this research report, please email morganstanley.research@morganstanley.com with a request for valuation methodology and risks on a particular stock or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.
-
-# Analyst Certification
-
-The following analysts hereby certify that their views about the companies and their securities discussed in this report are accurately expressed and that they have not received and will not receive direct or indirect compensation in exchange for expressing specific recommendations or views in this report: Peter Joos.
-
-Unless otherwise stated, the individuals listed on the cover page of this report are research analysts.
-
-# Global Research Conflict Management Policy
-
-Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflictpolicies.
-
-# Important US Regulatory Disclosures on Subject Companies
-
-The equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues.
-
-Morgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity and specialized trading, risk arbitrage and other proprietary trading, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Certain disclosures listed above are also for compliance with applicable regulations in non-US jurisdictions.
-
-# STOCK RATINGS
-
-Morgan Stanley uses a relative rating system using terms such as Overweight, Equal-weight, Not-Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.
-
-# Global Stock Ratings Distribution
-
-(as of April 30, 2012)
-
-For disclosure purposes only (in accordance with NASD and NYSE requirements), we include the category headings of Buy, Hold, and Sell alongside our ratings of Overweight, Equal-weight, Not-Rated and Underweight. Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal-weight, Not-Rated and Underweight are not the equivalent of buy, hold, and sell but represent recommended relative weightings (see definitions below). To satisfy regulatory requirements, we correspond Overweight, our most positive stock rating, with a buy recommendation; we correspond Equal-weight and Not-Rated to hold and Underweight to sell recommendations, respectively.
-
-<table><tr><td rowspan="2">Stock Rating Category</td><td colspan="2">Coverage Universe</td><td colspan="3">Investment Banking Clients (IBC)</td></tr><tr><td>Count</td><td>% of Total</td><td>Count</td><td>% of % of Rating Total IBC</td><td>Category</td></tr><tr><td>Overweight/Buy</td><td>1115</td><td>38%</td><td>459</td><td>42%</td><td>41%</td></tr><tr><td>Equal-weight/Hold</td><td>1254</td><td>43%</td><td>474</td><td>44%</td><td>38%</td></tr><tr><td>Not-Rated/Hold</td><td>100</td><td>3%</td><td>25</td><td>2%</td><td>25%</td></tr><tr><td>Underweight/Sell</td><td>471</td><td>16%</td><td>124</td><td>11%</td><td>26%</td></tr><tr><td>Total</td><td>2,940</td><td></td><td>1082</td><td></td><td></td></tr></table>
-
-Data include common stock and ADRs currently assigned ratings. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations. Investment Banking Clients are companies from whom Morgan Stanley received investment banking compensation in the last 12 months.
-
-# AnalystStockRatings
-
-Overweight (O). The stock's total return is expected to exceed the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Equal-weight (E). The stock's total return is expected to be in line with the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Not-Rated (NR). Currently the analyst does not have adequate conviction about the stock's total return relative to the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Underweight (U). The stock's total return is expected to be below the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.
-
-Unless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.
-
-# Analyst Industry Views
-
-Attractive (A): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be attractive vs. the relevant broad market benchmark, as indicated below.
-
-In-Line (I): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be in line with the relevant broad market benchmark, as indicated below.
-
-Cautious (C): The analyst views the performance of his or her industry coverage universe over the next 12-18 months with caution vs. the relevant broad market benchmark, as indicated below.
-
-Benchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia - relevant MSCI country index.
-
-# Important Disclosures for Morgan Stanley Smith Barney LLC Customers
-
-Citi Investment Research & Analysis (CIRA) research reports may be available about the companies or topics that are the subject of Morgan Stanley Research. Ask your Financial Advisor or use Research Center to view any available CIRA research reports in addition to Morgan Stanley research reports.
-
-Important disclosures regarding the relationship between the companies that are the subject of Morgan Stanley Research and Morgan Stanley Smith Barney LLC, Morgan Stanley and Citigroup Global Markets Inc. or any of their affiliates, are available on the Morgan Stanley Smith Barney disclosure website at www.morganstanleysmithbarney.com/researchdisclosures.
-
-For Morgan Stanley and Citigroup Global Markets, Inc. specific disclosures, you may refer to www.morganstanley.com/researchdisclosures and https://www.citigroupgeo.com/geopublic/Disclosures/index_a.html.
-
-Each Morgan Stanley Equity Research report is reviewed and approved on behalf of Morgan Stanley Smith Barney LLC. This review and approval is conducted by the same person who reviews the Equity Research report on behalf of Morgan Stanley. This could create a conflict of interest.
-
-# Other Important Disclosures
-
-Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act.
-
-Morgan Stanley produces an equity research product called a "Tactical Idea." Views contained in a "Tactical Idea" on a particular stock may be contrary to the recommendations or views expressed in research on the same stock. This may be the result of differing time horizons, methodologies, market events, or other factors. For all research available on a particular stock, please contact your sales representative or go to Client Link at www.morganstanley.com.
-
-Morgan Stanley Research does not provide individually tailored investment advice. Morgan Stanley Research has been prepared without regard to the circumstances and objectives of those who receive it. Morgan Stanley recommends that investors independently evaluate particular investments and strategies, and encourages investors to seek the advice of a financial adviser. The appropriateness of an investment or strategy will depend on an investor's circumstances and objectives. The securities, instruments, or strategies discussed in Morgan Stanley Research may not be suitable for all investors, and certain investors may not be eligible to purchase or participate in some or all of them. Morgan Stanley Research is not an offer to buy or sell any security/instrument or to participate in any trading strategy. The value of and income from your investments may vary because of changes in interest rates, foreign exchange rates, default rates, prepayment rates, securities/instruments prices, market indexes, operational or financial conditions of companies or other factors. There may be time limitations on the exercise of options or other rights in securities/instruments transactions. Past performance is not necessarily a guide to future performance. Estimates of future performance are based on assumptions that may not be realized. If provided, and unless otherwise stated, the closing price on the cover page is that of the primary exchange for the subject company's securities/instruments.
-
-The fixed income research analysts, strategists or economists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality, accuracy and value of research, firm profitability or revenues (which include fixed income trading and capital markets profitability or revenues), client feedback and competitive factors. Fixed Income Research analysts, strategists' or economists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.
-
-Morgan Stanley Research is not an offer to buy or sell or the solicitation of an offer to buy or sell any security/instrument or to participate in any particular trading strategy. The "Important US Regulatory Disclosures on Subject Companies" section in Morgan Stanley Research lists all companies mentioned where Morgan Stanley owns  $1\%$  or more of a class of common equity securities of the companies. For all other companies mentioned in Morgan Stanley Research, Morgan Stanley may have an investment of less than  $1\%$  in securities/instruments or derivatives of securities/instruments of companies and may trade them in ways different from those discussed in Morgan Stanley Research. Employees of Morgan Stanley not involved in the preparation of Morgan Stanley Research may have investments in securities/instruments or derivatives of securities/instruments of companies mentioned and may trade them in ways different from those discussed in Morgan Stanley Research. Derivatives may be issued by Morgan Stanley or associated persons.
-
-With the exception of information regarding Morgan Stanley, Morgan Stanley Research is based on public information. Morgan Stanley makes every effort to use reliable, comprehensive information, but we make no representation that it is accurate or complete. We have no obligation to tell you when opinions or information in Morgan Stanley Research change apart from when we intend to discontinue equity research coverage of a subject company. Facts and views presented in Morgan Stanley Research have not been reviewed by, and may not reflect information known to, professionals in other Morgan Stanley business areas, including investment banking personnel.
-
-Morgan Stanley Research personnel may participate in company events such as site visits and are generally prohibited from accepting payment by the company of associated expenses unless pre-approved by authorized members of Research management.
-
-Morgan Stanley may make investment decisions or take proprietary positions that are inconsistent with the recommendations or views in this report.
-
-To our readers in Taiwan: Information on securities/instruments that trade in Taiwan is distributed by Morgan Stanley Taiwan Limited ("MSTL"). Such information is for your reference only. Information on any securities/instruments issued by a company owned by the government or incorporated in the PRC and listed in on the Stock Exchange of Hong Kong ("SEHK"), namely the H-shares, including the component company stocks of the Stock Exchange of Hong Kong ("SEHK")s Hang Seng China Enterprise Index is distributed only to Taiwan Securities Investment Trust Enterprises ("SITE"). The reader should independently evaluate the investment risks and is solely responsible for their investment decisions. Morgan Stanley Research may not be distributed to the public media or quoted or used by the public media without the express written consent of Morgan Stanley. To our readers in Hong Kong: Information is distributed in Hong Kong by and on behalf of, and is attributable to, Morgan Stanley Asia Limited as part of its regulated activities in Hong Kong. If you have any queries concerning Morgan Stanley Research, please contact our Hong Kong sales representatives. Information on securities/instruments that do not trade in Taiwan is for informational purposes only and is not to be construed as a recommendation or a solicitation to trade in such securities/instruments. MSTL may not execute transactions for clients in these securities/instruments.
-
-m
-
-Morgan Stanley Research is disseminated in Brazil by Morgan Stanley C.T.V.M. S.A.; in Japan by Morgan Stanley MUFG Securities Co., Ltd. and, for Commodities related research reports only, Morgan Stanley Capital Group Japan Co., Ltd; in Hong Kong by Morgan Stanley Asia Limited (which accepts responsibility for its contents); in Singapore by Morgan Stanley Asia (Singapore) Pte. (Registration number 199206298Z) and/or Morgan Stanley Asia (Singapore) Securities Pte Ltd (Registration number 200008434H), regulated by the Monetary Authority of Singapore (which accepts legal responsibility for its contents and should be contacted with respect to any matters arising from, or in connection with, Morgan Stanley Research); in Australia to "wholesale clients" within the meaning of the Australian Corporations Act by Morgan Stanley Australia Limited A.B.N. 67 003 734 576, holder of Australian financial services license No. 233742, which accepts responsibility for its contents; in Australia to "wholesale clients" and "retail clients" within the meaning of the Australian Corporations Act by Morgan Stanley Smith Barney Australia Pty Ltd (A.B.N. 19 009 145 555, holder of Australian financial services license No. 240813, which accepts responsibility for its contents; in Korea by Morgan Stanley & Co International plc, Seoul Branch; in India by Morgan Stanley India Company Private Limited; in Canada by Morgan Stanley Canada Limited, which has approved of and takes responsibility for its contents in Canada; in Germany by Morgan Stanley Bank AG, Frankfurt am Main and Morgan Stanley Private Wealth Management Limited, Niederlassung Deutschland, regulated by Bundesanstalt fuer Finanzdienstleistungsaufsicht (BaFin); in Spain by Morgan Stanley, S.V., S.A., a Morgan Stanley group company, which is supervised by the Spanish Securities Markets Commission (CNMV) and states that Morgan Stanley Research has been written and distributed in accordance with the rules of conduct applicable to financial research as established under Spanish regulations; in the US by Morgan Stanley & Co. LLC, which accepts responsibility for its contents. Morgan Stanley & Co. International plc, authorized and regulated by the Financial Services Authority, disseminates in the UK research that it has prepared, and approves solely for the purposes of section 21 of the Financial Services and Markets Act 2000, research which has been prepared by any of its affiliates. Morgan Stanley Private Wealth Management Limited authorized and regulated by the Financial Services Authority, also disseminates Morgan Stanley Research in the UK. Private UK investors should obtain the advice of their Morgan Stanley & Co. International plc or Morgan Stanley Private Wealth Management representative about the investments concerned. RMB Morgan Stanley (Proprietary) Limited is a member of the JSE Limited and regulated by the Financial Services Board in South Africa. RMB Morgan Stanley (Proprietary) Limited is a joint venture owned equally by Morgan Stanley International Holdings Inc. and RMB Investment Advisory (Proprietary) Limited, which is wholly owned by FirstRand Limited.
-
-The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (DIFC Branch), regulated by the Dubai Financial Services Authority (the DFSA), and is directed at Professional Clients only, as defined by the DFSA. The financial products or financial services to which this research relates will only be made available to a customer who we are satisfied meets the regulatory criteria to be a Professional Client.
-
-The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (QFC Branch), regulated by the Qatar Financial Centre Regulatory Authority (the QFCRA), and is directed at business customers and market counterparties only and is not intended for Retail Customers as defined by the QFCRA.
-
-As required by the Capital Markets Board of Turkey, investment information, comments and recommendations stated here, are not within the scope of investment advisory activity. Investment advisory service is provided in accordance with a contract of engagement on investment advisory concluded between brokerage houses, portfolio management companies, non-deposit banks and clients. Comments and recommendations stated here rely on the individual opinions of the ones providing these comments and recommendations. These opinions may not fit to your financial status, risk and return preferences. For this reason, to make an investment decision by relying solely to this information stated here may not bring about outcomes that fit your expectations.
-
-The trademarks and service marks contained in Morgan Stanley Research are the property of their respective owners. Third-party data providers make no warranties or representations relating to the accuracy, completeness, or timeliness of the data they provide and shall not have liability for any damages relating to such data. The Global Industry Classification Standard (GICS) was developed by and is the exclusive property of MSCI and S&P. Morgan Stanley bases projections, opinions, forecasts and trading strategies regarding the MSCI Country Index Series solely on public information. MSCI has not reviewed, approved or endorsed these projections, opinions, forecasts and trading strategies. Morgan Stanley has no influence on or control over MSCI's index compilation decisions. Morgan Stanley Research or portions of it may not be reprinted, sold or redistributed without the written consent of Morgan Stanley. Morgan Stanley research is disseminated and available primarily electronically, and, in some cases, in printed form. Additional information on recommended securities/instruments is available on request.
-
-Morgan Stanley Research, or any portion thereof may not be reprinted, sold or redistributed without the written consent of Morgan Stanley.
-
-Morgan Stanley Research is disseminated and available primarily electronically, and, in some cases, in printed form.
 
 Additional information on recommended securities/instruments is available on request.
 

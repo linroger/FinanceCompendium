@@ -1,9 +1,9 @@
 ---
 title: "Analysis of Financial Statements"
 parent_directory: "VII. Corporate Finance/Financial Statements/Analysis"
-formatted: 2025-12-20 11:45:00 AM
-formatter_model: claude-sonnet-4
-cli_tool: opencode
+formatted: 2025-12-21 05:00:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
 primary_tags:
   - financial analysis
   - financial statements
@@ -17,70 +17,83 @@ secondary_tags:
 cssclasses: academia
 ---
 
-- # Contents
-- Part One: The Basics
-  - Chapter 1: Introduction
-    - WHAT IS FINANCIAL ANALYSIS?
-    - WHERE DO WE FIND THE FINANCIAL INFORMATION?
-    - WHO GETS WHAT TYPE OF INFORMATION AND WHEN?
-    - WHAT DOES SARBANES-OXLEY MEAN TO COMPANIES AND INVESTORS?
-    - WHAT DOES THE DODD-FRANK ACT MEAN FOR COMPANIES AND INVESTORS?
-    - SUMMARY REVIEW
-  - Chapter 2: Financial Statements
-    - ACCOUNTING PRINCIPLES: WHAT ARE THEY?
-    - WHAT DO THE BASIC FINANCIAL STATEMENTS TELL US?
-    - ACCOUNTING FLEXIBILITY
-    - HOW DOES ACCOUNTING IN THE UNITED STATES DIFFER FROM ACCOUNTING OUTSIDE THE UNITED STATES?
-    - SUMMARY REVIEW
-  - Chapter 3: The Quality of Financial Information
-    - IT’S ALL IN THE TIMING
-    - TOO MANY CHOICES?
-    - SO WHAT’S THEIR BUSINESS?
-    - RESTATEMENTS AND FINANCIAL ANALYSIS
-    - TELL-TALE SIGNS
-    - SUMMARY REVIEW
-- Part Two: Analysis of Financial Statements
-  - Chapter 4: Financial Analysis
-    - WHAT ARE FINANCIAL RATIOS AND HOW DO WE USE THEM?
-    - WHAT ARE THE DIFFERENT TYPES OF FINANCIAL RATIOS?
-    - ANALYSIS OF RETURN ON INVESTMENT RATIOS
-    - HOW CAN WE USE COMMON-SIZE ANALYSIS TO ANALYZE FINANCIAL STATEMENTS?
-    - INTEGRATED RATIO ANALYSIS
-    - WHAT ARE THE PITFALLS AND PRATFALLS OF FINANCIAL RATIO ANALYSIS?
-    - SUMMARY REVIEW
-  - Chapter 5: Equity Analysis
-    - EARNINGS
-    - PRICE-EARNINGS RATIO
-    - DIVIDENDS
-    - OTHER FUNDAMENTALS
-    - BOOK-TO-MARKET RATIO
-    - SUMMARY REVIEW
-  - Chapter 6: Cash Flow Analysis
-    - MEASURES OF CASH FLOW
-    - CASH FLOWS AND THE STATEMENT OF CASH FLOWS
-    - FREE CASH FLOW
-    - THE USEFULNESS OF CASH FLOWS IN FINANCIAL ANALYSIS
-    - SUMMARY REVIEW
-- Part Three: Applying Financial Analysis
-  - Chapter 7: Measuring Company Performance
-    - TRADITIONAL PERFORMANCE MEASURES
-    - MEASURES OF VALUE ADDED
-    - SUMMARY REVIEW
-  - Chapter 8: Corporate Credit Analysis
-    - TYPES OF CREDIT RISK
-    - FACTORS TO CONSIDER IN CORPORATE CREDIT ANALYSIS
-    - SUMMARY REVIEW
-  - Chapter 9: Analysis of Equity Risk Using Fundamentals Factor Models
-    - MEASURING RISK
-    - ASSET PRICING MODEL
-    - FACTOR MODELS
-    - FUNDAMENTAL FACTOR MODELS
-    - SUMMARY REVIEW
-  - Chapter 10: The Lessons We Learn
-    - THE LESSONS
-    - THE FUTURE OF FINANCIAL ANALYSIS IN THE POST-CRISIS ERA
-    - REVIEW
-    - Answers to End of Chapter Questions
+# Contents
+
+## Part One: The Basics
+
+### Chapter 1: Introduction
+- WHAT IS FINANCIAL ANALYSIS?
+- WHERE DO WE FIND THE FINANCIAL INFORMATION?
+- WHO GETS WHAT TYPE OF INFORMATION AND WHEN?
+- WHAT DOES SARBANES-OXLEY MEAN TO COMPANIES AND INVESTORS?
+- WHAT DOES THE DODD-FRANK ACT MEAN FOR COMPANIES AND INVESTORS?
+- SUMMARY REVIEW
+
+### Chapter 2: Financial Statements
+- ACCOUNTING PRINCIPLES: WHAT ARE THEY?
+- WHAT DO THE BASIC FINANCIAL STATEMENTS TELL US?
+- ACCOUNTING FLEXIBILITY
+- HOW DOES ACCOUNTING IN THE UNITED STATES DIFFER FROM ACCOUNTING OUTSIDE THE UNITED STATES?
+- SUMMARY REVIEW
+
+### Chapter 3: The Quality of Financial Information
+- IT'S ALL IN THE TIMING
+- TOO MANY CHOICES?
+- SO WHAT'S THEIR BUSINESS?
+- RESTATEMENTS AND FINANCIAL ANALYSIS
+- TELL-TALE SIGNS
+- SUMMARY REVIEW
+
+## Part Two: Analysis of Financial Statements
+
+### Chapter 4: Financial Analysis
+- WHAT ARE FINANCIAL RATIOS AND HOW DO WE USE THEM?
+- WHAT ARE THE DIFFERENT TYPES OF FINANCIAL RATIOS?
+- ANALYSIS OF RETURN ON INVESTMENT RATIOS
+- HOW CAN WE USE COMMON-SIZE ANALYSIS TO ANALYZE FINANCIAL STATEMENTS?
+- INTEGRATED RATIO ANALYSIS
+- WHAT ARE THE PITFALLS AND PRATFALLS OF FINANCIAL RATIO ANALYSIS?
+- SUMMARY REVIEW
+
+### Chapter 5: Equity Analysis
+- EARNINGS
+- PRICE-EARNINGS RATIO
+- DIVIDENDS
+- OTHER FUNDAMENTALS
+- BOOK-TO-MARKET RATIO
+- SUMMARY REVIEW
+
+### Chapter 6: Cash Flow Analysis
+- MEASURES OF CASH FLOW
+- CASH FLOWS AND THE STATEMENT OF CASH FLOWS
+- FREE CASH FLOW
+- THE USEFULNESS OF CASH FLOWS IN FINANCIAL ANALYSIS
+- SUMMARY REVIEW
+
+## Part Three: Applying Financial Analysis
+
+### Chapter 7: Measuring Company Performance
+- TRADITIONAL PERFORMANCE MEASURES
+- MEASURES OF VALUE ADDED
+- SUMMARY REVIEW
+
+### Chapter 8: Corporate Credit Analysis
+- TYPES OF CREDIT RISK
+- FACTORS TO CONSIDER IN CORPORATE CREDIT ANALYSIS
+- SUMMARY REVIEW
+
+### Chapter 9: Analysis of Equity Risk Using Fundamentals Factor Models
+- MEASURING RISK
+- ASSET PRICING MODEL
+- FACTOR MODELS
+- FUNDAMENTAL FACTOR MODELS
+- SUMMARY REVIEW
+
+### Chapter 10: The Lessons We Learn
+- THE LESSONS
+- THE FUTURE OF FINANCIAL ANALYSIS IN THE POST-CRISIS ERA
+- REVIEW
+- Answers to End of Chapter Questions
 ## Preface
 
 ## About the Authors
@@ -88,18 +101,10 @@ cssclasses: academia
 ## Part One The Basics
 
 ## CHAPTER 1 Introduction
-The investments arena is large, complex, and dynamic. These characteristics make it interesting to study, but also make it challenging to keep up. What changes? Laws and regulations, the introduction of new types of securities, innovations in markets and trading, company events
-(such as the passing of the CEO or a settlement of a lawsuit), and a persistently changing economy to name a few. Add to this mix the political, technological, and environmental changes that occur throughout the world every day, and you have quite a task to understand investment opportunities and investment management.
-There is a wealth of financial information about companies available to financial analysts and investors. The popularity of the Internet as a source
-- f information has made vast amounts of information available to everyone, displacing print as a means of communication. Consider the amount of information available about Microsoft Corporation. Not only can investors find annual reports, quarterly reports, press releases, and links to the companies' filings with regulators on Microsoft's web site, anyone can download data for analysis in spreadsheet form and can listen in on
-Microsoft's management's conversations with analysts.
-The availability and convenience of information has eased the datagathering task of financial analysis. What remains, however, is the more challenging task of analyzing this information in a meaningful way. Recent scandals involving financial disclosures increase the importance of knowing just how to interpret financial information. In response to these scandals,
-Congress passed the Sarbanes-Oxley (SOX) Act of 2002, which increases the responsibility of publicly traded corporations, accounting firms
-1 performing audits, company management, and financial analysts  And while this Act is an attempt to restore faith in financial disclosures, investors and analysts must still be diligent in interpreting financial data in a meaningful way.
-This need for diligence is evident in the financial crisis of 2007–2008, which tested analysts' and investors' abilities to understand complex securities and their accounting representation. The Dodd-Frank Wall Street
-Reform and Consumer Protection Act (Dodd-Frank Act) passed in 2010 in response to the crisis, added requirements pertaining to corporate governance, security regulation, the regulation of the financial services
- industry, and consumer protections And, while there will likely be additional disclosures of some of the more complex instruments as a result
-- f this act, financial instruments are constantly evolving, and analysts and investors have to stay abreast of these innovations and their implications for analysis.
+The investments arena is large, complex, and dynamic. These characteristics make it interesting to study, but also make it challenging to keep up. What changes? Laws and regulations, the introduction of new types of securities, innovations in markets and trading, company events (such as the passing of the CEO or a settlement of a lawsuit), and a persistently changing economy to name a few. Add to this mix the political, technological, and environmental changes that occur throughout the world every day, and you have quite a task to understand investment opportunities and investment management.
+There is a wealth of financial information about companies available to financial analysts and investors. The popularity of the Internet as a source of information has made vast amounts of information available to everyone, displacing print as a means of communication. Consider the amount of information available about Microsoft Corporation. Not only can investors find annual reports, quarterly reports, press releases, and links to the companies' filings with regulators on Microsoft's web site, anyone can download data for analysis in spreadsheet form and can listen in on Microsoft's management's conversations with analysts.
+The availability and convenience of information has eased the data-gathering task of financial analysis. What remains, however, is the more challenging task of analyzing this information in a meaningful way. Recent scandals involving financial disclosures increase the importance of knowing just how to interpret financial information. In response to these scandals, Congress passed the Sarbanes-Oxley (SOX) Act of 2002, which increases the responsibility of publicly traded corporations, accounting firms performing audits, company management, and financial analysts. And while this Act is an attempt to restore faith in financial disclosures, investors and analysts must still be diligent in interpreting financial data in a meaningful way.
+This need for diligence is evident in the financial crisis of 2007–2008, which tested analysts' and investors' abilities to understand complex securities and their accounting representation. The Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act) passed in 2010 in response to the crisis, added requirements pertaining to corporate governance, security regulation, the regulation of the financial services industry, and consumer protections. And, while there will likely be additional disclosures of some of the more complex instruments as a result of this act, financial instruments are constantly evolving, and analysts and investors have to stay abreast of these innovations and their implications for analysis.
 The purpose of this book is to assist the analyst and investor in understanding financial information and using this information in an effective manner.
 ## WHAT IS FINANCIAL ANALYSIS?
 Our focus in this book is on _financial analysis_, which is the selection, evaluation, and interpretation of financial data and other pertinent information to assist in evaluating the operating performance and financial condition of a company. The operating performance of a company is a measure of how well a company has used its resources—its assets, both tangible and intangible, to produce a return on its investment. The financial condition of a company is a measure of its ability to satisfy its obligations, such as the payment of interest on its debt in a timely manner.
@@ -113,9 +118,7 @@ Revenue growth that is out of line with others in the same industry or not reaso
 Profits that are increasing at a much faster rate than cash flows generated from operations.
 Debt disappearing from the balance sheet.
 ### Example: Enron
-Consider Enron Corporation, which filed for bankruptcy in 2001 following a financial-reporting scandal. Enron's revenues grew from a little over
-\$9.1 billion to over \$100 billion in the 10-year period from 1995 through
-2000 as we show in Exhibit 1.1; in other words, its revenues grew at an average rate of over 61\% per year. During this period, Enron's debts grew too, from 76\% of its assets to over 82\% of its assets. Enron experienced significant growth and reported significant debt, becoming one of the largest corporations in the United States within 15 years of becoming a publicly traded corporation.
+Consider Enron Corporation, which filed for bankruptcy in 2001 following a financial-reporting scandal. Enron's revenues grew from a little over $9.1 billion to over $100 billion in the 10-year period from 1995 through 2000 as we show in Exhibit 1.1; in other words, its revenues grew at an average rate of over 61\% per year. During this period, Enron's debts grew too, from 76\% of its assets to over 82\% of its assets. Enron experienced significant growth and reported significant debt, becoming one of the largest corporations in the United States within 15 years of becoming a publicly traded corporation.
 EXHIBIT 1.1 Enron's Revenues, 1995–2000
 _Source of data:_ Enron, Inc. 10-K filings, various years.
 An interesting aspect of Enron's growth is that the company produced revenues far in excess of what other companies of similar size could produce. For example, in 2000, Enron produced over \$5 million in revenues per employee, whereas Exxon Mobil could only produce \$2 million per
@@ -127,20 +130,15 @@ The most notorious deal involved Joint Energy Development Investment
 Limited Partnership II (JEDI II). Enron executives created this partnership using Enron funds and loans fed through Chewco Investments. Though accounted for as a special purpose entity (SPE), and hence its assets and liabilities were removed from Enron's balance sheet, there was insufficient independent ownership of the entity to qualify JEDI II as a SPE because
 
 Chewco was, essentially, Enron
-In all of this, keep in mind that Enron left a trail for the analyst to find in the filings of Enron and these entities. The limited partnerships and their relation to Enron were reported in the footnotes to Enron's filings and in
-- ther filings with the SEC. Not all the pieces were there, but enough to raise concerns.
+In all of this, keep in mind that Enron left a trail for the analyst to find in the filings of Enron and these entities. The limited partnerships and their relation to Enron were reported in the footnotes to Enron's filings and in other filings with the SEC. Not all the pieces were there, but enough to raise concerns.
 ### Example: AIG
 As another example, consider AIG, an insurance company that settled a case of fraud in 2010 after six years for 725 million. Along with anticompetitive charges and stock price manipulation, AIG was accused of accounting manipulations perpetrated between 1999 and 2005 that inflated its claims reserves by reporting what was, essentially, a deposit with a
 5 reinsurance company as a reinsurance transaction  The result of this inflation represented that it had more assets available to meet claims than it actually had, making itself look more profitable and less risky. As you can see in Exhibit 1.2, AIG reported underwriting profits instead of losses in
 2000 and 2001, which then overstated net income, especially in 2000 and
 EXHIBIT 1.2 AIG Profits, 2000–2004
 _Source of data:_ AIG 10-K filings with the SEC, various years.
-Were there bread crumbs to follow? A few. First, AIG was known for its
-- paque accounting:
-It's been an open secret for years on Wall Street that no one outside the company really understood its accounting. AIG has long been called
-“opaque” on Wall Street, which is what analysts say when they can't
-
-figure out a company's books because much of the detail is off the books
+Were there bread crumbs to follow? A few. First, AIG was known for its opaque accounting:
+It has been an open secret for years on Wall Street that no one outside the company really understood its accounting. AIG has long been called "opaque" on Wall Street, which is what analysts say when they can't figure out a company's books because much of the detail is off the books.
 Second, reinsurance accounting at the time was murky, so the arrangement with General Re, which involved an unusual insurance product that increased AIG's loss reserves to acceptable levels, should have raised questions. The particular ‘insurance’ product itself was unusual.
 A typical insurance product involves the insurance company receiving a periodic premium to insure for a particular type of loss (e.g., some sort of casualty). If a loss does not occur, the insurance company comes out ahead; if a loss event occurs, the insured is protected from loss by the insurance company. The AIG contract was a bit different: A multiyear insurance contract, with the premium up front that would cover most or all of the potential losses, with any unused premium refunded at the end of the contract. This AIG product is more of a loan than it is an insurance contract, which would require different accounting. However, AIG reported the
  proceeds from this product as insurance, not as a loan
@@ -185,19 +183,13 @@ Publicly traded companies are required by these securities laws to disclose info
 |Sarbanes-Oxley Act<br>of 2002|Wide-ranging law that creates the Public Accounting Oversight Board,<br>requires auditor independence, increases corporate responsibility for<br>financial disclosures, enhances financial disclosures, and extends the<br>authority of the SEC.|
 |Dodd-Frank Wall<br>Street Reform and<br>Consumer Protection<br>Act of 2010|Broad law that encompasses changes in the regulation and oversight of the<br>financial services industry, the markets for derivatives, investor protections,<br>credit rating agencies, executive compensation, and mortgages and other<br>lending.|
 
-The SEC, established by the Securities and Exchange Act of 1934, carries
-
-- ut the following activities:
+The SEC, established by the Securities and Exchange Act of 1934, carries out the following activities:
 Issues rules that clarify securities laws or trading procedure issues.
 Requires disclosure of specific information.
 Makes public statements on current issues.
 Oversees self-regulation of the securities industry by the stock exchanges and professional groups such as the National Association of
 Securities Dealers.
-As you can see in Exhibit 1.3, a publicly traded company must make a number of periodic and occasional filings with the SEC. In addition, major shareholders and executives must make periodic and occasional filings. We
-Exhibit 1.4.
-list a number of these filings in Company filings to the SEC are available free, in real-time, from the SEC's EDGAR website, at
-.
-[www.sec.gov](http://www.sec.gov/)
+As you can see in Exhibit 1.3, a publicly traded company must make a number of periodic and occasional filings with the SEC. In addition, major shareholders and executives must make periodic and occasional filings. We list a number of these filings in Exhibit 1.4. Company filings to the SEC are available free, in real-time, from the SEC's EDGAR website, at [www.sec.gov](http://www.sec.gov/).
 
 |EXHIBIT 1.4 Summary of Filings of Publicly Traded Companies, Their Owners, and Executives|Col2|Col3|
 |---|---|---|
@@ -216,11 +208,9 @@ list a number of these filings in Company filings to the SEC are available free,
 |Schedule<br>14D-1|Filing for a tender offer by someone other<br>than the issuer such that the filer's beneficial<br>ownership is more than 5\% of a class of<br>registered stock.|Report of an offer to buy shares<br>including information on the identity<br>of the acquiring party, the source and<br>amount of funds used to make the<br>purchase, the purpose of the purchase,<br>and the terms of the offer.|
 |aThere are different types of proxy: preliminary, confidential, and definitive. The most common is<br>the definitive proxy, generally indicated with the abbreviation DEF (e.g., DEF 14A).|aThere are different types of proxy: preliminary, confidential, and definitive. The most common is<br>the definitive proxy, generally indicated with the abbreviation DEF (e.g., DEF 14A).|aThere are different types of proxy: preliminary, confidential, and definitive. The most common is<br>the definitive proxy, generally indicated with the abbreviation DEF (e.g., DEF 14A).|
 
-The SEC, by law, has the authority to specify accounting principles for corporations under its jurisdiction. The SEC has largely delegated this responsibility to the Financial Accounting Standards Board (FASB). While recognizing the FASB Accounting Standards Codification as authoritative, the SEC also issues accounting rules, often dealing with supplementary disclosures  8
+The SEC, by law, has the authority to specify accounting principles for corporations under its jurisdiction. The SEC has largely delegated this responsibility to the Financial Accounting Standards Board (FASB). While recognizing the FASB Accounting Standards Codification as authoritative, the SEC also issues accounting rules, often dealing with supplementary disclosures.
 
-Therefore, the financial information provided in the company's
-
-10-K filing is more comprehensive than that provided in its annual report provided to shareholders.
+Therefore, the financial information provided in the company's 10-K filing is more comprehensive than that provided in its annual report provided to shareholders.
 
 ### Form 10-K
 
@@ -428,14 +418,9 @@ The analysis of a company requires that the analyst look at the other firms that
 
 - ther companies is to get an idea of the market in which the company's products are sold: What is the degree of competition? What are the trends?
 What is the financial condition of the company's competitors?
-Several government agencies provide information that is useful in an analysis of an industry. The primary governmental providers of industry data are the U.S. Bureau of the Census and the Bureau of Economic
-Analysis, an agency of the U.S. Department of Commerce. A recent innovation is the creation of Stat-USA, a fee-based collection of governmental data. Stat-USA is an electronic provider of industry and sector data that are produced by the U.S. Department of Commerce. The available data provided for different industries include gross domestic product, shipments of products, inventories, orders, and plant capacity utilization  21
-The government classification of businesses into industries is based on
-22 the North American Industry Classification System (NAICS)  NAICS is a
-22 the North American Industry Classification System (NAICS)  NAICS is a system of industry identification that replaced the Standard Industrial
-Classification (SIC) system in 1997, though many analysts and data
- providers continue to use the SIC system The NAICS is a six-digit system
- providers continue to use the SIC system The NAICS is a six-digit system that classifies businesses using 350 different classes. The broadest classification comprises the first two digits of the six-digit code and is listed in Exhibit 1.9. The NAICS is now the basis for the classification of industry-specific data produced by governmental agencies. Like the SIC system before it, the NAICS will, over time, become the basis for the classification of companies for industry-specific data used by nongovernmental information providers as well.
+Several government agencies provide information that is useful in an analysis of an industry. The primary governmental providers of industry data are the U.S. Bureau of the Census and the Bureau of Economic Analysis, an agency of the U.S. Department of Commerce. A recent innovation is the creation of Stat-USA, a fee-based collection of governmental data. Stat-USA is an electronic provider of industry and sector data that are produced by the U.S. Department of Commerce. The available data provided for different industries include gross domestic product, shipments of products, inventories, orders, and plant capacity utilization.
+
+The government classification of businesses into industries is based on the North American Industry Classification System (NAICS). NAICS is a system of industry identification that replaced the Standard Industrial Classification (SIC) system in 1997, though many analysts and data providers continue to use the SIC system. The NAICS is a six-digit system that classifies businesses using 350 different classes. The broadest classification comprises the first two digits of the six-digit code and is listed in Exhibit 1.9. The NAICS is now the basis for the classification of industry-specific data produced by governmental agencies. Like the SIC system before it, the NAICS will, over time, become the basis for the classification of companies for industry-specific data used by nongovernmental information providers as well.
 
 |EXHIBIT 1.9 North American Industry Classification System Sector Codes|Col2|
 |---|---|
@@ -465,11 +450,7 @@ Classification (SIC) system in 1997, though many analysts and data
 
 ### Economic Data
 
-Another source of information for financial analysis is economic data, such as the gross domestic product and consumer price index, which may be useful in assessing the recent performance or future prospects of a firm or industry. For example, suppose you are evaluating a firm that owns a chain
-
-- f retail outlets. What information do you need to judge the firm's performance and financial condition? You need financial data, but they do not tell the whole story. You also need information on consumer spending, producer prices, and consumer prices. These economic data are readily
-Exhibit 1.10.
-available from government sources, a few of which we list in
+Another source of information for financial analysis is economic data, such as the gross domestic product and consumer price index, which may be useful in assessing the recent performance or future prospects of a firm or industry. For example, suppose you are evaluating a firm that owns a chain of retail outlets. What information do you need to judge the firm's performance and financial condition? You need financial data, but they do not tell the whole story. You also need information on consumer spending, producer prices, and consumer prices. These economic data are readily available from government sources, a few of which we list in Exhibit 1.10.
 **EXHIBIT 1.10** Examples of Government Sources of Economic Data
 
 |Publisher|WebSources|Print or CD -RomProduct|
@@ -483,23 +464,14 @@ available from government sources, a few of which we list in
 
 ### Information Prepared by Financial Service Companies
 
-A whole industry exists to provide financial and related information about individual companies, industries, and the economy. The ease and low cost
-
-- f providing such data on the Internet has fostered a proliferation of information providers. However, the prominent providers in today's
+A whole industry exists to provide financial and related information about individual companies, industries, and the economy. The ease and low cost of providing such data on the Internet has fostered a proliferation of information providers. However, the prominent providers in today's
 Internet-based world are some of the same providers that were prominent in print medium.
 ### Company-Specific Information
 
-Information about an individual company is available from a vast number
-
-- f sources, including the company itself through its own web pages. In addition to relaying the company's financial information that is presented by the company through its communication with shareholders and regulators, there are many financial service firms that compile the financial data and present analyses.
-Exhibit 1.11.
-We list several sources of data on individual companies in
-This is by no means an exhaustive listing because of the large and evergrowing number of information providers. The providers distinguish themselves in the market for information through the breadth of coverage
-(in terms of the number of companies in their data base), the depth of coverage (in terms of the extensive nature of their data for individual companies), or their specialty (e.g., the collection of analyst recommendations and forecasts). These resources are available online, some free and some fee-based.
+Information about an individual company is available from a vast number of sources, including the company itself through its own web pages. In addition to relaying the company's financial information that is presented by the company through its communication with shareholders and regulators, there are many financial service firms that compile the financial data and present analyses. We list several sources of data on individual companies in Exhibit 1.11.
+This is by no means an exhaustive listing because of the large and ever-growing number of information providers. The providers distinguish themselves in the market for information through the breadth of coverage (in terms of the number of companies in their database), the depth of coverage (in terms of the extensive nature of their data for individual companies), or their specialty (e.g., the collection of analyst recommendations and forecasts). These resources are available online, some free and some fee-based.
 **EXHIBIT 1.11** Sources of Individual Company Financial Data
-Just what data are used to analyze an industry depends on the particular
-Exhibit 1.12.
-industry. We provide examples of industry-specific data in
+Just what data are used to analyze an industry depends on the particular industry. We provide examples of industry-specific data in Exhibit 1.12.
 
 |EXHIBIT 1.12 Examples of Industry-Specific Factors|Col2|Col3|
 |---|---|---|
@@ -517,17 +489,13 @@ industry. We provide examples of industry-specific data in
 |Semi-conductor|Book-to-bill ratio|Ratio of orders to completed orders.|
 |Telecommunications|Cost per access line|Ratio of operating cost to number of lines<br>of service.|
 
-A number of financial information providers offer industry-specific data and compile financial data by industry. Some services, such as Standard &
-
-Poor's Compustat, SNL Financial, and Value Line, provide industry data based on their large universe of companies covered in their database of individual company financial data.
+A number of financial information providers offer industry-specific data and compile financial data by industry. Some services, such as Standard & Poor's Compustat, SNL Financial, and Value Line, provide industry data based on their large universe of companies covered in their database of individual company financial data.
 
 ### Economic Data
 
 Much of the economic data that are used in financial analysis are taken from government sources, though some information is independently produced through surveys and research.
 
-There are many commercial services that collect and disseminate this and
-
-- ther information. These services include:
+There are many commercial services that collect and disseminate this and other information. These services include:
 [AP Business News (www.ap.org)](http://www.ap.org/)
 [Thomson Reuters (www.reuters.com)](http://www.reuters.com/)
 [Business Wire (www.businesswire.com)](http://www.businesswire.com/)
@@ -547,11 +515,7 @@ World Bank (data.worldbank.org)
 The continued globalization of financial systems results in the growing availability of economic and financial data.
 ## WHAT DOES SARBANES-OXLEY MEAN TO COMPANIES AND INVESTORS?
 
-The financial scandals that arose recently created problems in terms of the public's confidence in the capital markets, companies' financial disclosures, and the reliance on the auditing by public accounting firms. In response to this lack of confidence, the Sarbanes-Oxley (SOX) Act of 2002 was passed in mid-2002  24 ~~T~~ he SOX act has changed the landscape with respect to financial disclosures, corporate governance, auditing, and penalties for financial misdeeds. We provide a list of key provisions that affect financial
-
-Exhibit 1.13.
-
-analysis of companies in
+The financial scandals that arose recently created problems in terms of the public's confidence in the capital markets, companies' financial disclosures, and the reliance on the auditing by public accounting firms. In response to this lack of confidence, the Sarbanes-Oxley (SOX) Act of 2002 was passed in mid-2002. The SOX act has changed the landscape with respect to financial disclosures, corporate governance, auditing, and penalties for financial misdeeds. We provide a list of key provisions that affect financial analysis of companies in Exhibit 1.13.
 
 |EXHIBIT 1.13 Key Provisions of the Sarbanes-Oxley Act of 2002|Col2|
 |---|---|
@@ -573,15 +537,11 @@ The role of the auditing accounting firm is to attest to whether the client comp
 
 : the United States opinion in the case of _United States v. Arthur Young_
 
-This “public watchdog” function demands that the accountant maintain total independence from the client at all times and requires complete fidelity to the public trust. … Public faith in the reliability of a corporation's financial statements depends upon the public perception of the outside auditor as an independent professional. … If investors were to view the auditor as an advocate for the corporate client, the value of the
-
- audit function itself might well be lost
+This “public watchdog” function demands that the accountant maintain total independence from the client at all times and requires complete fidelity to the public trust. … Public faith in the reliability of a corporation's financial statements depends upon the public perception of the outside auditor as an independent professional. … If investors were to view the auditor as an advocate for the corporate client, the value of the audit function itself might well be lost.
 
 The establishment of an oversight board for accounting firms and the requirements pertaining to auditor independence are in response to the problems encountered when the relationship between the auditor and the audit client becomes too close, inhibiting the audit firm from being the
 
-“public watchdog” of the client's compliance with generally accepted accounting principles. Consider the case of Enron Corporation discussed earlier in this chapter. In 2000, the year before the scandal erupted, Enron paid its auditing accounting firm a total of \$52 million in fees: \$25 million
-
- for audit services and 27 million for consulting services
+“public watchdog” of the client's compliance with generally accepted accounting principles. Consider the case of Enron Corporation discussed earlier in this chapter. In 2000, the year before the scandal erupted, Enron paid its auditing accounting firm a total of $52 million in fees: $25 million for audit services and $27 million for consulting services.
 
 ### Corporate Responsibility
 

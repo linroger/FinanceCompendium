@@ -1,13 +1,28 @@
 ---
-parent_directory:
 title: "Quantifying Credit Risk I: Default Prediction"
-tags:
-aliases:
-parent_folder: Week 3
-subfolder:
-key_concepts:
+parent_directory: "Week 3"
+formatted: "2025-12-21 12:45:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - "credit risk measurement"
+  - "merton model implementation"
+  - "default prediction models"
+  - "kmv edf methodology"
+secondary_tags:
+  - "contingent claims valuation"
+  - "equity option pricing"
+  - "corporate debt valuation"
+  - "risk neutral probabilities"
+  - "distance to default"
+  - "expected default frequency"
+  - "agency debt ratings"
+  - "intracohort analysis"
+  - "power curve testing"
+  - "rating migration matrices"
+  - "structural credit models"
+  - "empirical default studies"
 cssclasses: academia
-linter-yaml-title-alias: "Quantifying Credit Risk I: Default Prediction"
 ---
 
 # Quantifying Credit Risk I: Default Prediction
@@ -22,9 +37,7 @@ Initially, empirical research to implement the Merton model (notably, Jones, Mas
 
 This first of two companion articles on the empirical research on the KMV model in the past decade explains the differences in implementation between the KMV and Merton models and reviews studies comparing the performance of the KMV model against agency debt ratings in predicting default.2 Part II will present results on the use of the model to value corporate debt relative to alternative approaches.
 
-The thesis of the articles is that the Black-Scholes-Merton approach, appropriately executed, represents the long-sought quantification of credit risk. It is an objective cause-and-effect model that provides analytical insight into corporate behavior. Driven by information in a company's public
-
-equity prices, it produces empirical estimates of default probability that outperform well-accepted public benchmarks, such as agency debt ratings, in predicting default. Finally, in contrast to earlier findings, this study finds that the Black-Scholes-Merton approach provides a better empirical fit to the value of corporate bonds than more conventional approaches that use agency bond ratings.
+The thesis of the articles is that the Black-Scholes-Merton approach, appropriately executed, represents the long-sought quantification of credit risk. It is an objective cause-and-effect model that provides analytical insight into corporate behavior. Driven by information in a company's public equity prices, it produces empirical estimates of default probability that outperform well-accepted public benchmarks, such as agency debt ratings, in predicting default. Finally, in contrast to earlier findings, this study finds that the Black-Scholes-Merton approach provides a better empirical fit to the value of corporate bonds than more conventional approaches that use agency bond ratings.
 
 # The KMV and Merton Models
 
@@ -32,13 +45,7 @@ The approach Black and Scholes developed can be illustrated in a simplified case
 
 The implication of this illustration is that the equity of a company is like a call option on the company's underlying assets. The value of the equity thus depends on, among other things, the market value of the company's assets, their volatility, and the payment terms of the liabilities. Implicit in the value of the option is a measure of the probability of the option being exercised; for equity, it is the probability of not defaulting on the company's liability.<sup>3</sup>
 
-Figure 1 provides an illustration of these concepts. The horizontal axis represents time, beginning with the current period ("Today") and looking into the future. The vertical axis depicts the market value of the company's assets. As of the current period, the assets have a single, determinable value, as shown on the vertical axis, but one year
-
-Figure 1. Illustration: Frequency Distribution of Asset Value at Horizon and Probability of Default  
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/ef6af2b3-647b-421a-ac59-6eaab1cc3df4/a890925e0ee27d5d24407d46e35837e0acdb417ebfe97f78fb2c33f1d45d2280.jpg)  
-Note: The distance from the expected asset value to default is three standard deviations.
-
-from now, a range of asset values is possible, and their frequency distribution (shown in Figure 1 on its side) gives the likelihood of various asset values one year in the future. The most likely outcomes are nearest to the starting value, with much larger or smaller values less likely. The mean is shown by the dashed line. The likelihood of extreme outcomes depends on the volatility of the assets—the more volatile, the greater the probability of extreme outcomes. The dotted horizontal line shows the par amount of the liability due in one year. If the company's asset value in one year is less than the amount of the liability, the company will default. Note that this decision is an economic decision: The equity owners could put additional money into the company, but that decision would be irrational because the money would go to pay creditors; if the owners defaulted, they would not be required to put in additional money and they could use this money for their own benefit rather than giving it to the creditors. The probability of default is thus given by the area under the frequency distribution below the default point, which represents the likelihood of the market value of the company's assets in one year being less than what the company owes. It is immediately obvious that the probability of default will increase if the company's market value of assets today decreases, if the amount of liabilities
+Figure 1 provides an illustration of these concepts. The horizontal axis represents time, beginning with the current period ("Today") and looking into the future. The vertical axis depicts the market value of the company's assets. As of the current period, the assets have a single, determinable value, as shown on the vertical axis, but one year from now, a range of asset values is possible, and their frequency distribution (shown in Figure 1 on its side) gives the likelihood of various asset values one year in the future. The most likely outcomes are nearest to the starting value, with much larger or smaller values less likely. The mean is shown by the dashed line. The likelihood of extreme outcomes depends on the volatility of the assets—the more volatile, the greater the probability of extreme outcomes. The dotted horizontal line shows the par amount of the liability due in one year. If the company's asset value in one year is less than the amount of the liability, the company will default. Note that this decision is an economic decision: The equity owners could put additional money into the company, but that decision would be irrational because the money would go to pay creditors; if the owners defaulted, they would not be required to put in additional money and they could use this money for their own benefit rather than giving it to the creditors. The probability of default is thus given by the area under the frequency distribution below the default point, which represents the likelihood of the market value of the company's assets in one year being less than what the company owes. It is immediately obvious that the probability of default will increase if the company's market value of assets today decreases, if the amount of liabilities
 
 increases, or if the volatility of the assets' market value increases. These three variables are the main determinants of the company's default probability.
 
@@ -68,7 +75,7 @@ Whereas the objective in the Merton model is the valuation of the company's debt
 Distance to default,  $DD(h)$ , or the number of standard deviations to the default point by horizon  $h$ , is an ordinal measure of the company's default risk. As such, it provides a simple and robust measure of default risk. Mathematically, it is calculated as
 
 $$
-D D (h) = \frac {\ln (A) - \ln (D P T) + (\mu_ {A} - 1 / 2 \sigma_ {A} ^ {2}) h}{\sigma_ {A} h ^ {1 / 2}}, \tag {1}
+DD(h) = \frac{\ln(A) - \ln(DPT) + (\mu_A - 1/2 \sigma_A^2) h}{\sigma_A \sqrt{h}}, \tag{1}
 $$
 
 where
@@ -87,9 +94,7 @@ Why focus on default-risk measurement rather than debt valuation? The answer is 
 
 The KMV model focus on default-risk measurement leads to another important aspect of the model. As noted previously, the distance-to-default measure is an ordinal measure. For valuation purposes, however, one needs an absolute measure, an explicit probability of default. To date, other researchers have obtained default probabilities by using the assumed lognormal asset-value distribution of the Merton approach.
 
-The assumption of log-normality cannot be evaluated without determining the actual default experience of a large, well-defined population of companies. KMV has been tracking the default experience of all publicly traded companies in the United States since 1973. These data made possible a comparison of the default probabilities calculated from the lognormal distribution with actual realized default rates. This comparison established that small but important differences exist between the theoretical and actual default rates. For instance, under the normality assumption, any company more than about four standard deviations from its default point would have essentially zero probability of default. In actuality, the default probability for such companies is meaningfully higher, about 0.5 percent. These small numeric deviations in tail probabilities between the normal distribution and the empirical distribution translate into economically significant differences in terms of default risk. For instance, a company that is four standard deviations from the default point as measured by the normal density would be better than AAA in quality, whereas with an actual 0.5 percent default
-
-probability, it would not even be investment grade.8
+The assumption of log-normality cannot be evaluated without determining the actual default experience of a large, well-defined population of companies. KMV has been tracking the default experience of all publicly traded companies in the United States since 1973. These data made possible a comparison of the default probabilities calculated from the lognormal distribution with actual realized default rates. This comparison established that small but important differences exist between the theoretical and actual default rates. For instance, under the normality assumption, any company more than about four standard deviations from its default point would have essentially zero probability of default. In actuality, the default probability for such companies is meaningfully higher, about 0.5 percent. These small numeric deviations in tail probabilities between the normal distribution and the empirical distribution translate into economically significant differences in terms of default risk. For instance, a company that is four standard deviations from the default point as measured by the normal density would be better than AAA in quality, whereas with an actual 0.5 percent default probability, it would not even be investment grade.<sup>8</sup>
 
 With the use of the KMV default database, we found that we could measure the empirical distribution with sufficient accuracy that the empirical probabilities could be substituted for the theoretical probabilities. This measurement relies on the distance to default as a "sufficient statistic" for the default risk, so all the default data for companies with similar  $DDs$  can be pooled. Put differently, the differences between individual companies are expected to be reflected in their asset values, their volatilities, and their capital structures, all of which are accounted for in their  $DDs$ . The estimation need not be performed on separate subsamples—for instance, by industry or size. Where feasible, results for subsamples have been compared with the overall pooled results, and no statistically significant differences have been observed.[9]
 
@@ -108,11 +113,11 @@ it subsequently defaults. A Type II error is identifying a company as bad (becau
 Three aspects of testing default-risk measures deserve special attention. They concern arbitrary metrics, error trade-off, and sample dependence.
 
 - Arbitrary metrics. Almost by definition, different default-risk measures are based on different metrics. Thus, cutoff values are unrelated from one metric to another. Comparing different indexes at arbitrary cutoff values is generally meaningless.  
-- Error trade-off. The levels of Type I and Type II errors are related to each other and to the level of the cutoff. Using a very high cutoff minimizes Type I error,  $t1$ , but maximizes Type II error,  $t2$ . Thus,
+- Error trade-off. The levels of Type I and Type II errors are related to each other and to the level of the cutoff. Using a very high cutoff minimizes Type I error, $t1$, but maximizes Type II error, $t2$. Thus,
 
-$t1(v)$  is decreasing in  $v$ ;
+$t1(v)$ is decreasing in $v$;
 
-$t2(v)$  is increasing in  $v$
+$t2(v)$ is increasing in $v$
 
 - Sample dependence. The levels of error depend on the particular sample tested. In general, one cannot compare errors from one sample with errors from another sample. For instance, one sample may consist of the larger companies or the companies with longer histories. Differences of this type almost invariably translate into different average default rates and different levels of error.
 
@@ -124,32 +129,32 @@ companies with both historical and current data available.
 
 The problem of arbitrary metrics can be overcome by comparing the Type I error rates of the models for which the cutoffs have been set to produce the same levels of Type II error. (Equivalently, one could compare Type II errors holding Type I errors constant.) Because, in practice, one is interested only in errors, not arbitrary cutoff values, the relevant issue is how much error of one type exists for a given amount of the other type of error.
 
-Mathematically, the "power curve" for index  $i$ ,  $p_i(x)$ , is graphed as
+Mathematically, the "power curve" for index $i$, $p_i(x)$, is graphed as
 
 $$
-p _ {i} (x) = 1 - t 1 _ {i} \left[ t 2 _ {i} ^ {- 1} (x) \right] \tag {2}
+p_i(x) = 1 - t1_i[t2_i^{-1}(x)] \tag{2}
 $$
 
 that is, the percentage of defaults forecasted correctly given the percentage of nondefaults forecasted incorrectly  $(t2_{i}^{-1}$  denotes the inverse of function  $t2_{i})$
 
 Power curves for different default predictors can be compared with each other, which leads to the following definitions:
 
-One measure is more powerful than another at  $x$  if it produces less Type I error than the other when both produce Type II errors equal to  $x$ ;
+One measure is more powerful than another at $x$ if it produces less Type I error than the other when both produce Type II errors equal to $x$;
 
 $$
-p _ {i} (x) > p _ {j} (x). \tag {3a}
+p_i(x) > p_j(x). \tag{3a}
 $$
 
 One measure is uniformly more powerful than another if it is more powerful for all admissible levels of Type II error;
 
 $$
-p _ {i} (x) \geq p _ {j} (x) \text {f o r a l l v a l u e s o f} x \tag {3b}
+p_i(x) \geq p_j(x) \text{ for all values of } x \tag{3b}
 $$
 
 and
 
 $$
-p _ {i} (x) > p _ {j} (x) \text {f o r s o m e} x. \tag {3c}
+p_i(x) > p_j(x) \text{ for some } x. \tag{3c}
 $$
 
 The purpose of the power curve is to fully characterize both types of errors that a default-prediction model makes—namely, failing to predict a company that does default and predicting a default that does not occur. One economic interpretation of the power curve can be understood by thinking about the cutoff value as representing the value a company must have to be approved for a loan. A uniformly more powerful measure is the one that results in a lower default rate for approved loans for any given refusal rate.

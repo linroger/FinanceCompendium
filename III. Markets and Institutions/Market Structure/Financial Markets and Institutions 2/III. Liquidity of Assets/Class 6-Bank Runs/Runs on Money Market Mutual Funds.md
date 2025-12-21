@@ -1,15 +1,31 @@
 ---
+title: Runs on Money Market Mutual Funds
 parent_directory: Class 6-Bank Runs
-title: Class 6 - Runs on Money Market Mutual Funds
-tags:
-aliases:
-  - Runs on Money Market Mutual Funds
-  - MMMF Runs
-parent_folder: Class 6-Bank Runs
-subfolder:
-key_concepts:
+formatted: 2025-12-21 05:00:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - money market mutual funds
+  - financial crisis 2008
+  - bank runs
+  - investor behavior
+  - strategic complementarities
+secondary_tags:
+  - prime institutional funds
+  - lehman bankruptcy
+  - redemption behavior
+  - liquidity risk
+  - coordination games
+  - investor sophistication
+  - expense ratios
+  - fund flows
+  - shadow banking
+  - regulatory reform
+  - fixed nav
+  - ultra-short bond funds
+  - dynamic interactions
+  - quantile regressions
 cssclasses: academia
-linter-yaml-title-alias: Class 6 - Runs on Money Market Mutual Funds
 ---
 
 # Runs on Money Market Mutual Funds†
@@ -75,7 +91,7 @@ Our analysis proceeds as follows. Section I provides details of the institutiona
 
 Traditional commercial bank deposit accounts and MMMFs are similar in some respects (e.g., the presumption of dollar-in-dollar-out), but quite different in others (e.g., no explicit deposit guarantees and vastly different regulatory structures, including disclosure requirements). Like other mutual funds, MMMFs are regulated under the Investment Company Act of 1940 and its various amendments (henceforth, ICA). However, they operate under a special provision of the ICA, Rule 2a-7, which allows them to value investor shares at the amortized cost or book value of assets—an accounting-based rather than a market-based principle—that is, shares
 
-are valued at the purchase price of securities minus computed premium or discount, amortized over the securities' remaining life. This provision of the ICA allows MMMFs to maintain a constant  \$1.00 per share net asset value. For investors, this fixed-value has many advantages.$
+are valued at the purchase price of securities minus computed premium or discount, amortized over the securities' remaining life. This provision of the ICA allows MMMFs to maintain a constant  \$1.00 per share net asset value. For investors, this fixed-value has many advantages.
 
 Like banks, MMMFs seek to offer highly liquid liabilities, while holding less liquid assets. To be sure, this liquidity mismatch is much less extreme for MMMFs, but still raises the possibility that a MMMF might become liquidity-constrained and unable to meet redemption requests.[7] These risks have been controlled differently in banks and MMMFs. Banks are required to maintain capital, and depositors are insured up to a certain level, but banks may generally hold highly illiquid assets (e.g., 30-year mortgages), hold assets that may be lower-rated or difficult to rate or price, and employ leverage. MMMFs, in contrast, under Rule 2a-7, must hold only assets that are (normally) highly liquid with high credit quality, and generally may not use leverage.[8]
 
@@ -125,7 +141,7 @@ $$
 \Phi \left[ \sqrt{\alpha^{*}} \left(\theta^{*} (z) - \frac{\alpha_{x}}{\alpha^{*}} x^{*} (z) - \frac{\alpha_{z}}{\alpha^{*}} z - \frac{\alpha_{0}}{\alpha^{*}} \theta_{0}\right) \right] = c.
 $$
 
-Combining (3) and (4) yields a fixed point condition in  $\theta^{*}$  defining the threshold  $\theta^{*}(z)$ ,
+Combining (3) and the indifference condition yields a fixed point condition in  $\theta^{*}$  defining the threshold  $\theta^{*}(z)$ ,
 
 $$
 (5) \Phi^{- 1} \Big [ \frac{1}{\mu} \theta^{*} \Big ] - \frac{\alpha_{z} + \alpha_{0}}{\sqrt{\alpha_{x}}} \theta^{*} = \sqrt{1 + \frac{\alpha_{z}}{\alpha_{x}} + \frac{\alpha_{0}}{\alpha_{x}}} \cdot \Phi^{- 1} [ 1 - c ] - \frac{\alpha_{z}}{\sqrt{\alpha_{x}}} z - \frac{\alpha_{0}}{\sqrt{\alpha_{x}}} \theta_{0}.

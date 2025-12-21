@@ -1,8 +1,31 @@
+---
+title: "Arbitrage Pricing Theory and Multifactor Models of Risk and Return"
+parent_directory: "Part 3 - Equilibrium in Capital Markets"
+formatted: "2025-12-21 12:00:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags:
+  - arbitrage pricing theory
+  - multifactor models
+  - security market line
+secondary_tags:
+  - factor models
+  - systematic risk
+  - no-arbitrage condition
+  - well-diversified portfolios
+  - factor betas
+  - risk premiums
+  - fama-french three-factor model
+  - arbitrage pricing applications
+  - factor risk premiums
+  - multifactor equilibrium
+cssclasses: academia
+---
+---
+
 # Arbitrage Pricing Theory and Multifactor Models of Risk and Return
 
-# 10
-
-THE EXPLOitation OF security mispricing in such a way that risk-free profits can be earned is called arbitrage. It involves the simultaneous purchase and sale of equivalent securities or portfolios in order to profit from discrepancies in their prices. Perhaps the most basic principle of capital market theory is that well-functioning security markets rule out arbitrage opportunities. If actual security prices did allow for arbitrage, the result would be strong pressure on prices that would quickly eliminate the opportunity. Therefore, we can expect security markets to satisfy a "no-arbitrage condition."
+The exploitation of security mispricing in such a way that risk-free profits can be earned is called arbitrage. It involves the simultaneous purchase and sale of equivalent securities or portfolios in order to profit from discrepancies in their prices. Perhaps the most basic principle of capital market theory is that well-functioning security markets rule out arbitrage opportunities. If actual security prices did allow for arbitrage, the result would be strong pressure on prices that would quickly eliminate the opportunity. Therefore, we can expect security markets to satisfy a "no-arbitrage condition."
 
 In this chapter, we show how no-arbitrage conditions, together with the factor model introduced in Chapter 8, allow us to generalize the security market line of the CAPM to gain richer insight into the risk-return relationship. We begin by showing how the decomposition of risk into market versus firm-specific influences that we introduced in earlier chapters can be extended to deal with the multifaceted nature of systematic risk. Multifactor models of security returns can be used to measure and manage exposure to each of many economywide factors such as business-cycle risk, interest or inflation rate risk, energy price risk, and so on. These models ultimately lead us to a multifactor version of the security market line in which risk premiums derive from exposure to multiple risk sources, each with its own risk premium.
 
@@ -24,16 +47,16 @@ If we call  $F$  the deviation of the common factor from its expected value,  $\
 Formally, the single-factor model of excess returns is described by Equation 10.1:
 
 $$
-R _ {i} = E \left(R _ {i}\right) + \beta_ {i} F + e _ {i} \tag {10.1}
+R_{i} = E\left(R_{i}\right) + \beta_{i} F + e_{i} \tag{10.1}
 $$ where  $E(R_{i})$  is the expected excess return on stock  $i$ . Notice that if the macro factor has a value of 0 in any particular period (i.e., no macro surprises), the excess return on the security will equal its previously expected value,  $E(R_{i})$ , plus the effect of firm-specific events only. The nonsystematic components of returns, the  $e_{i}$ 's, are assumed to be uncorrelated across stocks and with the factor  $F$ .
 
 
-# Example 10.1 Factor Models
+**Example 10.1 Factor Models**
 
 To illustrate the factor model, suppose that the macro factor,  $F$ , represents news about the state of the business cycle, which we will measure by the unexpected percentage change in gross domestic product (GDP). The consensus is that GDP will increase by  $4\%$  this year. Suppose also that a stock's  $\beta$  value is 1.2. If GDP increases by only  $3\%$ , then the value of  $F$  would be  $-1\%$ , representing a  $1\%$  disappointment in actual versus expected growth. Given the stock's beta, this disappointment would translate into a stock return  $1.2\%$  lower than previously expected. This macro surprise, together with the firm-specific disturbance,  $e_{i}$ , determines the total departure of the stock's return from its originally expected value.
 
 
-# Concept Check 10.1
+**Concept Check 10.1**
 
 Suppose you currently expect the stock in Example 10.1 to earn a  $10\%$  rate of return. Then some macroeconomic news suggests that GDP growth will come in at  $5\%$  instead of  $4\%$ . How will you revise your estimate of the stock's expected rate of return?
 
@@ -46,7 +69,7 @@ Apart from their use in building models of equilibrium security pricing, multifa
 Let's start with a two-factor model. Suppose the two most important macroeconomic sources of risk are uncertainties surrounding the state of the business cycle, news of which we will again measure by unanticipated growth in GDP, and changes in interest rates. We will denote by IR any unexpected change in interest rates. The return on any stock will respond to each source of macro risk as well as its own firm-specific influences. We can write a two-factor model describing the excess return on stock  $i$  in some time period as follows:
 
 $$
-R _ {i} = E \left(R _ {i}\right) + \beta_ {i \mathrm {G D P}} \mathrm {G D P} + \beta_ {i \mathrm {I R}} \mathrm {I R} + e _ {i} \tag {10.2}
+R_{i} = E\left(R_{i}\right) + \beta_{i\mathrm{GDP}} \mathrm{GDP} + \beta_{i\mathrm{IR}} \mathrm{IR} + e_{i} \tag{10.2}
 $$
 
 The two macro factors on the right-hand side of the equation comprise the systematic factors in the economy. As in the single-factor model, both of these macro factors have zero expectation: They represent changes in these variables that have not already been anticipated. The coefficients of each factor in Equation 10.2 measure the sensitivity of share returns to that factor. For this reason, the coefficients are sometimes called factor loadings or, equivalently, factor betas. An increase in interest rates is bad news for most firms, so we would expect interest rate betas generally to be negative. As before,  $e_i$  reflects firm-specific influences.
@@ -54,12 +77,12 @@ The two macro factors on the right-hand side of the equation comprise the system
 To illustrate the advantages of multifactor models, consider two firms, one a regulated electric-power utility in a mostly residential area and the other an airline. Because residential demand for electricity is not very sensitive to the business cycle, the utility has a low beta on GDP. But the utility's stock price may have a relatively high sensitivity to interest rates. Because the cash flow generated by the utility is relatively stable, its present value behaves much like that of a bond, varying inversely with interest rates. Conversely, the performance of the airline is very sensitive to economic activity but is less sensitive to interest rates. It will have a high GDP beta and a lower interest rate beta. Suppose that on a particular day, a news item suggests that the economy will expand. GDP is expected to increase, but so are interest rates. Is the "macro news" on this day good or bad? For the utility, this is bad news: Its dominant sensitivity is to rates. But for the airline, which responds more to GDP, this is good news. Clearly a one-factor or single-index model cannot capture such differential responses to varying sources of macroeconomic uncertainty.
 
 
-# Example 10.2 Risk Assessment Using Multifactor Models
+**Example 10.2 Risk Assessment Using Multifactor Models**
 
 Suppose we estimate the two-factor model in Equation 10.2 for Northeast Airlines and find the following result:
 
 $$
-R = . 1 3 3 + 1. 2 (\mathrm {G D P}) - . 3 (\mathrm {I R}) + e
+R = 0.133 + 1.2 (\mathrm {GDP}) - 0.3 (\mathrm {IR}) + e
 $$
 
 This tells us that, based on currently available information, the expected excess rate of return for Northeast is  $13.3\%$ , but that for every percentage point increase in GDP beyond current expectations, the return on Northeast's shares increases on average by  $1.2\%$ , while for every unanticipated percentage point that interest rates increase, Northeast's shares fall on average by  $0.3\%$ .
@@ -74,7 +97,7 @@ Stephen Ross developed the arbitrage pricing theory (APT) in 1976. Like the CAPM
 
 # Arbitrage, Risk Arbitrage, and Equilibrium
 
-An arbitrage opportunity arises when an investor can earn riskless profits without making a net investment. A trivial example of an arbitrage opportunity would arise if shares of a stock sold for different prices on two different exchanges. For example, suppose Microsoft sold for  \$310 on the NYSE but only\$ 305 on NASDAQ. Then you could buy the shares on NASDAQ and simultaneously sell them on the NYSE, clearing a riskless profit of 5 per share without tying up any of your own capital. The Law of One Price states that if two assets are equivalent in all economically relevant respects, then they should have the same price. The Law of One Price is enforced by arbitrageurs: If they observe a violation of the law, they will engage in arbitrage activity—simultaneously buying the asset where it is cheap and selling where it is expensive. In the process, they will bid up the price where it is low and force it down where it is high until the opportunity is eliminated.
+An arbitrage opportunity arises when an investor can earn riskless profits without making a net investment. A trivial example of an arbitrage opportunity would arise if shares of a stock sold for different prices on two different exchanges. For example, suppose Microsoft sold for $310 on the NYSE but only $305 on NASDAQ. Then you could buy the shares on NASDAQ and simultaneously sell them on the NYSE, clearing a riskless profit of 5 per share without tying up any of your own capital. The Law of One Price states that if two assets are equivalent in all economically relevant respects, then they should have the same price. The Law of One Price is enforced by arbitrageurs: If they observe a violation of the law, they will engage in arbitrage activity—simultaneously buying the asset where it is cheap and selling where it is expensive. In the process, they will bid up the price where it is low and force it down where it is high until the opportunity is eliminated.
 
 Strategies that exploit violations of the Law of One Price all involve long–short positions. You buy the relatively cheap asset and sell the relatively overpriced one. The net investment, therefore, is zero. Moreover, the position is riskless. Therefore, any investor, regardless of risk aversion or wealth, will want to take an infinite position in it. Because those large positions will quickly force prices up or down until the opportunity vanishes, security prices should satisfy a “no-arbitrage condition,” that is, a condition that rules out the existence of arbitrage opportunities.
 
@@ -92,24 +115,24 @@ We begin by considering the risk of a portfolio of stocks in a single-factor mar
 
 
 $$
-R _ {P} = E \left(R _ {P}\right) + \beta_ {P} F + e _ {P} \tag {10.3}
+R_{P} = E\left(R_{P}\right) + \beta_{P} F + e_{P} \tag{10.3}
 $$ where
 
 
 $$
-\beta_ {P} = \sum w _ {i} \beta_ {i}; E (R _ {P}) = \sum w _ {i} E (R _ {i})
+\beta_{P} = \sum w_{i} \beta_{i}; E(R_{P}) = \sum w_{i} E(R_{i})
 $$ are the weighted averages of the  $\beta_{i}$  and risk premiums of the  $n$  securities. The portfolio nonsystematic return (which is uncorrelated with  $F$ ) is  $e_{P} = \sum w_{i} e_{i}$ , which similarly is a weighted average of the  $e_{i}$  of the  $n$  securities.
 
 
 There are two random (and uncorrelated) terms on the right-hand side of Equation 10.3, so we can separate the variance of the portfolio into its systematic and nonsystematic sources:
 
 $$
-\sigma_ {P} ^ {2} = \beta_ {P} ^ {2} \sigma_ {F} ^ {2} + \sigma^ {2} (e _ {P})
+\sigma_{P}^{2} = \beta_{P}^{2} \sigma_{F}^{2} + \sigma^{2}(e_{P})
 $$ where  $\sigma_F^2$  is the variance of the factor  $F$  and  $\sigma^2 (e_P)$  is the nonsystematic variance of the portfolio, which is given by
 
 
 $$
-\sigma^ {2} \left(e _ {P}\right) = \operatorname {V a r i a n c e} \left(\sum w _ {i} e _ {i}\right) = \sum w _ {i} ^ {2} \sigma^ {2} \left(e _ {i}\right)
+\sigma^{2}(e_{P}) = \operatorname{Variance}(\sum w_{i} e_{i}) = \sum w_{i}^{2} \sigma^{2}(e_{i})
 $$
 
 In deriving the nonsystematic variance of the portfolio, we depend on the fact that the firm-specific  $e_i$ s are uncorrelated (so all covariances across assets are zero) and, hence, the variance of the "portfolio" of nonsystematic  $e_i$ s is the weighted sum of the individual nonsystematic variances with the square of the investment proportions as weights.
@@ -133,7 +156,7 @@ Equation 10.4 tells us that as diversification progresses, that is, as the weigh
 Figure 10.1 Scatter diagram for a single stock (Intel) and a diversified mutual fund (Vanguard Growth and Income). The fund exhibits much smaller scatter around the regression line.
 
 
-# Concept Check 10.2 a. A portfolio is invested in a very large number of shares (  $n$  is large). However, one-half of the portfolio is invested in stock 1, and the rest of the portfolio is equally divided among the other  $n - 1$  shares. Is this portfolio well diversified?
+**Concept Check 10.2** a. A portfolio is invested in a very large number of shares (  $n$  is large). However, one-half of the portfolio is invested in stock 1, and the rest of the portfolio is equally divided among the other  $n - 1$  shares. Is this portfolio well diversified?
 
 b. Another portfolio also is invested in the same  $n$  shares, where  $n$  is very large. Instead of equally weighting with portfolio weights of  $1/n$  in each stock, the weights in half the securities are  $1.5/n$  while the weights in the other shares are  $.5/n$ . Is this portfolio well diversified?
 
@@ -154,7 +177,7 @@ B factor is positive, the portfolio's return exceeds its expected value; if it i
 
 
 $$
-E \left(R _ {A}\right) + \beta_ {A} F = 10 \% + 1.0 \times F
+E\left(R_{A}\right) + \beta_{A} F = 10\% + 1.0 \times F
 $$
 
 Compare Panel A in Figure 10.2 with Panel B, which is a similar graph for a single stock  $(S)$  with  $\beta_{S} = 1$ . The undiversified stock is subject to nonsystematic risk, which is seen in a scatter of points around the line. The well-diversified portfolio's return, in contrast, is determined completely by the systematic factor.
@@ -168,15 +191,15 @@ First, we show that all well-diversified portfolios with the same beta must have
 If you sell short  \$1 million of B$  and buy 1 million of  $A$ , a zero-net-investment strategy, you would have a riskless payoff of 20,000, as follows:
 
 $$
-(. 1 0 + 1. 0 \times F) \times \$ 1 \text {m i l l o n} \quad \text {f r o m l o n g p o s i t i o n i n} A
+(0.10 + 1.0 \times F) \times \$ 1 \text {million} \quad \text{from long position in} A
 $$
 
 $$
-- (0. 0 8 + 1. 0 \times F) \times \$ 1 \text {m i l l o n} \quad \text {f r o m s h o r t p o s i t i o n i n} B
+- (0.08 + 1.0 \times F) \times \$ 1 \text {million} \quad \text{from short position in} B
 $$
 
 $$
-. 0 2 \times \$ 1 \text {m i l l o n} = \$ 2 0, 0 0 0 \quad \text {n e t p r o c e s d s}
+0.02 \times \$ 1 \text {million} = \$ 20,000 \quad \text{net proceeds}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/980fae9db6e722312beb201c2fd50f5983f186b548d0be4d8578e37d883d1e35.jpg)
@@ -206,7 +229,7 @@ $$ where  $\beta_{P}$  now denotes the beta against the well-diversified market 
 We know that risk premiums must rise in proportion to beta. Therefore, if a portfolio has (let's say) twice the beta against the macro factor as the market index, its beta with respect to the index will be 2, and it should have twice the risk premium. More generally, for any well-diversified portfolio  $P$ , the expected excess return must be:
 
 $$
-E \left(R _ {P}\right) = \beta_ {P} E \left(R _ {M}\right) \tag {10.6}
+E\left(R_{P}\right) = \beta_{P} E\left(R_{M}\right) \tag{10.6}
 $$
 
 In other words, the risk premium (i.e., the expected excess return) on portfolio  $P$  is the product of its beta and the risk premium of the market index. Equation 10.6 thus establishes that the SML of the CAPM must also apply to well-diversified portfolios simply by virtue of the "no-arbitrage" requirement of the APT.

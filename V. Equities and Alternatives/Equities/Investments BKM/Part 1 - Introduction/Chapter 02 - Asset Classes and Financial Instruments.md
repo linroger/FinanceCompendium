@@ -1,6 +1,36 @@
-# Asset Classes and Financial Instruments
+---
+title: "Asset Classes and Financial Instruments"
+parent_directory: "Part 1 - Introduction"
+formatted: "2025-12-21 12:35:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - money market instruments
+  - bond market
+  - equity securities
+  - derivative markets
+  - financial instruments
+  - asset classes
+secondary_tags:
+  - treasury bills
+  - commercial paper
+  - municipal bonds
+  - stock market indexes
+  - options pricing
+  - futures contracts
+  - asset allocation
+  - security selection
+  - federal funds rate
+  - LIBOR replacement
+  - preferred stock
+  - mortgage-backed securities
+  - equivalent taxable yield
+  - price-weighted average
+  - market-value-weighted index
+cssclasses: academia
+---
 
-# 2
+# Asset Classes and Financial Instruments
 
 YOU LEARNED IN Chapter 1 that the process of building an investment portfolio usually begins by deciding how much money to allocate to broad classes of assets, such as safe money market securities or bank accounts, longer term bonds, stocks, or even asset classes like real estate or precious metals. This process is called asset allocation. Within each class the investor then selects specific assets from a more detailed menu. This is called security selection.
 
@@ -19,15 +49,15 @@ The money market consists of very short-term, highly marketable debt securities.
 
 U.S. Treasury bills (T-bills, or just bills, for short) are the most marketable of all money market instruments. The government borrows money by selling bills to the public. Investors buy the bills at a discount from the stated maturity (equivalently, face) value. At maturity, the government pays the investor the face value of the bill. The difference between the purchase price and ultimate maturity value constitutes the interest paid on the bills.
 
-T-bills are issued with initial maturities of 4, 13, 26, or 52 weeks. Individuals can purchase them directly, at auction, or on the secondary market from a government securities dealer. T-bills are highly liquid; that is, they are easily converted to cash and sold at low transaction cost and with minimal price risk. Unlike most other money market instruments, which sell in minimum denominations of  \$100,000, T-bills sell in minimum denominations of only\$ 100, although 10,000 denominations are far more common. Earnings on T-bills are exempt from state and local taxes, another characteristic distinguishing them from other money market instruments.
+T-bills are issued with initial maturities of 4, 13, 26, or 52 weeks. Individuals can purchase them directly, at auction, or on the secondary market from a government securities dealer. T-bills are highly liquid; that is, they are easily converted to cash and sold at low transaction cost and with minimal price risk. Unlike most other money market instruments, which sell in minimum denominations of \$100,000, T-bills sell in minimum denominations of only \$100, although \$10,000 denominations are far more common. Earnings on T-bills are exempt from state and local taxes, another characteristic distinguishing them from other money market instruments.
 
 Figure 2.1 is a partial listing of T-bill rates. Rather than providing prices of each bill, the financial press reports yields based on those prices. You will see yields corresponding to both bid and ask prices. The ask price is the price you would have to pay to buy a T-bill from a securities dealer. The bid price is the slightly lower price you would receive if you wanted to sell a bill to a dealer. The bid-ask spread is the difference in these prices, which is the dealer's source of profit.
 
 The first two yields in Figure 2.1 are reported using the bank-discount method. This means that the bill's discount from its maturity or face value is "annualized" based on a 360-day year, and then reported as a percentage of face value. For example, for the highlighted bill maturing on November 18, 2021, there are 127 days to maturity, and the yield under the column labeled "ASKED" is given as .045\%. This means that a dealer was willing to sell the bill at a discount from face value of .045\% × (127/360) = .0159\%. So a bill with \$10,000 face value could be purchased for \$10,000 × (1 - .000159) = 9,998.41. To summarize, the price of the bill as a fraction of face value is
 
 $$
-\text {A s k p r i c e} = 1 - \text {A S K E D} \times \frac {\text {D a y s u n t i l m a t u r i t y}}{3 6 0}
-$$ where the ASKED yield is expressed as a decimal (not as a percent). Similarly, with a BID yield of .055\%, a dealer would be willing to purchase the bill for  $10,000 \times (1 - .00055 \times 127 / 360) = \$ 9,998.06. $Notice that because prices and yields are inversely related, the higher bid yield reported in Figure 2.1 implies a lower bid price.$
+\text{Ask price} = 1 - \text{ASKED} \times \frac{\text{Days until maturity}}{360}
+$$ where the ASKED yield is expressed as a decimal (not as a percent). Similarly, with a BID yield of .055\%, a dealer would be willing to purchase the bill for $10,000 \times (1 - .00055 \times 127 / 360) = \$9,998.06. $Notice that because prices and yields are inversely related, the higher bid yield reported in Figure 2.1 implies a lower bid price.$
 
 
 Figure 2.1 Treasury bill yields
@@ -38,7 +68,7 @@ The bank discount method for computing yields has a long tradition, but it is fl
 
 # Certificates of Deposit
 
-A certificate of deposit, or CD, is a time deposit with a bank. Time deposits (in contrast to "demand deposits" or checking accounts) may not be withdrawn on demand. The bank pays interest and principal to the depositor only at maturity. CDs issued in denominations greater than  \$100,000 are usually negotiable, however; that is, they can be sold to another investor if the owner needs to cash in the certificate before it matures. Short-term CDs are highly marketable, although the market significantly thins out for maturities of three months or more. CDs are treated as bank deposits by the Federal Deposit Insurance Corporation, so they are insured for up to\$ 250,000 in the event of a bank insolvency.
+A certificate of deposit, or CD, is a time deposit with a bank. Time deposits (in contrast to "demand deposits" or checking accounts) may not be withdrawn on demand. The bank pays interest and principal to the depositor only at maturity. CDs issued in denominations greater than  \$100,000 are usually negotiable, however; that is, they can be sold to another investor if the owner needs to cash in the certificate before it matures. Short-term CDs are highly marketable, although the market significantly thins out for maturities of three months or more. CDs are treated as bank deposits by the Federal Deposit Insurance Corporation, so they are insured for up to \$250,000 in the event of a bank insolvency.
 
 # Commercial Paper
 
@@ -202,11 +232,10 @@ An investor choosing between taxable and tax-exempt bonds must compare after-tax
 
 One way to compare bonds is to determine the interest rate on taxable bonds that would be necessary to provide an after-tax return equal to that of principals. To derive this value, we set after-tax yields equal and solve for the equivalent taxable yield of the tax-exempt bond. This is the rate a taxable bond must offer to match the after-tax yield on the tax-free municipal.
 
-$$ r _ {\text {t a x a b l e}} (1 - t) = r _ {\text {m u n i}} \tag {2.1}
+$$ r_{\text{taxable}}(1 - t) = r_{\text{muni}} \tag{2.1}
 $$ or
 
-
-$$ r _ {\text {t a x a b l e}} = r _ {\text {m u n i}} / (1 - t) \tag {2.2}
+$$ r_{\text{taxable}} = r_{\text{muni}} / (1 - t) \tag{2.2}
 $$
 
 Thus, the equivalent taxable yield is simply the tax-free rate divided by  $1 - t$ . Table 2.1 presents equivalent taxable yields for several municipal yields and tax rates.
@@ -216,7 +245,7 @@ This table frequently appears in the marketing literature for tax-exempt mutual 
 We also can use Equation 2.1 or 2.2 to find the tax bracket at which investors are indifferent between taxable and tax-exempt bonds. The cutoff tax bracket is given by solving Equation 2.2 for the tax bracket at which after-tax yields are equal. Doing so, we find that
 
 $$
-\text {C u t o f f} = 1 - \frac {r _ {\text {m u n i}}}{r _ {\text {t a x a b l e}}} \tag {2.3}
+\text{Cutoff} = 1 - \frac{r_{\text{muni}}}{r_{\text{taxable}}} \tag{2.3}
 $$
 
 Thus, the yield ratio  $r_{\mathrm{muni}} / r_{\mathrm{taxable}}$  is a key determinant of the attractiveness of municipal bonds. The higher the yield ratio, the lower the cutoff tax bracket, and the more individuals will prefer to hold municipal debt.
@@ -241,6 +270,35 @@ Figure 2.5 shows that for most of the last 40 years, the ratio of tax-exempt to 
 # Concept Check 2.2
 
 Suppose your combined federal plus state tax bracket is  $30\%$ . Would you prefer to earn a  $6\%$  taxable return or a  $4\%$  tax-free return? What is the equivalent taxable yield of the  $4\%$  tax-free yield?
+
+```d2
+direction: right
+
+Taxable Bond: Taxable Bond {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+}
+
+Tax-exempt Bond: Tax-exempt Bond {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
+
+Investor: Investor {
+  shape: person
+  style.fill: "#fff3e0"
+}
+
+Taxable Bond -> Investor: After-tax return = 6% × (1 - 0.30) = 4.2%
+Tax-exempt Bond -> Investor: Return = 4% (tax-free)
+
+note: Tax-exempt preferred when {
+  Equivalent taxable yield = 4% / (1 - 0.30) = 5.71%
+  5.71% > 6% taxable bond yield → Choose tax-exempt
+} {
+  near: bottom-center
+}
+```
 
 # Corporate Bonds
 
@@ -353,10 +411,10 @@ Because the Dow corresponds to a portfolio that holds one share of each componen
 
 # Example 2.2 Price-Weighted Average
 
-Consider the data in Table 2.2 for a hypothetical two-stock version of the Dow Jones Average. Let's compare the changes in the value of the portfolio holding one share of each firm and the price-weighted index. Stock ABC starts at  \$25 a share and increases to\$ 30. Stock XYZ starts at \$100 but falls to \$90.
+Consider the data in Table 2.2 for a hypothetical two-stock version of the Dow Jones Average. Let's compare the changes in the value of the portfolio holding one share of each firm and the price-weighted index. Stock ABC starts at \$25 a share and increases to \$30. Stock XYZ starts at \$100 but falls to \$90.
 
 ```txt
-Portfolio: Initial value = \ 25 + \$ 100 = \$ 125 Final value =\ 30 + \ 90 = \$ 120 Percentage change in portfolio value = -5 / 125 = -.04 = -4\% Index: Initial index value = (25 + 100)/2 = 62.5 Final index value = (30 + 90)/2 = 60 Percentage change in index \doteq -2.5 / 62.5 = -.04 = -4\%
+Portfolio: Initial value = $25 + $100 = $125 Final value = $30 + $90 = $120 Percentage change in portfolio value = -5 / 125 = -.04 = -4% Index: Initial index value = (25 + 100)/2 = 62.5 Final index value = (30 + 90)/2 = 60 Percentage change in index ≈ -2.5 / 62.5 = -.04 = -4%
 ```
 
 The portfolio and the index have identical  $4\%$  declines in value.
@@ -372,13 +430,13 @@ Suppose XYZ from Example 2.2 splits two for one so that its share price falls to
 We find the new divisor using the post-split price data from Table 2.3. The index value before the stock split  $= 125 / 2 = 62.5$ . We must find a new divisor,  $d$ , that leaves the index unchanged after XYZ splits and its price falls to \$50. Therefore, we solve for  $d$  in the following equation:
 
 $$
-\frac {\text {P r i c e o f A B C} + \text {P r i c e o f X Y Z}}{d} = \frac {2 5 + 5 0}{d} = 6 2. 5
+\frac{\text{Price of ABC} + \text{Price of XYZ}}{d} = \frac{25 + 50}{d} = 62.5
 $$ which implies that the divisor must fall from its original value of 2.0 to a new value of 1.20.
 
 
 Because the split changes the price of stock XYZ, it changes the relative weights of the two stocks in the price-weighted average. Therefore, the return of the index is also affected.
 
-At period-end, ABC will sell for  \$30, while XYZ will sell for\$ 45, representing the same negative 10\% return it was assumed to earn in Table 2.2. The new value of the price-weighted average will be (30 + 45)/1.20 = 62.5, the same as its value at the start of the year; therefore, its return is zero, rather than the -4\% return that we calculated in the absence of a split.
+At period-end, ABC will sell for \$30, while XYZ will sell for \$45, representing the same negative 10\% return it was assumed to earn in Table 2.2. The new value of the price-weighted average will be (30 + 45)/1.20 = 62.5, the same as its value at the start of the year; therefore, its return is zero, rather than the -4\% return that we calculated in the absence of a split.
 
 The split reduces the relative weight of XYZ because its initial price is lower, and because XYZ is the poorer performing stock, the performance of the average is higher. We see that the implicit weighting scheme of a price-weighted average is somewhat arbitrary, being determined by the prices rather than by the outstanding market values (price per share times number of shares) of the shares in the average.
 
@@ -414,7 +472,7 @@ Actually, most indexes today use a modified version of market-value weights. Rat
 
 # Example 2.4 Value-Weighted Indexes
 
-To illustrate how value-weighted indexes are computed, look again at Table 2.2. The final value of all outstanding stock in our two-stock universe is  \$690 million. The initial value was\$ 600 million. Therefore, if the initial level of a market-value-weighted index of stocks ABC and XYZ were set equal to an arbitrarily chosen starting value such as 100, the index value at year-end would be  $100 \times (690 / 600) = 115$ . The increase in the index reflects the 15\% return earned on a portfolio consisting of those two stocks held in proportion to outstanding market values.
+To illustrate how value-weighted indexes are computed, look again at Table 2.2. The final value of all outstanding stock in our two-stock universe is \$690 million. The initial value was \$600 million. Therefore, if the initial level of a market-value-weighted index of stocks ABC and XYZ were set equal to an arbitrarily chosen starting value such as 100, the index value at year-end would be $100 \times (690 / 600) = 115$. The increase in the index reflects the 15\% return earned on a portfolio consisting of those two stocks held in proportion to outstanding market values.
 
 Unlike the price-weighted index, the value-weighted index gives more weight to ABC. Whereas the price-weighted index fell because it was dominated by higher-price XYZ, the value-weighted index rises because it gives more weight to ABC, the stock with the higher total market value.
 
@@ -532,6 +590,57 @@ The right to purchase the asset at an agreed-upon price, as opposed to the oblig
 
 Clearly, a holder of a call has a better position than the holder of a long position on a futures contract with a futures price equal to the option's exercise price. This advantage, of course, comes only at a price. Call options must be purchased; futures contracts are entered into without cost. The purchase price of an option is called the premium. It represents the compensation the purchaser of the call must pay for the ability to exercise the option only when it is profitable to do so. Similarly, the difference between a put option and a short futures position is the right, as opposed to the obligation, to sell an asset at an agreed-upon price.
 
+```d2
+direction: right
+
+Call Option: Call Option {
+  shape: hexagon
+  style.fill: "#4caf50"
+  style.stroke: "#2e7d32"
+}
+
+Long Futures: Long Futures {
+  shape: hexagon
+  style.fill: "#2196f3"
+  style.stroke: "#0d47a1"
+}
+
+Put Option: Put Option {
+  shape: hexagon
+  style.fill: "#ff9800"
+  style.stroke: "#e65100"
+}
+
+Short Futures: Short Futures {
+  shape: hexagon
+  style.fill: "#f44336"
+  style.stroke: "#b71c1c"
+}
+
+Call Option -> Long Futures: Right to buy vs Obligation to buy {
+  style.stroke: "#4caf50"
+  style.stroke-width: 3
+}
+
+Put Option -> Short Futures: Right to sell vs Obligation to sell {
+  style.stroke: "#ff9800"
+  style.stroke-width: 3
+}
+
+Premium: Premium Cost {
+  shape: diamond
+  style.fill: "#9c27b0"
+  style.font-color: white
+}
+
+Premium -> Call Option
+Premium -> Put Option
+
+note: Options provide rights with premium cost, futures create obligations with no upfront cost {
+  near: bottom-center
+}
+```
+
 # SUMMARY
 
 1. Money market securities are very-short-term debt obligations. They are usually highly marketable and have relatively low credit risk. Their low maturities and low credit risk ensure minimal capital gains or losses. These securities trade in large denominations, but they may be purchased indirectly through money market mutual funds.
@@ -581,124 +690,3 @@ Cutoff tax rate (for indifference to taxable versus tax-free bonds):  $1 - \frac
 a. The sale of a security with a commitment to repurchase the same security at a specified future date and a designated price.
 $b$ . The sale of a security with a commitment to repurchase the same security at a future date left unspecified, at a designated price.
 c. The purchase of a security with a commitment to purchase more of the same security at a specified future date.
-
-# PROBLEM SETS
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/9f6e38307456b13e6b7903d6a7c4de13e52c5cdef11922e307694f1336db34b0.jpg)
-SCHWESER
-
-4. What would you expect to happen to the spread between yields on commercial paper and Treasury bills if the economy were to enter a steep recession?
-5. What are the key differences between common stock, preferred stock, and corporate bonds?
-6. Why are high-tax-bracket investors more inclined to invest in municipal bonds than low-bracket investors?
-7. Turn back to Figure 2.3 and look at the Treasury bond maturing in November 2040.
-
-$a$ . How much would you have to pay to purchase one of these bonds?
-b. What is its coupon rate?
-c. What is the yield to maturity of the bond?
-
-8. Suppose investors can earn a return of  $2\%$  per 6 months on a Treasury note with 6 months remaining until maturity. What price would you expect a 6-month-maturity Treasury bill to sell for?
- 9. Find the after-tax return to a corporation that buys a share of preferred stock at \$40, sells it at year-end at \$40, and receives a 4 year-end dividend. The firm is in the 21\% tax bracket.
-
-10. Turn to Figure 2.8 and look at the listing for Honeywell.
-
-a. How many shares can you buy for 5,000?
-b. What would be your annual dividend income from those shares?
-c. What must be Honeywell's earnings per share?
-$d$ . What was the firm's closing price on the day before the listing?
-
-11. Consider the three stocks in the following table.  $P_{t}$  represents price at time  $t$ , and  $Q_{t}$  represents shares outstanding at time  $t$ . Stock C splits two for one in the last period.
-
-<table><tr><td></td><td>P0</td><td>Q0</td><td>P1</td><td>Q1</td><td>P2</td><td>Q2</td></tr><tr><td>A</td><td>90</td><td>100</td><td>95</td><td>100</td><td>95</td><td>100</td></tr><tr><td>B</td><td>50</td><td>200</td><td>45</td><td>200</td><td>45</td><td>200</td></tr><tr><td>C</td><td>100</td><td>200</td><td>110</td><td>200</td><td>55</td><td>400</td></tr></table> a. Calculate the rate of return on a price-weighted index of the three stocks for the first period  $(t = 0$  to  $t = 1)$
-
-$b$ . What must happen to the divisor for the price-weighted index in year 2?
-c. Calculate the rate of return for the second period  $(t = 1$  to  $t = 2)$
-
-12. Using the data in the previous problem, calculate the first-period rates of return on the following indexes of the three stocks:
-
-$a$ . A market-value-weighted index.
-$b$ . An equally weighted index.
-
-13. What would happen to the divisor of the Dow Jones Industrial Average if FedEx, with a current price of around \$300 per share, replaced Intel, with a current price of about \$55 per share?
-14. An investor is in a  $30\%$  combined federal plus state tax bracket. If corporate bonds offer  $6\%$  yields, what yield must municipalities offer for the investor to prefer them to corporate bonds?
-15. Find the equivalent taxable yield of a short-term municipal bond with a yield of  $4\%$  for tax brackets of  $(a)$  zero,  $(b)$ $10\%$ ,  $(c)$ $20\%$ , and  $(d)$ $30\%$ .
-16. What problems would confront a mutual fund trying to create an index fund tied to an equally weighted index of a broad stock market?
-17. Which security should sell at a greater price?
-
-a. A 10-year Treasury bond with a  $4\%$  coupon rate versus a 10-year T-bond with a  $5\%$  coupon.
-b. A 3-month expiration call option with an exercise price of  \$40 versus a 3-month call on the same stock with an exercise price of\$ 35.
- c. A put option on a stock selling at \$50 or a put option on another stock selling at \$60 (all other relevant features of the stocks and options may be assumed to be identical).
-
-18. Look at the futures listings for the corn contract in Table 2.7. Suppose you buy one contract for December 2022 delivery. If the contract closes in December at a level of 5.03, what will your profit be?
-19. Turn back to Table 2.6 and look at the Microsoft options. Suppose you buy an August expiration call option with exercise price 285.
-
-a. Suppose the stock price in August is 288. Will you exercise your call? What is the profit on your position?
-b. What if you had bought the August call with exercise price 280?
- c. What if you had bought a August put with exercise price 280?
-
-20. Why do call options with exercise prices greater than the price of the underlying stock sell for positive prices?
- 21. Both a call and a put currently are traded on stock XYZ; both have strike prices of \$50 and expirations of 6 months. What will be the profit to an investor who buys the call for \$4 in the following scenarios for stock prices in 6 months? What will be the profit in each scenario to an investor who buys the put for 6?
-
-a. $40 b. $45
-c. $50 d. $55
-e. 60
-
-22. Explain the difference between a put option and a short position in a futures contract.
-23. Explain the difference between a call option and a long position in a futures contract.
-
-1. A firm's preferred stock often sells at yields below its bonds because
-
-$a$ . Preferred stock generally carries a higher agency rating.
-$b$ . Owners of preferred stock have a prior claim on the firm's earnings.
-c. Owners of preferred stock have a prior claim on a firm's assets in the event of liquidation.
-d. Corporations owning stock may exclude from income taxes most of the dividend income they receive.
-
-2. A municipal bond carries a coupon of  $6.75\%$  and is trading at par. What is the equivalent taxable yield to a taxpayer in a combined federal plus state  $34\%$  tax bracket?
-3. Which is the most risky transaction to undertake in the stock index option markets if the stock market is expected to increase substantially after the transaction is completed?
-
-$a$  .Write a call option.
-b. Write a put option.
-c. Buy a call option.
-$d$  .Buya put option.
-
-4. Short-term municipal bonds currently offer yields of  $4\%$ , while comparable taxable bonds pay  $5\%$ . Which gives you the higher after-tax yield if your tax bracket is a. Zero
-
-b.  $10\%$ c.  $20\%$
-d.  $30\%$
-
-5. The coupon rate on a tax-exempt bond is  $5.6\%$ , and the rate on a taxable bond is  $8\%$ . Both bonds sell at par. At what tax bracket (marginal tax rate) would an investor be indifferent between the two bonds?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/330cda6c445ba77e8b07e8e5301bf0f41623da4e07c49e876e49c04f40d2b37b.jpg)
-
-# E-INVESTMENTS EXERCISES
-
-1. You can get the Walt Disney Company's annual report (its 10-K) from the SEC's EDGAR site, www.sec.gov/edgar/searchedgar/companysearch.html, or you can find it using a simple Web search. Locate the company's Consolidated Balance Sheets and answer these questions: a. How much preferred stock is Disney authorized to issue? How much has been issued?
-
-b. How much common stock is Disney authorized to issue? How many shares are currently outstanding?
-c. Search for the term "Financing Activities." What is the total amount of borrowing listed for Disney? How much of this is medium-term notes?
-d. What other types of debt does Disney have outstanding?
-
-2. Not all stock market indexes are created equal. Different methods are used to calculate various indexes, and different indexes will yield different assessments of "market performance." Using one of the following data sources, retrieve the stock price for five different firms on the first and last trading days of the previous month.
-
-www.nasdaq.com—Get a quote using the company's ticker symbol; then select Interactive Charts and specify one month. When the chart appears, click on a data point to display the underlying data.
-
-www.bloomberg.com—Go to the Stocks tab, and get a quote using the company's ticker symbol. Click on View Full Chart. Use the moving line to see the closing price today and one month ago. finance.yahoo.com—Get a quote; then click on Historical Data and specify a date range.
-
-a. Compute the monthly return on a price-weighted index of the five stocks.
-b. Compute the monthly return on a value-weighted index of the five stocks.
-c. Compare the two returns and explain their differences. Explain how you would interpret each measure.
-
-# SOLUTIONS TO CONCEPT CHECKS
-
-1. The bid price of the bond is 108.224\% of par, or \$1,082.24. The asked price is 108.244 or \$1,082.44. This asked price corresponds to a yield of 1.984\%. The asked price increased 1.128 from its level yesterday, so the asked price then must have been 107.116, or 1,071.16.
-
-2. A  $6\%$  taxable return is equivalent to an after-tax return of  $6(1 - .30) = 4.2\%$ . Therefore, you would be better off in the taxable bond. The equivalent taxable yield of the tax-free bond is  $4/(1 - .30) = 5.71\%$ . So a taxable bond would have to pay a  $5.71\%$  yield to provide the same after-tax return as a tax-free bond offering a  $4\%$  yield.
-
-3. a. You are entitled to a prorated share of Intel's dividend payments and to vote in any of IBM's stockholder meetings.
-
-$b$ . Your potential gain is unlimited because the stock price has no upper bound.
- c. Your outlay was $55 × 100 = $5,500. Because of limited liability, this is the most you can lose.
-
-4. The price-weighted index increases from 62.5 [i.e., (100 + 25)/2] to 65 [i.e., (110 + 20)/2], a gain of 4\%. An investment of one share in each company requires an outlay of \$125 that would increase in value to \$130, for a return of 4\% (i.e., 5/125), which equals the return to the price-weighted index.
- 5. The market-value-weighted index return is calculated by computing the increase in the value of the stock portfolio. The portfolio of the two stocks starts with an initial value of \$100 million + \$500 million = \$600 million and falls in value to \$110 million + \$400 million = \$510 million, a loss of 90/600 = .15, or 15\%. The index portfolio return is a weighted average of the returns on each stock with weights of 1/6 on XYZ and 5/6 on ABC (weights proportional to relative investments). Because the return on XYZ is 10\%, while that on ABC is -20\%, the index portfolio return is 1/6 × 10\% + 5/6 × (-20\%) = -15\%, equal to the return on the market-value-weighted index.
- 6. The payoff to the call option is \$10 per share at expiration. The option cost is \$8.45 per share. The dollar profit is therefore \$1.55. The put option expires worthless. Therefore, the investor's loss is the cost of the put, or \$10.79.
-

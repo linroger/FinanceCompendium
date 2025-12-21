@@ -1,87 +1,30 @@
 ---
-aliases:
-- Asset Pricing Theories
-tags: null
-key_concepts: null
-parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
-cssclasses: academia
-title: 'Chapter 14: Asset Pricing Theories'
-linter-yaml-title-alias: 'Chapter 14: Asset Pricing Theories'
+title: Chapter 14 Asset Pricing Theories
+parent_directory: II. Economics/International/Foundations of Global Financial Markets
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
 primary_tags:
-- market portfolio graph sml
-- asset pricing model
-- assets capital market theory
-- risk beta asset
-- market case risk return
+  - capital asset pricing model
+  - arbitrage pricing theory
+  - systematic risk
+  - security market line
+  - beta coefficient
 secondary_tags:
-- capital markets behavioral assumptions
-- capm arbitrage pricing theory
-- asset pricing model capm
-- returns portfolio theory described
-- cml market model equilibrium
-- expected returns tests capm
-- cml equation capital asset
-- portfolios empirical tests
-- implications theory portfolio theory
-- asset return variability diversified
-- fund separation theorem assumption
-- asset market econometrica 34
-tags_extracted: '2025-12-18T00:19:56.090281'
+  - market portfolio
+  - efficient frontier
+  - diversification
+  - risk premium
+  - factor models
+  - macroeconomic factors
+  - fundamental factors
+  - statistical factors
+  - portfolio theory
+  - asset pricing
+cssclasses: academia
 ---
 
-# 14
-
-# Asset Pricing Theories
-
-# CONTENTS
-
-# Learning Objectives
-
-# Economic Assumptions
-
-Assumptions about Investor Behavior
-
-Assumptions about Capital Markets
-
-# Capital Market Theory
-
-Deriving the Formula for the CML
-
-Interpreting the CML Equation
-
-# The Capital Asset Pricing Model
-
-Systematic and Unsystematic Risk
-
-Quantifying systematic risk
-
-Estimating beta
-
-The Security Market Line
-
-The SML, CML, and Market Model
-
-Tests of the CAPM
-
-# The Arbitrage Pricing Theory Model
-
-Comparison of the APT Model and CAPM
-
-Advantages of the APT Model
-
-# Factor Models in Practice
-
-Statistical Factor Models
-
-Macroeconomic Factor Models
-
-Fundamental Factor Models
-
-# Some Principles to Take Away
-
-# Key Points
-
-# Questions
+# Chapter 14 Asset Pricing Theories
 
 # Learning Objectives
 
@@ -101,27 +44,43 @@ In chapter 13, we explained portfolio selection theory. In this chapter, we desc
 
 Economic theories are an abstraction of the real world and as such are based on some simplifying assumptions. These assumptions simplify matters a great deal, and some of them may even seem unrealistic. However, they make economic theories more tractable from a mathematical standpoint. Some of the assumptions discussed in this chapter are precisely those criticized by proponents of behavioral finance. It should be noted that although we call these assumptions "behavioral assumptions," they are the behavioral assumptions made by standard finance, or what we mentioned in the previous chapter as the fully rational approach. They are not the assumptions of those who advocate behavioral finance.
 
-Assumptions about Investor Behavior
+## Assumptions about Investor Behavior
 
-When constructing a portfolio of risky assets, capital market theory makes the following assumptions about the behavior of investors.
+When constructing a portfolio of risky assets, capital market theory makes the following assumptions about the behavior of investors:
 
-Behavioral Assumption 1: Capital market theory assumes that investors make investment decisions based on two parameters: the expected return and the variance of returns. Portfolio theory, described in chapter 13, is sometimes referred to as a mean-variance model. This assumption tells us what investors use as inputs when making their investment decisions. Their specific behavior follows from the assumption that to accept greater risk, they must be compensated by the opportunity of realizing a higher return. We refer to such investors as risk averse. This definition is oversimplified. A more rigorous definition of risk aversion is described by a mathematical specification of an investor's utility function. However, this complexity need not concern us here. What is important is that an investor who faces a choice between two portfolios with the same expected return will (it is assumed) select the portfolio with the lower risk.
+### Behavioral Assumption 1
 
-Behavioral Assumption 2: Capital market theory assumes that the risk-averse investor subscribes to the method of reducing portfolio risk by combining assets with counterbalancing correlations, as explained in chapter 13.
+### Behavioral Assumption 1
 
-Behavioral Assumption 3: Capital market theory assumes that all investors make investment decisions over some single-period investment horizon. The length of that period (six months, one year, two years, etc.) is not specified. In reality, the investment decision process is more complex, with many investors looking at more than one investment horizon. Nonetheless, the assumption of a one-period investment horizon is necessary to simplify the mathematics of the theory.
+Capital market theory assumes that investors make investment decisions based on two parameters: the expected return and the variance of returns. Portfolio theory, described in chapter 13, is sometimes referred to as a mean-variance model. This assumption tells us what investors use as inputs when making their investment decisions. Their specific behavior follows from the assumption that to accept greater risk, they must be compensated by the opportunity of realizing a higher return. We refer to such investors as risk averse. This definition is oversimplified. A more rigorous definition of risk aversion is described by a mathematical specification of an investor's utility function. However, this complexity need not concern us here. What is important is that an investor who faces a choice between two portfolios with the same expected return will (it is assumed) select the portfolio with the lower risk.
 
-Behavioral Assumption 4: Capital market theory assumes that all investors have the same expectations with respect to the inputs that are used to derive the Markowitz efficient portfolios, namely, asset returns, variances, and correlations. This is the homogeneous expectation assumption.
+### Behavioral Assumption 2
 
-# Assumptions about Capital Markets
+Capital market theory assumes that the risk-averse investor subscribes to the method of reducing portfolio risk by combining assets with counterbalancing correlations, as explained in chapter 13.
 
-The four behavioral assumptions listed above deal with the behavior of investors when making investment decisions. It is also necessary to make assumptions about the characteristics of the capital market in which investors transact. The three assumptions in this regard are as follows.
+### Behavioral Assumption 3
 
-Capital Market Assumption 1: Capital market theory assumes that the capital market is perfectly competitive. In general, the number of buyers and sellers is sufficiently large, and all investors are small enough relative to the market, that no individual investor can influence an asset's price. Consequently, all investors are price takers, and the market price is determined where supply equals demand.
+Capital market theory assumes that all investors make investment decisions over some single-period investment horizon. The length of that period (six months, one year, two years, etc.) is not specified. In reality, the investment decision process is more complex, with many investors looking at more than one investment horizon. Nonetheless, the assumption of a one-period investment horizon is necessary to simplify the mathematics of the theory.
 
-Capital Market Assumption 2: Capital market theory assumes that no transaction costs or impediments interfere with the supply and demand for an asset. Economists refer to these various costs and impediments as "frictions." The costs associated with frictions generally result in buyers paying more than they would in the absence of frictions and sellers receiving less. In the case of financial markets, frictions include commissions charged by brokers and the bid-ask spreads charged by dealers. They also include taxes and government-imposed transfer fees.
+### Behavioral Assumption 4
 
-Capital Market Assumption 3: Capital market theory assumes that a risk-free asset exists in which investors can invest. Moreover, it assumes that investors can borrow funds at the same interest rate offered on that risk-free asset. That is, it assumes that investors can lend and borrow at some risk-free rate.
+Capital market theory assumes that all investors have the same expectations with respect to the inputs that are used to derive the Markowitz efficient portfolios, namely, asset returns, variances, and correlations. This is the homogeneous expectation assumption.
+
+## Assumptions about Capital Markets
+
+The four behavioral assumptions listed above deal with the behavior of investors when making investment decisions. It is also necessary to make assumptions about the characteristics of the capital market in which investors transact. The three assumptions in this regard are as follows:
+
+### Capital Market Assumption 1
+
+Capital market theory assumes that the capital market is perfectly competitive. In general, the number of buyers and sellers is sufficiently large, and all investors are small enough relative to the market, that no individual investor can influence an asset's price. Consequently, all investors are price takers, and the market price is determined where supply equals demand.
+
+### Capital Market Assumption 2
+
+Capital market theory assumes that no transaction costs or impediments interfere with the supply and demand for an asset. Economists refer to these various costs and impediments as "frictions." The costs associated with frictions generally result in buyers paying more than they would in the absence of frictions and sellers receiving less. In the case of financial markets, frictions include commissions charged by brokers and the bid-ask spreads charged by dealers. They also include taxes and government-imposed transfer fees.
+
+### Capital Market Assumption 3
+
+Capital market theory assumes that a risk-free asset exists in which investors can invest. Moreover, it assumes that investors can borrow funds at the same interest rate offered on that risk-free asset. That is, it assumes that investors can lend and borrow at some risk-free rate.
 
 # Capital Market Theory
 
@@ -147,7 +106,7 @@ One more key question remains: How does an investor construct portfolio  $M$ ? E
 
 Now we can restate how a risk-averse investor who makes investment decisions as suggested by portfolio theory and who can borrow and lend at the risk-free rate should construct efficient portfolios. This process combines an investment in the risk-free asset with the market portfolio. The theoretical result that all investors will hold a combination of the risk-free asset and the market portfolio is known as the two-fund separation theorem, with one fund consisting of the risk-free asset and the other consisting of the market portfolio. Although all investors will select a portfolio on the CML, the optimal portfolio for a specific investor is the one that will maximize that investor's risk preference.
 
-Deriving the Formula for the CML
+## Deriving the Formula for the CML
 
 Figure 14.1 graphically shows us the CML, but we can derive a formula for the CML algebraically as well. This formula will be key to achieving our goal of showing how a risky asset should be priced.
 
@@ -166,13 +125,12 @@ Because we know that  $w_{F} = 1 - w_{M}$ , we can rewrite  $E(R_{p})$  as follo
 
 $$
 E (R_{p}) = (1 - w_{M}) R_{F} + w_{M} E (R_{M}),
-$$ which can be simplified to
-
-
 $$
 
-E \left(R_{p}\right) = R_{F} + w_{M} \left[ E \left(R_{M}\right) - R_{F} \right]. \tag {14.1}
+which can be simplified to
 
+$$
+E \left(R_{p}\right) = R_{F} + w_{M} \left[ E \left(R_{M}\right) - R_{F} \right]. \tag {14.1}
 $$
 
 Now that we know the expected return of our hypothetical portfolio, we turn to the portfolio's risk as measured by the variance of the portfolio. We know from equation (13.4) how to calculate the variance of a two-asset portfolio. We repeat equation (13.4) here:
@@ -228,7 +186,7 @@ $$
 
 This equation yields the CML.
 
-Interpreting the CML Equation
+## Interpreting the CML Equation
 
 Capital market theory assumes that all investors hold the same expectations for the inputs into the model (behavioral assumption 4). With homogeneous expectations,  $\sigma(R_M)$  and  $\sigma(R_p)$  are the market's consensus for the expected return distributions for the market portfolio and portfolio  $p$ . The slope of the CML is given by
 
@@ -246,15 +204,13 @@ The CML says that the expected return on a portfolio is equal to the risk-free r
 
 Up to this point, we know how a risk-averse investor who makes decisions based on two parameters, risk and expected return, should construct an efficient portfolio: by using a combination of the market portfolio and the risk-free rate. Based on this result, we can derive a model that shows how a risky asset should be priced. In the process of doing so, we can refine our thinking about the risk associated with an asset. Specifically, we can show that the appropriate risk that investors should be compensated for accepting is not the variance of an asset's return but some other quantity. To illustrate, we need to take a closer look at portfolio risk.
 
-# Systematic and Unsystematic Risk
+## Systematic and Unsystematic Risk
 
 In Markowitz portfolio theory, variance of return is the measure of risk used. This risk measure can be decomposed into two general types of risk: systematic risk and unsystematic risk.
 
 Systematic risk is the portion of an asset's return variability that can be attributed to a common factor. It is also called undiversifiable risk. Systematic risk is the minimum level of risk that can be obtained for a portfolio by means of diversification across a large number of randomly chosen assets. Thus, systematic risk results from general market and economic conditions that cannot be diversified away.
 
-The portion of an asset's return variability that can be diversified away is referred to as unsystematic risk. It is also sometimes called diversifiable risk, residual risk, idiosyncratic risk, or company-specific risk. This is the risk that is unique to a company, such as a strike, an unfavorable outcome of litigation, or a natural catastrophe. Some examples of this type of risk in real life are the product tampering involving Tylenol capsules
-
-(manufactured by Johnson & Johnson) in October 1982 and the chemical accident at the Union Carbide plant in Bhopal, India, in December 1984. Both of these unforeseeable and hence unexpected tragedies negatively affected the stock prices of the two companies involved.
+The portion of an asset's return variability that can be diversified away is referred to as unsystematic risk. It is also sometimes called diversifiable risk, residual risk, idiosyncratic risk, or company-specific risk. This is the risk that is unique to a company, such as a strike, an unfavorable outcome of litigation, or a natural catastrophe. Some examples of this type of risk in real life are the product tampering involving Tylenol capsules (manufactured by Johnson & Johnson) in October 1982 and the chemical accident at the Union Carbide plant in Bhopal, India, in December 1984. Both of these unforeseeable and hence unexpected tragedies negatively affected the stock prices of the two companies involved.
 
 Figure 14.2 depicts how diversification reduces unsystematic risk for portfolios as more securities are added to a portfolio. It shows total portfolio risk declining as the number of holdings increases. Increasing diversification gradually tends to eliminate unsystematic risk, leaving only systematic risk. The remaining variability results from the fact that the return on nearly every security depends to some degree on the overall performance of some common factor, and that common factor is the general market. Consequently, the return on a well-diversified portfolio is highly correlated with the market, and its variability or uncertainty is basically the uncertainty of the market as a whole. For this reason, systematic risk is also referred to as market risk. Investors are exposed to market risk no matter how many stocks they hold, which is why systematic risk is referred to as "nondiversifiable risk."
 
@@ -270,7 +226,9 @@ Empirical studies of returns from investing in common stocks support these state
 4. On average, approximately  $40\%$  of the single-security risk is eliminated by forming randomly selected portfolios of 20 stocks.
 5. The return on a diversified portfolio follows the market closely, with the ratio of systematic risk to total risk exceeding  $90\%$ .
 
-Quantifying systematic risk Systematic risk can be quantified by dividing security return into two parts: one part perfectly correlated with and proportional to the market return and a second part independent from (uncorrelated with) the market. The first component of return is usually referred to as "systematic return" and the second as "unsystematic return" or "diversifiable return." Thus we have the following:
+### Quantifying Systematic Risk
+
+Systematic risk can be quantified by dividing security return into two parts: one part perfectly correlated with and proportional to the market return and a second part independent from (uncorrelated with) the market. The first component of return is usually referred to as "systematic return" and the second as "unsystematic return" or "diversifiable return." Thus we have the following:
 
 Security return  $=$  Systematic return + Unsystematic return. (14.3)
 
@@ -344,7 +302,9 @@ The lower limit is equal to the average beta for the portfolio times the standar
 
 The implications of these results are substantial. First, we would expect realized rates of return over long periods to be related to the systematic risk as opposed to the total risk of securities. As the unsystematic risk is relatively easily eliminated, we should not expect the market to offer investors a "risk premium" for bearing such risk. Second, because security systematic risk is equal to the security beta times  $\sigma(R_M)$ , which is common to all securities, beta is useful as a relative risk measure. The  $\beta$  gives the systematic risk of a security (or portfolio) relative to the risk of the market index. Thus, it is often convenient to speak of systematic risk in relative terms, that is, in terms of beta rather than beta times  $\sigma(R_M)$ .
 
-Estimating beta The beta of a security or portfolio can be estimated by estimating the market model given by equation (14.5) using regression analysis applied to historical returns. The estimated slope for the market model is the estimate of beta. A series of returns is computed over some time interval for some broad market index (such as the S&P 500 stock market index) and for the stock (or portfolio). For example, monthly returns can be calculated for the past five years, providing 60 return observations for both the market index and the stock or portfolio. Or weekly returns can be calculated for the past year. Nothing in financial theory indicates whether weekly, monthly, or even daily returns should be used. Nor does theory indicate any specific number of observations, except that statistical methodology indicates that more observations give a more reliable measure of beta.
+### Estimating Beta
+
+The beta of a security or portfolio can be estimated by estimating the market model given by equation (14.5) using regression analysis applied to historical returns. The estimated slope for the market model is the estimate of beta. A series of returns is computed over some time interval for some broad market index (such as the S&P 500 stock market index) and for the stock (or portfolio). For example, monthly returns can be calculated for the past five years, providing 60 return observations for both the market index and the stock or portfolio. Or weekly returns can be calculated for the past year. Nothing in financial theory indicates whether weekly, monthly, or even daily returns should be used. Nor does theory indicate any specific number of observations, except that statistical methodology indicates that more observations give a more reliable measure of beta.
 
 Beta estimates are available on the Internet from Yahoo Finance and Google Finance for individual stocks. Table 14.1 shows the estimates of beta from the Yahoo Finance web site for five stocks as reported on August 3, 2018. Yahoo Finance uses monthly price changes for the company's stock and the monthly change of the S&P 500 index. Three years of returns (36 months) are used (when available).
 
@@ -359,7 +319,7 @@ Our purpose here is not to provide an explanation of the mechanics of calculatin
 
 Moreover, the question arises of the stability of beta over different time intervals. That is, does the beta of a stock or portfolio remain relatively unchanged over time, or does it change? The interesting question concerns the economic determinants of the beta of a stock. The risk characteristics of a company should be reflected in its beta. Several empirical studies have attempted to identify these macroeconomic and microeconomic factors.
 
-# The Security Market Line
+## The Security Market Line
 
 The CML represents an equilibrium condition in which the expected return on a portfolio of assets is a linear function of the expected return on the market portfolio. A directly analogous relationship holds for individual security expected returns:
 
@@ -428,14 +388,14 @@ Figure 14.4
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/23669622-4e61-4759-9866-61562641cd84/d7f590903348b1e857ba1be64aca7366329dd76b3bdb809dfa4321e03f188fc9.jpg)
 The security market line.
 
-The SML, CML, and Market Model
+### The SML, CML, and Market Model
 
 In equilibrium, the expected return of individual securities will lie on the SML and not on the CML because of the high degree of unsystematic risk that remains in individual securities, a risk that can be diversified out of portfolios of securities. It follows that the only risk investors will pay a premium to avoid is market risk. Hence, two assets with the same amount of systematic risk will have the same expected return. In equilibrium, only efficient portfolios will lie on both the CML and the SML, which underscores the fact that the systematic risk measure, beta, is most correctly considered to be an index of the contribution of an individual security to the systematic risk of a well-diversified portfolio of securities.
 
 
 It is important to point out the difference between the market model and the CML and SML. The CML and the SML represent a predictive model for expected returns. The market model is a descriptive model used to describe historical data. Hence, the market model makes no prediction of what expected returns should be.
 
-Tests of the CAPM
+### Tests of the CAPM
 
 The CAPM is indeed a simple and elegant model, but these qualities do not in and of themselves guarantee that it will be useful for explaining observed risk/return patterns. Here we briefly review the empirical literature on attempts to verify the model.
 
@@ -519,7 +479,7 @@ $$
 
 Equation (14.14) is the APT model. It states that investors want to be compensated for all the factors that systematically affect the return of a security. The compensation is the sum of the products of each factor's systematic risk,  $\beta_{i,Fh}$ , and the risk premium assigned to it by the market,  $E(R_{Fh}) - R_F$ . As in the case of the two other risk and return models described earlier, an investor is not compensated for accepting unsystematic risk.
 
-Comparison of the APT Model and CAPM
+## Comparison of the APT Model and CAPM
 
 Examining the equations, we can see that the CAPM, equation (14.11), is a special case of the APT model, equation (14.14):
 
@@ -535,7 +495,7 @@ $$
 
 $$
 
-Advantages of the APT Model
+## Advantages of the APT Model
 
 Supporters of the APT model argue that it offers several major advantages over the CAPM. First, it makes less restrictive assumptions about investor preferences concerning risk and return. As explained earlier, the CAPM theory assumes that investors trade off risk and return solely on the basis of the expected returns and standard deviations of prospective investments. In contrast, the APT model simply requires some rather unobtrusive bounds be placed on potential investor utility functions.
 
@@ -545,7 +505,7 @@ Second, no assumptions are made about the distribution of security returns. Fina
 
 Thus far we have presented the APT, which tells us how a security should be priced based on its exposure to various types of risk. In practice, three types of factor models are used to evaluate common stock: statistical factor models, macroeconomic factor models, and fundamental factor models.[13]
 
-# Statistical Factor Models
+## Statistical Factor Models
 
 As just discussed, identifying the factors presents certain difficulties. In a statistical factor model, historical and cross-sectional data on stock returns are tossed into a statistical model. The statistical model used is principal components analysis, which is a special case of a statistical technique called "factor analysis." The goal of the statistical model is to best explain the observed stock returns with "factors" that are linear return combinations and are uncorrelated with one another.
 
@@ -553,13 +513,13 @@ For example, suppose that the monthly returns for 1,500 companies for 10 years a
 
 Because of the problem of interpretation, it is difficult to use the factors from a statistical factor model to obtain expected returns. Instead, practitioners prefer two other models, which allow them to prespecify meaningful factors and thus produce a more intuitive model.
 
-# Macroeconomic Factor Models
+## Macroeconomic Factor Models
 
 In a macroeconomic factor model, the inputs to the model are historical stock returns and observable macroeconomic variables called "raw descriptors." The goal is to determine which macroeconomic variables are pervasive in explaining historical stock returns. Those variables that are pervasive in explaining the returns are then the factors included in the model. The responsiveness of a stock to these factors is estimated using historical time series data. The sensitivity of the factors is estimated so that they are statistically independent. Then there will be no double counting.
 
 An example of a macroeconomic factor model for the U.S. equity market is the Burmeister, Ibbotson, Roll, and Ross model. $^{14}$  This model has five macroeconomic factors that reflect unanticipated changes in the following macroeconomic variables: investor confidence (confidence risk), interest rates (time horizon risk), inflation (inflation risk), real business activity (business cycle risk), and market index (market timing risk).
 
-# Fundamental Factor Models
+## Fundamental Factor Models
 
 Probably the most popular models are fundamental factor models, which use company and industry attributes and market data as raw descriptors. Examples of the descriptors used include price/earnings ratios, book/price ratios, estimated economic growth, and trading activity. The inputs into a fundamental factor model are stock returns and the potential raw descriptors about a company. Those fundamental variables about a company that are pervasive in explaining stock returns and make economic sense are then the factors retained in the model. The sensitivity of a stock's return to a factor is estimated using statistical analysis.
 
@@ -603,117 +563,5 @@ Essentially, the CAPM says that the expected return of a security or a portfolio
 - One of the most popular factor models is the Fama-French five-factor model.
 - Although the theories presented are controversial or difficult to implement in practice, several principles are not controversial and can be used to understand how to price financial assets.
 
-# Questions
 
-1. a. Explain why the CML assumes a risk-free asset and that investors can borrow or lend at the risk-free rate.
-
-b. Using a graph, demonstrate why the CML dominates the Markowitz efficient frontier.
-
-2. How should an investor construct an efficient portfolio in the presence of a risk-free asset?
-
-3. a. What is meant by two-fund separation?
-
-b. What do the two funds consist of?
-
-4. Indicate why you agree or disagree with the following statement: "As a percentage of the total risk, the unsystematic risk of a diversified portfolio is greater than that of an individual asset."
-5. In the CAPM, why is systematic risk also called "market risk"?
-6. Indicate why you agree or disagree with the following statement: "An investor should be compensated for accepting unsystematic risk."
-7. a. Suppose that a stock has a beta of 1.15. How do you interpret that value?
-
-b. Suppose that a stock has a beta of 1.00. Can one mimic the performance of the stock market by buying shares in only that stock?
-
-8. a. What is the market model?
-
-b. What input into the CAPM is estimated from the market model?
-
-9. Assume the following: expected market return  $= 15\%$ , risk-free rate  $= 7\%$ . If a security's beta is 1.3, what is its expected return according to the CAPM?
-10. The following is an excerpt from the article “Risk and Reward,” published in the Economist of October 20, 1990:
-
-Is the CAPM supported by the facts? That is controversial, to put it mildly. It is a tribute to Mr Sharpe (co-winner of the 1990 Nobel Prize in Economics) that his work, which dates from the early 1960s, is still argued over so heatedly. Attention has lately turned away from beta to more complicated ways of carving up risk. But the significance of CAPM for financial economics would be hard to exaggerate.
-
-a. What are the general conclusions of studies that empirically investigated the CAPM?
-b. Summarize Roll's argument on the problems inherent in empirically verifying the CAPM.
-
-11. What are the fundamental principles underlying the APT model?
-12. What are the advantages of the APT model relative to the CAPM?
-13. What are the difficulties in practice of applying the APT model?
-14. Does Richard Roll's criticism of the CAPM also apply to the APT model?
-15. "In the CAPM, investors should be compensated for accepting systematic risk; in the APT model, investors are rewarded for accepting both systematic risk and unsystematic risk." Explain why you agree or disagree with this statement.
-
-16. What are the difficulties of using a statistical factor model?
-
-17. How does a macroeconomic factor model differ from a fundamental factor model?
-
-18. Indicate why you agree or disagree with the following statement: "There is considerable controversy concerning the theories about how assets are priced. Therefore, the distinction between systematic risks and unsystematic risk is meaningless."
-
-19. Indicate why you agree or disagree with the following statement: "The theories of the pricing of capital assets are highly questionable. Basically, there is only one type of risk, and investors should seek to avoid it when they purchase individual securities."
-
-20. Explain the Fama-French factor model.
-
-1. William F. Sharpe, "Capital Asset Prices: A Theory of Market Equilibrium under Conditions of Risk," Journal of Finance 19, no. 3 (1964): 425-442; John Lintner, "The Valuation of Risk Assets and the Selection of Risky Investments in Stock Portfolio and Capital Budgets," Review of Economics and Statistics 47, no. 1 (1965): 3-37; Jack L. Treynor, "Toward a Theory of Market Value of Risky Assets," unpublished paper, Arthur D. Little, Boston, 1961; and Jan Mossin, "Equilibrium in a Capital Asset Market," Econometrica 34 (1966): 768-783.
-2. Eugene F. Fama, "Efficient Capital Markets: A Review of Theory and Empirical Work," Journal of Finance 25, no. 2 (1970): 383-417.
-3. James Tobin, "Liquidity Preference as Behavior toward Risks," Review of Economic Studies 25, no. 2 (1958): 65-86.
-4. The equation here is the one used in William F. Sharpe, "A Simplified Model for Portfolio Analysis," Management Science 9, no. 2 (1963): 277-293. Some vendors and academics use as the variables the excess returns in calculating beta. The excess return is found by subtracting a suitable risk-free rate from the asset's return and from the market's return. This is referred to as the "risk-premium" form of the market model.
-5. The relationship between the risk components is given by  $\sigma^2 (R_p) = \beta^2\sigma^2 (R_M) + \sigma^2 (\varepsilon ')$ .
-
-This follows directly from equation (14.5) and the assumption of statistical independence of  $R_M$  and  $\varepsilon'$ . The  $R^2$  term previously discussed is a ratio of systematic to total risk (both measured in terms of variance):
-
-$$
-
-R^{2} = \frac{\beta^{2} \sigma^{2} \left(R_{M}\right)}{\sigma^{2} \left(\varepsilon^{\prime}\right)}
-
-$$
-
-6. Assuming the unsystematic returns  $(\varepsilon^{\prime})$  of securities to be uncorrelated (reasonably true in practice), the unsystematic portfolio risk is given by
-
-$$
-
-\sigma^{2} \left(\varepsilon_{p}^{\prime}\right) = \sum^{n} w_{i}^{2} \sigma^{2} \left(\varepsilon_{j}^{\prime}\right),
-
-$$ where  $\sigma^2 (\varepsilon_i')$  is the unsystematic risk for stock  $i$ . Assume that the portfolio is made up of an equal percentage invested in each security and that  $\sigma^2 (\varepsilon')$  is the average value of the  $\sigma^2 (\varepsilon_j')$ . Then  $w_{i} = 1 / n$ , and
-
-$$
-\sigma^{2} (\varepsilon_{p}^{\prime}) = \frac{1}{n} \sigma^{2} (\varepsilon^{\prime}),
-$$ which—assuming  $\sigma^2 (\varepsilon ')$  is finite—obviously approaches zero as the number of issues in the portfolio increases.
-
-
-7. We discuss several broad market indexes in chapter 22.
-8. This assumes that the economic determinants that affect the beta of a stock do not change over the measurement period.
-9. The model is sometimes stated in risk premium form. Risk premiums, or excess returns, are obtained by subtracting the risk-free rate from the rate of return. The expected security and market risk premiums—designated  $E(r_{i})$  and  $E(r_{M})$ , respectively—are given by
-
-$$
-
-E (r_{i}) = E (R_{i}) - R_{F},
-
-$$
-
-$$
-
-E (r_{M}) = E (R_{M}) - R_{F}.
-
-$$
-
-Substituting these risk premiums into equation (14.11), we obtain:
-
-$$
-
-E (r_{i}) = \beta_{i} [ E (r_{M}) ].
-
-$$
-
-In this form, the CAPM states that the expected risk premium for the investor's portfolio is equal to its beta value times the expected market risk premium. Or, equivalently stated, the expected risk premium should be equal to the quantity of risk (as measured by beta) and the market price of risk (as measured by the expected market risk premium).
-
-10. Richard Roll, “A Critique of the Asset Pricing Theory: Part 1. On the Past and Potential Testability of the Theory,” Journal of Financial Economics 4 (1977): 129-176.
-11. The hypothesis tested in the traditional tests of the CAPM cited earlier—namely, that a linear relationship exists between average security returns and beta values—sheds no light on the question. This result follows, because an approximately linear relation between risk and return would be achieved in tests involving large, well-diversified common stock portfolios, irrespective of whether securities were priced according to the CAPM or some totally different model. The result is tautological. The fact that a positive relationship between realized returns and betas is typically found simply indicates that the returns on the proxy indexes used for the true market portfolio are larger than the average return to the global minimum-variance portfolio.
-12. Stephen A. Ross, "The Arbitrage Theory of Capital Asset Pricing," Journal of Economic Theory 13, no. 3 (1976): 343-360; and Stephen A. Ross, "Return, Risk and Arbitrage," in Risk and Return in Finance, ed. Irwin Friend and James Bicksler (Cambridge: Ballinger, 1976).
-13. Gregory Connor, "The Three Types of Factor Models: A Comparison of Their Explanatory Power," Financial Analysts Journal 51, no. 3 (1995): 42-57.
-14. Edwin Burmeister, Roger Ibbotson, Richard Roll, and Stephen A. Ross, "Using Macroeconomic Factors to Control Portfolio Risk," unpublished paper.
-15. Eugene Fama and Kenneth French, "Common Risk Factors in the Returns on Stocks and Bonds," Journal of Financial Economics 33 (1993): 3-56.
-16. Eugene Fama and Kenneth French, “A Five-Factor Asset Pricing Model,” Journal of Financial Economics 116 (2015): 1-22.
-
-17. See, for example, Andrea Frazzini and Lars Pedersen, "Betting against Beta," Journal of Financial Economics 111 (2014): 1-25.
-
-# III
-
-INTEREST RATES, INTEREST RATE RISK, AND CREDIT RISK
 

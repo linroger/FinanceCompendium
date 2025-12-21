@@ -1,15 +1,39 @@
 ---
-aliases:
-  - Securitization
-tags:
-key_concepts:
+title: Chapter 11 Securitization
 parent_directory: Contemporary Financial Intermediation
+formatted: 2025-12-21 12:30:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+   - asset securitization
+   - securitization with recourse
+   - structured finance
+   - credit risk transfer
+   - risk sharing
+secondary_tags:
+   - mortgage backed securities
+   - special purpose vehicle
+   - credit enhancement
+   - deposit insurance
+   - uninsured deposits
+   - bankruptcy remoteness
+   - pass through securities
+   - asset backed bonds
+   - collateralized mortgage obligations
+   - commercial mortgage backed securities
+   - stripped mortgage securities
+   - asset backed commercial paper
+   - loan sales
+   - balance sheet management
+   - interest rate risk
+   - prepayment risk
+   - market incompleteness
 cssclasses: academia
-title: Chapter 11 - Securitization
-linter-yaml-title-alias: Chapter 11 - Securitization
 ---
 
-# GLOSSARY OF TERMS
+# Chapter 11 Securitization
+
+## GLOSSARY OF TERMS
 
 GNMA Government National Mortgage Association (see Chapter 7).  
 FNMA Federal National Mortgage Association (see Chapter 7).  
@@ -19,9 +43,45 @@ Implicit Contract A term used in economics to designate an implicit understandin
 GMAC General Motors Acceptance Corporation is a finance company that is a subsidiary of General Motors Corporation.  
 BB, A-1 Ratings Ratings given to bonds by private agencies that specialize in evaluating credit risks. Companies usually pay these agencies to have their bonds rated. The ratings are then publicized and have an impact on the yield of the rated bonds. Generally, the higher the alphabet, the poorer the credit risk, that is, an A rating is better than a B rating, and an AA rating is better than an A rating.
 
-# INTRODUCTION
+## INTRODUCTION
 
 Banking used to be a simple business. A bank borrowed money and loaned to others at a spread over cost. The borrowing and lending activities were reflected on the bank's balance sheet.<sup>1</sup> But now banks are as likely to do this business "off-balance sheet" as "on." Chapter 10 discussed some off-balance sheet activities of banks, including loan commitments. We continue that discussion with an examination of securitization and loan sales.
+
+```d2
+direction: right
+
+Bank: Bank {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
+
+Loans: Loans {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+}
+
+SPV: Special Purpose Vehicle {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+}
+
+ABS: Asset-Backed Securities {
+  shape: rectangle
+  style.fill: "#fff3e0"
+}
+
+Investors: Investors {
+  shape: circle
+  style.fill: "#fce4ec"
+}
+
+Bank -> Loans: "Originates"
+Loans -> SPV: "Transfers assets to"
+SPV -> ABS: "Issues"
+ABS -> Investors: "Sold to"
+SPV -> Loans: "Services loans"
+Bank -> SPV: "Provides credit enhancement"
+```
 
 Let us start with a loan commitment. When a bank provides ("sells") a loan commitment, it needs to provide funding only if the customer exercises the commitment. If a "takedown" occurs, the loan appears on the balance sheet. But the bank can avoid funding, even at this stage, by selling the loan to another bank (a loan sale) or by securitizing it. Securitization involves combining the loan with others of similar characteristics, creating credit-enhanced claims against the cash flows of this portfolio, and then selling these claims to investors.[2]
 
@@ -47,28 +107,26 @@ The securitization market is often referred to as the Asset-Backed Securities (A
 
 Currently, a wide range of assets are securitized. Examples are: automobile loans and leases, credit card receivables, commercial truck loans, and boat loans. Private issuers include commercial banks, finance subsidiaries of industrial companies, and savings institutions. See Table 11.1 for data on different types of securitized assets in the United States.
 
-An initial obstacle to securitization in the United States was uncertainty about whether the Glass-Steagall Act problems on underwriting or distribution of corporate securities also prohibited securitization. However, in the mid-1980s,
+An initial obstacle to securitization in the United States was uncertainty about whether the Glass-Steagall Act problems on underwriting or distribution of corporate securities also prohibited securitization. However, in the mid-1980s, the Office of the Comptroller of the Currency (OCC) ruled that national banks could sell interests in pools of loans.
 
 TABLE 11.1 Asset-Backed Securities Outstanding by Major Types of Credit 1995-2012  
 
 <table><tr><td></td><td>1995</td><td>1996</td><td>1997</td><td>1998</td><td>1999</td><td>2000</td><td>2001</td><td>2002</td><td>2003</td><td>2004</td><td>2005</td><td>2006</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td><td>2011</td><td>2012</td></tr><tr><td>Total amount outstanding</td><td>260.9</td><td>373.8</td><td>519.6</td><td>653.6</td><td>959.6</td><td>1092.9</td><td>1238.8</td><td>1388.1</td><td>1513.9</td><td>1824.4</td><td>2126.7</td><td>2726.0</td><td>2972.2</td><td>2624.3</td><td>2347.7</td><td>2053.3</td><td>1834.3</td><td>1701.1</td></tr><tr><td>Automobile</td><td>52.8</td><td>66.7</td><td>79.4</td><td>88.5</td><td>109.4</td><td>140.5</td><td>167.0</td><td>187.6</td><td>191.5</td><td>177.3</td><td>195.9</td><td>196.2</td><td>181.2</td><td>141.5</td><td>128.4</td><td>117.4</td><td>118.4</td><td>143.3</td></tr><tr><td>% of Total</td><td>20.2%</td><td>17.8%</td><td>15.3%</td><td>13.5%</td><td>11.4%</td><td>12.9%</td><td>13.5%</td><td>13.5%</td><td>12.6%</td><td>9.7%</td><td>9.2%</td><td>7.2%</td><td>6.1%</td><td>5.4%</td><td>5.5%</td><td>5.7%</td><td>6.5%</td><td>8.4%</td></tr><tr><td>Credit card</td><td>129.9</td><td>167.1</td><td>191.0</td><td>199.6</td><td>213.8</td><td>236.8</td><td>265.9</td><td>293.3</td><td>303.5</td><td>297.5</td><td>287.2</td><td>291.5</td><td>324.4</td><td>315.6</td><td>300.3</td><td>216.9</td><td>164.1</td><td>127.9</td></tr><tr><td>% of Total</td><td>49.8%</td><td>44.7%</td><td>36.7%</td><td>30.5%</td><td>22.3%</td><td>21.7%</td><td>21.5%</td><td>21.1%</td><td>20.0%</td><td>16.3%</td><td>13.5%</td><td>10.7%</td><td>10.9%</td><td>12.0%</td><td>12.8%</td><td>10.6%</td><td>8.9%</td><td>7.5%</td></tr><tr><td>Home equity</td><td>34.3</td><td>60.6</td><td>105.7</td><td>146.6</td><td>338.0</td><td>352.6</td><td>388.6</td><td>452.9</td><td>497.7</td><td>711.5</td><td>843.2</td><td>1085.3</td><td>1040.2</td><td>834.3</td><td>679.9</td><td>594.2</td><td>522.0</td><td>469.4</td></tr><tr><td>% of Total</td><td>13.2%</td><td>16.2%</td><td>20.3%</td><td>22.4%</td><td>35.2%</td><td>32.3%</td><td>31.4%</td><td>32.6%</td><td>32.9%</td><td>39.0%</td><td>39.6%</td><td>39.8%</td><td>35.0%</td><td>31.8%</td><td>29.0%</td><td>28.9%</td><td>28.5%</td><td>27.6%</td></tr><tr><td>Manufactured housing</td><td>16.1</td><td>22.1</td><td>28.6</td><td>37.4</td><td>47.9</td><td>52.4</td><td>51.7</td><td>47.9</td><td>39.3</td><td>34.1</td><td>29.4</td><td>25.6</td><td>22.6</td><td>20.3</td><td>18.0</td><td>16.5</td><td>14.7</td><td>13.2</td></tr><tr><td>% of total</td><td>6.2%</td><td>5.9%</td><td>5.5%</td><td>5.7%</td><td>5.0%</td><td>4.8%</td><td>4.2%</td><td>3.4%</td><td>2.6%</td><td>1.9%</td><td>1.4%</td><td>0.9%</td><td>0.8%</td><td>0.8%</td><td>0.8%</td><td>0.8%</td><td>0.8%</td><td>0.8%</td></tr><tr><td>Student loan</td><td>6.5</td><td>14.3</td><td>25.9</td><td>31.5</td><td>36.4</td><td>44.7</td><td>48.1</td><td>58.7</td><td>87.8</td><td>122.5</td><td>159.6</td><td>200.6</td><td>229.6</td><td>237.9</td><td>239.5</td><td>240.6</td><td>234.6</td><td>234.1</td></tr><tr><td>% of total</td><td>2.5%</td><td>3.8%</td><td>5.0%</td><td>4.8%</td><td>3.8%</td><td>4.1%</td><td>3.9%</td><td>4.2%</td><td>5.8%</td><td>6.7%</td><td>7.5%</td><td>7.4%</td><td>7.7%</td><td>9.1%</td><td>10.2%</td><td>11.7%</td><td>12.8%</td><td>13.8%</td></tr><tr><td>Equipment leases</td><td>8.5</td><td>14.3</td><td>16.8</td><td>20.7</td><td>23.8</td><td>28.1</td><td>26.5</td><td>21.5</td><td>22.7</td><td>24.0</td><td>26.2</td><td>29.0</td><td>28.3</td><td>18.6</td><td>15.9</td><td>13.1</td><td>13.9</td><td>18.6</td></tr><tr><td>% of total</td><td>3.3%</td><td>3.8%</td><td>3.2%</td><td>3.2%</td><td>2.5%</td><td>2.6%</td><td>2.1%</td><td>1.5%</td><td>1.5%</td><td>1.3%</td><td>1.2%</td><td>1.1%</td><td>1.0%</td><td>0.7%</td><td>0.7%</td><td>0.6%</td><td>0.8%</td><td>1.1%</td></tr><tr><td>Other*</td><td>12.7</td><td>28.7</td><td>72.4</td><td>129.2</td><td>190.3</td><td>237.8</td><td>291.0</td><td>326.2</td><td>371.3</td><td>457.6</td><td>585.1</td><td>897.9</td><td>1145.9</td><td>1056.2</td><td>965.8</td><td>854.7</td><td>766.6</td><td>694.6</td></tr><tr><td>% of total</td><td>4.9%</td><td>7.7%</td><td>13.9%</td><td>19.8%</td><td>19.8%</td><td>21.8%</td><td>23.5%</td><td>23.5%</td><td>24.5%</td><td>25.1%</td><td>27.5%</td><td>32.9%</td><td>38.6%</td><td>40.2%</td><td>41.1%</td><td>41.6%</td><td>41.8%</td><td>40.8%</td></tr></table>
 
 \*Other" includes CDOs.  
-Source: The Securities Industry and Financial Markets Association.
-
-the Office of the Comptroller of the Currency (OCC) ruled that national banks could sell interests in pools of loans. A court of appeals upheld the OCC's position and ruled against the Securities Industries Association (SIA). The court ruled that sale of ABS was not limited by Glass-Steagall because these instruments were "not securities but investments in the underlying loans." The Supreme Court later refused to hear an appeal by the SIA, thereby establishing the right of national banks to securitize.[6]
+Source: The Securities Industry and Financial Markets Association. A court of appeals upheld the OCC's position and ruled against the Securities Industries Association (SIA). The court ruled that sale of ABS was not limited by Glass-Steagall because these instruments were "not securities but investments in the underlying loans." The Supreme Court later refused to hear an appeal by the SIA, thereby establishing the right of national banks to securitize.[6]
 
 In the rest of this chapter, we cover a fairly wide range of topics pertaining to loan sales and securitization. In the next section, we explain securitization and loan sales as natural outcomes of the desire to capture some of the gains from decomposing the traditional lending function. Then we describe the different ways in which securitization is achieved. This is followed by an examination of the economics of securitization in greater detail. Accounting and regulatory issues are examined in the next section. After this we explore the strategic issues faced by banks participating in the ABS market. Loan sales are examined subsequently, and this is followed by the concluding section. A case study is provided to illustrate the strategic securitization issues facing banks.
 
-# PRELIMINARY REMARKS ON THE ECONOMIC MOTIVATION FOR SECURITIZATION AND LOAN SALES
+## PRELIMINARY REMARKS ON THE ECONOMIC MOTIVATION FOR SECURITIZATION AND LOAN SALES
 
-# Decomposition of the Lending Function
+### Decomposition of the Lending Function
 
 Lending can be decomposed into at least four basic operations: (a) origination (including underwriting), (b) guaranteeing, (c) servicing, and (d) funding. This decomposition was long obscured by the modus operandi of financial institutions, which unified these operations. But there is nothing immutable about this unification. For example, suppose a bank were to specialize in the processing of interest rate and credit risk, along with the provision of brokerage services. It could restrict itself to writing letters of credit and loan commitments, avoiding deposits and earning assets altogether.
 
 So why were these lending functions combined in the first place and why are they being decomposed now? The reasons are twofold: funding advantages due to the regulatory environment and information technology. Let us consider each in turn.
 
-# The Traditional Benefits of Funding Loans
+### The Traditional Benefits of Funding Loans
 
 In earlier times, depository institutions enjoyed an advantage in funding, and they consequently developed the expertise needed to originate and underwrite assets including loans. The funding advantage was a consequence of regulation: deposit interest rate ceilings, underpriced governmental deposit insurance, entry restrictions, and various tax advantages – particularly those related to loan-loss reserves, mutuality, and housing. The resulting rents were shared among depositors, borrowers, and owners/managers of banks and thrifts. This system, introduced in the 1930s following more than a decade of socially disruptive bank failures, was based on an implicit contract between depositors, owners/managers of banks and thrifts, and the government. Depositors agreed to accept a below-market return for their funds in exchange for a government guarantee; the guarantee (deposit insurance) transformed bank and thrift liabilities into contingent claims against the U.S. government. Bankers agreed to accept regulation and supervision in exchange for a subsidy that lowered the cost and extended the duration of deposits. The government accepted a residual exposure (on behalf of the taxpayers) under the deposit guarantee in exchange for the political gains from stability in the banking system.
 
@@ -95,7 +153,7 @@ We will solve this problem in three steps. First, we will show that if North Ame
 First, we compute the value of the "pooled" portfolio, that is, the price at which the bank can sell or securitize the portfolio without any information communication. Given risk neutrality, the bank offering portfolio A will be able to sell it for the average of the values of portfolios A and B, that is, at
 
 $$
-\begin{array}{l} 0. 5 \left[ 0. 9 \times 1 0 0 + 0. 1 \times 3 0 \right] \quad + \quad 0. 5 \left[ 0. 7 \times 1 0 0 + 0. 3 \times 3 0 \right] \\ (\text{ex pe ct ed} \quad \text{va lu eo f} \quad \text{lo an po rt if io} \quad A) \quad (\text{ex pe ct ed} \quad \text{va lu eo f} \quad \text{lo an po rt if io} \quad B) \\ = 0. 5 [ 9 3 ] + 0. 5 [ 7 9 ] = \$ 8 6. \\ \end{array}
+\begin{array}{l} 0.5 \left[ 0.9 \times 100 + 0.1 \times 30 \right] \quad + \quad 0.5 \left[ 0.7 \times 100 + 0.3 \times 30 \right] \\ (\text{ex pe ct ed} \quad \text{va lu eo f} \quad \text{lo an po rt if io} \quad A) \quad (\text{ex pe ct ed} \quad \text{va lu eo f} \quad \text{lo an po rt if io} \quad B) \\ = 0.5 [ 93 ] + 0.5 [ 79 ] = \$ 86. \\ \end{array}
 $$
 
 Then, it is apparent that it does not pay for North American to reveal its true portfolio quality to investors, since its net payoff from doing so is  \$93 (the privately known value of its loan portfolio) minus\$ 11 (the cost of information communication), which equals \$82, whereas the "pooling value" of its loan portfolio is \$86. Thus, securitization without communication dominates securitization with communication.
@@ -113,7 +171,7 @@ A more complete discussion of this phenomenon appears in a later section.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/c41d355f-e7c3-4cfc-b661-bc5ac69057be/fc1b7d39805e78198a91bc69e497872121a8998db5cfe41a213815f4a2907fd3.jpg)  
 FIGURE 11.3 Cash-Flow Schematic for a Static Pass-Through.
 
-# DIFFERENT TYPES OF SECURITIZATION CONTRACTS
+## DIFFERENT TYPES OF SECURITIZATION CONTRACTS
 
 Loan-backed securities are collateralized by residential, multifamily, and commercial mortgage loans, automobile loans, credit card receivables, Small Business Administration loans, computer and truck leases, loans for mobile homes, and various finance receivables. There are three basic types of ABS, each of which evolved from the secondary mortgage market.
 
@@ -345,7 +403,7 @@ If North American does not communicate any information to investors, the market 
 Now, North American knows privately that its loan portfolio is worth
 
 $$
-2 [ 0. 9 \times 1 0 0 + 0. 1 \times 5 0 ] = \$ 1 9 0.
+2 [ 0.9 \times 100 + 0.1 \times 50 ] = \$ 190.
 $$
 
 Thus, if it wishes to communicate its private information to investors, it will cost North American 0.05 × 190 = \$9.5. It will then be able to sell its portfolio for \$190 and its net payoff will be $190 - $9.5 = \$180.5. This means that North American will prefer securitization with communication to securitization without.
@@ -402,9 +460,42 @@ Now consider the cash-flow variety issue. Because securitization combines poolin
 
 2. Liquidity: Because of the size of the ABS market and the active trading involved, investors are assured that they are buying a liquid claim. Securitization may be viewed as an alternative technology (to traditional funding) for producing liquidity.[33]
 
-# What? Securitization With Recourse Versus Deposits and Risk Sharing
+## What? Securitization With Recourse Versus Deposits and Risk Sharing
 
-The concept of recourse is key to understanding what securitization does for both the originator and the investor. When securitization is without recourse, the investor has a claim only against the pool of assets that have been securitized. He has no claim to any other assets of the originator. On the other hand, securitization with recourse closely resembles traditional balance sheet lending. The purchaser of a security with recourse has the option of trading the claim for a general bank claim like that of an uninsured depositor should the purchased asset default. If the bank fails, the investor has the option of keeping the securitized asset.
+The concept of recourse is key to understanding what securitization does for both the originator and the investor.
+
+```d2
+direction: right
+
+Bank_Assets: Bank Assets {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
+
+Traditional_Deposits: Traditional Deposits {
+  shape: rectangle
+  style.fill: "#ffebee"
+  label: "Risk-averse depositors\nbear full risk"
+}
+
+Securitized_Bonds: Securitized Bonds {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  label: "Senior claims on\nspecific assets"
+}
+
+Bank_Assets -> Traditional_Deposits: "Prorata claim in bankruptcy"
+Bank_Assets -> Securitized_Bonds: "Senior claim with recourse"
+
+Risk_Sharing: Risk Sharing {
+  shape: diamond
+  style.fill: "#fff3e0"
+  label: "Better risk allocation:\nRisk-neutral parties\nbear more risk"
+}
+
+Traditional_Deposits -> Risk_Sharing: "High risk for risk-averse"
+Securitized_Bonds -> Risk_Sharing: "Lower risk through tranching"
+``` When securitization is without recourse, the investor has a claim only against the pool of assets that have been securitized. He has no claim to any other assets of the originator. On the other hand, securitization with recourse closely resembles traditional balance sheet lending. The purchaser of a security with recourse has the option of trading the claim for a general bank claim like that of an uninsured depositor should the purchased asset default. If the bank fails, the investor has the option of keeping the securitized asset.
 
 In this subsection, we will discuss securitization with recourse. It turns out that the securitization benefits are similar to those created by multiclass securities, in which sequential claims are issued against the same collateral pool. Basically, better risk sharing is achieved, since the most risk-averse investors can be sold the most senior claims. Under current law, banks are not allowed to issue multiclass or senior deposit claims against their balance sheet assets. That is, deposit claims cannot be prioritized. Hence, from the bank's perspective, a valuable opportunity to cater to "preference clientele" among its potential depositor base is lost. However, securitization with recourse gives the bank an opportunity to profit from selectively catering to depositors with different degrees of risk aversion. Uninsured depositors can switch to a contract that gives them a senior claim on a part of the bank's asset portfolio (i.e., the securitized asset). A loan-backed security with a bank guarantee attached (securitization with recourse) is like a large CD with the addition of a senior keeping the securitized security rather than waiting in line with other depositors to obtain his share of the bank's other assets. In a capital market in which people have different degrees of risk aversion, we would expect the more risk-averse investors to buy these securitized claims, and their less risk-averse cohorts to bear more risk. Thus, securitization achieves better risk sharing than the standard deposit contract. This intuition is formalized in the model developed in the box below.[34]
 
@@ -505,7 +596,7 @@ FIGURE 11.10 State-Contingent Payoff to Securitized Bondholder.
 
 Rather than formally prove that securitization with recourse improves the wealth of the bank's shareholders, we will provide a numerical example to make the point. The basic intuition is simply that both the FDIC and the bank's shareholder are risk neutral and hence "better able" to absorb risk than the risk-averse uninsured depositor. Securitization with recourse transfers some risk away from the uninsured depositor to these parties, thereby improving risk sharing. The effect is to reduce the amount that the bank's shareholders must promise to repay the uninsured creditor, which increases the expected value of the shareholders' claim. It also increases the riskiness of their claim, but they do not care about that because they are risk neutral.
 
-# Example 11.3
+### Example 11.3
 
 The North American Bank needs to raise \(50 in financing at the beginning of the period to finance an investment that will yield a random payoff at the end of the period. This payoff has the following probability distribution.
 
@@ -522,7 +613,7 @@ We solve this problem in six steps. First, we consider conventional deposit fina
 Let us consider (i) first. Note that \( d_{\mathrm{i}} = 30 \), \( d_{\mathrm{u}} = 15 \), \( d_{\mathrm{e}} = 5 \), and \( r_{\mathrm{f}} = 0.10 \). Since the claim of insured depositors is riskless, the interest rate on these deposits should be the riskless rate, \( 10\% \). Thus, North American's repayment obligation to these depositors is \( d_{\mathrm{i}}[1 + r_{\mathrm{f}}] = 30[1.1] = \\(33 \). The bank's total repayment obligation to its creditors is \( 33 + B \). To solve for \( B \), we need to conjecture about its value first, so that we can identify the states in which North American is solvent and those in which it is not. Suppose we conjecture that \( 50 < 33 + B < 100 \). Then North American will be insolvent in States 1 and 2, and solvent in States 3 and 4. We now solve for \( B \) using Equation (11.9):
 
 $$
-\begin{array}{c c} \text{ex pe ct ed ut il yp ay of si nS ta te s1 an d2} & \text{ex pe ct ed ut il yp ay of si nS ta te s3 an d4} \\ \downarrow & \downarrow \\ 0. 2 5 \sqrt{\left[ \frac{B}{B + 3 3} \right] \times 5 0} & + \quad 0. 5 \sqrt{B} = \sqrt{1 . 1 \times 1 5}. \end{array}
+\begin{array}{c c} \text{ex pe ct ed ut il yp ay of si nS ta te s1 an d2} & \text{ex pe ct ed ut il yp ay of si nS ta te s3 an d4} \\ \downarrow & \downarrow \\ 0.25 \sqrt{\left[ \frac{B}{B + 33} \right] \times 50} & + \quad 0. 5 \sqrt{B} = \sqrt{1.1 \times 15}. \end{array}
 $$
 
 Solving this equation gives  $B = \\(32$ , approximately. This means our conjecture is valid and that  $B + 33 = \$ 65 \).
@@ -532,7 +623,7 @@ Solving this equation gives  $B = \\(32$ , approximately. This means our conject
 Next we solve for the insurance premium using Equation (11.7).
 
 $$
-\pi = \frac{1}{1 . 1} \left\{0. 2 5 \times 3 3 + 0. 2 5 \left[ 3 3 - \left(\frac{3 3}{6 5} \times 5 0\right) \right] \right\} = \$ 9. 2 3.
+\pi = \frac{1}{1.1} \left\{0.25 \times 33 + 0.25 \left[ 33 - \left(\frac{33}{65} \times 50\right) \right] \right\} = \$ 9.23.
 $$
 
 # Step 3
@@ -540,13 +631,13 @@ $$
 Further, since North American's shareholders receive something only in the solvency States (3 and 4), the expected value of the payoff for shareholders is
 
 $$
-E [ S (\theta) ] = 0. 2 5 [ 1 0 0 - 6 5 ] + 0. 2 5 [ 1 5 0 - 6 5 ] = \$ 3 0.
+E [ S (\theta) ] = 0.25 [ 100 - 65 ] + 0.25 [ 150 - 65 ] = \$ 30.
 $$
 
 Thus, the NPV of North American's shareholders is given by Equation (11.8) as
 
 $$
-N P V = \frac{3 0}{1 . 1} - 9. 2 3 - 5 = \$ 1 3. 0 4.
+N P V = \frac{30}{1.1} - 9. 2 3 - 5 = \$ 1 3. 0 4.
 $$
 
 # Step 4
@@ -745,7 +836,7 @@ Langsten: Well, I want the two of you to check into this in detail, particularly
 
 [The meeting ends. Lana Tanner and Hugh Akston start working on the options available to the bank. Tanner will look into various kinds of securitization markets, while Akston will check into accounting and regulatory concerns.]
 
-# The Second Meeting
+## The Second Meeting
 
 Langsten: Well, Lana, you were going to look into the possibility of more direct securitization. Do you think we could package several of our loans into a pool for sale as asset-backed bonds?
 
@@ -765,7 +856,7 @@ Akston: Well, one thing is clear. Unless we are willing to sell these loans at h
 
 Langston: O.K. Well, here's what I'd like the two of you to do. We've discussed a lot of different options for the bank, but it is time to act. I'd like you to work together and systematically examine each of the options we've mentioned as well as any others you can think of. Report back to me what the pros and cons are of each approach, and give me your final recommendation about which policy would be best for us.
 
-# The Assignment
+## The Assignment
 
 Present the pros and cons of each approach mentioned in the case, being sure to cover the issues of fundamental importance. Try to think creatively about alternative solutions to come up with something potentially better for the bank.
 
@@ -783,16 +874,16 @@ Construction/Real Estate Development Loans</td></tr><tr><td></td><td>2000</td><t
 <table><tr><td colspan="2">Exhibit D
 Estimated Loan Sale Values</td></tr><tr><td colspan="2">Estimated values based on a static pass-through \$20 million face value pool. Market values are based on an average of estimates obtained from investment bankers contacted.</td></tr><tr><td>True value (NPV of estimated future cash flows):</td><td>\$17,200,000</td></tr><tr><td>Loan sale without recourse (no credit enhancements):</td><td>\$16,100,000</td></tr><tr><td>Loan sale with full recourse:</td><td>\$17,200,000</td></tr><tr><td>Loan sale without recourse (with credit enhancements with a cost of $700,000):</td><td>$17,100,000</td></tr></table>
 
-# Exhibit E
+## Exhibit E
 
-# Customer Profiles
+### Customer Profiles
 
 <table><tr><td>Company name</td><td>Sales</td><td>Employees (Millions of dollars)</td><td>D/A</td><td>ROA</td><td>P/E</td></tr><tr><td>Gell Microsystems</td><td>523</td><td>2100</td><td>0.40</td><td>0.21</td><td>23</td></tr><tr><td>Encore Systems</td><td>215</td><td>1450</td><td>0.80</td><td>0.19</td><td>*</td></tr><tr><td>Southgate Comp. Systems</td><td>207</td><td>934</td><td>0.67</td><td>0.23</td><td>31</td></tr><tr><td>Texlon</td><td>185</td><td>1200</td><td>0.32</td><td>0.13</td><td>18</td></tr><tr><td>ZEON</td><td>127</td><td>600</td><td>0.87</td><td>0.29</td><td>42</td></tr></table>
 
 Note: D/A is debt/total assets in book value terms. ROA is return on assets. P/E is the ratio of stock price to reported earnings.  
 *Not publicly traded.
 
-# REVIEW QUESTIONS
+## REVIEW QUESTIONS
 
 1. What are the similarities and the differences between loan sales and securitization?  
 2. What are the four basic components of a lending transaction? Why were these unified in the first place and why are they being decomposed now through securitization?  

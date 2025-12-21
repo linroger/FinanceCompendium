@@ -1,9 +1,26 @@
 ---
 aliases:
   - Subject Index
-tags:
-key_concepts:
 parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Back Matter
+formatted: 2025-12-21 12:30:00 PM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
+primary_tags:
+  - investment analysis
+  - portfolio management
+  - financial markets
+  - asset pricing
+secondary_tags:
+  - abnormal returns
+  - active portfolio management
+  - alternative assets
+  - arbitrage pricing theory
+  - behavioral finance
+  - bond pricing
+  - capital asset pricing model
+  - derivative securities
+  - efficient market hypothesis
+  - equity valuation
 cssclasses: academia
 title: "Subject Index"
 ---
@@ -12,13 +29,7 @@ title: "Subject Index"
 
 # A
 
-Abnormal return cumulative abnormal return, 343, 353, 363
-
-
-event studies, 352 to infer damages, 354
-
-
-market model to estimate, 352
+Abnormal return cumulative abnormal return, 343, 353, 363 event studies, 352 to infer damages, 354 market model to estimate, 352
 
 Accounting earnings, 630
 
@@ -34,16 +45,7 @@ Accumulation phase, 980
 
 Acid test ratio, 645
 
-Active bond management hedging interest rate risk, 804-806
-
-
-horizon analysis, 538 intermarket spread swap, 537
-
-
-potential profit, sources of, 536-538 pure yield pickup swap, 537-538
-
-
-rate anticipation swap, 537 substitution swap, 537
+Active bond management hedging interest rate risk, 804-806 horizon analysis, 538 intermarket spread swap, 537 potential profit, sources of, 536-538 pure yield pickup swap, 537-538 rate anticipation swap, 537 substitution swap, 537
 
 
 Active investment strategy, 509
@@ -52,26 +54,7 @@ Active management, 12
 
 Active portfolio, 269, 271, 936
 
-Active portfolio management alphas values, forecasts of, 936-940
-
-Black-Litterman model, 946-951
-
-Excel spreadsheet, 937 extreme portfolio weights, 936-940
-
-
-forecast precision, 942-945 information ratio and, 954
-
-
-manager's private views, 948 market timing, 845-850
-
-
-optimal portfolios and alpha values, 935-941 passive portfolio management vs., 349-350
-
-
-potential fees estimation, 953-954 restriction of tracking risk, 940-941
-
-
-Treynor-Black vs. Black-Litterman, 951-53 value of, 953-955
+Active portfolio management alphas values, forecasts of, 936-940 Black-Litterman model, 946-951 Excel spreadsheet, 937 extreme portfolio weights, 936-940 forecast precision, 942-945 information ratio and, 954 manager's private views, 948 market timing, 845-850 optimal portfolios and alpha values, 935-941 passive portfolio management vs., 349-350 potential fees estimation, 953-954 restriction of tracking risk, 940-941 Treynor-Black vs. Black-Litterman, 951-53 value of, 953-955
 
 
 Active weight, 852
@@ -87,7 +70,7 @@ Adjusted beta, 266
 
 Adjusting returns for risk, 829-830
 
-After-taxreturns,461-462
+After-tax returns, 461-462
 
 Agency problems, 8, 45
 
@@ -97,25 +80,7 @@ All dividends to net profits, 597
 
 Allowance for bad debt, 656
 
-Alpha adjusted alpha, 943
-
-
-adjusting forecasts for precision, 942-943 distribution of alpha values, 943-944
-
-
-estimate of, 262-263 forecasts and extreme portfolio weights, 936-940
-
-
-forecasts and realizations of, 954-955 optimal portfolios and, 935-941
-
-
-in performance measures, 835-836 portable alpha, 903-905
-
-
-positive-alpha stock, 293 security analysis and, 268-269
-
-
-transfer, 904
+Alpha adjusted alpha, 943 adjusting forecasts for precision, 942-943 distribution of alpha values, 943-944 estimate of, 262-263 forecasts and extreme portfolio weights, 936-940 forecasts and realizations of, 954-955 optimal portfolios and, 935-941 in performance measures, 835-836 portable alpha, 903-905 positive-alpha stock, 293 security analysis and, 268-269 transfer, 904
 
 Alpha seeking, 895
 
@@ -123,55 +88,7 @@ Alpha transfer, 904
 
 Alpha values, 937
 
-Alternative assets, 895-928 alternative investment funds, 916-925
-
-
-angel investors, 905-906 backfill bias, 918
-
-
-in diversified portfolios, 898 efficientfrontier,925
-
-
-fee structure in, 898, 926-928 fund life cycle, 908-910
-
-
-funds of funds, 927-928 growth of, 898-899
-
-
-hedge funds, 896, 900-905 historical hedge fund performance, 919-921
-
-
-historical performance of private equity, 923-925 incentive fees, 926-927
-
-
-investment horizon, 898 investment strategies, 897
-
-
-investors, 897 leveraged buyout funds, 913-916
-
-
-liquidity, 897, 916-918 private equity and, 896
-
-
-private equity chasing waterfalls,927 private equity valuation, 910-911
-
-
-real assets, 896 rise of (2000-2021), 899
-
-
-structured products, 896 style analysis, 921-923
-
-
-survivorship bias, 918 tail events, 918-919
-
-
-traditional assets vs., 897-898 transparency, 897
-
-
-universe, 896 venture capital, 906-908
-
-
-venture syndication, 911-912
+Alternative assets, 895-928 alternative investment funds, 916-925 angel investors, 905-906 backfill bias, 918 in diversified portfolios, 898 efficient frontier, 925 fee structure in, 898, 926-928 fund life cycle, 908-910 funds of funds, 927-928 growth of, 898-899 hedge funds, 896, 900-905 historical hedge fund performance, 919-921 historical performance of private equity, 923-925 incentive fees, 926-927 investment horizon, 898 investment strategies, 897 investors, 897 leveraged buyout funds, 913-916 liquidity, 897, 916-918 private equity and, 896 private equity chasing waterfalls, 927 private equity valuation, 910-911 real assets, 896 rise of (2000-2021), 899 structured products, 896 style analysis, 921-923 survivorship bias, 918 tail events, 918-919 traditional assets vs., 897-898 transparency, 897 universe, 896 venture capital, 906-908 venture syndication, 911-912
 
 Alternative Trading Systems (ATS), 73
 
@@ -185,10 +102,7 @@ Angel investors, 16, 896, 905-906
 
 Annualized rates of return, 126
 
-Annual percentage rate (APR), 127 bondequivalentyield,38
-
-
-continuous compounding, 127-128 effective annual rate (EAR) vs., 127
+Annual percentage rate (APR), 127 bond equivalent yield, 38 continuous compounding, 127-128 effective annual rate (EAR) vs., 127
 
 
 Annuity factor, 447
@@ -200,30 +114,7 @@ Anticipating, 89
 
 Appraisal ratio, 272n, 831
 
-Arbitrage bond stripping/reconstitution, 483
-
-
-closed-end funds, 391 convertible bond arbitrage, 901
-
-
-covered interest arbitrage, 794-796 cross-market arbitrage, 903
-
-
-equity carve-outs, 390 explanation of, 319
-
-
-fundamental risk, 388-389 futures markets, 779
-
-
-implementation costs, 389 index arbitrage, 801-802
-
-
-limits to, 388-392 mispricing and, 328
-
-
-model risk, 389
-
-"Siamese twin" companies, 389-390 statistical arbitrage, 902-903
+Arbitrage bond stripping/reconstitution, 483 closed-end funds, 391 convertible bond arbitrage, 901 covered interest arbitrage, 794-796 cross-market arbitrage, 903 equity carve-outs, 390 explanation of, 319 fundamental risk, 388-389 futures markets, 779 implementation costs, 389 index arbitrage, 801-802 limits to, 388-392 mispricing and, 328 model risk, 389 "Siamese twin" companies, 389-390 statistical arbitrage, 902-903
 
 
 Arbitrage activity, 319
@@ -245,26 +136,7 @@ Asian options, 702
 
 Ask price, 32, 68
 
-Asset allocation, 10, 973-975
-
-Black-Litterman model, 946-951 definition of, 31
-
-
-investment decision and, 201
-
-Markowitz portfolio optimization model, 224 monitoring and revising portfolio, 975
-
-
-performance attribution procedures, 851-852 security selection and, 224, 974
-
-
-steps, 973 with stocks, bonds, and bills, 211-216
-
-
-synthetic stock positions, 800-801 top-down, for institutional investors, 973-975
-
-
-with two risky asset classes, 211-216
+Asset allocation, 10, 973-975 Black-Litterman model, 946-951 definition of, 31 investment decision and, 201 Markowitz portfolio optimization model, 224 monitoring and revising portfolio, 975 performance attribution procedures, 851-852 security selection and, 224, 974 steps, 973 with stocks, bonds, and bills, 211-216 synthetic stock positions, 800-801 top-down, for institutional investors, 973-975 with two risky asset classes, 211-216
 
 Asset-backed commercial paper, 33
 
@@ -272,53 +144,12 @@ Asset-backed securities, 43-44 amount outstanding, 44
 
 Asset plays, 573
 
-Asset pricing consumption-based asset pricing, 429-435
+Asset pricing consumption-based asset pricing, 429-435 liquidity and, 427-429 two-pass tests of, 410-415
+
+Asset pricing models. See also Arbitrage pricing theory (APT) CAPM and, 326 to cost of capital, 329 description of, 315, 318 diversification in single-factor security market, 319-320 equilibrium and, 319-325 Fama-French (FF) three-factor model, 329-333 individual assets and, 324-325 multifactor APT, 326-329 risk arbitrage and, 319-325 security market line of, 322-325 well-diversified portfolios, 320-322, 325
 
 
-liquidity and, 427-429 two-pass tests of, 410-415
-
-
-Asset pricing models. See also Arbitrage pricing theory (APT)
-
-CAPM and, 326 to cost of capital, 329
-
-
-description of, 315, 318 diversification in single-factor security market, 319-320
-
-
-equilibrium and, 319-325
-
-Fama-French (FF) three-factor model, 329-333 individual assets and, 324-325
-
-
-multifactor APT, 326-329 risk arbitrage and, 319-325
-
-
-security market line of, 322-325 well-diversified portfolios, 320-322, 325
-
-
-Assets allocation, 105
-
-
-alternative, 895-928 asset-backed bonds, 445
-
-
-derivative assets, 54 financial vs. real assets, 2-3
-
-
-individual assets, 292, 324-325 intangible fixed asset, 631
-
-
-nontraded assets, 296-298 off-balance-sheet assets, 657
-
-
-real assets, 2-3, 896 risk-free asset, 176-179
-
-
-tangible fixed assets, 631 traditional vs. alternative assets, 897-898
-
-
-utilization ratios, 643-645
+Assets allocation, 105 alternative, 895-928 asset-backed bonds, 445 derivative assets, 54 financial vs. real assets, 2-3 individual assets, 292, 324-325 intangible fixed asset, 631 nontraded assets, 296-298 off-balance-sheet assets, 657 real assets, 2-3, 896 risk-free asset, 176-179 tangible fixed assets, 631 traditional vs. alternative assets, 897-898 utilization ratios, 643-645
 
 Asset universe, 974
 
@@ -384,13 +215,7 @@ BATS Global Markets, 74
 
 Bear markets, 881-882
 
-Behavioral biases, 385-388, 394 affect and feelings, 387
-
-
-framing, 385-386 mental accounting, 386
-
-
-prosct theory, 387-388 regret avoidance, 386-387
+Behavioral biases, 385-388, 394 affect and feelings, 387 framing, 385-386 mental accounting, 386 prospect theory, 387-388 regret avoidance, 386-387
 
 
 Behavioral economics, 392-393
@@ -426,8 +251,6 @@ Benchmark choice of, 647-649
 
 
 ratio analysis, 647-649
-
-# Subject Index
 
 Benchmark error, 413
 
@@ -575,73 +398,12 @@ change in yield to maturity, 510 collateralized debt obligations (CDOs), 472-473
 convexity, 520 corporate bonds, 449
 
 
-coupon bond, 483 between coupon dates, 450-452
-
-
-credit default swap (CDS), 470-472 default risk and, 463-473
-
-
-Excel application for, 451 fair holding-period return, 458
-
-
-financial calculator, 448-449 forward rates with interest rate risk, 490
-
-
-and interest rate, 449 interest rate sensitivity, 450
-
-
-over time, 458-462 price/yield relationship, 449
-
-
-yield curve and, 482-484 zero-coupon bonds and treasury strips, 461
+coupon bond, 483 between coupon dates, 450-452 credit default swap (CDS), 470-472 default risk and, 463-473 Excel application for, 451 fair holding-period return, 458 financial calculator, 448-449 forward rates with interest rate risk, 490 and interest rate, 449 interest rate sensitivity, 450 over time, 458-462 price/yield relationship, 449 yield curve and, 482-484 zero-coupon bonds and treasury strips, 461
 
 
 Bondreconstitution,483
 
-Bonds. See also Active bond management; Fixed income capital market; Interest rates; Term structure of interest rates; Yield curve asset allocation with, 211-216
-
-
-bulldog bonds, 444 callable bonds, 442
-
-
-characteristics of, 440-446 convertible bonds, 443
-
-
-corporate bonds, 441-443 debenture, 468
-
-
-definition of, 440 description of, 439
-
-
-equipment obligation bond, 468
-
-Eurobonds, 444 floating-rate bonds, 443
-
-
-foreign bonds, 444 innovation in bond market, 444-446
-
-
-international bonds, 444 mortgage bond, 468
-
-
-original-issue-discount bonds, 461 other domestic issuers, 444
-
-
-preferred stock, 443-444 pricing (See Bond pricing)
-
-
-puttable bonds, 443 quoted bond prices, 441
-
-
-Samurai bonds, 444 scenario analysis for, 243, 245
-
-
-secured bonds, 43 treasury bonds and notes, 440-441
-
-
-unsecured bonds, 43
-
-Yankee bonds, 444 zero-coupon bonds, 440
+Bonds. See also Active bond management; Fixed income capital market; Interest rates; Term structure of interest rates; Yield curve asset allocation with, 211-216 bulldog bonds, 444 callable bonds, 442 characteristics of, 440-446 convertible bonds, 443 corporate bonds, 441-443 debenture, 468 definition of, 440 description of, 439 equipment obligation bond, 468 Eurobonds, 444 floating-rate bonds, 443 foreign bonds, 444 innovation in bond market, 444-446 international bonds, 444 mortgage bond, 468 original-issue-discount bonds, 461 other domestic issuers, 444 preferred stock, 443-444 pricing (See Bond pricing) puttable bonds, 443 quoted bond prices, 441 Samurai bonds, 444 scenario analysis for, 243, 245 secured bonds, 43 treasury bonds and notes, 440-441 unsecured bonds, 43 Yankee bonds, 444 zero-coupon bonds, 440
 
 
 Bond safety, determinants of, 465-466
@@ -661,15 +423,7 @@ Bookbuilding, 64
 
 Book-to-market (B/M) ratio, 152, 361-362
 
-Book value, 646 description of, 584
-
-
-limitations of, 584-585 liquidation value, 585
-
-
-replacement cost, 585
-
-Tobin's  $q$  , 585
+Book value, 646 description of, 584 limitations of, 584-585 liquidation value, 585 replacement cost, 585 Tobin's $q$, 585
 
 Bordered covariance, 204
 
@@ -693,13 +447,7 @@ Bullish spread, 689, 690
 
 Burn rates, 909
 
-Business cycles, 560-563 definition of, 560
-
-
-Peak, 560 sensitivity to, 567-569
-
-
-stylized depiction of, 570
+Business cycles, 560-563 definition of, 560 Peak, 560 sensitivity to, 567-569 stylized depiction of, 570
 
 # C
 
@@ -707,105 +455,24 @@ Calendar spread, 777
 
 California Public Employee Retirement System (CalPERS), 832
 
-Callable bonds, 43, 442, 694-695 corporate bonds, 43
+Callable bonds, 43, 442, 694-695 corporate bonds, 43 duration and convexity of, 522-524 explanation of, 694-695 price-yield curve, 523 values vs. straight bonds, 694
 
 
-duration and convexity of, 522-524 explanation of, 694-695
-
-
-price-yield curve, 523 values vs. straight bonds, 694
-
-
-Call option covered calls, 685-687
-
-
-definition, 673 determinants of value, 716-718
-
-
-dividends and, 737 early exercise and dividends, 720
-
-
-hedge ratio and, 739 incentive fees as, 926
-
-
-profits and losses on, 674 restrictions on value of, 719-720
-
-
-values at expiration, 679-680 values before expiration, 717
-
-
-valuing market timing as, 848-849
+Call option covered calls, 685-687 definition, 673 determinants of value, 716-718 dividends and, 737 early exercise and dividends, 720 hedge ratio and, 739 incentive fees as, 926 profits and losses on, 674 restrictions on value of, 719-720 values at expiration, 679-680 values before expiration, 717 valuing market timing as, 848-849
 
 Call protection, 695
 
-Callprovisions,442
+Call provisions, 442
 
 CalPERS (California Public Employee Retirement System), 832
 
 Capacity utilization rate, 555
 
-Capital allocation, 181 decisions, 167
+Capital allocation, 181 decisions, 167 investment decision and, 201 Markowitz portfolio optimization model, 220-222 risky and risk-free portfolios, 173-175 and separation property, 220-222
 
+Capital allocation line (CAL), 925, 940 capital market line, 186 efficient diversification, 242 efficient frontier and, 285, 880 indifference curves and, 184 optimal risky portfolio and, 211-212 risky asset and risk-free asset portfolio, 178 S&P 500 index, 186
 
-investment decision and, 201
-
-Markowitz portfolio optimization model, 220-222 risky and risk-free portfolios, 173-175
-
-
-and separation property, 220-222
-
-Capital allocation line (CAL), 925, 940 capital market line, 186
-
-
-efficient diversification, 242 efficientfrontierand,285,880
-
-
-indifference curves and, 184 optimal risky portfolio and, 211-212
-
-
-risky asset and risk-free asset portfolio, 178
-
-S&P 500 index, 186
-
-Capital asset pricing model (CAPM), 910, 947
-
-APT and, 326 assumptions of, 284, 294-304
-
-
-and capital budgeting, 293 consumption-based CAPM, 299-300
-
-
-description of, 283 equity premium puzzle, extensions to, 433-434
-
-
-expected returns on individual securities, 288-291 extensions of, 294-304
-
-
-hedge portfolios, 298-299 hurdlerate,293
-
-
-identical input lists, 295 investment industry and, 305-306
-
-
-issues in testing, 304-305 labor income and nontraded assets, 296-298
-
-
-liquidity and, 300-304 market portfolio, 284-285
-
-
-multiperiod model, 298-299 passive strategy as efficient, 286
-
-
-for regulated utilities, 293 required rate of return, 293
-
-
-risk-free borrowing, 295-296 risk premium of market portfolio, 286-287
-
-
-security market line (SML), 291-293, F-2 single-index market, 294
-
-
-zero-beta model, 295-296
+Capital asset pricing model (CAPM), 910, 947 APT and, 326 assumptions of, 284, 294-304 and capital budgeting, 293 consumption-based CAPM, 299-300 description of, 283 equity premium puzzle, extensions to, 433-434 expected returns on individual securities, 288-291 extensions of, 294-304 hedge portfolios, 298-299 hurdle rate, 293 identical input lists, 295 investment industry and, 305-306 issues in testing, 304-305 labor income and nontraded assets, 296-298 liquidity and, 300-304 market portfolio, 284-285 multiperiod model, 298-299 passive strategy as efficient, 286 for regulated utilities, 293 required rate of return, 293 risk-free borrowing, 295-296 risk premium of market portfolio, 286-287 security market line (SML), 291-293, F-2 single-index market, 294 zero-beta model, 295-296
 
 Capital budgeting, 293
 
@@ -813,10 +480,7 @@ Capital gains, 46
 
 Capital market(s), 6, 31
 
-Capital market line (CML) description of, 186
-
-
-efficientfrontierand,285 passive strategies and, 186-187
+Capital market line (CML) description of, 186 efficient frontier and, 285 passive strategies and, 186-187
 
 
 CAPM. See Capital asset pricing model (CAPM)
@@ -825,10 +489,7 @@ Cash/bond selection, 888
 
 Cash equivalents, 31
 
-Cash flow(s) mortgage pass-through security, 22
-
-
-statement of, 633-634
+Cash flow(s) mortgage pass-through security, 22 statement of, 633-634
 
 Cash flow matching, 535-536
 
@@ -854,16 +515,7 @@ Certainty equivalent rate of return, 169-170
 
 Certificates of deposit (CD), 33, 965
 
-CFA (Chartered Financial Analysts) Institute individual investors, 962-965
-
-
-investment management process, 959-962 investor constraints, 966-968
-
-
-investor objectives, 962-965 policy statements, 969-973
-
-
-standards of professional conduct, 91
+CFA (Chartered Financial Analysts) Institute individual investors, 962-965 investment management process, 959-962 investor constraints, 966-968 investor objectives, 962-965 policy statements, 969-973 standards of professional conduct, 91
 
 Chartists, 347
 
@@ -926,35 +578,18 @@ limited liability, 45 as ownership shares, 44-45
 
 residual claim, 45
 
-Comparability problems, 652-658 accountingpractices,655-657
-
-
-depreciation, 653 fair value accounting, 654-655
-
-
-inflation and interest expense, 653-654 international accounting conventions, 657-658
-
-
-inventory valuation, 652-653 quality of earnings, 655-657
+Comparability problems, 652-658 accounting practices, 655-657 depreciation, 653 fair value accounting, 654-655 inflation and interest expense, 653-654 international accounting conventions, 657-658 inventory valuation, 652-653 quality of earnings, 655-657
 
 
 Comparative valuation ratio, 609
 
 Comparison universe, 829
 
-Competition
-
-Porter's five determinants of, 573-574 rivalry between competitors, 573
-
-
-as source of efficiency, 343-345
+Competition Porter's five determinants of, 573-574 rivalry between competitors, 573 as source of efficiency, 343-345
 
 Complete portfolio, 174-178, 213-214
 
-Compounding continuous, 127-128, 130n
-
-
-formulas, F-2
+Compounding continuous, 127-128, 130n formulas, F-2
 
 Compound leverage factor, 641, 648
 
@@ -1150,7 +785,7 @@ Days sales in receivables, 644, 648
 
 Dealer markets, 68, 71
 
-Debenturedbonds,468
+Debenture bonds, 468
 
 Debentures, 43
 
@@ -1168,7 +803,7 @@ Default risk bond pricing and, 463-473
 corporate bonds, 42 default premium and, 469
 yield to maturity and, 468-470
 
-Defensiveindustries,560
+Defensive industries, 560
 
 Deferred annuities, 980-981
 
@@ -1236,49 +871,16 @@ Distressed event driven, 900
 
 Distressed-firm funds, 922
 
-Distributedledger,17
+Distributed ledger, 17
 
 Distribution of alpha values, 943-944
 
 Diversifiable risk, 203, 260, 272
 
-Diversification, 12, 100 description of, 202 diversifiable risk, 203 efficient, 201-210, 203, 238-242 firm-specific risk, 203 insurance principle and, 203 market risk, 203
+Diversification, 12, 100 description of, 202 diversifiable risk, 203 efficient, 201-210, 203, 238-242 firm-specific risk, 203 insurance principle and, 203 market risk, 203 naive, 202 nondiversifiable risk, 203 nonsystematic risk, 203 and portfolio risk, 202-203 power of, 222-224 in single-factor security market, 319-320 single-index model and, 259-260 systematic risk, 203 time diversification, 226-227 unique risk, 203 well-diversified portfolios, 320-322, 325
 
 
-naive, 202 nondiversifiable risk, 203
-
-
-nonsystematic risk, 203 and portfolio risk, 202-203
-
-
-power of, 222-224 in single-factor security market, 319-320
-
-
-single-index model and, 259-260 systematic risk, 203 time diversification, 226-227
-
-
-unique risk, 203 well-diversified portfolios, 320-322, 325
-
-
-Dividend discount model (DDM), 432, 587-600 constant-growth (Gordon model) DDM, 588-591, F-3
-
-
-convergence of price to intrinsic value, 592 description of, 587-588
-
-
-dividend payout ratio, 593 earnings retention ratio, 593
-
-
-formula of, F-3 life cycles and multistage growth models, 595-599
-
-
-P/E analysis and, 609 plowback ratio, 593
-
-
-preferred stock and, 589 stock prices and investment opportunities, 592-595
-
-
-sustainable growth rate, 593
+Dividend discount model (DDM), 432, 587-600 constant-growth (Gordon model) DDM, 588-591, F-3 convergence of price to intrinsic value, 592 description of, 587-588 dividend payout ratio, 593 earnings retention ratio, 593 formula of, F-3 life cycles and multistage growth models, 595-599 P/E analysis and, 609 plowback ratio, 593 preferred stock and, 589 stock prices and investment opportunities, 592-595 sustainable growth rate, 593
 
 Dividend payout ratio, 593
 
@@ -1306,28 +908,12 @@ Doubling option, 467
 
 Dow Jones Industrial Average (DJIA), 47-50
 
-# Subject Index
-
 DuPont system, 639, 649
 
-Duration of callable bonds, 522-524
+Duration of callable bonds, 522-524 description of, 513-515 determinants of, 516-519 effective duration, 523-524 formulas, F-2 interest rate risk, 513-516 Macaulay's duration, 513 modified duration, 515 of mortgage-backed securities, 524-527 rules for, 516-518
 
 
-description of, 513-515 determinants of, 516-519
-
-
-effective duration, 523-524 formulas, F-2
-
-
-interest rate risk, 513-516
-
-Macaulay's duration, 513 modifiedduration,515
-
-
-of mortgage-backed securities, 524-527 rules for, 516-518
-
-
-Dynamichedging,730,742
+Dynamic hedging, 730, 742
 
 Dynamic process, 975
 
@@ -1413,49 +999,41 @@ active vs. passive portfolio management, 349-350 anomaliestovertime,367
 book-to-market ratios, 361-362 competition as source, 343-345
 
 
-data mining and, 366-367 definition, 343
+data mining and, 366-367; definition, 343
+
+efficient markets, 342-346; event studies, 351-354
 
 
-efficient markets, 342-346 event studies, 351-354
+fundamental analysis, 348-349; implications of, 346-351
 
-
-fundamental analysis, 348-349 implications of, 346-351
-
-
-issues of, 354-355 lucky event issue, 355
-
+issues of, 354-355; lucky event issue, 355
 
 magnitude issue, 354-355
 
 Moneyball and, 348 mutual fund managers, 369-373
 
 
-neglected-firm and liquidity effects, 360-361 portfolio management in, 350-351
+neglected-firm and liquidity effects, 360-361; portfolio management in, 350-351
+
+post-earnings-announcement price drift, 362-363; predictions by, 381
 
 
-post-earnings-announcement price drift, 362-363 predictions by, 381
+predictors of broad market returns, 359; predictors of stock returns, 363-364
+
+random walks and, 342-346; resource allocation, 351
 
 
-predictors of broad market returns, 359 predictors of stock returns, 363-364
+returns over long horizons, 357-359; returns over short horizons, 356-357
+
+risk premiums/inefficiencies, 365-366; selection bias issue, 355
 
 
-random walks and, 342-346 resource allocation, 351
+semistrong-test, 346; small-firm effect, 360
+
+stock market analysts, 368-369; strong-form, 346, 359-365
 
 
-returns over long horizons, 357-359 returns over short horizons, 356-357
-
-
-risk premiums/inefficiencies, 365-366 selection bias issue, 355
-
-
-semistrong-test, 346 small-firm effect, 360
-
-
-stock market analysts, 368-369 strong-form, 346, 359-365
-
-
-technical analysis, 346-348 versions of, 345-346
-
+technical analysis, 346-348; versions of, 345-346
 
 weak-form, 345, 356-359
 
@@ -1488,8 +1066,7 @@ Empirical evidence market index, 412-413
 measurement error in beta, 413-415 on options valuation, 750-751
 
 
-on security returns, 409-435 single-factorSML,410-412
-
+on security returns, 409-435; single-factor SML, 410-412
 
 two-pass tests of asset pricing, 410-415
 
@@ -2155,8 +1732,6 @@ GameStop short squeeze, 86-87
 
 Gamma, 748
 
-# Subject Index
-
 Generally accepted accounting principles (GAAP), 606, 652
 
 General obligation bonds, 40
@@ -2604,8 +2179,6 @@ International accounting conventions, 657-658 depreciation, 657
 intangibles, 657
 
 International Financial Reporting Standards (IFRS), 658
-
-# Subject Index
 
 International accounting conventions—Cont.
 
@@ -3689,7 +3262,7 @@ Performance evaluation, formulas, F-3
 
 Personal trusts, 963
 
-$p$  -hacking, 427
+$p$-hacking, 427
 
 Plan sponsor, 982
 
@@ -3906,8 +3479,6 @@ Price-weighted average, 48, 49
 Primary market, 15, 61, 67
 
 Prime funds, 37, 104
-
-# Subject Index
 
 Prior distribution, 942
 

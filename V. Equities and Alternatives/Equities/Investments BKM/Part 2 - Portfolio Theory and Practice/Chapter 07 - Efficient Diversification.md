@@ -1,16 +1,34 @@
 ---
-aliases:
-  - Efficient Diversification
-tags:
-key_concepts:
-parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 2 - Portfolio Theory and Practice
-cssclasses: academia
 title: "Chapter 7: Efficient Diversification"
+parent_directory: "V. Equities and Alternatives/Equities/Investments BKM/Part 2 - Portfolio Theory and Practice"
+formatted: 2025-12-21 04:35:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - efficient diversification
+  - portfolio theory
+  - risk-return optimization
+  - markowitz model
+  - capital allocation line
+secondary_tags:
+  - minimum variance portfolio
+  - efficient frontier
+  - asset allocation
+  - covariance matrix
+  - sharpe ratio
+  - capital market line
+  - systematic risk
+  - diversification benefits
+  - portfolio variance
+  - risk-free asset
+  - investment opportunity set
+  - optimal risky portfolio
+cssclasses: academia
 ---
 
 # Efficient Diversification
 
-# 7
+## 7
 
 THE INVESTMENT DECISION can be viewed as a top-down process: (1) capital allocation between the risky portfolio and risk-free assets, (2) asset allocation within the risky portfolio across broad asset classes (e.g., U.S. stocks, international stocks, and long-term bonds), and (3) security selection of individual assets within each asset class.
 
@@ -25,7 +43,7 @@ The portfolios we discuss in this and the following chapters presume a short-ter
 
 In Appendix A, we demonstrate how the optimal risky portfolio can be constructed using Excel. Appendix B provides a review of portfolio statistics with emphasis on the intuition behind covariance and correlation measures. Even if you have had a good quantitative methods course, it may well be worth skimming.
 
-# 7.1 Diversification and Portfolio Risk
+## 7.1 Diversification and Portfolio Risk
 
 Suppose your portfolio is composed of only one stock, say, Digital Computer Corp. What would be the sources of risk to this "portfolio"? You might think of two broad sources of uncertainty. First, there is the risk that comes from conditions in the general economy, such as the business cycle, inflation, interest rates, and exchange rates. None of these macroeconomic factors can be predicted with certainty, and all affect the rate of return on Digital stock. In addition to these macroeconomic factors, there are firm-specific influences, such as Digital's success in research and development and personnel changes. These factors affect Digital without noticeably affecting other firms in the economy.
 
@@ -33,13 +51,12 @@ Now consider a naïve diversification strategy, in which you include additional 
 
 But why end diversification at only two stocks? If we diversify into many more securities, we continue to spread out our exposure to firm-specific factors, and portfolio volatility should continue to fall. Ultimately, however, even with a large number of stocks, we cannot avoid risk altogether because virtually all securities are affected by the common macroeconomic factors. For example, if all stocks are affected by the business cycle, we cannot avoid exposure to business cycle risk no matter how many stocks we hold.
 
-When all risk is firm-specific, as in Figure 7.1, Panel A, diversification can reduce risk to arbitrarily low levels. The reason is that with all risk sources independent, the exposure to any particular source of risk is reduced to a negligible level. Risk reduction by spreading exposure across many independent risk sources is sometimes called
-
+When all risk is firm-specific, as in Figure 7.1, Panel A, diversification can reduce risk to arbitrarily low levels. The reason is that with all risk sources independent, the exposure to any particular source of risk is reduced to a negligible level. Risk reduction by spreading exposure across many independent risk sources is sometimes called the insurance principle: An insurance company depends on such diversification when it writes many policies insuring against many independent sources of risk, each policy being a small part of the company's overall portfolio. (We discuss the insurance principle in more detail in Section 7.5.)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8c89dd48e522f6f4a8024173d74565e8fc16298acc203af125f9fa7f838b024b.jpg)
 A
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8bf188b3d4f8bd4c297c781a13fa60fc60349e4ead53b1496b3fd98152272072.jpg)
-B the insurance principle: An insurance company depends on such diversification when it writes many policies insuring against many independent sources of risk, each policy being a small part of the company's overall portfolio. (We discuss the insurance principle in more detail in Section 7.5.)
+B
 Figure 7.1 Portfolio risk as a function of the number of stocks in the portfolio. Panel A: All risk is firm specific. Panel B: Some risk is systematic, or marketwide.
 
 Figure 7.2 Portfolio diversification. The average annualized standard deviation of returns of portfolios composed of only one stock selected at random from the NYSE was  $27.8\%$  in the decade ending 2017. Portfolio risk fell rapidly as the number of stocks included in the portfolio increased. In the limit, portfolio risk could be reduced to only  $17.4\%$ .
@@ -51,7 +68,7 @@ When common sources of risk affect all firms, however, even extensive diversific
 
 This analysis is well borne out empirically. Figure 7.2 shows the average standard deviation of equally weighted portfolios constructed by selecting stocks at random as a function of the number of stocks in the portfolio. On average, portfolio risk does fall with diversification, but the power of diversification to reduce risk is limited by systematic sources of risk.
 
-# 7.2 Portfolios of Two Risky Assets
+## 7.2 Portfolios of Two Risky Assets
 
 In the last section we considered naïve diversification using equally weighted portfolios. It is time now to study efficient diversification, whereby we construct risky portfolios to provide the lowest possible risk for any given level of expected return.
 
@@ -98,7 +115,7 @@ Table 7.2 shows how portfolio variance can be calculated from a spreadsheet. Pan
 
 <table><tr><td colspan="3">A. Bordered Covariance Matrix</td></tr><tr><td>Portfolio Weights</td><td>WD</td><td>WE</td></tr><tr><td>WD</td><td>Cov(rD, rD)</td><td>Cov(rD, rE)</td></tr><tr><td>WE</td><td>Cov(rE, rD)</td><td>Cov(rE, rE)</td></tr><tr><td colspan="3">B. Border-Multiplied Covariance Matrix</td></tr><tr><td>Portfolio Weights</td><td>WD</td><td>WE</td></tr><tr><td>WD</td><td>wDwDCov(rD, rD)</td><td>wDwECov(rD, rE)</td></tr><tr><td>WE</td><td>wEWDCov(rE, rD)</td><td>wEWCCov(rE, rE)</td></tr><tr><td>WD + WE = 1</td><td>wDWDCov(rD, rD) + wEWDCov(rE, rD)</td><td>wDWECov(rD, rE) + wEWCCov(rE, rE)</td></tr><tr><td>Portfolio variance</td><td colspan="2">wDwDCov(rD, rD) + wEWDCov(rE, rD) + wDWCCov(rD, rE) + wEWCCov(rE, rE)</td></tr></table>
 
-# Table 7.2
+## Table 7.2
 
 Computation of portfolio variance from the covariance matrix matrix is the covariance matrix with the portfolio weights for each fund placed on the borders, that is, along the first row and column. To find portfolio variance, multiply each element in the covariance matrix by the pair of portfolio weights in its row and column borders. Add up the resultant terms, and you have the formula for portfolio variance given in Equation 7.5.
 
@@ -109,7 +126,7 @@ This procedure works because the covariance matrix is symmetric around the diago
 
 This procedure for computing the variance of a portfolio applies to any number of assets. Example 7.1 applies it to a three-asset portfolio.
 
-# Example 7.1 Volatility of a Three-Asset Portfolio
+## Example 7.1 Volatility of a Three-Asset Portfolio
 
 The following table shows the weights of a portfolio invested in stocks  $X, Y, Z$  (in bold) along with the covariances between the returns on each of those stocks.
 
@@ -123,9 +140,11 @@ $$
 
 Concept Check 7.1 asks you to explore the bordered covariance matrix a bit further.
 
-# Concept Check 7.1 a. First confirm for yourself that our simple rule for computing the variance of a two-asset portfolio from the bordered covariance matrix is consistent with Equation 7.3.
+## Concept Check 7.1
 
-b. Return to Example 7.1. What would be the variance of a portfolio invested in stocks  $X$ ,  $Y$ , and  $Z$  from Example 7.1 with weights .20, .30, and .50 respectively?
+a. First confirm for yourself that our simple rule for computing the variance of a two-asset portfolio from the bordered covariance matrix is consistent with Equation 7.3.
+
+b. Return to Example 7.1. What would be the variance of a portfolio invested in stocks $X$, $Y$, and $Z$ from Example 7.1 with weights .20, .30, and .50 respectively?
 
 Equation 7.3 reveals that variance is reduced if the covariance term is negative. But even if the covariance term is positive, the portfolio standard deviation is still less than the weighted average of the individual security standard deviations, unless the two securities are perfectly positively correlated.
 
@@ -185,7 +204,7 @@ $$
 
 Given this background, we can experiment with different portfolio proportions to observe the effect on expected return and variance. We begin with an example of the calculations we will use in this analysis.
 
-# Example 7.2 Portfolio Risk and Return
+## Example 7.2 Portfolio Risk and Return
 
 We can apply our formulas for expected return and standard deviation to the bond and stock funds whose properties were summarized in Table 7.1. Using these data, the expected return, variance, and standard deviation of the portfolio as a function of the portfolio weights are
 
@@ -205,7 +224,7 @@ The expected return of the portfolio for different proportions invested in bonds
 
 <table><tr><td rowspan="2">wD</td><td rowspan="2">WE</td><td rowspan="2">E(rp)</td><td colspan="4">Portfolio Standard Deviation for Given Correlation</td></tr><tr><td>ρ = -1</td><td>ρ = 0</td><td>ρ = 0.30</td><td>ρ = 1</td></tr><tr><td>0.00</td><td>1.00</td><td>13.00</td><td>20.00</td><td>20.00</td><td>20.00</td><td>20.00</td></tr><tr><td>0.10</td><td>0.90</td><td>12.50</td><td>16.80</td><td>18.04</td><td>18.40</td><td>19.20</td></tr><tr><td>0.20</td><td>0.80</td><td>12.00</td><td>13.60</td><td>16.18</td><td>16.88</td><td>18.40</td></tr><tr><td>0.30</td><td>0.70</td><td>11.50</td><td>10.40</td><td>14.46</td><td>15.47</td><td>17.60</td></tr><tr><td>0.40</td><td>0.60</td><td>11.00</td><td>7.20</td><td>12.92</td><td>14.20</td><td>16.80</td></tr><tr><td>0.50</td><td>0.50</td><td>10.50</td><td>4.00</td><td>11.66</td><td>13.11</td><td>16.00</td></tr><tr><td>0.60</td><td>0.40</td><td>10.00</td><td>0.80</td><td>10.76</td><td>12.26</td><td>15.20</td></tr><tr><td>0.70</td><td>0.30</td><td>9.50</td><td>2.40</td><td>10.32</td><td>11.70</td><td>14.40</td></tr><tr><td>0.80</td><td>0.20</td><td>9.00</td><td>5.60</td><td>10.40</td><td>11.45</td><td>13.60</td></tr><tr><td>0.90</td><td>0.10</td><td>8.50</td><td>8.80</td><td>10.98</td><td>11.56</td><td>12.80</td></tr><tr><td>1.00</td><td>0.00</td><td>8.00</td><td>12.00</td><td>12.00</td><td>12.00</td><td>12.00</td></tr><tr><td></td><td></td><td></td><td colspan="4">Minimum Variance Portfolio</td></tr><tr><td></td><td></td><td>wD</td><td>0.6250</td><td>0.7353</td><td>0.8200</td><td>-</td></tr><tr><td></td><td></td><td>wE</td><td>0.3750</td><td>0.2647</td><td>0.1800</td><td>-</td></tr><tr><td></td><td></td><td>E(rp)</td><td>9.8750</td><td>9.3235</td><td>8.9000</td><td>-</td></tr><tr><td></td><td></td><td>σp</td><td>0.0000</td><td>10.2899</td><td>11.4473</td><td>-</td></tr></table>
 
-# Table 7.3
+## Table 7.3
 
 Expected return and standard deviation with various correlation coefficients
 
@@ -298,13 +317,13 @@ What if our risky assets are still confined to the bond and stock funds, as in t
 Two possible CALs are drawn from the risk-free rate  $(r_f = 5\%)$  to two feasible portfolios. The first possible CAL is drawn through the minimum-variance portfolio  $A$ , which invested  $82\%$  in bonds and  $18\%$  in stocks (Table 7.3, bottom panel, last column). Portfolio  $A$ 's expected return is  $8.90\%$ , and its standard deviation is  $11.45\%$ . With a T-bill rate of  $5\%$ , its Sharpe ratio, which is the slope of the CAL, is
 
 $$
-S _ {A} = \frac {E \left(r _ {A}\right) - r _ {f}}{\sigma_ {A}} = \frac {8 . 9 - 5}{1 1 . 4 5} = . 3 4
+S _ {A} = \frac {E \left(r _ {A}\right) - r _ {f}}{\sigma_ {A}} = \frac {8.9 - 5}{11.45} = .34
 $$
 
 Now consider the CAL that uses portfolio  $B$  instead of  $A$ . Portfolio  $B$  invests  $70\%$  in bonds and  $30\%$  in stocks. Its expected return is  $9.5\%$ , and its standard deviation is  $11.70\%$ . Thus, the Sharpe ratio for portfolio  $B$  is
 
 $$
-S _ {B} = \frac {9 . 5 - 5}{1 1 . 7} = . 3 8
+S _ {B} = \frac {9.5 - 5}{11.7} = .38
 $$ which is higher than the Sharpe ratio provided by the minimum-variance portfolio. Hence, portfolio
 
 
@@ -374,7 +393,7 @@ $$
 This asset allocation produces an optimal risky portfolio whose CAL has a slope (equivalently, Sharpe ratio) of
 
 $$
-S _ {P} = \frac {1 1 - 5}{1 4 . 2} = . 4 2
+S _ {P} = \frac {11 - 5}{14.2} = .42
 $$
 
 In Chapter 6 we found the optimal complete portfolio given an optimal risky portfolio and the CAL generated by a combination of this portfolio and T-bills. Now that we have constructed the optimal risky portfolio,  $P$ , we can use its expected return and volatility along with the individual investor's degree of risk aversion,  $A$ , to calculate the optimal proportion of the complete portfolio to invest in it.
@@ -1030,7 +1049,7 @@ $$ which is less than that of the optimal risky portfolio.
 c. The CAL is the line from the risk-free rate through the optimal risky portfolio. This line represents all efficient portfolios that combine T-bills with the optimal risky portfolio. The slope of the CAL is
 
 $$
-S = \frac {E \left(r _ {P}\right) - r _ {f}}{\sigma_ {P}} = \frac {1 6 . 3 6 - 5}{2 1 . 1 3} = . 5 3 7 6
+S = \frac {E \left(r _ {P}\right) - r _ {f}}{\sigma_ {P}} = \frac {16.36 - 5}{21.13} = .5376
 $$
 
 $d$ . Given a degree of risk aversion,  $A$ , an investor will choose the following proportion,  $y$ , in the optimal risky portfolio (remember to express returns as decimals when using  $A$ ):

@@ -1,18 +1,34 @@
 ---
-parent_directory:
-title: Why Moats
-tags:
-aliases:
-parent_folder: Week 2
-subfolder:
-key_concepts:
+title: "Why Moats Matter"
+parent_directory: "VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 2"
+formatted: "2025-12-21 04:35:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+   - economic moats
+   - competitive advantages
+   - stock valuation
+   - discounted cash flow
+   - moat trends
+secondary_tags:
+   - cost advantage
+   - switching costs
+   - network effect
+   - efficient scale
+   - intangible assets
+   - return on capital
+   - margin of safety
+   - stewardship ratings
+   - fair value estimates
+   - sector analysis
+   - investment philosophy
+   - capital allocation
+   - risk-adjusted returns
+   - morningstar investment framework
 cssclasses: academia
-linter-yaml-title-alias: Why Moats
 ---
 
-# Why Moats
-
-# Matter
+# Why Moats Matter
 
 The Morningstar Approach to Stock Investing
 
@@ -20,225 +36,98 @@ Heather Brilliant and Elizabeth Collins
 
 Wiley
 
-# Contents
-
-Preface ix
-
-Acknowledgments xi
-
-Chapter 1 Guiding Principles of Morningstar's Equity Research 1
-
-Question 1: How Can We Identify Which Businesses Are Great? 2
-
-Question 2: When Is the Best Time to Invest in Great Businesses? 6
-
-Chapter 2 What Makes a Moat? 11
-
-Moat Sources 13
-
-Notes 33
-
-Chapter 3 Why Moat Trends Matter 35
-
-Contributed by Stephen Ellis, a member of Morningstar's Economic Moat Committee and head of Financial Services equity research at Morningstar
-
-Moat Trends and Fundamental Performance 37
-
-Five Key Considerations for Moat Trends 38
-
-vi
-
-# Contents
-
-Intangibles 41
-
-Cost Advantage 44
-
-Switching Costs 47
-
-Network Effect 51
-
-Efficient Scale 54
-
-Best Practices for Moat Trend Analysis 57
-
-# Chapter 4 How Stewardship Affects Economic Moats 61
-
-Contributed by Todd Wenning, who oversees
-
-Morningstar's equity stewardship methodology
-
-Meet Our Stewardship Methodology 62
-
-Drilling Down 63
-
-# Chapter 5 Applying Moats to Dividend Investing 81
-
-Contributed by Josh Peters, director of equity-income
-
-strategy for Morningstar and editor of the Morningstar®
-
-DividendInvestor™ newsletter
-
-Why Dividends Matter 83
-
-Which Dividends? 87
-
-# Chapter 6 The Importance of Valuation 93
-
-Contributed by Joel Bloomer, Matt Coffina, and
-
-Gareth James, members of Morningstar's Moat
-
-Committee and contributors to Morningstar's
-
-valuation methodology
-
-Valuation Concepts 95
-
-Cost of Capital and Returns on Capital 96
-
-Morningstar's Valuation Approach 97
-
-Example: Calculating ROIC 99
-
-Forecasting Future Free Cash Flows 102
-
-The Morningstar RatingTM for Stocks 106
-
-Fair Value Uncertainty and Cost of Equity 107
-
-Notes 111
-
-# Chapter 7 Do Moat Ratings Predict Stock Returns? 113
-
-Contributed by Warren Miller, head of quantitative research at Morningstar
-
-# Chapter 8 Putting Moat and Valuation to Work: Portfolio Strategies
-
-121
-
-Wide Moat Focus Index 121
-
-The Tortoise and Hare Portfolios 124
-
-# Chapter 9 Basic Materials
-
-129
-
-Commodity Manufacturers 130
-
-Commodity Processors 133
-
-Metals and Mining 135
-
-# Chapter 10 Consumer
-
-139
-
-Beverages 140
-
-Consumer Products 141
-
-Tobacco 143
-
-Restaurants 144
-
-Retail Defensive 146
-
-Specialty Retail 148
-
-Lodging 149
-
-Notes 151
-
-# Chapter 11 Energy
-
-153
-
-Oil and Gas Drilling 154
-
-Oil and Gas Exploration and Production 156
-
-Oil and Gas Midstream 158
-
-Refining 159
-
-Oil and Gas Integrateds 161
-
-Engineering Services 163
-
-# Chapter 12 Financial Services
-
-167
-
-Banks 168
-
-Capital Markets 170
-
-Credit Services 172
-
-Financial Exchanges 173
-
-Insurance 174
-
-# Chapter 13 Healthcare
-
-177
-
-Pharmaceuticals 178
-
-Biotechnology 180
-
-viii
-
-# Contents
-
-Medical Devices 182
-
-Medical Instruments and Supplies 184
-
-Diagnostics and Research 185
-
-# Chapter 14 Industrials 187
-
-Railroads 188
-
-Airport Operators 190
-
-Aerospace and Defense 191
-
-Trucking and Marine Shipping 192
-
-Waste Management 193
-
-Heavy Equipment 195
-
-Diversified Industrials 197
-
-# Chapter 15 Technology 199
-
-Consumer Technology 200
-
-Enterprise Hardware Systems 202
-
-IT Services 203
-
-Semiconductors 205
-
-Software 207
-
-Telecom Services 209
-
-# Chapter 16 Utilities 211
-
-Regulated and Diversified Utilities 212
-
-Independent Power Producers 214
-
-About the Authors 217
-
-Index 221
+**Contents**
+
+- Preface
+- Acknowledgments
+- Chapter 1: Guiding Principles of Morningstar's Equity Research
+- Question 1: How Can We Identify Which Businesses Are Great?
+- Question 2: When Is the Best Time to Invest in Great Businesses?
+- Chapter 2: What Makes a Moat?
+- Moat Sources
+- Notes
+- Chapter 3: Why Moat Trends Matter
+- Moat Trends and Fundamental Performance
+- Five Key Considerations for Moat Trends
+- Intangibles
+- Cost Advantage
+- Switching Costs
+- Network Effect
+- Efficient Scale
+- Best Practices for Moat Trend Analysis
+- Chapter 4: How Stewardship Affects Economic Moats
+
+- Meet Our Stewardship Methodology
+- Drilling Down
+- Chapter 5: Applying Moats to Dividend Investing
+- Why Dividends Matter
+- Which Dividends?
+- Chapter 6: The Importance of Valuation
+- Valuation Concepts
+- Cost of Capital and Returns on Capital
+- Morningstar's Valuation Approach
+- Example: Calculating ROIC
+- Forecasting Future Free Cash Flows
+- The Morningstar Rating™ for Stocks
+- Fair Value Uncertainty and Cost of Equity
+- Notes
+- Chapter 7: Do Moat Ratings Predict Stock Returns?
+
+- Chapter 8: Putting Moat and Valuation to Work: Portfolio Strategies
+- Wide Moat Focus Index
+- The Tortoise and Hare Portfolios
+- Chapter 9: Basic Materials
+- Commodity Manufacturers
+- Commodity Processors
+- Metals and Mining
+- Chapter 10: Consumer
+- Beverages
+- Consumer Products
+- Tobacco
+- Restaurants
+- Retail Defensive
+- Specialty Retail
+- Lodging
+- Notes
+- Chapter 11: Energy
+- Oil and Gas Drilling
+- Oil and Gas Exploration and Production
+- Oil and Gas Midstream
+- Refining
+- Oil and Gas Integrateds
+- Engineering Services
+- Chapter 12: Financial Services
+- Banks
+- Capital Markets
+- Credit Services
+- Financial Exchanges
+- Insurance
+- Chapter 13: Healthcare
+- Pharmaceuticals
+- Biotechnology
+- Medical Devices
+- Medical Instruments and Supplies
+- Diagnostics and Research
+- Chapter 14: Industrials
+- Railroads
+- Airport Operators
+- Aerospace and Defense
+- Trucking and Marine Shipping
+- Waste Management
+- Heavy Equipment
+- Diversified Industrials
+- Chapter 15: Technology
+- Consumer Technology
+- Enterprise Hardware Systems
+- IT Services
+- Semiconductors
+- Software
+- Telecom Services
+- Chapter 16: Utilities
+- Regulated and Diversified Utilities
+- Independent Power Producers
+- About the Authors
+- Index
 
 # Preface
 
@@ -315,47 +204,45 @@ sufficient returns for two competing transmission owners. In addition, ITC benef
 
 Contrast this with no-moat ethanol firms like Pacific Ethanol, VeraSun Energy, and Aventine Renewable Energy that boomed and then quickly busted in the past decade. The ethanol frenzy rose to a fever pitch in mid-2006, fueled by waves of government support and hotly anticipated IPOs. Two years later, investors in the corn-based fuel product were left with billions of dollars in losses as lofty expectations of this "wonder product" failed to pan out. This disappointment exemplifies an industry where it's virtually impossible for a company to earn a moat, while it's easy for new ethanol firms to enter, and hard for any single firm to establish a cost advantage, causing eventual oversupply and weak or nonexistent profits for all players.
 
-# Moat Sources
+## Moat Sources
 
 Over years of studying companies, we have identified five major sources of competitive advantage, or economic moat. We discuss each source in depth in the next chapter, but here's a quick rundown of the five:
 
-# 1. Intangible assets
+### 1. Intangible Assets
 
 Intangible assets include brands, patents, or government licenses that explicitly keep competitors at bay.
 
-# 2. Cost advantage
+### 2. Cost Advantage
 
 Firms that have the ability to provide goods or services at lower cost have an advantage because they can undercut their rivals on price. Alternatively, they may sell their products or services at the same prices as rivals, but achieve fatter profit margins. We consider economies of scale to be a type of cost advantage, an idea we discuss in more detail in the next chapter.
 
-# 3. Switching costs
+### 3. Switching Costs
 
 Switching costs are those one-time inconveniences or expenses a customer incurs to change from one product to another. Customers facing high switching costs often won't change providers unless they are offered a large improvement in either price or performance, and even then, the risk associated with making a change may still prevent switching in some industries.
 
-# 4. Network effect
+### 4. Network Effect
 
 The network effect occurs when the value of a particular good or service increases for both new and existing users as more people use that good or service, often creating a viscous circle that allows strong companies to become even stronger.
 
-# 5. Efficient scale
+### 5. Efficient Scale
 
 Efficient scale describes a dynamic in which a market of limited size is effectively served by one or just a few companies. The companies involved generate economic profits, but potential competitors are discouraged from entering because doing so would result in insufficient returns for all players.
 
-# Assigning Moat Ratings
+## Assigning Moat Ratings
 
 When assigning moat ratings, we first consider the five qualitative factors outlined earlier. But we also look for quantitative evidence of a moat, namely, a company's ability to earn excess returns on invested capital. The size of the spread between ROIC and cost of capital is actually far less important than the expected duration of the excess profits. When we believe that a company will more likely than not benefit from a competitive advantage and earn excess returns for a period of at least 10 years, we assign it a narrow moat rating. When we're near-certain that a firm will earn excess returns for the next 10 years, and likely for the next 20 years, we assign the firm a wide moat rating. Clearly, the hurdle is high for earning a wide moat rating, and despite scouring the universe of listed companies, we have assigned wide moat ratings to fewer than 200 companies globally.
 
-# Question 2: When Is the Best Time to Invest in Great Businesses?
+## Question 2: When Is the Best Time to Invest in Great Businesses?
 
-It's tempting to conclude that wide-moat businesses are so rare and so great that you should buy them whenever you find them and hold on to them as
+It's tempting to conclude that wide-moat businesses are so rare and so great that you should buy them whenever you find them and hold on to them as long as their competitive advantages remain intact. However, the competitive advantage of a business is only part of the story. Our research shows that while wide moats can be a tremendous source of alpha, or excess return, for your portfolio, the advantage of owning wide-moat companies is much clearer and more persistent when you purchase them at a discount to the underlying business value.
 
-long as their competitive advantages remain intact. However, the competitive advantage of a business is only part of the story. Our research shows that while wide moats can be a tremendous source of alpha, or excess return, for your portfolio, the advantage of owning wide-moat companies is much clearer and more persistent when you purchase them at a discount to the underlying business value.
+## The Importance of Valuation
 
-# The Importance of Valuation
-
-Valuation is an incredibly important aspect of investing--you could argue, the most important. It makes sense when you think about it: You wouldn't want to pay \$650,000 for a house that's worth \$500,000, because even if it were a great house, it would take many years for the market to recognize the value of the house as \$650,000, and at that point, you would have likely lost purchasing power in real terms after inflation. Even if you bought that same house for \$500,000, or fair market value, you would see it appreciate only at the market rate of return. Ideally, you'd get an even better price on the house, perhaps buying it for \$450,000, so you could benefit not only from the future market rate of return, but also from having the price converge from your discounted price to the fair market value.
+Valuation is an incredibly important aspect of investing—you could argue, the most important. It makes sense when you think about it: You wouldn't want to pay \$650,000 for a house that's worth \$500,000, because even if it were a great house, it would take many years for the market to recognize the value of the house as \$650,000, and at that point, you would have likely lost purchasing power in real terms after inflation. Even if you bought that same house for \$500,000, or fair market value, you would see it appreciate only at the market rate of return. Ideally, you'd get an even better price on the house, perhaps buying it for \$450,000, so you could benefit not only from the future market rate of return, but also from having the price converge from your discounted price to the fair market value.
 
 While many investors get caught up in daily stock price movements, we prefer to think about valuation in the same way as you would a real asset, such as the house in the example above. There is a fair market value of any business, and opportunities to purchase great businesses at less than that fair market value give investors an advantage in generating future returns.
 
-# Estimating Fair Value
+## Estimating Fair Value
 
 The key to successfully purchasing an asset at a discount to fair market value is accurately estimating the future cash flows you expect that business to generate. This is no easy feat, and there are many different ways to go about it. Some analysts look at current cash flows, or even earnings, as a proxy for cash flow, and assign a multiple to that earnings number to roughly "guesstimate" how long into the future they expect that cash-flow level and growth rate to persist. Others assume a perpetual growth rate, such as a long-term estimate of inflation, and use that to calculate the company's expected cash flows into perpetuity, then discount those cash flows back to a present-day figure.
 
@@ -363,7 +250,7 @@ At Morningstar, in an effort to be as precise as possible, we take a fundamental
 
 There are many points of uncertainty in this process, so we take a few extra steps to strengthen our analysis and adjust for potential unknown (and sometimes unknowable) factors. First, we put a lot of emphasis on scenario analysis, or looking at what the company would be worth in various situations. It's important to recognize that no one actually knows the exact fair market value of any business, so the goal is to understand the range of possible outcomes and narrow that range whenever possible. Second, we always look for a margin of safety before investing, even in a wide-moat company.
 
-# Margin of Safety
+## Margin of Safety
 
 The concept of margin of safety has been around for decades; legendary value investors such as Ben Graham, Warren Buffett, and Seth Klarman have written about and utilized margin of safety in their investing disciplines. The basic idea is that because no one knows the true value of a security, purchasing it at materially less than fair value will help improve your odds of making a successful investment, because even if it's worth less than you originally estimated, you have improved your chances of a positive return by buying it at a discount.
 
@@ -412,7 +299,7 @@ Intangible assets is a broad category that includes brands, patents, and regulat
 
 Brands A brand creates an economic moat around a company's profits if it increases the customer's willingness to pay or increases customer captivity. A moatworthy brand manifests itself as pricing power or repeat business that translates into sustainable economic profits.
 
-# Key Questions: Brands
+### Key Questions: Brands
 
 1. How do you quantify the strength of the brand? What is the pricing power that the brand conveys? What is the premium that the company can charge relative to competitors? High name recognition doesn't always translate into pricing power. Just think of airlines such as United or American—you're probably very aware of these brands, but that doesn't mean you're willing to pay more for a United or American ticket. Most likely you'll make your purchasing decision based solely on cost after factoring in class, mileage credits, and baggage fees, and we see this reflected in the poor returns these airlines generate. As a result, most airlines lack sustainable competitive advantages.  
 2. Is the premium offset by higher costs? Some companies do indeed charge higher prices than their competitors, but that merely reflects a higher cost of production. For a brand to be moatworthy, it must confer pricing power that at least offsets any difference in costs.  
@@ -433,7 +320,7 @@ Patents Sometimes patents are a source of sustainable competitive advantage for 
 
 alternatives, then the company may have pricing power for a sustained period while other industry players are legally barred from competing.
 
-# Key Questions: Patents
+### Key Questions: Patents
 
 1. What is the expiration schedule for the company's patent portfolio? Because a narrow or wide economic moat rating depends on a company's ability to produce economic profits for a decade or more, patents that expire within the next several years certainly don't confer a moat by themselves.  
 2. How diverse is the company's patent portfolio? A company with a wider breadth of patented products is more likely to have a narrow or wide moat because the diversity leads to higher chances that the company will generate economic profits for a decade or more. A company with a history of successful research and development investment in its patent portfolio is more likely to maintain a patent-related competitive advantage than one without such a track record.  
@@ -457,7 +344,7 @@ Monsanto Having created the agricultural biotechnology market where it now compe
 
 Regulations Government regulations are another intangible asset that can lead to sustainable competitive advantages if the rules make it difficult or even impossible for competitors to enter the market. Regulations are especially favorable if a company can operate like a monopoly but isn't regulated like one with regard to pricing.
 
-# Key Questions: Regulations
+### Key Questions: Regulations
 
 1. Are there offsets to the favorable regulation, such as price controls or service mandates? Regulatory barriers to entry aren't moatworthy if they come with the burden of price controls or service mandates that prevent economic profit generation. For example, even though Aéroports de Paris has a geographic monopoly on airports serving the number-one tourist destination in the world, the government-regulated rates that ADP can charge for certain services have been too low to allow for economic profit generation.  
 2. If regulatory barriers to entry are the key argument, consider the threat of substitutes. If a company provides a good or service in a particular country and is shielded from competition within the country, consider whether potential customers can meet their needs with goods or services provided by companies from other countries.  
@@ -470,11 +357,11 @@ where through a licensing arrangement with the Mexican government, Televisa owns
 
 Las Vegas Sands and Wynn Resorts Casino operators with Asian facilities, such as Las Vegas Sands and Wynn Resorts, benefit from regulatory barriers to entry, giving Asian casino operators much wider economic moats than their U.S. counterparts. The China market is an oligopoly, with only six licenses granted, and legalized gambling limited to the tiny, densely populated region of Macau; Singapore is a duopoly, with only two licenses. It is extremely unlikely that the Chinese central government will authorize casinos in another province of China, as this would require a change to the Chinese constitution, and Beijing doesn't want gambling to bring societal ills to other provinces in mainland China. Advertising casinos in mainland China is illegal, and Beijing has cracked down hard on illegal gambling. Casino licensing in Macau is quite different than in the United States, in that the companies that receive licenses to operate in Macau are able to open more than one casino, with the limitation that new casinos require government approval and licensed operators must pay an additional fee to the government for each new casino. In the U.S., license holders generally do not have the right to open multiple casinos, and a new license is required for each new casino.
 
-# Cost Advantage
+## Cost Advantage
 
 Companies can dig economic moats around their businesses by having sustainably lower costs than their competitors. A favorable cost position can stem from process advantages, a superior location, scale, or access to a unique asset. Process advantages are interesting, but we award economic moat ratings to companies with this edge only if the process can't or won't be easily replicated by competitors. An advantageous location can also give a company a cost edge, and this leg up can be sustainable given the difficulty of duplication. Meanwhile, companies that enjoy economies of scale have lower average costs than their competitors with smaller capacities.
 
-# Key Questions: Cost Advantage
+### Key Questions: Cost Advantage
 
 1. Does the company benefit from economies of scale? Specifically, which costs are fixed and can therefore be leveraged? What quantitative evidence do we have that this company benefits from lower per-unit costs than a competitor with smaller volumes? Many companies claim that they benefit from economies of scale, but it's important to look for proof that a company with larger volumes indeed has lower per-unit costs than a smaller competitor.  
 2. Does the company benefit from economies of scope? Which costs are spread over a variety of products? What quantitative evidence demonstrates how this company benefits from lower per-unit costs than a competitor that produces a smaller variety of products? Some companies can leverage significant R&D expenses and process knowledge over a variety of products meeting diverse client needs. Once again, it's crucial to focus on finding actual quantitative support that this results in lower per-unit costs.  
@@ -495,11 +382,11 @@ Railroads North American Class I Railroads—CSX, Norfolk Southern, BNSF, Union 
 
 the same lane. And we have confidence in the sustainability of these railroads' economic profits because they've been investing heavily in their cost advantages. They're making increasingly effective use of two of their most expensive inputs: labor and fuel. Regarding the former, railroads are producing more ton-miles per employee than in the past. This is due in part to larger cars, combined with increased speed, reduced downtime at terminals, and more effective work rules and practices. Concerning the latter, the Association of American Railroads reports that in 2012 U.S. railroads moved a ton of freight on average 476 miles per gallon of fuel, up from 414 ton-miles per gallon in 2005 and double the 235 level of 1980. This was accomplished via larger cars, more-fuel-efficient locomotives, idle-reduction technology, throttle position selection guidance software that learns a route to optimize fuel and safety, distributed power to reduce required horsepower, rail lubrication, and locomotive engineer training and incentives.
 
-# Switching Costs
+## Switching Costs
 
 Switching costs are the expenses—whether in time, hassle, money, or risk—a customer would incur to change from one producer or provider to another. Customers facing high switching costs won't necessarily make a switch even if a competitor is offering a lower price or a better-performing product or service. The improvement in performance or price must be large enough to offset the cost of switching. High switching costs are especially prevalent and powerful when there is a high cost of failure, or the cost of the specific product or service in question is fairly insignificant relative to the customer's total operating costs.
 
-# Key Questions: Switching Costs
+### Key Questions: Switching Costs
 
 1. What are the costs and benefits of switching? Comparing the costs of switching with the price differences among available alternatives is the best way to prove that a company benefits from switching costs.  
 2. Are customers' existing assets and processes linked to a particular provider's offering? How material would training (Continued)
@@ -520,11 +407,11 @@ Looking more closely at BlackRock, which we feel has the widest moat in the asse
 
 Rockwell Automation Rockwell Automation has a wide economic moat thanks to a high degree of customer switching costs for its Logix automation control platform. Changing automation vendors is a decision not made lightly by a manufacturer; the organizational disruption caused by the change creates a number of potential costs for the customer, making sticking with the status quo the lower-friction choice. Think of the controller as the brains of the manufacturing floor. Any surgery involving it is delicate and approached with extreme care by the manufacturer. As a result, an automation firm such as Rockwell has a heavy incumbency advantage, building meaningful barriers to successful entry.
 
-# Network Effect
+## Network Effect
 
 The network effect occurs when the value of a particular good or service increases for both new and existing users as more customers use that good or service. The network effect is a virtuous cycle that allows strong companies to become even stronger.
 
-# Key Questions: Network Effect
+### Key Questions: Network Effect
 
 1. Explain how the value of the good or service increases as more customers and suppliers join the network. Try to provide quantitative proof that value (in real terms) increases faster than the rate of customer or supplier additions (with metrics like sales per user or sales per branch). With companies that truly benefit from the network effect, there's usually a clear, logical story for how value increases with additional customers and suppliers. Quantitative proof helps solidify the argument.  
 2. How does the company monetize its network? Many Internet companies have powerful network effects in the sense that the value of the service increases with additional users. Unfortunately, companies aren't always able to charge enough for the services they provide. Ability to sufficiently monetize the network through subscriptions, advertising, or charges provides a return to investors and ensures the company has money to reinvest in its network. Sufficient monetization of the network is a requirement for a narrow or wide moat.  
@@ -544,7 +431,7 @@ consortium—where more than 100 companies may participate—focused on how to b
 
 Dassault Dassault Systèmes is a market-leading provider of 3-D computer-aided design, or CAD, and product lifecycle management, or PLM, software. Dassault's solutions allow its clients to design, collaborate, manufacture, and maintain products in a timely and cost-efficient manner. The company's flagship CAD product, SolidWorks, and leading PLM product, CATIA, are the driving forces behind the company's success (roughly  $60\%$  of group revenue), and a current roster of clients such as Boeing, BMW, Nokia, Nestle, and General Electric highlights the quality of the company's solutions. Dassault has an extensive education program that trains users from an early stage, high school and college, to be proficient in the company's tools, which creates a growing network of employees and employers that prefer Dassault products. This growing network of users provides the firm with a positive network effect, as students want to be trained on the software that most potential employers use, and employers want to use the software that most students know.
 
-# Efficient Scale
+## Efficient Scale
 
 Efficient scale describes a dynamic in which a market of limited size is effectively served by one company or a small handful of companies. The incumbents
 
@@ -556,13 +443,11 @@ Efficient scale differs from cost advantage, because the incumbent firm's cost a
 
 Often, an efficient-scale business has a high degree of shortor medium-term pricing power. However, the company frequently chooses not to exercise this power to the fullest extent, even though doing so would maximize its current profitability. The business exercises restraint because it does not want to incent a rival to enter its market, which could destroy the economic rents for both players. The ability to exercise pricing power intelligently to influence the size of the "economic pie" in a way to both make sufficient profits and deter rivals is a distinguishing characteristic of efficient-scale businesses.
 
-# Key Questions: Efficient Scale
+### Key Questions: Efficient Scale
 
 1. Define the limits of the market. Is the addressable market finite or are the boundaries blurry? What is the size of the market, and what is the capacity of existing industry players? How many companies serve the industry? Markets that lend themselves to the efficient-scale phenomenon are clearly defined and served by only a handful of players or fewer.
 
-(Continued)
-
-# (Continued)
+#### (Continued)
 
 2. What is the cost of entering the market? How much market share would a new entrant have to grab in order to recoup the cost of entry? These questions help assess the economics facing potential entrants.  
 3. Have potential competitors tried to enter the market and ultimately failed? Evidence of failed entries can solidify an efficient-scale-based argument for a narrow or wide economic moat.
@@ -573,11 +458,11 @@ Mexican Airports Mexican airports provide another good example of companies that
 
 to extract high economic profits from their customers. These monopolies resulted from the Mexican government's decision to privatize the country's main airports in 1998. As a result, Grupo Aeroportuario del Pacifico, Grupo Aeroportuario del Sureste, Grupo Aeroportuario del Centro Norte, and a privately owned firm were granted concessions to operate the airports for 50 years, significantly limiting competition. In return, the companies comply with the regulation of fees charged to airlines and passengers and make necessary infrastructure investments. To comply with the granted concessions, the private airport operators must submit a master development program, or MDP, every five years to the Ministry of Communication and Transportation for review and approval. The MDP contains proposed capital spending on each airport for the next five-year and subsequent 10-year periods. The Ministry then uses the MDP and other factors to arrive at the maximum rate that operators will be allowed to charge departing passengers. Beyond the intangible asset of the government concession, Mexican airports benefit from the efficient-scale phenomenon because many cities can support only one major airport.
 
-# Notes
+## Notes
 
 1. At Morningstar, we calculate ROIC as earnings before interest (EBI) divided by invested capital, where EBI is operating income (excluding charges) plus amortization less cash taxes and invested capital is operating assets less operating liabilities. WACC is defined as (cost of debt)  $\times$  (weight of debt) + (cost of equity)  $\times$  (weight of equity).
 
-# Why Moat Trends Matter
+## Why Moat Trends Matter
 
 Contributed by Stephen Ellis, a member of Morningstar's Economic Moat Committee and head of Financial Services equity research at Morningstar
 

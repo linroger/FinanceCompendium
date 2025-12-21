@@ -1,6 +1,6 @@
 # Behavioral Finance and Technical Analysis
 
-# 12
+## Chapter 12
 
 THE EFFICIENT MARKET hypothesis makes two important predictions. First, it implies that security prices properly reflect whatever information is available to investors. A second implication follows immediately: Active traders will find it difficult to outperform passive strategies such as holding market indexes. To do so would require differential insight; in a highly competitive market, this is hard to come by.
 
@@ -16,7 +16,7 @@ Whereas conventional theories treat investors as rational, behavioral finance st
 
 markets. We close the chapter with a brief survey of some of these technical strategies.
 
-# 12.1 The Behavioral Critique
+## 12.1 The Behavioral Critique
 
 The premise of behavioral finance is that conventional financial theory ignores how real people make decisions and that people make a difference. A growing number of economists have come to interpret the anomalies literature as consistent with several "irrationalities" that seem to characterize individuals making complicated decisions. These irrationalities fall into two broad categories: first, that investors do not always process information correctly and therefore infer incorrect probability distributions about future rates of return; and second, that even given a probability distribution of returns, they often make inconsistent or systematically suboptimal decisions.
 
@@ -26,7 +26,7 @@ This leg of the argument is important. Virtually everyone agrees that if prices 
 
 We will start our summary of the behavioral critique with the first leg of the argument, surveying a sample of the informational processing errors uncovered by psychologists in other areas. We next examine a few of the behavioral irrationalities that seem to characterize decision makers. Finally, we look at limits to arbitrage activity and conclude with a tentative assessment of the import of the behavioral debate.
 
-# Information Processing
+### Information Processing
 
 Errors in information processing can lead investors to misestimate the true probabilities of possible events or associated rates of return. Several such biases have been uncovered. Here are five of the more important ones.
 
@@ -64,11 +64,11 @@ While confirmation bias is not his focus, Shiller makes a point related to it in
 Extrapolation and Pattern Recognition People are adept at discerning patterns, sometimes even perceiving patterns that may be illusory. They also are overly prone to believe, even when employing only limited evidence, that these patterns are likely to characterize an entire population, especially if the small sample exhibits other (even possibly irrelevant) similarities with a broad population. This sort of error is called representativeness bias, and it holds that people commonly act as if a small sample is just as informative about a population as a large one. They therefore infer a pattern too quickly based on a small sample and extrapolate apparent trends too far into the future. It is easy to see how such a pattern would be consistent with momentum and reversal anomalies. A short-lived run of good earnings reports or high stock returns leads such investors to revise their assessments of likely future performance and thus generate buying pressure that exaggerates the price run-up. Eventually, the gap between price and intrinsic value becomes glaring and the market corrects its initial error. Interestingly, stocks with the best recent performance suffer reversals precisely in the few days surrounding management earnings forecasts or actual earnings announcements, suggesting that the correction occurs just as investors learn that their initial beliefs were too extreme.[9]
 
 
-# Concept Check 12.1
+### Concept Check 12.1
 
 We saw in Chapter 11 that stocks seem to exhibit a pattern of short- to middle-term momentum, along with long-term reversals. How might this pattern arise from an interplay between the conservatism and representativeness biases?
 
-# Behavioral Biases
+### Behavioral Biases
 
 Even if information processing were perfect, many studies conclude that individuals would tend to make less-than-fully-rational decisions using that information. These behavioral biases largely affect how investors frame questions of risk versus return and, therefore, make risk-return trade-offs.
 
@@ -77,7 +77,7 @@ Framing Decisions seem to be affected by how choices are framed. For example, an
 $^{8}$ Robert J. Shiller, "Speculative Asset Prices," revision of 2013 Nobel Prize lecture, available at www.nobelprize.org/uploads/2018/06/shiller-lecture.pdf, p. 461.
 N. Chopra, J. Lakonishok, and J. Ritter, “Measuring Abnormal Performance: Do Stocks Overreact?,” Journal of Financial Economics 31 (1992), pp. 235–68.
 
-# Example 12.1 Framing
+### Example 12.1 Framing
 
 Consider a coin toss with a payoff of  \$50 for tails. Now consider a gift of\$ 50 that is bundled with a bet that imposes a loss of \$50 if that coin toss comes up heads. In both cases, you end up with zero for heads and \$50 for tails. But the former description frames the coin toss as posing a risky gain, while the latter frames the coin toss in terms of a risky loss. The difference in framing can lead to different attitudes toward the risky payoff.
 
@@ -96,7 +96,7 @@ $^{12}$ H. Shefrin and M. Statman, “The Disposition to Sell Winners Too Early 
 cause less regret. De Bondt and Thaler argue that such regret avoidance is consistent with both the size and book-to-market effects. Higher book-to-market firms tend to have depressed stock prices. These firms are "out of favor" and more likely to be in a financially precarious position. Similarly, smaller, less well-known firms are also less conventional investments. Such firms require more "courage" on the part of the investor, which increases the required rate of return. Mental accounting can add to this effect. If investors focus on the gains or losses of individual stocks, rather than on broad portfolios, they can become more risk averse concerning stocks with recent poor performance, discount their cash flows at a higher rate, and thereby create a value-stock risk premium.
 
 
-# Concept Check 12.2
+### Concept Check 12.2
 
 How might the P/E effect (discussed in the previous chapter) also be explained as a consequence of regret avoidance?
 
@@ -119,7 +119,7 @@ Figure 12.1 Prospect theory. Panel A: A conventional utility function is defined
 
 Figure 12.1, Panel B, shows a competing description of preferences characterized by "loss aversion." Utility depends not on the level of wealth, as in Panel A, but on changes in wealth from current levels. Moreover, to the left of zero (zero denotes no change from current wealth), the curve is convex rather than concave. This description of investor utility has several implications. Whereas many conventional utility functions imply that investors may become less risk averse as wealth increases, the function in Panel B always re-centers on current wealth, thereby ruling out such decreases in risk aversion and possibly helping to explain high average historical equity risk premiums. Moreover, the convex curvature to the left of the origin in Panel B will induce investors to be risk seeking rather than risk averse when it comes to losses. Consistent with loss aversion, traders in T-bond futures contracts have been observed to assume significantly greater risk in afternoon sessions following morning sessions in which they have lost money.[16]
 
-# Limits to Arbitrage
+## Limits to Arbitrage
 
 Behavioral biases would not matter for stock pricing if rational arbitrageurs could fully exploit the mistakes of behavioral investors. Trades of profit-seeking investors would correct any misalignment between price and intrinsic value. However, behavioral advocates argue that, in practice, several factors limit the ability to profit from mispricing.[17]
 
@@ -130,7 +130,7 @@ Some of the more influential references on limits to arbitrage are J. B. DeLong,
 
 a mutual fund manager who may lose clients (not to mention a job!) if short-term performance is disappointing, or may be a trader whose portfolio can be decimated if investment performance is poor, even temporarily. A comment often attributed to the famous economist John Maynard Keynes is that "markets can remain irrational longer than you can remain solvent." The fundamental risk incurred in exploiting apparent profit opportunities presumably will limit the activity of traders.
 
-# Example 12.2 Fundamental Risk
+### Example 12.2 Fundamental Risk
 
 In 2010, the NASDAQ index fluctuated at a level around 2,300. From that perspective, the value the index had reached in March 2000, around 5,000, seemed obviously crazy. Surely some investors living through the Internet "bubble" of the late 1990s must have identified the index as grossly overvalued, suggesting a good selling opportunity. But this hardly would have been a riskless arbitrage opportunity. Consider that NASDAQ may also have been "obviously" overvalued in January 2000 when it crossed above 4,000. An investor in January who believed that NASDAQ was overvalued at 4,000 and decided to sell it short would have suffered enormous losses as the index quickly increased by another 1,000 points before peaking in March. NASDAQ did finally crash, falling below 1,200 in late 2002. While one might have derived considerable satisfaction at eventually being proven right about the overpricing, by entering just a few months before the market "corrected," the investor might also have gone broke.
 
@@ -138,7 +138,7 @@ Implementation Costs Exploiting overpricing can be particularly difficult. Short
 
 Model Risk One always has to worry that an apparent profit opportunity is more apparent than real. Perhaps you are using a faulty model to value the security, and the price actually is right. Mispricing may make a position a good bet, but it is still a risky one, which limits the extent to which it will be pursued.
 
-# Limits to Arbitrage and the Law of One Price
+### Limits to Arbitrage and the Law of One Price
 
 While one can debate the implications of much of the anomalies literature, surely the Law of One Price (positing that effectively identical assets should have identical prices) should be satisfied in rational markets. Yet there are several instances where the law seems to have been violated. These instances are good case studies of the limits to arbitrage.
 
@@ -171,11 +171,11 @@ If the fund manager's performance more than compensates for expenses (i.e., if  
 This analysis might explain the pattern of premiums and discounts in closed-end funds; if investors expect a sufficiently large  $\alpha$ , they will purchase shares at a premium. But the fact that most premiums eventually turn into discounts indicates how difficult it is for management to fulfill these expectations.[23]
 
 
-# Concept Check 12.3
+### Concept Check 12.3
 
 Fundamental risk may be limited by a "deadline" that forces a convergence between price and intrinsic value. What do you think would happen to a closed-end fund's discount if the fund were to announce that it planned to liquidate in six months, at which time it would distribute NAV to its shareholders?
 
-# Bubbles and Behavioral Economics
+## Bubbles and Behavioral Economics
 
 In Example 12.2, we pointed out that the stock market run-up of the late 1990s, and even more spectacularly, the run-up of the technology-heavy NASDAQ market, seems in retrospect to have been an obvious bubble. In a six-year period beginning in 1995, the NASDAQ index increased by a factor of more than 6. Former Fed Chairman Alan Greenspan famously characterized the dot-com boom as an example of "irrational exuberance," and his assessment turned out to be correct: By October 2002, the index fell to less than one-fourth the peak value it had reached only  $2 \frac{1}{2}$  years earlier.
 
@@ -185,7 +185,7 @@ Only five years later, another bubble, this time in housing prices, was underway
 
 Bubbles are a lot easier to identify as such once they are over. While they are going on, irrational exuberance is less obvious, and indeed, many financial commentators during the dot-com bubble justified the boom as consistent with glowing forecasts for the "new economy." A simple example shows how hard it can be to tie down the fair value of stock investments.[24]
 
-# Example 12.3 A Stock Market Bubble?
+### Example 12.3 A Stock Market Bubble?
 
 In 2000, near the peak of the dot-com boom, the dividends paid by the firms included in the S&P 500 totaled \$154.6 million. If the discount rate for the index was  $9.2\%$  and the expected dividend growth rate was  $8\%$ , the value of these shares according to the constant-growth dividend discount model (see Chapter 18 for more on this model) would be
 
@@ -202,7 +202,7 @@ $$ which was about the value to which the S&P 500 firms had fallen by October 20
 
 Still, other evidence seems to tag the dot-com boom as at least partially irrational. Consider, for example, the results of a study documenting that firms adding “.com” to the end of their names during this period enjoyed a meaningful stock price increase.[25] That doesn’t sound like rational valuation.
 
-# Evaluating the Behavioral Critique
+## Evaluating the Behavioral Critique
 
 As investors, we are concerned with the existence of profit opportunities. The behavioral explanations of efficient market anomalies do not always give guidance as to how to exploit any irrationality.
 
@@ -214,7 +214,7 @@ More fundamentally, others are not convinced that the anomalies literature as a 
 
 The behavioral critique of full rationality in investor decision making is well taken, but the extent to which limited rationality affects asset pricing remains controversial. Whether or not investor irrationality affects asset prices, however, behavioral finance already makes important points about portfolio management. Investors who are aware of the potential pitfalls in information processing and decision making that seem to characterize their peers should be better able to avoid such errors. Ironically, the insights of behavioral finance may lead to some of the same policy conclusions embraced by efficient market advocates. For example, an easy way to avoid some of the behavioral minefields is to pursue passive, largely indexed, portfolio strategies. It seems that only rare individuals can consistently beat passive strategies; this conclusion may hold true whether your fellow investors are behavioral or rational.
 
-# 12.2 Technical Analysis and Behavioral Finance
+## 12.2 Technical Analysis and Behavioral Finance
 
 Technical analysis attempts to exploit recurring and predictable patterns in stock prices to generate superior investment performance. Technicians do not deny the value of fundamental information, but they believe that prices only gradually close in on intrinsic value. As fundamentals shift, astute traders can exploit the adjustment to a new equilibrium.
 
@@ -224,7 +224,7 @@ Behavioral biases may also be consistent with technical analysts' use of volume 
 
 Finally, technicians believe that market fundamentals can be perturbed by irrational or behavioral factors, sometimes labeled sentiment variables. More or less random price fluctuations will accompany any underlying price trend, creating opportunities to exploit corrections as these fluctuations dissipate. For example, we noted earlier that behavioral biases, for example confirmation bias, have the potential to generate some of the patterns that technical analysts claim actually characterize price patterns.
 
-# Trends and Corrections
+### Trends and Corrections
 
 Much of technical analysis seeks to uncover trends in market prices. This is in effect a search for momentum. Momentum can be absolute, in which case one searches for upward price trends, or relative, in which case the analyst looks to invest in one sector over another (or even take on a long-short position in the two sectors). Relative strength statistics are designed to uncover these potential opportunities.
 
@@ -241,7 +241,7 @@ After a period in which prices have been falling, the moving average will be abo
 
 Prices breaking through the moving average from below, as at point A in Figure 12.3, are taken as a bullish signal because this signifies a shift from a falling trend (with prices below the moving average) to a rising trend (with prices above the moving average). Conversely, when prices drop below the moving average, as at point B, analysts might conclude that market momentum has become negative.
 
-# Example 12.4 Moving Averages
+### Example 12.4 Moving Averages
 
 Consider the following price data. Each observation represents the closing level of the Dow Jones Industrial Average (DJIA) on the last trading day of the week. The 5-week moving average for each week is the average of the DJIA over the previous 5 weeks. For example, the first entry, for week 5, is the average of the index value between weeks 1 and 5: 34,290, 34,380, 34,399, 34,379, and 34,450. The next entry is the average of the index values between weeks 2 and 6, and so on.
 
@@ -282,7 +282,7 @@ Table 12.1
 
 Breadth
 
-# Machine Learning and Technical Analysis
+### Machine Learning and Technical Analysis
 
 Machine learning is not commonly classified as a form of technical analysis. But if one defines technical analysis as the use of past patterns in prices (and other trading data) to forecast profitable trades going forward, then one can make the case that they are at the very least related. In this regard, it is worth looking at one of the most successful hedge funds in history, Renaissance Technologies. Its signature Medallion fund generated average annual returns (before fees) as high as  $66\%$  per year between 1988 and 2018.[29] Even after fees, its very fortunate investors enjoyed average returns of  $39\%$ .
 
@@ -292,7 +292,7 @@ Renaissance appears to have put this approach on steroids. The firm collects uni
 
 Does Renaissance's incredible success validate technical analysis and thus invalidate efficient markets? That may depend in part on your standards. The firm acknowledges that each of its "bets" are right barely more than  $50\%$  of the time. Market prices are indeed hard to predict; in this sense, Renaissance's experience validates efficient markets as a very good first approximation to reality. But with very low trading costs and very frequent trades, even tiny profits can accumulate to eye-popping performance. Still, it would be a wild understatement to point out that few traders can bring to bear the analytic and trading expertise that Renaissance has developed. Nevertheless, the success of this approach has encouraged the growth of a large group of quantitative hedge funds that similarly follow market-neutral approaches.
 
-# Sentiment Indicators
+### Sentiment Indicators
 
 Behavioral finance devotes considerable attention to market sentiment, which may be interpreted as the general level of optimism among investors. Technical analysts have devised several measures of sentiment; we review a few of them.
 
@@ -315,7 +315,7 @@ Confidence Index Barron's computes a confidence index using data from the bond m
 The confidence index is the ratio of the average yield on 10 top-rated corporate bonds divided by the average yield on 10 intermediate-grade corporate bonds. The ratio will always be below 1 because higher-rated bonds will offer lower promised yields to maturity. When bond traders are optimistic about the economy, however, they might require smaller default premiums on lower-rated debt. Hence, the yield spread will narrow, and the confidence index will approach 1. Therefore, higher values of the confidence index are bullish signals.
 
 
-# Concept Check 12.4
+### Concept Check 12.4
 
 Yields on lower-rated debt will rise after fears of recession have spread through the economy. This will reduce the confidence index. Should the stock market now be expected to fall, or will it already have fallen?
 
@@ -325,7 +325,7 @@ A less-common, bullish perspective is that, because all short sales must be cove
 
 Put/Call Ratio Call options give investors the right to buy a stock at a fixed "exercise" price and therefore are a way of betting on stock price increases. Put options give the right to sell a stock at a fixed price and therefore are a way of betting on stock price decreases.[30] The ratio of outstanding put options to outstanding call options is called the put/call ratio. Typically, the put/call ratio hovers around  $65\%$ . Because put options do well in falling markets while call options do well in rising markets, a rising ratio is taken as a sign of broad investor pessimism and a coming market decline.
 
-# A Warning
+### A Warning
 
 The search for patterns in stock market prices is nearly irresistible, and the ability of the human eye to discern apparent patterns is remarkable. In fact, susceptibility to pattern recognition was one of the information processing errors we pointed out in Section 12.1. Unfortunately, it is possible to perceive patterns that really don't exist.
 
@@ -361,9 +361,9 @@ In evaluating trading rules, you should always ask whether the rule would have s
 6. Technical analysis also uses volume data and sentiment indicators. These are broadly consistent with several behavioral models of investor activity. Moving averages, relative strength, and breadth are used in other trend-based strategies.
 7. Some sentiment indicators are the trin statistic, the confidence index, short interest, and the put/ call ratio.
 
-# SUMMARY
+## Summary
 
-# KEY TERMS behavioral finance
+## Key Terms behavioral finance
 
 conservatism confirmation bias
 representativeness bias framing
@@ -372,7 +372,7 @@ mental accounting disposition effect regret avoidance prospect theory fundamenta
 
 trin statistic confidence index short interest put/call ratio
 
-# PROBLEM SETS
+## Problem Sets
 
 1. Explain how some of the behavioral biases discussed in the chapter might contribute to the success of technical trading rules.
 2. Why would an advocate of the efficient market hypothesis believe that even if many investors exhibit the behavioral biases discussed in the chapter, security prices might still be set efficiently?
@@ -409,9 +409,9 @@ $c$ . Holding on to losers too long.
 
 9. Match each example to one of the following behavioral characteristics.
 
-# Example
+### Example
 
-# Characteristic
+### Characteristic
 
 $a$ . Investors are slow to update their beliefs when given new evidence.
 

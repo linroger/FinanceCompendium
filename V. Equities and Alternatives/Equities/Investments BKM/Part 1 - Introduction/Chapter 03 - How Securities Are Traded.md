@@ -1,11 +1,23 @@
 ---
-aliases:
-  - How Securities Are Traded
-tags:
-key_concepts:
+title: Chapter 3: How Securities Are Traded
 parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 1 - Introduction
+formatted: 2025-12-21 11:00:00 PM
+formatter_model: claude-sonnet-4-5
+cli_tool: claude-code
+primary_tags:
+  - securities trading
+  - stock exchanges
+  - trading mechanisms
+secondary_tags:
+  - market orders
+  - short selling
+  - margin buying
+  - NYSE
+  - NASDAQ
+  - electronic trading
+  - bid-ask spread
+  - insider trading
 cssclasses: academia
-title: "Chapter 3: How Securities Are Traded"
 ---
 
 # How Securities Are Traded

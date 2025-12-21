@@ -470,249 +470,255 @@ intermarket spread swap Switching from one segment of the bond market to another
 
 **risky asset** An asset with an uncertain rate of return.
 
-# S scatter diagram Plot of returns of one security versus returns of another security. Each point represents one pair of returns for a given holding period.
+## S
 
+**scatter diagram** Plot of returns of one security versus returns of another security. Each point represents one pair of returns for a given holding period.
 
-seasoned new issue Stock issued by companies that already have stock on the market.
+**seasoned new issue** Stock issued by companies that already have stock on the market.
 
-secondary market Already-existing securities are bought and sold on the exchanges or in the OTC market.
+**secondary market** Already-existing securities are bought and sold on the exchanges or in the OTC market.
 
-second-pass regression A cross-sectional regression of portfolio returns on betas. The estimated slope is the measurement of the reward for bearing systematic risk during the period.
+**second-pass regression** A cross-sectional regression of portfolio returns on betas. The estimated slope is the measurement of the reward for bearing systematic risk during the period.
 
-sector rotation An investment strategy that entails shifting the portfolio into industry sectors that are forecast to outperform others based on macroeconomic forecasts.
+**sector rotation** An investment strategy that entails shifting the portfolio into industry sectors that are forecast to outperform others based on macroeconomic forecasts.
 
-securitization Pooling loans for various purposes into standardized securities backed by those loans, which can then be traded like any other security.
+**securitization** Pooling loans for various purposes into standardized securities backed by those loans, which can then be traded like any other security.
 
-security analysis Determining correct value of a security in the marketplace.
+**security analysis** Determining correct value of a security in the marketplace.
 
-security characteristic line (SCL) A plot of the excess return on a security (over the risk-free rate) as a function of the excess return on the market.
+**security characteristic line (SCL)** A plot of the excess return on a security (over the risk-free rate) as a function of the excess return on the market.
 
-security market line (SML) Graphical representation of the expected return-beta relationship.
+**security market line (SML)** Graphical representation of the expected return-beta relationship.
 
-security selection Choice of specific securities within a given asset class.
+**security selection** Choice of specific securities within a given asset class.
 
-seed capital The earliest infusions of venture capital into a start-up firm.
+**seed capital** The earliest infusions of venture capital into a start-up firm.
 
-semistrong-form EMH See efficient market hypothesis.
+**semistrong-form EMH** See efficient market hypothesis.
 
-separation property The property that portfolio choice can be separated into two independent tasks: (1) determination of the optimal risky portfolio, which is a purely technical problem, and (2) the personal choice of the best mix of the risky portfolio and the risk-free asset.
+**separation property** The property that portfolio choice can be separated into two independent tasks: (1) determination of the optimal risky portfolio, which is a purely technical problem, and (2) the personal choice of the best mix of the risky portfolio and the risk-free asset.
 
-Sharpe ratio Reward-to-volatility ratio; ratio of excess return to portfolio standard deviation.
+**Sharpe ratio** Reward-to-volatility ratio; ratio of excess return to portfolio standard deviation.
 
-shelf registration Advance registration of securities with the SEC for sale up to two years following initial registration.
+**shelf registration** Advance registration of securities with the SEC for sale up to two years following initial registration.
 
-short interest Total number of shares in a firm that are currently sold short.
+**short interest** Total number of shares in a firm that are currently sold short.
 
-short position The futures trader committing to deliver the underlying asset.
+**short position** The futures trader committing to deliver the underlying asset.
 
-short rate A one-period interest rate.
+**short rate** A one-period interest rate.
 
-short sale The sale of shares not owned by the investor but borrowed through a broker and later repurchased to replace the loan. Profit is earned if the initial sale is at a higher price than the repurchase price.
+**short sale** The sale of shares not owned by the investor but borrowed through a broker and later repurchased to replace the loan. Profit is earned if the initial sale is at a higher price than the repurchase price.
 
-single-factor model A model of security returns that decomposes the sources of return variability into one systematic economywide factor and firm-specific factors.
+**single-factor model** A model of security returns that decomposes the sources of return variability into one systematic economywide factor and firm-specific factors.
 
-single-index model A model of stock returns that decomposes influences on returns into a systematic factor, as measured by the return on a broad market index, and firm-specific factors.
+**single-index model** A model of stock returns that decomposes influences on returns into a systematic factor, as measured by the return on a broad market index, and firm-specific factors.
 
-sinking fund A bond indenture that calls for the issuer to periodically repurchase some proportion of the outstanding bonds prior to maturity.
+**sinking fund** A bond indenture that calls for the issuer to periodically repurchase some proportion of the outstanding bonds prior to maturity.
 
-skew Measure of the asymmetry of a probability distribution.
+**skew** Measure of the asymmetry of a probability distribution.
 
-small-firm effect That investments in stocks of small firms appear to have earned abnormal returns.
+**small-firm effect** That investments in stocks of small firms appear to have earned abnormal returns.
 
-soft dollars The value of research services that brokerage houses supply to investment managers "free of charge" in exchange for the investment managers' business.
+**soft dollars** The value of research services that brokerage houses supply to investment managers "free of charge" in exchange for the investment managers' business.
 
-Sortino ratio Excess return divided by lower partial standard deviation.
+**Sortino ratio** Excess return divided by lower partial standard deviation.
 
-special purpose acquisition company (SPAC) A publicly traded company with no current commercial operations that is formed to acquire a private firm, thereby taking the acquisition public without an IPO.
+**special purpose acquisition company (SPAC)** A publicly traded company with no current commercial operations that is formed to acquire a private firm, thereby taking the acquisition public without an IPO.
 
-specialist Exchange-appointed market maker in a specified security; specialists have been replaced by designated market makers.
+**specialist** Exchange-appointed market maker in a specified security; specialists have been replaced by designated market makers.
 
-speculation Undertaking a risky investment with the objective of earning a greater profit than an investment in a risk-free alternative (a risk premium).
+**speculation** Undertaking a risky investment with the objective of earning a greater profit than an investment in a risk-free alternative (a risk premium).
 
-speculative-grade bond A bond rated Ba or lower by Moody's or BB or lower by Standard & Poor's, or an unrated bond. Also called a junk bond.
+**speculative-grade bond** A bond rated Ba or lower by Moody's or BB or lower by Standard & Poor's, or an unrated bond. Also called a junk bond.
 
-spot rate The current interest rate appropriate for discounting a cash flow of some given maturity.
+**spot rate** The current interest rate appropriate for discounting a cash flow of some given maturity.
 
-spot-futures parity theorem Describes the theoretically correct relationship between spot and futures prices. Violation of the parity relationship gives rise to arbitrage opportunities. Also called the cost-of-carry relationship.
+**spot-futures parity theorem** Describes the theoretically correct relationship between spot and futures prices. Violation of the parity relationship gives rise to arbitrage opportunities. Also called the cost-of-carry relationship.
 
-spread (futures) Taking a long position in a futures contract of one maturity and a short position in a contract of a different maturity, both on the same underlying asset.
+**spread (futures)** Taking a long position in a futures contract of one maturity and a short position in a contract of a different maturity, both on the same underlying asset.
 
-spread (options) A combination of two or more call options or put options on the same stock with differing exercise prices or times to expiration. A money spread refers to a spread with different exercise prices; a time spread refers to differing expiration dates.
+**spread (options)** A combination of two or more call options or put options on the same stock with differing exercise prices or times to expiration. A money spread refers to a spread with different exercise prices; a time spread refers to differing expiration dates.
 
-staged financing Venture capital disbursed in smaller infusions over time to instill fiscal discipline in startups.
+**staged financing** Venture capital disbursed in smaller infusions over time to instill fiscal discipline in startups.
 
-standard deviation Square root of the variance.
+**standard deviation** Square root of the variance.
 
-statement of cash flows A financial statement showing a firm's cash receipts and cash payments during a specified period.
+**statement of cash flows** A financial statement showing a firm's cash receipts and cash payments during a specified period.
 
-statistical arbitrage Use of quantitative systems to uncover many perceived misalignments in relative pricing and ensustet profit by diversifying across all of these small bets.
+**statistical arbitrage** Use of quantitative systems to uncover many perceived misalignments in relative pricing and ensure profit by diversifying across all of these small bets.
 
-stock exchanges Secondary markets where already-issued securities are bought and sold by members.
+**stock exchanges** Secondary markets where already-issued securities are bought and sold by members.
 
-stock selection An active portfolio management technique that focuses on advantageous selection of particular stocks rather than on broad asset allocation choices.
+**stock selection** An active portfolio management technique that focuses on advantageous selection of particular stocks rather than on broad asset allocation choices.
 
-stock split Issue by a corporation of a given number of shares in exchange for shares currently held by stockholders. A split increases the number of shares outstanding. A reverse split decreases the number outstanding.
+**stock split** Issue by a corporation of a given number of shares in exchange for shares currently held by stockholders. A split increases the number of shares outstanding. A reverse split decreases the number outstanding.
 
-stop-loss order A sell order to be executed if the price of the stock falls below a stipulated level.
+**stop-loss order** A sell order to be executed if the price of the stock falls below a stipulated level.
 
-straddle A combination of buying both a call and a put on the same asset, each with the same exercise price and expiration date. The purpose is to profit from expected volatility.
+**straddle** A combination of buying both a call and a put on the same asset, each with the same exercise price and expiration date. The purpose is to profit from expected volatility.
 
-straight bond A bond with no option features such as callability or convertibility.
+**straight bond** A bond with no option features such as callability or convertibility.
 
-street name Describes securities held by a broker on behalf of a client but registered in the name of the firm.
+**street name** Describes securities held by a broker on behalf of a client but registered in the name of the firm.
 
-strike price See exercise price.
+**strike price** See exercise price.
 
-strip, strap Variants of a straddle. A strip is two puts and one call on a stock; a strap is two calls and one put, both with the same exercise price and expiration date.
+**strip, strap** Variants of a straddle. A strip is two puts and one call on a stock; a strap is two calls and one put, both with the same exercise price and expiration date.
 
-stripped of coupons Describes the practice of some investment banks that create "synthetic" zero-coupon bonds by selling the individual payments made by a coupon-paying Treasury bond.
+**stripped of coupons** Describes the practice of some investment banks that create "synthetic" zero-coupon bonds by selling the individual payments made by a coupon-paying Treasury bond.
 
-strong-form EMH See efficient market hypothesis.
+**strong-form EMH** See efficient market hypothesis.
 
-structured products Combinations of securities and derivatives that generate custom-designed market-linked outcomes to generate customized risk exposures.
+**structured products** Combinations of securities and derivatives that generate custom-designed market-linked outcomes to generate customized risk exposures.
 
-subordination clause A stipulation that senior bondholders will be paid first in the event of bankruptcy. Claims of subordinated or junior debtholders are not paid until the senior debt is paid.
+**subordination clause** A stipulation that senior bondholders will be paid first in the event of bankruptcy. Claims of subordinated or junior debtholders are not paid until the senior debt is paid.
 
-substitution swap Exchange of one bond for another more attractively priced bond with similar attributes.
+**substitution swap** Exchange of one bond for another more attractively priced bond with similar attributes.
 
-supply shock An event that influences production capacity and costs in the economy.
+**supply shock** An event that influences production capacity and costs in the economy.
 
-support level A price level below which it is supposedly difficult for a stock or stock index to fall.
+**support level** A price level below which it is supposedly difficult for a stock or stock index to fall.
 
-survivorship bias Bias in the average returns of a sample of funds induced by excluding past returns on funds that left the sample because they happened to be unsuccessful.
+**survivorship bias** Bias in the average returns of a sample of funds induced by excluding past returns on funds that left the sample because they happened to be unsuccessful.
 
-sustainable growth rate Dividend growth rate if the firm plows back a constant fraction of earnings and maintains both a constant return on equity and constant debt ratio.
+**sustainable growth rate** Dividend growth rate if the firm plows back a constant fraction of earnings and maintains both a constant return on equity and constant debt ratio.
 
-swaption An option on a swap.
+**swaption** An option on a swap.
 
-systematic risk Risk factors common to the whole economy; also called market risk or nondiversifiable risk.
+**systematic risk** Risk factors common to the whole economy; also called market risk or nondiversifiable risk.
 
-systemic risk Risk of breakdown in the financial system, particularly due to spillover effects from one market into others.
+**systemic risk** Risk of breakdown in the financial system, particularly due to spillover effects from one market into others.
 
-# T tail risk Risk of extreme events in the far tail of the probability distribution.
+## T
 
+**tail risk** Risk of extreme events in the far tail of the probability distribution.
 
-tax anticipation notes Short-term municipal debt to raise funds to pay for expenses before actual collection of taxes.
+**tax anticipation notes** Short-term municipal debt to raise funds to pay for expenses before actual collection of taxes.
 
-tax swap Buying and selling a pair of similar bonds to capture a tax benefit.
+**tax swap** Buying and selling a pair of similar bonds to capture a tax benefit.
 
-tax-deferral option The feature of the U.S. Internal Revenue Code that capital gains tax is assessed only when the asset is sold.
+**tax-deferral option** The feature of the U.S. Internal Revenue Code that capital gains tax is assessed only when the asset is sold.
 
-tax-protected retirement plans Employer-sponsored and other plans that protect either contributions or investment earnings from taxes, at least until after retirement.
+**tax-protected retirement plans** Employer-sponsored and other plans that protect either contributions or investment earnings from taxes, at least until after retirement.
 
-technical analysis Research to identify mispriced securities that focuses on recurrent and predictable stock price patterns and on proxies for buy or sell pressure in the market.
+**technical analysis** Research to identify mispriced securities that focuses on recurrent and predictable stock price patterns and on proxies for buy or sell pressure in the market.
 
-tender offer An offer from an outside investor to shareholders of a company to purchase their shares at a stipulated price, usually substantially above the market price, so that the investor may amass enough shares to obtain control of the company.
+**tender offer** An offer from an outside investor to shareholders of a company to purchase their shares at a stipulated price, usually substantially above the market price, so that the investor may amass enough shares to obtain control of the company.
 
-term insurance Provides a death benefit only, with no buildup of cash value.
+**term insurance** Provides a death benefit only, with no buildup of cash value.
 
-term premiums Excess of the yields to maturity on long-term bonds over those of short-term bonds.
+**term premiums** Excess of the yields to maturity on long-term bonds over those of short-term bonds.
 
-term structure of interest rates The pattern of interest rates appropriate for discounting cash flows of various maturities. The relation between yield to maturity and time to maturity.
+**term structure of interest rates** The pattern of interest rates appropriate for discounting cash flows of various maturities. The relation between yield to maturity and time to maturity.
 
-time value (of an option) Difference between an option's price and its intrinsic value. Not to be confused with present value or the time value of money.
+**time value (of an option)** Difference between an option's price and its intrinsic value. Not to be confused with present value or the time value of money.
 
-times interest earned Synonym for interest coverage ratio. Ratio of EBIT to interest expense.
+**times interest earned** Synonym for interest coverage ratio. Ratio of EBIT to interest expense.
 
-time-weighted average An average (often a geometric average) of the period-by-period holding-period returns of an investment.
+**time-weighted average** An average (often a geometric average) of the period-by-period holding-period returns of an investment.
 
-Tobin's  $q$  Ratio of market value of the firm to replacement cost.
+**Tobin's $q$** Ratio of market value of the firm to replacement cost.
 
-total asset turnover (ATO) The annual sales generated by each dollar of assets (sales/ assets).
+**total asset turnover (ATO)** The annual sales generated by each dollar of assets (sales/assets).
 
-tracking error The difference between the return on a managed portfolio and that of a benchmark portfolio against which the manager is evaluated.
+**tracking error** The difference between the return on a managed portfolio and that of a benchmark portfolio against which the manager is evaluated.
 
-tracking portfolio A portfolio constructed to have returns with the highest possible correlation with a systematic risk factor.
+**tracking portfolio** A portfolio constructed to have returns with the highest possible correlation with a systematic risk factor.
 
-tranche See collateralized mortgage obligation.
+**tranche** See collateralized mortgage obligation.
 
-Treasury bill Short-term, highly liquid government debt obligation issued at a discount from the face value and returning the face amount at maturity.
+**Treasury bill** Short-term, highly liquid government debt obligation issued at a discount from the face value and returning the face amount at maturity.
 
-Treasury bond Debt obligation of the federal government with original maturity between 10 and 30 years.
+**Treasury bond** Debt obligation of the federal government with original maturity between 10 and 30 years.
 
-Treasury note Debt obligation of the federal government with original maturity between 1 and 10 years.
+**Treasury note** Debt obligation of the federal government with original maturity between 1 and 10 years.
 
-treasury stock Stock that has been repurchased by the issuing company and is held in the company's treasury.
+**treasury stock** Stock that has been repurchased by the issuing company and is held in the company's treasury.
 
-Treynor-Black model A special case of the Markowitz model of efficient diversification, derived by assuming returns are generated by the index model.
+**Treynor-Black model** A special case of the Markowitz model of efficient diversification, derived by assuming returns are generated by the index model.
 
-Treynor's measure Ratio of excess return to beta.
+**Treynor's measure** Ratio of excess return to beta.
 
-trin statistic Ratio of average trading volume in declining stocks to average volume in advancing stocks. Used in technical analysis.
+**trin statistic** Ratio of average trading volume in declining stocks to average volume in advancing stocks. Used in technical analysis.
 
-trough The transition point between recession and recovery.
+**trough** The transition point between recession and recovery.
 
-turnover The ratio of the trading activity of a portfolio to the assets of the portfolio.
+**turnover** The ratio of the trading activity of a portfolio to the assets of the portfolio.
 
-12b-1 fees Annual fees charged by a mutual fund to pay for marketing and distribution costs.
+**12b-1 fees** Annual fees charged by a mutual fund to pay for marketing and distribution costs.
 
-two-stage dividend discount model Dividend discount model that allows for an initial high-growth period before the firm settles down to a sustainable growth trajectory.
+**two-stage dividend discount model** Dividend discount model that allows for an initial high-growth period before the firm settles down to a sustainable growth trajectory.
 
-# U unbundling See bundling.
+## U
 
+**unbundling** See bundling.
 
-underwriters Investment bankers who help companies issue their securities to the public.
+**underwriters** Investment bankers who help companies issue their securities to the public.
 
-underwriting, underwriting syndicate Underwriters (investment bankers) purchase securities from the issuing company and resell them. Usually a syndicate of investment bankers is organized behind a lead firm.
+**underwriting, underwriting syndicate** Underwriters (investment bankers) purchase securities from the issuing company and resell them. Usually a syndicate of investment bankers is organized behind a lead firm.
 
-unemployment rate The ratio of the number of people classified as unemployed to the total labor force.
+**unemployment rate** The ratio of the number of people classified as unemployed to the total labor force.
 
-unique risk Nonmarket or firm-specific risk factors that can be eliminated by diversification. Also called firm-specific risk, nonsystematic risk, or diversifiable risk.
+**unique risk** Nonmarket or firm-specific risk factors that can be eliminated by diversification. Also called firm-specific risk, nonsystematic risk, or diversifiable risk.
 
-unit investment trust Money invested in a portfolio whose composition is fixed for the life of the fund.
+**unit investment trust** Money invested in a portfolio whose composition is fixed for the life of the fund.
 
-universal life policy An insurance policy that allows for a varying death benefit and premium level over the term of the policy, with an interest rate on the cash value that changes with market interest rates.
+**universal life policy** An insurance policy that allows for a varying death benefit and premium level over the term of the policy, with an interest rate on the cash value that changes with market interest rates.
 
-utility The measure of the welfare or satisfaction of an investor.
+**utility** The measure of the welfare or satisfaction of an investor.
 
-utility value The welfare a given investor assigns to an investment with a particular return and risk.
+**utility value** The welfare a given investor assigns to an investment with a particular return and risk.
 
-# V value at risk (VaR) Measure of downside risk. The loss that will be incurred in the event of an extreme adverse price change with some given, typically low, probability.
+## V
 
+**value at risk (VaR)** Measure of downside risk. The loss that will be incurred in the event of an extreme adverse price change with some given, typically low, probability.
 
-variable annuities Annuity contracts in which the insurance company pays a periodic amount linked to the investment performance of an underlying portfolio.
+**variable annuities** Annuity contracts in which the insurance company pays a periodic amount linked to the investment performance of an underlying portfolio.
 
-variable life policy An insurance policy that provides a fixed death benefit plus a cash value that can be invested in a variety of funds from which the policyholder can choose.
+**variable life policy** An insurance policy that provides a fixed death benefit plus a cash value that can be invested in a variety of funds from which the policyholder can choose.
 
-variance A measure of the dispersion of a random variable. Equals the expected value of the squared deviation from the mean.
+**variance** A measure of the dispersion of a random variable. Equals the expected value of the squared deviation from the mean.
 
-variation margin See maintenance margin.
+**variation margin** See maintenance margin.
 
-vega The response of option price to a change in the standard deviation of the underlying asset.
+**vega** The response of option price to a change in the standard deviation of the underlying asset.
 
-venture capital (VC) Professionally managed money invested to finance startups; considered part of private equity.
+**venture capital (VC)** Professionally managed money invested to finance startups; considered part of private equity.
 
-# Glossary views An analyst's opinion on the likely performance of a stock or sector compared to the market-consensus expectation.
+**views** An analyst's opinion on the likely performance of a stock or sector compared to the market-consensus expectation.
 
+**vintage year** The first year of a venture fund; typically, the year in which the first capital is invested.
 
-vintage year The first year of a venture fund; typically, the year in which the first capital is invested.
+**volatility risk** The risk in the value of options portfolios due to unpredictable changes in the volatility of the underlying asset.
 
-volatility risk The risk in the value of options portfolios due to unpredictable changes in the volatility of the underlying asset.
+## W
 
-# W warrant An option issued by the firm to purchase shares of the firm's stock.
+**warrant** An option issued by the firm to purchase shares of the firm's stock.
 
+**weak-form EMH** See efficient market hypothesis.
 
-weak-form EMH See efficient market hypothesis.
+**well-diversified portfolio** A portfolio spread out over many securities in such a way that the weight in any security is close to zero, resulting in negligible diversifiable risk.
 
-well-diversified portfolio A portfolio spread out over many securities in such a way that the weight in any security is close to zero, resulting in negligible diversifiable risk.
+**whole-life insurance policy** Provides a death benefit and a kind of savings plan that builds up cash value for possible future withdrawal.
 
-whole-life insurance policy Provides a death benefit and a kind of savings plan that builds up cash value for possible future withdrawal.
+**workout period** Realignment period of a temporary misaligned yield relationship.
 
-workout period Realignment period of a temporary misaligned yield relationship.
+**world investable wealth** The part of world wealth that is traded and is therefore accessible to investors.
 
-world investable wealth The part of world wealth that is traded and is therefore accessible to investors.
+**writing a call** Selling a call option.
 
-writing a call Selling a call option.
+## Y
 
-# Y yield curve A graph of yield to maturity as a function of time to maturity.
+**yield curve** A graph of yield to maturity as a function of time to maturity.
 
+**yield to maturity (YTM)** A measure of the average rate of return that will be earned on a bond if held to maturity.
 
-yield to maturity (YTM) A measure of the average rate of return that will be earned on a bond if held to maturity.
+## Z
 
-# Z zero-beta portfolio The minimum-variance portfolio uncorrelated with a chosen efficient portfolio.
+**zero-beta portfolio** The minimum-variance portfolio uncorrelated with a chosen efficient portfolio.
 
+**zero-coupon bond** A bond paying no coupons that sells at a discount and provides only payment of face value at maturity.
 
-zero-coupon bond A bond paying no coupons that sells at a discount and provides only payment of face value at maturity.
-
-zero-investment portfolio A portfolio of zero net value, established by buying and shorting component securities, usually in the context of an arbitrage strategy.
+**zero-investment portfolio** A portfolio of zero net value, established by buying and shorting component securities, usually in the context of an arbitrage strategy.
 

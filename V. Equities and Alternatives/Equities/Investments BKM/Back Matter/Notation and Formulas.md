@@ -1,24 +1,26 @@
 ---
 title: "Notation and Formulas"
-aliases:
-  - Notation and Formulas
-tags:
-  - finance
-  - notation
-  - formulas
-  - investments
-  - bkm
-key_concepts:
-  - financial notation
-  - investment formulas
-  - risk measures
-  - portfolio theory
-  - market equilibrium
-  - fixed-income analysis
-  - equity analysis
-  - derivative assets
-  - performance evaluation
-parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Back Matter
+parent_directory: Back Matter
+formatted: 2025-12-21 12:30:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+   - financial notation
+   - investment formulas
+   - risk measures
+   - portfolio theory
+   - market equilibrium
+secondary_tags:
+   - fixed-income analysis
+   - equity analysis
+   - derivative assets
+   - performance evaluation
+   - capm model
+   - dividend discount model
+   - black-scholes formula
+   - put-call parity
+   - sharpe ratio
+   - duration analysis
 cssclasses: academia
 ---
 
@@ -150,7 +152,6 @@ $$
 $$
 
 ## Derivative Assets
-
 Put-call parity: $P = C - S_0 + \mathrm{PV}(X + \mathrm{dividends})$
 
 Black-Scholes formula (with constant dividend yield): $C = Se^{-\delta T}N(d_1) - Xe^{-rT}N(d_2)$

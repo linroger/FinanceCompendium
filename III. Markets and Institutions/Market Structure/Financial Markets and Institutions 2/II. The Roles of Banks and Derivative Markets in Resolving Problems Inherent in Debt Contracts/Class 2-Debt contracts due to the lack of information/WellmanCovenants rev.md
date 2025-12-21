@@ -1,44 +1,47 @@
 ---
+title: Class 2 The Importance of Loan Covenants Wellman Inc
 parent_directory: Class 2-Debt contracts due to the lack of information
-title: "Class 2: The Importance of Loan Covenants - Wellman Inc."
-tags:
-aliases:
-  - The Importance of Loan Covenants
-  - Wellman Inc. Case Study
-parent_folder: Class 2-Debt contracts due to the lack of information
-subfolder:
-key_concepts:
+formatted: "2025-12-21 12:00:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags:
+  - loan covenants
+  - credit risk management
+  - debt contracts
+  - financial covenants
+secondary_tags:
+  - banking regulations
+  - credit quality deterioration
+  - covenant violations
+  - risk monitoring
+  - financial distress
+  - lender protection
 cssclasses: academia
-linter-yaml-title-alias: "Class 2: The Importance of Loan Covenants - Wellman Inc."
 ---
 
-# University of Chicago Booth School of Business
+# The Importance of Loan Covenants - Wellman Inc.
 
-# Business 35202 Materials Prepared by Professor Amir Sufi
-
-Wellman Inc. The Importance of Loan Covenants
-
-# Purpose:
+## Purpose:
 
 To understand how banks manage conflicts of interest with management through the use of covenants, especially when credit quality deteriorates.
 
-# Background Information
+## Background Information
 
 Borrower: Wellman Inc.
 
-# Business (from 2002 10-K filings)
+## Business (from 2002 10-K filings)
 
 We are principally engaged in the manufacture and marketing of PermaClear® and EcoClear® brand PET resins and high-quality polyester products, including Fortrel® brand polyester fibers. We believe we are the world's largest PET plastics recycler, utilizing a significant amount of recycled raw materials in our manufacturing operations. At December 31, 2002, we had annual operating capacity to manufacture approximately 1.4 billion pounds of PET resins and 0.9 billion pounds of polyester staple fiber at five major production facilities in the United States and Europe. See Item 1. "Business-Recent Developments" for information concerning businesses discontinued in the first quarter of 2002, and see "Outlook" below for information on our ability to convert certain fiber capacity to PET packaging resins.
 
 Our operations are classified into two reportable operating segments: the Packaging Products Group (or PPG) and the Fibers and Recycled Products Group (or FRPG). Our PermaClear® PET and HP® resins are produced by the PPG from purified terephthalic acid (PTA) and monoethylene glycol (MEG) and EcoClear® PET resins are produced from a combination of chemical and post-consumer recycled raw materials. These resins are primarily used in the manufacture of plastic soft drink bottles and other food and beverage packaging. The FRPG produces Fortrel® fibers, which are primarily used in apparel, non-wovens, home products, and industrial products. These fibers are also produced from PTA and MEG. In addition, Fortrel® polyester and nylon for use primarily in furniture, pillows, comforters, industrial products, carpets and rugs, are manufactured from recycled PET raw materials, including post-consumer containers and post-industrial materials.
 
-# Rating Downgrade (from January 2003, 8-K filing):
+## Rating Downgrade (from January 2003, 8-K filing):
 
 On January 8, 2003 Moody's Investor Services ("Moody's") announced that it downgraded its ratings of Wellman, Inc. (the "Company"). The Company's ratings were changed as follows: senior unsecured shelf rating to (P)Ba2 from (P)Baa3 and subordinated shelf rating to (P)Ba3 from (P)Ba1. Moody's announcement further stated that the Company's rating outlook is stable.
 
 As a result of this downgrade, the Company is no longer rated as investment grade by either Moody's or Standards & Poor's. Although the failure to be investment grade will increase our cost of funds and may reduce our access to certain capital markets, the Company believes that it will not have a material adverse effect on its financial position, cash flows or results of operations.
 
-# LOAN AGREEMENTS BEFORE AND AFTER DOWNGRADE
+## LOAN AGREEMENTS BEFORE AND AFTER DOWNGRADE
 
 Pre-downgrade loan agreement
 
@@ -60,9 +63,9 @@ Summary of Financial and Non-"Boiler-Plate" Covenants and Other Contingencies
 (PRE-DOWNGRADE)</td><td>Covenants in 2003 Contract
 (POST-DOWNGRADE)</td></tr><tr><td>EBITDA Coverage (EBITDA/Interest) &gt; 3.5</td><td>Interest Coverage (EBITDA/ Interest) &gt; 3.5</td></tr><tr><td>Leverage Ratio (Debt/Assets) &lt; 0.55</td><td></td></tr><tr><td></td><td>Leverage Ratio (Debt/EBITDA) &lt; 3.5, 3.0</td></tr><tr><td></td><td>Quarterly EBITDA &gt; \$75m for 1st4 quarters going forward.</td></tr><tr><td></td><td>Security interest in substantially all of company assets if company rated below investment grade as of March 31, 2004 (see 5.01(q) below).</td></tr><tr><td>Prohibition against involvement in a hostile takeover.</td><td>Prohibition against involvement in a hostile takeover.</td></tr><tr><td></td><td>Prohibition against total indebtedness, including borrowed money, plus outstanding amounts on synthetic leases, receivable programs, and hedging agreements &gt; \$30m, exceeding \$551.1 m.</td></tr><tr><td></td><td>Prohibition against sum of other contractual obligations (as set out in borrower 10-K) to exceed \$361M.</td></tr><tr><td></td><td>Prohibition against capital expenditures exceeding \$40m per year</td></tr><tr><td></td><td>Prohibition against purchase or acquisition of any equity interest in assets, business units or companies of cash consideration exceeding \$100m unless [Leverage ratio not severely diminished].</td></tr><tr><td></td><td>Prohibition against paying any cash dividends on equity interests if an event of default has occurred, and has been continuing for 60 days.</td></tr><tr><td></td><td>Prohibition against equity repurchases exceeding \$20m in a given year.</td></tr><tr><td></td><td>Prohibition against repurchases or cash payments on any subordinated securities or preferred stock.</td></tr><tr><td></td><td>Prohibition against amending terms of the preferred stock in a manner adverse to banks.</td></tr></table>
 
-# DETAILS FROM COVENANTS
+## DETAILS FROM COVENANTS
 
-# Covenants from Pre-downgrade Agreement (1999)
+## Covenants from Pre-downgrade Agreement (1999)
 
 SELECTED COVENANTS OF THE BORROWER
 
@@ -102,7 +105,7 @@ owned or hereafter acquired, or assign as collateral or otherwise convey as coll
 
 (C) Hostile Takeovers. Make or commit to make any Investment by the Borrower and/or any of the Subsidiaries in connection with a Hostile Takeover.
 
-# COVENANTS OF THE BORROWER
+## COVENANTS OF THE BORROWER
 
 (j) Interest Coverage Ratio. Maintain an Interest Coverage Ratio at the end of each Fiscal Quarter ending after the date hereof of at least 3.5 to 1.0.  
 (k) Leverage Ratio. Maintain at the end of each Fiscal Quarter a Leverage Ratio (i) for each Fiscal Quarter ending on or prior to March 31, 2004, no greater than 3.5 to 1.0 and (ii) for each Fiscal Quarter thereafter, no greater than 3.0 to 1.0.  

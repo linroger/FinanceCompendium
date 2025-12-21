@@ -1,69 +1,46 @@
 ---
-aliases:
-- Portfolio Selection Theory
-tags: null
-key_concepts: null
-parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
-cssclasses: academia
-title: 'Chapter 13: Portfolio Selection Theory'
-linter-yaml-title-alias: 'Chapter 13: Portfolio Selection Theory'
+title: "Chapter 13: Portfolio Selection Theory"
+parent_directory: "II. Economics/International/Foundations of Global Financial Markets"
+formatted: "2025-12-21 04:35:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- theory referred mean variance
-- behavior making portfolio allocation
-- portfolio theory certain assumptions
-- theory markowitz portfolio theory
-- criticisms portfolio theory
+- "portfolio selection theory"
+- "markowitz portfolio theory"
+- "efficient frontier"
+- "optimal portfolio selection"
+- "mean variance analysis"
 secondary_tags:
-- theory deals selection portfolios
-- portfolio selection theory contents
-- portfolio theory tells achieve
-- theory behavioral finance theory
-- risk capital market theory
-- determining portfolio risk diversification
-- markowitz portfolio theory differs
-- criticisms portfolio theory focus
-- portfolio theory standard deviation
-- portfolio theory normative theory
-- selection optimal portfolio different
-- portfolio estimation errors
-tags_extracted: '2025-12-18T00:19:33.662070'
+- "diversification benefits"
+- "correlation in portfolios"
+- "risk averse investors"
+- "utility functions"
+- "indifference curves"
+- "behavioral finance theory"
+- "estimation errors"
+- "naive diversification"
+cssclasses: academia
 ---
 
-# 13
+# Chapter 13: Portfolio Selection Theory
 
-# Portfolio Selection Theory
+## Contents
 
-# CONTENTS
-
-Learning Objectives
-
-The Concept of Portfolio Diversification
-
-Markowitz Portfolio Theory
-
-Expected Portfolio Return
-
-Measuring Portfolio Risk
-
-The General Case
-
-The Role of Correlation in Determining Portfolio Risk and the Diversification Effect
-
-Constructing Portfolios
-
-Feasible Portfolios
-
-Efficient Portfolios
-
-Selecting the Optimal Portfolio
-
-Criticisms of Portfolio Theory
-
-Behavioral Finance Theory and Investor Decision Making
-
-Key Points
-
-Questions
+- Learning Objectives
+- The Concept of Portfolio Diversification
+- Markowitz Portfolio Theory
+- Expected Portfolio Return
+- Measuring Portfolio Risk
+- The General Case
+- The Role of Correlation in Determining Portfolio Risk and the Diversification Effect
+- Constructing Portfolios
+- Feasible Portfolios
+- Efficient Portfolios
+- Selecting the Optimal Portfolio
+- Criticisms of Portfolio Theory
+- Behavioral Finance Theory and Investor Decision Making
+- Key Points
+- Questions
 
 # Learning Objectives
 
@@ -84,7 +61,7 @@ The development of the theoretical relationship between risk and expected return
 
 Together, portfolio theory and capital market theory provide a framework to specify and measure investment risk and to develop an economic equilibrium relationship between risk and expected return (and hence between risk and the required return on an investment). These theories have revolutionized the world of finance by allowing portfolio managers to quantify the investment risk and expected return of a portfolio and by allowing corporate treasurers to quantify the cost of capital and risk of a proposed capital investment.
 
-In this chapter, the focus is on portfolio theory, which covers how, under assumed conditions, investors select the assets to be included in a portfolio. The theory presented is referred to by various names—modern portfolio theory, Markowitz portfolio theory, and mean-variance theory. The theory draws on the concepts described in chapter 12. Prior to the development of the portfolio theory presented in this chapter, investors would often speak of risk and return, but the failure to quantify these important measures made constructing a portfolio of assets highly subjective and provided no insight into the return investors should expect. Moreover, investors would focus on the risks of individual assets without understanding how combining them into a portfolio could affect the portfolio's risk. The theories we present here and in chapter 14 quantify the relationship between risk and expected return. In October 1990, as confirmation of the importance of these theories, the Alfred Nobel Memorial Prize in Economic Science was awarded to Harry Markowitz, $^{1}$  the developer of portfolio theory, and to William Sharpe, who is one of the developers of capital market theory. $^{2}$
+In this chapter, the focus is on portfolio theory, which covers how, under assumed conditions, investors select the assets to be included in a portfolio. The theory presented is referred to by various names—modern portfolio theory, Markowitz portfolio theory, and mean-variance theory. The theory draws on the concepts described in chapter 12. Prior to the development of the portfolio theory presented in this chapter, investors would often speak of risk and return, but the failure to quantify these important measures made constructing a portfolio of assets highly subjective and provided no insight into the return investors should expect. Moreover, investors would focus on the risks of individual assets without understanding how combining them into a portfolio could affect the portfolio's risk. The theories we present here and in chapter 14 quantify the relationship between risk and expected return. In October 1990, as confirmation of the importance of these theories, the Alfred Nobel Memorial Prize in Economic Science was awarded to Harry Markowitz,$^{1}$ the developer of portfolio theory, and to William Sharpe, who is one of the developers of capital market theory.$^{2}$
 
 Although these theories are the cornerstone of much of finance, they have been under constant attack. This should not be surprising in the intellectual development of any field. Portfolio theory was formulated in 1952 by Markowitz and is still referred to as "modern" portfolio theory. Today, special issues of journals are devoted to describing the extension of portfolio theory as formulated by Markowitz. These extensions are not a criticism of the intellectual contribution by Markowitz but indicate how to modify the assumptions and deal with issues associated with implementation. Consequently, the chapter begins with portfolio theory as formulated by Markowitz, and the balance of the chapter is devoted to a brief description of the extensions and implementation issues. The topic of portfolio theory goes far beyond what is covered here and is typically reserved for a course in investment management.
 
@@ -92,7 +69,7 @@ Although these theories are the cornerstone of much of finance, they have been u
 
 Investors often talk about "diversifying" their portfolio. An investor who diversifies is one who constructs a portfolio in such a way as to reduce portfolio risk without sacrificing return. This goal is certainly one that investors should seek. However, the question is how to do it in practice.
 
-Some investors would say that including assets across all asset classes could diversify a portfolio. For example, an investor might argue that a portfolio should be diversified by investing in stocks, bonds, and real estate. Although that might be reasonable, two questions must be addressed to construct a diversified portfolio. First, how much should be invested in each asset class? Should  $40\%$  of the portfolio be in stocks,  $50\%$  in bonds, and  $10\%$  in real estate, or is some other allocation more appropriate? Second, once the allocation is determined, which specific stocks, bonds, and real estate should the investor select?
+Some investors would say that including assets across all asset classes could diversify a portfolio. For example, an investor might argue that a portfolio should be diversified by investing in stocks, bonds, and real estate. Although that might be reasonable, two questions must be addressed to construct a diversified portfolio. First, how much should be invested in each asset class? Should $40\%$ of the portfolio be in stocks, $50\%$ in bonds, and $10\%$ in real estate, or is some other allocation more appropriate? Second, once the allocation is determined, which specific stocks, bonds, and real estate should the investor select?
 
 Some investors who focus only on one asset class, such as common stock, argue that these portfolios should also be diversified. By this they mean that an investor should not place all of his or her investment funds in the stock of one corporation but should invest in the stocks of many corporations. Here, too, several questions must be answered to construct a diversified portfolio. First, which corporations should be represented in the portfolio? Second, how much of the portfolio should be allocated to the stocks of each corporation?
 
@@ -120,7 +97,9 @@ The expected value of a portfolio's return (or simply, "the expected portfolio r
 
 $$
 E \left(R_{p}\right) = w_{1} E \left(R_{1}\right) + w_{2} E \left(R_{2}\right) + \dots + w_{K} E \left(R_{K}\right), \tag {13.1}
-$$ where
+$$
+
+where
 
 
 $E(R_{p}) =$  expected portfolio return,
@@ -205,13 +184,13 @@ $$
 From equation (13.4), the portfolio variance is
 
 $$
-\begin{array}{l} \sigma^{2} \left(R_{p}\right) = (0.5)^{2} \left(30 \%\right)^{2} + (0.5)^{2} \left(40 \%\right)^{2} + 2 (0.5) (0.5) \left(30 \%\right) \left(40 \%\right) \operatorname{cor} \left(R_{1}, R_{2}\right) \\ = 6 2 5 + 6 0 0 \operatorname{co r} \left(R_{1}, R_{2}\right). \\ \end{array}
+\begin{array}{l} \sigma^{2} \left(R_{p}\right) = (0.5)^{2} \left(30\%\right)^{2} + (0.5)^{2} \left(40\%\right)^{2} + 2 (0.5) (0.5) \left(30\%\right) \left(40\%\right) \operatorname{cor} \left(R_{1}, R_{2}\right) \\ = 625 + 600 \operatorname{cor} \left(R_{1}, R_{2}\right). \\ \end{array}
 $$
 
 Taking the square root of the above equation, we obtain the standard deviation:
 
 $$
-\sigma \left(R_{p}\right) = \left[ 6 2 5 + 6 0 0 \operatorname{co r} \left(R_{1}, R_{2}\right) \right]^{0. 5}.
+\sigma \left(R_{p}\right) = \left[ 625 + 600 \operatorname{cor} \left(R_{1}, R_{2}\right) \right]^{0.5}.
 $$
 
 We can now see how portfolio risk changes for our two-asset portfolio with different correlations between the returns of the two assets. We know that the correlation ranges from  $-1$  to  $+1$ . Let's examine the following three cases for  $\operatorname{cor}(R_1, R_2) = -1$ , 0, and 1. Substituting into the equation above for the correlations for these three cases of  $\operatorname{cor}(R_1, R_2)$ , we get:
@@ -226,6 +205,22 @@ As can be seen, investors can construct a portfolio to maintain expected portfol
 
 # Constructing Portfolios
 
+```d2
+direction: right
+
+feasible_set: Feasible Portfolios {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
+
+efficient_frontier: Efficient Frontier {
+  shape: rectangle
+  style.fill: "#c8e6c9"
+}
+
+feasible_set -> efficient_frontier: "Highest return for given risk"
+```
+
 Constructing a portfolio (i.e., selecting the assets and the amount allocated to each asset), as suggested, results in portfolios that have the highest expected return for a given level of risk. Portfolios that have this attribute are referred to as "efficient portfolios." To construct efficient portfolios, the following assumptions about how investors select assets are made:
 
 - Mean-variance assumption: Only the expected value and the variance are used by investors when making asset selection decisions.
@@ -234,7 +229,7 @@ Constructing a portfolio (i.e., selecting the assets and the amount allocated to
 - One-period horizon assumption: All investors have a common one-period investment horizon.
 - Optimization assumption: When constructing portfolios, investors seek to achieve the highest expected return for a given level of risk.
 
-The construction of efficient portfolios given the universe of potential assets requires a massive number of calculations. For a universe of  $G$  assets, there are  $(G^2 - G) / 2$  unique covariances to calculate. Hence, for a portfolio of just 50 assets, 1,224 covariances must be calculated. For 100 securities, 4,950 covariances must be calculated. Moreover, identifying the portfolio that minimizes risk for each level of return requires use of an optimization algorithm, and more specifically, quadratic programming.
+The construction of efficient portfolios given the universe of potential assets requires a massive number of calculations. For a universe of $G$ assets, there are $(G^2 - G) / 2$ unique covariances to calculate. Hence, for a portfolio of just 50 assets, 1,224 covariances must be calculated. For 100 securities, 4,950 covariances must be calculated. Moreover, identifying the portfolio that minimizes risk for each level of return requires use of an optimization algorithm, and more specifically, quadratic programming.
 
 Although the algorithm used to solve a quadratic programming problem is covered in a course in management science (operations research), it is unnecessary for appreciating how efficient portfolios are constructed. Instead, we will just consider an example to show the results of the optimization process. To do so, we will use our earlier two-asset portfolio illustration, assets 1 and 2. Recall that for two assets,  $E(R_1) = 12\%$ ,  $\sigma(R_1) = 30\%$ ,  $E(R_2) = 18\%$ , and  $\sigma(R_2) = 40\%$ . In the earlier example, we did not make any assumption about the correlation between the two assets. Here, however, we will assume that  $\operatorname{cor}(R_1, R_2) = -0.5$ . The expected portfolio return and the standard deviation for five different portfolios (A, B, C, D, and E) made up of varying proportions of assets 1 and 2 are shown in table 13.1.
 
@@ -248,7 +243,7 @@ Note:  $E(R_{1}) = 12\%$ ,  $\sigma(R_{1}) = 30\%$ ,  $E(R_{2}) = 18\%$ ,  $\sig
 
 Any portfolio that an investor can construct given the universe of candidate assets is referred to as a feasible portfolio. The five portfolios shown in table 13.1 are all feasible portfolios in which the risk is measured in terms of the portfolio's standard deviation. The collection of all feasible portfolios is called the set of feasible portfolios, or simply the feasible set.
 
-In our illustration, where only two assets are candidates for inclusion in a portfolio, it is easy to graphically show the set of feasible portfolios. The feasible set, shown in figure 13.1, is a curve that represents those combinations of portfolio risk and expected portfolio return that are attainable by constructing portfolios from all possible combinations of asset 1 and asset 2. The five portfolios in table 13.1 are identified on the curve representing the feasible set. Beginning with portfolio A and proceeding to portfolio E, the allocation to asset 1 goes from  $100\%$  of the portfolio to  $0\%$ , and the allocation to asset 2 goes from  $0\%$  to  $100\%$  therefore, all possible combinations of asset 1 and asset 2 lie between portfolios A and E (i.e., on the curve labeled AE in figure 13.1). In the case of two assets, any other asset allocation to the two assets not lying on this curve is not attainable, because there is no mix of assets 1 and 2 that can be created. It is for this reason that curve AE is the feasible set.
+In our illustration, where only two assets are candidates for inclusion in a portfolio, it is easy to graphically show the set of feasible portfolios. The feasible set, shown in figure 13.1, is a curve that represents those combinations of portfolio risk and expected portfolio return that are attainable by constructing portfolios from all possible combinations of asset 1 and asset 2. The five portfolios in table 13.1 are identified on the curve representing the feasible set. Beginning with portfolio A and proceeding to portfolio E, the allocation to asset 1 goes from $100\%$ of the portfolio to $0\%$, and the allocation to asset 2 goes from $0\%$ to $100\%$ therefore, all possible combinations of asset 1 and asset 2 lie between portfolios A and E (i.e., on the curve labeled AE in figure 13.1). In the case of two assets, any other asset allocation to the two assets not lying on this curve is not attainable, because there is no mix of assets 1 and asset 2 that can be created. It is for this reason that curve AE is the feasible set.
 
 Figure 13.1
 
@@ -288,7 +283,50 @@ Figure 13.3 Selection of the optimal portfolio.
 
 Notice two things about the indifference curves. First, the slope of the indifference curve is positive, and this is so for a rational economic reason: At the same level of utility, the investor requires a higher expected portfolio return in order to accept higher portfolio risk. Second is the positioning of each indifference curve. The utility the investor receives is greater the farther the indifference curve is from the horizontal axis, because that indifference curve represents a higher expected portfolio return at every level of portfolio risk. Thus, for the three indifference curves shown in figure 13.3,  $u_{3}$  has the highest utility and  $u_{1}$  the lowest.
 
-Given a choice from the set of efficient portfolios, the optimal portfolio is the one that is preferred by the investor, where preference is represented by the investor's utility function. Figure 13.3 demonstrates graphically how this is done. The figure shows three indifference curves representing an investor's utility function. Also shown is the (Markowitz) efficient frontier. From this display, it is possible to determine the optimal portfolio for the investor with the indifference curves shown. Remember that the investor wants to get to the highest indifference curve achievable given the efficient frontier. In light of that requirement, the optimal portfolio is represented by the point where an indifference curve is tangent to the efficient frontier. In figure 13.3, that point is portfolio  $P_{\mathrm{MEF}}^*$ . For example, suppose that  $P_{\mathrm{MEF}}^*$  corresponds to portfolio D in figure 13.1. We know from table 13.1 that this portfolio is made up of  $25\%$  of asset 1 and  $75\%$  of asset 2, with  $E(R_p) = 16.5\%$  and  $\sigma(R_p) = 27.0\%$ .
+Given a choice from the set of efficient portfolios, the optimal portfolio is the one that is preferred by the investor, where preference is represented by the investor's utility function.
+
+```d2
+direction: right
+
+axes: Risk vs Return Trade-off {
+  shape: rectangle
+  style.fill: "#fafafa"
+}
+
+efficient_frontier: Efficient Frontier {
+  shape: oval
+  style.stroke: "#4caf50"
+  style.stroke-width: 3
+}
+
+indifference_curve_1: Indifference Curve U₁ {
+  shape: oval
+  style.stroke: "#2196f3"
+  style.stroke-dash: 5
+}
+
+indifference_curve_2: Indifference Curve U₂ {
+  shape: oval
+  style.stroke: "#2196f3"
+  style.stroke-dash: 5
+}
+
+indifference_curve_3: Indifference Curve U₃ {
+  shape: oval
+  style.stroke: "#2196f3"
+  style.stroke-dash: 5
+}
+
+optimal_portfolio: Optimal Portfolio P* {
+  shape: circle
+  style.fill: "#ff9800"
+}
+
+efficient_frontier -> optimal_portfolio: Tangent Point
+indifference_curve_3 -> optimal_portfolio: Highest Utility
+```
+
+Figure 13.3 demonstrates graphically how this is done. The figure shows three indifference curves representing an investor's utility function. Also shown is the (Markowitz) efficient frontier. From this display, it is possible to determine the optimal portfolio for the investor with the indifference curves shown. Remember that the investor wants to get to the highest indifference curve achievable given the efficient frontier. In light of that requirement, the optimal portfolio is represented by the point where an indifference curve is tangent to the efficient frontier. In figure 13.3, that point is portfolio $P_{\mathrm{MEF}}^*$. For example, suppose that $P_{\mathrm{MEF}}^*$ corresponds to portfolio D in figure 13.1. We know from table 13.1 that this portfolio is made up of $25\%$ of asset 1 and $75\%$ of asset 2, with $E(R_p) = 16.5\%$ and $\sigma(R_p) = 27.0\%$.
 
 Consequently, for the investor with preferences with respect to portfolio expected return and portfolio risk as determined by the shape of the indifference curves represented in figure 13.3 and expectations for asset 1 and 2 inputs (expected returns and variance-covariance) represented in table 13.1, portfolio D is the optimal portfolio, because it maximizes the investor's utility. If this investor had a different preference for portfolio expected return and portfolio risk, there would have been a different optimal portfolio. For example, figure 13.4 shows the same efficient frontier but with three indifference curves assumed by a different investor. In this case, the optimal portfolio is  $P_{\mathrm{MEF}}^{**}$ , which has a lower portfolio expected return and portfolio risk than  $P_{\mathrm{MEF}}^*$  in figure 13.3. Similarly, if the investor had a different set of input expectations, the optimal portfolio would be different.
 
@@ -326,7 +364,7 @@ Behavioral Finance Theme 2: Investors are influenced by form as well as substanc
 
 Behavioral Finance Theme 3: Prices in the financial market are affected by errors and decision frames.
 
-The first behavioral finance theme involves heuristics. This term means a rule-of-thumb strategy or a good guide to follow to shorten the time it takes to make a decision. For example, here are three rules of thumb provided on the MSN Money website for increasing the likelihood of success when investing in common stock: (1) ignore guru predictions, (2) avoid cheap stocks, and (3) follow the big players.[16] For retirement planning, a rule of thumb that has been suggested for having enough to retire is to invest  $10\%$  of annual pre-tax income. As for what to invest in to reach that retirement goal (i.e., the allocation among asset classes), a suggested rule of thumb is that the percentage an investor should allocate to bonds should be determined by subtracting the investor's age from 100. So, for example, a 45-year-old individual should invest  $55\%$  of his or her retirement funds in bonds.
+The first behavioral finance theme involves heuristics. This term means a rule-of-thumb strategy or a good guide to follow to shorten the time it takes to make a decision. For example, here are three rules of thumb provided on the MSN Money website for increasing the likelihood of success when investing in common stock: (1) ignore guru predictions, (2) avoid cheap stocks, and (3) follow the big players.[16] For retirement planning, a rule of thumb that has been suggested for having enough to retire is to invest $10\%$ of annual pre-tax income. As for what to invest in to reach that retirement goal (i.e., the allocation among asset classes), a suggested rule of thumb is that the percentage an investor should allocate to bonds should be determined by subtracting the investor's age from 100. So, for example, a 45-year-old individual should invest $55\%$ of his or her retirement funds in bonds.
 
 These are examples of heuristics, and in some circumstances, such rules of thumb or quick guides can work fairly well. However, the psychology literature tells us that heuristics can also lead to systematic biases in decision making, or what psychologists refer to as cognitive biases. In the context of finance, these biases lead to errors when making investment decisions. Shefrin refers to these biases as heuristic-driven biases.
 

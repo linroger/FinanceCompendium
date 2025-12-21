@@ -1,18 +1,42 @@
-# The Capital Asset Pricing Model
+---
+title: "The Capital Asset Pricing Model"
+parent_directory: "Part 3 - Equilibrium in Capital Markets"
+formatted: "2025-12-21 04:35:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - capital asset pricing model
+  - systematic risk
+  - market portfolio
+  - security market line
+  - beta coefficient
+secondary_tags:
+  - portfolio theory
+  - efficient frontier
+  - risk premium
+  - arbitrage pricing theory
+  - multifactor models
+  - zero beta portfolio
+  - consumption based capm
+  - liquidity risk
+  - alpha generation
+  - passive investing
+cssclasses: academia
+---
 
-# 9
+# Chapter 9: The Capital Asset Pricing Model
 
-THE CAPITAL ASSET pricing model, almost always referred to as the CAPM, is one of the centerpieces of modern financial economics. The model gives us a precise prediction of the relationship that we should observe between the risk of an asset and its expected return. This relationship serves two vital functions. First, it provides a benchmark rate of return for evaluating possible investments. For example, if we are analyzing securities, we might be interested in whether the expected return we forecast for a stock is more or less than its "fair" return given its risk. Second, the model helps us to make an educated guess as to the expected return on assets that have not yet been traded in the marketplace. For example, how do we price an initial public offering of stock? How will a major new investment project affect the return investors require on a company's stock?
+THE CAPITAL ASSET PRICING model, almost always referred to as the CAPM, is one of the centerpieces of modern financial economics. The model gives us a precise prediction of the relationship that we should observe between the risk of an asset and its expected return. This relationship serves two vital functions. First, it provides a benchmark rate of return for evaluating possible investments. For example, if we are analyzing securities, we might be interested in whether the expected return we forecast for a stock is more or less than its "fair" return given its risk. Second, the model helps us to make an educated guess as to the expected return on assets that have not yet been traded in the marketplace. For example, how do we price an initial public offering of stock? How will a major new investment project affect the return investors require on a company's stock?
 
 
 Although the CAPM does not fully withstand empirical tests, it is widely used because of the insight it offers. All generalizations of the model retain its central conclusion that only systematic risk will be rewarded with a risk premium. While the best way to measure that systematic risk can be subtle, all the more complex cousins of the basic CAPM can be viewed as variations on this fundamental theme.
 
-# 9.1 The Capital Asset Pricing Model
+## 9.1 The Capital Asset Pricing Model
 
 The capital asset pricing model is a set of predictions concerning equilibrium expected returns on risky assets. Harry Markowitz laid down the foundation of modern portfolio management in 1952. The CAPM was published 12 years later in articles by William Sharpe, $^{1}$  John Lintner, $^{2}$  and Jan Mossin. $^{3}$  The time for this gestation indicates that the leap from Markowitz's portfolio selection model to the CAPM is not trivial.
 
 William Sharpe, "Capital Asset Prices: A Theory of Market Equilibrium," Journal of Finance, September 1964.
-2John Lintner, "The Valuation of Risk Assets and the Selection of Risky Investments in Stock Portfolios and Capital Budgets," Review of Economics and Statistics, February 1965.
+2. John Lintner, "The Valuation of Risk Assets and the Selection of Risky Investments in Stock Portfolios and Capital Budgets," Review of Economics and Statistics, February 1965.
 $^{3}$ Jan Mossin, "Equilibrium in a Capital Asset Market," Econometrica, October 1966.
 
 The CAPM is based on two sets of assumptions, listed in Table 9.1. The first set pertains to investor behavior and allows us to assume that investors are alike in most important ways, specifically that they are all mean-variance optimizers with a common time horizon and a common set of information reflected in their use of an identical input list. The second set of assumptions pertains to the market setting, asserting that markets are well-functioning with few impediments to trading. Even a cursory consideration of these assumptions reveals that they are fairly strong, and one may justifiably wonder whether a theory derived from them will withstand empirical tests. Therefore, we will devote considerable attention later in the chapter to how the predictions of the model may change when one or more of these restrictive assumptions are relaxed.
@@ -23,11 +47,11 @@ Therefore, we begin by supposing that all investors optimize their portfolios us
 
 The CAPM asks what would happen if all investors shared an identical investable universe and used the same input list to draw their efficient frontiers. The use of a common input list obviously requires Assumption 1(c), but notice that it also relies on Assumption 1(b), that each investor is optimizing for a common investment horizon. It also implicitly assumes that investor choices will not be affected by differences in tax rates or trading costs that could affect net rates of return (Assumptions 2[c] and 2[d]).
 
-# The Market Portfolio
+## The Market Portfolio
 
 Not surprisingly in light of our assumptions, investors would calculate identical efficient frontiers of risky assets. Facing the same risk-free rate (Assumption 2[b]), they would
 
-# Table 9.1
+**Table 9.1**
 
 The assumptions of the CAPM
 
@@ -48,11 +72,7 @@ A key insight of the CAPM is this: Because the market portfolio is the aggregati
 
 The proportion of each stock in this portfolio equals the market value of the stock (price per share times number of shares outstanding) divided by the sum of the market value of all stocks. This implies that if the weight of Microsoft stock, for example, in each common risky portfolio is  $1\%$ , then Microsoft also will constitute  $1\%$  of the market portfolio. The same principle applies to the proportion of any stock in each investor's risky portfolio. As a result, the optimal risky portfolio of all investors is simply a share of the market portfolio in Figure 9.1.
 
-We conclude that the capital allocation line based on each investor's
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/d9b52b9b8ce515523d4e5a54634673e6a3d42dbbbe22628682bf6e0fab821b7d.jpg)
-A: The Efficient Frontier of Risky Assets with the Optimal CAL
-B: The Efficient Frontier and the Capital Market Line optimal risky portfolio will in fact also be the capital market line, as depicted in Figure 9.1, Panel B. This implication will allow us to say much about the risk-return trade-off.
+We conclude that the capital allocation line based on each investor's optimal risky portfolio will in fact also be the capital market line, as depicted in Figure 9.1, Panel B. This implication will allow us to say much about the risk-return trade-off.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/e952656f54d070cecff221587a1558323df3ea38902dc04f8d35eab434ba9156.jpg)
 Figure 9.1 Capital allocation line and the capital market line
@@ -62,7 +82,7 @@ Now suppose that the optimal portfolio of our investors does not include the sto
 
 Such a price adjustment process guarantees that all stocks will be included in the optimal portfolio. It shows that all assets have to be included in the market portfolio. The only issue is the price at which investors will be willing to include a stock in their optimal risky portfolio.
 
-# The Passive Strategy Is Efficient
+## The Passive Strategy Is Efficient
 
 In Chapter 6 we defined the capital market line (CML) as the CAL that is constructed from a money market account (or T-bills) and the market portfolio. Now you can fully appreciate why the CML is an interesting CAL. In the simple world of the CAPM, the market portfolio,  $M$ , is the optimal tangency portfolio on the efficient frontier.
 
@@ -74,11 +94,11 @@ In reality, different investment managers do create risky portfolios that differ
 
 The nearby box summarizes some of the arguments for indexing. If the passive strategy is efficient, then attempts to beat it simply generate trading and research costs with no offsetting benefit and, ultimately, inferior results.
 
-# Concept Check 9.1
+## Concept Check 9.1
 
 If there are only a few investors who perform security analysis, and all others hold the market portfolio,  $M$ , would the CML still be the efficient CAL for investors who do not engage in security analysis? Why or why not?
 
-# The Risk Premium of the Market Portfolio
+## The Risk Premium of the Market Portfolio
 
 In Chapter 6 we discussed how individual investors go about deciding capital allocation. If all investors choose to invest in portfolio  $M$  and the risk-free asset, what can we deduce about the equilibrium risk premium of portfolio  $M$ ?
 
@@ -101,7 +121,7 @@ There are three key benefits to investing in index funds: broad diversification,
 1. Broad diversification The most obvious benefit of investing in index funds is that your portfolio becomes instantly diversified. For instance, an index fund that tracks the S&P 500 has 500 different investments. When your money is spread out among so many assets, your ups and downs will be smaller.
 2. Low costs An expense ratio is an annual fee that mutual funds charge their shareholders, usually a percentage of invested assets. Actively managed mutual funds often have expense ratios above  $1\%$  because portfolio managers spend resources picking investments. So if you invest \$100,000, your expenses can be more than \$ 1,000 annually.
 
-Index funds, on the other hand, are passively managed. Because they track a specified index, there's little work for portfolio managers to charge for, and these savings are passed on in the form of lower expense ratios. Many charge less than  $0.07\%$  of assets. If you invest \$100,000 in a mutual fund with a 0.07\%$  expense ratio, you will pay only \70 per year, versus \$1,000 with a  $1\%$  expense ratio. Not small potatoes.
+Index funds, on the other hand, are passively managed. Because they track a specified index, there's little work for portfolio managers to charge for, and these savings are passed on in the form of lower expense ratios. Many charge less than  $0.07\%$  of assets. If you invest \$100,000 in a mutual fund with a 0.07\%$  expense ratio, you will pay only \$70 per year, versus \$1,000 with a  $1\%$  expense ratio. Not small potatoes.
 
 Naturally, index funds have a lower turnover ratio than actively managed funds. Turnover ratios measure the percentage of a mutual fund's holdings that are replaced in a single year. If those assets are worth more when they're sold than when you bought them, the difference between the two prices is considered a capital gain and you'll have to pay taxes on this amount. This isn't as much of a concern with index funds, thanks to their low turnover, about  $1\%$  to  $2\%$  per year, compared with  $20\%$  or higher for some actively managed funds.
 
@@ -119,14 +139,14 @@ $$
 
 When investors purchase stocks, their demand drives up prices, thereby reducing expected rates of return and risk premiums. But when risk premiums fall, investors will shift some of their funds from the risky market portfolio into the risk-free asset. In equilibrium, the risk premium on the market portfolio must be just high enough to induce investors to hold the available supply of stocks. If the risk premium is too high, there will be excess demand for securities, and prices will rise; if it is too low, investors will not hold enough stock to absorb the supply, and prices will fall. Equation 9.2 tells us that the equilibrium risk premium of the market portfolio is therefore proportional both to the risk of the market, as measured by the variance of its returns, and to the degree of risk aversion of the average investor, denoted by  $\overline{A}$ .
 
-# Concept Check 9.2
+## Concept Check 9.2
 
 Data from the last 95 years for the broad U.S. equity market yield the following statistics: average excess return,  $8.9\%$ ; standard deviation,  $20.3\%$ .
 
 a. To the extent that these averages approximated investor expectations for the period, what must have been the average coefficient of risk aversion?
 b. If the coefficient of risk aversion were actually 3.5, what risk premium would have been consistent with the market's historical standard deviation?
 
-# Expected Returns on Individual Securities
+## Expected Returns on Individual Securities
 
 The CAPM is built on the insight that the appropriate risk premium on an asset will be determined by its contribution to the risk of investors' overall portfolios. Portfolio risk is what matters to investors and is what governs the risk premiums they demand.
 
@@ -177,7 +197,7 @@ A basic principle of equilibrium is that all investments should offer the same r
 
 A positive contribution to variance doesn't imply that diversification isn't beneficial. Excluding GE from the portfolio would require that its weight be assigned to the remaining stocks and that reallocation would increase variance even more. Variance is reduced by including more stocks and reducing the weight of each (i.e., diversifying), despite the fact that each positive-covariance security makes some contribution to variance. Notice in Equation 9.1 that the optimal allocation to the risky portfolio is proportional to the ratio of the risk premium to variance, not to standard deviation.
 
-7Unfortunately, the market portfolio's Sharpe ratio
+Unfortunately, the market portfolio's Sharpe ratio
 
 $$
 \frac {E (r _ {M}) - r _ {f}}{\sigma_ {M}}
@@ -234,11 +254,11 @@ Let's say that everyone knows a firm is well run. Its stock price will therefore
 
 Of course, investors do not directly observe expected returns on securities. Rather, they observe security prices and bid those prices up or down. Expected rates of return can at most be inferred from the prices investors pay compared to the cash flows those investments are expected to generate.
 
-# Concept Check 9.3
+## Concept Check 9.3
 
 Suppose that the risk premium on the market portfolio is estimated at  $8\%$  with a standard deviation of  $22\%$ . What is the risk premium on a portfolio invested  $25\%$  in Toyota and  $75\%$  in Ford if they have betas of 1.10 and 1.25, respectively?
 
-# The Security Market Line
+## The Security Market Line
 
 The expected return-beta relationship is a reward-risk equation. The beta of a security is the appropriate measure of its risk because beta is proportional to the risk the security contributes to the optimal risky portfolio.
 
@@ -259,7 +279,7 @@ We see here how the CAPM may be of use in the money-management industry. Suppose
 
 The difference between the equilibrium and actually expected rate of return on a stock is called the stock's alpha, denoted by  $\alpha$ . For example, if the market return is expected to be  $14\%$ , a stock has a beta of 1.2, and the T-bill rate is  $6\%$ , the SML would predict an expected return on the stock of  $6 + 1.2(14 - 6) = 15.6\%$ . If one believed the stock would provide an expected return of  $17\%$ , the implied alpha would be  $1.4\%$  (see Figure 9.3).
 
-# Concept Check 9.4
+## Concept Check 9.4
 
 Stock XYZ has an expected return of  $12\%$  and risk of  $\beta = 1$ . Stock ABC has expected return of  $13\%$  and  $\beta = 1.5$ . The market's expected return is  $11\%$ , and  $r_f = 5\%$ .
 
@@ -273,7 +293,7 @@ The CAPM is also useful in capital budgeting decisions. For a firm considering a
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/cb92df6e21b50141873d3d40e23f4f18464019db039ebddb4bfa2f7b4471d61e.jpg)
 Figure 9.3 The SML and a positive-alpha stock. The risk-free rate is  $6\%$ , and the market's expected return is  $14\%$ , implying a market risk premium of  $8\%$ .
 
-# Example 9.1 The CAPM and Capital Budgeting
+**Example 9.1 The CAPM and Capital Budgeting**
 
 An expansion of a firm's production facilities will cost  \$100 million and is expected to generate incremental cash flows of\$ 20 million a year for 8 years. What is the project's NPV? If the project beta is .8, the market risk premium is 8\%, and the risk-free rate is 2\%, then the discount rate for the project is  $2 + .8 \times 8 = 8.4\%$ . The project's net present value is therefore:
 
@@ -283,18 +303,18 @@ $$
 
 Yet another use of the CAPM is in utility rate cases. The question in those cases is what rate of return a regulated utility should be allowed to earn on its investment in plant and equipment. The next example illustrates.
 
-# Example 9.2 Using the CAPM for Regulated Utilities
+**Example 9.2 Using the CAPM for Regulated Utilities**
 
 Suppose that the equityholders of a regulated utility have invested 100 million in the firm and that the beta of the equity is .6. If the T-bill rate is 6 \% and the market risk premium is 8 \%, then the fair expected profits to the firm would be assessed as 6 + .6 \times 8 = 10.8 \% of the \$ 100 million investment, or \$ 10.8 million. The firm would be allowed to set prices at a level expected to generate these profits.
 
-# Concept Check 9.5
+## Concept Check 9.5
 
 The risk-free rate is  $8\%$  and the expected return on the market portfolio is  $16\%$ . A firm considers a project that is expected to have a beta of 1.3.
 
 a. What is the required rate of return on the project?
 b. If the expected IRR of the project is  $19\%$ , should it be accepted?
 
-# The CAPM and the Single-Index Market
+## The CAPM and the Single-Index Market
 
 The index model from the last chapter asserted that security returns could be described by Equation 8.8, which is restated here as Equation 9.10:
 
@@ -322,7 +342,7 @@ Of course, if you estimate the index model regression (Equation 9.10), you will 
 
 From the outset, we noted that the CAPM is an elegant model built on a set of uncomfortably restrictive assumptions. This raises the question of what happens to the predicted risk-return relationship when we attempt to generalize the model to accommodate more realistic assumptions. In this section, we will review some variants of the basic model. We organize the discussion by the particular assumption from Table 9.1 that is called into question. We will discover that parts of the model change in important ways, but the fundamental distinction between systematic and diversifiable risk remains.
 
-# Identical Input Lists
+## Identical Input Lists
 
 Assumption 1(c) (investors optimize with the same input list) appears ominously restrictive, but it actually is not all that problematic. When most information is public, it would not be surprising for investors to be close to agreement on firms' prospects. Moreover, trades of investors who derive different input lists will offset and prices will reflect consensus expectations. We will later allow for the possibility that some investors expend resources to obtain private information and exploit prices that don't reflect the insights derived from this information. But regardless of their success, it is reasonable to conclude that, at least in the absence of private information, investors should assume alpha values are zero.
 
@@ -336,7 +356,7 @@ Why are short sales important? When prices rise above intrinsic values, rational
 
 Taxes also cast doubt on Assumption 1(c) because two investors can realize different after-tax returns from the same stock. Such distortions to the "input list" could, in principle, lead to different after-tax optimal risky portfolios; hence, the CAPM required Assumption 2(c) (no taxes). Nevertheless, despite an extension to the CAPM that incorporates personal taxes on dividends and capital gains,[10] there is no decisive evidence that taxes are a major factor in stock returns. A plausible explanation for this negative finding relies on "clientele" and supply effects. If high tax-bracket investors shy away from high-yield (dividend-paying) stocks and thus force down their prices, tax-exempt investors will view the stocks as a bargain and take up the slack in demand. On the other end, if corporations see that high dividend yields reduce stock prices, they simply will substitute stock repurchases for dividends, reinforcing the clientele effect in neutralizing tax effects.
 
-# Risk-Free Borrowing and the Zero-Beta Model
+## Risk-Free Borrowing and the Zero-Beta Model
 
 Restrictions on borrowing (or significantly higher rates on borrowing than on lending), which violate Assumption 2(b), also can create problems for the CAPM because borrowers and lenders will arrive at different tangency portfolios and thus different optimal risky portfolios. The market portfolio will no longer be each investor's optimal risky portfolio.
 
@@ -354,7 +374,7 @@ Equation 9.13 resembles the SML of the CAPM, except that the risk-free rate is r
 
 Risk-tolerant investors are the ones who would like to borrow to leverage up their position in the tangency portfolio. But limits to their ability to borrow or spreads between borrowing and lending rates impede their ability to do so. Investors who would otherwise wish to borrow and leverage the tangency portfolio but who find it impossible or costly to do so will instead tilt their portfolios toward high-beta (high expected return) stocks and away from low-beta ones. As a result, prices of high-beta stocks will rise, and their risk premiums will fall. In Equation 9.13, the risk premium on the market portfolio is smaller than predicted by the basic CAPM because the expected return on the zero-beta portfolio is greater than the risk-free rate, and therefore the reward to bearing systematic risk is smaller. In other words, the SML will be flatter than in the simple CAPM.
 
-# Labor Income and Other Nontraded Assets
+## Labor Income and Other Nontraded Assets
 
 The assertion that all assets are tradable (Assumption 2[a]) is essential for the conclusion that the market portfolio, which is so central to the CAPM, is the common risky portfolio chosen by all investors. In fact, many assets are not tradeable. Private businesses are a large and important part of the economy, but by definition, these businesses do not trade. Neither does human capital, the earning power of individuals. As a rough guide to relative magnitudes, we note that employee compensation averaged just about  $60\%$  of national
 
@@ -373,7 +393,7 @@ Mayers derives the equilibrium expected return-beta equation for an economy in w
 
 Other implications of labor income relate to the distribution of risk sharing across the economy. For example, young investors typically have a lot of human capital (they have many working years left in life) but little financial capital. Unless they can borrow to invest, they cannot buy a lot of equity. Therefore, middle-age or older investors have to bear most of the economy's financial risk; this concentration of financial risk on a subset of the population can result in a higher market risk premium than one would otherwise infer from Equation 9.2.[15]
 
-# A Multiperiod Model and Hedge Portfolios
+## A Multiperiod Model and Hedge Portfolios
 
 Assumption 1(a) states that only the mean and variance of wealth matter to investors. But consider these questions:
 
@@ -398,7 +418,7 @@ E \left(R _ {i}\right) = \beta_ {i M} E \left(R _ {M}\right) + \sum_ {k = 1} ^ {
 $$ where  $\beta_{iM}$  is the familiar security beta on the market-index portfolio and  $\beta_{ik}$  is the beta on the  $k$ th hedge portfolio. The equation predicts that the risk premium for security  $i$  is the sum of the compensation it commands for all of the relevant risk sources to which it is exposed. The first term is the usual risk premium for exposure to market risk. The other terms (in the summation sign) are benchmark risk premiums for each source of extra-market risk times the security beta with respect to that risk source. Thus, this expression generalizes the one-factor SML to a world with multiple sources of systematic risk.
 
 
-# A Consumption-Based CAPM
+## A Consumption-Based CAPM
 
 The logic of the CAPM together with the hedging demands noted in the previous subsection suggest that it might be useful to center the model directly on consumption. Such models were pioneered by Mark Rubinstein, Robert Lucas, and Douglas Breeden.[18]
 
@@ -420,7 +440,7 @@ Notice how similar this conclusion is to the conventional CAPM. The consumption-
 
 Because the CCAPM is so similar to the CAPM, one might wonder about its usefulness. Indeed, just as the CAPM is empirically flawed because not all assets are traded, the CCAPM has its own shortcomings. The attractiveness of this model is in that it compactly incorporates hedging demands surrounding consumption uncertainty as well as possible changes in the parameters that characterize investment opportunities. There is a price to pay for this compactness, however. Consumption growth figures are measured with significant error and published infrequently (monthly at the most), compared with financial assets, whose prices are available throughout the day. Nevertheless, some empirical research indicates that this model is more successful in explaining realized returns than the CAPM, which is a reason why students of investments should be familiar with it. We return to this issue, as well as empirical evidence concerning the CCAPM, in Chapter 13.
 
-# Liquidity and the CAPM
+## Liquidity and the CAPM
 
 Finally, transaction costs inhibit trades; this violates Assumption 2(d) (no transaction costs). In fact, the CAPM has little to say about trading activity. In the equilibrium of the CAPM, all investors share all available information and demand identical portfolios of risky assets. The awkward implication of this result is that there is no reason for trade. If all investors hold identical portfolios of risky assets, then when new (unexpected) information arrives, prices will change commensurately, but each investor will continue to hold a piece of the market portfolio, which requires no exchange of assets. How do we square this implication with the observation that on a typical day, trading volume amounts to several billion shares? One obvious answer is heterogeneous expectations, that is, beliefs not shared by the entire market. Diverse beliefs will give rise to trading as investors attempt to profit by rearranging portfolios in accordance with their now-heterogeneous demands. In reality, trading (and trading costs) will be of great importance to investors.
 

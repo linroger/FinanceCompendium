@@ -1,16 +1,22 @@
 ---
-parent_directory:
-title: Broadlines Retailing
-tags:
-aliases:
-parent_folder: Week 2
-subfolder:
-key_concepts:
+title: Dollar Store Highlights - JPM Report
+parent_directory: Week 2
+formatted: 2025-12-21 4:30:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - dollar store industry
+  - retail sector analysis
+  - merchandising strategies
+secondary_tags:
+  - store operations
+  - market share analysis
+  - consumer shopping patterns
+  - minimum wage impact
 cssclasses: academia
-linter-yaml-title-alias: Broadlines Retailing
 ---
 
-# Broadlines Retailing
+## Broadlines Retailing
 
 $$ Day with the Dollar Store Highlights $$
 
@@ -22,7 +28,7 @@ On June 12th, we hosted our 1st Annual Dollar Store Tour in Chicago featuring mo
 - **Big Lots:** Key highlights included: (1) Pier 1 merchandise looked good and was located at front entrance, (2) expanded furniture assortment (~1,100 stores) was impressive with $299-$399 Ashley sofas and Serta mattresses representing top attractions, and (3) improved in-store signage (new package rolled out in 1Q) provided better organization of categories and highlighted name brand items with a focus on end-cap displays.  
 - Family Dollar: Key highlights included: (1) apparel strategy featuring a narrowed assortment (~40% less SKUs YOY), less styles per fixture (40 in past vs. 12 today), and more aggressive markdown strategy to limit pack-away, (2) Hanes assortment and display of men's/women's undergarments looked impressive, (3) expanded food assortment (1 additional aisle), and (4) corral area to reduce shrink in front of store (i.e. batteries, candy, etc.).
 
-# Broadlines Retailing
+## Broadlines Retailing
 
 Charles Grom, CFA, CPA
 

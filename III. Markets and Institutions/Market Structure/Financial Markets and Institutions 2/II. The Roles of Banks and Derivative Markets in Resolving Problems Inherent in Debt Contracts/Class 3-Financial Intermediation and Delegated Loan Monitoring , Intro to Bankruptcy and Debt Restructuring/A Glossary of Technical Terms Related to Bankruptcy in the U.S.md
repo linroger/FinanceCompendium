@@ -1,15 +1,26 @@
 ---
-parent_directory: Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
-title: "Class 3: Glossary of Technical Terms Related to Bankruptcy in the U.S."
-tags:
-aliases:
-  - Glossary of Technical Terms Related to Bankruptcy in the U.S.
-  - Bankruptcy Glossary
-parent_folder: Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
-subfolder:
-key_concepts:
+title: "A Glossary of Technical Terms Related to Bankruptcy in the U.S."
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
+formatted: 2025-12-21 11:40:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+formatter_agent: obsidian-formatting-agent
+primary_tags:
+  - bankruptcy law
+  - chapter 11 reorganization
+  - creditor claims
+secondary_tags:
+  - chapter 7 liquidation
+  - automatic stay
+  - absolute priority
+  - debtor in possession
+  - plan of reorganization
+  - cramdown provision
+  - fraudulent transfer
+  - impaired claims
+  - prepackaged bankruptcy
+  - secured debt
 cssclasses: academia
-linter-yaml-title-alias: "Class 3: Glossary of Technical Terms Related to Bankruptcy in the U.S."
 ---
 
 CARLISS Y. BALDWIN
@@ -22,7 +33,7 @@ RAVI MEHTA
 
 This note briefly describes the most important legal forms of U.S. bankruptcy: Chapter 7 and Chapter 11, and provides definitions of technical terms related to the bankruptcy process.
 
-# Legal Forms of Bankruptcy--an Overview
+## Legal Forms of Bankruptcy--an Overview
 
 The U.S. Constitution (Article 1, Section 8) authorized Congress to enact "uniform laws on the subject of Bankruptcies throughout the United States." The rules of bankruptcy are set by Congress through the Bankruptcy Code (Title 11 of the U. S. Code). The Code was last updated by the Bankruptcy Abuse Prevention and Consumer Protection Act of 2005.
 
@@ -32,13 +43,11 @@ Chapter 7 of the Bankruptcy Code governs the process of the liquidation of the d
 
 Chapter 11 governs the reorganization of a company that continues to do business while in bankruptcy. Normally in Chapter 11, the company files a petition for protection from its creditors and the case is assigned to a bankruptcy judge, who supervises the process. The current management and board of directors remain in charge, and they have the sole right to propose a plan of reorganization during first 120-days after the filing. (This exclusivity period can be extended at the discretion of the judge.)
 
-The company stops paying interest and principal on its debts<sup>1</sup> and its assets are subject to a so-called automatic stay. The bankrupt company can also raise new financing that takes priority over its existing debts. Claims against the company are sorted into classes and a committee formed to represent each class. Classes are asked to vote on the plan of reorganization if their claims are "impaired" but not wiped out. By law, a plan of reorganization must be accepted by at least one
-
-impaired class. If some classes agree but others dissent, the judge can "cram down" the plan, imposing it on the dissenters. In practice, however, cramdowns take place only after a long, slow process of debate and negotiation.
+The company stops paying interest and principal on its debts<sup>1</sup> and its assets are subject to a so-called automatic stay. The bankrupt company can also raise new financing that takes priority over its existing debts. Claims against the company are sorted into classes and a committee formed to represent each class. Classes are asked to vote on the plan of reorganization if their claims are "impaired" but not wiped out. By law, a plan of reorganization must be accepted by at least one impaired class. If some classes agree but others dissent, the judge can "cram down" the plan, imposing it on the dissenters. In practice, however, cramdowns take place only after a long, slow process of debate and negotiation.
 
 Once the judge approves the plan of reorganization, he or she has the power to discharge the company's former debts. The company then emerges from Chapter 11 as a going concern with a more sustainable capital structure.
 
-# Technical Terms related to Bankruptcy
+## Technical Terms related to Bankruptcy
 
 363 sale - allows specific assets to be sold as a way to recover value leaving other assets in the estate for liquidation or reorganization.
 
@@ -54,9 +63,9 @@ Creditor - the owner of a claim. A credit committee is appointed to represent th
 
 Debtor - the entity (a person or corporation) that has filed for bankruptcy.
 
-Debtor-in-possession (DIP) financing - a form of secured financing obtained after a bankruptcy filing. DIP financing is senior to all pre-existing claims. It generally carries a short maturity, and comes with fairly restrictive covenants. DIP financing if often arranged in anticipation of bankruptcy filing, and becomes available as soon as the petition is filed.
+Debtor-in-possession (DIP) financing - a form of secured financing obtained after a bankruptcy filing. DIP financing is senior to all pre-existing claims. It generally carries a short maturity, and comes with fairly restrictive covenants. DIP financing is often arranged in anticipation of bankruptcy filing, and becomes available as soon as the petition is filed.
 
-Discharge of debts - At the end the bankruptcy process, the judge releases the debtor from liability for pre-bankruptcy debts. In a Chapter 11 bankruptcy, the debtor emerges from bankruptcy with a lesser debts as specified by the plan of reorganization. In a Chapter 7 bankruptcy, the assets of the company have been sold and the proceeds distributed to creditors. A discharge of debts must obey the rules of absolute priority.
+Discharge of debts - At the end the bankruptcy process, the judge releases the debtor from liability for pre-bankruptcy debts. In a Chapter 11 bankruptcy, the debtor emerges from bankruptcy with fewer debts as specified by the plan of reorganization. In a Chapter 7 bankruptcy, the assets of the company have been sold and the proceeds distributed to creditors. A discharge of debts must obey the rules of absolute priority.
 
 Exclusivity period - the initial 120-day period immediately following the petition date during which the debtor has the exclusive right to file the plan of reorganization. The period may be extended at the judge's discretion. After the expiration of the exclusivity period, creditors are free to submit their own plan or plans.
 

@@ -1,6 +1,37 @@
+---
+title: Index Models
+parent_directory: Part 2 - Portfolio Theory and Practice
+formatted: 2025-12-21 04:40:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+  - index models
+  - single factor model
+  - beta coefficient
+  - systematic risk
+  - portfolio diversification
+  - optimal risky portfolio
+  - active portfolio management
+secondary_tags:
+  - security characteristic line
+  - firm specific risk
+  - market model
+  - alpha estimation
+  - covariance estimation
+  - efficient frontier
+  - portfolio optimization
+  - risk return tradeoffs
+  - statistical estimation
+  - information ratio
+  - portfolio optimization procedure
+  - sharpe ratio calculation
+  - active portfolio weights
+cssclasses: academia
+---
+
 # Index Models
 
-# 8
+## 8
 
 THE MARKOWITZ PROCEDURE introduced in the preceding chapter suffers from two drawbacks. First, the model requires a huge number of estimates to fill the covariance matrix. Second, it does not provide any guidelines for finding useful estimates of these covariances or the risk premiums that are essential to construct the efficient frontier of risky assets. Because past returns are noisy guides to expected future returns, this drawback can be telling.
 
@@ -13,9 +44,9 @@ Despite the simplification they offer, index models remain true to the concepts 
 
 Finally, we examine optimal risky portfolios constructed using the index model. While the principles are the same as those employed in the previous chapter, the properties of the portfolio are easier to derive and interpret in this context. We illustrate how to use the index model by constructing an optimal risky portfolio using a small sample of firms. This portfolio is compared to the corresponding portfolio constructed from the Markowitz model.
 
-# 8.1 A Single-Factor Security Market
+## 8.1 A Single-Factor Security Market
 
-# The Input List of the Markowitz Model
+### The Input List of the Markowitz Model
 
 The success of a portfolio selection rule depends on the quality of the input list, that is, the estimates of expected security returns and the covariance matrix. In the long run, efficient portfolios will beat portfolios with less reliable input lists and consequently inferior reward-to-risk trade-offs.
 
@@ -36,7 +67,7 @@ Suppose that you construct a portfolio with weights  $-1.00, 1.00, 1.00$  for as
 Introducing a model that simplifies the way we describe the sources of security risk allows us to use a smaller, necessarily consistent, and, just as important, more easily interpreted set of estimates of risk parameters and risk premiums. The simplification emerges because positive covariances among security returns arise from common economic forces that affect the fortunes of most firms. Some examples of common economic factors are business cycles, interest rates, and the cost of natural resources. "Shocks" (i.e., unexpected changes) to these macroeconomic variables cause, simultaneously, correlated shocks in the rates of return on stocks across the entire market. By decomposing uncertainty into these systemwide versus firm-specific sources, we vastly simplify the problem of estimating covariance and correlation.
 
 
-# Systematic versus Firm-Specific Risk
+### Systematic versus Firm-Specific Risk
 
 We focus on risk by separating the actual rate of return on any security,  $i$ , into the sum of its previously expected value plus an unanticipated surprise:
 
@@ -69,11 +100,9 @@ $$
 
 The decomposition of return variability into components that depend on a common macroeconomic factor versus firm-specific shocks is compelling but, to be useful, we still need a variable that can proxy for this common factor. This variable must be observable, so we can estimate its volatility as well as the sensitivity of individual securities to variation in its outcome.
 
-# 8.2 The Single-Index Model
+## 8.2 The Single-Index Model
 
-Because the systematic factor affects the performance of all stocks, the rate of return on a broad market index can plausibly proxy for that common factor. This approach leads to an equation similar to the single-factor model, which is called a single-index model because it uses the market index to stand in for the common factor.
-
-# The Regression Equation of the Single-Index Model
+### The Regression Equation of the Single-Index Model
 
 The intuition behind the index model can be seen in Figure 8.1. We begin with a historical sample of paired observations of excess returns on the market index and a particular security, let's say shares in U.S. Steel. In Figure 8.1, we have 60 pairs of monthly excess returns, one for each month in a 5-year sample. Each dot represents the pair of returns in one particular month. For example, in June 2019, U.S. Steel's excess return was  $29.75\%$  while the market's was  $6.93\%$ .
 
@@ -96,21 +125,9 @@ Notice that so far, there is little "theory" in the index model. It is merely a 
 
 While the index model is mostly descriptive, it nevertheless will help us address these two important questions: (1) What relation might we expect to observe between a stock's beta and its expected return? and (2) What value for alpha should we expect to observe when markets are in equilibrium? We will have much to say on these topics below.
 
-# The Expected Return-Beta Relationship
+#### The Expected Return-Beta Relationship
 
-Because  $E(e_{i}) = 0$ , if we take the expected value of both sides of Equation 8.5, we obtain the expected return-beta relationship of the single-index model:
-
-$$
-E \left(R _ {i}\right) = \alpha_ {i} + \beta_ {i} E \left(R _ {M}\right) \tag {8.6}
-$$
-
-The second term in Equation 8.6 tells us that part of a security's risk premium is due to the risk premium of the index. The market risk premium is multiplied by the relative sensitivity, or beta, of the individual security. This makes intuitive sense because securities with high betas have a magnified sensitivity to market risk and will therefore provide a greater risk premium as compensation for this risk. We call this the systematic risk premium because it derives from the risk premium that characterizes the market index, which in turn proxies for the condition of the full economy or economic system.
-
-The remainder of the risk premium is given by the first term in the equation,  $\alpha$ . Alpha is a nonmarket premium. For example,  $\alpha$  may be large if you think a security is underpriced and therefore offers an attractive expected return. Later on, we will see that when security prices are in equilibrium, such attractive opportunities ought to be competed away, in which case  $\alpha$  will be driven to zero. But for now, let's assume that security analysts come up with their own estimates of alpha. If managers believe that they can do a superior job of security analysis, then they will be confident in their ability to find stocks with nonzero values of alpha.
-
-We will see shortly that the index model decomposition of an individual security's risk premium to market and nonmarket components greatly clarifies and simplifies the operation of macroeconomic and security analysis within an investment company.
-
-# Risk and Covariance in the Single-Index Model
+#### Risk and Covariance in the Single-Index Model
 
 Remember that one of the problems with the Markowitz model is the large number of parameter estimates required to implement it. Now we will see that the index model vastly reduces the number of parameters that must be estimated. In particular, we saw from Equation 8.4 that the covariance between any pair of stocks is determined by their common exposure to market risk; this insight yields great simplification in estimating an otherwise overwhelming number of covariance pairs. Using Equation 8.5, we can derive the following elements of the input list for portfolio optimization from the parameters of the index model:
 
@@ -135,20 +152,9 @@ $$
 Equations 8.6 and 8.7 imply that the set of parameter estimates needed for the single-index model consists of only  $\alpha_{i}$ ,  $\beta_{i}$ , and  $\sigma(e_{i})$  for each individual security, plus the risk premium and variance of the market index.
 
 
-# Concept Check 8.1
+#### Concept Check 8.1
 
-The data below describe a three-stock financial market that satisfies the single-index model.
-
-<table><tr><td>Stock</td><td>Capitalization</td><td>Beta</td><td>Mean Excess Return</td><td>Standard Deviation</td></tr><tr><td>A</td><td>3,000</td><td>1.0</td><td>10\%</td><td>40\%</td></tr><tr><td>B</td><td>1,940</td><td>0.2</td><td>2</td><td>30</td></tr><tr><td>C</td><td>1,360</td><td>1.7</td><td>17</td><td>50</td></tr></table>
-
-The standard deviation of the market-index portfolio is  $25\%$ .
-
-a. What is the mean excess return of the index portfolio?
-b. What is the covariance between stock A and stock B?
-c. What is the covariance between stock  $B$  and the index?
-d. Break down the variance of stock  $B$  into its systematic and firm-specific components.
-
-# The Set of Estimates Needed for the Single-Index Model
+#### The Set of Estimates Needed for the Single-Index Model
 
 We summarize the results for the single-index model in the table below.
 
@@ -174,33 +180,9 @@ This last point is potentially important. Imagine that the single-index model is
 The optimal portfolio derived from the single-index model therefore can be significantly inferior to that of the full-covariance (Markowitz) model when stocks with correlated residuals account for a large fraction of the portfolio. If many pairs of the covered stocks exhibit residual correlation, it is possible that a multi-index model, which includes additional factors to capture those extra sources of cross-security correlation, would be better suited for portfolio analysis and construction. We will demonstrate the effect of correlated residuals in the spreadsheet example in this chapter, leaving our discussion of multi-index models to later chapters.
 
 
-# Concept Check 8.2
+#### Concept Check 8.2
 
-Suppose that the index model for the excess returns of stocks  $A$  and  $B$  is estimated with the following results:
-
-$$
-R _ {A} = 1.0 \% + .9 R _ {M} + e _ {A}
-$$
-
-$$
-R _ {B} = - 2.0 \% + 1.1 R _ {M} + e _ {B}
-$$
-
-$$
-\sigma_ {M} = 20 \%
-$$
-
-$$
-\sigma \left(\mathrm {e} _ {A}\right) = 30 \%
-$$
-
-$$
-\sigma \left(e _ {B}\right) = 10 \%
-$$
-
-Find the standard deviation of each stock and the covariance between them.
-
-# The Index Model and Diversification
+#### The Index Model and Diversification
 
 The index model, first suggested by Sharpe, $^{4}$  also offers insight into portfolio diversification. Suppose that we choose an equally weighted portfolio of  $n$  securities. The excess rate of return on each security is given by
 
@@ -262,15 +244,11 @@ Figure 8.2 shows that as more and more securities are combined into a portfolio,
 This analysis is borne out by empirical evidence. We saw the effect of portfolio diversification on portfolio standard deviations in Figure 7.2. These empirical results are similar to the theoretical graph presented here in Figure 8.2.
 
 
-# Concept Check 8.3
+#### Concept Check 8.3
 
-Reconsider the two stocks in Concept Check 8.2. Suppose we form an equally weighted portfolio of  $A$  and  $B$ . What will be the nonsystematic standard deviation of that portfolio?
+## 8.3 Estimating the Single-Index Model
 
-# 8.3 Estimating the Single-Index Model
-
-Let's pause here to see how one would actually estimate the parameters of the index model. We work with monthly observations of rates of return for the market index and a particular stock. As in Chapter 5, we will use as the market index a comprehensive value-weighted portfolio of the firms that actively trade on the NYSE, AMEX, and NASDAQ. We will treat T-bills as the risk-free asset, and we will estimate the parameters of the model over the 5-year period ending in December 2021.
-
-# The Security Characteristic Line for U.S. Steel
+### The Security Characteristic Line for U.S. Steel
 
 Figure 8.3 shows a graph of the excess returns on U.S. Steel and the market index over the 5-year period. Consistent with Figure 8.1, the graph shows that the firm's returns generally follow those of the index, but with noticeably larger swings. Indeed, the monthly standard deviation of the excess return on the index portfolio over the period was  $4.66\%$ , while that of U.S. Steel was  $17.77\%$ . The larger swings in U.S. Steel's excess returns suggest that we should find a greater-than-average sensitivity to the market index, that is, a beta greater than 1.0.
 
@@ -288,53 +266,15 @@ The vertical distance of each point from the regression line in Figure 8.1 is th
 
 We estimate the parameters of the regression line in Figure 8.1 using Excel's Regression tool (this tool is available as an Add-In under the Data tab). A portion of the output is shown in Table 8.1.
 
-# The Explanatory Power of U.S. Steel's SCL
+#### The Explanatory Power of U.S. Steel's SCL
 
-Starting with the upper panel of Table 8.1, we see that the correlation of U.S. Steel with the market index is fairly high (.532), telling us that returns on U.S. Steel generally track those of the market index. The  $R$ -square (.283) tells us that variation
+#### Table 8.1
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/b6e338756a6220a60e375648026b5346855deddb7e6cec395a787fe8e9d37773.jpg)
-Figure 8.3 Excess monthly returns on U.S. Steel and the market index, 5 years ending December 2021.
+#### The Estimate of Alpha
 
-# Table 8.1
+#### The Estimate of Beta
 
-Excel output: Regression statistics for U.S. Steel's SCL. Observations are monthly returns measured as percents (not decimals) from January 2017 through December 2021.
-
-<table><tr><td colspan="5">Regression Statistics</td></tr><tr><td>Multiple R</td><td>0.532</td><td></td><td></td><td></td></tr><tr><td>R-Square</td><td>0.283</td><td></td><td></td><td></td></tr><tr><td>Adjusted R-Square</td><td>0.271</td><td></td><td></td><td></td></tr><tr><td>Standard Error</td><td>15.171</td><td></td><td></td><td></td></tr><tr><td>Observations</td><td>60</td><td></td><td></td><td></td></tr><tr><td>Explanatory variable</td><td>Coefficient</td><td>Standard Error</td><td>t-Statistic</td><td>p-Value</td></tr><tr><td>Intercept</td><td>-2.034</td><td>2.052</td><td>-0.991</td><td>0.326</td></tr><tr><td>Market index</td><td>2.030</td><td>0.424</td><td>4.785</td><td>0.000</td></tr></table> in the excess returns of the market index explains about  $28.3\%$  of the variation in U.S. Steel's returns. $^{6}$  The adjusted  $R$ -square (which is slightly smaller) corrects for an upward bias in  $R$ -square that arises because we use the estimated values of two parameters, $^{7}$  the slope (beta) and intercept (alpha), rather than their true, but unobservable, values. With 60 observations, this bias is small. The standard error of the regression is the standard deviation of the residual,  $e$ . High standard errors imply greater impact (positive and negative) of firm-specific events from one month to the next.
-
-
-# The Estimate of Alpha
-
-We move now to the lower panel of Table 8.1. The intercept  $(-2.034\%)$  per month is the estimate of U.S. Steel's alpha for the sample period. Although this is an economically large value (an absolute value above  $2\%$  per month), it is not statistically significant. This can be seen from the three statistics next to the estimated coefficient. The first is the standard error of the estimate  $(2.052\%)$ . This is a measure of the imprecision of the estimate. If the standard error is large, the range of likely estimation error is correspondingly large.
-
-The  $t$ -statistic reported in the next column is the ratio of the regression parameter to its standard error. This statistic equals the number of standard errors by which our estimate exceeds zero, and therefore can be used to assess the likelihood that the true but unobserved value might actually be zero rather than the estimate we derived from the data.
-
-6The equation for the  $R$  -square is the ratio of the systemic variance to total variance:
-
-$$
-R \text {s q u a r e} = \frac {\beta^ {2} \sigma_ {\text {i n d e x}} ^ {2}}{\beta^ {2} \sigma_ {\text {i n d e x}} ^ {2} + \sigma^ {2} (e)}
-$$
-
-In general, the adjusted  $R$ -square  $(R_A^2)$  is derived from the unadjusted by  $R_A^2 = 1 - (1 - R^2)\frac{n - 1}{n - k - 1}$ , where  $k$  is the number of independent variables (here,  $k = 1$ ). An additional degree of freedom is lost to the estimate of the intercept.
-
-The  $t$ -statistic is based on the assumption that returns are normally distributed. In general, if we standardize the estimate of a normally distributed variable by computing its difference from a hypothesized value and dividing by the standard error of the estimate (to express the difference as a number of standard errors), the resulting variable will have a  $t$ -distribution. With a large number of observations, the bell-shaped  $t$ -distribution approaches the normal distribution.
-
-The intuition is that if the true value were zero, we would be unlikely to observe estimated values far away (i.e., many standard errors) from zero. So large  $t$ -statistics imply low probabilities that the true value is zero.
-
-Given the  $t$ -statistic, we can use a table of the  $t$ -distribution (or Excel's TINV function) to find the probability that the true alpha is actually zero despite a regression estimate that differs from zero. This is alternatively called the level of significance or, as in Table 8.1, the probability or  $p$ -value. The conventional cutoff for statistical significance is a probability of less than  $5\%$ , which requires a  $t$ -statistic of about 2.0. The regression output shows that the  $t$ -statistic for U.S. Steel's alpha is -.991, not even close to the cutoff for statistical significance. In other words, we cannot reject the hypothesis that the true value of alpha equals zero. The  $p$ -value for the alpha estimate (.326) indicates that if the true alpha were zero, the probability of obtaining an estimate with an absolute value as large as 2.034 would be  $32.6\%$ . Convention is to deem a finding statistically significant only if the  $p$ -value is below  $5\%$ .
-
-# The Estimate of Beta
-
-The regression output in Table 8.1 shows U.S. Steel's beta estimate to be 2.030, meaning that its share price tended to move  $2.030\%$  for every  $1\%$  move in the market index. Not surprisingly, U.S. Steel's prospects appear to have above-average sensitivity to the economy. The standard error (SE) of the estimate is .424.
-
-The value of beta and its standard error produce a large  $t$ -statistic (4.785), and a  $p$ -value of practically zero. We can confidently reject the hypothesis that U.S. Steel's true beta is zero. This is hardly surprising in light of Figure 8.1, which showed that U.S. Steel's return and that of the market index were clearly related. A more interesting  $t$ -statistic might test the hypothesis that the beta is greater than the marketwide average beta of 1. This  $t$ -statistic would measure how many standard errors separate the estimated beta from a hypothesized value of 1. The following calculation shows that the  $t$ -statistic for this hypothesis is 2.43, allowing us to reject the hypothesis that the true beta is 1.
-
-$$
-\frac {\text {E s t i m a t e d v a l u e - H y p o t h e s i z e d v a l u e}}{\text {S t a n d a r d e r r o r}} = \frac {2 . 0 3 0 - 1}{. 4 2 4} = 2. 4 3
-$$
-
-In general, precision is not what we would like it to be. For example, if we wanted to construct a confidence interval that includes the true but unobserved value of beta with  $95\%$  probability, we would take the estimated value as the center of the interval and then add and subtract about two standard errors. This produces a range between 1.182 and 2.878, which is quite wide.
-
-# Firm-Specific Risk
+#### Firm-Specific Risk
 
 The standard deviation of U.S. Steel's residual is  $15.17\%$  per month, or  $52.6\%$  annually. This is quite large, on top of its already high systematic risk. The standard deviation of systematic risk is  $\beta \times \sigma (\mathrm{index}) = 2.03\times 4.66 = 9.46\%$  per month. Notice that U.S. Steel's firm-specific risk is greater than its systematic risk, a common result for individual stocks. In other words, more of the fluctuation in its monthly return derives from firm-specific factors than from marketwide systematic factors.
 
@@ -352,7 +292,7 @@ The column titled Residual Standard Deviation is the standard deviation of the r
 
 The high levels of firm-specific risk are reflected as well in the  $R$ -square of these regressions, which average only  $35.0\%$ . For this sample of stocks, only  $35.0\%$  of return variance in this period was due to market factors, implying that  $65.0\%$  was due to firm-specific factors.
 
-# 8.4 The Industry Version of the Index Model
+## 8.4 The Industry Version of the Index Model
 
 Remember that alpha is a nonmarket risk premium. It is the extra expected return on your portfolio (positive or negative) above and beyond the portion due to market exposure. A portfolio manager who has neither special information about a security nor insight that is unavailable to the general public will take the security's alpha value as zero. Using Equation 8.6, the manager will forecast a risk premium for the security equal to  $\beta_{i}E(R_{M})$ . If we restate this forecast in terms of total returns, one would expect
 
@@ -381,37 +321,11 @@ Comparing Equations 8.16 and 8.18, you can see that if  $r_f$  is constant over 
 However, the intercept that most providers call ALPHA is really an estimate of  $\alpha + r_f(1 - \beta)$ . On a monthly basis,  $r_f(1 - \beta)$  is small and is likely to be swamped by the volatility of actual stock returns. But it is worth noting that for  $\beta \neq 1$ , the regression intercept in Equation 8.16 will not equal the index model  $\alpha$  as it does when excess returns are used, as in Equation 8.17.
 
 
-# Concept Check 8.4
+#### Concept Check 8.4
 
-Table 8.2 shows that the estimate of Newmont Mining's index-model  $\alpha$  (per month) regression was  $1.1\%$ . If the monthly T-bill rate during this period was  $2\%$ , then what would you predict would be the value of ALPHA given in a standard industry report?
+#### Example 8.1 Adjusted Beta
 
-Always remember as well that these alpha estimates are ex post (after the fact) measures. They do not mean that anyone could have forecast these alpha values ex ante
-
-(before the fact). In fact, the name of the game in security analysis is to forecast alpha values ahead of time. A well-constructed portfolio that includes long positions in future positive-alpha stocks and short positions in future negative-alpha stocks will outperform the market index. The key term here is "well constructed," meaning that the portfolio has to balance concentration on high-alpha stocks with the need for risk-reducing diversification. This trade-off is discussed in the next section.
-
-The last column in Table 8.2 is called Adjusted Beta. The motivation for adjusting beta estimates is that, as an empirical matter, beta coefficients seem to move toward 1 over time. One explanation for this phenomenon is intuitive. A business enterprise usually is established to produce a specific product or service, and a new firm may be more unconventional than an older one in many ways, from technology to management style. As it grows, however, a firm often diversifies, first expanding to similar products and later to more diverse operations. As the firm becomes more conventional, it starts to resemble the rest of the economy even more. Thus, its beta coefficient will tend to change in the direction of 1.
-
-Another explanation is statistical. We know that the average beta over all securities is 1. Thus, before estimating the beta of a security, our best forecast would be that it is 1. When we estimate this beta coefficient over a particular sample period, we inevitably sustain some unknown sampling error in the estimated beta. The greater the difference between our beta estimate and 1, the greater is the chance that we have incurred a large estimation error and that beta in a subsequent sample period will be closer to 1.
-
-The estimate of the beta coefficient is the best guess for that particular sample period. Given that beta has a tendency to evolve toward 1, however, a forecast of the future beta coefficient should adjust the sample estimate in that direction.
-
-Table 8.2 adjusts beta estimates in a simple way. $^{10}$  It takes the sample estimate of beta and averages it with 1, using weights of two-thirds and one-third:
-
-$$
-\text {A d j u s t e d} = \frac {2}{3} \text {e s t i m a t e d} + \frac {1}{3} (1. 0) \tag {8.19}
-$$
-
-# Example 8.1 Adjusted Beta
-
-In Table 8.2, U.S. Steel's beta was estimated at 2.030. Therefore, its adjusted beta is  $\frac{1}{3} \times 2.030 + \frac{1}{3} \times 1 = 1.687$ , taking it a third of the way toward 1.
-
-In the absence of special information concerning U.S. Steel (i.e., setting alpha = 0), if our forecast for the return on the market index is  $8\%$  and T-bills pay  $2\%$ , we will forecast the rate of return on U.S. Steel as:
-
-$$
-\begin{array}{l} E \left(r _ {x}\right) = r _ {f} + \text {A d j u s t e d b e t a} \times \left[ E \left(r _ {M}\right) - r _ {f} \right] \\ = 2 + 1.687(8 - 2) = 12.12\% \\ \end{array}
-$$
-
-# Predicting Betas
+#### Predicting Betas
 
 Adjusted betas are a simple way to recognize that betas estimated from past data may not be the best estimates of future betas: Betas seem to drift toward 1 over time. This suggests that we might want a forecasting model for beta.
 
@@ -449,52 +363,21 @@ They also found that even after controlling for a firm's financial characteristi
 Table 8.3 presents beta estimates and adjustment factors for a subset of firms in the Rosenberg and Guy study.
 
 
-# Concept Check 8.5
+#### Concept Check 8.5
 
-Compare the first four and last four industries in Table 8.3. What characteristic seems to determine whether the adjustment factor is positive or negative?
+#### Table 8.3
 
-<table><tr><td>Industry</td><td>Beta</td><td>Adjustment Factor</td></tr><tr><td>Agriculture</td><td>0.99</td><td>-0.140</td></tr><tr><td>Drugs and medicine</td><td>1.14</td><td>-0.099</td></tr><tr><td>Energy utilities</td><td>0.60</td><td>-0.237</td></tr><tr><td>Gold</td><td>0.36</td><td>-0.827</td></tr><tr><td>Construction</td><td>1.27</td><td>0.062</td></tr><tr><td>Air transport</td><td>1.80</td><td>0.348</td></tr><tr><td>Trucking</td><td>1.31</td><td>0.098</td></tr><tr><td>Consumer durables</td><td>1.44</td><td>0.132</td></tr></table>
-
-# Table 8.3
-
-Industry betas and adjustment factors
-
-# 8.5 Portfolio Construction Using the Single-Index Model
+## 8.5 Portfolio Construction Using the Single-Index Model
 
 In this section, we look at the implications of the index model for portfolio construction. These techniques were originally developed by Jack Treynor and Fischer Black and are commonly called the Treynor-Black model. $^{12}$  Our goal is the same as in the previous chapter, the formation of portfolios with an efficient risk-return trade-off, but given the simplification offered by the index model, our techniques will be different. We will see that the index model offers several advantages, not only in terms of parameter estimation, but also for the analytic simplification and organizational decentralization that it makes possible.
 
-# Alpha and Security Analysis
+### Alpha and Security Analysis
 
-Perhaps the most important advantage of the single-index model is the framework it provides for macroeconomic and security analysis in the preparation of the input list that is so critical to the efficiency of the optimal portfolio. The Markowitz model requires estimates of risk premiums for each security. The estimate of expected return depends on both macroeconomic and individual-firm forecasts. But if many different analysts perform security analysis for a large organization such as a mutual fund company, a likely result is inconsistency in the macroeconomic forecasts that partly underlie expectations of returns across securities.
+#### The Index Portfolio as an Investment Asset
 
-The single-index model creates a framework that separates these two quite different sources of return variation and makes it easier to ensure consistency across analysts. We can lay down a hierarchy of the preparation of the input list using the framework of the single-index model.
+#### The Single-Index Model Input List
 
-1. Macroeconomic analysis is used to estimate the risk premium and risk of the market index.
-2. Statistical analysis is used to estimate the beta coefficients of all securities and their residual variances,  $\sigma^2 (e_i)$
-3. The portfolio manager uses the estimates for the market-index risk premium and the beta coefficient of a security to establish the expected return of that security absent any contribution from security analysis. This purely market-driven expected return is conditional on information common to all securities, not on information gleaned from security analysis of particular firms.
-4. Security-specific expected return forecasts (specifically, security alphas) are derived from various security-valuation models (such as those discussed in Part Five). Thus, the alpha value distills the incremental risk premium attributable to private information.
-
-Equation 8.6 tells us that the risk premium on a security not subject to security analysis would be  $\beta_{i}E(R_{M})$ . The risk premium would derive solely from the security's tendency to follow the market index. Any alpha (i.e., an expected return beyond this benchmark risk premium) would be due to some nonmarket factor uncovered through security analysis.
-
-The end result of security analysis is a list of alpha values. Statistical methods of estimating beta coefficients are widely known and standardized; hence, we would not expect this portion of the input list to differ greatly across portfolio managers. In contrast, security analysis is far less routine and therefore provides the potential for distinguished performance. Using the index model to disentangle the premiums due to market and nonmarket factors, a portfolio manager can be confident that the security analysts forecasting alpha values are all using consistent estimates for the overall market.
-
-In the context of portfolio construction, alpha is more than just one of the components of expected return. It is the key variable that tells us whether a security is a good or a bad buy. Consider an individual stock for which we have a beta estimate derived from regression analysis and an alpha value from security analysis. We easily can find many other securities with identical betas and therefore identical systematic components of their risk premiums. Therefore, what really makes a security attractive or unattractive to a portfolio manager is its alpha value, its return premium over and above the premium derived from its tendency to track the market index. A positive-alpha security is a bargain and therefore should be overweighted in the overall portfolio. Conversely, a negative-alpha security is overpriced and, other things equal, its portfolio weight should be reduced. In more extreme cases, the desired portfolio weight might even be negative; that is, a short position (if permitted) would be desirable.
-
-# The Index Portfolio as an Investment Asset
-
-Suppose the prospectus of an investment company limits the universe of assets in which the firm may invest to only stocks included in the S&P 500 index. The resources of the company allow coverage of only a relatively small subset of this so-called investable universe. If only these analyzed firms are allowed in the portfolio, the portfolio manager may well be worried about limited diversification.
-
-A simple way to avoid inadequate diversification would be to include the market index in the portfolio. Examination of Equations 8.5 and 8.6 reveals that if we treat the S&P 500 portfolio as the market index, it will have a beta of 1.0 (its sensitivity to itself), no firm-specific risk, and an alpha of zero—there is no nonmarket component in its expected return. Equation 8.7 shows that the covariance of any security,  $i$ , with the market index (in this example, the S&P 500) is  $\beta_{i}\sigma_{M}^{2}$ . To distinguish the S&P 500 from the  $n$  securities actively analyzed by the firm, we will designate it as the  $(n + 1)$ th asset. We can think of the S&P 500 as a passive portfolio that the manager would select in the absence of security analysis. It gives broad market exposure without requiring expensive security analysis. However, if managers are willing to engage in such research, they may be able to devise an active portfolio that can be mixed with the index to provide an even better risk-return trade-off.
-
-# The Single-Index Model Input List
-
-Compiling a portfolio from a list of  $n$  actively researched firms plus a passive market-index portfolio such as the S&P 500 requires the following input list:
-
-1. Risk premium on the S&P 500 portfolio.
-2. Standard deviation of the S&P 500 portfolio.
-3.  $n$  sets of estimates of (a) beta coefficients, (b) stock residual variances, and (c) alpha values. The alpha values, together with the risk premium of the S&P 500 and the beta of each security, determine the expected excess return on each security.
-
-# The Optimal Risky Portfolio in the Single-Index Model
+#### The Optimal Risky Portfolio in the Single-Index Model
 
 The single-index model allows us to solve for the optimal risky portfolio and to gain insight into the nature of the solution. First, we confirm that we easily can set up the optimization process to construct the efficient frontier in this framework along the lines of the Markowitz model.
 
@@ -547,7 +430,7 @@ $$
 
 Notice that when  $\beta_{A} = 1, w_{A}^{*} = w_{A}^{0}$ .
 
-# The Information Ratio
+### The Information Ratio
 
 Equations 8.24 and 8.25 yield the optimal position in the active portfolio once we know its alpha, beta, and residual variance. With  $w_{A}^{*}$  in the active portfolio and  $1 - w_{A}^{*}$  invested in the index portfolio, we can compute the expected return, standard deviation, and Sharpe ratio of the optimal risky portfolio. The Sharpe ratio of an optimally constructed risky portfolio will exceed that of the index portfolio (the passive strategy). The exact relationship is
 
@@ -579,43 +462,15 @@ Finally, we note that the index portfolio is an efficient portfolio only if all 
 
 Hence, if all securities have zero alphas, the optimal weight in the active portfolio will be zero, and the weight in the index portfolio will be 1. However, when security analysis uncovers securities with nonmarket risk premiums (nonzero alphas), the index portfolio is no longer efficient.
 
-# Summary of Optimization Procedure
+### Summary of Optimization Procedure
 
-Once security analysis is complete, the optimal risky portfolio is formed from the index-model estimates of security and market index parameters using these steps:
+### An Example
 
-1. Compute the initial position of each security in the active portfolio as  $w_{i}^{0} = \alpha_{i} / \sigma^{2}(e_{i})$ .
-2. Scale those initial positions to force portfolio weights to sum to 1 by dividing by their sum, that is,  $w_{i} = \frac{w_{i}^{0}}{\sum_{i=1}^{n} w_{i}^{0}}$ .
-3. Compute the alpha of the active portfolio:  $\alpha_{A} = \sum_{i = 1}^{n}w_{i}\alpha_{i}$
-4. Compute the residual variance of the active portfolio:  $\sigma^2 (e_A) = \sum_{i = 1}^{n}w_i^2\sigma^2 (e_i)$
-5. Compute the initial position in the active portfolio:  $w_{A}^{0} = \left[\frac{\alpha_{A} / \sigma^{2}(e_{A})}{E(R_{M}) / \sigma_{M}^{2}}\right]$ .
-6. Compute the beta of the active portfolio:  $\beta_{A} = \sum_{i = 1}^{n}w_{i}\beta_{i}$
-7. Adjust the initial position in the active portfolio:  $w_{A}^{*} = \frac{w_{A}^{0}}{1 + (1 - \beta_{A})w_{A}^{0}}$ .
-8. Note: The optimal risky portfolio now has weights  $w_{M}^{*} = 1 - w_{A}^{*}$  and  $w_{i}^{*} = w_{A}^{*}w_{i}$ .
-9. Calculate the risk premium of the optimal risky portfolio from the risk premium of the index portfolio and the alpha of the active portfolio:
+### Correlation and Covariance Matrix
 
-[ E(R_{P}) = (w_{M}^{*} + w_{A}^{*}\beta_{A})E(R_{M}) + w_{A}^{*}\alpha_{A}. ] Notice that the beta of the risky portfolio is  $w_{M}^{*} + w_{A}^{*}\beta_{A}$  because the beta of the index portfolio is 1.
+### Spreadsheet 8.1
 
-10. Compute the variance of the optimal risky portfolio from the variance of the index portfolio and the residual variance of the active portfolio:
-
-$$
-\sigma_ {P} ^ {2} = (w _ {M} ^ {*} + w _ {A} ^ {*} \beta_ {A}) ^ {2} \sigma_ {M} ^ {2} + [ w _ {A} ^ {*} \sigma (e _ {A}) ] ^ {2}.
-$$
-
-# An Example
-
-We can illustrate the implementation of the index model by constructing an optimal portfolio using the procedure just outlined. To keep the presentation manageable, we will imagine that the investor is limited to an "investment universe" comprising only the market index and the following six large U.S. corporations: Verizon and AT&T from the telecommunications industry, Target and Walmart from the retailing sector, and Ford and GM from the automobile industry. This example entails only six analyzed stocks, but by virtue of selecting three pairs of firms from the same industry with relatively high residual correlations, we put the index model to a severe test. This is because the model ignores the correlation between residuals when producing estimates for the covariance matrix. By ignoring that correlation, the index model will surely underestimate covariances across securities.
-
-# Correlation and Covariance Matrix
-
-Panel A in Spreadsheet 8.1 shows estimates of the risk parameters of the market index and the six analyzed securities. These securities have tremendous firm-specific risk (column E). Portfolios concentrated in these (or other) securities would have unnecessarily
-
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>I</td><td>J</td></tr><tr><td>1</td><td colspan="7">Panel A: Risk Parameters of the Investable Universe (annualized)</td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td>SD of Excess Return</td><td>BETA</td><td>SD of Systematic Component</td><td>SD of Residual</td><td>Correlation with the Market Index</td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>Market Index</td><td>0.1206</td><td>1.0000</td><td>0.1206</td><td>0.0000</td><td>1.0000</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td>WMT (Walmart)</td><td>0.1662</td><td>0.2095</td><td>0.0253</td><td>0.1657</td><td>0.1520</td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>TGT (Target)</td><td>0.1925</td><td>0.5265</td><td>0.0635</td><td>0.1833</td><td>0.3298</td><td></td><td></td><td></td><td></td></tr><tr><td>7</td><td>VZ (Verizon)</td><td>0.1481</td><td>0.2375</td><td>0.0286</td><td>0.1466</td><td>0.1934</td><td></td><td></td><td></td><td></td></tr><tr><td>8</td><td>T (AT&amp;T)</td><td>0.1358</td><td>0.2981</td><td>0.0360</td><td>0.1321</td><td>0.2648</td><td></td><td></td><td></td><td></td></tr><tr><td>9</td><td>F (Ford)</td><td>0.2546</td><td>1.3258</td><td>0.1599</td><td>0.1999</td><td>0.6280</td><td></td><td></td><td></td><td></td></tr><tr><td>10</td><td>GM (General Motors)</td><td>0.2973</td><td>1.6613</td><td>0.2004</td><td>0.2215</td><td>0.6739</td><td></td><td></td><td></td><td></td></tr><tr><td>11</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>12</td><td colspan="4">Panel B: Correlation of Residuals</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>13</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>14</td><td></td><td>WMT</td><td>TGT</td><td>VZ</td><td>T</td><td>F</td><td>GM</td><td></td><td></td><td></td></tr><tr><td>15</td><td>WMT (Walmart)</td><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>16</td><td>TGT (Target)</td><td>0.405</td><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>17</td><td>VZ (Verizon)</td><td>0.089</td><td>-0.071</td><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>18</td><td>T (AT&amp;T)</td><td>0.193</td><td>-0.007</td><td>0.624</td><td>1</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>19</td><td>F (Ford)</td><td>0.095</td><td>0.077</td><td>-0.230</td><td>-0.200</td><td>1</td><td></td><td></td><td></td><td></td></tr><tr><td>20</td><td>GM (General Motors)</td><td>0.036</td><td>0.175</td><td>-0.320</td><td>-0.309</td><td>0.699</td><td>1</td><td></td><td></td><td></td></tr><tr><td>21</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>22</td><td colspan="4">Panel C: The Index Model Covariance Matrix</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>23</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>24</td><td></td><td></td><td>Market Index</td><td>WMT</td><td>TGT</td><td>VZ</td><td>T</td><td>F</td><td>GM</td><td></td></tr><tr><td>25</td><td></td><td>Beta</td><td>1.0000</td><td>0.2095</td><td>0.5265</td><td>0.2375</td><td>0.2981</td><td>1.3258</td><td>1.6613</td><td></td></tr><tr><td>26</td><td>Market Index</td><td>1.0000</td><td>0.0145</td><td>0.0030</td><td>0.0077</td><td>0.0035</td><td>0.0043</td><td>0.0193</td><td>0.0242</td><td></td></tr><tr><td>27</td><td>WMT (Walmart)</td><td>0.2095</td><td>0.0030</td><td>0.0276</td><td>0.0016</td><td>0.0007</td><td>0.0009</td><td>0.0040</td><td>0.0051</td><td></td></tr><tr><td>28</td><td>TGT (Target)</td><td>0.5265</td><td>0.0077</td><td>0.0016</td><td>0.0371</td><td>0.0018</td><td>0.0023</td><td>0.0102</td><td>0.0127</td><td></td></tr><tr><td>29</td><td>VZ (Verizon)</td><td>0.2375</td><td>0.0035</td><td>0.0007</td><td>0.0018</td><td>0.0219</td><td>0.0010</td><td>0.0046</td><td>0.0057</td><td></td></tr><tr><td>30</td><td>T (AT&amp;T)</td><td>0.2981</td><td>0.0043</td><td>0.0009</td><td>0.0023</td><td>0.0010</td><td>0.0184</td><td>0.0057</td><td>0.0072</td><td></td></tr><tr><td>31</td><td>F (Ford)</td><td>1.3258</td><td>0.0193</td><td>0.0040</td><td>0.0102</td><td>0.0046</td><td>0.0057</td><td>0.0648</td><td>0.0320</td><td></td></tr><tr><td>32</td><td>GM (General Motors)</td><td>1.6613</td><td>0.0242</td><td>0.0051</td><td>0.0127</td><td>0.0057</td><td>0.0072</td><td>0.0320</td><td>0.0884</td><td></td></tr><tr><td>33</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>34</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>35</td><td colspan="7">Panel D: Macro Forecast and Forecasts of Alpha Values</td><td></td><td></td><td></td></tr><tr><td>36</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>37</td><td>market risk premium =</td><td></td><td colspan="2">0.06</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>38</td><td></td><td>Market index</td><td>WMT</td><td>TGT</td><td>VZ</td><td>T</td><td>F</td><td>GM</td><td></td><td></td></tr><tr><td>39</td><td>Alpha</td><td>0.0000</td><td>0.0150</td><td>-0.0100</td><td>-0.0050</td><td>0.0075</td><td>0.0120</td><td>0.0025</td><td></td><td></td></tr><tr><td>40</td><td>Beta</td><td>1.0000</td><td>0.2095</td><td>0.5265</td><td>0.2375</td><td>0.2981</td><td>1.3258</td><td>1.6613</td><td></td><td></td></tr><tr><td>41</td><td>Risk premium</td><td>0.0600</td><td>0.0276</td><td>0.0216</td><td>0.0092</td><td>0.0254</td><td>0.0915</td><td>0.1022</td><td></td><td></td></tr><tr><td>42</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>43</td><td colspan="7">Panel E: Computation of the Optimal Risky Portfolio</td><td></td><td></td><td></td></tr><tr><td>44</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>45</td><td></td><td>Market index</td><td>Active Pf A</td><td>WMT</td><td>TGT</td><td>VZ</td><td>T</td><td>F</td><td>GM</td><td>Overall Pf</td></tr><tr><td>46</td><td>σ2(e)</td><td></td><td></td><td>0.0275</td><td>0.0336</td><td>0.0215</td><td>0.0174</td><td>0.0399</td><td>0.0491</td><td></td></tr><tr><td>47</td><td>w_i(0) = α_i/σ^2(e)</td><td></td><td>0.7975</td><td>0.5463</td><td>-0.2975</td><td>-0.2328</td><td>0.4301</td><td>0.3004</td><td>0.0509</td><td></td></tr><tr><td>48</td><td>w_i</td><td></td><td>1.0000</td><td>0.6850</td><td>-0.3730</td><td>-0.2918</td><td>0.5393</td><td>0.3767</td><td>0.0639</td><td></td></tr><tr><td>49</td><td>[w_i(0)]^2</td><td></td><td></td><td>0.4693</td><td>0.1392</td><td>0.0852</td><td>0.2908</td><td>0.1419</td><td>0.0041</td><td></td></tr><tr><td>50</td><td>α_A</td><td></td><td>0.0242</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>51</td><td>σ^2(ε_A)</td><td></td><td>0.0303</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>52</td><td>E(R_M)/σ^2(M)</td><td></td><td>4.1249</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>53</td><td>w_A(0)</td><td></td><td>0.1933</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>54</td><td>β_A</td><td></td><td>0.6441</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>55</td><td>w* (Optimal Risky Port)</td><td>0.8191</td><td>0.1809</td><td>0.1239</td><td>-0.0675</td><td>-0.0528</td><td>0.0975</td><td>0.0681</td><td>0.0116</td><td></td></tr><tr><td>56</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>57</td><td>Beta</td><td>1.0000</td><td>0.6441</td><td>0.2095</td><td>0.5265</td><td>0.2375</td><td>0.2981</td><td>1.3258</td><td>1.6613</td><td>0.9356</td></tr><tr><td>58</td><td>Risk premium</td><td>0.0600</td><td>0.0628</td><td>0.0276</td><td>0.0216</td><td>0.0092</td><td>0.0254</td><td>0.0915</td><td>0.1022</td><td>0.0605</td></tr><tr><td>59</td><td>SD</td><td>0.1206</td><td>0.1907</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.1172</td></tr><tr><td>60</td><td>Sharpe Ratio</td><td>0.4975</td><td>0.3295</td><td></td><td></td><td></td><td></td><td></td><td></td><td>0.5165</td></tr></table>
-
-# Spreadsheet 8.1
-
-Implementing the index model
-
-# Excel
+### Excel
 
 Please visit us at www.mhhe.com/Bodie13e
 
@@ -640,7 +495,7 @@ The interesting question here is the extent to which the index model produces re
 Table 8.4 compares the composition and expected performance of the optimal risky portfolios derived from the two models. The portfolio weights using the full-covariance matrix take advantage of the correlation among residuals. For example, Walmart has a positive alpha and Target has a negative alpha, so Walmart is held long and Target is sold short. Because the residuals of the two firms are positively correlated, the full-covariance model dictates a more extreme positive position in Walmart and a more extreme negative position in Target than the index model, relying on the correlation between the two firms to offset the risk from those higher long-short positions. In the end, however, the suggested portfolio weights are not so different, and the optimal risky portfolio from the full-covariance (Markowitz) model has only slightly greater estimated risk premium and slightly greater estimated standard deviation. The Sharpe ratios are nearly identical. Even in this example, where we challenged the index model by applying it to pairs of
 
 
-# Table 8.4
+#### Table 8.4
 
 Comparison of optimal risky portfolios derived from the index model and the full-covariance (Markowitz) model
 
@@ -661,9 +516,9 @@ Against the potential superiority of the full-covariance model, we have the clea
 6. Betas show a tendency to evolve toward 1 over time. Beta forecasting rules attempt to predict this drift. Moreover, other financial variables can be used to help forecast betas.
 7. Optimal active portfolios include analyzed securities in direct proportion to their alpha and in inverse proportion to their firm-specific variance. The full risky portfolio is a mixture of the active portfolio and the passive market-index portfolio. The index portfolio is used to enhance the diversification of the overall risky position.
 
-# SUMMARY
+## SUMMARY
 
-# KEY EQUATIONS
+## KEY EQUATIONS
 
 Single-index model (in excess returns):  $R_{i}(t) = \alpha_{i} + \beta_{i}R_{M}(t) + e_{i}(t)$
 
@@ -687,7 +542,7 @@ Asset weight in active portfolio:  $w_{i}^{*} = w_{A}^{*}\frac{\alpha_{i} / \sig
 
 Squared information ratio of active portfolio:  $\left[\frac{\alpha_A}{\sigma(e_A)}\right]^2 = \sum_{i=1}^{n}\left[\frac{\alpha_i}{\sigma(e_i)}\right]^2$
 
-# PROBLEM SETS
+## PROBLEM SETS
 
 1. What are the advantages of the index model compared to the Markowitz procedure for obtaining an efficiently diversified portfolio? What are its disadvantages?
 2. What is the basic trade-off when departing from pure indexing in favor of an actively managed portfolio?
@@ -854,12 +709,9 @@ $b$ . Only systematic risk, while standard deviation measures total risk.
 c. Both systematic and unsystematic risk, while standard deviation measures only unsystematic risk.
 $d$ . Both systematic and unsystematic risk, while standard deviation measures only systematic risk.
 
-# E-INVESTMENTS EXERCISES
+## E-INVESTMENTS EXERCISES
 
-Go to http://finance.yahoo.com and click on Screeners and then Equity Screeners. If you click on Add Another Filter you will find an extensive list of potential characteristics. Choose beta, and search for firms with betas less than 0.2. In what industries do these firms tend to operate? Now repeat and select firms with betas above 1.2. Do the industries containing high-versus low-beta firms match up with your intuition about which industries would be likely to be more cyclical?
-
-
-# SOLUTIONS TO CONCEPT CHECKS
+## SOLUTIONS TO CONCEPT CHECKS
 
 1.  $a$ . Total market capitalization is  $3,000 + 1,940 + 1,360 = 6,300$ . Therefore, the mean excess return of the index portfolio is
 

@@ -1,9 +1,37 @@
 ---
 aliases:
-  - References to CFA Problems
-tags:
-key_concepts:
+   - References to CFA Problems
 parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Back Matter
+formatted: 2025-12-21 11:30:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+formatter_agent: obsidian-formatting-agent
+primary_tags:
+   - cfa exam references
+   - financial terminology
+   - investment concepts
+secondary_tags:
+   - abnormal return
+   - arbitrage pricing theory
+   - beta coefficient
+   - black-scholes model
+   - bond valuation
+   - capital asset pricing model
+   - credit risk
+   - dividend discount model
+   - efficient market hypothesis
+   - futures contracts
+   - hedge funds
+   - interest rate parity
+   - market risk premium
+   - option pricing
+   - portfolio theory
+   - risk management
+   - security analysis
+   - technical analysis
+   - valuation models
+   - volatility modeling
+   - yield curve analysis
 cssclasses: academia
 title: "References to CFA Problems"
 ---
@@ -12,31 +40,31 @@ title: "References to CFA Problems"
 
 Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. Following is a list of the CFA problems in the end-of-chapter material and the exams and study guides from which they were updated.
 
-# Chapter 2
+## Chapter 2
 
 1-3. 1996 Level I CFA Study Guide
 4. 1994 Level I CFA Study Guide
 5. 1994 Level I CFA Study Guide
 
-# Chapter 3
+## Chapter 3
 
 1. 1986 Level I CFA Study Guide
 2. 1986 Level I CFA Study Guide
 
-# Chapter 5
+## Chapter 5
 
 1. 1992 Level I CFA Study Guide
 2. 1992 Level I CFA Study Guide
 3-7. 1993 Level I CFA Study Guide
 
-# Chapter 6
+## Chapter 6
 
 1-3. 1991 Level I CFA Study Guide
 4-5. 1991 Level I CFA Study Guide
 6. 1991 Level I CFA Study Guide
 7-9. 1993 Level I CFA Study Guide
 
-# Chapter 7
+## Chapter 7
 
 1-3. 1982 Level III CFA Study Guide
 4. 1993 Level I CFA Study Guide
@@ -48,7 +76,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 12. 2001 Level II CFA Study Guide
 13. 2000 Level II CFA Study Guide
 
-# Chapter 8
+## Chapter 8
 
 1. 1982 Level I CFA Study Guide
 2. 1993 Level I CFA Study Guide
@@ -56,7 +84,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 4. 1993 Level I CFA Study Guide
 5. 1994 Level I CFA Study Guide
 
-# Chapter 9
+## Chapter 9
 
 1. 2002 Level I CFA Study Guide
 2. 2002 Level I CFA Study Guide
@@ -69,18 +97,18 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 11. 2002 Level II CFA Study Guide
 12. 2000 Level II CFA Study Guide
 
-# Chapter 10
+## Chapter 10
 
 1. 2001 Level II CFA Study Guide
 2-8. 1991-1993 Level I CFA Study Guides
 
-# Chapter 11
+## Chapter 11
 
 1-3. 1993 Level I CFA Study Guide
 4. 1992 Level I CFA Study Guide
 5-7. 1996 Level III CFA Study Guide
 
-# Chapter 12
+## Chapter 12
 
 1. 2000 Level III CFA Study Guide
 2. 2001 Level III CFA Study Guide
@@ -88,13 +116,13 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 4. 2003 Level III CFA Study Guide
 5. 2002 Level III CFA Study Guide
 
-# Chapter 13
+## Chapter 13
 
 1. 1993 Level I CFA Study Guide
 2. 1993 Level I CFA Study Guide
 3. 2002 Level II CFA Study Guide
 
-# Chapter 14
+## Chapter 14
 
 1. 1993 Level I CFA Study Guide
 2. 1994 Level I CFA Study Guide
@@ -103,7 +131,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 5. 1993 Level I CFA Study Guide
 6. 1992 Level I CFA Study Guide
 
-# Chapter 15
+## Chapter 15
 
 1. 1993 Level II CFA Study Guide
 2. 1993 Level I CFA Study Guide
@@ -116,7 +144,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 9. 1996 Level II CFA Study Guide
 10. 2000 Level II CFA Study Guide
 
-# Chapter 16
+## Chapter 16
 
 1. 1993 Level II CFA Study Guide
 2. 1992-1994 Level I CFA study guides
@@ -133,7 +161,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 12. 2001 Level II CFA Study Guide
 13. 1992 Level II CFA Study Guide
 
-# Chapter 17
+## Chapter 17
 
 1. 1993 Level I CFA Study Guide
 2. 1993 Level I CFA Study Guide
@@ -143,7 +171,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 6. 1995 Level II CFA Study Guide
 7. 1993 Level I CFA Study Guide
 
-# Chapter 18
+## Chapter 18
 
 1. 1995 Level II CFA Study Guide
 2. 2001 Level II CFA Study Guide
@@ -156,7 +184,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 10. 2003 Level I CFA Study Guide
 11. 2003 Level II CFA Study Guide
 
-# Chapter 19
+## Chapter 19
 
 1. 1998 Level II CFA Study Guide
 2. 1999 Level II CFA Study Guide
@@ -169,7 +197,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 12. 2002 Level II CFA Study Guide
 13. 1990 Level II CFA Study Guide
 
-# Chapter 20
+## Chapter 20
 
 1. 2002 Level II CFA Study Guide
 2. 2000 Level II CFA Study Guide
@@ -177,7 +205,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 4. 2002 Level II CFA Study Guide
 5. From various Level I CFA study guides
 
-# Chapter 21
+## Chapter 21
 
 1. 1998 Level II CFA Study Guide
 2. 2003 Level II CFA Study Guide
@@ -185,7 +213,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 4. 2000 Level II CFA Study Guide
 5. 1997 Level III CFA Study Guide
 
-# Chapter 22
+## Chapter 22
 
 1. 2000 Level II CFA Study Guide
 2. 1993 Level II CFA Study Guide
@@ -193,7 +221,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 4. 2004 Level II CFA Study Guide
 5. 2004 Level II CFA Study Guide
 
-# Chapter 23
+## Chapter 23
 
 1. 2001 Level II CFA Study Guide
 2. 1995 Level III CFA Study Guide
@@ -204,7 +232,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 7. 1985 Level III CFA Study Guide
 8. 1996 Level II CFA Study Guide
 
-# Chapter 24
+## Chapter 24
 
 1. 1995 Level III CFA Study Guide
 2. 1981 Level I CFA Study Guide
@@ -214,7 +242,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 13. 2000 Level III CFA Study Guide
 14. 2002 Level III CFA Study Guide
 
-# Chapter 25
+## Chapter 25
 
 1-3. From various Level I CFA study guides
 4. 1986 Level III CFA Study Guide
@@ -224,7 +252,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 7. 2003 Level III CFA Study Guide
 8. 1998 Level II CFA Study Guide
 
-# Chapter 28
+## Chapter 28
 
 1. 2001 Level III CFA Study Guide
 2-4. 1988 Level I CFA Study Guide
@@ -234,7 +262,7 @@ Each end-of-chapter CFA problem is from the CFA Institute, Charlottesville, VA. 
 8. 2004 Level III CFA Study Guide
 9. 2004 Level III CFA Study Guide
 
-# A abnormal return Return on a stock beyond what would be predicted by market movements alone. Cumulative abnormal return (CAR) is the total abnormal return for the period surrounding an announcement or the release of information.
+## A abnormal return Return on a stock beyond what would be predicted by market movements alone. Cumulative abnormal return (CAR) is the total abnormal return for the period surrounding an announcement or the release of information.
 
 
 accounting earnings Earnings of a firm as reported on its income statement.
@@ -284,7 +312,7 @@ auction market A market where all traders in an asset meet (either physically or
 
 average collection period The ratio of accounts receivable to daily sales. Also called days' receivables.
 
-# B backfill bias Bias in the average returns of a sample of funds induced by including past returns on funds that entered the sample only if they happened to be successful.
+## B backfill bias Bias in the average returns of a sample of funds induced by including past returns on funds that entered the sample only if they happened to be successful.
 
 
 balance sheet An accounting statement of a firm's financial position at a specified time.
@@ -341,7 +369,7 @@ brokered market A market where an intermediary (a broker) offers search services
 
 budget deficit The amount by which government spending exceeds government revenues.
 
-bull CD, bear CD A bull  $CD$  pays its holder a specified percentage of the increase in return on a specified market index while guaranteeing a minimum rate of return. A bear  $CD$  pays the holder a fraction of any fall in a given market index.
+bull CD, bear CD A bull $CD$ pays its holder a specified percentage of the increase in return on a specified market index while guaranteeing a minimum rate of return. A bear $CD$ pays the holder a fraction of any fall in a given market index.
 
 bullish, bearish Words used to describe investor attitudes. Bullish means optimistic; bearish means pessimistic. Also used in bull market and bear market.
 
@@ -351,7 +379,7 @@ burn rate The rate at which a start-up spends down its available cash.
 
 business cycle Repetitive cycles of recession and recovery.
 
-# C calendar spread Buy one option and write another with a different expiration date.
+## C calendar spread Buy one option and write another with a different expiration date.
 
 
 call option The right to buy an asset at a specified exercise price on or before a specified expiration date.
@@ -437,7 +465,7 @@ convexity The curvature of the price-yield relationship of a bond.
 
 corporate bonds Long-term debt issued by private corporations typically paying semiannual coupons and returning the face value of the bond at maturity.
 
-correlation coefficient A statistic in which the covariance is scaled to a value between  $-1$  (perfect negative correlation) and  $+1$  (perfect positive correlation).
+correlation coefficient A statistic in which the covariance is scaled to a value between $-1$ (perfect negative correlation) and $+1$ (perfect positive correlation).
 
 cost-of-carry relationship See spot-futures parity theorem.
 
@@ -469,7 +497,7 @@ current yield A bond's annual coupon payment divided by its price. Differs from 
 
 cyclical industries Industries with above-average sensitivity to the state of the economy.
 
-# D dark pools Electronic trading networks where participants can anonymously buy or sell large blocks of securities.
+## D dark pools Electronic trading networks where participants can anonymously buy or sell large blocks of securities.
 
 
 data mining Sorting through large amounts of historical data to uncover systematic patterns that can be used as the basis of a trading strategy.
@@ -496,7 +524,7 @@ defined benefit plans Pension plans in which retirement benefits are set accordi
 
 defined contribution plans Pension plans in which the employer is committed to making contributions according to a fixed formula.
 
-degree of operating leverage (DOL) Percentage change in profits for a  $1\%$  change in sales.
+degree of operating leverage (DOL) Percentage change in profits for a $1\%$ change in sales.
 
 delta (of option) The number of stocks required to hedge against the price risk of writing one option. Also called the hedge ratio.
 
@@ -542,7 +570,7 @@ duration A measure of the average life of a bond, defined as the weighted averag
 
 dynamic hedging Constant updating of hedge positions as market conditions change.
 
-# E
+## E
 
 EAFE index The Europe, Australasia, Far East index is a widely used index of non-U.S. stocks.
 
@@ -572,7 +600,7 @@ efficient frontier of risky assets The portion of the minimum-variance frontier 
 
 efficient market hypothesis (EMH) The prices of securities fully reflect available information. Investors buying securities in an efficient market should expect to obtain an equilibrium rate of return. Weak-form EMH asserts that stock prices reflect all information contained in the history of past prices. The semistrong-form hypothesis asserts that stock prices also reflect all publicly available information. The strong-form hypothesis asserts that stock prices reflect all relevant information, including insider information.
 
-elasticity (of an option) Percentage change in the value of an option accompanying a  $1\%$  change in the value of a stock.
+elasticity (of an option) Percentage change in the value of an option accompanying a $1\%$ change in the value of a stock.
 
 electronic communication network (ECN) A computer-operated trading network for trading securities. Some ECNs are registered as formal stock exchanges, and others are considered part of the over-the-counter market.
 
@@ -612,7 +640,7 @@ expected return-beta (or mean-beta) relationship Implication of the CAPM that se
 
 expected shortfall (ES) The expected loss on a security conditional on returns being in the left tail of the probability distribution.
 
-# F face value The maturity value of a bond. See par value.
+## F face value The maturity value of a bond. See par value.
 
 
 factor beta Sensitivity of security returns to the realization of a systematic factor. Also called factor loading and factor sensitivity.
@@ -683,10 +711,10 @@ futures option The right to enter a futures contract at a futures price equal to
 
 futures price The price at which a futures trader commits to make or take delivery of the underlying asset.
 
-# G gamma The curvature of an option pricing function (as a function of the value of the underlying asset).
+## G gamma The curvature of an option pricing function (as a function of the value of the underlying asset).
 
 
-geometric average The  $n$ th root of the product of  $n$  numbers. It is used to measure the compound rate of return over a given sample period.
+geometric average The $n$th root of the product of $n$ numbers. It is used to measure the compound rate of return over a given sample period.
 
 globalization Tendency toward a worldwide investment environment, and the integration of national capital markets.
 
@@ -694,7 +722,7 @@ grandstanding The practice by venture capitalists that takes a startup public to
 
 gross domestic product (GDP) The market value of goods and services produced in an economy during a particular time period.
 
-# H hedge fund A private investment pool, open to institutional or wealthy investors, that is largely exempt from SEC regulation and can pursue more speculative policies than mutual funds.
+## H hedge fund A private investment pool, open to institutional or wealthy investors, that is largely exempt from SEC regulation and can pursue more speculative policies than mutual funds.
 
 
 hedge ratio (for futures) The number of contracts necessary to hedge a particular source of risk.

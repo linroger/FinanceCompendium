@@ -1,13 +1,21 @@
 ---
-parent_directory:
 title: Dollar General Going Private
-tags:
-aliases:
-parent_folder: Week 2
-subfolder:
-key_concepts:
+parent_directory: VII. Corporate Finance/Valuation/PPHA Advanced Financial Analysis & Valuation/Week 2
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - leveraged buyout
+  - dollar general
+  - private equity
+secondary_tags:
+  - deep discount retail
+  - kkr acquisition
+  - shareholder activism
+  - retail industry analysis
+  - valuation multiples
+  - strategic restructuring
 cssclasses: academia
-linter-yaml-title-alias: Dollar General Going Private
 ---
 
 SHARON KATZ
@@ -26,15 +34,15 @@ Just hours after Dollar General said on Monday it agreed to the buyout by KKR, [
 
 Irina Sadayo (HBS, 2001), one of many retail shareholders of Dollar General Corporation (DG), debated whether to vote to approve a deal with Kohlberg Kravis Roberts & Co. (KKR). Concern that DG's selling price was "grossly inadequate," as claimed by some shareholders, was difficult to reconcile, however, with the apparently "generous" multiple, above and beyond those of comparable transactions and with a  $31\%$  premium above the current stock price. Further analysis clearly being needed, Sadayo decided to wait until the release of the 2006 annual report, expected by the end of March 2007, before making her decision.
 
-# Dollar General Corporation (NYSE: DG) $^{1}$
+## Dollar General Corporation (NYSE: DG) $^{1}$
 
 Founded in 1939 as J.L. Turner & Son, a wholesale business in Scottsville, Kentucky, DG was a Fortune  $500$ ® company and the leader in the deep-discount retail channel, with more than 8,000 stores in 35 states, primarily in the southern and eastern United States, the Midwest, and the Southwest. The company pioneered the dollar-store concept in 1955, opening retail stores that sold all items for \$1. The format was extremely successful, boosting the company's sales to \$25.8 million by 1965. In 1968, the company tendered an initial public offering (IPO) and changed its name to Dollar General.
 
-# Dollar General's Business Strategy
+## Dollar General's Business Strategy
 
 To carry out its stated mission of "serving others," DG pursued a business strategy of providing customers with a focused assortment of fairly priced, consumable merchandise in a convenient, small-store format.
 
-Customers DG served the basic consumable needs of customers primarily in the lowand middle-income brackets and on fixed incomes. In 2006, approximately  $41\%$  of its customers had gross incomes of less than \$30,000 per year and approximately \(24\%$  gross incomes of less than \\)20,000 per year.
+Customers DG served the basic consumable needs of customers primarily in the lowand middle-income brackets and on fixed incomes. In 2006, approximately  $41\%$  of its customers had gross incomes of less than \$30,000 per year and approximately $24\%$  gross incomes of less than $20,000 per year.
 
 Stores The traditional DG store had, on average, approximately 6,900 square feet of selling space and generally served customers who lived within a five-mile radius. Of its 8,260 stores, 4,750 served communities with populations of 20,000 or fewer. In 2003, DG tested a Dollar General Market® store concept whereby 56 stores averaging 17,250 square feet of selling space began to carry, among other merchandise, an expanded assortment of grocery products and perishable items.
 
@@ -44,17 +52,17 @@ Prices DG emphasized even-dollar prices on many items. In the typical store, mos
 
 Cost controls DG aggressively managed its overhead cost structure by, for example, locating stores in neighborhoods in which rent and operating costs were relatively low. It also attempted to control operating costs by implementing new technology where feasible.
 
-# 2005 SEC Settlement
+## 2005 SEC Settlement
 
 In 2005, DG reached a settlement with the Securities and Exchange Commission (SEC) regarding an investigation of accounting restatements from 1998 to 2001 that reduced DG's pretax income by a cumulative amount of  \$143 million. The SEC alleged that DG had manipulated earnings and failed to maintain adequate internal accounting controls. Additionally, the SEC claimed that DG executives knew about, or even influenced, practices employed to meet or beat analysts' expectations and maintain employees' bonuses. DG paid\$ 10 million in civil penalties and incurred a permanent civil injunction against future violations but neither admitted nor denied the allegations. DG's then-CEO Hurley Cal Turner Jr. agreed to pay a \$1 million fine.[3]
 
-# Recent Stock Price
+## Recent Stock Price
 
-DG's stock price had declined steadily throughout the first three quarters of 2006, finally hitting a 52-week low of \(12.10 in September 2006. During this period, DG reported reduced same-store sales and missed analysts' expectations several times. Uncertainty arising from takeover speculation and announced plans to close underperforming stores pushed the company's price down even further.
+DG's stock price had declined steadily throughout the first three quarters of 2006, finally hitting a 52-week low of $12.10 in September 2006. During this period, DG reported reduced same-store sales and missed analysts' expectations several times. Uncertainty arising from takeover speculation and announced plans to close underperforming stores pushed the company's price down even further.
 
 By the fall of 2006, in an effort to restructure its business model, DG abandoned its "packaway" inventory model, whereby it kept unsold inventory instead of moving it through clearance markdowns, and announced plans to open 535 new stores. The company also repurchased approximately 4.5 million shares of its common stock. By February 2007, DG reported a total sales increase of  $4.9\%$ , beating Wall Street forecasts of  $4.6\%$ . When KKR announced its plan to acquire DG at a price representing more than a  $30\%$  premium, shares went up \$4.29 to close at \$21.18. (See Exhibit 1 for a stock price graph.)
 
-# Deep-Discount Retail Channel
+## Deep-Discount Retail Channel
 
 The deep-discount retail segment was broadly divided into the following categories:
 
@@ -74,13 +82,13 @@ But the pace of growth witnessed over the past few years in the deep-discount st
 
 strong deep-discount store chains) crowded out newcomers, the major deep-discount store retail brands were likely to face decline. (The market share of various players in the deep-discount retail segment is shown in Exhibit 3; Exhibit 4 presents forecasts of total U.S. retail sales in deep-discount retail channel stores for the period 2006-2010.)
 
-# Leveraged Buyout (LBO)
+## Leveraged Buyout (LBO)
 
-# LBO Transaction
+### LBO Transaction
 
 A leveraged buyout (LBO) involved the use of a significant amount of borrowed money or debt (e.g., loans or bonds) to acquire a company or division of a company. LBO transactions enabled private-equity firms and LBO investors to make large acquisitions without committing a great deal of their own capital. It was not unusual in a typical LBO transaction to see a ratio of  $90\%$  debt to  $10\%$  equity. The financing for such deals was usually borrowed in the public markets by issuing high-yield, high-risk debt instruments (sometimes called "junk bonds"). Thus, the term "leveraged buyout." In many LBO arrangements, private-equity firms or management bought up all the outstanding shares of a company's stock (sometimes referred to as "going private") and used the company assets as collateral for a loan to fund the purchase. These loans were later repaid out of future cash flows or with proceeds from the sale of the company's assets. In some LBOs, the continuing effort of the management team was central to the success of the offer, while in other cases the management team was removed.
 
-# LBO Market
+### LBO Market
 
 LBO strategies became popular in the 1980s due primarily to growth in public debt markets that made it possible for greater numbers of borrowers to access large amounts of capital. When private-equity investors in LBO deals realized that they could achieve returns of  $20\%$  to  $25\%$ , LBOs really took off. By 1989, the total revenue in LBO transactions in the United States exceeded \$76.6 billion. In the late 1990s, when several prominent buyouts led to the eventual bankruptcy of the acquired companies, the industry experienced a setback. A number of precautionary measures were conceived to make corporations less vulnerable to LBOs. The most famous was the poison pill, by means of which a corporation ensured that its valuation would fall dramatically in the event of a hostile takeover.
 
@@ -92,7 +100,7 @@ acting like buyout firms, either purchasing large controlling stakes in other co
 
 Between 2004 and 2006, buyout firms averaged a  $15.6\%$  return on their investments, compared with  $9.9\%$  for the S&P 500.[10] In 2006, private-equity firms bought a total of 654 U.S. companies—which accounted for a quarter of all U.S. mergers and acquisitions that year and was 18 times the level in 2003—for a record \$375 billion. Nine of the 10 largest buyouts occurred in 2006, including office landlord Equity Office Partner's Trust for \$39 billion and hospital manager HCA for \$33 billion.[11]
 
-# The Transaction<sup>12</sup>
+### The Transaction<sup>12</sup>
 
 On March 11, 2007, Dollar General's board agreed to a buyout offer of approximately \$6.9 billion from affiliates of private-equity firm KKR. As part of the deal that would take the company private, KKR would assume \$380 million in debt.
 
@@ -102,7 +110,7 @@ Under the agreement, DG shareholders would receive, per share,  \$22.00 in cash,
 
 Consummation of the merger agreement, approved unanimously by DG's board of directors, was subject to approval by the shareholders. A special shareholders meeting was scheduled for June 2007. The deal was expected to be completed in the third quarter of that year.[14]
 
-# The Lawsuit
+### The Lawsuit
 
 On March 12, 2007, a few hours after the merger was announced, DG shareholder William Hochman filed a complaint against the company, its board of directors, and KKR arguing that the merger was "pursuant to an unfair process and at a grossly inadequate price of \$22." The plaintiff
 
@@ -112,11 +120,11 @@ Shareholders' lawyers further argued that DG's recent strategic initiatives woul
 
 In addition, debt investors were not so keen. Debt financing provided for the deal by Goldman Sachs and Lehman Brothers would translate into additional payments owed by Dollar General in coming years. Moody's Investors Service put Dollar General's Ba1 debt rating on review for a possible downgrade, explaining that the merger with KKR "will result in significant increase in the company's leverage and a corresponding weakening in credit metrics at a time when the company's operating performance has been weak."17
 
-# Dollar General's 2006 Annual Report and Recent Strategic Initiatives<sup>18</sup>
+### Dollar General's 2006 Annual Report and Recent Strategic Initiatives<sup>18</sup>
 
 DG issued its annual report for the fiscal year ended February 2, 2007 at the end of March 2007. Examining the income statement, Sadayo was surprised to see a sharp decline in net income during the year, from  \$350.2 million in 2005 to only\$ 137.9 million in 2006, despite increased revenues. Moreover, whereas revenues increased by \$587.6 million, cost of goods sold increased by \$684.2 million. (Exhibit 5 presents Dollar General's 2006 financial statements together with Sadayo's calculations of common-size income statements and balance sheets. The exhibit also contains selected excerpts from Dollar General's summary of critical accounting policies and estimates.) To better understand what happened, Sadayo turned to the "management's discussion and analysis of financial condition and results of operations" (MD&A) section of the annual report, where she read about the following recent strategic initiatives DG had implemented.[19]
 
-# Inventory Management
+#### Inventory Management
 
 In November 2006, DG announced a plan to minimize the amount of store merchandise it carried over to subsequent periods ("packaway"). In the fourth quarter of fiscal 2006, DG began a significant effort to sell through this inventory. By using end-of-season and other markdowns, DG planned to eliminate, by the end of fiscal 2007, existing seasonal, home, and apparel packaway inventories in order to make way for newer, fresher items and more appealing merchandise.
 
@@ -124,7 +132,7 @@ To maximize the financial returns of this initiative while accelerating the sell
 
 DG discontinued its traditional inventory packaway management model in an attempt to better meet its customers' needs and ensure an appealing, fresh merchandise selection. Beginning in fiscal 2007, DG was planning to increase levels of newer, current-season merchandise by taking end-of-season markdowns on virtually all current-year, nonreplenishable merchandise. It believed that its revised strategy would enhance the appearance of its stores and have a positive impact on both customer satisfaction and store employees' ability to manage stores. DG expected these changes to yield higher sales and gross profit, reduce employee turnover and inventory shrink and damage, and improve inventory management, resulting in more appropriate per store inventory levels.[20]
 
-# Real Estate Strategy
+#### Real Estate Strategy
 
 In November 2006, DG announced significant changes to its real estate strategy. As part of a plan, approved by the board of directors, to enhance the store experience for customers, DG announced that it would close, by the end of fiscal 2007, approximately 400 stores that did not meet its real estate criteria. Further, it would remodel or relocate approximately 300 stores during fiscal 2007 and decelerate new store openings, with the expectation of opening 300 new stores in fiscal 2007.
 
@@ -138,7 +146,7 @@ Source: Dollar General Corporation's 2006 10-K.
 aIncludes 41 stores closed as a result of hurricane damage.  
 bIncludes 128 stores closed as a result of certain recent strategic initiatives.
 
-# Impact on Financial Statements
+#### Impact on Financial Statements
 
 DG's accelerated implementation of a new inventory management policy led to substantially higher markdowns on inventory. Total markdowns, including inventory impairment charges, of  \$279.1 million at cost were taken during 2006, compared with total markdowns of\$ 106.5 million at cost taken in 2005.
 
@@ -150,7 +158,7 @@ DG expected the higher level of markdowns to continue throughout 2007 and predic
 
 Table B  
 
-<table><tr><td>(amount in millions)</td><td>Estimated Total</td><td>Incurred in 2006</td><td>Remaining</td></tr><tr><td>Lease contract termination costs</td><td>$38.1</td><td>$5.7</td><td>\$32.4</td></tr><tr><td>One-time employee termination benefits</td><td>1.4</td><td>0.3</td><td>1.1</td></tr><tr><td>Other associated store-closing costs</td><td>9.0</td><td>0.2</td><td>8.8</td></tr><tr><td>Inventory liquidation fees</td><td>5.0</td><td>1.6</td><td>3.4</td></tr><tr><td>Asset impairment and accelerated depreciation</td><td>9.0</td><td>8.3</td><td>0.7</td></tr><tr><td>Other \(costsa\)</td><td>42.1</td><td>17.3</td><td>24.8</td></tr><tr><td></td><td>$104.6</td><td>$33.4</td><td>\$71.2</td></tr></table>
+<table><tr><td>(amount in millions)</td><td>Estimated Total</td><td>Incurred in 2006</td><td>Remaining</td></tr><tr><td>Lease contract termination costs</td><td>$38.1</td><td>$5.7</td><td>\$32.4</td></tr><tr><td>One-time employee termination benefits</td><td>1.4</td><td>0.3</td><td>1.1</td></tr><tr><td>Other associated store-closing costs</td><td>9.0</td><td>0.2</td><td>8.8</td></tr><tr><td>Inventory liquidation fees</td><td>5.0</td><td>1.6</td><td>3.4</td></tr><tr><td>Asset impairment and accelerated depreciation</td><td>9.0</td><td>8.3</td><td>0.7</td></tr><tr><td>Other $costsa$</td><td>42.1</td><td>17.3</td><td>24.8</td></tr><tr><td></td><td>$104.6</td><td>$33.4</td><td>\$71.2</td></tr></table>
 
 Source: Dollar General Corporation's 2006 10-K.  
 a Includes incremental store labor, advertising, and other costs.
@@ -168,7 +176,7 @@ Higher advertising costs (increased  $198.3\%$ )
 
 These increases were partially offset by insurance proceeds of \(13 million received during the current-year period related to losses incurred as a consequence of Hurricane Katrina.
 
-# Sadayo's Analysis
+### Sadayo's Analysis
 
 Sadayo began her analysis by computing the financial ratios for DG and examining the common-size income statement and balance sheet. (See Exhibit 6 for Sadayo's ratios analysis for Dollar General.) To gain further insight into Dollar General's financials, Sadayo calculated the financial ratios of several comparable firms in the deep-discount retail channel identified by DG as its main competitors. (Spreadsheets with ratio analysis, key financials, and common-size income statements and balance sheets for these comparable firms are provided in Exhibit 7.) She also looked at comparable transactions in the retail industry over the past few years (see Exhibit 8).
 
@@ -445,7 +453,7 @@ If Mr. Perdue's [Dollar General's Chairman and CEO] employment were terminated o
 
 # Equity Awards
 
-At the effective time of the merger, all restricted stock units [restricted shares, and stock options] issued and outstanding under Dollar General equity incentive plans will become fully vested and will be cancelled and converted into the right to receive a cash payment equal to the number of restricted stock units [restricted shares, and stock options] multiplied by \(22.00, without interest and less any applicable withholding taxes. The table below sets forth the number and aggregate value of restricted stock units [restricted shares, and stock options] held by the Named Executive Officers and directors as of March 29, 2007.\(^{a}\)
+At the effective time of the merger, all restricted stock units [restricted shares, and stock options] issued and outstanding under Dollar General equity incentive plans will become fully vested and will be cancelled and converted into the right to receive a cash payment equal to the number of restricted stock units [restricted shares, and stock options] multiplied by $22.00, without interest and less any applicable withholding taxes. The table below sets forth the number and aggregate value of restricted stock units [restricted shares, and stock options] held by the Named Executive Officers and directors as of March 29, 2007.$^{a}$
 
 Restricted Stock Units: David A. Perdue, aggregate value of \$ 11,641,781
 

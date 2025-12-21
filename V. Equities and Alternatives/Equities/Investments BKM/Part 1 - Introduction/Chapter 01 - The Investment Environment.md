@@ -1,21 +1,32 @@
 ---
-aliases:
-  - The Investment Environment
-tags:
-  - investment_environment
-  - financial_assets
-  - real_assets
-  - risk_return_tradeoff
-  - financial_markets
-key_concepts:
-  - Real vs Financial Assets
-  - Risk-Return Trade-off
-  - Financial Market Efficiency
-  - Investment Process
-  - Financial Crisis 2008
+title: Chapter 01 - The Investment Environment
 parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 1 - Introduction
+formatted: 2025-12-21 12:31:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+   - investment environment
+   - financial assets
+   - risk return tradeoff
+   - financial markets
+   - investment process
+secondary_tags:
+   - real assets
+   - fixed income securities
+   - equity investments
+   - derivative securities
+   - asset allocation
+   - portfolio construction
+   - financial intermediaries
+   - investment banking
+   - market efficiency
+   - systemic risk
+   - financial crisis 2008
+   - securitization
+   - credit risk
+   - regulatory oversight
+   - market participants
 cssclasses: academia
-title: "Chapter 01 - The Investment Environment"
 ---
 
 # The Investment Environment
@@ -37,7 +48,6 @@ c. Customer goodwill d. A college education
 e. A 5 bill
 
 The distinction between real and financial assets is apparent when we compare the balance sheet of U.S. households, shown in Table 1.1, with the composition of national wealth in the United States, shown in Table 1.2. Household wealth includes financial assets such as bank accounts, corporate stock, or bonds. However, these securities, which are financial assets of households, are liabilities of the issuers of the securities. For example, a bond that you treat as an asset because it gives you a claim on interest income and repayment of principal from Toyota is a liability of Toyota, which is obligated to make these payments. Your asset is Toyota's liability. Therefore, when we aggregate over all balance sheets, these claims cancel out, leaving only real assets as the net wealth of the economy. National wealth consists of structures, equipment, inventories of goods, and land.
-
 
 You might wonder why real assets held by households in Table 1.1 amount to $44,599 billion, while total real assets in the domestic economy (Table 1.2) are far larger, at $86,282 billion. A big part of the difference reflects the fact that real assets held by firms, for example, property, plant, and equipment, are included as financial assets of the household sector, specifically through the value of corporate equity and other stock market investments. Also, Table 1.2 includes assets of noncorporate businesses. Finally, there are some differences in valuation methods. For example, equity and stock investments in Table 1.1 are measured by market value, whereas plant and equipment in Table 1.2 are valued at replacement cost.
 
@@ -90,10 +100,31 @@ Domestic net worth
 
 We will focus almost exclusively on financial assets. But keep in mind that the successes or failures of these financial assets ultimately depend on the performance of the underlying real assets.
 
+```d2
+direction: right
+
+Real Assets: {
+  shape: cylinder
+  label: "Real Assets\n(Land, Buildings, Machines, Knowledge)"
+}
+
+Financial Assets: {
+  shape: document
+  label: "Financial Assets\n(Stocks, Bonds, Derivatives)"
+}
+
+Real Assets -> Financial Assets: "Generate income that finances"
+Investors: {
+  shape: person
+  label: "Investors"
+}
+
+Financial Assets -> Investors: "Represent claims on real asset income"
+```
+
 ## 1.2 Financial Assets
 
 It is common to distinguish among three broad types of financial assets: fixed income, equity, and derivatives. Fixed-income or debt securities promise either a fixed stream of income or a stream of income determined by a specified formula. For example, a corporate bond typically promises the bondholder a fixed amount of interest each year. Other so-called floating-rate bonds promise payments that depend on current interest rates. For example, a bond may pay an interest rate fixed at 2 percentage points above the rate paid on U.S. Treasury bills. Unless the borrower is declared bankrupt, the payments on these securities are either fixed or determined by formula. For this reason, the investment performance of debt securities typically is least closely tied to the financial condition of the issuer.
-
 
 Fixed-income securities come in a tremendous variety of maturities and payment provisions. At one extreme, money market securities are short term, highly marketable, and generally of very low risk, for example, U.S. Treasury bills or bank certificates of deposit (CDs). In contrast, the fixed-income capital market includes long-term securities such as Treasury bonds, as well as bonds issued by federal agencies, state and local municipalities, and corporations. These bonds range from very safe in terms of default risk (e.g., Treasury securities) to relatively risky (e.g., high-yield or "junk" bonds). They also are designed with extremely diverse provisions regarding payments provided to the investor and protection against the bankruptcy of the issuer. We will take a first look at these securities in Chapter 2 and undertake a more detailed analysis of the debt market in Part Four.
 
@@ -108,6 +139,20 @@ Investors and corporations regularly encounter other financial markets as well. 
 Investors also might invest directly in some real assets. For example, dozens of commodities are traded on exchanges such as the New York Mercantile Exchange or the Chicago Board of Trade. You can buy or sell corn, wheat, natural gas, gold, silver, and so on.
 
 Commodity and derivative markets allow firms to adjust their exposure to various business risks. For example, a construction firm may lock in the price of copper by buying copper futures contracts, thus eliminating the risk of a jump in the price of its raw materials. Wherever there is uncertainty, investors may be interested in trading, either to speculate or to lay off their risks, and a market may arise to meet that demand.
+
+```d2
+Fixed Income: {
+  label: "Fixed Income Securities\n(Bonds, Money Market)"
+}
+
+Equity: {
+  label: "Equity\n(Common Stock)"
+}
+
+Derivatives: {
+  label: "Derivatives\n(Options, Futures)"
+}
+```
 
 ## 1.3 Financial Markets and the Economy
 
@@ -180,7 +225,7 @@ Paul Singer, Elliott Management. Built up a large stake in the U.K. drug manufac
 
 Aside from proxy contests, the real takeover threat is from other firms. If one firm observes another underperforming, it can acquire the underperforming business and replace management with its own team. The stock price should rise to reflect the prospects of improved performance, which provides an incentive for firms to engage in such takeover activity.
 
-## Corporate Governance and Corporate Ethics
+### Corporate Governance and Corporate Ethics
 
 We've argued that securities markets can play an important role in facilitating the deployment of capital to the most productive uses. But market signals will help to allocate capital efficiently only if investors are acting on accurate information. We say that markets need to be transparent for investors to make informed decisions. If firms can mislead the public about their prospects, then much can go wrong.
 
@@ -188,10 +233,29 @@ Despite the many mechanisms to align incentives of shareholders and managers, th
 
 Other scandals of that period included systematically misleading and overly optimistic research reports put out by stock market analysts. (Their favorable analysis was traded for the promise of future investment banking business, and analysts were commonly compensated not for their accuracy or insight, but for their role in garnering investment banking business for their firms.) Additionally, initial public offerings were allocated to corporate executives as a quid pro quo for personal favors or the promise to direct future business back to the manager of the IPO.
 
-
 What about the auditors who were supposed to be the watchdogs of the firms? Here too, incentives were skewed. Recent changes in business practice had made the consulting businesses of these firms more lucrative than the auditing function. For example, Enron's (now-defunct) auditor Arthur Andersen earned more money consulting for Enron than by auditing it. Given Arthur Andersen's incentive to protect its consulting profits, we should not be surprised that it was overly lenient in its auditing work.
 
 In 2002, in response to the spate of ethics scandals, Congress passed the Sarbanes-Oxley Act, commonly referred to as SOX, to tighten the rules of corporate governance and disclosure. For example, the act requires corporations to have more independent directors, that is, more directors who are not themselves managers (or affiliated with managers). The act also requires each CFO to personally vouch for the corporation's accounting statements, provides for an oversight board to oversee the auditing of public companies, and prohibits auditors from providing various other services to clients.
+
+```d2
+direction: down
+
+Informational Role: {
+  label: "Informational Role\nStock prices reflect collective assessment"
+}
+
+Consumption Timing: {
+  label: "Consumption Timing\nShift purchasing power over lifetime"
+}
+
+Risk Allocation: {
+  label: "Allocation of Risk\nBear risk most willing to accept"
+}
+
+Ownership Separation: {
+  label: "Separation of Ownership and Management\nElect board of directors"
+}
+```
 
 ## 1.4 The Investment Process
 
@@ -228,6 +292,20 @@ Another implication of the no-free-lunch proposition is that we should rarely ex
 One interesting implication of this "efficient market hypothesis" concerns the choice between active and passive investment-management strategies. Passive management calls for holding highly diversified portfolios without spending effort or other resources attempting to improve investment performance through security analysis. Active management is the attempt to improve performance either by identifying mispriced securities or by timing the performance of broad asset classes—for example, increasing one's commitment to stocks when one is bullish on the stock market. If markets are efficient and prices reflect all relevant information, perhaps it is better to follow passive strategies instead of spending resources in a futile attempt to outguess your competitors in the financial markets.
 
 If the efficient market hypothesis were taken to the extreme, there would be no point in active security analysis; only fools would commit resources to actively analyze securities. Without ongoing security analysis, however, prices eventually would depart from "correct" values, creating new incentives for experts to move in. Therefore, even in environments as competitive as the financial markets, we may observe only near-efficiency, and profit opportunities may exist for especially diligent and creative investors. In Chapter 12, we examine such challenges to the efficient market hypothesis, and this motivates our discussion of active portfolio management in Part Seven. Nevertheless, our discussions of security analysis and portfolio construction generally must account for the likelihood of nearly efficient markets.
+
+```d2
+direction: right
+
+Low Risk: {
+  label: "Low Risk\nLow Expected Return\n(e.g., T-bills)"
+}
+
+High Risk: {
+  label: "High Risk\nHigh Expected Return\n(e.g., Stocks)"
+}
+
+Low Risk -> High Risk: "Risk-Return Tradeoff"
+```
 
 ## 1.6 The Players
 
@@ -402,7 +480,6 @@ Figure 1.2 Cumulative returns on the S&P 500 index
 Figure 1.3 The Case-Shiller index of U.S. housing prices
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/c9a87fb0ee0f371cd1d9f4d9d76b00c7cb413bd14630d19c3f824abfe91f80ae.jpg)
 Source: Case Shiller Composite Housing Price Index, www.us.spindices.com.
-
 
 ### Changes in Housing Finance
 

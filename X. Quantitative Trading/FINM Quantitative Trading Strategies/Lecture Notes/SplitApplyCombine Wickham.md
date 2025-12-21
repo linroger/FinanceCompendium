@@ -5,13 +5,19 @@ formatted: 2025-12-21 4:35:00 PM
 formatter_model: grok-code-fast-1
 cli_tool: opencode
 primary_tags:
-  - split apply combine
-  - data analysis strategy
+  - split-apply-combine strategy
   - plyr package
+  - data analysis
+  - ozone data analysis
 secondary_tags:
   - r programming
-  - data manipulation
-  - group wise operations
+  - array processing
+  - group-wise operations
+  - seasonal effects
+  - spatial temporal data
+  - robust linear model
+  - star glyphs
+  - baseball batting analysis
 cssclasses: academia
 ---
 
@@ -53,7 +59,7 @@ Notation. Array includes the special cases of vectors (1d arrays) and matrices (
 
 # 2. Motivation
 
-How does the explicit specification of this strategy help? What are the advantages of plyr over for loops or the built-in apply functions? This section compares plyr code to base R code with a teaser from Section 5.2, where we remove seasonal effects from 6 years of monthly satellite measurements, taken on a $24\times24$ grid. The 41472 measurements are stored in a $24\times24\times72$ array. A single location (ozone[x, y, ]) is a vector of 72 values (6 years  $\times$  12 months).
+How does the explicit specification of this strategy help? What are the advantages of plyr over for loops or the built-in apply functions? This section compares plyr code to base R code with a teaser from Section 5.2, where we remove seasonal effects from 6 years of monthly satellite measurements, taken on a $24\times24$ grid. The 41472 measurements are stored in a $24\times24\times72$ array. A single location (ozone[x, y, ]) is a vector of 72 values (6 years $\times$ 12 months).
 
 We can crudely desseasonalize a location by looking at the residuals from a robust linear model:
 
@@ -70,15 +76,15 @@ The challenge is to apply this function to each location, reassembling the outpu
 The main disadvantage of the loops is that there is a lot of book-keeping code: The size of the array is hard coded in multiple places and we need to create the output structures before filling them with data. The apply functions, apply() and lapply(), simplify the task, but there is not a straightforward way to go from the 2d array of models to the 3d array of residuals. In plyr, the code is much shorter because these details are taken care of:
 
 ```txt
-$R>$  models  $<-$  aply( ozone, 1:2, deseasf)  
- $R>$  deseas  $<-$  aply(models, 1:2, resid)
+$R>$ models <- aaply(ozone, 1:2, deseasf)
+$R>$ deseas <- aaply(models, 1:2, resid)
 ```
 
 You may be wondering what these function names mean. All plyr functions have a concise but informative naming scheme: The first and second characters describe the input and output data types. The input determines how the data should be split, and the output how it should be combined. Both of the functions used above input and output an array. Other data types are lists and data frames. Because plyr caters for every combination of input and output data types in a consistent way, it is easy to use the data structure that feels most natural for a given problem.
 
 For example, instead of storing the ozone data in a 3d array, we could also store it in a data frame. This type of format is more common if the data is ragged, irregular, or incomplete;
 
-Table 1: Compare of for loops and apply functions  
+Table 1: Comparison of for loops and apply functions  
 
 ```r
 For loops   
@@ -86,43 +92,55 @@ models <- as.list(rep(NA, 24 * 24))
 dim/models) <- c(24, 24)   
 deseas <- array(NA, c(24, 24, 72))   
 dimnames(deseas) <- dimnames(ozone)   
-for (i in seq_len(24)) { for(j in seq_len(24)) { mod <- deseasf(ozone[i, j, ]) models[[i, j]] <- mod deseas[i, j, ] <- resid(mod) }   
+for (i in seq_len(24)) {
+  for(j in seq_len(24)) {
+    mod <- deseasf(ozone[i, j, ])
+    models[[i, j]] <- mod
+    deseas[i, j, ] <- resid(mod)
+  }
+}   
 }
 ```
 
 ```txt
 Apply functions   
-models<-apply( ozone,1:2,deseasf)   
-resids_list<-lapply/models,resid)   
-resids<-unlist(resids_list)   
-dim(resids)<-c(72，24，24)   
-deseas<-aperm(resids,c(2，3，1))   
-dimnames(deseas)<- dimnames(ozone)
+models <- apply(ozone, 1:2, deseasf)
+
+resids_list <- lapply(models, resid)
+
+resids <- unlist(resids_list)
+
+dim(resids) <- c(72, 24, 24)
+
+deseas <- aperm(resids, c(2, 3, 1))
+
+dimnames(deseas) <- dimnames(ozone)
 ```
 
 if we did not have measurements at every possible location for every possible time point. Imagine the data frame is called ozonedf and has columns lat, long, time, month, and value. To repeat the desseasonalization task with this new data format, we first need to tweak our workhorse method to take a data frame as input:
 
 ```txt
-$R>$  deseasf_df<-function(df）{  $+\quad \text{r} \mathrm { l m } ( \text{value} \sim \text{month - 1} , \text{data} = \text{df})$  +
+$R>$ deseasf_df <- function(df) {
+  rlm(value ~ month - 1, data = df)
+}
 ```
 
 Because the data could be ragged, it is difficult to use a for loop and we will use the base R functions split(), lapply() and mapply() to complete the task. Here the split-applycombine strategy maps closely to built-in R functions: We split with split(), apply with lapply() and then combine the pieces into a single data frame with rbind().
 
 ```txt
-R> pieces <- split(ozon edf, list(ozonedf\ $lat, ozonedf\$ long))
+R> pieces <- split(ozonedf, list(ozonedf$lat, ozonedf$long))
 R> models <- lapply(pieces, deseasf_df)
-R> results <- mapply(function(model, df) \{
-	 $\mathrm{cbind}\left( {\operatorname{df}\left\lbrack  {\operatorname{rep}\left( {1,{72}}\right) ,\mathrm{c}\left( {{}^{\prime \prime }\mathrm{{lat}}}^{\prime \prime },{}^{\prime \prime }\mathrm{{long}}^{\prime \prime }}\right\rbrack  ,\operatorname{resid}\left( \text{model}\right) }\right)$ 
-\},
-\}
+R> results <- mapply(function(model, df) {
+  cbind(df[rep(1, 72), c("lat", "long")], resid(model))
+}, models, pieces)
 R> deseasdf <- do.call("rbind", results)
 ```
 
 Most of the complication here is in attaching appropriate labels to the data. The type of labels needed depends on the output data structure, e.g., for arrays, dimnames are labels, while for data frames, values in additional columns are the labels. Here, we needed to use mapply() to match the models to their source data in order to extract informative labels. plyr takes care of adding the appropriate labels, so it only takes two lines:
 
-$R>$  models <- dply(ozonefd, (.lat, long), desesef_df)
+$R>$  models <- ddply(ozonedf, .(lat, long), deseasf_df)
 
-$R>$  deseas<-ldply/models，resid)
+$R>$  deseas <- ldply(models, resid)
 
 dply takes a data frame and returns a list, and ldply does the opposite: It takes a list and returns a data frame. Compare this code to the code needed when the data was stored in an array.
 
@@ -468,7 +486,7 @@ Figure 10: A scatterplot of model intercept and slope, with one point for each m
 
 # 5.2. Case study: Ozone
 
-In this case study we will analyze a 3d array that records ozone levels over a  $24 \times 24$  spatial grid at 72 time points (Hobbs, Wickham, Hofmann, and Cook 2010). This produces a  $24 \times 24 \times 72$  3d array, containing a total of 41472 data points. Figure 11 shows one way of displaying this data. Conditional on spatial location, each star glyph shows the evolution of ozone levels for each of the 72 months (6 years, 1995-2000). The construction of the glyph is described in Figure 12; it is basically a time series in polar coordinates. The striking seasonal patterns make it difficult to see if there are any long-term changes. In this case study, we will explore how to separate out and visualize the seasonal effects. Again we will start with the simplest case: A single time point, from location (1, 1). Figure 13 displays this in two ways: As a single line over time, or a line for each year over the months. This plot illustrates the striking
+In this case study we will analyze a 3d array that records ozone levels over a $24\times24$ spatial grid at 72 time points (Hobbs, Wickham, Hofmann, and Cook 2010). This produces a $24\times24\times72$ 3d array, containing a total of 41472 data points. Figure 11 shows one way of displaying this data. Conditional on spatial location, each star glyph shows the evolution of ozone levels for each of the 72 months (6 years, 1995-2000). The construction of the glyph is described in Figure 12; it is basically a time series in polar coordinates. The striking seasonal patterns make it difficult to see if there are any long-term changes. In this case study, we will explore how to separate out and visualize the seasonal effects. Again we will start with the simplest case: A single time point, from location (1, 1). Figure 13 displays this in two ways: As a single line over time, or a line for each year over the months. This plot illustrates the striking
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/ec0420f5-a41b-4f4f-8df9-3ce33ad51c0b/115d28f15563b39fc001f82c98e5605ec7ade26c458439409943bdeaf1664d05.jpg)  
 Figure 11: Star glyphs showing variation in ozone over time at each spatial location.

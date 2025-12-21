@@ -1,15 +1,27 @@
 ---
-parent_directory: Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
-title: "Class 3: Financial Intermediation as Delegated Monitoring - A Simple Example"
-tags:
-aliases:
-  - Financial Intermediation as Delegated Monitoring
-  - A Simple Example
-parent_folder: Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring
-subfolder:
-key_concepts:
+title: "Financial Intermediation as Delegated Monitoring: A Simple Example"
+parent_directory: "Class 3-Financial Intermediation and Delegated Loan Monitoring , Intro to Bankruptcy and Debt Restructuring"
+formatted: "2025-12-21 04:40:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - "financial intermediation"
+  - "delegated monitoring"
+  - "debt contracts"
+  - "bank loans"
+  - "monitoring costs"
+secondary_tags:
+  - "agency theory"
+  - "asymmetric information"
+  - "bank deposits"
+  - "liquidation costs"
+  - "moral hazard"
+  - "adverse selection"
+  - "contract theory"
+  - "risk sharing"
+  - "information asymmetry"
+  - "incentive problems"
 cssclasses: academia
-linter-yaml-title-alias: "Class 3: Financial Intermediation as Delegated Monitoring - A Simple Example"
 ---
 
 # Financial Intermediation as Delegated Monitoring: A Simple Example
@@ -30,7 +42,7 @@ as check clearing, are well understood, while others relate to difficult issues 
 
 If intermediaries provide asset services, they provide services to borrowers who issue assets to them. That is, it matters to the issuer of an asset that the asset is to be held by an intermediary rather than directly by investors. Some costs are lower if the asset is held by an intermediary rather than a large number of individuals. The imperfections that give rise to costs of issuing securities by primary borrowers also give rise to similar costs to an intermediary that issues deposits. I examine how a financial intermediary acting as a middleman can lead to net cost savings, and I develop the implications of this role for the structure of intermediaries. The model yields strong predictions about the contracts used by intermediaries and this provides a setting to analyze important issues in banking policy.
 
-# 1. AN OVERVIEW OF FINANCIAL INTERMEDIATION: THE COSTS AND BENEFITS OF MONITORING
+## 1. An Overview of Financial Intermediation: The Costs and Benefits of Monitoring
 
 Theories based on the collection of private information by an intermediary require that there be some benefit to using this additional information in lending. A key result in the agency theory literature is that monitoring by a principal can allow improved contracts. The net demand for this monitoring also depends on the cost of monitoring. This cost depends on the number of lenders who contract with a given borrower.
 
@@ -48,7 +60,7 @@ The model in this article illustrates the more general results in Diamond (1984)
 
 Monitoring is costly, especially if duplicated. If not duplicated, the act of monitoring must be delegated, and then the information obtained is not publicly observed. As a result of the remaining information disadvantage of those who do not monitor, there may be delegation costs associated with providing incentives for delegated monitoring. The best way to delegate monitoring is for the delegated monitor to issue unmonitored debt, which will be subject to liquidation costs. The delegated monitor is a financial intermediary because it borrows from small investors (depositors), using unmonitored debt (deposits) to lend to borrowers (whose loans it monitors).
 
-# 2. AN EXAMPLE OF OPTIMAL DEBT WITHOUT DELEGATED MONITORING
+## 2. An Example of Optimal Debt without Delegated Monitoring
 
 Consider a borrower who needs to raise a large quantity of capital. All lenders and borrowers are risk neutral, but borrowers have no capital, and each lender's capital to invest is small relative to the amount needed to fund the borrower's investment. The borrower needs to raise 1 (where the units are millions of dollars, and these units will be mentioned only parenthetically), while each investor has  $1/m$  units to invest, implying that a borrower needs to raise capital from  $m$  investors if  $m > 1$ . The example assumes that  $m$  is very large:  $m = 10,000$ ,
 
@@ -56,7 +68,7 @@ and each lender has capital or 0.0001 ( \$100). Monitoring the borrower costs \(
 
 Investors do not observe the borrower's operations directly, not even its sales or cash flows. How can the lenders write a contract in which they do not need to monitor this information?
 
-# The Best Contract without Monitoring
+### The Best Contract without Monitoring
 
 The firm needs to raise 1 (\(1 million), and each investor requires an expected return of \( r = 5\% \). All lenders and the borrower agree that the borrower has a profitable, positive net present value project to fund, but only the borrower will observe how profitable it turns out to be. The borrower can consume any part of the project's return that he does not pay out to the investor. The interpretation is that the borrower can appropriate the return to himself, since no one else observes the project's success. If the project is a retail store, the borrower can take some sales in cash to himself. More generally, the borrower can inflate costs. In practice, the net cash flows to the firm are very unobservable for many firms. In addition, most other conflicts of interest faced by borrowers can be reinterpreted as equivalent to the borrower's ability to retain underreported cash. The ability to retain underreported cash is simply the most extreme example of a conflict of interest.
 

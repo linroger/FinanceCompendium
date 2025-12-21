@@ -1,20 +1,32 @@
 ---
-parent_directory:
-title: The Kroger Co KR (NYSE) ★★★
-tags:
-aliases:
-parent_folder: Week 2
-subfolder:
-key_concepts:
+title: "The Kroger Co KR (NYSE) ★★★"
+parent_directory: "Week 2"
+formatted: "2025-12-21 11:00:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - kroger company analysis
+  - retail grocery industry
+  - morningstar equity research
+secondary_tags:
+  - narrow economic moat
+  - omnichannel retail strategy
+  - data analytics capabilities
+  - private label products
+  - grocery market share
+  - competitive positioning
+  - valuation methodology
+  - financial performance
+  - risk assessment
+  - management stewardship
 cssclasses: academia
-linter-yaml-title-alias: The Kroger Co KR (NYSE) ★★★
 ---
 
 # The Kroger Co KR (NYSE) ★★★
 
 <table><tr><td>Last Price</td><td>Fair Value</td><td>Uncertainty</td><td>Economic MoatTM</td><td>Moat TrendTM</td><td>Stewardship</td><td>Industry Group</td></tr><tr><td>29.43 USD</td><td>31.00 USD</td><td>Medium</td><td>Narrow</td><td>Negative</td><td>Exemplary</td><td>Retail - Defensive</td></tr></table>
 
-# Kroger's Data Supremacy and Advantaged Store Network Should Help Fend Off Intensifying Competition
+## Kroger's Data Supremacy and Advantaged Store Network Should Help Fend Off Intensifying Competition
 
 Updated Forecasts and Estimates from 18 Jan 2019
 
@@ -26,7 +38,7 @@ zain.akbari@morningstar.com
 
 +13123843992
 
-# Important Disclosure
+## Important Disclosure
 
 The conduct of Morningstar's analysts is governed by Code of Ethics/Code of Conduct Policy, Personal Security Trading Policy (or an equivalent of), and Investment Research Policy. For information regarding conflicts of interest, visit http://global.morningstar.com/equitydisclosures
 
@@ -42,41 +54,41 @@ Rating updated as of 18 Jan 2019 15:45
 
 Currency amounts expressed with "$" are in U.S. dollars (USD) unless otherwise denoted
 
-# Contents
+## Contents
 
-Business Strategy and Outlook
+### Business Strategy and Outlook
 
-Morningstar Analysis
+### Morningstar Analysis
 
-Analyst Note 2
+### Analyst Note
 
-Fair Value & Profit Drivers 2
+### Fair Value & Profit Drivers
 
-Scenario Analysis 3
+### Scenario Analysis
 
-Economic Moat 4
+### Economic Moat
 
-Moat Trend 7
+### Moat Trend
 
-Bulls Say/Bears Say 9
+### Bulls Say/Bears Say
 
-Financial Strength 10
+### Financial Strength
 
-Risk & Uncertainty 10
+### Risk & Uncertainty
 
-Management & Ownership 12
+### Management & Ownership
 
-Analyst Note Archive 14
+### Analyst Note Archive
 
-Additional Information
+### Additional Information
 
-Morningstar Analyst Forecasts 17
+### Morningstar Analyst Forecasts
 
-Comparable Company Analysis 21
+### Comparable Company Analysis
 
-Methodology for Valuing Companies 23
+### Methodology for Valuing Companies
 
-# Business Strategy and Outlook 18 Jan 2019
+## Business Strategy and Outlook
 
 Of the traditional grocers, we believe Kroger is uniquely positioned to defend its returns against a competitive onslaught that should intensify as Amazon, hard discounters, and mass merchandisers price aggressively to increase volume. Though industry factors are diminishing its competitive standing, we contend that Kroger still benefits from enduring intangible assets and cost advantages.
 
@@ -86,11 +98,9 @@ We believe Kroger should be able to capitalize on the changing landscape. We mai
 
 Kroger's data-related efforts should play a large role in its embrace of the new grocery landscape, fueling promotional efforts and customer engagement while informing assortment and providing saleable insights that can create alternative revenue streams. We expect data to play a key role in retailers' efforts to drive traffic, efficiency, and conversion, and anticipate that Kroger's long, intimate relationship with its numerous customers (96% of sales are tied to a loyalty card) has created a monetizable asset that few rivals can match.
 
-# Vital Statistics
+## Vital Statistics
 
-<table><tr><td>Market Cap (USD Mil)</td><td>23,079</td></tr><tr><td>52-Week High (USD)</td><td>32.74</td></tr><tr><td>52-Week Low (USD)</td><td>22.85</td></tr><tr><td>52-Week Total Return %</td><td>2.3</td></tr><tr><td>YTD Total Return %</td><td>5.2</td></tr><tr><td>Last Fiscal Year End</td><td>03 Feb 2018</td></tr><tr><td>5-Yr Forward Revenue CAGR %</td><td>2.0</td></tr><tr><td>5-Yr Forward EPS CAGR %</td><td>9.8</td></tr><tr><td>Price/Fair Value</td><td>0.98</td></tr></table>
-
-# Valuation Summary and Forecasts
+## Valuation Summary and Forecasts
 
 <table><tr><td></td><td>Fiscal Year:</td><td>2017</td><td>2018</td><td>2019(E)</td><td>2020(E)</td></tr><tr><td>Price/Earnings</td><td></td><td>15.0</td><td>13.9</td><td>13.5</td><td>12.1</td></tr><tr><td>EV/EBITDA</td><td></td><td>7.4</td><td>7.0</td><td>6.8</td><td>6.6</td></tr><tr><td>EV/EBIT</td><td></td><td>12.3</td><td>12.2</td><td>12.6</td><td>12.1</td></tr><tr><td>Free Cash Flow Yield %</td><td></td><td>1.8</td><td>2.3</td><td>3.0</td><td>6.9</td></tr><tr><td>Dividend Yield %</td><td></td><td>1.5</td><td>1.8</td><td>1.9</td><td>2.1</td></tr></table>
 
@@ -100,11 +110,9 @@ Financial Summary and Forecasts (USD Mil)
 
 Historical/forecast data sources are Morningstar Estimates and may reflect adjustments.
 
-# Profile
+## Profile
 
-Kroger is the leading American grocer, with 2,782 supermarkets operating under several banners throughout the country as of the end of fiscal 2017. Around  $82\%$  of stores have pharmacies, while over half also sell fuel. The company also operated 274 fine jewelry stores at the end of fiscal 2017. Kroger features a leading private-label offering and manufactures around a third of its own-brand units (and  $44\%$  of its grocery own-label assortment) itself, in 37 food production plants nationwide. Kroger is a top-two grocer in 46 of the 52 major markets in which it operates along with 54 of its 73 secondary markets (as of the end of fiscal 2017, according to IRI data). Virtually all of Kroger's sales come from the United States.
-
-# Morningstar Analysis
+## Morningstar Analysis
 
 Kroger's Strong Competitive Standing Should Help It Navigate a Fast-Changing, Competitive Landscape 18 Jan 2019
 
@@ -112,19 +120,17 @@ We are lifting our valuation for narrow-moat Kroger to \$31 per share from \$29.
 
 Unlike its pure-play peers, we believe Kroger can succeed in the new grocery paradigm. With local market scale sufficient to drive the cost leverage needed to hold prices down and fuel omnichannel investments, we suspect Kroger should be able to use its well-located store network to economically meet customers' demands digitally and conventionally. We believe its size and strong management team have enabled the partnerships it has prudently struck with firms such as Microsoft and Walgreens, which we expect to accelerate its omnichannel development and that we contend are enabled by the value it can deliver as America's largest pure-play grocer. Furthermore, Kroger's partnership with European online grocery leader Ocado should allow it to serve digital orders more efficiently while unlocking markets where it does not have a large presence. Additionally, Kroger's stores of transaction data should allow it to optimize promotions and assortment while also selling insights to packaged goods firms.
 
-Considering these factors and the firm's strong private-label assortment, we suspect that rather than Kroger, subscale retailers should bear the brunt of market share pressure from newcomers. We expect  $2.6\%$  revenue growth against  $2.5\%$  adjusted operating margins on average from fiscal 2019-27. With shares trading near our valuation, we suggest investors wait before building a position in a grocer we see
-
-as uniquely able to capitalize on shifting conditions.
+Considering these factors and the firm's strong private-label assortment, we suspect that rather than Kroger, subscale retailers should bear the brunt of market share pressure from newcomers. We expect  $2.6\%$  revenue growth against  $2.5\%$  adjusted operating margins on average from fiscal 2019-27. With shares trading near our valuation, we suggest investors wait before building a position in a grocer we see as uniquely able to capitalize on shifting conditions.
 
 We are tempering our moat trend rating to negative from stable, reflecting persistent competitive pressures that should result in ongoing price headwinds and necessitate continued investment to deliver a strong omnichannel experience. Although we contend that Kroger is better positioned than its traditional grocery peers, it is not immune to the price competition that has constrained top-line growth and profitability. While we have a favorable view of management's Restock Kroger optimization initiative, we believe the need to reinvest savings behind low prices as well as the plan's reliance on new alternative revenue streams to achieve the targeted \(400 million of incremental operating income by fiscal 2020 suggests a more tempered outlook until results materialize. Still, we anticipate the plan will enable Kroger to hold adjusted operating margins fairly constant despite the challenging environment, with our forecasts calling for less than 5 basis points of deterioration between fiscal 2018 and 2027.
 
-# Fair Value & Profit Drivers 18 Jan 2019
+## Fair Value & Profit Drivers
 
 We are lifting our valuation for Kroger to  \$31 per share from\$ 29.50, reflecting the time value of money and solid third-quarter earnings. Our valuation implies forward fiscal 2019 enterprise value/adjusted EBITDA of 7 times and adjusted P/E of 13.
 
 With the firm's promotional targeting efforts building, we anticipate identical sales excluding fuel stabilizing at a little over  $2 \%$ long term, near our longterm expectations for food inflation despite intensifying competition forcing prices lower. We anticipate the company's plans to curb square footage growth will persist for the foreseeable future, averaging less than 50 basis points over the next decade. Combined, supermarket sales excluding fuel should expand an average  $2 \%$ over the next decade, near our normalized expectations for fuel revenue (though yeartoyear gasoline and diesel performance should vary considerably with commodity volatility and consumers' driving habits).
 
-# The Kroger Co KR (NYSE) ★★★
+## The Kroger Co KR (NYSE) ★★★
 
 <table><tr><td>Last Price</td><td>Fair Value</td><td>Uncertainty</td><td>Economic Moat™</td><td>Moat Trend™</td><td>Stewardship</td><td>Industry Group</td></tr><tr><td>29.43 USD</td><td>31.00 USD</td><td>Medium</td><td>Narrow</td><td>Negative</td><td>Exemplary</td><td>Retail - Defensive</td></tr></table>
 
@@ -138,89 +144,11 @@ While Kroger will likely pursue additional partnerships and bolt-on acquisitions
 
 Instead, we anticipate that Kroger returns excess capital to shareholders, with dividends and stock buybacks accounting for about  $10\%$  of free cash flow by the end of our explicit forecast, rising as capital expenditures stabilize at around  $2.3\%$  of sales (versus  $2.7\%$  on average over the past five years) amid slower store unit growth.
 
-# Scenario Analysis
+## Scenario Analysis
 
 We assign Kroger a medium uncertainty rating. Shopping behaviors are changing rapidly as the rise of digital grocery upends consumer habits and introduces new, well-funded competitors. Amazon particularly looms (bolstered by Whole Foods), as ship-to-home effectively nationalizes the grocery competitive landscape, disadvantageing incumbents in individual markets while creating relatively low-cost avenues for entry into new regions for large sellers. These changing dynamics could work to Kroger's detriment; however, they also may create new opportunities in parts of the United States in which the firm does not have a leading presence.
 
 In a downside case, the already-robust competition could intensify more than we anticipate. Rather than the omnichannel experience we expect to dominate the grocery landscape, consumers could adopt ship-to-home more than we anticipate, with Kroger's Ocado partnership overwhelmed by declining physical store traffic and associated cost leverage. Kroger's private-label strength could be offset by hard discounters' continued expansion, as Aldi and Lidl have long featured high-quality own brands at deep discounts. Furthermore, Amazon could extend its house brand to food categories, alongside continued investment by Walmart in its offerings. Additionally, Amazon could target Kroger's customer base through physical stores more directly, either by changing the assortment at Whole Foods to include more branded goods or by introducing or acquiring another, more broadly oriented banner. Kroger could struggle to capitalize on its alternative revenue streams, particularly as rival retailers attempt to
-
-# The Kroger Co KR (NYSE) ★★★
-
-Last Price
-
-29.43 USD
-
-Fair Value
-
-31.00 USD
-
-Uncertainty
-
-Medium
-
-Economic MoatTM
-
-Narrow
-
-Moat TrendTM
-
-Negative
-
-Stewardship
-
-Exemplary
-
-Industry Group
-
-Retail - Defensive
-
-use their own transaction data to improve sales targeting and efficiency while also exploring external monetization strategies. The competitive pressure with few alternative sources of revenue could further pollute the industry's already-unfavorable pricing environment, with deflation constraining already-tight margins and returns.
-
-In this downside scenario, Kroger would see  $2.0\%$  10year compound average annual revenue growth (as opposed to  $2.2\%$  in the base case), with a  $2.0\%$  average operating margin over the next decade (relative to  $2.4\%$  in the base case), resulting in a fair value estimate of \$21.50 per share.
-
-On the other hand, Kroger could thrive in a digital grocery age, capitalizing on its distribution strength, procurement horsepower, digital investments, partnerships, and ability to invest to meet changing customer needs with greater success than we anticipate. The firm's local market scale could translate better than we expect to an omnichannel market, allowing it to efficiently address demand from consumers that use a variety of grocery fulfillment methods. The Ocado partnership could unlock new markets for Kroger to target with an efficient ship-to-home architecture, without the cost of building (or acquiring) stores. Kroger's media and data analytics offerings could resonate with consumer packaged goods manufacturers to so great an extent that they make Kroger the partner of choice for sellers, bolstering vendor relationships in a difficult-to-replicate manner. Initiatives such as boosted search could monetize Kroger's valuable online properties such that it diversifies revenue sources meaningfully, while extending data analytics into fields such as healthcare could add to the firm's strength. Even in this scenario, Amazon would likely prove successful in online grocery; however, Kroger (together with Walmart) could find itself relatively and uniquely sheltered, with smaller grocers donating share to the major players faster than we anticipate. The pricing environment could stabilize, with Kroger's current cycle of
-
-using incremental cost leverage to fuel low prices (and, by extension, store traffic) yielding to margin expansion as efficiency builds. Lastly, Kroger's own-label strength could develop such that its offerings become universally viewed similarly as branded items, providing margin benefits as well as opportunities to extend the labels abroad.
-
-In this case, we see Kroger achieving 10-year compound average annual revenue growth of  $2.5\%$  with a  $2.8\%$  average adjusted operating margin over the same period. This scenario would result in a fair value estimate of \$41.50 per share.
-
-# Economic Moat
-
-We assign Kroger a narrow moat rating based on its intangible assets and a cost advantage. We assume that Kroger's returns on invested capital exceed our estimate of its weighted average cost of capital by roughly 200 basis points over the next decade, at just below  $9\%$ .
-
-The U.S. grocery industry is highly competitive, with an already-intense rivalry among traditional grocery stores, mass merchandisers, and club stores inflamed by Amazon's recent acquisition of Whole Foods and broader push into the sector. Considering the price competition that permeates the industry, we believe there is an increasing premium on the cost leverage that scale affords, including in the emerging digital grocery realm. While this places most conventional grocers at a disadvantage, we contend that Kroger's scale, vast library of customer transaction data (amassed over decades), private-label strength (accounting for \$21 billion in fiscal 2017 revenue, or nearly 30% of unit sales), and advantaged locations set it apart from its rivals.
-
-As the largest pure grocer in the United States (trailing only Walmart in overall grocery sales and at approximately double the revenue of number-two Albertsons), Kroger is uniquely positioned to capitalize on its size with vendors
-
-# The Kroger Co KR (NYSE) ★★★
-
-Last Price
-
-29.43 USD
-
-Fair Value
-
-31.00 USD
-
-Uncertainty
-
-Medium
-
-Economic MoatTM
-
-Narrow
-
-Moat TrendTM
-
-Negative
-
-Stewardship
-
-Exemplary
-
-Industry Group
-
-Retail - Defensive
 
 # Morningstar Analysis
 
@@ -322,7 +250,7 @@ While several non-U.S. grocers that we cover carry no-moat ratings, we believe K
 
 resources needed to keep pace with changing industry demands will keep it better-positioned than most of the pure grocers we cover. Taken together, we believe these factors contribute to an efficiency that underlies Kroger's  \$656 fiscal 2017 sales per square foot, which easily outperformed Albertsons' roughly\$ 520 and is ahead of all but Costco in our defensive retail coverage.
 
-# Moat Trend
+## Moat Trend
 
 We are revising our moat trend rating to negative from stable, reflecting persistently intense grocery sector competition. While we contend that Kroger's budding data analytics capabilities, which should make it a more valued partner for vendors, will help it weather the storm better than other conventional grocers, we believe the challenging environment will force reinvestment, limiting its prospects for profitability and return expansion.
 
@@ -372,45 +300,15 @@ its higher-margin categories. For example, the company is looking at ways it can
 
 Although Kroger's data and services offerings are a small part of its top line (less than  $5\%$ , we suspect) and will likely see growing pains as the firm becomes familiar with the new tools and products, the efforts should require little capital investment and be highly profitable. However, we believe they are not yet sufficiently large as to offset the broader adverse changes to the competitive landscape, leading us to suspect that Kroger's aggregated competitive standing is deteriorating.
 
-# The Kroger Co KR (NYSE) ★★★
+## Bulls Say/Bears Say
 
-Last Price
-
-29.43 USD
-
-Fair Value
-
-31.00 USD
-
-Uncertainty
-
-Medium
-
-Economic MoatTM
-
-Narrow
-
-Moat TrendTM
-
-Negative
-
-Stewardship
-
-Exemplary
-
-Industry Group
-
-Retail - Defensive
-
-# Bulls Say/Bears Say
-
-# Bulls Say
+### Bulls Say
 
 - With a number-one or -two standing in almost all of its major markets, Kroger benefits from local scale, spreading advertising, distribution, and supply chain expenses over a large sales base.  
 - While the digitization of grocery has upended the industry, Kroger's size allows it to invest in the omnichannel experience, using its advantaged store network to capitalize on digital opportunities.  
 Kroger's customer data set is among the best in retail; it should be able to use the information it has to target promotions, inform its assortment, and sell marketing insights.
 
-# Bears Say
+### Bears Say
 
 - Competition in grocery is fierce from digital and physical sellers alike, necessitating continued investment in the store experience and low prices to maintain store traffic.  
 - While we believe the Restock Kroger plan is likely to generate meaningful savings, we suspect the firm will need to reinvest and keep prices low, leaving margins and returns steady.  
@@ -431,43 +329,13 @@ Adjusted Cash Flow Summary
 
 <table><tr><td></td><td colspan="2">% of</td></tr><tr><td></td><td>USD Millions</td><td>Commitments</td></tr><tr><td>Beginning Cash Balance</td><td>347</td><td>2.2</td></tr><tr><td>Sum of 5-Year Adjusted Free Cash Flow</td><td>13,405</td><td>83.2</td></tr><tr><td>Sum of Cash and 5-Year Cash Generation</td><td>13,752</td><td>85.4</td></tr><tr><td>Revolver Availability</td><td>1,015</td><td>6.3</td></tr><tr><td>Asset Adjusted Borrowings (Repayment)</td><td>—</td><td>—</td></tr><tr><td>Sum of Cash, 5-Year Cash Generation, Revolver and Adjustments</td><td>14,767</td><td>91.7</td></tr><tr><td>Sum of 5-Year Cash Commitments</td><td>-16,103</td><td>—</td></tr></table>
 
-# Financial Strength
+## Financial Strength
 
-Kroger is in sound financial health, and we believe it should be able to finance the \$9 billion of capital investments from fiscal 2018 to 2020 that it plans for its Restock Kroger optimization initiative with internally generated funds. As the firm shifts focus to its omnichannel capabilities from store growth, we anticipate that needs will fall over the long term. Net debt has held at 2.1 to 2.6 times adjusted EBITDA over the last five years, and while we anticipate an uptick in fiscal 2018 (to around 2.8 times), management expects to return to its 2.3 to 2.5 times target over time. We expect this to happen in fiscal 2020. Management has long (and prudently) reiterated its commitment to investment-grade credit ratings, so we anticipate the metric falls to the low end of the range long term. Deleveraging should be enabled by the firm's move away from new store growth (capital expenditures expected to stabilize at around  $2.3\%$  of sales long term versus  $2.7\%$  on average over the last five years) and profit dollar growth, with free cash flow to the firm averaging about  $1.7\%$  of sales through our explicit forecast, up from  $0.7\%$  over the past five years. Kroger has a history of returning capital to shareholders via dividends and share repurchases; we expect that to continue. By the end of our explicit forecast, we assume Kroger returns about  $10\%$  of free cash flow to investors via dividends and share repurchases. Kroger will also likely pursue further partnerships or acquisitions to bolster its omnichannel efforts and meet changes in the grocery landscape; however, we do not incorporate such transactions because of their uncertain timing and nature.
-
-# Risk & Uncertainty
+## Risk & Uncertainty
 
 A fast-changing grocery environment amid intense competition from physical and digital sellers in a sector with limited switching costs constitutes the primary threat to our outlook. Amazon's acquisition of Whole Foods in 2017 significantly altered the competitive landscape for Kroger and other grocers, dramatically reducing the time they have
 
-# The Kroger Co KR (NYSE) ★★★
 
-Last Price
-
-29.43 USD
-
-Fair Value
-
-31.00 USD
-
-certainty
-
-ium
-
-Economic MoatTM
-
-Narrow
-
-Moat TrendTM
-
-Negative
-
-Stewardship
-
-Exemplary
-
-Industry Group
-
-Retail - Defensive
 
 to develop capabilities required to ensure continued performance in an omnichannel world. While we believe Kroger has done well to embrace the industry's future, consumer buying habits are unsettled as food purchases are increasingly nationalized, upending the traditional distanceand routine-based relationship between customers and grocers. The dynamic could work to Kroger's benefit or detriment; if execution is strong, it could benefit from smaller grocers' struggle to keep pace, but if its ability to retain customers falters, the chain could find itself with too many stores and persistently diminishing economics. We believe price competition in grocery will continue for the foreseeable future, necessitating scale-based economies and efficient execution; while we anticipate Kroger will meet the challenge, the stakes are high. Kroger's growing efforts to monetize its consumer data introduces risk as it grows in segments (such as media, market analysis for clients such as consumer packaged goods firms, and personal finance) outside of its core competency. Furthermore, while Kroger plans to sell data based on aggregated insights and not customer contact information or purchasing history, a breach could rapidly impair the value of its transaction information. With switching costs low, the importance of trust is high, so data breaches, which could also compromise customer payment information, or food-safety missteps in its private-label portfolio could have a meaningful impact on performance.
 
@@ -475,7 +343,7 @@ to develop capabilities required to ensure continued performance in an omnichann
 
 <table><tr><td>Last Price</td><td>Fair Value</td><td>Uncertainty</td><td>Economic MoatTM</td><td>Moat TrendTM</td><td>Stewardship</td><td>Industry Group</td></tr><tr><td>29.43 USD</td><td>31.00 USD</td><td>Medium</td><td>Narrow</td><td>Negative</td><td>Exemplary</td><td>Retail - Defensive</td></tr></table>
 
-# Management & Ownership
+## Management & Ownership
 
 Management Activity  
 
@@ -491,7 +359,7 @@ Institutional Transactions
 
 <table><tr><td>Top 5 Buyers</td><td>% of Shares Held</td><td>% of Fund Assets</td><td>Shares Bought/ Sold (k)</td><td>Portfolio Date</td></tr><tr><td>T. Rowe Price Associates, Inc.</td><td>3.29</td><td>0.11</td><td>13,861</td><td>31 Dec 2018</td></tr><tr><td>AQR Capital Management LLC</td><td>1.52</td><td>0.34</td><td>11,657</td><td>31 Dec 2018</td></tr><tr><td>Fidelity Management and Research Company</td><td>2.34</td><td>0.06</td><td>7,388</td><td>31 Dec 2018</td></tr><tr><td>FMR Inc</td><td>2.36</td><td>0.06</td><td>7,375</td><td>31 Dec 2018</td></tr><tr><td>Templeton Global Advisors Limited</td><td>0.80</td><td>1.27</td><td>5,296</td><td>31 Dec 2018</td></tr><tr><td>Top 5 Sellers</td><td></td><td></td><td></td><td></td></tr><tr><td>Capital Research and Management Company</td><td>1.10</td><td>0.47</td><td>-17,151</td><td>31 Dec 2018</td></tr><tr><td>BlackRock Inc</td><td>6.93</td><td>0.07</td><td>-10,200</td><td>31 Dec 2018</td></tr><tr><td>Capital Research Global Investors</td><td>1.10</td><td>0.07</td><td>-8,901</td><td>31 Dec 2018</td></tr><tr><td>Fidelity Management &amp; Research Company</td><td>2.35</td><td>6.64</td><td>-8,853</td><td>31 Dec 2018</td></tr><tr><td>Millennium Management LLC</td><td>0.12</td><td>0.03</td><td>-6,010</td><td>31 Dec 2018</td></tr></table>
 
-# Stewardship 18 Jan 2019
+## Stewardship
 
 We assign management's stewardship of shareholder capital an Exemplary rating.
 
@@ -500,10 +368,6 @@ Rodney McMullen has been Kroger's CEO since January 2014, capping a career at th
 McMullen unveiled the Restock Kroger initiative in late 2017, targeting  \$400 million in incremental adjusted operating profit by fiscal 2020 (versus\$ 3.1 billion in fiscal 2017, excluding convenience stores and an extra week in the fiscal year). While we believe required price cuts will limit the bottom-line benefits of the program, we applaud management's efforts to use alternative income streams, data analytics, operational and procurement efficiencies, space optimization, and other tools to combat challenging market conditions (in addition to its plans to cut store count growth).
 
 The firm divested its convenience store unit in 2018, netting just over \$2 billion for the business in a deal we viewed favorably from a valuation and strategic standpoint, as it allowed Kroger to refocus on its core activities. Part of the proceeds were used to buy a stake in Ocado, a leading
-
-# The Kroger Co KR (NYSE) ★★★
-
-<table><tr><td>Last Price</td><td>Fair Value</td><td>Uncertainty</td><td>Economic Moat™</td><td>Moat Trend™</td><td>Stewardship</td><td>Industry Group</td></tr><tr><td>29.43 USD</td><td>31.00 USD</td><td>Medium</td><td>Narrow</td><td>Negative</td><td>Exemplary</td><td>Retail - Defensive</td></tr></table>
 
 European online grocer, with the ensuing partnership (which is exclusive if certain performance criteria are met) meant to build a network of highly automated fulfillment centers as the two firms develop their digital sales capabilities in the United States. We view the partnership positively as it should accelerate Kroger's learning process with newer fulfillment methods.
 
