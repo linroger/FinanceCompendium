@@ -1,15 +1,15 @@
 # Handoff.md
 
-**Last Updated (UTC):** 2025-12-21 13:02:31 UTC
+**Last Updated (UTC):** 2025-12-21 14:13:18 UTC
 **Status:** Complete
-**Current Focus:** Report findings and hypotheses for beadster load slowness.
+**Current Focus:** Vacuum and prune `beads.db` to reduce startup overhead.
 
 ## 1) Request & Context
-- **User's request (quoted or paraphrased):** Analyze `/Users/rogerlin/Reserve/FinanceCompendium/.beads/beads.db` to determine why beadster on macOS is slow to load beads; check for database bottlenecks or leftover bulk data from an older version.
+- **User's request (quoted or paraphrased):** Analyze `/Users/rogerlin/Reserve/FinanceCompendium/.beads/beads.db` to determine why beadster on macOS is slow to load beads; then vacuum and prune the database to reduce load time.
 - **Operational constraints / environment:** Local analysis only; no network access; avoid modifying the database.
 - **Guidelines / preferences to honor:** Provide evidence-backed findings and keep analysis deterministic; do not ask clarifying questions.
-- **Scope boundaries (explicit non-goals):** Do not change or vacuum the database; do not run beadster or GUI tools.
-- **Changes since start (dated deltas):** 2025-12-21: New request focused on beads database performance analysis.
+- **Scope boundaries (explicit non-goals):** Do not run beadster or GUI tools.
+- **Changes since start (dated deltas):** 2025-12-21: New request focused on beads database performance analysis. 2025-12-21: User requested vacuum + prune.
 
 ## 2) Requirements → Acceptance Checks (traceable)
 | Requirement | Acceptance Check (scenario steps) | Expected Outcome | Evidence to Capture |
@@ -19,6 +19,8 @@
 | R3: Check for orphaned historical data | Count events with missing issue rows | Orphan count reported (0 or non-zero) | Query output recorded in Section 8 |
 | R4: Measure payload size of event history | Compute total/avg payload length in `events` | Event payload size quantified | Query output recorded in Section 8 |
 | R5: Determine likely bottleneck | Synthesize findings into a conclusion | Clear hypothesis tied to data | Written analysis in final response |
+| R6: Prune historical update events for closed issues | Delete `updated` events where issue status is `closed` | Rows removed; payload reduced | Row count + payload before/after |
+| R7: Vacuum DB and truncate WAL | Run `VACUUM` and `wal_checkpoint(TRUNCATE)` | DB file shrinks; WAL small | File size and dbstat |
 
 ## 3) Plan & Decomposition (with rationale)
 - **Critical path narrative:** Measure DB size and largest tables first to find the dominant storage cost, then validate whether free pages or orphaned data suggest legacy bloat; finish with payload statistics to explain runtime load costs.
@@ -26,7 +28,8 @@
 - **Step 2:** Use `dbstat` to identify the largest table(s)/index(es).
 - **Step 3:** Measure row counts and payload lengths for `events` and `issues`.
 - **Step 4:** Check for orphaned events to validate old-data hypothesis.
-- **Step 5:** Synthesize into a concise, evidence-backed conclusion.
+- **Step 5:** Prune `updated` events for closed issues; vacuum and truncate WAL.
+- **Step 6:** Synthesize into a concise, evidence-backed conclusion.
 - **Decision log reference(s):** None yet.
 
 ## 4) To-Do & Progress Ledger
@@ -35,15 +38,18 @@
 - [x] Task 3 — Measure row counts and payload lengths for `events`/`issues`; evidence in Section 8.
 - [x] Task 4 — Check for orphaned events; evidence in Section 8.
 - [x] Task 5 — **done**; synthesize findings into final report with hypotheses and mitigations.
+- [x] Task 6 — **done**; prune `updated` events for closed issues; vacuum and truncate WAL.
 
 ## 5) Findings, Decisions, Assumptions
 - **Finding:** `events` occupies ~66.7 MB (~72% of DB), dominating storage.
+- **Finding:** Prune removed 4,692 `updated` events for closed issues (~33.16 MB payload).
+- **Finding:** Post-vacuum `events` table ~30.0 MB and DB file shrank to ~41 MB.
 - **Finding:** `issues` occupies ~13.2 MB; other tables and indexes are small.
 - **Finding:** Event payload text totals ~54.2 MB across 18,119 rows (avg ~3.1 KB).
 - **Finding:** `updated` events account for ~44.3 MB of payload (~82% of event payload).
 - **Finding:** Free pages ~2,593 pages (~10.6 MB) indicate some deleted data and no shrink (auto_vacuum=0).
 - **Finding:** No orphaned events (all event.issue_id map to issues).
-- **Decision:** Treat `events` history size and payload as the primary DB-level load driver.
+- **Decision:** Treat `events` history size and payload as the primary DB-level load driver; prune `updated` events for closed issues to reduce payload.
 - **Assumption:** Beadster reads or aggregates event history on startup; this assumption should be validated via app logs or profiling.
 
 ## 6) Issues, Mistakes, Recoveries
@@ -65,6 +71,10 @@
   - Event payload totals: 54.16 MB total; avg payload ~3.1 KB
   - Event payload by type: `updated` 44.34 MB; `created` 5.18 MB; `status_changed` 3.26 MB; others < 1 MB
   - Orphan check: `events` with missing `issues` = 0
+  - Backup: `.backup` created at `/Users/rogerlin/Reserve/FinanceCompendium/.beads/beads.db.bak-20251221T141220Z`
+  - Prune scope: `updated` events for closed issues = 4,692 rows / 33.16 MB payload
+  - Post-prune events count: 14,529 rows; updated_closed_events = 0
+  - Post-vacuum sizes: `beads.db` 41M; `beads.db-wal` 12K; `events` table 30,023,680 bytes
 
 ## 9) Remaining Work & Next Steps
 - **Open items & blockers:** None.
@@ -75,3 +85,4 @@
 - 2025-12-21 12:53:49 UTC: Created for beads DB performance analysis; added initial findings and evidence.
 - 2025-12-21 12:57:47 UTC: Added event payload breakdown by type; updated verification summary.
 - 2025-12-21 13:02:31 UTC: Marked task complete; updated status to Complete for final report delivery.
+- 2025-12-21 14:13:18 UTC: Recorded prune + vacuum actions and evidence.
