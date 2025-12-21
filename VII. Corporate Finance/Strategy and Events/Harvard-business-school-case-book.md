@@ -774,8 +774,8 @@ How will the competition react?
 
 - Which vehicles will you use to influence the decision making process?
 
-○ Pull strategy: (direct at end user) use of advertising, direct mail, telemarketing, word of mouth, consumer promotions  
-$\bigcirc$  Push strategy: use of trade promotions, sales aids and/or sales training programs
+- Pull strategy: (direct at end user) use of advertising, direct mail, telemarketing, word of mouth, consumer promotions
+- Push strategy: use of trade promotions, sales aids and/or sales training programs
 
 How much money is being allocated to marketing?
 

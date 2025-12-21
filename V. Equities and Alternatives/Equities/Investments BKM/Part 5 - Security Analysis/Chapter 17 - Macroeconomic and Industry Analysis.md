@@ -1,6 +1,30 @@
-# Macroeconomic and Industry Analysis
+---
+title: Macroeconomic and Industry Analysis
+parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Part 5 - Security Analysis
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - macroeconomic analysis
+  - industry analysis
+  - business cycles
+  - economic indicators
+  - sector rotation
+secondary_tags:
+  - global economy
+  - domestic macroeconomy
+  - fiscal policy
+  - monetary policy
+  - supply demand shocks
+  - industry life cycles
+  - operating leverage
+  - financial leverage
+  - cyclical industries
+  - defensive industries
+cssclasses: academia
+---
 
-# 17
+# Macroeconomic and Industry Analysis
 
 THE INTRINSIC VALUE OF A stock depends on the dividend and earnings that can be expected from the firm. This is the heart of fundamental analysis—that is, the analysis of the determinants of value. Ultimately, the success of the firm determines the dividends it can pay to shareholders and the price it will command in the stock market. Because the prospects of the firm are tied to those of the broader economy, fundamental analysis must consider the business environment in which the firm operates. For some firms, macroeconomic and industry circumstances might have a greater influence on profits than the firm's relative performance within its industry. In other words, investors need to keep the big economic picture in mind.
 
@@ -11,12 +35,12 @@ This chapter treats the broad-based aspects of fundamental analysis—macroecono
 
 # 17.1 The Global Economy
 
-A top-down analysis of a firm's prospects must start with the global economy. The international economy might affect a firm's export prospects, the price competition it faces from competitors, or the profits it makes on investments abroad. Table 17.1 shows the
+A top-down analysis of a firm's prospects must start with the global economy. The international economy might affect a firm's export prospects, the price competition it faces from competitors, or the profits it makes on investments abroad. Table 17.1 shows the importance of the global or broad regional macroeconomy to firms' prospects.
 
 Table 17.1
 Economic performance, 2021.
 
-<table><tr><td></td><td>Stock market return (\%)</td><td>GDP growth (\%)</td></tr><tr><td>Britain</td><td>12.2</td><td>6.4</td></tr><tr><td>Canada</td><td>22.0</td><td>5.4</td></tr><tr><td>China</td><td>0.7</td><td>7.9</td></tr><tr><td>France</td><td>25.2</td><td>6.1</td></tr><tr><td>Germany</td><td>16.3</td><td>3.1</td></tr><tr><td>Hong Kong</td><td>-8.1</td><td>6.2</td></tr><tr><td>India</td><td>25.2</td><td>8.2</td></tr><tr><td>Italy</td><td>23.1</td><td>6.0</td></tr><tr><td>Japan</td><td>7.6</td><td>2.3</td></tr><tr><td>Mexico</td><td>17.7</td><td>6.4</td></tr><tr><td>Russia</td><td>31.7</td><td>4.2</td></tr><tr><td>Singapore</td><td>13.2</td><td>6.1</td></tr><tr><td>South Korea</td><td>3.6</td><td>4.1</td></tr><tr><td>Spain</td><td>11.9</td><td>5.5</td></tr><tr><td>Taiwan</td><td>16.2</td><td>5.7</td></tr><tr><td>Turkey</td><td>4.8</td><td>8.0</td></tr><tr><td>U.S.</td><td>24.1</td><td>5.7</td></tr></table> importance of the global or broad regional macroeconomy to firms' prospects. GDP growth varied widely across regions: The southeast Asian economies in this table (China, Taiwan, Singapore, and Hong Kong) averaged growth above  $6\%$ , while Germany, in the center of the euro zone, grew only  $3.1\%$ .
+<table><tr><td></td><td>Stock market return (\%)</td><td>GDP growth (\%)</td></tr><tr><td>Britain</td><td>12.2</td><td>6.4</td></tr><tr><td>Canada</td><td>22.0</td><td>5.4</td></tr><tr><td>China</td><td>0.7</td><td>7.9</td></tr><tr><td>France</td><td>25.2</td><td>6.1</td></tr><tr><td>Germany</td><td>16.3</td><td>3.1</td></tr><tr><td>Hong Kong</td><td>-8.1</td><td>6.2</td></tr><tr><td>India</td><td>25.2</td><td>8.2</td></tr><tr><td>Italy</td><td>23.1</td><td>6.0</td></tr><tr><td>Japan</td><td>7.6</td><td>2.3</td></tr><tr><td>Mexico</td><td>17.7</td><td>6.4</td></tr><tr><td>Russia</td><td>31.7</td><td>4.2</td></tr><tr><td>Singapore</td><td>13.2</td><td>6.1</td></tr><tr><td>South Korea</td><td>3.6</td><td>4.1</td></tr><tr><td>Spain</td><td>11.9</td><td>5.5</td></tr><tr><td>Taiwan</td><td>16.2</td><td>5.7</td></tr><tr><td>Turkey</td><td>4.8</td><td>8.0</td></tr><tr><td>U.S.</td><td>24.1</td><td>5.7</td></tr></table> GDP growth varied widely across regions: The southeast Asian economies in this table (China, Taiwan, Singapore, and Hong Kong) averaged growth above $6\%$, while Germany, in the center of the euro zone, grew only $3.1\%$.
 
 Note: GDP growth is The Economist forecast for full year. Stock market return is for first 10 months of year.
 Source: The Economist, November 6, 2021.
@@ -43,7 +67,6 @@ Change in real exchange rate: U.S. dollar versus major trading partners, 2015-20
 Figure 17.1 Change in real exchange rate: U.S. dollar versus major trading partners, 2015-2021.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/75f0f7de3824c766c9733a4fb6c018d1ae3d0d17b90585de54e81281f8f59a74.jpg)
 Source: Authors' calculations using data from the OECD.
-
 
 # 17.2 The Domestic Macroeconomy
 
@@ -391,20 +414,29 @@ Ultimately, in a mature industry, we observe "cash cows," firms with stable divi
 
 This analysis suggests that a typical industry life cycle might be described by four stages: a start-up stage, characterized by extremely rapid growth; a consolidation stage, characterized by growth that is less rapid but still faster than that of the general economy; a maturity stage, characterized by growth no faster than the general economy; and a stage of relative decline, in which the industry grows less rapidly than the rest of the economy, or actually shrinks. This industry life cycle is illustrated in Figure 17.11. Let us turn to an elaboration of each of these stages.
 
-Start-Up Stage The early stages of an industry are often characterized by a new technology or product such as desktop personal computers in the 1980s, cell phones in the 1990s, or touchscreen smartphones introduced in 2007. At this stage, it is difficult to predict which firms will emerge as industry leaders. Some firms will turn out to be wildly successful, and others will fail altogether. Therefore, there is considerable risk in selecting one particular firm within the industry. At the moment, for example, there is a battle ranging for dominance in 5G hardware. While Huawei had an early lead, cybersecurity concerns in the West led to restrictions against it. Now Samsung is viewed as having an opening to become a big player in the market, alongside the other early entrants, Nokia and Ericsson. It is difficult to predict which firm will ultimately win this battle.
+## Start-Up Stage
+
+The early stages of an industry are often characterized by a new technology or product such as desktop personal computers in the 1980s, cell phones in the 1990s, or touchscreen smartphones introduced in 2007. At this stage, it is difficult to predict which firms will emerge as industry leaders. Some firms will turn out to be wildly successful, and others will fail altogether. Therefore, there is considerable risk in selecting one particular firm within the industry. At the moment, for example, there is a battle ranging for dominance in 5G hardware. While Huawei had an early lead, cybersecurity concerns in the West led to restrictions against it. Now Samsung is viewed as having an opening to become a big player in the market, alongside the other early entrants, Nokia and Ericsson. It is difficult to predict which firm will ultimately win this battle.
 
 
 At the industry level, however, it is clear that sales and earnings will grow at an extremely rapid rate because the new product has not yet saturated its market. For example, in 2020, relatively few households had 5G-enabled smartphones. The potential market for the product therefore was huge. In contrast, consider the market for a mature product like refrigerators. Almost all households in the United States already have refrigerators, so the market for this good is primarily composed of households replacing old ones, which obviously limits the potential growth rate.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/5567b3ef783afa89a08e7679ca6bc6a451df5d891052b3ab883d3e7ef50d909d.jpg)
 Figure 17.11 The industry life cycle
-Consolidation Stage After a product becomes established, industry leaders begin to emerge. The survivors from the start-up stage are more stable, and market share is easier to predict. Therefore, the performance of the surviving firms will more closely track the performance of the overall industry. The industry still grows faster than the rest of the economy as the product penetrates the marketplace and becomes more commonly used.
 
-Maturity Stage At this point, the product has reached its full potential for use by consumers. Further growth might merely track growth in the general economy. The product has become far more standardized, and producers are forced to compete to a greater extent on the basis of price. This leads to narrower profit margins and further pressure on profits. Firms at this stage sometimes are characterized as cash cows, providing reasonably stable cash flow but offering little opportunity for profitable expansion. The cash flow is best "milked from" rather than reinvested in the company.
+## Consolidation Stage
+
+After a product becomes established, industry leaders begin to emerge. The survivors from the start-up stage are more stable, and market share is easier to predict. Therefore, the performance of the surviving firms will more closely track the performance of the overall industry. The industry still grows faster than the rest of the economy as the product penetrates the marketplace and becomes more commonly used.
+
+## Maturity Stage
+
+At this point, the product has reached its full potential for use by consumers. Further growth might merely track growth in the general economy. The product has become far more standardized, and producers are forced to compete to a greater extent on the basis of price. This leads to narrower profit margins and further pressure on profits. Firms at this stage sometimes are characterized as cash cows, providing reasonably stable cash flow but offering little opportunity for profitable expansion. The cash flow is best "milked from" rather than reinvested in the company.
 
 We pointed to desktop PCs as a start-up industry in the 1980s. By the mid-1990s it was a mature industry, with high market penetration, considerable price competition, low profit margins, and slowing sales. By the 1990s, desktops were progressively giving way to laptops, which were in their own start-up stage. Within a dozen years, laptops had in turn entered a maturity stage, with standardization, low profit margins, and new competition from tablets and large-screen smartphones.
 
-Relative Decline In this stage, the industry might grow at less than the rate of the overall economy, or it might even shrink. This could be due to obsolescence of the product, competition from new low-cost suppliers, or competition from new products; consider, for example, the steady displacement of desktops, first by laptops and now by tablets.
+## Relative Decline
+
+In this stage, the industry might grow at less than the rate of the overall economy, or it might even shrink. This could be due to obsolescence of the product, competition from new low-cost suppliers, or competition from new products; consider, for example, the steady displacement of desktops, first by laptops and now by tablets.
 
 At which stage in the life cycle are investments in an industry most attractive? Conventional wisdom is that investors should seek firms in high-growth industries. This recipe for success is simplistic, however. If the security prices already reflect the likelihood for high growth, then it is too late to make money from that knowledge. Moreover, high growth and fat profits encourage competition from other producers. The exploitation of profit opportunities brings about new sources of supply that eventually reduce prices, profits, investment returns, and finally growth. This is the dynamic behind the progression from one stage of the industry life cycle to another. The famous portfolio manager Peter Lynch makes this point in One Up on Wall Street:
 
@@ -416,7 +448,7 @@ Slow Growers Large and aging companies that will grow only slightly faster than 
 
 Stalwarts Large, well-known firms like Coca-Cola or Hershey's. They grow faster than the slow growers but are not in the very rapid growth start-up stage. They also tend to be in noncyclical industries that are relatively unaffected by recessions.
 
-Fast Growers Small and aggressive new firms with annual growth rates in the neighborhood of  $20 - 25\%$ . Company growth can be due to broad industry growth or to an increase in market share in a more mature industry.
+Fast Growers Small and aggressive new firms with annual growth rates in the neighborhood of $20 - 25\%$. Company growth can be due to broad industry growth or to an increase in market share in a more mature industry.
 
 Cyclicals These are firms with sales and profits that regularly expand and contract along with the business cycle. Examples are auto companies, steel companies, or the construction industry.
 
@@ -532,24 +564,16 @@ e. Railroads.
 a. General Autos or General Pharmaceuticals.
 b. Friendly Airlines or Happy Cinemas.
 
-# PROBLEM SETS
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/c6689b3041cddb256bc41ab82b2d2fe714d6150c2e8c5ac523058b22bb51a613.jpg)
-SCHWESER
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/02f4dc45089b4001f10403cb073f384ab22e7a1fcd6a0eff429c3c20682ebebd.jpg)
-SCHWESER
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/f6a19102db5990cb14bec31831cd819d52e0f3e19461f688272419c6a2dc819d.jpg)
-
-14. Why do you think the index of consumer expectations for business conditions is a useful leading indicator of the macroeconomy? (See Table 17.2.)
 15. Why do you think the change in the index of labor cost per unit of output is a useful lagging indicator of the macroeconomy? (See Table 17.2.)
 16. General Weedkillers dominates the chemical weed control market with its patented product Weed-ex. The patent is about to expire, however. What are your forecasts for changes in the industry? Specifically, what will happen to industry prices, sales, the profit prospects of General Weedkillers, and the profit prospects of its competitors? What stage of the industry life cycle do you think is relevant for the analysis of this market?
  17. Your business plan for your proposed start-up firm envisions first-year revenues of \$120,000, fixed costs of \$30,000, and variable costs equal to one-third of revenue.
 
 $a$ . What are expected profits based on these expectations?
 b. What is the degree of operating leverage based on the estimate of fixed costs and expected profits?
-c. If sales are  $10\%$  below expectation, what will be the decrease in profits?
+c. If sales are $10\%$ below expectation, what will be the decrease in profits?
 $d$ . Confirm that the percentage decrease in profits equals DOL times the  $10\%$  drop in sales.
 e. Based on the DOL, what is the largest percentage shortfall in sales relative to original expectations that the firm can sustain before profits turn negative?
 $f$ . What are break-even sales at this point?
@@ -592,7 +616,7 @@ Smith's report notes that French consumers have strong bargaining power over the
 - Many consumers are drinking more beer than wine with meals and at social occasions.
 - Increasing sales over the Internet have allowed consumers to better research the wines, read opinions from other customers, and identify which producers have the best prices.
 - The French wine industry is consolidating and consists of only 4 wineries today compared to 10 wineries five years ago.
-- More than  $65\%$  of the business for the French wine industry consists of purchases from restaurants. Restaurants typically make purchases in bulk, buying four to five cases of wine at a time.
+- More than $65\%$ of the business for the French wine industry consists of purchases from restaurants. Restaurants typically make purchases in bulk, buying four to five cases of wine at a time.
 - Land where the soil is fertile enough to grow grapes necessary for the wine production process is scarce in France.
 
 Smith takes her report to her boss, Sandra VanDriesen, to review and tells her, "In my report I have classified the South Winery as a stuck-in-the-middle firm. It tries to be a consumer cost leader by selling its wine at a price that is slightly below the other firms, but it also tries to differentiate itself from its competitors by producing wine in bottles with curved necks, which increases its cost structure. The end result is that the South Winery's profit margin gets squeezed from both sides." VanDriesen replies, I believe that the South Winery could succeed at following both a cost leadership and a differentiation strategy if its operations were separated into distinct operating units, with each unit pursuing a different competitive strategy." Smith makes a note to do more research on generic competitive strategies to verify VanDriesen's assertions before publishing the final draft of her report.
@@ -684,10 +708,10 @@ Table 17B
 
 Ratios for electric toothbrush industry index and broad stock market index
 
-- Industry Sales Growth—Industry sales have grown at  $15 - 20\%$  per year in recent years and are expected to grow at  $10 - 15\%$  per year over the next 3 years.
+- Industry Sales Growth—Industry sales have grown at $15 - 20\%$ per year in recent years and are expected to grow at $10 - 15\%$ per year over the next 3 years.
 Non-U.S. Markets—Some U.S. manufacturers are attempting to enter fast-growing non-U.S. markets, which remain largely unexploited.
-- Mail Order Sales—Some manufacturers have created a new niche in the industry by selling electric toothbrushes directly to customers through mail order. Sales for this industry segment are growing at  $40\%$  per year.
-U.S. Market Penetration—The current penetration rate in the United States is  $60\%$  of households and will be difficult to increase.
+- Mail Order Sales—Some manufacturers have created a new niche in the industry by selling electric toothbrushes directly to customers through mail order. Sales for this industry segment are growing at $40\%$ per year.
+U.S. Market Penetration—The current penetration rate in the United States is $60\%$ of households and will be difficult to increase.
 - Price Competition—Manufacturers compete fiercely on the basis of price, and price wars within the industry are common.
 - Niche Markets—Some manufacturers are able to develop new, unexploited niche markets in the United States based on company reputation, quality, and service.
 - Industry Consolidation—Several manufacturers have recently merged, and it is expected that consolidation in the industry will increase.
@@ -734,34 +758,6 @@ Selected retail autoparts industry data iii. Yes, the lower marginal tax rates a
 
 iv. Yes, interest rates will increase if marginal tax rates are lowered, whereas they will tend to decrease if the personal exemption allowance is raised.
 
-# E-INVESTMENTS EXERCISES
 
-1. This exercise will give you a chance to examine data on some of the leading economic indicators.
 
-a. Download the data for new privately owned housing units authorized by building permits from www.census.gov/construction/bps. Choose the seasonally adjusted data for the United States in an Excel format. Graph the "Total" series.
-b. Search for the last five years of data for manufacturers' new orders for All Manufacturing Industries from the St. Louis Federal Reserve site at research.stlouisfed.org. Graph the data.
-c. Locate data for the average weekly hours of production workers in manufacturing, available at www.bls.gov/lpc/#tables. Search for Hours Worked and Employment Measures for the U.S. Nonfarm Economy by Sector. Retrieve the data for the past five years.
-d. The data series you retrieved are all leading economic indicators. Based on the tables and your graphs, what is your opinion of where the economy is heading in the near future?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/25fdb812ac384035d62f0cd4153a505cb52fad95b939518231a5c31cd1beff4d.jpg)
-
-# SOLUTIONS TO CONCEPT CHECKS
-
-1. The downturn in the auto industry will reduce the demand for the product of this economy. The economy will, at least in the short term, enter a recession. This would suggest that: a. GDP will fall.
-
-$b$ . The unemployment rate will rise.
-c. The government deficit will increase. Income tax receipts will fall, and government expenditures on social welfare programs probably will increase.
-$d$ . Interest rates should fall. The contraction in the economy will reduce the demand for credit. Moreover, the lower inflation rate will reduce nominal interest rates.
-
-2. Expansionary fiscal policy coupled with expansionary monetary policy will stimulate the economy, with the loose monetary policy keeping down interest rates.
-3. A traditional demand-side interpretation of the tax cuts is that the resulting increase in after-tax income increased consumption demand and stimulated the economy. A supply-side interpretation is that the reduction in marginal tax rates made it more attractive for businesses to invest and for individuals to work, thereby increasing economic output.
-4. Firm C has the lowest fixed cost and highest variable costs. It should be least sensitive to the business cycle. In fact, it is. Its profits are highest of the three firms in recessions but lowest in expansions.
-
-<table><tr><td></td><td>Recession</td><td>Normal</td><td>Expansion</td></tr><tr><td>Revenue</td><td>$10</td><td>$12</td><td>\$14</td></tr><tr><td>Fixed cost</td><td>2</td><td>2</td><td>2</td></tr><tr><td>Variable cost</td><td>7.5</td><td>9</td><td>10.5</td></tr><tr><td>Profits</td><td>$ 0.5</td><td>$ 1</td><td>\$ 1.5</td></tr></table>
-
-5.  $a$ . Newspapers will do best in an expansion when advertising volume is increasing.
-
-b. Machine tools are a good investment at the trough of a recession, just as the economy is about to enter an expansion and firms may need to increase capacity.
-c. Beverages are defensive investments, with demand that is relatively insensitive to the business cycle. Therefore, they are relatively attractive investments if a recession is forecast.
-$d$ . Timber is a good investment at a peak period, when natural resource prices are high and the economy is operating at full capacity.
 
