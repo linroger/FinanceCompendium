@@ -1,12 +1,24 @@
 ---
-aliases:
-  - "Types of Risks Incurred by Financial Institutions"
-tags:
-key_concepts:
-parent_directory: "III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 05 Risk Management"
-cssclasses: academia
 title: "Chapter 20: Types of Risks Incurred by Financial Institutions"
-linter-yaml-title-alias: "Chapter 20: Types of Risks Incurred by Financial Institutions"
+primary_tags:
+  - financial institution risks
+  - credit risk management
+  - liquidity risk
+  - interest rate risk
+  - market risk
+secondary_tags:
+  - off balance sheet risk
+  - foreign exchange risk
+  - country risk
+  - technology risk
+  - operational risk
+  - fintech risk
+  - insolvency risk
+  - systemic credit risk
+  - firm specific risk
+  - risk diversification
+  - cameles rating
+cssclasses: academia
 ---
 
 # Types of Risks Incurred by Financial Institutions
@@ -25,11 +37,11 @@ LG 20-3
 
 Understand how the various risks faced by financial institutions are related.
 
-# WHY FINANCIAL INSTITUTIONS NEED TO MANAGE RISK: CHAPTER OVERVIEW
+## WHY FINANCIAL INSTITUTIONS NEED TO MANAGE RISK: CHAPTER OVERVIEW
 
 As has been mentioned in previous chapters, a major objective of FI management is to increase the FI's returns for its owners. This often comes, however, at the cost of increased risk. As discussed in Chapter 12, regulators' evaluation of the overall safety and soundness of a depository institution (DI) is summarized in the CAMELS rating assigned to the DI. This chapter provides an overview of the various risks facing FIs: credit risk, liquidity risk, interest rate risk, market risk, off-balance-sheet risk, foreign exchange risk, country or sovereign risk, technology risk, operational risk, fintech risk, and insolvency risk. Table 20-1 presents a brief definition of each of these risks. As will become clear, the effective management of these risks is central to an FI's performance. Indeed, it can be argued that the main business of FIs is to manage these risks. As a result, FI managers must devote significant time to understanding and managing the various risks to which their FIs are exposed. By the end of this chapter, you will have a basic understanding of the variety and complexity of the risks facing managers of modern FIs. In the remaining chapters of the text, we look at the management of the most important of these risks in more detail.
 
-# TABLE 20-1 Risks Faced by Financial Institutions
+## TABLE 20-1 Risks Faced by Financial Institutions
 
 1. Credit risk—the risk that promised cash flows from loans and securities held by FIs may not be paid in full.
 2. Liquidity risk—the risk that a sudden and unexpected increase in liability withdrawals may require an FI to liquidate assets in a very short period of time and at low prices.
@@ -43,9 +55,9 @@ As has been mentioned in previous chapters, a major objective of FI management i
 10. Fintech risk—the risk that fintech firms could disrupt business of financial services firms in the form of lost customers and lost revenue.
 11. Insolvency risk—the risk that an FI may not have enough capital to offset a sudden decline in the value of its assets relative to its liabilities.
 
-# CREDIT RISK
+## CREDIT RISK
 
-# credit risk
+### credit risk
 
 The risk that the promised cash flows from loans and securities held by FIs may not be paid in full.
 
@@ -53,7 +65,7 @@ Credit risk arises because of the possibility that promised cash flows on financ
 
 Many financial claims issued by individuals or corporations and held by FIs promise a limited or fixed upside return (principal and interest payments to the lender) with a high probability, but they also may result in a large downside risk (loss of loan principal and promised interest) with a much smaller probability. Some examples of financial claims issued with these return-risk trade-offs are fixed-coupon bonds issued by corporations and bank loans. In both cases, an FI holding these claims as assets earns the coupon on the bond or the interest promised on the loan if no borrower default occurs. In the event of default, however, the FI earns zero interest on the asset and may well lose all or part of the principal lent, depending on its ability to lay claim to some of the borrower's assets through legal bankruptcy and insolvency proceedings. Accordingly, a key role of FIs involves screening and monitoring loan applicants to ensure that FI managers fund the most creditworthy loans (see Chapter 21).
 
-# EXAMPLE 20-1 Impact of Credit Risk on an FI's Equity Value
+### EXAMPLE 20-1 Impact of Credit Risk on an FI's Equity Value
 
 Consider an FI with the following balance sheet:
 
@@ -75,12 +87,12 @@ Figure 20-2 Credit Card Loss Rates and Personal Bankruptcy Filings
 
 Sources: FDIC, Quarterly Banking Profile, various issues, www.fdic.gov
 
-# DO YOU UNDERSTAND?
+### DO YOU UNDERSTAND?
 
 1. Why credit risk exists for FIs?
 2. How diversification affects an FI's credit risk exposure?
 
-# firm-specific credit risk
+### firm-specific credit risk
 
 The risk of default for the borrowing firm associated with the specific types of project risk taken by that firm.
 
@@ -88,7 +100,7 @@ loans) for various types of loans between 1984 and 2019. Notice, in particular, 
 
 Even as losses due to credit risk increase, financial institutions continue to willingly give loans. This is because the FI charges a rate of interest on a loan that compensates for the risk of the loan. Thus, an important element in the credit risk management process is its pricing. Further, the potential loss an FI can experience from lending suggests that FIs need to collect information about borrowers whose assets are in their portfolios and to monitor those borrowers over time. Thus, managerial (monitoring) efficiency and credit risk management strategies directly affect the returns and risks of the loan portfolio. Moreover, one of the advantages that FIs have over individual investors is their ability to diversify credit risk exposures from a single asset by exploiting the law of large numbers in their asset investment portfolios. Diversification across assets, such as loans exposed to credit risk, reduces the overall credit risk in the asset portfolio and thus increases the probability of partial or full repayment of principal and/or interest. In particular, diversification reduces individual firm-specific credit risk, such as the risk specific to holding the bonds
 
-# systemic credit risk
+### systemic credit risk
 
 The risk of default associated with general economywide or macroconditions affecting all borrowers.
 
@@ -96,9 +108,9 @@ or loans of General Motors, while still leaving the FI exposed to systemic credi
 
 Chapter 21 describes methods to measure the default risk of individual bonds and loans and investigates methods to measure the risk of portfolios of such claims. Chapter 25 discusses various methods—for example, loan sales and loan reschedulings—used to manage and control credit risk exposures.
 
-# LIQUIDITY RISK
+## LIQUIDITY RISK
 
-# liquidity risk
+### liquidity risk
 
 The risk that a sudden and unexpected increase in liability withdrawals may require an FI to liquidate assets in a very short period of time and at low prices.
 

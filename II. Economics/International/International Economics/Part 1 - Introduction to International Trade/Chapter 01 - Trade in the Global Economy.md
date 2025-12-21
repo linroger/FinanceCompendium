@@ -1,24 +1,20 @@
 ---
+title: "Trade in the Global Economy"
 primary_tags:
-- economics trade global
-- fdi oecd countries key
-- lower wages industrial countries
-- trade sent countries recessions
-- trade countries 2010 years
+  - international trade theory
+  - global trade patterns
+  - trade economics
 secondary_tags:
-- world gdp ratio trade
-- trade gdp 2010 1980
-- worldwide trade migration
-- 27 worldwide trade occurs
-- countries figure happened cause
-- cause slow trade fall
-- possible explain trade countries
-- global economic
-- years world economy reach
-- effects international trade
-- unlike trade occurs oecd
-- countries recessions led fall
-tags_extracted: '2025-12-18T00:37:24.678982'
+  - foreign direct investment
+  - trade barriers
+  - migration economics
+  - trade liberalization
+  - world trade organization
+cssclasses: academia
+formatted: "2025-12-21 11:03:25 PM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+parent_directory: "II. Economics/International/International Economics/Part 1 - Introduction to International Trade"
 ---
 
 # International Economics

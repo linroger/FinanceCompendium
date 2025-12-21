@@ -1,31 +1,45 @@
 ---
-aliases:
-  - The Dodd-Frank Act and Its Impact
-tags:
-key_concepts:
-parent_directory: Regulation
+title: "Note on the Dodd-Frank Act and Its Impact"
+parent_directory: "II. Economics/Regulation"
+formatted: 2025-12-21 11:20:00 PM
+formatter_model: claude-haiku-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+  - dodd-frank act
+  - financial regulatory reform
+  - systemic risk management
+  - banking regulation
+secondary_tags:
+  - financial stability oversight council
+  - basel iii accord
+  - collins amendment
+  - trust preferred securities
+  - contingent convertible securities
+  - volcker rule
+  - orderly liquidation authority
+  - credit risk retention
+  - deposit insurance reform
+  - rating agency oversight
 cssclasses: academia
-title: The Dodd-Frank Act and Its Impact
-linter-yaml-title-alias: The Dodd-Frank Act and Its Impact
 ---
 
 # The Dodd-Frank Act and Its Impact
 
 On July 21, 2010, President Obama signed into law the Dodd-Frank Wall Street Reform and Consumer Protection Act (Dodd-Frank Act), one of the most sweeping financial reform bills in the history of the United States. The Dodd-Frank Act, in response to the preceding financial crisis of 2008-09, fundamentally changed the finance industry and greatly affected its biggest players. This technical note gives an overview of the most important parts of the act (and other regulatory reform) and the effect these reforms may have on the country's largest financial institutions. It is important to note that the Dodd-Frank Act does not necessarily create hard and fast rules but often provides only guidance for regulators to proceed with rulemaking activities.
 
-# Costs of the Crisis
+## Costs of the Crisis
 
-The financial crisis of 2008-09 was far-reaching and the most expensive in history. The IMF estimates that the total worldwide cost of the crisis was \(2.3 trillion, and the direct fiscal costs in the United States are estimated to be approximately \(2\%\) of the GDP or about \)300 billion. But the costs could have been much higher. Public funds committed to the financial sector totaled as much as \(30\%\) of the GDP (\(4.5 trillion), and the initial fiscal outlays were approximately \)700 billion (4%-4.5% of the GDP). Losses in private institutions were even greater. As a result of the financial crisis, financial institutions experienced write downs and credit losses of around \)1.2 trillion or \(8\%\) of the GDP.
+The financial crisis of 2008-09 was far-reaching and the most expensive in history. The IMF estimates that the total worldwide cost of the crisis was \(2.3 trillion, and the direct fiscal costs in the United States are estimated to be approximately \(2\%\) of the GDP or about $300 billion. But the costs could have been much higher. Public funds committed to the financial sector totaled as much as \(30\%\) of the GDP (\(4.5 trillion), and the initial fiscal outlays were approximately $700 billion (4%-4.5% of the GDP). Losses in private institutions were even greater. As a result of the financial crisis, financial institutions experienced write downs and credit losses of around $1.2 trillion or \(8\%\) of the GDP.
 
-Despite the previously unfathomable sums involved, the final bill for the U.S. government's much ballyhooed rescue program, TARP, is predicted to be much smaller than initially anticipated. Final cost estimates for TARP put the cost to taxpayers at approximately  \$109 billion,\$ 34 billion of which is attributable to the auto industry. This modest final cost is due mostly in part to the substantial recoveries the government has received from the redemption of its interests in the nation's largest financial institutions. Tim Geithner, the secretary of the treasury, has actually stated that he believes the final cost of TARP will be in the ballpark of \$50 billion.
+Despite the previously unfathomable sums involved, the final bill for the U.S. government's much ballyhooed rescue program, TARP, is predicted to be much smaller than initially anticipated. Final cost estimates for TARP put the cost to taxpayers at approximately $109 billion, $34 billion of which is attributable to the auto industry. This modest final cost is due mostly in part to the substantial recoveries the government has received from the redemption of its interests in the nation's largest financial institutions. Tim Geithner, the secretary of the treasury, has actually stated that he believes the final cost of TARP will be in the ballpark of \$50 billion.
 
-# Goals of Regulatory Reform
+## Goals of Regulatory Reform
 
 The stated aim of the Dodd-Frank Act is "to promote the financial stability of the United States by improving accountability and transparency in the financial system, to end 'too big to fail,' to protect the American taxpayer by ending bailouts, to protect consumers from abusive financial services practices, and for
 
-other purposes."1 Essentially, Congress's intent in passing the act was to reduce system-wide risk and to prevent a financial collapse like the one in 2008-09.
+and for other purposes."1 Essentially, Congress's intent in passing the act was to reduce system-wide risk and to prevent a financial collapse like the one in 2008-09.
 
-# The New Regulatory Environment and the Financial Stability Oversight Council
+## The New Regulatory Environment and the Financial Stability Oversight Council
 
 Prior to the passage of the Dodd-Frank Act, the U.S. financial regulatory system was extremely fractured and had no regulator responsible for monitoring systemic risk. There were five major regulatory authorities who oversaw financial institutions: the Office of the Comptroller of the Currency (OCC) which regulated national banks, the Federal Reserve Board (Fed), which oversaw bank holding companies  $(\mathrm{BHCs})^2$  and state member banks,3 the Federal Deposit Insurance Corporation (FDIC), which was responsible for banks that were not Fed members as well as all banks covered by deposit insurance, the Office of Thrift Supervision (OTS), which regulated savings and loan associations and thrifts, and finally state regulators that oversaw state chartered banks. The Dodd-Frank Act attempts to streamline banking regulation by eliminating the OTS and transferring its powers to the OCC, Fed, and FDIC, while giving the Fed expanded oversight powers.
 
@@ -46,7 +60,7 @@ more stringent leverage limits or forcing large institutions to divest some of t
 
 The FSOC also has broad supervisory authority over financial institutions. It has the power to monitor, investigate, assess risks to the financial system, and collect information from BHCs and nonbank financial institutions. Also, the FSOC will continue to perform stress tests on the largest financial institutions to ensure that they have adequate capital in the event of another financial crisis. Finally, the FSOC will work with other regulators to recommend enhanced capital, liquidity, and risk management standards for systemically important financial firms.
 
-# Basel III Accord
+## Basel III Accord
 
 In September 2010, the Basel Committee on Banking Supervision passed the newest Basel Accord, commonly known as Basel III, which will be phased in over the next eight years. The Basel Accords serve as minimum prudential standards for participating international banking regulators. Regulators may require more stringent standards but cannot go below those specified by the Basel Accords. Based on Basel III, banks will be required to hold common equity (essentially the same as tier 1 capital) equal to at least  $7\%$  of the bank's assets, up from  $4\%$  in the United States and  $2\%$  internationally, and across a wider range of assets. Part of that equity will be a  $2.5\%$  conservation buffer during strong economic periods (to be built up between 2015 and 2019). If a bank falls below this buffer level, regulators could force it to retain more of its earnings in order to augment its regulatory capital. Regulators also discussed but did not come to an agreement about rules forcing banks to meet certain liquidity requirements; the issue will be revisited in 2015 when new rules are discussed.
 
@@ -96,7 +110,7 @@ performed poorly, and the combination of necessity of issuance and no natural bu
 
 Prior to the passage of the Dodd-Frank Act, only two major banks had issued contingent capital securities, and both were European banks. In 2009, Lloyds Banking Group was the first to issue a CoCo security, and Rabobank Group followed suit in 2010. The two issuances, however, were different in one very important respect: Lloyds at the time of its issuance was in distress, whereas Rabobank Group was considered one of the strongest banks in the world when it introduced its security.
 
-Lloyds issued over \$12 billion of contingent convertibles but as an exchange for its existing bonds, as a part of a larger capital restructuring effort that also involved the exchange of existing debt for common equity. The CoCos issued by Lloyds will trigger when its tier 1 capital falls below  $5\%$ , a 360 basis-point drop from its capital level after the exchange. The CoCos were rated two steps below investment grade by both Fitch and Moody's and will pay coupons of 150 to 250 basis points (bps) higher than the debt for which they are being exchanged. The key for the Lloyds issuance is that the CoCos will be counted as core capital.
+Lloyds issued over \$12 billion of contingent convertibles but as an exchange for its existing bonds, as a part of a larger capital restructuring effort that also involved the exchange of existing debt for common equity. The CoCos issued by Lloyds will trigger when its tier 1 capital falls below $5\%$, a 360 basis-point drop from its capital level after the exchange. The CoCos were rated two steps below investment grade by both Fitch and Moody's and will pay coupons of 150 to 250 basis points (bps) higher than the debt for which they are being exchanged. The key for the Lloyds issuance is that the CoCos will be counted as core capital.
 
 The Rabobank Group's issuance of CoCos, which occurred in early 2010, is markedly different than the Lloyds offering. Most notably, Rabobank Group did it from a position of strength, as it was well-capitalized and maintained an AAA rating. Its issuance consisted of EUR25 billion unsecured 10-year bonds that would convert if the bank lost \$15 billion of its \$35 billion of equity (when its tier 1 capital would fall below 7%). Yet the price was steep as the bonds sold at an interest rate of 6.875%, 351 bps over equivalent swaps and 495 bps more than similar maturity government debt—almost seven times the normal spread of 73 bps for AAA rated companies. Additionally, the bonds will not count toward the bank's regulatory capital and were not rated. But the most interesting feature is that if the trigger is hit, the bonds will be subject to an immediate 75% haircut and will not be converted into equity but rather will be payable in cash. The idea is that this would reduce the bank's liabilities in a time of financial distress, and conversion seems such a remote possibility for Rabobank Group's CoCos that investors have largely ignored this feature. Nonetheless, the bonds performed poorly initially.
 
@@ -186,7 +200,7 @@ Rating agencies are required to establish "look-back" procedures that are meant 
 - Applies to institutions with more than \$10 billion in assets.  
 - But small banks will still essentially have to match big bank rates to remain competitive.  
 - Will be a revenue hit, but it is not clear what the exact amount will be.  
-o BOA O2 2010 earnings call said it could be as much as  $70\%$ .  
+o BOA O2 2010 earnings call said it could be as much as $70\%$.  
 Essentially just transfers revenue from financial institutions to merchants (with no net benefit to consumers).  
 Banks may end up charging fees to consumers for debit cards to make up for the revenue hit.
 

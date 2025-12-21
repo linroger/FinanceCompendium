@@ -1,31 +1,29 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Trade in the Global Economy
-linter-yaml-title-alias: Trade in the Global Economy
+parent_directory: I - Introduction to Trade
+formatted: 2025-12-21 11:05:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
 primary_tags:
-- greenland expected benefit exporting
-- automobile industry china buying
-- arctic circle possible shrinkage
-- expertise did lenovo acquire
-- acquire management international expertise
+  - greenland expected benefit exporting
+  - automobile industry china buying
+  - arctic circle possible shrinkage
+  - expertise did lenovo acquire
+  - acquire management international expertise
 secondary_tags:
-- trade global economy
-- fdi china 2009 purchase
-- international expertise ibm
-- purchasing volvo ford chinese
-- reverse vertical fdi china
-- knowledge chinese firms actively
-- venture abroad acquiring assets
-- firms learn foreign
-- acquiring technical knowledge chinese
-- labor lenovo engaged fdi
-- fdi acquire inexpensive labor
-- worldwide trade question asked
-tags_extracted: '2025-12-18T00:31:35.051796'
+  - trade global economy
+  - fdi china 2009 purchase
+  - international expertise ibm
+  - purchasing volvo ford chinese
+  - reverse vertical fdi china
+  - knowledge chinese firms actively
+  - venture abroad acquiring assets
+  - firms learn foreign
+  - acquiring technical knowledge chinese
+  - labor lenovo engaged fdi
+  - fdi acquire inexpensive labor
+  - worldwide trade question asked
+cssclasses: academia
 ---
 
 # Trade in the Global Economy
@@ -44,17 +42,17 @@ In this historical milestone, we see that global climate change can have importa
 
 In this book, we will study international trade in goods and services and will learn the economic forces that determine what that trade looks like: what products are traded; who trades them; at what quantities and prices they are traded; and what the
 
-1 International Trade
+## 1 International Trade
 
-2 Migration and Foreign Direct Investment
+## 2 Migration and Foreign Direct Investment
 
-3 Conclusions
+## 3 Conclusions
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/1958b9668442037360e39a75a249b1240d6e50224235a28ca9f7a8c69a2692da.jpg)
 
 Melting icebergs in Disko Bay, Greenland
 
-$^{\text{©}}$ Frank Krahmer/Corbis benefits and costs of trade are. We will also learn about the policies that governments use to shape trade patterns among countries.
+© Frank Krahmer/Corbis benefits and costs of trade are. We will also learn about the policies that governments use to shape trade patterns among countries.
 
 Why should we care about international trade? Many people believe that international trade creates opportunities for countries to grow and thrive. The manufacture of goods exported from China, for example, creates employment for many millions of workers there. The same is true for exports from the United States and European countries. It is not just large countries that potentially benefit from trade; smaller countries, too, are affected. In Greenland, for example, higher temperatures due to global warming have exposed deposits of "rare earth" minerals, such as lanthanum and neodymium, which are used in cell phones and other high-tech devices. Because of international trade, Greenland is expected to benefit from exporting these rare earth minerals to meet global demand. But such benefits can also bring difficult social change and challenges, as the traditional lifestyle of fishing becomes less crucial to Greenland's economy. In this book we will explore both the opportunities and challenges created by international trade for different groups in society.
 
@@ -84,9 +82,9 @@ In 2010, the iPhone 3GS was valued at about  \$179 when it was shipped from Chin
 
 The iPhone example illustrates how the manufacturing required for a single final product is often spread across many countries. That so many countries can be involved in manufacturing a final product and its components is a new phenomenon that illustrates the drop in transportation and communication costs in the modern world economy. In the past, trade occurred in more standardized goods (such as raw materials) that were shipped long distances, but were not shipped back-and-forth between countries during the manufacturing process. This new feature of world trade and production, often called offshoring, is discussed later in the book; here, we present the idea by looking at how trade patterns have changed over time.
 
-### HEADLINES
+#### HEADLINES
 
-#### Sum of iPhone Parts: Trade Distortion
+##### Sum of iPhone Parts: Trade Distortion
 
 Although the iPhone sold in the United States is assembled in China, most of its value comes from parts made in other countries. Counting its full value as a U.S. import from China therefore exaggerates the size of the U.S. trade deficit with China.
 

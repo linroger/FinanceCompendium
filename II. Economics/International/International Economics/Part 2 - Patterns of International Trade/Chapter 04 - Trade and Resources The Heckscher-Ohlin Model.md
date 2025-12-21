@@ -1,27 +1,24 @@
 ---
+title: "Trade and Resources: The Heckscher-Ohlin Model"
 primary_tags:
-- resources heckscher ohlin model
-- world effective labor compared
-- sloping foreign import
-- united states accounted wages
-- exports exchange computers equilibrium
+  - heckscher ohlin model
+  - factor endowment trade
+  - factor abundance theorem
 secondary_tags:
-- trade equilibrium trade triangle
-- trade figure equilibrium relative
-- labor united states abundance
-- labor abundance share gdp
-- international trade goods assumption
-- countries population figure labor
-- computers free trade determined
-- trade countries using heckscher
-- labor share factor
-- worldwide wages exceeds share
-- free trade equilibrium lies
-- labor compared economy
-tags_extracted: '2025-12-18T00:38:05.189988'
+  - stolper samuelson theorem
+  - leontief paradox
+  - factor price equalization
+  - trade pattern determinants
+  - resource based trade
+  - comparative advantage factors
+  - international trade theory
+  - factor intensity reversal
+  - effective factor endowments
+  - trade welfare effects
+cssclasses: academia
 ---
 
-# Trade and Resources: the Heckscher-ohlin Model
+# Trade and Resources: The Heckscher-Ohlin Model
 
 God did not bestow all products upon all parts of the earth, but distributed His gifts over different regions, to the end that men might cultivate a social relationship because one would have need of the help of another. And so He called commerce into being, that all men might be able to have common enjoyment of the fruits of the earth, no matter where produced.
 
@@ -38,9 +35,7 @@ David Hume, Essays, Moral, Political, and Literary, 1752, Part II, Essay VI, "On
 
 In Chapter 2, we examined U.S. imports of snowboards. We argued there that the resources found in a country would influence its pattern of international trade. Canada's export of snowboards to the United States reflects its mountains and cold climate, as do the exports of snowboards to the United States from Austria, Spain, Switzerland, Slovenia, Italy, Poland, and France. Because each country's resources are different and because resources are spread unevenly around the world, countries have a reason to trade the goods made with these resources. This is an old idea, as shown by the quotations at the beginning of this chapter; the first is from the fourth-century Greek scholar Libanius, and the second is from the eighteenth-century philosopher David Hume.
 
-In this chapter, we outline the Heckscher-Ohlin model, a model that assumes that trade occurs because countries have different resources. This model contrasts with the Ricardian model, which assumed that trade occurs because countries use their technological comparative advantage to specialize in the production of different goods. The model is named after the Swedish economists Eli Heckscher, who wrote
-
-about his views of international trade in a 1919 article, and his student Bertil Ohlin, who further developed these ideas in his 1924 dissertation.
+In this chapter, we outline the Heckscher-Ohlin model, a model that assumes that trade occurs because countries have different resources. This model contrasts with the Ricardian model, which assumed that trade occurs because countries use their technological comparative advantage to specialize in the production of different goods. The model is named after the Swedish economists Eli Heckscher, who wrote about his views of international trade in a 1919 article, and his student Bertil Ohlin, who further developed these ideas in his 1924 dissertation.
 
 The Heckscher-Ohlin model was developed at the end of a "golden age" of international trade (as described in Chapter 1) that lasted from about 1890 until 1914, when World War I started. Those years saw dramatic improvements in transportation: the steamship and the railroad allowed for a great increase in the amount of international trade. For these reasons, there was a considerable increase in the ratio of trade to GDP between 1890 and 1914. It is not surprising, then, that Heckscher and Ohlin would want to explain the large increase in trade that they had witnessed in their own lifetimes. The ability to transport machines across borders meant that they did not look to differences in technologies across countries as the reason for trade, as Ricardo had done. Instead, they assumed that technologies were the same across countries, and they used the uneven distribution of resources across countries to explain trade patterns.
 
@@ -54,9 +49,7 @@ The third goal of the chapter is to investigate how the opening of trade between
 
 # 1 Heckscher-ohlin Model
 
-In building the Heckscher-Ohlin model, we suppose there are two countries, Home and Foreign, each of which produces two goods, computers and shoes, using two factors of production, labor and capital. Using symbols for capital  $ (K) $ and labor $ (L) $ , we
-
-can add up the resources used in each industry to get the total for the economy. For example, the amount of capital Home uses in shoes  $ K_{S} $, plus the amount of capital used in computers $ K_{C} $, adds up to the total capital available in the economy $ \overline{K} $, so that $ K_{C} + K_{S} = \overline{K} $. The same applies for Foreign: $ K_{C}^{*} + K_{S}^{*} = \overline{K}^{*} $. Similarly, the amount of labor Home uses in shoes $ L_{S} $, and the amount of labor used in computers $ L_{C} $, add up to the total labor in the economy $ \overline{L} $, so that $ L_{C} + L_{S} = \overline{L} $. The same applies for Foreign: $ L_{C}^{*} + L_{S}^{*} = \overline{L}^{*} $ .
+In building the Heckscher-Ohlin model, we suppose there are two countries, Home and Foreign, each of which produces two goods, computers and shoes, using two factors of production, labor and capital. Using symbols for capital $ (K) $ and labor $ (L) $, we can add up the resources used in each industry to get the total for the economy. For example, the amount of capital Home uses in shoes $ K_{S} $, plus the amount of capital used in computers $ K_{C} $, adds up to the total capital available in the economy $ \overline{K} $, so that $ K_{C} + K_{S} = \overline{K} $. The same applies for Foreign: $ K_{C}^{*} + K_{S}^{*} = \overline{K}^{*} $. Similarly, the amount of labor Home uses in shoes $ L_{S} $, and the amount of labor used in computers $ L_{C} $, add up to the total labor in the economy $ \overline{L} $, so that $ L_{C} + L_{S} = \overline{L} $. The same applies for Foreign: $ L_{C}^{*} + L_{S}^{*} = \overline{L}^{*} $.
 
 # Assumptions of the Heckscher-ohlin Model
 
@@ -86,9 +79,8 @@ Labor Intensity of Each Industry The demand for labor relative to capital is ass
 
 [\frac{L}{k} < \frac{{L}^{ * }}{{k}^{ * }};\frac{k}{l} > \frac{{k}^{ * }}{{l}^{ * }}]
 
-Foreign lao abondant
+Foreign labor abundant
 $ $
-
 \frac{l^{*}}{k^{*}} > \frac{l}{k}
 
 $ $
@@ -151,20 +143,14 @@ Production Possibilities Frontiers To determine the no-trade equilibria in Home 
 
 No-Trade Equilibria in Home and Foreign The Home production possibilities frontier (PPF) is shown in panel (a), and the Foreign PPF is shown in panel (b). Because Home is capital-abundant and computers are capital-intensive, the Home PPF is skewed toward computers. Home preferences are summarized by the indifference curve,  $ U $, and the Home no-trade (or autarky) equilibrium is at point $ A $ , with a low relative price of computers,
 
-as indicated by the flat slope of  $ (P_{C} / P_{S})^{A} $. Foreign is labor-abundant and shoes are labor-intensive, so the Foreign PPF is skewed toward shoes. Foreign preferences are summarized by the indifference curve, $ U^{*} $, and the Foreign no-trade equilibrium is at point $ A^{*} $, with a higher relative price of computers, as indicated by the steeper slope of $ (P_{C}^{*} / P_{S}^{*})^{A^{*}} $. $ $
+as indicated by the flat slope of $ (P_{C} / P_{S})^{A} $. Foreign is labor-abundant and shoes are labor-intensive, so the Foreign PPF is skewed toward shoes. Foreign preferences are summarized by the indifference curve, $ U^{*} $, and the Foreign no-trade equilibrium is at point $ A^{*} $, with a higher relative price of computers, as indicated by the steeper slope of $ (P_{C}^{*} / P_{S}^{*})^{A^{*}} $. $^2$
 
-a t a n g e m o f d i f f e n c e (w r o a n d P F), t h e r e l a r r e p r i c e f o w p l e r s u n t e m s o f s h oese q u e a l t h e o p p o r t i v i t y c a s t o f p r e d i n g c o m p r o x s t s w e c e s f o s h u s e s f o r g r a v e
-
-$ $
-this shape. $ ^2 $  For now, we accept these shapes of the PPF and use them as the starting point for our study of the HO model.
+For now, we accept these shapes of the PPF and use them as the starting point for our study of the HO model.
 
 Indifference Curves Another assumption of the HO model (assumption 6) is that consumer tastes are the same across countries. As we did in the Ricardian model, we graph consumer tastes using indifference curves. Two of these curves are shown in Figure 4-2 ( $ U $ and $ U^{*} $  for Home and Foreign, respectively); one is tangent to Home's PPF, and the other is tangent to Foreign's PPF. Notice that these indifference curves are the same shape in both countries, as required by assumption 6. They are tangent to the PPFs at different points because of the distinct shapes of the PPFs just described.
 
-The slope of an indifference curve equals the amount that consumers are willing to pay for computers measured in terms of shoes rather than dollars. The slope of the PPF equals the opportunity cost of producing one more computer in terms of shoes given up. When the slope of an indifference curve equals the slope of a PPF, the relative price that consumers are willing to pay for computers equals the opportunity cost of producing them, so this point is the no-trade equilibrium.<sup>3</sup> The common slope of the indifference curve and PPF at their tangency equals the relative price of computers  $ P_{C} / P_{S} $. A steeply sloped price line implies a high relative price of computers, whereas a flat price line implies a low relative price for computers. $ $
+The slope of an indifference curve equals the amount that consumers are willing to pay for computers measured in terms of shoes rather than dollars. The slope of the PPF equals the opportunity cost of producing one more computer in terms of shoes given up. When the slope of an indifference curve equals the slope of a PPF, the relative price that consumers are willing to pay for computers equals the opportunity cost of producing them, so this point is the no-trade equilibrium.<sup>3</sup> The common slope of the indifference curve and PPF at their tangency equals the relative price of computers $ P_{C} / P_{S} $. A steeply sloped price line implies a high relative price of computers, whereas a flat price line implies a low relative price for computers.
 
-S t e e p p r i c e l i v e m i p l o s s a r e a t a n a l y h i g h p r i c e o f (a m p r i c e -)
-
-$ $
 No-Trade Equilibrium Price Given the differently shaped PPFs, the indifference curves of each country will be tangent to the PPFs at different production points, corresponding to different relative price lines across the two countries. In Home, the no-trade or autarky equilibrium is shown by point  $ A $, at which Home produces $ Q_{C1} $ of computers and $ Q_{S1} $ of shoes at the relative price of $ (P_C / P_S)^A $. Because the Home PPF is skewed toward computers, the slope of the Home price line $ (P_C / P_S)^A $ is quite flat, indicating a low relative price of computers. In Foreign, the no-trade or autarky equilibrium is shown by point $ A^* $ at which Foreign produces $ Q_{C1}^* $ of computers and $ Q_{S1}^* $ of shoes at the relative price of $ (P_C^* / P_S^*)^{A^*} $. Because the Foreign PPF is skewed toward shoes, the slope of the Foreign price line $ (P_C^* / P_S^*)^{A^*} $  is quite steep, indicating a high relative price of computers. Therefore, the result from comparing the no-trade equilibria in Figure 4-2 is that the no-trade relative price of computers at Home is lower than in Foreign. (Equivalently, we can say that the no-trade relative price of shoes at Home is higher than in Foreign.)
 
 These comparisons of the no-trade prices reflect the differing amounts of labor found in the two countries: the Foreign country has abundant labor, and shoe production is labor-intensive, so the no-trade relative price of shoes is lower in Foreign than in Home. That Foreigners are willing to give up more shoes for one computer reflects the fact that Foreign resources are suited to making more shoes. The same logic applies to Home, which is relatively abundant in capital. Because computer production is capital-intensive, Home has a lower no-trade relative price of computers than Foreign. Thus, Home residents need to give up fewer shoes to obtain one computer, reflecting the fact that their resources are suited to making more computers.
@@ -361,9 +347,7 @@ Applied Materials, a well-known firm in Silicon Valley, recently announced plans
 
 XI'AN, China—For years, many of China's best and brightest left for the United States, where high-tech industry was more cutting-edge. But Mark R. Pinto is moving in the opposite direction. Mr. Pinto is the first chief technology officer of a major American tech company to move to China. The company, Applied Materials, is one of Silicon Valley's most prominent firms. It supplied equipment used to perfect the first computer chips. Today, it is the world's biggest supplier of the equipment used to make semiconductors, solar panels and flat-panel displays.
 
-In addition to moving Mr. Pinto and his family to Beijing in January, Applied Materials, whose headquarters are in Santa Clara, Calif., has just built its newest and largest research labs here. Last week, it even held its an
-
-nual shareholders' meeting in Xi'an. It is hardly alone. Companies—and their engineers—are being drawn here more and more as China develops a high-tech economy that increasingly competes directly with the United States. . . .
+In addition to moving Mr. Pinto and his family to Beijing in January, Applied Materials, whose headquarters are in Santa Clara, Calif., has just built its newest and largest research labs here. Last week, it even held its annual shareholders' meeting in Xi'an. It is hardly alone. Companies—and their engineers—are being drawn here more and more as China develops a high-tech economy that increasingly competes directly with the United States. . . .
 
 Not just drawn by China's markets, Western companies are also attracted to China's huge reservoirs of cheap, highly skilled engineers—and the subsidies offered by many Chinese cities and regions, particularly for green energy companies. Now, Mr. Pinto said, researchers from the United States and Europe have to be ready to move to China if they want to do cutting-edge work on solar manufacturing because the new Applied Materials complex here is the only research center that can fit an entire solar panel assembly line. "If you really want to have
 
@@ -415,7 +399,7 @@ Source: Daniel Trefler, 1993, "International Factor Price Differences: Leontief 
 
 with wages that are about  $ 95\% $ of the U.S. wage, to Ireland, France, and Finland, with wages at about $ 50\% $ of the U.S. level, to Bangladesh and Sri Lanka, with wages at about $ 5\% $  of the U.S. level.
 
-The horizontal axis in Figure 4-9 measures labor productivity in various countries relative to that in the United States. For example, labor productivity in Canada is  $ 80\% $ of that in the United States; labor productivity in Austria and New Zealand is about $ 60\% $ of that in the United States; and labor productivity in Indonesia, Thailand, Pakistan, Sri Lanka, and Bangladesh is about $ 5\% $  of that in the United States. Notice that the labor productivities (on the horizontal axis) and wages (on the vertical axis) are highly correlated across countries: the points in Figure 4-9 line up approximately along the 45-degree line. This close connection between wages and labor productivity holds for the data in 1990 and, we expect that it also held in 1947, so that we can use wages to adjust for labor productivity in explaining the Leontief Paradox.
+The horizontal axis in Figure 4-9 measures labor productivity in various countries relative to that in the United States. For example, labor productivity in Canada is  $ 80\% $ of that in the United States; labor productivity in Austria and New Zealand is about $ 60\% $ of that in the United States; and labor productivity in Indonesia, Thailand, Pakistan, Sri Lanka, and Bangladesh is about $ 5\% $  of that in the United States. Notice that the labor productivities (on the horizontal axis) and wages (on the vertical axis) are highly correlated across countries: the points in Figure 4-9 line up approximately along the 45-degree line. This close connection between wages and labor productivity holds for the data in 1990 and, we expect that it also held in 1947, so that we can use wages to adjust for labor productivity in explaining the Leontief paradox.
 
 Effective Labor Abundance As suggested by Figure 4-9, wages across countries are strongly correlated with the productivity of labor. Going back to the data for 1947, which Leontief used, we use the wages earned by labor to measure the productivity of labor in each country. Then the effective amount of labor found in each country equals the actual amount of labor times the wage. Multiplying the amount of labor in each country by average wages, we obtain total wages paid to labor. That information is available for 30 countries in 1947, and we have already found that the United States accounted for  $ 37\% $ of the GDP of these countries, as shown in the final bar in Figure 4-8. Adding up total wages paid to labor across the 30 countries and comparing it with the United States, we find that the United States accounted for $ 43\% $ of wages paid to labor in these 30 countries, as shown in the bar labeled "effective" labor. By comparing this estimate with the United States share of world GDP of $ 37\% $  in 1947, we see that the United States was abundant in effective labor, taking into account the differing productivity of labor across countries. So not only was the United States abundant in capital, it was also abundant in effective—or skilled—labor in 1947, just as we have also found for the year 2010!
 
@@ -481,7 +465,7 @@ Change in the Real Rental Because the labor-capital ratio increases in both indu
 industries, the rental on capital is determined by its marginal product and by the prices of the goods:
 $ $
 
-R = P_{C} \cdot M P K_{C} \text{an d} R = P_{S} \cdot M P K_{S}
+R = P_{C} \cdot M P K_{C} \text{and} R = P_{S} \cdot M P K_{S}
 
 $ $
 Because capital can move freely between industries in the long run, the rental on capital is equalized across them. By using the result that both marginal products of capital increase and by rearranging the previous equations, we see that
@@ -501,7 +485,7 @@ $ $
 Using the result that the marginal product of labor falls in both industries, we see that
 $ $
 
-M P L_{C} = W / P_{C} \downarrow \text{an d} M P L_{S} = W / P_{S} \downarrow
+M P L_{C} = W / P_{C} \downarrow \text{and} M P L_{S} = W / P_{S} \downarrow
 
 $ $
 Therefore, the quantity of computers that can be purchased with the wage  $ (W / P_{C}) $ and the quantity of shoes that can be purchased with the wage $ (W / P_{S}) $  both fall. These decreases mean that the real wage (in terms of either good) is reduced, and labor is clearly worse off because of the increase in the relative price of computers.
@@ -512,7 +496,7 @@ Stolper-Samuelson Theorem: In the long run, when all factors are mobile, an incr
 
 For our example, the Stolper-Samuelson theorem predicts that when Home opens to trade and faces a higher relative price of computers, the real rental on capital in Home rises and the real wage in Home falls. In Foreign, the changes in real factor prices are just the reverse. When Foreign opens to trade and faces a lower relative price of computers, the real rental falls and the real wage rises. Remember that Foreign is abundant in labor, so our finding that labor is better off there, but worse off at Home, means that workers in the labor-abundant country gain from trade but workers in the capital-abundant country lose. In addition, capital in the capital-abundant country (Home) gains, and capital in the labor-abundant country
 
-losses. These results are sometimes summarized by saying that in the Heckscher-Ohlin model, the abundant factor gains from trade, and the scarce factor loses from trade.<sup>6</sup>
+loses. These results are sometimes summarized by saying that in the Heckscher-Ohlin model, the abundant factor gains from trade, and the scarce factor loses from trade.<sup>6</sup>
 
 # Changes in the Real Wage and Rental: a Numerical Example
 
@@ -524,47 +508,47 @@ When Home and Foreign undertake trade, the relative price of computers rises. Fo
 
 Computers: Percentage increase in price  $ = \Delta P_{C} / P_{C} = 10\% $ Shoes: Percentage increase in price $ = \Delta P_{S} / P_{S} = 0\% $ Our goal is to see how the increase in the relative price of computers translates into long-run changes in the wage $ W $ paid to labor and the rental on capital $ R $. Remember that the rental on capital can be calculated by taking total sales revenue in each industry, subtracting the payments to labor, and dividing by the amount of capital. This calculation gives us the following formulas for the rental in each industry: $ $
 
-R = \frac{P_{C} \cdot Q_{C} - W \cdot L_{C}}{K_{C}}, \text{fo rc om pu te rs}
+R = \frac{P_{C} \cdot Q_{C} - W \cdot L_{C}}{K_{C}}, \text{for computers}
 
 $ $
 
 $ $
 
-R = \frac{P_{S} \cdot Q_{S} - W \cdot L_{S}}{K_{S}}, \text{fo rs ho es}
+R = \frac{P_{S} \cdot Q_{S} - W \cdot L_{S}}{K_{S}}, \text{for shoes}
 
 $ $
 The price of computers has risen, so  $ \Delta P_{C} > 0 $, holding fixed the price of shoes, $ \Delta P_{S} = 0 $. We can trace through how this affects the rental by changing $ P_{C} $ and $ W $ in the previous two equations: $ $
 
-\Delta R = \frac{\Delta P_{C} \cdot Q_{C} - \Delta W \cdot L_{C}}{K_{C}}, \text{fo rc om pu te rs}
+\Delta R = \frac{\Delta P_{C} \cdot Q_{C} - \Delta W \cdot L_{C}}{K_{C}}, \text{for computers}
 
 $ $
 
 $ $
 
-\Delta R = \frac{0 \cdot Q_{C} - \Delta W \cdot L_{S}}{K_{S}}, \text{fo rs ho es}
+\Delta R = \frac{0 \cdot Q_{C} - \Delta W \cdot L_{S}}{K_{S}}, \text{for shoes}
 
 $ $
 It is convenient to work with percentage changes in the variables. For computers,  $ \Delta P_{C} / P_{C} $ is the percentage change in price. Similarly, $ \Delta W / W $ is the percentage change in the wage, and $ \Delta R / R $ is the percentage change in the rental of capital. We can introduce these terms into the preceding formulas by rewriting them as $ $
 
-\frac{\Delta R}{R} = \left(\frac{\Delta P_{C}}{P_{C}}\right) \left(\frac{P_{C} \cdot Q_{C}}{R \cdot K_{C}}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{W \cdot L_{C}}{R \cdot K_{C}}\right), \text{fo rc om pu te rs}
+\frac{\Delta R}{R} = \left(\frac{\Delta P_{C}}{P_{C}}\right) \left(\frac{P_{C} \cdot Q_{C}}{R \cdot K_{C}}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{W \cdot L_{C}}{R \cdot K_{C}}\right), \text{for computers}
 
 $ $
 
 $ $
 
-\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{W \cdot L_{S}}{R \cdot K_{S}}\right), \text{fo rs ho es}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{W \cdot L_{S}}{R \cdot K_{S}}\right), \text{for shoes}
 
 $ $
 (You should cancel terms in these equations to check that they are the same as before.) Now we'll plug the above data for shoes and computers into these formulas:
 $ $
 
-\frac{\Delta R}{R} = 10 \% \cdot \left(\frac{100}{50}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{50}{50}\right), \text{forcomputers}
+\frac{\Delta R}{R} = 10 \% \cdot \left(\frac{100}{50}\right) - \left(\frac{\Delta W}{W}\right) \left(\frac{50}{50}\right), \text{for computers}
 
 $ $
 
 $ $
 
-\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{6 0}{4 0}\right), \text{fo rs ho es}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{60}{40}\right), \text{for shoes}
 
 $ $
 Our goal is to find out by how much rental and wage change given changes in the relative price of the final goods, so we are trying to solve for two unknowns  $ (\Delta R / R $ and $ \Delta W / W) $ from the two equations given here. A good way to do this is to reduce the two equations with two unknowns into a single equation with one unknown. This can be done by subtracting one equation from the other, as follows: $ $
@@ -579,14 +563,14 @@ Minus:  $ \frac{\Delta R}{R} = 0 - \left(\frac{\Delta W}{W}\right)\left(\frac{60
 $ $
 Simplifying the last line, we get  $ 0 = 20\% + \left(\frac{\Delta W}{W}\right)\left(\frac{1}{2}\right) $, so that $ $
 
-\left(\frac{\Delta W}{W}\right) = \left(\frac{- 20 \%}{\frac{1}{2}}\right) = - 40 \%, \text{isthechangeinwages}
+\left(\frac{\Delta W}{W}\right) = \left(\frac{- 20 \%}{\frac{1}{2}}\right) = - 40 \%, \text{is the change in wages}
 
 $ $
 So when the price of computers increases by  $ 10\% $, the wage falls by $ 40\% $. With the wage falling, labor can no longer afford to buy as many computers $ (W / P_{C} $ has fallen since $ W $ is falling and $ P_{C} $ has increased) or as many pairs of shoes $ (W / P_{S} $ has fallen since $ W $ is falling and $ P_{S} $  has not changed). In other words, the real wage measured in terms of either good has fallen, so labor is clearly worse off.
 
 To find the change in the rental paid to capital  $ (\Delta R / R) $, we can take our solution for $ \Delta W / W = -40\% $, and plug it into the equation for the change in the rental in the shoes sector: $ $
 
-\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{60}{40}\right) = 40 \% \cdot \left(\frac{60}{40}\right) = 60 \%, \text{changeinrental}
+\frac{\Delta R}{R} = - \left(\frac{\Delta W}{W}\right) \left(\frac{60}{40}\right) = 40 \% \cdot \left(\frac{60}{40}\right) = 60 \%, \text{change in rental}
 
 $ $
 The rental on capital increases by  $ 60\% $ when the price of computers rises by $ 10\% $, so the rental increases even more (in percentage terms) than the price. Because the rental increases by more than the price of computers in percentage terms, it follows that $ (R / P_{C}) $ rises: owners of capital can afford to buy more computers, even though their price has gone up. In addition, they can afford to buy more shoes ($ R / P_{S} $ also rises, since $ R $ rises and $ P_{S} $  is constant). Thus, the real rental measured in terms of either good has gone up, and capital owners are clearly better off.
@@ -594,7 +578,7 @@ The rental on capital increases by  $ 60\% $ when the price of computers rises b
 General Equation for the Long-Run Change in Factor Prices The long-run results of a change in factor prices can be summarized in the following equation:
 $ $
 
-\underbrace {\Delta W / W <   0}_{<   \Delta P_{C} / P_{C} <   \Delta R / R}, \text{fo ra ni nc re as ei n} P_{C}
+\underbrace {\Delta W / W <   0}_{<   \Delta P_{C} / P_{C} <   \Delta R / R}, \text{for an increase in} P_{C}
 
 $ $
 Real wage falls
@@ -675,69 +659,5 @@ abundant in that factor, p. 100 scarce in that factor, p. 100 effective labor fo
 abundant in that effective factor, p. 103 scarce in that effective factor, p. 103
 Stolper-Samuelson theorem, p. 114
 
-# Problems
 
-1. This problem uses the Heckscher-Ohlin model to predict the direction of trade. Consider the production of handmade rugs and assembly line robots in Canada and India.
-
-a. Which country would you expect to be relatively labor-abundant, and which is capital-abundant? Why?
-b. Which industry would you expect to be relatively labor-intensive, and which is capital-intensive? Why?
-c. Given your answers to (a) and (b), draw production possibilities frontiers for each country.
-
-Assuming that consumer preferences are the same in both countries, add indifference curves and relative price lines (without trade) to your PPF graphs. What do the slopes of the price lines tell you about the direction of trade?
-
-d. Allowing for trade between countries, redraw the graphs and include a "trade triangle" for each country. Identify and label the vertical and horizontal sides of the triangles as either imports or exports.
-2. Leontief's paradox is an example of testing a trade model using actual data observations. If
-
-Leontief had observed that the amount of labor needed per \$ 1 million of U.S. exports was 100 person-years instead of 182, would he have reached the same conclusion? Explain.
-
-3. Suppose there are drastic technological improvements in shoe production at Home such that shoe factories can operate almost completely with computer-aided machines. Consider the following data for the Home country:
-
-Computers: Sales revenue  $ = P_{C}Q_{C} = 100 $ Payments to labor $ = WL_{C} = 50 $ Payments to capital $ = RK_{C} = 50 $ Percentage increase in the price $ = \Delta P_{C} / P_{C} = 0\% $ Shoes: Sales revenue $ = P_{S}Q_{S} = 100 $ Payments to labor $ = W L_{S} = 5 $ Payments to capital $ = RK_{S} = 95 $ Percentage increase in the price $ = \Delta P_{S} / P_{S} = 50\% $
-
-a. Which industry is capital-intensive? Is this a reasonable question, given that some industries are capital-intensive in some countries and labor-intensive in others?
-b. Given the percentage changes in output prices in the data provided, calculate the percentage change in the rental on capital.
-c. How does the magnitude of this change compare with that of labor?
-d. Which factor gains in real terms, and which factor loses? Are these results consistent with the Stolper-Samuelson theorem?
-
-4. Using the information in the chapter, suppose Home doubles in size, while Foreign remains the same. Show that an equal proportional increase in capital and labor at Home will change the relative price of computers, wage, rental on capital, and the amount traded but not the pattern of trade.
-5. Using a diagram similar to Figure 4-12, show the effect of a decrease in the relative price of computers in Foreign. What happens to the wage relative to the rental? Is there an increase in the labor-capital ratio in each industry? Explain.
-
-6. Suppose when Russia opens to trade, it imports automobiles, a capital-intensive good.
-
-a. According to the Heckscher-Ohlin theorem, is Russia capital-abundant or labor-abundant? Briefly explain.
-b. What is the impact of opening trade on the real wage in Russia?
-c. What is the impact of opening trade on the real rental on capital?
-d. Which group (capital owner or labor) would support policies to limit free trade? Briefly explain.
-
-7. In Figure 4-3, we show how the movement from the no-trade equilibrium point  $ A $ to a trade equilibrium at a higher relative price of computers leads to an upward-sloping export supply, from points $ A $ to $ D $  in panel (b).
-
-a. Suppose that the relative price of computers continues to rise in panel (a), and label the production and consumption points at several higher prices.
-b. In panel (b), extend the export supply curve to show the quantity of exports at the higher relative prices of computers.
-c. What happens to the export supply curve when the price of computers is high enough? Can you explain why this happens? Hint: An increase in the relative price of a country's export good means that the country is richer because its terms of trade have improved. Explain how that can lead to fewer exports as their price rises.
-
-8. On March 2, 2013, Tajikistan successfully negotiated terms to become a member of the World Trade Organization. Consequently, countries such as those in western Europe are shifting toward free trade with Tajikistan. What does the Stolper-Samuelson theorem predict about the impact of the shift on the real wage of low-skilled labor in western Europe? In Tajikistan?
-
-9. The following are data on U.S. exports and imports in 2012 at the two-digit Harmonized Tariff Schedule (HTS) level. Which products do you think support the Heckscher-Ohlin theorem? Which products are inconsistent?
-
-<table><tr><td>HTS Level</td><td>Product</td><td>Export($ billions)</td><td>Import($ billions)</td></tr><tr><td>22</td><td>Beverages</td><td>6.4</td><td>19.2</td></tr><tr><td>30</td><td>Pharmaceutical products</td><td>38.0</td><td>64.1</td></tr><tr><td>52</td><td>Cotton</td><td>8.2</td><td>1.1</td></tr><tr><td>61</td><td>Apparel</td><td>1.4</td><td>41.1</td></tr><tr><td>64</td><td>Footwear</td><td>0.8</td><td>23.7</td></tr><tr><td>72</td><td>Iron and steel</td><td>22.0</td><td>29.0</td></tr><tr><td>74</td><td>Copper</td><td>9.3</td><td>10.2</td></tr><tr><td>85</td><td>Electric machinery</td><td>105.0</td><td>289.0</td></tr><tr><td>87</td><td>Vehicles</td><td>122.3</td><td>240.0</td></tr><tr><td>88</td><td>Aircraft</td><td>95.8</td><td>24.2</td></tr><tr><td>94</td><td>Furniture</td><td>8.7</td><td>44.3</td></tr><tr><td>95</td><td>Toys</td><td>4.4</td><td>27.0</td></tr></table>
-
-Source: International Trade Administration, U.S. Department of Commerce.
-
-10. Following are data for soybean yield, production, and trade for 2010-2011:
-
-Suppose that the countries listed in the table are engaged in free trade and that soybean production is land-intensive. Answer the following:
-
-a. In which countries does land benefit from free trade in soybeans? Explain.
-b. In which countries does land lose from free trade in soybeans? Explain.
-c. In which countries does the move to free trade in soybeans have little or no effect on the land rental? Explain.
-
-<table><tr><td></td><td>Yield (metric ton/hectare)</td><td>Production (100,000 metric ton)</td><td>Export (100,000 metric ton)</td><td>Imports (100,000 metric ton)</td></tr><tr><td>Australia</td><td>1.71</td><td>0.29</td><td>0.025</td><td>0.007</td></tr><tr><td>Brazil</td><td>3.12</td><td>748.2</td><td>258</td><td>1.18</td></tr><tr><td>Canada</td><td>2.75</td><td>42.5</td><td>27.8</td><td>2.42</td></tr><tr><td>China</td><td>1.89</td><td>144</td><td>1.64</td><td>570</td></tr><tr><td>France</td><td>2.95</td><td>1.23</td><td>0.24</td><td>5.42</td></tr><tr><td>Japan</td><td>1.60</td><td>2.19</td><td>0.0006</td><td>34.6</td></tr><tr><td>Mexico</td><td>1.32</td><td>2.05</td><td>0.001</td><td>37.7</td></tr><tr><td>Russian Federation</td><td>1.48</td><td>17.6</td><td>0.008</td><td>10.7</td></tr><tr><td>United States</td><td>2.79</td><td>831</td><td>423</td><td>4.45</td></tr></table>
-
-Source: Food and Agriculture Organization.
-
-11. According to the Heckscher-Ohlin model, two countries can equalize wage differences by either engaging in international trade in goods or allowing high-skilled and low-skilled labor to freely move between the two countries. Discuss whether this is true or false, and explain why.
-
-12. According to the standard Heckscher-Ohlin model with two factors (capital and labor) and two goods, movement of Turkish migrants to Germany would decrease the amount of capital-intensive products produced in Germany. Discuss whether this is true or false, and explain why.
-
-# Network
 

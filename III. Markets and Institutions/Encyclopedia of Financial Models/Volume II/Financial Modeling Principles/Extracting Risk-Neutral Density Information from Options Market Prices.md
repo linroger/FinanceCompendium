@@ -1,4 +1,25 @@
 
+---
+title: "Extracting Risk-Neutral Density Information from Options Market Prices"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume II/Financial Modeling Principles"
+formatted: "2025-12-21 11:20:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+primary_tags:
+  - risk neutral density
+  - options pricing models
+  - parametric estimation
+secondary_tags:
+  - generalized inverse gaussian
+  - lognormal mixture models
+  - european options pricing
+  - implied volatility
+  - density extraction
+  - financial modeling
+  - risk management
+cssclasses: academia
+---
+
 # Extracting Risk-Neutral Density Information from Options Market Prices
 
 ARTURO LECCADITO, PhD
@@ -80,7 +101,7 @@ Since the market option prices that do not satisfy put-call parity are filtered 
 
 # TWO PARAMETRIC MODELS FOR RND ESTIMATION
 
-In order to be able to reverse engineer the RND from options prices, a pricing formula for European vanilla options under the chosen distribution is needed. There is a great advantage in having the pricing formulas in closed form, oth erwise numerical integral approximation methods must be employed and this means that there is a risk of introducing errors in the estimation procedure.
+In order to be able to reverse engineer the RND from options prices, a pricing formula for European vanilla options under the chosen distribution is needed. There is a great advantage in having the pricing formulas in closed form, otherwise numerical integral approximation methods must be employed and this means that there is a risk of introducing errors in the estimation procedure.
 
 
 Here we illustrate the RND estimation procedure for two special cases, the general inverse Gaussian (GIG) distribution and the lognormal mixture (LnMix) distribution. For both models, closed-form solutions for pricing European options are available.
@@ -142,11 +163,11 @@ $$
 Bahra (1997) described the formulas for pricing European vanilla call and put options
 
 $$
-\begin{array}{l} C (K) = e^{- r T} \left\{\eta \left[ e^{\left(\alpha_{1} + 0. 5 \beta_{1}^{2}\right)} N (d_{1}) - K N (d_{2}) \right] \right. \\ + (1 - \eta) \left[ e^{\left(\alpha_{2} + 0. 5 \beta_{2}^{2}\right)} N \left(d_{3}\right) - K N \left(d_{4}\right) \right] \} \\ \end{array}
+\begin{array}{l} C (K) = e^{- r T} \left\{\eta \left[ e^{\left(\alpha_{1} + 0.5 \beta_{1}^{2}\right)} N (d_{1}) - K N (d_{2}) \right] \right. \\ + (1 - \eta) \left[ e^{\left(\alpha_{2} + 0.5 \beta_{2}^{2}\right)} N \left(d_{3}\right) - K N \left(d_{4}\right) \right] \} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} P (K) = e^{- r T} \left\{\eta \left[ e^{\left(\alpha_{1} + 0. 5 \beta_{1}^{2}\right)} N \left(d_{1}\right) - K N \left(d_{2}\right) \right] \right. \\ + (1 - \eta) \left[ e^{\left(\alpha_{2} + 0. 5 \beta_{2}^{2}\right)} N \left(d_{3}\right) - K N \left(d_{4}\right) \right] \} \\ \end{array}
+\begin{array}{l} P (K) = e^{- r T} \left\{\eta \left[ e^{\left(\alpha_{1} + 0.5 \beta_{1}^{2}\right)} N \left(d_{1}\right) - K N \left(d_{2}\right) \right] \right. \\ + (1 - \eta) \left[ e^{\left(\alpha_{2} + 0.5 \beta_{2}^{2}\right)} N \left(d_{3}\right) - K N \left(d_{4}\right) \right] \} \\ \end{array}
 $$ where
 
 
@@ -203,6 +224,7 @@ The goodness of fit of the two models can be assessed to some extent from the re
 (d) Jun 00 components  $K_{j} / X_{0}$  reflecting moneyness. The smaller the value, the better is the fit. It is interesting that the GIG distribution, having three parameters, seems to calibrate across maturities very closely and is even a superior fit than the lognormal mixture (LnMix) model that uses five parameters.
 Figure 2 Absolute Percentage Errors for the Last Four Maturities
 
+components  $K_{j} / X_{0}$  reflecting moneyness. The smaller the value, the better is the fit. It is interesting that the GIG distribution, having three parameters, seems to calibrate across maturities very closely and is even a superior fit than the lognormal mixture (LnMix) model that uses five parameters.
 
 A more informative comparison can be done by looking at the error structure versus moneyness. The fitting error for the two models and for each maturity are plotted in Figures 1 and 2 as the absolute percentage errors, defined for the European call option prices as  $100 \times |C(\hat{\theta};m) - C^{mkt}(m)| / C^{mkt}(m)$ , where  $C(\hat{\theta};m)$  is the same as the theoretical prices established in equation (1), which is calculated for the estimated parameter vector  $\hat{\theta}$  following the minimization procedure focused on the function given in (4). In the neighborhood of at-themoney prices, the absolute percentage error is less than  $1\%$ , while out-of-the-money or in-themoney, it may go even higher.
 

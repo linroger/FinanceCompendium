@@ -1,36 +1,30 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: '2'
-linter-yaml-title-alias: '2'
+title: Role of Governments in Financial Markets
+parent_directory: Foundations of Global Financial Markets
+formatted: 2025-12-21 11:10:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
 primary_tags:
-- country central bank regulation
-- fail interconnectedness financial institutions
-- role governments financial markets
-- government bailouts financial regulators
-- bailouts zombie banks large
+- government regulation financial markets
+- macroprudential policy systemic risk
+- central bank monetary policy
 secondary_tags:
-- financial regulation various roles
-- microprudential government policies regulation
-- macroprudential policy systemic financial
-- bank regulation financial markets
-- markets including financial intermediaries
-- meant systemic financial risk
-- breakup large banks did
-- form regulation financial firms
-- large banks fed considered
-- financial crisis limited use
-- large firm failure cause
-- financial institutions believes government
-tags_extracted: '2025-12-18T00:16:29.267938'
+- financial stability oversight
+- bailouts financial institutions
+- systemically important financial institutions
+- bank for international settlements
+- financial stability board
+- asymmetric information regulation
+- market failure disclosure rules
+- federal reserve monetary policy
+- lender of last resort
+- moral hazard bailouts
+- dodd frank act regulation
+- international financial regulation
+cssclasses: academia
 ---
 
-# 2
-
-Role of Governments in Financial Markets
+# Role of Governments in Financial Markets
 
 # CONTENTS
 
@@ -88,7 +82,7 @@ Views on the Degree of Government Intervention in Financial Markets
 
 # Questions
 
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -342,21 +336,6 @@ On February 3, 2017, President Trump signed an Executive Order identifying his "
 - A systemically important financial institution (SIFI) is a financial institution that, in the view of regulators, is a large firm whose failure would cause a financial crisis.
 - The Bank for International Settlements (BIS) provides research, education, and guidance for central bankers to help improve various aspects of banking supervision, infrastructure market issues, and financial stability policies.
 - The Financial Stability Board (FSB) monitors the global finance system and makes policy recommendations to governments for enhancing the stability of financial institutions and financial markets.
-
-# Questions
-
-1. What is the economic rationale for the widespread use of disclosure regulation?
-2. Why do some economists believe that disclosure regulation is unnecessary?
-3. What is meant by "regulation of financial activities?"
-4. What is meant by "systemic financial risk?"
-5. An example typically given to illustrate systemic financial risk is a run on the bank (i.e., many bank depositors simultaneously withdrawing their funds from a bank). Explain why.
-6. Reproduced below is table 3.5 from a publication of the BIS, which compares the macroprudential and microprudential perspectives. Explain each item in the table.
-
-<table><tr><td></td><td>Macroprudential</td><td>Microprudential</td></tr><tr><td>Proximate objective</td><td>[To] limit financial systemwide distress</td><td>[To] limit distress of individual institutions</td></tr><tr><td>Ultimate objective</td><td>[To] avoid output (GDP) costs</td><td>Consumer (investor/ depositor) protection</td></tr><tr><td>…</td><td>…</td><td>…</td></tr><tr><td>Correlations and common exposures across institutions</td><td>Important</td><td>Irrelevant</td></tr><tr><td>Calibration of prudential controls</td><td>In terms of systemwide risk; top down</td><td>In terms of risks of individual institutions; bottom up</td></tr></table>
-
-Source: Claudio Borio, "Towards a Macroprudential Framework for Financial Supervision and Regulation?" BIS Working Paper 128 (Basel, Switzerland: Bank for International Settlements, February 2003).
-
-7. In the same BIS working paper identified in the previous question, the following statement appears:
 
 Although a commonly held view of systemic risk suggests that financial stability can be secured through a microprudential approach, an analysis of the origin of financial crises with significant macroeconomic costs suggests that a macroprudential perspective is important.
 

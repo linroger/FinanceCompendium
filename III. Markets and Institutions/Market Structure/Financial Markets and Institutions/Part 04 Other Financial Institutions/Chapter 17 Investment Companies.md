@@ -40,7 +40,7 @@ LG 17-8 Know what a hedge fund is.
 
 ## INVESTMENT COMPANIES: CHAPTER OVERVIEW
 
-Investment companies are financial institutions that pool the financial resources of individuals and companies and invest those resources in (diversified) portfolios of assets. Open-end mutual funds (the largest portion of investment company business) sell new shares to investors and redeem outstanding shares on demand at their fair market values. They provide opportunities for small investors to invest in a liquid and diversified portfolio of financial securities at a lower price per unit of risk than could be achieved by investing in individual securities. A single share of a mutual fund could represent ownership in over a thousand different companies. Whereas the investment in the mutual fund might cost  \$100, buying over a thousand individual shares of stock could cost over\$ 100,000 dollars. Further, since mutual funds can buy and sell securities in large blocks, their trading costs are much lower than those of the individual investor buying a few shares at a time.
+Investment companies are financial institutions that pool the financial resources of individuals and companies and invest those resources in (diversified) portfolios of assets. Open-end mutual funds (the largest portion of investment company business) sell new shares to investors and redeem outstanding shares on demand at their fair market values. They provide opportunities for small investors to invest in a liquid and diversified portfolio of financial securities at a lower price per unit of risk than could be achieved by investing in individual securities. A single share of a mutual fund could represent ownership in over a thousand different companies. Whereas the investment in the mutual fund might cost  \$100, buying over a thousand individual shares of stock could cost over $100,000 dollars. Further, since mutual funds can buy and sell securities in large blocks, their trading costs are much lower than those of the individual investor buying a few shares at a time.
 
 Hedge funds are a type of investment pool that solicits funds from (wealthy) individuals and other investors (e.g., commercial banks) and invests these funds on their behalf. Hedge funds are similar to mutual funds in that they are pooled investment vehicles that accept investors' money and generally invest it on a collective basis. Investments in hedge funds, however, are restricted to more wealthy clients. This chapter presents an overview of the services offered by investment companies and highlights their rapid growth in the last several decades.
 
@@ -80,11 +80,11 @@ Funds consisting of fixed-income capital market debt securities.
 
 Funds consisting of both stock and bond securities.
 
-# money market mutual funds (MMMFs)
+### money market mutual funds (MMMFs)
 
 Funds consisting of various mixtures of money market securities.
 
-# Different Types of Mutual Funds
+### Different Types of Mutual Funds
 
 The mutual fund industry is usually considered to have two sectors: short-term funds and long-term funds. Long-term funds comprise equity funds (composed of common and preferred stock securities), bond funds (composed of fixed-income securities with a maturity of over one year), and hybrid funds (composed of both stock and bond securities). Short-term funds comprise taxable money market mutual funds (MMMFs) and tax-exempt money market mutual funds (containing various mixes of those money market securities with an original maturity of less than one year, discussed in Chapter 5). Long-term equity funds typically are well diversified, and the risk is more systematic or market based. Bond funds have extensive interest rate risk because of their long-term, fixed-rate nature. Sector, or industry-specific, funds have systematic (market) and unsystematic risk, regardless of whether they are equity or bond funds. The principal type of risk for short-term funds is interest rate risk because of the predominance of fixed-income securities. Because of the shortness of maturity of the assets, which often is less than 60 days, this risk is mitigated to a large extent. Short-term funds generally have virtually no liquidity or default risk because of the types of assets held.
 

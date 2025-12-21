@@ -26,7 +26,7 @@ tags_method: max_quality_v1
 
 In these notes we describe how the Central Limit Theorem can be used to construct approximate  $(1 - \alpha)\%$  confidence intervals for the quantity,  $\theta$ , we are trying to estimate. We also describe methods to estimate the number of samples that are required to achieve a given confidence level and we end with a discussion of the bootstrap method for performing output analysis.
 
-# 1 Output Analysis
+## 1 Output Analysis
 
 Recall the simulation framework that we use when we want to estimate  $\theta \coloneqq \mathbb{E}[h(\mathbf{X})]$  where  $\mathbf{X} \in \mathbb{R}^n$ . We first simulate  $\mathbf{X}_1, \ldots, \mathbf{X}_n$  IID and then set
 
@@ -42,7 +42,7 @@ $$
 
 But at this point we don't know how large  $n$  should be so that we can have confidence in  $\widehat{\theta}_n$  as an estimator of  $\theta$ . Put another way, for a fixed value of  $n$ , what can we say about the quality of  $\widehat{\theta}_n$ ? We will now answer this question and to simplify our notation we will take  $Y_i \coloneqq h(\mathbf{X}_i)$ .
 
-# 1.1 Confidence Intervals
+### 1.1 Confidence Intervals
 
 One way to answer this question is to use a confidence interval. Suppose then that we want to estimate  $\theta$  and we have a random vector  $\mathbf{Y} = (Y_1, \ldots, Y_n)$  whose distribution depends on  $\theta$ . Then we seek  $L(\mathbf{Y})$  and  $U(\mathbf{Y})$  such that
 
@@ -52,7 +52,7 @@ $$
 
 where  $0 \leq \alpha \leq 1$  is a pre-specified number. We then say that  $[L(\mathbf{Y}), U(\mathbf{Y})]$  is a  $100(1 - \alpha)\%$  confidence interval for  $\theta$ . Note that  $[L(\mathbf{Y}), U(\mathbf{Y})]$  is a random interval. However, once we replace  $\mathbf{Y}$  with a sample vector,  $\mathbf{y}$ , then  $[L(\mathbf{y}), U(\mathbf{y})]$  becomes a real interval. We now discuss the Chebyshev Inequality and the Central Limit Theorem, both of which can be used to construct confidence intervals.
 
-# The Chebyshev Inequality
+#### The Chebyshev Inequality
 
 Since the  $Y_{i}$ 's are assumed to be IID we know the variance of  $\widehat{\theta}_n$  is given by  $\operatorname{Var}(\widehat{\theta}_n) = \frac{\sigma^2}{n}$  where  $\sigma^2 \coloneqq \operatorname{Var}(Y)$ . Clearly a small value of  $\operatorname{Var}(\widehat{\theta}_n)$  implies a more accurate estimate of  $\theta$  and this is indeed confirmed by Chebyshev's Inequality which for any  $k > 0$  states that
 
@@ -66,11 +66,11 @@ Exercise 1 Why does Chebyshev's Inequality generally lead to conservative confid
 
 Instead, we will use the Central Limit Theorem to obtain better estimates of  $\mathbf{P}\left(|\widehat{\theta}_n - \theta |\geq k\right)$  and as a result, narrower confidence intervals for  $\theta$
 
-# The Central Limit Theorem
+#### The Central Limit Theorem
 
 The Central Limit Theorem is among the most important theorems in probability theory and we state it here for convenience with the symbol " $\xrightarrow{d}$ " denoting convergence in distribution.
 
-# Theorem 1 (Central Limit Theorem)
+#### Theorem 1 (Central Limit Theorem)
 
 Suppose  $Y_{1},\ldots ,Y_{n}$  are IID and  $\mathbb{E}[Y_i^2 ] <   \infty$  . Then
 
@@ -82,7 +82,7 @@ where  $\widehat{\theta}_n = \sum_{i=1}^n Y_i / n$ ,  $\theta := \mathbb{E}[Y_i]
 
 Note that we assume nothing about the distribution of the  $Y_{i}$ 's other than that  $\mathbb{E}[Y_i^2] < \infty$ . If  $n$  is sufficiently large in our simulations, then we can use the CLT to construct confidence intervals for  $\theta \coloneqq \mathbb{E}[Y]$ . We now describe how to do this.
 
-# 1.2 An Approximate  $100(1 - \alpha)\%$  Confidence Interval for  $\theta$
+### 1.2 An Approximate $100(1 - \alpha)\%$ Confidence Interval for $\theta$
 
 Let  $z_{1 - \alpha /2}$  be the the  $(1 - \alpha /2)$  percentile point of the  $\mathsf{N}(0,1)$  distribution so that
 
@@ -130,7 +130,7 @@ $$
 
 Instead, we say that we are  $100(1 - \alpha)\%$  confident that  $[L(\mathbf{y}), U(\mathbf{y})]$  contains  $\theta$ . Furthermore, the smaller the value of  $U(\mathbf{y}) - L(\mathbf{y})$ , the more confidence we will have in our estimate of  $\theta$ .
 
-# Example 1 (Pricing a European Call Option)
+#### Example 1 (Pricing a European Call Option)
 
 Suppose we want to estimate the price,  $C_0$ , of a call option on a stock whose price process,  $S_t$ , is a  $GBM(\mu, \sigma)$ . The relevant parameters are  $r = .05$ ,  $T = 0.5$  years,  $S_0 = \\(100$ ,  $\sigma = 0.2$  and strike  $K = \$ 110 \). Then we know that
 
@@ -140,7 +140,7 @@ $$
 
 where we can assume that  $S_{t} \sim GBM(r, \sigma)$  under the risk-neutral probability measure,  $Q$ . That is, we assume  $S_{T} = S_{0} \exp \left((r - \sigma^{2}/2)T + \sigma Z\right)$  where  $Z \sim \mathsf{N}(0,T)$ . Though we can of course compute  $C_{0}$  exactly, we can also estimate  $C_{0}$  using Monte Carlo with (3) yielding an approximate  $100(1 - \alpha)\%$  CI for  $C_{0}$  with  $Y_{i} := e^{-rT} \max(S_{T}^{(i)} - K, 0)$  denoting the  $i^{th}$  discounted sample payoff of the option. Based on  $n = 100k$  samples, we obtain [15.16, 15.32] as our approximate  $95\%$  CI for  $C_{0}$ .
 
-# Properties of the Confidence Interval
+#### Properties of the Confidence Interval
 
 The width of the confidence interval is given by
 
@@ -150,7 +150,7 @@ $$
 
 and so the half-width then is  $(U - L) / 2$ . The width clearly depends on  $\alpha$ ,  $\widehat{\sigma}_n$  and  $n$ . However,  $\widehat{\sigma}_n \to \sigma$  almost surely as  $n \to \infty$ , and  $\sigma$  is a constant. Therefore, for a fixed  $\alpha$ , we need to increase  $n$  if we are to decrease the width of the confidence interval. Indeed, since  $U - L \propto \frac{1}{\sqrt{n}}$ , we can see for example that we would need to increase  $n$  by a factor of four in order to decrease the width of the confidence interval by only a factor of two.
 
-# 2 Run-Length Control
+## 2 Run-Length Control
 
 Up to this point we have selected  $n$  in advance and then computed the approximate CI. The width of the CI is then a measure of the error in our estimator. Now we will do the reverse by first choosing some error criterion that we want our estimator to satisfy, and then choosing  $n$  so that this criterion is satisfied.
 
@@ -194,7 +194,7 @@ There are still some problems, however:
 
 Of course we do not usually know  $\sigma$  or  $\theta$  in advance. In fact,  $\theta$  is what we are trying to estimate! There are two methods we can use to overcome this problem: the two-stage method and the sequential method, both of which we will now describe.
 
-# 2.1 The Two-Stage Procedure
+### 2.1 The Two-Stage Procedure
 
 Suppose we want to satisfy the condition  $\mathbf{P}(E_a\leq \epsilon) = 1 - \alpha$  so that we are trying to control the absolute error. Then we saw earlier that we would like to set
 
@@ -223,7 +223,7 @@ set  $100(1 - \alpha)\% \mathrm{Cl} = \left[\widehat{\theta}_n - z_{1 - \alpha /
 
 For this method to work, it is important that  $\widehat{\theta}$  and  $\widehat{\sigma}^2$  be sufficiently good estimates of  $\theta$  and  $\sigma^2$ . Therefore, it is important to make  $p$  sufficiently large. In practice, we usually take  $p \geq 50$ . We can use an analogous two-stage procedure if we want to control the relative error and have  $\mathbf{P}(E_r \leq \epsilon) = 1 - \alpha$ .
 
-# 2.2 The Sequential Procedure
+### 2.2 The Sequential Procedure
 
 Suppose again that we wish to satisfy the condition  $\mathbf{P}(E_a\leq \epsilon) = 1 - \alpha$ . Then we saw earlier that we would like to set
 
@@ -285,7 +285,7 @@ $$
 \frac{\widehat {\sigma}_{n} \left(z_{1 - \alpha / 2}\right)}{\widehat {\theta}_{n} \sqrt{n}} \leq \epsilon .
 $$
 
-# 3 Output Analysis Using the Bootstrap
+## 3 Output Analysis Using the Bootstrap
 
 We can view our output analysis problem as one of estimating
 
@@ -309,7 +309,7 @@ $$
 
 The quantity  $\mathrm{MSE}(F_e)$  is known as the bootstrap approximation to  $\mathrm{MSE}(F)$  and is easy to estimate via simulation as we shall see below. But first, however, we will consider an example where  $\mathrm{MSE}(F_e)$  can be computed exactly. Indeed the bootstrap is not required in this case but it is nonetheless instructive to see the calculations written out explicitly.
 
-# Example 2 (Applying the Bootstrap to the Sample Mean)
+#### Example 2 (Applying the Bootstrap to the Sample Mean)
 
 Suppose we wish to estimate  $\theta(F) = \mathbb{E}_F[Y]$  via the estimator  $\widehat{\theta} = g(Y_1, \ldots, Y_n) \coloneqq \bar{Y}$ . As noted above, the bootstrap is not necessary in this case as we can apply the CLT directly as in Section 1 to obtain confidence intervals for  $\widehat{\theta}$  or equivalently, we can estimate the mean-squared error  $\mathbb{E}\left[\left(\bar{Y} - \theta\right)^2\right] = \sigma^2 / n$  with
 
@@ -327,7 +327,7 @@ where (6) follows since  $\mathbb{E}_{F_e}[Y] = \bar{y}$ , and (7) follows since
 
 In contrast to Example 2, we cannot usually compute  $\mathrm{MSE}(F_e)$  explicitly, but as it's an expectation we can easily use Monte-Carlo to estimate it. In this case we need to simulate from  $F_{e}$  which is easy to do and so we obtain the following bootstrap algorithm for estimating  $\mathrm{MSE}(F)$ .
 
-# Bootstrap Simulation Algorithm for Estimating  $\mathbf{MSE}(F)$
+#### Bootstrap Simulation Algorithm for Estimating $\mathbf{MSE}(F)$
 
 for  $i = 1$  to  $B$
 
@@ -351,7 +351,7 @@ $$
 
 The  $Z_{i}^{b'}$ 's (or equivalently the  $\widehat{\theta}_{i}^{b'}$ 's) are the bootstrap samples and a value of  $B = 100$  is often sufficient to obtain a sufficiently accurate estimate. In the next example we apply the bootstrap approach in a historical simulation context where we have real data observations as opposed to simulated data. (The disadvantage with historical simulation is that we typically have no control over  $n$ .)
 
-# Example 3 (Estimating the Minimum Variance Portfolio)
+#### Example 3 (Estimating the Minimum Variance Portfolio)
 
 Suppose we wish to invest a fixed sum of money in two financial assets,  $X$  and  $Z$  say, that yield random returns of  $R_{x}$  and  $R_{z}$ , respectively. We invest a fraction  $\theta$  of our wealth in  $X$ , and the remaining  $1 - \theta$  in  $Z$ . The goal is to choose  $\theta$  to minimize the total variance,  $\operatorname{Var}(\theta R_{x} + (1 - \theta)R_{z})$ , of our investment return. It is easy to see that the minimizing  $\theta$  is given by
 
@@ -373,7 +373,7 @@ Exercise 2 Provide pseudo-code for estimating  $MSE(\hat{\theta}) \coloneqq MSE(
 
 Exercise 3 Consider the problem of estimating  $\theta(F) = \mathbb{E}[Y | Y \geq \beta]$  for some fixed constant,  $\beta$ . Explain how you would use the bootstrap to estimate  $MSE(F)$  in this case given  $n$  Monte-Carlo samples  $Y_1, \ldots, Y_n$ .
 
-# 3.1 Constructing Bootstrap Confidence Intervals
+### 3.1 Constructing Bootstrap Confidence Intervals
 
 The bootstrap method is also widely used to construct confidence intervals and here we will consider the so-called basic bootstrap interval. Consider our bootstrap samples  $\widehat{\theta}_1^b, \ldots, \widehat{\theta}_B^b$  and suppose we want a  $1 - \alpha$  confidence interval for  $\theta = \theta(F)$ . Let  $q_l$  and  $q_u$  be the  $\alpha/2$  lowerand upper-sample quantiles, respectively, of the bootstrap samples. Then the fraction of bootstrap samples satisfying
 

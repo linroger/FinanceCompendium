@@ -1,3 +1,35 @@
+---
+title: Basic Data Description for Financial Modeling and Analysis
+parent_directory: Financial Modeling Principles
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - data types classification
+  - measurement scales hierarchy
+  - frequency distributions
+  - cross sectional data
+  - time series data
+  - data classes formation
+secondary_tags:
+  - qualitative data
+  - quantitative data
+  - nominal scaling
+  - ordinal scaling
+  - interval scaling
+  - ratio scaling
+  - absolute scaling
+  - empirical cumulative distribution
+  - sturges rule
+  - freedman diaconis rule
+  - data aggregation
+  - statistical distributions
+  - financial data analysis
+  - descriptive statistics
+  - data visualization
+  - frequency analysis
+cssclasses: academia
+---
 
 # Basic Data Description for Financial Modeling and Analysis
 
@@ -17,10 +49,7 @@ Abstract: We are confronted with data every day, constantly. Daily newspapers co
 
 In this entry, we will present the first essentials of data description. We describe all data types and levels. We explain and illustrate why one has to be careful about the permissible computations concerning each data level.
 
-We will restrict ourselves to univariate data, that is, data of only one dimension. For example, if you follow the daily returns of one particular stock, you obtain a one-dimensional series of observations. If you had observed two stocks, then you would have obtained a two-dimensional series of data, and so on. Moreover, the notion of frequency distributions, empirical frequency distributions, and cumulative frequency distributions is introduced. The goal of this entry is to provide the first methods necessary to begin data analysis. After reading this entry you will learn how to formalize the first impression you obtain from the data in order to retrieve the most basic structure inherent in the data. That is essential for any subsequent tasks you may undertake with the data. Above all, though, you will have to be fully aware of what you want to learn from the data. That step is maybe the most important task before getting started in investigating the data. For example, you may just want to know what the minimum return has been of your favorite stock during the last year before you decide to purchase. Or you are interested in all returns from last year to learn how this stock typically performs, that is, which returns occur more often than others,
-
-
-and how often. In the latter case, you definitely have to be more involved to obtain the necessary information than in the first case.
+We will restrict ourselves to univariate data, that is, data of only one dimension. For example, if you follow the daily returns of one particular stock, you obtain a one-dimensional series of observations. If you had observed two stocks, then you would have obtained a two-dimensional series of data, and so on. Moreover, the notion of frequency distributions, empirical frequency distributions, and cumulative frequency distributions is introduced. The goal of this entry is to provide the first methods necessary to begin data analysis. After reading this entry you will learn how to formalize the first impression you obtain from the data in order to retrieve the most basic structure inherent in the data. That is essential for any subsequent tasks you may undertake with the data. Above all, though, you will have to be fully aware of what you want to learn from the data. That step is maybe the most important task before getting started in investigating the data. For example, you may just want to know what the minimum return has been of your favorite stock during the last year before you decide to purchase. Or you are interested in all returns from last year to learn how this stock typically performs, that is, which returns occur more often than others, and how often. In the latter case, you definitely have to be more involved to obtain the necessary information than in the first case.
 
 # DATA TYPES
 
@@ -45,10 +74,10 @@ Ordinally scaled data are one step higher in the hierarchy. We also refer to thi
 
 Until now, we can summarize that while we can test the relationship between nominal data for equality only, we can additionally determine a greater or less than relationship between ordinal data.
 
-Data on an interval scale are given if they can be reasonably transformed by a linear equation. Suppose we are given values  $x$ . It is now feasible to express a new variable  $y$  by the relationship  $y = a^{*}x + b$ , where the  $x^{\prime}s$  are our original data. If  $x$  has a meaning, then so does  $y$ . It is obvious that data have to possess a numerical meaning and therefore be quantitative in order to be measured on an interval scale. For example, consider the temperature  $F$  given in degrees Fahrenheit. Then, the corresponding temperature in degrees Celsius,  $C$ , will result from the equation  $C = (F - 32) / 1.8$ . Equivalently, if one is familiar with physics, the same temperature measured in degrees Kelvin,  $K$ , will result from  $K = C + 273.15$ . So, say it is  $55^{\circ}$  Fahrenheit for Americans, the same temperature will mean approximately  $13^{\circ}$  Celsius for Europeans, and they will not feel any cooler. Generally, interval data allow for the calculation of differences. For example,  $70^{\circ} - 60^{\circ}$  Fahrenheit  $= 10^{\circ}$  Fahrenheit may reasonably express the difference in temperature between Los Angeles and San Francisco. But be careful—the difference in temperature measured in Celsius between the two cities is not the same. How much is it?
+Data on an interval scale are given if they can be reasonably transformed by a linear equation. Suppose we are given values  $x$ . It is now feasible to express a new variable  $y$  by the relationship  $y = a \cdot x + b$ , where the  $x's$  are our original data. If  $x$  has a meaning, then so does  $y$ . It is obvious that data have to possess a numerical meaning and therefore be quantitative in order to be measured on an interval scale. For example, consider the temperature  $F$  given in degrees Fahrenheit. Then, the corresponding temperature in degrees Celsius,  $C$ , will result from the equation  $C = (F - 32) / 1.8$ . Equivalently, if one is familiar with physics, the same temperature measured in degrees Kelvin,  $K$ , will result from  $K = C + 273.15$ . So, say it is  $55^{\circ}$  Fahrenheit for Americans, the same temperature will mean approximately  $13^{\circ}$  Celsius for Europeans, and they will not feel any cooler. Generally, interval data allow for the calculation of differences. For example,  $70^{\circ} - 60^{\circ}$  Fahrenheit  $= 10^{\circ}$  Fahrenheit may reasonably express the difference in temperature between Los Angeles and San Francisco. But be careful—the difference in temperature measured in Celsius between the two cities is not the same. How much is it?
 
 
-Data measured on a ratio scale share all the properties of interval data. In addition, ratio data have a fixed or true zero point. This is not the case with interval data. Their intercept,  $b$ , can be arbitrarily changed through transformation. Since the zero point of ratio data is invariable, one can only transform the slope,  $a$ . So, for example,  $y = a^{*}x$  is always a multiple of  $x$ . In other words, there is a relationship between  $y$  and  $x$  given by the ratio  $a$ , hence the name used to describe this type of data. One would not have this feature if one would permit some  $b$  different from zero in the transformation. Consider, for example, the stock price,  $E$ , of some European stock given in euro units. The same price in U.S. dollars,  $D$ , would be  $D$  equals  $E$  times the exchange rate between euros and U.S. dollars. But if the company's price after bankruptcy went to zero, the price in either currency would be zero, even at different rates determined by the ratio of U.S. dollar per euro. This is a result of the invariant zero point.
+Data measured on a ratio scale share all the properties of interval data. In addition, ratio data have a fixed or true zero point. This is not the case with interval data. Their intercept,  $b$ , can be arbitrarily changed through transformation. Since the zero point of ratio data is invariable, one can only transform the slope,  $a$ . So, for example,  $y = a \cdot x$  is always a multiple of  $x$ . In other words, there is a relationship between  $y$  and  $x$  given by the ratio  $a$ , hence the name used to describe this type of data. One would not have this feature if one would permit some  $b$  different from zero in the transformation. Consider, for example, the stock price,  $E$ , of some European stock given in euro units. The same price in U.S. dollars,  $D$ , would be  $D = E$  times the exchange rate between euros and U.S. dollars. But if the company's price after bankruptcy went to zero, the price in either currency would be zero, even at different rates determined by the ratio of U.S. dollar per euro. This is a result of the invariant zero point.
 
 Absolute data are given by quantitative data measured on a scale even stricter than for ratio data. Here, along with the zero point, the units are invariant as well. Data measured on an absolute scale occur when transformation would be mathematically feasible but lacks any interpretational implication. A common example is provided by counting numbers. Anybody would agree on the number of stocks listed in a certain stock index. There is no ambiguity as to the zero point and the count increments. If one stock is added to the index, it is immediately clear that the difference to the content of the old index is exactly one unit of stock, assuming that no stock is deleted. This absolute scale is the most intuitive and needs no further discussion.
 
@@ -116,7 +145,9 @@ In addition to the frequency distribution, there is another quantity of interest
 
 Table 5 DJIA Stocks by Share Price in Ascending Order as of December 15, 2006
 
-<table><tr><td>Company</td><td>Share Price</td></tr><tr><td>Intel Corp.</td><td>20.77</td></tr><tr><td>Pfizer Inc.</td><td>25.56</td></tr><tr><td>General Motors Corp.</td><td>29.77</td></tr><tr><td>Microsoft Corp.</td><td>30.07</td></tr><tr><td>Alcoa Inc.</td><td>30.76</td></tr><tr><td>Walt Disney Co.</td><td>34.72</td></tr><tr><td>AT&amp;T Inc.</td><td>35.66</td></tr><tr><td>Verizon Communications Inc.</td><td>36.09</td></tr><tr><td>General Electric Co.</td><td>36.21</td></tr><tr><td>Hewlett-Packard Co.</td><td>39.91</td></tr><tr><td>Home Depot Inc.</td><td>39.97</td></tr><tr><td>Honeywell International Inc.</td><td>42.69</td></tr><tr><td>Merck &amp; Co. Inc.</td><td>43.60</td></tr><tr><td>McDonald&#x27;s Corp.</td><td>43.69</td></tr><tr><td>Wal-Mart Stores Inc.</td><td>46.52</td></tr><tr><td>JPMorgan Chase &amp; Co.</td><td>47.95</td></tr><tr><td>E.I. DuPont de Nemours &amp; Co.</td><td>48.40</td></tr><tr><td>Coca-Cola Co.</td><td>49.00</td></tr><tr><td>Citigroup Inc.</td><td>53.11</td></tr><tr><td>American Express Co.</td><td>61.90</td></tr><tr><td>United Technologies Corp.</td><td>62.06</td></tr><tr><td>Caterpillar Inc.</td><td>62.12</td></tr><tr><td>Procter &amp; Gamble Co.</td><td>63.35</td></tr><tr><td>Johnson &amp; Johnson</td><td>66.25</td></tr><tr><td>American International Group Inc.</td><td>72.03</td></tr><tr><td>Exxon Mobil Corp.</td><td>78.73</td></tr><tr><td>3M Co.</td><td>78.77</td></tr><tr><td>Altria Group Inc.</td><td>84.97</td></tr><tr><td>Boeing Co.</td><td>89.93</td></tr><tr><td>International Business Machines Corp.</td><td>95.36</td></tr></table> since each value occurs once only, we have to assign each value an absolute frequency of 1 or a relative frequency of 1/30, respectively, since there are 30 component stocks in the DJIA. We start with the lowest entry (20.77) and advance up to the largest value still less than 50, which is 49 (Coca-Cola). Each time we observe less than or equal to 50, we add 1/30, accounting for the frequency of each company to obtain an accumulated frequency of 18/30 representing the total share of closing prices below 50. This accumulated frequency is called the "empirical cumulative frequency" at the value 50. If one computes this for all values, one obtains the empirical cumulative frequency distribution. The term "empirical" is used because the distribution is computed from observed data.
+<table><tr><td>Company</td><td>Share Price</td></tr><tr><td>Intel Corp.</td><td>20.77</td></tr><tr><td>Pfizer Inc.</td><td>25.56</td></tr><tr><td>General Motors Corp.</td><td>29.77</td></tr><tr><td>Microsoft Corp.</td><td>30.07</td></tr><tr><td>Alcoa Inc.</td><td>30.76</td></tr><tr><td>Walt Disney Co.</td><td>34.72</td></tr><tr><td>AT&amp;T Inc.</td><td>35.66</td></tr><tr><td>Verizon Communications Inc.</td><td>36.09</td></tr><tr><td>General Electric Co.</td><td>36.21</td></tr><tr><td>Hewlett-Packard Co.</td><td>39.91</td></tr><tr><td>Home Depot Inc.</td><td>39.97</td></tr><tr><td>Honeywell International Inc.</td><td>42.69</td></tr><tr><td>Merck &amp; Co. Inc.</td><td>43.60</td></tr><tr><td>McDonald&#x27;s Corp.</td><td>43.69</td></tr><tr><td>Wal-Mart Stores Inc.</td><td>46.52</td></tr><tr><td>JPMorgan Chase &amp; Co.</td><td>47.95</td></tr><tr><td>E.I. DuPont de Nemours &amp; Co.</td><td>48.40</td></tr><tr><td>Coca-Cola Co.</td><td>49.00</td></tr><tr><td>Citigroup Inc.</td><td>53.11</td></tr><tr><td>American Express Co.</td><td>61.90</td></tr><tr><td>United Technologies Corp.</td><td>62.06</td></tr><tr><td>Caterpillar Inc.</td><td>62.12</td></tr><tr><td>Procter &amp; Gamble Co.</td><td>63.35</td></tr><tr><td>Johnson &amp; Johnson</td><td>66.25</td></tr><tr><td>American International Group Inc.</td><td>72.03</td></tr><tr><td>Exxon Mobil Corp.</td><td>78.73</td></tr><tr><td>3M Co.</td><td>78.77</td></tr><tr><td>Altria Group Inc.</td><td>84.97</td></tr><tr><td>Boeing Co.</td><td>89.93</td></tr><tr><td>International Business Machines Corp.</td><td>95.36</td></tr></table>
+
+Since each value occurs once only, we have to assign each value an absolute frequency of 1 or a relative frequency of 1/30, respectively, since there are 30 component stocks in the DJIA. We start with the lowest entry (20.77) and advance up to the largest value still less than 50, which is 49 (Coca-Cola). Each time we observe less than or equal to 50, we add 1/30, accounting for the frequency of each company to obtain an accumulated frequency of 18/30 representing the total share of closing prices below 50. This accumulated frequency is called the "empirical cumulative frequency" at the value 50. If one computes this for all values, one obtains the empirical cumulative frequency distribution. The term "empirical" is used because the distribution is computed from observed data.
 
 Source: www.dj.com/TheCompany/FactSheets.htm, December 15, 2006.
 
@@ -174,7 +205,7 @@ Criterion 4: Nonemptiness: If possible, avoid forming empty classes.
 It is intuitive that the number of classes should increase with an increasing range of values and increasing number of data. Though there are no stringent rules, two rules of thumb are given here with respect to the advised number of classes (first rule) and the best class width (second rule). The first, the so-called Sturge's rule, states that for a given set of continuous data of size  $n$ , one should use the nearest integer figure to
 
 $$
-1 + \log_{2} n = 1 + 3. 2 2 2 \log_{1 0} n.
+1 + \log_{2} n = 1 + 3.322 \log_{10} n.
 $$
 
 Here,  $\log_a n$  denotes the logarithm of  $n$  to the base  $a$ , with  $a$  being either 2 or 10.
@@ -283,9 +314,7 @@ Figure 3 Determination of Frequency Distribution within Class Bounds
 Cross-sectional data are values of a particular variable across some universe of items observed at a unique point in time. Time series data are data related to a variable successively observed at a sequence of points in time.
 
 - Frequency (absolute and relative) distributions can be computed for all types of data since they do not require that the data have a numerical value. The cumulative frequency distribution is another quantity of interest for comparing data that is closely related to the absolute or relative frequency distribution.
-- Four criteria that data classes need to satisfy are (1) each value can be placed in only one class (mutual exclusiveness), (2) the set of classes needs to cover all values (completeness), (3) if possible, form classes of equal width (equidistance), and
-
-(4) if possible, avoid forming empty classes (nonemptiness).
+- Four criteria that data classes need to satisfy are (1) each value can be placed in only one class (mutual exclusiveness), (2) the set of classes needs to cover all values (completeness), (3) if possible, form classes of equal width (equidistance), and (4) if possible, avoid forming empty classes (nonemptiness).
 
 # NOTES
 

@@ -96,7 +96,7 @@ Figure 16-1 Total Value of U.S. of Mergers and Acquisitions Managed by Investmen
 
 Sources: Refinitiv (formerly Thomson Reuters), Deals Intelligence. M&A Quarterly Reviews, various years, www.refinitiv.com
 
-Investment banking also includes corporate finance activities such as advising on mergers and acquisitions (M&As), as well as advising on the restructuring of existing corporations. Figure 16-1 reports M&As managed by investment banks for the period 1990-2019. Total dollar volume (measured by completed merger transaction value) of domestic M&As increased from less than 200 billion in 1990 to 1.83 trillion in 2000. This merger wave was not restricted to the United States. For example, in 2000 there were over 36,700 merger and acquisition deals globally, valued at over \$3.49 trillion. Nevertheless, reflecting the downturn in the U.S. economy, M&A transactions fell 53 percent in 2001 to \$819 billion on only 7,525 deals (the first time since 1995 there were fewer than 10,000 deals). Similarly, worldwide M&As fell to 1.74 trillion in 2001. Domestic M&A activity bottomed out at  \$458 billion in 2002 (while worldwide activity fell to\$ 1.20 trillion) before recovering (along with the economy), topping \$1.71 trillion in the United States (and \$4.5 trillion worldwide) in 2007. During the financial crisis, domestic M&A activity fell to  \$903 billion,\$ 713 billion, and \$687 billion in 2008, 2009, and 2010, respectively, while worldwide M&As fell to  \$2.9 trillion,\$ 1.7 trillion, and \$1.8 trillion, respectively. Note that while this period included the worst financial crisis since the Great Depression, M&A activity remained at higher levels than those experienced in the early 2000s. As the U.S. economy recovered, M&A activity increased starting from 2014, reaching pre-crisis levels in 2018.
+Investment banking also includes corporate finance activities such as advising on mergers and acquisitions (M&As), as well as advising on the restructuring of existing corporations. Figure 16-1 reports M&As managed by investment banks for the period 1990-2019. Total dollar volume (measured by completed merger transaction value) of domestic M&As increased from less than 200 billion in 1990 to 1.83 trillion in 2000. This merger wave was not restricted to the United States. For example, in 2000 there were over 36,700 merger and acquisition deals globally, valued at over $3.49 trillion. Nevertheless, reflecting the downturn in the U.S. economy, M&A transactions fell 53 percent in 2001 to \$819 billion on only 7,525 deals (the first time since 1995 there were fewer than 10,000 deals). Similarly, worldwide M&As fell to 1.74 trillion in 2001. Domestic M&A activity bottomed out at  \$458 billion in 2002 (while worldwide activity fell to\$ 1.20 trillion) before recovering (along with the economy), topping \$1.71 trillion in the United States (and \$4.5 trillion worldwide) in 2007. During the financial crisis, domestic M&A activity fell to  \$903 billion,\$ 713 billion, and \$687 billion in 2008, 2009, and 2010, respectively, while worldwide M&As fell to  \$2.9 trillion,\$ 1.7 trillion, and \$1.8 trillion, respectively. Note that while this period included the worst financial crisis since the Great Depression, M&A activity remained at higher levels than those experienced in the early 2000s. As the U.S. economy recovered, M&A activity increased starting from 2014, reaching pre-crisis levels in 2018.
 
 This chapter presents an overview of (1) the size, structure, and composition of the industry; (2) the key activities of securities firms and investment banks; (3) the industry's balance sheet and recent trends; and (4) its regulation.
 
@@ -123,11 +123,11 @@ TABLE 16-2 Investment Banking, Advisory, Brokerage, and Underwriting Fee Income 
 
 Source: Federal Financial Institutions Examination Council, Call Reports, cdl.ffiec.gov/public/
 
-# broker-dealers
+## broker-dealers
 
 Firms that assist in the trading of existing securities.
 
-# underwriting
+## underwriting
 
 Assisting in the issue of new securities.
 
@@ -164,7 +164,7 @@ Securities firms and investment banks engage in as many as eight key activity ar
 
 # Investment Banking
 
-Investment banking refers to activities related to underwriting and distributing new issues of debt and equity securities. New issues can be either first-time issues of a company's debt or equity securities or the new issues of a firm whose debt or equity is already trading—secondary security offerings or seasoned issues (see Chapter 8 for a detailed discussion). As discussed in Chapter 8, an investment bank will often bring in a number of other investment banks (a so-called syndicate) to help sell and distribute a new issue. In 2019, a total of  \$10.86 trillion of debt and equity was underwritten globally. This was up from\$ 4.95 trillion underwritten in 2008 during the financial crisis, also well above the pre-crisis amounts of  \$7.51 and\$ 7.84 trillion in 2007 and 2006, respectively. Of the \$10.86 trillion amount, \$0.68 trillion were global equity proceeds. Table 16-3 lists the top five underwriters of debt and equity for 2019 based on the dollar value of issues underwritten. The top five underwriters represented 57.7 percent of global debt issues and 38.5 percent of global equity issues, suggesting that the industry is dominated by a small number of "top tier" underwriting firms. Top tier rating and the implied reputation this brings has a huge effect
+Investment banking refers to activities related to underwriting and distributing new issues of debt and equity securities. New issues can be either first-time issues of a company's debt or equity securities or the new issues of a firm whose debt or equity is already trading—secondary security offerings or seasoned issues (see Chapter 8 for a detailed discussion). As discussed in Chapter 8, an investment bank will often bring in a number of other investment banks (a so-called syndicate) to help sell and distribute a new issue. In 2019, a total of $10.86 trillion of debt and equity was underwritten globally. This was up from\$ 4.95 trillion underwritten in 2008 during the financial crisis, also well above the pre-crisis amounts of  \$7.51 and\$ 7.84 trillion in 2007 and 2006, respectively. Of the \$10.86 trillion amount, \$0.68 trillion were global equity proceeds. Table 16-3 lists the top five underwriters of debt and equity for 2019 based on the dollar value of issues underwritten. The top five underwriters represented 57.7 percent of global debt issues and 38.5 percent of global equity issues, suggesting that the industry is dominated by a small number of "top tier" underwriting firms. Top tier rating and the implied reputation this brings has a huge effect
 
 TABLE 16-3 Top Underwriters of Global Debt and Equity, 2019
 
@@ -173,7 +173,7 @@ TABLE 16-3 Top Underwriters of Global Debt and Equity, 2019
 *JPMorgan Chase & Co is the name of the holding company, and the firm serves its customers and clients under its Chase and JPMorgan brands.
 Source: Refinitiv, Deals Intelligence, www.refinitiv.com
 
-# private placement
+## private placement
 
 A securities issue placed with one or a few large institutional investors.
 
@@ -279,17 +279,19 @@ Source: Refinitiv, Deals Intelligence, www.refinitiv.com
 
 # Other Service Functions
 
-# DO YOU UNDERSTAND?
+## DO YOU UNDERSTAND?
 
 5. What the key areas of activities for securities firms are?
 6. What the difference is between a best efforts and a firm commitment offering?
 7. What the six trading activities performed by securities firms are?
 
+## Other Service Functions
+
 Other service functions include custody and escrow services, clearance and settlement services, and research and advisory services—for example, giving advice on divestitures, spin-offs, and asset sales. In addition, investment banks are making increasing inroads into traditional bank service areas such as small-business lending and the trading of loans (see Chapters 7 and 25). In performing these functions, investment banks normally act as agents for a fee. Fees charged are often based on the total bundle of services performed for the client by the firm. The portion of the fee or commission allocated to research and advisory services is called soft dollars. When one area in the firm, such as an investment advisor, uses client commissions to buy research from another area in the firm, it receives a benefit because it is relieved from the need to produce and pay for the research itself. Thus, advisors using soft dollars face a conflict of interest between their need to obtain research and their clients' interest in paying the lowest commission rate available. Because of the conflict of interest that exists, the SEC (the primary regulator of investment banks and securities firms, see below) requires these firms to disclose soft dollar arrangements to their clients.
 
-# RECENT TRENDS AND BALANCE SHEETS
+## RECENT TRENDS AND BALANCE SHEETS
 
-# Recent Trends
+## Recent Trends
 
 In this section, we look at the balance sheet and trends in the securities firm and investment banking industry since the 1987 stock market crash. Trends in this industry depend heavily on the state of the stock market. For example, a major effect of the 1987 stock market crash was a sharp decline in stock market trading volume and, thus, in the brokerage commissions earned by securities firms over the 1987-1991 period. Commission income began to recover only in and after 1992 with record stock market trading volumes being achieved in 1992 through 2000 (when the Dow Jones and S&P indexes hit new highs—see Chapter 8). Improvements in the U.S. economy in the mid-2000s resulted in an even greater increase in stock market values and trading and thus commission income. However, rising oil prices and the subprime mortgage market collapse and the eventual full market crash in 2008 through 2009 pushed stock market values down. As a result, commission income in the securities industry declined as well. As the economy and the stock market recovered in the early and mid-2010s, commission income again rose to before it started declining again in late 2010s.
 
@@ -336,7 +338,7 @@ By the mid-2010s, while the industry had put most problems from the financial cr
 
 LG 16-3
 
-# Balance Sheets
+## Balance Sheets
 
 The short-term nature of many of the assets in the portfolios of securities firms demonstrates that an important activity is trading/brokerage. As a broker, the securities firm receives a commission for handling the trade but does not take either an asset or liability position. Thus, many of the assets appearing on the balance sheets of securities firms are cash like money market instruments, not capital market positions. In the case of depository institutions, assets tend to be medium term from the lending position of the depository institutions. The consolidated balance sheet for the industry is shown in Table 16-7. Looking at the asset portfolio, receivables from other broker-dealers accounted for 29.3 percent of total assets, reverse repurchase agreements—securities purchased under agreements to resell (i.e., the broker gives a short-term loan to the repurchase agreement seller, see Chapter 5)—accounted for 29.1 percent of assets, and long positions in securities and commodities accounted for 22.6 percent of assets. Because of the extent to which this industry's balance sheet consists of financial market securities, the industry is subjected to particularly large levels of market risk and interest rate risk. Further, to the extent that many of these securities are foreign-issued securities, FI managers must be concerned with foreign exchange risk and sovereign risk as well (see Chapter 20).
 
@@ -358,7 +360,7 @@ Source: Securities Exchange Commission, Select SEC and Market Data, www.sec.gov/
 
 One reason for their lower equity capital levels is that securities firm and investment bank balance sheets contain mostly tradable (liquid) securities compared to the relatively illiquid loans that represent a significant portion of banks' asset portfolios. However, this low level of capital can leave stand-alone investment banks vulnerable to runs. For example, in the summer of 2007, two Bear Stearns hedge funds suffered heavy losses on investments in the subprime mortgage market. The two funds filed for bankruptcy in the fall of 2007. Bear Stearns's market value was hurt badly from these losses. Because Bear Stearns operated with low levels of capital, the losses became so great that by March 2008 Bear Stearns was struggling to finance its day-to-day operations. Rumors of Bear Stearns's equity crisis became a reality as investors began quickly selling off their stock and draining what little equity the firm had left. Bear Stearns had no choice but to basically sell itself to the highest bidder to avoid declaring bankruptcy or completely closing down and leaving investors totally empty-handed. JPMorgan Chase purchased the company for  \$236 million; Bear Stearns's skyscraper in New York was worth over\$ 2 billion alone.
 
-# REGULATION
+## REGULATION
 
 # LG 16-4 www.sec.gov
 
@@ -387,7 +389,7 @@ a much larger group of more than 100 firms), was implemented on June 11 and the 
 
 Finally, the Securities Investor Protection Corporation (SIPC) protects investors against losses of up to 500,000 on securities firm failures. SIPC is not an agency or establishment of the U.S. government and it has no authority to investigate or regulate its member broker-dealers. Rather, the SIPC was created under the Securities Investor Protection Act of 1970 as a nonprofit membership corporation. SIPC oversees the liquidation of member broker-dealers that close when the broker-dealer is bankrupt or in financial trouble and customer assets are missing. While agencies such as the SEC and FINRA deal with cases of investment fund fraud, the SIPC's focus is both different and narrow: restoring customer cash and securities left in the hands of bankrupt or otherwise financially troubled brokerage firms. The fund does not protect against losses on customers' accounts due to poor investment choices that reduce the value of their portfolio. The SIPC is funded with premium contributions from member firms.
 
-# GLOBAL ISSUES
+## GLOBAL ISSUES
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/f1f3e58e-94c9-4056-b1f0-68f9b5365a8f/c65bed78f3a6228597852ccc240ad3f7d5232c36a141b468cb1fcd01ee0d5ef0.jpg)
 
@@ -438,11 +440,11 @@ The Competition Bureau said it had been investigating certain financial firms as
 
 Source: Sakthi Prasad, Reuters Business News, February 17, 2012 of companies and pension funds. Among the investment banks implicated were Barclays, UBS, Bank of America, JPMorgan Chase, and the Royal Bank of Scotland—the same banks implicated for rigging the LIBOR. The rigging of ISDAfix adds to growing evidence that a small group of influential investment banks have gained financially by distorting key financial gauges in world markets on everything from interest rates to currencies to commodities.
 
-# SUMMARY
+## SUMMARY
 
 This chapter presented an overview of security firms, which primarily offer retail services to investors, and investment banking firms, which primarily offer activities and services related to corporate customers. Firms in this industry help bring new issues of debt and equity to the financial markets. In addition, this industry facilitates the trading and market making of securities after they are issued. The chapter discussed the structure of the industry and changes in the degree of concentration in firm size in the industry over the last three decades. Balance sheet information that highlighted the major assets and liabilities of the firms was also analyzed.
 
-# QUESTIONS
+## QUESTIONS
 
 1. In what ways are securities firms and investment banks financial intermediaries? (LG 16-1)
 2. How has the size of the securities firm and investment banking industry changed since the late 1980s? (LG 16-1)

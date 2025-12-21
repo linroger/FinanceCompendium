@@ -1,36 +1,29 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'International Agreements: Trade, Labor, and the Environment'
-linter-yaml-title-alias: 'International Agreements: Trade, Labor, and the Environment'
+title: International Agreements: Trade, Labor, and the Environment
 primary_tags:
-- minimum wage activism did
-- offset production externality negative
-- tariff cost imported parts
-- agreements environment rulings wto
-- protesters seattle international agreements
-- auto mexico establishment nafta
+  - international trade agreements
+  - environmental trade policies
+  - labor standards agreements
+  - world trade organization
+  - regional trade blocs
+  - global climate accords
 secondary_tags:
-- cost externality free trade
-- wto protests environment
-- world trade organization seattle
-- discuss international agreements environment
-- labor environment seattle riot
-- diversion asia mexico nafta
-- reflects social cost externality
-- effect nafta country welfare
-- united states trade creation
-- agreements labor issues international
-- effect garment industry
-- nafta counterintuitive result normally
-- imports nafta conclude
-- column nafta cost
-- auto asia free trade
-- example suppose joining nafta
-tags_extracted: '2025-12-18T00:35:46.633695'
+  - wto dispute settlement
+  - nafta environmental provisions
+  - kyoto protocol framework
+  - copenhagen climate summit
+  - trade labor linkages
+  - environmental externalities
+  - carbon emission reductions
+  - multinational trade negotiations
+  - seattle wto protests
+  - free trade areas
+  - tariff reduction agreements
+  - sustainable development goals
+  - international economic cooperation
+  - trade policy coordination
+  - global environmental governance
+cssclasses: academia
 ---
 
 # International Agreements: Trade, Labor, and the Environment
@@ -171,7 +164,7 @@ The second reason for trade to increase within a regional agreement is trade div
 
 To illustrate the potential for trade diversion, we use an example from NAFTA, in which the United States might import auto parts from Mexico that it formerly imported from Asia. Let us keep track of the gains and losses for the countries involved. Asia will lose export sales to North America, so it suffers a loss in producer surplus in its exporting industry. Mexico gains producer surplus by selling the auto parts. The problem with this outcome is that Mexico is not the most efficient (lowest cost) producer of auto parts: we know that Asia is more efficient because that is
 
-# China-ASEAN Treaty Threatens Indian Exporters
+### China-ASEAN Treaty Threatens Indian Exporters
 
 This article discusses the China-ASEAN free-trade area, which was implemented on January 1, 2010. By eliminating tariffs between China and the ASEAN countries, this free-trade area will make it more difficult for India to export to those countries, which is an example of trade diversion.
 
@@ -199,7 +192,7 @@ Producer surplus in Asia falls because it loses its export sales to the United S
 
 In Figure 11-3, we show the free-trade price of the auto part from Asia as  $P_{\mathrm{Asia}}$ , and the free-trade export supply curve from Asia as the horizontal line labeled  $S_{\mathrm{Asia}}$ . By treating this price as fixed, we are supposing that the United States is a small country relative to the potential supply from Asia. Inclusive of the tariff, the cost of imported parts from Asia becomes  $P_{\mathrm{Asia}} + t$ , and the supply curve is  $S_{\mathrm{Asia}} + t$ . The free-trade supply from Mexico is shown as the upward-sloping curve labeled  $S_{\mathrm{Mex}}$ ; inclusive of the tariff, the supply curve is  $S_{\mathrm{Mex}} + t$ .
 
-# TABLE 11-1
+### TABLE 11-1
 
 Cost of Importing an Automobile Part This table shows the cost to the United States of purchasing an automobile part from various source countries, with and without tariffs. If there is a  $20\%$  tariff on all countries, then it would be cheapest for the United States to buy the auto part from itself (for  $\$ 22$ ). But when the tariff is eliminated on Mexico after NAFTA, then the United States would instead buy from that country (for  $\$ 20$ ), which illustrates the idea of trade creation. If instead we start with a  $10\%$  tariff on all countries, then it would be cheapest for the United States to buy from Asia (for  $\$ 20.90$ ). When the tariff on Mexico is eliminated under NAFTA, then the United States would instead buy there (for  $\$ 20$ ), illustrating the idea of trade diversion.
 

@@ -1,4 +1,29 @@
 
+---
+title: "Working with High-Frequency Data"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume II/Financial Econometrics"
+formatted: 2025-12-21 11:15:00 PM
+formatter_model: claude-haiku-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+  - high-frequency data
+  - tick data
+  - bid-ask bounce
+  - irregularly spaced data
+secondary_tags:
+  - market microstructure
+  - quote data
+  - trade data
+  - duration models
+  - volatility estimation
+  - sampling methodologies
+  - intertrade intervals
+  - price processes
+  - volume duration
+  - spread dynamics
+cssclasses: academia
+---
+
 # Working with High-Frequency Data
 
 IRENE ALDRIDGE
@@ -9,9 +34,7 @@ Abstract: High-frequency trading (HFT) has exploded into the popular press as a 
 
 This entry examines high-frequency data, the particularities and opportunities they bring, and compares these data with their low-frequency counterparts, wherever appropriate. High-frequency trading (HFT) strategies by their nature use a different population of data, and the traditional methods of data analysis need to be adjusted accordingly. Specifically, this entry examines the topics of volume, timespacing, and bid-ask-bounce inherent in the high-frequency data.
 
-# WHAT ARE
-
-# HIGH-FREQUENCY DATA?
+## What Are High-Frequency Data?
 
 High-frequency data, also known as "tick data," are a record of live market activity. Every time a customer, a dealer, or another entity posts a so-called limit order to buy  $s$  units of a specific security with ticker X at price  $q$ , a bid quote  $q_{t_b}^b$  is logged at time  $t_b$  to buy  $s_{t_b}^b$  units of X. (Market orders are incorporated into tick data in a different way as discussed below.) When the newly arrived bid quote  $q_{t_b}^b$  has the highest price relative to all other previously arrived bid quotes in force,  $q_{t_b}^b$  becomes known as "the best bid" available at time  $t_b$ . Similarly, when a trading entity posts a limit order to sell  $s$  units of X at price  $q$ , an ask quote  $q_{t_a}^a$  is logged at time  $t_a$  to sell  $s_{t_a}^a$  units of X. If the latest  $q_{t_a}^a$  is lower than all other available ask quotes for security X,  $q_{t_a}^a$  becomes known as "the best ask" at time  $t_a$ .
 
@@ -62,17 +85,17 @@ High-frequency securities data have been studied for many years. Yet, the concep
 
 # HIGH-FREQUENCY DATA ARE VOLUMINOUS
 
-The nearly two-minute sample of tick data for SPDR S&P 500 ETF (ticket SPY) shown in Figure 1 contained over 100 observations of Level I data: best bid quotes and sizes, best ask quotes and sizes, and last trade prices and sizes. Table 2 summarizes the breakdown of the data points provided by NYSE Arca for SPY from 14:00:16:400 to 14:02:00:000 GMT on November 9, 2009, and SPY, Japanese yen futures, and a euro call option throughout the day on November 9, 2009. Other Level I data omitted from Table 2 include cumulative daily trade volume for SPY and Japanese yen futures, and "Greeks" for the euro call option. The number of quotes observed on November 9, 2009, for SPY alone would comprise over 160 years of daily open,
+The nearly two-minute sample of tick data for SPDR S&P 500 ETF (ticket SPY) shown in Figure 1 contained over 100 observations of Level I data: best bid quotes and sizes, best ask quotes and sizes, and last trade prices and sizes. Table 2 summarizes the breakdown of the data points provided by NYSE Arca for SPY from 14:00:16:400 to 14:02:00:000 GMT on November 9, 2009, and SPY, Japanese yen futures, and a euro call option throughout the day on November 9, 2009. Other Level I data omitted from Table 2 include cumulative daily trade volume for SPY and Japanese yen futures, and "Greeks" for the euro call option. The number of quotes observed on November 9, 2009, for SPY alone would comprise over 160 years of daily open, high, low, close, and volume data points, assuming an average of 252 trading days per year.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/1c578c12ad8188957d3007c0a409bd766b04f34d5e52d7648452286fc79c577d.jpg)
 Panel (a): HF Data for S&P 500 ETF Recorded from 14:00:16:400 to 14:02:00:000 GMT: Best Bid, Best Ask and Last Trade Data
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/906f7277f3071c740ea882ddd864c67b87d644708fbf6aaefed62bb558ce32c2.jpg)
-Panel (b): HF Data for S&P 500 ETF Recorded from 14:00:16:400 to 14:02:00:000 GMT: Bid Size, Ask Size and Last Trade Size high, low, close, and volume data points, assuming an average of 252 trading days per year.
+Panel (b): HF Data for S&P 500 ETF Recorded from 14:00:16:400 to 14:02:00:000 GMT: Bid Size, Ask Size and Last Trade Size
 Figure 1 Level I High-Frequency Data Recorded by NYSE Arca for SPDR S&P 500 ETF (ticket SPY) from 14:00:16:400 to 14:02:00:000 GMT on November 9, 2009
 
 
-The quality of data does not always match its quantity. Centralized exchanges generally provide accurate data on bids, asks, and volume of any. The information on the limit order book is less commonly available. In decentralized mar kets, such as foreign exchange and the interbank money market, no market-wide quotes are available at any given time. In such markets, participants are aware of the current price levels, but each institution quotes its own prices adjusted for its order book. In decentralized markets, each dealer provides his or her own
+The quality of data does not always match its quantity. Centralized exchanges generally provide accurate data on bids, asks, and volume of any. The information on the limit order book is less commonly available. In decentralized markets, such as foreign exchange and the interbank money market, no market-wide quotes are available at any given time. In such markets, participants are aware of the current price levels, but each institution quotes its own prices adjusted for its order book. In decentralized markets, each dealer provides his or her own
 
 
 Table 1 Summary of Properties of High-Frequency Data
@@ -118,7 +141,7 @@ While tick data carries information about market dynamics, it is also distorted 
 To use standard econometric techniques in the presence of the bid-ask bounce, many practitioners convert the tick data to "mid-quote" format: the simple average of the latest bid and ask quotes. The mid-quote is used to approximate the price level at which the market is theoretically willing to trade if buyers and sellers agreed to meet each other halfway on the price spectrum. Mathematically, the mid-quote can be expressed as follows:
 
 $$
-\hat {q}_{t_{m}}^{m} = \frac{1}{2} \left(q_{t_{a}}^{a} + q_{t_{b}}^{b}\right) \text{wh er e} t_{m} = \left\{ \begin{array}{l} t_{a}, \text{if } t_{a} \geq t_{b} \\ t_{b}, \text{ot he rw is e} \end{array} \right. \tag {1}
+\hat {q}_{t_{m}}^{m} = \frac{1}{2} \left(q_{t_{a}}^{a} + q_{t_{b}}^{b}\right) \text{where } t_{m} = \left\{ \begin{array}{l} t_{a}, \text{if } t_{a} \geq t_{b} \\ t_{b}, \text{otherwise} \end{array} \right. \tag {1}
 $$
 
 The latter condition for  $t_m$  reflects the continuous updating of the mid-quote estimate:  $\hat{q}_{t_m}^m$  is updated whenever the latest best bid,  $q_{t_b}^b$ , or best ask quote,  $q_{t_a}^a$ , arrives, at  $t_b$  or  $t_a$  respectively.
@@ -127,19 +150,19 @@ Another way to sample tick quotes into a cohesive data series is by weighing the
 
 $$
 \tilde {q}_{t}^{s} = \frac{q_{t_{b}}^{b} s_{t_{a}}^{a} + q_{t_{a}}^{a} s_{t_{b}}^{b}}{s_{t_{a}}^{a} + s_{t_{b}}^{b}} \tag {2}
-$$ where  $q_{t_b}^b$  and  $s_{t_b}^b$  is the best bid quote and the best bid available size recorded at time  $t_b$  (when  $q_{t_b}^b$  became the best bid), and  $q_{t_a}^a$  and  $s_{t_a}^a$  is the best bid quote and the best bid available size recorded at time  $t_a$ .
+$$ where  $q_{t_b}^b$  and  $s_{t_b}^b$  is the best bid quote and the best bid available size recorded at time  $t_b$  (when  $q_{t_b}^b$  became the best bid), and  $q_{t_a}^a$  and  $s_{t_a}^a$  is the best ask quote and the best ask available size recorded at time  $t_a$ .
 
 
 Figure 5 compares the histograms of simple returns computed from mid-quote (panel a), size-weighted mid-quote (panel b), and trade-price (panel c) processes for SPDR S&P 500 ETF data recorded as they arrive throughout
 
 November 9, 2009. The data neglect the time difference between the adjacent quotes, treating each sequential quote as an independent observation. Figure 6 contrasts the quantile distribution plots of the same data sets with the quantiles of a standard normal distribution.
 
-As Figures 4 and 5 show, the basic mid- quote distribution is constrained by the minimum "step size": The minimum changes in the mid-quote can occur at half-tick increments (at present, the minimum tick size is 0.01 in equities). The size-weighted mid-quote forms the most continuous distribution among the three distributions discussed. Figure 6 confirms this notion further and also illustrates the fat tails present in all three types of data distributions.
+As Figures 4 and 5 show, the basic mid-quote distribution is constrained by the minimum "step size": The minimum changes in the mid-quote can occur at half-tick increments (at present, the minimum tick size is 0.01 in equities). The size-weighted mid-quote forms the most continuous distribution among the three distributions discussed. Figure 6 confirms this notion further and also illustrates the fat tails present in all three types of data distributions.
 
 In addition to real-time adjustments to bid-ask data, researchers deploy forecasting techniques to estimate the impending bid-ask spread and adjust for it in models ahead of time. Future realizations of the bid-ask spread can be estimated using the model suggested by Roll (1984), where the price of an asset at time  $t$ ,  $p_t$ , is assumed to equal an unobservable fundamental value,  $m_t$ , offset by a value equal to half of the bid-ask spread,  $s$ . The price offset is positive when the next market order is a buy, and negative when the trade is a sell, as shown in equation (3):
 
 $$ p_{t} = m_{t} + \frac{s}{2} I_{t} \tag {3}
-$$ where  $I_{t} = \left\{ \begin{array}{ll}1, & \text{marketbuyatask}\\ -1, & \text{marketsellatbid} \end{array} \right.$
+$$ where  $I_{t} = \left\{ \begin{array}{ll}1, & \text{market buy at ask}\\ -1, & \text{market sell at bid} \end{array} \right.$
 
 
 If either a buy or a sell order can arrive next with equal probability, then  $E[I_t] = 0$ , and  $E[\Delta p_t] = 0$ , absent changes in the fundamental asset value,  $m_t$ . The covariance of subsequent price changes, however, is different from 0:
@@ -151,7 +174,7 @@ $$
 As a result, the future expected spread can be estimated as follows:
 
 $$
-\begin{array}{l} E [ s ] = 2 \sqrt{- \operatorname{co v} \left[ \Delta p_{t} , \Delta p_{t + 1} \right]} \text{wh en ev er} \\ \operatorname{co v} \left[ \Delta p_{t}, \Delta p_{t + 1} \right] <   0 \\ \end{array}
+\begin{array}{l} E [ s ] = 2 \sqrt{- \operatorname{co v} \left[ \Delta p_{t} , \Delta p_{t + 1} \right]} \text{whenever} \\ \operatorname{co v} \left[ \Delta p_{t}, \Delta p_{t + 1} \right] <   0 \\ \end{array}
 $$
 
 Figure 4 Bid-Ask Aggregation Techniques on Data for SPDR S&P 500 ETF (ticket SPY) Recorded by NYSE Arca on November 9, 2009, from 14:00:16:400 to 14:00:02:000 GMT
@@ -189,13 +212,13 @@ As shown in Figure 7, panels (a) and (b), the two quote-sampling methods produce
 Mathematically, the two sampling methods can be expressed as follows:
 
 $$
-\text{Qu ot es am pl in gu si ng cl os in gp ri ce s :} \hat {q}_{t} = q_{t, \text{la st}} \tag {5}
+\text{Quotes sampling using closing prices:} \hat {q}_{t} = q_{t, \text{last}} \tag {5}
 $$
 
 Quote sampling using linear interpolation:
 
 $$
-\hat {q}_{t} = q_{t, l a s t} + \left(q_{t, n e x t} - q_{t, l a s t}\right) \frac{t - t_{l a s t}}{t_{n e x t} - t_{l a s t}} \tag {6}
+\hat {q}_{t} = q_{t, last} + \left(q_{t, next} - q_{t, last}\right) \frac{t - t_{last}}{t_{next} - t_{last}} \tag {6}
 $$ where  $\hat{q}_t$  is the resulting sampled quote,  $t$  is the desired sampling time (start of a new minute, for example),  $t_{last}$  is the timestamp of the last observed quote prior to the sampling time  $t$ ,  $q_{t, last}$  is the value of the last quote prior to the sampling time  $t$ ,  $t_{next}$  is the timestamp of the first observed quote after the sampling time  $t$ ,
 
 
@@ -217,7 +240,7 @@ Figure 8 Mid-Quote "Closing Quotes" Sampled at  $200\mathrm{ms}$  (left) and 15s
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/65cd51b05829a6d6e56e02fcba68b4e94464b923c94d533550d567325b75d6d3.jpg)
 
 
-Figures 8 and 9 compare histograms of the mid-quote data sampled as closing prices and interpolated at frequencies of  $200~\mathrm{ms}$  and 15s. Figure 10 compares quantile plots of closing prices and interpolated distributions. As Figures 8 and 9 show, often-sampled distributions are sparse, that is, contain more 0 returns than distributions sampled at lower frequencies. At the same time, returns computed from interpo lated quotes are more continuous than closing prices, as Figure 10 illustrates.
+Figures 8 and 9 compare histograms of the mid-quote data sampled as closing prices and interpolated at frequencies of  $200~\mathrm{ms}$  and 15s. Figure 10 compares quantile plots of closing prices and interpolated distributions. As Figures 8 and 9 show, often-sampled distributions are sparse, that is, contain more 0 returns than distributions sampled at lower frequencies. At the same time, returns computed from interpolated quotes are more continuous than closing prices, as Figure 10 illustrates.
 
 
 Instead of manipulating the interquote intervals into the convenient regularly spaced formats, several researchers have studied whether the time distance between subsequent quote arrivals itself carries information. For example, most researchers agree that intertrade intervals indeed carry information on securities for which short sales are disallowed; the lower the intertrade duration, the more likely the yet-to-be-observed good news and the higher the impending price change.
@@ -245,7 +268,7 @@ Diamond and Verrecchia (1987) and Easley and O'Hara (1992) were the first to sug
 
 Easley and O'Hara (1992) further point out that trades that are separated by a time interval have a much different information content than trades occurring in close proximity. One of the implications of Easley and O'Hara (1992) is that the entire price sequence conveys information and should be used in its entirety whenever possible, strengthening the argument for high-frequency trading.
 
-Table 3 shows summary statistics for a duration measure computed on all trades recorded for S&P 500 Depository Receipts ETF (SPY) on May 13, 2009. As Table 3 illustrates, the average intertrade duration was the longest outside of
+Table 3 shows summary statistics for a duration measure computed on all trades recorded for S&P 500 Depository Receipts ETF (SPY) on May 13, 2009. As Table 3 illustrates, the average intertrade duration was the longest outside of regular market hours, and...
 
 Table 3 Hourly Distributions of Intertrade Duration Observed on May 13, 2009 for S&P 500 Depository Receipts ETF (SPY)
 
@@ -254,7 +277,7 @@ Table 3 Hourly Distributions of Intertrade Duration Observed on May 13, 2009 for
 
 The variation in duration between subsequent trades may be due to several other causes. While the lack of trading may be due to a lack of new information, trading inactivity may also be due to low levels of liquidity, trading halts on exchanges, and strategic motivations of traders. Foucault, Kadan, and Kandel (2005) consider that patiently providing liquidity using limit orders may itself be a profitable trading strategy, as liquidity providers should be compensated for their waiting. The compensation usually comes in the form of a bid-ask spread and is a function of the waiting time until the order limit is "hit" by liquidity takers; lower intertrade durations induce lower spreads. However, Dufour and Engle (2000) and Saar and Hasbrouck (2002) find that spreads are actually higher when traders observe short durations, contrasting the time-based limit order compensation hypothesis.
 
-In addition to durations between subsequent trades and quotes, researchers have also been modeling durations between fixed changes in security prices and volumes. The time interval between subsequent price changes of a spec ified magnitude is known as price duration. Price duration has been shown to decrease with increases in volatility. Similarly, the time interval between subsequent volume changes of a prespecified size is known as the volume duration. Volume duration has been shown to decrease with increases in liquidity.
+In addition to durations between subsequent trades and quotes, researchers have also been modeling durations between fixed changes in security prices and volumes. The time interval between subsequent price changes of a specified magnitude is known as price duration. Price duration has been shown to decrease with increases in volatility. Similarly, the time interval between subsequent volume changes of a prespecified size is known as the volume duration. Volume duration has been shown to decrease with increases in liquidity.
 
 
 The information content of quote, trade, price, and volume durations introduces biases into the estimation process, however. If the available information determines the time between subsequent trades, time itself ceases to be an independent variable, introducing substantial endogeneity bias into estimation. As a result, traditional estimates of variance of transaction prices are too high in comparison with the true variance of the price series.

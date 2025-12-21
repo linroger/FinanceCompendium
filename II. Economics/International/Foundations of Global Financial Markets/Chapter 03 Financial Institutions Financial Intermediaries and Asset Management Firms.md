@@ -1,70 +1,25 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: '3'
-linter-yaml-title-alias: '3'
+title: "Financial Institutions, Financial Intermediaries, and Asset Management Firms"
 primary_tags:
-- objectives financial institutions role
-- financial institutions asset management
-- depositor effectively indirect investment
-- institutions liability typeamount
+  - financial institutions role
+  - financial intermediaries functions
+  - asset liability management
+  - maturity intermediation
+  - risk diversification intermediaries
 secondary_tags:
-- assets liabilities financial intermediaries
-- intermediaries asset management firms
-- intermediaries different financial institutions
-- management financial intermediaries
-- maturity intermediation implications financial
-- asset management firm
-- holding claim financial intermediary
-- financial intermediaries transform maturity
-- company financial intermediary explain
-tags_extracted: '2025-12-18T00:16:57.348399'
+  - depository institutions types
+  - investment companies mutual funds
+  - payments mechanism intermediaries
+  - liquidity concerns institutions
+  - regulatory risks institutions
+  - asset management firms
+  - investment strategies institutions
+cssclasses: academia
 ---
 
-# 3
+# Financial Institutions, Financial Intermediaries, and Asset Management Firms
 
-Financial Institutions, Financial Intermediaries, and Asset Management Firms
 
-# CONTENTS
-
-Learning Objectives
-
-Financial Institutions
-
-Role of Financial Intermediaries
-
-Providing Maturity Intermediation
-
-Reducing Risk via Diversification
-
-Reducing the Costs of Contracting and Information Processing
-
-Providing a Payments Mechanism
-
-Overview of Asset/Liability Management for Financial Institutions
-
-Nature of Liabilities
-
-Type-I liabilities
-
-Type-II liabilities
-
-Type-III liabilities
-
-Type-IV liabilities
-
-Liquidity Concerns
-
-Regulations
-
-Asset Management Firms
-
-Key Points
-
-Questions
 
 Learning Objectives
 
@@ -146,7 +101,7 @@ With this in mind, consider our two examples of financial intermediaries—the c
 
 In other words, there are economies of scale in contracting and processing information about financial assets because of the amount of funds managed by financial intermediaries. The lower costs accrue to the investor purchasing a financial claim of the financial intermediary and to the issuers of financial assets, who benefit from a lower borrowing cost.
 
-# Providing a Payments Mechanism
+## Providing a Payments Mechanism
 
 Although the previous three economic functions may not have been immediately obvious, this last function should be. Most transactions made today are not done with cash. Instead, payments are made using checks, credit cards, debit cards, and electronic transfers of funds. These methods for making payments, called payment mechanisms, are provided by certain financial intermediaries.
 
@@ -154,7 +109,7 @@ At one time, noncash payments were restricted to checks written against noninter
 
 The ability to make payments without the use of cash is critical for the functioning of a financial market. In short, depository institutions transform assets that cannot be used to make payments into other assets that offer that property.
 
-# Overview of Asset/Liability Management for Financial Institutions
+## Overview of Asset/Liability Management for Financial Institutions
 
 In later chapters, we discuss the major financial institutions. To understand the reasons managers of financial institutions invest in particular types of financial assets and the types of investment strategies they employ, it is necessary to have a general understanding of the asset/liability problem faced. In this section, we provide an overview of asset/liability management.
 
@@ -164,7 +119,7 @@ The cost of the funds and the return on the funds sold is expressed in terms of 
 
 Life insurance companies—and to a certain extent, property and casualty insurance companies—are in the spread business. Pension funds are not in the spread business: They do not raise funds themselves in the market. They seek to cover the cost of pension obligations at a minimum cost that is borne by the sponsor of the pension plan. Investment companies face no explicit costs for the funds they acquire and must satisfy no specific liability obligations; one exception is a particular type of investment company that agrees to repurchase shares at any time.
 
-# Nature of Liabilities
+## Nature of Liabilities
 
 By the liabilities of a financial institution, we mean the amount and timing of the cash outlays that must be made to satisfy the contractual terms of the obligations issued. The liabilities of any financial institution can be categorized according to four types, as shown in table 3.1. The categorization in the table assumes that the entity that must be paid the obligation will not cancel the financial institution's obligation prior to any actual or projected payout date.
 
@@ -196,7 +151,7 @@ Some life insurance products have a cash-surrender value: At specified dates, th
 
 In addition to uncertainty about the timing and amount of the cash outlays, and the potential for the depositor or policyholder to withdraw cash early or borrow against a policy, a financial institution has to be concerned with possible reduction in cash inflows. In the case of a depository institution, this means the inability to obtain deposits. For insurance companies, it means reduced premiums because of the cancellation of policies. For certain types of investment companies, it means not being able to find new buyers for shares.
 
-# Regulations
+## Regulations
 
 Numerous regulations and tax considerations influence the investment policies that financial institutions pursue. When discussing the various financial institutions in later chapters, we will highlight the key regulations and tax factors.
 
@@ -222,7 +177,7 @@ An important risk that is often overlooked but has been the cause of the demise 
 
 We will continue our discussion of the risks that financial institutions face and guidelines for dealing with them when we discuss depository institutions in chapter 6.
 
-# Asset Management Firms
+## Asset Management Firms
 
 Asset management firms manage the funds of individuals, businesses, endowments, foundations, and state and local governments. These firms are also referred to as money management firms, and those who manage the funds are referred to as asset managers, money managers, fund managers, and portfolio managers.
 
@@ -245,7 +200,7 @@ separately managed accounts for individuals and institutional investors,
 
 Asset management firms typically are involved in managing the assets of several of the above.
 
-# Key Points
+## Key Points
 - Financial institutions provide various types of financial services.
 - Financial intermediaries are a special group of financial institutions that obtain funds by issuing claims to market participants and use these funds to purchase financial assets. Intermediaries transform funds they acquire into assets that are more attractive to the public.
 - Financial intermediaries do one or more of the following: (1) provide maturity intermediation, (2) provide risk reduction via diversification at lower cost, (3) reduce the cost of contracting and information processing, or (4) provide a payments mechanism.

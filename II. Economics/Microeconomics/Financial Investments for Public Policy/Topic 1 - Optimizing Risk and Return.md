@@ -1,11 +1,23 @@
 ---
-aliases:
-   - Optimizing Risk and Return
-parent_directory: Financial Investments for Public Policy
-cssclasses: academia
 title: Topic 1 - Optimizing Risk and Return
+parent_directory: II. Economics/Microeconomics/Financial Investments for Public Policy
+formatted: 2025-12-21 11:10:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
 primary_tags:
+  - portfolio optimization
+  - mean variance analysis
+  - risk return tradeoff
+  - sharpe ratio
 secondary_tags:
+  - diversification benefits
+  - tangency portfolio
+  - performance measures
+  - alpha beta analysis
+  - information ratio
+  - value at risk
+  - modern portfolio theory
+cssclasses: academia
 ---
 
 # Topic 1 - Optimizing Risk and Return
@@ -204,13 +216,13 @@ We will have more to say about these decompositions.
 
 Alpha is measuring the mean return of the portfolio (security) beyond what can be explained by the regressors.
 
-* We may have a high mean return simply due to loading up on lots of factor risk.
-* Consider UPRO, the 3x levered S\&P500 ETF.
+- We may have a high mean return simply due to loading up on lots of factor risk.
+- Consider UPRO, the 3x levered S\&P500 ETF.
 
 For this reason, alpha is widely cited in judging (hedge / mutual) fund performance.
 
-* Did the fund earn high mean returns beyond what we would expect from their broad factor exposures?
-* In a sense, did we get any mean return beyond what we would have received from holding an (few?) index funds?
+- Did the fund earn high mean returns beyond what we would expect from their broad factor exposures?
+- In a sense, did we get any mean return beyond what we would have received from holding an (few?) index funds?
 
 ```python
 doEXCESS = True
@@ -258,9 +270,9 @@ The **Information Ratio** is the tradeoff between **alpha** and **unexplained vo
 
 A regression of $\rx_{i,t}$ onto a factor (benchmark) $x_t$ reveals the unexplained…
 
-* mean: $\alpha$ 
-* movements: $\epsilon$
-* volatility: $\sigma_\epsilon$
+- mean: $\alpha$
+- movements: $\epsilon$
+- volatility: $\sigma_\epsilon$
 as well as the **explained** portion, $\beta x$.
 
 The Information Ratio is thus the Sharpe ratio of the unexplained portion of the decomposition, $\alpha$ versus $\epsilon$.
@@ -317,8 +329,8 @@ which makes the point that as $\Nsec$ grows, the portfolio variance is a fractio
 
 This illustrates the idea of the total risk $\sigma^2$ having two components
 
-* systematic, $\rho\sigma^2$
-* idiosyncratic 
+- systematic, $\rho\sigma^2$
+- idiosyncratic 
 
 In more general settings, we see a similar phenomenon, that total risk decreases due to the subadditivity.
 
@@ -420,9 +432,9 @@ $$\text{s.t.}\; \wtvec'\muxvec = m$$
 
 We have not added constraints on…
 
-* sum of weights
-* short positions
-* individual position sizes
+- sum of weights
+- short positions
+- individual position sizes
 
 ### Duality
 

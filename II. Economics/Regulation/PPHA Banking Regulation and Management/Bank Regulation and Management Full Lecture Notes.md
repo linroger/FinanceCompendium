@@ -1,17 +1,39 @@
 ---
-aliases:
-  - Bank Products Services and Risk Management
-tags:
-key_concepts:
-parent_directory: PPHA Banking Regulation and Management
-cssclasses: academia
 title: Bank Products/Services and Risk Management
-linter-yaml-title-alias: Bank Products/Services and Risk Management
+primary_tags:
+  - banking regulation
+  - financial crises
+  - capital requirements
+  - balance sheets
+  - risk management
+  - banking products
+  - federal reserve
+  - shadow banking
+secondary_tags:
+  - credit unions
+  - community banking
+  - deposit products
+  - loan products
+  - mortgage lending
+  - business loans
+  - banking fees
+  - trust services
+  - tangible equity
+  - stress testing
+  - camels rating
+  - interest rates
+  - money market funds
+  - predatory lending
+  - clearing houses
+  - digital payments
+  - unbanked population
+  - great depression
+  - deregulation
+  - basel accords
+cssclasses: academia
 ---
 
-# BANKPRODUCTS/SERVICES AND
-
-# RISK MANAGEMENT
+# BANK PRODUCTS/SERVICES AND RISK MANAGEMENT
 
 PPHA 42535 Bank Regulation and Management
 
@@ -22,40 +44,39 @@ Lecture - 10/17/2023
 # Readings Covered
 
 Van Hoose. Section 2 Modeling the Banking Firm Under Perfect Competition Versus Monopoly  
-! Admati. Chapter 3 The Dark Side of Borrowing
+- Admati. Chapter 3 The Dark Side of Borrowing
 
 # Goals
 
-! Understand Banking Products  
-! Understand Risk Management
+- Understand Banking Products
+- Understand Risk Management
 
 # BALANCE OF SERVICES AND PRODUCTS
 
-! Banks attract depositors through a balance of account benefits and product offering  
-! Must balance short term liquidity products with long term investment portfolio
+- Banks attract depositors through a balance of account benefits and product offering
+- Must balance short term liquidity products with long term investment portfolio
 
-# DEPOSITPRODUCTS
+# DEPOSIT PRODUCTS
 
-! Checking and Savings Account  
-! Money Market Deposit Accounts  
-Certificates of Deposits (CDs)  
-Financial Advisory Services  
-! Safety Deposit Boxes  
-! Treasury Services
-
-! ATM  
-! ACH
+- Checking and Savings Account
+- Money Market Deposit Accounts
+- Certificates of Deposits (CDs)
+- Financial Advisory Services
+- Safety Deposit Boxes
+- Treasury Services
+- ATM
+- ACH
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/1bc8df6bf51e90d0b2b2b12866ebf485cc55121e0f698699e27892e36cea1869.jpg)
 
 # BANKING FEES
 
-! Fees for overdraft or nonsufficient funds  
-! Convenience fees  
-! ATM Fees  
-! Prepaid card fees.  
-Closing costs and homebuying fees  
-! Minimum deposit fees
+- Fees for overdraft or nonsufficient funds
+- Convenience fees
+- ATM Fees
+- Prepaid card fees
+- Closing costs and homebuying fees
+- Minimum deposit fees
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/ab9e1b95e3c1267bf455dbfb360617faefd1f0e7a327994dc597bb89bac47197.jpg)
 
@@ -67,20 +88,20 @@ Closing costs and homebuying fees
 
 # PERSONAL LOANS
 
-! Lines of Credit  
-! Unsecured personal loans  
-Secured personal loans  
-! Debt consolidation loans  
-! Co-signed  
-! Buy now, pay later loan
+- Lines of Credit
+- Unsecured personal loans
+- Secured personal loans
+- Debt consolidation loans
+- Co-signed
+- Buy now, pay later loan
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/85b26ee3e8cffeca24abf0e0069d1ad0e2372b08279b4bbdfa5d92eaeaa265a8.jpg)
 
 # BUSINESS LOAN
 
-Small Business  
-Large Business  
-! Leveraged Lending
+- Small Business
+- Large Business
+- Leveraged Lending
 
 <table><tr><td>Lender</td><td>Average small-business loan amount</td></tr><tr><td>Large national banks</td><td>\$593,000.00</td></tr><tr><td>Small regional banks</td><td>\$146,000.00</td></tr><tr><td>Foreign banks (made by U.S. branches)</td><td>\$8,512,000.00</td></tr><tr><td>SBA lenders</td><td>\$107,000.00</td></tr><tr><td>Alternative lenders</td><td>$25,000 to $100,000.</td></tr></table>
 
@@ -92,11 +113,11 @@ Large Business
 
 # MORTGAGE LENDING
 
-Origination vs Servicing  
-Residential vs Commercial  
-! Refinancing  
-! Public Lending/Sale  
-HELOC (Home Equity Line of Credit)
+- Origination vs Servicing
+- Residential vs Commercial
+- Refinancing
+- Public Lending/Sale
+- HELOC (Home Equity Line of Credit)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/7443046583eaaceadb07c503a6e576597187bd08108dfcc7d76404217c739ff1.jpg)
 
@@ -106,37 +127,37 @@ HELOC (Home Equity Line of Credit)
 
 # EXOTIC LENDING
 
-Religious Based Lending  
-Islamic Lending (Murabahah,Wadiah,Musharaka,etc.)  
-! Mount of Piety  
-! Micro Credit  
-Specialty Lending  
-! Auto Title  
-! College/Education  
-! Farm/Industrial Equipment
+- Religious Based Lending
+- Islamic Lending (Murabahah,Wadiah,Musharaka,etc.)
+- Mount of Piety
+- Micro Credit
+- Specialty Lending
+- Auto Title
+- College/Education
+- Farm/Industrial Equipment
 
 # TRUST SERVICES
 
-! Not all Trusts are Banks!  
-! Custodian/Arrangements  
-! Asset management/stock transfer  
-! Estate Administration
+- Not all Trusts are Banks!
+- Custodian/Arrangements
+- Asset management/stock transfer
+- Estate Administration
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/dac3bc70382debdbbb0255ef83dd6be900d2010f331c556b67f6aa4239f3bb5e.jpg)
 
 # RISK ANALYSIS
 
-Creating pipelines of liquidity  
-! Monitoring credit  
-! Screening and third-party validation  
-! Public/State support  
-Capital monitoring/Sales  
-! Deposit restrictions
+- Creating pipelines of liquidity
+- Monitoring credit
+- Screening and third-party validation
+- Public/State support
+- Capital monitoring/Sales
+- Deposit restrictions
 
 # PROBLEM SET II
 
-Problem Set II: Capital Needs  
-Utilizing the outline summary from Problem Set I, identify the capital needs and lending products that would be used by you theoretical de novo bank. Create a short summary outlining these needs for you five-year de novo bank.  
+Problem Set II: Capital Needs
+Utilizing the outline summary from Problem Set I, identify the capital needs and lending products that would be used by your theoretical de novo bank. Create a short summary outlining these needs for your five-year de novo bank.
 How does one raise capital? How much capital is needed? How do we grow capital?
 
 # BANK BALANCE SHEETS AND ACCOUNTING PRACTICES
@@ -179,10 +200,9 @@ What is tangible equity?
 
 # REGULATORY CONSTRAINTS
 
-Capital Requirements  
-
-- Stress Testing Rules  
-- Safety and Soundness Exams  
+- Capital Requirements
+- Stress Testing Rules
+- Safety and Soundness Exams
 - Diversity and Footprints
 
 # Components of CAMELS Rating
@@ -204,13 +224,11 @@ iEduNote
 
 # CAPITAL RATIOS
 
-Tier I Capital – core capital (reserves/retained earnings, common stock, some preferred stock)  
-
-- Tier II Capital – secondary capital (subordinated debt, preferred stock, revalued assets)  
+- Tier I Capital – core capital (reserves/retained earnings, common stock, some preferred stock)
+- Tier II Capital – secondary capital (subordinated debt, preferred stock, revalued assets)
 - Leverage
 - Total Leverage Exposure - on-balance sheet and off-balance sheet exposure
-
-Tangible common equity – The liquidation value of the bank
+- Tangible common equity – The liquidation value of the bank
 
 # LONG-TERM CAPITAL
 
@@ -228,13 +246,13 @@ ROGER LOWENSTEIN
 
 # TWO TYPES OF UNCERTAINTY
 
-- Risk - Able to Model  
-Uncertainty - Difficult to Model
+- Risk - Able to Model
+- Uncertainty - Difficult to Model
 
 # PROBLEM SET II
 
-Problem Set II: Capital Needs  
-Utilizing the outline summary from Problem Set I, identify the capital needs and lending products that would be used by you theoretical de novo bank. Create a short summary outlining these needs for you five-year de novo bank.  
+Problem Set II: Capital Needs
+Utilizing the outline summary from Problem Set I, identify the capital needs and lending products that would be used by your theoretical de novo bank. Create a short summary outlining these needs for your five-year de novo bank.
 
 - How does one raise capital? How much capital is needed? How do we grow capital?
 
@@ -304,29 +322,28 @@ Litigation Lender
 
 # PAWNBROKERS
 
-One of the oldest lenders  
-Non-recourse loan  
-
-- Mount of piety  
-Predatory?
+- One of the oldest lenders
+- Non-recourse loan
+- Mount of piety
+- Predatory?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/14be701e8ce27d2ef69466493c211ebfb812c67f02d8c17c24a183d08a2e4399.jpg)
 
 # NONBANK MORTGAGE/STUDENT Loan Providers
 
-- Increasingly Large part of mortgage market  
-Public options to relieve risk  
-Artificial marketplace?
+- Increasingly Large part of mortgage market
+- Public options to relieve risk
+- Artificial marketplace?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/1b932ec3d2b8bb314ecc66a4fbb2ee2e4625e0bc2ac42c1329adfcfee4245911.jpg)
 
 # CLEARING HOUSES
 
-- Bank Clearance and Settlements  
-Depression Script (1907 - 1929)  
-Financial Exchanges  
-Infrastructure Clearing - 19<sup>th</sup> Century  
-Other CCP
+- Bank Clearance and Settlements
+- Depression Script (1907 - 1929)
+- Financial Exchanges
+- Infrastructure Clearing - 19<sup>th</sup> Century
+- Other CCP
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/3616f9700c67a7bafcd1c16cfb49b9aabee17d34c7d006cd7513e5d89401cf41.jpg)
 
@@ -341,12 +358,11 @@ EU introduces CNAV Funds to invest  $99.5\%$  in public debt
 
 # OTHER INVESTMENT INSTITUTIONS
 
-Private Equity  
-Hedge Funds  
-
-- Venture Capital Funds  
-- Pension Funds - retirement investment vehicles  
-Other investment funds
+- Private Equity
+- Hedge Funds
+- Venture Capital Funds
+- Pension Funds - retirement investment vehicles
+- Other investment funds
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/235c5ec1e6d3e92b077382ed5aec7350aa9614cff347956ede4ee78d2a4006c4.jpg)
 
@@ -354,31 +370,31 @@ Other investment funds
 
 # MODERN DIGITAL PROCESSORS
 
-- Processors that act like deposits but aren't licensed depositories  
-- Often have banking partners  
-- Can involve blockchain technology  
-- Untested in terms of bank runs  
-Buy-now-pay-later
+- Processors that act like deposits but aren't licensed depositories
+- Often have banking partners
+- Can involve blockchain technology
+- Untested in terms of bank runs
+- Buy-now-pay-later
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/1e90466f5188fb485f5cda8fb94ec6bfe41601d3c36b583c2706bbcfa6d90b7d.jpg)
 
 # MORE OPTIONS OR RISKIER WORLD?
 
-- Depositories at risk?  
-- Depositors at risk?  
-- Overall risk to global credit?  
-Regulators?
+- Depositories at risk?
+- Depositors at risk?
+- Overall risk to global credit?
+- Regulators?
 
 # TAKE HOME PROJECT
 
 De Novo Bank (Due 10/26) - Utilizing the previous two problem sets, create a full de novo proposal. This proposal must include:
 
-A full market review  
-Capital needs  
-Lending product review  
-Staff/Organizational chart review  
-Community investment plan  
-Five-year growth plan
+- A full market review
+- Capital needs
+- Lending product review
+- Staff/Organizational chart review
+- Community investment plan
+- Five-year growth plan
 
 # COMMUNITY FOCUSED INSTITUTIONS
 
@@ -395,9 +411,9 @@ Lecture - 10/26/2023
 
 # Goals
 
-- Are their markets that traditional banks miss?  
-How are credit union's different from banks?  
-What are CDFIs?  
+- Are their markets that traditional banks miss?
+- How are credit union's different from banks?
+- What are CDFIs?
 - How do public retail banks function?
 
 # THE UNDER/UNBANKED
@@ -427,9 +443,9 @@ a. Employment Status for which the employer has no current employment
 # AT RISK
 
 - Gaps in under/unbanked populations are due to a number of factors including:
-- Access to technology  
-Low population centers  
-Discriminatory practices (both public and private)
+- Access to technology
+- Low population centers
+- Discriminatory practices (both public and private)
 
 # THE RISE OF MUTUAL SAVINGS
 
@@ -444,7 +460,7 @@ These mutuals started in Europe (Mostly Central Europe) and soon spread to Canad
 Today there roughly 88,000 Credit Unions worldwide, servicing 118 countries  
 Credit Unions globally make up about  $12.5\%$  of global lending  
 
-- In Europe and the United States, the lines between Credit Unions and Banks have become blurred.  
+- In Europe and the United States, the lines between Credit Unions and Banks have become blurred.
 - Credit Unions aren't "movement based" lending institution
 
 NAVY FEDERAL
@@ -462,9 +478,9 @@ Today a handful of jurisdictions allow for Industrial Bank Charters.
 
 # COMMUNITY DEVELOPMENT FINANCIAL INSTITUTIONS (CDFI)
 
-- Started with mission driven, financial institutions in urban, low-income neighborhoods.  
-Developed outside traditional banking.  
-- Grew to include large scale depositories and non-depositories.  
+- Started with mission driven, financial institutions in urban, low-income neighborhoods.
+- Developed outside traditional banking.
+- Grew to include large scale depositories and non-depositories.
 - Sparked the "micro-credit movement"
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/a4e299a4aefac1d70f90d5eb723f9a6d43b6ecc3f249a251e20800f506f34656.jpg)
@@ -481,8 +497,8 @@ Developed outside traditional banking.
 
 Over the course of banking history, minority and gender gaps have persisted within the banking ecosystem.  
 
-- Predatory lenders have often filled this niche.  
-- Community driven institutions have been created to address these problems.  
+- Predatory lenders have often filled this niche.
+- Community driven institutions have been created to address these problems.
 - Overtime, social movements have changed regulations to push traditional lenders toward minority groups – sometimes to negative effects on community institutions.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/4b285653e9f42b41a42749d32d8f65869c15775b44e3db847b9b6cabd2b5c31e.jpg)
@@ -502,12 +518,12 @@ Over the course of banking history, minority and gender gaps have persisted with
 
 De Novo Bank (Due 10/28) - Utilizing the previous two problem sets, create a full de novo proposal. This proposal must include:
 
-A full market review  
-Capital needs  
-Lending product review  
-Staff/Organizational chart review  
-Community investment plan  
-Five-year growth plan
+- A full market review
+- Capital needs
+- Lending product review
+- Staff/Organizational chart review
+- Community investment plan
+- Five-year growth plan
 
 # POST CRISIS VIEWS ON REGULATION
 
@@ -522,10 +538,10 @@ Lecture - 10/31/2023
 Rajan, Raghuram. "Has Financial Development Made The World Riskier?" Working Paper 11728, NBER Working Paper Series. Cambridge, MA: National Bureau of Economic Research. November 2005.  
 
 - Wolf. Chapter 4 "How Finance Became Fragile"  
-Goals  
-How do banks fail?  
-What happens when banks fail?  
-History of bank failures and what has been done about it
+- Goals
+- How do banks fail?
+- What happens when banks fail?
+- History of bank failures and what has been done about it
 
 # THE COMMERCIAL CREDIT CRISIS OF 1763
 
@@ -542,10 +558,9 @@ These were not entirely new—both Chinese and Middle Eastern merchants had used
 
 - The story of the Commercial Credit Crisis of 1763 sets the standards for modern financial crises.
 
-New or unusual credit products become popular  
-Banking institutions do not fully understand their liabilities  
-Credit seizes and the interconnected banks fail  
-
+- New or unusual credit products become popular
+- Banking institutions do not fully understand their liabilities
+- Credit seizes and the interconnected banks fail
 - Regulation has followed banking crises.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/f6426ef5cd8f172223bb09bb439d8762eff2386858372643bdcf799b99e39784.jpg)
@@ -569,79 +584,67 @@ A run on Knickerbocker Trust, and the banks associated with the trust, led to a 
 
 # THE GREAT DEPRESSION AND  $20^{\text{TH}}$  CENTURY BANKING
 
-A credit crunch was caused through a failure in securities speculation—leading to mass failure of American banks at a rate unseen before.  
-Smoot-Hawley Tariff Act – The Tariff Act of 1930  
+A credit crunch was caused through a failure in securities speculation—leading to mass failure of American banks at a rate unseen before.
+Smoot-Hawley Tariff Act – The Tariff Act of 1930
 
-- Collapse of Europe  
-Keynesian Japan  
-Glass-Steagall Act – Banking Act of 1933
-
-Creation of the FDIC  
-
+- Collapse of Europe
+- Keynesian Japan
+- Glass-Steagall Act – Banking Act of 1933
+- Creation of the FDIC
 - Separation of Commercial and Investment Banks
-
-Banking Act of 1935
-
-Created the Federal Open Markets Committee  
-Member Bank Loans
+- Banking Act of 1935
+- Created the Federal Open Markets Committee
+- Member Bank Loans
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/948a4691ccea51605c5aaefba2af4ec74f732dedd04b47badd2fcd1e6be29a91.jpg)
 
 # DEREGULATION
 
 - Depository Institutions Deregulation and Monetary Control Act in 1980
-
-Relaxed Mergers  
-
-- Allowed for negotiable order of withdrawals  
-- Allowed credit unions and savings & loans to offer checkable deposits  
-Uncapped interest rates
-
-Riegle-Neal Interstate Banking and Branching Efficiency Act of 1994
-
+- Relaxed Mergers
+- Allowed for negotiable order of withdrawals
+- Allowed credit unions and savings & loans to offer checkable deposits
+- Uncapped interest rates
+- Riegle-Neal Interstate Banking and Branching Efficiency Act of 1994
 - Relaxed interstate branch and banking statutes
 - Gramm-Leach-Bliley Act of 1999
-- Repealed barriers to investment banks, commercial banks and insurance companies from combining  
+- Repealed barriers to investment banks, commercial banks and insurance companies from combining
 - Repealed aspects of the Bank Holding Company Act of 1956
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/aac14407b04702c66741295c62e6b0ef7528cc41a7386d483ae71bac132d9c71.jpg)
 
 # THE GLOBAL FINANCIAL CRISIS OF 2008
 
-- Deregulations creates new connections within the banking system.  
-- The mixture of commercial, insurance and investment cross-over clouds liabilities.  
-- Banks collapse—leading to a global credit crunch.  
+- Deregulations creates new connections within the banking system.
+- The mixture of commercial, insurance and investment cross-over clouds liabilities.
+- Banks collapse—leading to a global credit crunch.
 - Interest Rates also impacted for more than a decade.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/43fdddc6a9c2673ce2989e9cea886646c63b4592830ba18340b7a61763745edf.jpg)
 
 # MODERN REGULATORY REFORM
 
-Major regulatory changes stem from 2008  
-Basel III – The Basel Accords  
-Dodd Frank Act
-
-CFPB  
-FSOC  
-
+- Major regulatory changes stem from 2008
+- Basel III – The Basel Accords
+- Dodd Frank Act
+- CFPB
+- FSOC
 - Return to Glass Steagall?
-
-European Economic Stabilization Act  
-European Banking Authority
-
-Securities and Markets Authority  
-Insurance and Pension Authority
+- European Economic Stabilization Act
+- European Banking Authority
+- Securities and Markets Authority
+- Insurance and Pension Authority
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/3fe8d0016210b16c73ba010f9bda08974b2d1106dad0a96fcdfd51c0393eb5c7.jpg)
 
 # TODAY
 
-- Rise of nontraditional lenders  
-Emerging Markets  
-European Stagnation  
-- Brexit  
-- Consolidation of large investment banks  
-Community Bank Consolidation
+- Rise of nontraditional lenders
+- Emerging Markets
+- European Stagnation
+- Brexit
+- Consolidation of large investment banks
+- Community Bank Consolidation
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/1b2dc3a84305ba3e35be3c81deb61eea267a7474923086fb25f25e9b2d290af6.jpg)
 
@@ -662,43 +665,40 @@ Lecture - 11/2/2023
 ! B. /\*.":\(1\)\S 04\)>\%7+?\(04+\%), -%^{4}\)'\*/4( , * /1%2$ ) 31/4( , *%/ *>A, 1(0:B%2$-,' 8 (\*)%@*4\$ '*/4( , * /1%
 
 .\)(\*/*0(/1%2$ ) 31/4( , *%71 , *)%C /0', DA'3>$ *4(/1%E(*$+5  
-Goals  
-C'  $\% 6:\%$  )'  $\ast \% 1"$  .234+5.）\*+.")64."78\*)7\*9\*.）:  $\% "$  ./  $\% ^{\prime}4D\% /4^{*}:6)^{+}7^{\prime\prime})^{*}\% )4\%)$  '  $\ast \% <  74E^{\prime\prime}7\%$ $9''.''<  ^{*}9'.$  )  $\% 43\% E''.26.<  \%:#:)^\ast9:F$  
-! C'(')%''+%)'*1':*7%BGG4+/:%H5;%55%". /%555IF
+Goals
+- Goals text corrupted by OCR - unable to reliably reconstruct
+- Goals text corrupted by OCR - unable to reliably reconstruct
 
 # ORIGINS OF FINANCIAL REGULATION
 
-Panics of the late 19<sup>th</sup> Century and early 20<sup>th</sup> Century  
-The Great Depression
-
-Pecora Hearing
-
-! Tools to Fix a Crisis  
-! Tools to Prevent a Crisis
+- Panics of the late 19<sup>th</sup> Century and early 20<sup>th</sup> Century
+- The Great Depression
+- Pecora Hearing
+- Tools to Fix a Crisis
+- Tools to Prevent a Crisis
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/9821ac5c23073000ea2c1d7e14602c710d0ed7d9e5f0226beb4875d012a99aff.jpg)
 
 # THE INTERWAR PERIOD OF FINANCE
 
-! WWI leads to a need for international payments  
-The Dawes Plan of 1924
-
-Staggard Repayment  
-The Young Plan of 1929  
-Installments until 1988  
-Creation of the Bank for International Settlements
+- WWI leads to a need for international payments
+- The Dawes Plan of 1924
+- Staggard Repayment
+- The Young Plan of 1929
+- Installments until 1988
+- Creation of the Bank for International Settlements
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/e7963a7a-3ef1-4550-93b3-9e745a127a86/1b2f772781ef110a132cc8d8cfbcc2c2bdb315f96822322253a02ef0f0617878.jpg)
 
 # BANK FOR INTERNATIONAL SETTLEMENTS (BIS)
 
-Headquartered in Basel, Switzerland  
-! Founded in 1930 to be the Trustee or Agent for German Reparations  
-! Following Bretton Woods, BIS became a defensive institution to the international system  
-Became a central banks to central banks
+- Headquartered in Basel, Switzerland
+- Founded in 1930 to be the Trustee or Agent for German Reparations
+- Following Bretton Woods, BIS became a defensive institution to the international system
+- Became a central banks to central banks
 
-Assisted with debt crises in Mexico and Brazil  
-Proto-eurozone through the European Monetary System
+- Assisted with debt crises in Mexico and Brazil
+- Proto-eurozone through the European Monetary System
 
 Is governed through international law and guidelines
 

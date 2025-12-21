@@ -1,24 +1,20 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: 'IEOR E4703: Monte-Carlo Simulation'
-linter-yaml-title-alias: 'IEOR E4703: Monte-Carlo Simulation'
 primary_tags:
-- computational resources
-- jump-diffusion process
-- somewhat erratic convergence
+  - stochastic differential equations
+  - monte carlo simulation
+  - euler scheme
+  - discretization methods
+  - diffusion processes
 secondary_tags:
-- monte carlo scheme
-- barrier crossings scheme
-- diffusion processes techniques allocation
-- carlo simulation
-- jump processes
-- diffusion processes
-tags_extracted: '2025-12-18T17:59:58.230570'
-tags_method: max_quality_v1
+  - weak convergence
+  - strong convergence
+  - milstein scheme
+  - richardson extrapolation
+  - jump diffusion processes
+  - variance reduction
+  - computational resources
+cssclasses: academia
 ---
 
 # IEOR E4703: Monte-Carlo Simulation
@@ -35,17 +31,12 @@ Email: martin.b.baugh@gmail.com
 
 # Outline
 
-The Euler Scheme Weak and Strong Convergence
-
-Other Discretization Schemes Richardson Extrapolation
-
-Some Examples From Finance
-
-Improvements and Extensions Change of Variables Simulating Jump-Diffusion Processes Variance Reduction Techniques Allocation of Computational Resources
-
-Extremes and Barrier Crossings
-
-Multilevel Monte-Carlo
+- The Euler Scheme Weak and Strong Convergence
+- Other Discretization Schemes Richardson Extrapolation
+- Some Examples From Finance
+- Improvements and Extensions Change of Variables Simulating Jump-Diffusion Processes Variance Reduction Techniques Allocation of Computational Resources
+- Extremes and Barrier Crossings
+- Multilevel Monte-Carlo
 
 # The Euler Scheme for Diffusions
 
@@ -59,9 +50,9 @@ Wish to simulate values of  $X_{T}$  but we don't know its distribution.
 
 So simulate a discretized version of the SDE  $\{\hat{X}_0, \hat{X}_h, \hat{X}_{2h}, \dots, \hat{X}_{mh}\}$  where:
 
-- $m$  is the number of time steps  
-- $h$  is a constant step-size  
-and  $m = \lfloor T / h\rfloor$
+- $m$  is the number of time steps
+- $h$  is a constant step-size
+- and  $m = \lfloor T / h\rfloor$
 
 The simplest and most commonly used scheme is the Euler scheme:
 
@@ -75,7 +66,7 @@ where the  $Z_{k}$ 's are IID  $N(0,1)$ .
 
 Note that even though we only care about  $X_{T}$ , we still need to generate intermediate values,  $X_{ih}$ , if we are to minimize the discretization error
 
-- so simulating SDEs is computationally intensive  
+- so simulating SDEs is computationally intensive
 - because of discretization error,  $\hat{\theta}_n$  is no longer an unbiased estimator of  $\theta$ .
 
 If we wished to estimate  $\theta = \mathbb{E}[f(X_{t_1},\ldots ,X_{t_p})]$  then in general we would need to keep track of  $(X_{t_1},\dots,X_{t_p})$

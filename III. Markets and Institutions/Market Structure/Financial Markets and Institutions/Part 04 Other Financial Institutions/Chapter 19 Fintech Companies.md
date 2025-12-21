@@ -1,21 +1,28 @@
 ---
-aliases:
-  - "Fintech Companies"
-tags:
-key_concepts:
-parent_directory: "III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 04 Other Financial Institutions"
+title: Chapter 19: Fintech Companies
+parent_directory: Financial Markets and Institutions
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: opencode
+primary_tags:
+  - fintech innovation landscape
+  - financial technology evolution
+  - banking technology disruption
+secondary_tags:
+  - fintech regulatory frameworks
+  - payment systems technology
+  - digital financial services
+  - fintech venture capital
 cssclasses: academia
-title: "Chapter 19: Fintech Companies"
-linter-yaml-title-alias: "Chapter 19: Fintech Companies"
 ---
 
-# Fintech Companies chapter
+## Fintech Companies Chapter
 
-# 19
+## 19
 
 OUTLINE
 
-# Learning Goals
+## Learning Goals
 
 LG 19-1 Identify the key supply and demand factors for the emergence of fintech.
 
@@ -59,11 +66,11 @@ Licenses
 
 International Regulations
 
-# INTRODUCTION
+## Introduction
 
 In recent years, the financial sector has seen fast-growing adoption of financial technology, or fintech. According to the 2020 report by CB Insights, global venture capital (VC)—backed fintech funding has increased from  \$3.9 billion in 2013 to\$ 41.4 billion in 2018 and 35.0 billion in 2019 (Figure 19–1). Banks are increasing their investments in fintech as well. Over the period of 2012 to 2019, the most active U.S. banks investing in fintech startups include Goldman Sachs, Citigroup, JPMorgan Chase, Morgan Stanley, Wells Fargo, and Bank of America Merrill Lynch. The fintech adoption rate, which measures fintech users as a percentage of the digitally active population, varies by country. The average fintech adoption rate globally has moved steadily upward, from 10 percent in 2015, to 33 percent in 2017, to 64 percent in 2019. China and India lead other countries at 87 percent, followed by Russia and South Africa at 82 percent. Fintech adoption rate for the United States is 46 percent, followed by Belgium and Luxembourg at 42 percent. Among fintech services, the most commonly used category is money transfer and payments, with
 
-# fintech adoption rate
+## Fintech Adoption Rate
 
 Fintech users as a percentage of digitally active population.
 
@@ -77,7 +84,7 @@ Source: CB Insights, "State of Fintech Q1'20 Report," 2020, https://www.cbinsigh
 
 The Financial Stability Board (FSB) defines fintech as "technology-enabled innovation in financial services that could result in new business models, applications, processes or products with an associated material effect on the provision of financial services."3 It is important to note that the term fintech is used here to describe a wide variety of innovations both by incumbent FIs and new entrants, be they startups or larger technology firms. This chapter begins with a discussion of why fintech has evolved into such a disruptive force in the financial services industry, describes the changing relationship between fintech startups and banks, and moves on to the types of fintech innovations and regulatory approaches to fintech.
 
-# THE EVOLUTION OF FINTECH
+## The Evolution of Fintech
 
 Technological innovations have long been essential part of the financial services industry. The history of fintech innovation goes as far back as 1800s. In 1865, a device known as the pantelegraph, an early form of fax machine, was invented by Giovanni Caseli. Used predominantly to verify signatures in banking transactions by sending and receiving transmissions on telegraph cables, this invention is widely regarded to be the first step in the journey toward fintech as we know it today.4 In 1866, the laying of the first trans-Atlantic telegraph cable provided the fundamental infrastructure that enabled a period of strong financial globalization.5
 
@@ -95,7 +102,7 @@ Figure 19-2 The Number of Commercial Bank Branches in the United States
 
 Source: FDIC Data Tools, Historical Bank Data 2019, https://www.fdic.gov/open/datatools.html
 
-# LG 19-1
+## LG 19-1
 
 We now discuss examples of supply and demand factors provided by economists and analysts at the Board of Governors of the Federal Reserve System, as well as UBS, to explain why fintech is evolving into what it is today.[8]
 

@@ -1,29 +1,25 @@
 ---
 title: Monte Carlo Greeks Estimation - MasterSlides
-parent_directory: MFE Monte-Carlo Simulation
-formatted: 2025-12-21 11:02:55 PM
-formatter_model: claude-sonnet-4-5-thinking
-cli-tool: claude-code
 primary_tags:
-- monte carlo greeks
-- pathwise estimator
-- likelihood ratio method
-- finite difference approximations
-- option sensitivity estimation
+  - monte carlo greeks
+  - pathwise estimator
+  - likelihood ratio method
+  - finite difference approximations
+  - option sensitivity estimation
 secondary_tags:
-- black scholes framework
-- variance reduction techniques
-- stochastic differential equations
-- barrier option pricing
-- digital option pricing
+  - black scholes framework
+  - variance reduction techniques
+  - stochastic differential equations
+  - barrier option pricing
+  - digital option pricing
 cssclasses: academia
 ---
 
 # IEOR E4703: Monte-Carlo Simulation
 
-# Estimating the Greeks
+## Estimating the Greeks
 
-# Martin Haugh
+## Martin Haugh
 
 Department of Industrial Engineering and Operations Research
 
@@ -31,7 +27,7 @@ Columbia University
 
 Email: martin.b.baugh@gmail.com
 
-# Outline
+## Outline
 
 Finite Difference Approximations
 
@@ -51,7 +47,27 @@ Estimating Second Derivatives
 
 Combining the Pathwise and Likelihood Ratio Methods
 
-# Finite Difference Approximations
+## Outline
+
+Finite Difference Approximations
+
+System Comparison and Common Random Numbers
+
+The Pathwise Estimator
+
+The Pathwise Method for SDEs
+
+Digital and Barrier Options
+
+The Likelihood Ratio Method
+
+Bias, Absolute Continuity and Variance
+
+Estimating Second Derivatives
+
+Combining the Pathwise and Likelihood Ratio Methods
+
+## Finite Difference Approximations
 
 Let  $\alpha (\theta)\coloneqq \mathsf{E}\left[Y(\theta)\right]$  be the price of a particular derivative security.
 
@@ -71,7 +87,7 @@ $$
 
 Generally don't know  $\alpha (\theta +h)$  (or  $\alpha (\theta)$ ) but we can estimate them.
 
-# Finite Difference Approximations
+## Finite Difference Approximations
 
 Simulate  $n$  samples of  $Y(\theta)$  and a further  $n$  samples of  $Y(\theta + h)$ .
 
@@ -95,7 +111,7 @@ $$
 \operatorname{Bi as} \left(\hat {\Delta}_{F}\right) := \mathrm{E} \left[ \hat {\Delta}_{F} - \alpha^{\prime} (\theta) \right] = \frac{1}{2} \alpha^{\prime \prime} (\theta) h + o (h). \tag {1}
 $$
 
-# Finite Difference Approximations
+## Finite Difference Approximations
 
 Could instead, however, simulate at  $\theta - h$  and  $\theta + h$  and then use the central-difference estimator
 
@@ -117,7 +133,7 @@ The central difference estimator requires a little extra work. Why?!
 
 But we prefer it to the forward-difference estimator on account of the superior convergence of its bias to zero.
 
-# Variance of the Finite Difference Estimators
+## Variance of the Finite Difference Estimators
 
 Very reasonable to assume the pairs  $(Y(\theta + h), Y(\theta - h))$  and  $(Y_{i}(\theta + h), Y_{i}(\theta - h))$  for  $i = 1, \ldots, n$  are IID.
 
@@ -141,7 +157,7 @@ $$
 \begin{array}{l} \operatorname{Va r} (Y (\theta + h) - Y (\theta - h)) = \operatorname{Va r} (Y (\theta + h)) + (Y (\theta - h)) \\ \rightarrow \quad 2 \operatorname{Va r} (Y (\theta)). \\ \end{array}
 $$
 
-# Variance of the Finite Difference Estimators
+## Variance of the Finite Difference Estimators
 
 Case (ii) is the typical case when we simulate  $Y(\theta + h)$  and  $Y(\theta - h)$  using common random numbers, i.e. when we simulate  $Y(\theta + h)$  and  $Y(\theta - h)$  from the same sequence  $U_1, U_2, \ldots$  of uniform random numbers.
 

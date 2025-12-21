@@ -226,7 +226,7 @@ There is, however, a second possible explanation for the increase in the relativ
 
 FIGURE 7-7
 
-# Supply and Demand for Nonproduction/ Production Workers in the 1980s This diagram shows the average wage of nonproduction workers divided by the average wage of production workers on the vertical axis, and on the horizontal axis the employment of nonproduction workers divided by the employment
+#### Supply and Demand for Nonproduction/ Production Workers in the 1980s This diagram shows the average wage of nonproduction workers divided by the average wage of production workers on the vertical axis, and on the horizontal axis the employment of nonproduction workers divided by the employment
 
 of production workers. Both the relative wage and the relative employment of nonproduction, or skilled, workers rose in U.S. manufacturing during the 1980s, indicating that the relative demand curve must have shifted to the right.
 
@@ -258,7 +258,7 @@ In part B, we repeat the results but now try to explain the increase in the rela
 
 Summing up, we conclude that both offshoring and high-tech equipment explain the increase in the relative wage of nonproduction/production labor in U.S. manufacturing, but it is difficult to judge which is more important because the results depend on how we measure the high-tech equipment.
 
-# Change in Relative Wages in Mexico
+##### Change in Relative Wages in Mexico
 
 Our model of offshoring predicts that the relative wage of skilled labor will rise in both countries. We have already seen (in Figure 7-5) that the relative wage of nonproduction (skilled) labor rises in the United States. But what about for Mexico?
 
@@ -282,7 +282,7 @@ The average tariff charged by Mexico fell from  $23.5\%$  in 1985 to  $11.0\%$  
 
 Summing up, the changes in relative prices in the United States and Mexico match each other during the period from 1964 to 1984 (with relative wages falling) and during the period from 1984 to 1996 (with relative wages rising in both countries). Offshoring from the United States to Mexico rose from 1984 to 1996, so the rise in relative wages matches our prediction from the model of offshoring.
 
-# 2 The Gains from Offshoring
+## 2 The Gains from Offshoring
 
 We have shown that offshoring can shift the relative demand for labor and therefore raise the relative wage for skilled workers. Because the relative wage for low-skilled workers is the reciprocal of the high-skilled relative wage, it falls in both countries. High-skilled labor gains and low-skilled labor losses in relative terms. On the other hand, the ability of firms to relocate some production activities abroad means that their costs are reduced. In a competitive market, lower costs mean lower prices, so offshoring benefits consumers. Our goal in this section is to try to balance the potential losses faced by some groups (low-skilled labor) with the gains enjoyed by others (high-skilled labor and consumers). Our argument in previous chapters on the Ricardian and Heckscher-Ohlin models has been that international trade generates more gains than losses. Now we have to ask whether the same is true for offshoring.
 
@@ -298,23 +298,23 @@ The last paragraph can be only an innuendo. For it is dead wrong about [the] nec
 
 So Samuelson seems to be saying that the winnings for those who gain from trade do not necessarily exceed the losses for those who lose. How can this be? His last statement seems to contradict much of what we have learned in this book. Or does it?
 
-# Simplified Offshoring Model
+### Simplified Offshoring Model
 
 To understand Samuelson's comments, we can use a simplified version of the offshoring model we have developed in this chapter. Instead of having many activities involved in the production of a good, suppose that there are only two activities: components production and research and development (R&D). Each of these activities uses high-skilled and low-skilled labor, but we assume that components production uses low-skilled labor intensively and that R&D uses skilled labor intensively. As in our earlier model, we assume that the costs of capital are equal in the two activities and do not discuss this factor. Our goal will be to compare a no-trade situation with an equilibrium with trade through offshoring, to determine whether there are overall gains from trade.
 
 Suppose that the firm has a certain amount of high-skilled (H) and low-skilled (L) labor to devote to components and R&D. It is free to move these workers between the two activities. For example, scientists could be used in the research lab or could instead be used to determine the best method to produce components; similarly, workers who are assembling components can instead assist with the construction of full-scale models in the research lab. Given the amount of high-skilled and low-skilled labor used in total, we can graph a production possibilities frontier (PPF) for the firm between components and R&D activities, as shown in Figure 7-9. This PPF looks just like the production possibilities frontier for a country, except that now we apply it to a single firm. Points on the PPF, such as  $A$ , correspond to differing amounts of high-skilled and low-skilled labor used in the components and R&D activities. Moving left from point  $A$  to another point on the PPF, for example, would involve shifting some high-skilled and low-skilled labor from the production of components into the research lab.
 
-# Production in the Absence of Offshoring
+### Production in the Absence of Offshoring
 
 Now that we have the PPF for the firm, we can analyze an equilibrium for the firm, just as we have previously done for an entire economy. Suppose initially that the firm cannot engage in offshoring of its activities. This assumption means that the component production and R&D done at Home are used to manufacture a final product at
 
-# FIGURE 7-9
+### FIGURE 7-9
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/e21fa65047ff9f85764780cd4278f14c9c87ad9bf0f1388658139d7c46558270.jpg)
 
 R&D
 
-# No-Trade Equilibrium for the Home
+#### No-Trade Equilibrium for the Home
 
 Firm The PPF shows the combinations of components and R&D that can be undertaken by a firm with a given amount of labor and capital. In the absence of offshoring, the firm produces at  $A$ , using quantities  $Q_{C}$  of components and  $Q_{R}$  of R&D to produce amount  $Y_{0}$  of the final good. The line tangent to the isoquant through point  $A$  measures the value that the firm puts on components relative to R&D, or their relative price,  $(P_{C} / P_{R})^{A}$ . Amount  $Y_{1}$  of the final good cannot be produced in the absence of offshoring because it lies outside the PPF for the firm.
 
@@ -346,7 +346,7 @@ For these reasons, we agree with the quote about offshoring at the beginning of 
 
 To see how this conclusion is related to the earlier quotation from Samuelson, we need to introduce one more feature into our discussion. Rather than just comparing the no-trade situation with the offshoring equilibrium, we need to also consider the impact of offshoring on a country's terms of trade.
 
-# Terms of Trade
+### Terms of Trade
 
 As explained in Chapters 2 and 3, the terms of trade equal the price of a country's exports divided by the price of its imports. In the example we are discussing, the Home terms of trade are  $(P_R / P_C)^{W1}$ , because Home is exporting R&D and importing components. A rise in the terms of trade indicates that a country is obtaining a higher price for its exports, or paying a lower price for its imports, both of which benefit the country. Conversely, a fall in the terms of trade harms a country because it is paying more for its imports or selling its exports for less.
 
@@ -380,7 +380,7 @@ The offshoring that occurred from the United States in the 1980s and the 1990s o
 
 # APPLICATION
 
-# U.S. Terms of Trade and Service Exports
+#### U.S. Terms of Trade and Service Exports
 
 Because Samuelson's argument is a theoretical one, the next step is to examine the evidence for the United States. If the United States has been facing competition in R&D and the other skill-intensive activities that we export, then we would expect the terms of trade to fall. Conversely, if the United States has been offshoring in manufacturing, then the opportunity to import lower-priced intermediate inputs should lead to a rise in the terms of trade.
 
@@ -478,9 +478,9 @@ Source: Matthew J. Slaughter, "How to Destroy American Jobs," Wall Street Journa
 
 described in Headlines: Caterpillar Joins "Onshoring" Trend. In 2010, General Electric joined this trend by moving the manufacturing of a water heater from China to Louisville, Kentucky, and in late 2012 Apple Computer announced that it would be bringing some jobs back to the United States by building some Macintosh computers locally.[16] A combination of higher wages in China, higher transportation costs
 
-# HEADLINES
+### HEADLINES
 
-# Caterpillar Joins "Onshoring" Trend
+#### Caterpillar Joins "Onshoring" Trend
 
 Some American companies have found it advantageous to take activities they had previously shifted overseas and move them back home, in what is called "onshoring."
 
@@ -494,7 +494,7 @@ Source: Kris Maher and Bob Tita, "Caterpillar Joins 'Onshoring' Trend," The Wall
 
 due to rising oil prices, and U.S. unions that are more willing to compromise with management, has led these and other companies to "onshore" their activities back to the United States. This trend has also occurred because companies are finding that communication with overseas suppliers can be slow and costly.
 
-# The Future of U.S. Comparative Advantage
+### The Future of U.S. Comparative Advantage
 
 Just as in our model of this chapter, the recent "onshoring" trend shows that companies usually avoid offshoring all activities from the United States: the extra communication and trade costs involved need to be balanced against the lower foreign wages to find the right amount of offshoring. Most often companies find it advantageous to keep some activities in the United States (such as those using more highly skilled labor or relying on close communication with customers) and move other activities abroad (using less skilled labor and involving more routine activities). The fear sometimes expressed in the popular press that offshoring threatens the elimination of most manufacturing and service jobs in the United States is overstated. The ability to offshore a portion of the production process allows other activities to remain in the United States.
 
@@ -508,7 +508,7 @@ Radiology is under no imminent threat from outsourcing because the profession in
 
 In every profession there will always be jobs that cannot be performed by someone who is not on-site. For many of the service activities listed in Table 7-2, the United States will continue to have comparative advantage even while facing foreign competition. In many manufacturing industries, the United States will continue to maintain some activities at home, such as R&D and marketing, even while shifting a portion of the production process abroad. Finally, we should recognize that the ability to offshore to Mexico or India ultimately makes the U.S. companies involved more profitable and therefore better able to withstand foreign competition.
 
-# 4 Conclusions
+## 4 Conclusions
 
 In this chapter, we have studied a type of trade that is becoming increasingly important: offshoring, by which we mean the shifting of some production activities to another country, while other production activities are kept at Home. Rather than trading final goods, like wheat for cloth as in the Ricardian model of Chapter 2, or computers for shoes as in the Heckscher-Ohlin model of Chapter 4, with offshoring each good can be produced in stages in several countries and then assembled in a final location.
 
@@ -528,7 +528,7 @@ We concluded the chapter by exploring offshoring in service activities, a topic 
 
 The fact that it is not only possible to shift these activities to India but economical to do so shows how new technologies make possible patterns of international trade that would have been unimaginable a decade ago. Such changes show "globalization" at work. Does the offshoring of service activities pose any threat to white-collar workers in the United States? There is no simple answer. On the one hand, we presented evidence that service offshoring provides productivity gains, and therefore gains from trade, to the United States. But as always, having gains from trade does not mean that everyone gains: there can be winners and losers. For service offshoring, it is possible that skilled workers will see a potential reduction in their wages, just as low-skilled labor bore the brunt of the impact from offshoring in the 1980s. Nevertheless, it is still the case that the United States, like the United Kingdom and other European countries, continues to have a comparative advantage in exporting various types of business services. Although India is making rapid progress in the area of computer and information services, there are still many types of service activities that need be done locally and cannot be outsourced. One likely prediction is that the activities in the United States that cannot be codified in written rules and procedures, and that benefit from face-to-face contact as well as proximity to other highly skilled individuals in related industries, will continue to have comparative advantage.
 
-# KEY POINTS
+## KEY POINTS
 
 1. The provision of a service or the production of various parts of a good in different countries for assembly into a final good in another location is called foreign outsourcing or offshoring.
 2. We can apply the same ideas that we developed for trade in final goods among countries to the trade of intermediate offshored activities. For instance, if low-skilled labor is relatively inexpensive in the Foreign country, then the activities that are least skill-intensive will be offshored there, and Home will engage in the activities that are more skill-intensive.
@@ -536,7 +536,7 @@ The fact that it is not only possible to shift these activities to India but eco
 4. In an overall sense, there are gains from offshoring, because the specialization of countries in different production activities allows firms in both countries to produce a higher level of final goods. That increase in output represents a productivity gain, and the gains from trade.
 5. With service offshoring, it is possible that a country like India will have rising productivity in activities in which the United States has comparative advantage, such as R&D. Rising productivity in India would lead to a fall in the price of R&D, which is a terms-of-trade loss for the United States. For that reason, the United States could lose due to service offshoring, though it still gains as compared with a situation of no offshoring at all.
 
-# KEY TERMS foreignoutsourcing,p.198
+## KEY TERMS foreignoutsourcing,p.198
 
 offshoring,p.198 value chain, p. 200
 

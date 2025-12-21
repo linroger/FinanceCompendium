@@ -49,7 +49,7 @@ Keywords: macroeconomics, impossible trinity, trilemma, monetary policy, fiscal 
 
 JEL classification: E52, E58, E62, F41, F42, G15, G18
 
-# I. Introduction
+## I. Introduction
 
 Capital flow is like a double-edged sword. It is perceived to benefit both recipient countries and investors, who can diversify their risks and increase their returns. However, large capital flow disruptions also create significant challenges and issues for policy-makers in emerging markets and developing economies (EMDEs). The potential vulnerabilities that arise from capital inflows are a topic that has received much attention in crisis literature (Calvo et al. (1993); Kaminsky et al. (2003); and Reinhart and Rogoff (2009b)). This topic is especially relevant today as economies worldwide are still reeling from the most significant global economic shock in the twenty-first century: the Covid-19 pandemic. There is widespread concern that the Federal Reserve (Fed)'s exit strategy from its stimulus policy will increase uncertainty in EMDE's financial markets. This uncertainty is exacerbated further by the inflationary pressures in the US, brought on by increasing demand and supply shocks stemming from supply chain disruptions and rising energy and commodity prices. High inflation in the US and other nations puts significant pressure on the Fed to raise interest rates. An increase in US interest rates increases the possibility of capital outflows, raising concerns that a 'taper tantrum (TT) 2.0' will take place.
 
@@ -71,7 +71,7 @@ This paper looks at Indonesia's experiences from the 2009 QE and the 2013 taper 
 
 This paper is divided into sections. Section I serves as an introduction. Section II discusses the concept of the trilemma and managing capital flows. Section III highlights Indonesia's lessons from dealing with the 2009 Global Financial Crisis and the 2013 taper tantrum. Section IV explains why the trilemma policy choice is difficult to implement. Section V discusses why the Task was complicated by the commodity supercycle and procyclical fiscal policy. Section VI discusses the role of capital flow management and institutions. Finally, Section VII discusses the way ahead.
 
-# II. Impossible trinity (trilemma) and managing capital flows: a conceptual framework
+## II. Impossible trinity (trilemma) and managing capital flows: a conceptual framework
 
 In international macroeconomics and finance, Mundell's trilemma framework provides a powerful tool to analyse the links between exchange rates, capital flows, and monetary autonomy. As previously mentioned, with a fixed exchange rate, there is a case for interfering with the free movement of international capital flows by imposing capital controls to regain monetary autonomy (Farhi and Werning, 2012). By contrast, with a flexible exchange rate, monetary policy is already independent, and there is no prima facie case for restricting international capital mobility.
 
@@ -83,7 +83,7 @@ In the event of capital inflows, the IMF (2011) also provides a macroeconomic fr
 
 In the event of managing capital outflows, Figure 2 depicts policy alternatives based on conditions of reserves, exchange rate, and the economy. When the exchange rate is undervalued, the policy option is to raise interest rates. In the lack of adequate reserves, the policy options available are to depreciate the currency or raise interest rates. Both the frameworks in Figures 1 and 2 can help policy-makers figure out how to handle the flow of capital and will be used to talk about Indonesia's experience with the 2009 QE episode and the 2013 taper tantrum.
 
-# III. Why the trilemma has limitations: lessons learned from Indonesia's response to the 2009 QE and taper tantrum 2013
+## III. Why the trilemma has limitations: lessons learned from Indonesia's response to the 2009 QE and taper tantrum 2013
 
 (i) The 2009 QE
 
@@ -131,7 +131,7 @@ To mitigate the impact of the terms-of-trade shock, theoretically, central banks
 
 Another option is to cut fuel subsidies and use the savings to help the poor. However, experience shows that these policies are not politically simple (this is discussed in section V).
 
-# (ii) The 2013 taper tantrum
+## (ii) The 2013 taper tantrum
 
 ### Background
 
@@ -141,7 +141,7 @@ The Fragile Five countries, including Indonesia, were hit especially hard by thi
 
 Policy-makers in Indonesia focused on efforts to reduce the current account deficit because tapering talks was beyond their control. The government addressed this by implementing expenditure-reducing and expenditure-switching policies. They reduced expenditure by decreasing fuel subsidies and raising interest rates to limit investment, thus lowering the budget deficit. They also set an expenditure-switching policy by allowing the exchange rate to follow the market. As a result, Indonesia, like India, handled the problem relatively successfully.
 
-# Bank Indonesia's policy responses
+### Bank Indonesia's policy responses
 
 Consistent with the framework discussed in section II, and in response to tapering in the US, Bank Indonesia raised interest rates by 175 bps to anticipate capital outflows caused by taper tantrum. This contractionary policy to mitigate capital outflows dragged down the economic growth to around 5.5 per cent. While Indonesia and India managed to stabilize their financial markets and were no longer classified as members of the Fragile Five shortly, policy-makers faced a policy conundrum.<sup>4</sup>
 
@@ -151,15 +151,15 @@ As previously stated, Bank Indonesia chose to raise interest rates to moderate t
 
 Interestingly, despite the Rupiah's significant depreciation during the 2013 taper tantrum, Indonesia did not encounter a currency crisis. Basri (2017) argues that, unlike at the time of the Asian Financial Crisis, there was not a fundamental problem in Indonesia's banking sector at this time. It is true that the taper tantrum took place when there was a large current account deficit. Nevertheless, a combination of monetary tightening, budget cuts, and a depreciating exchange rate worked well. In particular, because Indonesian banking conditions in 2013 were so much better than in 1998, an increase in interest rates by 175 bps did not greatly affect the banking sector.
 
-# The role of fiscal policy
+### The role of fiscal policy
 
 As previously stated, Indonesia implemented an expenditure-cutting policy to tighten fiscal policy to address the current account deficit. The budget deficit was under increasing strain due to rising global oil prices, which impacted fuel subsidies. The continuation of the fuel subsidy would negatively impact the current account deficit, leading to capital outflow. Intuitively, ceteris paribus, if the current account experiences a deficit, reducing expenditure and investment or absorption would help mitigate this. Assuming stable tax revenues and savings over time, then changes in the budget deficit (surplus) or investment will translate to the current account balance. As discussed above, the government attempted to decrease the budget deficit by slashing fuel subsidies and allocating these funds to infrastructure, poverty, and health programmes.
 
-# IV. Why is it difficult to implement the trilemma policy choice in the face of capital inflows?5
+## IV. Why is it difficult to implement the trilemma policy choice in the face of capital inflows?
 
 There are three possible reasons why Indonesia is having difficulty implementing this trilemma policy choice.
 
-# (i) Differing monetary policy objectives
+### (i) Differing monetary policy objectives
 
 The previous discussion shows how policy-makers confront a dilemma because they have at least two policy objectives: full employment and trade balance (Blanchard, 2017). In the case of QE 2009, Bank Indonesia faced a conundrum if it allowed the exchange rate to appreciate excessively. Indonesia's economy expanded due to a combination of capital inflows (which led to banks increasing their loans and a balance sheet effect), the commodity boom, and low interest rates. Figure 3 shows that economic growth peaked in Q2 2011 when the economy grew by 6.5 per cent. However, the combination of commodity and coal price declines and exchange rate appreciation, as discussed in section III(i), turned the current account surplus into a current account deficit by the end of 2011. As a result of the decline in net exports, economic growth began to slow in 2012. This condition persisted along with the growing current account deficit in Q2 2013 when economic growth was only 5.8 per cent.
 
@@ -171,13 +171,13 @@ As previously discussed, Indonesia eventually prioritized 'stabilization over gr
 
 Fiscal policy is an option to deal with the taper tantrum by implementing a spending reduction policy and cutting fuel subsidies. However, in the case of QE in 2009, using fiscal policy was politically difficult. Furthermore, the problem with fiscal policy is that it is rigid. Grenville (2023, this issue) argues the limitations of fiscal policy as well (this is discussed later)
 
-# (ii) Volatile floating exchange rate
+### (ii) Volatile floating exchange rate
 
 Dornbusch (1976) illustrates the phenomenon of currency overshooting. This is due to differences in the speed of adjustment across markets owing to both sticky prices in the goods market and the fact that the response of trade volumes to exchange-rate change is gradual. The previous example demonstrates a difference in the rate at which the trade balance is adjusted to the exchange rate. We can see from this concept that an adjustment effort, as discussed in section II, will result in an exchange rate overshoot. For example, during the taper tantrum of 2013, when the US planned to raise interest rates, the Indonesian exchange rate had to be depreciated significantly enough to ensure that economic activity continued to run normally because net exports respond slowly to exchange rate changes. This raises the issue of the policy's credibility. Furthermore, exchange rate expectations play a role. An overshooting exchange rate impacts exchange rate expectations. As previously stated, the 1998 Asian Financial Crisis traumatized Indonesia. Basri (2017) argues that India can run a much larger fiscal and current account deficit than Indonesia, potentially because of India's macroeconomic history and capital account. Because India avoided the Asian Financial Crisis, the market is less 'jitterry', and capital is not expelled as quickly as in Indonesia.
 
 The exchange rate overshoot could cause a market panic, increasing the exchange rate expectation of depreciation. The characteristics of the Indonesian economy, combined with the experience of the Asian Financial Crisis, influence policy-makers' ability to make decisions. Therefore, Bank Indonesia cannot solely focus on controlling inflation and must also maintain the exchange rate for two reasons. First, an excessive exchange rate shock caused by a sudden reversal of capital flows may cause exchange rates to overshoot, causing market participants to overreact. Second, persistent capital inflows may undermine the effectiveness of monetary management because efforts to manage liquidity in the economy by raising interest rates may be offset by the massive size of the capital inflows. High capital inflows, on the other hand, should be met with intensive interventions to manage exchange rate appreciation pressures, causing the amount of excess liquidity in the banking system to increase significantly (Goeltom and Juhro, 2013; Juhro, 2010). These capital flow dynamics can make it more difficult for monetary policy to respond to external forces. As previously stated, foreign exchange intervention to prevent excessive volatility in the exchange rate is an option in this situation.
 
-# (iii) Balance sheet effects
+### (iii) Balance sheet effects
 
 According to Calvo and Reinhart (2002), balance sheet effects are one of the reasons central banks are relevant in depreciating their currencies to allow their currencies to devalue in response to external shocks. In concept, if debts are denominated in dollars and revenues in domestic currency, unexpected exchange rate changes will affect firm balance sheets. The increased risk premium raises investment and borrowing costs (Tovar and Quispe-Agnoli, 2008).
 
@@ -191,13 +191,13 @@ As previously discussed, the risk of a 2022 'taper tantrum 2.0' does not appear 
 
 per cent by the end of September 2022. Overall, Indonesia is less vulnerable than it was in 2013 because it relies less on external financing. In addition, there has been a capital outflow, particularly at the start of the April 2020 pandemic. Capital flows have not fully returned to emerging markets, including Indonesia, resulting in a relatively small share of foreign holdings of Indonesian government bonds compared to 2013.
 
-# V. Why the task was complicated by the commodity super-cycle and procyclical fiscal policy
+## V. Why the task was complicated by the commodity super-cycle and procyclical fiscal policy
 
 The previous discussion shows how the trilemma policy choice has been difficult to implement in Indonesia due to (i) multiple monetary policy objectives, (ii) volatile exchange rates, and (iii) balance sheet effects. Aside from these factors, the commodity super-cycle is an exogenous factor that cannot be overcome by monetary or exchange rate policy, as suggested by the trilemma choice. This commodity super-cycle has an impact on fiscal policy, income redistribution, trade balance, and, of course, the exchange rate. But these fiscal and income redistribution policies fall outside the purview of monetary and exchange rate policies. This is what makes implementing the trilemma especially difficult in the presence of the commodity supercycle..
 
 When considering the impact of the commodity super-cycle on fiscal policy, three factors must be considered.
 
-# (i) Procyclicality and fiscal policy
+### (i) Procyclicality and fiscal policy
 
 As discussed above (and also in section III), increases in commodity and energy prices will increase export revenues and lead to a spending effect, encouraging fiscal expansion (a decrease in commodity and energy prices have the opposite fiscal effect). This demonstrates how rising commodity prices cause fiscal policy to become procyclical. Furthermore, as previously discussed, an increase in export revenues will affect the appreciation of the exchange rate. Section II discusses how policy-makers must lower interest rates and rebalance the policy mix in the event of capital inflows (tighten fiscal policy). However, because fiscal policy is procyclical, this becomes difficult to achieve in the presence of the commodity super-cycle.
 
@@ -205,11 +205,11 @@ This complicates macroeconomic management by the Indonesian government. This is 
 
 The combination of monetary and fiscal expansion (section III) increased aggregate demand while moderating the current account surplus and eventually bringing the country into a current account deficit. This exogenous shock caused by the commodity super-cycle causes domestic expenditure on domestically produced goods to increase initially, then decrease and improve the external position before deteriorating. And, as discussed in section IV, efforts to implement trilemma policy choice are difficult due to three factors (multiple monetary policy objectives; exchange rate overshooting; and balance sheet effects).
 
-# (ii) The distributional effect of the commodity super-cycle
+### (ii) The distributional effect of the commodity super-cycle
 
 The increase (decrease) of commodity and energy prices have a bi-distributional effect. On the one hand, the increase in energy prices has benefitted commodity exporters, but it has created a burden for consumers. As a result, some groups benefitted from the commodity boom (energy and commodity exporters) and other groups that suffered losses as a result of the commodity boom (consumers). Conceptually, what the government needs to do is tax rents from commodity and energy exporters and distribute them to consumers. However, we must proceed with this policy with caution because subsidies to all consumers are not always well-targeted. Several studies, including Alatas et al. (2019); Basri et al. (2020); Coady et al. (2015) demonstrate that Indonesia's fuel subsidy policy is an inefficient subsidy policy that primarily benefits the upper-middle class and not the poor. Furthermore, the addition of subsidies will put pressure on a larger budget deficit (this is discussed further below).
 
-# (iii) Income redistribution effect and fiscal procyclicality
+### (iii) Income redistribution effect and fiscal procyclicality
 
 As previously stated, the government's efforts to protect consumers through increased subsidies result in fiscal policy expansion. Fiscal policy becomes procyclical as a result of the effect of income redistribution. As discussed in point (i) Indonesia should implement a tight fiscal policy when capital inflows occur, but the commodity supercycle makes the fiscal policy procyclical. To address this issue, the government must implement targeted subsidies to ensure that benefits reach the poor. As a result, fuel subsidies must be reduced and redistributed to the poor. This
 
@@ -221,7 +221,7 @@ As previously discussed, under these circumstances, the Indonesian government sh
 
 Fiscal policy is thus constrained and procyclical as a result. Failing to anticipate either the impact of the commodity super-cycle or fiscal procyclicality can result in a macroeconomic shock for the economy and a shock in the external balance. Monetary policy is incapable of resolving this. In other words, commodity super-cycles and fiscal procyclicality make implementing the trilemma more difficult. These aspects of the Indonesian economy influence and affect how Indonesian policy-makers make decisions and policy choices.
 
-# VI. Capital flow management
+## VI. Capital flow management
 
 We have shown how the QE episode and the taper tantrum episode highlight the difficulty that policy-makers in EMDEs, particularly Indonesia, face in implementing the policy choices described in the impossible trinity or triplemma. We have given three reasons for this, namely the existence of more than one objective of monetary policy, the volatility of exchange rates, and the influence of balanced sheet effects. We have also shown that the commodity supercycle can increase this difficulty because of its effects on fiscal policy, income redistribution, the trade balance and the exchange rate.
 
@@ -237,7 +237,7 @@ Despite this, it is important to note that capital flow management should not be
 
 An underlying but common feature of the QE and TT episodes and the commodity supercycle is the importance of institutions. Good institutions can help to stabilize portfolio capital flows and promote FDI. The need for capital control is reduced when institutions are strong. Furthermore, fiscal policy is inextricably linked to political economy and institutions, as discussed in section III. As a result, we consider it appropriate to touch on this issue in the next section.
 
-# (i) How institutions complicate macroprudential policy
+### (i) How institutions complicate macroprudential policy
 
 In conjunction with capital flow management, institutional quality is critical to attract capital flows and reduce volatility. One of the main reasons that the effect of the taper tantrum was so exacerbated in Indonesia was that political pressure led to a delay in the speed with which the government was able to respond. As such, the strength, trust, agility, and capability of the institutions in a country are key factors in its ability to respond to capital volatility.
 
@@ -255,7 +255,7 @@ The importance of best practice policy responses to capital volatility is even m
 
 However, macroprudential policy is more challenging to implement with lower institutional quality and trust. As seen in previous sections, many reasons inhibit the implementation of what may be the theoretically correct macroprudential policy: the commodity super-cycle and fiscal policy procyclicality, dependencies on the budget cycle, political backlash from cutting back spending, and jittery markets sensitive to foreign exchange volatility following the Asian Financial Crisis. Indonesia arguably handled the taper tantrum relatively well by bucking the trend of increasing government spending and instead lowered the budget deficit by decreasing fuel subsidies. Furthermore, it avoided the sharp depreciation in the real exchange rate, tailoring its policy to the domestic context. Overall, the 2013 taper tantrum episode in Indonesia provides an interesting case study of how a developing country reacts to a huge capital inflow and potential lessons learned for other developing countries facing similar issues.
 
-# VII. The way ahead. Indonesia: more stable, yet remains vulnerable
+## VII. The way ahead. Indonesia: more stable, yet remains vulnerable
 
 Despite various reforms, Indonesia is still vulnerable to external shocks (Basri, 2018). For example, interest rate increases in the United States are expected to cause a 'taper tantrum 2.0', albeit on a smaller scale than in 2013. Pressure on the exchange rate will occur, as well as contractionary effects via balance sheet effects. This will cause economic disturbance as the world recovers from the Covid-19 pandemic. Furthermore, the risk of non-performing loans (NPLs) rises. Indonesia is currently relaxing regulatory forbearance, so the NPLs appear low, but the loan at risk (LaR) is relatively high. As a result, if the Financial Supervision Agency performs normalization, the NPLs will rise. A significant increase in the Fed Funds Rate creates a dilemma for Bank Indonesia: on the one hand, if Bank Indonesia does not follow the Fed's interest rate increase, there is a risk of Rupiah depreciation due to capital outflows; on the other hand, if the interest rate is raised, the risk of NPLs increases, undermining the economic recovery. In this context, the policy mix of interest rate, foreign reserves intervention, macroprudential policy, and capital flow management becomes critical. It is also worth noting that, in the case of Indonesia, the government intends to reduce the budget deficit to less than 3 per cent by 2023. This must be done with caution, as the simultaneous tightening of monetary and fiscal policy can be a double whammy (Basri et al., 2022). The timing of stimulus withdrawal becomes critical, and it must be based on the evolution of the economic situation.
 
@@ -265,7 +265,7 @@ All of the issues raised in this paper leave us with few policy options and rais
 
 We would like to thank David Vines for his insightful suggestions and comments. We also thank the anonymous referee, Isabel Ruiz, and all of the participants in the Oxford Review of Economic Policy Editorial Seminar for their insightful comments. Any mistakes are ours.
 
-# References
+## References
 
 Aizenman, J., Binici, M., and Hutchison, M. (2014), 'The Transmission of Federal Reserve Tapering News to Emerging Financial Markets', NBER Working Paper 19980.  
 Agung, J., Juhiro, S. M., Kurniati, Y., Anglingkusumo, R., Sahminan (2019), 'Bank Indonesia Policy Mix', in P. Warjiyo and S. M. Juhiro (eds), Central Bank Policy Mix: Issues, Challenges, and Policy Responses, Singapore, Springer, https://doi.org/10.1007/978-981-16-6827-2_8  

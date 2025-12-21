@@ -177,18 +177,18 @@ Complete portfolio-combination of risky assets and "risk-free" assets
 
 <table><tr><td>Portfolio</td><td>Expected Return</td><td colspan="2">Risk Premium</td><td>σ</td><td>Sharpe Ratio</td></tr><tr><td>A</td><td>8.5%</td><td>3.5%</td><td>= 8.5% - 5.0%</td><td>9.0%</td><td>0.39 = 3.5%/9.0%</td></tr><tr><td>P</td><td>12.0%</td><td>7.0%</td><td>= 12.0% - 5.0%</td><td>18.0%</td><td>0.39 = 7.0%/18.0%</td></tr><tr><td>Q</td><td>15.5%</td><td>10.5%</td><td>= 15.5% - 5.0%</td><td>27.0%</td><td>0.39 = 10.5%/27.0%</td></tr></table>
 
-○ What would be your preferred allocation of funds in the situation described here? To answer this question, let's first suppose that you are comfortable investing in a portfolio that promises an expected risk premium  $\left[\mathrm{RP} = \mathrm{E}(\mathrm{r}) - \mathrm{r}_{\mathrm{f}}\right]$  equal to 16 percent and a variance of returns,  $\sigma^2$ , equal to  $0.04$  ( $\sigma = 20\%$ ). In this case, your price of risk is  $\mathrm{A} = 4.0$  as described earlier. Based on this information and the information given in the CAL, you can use the following equation to determine the proportion of your total funds that should be invested in the risky asset based on your risk preferences:
+- What would be your preferred allocation of funds in the situation described here? To answer this question, let's first suppose that you are comfortable investing in a portfolio that promises an expected risk premium  $\left[\mathrm{RP} = \mathrm{E}(\mathrm{r}) - \mathrm{r}_{\mathrm{f}}\right]$  equal to 16 percent and a variance of returns,  $\sigma^2$ , equal to  $0.04$  ( $\sigma = 20\%$ ). In this case, your price of risk is  $\mathrm{A} = 4.0$  as described earlier. Based on this information and the information given in the CAL, you can use the following equation to determine the proportion of your total funds that should be invested in the risky asset based on your risk preferences:
 
 $$
-\begin{array}{l} \frac{\text{Pr op or ti on to in ve st}}{\text{in ri sk ya ss et}} = \frac{\text{Av ai la bl er is kp re mi um to va ri an ce ra ti o}}{\text{Re qu ir ed ri sk pr em iu mt ov ar ia nc er at io}} = \frac{\left\{\left[ \mathrm{E} (\mathrm{r}) - \mathrm{r}_{\mathrm{f}}\right) / \sigma_{\mathrm{p}}^{2} \right\}}{\mathrm{A}} \\ = \frac{\left\{\left[ 0 . 1 2 - 0 . 0 5 \right] / (0 . 1 8)^{2} \right\}}{4 . 0} = \frac{2 . 1 6}{4} = 0. 5 4 = 5 4. 0 \% \\ \end{array}
+\begin{array}{l} \frac{\text{Proportion to invest}}{\text{in risky asset}} = \frac{\text{Available risk premium to variance ratio}}{\text{Required risk premium to variance ratio}} = \frac{\left\{\left[ \mathrm{E} (\mathrm{r}) - \mathrm{r}_{\mathrm{f}}\right) / \sigma_{\mathrm{p}}^{2} \right\}}{\mathrm{A}} \\ = \frac{\left\{\left[ 0.12 - 0.05 \right] / (0.18)^{2} \right\}}{4.0} = \frac{2.16}{4} = 0.54 = 54.0\% \\ \end{array}
 $$
 
 Thus, you should invest 54 percent of your funds in the risky asset and 46 percent  $(= 1 - 0.54)$  of your funds in the risk-free asset. This portfolio would yield the following results:
 
 $$
-\text{Expectedreturn} = \mathrm{E} (\mathrm{r}) = 0.46 (5 \%) + 0.54 (12 \%) = 8.78 \%
+\text{Expected return} = \mathrm{E} (\mathrm{r}) = 0.46 (5 \%) + 0.54 (12 \%) = 8.78 \%
 $$
 
 $$
-\text{Standarddeviation} = \sigma = 0.54 (18 \%) = 9.72 \%
+\text{Standard deviation} = \sigma = 0.54 (18 \%) = 9.72 \%
 $$

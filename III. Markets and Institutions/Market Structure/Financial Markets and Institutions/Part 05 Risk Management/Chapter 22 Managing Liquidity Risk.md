@@ -1,12 +1,18 @@
 ---
-aliases:
-  - "Managing Liquidity Risk on the Balance Sheet"
-tags:
-key_concepts:
-parent_directory: "III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 05 Risk Management"
-cssclasses: academia
 title: "Chapter 22: Managing Liquidity Risk on the Balance Sheet"
-linter-yaml-title-alias: "Chapter 22: Managing Liquidity Risk on the Balance Sheet"
+primary_tags:
+  - liquidity risk management
+  - depository institution liquidity
+secondary_tags:
+  - purchased liquidity management
+  - stored liquidity management
+  - financing gap analysis
+  - loan commitment risks
+  - deposit insurance mechanisms
+  - discount window operations
+  - insurance company liquidity
+  - investment fund liquidity
+cssclasses: academia
 ---
 
 Go to the FDIC website at www.fdic.gov. Find the most recent breakdown for nonperformance rates for C&I loans of commercial banks using the following steps. Click on "Analysis." Under "Quarterly Banking Profile," click "Latest Profile." Click on "Access QBP" and then on "List of Data Tables." Under the section, "Commercial Bank Performance," click on "TABLE V-A. Loan Performance, FDIC-Insured Commercial Banks." This will bring up the files that contain the relevant data.
@@ -20,13 +26,11 @@ APPENDIX 21A: Loan Portfolio Risk and Management
 
 This appendix is available through Connect or your course instructor.
 
-# Managing Liquidity Risk on the Balance Sheet chapter
+## Managing Liquidity Risk on the Balance Sheet
 
-# 22
+### Chapter Outline
 
-OUTLINE
-
-# Learning Goals
+## Learning Goals
 
 LG 22-1
 
@@ -106,7 +110,7 @@ Liquidity risk arises for two reasons—a liability-side reason and an asset-sid
 
 The second cause of liquidity risk is asset-side liquidity risk, such as the ability to fund the exercise of off-balance-sheet loan commitments. As we describe in Chapter 12, a loan commitment allows a customer to borrow (take down) funds from an FI (over a commitment period) on demand. When a borrower draws on its loan commitment, the FI must fund the loan on the balance sheet immediately. This creates a demand for liquidity. As with liability withdrawals, an FI can meet such a liquidity need by running down its cash assets, selling off other liquid assets, or borrowing additional funds.
 
-To understand the connection between liquidity risk and insolvency risk, consider the simple FI balance sheet in Table 22-1. Before deposit withdrawals, the FI has  \$10 million in cash assets and\$ 90 million in nonliquid assets. These assets are funded with \$90 million in deposits and \$10 million in owners' equity. Suppose that depositors unexpectedly withdraw \$20 million in deposits (perhaps due to the release of negative news about the profits of the FI) and the FI receives no new deposits to replace them. To meet these deposit withdrawals, the FI first uses the \$10 million it has in cash assets and then seeks to sell some of its nonliquid assets to raise an additional 10 million in cash. Suppose also that the FI cannot borrow any more funds in the short-term money markets (see Chapter 5), and because it cannot wait to get better prices for its assets in the future (as it needs the cash
+To understand the connection between liquidity risk and insolvency risk, consider the simple FI balance sheet in Table 22-1. Before deposit withdrawals, the FI has  \$10 million in cash assets and\$ 90 million in nonliquid assets. These assets are funded with \$90 million in deposits and \$10 million in owners' equity. Suppose that depositors unexpectedly withdraw \$20 million in deposits (perhaps due to the release of negative news about the profits of the FI) and the FI receives no new deposits to replace them. To meet these deposit withdrawals, the FI first uses the \$10 million it has in cash assets and then seeks to sell some of its nonliquid assets to raise an additional 10 million in cash. Suppose also that the FI cannot borrow any more funds in the short-term money markets (see Chapter 5), and because it cannot wait to get better prices for its assets in the future (as it needs the cash now to meet immediate depositor withdrawals), the FI has to sell any nonliquid assets at 50 cents on the dollar.
 
 TABLE 22-1 Adjusting to a Deposit Withdrawal Using Asset Sales (in millions)
 
@@ -190,19 +194,19 @@ The average cost of core deposits is 6 percent and the average yield on loans is
 Decrease in interest income-loans
 
 $$
-- 0. 0 8 \times \$ 2 \mathrm{m} = - \$ 1 6 0, 0 0 0
+-0.08 \times \$2\mathrm{m} = -\$160,000
 $$
 
 Decrease in interest expense-core deposits
 
 $$
-- (- 0. 0 6) \times \$ 2 m = \$ 1 2 0, 0 0 0
+-0.06 \times \$2\mathrm{m} = \$120,000
 $$
 
 Change in net income
 
 $$
-- \$ 40,000
+-\$40,000
 $$
 
 If the DI uses purchased liquidity management to manage liquidity risk, it issues short-term, subordinated debt to pay off the expected decline in deposits. In this case, the DI's net income will change by:
@@ -210,19 +214,19 @@ If the DI uses purchased liquidity management to manage liquidity risk, it issue
 Decrease in interest expense-core deposits
 
 $$
-- 0. 0 6 \times \$ 2 \mathrm{m} = \quad \$ 1 2 0, 0 0 0
+0.06 \times \$2\mathrm{m} = \$120,000
 $$
 
 Increase in interest expense—short-term debt
 
 $$
-- (- 0. 0 7 5) \times \$ 2 \mathrm{m} = - \$ 1 5 0, 0 0 0
+-0.075 \times \$2\mathrm{m} = -\$150,000
 $$
 
 Change in net income
 
 $$
-- \$ 3 0, 0 0 0
+-\$30,000
 $$
 
 The DI is more profitable if it manages the drain in core deposits using purchased liquidity management. The decrease in net income is  \$30,000 versus\$ 40,000 if it uses stored liquidity management.
@@ -252,13 +256,13 @@ The difference between a DI's average loans and average (core) deposits.
 Financing Gap and the Financing Requirement. A first way to measure liquidity risk exposure is to determine the DI's financing gap. As we discussed earlier, even though demand depositors can withdraw their funds immediately, they do not do so in normal circumstances. On average, most demand deposits stay at DIs for quite long periods, often two years or more. Thus, a DI manager often thinks of the average deposit base, including demand deposits, as a core source of funds that over time can fund a DI's average amount of loans. We define a financing gap as the difference between a DI's average loans and average (core) deposits, or:
 
 $$
-\text{Fi na nc in g} = \text{Av er ag el oa ns -A ve ra ge de po si ts}
+\text{Financing gap} = \text{Average loans - Average deposits}
 $$
 
 If this financing gap is positive, the DI must find liquidity to fund the gap. This funding can come via either purchased liquidity management (i.e., borrowing funds) or stored liquidity management (i.e., liquidating assets), as discussed previously. Thus:
 
 $$
-\text{Fi na nc in g} = - \text{Li qu id as se ts} + \text{Bo rr ow ed fu nd s}
+\text{Financing gap} = -\text{Liquid assets} + \text{Borrowed funds}
 $$
 
 We can write this relationship as:
@@ -274,7 +278,11 @@ As expressed in this fashion, the liquidity and managerial implications of the f
 The balance sheet in Table 22-8 indicates the relationship between the financing gap, liquid assets, and the borrowed funds financing requirement. This is seen in the following equation:
 
 $$
-\begin{array}{l l} \text{Fi na nc in gg ap} & + \text{Li qu id as se ts} \\ (\S 5 \text{mi ll on}) & (\S 5 \text{mi ll on}) \end{array} = \begin{array}{l} \text{Fi na nc in gr eq ui re me nt} \\ (\S 1 0 \text{mi ll on}) \end{array}
+\begin{array}{l}
+I = (1/2)(0.99/1.00) + (1/2)(0.85/0.92) \\
+= 0.495 + 0.462 \\
+= 0.957
+\end{array}
 $$
 
 A widening financing gap can warn of future liquidity problems for a DI since it may indicate increased deposit withdrawals (core deposits falling below  \$20 million in Table 22-8) and increasing loans due to more exercise of loan commitments (loans rising above\$ 25 million). If the DI does not reduce its liquid assets—that is, if they stay at 5 million—the manager must resort to more money market borrowings. As these borrowings rise, sophisticated lenders in the money market may be concerned about the DI's creditworthiness. They may react by imposing higher-risk premiums on borrowed funds or establishing stricter credit limits by not rolling over funds lent to the DI. If the DI's financing requirements dramatically exceed such limits, it may become insolvent.
@@ -308,7 +316,7 @@ A measure of the potential losses a DI could suffer as the result of a sudden (o
 Liquidity Index. A final way to measure liquidity risk is to use a liquidity index. This index measures the potential losses a DI could suffer from a sudden or fire-sale disposal of assets compared to the amount it would receive at a fair market value established under normal market conditions, which might take a lengthy period of time as a result of a careful search and bidding process. The larger the differences between immediate fire-sale asset prices  $(P_{i})$  and fair market prices  $\left(P_{i}^{*}\right)$ , the less liquid is the DI's portfolio of assets. Define an index I such that:
 
 $$
-\mathrm{I} = \sum_{i = 1}^{N} [ (w_{i}) (P_{i} / P_{i}^{*}) ]
+I = \sum_{i=1}^{N} [w_i (P_i / P_i^{*})]
 $$ where
 
 
@@ -333,6 +341,8 @@ Suppose that a bank has two assets: 50 percent in one-month Treasury bills and 5
 100 of face value (P_2^*). Thus, the one-month liquidity index value for this bank's asset portfolio is:
 
 $$
+\begin{array}{l} I = (1/2)(0.99/1.00) + (1/2)(0.85/0.92) \\ = 0.495 + 0.462 \\ = 0.957 \\ \end{array}
+$$
 
 \begin{array}{l} I = (1 / 2) (0. 9 9 / 1. 0 0) + (1 / 2) (0. 8 5 / 0. 9 2) \\ = 0. 4 9 5 + 0. 4 6 2 \\ = 0. 9 5 7 \\ \end{array}
 
@@ -342,7 +352,11 @@ Suppose alternatively that a slow or thin real estate market causes the bank to 
 
 $$
 
-\begin{array}{l} I = (1 / 2) (0. 9 9 / 1. 0 0) + (1 / 2) (0. 6 5 / 0. 9 2) \\ = 0. 4 9 5 + 0. 3 5 3 \\ = 0. 8 4 8 \\ \end{array}
+\begin{array}{l}
+I = (1/2)(0.99/1.00) + (1/2)(0.65/0.92) \\
+= 0.495 + 0.353 \\
+= 0.848
+\end{array}
 
 $$
 
@@ -396,7 +410,7 @@ In addition, the plan details a sequencing of assets for disposal in anticipatio
 
 Consider, for example, Table 22-11. The data are for a DI that holds 250 million in deposits from mutual funds, pension funds, correspondent banks, small businesses, and individuals. The table includes the average and maximum expected withdrawals over the next one-week, one-month, and one-quarter periods. The liquidity plan for the DI outlines how to cover expected deposit withdrawals should they materialize. In this case, the DI will seek to cover expected deposit withdrawals over the next three months first with new deposits, then with the liquidation of marketable securities in its investment portfolio, then with borrowings from other FIs, and finally, if necessary, with borrowings from the Federal Reserve.
 
-# Liquidity Risk, Unexpected Deposit Drains, and Bank Runs
+## Liquidity Risk, Unexpected Deposit Drains, and Bank Runs
 
 Under normal banking conditions, and with appropriate management planning, neither net deposit withdrawals nor the exercise of loan commitments poses significant liquidity problems for DIs. This is because, typically, borrowed funds availability or excess cash reserves are adequate to meet anticipated needs. For example, even in December and the summer vacation season, when net deposit withdrawals are high, DIs anticipate these seasonal effects by holding larger than normal excess cash reserves or borrowing more than normal on the wholesale money markets.
 
@@ -408,7 +422,7 @@ Major liquidity problems can arise, however, if deposit drains are abnormally la
 
 LG 22-5
 
-# bank run
+### Bank Run
 
 A sudden and unexpected increase in deposit withdrawals from a DI.
 
@@ -422,11 +436,11 @@ As a bank run develops, the demand for net deposit withdrawals grows. The DI may
 
 The incentives for depositors to run first and ask questions later create a fundamental instability in the banking system, in that an otherwise sound DI can be pushed into insolvency and failure by unexpectedly large depositor drains and liquidity demands. This is especially so in periods of contagious runs or bank panics (such as the panic involving the Greek debt and banking crisis of 2010), when depositors lose faith in the banking system as a whole and engage in a run on all DIs in a banking system.
 
-# bank panic
+### Bank Panic
 
 A systemic or contagious run on the deposits of the banking industry as a whole.
 
-# Bank Runs, the Discount Window, and Deposit Insurance
+## Bank Runs, the Discount Window, and Deposit Insurance
 
 Regulators have recognized the inherent instability of the banking system due to the all-or-nothing payoff features of deposit contracts. As a result, regulatory mechanisms are in place to ease DIs' liquidity problems and to deter bank runs and panics. The two major liquidity risk insulation mechanisms are deposit insurance and the discount window.
 
@@ -504,23 +518,17 @@ Further, over the next 18 months, in response to a weakening economy and a growi
 
 After holding its benchmark federal funds rate to near zero between 2008 and 2015, the Fed started a series of small increases in December 2015 and maintained consistent but gradual increases until December 2018. Then, starting in August 2019, the Fed started lowering rates in an attempt to keep the economic expansion from slowing due to signs that a slowdown is well under way.
 
-# LIQUIDITY RISK AND INSURANCE COMPANIES
+## Liquidity Risk and Insurance Companies
 
-# LG 22-6 Life Insurance Companies
+### LG 22-6 Life Insurance Companies
 
 Like depository institutions, life insurance companies hold cash reserves and other liquid assets in order to meet policy payments and cancellations (surrenders) and other working capital needs that arise in the course of writing insurance. Least predictable among these
 
-# surrender value
+### Surrender Value
 
 The amount that an insurance policyholder receives when cashing in a policy early.
 
-is the early cancellation of an insurance policy which results in the insurer having to pay the insured the surrender value of that policy. In the normal course of business, premium income and returns on an insurer's asset portfolio are sufficient to meet the cash outflows required when policyholders surrender their policies early (see Chapter 15). When premium income is insufficient to meet surrenders, however, a life insurer can sell some of its relatively liquid assets, such as government bonds. In this case, bonds act as a buffer or reserve asset source of liquidity for the insurer. Nevertheless, a drop in market values of insurers' financial assets, such as the drop in the market values of many securities in 2001 and 2008, can result in investment losses for insurance companies and raise the possibility of increased insurance company failures.
-
-Concerns about the solvency of an insurer can result in a run in which new premium income dries up and existing policyholders as a group seek to cancel their policies by cashing them in early. To meet exceptional demands for cash, a life insurer could be forced to liquidate other assets in its portfolio, such as commercial mortgage loans and other securities, potentially at fire-sale prices.[9] Forced asset liquidations can push an insurer, like a DI, into insolvency.
-
-The most severe liquidity stress scenario faced by life insurers is a mass surrender of policies that arise due to a loss in the confidence of the financial strength of a firm. This was experienced by one of the largest life insurance companies in the U.K., Equitable Life, when it received an adverse legal ruling by the House of Lords on its guaranteed annuity liabilities in 2001. Due to this, surrenders rose sharply. In 2001, its net claims arising from surrenders and maturity rose to £6.2 billion from £3.0 billion in 2000. Unable to pay the £1.5 billion cost of losing the court case, it was forced to put itself up for sale. In December 2000, having failed to find a buyer, the insurer closed to new business and began selling its operations to generate cash to pay policyholders. After an 18-year-long winding-down process, Equitable Life's 256-year history finally ended in June 2018, when it has agreed to a £1.8 billion takeover by the insurance company Life Company Consolidation Group (LCCG).
-
-# Property-Casualty Insurance Companies
+### Property-Casualty Insurance Companies
 
 As discussed in Chapter 15, property-casualty (P&C) insurers sell policies that insure against certain contingencies impacting either real property or individuals. These contingencies are relatively short term and unpredictable, unlike those covered by life insurers. With the help of mortality tables, claims on life insurance policies are generally predictable. P&C claims (such as the estimated 35 billion in insurance losses associated with Hurricane Sandy in 2012) are virtually impossible to predict. Thus, P&C insurers have a greater need for liquidity than life insurers. As a result, P&C insurers tend to hold shorter-term, more liquid assets than do life insurers. P&C insurers' contracts and premium-setting intervals are usually relatively short term as well, so that problems caused by policy surrenders are less severe. P&C insurers' greatest liquidity exposure occurs when policyholders cancel or fail to renew policies with an insurer because of pricing, competition, or safety and solvency concerns. This may cause an insurer's premium cash inflow, when added to its investment returns, to be insufficient to meet its policyholders' claims.
 
@@ -528,9 +536,7 @@ Alternatively, large unexpected claims may materialize and exceed the flow of pr
 
 Swaps, or CDSs) it wrote on mortgage derivatives. As the mortgage debt securities' values declined, AIG was forced to post more collateral to signal to CDS contract counterparties that it could pay off the mortgage guarantees it wrote. Despite these actions by AIG, Standard & Poor's announced that it would downgrade AIG's credit rating. The rating downgrade required AIG to post up to an additional  \$14.5 billion in collateral, funds which it did not have. AIG made an unprecedented approach to the Federal Reserve seeking\$ 40 billion in short-term financing. The company announced that a financing entity—funded by the Federal Reserve Bank of New York and AIG—had purchased \$46.1 billion of the complex debt securities insured by AIG. The deal also included a broader restructuring of the federal government's bailout of AIG, which originally included an \$85 billion bridge loan and 37.8 billion in Fed financing.
 
-# Guarantee Programs for Life and
-
-# Property-Casualty Insurance Companies
+### Guarantee Programs for Life and Property-Casualty Insurance Companies
 
 Both life insurance and property-casualty insurance companies are regulated at the state level (see Chapter 15). Unlike banks and thrifts, neither life nor P&C insurers have a federal guarantee fund. Beginning in the 1960s, most states began to sponsor state guarantee funds for firms selling insurance in that state. As discussed in Chapter 15, these state guarantee funds differ in a number of important ways from deposit insurance. First, although these programs are sponsored by state insurance regulators, they are actually run and administered by the private insurance companies themselves. Second, unlike the Depository Institution Insurance Fund, in which the FDIC established a permanent fund by requiring DIs to pay annual premiums to the fund in excess of insurance fund payouts to resolve failures, no permanent guarantee fund exists for the insurance industry, with the sole exception of the P&C and life guarantee funds for the state of New York. This means that contributions are paid into the guarantee fund by surviving firms only after an insurance company has failed.
 
@@ -540,7 +546,7 @@ Finally, because no permanent fund exists and the annual pro rata contributions 
 
 Thus, the private nature of insurance industry guarantee funds, their lack of permanent reserves, and low caps on annual contributions mean that they provide less credible protection to claimants than do bank and thrift insurance funds. As a result, the incentives for insurance policyholders to engage in a run, should they perceive that an insurer has asset quality problems or insurance underwriting problems, is quite strong even in the presence of such guarantee funds.
 
-# LIQUIDITY RISK AND INVESTMENT FUNDS
+## Liquidity Risk and Investment Funds
 
 LG 22-7
 
@@ -556,7 +562,7 @@ Now consider the investment fund with 100 shareholders who invested  \$1 each fo
 
 $$
 
-P = \frac{\text{Va lu eo fa ss et s}}{\text{Sh ar es ou ts ta nd in g}} = \text{NA V}
+P = \frac{\text{Value of assets}}{\text{Shares outstanding}} = \text{NAV}
 
 $$
 
@@ -566,7 +572,7 @@ In Table 22-13, the value of each shareholder's claim is:
 
 $$
 
-P = \frac{\mathbb {S} 9 0}{1 0 0} = \mathbb {S} 0. 9 0
+P = \frac{\$90}{100} = \$0.90
 
 $$
 
@@ -589,11 +595,11 @@ The SEC's final rule on data and reporting introduces Form N-PORT, a monthly rep
 
 Some of the biggest liquidity crises experienced by individual FIs recently have occurred with hedge funds, which are highly specialized investment funds with a limited number of wealthy investors, usually 100 or less. For example, in the summer of 2007, two Bear Stearns hedge funds suffered heavy losses on investments in the subprime mortgage market. The two funds filed for bankruptcy in the fall of 2007. Bear Stearns's market value was hurt badly from these losses. The losses became so great that by March 2008 Bear Stearns was struggling to finance its day-to-day operations. Bear Stearns had no choice but to basically sell itself to the highest bidder to avoid declaring bankruptcy or completely closing down and leaving investors totally empty-handed. JPMorgan Chase purchased the company for  \$236 million. Bear Stearns's skyscraper in New York was worth over\$ 2 billion alone.
 
-# SUMMARY
+## Summary
 
 This chapter provided an in-depth look at the measurement and on-balance-sheet management of liquidity risks. Liquidity risk is a common problem that DI managers face. Well-developed policies for holding liquid assets or having access to markets for purchased funds are normally adequate to meet liability withdrawals. Very large unexpected withdrawals, however, can cause asset liquidity problems to be compounded by incentives for liability claimholders to engage in runs at the first sign of a liquidity problem. The incentives for depositors and life insurance policyholders to engage in runs can push normally sound FIs into insolvency.
 
-# QUESTIONS
+## Questions
 
 1. How does the degree of liquidity risk differ for different types of financial institutions? (LG 22-1)
 2. Why would a DI be forced to sell assets at fire-sale prices? (LG 22-1)
@@ -627,7 +633,7 @@ d. Liquidity index.
 15. What is the greatest cause of liquidity exposure that property-casualty insurers face? (LG 22-6)
 16. How is the liquidity problem faced by investment funds different from the liquidity problem faced by DIs and insurance companies? (LG 22-7)
 
-# PROBLEMS
+## Problems
 
 1. The AllStar Bank has the following balance sheet:
 
@@ -672,7 +678,7 @@ b. Assume that some of the shareholders decide to cash in their shares of the fu
  c. As a result of anticipated heavy withdrawals, it sells 10,000 shares of IBM stock currently valued at \$40. Unfortunately, it receives only \$35 per share. What is the net asset value after the sale? What are the fund's cash assets after the sale?
 d. Assume after the sale of IBM shares, 100,000 shares are sold back to the fund. What is the current NAV? Is there a need to sell more stocks to meet this redemption?
 
-# The following problems are related to the Appendix material.
+### The following problems are related to the Appendix material.
 
 10. Central Bank has the following balance sheet (in millions of dollars): (LG 22-3)
 
@@ -698,7 +704,7 @@ Calculate the NSFR for BancTwo.
 
 Calculate the NSFR for FirstBank.
 
-# SEARCH THE SITE
+## Search the Site
 
 Go to the Federal Reserve Bank of St. Louis's FRED data website at www.fred.stlouisfed.org, and find the most recent data for the fed funds rate and the discount window rate using the following steps. Type "discount rate for United States," and "effective federal funds rate monthly" in the search window at the top of the page, one at a time. This will bring up graphs and data that can be downloaded.
 

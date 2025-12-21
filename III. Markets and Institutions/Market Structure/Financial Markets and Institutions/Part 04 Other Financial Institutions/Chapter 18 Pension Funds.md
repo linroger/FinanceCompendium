@@ -1,12 +1,25 @@
 ---
-aliases:
-  - "Pension Funds"
-tags:
-key_concepts:
-parent_directory: "III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 04 Other Financial Institutions"
+title: Chapter 18: Pension Funds
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 04 Other Financial Institutions
+formatted: 2025-12-21 11:05:00 AM
+formatter_model: claude-sonnet-4-5-20241022
+cli_tool: claude-code
+primary_tags:
+  - pension fund structures
+  - retirement benefit calculations
+  - investment portfolio management
+  - defined benefit plans
+  - defined contribution plans
+secondary_tags:
+  - regulatory compliance frameworks
+  - institutional investor role
+  - global pension systems
+  - retirement age reforms
+  - pension funding challenges
+  - private pension funds
+  - public pension funds
+  - employee benefits administration
 cssclasses: academia
-title: "Chapter 18: Pension Funds"
-linter-yaml-title-alias: "Chapter 18: Pension Funds"
 ---
 
 Composition of the Industry
@@ -45,13 +58,13 @@ TABLE 18-1 Pension Fund Reserves, 1990-2019 (in billions of dollars)
 
 Sources: Federal Reserve Board, "Financial Accounts of the United States," various issues, www.federalreserve.gov
 
-# LG 18-1
+## LG 18-1
 
-# private pension funds
+## Private Pension Funds
 
 Funds administered by a private corporation.
 
-# public pension funds
+## Public Pension Funds
 
 Funds administered by a federal, state, or local government.
 
@@ -61,9 +74,9 @@ The financial crisis of 2008-2009 produced significant losses to pension funds, 
 
 This chapter provides an overview of the pension fund industry. In particular, we examine the size, structure, and composition of the industry. We also describe recent trends in private and public pension fund growth as well as the differences between these two major types of funds. Finally, we describe the major regulations under which the industry operates.
 
-# SIZE, STRUCTURE, AND COMPOSITION OF THE INDUSTRY
+## SIZE, STRUCTURE, AND COMPOSITION OF THE INDUSTRY
 
-# pension plan
+### Pension Plan
 
 Document that governs the operations of a pension fund.
 
@@ -71,15 +84,15 @@ In this section, we describe the various characteristics of pension funds, inclu
 
 # LG 18-2
 
-# defined benefit pension fund
+### Defined Benefit Pension Fund
 
 Pension fund in which the employer agrees to provide the employee with a specific cash benefit upon retirement.
 
-# Defined Benefit versus Defined Contribution Pension Funds
+## Defined Benefit versus Defined Contribution Pension Funds
 
 A pension plan governs the operations of a pension fund. Pension funds can be distinguished by the way contributions are made and benefits are paid. A pension fund is either a defined benefit fund or a defined contribution fund. In a defined benefit pension fund, the corporate employer (or fund sponsor) agrees to provide the employee a specific cash benefit upon retirement, based on a formula that considers such factors as years of employment and salary during employment. The formula is generally one of three types: flat benefit, career average, or final pay formula. These three types of defined benefit funds are discussed in more detail next.
 
-# flat benefit formula
+### Flat Benefit Formula
 
 Pension fund that pays a flat amount for every year of employment.
 
@@ -137,7 +150,7 @@ A pension fund that does not have sufficient funds available to meet all future 
 
 A pension fund that has more than enough funds available to meet the required future payouts.
 
-# defined contribution pension fund
+### Defined Contribution Pension Fund
 
 Pension fund in which the employer agrees to make a specified contribution to the pension fund during the employee's working years.
 
@@ -155,7 +168,7 @@ Under defined benefit pension funds, the employer should set aside sufficient fu
 
 With a defined contribution pension fund, the employer (or plan sponsor) does not precommit to providing a specified retirement income. Rather, the employer contributes a specified amount to the pension fund during the employee's working years. The final retirement benefit is then based on total employer contributions, any additional employee contributions, and any gains or losses on the investments purchased by the fund with these contributions. For fixed-income funds, a minimum rate of return is often guaranteed, with the possibility of higher returns if fund assets earn above minimum rates of return. For variable-income funds, all investment profits and losses are passed through to fund participants. Thus, defined contribution funds provide benefits to employees in the form of higher potential returns than offered by defined benefit funds, but employees also must accept the increased risk of uncertain pension fund payouts.
 
-# Insured versus Noninsured Pension Funds
+## Insured versus Noninsured Pension Funds
 
 Pension funds administered by life insurance companies are termed insured pension funds. The designation as an insured pension fund is not necessarily derived from the type of administrator but from the classification of assets in which pension fund contributions are invested. Specifically, no separate pool of assets backs the pension plan. Rather, pension plan funds are pooled and invested in the general assets of the insurance company. The amount of the insurance company's assets devoted to pension funds is reported on the liability side of the balance sheet under "pension fund reserves." For example, in 2019, life insurance companies managed a total of 3,656.0 billion in pension fund assets (reported in the liability account as "pension fund reserves"). These reserves represented 42.6 percent of the industry's total liabilities and equity.
 
@@ -181,7 +194,7 @@ This shift in assetsâ€”from defined benefit funds to defined contribution fundsâ
 
 LG 18-3
 
-# 401(k) and 403(b) plans
+## 401(k) and 403(b) Plans
 
 Employer-sponsored plans that supplement a firm's basic retirement plan.
 
@@ -350,7 +363,7 @@ $$
 
 In this case, Option 3, which involves the smallest investment in risky equities, produces the largest terminal value for the  $401(\mathrm{k})$  plan.
 
-# individual retirement accounts (IRAs)
+## Individual Retirement Accounts (IRAs)
 
 Self-directed retirement accounts set up by employees who may also be covered by employers-sponsored pension plans.
 
@@ -399,7 +412,7 @@ As the percentage of the population that is retired has increased and the percen
 3. What a defined contribution pension fund is?
 4. What the major federally sponsored pension funds are?
 
-# FINANCIAL ASSET INVESTMENTS AND RECENT TRENDS
+## FINANCIAL ASSET INVESTMENTS AND RECENT TRENDS
 
 Employer and employee contributions made to pension funds are invested in financial assets. These investments are tracked by the Federal Reserve because of the increasing importance of pension funds as participants in national and international security markets.
 
@@ -448,7 +461,7 @@ At the federal level, Social Security contributions are invested in relatively l
 
 In the late 1990s, several proposals were also introduced as possible ways of bolstering the Social Security fund's resources. For example, in December 2001 the Bush administration's Presidential Commission on Social Security Reform proposed changes to the Social Security system that included personal retirement accounts. After 12 years and several more suggestions for reform yet no major changes, in 2013 President Obama proposed changing the way the government adjusts Social Security benefits by switching to a measure called the chained consumer price index (CPI). Using a chained CPI, Social Security benefits would increase by a bit less each year than under the current formula; this rate of a gradual change would allow savings to grow over time. According to Congressional Budget Office calculations, if the chained CPI were implemented, Social Security benefits would be about  \$30 a month lower by 2023. By 2033, Social Security payments would be 3 percent lower than they would be using the current measure of inflation. In 2017, Congressman John B. Larson, the Ranking Member of the Ways & Means Subcommittee on Social Security, introduced the "Social Security 2100 Act." The bill represented a comprehensive plan to rescue Social Security from its pending trust fund insolvency in 2035, making the program sustainably solvent for the next 75 years and beyond while also increasing benefits. The Social Security 2100 Act proposed to (1) increase the combined payroll tax rate by 2.4 percentage points, from 12.4 to 14.8 percent, phased in by 0.1 percentage point per year over 24 years; (2) apply the entire payroll tax to earnings above\$ 400,000 and, ultimately, to all income as the current wage-indexed maximum of \$132,900 caught up; (3) offer some benefit credit for new taxes paid by increasing benefits by 2 percent of all wage income above \$400,000; (4) increase the income threshold for taxation of 85 percent of Social Security benefits to \$50,000 for single filers and \$100,000 for joint filers, up from \$34,000 and \$44,000; (5) increase the lowest Primary Insurance Amount (PIA) factor in the benefit formula from 90 to 93 percent, increasing benefits across the board; (6) use the faster-growing, experimental Consumer Price Index for the elderly (CPI-E) for cost-of-living adjustments (COLAs); and (7) create a minimum benefit of 125 percent of the poverty line for people who have worked 30 years or more. While benefit expansions in the legislation would worsen Social Security's shortfall by about a third, tax increases in the legislation would not only offset this cost, but also restore long-term solvency to the trust fund. Despite these calls for reform, no major reform of Social Security has been realized.
 
-# REGULATION
+## REGULATION
 
 LG 18-5 www.dol.gov
 
@@ -485,7 +498,7 @@ Insurance. ERISA established the Pension Benefit Guarantee Corporation (PBGC), a
 7. Why ERISA was passed?
 8. What the major features introduced by ERISA are?
 
-# GLOBAL ISSUES
+## GLOBAL ISSUES
 
 LG 18-6 participants of defined benefit funds if the proceeds from the fund are unable to meet its promised pension obligations. As of 2019, the PBGC was responsible for the pensions of about 1.5 million participants and beneficiaries in more than 4,900 plans that have failed since PBGC was established. During 2019, PBGC assumed financial responsibility for 47 underfunded single-employer plans that were terminated. There is a maximum benefit guarantee that changes over time. Thus, workers covered by a failed pension plan may not be paid in full. For example, in 2019 the maximum annual coverage for workers who will begin receiving payments from PBGC at age 65 is 67,295.
 
@@ -505,7 +518,7 @@ The European debt crisis forced many countries to reform their pension systems. 
 
 According to the OECD's "Pensions at a Glance 2019" report, the OECD average for net replacement rates of an average earner from mandatory (public and private) schemes is 58.6 percent (see Table 18-6). The net replacement rate represents the level of pension benefits (net of taxes) in retirement relative to earnings when working. Across the OECD member countries, the net replacement rate ranges from a low of 28.4 percent in the United Kingdom to a high of 93.8 percent in Turkey, 91.8 percent in Italy, 90.1 percent in Luxembourg, 89.9 percent in Austria, and 89.6 percent in Portugal. Elsewhere, the pension rate in the United States is 49.4 percent, while in China, which is home to more than 1.4 billion people, the rate is 79.4 percent, OECD data show. In India, also home to 1.4 billion people, the pension rate is quite generous at 94.8 percent. Table 18-6 also shows that the average retirement age in the OECD countries is 66, while the average retirement age in the United States is 67.
 
-# DO YOU UNDERSTAND?
+## DO YOU UNDERSTAND?
 
 9. How retirement systems in other countries vary?
 10. The pension reforms undertaken in other countries?
@@ -516,11 +529,11 @@ TABLE 18-6 Net Pension Replacement Rates, 2019
 
 Sources: OECD, "Pensions at a Glance 2019," www.oecd-ilibrary.org
 
-# SUMMARY
+## SUMMARY
 
 This chapter provided an overview of the pension fund industry. Pension funds provide a way of accumulating retirement funds similar to life insurance contracts and mutual funds. Pension funds, however, have a tax advantage in that an employee's contributions to pension funds are exempt from current taxation. The chapter reviewed the types of funds offered by private companies (financial institutions) and by federal and state or local governments. Given the problems with the funding of public pension funds and the phenomenal increase in stock market values, growth in private pension funds has been larger than any other type of financial institution. We looked at the distribution of asset investments for both private and public pension funds and highlighted their differences. The chapter also reviewed the major piece of regulation governing the industry, ERISA, and the role played by the Pension Benefit Guaranty Corporation (PBGC).
 
-# QUESTIONS
+## QUESTIONS
 
 1. Describe the difference between a private pension fund and a public pension fund. (LG 18-1)
 2. Describe the difference between an insured pension fund and a noninsured pension fund. What type of financial institutions would administer each of these? (LG 18-1)
@@ -531,7 +544,7 @@ This chapter provided an overview of the pension fund industry. Pension funds pr
 7. What is the difference between an IRA and a Keogh account? (LG 18-3)
 8. Describe the "pay as you go" funding method that is used by many federal and state or local government pension funds.
 
-# PROBLEMS
+## PROBLEMS
 
 1. Your employer uses a flat benefit formula to determine retirement payments to its employees. The fund pays an annual benefit of 2,500 per year of service. Calculate your annual benefit payments for 25, 28, and 30 years of service. (LG 18-2)
 2. An employer uses a career average formula to determine retirement payments to its employees. The annual retirement payout is 5 percent of an employee's career average salary times the number of years of service. Calculate the annual benefit payment under the following scenarios. (LG 18-2)
@@ -578,15 +591,15 @@ Calculate the annual benefit payment for retirement now, in 5 years, and in 10 y
 
 Calculate the terminal value of the  $401(\mathrm{k})$  plan for each of the 3 options, assuming all returns and contributions remain constant over the 20 years. (LG18-3)
 
-# SEARCH THE SITE
+## SEARCH THE SITE
 
 Go to the Federal Reserve Board's website at www.federalreserve.gov. Find the most recent information on the net flow of funds to defined benefit and defined contribution pension funds using the following steps. Click on Data." Click on "Financial Accounts of the United States." Click on the most recent date, PDF file. This will bring up the file onto your computer with the relevant data in Table L.118.b and L.118.c.
 
-# Questions
+### Questions
 
 1. How have the total financial assets of defined benefit and defined contribution pension funds changed since 2019 as reported in Figure 18-1?
 2. Is the percentage of assets in defined contribution plans growing or shrinking?
 
-# APPENDIX 18A: Calculation of Growth in IRA Value during an Individual's Working Years
+## APPENDIX 18A: Calculation of Growth in IRA Value during an Individual's Working Years
 
 This appendix is available through Connect or your course instructor.

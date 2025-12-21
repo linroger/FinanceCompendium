@@ -1,25 +1,24 @@
 ---
-aliases:
-- Miscellaneous Monte Carlo Topics
-tags: null
-key_concepts: null
-parent_directory: '[[MFE Monte-Carlo Simulation]]'
-cssclasses: academia
-title: Monte Carlo Miscellaneous Topics - MasterSlides
-linter-yaml-title-alias: Monte Carlo Miscellaneous Topics - MasterSlides
+title: MCS Miscellany MasterSlides (1)
+parent_directory: I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation
+formatted: 2025-12-21 11:10:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
 primary_tags:
-- total loss
-- risk measure
-- capital allocation problem
+  - monte carlo simulation
+  - capital allocation
+  - value at risk
+  - quasi monte carlo
 secondary_tags:
-- monte simulation topics
-- capital allocations
-- monte pricing allocation
-- overall portfolio loss
-- simulated portfolio losses
-- bermudan option
-tags_extracted: '2025-12-18T17:59:37.326133'
-tags_method: max_quality_v1
+  - risk management
+  - bermudan options
+  - low discrepancy sequences
+  - euler allocation principle
+  - kernel smoothing
+  - elliptical distributions
+  - portfolio loss decomposition
+  - risk capital allocation
+cssclasses: academia
 ---
 
 # IEOR E4703: Monte-Carlo Simulation

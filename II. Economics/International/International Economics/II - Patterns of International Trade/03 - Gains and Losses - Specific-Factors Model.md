@@ -1,38 +1,22 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Gains and Losses from Trade in the Specific-Factors Model
-linter-yaml-title-alias: Gains and Losses from Trade in the Specific-Factors Model
 primary_tags:
-- gains international trade conclusion
-- gains bolivia
-- generates gains factors losses
-- real wage rises
-- control natural resources evo
+  - specific factors model
+  - international trade gains
 secondary_tags:
-- trade specific factors model
-- coffee higher fair trade
-- model explain gains trade
-- production industries lose trade
-- wage 68 trade adjustment
-- opening trade exceed losses
-- differentials fair trade price
-- opening country trade factor
-- coffee pricing envisioned
-- bolivian government foreign companies
-- agricultural sector gains specific
-- trade economists
-tags_extracted: '2025-12-18T00:32:09.819592'
+  - labor market equilibrium
+  - production possibilities frontier
+  - factor price changes
+  - capital rental changes
+  - land rental changes
+  - trade winners and losers
 ---
 
 # Gains and Losses from Trade in the Specific-Factors Model
 
 The time has come, the awaited day, a historic day in which Bolivia retakes absolute control of our natural resources.
 
-Evo Morales, President of Bolivia,  $2006^{1}$
+Evo Morales, President of Bolivia, $2006^{1}$
 
 If we do not take action, those who have the most reason to be dissatisfied with our present rate of growth will be tempted to seek shortsighted and narrow solutions—to resist automation, to reduce the work week to 35 hours or even lower, to shut out imports, or to raise prices in a vain effort to obtain full capacity profits on under-capacity operations. But these are all self-defeating expedients which can only restrict the economy, not expand it.
 
@@ -44,19 +28,17 @@ President John F. Kennedy, New York Economic Club, 1962
 
 3 Earnings of Capital and Land
 
-4 Conclusions ver the span of three years, 2003 to 2005, Bolivia had three presidents.
+4 Conclusions over the span of three years, 2003 to 2005, Bolivia had three presidents.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/bec4470c937fec57d5f259b894d07489472f9d25d895d6ad4f80220ff057e652.jpg)
 
 This rapid succession at the highest level of government was largely a result of public dissatisfaction with the distribution of gains that had come from exporting natural gas. Many people, including the indigenous Aymara Indians, believed that most of these gains had gone to multinational oil corporations, with little distributed to the citizens of the country in which the gas deposits and refineries are located.
 
-Violent protests in September 2003 led to the resignation of President Gonzalo Sánchez de Lozada, who was replaced by Carlos Mesa, a writer and television journalist. He promised to respect the views of the indigenous people of Bolivia and in July 2004 held a referendum on whether the country should export natural gas. The referendum included provisions to ensure that more of the profits from natural gas exports would go to the Bolivian government rather than to foreign companies. With these assurances, the referendum passed, and in May 2005 taxes on foreign oil companies were sharply
+Violent protests in September 2003 led to the resignation of President Gonzalo Sánchez de Lozada, who was replaced by Carlos Mesa, a writer and television journalist. He promised to respect the views of the indigenous people of Bolivia and in July 2004 held a referendum on whether the country should export natural gas. The referendum included provisions to ensure that more of the profits from natural gas exports would go to the Bolivian government rather than to foreign companies. With these assurances, the referendum passed, and in May 2005 taxes on foreign oil companies were sharply increased. But many protestors wanted more and forced President Mesa to resign within the year.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/ef17a1581562edfac63caf7c707866040b5a246f1be422002dd912624bd7723c.jpg)
 
-Evo Morales and his supporters.
-
-increased. But many protestors wanted more and forced President Mesa to resign within the year. Elections were held again in December 2005, and Evo Morales scored a decisive victory, becoming the first Aymara Indian elected to president in Bolivia's 180-year history. In May 2006 he nationalized the gas industry, which meant that all natural gas resources were placed under the control of the state-owned energy company. With this policy change, foreign investors lost their majority ownership claims to gas fields, pipelines, and refineries that they had built and lost a significant portion of the profits from the sales of Bolivian natural gas. This drastic step, which was criticized heavily by foreign governments, was supported by people in Bolivia. Because of this and other popular policies, Evo Morales was re-elected in 2009 for another five-year term. As of 2013, the gas industry in Bolivia is still largely owned by the state.
+Evo Morales and his supporters. Elections were held again in December 2005, and Evo Morales scored a decisive victory, becoming the first Aymara Indian elected to president in Bolivia's 180-year history. In May 2006 he nationalized the gas industry, which meant that all natural gas resources were placed under the control of the state-owned energy company. With this policy change, foreign investors lost their majority ownership claims to gas fields, pipelines, and refineries that they had built and lost a significant portion of the profits from the sales of Bolivian natural gas. This drastic step, which was criticized heavily by foreign governments, was supported by people in Bolivia. Because of this and other popular policies, Evo Morales was re-elected in 2009 for another five-year term. As of 2013, the gas industry in Bolivia is still largely owned by the state.
 
 The Bolivian experience illustrates the difficulty of ensuring that all people within a country share in the gains from trade. Despite the abundant natural gas resources along with other minerals such as silver, tin and lithium—used to make car batteries—many of the local population remained in poverty. The difficulty of sharing these gains among Bolivia's citizenry makes the export of gas a contentious issue. Although the export of natural gas clearly generated gains for the foreign-owned and state-owned companies that sold the resources, the indigenous peoples did not historically share in those gains.
 
@@ -100,26 +82,26 @@ FIGURE 3-2
 
 Agriculture output,  $Q_{A}$
 
-# Production Possibilities
+# Production Possibilities Frontier
 
-Frontier The production possibilities frontier shows the amount of agricultural and manufacturing outputs that can be produced in the economy with labor. Its slope equals  $-MPL_{A} / MPL_{M}$ , the ratio of the marginal products of labor in the two industries. The slope of the PPF can be interpreted as the opportunity cost of the manufacturing output—it is the amount of the agricultural good that would need to be given up to obtain one more unit of output in the manufacturing sector.
+The production possibilities frontier shows the amount of agricultural and manufacturing outputs that can be produced in the economy with labor. Its slope equals  $-MPL_{A} / MPL_{M}$ , the ratio of the marginal products of labor in the two industries. The slope of the PPF can be interpreted as the opportunity cost of the manufacturing output—it is the amount of the agricultural good that would need to be given up to obtain one more unit of output in the manufacturing sector.
 
 the value of one more hour of labor in terms of output. In turn, the value of one more hour of labor equals the amount of goods produced in that hour (the marginal product of labor) times the price of the good. In manufacturing, labor will be hired to the point at which the wage  $W$  equals the price of manufacturing  $P_M$  times the marginal product of labor in manufacturing  $MPL_M$ .
 
 $$
-W = P_{M} \cdot M P L_{M}
+\Delta W < \Delta P_{M} \cdot MPL_{M}
 $$
 
-Similarly, in agriculture, labor will be hired to the point at which the wage  $W$  equals the price of agriculture  $P_A$  times the marginal product of labor in agriculture  $MPL_A$ .
+Similarly, in agriculture, labor will be hired to the point at which the wage $W$ equals the price of agriculture $P_A$ times the marginal product of labor in agriculture $MPL_A$.
 
 $$
-W = P_{A} \cdot M P L_{A}
+W = P_{A} \cdot MPL_{A}
 $$
 
 Because we are assuming that labor is free to move between sectors, the wages in these two equations must be equal. If the wage were not the same in both sectors, labor would move to the sector with the higher wage. This movement would continue until the increase in the amount of labor in the high-wage sector drove down the wage, and the decrease in amount of labor in the low-wage sector drove up the wage, until the wages were equal. By setting the two wage equations equal, we obtain  $P_{M} \cdot MPL_{M} = P_{A} \cdot MPL_{A}$ , and by rearranging terms, we get
 
 $$
-\left(P_{M} / P_{A}\right) = \left(M P L_{A} / M P L_{M}\right)
+\left(P_{M} / P_{A}\right) = \left(MPL_{A} / MPL_{M}\right)
 $$
 
 This equation shows that the relative price of manufacturing  $(P_M / P_A)$  equals the opportunity cost of manufacturing  $(MPL_A / MPL_M)$ , the slope of the production possibilities frontier. These relative prices also reflect the value that Home consumers put on manufacturing versus food. In the absence of international trade, the equilibrium for the Home economy is at point  $A$  in Figure 3-3, where the relative price of manufacturing  $(P_M / P_A)$  equals the slope of the PPF as well as the slope of the indifference curve for a representative consumer with utility of  $U_1$ . The intuition for the
@@ -132,9 +114,9 @@ Agriculture output,  $Q_{A}$
 
 Increase in the Relative Price of Manufactures In the absence of international trade, the economy produces and consumes at point  $A$ . The relative price of manufactures,  $P_{M} / P_{A}$ , is the slope of the line tangent to the PPF and indifference curve,  $U_{1}$ , at point  $A$ . With international trade, the economy is able to produce at point  $B$  and consume at point  $C$ . The world relative price of manufactures,  $(P_{M} / P_{A})^{W}$ , is the slope of the line  $BC$ . The rise in utility from  $U_{1}$  to  $U_{2}$  is a measure of the gains from trade for the economy.
 
-$$
-= \mathrm{te rm s} \frac{\mathrm{tr ad e}}{\mathrm{pr ex po rt}} = \frac{\mathrm{P_{ex po rt}}}{\mathrm{P_{im po rt}}} = \mathrm{re la ti ve pr ic em an uo fa ct or -y} = \frac{\mathrm{P_{M}}}{\mathrm{P_{A}}}
-$$ no-trade equilibrium is exactly the same as for the Ricardian model in Chapter 2: equilibrium occurs at the tangency of the PPF and the consumer's indifference curve. This point on the PPF corresponds to the highest possible level of utility for the consumer.
+The terms of trade is the relative price of exports in terms of imports, $P_{\text{export}}/P_{\text{import}}$. For the Home country, this equals the relative price of manufactures, $P_{M}/P_{A}$.
+
+No-trade equilibrium is exactly the same as for the Ricardian model in Chapter 2: equilibrium occurs at the tangency of the PPF and the consumer's indifference curve. This point on the PPF corresponds to the highest possible level of utility for the consumer.
 
 
 # The Foreign Country
@@ -167,7 +149,7 @@ How large are the overall gains from trade? There are a few historical examples 
 
 One such episode in the United States occurred between December 1807 and March 1809, when the U.S. Congress imposed a nearly complete halt to international trade at the request of President Thomas Jefferson. A complete stop to all trade is called an embargo. The United States imposed its embargo because Britain was at war with Napoleon, and Britain wanted to prevent ships from arriving in France that might be carrying supplies or munitions. As a result, Britain patrolled the eastern coast of the United States and seized U.S. ships that were bound across the Atlantic. To safeguard its own ships and possibly inflict economic losses on Britain, the United States declared a trade embargo for 14 months from 1807 to 1809. The embargo was not complete, however; the United States still traded with some countries, such as Canada and Mexico, that didn't have to be reached by ship.
 
-As you might expect, U.S. trade fell dramatically during this period. Exports (such as cotton, flour, tobacco, and rice) fell from about  \$49 million in 1807 to\$ 9 million in 1809. The drop in the value of exports reflects both a drop in the quantity exported and a drop in the price of exports. Recall that in Chapter 2 we defined the terms of trade of a country as the price of its export goods divided by the price of its import goods, so a drop in the price of U.S. exports is a fall in its terms of trade, which is a loss for the United States. According to one study, the cost of the trade embargo to the United States was about  $5\%$  of gross domestic product (GDP). That is, U.S. GDP was  $5\%$  lower than it would have been without the trade embargo. The cost of the embargo was offset somewhat because trade was not completely eliminated and because some U.S. producers were able to shift their efforts to producing goods (such as cloth and glass) that had previously been imported. Thus, we can take  $5\%$  of GDP as a lower estimate of what the gains from trade for the United States would have been relative to a situation with no trade.
+As you might expect, U.S. trade fell dramatically during this period. Exports (such as cotton, flour, tobacco, and rice) fell from about \$49 million in 1807 to \$9 million in 1809. The drop in the value of exports reflects both a drop in the quantity exported and a drop in the price of exports. Recall that in Chapter 2 we defined the terms of trade of a country as the price of its export goods divided by the price of its import goods, so a drop in the price of U.S. exports is a fall in its terms of trade, which is a loss for the United States. According to one study, the cost of the trade embargo to the United States was about  $5\%$  of gross domestic product (GDP). That is, U.S. GDP was  $5\%$  lower than it would have been without the trade embargo. The cost of the embargo was offset somewhat because trade was not completely eliminated and because some U.S. producers were able to shift their efforts to producing goods (such as cloth and glass) that had previously been imported. Thus, we can take  $5\%$  of GDP as a lower estimate of what the gains from trade for the United States would have been relative to a situation with no trade.
 
 Is  $5\%$  of GDP a large or small number? It is large when we think that a recession that reduced GDP by  $5\%$  in one year would be regarded as a very deep downturn. To get another perspective, instead of comparing the costs of the embargo with overall GDP, we can instead compare them with the size of U.S. exports, which were  $13\%$  of
 
@@ -251,7 +233,7 @@ $$
 
 \frac{\Delta W}{W} <   \frac{\Delta P_{M} \cdot M P L_{M}}{P_{M} \cdot M P L_{M}} = \frac{\Delta P_{M}}{P_{M}}
 
-$$ where the final ratio is obtained because we canceled out  $MPL_{M}$  in the numerator and denominator of the middle ratio. The term  $\Delta W / W$  in this equation is the percentage change in wages. For example, suppose the initial wage is  $\8$  per hour and it rises to  $\$ 10  per hour. Then  $\Delta W / W = \2 / \$ 8 = 0.25 , which is a  $25\%$  increase in the wage. Similarly, the term  $\Delta P_{M} / P_{M}$  is the percentage change in the price of manufactured goods. When  $\Delta W / W < \Delta P_{M} / P_{M}$ , then the percentage increase in the wage is less than the percentage increase in the price of the manufactured good. This inequality means that the amount of the manufactured good that can be purchased with the wage has fallen, so the real wage in terms of the manufactured good  $W / P_{M}$  has decreased.[6]
+$$ where the final ratio is obtained because we canceled out $MPL_{M}$ in the numerator and denominator of the middle ratio. The term $\Delta W / W$ in this equation is the percentage change in wages. For example, suppose the initial wage is \$8 per hour and it rises to \$10 per hour. Then $\Delta W / W = \$2 / \$8 = 0.25$, which is a 25\% increase in the wage. Similarly, the term  $\Delta P_{M} / P_{M}$  is the percentage change in the price of manufactured goods. When  $\Delta W / W < \Delta P_{M} / P_{M}$ , then the percentage increase in the wage is less than the percentage increase in the price of the manufactured good. This inequality means that the amount of the manufactured good that can be purchased with the wage has fallen, so the real wage in terms of the manufactured good  $W / P_{M}$  has decreased.[6]
 
 Overall Impact on Labor We have now determined that as a result of our assumption of an increase in the relative price of manufactured goods, the real wage in terms of food has increased and the real wage in terms of the manufactured good has decreased. In this case, we assumed that the increase in relative price was caused by an increase in the price of manufactures with a constant price of agriculture. Notice, though, that if we had assumed a constant price of manufactures and a decrease in the price of agriculture (taken together, an increase in the relative price of manufactures), then we would have arrived at the same effects on the real wage in terms of both products.
 
@@ -350,11 +332,11 @@ $$
 It will be useful to take these payments one step further and break them down into the earnings of each unit of capital and land. To do so, we need to know the quantity of capital and land. We denote the quantity of land used in agriculture as  $T$  acres and the quantity of capital (number of machines) used in manufacturing as  $K$ . Thus, the earnings of one unit of capital (a machine, for instance), which we call  $R_{K}$ , and the earnings of an acre of land, which we call  $R_{T}$ , are calculated as
 
 $$
-R_{K} = \frac{\text{Pa ym en ts to ca pi ta l}}{K} = \frac{P_{M} \cdot Q_{M} - W \cdot L_{M}}{K}
+\Delta R_{K}/R_{K} < 0 < \Delta W/W < \Delta P_{A}/P_{A} < \Delta R_{T}/R_{T}
 $$
 
 $$
-R_{T} = \frac{\text{Pa ym en ts to la nd}}{T} = \frac{P_{A} \cdot Q_{A} - W \cdot L_{A}}{T}
+R_{K} = \frac{\text{Payments to capital}}{K} = \frac{P_{M} \cdot Q_{M} - W \cdot L_{M}}{K}
 $$
 
 Economists call  $R_{K}$  the rental on capital and  $R_{T}$  the rental on land. The use of the term "rental" does not mean that the factory owners or farmers rent their machines or land from someone else, although they could. Instead, the rental on machines and land reflects what these factors of production earn during a period when they are used in manufacturing and agriculture. Alternatively, the rental is the amount these factors could earn if they were rented to someone else over that same time.
@@ -362,15 +344,7 @@ Economists call  $R_{K}$  the rental on capital and  $R_{T}$  the rental on land
 There is a second way to calculate the rentals, which will look similar to the formula we have used for wages. In each industry, wages reflect the marginal product of labor times the price of the good,  $W = P_{M} \cdot MPL_{M} = P_{A} \cdot MPL_{A}$ . Similarly, capital and land rentals can be calculated as
 
 $$
-R_{K} = P_{M} \cdot M P K_{M} \text{an d} R_{T} = P_{A} \cdot M P T_{A}
-$$ where  $MPK_{M}$  is the marginal product of capital in manufacturing, and  $MPT_{A}$  is the marginal product of land in agriculture. These marginal product formulas give the same values for the rentals as first calculating the payments to capital and land, as we just did, and then dividing by the quantity of capital and land. We will use both approaches to obtain rental values, depending on which is easiest.
-
-
-Change in the Real Rental on Capital Now that we understand how the rentals on capital and land are determined, we can look at what happens to them when the price of the manufactured good  $P_{M}$  rises, holding constant the price in agriculture  $P_{A}$ . From Figure 3-5, we know that the wage rises throughout the economy and that labor shifts from agriculture into manufacturing. As more labor is used in manufacturing, the marginal product of capital rises because each machine has more labor to work it. In addition, as labor leaves agriculture, the marginal product of land falls because each acre of land has fewer laborers to work it. The general conclusion is that an increase in the quantity of labor used in an industry will raise the marginal product of the factor specific to that industry, and a decrease in labor will lower the marginal product of the specific factor. This outcome does not contradict the law of diminishing returns, which states that an increase in labor will lower the marginal product of labor because now we are talking about how a change in labor affects the marginal product of another factor:
-
-Using the preceding formulas for the rentals, we can summarize the results so far with
-
-
+W = P_{A} \cdot MPL_{A} \quad \text{in agriculture}
 $$
 
 \boxed {P^{M} \uparrow \Rightarrow \left\{ \begin{array}{l} L_{M} \uparrow , \text{so th at} M P K_{M} = R_{K} / P_{M} \uparrow \\ L_{A} \downarrow , \text{so th at} M P T_{A} = R_{T} / P_{A} \downarrow \end{array} \right.}
@@ -418,26 +392,20 @@ $$
 
 $$
 
-In the agriculture industry, we assume that land and labor each earn  $50\%$  of the sales revenue.
+In the agriculture industry, we assume that land and labor each earn $50\\%$ of the sales revenue.
 
-An increase in the relative price of manufactures  $P_{M} / P_{A}$  can be caused by an increase in  $P_{M}$  or a decrease in  $P_{A}$ . To be specific, suppose that the price of manufactures  $P_{M}$  rises by  $10\%$ , whereas the price of agriculture  $P_{A}$  does not change at all. We have found in our earlier discussion that  $\Delta W / W$ , the percentage change in the wage, will be between the percentage change in these two industry prices. So let us suppose that  $\Delta W / W$ , is  $5\%$ . We summarize these output and factor price changes as follows:
-
-$$
-
-\text{Manufacturing:} \quad \text{Percentageincreaseinprice} = \Delta P_{M} / P_{M} = 10 \%
+An increase in the relative price of manufactures $P_{M} / P_{A}$ can be caused by an increase in $P_{M}$ or a decrease in $P_{A}$. To be specific, suppose that the price of manufactures  $P_{M}$  rises by  $10\%$ , whereas the price of agriculture  $P_{A}$  does not change at all. We have found in our earlier discussion that  $\Delta W / W$ , the percentage change in the wage, will be between the percentage change in these two industry prices. So let us suppose that  $\Delta W / W$ , is  $5\%$ . We summarize these output and factor price changes as follows:
 
 $$
-
-$$
-
-Agriculture: \text{Percentageincreaseinprice} = \Delta P_{A} / P_{A} = 0 \%
-
+\text{Manufacturing:} \quad \text{Percentage increase in price} = \Delta P_{M} / P_{M} = 10\%
 $$
 
 $$
+\text{Agriculture:} \quad \text{Percentage increase in price} = \Delta P_{A} / P_{A} = 0\%
+$$
 
-\text{Bothindustries:} \quad \text{Percentageincreaseinthewage} = \Delta W / W = 5 \%
-
+$$
+\text{Both industries:} \quad \text{Percentage increase in the wage} = \Delta W / W = 5\%
 $$
 
 Notice that the increase in the wage applies in both industries because wages are always equalized across sectors.
@@ -459,9 +427,7 @@ $$
 If the price of manufactured goods rises by  $\Delta P_{M} > 0$ , holding constant the price in agriculture, then the change in the rental is
 
 $$
-
-\frac{\Delta R_{k}}{R_{k}} = \frac{\left(\frac{\Delta P_{m}}{P_{m}}\right) \cdot P_{m} - Q_{m} - \left(\frac{\Delta W}{W}\right) \cdot W \cdot L_{m}}{R_{k} \cdot K} \quad \mathrm{we wa nt} \quad \mathrm{an d} \Delta R_{K} / R_{K}.
-
+\frac{\Delta R_{K}}{R_{K}} = \frac{\left(\frac{\Delta P_{M}}{P_{M}}\right) \cdot P_{M} \cdot Q_{M} - \left(\frac{\Delta W}{W}\right) \cdot W \cdot L_{M}}{R_{K} \cdot K}
 $$
 
 $$
@@ -518,7 +484,7 @@ In this case, the land rent falls by the same percentage amount that the wage in
 
 General Equation for the Change in Factor Prices By summarizing our results in a single equation, we can see how all the changes in factor and industry prices are related. Under the assumption that the price of the manufactured good increased but the price of the agricultural good did not change, we have shown the following:
 
-$\underline{\Delta R_T / R_T < 0} < \underline{\Delta W / W < \Delta P_M / } \underline{P_M < \Delta R_K / R_K},$  for an increase in  $P_{M}$
+$\Delta R_{T}/R_{T} < 0 < \Delta W/W < \Delta P_{M}/P_{M} < \Delta R_{K}/R_{K}$ for an increase in $P_{M}$
 
 Real rental on land falls
 
@@ -530,7 +496,7 @@ In other words, wages rise but not as much as the percentage increase in the pri
 
 What happens if the price of the manufactured good falls? Then the inequalities are reversed, and the equation becomes
 
-$\underbrace{\Delta R_K / R_K < \Delta P_M}_{\text{对}} / \underbrace{P_M < \Delta W / W < 0}_{\text{对}} \leqslant \underbrace{\Delta R_T / R_T}_{\text{对}}$  for a decrease in  $P_M$
+$\Delta R_{K}/R_{K} < \Delta P_{M}/P_{M} < \Delta W/W < 0 < \Delta R_{T}/R_{T}$ for a decrease in $P_{M}$
 
 Real rental on capital falls
 
@@ -624,110 +590,4 @@ Economists have carefully proved that, in theory, the gains of individuals due t
 6. Trade Adjustment Assistance policies are intended to compensate those who are harmed because of trade by providing additional income during the period of unemployment. Recently, the Trade Adjustment Assistance program in the United States was expanded to include workers laid off because of trade in service industries.
 7. Even when many people are employed in export activities, such as those involved in coffee export from certain developing countries, fluctuations in the world market price can lead to large changes in income for growers and workers.
 
-# KEY TERMS specific-factors model, p. 60
-
-
-diminishing returns, p. 61 autarky,p.65
-
-
-embargo,p.65 real wage,p.68
-
-
-Trade Adjustment Assistance
-
-(TAA), p. 70 services,p.71
-
-
-rental on capital, p. 76 rental on land, p. 76
-
-
-# PROBLEMS
-
-1. Why is the specific-factors model referred to as a short-run model?
-2. Figure 3-7 presents wages in the manufacturing and services sectors for the period 1973 to 2012. Is the difference in wages across sectors consistent with either the Ricardian model studied in Chapter 2 or the specific-factors model? Explain why or why not.
-
-3. In the gains from trade diagram in Figure 3-3, suppose that instead of having a rise in the relative price of manufactures, there is instead a fall in that relative price.
-
-a. Starting at the no-trade point  $A$  in Figure 3-3, show what would happen to production and consumption.
-b. Which good is exported and which is imported?
-
-c. Explain why the overall gains from trade are still positive.
-
-4. Starting from equilibrium in the specific-factors model, suppose the price of manufactured goods falls so that wages fall from  $W'$  to  $W$  in Figure 3-5.
-
-a. Show that the percentage fall in the wage is less than the percentage fall in the price of manufacturing so that the real wage of labor in terms of manufactured goods goes up.
-b. What happens to the real wage of labor in terms of agriculture?
-c. Are workers better off, worse off, or is the outcome ambiguous?
-
-5. Use the information given here to answer the following questions:
-
-Manufacturing:
-
-Sales revenue  $= P_{M} \cdot Q_{M} = 150$
-
-Payments to labor  $= W\cdot L_{M} = 100$
-
-Payments to capital  $= R_{K} \cdot K = 50$
-
-Agriculture:
-
-Sales revenue  $= P_{A} \cdot Q_{A} = 150$
-
-Payments to labor  $= W\cdot L_{A} = 50$
-
-Payments to land  $= R_{T} \cdot T = 100$
-
-Holding the price of manufacturing constant, suppose the increase in the price of agriculture is  $10\%$  and the increase in the wage is  $5\%$ .
-
-a. Determine the impact of the increase in the price of agriculture on the rental on land and the rental on capital.
-b. Explain what has happened to the real rental on land and the real rental on capital.
-
-6. If instead of the situation given in Problem 5, the price of manufacturing were to fall by  $10\%$ , would landowners or capital owners be better off? Explain. How would the decrease in the price of manufacturing affect labor? Explain.
-7. Read the article by Lori G. Kletzer and Robert E. Litan, "A Prescription to Relieve Worker Anxiety," *Policy Brief* 01-2 (Washington, D.C.: Peterson Institute for International Economics), available online at http://www.iie.com/publications/pb/pb.cfm?researchid=70, which refers to the
-
-U.S. recession of 2000 and 2001. Then answer the following: a. Under the version of Trade Adjustment Assistance (TAA) in the United States that they refer to, how many extra weeks of unemployment insurance are workers eligible for? What two criteria must workers meet to qualify for this extra unemployment insurance?
-
-b. Consider the proposal for "wage insurance" that Kletzer and Litan make in their article. What criteria would workers need to qualify for this insurance? What amount of extra income would they receive from the insurance?
-c. If Kletzer and Litan's new plan for "wage insurance" had been adopted by the United States, what would have been the budgetary cost in 1999, when unemployment was  $4.2\%$ ? How does this compare with the amount that is now spent on unemployment insurance?
-
-8. In the specific-factors model, assume that the price of agricultural goods decreases while the price of manufactured goods is unchanged  $(\Delta P_A / P_A < 0$  and  $\Delta P_M / P_M = 0)$ . Arrange the following terms in ascending order:
-
-$$
-
-\Delta R_{T} / R_{T} \quad \Delta R_{K} / R_{K} \quad \Delta P_{A} / P_{A} \quad \Delta P_{M} / P_{M} \quad \Delta W / W
-
-$$
-
-Hint: Try starting with a diagram like Figure 3-5, but change the price of agricultural goods instead.
-
-9. Suppose two countries, Canada and Mexico, produce two goods: timber and televisions. Assume that land is specific to timber, capital is specific to televisions, and labor is free to move between the two industries. When Canada and Mexico engage in free trade, the relative price of televisions falls in Canada and the relative price of timber falls in Mexico.
-
-a. In a graph similar to Figure 3-5, show how the wage changes in Canada due to a fall in the price of televisions, holding constant the price of timber. Can we predict that change in the real wage?
-b. What is the impact of opening trade on the rentals on capital and land in Canada? Can we predict that change in the real rentals on capital and land?
-
-c. What is the impact of opening trade on the rentals on capital and land in Mexico? Can we predict that change in the real rentals on capital and land?
-d. In each country, has the specific factor in the export industry gained or lost and has the specific factor in the import industry gained or lost?
-
-10. Home produces two goods, computers and wheat, for which capital is specific to computers, land is specific to wheat, and labor is mobile between the two industries. Home has 100 workers and 100 units of capital but only 10 units of land.
-
-a. Draw a graph similar to Figure 3-1 with the output of wheat on the vertical axis and the labor in wheat on the horizontal axis. What is the relationship between the output of wheat and the marginal product of labor in the wheat industry as more labor is used?
-b. Draw the production possibilities frontier for Home with wheat on the horizontal axis and computers on the vertical axis.
-c. Explain how the price of wheat relative to computers is determined in the absence of trade.
-d. Reproduce Figure 3-4 with the amount of labor used in wheat measuring from left to right along the horizontal axis and the amount of labor used in computers moving in the reverse direction.
-e. Assume that due to international trade, the price of wheat rises. Analyze the effect of the increase in the price of wheat on the allocation of labor between the two sectors.
-
-11. Similar to Home in Problem 10, Foreign also produces computers and wheat using capital, which is specific to computers; land, which is specific to wheat; and labor, which is mobile between the two sectors. Foreign has 100 workers and 100 units of land but only 10 units of capital. It has the same production functions as Home.
-
-a. Will the no-trade relative price of wheat be higher in Home or in Foreign? Explain why you expect this outcome.
-b. When trade is opened, what happens to the relative price of wheat in Foreign and to the relative price of wheat in Home?
-c. Based on your answer to (b), predict the effect of opening trade on the rental on land in each country, which is specific to wheat. What about the rental on capital, which is specific to computers?
-
-12. In the text, we learned that workers displaced by import competition are eligible for compensation through the Trade Adjustment Assistance program. Firms are also eligible for support through Trade Adjustment Assistance for Firms, a federal program that provides financial assistance to manufacturers affected by import competition. Go to http://www.tacenters.org to read about this program, and answer the following: a. What criteria does a firm have to satisfy to quality for benefits?
-
-b. What amount of money is provided to firms, and for what purpose?
-c. Provide an argument for and an argument against the continued funding of this federal program.
-
-# NET WORK
-
-The Bureau of Labor Statistics regularly releases information on the changes in employment, wages, and displacement of workers at http://www.bls.gov. Find one recent announcement and summarize that information. How does the information in that announcement compare with the trends in the Application on pages 71-73 on employment and wages in manufacturing and services?
 

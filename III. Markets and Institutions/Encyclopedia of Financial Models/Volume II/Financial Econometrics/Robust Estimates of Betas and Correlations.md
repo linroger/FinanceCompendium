@@ -1,4 +1,21 @@
 
+---
+title: "Robust Estimates of Betas and Correlations"
+primary_tags:
+  - robust regression methods
+  - theil-sen estimator
+  - beta estimation
+secondary_tags:
+  - correlation estimation
+  - outlier resistant statistics
+  - asset return distributions
+cssclasses: academia
+formatted: "2025-12-21 11:03:25 PM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume II/Financial Econometrics"
+---
+
 # Robust Estimates of Betas and Correlations
 
 THOMAS K. PHILIPS, PhD
@@ -26,7 +43,6 @@ $$ and
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/68991a278e4001bddeaba98fd17945d4951f152aec33a8c8abf788bbbfccbae0.jpg)
 Figure 2 Ordinary Least Squares—Alternative Depiction
-
 
 $$
 \alpha_{i j} = \frac{x_{i} \times y_{j} - x_{j} \times y_{i}}{x_{i} - x_{j}} \tag {2}
@@ -132,7 +148,7 @@ The beta of an asset  $Y$  with respect to the market portfolio  $X$  plays a ce
 1965; and Mossin, 1966), and is defined to be
 
 $$
-\beta_{Y \mid X} = \frac{\operatorname{Co v} (X , Y)}{\sigma_{X}^{2}} \tag {11}
+\beta_{Y \mid X} = \frac{\operatorname{Cov} (X , Y)}{\sigma_{X}^{2}} \tag {11}
 $$
 
 This quantity is, of course, just the slope coefficient in a univariate regression, and is precisely what OLS estimates. The application of the Theil-Sen regression algorithm to the estimation of beta is obvious—the Theil-Sen estimate of slope ought to provide us a more robust estimate of the historical of a security than the corresponding OLS estimate.
@@ -180,7 +196,7 @@ $$ where  $\text{Cov}(X, Y)$  is the covariance between  $X$  and  $Y$ , and  $\
 
 
 $$
-\begin{array}{l} \rho_{X, Y} = \sqrt{\frac{C o v (X , Y)^{2}}{\sigma_{X}^{2} \times \sigma_{Y}^{2}}} \\ = \sqrt{\frac{\operatorname{Co v} (X , Y)}{\sigma_{X}^{2}} \times \frac{\operatorname{Co v} (X , Y)}{\sigma_{Y}^{2}}} \tag {16} \\ = \sqrt{\beta_{Y | X} \times \beta_{X | Y}} \\ \end{array}
+\begin{array}{l} \rho_{X, Y} = \sqrt{\frac{\operatorname{Cov} (X , Y)^{2}}{\sigma_{X}^{2} \times \sigma_{Y}^{2}}} \\ = \sqrt{\frac{\operatorname{Cov} (X , Y)}{\sigma_{X}^{2}} \times \frac{\operatorname{Cov} (X , Y)}{\sigma_{Y}^{2}}} \tag {16} \\ = \sqrt{\beta_{Y | X} \times \beta_{X | Y}} \\ \end{array}
 $$
 
 Table 3 Distribution of Theil-Sen Estimates of Correlation vs. Standard Maximum Likelihood Estimate: Normally Distributed Random Variables

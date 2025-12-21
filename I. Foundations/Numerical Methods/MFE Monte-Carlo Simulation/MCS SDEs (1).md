@@ -1,36 +1,31 @@
 ---
-aliases:
-- Simulating Stochastic Differential Equations
-tags: null
-key_concepts: null
-parent_directory: '[[MFE Monte-Carlo Simulation]]'
-cssclasses: academia
 title: Monte Carlo Simulation of Stochastic Differential Equations
-linter-yaml-title-alias: Monte Carlo Simulation of Stochastic Differential Equations
+parent_directory: MFE Monte-Carlo Simulation
+formatted: 2025-12-21 11:12:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
 primary_tags:
-- better scheme
-- euler (often) scheme
-- stochastic differential equations
-- continuous-time path
+  - stochastic differential equations
+  - euler scheme
+  - multilevel monte-carlo
 secondary_tags:
-- jump-diffusion process
-- variance reduction
-- optimal allocation
-- diffusion processes
-- diffusion process
-- several other discretization schemes
-- multilevel scheme
-- corresponding discretized scheme
-- pure diffusion discretization
-tags_extracted: '2025-12-18T17:59:52.115811'
-tags_method: max_quality_v1
+  - weak convergence
+  - strong convergence
+  - milstein scheme
+  - richardson extrapolation
+  - jump-diffusion processes
+  - variance reduction
+  - barrier options
+  - brownian bridge construction
+  - computational resource allocation
+cssclasses: academia
 ---
 
 # Simulating Stochastic Differential Equations
 
 In these lecture notes we discuss the simulation of stochastic differential equations (SDEs), focusing mainly on the Euler scheme and some simple improvements to it. We discuss the concepts of weak and strong convergence and note that in financial applications it is typically only weak convergence that is required. We also briefly discuss variance reduction for SDE's, the simulation of SDE's for jump-diffusion processes, and the optimal allocation of a fixed computational budget to minimize the mean-squared error of discretized SDE estimators. Most of the development in these notes follows Chapter 6 of Glasserman (2004) and this reference can be consulted for further details. Finally, in Appendix 6 we present a brief overview of multilevel Monte-Carlo, a new and recent technique that also focuses on the optimal allocation of computational resources.
 
-# 1 The Euler Scheme for Diffusions
+## 1 The Euler Scheme for Diffusions
 
 Suppose we have an SDE of the form
 
@@ -65,7 +60,7 @@ Remark 2 If we wished to estimate  $\theta = \mathbb{E}[f(X_{t_1},\ldots ,X_{t_p
 
 Exercise 1 Can you think of a derivative where the payoff depends on  $(X_{t_1},\ldots ,X_{t_p})$ , but where it would not be necessary to keep track of  $(X_{t_1},\ldots ,X_{t_p})$  on each sample path?
 
-# 1.1 The Euler Scheme for Multidimensional Diffusions
+### 1.1 The Euler Scheme for Multidimensional Diffusions
 
 In the multidimensional case,  $\mathbf{X}_t\in \mathbb{R}^d$ $\mathbf{W}_t\in \mathbb{R}^p$  and  $\pmb {\mu}(t,\mathbf{X}_t)\in \mathbb{R}^d$  in (1) are now vectors, and  $\sigma (t,\mathbf{X_t})\in \mathbb{R}^{d\times p}$  is a matrix. This situation arises when we have a series of SDE's in our model. This could occur in a number of financial engineering contexts. Some examples include:
 
@@ -75,7 +70,7 @@ In the multidimensional case,  $\mathbf{X}_t\in \mathbb{R}^d$ $\mathbf{W}_t\in \
 
 In all of these cases, whether or not we will have to simulate the SDE's will depend on the model in question and on the particular quantity that we wish to compute. If we do need to discretize the SDE's and simulate their discretized versions, then it is very straightforward. If there are  $p$  correlated Brownian motions,  $\mathbf{W}_t$ , driving the SDE's, then at each time step,  $t_i$ , we must generate  $p$  IID  $N(0,1)$  random variables. We would then use the Cholesky Decomposition to generate  $X_{t_{i+1}}$ . This is exactly analogous to our method of generating correlated geometric Brownian motions. In the context of simulating multidimensional SDE's, however, it is more common to use independent Brownian motions as any correlations between components of the vector,  $\mathbf{X}_t$ , can be induced through the matrix,  $\sigma(t, \mathbf{X}_t)$ .
 
-# 1.2 Weak and Strong Convergence of Discretization Schemes
+### 1.2 Weak and Strong Convergence of Discretization Schemes
 
 There are two approaches for measuring the error in a discretization scheme  $\{\widehat{X}_0, \widehat{X}_h, \widehat{X}_{2h}, \ldots, \widehat{X}_{mh}\}$  with  $m = \lfloor T / h \rfloor$ . A strong error criterion might take the form
 
@@ -115,11 +110,11 @@ We note that a larger value of  $\beta$  in (5) and (6) is better in that it imp
 
 It is also worth noting that the conditions on  $f$  in Definition 2 are often not met in practice. For example, if  $f$  represents the payoff of a simple European call option, then  $f$  will not be differentiable and certainly we will not have  $f \in C_P^{2\beta + 2}$ . Similarly, technical conditions on  $\mu(t, \mathbf{X}_t)$  and  $\sigma$  are also sometimes violated in practice. This means, for example, that if we are using an Euler scheme for such an SDE then there is no theoretical guarantee that it will have a weak order of convergence of  $\beta = 1$ . As a result, experimentation is often required to understand which schemes perform better, i.e. have a superior order (of weak) convergence for a given payoff  $f$  and / or SDE  $X_t$ .
 
-# 2 Other Discretization Schemes
+## 2 Other Discretization Schemes
 
 There are several other discretization schemes that (typically) improve on the Euler scheme. We briefly discuss them here.
 
-# 2.1 The Milstein Scheme
+### 2.1 The Milstein Scheme
 
 Consider a scalar SDE of the form  $dX_{t} = \mu (X_{t})dt + \sigma (X_{t})dW_{t}$  with corresponding Euler scheme
 
@@ -141,13 +136,13 @@ $$
 
 for  $k \neq j$  and simulating such terms is difficult. As a result, the Milstein scheme is typically only ever applied in the scalar case.
 
-# 2.2 Second Order Schemes
+### 2.2 Second Order Schemes
 
 It is possible to refine the Euler scheme beyond the Milstein refinement of (7) to obtain schemes of weak order 2. Again, these schemes are generally only applicable in the scalar case but under certain "commutativity" conditions they can be implemented in the multi-dimensional case. See Section 6.2 of Glasserman for further details.
 
-# 2.3 The Euler Scheme With Richardson Extrapolation
+### 2.3 The Euler Scheme With Richardson Extrapolation
 
-An alternative to second order schemes is the Euler scheme with Richardson extrapolation. This is easy to implement and often has superior performance to second order schemes, especially in high dimensions. As a result, the Euler scheme with Richardson extrapolation is often considered to be a benchmark scheme for reducing discretization error. In order to simplify notation, we will write  $\widehat{X}_T^h$  for  $\widehat{X}_{[T / h]\backslash h}$  with the superscript  $h$  in  $\widehat{X}_T^h$  used to explicitly denote the length of the time step in the scheme.
+An alternative to second order schemes is the Euler scheme with Richardson extrapolation. This is easy to implement and often has superior performance to second order schemes, especially in high dimensions. As a result, the Euler scheme with Richardson extrapolation is often considered to be a benchmark scheme for reducing discretization error. In order to simplify notation, we will write  $\widehat{X}_T^h$  for  $\widehat{X}_{\lfloor T / h \rfloor h}$  with the superscript  $h$  in  $\widehat{X}_T^h$  used to explicitly denote the length of the time step in the scheme.
 
 We now recall that the Euler (often) scheme has weak order 1 so that
 
@@ -193,7 +188,7 @@ $$
 
 A variance reduction will therefore be obtained if the covariance term is positive. This is not always the case but can be guaranteed under certain monotonicity conditions.
 
-# 3 Some Examples From Finance
+## 3 Some Examples From Finance
 
 # Example 1 (Option Pricing Under GBM)
 
@@ -261,9 +256,9 @@ Exercise 2 Describe in detail how you would you would estimate  $C_0$  in Exampl
 
 Exercise 3 Have you ever implemented a discrete-time delta hedging strategy in the Black-Schole framework. If so, what discretization scheme did you use?
 
-# 4 Improvements and Extensions
+## 4 Improvements and Extensions
 
-# 4.1 Change of Variables
+### 4.1 Change of Variables
 
 Once we have fixed a discretization scheme, we still have considerable flexibility $^6$  in choosing what process we apply it to. More specifically, if we wish to simulate a discretized version of  $\mathbf{X}_t \in \mathbb{R}^d$  then we can apply our scheme to  $\mathbf{X}_t$  or to  $\mathbf{Y}_t \coloneqq g(\mathbf{X}_t)$  where  $g: \mathbb{R}^d \mapsto \mathbb{R}^d$  is a smooth invertible function. If we choose to apply it to  $\mathbf{Y}_t$  then  $\widehat{\mathbf{X}}_{kh} \coloneqq g^{-1}(\widehat{\mathbf{Y}}_{kh})$  is the corresponding discretized scheme for  $\mathbf{X}_t$ .
 
@@ -275,7 +270,7 @@ Exercise 5 Suppose we wish to simulate the known dynamics of a zero-coupon bond.
 
 An important advantage of this flexibility in that we can seek a  $g$  with a view to minimizing discretization error. A common strategy is to choose a  $g$  (if possible) so that the dynamics of  $\mathbf{Y}_t \coloneqq g(\mathbf{X}_t)$  have a constant volatility coefficient. (This is what we do when we take  $Y_t \coloneqq \log(X_t)$  when  $X_t \sim \mathrm{GBM}$ .)
 
-# 4.2 Simulating Jump-Diffusion Processes
+### 4.2 Simulating Jump-Diffusion Processes
 
 Consider a jump-diffusion process of the form
 
@@ -293,11 +288,11 @@ If a jump does not occur at time  $t$  then  $X_{t-} = X_t$ . An obvious approac
 
 1. First simulate the arrival times in the Poisson process up to time  $T$ .  
 2. Use a pure diffusion discretization between the jump times.  
-3. At the  $n^{th}$  jump time  $\tau_{n}$ , simulate the jump size  $c(\widehat{X}_{\tau_n - },Y_n)$  conditional on the value of the discretized process,  $\widehat{X}_{\tau_{n - }}$ , immediately before  $\tau_{n}$ .
+3. At the  $n^{th}$  jump time  $\tau_{n}$ , simulate the jump size  $c(\widehat{X}_{\tau_{n-}},Y_n)$  conditional on the value of the discretized process,  $\widehat{X}_{\tau_{n-}}$ , immediately before  $\tau_{n}$ .
 
 Exercise 6 Suppose the process  $N_{t}$  in (17) is a more general jump process with stochastic intensity  $\lambda(X_{t})$ . If the intensity is bounded above by some constant  $\bar{\lambda}$ , how would you extend the scheme outlined above to this new process?
 
-# 4.3 Variance Reduction Techniques for Simulating SDE's
+### 4.3 Variance Reduction Techniques for Simulating SDE's
 
 Simulating SDE's is a computationally intensive task as we need to do a lot of work for each sample that we generate. Naturally, variance reduction techniques can be very useful in such contexts. We give one example based on stratified sampling and the Brownian bridge. Note that these ideas could be applied very generally to many different models. A further example will be discussed in Exercise 9 of Section 5.1.
 
@@ -325,7 +320,7 @@ We can in fact simulate the points on the sample path in any order we like. In p
 
 Exercise 7 If we are working with a multi-dimensional correlated Brownian motion,  $W_{t}$ , (e.g. in the context of a multi-factor model of the short rate) is it still easy to use the Brownian bridge construction where we first generate the random vector,  $W_{T}$ ?
 
-# 4.4 Allocation of Computational Resources
+### 4.4 Allocation of Computational Resources
 
 An important issue that arises when simulating SDE's is the allocation of computational resources. In particular, we need to determine how many sample paths,  $n$ , to generate and how many time steps,  $m$ , to simulate on each sample path. A smaller value of  $m$  will result in greater bias and numerical error, whereas a smaller value of  $n$  will result in greater statistical noise. Indeed numerical and statistical error were both discussed in Examples 1 and 2 but we did not discuss the optimal tradeoff between the two in those examples. That is the problem we now discuss: how to choose  $n$  and  $m$  in an optimal manner given a fixed computational budget.
 
@@ -359,11 +354,9 @@ When it comes to estimating  $\theta$ , (20) and (21) provide guidance as follow
 
 values of  $m_0$  and  $n_0$ . Note that Multilevel Monte-Carlo (which is discussed in Appendix 6) is a more recently developed technique and sophisticated approach to determining an optimal allocation of computational resources.
 
-# 5 Extremes and Barrier Crossings
+## 5 Extremes and Barrier Crossings
 
-Example 3 showed how certain forms of path dependence can be handled by including additional state variables. But other types of dependence can be more problematic, even when the inclusion of additional state variables is appropriate. We begin by handling the extremes of a process.
-
-# 5.1 Extremes
+### 5.1 Extremes
 
 Suppose  $X_{t}$  is a standard Brownian motion and let  $M_{t} \coloneqq \max_{0 \leq u \leq t} X_{t}$  denote the running maximum of the process with
 
@@ -398,7 +391,7 @@ $$
 
 and this scheme can be very effective.
 
-# 5.2 Barrier Crossings
+### 5.2 Barrier Crossings
 
 The same technology we discussed for extremes in Section 5.1 can be immediately applied to the pricing of barrier options when we have to simulate an SDE. Suppose, for example, that we wish to price a knock-out put option with time  $T$  payoff of the form
 
@@ -436,7 +429,7 @@ $$
 
 In what sense is this estimator superior to the estimator in (25)? Is there any sense in which the estimator might be inferior?
 
-# 6 Appendix: Multilevel Monte-Carlo
+## 6 Appendix: Multilevel Monte-Carlo
 
 Multilevel Monte-Carlo is a recently developed<sup>7</sup> approach that looks to optimize the allocation of computational resources in the simulation of the SDE with the goal of minimizing the estimator's MSE. We can motivate the technique by considering the Paley-Wiener representation of Brownian motion on the interval  $[0, 2\pi]$ . This representation has the form
 

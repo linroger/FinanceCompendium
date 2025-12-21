@@ -55,7 +55,7 @@ $$
 \operatorname{Bi as} \left(\widehat {\Delta}_{C}\right) := \operatorname{E} \left[ \widehat {\Delta}_{C} - \alpha^{\prime} (\theta) \right] = o (h)
 $$
 
-which is superior to the  $O(h)$  bias of  $\widehat{\Delta}_F$  in (1). While the central difference estimator requires a little extra work in practice because of the need<sup>1</sup> to estimate  $\alpha (\theta - h)$  in addition to  $\alpha (\theta + h)$  we prefer it to the forward-difference estimator on account of the superior convergence of its bias to zero.
+which is superior to the  $O(h)$  bias of  $\widehat{\Delta}_F$  in (1). While the central difference estimator requires a little extra work in practice because of the need<sup>1</sup> to estimate  $\alpha (\theta - h)$  in addition to  $\alpha (\theta + h)$, we prefer it to the forward-difference estimator on account of the superior convergence of its bias to zero.
 
 ## Variance of the Finite Difference Estimators
 
@@ -82,8 +82,6 @@ under the minor assumption that  $\operatorname{Var}(Y(\theta))$  is continuous 
 In order for case (iii) to apply $^2$  we again need to use common random numbers with the additional condition that the output  $Y(\cdot)$  is continuous in  $\theta$  almost surely. This last condition is often not met which is why case (ii) is the typical case when common random numbers are used. We will return to case (iii) when we discuss the pathwise estimator of Section 2.3.
 
 ## Trading Off Bias and Variance
-
-## Estimation of Second-Order Sensitivities
 
 ## 1.1 System Comparison and Common Random Numbers
 

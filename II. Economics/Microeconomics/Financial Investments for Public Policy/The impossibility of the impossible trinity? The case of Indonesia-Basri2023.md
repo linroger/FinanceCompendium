@@ -95,7 +95,7 @@ The commodity boom and capital inflows have impacted Indonesia, Brazil, and Sout
 
 While the EMDEs benefitted in the short term, this positive impact did not last long because this economic improvement in EMDEs was driven by external factors: capital inflows and commodity booms (Rodrik, 2015). For Indonesia, one of the concerns at the time was the low level of investment in the export-oriented sector. There was also a risk of currency mismatch in the case of FDI oriented to the domestic market because revenue was earned in Rupiah while repatriation was paid in US dollars. In addition, the FDI that was focused on natural resources was highly vulnerable to the commodity supercycle, particularly during commodity price declines.
 
-# Bank Indonesia's response
+### Bank Indonesia's response
 
 Bank Indonesia lowered interest rates to anticipate capital inflows caused by QE. This was in response to lower interest rates in the US and consistent with the framework discussed in section II. As previously stated, the combination of capital inflows, commodity boom, and low interest rates propelled economic growth to above 6 per cent. The commodity super-cycle also caused a significant improvement in Indonesia's current account position.
 
@@ -105,7 +105,7 @@ As previously stated, Bank Indonesia chose to lower interest rates and use forei
 
 When the tapering talks began in 2013, the widening current account deficit and declining foreign exchange reserves (Figure 3) resulted in massive capital outflows. These dynamic capital flows have reduced monetary policy's independence and caused Bank Indonesia to shift its focus from monetary policy to controlling inflation and maintaining the exchange rate (Juhro, 2010; Goeltom and Juhro, 2013). To mitigate the capital outflow, Bank Indonesia implemented various policy responses by allowing the exchange rate to appreciate and accumulating reserve assets. In addition, Bank Indonesia installed different macroprudential policies, including implementing reserve requirements, mitigating the impact of the US dollar flowing into the economy, and creating a 6-month holding period for investors buying central bank bills, among other levers (Agung et al., 2022)
 
-# The role of fiscal policy
+### The role of fiscal policy
 
 Fiscal policy is one tool for managing capital flows and commodity super-cycles. However, there is a risk that fiscal policy will become procyclical to capital flows and commodity super-cycles, particularly in developing countries.
 
@@ -124,9 +124,9 @@ To mitigate the impact of the terms-of-trade shock, theoretically, central banks
 
 Another option is to cut fuel subsidies and use the savings to help the poor. However, experience shows that these policies are not politically simple (this is discussed in section V).
 
-# (ii) The 2013 taper tantrum
+### (ii) The 2013 taper tantrum
 
-# Background
+#### Background
 
 In May 2013, Fed Chairman Ben Bernanke considered tapering QE to end the programme. These comments resulted in a fall in EMDE stock markets and currency rates, especially in countries with current account deficits (Aizenman et al., 2014). Eichengreen and Gupta (2014) argue taper tantrums were far worse in countries with significant currency appreciation and widening current account deficits. Here we see how QE policies caused the currency to appreciate, widening the current account deficit in the following period (the taper tantrum period).
 
@@ -134,7 +134,7 @@ The Fragile Five countries, including Indonesia, were hit especially hard by thi
 
 Policy-makers in Indonesia focused on efforts to reduce the current account deficit because tapering talks was beyond their control. The government addressed this by implementing expenditure-reducing and expenditure-switching policies. They reduced expenditure by decreasing fuel subsidies and raising interest rates to limit investment, thus lowering the budget deficit. They also set an expenditure-switching policy by allowing the exchange rate to follow the market. As a result, Indonesia, like India, handled the problem relatively successfully.
 
-# Bank Indonesia's policy responses
+### Bank Indonesia's policy responses
 
 Consistent with the framework discussed in section II, and in response to tapering in the US, Bank Indonesia raised interest rates by 175 bps to anticipate capital outflows caused by taper tantrum. This contractionary policy to mitigate capital outflows dragged down the economic growth to around 5.5 per cent. While Indonesia and India managed to stabilize their financial markets and were no longer classified as members of the Fragile Five shortly, policy-makers faced a policy conundrum.<sup>4</sup>
 
@@ -142,9 +142,7 @@ Higher interest rates, exchange rate depreciation, and sterilized intervention a
 
 As previously stated, Bank Indonesia chose to raise interest rates to moderate the depreciation of the exchange rate and intervene in the currency market to prevent excessive volatility. However, there was a cost here: the slowdown of economic growth and full employment (Figure 3). As stated earlier, these dynamic capital flows have reduced monetary policy's independence and caused Bank Indonesia to shift the focus of its monetary policy from the safeguarding of employment to the control inflation and the stabilization of the exchange rate (Juhro, 2010). Bank Indonesia also took multiple steps, including several macroprudential measures, such as tightening loan-to-value rules. In addition, it imposed a penalty if the loan-to-deposit ratio fell below 80 per cent or exceeded 92 per cent. Finally, Bank Indonesia attempted to address the growing private foreign debt by requiring non-financial enterprises to hedge their foreign exchange exposure in 2014 (Agung et al., 2019).
 
-Interestingly, despite the Rupiah's significant depreciation during the 2013 taper tantrum, Indonesia did not encounter a currency crisis. Basri (2017) argues that, unlike at the time of the Asian Financial Crisis, there was not a fundamental problem in Indonesia's banking sector at this time. It is true that the taper tantrum took place when there was a large current account deficit. Nevertheless a combination of monetary tightening, budget cuts, and a
-
-depreciating exchange rate worked well. In particular, because Indonesian banking conditions in 2013 were so much better than in 1998, an increase in interest rates by 175 bps did not greatly affect the banking sector.
+Interestingly, despite the Rupiah's significant depreciation during the 2013 taper tantrum, Indonesia did not encounter a currency crisis. Basri (2017) argues that, unlike at the time of the Asian Financial Crisis, there was not a fundamental problem in Indonesia's banking sector at this time. It is true that the taper tantrum took place when there was a large current account deficit. Nevertheless a combination of monetary tightening, budget cuts, and a depreciating exchange rate worked well. In particular, because Indonesian banking conditions in 2013 were so much better than in 1998, an increase in interest rates by 175 bps did not greatly affect the banking sector.
 
 # The role of fiscal policy
 
@@ -204,11 +202,9 @@ The combination of monetary and fiscal expansion (section III) increased aggrega
 
 The increase (decrease) of commodity and energy prices have a bi-distributional effect. On the one hand, the increase in energy prices has benefitted commodity exporters, but it has created a burden for consumers. As a result, some groups benefitted from the commodity boom (energy and commodity exporters) and other groups that suffered losses as a result of the commodity boom (consumers). Conceptually, what the government needs to do is tax rents from commodity and energy exporters and distribute them to consumers. However, we must proceed with this policy with caution because subsidies to all consumers are not always well-targeted. Several studies, including Alatas et al. (2019); Basri et al. (2020); Coady et al. (2015) demonstrate that Indonesia's fuel subsidy policy is an inefficient subsidy policy that primarily benefits the upper-middle class and not the poor. Furthermore, the addition of subsidies will put pressure on a larger budget deficit (this is discussed further below).
 
-# (iii) Income redistribution effect and fiscal procyclicality
+### (iii) Income redistribution effect and fiscal procyclicality
 
-As previously stated, the government's efforts to protect consumers through increased subsidies result in fiscal policy expansion. Fiscal policy becomes procyclical as a result of the effect of income redistribution. As discussed in point (i) Indonesia should implement a tight fiscal policy when capital inflows occur, but the commodity supercycle makes the fiscal policy procyclical. To address this issue, the government must implement targeted subsidies to ensure that benefits reach the poor. As a result, fuel subsidies must be reduced and redistributed to the poor. This
-
-will help reduce the subsidy burden and at the same time protect the vulnerable. Reducing spending on fuel subsidies would position Indonesia's fiscal policy to be more counter-cyclical and make room for more discretionary spending (Basri and Rahardja, 2011). Those three factors fall beyond the scope of the trilemma. The commodity super-cycle makes it extremely difficult to implement policy choices in the trilemma.
+As previously stated, the government's efforts to protect consumers through increased subsidies result in fiscal policy expansion. Fiscal policy becomes procyclical as a result of the effect of income redistribution. As discussed in point (i) Indonesia should implement a tight fiscal policy when capital inflows occur, but the commodity supercycle makes the fiscal policy procyclical. To address this issue, the government must implement targeted subsidies to ensure that benefits reach the poor. As a result, fuel subsidies must be reduced and redistributed to the poor. This will help reduce the subsidy burden and at the same time protect the vulnerable. Reducing spending on fuel subsidies would position Indonesia's fiscal policy to be more counter-cyclical and make room for more discretionary spending (Basri and Rahardja, 2011). Those three factors fall beyond the scope of the trilemma. The commodity super-cycle makes it extremely difficult to implement policy choices in the trilemma.
 
 The opposite was true in 2012, when energy and commodity prices began to fall, reducing export revenues. The drop in commodity and energy prices increased the current account deficit due to the collapse of exports and limited the ability to engage in counter-cyclical activities. When confronted with a trade (current account) deficit and an economic slowdown, the government should embark on fiscal expansion. However, if the government increases spending, the current account deficit will rise. This may cause more money to leave the country, causing the exchange rate to overshoot. The Indonesian government and Bank Indonesia faced a policy dilemma here. The Indonesian government decided to reduce fuel subsidies in 2013, raising the price by 45 per cent and allocating some of the funds for social assistance for the poor, such as direct cash transfers, infrastructure development, and health programmes. This policy had two effects: reducing the current account deficit and making the fiscal policy less procyclical by increasing the capacity in the government budget for discretionary spending. According to Basri et al. (2020), this policy is a triple win. First, it benefits the environment, reducing the demand for fossil fuels. Second, it benefits the poor because fuel subsidies are enjoyed mainly by the upper-middle class. Third, it benefits macroeconomic management because it provides fiscal space and eases pressures on the current account deficit. Nonetheless, because the overall government spending cut was procyclical, it negatively affected growth.
 
@@ -216,7 +212,7 @@ As previously discussed, under these circumstances, the Indonesian government sh
 
 Fiscal policy is thus constrained and procyclical as a result. Failing to anticipate either the impact of the commodity super-cycle or fiscal procyclicality can result in a macroeconomic shock for the economy and a shock in the external balance. Monetary policy is incapable of resolving this. In other words, commodity super-cycles and fiscal procyclicality make implementing the trilemma more difficult. These aspects of the Indonesian economy influence and affect how Indonesian policy-makers make decisions and policy choices.
 
-# VI. Capital flow management
+## VI. Capital flow management
 
 We have shown how the QE episode and the taper tantrum episode highlight the difficulty that policy-makers in EMDEs, particularly Indonesia, face in implementing the policy choices described in the impossible trinity or triplemma. We have given three reasons for this, namely the existence of more than one objective of monetary policy, the volatility of exchange rates, and the influence of balanced sheet effects. We have also shown that the commodity supercycle can increase this difficulty because of its effects on fiscal policy, income redistribution, the trade balance and the exchange rate.
 
@@ -232,7 +228,7 @@ Despite this, it is important to note that capital flow management should not be
 
 An underlying but common feature of the QE and TT episodes and the commodity supercycle is the importance of institutions. Good institutions can help to stabilize portfolio capital flows and promote FDI. The need for capital control is reduced when institutions are strong. Furthermore, fiscal policy is inextricably linked to political economy and institutions, as discussed in section III. As a result, we consider it appropriate to touch on this issue in the next section.
 
-# (i) How institutions complicate macroprudential policy
+### (i) How institutions complicate macroprudential policy
 
 In conjunction with capital flow management, institutional quality is critical to attract capital flows and reduce volatility. One of the main reasons that the effect of the taper tantrum was so exacerbated in Indonesia was that political pressure led to a delay in the speed with which the government was able to respond. As such, the strength, trust, agility, and capability of the institutions in a country are key factors in its ability to respond to capital volatility.
 
@@ -240,9 +236,7 @@ Among the research analysing the relationship between institutional quality and 
 
 There are various reasons cited for the Lucas Paradox and why emerging economies suffer from a lack of FDI. For example, Lucas (1990) suggests that low levels of human capital reduce the return to capital and may thus block foreign investment. Caselli and Feyrer (2007) suggest that a related difficulty may arise because of the lack of complementarity of human capital to physical capital. Capital flows to the developing world may also be blocked by moral hazard and lack of collateral (e.g., Gertler and Rogoff, 1990), a history of serial default (e.g. Reinhart and Rogoff, 2004), or due to informational frictions (e.g. Portes and Rey, 2005). In addition, capital may flow 'upwards' as rich countries' larger market size is associated with superior diversification opportunities and low transaction costs (e.g. Martin and Rey, 2004). Well-functioning institutions and foreign investment may also be affected by a third, hard-to-account-for factor, namely trust or, more generally, social capital (e.g. Guiso et al., 2004, 2006). In addition, there might also be an issue of reverse causation, as foreign investors ask governments to enhance investor protection, remove bureaucratic barriers, and tackle corruption. Alfaro et al. (2008) find that institutional quality has shaped international capital flows in the last 30 years.
 
-Papaioannou (2009) finds that institutional underdevelopment (political risk) is a key explanatory factor of the lack of foreign financing in the developing and underdeveloped world. Poorly performing institutions, resulting in weak protection of property rights, legal inefficiency, and a high risk of expropriation, are significant impediments to foreign bank capital. Alfaro and Charlton (2007) find that bad policies, such as fiscal deficits, inflation, and bank fragility, seem to matter for the financial crises, which may be regarded as episodes of extreme volatility. Countries with lower levels of inflation volatility tend to experience lower levels of uncertainty regarding the
-
-inflows of external capital. When not followed by proper regulation and supervision, financial liberalization can lead to greater capital flows intermediated through banks and increasing bank credit and later to abrupt reversals in capital flows. Moreover, the positive correlation between bank credit and capital flow volatility might be due to cronyism in the banking sector.
+Papaioannou (2009) finds that institutional underdevelopment (political risk) is a key explanatory factor of the lack of foreign financing in the developing and underdeveloped world. Poorly performing institutions, resulting in weak protection of property rights, legal inefficiency, and a high risk of expropriation, are significant impediments to foreign bank capital. Alfaro and Charlton (2007) find that bad policies, such as fiscal deficits, inflation, and bank fragility, seem to matter for the financial crises, which may be regarded as episodes of extreme volatility. Countries with lower levels of inflation volatility tend to experience lower levels of uncertainty regarding the inflows of external capital. When not followed by proper regulation and supervision, financial liberalization can lead to greater capital flows intermediated through banks and increasing bank credit and later to abrupt reversals in capital flows. Moreover, the positive correlation between bank credit and capital flow volatility might be due to cronyism in the banking sector.
 
 Taking Indonesia's case, it could be that if emerging economies such as Indonesia are better suited to manage the instability created by short-term inflows of portfolio capital, then this would create a less risky environment for those wishing to carry out FDI.
 
@@ -250,7 +244,7 @@ The importance of best practice policy responses to capital volatility is even m
 
 However, macroprudential policy is more challenging to implement with lower institutional quality and trust. As seen in previous sections, many reasons inhibit the implementation of what may be the theoretically correct macroprudential policy: the commodity super-cycle and fiscal policy procyclicality, dependencies on the budget cycle, political backlash from cutting back spending, and jittery markets sensitive to foreign exchange volatility following the Asian Financial Crisis. Indonesia arguably handled the taper tantrum relatively well by bucking the trend of increasing government spending and instead lowered the budget deficit by decreasing fuel subsidies. Furthermore, it avoided the sharp depreciation in the real exchange rate, tailoring its policy to the domestic context. Overall, the 2013 taper tantrum episode in Indonesia provides an interesting case study of how a developing country reacts to a huge capital inflow and potential lessons learned for other developing countries facing similar issues.
 
-# VII. The way ahead. Indonesia: more stable, yet remains vulnerable
+## VII. The way ahead. Indonesia: more stable, yet remains vulnerable
 
 Despite various reforms, Indonesia is still vulnerable to external shocks (Basri, 2018). For example, interest rate increases in the United States are expected to cause a 'taper tantrum 2.0', albeit on a smaller scale than in 2013. Pressure on the exchange rate will occur, as well as contractionary effects via balance sheet effects. This will cause economic disturbance as the world recovers from the Covid-19 pandemic. Furthermore, the risk of non-performing loans (NPLs) rises. Indonesia is currently relaxing regulatory forbearance, so the NPLs appear low, but the loan at risk (LaR) is relatively high. As a result, if the Financial Supervision Agency performs normalization, the NPLs will rise. A significant increase in the Fed Funds Rate creates a dilemma for Bank Indonesia: on the one hand, if Bank Indonesia does not follow the Fed's interest rate increase, there is a risk of Rupiah depreciation due to capital outflows; on the other hand, if the interest rate is raised, the risk of NPLs increases, undermining the economic recovery. In this context, the policy mix of interest rate, foreign reserves intervention, macroprudential policy, and capital flow management becomes critical. It is also worth noting that, in the case of Indonesia, the government intends to reduce the budget deficit to less than 3 per cent by 2023. This must be done with caution, as the simultaneous tightening of monetary and fiscal policy can be a double whammy (Basri et al., 2022). The timing of stimulus withdrawal becomes critical, and it must be based on the evolution of the economic situation.
 
@@ -260,7 +254,7 @@ All of the issues raised in this paper leave us with few policy options and rais
 
 We would like to thank David Vines for his insightful suggestions and comments. We also thank the anonymous referee, Isabel Ruiz, and all of the participants in the Oxford Review of Economic Policy Editorial Seminar for their insightful comments. Any mistakes are ours.
 
-# References
+## References
 
 Aizenman, J., Binici, M., and Hutchison, M. (2014), 'The Transmission of Federal Reserve Tapering News to Emerging Financial Markets', NBER Working Paper 19980.  
 Agung, J., Juhiro, S. M., Kurniati, Y., Anglingkusumo, R., Sahminan (2019), 'Bank Indonesia Policy Mix', in P. Warjiyo and S. M. Juhiro (eds), Central Bank Policy Mix: Issues, Challenges, and Policy Responses, Singapore, Springer, https://doi.org/10.1007/978-981-16-6827-2_8  

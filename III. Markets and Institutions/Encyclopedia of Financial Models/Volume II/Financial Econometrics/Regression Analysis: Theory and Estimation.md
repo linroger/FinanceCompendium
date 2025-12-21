@@ -1,3 +1,24 @@
+---
+title: "Regression Analysis: Theory and Estimation"
+primary_tags:
+  - regression analysis
+  - linear regression models
+  - econometric estimation
+  - statistical inference
+  - financial econometrics
+secondary_tags:
+  - least squares estimation
+  - hypothesis testing
+  - model diagnostics
+  - heteroscedasticity
+  - autocorrelation
+  - multicollinearity
+  - time series regression
+  - cross sectional analysis
+  - parameter estimation
+  - statistical significance
+cssclasses: academia
+---
 
 # Regression Analysis: Theory and Estimation
 
@@ -9,15 +30,15 @@ FRANK J. FABOZZI, PhD, CFA, CPA
 
 Professor of Finance, EDHEC Business School
 
-Abstract: The tools of financial econometrics play an important role in financial model building. The most basic tool is in financial econometrics is regression analysis. The purpose in regression analysis is to estimate the relationship between a random variable and one or more independent variables. To understand and apply regression analysis one must understand the theory and the methodologies for estimating the parameters of the regression model. Moreover, when the assumptions underlying the model are violated, it is necessary to know how to remedy the problem.
+Abstract: The tools of financial econometrics play an important role in financial model building. The most basic tool in financial econometrics is regression analysis. The purpose in regression analysis is to estimate the relationship between a random variable and one or more independent variables. To understand and apply regression analysis one must understand the theory and the methodologies for estimating the parameters of the regression model. Moreover, when the assumptions underlying the model are violated, it is necessary to know how to remedy the problem.
 
-Our first basic tool in econometrics is regression analysis. In regression analysis, we estimate the relationship between a random variable  $Y$  and one or more variables  $X_{i}$ . The variables  $X_{i}$  can be either deterministic variables or random variables. The variable  $Y$  is said to be the dependent variable because its value is assumed to be dependent on the value of the  $X_{i}$ 's. The  $X_{i}$ 's are referred to as the independent variables, regressor variables, or explanatory variables. Our primary focus is on the linear regression model. We will be more precise about what we mean by a "linear" regression model later in this entry. Let's begin with a discussion of the concept of dependence.
+Our first basic tool in econometrics is regression analysis. In regression analysis, we estimate the relationship between a random variable $Y$ and one or more variables $X_{i}$. The variables $X_{i}$ can be either deterministic variables or random variables. The variable $Y$ is said to be the dependent variable because its value is assumed to be dependent on the value of the $X_{i}$'s. The $X_{i}$'s are referred to as the independent variables, regressor variables, or explanatory variables. Our primary focus is on the linear regression model. We will be more precise about what we mean by a "linear" regression model later in this entry. Let's begin with a discussion of the concept of dependence.
 
 # THE CONCEPT OF DEPENDENCE
 
-Regressions are about dependence between variables. In this section we provide a brief discussion of how dependence is represented in both a deterministic setting and a probabilistic setting. In a deterministic setting, the concept of dependence is embodied in the mathematical notion of function. A function is a correspondence between the individuals of a given domain  $A$  and the individuals of a given range  $B$ . In particular, numerical functions establish a correspondence between numbers in a domain  $A$  and numbers in a range  $B$ .
+Regressions are about dependence between variables. In this section we provide a brief discussion of how dependence is represented in both a deterministic setting and a probabilistic setting. In a deterministic setting, the concept of dependence is embodied in the mathematical notion of function. A function is a correspondence between the individuals of a given domain $A$ and the individuals of a given range $B$. In particular, numerical functions establish a correspondence between numbers in a domain $A$ and numbers in a range $B$.
 
-In quantitative science, we work with variables obtained through a process of observation or measurement. For example, price is the observation of a transaction, time is the reading of a clock, position is determined with measurements of the coordinates, and so on. In quantitative science, we are interested in numerical functions  $y = f(x_{1},\ldots ,x_{n})$  that link the results of measurements so that by measuring the independent variables  $(x_{1},\dots,x_{n})$  we can predict the value of the dependent variable  $y$ . Being the results of measurements, variables are themselves functions that link a set  $\Omega$  of unobserved "states of the world" to observations. Different states of the world result in different values for the variables but the link among the variables remains constant. For example, a column of mercury in a thermometer is a physical object that can be in different "states." If we measure the length and the temperature of the column (in steady conditions), we observe that the two measurements are linked by a well-defined (approximately linear) function. Thus, by measuring the length, we can predict the temperature.
+In quantitative science, we work with variables obtained through a process of observation or measurement. For example, price is the observation of a transaction, time is the reading of a clock, position is determined with measurements of the coordinates, and so on. In quantitative science, we are interested in numerical functions $y = f(x_{1},\ldots ,x_{n})$ that link the results of measurements so that by measuring the independent variables $(x_{1},\dots,x_{n})$ we can predict the value of the dependent variable $y$. Being the results of measurements, variables are themselves functions that link a set $\Omega$ of unobserved "states of the world" to observations. Different states of the world result in different values for the variables but the link among the variables remains constant. For example, a column of mercury in a thermometer is a physical object that can be in different "states." If we measure the length and the temperature of the column (in steady conditions), we observe that the two measurements are linked by a well-defined (approximately linear) function. Thus, by measuring the length, we can predict the temperature.
 
 In order to model uncertainty, we keep the logical structure of variables as real-valued functions defined on a set  $\Omega$  of unknown states of the world. However, we add to the set  $\Omega$  the structure of a probability space. A probability space is a triple formed by a set of individuals (the states of the world), a structure of events, and a probability function:  $(\Omega, \mathfrak{I}, P)$ . Random variables represent measurements as in the deterministic case, but with the addition of a probability structure that represents uncertainty. In financial econometrics, a "state of the world" should be intended as a complete history of the underlying economy, not as an instantaneous state.
 
@@ -81,7 +102,7 @@ If we know the level of the S&P 500, we do not know the present state of the wor
 If we consider a discrete setting, that is, if we consider only a discrete set of possible IBM stock prices and S&P 500 values, then the computation of the conditional expectation can be performed using the standard definition of conditional probability. In particular, the conditional expectation of a random variable  $Y$  given the event  $B$  is equal to the unconditional expectation of the variable  $Y$  set to zero outside of  $B$  and divided by the probability of  $B$ :  $E[Y|B] = \mathrm{E}[1_{\mathrm{B}}Y] / \mathrm{P}(B)$ , where  $1_{B}$  is the indicator function of the set  $B$ , equal to 1 for all elements of  $B$ , zero elsewhere. Thus, in this example,
 
 $$
-\begin{array}{l} \mathrm{E} [ \text{IB Ms to ck pr ic e} | \text{S} \& \text{P} 5 0 0 \text{va lu e} = \mathrm{s} ] \\ = E \left[ 1_{\left(\mathrm{S} \& \mathrm{P} 5 0 0 \text{va lu e} = s\right)} (\text{IB Ms to ck pr ic e}) \right] / \\ P (\mathrm{S} \& \mathrm{P} 5 0 0 \text{va lu e} = s) \\ \end{array}
+\begin{array}{l} \mathrm{E} [ \text{IBM stock price} | \text{S \& P 500 value} = \mathrm{s} ] \\ = E \left[ 1_{\left(\mathrm{S \& P 500 value} = s\right)} (\text{IBM stock price}) \right] / \\ P (\mathrm{S \& P 500 value} = s) \\ \end{array}
 $$
 
 However, in a continuous-state setting there is a fundamental difficulty: The set of states of the world corresponding to any given value of the S&P 500 has probability zero; therefore we cannot normalize dividing by  $P(B)$ . As a consequence we cannot use the standard definition of conditional probability to compute directly the conditional expectation.
@@ -161,7 +182,7 @@ E [ Y ] = E \left[ E \left[ Y \mid X_{1}, \dots , X_{N} \right] \right] + E [ \v
 $$ hence  $E[\varepsilon] = 0$ .
 
 
-Property 3: The residuals are uncorrelated with the variables  $X_{1},\ldots ,X_{N}$  ..  $E[\varepsilon X] = 0$  . This follows from equation (6) by multiplying both sides of equation (7) by  $X_{1},\ldots ,X_{N}$  and taking expectations. Note however, that the residuals are not necessarily independent of the regressor  $X$
+Property 3: The residuals are uncorrelated with the variables $X_{1},\ldots ,X_{N}$. $E[\varepsilon X] = 0$. This follows from equation (6) by multiplying both sides of equation (7) by $X_{1},\ldots ,X_{N}$ and taking expectations. Note however, that the residuals are not necessarily independent of the regressor $X$
 
 
 If the regression function is linear, we can write the following linear regression equation:

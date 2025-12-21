@@ -1,29 +1,30 @@
 ---
-aliases:
-- Output Analysis and Run-Length Control
-tags: null
-key_concepts: null
-parent_directory: '[[MFE Monte-Carlo Simulation]]'
-cssclasses: academia
-title: Monte Carlo Output Analysis and Run-Length Control - MasterSlides
-linter-yaml-title-alias: Monte Carlo Output Analysis and Run-Length Control - MasterSlides
+title: "MCS Output Analysis MasterSlides (1)"
+parent_directory: "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation"
+formatted: 2025-12-21 11:25:00 PM
+formatter_model: claude-haiku-4-5-20251001
+cli-tool: claude-code
 primary_tags:
-- monte-carlo simulation output analysis
-- central limit theorem
+  - monte carlo simulation
+  - output analysis
+  - central limit theorem
 secondary_tags:
-- output analysis
-- carlo simulation analysis
-- monte simulation analysis
-- martin.b.baugh@gmail.com output analysis
-tags_extracted: '2025-12-18T17:59:46.834152'
-tags_method: max_quality_v1
+  - confidence intervals
+  - chebyshev inequality
+  - run length control
+  - bootstrap method
+  - minimum variance portfolio
+  - strong law of large numbers
+  - empirical distribution
+  - variance estimation
+cssclasses: academia
 ---
 
-# IEOR E4703: Monte-Carlo Simulation
+# MCS Output Analysis MasterSlides (1)
 
-# Output Analysis for Monte-Carlo
+## Output Analysis for Monte-Carlo
 
-# Martin Haugh
+Martin Haugh
 
 Department of Industrial Engineering and Operations Research
 
@@ -31,7 +32,7 @@ Columbia University
 
 Email: martin.b.baugh@gmail.com
 
-# Output Analysis
+## Output Analysis
 
 Recall our simulation framework for estimating  $\theta \coloneqq \mathbb{E}[h(\mathbf{X})]$  where  $\mathbf{X} \in \mathbb{R}^n$ .
 
@@ -44,7 +45,7 @@ $$
 The Strong Law of Large Numbers (SLLN) implies
 
 $$
-\widehat {\theta}_{n} \rightarrow \theta \quad \text{as} n \rightarrow \infty \mathrm{w .p .} 1.
+\widehat {\theta}_{n} \rightarrow \theta \quad \text{as} n \rightarrow \infty \mathrm{w.p.} 1.
 $$
 
 But how large  $n$  should be so that we can have confidence in our estimator,  $\hat{\theta}_n$ ?
@@ -105,7 +106,7 @@ where  $\widehat{\theta}_n = \sum_{i=1}^n Y_i / n$ ,  $\theta := \mathbb{E}[Y_i]
 
 # Using the CLT to Construct Confidence Intervals
 
-Let  $z_{1 - \alpha /2}$  be the the  $(1 - \alpha /2)$  percentile point of the  $N(0,1)$  distribution so that
+Let  $z_{1 - \alpha /2}$  be the  $(1 - \alpha /2)$  percentile point of the  $N(0,1)$  distribution so that
 
 $$
 P (- z_{1 - \alpha / 2} \leq Z \leq z_{1 - \alpha / 2}) = 1 - \alpha
@@ -372,7 +373,7 @@ $$
 is  $1 - \alpha$ . But (10) is equivalent to
 
 $$
-\hat {\theta} - q_{u} \leq \hat {\theta} - \hat {\theta}^{b} \leq \hat {\theta} - q_{l} \tag {11}
+\text{Quotes sampling using closing prices:} \hat {q}_{t} = q_{t, \text{last}} \tag {5}
 $$
 
 where  $\hat{\theta} = g(y_1, \ldots, y_n)$  is our estimate of  $\theta$  computed using original data-set.

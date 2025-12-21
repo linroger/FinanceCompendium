@@ -1,44 +1,45 @@
 ---
+title: "Gains and Losses from Trade in the Specific-factors Model"
 primary_tags:
-- rental earned factor
-- displaced trade today era
-- goods change real
-- gains loses trade
-- gains bolivia
+  - specific factors model
+  - trade gains losses
+  - factor price equalization
+  - international trade effects
 secondary_tags:
-- trade specific factors model
-- rent fact increases means
-- output increase real rental
-- rentals capital land impact
-- factors production gain real
-- rental capital exceeds percentage
-- effect opening trade rental
-- price agriculture change rental
-- means real rental capital
-- production gains contrary shown
-- conclusion increase relative
-- agricultural good rises probably
-tags_extracted: '2025-12-18T00:37:48.195330'
+  - labor earnings trade
+  - capital rental changes
+  - land rental impacts
+  - real wage ambiguity
+  - comparative advantage
+  - production possibilities frontier
+  - marginal product labor
+  - terms of trade
+  - trade adjustment assistance
+  - factor mobility constraints
+cssclasses: academia
 ---
 
 # Gains and Losses from Trade in the Specific-factors Model
 
 The time has come, the awaited day, a historic day in which Bolivia retakes absolute control of our natural resources.
 
-Evo Morales, President of Bolivia,  $ 2006^{1} $
+Evo Morales, President of Bolivia, $2006^{1}$
 
 If we do not take action, those who have the most reason to be dissatisfied with our present rate of growth will be tempted to seek shortsighted and narrow solutions—to resist automation, to reduce the work week to 35 hours or even lower, to shut out imports, or to raise prices in a vain effort to obtain full capacity profits on under-capacity operations. But these are all self-defeating expedients which can only restrict the economy, not expand it.
 
 President John F. Kennedy, New York Economic Club, 1962
 
-1 Specific-Factors Model
-2 Earnings of Labor
-3 Earnings of Capital and Land
-4 Conclusions
+## Specific-Factors Model
+
+## Earnings of Labor
+
+## Earnings of Capital and Land
+
+## Conclusions
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/bec4470c937fec57d5f259b894d07489472f9d25d895d6ad4f80220ff057e652.jpg)
 
-ver the span of three years, 2003 to 2005, Bolivia had three presidents.
+Over the span of three years, 2003 to 2005, Bolivia had three presidents.
 
 This rapid succession at the highest level of government was largely a result of public dissatisfaction with the distribution of gains that had come from exporting natural gas. Many people, including the indigenous Aymara Indians, believed that most of these gains had gone to multinational oil corporations, with little distributed to the citizens of the country in which the gas deposits and refineries are located.
 
@@ -53,21 +54,19 @@ criticized heavily by foreign governments, was supported by people in Bolivia. B
 
 The Bolivian experience illustrates the difficulty of ensuring that all people within a country share in the gains from trade. Despite the abundant natural gas resources along with other minerals such as silver, tin and lithium—used to make car batteries—many of the local population remained in poverty. The difficulty of sharing these gains among Bolivia's citizenry makes the export of gas a contentious issue. Although the export of natural gas clearly generated gains for the foreign-owned and state-owned companies that sold the resources, the indigenous peoples did not historically share in those gains.
 
-A new constitution in 2009 gave indigenous peoples control over natural resources in their territories. Companies from Japan and Europe made deals with the Morales government to extract this resource, but the government ensured that the gains flowed to the local population through poverty reduction programs. Since 2009, Bolivia has experienced high economic growth, averaging  $ 4.7\% $  over the past five years. There has been substantial migration from indigenous rural locations to cities such as El Alto, which was formerly the site of violent protests, but now is host to thriving small businesses owned by men and women.[2]
+A new constitution in 2009 gave indigenous peoples control over natural resources in their territories. Companies from Japan and Europe made deals with the Morales government to extract this resource, but the government ensured that the gains flowed to the local population through poverty reduction programs. Since 2009, Bolivia has experienced high economic growth, averaging $4.7\%$ over the past five years. There has been substantial migration from indigenous rural locations to cities such as El Alto, which was formerly the site of violent protests, but now is host to thriving small businesses owned by men and women.[2]
 
 A key lesson from this chapter is that in most cases, opening a country to trade generates winners and losers. In general, the gains of those who benefit from trade exceed the losses of those who are harmed, and in this sense there are overall gains from trade. That was a lesson from the Ricardian model in the last chapter. But our argument in the last chapter that trade generates gains for all workers was too simple because, in the Ricardian model, labor is the only factor of production. Once we make the more realistic assumption that capital and land are also factors of production, then trade generates gains for some factors and losses for others. Our goal in this chapter is to determine who gains and who loses from trade and under what circumstances.
 
-The model we use to analyze the role of international trade in determining the earnings of labor, land, and capital assumes that one industry (agriculture) uses labor and land and the other industry (manufacturing) uses labor and capital. This model is sometimes called the specific-factors model because land is specific to the agriculture sector and capital is specific to the manufacturing sector; labor is used in both sectors, so it is not specific to either one. The idea that land is specific to agriculture and that capital is specific to manufacturing might be true in the short run but does not really hold in the long run. In later chapters, we develop a long-run model, in which capital
+The model we use to analyze the role of international trade in determining the earnings of labor, land, and capital assumes that one industry (agriculture) uses labor and land and the other industry (manufacturing) uses labor and capital. This model is sometimes called the specific-factors model because land is specific to the agriculture sector and capital is specific to the manufacturing sector; labor is used in both sectors, so it is not specific to either one. The idea that land is specific to agriculture and that capital is specific to manufacturing might be true in the short run but does not really hold in the long run. In later chapters, we develop a long-run model, in which capital and other resources can be shifted from use in one industry to use in another. For now we focus on the short-run specific-factors model, which offers many new insights about the gains from trade beyond those obtained from the Ricardian model.
 
-and other resources can be shifted from use in one industry to use in another. For now we focus on the short-run specific-factors model, which offers many new insights about the gains from trade beyond those obtained from the Ricardian model.
-
-# 1 Specific-factors Model
+## 1 Specific-Factors Model
 
 We address the following question in the specific-factors model: How does trade affect the earnings of labor, land, and capital? We have already seen from our study of the Ricardian model that when a country is opened to free trade, the relative price of exports rises and the relative price of imports falls. Thus, the question of how trade affects factor earnings is really a question of how changes in relative prices affect the earnings of labor, land, and capital. The idea we develop in this section is that the earnings of specific or fixed factors (such as capital and land) rise or fall primarily because of changes in relative prices (i.e., specific factor earnings are the most sensitive to relative price changes) because in the short run they are "stuck" in a sector and cannot be employed in other sectors. In contrast, mobile factors (such as labor) can offset their losses somewhat by seeking employment in other industries.
 
 As in our study of international trade in Chapter 2, we look at two countries, called Home and Foreign. We first discuss the Home country.
 
-# The Home Country
+### The Home Country
 
 Let us call the two industries in the specific-factors model "manufacturing" and "agriculture." Manufacturing uses labor and capital, whereas agriculture uses labor and land. In each industry, increases in the amount of labor used are subject to diminishing returns; that is, the marginal product of labor declines as the amount of labor used in the industry increases. Figure 3-1, panel (a), plots output against the amount
 
@@ -94,35 +93,43 @@ Agriculture output,  $ Q_{A} $
 
 Frontier The production possibilities frontier shows the amount of agricultural and manufacturing outputs that can be produced in the economy with labor. Its slope equals  $ -MPL_{A} / MPL_{M} $ , the ratio of the marginal products of labor in the two industries. The slope of the PPF can be interpreted as the opportunity cost of the manufacturing output—it is the amount of the agricultural good that would need to be given up to obtain one more unit of output in the manufacturing sector.
 
-the value of one more hour of labor in terms of output. In turn, the value of one more hour of labor equals the amount of goods produced in that hour (the marginal product of labor) times the price of the good. In manufacturing, labor will be hired to the point at which the wage  $ W $ equals the price of manufacturing $ P_M $ times the marginal product of labor in manufacturing $ MPL_M $. $ $
-W = P_{M} \cdot M P L_{M}
-$ $
+the value of one more hour of labor in terms of output. In turn, the value of one more hour of labor equals the amount of goods produced in that hour (the marginal product of labor) times the price of the good. In manufacturing, labor will be hired to the point at which the wage $W$ equals the price of manufacturing $P_M$ times the marginal product of labor in manufacturing $MPL_M$.
 
-Similarly, in agriculture, labor will be hired to the point at which the wage  $ W $ equals the price of agriculture $ P_A $ times the marginal product of labor in agriculture $ MPL_A $. $ $
-W = P_{A} \cdot M P L_{A}
-$ $
+$$
+W = P_{M} \cdot MPL_{M}
+$$
 
-Because we are assuming that labor is free to move between sectors, the wages in these two equations must be equal. If the wage were not the same in both sectors, labor would move to the sector with the higher wage. This movement would continue until the increase in the amount of labor in the high-wage sector drove down the wage, and the decrease in amount of labor in the low-wage sector drove up the wage, until the wages were equal. By setting the two wage equations equal, we obtain  $ P_{M} \cdot MPL_{M} = P_{A} \cdot MPL_{A} $, and by rearranging terms, we get $ $
-\left(P_{M} / P_{A}\right) = \left(M P L_{A} / M P L_{M}\right)
-$ $
+Similarly, in agriculture, labor will be hired to the point at which the wage $W$ equals the price of agriculture $P_A$ times the marginal product of labor in agriculture $MPL_A$.
+
+$$
+W = P_{A} \cdot MPL_{A}
+$$
+
+Because we are assuming that labor is free to move between sectors, the wages in these two equations must be equal. If the wage were not the same in both sectors, labor would move to the sector with the higher wage. This movement would continue until the increase in the amount of labor in the high-wage sector drove down the wage, and the decrease in amount of labor in the low-wage sector drove up the wage, until the wages were equal. By setting the two wage equations equal, we obtain $P_{M} \cdot MPL_{M} = P_{A} \cdot MPL_{A}$, and by rearranging terms, we get
+
+$$
+\left(P_{M} / P_{A}\right) = \left(MPL_{A} / MPL_{M}\right)
+$$
 
 This equation shows that the relative price of manufacturing  $ (P_M / P_A) $ equals the opportunity cost of manufacturing $ (MPL_A / MPL_M) $, the slope of the production possibilities frontier. These relative prices also reflect the value that Home consumers put on manufacturing versus food. In the absence of international trade, the equilibrium for the Home economy is at point $ A $ in Figure 3-3, where the relative price of manufacturing $ (P_M / P_A) $ equals the slope of the PPF as well as the slope of the indifference curve for a representative consumer with utility of $ U_{1} $ . The intuition for the
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/60502aa35b338e9038583c5eef27fd9903bbddb1064c5405fa80688a31191192.jpg)
 FIGURE 3-3
-Agriculture output,  $ Q_{A} $ Increase in the Relative Price of Manufactures In the absence of international trade, the economy produces and consumes at point $ A $. The relative price of manufactures, $ P_{M} / P_{A} $, is the slope of the line tangent to the PPF and indifference curve, $ U_{1} $, at point $ A $. With international trade, the economy is able to produce at point $ B $ and consume at point $ C $. The world relative price of manufactures, $ (P_{M} / P_{A})^{W} $, is the slope of the line $ BC $. The rise in utility from $ U_{1} $ to $ U_{2} $ is a measure of the gains from trade for the economy. $ $
-= \mathrm{te rm s} \frac{\mathrm{tr ad e}}{\mathrm{pr ex po rt}} = \frac{\mathrm{P_{ex po rt}}}{\mathrm{P_{im po rt}}} = \mathrm{re la ti ve pr ic em an uo fa ct or -y} = \frac{\mathrm{P_{M}}}{\mathrm{P_{A}}}
-$ $
+Agriculture output,  $ Q_{A} $ Increase in the Relative Price of Manufactures In the absence of international trade, the economy produces and consumes at point $ A $. The relative price of manufactures, $ P_{M} / P_{A} $, is the slope of the line tangent to the PPF and indifference curve, $ U_{1} $, at point $ A $. With international trade, the economy is able to produce at point $ B $ and consume at point $ C $. The world relative price of manufactures, $ (P_{M} / P_{A})^{W} $, is the slope of the line $ BC $. The rise in utility from $U_{1}$ to $U_{2}$ is a measure of the gains from trade for the economy.
+
+$$
+\frac{P_{export}}{P_{import}} = \frac{P_{M}}{P_{A}}
+$$
 
 no-trade equilibrium is exactly the same as for the Ricardian model in Chapter 2: equilibrium occurs at the tangency of the PPF and the consumer's indifference curve. This point on the PPF corresponds to the highest possible level of utility for the consumer.
 
-# The Foreign Country
+## The Foreign Country
 
 In this chapter, we do not discuss the Foreign country in any detail. Instead, we simply assume that the no-trade relative price of manufacturing in Foreign  $ (P_M^* / P_A^*) $ differs from the no-trade price $ (P_M / P_A) $  at Home. There are several reasons why these prices can differ. In the previous chapter, we showed how differences in productivities across countries cause the no-trade relative prices to differ across countries. That is the key assumption, or starting point, of the Ricardian model. Another reason for relative prices to differ, which we have not yet investigated, is that the amounts of labor, capital, or land found in the two countries are different. (That will be the key assumption of the Heckscher-Ohlin model, which we discuss in the next chapter.)
 
 For now, we will not explain why the no-trade relative prices differ across countries but will take it for granted that this is not unusual. For the sake of focusing on one case, let us assume that the Home no-trade relative price of manufacturing is lower than the Foreign relative price,  $ (P_M / P_A) < (P_M^* / P_A^*) $ . This assumption means that Home can produce manufactured goods relatively cheaper than Foreign, or, equivalently, that Home has a comparative advantage in manufacturing.
 
-# Overall Gains from Trade
+## Overall Gains from Trade
 
 Starting at the no-trade equilibrium point  $ A $ in Figure 3-3, suppose that the Home country opens up to international trade with Foreign. Once trade is opened, we expect that the world equilibrium relative price, that is, the relative price in all countries $ (P_M / P_A)^W $, will lie between the no-trade relative prices in the two countries, so $ $
 \left(P_{M} / P_{A}\right) <   \left(P_{M} / P_{A}\right)^{W} <   \left(P_{M}^{*} / P_{A}^{*}\right)
@@ -134,9 +141,9 @@ What is the effect of this increase in  $ (P_M / P_A) $ at Home? The higher rela
 
 Notice that the good whose relative price goes up (manufacturing, for Home) is exported and the good whose relative price goes down (agriculture, for Home) is imported. By exporting manufactured goods at a higher price and importing food at a lower price, Home is better off than it was in the absence of trade. To measure the gains from trade, economists rely on the price increases for exports and the price decreases for imports to determine how much extra consumption a country can afford. The following application considers the magnitude of the overall gains from trade in historical cases in which the gains have been measured.
 
-# Application
+## Application
 
-# How Large Are the Gains from Trade?
+### How Large Are the Gains from Trade?
 
 How large are the overall gains from trade? There are a few historical examples of countries that have moved from autarky (i.e., no trade) to free trade, or vice versa, quickly enough that we can use the years before and after this shift to estimate the gains from trade.
 
@@ -150,11 +157,11 @@ GDP before the embargo. Taking the ratio of these numbers, we conclude that the 
 
 Another historical case was Japan's rapid opening to the world economy in 1854, after 200 years of self-imposed autarky. In this case, military action by Commodore Matthew Perry of the United States forced Japan to open up its borders so that the United States could establish commercial ties. When trade was opened, the prices of Japanese exports to the United States (such as silk and tea) rose, and the prices of U.S. imports (such as woolens) fell. These price movements were a terms-of-trade gain for Japan, very much like the movement from the no-trade point  $ A $ in Figure 3-3 to a trade equilibrium at points $ B $ and $ C $. According to one estimate, Japan's gains from trade after its opening were 4 to $ 5\% $  of GDP. The gains were not one-sided, however; Japan's trading partners—such as the United States—also gained from being able to trade in the newly opened markets.
 
-# 2 Earnings of Labor
+## 2 Earnings of Labor
 
 Because there are overall gains from trade, someone in the economy must be better off, but not everyone is better off. The goal of this chapter is to explore how a change in relative prices, such as that shown in Figure 3-3, feeds back into the earnings of workers, landowners, and capital owners. We begin our study of the specific-factors model by looking at what happens to the wages earned by labor when there is an increase in the relative price of manufactures.
 
-# Determination of Wages
+### Determination of Wages
 
 To determine wages, it is convenient to take the marginal product of labor in manufacturing  $ (MPL_M) $, which was shown in Figure 3-1, panel (b), and the marginal product of labor in agriculture $ (MPL_A) $ , and put them in one diagram.
 

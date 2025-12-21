@@ -5,20 +5,12 @@ primary_tags:
 - real wage discuss productivity
 - productivity growth contradicts
 - 1980 boatloads refugees cuba
-secondary_tags:
-- rental indication productivity growth
-- capital showing theoretical results
-- growth capital accumulation
-- average growth real
-- singapore real wages
-- singapore zero productivity growth
-- capital flows conclusions cubans
-- labor migration described mariel
-- 1960s capital accumulation productivity
-- wage real rental zero
-- calculated real rental falls
-- calculating foreign income
-tags_extracted: '2025-12-18T00:38:10.117419'
+ secondary_tags:
+ - labor migration described mariel
+ - 1960s capital accumulation productivity
+ - wage real rental zero
+ - calculated real rental falls
+ - calculating foreign income
 ---
 
 # Movement of Labor and Capital Between Countries
@@ -31,16 +23,17 @@ If you're a foreign student who wants to pursue a career in science or technolog
 
 President Barack Obama, Del Sol High School, Las Vegas, January 29, 2013
 
-# From N
-
 From May to September 1980, boatloads of refugees from Cuba arrived in Miami, Florida. For political reasons, Fidel Castro had allowed them to leave freely from the port of Mariel, Cuba, during that brief period. Known as "the Mariel boat lift," this influx of about 125,000 refugees to Miami increased the city's Cuban population by  $ 20\% $ and its overall population by about $ 7\% $ . The widespread unemployment of many of the refugees during the summer of 1980 led many people to expect that the wages of other workers in Miami would be held down by the Mariel immigrants.
 
 Not surprisingly, the refugees were less skilled than the other workers in Miami, as is confirmed by looking at their wages: the immigrants initially earned about
 
-1 Movement of Labor Between Countries: Migration
-2 Movement of Capital Between Countries: Foreign Direct Investment
-3 Gains from Labor and Capital Flows
-4 Conclusions
+## 1 Movement of Labor Between Countries: Migration
+
+## 2 Movement of Capital Between Countries: Foreign Direct Investment
+
+## 3 Gains from Labor and Capital Flows
+
+## 4 Conclusions
 
 one-third less than other Cubans in Miami. What is surprising, however, is that this influx of low-skilled immigrants does not appear to have pulled down the wages of other less skilled workers in Miami.[2] The wages for low-skilled workers in Miami essentially followed national trends over this period, despite the large inflow of workers from Cuba. This finding seems to contradict the prediction of basic supply and demand theory—that a higher supply of workers should bid down their wage and that restricting immigration will raise the wages for local workers. The fact that wages in Miami did not respond to the inflow of Mariel refugees calls for an explanation, which is one goal of this chapter.
 
@@ -64,7 +57,7 @@ After studying what happens when labor moves across countries, we study the effe
 
 We begin with the examples of labor migration described by the Mariel boat lift and the Russian migration to Israel. We can think of each migration as a movement of labor from the Foreign country to the Home country. What is the impact of this movement of labor on wages paid at Home? To answer this question, we make use of our work in Chapter 3, in which we studied how the wages paid to labor and the rentals paid to capital and land are determined by the prices of the goods produced. The prices of goods themselves are determined by supply and demand in world markets. In the analysis that follows, we treat the prices of goods as fixed and ask how the Home wage and the rentals paid to capital and land change as labor moves between countries.
 
-# Effects of Immigration in the Short Run: Specific-factors Model
+### Effects of Immigration in the Short Run: Specific-Factors Model
 
 We begin our study of the effect of factor movements between countries by using the specific-factors model we learned in Chapter 3 to analyze the short run, when labor is mobile among Home industries, but land and capital are fixed. After that, we consider the long run, when all factors are mobile among industries at Home.
 
@@ -87,21 +80,17 @@ In the Foreign country, a similar diagram applies. We do not draw this but assum
 
 Effect of Immigration on the Wage in Home The effects of immigration are shown in Figure 5-2. Because the number of workers at Home has grown by  $ \Delta L $, we expand the size of the horizontal axis from $ \overline{L} $ to $ \overline{L}^{\prime} = \overline{L} + \Delta L $. The right-most point on the horizontal axis, which is the origin $ 0_A $  for the agriculture industry, shifts to the
 
-# Figure 5-2
+#### Increase in Home Labor
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/a38b9e486655dd828ff80edd1ceac0b24789e59ef0e1b96935d09d442d6bfebc.jpg)
-
-# Increase in Home
-
-Labor When the amount of labor at Home increases by the amount  $ \Delta L $, the origin for agriculture shifts to the right by that amount, from $ 0_{A} $ to $ 0_{A}^{\prime} $. The marginal product of labor curve in agriculture also shifts right by the amount $ \Delta L $. Equilibrium in the Home labor market is now at point $ B $: wages have fallen to $ W^{\prime} $ and the amount of labor has increased in manufacturing (to $ 0_{H}L^{\prime} $) and in agriculture (to $ 0_{A}^{\prime}L^{\prime} $ ).
+When the amount of labor at Home increases by the amount  $ \Delta L $, the origin for agriculture shifts to the right by that amount, from $ 0_{A} $ to $ 0_{A}^{\prime} $. The marginal product of labor curve in agriculture also shifts right by the amount $ \Delta L $. Equilibrium in the Home labor market is now at point $ B $: wages have fallen to $ W^{\prime} $ and the amount of labor has increased in manufacturing (to $ 0_{H}L^{\prime} $) and in agriculture (to $ 0_{A}^{\prime}L^{\prime} $ ).
 
 right by the amount  $ \Delta L $. As this origin moves rightward, it carries along with it the marginal product curve $ P_A \cdot MPL_A $ for the agriculture industry (because the marginal product of labor curve is graphed relative to its origin). That curve shifts to the right by exactly the amount $ \Delta L $, the increase in the Home workforce. There is no shift in the marginal product curve $ P_M \cdot MPL_M $ for the manufacturing industry because the origin $ 0_M $ for manufacturing has not changed. $ ^4 $ The new equilibrium Home wage is at point $ B $, the intersection of the marginal product curves. At the new equilibrium, the wage is lower. Notice that the extra workers $ \Delta L $ arriving at Home are shared between the agriculture and manufacturing industries: the number of workers employed in manufacturing is now $ 0_{M}L' $, which is higher than $ 0_{M}L $, and the number of workers employed in agriculture is $ 0_{A}'L' $, which is also higher than $ 0_{A}L $ . Because both industries have more workers but fixed amounts of capital and land, the wage in both industries declines due to the diminishing marginal product of labor.
 
 We see, then, that the specific-factors model predicts that an inflow of labor will lower wages in the country in which the workers are arriving. This prediction has been confirmed in numerous episodes of large-scale immigration, as described in the applications that follow.
 
-# Application
+### Application
 
-# Immigration to the New World
+#### Immigration to the New World
 
 Between 1870 and 1913, some 30 million Europeans left their homes in the "Old World" to immigrate to the "New World" of North and South America and Australia. The population of Argentina rose by  $ 60\% $ because of immigration, and Australia and Canada gained $ 30\% $ more people. The population of the United States increased by $ 17\% $  as a result of immigration (and it absorbed the largest number of people, more than 15 million). The migrants left the Old World for the opportunities present in the New and, most important, for the higher real wages. In Figure 5-3, we show an index of average real wages in European countries and in the New World (an average of the United States, Canada, and Australia). In 1870 real wages were nearly three times higher in the New World than in Europe—120 as compared with 40.
 
@@ -120,9 +109,9 @@ wages in the New World were only about twice as high as those in Europe. Large-s
 
 In Figure 5-3, we also show estimates of what real wages would have been if migration had not occurred. Those estimates are obtained by calculating how the marginal product of labor would have grown with capital accumulation but without the immigration. Comparing the actual real wages with the no-migration estimates, we see that the growth of wages in the New World was slowed by immigration (workers arriving), while wages in Europe grew slightly faster because of emigration (workers leaving).
 
-# Application
+### Application
 
-# Immigration to the United States and Europe Today
+#### Immigration to the United States and Europe Today
 
 The largest amount of migration is no longer from Europe to the "New World." Instead, workers from developing countries immigrate to wealthier countries in the European Union and North America, when they can. In many cases, the immigration includes a mix of low-skilled workers and high-skilled workers. During the 1960s and 1970s, some European countries actively recruited guest workers, called gastrarbeiters in West Germany, to fill labor shortages in unskilled jobs. Many of these foreign workers have remained in Germany for years, some for generations, so they are no longer "guests" but long-term residents. At the end of 1994, about 2.1 million foreigners were employed in western Germany, with citizens of Turkey, the former Yugoslavia, Greece, and Italy representing the largest groups.
 
@@ -137,9 +126,9 @@ In the United States, there is a widespread perception among policy makers that 
 
 It is estimated that there are about 12 million illegal immigrants in the United States, many of them from Mexico. Gaining control over U.S. borders is one goal of immigration policy, but focusing on that goal alone obscures the fact that the majority of immigrants who enter the United States each year are legal.
 
-# Headlines
+### Headlines
 
-# Call for Return of Border Controls in Europe
+#### Call for Return of Border Controls in Europe
 
 In 2011, Nicolas Sarkozy, the French president at the time, and Silvio Berlusconi, the Italian prime minister at the time, called for limits on passport-free travel among European Union countries in response to the flood of North African immigrants entering Italy through the island of Lampedusa.
 
@@ -165,9 +154,9 @@ Persons seeking to legally enter the United States sometimes must wait a very lo
 
 Such an auction scheme could be used for seasonal agricultural workers, for example, some of whom legally enter the United States under the H-2A visa program. An
 
-# Headlines
+### Headlines
 
-# The Economic Windfall of Immigration Reform
+#### The Economic Windfall of Immigration Reform
 
 Writing during the U.S. debate over immigration reform in 2013, Professor Giovanni Peri discusses three principles that reform should follow. He argues that there are large gains from increasing the supply of highly-skilled immigrants to the United States, by allowing firms to bid for temporary work permits.
 
@@ -191,13 +180,7 @@ auction could also expand the existing H-1B visa program for engineers, scientis
 
 The potential competition that immigrants create for U.S. workers with the same educational level is illustrated in Figure 5-4. On the vertical axis we show the share of immigrants (legal and illegal) as a percentage of the total workforce in the United States with that educational level. For example, from the first bar we see that immigrants account for  $ 40\% $ of the total number of workers in the United States that do not have a high-school education (the remaining $ 60\% $  are U.S. born). Many of those
 
-# Figure 5-4
-
-Share of foreign-born workers (% of U.S. workforce in each education group)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/d626e7b99b711d6d8b354c43add578221e4fd03ccec8643ff47b0c25beaf2834.jpg)
-
-# Share of Foreign-born Workers in U.s. Workforce,
+#### Share of Foreign-born Workers in U.S. Workforce
 
 2010 This figure shows the share of foreign-born workers in the U.S. workforce, categorized by educational level. For example, among workers with 0 to 11 years of education, about  $ 40\% $ were foreign-born. At the other end of the spectrum, the foreign-born make up $ 16\% $ of workers with Master's and professional degrees, almost $ 30\% $ of those with Ph.D.'s, and almost $ 40\% $  of those with Ph.D.'s in science and engineering. In the middle
 

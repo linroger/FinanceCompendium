@@ -1,36 +1,27 @@
 ---
-aliases:
-- Export Policies in Resource and High-technology Industries
-tags: null
-key_concepts: null
+title: Chapter 10 Export Policies in Resource and High Technology Industries
 parent_directory: Part 4 - International Trade Policies
-cssclasses: academia
-title: Chapter 10 - Export Policies in Resource and High-technology Industries
-linter-yaml-title-alias: Chapter 10 - Export Policies in Resource and High-technology
-  Industries
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-opus-4.1
+cli-tool: claude-code
 primary_tags:
-- european union a380 ultimately
-- export tariff net effect
-- country tariff shifts export
-- subsidies airbus boeing 13
-- export production subsidies policies
+  - export subsidies agriculture
+  - high technology subsidies
+  - export tariffs quotas
+  - strategic trade policy
+  - wto agricultural agreements
 secondary_tags:
-- boeing airbus dispute
-- does export tariff produce
-- a380 ultimately pay boeing
-- repair defect boeing believes
-- export subsidies determine profits
-- airbus produced competitor 787
-- tariff produce overall loss
-- wings body a380 aircraft
-- tariff home government earns
-- sales subtracting exports home
-- large exporting country does
-- trade supply effect export
-tags_extracted: '2025-12-18T00:39:39.556475'
+  - boeing airbus subsidies
+  - rare earth minerals china
+  - agricultural export restrictions
+  - infant industry protection
+  - terms of trade effects
+  - production subsidies
+  - export quota rents
+cssclasses: academia
 ---
 
-# Export Policies in Resource and High-technology Industries
+## Export Policies in Resource and High-Technology Industries
 
 The Middle East has its oil, China has rare earth.
 
@@ -72,7 +63,7 @@ In this chapter, we assess the arguments for and against the various export poli
 
 In Table 10-1, we describe the agreements made at the Hong Kong meeting of the WTO in December 2005. These agreements were never ratified by the legislatures in the countries involved, however, so it is best to think of them as goals that have not yet been achieved rather than definite outcomes. Four of the items deal with agricultural subsidies and tariffs, which were the focus of that meeting.
 
-# Agricultural Export Subsidies
+## Agricultural Export Subsidies
 
 An export subsidy is payment to firms for every unit exported (either a fixed amount or a fraction of the sales price). Governments give subsidies to encourage domestic
 

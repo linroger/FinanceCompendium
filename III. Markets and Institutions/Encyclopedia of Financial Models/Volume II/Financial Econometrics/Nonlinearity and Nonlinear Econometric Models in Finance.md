@@ -102,27 +102,27 @@ Figure 1 Time Plot of a Simulated 2-Regime TAR(1) Series
 
 
 $$
-\begin{array}{l} R_{t} = 0. 0 1 1 4 + 0. 1 6 7 R_{t - 1} - 0. 0 9 5 R_{t - 3} \\ + 0. 0 7 1 (1 + 0. 3 7 7 a_{t - 1} - 0. 6 4 6 a_{t - 3}) \epsilon_{t} \\ \end{array}
+\begin{array}{l} R_{t} = 0.0114 + 0.167 R_{t - 1} - 0.095 R_{t - 3} \\ + 0.071 (1 + 0.377 a_{t - 1} - 0.646 a_{t - 3}) \epsilon_{t} \\ \end{array}
 $$ where the standard errors of the parameters are, in the order of appearance, 0.0023, 0.032, 0.027, 0.002, 0.147, and 0.136, respectively. All estimates are significantly different from zero at the  $5\%$  level. Define
 
 
 $$
-\hat {\epsilon}_{t} = \frac{R_{t} - 0 . 0 1 1 4 - 0 . 1 6 7 R_{t - 1} + 0 . 0 9 5 R_{t - 3}}{0 . 0 7 1 (1 + 0 . 3 7 7 \hat {a}_{t - 1} - 0 . 6 4 6 \hat {a}_{t - 3})}
+\hat {\epsilon}_{t} = \frac{R_{t} - 0.0114 - 0.167 R_{t - 1} + 0.095 R_{t - 3}}{0.071 (1 + 0.377 \hat {a}_{t - 1} - 0.646 \hat {a}_{t - 3})}
 $$ where  $\hat{\epsilon}_t = 0$  for  $t\leq 3$  as the standardized residual series of the model. The sample autocorrelation function (ACF) of  $\hat{\epsilon}_t$  shows no significant serial correlations, but the series is not independent because the squared series  $\hat{\epsilon}_t^2$  has significant serial correlations. The validity of model (6) deserves further investigation. For comparison, we also consider an AR(3)-ARCH(3) model for the series and obtain
 
 
 $$
-\begin{array}{l} R_{t} = 0. 0 1 3 + 0. 2 2 3 R_{t - i} + 0. 0 0 6 R_{t - 2} \\ - 0. 0 1 3 R_{t - 3} + a_{t} \\ \end{array}
+\begin{array}{l} R_{t} = 0.013 + 0.223 R_{t - i} + 0.006 R_{t - 2} \\ - 0.013 R_{t - 3} + a_{t} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \sigma_{t}^{2} = 0. 0 0 2 + 0. 1 8 5 a_{t - 1}^{2} + 0. 3 0 1 a_{t - 2}^{2} \tag {7} \\ + 0. 1 9 7 a_{t - 3}^{2} \\ \end{array}
+\begin{array}{l} \sigma_{t}^{2} = 0.002 + 0.185 a_{t - 1}^{2} + 0.301 a_{t - 2}^{2} \tag {7} \\ + 0.197 a_{t - 3}^{2} \\ \end{array}
 $$ where all estimates but the coefficients of  $R_{t-2}$  and  $R_{t-3}$  are highly significant. The standardized residual series of the model shows no serial correlations, but the squared residuals show  $Q(10) = 19.78$  with a  $p$ -value of 0.031. Models (6) and (7) appear to be similar, but the latter seems
 
 
 to fit the data better. Further study shows that an AR(1)-GARCH(1,1) model fits the data well.
 
-# Threshold Autoregressive (TAR) Model
+### Threshold Autoregressive (TAR) Model
 
 This model is motivated by several nonlinear characteristics commonly observed in practice such as asymmetry in declining and rising patterns of a process. It uses piecewise linear models to obtain a better approximation of the conditional mean equation. However, in contrast to the traditional piecewise linear model that allows for model changes to occur in the "time" space, the TAR model uses threshold space to improve linear approximation. Let us start with a simple 2-regime AR(1) model
 
@@ -213,7 +213,7 @@ $$ where all estimates are significant at the  $5\%$  level and  $N_{t - 1}$  is
 
 Let  $\hat{a}_{t}$  be the standardized residuals of model (14). We obtain  $Q(10) = 9.10(0.52)$  and  $Q(20) = 21.82(0.35)$  for  $\{\hat{a}_t\}$  and  $Q(10) = 19.80(0.03)$  and  $Q(20) = 27.41(0.12)$  for  $\{\hat{a}_t^2\}$ . Thus, model (14) is adequate in modeling the serial correlation and conditional heteroscedasticity of the daily log returns of IBM stock considered. The unconditional mean return of model (14) is 0.023, which is much closer to the sample mean 0.024 than those implied by models (12) and (13). Comparing the fitted TAR-GARCH and TGARCH models, we see that the asymmetric behavior in daily IBM stock volatility is much stronger than what is allowed in a TGARCH model. Specifically, the coefficient of  $\sigma_{t - 1}^2$  also depends on the sign of  $a_{t - 1}$ .
 
-# Smooth Transition AR (STAR) Model
+### Smooth Transition AR (STAR) Model
 
 A criticism of the SETAR model is that its conditional mean equation is not continuous. The thresholds  $\{\gamma_j\}$  are the discontinuity points of the conditional mean function  $\mu_t$ . In response to this criticism, smooth TAR models have been proposed; see Chan and Tong (1986) and Teräsvirta (1994) and the references therein. A time series  $x_{t}$  follows a 2-regime  $\mathrm{STAR}(p)$  model if it satisfies
 
@@ -246,7 +246,7 @@ $$ where standard errors of the estimates are 0.002, 0.0003, 0.047, and 0.050, r
 
 
 $$
-\begin{array}{l} R_{t} = 0. 0 1 5 + a t, \quad a_{t} = \sigma_{t} \epsilon_{t} \\ \sigma_{t}^{2} = \left(0. 0 0 3 + 0. 2 0 5 a_{t - 1}^{2} + 0. 0 9 2 a_{t - 2}^{2}\right) \tag {17} \\ + \frac{0 . 0 0 1 - 0 . 2 3 9 a_{t - 1}^{2}}{1 + \exp (- 1 0 0 0 a_{t - 1})} \\ \end{array}
+\begin{array}{l} R_{t} = 0.015 + a t, \quad a_{t} = \sigma_{t} \epsilon_{t} \\ \sigma_{t}^{2} = \left(0.003 + 0.205 a_{t - 1}^{2} + 0.092 a_{t - 2}^{2}\right) \tag {17} \\ + \frac{0.001 - 0.239 a_{t - 1}^{2}}{1 + \exp (- 1000 a_{t - 1})} \\ \end{array}
 $$ where the standard error of the constant term in the mean equation is 0.002 and the standard errors of the estimates in the volatility equation are 0.0002, 0.074, 0.043, 0.0004, and 0.080, respectively. The scale parameter 1000 of the logistic transition function is fixed a priori to simplify the estimation. This STAR model provides some support for asymmetric responses to positive and negative prior shocks. For a large negative  $a_{t-1}$ , the volatility model approaches the ARCH(2) model
 
 
@@ -262,7 +262,7 @@ $$
 
 The negative coefficient of  $a_{t-1}^2$  in the prior model is counterintuitive, but the magnitude is small. As a matter of fact, for a large positive shock  $a_{t-1}$ , the ARCH effects appear to be weak even though the parameter estimates remain statistically significant.
 
-# Markov Switching Model
+### Markov Switching Model
 
 The idea of using probability switching in nonlinear time series analysis is discussed in Tong (1983). Using a similar idea, but emphasizing aperiodic transition between various states of an economy, Hamilton (1989) considers the Markov switching autoregressive (MSA) model. Here the transition is driven by a hidden two-state Markov chain. A time series  $x_{t}$  follows an MSA model if it satisfies
 
@@ -298,7 +298,7 @@ Table 1 Estimation Results of a Markov Switching Model with  $p = 4$  for the Gr
 Note: The estimates and their standard errors are posterior means and standard errors of a Gibbs sampling with 5000 iterations.
 
 
-# Nonparametric Methods
+## Nonparametric Methods
 
 In some financial applications, we may not have sufficient knowledge to prespecify the nonlinear structure between two variables  $Y$  and  $X$ . In other applications, we may wish to take advantage of the advances in computing facilities and computational methods to explore the functional relationship between  $Y$  and  $X$ . These considerations lead to the use of nonparametric methods and techniques. Nonparametric methods, however, are not without cost. They are highly data dependent and can easily result in overfitting. Our goal here is to introduce some nonparametric methods for financial applications and some nonlinear models that make use of nonparametric methods and techniques. The nonparametric methods discussed include kernel regression, local least squares estimation, and neural network.
 
@@ -363,7 +363,7 @@ $$ and the Epanechnikov kernel (Epanechnikov, 1969)
 
 
 $$
-K_{h} (x) = \frac{0 . 7 5}{h} \left(1 - \frac{x^{2}}{h^{2}}\right) I \left(\left| \frac{x}{h} \right| \leq 1\right)
+K_{h} (x) = \frac{0.75}{h} \left(1 - \frac{x^{2}}{h^{2}}\right) I \left(\left| \frac{x}{h} \right| \leq 1\right)
 $$ where  $1(A)$  is an indicator such that  $1(A) = 1$  if  $A$  holds and  $1(A) = 0$  otherwise. Figure 5 shows the Gaussian and Epanechnikov kernels for  $h = 1$ .
 
 
@@ -410,7 +410,7 @@ C V (h) = \frac{1}{T} \sum_{j = 1}^{T} [ y_{j} - \hat {m}_{h, j} (x_{j}) ]^{2} W
 $$ where  $w(.)$  is a nonnegative weight function satisfying  $\sum_{j=1}^{n} W(x_j) = T$ , that can be used to down-weight the boundary points if necessary. Decreasing the weights assigned to data points close to the boundary is needed because those points often have fewer neighboring observations. The function  $CV(h)$  is called the cross-validation function because it validates the ability of the smoother to predict  $\{y_t\} T_{t=1}$ . One chooses the bandwidth  $h$  that minimizes the  $CV(.)$  function.
 
 
-# Local Linear Regression Method
+### Local Linear Regression Method
 
 Assume that the second derivative of  $m(.)$  in model (19) exists and is continuous at  $x$ , where  $x$  is a given point in the support of  $m(.)$ . Denote the data available by  $\{(y_t, x_t)\}_{t=1}^T$ . The local linear regression method to nonparametric regression is to find  $a$  and  $b$  that minimize
 
@@ -485,7 +485,7 @@ $$
 $$ then the resulting estimator is the Nadaraya-Watson estimator mentioned earlier. In general, if one assumes that  $m(x)$  has a bounded kth derivative, then one can replace the linear polynomial in equation (24) by a  $(k - 1)$ -order polynomial. We refer to the estimator in equation (26) as the local linear regression smoother. Fan (1993) shows that, under some regularity conditions, the local linear regression estimator has some important sampling properties. The selection of bandwidth can be carried out via the same methods as before.
 
 
-# Financial Time Series Application
+### Financial Time Series Application
 
 In time series analysis, the explanatory variables are often the lagged values of the series. Consider the simple case of a single explanatory variable. Here model (19) becomes
 
@@ -501,7 +501,7 @@ $$ where  $p$  is the number of explanatory variables and  $\Sigma$  is a prespe
 univariate kernel functions as a multivariate kernel—for example,
 
 $$
-K_{h} (x) = \prod_{i = 1}^{p} \frac{0 . 7 5}{h_{i}} \left(1 - \frac{x_{i}^{2}}{h_{i}^{2}}\right) I \left(| \frac{x_{i}}{h_{i}} | <   1\right)
+K_{h} (x) = \prod_{i = 1}^{p} \frac{0.75}{h_{i}} \left(1 - \frac{x_{i}^{2}}{h_{i}^{2}}\right) I \left(| \frac{x_{i}}{h_{i}} | <   1\right)
 $$
 
 This latter approach is simple, but it overlooks the relationship between the explanatory variables.
@@ -518,7 +518,7 @@ For the simple model considered,  $\mu (x_{t - 1})$  is the conditional mean of 
 Figure 6 Time Plot of U.S. Weekly 3-Month Treasury Bill Rate in the Secondday Market from 1970 to 1997
 
 
-ple demonstrates that simple non-parametric methods can be helpful in understanding the dynamic structure of a financial time series.
+Example demonstrates that simple non-parametric methods can be helpful in understanding the dynamic structure of a financial time series.
 
 The following nonlinear models are derived with the help of nonparametric methods.
 
@@ -531,7 +531,7 @@ Figure 7 Estimation of Conditional Mean and Volatility of Weekly 3-Month Treasur
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/4675091e34172f8731ef146c26a1c1b8b86c16e359afd1e94475c7aa731e89d9.jpg)
 
-# Functional Coefficient AR Model
+### Functional Coefficient AR Model
 
 Recent advances in nonparametric techniques enable researchers to relax parametric constraints in proposing nonlinear models. In some cases, nonparametric methods are used in a preliminary study to help select a parametric nonlinear model. This is the approach taken by Chen and Tsay (1993a) in proposing the functional-coefficient autoregressive (FAR) model that can be written as
 
@@ -539,7 +539,7 @@ $$ x_{t} = f_{1} \left(X_{t - 1}\right) x_{t - 1} + \dots + f_{p} \left(X_{t - 1
 $$ where  $X_{t - 1} = (x_{t - 1},\dots ,X_{t - k})'$  is a vector of lagged values of  $x_{t}$ . If necessary  $x_{t - 1}$  may also include other explanatory variables available at time  $t - 1$ . The functions  $f_{i}(.)$  of equation (27) are assumed to be continuous, even twice differentiable, almost surely with respect to their arguments. Most of the nonlinear models discussed before are special cases of the FAR model. In application, one can use nonparametric methods such as kernel regression or local linear regression to estimate the functional coefficients  $f_{i}(.)$ , especially when the dimension of  $X_{t - 1}$  is low (e.g.,  $X_{t - 1}$  is a scalar). Recently, Cai, Fan, and Yao (2000) applied the local linear regression method to estimate  $f_{i}(.)$  and showed that substantial improvements in 1-step ahead forecasts can be achieved by using FAR models.
 
 
-# Nonlinear Additive AR Model
+### Nonlinear Additive AR Model
 
 A major difficulty in applying nonparametric methods to nonlinear time series analysis is the "curse of dimensionality." Consider a general nonlinear  $\mathrm{AR}(p)$  process  $x_{t} = f(x_{t - 1},\ldots ,$ $x_{t - p}) + a_t$  . A direct application of nonparametric methods to estimate  $f(.)$  would require  $p$  dimensional smoothing, which is hard to do when  $p$  is large, especially if the number of data points is not large. A simple, yet effective way to overcome this difficulty is to entertain an additive model that only requires lower dimensional smoothing. A time series  $x_{t}$  follows a nonlinear additive AR (NAAR) model if
 
@@ -550,7 +550,7 @@ $$ where the  $f_{i}(.)$  are continuous functions almost surely. Because each f
 
 The additivity assumption is rather restrictive and needs to be examined carefully in application. Chen, Liu, and Tsay (1995) consider test statistics for checking the additivity assumption.
 
-# Nonlinear State-Space Model
+### Nonlinear State-Space Model
 
 Making using of recent advances in MCMC methods (Gelfand and Smith, 1990), Carlin, Polson, and Stoffer (1992) propose a Monte Carlo approach for nonlinear state-space modeling. The model considered is
 
@@ -563,7 +563,7 @@ Monte Carlo techniques are employed to handle the nonlinear evolution of the sta
 
 (1998) and the references therein. MCMC methods (or computing-intensive numerical methods) are powerful tools for nonlinear time series analysis. Their potential has not been fully explored. However, the assumption of knowing  $f_{t}(.)$  and  $g_{t}(.)$  in model (29) may hinder practical use of the proposed method. A possible solution to overcome this limitation is to use nonparametric methods such as the analyses considered in FAR and NAAR models to specify  $f_{t}(.)$  and  $g_{t}(.)$  before using nonlinear state-space models.
 
-# Neural Networks
+## Neural Networks
 
 A popular topic in modern data analysis is neural network, which can be classified as a semiparametric method. The literature on neural network is enormous, and its application spreads over many scientific areas with varying degrees of success; see Ripley (1993, Sections 2 and 10). Cheng and Titterington (1994) provide information on neural networks from a statistical viewpoint. In this subsection, we focus solely on the feed-forward neural networks in which inputs are connected to one or more neurons, or nodes, in the input layer, and these nodes are connected forward to further layers until they reach the output layer. Figure 8 shows an example of a simple feed-forward network for univariate time series analysis with one hidden layer. The input layer has two nodes, and the hidden layer has three. The input nodes are connected forward to each and every node in the hidden layer, and these hidden nodes are connected to the single node in the output layer. We call the network a 2-3-1 feedforward network. More complicated neural networks, including those with feedback connections, have been proposed in the literature, but the feed-forward networks are most relevant to our study.
 
@@ -571,7 +571,7 @@ A popular topic in modern data analysis is neural network, which can be classifi
 Figure 8 A Feed-Forward Neural Network with One Hidden Layer for Univariate Time Series Analysis
 
 
-# Feed-Forward Neural Networks
+### Feed-Forward Neural Networks
 
 A neural network processes information from one layer to the next by an "activation function." Consider a feed-forward network with one hidden layer. The  $j$ th node in the hidden layer is defined as
 
@@ -632,7 +632,7 @@ We refer to the function in equation (33) or (34) as a semiparametric function b
 
 Feed-forward networks are known as multilayer percutrons in the neural network literature. They can approximate any continuous function uniformly on compact sets by increasing the number of nodes in the hidden layer; see Hornik, Stinchcombe, and White (1989), Hornik (1993), and Chen and Chen (1995). This property of neural networks is the universal approximation property of the multilayer percutrons. In short, feed-forward neural networks with a hidden layer can be seen as a way to parameterize a general continuous nonlinear function.
 
-# Training and Forecasting
+### Training and Forecasting
 
 Application of neural networks involves two steps. The first step is to train the network (i.e., to build a network, including determining the number of nodes and estimating their biases and weights). The second step is inference, especially forecasting. The data are often divided into two nonoverlapping subsamples in the training stage. The first subsample is used to estimate the parameters of a given feed-forward neural network. The network so built is then used in the second subsample to perform forecasting and compute its forecasting accuracy. By comparing the forecasting performance, one selects the network that outperforms the others as the "best" network for making inference. This is the idea of cross-validation widely used in statistical model selection. Other model selection methods are also available.
 
@@ -648,26 +648,26 @@ This is a nonlinear estimation problem that can be solved by several iterative m
 Example 7. To illustrate applications of the neural network in finance, we consider the monthly log returns, in percentages and including dividends, for IBM stock from January 1926 to December 1999. We divide the data into two subsamples. The first subsample consisting of returns from January 1926 to December 1997 for 864 observations is used for modeling. Using model (34) with three inputs and two nodes in the hidden layer, we obtain a 3-2-1 network for the series. The three inputs are  $r_{t - 1}$ ,  $r_{t - 2}$ , and  $r_{t - 3}$  and the biases and weights are given next:
 
 $$
-\begin{array}{l} \hat {r}_{t} = 3. 2 2 - 1. 8 1 f_{1} \left(r_{t - 1}\right) - 2. 2 8 f_{2} \left(r_{t - 1}\right) \tag {35} \\ - 0. 0 9 r_{t - 1} - 0. 0 5 r_{t - 2} - 0. 1 2 r_{t - 3} \\ \end{array}
+\begin{array}{l} \hat {r}_{t} = 3.22 - 1.81 f_{1} \left(r_{t - 1}\right) - 2.28 f_{2} \left(r_{t - 1}\right) \tag {35} \\ - 0.09 r_{t - 1} - 0.05 r_{t - 2} - 0.12 r_{t - 3} \\ \end{array}
 $$ where  $r_{t - 1} = (r_{t - 1},r_{t - 2},r_{t - 3})$  and the two logistic functions are
 
 
 $$
-\begin{array}{l} f_{1} \left(\boldsymbol {r}_{t - 1}\right) = \\ \frac{\exp \left(- 8 . 3 4 - 1 8 . 9 7 r_{t - 1} + 2 . 1 7 r_{t - 2} - 1 9 . 1 7 r_{t - 3}\right)}{1 + \exp \left(- 8 . 3 4 - 1 8 . 9 7 r_{t - 1} + 2 . 1 7 r_{t - 2} - 1 9 . 1 7 r_{t - 3}\right)} \\ f_{2} \left(\boldsymbol {r}_{t - 1}\right) = \\ \end{array}
+\begin{array}{l} f_{1} \left(\boldsymbol {r}_{t - 1}\right) = \\ \frac{\exp \left(- 8.34 - 18.97 r_{t - 1} + 2.17 r_{t - 2} - 19.17 r_{t - 3}\right)}{1 + \exp \left(- 8.34 - 18.97 r_{t - 1} + 2.17 r_{t - 2} - 19.17 r_{t - 3}\right)} \\ f_{2} \left(\boldsymbol {r}_{t - 1}\right) = \\ \end{array}
 $$
 
 $$
-\frac{\exp (3 9 . 2 5 - 2 2 . 1 7 r_{t - 1} - 1 7 . 3 4 r_{t - 2} - 5 . 9 8 r_{t - 3})}{1 + \exp (3 9 . 2 5 - 2 2 . 1 7 r_{t - 1} - 1 7 . 3 4 r_{t - 2} - 5 . 9 8 r_{t - 3})}
+\frac{\exp (39.25 - 22.17 r_{t - 1} - 17.34 r_{t - 2} - 5.98 r_{t - 3})}{1 + \exp (39.25 - 22.17 r_{t - 1} - 17.34 r_{t - 2} - 5.98 r_{t - 3})}
 $$
 
 The standard error of the residuals for the prior model is 6.56. For comparison, we also built an AR model for the data and obtained
 
-$$ r_{t} = 1. 1 0 1 + 0. 0 7 7 r_{t - 1} + a_{t}, \quad \sigma_{a} = 6. 6 1 \tag {36}
+$$ r_{t} = 1.101 + 0.077 r_{t - 1} + a_{t}, \quad \sigma_{a} = 6.61 \tag {36}
 $$
 
 The residual standard error is slightly greater than that of the feed-forward model in equation (35).
 
-# Forecast Comparison
+### Forecast Comparison
 
 The monthly returns of IBM stock in 1998 and 1999 form the second subsample and are used to evaluate the out-of-sample forecasting performance of neural networks. As a benchmark for comparison, we use the sample mean of  $r_t$  in the first subsample as the 1-step ahead forecast for all the monthly returns in the second subsample. This corresponds to assuming that the log monthly price of IBM stock follows a random walk with drift. The mean squared forecast error (MSFE) of this benchmark model is 91.85. For the AR(1) model in equation (36), the MSFE of 1-step ahead forecasts is 91.70. Thus, the AR(1) model slightly outperforms the benchmark. For the 3-2-1 feed-forward network in equation (35), the MSFE is 91.74, which is essentially the same as that of the AR(1) model.
 
@@ -686,13 +686,13 @@ Figure 9 shows a typical output of probability forecasts and the actual directio
 To gain more insight, we did a simulation study of running the 8-4-1 feed-forward network 500 times and computed the number of errors in predicting the upward and downward movement using the same method as before. The mean and median of errors over the 500 runs are 11.28 and 11, respectively, whereas the maximum and minimum number of errors are 18 and 4. For comparison, we also did a simulation with 500 runs using a random walk with drift—that is,
 
 $$
-\hat {d}_{t} = \left\{ \begin{array}{l l} 1 & \text{if } \hat {r}_{t} = 1. 1 9 + \epsilon_{t} \geq 0, \\ 0 & \text{ot he rw is e} \end{array} \right.
+\hat {d}_{t} = \left\{ \begin{array}{l l} 1 & \text{if } \hat {r}_{t} = 1.19 + \epsilon_{t} \geq 0, \\ 0 & \text{otherwise} \end{array} \right.
 $$ where 1.19 is the average monthly log return for IBM stock from January 1926 to December
 
 
 1997 and  $\{\epsilon_t\}$  is a sequence of IID  $N(0,1)$  random variables. The mean and median of the number of forecast errors become 10.53 and 11, whereas the maximum and minimum number of errors are 17 and 5, respectively. Figure 10 shows the histograms of the number of forecast errors for the two simulations. The results show that the 8-4-1 feed-forward neural network does not outperform the simple model that assumes a random walk with drift for the monthly log price of IBM stock.
 
-# NONLINEARITY TESTS
+## NONLINEARITY TESTS
 
 In this section, we discuss some nonlinearity tests available in the literature that have decent power against the nonlinear models considered earlier in this entry. The tests discussed include both parametric and nonparametric statistics. The Ljung-Box statistics of squared residuals, the bispectral test, and the Brock, Dechert, and Scheinkman (BDS) test are nonparametric methods. The RESET test (Ramsey, 1969), the  $F$  tests of Tsay (1986, 1989), and other Lagrange multiplier and likelihood ratio tests depend on specific parametric functions. Because nonlinearity may occur in many ways, there exists no single test that dominates the others in detecting nonlinearity.
 
@@ -703,11 +703,11 @@ Note: The forecasting period is from January 1998 to December 1999.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/74b4d444ae3b5d0483261941b7bc56245baf0aac13202796e9844ab750159885.jpg)
 
 
-# Nonparametric Tests
+### Nonparametric Tests
 
 Under the null hypothesis of linearity, residuals of a properly specified linear model should be independent. Any violation of independence in the residuals indicates inadequacy of the entertained model, including the linearity assumption. This is the basic idea behind various nonlinearity tests. In particular, some of the nonlinearity tests are designed to check for possible violation in quadratic forms of the underlying time series.
 
-# Q-Statistic of Squared Residuals
+#### Q-Statistic of Squared Residuals
 
 McLeod and Li (1983) apply the Ljung-Box statistics to the squared residuals of an ARMA  $(p,q)$  model to check for model inadequacy. The test statistic is
 
@@ -722,7 +722,7 @@ $$ a_{t}^{2} = \beta_{0} + \beta_{1} a_{t - 1}^{2} + \dots + \beta_{m} a_{t - m}
 $$ for  $t = m + 1,\ldots ,T$ . Because the statistic is computed from residuals (not directly from the observed returns), the number of degrees of freedom is  $m - p - q$ .
 
 
-# Bispectral Test
+#### Bispectral Test
 
 This test can be used to test for linearity and Gaussianity. It depends on the result that a properly normalized bispectrum of a linear time series is constant over all frequencies and that the constant is zero under normality. The bispectrum of a time series is the Fourier transform of its third-order moments. For a stationary time series  $x_{t}$  in equation (1), the third-order moment is defined as
 
@@ -745,7 +745,7 @@ $$
 
 The bispectrum test makes use of the property in equation (39). Basically, it estimates the function  $b(w_{1},w_{2})$  in equation (39) over a suitably chosen grid of points and applies a test statistic similar to Hotelling's  $T^2$  statistic to check the constancy of  $b(w_{1},w_{2})$ . For a linear Gaussian series,  $E(a_t^3) = g = 0$  so that the bispectrum is zero for all frequencies  $(w_{1},w_{2})$ . For further details of the bispectral test, see Priestley (1988), Subba Rao and Gabr (1984), and Hinich (1982). Limited experience shows that the test has decent power when the sample size is large.
 
-# BDS Statistic
+#### BDS Statistic
 
 Brock, Dechert, and Scheinkman (1987) propose a test statistic, commonly referred to as the BDS test, to detect the IID assumption of a time series. The statistic is, therefore, different from other test statistics discussed because the latter mainly focus on either the second- or third-order properties of  $x_{t}$ . The basic idea of the BDS test is to make use of a "correlation integral" popular in chaotic time series analysis. Given a  $k$ -dimensional time series  $X_{t}$  and observations  $\{X_{t}\}_{t = 1}^{T_{k}}$ , define the correlation integral as
 
@@ -765,7 +765,7 @@ $$ where  $T_{\ell} = T - \ell +1$  and  $X_{i}^{*} = x_{i}$  if  $\ell = 1$  an
 
 
 $$
-\begin{array}{l l} C_{k} (\delta , T) \to [ C_{1} (\delta) ]^{k} & \text{wi th pr ob ab il it y1}, \\ & \text{as} \quad T \to \infty \end{array}
+\begin{array}{l l} C_{k} (\delta , T) \to [ C_{1} (\delta) ]^{k} & \text{with probability 1}, \\ & \text{as} \quad T \to \infty \end{array}
 $$ for any fixed  $k$  and  $\delta$ . Furthermore, the statistic  $\sqrt{T}\{C_k(\delta, T) - [C_1(\delta, T)]^k\}$  is asymptotically distributed as normal with mean zero and variance
 
 
@@ -785,11 +785,11 @@ D_{k} (\delta , T) = \sqrt{T} \left\{C_{k} (\delta , T) - \left[ C_{1} (\delta ,
 $$ where  $\sigma_{k}(\delta, T)$  is obtained from  $\sigma_{k}(\delta)$  when  $C$  and  $N$  are replaced by  $C_{1}(\delta, T)$  and  $N(\delta, T)$ , respectively. This test statistic has a standard normal limiting distribution. For further discussion and examples of applying the BDS test, see Hsieh (1989) and Brock, Hsieh, and LeBaron (1991). In application, one should remove linear dependence, if any, from the data before applying the BDS test. The test may be sensitive to the choices of  $\delta$  and  $k$ , especially when  $k$  is large.
 
 
-# Parametric Tests
+### Parametric Tests
 
 Turning to parametric tests, we consider the RESET test of Ramsey (1969) and its generalizations. We also discuss some test statistics for detecting threshold nonlinearity.
 
-# The RESET Test
+#### The RESET Test
 
 Ramsey (1969) proposes a specification test for linear least squares regression analysis. The test is referred to as a RESET test and is readily applicable to linear AR models. Consider the linear  $\mathrm{AR}(p)$  model
 
@@ -826,7 +826,7 @@ $$
 $$ and obtain the sum of squared residuals  $SS R_{1} = \sum_{t=p+1}^{T} (\hat{a}_{t} - \hat{u}_{t} \hat{\alpha})^{2} = \sum_{t=p+1}^{T} \hat{v}_{t}^{2}$  to test the null hypothesis  $\alpha = 0$ .
 
 
-# The F Test
+#### The F Test
 
 To improve the power of Keenan's test and the RESET test, Tsay (1986) uses a different choice of the regressor  $M_{t-1}$ . Specifically, he suggests using  $M_{t-1} = \text{vech}(X_{t-1}X_{t-1}')$ , where  $\text{vech}(A)$  denotes the half-stacking vector of the matrix  $A$  using elements on and below the diagonal only. For example, if  $p = 2$ , then  $M_{t-1} = (x_{t-1}^2, x_{t-1}x_{t-2}, x_{t-2}^2)'$ . The dimension of  $M_{t-1}$  is  $p(p + 1)/2$  for an AR( $p$ ) model. In practice, the test is simply the usual partial  $F$  statistic for testing  $\alpha = 0$  in the linear least squares regression
 
@@ -834,7 +834,7 @@ $$ x_{t} = X_{t - 1}^{\prime} \phi + M_{t - 1}^{\prime} \pmb {\alpha} + e_{t}
 $$ where  $e_t$  denotes the error term. Under the assumption that  $x_{t}$  is a linear  $\operatorname{AR}(p)$  process, the partial  $F$  statistic follows an  $F$  distribution with degrees of freedom  $g$  and  $T - p - g - 1$ , where  $g = p(p + 1) / 2$ . We refer to this  $F$  test as the Ori-F test. Luukkonen, Saikkonen, and Teräsvirta (1988) further extend the test by augmenting  $M_{t - 1}$  with cubic terms  $x_{t - i}^{3}$  for  $i = 1,\dots ,p$ .
 
 
-# Threshold Test
+#### Threshold Test
 
 When the alternative model under study is a SETAR model, one can derive specific test statistics to increase the power of the test. One of the specific tests is the likelihood ratio statistic. This test, however, encounters the difficulty of undefined parameters under the null hypothesis of linearity because the threshold is undefined for a linear AR process. Another specific test seeks to transform testing threshold nonlinearity into detecting model changes. It is then interesting to discuss the differences between these two specific tests for threshold nonlinearity.
 
@@ -879,7 +879,7 @@ $$ and compute the usual  $F$  statistic for testing  $\alpha_{i} = 0$  in equat
 
 We refer to the earlier  $F$  test as a TAR-F test. The idea behind the test is that under the null hypothesis there is no model change in the arranged autoregression in equation (47) so that the standardized predictive residuals should be close to IID with mean zero and variance 1. In this case, they should have no correlations with the regressors  $x_{(m + j) + d - i}$ . For further details including formulas for a recursive least squares method and some simulation study on performance of the TAR-F test, see Tsay (1989). The TAR-F test avoids the problem of nuisance parameters encountered by the likelihood ratio test. It does not require knowing the threshold  $r_1$ . It simply tests that the predictive residuals have no correlations with regressors if the null hypothesis holds. Therefore, the test does not depend on knowing the number of regimes in the alternative model. Yet the TAR-F test is not as powerful as the likelihood ratio test if the true model is indeed a 2-regime SETAR model with a known innovational distribution.
 
-# Applications
+### Applications
 
 In this subsection, we apply some of the nonlinearity tests discussed previously to five time series. For a real financial time series, an AR model is used to remove any serial correlation
 
@@ -912,7 +912,7 @@ $$
 
 Table 2 shows the results of the nonlinearity test. For the simulated series and IBM returns, the  $F$  tests are based on an AR(6) model. For the index returns, the AR order is the same as the model given earlier. For the BDS test, we chose  $\delta = \hat{\sigma}_a$  and  $\delta = 1.5\hat{\sigma}_a$  with  $k = 2,\dots,5$ . Also given in the table are the Ljung-Box statistics that confirm no serial correlation in the residual series before applying nonlinearity tests. Compared with their asymptotic critical values, the BDS test and  $F$  tests are insignificant at the 5\% level for the simulated series. However, the BDS tests are highly significant for the real financial time series. The  $F$  tests also show significant results for the index returns, but they fail to suggest nonlinearity in the IBM log returns. In summary, the tests confirm that the simulated series are linear and suggest that the stock returns are nonlinear.
 
-# 1 MODELING
+## MODELING
 
 Nonlinear time series modeling necessarily involves subjective judgment. However, there are some general guidelines to follow. It starts with building an adequate linear model on which nonlinearity tests are based. For financial time series, the Ljung-Box statistics and Engle's test are commonly used to detect conditional heteroscedasticity. For general series, other tests discussed in the previous section apply. If nonlinearity is statistically significant, then one chooses a class of nonlinear models to entertain. The selection here may depend on the experience of the analyst and the substantive matter of the problem under study.
 
@@ -921,23 +921,23 @@ For volatility models, the order of an ARCH process can often be determined by c
 
 Finally, information criteria such as the Akaike information criterion (Akaike, 1974) and the generalized odd ratios in Chen, McCulloch, and Tsay (1997) can be used to discriminate between competing nonlinear models. The chosen model should be carefully checked before it is used for prediction.
 
-# FORECASTING
+## FORECASTING
 
 Unlike the linear model, there exist no closed-form formulas to compute forecasts of most nonlinear models when the forecast horizon is greater than 1. We use parametric bootstraps to compute nonlinear forecasts. It is understood that the model used in forecasting has been rigorously checked and is judged to be adequate for the series under study. By a model, we mean the dynamic structure and innovational distri butions. In some cases, we may treat the estimated parameters as given.
 
 
-# Parametric Bootstrap
+### Parametric Bootstrap
 
 Let  $T$  be the forecast origin and  $\ell$  be the forecast horizon  $(\ell >0)$ . That is, we are at time index  $T$  and interested in forecasting  $x_{T + \ell}$ . The parametric bootstrap considered computes realizations  $x_{T + 1},X_{T + \ell}$  sequentially by (a) drawing a new innovation from the specified innovative distribution of the model, and (b) computing  $x_{T + 1}$  using the model, data, and previous forecasts  $x_{T + 1},\ldots ,x_{T + i - 1}$ . This results in a realization for  $x_{T + \ell}$ . The procedure is repeated  $M$  times to obtain  $M$  realizations of  $x_{T + \ell}$  denoted by  $\{x_{T + \ell}^{(j)}\}_{j = 1}^{M}$ . The point forecast of  $X_{T + \ell}$  is then the sample average of  $x_{T + \ell}^{(j)}$ . Let the forecast be  $x_{T}(\ell)$ . We used  $M = 3000$  in some applications and the results seem fine. The realizations  $\{x_{T + \ell}^{(j)}\}_{j = 1}^{M}$  can also be used to obtain an empirical distribution of  $x_{T + \ell}$ . We make use of this empirical distribution later to evaluate forecasting performance.
 
-# Forecasting Evaluation
+### Forecasting Evaluation
 
 There are many ways to evaluate the forecasting performance of a model, ranging from directional measures to magnitude measures to distributional measures. A directional measure considers the future direction (up or down) implied by the model. Predicting that tomorrow's S&P 500 index will go up or down is an example of directional forecasts that are of practical interest. Predicting the year-end value of the daily S&P 500 index belongs to the case of magnitude measure. Finally, assessing the likelihood that the daily S&P 500 index will go up  $10\%$  or more between now and the year end requires knowing the future conditional probability distribution of the index. Evaluating the accuracy of such an assessment needs a distributional measure.
 
 In practice, the available data set is divided into two subsamples. The first subsample of the data is used to build a nonlinear model, and the second subsample is used to evaluate the forecasting performance of the model. We refer to the two subsamples of data as estimation and forecasting subsamples. In some studies, a rolling forecasting procedure is used in which a new data point is moved from the forecasting subsample into the estimation subsample as the forecast origin advances. In what follows, we briefly discuss some measures of forecasting performance that are commonly used in the literature. Keep in mind, however, that there exists no widely accepted single measure to compare models. A utility function based on the objective of the forecast might be needed to better understand the comparison.
 
 
-# Directional Measure
+#### Directional Measure
 
 A typical measure here is to use a  $2 \times 2$  contingency table that summarizes the number of "hits" and "misses" of the model in predicting ups and downs of  $x_{T + \ell}$  in the forecasting subsample. Specifically, the contingency table is given as
 
@@ -957,7 +957,7 @@ For illustration of the directional measure, consider the 1-step ahead probabili
 
 The table shows that the network predicts the upward movement well, but fares poorly in forecasting the downward movement of the stock. The chi-squared statistic of the table is 0.137 with 77-value 0.71. Consequently, the network does not significantly outperform a random-walk model with equal probabilities for "upward" and "downward" movements.
 
-# Magnitude Measure
+#### Magnitude Measure
 
 Three statistics are commonly used to measure performance of point forecasts. They are the mean squared error (MSE), mean absolute deviation (MAD), and mean absolute percentage error (MAPE). For  $\ell$ -step ahead forecasts, these measures are defined as
 
@@ -980,18 +980,18 @@ In application, one often chooses one of the above three measures, and the model
 Figure 11 Time Plot of the U.S. Quarterly Unemployment Rate, Seasonally Adjusted, from 1948 to 1993
 
 
-# Distributional Measure
+#### Distributional Measure
 
 Practitioners recently began to assess forecasting performance of a model using its predictive distributions. Strictly speaking, a predictive distribution incorporates parameter uncertainty in forecasts. We call it conditional predictive distribution if the parameters are treated as fixed. The empirical distribution of  $x_{T + \ell}$  obtained by the parametric bootstrap is a conditional predictive distribution. This empirical distribution is often used to compute a distributional measure. Let  $u_{T}(\ell)$  be the percentile of the observed  $x_{T + \ell}$  in the prior empirical distribution. We then have a set of  $m$  percentiles  $\{u_{T + j}(\ell)\}_{j = 0}^{m - 1}$ , where again  $m$  is the number of  $\ell$ -step ahead forecasts in the forecasting subsample. If the model entertained is adequate,  $\{u_{T + j}(\ell)\}$  should be a random sample from the uniform distribution on [0, 1]. For a sufficiently large  $m$ , one can compute the Kolmogorov-Smirnov statistic of  $\{u_{T + j}(\ell)\}$  with respect to uniform [0, 1]. The statistic can be used for both model checking and forecasting comparison.
 
-# 2 APPLICATION
+## APPLICATION
 
 In this section, we illustrate nonlinear time series models by analyzing the quarterly U.S. civilian unemployment rate, seasonally adjusted, from 1948 to 1993. This series was analyzed in detail by Montgomery, Zarnowitz, Tsay, and Tiao (1998). We repeat some of the analyses here using nonlinear models. Figure 11 shows the time plot of the data. Well-known characteristics of the series include that (a) it tends to move countercyclically with U.S. business cycles, and (b) the rate rises quickly but decays slowly. The latter characteristic suggests that the dynamic structure of the series is nonlinear.
 
 Denote the series by  $x_{t}$  and let  $\Delta x_{t} = x_{t} - x_{t - 1}$  be the change in unemployment rate. The linear model
 
 $$
-\begin{array}{l} (1 - 0. 3 1 B^{4}) (1 - 0. 6 5 B) \Delta x_{t} = (1 - 0. 7 8 B^{4}) a_{t}, \\ \hat {\sigma}_{a}^{2} = 0. 0 9 0 \tag {52} \\ \end{array}
+\begin{array}{l} (1 - 0.31 B^{4}) (1 - 0.65 B) \Delta x_{t} = (1 - 0.78 B^{4}) a_{t}, \\ \hat {\sigma}_{a}^{2} = 0.090 \tag {52} \\ \end{array}
 $$ was built by Montgomery et al. (1998), where the standard errors of the three coefficients are 0.11, 0.06, and 0.07, respectively. This is a seasonal model even though the data were seasonally adjusted. It indicates that the seasonal adjustment procedure used did not successfully remove the seasonality. This model is used as a benchmark model for forecasting comparison.
 
 
@@ -1006,7 +1006,7 @@ To test for nonlinearity, we apply some of the nonlinearity tests discussed earl
 Using a modeling procedure similar to that of Tsay (1989), Montgomery et al. (1998) build the following TAR model for the  $\Delta x_{t}$  series:
 
 $$
-\Delta x_{t} = \left\{ \begin{array}{c} 0. 0 1 + 0. 7 3 \Delta x_{t - 1} + 0. 1 0 \Delta x_{t - 2} + a_{1 t} \\ \text{if } \Delta x_{t - 2} \leq 0. 1, \\ 0. 1 8 + 0. 8 0 \Delta x_{t - 1} - 0. 5 6 \Delta x_{t - 2} + a_{2 t} \\ \text{ot he rw is e} \end{array} \right. \tag {53}
+\Delta x_{t} = \left\{ \begin{array}{c} 0.01 + 0.73 \Delta x_{t - 1} + 0.10 \Delta x_{t - 2} + a_{1 t} \\ \text{if } \Delta x_{t - 2} \leq 0.1, \\ 0.18 + 0.80 \Delta x_{t - 1} - 0.56 \Delta x_{t - 2} + a_{2 t} \\ \text{otherwise} \end{array} \right. \tag {53}
 $$
 
 The sample variances of  $a_{1t}$  and  $a_{2t}$  are 0.76 and 0.165, respectively, the standard errors of the three coefficients of regime 1 are 0.03, 0.10, and 0.12, respectively, and those of regime 2 are 0.09, 0.1, and 0.16. This model says that the change in the U.S. quarterly unemployment rate,  $\Delta x_{t}$ , behaves like a piecewise linear model in the reference space of  $x_{t-2} - x_{t-3}$  with threshold 0.1. Intuitively, the model implies that the dynamics of unemployment act differently depending on the recent change in the unemployment rate. In the first regime, the unemployment rate has had either a decrease or a minor increase. Here the economy should be stable, and essentially the change in the rate follows a simple AR(1) model because the lag-2 coefficient is insignificant. In the second regime, there is a substantial jump in the unemployment rate (0.1 or larger). This typically corresponds to the contraction phase in the business cycle. It is also the period during which government interventions and industrial restructuring are likely to occur. Here  $\Delta x_{t}$  fol lows an AR(2) model with a positive constant, indicating an upward trend in  $x_{t}$ . The AR(2) polynomial contains two complex characteristic roots, which indicate possible cyclical behavior in  $\Delta x_{t}$ . Consequently, the chance of having a turning point in  $x_{t}$  increases, suggesting that the period of large increases in  $x_{t}$  should be short. This implies that the contraction phases in the U.S. economy tend to be shorter than the expansion phases.
@@ -1015,13 +1015,13 @@ The sample variances of  $a_{1t}$  and  $a_{2t}$  are 0.76 and 0.165, respective
 Applying a Markov chain Monte Carlo method, Montgomery et al. (1998) obtain the following Markov switching model for  $\Delta x_{t}$ :
 
 $$
-\Delta x_{t} = \left\{ \begin{array}{c} - 0. 0 7 + 0. 3 8 \Delta x_{t - 1} - 0. 0 5 \Delta x_{t - 2} + \epsilon_{1 t} \\ \text{if } s_{t} = 1 \\ 0. 1 6 + 0. 8 6 \Delta x_{t - 1} - 0. 3 8 \Delta x_{t - 2} + \epsilon_{2 t} \\ \text{if } s_{t} = 2 \end{array} \right. \tag {54}
+\Delta x_{t} = \left\{ \begin{array}{c} - 0.07 + 0.38 \Delta x_{t - 1} - 0.05 \Delta x_{t - 2} + \epsilon_{1 t} \\ \text{if } s_{t} = 1 \\ 0.16 + 0.86 \Delta x_{t - 1} - 0.38 \Delta x_{t - 2} + \epsilon_{2 t} \\ \text{if } s_{t} = 2 \end{array} \right. \tag {54}
 $$
 
 The conditional means of  $\Delta x_{t}$  are  $-0.10$  for  $s_t = 1$  and 0.31 for  $s_t = 2$ . Thus, the first state represents the expansionary periods in the economy, and the second state represents the contractions. The sample variances of  $\epsilon_{1t}$  and  $\epsilon_{2t}$  are 0.031 and 0.192, respectively. The standard errors of the three parameters in state  $s_t = 1$  are 0.03, 0.14, and 0.11, and those of state  $s_t = 2$  are 0.04, 0.13, and 0.14, respectively. The state transition probabilities are  $P(s_t = 2|s_{t - 1} = 1) = 0.084(0.060)$  and  $P(s_{t} = 1|s_{t - 1} = 2) = 0.126(0.053)$ , where the number in parentheses is the corresponding standard error. This model implies that in the second state the unemployment rate  $x_{t}$  has an upward trend with an AR(2) polynomial possessing complex characteristic roots. This feature of the model is similar to the second regime of the TAR model in equation (53). In the first state, the unemployment rate  $x_{t}$  has a slightly decreasing trend with a much weaker autoregressive structure.
 
 
-# Forecasting Performance
+### Forecasting Performance
 
 A rolling procedure was used by Montgomery et al. (1998) to forecast the unemployment rate  $x_{t}$ . The procedure works as follows:
 
@@ -1046,7 +1046,7 @@ Note: The starting forecast origin is 1968.II, where the row marked by "MSE" sho
 The results suggest that the contributions of nonlinear models over linear ones in forecasting the U.S. quarterly unemployment rate are mainly in the periods when the U.S. economy is in contraction. This is not surprising because, as mentioned before, it is during the economic contractions that government interventions and industrial restructuring are most likely to occur. These external events could introduce nonlinearity in the U.S. unemployment rate. Intuitively, such improvements are important because it is during the contractions that people pay more attention to economic forecasts.
 
 
-# KEY POINTS
+## KEY POINTS
 
 - Nonlinearity exists in many financial data, including log returns of widely used market indexes such as CRSP equal- and value-weight indexes.
 - Nonlinearity also appears in asset volatility. Indeed, simple threshold models such as the threshold GARCH model can be used to better describe the behavior of asset volatility. The model has been used to model the leverage effect between return and volatility.
@@ -1054,7 +1054,7 @@ The results suggest that the contributions of nonlinear models over linear ones 
 - The unemployment rate example shows that, even though nonlinear models may not outperform linear ones in all forecast origins, they can provide more accurate forecasts when the U.S. economy is under contraction. This is useful because people in general pay more attention to forecasts during economic recession.
 - Among the nonlinear models, the Markov switching model has the smallest bias in out-of-sample prediction. The model, however, has a larger mean square of forecast errors than the threshold autoregressive model. This behavior is consistent with the structure of the model because the true states of the economy are never certain under the switching model.
 
-# REFERENCES
+## REFERENCES
 
 Akaike, H. (1974). A new look at the statistical model identification. IEEE Transactions on Automatic Control AC-19: 716-723.
 Andrews, D. W. K., and Ploberger, W. (1994). Optimal tests when a nuisance parameter is present only under the alternative. Econometrica 62: 1383-1414.

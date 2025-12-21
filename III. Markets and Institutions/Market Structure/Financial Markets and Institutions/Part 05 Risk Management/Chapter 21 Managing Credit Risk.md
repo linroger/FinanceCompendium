@@ -1,11 +1,22 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Chapter 21 Managing Credit Risk"
+parent_directory: "III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 05 Risk Management"
+formatted: "2025-12-21 12:45:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+primary_tags:
+  - credit risk management
+  - financial risk management
+  - banking risk assessment
+  - loan performance analysis
+  - risk mitigation strategies
+secondary_tags:
+  - charge-off rates
+  - commercial loans
+  - credit risk modeling
+  - risk management practices
+  - financial institution regulation
 cssclasses: academia
-title: SEARCH THE SITE
-linter-yaml-title-alias: SEARCH THE SITE
 ---
 
 b. What is the loss or gain to a U.S. investor who holds this bond for a year?
