@@ -1,3 +1,32 @@
+---
+title: "Factor-Based Equity Portfolio Construction and Analysis"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume II/Factor Models for Portfolio Construction"
+formatted: "2025-12-21 11:15:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - factor based portfolio construction
+  - equity portfolio analysis
+  - trading strategies development
+  - factor modeling techniques
+secondary_tags:
+  - cross sectional characteristics
+  - macroeconomic influences
+  - statistical factors
+  - data cleaning techniques
+  - factor standardization
+  - orthogonalization methods
+  - outlier detection
+  - risk management
+  - alpha models
+  - backtesting strategies
+  - factor forecasting
+  - portfolio optimization
+  - quantitative trading
+  - investment strategies
+  - performance attribution
+cssclasses: academia
+---
 
 # Factor-Based Equity Portfolio Construction and Analysis
 
@@ -21,7 +50,7 @@ Common stock investment strategies can be broadly classified into the following 
 In a series of examples, we show the individual steps for developing a basic trading strategy. The purpose of these examples is not to provide yet another profitable trading strategy, but rather to illustrate the process an analyst may follow when performing research. In fact, the factors that we use for this purpose are well known and have for years been exploited by industry practitioners. The value added of these examples is in the concrete illustration of the research and development process of a factor-based trading model.
 
 
-# FACTOR-BASED TRADING
+## FACTOR-BASED TRADING
 
 Since the first version of the classic text on security analysis by Benjamin Graham and David Dodd—considered to be the Bible on the fundamental approach to security analysis—was first published in 1934, equity portfolio management and trading strategies have developed considerably. Graham and Dodd were early contributors to factor-based strategies because they extended traditional valuation approaches by using information throughout the financial statements² and by presenting concrete rules of thumb to be used to determine the attractiveness of securities.³
 
@@ -40,11 +69,11 @@ Factors are employed in other areas of financial theory, such as asset pricing, 
 
 The focus in this entry is on using factors to build equity forecasting models, also referred to as alpha or stock selection models. The models serve as mathematical representations of trading strategies. The mathematical representation uses future returns as dependent variables and factors as independent variables.
 
-# DEVELOPING FACTOR-BASED TRADING STRATEGIES
+## DEVELOPING FACTOR-BASED TRADING STRATEGIES
 
 The development of a trading strategy has many similarities with an engineering project. We begin by designing a framework that is flexible enough so that the components can be easily modified, yet structured enough that we remain focused on our end goal of designing a profitable trading strategy.
 
-# Basic Framework and Building Blocks
+### Basic Framework and Building Blocks
 
 The typical steps in the development of a trading strategy are:
 
@@ -60,35 +89,35 @@ Building the strategy.
 
 In what follows, we take a closer look at each step.
 
-# Defining a Trading Idea or Investment Strategy
+### Defining a Trading Idea or Investment Strategy
 
 A successful trading strategy often starts as an idea based on sound economic intuition, market insight, or the discovery of an anomaly. Background research can be helpful in order to understand what others have tried or implemented in the past.
 
 We distinguish between a trading idea and trading strategy based on the underlying economic motivation. A trading idea has a more short-term horizon often associated with an event or mispricing. A trading strategy has a longer horizon and is frequently based on the exploitation of a premium associated with an anomaly or a characteristic.
 
-# Developing Factors
+### Developing Factors
 
 Factors provide building blocks of the model used to build an investment strategy. We introduced a general definition of factors earlier in this entry. After having established the trading strategy, we move from the economic concepts to the construction of factors that may be able to capture our intuition. In this entry, we provide a number of examples of factors based on the cross-sectional characteristics of stocks.
 
-# Acquiring and Processing Data
+### Acquiring and Processing Data
 
 A trading strategy relies on accurate and clean data to build factors. There are a number of third-party solutions and databases available for this purpose such as Thomson MarketQA,6
 
 Factset Research Systems, $^{7}$  and Compustat Xpressfeed. $^{8}$
 
-# Analyzing the Factors
+### Analyzing the Factors
 
 A variety of statistical and econometric techniques must be performed on the data to evaluate the empirical properties of factors. This empirical research is used to understand the risk and return potential of a factor. The analysis is the starting point for building a model of a trading strategy.
 
-# Building the Strategy
+### Building the Strategy
 
 The model represents a mathematical specification of the trading strategy. There are two important considerations in this specification: the selection of which factors and how these factors are combined. Both considerations need to be motivated by the economic intuition behind the trading strategy. We advise against model specification being strictly data driven because that approach often results in overfitting the model and consequently overestimating forecasting quality of the model.
 
-# Evaluating, Backtesting, and Implementing the Strategy
+### Evaluating, Backtesting, and Implementing the Strategy
 
 The final step involves assessing the estimation, specification, and forecast quality of the model. This analysis includes examining the goodness of fit (often done in sample), forecasting ability (often done out of sample), and sensitivity and risk characteristics of the model.
 
-# RISK TO TRADING STRATEGIES
+## RISK TO TRADING STRATEGIES
 
 In investment management, risk is a primary concern. The majority of trading strategies are not risk free but rather subject to various risks. It is important to be familiar with the most common risks in trading strategies. By understanding the risks in advance, we can structure our empirical research to identify how risks will affect our strategies. Also, we can develop techniques to avoid these risks in the model construction stage when building the strategy.
 
@@ -108,7 +137,7 @@ Liquidity risk is a concern for investors. Liquidity is defined as the ability t
 
 These risks can detract or contribute to the success of a trading strategy. It is obvious how these risks can detract from a strategy. What is not always clear is when any one of these unintentional risks contributes to a strategy. That is, sometimes when we build a trading strategy we take on a bias that is not obvious. If there is a premium associated with this unintended risk, then a strategy will earn additional return. Later the premium to this unintended risk may disappear. For example, a trading strategy that focuses on price momentum performed strongly in the calendar years of 1998 and 1999. What an investor might not notice is that during this period the portfolio became increasingly weighted toward technology stocks, particularly Internet-related stocks. During 2000, these stocks severely underperformed.
 
-# DESRABLE PROPERTIES OF FACTORS
+## DESIRABLE PROPERTIES OF FACTORS
 
 Factors should be founded on sound economic intuition, market insight, or an anomaly. In addition to the underlying economic reasoning, factors should have other properties that make them effective for forecasting.
 
@@ -121,7 +150,7 @@ Most importantly, a group of factors should be parsimonious in its description o
 
 Any data set contains outliers, that is, observations that deviate from the average properties of the data. Outliers are not always trivial to handle and sometimes we may want to exclude them and other times not. For example, they could be erroneously reported or legitimate abnormal values. Later in this entry we discuss a few standard techniques to perform data cleaning. The success or failure of factors selected should not depend on a few outliers. In most cases, it is desirable to construct factors that are reasonably robust to outliers.
 
-# SOURCES FOR FACTORS
+## SOURCES FOR FACTORS
 
 How do we find factors? The sources are widespread with no one source clearly dominating. Employing a variety of sources seems to provide the best opportunity to uncover factors that will be valuable for developing a new model.
 
@@ -138,17 +167,17 @@ Academic literature in finance, accounting, and economics provides evidence of n
 
 In uncovering factors, we should put economic intuition first and data analysis second. This avoids performing pure data mining or simply overfitting our models to past history. Research and innovation is the key to finding new factors. Today, analyzing and testing new factors and improving upon existing ones is itself a big industry.
 
-# BUILDING FACTORS FROM COMPANY CHARACTERISTICS
+## BUILDING FACTORS FROM COMPANY CHARACTERISTICS
 
 The following sections focus on the techniques for building factors from company characteristics. Often we desire our factors to relate the financial data provided by a company to metrics that investors use when making decisions about the attractiveness of a stock such as valuation ratios, operating efficiency ratios, profitability ratios, and solvency ratios. Factors should also relate to the market data such as analysts' forecasts, prices and returns, and trading volume.
 
-# WORKING WITH DATA
+### WORKING WITH DATA
 
 In this section, we discuss how to work with data and data quality issues, including some well-probed techniques used to improve the quality of the data. Though the role of getting and analyzing data can be mundane and tedious, we need not forget that high-quality data are critical to the success of a trading strategy. It is important to realize model output is only as good as the data used to calibrate it. As the saying goes: "Garbage in, garbage out."
 
 Understanding the structure of financial data is important. We distinguish three different categories of financial data: time series, cross-sectional, and panel data. Time series data consist of information and variables collected over multiple time periods. Cross-sectional data consist of data collected at one point in time for many different companies (the cross-section of companies of interest). A panel data set consists of cross-sectional data collected at different points in time. We note that a panel data set may not be homogeneous. For instance, the cross-section of companies may change from one point in time to another.
 
-# Data Integrity
+#### Data Integrity
 
 Quality data maintain several attributes such as providing a consistent view of history, maintaining good data availability, containing no survivorship, and avoiding look-ahead bias. As all data sets have their limitations, it is important for the quantitative researcher to be able to recognize the limitations and adjust the data accordingly.
 
@@ -165,7 +194,7 @@ Two other common problems with databases are survivorship and look-ahead bias. S
 Data alignment is another concern when working with multiple databases. Many databases have different identifiers used to identify a firm. Some databases have vendor specific identifiers, others have common identifiers such as CUSIPs or ticker symbols. Unfortunately, CUSIPs and ticker symbols change over time and are often reused. This practice makes it difficult to link an individual security across multiple databases across time.
 
 
-# Example: The EBITDA/EV Factor
+#### Example: The EBITDA/EV Factor
 
 This example illustrates how the nuances of data handling can influence the results of a particular study. We use data from the Compustat Point-In-Time database and calculate the EBITDA/EV factor.[11] This factor is defined as earnings before interest, taxes, depreciation, and amortization divided by enterprise value (EBITDA/EV). Our universe of stocks is the Russell 1000 from December 1989 to December 2008, excluding financial companies. We calculate EBITDA/EV by two equivalent but different approaches. Each approach differs by the data items used in calculating the numerator (EBITDA):
 
@@ -177,12 +206,12 @@ According to the Compustat manual, the following identity holds:
 Operating income before depreciation
 
 $$
-\begin{array}{l} = \text{Sa le s} - \text{Co st of go od ss ol d} - \text{Se ll in g} \\ a n d \quad a n d g e n e r a l \quad a d v i s t r a t i v e \quad e x p e s s e s \\ \end{array}
+\begin{array}{l} = \text{Sales} - \text{Cost of goods sold} - \text{Selling} \\ \text{and general administrative expenses} \\ \end{array}
 $$
 
 However, while this mathematical identity is true, this is not what we discover in the data. After we calculate the two factors, we form quintile portfolios of each factor and compare the individual holding rankings between the portfolio. Figure 1 displays the percentage differences in rankings for individual companies between the two portfolios. We observe that the results are not identical. As a matter of fact, there are large differences, particularly in the early period. In other words, the two mathematically equivalent approaches do not deliver the same empirical results.
 
-# Potential Biases from Data
+#### Potential Biases from Data
 
 There are numerous potential biases that may arise from data quality issues. It is important to recognize the direct effects of these data issues are not apparent a priori. We emphasize three important effects:12
 
@@ -196,7 +225,7 @@ Figure 1 Percentage of Companies in Russell 1000 with Different Ranking Accordin
 
 3. Effects on estimated moments of returns. A study by Kothari, Sabino, and Zach (2005) found that nonsurviving firms tend to be either extremely bad or extremely good performers. Survivor bias implies truncation of such extreme observations. The authors of the study show that even a small degree of such nonrandom truncation can have a strong impact on the sample moments of stock returns.
 
-# Dealing with Common Data Issues
+#### Dealing with Common Data Issues
 
 Most data sets are subject to some quality issues. To work effectively, we need to be familiar with data definitions and database design. We also need to use processes to reduce the potential impact of data problems as they could cause incorrect conclusions.
 
@@ -219,38 +248,38 @@ Researchers creating factors that use financial statements should review the his
 
 Preferably, automated processes should be used to reduce the potential impact of data problems. We start by checking the data for consistency and accuracy. We can perform time series analysis on individual factors looking at outliers and for missing data. We can use magnitude tests to compare current data items with the same items for prior periods, looking for data that are larger than a predetermined variance. When suspicious cases are identified, the cause of the error should be researched and any necessary changes made.
 
-# Methods to Adjust Factors
+#### Methods to Adjust Factors
 
 At first, factors consist of raw data from a database combined in an economically meaningful way. After the initial setup, a factor may be adjusted using analytical or statistical techniques to be more useful for modeling. The following three adjustments are common.
 
-# Standardization
+##### Standardization
 
 Standardization rescales a variable while preserving its order. Typically, we choose the standardized variable to have a mean of zero and a standard deviation of one by using the transformation
 
-$$ x_{i}^{\mathrm{ne w}} = \frac{x_{i} - \bar {x}}{\sigma_{x}}
-$$ where  $x_{i}$  is the stock's factor score,  $\bar{x}$  is the universe average, and  $\sigma_{x}$  is the universe standard deviation. There are several reasons to scale a variable in this way. First, it allows one to determine a stock's position relative to the universe average. Second, it allows better comparison across a set of factors since means and standard
+$$ x_{i}^{\mathrm{new}} = \frac{x_{i} - \bar{x}}{\sigma_{x}}
+$$ where $x_{i}$ is the stock's factor score, $\bar{x}$ is the universe average, and $\sigma_{x}$ is the universe standard deviation. There are several reasons to scale a variable in this way. First, it allows one to determine a stock's position relative to the universe average. Second, it allows better comparison across a set of factors since means and standard
 
 
 deviations are the same. Third, it can be useful in combining multiple variables.
 
-# Orthogonalization
+##### Orthogonalization
 
 Sometimes the performance of our factor might be related to another factor. Orthogonalizing a factor for other specified factor(s) removes this relationship. We can orthogonalize by using averages or running regressions.
 
 To orthogonalize the factor using averages according to industries or sectors, we can proceed as follows. First, for each industry we calculate the industry scores
 
-$$ s_{k} = \frac{\sum_{i = 1}^{n} x_{i} \cdot \operatorname{in d}_{i , k}}{\sum_{i = 1}^{n} \operatorname{in d}_{i , k}}
-$$ where  $x_{i}$  is a factor and  $\mathrm{ind}_{i,k}$  represent the weight of stock  $i$  in industry  $k$ . Next, we subtract the industry average of the industry scores,  $s_{k}$ , from each stock. We compute
+$$ s_{k} = \frac{\sum_{i = 1}^{n} x_{i} \cdot \operatorname{ind}_{i , k}}{\sum_{i = 1}^{n} \operatorname{ind}_{i , k}}
+$$ where $x_{i}$ is a factor and $\mathrm{ind}_{i,k}$ represent the weight of stock $i$ in industry $k$. Next, we subtract the industry average of the industry scores, $s_{k}$, from each stock. We compute
 
 
-$$ x_{i}^{\mathrm{ne w}} = x_{i} - \sum_{k \in \mathrm{In du st ri es}} \operatorname{in d}_{i, k} \cdot s_{k}
-$$ where  $x_{i}^{\mathrm{new}}$  is the new industry neutral factor.
+$$ x_{i}^{\mathrm{new}} = x_{i} - \sum_{k \in \mathrm{Industries}} \operatorname{ind}_{i, k} \cdot s_{k}
+$$ where $x_{i}^{\mathrm{new}}$ is the new industry neutral factor.
 
 
 We can use linear regression to orthogonalize a factor. We first determine the coefficients in the equation
 
 $$ x_{i} = a + b \cdot f_{i} + \varepsilon_{i}
-$$ where  $f_{i}$  is the factor to orthogonalize the factor  $x_{i}$  by,  $b$  is the contribution of  $f_{i}$  to  $x_{i}$ , and  $\varepsilon_{i}$  is the component of the factor  $x_{i}$  not related to  $f_{i}$ .  $\varepsilon_{i}$  is orthogonal to  $f_{i}$  (that is,  $\varepsilon_{i}$  is independent of  $f_{i}$ ) and represents the neutralized factor
+$$ where $f_{i}$ is the factor to orthogonalize the factor $x_{i}$ by, $b$ is the contribution of $f_{i}$ to $x_{i}$, and $\varepsilon_{i}$ is the component of the factor $x_{i}$ not related to $f_{i}$. $\varepsilon_{i}$ is orthogonal to $f_{i}$ (that is, $\varepsilon_{i}$ is independent of $f_{i}$) and represents the neutralized factor
 
 
 $$ x_{i}^{\mathrm{ne w}} = \varepsilon_{i}
@@ -259,16 +288,16 @@ $$
 In the same fashion, we can orthogonalize our variable relative to a set of factors by using the multivariate linear regression
 
 $$ x_{i} = a + \sum_{j} b_{j} \cdot f_{j} + \varepsilon_{i}
-$$ and then setting  $x_{i}^{\mathrm{new}} = \varepsilon_{i}$ .
+$$ and then setting $x_{i}^{\mathrm{new}} = \varepsilon_{i}$.
 
 
 Often portfolio managers use a risk model to forecast risk and an alpha model to forecast returns. The interaction between factors in a risk model and an alpha model often concerns portfolio managers. One possible approach to address this concern is to orthogonalize the factors or final scores from the alpha model against the factors used in the risk model. Later in the entry, we discuss this issue in more detail.
 
-# Transformation
+##### Transformation
 
 It is common practice to apply transformations to data used in statistical and econometric models. In particular, factors are often transformed such that the resulting series is symmetric or close to being normally distributed. Frequently used transformations include natural logarithms, exponentials, and square roots. For example, a factor such as market capitalization has a large skew because a sample of large-cap stocks typically includes mega-capitalization stocks. To reduce the influence of mega-capitalization companies, we may instead use the natural logarithm of market capitalization in a linear regression model.
 
-# Outlier Detection and Management
+##### Outlier Detection and Management
 
 Outliers are observations that seem to be inconsistent with the other values in a data set. Financial data contain outliers for a number of reasons including data errors, measurement errors, or unusual events. Interpretation of data containing outliers may therefore be misleading. For example, our estimates could be biased or distorted, resulting in incorrect conclusions.
 
@@ -279,7 +308,7 @@ After outliers have been identified, we need to reduce their influence in our an
 
 Winsorization is the process of transforming extreme values in the data. First, we calculate percentiles of the data. Next we define outliers by referencing a certain percentile ranking. For example, any data observation that is greater than the 97.5 percentile or less than the 2.5 percentile could be considered an outlier. Finally, we set all values greater or less than the reference percentile ranking to particular values. In our example, we may set all values greater than the 97.5 percentile to the 97.5 percentile value and all values less than 2.5 percentile set to the 2.5 percentile value. It is important to fully investigate the practical consequences of using either one of these procedures.
 
-# ANALYSIS OF FACTOR DATA
+## ANALYSIS OF FACTOR DATA
 
 After constructing factors for all securities in the investable universe, each factor is analyzed individually. Presenting the time-series and cross-sectional averages of the mean, standard deviations, and key percentiles of the distribution provide useful information for understanding the behavior of the chosen factors.
 
@@ -288,19 +317,19 @@ Although we often rely on techniques that assume the underlying data generating 
 
 Below we provide some examples of the cross-sectional characteristics of various factors. For ease of exposition we use histograms to evaluate the data rather than formal statistical tests. We let particular patterns or properties of the histograms guide us in the choice of the appropriate technique to model the factor. We recommend that an intuitive exploration should be followed by a more formal statistical testing procedure. Our approach here is to analyze the entire sample, all positive values, all negative values, and zero values. Although omitted here, a thorough analysis should also include separate subsample analysis.
 
-# Example 1: EBITDA/EV
+### Example 1: EBITDA/EV
 
 The first factor we discuss is the earnings before interest, taxes, and amortization to enterprise value (EBITDA/EV) factor. Enterprise value is calculated as the market value of the capital structure. This factor measures the price (enterprise value) investors pay to receive the cash flows (EBITDA) of a company. The economic intuition underlying this factor is that the valuation of a company's cash flow determines the attractiveness of companies to an investor.
 
 Figure 2(A) presents a histogram of all cross-sectional values of the EBITDA/EV factor throughout the entire history of the study. The distribution is close to normal, showing there is a fairly symmetric dispersion among the valuations companies receive. Figure 2(B) shows that the distribution of all the positive values of the factor is also almost normally distributed. On the other hand, Figure 2(C) shows that the distribution of the negative values is skewed to the left. However, because there are only a small number of negative values, it is likely that they will not greatly influence our model.
 
-# Example 2: Revisions
+### Example 2: Revisions
 
 We evaluate the cross-sectional distribution of the earnings revisions factor. The revisions factor we use is derived from sell-side analyst earnings forecasts from the IBES database. The factor is calculated as the number of analysts who revise their earnings forecast upward minus the number of downward forecasts, divided by the total number of forecasts. The economic intuition underlying this factor is that there should be a positive relation to changes in forecasts of earnings and subsequent returns.
 
 In Figure 3(A) we see that the distribution of revisions is symmetric and leptokurtic around a mean of about zero. This distribution ties with the economic intuition behind the revisions. Since business prospects of companies typically do not change from month-to-month, sell-side analysts will not revise their earnings forecast every month. Consequently, we expect and find the cross-sectional range to be peaked at zero. Figure 3(B) and (C), respectively, show there is a smaller number of both positive and negative earnings revisions and each one of these distributions are skewed.
 
-# Example 3: Share Repurchase
+### Example 3: Share Repurchase
 
 We evaluate the cross-sectional distribution of the shares repurchases factor. This factor is calculated as the difference of the current number of common shares outstanding and the number of shares outstanding 12 months ago, divided by the number of shares outstanding 12 months ago. The economic intuition underlying this factor is that share repurchase provides information to investors about future earnings and valuation of the company's stock.[14] We expect there to be a positive relationship between a reduction in shares outstanding and subsequent returns.
 
@@ -337,7 +366,7 @@ D. Zero Factor Values negative values (see Figure 4(C)) are clustered in a small
 Figure 4 Histograms of the Cross-Sectional Values for the Share Repurchase Factor
 
 
-# KEY POINTS
+## KEY POINTS
 
 - A factor is a common characteristic among a group of assets. Factors should be founded on sound economic intuition, market insight, or an anomaly.
 - Factors fall into three categories—macroeconomic, cross-sectional, and statistical factors.
@@ -351,7 +380,7 @@ Figure 4 Histograms of the Cross-Sectional Values for the Share Repurchase Facto
 - Common methods used for adjusting data are standardization, orthogonalization, transformation, trimming, and winsorization.
 - The statistical properties of factors need to be carefully analyzed. Basic statistical measures include the time-series and cross-sectional averages of the mean, standard deviations, and key percentiles.
 
-# NOTES
+## NOTES
 
 1. Graham and Dodd (1962).
 2. Graham (1949).
@@ -368,7 +397,7 @@ Figure 4 Histograms of the Cross-Sectional Values for the Share Repurchase Facto
 13. For a representative study see, for example, Bercel (1994).
 14. See Grullon and Michaelly (2004).
 
-# REFERENCES
+## REFERENCES
 
 Barberis, N., and Thaler, R. (2003). A survey of behavioral finance. In G. M. Constantinides, M. Harris, and R. M. Stulz (Eds.), Handbook of the Economics of Finance. Amsterdam: Elsevier Science.
 Bercel, A. (1994). Consensus expectations and international equity returns. *Financial Analysts Journal* 50, 4: 76-80.

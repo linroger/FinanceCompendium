@@ -1,62 +1,72 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Derivative Securities Markets
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 02 Securities Markets
+formatted: 2025-12-21 10:50:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+- derivative securities
+- options markets
+- futures contracts
+- financial derivatives
+- risk management instruments
+secondary_tags:
+- forward contracts
+- call options
+- put options
+- swaps markets
+- credit derivatives
+- option pricing
+- black-scholes model
+- hedging strategies
 cssclasses: academia
-title: derivative security
-linter-yaml-title-alias: derivative security
 ---
 
-Derivative Securities: Chapter Overview
+## Chapter Overview
 
-Forwards and Futures
+### Forwards and Futures
 
-Spot Markets
+#### Spot Markets
 
-Forward Markets
+#### Forward Markets
 
-Futures Markets
+#### Futures Markets
 
-Options
+### Options
 
-Call Options
+#### Call Options
 
-Put Options
+#### Put Options
 
-Option Values
+#### Option Values
 
-Option Markets
+#### Option Markets
 
-Regulation of Futures and Options Markets
+### Regulation of Futures and Options Markets
 
-Swaps
+### Swaps
 
-Interest Rate Swaps
+#### Interest Rate Swaps
 
-Currency Swaps
+#### Currency Swaps
 
-Credit Swaps
+#### Credit Swaps
 
-Swap Markets
+#### Swap Markets
 
-Caps, Floors, and Collars
+### Caps, Floors, and Collars
 
-International Aspects of
+### International Aspects of Derivative Securities Markets
 
-Derivative Securities Markets
+### Appendix 10A: Black-Scholes Option Pricing Model
 
-Appendix 10A: Black-Scholes
+*(available through Connect or your course instructor)*
 
-Option Pricing Model
-
-(available through Connect or your course instructor)
-
-# derivative security
+## Derivative Security
 
 An agreement between two parties to exchange a standard quantity of an asset at a predetermined price at a specified date in the future.
 
-# derivative securities markets
+## Derivative Securities Markets
 
 The markets in which derivative securities trade.
 
@@ -76,55 +86,19 @@ The rapid growth of derivatives use by both FIs and nonfinancial firms has been 
 
 In this chapter, we present an overview of the derivative securities markets. We look at the markets for forwards, futures, options, swaps, and some special derivative contracts (caps, floors, and collars). We define the various derivative securities and focus on the markets themselves—their operations and trading processes. In Chapter 24, we describe in detail how these securities can be used to manage and hedge the foreign exchange, interest rate, and credit risks of financial institutions.
 
-# FORWARDS AND FUTURES
+## Forwards and Futures
 
 LG 10-1
 
-# spot contract
+### Spot Contract
 
 An agreement to transact involving the immediate exchange of assets and funds.
 
-To present the essential nature and characteristics of forward and futures contracts and markets, we compare them with spot contracts. We define each in Table 10-1. We illustrate appropriate time lines for each of the three contracts using a bond as the underlying financial security to the derivative contract in Figure 10-1.
+### Spot Markets
 
-# Spot Markets
+### Forward Markets
 
-A spot contract is an agreement between a buyer and a seller at time 0, when the seller of the asset agrees to deliver it immediately and the buyer agrees to pay for that
-
-# TABLE 10-1 Spot, Forward, and Futures Contracts
-
-Spot contract—agreement made between a buyer and a seller at time 0 for the seller to deliver the asset immediately and the buyer to pay for the asset immediately.
-
-Forward contract—agreement between a buyer and a seller at time 0 to exchange a nonstandardized asset for cash at some future date. The details of the asset and the price to be paid at the forward contract expiration date are set at time 0. The price of the forward contract is fixed over the life of the contract.
-
-Futures contract—agreement between a buyer and a seller at time 0 to exchange a standardized asset for cash at some future date. Each contract has a standardized expiration and transactions occur in a centralized market. The price of the futures contract changes daily as the market value of the asset underlying the futures fluctuates.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/b8260373e36496fbade4f3876393f5111c9ad65a8ae5361d6878647f5730ee34.jpg) asset immediately. $^3$  Thus, the unique feature of a spot market is the immediate and simultaneous exchange of cash for securities, or what is often called delivery versus payment. A spot bond quote of  \$97 for a 20-year maturity bond is the price the buyer must pay the seller, per\$ 100 of face value, for immediate (time 0) delivery of the 20-year bond.
-
-Figure 10-1 Contract Time Line
-
-Spot transactions occur because the buyer of the asset believes its value will increase in the immediate future (over the investor's holding period). If the value of the asset increases as expected, the investor can sell the asset at its higher price for a profit. For example, if the 20-year bond increases in value to $99 per $100 of face value, the investor can sell the bond for a profit of $2 per $100 of face value.
-
-# Forward Markets
-
-# forward contract
-
-An agreement to transact involving the future exchange of a set amount of assets at a set price.
-
-Forward Contracts. A forward contract is a contractual agreement between a buyer and a seller at time 0 to exchange a prespecified asset for cash at some later date at a price set at time 0. Market participants take a position in forward contracts because the future (spot) price or interest rate on an asset is uncertain. Rather than risk that the future spot price will move against them—that the asset will become more expensive to buy in the future—forward traders pay a financial institution a fee to arrange a forward contract. Such a contract lets the market participant hedge the risk that future spot prices on an asset will move against him or her by guaranteeing a future price for the asset today.
-
-For example, in a three-month forward contract to deliver  \$100 face value of 10-year bonds, the buyer and seller agree on a price and amount today (time 0), but the delivery (or exchange) of the 10-year bond for cash does not occur until three months into the future. If the forward price agreed to at time 0 was\$ 98 per 100 of face value, in three months' time the seller delivers \$100 of 10-year bonds and receives \$98 from the buyer. This is the price the buyer must pay and the seller must accept no matter what happens to the spot price of 10-year bonds during the three months between the time the contract is entered into and the time the bonds are delivered for payment (i.e., whether the spot price falls to \$97 or below or rises to \$99 or above).
-
-In Chapter 9, we discussed the market for forward foreign currency exchange contracts, which allows market participants to buy or sell a specified currency for a specified price at a specified date (e.g., one-month, three-month, or six-month contracts are standard). Forward contracts can also be based on a specified interest rate (e.g., LIBOR) rather than a specified asset (called forward rate agreements, or FRAs). The buyer of a FRA agrees to pay the contract rate based on some notional principal amount (e.g.,  \$1 million)—he or she buys the notional amount at the stated interest rate. The seller of a FRA agrees to sell the funds to the buyer at the stated rate. For example, for a three-month FRA written today with a notional value of\$ 1 million and a contract rate of 1.70 percent, the buyer of the FRA agrees to pay 1.70 percent (the current three-month LIBOR rate) to borrow \$1 million starting three months from now. The seller of the FRA agrees to lend \$1 million to the buyer at 1.70 percent starting three months from now. If interest rates rise in the next three months, the FRA buyer benefits from the FRA. He or she can borrow 1 million at the rate stated on the FRA (1.70 percent) rather than at the higher market rate (say, 2 percent).
-
-Forward contracts often involve underlying assets that are nonstandardized, because the terms of each contract are negotiated individually between the buyer and the seller (e.g., a contract between Bank A to buy from Bank B, six months from now, 1 million in 30-year Treasury bonds with a coupon rate of 2.50 percent). As a result, the buyer and seller involved in a forward contract must locate and deal directly with each other in the over-the-counter market to set the terms of the contract rather than transacting the sale in a centralized market (such as a futures market exchange).
-
-Forward Markets. Commercial banks (see Chapter 11) and investment banks and broker-dealers (see Chapter 16) are the major forward market participants, acting as both principals and agents. These financial institutions make a profit on the spread between the price at which they buy and sell the asset underlying the forward contracts.
-
-Each forward contract is originally negotiated between the financial institution and the customer, and therefore the details of each (e.g., price, expiration, size, delivery date) can be unique. Most forward contracts are tailor-made contracts that are negotiated between two parties. Thus, there is a risk of default by either party. If an over-the-counter (OTC) transaction is not structured carefully, it may pass along unintended risks to participants, exposing them to higher frequency and severity of losses than if they had held an equivalent cash position. As the forward market has grown over the last decade, however, traders have begun making secondary markets in some forward contracts, communicating the buy and sell prices on the contracts over computer networks. As of September 2019, U.S. commercial banks held over 43.1 trillion of forward contracts that were listed for trading in the over-the-counter markets. The advent of this secondary market trading has resulted in an increase in the standardization of forward contracts. It has also become increasingly easy to get out of a forward position by taking an offsetting forward position in the secondary market. Secondary market activity in forward contracts has made them more attractive to firms and investors that had previously been reluctant to get locked into a forward contract until expiration. Secondary market activity has also resulted in a situation in which the differences between forward and future contracts have significantly narrowed.
-
-In recent years credit derivative instruments have been developed to better allow financial institutions to hedge their credit risk. Credit derivatives can be used to hedge the credit risk on individual loans or a portfolio of loans. The credit derivative market, while still relatively young, has gained a reputation as an early warning signal for spotting corporate debt problems. One such credit derivative instrument is a credit forward. A credit forward is a forward agreement that hedges against an increase in default risk on a loan (a decline in the credit quality of a borrower) after the loan rate is determined and the loan is issued by a bank. Common buyers of credit forwards are banks and common sellers are insurance companies.
-
-# Futures Markets
+### Futures Markets
 
 # futures contract
 
@@ -281,19 +255,9 @@ As this example illustrates, the marking to market feature of futures contracts 
 
 Chapters 23 and 24 provide more details on the use of futures contracts to manage interest rate and credit risk.
 
-# OPTIONS
+## Options
 
-# option
-
-A contract that gives the holder the right, but not the obligation, to buy or sell the underlying asset at a specified price within a specified period of time.
-
-# call option
-
-An option that gives a purchaser the right, but not the obligation, to buy the underlying security from the writer of the option at a prespecified exercise price on or before a prespecified date.
-
-An option is a contract that gives the holder the right, but not the obligation, to buy or sell an underlying asset at a prespecified price for a specified time period. Options are classified as either call options or put options. We discuss both of these below, highlighting their payoffs in terms of price movements on the underlying asset.
-
-# Call Options
+### Call Options
 
 A call option gives the purchaser (or buyer) the right to buy an underlying security (e.g., a stock) at a prespecified price called the exercise or strike price  $(X)$ . In return, the buyer of the call option must pay the writer (or seller) an up-front fee known as a call premium  $(C)$ . This premium is an immediate negative cash flow for the buyer of the call option. However, he or she potentially stands to make a profit should the underlying stock's price be greater than the exercise price (by an amount exceeding the premium). If the price of the underlying stock is greater than  $X$  (the option is referred to as "in the money"), the buyer can exercise the option, buying the stock at  $X$  and selling it immediately in the stock market at the current market price, greater than  $X$ . If the price of the underlying stock is less than  $X$  (the option is referred to as "out of the money"), the buyer of the call would not exercise the option (i.e., buy the stock at  $X$  when its market value is less than  $X$ ). If this is the case when the option matures, the option expires unexercised. The same is true when the underlying stock price is exactly equal to  $X$  when the option expires (the option is referred to as "at the money"). The call buyer incurs a cost  $C$  (the call premium) for the option, and no other cash flows result.
 
@@ -324,9 +288,9 @@ Figure 10-6 Payoff Function for the Writer of a Call Option on a Stock
 
 Thus, writing a call option is an appropriate position when the underlying asset's price is expected to fall. Caution is warranted, however, because profits are limited but losses are potentially unlimited. A rise in the underlying stock's price to  $S$  results in the writer of the option losing  $\pi$  (in Figure 10-6).
 
-# Put Options
+### Put Options
 
-# put option
+#### Put Option
 
 An option that gives a purchaser the right, but not the obligation, to sell the underlying security to the writer of the option at a prespecified price on or before a prespecified date.
 

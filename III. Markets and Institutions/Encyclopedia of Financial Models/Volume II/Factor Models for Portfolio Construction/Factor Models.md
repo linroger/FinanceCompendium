@@ -1,4 +1,31 @@
 
+---
+title: Factor Models
+parent_directory: Factor Models for Portfolio Construction
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - factor models
+  - arbitrage pricing theory
+  - portfolio construction
+  - principal components analysis
+  - multifactor models
+  - asset pricing models
+secondary_tags:
+  - risk factor estimation
+  - covariance matrix
+  - latent factors
+  - known factors
+  - fama french model
+  - macroeconomic factors
+  - bond factor models
+  - return prediction
+  - dynamic factor models
+  - statistical factor analysis
+cssclasses: academia
+---
+
 # Factor Models
 
 GUOFU ZHOU, PhD
@@ -14,7 +41,6 @@ Abstract: Asset pricing models seek to estimate the relationship between the fac
 Given a set of assets or asset classes, an important task in the practice of investment management is to understand and estimate their expected returns and the associated risks. Factor models are widely used by investors to link the risk exposures of the assets to a set of known or unknown factors. The known factors can be economic or political factors, industry factors or country factors, and the unknown factors are those that best describe the dynamics of the asset returns in the factor models, but they are not directly observable or easily interpreted by investors and have to be estimated from the data.
 
 Applications of the mean-variance analysis and portfolio selection theories in general require the estimation of expected asset returns and their covariance matrix. Those market participants who can identify those true factors that drive asset returns should have much better estimates of the true expected asset returns and the covariance matrix, and hence should be able to form a much better portfolio than otherwise possible. Hence, a lot of research and resources are devoted to analyzing factor models in practice by the investment community. There is an intellectual "arms race" to find the best portfolio strategies to outperform competitors.
-
 
 Factor model estimation depends crucially on whether the factors are identified (known) and unidentified (latent), and depend on the sample size and the number of assets. In addition, factor models can be used not only for explaining asset returns, but also for predicting future returns. In this entry, we review first the factor models in the case of known and latent factors in order to provide a big picture, and then discuss the details of estimation.
 
@@ -32,8 +58,7 @@ $$
 $$ where  $\tilde{f}_1, \tilde{f}_2, \ldots, \tilde{f}_K$  are the systematic factors that affect all the asset returns on the left-hand side,  $i = 1, 2, \ldots, N$ ; and  $\tilde{\varepsilon}_{it}$  is the asset specific risk. Note that we have placed a tilde sign ( $\sim$ ) over the random asset returns, factors, and specific risks. By so doing, we distinguish between factors (random) and their realizations (data), which are important for understanding the estimation procedure below.
 
 
-Theoretically, under the assumption of no arbitrage, the asset pricing relation of the APT as given by equation (1) must be true as demonstrated by Ross. There are two important points to note. First, the return-generating process as given by equation (2) is fundamentally different from the asset pricing relation. The return-generating process is a statistical model used to measure the risk exposures of the asset returns. It does not require drawing any economic con clusion, nor does it says anything about what the expected returns on the assets should be. In other words, the  $\alpha_{\mathrm{i}}$  's in the return-generating process can statistically be any numbers. Only when the no-arbitrage assumption is imposed can one claim the APT, which says that the  $\alpha_{\mathrm{i}}$  's should be linearly related to their risk exposures (betas).
-
+Theoretically, under the assumption of no arbitrage, the asset pricing relation of the APT as given by equation (1) must be true as demonstrated by Ross. There are two important points to note. First, the return-generating process as given by equation (2) is fundamentally different from the asset pricing relation. The return-generating process is a statistical model used to measure the risk exposures of the asset returns. It does not require drawing any economic conclusion, nor does it says anything about what the expected returns on the assets should be. In other words, the  $\alpha_{\mathrm{i}}$  's in the return-generating process can statistically be any numbers. Only when the no-arbitrage assumption is imposed can one claim the APT, which says that the  $\alpha_{\mathrm{i}}$  's should be linearly related to their risk exposures (betas).
 
 Second, the APT does not provide any specific information about what the factors are. Nor does the theory make any claims on the number of factors. It simply assumes that if the returns are driven by the factors, and if the smart investors know the betas (via learning or estimating), then an arbitrage portfolio, which requires no investment but yields a positive return, can be formed if the APT pricing relation is violated in the market. Hence, in equilibrium if there are no arbitrage opportunities, we should not observe deviations from the APT pricing relation.
 
@@ -46,7 +71,7 @@ In this section we describe the different types of factor models.
 The simplest case of factor models is where the  $K$  factors are assumed known or observable, so that we have time-series data on them. In this case, the  $K$ -factor model for the return-generating process as given by equation (2) is a multiple regression for each asset and is a multivariate regression if all of the individual regressions are pooled together. For example, if one believes that the gross domestic product (GDP) is the driving force for a group of stock returns, one would have a one-factor model,
 
 $$
-\tilde {r}_{i t} - r_{f t} = \alpha_{i} + \beta_{i 1} \tilde {\mathbf {G}} D P_{t} + \tilde {\varepsilon}_{i t}
+\tilde {r}_{i t} - r_{f t} = \alpha_{i} + \beta_{i 1} \tilde {\mathbf{G}} DP_{t} + \tilde {\varepsilon}_{i t}
 $$
 
 The above equation corresponds to equation (1) with  $K = 1$  and  $f_{1} = \tilde{G}DP$ . In practice, one can obtain time-series data on both the asset returns and GDP, and then one can estimate regressions to obtain all the parameters, including in particular the expected returns.
@@ -74,11 +99,11 @@ $\tilde{R}_t =$  an  $N$  -vector of asset excess returns
 
 $\alpha =$  an  $N$  -vector of the alphas
 
-$\beta = \mathrm{an}N\times K$  of betas or factor loadings
+$\beta = \mathrm{an} N \times K$  of betas or factor loadings
 
 $\tilde{f}_t = a$ $K$  -vector of the factors
 
-$\tilde{\varepsilon} = \text{an } N$ -vector of the model residuals.
+$\tilde{\varepsilon} = \text{an }N$ -vector of the model residuals.
 
 For example, we can write a model with  $N = 3$  assets and  $K = 2$  factors as
 
@@ -236,7 +261,7 @@ There are two important cases, each of which calls for a different way of applyi
 
 # Case 1: Fixed N
 
-In the case of fixed  $N$ , we have a relatively smaller number of assets and a relatively large sample size. Then the covariance matrix of the asset returns, which is the same as the covariance matrix of  $\tilde{Y}_t$ , can be estimated by the sam ple covariance matrix,
+In the case of fixed  $N$ , we have a relatively smaller number of assets and a relatively large sample size. Then the covariance matrix of the asset returns, which is the same as the covariance matrix of  $\tilde{Y}_t$ , can be estimated by the sample covariance matrix,
 
 
 $$
@@ -290,12 +315,12 @@ To illustrate the procedure, consider an application of the PCA factor analysis 
 Now
 
 $$
-\Psi = \frac{Y^{\prime} Y}{3 4 8}
+\Psi = \frac{Y^{\prime} Y}{348}
 $$ is an 11 by 11 matrix. We can easily compute its eigenvalues and eigenvectors. The largest three eigenvalues are
 
 
 $$
-\left(\lambda_{1}, \lambda_{2}, \lambda_{3}\right) = 1 0^{- 2} (0. 2 4 0 3, 0 1 3 3, 0 0 1 2)
+\left(\lambda_{1}, \lambda_{2}, \lambda_{3}\right) = 10^{-2} (0.2403, 0.133, 0.012)
 $$ whose sum is more than  $99\%$  of the sum of all the eigenvalues. Thus, it is enough to consider  $K = 3$  factors and use the first three
 
 
@@ -341,17 +366,13 @@ Because it is conditional on  $f_{t}$ , the factor model is the usual linear reg
 
 On the other hand, conditional on the parameters, we can learn the factors by using their conditional expected values obtained easily from their joint distribution with the returns. Hence, we can have an iterative algorithm. Starting from an initial guess of the factors, we maximize the conditional likelihood function to obtain the OLS  $\beta$  and  $\Sigma_{\varepsilon}$  estimates, which is the M-step of the EM algorithm. Based on these estimates, we update a new estimate of  $f_{t}$  using their expected value. This is the EM algorithm's E-step. Using the new  $f_{t}$ , we learn new estimates of  $\beta$  and  $\Sigma_{\varepsilon}$  in the M-step. With the new estimates, we can again update the  $f_{t}$ . Iterating between the EM steps, the limits converge to the unconditional ML estimate and the factor estimates converge to the true ones.
 
-
 As an alternative to the ML method, Geweke and Zhou (1996) propose a Bayesian approach, which treats all parameters as random variables. It works in a way similar to the EM algorithm. Conditional on parameters, we learn the factors, and conditional on the factors, we learn the parameters. Iterating after a few thousand times, we learn the entire joint distribution of the factors and parameters, which are all we need in a factor model. The advantage of the Bayesian approach is that it can incorporate prior information and can provide exact inference. In contrast, the ML method cannot use any priors, nor can it obtain the exact standard errors of both parameters and functions of interest due to the complexity of the factor model. Nardari and Scruggs (2007) extend the Bayesian approach to allow a more general model in which the covariance matrix can vary over time and the APT restrictions can be imposed.
 
 Finally, we provide two important extensions of the factor model that are useful in practice. Note that the factors we discussed thus far assume identical and independently distributed returns and factors. These are known as static factor models. The first extension is dynamic factor models, which allow the factors to evolve over time according to a vector autoregression,
 
 $$
 \tilde {f}_{t} = A_{1} \tilde {f}_{t - 1} + A_{2} \tilde {f}_{t - 2} + \dots + A_{m} \tilde {f}_{t - m} + \tilde {\nu}_{t} \tag {23}
-$$ where the  $A$ 's are the regression coefficient matrices,  $m$  is the order of the autoregression that
-
-
-determines how far past factor realizations still affect today's realizations, and  $v_{t}$  is the residual. In practice, many economic variables are highly persistent, and hence it will be important to incorporate this as above. (See Amengual and Watson [2007] for a discussion of estimation for dynamic factor models.)
+$$ where the  $A$ 's are the regression coefficient matrices,  $m$  is the order of the autoregression that determines how far past factor realizations still affect today's realizations, and  $v_{t}$  is the residual. In practice, many economic variables are highly persistent, and hence it will be important to incorporate this as above. (See Amengual and Watson [2007] for a discussion of estimation for dynamic factor models.)
 
 The second extension is to allow the case with a large number of factors. Consider our earlier factor model
 
@@ -369,7 +390,6 @@ $$
 \tilde {g}_{2 t} = B \tilde {h}_{t} + \tilde {u}_{t} \tag {26}
 $$ where  $\tilde{u}_t$  is the residual. This second factor model provides a large dimension reduction that transforms the hundreds of variables into a few, which can be estimated by the PCA. In the end, we have only a few factors in equation (25), making the analysis feasible based on the methods we discussed earlier. Ludvigson and Ng (2007) appear to be the first to apply such a model in finance. They find that the model can effectively incorporate a few hundred variables so as to make a significant difference in understanding stock market predictability.
 
-
 # USE OF PRINCIPAL COMPONENTS ANALYSIS
 
 Principal components analysis (PCA) is a widely used tool in finance. It is useful not only for estimating factor models as explained in this entry, but also for extracting a few driving variables in general out of many for the covariance matrix of asset returns. Hence, it is important to understand the statistical intuition behind it. To this end, we provide a simple introduction to it in the last section of the entry.
@@ -377,7 +397,7 @@ Principal components analysis (PCA) is a widely used tool in finance. It is usef
 Perhaps the best way to understand the PCA is to go through an example in detail. Suppose there are two risky assets, whose returns are denoted by  $\tilde{r}_1$  and  $\tilde{r}_2$ , with covariance matrix
 
 $$
-\Sigma = \left[ \begin{array}{c c} \sigma_{1}^{2} & \sigma_{1 2} \\ \sigma_{2 1} & \sigma_{2}^{2} \end{array} \right] = \left[ \begin{array}{c c} 2. 0 5 & 1. 9 5 \\ 1. 9 5 & 2. 0 5 \end{array} \right]
+\Sigma = \left[ \begin{array}{c c} \sigma_{1}^{2} & \sigma_{1 2} \\ \sigma_{2 1} & \sigma_{2}^{2} \end{array} \right] = \left[ \begin{array}{c c} 2.05 & 1.95 \\ 1.95 & 2.05 \end{array} \right]
 $$
 
 That is, we assume that they have the same variances of 2.05 and covariance of 1.95. Our objective is to find a linear combination of the two assets so that it has a large component in the covariance matrix, which will be clear below. For notation brevity, we assume first that the expected returns are zeros; that is,
@@ -385,7 +405,6 @@ That is, we assume that they have the same variances of 2.05 and covariance of 1
 $$
 E [ \tilde {r}_{1} ] = 0, E [ \tilde {r}_{1} ] = 0
 $$ and will relax this assumption later.
-
 
 Recall from linear algebra that we call any vector  $(a_{1},a_{2})'$  satisfying
 
@@ -395,10 +414,11 @@ $$ an eigenvector of  $\Sigma$ , and the associated  $\lambda$  the eigenvalue. 
 
 
 $$
-\left[ \begin{array}{c c} 2. 0 5 & 1. 9 5 \\ 1. 9 5 & 2. 0 5 \end{array} \right] \cdot \left( \begin{array}{c} 1 \\ 1 \end{array} \right) = 4 \times \left( \begin{array}{c} 1 \\ 1 \end{array} \right)
+\left[ \begin{array}{c c} 2.05 & 1.95 \\ 1.95 & 2.05 \end{array} \right] \cdot \left( \begin{array}{c} 1 \\ 1 \end{array} \right) = 4 \times \left( \begin{array}{c} 1 \\ 1 \end{array} \right)
 $$ and
 
-
+$$
+\left[ \begin{array}{c c} 2.05 & 1.95 \\ 1.95 & 2.05 \end{array} \right] \cdot \left( \begin{array}{c} 1 \\ - 1 \end{array} \right) = 0.1 \times \left( \begin{array}{c} 1 \\ - 1 \end{array} \right)
 $$
 \left[ \begin{array}{c c} 2. 0 5 & 1. 9 5 \\ 1. 9 5 & 2. 0 5 \end{array} \right] \cdot \left( \begin{array}{c} 1 \\ - 1 \end{array} \right) = 0. 1 \times \left( \begin{array}{c} 1 \\ - 1 \end{array} \right)
 $$ so 4 and 0.1 are the eigenvalues, and  $(1,1)^{\prime}$  and  $(1, - 1)^{\prime}$  are the eigenvectors.
@@ -465,7 +485,7 @@ $$
 Mathematically, it is known that
 
 $$
-\begin{array}{l} \Sigma = [ A_{1},   A_{2} ] \left[ \begin{array}{c c} \lambda_{1} & 0 \\ 0 & \lambda_{2} \end{array} \right] [ A_{1},   A_{2} ]^{\prime} \\ = \lambda_{1} A_{1} A_{1}^{\prime} + \lambda_{2} A_{2} A_{2}^{\prime} = 4 A_{1} A_{1}^{\prime} + 0. 1 A_{2} A_{2}^{\prime} \\ \end{array}
+\begin{array}{l} \Sigma = [ A_{1},   A_{2} ] \left[ \begin{array}{c c} \lambda_{1} & 0 \\ 0 & \lambda_{2} \end{array} \right] [ A_{1},   A_{2} ]^{\prime} \\ = \lambda_{1} A_{1} A_{1}^{\prime} + \lambda_{2} A_{2} A_{2}^{\prime} = 4 A_{1} A_{1}^{\prime} + 0.1 A_{2} A_{2}^{\prime} \\ \end{array}
 $$ which is also easy to verify in our example. The economic interpretation is that the total risk profile of the two assets, as captured by their covariance matrix, is a sum of two components. The first component is determined by the first PC, and the second is determined by the second PC. In other words, in the return linear combinations, equation (26), if we ignore  $P_{2}$  we will get only  $\lambda_1A_1A_1'$ , the first component in the covariance matrix decomposition, and only the
 
 
@@ -524,7 +544,7 @@ In Case 1 of the factor model estimation (i.e., known or observable factors) dis
 - The simplest case of factor models is where the factors are assumed to be known or observable, so that time-series data are those factors can be used to estimate the model.
 - In practice there are three commonly used equity multifactor models where known factors are used: (1) the Fama-French three-factor model, (2) the MSCI Barra fundamental factor model, and (3) the Burmeister-Ibbotson-Roll-Ross macroeconomic factor model. Fundamental factor models use company and industry attributes and market data as descriptors. In a macroeconomic factor model, the inputs to the model are historical stock returns and observable macroeconomic variables.
 - An argument for the use of latent factors is that the observed factors may be measured with errors or have been already anticipated by investors. Without imposing what the factors are from likely incorrect beliefs, asset managers can statistically estimate the factors based on the factor model and data.
-- Two important extensions of the static factor model used in practice are (1) dynamic fac tor models, which allow the factors to evolve over time according to a vector autoregression, and (2) allowance for a large number of factors. This second factor model provides a large dimension reduction that transforms the hundreds of variables into a few, which can be estimated by principal components analysis.
+- Two important extensions of the static factor model used in practice are (1) dynamic factor models, which allow the factors to evolve over time according to a vector autoregression, and (2) allowance for a large number of factors. This second factor model provides a large dimension reduction that transforms the hundreds of variables into a few, which can be estimated by principal components analysis.
 
 
 - Principal components analysis is a simple statistical approach that can be applied to estimate a factor model easily and effectively.

@@ -1,4 +1,26 @@
 
+---
+title: Principal Components Analysis and Factor Analysis
+parent_directory: Factor Models for Portfolio Construction
+formatted: 2025-12-21 10:55:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - principal component analysis
+  - factor analysis
+  - dimensionality reduction
+secondary_tags:
+  - factor models
+  - multivariate statistics
+  - variance covariance matrix
+  - eigenvalues eigenvectors
+  - statistical factor models
+  - maximum likelihood estimation
+  - expectation maximization algorithm
+  - factor rotation
+cssclasses: academia
+---
+
 # Principal Components Analysis and Factor Analysis
 
 SERGIO M. FOCARDL, PhD

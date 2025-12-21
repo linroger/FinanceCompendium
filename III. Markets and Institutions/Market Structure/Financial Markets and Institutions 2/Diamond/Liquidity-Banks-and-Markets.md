@@ -1,31 +1,40 @@
 ---
-parent_directory: Diamond
 title: Liquidity, Banks, and Markets
-tags:
-aliases:
-  - Liquidity and Banks
-parent_folder: Diamond
-subfolder:
-key_concepts:
+parent_directory: Diamond
+formatted: 2025-12-21 10:45:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+   - liquidity provision
+   - banking theory
+   - financial markets
+   - limited participation
+secondary_tags:
+   - cross subsidization
+   - maturity structure
+   - asset liquidity
+   - deposit insurance
+   - market development
+   - risk sharing
+   - information asymmetry
+   - investment allocation
+   - financial intermediation
+   - term structure
+   - bank runs
+   - reserve requirements
 cssclasses: academia
-linter-yaml-title-alias: Liquidity, Banks, and Markets
 ---
 
 # Liquidity, Banks, and Markets
 
-# Douglas W. Diamond
-
+## Douglas W. Diamond
 University of Chicago
 
 This paper examines the roles of markets and banks when both are active, characterizing the effects of financial market development on the structure and market share of banks. Banks lower the cost of giving investors rapid access to their capital and improve the liquidity of markets by diverting demand for liquidity from markets. Increased participation in markets causes the banking sector to shrink, primarily through reduced holdings of long-term assets. In addition, increased participation leads to longer-maturity real and financial assets and a smaller gap between the maturity of financial and real assets.
 
 # I. Introduction
 
-Financial markets and banks are competing mechanisms that provide investors with liquidity by providing access to their capital, at good terms, on short notice. This paper examines the impact of banks on the liquidity provided to investors and, in addition, on the liquidity provided by markets. Markets can provide too little liquidity when some potential investors are not continuously available for trade. If there is this limited participation in the market, banks lower the cost of giving investors rapid access to their capital. Banks hold assets to finance demand deposits offered to those who deposit, and
-
-I gratefully acknowledge helpful comments from Patrick Bolton, John Boyd, Jerry Caprio, Mike Dotsey, Phil Dybvig, Gary Gorton, Lars Hansen (the editor), Bengt Holmstrom, Pete Kyle, Jeff Lacker, Matthew Rothman, Bruce Smith, Lars Stole, Jean Tirole, Neil Wallace, John Weinberg, an anonymous referee, and seminar participants at Chicago, Duke, Massachusetts Institute of Technology, the Federal Reserve Bank of Richmond, and the World Bank. This paper was presented at the Nobel Symposium on Law and Finance in Stockholm in August 1995.
-
-they divert some demand for liquidity away from markets. This paper characterizes the effects of increased participation in financial markets on the structure of banks, the maturity structure of real and financial assets, and the fraction of capital invested through banks.
+Financial markets and banks are competing mechanisms that provide investors with liquidity by providing access to their capital, at good terms, on short notice. This paper examines the impact of banks on the liquidity provided to investors and, in addition, on the liquidity provided by markets. Markets can provide too little liquidity when some potential investors are not continuously available for trade. If there is this limited participation in the market, banks lower the cost of giving investors rapid access to their capital. Banks hold assets to finance demand deposits offered to those who deposit, and I gratefully acknowledge helpful comments from Patrick Bolton, John Boyd, Jerry Caprio, Mike Dotsey, Phil Dybvig, Gary Gorton, Lars Hansen (the editor), Bengt Holmstrom, Pete Kyle, Jeff Lacker, Matthew Rothman, Bruce Smith, Lars Stole, Jean Tirole, Neil Wallace, John Weinberg, an anonymous referee, and seminar participants at Chicago, Duke, Massachusetts Institute of Technology, the Federal Reserve Bank of Richmond, and the World Bank. This paper was presented at the Nobel Symposium on Law and Finance in Stockholm in August 1995. They divert some demand for liquidity away from markets. This paper characterizes the effects of increased participation in financial markets on the structure of banks, the maturity structure of real and financial assets, and the fraction of capital invested through banks.
 
 Investors are concerned about the return they can obtain on short notice because they are uncertain when they will need their funds. The activities of banks provide liquid investment opportunities through two channels. First, bank deposits offer an option to obtain funds on short notice at a lower opportunity cost than is available with markets alone. Second, banks improve the liquidity of markets. The liquidity of markets is enhanced because long-term assets can be sold before maturity at higher prices than would prevail without banks.
 
@@ -64,7 +73,7 @@ There are three dates, 0, 1 and 2. All investors are small: there is a continuum
 Define  $c_{t\tau}$  as the consumption on date  $t$  of a type  $\tau$  investor. Investors are risk averse, and the date on which they prefer to consume depends on their type. The form of the utility function of investor  $j$ , who consumes  $c_{1}$  at date 1 and  $c_{2}$  at date 2, is
 
 $$
-u_{j} (c_{1}, c_{2}) = \left\{ \begin{array}{l l} U (c_{1}) & \text{if ji so ft yp e1} \\ U (c_{2}) & \text{if ji so ft yp e2 Ao r2 B}, \end{array} \right.
+u_{j} (c_{1}, c_{2}) = \left\{ \begin{array}{l l} U (c_{1}) & \text{if type 1} \\ U (c_{2}) & \text{if type 2A or 2B}, \end{array} \right.
 $$
 
 where  $U \colon R_{++} \to R$  is twice continuously differentiable, increasing, and strictly concave and satisfies the Inada conditions  $U'(0) = \infty$  and  $U'(\infty) = 0$ . Also, the relative risk aversion coefficient  $-cU''(c) / U'(c) \geq 1$  everywhere. Investors maximize expected utility. These preferences are identical to those assumed in Diamond-Dybvig, except here types 2A and 2B are distinguished. Diamond-Dybvig allows no secondary market, which essentially assumes that there are only investor types 1 and 2B.
@@ -72,7 +81,7 @@ where  $U \colon R_{++} \to R$  is twice continuously differentiable, increasing
 The date 0 objective function of each investor is given by
 
 $$
-\max_{c_{1 1}, c_{2 2 \mathrm{A}}, c_{2 2 \mathrm{B}}} \Psi = q_{1} U (c_{1 1}) + q_{2 \mathrm{A}} U (c_{2 2 \mathrm{A}}) + q_{2 \mathrm{B}} U (c_{2 2 \mathrm{B}}),
+\max_{c_{11}, c_{22A}, c_{22B}} \Psi = q_{1} U (c_{11}) + q_{2A} U (c_{22A}) + q_{2B} U (c_{22B}),
 $$
 
 subject to resource and incentive constraints specified below.
@@ -81,14 +90,18 @@ There are two real assets. The first is a short-term asset that yields a one-per
 
 In the Diamond-Dybvig model, there are no secondary markets, but long-term assets can be physically liquidated for a return that weakly exceeds the return on short-term assets, implying that all investment should be long-term. In the current model, long-term assets cannot be physically liquidated. This implies a nontrivial decision on how to allocate investment between shortand long-term assets.
 
-# The Performance of Markets When All Assets Are Held Directly
+## The Performance of Markets When All Assets Are Held Directly
 
 Suppose that there are no banks. This means that all investors must hold assets directly, with the possibility of trade between those who turn out to be of type 1 or 2A. Each investor has one unit to invest at date 0. Let each investor put  $\alpha$  into one-period assets and  $1 - \alpha$  into two-period assets. Before any trade, each investor holds date 1 claims of  $\alpha R$  and date 2 claims of  $(1 - \alpha)X$ . Type 2B investors have
 
-TABLE 1  
-TIMING OF EVENTS  
+**Table 1: Timing of Events**
 
-<table><tr><td>Date 0</td><td>Date 1</td><td>Date 2</td></tr><tr><td rowspan="4">Identical investors receive endowment of one to allocate between one-period assets, two-period assets, and bank deposit claims, if available</td><td>Investors learn their type and choose their withdrawal from bank, and some may trade</td><td></td></tr><tr><td>Type 1 investors sell any date 2 claims held directly or withdrawn from the bank and consume all wealth</td><td>Type 1 investors do nothing</td></tr><tr><td>Type 2A investors sell any date 1 claims held directly or withdrawn from the bank to buy date 2 claims or fund new one-period investment</td><td>Type 2A investors consume all wealth</td></tr><tr><td>Type 2B investors take any date 1 claims held directly or withdrawn from the bank to fund new one-period investment</td><td>Type 2B investors consume all wealth</td></tr></table>
+| Date 0 | Date 1 | Date 2 |
+|--------|--------|--------|
+| Identical investors receive endowment of one to allocate between one-period assets, two-period assets, and bank deposit claims, if available | Investors learn their type and choose their withdrawal from bank, and some may trade |  |
+|  | Type 1 investors sell any date 2 claims held directly or withdrawn from the bank and consume all wealth | Type 1 investors do nothing |
+|  | Type 2A investors sell any date 1 claims held directly or withdrawn from the bank to buy date 2 claims or fund new one-period investment | Type 2A investors consume all wealth |
+|  | Type 2B investors take any date 1 claims held directly or withdrawn from the bank to fund new one-period investment | Type 2B investors consume all wealth |
 
 no access to the market and take their maturing date 1 claim of  $\alpha R$  and invest it in a new one-period asset, yielding  $\alpha R^2$  of date 2 consumption, in addition to their original date 2 holding of  $(1 - \alpha)X$ . Trade at date 1 would lead the type 1 investors to trade their date 2 claims for date 1 claims of type 2A investors. Markets clear when the date 1 value of date 2 claims offered by type 1 investors is equal to the date 1 claims offered by type 2A investors. Let the date 1 price of a unit claim on date 2 consumption be  $b_1$ . Investors are price takers because each is small. Trade with all assets held directly leads to the outcome described in lemma 1.
 
@@ -97,10 +110,10 @@ LEMMA 1. When all assets are held directly, the date 1 price of a unit claim on 
 Proof. Each investor on date 0 allocates an endowment of one, choosing to put  $\alpha$  into short-term assets and  $1 - \alpha$  into long-term assets to maximize expected utility. Expected utility is
 
 $$
-\Phi = q_{1} U \left(c_{1 1}\right) + q_{2 \mathrm{A}} U \left(c_{2 2 \mathrm{A}}\right) + q_{2 \mathrm{B}} U \left(c_{2 2 \mathrm{B}}\right),
+\Phi = q_{1} U \left(c_{11}\right) + q_{2A} U \left(c_{22A}\right) + q_{2B} U \left(c_{22B}\right),
 $$
 
-where consumption of each type is given by  $c_{11} = \alpha R + (1 - \alpha) b_1 X$ ,  $c_{22\mathrm{A}} = \alpha (R / b_1) + (1 - \alpha) X$ , and  $c_{22\mathrm{B}} = \alpha R^2 + (1 - \alpha) X$ . The first-order condition for an interior optimum with  $\alpha \in (0, 1)$  is  $d\Phi / d\alpha = 0$ , or
+where consumption of each type is given by  $c_{11} = \alpha R + (1 - \alpha) b_1 X$ ,  $c_{22A} = \alpha (R / b_1) + (1 - \alpha) X$ , and  $c_{22B} = \alpha R^2 + (1 - \alpha) X$ . The first-order condition for an interior optimum with  $\alpha \in (0, 1)$  is  $d\Phi / d\alpha = 0$ , or
 
 $$
 \begin{array}{l} q_{1} U^{\prime} \left(c_{1 1}\right) \left(R - b_{1} X\right) + q_{2 \mathrm{A}} U^{\prime} \left(c_{2 2 \mathrm{A}}\right) \left(\frac{R}{b_{1}} - X\right) \\ + q_{2 \mathrm{B}} U^{\prime} \left(c_{2 2 \mathrm{B}}\right) \left(R^{2} - X\right) = 0. \\ \end{array}
@@ -109,15 +122,15 @@ $$
 The date 1 price  $b_{1}$  will be positive (and  $c_{11}$  will be positive) only if there is some date 0 investment in short-term assets (only if  $\alpha > 0$ ). There is short-term investment as long as  $q_{2\mathrm{B}} < 1$ , because otherwise  $U'(c_{11}) = \infty$  and  $R / b_{1} = \infty$ . If investors are to choose to invest anything in short-term assets at date 0, the date 1 price of a unit claim on date 2 consumption,  $b_{1}$ , must be less than or equal to  $R / X$ . Otherwise, decreasing  $\alpha$  will increase the consumption of all types (increasing expected utility). The date 1 price,  $b_{1}$ , is therefore less than or equal to  $R / X$ . The price is strictly less than  $R / X$  when  $q_{2\mathrm{B}} > 0$  (limited participation) because  $c_{22\mathrm{B}}$  is decreasing in  $\alpha$ . In addition, one can show that  $b_{1} < 1 / R$ , and trading one unit of a date 1 claim in the market will buy more than  $R$  units of date 2 consumption. It follows because  $X > R^2$ , implying  $R / X < R / R^2 = 1 / R$ , which implies  $b_{1} < 1 / R$ . As a result, only type 2B investors will reinvest in short-term investments at date 1. In aggregate, type 1 investors trade all their date 2 claims for all the date 1 claims of type 2A investors. This leads to a market-clearing price of  $b_{1} = q_{2\mathrm{A}}\alpha R / q_{1}(1 - \alpha)X$ . In summary, this discussion implies that the consumption levels are given by
 
 $$
-c_{1 1} = \frac{q_{1} + q_{2 \mathrm{A}}}{q_{1}} \alpha R,
+c_{11} = \frac{q_{1} + q_{2A}}{q_{1}} \alpha R,
 $$
 
 $$
-c_{2 2 \mathrm{A}} = \frac{q_{1} + q_{2 \mathrm{A}}}{q_{2 \mathrm{A}}} (1 - \alpha) X,
+c_{22A} = \frac{q_{1} + q_{2A}}{q_{2A}} (1 - \alpha) X,
 $$
 
 $$
-c_{2 2 \mathrm{B}} = \alpha R^{2} + (1 - \alpha) X.
+c_{22B} = \alpha R^{2} + (1 - \alpha) X.
 $$
 
 The date 1 price of a claim of one unit maturing on date 2 is
@@ -136,44 +149,40 @@ The price  $b_{1} < R / X$  if  $q_{2\mathrm{B}} > 0$ , implying that expected u
 
 Lemma 1 characterizes the liquidity that financial markets provide and the real investment decisions implied by this level of market liquidity. Markets with limited participation lead to lower liquidity than full-participation markets because the secondary market price,  $b_{1}$ , is lower, and the consumption of those who turn out to need liquidity,  $c_{11}$ , is lower than when all investors participate in the market. In addition, there is less investment in high-return illiquid real assets when there is limited participation. One can show that increased participation increases all these quantities toward the full-participation values. Lemma 1 is primarily used as a benchmark with which to compare the outcomes when banks are formed. When there is limited participation, investors put more capital into short-term liquid assets and obtain lower date 1 consumption than when banks are formed. The next subsection characterizes the optimal allocations when investors form banks.
 
-# Banks and Optimal Mechanisms
+## Banks and Optimal Mechanisms
 
 Financial institutions such as banks can improve access to liquidity in two ways. First, by centralizing the holding of liquid assets, the institution reduces the opportunity cost of excess date 1 liquidity held by investors who do not participate in the market. Second, financial institutions possess some ability to cross-subsidize investors. Investors who need to consume unexpectedly at date 1 (type 1) can receive higher returns at the expense of those who cannot trade in the market (type 2B).
 
-To characterize the role of intermediaries and markets in providing the optimal amount of liquidity, I solve for the optimal set of incentive-compatible consumption opportunities that a coalition of investors can choose at date 0, and later determine how they are related to markets and intermediaries. The standard method for characterizing the optimal consumption is to examine direct mecha
-
-nisms in which each investor reveals his or her type and is given type-contingent consumption on each date, subject to the constraint that each investor is willing to make an honest report. It turns out that the report of an investor's type corresponds to a choice of which withdrawal option to select from those offered by a bank.
+To characterize the role of intermediaries and markets in providing the optimal amount of liquidity, I solve for the optimal set of incentive-compatible consumption opportunities that a coalition of investors can choose at date 0, and later determine how they are related to markets and intermediaries. The standard method for characterizing the optimal consumption is to examine direct mechanisms in which each investor reveals his or her type and is given type-contingent consumption on each date, subject to the constraint that each investor is willing to make an honest report. It turns out that the report of an investor's type corresponds to a choice of which withdrawal option to select from those offered by a bank.
 
 The optimal financial mechanism solves the date 0 maximization problem described above:
 
 $$
-\max_{c_{1 1}, c_{2 2 \mathrm{A}}, c_{2 2 \mathrm{B}}} \Psi = q_{1} U (c_{1 1}) + q_{2 \mathrm{A}} U (c_{2 2 \mathrm{A}}) + q_{2 \mathrm{B}} U (c_{2 2 \mathrm{B}}),
+\max_{c_{11}, c_{22A}, c_{22B}} \Psi = q_{1} U (c_{11}) + q_{2A} U (c_{22A}) + q_{2B} U (c_{22B}),
 $$
 
 subject to resource and incentive constraints. As of date 0, one unit of date 1 consumption costs  $1 / R$  and one unit of date 2 consumption costs  $1 / X$ . There is one unit of endowment per capita on date 1, and as a result, the resource constraint is given by
 
 $$
-\frac{q_{1} c_{1 1}}{R} + \frac{q_{2 \mathrm{A}} c_{2 2 \mathrm{A}} + q_{2 \mathrm{B}} c_{2 2 \mathrm{B}}}{X} \leq 1.
+\frac{q_{1} c_{11}}{R} + \frac{q_{2A} c_{22A} + q_{2B} c_{22B}}{X} \leq 1.
 $$
 
-Consumption on the "wrong" date (by a type who assigns no value to consumption on that date) is never optimal, and at the optimum,  $c_{21} = c_{12\mathrm{A}} = c_{12\mathrm{B}} = 0$ . There are several incentive constraints as well, which may not be binding. If only the resource constraint is imposed, the first-order condition for optimal consumption levels is given by
+Consumption on the "wrong" date (by a type who assigns no value to consumption on that date) is never optimal, and at the optimum,  $c_{21} = c_{12A} = c_{12B} = 0$ . There are several incentive constraints as well, which may not be binding. If only the resource constraint is imposed, the first-order condition for optimal consumption levels is given by
 
 $$
-U^{\prime} \left(c_{1 1}\right) = U^{\prime} \left(c_{2 2 \mathrm{A}}\right) \frac{X}{R} = U^{\prime} \left(c_{2 2 \mathrm{B}}\right) \frac{X}{R}.
+U^{\prime} \left(c_{11}\right) = U^{\prime} \left(c_{22A}\right) \frac{X}{R} = U^{\prime} \left(c_{22B}\right) \frac{X}{R}.
 $$
 
-This equates the ratio of marginal utility of consumption of the two periods with the marginal rate of transformation across periods and equates the date 2 consumption of types 2A and 2B:  $c_{22\mathrm{B}} = c_{22\mathrm{A}}$ . Investors who are sufficiently risk averse would choose cross-subsidization to allow them to hold liquid claims with high one-period returns (high  $c_{11} > R$ ) at the expense of lower two-period returns (lower  $c_{22\mathrm{A}} = c_{22\mathrm{B}} < X$ ). This allows increased consumption when they have low consumption, due to forced liquidation of assets, and is financed by reduced consumption when they have high consumption. Consider the base case without cross-subsidization. This occurs when each investor receives consumption equal to the value of investing all of his or her date 0 endowment in a real asset that matures on the date on which he or she needs to consume:  $R$  at date 1 or  $X$  at date 2. A bank could achieve this because it knows the timing of the aggregate consumption of all depositors. If there is no cross-subsidization, then  $c_{11} = R$  and  $c_{22\mathrm{A}} = c_{22\mathrm{B}} = X$ . The first-order con
-
-dition holds with no cross-subsidization if and only if each investor's relative risk aversion equals one, and  $U(c) = \log (c)$ . For risk aversion greater than one, the empirically relevant case,  $U^{\prime}(R) > U^{\prime}(X)\times (X / R)$ , implying that liquidity is increased: there is cross-subsidization with  $c_{11} > R$  and  $c_{22\mathrm{A}} = c_{22\mathrm{B}} < X$ .<sup>3</sup>
+This equates the ratio of marginal utility of consumption of the two periods with the marginal rate of transformation across periods and equates the date 2 consumption of types 2A and 2B:  $c_{22B} = c_{22A}$ . Investors who are sufficiently risk averse would choose cross-subsidization to allow them to hold liquid claims with high one-period returns (high  $c_{11} > R$ ) at the expense of lower two-period returns (lower  $c_{22A} = c_{22B} < X$ ). This allows increased consumption when they have low consumption, due to forced liquidation of assets, and is financed by reduced consumption when they have high consumption. Consider the base case without cross-subsidization. This occurs when each investor receives consumption equal to the value of investing all of his or her date 0 endowment in a real asset that matures on the date on which he or she needs to consume:  $R$  at date 1 or  $X$  at date 2. A bank could achieve this because it knows the timing of the aggregate consumption of all depositors. If there is no cross-subsidization, then  $c_{11} = R$  and  $c_{22A} = c_{22B} = X$ . The first-order condition holds with no cross-subsidization if and only if each investor's relative risk aversion equals one, and  $U(c) = \log (c)$ . For risk aversion greater than one, the empirically relevant case,  $U^{\prime}(R) > U^{\prime}(X)\times (X / R)$ , implying that liquidity is increased: there is cross-subsidization with  $c_{11} > R$  and  $c_{22\mathrm{A}} = c_{22\mathrm{B}} < X$ .<sup>3</sup>
 
 The cross-subsidized optimal consumption levels may not be incentive-compatible. Each investor's type is private information, and in addition types 1 and 2A can trade anonymously at date 1. The incentive constraints that trade implies are analyzed in the next subsection. It turns out that there is scope for a beneficial subsidy to type 1 agents.
 
-# Date 1 Incentive Constraints Imposed by a Limited Participation Market
+## Date 1 Incentive Constraints Imposed by a Limited Participation Market
 
 On date 1, an agent who joins a financial mechanism at date 0 will be given a choice of claims on date 1 and date 2 consumption. Type 1 and 2A agents can trade anonymously at date 1 and privately consume the proceeds from those trades. As a result, they can choose claims on both dates' consumption without wasting goods. Let  $W_{\tau}$  denote the pretrade date 1 holding of date  $t$  claims by a type  $\tau$  investor. After choosing these claims, type 1 and 2A investors have the ability to trade at date 1. Let  $b_{1}$  denote the date 1 price of a claim on one unit of date 2 consumption. Type 2B investors cannot trade, but if a type 2B investor has a claim maturing on date 1, he or she can earn a return  $R$  per unit by initiating a new one-period asset at date 1. Consumption of each type is given by
 
 $$
-\begin{array}{l} c_{1 1} = W_{1 1} + W_{2 1} b_{1}, \\ c_{2 2 \mathrm{A}} = \frac{W_{1 2 \mathrm{A}}}{b_{1}} + W_{2 2 \mathrm{A}}, \\ c_{2 2 \mathrm{B}} = W_{1 2 \mathrm{B}} R + W_{2 2 \mathrm{B}}. \\ \end{array}
+\begin{array}{l} c_{11} = W_{11} + W_{21} b_{1}, \\ c_{22A} = \frac{W_{12A}}{b_{1}} + W_{22A}, \\ c_{22B} = W_{12B} R + W_{22B}. \\ \end{array}
 $$
 
 The date 1 market value of the claims selected by type 1 agents is  $c_{11}$ , and the date 2 market value of claims selected by type 2A agents is  $c_{22\mathrm{A}}$ . The price,  $b_{1}$ , on date 1 of claims on a unit of date 2 consumption must be  $c_{11} / c_{22\mathrm{A}}$ ; otherwise  $c_{11} \neq b_{1}c_{22\mathrm{A}}$ , and the claims intended for one type will have a higher market value than the other. If the market values differ, the ability to trade at date 1 implies that it is not incentive-compatible for one type to select the correct claims.
@@ -188,7 +197,7 @@ Proof. See the Appendix.
 
 In addition to these constraints that each type be willing to withdraw the proper amount, there are date 0 constraints. These constraints are imposed by the possibility that investors invest directly at date 1, or that they join a competing bank. These constraints are described in the next subsection.
 
-# Date 0 Incentive Constraints: Competing Banks and Voluntary Deposits
+## Date 0 Incentive Constraints: Competing Banks and Voluntary Deposits
 
 Individuals can form alternative mechanisms ("competing banks") at date 0, realizing that the members of all banks who turn out to be of type 1 or 2A will be able to trade in the same anonymous market at date 1. This ability imposes coalition incentive-compatibility constraints, because trade in the market allows investors to form coalitions at date 1. For investors to choose to join a financial coalition (deposit in the bank), each must get type-contingent consumption as desirable as can be obtained from joining another coalition (bank) or from investing directly. Because there are no costs of establishing banks, any individual asset holdings can be replicated by those of a competing bank. The ability to form competing banks
 
@@ -196,43 +205,39 @@ imposes coalition incentive constraints at date 1. The importance of competing b
 
 The constraint imposed by date 0 coalition formation is that the return from trading assets must equal the physical returns offered by the real assets. If these returns are not equal, a competing bank coalition can offer claims that allow its members who participate in markets to consume more. Real assets allow a date 0 cost of  $1 / R$  per unit of date 1 consumption and  $1 / X$  per unit of date 2 consumption. If the market price on date 1 of one unit of date 2 consumption is not  $R / X$ , then offering the option for depositors to withdraw and trade at that price will allow higher consumption. If some depositors can trade, then the date 0 marginal rate of transformation of date 1 to date 2 consumption must be equal to the ratio of prices that will prevail on date 1 of claims on unit claims maturing on those dates. Lemma 3 describes the incentive constraints.
 
-LEMMA 3. A dominating competing bank coalition exists unless  $b_{1} = R / X$  and prices are in line with marginal productivity. Combined with the date 1 incentive constraints in lemma 1, this implies that the date 1 and date 0 incentive constraints are  $c_{22\mathrm{A}} = c_{11}(X / R)$ ,  $c_{22\mathrm{B}} \geq c_{11}R$ , and  $c_{22\mathrm{A}} \geq c_{22\mathrm{B}}$ . The resource constraint then reduces to
+LEMMA 3. A dominating competing bank coalition exists unless  $b_{1} = R / X$  and prices are in line with marginal productivity. Combined with the date 1 incentive constraints in lemma 1, this implies that the date 1 and date 0 incentive constraints are  $c_{22A} = c_{11}(X / R)$ ,  $c_{22B} \geq c_{11}R$ , and  $c_{22A} \geq c_{22B}$ . The resource constraint then reduces to
 
 $$
-\left(1 - q_{1} - q_{2 \mathrm{A}}\right) c_{2 2 \mathrm{B}} = \left[ 1 - \left(q_{1} + q_{2 \mathrm{A}}\right) \frac{c_{1 1}}{R} \right] X.
+\left(1 - q_{1} - q_{2A}\right) c_{22B} = \left[ 1 - \left(q_{1} + q_{2A}\right) \frac{c_{11}}{R} \right] X.
 $$
 
 Proof. See the Appendix.
 
-Combining lemma 2 and lemma 3 implies that the subsidy provided to type 1 investors must also be provided to type 2A investors. The ratio of consumptions  $c_{11} / c_{22\mathrm{A}}$  must be constant. If not, one type can get a higher market value of proceeds by choosing the wrong withdrawal, or a competing bank can be set up that offers its depositors better returns. Cross-subsidy of both types 1 and 2A is possible, with the subsidy of liquidity provided by type 2B investors who cannot trade.
+Combining lemma 2 and lemma 3 implies that the subsidy provided to type 1 investors must also be provided to type 2A investors. The ratio of consumptions  $c_{11} / c_{22A}$  must be constant. If not, one type can get a higher market value of proceeds by choosing the wrong withdrawal, or a competing bank can be set up that offers its depositors better returns. Cross-subsidy of both types 1 and 2A is possible, with the subsidy of liquidity provided by type 2B investors who cannot trade.
 
-The banking system creates more liquidity than there would be without a banking system or secondary markets. The banking system also makes the secondary market more liquid: secondary markets will offer the amount of liquidity implied by the short-term physical return on capital. I assume that interbank deposits are identifiable as such (if only by their size). This prevents a competing bank from obtaining the liquidity subsidy provided by another bank by simply investing directly in the one-period deposits of the bank. Some ben
-
-efits of liquidity creation can be focused on the individual bank's depositors. However, the effect of banks' liquidity creation on market liquidity is available to all competitors because of free entry into trades in the anonymous secondary market.
+The banking system creates more liquidity than there would be without a banking system or secondary markets. The banking system also makes the secondary market more liquid: secondary markets will offer the amount of liquidity implied by the short-term physical return on capital. I assume that interbank deposits are identifiable as such (if only by their size). This prevents a competing bank from obtaining the liquidity subsidy provided by another bank by simply investing directly in the one-period deposits of the bank. Some benefits of liquidity creation can be focused on the individual bank's depositors. However, the effect of banks' liquidity creation on market liquidity is available to all competitors because of free entry into trades in the anonymous secondary market.
 
 The condition for banks to create more liquidity than secondary markets is that risk aversion exceed one (so cross-subsidy is valuable) and that not too many investors participate in the secondary market (so much of the subsidy goes to type 1 investors who need liquidity). Proposition 1 states this result.
 
-PROPOSITION 1. If the coefficient of relative risk aversion is above one and a sufficient fraction of investors do not participate,  $q_{2\mathrm{B}} > \hat{q}_{2\mathrm{B}} > 0$ , then banks provide more liquidity than the secondary market and set  $c_{11} > R$  and  $c_{22\mathrm{B}} < X$ . If the coefficient of relative risk aversion is less than or equal to one, the banks increase the liquidity of the market but provide no more liquidity than the market and set  $c_{11} = R$  and  $c_{22\mathrm{A}} = c_{22\mathrm{B}} = X$ .
+PROPOSITION 1. If the coefficient of relative risk aversion is above one and a sufficient fraction of investors do not participate,  $q_{2B} > \hat{q}_{2B} > 0$ , then banks provide more liquidity than the secondary market and set  $c_{11} > R$  and  $c_{22B} < X$ . If the coefficient of relative risk aversion is less than or equal to one, the banks increase the liquidity of the market but provide no more liquidity than the market and set  $c_{11} = R$  and  $c_{22A} = c_{22B} = X$ .
 
 The proof is in the Appendix, but it is useful here to describe the key first-order condition. If relative risk aversion is greater than one, the first-order condition for optimal consumption is
 
 $$
-q_{1} U^{\prime} \left(c_{1 1}\right) \leq \left\{q_{1} U^{\prime} \left(c_{2 2 \mathrm{B}}\right) + q_{2 \mathrm{A}} \left[ U^{\prime} \left(c_{2 2 \mathrm{B}}\right) - U^{\prime} \left(c_{2 2 \mathrm{A}}\right) \right] \right\} \frac{X}{R},
+q_{1} U^{\prime} \left(c_{11}\right) \leq \left\{q_{1} U^{\prime} \left(c_{22B}\right) + q_{2A} \left[ U^{\prime} \left(c_{22B}\right) - U^{\prime} \left(c_{22A}\right) \right] \right\} \frac{X}{R},
 $$
 
-with equality whenever  $c_{11} > R$ , which occurs for  $q_{2\mathrm{A}}$  not too large. If relative risk aversion is less than or equal to one,  $c_{11} = R$  and  $c_{22\mathrm{A}} = c_{22\mathrm{B}} = X$ , because  $c_{22\mathrm{A}} = c_{11}(X / R) \geq c_{22\mathrm{B}}$  is binding and there is no potential for a cross-subsidy provided to type 1 investors (with none desirable if risk aversion equals one).
+with equality whenever  $c_{11} > R$ , which occurs for  $q_{2A}$  not too large. If relative risk aversion is less than or equal to one,  $c_{11} = R$  and  $c_{22A} = c_{22B} = X$ , because  $c_{22A} = c_{11}(X / R) \geq c_{22B}$  is binding and there is no potential for a cross-subsidy provided to type 1 investors (with none desirable if risk aversion equals one).
 
 The next proposition shows the effect of increased secondary market liquidity (increased  $q_{2\mathrm{A}}$ ) on the amount of liquidity created by banks.
 
-PROPOSITION 2. Increasing individual participation in the secondary market (increasing  $q_{2\mathrm{A}}$  by reducing  $q_{2\mathrm{B}}$ ) weakly reduces the liquidity that banks create relative to secondary markets ( $c_{11} - R$ ) and reduces  $c_{11}$  (strictly if  $c_{11} > R$ ), the short-term return available to investors.
+PROPOSITION 2. Increasing individual participation in the secondary market (increasing  $q_{2A}$  by reducing  $q_{2B}$ ) weakly reduces the liquidity that banks create relative to secondary markets ( $c_{11} - R$ ) and reduces  $c_{11}$  (strictly if  $c_{11} > R$ ), the short-term return available to investors.
 
 Proof. See the Appendix.
 
-Increased market participation reduces the cross-subsidy that banks provide to short-term holders, because it increases the fraction of the benefit that goes to those who profit from trading (type 2A investors who have high consumption) rather than to those who need liquidity for consumption (type 1 investors who have low consumption). The consumption of those who do not need liquidity and do not participate in the secondary market can increase or de
+Increased market participation reduces the cross-subsidy that banks provide to short-term holders, because it increases the fraction of the benefit that goes to those who profit from trading (type 2A investors who have high consumption) rather than to those who need liquidity for consumption (type 1 investors who have low consumption). The consumption of those who do not need liquidity and do not participate in the secondary market can increase or decrease ( $c_{22B}$  can rise or fall), but  $c_{22B} - c_{11}R$  rises as participation increases: there is less risk sharing between those who turn out to need liquidity and those who do not participate in secondary markets.
 
-crease ( $c_{22\mathrm{B}}$  can rise or fall), but  $c_{22\mathrm{B}} - c_1$  rises as participation increases: there is less risk sharing between those who turn out to need liquidity and those who do not participate in secondary markets.
-
-# The Diamond-Dybvig and Jacklin Models
+## The Diamond-Dybvig and Jacklin Models
 
 The Diamond-Dybvig model characterizes the optimal amount of liquidity cross-subsidization to provide when the option for an increased short-holding period return is financed by a lower long-holding period return. Jacklin (1987), Haubrich and King (1990), von Thadden (1997), and Hellwig (1994) examine the effects of competitive financial markets and reach largely negative conclusions about the viability of bank liquidity created by cross-subsidy. The results in the two propositions show that these results follow not from the existence of a financial market, but from a market in which all investors participate continuously. Increased participation in markets reduces the subsidy that short-term holders receive from long-term holders of bank deposits. In addition, even when banks provide no cross-subsidy, banks are important and changes in market participation have interesting effects.
 
@@ -240,7 +245,7 @@ The polar cases of propositions deliver the Diamond-Dybvig and Jacklin (1987) mo
 
 Proposition 1 delivers the Jacklin (1987) result when  $q_{2\mathrm{B}} = 0$ . Jacklin shows that the ability of banking mechanisms to cross-subsidize investors is eliminated when there exists a full-participation secondary market for bank assets. In this case, cross-subsidization is impossible, and  $c_{11} = R$  and  $c_{22\mathrm{A}} = X$  is the only feasible compatible consumption pair (there are no type 2B investors). The reason is the date 0 constraint: investors will prefer not to join the bank at date 0 if  $c_{11} / c_{22\mathrm{A}} \neq R / X$ , because they then would prefer to trade in the market (no competing banks are required when there is full participation). In this case,  $c_{22\mathrm{A}} = c_{11}(X / R)$  combines with the resource constraint to yield  $c_{11} = R$  and  $c_{22\mathrm{A}} = X$ .
 
-With a full-participation secondary market, there is not only no scope for cross-subsidization but no beneficial role for banks. If each investor holds a fraction  $q_{1}$  in short-term assets and  $q_{2\mathrm{A}} = 1 - q_{1}$  in
+With a full-participation secondary market, there is not only no scope for cross-subsidization but no beneficial role for banks. If each investor holds a fraction  $q_{1}$  in short-term assets and  $q_{2A} = 1 - q_{1}$  in
 
 long-term assets, then  $c_{11} = R$  and  $c_{22\mathrm{A}} = X$ , without using banks. Jacklin's result has been interpreted as meaning that banks and markets cannot coexist, and if liquidity is enhanced ( $c_{11} > R$ ), either markets or the direct holding of assets must be prohibited.
 
@@ -250,17 +255,17 @@ When there is a limited-participation market, there is a role for banks even wit
 
 The contracts that banks write with investors influence the performance of financial markets. If there is limited participation in markets and all claims are held directly, financial markets will provide too little liquidity. Investing a fraction of wealth through banks diverts some demand for liquidity away from markets. This allows the limited supply of liquidity in the market to be better matched with demand. Not all the financial claims need to be held by banks at date 0 for banks and markets to provide increased liquidity to investors. If there are variable costs associated with running wealth through intermediaries, the scale of the banking sector is the minimum needed to implement the desired amount of liquidity. The scope for direct holdings arises because the optimal mechanism leads to a set of tradable claims held by investors before trade at date 1 that can be separated into two components: one is a holding that is identical for all investors (and thus not type-specific), and the other is a type-specific choice selected from the options offered by the bank at date 1. The total claim,  $W_{\pi}$ , on date  $t$  consumption held by investor type  $\tau$  on date 1 (before any trade) is decomposed into two parts:  $W_{\pi} = d_{t} + w_{\pi}$ , where  $d_{t}$  is the component that is not type-specific and  $w_{\pi}$  is type-specific. Each investor can directly hold assets that constitute the claims that are not type-specific. The claim  $w_{\pi}$  is the claim on date  $t$  consumption withdrawn by a type  $\tau$  investor at date  $t \in \{1,2\}$ .
 
-The holding of short-term liquidity must be centralized to avoid inefficient reinvestment in short-term assets at date 1 by type 2B investors. This requires that no date 1 claims be held by type 2B investors ( $W_{12\mathrm{B}} = 0$ ), which requires that individuals hold no short-term assets directly ( $d_1 = 0$ ). All directly held claims are long-term. If investors hold a fraction  $\beta$  of their date 0 wealth as bank claims,
+The holding of short-term liquidity must be centralized to avoid inefficient reinvestment in short-term assets at date 1 by type 2B investors. This requires that no date 1 claims be held by type 2B investors ( $W_{12B} = 0$ ), which requires that individuals hold no short-term assets directly ( $d_1 = 0$ ). All directly held claims are long-term. If investors hold a fraction  $\beta$  of their date 0 wealth as bank claims,
 
 they invest  $1 - \beta$  in long-term claims, and this gives each a direct holding of date 2 claims of  $d_{2} = (1 - \beta)X$ . A lower bound on the date 0 scale of banks is the amount of assets needed to finance short-term investment. This lower bound on date 0 investment in banks is
 
 $$
-\beta \geq \frac{q_{1} c_{1 1}}{R} \equiv \beta_{1}
+\beta \geq \frac{q_{1} c_{11}}{R} \equiv \beta_{1}
 $$
 
 (scale of banks when they hold just all the short-term assets), because total date 1 consumption is  $c_{11}$  by a fraction  $q_{1}$  of investors. If this minimal fraction of assets were invested in banks, the banking system would hold only short-term assets. All long-term assets would be held directly, and each investor would hold date 2 claims of  $(1 - \beta_{1})X$ .
 
-# Incentive-Compatible Bank Withdrawals
+## Incentive-Compatible Bank Withdrawals
 
 Too large a direct holding of long-term assets can be inconsistent with self-selection of the proper type-specific withdrawals at date 1. The problem arises when banks cross-subsidize short-term holders, because the high short-term return ( $c_{11}$  in excess of  $R$ ) is not reflected in the market prices of directly held assets. Positive holdings of date 2 claims by all types tighten the incentive constraint that type 2B investors choose to leave their funds in the bank until date 2. This constraint is loosest when all claims selected by types 1 and 2A are date 1 claims, because trade allows them a higher return at date 1 than is available to nonparticipating type 2B investors. When investors all directly hold a fraction  $1 - \beta$  of date 2 claims, the bank claims selected by both types 1 and 2A are  $w_{11} = w_{12\mathrm{A}} = c_{11} - (1 - \beta)R$  and  $w_{21} = w_{22\mathrm{A}} = 0$ . The value of the date 2 bank withdrawal intended for type 2B investors is  $w_{22\mathrm{B}} = c_{22\mathrm{B}} - (1 - \beta)X$ . It is incentive-compatible for type 2B investors to choose  $w_{22\mathrm{B}}$  instead of taking  $w_{22}$  and investing it in a short-term investment at date 1 only if  $w_{22\mathrm{B}} > Rw_{11}$ , which is equivalent to
 
@@ -268,15 +273,13 @@ $$
 \beta \geq 1 - \frac{c_{2 2 \mathrm{B}} - R c_{1 1}}{X - R^{2}} \equiv \beta_{\mathrm{IC}}.
 $$
 
-This incentive constraint need not be binding because  $\beta_{\mathrm{IC}}$  can be less than  $\beta_{1} = q_{1}c_{11} / R$ . For sufficiently low risk aversion or for sufficiently high participation ( $q_{2\mathrm{A}}\rightarrow 1 - q_{1}$ ), cross-subsidization is low, and  $\beta_{\mathrm{IC}}\rightarrow 0$  (and is less than  $\beta_{1}$ ), because  $c_{22\mathrm{B}} - Rc_{11}\rightarrow X - R^2$ . In this case, the banking system does not hold long-term assets. For sufficiently high risk aversion and sufficiently low market participa
+This incentive constraint need not be binding because  $\beta_{\mathrm{IC}}$  can be less than  $\beta_{1} = q_{1}c_{11} / R$ . For sufficiently low risk aversion or for sufficiently high participation ( $q_{2\mathrm{A}}\rightarrow 1 - q_{1}$ ), cross-subsidization is low, and  $\beta_{\mathrm{IC}}\rightarrow 0$  (and is less than  $\beta_{1}$ ), because  $c_{22\mathrm{B}} - Rc_{11}\rightarrow X - R^2$ . In this case, the banking system does not hold long-term assets. For sufficiently high risk aversion and sufficiently low market participation,  $\beta_{\mathrm{IC}} > \beta_{1}$ , and the banking system holds a fraction  $\beta_{\mathrm{IC}} - \beta_{1}$  of long-term assets. Increasing market participation ( $q_{2\mathrm{A}}$  increases for fixed  $q_{1}$ ) reduces  $\beta_{\mathrm{IC}}$ , reducing the banks' holdings of long-term assets, eventually to zero as  $q_{2\mathrm{A}} \to 1 - q_{1}$ .
 
-tion,  $\beta_{\mathrm{IC}} > \beta_{1}$ , and the banking system holds a fraction  $\beta_{\mathrm{IC}} - \beta_{1}$  of long-term assets. Increasing market participation ( $q_{2\mathrm{A}}$  increases for fixed  $q_{1}$ ) reduces  $\beta_{\mathrm{IC}}$ , reducing the banks' holdings of long-term assets, eventually to zero as  $q_{2\mathrm{A}} \to 1 - q_{1}$ .
-
-# Market Clearing and Bank Trades
+## Market Clearing and Bank Trades
 
 Up to this point, no constraint has been imposed on bank trades in markets. Given total pretrade holdings  $W_{\pi}$ , individual traders' supply of short-term claims to the market is  $q_{2\mathrm{A}}W_{12\mathrm{A}}$ , and the date 1 value of the date 2 claims offered by individuals is  $q_{1}W_{21}(R / X)$ . For individuals, the date 1 excess supply of date 1 claims is  $q_{2\mathrm{A}}W_{12\mathrm{A}} - (R / X)q_{1}W_{21}\equiv m_{1}$ . Market clearing implies that the bank buys (with date 2 claims) date 1 claims of  $m_{1}$  on date 1 (sells date 1 claims of  $-m_{1}$  when  $m_{1} < 0$ ). Setting a small value of  $\beta$  can require  $m_{1} < 0$ , which requires that the bank sell short-term claims to buy existing long-term assets in the market at date 1. Factors such as limited information that constrain type 2B agents' ability to value existing long-term assets might plausibly also prevent banks from valuing those assets and require that  $m_{1}\geq 0$ . The impact of requiring  $m_{1}\geq 0$  is analyzed in the next subsection. Note that a date 1 market is required whenever there is cross-subsidization  $(c_{22\mathrm{A}} > c_{22\mathrm{B}})$ , because some date 1 claims must be selected by type 2A agents to allow type 2A investors to choose high consumption not available to nontrading type 2B investors.
 
-# Scale of the Banking Sector and Banks' Ability to Trade Assets
+## Scale of the Banking Sector and Banks' Ability to Trade Assets
 
 To determine the link between bank trades in the market and the implied scale of the banking sector, begin with the benchmark in which banks do not trade in the financial market and  $m_{1} = 0$ . If the bank makes no trades, it must hold sufficient assets to provide type 1 agents with consumption  $c_{11}$ , plus provide enough date 2 assets to provide the excess of type 2B's consumption over that obtained from their direct holdings of assets. If the bank holds more assets, it must sell some date 2 assets at date 1 or give date 2 claims to types 1 and 2A for them to trade. If the bank holds fewer assets, it must buy some date 2 claims in the market at date 1. When  $m_{1} = 0$ , the date 2 assets held directly by type 1 and 2A investors will finance the consumption of type 2A investors, and those held directly by type 2B investors will finance the part of their own consumption that does not come from bank deposits.
 
@@ -304,7 +307,7 @@ long-term assets as well. An increase in the amount of long-term assets held by 
 
 PROPOSITION 3. The scale of the banking sector, the fraction of financial assets that are short-term, the fraction of real assets that are short-term, and the gap between the maturities of financial and real assets all decrease as direct market participation increases ( $q_{2\mathrm{A}}$  increases and  $q_{2\mathrm{B}}$  decreases).
 
-# IV. Alternative Interpretations and Possible Extensions
+## IV. Alternative Interpretations and Possible Extensions
 
 Several of the assumptions of the model can be generalized without qualitatively changing the results and implications. This section describes alternative assumptions and alternative interpretations of what has been assumed. Some open questions for future work are also identified.
 
@@ -320,7 +323,7 @@ by Demirguc-Kunt and Levine (1996) on banks, markets, and development has docume
 
 Finally, this analysis abstracts from important problems with enforcement of property rights over collateral and other bankruptcy/ enforcement issues that are also present in many developing countries. Explicit analysis of information and incentives could allow these issues to be integrated into the analysis of participation in markets.
 
-# V. Conclusion
+## V. Conclusion
 
 With limited participation in markets, the banking system creates liquidity in two ways. First, banks fill the liquidity gap in markets by diverting demand for liquidity from markets. This improves the market's liquidity, increasing the price of illiquid assets above what it is when all assets are held directly. Second, if investors are sufficiently risk averse and enough do not participate in markets, bank deposits provide higher short-term returns than the market. The short-term assets held by individuals are bank liabilities, and the short-term real "reserve assets" are held only by banks. In this case, banks provide a cross-subsidy to those who withdraw early that is financed by those who hold bank claims for many periods.
 
@@ -332,7 +335,7 @@ Hoshi, Kashyap, and Scharfstein (1990) documents the effects of market developme
 
 The analysis also has implications for the effect of development of the banking sector on financial markets. Adding banks, or reducing their costs of operation, makes liquidity cheaper to obtain, and this makes markets more liquid. Because investors then choose to hold more long-term assets, the development of a banking system will lead to increased turnover and volume in financial markets. These links between banks and markets are worthy of further study. The current model of the link between liquidity provided by financial institutions and liquidity provided by markets is quite rudimentary, but I hope that further study of this link will provide more insight into these issues in financial structure and development.
 
-# Appendix
+## Appendix
 
 # Proof of Lemma 2
 

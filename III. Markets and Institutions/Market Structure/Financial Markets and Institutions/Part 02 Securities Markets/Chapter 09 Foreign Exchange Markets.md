@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Chapter 09 Foreign Exchange Markets"
+parent_directory: "Part 02 Securities Markets"
+formatted: 2025-12-21 11:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - foreign exchange markets
+  - currency exchange rates
+  - foreign exchange risk
+  - spot transactions
+  - forward transactions
+secondary_tags:
+  - currency depreciation
+  - currency appreciation
+  - bretton woods agreement
+  - european monetary union
+  - euro introduction
+  - dollarization
+  - managed float system
+  - purchasing power parity
+  - interest rate parity
+  - balance of payments
 cssclasses: academia
-title: Foreign Exchange Markets
-linter-yaml-title-alias: Foreign Exchange Markets
 ---
 
 Foreign Exchange Markets and Risk: Chapter Overview
@@ -14,63 +30,35 @@ Background and History of Foreign Exchange Markets
 
 Foreign Exchange Rates and Transactions
 
-Foreign Exchange Rates
+#### Foreign Exchange Rates
 
-Foreign Exchange
+#### Foreign Exchange Transactions
 
-Transactions
+#### Return and Risk of Foreign Exchange Transactions
 
-Return and Risk of Foreign
-
-Exchange Transactions
-
-Role of Financial
-
-Institutions in Foreign
-
-Exchange Transactions
+#### Role of Financial Institutions in Foreign Exchange Transactions
 
 Interaction of Interest Rates, Inflation, and Exchange Rates
 
-Purchasing Power Parity
+#### Purchasing Power Parity
 
-Interest Rate Parity
+#### Interest Rate Parity
 
 Appendix 9A: Balance of Payment Accounts (available through Connect or your course instructor)
 
-# Foreign Exchange Markets
+## Foreign Exchange Markets
 
-# Learning Goals
+### Learning Goals
 
-LG 9-1
+1. **LG 9-1**: Understand what foreign exchange markets and foreign exchange rates are.
+2. **LG 9-2**: Understand the history of and current trends in foreign exchange markets.
+3. **LG 9-3**: Identify the world's largest foreign exchange markets.
+4. **LG 9-4**: Distinguish between a spot foreign exchange transaction and a forward foreign exchange transaction.
+5. **LG 9-5**: Calculate return and risk on foreign exchange transactions.
+6. **LG 9-6**: Describe the role of financial institutions in foreign exchange transactions.
+7. **LG 9-7**: Identify the relations among interest rates, inflation, and exchange rates.
 
-Understand what foreign exchange markets and foreign exchange rates are.
-
-LG 9-2
-
-Understand the history of and current trends in foreign exchange markets.
-
-LG 9-3
-
-Identify the world's largest foreign exchange markets.
-
-LG 9-4
-
-Distinguish between a spot foreign exchange transaction and a forward foreign exchange transaction.
-
-LG 9-5
-
-Calculate return and risk on foreign exchange transactions.
-
-LG 9-6
-
-Describe the role of financial institutions in foreign exchange transactions.
-
-LG 9-7
-
-Identify the relations among interest rates, inflation, and exchange rates.
-
-# FOREIGN EXCHANGE MARKETS AND RISK: CHAPTER OVERVIEW
+## FOREIGN EXCHANGE MARKETS AND RISK: CHAPTER OVERVIEW
 
 LG 9-1 Cash flows from the sale of products, services, or assets denominated in a foreign currency are transacted in foreign exchange (FX) markets. A foreign exchange rate is the price at which one currency (e.g., the U.S. dollar) can be exchanged for another currency (e.g., the Swiss franc) in the foreign exchange markets. These transactions expose U.S. corporations and investors to foreign exchange risk as the cash flows are converted into and out of U.S. dollars. Thus, in addition to understanding the operations of domestic financial markets, financial managers and investors must also understand the operations of foreign exchange markets and foreign capital markets.
 

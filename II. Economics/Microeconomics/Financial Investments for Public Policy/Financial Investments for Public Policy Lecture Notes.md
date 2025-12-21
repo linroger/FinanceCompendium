@@ -1,36 +1,27 @@
 ---
-parent_directory:
-title: Financial Investments for Public Policy Lecture Notes
-tags:
-aliases:
-parent_folder: Financial Investments for Public Policy
-subfolder:
-key_concepts:
-cssclasses: academia
----
-
----
-
-tags:
-
-  - fomc_monetary_policy
-  - treasury_inflation_protected_securities
-  - option_pricing_models
-  - mutual_fund_performance_evaluation
-  - capm_beta_estimation
-  - fama_french_factor_models
-  - mean_variance_portfolio_optimization
-  - efficient_markets_hypothesis
-key_concepts:
-  - breakeven_inflation_measurement
-  - black_scholes_option_pricing
-  - sharpe_treynor_information_ratios
-  - security_market_line_sml
-  - capital_allocation_line_cal
-  - return_autocorrelation_predictability
-  - dividend_yield_stock_forecasting
-  - bond_duration_yield_relationships
-aliases: []
+title: "Financial Investments for Public Policy Lecture Notes"
+parent_directory: "Financial Investments for Public Policy"
+formatted: "2025-12-21 10:47:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - fomc monetary policy
+  - treasury inflation protected securities
+  - option pricing models
+  - mutual fund performance evaluation
+  - capm beta estimation
+secondary_tags:
+  - fama french factor models
+  - mean variance portfolio optimization
+  - efficient markets hypothesis
+  - breakeven inflation measurement
+  - black scholes option pricing
+  - sharpe treynor information ratios
+  - security market line sml
+  - capital allocation line cal
+  - return autocorrelation predictability
+  - dividend yield stock forecasting
+  - bond duration yield relationships
 cssclasses: academia
 ---
 
@@ -305,7 +296,7 @@ The Eurodollar contract is essentially a forward contract on the 3-month LIBOR r
 Both the SOFIR and Eurodollar contracts provide profits (or losses) proportional to the difference between the relevant short-term interest rate at contract maturity and the rate agreed to in the contract. However, the listing conventions for these contracts are a bit peculiar. Consider, for example, the first contract listed in Figure 23.7, which matures in October 2021. The settlement price is presented as  $F_{0} = 99.87$ . However, this value is not really a price. In effect, participants in the contract negotiate over the contract interest rate, and the so-called futures price is actually set equal to  $100 -$  Contract rate. Because the futures price is 99.87, the contract rate is  $100 - 99.87$ , or  $0.13\%$ . Similarly, the final futures price on the contract maturity date will be marked to  $F_{T} = 100 -$  LIBOR. Thus, profits to the buyer of the contract will be proportional to
 
 $$
-F_{T} - F_{0} = (1 0 0 - \operatorname{LIBOR}_{T}) - (1 0 0 - \text{Contractrate}) = \text{Contractrate} - \operatorname{LIBOR}_{T}
+F_{T} - F_{0} = (100 - \operatorname{LIBOR}_{T}) - (100 - \text{Contractrate}) = \text{Contractrate} - \operatorname{LIBOR}_{T}
 $$
 
 Thus, the contract design allows participants to trade directly on the LIBOR rate. The contract multiplier is \(1 million, but the LIBOR rate on which the contract is written is a 3-month (quarterly) rate; for each basis point that the (annualized) LIBOR increases, the quarterly interest rate increases by only \(\frac{1}{4}\) of a basis point, and the profit to the buyer decreases by

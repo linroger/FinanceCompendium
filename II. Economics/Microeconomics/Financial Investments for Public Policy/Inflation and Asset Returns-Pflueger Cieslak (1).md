@@ -1,22 +1,33 @@
 ---
-parent_directory:
-title: Inflation and Asset Returns*
-tags:
-aliases:
-parent_folder: Financial Investments for Public Policy
-subfolder:
-key_concepts:
+title: Inflation and Asset Returns
+parent_directory: II. Economics/Microeconomics/Financial Investments for Public Policy
+formatted: 2025-12-21 10:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open code
+primary_tags:
+  - inflation and asset prices
+  - risk premia dynamics
+  - new keynesian model
+  - bond equity comovement
+secondary_tags:
+  - monetary policy shocks
+  - inflation expectations
+  - term structure
+  - stock valuations
+  - supply demand shocks
+  - stagflation effects
+  - inflation swaps
+  - treasury bonds
 cssclasses: academia
-linter-yaml-title-alias: Inflation and Asset Returns*
 ---
 
-# Inflation and Asset Returns*
+# Inflation and Asset Returns
 
 Anna Cieslak Carolin Pflueger
 
 July 18, 2023
 
-# Abstract
+## Abstract
 
 The past half-century has seen major shifts in inflation expectations, how inflation comoves with the business cycle, and how stocks comove with Treasury bonds. Against this backdrop, we review the economic channels and empirical evidence on how inflation is priced in financial markets. Not all inflation episodes are created equal. Using in a New Keynesian model, we show how "good" inflation can be linked to demand shocks and "bad" inflation to supply shocks driving the economy. We then discuss asset pricing implications of "good" and "bad" inflation. We conclude by providing an outlook for inflation risk premia in the world of newly rising inflation.
 
@@ -24,7 +35,7 @@ Keywords: inflation, risk premia, bond return predictability, stagflation, monet
 
 JEL Classifications: E43, E52, E58
 
-# 1 Introduction
+## 1 Introduction
 
 The recent surge in inflation has spurred renewed questions about what drives inflation, why it is considered so costly by households, investors, and policymakers alike, and what high inflation means for governments' and firms' ability to fund themselves and households' ability to protect their retirement portfolios. Few would dispute that long-lasting episodes of high inflation pose a major risk for investors in nominal bonds, eroding their ability to consume out of fixed dollar payoffs. For investors in financial claims such as stocks that derive their value from real assets, intuition might instead suggest that inflation poses no tangible threat. Unfortunately, this intuition has badly failed over a significant part of the past century. Understanding the economic mechanism linking inflation and asset prices and how it manifests itself in the data is therefore crucial. For investors, this link matters for assessing the risks they bear. For policymakers, understanding this link provides a window into how financial markets perceive fundamental shocks, informing the appropriate policy response.
 
@@ -34,7 +45,7 @@ What economic forces underlie these major shifts? How can they be linked to inve
 
 expectations of macroeconomic fundamentals and to the risk compensation that investors require for bearing fundamental risks? Fortunately, macro-finance research has made significant forays into understanding these questions. In this review, we combine different strands of research to take stock of the answers that we currently have. The guiding theme of our discussion is that inflation comes in different flavors. We highlight the asset pricing implications of "good" and "bad" inflation, depending on when inflation occurs over the business cycle, whether inflation is supplyor demand-driven, and whether it persists.
 
-# 2 Economic channels linking inflation and asset prices
+## 2 Economic channels linking inflation and asset prices
 
 To introduce the notion of the "good" and "bad" inflation varieties, we start by reviewing the basic theory linking inflation and asset prices. We assume that all assets are priced by a representative investor, i.e., there exists a stochastic discount factor (SDF),  $M_{t+1}$ , such that for any asset with a real time- $(t+1)$  payoff  $X_{t+1}$  the time- $t$  price of the asset is given by  $P_t = E_t[M_{t+1}X_{t+1}]$ .
 
@@ -75,7 +86,7 @@ premium to be willing to hold them. "Good" inflation, on the other hand, corresp
 
 How should stocks depend on inflation? The early literature hypothesized that since dividends are a claim to firms' real profits, stocks should preserve their real value in the face of inflation. Subsequently, empirical research found that during the 1970s and 1980s, stocks also tended to return poorly when inflation was high, providing no protection against inflation in investors' portfolios (Fama and Schwert (1977), Kaul (1987)). This led to an interest in understanding which fundamental shocks might drive the value of stocks down and erode the value of long-term bonds through higher inflation expectations at the same time.
 
-# 2.1 "Good" and "bad" inflation in a simple New Keynesian Model
+## 2.1 "Good" and "bad" inflation in a simple New Keynesian Model
 
 To understand which fundamental economic shocks generate "good" vs. "bad" inflation, we revisit the workhorse three-equation New Keynesian model from macroeconomics. The traditional New Keynesian model can be summarized by the following three log-linearized equations<sup>4</sup>
 
@@ -112,7 +123,7 @@ Figure 2. Impulse Responses to Supply and Demand Shocks in Textbook New Keynesia
 
 overview of the direct real cash flow effects on stocks and bonds, calibrating a quantitative model of stocks and bonds is beyond the scope of this review article. The next Section reviews the different approaches that have been used in the literature to link stocks and bonds to New Keynesian macroeconomic dynamics, and their implications for risk premia. One key message of this literature is that the indirect effects of supply and demand shocks through risk premia can be substantial.
 
-# 2.2 "Good" and "bad" inflation in bonds and stocks
+## 2.2 "Good" and "bad" inflation in bonds and stocks
 
 While the textbook New Keynesian model, as discussed in Section 2.1, is not focused on risk premia in stocks and bonds, recent research has made substantial progress on understanding the link between the economic sources of inflation and time-varying risk premia in stocks and bonds. Most of the approaches to pricing inflation risk within endowment economies have been applied to structural economic models. At the same time, the link between the real economy and asset prices remains an area of ongoing research.
 
@@ -134,13 +145,13 @@ safety", which arises only if "good" inflation dynamics provide an initial seed 
 
 Pflueger and Rinaldi (2022) and Pflueger (2023) go further by integrating the New Keynesian model of inflation and monetary policy with endogenously time-varying risk premia via habit formation preferences. Pflueger and Rinaldi (2022) explain the large and persistent risk premium responses to empirical monetary policy surprises. The intuition is that a hawkish monetary policy shock drives down consumption towards habit, thereby making investors more risk averse and leading stock prices to fall more than the present discounted value of dividends.<sup>8</sup> Pflueger (2023) analyzes the information content of time-varying bond betas for a New Keynesian asset pricing model with supply shocks, demand shocks, and monetary policy.<sup>9</sup> She finds that the economy has switched from volatile supply shocks during the 1980s to volatile demand and monetary policy shocks in the 2000s, and this can explain the switch from "bad" inflation and risky nominal Treasury bonds to "good" inflation and safe nominal Treasury bonds. Counterfactual exercises show that monetary policy also matters and can protect nominal bonds from becoming risky even when supply shocks are dominant. In this model, bond-stock betas again reflect endogenous "flight-to-safety", and therefore depend on the equilibrium more than on the realized shocks. For example, in a supply-driven equilibrium, a positive demand shock makes investors more willing to pay for (in this equilibrium) risky nominal bonds despite the rise in expected inflation and decline in real cash flows. An effect similar to Cieslak and Pang (2021)'s change from 'common' risk premium news to 'hedging' risk premium news therefore arises endogenously when the economy changes from being dominated by supply shocks to being dominated by demand shocks.
 
-# 3 Empirical evidence on inflation effects in asset prices
+## 3 Empirical evidence on inflation effects in asset prices
 
 The empirical literature studying the asset pricing implications of inflation is vast. We synthesize evidence across various strands of this research—from inflation expectations formation, through the time-varying bond risk premia, to the inflation risk premia extracted from the cross-section of asset returns, and finally the pricing of inflation derivatives—to highlight the common themes that emerge. The overriding conclusion from this body of
 
 work is that persistent (trend) inflation shocks are costly and induce significant risk premia in both stocks and bonds. While inflation risk premia were likely positive in earlier decades, in recent decades they appear to have been on average close to zero or even negative.
 
-# 3.1 Inflation expectations
+## 3.1 Inflation expectations
 
 The basic intuition from the Fisher equation suggests that the level of nominal interest rates should be related to inflation expectations. Indeed, Figure 1 makes it difficult to refute that such a link exists, at least in the long run.
 
@@ -153,7 +164,7 @@ Next, we summarize results from different strands of empirical literature on the
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/7c832deb-c943-42a0-937a-2a31d10aff9b/87809546861abd91827a6df8a52f432a5f5848b379ac9c1f5824be3969d57811.jpg)  
 Figure 3. Term structure of inflation expectations. The figure presents CPI inflation expectations for different horizons from current-quarter nowcast up to 10-year-ahead forecast. The 10-year forecast is constructed from the survey-based measure used by the Federal Reserve (the perceived inflation target variable (PTR) in the FRB/US model). After 1991Q3, the Fed measure uses the 10-year CPI inflation forecast from the SPF. For shorter horizons, starting from 1981Q3, we use SPF quarterly CPI inflation forecasts and, before 1981Q3, the quarterly GDP deflator forecasts (adjusting for the mean difference between CPI inflation and GDP deflator). The sample spans 1970Q1 through 2022Q4.
 
-# 3.2 Time-variation of bond risk premia
+## 3.2 Time-variation of bond risk premia
 
 Inflation affects the term structure of nominal interest rates via investors' expectations of the short-rate path (the expectations hypothesis term) and because investors require a risk premium for bearing inflation risk. By an accounting identity, knowing the expected path of the short rate has immediate implications for understanding bond risk premia, and vice versa. Much of the empirical yield curve research focuses on disentangling these two channels.
 
@@ -169,11 +180,11 @@ While trend inflation dominates the level of nominal yields, at higher frequenci
 
 by investors and, thus, irrelevant for bond risk premia. It merely confirms the finding from the bond predictability literature that term premia earned in compensation for expected inflation shocks (and real rate shocks) move around with state variables other than expected inflation itself.
 
-# 3.3 Pricing of inflation risk in the cross-section of asset returns
+## 3.3 Pricing of inflation risk in the cross-section of asset returns
 
 Evidence from the cross-section of asset returns also supports the conclusion that investors care mostly about persistent movements in inflation, and less about transitory fluctuations. A useful metric for understanding the magnitude of how inflation risk affects asset prices is to measure the price of risk per unit of inflation-beta exposure, i.e., the discount attached to prices of financial assets that perform poorly when inflation goes up. In the tradition of beta-pricing models, one can estimate beta exposure by regressing excess returns on (innovations in) inflation (see e.g., Bekaert and Wang (2010), Boons et al. (2020)). In this spirit, Fang et al. (2022) take a step toward disentangling the effects of different inflation shocks by studying the pricing of core and energy inflation across asset classes, including stocks, bonds, real estate, and commodities. The core beta turns out to be consistently negative suggesting that these assets do not hedge core inflation risk. A one-unit higher core-beta exposure (in absolute terms) raises the risk premium by 1 percentage point per year. Energy shocks, instead, do not appear to command a significant risk compensation. Importantly, the identification of the core premium in Fang et al. (2022) stems from the pre-2000 sample, providing another piece of evidence on the negative consequences of persistent inflation shocks.[12] These findings, however, should not be interpreted as implying that energy shocks are irrelevant for asset prices, if oil price shocks eventually feed into core inflation (e.g., Hamilton, 2013; Meltzer, 2005).
 
-# 3.4 Inflation swaps and inflation-linked bonds
+## 3.4 Inflation swaps and inflation-linked bonds
 
 Perhaps the most direct insight into how investors price inflation risk can be gleaned from the inflation swap market, with the inflation swap rate minus inflation expectations a natural measure of inflation risk premia. While closely related to the inflation-indexed Treasury bonds (TIPS), inflation swaps tend to be less affected by liquidity concerns (e.g., Fleckenstein et al. (2014); Pflueger and Viceira (2016)). Inflation swaps effectively isolate the inflation-driven component of nominal Treasury yields.[13] As such, the swap rate captures the risk-
 
@@ -190,7 +201,7 @@ neutral expectation of inflation, or the expected inflation rate adjusted for th
 
 Figure 4 juxtaposes the survey inflation expectations against the oneand ten-year swap rates (adjusted for the indexation lag). If the inflation risk premium is negative (positive), we would expect the inflation swap rate to be below (above) survey inflation expectations. This simple exercise shows that properties of inflation risk premia inferred from inflation swaps agree broadly with the post-2000 implications of structural models, such as Campbell et al. (2020). At the short horizon, in the left panel of Figure 4, the inflation swap-survey spread is on average negative. As discussed in Section 2, a negative inflation risk premium suggests that investors perceive inflation to be of the "good" variety. In contrast, at the ten-year horizon, in the right panel of Figure 4, the swap-survey spread is positive on average, albeit very modestly. The modest size of the premium indicates that the perceived trend inflation risk post-2000 has been small, aligning with the stable long-run inflation expectations over that period.
 
-# 4 Conclusion
+## 4 Conclusion
 
 We have reviewed the theoretical and empirical progress made towards understanding how inflation and investors expectations of future inflation affect financial markets. Most obviously, inflation expectations matter for assets that deliver fixed dollar payouts, like nominal Treasury bonds. However, as inflation ultimately is an endogenous variable, its asset pricing implications depend on the nature of the underlying structural shocks. The body of evidence suggests that persistent, long-lived, stagflationary shocks are costly. When inflation is of such a "bad" type, as was the case during the 1980s, prices of Treasury bonds and stocks fall simultaneously, and consequently, both require a risk discount to attract investors.
 

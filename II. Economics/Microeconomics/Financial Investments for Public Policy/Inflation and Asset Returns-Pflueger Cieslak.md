@@ -1,20 +1,36 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Inflation and Asset Returns
+parent_directory: Microeconomics/Financial Investments for Public Policy
+formatted: 2025-12-21 10:45:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - inflation risk
+  - asset returns
+  - bond risk premia
+  - stock returns
+  - inflation expectations
+secondary_tags:
+  - new keynesian model
+  - good inflation
+  - bad inflation
+  - term structure
+  - inflation swaps
+  - treasury bonds
+  - consumption-based models
+  - monetary policy
+  - real risk-free rate
+  - stochastic discount factor
 cssclasses: academia
-title: Inflation and Asset Returns*
-linter-yaml-title-alias: Inflation and Asset Returns*
 ---
 
-# Inflation and Asset Returns*
+# Inflation and Asset Returns
 
 Anna Cieslak Carolin Pflueger
 
 July 18, 2023
 
-# Abstract
+## Abstract
 
 The past half-century has seen major shifts in inflation expectations, how inflation comoves with the business cycle, and how stocks comove with Treasury bonds. Against this backdrop, we review the economic channels and empirical evidence on how inflation is priced in financial markets. Not all inflation episodes are created equal. Using in a New Keynesian model, we show how "good" inflation can be linked to demand shocks and "bad" inflation to supply shocks driving the economy. We then discuss asset pricing implications of "good" and "bad" inflation. We conclude by providing an outlook for inflation risk premia in the world of newly rising inflation.
 
@@ -22,7 +38,7 @@ Keywords: inflation, risk premia, bond return predictability, stagflation, monet
 
 JEL Classifications: E43, E52, E58
 
-# 1 Introduction
+## 1 Introduction
 
 The recent surge in inflation has spurred renewed questions about what drives inflation, why it is considered so costly by households, investors, and policymakers alike, and what high inflation means for governments' and firms' ability to fund themselves and households' ability to protect their retirement portfolios. Few would dispute that long-lasting episodes of high inflation pose a major risk for investors in nominal bonds, eroding their ability to consume out of fixed dollar payoffs. For investors in financial claims such as stocks that derive their value from real assets, intuition might instead suggest that inflation poses no tangible threat. Unfortunately, this intuition has badly failed over a significant part of the past century. Understanding the economic mechanism linking inflation and asset prices and how it manifests itself in the data is therefore crucial. For investors, this link matters for assessing the risks they bear. For policymakers, understanding this link provides a window into how financial markets perceive fundamental shocks, informing the appropriate policy response.
 
@@ -32,18 +48,40 @@ What economic forces underlie these major shifts? How can they be linked to inve
 
 expectations of macroeconomic fundamentals and to the risk compensation that investors require for bearing fundamental risks? Fortunately, macro-finance research has made significant forays into understanding these questions. In this review, we combine different strands of research to take stock of the answers that we currently have. The guiding theme of our discussion is that inflation comes in different flavors. We highlight the asset pricing implications of "good" and "bad" inflation, depending on when inflation occurs over the business cycle, whether inflation is supplyor demand-driven, and whether it persists.
 
-# 2 Economic channels linking inflation and asset prices
+```d2
+inflation_shocks: Inflation Shocks {
+  shape: rectangle
+}
+
+asset_prices: Asset Prices {
+  shape: rectangle
+}
+
+risk_premia: Risk Premia {
+  shape: rectangle
+}
+
+business_cycle: Business Cycle {
+  shape: rectangle
+}
+
+inflation_shocks -> asset_prices: Affects via SDF
+asset_prices -> risk_premia: Determines
+business_cycle -> inflation_shocks: Influences type (good/bad)
+```
+
+## 2 Economic channels linking inflation and asset prices
 
 To introduce the notion of the "good" and "bad" inflation varieties, we start by reviewing the basic theory linking inflation and asset prices. We assume that all assets are priced by a representative investor, i.e., there exists a stochastic discount factor (SDF),  $M_{t+1}$ , such that for any asset with a real time- $(t+1)$  payoff  $X_{t+1}$  the time- $t$  price of the asset is given by  $P_t = E_t[M_{t+1}X_{t+1}]$ .
 
 Inflation is particularly relevant for assets whose payoffs are fixed in dollars, such as nominal Treasury bonds. Let  $i_t$  and  $i_t^{(2)}$  denote the interest rates on oneand two-period default-free nominal bonds, i.e., bonds that promise to pay one dollar one or two periods in the future. The corresponding bond prices are then given by  $\exp(-i_t)$  and  $\exp\left(-2i_t^{(2)}\right)$ . Similarly, let  $r$  denote the real risk-free rate, or the interest rate on a default-free bond that promises to pay one unit of real consumption next period. The real risk-free rate is assumed to be constant for simplicity. We use  $\pi_t$  to denote log inflation from time  $t - 1$  to time  $t$ , and use lower-case letters to denote logs throughout. Using the notation  $\pi_t^e \equiv E_t\pi_{t + 1}$  and assuming that inflation and the SDF are jointly log-normal, the oneand two-period nominal interest rates can be written as
 
 $$
-i_{t} = \underbrace {r + E_{t} \pi_{t + 1}}_{\text{Fi sh er Eq ua ti on}} + \underbrace {C o v_{t} \left(m_{t + 1} , \pi_{t + 1}\right)}_{\text{Ri sk Pr em iu m}} - \frac{1}{2} \sigma_{\pi}^{2}, \tag {1}
+i_{t} = \underbrace {r + E_{t} \pi_{t + 1}}_{\text{Fisher Equation}} + \underbrace {C o v_{t} \left(m_{t + 1} , \pi_{t + 1}\right)}_{\text{Risk Premium}} - \frac{1}{2} \sigma_{\pi}^{2}, \tag {1}
 $$
 
 $$
-i_{t}^{(2)} - \underbrace {\frac{i_{t} + E_{t} i_{t + 1}}{2}}_{\text{Ex pe ct at io ns Hy po th es is}} = \underbrace {\frac{1}{2} C o v_{t} \left(m_{t + 1} , \pi_{t + 1}^{e}\right)}_{\text{Ri sk Pr em iu m}} - \left(\frac{1}{2} C o v_{t} \left(\pi_{t + 1}, \pi_{t + 1}^{e}\right) + \frac{1}{4} V a r \left(\pi_{t + 1}^{e}\right)\right) (2)
+i_{t}^{(2)} - \underbrace {\frac{i_{t} + E_{t} i_{t + 1}}{2}}_{\text{Expectations Hypothesis}} = \underbrace {\frac{1}{2} C o v_{t} \left(m_{t + 1} , \pi_{t + 1}^{e}\right)}_{\text{Risk Premium}} - \left(\frac{1}{2} C o v_{t} \left(\pi_{t + 1}, \pi_{t + 1}^{e}\right) + \frac{1}{4} V a r \left(\pi_{t + 1}^{e}\right)\right) (2)
 $$
 
 We call inflation dynamics that lead to positive long-term bond risk premia "bad" inflation, and inflation dynamics that lead to negative bond risk premia "good" inflation. Equation (2) shows that "bad" inflation corresponds to the case where  $\text{Cov}_t(m_{t+1}, \pi_{t+1}^e) > 0$  and "good" inflation corresponds to  $\text{Cov}_t(m_{t+1}, \pi_{t+1}^e) < 0$ .<sup>2</sup>
@@ -73,7 +111,7 @@ premium to be willing to hold them. "Good" inflation, on the other hand, corresp
 
 How should stocks depend on inflation? The early literature hypothesized that since dividends are a claim to firms' real profits, stocks should preserve their real value in the face of inflation. Subsequently, empirical research found that during the 1970s and 1980s, stocks also tended to return poorly when inflation was high, providing no protection against inflation in investors' portfolios (Fama and Schwert (1977), Kaul (1987)). This led to an interest in understanding which fundamental shocks might drive the value of stocks down and erode the value of long-term bonds through higher inflation expectations at the same time.
 
-# 2.1 "Good" and "bad" inflation in a simple New Keynesian Model
+## 2.1 "Good" and "bad" inflation in a simple New Keynesian Model
 
 To understand which fundamental economic shocks generate "good" vs. "bad" inflation, we revisit the workhorse three-equation New Keynesian model from macroeconomics. The traditional New Keynesian model can be summarized by the following three log-linearized equations<sup>4</sup>
 
@@ -110,7 +148,7 @@ Figure 2. Impulse Responses to Supply and Demand Shocks in Textbook New Keynesia
 
 overview of the direct real cash flow effects on stocks and bonds, calibrating a quantitative model of stocks and bonds is beyond the scope of this review article. The next Section reviews the different approaches that have been used in the literature to link stocks and bonds to New Keynesian macroeconomic dynamics, and their implications for risk premia. One key message of this literature is that the indirect effects of supply and demand shocks through risk premia can be substantial.
 
-# 2.2 "Good" and "bad" inflation in bonds and stocks
+## 2.2 "Good" and "bad" inflation in bonds and stocks
 
 While the textbook New Keynesian model, as discussed in Section 2.1, is not focused on risk premia in stocks and bonds, recent research has made substantial progress on understanding the link between the economic sources of inflation and time-varying risk premia in stocks and bonds. Most of the approaches to pricing inflation risk within endowment economies have been applied to structural economic models. At the same time, the link between the real economy and asset prices remains an area of ongoing research.
 

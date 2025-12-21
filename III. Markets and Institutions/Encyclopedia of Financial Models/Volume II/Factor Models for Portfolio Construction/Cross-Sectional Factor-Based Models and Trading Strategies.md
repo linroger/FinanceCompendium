@@ -56,7 +56,7 @@ Throughout this entry, we provide a series of examples, including backtests of a
 
 ## CROSS-SECTIONAL METHODS FOR EVALUATION OF FACTOR PREMIUMS
 
-# Portfolio Sorts
+### Portfolio Sorts
 
 In the asset pricing literature, the use of portfolio sorts can be traced back to the earliest tests of the capital asset pricing model (CAPM). The goal of this particular test is to determine whether a factor earns a systematic premium. The portfolios are constructed by grouping together securities with similar characteristics (factors). For example, we can group stocks by market capitalization into 10 portfolios—from smallest to largest—such that each portfolio contains stocks with similar market capitalization. The next step is to calculate and evaluate the returns of these portfolios.
 
@@ -72,37 +72,37 @@ The construction of portfolios sorted on a factor is straightforward:
 - Choose an appropriate sorting methodology.
 - Sort the assets according to the factor.
 
-- Group the sorted assets into  $N$  portfolios (usually  $N = 5$ , or  $N = 10$ ).
+- Group the sorted assets into $N$ portfolios (usually $N = 5$, or $N = 10$).
 - Compute average returns (and other statistics) of the assets in each portfolio over subsequent periods.
 
 The standard statistical testing procedure for portfolio sorts is to use a Student's  $t$ -test to evaluate the significance of the mean return differential between the portfolios of stocks with the highest and lowest values of the factor.
 
-# Choosing the Sorting Methodology
+#### Choosing the Sorting Methodology
 
 The sorting methodology should be consistent with the characteristics of the distribution of the factor and the economic motivation underlying its premium. We list six ways to sort factors:
 
-# Method 1
+##### Method 1
 
 - Sort stocks with factor values from the highest to lowest.
 
-# Method 2
+##### Method 2
 
 - Sort stocks with factor values from the lowest to highest.
 
-# Method 3
+##### Method 3
 
 - First allocate stocks with zero factor values into the bottom portfolio.
 - Sort the remaining stocks with nonzero factor values into the remaining portfolios.
 
 For example, the dividend yield factor would be suitable for this sorting approach. This approach aligns the factor's distributional characteristics of dividend and nondividend-paying stocks with the economic rationale. Typically, nondividend-paying stocks maintain characteristics that are different from dividend paying stocks. So we group nondividend-paying stocks into one portfolio. The remaining stocks are then grouped into portfolios depending on the size of their nonzero dividend yields. We differentiate among stocks with dividend yield because of two reasons: (1) the size of the dividend yield is related to the maturity of the company, and (2) some investors prefer to receive their investment return as dividends.
 
-# Method 4
+##### Method 4
 
 - Allocate stocks with zero factor values into the middle portfolio.
 - Sort stocks with positive factor values into the remaining higher portfolios (greater than the middle portfolio).
 - Sort stocks with negative factor values into the remaining lower portfolios (less than the middle portfolio).
 
-# Method 5
+##### Method 5
 
 - Sort stocks into partitions.
 - Rank assets within each partition.
@@ -110,7 +110,7 @@ For example, the dividend yield factor would be suitable for this sorting approa
 
 An example will clarify this procedure. Suppose we want to rank stocks according to earnings growth on a sector-neutral basis. First, we separate stocks into groups corresponding to their sector. Within each sector, we rank the stocks according to their earnings growth. Lastly, we group all stocks with the same rankings of earnings growth into the final portfolio. This process ensures that each portfolio will contain an equal number of stocks from every sector, thereby the resulting portfolios are sector neutral.
 
-# Method 6
+##### Method 6
 
 - Separate all the stocks with negative factor values. Split the group of stocks with negative values into two portfolios using the median value as the break point.
 - Allocate stocks with zero factor values into one portfolio.
@@ -174,7 +174,7 @@ The authors emphasize several advantages in using this approach. The test is non
 Classical financial theory states that the average return of a stock is the payoff to investors for taking on risk. One way of expressing this risk-reward relationship is through a factor model. A factor model can be used to decompose the returns of a security into factor-specific and asset-specific returns
 
 $$ r_{i, t} = \alpha_{i} + \beta_{i, 1} f_{1, t} + \dots + \beta_{i, K} f_{K, t} + \varepsilon_{i, t}
-$$ where  $\beta_{i,1},\beta_{i,2},\ldots ,\beta_{i,K}$  are the factor exposures of stock  $i,f_{1,t},f_{2,t},\ldots ,f_{K,t}$  are the factor returns,  $\alpha_{i}$  is the average abnormal return of stock  $i$  and  $\varepsilon_{i,t}$  is the residual.
+$$ where $\beta_{i,1},\beta_{i,2},\ldots ,\beta_{i,K}$ are the factor exposures of stock $i,f_{1,t},f_{2,t},\ldots ,f_{K,t}$ are the factor returns, $\alpha_{i}$ is the average abnormal return of stock $i$ and $\varepsilon_{i,t}$ is the residual.
 
 
 This factor model specification is contemporaneous, that is, both left- and right-hand side variables (returns and factors) have the same time subscript,  $t$ . For trading strategies one generally applies a forecasting specification where the time subscript of the return and the factors are  $t + h$  ( $h \geq 1$ ) and  $t$ , respectively. In this case, the econometric specification becomes
@@ -208,7 +208,6 @@ Some factors are not explicitly given, but need to be estimated. These factors a
 
 The residuals from a regression often contain a source of common variation. Sources of common variation in the residuals are heteroskedasticity and serial correlation. We note that when the form of heteroskedasticity and serial correlation is known, we can apply generalized least squares (GLS). If the form is not known, it has to be estimated, for example as part of feasible generalized least squares (FGLS). We summarize some additional possibilities next.
 
-
 Heteroskedasticity occurs when the variance of the residual differs across observations and affects the statistical inference in a linear regression. In particular, the estimated standard errors will be underestimated and the  $t$ -statistics will therefore be inflated. Ignoring heteroskedasticity may lead the researcher to find significant relationships where none actually exist. Several procedures have been developed to calculate standard errors that are robust to heteroskedasticity, also known as heteroskedasticity-consistent standard errors.
 
 Serial correlation occurs when residuals terms in a linear regression are correlated, violating the assumptions of regression theory. If the serial correlation is positive, then the standard errors are underestimated and the  $t$ -statistics will be inflated. Cochrane (2005) suggests that the errors in cross-sectional regressions using financial data are often off by a factor of 10. Procedures are available to correct for serial correlation when calculating standard errors.
@@ -226,10 +225,9 @@ Multicollinearity occurs when two or more independent variables are highly corre
 
 # Fama-MacBeth Regression
 
-To address the inference problem caused by the correlation of the residuals, Fama and MacBeth (1973) proposed the following methodol ogy for estimating cross-sectional regressions of returns on factors. For notational simplicity, we describe the procedure for one factor. The multifactor generalization is straightforward.
+To address the inference problem caused by the correlation of the residuals, Fama and MacBeth (1973) proposed the following methodology for estimating cross-sectional regressions of returns on factors. For notational simplicity, we describe the procedure for one factor. The multifactor generalization is straightforward.
 
-
-First, for each point in time  $t$  we perform a cross-sectional regression:
+First, for each point in time $t$ we perform a cross-sectional regression:
 
 $$ r_{i, t} = \beta_{i, t} f_{t} + \varepsilon_{i, t}, \quad i = 1, 2, \ldots , N
 $$
@@ -256,8 +254,8 @@ To determine the forecast ability of a model, practitioners commonly use a stati
 
 
 $$
-I C_{t, t + k} = \operatorname{co rr} \left(\mathbf {f}_{t}, \mathbf {r}_{t, t + k}\right)
-$$ where  $\mathbf{f}_t$  is a vector of cross sectional factor values at time  $t$  and  $\mathbf{r}_{t,t + k}$  is a vector of returns over the time period  $t$  to  $t + k$ .
+IC_{t, t + k} = \operatorname{corr} \left(\mathbf{f}_{t}, \mathbf{r}_{t, t + k}\right)
+$$ where $\mathbf{f}_t$ is a vector of cross sectional factor values at time $t$ and $\mathbf{r}_{t,t + k}$ is a vector of returns over the time period $t$ to $t + k$.
 
 
 Just like the standard correlation coefficient, the values of the IC range from  $-1$  to  $+1$ . A positive IC indicates a positive relation between the factor and return. A negative IC indicates a negative relation between the factor and return. ICs are usually calculated over an interval, for example, daily or monthly. We can evaluate how a factor has performed by examining the time series behavior of the ICs. Looking at the mean IC tells how predictive the factor has been over time.
@@ -274,12 +272,11 @@ The IC methodology has many of the same advantages as regression models. The pro
 ICs can also be used to assess the risk of factors and trading strategies. The standard deviation of the time series (with respect to  $t$ ) of ICs for a particular factor  $(\mathrm{std}(IC_{t,t + k}))$  can be interpreted as the strategy risk of a factor. Examining the time series behavior of  $\mathrm{std}(IC_{t,t + k})$  over different time periods may give a better understanding of how often a particular factor may fail. Qian and Hua show that  $\mathrm{std}(IC_{t,t + k})$  can be used to more effectively understand the active risk of investment portfolios. Their research demonstrates that ex post tracking error often exceeds the ex ante tracking provided by risk models. The difference in tracking error occurs because tracking error is a function of both ex ante tracking error from a risk model and the variability of information coefficients,  $\mathrm{std}(IC_{t,t + k})$ . They define the expected tracking error as
 
 $$
-\boldsymbol {\sigma}_{T E} = \operatorname{st d} \left(I C_{t. t + k}\right) \sqrt{N} \boldsymbol {\sigma}_{\text{mo de l}} \operatorname{di s} \left(\mathbf {R}_{t}\right)
-$$ where  $N$  is the number of stocks in the universe (breath),  $\sigma_{\mathrm{model}}$  is the risk model tracking error, and  $\mathrm{dis}(\mathbf{R_t})$  is dispersion of returns defined by
-
+\boldsymbol{\sigma}_{TE} = \operatorname{std} \left(IC_{t, t + k}\right) \sqrt{N} \boldsymbol{\sigma}_{\text{model}} \operatorname{dis} \left(\mathbf{R}_{t}\right)
+$$ where $N$ is the number of stocks in the universe (breath), $\sigma_{\mathrm{model}}$ is the risk model tracking error, and $\mathrm{dis}(\mathbf{R_t})$ is dispersion of returns defined by
 
 $$
-\operatorname{di s} \left(\mathbf {R}_{t}\right) = \operatorname{st d} \left(r_{1, t}, r_{2, t}, \dots , r_{N, t}\right)
+\operatorname{dis} \left(\mathbf{R}_{t}\right) = \operatorname{std} \left(r_{1, t}, r_{2, t}, \dots , r_{N, t}\right)
 $$
 
 # Example: Information Coefficients
@@ -289,18 +286,17 @@ Figure 4 displays the time-varying behavior of ICs for each one of the factors E
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/cfb463a1-2282-4dad-842c-22b6b264a8a9/d74c4e50e0a251979eb0a991f7d93f2396b4f3740127f5c3a6e3599534f40bff.jpg)
 Figure 4 Information Coefficients over Various Horizons for EBITDA/EV, Growth of Fiscal Year 1 and Fiscal Year 2 Earnings Estimates, Revisions, and Momentum Factors
 
-graph shows the time series average of information coefficients:
+The graph shows the time series average of information coefficients:
 
 $$
-\overline {{I C}}_{k} = \operatorname{me an} (\mathbf {I C}_{\mathrm{t}, \mathrm{t} + \mathrm{k}})
+\overline{IC}_{k} = \operatorname{mean} (\mathbf{IC}_{\mathrm{t}, \mathrm{t} + \mathrm{k}})
 $$
 
-The graph depicts the information horizons for each factor, showing how subsequent return is realized over time. The vertical axis shows the size of the average information coefficient  $\overline{IC_k}$  for  $k = 1,2,\ldots ,15$
+The graph depicts the information horizons for each factor, showing how subsequent return is realized over time. The vertical axis shows the size of the average information coefficient $\overline{IC_k}$ for $k = 1,2,\ldots ,15$
 
 Specifically, the EBITDA/EV factor starts at almost 0.03 and monotonically increases as the investment horizon lengthens from one month to 15 months. At 15 months, the EBITDA/EV factor has an IC of 0.09, the highest value among all the factors presented in the graph. This relationship suggests that the EBITDA/EV factor earns higher returns as the holding period lengthens.
 
 The other ICs of the factors in the graph are also interesting. The growth of fiscal year 1 and fiscal year 2 earnings estimates factor is defined as the growth in current fiscal year (fy1) earnings estimates to the next fiscal year (fy2) earnings estimates provided by sell-side analysts.[11] We call the growth of fiscal year 1 and fiscal year 2 earnings estimates factor the earnings growth factor throughout the remainder of the entry. The IC is negative and decreases as the investment horizon lengthens. The momentum factor starts with a positive IC of 0.02 and increases to approximately 0.055 in the fifth month. After the fifth month, the IC decreases. The revisions factor starts with a positive IC and increases slightly until approximately the eleventh month at which time the factor begins to decay.
-
 
 Looking at the overall patterns in the graph, we see that the return realization pattern to different factors varies. One notable observation is that the returns to factors don't necessarily decay but sometimes grow with the holding period. Understanding the multiperiod effects of each factor is important when we want to combine several factors. This information may influence how one builds a model. For example, we can explicitly incorporate this information about information horizons into our model by using a function that describes the decay or growth of a factor as a parameter to be calibrated. Implicitly, we could incorporate this information by changing the holding period for a security traded for our trading strategy. Specifically, Sneddon (2008) discusses an example that combines one signal that has short-range predictive power with another that has long-range power. Incorporating this information about the information horizon often improves the return potential of a model. Kolm (2010) describes a general multiperiod model that combines information decay, market impact costs, and real world constraints.
 
@@ -316,13 +312,11 @@ By using a multifactor model, we can build factor portfolios that control for di
 
 $$
 \mathbf {r} = \mathbf {X b} + \mathbf {u}
-$$ where  $\mathbf{r}$  is an  $N$  vector of excess returns of the stocks considered,  $\mathbf{X}$  is an  $N$  by  $K$  matrix of factor loadings,  $\mathbf{b}$  is a  $K$  vector of factor returns, and  $\mathbf{u}$  is an  $N$  vector of firm specific returns (residual returns). Here, we assume that factor returns are uncorrelated with the firm specific return. Further assuming that firm specific returns of different companies are uncorrelated, the  $N$  by  $N$  covariance matrix of stock returns  $\mathbf{V}$  is given by
-
+$$ where $\mathbf{r}$ is an $N$ vector of excess returns of the stocks considered, $\mathbf{X}$ is an $N$ by $K$ matrix of factor loadings, $\mathbf{b}$ is a $K$ vector of factor returns, and $\mathbf{u}$ is an $N$ vector of firm specific returns (residual returns). Here, we assume that factor returns are uncorrelated with the firm specific return. Further assuming that firm specific returns of different companies are uncorrelated, the $N$ by $N$ covariance matrix of stock returns $\mathbf{V}$ is given by
 
 $$
-\mathbf {V} = \mathbf {X F X}^{\prime} + \boldsymbol {\Delta}
-$$ where  $\mathbf{F}$  is the  $K$  by  $K$  factor return covariance matrix and  $\Delta$  is the  $N$  by  $N$  diagonal matrix of variances of the specific returns.
-
+\mathbf{V} = \mathbf{X F X}^{\prime} + \boldsymbol{\Delta}
+$$ where $\mathbf{F}$ is the $K$ by $K$ factor return covariance matrix and $\Delta$ is the $N$ by $N$ diagonal matrix of variances of the specific returns.
 
 We can use the Fama-MacBeth procedure discussed earlier to estimate the factor returns over time. Each month, we perform a GLS regression to obtain
 
@@ -356,7 +350,7 @@ Analyzing the performance of different factors is an important part of the devel
 
 To give a basic idea of how this process may be performed, we use the five factors introduced earlier in this entry: EBITDA/EV, revisions, share repurchase, momentum, and earnings growth. These are a subset of the factors that we use in the factor trading strategy model discussed later in the entry. We choose a limited number of factors for ease of exposition. In particular, we emphasize those factors that possess more interesting empirical characteristics.
 
-Figure 5(A) presents summary statistics of monthly returns of long-short portfolios con structed from these factors. We observe that the average monthly return ranges from  $-0.05\%$  for the earnings growth to  $0.90\%$  for the momentum factor. The  $t$ -statistics for the mean return are significant at the  $95\%$  level for the EBITDA/EV, share repurchase, and momentum factors. The monthly volatility ranges from  $3.77\%$  for the revisions factor to  $7.13\%$  for the momentum factor. In other words, the return and risk characteristics among factors vary significantly. We note that the greatest monthly drawdown has been large to very large for all of the factors, implying significant downside risk. Overall, the results suggest that there is a systematic premium associated with the EBITDA/EV, share repurchase, and momentum factors.
+Figure 5(A) presents summary statistics of monthly returns of long-short portfolios constructed from these factors. We observe that the average monthly return ranges from  $-0.05\%$  for the earnings growth to  $0.90\%$  for the momentum factor. The  $t$ -statistics for the mean return are significant at the  $95\%$  level for the EBITDA/EV, share repurchase, and momentum factors. The monthly volatility ranges from  $3.77\%$  for the revisions factor to  $7.13\%$  for the momentum factor. In other words, the return and risk characteristics among factors vary significantly. We note that the greatest monthly drawdown has been large to very large for all of the factors, implying significant downside risk. Overall, the results suggest that there is a systematic premium associated with the EBITDA/EV, share repurchase, and momentum factors.
 
 
 Let pctPos and pctNeg denote the fraction of positive and negative returns over time, respectively. These measures offer another way of interpreting the strength and consistency of the returns to a factor. For example, EBITDA/EV and momentum have  $t$ -statistics of 2.16 and 1.90, respectively, indicating that the former is stronger. However, pctPos (pctNeg) are 0.55 versus 0.61 (0.45 versus 0.39) showing that positive returns to momentum occur more frequently. This may provide reassurance of the
@@ -379,8 +373,7 @@ Figure 5(B) presents unconditional correlation coefficients of monthly returns f
 
 Figure 6 presents the cumulative returns for the long-short portfolios. The returns of the long-short factor portfolios experience substantial volatility. We highlight the following patterns of cumulative returns for the different factors:
 
-- The cumulative return of the revisions factor is positive in the early periods (12/1989 to 6/1998). While it is volatile, its cumulative re turn is higher in the next period (7/1998 to 7/2000). It deteriorates sharply in the following period (8/2000 to 6/2003), and levels out in the later periods (7/2003 to 12/2008).
-
+- The cumulative return of the revisions factor is positive in the early periods (12/1989 to 6/1998). While it is volatile, its cumulative return is higher in the next period (7/1998 to 7/2000). It deteriorates sharply in the following period (8/2000 to 6/2003), and levels out in the later periods (7/2003 to 12/2008).
 
 - The performance of the EBITDA/EV factor is consistently positive in the early periods (12/1989 to 9/1998), deteriorates in the next period (10/1998 to 1/2000) and rebounds sharply (2/2000 to 7/2002), grows at a slower but more historically consistent rate in the later periods (8/2002 to 4/2007), deteriorates in the next period (5/2007 to 9/2007), and returns to more historically consistent returns in last period (10/2007 to 12/2008).
 - The cumulative return of the share repurchase factor grows at a slower pace in the early years (12/1989 to 5/1999), falls slightly in the middle periods (6/1999 to 1/2000), rebounds sharply (2/2000 to 7/2002), falls then flattens out in the next period (8/2002 to 4/2008), and increases at a large rate late in the graph (5/2008 to 12/2008).
@@ -392,10 +385,11 @@ A. Basic Statistics for Monthly Information Coefficients
 
 B. Correlations for Monthly Average Information Coefficients
 
-<table><tr><td></td><td>Revisions</td><td>EBITDA/EV</td><td>Share Repurchase</td><td>Momentum</td><td>Earnings Growth</td></tr><tr><td>Revisions</td><td>1.00</td><td>-0.31</td><td>0.13</td><td>0.79</td><td>-0.14</td></tr><tr><td>EBITDA/EV</td><td>-0.31</td><td>1.00</td><td>-0.66</td><td>-0.26</td><td>-0.49</td></tr><tr><td>Share repurchase</td><td>0.13</td><td>-0.66</td><td>1.00</td><td>0.02</td><td>0.58</td></tr><tr><td>Momentum</td><td>0.79</td><td>-0.26</td><td>0.02</td><td>1.00</td><td>-0.05</td></tr><tr><td>Earnings growth</td><td>-0.14</td><td>-0.49</td><td>0.58</td><td>-0.05</td><td>1.00</td></tr></table> experiences sharp volatility in the middle period (1/1999 to 5/2003), flattens out (6/2003 to 6/2007), and grows at an accelerating rate from (7/2007 to 12/2008).
+<table><tr><td></td><td>Revisions</td><td>EBITDA/EV</td><td>Share Repurchase</td><td>Momentum</td><td>Earnings Growth</td></tr><tr><td>Revisions</td><td>1.00</td><td>-0.31</td><td>0.13</td><td>0.79</td><td>-0.14</td></tr><tr><td>EBITDA/EV</td><td>-0.31</td><td>1.00</td><td>-0.66</td><td>-0.26</td><td>-0.49</td></tr><tr><td>Share repurchase</td><td>0.13</td><td>-0.66</td><td>1.00</td><td>0.02</td><td>0.58</td></tr><tr><td>Momentum</td><td>0.79</td><td>-0.26</td><td>0.02</td><td>1.00</td><td>-0.05</td></tr><tr><td>Earnings growth</td><td>-0.14</td><td>-0.49</td><td>0.58</td><td>-0.05</td><td>1.00</td></tr></table>
+
+The momentum factor experiences sharp volatility in the middle period (1/1999 to 5/2003), flattens out (6/2003 to 6/2007), and grows at an accelerating rate from (7/2007 to 12/2008).
 
 Figure 7 Summary of Monthly Factor Information Coefficients
-
 
 - The performance of the earnings growth factor is flat or negative throughout the entire period.
 
@@ -529,7 +523,7 @@ Using the returns of our factors, we perform this optimization monthly to determ
 
 In the next step, we use the factor weights to determine the attractiveness of the stocks in our universe. We score each stock in the universe by multiplying the standardized values of the factors by the weights provided by the optimization of our factors. Stocks with high scores are deemed attractive and stocks with low scores are deemed unattractive.
 
-To evaluate how the model performs, we sort the scores of stocks into five equally weighted portfolios and evaluate the returns of these portfolios. Table 1(A) provides summary statistics of the returns for each portfolio. Note that there is a monotonic increasing relationship among the portfolios with portfolio 1 (q1) earning the highest return and portfolio 5 (q5) earn ing the lowest return. Over the entire period, the long-short portfolio (LS) that is long portfolio 1 and short portfolio 5 averages about  $1\%$  per month with a monthly Sharpe ratio of 0.33. Its return is statistically significant at the  $97.5\%$  level.
+To evaluate how the model performs, we sort the scores of stocks into five equally weighted portfolios and evaluate the returns of these portfolios. Table 1(A) provides summary statistics of the returns for each portfolio. Note that there is a monotonic increasing relationship among the portfolios with portfolio 1 (q1) earning the highest return and portfolio 5 (q5) earning the lowest return. Over the entire period, the long-short portfolio (LS) that is long portfolio 1 and short portfolio 5 averages about  $1\%$  per month with a monthly Sharpe ratio of 0.33. Its return is statistically significant at the  $97.5\%$  level.
 
 
 Table 1 Summary of Model Results A. Summary Statistics of the Model Returns

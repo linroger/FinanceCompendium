@@ -1,22 +1,19 @@
 ---
-parent_directory: I. Foundations/Mathematics
-title: A Verification of the Central Limit Theorem
-tags: null
-aliases:
-- Verification of the Central Limit Theorem
-parent_folder: Mathematics
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: A Verification of the Central Limit Theorem
+title: Verification of the Central Limit Theorem
+parent_directory: Mathematics
+formatted: 2025-12-21 10:50:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
-- distribution function
-- standard normal distribution
+  - central limit theorem
+  - moment generating functions
+  - normal distribution
 secondary_tags:
-- central limit theorem
-- mean and standard deviation
-tags_extracted: '2025-12-18T17:58:45.970596'
-tags_method: max_quality_v1
+  - statistical convergence
+  - probability distributions
+  - mathematical proofs
+  - convergence theorems
+cssclasses: academia
 ---
 
 # A Verification of the Central Limit Theorem
@@ -29,7 +26,7 @@ $$
 
 approaches the distribution function for the standard normal distribution as  $n \to \infty$ , where the sample mean random variable is defined as  $\bar{X} = \frac{\sum_{i=1}^{n} X_i}{n}$ .
 
-Proof: We start by proving that the moment generating function (defined shortly) of the random variable  $Z_{n}$  approaches the moment generating function of the standard normal random variable  $Z$  as  $n$  approaches infinity. The point is that the moment generating function of a random variable uniquely determines the distribution function of the random variable, although we will not prove this fact. Some details in this prove will not be completely rigorous, since a rigorous proof is beyond the level of this text.
+Proof: We start by proving that the moment generating function (defined shortly) of the random variable  $Z_{n}$  approaches the moment generating function of the standard normal random variable  $Z$  as  $n$  approaches infinity. The point is that the moment generating function of a random variable uniquely determines the distribution function of the random variable, although we will not prove this fact. Some details in this proof will not be completely rigorous, since a rigorous proof is beyond the level of this text.
 
 The moment generating function  $M_X(t)$  of a random variable  $X$  is defined to be the expectation of the random variable  $e^{Xt}$ :  $M_X(t) = E[e^{Xt}]$ , where  $t$  can be any real number. Since
 
@@ -107,8 +104,6 @@ $$
 
 for some constants  $C(k)$  that are independent of  $n$  for  $k = 3, 4, \ldots$ . Based on equations (7) and (8), we rewrite equation (6) in the form:
 
-# Chapter 2 Additional Readings
-
 $$
 (9) \quad \int_{-\infty}^{\infty} e^{\frac{(x_{i} - \mu)t}{\sigma\sqrt{n}}} p(x_{i}) dx_{i} = 1 + \frac{t^{2}}{2n} + \frac{C(3)t^{3}}{6\sigma^{3}n^{3/2}} + \frac{C(4)t^{4}}{24\sigma^{4}n^{2}} + \dots.
 $$
@@ -131,7 +126,7 @@ $$
 M_{Z_{n}}(t) \rightarrow \left(1 + \frac{t^{2}}{2n}\right)^{n}
 $$
 
-as  $n\to \infty$  .We know from calculus that
+as  $n\to \infty$ . We know from calculus that
 
 $$
 \left(1 + \frac{a}{n}\right)^{n} \rightarrow e^{a}

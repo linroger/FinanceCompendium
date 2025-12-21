@@ -1,69 +1,50 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'IEOR E4703: Monte-Carlo Simulation'
-linter-yaml-title-alias: 'IEOR E4703: Monte-Carlo Simulation'
+title: "IEOR E4703: Monte-Carlo Simulation"
+parent_directory: "MFE Monte-Carlo Simulation"
+formatted: "2025-12-21 11:20:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
-- acceptance-rejection (ar) algorithm
-- monte carlo integration
-- inverse transform approach
+  - monte carlo simulation
+  - random variable generation
+  - inverse transform method
+  - acceptance-rejection algorithm
 secondary_tags:
-- carlo integration generating variables
-- monte integration
-- random variables
-- random variable
-- some random variables
-- random vectors
-tags_extracted: '2025-12-18T17:58:57.570728'
-tags_method: max_quality_v1
+  - stochastic processes
+  - brownian motion
+  - geometric brownian motion
+  - poisson process
+  - normal distribution
+  - multivariate normal
+cssclasses: academia
 ---
 
 # IEOR E4703: Monte-Carlo Simulation
 
-# Generating Random Variables and Stochastic Processes
+## Generating Random Variables and Stochastic Processes
 
-# Martin Laugh
-
-Department of Industrial Engineering and Operations Research
-
-Columbia University
-
+**Martin Haugh**  
+Department of Industrial Engineering and Operations Research  
+Columbia University  
 Email: martin.b.baugh@gmail.com
 
-# Outline
+### Outline
 
-Monte Carlo Integration
-
-Multi-Dimensional Monte Carlo Integration
-
-Generating Univariate Random Variables
-
-The Inverse Transform Method
-
-The Composition Approach
-
-The Acceptance-Rejection Algorithm
-
-Other Methods for Generating Univariate Random Variables
-
-Generating Normal Random Variables
-
-Generating Multivariate Normally Distributed Random Vectors
-
-Simulating Poisson Processes
-
-The Non-Homogeneous Poisson Process
-
-Simulating (Geometric) Brownian Motion
-
-Simulating Brownian Motion
-
-Geometric Brownian Motion
-
-Application: Hedging in Black-Scholes
+- Monte Carlo Integration
+- Multi-Dimensional Monte Carlo Integration
+- Generating Univariate Random Variables
+- The Inverse Transform Method
+- The Composition Approach
+- The Acceptance-Rejection Algorithm
+- Other Methods for Generating Univariate Random Variables
+- Generating Normal Random Variables
+- Generating Multivariate Normally Distributed Random Vectors
+- Simulating Poisson Processes
+- The Non-Homogeneous Poisson Process
+- Simulating (Geometric) Brownian Motion
+- Simulating Brownian Motion
+- Geometric Brownian Motion
+- Application: Hedging in Black-Scholes
 
 # Monte Carlo Integration
 
@@ -90,18 +71,18 @@ $$
 \widehat {\theta}_{n} := \frac{g (U_{1}) + \ldots + g (U_{n})}{n}
 $$
 
-# Monte Carlo Integration
+## Monte Carlo Integration
 
 There are two reasons that explain why  $\widehat{\theta}_n$  is a good estimator:
 
-1. $\widehat{\theta}_n$  is unbiased, i.e.,  $\mathbb{E}[\widehat{\theta}_n] = \theta$ .  
+1. $\widehat{\theta}_n$  is unbiased, i.e.,  $\mathbb{E}[\widehat{\theta}_n] = \theta$ .
 2. $\widehat{\theta}_n$  is consistent, i.e.,  $\widehat{\theta}_n\rightarrow \theta$  as  $n\to \infty$  with probability 1
 
 - follows immediately from Strong Law of Large Numbers (SLLN) since  $g(U_1), g(U_2), \ldots, g(U_n)$  are IID with mean  $\theta$ .
 
 Monte Carlo Integration can be especially useful for estimating high-dimensional integrals. Why?
 
-# An Example
+### An Example
 
 Wish to estimate  $\theta = \int_{1}^{3}(x^{2} + x)dx$  again using simulation.
 
@@ -123,7 +104,7 @@ $$
 \widehat {\theta}_{n} := 2 \sum_{i = 1}^{n} \left(X_{i}^{2} + X_{i}\right) / n.
 $$
 
-# High-Dimensional Monte Carlo Integration
+### High-Dimensional Monte Carlo Integration
 
 Can also apply Monte Carlo integration to more general problems.
 
@@ -143,7 +124,7 @@ $$
 \widehat {\theta}_{n} := \frac{g (X_{1} , Y_{1}) + \ldots + g (X_{n} , Y_{n})}{n}.
 $$
 
-# Generating Univariate Random Variables
+## Generating Univariate Random Variables
 
 There are many methods for generating univariate random variables:
 
@@ -152,7 +133,7 @@ There are many methods for generating univariate random variables:
 3. The acceptance-rejection (AR) algorithm  
 4. Other approaches.
 
-# The Inverse Transform Method: Discrete Random Variables
+### The Inverse Transform Method: Discrete Random Variables
 
 Suppose  $X$  can take on  $n$  distinct values,  $x_{1} < x_{2} < \ldots < x_{n}$ , with
 
@@ -171,7 +152,7 @@ Should be clear that this algorithm is correct!
 
 If  $n$  is large, then might want to search for  $x_{j}$  more efficiently!
 
-# Example: Generating a Geometric Random Variable
+#### Example: Generating a Geometric Random Variable
 
 $X$  is geometric with parameter  $p$  so  $P(X = n) = (1 - p)^{n - 1}p$ .
 
@@ -186,7 +167,7 @@ Step 2 amounts to setting  $X = \operatorname{Int}\left(\frac{\log(U)}{\log(1 - 
 
 Question: How does this compare to the coin-tossing method for generating  $X$ ?
 
-# Inverse Transform for Continuous Random Variables
+### Inverse Transform for Continuous Random Variables
 
 Suppose now that  $X$  is a continuous random variable.
 
@@ -216,7 +197,7 @@ But there is no problem even when  $F_{x}^{-1}$  does not exist. All we have to 
 
 This works for discrete and continuous random variables or mixtures of the two.
 
-# Example: Generating an Exponential Random Variable
+#### Example: Generating an Exponential Random Variable
 
 We wish to generate  $X \sim \mathrm{Exp}(\lambda)$ .
 
@@ -224,7 +205,7 @@ In this case  $F_{x}(X) = 1 - e^{-\lambda x}$  so that  $F_{x}^{-1}(u) = -\log (
 
 Can generate  $X$  then by generating  $U$  and setting (why?)  $X = -\log (U) / \lambda$
 
-# Generating Order Statistics via Inverse Transform
+### Generating Order Statistics via Inverse Transform
 
 Suppose  $X$  has CDF  $F_{x}$  and let  $X_{1},\ldots ,X_{n}$  be  $\mathbb{I}\mathbb{D}\sim X$
 

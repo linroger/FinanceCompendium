@@ -1,68 +1,70 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Mortgages and Mortgage-Backed Securities
+parent_directory: Part 02 Securities Markets
+formatted: 2025-12-21 11:15:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - mortgage markets
+  - securitization
+  - mortgage-backed securities
+  - secondary mortgage markets
+secondary_tags:
+  - primary mortgage market
+  - mortgage characteristics
+  - mortgage amortization
+  - adjustable rate mortgages
+  - fixed rate mortgages
+  - down payment
+  - private mortgage insurance
+  - lien
+  - discount points
+  - closing fees
+  - loan-to-value ratio
+  - federally insured mortgages
+  - conventional mortgages
+  - mortgage refinancing
+  - financial institutions
+  - interest rate risk
+  - credit risk
+  - liquidity risk
 cssclasses: academia
-title: MORTGAGES AND MORTGAGE-BACKED
-linter-yaml-title-alias: MORTGAGES AND MORTGAGE-BACKED
 ---
 
 LG 7-10
 
 Describe the trends in the international securitization of mortgages.
 
-# MORTGAGES AND MORTGAGE-BACKED
+# Mortgages and Mortgage-Backed Securities
 
-# SECURITIES: CHAPTER OVERVIEW
+## Chapter Overview
 
 Mortgages are loans to individuals or businesses to purchase a home, land, or other real property. The property purchased with the loan serves as collateral backing the loan. As of December 2018, there were 15.4 trillion of primary mortgages outstanding, held by various financial institutions such as banks and mortgage companies. Figure 7-1 lists the major categories of mortgages and the amount of each outstanding in 1995 and 2018. Home mortgages (one to four families) are the largest loan category (70.5 percent of all mortgages in 2018), followed by commercial mortgages (used to finance specific projects that are pledged as collateral for the mortgage—18.4 percent), multifamily dwellings (9.6 percent), and farms (1.6 percent).
 
-Many mortgages, particularly residential mortgages, are subsequently securitized by the mortgage holder—they are packaged and sold as assets backing a publicly traded or privately held debt instrument. Securitization allows financial institutions' (FIs') asset portfolios to become more liquid, reduces interest rate risk and credit risk, provides FIs
+Many mortgages, particularly residential mortgages, are subsequently securitized by the mortgage holder—they are packaged and sold as assets backing a publicly traded or privately held debt instrument. Securitization allows financial institutions' (FIs') asset portfolios to become more liquid, reduces interest rate risk and credit risk, provides FIs with a source of fee income, and helps reduce the effects of regulatory constraints such as capital requirements, reserve requirements, and deposit insurance premiums on FI profits (see Chapter 13).
 
-# OUTLINE
+```d2
+mortgage_originator: Mortgage Originator {
+  shape: rectangle
+}
 
-Mortgages and
+mortgage_pool: Mortgage Pool {
+  shape: rectangle
+}
 
-Mortgage-Backed Securities:
+mbs: Mortgage-Backed Security {
+  shape: rectangle
+}
 
-Chapter Overview
+secondary_market: Secondary Market Investor {
+  shape: rectangle
+}
 
-Primary Mortgage Market
+mortgage_originator -> mortgage_pool: Originate and pool mortgages
+mortgage_pool -> mbs: Securitize into MBS
+mbs -> secondary_market: Sell to investors
+```
 
-Mortgage Characteristics
-
-Mortgage Amortization
-
-Other Types of Mortgages
-
-Secondary Mortgage Markets
-
-History and Background of Secondary Mortgage
-
-Markets
-
-Mortgage Sales
-
-Mortgage-Backed
-
-Securities
-
-Participants in the Mortgage Markets
-
-International Trends in
-
-Securitization
-
-Appendix 7A: Amortization
-
-Schedules for 30-Year
-
-Mortgage in Example 7-2 and No-Points versus Points
-
-Mortgages in Example 7-4
-
-(available through Connect or your course instructor)
 
 Figure 7-1 Mortgage Loans Outstanding
 
@@ -74,15 +76,13 @@ Source: Federal Reserve Board website, "Flow of Fund Accounts," December 2018, w
 
 LG 7-1
 
-# mortgages
+**Mortgages**
 
 Loans to individuals or businesses to purchase a home, land, or other real property.
 
-# securitized
+**Securitized**
 
 Securities packaged and sold as assets backing a publicly traded or privately held debt instrument.
-
-with a source of fee income, and helps reduce the effects of regulatory constraints such as capital requirements, reserve requirements, and deposit insurance premiums on FI profits (see Chapter 13). Currently, approximately 65 percent of home mortgages are securitized.
 
 We examine mortgage markets separately from bond and stock markets for several reasons. First, mortgages are backed by a specific piece of real property. If the borrower defaults on a mortgage, the financial institution can take ownership of the property. Only mortgage bonds are backed by a specific piece of property that allows the lender to take ownership in the event of a default. All other corporate bonds and stock give the holder a general claim to a borrower's assets. Second, there is no set size or denomination for primary mortgages. Rather, the size of each mortgage depends on the borrower's needs and ability to repay. Bonds generally have a denomination of  \$1,000 or a multiple of\$ 1,000 per bond, and shares of stock are generally issued in (par value) denominations of 1 per share. Third, primary mortgages generally involve a single investor (e.g., a bank or mortgage company). Bond and stock issues, on the other hand, are generally held by many (sometimes thousands of) investors. Finally, the typical issuers in the mortgage market (individuals) are quite different from issuers (corporations and governments) in other financial markets. Because primary mortgage borrowers are often individuals, information on these borrowers is less extensive and unaudited. Bonds and stocks issued by publicly traded corporations and governments are subject to extensive rules and regulations regarding information availability and reliability.
 
@@ -98,27 +98,25 @@ In this chapter, we look at characteristics and operations of the mortgage and m
 
 LG 7-2
 
-Four basic categories of mortgages are issued by financial institutions: home, multifamily dwelling, commercial, and farm. Home mortgages ( \$10.87 trillion outstanding in 2018) are used to purchase oneto four-family dwellings. Multifamily dwelling mortgages (\$ 1.47 trillion outstanding) are used to finance the purchase of apartment complexes, townhouses, and condominiums. Commercial mortgages ( \$2.84 trillion) are used to finance the purchase of real estate for business purposes (e.g., office buildings, shopping malls). Farm mortgages (\$ 0.25 trillion outstanding) are used to finance the purchase of farms. As seen in Figure 7-1, while all four areas have experienced tremendous growth, the historically low mortgage rates in the 1990s and 2000s have particularly spurred growth in the single-family home area (214 percent growth from 1995 through 2018), commercial business mortgages (284 percent growth), and multifamily residential mortgages (426 percent growth).
+Four basic categories of mortgages are issued by financial institutions: home, multifamily dwelling, commercial, and farm. Home mortgages ( \$10.87 trillion outstanding in 2018) are used to purchase one- to four-family dwellings. Multifamily dwelling mortgages (\$ 1.47 trillion outstanding) are used to finance the purchase of apartment complexes, townhouses, and condominiums. Commercial mortgages ( \$2.84 trillion) are used to finance the purchase of real estate for business purposes (e.g., office buildings, shopping malls). Farm mortgages (\$ 0.25 trillion outstanding) are used to finance the purchase of farms. As seen in Figure 7-1, while all four areas have experienced tremendous growth, the historically low mortgage rates in the 1990s and 2000s have particularly spurred growth in the single-family home area (214 percent growth from 1995 through 2018), commercial business mortgages (284 percent growth), and multifamily residential mortgages (426 percent growth).
 
-# LG 7-3
-
-# Mortgage Characteristics
+## Mortgage Characteristics
 
 As mentioned previously, mortgages are unique as capital market instruments because the characteristics (such as size, fees, and interest rate) of each mortgage held by a financial institution can differ. A mortgage contract between a financial institution and a borrower must specify all of the characteristics of the mortgage agreement. When a financial institution receives a mortgage application, it must determine whether the applicant qualifies for a loan. (We describe this process in Chapter 21.) Because most financial institutions sell or securitize their mortgage loans in the secondary mortgage market (discussed below), the guidelines set by the secondary market buyer for acceptability, as well as the guidelines set by the financial institution, are used to determine whether or not a mortgage borrower is qualified. Further, the characteristics of loans to be securitized will generally be more standardized than those that are not to be securitized. When mortgages are not securitized, the financial institution can be more flexible with the acceptance/rejection guidelines it uses and mortgage characteristics will be more varied.
 
-# lien
+**Lien**
 
 A public record attached to the title of the property that gives the financial institution the right to sell the property if the mortgage borrower defaults.
 
-# down payment
+**Down Payment**
 
 A portion of the purchase price of the property a financial institution requires the mortgage borrower to pay up front.
 
-# private mortgage insurance (PMI)
+**Private Mortgage Insurance (PMI)**
 
 Insurance contract purchased by a mortgage borrower guaranteeing to pay the financial institution the difference between the value of the property and the balance remaining on the mortgage.
 
-# federally insured mortgages
+**Federally Insured Mortgages**
 
 Mortgages originated by financial institutions, with repayment guaranteed by either the Federal Housing Administration (FHA) or the Veterans Administration (VA).
 
@@ -130,17 +128,17 @@ The size of the down payment depends on the financial situation of the borrower.
 
 Insured versus Conventional Mortgages. Mortgages are classified as either federally insured or conventional. Federally insured mortgages are originated by financial institutions, but repayment is guaranteed (for a fee of 0.5 percent of the loan amount) by either the Federal Housing Administration (FHA) or the Veterans Administration (VA). In order to qualify, FHA and VA mortgage loan applicants must meet specific requirements set by these government agencies (e.g., VA-insured loans are available only to individuals who served and were honorably discharged from military service in the United States). Further, the maximum size of the
 
-# conventional mortgages
+**Conventional Mortgages**
 
 Mortgages issued by financial institutions that are not federally insured.
 
-# amortized
+**Amortized**
 
 A mortgage is amortized when the fixed principal and interest payments fully pay off the mortgage by its maturity date.
 
-# balloon payment mortgage
+**Balloon Payment Mortgage**
 
-Mortgage that requires a fixed monthly interest payment for a threeto five-year period. Full payment of the mortgage principal (the balloon payment) is then required at the end of the period.
+Mortgage that requires a fixed monthly interest payment for a three- to five-year period. Full payment of the mortgage principal (the balloon payment) is then required at the end of the period.
 
 mortgage is limited (the limit varies by state and is based on the cost of housing). For example, in 2019, FHA loan limits on single-family homes ranged from  $314,827 to$ 726,525, depending on location and cost of living. FHA or VA mortgages require either a very low or zero down payment. (FHA mortgages require as little as a 3 percent down payment.)
 
@@ -150,21 +148,15 @@ Mortgage Maturities. A mortgage generally has an original maturity of either 15 
 
 Most mortgages allow the borrower to prepay all or part of the mortgage principal early without penalty. In general, the monthly payment is set at a fixed level to repay interest and principal on the mortgage by the maturity date (i.e., the mortgage is fully amortized). We illustrate this payment pattern for a 15-year fixed-rate mortgage in Figure 7-2. However, other mortgages have variable interest rates and thus payments that vary (see below).
 
-In addition to 15and 30-year fixed-rate and variable-rate mortgages, financial institutions sometimes offer balloon payment mortgages. A balloon payment mortgage requires a fixed monthly interest payment (and, sometimes, principal payments) for a threeto five-year period. Full payment of the mortgage principal (the balloon payment) is then required at the end of the period, as illustrated for a five-year balloon payment mortgage in Figure 7-2. Because they normally consist of interest only, the monthly payments prior to maturity are lower than those on an amortized loan (i.e., a loan that requires periodic repayments of principal and interest). Generally, because few borrowers save enough funds to pay off the mortgage in three to five years, the mortgage principal is refinanced at the current mortgage interest rate at the end of the balloon loan period (refinancing at maturity is not, however, https://fred.stlouisfed.org/ www.bloomberg.com
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/23c0d73f1f6b2467388921a5f5327d4126c6ad26399930bc5acb9c427a8bf376.jpg)
-
-Figure 7-2 Fixed-Rate versus Balloon Payment Mortgage
-
-guaranteed). Thus, with a balloon mortgage the financial institution essentially provides a long-term mortgage in which it can periodically revise the mortgage's characteristics.
+In addition to 15- and 30-year fixed-rate and variable-rate mortgages, financial institutions sometimes offer balloon payment mortgages. A balloon payment mortgage requires a fixed monthly interest payment (and, sometimes, principal payments) for a three- to five-year period. Full payment of the mortgage principal (the balloon payment) is then required at the end of the period, as illustrated for a five-year balloon payment mortgage in Figure 7-2. Because they normally consist of interest only, the monthly payments prior to maturity are lower than those on an amortized loan (i.e., a loan that requires periodic repayments of principal and interest). Generally, because few borrowers save enough funds to pay off the mortgage in three to five years, the mortgage principal is refinanced at the current mortgage interest rate at the end of the balloon loan period (refinancing at maturity is not, however, guaranteed). Thus, with a balloon mortgage the financial institution essentially provides a long-term mortgage in which it can periodically revise the mortgage's characteristics.
 
 Interest Rates. Possibly the most important characteristic identified in a mortgage contract is the interest rate on the mortgage. Mortgage borrowers often decide how much to borrow and from whom solely by looking at the quoted mortgage rates of several financial institutions. In turn, financial institutions base their quoted mortgage rates on several factors. First, they use the market rate at which they obtain funds (e.g., the fed funds rate, Treasury bond rate, or the rate on certificates of deposit). The market rate on available funds is the base rate used to determine mortgage rates. Figure 7-3 illustrates the trend in 30-year fixed-rate mortgage rates and 10-year Treasury bond rates from 1980 through 2019. Note the declining trend in mortgage (and T-bond) rates over the period. During the last week of December 2019, the average rate on a 30-year fixed-rate mortgage was 3.74 percent, up only slightly from 3.31 percent in November 2012, an all-time record low. The average rate on a 15-year fixed-rate mortgage was 3.19 percent, compared to an all-time low of 2.56 percent in May 2013. Once the base mortgage rate is determined, the rate on a specific mortgage is then adjusted for other factors (e.g., whether the mortgage specifies a fixed or variable (adjustable) rate of interest and whether the loan specifies discount points and other fees), as discussed below.
 
-# fixed-rate mortgage
+**Fixed-Rate Mortgage**
 
 A mortgage that locks in the borrower's interest rate and thus the required monthly payment over the life of the mortgage, regardless of how market rates change.
 
-# adjustable-rate mortgage (ARM)
+**Adjustable-Rate Mortgage (ARM)**
 
 A mortgage in which the interest rate is tied to some market interest rate. Thus, the required monthly payments can change over the life of the mortgage.
 
@@ -186,7 +178,7 @@ Sources: Federal Housing Finance Agency, Federal Reserve Board, and CoreLogic we
 
 Note from Figure 7-4 the behavior of the share of ARMs to fixed-rate mortgages over the period 2001 through 2003 and 2008 through 2018—when interest rates fell. Notice that borrowers' preferences for fixed-rate mortgages prevailed over this period, as a consistently low percentage of total mortgages closed were ARMs (between 2001 and 2003 the percentage of ARMs to total mortgages issued averaged only 14.8 percent). During the height of the financial crisis (late 2008–early 2009), as interest rates were dropping to historic lows, virtually no ARMs were issued.
 
-# discount points
+**Discount Points**
 
 Interest payments made when the loan is issued (at closing). One discount point paid up front is equal to 1 percent of the principal value of the mortgage.
 
@@ -218,11 +210,9 @@ Mortgage Refinancing. Mortgage refinancing occurs when a mortgage borrower takes
 
 By refinancing the mortgage at a lower interest rate, the borrower pays less each month—even if the new mortgage is for the same amount as the current mortgage. Traditionally, the decision to refinance involves balancing the savings of a lower monthly payment against the costs (fees) of refinancing. That is, refinancing adds transaction and reconstructing costs. Origination costs or points for new mortgages, along with the cost of appraisals and credit checks, frequently arise as well. An often-cited rule of thumb is that the interest rate for a new mortgage should be 2 percentage points below the rate on the current mortgage for refinancing to make financial sense.
 
-# Mortgage Amortization
+## Mortgage Amortization
 
-LG 7-4
-
-# amortization schedule
+**Amortization Schedule**
 
 Schedule showing how the monthly mortgage payments are split between principal and interest.
 
@@ -238,7 +228,7 @@ Source: Mortgage Bankers Association website, January 2020, www.mba.org
 
 You plan to purchase a house for  \$150,000 using a 30-year mortgage obtained from your local bank. The mortgage rate offered to you is 8 percent with zero points. In order to forgo the purchase of private mortgage insurance, you will make a down payment of 20 percent of the purchase price ($ 30,000 = 0.20 × $150,000) at closing and borrow \$120,000 through the mortgage.
 
-The monthly payments on this mortgage are calculated using the time value of money formulas presented in Chapter 2. Specifically, the amount borrowed through the mortgage represents a present value of the principal, and the monthly payments represent a monthly annuity payment. The equation used to calculate your fixed monthly mortgage payments to pay off the 120,000 mortgage at an 8 percent annual (8\% / 12 = 0.6667\%) monthly) interest rate over 30 years (or 30 \times 12 = 360 payments) is as follows:
+The monthly payments on this mortgage are calculated using the time value of money formulas presented in Chapter 2. Specifically, the amount borrowed through the mortgage represents a present value of the principal, and the monthly payments represent a monthly annuity payment. The equation used to calculate your fixed monthly mortgage payments to pay off the $120,000 mortgage at an 8 percent annual ($8\% / 12 = 0.6667\%$ monthly) interest rate over 30 years (or $30 \times 12 = 360$ payments) is as follows:
 
 $$
 \begin{array}{l} P V = P M T \sum_{j = 1}^{t} \left(\frac{1}{1 + r}\right)^{j} \\ = P M T \left[ \left(1 - \left[ 1 / (1 + r)^{t} \right]\right) / r \right] \\ \end{array}
@@ -264,7 +254,7 @@ $$ or:
 
 $$
 
-P M T = \$ 120,000 / \left[ \left(1 - \left[ 1 / (1 + 0. 0 0 6 6 6 7)^{3 6 0} \right]\right) / 0. 0 0 6 6 6 7 \right]
+PMT = \$120,000 / \left[ \left(1 - \left[ 1 / (1 + 0.006667)^{360} \right]\right) / 0.006667 \right]
 
 $$
 
@@ -272,7 +262,7 @@ Therefore:
 
 $$
 
-P M T = \$ 1 2 0, 0 0 0 / 1 3 6. 2 8 3 5 = \$ 8 8 0. 5 2
+PMT = \$120,000 / 136.2835 = \$880.52
 
 $$
 
@@ -280,23 +270,17 @@ Thus, your monthly payment is 880.52.
 
 We now construct the amortization schedule for this mortgage.
 
-# EXAMPLE 7-2 Construction of an Amortization Schedule
+## Example 7-2: Construction of an Amortization Schedule
 
-Using the monthly payment calculated on the mortgage in Example 7-1, we construct a partial amortization schedule in Table 7-1. Column 1 is the month in the 360-month loan period. Column 2 is the balance of the mortgage outstanding at the beginning of each month. Column 3 is the monthly payment on the mortgage, calculated in Example 7-1. Column 4, Interest, is the portion of the monthly payment that represents the pure interest payment based on the loan balance outstanding at the beginning of the month (beginning loan balance \times 8\% /12). Column 5, Principal, is the portion of the monthly payment that represents the repayment of the mortgage's principal (monthly payment - monthly interest, or in this example for month 1, \ 880.52 - \ 800 = \$ 80.52) . Column 6 is the balance of the mortgage principal outstanding at the end of the month (beginning loan balance
+Using the monthly payment calculated on the mortgage in Example 7-1, we construct a partial amortization schedule in Table 7-1. Column 1 is the month in the 360-month loan period. Column 2 is the balance of the mortgage outstanding at the beginning of each month. Column 3 is the monthly payment on the mortgage, calculated in Example 7-1. Column 4, Interest, is the portion of the monthly payment that represents the pure interest payment based on the loan balance outstanding at the beginning of the month (beginning loan balance × 8%/12). Column 5, Principal, is the portion of the monthly payment that represents the repayment of the mortgage's principal (monthly payment - monthly interest, or in this example for month 1, $880.52 - $800 = $80.52). Column 6 is the balance of the mortgage principal outstanding at the end of the month (beginning loan balance - principal [column 5]). This value becomes the beginning balance in the next month. The full amortization schedule is shown in Appendix 7A to the chapter (available through Connect or your course instructor).
 
-# CALCULATOR HINTS
+**Calculator Hints:**
 
-$N = 30\times 12 = 360$
-
-$PV = -120,000$
-
-$I = 8 / 12 = 0.666667$
-
-${FV} = 0$
-
-CPT PMT = 880.52
-
-[columns 2] - principal [column 5]). This value becomes the beginning balance in the next month. The full amortization schedule is shown in Appendix 7A to the chapter (available through Connect or your course instructor).
+- N = 30 × 12 = 360
+- PV = -120,000
+- I = 8/12 = 0.666667
+- FV = 0
+- CPT PMT = 880.52
 
 Notice that the total payments made by the mortgage borrower over the 30-year life of the mortgage are  \$316,987.20. Of this amount,\$ 120,000 is repayment of the original principal. Thus, the borrower pays a total of 196,978.20 in interest over the life of the mortgage. Figure 7-7 illustrates the proportion of each payment that is interest versus principal. Notice that during the early years the majority of each payment is interest and very little goes toward the repayment of principal. As the mortgage approaches maturity the majority of each payment is principal and very little goes to paying interest.
 
@@ -311,7 +295,7 @@ Figure 7-7 Amortization of a 30-Year Mortgage
 
 $$
 
-\left(\left\{1 - \left[ 1 / (1 + r)^{(3 0 (1 2) - x)} \right] \right\} / r\right) / \left(\left\{1 - \left[ (1 + r)^{3 0 (1 2)} \right] \right\} / r\right) \times \text{Or ig in al pr in ci pa l}
+\left( \left\{1 - \left[ 1 / (1 + r)^{(30 \times 12 - x)} \right] \right\} / r \right) / \left( \left\{1 - \left[ (1 + r)^{30 \times 12} \right] \right\} / r \right) \times \text{Original principal}
 
 $$
 
@@ -319,31 +303,27 @@ For example, with 120 payments remaining on the loan, the ending loan balance is
 
 $$
 
-\left(\left\{1 - \left[ 1 / (1 + 0. 0 0 6 6 6 7)^{3 0 (1 2) - 1 2 0} \right] \right\} / 0. 0 0 6 6 6 7\right) / \left\{\left. 1 - \left[ 1 / (1 + 0. 0 0 6 6 6 7)^{(3 0) 1 2} \right] \right\} / 0. 0 0 6 6 6 7\right) \times \\ \\ \$ 120,000 = \$ 105,269.64
+\left( \left\{1 - \left[ 1 / (1 + 0.006667)^{30 \times 12 - 120} \right] \right\} / 0.006667 \right) / \left( \left\{1 - \left[ 1 / (1 + 0.006667)^{30 \times 12} \right] \right\} / 0.006667 \right) \times \$120,000 = \$105,269.64
 
 $$
 
 As discussed, an advantage of a 15-year mortgage to a mortgage borrower is that the total interest paid on a 15-year mortgage is smaller than that paid on a 30-year mortgage. This is due to the shorter time frame in which payments are made on the loan and the lower interest rates that are offered by mortgage issuers to entice borrowers to choose the shorter maturity mortgages.
 
-# CALCULATOR HINTS
+**Calculator Hints:**
 
-$N = 15\times 12 = 180$
+- N = 15 × 12 = 180
+- PV = -120,000
+- I = 7.25/12 = 0.604167
+- FV = 0
+- CPT PMT = 1,095.44
 
-$PV = -120,000$
-
-$I = 7.25 / 12 = 0.604167$
-
-${FV} = 0$
-
-CPT PMT = 1,095.44
-
-# EXAMPLE 7-3 Comparison of Interest Paid on a 15-Year versus a 30-Year Mortgage
+## Example 7-3: Comparison of Interest Paid on a 15-Year versus a 30-Year Mortgage
 
 Using the information in Example 7-1 but changing the loan maturity to 15 years (180 months) and the mortgage rate to 7.25 percent, the monthly payment on the 120,000 mortgage loan is:
 
 $$
 
-\$ 120,000 = P M T [ (1 - [ 1 / (1 + 0. 0 0 6 0 4 1 6 7)^{1 8 0} ]) / 0. 0 0 6 0 4 1 6 7 ]
+\$120,000 = PMT \left[ \frac{1 - \left[ 1 / (1 + 0.00604167)^{180} \right]}{0.00604167} \right]
 
 $$ or:
 
@@ -358,7 +338,7 @@ Therefore:
 
 $$
 
-P M T = \$ 1 2 0, 0 0 0 / 1 0 9. 5 4 5 4 7 7 = \$ 1, 0 9 5. 4 4
+PMT = \$120,000 / 109.545477 = \$1,095.44
 
 $$
 
@@ -372,25 +352,25 @@ TABLE 7-2 Amortization Schedule for a 15-Year Mortgage
 
 Another factor that affects the amortization of a loan is whether the borrower pays discount points up front in exchange for a reduced interest rate and, consequently, reduced monthly payments.
 
-# EXAMPLE 7-4 Analyzing the Choice between Points and Monthly Payments of Interest
+## Example 7-4: Analyzing the Choice between Points and Monthly Payments of Interest
 
 You plan to purchase a house for \$150,000 using a 30-year mortgage obtained from your local bank. You will make a down payment of 20 percent of the purchase price, in this case, equal to \$30,000. Thus, the mortgage loan amount will be 120,000. Your bank offers you the following two options for payment:
 
-Option 1: Mortgage rate of 8 percent (or  $8\% / 12 = 0.6667\%$  per month) and zero points.
-Option 2: Mortgage rate of 7.75 percent (or 7.75\% /12 = 0.6458\% per month) and 2 points (\ 2,400 = \$ 120,000\times 0.02)
+Option 1: Mortgage rate of 8 percent (or $8\% / 12 = 0.6667\%$ per month) and zero points.
+Option 2: Mortgage rate of 7.75 percent (or $7.75\% / 12 = 0.6458\%$ per month) and 2 points ($2,400 = \$120,000 \times 0.02).
 
-If option 2 is chosen, you receive  \$117,600 at closing ($ 120,000 - $2,400), although the mortgage principal is \$120,000.
+If option 2 is chosen, you receive $117,600 at closing ($120,000 - $2,400), although the mortgage principal is $120,000.
 
 To determine the best option, we first calculate the monthly payments for both options as follows:
 
-Option 1: $120,000 = PMT[(1 + [1/(1 + 0.006667)360])/0.006667] → PMT = $880.52
-Option 2: $120,00 = PMT[(1 + [1/(1 + 0.006458)360])/0.006458] → PMT = $859.69
+Option 1: $120,000 = PMT[(1 + [1/(1 + 0.006667)^{360}])/0.006667] → PMT = $880.52
+Option 2: $120,000 = PMT[(1 + [1/(1 + 0.006458)^{360}])/0.006458] → PMT = $859.69
 
 In exchange for  \$2,400 up front, option 2 reduces your monthly mortgage payments by\$ 20.83. The amortization schedules for the two loans are given in Appendix 7A to the chapter (available through Connect or your course instructor). The present value of these savings (evaluated at 7.75 percent) over the 30 years is:
 
 $$
 
-P V = \$ 20.83 [ (1 - [ 1 / (1 + 0. 0 0 6 4 5 8)^{3 6 0} ]) / 0. 0 0 6 4 5 8 ] = \$ 2, 9 0 6. 5 4
+PV = \$20.83 \left[ \frac{1 - \left[ 1 / (1 + 0.006458)^{360} \right]}{0.006458} \right] = \$2,906.54
 
 $$
 
@@ -418,25 +398,19 @@ Solving for  $X$  gives 150 months, or 12.5 years. Thus, if you plan on paying o
 
 Notice that the choice of points (and lower monthly payments) versus no points (and higher monthly payments) depends on how long the mortgage borrower takes to pay off the mortgage. Specifically, the longer the borrower takes to pay off the mortgage, the more likely he or she is to choose points and a lower mortgage rate. Thus, by offering points, the mortgage lender decreases the probability that the mortgage borrower will prepay the mortgage—paying the mortgage off early reduces the present value of the monthly savings to the mortgage borrower.
 
-# Other Types of Mortgages
-
-LG 7-5
+## Other Types of Mortgages
 
 New methods of creative financing have been developed by financial institutions to attract mortgage borrowers. These include jumbo mortgages, subprime mortgages, Alt-As, option ARMs, second mortgages, and reverse-annuity mortgages.
 
-# jumbo mortgages
+**Jumbo Mortgages**
 
 Mortgages that exceed the conventional mortgage conforming limits.
 
-Jumbo Mortgages. Jumbo mortgages are those mortgages that exceed the conventional mortgage conforming limits. Limits are set by the two government-sponsored enterprises, Fannie Mae and Freddie Mac (discussed below), and are based on the maximum value of any individual mortgage they will purchase from a mortgage lender. In 2019, the general limit was 484,350 for most of the United States (the limit is set higher in high cost areas of the country). Because the large size and the inability to sell jumbo mortgages to Fannie Mae or Freddie Mac creates more risk for mortgage lenders, interest rates on jumbo mortgages are generally higher than on conforming mortgages. Typically, the spread in interest rates on jumbo versus conventional mortgages is about 0.25 to 0.50 percent. However, during periods of high economywide risk (e.g., during the late 2000s), the spread can be greater than 1.50 percent. Further, to reduce the risk of these loans, lenders will often require a higher down payment on jumbo mortgages than conventional mortgages.
-
-# subprime mortgages
+**Subprime Mortgages**
 
 Mortgages to borrowers who have weakened credit histories.
 
-Subprime Mortgages. Subprime mortgages are mortgages to borrowers who do not qualify for prime mortgages because of weakened credit histories, including payment delinquencies and possibly more severe problems such as charge-offs, judgments, and bankruptcies. Subprime borrowers may also display reduced repayment capacity as measured by credit scores, debt-to-income ratios, or other criteria that may encompass borrowers with incomplete credit histories. Subprime mortgages have a higher rate of default than prime mortgage loans and are thus riskier loans for the mortgage lender. As a result, these mortgages have higher interest rates than prime mortgages. Although the majority of home loans are not subprime mortgages, their numbers grew rapidly in the mid-2000s. Subprime mortgages accounted for 9 percent of all mortgage originations from 1996 through 2004 and rose to about 21 percent from 2004 through 2006. As mentioned earlier, the huge growth in subprime mortgages was a major instigator of the recent financial crisis.
-
-# Alt-A mortgages
+**Alt-A Mortgages**
 
 Mortgages that are considered riskier than a prime mortgage and less risky than a subprime mortgage.
 
@@ -444,7 +418,7 @@ Alt-A Mortgages. Alt-A mortgages short for Alternative A-paper, are mortgages th
 
 During the recent financial crisis, Alt-A mortgages came under particular scrutiny. One problem associated with Alt-A loans is the lack of necessary proof or documentation needed to be approved for a loan. Thus, some lenders suggested that borrowers skew their incomes or assets in order to qualify for a larger loan. As housing prices fell and the U.S. economy entered a recession, borrowers proved unable to afford their payments. The mortgage lenders, however, still collected a hefty profit, which led to intense scrutiny of their lending practices. As of 2008, there was strong evidence that the securities backing Alt-A mortgages suffered from the same weaknesses as the securities backing subprime mortgages.
 
-# option ARMs
+**Option ARMs**
 
 Adjustable rate mortgages that offer the borrower several monthly payment options.
 
@@ -460,11 +434,11 @@ Interest-Only Payment. An interest-only option ARM requires the borrower to pay 
 
 15-Year Fully Amortizing Payment. This option ARM is similar to the 30-year fully amortizing payment option ARM, with a full principal and interest payment, but with a larger
 
-# second mortgages
+**Second Mortgages**
 
 Loans secured by a piece of real estate already used to secure a first mortgage.
 
-# home equity loans
+**Home Equity Loans**
 
 Loans that let customers borrow on a line of credit secured with a second mortgage on their homes.
 
@@ -509,17 +483,15 @@ Further, by the late 1960s, fewer veterans were obtaining guaranteed VA loans. A
 
 As secondary mortgage markets have evolved, a wide variety of mortgage-backed securities have been developed to allow primary mortgage lenders to securitize their mortgages and to allow a thriving secondary market for mortgages to develop. The organizations involved in the secondary mortgage markets (e.g., GNMA, FNMA) differ in the types of mortgages included in the mortgage pools, security guarantees (or insurance), and payment patterns on the securities.
 
-# LG 7-6
-
-# correspondent banking
+**Correspondent Banking**
 
 A relationship between a small bank and a large bank in which the large bank provides a number of deposit, lending, and other services.
 
-# mortgage sale
+**Mortgage Sale**
 
 Sale of a mortgage originated by a bank with or without recourse to an outside buyer.
 
-# recourse
+**Recourse**
 
 The ability of a loan buyer to sell the loan back to the originator should it go bad.
 
@@ -539,7 +511,7 @@ In this section, we introduce the three major types of mortgage-backed securitie
 
 Mortgage-backed securities allow mortgage issuers to separate the credit risk exposure from the lending process itself. That is, FIs can assess the creditworthiness of loan applicants, originate loans, fund loans, and even monitor and service loans without retaining exposure to loss from credit events, such as default or missed payments. This moves banks away from the traditional "originate and hold" banking model, in which the originating bank retains the
 
-# Goldman Reaches 5 Billion Settlement over Mortgage-Backed Securities
+### Goldman Reaches $5 Billion Settlement over Mortgage-Backed Securities
 
 In January 2016, Goldman Sachs agreed to pay more than  \$5 billion, the largest regulatory penalty in its history. In settling with the Justice Department and a collection of other state and federal entities, Goldman resolved claims stemming from the Wall Street firm's sale of mortgage bonds heading into the financial crisis. It joined a list of other big banks in moving past one of the biggest, and most costly, legal problems of the crisis era. The government had earlier won multibillion-dollar settlements from J.P. Morgan Chase, Bank of America, and Citigroup. Crisis-related settlements by banks, mortgage firms, brokerages and others total at least\$ 181.1 billion.
 
@@ -554,9 +526,7 @@ loan and the risk exposure, until the loan is paid off. Rather, mortgage securit
 Although bank regulators attempt to examine the off-balance-sheet activities of banks so as to ascertain their safety and soundness, these activities receive far less scrutiny than on-balance-sheet activities (i.e., traditional lending and deposit taking). To the extent that counterparty credit risk was not fully disclosed to, or monitored by, regulators, the increased use of these innovations transferred risk in ways that were not necessarily scrutinized or understood. It was in this context of increased risk and inadequate regulation that the credit crisis developed. The After the Crisis box illustrates how, even into 2016, federal securities regulators pursued legal charges against financial institutions over alleged mortgage-backed securities violations. See Chapter 25 for more discussion of this topic.
 
 
-# LG 7-7
-
-# pass-through mortgage securities
+**Pass-Through Mortgage Securities**
 
 Mortgage-backed securities that "pass through" promised payments of principal and interest on pools of mortgages created by financial institutions to secondary market participants holding interests in the pools.
 
@@ -573,7 +543,7 @@ TABLE 7-3 Government-Related Mortgage-Backed Pass-Through Securities Outstanding
 *Third quarter
 Source: Federal Reserve Board website, www.federalreserve.gov
 
-# timing insurance
+**Timing Insurance**
 
 A service provided by a sponsor of pass-through securities (such as GNMA) guaranteeing the bond holder interest and principal payments at the calendar date promised.
 
@@ -841,24 +811,7 @@ b. Construct the amortization schedule for the mortgage. How much total interest
 
 b. Construct the amortization schedule for the mortgage. How much total interest is paid on this mortgage?
 
-# SEARCH THE SITE
-
-Go to the Federal Reserve Board's website at www.federalreserve.gov and find the most recent data on Mortgage Loans Outstanding.
-
-Click on "Financial Accounts of the United States." Click on the most recent date. Click on "Level Tables." This downloads a file onto your computer that contains the relevant data in Table 217.
-
-# Questions
-
-1. What is the current dollar value of mortgage loans outstanding? How has this value changed since 2019 as reported in Figure 7-1?
-2. Calculate the percentage of mortgage loans outstanding comprised of 1- to 4-family, multifamily residential, commercial, and farm loans.
-
 # APPENDIX 7A: Amortization Schedules for 30-Year Mortgage in Example 7-2 and No-Points versus Points Mortgages in Example 7-4
 
 This appendix is available through Connect or your course instructor.
-
-# chapter
-
-# 8
-
-# OUTLINE
 

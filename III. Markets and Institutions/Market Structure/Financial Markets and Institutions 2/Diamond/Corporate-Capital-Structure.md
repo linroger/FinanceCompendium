@@ -35,6 +35,34 @@ Corporate finance theory studies the way that firms choose to raise funds. Tradi
 
 This article combines traditional tax-based capital structure theory with an analysis of the control and incentive effects of debt. It presents a model of both the firm's choice of the amount of debt and equity and its choice between bank loans and publicly traded debt. Following the traditional approach, capital structure choice is framed as a trade-off between tax savings of debt and costs of bankruptcy. Accounting for the control roles of bank loans and public debt emphasized in more recent work then allows for the endogenous determination of bankruptcy costs. The model shows how the costs of bankruptcy can sometimes be negative (so bankruptcy becomes a net benefit), when bankruptcy allows claim holders to prevent a borrower from undertaking an unprofitable investment.
 
+```d2
+direction: right
+
+Tax Benefits: Tax Benefits {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+Bankruptcy Costs: Bankruptcy Costs {
+  shape: hexagon
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+}
+
+Capital Structure Choice: Capital Structure Choice {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+}
+
+Tax Benefits -> Capital Structure Choice: Increases optimal debt
+Bankruptcy Costs -> Capital Structure Choice: Limits optimal debt
+
+note: Optimal capital structure balances tax savings against bankruptcy costs and control benefits
+```
+
+
 Endogenous bankruptcy costs depend on the type of debt used and the characteristics of the borrower. One relevant borrower characteristic is the correlation between the return from past investments and the profitability of new investment. If this correlation is high, then the borrower will be unable to refinance debt only when its old and new investments are both unprofitable, so inability to refinance indicates that new investment is unprofitable and bankruptcy desirable. If the correlation is low, then the inability to refinance is not a clear indicator of poor prospects for new investment, and bankruptcy due to the inability to refinance will sometimes be quite costly.
 
 Modigliani and Miller (1958) established the framework for studying capital structure by finding apparently reasonable conditions rendering a firm's capital structure irrelevant to its value. The earliest generalization was Modigliani and Miller (1963), which viewed capital structure as an attempt to reduce taxes. They studied the implications of a tax advantage to debt over equity that still exists in the United States. Corporate taxes are avoided for interest payments but not for dividends. If there are no other advantages to equity over debt, the conclusion is that firms should issue no equity and should issue debt with face value equal to the highest possible future value of the firm. Such all-debt firms would almost always default on their debt. Modigliani and Miller assumed that there was no cost associated with frequent default.
@@ -47,11 +75,11 @@ This article integrates the bondholder control and bank control views into the t
 
 The balance of this article is organized as follows. Section 1 describes both the tax savings from issuing debt rather than equity and the cost differences between bank debt and debt issued directly to the public. Section 2 outlines a model of capital structure choice. It begins by using the model to illustrate the results of traditional capital structure theory based on a trade-off of tax savings versus fixed bankruptcy costs. It describes the component costs of default on debt. The costs of defaulting on public debt and on private debt are analyzed in the two subsections under Section 2. Section 3 shows how the correlation between the cash from existing investments and the profitability of new investment influences the amount of debt and the type of debt a firm will choose to issue. Section 4 discusses the conclusions and implications that one can draw from the model.
 
-# 1. THE TRADITIONAL THEORY
+## 1. THE TRADITIONAL THEORY
 
 The older capital structure theories frame capital structure as a choice that balances the tax savings from debt against the exogenous bankruptcy costs incurred when there is default on debt. The model in this article is framed within this trade-off, in order to learn how the insights from the traditional approach interact with the newer, control-oriented approach. Before showing how to frame the newer approach in the context of the traditional approach, a simple capital structure model without control elements is presented.
 
-# Tax Savings Due to Debt
+### Tax Savings Due to Debt
 
 The tax advantage of debt over equity is due to the deductibility of interest payments from corporate income tax. Dividends and retained earnings are not deductible. If the firm's investors are not subject to different personal taxes for debt and equity, the corporate tax savings is the only tax effect of capital structure.<sup>1</sup> I assume that corporate taxes are a fraction $t$ of corporate profits and that there are no personal taxes. A one-dollar payment to equity costs the firm one dollar, and is worth one dollar to the investor. A one-dollar payment of interest to a public debt holder costs the firm $1 - t$ dollars, because it reduces taxable income by one dollar. The interest payment is worth one dollar to the investor. Thus, there is an increase in the firm's after-tax profit of $t$ when one dollar of payments to equity is replaced by one dollar of payments to debt. This increased profit makes debt a lower-cost form of capital than equity.
 
@@ -59,7 +87,7 @@ The model considers two types of debt: bank loans and public debt. Payments to t
 
 To keep the notation simple, I will overstate the tax advantage of debt by assuming that principal as well as interest payments are deductible from corporate tax. No qualitative results depend on this simplification.
 
-# The Model
+### The Model
 
 On date 0, the firm chooses a capital structure. On date 1, several events occur. The cash flows from the firm's previous investments arrive. The firm faces new investment opportunities and chooses a new investment. Finally, both public and bank debt contracts mature. The firm can pay its debts with the cash from its investments and from the proceeds obtained from issuing new securities. If the firm continues operations after date 1, it is liquidated at date 2, with residual claims going to equity owners in proportion to their ownership.
 
@@ -71,13 +99,13 @@ The market value on date 0 of a date-1 cash flow is its discounted present value
 
 The next two subsections review traditional tax-oriented capital structure theory where the control role of debt is absent. To illustrate the added implications of the control role of debt, I will review traditional capital structure theory, which allows no control role. This will provide a framework for understanding the control role of debt.
 
-# Review of Traditional Capital Structure Theory Without Bankruptcy Costs
+### Review of Traditional Capital Structure Theory Without Bankruptcy Costs
 
 The traditional approach to capital structure abstracts from issues related to the control of the firm's future investment decisions. Thus, consider the simple case in which the firm is liquidated at date 1 because it has no new investment opportunities. Assume that all debt is public debt and bankruptcy has no cost. The only role for capital structure is to minimize taxes.
 
 The date-0 value of the firm if unlevered (all equity) is then the discounted value of the after-tax profits. The pre-tax value of the firm on date 1, $c$, has possible realizations $c \in \{1,2,3,4\}$. Each realization has equal probability, $P = \frac{1}{4}$. The market value of the unlevered firm is $(P \cdot 4 + P \cdot 3 + P \cdot 2 + P \cdot 1)(1 - t) = (2.5)(1 - t) \equiv V^u$. With debt of face value $R \leq 1$, the firm can always deduct the payment from its corporate taxes, saving $Rt$, and firm value is $V^u + Rt$. Define $\tau_R$ as the date-0 present value of tax savings from increasing debt to $R$ from the largest integer value less than $R$. This means that $\tau_1 \equiv t$ is the value of taxes saved with debt equal to one. Further increasing debt to a face value $R \in (1,2]$, increases the value to $V^u + \tau_1 + (R - 1)(3Pt)$. The added taxes are saved only when the firm is worth more than one, because only payments made are tax-deductible. Therefore, increasing debt from one to two saves $3Pt = \frac{3}{4}t \equiv \tau_2$. Similarly, $\tau_3 = t/2$ and $\tau_4 = t/4$. The increase in value from a unit increase in $R$ decreases for higher values of $R$. Further increases in $R$ save more taxes until the firm's value is maximized with $R = 4$ and firm value is 2.5.
 
-# Fixed Bankruptcy Costs
+### Fixed Bankruptcy Costs
 
 Suppose that there is a fixed cost $\phi$ that is incurred whenever the firm cannot fully repay its public debt (see Robichek and Myers [1965] and Kraus and Litzenberger [1973]). Think of $\phi$ as an unavoidable legal fee. The cost of bankruptcy trades off against tax savings to determine the value-maximizing capital structure. There is no risk of bankruptcy for debt with face value $R \leq 1$. Value increases to $V^u + \tau_1$ with $R = 1$. Further increasing the face value from $R = 1$ to $R = 2$ increases date-0 firm value by $\tau_2 - P\phi$. Increasing leverage beyond one decreases firm value if the present value of tax savings is less than that of bankruptcy costs. Because taxes are only saved for payments actually made, the marginal value of tax saving per unit of debt is reduced as debt climbs $(\tau_4 < \tau_3 < \tau_2 < \tau_1)$. If $\tau_4 < P\phi$, then eventually tax savings are smaller than bankruptcy costs, and there is a limit to desired leverage. Figure 1 shows the effect of leverage on firm value under the traditional capital structure theory.$^3$ The firm value drops by the present value of bankruptcy costs at each positive integer value. Bankruptcy costs are sufficiently large in Figure 1 to imply that the optimal value of public debt is $R = 2$.
 
@@ -87,7 +115,7 @@ Note: Firm value drops by the bankruptcy cost at each positive integer value. Ba
 
 If bankruptcy costs are nontrivial, traditional capital structure theory implies that firms with high variance of value will have low leverage. Without corporate tax, the model predicts that there will be no debt issued. The crucial assumptions are that there are no effects of capital structure on the firm's decisions and that the cost of bankruptcy is the same for all bankruptcies. In what follows, future decisions are introduced by allowing the firm an investment choice at date 1. Profitable investment is a source of firm value in addition to its cash from previous investments. The firm will be in default only when the sum of the cash from old operations and the net present value of new investment is less than the amount of debt to be repaid. Before providing these details, the next section describes the costs and benefits of bankruptcy.
 
-# 2. CONTROL AND THE BENEFITS OF DEBT
+## 2. CONTROL AND THE BENEFITS OF DEBT
 
 There are conflicting interests between the management of the firm and its outside investors. The management derives more benefits than do outsiders from the firm's growth and its continued operations. Some reasons for this conflict include the costs of a manager's immediate lost reputation if operations are closed and the increase in the manager's incremental value to the company once a project is undertaken (the manager's information is needed to most profitably continue the project, even if the ex-ante net present value is negative). These control benefits imply that management will continue to invest even if investment prospects are bleak. The prospects of future investments cannot be costlessly observed by a court, but the prospects are observed by investors at date 1; the manager has no private information. A management incentive contract that required a court to determine the profitability of each investment would be expensive to enforce. Because outside investors observe profitability, they can prevent the manager from making a bad investment if, and only if, they have control of the firm. Investors have control only if the firm defaults on its debt. Default on public debt will require the use of bankruptcy court, but default on bank debt need not. Equity contracts have no terms that can trigger a transfer of control (I assume that a takeover is not a possibility). If the firm is financed exclusively with equity, outsiders never have control and the firm will always invest. If the firm cannot fully repay its debt obligation, then the firm cannot avoid a default and the owners of the debt can take control of the firm. The details of this process are described in the next two subsections.
 
@@ -99,11 +127,11 @@ The net costs of using bankruptcy court depend on the type of reorganization tha
 2. There are costs of closing and quitting operations. These costs must be incurred if the firm ceases to operate and do not depend on the type of financial contracts the firm has. These are the costs of breaking other contracts, such as leases, if the firm ceases to operate. This quitting cost is denoted by $q$ and is incurred under bank debt or public debt.
 3. There are legal costs of restructuring or renegotiating public debt issues. These costs are incurred if the firm gets into formal bankruptcy proceedings without fully repaying its public debt. The costs also can be interpreted as costs of restructuring public debt outside formal bankruptcy. The magnitude of the cost can depend on whether the firm reorganizes or quits operations; the costs are denoted by $k_{g}$ and $k_{q}$, respectively. No such costs are incurred in restructuring bank debt.
 
-# The Costs and Implications of Bankruptcy Initiated by Default on Public Debt
+### The Costs and Implications of Bankruptcy Initiated by Default on Public Debt
 
 A default on public debt incurs administrative bankruptcy costs of $\gamma + k_{g}$ if the firm continues as a going concern and $q + k_{q}$ if there is liquidation. Liquidation then yields $c - q - k_{q}$, whereas reorganizing as a going concern yields $c + N - \gamma - k_{g}$. The U.S. Bankruptcy Law requires a vote of the lenders to choose the reorganization plan, suggesting that the more valuable option will be selected. I assume that the bad investment is sufficiently unprofitable that it is worth incurring bankruptcy costs to avoid it: $N_{B} < -(q + k_{q})$. This implies that net bankruptcy costs of public debt $(q + k_{q} + N_{B} \equiv B)$ are negative when $N = N_{B}$, on account of the control role of debt. Net bankruptcy costs are $\gamma + k_{g} \equiv G$ when the firm is reorganized and continues operations. I assume that the good investment is sufficiently profitable that it pays to reorganize to undertake it, i.e., $N_{G} > G$, and that the firm will restructure. Unlike public debt, bank debt can be restructured outside bankruptcy. The restructuring of bank debt is analyzed next.
 
-# Default on Bank Debt: Bankruptcy Versus Renegotiation
+### Default on Bank Debt: Bankruptcy Versus Renegotiation
 
 If a default is on bank debt, the bank can choose to renegotiate rather than force bankruptcy. The bank will renegotiate rather than force bankruptcy when its payoff from renegotiating exceeds what it will get in bankruptcy. When the firm is worth more as a going concern because  $N = N_{G}$ , the bank will renegotiate and save the costs of bankruptcy. When liquidation is desired because  $N = N_{B}$ , the bank will initiate bankruptcy and liquidate. A decision tree that illustrates this choice by the bank is given in Figure 2. It illustrates the bank's decision process which is described in the next two paragraphs.
 
@@ -115,7 +143,50 @@ One can easily extend the model to cases where there are more general managerial
 
 When the bank reschedules with  $N = N_{G}$ , bank debt serves a role in avoiding bankruptcy costs that is similar to equity (which has no fixed claim that can lead to a default). When the bank forces bankruptcy with  $N = N_{B}$ , it removes cash from management's control, similar to the role of public debt described in Townsend (1979), Diamond (1984), Gale and Hellwig (1985), Lacker and Weinberg (1989), and Jensen (1986, 1989), at lower ex-post cost than does public debt. Both types of debt have the advantage over equity of blocking undesirable investment by the firm.
 
-# 3. THE LINK BETWEEN CASH FLOW AND THE NET PRESENT VALUE OF NEW INVESTMENT
+## 3. THE LINK BETWEEN CASH FLOW AND THE NET PRESENT VALUE OF NEW INVESTMENT
+
+```d2
+direction: down
+
+Cash Flow Correlation: Correlation between\nCash Flow (c) and\nInvestment NPV (N) {
+  shape: diamond
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+}
+
+High Correlation: High Correlation\n(c ⊥⊥ N) {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+Low Correlation: Low Correlation\n(c ≈ N) {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+}
+
+Public Debt Optimal: Public Debt\nOptimal {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+}
+
+Bank Debt Optimal: Bank Debt\nOptimal {
+  shape: hexagon
+  style.fill: "#f3e5f5"
+  style.stroke: "#9c27b0"
+}
+
+Cash Flow Correlation -> High Correlation
+Cash Flow Correlation -> Low Correlation
+
+High Correlation -> Public Debt Optimal: Reliable signal of investment quality
+Low Correlation -> Bank Debt Optimal: Avoid costly false bankruptcies
+
+note: Firm characteristics determine optimal debt type through correlation structure
+```
+
 
 I now consider a more general model in which at date 1 the firm will have cash of $c$ and will face new investment opportunities with net present value of $N$. The sum of these, $c + N \equiv S$, is the total date-1 value of the firm if it continues operations. Note that the firm is able to borrow to finance its future investments and, if these are sufficiently profitable, use the proceeds to pay off old debt. Therefore, $S$ is the maximum that the firm is able to pay to claimants on date 1. If the firm cannot raise enough to pay off old debt, then lenders have control and can block the firm from continuing to invest. The firm will be able to fully repay its debt when $S$ equals or exceeds the face value of the maturing debt. If $S$ is less than the amount of debt due, there will be bankruptcy if the debt is public. If, instead, the debt is a bank loan, there will be bankruptcy if investment prospects are bad ($N = N_B$) and restructuring outside bankruptcy if investment prospects are good ($N = N_G$).
 
@@ -139,7 +210,7 @@ N = NG with probability = 1 - u</td><td>N = NB</td></tr><tr><td>S = 4</td><td>N 
 
 The date-0 value of the firm's cash flows is independent of  $u$ , but the correlation between  $S$  and  $N$  is decreasing in  $u$ . Increasing  $u$  decreases the correlation between cash flow and the profitability of new investment (because reducing the correlation between  $S = c + N$  implies reduced correlation between  $c$  and  $N$ ). Many of the implications of changing the level of the correlation parameter,  $u$ , can be seen by comparing the case of  $u = 1$  with  $u = 0$ . The next subsection explores these implications in the case in which the firm makes use of public debt.
 
-# The Optimal Quantity of Public Debt
+### The Optimal Quantity of Public Debt
 
 The value of the firm with public debt  $R$  depends on the net bankruptcy costs and tax savings of the chosen capital structure. The possible values of total firm value,  $S = N + c$ , are denoted by  $i$ , and  $i \in \{1,2,3,4\}$ . Let  $X_{i}$  denote the net, non-tax bankruptcy cost from defaulting on public debt when  $S = i$ . This is a real cost from debt with face value  $R$  exceeding  $i$ . Recall that the (negative) cost of bankruptcy when investment prospects are bad ( $N = N_{B}$ ) is  $N_{B} + q + k_{q} \equiv B$ . The (positive) cost of bankruptcy when investment prospects are good ( $N = N_{G}$ ) is  $\gamma + k_{g} = G$ . The probability distribution of  $N$  given  $S$  described in Table 1 implies that the bankruptcy costs for each value of  $S$  are as follows:  $X_{1} = B$ ,  $X_{2} = uG + (1 - u)B$ ,  $X_{3} = uB + (1 - u)G$ ,  $X_{4} = G$ .
 
@@ -189,7 +260,7 @@ When  $u = 0$  (high correlation between  $S$  and  $N$ ), the optimal amount of
 
 Increasing the correlation between cash flow from old investment and the profitability of new investment will generally increase the optimal amount of public debt and will increase the date-0 value of the firm.[11] When the correlation is low, public debt is an expensive control device. If the tax benefits of debt are not extremely high, firms with low correlation will choose low debt when given a choice between public debt and equity. The next subsection examines the cost of the alternative of bank debt.
 
-# The Optimal Quantity of Bank Debt
+### The Optimal Quantity of Bank Debt
 
 Resolving default is less costly with bank debt than with public debt. The discussion in Section 2 entitled "Default on Bank Debt: Bankruptcy Versus Renegotiation" establishes that the total cost of resolving a default when investment prospects are good ( $N = N_{G}$ ) is  $g$  for bank debt, a saving of  $G - g$  over the resolution cost given public debt. This is a large saving because the bank avoids bankruptcy court when the firm is worth more as a going concern. The total cost of resolving a default when investment prospects are bad (and  $N = N_{B}$ ) is  $N_{B} + q$  for bank debt, because a bad investment with net present value of  $N_{B}$  is avoided, but unavoidable administrative costs of  $q$  are incurred.
 
@@ -207,7 +278,7 @@ Note: The optimal level of bank debt is  $r = 4$  both for  $u = 0$  and  $u = 1
 
 debt is equivalent to comparing this firm value,  $\beta(4)$ , to the date-0 firm value with the optimal level of public debt and choosing the form of debt leading to higher firm value. This comparison is discussed in the next subsection.
 
-# Bank Debt Versus Public Debt
+### Bank Debt Versus Public Debt
 
 If bank operating costs are too high, then public debt will dominate even if bank debt has default cost advantages. Similarly, if banks' default cost advantages are large, then bank debt will dominate even for rather large operating costs. For moderate levels of bank operating costs and bank debt default cost advantages, the optimal choice will depend on the characteristics of the borrower. In particular, the choice can depend on the correlation between future firm value,  $S$ , and future investment prospects,  $N$ .
 
@@ -234,7 +305,7 @@ Figure 7 Firm Value for Both Bank and Public Debt
 When  $\mathbf{u} = \mathbf{0}$  and  $\mathbf{u} = \mathbf{1}$  
 Note: Figure 7 superimposes Figures 5 and 6 to show an example where public debt is best when  $u = 0$  but bank debt is best when  $u = 1$ .
 
-# 4. IMPLICATIONS AND CONCLUSIONS
+## 4. IMPLICATIONS AND CONCLUSIONS
 
 Traditional capital structure theory obtains strong results by framing the choice as a trade-off between tax savings and exogenous costs of bankruptcy. When there are no costs of bankruptcy, an all-debt firm is optimal; when there are bankruptcy costs but no tax savings, an all-equity firm is optimal. This article begins by reviewing these results and illustrates the intermediate case where the trade-off yields a capital structure containing both debt and equity. In this case, firms with more variable cash flows choose less debt.
 
@@ -250,9 +321,9 @@ Increasing the tax advantage of debt makes more borrowers prefer bank debt. Firm
 
 investment are induced to choose high leverage with bank debt where they would have chosen low leverage with public debt at lower tax advantages. One implication of this result is that in countries with large tax advantages to debt, bank lending will be pervasive. If all firms face high costs of reorganization with public debt, banks will attract customers who need debt for control but want to save reorganization costs, plus others who do not need debt for control purposes but just for its tax savings. In these countries where banks are predicted to dominate the debt market, a bank's average customer will have a stronger correlation between cash flow and the quantity of new investment, because the firms for which cash flow is strongly correlated with the profitability of new investment opportunities are included in the set of bank customers. I am not aware of empirical evidence on these implications. This type of implication shows the importance of simultaneously considering the tax, bankruptcy, and control roles of debt. Studying the interaction of the various roles of debt yields fresh interpretations of existing empirical evidence as well as entirely new implications.
 
-# APPENDIX
+## APPENDIX
 
-# Proof of Proposition 1:
+### Proof of Proposition 1:
 
 Define the function  $\tau_{R}$  as the marginal value of taxes saved by increasing debt to face value  $R$  from a debt equal to the largest integer  $i < R$ . For example, if the face value  $R$  is less than one,  $\tau_{R}$  is just the total tax saving. Similarly, if the face value  $R$  is between one and two,  $\tau_{R}$  is the total tax saving minus  $\tau_{1}$ . Let  $I(R)$  denote the greatest integer less than or equal to  $R$ . The function  $\tau_{R}$  is given by  $\tau_{R} \equiv \sum_{i \geq R} P_{i} \{[R - I(R)] \cdot t\}$ . The total value of tax benefits from debt with face  $R$  is then  $\tau_{R} + \sum_{i < R} \tau_{i}$ .
 
@@ -280,7 +351,7 @@ The optimal value is  $R^{*} = 4$  if  $\Pi(2) \leq \Pi(4)$  and  $\Pi(3) \leq \
 
 Q.E.D.
 
-# Proof of Proposition 2:
+### Proof of Proposition 2:
 
 Because the optimal value of bank debt is  $r = 4$ , public debt results in higher firm value if firm value,  $\Pi$ , with public debt of two, three, or four exceeds  $\beta(4)$ . Note that  $\beta(r) = \tau_r - z_r + \sum_{i < r} [\tau_i - z_i - (P_i x_i)] + V^u$ , where the  $\tau_r$  functions are given in the proof of Proposition 1 and the other terms are as follows:  $z_1 = z$ ,  $z_2 = \frac{3}{4} z$ ,  $z_3 = \frac{1}{2} z$ ,  $z_4 = \frac{1}{4} z$ ,  $b = N_B + q$ ,  $x_1 = b$ ,  $x_4 = g$ ,  $x_2 = u \cdot g + (1 - u) \cdot b$ , and  $x_3 = u \cdot b + (1 - u)g$ .
 
@@ -288,7 +359,7 @@ Firm value given bank debt is  $\beta(4)$ , given by:  $\beta(4) = V^u + \frac{1
 
 Q.E.D.
 
-# REFERENCES
+## REFERENCES
 
 Aghion, Philippe, and Patrick Bolton. "An Incomplete Contracts Approach to Bankruptcy and the Financial Structure of the Firm," Review of Economic Studies, vol. 59 (July 1992), pp. 473-94.  
 Bolton, P., and D. Scharfstein. "Optimal Debt Structure with Multiple Creditors," Working Paper. Cambridge Mass.: MIT Sloan School, June, 1993.  

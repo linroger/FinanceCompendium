@@ -1,27 +1,23 @@
 ---
-parent_directory: I. Foundations/Mathematics
-title: Verifying the Martingale Property for Subsequent Periods
-tags: null
-aliases:
-- Verifying the Martingale Property for Subsequent Periods
-parent_folder: Mathematics
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: Verifying the Martingale Property for Subsequent Periods
+title: "Verifying the Martingale Property for Subsequent Periods"
+parent_directory: "I. Foundations/Mathematics"
+formatted: 2025-12-21 11:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- time axis
-- risk-neutral probabilities
-- required martingale property
+  - martingale properties
+  - risk-neutral probabilities
+  - discounted stock price
+  - bond numeraire
 secondary_tags:
-- martingale properties
-- other risk-neutral probabilities
-- discounted stock price
-- bond numeraire
-- subsequent periods
-- expected value
-tags_extracted: '2025-12-18T17:58:50.694849'
-tags_method: max_quality_v1
+  - subsequent periods
+  - expected value
+  - brownian motion
+  - geometric brownian motion
+  - tower property
+  - discrete random walk
+  - stochastic processes
+cssclasses: academia
 ---
 
 # Verifying the Martingale Property for Subsequent Periods

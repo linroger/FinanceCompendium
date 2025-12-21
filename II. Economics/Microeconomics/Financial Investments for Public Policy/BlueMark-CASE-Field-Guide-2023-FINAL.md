@@ -1,13 +1,23 @@
 ---
-parent_directory:
-title: Impact Due Diligence and Management for Asset Allocators
-tags:
+title: "Impact Due Diligence and Management for Asset Allocators"
+parent_directory: "Financial Investments for Public Policy"
+formatted: "2025-12-21 12:45:00 PM"
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - impact due diligence
+  - asset allocator practices
+  - impact management frameworks
+  - impact investing standards
+secondary_tags:
+  - gp lp relationships
+  - impact measurement systems
+  - sustainable finance disclosure
+  - impact verification processes
+  - impact reporting standards
 aliases:
-parent_folder: Advanced Investments
-subfolder:
-key_concepts:
+   - "BlueMark CASE Field Guide 2023"
 cssclasses: academia
-linter-yaml-title-alias: Impact Due Diligence and Management for Asset Allocators
 ---
 
 # Impact Due Diligence and Management for Asset Allocators

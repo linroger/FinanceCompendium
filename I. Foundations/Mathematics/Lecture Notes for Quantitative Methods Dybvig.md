@@ -856,7 +856,7 @@ Chapter 4. Markov chains, Examples 2 and 3 of embedded Markov chains, classifica
 
 Chapter 6. Markov decision processes with discrete state spaces and finite actions, a (triumphant) return to the contraction mapping. Application of these ideas to sequential testing.
 
-# 3.4. Problems.
+# ### 3.4. Problems
 
 Problem 3.1. Which, if any, of the criteria for valuing sequences given above,  $V_{1}, V_{2}, V_{\text{liminf}}^{\text{average}}, V_{3}, V_{\text{Polya}}$ , are continuous? Prove your answers.
 
@@ -888,7 +888,9 @@ Problem 3.7. Ross, Chapter 6, 1, 2, 3, 4, 5, 6.
 
 Concepts we will see after are marked with a "†."
 
-4.1. Basics. The basic statistical model has data $\dagger$ $\mathbf{X} = (X_{1},\ldots ,X_{n})$  independent $\dagger$ , and identically distributed with distribution  $P_{\theta}$ ,  $\theta \in \Theta$ . Given  $\theta$ , the likelihood $\dagger$  of  $\mathbf{X}$  is  $L(\mathbf{X}|\theta) = \Pi_{i}P_{\theta}(X_{i})$ . Maximum likelihood estimators $\dagger$  (MLE's) solve the problem  $\max_{\theta \in \Theta}L(\mathbf{X}|\theta)$  for  $\widehat{\theta}(\mathbf{X})$ . When the  $P_{\theta}$ 's all have densities, we use those. Generally, taking the logarithm of  $L$  makes the calculations easier.
+### 4.1. Basics
+
+The basic statistical model has data $\dagger$ $\mathbf{X} = (X_{1},\ldots ,X_{n})$ independent $\dagger$, and identically distributed with distribution $P_{\theta}$, $\theta \in \Theta$. Given $\theta$, the likelihood $\dagger$ of $\mathbf{X}$ is $L(\mathbf{X}|\theta) = \Pi_{i}P_{\theta}(X_{i})$. Maximum likelihood estimators $\dagger$ (MLE's) solve the problem $\max_{\theta \in \Theta}L(\mathbf{X}|\theta)$ for $\widehat{\theta}(\mathbf{X})$. When the $P_{\theta}$'s all have densities, we use those. Generally, taking the logarithm of $L$ makes the calculations easier.
 
 There are many ways to arrive at sensible estimators. MLE's are not the only class of estimators that we will look at, but they are a very good starting point.
 
@@ -902,7 +904,9 @@ Having an estimator is fine and lovely, one of my favorites is  $\frac{1}{7}$ . 
 
 In general, we would like to know about the likelihood that our estimator is very far off, and how that depends on the true value. We can do explicit calculations, or we can use the Central Limit Theorem† (CLT) for the mean, as you should remember. If  $X_{1},\ldots ,X_{n}$  are iid with mean  $\mu$  and variance  $\sigma^2$ , then  $\frac{1}{\sqrt{n}}\sum_{i}(X_{i} - \mu) / \sigma$  is, to a good degree of approximation, distributed  $N(0,1)$ .
 
-4.2. Other properties of estimators. Suppose now that  $p$  is the true value, that we do not know it, and want an estimator  $\widehat{p'}$  with low mean squared error†, (MSE) that is, such that  $E\left((\widehat{p} - p)^2 | p\right)$  is small. It is a true fact that shrinking  $\widehat{p}_n = \frac{1}{n} \sum_{i \leq n} X_i$  lowers MSE. We'll do the algebra for non-negative statistics, passing through MSE = Var + Bias. Generally, the amount of shrinkage to be done to minimize MSE depends on the true value of the parameter we're interested. When we put our estimate of the parameter into the formula for the optimal shrinkage and shrink, we may actually increase the MSE.
+### 4.2. Other properties of estimators
+
+Suppose now that $p$ is the true value, that we do not know it, and want an estimator $\widehat{p'}$ with low mean squared error†, (MSE) that is, such that $E\left((\widehat{p} - p)^2 | p\right)$ is small. It is a true fact that shrinking $\widehat{p}_n = \frac{1}{n} \sum_{i \leq n} X_i$ lowers MSE. We'll do the algebra for non-negative statistics, passing through MSE = Var + Bias. Generally, the amount of shrinkage to be done to minimize MSE depends on the true value of the parameter we're interested. When we put our estimate of the parameter into the formula for the optimal shrinkage and shrink, we may actually increase the MSE.
 
 The Best MSE estimators are biased, the better ones are called "shrunken" estimators. Suppose that  $\hat{\theta} \in \mathbb{R}_{++}$  is an unbiased estimator of a location parameter  $\theta \in \mathbb{R}_{++}$  based on an iid. sample  $X_{i}, i = 1, \ldots, n$ . The question to be asked is what multiple of  $\hat{\theta}$  minimizes mean squared error? To answer the question, we take a detour through the following calculation:
 
@@ -928,7 +932,9 @@ where  $v^{\circ} \coloneqq \frac{v}{\theta^{2}}$  (which is known as the standa
 
 Note that as  $v^{\circ}$  becomes large,  $a^{*}$  becomes small. As  $n \uparrow \infty$ ,  $v^{\circ} \downarrow 0$  for the estimators that we will study, so that as more data arrives,  $a^{*}$  approaches 1. It can be shown that for the negative exponential distribution,  $a^{*} = \frac{n}{n + 1}$ . In general, one must estimate  $v^{\circ}$  to figure out what  $a^{*}$  should be, so the resulting estimate is  $\hat{a}^{*}\hat{\theta}$ . One could avoid thinking about this problem simply by insisting on unbiased estimators, this has the effect of forcing  $a^{*} = 1$ , but there doesn't seem to be much justification for that. However, in some cases,  $\hat{a}^{*}\hat{\theta}$  turns out to have even higher MSE than  $\hat{\theta}$  did originally. (Onwards, bravely, through the fog.)
 
-4.3. Bayesians. Another way to look at the whole problem gives very direct answers to questions about the value of  $Prob(|\widehat{p}_n - p| > r)$  and, more generally, the distribution of  $\widehat{p}_n$ . This approach is called Bayesian statistics†, and, at its best, it sensibly uses the prior knowledge we have about the problem at hand.
+### 4.3. Bayesians
+
+Another way to look at the whole problem gives very direct answers to questions about the value of $Prob(|\widehat{p}_n - p| > r)$ and, more generally, the distribution of $\widehat{p}_n$. This approach is called Bayesian statistics†, and, at its best, it sensibly uses the prior knowledge we have about the problem at hand.
 
 Suppose that we know that the true value of  $\theta$  (changing the notation for  $p$  here) is in the interval  $[\frac{1}{2},1]$ , and that intervals of equal size in  $[\frac{1}{2},1]$  are equally likely, that is, our prior distribution† is  $U[\frac{1}{2},1]$ . The posterior density as a function of the data is
 
@@ -954,7 +960,7 @@ $$
 
 You should be able to convince yourself that the solution to this problem approaches the MLE as  $n \uparrow \infty$ . We interpret this as saying that the prior distribution becomes irrelevant, it is eventually swamped by the data. For moderate  $n$ , the approximation may not be that good.
 
-# 4.4. Classical statistics.
+# ### 4.4. Classical statistics
 
 Hypothesis — A supposition or conjecture put forth to account for known facts; esp. in the sciences, a provisional supposition from which to draw conclusions that shall be in accordance with known facts, and which serves as a starting-point for further investigation by which it may be proved or disproved and the true theory arrived at. (OED)
 
@@ -978,7 +984,9 @@ We can then examine the probabilistic properties of the decision rule using the 
 
 Continuing in our simplest of examples, we suppose  $H_0: p = p_0$ ,  $H_1: p = p_1$ ,  $p_0 \neq p_1$ . Notice how much structure we've already put on the problem of picking a decision rule. We'll suppose that  $p_0 < p_1$ , the opposite case just reverses inequalities. There is a pretty strong intuition that the best decision rule is to accept  $H_0$  if  $\widehat{p_n} < p^*$ , and to reject otherwise, for some  $p^* \in (p_0, p_1)$ . Work through why this is true, thinking of the analogy with filling bookcases with the lightest possible set of books.
 
-4.5. An Information Inequality. We saw the Cauchy-Schwarz inequality for vectors,  $xy=\|x\|\|y\|\cos\theta$ , equivalently,  $\sum_{i}x_{i}y_{i}=\sqrt{\sum_{i}x_{i}^{2}}\sqrt{\sum_{i}y_{i}^{2}}\cos\theta$ , so that  $(\sum_{i}x_{i}y_{i})^{2}\leq\sum_{i}x_{i}^{2}\sum_{i}y_{i}^{2}$ . When  $\Omega=\{1,\dots,n\}$  with  $P(\omega)\equiv 1/n$ , we get an inequality about expectations that is also an inequality about Variances and Covariances,
+### 4.5. An Information Inequality
+
+We saw the Cauchy-Schwarz inequality for vectors, $xy=\|x\|\|y\|\cos\theta$, equivalently, $\sum_{i}x_{i}y_{i}=\sqrt{\sum_{i}x_{i}^{2}}\sqrt{\sum_{i}y_{i}^{2}}\cos\theta$, so that $(\sum_{i}x_{i}y_{i})^{2}\leq\sum_{i}x_{i}^{2}\sum_{i}y_{i}^{2}$. When $\Omega=\{1,\dots,n\}$ with $P(\omega)\equiv 1/n$, we get an inequality about expectations that is also an inequality about Variances and Covariances,
 
 $$
 \operatorname{Cov}(X,Y)^{2}\leq\operatorname{Var}(X)\operatorname{Var}(Y)
@@ -1012,7 +1020,9 @@ known as the Cramér-Rao lower bound. It really is a bound on all unbiased estim
 
 The quantity  $E_{p}(D_{p}\log f(\mathbf{X}|p))^{2}$  is called the Fisher information of the sample, and the inequality, in this form, is often called the information inequality. It should be intuitive that having  $E_{p}(D_{p}\log f(\mathbf{X}|p))^{2}$  large means that the sample tells us a great about the value of the parameter, that we can estimate it more closely. This is especially true when we think about the MLE's.
 
-4.6. Mis-Specification. The basic statistical model is  $X_{1},\ldots ,X_{n}$  is i.i.d.  $P_{\theta}$  for some  $\theta \in \Theta$ . Any subset of the parts of the model may be incorrect.
+### 4.6. Mis-Specification
+
+The basic statistical model is $X_{1},\ldots ,X_{n}$ is i.i.d. $P_{\theta}$ for some $\theta \in \Theta$. Any subset of the parts of the model may be incorrect.
 
 1. Independence is typically violated in time series contexts, e.g.  $X_{t + 1} = f(X_t) + \epsilon_t$  and  $\mathrm{Cov}(\epsilon_t, \epsilon_{t + 1}) \neq 0$ . Think about panel data sets in labor.  
 2. Identical distribution may be violated, e.g.  $p$  is lower for the first half than for the second half of the treatment because of learning on the part of the administrators. Errors for predictive equations may be systematically smaller in absolute value for some identifiable part of the sample.  
@@ -1024,7 +1034,7 @@ estimator of  $\beta_{1}$  is biased (famous cases, fertilizer and yield, educat
 
 (b) The  $X_{i}$ 's in the above model might not be random, they could have been designed (not generally true in econ), or might not be replicable (generally true in econ), in which case our analysis/estimators are conditional on the data rather than having more generalized good properties.
 
-# 4.7. Problems.
+### 4.7. Problems
 
 Problem 4.1. Suppose that  $X_{1}, \ldots, X_{n}$  are iid,  $E X_{i} = \mu$ ,  $\operatorname{Var}(X_{i}) = \sigma^{2}$ . A linear estimator of  $\mu$  is a function of the form  $\widehat{\mu}_{\alpha}(X_{1}, \ldots, X_{n}) = \sum_{i} \alpha_{i} X_{i}$ ,  $\alpha = (\alpha_{1}, \ldots, \alpha_{n})$ . An estimator,  $\widehat{\mu}$ , is unbiased if for all  $\mu$ ,  $E(\widehat{\mu} | \mu) = \mu$ .
 
@@ -1063,11 +1073,15 @@ $a\int \phi (\mathbf{x})f(\mathbf{x}|\theta_0)d\mathbf{x} + b\int (1 - \phi (\ma
 
 Problem 4.5. Suppose that  $X_{1},\ldots ,X_{n}$  are iid Poisson  $(\lambda)$ ,  $\lambda \in \mathbb{R}_{+ + }$ . Show that  $\widehat{\lambda}_{MLE}(\mathbf{X})$  achieves the Cramér-Rao lower bound.
 
-# 5. BASIC PROBABILITY, TRANSFORMATIONS, AND EXPECTATIONS
+## 5. BASIC PROBABILITY, TRANSFORMATIONS, AND EXPECTATIONS
 
-5.1. Basic Probability and Expectations. Dfn  $(\Omega, \mathcal{F}, P)$ . Countable additivity as continuity from above at the empty set. On  $\mathbb{R}$ , cdf's and pdf's or pmf's, the fundamental theorem of calculus, the uniqueness of prob's from cdf's, look through the Table of Common distributions, p. 621-7, finding the expectation of  $X$  from  $F_{X}$ . Properties of  $\sigma$ -fields, the role of  $[E_{n}$  i.o.] and  $[E_{n}$  a.a.], DeMorgan's Rules and the complements of  $[E_{n}$  i.o.] and  $[E_{n}$  a.a.]. Conditional probabilities and independence, disjointness versus independence, Bayes Law and legal theory, the Monte Hall story.
+### 5.1. Basic Probability and Expectations
 
-5.2. Transformations and Expectations. Chain rule and  $F_{Y}(y)$ ,  $Y = g(X)$ ,  $g$  monotonic,  $g$  not monotonic, Leibniz's rule, applications from Chapter 2.
+Dfn $(\Omega, \mathcal{F}, P)$. Countable additivity as continuity from above at the empty set. On $\mathbb{R}$, cdf's and pdf's or pmf's, the fundamental theorem of calculus, the uniqueness of prob's from cdf's, look through the Table of Common distributions, p. 621-7, finding the expectation of $X$ from $F_{X}$. Properties of $\sigma$-fields, the role of $[E_{n}$ i.o.] and $[E_{n}$ a.a.], DeMorgan's Rules and the complements of $[E_{n}$ i.o.] and $[E_{n}$ a.a.]. Conditional probabilities and independence, disjointness versus independence, Bayes Law and legal theory, the Monte Hall story.
+
+### 5.2. Transformations and Expectations
+
+Chain rule and $F_{Y}(y)$, $Y = g(X)$, $g$ monotonic, $g$ not monotonic, Leibniz's rule, applications from Chapter 2.
 
 Differentiating under the integral sign. From Lebesgue's Dominated Convergence Theorem — if  $(x,y)\mapsto h(x,y)$  is continuous at  $y_0$  for each  $x$  and  $|h(x,y)|\leq g(x)$  for some  $g(x)$  satisfying  $\int_{\mathbb{R}}|g(x)|\mathrm{d}x<\infty$ , then
 
@@ -1091,7 +1105,7 @@ Applications to finding how  $n$ 'th moments change with parameters.
 
 For summation and differentiation, if  $\sum_{n}h(\theta ,n)$  converges for all  $\theta$  in an interval, and  $h(\cdot ,n)$  is continuously differentiable  $\forall n$ , and  $\sum_{n}\frac{\partial}{\partial\theta} h(\theta ,n)$  converges uniformly on compact subsets of the interval, then  $\frac{\partial}{\partial\theta}\sum_{n}h(\theta ,n) = \sum_{n}\frac{\partial}{\partial\theta} h(\theta ,n)$ . Application to find  $EX$  for geometric.
 
-# 5.3. Problems.
+### 5.3. Problems
 
 Problem 5.1. Cassella and Berger, Chapter 1, 9, 12, 25, 33, 36, 38, 39, 52, 53, 55.
 
@@ -1132,11 +1146,13 @@ Suppose that  $X \sim \text{exponential}(\beta)$ , i.e.  $X > 0$  is a random va
 3. If  $T \sim \text{Weibull}(\gamma, \beta)$ ,  $h_T(t) = \frac{\gamma}{\beta} t^{\gamma - 1}$ . \[You should vary  $\gamma$  above and below 1, notice the graphs of  $g(x) = x^\gamma$  and see why we have the increasing or decreasing hazard rate properties here.]  
 4. If  $T \sim \text{logistic}(\beta)$ ,  $h_T(t) = \frac{1}{\beta} F_T(t)$  where  $F_T(t) = (1 - e^{-(t - \mu) / \beta})^{-1}$ .
 
-# 6. SOME CONTINUOUS DISTRIBUTIONS
+## 6. SOME CONTINUOUS DISTRIBUTIONS
 
 This section is mostly about getting used to doing calculations and using some of the common distributions. We'll look at discrete and cts distributions, scale and shift them (location and scale families). A particularly important class is the class of exponential distributions.
 
-6.1. Uniform distributions,  $U[\theta_1, \theta_2]$ . The probability integral transformation shows that every random variable is a transformation of the uniform distribution. First the uniform distribution, then a specific example, then the general construction.
+### 6.1. Uniform distributions, $U[\theta_1, \theta_2]$
+
+The probability integral transformation shows that every random variable is a transformation of the uniform distribution. First the uniform distribution, then a specific example, then the general construction.
 
 A random variable  $X$  has the uniform distribution on  $[0,1]$ , written  $X \sim U[0,1]$ , if it has density
 
@@ -1178,7 +1194,9 @@ We know that  $\hat{\theta}_2$  is not biased, that is,  $E_{\theta}\hat{\theta}
 
 The moral of the story, for later purposes, is that there are many estimators and we need ways to choose between them.
 
-6.2. The normal or Gaussian family of distributions,  $N(\mu, \sigma^2)$ . The random variable  $Z$  has the standard normal distribution, aka the standardized Gaussian, if it has density
+### 6.2. The normal or Gaussian family of distributions, $N(\mu, \sigma^2)$
+
+The random variable $Z$ has the standard normal distribution, aka the standardized Gaussian, if it has density
 
 $$
 f _ {Z} (z) = \frac {1}{\sqrt {2 \pi}} e ^ {- z ^ {2} / 2}, - \infty <   z <   \infty .
@@ -1240,9 +1258,13 @@ $$
 
 Going in the other direction, if  $X \sim N(\mu, \sigma^2)$ , then the standardized version of  $X$  is the rv  $X_s = \frac{X - \mu}{\sigma}$ , and  $X_s \sim N(0,1)$ . Shifting and scaling are all that are at work in all of this. Go through a couple of problems on standardizing and then reading from the normal tables.
 
-6.3. A useful device. Claim: (Thm. 3.5.1 in text) If  $f(x)$  is a pdf, then for all  $\mu$  and all  $\sigma > 0$ ,  $g(x|\mu, \sigma) = \frac{1}{\sigma} f\left(\frac{x - \mu}{\sigma}\right)$  is a pdf. We can see why, this is shifting and scaling an rv.
+### 6.3. A useful device
 
-6.4. The gamma family,  $\Gamma (\alpha ,\beta)$ . This is a family of strictly positive rvs. For  $y > 0$ ,  $y^{\alpha -1}e^{-y} > 0$ , and it should be pretty easy to believe that for any  $\alpha >0$ , the integral  $\int_0^\infty y^{\alpha -1}e^{-y}dy$  is finite. Therefore, if we define the function  $\Gamma (\alpha) = \int_0^\infty y^{\alpha -1}e^{-y}dy$ , then for every  $\alpha >0$ , the following is a density,
+Claim: (Thm. 3.5.1 in text) If $f(x)$ is a pdf, then for all $\mu$ and all $\sigma > 0$, $g(x|\mu, \sigma) = \frac{1}{\sigma} f\left(\frac{x - \mu}{\sigma}\right)$ is a pdf. We can see why, this is shifting and scaling an rv.
+
+### 6.4. The gamma family, $\Gamma (\alpha ,\beta)$
+
+This is a family of strictly positive rvs. For $y > 0$, $y^{\alpha -1}e^{-y} > 0$, and it should be pretty easy to believe that for any $\alpha >0$, the integral $\int_0^\infty y^{\alpha -1}e^{-y}dy$ is finite. Therefore, if we define the function $\Gamma (\alpha) = \int_0^\infty y^{\alpha -1}e^{-y}dy$, then for every $\alpha >0$, the following is a density,
 
 $$
 f (y) = \frac {1}{\Gamma (\alpha)} y ^ {\alpha - 1} e ^ {- y}, y > 0.
@@ -1312,8 +1334,12 @@ and we write this as  $X \sim \Gamma(\alpha, \beta)$ . This gives a large class 
 
 From the usual rules, if  $X \sim \Gamma(\alpha, \beta)$ , then  $E X = \alpha \beta$  and  $\operatorname{Var}(X) = \alpha \beta^2$ .
 
-6.5. Special cases of  $\Gamma(\alpha, \beta)$  distributions. There are some special  $\Gamma(\alpha, \beta)$  distributions, ones that have their own special names and uses.  
-6.5.1. Waiting times. If  $Y \sim \Gamma(1, \beta)$ , we say that  $Y$  has an exponential distribution with parameter  $\beta$ . We've seen this as the waiting time for the first Poisson arrival with an arrival rate  $\lambda = 1 / \beta$ . From above,  $EY = \beta$ , and  $\operatorname{Var}(Y) = \beta^2$ .
+### 6.5. Special cases of $\Gamma(\alpha, \beta)$ distributions
+
+There are some special $\Gamma(\alpha, \beta)$ distributions, ones that have their own special names and uses.  
+#### 6.5.1. Waiting times
+
+If $Y \sim \Gamma(1, \beta)$, we say that $Y$ has an exponential distribution with parameter $\beta$. We've seen this as the waiting time for the first Poisson arrival with an arrival rate $\lambda = 1 / \beta$. From above, $EY = \beta$, and $\operatorname{Var}(Y) = \beta^2$.
 
 Example: Suppose that  $Y \sim \Gamma(1, 100)$  and  $X = \min\{Y, 200\}$ , find the cdf and the expectation of  $X$ .
 
@@ -1325,7 +1351,9 @@ $$
 
 We already know this result for  $\alpha = 1$ . Getting the rest of the  $\alpha$  is a good exercise in applying integration by parts.
 
-6.5.2. Squares of standard normals. If  $Y \sim \Gamma(v/2, 2)$ ,  $v$  an integer, then  $Y$  has a  $\chi_{(v)}^2$  distribution, read as a chi squared distribution with  $v$  degrees of freedom. Reading off directly, we have
+#### 6.5.2. Squares of standard normals
+
+If $Y \sim \Gamma(v/2, 2)$, $v$ an integer, then $Y$ has a $\chi_{(v)}^2$ distribution, read as a chi squared distribution with $v$ degrees of freedom. Reading off directly, we have
 
 $$
 f _ {Y} (y) = \frac {1}{\Gamma (\frac {v}{2})} x ^ {\frac {v}{2} - 1} e ^ {- x}.
@@ -1335,7 +1363,9 @@ Directly checking, you can see that if  $Z \sim N(0,1)$ , i.e. has density  $(2\
 
 Check that the moment generating function of a  $X \sim \Gamma(\alpha, \beta)$  is  $M_X(t) = E e^{tX} = \left(\frac{1}{1 - \beta t}\right)^{\alpha}$ . The basic result is that mgf's identify random variables that have them, find  $M_{X_1 + \dots + X_v}(t)$  when the  $X_i$  are iid  $\chi_1^{2'}$ 's.
 
-6.6. Cauchy random variables. From calculus we know that  $d\arctan(t) / dt = (1 + t^2)^{-1}$ , so that
+### 6.6. Cauchy random variables
+
+From calculus we know that $d\arctan(t) / dt = (1 + t^2)^{-1}$, so that
 
 $$
 f (x) = \frac {1}{\pi} \frac {1}{1 + x ^ {2}}
@@ -1349,7 +1379,9 @@ $$
 
 The MLE estimator of  $\theta$  is weird, check it's behavior. Some of the weirdness comes from the fact that if  $X_{1},\ldots ,X_{n}$  are iid Cauchy(0), then  $\frac{1}{n}\sum_{i\leq n}X_i$  is Cauchy(0). We get this easily after we do that harder calculation that  $X\sim \mathrm{Cauchy}(0)$  implies that  $\varphi_X(t) = Ee^{itX} = e^{-|t|}$  and doing the calculation for  $\varphi_{\frac{1}{n}\sum_{i\leq n}X_i}(t)$ .
 
-6.7. Exponential Families. A class of pdf's of the form
+### 6.7. Exponential Families
+
+A class of pdf's of the form
 
 $$
 f (x | \boldsymbol {\theta}) = h (x) c (\boldsymbol {\theta}) \exp \left(\sum_ {i \leq I} w _ {i} (\boldsymbol {\theta}) t _ {i} (x)\right)
@@ -1377,7 +1409,9 @@ $$
 
 and the set of  $\eta_{i}$ 's that make this a density is the so-called natural parameter space for the class of densities. It's convex, which is nice.
 
-6.8. Some (in)equalities. Tchebyshev and it's higher moment versions. The  $3\sigma$  rule.  $P(|Z|\geq t)\leq \sqrt{2 / \pi}\cdot e^{-t^2 /2} / t,$  from
+### 6.8. Some (in)equalities
+
+Tchebyshev and it's higher moment versions. The $3\sigma$ rule. $P(|Z|\geq t)\leq \sqrt{2 / \pi}\cdot e^{-t^2 /2} / t,$ from
 
 $$
 P (Z \geq t) = 1 / \sqrt {2 \pi} \int_ {t} ^ {\infty} e ^ {- x ^ {2} / 2} d x \leq 1 / \sqrt {2 \pi} \int_ {t} ^ {\infty} \frac {x}{t} e ^ {- x ^ {2} / 2} d x = 1 / \sqrt {2 \pi} e ^ {- t ^ {2} / 2} / t.
@@ -1385,7 +1419,7 @@ $$
 
 If  $X \sim N(\theta, \sigma^2)$ ,  $g$  continuously differentiable and  $E|g'(X)| < \infty$ , then  $E[g(X)(X - \theta)] = \sigma^2 E g'(X)$ . E.g.  $g(x) = ax + b$ , or  $g(x) = x^2$  (which gives  $E X^3 = 3\theta \sigma^2 + \theta^3$ ). \[Integrate by parts with  $u = g$ ,  $dv = (x - \theta)e^{-(x - \theta)^2 / 2\sigma^2}$ .]
 
-# 6.9. Problems.
+### 6.9. Problems
 
 Problem 6.1. Casella & Berger, 3.1.  
 Problem 6.2. Casella & Berger, 3.2.  
@@ -1403,11 +1437,13 @@ Problem 6.13. Casella & Berger, 3.29.
 Problem 6.14. Casella & Berger, 3.31 and 3.32.  
 Problem 6.15. Casella & Berger, 3.41.
 
-# 7. RANDOM VECTORS, CONDITIONAL EXPECTATIONS, INDEPENDENCE
+## 7. RANDOM VECTORS, CONDITIONAL EXPECTATIONS, INDEPENDENCE
 
 We now turn to modeling the simultaneous randomness of many quantities.
 
-7.1. Dependence, conditional probabilities and expectations. The starting point is dependence,  $P(Y \in A | X \in B)$ , down to  $P(Y | X = x)$ . In the discrete case, use Bayes' Law. E.g.  $U$  is the random number of rolls of two fair die until the first sum of 7,  $V$  until the second, give joint pdf,  $P(V = v | U = u)$ ,  $E(V | U = u)$ ,  $P(U = u | V = v)$ ,  $E(U | V = v)$ , etc.
+### 7.1. Dependence, conditional probabilities and expectations
+
+The starting point is dependence, $P(Y \in A | X \in B)$, down to $P(Y | X = x)$. In the discrete case, use Bayes' Law. E.g. $U$ is the random number of rolls of two fair die until the first sum of 7, $V$ until the second, give joint pdf, $P(V = v | U = u)$, $E(V | U = u)$, $P(U = u | V = v)$, $E(U | V = v)$, etc.
 
 In the continuous case,  $f_{Y}(y|x)dy = \frac{f_{X,Y}(x,y)dxdy}{f_{X}(x)dx}$ , cancelling terms,  $f_{Y}(y|x) = \frac{f_{X,Y}(x,y)}{f_{X}(x)}$ . E.g. the two light bulb story, both exponential parameter 1,  $f_{X,Y}(x,y) = 1_A(x,y)e^{-y}$ ,  $A = \{(u,v) \in \mathbb{R}^2 : v > u > 0\}$ .  $E(Y|X = x) \coloneqq \int yf_{Y}(y|x)dy$ ,  $\operatorname{Var}(Y|X = x) \coloneqq \int (y - E(Y|X = x))^{2}f_{Y}(y|x)dy$ , or  $\operatorname{Var}(Y|X = x) = E(Y^{2}|x) - (E(Y|x))^{2}$ . The main applications of conditional variance models are in financial economics, summarize some volatility studies.
 
@@ -1421,7 +1457,9 @@ $$
 
 is the function  $g(x) = E(Y|X = x)$ . The function  $E(Y|X)$  is called the regression of  $Y$  on  $X$ . Do this first by conditioning on  $X = x$  and looking point by point, then more generally. The mapping from  $Y$  to  $E(Y|X)$  is a projection.
 
-7.2. Projections. Let  $M$  be a linear subspace of  $\mathbb{R}^n$ .  $N = M^\perp$  is the orthogonal complement of  $M$ . Every  $x \in \mathbb{R}^n$  has a unique representation as  $m + n$ ,  $m \in M$ ,  $n \in N$ .  $P: \mathbb{R}^n \to M$  is a projection if  $Px = m$  where  $x = m + n$ ,  $n \perp M$ , is the unique representation of  $x$ . Note that  $P$  is linear, that  $P(\mathbb{R}^n) = M$ ,  $P^2 = P$ , and  $P_{|M} = I_{|M}$ .
+### 7.2. Projections
+
+Let $M$ be a linear subspace of $\mathbb{R}^n$. $N = M^\perp$ is the orthogonal complement of $M$. Every $x \in \mathbb{R}^n$ has a unique representation as $m + n$, $m \in M$, $n \in N$. $P: \mathbb{R}^n \to M$ is a projection if $Px = m$ where $x = m + n$, $n \perp M$, is the unique representation of $x$. Note that $P$ is linear, that $P(\mathbb{R}^n) = M$, $P^2 = P$, and $P_{|M} = I_{|M}$.
 
 Suppose that we observe  $n$  values of  $y$ , arranged in an  $n \times 1$  vector  $Y$ , and  $n$  values of  $x_{i}$ ,  $i = 1, \ldots, k$ , arranged in an  $n \times k$  matrix  $X$ . We assume that  $n > k$  and that the columns of  $X$  are independent. We are after the  $\beta$  that makes
 
@@ -1437,7 +1475,9 @@ One kind of hypothesis of interest is (say)  $\beta_{k} = 0$ . Solve the minimiz
 
 Now let  $M \subset L^2$  be the set of functions of  $X$  such that  $Eg(X)^2 < \infty$ . Define  $P: Y \to M$  by  $P(Y) = E(Y|X)$ .  $P$  is a projection.
 
-7.3. Causality and conditional probability. There is a strong distinction between causality and conditional probability. Noting that  $P(A|B) > P(A)$  does NOT mean that  $B$  causes  $A$ . It only means that knowing that  $B$  is true makes us infer that  $A$  is more likely.
+### 7.3. Causality and conditional probability
+
+There is a strong distinction between causality and conditional probability. Noting that $P(A|B) > P(A)$ does NOT mean that $B$ causes $A$. It only means that knowing that $B$ is true makes us infer that $A$ is more likely.
 
 The conditional probability of the death of a patient rises with the amount of praying done in their room, but this does not lead us to conclude that prayer causes death.  $P(A|B) > P(A)$  means that when we observe  $B$ , we are more likely to observe  $A$ , not that  $B$  causes  $A$ .
 
@@ -1447,7 +1487,9 @@ In a similar fashion,  $\psi(x) \coloneqq E(Y|x)$  and  $\psi'(x) > 0$  is not a
 
 Historically, if  $B$  is the event that interest rates are above average and  $A$  is the event that GNP growth is above average,  $P(A|B) > P(A)$ . Causality? Probably not. There are many other examples. $^2$
 
-7.4. Independence, sums of independent rv's. Review  $X \bot Y$ , for all  $A, B$ ,  $P([X \in A] \cap [Y \in B]) = P([X \in A]) \cdot P([Y \in B])$ . In particular, for all  $g(x)$  depending only on  $x$  and all  $h(y)$  depending only on  $y$ ,  $g(X) \bot h(Y)$ .
+### 7.4. Independence, sums of independent rv's
+
+Review $X \bot Y$, for all $A, B$, $P([X \in A] \cap [Y \in B]) = P([X \in A]) \cdot P([Y \in B])$. In particular, for all $g(x)$ depending only on $x$ and all $h(y)$ depending only on $y$, $g(X) \bot h(Y)$.
 
 Look at product support sets, product cdf's, product pdf's. Note that  $\frac{d}{dx} P(Y \in A | X = x) = 0$  and therefore  $\frac{d}{dx} E(YA | X = x) = 0$  when  $X \perp Y$ .
 
@@ -1469,7 +1511,9 @@ If  $X \perp Y$ ,  $X \sim \operatorname{Poisson}(\theta)$ ,  $Y \sim \operatorn
 
 The Normal and the Poisson are infinitely divisible, they are the two major types of rv's to come out of the big CLT.
 
-7.5. Covariance and correlation. Given two rv's  $X$ ,  $Y$  with means  $\mu_{X}$ ,  $\mu_{Y}$  and variances  $\sigma_{X}^{2}$ ,  $\sigma_{Y}^{2}$ , we are interested in a numerical measure of the relatedness of  $X$  and  $Y$ . It comes
+### 7.5. Covariance and correlation
+
+Given two rv's $X$, $Y$ with means $\mu_{X}$, $\mu_{Y}$ and variances $\sigma_{X}^{2}$, $\sigma_{Y}^{2}$, we are interested in a numerical measure of the relatedness of $X$ and $Y$. It comes
 
 through the function  $g(x,y) = (x - \mu_X)(y - \mu_Y)$ , which looks like a Cobb-Douglas utility function with the origin moved to  $(\mu_X, \mu_Y)$ .  $g > 0$  to the NE and SW of the shifted origin and  $g < 0$  to the NW and SE of the shifted origin. When  $g$  is, on average, positive (negative), we have evidence of a positive (negative) relation between  $X$  and  $Y$ .
 
@@ -1483,7 +1527,9 @@ Claim: If  $X \perp Y$ , then  $\operatorname{Cov}(X, Y) = 0$ , but  $[\operator
 
 Show why, an easy continuous counter-example is  $(X,Y)$  uniformly distributed over the disk of radius 1 centered at 0, a simple discrete example is the uniform distribution over the 5 points  $(-1, -1)$ ,  $(-1, +1)$ ,  $(+1, -1)$ ,  $(+1, +1)$ , and  $(0,0)$ .
 
-7.6. Bivariate normals. If  $X_{1}, X_{2}$  have the joint density
+### 7.6. Bivariate normals
+
+If $X_{1}, X_{2}$ have the joint density
 
 $$
 f (x _ {1}, x _ {2}) = k e ^ {- \frac {1}{2} (x - \mu) ^ {\prime} \Sigma (x - \mu)},
@@ -1493,7 +1539,9 @@ where  $k = \frac{1}{2\pi\sigma_1\sigma_2\sqrt{1 - \rho^2}}$ ,  $\Sigma$  the va
 
 If  $Z_{1}, Z_{2}$  are independent  $N(0,1)$ 's, and  $X$  and  $Y$  are different affine combinations of the  $Z$ 's, then  $X$  and  $Y$  are bivariate normals with the appropriate parameters.
 
-7.7. A pair of discrete, portfolio management examples. Suppose that  $X$  and  $Y$  are the random variables describing the rate of return on two different investments. We're going to consider two possible joint distributions of  $X$  and  $Y$ , one with negative and one with positive correlation. To keep things simple, the two joint distributions have the same marginal distributions.
+### 7.7. A pair of discrete, portfolio management examples
+
+Suppose that $X$ and $Y$ are the random variables describing the rate of return on two different investments. We're going to consider two possible joint distributions of $X$ and $Y$, one with negative and one with positive correlation. To keep things simple, the two joint distributions have the same marginal distributions.
 
 A
 
@@ -1644,7 +1692,9 @@ so, to minimize variance in case A, have  $13\%$  of your portfolio in  $X$ , th
 
 Going back to case B, since  $\rho_{X,Y} = \frac{1}{3}$ , and  $\frac{1}{3} > \sigma_Y / \sigma_X = 0.27\overline{27}$ , we know that  $a^* = 0$ . Give the same two graphs.
 
-7.8. The matrix formulation. Let  $X = (X_{1},\ldots ,X_{N})^{T}$ , be rv's with means  $\mu = (\mu_1,\dots ,\mu_N)^T$  and cross moments  $\sigma_{n,m} = \mathrm{Cov}(X_n,X_m)$ . Let  $\Sigma$  the symmetric,  $N\times N$  matrix with  $(n,m)$ 'th entry  $\sigma_{n,m}$ . Let  $a = (a_{1},\ldots ,a_{N})^{T}\in \mathbb{R}^{N}$ . Also let  $\tilde{1} = (1,\dots ,1)^T\in \mathbb{R}^N$ . The
+### 7.8. The matrix formulation
+
+Let $X = (X_{1},\ldots ,X_{N})^{T}$, be rv's with means $\mu = (\mu_1,\dots ,\mu_N)^T$ and cross moments $\sigma_{n,m} = \mathrm{Cov}(X_n,X_m)$. Let $\Sigma$ the symmetric, $N\times N$ matrix with $(n,m)$'th entry $\sigma_{n,m}$. Let $a = (a_{1},\ldots ,a_{N})^{T}\in \mathbb{R}^{N}$. Also let $\tilde{1} = (1,\dots ,1)^T\in \mathbb{R}^N$. The
 
 starting point is  $E a^T X = a^T \mu$  and  $\operatorname{Var}(a^T X) = a^T \Sigma a$ , which you can get by looking at the matrix formulation (with enough blackboard space). Let  $\Delta = \{a \geq 0 : a^T \tilde{1} = 1\}$ . The efficient portfolio problem for the rate of return  $r$  is
 
@@ -1658,7 +1708,7 @@ $$
 \text {P r o b l e m} v: \max  _ {a \in \Delta} a ^ {T} \mu \text {s u b j e c t t o} a ^ {T} \Sigma a \leq v.
 $$
 
-# 7.9. Problems.
+# ### 7.9. Problems
 
 Problem 7.1. Casella & Berger, 4.5.
 
@@ -1676,7 +1726,7 @@ Problem 7.7. Casella & Berger, 4.58.
 
 Problem 7.8. Casella & Berger, 4.62.
 
-# 8. SAMPLING DISTRIBUTIONS AND NORMAL APPROXIMATIONS
+## 8. SAMPLING DISTRIBUTIONS AND NORMAL APPROXIMATIONS
 
 Problem 8.1. Casella & Berger, 5.1.
 
@@ -1714,13 +1764,15 @@ Problem 8.9. Casella & Berger, 5.4.
 
 Problem 8.10. Any 2 of the following problems: Casella & Berger, 5.11, 5.15, 5.17, 5.29, 5.34, 5.44.
 
-# 9. SUFFICIENT STATISTICS AS DATA COMPRESSION
+## 9. SUFFICIENT STATISTICS AS DATA COMPRESSION
 
 Remember: a statistic,  $T(\mathbf{X})$ , is a function of the data only, it cannot depend, functionally, on the parameter to be estimated, though we expect its distribution to depend on  $\theta$ . E.g.  $T(\mathbf{X}) \equiv \mathbf{X}$  is a statistic, as is  $T(\mathbf{X}) \equiv 7$ .
 
 Useful statistics compress data, tell us the important things in the data and suppress the irrelevant details. In this section we look at what are called sufficient statistics. We'll also look ahead to the Rao-Blackwell theorem, a truly remarkable result about minimal variance unbiased estimators.
 
-9.1. Sufficient statistics. When faced with several hundred variables collected on several thousand people over a period of 30 years, one can be excused from thinking that  $\mathbf{X}$  is useless because it's too informative, or that 7 is useless because it contains too little information. A good notion of exactly the right amount of information is "everything we need to know about  $\mathbf{X}$  in order to make inferences about  $\theta$ ."
+### 9.1. Sufficient statistics
+
+When faced with several hundred variables collected on several thousand people over a period of 30 years, one can be excused from thinking that $\mathbf{X}$ is useless because it's too informative, or that 7 is useless because it contains too little information. A good notion of exactly the right amount of information is "everything we need to know about $\mathbf{X}$ in order to make inferences about $\theta$."
 
 Suppose that  $\mathbf{X}$  is iid  $P_{\theta}$  for some  $\theta \in \Theta$ , and that the density of  $\mathbf{X}$  is  $f(\mathbf{x}|\theta)$ .
 
@@ -1775,7 +1827,9 @@ $$
 
 is a sufficient statistic for  $\theta$ ,  $\theta \in \mathbb{R}^d$ ,  $d \leq k$ .
 
-9.2. Rao-Blackwell. Some time ago we looked at properties of estimators. In particular, we used the Cauchy-Schwarz inequality and some fancy side-stepping to show that we had found a minimum variance unbiased estimator in the class of all estimators. Here's another way to get at such wonderfulness. I said it before, but I'll say it again, an estimator must be a function of the data, and not a function of  $\theta$ .
+### 9.2. Rao-Blackwell
+
+Some time ago we looked at properties of estimators. In particular, we used the Cauchy-Schwarz inequality and some fancy side-stepping to show that we had found a minimum variance unbiased estimator in the class of all estimators. Here's another way to get at such wonderfulness. I said it before, but I'll say it again, an estimator must be a function of the data, and not a function of $\theta$.
 
 Recall that  $E[E(X|Y)] = EX$  and  $\operatorname{Var} X = \operatorname{Var}[E(X|Y)] + E[\operatorname{Var}(X|Y)]$ .
 
@@ -1801,7 +1855,7 @@ Example 9.2.2.  $X_{1},\ldots ,X_{n}$  iid  $U(0,\theta)$ , show that  $T\colone
 
 At the beginning of the prob/stats part of this course, we used the information inequality to show that  $\widehat{p}$  being the sample proportion achieves the minimal variance amongst all unbiased estimators. We can do that a bit more easily now …
 
-# 9.3. Problems.
+# ### 9.3. Problems
 
 Problem 9.1. Casella & Berger, 6.1.
 
@@ -1815,7 +1869,7 @@ Problem 9.5. Any three other problems from Casella & Berger, Ch. 6.1.
 
 Problem 9.6. Casella & Berger, 7.19, 7.20, and 7.21.
 
-# 10. FINDING AND EVALUATING ESTIMATORS
+## 10. FINDING AND EVALUATING ESTIMATORS
 
 The basic idea is to guess the true  $\theta$ , that is, to form an estimator  $\hat{\theta} = \hat{\theta}(X_1, \ldots, X_n)$ . Any function,  $W = W(X_1, \ldots, X_n)$  is called a statistic. Statistics that are supposed to guess at some true  $\theta$ , that is, estimators, are the ones we study most often.
 
@@ -1831,7 +1885,9 @@ Compare this to  $F_{\hat{\theta}_n}(x) = \int \dots \int_{-\infty}^x f(y|\hat{\
 
 2. The parameter  $\theta$  may have some intrinsic meaning, like the wage elasticity of labor supply or the gravitational constant.
 
-10.1. The basic Gaussian example.  $X_{1},\ldots ,X_{n}$  are iid with distribution belonging  $\{f(x|(\mu ,\sigma^2)):(\mu ,\sigma^2)\in \mathbb{R}\times \mathbb{R}_{+ + }\}$  where
+### 10.1. The basic Gaussian example
+
+$X_{1},\ldots ,X_{n}$ are iid with distribution belonging $\{f(x|(\mu ,\sigma^2)):(\mu ,\sigma^2)\in \mathbb{R}\times \mathbb{R}_{++}\}$ where
 
 $$
 f (x | (\mu , \sigma^ {2})) = \frac {1}{\sqrt {2 \pi} \sigma} e ^ {\frac {(x - \mu) ^ {2}}{2 \sigma^ {2}}}.
@@ -1882,7 +1938,9 @@ Claim:  $\overline{X}_n\sim N(\mu ,\sigma^2 /n)$ $nS^2 /\sigma^2\sim \chi^2 (n -
 
 we just need to scale  $\overline{X}_n$  and  $nS^2/\sigma^2 \sim \chi^2(n-1)$ , and form their ratio to get a  $t$  distribution with  $n-1$  degrees of freedom. Look at the algebra when we do that, the unknown  $\sigma^2$  disappears. This is what we use to form intervals when we replace the unknown  $\sigma$  by a good guess,  $\hat{\sigma} = \sqrt{S^2}$ .
 
-10.2. Some examples of finding estimators. We're going to start with a number of examples where we want to find a parameter of interest, then we'll turn to two different methods of finding estimators, the method of moments and maximum likelihood.
+### 10.2. Some examples of finding estimators
+
+We're going to start with a number of examples where we want to find a parameter of interest, then we'll turn to two different methods of finding estimators, the method of moments and maximum likelihood.
 
 10.2.1. Examples. Roughly, I divide examples into those in which we observe everything relevant to us in the sample and those we do not. This latter category is where research interest in economics often centers.
 
@@ -1909,7 +1967,7 @@ E.g.  $N(\mu, \sigma^2)$ , Binomial  $(k, p)$ ,  $U(0, \theta)$  i.e.  $f(x|\the
 
 10.2.3. Maximum likelihood. E.g.  $N(\mu, \sigma^2)$ ,  $U(0, \theta)$  (one version of the shark problem),  $f(x|\theta) = \theta x^{-2}$ ,  $0 < \theta \leq x < \infty$ , exponential  $(\beta)$ , two-tailed exponential location family.
 
-# 10.3. Problems.
+# ### 10.3. Problems
 
 Problem 10.1. Casella & Berger, 7.1.
 
@@ -1921,7 +1979,7 @@ Problem 10.4. Casella & Berger, 7.13.
 
 Problem 10.5. Casella & Berger, 7.14.
 
-# 11. EVALUATING DIFFERENT ESTIMATORS
+## 11. EVALUATING DIFFERENT ESTIMATORS
 
 Readings: Casella & Berger, Chapter 7.3, and these notes.
 

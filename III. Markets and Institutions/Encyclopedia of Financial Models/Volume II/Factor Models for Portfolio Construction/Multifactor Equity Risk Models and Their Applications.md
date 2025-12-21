@@ -1,4 +1,23 @@
 
+---
+title: Multifactor Equity Risk Models and Their Applications
+parent_directory: Factor Models for Portfolio Construction
+formatted: 2025-12-21 10:55:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: open code
+primary_tags:
+  - multifactor equity risk models
+  - fundamental factor model
+  - Barra risk model
+secondary_tags:
+  - risk decomposition
+  - portfolio construction
+  - active risk
+  - factor exposures
+  - tracking error
+cssclasses: academia
+---
+
 # Multifactor Equity Risk Models and Their Applications
 
 FRANK J. FABOZZI, PhD, CFA, CPA
@@ -17,22 +36,22 @@ Chairman, Investment Committee, Private Ocean Wealth Management
 
 Abstract: Multifactor equity risk models are classified as statistical models, macroeconomic models, and fundamental models. The most popular types of models used in practice are fundamental models. Many of the inputs used in a multifactor risk model are those used in traditional fundamental analysis. There are several commercially available fundamental multifactor risk models. There are asset management companies that develop proprietary models. Brokerage firms have developed models that they make available to institutional clients.
 
-Quantitative-oriented common stock portfolio managers typically employ a multifactor equity risk model in constructing and rebalancing a portfolio and then for evaluating performance. The most popular type of multifactor equity risk model used is a fundamental factor model. While some asset management firms develop their own model, most use commercially available models. In this entry we use one commer cially available model to illustrate the general features of fundamental models and how they are used to construct portfolios. In our illustration, we will use an old version of a model developed by Barra (now MSCI Barra). Although that model has been updated, the discussion and illustrations provide the essential points for appreciating the value of using multifactor equity models.
+Quantitative-oriented common stock portfolio managers typically employ a multifactor equity risk model in constructing and rebalancing a portfolio and then for evaluating performance. The most popular type of multifactor equity risk model used is a fundamental factor model. While some asset management firms develop their own model, most use commercially available models. In this entry we use one commercially available model to illustrate the general features of fundamental models and how they are used to construct portfolios. In our illustration, we will use an old version of a model developed by Barra (now MSCI Barra). Although that model has been updated, the discussion and illustrations provide the essential points for appreciating the value of using multifactor equity models.
 
 $$
-R_{f} = \text{ri sk -f re er at eo fr et ur n}
-$$
-
-$$
-\beta_{i, F j} = \text{se ns it iv it yo fs to ck} i \text{to ri sk fa ct or} j
+R_{f} = \text{risk-free rate of return}
 $$
 
 $$
-R_{F j} = \text{ra te}
+\beta_{i, F j} = \text{sensitivity of stock} i \text{to ri sk fa ct or} j
 $$
 
 $$
-\begin{array}{c} e_{i} = \text{no nf ac to r (sp ec if ic)r et ur no ns ec ur it y} i \end{array}
+R_{F j} = \text{rate}
+$$
+
+$$
+\begin{array}{c} e_{i} = \text{nonfactor (specific) return on security} i \end{array}
 $$
 
 The above function is referred to as a return generating function.
@@ -41,14 +60,14 @@ Fundamental factor models use company and industry attributes and market data as
 
 Once the descriptors that are statistically significant in explaining stock returns are identified, they are grouped into risk indexes to capture related company attributes. For example, descriptors such as market leverage, book leverage, debt-to-equity ratio, and company's debt rating are combined to obtain a risk index referred to as "leverage." Thus, a risk index is a combination of descriptors that captures a particular attribute of a company.
 
-The Barra fundamental multifactor risk model, the "E3 model" being the latest version, has 13 risk indexes and 55 industry groups. (The descriptors are the same variables that have been consistently found to be important in many well-known academic studies on risk factors.) Table 1 lists the 13 risk indexes in the Barra model. Also shown in the table are the descriptors used to construct each risk index. The 55 industry classifications are grouped into 13 sectors. For example, the following three industries comprise the energy sector: energy reserves and production, oil refining, and oil services. The consumer noncyclicals sector consists of the following five industries: food and beverages, alcohol, tobacco, home products, and grocery stores. The 13 sectors in the Barra model are basic materials, energy, consumer noncylicals, consumer cyclicals, consumer services, industrials, utility, transport, health care, technology, telecommunications, commercial services, and financial.
+The Barra fundamental multifactor risk model, the "E3 model" being the latest version, has 13 risk indexes and 55 industry groups. (The descriptors are the same variables that have been consistently found to be important in many well-known academic studies on risk factors.) Table 1 lists the 13 risk indexes in the Barra model. Also shown in the table are the descriptors used to construct each risk index. The 55 industry classifications are grouped into 13 sectors. For example, the following three industries comprise the energy sector: energy reserves and production, oil refining, and oil services. The consumer noncyclicals sector consists of the following five industries: food and beverages, alcohol, tobacco, home products, and grocery stores. The 13 sectors in the Barra model are basic materials, energy, consumer noncyclicals, consumer cyclicals, consumer services, industrials, utility, transport, health care, technology, telecommunications, commercial services, and financial.
 
 Given the risk factors, information about the exposure of every stock to each risk factor  $(\beta_{i,Fj})$  is estimated using statistical analysis. For a given time period, the rate of return for each risk factor  $(R_{Fj})$  also can be estimated using statistical analysis. The prediction for the expected return can be obtained from equation (1) for any stock. The nonfactor return  $(e_i)$  is found by subtracting the actual return for the period for a stock from the return as predicted by the risk factors.
 
 Moving from individual stocks to portfolios, the predicted return for a portfolio can be computed. The exposure to a given risk factor of a portfolio is simply the weighted average of the exposure of each stock in the portfolio to that risk factor. For example, suppose a portfolio has 42 stocks. Suppose further that stocks 1 through 40 are equally weighted in the portfolio at  $2.2\%$ , stock 41 is  $5\%$  of the portfolio, and stock 42 is  $7\%$  of the portfolio. Then the exposure of the portfolio to risk factor  $j$  is
 
 $$
-\begin{array}{l} 0. 0 2 2 \beta_{1, F j} + 0. 0 2 2 \beta_{2, F j} + \dots + 0. 0 2 2 \beta_{4 0, F j} \\ + 0. 0 5 0 \beta_{4 1, F j} + 0. 0 7 \beta_{4 2, F j} \\ \end{array}
+\begin{array}{l} 0.022 \beta_{1, F j} + 0.022 \beta_{2, F j} + \dots + 0.022 \beta_{4 0, F j} \\ + 0. 0 5 0 \beta_{4 1, F j} + 0. 0 7 \beta_{4 2, F j} \\ \end{array}
 $$
 
 Table 1 Barra E3 Model Risk Definitions

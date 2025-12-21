@@ -1,18 +1,61 @@
 ---
-parent_directory:
-title: Chapter 1 Asset Returns
-tags:
-aliases:
-parent_folder: Advanced Investments
-subfolder:
-key_concepts:
+title: "Asset Returns"
+parent_directory: Financial Investments for Public Policy
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - asset returns
+  - log returns
+  - simple returns
+  - return distributions
+secondary_tags:
+  - one-period returns
+  - multiperiod returns
+  - continuously compounded returns
+  - dividend adjustments
+  - bond yields
+  - excess returns
+  - stylized features
+  - heavy tails
+  - volatility clustering
+  - efficient markets hypothesis
+  - white noise tests
+  - random walk tests
 cssclasses: academia
-linter-yaml-title-alias: Chapter 1 Asset Returns
 ---
 
 # Chapter 1 Asset Returns
 
 The primary goal of investing in a financial market is to make profits without taking excessive risks. Most common investments involve purchasing financial assets such as stocks, bonds or bank deposits, and holding them for certain periods. Positive revenue is generated if the price of a holding asset at the end of holding period is higher than that at the time of purchase (for the time being we ignore transaction charges). Obviously the size of the revenue depends on three factors: (i) the initial capital (i.e. the number of assets purchased), (ii) the length of holding period, and (iii) the changes of the asset price over the holding period. A successful investment pursues the maximum revenue with a given initial capital, which may be measured explicitly in terms of the so-called return. A return is a percentage defined as the change of price expressed as a fraction of the initial price. It turns out that asset returns exhibit more attractive statistical properties than asset prices themselves. Therefore it also makes more statistical sense to analyze return data rather than price series.
+
+```d2
+direction: right
+
+Return Types: Return Types {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
+
+Simple Return: Simple Return {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+}
+
+Gross Return: Gross Return {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+}
+
+Log Return: Log Return {
+  shape: rectangle
+  style.fill: "#fff3e0"
+}
+
+Return Types -> Simple Return: (P_t - P_{t-1}) / P_{t-1}
+Return Types -> Gross Return: P_t / P_{t-1}
+Return Types -> Log Return: log(P_t / P_{t-1})
+```
 
 # 1.1 Returns
 
@@ -23,12 +66,10 @@ Let  $P_{t}$  denote the price of an asset at time  $t$ . First we introduce var
 Holding an asset from time  $t - 1$  to  $t$ , the value of the asset changes from  $P_{t-1}$  to  $P_t$ . Assuming that no dividends paid are over the period. Then the one-period simple return is defined as
 
 $$
-R_{t} = \left(P_{t} - P_{t - 1}\right) / P_{t - 1}. \tag {1.1}
+R_{t} = \left(P_{t} - P_{t - 1}\right) / P_{t - 1}. \tag{1.1}
 $$
 
-It is the profit rate of holding the asset from time  $t - 1$  to  $t$ . Often we write  $R_{t} = 100R_{t}\%$ , as  $100R_{t}$  is the percentage of the gain with respect to the initial capital  $P_{t-1}$ . This is particularly useful when the time unit is small (such as a day or an hour); in such cases  $R_{t}$  typically takes very small values. The returns for less
-
-risky assets such as bonds can be even smaller in a short period and are often quoted in basis points, which is  $10,000R_{t}$ .
+It is the profit rate of holding the asset from time  $t - 1$  to  $t$ . Often we write  $R_{t} = 100R_{t}\%$ , as  $100R_{t}$  is the percentage of the gain with respect to the initial capital  $P_{t-1}$ . This is particularly useful when the time unit is small (such as a day or an hour); in such cases  $R_{t}$  typically takes very small values. The returns for less risky assets such as bonds can be even smaller in a short period and are often quoted in basis points, which is  $10,000R_{t}$ .
 
 The one period gross return is defined as  $P_{t} / P_{t - 1} = R_{t} + 1$ . It is the ratio of the new market value at the end of the holding period over the initial market value.
 
@@ -43,17 +84,17 @@ $$
 and the  $k$ -period gross return is  $P_{t} / P_{t - k} = R_{t}(k) + 1$ . It is easy to see that the multiperiod returns may be expressed in terms of one-period returns as follows:
 
 $$
-\frac{P_{t}}{P_{t - k}} = \frac{P_{t}}{P_{t - 1}} \frac{P_{t - 1}}{P_{t - 2}} \dots \frac{P_{t - k + 1}}{P_{t - k}}, \tag {1.2}
+\frac{P_{t}}{P_{t - k}} = \frac{P_{t}}{P_{t - 1}} \frac{P_{t - 1}}{P_{t - 2}} \dots \frac{P_{t - k + 1}}{P_{t - k}}, \tag{1.2}
 $$
 
 $$
-R_{t} (k) = \frac{P_{t}}{P_{t - k}} - 1 = \left(R_{t} + 1\right) \left(R_{t - 1} + 1\right) \dots \left(R_{t - k + 1} + 1\right) - 1. \tag {1.3}
+R_{t} (k) = \frac{P_{t}}{P_{t - k}} - 1 = \left(R_{t} + 1\right) \left(R_{t - 1} + 1\right) \dots \left(R_{t - k + 1} + 1\right) - 1. \tag{1.3}
 $$
 
 If all one-period returns  $R_{t},\dots ,R_{t - k + 1}$  are small, (1.3) implies an approximation
 
 $$
-R_{t} (k) \approx R_{t} + R_{t - 1} + \dots + R_{t - k + 1}. \tag {1.4}
+R_{t} (k) \approx R_{t} + R_{t - 1} + \dots + R_{t - k + 1}. \tag{1.4}
 $$
 
 This is a useful approximation when the time unit is small (such as a day, an hour or a minute).
@@ -63,13 +104,13 @@ This is a useful approximation when the time unit is small (such as a day, an ho
 In addition to the simple return  $R_{t}$ , the commonly used one period log return is defined as
 
 $$
-r_{t} = \log P_{t} - \log P_{t - 1} = \log (P_{t} / P_{t - 1}) = \log (1 + R_{t}). \qquad (1. 5)
+r_{t} = \log P_{t} - \log P_{t - 1} = \log (P_{t} / P_{t - 1}) = \log (1 + R_{t}). \qquad (1.5)
 $$
 
 Note that a log return is the logarithm (with the natural base) of a gross return and  $\log P_t$  is called the log price. One immediate convenience in using log returns is that the additivity in multiperiod log returns, i.e. the  $k$  period log return  $r_t(k) \equiv \log(P_t / P_{t-k})$  is the sum of the  $k$  one-period log returns:
 
 $$
-r_{t} (k) = r_{t} + r_{t - 1} + \dots + r_{t - k + 1}. \tag {1.6}
+r_{t} (k) = r_{t} + r_{t - 1} + \dots + r_{t - k + 1}. \tag{1.6}
 $$
 
 An investment at time  $t - k$  with initial capital  $A$  yields at time  $t$  the capital
@@ -98,12 +139,10 @@ Figure 1.1 Plots of log returns against simple returns of the Apple Inc share pr
 The log return  $r_t$  is also called continuously compounded return due to its close link with the concept of compound rates or interest rates. For a bank deposit account, the quoted interest rate often refers to as 'simple interest'. For example, an interest rate of  $5\%$  payable every six months will be quoted as a simple interest of  $10\%$  per annum in the market. However if an account with the initial capital  $\$1$  is held for 12 months and interest rate remains unchanged, it follows from (1.2) that the gross return for the two periods is
 
 $$
-1 \times (1 + 0. 0 5)^{2} = 1. 1 0 2 5,
+1 \times (1 + 0.05)^{2} = 1.1025,
 $$
 
-i.e. the annual simple return is  $1.1025 - 1 = 10.25\%$  , which is called the compound
-
-return and is greater than the quoted annual rate of  $10\%$ . This is due to the earning from 'interest-on-interest' in the second six-month period.
+i.e. the annual simple return is  $1.1025 - 1 = 10.25\%$  , which is called the compound return and is greater than the quoted annual rate of  $10\%$ . This is due to the earning from 'interest-on-interest' in the second six-month period.
 
 Now suppose that the quoted simple interest rate per annum is  $r$  and is unchanged, and the earnings are paid more frequently, say,  $m$  times per annum (at the rate  $r / m$  each time of course). For example, the account holder is paid every quarter when  $m = 4$ , every month when  $m = 12$ , and every day when  $m = 365$ . Suppose  $m$  continues to increase, and the earnings are paid continuously eventually. Then the gross return at the end of one year is
 
@@ -150,7 +189,7 @@ $$
 i.e. the price is  $B_{t} = \exp(-Dr_{t})$  dollars. Thus, the annualized log-return of the bond is
 
 $$
-\log \left(B_{t + 1} / B_{t}\right) = D \left(r_{t} - r_{t + 1}\right). \tag {1.7}
+\log \left(B_{t + 1} / B_{t}\right) = D \left(r_{t} - r_{t + 1}\right). \tag{1.7}
 $$
 
 Here, we ignore the fact that  $B_{t + 1}$  has one unit of time shorter maturity than  $B_{t}$ .
@@ -202,9 +241,7 @@ Figure 1.5 Histograms (the top panels) and Q-Q plots (the bottom panels) of the 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/8494b680-01f8-403b-8e93-5e71bb65f77b/fa05b112ad41345251030c5cd7c35e22f914374c9f58501d61ebb6b14944c3b0.jpg)
 
-periods are not normally distributed. Especially the tails of the return distributions
-
-are heavier than those of the normal distribution, which is highlighted explicitly in the Q-Q plots: the left tail (red circles) is below (negatively larger) the blue line, and the right tail (red circles) is above (larger) the blue line. We have also noticed that when the holding period increases from a day, a week to a month, the tails of the distributions become lighter. In particular the upper tail of the distribution for the monthly returns is about equally heavy as that of a normal distribution (red circles and blue line are about the same). All the distributions are skewed to the left due to a few large negative returns. The histograms also show that the distribution for the monthly returns is closer to a normal distribution than those for the weekly returns and the daily returns. The similar patterns are also observed in the Apple return data; see Figure 1.6.
+periods are not normally distributed. Especially the tails of the return distributions are heavier than those of the normal distribution, which is highlighted explicitly in the Q-Q plots: the left tail (red circles) is below (negatively larger) the blue line, and the right tail (red circles) is above (larger) the blue line. We have also noticed that when the holding period increases from a day, a week to a month, the tails of the distributions become lighter. In particular the upper tail of the distribution for the monthly returns is about equally heavy as that of a normal distribution (red circles and blue line are about the same). All the distributions are skewed to the left due to a few large negative returns. The histograms also show that the distribution for the monthly returns is closer to a normal distribution than those for the weekly returns and the daily returns. The similar patterns are also observed in the Apple return data; see Figure 1.6.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/8494b680-01f8-403b-8e93-5e71bb65f77b/ac332bf4ca6f8768b32ce815af9228bdf4518412f2bbd50da297d63b6114c24c.jpg)
 
@@ -222,7 +259,7 @@ Figure 1.6 Histograms (the top panels) and Q-Q plots (the bottom panels) of the 
 Figures 1.7 and 1.8 plot the sample autocorrelation function (ACF)  $\widehat{\rho}_k$  against the time lag  $k$  for the log returns, the squared log returns and the absolute log returns. Given a return series  $r_1,\dots ,r_T$ , the sample autocorrelation function is defined as  $\widehat{\rho}_k = \widehat{\gamma}_k / \widehat{\gamma}_0$ , where
 
 $$
-\widehat {\gamma}_{k} = \frac{1}{T} \sum_{t = 1}^{T - k} (r_{t} - \bar {r}) (r_{t + k} - \bar {r}), \quad \bar {r} = \frac{1}{T} \sum_{t = 1}^{T} r_{t}. \qquad \qquad (1. 8)
+\widehat {\gamma}_{k} = \frac{1}{T} \sum_{t = 1}^{T - k} (r_{t} - \bar {r}) (r_{t + k} - \bar {r}), \quad \bar {r} = \frac{1}{T} \sum_{t = 1}^{T} r_{t}. \qquad \qquad (1.8)
 $$
 
 $\widehat{\gamma}_k$  is the sample autocovariance at lag  $k$ . It is (about) the same as the sample correlation coefficient of the paired observations  $\{(r_t, r_{t+k})\}_{t=1}^{T-k}$  (the difference is in the definition of the sample mean in the calculation of the sample covariance). The sample autocorrelation functions for the squared and the absolute returns are defined in the same manner but with  $r_t$  replaced by, respectively,  $r_t^2$  and  $|r_t|$ . For each ACF plot in Figures 1.7 and 1.8, the two dashed horizontal lines, which are  $\pm 1.96/\sqrt{T}$ , are the bounds for the  $95\%$  confidence interval for  $\rho_k$  if the true value is  $\rho_k = 0$ . Hence  $\rho_k$  would be viewed as not significantly different from 0 if its estimator  $\widehat{\rho}_k$  is between those two lines. It is clear from Figures 1.7 and 1.8 that all the daily, weekly and monthly returns for both S&P 500 and the Apple stock exhibit no significant autocorrelation, supporting the hypothesis that the returns of a financial asset are uncorrelated across time. However there are some small but significant autocorrelations in the squared returns and more in the absolute returns.
@@ -271,16 +308,14 @@ Furthermore the autocorrelations are more pronounced and more persistent in the 
 
 The above findings from the two real data sets are in line with the so-called stylized features in financial returns series, which are observed across different kinds of assets including stocks, portfolios, bonds and currencies. See, e.g. Rydberg (2000). We summarize these features below.
 
-(i) Stationarity. The prices of an asset recorded over times are often not stationary due to, for example, the steady expansion of economy, the increase of productivity resulting from technology innovation, and economic recessions or financial crisis. However their returns, denoted by  $r_t$  for  $t \geq 1$ , typically fluctuates around a
-
-constant level, suggesting a constant mean over time. See Figures 1.3 and 1.4. In fact most return sequences can be modeled as a stochastic processes with at least time-invariant first two moments (i.e. the weak stationarity; see 2.1). A simple (and perhaps over-simplistic) approach is to assume that all the finite dimensional distributions of a return sequence are time-invariant.
+(i) Stationarity. The prices of an asset recorded over times are often not stationary due to, for example, the steady expansion of economy, the increase of productivity resulting from technology innovation, and economic recessions or financial crisis. However their returns, denoted by  $r_t$  for  $t \geq 1$ , typically fluctuates around a constant level, suggesting a constant mean over time. See Figures 1.3 and 1.4. In fact most return sequences can be modeled as a stochastic processes with at least time-invariant first two moments (i.e. the weak stationarity; see 2.1). A simple (and perhaps over-simplistic) approach is to assume that all the finite dimensional distributions of a return sequence are time-invariant.
 
 (ii) Heavy tails. The probability distribution of return  $r_t$  often exhibits heavier tails than those of a normal distribution. Figures 1.5 and 1.6 provide the quantile-quantile plot or  $Q - Q$  plot for graphical checking of normality. See Section 1.5 for detail. A frequently used statistic for checking the normality (including tail-heaviness) is the Jarque-Bera test presented in Section 1.5. Nevertheless  $r_t$  is assumed typically to have at least two finite moments (i.e.  $E(r_t^2) < \infty$ ), although it is debatable how many moments actually exist for a given asset.
 
 The density of  $t$ -distribution with degree of freedom  $\nu$  is given by
 
 $$
-f_{\nu} (x) = d_{\nu}^{- 1} \left(1 + \frac{x^{2}}{\nu}\right)^{- (\nu + 1) / 2}, \tag {1.9}
+f_{\nu} (x) = d_{\nu}^{- 1} \left(1 + \frac{x^{2}}{\nu}\right)^{- (\nu + 1) / 2}, \tag{1.9}
 $$
 
 where  $d_{\nu} = B(0.5, 0.5\nu)\sqrt{\nu}$  is the normalization constant and  $B$  is a beta function. This distribution is often denoted as  $t(\nu)$  or  $t_{\nu}$ . Its tails are of polynomial order  $f_{\nu}(x) \asymp |x|^{-(\nu + 1)}$  (as  $|x| \to \infty$ ), which are heavier than the normal density. Note that for any random variable  $X \sim t(\nu)$ ,  $E\{|X|^{\nu}\} = \infty$  and  $E\{|X|^{\nu - \delta}\} < \infty$  for any  $\delta \in (0, \nu]$ .
@@ -332,7 +367,7 @@ The above describes the strong form of the EMH: security prices of traded assets
 Under the EHM, an asset return process may be expressed as
 
 $$
-r_{t} = \mu_{t} + \varepsilon_{t}, \quad \varepsilon_{t} \sim (0, \sigma_{t}^{2}), \tag {1.10}
+r_{t} = \mu_{t} + \varepsilon_{t}, \quad \varepsilon_{t} \sim (0, \sigma_{t}^{2}), \tag{1.10}
 $$
 
 where  $\mu_t$  is the rational expectation of  $r_t$  at time  $t - 1$ , and  $\varepsilon_t$  represents the return due to unpredictable "news" which arrives between time  $t - 1$  and  $t$ . In this sense,  $\varepsilon_t$  is an innovation - a term used very often in time series literature. We use the notation  $X \sim (\mu, \nu)$  to denote that a random variable  $X$  has mean  $\mu$  and variance  $\nu$ , respectively. The assumption that  $E\varepsilon_t = 0$  reflects the belief that on average the actual change of log price equals the expectation  $\mu_t$ .
@@ -340,7 +375,7 @@ where  $\mu_t$  is the rational expectation of  $r_t$  at time  $t - 1$ , and  $
 By combining the EHM model (1.10) with some stylized features outlined in Section 1.2, most frequently used statistical models for financial returns admit the form
 
 $$
-r_{t} = \mu + \varepsilon_{t}, \quad \varepsilon_{t} \sim \operatorname{WN} (0, \sigma^{2}), \tag {1.11}
+r_{t} = \mu + \varepsilon_{t}, \quad \varepsilon_{t} \sim \operatorname{WN} (0, \sigma^{2}), \tag{1.11}
 $$
 
 where  $\mu = Er_{t}$  is the expected return, which is assumed to be a constant. The notation  $\varepsilon_{t} \sim \mathrm{WN}(0, \sigma^{2})$  denotes that  $\varepsilon_{1}, \varepsilon_{2}, \dots$  form a white noise process with  $E\varepsilon_{t} = 0$  and  $\mathrm{var}(\varepsilon_t) = \sigma^2$ ; see (i) below. Here we assume that  $\mathrm{var}(\varepsilon_t) = \mathrm{var}(r_t) = \sigma^2$  is a finite positive constant, noting that most varying volatilities in the return plots in Figures 1.3 & 1.4 can be represented by conditional heteroscadasticity under the martingale difference assumption (ii) below. The assumption (1.11) is reasonable, supported by the empirical analysis in section 1.2.
@@ -351,13 +386,13 @@ There are three different types of assumptions about the innovations  $\{\vareps
 (ii) Martingale difference innovations:  $\varepsilon_{t}$  form a martingale difference sequence in the sense that for any  $t$
 
 $$
-E \left(\varepsilon_{t} \mid r_{t - 1}, r_{t - 2}, \dots\right) = E \left(\varepsilon_{t} \mid \varepsilon_{t - 1}, \varepsilon_{t - 2}, \dots\right) = 0. \tag {1.12}
+E \left(\varepsilon_{t} \mid r_{t - 1}, r_{t - 2}, \dots\right) = E \left(\varepsilon_{t} \mid \varepsilon_{t - 1}, \varepsilon_{t - 2}, \dots\right) = 0. \tag{1.12}
 $$
 
 One of the most frequently used format for martingale difference innovations is of the form
 
 $$
-\varepsilon_{t} = \sigma_{t} \eta_{t}, \tag {1.13}
+\varepsilon_{t} = \sigma_{t} \eta_{t}, \tag{1.13}
 $$
 
 where  $\eta_t \sim \mathrm{IID}(0,1)$  (see (iii) below), and  $\sigma_t$  is a predictable volatility process, known at time  $t - 1$ , satisfying the condition
@@ -408,7 +443,7 @@ On the other hand, the empirical evidence reported in Section 1.2 indicates that
 Note that  $r_t = \log (P_t / P_{t - 1})$ . It follows from (1.11) that
 
 $$
-\log P_{t} = \mu + \log P_{t - 1} + \varepsilon_{t}. \tag {1.14}
+\log P_{t} = \mu + \log P_{t - 1} + \varepsilon_{t}. \tag{1.14}
 $$
 
 Hence under the assumption that the innovations  $\varepsilon_{t}$  are IID, the log prices  $\log P_t$ ,  $t = 1,2,\dots$  form a random walk, and the prices  $P_{t}$ ,  $t = 0,1,2,\dots$ , are a geometric random walk. Since the future is independent of the present and the past, the EMH holds in the most strict sense and nothing in the future can be predicted based on the available information up to the present. If we further assume  $\varepsilon_{t}$  to be normal,  $P_{t}$  follows a log normal distribution. Then the price process  $P_{t}$ ,  $t = 0,1,2,\dots$ , is a log normal geometric random walk. As the length of time unit shrinks to zero, the number of periods goes to infinity and the appropriately normalized random walk  $\log P_{t}$  converges to a Brownian motion, and the geometric random walk  $P_{t}$  converges to a geometric Brownian motion under which the celebrated Black-Scholes formula is derived. The concept that stock market prices evolve according to a random walk can be traced back at least to French mathematician Louis Bachelier in his PhD dissertation in 1900.
@@ -444,7 +479,7 @@ $$
 In fact if  $\rho_{k} = 0$ ,  $r_t$  and  $r_{t - k}$  are linearly independent, and  $\rho_{k} = \pm 1$  if and only if  $r_t = a + br_{t - k}$  for some constants  $a$  and  $b$ . When  $\{r_t\}$  is a white noise sequence,  $\rho_{k} = 0$  for all  $k\neq 0$ . In practice, we do not know  $\rho_{k}$ . Based on observed returns  $r_1,\dots ,r_T$ , we use the estimator  $\widehat{\rho}_k = \widehat{\gamma}_k / \widehat{\gamma}_0$  instead, where  $\widehat{\gamma}_k$  is defined in (1.8). The Ljung-Box  $Q_{m}$ -statistic is defined as
 
 $$
-Q_{m} = T (T + 2) \sum_{j = 1}^{m} \frac{1}{T - j} \widehat {\rho}_{j}^{2}, \tag {1.15}
+Q_{m} = T (T + 2) \sum_{j = 1}^{m} \frac{1}{T - j} \widehat {\rho}_{j}^{2}, \tag{1.15}
 $$
 
 where  $m \geqslant 1$  is a prescribed integer. Note that  $Q_{m}$  is essentially a weighted sum of the squared sample ACF over the first  $m$  lags, though the weights are approximately the same when  $T \gg m$ . Intuitively we reject the white noise hypothesis for large values of  $Q_{m}$ . How large is large depends on the theoretical distribution of  $Q_{m}$  under the null hypothesis, which turns out to be problematic; see below. In practice a chi-square approximation is used: For  $\alpha \in (0,1)$ , let  $\chi_{\alpha,m}^{2}$  denote the top  $\alpha$ -th percentile of the  $\chi^{2}$ -distribution with  $m$  degrees of freedom.
@@ -474,7 +509,7 @@ The asymptotic normality of this statistic under the condition that  $m \to \inf
 The chi-square approximation for the null distribution of Ljung-Box test statistic is based on the fact that when  $\{r_t\}$  is an IID sequence,  $\widehat{\rho}_1,\dots ,\widehat{\rho}_m$  are asymptotically independent, and each of them has an asymptotic distribution  $N(0,1 / T)$  (Theorem 2.8(iii) of Fan and Yao (2003)). Hence
 
 $$
-Q_{m}^{*} \equiv T \sum_{j = 1}^{m} \hat {\rho}_{j}^{2} \sim \chi_{m}^{2} \quad \text{ap pr ox im at el yf or la rg e} T.
+Q_{m}^{*} \equiv T \sum_{j = 1}^{m} \hat {\rho}_{j}^{2} \sim \chi_{m}^{2} \quad \text{approximately for large} T.
 $$
 
 Now, it is easy to see that  $Q_{m}$  is approximately the same as  $Q_{m}^{*}$  when  $T$  is large, since  $(T + 2) / (T - j) \approx 1$ . Hence, it also follows  $\chi_{m}^{2}$ -distribution under the null hypothesis. In fact  $Q_{m}^{*}$  is the test statistic proposed by Box and Pierce (1970). However Ljung and Box (1978) subsequently discovered that the  $\chi^2$ -approximation to the distribution of  $Q_{m}^{*}$  is not always adequate even for  $T$  as large as 100. They suggest to use the statistic  $Q_{m}$  instead as its distribution is closer to  $\chi_{m}^{2}$ . See also Davies, Triggs and Newbold (1977).
@@ -488,25 +523,25 @@ One alternative is to impose an explicit assumption on the structure of white no
 Another way to test the EMH is to look at the random walk model (1.14) for log prices  $X_{t} \equiv \log P_{t}$ . In general we may impose an autoregressive model for the log prices:
 
 $$
-X_{t} = \mu + \alpha X_{t - 1} + \varepsilon_{t}. \tag {1.16}
+X_{t} = \mu + \alpha X_{t - 1} + \varepsilon_{t}. \tag{1.16}
 $$
 
 To test the validity of model (1.14) is equivalent to testing the hypothesis  $H_0: \alpha = 1$  in the above model. This is a special case of the unit-root test which we will revisit again later. We introduce here the Dickey-Fuller test which in fact deals with three different cases: (i) the model (1.16) with a drift  $\mu$ , (ii) the model without drift
 
 $$
-X_{t} = \alpha X_{t - 1} + \varepsilon_{t}, \tag {1.17}
+X_{t} = \alpha X_{t - 1} + \varepsilon_{t}, \tag{1.17}
 $$
 
 and (iii) the model with both drift and a linear trend
 
 $$
-X_{t} = \mu + \beta t + \alpha X_{t - 1} + \varepsilon_{t}. \tag {1.18}
+X_{t} = \mu + \beta t + \alpha X_{t - 1} + \varepsilon_{t}. \tag{1.18}
 $$
 
 Based on observations  $X_{1},\dots ,X_{T}$ , let  $\widehat{\alpha}$  be the least squares estimator for  $\alpha$ , and  $\mathrm{SE}(\widehat{\alpha})$  be the standard error of  $\widehat{\alpha}$ . These can easily be obtained from any least-squares package. Then the Dickey-Fuller statistic is defined as
 
 $$
-W = (\widehat {\alpha} - 1) / \mathrm{SE} (\widehat {\alpha}). \tag {1.19}
+W = (\widehat {\alpha} - 1) / \mathrm{SE} (\widehat {\alpha}). \tag{1.19}
 $$
 
 We reject  $H_0: \alpha = 1$  if  $W$  is smaller than a critical value determined by the significance level of the test and the distribution of  $W$  under  $H_0$ . The intuition behind this one-sided test may be understood as follows. This random walk test is only relevant when the evidence for  $\alpha < 1$  is overwhelming. Then we reject  $H_0: \alpha = 1$  only if the statistical evidence is in favor of  $H_1: \alpha < 1$ . The hypothesis  $H_1$  implies that  $X_t$  is a stationary and causal process (see section 2.2.2 below) for models (1.16) and (1.17), and, furthermore, the changes  $\{X_t - X_{t-1}\}$  is an autocorrelated process. In the context of model (1.14), this implies that the returns  $r_t = \log P_t - \log P_{t-1}$  are auto-correlated and, therefore, are not white noise. When  $\alpha > 1$ , the process  $X_t$  is explosive, which implies  $r_t = \mu + \gamma \log P_{t-1} + \varepsilon_t$  for some positive constant  $\gamma$ . The latter equation has little bearing in modelling real financial prices except that it can be used as a tool for modeling financial bubbles; see Phillips and Yu (2011).
@@ -543,7 +578,7 @@ Although the Dickey-Fuller statistic is of the form of a  $t$ -statistic (see (1
 
 Table 1.2 The critical values of the (augmented) Dickey-Fuller test  
 
-<table><tr><td rowspan="2">Model</td><td colspan="3">Significance level</td></tr><tr><td>10%</td><td>5%</td><td>1%</td></tr><tr><td>(1.17) or (2.66): no drift, no trend</td><td>-1.61</td><td>-1.95</td><td>-2.60</td></tr><tr><td>(1.16) or (2.67): drift, no trend</td><td>-2.25</td><td>-2.89</td><td>-3.51</td></tr><tr><td>(1.18) or (2.68): drift &amp; trend</td><td>-3.15</td><td>-3.45</td><td>-4.04</td></tr></table>
+<table><tr><td rowspan="2">Model</td><td colspan="3">Significance level</td></tr><tr><td>10%</td><td>5%</td><td>1%</td></tr><tr><td>(1.17) or (2.66): no drift, no trend</td><td>-1.61</td><td>-1.95</td><td>-2.60</td></tr><tr><td>(1.16) or (2.67): drift, no trend</td><td>-2.25</td><td>-2.89</td><td>-3.51</td></tr><tr><td>(1.18) or (2.68): drift & trend</td><td>-3.15</td><td>-3.45</td><td>-4.04</td></tr></table>
 
 The  $R$ -code "aDF.test.r" defines a function aDF.test which implements the (augmented) Dickey-Fuller test: aDF.test(x, kind=i, k=0), where x is a data vector, and i should be set at 2 for model (1.16), 1 for model (1.17), and 3 for model (1.18).
 
@@ -571,7 +606,7 @@ A Q-Q plot is a graphical method for comparing two probability distribution func
 For any probability distribution function  $F$  and  $\alpha \in (0,1)$ , the  $\alpha$ -th quantile of  $F$  is defined as
 
 $$
-F^{- 1} (\alpha) = \max  \{x: F (x) \leqslant \alpha \}. \tag {1.20}
+F^{- 1} (\alpha) = \max  \{x: F (x) \leqslant \alpha \}. \tag{1.20}
 $$
 
 For any two probability distribution functions  $F$  and  $G$ , the quantile-quantile plot, or simply the  $Q - Q$  plot, of  $F$  and  $Q$  is a curve on a two-dimensional plane obtained by plotting  $F^{-1}(\alpha)$  against  $G^{-1}(\alpha)$  for  $0 < \alpha < 1$ .
@@ -587,7 +622,7 @@ for some constant  $\mu$  and  $\sigma > 0$ , their Q-Q plot is a straightline. 
 We illustrate the usefulness of a Q-Q plot by an example using the daily S&P 500 returns. The lower-left panel in Figure 1.5 is the Q-Q plot of  $F$  and  $G$ , where  $F$  is the standard normal distribution and  $G$  is the empirical distribution of the daily returns of S&P 500 index. It gives basically the scatter plot of pairs
 
 $$
-\left(F^{- 1} \Big (\frac{i - 0 . 5}{n} \Big), x_{(i)}\right), \qquad i = 1, \dots , n,
+\left(F^{- 1} \Big (\frac{i - 0.5}{n} \Big), x_{(i)}\right), \qquad i = 1, \dots , n,
 $$
 
 where  $x_{(i)}$  is the  $i^{th}$  smallest value of the data  $\{x_i\}_{i=1}^n$ , representing the empirical  $i/n$ -quantile, and  $F^{-1}((i - 0.5)/n)$  is its corresponding theoretical quantile modulus a location-scale transform. We do not use  $F^{-1}(i/n)$  as its theoretical quantile to avoid  $F^{-1}(i/n) = \infty$  for  $i = n$ . Different software has slightly different modifications from what is presented above, but the key idea of comparing the empirical quantiles with those of their referenced distribution remains the same. The blue straight line marks the position if the two distributions are identical under a location-scale transformation. The points on the left in the graph are the lower quantiles, corresponding to  $\alpha$  close to 0 (see (1.20) above). Since those points are below the blue line, the lower quantiles of  $G$  (empirical quantiles) are smaller (i.e. negatively larger) than their expected values if  $G$  is a location-scale transformation of  $F$ . This means that the left tail of  $G$  is heavier than that of  $F$ , namely the daily returns of S&P 500 index have a heavier left tail than the normal distribution. Similarly, it can be concluded that the daily returns of S&P 500 index have a heavier right tail than the normal distribution. However, the daily returns of S&P 500 index have lighter tails than the  $t$ -distribution with degree of freedom 3, as shown in Figure 1.9.
@@ -630,62 +665,7 @@ It is our hope that readers will be stimulated to use the methods described in t
 
 http://orfe.princeton.edu/\~jqfan/fan/FinEcon.html
 
-# 1.7 Exercises
 
-1.1 Download the daily, weekly and monthly prices for the Nasdaq index and the IBM stock from Yahoo!Finance. Reproduce Figures 1.3 - 1.8 using the Nasdaq index and the IBM stock data instead.  
-1.2 Consider a path dependent payoff function  $Y_{t} = a_{1}r_{t + 1} + \dots +a_{k}r_{t + k}$  where  $\{a_i\}_{i = 1}^k$  are given weights. If the return time series is weak stationary in the sense that  $\operatorname{cov}(r_t,r_{t + j}) = \gamma (j)$ . Show that
-
-$$
-\operatorname{va r} \left(Y_{t}\right) = \sum_{i = 1}^{k} \sum_{j = 1}^{k} a_{i} a_{j} \gamma_{i - j}.
-$$
-
-A natural estimate of this variance is the following substitution estimator:
-
-$$
-\operatorname{va r} \left(Y_{t}\right) = \sum_{i = 1}^{k} \sum_{j = 1}^{k} a_{i} a_{j} \hat {\gamma}_{i - j},
-$$
-
-where  $\hat{\gamma}_{i - j}$  is defined by (1.8). Show that  $\mathrm{var}(Y_t)\geqslant 0$
-
-1.3 Consider the following quote from Eugene Fama who was Myron Scholes' thesis adviser: If the population of prices changes is strictly normal, on the average for any stock … an observation more than five standard deviations from the mean should be observed about once every 7000 years. In fact such observations seem to occur about once every three or four years.  
-(See Lowenstein, 2001, page 71.) For  $X \sim N(\mu, \sigma^2)$ ,  $P(|X - \mu| > 5\sigma) = 5.733 \times 10^{-7}$ , deduce how many observations per year Fama was implicitly assuming to be made. If a year is defined as 252 trading days and daily returns are normal, how many years is it expected to take to get a 5 standard deviation event? How does the answer to the last question change when the daily returns follow the  $t$ -distribution with 4 degrees of freedom.  
-1.4 Is the (marginal) distribution of log-returns over a long time horizon (e.g. monthly or quarterly) close to normal? Explain briefly.  
-1.5 Generate a random sample of size 1000 from the  $t$ -distribution with  $\nu$  degrees of freedom and another random sample of size 1000 from the standard normal distribution. Apply the Kolmogorov-Smirnov test to check if they come from the same distribution. Report the results for  $\nu = 5, 10, 15$  and 20.
-
-1.6 Report the P-values for applying the Jarque-Bera test to the data given in Exercise 1.1. What can you conclude based on these P-values?  
-1.7 Generate a random sample of size 100 from the  $t$ -distribution with  $\nu$  degrees of freedom for  $\nu = 5, 15$  and  $\infty$  (i.e. normal distribution). Apply the Jarque-Bera test to check the normality and report the P-values.  
-1.8 According to the efficient market hypothesis, is the return of a portfolio predictable? Is the volatility of a portfolio predictable? State the most appropriate mathematical form of the efficient market hypothesis.  
-1.9 If the Ljung-Box test is employed to test the efficient market hypothesis, what null hypothesis is to be tested? If the autocorrelation for the first 4 lags of the monthly log-returns of the S&P 500 is
-
-$$
-\hat {\rho} (1) = 0. 2, \hat {\rho} (2) = - 0. 1 5, \hat {\rho} (3) = 0. 2 5, \hat {\rho} (4) = 0. 1 2
-$$
-
-based on past 5 years data, is the efficient market hypothesis reasonable?
-
-1.10 Generate 400 time series from the independent Gaussian white noise  $\{r_t\}_{t=1}^T$  with  $T = 100$ . Compute
-
-$$
-Z = \sqrt{T} \hat {\rho} (1), \quad Q_{m}, \quad Q_{m}^{*}
-$$
-
-for  $m = 3,6$ , and 12. Plot the histograms of  $Z$ ,  $Q_{3}$ ,  $Q_{3}^{*}$  and  $Q_{6}$  and compare it with their asymptotic distributions. Report the first, fifth and tenth percentiles of the statistic  $|Z_{1}|$ ,  $Q_{3}$ ,  $Q_{3}^{*}$ ,  $Q_{6}$ ,  $Q_{6}^{*}$ ,  $Q_{12}$  and  $Q_{12}^{*}$ , among 400 simulations and compare them with their theoretical (asymptotic) percentiles.
-
-1.11 Repeat the experiment in Exercise 1.10 when  $T = 400$  and  $r_t$  is generated from the  $t$ -distribution with degree of freedom 5.  
-1.12 What is the alternative hypothesis of the Dickey-Fuller test for the random walk? Suppose that based on last 120 quarterly data on the US GDP, it was computed that  $\hat{\alpha} = 0.95$ . Does the US GDP follow a random walk with a drift? Answer the question at  $5\%$  significance level (the critical value is -13.96) using the Dickey-Fuller coefficient test for the model with drift.  
-1.13 (Implication of martingale hypothesis). Let  $S_{t}$  be the price of an asset at time  $t$ . One version of the EMH assumes that the prices of any asset form a martingale process in the sense that
-
-$$
-E \left(S_{t + 1} \mid S_{t}, S_{t - 1}, \dots\right) = S_{t}, \quad \text{fo ra ll} t.
-$$
-
-To understand the implication of this assumption, we consider the following simple investment strategy. With initial capital  $C_0$  dollars, at the time  $t$  we hold  $\alpha_t$  dollars in cash and  $\beta_t$  shares of an asset at the price  $S_t$ . Hence the value of our investment at time  $t$  is  $C_t = \alpha_t + \beta_t S_t$ . Suppose that our investment is self-financing in the sense that
-
-$$
-C_{t + 1} = \alpha_{t} + \beta_{t} S_{t + 1} = \alpha_{t + 1} + \beta_{t + 1} S_{t + 1},
-$$
-
-and our investment strategy  $(\alpha_{t + 1},\beta_{t + 1})$  is entirely determined by the asset prices up to the time  $t$ . Show that if  $\{S_t\}$  is a martingale process, there exist no strategies such that  $C_{t + 1} > C_t$  with probability 1.
 
 # Chapter 2 Linear Time Series Models
 
@@ -702,13 +682,13 @@ A time series  $\{X_{t}\}$  is said to be weakly stationary (or second order sta
 For weakly stationary time series  $\{X_{t}\}$ , let  $\mu = EX_{t}$  denote its common mean. We define the autocovariance function (ACVF) as
 
 $$
-\gamma (k) = \operatorname{co v} \left(X_{t}, X_{t + k}\right) = E \left\{\left(X_{t} - \mu\right) \left(X_{t + k} - \mu\right) \right\}, \tag {2.1}
+\gamma (k) = \operatorname{co v} \left(X_{t}, X_{t + k}\right) = E \left\{\left(X_{t} - \mu\right) \left(X_{t + k} - \mu\right) \right\}, \tag{2.1}
 $$
 
 and the autocorrelation function (ACF) as
 
 $$
-\rho (k) = \operatorname{Co rr} \left(X_{t}, X_{t + k}\right) = \gamma (k) / \gamma (0) \tag {2.2}
+\rho (k) = \operatorname{Co rr} \left(X_{t}, X_{t + k}\right) = \gamma (k) / \gamma (0) \tag{2.2}
 $$
 
 for  $k = 0, \pm 1, \pm 2, \dots$ . Note that  $\gamma(0) = \operatorname{var}(X_t)$  is independent of  $t$ . For simplicity, we drop the adverb "weakly" and call  $\{X_t\}$  stationary if it is weakly stationary, i.e.  $\{X_t\}$  has finite and time-invariant first two moments. It is easy to see that  $\rho(0) = 1$  and  $\rho(k) = \rho(-k)$  for any stationary processes, and that the variance-covariance matrix of the vector  $(X_t, \dots, X_{t+k})$  is
@@ -720,7 +700,7 @@ $$
 Therefore, for any linear combinations,
 
 $$
-\begin{array}{l} \operatorname{va r} \left(\sum_{i = 1}^{k} a_{i} X_{t + i}\right) = \sum_{i = 1}^{k} \sum_{j = 1}^{k} a_{i} a_{j} \operatorname{co v} \left(X_{t + i}, X_{t + k}\right) \\ = \sum_{i = 1}^{k} \sum_{j = 1}^{k} a_{i} a_{j} \gamma (i - j) \geqslant 0. \tag {2.3} \\ \end{array}
+\begin{array}{l} \operatorname{va r} \left(\sum_{i = 1}^{k} a_{i} X_{t + i}\right) = \sum_{i = 1}^{k} \sum_{j = 1}^{k} a_{i} a_{j} \operatorname{co v} \left(X_{t + i}, X_{t + k}\right) \\ = \sum_{i = 1}^{k} \sum_{j = 1}^{k} a_{i} a_{j} \gamma (i - j) \geqslant 0. \tag{2.3} \\ \end{array}
 $$
 
 As such, the function  $\gamma(\cdot)$  is referred to as the semi-positive definite function.
@@ -730,7 +710,7 @@ A very specific class of processes that plays a similar role to zero in the numb
 In practice we use an observed sample  $X_{1},\dots ,X_{T}$  to estimate ACVF and ACF by the sample ACVF and sample ACF. They are basically the sample covariance and sample correlation of the lagged pairs  $\{(X_{t - k},X_k)\}_{t = k + 1}^T$ . Formally, they are defined as follows
 
 $$
-\widehat {\gamma} (k) = \frac{1}{T} \sum_{t = k + 1}^{T} \left(X_{t} - \bar {X}\right) \left(X_{t - k} - \bar {X}\right), \quad \widehat {\rho} (k) = \widehat {\gamma} (k) / \widehat {\gamma} (0), \tag {2.4}
+\widehat {\gamma} (k) = \frac{1}{T} \sum_{t = k + 1}^{T} \left(X_{t} - \bar {X}\right) \left(X_{t - k} - \bar {X}\right), \quad \widehat {\rho} (k) = \widehat {\gamma} (k) / \widehat {\gamma} (0), \tag{2.4}
 $$
 
 where  $\bar{X} = T^{-1}\sum_{1\leqslant t\leqslant T}X_{t}$ . In the estimator  $\widehat{\gamma} (k)$ , we use the divisor  $T$  instead of  $T - k$ . This is a common practice adopted by almost all statistical packages. It ensures that the function  $\widehat{\gamma} (\cdot)$  is semi-positive definite (Exercise 2.2), a property given by (2.3). See Fan and Yao (2003) pp.42 for further discussion on this choice.
@@ -752,7 +732,7 @@ Perhaps the simplest stationary time series are moving average (MA) processes. T
 Let  $\varepsilon_t \sim \mathrm{WN}(0, \sigma^2)$ . For a fixed integer  $q \geqslant 1$ , we write  $X_t \sim \mathrm{MA}(q)$  if  $X_t$  is defined as a moving average of  $q$  successive  $\varepsilon_t$  as follows:
 
 $$
-X_{t} = \mu + \varepsilon_{t} + a_{1} \varepsilon_{t - 1} + \dots + a_{q} \varepsilon_{t - q}, \tag {2.5}
+X_{t} = \mu + \varepsilon_{t} + a_{1} \varepsilon_{t - 1} + \dots + a_{q} \varepsilon_{t - q}, \tag{2.5}
 $$
 
 where  $\mu, a_1, \dots, a_q$  are constant coefficients. In the above definition,  $\varepsilon_t$  stands for the innovation at time  $t$ , and the innovations  $\varepsilon_{t}, \varepsilon_{t-1}, \dots$  are unobservable. The intuition behind the moving average equation (2.5) may be understood as follows: innovation  $\varepsilon_t$  stands for the shock to the market at time  $t$  and  $X_t$  is the impact on the return from the innovations up to time  $t$ . The coefficient  $a_k$  is regarded as a "discount" factor on the  $k$ -lagged innovation  $\varepsilon_{t-k}$ . For example, for  $a_k = b^k$  and  $|b| < 1$ , the impact of  $\varepsilon_t$  fades away exponentially over time.
@@ -786,7 +766,7 @@ $$
 Therefore  $\gamma (2) = 0$ . Similarly,  $\gamma (k) = 0$  for any  $k\geqslant 2$ . Consequently,
 
 $$
-\rho (1) = a / \left(1 + a^{2}\right), \quad \rho (k) = 0 \text{fo ra ny} | k | > 1. \tag {2.6}
+\rho (1) = a / \left(1 + a^{2}\right), \quad \rho (k) = 0 \text{fo ra ny} | k | > 1. \tag{2.6}
 $$
 
 Since  $2|a| < 1 + a^2$ ,  $|\rho(1)| \leqslant 0.5$  for any  $MA(1)$  process.

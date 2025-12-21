@@ -1,11 +1,24 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Stock Markets
-linter-yaml-title-alias: Stock Markets
+parent_directory: Part 02 Securities Markets
+formatted: 2025-12-21 10:45:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - stock markets
+  - primary markets
+  - secondary markets
+  - stock exchanges
+secondary_tags:
+  - common stock
+  - preferred stock
+  - new york stock exchange
+  - nasdaq
+  - stock market indexes
+  - market efficiency
+  - stock regulations
+  - international stock markets
+cssclasses: academia
 ---
 
 The Stock Markets: Chapter Overview
@@ -42,7 +55,7 @@ Appendix 8B: Event Study Tests (Appendixes 8A and 8B available through Connect o
 
 # Stock Markets
 
-# Learning Goals
+## Learning Goals
 
 LG 8-1 Identify the major characteristics of common stock.
 
@@ -62,9 +75,26 @@ LG 8-8 Explain the three forms of market efficiency.
 
 LG 8-9 Describe the major characteristics of international stock markets.
 
-# THE STOCK MARKETS: CHAPTER OVERVIEW
+## The Stock Markets: Chapter Overview
 
 Stock markets allow suppliers of funds to efficiently and cheaply get equity funds to public corporations (users of funds). In exchange, the fund users (firms) give the fund suppliers ownership rights in the firm as well as cash flows in the form of dividends. Thus, corporate stock or equity serves as a source of financing for firms, in addition to debt financing or retained earnings financing. In the 1990s, the market value of corporate stock outstanding increased faster than any other type of financial security. Figure 8-1 shows the market value of corporate stock outstanding in the United States in 1994, 2007, and 2018 by type of issuer. Notice that from 1994 through 2018, stock values increased 582 percent, compared to 390 percent growth in bond values (see Figure 6-1) and 239 percent growth in primary mortgage market values (see Figure 7-1). However, stock prices fell precipitously during the financial crisis of 2008-2009. At the end of the third quarter 2007, U.S. stock market values peaked at  \$26.4 trillion before falling to\$ 13.9 trillion in March 2009, a loss of 47.3 percent in less than  $1\frac{1}{2}$  years. Stock prices recovered along with the economy in the last half of 2009 and 2010, doubling in value from March 2009 to March 2010. However, it took until March 5, 2013, for the Dow Jones Industrial Average (DJIA) to surpass its pre-crisis high of 14,164.53, closing at 14,253.77 for the day. To date, the DJIA's all-time record close stands at 29,551, seen on February 12, 2020.
+
+```d2
+stock_market: Stock Market {
+  shape: rectangle
+}
+
+suppliers: Fund Suppliers {
+  shape: rectangle
+}
+
+users: Fund Users (Firms) {
+  shape: rectangle
+}
+
+suppliers -> stock_market: Provide equity funds
+stock_market -> users: Receive ownership rights and dividends
+```
 
 Figure 8-1 Market Value of Common Stock Outstanding, by Type of Issuer
 
@@ -84,17 +114,17 @@ The secondary market for corporate stock is the most closely watched and reporte
 
 In this chapter, we present a description of equity or stock securities and the markets in which they trade. We begin with a description of the different types of corporate stock. We next look at how they are sold to the public and then traded: first in primary markets (the original sale) and then in secondary markets (the markets for resale). We also review the major stock market indexes. We look at the participants in stock markets and other issues relating to those markets (such as the link between stock market indexes and overall economic activity, the efficiency of the stock market, and regulations covering stock market operations). We conclude the chapter with an examination of international participation in U.S. stock markets and some characteristics of foreign stock markets.
 
-# STOCK MARKET SECURITIES
+## Stock Market Securities
 
 LG8-1
 
 Two types of corporate stock exist: common stock and preferred stock. While all public corporations issue common stock, many do not offer preferred stock. The market value of preferred stock outstanding is only about 1 percent of the value of common stock outstanding.
 
-# common stock
+## Common Stock
 
 The fundamental ownership claim in a public or private corporation.
 
-# Common Stock
+## Common Stock
 
 Common stock is the fundamental ownership claim in a public or private corporation. Many characteristics of common stock differentiate it from other types of financial securities (e.g., bonds, mortgages, preferred stock). These include (1) discretionary dividend payments, (2) residual claim status, (3) limited liability, and (4) voting rights. These characteristics are described next.
 
@@ -111,31 +141,31 @@ $$ where
 
 $$
 
-P_{t} = \text{St oc kp ri ce at ti me} t
+P_{t} = \text{Stock price at time } t
 
 $$
 
 $$
 
-D_{t} = \text{Di vi de nd s} t - 1 \text{to} t
+D_{t} = \text{Dividends } t-1 \text{ to } t
 
 $$
 
 $$
 
-\frac{P_{t} - P_{t - 1}}{P_{t - 1}} = \text{Ca pi ta lg ai no ve rt im e} t - 1 \text{to} t
+\frac{P_{t} - P_{t - 1}}{P_{t - 1}} = \text{Capital gain over time } t-1 \text{ to } t
 
 $$
 
 $$
 
-\frac{D_{t}}{P_{t - 1}} = \text{Re tu rn}
+\frac{D_{t}}{P_{t - 1}} = \text{Return}
 
 $$
 
 In the context of the return equation, the reinvestment of earnings (rather than payment of dividends) affects both return components: capital gains and dividends. By reinvesting earnings (rather than paying dividends), the dividend component of returns,  $D_{t} / P_{t - 1}$ , decreases. However, the reinvestment of earnings generally results in a relatively larger increase in the capital gains component,  $(P_{t} - P_{t - 1}) / P_{t - 1}$ .
 
-# EXAMPLE 8-1 Payment of Dividends versus Reinvestment of Earnings
+## Example 8-1 Payment of Dividends versus Reinvestment of Earnings
 
 A corporation has after- (corporate) tax earnings that would allow a \$2 dividend per share to be paid to its stockholders. If these dividends are paid, the firm will be unable to invest in new projects, and its stock price, currently \$50 per share, probably will not change. The return to the firm's stockholders in this case is:
 
@@ -157,11 +187,11 @@ $$
 
 Further, the return to the stockholder is all in the form of capital gains and is taxed at a rate of 20 percent. Thus, the after-tax rate of return to the stockholder is  $4\%$ $(1 - 0.20) = 3.2\%$ .
 
-# residual claim
+## Residual Claim
 
 In the event of liquidation, common stockholders have the lowest priority in terms of any cash distribution.
 
-# limited liability
+## Limited Liability
 
 No matter what financial difficulties the issuing corporation encounters, neither it nor its creditors can seek repayment from the firm's common stockholders. This implies that common stockholders' losses are limited to the original amount of their investment.
 
@@ -171,11 +201,11 @@ Limited Liability. One of the most important characteristics of common stock is 
 
 Voting Rights. A fundamental privilege assigned to common stock is voting rights. While common stockholders do not exercise control over the firm's daily activities (these activities are overseen by managers hired to act in the best interests of the firm's common stockholders and bond holders), they do exercise control over the firm's activities indirectly through the election of the board of directors. Stockholders also vote on major changes pertaining to the firm (e.g., mergers and dividend changes). For example, in February 2016, diagnostics company Alere was forced to delay a proposed 5.8 billion
 
-# dual-class firms
+## Dual-Class Firms
 
 Two classes of common stock are outstanding, with differential voting and/or dividend rights assigned to each class.
 
-# cumulative voting
+## Cumulative Voting
 
 All directors up for election are voted on at the same time. The number of votes assigned to each stockholder equals the number of shares held multiplied by the number of directors to be elected.
 
@@ -185,7 +215,7 @@ The typical voting rights arrangement is to assign one vote per share of common 
 
 Shareholders exercise their voting rights, electing the board of directors by casting votes at the issuing firm's annual meeting or by mailing in a proxy vote (see below). Two methods of electing a board of directors are generally used: cumulative voting and straight voting. Cumulative voting is required by law in some states (e.g., Arizona and Illinois) and is authorized in others. With cumulative voting, all directors up for election, as nominated by the shareholders and selected by a committee of the board, are voted on at the same time. The number of votes assigned to each stockholder equals the number of shares held multiplied by the number of directors to be elected. A shareholder may assign all of his or her votes to a single candidate for the board or may spread them over more than one candidate. The candidates with the highest number of total votes are then elected to the board. Cumulative voting permits minority stockholders to have some real say in the election of the board of directors, since less than a majority of the votes can affect the outcome.
 
-# EXAMPLE 8-2 Cumulative Voting of a Board of Directors
+## Example 8-2 Cumulative Voting of a Board of Directors
 
 Suppose a firm has 1 million shares of common stock outstanding and three directors up for election. With cumulative voting, the total number of votes each shareholder may cast equals the number of shares owned multiplied by the number of directors to be elected. Thus, the total number of votes available is 3,000,000 (= 1 million shares outstanding × 3 directors).
 
@@ -247,13 +277,13 @@ N_{p} = \left[ (2 \times 3, 0 0 0, 0 0 0) / (3 + 1) \right] + 1 = 1, 5 0 0, 0 0 
 $$ and these would be split as 750,001 for candidate 1 and 750,000 for candidate 2.
 
 
-# proxy
+## Proxy
 
 A voting ballot sent by a corporation to its stockholders. When returned to the issuing firm, a proxy allows stockholders to vote by absentee ballot or authorizes representatives of the stockholders to vote on their behalf.
 
-# LG 8-2
+## LG 8-2
 
-# preferred stock
+## Preferred Stock
 
 A hybrid security that has characteristics of both bonds and common stock.
 
@@ -261,7 +291,7 @@ With straight voting, the vote on the board of directors occurs one director at 
 
 Proxy Votes. Most shareholders do not attend annual meetings. Most corporations anticipate this and routinely mail proxies to their stockholders prior to the annual meeting. A completed proxy returned to the issuing firm allows stockholders to vote by absentee ballot or authorize representatives of the stockholders to vote on their behalf. It is estimated that, on average, less than 30 percent of the total possible votes are cast at corporate meetings. However, use of the Internet may increase this number in the future. By the 2010s, virtually all U.S. firms were putting proxy statements online and allowing votes to be cast via the Internet. The entire documentation delivery process can be electronically automated with the use of services such as Computershare or Automatic Data Processing's (ADP's) ProxyVote. Official documentation is delivered in electronic form to shareholders, who log onto the system with a control number or personal identification number and vote for or against the resolutions presented.
 
-# Preferred Stock
+## Preferred Stock
 
 Preferred stock is a hybrid security that has characteristics of both bonds and common stock. Preferred stock is similar to common stock in that it represents an ownership interest in the issuing firm, but like a bond it pays a fixed periodic (dividend) payment. Preferred stock is senior to common stock but junior to bonds. Therefore, preferred stockholders are paid only when profits have been generated and all debt holders have been paid (but before common stockholders are paid). Like common stock, if the issuing firm does not have sufficient profits to pay the preferred stock dividends, preferred stockholders cannot force the firm into bankruptcy. Further, if the issuing firm goes bankrupt, preferred stockholders are paid their claim only after all creditors have been paid, but before common stockholders are paid.
 
@@ -274,7 +304,7 @@ A second drawback of preferred stock from the issuing firm's viewpoint is that, 
 
 Dividends on preferred stock are generally fixed (paid quarterly) and are expressed either as a dollar amount or a percentage of the face or par value of the preferred stock.
 
-# EXAMPLE 8-3 Calculation of Preferred Stock Dividends
+## Example 8-3 Calculation of Preferred Stock Dividends
 
 Suppose you own a preferred stock that promises to pay an annual dividend of 5 percent of the par (face) value of the stock (received in quarterly installments). If the par value of the stock is 100, the preferred stockholder will receive:
 
@@ -294,11 +324,11 @@ $$ at the end of each quarter.
 
 Alternatively, the preferred stock could promise to pay an annual dividend of 5 per year in quarterly installments.
 
-# nonparticipating preferred stock
+## Nonparticipating Preferred Stock
 
 Preferred stock in which the dividend is fixed regardless of any increase or decrease in the issuing firm's profits.
 
-# cumulative preferred stock
+## Cumulative Preferred Stock
 
 Preferred stock in which missed dividend payments go into arrears and must be made up before any common stock dividends can be paid.
 
@@ -306,32 +336,32 @@ Preferred stockholders generally do not have voting rights in the firm. An excep
 
 Typically, preferred stock is nonparticipating and cumulative. Nonparticipating preferred stock means that the preferred stock dividend is fixed regardless of any increase or decrease in the issuing firm's profits. Cumulative preferred stock means that any missed dividend payments go into arrears and must be made up before any common stock dividends can be paid. For example, during the peak of the financial crisis in late 2008, the federal government instituted the Capital Purchase Program (CPP), a component of the Troubled Asset Relief Program (TARP). The CPP involved the U.S. Treasury's investment
 
-# participating preferred stock
+## Participating Preferred Stock
 
 Preferred stock in which actual dividends paid in any year may be greater than the promised dividends.
 
-# noncumulative preferred stock
+## Noncumulative Preferred Stock
 
 Preferred stock in which dividend payments do not go into arrears and are never paid.
 
-# DO YOU UNDERSTAND?
+## Do You Understand?
 
 1. What common stock is?
 2. What some of the drawbacks are of dividends paid on common stock from the stockholder's point of view?
 3. What the difference is between cumulative voting and straight voting of the board of directors?
 4. What preferred stock is? How preferred stock is similar to common stock and bonds?
 
-# LG8-3
+## LG 8-3
 
-# primary stock markets
+## Primary Stock Markets
 
 Markets in which corporations raise funds through new issues of securities.
 
-# net proceeds
+## Net Proceeds
 
 The price at which the investment bank purchases the stock from the issuer.
 
-# gross proceeds
+## Gross Proceeds
 
 The price at which the investment bank resells the stock to investors.
 
@@ -339,13 +369,13 @@ in hundreds of financial institutions. In return, the U.S. Treasury received sha
 
 In contrast, participating preferred stock means that actual dividends paid in any year may be greater than the promised dividends. In some cases, if the issuing firm has an exceptionally profitable year, preferred stockholders may receive some of the high profits in the form of an extra dividend payment. In others, the participating preferred stock pays and changes dividends along the same lines as common stock dividends. Participating preferred stock is frequently used by private equity investors and venture capital firms. In a deal with participating preferred stock, preferred stockholders receive the full return of their investment before any other money is paid out, and then also participate in the distribution of the remaining proceeds, up to an agreed-upon multiple (often two or three times) of the investment. If preferred stock is noncumulative, missed dividend payments do not go into arrears and are never paid. For example, Doral Financial Corp.'s noncumulative preferred stock entitles stockholders to monthly dividends based on an annual rate of 0.151 per share. In 2009, Doral suspended dividend payments on the preferred stock. The dividends did not go into arrears. Noncumulative preferred stock is generally unattractive to prospective preferred stockholders. Thus, noncumulative preferred stock generally has some other special features (e.g., voting rights) to make up for this drawback.
 
-# PRIMARY AND SECONDARY STOCK MARKETS
+## Primary and Secondary Stock Markets
 
 Before common stock can be issued by a corporation, shares must be authorized by a majority vote of both the board of directors and the firm's existing common stockholders. Once authorized, new shares of stock are distributed to existing and new investors through a primary market sale with the help of investment banks. Once issued, the stocks are traded in secondary stock markets (such as the NYSE or NASDAQ—see below).
 
 In this section, we examine the process involved with the primary sale of corporate stock. We also describe the secondary markets, the process by which stocks trade in these markets, and the indexes that are used to summarize secondary stock market value changes.
 
-# Primary Stock Markets
+## Primary Stock Markets
 
 Primary stock markets are markets in which corporations raise funds through new issues of stocks. The new stock securities are sold to initial investors (suppliers of funds) in exchange for funds (money) that the issuer (user of funds) needs. As illustrated in Figure 8-2, most primary market transactions go through investment banks (e.g., Morgan Stanley or Bank of America Merrill Lynch—see Chapter 16), which serve as the intermediary between the issuing corporations (fund users) and ultimate investors (fund suppliers) in securities.
 

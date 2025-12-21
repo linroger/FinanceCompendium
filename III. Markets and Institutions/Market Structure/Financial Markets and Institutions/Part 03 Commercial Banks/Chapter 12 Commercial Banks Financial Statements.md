@@ -1,11 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Commercial Banks' Financial Statements and Analysis
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 03 Commercial Banks
+formatted: 2025-12-21 10:55:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+- commercial bank analysis
+- financial statements
+- return on equity
+- balance sheet structure
+- income statement
+- off-balance-sheet activities
+secondary_tags:
+- asset quality ratios
+- capital adequacy
+- liquidity ratios
+- profitability analysis
+- regulatory capital
+- camels rating
+- loan loss provisions
+- core deposits
 cssclasses: academia
-title: "Commercial Banks' Financial Statements and Analysis"
-linter-yaml-title-alias: "Commercial Banks' Financial Statements and Analysis"
 ---
 
 Why Evaluate the Performance of Commercial Banks? Chapter Overview
@@ -42,9 +57,7 @@ Impact of Size on Financial Statement Analysis
 
 (Excel versions of financial statements and ratios are available through Connect or your course instructor.)
 
-# Commercial Banks' Financial Statements and Analysis
-
-# Learning Goals
+## Learning Goals
 
 LG 12-1 Describe the four major categories of assets on a commercial bank's balance sheet.
 
@@ -56,11 +69,11 @@ LG 12-4 Describe the major categories on a commercial bank's income statement.
 
 LG 12-5 Examine ratios that can be used to analyze a commercial bank.
 
-# WHY EVALUATE THE PERFORMANCE OF COMMERCIAL BANKS? CHAPTER OVERVIEW
+## Why Evaluate the Performance of Commercial Banks? Chapter Overview
 
 Unlike other private corporations, commercial banks (CBs) are unique in the special services they perform (e.g., assistance in the implementation of monetary policy) and the level of regulatory attention they receive (see Chapters 1 and 13). As a result, CBs are unique in the types of assets and liabilities they hold. Like any for-profit corporation, however, the ultimate measure of a CB's performance is the value of its common equity to its shareholders. This chapter discusses the financial statements of these institutions. Managers, stockholders, depositors, regulators, and other parties use performance, earnings, and other measures obtained from financial statements to evaluate commercial banks. For example, the In The News box looks at how regulators use financial statement data to evaluate the overall safety and soundness of a bank. As we proceed through the chapter, notice the extent to which regulators' evaluation of the overall safety and soundness of a bank (or their assignment of a so-called CAMELS rating) depends on financial statement data. Given the extensive level of regulation and the accompanying requirements for public availability of financial information, the financial statements of commercial banks are ideal candidates to use in examining the performance of depository institutions.
 
-# The CAMELS Evaluation Components
+### The CAMELS Evaluation Components
 
 The Uniform Financial Institutions Rating System (UFIRS) was adopted by the Federal Financial Institutions Examination Council (FFIEC) on November 13, 1979. Under the 1997 revision of the UFIRS, each financial institution is assigned a composite rating based on an evaluation and rating of six essential components of an institution's financial condition and operations that are summarized in a composite "CAMELS" rating. The acronym CAMELS stands for Capital Adequacy, Asset Quality, Management, Earnings, Liquidity, and Sensitivity to Market Risk.
 
@@ -94,7 +107,7 @@ Source: Federal Deposit Insurance Corporation, DOS Manual of Examination Policie
 
 This chapter uses commercial banks to illustrate a return on equity (ROE) framework as a method of evaluating depository institutions' profitability. The ROE framework decomposes this frequently used measure of profitability into its various component parts to identify existing or potential financial management and risk exposure problems. All financial institutions, and particularly commercial banks, are engaging in an increased level of off-balance-sheet (OBS) activities. These activities produce income (and sometimes losses) for the FI that are reported on the income statement. This chapter also summarizes off-balance-sheet activities (and the risks involved with such activities), which are discussed in more detail in Chapters 20 and 24. Finally, the fact that bank size and/or niche (i.e., the financial market segment the bank specializes in servicing) may affect the evaluation of financial statements is also highlighted.
 
-# FINANCIAL STATEMENTS OF COMMERCIAL BANKS
+## Financial Statements of Commercial Banks
 
 # report of condition
 

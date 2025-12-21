@@ -1,44 +1,25 @@
 ---
+title: Stochastic Calculus: An Introduction with Applications
 parent_directory: I. Foundations/Mathematics
-title: 'Stochastic Calculus: An Introduction with Applications'
-tags: null
-aliases:
-- Stochastic Calculus: An Introduction with Applications
-parent_folder: Mathematics
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: 'Stochastic Calculus: An Introduction with Applications'
+formatted: 2025-12-21 10:45:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- 4.6 exercise
-- borel-canelli lemma
-- orthogonal random variables
-- quadratic variation
-- if , then proof
-- 7.3 simulation
-- sufficient assumptions
+- stochastic calculus
+- martingales
+- brownian motion
+- ito formula
+- stochastic integration
 secondary_tags:
-- square-integrable martingale
-- multidimensional brownian motion
-- black scholes equation
-- bounded first and second derivatives
-- 2.8 quadratic variation
-- coin-tossing random variables
-- some heuristic derivations
-- optional sampling theorem ii
-- independent standard brownian motions
-- other examples
-- same assumptions
-- riemann integral
-- simple example
-- next exercise
-- discrete process
-- suitable processes show
-- fractional brownian
-- time processes
-- same exercise
-tags_extracted: '2025-12-18T17:58:44.474403'
-tags_method: max_quality_v1
+- conditional expectation
+- optional sampling theorem
+- quadratic variation
+- black-scholes formula
+- change of measure
+- girsanov theorem
+- jump processes
+- fractional brownian motion
+cssclasses: academia
 ---
 
 # Stochastic Calculus: An Introduction with Applications
@@ -51,114 +32,109 @@ All rights reserved
 
 Last revised: February 15, 2023
 
-# Contents
+## Contents
 
-# 1 Martingales in discrete time 3
+### 1 Martingales in discrete time
 
-1.1 Conditional expectation 3  
-1.2 Martingales 10  
-1.3 Optional sampling theorem 14  
-1.4 Martingale convergence theorem 19  
-1.5 Square integrable martingales 24  
-1.6 Integrals with respect to random walk 26  
-1.7 A maximal inequality 27  
-1.8 Exercises 28
+1.1 Conditional expectation
+1.2 Martingales
+1.3 Optional sampling theorem
+1.4 Martingale convergence theorem
+1.5 Square integrable martingales
+1.6 Integrals with respect to random walk
+1.7 A maximal inequality
+1.8 Exercises
 
-# 2 Brownian motion 35
+### 2 Brownian motion
 
-2.1 Limits of sums of independent variables 35  
-2.2 Multivariate normal distribution 38  
-2.3 Limits of random walks 42  
-2.4 Brownian motion 43  
-2.5 Construction of Brownian motion 46  
-2.6 Understanding Brownian motion 51
+2.1 Limits of sums of independent variables
+2.2 Multivariate normal distribution
+2.3 Limits of random walks
+2.4 Brownian motion
+2.5 Construction of Brownian motion
+2.6 Understanding Brownian motion
 
-2.6.1 Brownian motion as a continuous martingale 54  
-2.6.2 Brownian motion as a Markov process 56  
-2.6.3 Brownian motion as a Gaussian process 57  
-2.6.4 Brownian motion as a self-similar process 58
+2.6.1 Brownian motion as a continuous martingale
+2.6.2 Brownian motion as a Markov process
+2.6.3 Brownian motion as a Gaussian process
+2.6.4 Brownian motion as a self-similar process
 
-2.7 Computations for Brownian motion 58
+2.7 Computations for Brownian motion
 
-2.8 Quadratic variation 63
+2.8 Quadratic variation
 
-2.9 Multidimensional Brownian motion 66
+2.9 Multidimensional Brownian motion
 
-2.10 Heat equation and generator 68
+2.10 Heat equation and generator
 
-2.10.1 One dimension 68  
-2.10.2 Expected value at a future time 74
+2.10.1 One dimension
+2.10.2 Expected value at a future time
 
-2.11 Exercises 78
+2.11 Exercises
 
-# 3 Stochastic integration 83
+### 3 Stochastic integration
 
-3.1 What is stochastic calculus? 83  
-3.2 Stochastic integral 85
+3.1 What is stochastic calculus?
+3.2 Stochastic integral
 
-3.2.1 Review of Riemann integration 85  
-3.2.2 Integration of simple processes 86  
-3.2.3 Integration of continuous processes 89
+3.2.1 Review of Riemann integration
+3.2.2 Integration of simple processes
+3.2.3 Integration of continuous processes
 
-3.3 Ito's formula 99  
-3.4 More versions of Ito's formula 105  
-3.5 Diffusions 111  
-3.6 Covariation and the product rule 116  
-3.7 Several Brownian motions 117  
-3.8 Exercises 120
+3.3 Ito's formula
+3.4 More versions of Ito's formula
+3.5 Diffusions
+3.6 Covariation and the product rule
+3.7 Several Brownian motions
+3.8 Exercises
 
-# 4 More stochastic calculus 125
+### 4 More stochastic calculus
 
-4.1 Martingales and local martingales 125  
-4.2 An example: the Bessel process 131  
-4.3 Feynman-Kac formula 133  
-4.4 Binomial approximations 137  
-4.5 Continuous martingales 141  
-4.6 Exercises 143
+4.1 Martingales and local martingales
+4.2 An example: the Bessel process
+4.3 Feynman-Kac formula
+4.4 Binomial approximations
+4.5 Continuous martingales
+4.6 Exercises
 
-# 5 Change of measure and Girsanov theorem 145
+### 5 Change of measure and Girsanov theorem
 
-5.1 Absolutely continuous measures 145  
-5.2 Giving drift to a Brownian motion 150  
-5.3 Girsanov theorem 153  
-5.4 Black-Scholes formula 162  
-5.5 Martingale approach to Black-Scholes equation 166  
-5.6 Martingale approach to pricing 169  
-5.7 Martingale representation theorem 178  
-5.8 Exercises 180
+5.1 Absolutely continuous measures
+5.2 Giving drift to a Brownian motion
+5.3 Girsanov theorem
+5.4 Black-Scholes formula
+5.5 Martingale approach to Black-Scholes equation
+5.6 Martingale approach to pricing
+5.7 Martingale representation theorem
+5.8 Exercises
 
-# 6 Jump processes 185
+### 6 Jump processes
 
-6.1 Lévy processes 185  
-6.2 Poisson process 188  
-6.3 Compound Poisson process 192  
-6.4 Integration with respect to compound Poisson processes 200  
-6.5 Change of measure 205  
-6.6 Generalized Poisson processes I 206
+6.1 Lévy processes
+6.2 Poisson process
+6.3 Compound Poisson process
+6.4 Integration with respect to compound Poisson processes
+6.5 Change of measure
+6.6 Generalized Poisson processes I
+6.7 Generalized Poisson processes II
+6.8 The Lévy-Khinchin characterization
+6.9 Integration with respect to Lévy processes
+6.10 Symmetric stable process
+6.11 Exercises
 
-# CONTENTS
+### 7 Fractional Brownian motion
 
-V
+7.1 Definition
+7.2 Stochastic integral representation
+7.3 Simulation
 
-6.7 Generalized Poisson processes II 211  
-6.8 The Lévy-Khinchin characterization 216  
-6.9 Integration with respect to Lévy processes 224  
-6.10 Symmetric stable process 227  
-6.11 Exercises 232
+### 8 Harmonic functions
 
-# 7 Fractional Brownian motion 237
-
-7.1 Definition 237  
-7.2 Stochastic integral representation 239  
-7.3 Simulation 241
-
-# 8 Harmonic functions 243
-
-8.1 Dirichlet problem 243  
-8.2  $h$  -processes 249  
-8.3 Time changes 251  
-8.4 Complex Brownian motion 252  
-8.5 Exercises 254
+8.1 Dirichlet problem
+8.2 $h$-processes
+8.3 Time changes
+8.4 Complex Brownian motion
+8.5 Exercises
 
 # Introductory comments
 
@@ -569,7 +545,7 @@ $$
 
 then it is called a supermartingale. In other words, games that are always in one's favor are submartingales and games that are always against one are supermartingales. (At most games in Las Vegas, one's winnings give a supermartingale.) Under this definition, a martingale is both a submartingale and a supermartingale. The terminology may seem backwards at first: submartingales get bigger and supermartingales get smaller. The terminology was set to be consistent with the related notion of subharmonic and superharmonic functions. Martingales are related to harmonic functions.
 
-# 1.3 Optional sampling theorem
+## 1.3 Optional sampling theorem
 
 Suppose  $M_0, M_1, M_2, \ldots$  is a martingale with respect to the filtration  $\{\mathcal{F}_n\}$ . In the last section we discussed the discrete stochastic integral. Here we will consider a particular case of a betting strategy where one bets 1 up to some time and then one bets 0 afterwards. Let  $T$  be the "stopping time" for the strategy. Then the winnings at time  $t$  is
 
@@ -801,7 +777,7 @@ $$
 
 and hence  $\mathbb{E}[T] = \infty$ . Also,  $S_{T} = 1$ , so we do not have  $\mathbb{E}[S_0] = \mathbb{E}[S_T]$ . From this we can see that (1.8) and (1.9) are not satisfied by this example.
 
-# 1.4 Martingale convergence theorem
+## 1.4 Martingale convergence theorem
 
 The martingale convergence theorem describes the behavior of a martingale  $M_{n}$  as  $n\to \infty$
 
@@ -985,7 +961,7 @@ $$
 \begin{array}{l} \limsup_{n\to \infty}S_{n} = \infty , \\ \liminf_{n\to \infty}S_{n} = -\infty . \\ \end{array}
 $$
 
-# 1.5 Square integrable martingales
+## 1.5 Square integrable martingales
 
 Definition A martingale  $M_{n}$  is called square integrable if for each  $n$ ,  $\mathbb{E}[M_n^2] < \infty$ .
 
@@ -1045,7 +1021,7 @@ $$
 
 The reason  $L^2$  rather than  $L^p$  for other values of  $p$  is so useful in because of the inner product which gives the idea of orthogonality.
 
-# 1.6 Integrals with respect to random walk
+## 1.6 Integrals with respect to random walk
 
 Suppose that  $X_{1}, X_{2}, \ldots$  are independent, identically distributed random variables with mean zero and variance  $\sigma^2$ . The two main examples we will use are:
 
@@ -1096,7 +1072,7 @@ $$
 \begin{array}{l} \mathbb{E} \left[ J_{j}^{2} X_{j}^{2} \right] = \mathbb{E} \left[ E \left[ J_{j}^{2} X_{j}^{2} \mid \mathcal{F}_{j - 1} \right] \right] \\ = \mathbb{E} \left[ J_{j}^{2} E \left[ X_{j}^{2} \mid \mathcal{F}_{j - 1} \right] \right] \\ = \mathbb{E} \left[ J_{j}^{2} \mathbb{E} [ X_{j}^{2} ] \right] = \sigma^{2} \mathbb{E} [ J_{j}^{2} ]. \\ \end{array}
 $$
 
-# 1.7 A maximal inequality
+## 1.7 A maximal inequality
 
 There is another result about martingales that we will use.
 
@@ -1144,15 +1120,13 @@ $$
 
 Proof. In Exercise 1.15, it is shown that  $M_n^2$  is a submartingale, and we can use the previous theorem.
 
-# 1.8 Exercises
+## 1.8 Exercises
 
 Exercise 1.1. Suppose we roll two dice, a red and a green one, and let  $X$  be the value on the red die and  $Y$  the value on the green die. Let  $Z = XY$ .
 
-1. Let  $W = E(Z \mid X)$ . What are the possible values for  $W$ ? Give the distribution of  $W$ .  
-2. Do the same exercise for  $U = E(X \mid Z)$ .  
+1. Let  $W = E(Z \mid X)$ . What are the possible values for  $W$ ? Give the distribution of  $W$ .
+2. Do the same exercise for  $U = E(X \mid Z)$ .
 3. Do the same exercise for  $V = E(Y \mid X, Z)$
-
-# 1.8. EXERCISES
 
 Exercise 1.2. Suppose we roll two dice, a red and a green one, and let  $X$  be the value on the red die and  $Y$  the value on the green die. Let  $Z = X / Y$ .
 
@@ -1353,9 +1327,9 @@ Suppose that  $\mathbb{E}[|\phi(Y)|] < \infty$ . Show that  $E(\phi(Y) \mid X) \
 
 # Chapter 2
 
-# Brownian motion
+## Brownian motion
 
-# 2.1 Limits of sums of independent variables
+## 2.1 Limits of sums of independent variables
 
 We will discuss two major results about sums of random variables that we hope the reader has seen. They both discuss the limit distribution of
 
@@ -1567,7 +1541,7 @@ $$
 
 Hence the covariance matrix for  $(Z,W)$  is the identity matrix and this is the covariance matrix for independent  $N(0,1)$  random variables.
 
-# 2.3 Limits of random walks
+## 2.3 Limits of random walks
 
 Brownian motion can be viewed as the limit of random walk as the time and space increments tend to zero. It is necessary to be careful about how the limit is taken. Suppose  $X_{1}, X_{2}, \ldots$  are independent random variables with  $\mathbb{P}\{X_{j} = 1\} = \mathbb{P}\{X_{j} = -1\} = 1/2$  and let
 
@@ -1609,7 +1583,7 @@ is approximately  $N(0,1)$
 
 Brownian motion could be defined formally as the limit of random walks, but there are subtleties in describing the kind of limit. In the next section, we define it directly using the idea of "continuous random motion". However, the random walk intuition is useful to retain.
 
-# 2.4 Brownian motion
+## 2.4 Brownian motion
 
 Brownian motion or the Wiener process is a model of random continuous motion. We will start by making the assumptions that underlie the phrase "random continuous motion". Let  $B_{t} = B(t)$  be the value at time  $t$ . For each  $t$ ,  $B_{t}$  is a random variable. A collection of random variables indexed by time is called a stochastic process. We can view the process in two different ways:
 

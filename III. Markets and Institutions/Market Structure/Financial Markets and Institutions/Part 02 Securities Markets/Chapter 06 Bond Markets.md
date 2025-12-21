@@ -1,9 +1,9 @@
 ---
 title: "Chapter 06 Bond Markets"
 parent_directory: "Part 02 Securities Markets"
-formatted: 2025-12-21 10:45:00 AM
-formatter_model: grok-code-fast-1
-cli_tool: opencode
+formatted: "2025-12-21 10:45:00 AM"
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
 primary_tags:
   - bond markets
   - treasury securities
@@ -22,11 +22,11 @@ secondary_tags:
 cssclasses: academia
 ---
 
-Bond markets are markets in which bonds are issued and traded. They are used to assist in the transfer of funds from individuals, corporations, and government units with excess funds to corporations and government units in need of long-term debt funding. Bond markets are traditionally classified into three types: (1) Treasury notes and bonds, (2) municipal bonds, and (3) corporate bonds. Figure 6-1 shows the distribution of each type outstanding in 1994 and 2018. In Chapter 3, we applied time value of money principles to the valuation and duration of bonds, paying particular attention to the change in a bond's value when interest rates change. We also examined how characteristics specific to a bond (e.g., coupon rate and remaining time to maturity) influence its price. In this chapter
+Bond markets are markets in which bonds are issued and traded. They are used to assist in the transfer of funds from individuals, corporations, and government units with excess funds to corporations and government units in need of long-term debt funding. Bond markets are traditionally classified into three types: (1) Treasury notes and bonds, (2) municipal bonds, and (3) corporate bonds. Figure 6-1 shows the distribution of each type outstanding in 1994 and 2018. In Chapter 3, we applied time value of money principles to the valuation and duration of bonds, paying particular attention to the change in a bond's value when interest rates change. We also examined how characteristics specific to a bond (e.g., coupon rate and remaining time to maturity) influence its price. In this chapter we look at the characteristics of the various bond securities (including the trading process in bond markets), the participants in the bond markets, and international bond markets and securities.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/8de84edd9984f9fc692d6652401f20df5a52d99fff3f86faf9c9c16c2fb2da2c.jpg)
 
-# OUTLINE
+## Outline
 
 Definition of Bond Markets:
 
@@ -54,39 +54,37 @@ International Aspects of Bond Markets
 
 Eurobonds, Foreign Bonds, and Sovereign Bonds
 
-# LG 6-1
+## LG 6-1
 
-# capital markets
+## capital markets
 
 Markets that trade debt (bonds and mortgages) and equity (stocks) instruments with maturities of more than one year.
 
-# bond
+## bond
 
 Long-term debt obligation issued by corporations and government units.
 
-# bond markets
+## bond markets
 
 Markets in which bonds are issued and traded.
-
-Figure 6-1 Bond Market Instruments Outstanding, 1994-2018 chapter, we look at the characteristics of the various bond securities (including the trading process in bond markets), the participants in the bond markets, and international bond markets and securities.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/ebe4fe6820fbeade381126fcf9e27548c48879dcd52cb69eab4c9efbb0c1d155.jpg)
 
 Sources: Federal Reserve Board website, "Flow of Funds Accounts," various issues, www.federalreserve.gov
 
-# BOND MARKET SECURITIES
+## Bond Market Securities
 
-# LG 6-2
+## LG 6-2
 
-# Treasury notes (T-notes) and bonds (T-bonds)
+## Treasury notes (T-notes) and bonds (T-bonds)
 
 Long-term securities issued by the U.S. Treasury to finance the national debt and other federal government expenditures.
 
-# www.ustreas.gov
+## www.ustreas.gov
 
-Government units and corporations are the major bond security issuers. Figure 6-1 shows that the dollar amount of bond securities outstanding by these groups has increased from  \$6.2 trillion in 1994 to\$ 30.4 trillion in 2018. Much of this increase occurred between 2007 and 2018 during the depths of the financial crisis as bond markets grew by more than 11 trillion. Historically low rates on debt during this period were a major reason for the boom in bond markets. In this section, we look at the bond market securities issued by each of these groups: Treasury notes and bonds, municipal bonds, and corporate bonds.
+Government units and corporations are the major bond security issuers. Figure 6-1 shows that the dollar amount of bond securities outstanding by these groups has increased from $6.2 trillion in 1994 to $30.4 trillion in 2018. Much of this increase occurred between 2007 and 2018 during the depths of the financial crisis as bond markets grew by more than 11 trillion. Historically low rates on debt during this period were a major reason for the boom in bond markets. In this section, we look at the bond market securities issued by each of these groups: Treasury notes and bonds, municipal bonds, and corporate bonds.
 
-# Treasury Notes and Bonds
+## Treasury Notes and Bonds
 
 Treasury notes (T-notes) and bonds (T-bonds) are issued by the U.S. Treasury to finance the national debt and other federal government expenditures (13.2 trillion outstanding in 2018). The national debt (ND) reflects the historical accumulation of annual federal government deficits or expenditures (G) minus taxes (T) over the last 200-plus years, as follows:
 
@@ -94,7 +92,7 @@ $$
 N D_{t} = \sum_{t = 1}^{N} \left(G_{t} - T_{t}\right)
 $$
 
-Figure 6-2 shows the composition of the U.S. national debt from 1994 through 2019. Notice that over this period, approximately 40 to 60 percent of the U.S. national debt consisted of Treasury notes and bonds. Notice also that as the U.S. economy boomed in the late 1990s and the U.S. budget deficit shrank, the amount of public debt outstanding in the form of U.S. Treasury securities decreased from a year-end high of  \$3.10 trillion in 1994 (52.5 percent of the U.S. gross domestic product [GDP]) to\$ 2.97 trillion in 2000 (29.8 percent of GDP). While the amount of Treasury securities grew through the 2000s, so did economic growth. The level of outstanding U.S. Treasury securities grew to  \$4.7 trillion by June 2008 (32.9 percent of GDP). During the financial crisis, the U.S. government used Treasury securities in its attempts to stimulate the economy (see Chapter 4) and the national debt ballooned to\$ 16.7 trillion—11.4 trillion of which was Treasury securities (representing 71.3 percent of GDP).
+Figure 6-2 shows the composition of the U.S. national debt from 1994 through 2019. Notice that over this period, approximately 40 to 60 percent of the U.S. national debt consisted of Treasury notes and bonds. Notice also that as the U.S. economy boomed in the late 1990s and the U.S. budget deficit shrank, the amount of public debt outstanding in the form of U.S. Treasury securities decreased from a year-end high of $3.10 trillion in 1994 (52.5 percent of the U.S. gross domestic product [GDP]) to $2.97 trillion in 2000 (29.8 percent of GDP). While the amount of Treasury securities grew through the 2000s, so did economic growth. The level of outstanding U.S. Treasury securities grew to $4.7 trillion by June 2008 (32.9 percent of GDP). During the financial crisis, the U.S. government used Treasury securities in its attempts to stimulate the economy (see Chapter 4) and the national debt ballooned to $16.7 trillion—11.4 trillion of which was Treasury securities (representing 71.3 percent of GDP).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/b406e5d9d60544a81922d62854722f39ce2e5af9899e8556ff29e54733a4c81e.jpg)
 
@@ -108,7 +106,7 @@ Sources: U.S. Treasury Department, Treasury Bulletin, various issues, www.ustrea
 
 Like T-bills, T-notes and bonds are backed by the full faith and credit of the U.S. government and are, therefore, default risk free. As a result, T-notes and bonds pay relatively low rates of interest (yields to maturity) to investors. T-notes and bonds, however, are not completely risk free. Given their longer maturity (i.e., duration), these instruments experience wider price fluctuations than do money market instruments as interest rates change (and thus are subject to interest rate risk—see Chapter 23). Further, many of the older issued bonds and notes—"off the run" issues—may be less liquid than newly issued bonds and notes—"on the run" issues—in which case they may bear an additional premium for illiquidity risk.
 
-In contrast to T-bills, which are sold on a discount basis from face value (see Chapter 5), T-notes and T-bonds pay coupon interest (semiannually). Further, T-bills have an original maturity of one year or less. Treasury notes have original maturities from over 1 to 10 years, while T-bonds have original maturities from over 10 years. T-notes and bonds are issued in minimum denominations of  \$100, or in multiples of\$ 100. The Treasury issues two types of notes and bonds: fixed principal and inflation-indexed. While both types pay interest twice a year, the principal value used to determine the percentage interest payment (coupon) on inflation-indexed bonds is adjusted to reflect inflation (measured by the consumer price index). Thus, the semiannual coupon payments and the final principal payment are based on the inflation-adjusted principal value of the security (see below).
+In contrast to T-bills, which are sold on a discount basis from face value (see Chapter 5), T-notes and T-bonds pay coupon interest (semiannually). Further, T-bills have an original maturity of one year or less. Treasury notes have original maturities from over 1 to 10 years, while T-bonds have original maturities from over 10 years. T-notes and bonds are issued in minimum denominations of $100, or in multiples of $100. The Treasury issues two types of notes and bonds: fixed principal and inflation-indexed. While both types pay interest twice a year, the principal value used to determine the percentage interest payment (coupon) on inflation-indexed bonds is adjusted to reflect inflation (measured by the consumer price index). Thus, the semiannual coupon payments and the final principal payment are based on the inflation-adjusted principal value of the security (see below).
 
 Like T-bills, once issued T-notes and T-bonds trade in very active secondary markets. Table 6-1 presents part of a T-note and T-bond (including Treasury STRIPS—see below) closing price/interest yield quote sheet from The Wall Street Journal for trading on May 23, 2016. Column 1 is the date the note or bond matures. Column 2 in the table lists the coupon rate on the Treasury security. Note that coupon rates are set at intervals of 0.125 (or  $\frac{1}{8}$  of 1) percent. Column 3, labeled Bid, is the close of the day selling price (in percentage terms) available to T-note and bond holders (i.e., the price dealers are willing to pay T-note and bond holders for their Treasury securities). Prices are quoted as percentages of the face value on the Treasury security. For example, using a face value of 1,000, the bid price on the 0.875 percent coupon, February 2017 T-note was
 
@@ -124,13 +122,13 @@ A Treasury security in which the periodic interest payment is separated from the
 
 www.ml.com
 
-1,001.641 (100.1641\% \times \1,000). Column 4, labeled Asked, is the close of the day purchase price available to investors. Column 5, labeled Chg, is the change in the asked price from the previous day's close—that is, the February 2017 T-note's price was 0.0313 percent lower than the previous day's close (100.2110 percent). Finally, the last column, labeled Asked Yield, is the asked price converted into a yield to maturity on the T-note or T-bond. This yield is calculated using the yield to maturity formulas found in Chapter 3—it is the interest rate or yield (using semiannual compounding) that makes the price of the security just equal to the present value of the expected coupon and face value cash flows on the bond (where this yield is the single discount rate that makes this equality hold).
+1,001.641 (100.1641% × $1,000). Column 4, labeled Asked, is the close of the day purchase price available to investors. Column 5, labeled Chg, is the change in the asked price from the previous day's close—that is, the February 2017 T-note's price was 0.0313 percent lower than the previous day's close (100.2110 percent). Finally, the last column, labeled Asked Yield, is the asked price converted into a yield to maturity on the T-note or T-bond. This yield is calculated using the yield to maturity formulas found in Chapter 3—it is the interest rate or yield (using semiannual compounding) that makes the price of the security just equal to the present value of the expected coupon and face value cash flows on the bond (where this yield is the single discount rate that makes this equality hold).
 
 STRIPS. In 1985, the Treasury began issuing 10-year notes and 30-year bonds² to financial institutions using a book-entry system under a program titled Separate Trading of Registered Interest and Principal Securities (STRIPS). A STRIPS is a Treasury security in which periodic coupon interest payments can be separated from each other and from the final principal payment. As illustrated in Figure 6-3, a STRIPS effectively creates two sets of securities—one set for each semiannual interest payment and one for the final principal payment. Each of the components of the STRIPS are often referred to as "Treasury zero bonds" or "Treasury zero-coupon bonds" because investors in the individual components receive only the single stripped payments (e.g., the third semiannual coupon) in which they invest. Investors needing a lump sum payment in the distant future (e.g., life insurers) would prefer to hold the principal portion of the STRIPS. Investors wanting nearer-term cash flows (e.g., commercial banks) would prefer the interest portions of the STRIPS. Also, some state lotteries invest the present value of large lottery prizes in STRIPS to be sure that funds are available to meet required annual payments to lottery winners. Pension funds purchase STRIPS to match payment cash flows received on their assets (STRIPS) with those required on their liabilities (pension contract payments).
 
 STRIPS were created by the U.S. Treasury in response to the separate trading of Treasury security principal and interest that had been developed by securities firms. Specifically, in the early 1980s, Merrill Lynch introduced Treasury Investment Growth Receipts (TIGRs). Merrill Lynch purchased Treasury securities, stripped them into one security representing the principal component only and a separate security for each coupon payment, and put these individual securities up for resale. The Treasury's creation of the STRIPS was meant to offer a competitive product to the market.
 
-The U.S. Treasury does not issue STRIPS directly to investors. Rather, stripped Treasury notes and bonds may be purchased only through financial institutions and government securities brokers and dealers, who create the STRIPS components after purchasing the original T-notes or T-bonds (whole) in Treasury auctions (see below). After the STRIPS components have been created, by requesting that the Treasury
+The U.S. Treasury does not issue STRIPS directly to investors. Rather, stripped Treasury notes and bonds may be purchased only through financial institutions and government securities brokers and dealers, who create the STRIPS components after purchasing the original T-notes or T-bonds (whole) in Treasury auctions (see below). After the STRIPS components have been created, by requesting that the Treasury separate each coupon and face value payment on each bond and recording them as separate securities in its book-entry computer system, they can be sold individually in the secondary markets.
 
 Figure 6-3 Creation of a Treasury STRIP
 
@@ -138,15 +136,13 @@ Figure 6-3 Creation of a Treasury STRIP
 
 2. The U.S. Treasury stopped issuing 30-year bonds between 2001 and 2006.
 
-separate each coupon and face value payment on each bond and recording them as separate securities in its book-entry computer system, they can be sold individually in the secondary markets.
+**Example 6-1 Creation of a STRIPS**
 
-# EXAMPLE 6-1 Creation of a STRIPS
-
-Suppose the Treasury issues a five-year T-note with a par value of  \$10,000 and an 8 percent coupon rate (paid semiannually, or\$ 400 is paid to the holder every six months for the next five years) to Citigroup. Citigroup decides to convert the bond into a set of stripped securities by requesting the Treasury to separate the coupons and face value of the note into separate securities on its computer system (basically giving each coupon and face value a separate I.D. or CUSIP number). This means that Citigroup can then sell 11 different securities: 10 securities associated with each of the semiannual coupon payments of \$400 and one that pays \$10,000 (the face or principal value) in five years to outside investors. We show the value of each of these securities in Table 6-2, assuming the yield to maturity on each of the stripped securities is 7.90 percent and is the same as the bond sold "whole."
+Suppose the Treasury issues a five-year T-note with a par value of $10,000 and an 8 percent coupon rate (paid semiannually, or $400 is paid to the holder every six months for the next five years) to Citigroup. Citigroup decides to convert the bond into a set of stripped securities by requesting the Treasury to separate the coupons and face value of the note into separate securities on its computer system (basically giving each coupon and face value a separate I.D. or CUSIP number). This means that Citigroup can then sell 11 different securities: 10 securities associated with each of the semiannual coupon payments of $400 and one that pays $10,000 (the face or principal value) in five years to outside investors. We show the value of each of these securities in Table 6-2, assuming the yield to maturity on each of the stripped securities is 7.90 percent and is the same as the bond sold "whole."
 
 Notice that the total present value of the 11 different securities involved with the STRIPS is the same as that of the original T-note before it is stripped, 10,040.65. However, in general, the bank (Citigroup) will try to sell the 11 stripped securities for a greater total present value than the bond as a whole. The reason for this is that many investors desire particular maturity zero-coupon bonds to meet investment goals and needs. Such goals and needs (such as duration targets—see below) are often harder to achieve through buying whole T-notes or T-bonds. Consequently, investors are willing to pay a higher price and thus accept a yield lower than 7.90 percent on the stripped investments. As a result, the total price Citigroup would get from selling the 11 STRIPS would exceed 10,040.65.
 
-As mentioned previously, STRIPS are attractive investments to investors desiring particular maturity zero-coupon bonds to meet investment goals and needs. For example, STRIPS are used as investment securities for individual retirement accounts, Keogh plans, and pension funds. Frequently, managers of these types of financial institutions face the problem of structuring their asset investments so they can pay a given cash amount to
+As mentioned previously, STRIPS are attractive investments to investors desiring particular maturity zero-coupon bonds to meet investment goals and needs. For example, STRIPS are used as investment securities for individual retirement accounts, Keogh plans, and pension funds. Frequently, managers of these types of financial institutions face the problem of structuring their asset investments so they can pay a given cash amount to policyholders in some future period.
 
 TABLE 6-2 Present Value of STRIPS Components of a Five-Year T-Note with an 8 Percent Coupon Rate and 7.90 Percent Yield to Maturity
 
@@ -515,9 +511,9 @@ Table 6-4 shows the results of the 10-year T-note auction of January 8, 2020. At
 
 Most secondary market trading of Treasury notes and bonds occurs directly through broker and dealer trades (see Chapters 5 and 16). For example, according to the Federal Reserve Bank of New York, the average daily trading volume in T-note and T-bond issues for the month ended December 2019, was 523.2 billion. The Treasury quotes in Table 6-1 show just a small number of the Treasury securities that traded on May 23, 2016. The full quote listed in The Wall Street Journal Online shows the hundreds of different Treasury securities that trade daily.
 
-# Municipal Bonds
+## Municipal Bonds
 
-# municipal bonds
+## municipal bonds
 
 Securities issued by state and local (e.g., county, city, school) governments.
 
@@ -603,7 +599,7 @@ $$
 
 Bonds backed by the full faith and credit of the issuer.
 
-# revenue bonds
+## revenue bonds
 
 Bonds sold to finance a specific revenue-generating project, backed by cash flows from that project.
 
@@ -670,7 +666,7 @@ Although the SEC defines large investors as those with assets of \$1 million or 
 
 Secondary Market Trading. The secondary market for municipal bonds is thin (i.e., trades are relatively infrequent). Thin trading is mainly a result of a lack of information on bond issuers, as well as special features (such as covenants) that are built into those bonds' contracts. Information on municipal bond issuers (particularly of smaller government units) is generally more costly to obtain and evaluate, although this is in part offset by bond rating agencies (see below). In a similar fashion, bond rating agencies generate information about corporate and sovereign (country) borrowers as well.
 
-# Corporate Bonds
+## Corporate Bonds
 
 Corporate bonds are long-term bonds issued by corporations ( \$9.2 trillion outstanding in 2018). The minimum denomination on publicly traded corporate bonds (which, in contrast to privately placed corporate bonds, require SEC registration) is\$ 1,000, and coupon-paying corporate bonds generally pay interest semiannually.
 
@@ -861,7 +857,7 @@ trading information. The system includes the bonds of all NYSE-listed companies 
 
 Most bonds are traded OTC among major bond dealers such as Morgan Stanley Wealth Management and UBS Paine Webber. Some mutual funds, such as Fidelity and Vanguard, make both primary and secondary markets in bonds and facilitate the participation of individual investors in these markets. Virtually all large trades are carried out on the OTC market, even for bonds listed on an exchange, such as the NYSE bond market. As a result, prices reported on the exchanges (like those in Table 6-7) are generally considered to be inexact estimates of prices associated with large transactions. Thus, in contrast to Treasury securities, secondary market trading of corporate bonds can involve a significant degree of liquidity risk.
 
-# Bond Ratings and Interest Rate Spreads
+## Bond Ratings and Interest Rate Spreads
 
 As mentioned earlier, the inability of investors to get information pertaining to the risk, especially default risk, on bonds, at a reasonable cost, can result in thinly traded markets. In Chapter 3, we examined the impact of interest rate risk (i.e., interest rate changes) on bond prices. Specifically, we demonstrated that bonds with longer maturities (durations) and low coupon rates experience larger price changes for a given change in interest rates than bonds with short maturities and high coupon rates (i.e., bonds with longer maturities and lower coupon rates are subject to greater interest rate risk). Just as important, bond investors also need to measure the degree of default risk on a bond.
 
@@ -904,7 +900,7 @@ Figure 6-9 Rates on Treasury Bonds, Aaa-Rated Bonds, and Baa-Rated Bonds
 Source: Federal Reserve Board website, "Research and Data," www.federalreserve.gov
 
 
-# Bond Market Indexes
+## Bond Market Indexes
 
 Table 6-11 lists major bond market indexes as of January 17, 2020. Data in this table give investors general information on returns of bonds from various types of issuers (e.g., Treasuries, Municipals, and corporate bonds) and various maturities. The indexes are those
 
@@ -916,7 +912,7 @@ TABLE 6-11 Major Bond Market Indexes
 
 managed by major investment banks (e.g., Barclays) and reflect both the monthly capital gain and loss on bonds in the index plus any interest (coupon) income earned. Changes in the values of these broad market indexes can be used by bond traders to evaluate changes in the investment attractiveness of bonds of different types and maturities.
 
-# BOND MARKET PARTICIPANTS
+## Bond Market Participants
 
 LG 6-3
 
@@ -948,7 +944,7 @@ Figure 6-11 Yields on Bond Market Securities, 1980-2019
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/4e950c194d44f77161417ce9a2cf44daa242804c63b5e70aa5a5bacf7df435bc.jpg)
 Source: Federal Reserve Board website, "Research and Data," www.federalreserve.gov; FactSet
 
-# INTERNATIONAL ASPECTS OF BOND MARKETS
+## International Aspects of Bond Markets
 
 LG 6-4
 
@@ -1028,154 +1024,3 @@ Sovereign debt markets were rocked again in June 2016 when the people of the Uni
 # SUMMARY
 
 This chapter looked at the domestic and international bond markets. We defined and discussed the three types of bonds available to long-term debt investors: Treasury notes and bonds, municipal bonds, and corporate bonds. We also reviewed the process through which bonds trade in both primary and secondary bond markets. International bond markets have grown dramatically in recent years. We documented and offered some reasons for this growth. We concluded the chapter with a description of the different types of international bonds: the traditional foreign bonds, the relatively new Eurobonds, and sovereign bonds.
-
-# QUESTIONS
-
-1. What are capital markets, and how do bond markets fit into the definition of capital markets? (LG 6-1)
-2. What are the differences among T-bills, T-notes, and T-bonds? (LG 6-2)
-3. What is a STRIPS? Who would invest in a STRIPS? (LG 6-2)
-4. What are the advantages and disadvantages of investing in TIPS bonds? (LG 6-2)
-5. Describe the process through which T-notes and T-bonds are issued in the primary markets. (LG 6-2)
-6. What is the difference between general obligation bonds and revenue bonds? (LG 6-2)
-7. Why would a municipal bond issuer want to purchase third-party insurance on the bond payments? (LG 6-2)
-8. How does a firm commitment underwriting differ from a best-efforts underwriting? (LG 6-2)
-9. What is a bond indenture? (LG 6-2)
-10. What is the difference between bearer bonds and registered bonds? (LG 6-2)
-11. What is the difference between term bonds and serial bonds? (LG 6-2)
-12. Which type of bond—a mortgage bond, a debenture, or a subordinated debenture—generally has the (LG 6-2) a. Highest cost to the bond issuer?
-b. Least risk to the bond holder?
-c. Highest yield to the bond holder?
-
-13. What is a convertible bond? Is a convertible bond more or less attractive to a bond holder than a nonconvertible bond? (LG 6-2)
-14. What is a callable bond? Is a call provision more or less attractive to a bond holder than a noncallable bond? (LG 6-2)
-15. Explain the meaning of a sinking fund provision on a bond issue. (LG 6-2)
-16. What is the difference between an investment grade bond and a junk bond? (LG 6-2)
-17. What happens to the fair present value of a bond when the required rate of return on the bond increases? (LG 6-2)
-18. All else equal, which bond's price is more affected by a change in interest rates, a short-term bond or a longer-term bond? Why? (LG 6-2)
-19. Discuss the issues surrounding credit rating firms during the financial crisis. (LG 6-2)
-20. How do bond ratings and interest rate spreads on bonds differ? Which measure is considered by many investors to be a more comprehensive measure of risk? Why? (LG 6-2)
-21. Describe the major bond market participants. (LG 6-3)
-22. What is the difference between a Eurobond and a foreign bond? (LG 6-4)
-23. What are sovereign bonds? (LG 6-4)
-24. How did sovereign bonds perform during the 2000s? (LG 6-4)
-
-# PROBLEMS
-
-1. Refer to the T-note and T-bond quotes in Table 6-1. (LG 6-2) a. What is the asking price on the 2.750 percent November 2023 T-bond if the face value of the bond is 10,000?
-
-b. What is the bid price on the 0.500 percent August 2016 T-note if the face value of the bond is 10,000?
-
-2. Refer again to Table 6-1. (LG 6-2) a. Verify the asked price on the 0.875 percent November 30, 2017 T-note for Monday, May 23, 2016. The asked yield on the note is 0.849 percent and the note matures on November 30, 2017. Settlement occurs one business day after purchase (i.e., you would take possession of the note on Wednesday, May 24, 2016).
-
-
-b. Verify the asked yield on the 0.625 percent July 31, 2017 T-note for May 23, 2016. The asked price is 99.8047 and the note matures on July 31, 2017.
-
-3. Refer to Table 6-1. (LG 6-2) a. Verify the May 23, 2016, asked yield of 1.09 percent on the Treasury bond, stripped principal STRIPS maturing August 2019. Use a one-day settlement period from the date of purchase (i.e., ownership occurs on Wednesday, May 24, 2016). The STRIPS matures on August 15, 2019.
-
-b. Verify the asked price (99.709) on the Treasury note, stripped principal STRIPS maturing in November 2016 (i.e., the STRIPS matures on November 30, 2016).
-
-4. On October 5, 2022, you purchase a 10,000 T-note that matures on August 15, 2031 (settlement occurs one day after purchase, so you receive actual ownership of the bond on October 6, 2022). The coupon rate on the T-note is 4.375 percent and the current price quoted on the bond is 105.250 percent. The last coupon payment occurred on May 15, 2022 (144 days before settlement), and the next coupon payment will be paid on November 15, 2022 (40 days from settlement). (LG 6-2) a. Calculate the accrued interest due to the seller from the buyer at settlement.
-
-b. Calculate the dirty price of this transaction.
-
-5. On July 10, 2022, you purchase a 10,000 T-note that matures on December 31, 2028 (settlement occurs one day after purchase, so you receive actual ownership of the bond on July 11, 2022). The coupon rate on the T-note is 2.125 percent and the current price quoted on the bond is 98.250 percent. The last coupon payment occurred on June 30, 2022 (11 days before settlement), and the next coupon payment will be paid on December 31, 2022 (173 days from settlement). (LG 6-2) a. Calculate the accrued interest due to the seller from the buyer at settlement.
-
-b. Calculate the dirty price of this transaction.
-
-6. Consider an investor who, on January 1, 2022, purchases a TIPS bond with an original principal of 100,000, an 8 percent annual (or 4 percent semiannual) coupon rate, and 10 years to maturity. (LG 6-2) a. If the semiannual inflation rate during the first six months is 0.3 percent, calculate the principal amount used to determine the first coupon payment and the first coupon payment (paid on June 30, 2022).
-
-b. From your answer to part (a), calculate the inflation-adjusted principal at the beginning of the second six months.
-c. Suppose that the semiannual inflation rate for the second six-month period is 1 percent. Calculate the inflation-adjusted principal at the end of the second six months (on December 31, 2022) and the coupon payment to the investor for the second six-month period. What is the inflation-adjusted principal on this coupon payment date?
-
-7. Consider an investor who, on January 1, 2023, purchases a TIPS bond with an original principal of 100,000, an 4.50 percent annual (or 2.25 percent semiannual) coupon rate, and 5 years to maturity. (LG 6-2) a. If the semiannual inflation rate during the first six months is 1.25 percent, calculate the principal amount used to determine the first coupon payment and the first coupon payment (paid on June 30, 2023).
-
-b. From your answer to part (a), calculate the inflation-adjusted principal at the beginning of the second six months.
-c. Suppose that the semiannual inflation rate for the second six-month period is 0.5 percent. Calculate the inflation-adjusted principal at the end of the second six months (on December 31, 2023) and the coupon payment to the investor for the second six-month period. What is the inflation-adjusted principal on this coupon payment date?
-
-
-8. You can invest in taxable bonds that are paying a yield of 9.50 percent or a municipal bond paying a yield of 7.75 percent. If your marginal tax rate is 21 percent, which security bond should you buy? (LG 6-2)
-9. A municipal bond you are considering as an investment currently pays a yield of 6.75 percent. (LG 6-2) a. Calculate the tax equivalent yield if your marginal tax rate is 28 percent.
-
-b. Calculate the tax equivalent yield if your marginal tax rate is 21 percent.
-
-10. Refer to Table 6-6. (LG 6-2) a. On May 23, 2016, what were the coupon rate, price, and yield on municipal bonds issued by the Delaware River Port Authority?
-
-b. What was the yield to maturity, on May 23, 2016, on State of California bonds maturing on November 1, 2043?
-
-11. Refer to Table 6-6. Verify the yield to maturity of 4.69 percent on the State of Illinois municipal bonds. Settlement occurs two days after purchase, so actual ownership of the bond occurs on May 25, 2016. (LG 6-2)
-12. Use the bond pricing formula and Table 6-6 to calculate the number of years (to the nearest 1/1000th of a year) between the May 25, 2016, settlement date and the maturity date on the City of New York general obligation bonds maturing on March 1, 2039. The YTM, 3.40 percent, is rounded from 3.40083577 percent. (LG 6-2)
-
-13. Refer to Table 6-7. (LG 6-2) a. What was the closing price on the CVS 5.050 percent coupon bonds on January 10, 2020?
-
-b. What was the S&P bond rating on Las Vegas Sands Corp 3.200 percent coupon bonds maturing in 2024 on January 10, 2020?
-c. What was the closing price on Petroleums Mexicanos 6.500 percent bonds on January, 8, 2020?
-
-14. Refer to Table 6-7. Verify the yield of 3.984 percent on the Viacom Inc. bonds with a coupon of 4.375 percent and a maturity date of March 15, 2043. (LG 6-2)
-15. A 1,000 face value corporate bond with a 6.5 percent coupon (paid semiannually) has 15 years left to maturity. It has had a credit rating of BBB and a yield to maturity of 7.2 percent. The firm has recently gotten into some trouble and the rating agency is downgrading the bonds to BB. The new appropriate discount rate will be 8.5 percent. What will be the change in the bond's price in dollars and percentage terms? (LG 6-2)
-16. A client in the 33 percent marginal tax bracket is comparing a municipal bond that offers a 4.50 percent yield to maturity and a similar risk corporate bond that offers a 6.45 percent yield. Which bond will give the client more profit after taxes? (LG 6-2)
-
-17. A 1,000 face value corporate bond with a 6.75 percent coupon (paid semiannually) has 10 years left to maturity. It has had a credit rating of BB and a yield to maturity of 8.2 percent. The firm recently became more financially stable and the rating agency is upgrading the bonds to BBB. The new appropriate discount rate will be 7.1 percent. What will be the change in the bond's price in dollars and percentage terms? (LG 6-2)
-18. Using a Spreadsheet to Calculate Bond Values: What is the bond quote for a 1,000 face value bond with an 8 percent coupon rate (paid semiannually) and a required return of 7.5 percent if the bond is 6.48574, 8.47148, 10.519, and 14.87875 years from maturity? (LG 6-2)
-
-
-<table><tr><td>Face Value</td><td>Total Payments</td><td>Periodic Coupon Payment</td><td colspan="2">Required ⇒ Value Will Be</td></tr><tr><td>100\%</td><td>6.48574 × 2 = 12.97148</td><td>8\%/2 = 4\%</td><td>7.5\%</td><td>102.531\%</td></tr><tr><td>100</td><td>8.47148 × 2 = 16.94296</td><td>4</td><td>7.5</td><td>103.094</td></tr><tr><td>100</td><td>10.519 × 2 = 21.0380</td><td>4</td><td>7.5</td><td>103.594</td></tr><tr><td>100</td><td>14.87875 × 2 = 29.7575</td><td>4</td><td>7.5</td><td>104.437</td></tr></table>
-
-19. Hilton Hotels Corp. has a convertible bond issue out- standing. Each bond, with a face value of \$1,000, can be converted into common shares at a rate of 61.2983 shares of stock per \$1,000 face value bond (the conversion rate), or \$16.316 per share. Hilton's common stock is trading (on the NYSE) at \$15.90 per share and the bonds are trading at 975. (LG 6-2) a. Calculate the conversion value of each bond.
-
-b. Determine if it is currently profitable for bond holders to convert their bonds into shares of Hilton Hotels common stock.
-
-20. Gentherm Inc. has a convertible bond issue outstanding. Each bond, with a face value of  \$1,000, can be converted into common shares at a rate of 42.25 shares of stock per\$ 1,000 face value bond (the conversion rate), or \$19.85 per share. Gentherm's common stock is trading (on the NYSE) at \$19.85 per share and the bonds are trading at 1,025. (LG 6-2) a. Calculate the conversion value of each bond.
-
-b. Determine if it is currently profitable for bond holders to convert their bonds into shares of Gentherm common stock.
-
-# SEARCH THE SITE
-
-Go to The Wall Street Journal's website at www.wsj.com and find the most recent data on Treasury security trading using the following steps. Under "Markets," click on "Bonds." In the section "View Bonds & Rates Page," click on "View Treasury Quotes Page." This will bring up the most recent Treasury data.
-
-# Questions
-
-1. Find a Treasury note that is maturing 1 year from the current date. What is the ask price on this Treasury security? What is the asked yield?
-2. Find a Treasury bond that is maturing in 20 years from the current date. What is the coupon rate on this Treasury bond? What is the bid price on this bond?
-
-# Mortgage Markets chapter
-
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/45881e2d4986c39a76159e2d1f8c1bd3e8be01cb329bf29394965f0a4ddec26b.jpg)
-
-# Learning Goals
-
-LG 7-1
-
-Distinguish between a mortgage and a mortgage-backed security.
-
-LG 7-2
-
-Describe the main types of mortgages issued by financial institutions.
-
-LG 7-3
-
-Identify the major characteristics of a mortgage.
-
-LG 7-4
-
-Examine how a mortgage amortization schedule is determined.
-
-LG 7-5
-
-Describe some of the new innovations in mortgage financing.
-
-LG 7-6
-
-Define a mortgage sale.
-
-LG 7-7
-
-Define a pass-through security.
-
-LG 7-8
-
-Define a collateralized mortgage obligation.
-
-LG 7-9
-
-List the major mortgage holders in the United States.
