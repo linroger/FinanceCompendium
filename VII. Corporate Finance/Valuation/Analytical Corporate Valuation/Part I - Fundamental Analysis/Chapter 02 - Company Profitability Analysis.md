@@ -1,23 +1,19 @@
 ---
 title: Chapter 02 - Company Profitability Analysis
-parent_directory: VII. Corporate Finance/Valuation/Analytical Corporate Valuation/Part I - Fundamental Analysis
-formatted: 2025-12-21 11:00:00 PM
-formatter_model: grok-code-fast-1
-cli_tool: opencode
 primary_tags:
   - company profitability analysis
   - financial ratios
   - return on investment
   - capital structure analysis
 secondary_tags:
-   - operating income metrics
-   - net income evaluation
-   - free cash flow
-   - growth rate estimation
-   - economic dynamics
-   - debt financing
-   - equity returns
-    - ratio analysis
+  - operating income metrics
+  - net income evaluation
+  - free cash flow
+  - growth rate estimation
+  - economic dynamics
+  - debt financing
+  - equity returns
+  - ratio analysis
 cssclasses: academia
 ---
 
@@ -158,7 +154,7 @@ Before starting the analysis it is important to point out that Operating Revenue
 (a) Capex on Operating Revenues (COR):
 
 $$
-C O R = \frac {\text {C a p e x}}{\text {O p e r a t i n g R e v e n u e s} (\text {O R})} \tag {2.1}
+COR = \frac{\text{Capex}}{\text{Operating Revenues (OR)}} \tag{2.1}
 $$
 
 The COR ratio measures the return of capital invested in Capex on the basis of Operating Revenues. Specifically a low value of ratio means a high return of capital invested in Capex in terms of Operating Revenues. In this case, the investments in Capex are able to push-up the Operating Revenues. On the contrary, a high value of ratio means a low return of capital invested in Capex in terms of Operating Revenues. In this case, the investments in Capex are not able to push-up the Operating Revenues.
@@ -166,7 +162,7 @@ The COR ratio measures the return of capital invested in Capex on the basis of O
 (b) Financial Debt on Operating Revenues (FDOR):
 
 $$
-F D O R = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {O p e r a t i n g R e v e n u e s} (O R)} \leftrightarrow N F D O R = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (N F P)}{\text {O p e r a t i n g R e v e n u e s} (O R)} \tag {2.2}
+FDOR = \frac{\text{Financial Debt (FD)}}{\text{Operating Revenues (OR)}} \leftrightarrow NFDOR = \frac{\text{Net Financial Position (NFP)}}{\text{Operating Revenues (OR)}} \tag{2.2}
 $$
 
 The FDOR and NFDOR ratios measure the capability of the Operating Revenues to face Financial Debt and Net Financial Position in Capital Structure. In both cases the meaning is the same. Specifically a high value of ratio means a low level of ability of Operating Revenues to face Financial Debt (FD) and Net Financial Position (NFP). On the contrary, a low value of ratio means a high capability of Operating Revenues to face Financial Debt (FD) and Net Financial Position (NFP).
@@ -174,7 +170,7 @@ The FDOR and NFDOR ratios measure the capability of the Operating Revenues to fa
 (c) Cash-flow on Operating Revenues (CFOR):
 
 $$
-C F O R = \frac {\text {C a s h - f l o w} (C F)}{\text {O p e r a t i n g R e v e n u e s} (O R)} \tag {2.3}
+CFOR = \frac{\text{Cash-flow (CF)}}{\text{Operating Revenues (OR)}} \tag{2.3}
 $$
 
 The CFOR ratio measures the relationship between Cash-flow and Operating Revenues. It can be considered as an indirect and approximate measure of the company's ability to transform Operating Revenues into Cash-flows. Specifically a low value of ratio means a bad relationship between Operating Revenues and Cash-flows. On the contrary, a high value of ratio means a good relationship between Operating Revenues and Cash-flows.
@@ -182,7 +178,7 @@ The CFOR ratio measures the relationship between Cash-flow and Operating Revenue
 Considering two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity, the ratio can be applied in two versions:
 
 $$
-C F O R = \frac {C F}{O R} \rightarrow \quad\begin{array}{l}C F O O R = \frac {\text {F r e e C a s h - f l o w f r o m O p e r a t i o n s (F C F O)}}{\text {O p e r a t i n g R e v e n u e s (O R)}}\\C F E O R = \frac {\text {F r e e C a s h - f l o w t o E q u i t y (F C F E)}}{\text {O p e r a t i n g R e v e n u e s (O R)}}\end{array}\tag {2.4}
+CFOR = \frac{CF}{OR} \rightarrow \begin{array}{l}CFOOR = \frac{\text{Free Cash-flow from Operations (FCFO)}}{\text{Operating Revenues (OR)}}\\CFEOR = \frac{\text{Free Cash-flow to Equity (FCFE)}}{\text{Operating Revenues (OR)}}\end{array}\tag{2.4}
 $$
 
 ### Section 2
@@ -197,7 +193,7 @@ The analysis of the relationships between Operating Income, Capital Invested and
 (a) Return on Operating Capital Invested (ROIC):
 
 $$
-R O I C = \frac {\text {O p e r a t i n g I n c o m e} (O I)}{\text {C a p i t a l I n v e s t e d i n O p e r a t i n g A s s e t s} (C I)} \tag {2.5}
+ROIC = \frac{\text{Operating Income (OI)}}{\text{Capital Invested in Operating Assets (CI)}} \tag{2.5}
 $$
 
 The ROIC ratio defines the relationship between Operating Income (OI) and Capital Invested in Operating Assets (CI) only. It is also called Return on Investment (ROI) if all company's investments are in core-business.
@@ -209,35 +205,35 @@ The Capital Invested in Operating Assets is the capital sources invested to supp
 The Operating Income is the difference between Operating Revenues and Operating Costs. Therefore, it measures the results of the Operating activities. It can be measured by three main figures: EBITDA, EBIT and NOPAT. Therefore, the ratio can be applied in three versions:
 
 $$
-R O I C = \frac {E B I T D A}{\text {N e t O p e r a t i n g C a p i t a l I n v e s t e d (N O C I)}}
+ROIC = \frac{EBITDA}{\text{Net Operating Capital Invested (NOCI)}}
 $$
 
 $$
-R O I C = \frac {O I}{C I} \rightarrow R O I C = \frac {E B I T}{\text {N e t O p e r a t i n g C a p i t a l I n v e s t e d (N O C I)}} \tag {2.6}
+ROIC = \frac{OI}{CI} \rightarrow ROIC = \frac{EBIT}{\text{Net Operating Capital Invested (NOCI)}} \tag{2.6}
 $$
 
 $$
-R O I C = \frac {N O P A T}{\text {N e t O p e r a t i n g C a p i t a l I n v e s t e d (N O C I)}}
+ROIC = \frac{NOPAT}{\text{Net Operating Capital Invested (NOCI)}}
 $$
 
 It is important to point out that if Capex is only considered as Capital Invested rather than the NOCI, it gets the Return on Assets (ROA) as follows:
 
 $$
-R O A = \frac {E B I T D A}{C a p e x}
+ROA = \frac{EBITDA}{Capex}
 $$
 
 $$
-R O A = \frac {O I}{C a p e x} \rightarrow R O A = \frac {\frac {E B I T}{C a p e x}}{N O P A T} \tag {2.7}
+ROA = \frac{OI}{Capex} \rightarrow ROA = \frac{\frac{EBIT}{Capex}}{NOPAT} \tag{2.7}
 $$
 
 $$
-R O A = \frac {N O P A T}{C a p e x}
+ROA = \frac{NOPAT}{Capex}
 $$
 
 In order to acquire more information, it is also possible to measure the Return on Capital Invested in terms of Gross Profit (GP). In this case it takes on the following ratio (ROGP):
 
 $$
-R O G P = \frac {\text {G r o s s P r o f i t} (G P)}{\text {N e t O p e r a t i n g C a p i t a l I n v e s t e d} (\text {N O C I})} \tag {2.8}
+ROGP = \frac{\text{Gross Profit (GP)}}{\text{Net Operating Capital Invested (NOCI)}} \tag{2.8}
 $$
 
 It is worth noting that in all cases, the increase of ratio is not necessarily good news. With equal Operating Income, the increase of the ratio is due to the reduction of total assets. If the reduction is due to the amortization and depreciation process, the increase of ratio is due to a reduction in investments. Most of all, the decrease of investments in Capex implies the reduction of future capabilities of the company to compete in the business and, subsequently a future reduction in Operating Income.
@@ -251,13 +247,13 @@ Using EBIT, the ratio can be decomposed on the basis of the Return on Sales (ROS
 Considering that the ROS is equal to the ratio between EBIT and Sales Revenues (SR), and the TCI is equal to the ratio between Sales Revenues (SR) and Net Operating Capital Invested (NOCI), the following is achieved:
 
 $$
-R O I = R O S \cdot T C I \rightarrow\begin{array}{l}R O S = \frac {E B I T}{S R}\\T C I = \frac {S R}{N O C I}\end{array}\rightarrow R O I = \frac {E B I T}{S R} \cdot \frac {S R}{N O C I} = \frac {E B I T}{N O C I} \tag {2.9}
+ROI = ROS \cdot TCI \rightarrow \begin{array}{l}ROS = \frac{EBIT}{SR}\\TCI = \frac{SR}{NOCI}\end{array} \rightarrow ROI = \frac{EBIT}{SR} \cdot \frac{SR}{NOCI} = \frac{EBIT}{NOCI} \tag{2.9}
 $$
 
 The use of EBITDA highlights the effects of the amortization and depreciation process on the Operating Income. However, it is possible to move from the EBITDA to the EBIT by considering the Net Operating Capital Invested Gross of Amortization and Depreciation (NOCIG) as following (Silvi 2012):
 
 $$
-R O I C = \frac {E B I T D A}{N O C I G} \cdot \frac {N O C I G}{N O C I} \cdot \frac {E B I T}{E B I T D A} = \frac {E B I T}{N O C I} \tag {2.10}
+ROIC = \frac{EBITDA}{NOCIG} \cdot \frac{NOCIG}{NOCI} \cdot \frac{EBIT}{EBITDA} = \frac{EBIT}{NOCI} \tag{2.10}
 $$
 
 The use of NOPAT can only be calculated if taxes splitting is not used. Indeed, the use of tax splitting allows for a distinction between operating taxes and corporate taxes. In this case, the EBIT is calculated by also considering operating taxes. Therefore it is equal to NOPAT.
@@ -269,7 +265,7 @@ Using NOPAT, the ROIC ratio measures the after-taxes operating profit divided by
 (b) Financial Debt on Operating Income (FDOI):
 
 $$
-F D O I = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {O p e r a t i n g I n c o m e} (O I)} \tag {2.11}
+FDOI = \frac{\text{Financial Debt (FD)}}{\text{Operating Income (OI)}} \tag{2.11}
 $$
 
 The FDOI ratio measures the company's ability to face Financial Debt (FD) through the Operating Income (OI). Generally, the greater the distance between the amount of Operating Income and the amount of Financial Debt, the lower the financial risk.
@@ -279,23 +275,23 @@ Considering that the Operating Income can be measured by EBITDA, EBIT and NOPAT 
 Therefore, the ratio can be applied in several versions as follows:
 
 $$
-F D O I = \frac {\text {F i n a n c i a l D e b t} (F D)}{E B I T D A} \leftrightarrow N F D O I = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (N F P)}{E B I T D A}
+FDOI = \frac{\text{Financial Debt (FD)}}{EBITDA} \leftrightarrow NFDOI = \frac{\text{Net Financial Position (NFP)}}{EBITDA}
 $$
 
 $$
-\begin{array}{l} F D O I = \frac {F D}{O I} \rightarrow F D O I = \frac {\text {F i n a n c i a l D e b t} (F D)}{E B I T} \leftrightarrow N F D O I = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (\text {N F P})}{E B I T} \\ F D O I = \frac {\text {F i n a n c i a l D e b t} (F D)}{N O P A T} \leftrightarrow N F D O I = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (N F P)}{N O P A T} \tag {2.12} \\ \end{array}
+\begin{array}{l} FDOI = \frac{FD}{OI} \rightarrow FDOI = \frac{\text{Financial Debt (FD)}}{EBIT} \leftrightarrow NFDOI = \frac{\text{Net Financial Position (NFP)}}{EBIT} \\ FDOI = \frac{\text{Financial Debt (FD)}}{NOPAT} \leftrightarrow NFDOI = \frac{\text{Net Financial Position (NFP)}}{NOPAT} \tag{2.12} \\ \end{array}
 $$
 
 In order to acquire more information, the Gross Profit (GP) ability to face Financial Debt (FD) or Net Financial Position (NFP) can be measured. In this case, the FDGP ratio is the following:
 
 $$
-F D G P = \frac {\text {F i n a n c i a l D e b t} (F D)}{\text {G r o s s P r o f i t} (G P)} \leftrightarrow N F D O I = \frac {\text {N e t F i n a n c i a l P o s i t i o n} (\text {N F P})}{\text {G r o s s P r o f i t} (G P)} \tag {2.13}
+FDGP = \frac{\text{Financial Debt (FD)}}{\text{Gross Profit (GP)}} \leftrightarrow NFDOI = \frac{\text{Net Financial Position (NFP)}}{\text{Gross Profit (GP)}} \tag{2.13}
 $$
 
 (c) Cost of Financial Debt on Cash-flows (CDCF):
 
 $$
-C D C F = \frac {\text {C o s t o f F i n a n c i a l D e b t} (C D)}{\text {C a s h f l o w s} (C F)} \tag {2.14}
+CDCF = \frac{\text{Cost of Financial Debt (CD)}}{\text{Cashflows (CF)}} \tag{2.14}
 $$
 
 Despite the fact that the cost of financial debt has both economic (it is a cost) and financial dynamics (it is a cash-out), in this context an analysis of its impact on financial dynamics is preferred. Indeed, the effects of cost of debt on cash-flows is very relevant because if the company cannot face the relative cash-out, it is in a default condition.
@@ -303,19 +299,19 @@ Despite the fact that the cost of financial debt has both economic (it is a cost
 The Cost of Financial Debt (CD) is equal to the Interest on Debt (ID) plus the other Financial Costs on Debt (FCD). Therefore:
 
 $$
-C D = I D + F C D \tag {2.15}
+CD = ID + FCD \tag{2.15}
 $$
 
 The most relevant part is related to the Interest on Debt. Also, by considering that the cash-flows can be distinguished between Free Cash-flow from Operations (FCFO) and Free Cash-flow to Equity (FCFE), it is possible to apply the ratio in several versions as follows:
 
 $$
-C D C F = \frac {C D}{C F} \rightarrow\begin{array}{l}C D C F O = \frac {C D}{F C F O} \leftrightarrow I D C F O = \frac {I D}{F C F O}\\C D C F E = \frac {C D}{F C F E} \leftrightarrow I D C F E = \frac {I D}{F C F E}\end{array}\tag {2.16}
+CDCF = \frac{CD}{CF} \rightarrow \begin{array}{l}CDCF O = \frac{CD}{FCFO} \leftrightarrow IDCF O = \frac{ID}{FCFO}\\CDCF E = \frac{CD}{FCFE} \leftrightarrow IDCF E = \frac{ID}{FCFE}\end{array}\tag{2.16}
 $$
 
 (d) Cash-flows on Operating Income (CFOI):
 
 $$
-C F O I = \frac {\text {C a s h f l o w s} (C F)}{\text {O p e r a t i n g I n c o m e} (O I)} \tag {2.17}
+CFOI = \frac{\text{Cashflows (CF)}}{\text{Operating Income (OI)}} \tag{2.17}
 $$
 
 The CFOI ratio measures the relationship between Operating Income and Cash-flows. It can be considered as an indirect and approximate measure of the company's ability to transform Operating Income in Cash-flows. Specifically, a high value of ratio means a good relationship between Operating Income and Cash-flows; otherwise, a low value of ratio means a bad relationship between Operating Income and Cash-flows.
@@ -323,7 +319,7 @@ The CFOI ratio measures the relationship between Operating Income and Cash-flows
 Considering the two types of cash-flows, Free Cash-flow from Operations (FCFO) and the Free Cash-flow to Equity, the ratio can be applied in two versions:
 
 $$
-\begin{array}{l} C F O I = \frac {C F}{O T} \rightarrow \quad\begin{array}{l}C F O O I = \frac {\text {F r e e C a s h f l o w f r o m O p e r a t i o n s (F C F O)}}{\text {O p e r a t i n g I n c o m e (O I)}}\\\text {F r e e C a s h f l o w t o E q u i v i e n c y (E C F E)}\end{array}\tag {2.18} \\ C F E O I = \frac {\text {F r e e C a s h f l o w t o E q u i t y (F C F E)}}{\text {O p e r a t i n g I n c o m e (O I)}} \\ \end{array}
+\begin{array}{l} CFOI = \frac{CF}{OI} \rightarrow \begin{array}{l}CFOOI = \frac{\text{Free Cashflow from Operations (FCFO)}}{\text{Operating Income (OI)}}\\\text{Free Cashflow to Equivalency (ECFE)}\end{array}\tag{2.18} \\ CFE OI = \frac{\text{Free Cashflow to Equity (FCFE)}}{\text{Operating Income (OI)}} \\ \end{array}
 $$
 
 ### Section 3

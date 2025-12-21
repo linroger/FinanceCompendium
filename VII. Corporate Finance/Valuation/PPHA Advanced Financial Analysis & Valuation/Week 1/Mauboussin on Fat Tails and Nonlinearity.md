@@ -1,25 +1,36 @@
 ---
+title: "Fat Tails and Nonlinearity"
 parent_directory: Week 1
-title: Fat Tails and Nonlinearity
-tags:
-aliases:
-  - Fat Tails and Nonlinearity
-parent_folder: Week 1
-subfolder:
-key_concepts:
+formatted: 2025-12-21 11:45:00 AM
+formatter_model: claude-haiku-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+  - fat tails
+  - nonlinearity
+  - market complexity
+  - black swans
+  - diversity breakdowns
+secondary_tags:
+  - complex adaptive systems
+  - wisdom of crowds
+  - critical points
+  - agent based models
+  - market dislocations
+  - endogenous risk
+  - leverage amplification
+  - induction problem
 cssclasses: academia
-linter-yaml-title-alias: Fat Tails and Nonlinearity
 ---
 
 # Fat Tails and Nonlinearity
 
-# Diversity Breakdowns and Invisible Vulnerability
+## Diversity Breakdowns and Invisible Vulnerability
 
 For he who is acquainted with the paths of nature, will more readily observe her deviations; and, vice versa, he who has learned her deviations will be able more accurately to describe her paths.
 
 Francis Bacon Novum Organum
 
-# The Memo Went Out
+## The Memo Went Out
 
 If you are involved in financial markets, you have gotten the memo about fat tails by now.
 
@@ -35,7 +46,7 @@ Critical points are also important for proper counterfactual thinking. For every
 
 We survey three ideas: black swans and why patterns set us up for surprise; the conditions for crowds to be wise and the role of nonlinearity; and, finally, three examples of nonlinearity, including a physical system, an agent-based model, and a recent market dislocation.
 
-# Don't Feed the Turkey
+## Don't Feed the Turkey
 
 Nassim Taleb uses the black swan metaphor to help popularize the fat-tail idea. He defines a black swan as an outlier event that has an extreme impact and that humans seek to explain after the fact. Recent market turmoil fits the definition well.
 
@@ -45,7 +56,7 @@ Taleb relates the story of a turkey that is fed 1,000 days in a row. The feeding
 
 Here's the point: rising asset prices provide investors confirming evidence that their strategy is good and everything is fine. This induction problem lulls investors into a sense of confidence, and sets the stage for the shock when events turn down. That nonlinearity causes sudden change only adds to the confusion.
 
-# Rivets, Redundancy, and Diversity Breakdowns
+## Rivets, Redundancy, and Diversity Breakdowns
 
 As we and others have argued, investors should recognize the market as a complex adaptive system. Complex means there are lots of investors within the system. Adaptive means investors change their decision rules in response to market conditions. And system means the whole is greater than the sum of the parts—prices emerge from the interaction of the investors within it. Complex adaptive systems are everywhere in natural and social systems.
 
@@ -61,7 +72,7 @@ Ehrlich used this metaphor to consider the removal of species from an ecosystem.
 
 We'll now turn to three examples of nonlinearity in complex systems. We start with a physical system and move toward today's environment.
 
-# London Bridge Is Swaying 'Round
+## London Bridge Is Swaying 'Round
 
 On June 10, 2000, the Millennium Bridge opened to the public with great fanfare. London's first bridge across the Thames in over a century, it had a sleek design—the architect wanted it to look like a "blade of light." However, when thousands of people stepped on the bridge that day, it started to sway from side to side so much that people had to stop or hold on to the rails. Fearing for the public's safety, officials closed the bridge two days later and, following a retrofitting, it reopened in February 2002.
 
@@ -75,7 +86,7 @@ Source: Reprinted by permission from Macmillan Publishers Ltd: Nature, www.natur
 
 You can imagine testing the bridge with 50, 100, or even 150 people. The harmful wobble lies in the wait, outside of your awareness. The large-scale outcome is due to the internal workings of the system—people walking—not from some external shock. But it is a real risk.
 
-# Secret Agent Man Reveals All
+## Secret Agent Man Reveals All
 
 Our next example, based on the work of economist Blake LeBaron, is much closer to the real world of markets.11 LeBaron is a leader in creating agent-based models to analyze economic problems, including asset pricing. These models treat the market as a complex adaptive system with diverse agents, a well-functioning aggregation function, and proper incentives. What makes this work so exciting is that by studying various facets of the system, we can gain insight into how the pricing mechanism works.
 
@@ -91,13 +102,13 @@ Source: Blake LeBaron, "Financial Market Efficiency in a Coevolutionary Environm
 
 Study the first 80 periods for a moment. Diversity declines steadily, even as the asset price rises. As the asset reaches a short-term price peak, diversity is at its lowest. This is an example of invisible vulnerability, similar to what we saw with the bridge.
 
-LeBaron discusses how crashes happen:  $^{12}$
+LeBaron discusses how crashes happen:<sup>12</sup>
 
 During the run-up to a crash, population diversity falls. Agents begin to use very similar trading strategies as their common good performance begins to self-reinforce. This makes the population very brittle, in that a small reduction in the demand for shares could have a strong destabilizing impact on the market. The economic mechanism here is clear. Traders have a hard time finding anyone to sell to in a falling market since everyone else is following very similar strategies. In the Walrasian setup used here, this forces the price to drop by a large magnitude to clear the market. The population homogeneity translates into a reduction in market liquidity.
 
-LeBaron's model captures many important themes of real-world markets. Add to this model the use of leverage to enhance the performance of diminishing-return strategies, and the stage is set for large-scale change. This model reveals a concrete link between diversity reduction and asset price changes. $^{13}$
+LeBaron's model captures many important themes of real-world markets. Add to this model the use of leverage to enhance the performance of diminishing-return strategies, and the stage is set for large-scale change. This model reveals a concrete link between diversity reduction and asset price changes.<sup>13</sup>
 
-# The Pain of 2007
+## The Pain of 2007
 
 We'll end our tour with a contemporary example of a market-neutral hedge fund. We selected a market-neutral fund in large part because such funds seek to do well in any market environment (i.e., not to be correlated with the market). Exhibit 3 shows the performance of one of these funds for most of 2007. Visually compare Exhibit 3 with the first 100 periods in the top panel of Exhibit 2. Certainly the pattern is similar.
 

@@ -1,47 +1,64 @@
 ---
 aliases:
-  - Glossary
-tags:
-key_concepts:
+   - Glossary
 parent_directory: V. Equities and Alternatives/Equities/Investments BKM/Back Matter
+formatted: 2025-12-21 11:30:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+   - financial glossary
+   - investment terminology
+   - finance concepts
+secondary_tags:
+   - portfolio theory terms
+   - risk management vocabulary
+   - derivatives terminology
+   - bond market definitions
+   - equity analysis terms
+   - macroeconomic indicators
+   - accounting principles
+   - valuation methods
+   - market microstructure
+   - behavioral finance concepts
 cssclasses: academia
 title: "Glossary"
 ---
 
 # Glossary
 
-# 1 illiquidity Difficulty, cost, and/or delay in selling an asset on short notice without offering substantial price concessions.
+## A
 
+**illiquidity** Difficulty, cost, and/or delay in selling an asset on short notice without offering substantial price concessions.
 
-illiquidity cost Costs due to imperfect liquidity of some security.
+**illiquidity cost** Costs due to imperfect liquidity of some security.
 
-illiquidity premium Extra expected return as compensation for limited liquidity.
+**illiquidity premium** Extra expected return as compensation for limited liquidity.
 
-immunization A strategy that matches durations of assets and liabilities so as to make net worth unaffected by interest rate movements.
+**immunization** A strategy that matches durations of assets and liabilities so as to make net worth unaffected by interest rate movements.
 
-implied volatility The standard deviation of stock returns that is consistent with an option's market value.
+**implied volatility** The standard deviation of stock returns that is consistent with an option's market value.
 
-in the money In the money describes an option whose exercise would produce a positive cash flow. Out of the money describes an option where exercise would result in a negative cash flow.
+**in the money** In the money describes an option whose exercise would produce a positive cash flow. Out of the money describes an option where exercise would result in a negative cash flow.
 
-incentive fee A fee charged by hedge funds and private equity funds equal to a share of any investment returns beyond a stipulated benchmark performance.
+**incentive fee** A fee charged by hedge funds and private equity funds equal to a share of any investment returns beyond a stipulated benchmark performance.
 
-income statement A financial statement showing a firm's revenues and expenses during a specified period.
+**income statement** A financial statement showing a firm's revenues and expenses during a specified period.
 
-indenture The contract between the bond issuer and the bondholder.
+**indenture** The contract between the bond issuer and the bondholder.
 
-index arbitrage An investment strategy that exploits divergences between actual futures prices and their theoretically correct parity values to make a profit.
+**index arbitrage** An investment strategy that exploits divergences between actual futures prices and their theoretically correct parity values to make a profit.
 
-index fund A mutual fund holding shares in proportion to their representation in a market index such as the S&P 500.
+**index fund** A mutual fund holding shares in proportion to their representation in a market index such as the S&P 500.
 
-index model A model of stock returns using a market index such as the S&P 500 to represent common or systematic risk factors.
+**index model** A model of stock returns using a market index such as the S&P 500 to represent common or systematic risk factors.
 
-index option A call or put option based on a stock market index.
+**index option** A call or put option based on a stock market index.
 
-indifference curve A curve connecting all portfolios with the same utility according to their means and standard deviations.
+**indifference curve** A curve connecting all portfolios with the same utility according to their means and standard deviations.
 
-industry life cycle Stages through which firms typically pass as they mature.
+**industry life cycle** Stages through which firms typically pass as they mature.
 
-inflation The rate at which the general level of prices for goods and services is rising.
+**inflation** The rate at which the general level of prices for goods and services is rising.
 
 information ratio Ratio of alpha to the standard deviation of diversifiable risk.
 
@@ -66,387 +83,392 @@ interest rate swaps Contracts between two parties to trade cash flows correspond
 
 intermarket spread swap Switching from one segment of the bond market to another (from Treasuries to corporates, for example).
 
-# International Financial Reporting Standards (IFRS)
+**International Financial Reporting Standards (IFRS)** Accounting standards used in many non-U.S. markets; compared to U.S. accounting standards, IFRS rely more on principles and less on rules.
 
-Accounting standards used in many non-U.S. markets; compared to U.S. accounting standards, IFRS rely more on principles and less on rules.
+**intrinsic value (of a firm)** The present value of a firm's expected future net cash flows discounted by the required rate of return.
 
-intrinsic value (of a firm) The present value of a firm's expected future net cash flows discounted by the required rate of return.
+**intrinsic value (of a share)** The present value of expected future cash flows the firm will provide shareholders on a per-share basis.
 
-intrinsic value (of a share) The present value of expected future cash flows the firm will provide shareholders on a per-share basis.
+**intrinsic value (of an option)** The value the option would have if it were about to expire.
 
-intrinsic value (of an option) The value the option would have if it were about to expire.
+**inventory turnover ratio** Cost of goods sold as a multiple of average inventory.
 
-inventory turnover ratio Cost of goods sold as a multiple of average inventory.
+**investment** Commitment of current resources in the expectation of deriving greater resources in the future.
 
-investment Commitment of current resources in the expectation of deriving greater resources in the future.
+**investment bankers** Firms specializing in the sale of new securities to the public, typically by underwriting the issue.
 
-investment bankers Firms specializing in the sale of new securities to the public, typically by underwriting the issue.
+**investment company** Financial intermediaries that pool and invest the funds of individual investors in securities or other assets.
 
-investment company Financial intermediaries that pool and invest the funds of individual investors in securities or other assets.
+**investment horizon** Time horizon for purposes of investment decisions.
 
-investment horizon Time horizon for purposes of investment decisions.
+**investment portfolio** Set of securities chosen by an investor.
 
-investment portfolio Set of securities chosen by an investor.
+**investment-grade bond** Bond rated BBB and above by Standard & Poor's or Baa and above by Moody's. Lower-rated bonds are classified as speculative-grade or junk bonds.
 
-investment-grade bond Bond rated BBB and above by Standard & Poor's or Baa and above by Moody's. Lower-rated bonds are classified as speculative-grade or junk bonds.
+**issued shares** Shares that have been issued by the company.
 
-issued shares Shares that have been issued by the company.
+## J
 
-# J
+**Jensen's alpha** The alpha of an investment.
 
-Jensen's alpha The alpha of an investment.
+**junk bond** A bond rated Ba or lower by Moody's or BB or lower by Standard & Poor's, or an unrated bond. Also called a speculative-grade bond.
 
-junk bond A bond rated Ba or lower by Moody's or BB or lower by Standard & Poor's, or an unrated bond. Also called a speculative-grade bond.
+## K
 
-# K kurtosis Measure of the fatness of the tails of a probability distribution. Indicates probability of observing extreme high or low values.
+**kurtosis** Measure of the fatness of the tails of a probability distribution. Indicates probability of observing extreme high or low values.
 
 
-# L latency The time it takes to accept, process, and deliver a trading order.
+## L
 
+**latency** The time it takes to accept, process, and deliver a trading order.
 
-late-stage venture capital Venture capital invested in start-ups that have already developed their products and are now closer to an "exit" such as an IPO or acquisition by another firm.
+**late-stage venture capital** Venture capital invested in start-ups that have already developed their products and are now closer to an "exit" such as an IPO or acquisition by another firm.
 
-Law of One Price The rule stipulating that equivalent securities or bundles of securities must sell at equal prices to preclude arbitrage opportunities.
+**Law of One Price** The rule stipulating that equivalent securities or bundles of securities must sell at equal prices to preclude arbitrage opportunities.
 
-leading economic indicators Economic series that tend to rise or fall in advance of the rest of the economy.
+**leading economic indicators** Economic series that tend to rise or fall in advance of the rest of the economy.
 
-leverage ratios Ratios measuring debt financing versus other sources of capital.
+**leverage ratios** Ratios measuring debt financing versus other sources of capital.
 
-leveraged buyout Private equity that deploys considerable leverage to acquire publicly traded firms for operational and financial restructuring.
+**leveraged buyout** Private equity that deploys considerable leverage to acquire publicly traded firms for operational and financial restructuring.
 
-LIFO The last-in, first-out accounting method of valuing inventories.
+**LIFO** The last-in, first-out accounting method of valuing inventories.
 
-limit order An order specifying a price at which an investor is willing to buy or sell a security.
+**limit order** An order specifying a price at which an investor is willing to buy or sell a security.
 
-limited liability The fact that shareholders have no personal liability to the creditors of the corporation in the event of bankruptcy.
+**limited liability** The fact that shareholders have no personal liability to the creditors of the corporation in the event of bankruptcy.
 
-liquidation value Net amount that could be realized by selling the assets of a firm after paying the debt.
+**liquidation value** Net amount that could be realized by selling the assets of a firm after paying the debt.
 
-liquidity The speed and ease with which an asset can be bought or sold at or near its intrinsic value.
+**liquidity** The speed and ease with which an asset can be bought or sold at or near its intrinsic value.
 
-liquidity preference theory Theory that investors demand a risk premium on long-term bonds. Implies that the forward rate generally will exceed the expected future interest rate.
+**liquidity preference theory** Theory that investors demand a risk premium on long-term bonds. Implies that the forward rate generally will exceed the expected future interest rate.
 
-liquidity premium Forward rate minus expected future short interest rate.
+**liquidity premium** Forward rate minus expected future short interest rate.
 
-load Sales charge on the purchase of some mutual funds.
+**load** Sales charge on the purchase of some mutual funds.
 
-load fund A mutual fund with a sales commission, or load.
+**load fund** A mutual fund with a sales commission, or load.
 
-lock-up period Period in which investors cannot redeem investments in hedge funds and private equity funds.
+**lock-up period** Period in which investors cannot redeem investments in hedge funds and private equity funds.
 
-lognormal distribution The probability distribution that characterizes a variable whose log has a normal (bell-shaped) distribution.
+**lognormal distribution** The probability distribution that characterizes a variable whose log has a normal (bell-shaped) distribution.
 
-London Interbank Offered Rate (LIBOR) Lending rate among banks in the London market.
+**London Interbank Offered Rate (LIBOR)** Lending rate among banks in the London market.
 
-long position The futures trader who commits to purchasing the underlying asset.
+**long position** The futures trader who commits to purchasing the underlying asset.
 
-long position hedge Hedging the future cost of a purchase by taking a long futures position to protect against changes in the price of the asset.
+**long position hedge** Hedging the future cost of a purchase by taking a long futures position to protect against changes in the price of the asset.
 
-lower partial standard deviation (LPSD) Standard deviation computed using only the portion of the return distribution below a threshold such as the risk-free rate or the sample average.
+**lower partial standard deviation (LPSD)** Standard deviation computed using only the portion of the return distribution below a threshold such as the risk-free rate or the sample average.
 
-# M
+## M
 
-Macaulay's duration Effective maturity of bond, equal to weighted average of the times until each payment, with weights proportional to the present value of the payment.
+**Macaulay's duration** Effective maturity of bond, equal to weighted average of the times until each payment, with weights proportional to the present value of the payment.
 
-maintenance, or variation, margin An established value below which a trader's margin may not fall. Reaching the maintenance margin triggers a margin call.
+**maintenance, or variation, margin** An established value below which a trader's margin may not fall. Reaching the maintenance margin triggers a margin call.
 
-margin Describes securities purchased with money borrowed from a broker. Current maximum allowed margin on stock purchases is  $50\%$ .
+**margin** Describes securities purchased with money borrowed from a broker. Current maximum allowed margin on stock purchases is $50\%$.
 
-market capitalization rate The market-consensus estimate of the appropriate discount rate for a firm's cash flows.
+**market capitalization rate** The market-consensus estimate of the appropriate discount rate for a firm's cash flows.
 
-market model Decomposes returns into systematic and nonsystematic components.
+**market model** Decomposes returns into systematic and nonsystematic components.
 
-market neutral A hedged portfolio with no net exposure to market movements.
+**market neutral** A hedged portfolio with no net exposure to market movements.
 
-market order A buy or sell order to be executed immediately at current market prices.
+**market order** A buy or sell order to be executed immediately at current market prices.
 
-market portfolio The portfolio encompassing all assets in which each asset is held in proportion to its market value.
+**market portfolio** The portfolio encompassing all assets in which each asset is held in proportion to its market value.
 
-market price of risk A measure of the extra return, or risk premium, that investors demand to bear risk. The ratio of the risk premium of the market portfolio to the variance of its return.
+**market price of risk** A measure of the extra return, or risk premium, that investors demand to bear risk. The ratio of the risk premium of the market portfolio to the variance of its return.
 
-market risk Risk factors common to the whole economy; also called systematic or nondiversifiable risk.
+**market risk** Risk factors common to the whole economy; also called systematic or nondiversifiable risk.
 
-market segmentation The theory that long- and short-maturity bonds are traded in essentially distinct or segmented markets and that prices in one market do not affect those in the other.
+**market segmentation** The theory that long- and short-maturity bonds are traded in essentially distinct or segmented markets and that prices in one market do not affect those in the other.
 
-market timer An investor who speculates on broad market moves rather than on specific securities.
+**market timer** An investor who speculates on broad market moves rather than on specific securities.
 
-market timing Asset allocation in which the investment in the market is increased if one forecasts that the market will outperform T-bills.
+**market timing** Asset allocation in which the investment in the market is increased if one forecasts that the market will outperform T-bills.
 
-market-book-value (P/B) ratio Ratio of price per share to book value per share.
+**market-book-value (P/B) ratio** Ratio of price per share to book value per share.
 
-market-neutral bet A strategy designed to exploit relative mispricing within a market but that is hedged to avoid taking a stance on the direction of the broad market.
+**market-neutral bet** A strategy designed to exploit relative mispricing within a market but that is hedged to avoid taking a stance on the direction of the broad market.
 
-market-value-weighted index An index of the value of a portfolio of securities computed by calculating a weighted average of the returns of each security in the portfolio, with weights proportional to outstanding market value.
+**market-value-weighted index** An index of the value of a portfolio of securities computed by calculating a weighted average of the returns of each security in the portfolio, with weights proportional to outstanding market value.
 
-marking to market Describs the daily settlement of obligations on futures positions.
+**marking to market** Describes the daily settlement of obligations on futures positions.
 
-mark-to-market accounting See fair value accounting.
+**mark-to-market accounting** See fair value accounting.
 
-mean return Another term for expected return.
+**mean return** Another term for expected return.
 
-mean-variance analysis Evaluation of risky prospects based on the expected value and variance of possible outcomes.
+**mean-variance analysis** Evaluation of risky prospects based on the expected value and variance of possible outcomes.
 
-mean-variance (M-V) criterion The selection of portfolios based on the means and variances of their returns. The choice of the highest expected return portfolio for a given level of variance or the lowest variance portfolio for a given expected return.
+**mean-variance (M-V) criterion** The selection of portfolios based on the means and variances of their returns. The choice of the highest expected return portfolio for a given level of variance or the lowest variance portfolio for a given expected return.
 
-mental accounting Individuals mentally segregate assets into independent accounts rather than viewing them as part of a unified portfolio.
+**mental accounting** Individuals mentally segregate assets into independent accounts rather than viewing them as part of a unified portfolio.
 
-minimum-variance frontier Graph of the lowest possible portfolio standard deviation corresponding to each value of portfolio expected return.
+**minimum-variance frontier** Graph of the lowest possible portfolio standard deviation corresponding to each value of portfolio expected return.
 
-minimum-variance portfolio The portfolio of risky assets with lowest possible variance.
+**minimum-variance portfolio** The portfolio of risky assets with lowest possible variance.
 
-modern portfolio theory (MPT) Principles underlying analysis and evaluation of rational portfolio choices based on risk-return trade-offs and efficient diversification.
+**modern portfolio theory (MPT)** Principles underlying analysis and evaluation of rational portfolio choices based on risk-return trade-offs and efficient diversification.
 
-modified duration Macaulay's duration divided by  $1 +$  yield to maturity. Measures interest rate sensitivity of bonds.
+**modified duration** Macaulay's duration divided by $1 +$ yield to maturity. Measures interest rate sensitivity of bonds.
 
-momentum effect The tendency of poorly performing stocks and well-performing stocks in one period to continue that abnormal performance in following periods.
+**momentum effect** The tendency of poorly performing stocks and well-performing stocks in one period to continue that abnormal performance in following periods.
 
-monetary policy Actions taken by the Board of Governors of the Federal Reserve System to influence the money supply or interest rates.
+**monetary policy** Actions taken by the Board of Governors of the Federal Reserve System to influence the money supply or interest rates.
 
-money market Includes short-term, highly liquid, and relatively low-risk debt instruments.
+**money market** Includes short-term, highly liquid, and relatively low-risk debt instruments.
 
-mortality tables Tables of probabilities that individuals of various ages will die within a year.
+**mortality tables** Tables of probabilities that individuals of various ages will die within a year.
 
-mortgage-backed security Ownership claim in a pool of mortgages or an obligation that is secured by such a pool. Also called a pass-through because payments are passed along from the mortgage originator to the purchaser of the mortgage-backed security.
+**mortgage-backed security** Ownership claim in a pool of mortgages or an obligation that is secured by such a pool. Also called a pass-through because payments are passed along from the mortgage originator to the purchaser of the mortgage-backed security.
 
-multifactor CAPM Generalization of the basic CAPM that accounts for extra-market hedging demands.
+**multifactor CAPM** Generalization of the basic CAPM that accounts for extra-market hedging demands.
 
-multifactor model Model of security returns positing that returns respond to several systematic risk factors as well as firm-specific influences.
+**multifactor model** Model of security returns positing that returns respond to several systematic risk factors as well as firm-specific influences.
 
-municipal bonds Tax-exempt bonds issued by state and local governments. General obligation bonds are backed by the general taxing power of the issuer. Revenue bonds are backed by the proceeds from the project or agency they are issued to finance.
+**municipal bonds** Tax-exempt bonds issued by state and local governments. General obligation bonds are backed by the general taxing power of the issuer. Revenue bonds are backed by the proceeds from the project or agency they are issued to finance.
 
-mutual fund An investment company pooling and managing funds of investors.
+**mutual fund** An investment company pooling and managing funds of investors.
 
-mutual fund theorem A result associated with the CAPM, asserting that investors will choose to invest their entire risky portfolio in a market-index mutual fund.
+**mutual fund theorem** A result associated with the CAPM, asserting that investors will choose to invest their entire risky portfolio in a market-index mutual fund.
 
-# N
+## N
 
-NAICS codes North American Industrial Classification System codes that use numerical values to identify industries.
+**NAICS codes** North American Industrial Classification System codes that use numerical values to identify industries.
 
-naked option writing Writing an option without an offsetting stock position.
+**naked option writing** Writing an option without an offsetting stock position.
 
-NASDAQ Stock Market The computer-linked price quotation and trade execution system on which thousands of securities trade.
+**NASDAQ Stock Market** The computer-linked price quotation and trade execution system on which thousands of securities trade.
 
-neglected-firm effect That investments in stock of lesswell-known firms have generated abnormal returns.
+**neglected-firm effect** That investments in stock of less well-known firms have generated abnormal returns.
 
-net asset value (NAV) Assets minus liabilities expressed on a per-share basis.
+**net asset value (NAV)** Assets minus liabilities expressed on a per-share basis.
 
-nominal interest rate The interest rate in terms of nominal (not adjusted for purchasing power) dollars.
+**nominal interest rate** The interest rate in terms of nominal (not adjusted for purchasing power) dollars.
 
-nondirectional strategy A position designed to exploit temporary misalignments in relative pricing. Typically involves a long position in one security hedged with a short position in a related security.
+**nondirectional strategy** A position designed to exploit temporary misalignments in relative pricing. Typically involves a long position in one security hedged with a short position in a related security.
 
-nondiversifiable risk Risk factors common to the whole economy; also called market risk or systematic risk.
+**nondiversifiable risk** Risk factors common to the whole economy; also called market risk or systematic risk.
 
-nonsystematic risk Nonmarket or firm-specific risk factors that can be eliminated by diversification. Also called unique risk, firm-specific risk, or diversifiable risk. Systematic risk refers to risk factors common to the entire economy.
+**nonsystematic risk** Nonmarket or firm-specific risk factors that can be eliminated by diversification. Also called unique risk, firm-specific risk, or diversifiable risk. Systematic risk refers to risk factors common to the entire economy.
 
-normal distribution Bell-shaped probability distribution that characterizes many natural phenomena.
+**normal distribution** Bell-shaped probability distribution that characterizes many natural phenomena.
 
-notional principal Principal amount used to calculate swap payments.
+**notional principal** Principal amount used to calculate swap payments.
 
-# 0 on the run Recently issued bond, selling at or near par value.
+## O
 
+**on the run** Recently issued bond, selling at or near par value.
 
-on-the-run yield curve Relationship between yield to maturity and time to maturity for newly issued bonds selling at or near par value.
+**on-the-run yield curve** Relationship between yield to maturity and time to maturity for newly issued bonds selling at or near par value.
 
-open interest The number of futures contracts outstanding.
+**open interest** The number of futures contracts outstanding.
 
-open-end (mutual) fund A fund that issues or redeems its own shares at net asset value (NAV).
+**open-end (mutual) fund** A fund that issues or redeems its own shares at net asset value (NAV).
 
-optimal risky portfolio An investor's best combination of risky assets; the combination that maximizes the Sharpe ratio.
+**optimal risky portfolio** An investor's best combination of risky assets; the combination that maximizes the Sharpe ratio.
 
-option elasticity The percentage increase in an option's value given a  $1\%$  change in the value of the underlying security.
+**option elasticity** The percentage increase in an option's value given a $1\%$ change in the value of the underlying security.
 
-original issue discount bond A bond issued with a low coupon rate that sells at a discount from par value.
+**original issue discount bond** A bond issued with a low coupon rate that sells at a discount from par value.
 
-out of the money Out of the money describes an option where exercise would result in a negative cash flow. Out-of-the-money options are therefore never exercised.
+**out of the money** Out of the money describes an option where exercise would result in a negative cash flow. Out-of-the-money options are therefore never exercised.
 
-outstanding shares Shares that have been issued by the company and are held by investors.
+**outstanding shares** Shares that have been issued by the company and are held by investors.
 
-over-the-counter (OTC) market An informal network of brokers and dealers where securities can be traded (not a formal exchange).
+**over-the-counter (OTC) market** An informal network of brokers and dealers where securities can be traded (not a formal exchange).
 
-# P pairs trading A form of statistical arbitrage in which stocks are paired up based on underlying similarities and long/short positions are established to exploit any relative mispricing between each pair.
+## P
 
+**pairs trading** A form of statistical arbitrage in which stocks are paired up based on underlying similarities and long/short positions are established to exploit any relative mispricing between each pair.
 
-par value The face value of the bond. The payment to the bondholder on the bond's maturity date.
+**par value** The face value of the bond. The payment to the bondholder on the bond's maturity date.
 
-passive investment strategy Investing in a diversified portfolio or market index without attempting to search out mispriced securities.
+**passive investment strategy** Investing in a diversified portfolio or market index without attempting to search out mispriced securities.
 
-passive management Buying a diversified portfolio, often a broad-based market index, without attempting to identify mispriced securities.
+**passive management** Buying a diversified portfolio, often a broad-based market index, without attempting to identify mispriced securities.
 
-passive market-index portfolio A market-index portfolio that can be formed without conducting security analysis.
+**passive market-index portfolio** A market-index portfolio that can be formed without conducting security analysis.
 
-passive strategy A portfolio decision that avoids any direct or indirect security analysis. See passive management.
+**passive strategy** A portfolio decision that avoids any direct or indirect security analysis. See passive management.
 
-pass-through security Pools of loans (such as home mortgage loans) sold in one package. Owners of pass-throughs receive the principal and interest payments made by the borrowers.
+**pass-through security** Pools of loans (such as home mortgage loans) sold in one package. Owners of pass-throughs receive the principal and interest payments made by the borrowers.
 
-P/E effect That low P/E stocks have exhibited higher average risk-adjusted returns than high P/E stocks.
+**P/E effect** That low P/E stocks have exhibited higher average risk-adjusted returns than high P/E stocks.
 
-peak The transition from the end of an expansion to the start of a contraction.
+**peak** The transition from the end of an expansion to the start of a contraction.
 
-personal trust An interest in an asset held by a trustee for the benefit of another person.
+**personal trust** An interest in an asset held by a trustee for the benefit of another person.
 
-plowback ratio The proportion of the firm's earnings reinvested in the business (and therefore not paid out as dividends). The plowback ratio equals 1 minus the dividend payout ratio.
+**plowback ratio** The proportion of the firm's earnings reinvested in the business (and therefore not paid out as dividends). The plowback ratio equals 1 minus the dividend payout ratio.
 
-political risk Possibility of the expropriation of assets, changes in tax policy, restrictions on the exchange of foreign currency for domestic currency, or other changes in the business climate of a country.
+**political risk** Possibility of the expropriation of assets, changes in tax policy, restrictions on the exchange of foreign currency for domestic currency, or other changes in the business climate of a country.
 
-portable alpha A strategy in which you invest in positive alpha positions, then hedge the systematic risk of that investment, and, finally, establish market exposure where you want it by using passive indexes.
+**portable alpha** A strategy in which you invest in positive alpha positions, then hedge the systematic risk of that investment, and, finally, establish market exposure where you want it by using passive indexes.
 
-portfolio insurance The practice of using options or dynamic hedge strategies to provide protection against investment losses while maintaining upside potential.
+**portfolio insurance** The practice of using options or dynamic hedge strategies to provide protection against investment losses while maintaining upside potential.
 
-portfolio management Process of combining securities in a portfolio tailored to the investor's preferences and needs, monitoring that portfolio, and evaluating its performance.
+**portfolio management** Process of combining securities in a portfolio tailored to the investor's preferences and needs, monitoring that portfolio, and evaluating its performance.
 
-portfolio opportunity set The expected return-standard deviation pairs of all portfolios that can be constructed from a given set of assets.
+**portfolio opportunity set** The expected return-standard deviation pairs of all portfolios that can be constructed from a given set of assets.
 
-posterior distribution Revised probability distribution for a variable after adjustment for empirical evidence on its likely value.
+**posterior distribution** Revised probability distribution for a variable after adjustment for empirical evidence on its likely value.
 
-preferred habitat theory Holds that investors prefer specific maturity ranges but can be induced to switch if risk premiums are sufficient.
+**preferred habitat theory** Holds that investors prefer specific maturity ranges but can be induced to switch if risk premiums are sufficient.
 
-preferred return See hurdle rate.
+**preferred return** See hurdle rate.
 
-preferred stock Nonvoting shares in a corporation, paying a fixed or variable stream of dividends.
+**preferred stock** Nonvoting shares in a corporation, paying a fixed or variable stream of dividends.
 
-premium (options) The purchase price of an option.
+**premium (options)** The purchase price of an option.
 
-premium bond A bond selling above par value.
+**premium bond** A bond selling above par value.
 
-present value of growth opportunities (PVGO) Net present value of a firm's future investments.
+**present value of growth opportunities (PVGO)** Net present value of a firm's future investments.
 
-price value of a basis point The change in the value of a fixed-income portfolio resulting from a 1 basis point change in the yield to maturity.
+**price value of a basis point** The change in the value of a fixed-income portfolio resulting from a 1 basis point change in the yield to maturity.
 
-price—earnings (P/E) ratio The ratio of a stock's price to its earnings per share. Also referred to as the  $P / E$  multiple.
+**price-earnings (P/E) ratio** The ratio of a stock's price to its earnings per share. Also referred to as the $P/E$ multiple.
 
-price-weighted average Weighted average with weights proportional to security prices rather than total capitalization.
+**price-weighted average** Weighted average with weights proportional to security prices rather than total capitalization.
 
-primary market The market in which new issues of securities are offered to the public.
+**primary market** The market in which new issues of securities are offered to the public.
 
-primitive security, derivative security A primitive security is an instrument such as a stock or bond for which cash flows depend only on the financial status of its issuer. A derivative security is created from the set of primitive securities to yield returns that depend on factors beyond the characteristics of the issuer and that may be related to prices of other assets.
+**primitive security, derivative security** A primitive security is an instrument such as a stock or bond for which cash flows depend only on the financial status of its issuer. A derivative security is created from the set of primitive securities to yield returns that depend on factors beyond the characteristics of the issuer and that may be related to prices of other assets.
 
-principal The outstanding balance on a loan.
+**principal** The outstanding balance on a loan.
 
-prior distribution Probability distribution for a variable before adjusting for empirical evidence on its likely value.
+**prior distribution** Probability distribution for a variable before adjusting for empirical evidence on its likely value.
 
-private equity Investments in companies whose shares are not publicly traded in a stock market.
+**private equity** Investments in companies whose shares are not publicly traded in a stock market.
 
-private placement Primary offering in which shares are sold directly to a small group of institutional or wealthy investors.
+**private placement** Primary offering in which shares are sold directly to a small group of institutional or wealthy investors.
 
-profit margin Operating profits per dollar of sales; also called return on sales.
+**profit margin** Operating profits per dollar of sales; also called return on sales.
 
-program trading Coordinated buy orders and sell orders of entire portfolios, usually with the aid of computers, often to achieve index arbitrage objectives.
+**program trading** Coordinated buy orders and sell orders of entire portfolios, usually with the aid of computers, often to achieve index arbitrage objectives.
 
-prospect theory Behavioral (as opposed to rational) model of investor utility. Investor utility depends on changes in wealth rather than levels of wealth.
+**prospect theory** Behavioral (as opposed to rational) model of investor utility. Investor utility depends on changes in wealth rather than levels of wealth.
 
-prospectus A description of the firm and the security it is issuing.
+**prospectus** A description of the firm and the security it is issuing.
 
-protective covenant A provision specifying requirements of collateral, sinking fund, dividend policy, etc., designed to protect the interests of bondholders.
+**protective covenant** A provision specifying requirements of collateral, sinking fund, dividend policy, etc., designed to protect the interests of bondholders.
 
-protective put Purchase of an asset combined with a put option on that asset to guarantee proceeds at least equal to the put's exercise price.
+**protective put** Purchase of an asset combined with a put option on that asset to guarantee proceeds at least equal to the put's exercise price.
 
-proxy An instrument empowering an agent to vote in the name of the shareholder.
+**proxy** An instrument empowering an agent to vote in the name of shareholder.
 
-prudent investor rule An investment manager must act in accord with the actions of a hypothetical prudent investor.
+**prudent investor rule** An investment manager must act in accord with the actions of a hypothetical prudent investor.
 
-public offering, private placement A public offering consists of securities sold in the primary market to the general public; a private placement is sold directly to a limited number of institutional investors.
+**public offering, private placement** A public offering consists of securities sold in the primary market to the general public; a private placement is sold directly to a limited number of institutional investors.
 
-pure plays Bets on particular mispricing across two or more securities, with extraneous sources of risk such as general market exposure hedged away.
+**pure plays** Bets on particular mispricing across two or more securities, with extraneous sources of risk such as general market exposure hedged away.
 
-pure yield curve The relationship between yield to maturity and time to maturity for zero-coupon bonds.
+**pure yield curve** The relationship between yield to maturity and time to maturity for zero-coupon bonds.
 
-pure yield pickup swap Moving to higher-yield, longer-term bonds to capture the liquidity premium.
+**pure yield pickup swap** Moving to higher-yield, longer-term bonds to capture the liquidity premium.
 
-put bond A bond that the holder may choose either to exchange for par value at some date or to extend for a given number of years.
+**put bond** A bond that the holder may choose either to exchange for par value at some date or to extend for a given number of years.
 
-put option The right to sell an asset at a specified exercise price on or before a specified expiration date.
+**put option** The right to sell an asset at a specified exercise price on or before a specified expiration date.
 
-put-call parity theorem An equation representing the proper relation between put and call prices. Violation of parity implies the existence of arbitrage opportunities.
+**put-call parity theorem** An equation representing the proper relation between put and call prices. Violation of parity implies the existence of arbitrage opportunities.
 
-put/call ratio Ratio of put options to call options outstanding on a stock.
+**put/call ratio** Ratio of put options to call options outstanding on a stock.
 
-# Q quality of earnings The realism and conservatism of the earnings number and the extent to which we might expect the reported level of earnings to be sustained.
+## Q
 
+**quality of earnings** The realism and conservatism of the earnings number and the extent to which we might expect the reported level of earnings to be sustained.
 
-quick ratio A measure of liquidity similar to the current ratio except for exclusion of inventories. It equals cash plus receivables divided by current liabilities.
+**quick ratio** A measure of liquidity similar to the current ratio except for exclusion of inventories. It equals cash plus receivables divided by current liabilities.
 
-# R random walk Describs the notion that stock price changes are random and unpredictable.
+## R
 
+**random walk** Describes the notion that stock price changes are random and unpredictable.
 
-rate anticipation swap A switch made between bonds of different durations in response to forecasts of interest rates.
+**rate anticipation swap** A switch made between bonds of different durations in response to forecasts of interest rates.
 
-real assets Assets used to produce goods and services such as land, buildings, and equipment.
+**real assets** Assets used to produce goods and services such as land, buildings, and equipment.
 
-real estate Ownership in land or buildings.
+**real estate** Ownership in land or buildings.
 
-real estate investment trust See REIT.
+**real estate investment trust** See REIT.
 
-real interest rate The excess of the interest rate over the inflation rate. The growth rate of purchasing power derived from an investment.
+**real interest rate** The excess of the interest rate over the inflation rate. The growth rate of purchasing power derived from an investment.
 
-realized compound return Compound rate of return assuming that coupon payments are reinvested until maturity.
+**realized compound return** Compound rate of return assuming that coupon payments are reinvested until maturity.
 
-rebalancing Realigning the proportions of assets in a portfolio as needed.
+**rebalancing** Realigning the proportions of assets in a portfolio as needed.
 
-registered bond A bond whose issuer records ownership and interest payments. Differs from a bearer bond, which is traded without record of ownership and whose possession is its only evidence of ownership.
+**registered bond** A bond whose issuer records ownership and interest payments. Differs from a bearer bond, which is traded without record of ownership and whose possession is its only evidence of ownership.
 
-regression equation An equation that describes the average relationship between a dependent variable and one or more explanatory variables.
+**regression equation** An equation that describes the average relationship between a dependent variable and one or more explanatory variables.
 
-regret avoidance Notion from behavioral finance that individuals who make decisions that turn out badly will have more regret when that decision was more unconventional.
+**regret avoidance** Notion from behavioral finance that individuals who make decisions that turn out badly will have more regret when that decision was more unconventional.
 
-reinvestment rate risk The uncertainty surrounding the cumulative future value of reinvested bond coupon payments.
+**reinvestment rate risk** The uncertainty surrounding the cumulative future value of reinvested bond coupon payments.
 
-REIT Real estate investment trust, which is similar to a closed-end mutual fund. REITs invest in real estate or loans secured by real estate and issue shares in such investments.
+**REIT** Real estate investment trust, which is similar to a closed-end mutual fund. REITs invest in real estate or loans secured by real estate and issue shares in such investments.
 
-relative strength The extent to which a security has outperformed or underperformed either the market as a whole or its particular industry.
+**relative strength** The extent to which a security has outperformed or underperformed either the market as a whole or its particular industry.
 
-replacement cost Cost to replace a firm's assets. Also called reproduction cost.
+**replacement cost** Cost to replace a firm's assets. Also called reproduction cost.
 
-representativeness bias The tendency to believe that a small sample is reliably representative of a broad population and therefore to infer patterns too quickly.
+**representativeness bias** The tendency to believe that a small sample is reliably representative of a broad population and therefore to infer patterns too quickly.
 
-repurchase agreements (repos) Short-term, often overnight, sales of securities with an agreement to repurchase them at a slightly higher price. A reverse repo is a purchase with an agreement to resell at a specified price on a future date.
+**repurchase agreements (repos)** Short-term, often overnight, sales of securities with an agreement to repurchase them at a slightly higher price. A reverse repo is a purchase with an agreement to resell at a specified price on a future date.
 
-residual claim Refers to the fact that shareholders are at the bottom of the list of claimants to assets of a corporation in the event of failure or bankruptcy.
+**residual claim** Refers to the fact that shareholders are at the bottom of the list of claimants to assets of a corporation in the event of failure or bankruptcy.
 
-residual income Another term for economic value added (EVA).
+**residual income** Another term for economic value added (EVA).
 
-residuals Parts of stock returns not explained by the explanatory variable (the market-index return). They measure the impact of firm-specific events during a particular period.
+**residuals** Parts of stock returns not explained by the explanatory variable (the market-index return). They measure the impact of firm-specific events during a particular period.
 
-resistance level A price level above which it is supposedly difficult for a stock or stock index to rise.
+**resistance level** A price level above which it is supposedly difficult for a stock or stock index to rise.
 
-return on assets (ROA) A profitability ratio; earnings before interest and taxes divided by total assets.
+**return on assets (ROA)** A profitability ratio; earnings before interest and taxes divided by total assets.
 
-return on capital (ROC) EBIT divided by long-term capital.
+**return on capital (ROC)** EBIT divided by long-term capital.
 
-return on equity (ROE) Ratio of net profits to common equity.
+**return on equity (ROE)** Ratio of net profits to common equity.
 
-return on sales (ROS) Operating profits per dollar of sales; also called profit margin.
+**return on sales (ROS)** Operating profits per dollar of sales; also called profit margin.
 
-reversal effect The tendency of poorly performing stocks and well-performing stocks in one period to experience reversals in following periods.
+**reversal effect** The tendency of poorly performing stocks and well-performing stocks in one period to experience reversals in following periods.
 
-reversing trade Entering the opposite side of a currently held futures position to close out the position.
+**reversing trade** Entering the opposite side of a currently held futures position to close out the position.
 
-reward-to-volatility or Sharpe ratio Ratio of excess return to portfolio standard deviation.
+**reward-to-volatility or Sharpe ratio** Ratio of excess return to portfolio standard deviation.
 
-riding the yield curve Buying long-term bonds in anticipation of capital gains as yields fall with the declining maturity of the bonds.
+**riding the yield curve** Buying long-term bonds in anticipation of capital gains as yields fall with the declining maturity of the bonds.
 
-risk arbitrage Speculation on perceived security mispricing, often in connection with merger and acquisition targets.
+**risk arbitrage** Speculation on perceived security mispricing, often in connection with merger and acquisition targets.
 
-risk averse An investor who will consider risky portfolios only if they provide compensation for risk via a risk premium.
+**risk averse** An investor who will consider risky portfolios only if they provide compensation for risk via a risk premium.
 
-risk aversion The aversion to uncertainty that leads investors to demand a risk premium for bearing such risk.
+**risk aversion** The aversion to uncertainty that leads investors to demand a risk premium for bearing such risk.
 
-risk lover An investor who is willing to accept lower expected returns on prospects with higher amounts of risk.
+**risk lover** An investor who is willing to accept lower expected returns on prospects with higher amounts of risk.
 
-risk neutral An investor who finds the level of risk irrelevant and considers only the expected return of risk prospects.
+**risk neutral** An investor who finds the level of risk irrelevant and considers only the expected return of risk prospects.
 
-risk pooling Adding uncorrelated, risky investments to the portfolio.
+**risk pooling** Adding uncorrelated, risky investments to the portfolio.
 
-risk premium An expected return in excess of that on risk-free securities. The premium provides compensation for the risk of an investment.
+**risk premium** An expected return in excess of that on risk-free securities. The premium provides compensation for the risk of an investment.
 
-risk sharing Spreading risk across many investors so that each investor bears only a fraction of the total risk.
+**risk sharing** Spreading risk across many investors so that each investor bears only a fraction of the total risk.
 
-risk-free asset An asset with a certain rate of return; often taken to be short-term T-bills.
+**risk-free asset** An asset with a certain rate of return; often taken to be short-term T-bills.
 
-risk-free rate The interest rate that can be earned with certainty, commonly taken to be the rate on short-term Treasury bills.
+**risk-free rate** The interest rate that can be earned with certainty, commonly taken to be the rate on short-term Treasury bills.
 
-risk-return trade-off Assets with higher expected return entail greater risk.
+**risk-return trade-off** Assets with higher expected return entail greater risk.
 
-risky asset An asset with an uncertain rate of return.
+**risky asset** An asset with an uncertain rate of return.
 
 # S scatter diagram Plot of returns of one security versus returns of another security. Each point represents one pair of returns for a given holding period.
 

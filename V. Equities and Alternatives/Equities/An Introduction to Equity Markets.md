@@ -1,12 +1,22 @@
 ---
-aliases:
-  - An introduction to equity markets
-tags:
-key_concepts:
+title: An Introduction to Equity Markets
 parent_directory: V. Equities and Alternatives/Equities
+formatted: 2025-12-21 04:25:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+   - equity markets
+   - stock exchanges
+   - market efficiency
+   - share valuation
+secondary_tags:
+   - liquidity benefits
+   - initial public offerings
+   - stock market indices
+   - rights issues
+   - share repurchases
+   - preference shares
 cssclasses: academia
-title: "Chapter 1: An Introduction to Equity Markets"
-linter-yaml-title-alias: "Chapter 1: An Introduction to Equity Markets"
 ---
 
 Chapter Title: An introduction to equity markets
@@ -34,7 +44,7 @@ Liverpool University Press is collaborating with JSTOR to digitize, preserve and
 
 # 1 An introduction to equity markets
 
-# 1.1 The benefits of a smooth-running stock exchange
+## 1.1 The benefits of a smooth-running stock exchange
 
 Why is it that stock exchanges are considered so important? Why do most national news bulletins conclude by telling their audience what the local stock exchanges have done that day?
 
@@ -46,57 +56,105 @@ When a company makes the decision to go public, there is a recognition that the 
 
 While the rules and regulations vary around the world, the basic premise of an acquisition is that if one company wants to take over another company, this can be achieved by simply buying the stock in the stock market. The motives for such an acquisition are numerous but include gaining market share or technology and/or the replacement of inefficient management. Stocks that are publicly quoted are exposed to acquisitions, whereas the shares in privately owned companies are not.
 
-# 1.2 The efficient market hypothesis
+## 1.2 The efficient market hypothesis
 
 In section 5.2 we will cover the net present value (NPV) decision rule and in section 2.6 we will encounter the concept of beta. In an NPV decision rule, it is imperative that any real investment decisions made by a company are reflected in the company's share price. For example, if a company makes an investment with a positive NPV it should increase shareholder wealth, and the share price should rise accordingly. In determining the discount rate to evaluate projects it is imperative that the stock price and the stock market index accurately reflect relevant information.
 
 The efficient market hypothesis was developed in 1970 by Eugene Fama, who defined three key forms of market efficiency. In the weak form, current market prices reflect all historical information about a company. In the semi-strong form, the information from the weak form is supplemented by current publicly available information about the company. Finally, the strong form requires stock prices to reflect the information included in both the weak and semi-strong forms, as well as privately held information. This is the most stringent form of market efficiency as it includes "insider" information.
 
-One implication of a stock market having semi-strong form efficiency is that if new information relating to a company is released, the market should immediately process this information rationally, determining whether it has a positive or a negative impact on share prices and adjusting market prices accordingly. The speed of information incorporation is assumed to be so fast that there is no opportunity to buy the shares between information release and
-
-incorporation into the price. This ensures that the market is a level playing field. Information is assumed to arrive randomly and is therefore not forecastable.
+One implication of a stock market having semi-strong form efficiency is that if new information relating to a company is released, the market should immediately process this information rationally, determining whether it has a positive or a negative impact on share prices and adjusting market prices accordingly. The speed of information incorporation is assumed to be so fast that there is no opportunity to buy the shares between information release and incorporation into the price. This ensures that the market is a level playing field. Information is assumed to arrive randomly and is therefore not forecastable.
 
 Eugene Fama received the Nobel Prize for Economics in 2013. A discussion of his contribution can be found on the Nobel Prize website.<sup>1</sup>
 
-# 1.3 Ordinary shares
+```d2
+direction: right
+
+Primary Market: Primary Market {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+
+  IPO: Initial Public Offering
+  Rights Issues: Rights Issues
+  Private Placements: Private Placements
+}
+
+Secondary Market: Secondary Market {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+
+  Stock Exchanges: Stock Exchanges
+  Trading: Trading Platforms
+  Market Indices: Market Indices
+}
+
+Investors: Investors {
+  shape: circle
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+
+  Individual: Individual Investors
+  Institutional: Institutional Investors
+  Retail: Retail Traders
+}
+
+Companies: Companies {
+  shape: rectangle
+  style.fill: "#fce4ec"
+  style.stroke: "#e91e63"
+
+  Private Firms: Private Firms
+  Public Companies: Public Companies
+}
+
+Primary Market -> Secondary Market: Shares flow to
+Secondary Market -> Investors: Trading occurs
+Investors -> Companies: Capital flows to
+Companies -> Primary Market: Raise capital via
+
+Stock Exchanges -> Market Indices: Measured by
+```
+
+**Figure 1.2: Equity Market Ecosystem** - The primary market facilitates new capital raising through IPOs and rights issues, while the secondary market enables trading of existing shares through stock exchanges.
+
+## 1.3 Ordinary shares
 
 Ordinary shares, often known as common stock, are the most common form of financial ownership. When a company issues ordinary shares it is never required to repay the share capital. Ordinary shares normally entitle you to vote and to receive the company's residual profit, i.e. net profit available after creditors and other providers of capital have been paid. This places ordinary shareholders in a risky situation because they stand at the back of a large queue behind the tax authorities, creditors and preference shareholders (covered later in this chapter). However, the returns to creditors such as bondholders and banks, and to preference shareholders, are fixed, whereas the returns to ordinary shareholders are potentially unlimited.
 
 If you asked a group of students who have not previously studied finance whether a firm that has issued ordinary shares "must pay a regular dividend", the majority would say yes. However, for ordinary shares there is no guaranteed dividend, and shareholders will only receive a dividend if sufficient funds remain after other creditors have been paid and if the company chooses to pay one. The company could choose to retain the funds and use them for investment purposes.
 
-# Activity 1.1
+**Activity 1.1**
 
 Search online for the following term: "Alphabet certificate of incorporation". Use the resultant document to determine the difference between A shares, B shares and C shares.
 
 Several companies have different classes of ordinary shares. One well-known company with such a structure is Berkshire Hathaway:
 
-Each Class A common share is entitled to one vote per share. Class B common stock possesses dividend and distribution rights equal to one-
-
-fifteen-hundredth (1/1,500) of such rights of Class A common stock. Each Class B common share possesses voting rights equivalent to one-tenthousandth (1/10,000) of the voting rights of a Class A share.<sup>2</sup>
+Each Class A common share is entitled to one vote per share. Class B common stock possesses dividend and distribution rights equal to one-fifteen-hundredth (1/1,500) of such rights of Class A common stock. Each Class B common share possesses voting rights equivalent to one-tenthousandth (1/10,000) of the voting rights of a Class A share.<sup>2</sup>
 
 If the A shares are worth US \$280,850 and the B shares are worth US\$ 187.37, then the ratio of one to other is 1498.91, which is very close to the ratio of dividend and distribution rights (1500:1).
 
-# 1.4 Preference shares
+## 1.4 Preference shares
 
 In section 1.3 we discussed ordinary shares, which are the most popular form of shares. However, another form of share capital exists in the form of preference shares. As the name suggests, preference shares are preferred to ordinary shares when it comes to the distribution of profits in the form of dividends. In addition, if a company faces financial difficulties, preference shareholders are given priority in the distribution of assets. Moreover, while the payment and size of dividends on ordinary shares are discretionary, preference shares "guarantee" a fixed dividend. However, if a firm fails to pay a preference dividend then the company will not face bankruptcy, which would be the case if a company failed to make a bond/loan payment. As the dividend is "guaranteed", from an investor's perspective it is considered a low-risk investment compared to ordinary shares, and it follows that investors will accept a lower return than from ordinary shares in the same company. In addition, preference shares usually do not have voting rights attached to them.
 
-# Examples of preference dividends
+### Examples of preference dividends
 
-The Bank of China issued RMB 39.94 billion of preference shares in October 2014 with a nominal value per share of RMB 1,000 and a dividend rate of  $6.75\%$ .<sup>3</sup>
+The Bank of China issued RMB 39.94 billion of preference shares in October 2014 with a nominal value per share of RMB 1,000 and a dividend rate of $6.75\%$.<sup>3</sup>
 
 British Petroleum has two preference shares in issue. The payment details are as follows:
 
-Payment of the dividend for the  $8\%$  and  $9\%$  cumulative preference shareholders is made on:
+Payment of the dividend for the $8\%$ and $9\%$ cumulative preference shareholders is made on:
 
 31 January (or the closest working day) for the half year ended  
 30 September, and  
 31 July (or the closest working day) for the half year ended 31 March.
 
-The dividend will be £0.04 (4p) per share for  $8 \%$ cumulative preference shareholders and £0.045 (4.5p) per share for  $9 \%$ cumulative preference shareholders. $^{4}$
+The dividend will be £0.04 (4p) per share for $8\%$ cumulative preference shareholders and £0.045 (4.5p) per share for $9\%$ cumulative preference shareholders.$^{4}$
 
 Preference shares have very similar characteristics to loan capital from the issuer's point of view, with the requirement to pay a fixed dividend each year. However, there are two distinct differences between loan capital and preference shares. Loan capital has a finite life, whereas preference shares have an infinite life. In addition, preference shareholders are considered as having ownership in the company, whereas lenders are not. As a result, interest payments can be considered as a legitimate business expense and hence deducted before taxation.
 
-Consider two companies, A and B, which are looking to raise £100m in external financing. Company A has raised the £100m via a preference share issue with a yield of  $10\%$  p.a. Company B has issued a perpetual bond with an annual coupon payment of  $10\%$  p.a.
+Consider two companies, A and B, which are looking to raise £100m in external financing. Company A has raised the £100m via a preference share issue with a yield of $10\%$ p.a. Company B has issued a perpetual bond with an annual coupon payment of $10\%$ p.a.
 
 Is there a difference in the amount of wealth available for distribution to ordinary shareholders if they both generate profits before tax, dividends and interest of £80m?
 
@@ -106,13 +164,13 @@ It is evident that the tax paid by Company A is lower than that paid by Company 
 
 The spreadsheet for this exercise can be found here. Please ensure you click on Section 1 and the 1.4 tab at the bottom of the spreadsheet.
 
-# 1.5 Authorised, issued and par values
+## 1.5 Authorised, issued and par values
 
 When a firm is incorporated, an amount referred to as the authorised share capital is determined. This indicates the maximum number of shares the company can issue. In the majority of cases, companies do not issue up to this amount. For example, a company may have set its authorised share capital at  $200\mathrm{m}$  but may only have issued  $\pm 150\mathrm{m}$  as shares, leaving  $\pm 50\mathrm{m}$  as authorised but unissued share capital. The company is then free to issue the remainder as it wishes to raise additional capital.
 
 Ordinary shares have what is referred to as a "par value", which is usually an amount such as 100 pence or 50 pence. This bears no relation to the current market value of the shares. However, in the balance sheet of a company, the issued share capital appears as par value. The balance sheet also includes an amount referred to as the "share premium account", which reflects the difference between the amount paid for the shares at the time of issue and the par value.
 
-# Example
+### Example
 
 The equity component of the balance sheet in Speedy Hire's 2017 annual statement<sup>5</sup> includes the following details:
 
@@ -126,31 +184,29 @@ An initial public offering, more commonly known as an IPO, is when a privately o
 
 million shares, priced at US \$38 per share, giving the company an overall valuation of US\$ 104bn and realising significant gains for the initial founders and investors.
 
-The share performance following the IPO was initially disappointing and investors in the IPO would have suffered a loss, albeit a "paper" one. But those investors who held on to the shares for five years would have experienced gains in excess of  $350\%$ . Note, had the number of shares in issue remained static, aside from personal gains by managers and founders, Facebook, as a company, would not have benefited. However, Facebook has issued shares since the IPO at an ever higher share price, which has benefited the company tremendously.
+The share performance following the IPO was initially disappointing and investors in the IPO would have suffered a loss, albeit a "paper" one. But those investors who held on to the shares for five years would have experienced gains in excess of $350\%$. Note, had the number of shares in issue remained static, aside from personal gains by managers and founders, Facebook, as a company, would not have benefited. However, Facebook has issued shares since the IPO at an ever higher share price, which has benefited the company tremendously.
 
-Facebook is a classic example of a small, young company seeking both capital to expand and also a return on investment for both founders and investors. An UK example is the supermarket chain Morrisons, which started as a market stall in Bradford in 1899 and held an IPO in 1967, and now has about 500 UK supermarkets. IPOs can also be made by large privately owned companies. For example, in 1999 the previously privately owned company Goldman Sachs held an IPO, selling  $12.6\%$  of the company to the public at US \$53 per share. Of the remainder, \(48.3\%$  of the company was held by 221 former partners, each holding approximately US\)63m.
+Facebook is a classic example of a small, young company seeking both capital to expand and also a return on investment for both founders and investors. An UK example is the supermarket chain Morrisons, which started as a market stall in Bradford in 1899 and held an IPO in 1967, and now has about 500 UK supermarkets. IPOs can also be made by large privately owned companies. For example, in 1999 the previously privately owned company Goldman Sachs held an IPO, selling $12.6\%$ of the company to the public at US \$53 per share. Of the remainder, $48.3\%$ of the company was held by 221 former partners, each holding approximately US$63m.
 
 In an IPO the money paid by investors for the newly issued shares goes directly to the company, in what we will refer to as the primary market. Subsequent trading takes place in the secondary market, and any gains or losses are therefore independent of the issuing company and simply pass between investors.
 
 Following an IPO, the company's founders and initial investors will see the size of their shareholdings fall as more shares are issued. However, if the capital is used wisely, the shareholders will see a rise in the absolute value of their shares. In the case of Goldman Sachs, the share price had risen to around US \$230 per share at the start of 2017 from US\$ 53 in 1999.
 
-# 1.7 Stock market indices
+## 1.7 Stock market indices
 
 A stock market index is a method of measuring a stock market as a whole. Stock market indices are classified in four key ways:
 
 1. Global stock market indices gauge the performance of the world's equity markets. For example, the Financial Times All-World Index measures the performance of large and mid-cap stocks from 47 countries.  
 2. Regional stock market indices measure the performance of regional equity markets. For example, the Euro Stoxx 50 consists of the 50 largest, and most liquid, stocks in the Eurozone (i.e. countries having the euro as their currency).  
-3. National stock market indices represent the performance of the entire domestic stock market of a country. This is particularly useful since most economic indicators, such as
-
-Gross Domestic Product, are published on a quarterly basis, whereas stock index prices are available on a second-by-second basis and therefore provide an immediate barometer of economic activity. Each country has its own important stock market index. In the UK, the leading stock market index is the FTSE100, which includes the 100 largest UK companies. In addition, it represents approximately  $80\%$  of the capitalisation of the entire UK stock market.
+3. National stock market indices represent the performance of the entire domestic stock market of a country. This is particularly useful since most economic indicators, such as Gross Domestic Product, are published on a quarterly basis, whereas stock index prices are available on a second-by-second basis and therefore provide an immediate barometer of economic activity. Each country has its own important stock market index. In the UK, the leading stock market index is the FTSE100, which includes the 100 largest UK companies. In addition, it represents approximately $80\%$ of the capitalisation of the entire UK stock market.
 
 4. Focused indices track specific sectors of the economy or specific types of shares. For example, the S&P Global Luxury index represents the performance of 80 stocks engaged in "luxury" activities. Notable inclusions are LVMH-Moet Vuitton, Tesla and Daimler.
 
-# Activity 1.2
+**Activity 1.2**
 
 Search online for the following term: "FTSE250 chart". Note the value of the index on 23 June 2016 and 24 June 2016.
 
-# 1.8 Stock market linkages
+## 1.8 Stock market linkages
 
 As noted above, a stock market index can be considered a barometer of economic activity. In addition, as world economies are exposed to many of the same systematic issues, they have a tendency to move together. Consider the following scatter diagram:
 
@@ -179,13 +235,13 @@ The most strongly correlated indices over this period are the DAX in Germany and
 
 The spreadsheet for this exercise can be found here. Please ensure you click on Section 1 and the 1.8b tab at the bottom of the spreadsheet.
 
-# 1.9 Rights issues
+## 1.9 Rights issues
 
 Once a company has a listing on the stock exchange it can raise additional capital via a rights issue. In a rights issue, existing shareholders are offered the opportunity to buy additional shares at a price that is usually a discount from the prevailing market price. There is no requirement for existing shareholders to accept the offer and they are permitted to sell the rights on. A rights issue usually takes place on a ratio basis. For example, in 2015 Tata Motors raised new capital via a rights issue that offered six new shares for every 109 shares held. This would be a 6-for-109 rights issue.
 
 If you buy shares in a company that is undertaking a rights issue then two important terms are used: cum-rights and ex-rights. Shares that are labelled as cum-rights provide the opportunity to take part in the rights issue, whereas shares that are labelled ex-rights do not. In the latter case, the opportunity to take part in the rights issue resides with the previous shareholder.
 
-# Example
+### Example
 
 Consider a company, Riverbank plc, that wishes to raise capital for investment yet is reluctant to borrow the money in the capital markets. Instead it seeks to raise money via a rights issue. In order to attract investors, it will need to offer existing shareholders the opportunity to buy new shares below the current market price. This is not only attractive to investors but avoids the risk of the share price falling between the beginning and the completion of the rights issue.
 
@@ -199,33 +255,33 @@ Capital raised = £56.25m
 
 Total market capitalisation = £306.25m
 
-Total shares available  $= {125}\mathrm{\;m}$
+Total shares available $= 125\mathrm{m}$
 
-Ex-rights share price  $= 245\mathrm{p}$
+Ex-rights share price $= 245\mathrm{p}$
 
 Alternatively, you can examine the situation from the viewpoint of an investor holding four existing shares who participates in the rights issue:
 
-Four existing shares at a price of  $250p = 1000p$
+Four existing shares at a price of $250p = 1000p$
 
-One new share for cash at  $225p = 225p$
+One new share for cash at $225p = 225p$
 
-Total value of five shares  $= 1225p$
+Total value of five shares $= 1225p$
 
 Value of one share (ex-rights) = 245p
 
-A common misconception is that, because the share price has fallen, the investor must lose out. Our investor holding four shares, who took up the rights issue, has lost 5 pence for each share, a loss of  $20\mathrm{p}$  in total. However, they purchased one new share for  $225\mathrm{p}$  via the rights issue, which is now worth  $245\mathrm{p}$ . Therefore, the shareholder experiences a decline in the price of the old shares, but this loss is exactly offset by the gain in share value on the new rights issue shares. The gain/loss can also be considered as the value of a right on one share, which in this example is:
+A common misconception is that, because the share price has fallen, the investor must lose out. Our investor holding four shares, who took up the rights issue, has lost 5 pence for each share, a loss of $20\mathrm{p}$ in total. However, they purchased one new share for $225\mathrm{p}$ via the rights issue, which is now worth $245\mathrm{p}$. Therefore, the shareholder experiences a decline in the price of the old shares, but this loss is exactly offset by the gain in share value on the new rights issue shares. The gain/loss can also be considered as the value of a right on one share, which in this example is:
 
 Market value of shares ex-rights - subscription price Number of shares required to purchase one new share
 
 plugging in the data:
 
 $$
-\frac {2 4 5 - 2 2 5}{4} = 5 p
+\frac{245 - 225}{4} = 5p
 $$
 
-Hence the value of a right for someone holding four shares is  $20p$ .
+Hence the value of a right for someone holding four shares is $20p$.
 
-# 1.10 Stock splits
+## 1.10 Stock splits
 
 The nominal book value of a company's shares is defined as:
 
@@ -239,7 +295,7 @@ Apple has held numerous stock splits since 1987 as detailed below:
 
 In June 1987, 1 original share became 2 shares, which in June 2000 became 4 shares, which in February 2005 became 8 shares; finally, in June 2014, these 8 shares became 56 shares. Therefore if, in 2017, the Apple share price is around US\$150 per share, this actually represents 56 x US\$150 of the original share's US\$8,400. The original IPO price in 1980 was around US\$22!
 
-# Activity 1.3
+**Activity 1.3**
 
 Search online for the following terms: "Microsoft stock split history" and "Microsoft stock price". Obtain the current market price for Microsoft and compare this to the original IPO price of around US\$21.
 
@@ -249,15 +305,15 @@ A reverse stock split is less common but not unknown when the company wishes to 
 
 You can see that the reverse stock split had the desired effect in boosting the lowly share price from around US \$4.5 to over US\$ 44.
 
-# 1.11 Share repurchase
+## 1.11 Share repurchase
 
-A share repurchase (or buy-back) is similar to a dividend in that a company is distributing wealth to shareholders. Under a share buy-back a company repurchases its shares at the prevailing market value (or at a premium), thereby reducing the number of shares outstanding. The rationale for this is that the management may feel that the stock price is too low and that buying its own shares may give a positive signal to the market. Alternatively, it may be viewed as a way of returning wealth to shareholders. For example, during 2010, 2011 and 2012, Astra Zeneca repurchased shares amounting to US $2,604m, US$ 6,015m and US\$2,635 respectively. One of the best-known long-term share repurchase schemes is that of Home Depot, which,
+A share repurchase (or buy-back) is similar to a dividend in that a company is distributing wealth to shareholders. Under a share buy-back a company repurchases its shares at the prevailing market value (or at a premium), thereby reducing the number of shares outstanding. The rationale for this is that the management may feel that the stock price is too low and that buying its own shares may give a positive signal to the market. Alternatively, it may be viewed as a way of returning wealth to shareholders. For example, during 2010, 2011 and 2012, Astra Zeneca repurchased shares amounting to US\$2,604m, US\$6,015m and US\$2,635m respectively. One of the best-known long-term share repurchase schemes is that of Home Depot, which,
 
 since 2002, has repurchased stock having a value of approximately US\$67.1 billion, as it returns wealth to shareholders. We will see in later sections that the value of an asset or a company is found by discounting future cash flows at a discount rate that represents the risk of future operations. A share repurchase does not change the risk of the future cash flows, but it does change two notable financial ratios: return on assets and earnings per share.
 
 The example below demonstrates this case.
 
-# Example
+### Example
 
 Suppose a company repurchases two million shares at £5 per share for a total cash outlay of £10m.
 

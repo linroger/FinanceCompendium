@@ -1,19 +1,37 @@
 ---
-parent_directory: Week 1
 title: Chapter 1 - A Framework for Business Analysis and Valuation Using Financial Statements
-tags:
-aliases:
-  - Framework for Business Analysis and Valuation Using Financial Statements
-parent_folder: Week 1
-subfolder:
-key_concepts:
+parent_directory: Week 1
+formatted: 2025-12-21 10:00:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+   - financial statement analysis framework
+   - business valuation methodology
+   - capital markets functioning
+   - accounting quality assessment
+   - strategic analysis steps
+secondary_tags:
+   - accrual accounting principles
+   - GAAP and IFRS standards
+   - managerial reporting strategies
+   - auditing oversight
+   - Sarbanes-Oxley Act
+   - venture capital investments
+   - investment banking intermediaries
+   - sell-side analyst recommendations
+   - buy-side portfolio management
+   - dot-com bubble analysis
+   - market efficiency theory
+   - information asymmetry problems
+   - financial intermediaries roles
+   - regulatory compliance
+   - stock market valuation
 cssclasses: academia
-linter-yaml-title-alias: Chapter 1 - A Framework for Business Analysis and Valuation Using Financial Statements
 ---
 
 # Chapter 1
 
-# A Framework for Business Analysis and Valuation Using Financial Statements
+## A Framework for Business Analysis and Valuation Using Financial Statements
 
 This chapter outlines a comprehensive framework for financial statement analysis. Because financial statements provide the most widely available data on public corporations' economic activities, investors and other stakeholders rely on financial reports to assess the plans and performance of firms and corporate managers.
 
@@ -31,7 +49,7 @@ Financial statement analysis is a valuable activity when managers have in-depth 
 
 To understand the contribution that financial statement analysis can make, it is important to understand the role of financial reporting in the functioning of capital markets and the institutional forces that shape financial statements. Therefore, we first present a brief description of these forces followed by a discussion of the steps that an analyst must perform to extract information from financial statements and provide valuable forecasts.
 
-# THE ROLE OF FINANCIAL REPORTING IN CAPITAL MARKETS
+## THE ROLE OF FINANCIAL REPORTING IN CAPITAL MARKETS
 
 A critical challenge for any economy is the allocation of savings to investment opportunities. Economies that do this well can exploit new business ideas to spur innovation and create jobs and wealth at a rapid pace. In contrast, economies that manage this process poorly tend to dissipate their wealth and fail to support business opportunities.
 
@@ -53,7 +71,7 @@ Ideally, the different intermediaries serve as a system of checks and balances t
 
 In the following section, we discuss key aspects of the financial reporting system design that enable it to effectively play this vital role in the functioning of the capital markets.
 
-# FROM BUSINESS ACTIVITIES TO FINANCIAL STATEMENTS
+## FROM BUSINESS ACTIVITIES TO FINANCIAL STATEMENTS
 
 Corporate managers are responsible for acquiring physical and financial resources from the firm's environment and using them to create value for the firm's investors. Value is created when the firm earns a return on its investment in excess of the cost of capital. Managers formulate business strategies to achieve this goal, and they implement them through business activities. A firm's business activities are influenced by its economic environment and its own business strategy. The economic environment includes the firm's industry, its input and output markets, and the regulations under which the firm operates. The firm's business strategy determines how the firm positions itself in its environment to achieve a competitive advantage.
 
@@ -65,17 +83,17 @@ From Business Activities to Financial Statements
 
 too numerous to be reported individually to outsiders. Further, some of the activities undertaken by the firm are proprietary in nature, and disclosing these activities in detail could be a detriment to the firm's competitive position. The firm's accounting system provides a mechanism through which business activities are selected, measured, and aggregated into financial statement data.
 
-# INFLUENCES OF THE ACCOUNTING SYSTEM ON INFORMATION QUALITY
+## INFLUENCES OF THE ACCOUNTING SYSTEM ON INFORMATION QUALITY
 
 Intermediaries using financial statement data to do business analysis have to be aware that financial reports are influenced both by the firm's business activities and by its accounting system. A key aspect of financial statement analysis, therefore, involves understanding the influence of the accounting system on the quality of the financial statement data being used in the analysis. The institutional features of accounting systems discussed below determine the extent of that influence.
 
-# Feature 1: Accrual Accounting
+### Feature 1: Accrual Accounting
 
 One of the fundamental features of corporate financial reports is that they are prepared using accrual rather than cash accounting. Unlike cash accounting, accrual accounting distinguishes between the recording of costs and benefits associated with economic activities and the actual payment and receipt of cash. Net income is the primary periodic performance index under accrual accounting. To compute net income, the effects of economic transactions are recorded on the basis of expected, not necessarily actual, cash receipts and payments. Expected cash receipts from the delivery of products or services are recognized as revenues, and expected cash outflows associated with these revenues are recognized as expenses.
 
 The need for accrual accounting arises from investors' demand for financial reports on a periodic basis. Because firms undertake economic transactions on a continual basis, the arbitrary closing of accounting books at the end of a reporting period leads to a fundamental measurement problem. Since cash accounting does not report the full economic consequence of the transactions undertaken in a given period, accrual accounting is designed to provide more complete information on a firm's periodic performance.
 
-# Feature 2: Accounting Conventions and Standards
+### Feature 2: Accounting Conventions and Standards
 
 The use of accrual accounting lies at the center of many important complexities in corporate financial reporting. Because accrual accounting deals with expectations of future cash consequences of current events, it is subjective and relies on a variety of assumptions. Who should be charged with the primary responsibility of making these assumptions? In the current system, a firm's managers are entrusted with the task of making the appropriate estimates and assumptions to prepare the financial statements because they have intimate knowledge of their firm's business.
 
@@ -89,7 +107,7 @@ Increased uniformity from accounting standards, however, comes at the expense of
 
 financial statements. Rigid accounting standards work best for economic transactions whose accounting treatment is not predicated on managers' proprietary information. However, when there is significant business judgment involved in assessing a transaction's economic consequences, rigid standards which prevent managers from using their superior business knowledge would be counterproductive. Further, if accounting standards are too rigid, they may induce managers to expend economic resources to restructure business transactions to achieve a desired accounting result.
 
-# Feature 3: Managers' Reporting Strategy
+### Feature 3: Managers' Reporting Strategy
 
 Because the mechanisms that limit managers' ability to distort accounting data add noise, it is not optimal to use accounting regulation to eliminate managerial flexibility completely. Therefore, real-world accounting systems leave considerable room for managers to influence financial statement data. A firm's reporting strategy, i.e., the manner in which managers use their accounting discretion, has an important influence on the firm's financial statements.
 
@@ -101,7 +119,7 @@ Managers can also use financial reporting strategies to manipulate investors' pe
 
 The extent to which financial statements reveal the underlying business reality varies across firms and across time for a given firm. This variation in accounting quality provides both an important opportunity and a challenge in doing business analysis. The process through which analysts can separate noise from information in financial statements, and gain valuable business insights from financial statement analysis, is discussed in the following section.
 
-# Feature 4: Auditing
+### Feature 4: Auditing
 
 Auditing, broadly defined as a verification of the integrity of the reported financial statements by someone other than the preparer, ensures that managers use accounting rules and conventions consistently over time, and that their accounting estimates are reasonable. Therefore, auditing improves the quality of accounting data.
 
@@ -113,7 +131,7 @@ The legal environment in which accounting disputes between managers, auditors, a
 
 The governance structure of firms includes an audit committee of the board of directors. The audit committee is expected to be independent of management and its key roles include overseeing the work of the auditor and ensuring that financial statements are properly prepared. This governance mechanism further serves to enhance the quality and accountability of financial reporting.
 
-# The Impact of the Sarbanes-Oxley Act on Financial Reporting and Auditing
+### The Impact of the Sarbanes-Oxley Act on Financial Reporting and Auditing
 
 In the aftermath of the collapse of the dot-com bubble and high-profile accounting scandals such as Enron and WorldCom, the U.S. Congress passed the bipartisan Sarbanes-Oxley Act (the Act) in July 2002. The margin by which the bill was enacted—it passed by a vote of 424 to 3 in the House of Representatives and a vote of 99 to 0 in the Senate—and the far-reaching nature of the reforms reflected the degree to which the public's confidence in the quality of corporate financial reporting had been undermined.
 
@@ -133,17 +151,17 @@ While the Act does improve the quality of financial reporting and create a stron
 
 (arising from higher audit fees, greater compliance costs, and potential litigation) and a disincentive for firms to take on business activities that entail complex or ambiguous accounting issues. Empirical evidence shows that the cost of compliance with the Act has had an impact on the decision of public companies to go private, perhaps in an attempt to avoid these costs.<sup>3</sup>
 
-# FROM FINANCIAL STATEMENTS TO BUSINESS ANALYSIS
+## FROM FINANCIAL STATEMENTS TO BUSINESS ANALYSIS
 
 Because managers' insider knowledge is a source of both value and distortion in accounting data, it is difficult for outside users of financial statements to separate true information from distortion and noise. Not being able to undo accounting distortions completely, investors "discount" a firm's reported accounting performance. In doing so, they make a probabilistic assessment of the extent to which a firm's reported numbers reflect economic reality. As a result, investors can have only an imprecise assessment of an individual firm's performance. Financial and information intermediaries can add value by improving investors' understanding of a firm's current performance and its future prospects.
 
 Effective financial statement analysis is valuable because it attempts to get at managers' inside information from public financial statement data. Since intermediaries do not have direct or complete access to this inside information, they rely on their knowledge of the firm's industry and its competitive strategies to interpret financial statements. Successful intermediaries have at least as good an understanding of the industry economics as the firm's managers do, as well as a reasonably good understanding of the firm's competitive strategy. Although outside analysts have an information disadvantage relative to the firm's managers, they are more objective in evaluating the economic consequences of the firm's investment and operating decisions. Figure 1-3 provides a schematic overview of how business intermediaries use financial statements to accomplish four key steps: (1) business strategy analysis, (2) accounting analysis, (3) financial analysis, and (4) prospective analysis.
 
-# Analysis Step 1: Business Strategy Analysis
+### Analysis Step 1: Business Strategy Analysis
 
 The purpose of business strategy analysis is to identify key profit drivers and business risks, and to assess the company's profit potential at a qualitative level. Business strategy analysis involves analyzing a firm's industry and its strategy to create a sustainable competitive advantage. This qualitative analysis is an essential first step because it enables the analyst to frame the subsequent accounting and financial analysis better. For example, identifying the key success factors and key business risks allows the identification of key accounting policies. Assessment of a firm's competitive strategy facilitates evaluating whether current profitability is sustainable. Finally, business analysis enables the analyst to make sound assumptions in forecasting a firm's future performance.
 
-# Analysis Step 2: Accounting Analysis
+### Analysis Step 2: Accounting Analysis
 
 The purpose of accounting analysis is to evaluate the degree to which a firm's accounting captures the underlying business reality. By identifying places where there
 
@@ -152,42 +170,45 @@ FIGURE I-3 Analysis Using Financial Statements
 
 is accounting flexibility, and by evaluating the appropriateness of the firm's accounting policies and estimates, analysts can assess the degree of distortion in a firm's reported numbers. Another important step in accounting analysis is to "undo" any distortions by recasting a firm's accounting numbers to create unbiased accounting data. Sound accounting analysis improves the reliability of conclusions from financial analysis, the next step in financial statement analysis.
 
-# Analysis Step 3: Financial Analysis
+### Analysis Step 3: Financial Analysis
 
 The goal of financial analysis is to use financial data to evaluate the current and past performance of a firm and to assess its sustainability. There are two important skills related to financial analysis. First, the analysis should be systematic and efficient. Second, the analysis should allow the analyst to use financial data to explore business issues. Ratio analysis and cash flow analysis are the two most commonly used financial tools. Ratio analysis focuses on evaluating a firm's product market performance and financial policies while cash flow analysis focuses on a firm's liquidity and financial flexibility.
 
-# Analysis Step 4: Prospective Analysis
-
-Prospective analysis, which focuses on forecasting a firm's future, is the final step in business analysis. Two commonly used techniques in prospective analysis are financial statement forecasting and valuation. Both these tools allow the synthesis of the insights from business analysis, accounting analysis, and financial analysis in order to make predictions about a firm's future.
+### Analysis Step 4: Prospective Analysis
 
 While the intrinsic value of a firm is a function of its future cash flow performance, it is also possible to assess a firm's value based on the firm's current book value of equity and its future return on equity (ROE) and growth. Strategy analysis, accounting analysis, and financial analysis, the first three steps in the framework discussed above, provide an excellent foundation for estimating a firm's intrinsic value. Strategy analysis, in addition to enabling sound accounting and financial analysis, also helps in assessing potential changes in a firm's competitive advantage and their implications for the firm's future ROE and growth. Accounting analysis provides an unbiased estimate of a firm's current book value and ROE. Financial analysis allows you to gain an in-depth understanding of what drives the firm's current ROE.
+
+```d2
+direction: right
+Business Strategy Analysis -> Accounting Analysis -> Financial Analysis -> Prospective Analysis: Business Analysis Framework
+```
 
 The predictions from a sound business analysis are useful to a variety of parties and can be applied in various contexts. The exact nature of the analysis will depend on the context. The contexts that we will examine include securities analysis, credit evaluation, mergers and acquisitions, and the assessment of corporate communication strategies. The four analytical steps described above are useful in each of these contexts. Appropriate use of these tools, however, requires a familiarity with the economic theories and institutional factors relevant to the context.
 
 There are several ways in which financial statement analysis can add value, even when capital markets are reasonably efficient. First, there are many applications of financial statement analysis whose focus is outside the capital market context—credit analysis, competitive benchmarking, and analysis of mergers and acquisitions, to name a few. Second, markets become efficient precisely because some market participants rely on analytical tools such as the ones we discuss in this book to analyze information and make investment decisions. This in turn imposes greater discipline on corporate managers to develop an appropriate disclosure and communication strategy.
 
-# SUMMARY
+## SUMMARY
 
 Financial statements provide the most widely available data on public corporations' economic activities; investors and other stakeholders rely on them to assess the plans and performance of firms and corporate managers. Accrual accounting data in financial statements are noisy, and unsophisticated investors can assess firms' performance only imprecisely. Financial analysts who understand managers' disclosure strategies have an opportunity to create inside information from public data, and they play a valuable role in enabling outside parties to evaluate a firm's current and prospective performance.
 
 This chapter has outlined the framework for business analysis with financial statements, using four key steps: business strategy analysis, accounting analysis, financial analysis, and prospective analysis. The remaining chapters in this book describe these steps in greater detail and discuss how they can be used in a variety of business contexts.
 
-# DISCUSSION QUESTIONS
+## DISCUSSION QUESTIONS
 
 I. John, who has just completed his first finance course, is unsure whether he should take a course in business analysis and valuation using financial statements since he believes that financial analysis adds little value, given the efficiency of capital markets. Explain to John when financial analysis can add value, even if capital markets are efficient.  
 2. Accounting statements rarely report financial performance without error. List three types of errors that can arise in financial reporting.  
 3. Joe Smith argues that "learning how to do business analysis and valuation using financial statements is not very useful, unless you are interested in becoming a financial analyst." Comment.  
 4. Four steps for business analysis are discussed in the chapter (strategy analysis, accounting analysis, financial analysis, and prospective analysis). As a financial analyst, explain why each of these steps is a critical part of your job and how they relate to one another.
 
-# NOTES
+## NOTES
 
 I. See G.Akerlof, "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism," Quarterly Journal of Economics (August 1970): 488-500. Akerlof recognized that the seller of a used car knew more about the car's value than the buyer. This meant that the buyer was likely to end up overpaying, since the seller would accept any offer that exceeded the car's true value and reject any lower offer. Car buyers recognized this problem and would respond by only making low-ball offers for used cars, leading sellers with high quality cars to exit the market. As a result, only the lowest quality cars (the "lemons") would remain in the market. Akerlof pointed out that qualified independent mechanics could correct this market breakdown by providing buyers with reliable information on a used car's true value.  
 2. See P. Healy and K. Palepu, "How the Quest for Efficiency Undermined the Market," Harvard Business Review (July 2003): 76-85.  
 3. See, for example, E. Engel, R. Hayes, and X. Wang, "The Sarbanes-Oxley Act and Firms' Going-Private Decisions" (working paper, University of Chicago, 2004). Research evidence also points to the impact of Sarbanes-Oxley on firms' decision to "go dark" (cease filing with the SEC by deregistering their securities without changing shareholders). See, for example, A. Marosi and N. Massoud, "Why Do Firms Go Dark?" (working paper, University of Alberta, 2004); and C. Leuz, A. Triantis, and T. Wang, "Why Do Firms Go Dark? Causes and Economic Consequences of Voluntary SEC Deregistrations," (working paper, University of Pennsylvania, 2004).
 
-# The Role of Capital Market Intermediaries in the Dot-Com Crash of 2000
+## The Role of Capital Market Intermediaries in the Dot-Com Crash of 2000
 
-# THE RISE AND FALL OF THE INTERNET CONSULTANTS
+### THE RISE AND FALL OF THE INTERNET CONSULTANTS
 
 In the summer of 1999, a host of Internet consulting firms made their debut on the Nasdaq. Scient Corporation, which had been founded less than two years earlier in March 1997, went public in May 1999 at an IPO price of  \$20 per share (\$ 10 on a pre-split basis). Its close on the first day of trading was \$32.63. Other Internet consulting companies that went public that year included Viant Corporation, IXL Enterprises, and US Interactive (see Exhibit 1).
 
@@ -201,7 +222,7 @@ Copyright © 2001 President and Fellows of Harvard College. To order copies or r
 
 The dramatic rise and fall of the stock prices of the Web consultants, along with many others in the Internet sector, caused industry observers to wonder how this could have happened in a relatively sophisticated capital market like that of the United States. Several well-respected venture capitalists, investment banks, accounting firms, financial analysts, and money management companies were involved in bringing these companies to market and rating and trading their shares (see Exhibit 3). Who, if anyone, caused the Internet stock price bubble? What, if anything, could be done to avoid the recurrence of such stock market bubbles?
 
-# Context: The Technology Bull Market
+### Context: The Technology Bull Market
 
 The 1980s and 1990s marked the beginning of a global technology revolution that started with the personal computer (PC) and led to the Internet era. Companies like Apple, Microsoft, Intel, and Dell Computer were at the forefront of this new wave of technology that promised to enhance productivity and efficiency through the computerization and automation of many processes.
 
@@ -237,7 +258,7 @@ In the new economy, gaining market share was considered key because of the benef
 
 presumably translate at a later point into profitability. This meant that revenue growth was the true measure of success for many Internet companies. Of course there were some dissenting voices, warning that this was just a period of irrational exuberance and the making of a classic stock market bubble. But for the most part, investors seemed to buy into the concept, as evidenced by the values given to several loss-making dot-coms (Exhibit 5).
 
-# Scient Corporation
+### Scient Corporation
 
 The history of Scient, considered a leader in the Internet consulting space, is representative of what happened to the entire industry. The firm was founded in November 1997. Its venture capital backers included several leading firms such as Sequioa Capital and Benchmark Capital (see Exhibit 3).
 
@@ -269,7 +290,7 @@ The analysts who were formerly excited about Scient's prospects and had recommen
 
 We maintain our Neutral rating due to greater than anticipated market weakness, accelerating pricing pressure, the potential for increased turnover and management credibility issues. While shares of SCNT trade at a depressed valuation, we continue [sic] to believe that turnover and pricing pressure could prove greater than management's assumptions. While management indicated it would be "aggressive" to maintain its people, we still believe it will be difficult to maintain top-tier talent in the current market and company specific environment.[10]
 
-# Performance of the Nasdaq
+### Performance of the Nasdaq
 
 The performance of the stock prices of Scient and its peers mirrored that of many companies in the Internet sector. So dramatic was the drop in valuation of these companies, that this period was subsequently often referred to as the "Dot-com crash."
 
@@ -277,7 +298,7 @@ In the months following the crash, the equity markets essentially closed their d
 
 The Nasdaq, which had reached a high of 5,132.52 in March of 2000 closed at 2470.52 in December 2000, a drop of  $52\%$  from its high. As of February 2001 it had not recovered, closing at 2151.83.
 
-# THE ROLE OF INTERMEDIARIES IN A WELL-FUNCTIONING MARKET
+### THE ROLE OF INTERMEDIARIES IN A WELL-FUNCTIONING MARKET
 
 In a capitalist economy, individuals and institutions have savings that they want to invest, and companies need capital to finance and grow their businesses. The capital markets provide a way for this to occur efficiently. Companies issue debt or equity to investors who are willing to part with their cash now because they expect to earn an adequate return in the future for the risk they are taking.
 
@@ -293,7 +314,7 @@ On the other side of the process, portfolio managers, acting on behalf of invest
 
 The integrity of this process is critical in an economy because it gives investors the confidence they need to invest their money into the system. Without this confidence, they would not plough their money back into the economy, but instead keep it under the proverbial mattress.
 
-# What Happened During the Dot-Com Bubble?
+### What Happened During the Dot-Com Bubble?
 
 Many observers believed that something went wrong with the system during the dot-com bubble. In April 2001, BusinessWeek wrote about "The Great Internet Money Game. How America's top financial firms reaped billions from the Net boom, while investors got burned." The following month, Fortune magazine's cover asked "Can we ever trust Wall Street again?" referring to the way in which, in some people's opinions, Wall Street firms had led investors and companies astray before and after the dot-com debacle.
 
@@ -303,11 +324,11 @@ On a more macro level, the dot-coms used up valuable resources that could have b
 
 Nevertheless, the question remained: how could the dot-com bubble occur in a sophisticated capital market system like that of the United States? Why did the market allow the valuations of many Internet companies to go so high? What was the role of the intermediaries in the process that gave rise to the stock market bubble?
 
-# THE INTERMEDIARIES
+### THE INTERMEDIARIES
 
 One way to try to answer some of these questions is to look more closely at some of the key players in the investing chain. Much of the material in the following section is derived from interviews with representatives from each sector.
 
-# Venture Capitalists
+#### Venture Capitalists
 
 Venture capitalists (VCs) provided capital for companies in their early stages of development. They sought to provide a very high rate of return to their investors for the associated risk. This was typically accomplished by selling their stake in their portfolio companies either to the public through an IPO, or to another company in a trade sale.
 
@@ -323,7 +344,7 @@ He also believed that the ready availability of money affected the business stra
 
 The VC partner acknowledged that VCs took many Internet companies public very early, but he felt that the responsibility of scrutinizing these companies lay largely with the investors that subscribed to the IPOs: "If a mutual find wants to invest in the IPO of a company that has no track record, profitability, etc but sees it as a liquidity event, it has made a decision to become a VC. Lots of mutual funds thought 'VC is easy, I want a piece of it.'"
 
-# Investment Bank Underwriters
+#### Investment Bank Underwriters
 
 Entrepreneurs relied on investment banks (such as Goldman Sachs, Morgan Stanley Dean Witter and Credit Suisse First Boston) in the actual process of doing an initial public offering, or "going public." Investment banks provided advisory financial services, helped the companies price their offerings, underwrite the shares, and introduce them to investors, often in the form of a road show.
 
@@ -335,7 +356,7 @@ Of course, investment banks that took these underperforming companies public may
 
 … How did investment banks, paid for their expert advice, pick such lemons?17
 
-# Sell-Side Analysts
+#### Sell-Side Analysts
 
 Sell-side analysts worked at investment banks and brokerage houses. One of their main functions was to publish research on public companies. Each analyst typically followed 15 to 30 companies in a particular industry, and his or her job involved forming relationships with and talking to the managements of the companies, following trends in the industry, and ultimately making buy or sell recommendations on the stocks. The recommendations analysts made could be very influential with investors. If a well-respected analyst downgraded a stock, the reaction from the market could be severe and swift, resulting in a same-day drop in the stock price. Sell-side analysts typically interacted with buy-side analysts and portfolio managers at money
 
@@ -365,7 +386,7 @@ To be negative when you are a sell-side analyst is to be a contrarian, to stick 
 
 Consistent with this optimistic bias, there were very few sell recommendations from analysts during the peak of the Internet stock bubble. According to financial information company First Call, more than  $70\%$  of the 27,000 plus recommendations outstanding on some 6,000 stocks in November 2000 were strong buys or buys, while fewer than  $1\%$  were sells or strong sells.[23]
 
-# Buy-Side Analysts and Portfolio Managers
+#### Buy-Side Analysts and Portfolio Managers
 
 The "buy-side" refers to institutions that do the actual buying and selling of public securities, such as mutual fund companies, insurance companies, hedge funds, and other asset managers.
 
@@ -383,9 +404,9 @@ According to a former associate at a large mutual fund company, many people with
 
 My previous employer is known as a value investor, growth at a reasonable price. At first the general impression in the firm was that a lot of the Internet firms would blow up, that they didn't deserve these valuations. But articles were written about my company … that it was being left behind because it was not willing to invest in the Internet companies. Some of the analysts at the firm began to recommend companies simply because they knew that the stock prices would go up, even though they were clearly overvalued. And portfolio managers felt that if they didn't buy the stocks, they would lag their benchmarks and their competitors—they are rewarded on a one-year term horizon and three-year horizon. It is very important to meet their benchmark, it makes up a material part of their compensation. In addition, they compare against the performance of their peers for marketing purposes.[24]
 
-# THE ROLE OF INFORMATION
+#### THE ROLE OF INFORMATION
 
-# The Accounting Profession
+##### The Accounting Profession
 
 Independent accountants audited the financial statements of public companies to verify their accuracy and freedom from fraud. If they were reasonably satisfied, they provided an unqualified opinion statement which was attached to the company's public filings. If auditors were not fully satisfied, this is noted as well. Investors usually took heed of the auditor's opinion as it provided an additional level of assurance of the quality of the information they were receiving from companies.
 
@@ -403,7 +424,7 @@ Dr. Howard Schilit, founder and CEO of CFRA, an independent financial research o
 
 One particular criticism he had was that many accountants didn't look closely enough at the substance of transactions and didn't do enough questioning of the circumstances surrounding sales contracts. His hope was that accountants "go back and learn what the basic rules are of when revenues should be booked. The rules haven't changed whether this is the new economy or old economy."
 
-# FASB—A Regulator
+##### FASB—A Regulator
 
 The Financial Accounting Standards Boards (FASB) was an independent regulatory body in the United States whose mission was to "establish and improve standards of financial accounting and reporting for the guidance and education of the public, including issuers, auditors, and users of financial information."30 FASB standards
 
@@ -421,7 +442,7 @@ In another spin on the issue, some questioned whether the accounting rules set o
 
 While Internet stocks may not be worth what they are selling for, the movement in their prices may not be as crazy as it seems. Many of these companies reporting losses actually make money—lots of it. It all has to do with accounting. Old-economy companies get to capitalize their most important investments, while new economy ones do not. While Amazon.com announces a loss almost every quarter, when it capitalizes its investments in intangibles that loss turns into a \$400-million profit.[33]
 
-# RETAIL INVESTORS
+##### RETAIL INVESTORS
 
 The role of the general public in the dot-com craze cannot be ignored. In addition to the people who poured money into mutual funds, many retail investors began trading on their own, often electronically. A group of avid day traders grew up, some of whom quit their regular jobs to devote all their time and energy to trading stocks. Analysts estimated that they made up almost  $18\%$  of the trading volume of the NYSE and Nasdaq in 2000.[34] Sites such as Yahoo Finance grew in popularity, while chat rooms devoted to stocks and trading proliferated.
 
@@ -433,7 +454,7 @@ Many of the retail investors did not know much about finance or valuation, and o
 
 These investors were pointed to by some as having had a large role in driving Internet valuations to the levels they went to. The reasoning was that other more sophisticated buyers such as the institutional money managers, may have bought overvalued companies because they thought they could easily sell them later at even higher valuations to "dumb retail investors."
 
-# THE COMPANIES THEMSELVES
+### THE COMPANIES THEMSELVES
 
 The entrepreneurs who founded the Internet consulting companies, and the management teams who ran them, could almost be described as bystanders to the process that took the stock prices of their companies to such lofty highs and then punishing lows. However, they were profoundly affected by these changes in almost every aspect of their businesses.
 
@@ -443,7 +464,7 @@ As the stock price of the company continued to rise higher and higher, the MD ad
 
 When asked about his thoughts on his firm's current stock price, the MD thought that the market had over-reacted and gone to the other extreme. He remarked that investors were worried that the Internet consulting firms were facing renewed competition from companies like IBM, the Big Five accounting firms and the strategy consulting firms. Overall, though the rise and fall of the company's stock price was in many ways a painful experience, this MD thought that the market bubble presented a good opportunity that the company was able to capitalize upon. It was able to do a secondary offering at a high price and now had lots of cash on its balance sheet. His view was that "If you look at competitive sustainability [in this business], it could boil down to the company with the best balance sheet wins."
 
-# THE BLAME GAME
+### THE BLAME GAME
 
 In the aftermath of the dot-com crash, many tried to pinpoint whose fault it was that the whole bubble occurred in the first place. As mentioned previously, sell-side analysts, often the most visible group in the investment community, came under frequent attack in the media, as did, to some extent, venture capitalists, investment bankers, and even the accounting industry. Company insiders (including the founder of Scient) were also scrutinized for selling large blocks of shares when the stock prices of their companies were near their peaks.[37]
 
@@ -457,21 +478,21 @@ Fifty boom of the 1970s. In all cases market valuations went to unsustainably hi
 
 But the question of what happened in this latest bubble remained: who, if anyone, could be blamed for the dot-com rise and crash? How did the various intermediaries described here affect or cause what happened? Was there really a misalignment of incentives in the system? If so, could it be fixed so that this sort of thing did not happen in the future? Or were market bubbles an inevitable part of the way the economy functioned?
 
-# QUESTIONS
+### QUESTIONS
 
 1. What is the intended role of each of the institutions and intermediaries discussed in the case for the effective functioning of capital markets?  
 2. Are their incentives aligned properly with their intended role? Whose incentives are most misaligned?  
 3. Who, if anyone, was primarily responsible for the Internet stock bubble?  
 4. What are the costs of such a stock market bubble? As a future business professional, what lessons do you draw from the bubble?
 
-# EXHIBIT I
+### EXHIBIT 1
 
 Timeline of the Internet Consultants—Founding and IPO
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/f9f43e9e-d3fb-4b5f-835d-93469162c75f/d9d2bdb932c3e0b09d2d986fd39d0071039b27cc359926d1086b3c448ccfe5e6.jpg)  
 Source:Edgar Online,Marketguide.com.
 
-# EXHIBIT 2
+### EXHIBIT 2
 
 Internet Consultants—Stock Price Highs and Lows
 
@@ -499,17 +520,17 @@ a. PW stands for PriceWaterhouseCoopers; AA for Arthur Anderson; E&Y for Ernst &
 b. Includes underwriting fee.  
 c.As of April 2001.
 
-# EXHIBIT 4
+### EXHIBIT 4
 
 Market Capitalization of Major Technology Companies, January 2000
 
-<table><tr><td>Company</td><td>Market Capitalization ($ billions)a</td><td>Stock Price (January 3, 2000)</td></tr><tr><td>Microsoft</td><td>603</td><td>116.56</td></tr><tr><td>Intel</td><td>290</td><td>87.00</td></tr><tr><td>IBM</td><td>218</td><td>116.00</td></tr><tr><td>Dell Computer</td><td>131</td><td>50.88</td></tr><tr><td>Helwett Packard</td><td>117</td><td>117.44</td></tr><tr><td>Compaq Computer</td><td>53</td><td>31.00</td></tr><tr><td>Apple Computer</td><td>18</td><td>111.94</td></tr></table>
+<table><tr><td>Company</td><td>Market Capitalization ($ billions)a</td><td>Stock Price (January 3, 2000)</td></tr><tr><td>Microsoft</td><td>603</td><td>116.56</td></tr><tr><td>Intel</td><td>290</td><td>87.00</td></tr><tr><td>IBM</td><td>218</td><td>116.00</td></tr><tr><td>Dell Computer</td><td>131</td><td>50.88</td></tr><tr><td>Hewlett-Packard</td><td>117</td><td>117.44</td></tr><tr><td>Compaq Computer</td><td>53</td><td>31.00</td></tr><tr><td>Apple Computer</td><td>18</td><td>111.94</td></tr></table>
 
 Sources: Bloomberg LP, The Center for Research in Security Prices (accessed via Wharton Research Database Services), Edgar Online.
 
 a. Based on share price close on January 3, 2000 and reported shares outstanding.
 
-# EXHIBIT 5
+### EXHIBIT 5
 
 Market Valuations Given to Loss-making Dot-coms
 
@@ -521,7 +542,7 @@ a. As of end of 1999 or early 2000, depending on fiscal year end.
 
 b. Based on share price close on January 3, 2000 and reported shares outstanding.
 
-# EXHIBIT 6
+### EXHIBIT 6
 
 Scient--Consolidated Financial Statements
 
@@ -537,7 +558,7 @@ BALANCE SHEET (in thousands except per-share amounts)
 
 Sources: Scient Corporation 10-K; Edgar Online http://www.freedgar.com (May 11, 2001).
 
-# EXHIBIT 7
+### EXHIBIT 7
 
 Analyst Downgrades of the Internet Consultants
 
@@ -549,7 +570,7 @@ Analyst Downgrades of Scient Corporation, August 30-September 8, 2000
 
 Source: I/B/E/S (accessed via Wharton Research Database Services).
 
-# EXHIBIT 8
+### EXHIBIT 8
 
 Selected Institutional Holders of Scient Corporation, 1999-2000
 
@@ -557,7 +578,7 @@ Selected Institutional Holders of Scient Corporation, 1999-2000
 
 Source: Edgar (SEC).
 
-# EXHIBIT 9
+### EXHIBIT 9
 
 Dot-coms that Filed for Bankruptcy or Closed Operations (Selected List)
 
@@ -739,7 +760,7 @@ Lucy.com
 
 US Interactive
 
-# EXHIBIT 10
+### EXHIBIT 10
 
 Capital Flows from Investors to Companies
 

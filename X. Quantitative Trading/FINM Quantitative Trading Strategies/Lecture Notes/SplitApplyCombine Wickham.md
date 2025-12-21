@@ -1,7 +1,7 @@
 ---
 title: The Split-Apply-Combine Strategy for Data Analysis
 parent_directory: Lecture Notes
-formatted: 2025-12-21 2:30:00 PM
+formatted: 2025-12-21 4:35:00 PM
 formatter_model: grok-code-fast-1
 cli_tool: opencode
 primary_tags:
@@ -39,7 +39,7 @@ What do we do when we analyze data? What are common actions and what are common 
 
 The split-apply-combine strategy is similar to the map-reduce strategy for processing large data, recently popularized by Google. In map-reduce, the map step corresponds to split and apply, and reduce corresponds to combine, although the types of reductions are much richer than those performed for data analysis. Map-reduce is designed for a highly parallel environment, where work is done by hundreds or thousands of independent computers, and for a wider range of data processing needs than just data analysis.
 
-Just recognizing the split-apply-combine strategy when it occurs is useful, because it allows you to see the similarly between problems that previously might have appeared unconnected. This helps suggest appropriate tools and frees up mental effort for the aspects of the problem that are truly unique. This strategy can be used with many existing tools: APL's array operators (Friendly and Fox 1994), Excel's pivot tables, the SQL group by operator, and the by argument to many SAS procedures. However, the strategy is even more useful when used with software specifically developed to support it; matching the conceptual and computational tools reduces cognitive impedance. This paper describes one implementation of the strategy in R (R Development Core Team 2010), the plyr package.
+Just recognizing the split-apply-combine strategy when it occurs is useful, because it allows you to see the similarity between problems that previously might have appeared unconnected. This helps suggest appropriate tools and frees up mental effort for the aspects of the problem that are truly unique. This strategy can be used with many existing tools: APL's array operators (Friendly and Fox 1994), Excel's pivot tables, the SQL group by operator, and the by argument to many SAS procedures. However, the strategy is even more useful when used with software specifically developed to support it; matching the conceptual and computational tools reduces cognitive impedance. This paper describes one implementation of the strategy in R (R Development Core Team 2010), the plyr package.
 
 In general, plyr provides a replacement for loops for a large set of practical problems, and abstracts away from the details of the underlying data structure. An alternative to loops is not required because loops are slow (in most cases the loop overhead is small compared to the time required to perform the operation), but because they do not clearly express intent, as important details are mixed in with unimportant book-keeping code. The tools of plyr aim to eliminate this extra code and illuminate the key components of the computation.
 
@@ -53,7 +53,7 @@ Notation. Array includes the special cases of vectors (1d arrays) and matrices (
 
 # 2. Motivation
 
-How does the explicit specification of this strategy help? What are the advantages of plyr over for loops or the built-in apply functions? This section compares plyr code to base R code with a teaser from Section 5.2, where we remove seasonal effects from 6 years of monthly satellite measurements, taken on a  $24 \times 24$  grid. The 41472 measurements are stored in a  $24 \times 24 \times 72$  array. A single location (ozone[x, y, ]) is a vector of 72 values (6 years  $\times$  12 months).
+How does the explicit specification of this strategy help? What are the advantages of plyr over for loops or the built-in apply functions? This section compares plyr code to base R code with a teaser from Section 5.2, where we remove seasonal effects from 6 years of monthly satellite measurements, taken on a $24\times24$ grid. The 41472 measurements are stored in a $24\times24\times72$ array. A single location (ozone[x, y, ]) is a vector of 72 values (6 years  $\times$  12 months).
 
 We can crudely desseasonalize a location by looking at the residuals from a robust linear model:
 

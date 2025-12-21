@@ -1,13 +1,23 @@
 ---
-parent_directory:
-title: INTRODUCTION TO QUANTITATIVE TRADING
-tags:
-aliases:
-parent_folder: Quantitative Trading Strategies
-subfolder:
-key_concepts:
+title: "Introduction to Quantitative Trading"
+parent_directory: "FINM Quantitative Trading Strategies"
+formatted: "2025-12-21 11:30:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - quantitative trading strategies
+  - market inefficiency
+  - stochastic control
+secondary_tags:
+  - p models
+  - q models
+  - risk management
+  - information processing
+  - exponentially weighted statistics
+  - carry trade
+  - tick data structure
+  - market microstructure
 cssclasses: academia
-linter-yaml-title-alias: INTRODUCTION TO QUANTITATIVE TRADING
 ---
 
 # INTRODUCTION TO QUANTITATIVE TRADING
@@ -25,17 +35,23 @@ Quantitative trading strategies have a few key elements:
 
 Each of these elements represents a tremendous variety of ideas, and can be expanded into many complex volumes in its own right. We will attempt to treat each one with a keen eye for the tradeoff between balance and concision, with the goal of bringing an individual who possesses a reasonably quantitative background to a level of passing (or better) familiarity with most extant quantitative strategies found "in the wild".
 
-1.1. Sources of Profit. Broadly, there are three sources of profit in trading strategies
+### 1.1 Sources of Profit
 
-- Providing services,  
-Market inefficiency, and  
+Broadly, there are three sources of profit in trading strategies
+
+- Providing services,
+- Market inefficiency, and
 - Luck.
 
-1.1.1. What To Do About Luck. We do not, of course, plan on particularly good or bad luck when considering a strategy. However, we can often measure how susceptible our strategy is to the element of luck. This approaches the realm of uncertainty and risk management, so most of our treatment will occur later when we begin to address risk management issues.
+#### 1.1.1 What To Do About Luck
+
+We do not, of course, plan on particularly good or bad luck when considering a strategy. However, we can often measure how susceptible our strategy is to the element of luck. This approaches the realm of uncertainty and risk management, so most of our treatment will occur later when we begin to address risk management issues.
 
 Note, however, that uncertainty may be reducible by improving a quantitative model (say by using better mathematics or more complete input data). So uncertainty clearly has a role to play even at early stages of finding sources of profit.
 
-1.1.2. Providing Services. There are many ways for financial firms to profit by providing services. Most do not involve quantitative trading. For example, brokerage fees from trading brokers, data access fees from exchanges and advisory fees from investment firms are all closely related to trading but do not involve quantitative trading strategies.
+#### 1.1.2 Providing Services
+
+There are many ways for financial firms to profit by providing services. Most do not involve quantitative trading. For example, brokerage fees from trading brokers, data access fees from exchanges and advisory fees from investment firms are all closely related to trading but do not involve quantitative trading strategies.
 
 Instead, the way in which trading strategies, quantitative or otherwise, can collect fees for services is somewhat invisibly. Take, for example, the case of an investor in a risky corporate bond, the CRC oil company's  $8\%$  Dec 2022 bonds, trading around 80 points per 100 as of March 2019. Each  $\$1,000$ -face bond is a promise to pay  $\$1,240$  in coupons and principal through 2022. That results in a handsome rate of return over  $15\%$  per year.
 
@@ -47,11 +63,15 @@ Many trading strategies follow this pattern: they generate profits at seemingly 
 
 Other examples of being paid for services include selling options, market making and foreign exchange carry trades. All are bases for reasonable quantitative trading strategies, and we will discuss them in greater detail later.
 
-1.1.3. Market Inefficiency. In an economic sense, we might say markets are exhibiting inefficiency whenever exploitable trading strategies exist that are capable of reliably achieving risk/reward ratios significantly better than "usual". Everyone hopes to find these cases, of course, and if the opportunity is really large, then it will attract more and more attention and trading until its profit margins revert to normal. We will discuss this later when we introduce the concept of beta creep.
+#### 1.1.3 Market Inefficiency
+
+In an economic sense, we might say markets are exhibiting inefficiency whenever exploitable trading strategies exist that are capable of reliably achieving risk/reward ratios significantly better than "usual". Everyone hopes to find these cases, of course, and if the opportunity is really large, then it will attract more and more attention and trading until its profit margins revert to normal. We will discuss this later when we introduce the concept of beta creep.
 
 Securities with the most obvious relationships between them, for example precious metals traded at different exchanges, will tend to exhibit the least inefficiency. As relationships become less obvious, or harder to exploit, the inefficiencies, and potential profits, expand.
 
-1.1.4.  $P$  and  $Q$ . For quantitative traders, there are two categories of models used in identifying profit opportunities, identified by Emanuel Derman as  $\mathbf{P}$  and  $\mathbf{Q}$ .
+#### 1.1.4 $P$ and $Q$
+
+For quantitative traders, there are two categories of models used in identifying profit opportunities, identified by Emanuel Derman as $\mathbf{P}$ and $\mathbf{Q}$.
 
 P models involve what most of the general public thinks of as the dark art in financial modeling, namely constructing predictive models for securities prices. These models involve real-world probabilities of prices going up or down and by how much. They usually involve lots of data and tend toward being statistical in nature. An example might be a lead-lag model where the CRC stock price increases or decreases just after oil futures prices go up or down.
 
@@ -73,7 +93,9 @@ In this case, we say we are trading on model stress. A simple example is a yield
 
 In our studies, we will take  $\mathbf{Q}$  models to be black boxes, capable of helping use go back and forth from parameter space to security prices, without worrying too much about their underlying mathematics or calibration techniques. For us, they are essentially nonlinear transformations of security prices for purposes of identifying and constructing quantitative  $\mathbf{P}$  trading models. Reasonable models have coefficients (parameters) that only vary within some plausible bounds. If we start to find implied parameters approaching or outside those bounds, either the model is unreasonable or the securities prices generating them are unlikely to last for a long time. We will address in greater detail when we consider backtesting.
 
-1.1.5. Things We Cannot Really Model. There are some things that are very impractical to model, even though we might really want to
+#### 1.1.5 Things We Cannot Really Model
+
+There are some things that are very impractical to model, even though we might really want to
 
 - Capital structure events (mergers, acquisitions, buybacks, debt issues, fraud),
 
@@ -93,18 +115,22 @@ All quantitative trading strategies work by taking positions expected to realize
 
 As positions make money, they can become disproportionately large within the portfolio, causing us to liquidate a portion of our holdings in rebalancing operations. Other positions may have lost so much money, that we no longer trust the hypotheses generated by our models. These may be liquidated in a stop loss risk control strategy. Further positions may be made more or less desirable, not due to their profitability predictions, but because the help or hurt our overall perception of risks. In these cases, rebalancing comes from hedging and risk management motives.
 
-3.1. The Cycle. All of these desired alterations to our positions come from the effects of newly arrived information and the associated changes to our perceptions of risk and value. We find ourselves continually executing a cycle of the following steps:
+### 3.1 The Cycle
 
-Take,and parse,useful information  
+All of these desired alterations to our positions come from the effects of newly arrived information and the associated changes to our perceptions of risk and value. We find ourselves continually executing a cycle of the following steps:
+
+Take and parse useful information  
 
 - Run profitability and risk models  
 - Attempt to adjust positions accordingly
 
 There is of course a tremendous amount of configuration, model specification, and data control hidden behind these three simple-sounding steps. To the extent the overall system is driven by models and procedures, we say it is a trading system with stochastic control, i.e. changes to its behavior that depend on random or random-seeming external events.
 
-3.2. Risk Management. As we saw above, risk management is part of our stochastic control. However it is useful at this stage to at least point out major elements of risk management from the point of view of quantitative trading strategies. Most strategies are aimed at trading multiple securities simultaneously, in order to reap the benefits of large  $N$ , as well as spread development and maintenance costs among multiple revenue streams.
+### 3.2 Risk Management
 
-# EXPONENTIALLY WEIGHTED STATISTICS
+As we saw above, risk management is part of our stochastic control. However it is useful at this stage to at least point out major elements of risk management from the point of view of quantitative trading strategies. Most strategies are aimed at trading multiple securities simultaneously, in order to reap the benefits of large $N$, as well as spread development and maintenance costs among multiple revenue streams.
+
+## EXPONENTIALLY WEIGHTED STATISTICS
 
 # 1. MOTIVATION
 
@@ -155,7 +181,7 @@ It's perfectly normal to have your systems react in a big way to a new outlier. 
 We can avoid this by choosing a "tent" function where weight declines linearly up to our limit, which on daily data with a 30 day limit would set  $w = 0$  for  $s \geq 30$  and otherwise choose for  $i = 0, \ldots, 29$
 
 $$
-w _ {i} := w (s _ {i}) = \frac {3 0 - i}{3 0 \left(\frac {3 0 + 1}{2}\right)}
+w _ {i} := w (s _ {i}) = \frac {30 - i}{30 \left(\frac {30 + 1}{2}\right)}
 $$
 
 Any weighting scheme we desire is available to us, but it turns out one of them is special. Namely, if we choose the exponential weighting scheme with coefficient  $\eta < 0$  and  $i = 0,\dots ,\infty$
@@ -271,7 +297,7 @@ $$
 c _ {i + 1} = c _ {i} + \frac {i}{i + 1} (x - \mu_ {x}) (y - \mu_ {y})
 $$
 
-# THE CARRY TRADE
+## THE CARRY TRADE
 
 # 1. THE PRINCIPLES OF CARRY TRADES
 
@@ -467,51 +493,51 @@ FIGURE 5. Price changes and returns are ambiguous in definition, and appear to v
 
 which can conveniently be computed without saving past ticks.
 
-# 4. THE EPPS EFFECT
+## 4. THE EPPS EFFECT
 
 A common issue with tick level data is the long periods of boredom interrupted by short intervals of terror. That is, data updates come at certain times (often bunched) so at a sufficiently small timescale correlations appear to drop to zero.
 
-# PARAMETER REVERSION
+## PARAMETER REVERSION
 
-# From  $\mathbf{Q}$  Parameters To  $\mathbf{P}$  models
+## From $\mathbf{Q}$ Parameters To $\mathbf{P}$ models
 
 To the extent we trust our sense of what parameters in a model are reasonable, "stress" in model parameters equates to profit opportunity. How do we decide when parameters are truly stressed?
 
-# Parameter Cones
+### Parameter Cones
 
 Burghardt (1990) pointed out an elegant visual means to measure current parameter values of a parameter (in his case, volatility) against past quantiles.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/d12589b0-e653-4029-bbac-01616075b1c0/d1a591db76475c83bbcbfce2f8f1d708a58efaa9ec2aa8ccb0b2e20c1e531e21.jpg)  
 FIGURE 1. Volatility cones show recent vols are fairly normal, except perhaps at the 60 day scale.
 
-# Taxonomy Of Reversion
+### Taxonomy Of Reversion
 
 Parameters that tend to revert include (some) 10-Q financial accounting ratios, volatility surfaces and varvol, yield curve shapes, default rates and risks, and general correlation.
 
 Parameters that revert, but not reliably, include a few other financial accounting ratios, FX fundamentals, betas and pairwise correlations, and post-shock prices.
 
-# Beware Of Regime Shifts
+### Beware Of Regime Shifts
 
 The less well a model fits the market, and the more parameters it has, the likelier it is to fall victim to apparent changes in regime that have no economic basis. This can lead to an optimization algorithm finding jumps in model parameters that ultimately lead to noise trading or worse.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/d12589b0-e653-4029-bbac-01616075b1c0/a7fbbacbe936bca33fce6b7115f2367304229f081cb692781404dded235ceb4f.jpg)  
 FIGURE 2. An objective function used for parameter choice may change as time passes and incoming information is updated.
 
-# The Uses Of Decaying Weights
+### The Uses Of Decaying Weights
 
 Traditional statistics and parameter estimation from historical data have tended to use data windows (rolling ones if necessary). We see this in Burghardt's original definition of volatility cones.
 
 In many cases, however, it is more reasonable to use some weighting scheme, where the weights decay toward zero as data items age. If we choose particular functional forms, particularly exponential weighting, computation costs can be greatly reduced as well.
 
-# EWMA
+#### EWMA
 
-The simplest example of this is the exponentially-weighted moving average where we take some  $0 < \lambda < 1$  and compute the average
+The simplest example of this is the exponentially-weighted moving average where we take some $0 < \lambda < 1$ and compute the average
 
 $$
 \bar {x} = \frac {\sum_ {n = 0} ^ {\infty} \lambda^ {n} x _ {- n}}{\sum_ {n = 0} ^ {\infty} \lambda^ {n}}
 $$
 
-# EWMA Update
+#### EWMA Update
 
 This doesn't necessarily look cheap or simple, but it enjoys a 1-pass or online algorithm where we take (now for increasing  $n$ )
 
@@ -525,17 +551,17 @@ $$
 \bar {x} _ {n + 1} = \lambda \bar {x} _ {n} + (1 - \lambda) x _ {n + 1}
 $$
 
-# Update Algorithms
+#### Update Algorithms
 
 Online algorithms, also known as update algorithms are algorithms in which a small amount of state information is stored, and each incoming datum allows us to derive the new desired output, and new algorithm state, in relatively few computations.
 
-# Nontrivial State Example
+#### Nontrivial State Example
 
 In the case of the EWMA, this state is simply the EWMA value  $\bar{x}$  itself. For exponentially-weighted (or even windowed) estimates of variance, the state is actually two data elements corresponding roughly to the sum of squares and sum of square differences.
 
 Many stochastic control perspectives and machine learning algorithms make heavy use of update algorithms.
 
-# OPPORTUNITY IDENTIFICATION AND BACKTESTING
+## OPPORTUNITY IDENTIFICATION AND BACKTESTING
 
 # 1. THE ROLE OF HISTORICAL SIMULATION
 
@@ -549,10 +575,16 @@ A well-designed quantitative trading strategy nearly always undergoes a certain 
 
 When we judge a strategy, either in historical simulation or in actual performance, there are various metrics we can use. They range from extremely simple ones, such as annualized rate of return with no correction for fees, to more complex ones such as cost-adjusted risk/reward ratios. Here we look at some of the common choices.
 
-2.1. Return Opportunity. To compute return opportunity, we simply take a set of actual or hypothetical trades, often of equal size and sometimes without regard to position accumulation costs (bid/ask spreads), figure out the corresponding  $PL$  (profits or losses), and then divide each by position notional. This gives a rate of return per trade, which we can then average over all trades to get a return opportunity estimate.  
+#### 2.1 Return Opportunity
+
+To compute return opportunity, we simply take a set of actual or hypothetical trades, often of equal size and sometimes without regard to position accumulation costs (bid/ask spreads), figure out the corresponding $PL$ (profits or losses), and then divide each by position notional. This gives a rate of return per trade, which we can then average over all trades to get a return opportunity estimate.  
 Certainly, we can do more sophisticated things such as examining the interquartile range of returns, or weighting simulated trades, or altering presumed trade sizes, but that takes us more into the realm of a full backtest. /nextframeOpportunity or Backtest The essential difference between opportunity and backtest is the fidelity and sophistication. If we are ignoring fees and other significant but predictable contributors to PL, then we are looking only at opportunity.  
-2.2. Strategy Returns. To compute strategy returns, we construct a somewhat more plausible set of trades, sized perhaps by daily traded notional, sum up the PL, and divide by the sum of notionals to develop strategy returns. At this point, we are likely to begin taking costs into account (hedge fund-style management fees if we are addressing outside investors, internal tech and overhead costs for insiders).  
-2.3. Backtested Returns. Here, we make clear and defensible assumptions about trading costs and trade sizes attainable. We simulate using a reasonable set of risk limits and a reasonable risk model. We assume large positions may require many trades to obtain or liquidate. Preferably, we run any simulations against actual market tick data. We make assumptions about capital requirements and capital held, and report returns on capital rather than on notional.  
+#### 2.2 Strategy Returns
+
+To compute strategy returns, we construct a somewhat more plausible set of trades, sized perhaps by daily traded notional, sum up the PL, and divide by the sum of notionals to develop strategy returns. At this point, we are likely to begin taking costs into account (hedge fund-style management fees if we are addressing outside investors, internal tech and overhead costs for insiders).  
+#### 2.3 Backtested Returns
+
+Here, we make clear and defensible assumptions about trading costs and trade sizes attainable. We simulate using a reasonable set of risk limits and a reasonable risk model. We assume large positions may require many trades to obtain or liquidate. Preferably, we run any simulations against actual market tick data. We make assumptions about capital requirements and capital held, and report returns on capital rather than on notional.  
 2.4. Metrics Derived From Return Series. Once we have returns, there are a few important metrics we can derive from them
 
 2.4.1. Sharpe Ratio. The original Sharpe ratio was defined in terms of some "risk-free" rate  $r_f$  as
@@ -599,7 +631,7 @@ $$
 
 2.5. Choice of Benchmarks. Good benchmarks for a strategy consist of tradable alternatives that are highly formulaic (often buy-and-hold), work with publicly traded and marked liquid assets, and are expected to be related in some meaningful way. For example, a strategy trading convertible bonds might be judged against a buy-and-hold strategy of simply maintaining a position in some convertible bond ETF (exchange-traded fund). Occasionally a reasonable benchmark may be comprised of a competing internal strategy.
 
-It is a common phenomenon that, over time, we observe beta creep in quantitative investing, where at first no simple benchmark appears to correlate to a strategy returns. As markets learn and mature, products and methods arise to replicate the strategy (at least partially). Whereas they previously had no "beta" to any other security, they begin to exhibit beta to these new securities. it has "crept up" on them.
+It is a common phenomenon that, over time, we observe beta creep in quantitative investing, where at first no simple benchmark appears to correlate to a strategy returns. As markets learn and mature, products and methods arise to replicate the strategy (at least partially). Whereas they previously had no "beta" to any other security, they begin to exhibit beta to these new securities. It has "crept up" on them.
 
 We have observed this in the equity markets from original risk-free benchmarks, through CAPM and index benchmarks, Fama/French and now ETFs.
 
@@ -755,7 +787,7 @@ Naively, one might think it reasonable to use the Yahoo "Raw" series. However, t
 # 4.2. Credit Instruments.
 
 4.2.1. Finding hedging instruments. There are not many credit ETFs, and credit indexes tend to be untradable, so the only reasonable hedging instruments in corporate credit are CDX (in very mature markets) or highly liquid corporate bonds in related companies, which take care of market risk without addressing default risk.  
-4.2.2. Scaling and inventory. The credit markets are OTC and are traded in large lot sizes, making minimum position sizes quite large. At the same time, scaling strategies need to take into account the fact that these markets are quite slow relative to electronic markets. nextframe
+4.2.2. Scaling and inventory. The credit markets are OTC and are traded in large lot sizes, making minimum position sizes quite large. At the same time, scaling strategies need to take into account the fact that these markets are quite slow relative to electronic markets.
 
 4.2.3. Historical data. Databases of historical prices are relatively easy to obtain, though many are only approximate. Historical quote databases are more expensive but considerably better, but it is important to keep in mind that quotes in over-the-conuter markets (such as CDS and bonds) are almost never "hard".
 
@@ -776,21 +808,21 @@ Though credit instruments ultimately trade on probability of default,  $h$ , the
 
 4.3.2. Pegs. A common form of ongoing intervention is a peg (or sometimes a pair of lower and upper bounds), maintained by frequent interventions. Strategies relying on pegs may go suddenly bad, and strategies expecting pegs to fail can take a very long time to come to fruition.
 
-# 4.3.3. Sizing.
+#### 4.3.3 Sizing
 
 4.3.4. Similarity to common strategies. FX rates are clearly linked to many assets, such as foreign equities and bonds. Crises therefore tend to come with high covariance to other asset classes. In addition, these links mean that one should consider which elements of foreign economies may be driving FX rates.
 
 Unlike equities, a net long portfolio of foreign currencies has no theoretical positive excess return expectation. In each respective country, the currency is, of course, just cash, so the risk premium is zero.
 
-# 4.4. Options.
+## 4.4 Options
 
 4.4.1. Probability of ruin at high leverage. Options are often very highly levered investments, so their use comes with enhanced probability of ruin. Hedging can control this to an extent, but markets can begin crashing just when liquidity disappears. The problem is exacerbated for market makers, who tend to be structurally short options.
 
 4.4.2. Volatility hedging. Options strategies almost always involve delta-hedging. It is extremely common to demand control of gamma/vega (volatility exposure) as well.
 
-# A SIMPLE QUANTITATIVE TRADING EXAMPLE: SPREADS
+## A SIMPLE QUANTITATIVE TRADING EXAMPLE: SPREADS
 
-# 1. WORKING OUT A SPREAD TRADE
+### 1. WORKING OUT A SPREAD TRADE
 
 Let's work out what the bones of a quantitative trading strategy might entail by examining one of the simplest examples: the spread trade.
 

@@ -1,13 +1,31 @@
 ---
-parent_directory:
 title: Measuring the Moat
-tags:
-aliases:
-parent_folder: Week 2
-subfolder:
-key_concepts:
+parent_directory: Week 2
+formatted: 2025-12-21 11:30:00 AM
+formatter_model: claude-opus-4-5-20251101
+cli-tool: claude-code
+primary_tags:
+  - economic moats
+  - sustainable value creation
+  - competitive strategy
+  - disruptive innovation
+  - value chain analysis
+secondary_tags:
+  - industry analysis
+  - firm-specific analysis
+  - competitive lifecycle
+  - production advantages
+  - consumer advantages
+  - game theory
+  - brands
+  - profit pool
+  - industry stability
+  - five forces
+  - entry and exit
+  - competitive rivalry
+  - management skill
+  - luck
 cssclasses: academia
-linter-yaml-title-alias: Measuring the Moat
 ---
 
 # Measuring the Moat

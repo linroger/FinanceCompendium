@@ -1,11 +1,27 @@
 ---
-tags:
-key_concepts:
-parent_directory: FINM Quantitative Trading Strategies
-cssclasses: academia
 title: Simple Spread Trading
-aliases:
-  - Simple Spread Trading
+parent_directory: FINM Quantitative Trading Strategies
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+   - spread trading
+   - quantitative trading strategies
+   - ETF pairs trading
+   - cointegration analysis
+   - statistical arbitrage
+secondary_tags:
+   - Quandl data retrieval
+   - pandas data manipulation
+   - matplotlib visualization
+   - trading simulation
+   - risk management
+   - Fama-French factors
+   - historical data analysis
+   - portfolio optimization
+   - backtesting strategies
+   - market neutrality
+cssclasses: academia
 ---
 
 # Simple Spread Trading
