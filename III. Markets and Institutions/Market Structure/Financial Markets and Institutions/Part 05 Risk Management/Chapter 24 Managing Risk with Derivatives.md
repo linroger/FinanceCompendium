@@ -1,11 +1,21 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Chapter 24 Managing Risk with Derivatives
+primary_tags:
+  - risk management
+  - derivatives hedging
+  - forward contracts
+  - futures contracts
+  - options hedging
+  - interest rate swaps
+secondary_tags:
+  - microhedging
+  - macrohedging
+  - basis risk
+  - caps floors collars
+  - currency swaps
+  - credit swaps
+  - derivative securities
 cssclasses: academia
-title: Questions
-linter-yaml-title-alias: Questions
 ---
 
 # Questions
@@ -13,73 +23,44 @@ linter-yaml-title-alias: Questions
 1. How have prime rates and CD rates changed since 2020, as reported in Figure 23-1?
 2. Calculate the spread between the prime rate and CD rate since 2020. How has the spread changed over the last several years?
 
-chapter
+# Chapter 24
 
-# 24
+## Outline
 
-OUTLINE
-
-Derivative Securities Used to Manage Risk: Chapter Overview
-
-Forward and Futures Contracts
-
-Hedging with Forward Contracts
-
-Hedging with Futures Contracts
-
-Options
-
-Basic Features of Options
-
-Actual Interest Rate Options
-
-Hedging with Options
-
-Caps, Floors, and Collars
-
-Risks Associated with Futures, Forwards, and Options
-
-Swaps
-
-Hedging with Interest Rate Swaps
-
-Hedging with Currency Swaps
-
-Credit Swaps
-
-Credit Risk Concerns with Swaps
-
-Comparison of Hedging Methods
-
-Writing versus Buying Options
-
-Futures versus Options Hedging
-
-Swaps versus Forwards, Futures, and Options
-
-Appendix 24A: Hedging with Futures Contracts
-
-Appendix 24B: Hedging with Options
-
-Appendix 24C: Hedging with Caps, Floors, and Collars
-
-(Appendixes 24A-24C available through Connect or your course instructor)
+- Derivative Securities Used to Manage Risk: Chapter Overview
+- Forward and Futures Contracts
+- Hedging with Forward Contracts
+- Hedging with Futures Contracts
+- Options
+- Basic Features of Options
+- Actual Interest Rate Options
+- Hedging with Options
+- Caps, Floors, and Collars
+- Risks Associated with Futures, Forwards, and Options
+- Swaps
+- Hedging with Interest Rate Swaps
+- Hedging with Currency Swaps
+- Credit Swaps
+- Credit Risk Concerns with Swaps
+- Comparison of Hedging Methods
+- Writing versus Buying Options
+- Futures versus Options Hedging
+- Swaps versus Forwards, Futures, and Options
+- Appendix 24A: Hedging with Futures Contracts
+- Appendix 24B: Hedging with Options
+- Appendix 24C: Hedging with Caps, Floors, and Collars
+- (Appendixes 24A-24C available through Connect or your course instructor)
 
 # Managing Risk off the Balance Sheet with Derivative Securities
 
 # Learning Goals
 
-LG 24-1 Know how risk can be hedged with forward contracts.
-
-LG 24-2 Know how risk can be hedged with futures contracts.
-
-LG 24-3 Distinguish a microhedge from a macrohedge.
-
-LG 24-4 Know how risk can be hedged with option contracts.
-
-LG 24-5 Know how risk can be hedged with swap contracts.
-
-LG 24-6 Understand how the different hedging methods compare.
+- LG 24-1 Know how risk can be hedged with forward contracts.
+- LG 24-2 Know how risk can be hedged with futures contracts.
+- LG 24-3 Distinguish a microhedge from a macrohedge.
+- LG 24-4 Know how risk can be hedged with option contracts.
+- LG 24-5 Know how risk can be hedged with swap contracts.
+- LG 24-6 Understand how the different hedging methods compare.
 
 # DERIVATIVE SECURITIES USED TO MANAGE RISK: CHAPTER OVERVIEW
 

@@ -588,7 +588,7 @@ Real rental increases
 That is, the increase in the price of computers (10%) leads to an even larger increase in the rental on capital (60%) and a decrease in the wage (-40%). If, instead, the price of computers falls, then these inequalities are reversed, and we get
 $ $
 
-\underbrace {\Delta R / R <   \Delta P_{C}} / \underbrace {P_{C} <   0 <   \Delta W / W}_{\text{fo ra nd ec re as ei n} P_{C}}
+\underbrace {\Delta R / R <   \Delta P_{C}} / \underbrace {P_{C} <   0 <   \Delta W / W}_{\text{for a decrease in} P_{C}}
 
 $ $
 Real rental falls
@@ -598,7 +598,7 @@ Real wage increases
 What happens if the relative price of shoes increases? From the Stolper-Samuelson theorem, we know that this change will benefit labor, which is used intensively in shoe production, and will harm capital. The equation summarizing the changes in factor earnings when the price of shoes increases is
 $ $
 
-\underline {{\Delta R / R <   0}} \underline {{<   \Delta P_{S} / P_{S} <   \Delta W / W}}, \text{fo ra ni nc re as ei n} P_{S}
+\underline {{\Delta R / R <   0}} \underline {{<   \Delta P_{S} / P_{S} <   \Delta W / W}}, \text{for an increase in} P_{S}
 
 $ $
 Real rental falls
@@ -641,9 +641,7 @@ By focusing on the factor intensities among goods (i.e., the relative amount of 
 2. The Heckscher-Ohlin model is a long-run framework, so labor, capital, and other resources can move freely between the industries.
 3. With two goods, two factors, and two countries, the Heckscher-Ohlin model predicts that a country will export the good that uses its abundant factor intensively and import the other good.
 4. The first test of the Heckscher-Ohlin model was made by Leontief using U.S. data for 1947. He found that U.S. exports were less capital-intensive and more labor-intensive than U.S. imports. This was a paradoxical finding because the United States was abundant in capital.
-5. The assumption of identical technologies used in the Heckscher-Ohlin model does not hold in practice. Current research has extended the
-
-empirical tests of the Heckscher-Ohlin model to allow for many factors and countries, along with differing productivities of factors across countries. When we allow for different productivities of labor in 1947, we find that the United States is abundant in effective—or skilled—labor, which explains the Leontief paradox.
+5. The assumption of identical technologies used in the Heckscher-Ohlin model does not hold in practice. Current research has extended the empirical tests of the Heckscher-Ohlin model to allow for many factors and countries, along with differing productivities of factors across countries. When we allow for different productivities of labor in 1947, we find that the United States is abundant in effective—or skilled—labor, which explains the Leontief paradox.
 
 6. According to the Stolper-Samuelson theorem, an increase in the relative price of a good will cause the real earnings of labor and capital to move in opposite directions: the factor used intensively in the industry whose relative price goes up will find its earnings increased, and the real earnings of the other factor will fall.
 7. Putting together the Heckscher-Ohlin theorem and the Stolper-Samuelson theorem, we conclude that a country's abundant factor gains from the opening of trade (because the relative price of exports goes up), and its scarce factor loses from the opening of trade.
