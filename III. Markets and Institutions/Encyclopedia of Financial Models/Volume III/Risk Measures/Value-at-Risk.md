@@ -1,4 +1,29 @@
 
+---
+title: "Value-at-Risk"
+parent_directory: "Risk Measures"
+formatted: "2025-12-21 07:30:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+primary_tags:
+  - value at risk
+  - risk measurement
+  - financial risk
+  - portfolio risk
+secondary_tags:
+  - var calculation
+  - risk metrics
+  - historical method
+  - monte carlo method
+  - back testing
+  - coherent risk measures
+  - tail risk
+  - confidence level
+  - loss distribution
+  - risk management
+cssclasses: academia
+---
+
 # Value-at-Risk
 
 STOYAN V. STOYANOV, PhD
@@ -17,7 +42,7 @@ Abstract: A risk measure that has been widely accepted since the 1990s is the va
 
 In this entry, we cover the most commonly used risk measure used by financial institutions: value-at-risk (VaR). We comment on its properties and different calculation methods. Where possible, the definitions and equations are geometrically interpreted, making the ideas more intuitive and understandable.
 
-# VALUE-AT-RISK DEFINED
+## VALUE-AT-RISK DEFINED
 
 VaR is defined as the minimum level of loss at a given, sufficiently high, confidence level for a predefined time horizon. The recommended confidence levels are  $95\%$  and  $99\%$ . Suppose that we hold a portfolio with a 1-day  $99\%$  VaR equal to \$1 million. This means that over the horizon of 1 day, the portfolio may lose more than \$1 million with probability equal to  $1\%$ .
 

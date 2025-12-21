@@ -26,7 +26,7 @@ In this entry, we review alternative risk measures that can be employed in portf
 
 Szegö (2004, p. 1) categorizes risk measures as one of the three major revolutions in finance and places the start of that revolution in 1997. The other two major revolutions are mean-variance analysis (1952-1956) and continuous-time models (1969-1973). He notes that alternative risk measures have been accepted by practitioners but "rejected by the academic establishment and, so far discarded by regulators!" (Szegö, 2004, p. 4).
 
-# Basic Features of Investment Risk Measures
+## Basic Features of Investment Risk Measures
 
 Balzer (2001) argues that a risk measure is investor specific and, therefore, there is "no single universally acceptable risk measure." He suggests several features that an investment risk measure should capture. Here we describe the following three features:
 
@@ -41,7 +41,7 @@ In addition, the same investor could have multiple objectives and, hence, multip
 Intuition suggests that risk is an asymmetric concept related to the downside outcomes, and any realistic risk measure has to value and consider upside and downside differently. The standard deviation considers the positive and the negative deviations from the mean as a potential risk. In this case overperformance relative to the mean is penalized just as much as underperformance.
 
 
-# Intertemporal Dependence and Correlation with Other Sources of Risk
+## Intertemporal Dependence and Correlation with Other Sources of Risk
 
 The standard deviation is a measure of dispersion and it cannot always be used as a measure of risk. The preferred investment does not always present better returns than the other. It could happen that the worst investment presents the greatest return in some periods. Hence, time could influence the investor's choices.
 

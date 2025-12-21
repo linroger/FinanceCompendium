@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Topic 3 - Value at Risk"
+parent_directory: "FINM Markets Foundation"
+formatted: "2025-12-21 08:00:00 AM"
+formatter_model: "grok-code-fast-1"
+cli-tool: "opencode"
+primary_tags:
+  - value at risk
+  - risk measurement
+  - portfolio risk management
+secondary_tags:
+  - conditional value at risk
+  - historical simulation
+  - monte carlo simulation
+  - volatility modeling
+  - risk backtesting
+  - normal distribution
+  - extreme value theory
+  - quantile regression
 cssclasses: academia
-title: Topic 3 - Value at Risk
-linter-yaml-title-alias: Topic 3 - Value at Risk
 ---
 
 # Topic 3 - Value at Risk
@@ -148,7 +160,7 @@ This says that…
 
 * there is a probability of $\quant$
 * that over a horizon of $\tau$ days
-* the portfolio PnL will be less than$\pnlVaRqtau$.
+ * the portfolio PnL will be less than $\pnlVaRqtau$.
 
 $$\Pr\left(\loss_{t,t+\tau} > L^{\VaRqtau}\right)  = \quant$$
 
@@ -169,7 +181,7 @@ Our definitions above imply that $\pnlVaRqtau$ and $\rVaRqtau$ will be negative 
 Be careful to note that the $\VaR$ may be defined with respect to 
 
 * Left tail of profit, $\pnl$
-* Right tail of losses, (a positive number,) $\loss = -\pnl$$
+ * Right tail of losses, (a positive number,) $\loss = -\pnl$
 
 Below, the notation will focus on returns and PnL. 
 

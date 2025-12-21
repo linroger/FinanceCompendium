@@ -1,14 +1,30 @@
 ---
 aliases:
-  - Mortgage-Backed Securities
-  - MBS
-  - Nyfed MBS Primer
-tags:
-key_concepts:
+   - Mortgage-Backed Securities
+   - MBS
+   - Nyfed MBS Primer
+primary_tags:
+  - nonagency mortgage-backed securities
+  - private-label mortgage-backed securities
+  - credit risk analysis
+  - loss-adjusted yield
+  - mortgage securitization
+secondary_tags:
+  - principal return timing
+  - loss severity modeling
+  - voluntary prepayments
+  - involuntary prepayments
+  - transition matrices
+  - tranche analysis
+  - credit enhancement
+  - capital structure analysis
+  - coverage ratios
+  - default rate projections
+  - prepayment vectors
+  - yield matrix analysis
 parent_directory: MBS & Real Estate Finance
 cssclasses: academia
 title: Mortgage Backed Securities - Nyfed
-linter-yaml-title-alias: Mortgage Backed Securities - Nyfed
 ---
 
 NO. 1001 FEBRUARY 2022
@@ -17,7 +33,7 @@ NO. 1001 FEBRUARY 2022
 
 Andreas Fuster | David Lucca | James Vickery
 
-# Mortgage-Backed Securities
+## Mortgage-Backed Securities
 
 Andreas Fuster, David Lucca, and James Vickery
 
@@ -49,7 +65,7 @@ Throughout, we highlight insights from the growing literature on MBS and mortgag
 
 # 2 The MBS universe
 
-# 2.1 MBS market segments and their evolution over time
+## 2.1 MBS market segments and their evolution over time
 
 Mortgage-backed securities are bonds with cash flows tied to the principal and interest payments on a pool of underlying mortgages. Mortgage securitization has a long history (e.g., see Goetzmann and Newman, 2010), but the birth of the modern US MBS market is typically dated to the issuance of the first agency MBS pool by Ginnie Mae in 1970.
 
@@ -58,9 +74,9 @@ Figure 1 documents the enormous growth in the MBS market over the past half-cent
 - Agency vs nonagency. Agency MBS carry a government-backed credit guarantee from one of three housing agencies: Fannie Mae, Freddie Mac or Ginnie Mae.[2] Nonagency MBS, on the other hand, are issued by private financial institutions and are not guaranteed. Instead, securities are branched in terms of seniority to cater to investors with different credit risk appetites.  
 - Residential vs commercial. The bulk of MBS are backed by mortgages on individual residential properties (RMBS). But there is also an active commercial MBS (CMBS) market secured by a diverse range of commercial real estate (e.g., office, multifamily, industrial, hotel, and warehouse properties). Commercial mortgages are larger, more complex and more heterogenous than residential mortgages, and these features are reflected in the design of CMBS, as we discuss in section 3.
 
-The top panel of Figure 1 plots the evolution of the volume of residential MBS. The market began to expand significantly in the early 1980s, driven at the time by high and volatile interest rates and the need to alleviate the maturity and liquidity mismatch faced by savings and loans. Regulatory and tax incentives also played an important role.<sup>3</sup> The RMBS market continued to expand rapidly over the following two decades, with the volume of securities outstanding reaching almost  $50\%$  of GDP by the time of the Great Recession. Particularly notable is the rapid growth in nonagency MBS during the 2000s due to the issuance of subprime and "alt-A" MBS backed by mortgages with high levels of credit risk.<sup>4</sup>
+The top panel of Figure 1 plots the evolution of the volume of residential MBS. The market began to expand significantly in the early 1980s, driven at the time by high and volatile interest rates and the need to alleviate the maturity and liquidity mismatch faced by savings and loans. Regulatory and tax incentives also played an important role.<sup>3</sup> The RMBS market continued to expand rapidly over the following two decades, with the volume of securities outstanding reaching almost $50\%$ of GDP by the time of the Great Recession. Particularly notable is the rapid growth in nonagency MBS during the 2000s due to the issuance of subprime and "alt-A" MBS backed by mortgages with high levels of credit risk.<sup>4</sup>
 
-The housing crash and wave of mortgage defaults that precipitated the Great Recession also caused a freeze in the issuance of nonagency MBS in mid-2007 (Calem et al., 2013; Vickery and Wright, 2013; Fuster and Vickery, 2015; Kruger, 2018). The market has partially recovered but nonagency MBS issuance remains far below pre-crisis levels even to the present day. The MBS market as a whole remains very active, however — as of 2021,  $65\%$  of total home mortgage debt is securitized into MBS, up from  $60\%$  a decade ago, nearly all of it in the form of agency MBS. The stock of MBS as a percent of nominal GDP is smaller than prior to the Great Recession though, reflecting the post-crisis normalization of household leverage.
+The housing crash and wave of mortgage defaults that precipitated the Great Recession also caused a freeze in the issuance of nonagency MBS in mid-2007 (Calem et al., 2013; Vickery and Wright, 2013; Fuster and Vickery, 2015; Kruger, 2018). The market has partially recovered but nonagency MBS issuance remains far below pre-crisis levels even to the present day. The MBS market as a whole remains very active, however — as of 2021, $65\%$ of total home mortgage debt is securitized into MBS, up from $60\%$ a decade ago, nearly all of it in the form of agency MBS. The stock of MBS as a percent of nominal GDP is smaller than prior to the Great Recession though, reflecting the post-crisis normalization of household leverage.
 
 The bottom panel of Figure 1 focuses on CMBS. The CMBS market is smaller than the residential market, and did not grow in earnest until the 1990s, fueled by the Resolution Trust Corporation which issued securities backed by distressed commercial real estate in the wake of the savings and loan crisis (An et al., 2009; Chandan, 2012). Like its residential cousin, the nonagency CMBS market experienced an extraordinary boom during the 2000s — almost tripling in size as a percentage of GDP — before CMBS issuance ground to a halt at the start of the Great Recession. The market has returned to health in the post-crisis period, but normalized by GDP, the volume of nonagency CMBS today is only at the level of the early 2000s.
 
@@ -78,7 +94,7 @@ Who invests in MBS? The Financial Accounts of the United States provides a parti
 
 More details on bank MBS holdings are presented in Federal Reserve Bank of New York (2021). Banks invest very heavily in agency MBS, which account for about half of banks' total investment security holdings. Banks are also significant investors in agency collateralized mortgage obligations (CMOs), and to a lesser extent, nonagency MBS.
 
-The Federal Reserve is the single largest agency MBS investor through its large-scale asset purchase program, with total holdings of \(2.5 trillion as of October 2021. Research has found that Fed MBS purchases reduce MBS yields and have a range of other effects on financial markets and the macroeconomy (see section 4).
+The Federal Reserve is the single largest agency MBS investor through its large-scale asset purchase program, with total holdings of $2.5 trillion as of October 2021. Research has found that Fed MBS purchases reduce MBS yields and have a range of other effects on financial markets and the macroeconomy (see section 4).
 
 # 2.3 Agency RMBS in the cross-section
 

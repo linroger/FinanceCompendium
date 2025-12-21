@@ -1,22 +1,20 @@
 ---
+title: Basis Trades and Treasury Market Illiquidity
 parent_directory: Diamond
-title: "Basis Trades and Treasury Market Illiquidity"
-tags:
-aliases:
-  - Treasury Market Illiquidity
-  - Basis Trades
-parent_folder: Diamond
-subfolder:
-key_concepts:
+formatted: 2025-12-21 08:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - treasury basis trades
+  - market illiquidity
+  - hedge fund risks
+secondary_tags:
+  - repo market financing
+  - futures convergence
+  - margin requirements
+  - rollover risk
+  - implied repo rate
 cssclasses: academia
-linter-yaml-title-alias: "Basis Trades and Treasury Market Illiquidity"
----
-
----
-title: "Basis Trades and Treasury Market Illiquidity"
-source: "Basis Trades and Treasury Market Illiquidity.pdf"
-converted: "2025-11-28T14:14:19.351593"
-type: document
 ---
 
 # **BRIEF** SERIES
@@ -31,16 +29,7 @@ _By Daniel Barth and Jay Kahn_ [1]
 
 ### The Treasury futures basis trade seeks to exploit the price difference between cash Treasury securities and Treasury futures. This brief summarizes evidence on the size and extent of basis trading by hedge funds and assesses the possibility that the trade's exposure to financing and liquidity risks contributed to Treasury market illiquidity in March 2020. This brief also highlights the potential for the trade to lead to further illiquidity. While we find that Treasury illiquidity in March placed stress on Treasury basis trades, the evidence casts doubt on the theory that stress in these trades amplified Treasury market illiquidity. Intervention by the Federal Reserve in the Treasury and repo markets may have limited spillovers that could affect financial stability.
 
-# Basis trading is a form of near-arbitrage between the cash and futures prices of Treasury securities — a
-
-usually small difference known as the basis. If this difference is bigger than the cost of buying the Treasury and
-
-financing that purchase in the repurchase agreement
-
-(repo) market, then the trade is profitable. Traders rely
-
- - n repo markets for financing to achieve high leverage
-for these trades. In early March 2020, stress in Treasury
+# Basis trading is a form of near-arbitrage between the cash and futures prices of Treasury securities — a usually small difference known as the basis. If this difference is bigger than the cost of buying the Treasury and financing that purchase in the repurchase agreement (repo) market, then the trade is profitable. Traders rely on repo markets for financing to achieve high leverage for these trades. In early March 2020, stress in Treasury
 markets led to large basis trade losses for some relative
 value hedge funds. Basis trades tie together Treasury
 markets, futures markets, and repo markets, all three of

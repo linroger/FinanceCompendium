@@ -1,43 +1,34 @@
 ---
-aliases:
-- The Overall Big Cycle
-tags: null
-key_concepts: null
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
-  Ray Dalio Full
-cssclasses: academia
-title: '12 - Chapter 8: The Overall Big Cycle'
+---
+title: "12 - Chapter 8: The Overall Big Cycle"
+parent_directory: "II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full"
+formatted: "2025-12-21 08:00:33 PM"
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- no intrinsic value
-- monetary, political, and geopolitical orders
-- big changes
-- big debt cycle changes
+  - big cycle dynamics
+  - historical cycles
+  - world order changes
+  - economic forces
 secondary_tags:
-- big cycle
-- (i.e., the changing world order
-- otherwise unimaginable possible developments
-- four other big forces
-- both the big debt cycle
-- all the big developments
-- big cyclical swings
-- much bigger effects
-- big beneficial changes
-tags_extracted: '2025-12-18T18:03:01.371260'
-tags_method: max_quality_v1
+  - debt cycle mechanics
+  - internal order cycles
+  - external order cycles
+  - technological innovation
+  - acts of nature
+  - human nature cycles
+  - cycle transitions
+  - historical patterns
+cssclasses: academia
 ---
 
-# 12_8_The_Overall_Big_Cycle
-## THE OVERALL
-
-### BIG CYCLE
+# 12 8 The Overall Big Cycle
 
 If I had to pick the most important chapter in the book, this would be it. That is because it deals with the biggest and most important forces that are dramatically changing the world order, and it shows how and why these forces have repeatedly driven history through its big cycles. Having seen so many of these cycles, watching what is happening is like watching a movie that I have seen many times before—just a contemporary version in which the clothes that the people are wearing and the technologies that they are using are more modern. I hope to show you what I see. Also, by showing what happened in the past and why it happened, we can understand how previously unimaginable developments are now happening and could happen in the future.
 
-### W
+### Why We Can't Look at the Debt Cycle in Isolation
 
-While this book is mostly focused on understanding what's going on with debt/credit/money/economic cycles, we can't look at this dynamic in isolation and make sense of it because how these cycles transpire is influenced by other big forces. Similarly, to understand what is happening in other areas, we need to understand the debt/credit/ money/economic force as it has big effects on developments in most areas. Together, five big forces produce the Overall Big Cycle that
-
-leads to radical changes in monetary, domestic, and/or world orders.
+While this book is mostly focused on understanding what's going on with debt/credit/money/economic cycles, we can't look at this dynamic in isolation and make sense of it because how these cycles transpire is influenced by other big forces. Similarly, to understand what is happening in other areas, we need to understand the debt/credit/money/economic force as it has big effects on developments in most areas. Together, five big forces produce the Overall Big Cycle that leads to radical changes in monetary, domestic, and/or world orders.
 
 I comprehensively explained how this Overall Big Cycle works and how it was manifest over the last 500 years in Principles for Dealing with the Changing World Order, but I won't cram that 600-page book in here. Instead, I am going to give you a brief summary. That way, when we turn to Part III about what has happened in our current Big Cycle, and Part IV, in which I will try to look into the future, you will be able to see how what actually happened compares with my templates of both the Big Debt Cycle and the Overall Big Cycle.
 

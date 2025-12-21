@@ -1,38 +1,29 @@
 ---
 aliases:
 - The Prior Big Debt Crisis Recedes and a New Equilibrium Is Reached
-tags: null
-key_concepts: null
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
-  Ray Dalio Full
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
 cssclasses: academia
-title: '11 - Chapter 7: The Prior Big Debt Crisis Recedes, a New Equilibrium Is Reached,
-  and a New Cycle Can Begin (Stages 7-9)'
+title: 11 - Chapter 7 The Prior Big Debt Crisis Recedes, a New Equilibrium Is Reached, and a New Cycle Can Begin (Stages 7-9)
+formatted: 2025-12-21 07:55:40 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- central bank holdings
-- debt restructurings
-- archetypical case
+- debt cycle resolution
+- currency devaluation
+- monetary policy transition
 secondary_tags:
-- debt crisis
-- big cycle
-- new equilibrium
-- end stages
-- debt write-downs
 - beautiful deleveraging
-tags_extracted: '2025-12-18T18:02:49.339892'
-tags_method: max_quality_v1
+- fiscal austerity measures
+- capital controls implementation
+- interest rate normalization
+- reserve accumulation strategies
+- central bank independence
+- tax rate increases
+- debt restructuring
+- monetary system stabilization
 ---
 
-# 11_7_The_Prior_Big_Debt_Crisis_Recedes_a_New_Equilibr
-## THE PRIOR BIG DEBT
-
-### CRISIS RECEDES, A NEW
-
-### EQUILIBRIUM IS REACHED,
-
-### AND A NEW CYCLE CAN
-
-### BEGIN (STAGES 7-9)
+# 11-7: The Prior Big Debt Crisis Recedes, a New Equilibrium Is Reached, and a New Cycle Can Begin (Stages 7-9)
 
 The cycle ends when a mix of market forces and policy-maker actions create a bottom and an upswing from there. This chapter lays out the dynamics and markers I look for in these times (Stages 7-9 of the archetype I showed in Chapter 4).
 
@@ -130,8 +121,6 @@ Higher tax rates typically go hand in hand with capital controls in order to try
 
 <table><tr><td></td><td>1900</td><td>1920</td><td>1940</td><td>1960</td><td>1980</td><td>2000</td></tr><tr><td>UK</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td></td><td></td></tr><tr><td>US</td><td>Yes</td><td>Yes</td><td></td><td></td><td></td><td></td></tr><tr><td>China</td><td></td><td></td><td>Yes</td><td>Yes</td><td>Yes</td><td></td></tr><tr><td>Germany</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td></td><td></td></tr><tr><td>France</td><td>Yes</td><td></td><td></td><td>Yes</td><td></td><td></td></tr><tr><td>Russia</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td></tr><tr><td>Austria-Hungary</td><td>Yes</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Italy</td><td></td><td>Yes</td><td></td><td></td><td></td><td></td></tr><tr><td>Netherlands</td><td></td><td></td><td></td><td>Yes</td><td></td><td></td></tr><tr><td>Japan</td><td></td><td>Yes</td><td></td><td>Yes</td><td></td><td></td></tr></table>
 
-24
-
 ### Stage 9: The Deleveraging Process Inevitably Creates a Reduction in the Debt Burdens That Creates the Return to Equilibrium
 
 Quite often, when there are inflationary depressions, the debt is devalued. At the end of the cycle, government reserves are raised through asset sales, and a strictly enforced transition from a rapidly declining currency to a relatively stable currency is achieved by the central bank linking the currency to a hard currency or a hard asset (e.g., gold) while having very tight money and a very high real interest rate, which severely penalizes the borrower-debtors and rewards the lender-creditors, which leads to the buying of the debt/currency, which stabilizes the debt/currency.
@@ -176,9 +165,7 @@ GOVT DEFICIT (\% GDP)
 
 PRIMARY DEFICIT (\% GDP)
 
-## 3. Obtaining sufficient quantities of reserves to defend the currency (or back the new currency if the old, collapsed currency
-
-(is being replaced) is typically part of the process. The devaluation of the currency typically helps with this both because the fall in the exchange rate increases the value of the country's reserves relative to its nominal liabilities and because it improves the country's competitiveness, helping to increase export incomes relative to import costs. In addition, we see a combination of asset sales to build up reserves further and occasional borrowing from official creditors (which at this point are among the few parties still willing to lend). Also, government-owned companies and other assets are typically sold off, which brings in money for reserves and improves efficiencies of these businesses.
+## 3. Obtaining sufficient quantities of reserves to defend the currency (or back the new currency if the old, collapsed currency is being replaced) is typically part of the process. The devaluation of the currency typically helps with this both because the fall in the exchange rate increases the value of the country's reserves relative to its nominal liabilities and because it improves the country's competitiveness, helping to increase export incomes relative to import costs. In addition, we see a combination of asset sales to build up reserves further and occasional borrowing from official creditors (which at this point are among the few parties still willing to lend). Also, government-owned companies and other assets are typically sold off, which brings in money for reserves and improves efficiencies of these businesses.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/3547bc27-1262-4e8f-ad60-d760e9f0a79a/17b70776e064f50309001c951fee806d0ffe1c669c0213722906c0eaf15659c8.jpg)
 

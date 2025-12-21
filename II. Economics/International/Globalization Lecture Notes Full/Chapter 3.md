@@ -1,42 +1,30 @@
 ---
-aliases: Comparative Advantage, Competitiveness, and the Terms of Trade
-tags: null
-key_concepts: null
-parent_directory: '[[Globalization Lecture Notes Full]]'
-cssclasses: academia
-title: 'Chapter 3: Comparative Advantage, Competitiveness, and the Terms of Trade'
-linter-yaml-title-alias: Comparative Advantage, Competitiveness, and the Terms of
-  Trade
+title: Chapter 3 Comparative Advantage, Competitiveness, and the Terms of Trade
+parent_directory: Globalization Lecture Notes Full
+formatted: 2025-12-21 07:56:25 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
-- gravity equation relates trade
-- relevance country characteristics trade
-- globalization based comparative advantage
-- country competitiveness generating employment
-- globalization contrast economies
-- gaps competitiveness country economy
+  - comparative advantage principles
+  - terms of trade dynamics
+  - great doubling workforce
+  - sectoral competitiveness analysis
+  - gravity equation trade
 secondary_tags:
-- trade barriers gravity specification
-- globalized great doubling
-- used gravity equation estimation
-- mexico comparative advantage manufacturing
-- gravity equation level country
-- competitiveness terms trade great
-- table exports comparative advantage
-- industry weakest comparative advantage
-- country trade flows confounding
-- doubling workers comparative advantage
-- doubling world economy principle
-- countries produce commodities good
-- manufacturing competitiveness comparable
-- productivity growth world globalized
-- sectoral competitiveness sector labor
-- outcome globalization prior globalization
-tags_extracted: '2025-12-18T00:29:49.872977'
+  - productivity gap measurement
+  - revealed comparative advantage
+  - wage gap analysis
+  - industry specialization patterns
+  - population growth effects
+  - technology change impacts
+  - deindustrialization concerns
+  - trade flow predictions
+cssclasses: academia
 ---
 
 # Chapter 3
 
-# Comparative Advantage, Competitiveness, and the Terms of Trade
+## Comparative Advantage, Competitiveness, and the Terms of Trade
 
 The Great Doubling of the Global Workforce
 
@@ -46,7 +34,7 @@ The globalized labor force in the world's open economies in 1980 consisted of ro
 
 To answer those questions, this chapter puts Ricardo's ideas and the principle of comparative advantage to work: first in a world with two sectors, and then in a richer world with many industries. Similar to the preceding chapter, the production possibility frontier (PPF) is a powerful graphical device to summarize comparative advantage when there are just two sectors. To study how globalization shifts the number of industries between countries, we need to consider more than just two sectors. When there are many industries, then a close relative of the PPF—the schedule of cross-country productivity gaps—proves to be an even more potent graphical tool. It teaches us the important business lesson that under globalization it is not enough to just watch competitors in your own industry, you need to observe the comparative advantage of industries outside your own because those industries compete for the same local resources. A natural by-product of the Ricardian model with many industries is the empirically powerful gravity equation. Upcoming chapters will return to the Ricardian model with many industries to understand how globalization and economic growth relate, and how the real exchange rate and international capital flows affect the global location of industries.
 
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter you should be able to:
 
