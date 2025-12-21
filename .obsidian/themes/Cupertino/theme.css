@@ -59,6 +59,16 @@ body,
   --color-blue: rgb(var(--color-blue-rgb));
   --color-purple: rgb(var(--color-purple-rgb));
   --color-pink: rgb(var(--color-pink-rgb));
+  --surface-window: var(--background-primary);
+  --surface-content: color-mix(in srgb, var(--background-primary) 94%, var(--color-base-00));
+  --surface-toolbar: color-mix(in srgb, var(--background-secondary) 60%, var(--liquid-glass-tint));
+  --surface-sidebar: color-mix(in srgb, var(--background-secondary) 70%, var(--liquid-glass-tint));
+  --surface-glass: color-mix(in srgb, var(--liquid-glass-background) 70%, var(--liquid-glass-tint));
+  --surface-glass-strong: color-mix(in srgb, var(--liquid-glass-background) 85%, var(--liquid-glass-tint));
+  --surface-glass-weak: color-mix(in srgb, var(--liquid-glass-background) 55%, var(--liquid-glass-tint));
+  --surface-border: var(--liquid-glass-border);
+  --divider-color: var(--background-modifier-border);
+  --tab-container-background: var(--surface-content);
 }
 
 .theme-light {
@@ -159,8 +169,8 @@ body,
   --text-highlight: var(--text-normal);
   --liquid-glass-highlight: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 50%);
   --liquid-glass-border: rgba(255, 255, 255, 0.1);
-  --liquid-glass-background: rgba(255, 255, 255, 0.08);
-  --liquid-glass-tint: rgba(0, 0, 0, 0.3);
+  --liquid-glass-background: rgba(255, 255, 255, 0.12);
+  --liquid-glass-tint: rgba(255, 255, 255, 0.08);
   --blur-xs: blur(6px);
   --blur-s: blur(12px);
   --blur-m: blur(20px);
@@ -197,15 +207,20 @@ body:not(.is-mobile) .app-container {
 }
 body:not(.is-mobile) .app-container {
   align-items: center;
-  background: var(--background-secondary);
+  background: var(--surface-window);
+}
+body:not(.is-mobile) .workspace {
+  background-color: transparent;
 }
 body:not(.is-mobile) .workspace-split {
   transition: var(--anim-duration-moderate);
 }
 
 body.is-frameless:not(.is-hidden-frameless, .is-fullscreen) .titlebar {
-  background-color: var(--background-secondary);
+  background-color: var(--surface-toolbar);
   border-bottom: none;
+  backdrop-filter: var(--blur-s);
+  -webkit-backdrop-filter: var(--blur-s);
 }
 
 body:not(.mod-macos):not(.is-mobile) {
@@ -299,7 +314,7 @@ body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-android:not(.android
   --shadow-l: var(--shadow-border), inset 0 0 1px 1px white, 0 16px 64px 0 rgba(0, 0, 0, 0.15);
 }
 body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-android:not(.android-off)).theme-dark {
-  --liquid-glass-background: rgba(255, 255, 255, 0.1);
+  --liquid-glass-background: rgba(255, 255, 255, 0.12);
   --background-modifier-border: rgba(255, 255, 255, 0.16);
   --shadow-base: inset 1px 1.5px 1px -1px rgba(255, 255, 255, 0.2), inset -1px -1.5px 1px -1px rgba(255, 255, 255, 0.15), inset 0 4px 16px rgba(255, 255, 255, 0.025);
   --shadow-border: 0 0 1px 0 rgba(255, 255, 255, 0.3);
@@ -376,7 +391,7 @@ body:not(.reduce-motion) .workspace .view-header-nav-buttons .clickable-icon:not
 
 body {
   --header-height: 52px;
-  --tab-radius: var(--radius-m);
+  --tab-radius: calc(var(--radius-s) + 2px);
   --tab-radius-active: var(--tab-radius) var(--tab-radius) 0 0;
   --tab-curve: calc(var(--tab-radius) + 4px);
   --tab-shadow-active: 0 2px 8px rgba(0, 0, 0, 0.06), 0 4px 16px rgba(0, 0, 0, 0.04);
@@ -408,8 +423,10 @@ body:not(.is-mobile) .modal .modal-close-button:not(:empty) svg.svg-icon {
 
 body:not(.is-phone) .workspace-tab-header-container {
   transition: var(--anim-duration-moderate) var(--anim-motion-cupertino);
-  background-color: transparent;
-  border-bottom: none;
+  background-color: var(--surface-toolbar);
+  border-bottom: 1px solid var(--surface-border);
+  backdrop-filter: var(--blur-s);
+  -webkit-backdrop-filter: var(--blur-s);
 }
 
 .sidebar-toggle-button {
@@ -475,14 +492,16 @@ body:not(.is-phone) .workspace .mod-root .workspace-tabs:not(.mod-stacked) .work
   opacity: 0.6;
 }
 body:not(.is-phone) .workspace .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header:not(.is-active):hover {
-  background-color: var(--liquid-glass-background);
+  background-color: var(--surface-glass-weak);
   box-shadow: var(--tab-shadow-hover);
-  backdrop-filter: blur(8px) saturate(150%);
-  -webkit-backdrop-filter: blur(8px) saturate(150%);
+  border: 1px solid var(--surface-border);
+  backdrop-filter: var(--blur-s);
+  -webkit-backdrop-filter: var(--blur-s);
 }
 body:not(.is-phone) .workspace .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header.is-active {
-  background-color: var(--background-primary);
+  background-color: var(--surface-glass-strong);
   box-shadow: var(--tab-shadow-active);
+  border: 1px solid var(--surface-border);
 }
 body:not(.is-phone) .workspace .mod-root .workspace-tabs:not(.mod-stacked) .workspace-tab-header-inner {
   padding-inline-start: 12px;
@@ -624,9 +643,10 @@ body.is-tablet .workspace .mod-root .workspace-tab-header-new-tab .clickable-ico
   border-radius: var(--radius-s);
 }
 .workspace .mod-sidedock .workspace-tab-header.is-active {
-  background-color: var(--liquid-glass-background);
-  backdrop-filter: blur(8px) saturate(150%);
-  -webkit-backdrop-filter: blur(8px) saturate(150%);
+  background-color: var(--surface-glass-strong);
+  border: 1px solid var(--surface-border);
+  backdrop-filter: var(--blur-s);
+  -webkit-backdrop-filter: var(--blur-s);
   box-shadow: var(--shadow-xs);
 }
 .workspace .mod-sidedock .workspace-tab-header:not(.is-active):not(:hover) {
@@ -665,13 +685,15 @@ body {
   --nav-item-children-padding-left: 20px;
   --nav-item-radius: 6px;
   --nav-item-transition: all var(--anim-duration-fast) var(--anim-motion-cupertino);
-  --ribbon-background: var(--background-secondary-alt);
+  --ribbon-background: var(--surface-sidebar);
   --ribbon-background-collapsed: var(--ribbon-background);
 }
 
 .workspace-ribbon.mod-left {
-  border-right: 1px solid var(--divider-color);
+  border-right: 1px solid var(--surface-border);
   background-color: var(--ribbon-background);
+  backdrop-filter: var(--blur-l);
+  -webkit-backdrop-filter: var(--blur-l);
 }
 
 .workspace-split.mod-left-split,
@@ -680,7 +702,7 @@ body {
 }
 
 .mod-right-split .tree-item-self {
-  border-bottom: 1px solid var(--divider-color);
+  border-bottom: 1px solid var(--surface-border);
 }
 
 body.is-mobile {
@@ -714,8 +736,9 @@ body.is-mobile {
 }
 
 body:not(.nav-item-subtle, .nav-item-strong) .nav-files-container > div {
-  --nav-item-background-hover: var(--background-modifier-hover);
-  --nav-item-background-active: var(--liquid-glass-background);
+  --nav-item-background-hover: var(--surface-glass-weak);
+  --nav-item-background-active: color-mix(in srgb, var(--interactive-accent) 28%, var(--surface-glass-strong));
+  --nav-item-color-active: var(--text-on-accent);
   --nav-item-weight-hover: var(--font-medium);
   --nav-item-weight-active: var(--font-medium);
 }
@@ -852,6 +875,10 @@ body:not(.is-mobile) .mod-sidedock .workspace-leaf:not([style*="display: none"])
 body:not(.is-mobile) .mod-sidedock .workspace-leaf-content > .node-insert-event,
 body:not(.is-mobile) .mod-sidedock .workspace-leaf-content > .view-content {
   padding: 2px 16px;
+}
+body:not(.is-mobile) .mod-sidedock .workspace-leaf-content,
+body:not(.is-mobile) .mod-sidedock .workspace-leaf-content > .view-content {
+  background-color: transparent;
 }
 body:not(.is-mobile) .mod-sidedock .workspace-leaf-content > .node-insert-event > .node-insert-event,
 body:not(.is-mobile) .mod-sidedock .workspace-leaf-content > .view-content > .node-insert-event {
@@ -997,6 +1024,10 @@ body:not(.is-mobile) .modal-bg {
 body:not(.is-mobile) .modal {
   box-shadow: var(--shadow-s);
   animation: modalIn var(--anim-duration-moderate) var(--anim-motion-cupertino) forwards;
+  background-color: var(--surface-glass-strong);
+  border: 1px solid var(--surface-border);
+  backdrop-filter: var(--blur-l);
+  -webkit-backdrop-filter: var(--blur-l);
 }
 body:not(.is-mobile) .modal-title {
   margin-left: 0;
@@ -1036,9 +1067,9 @@ body:not(.is-mobile) .modal-title {
   align-items: center;
   justify-content: center;
   color: var(--text-muted);
-  background-color: var(--liquid-glass-background);
-  backdrop-filter: blur(4px) saturate(120%);
-  -webkit-backdrop-filter: blur(4px) saturate(120%);
+  background-color: var(--surface-glass-weak);
+  backdrop-filter: var(--blur-s);
+  -webkit-backdrop-filter: var(--blur-s);
   transition: all var(--anim-duration-fast) var(--anim-motion-cupertino);
   z-index: 1;
 }
@@ -1992,6 +2023,12 @@ body:not(.is-android) .style-settings-heading[data-id=cupertino] + .style-settin
     padding: 0 8px;
     flex-shrink: 0;
   }
+  body:not(.is-mobile) .view-header {
+    background-color: var(--surface-toolbar);
+    border-bottom: 1px solid var(--surface-border);
+    backdrop-filter: var(--blur-s);
+    -webkit-backdrop-filter: var(--blur-s);
+  }
   .view-header-nav-buttons,
   .view-actions {
     --icon-size: var(--icon-m);
@@ -2943,7 +2980,7 @@ body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-mobile) {
   --radius-l: 16px;
   --radius-xl: 20px;
   --radius-xxl: 24px;
-  --radius-window: 14px;
+  --radius-window: 16px;
   --radius-capsule: 100vh;
   --control-height-s: 24px;
   --control-height-m: 28px;
@@ -4291,17 +4328,17 @@ body:not(.liquid-glass-off):not(.is-mobile):not(.is-focused):not(.reduce-contras
   opacity: 0.5;
 }
 body:not(.liquid-glass-off):not(.is-mobile):not(.is-focused):not(.reduce-contrast-change) .mod-sidedock {
-  background-color: var(--color-base-20) !important;
-  box-shadow: none !important;
+  background-color: color-mix(in srgb, var(--surface-sidebar) 80%, var(--background-primary)) !important;
+  box-shadow: var(--shadow-xs) !important;
 }
 body:not(.liquid-glass-off):not(.is-mobile).theme-light .nav-files-container > div {
-  --nav-item-background-active: var(--background-modifier-hover);
+  --nav-item-background-active: color-mix(in srgb, var(--interactive-accent) 24%, var(--surface-glass-strong));
 }
 body:not(.liquid-glass-off):not(.is-mobile).theme-dark .nav-files-container > div {
-  --nav-item-background-active: rgba(0, 0, 0, 0.5);
+  --nav-item-background-active: color-mix(in srgb, var(--interactive-accent) 32%, var(--surface-glass-strong));
 }
 body:not(.liquid-glass-off):not(.is-mobile) .nav-files-container > div {
-  --nav-item-color-active: var(--text-accent);
+  --nav-item-color-active: var(--text-on-accent);
 }
 body:not(.liquid-glass-off):not(.is-mobile).is-fullscreen .mod-sidedock.mod-left-split {
   border-radius: var(--radius-m);
@@ -4311,7 +4348,10 @@ body:not(.liquid-glass-off):not(.is-mobile).is-fullscreen .mod-sidedock.mod-left
   padding-left: var(--frame-left-space);
 }
 body:not(.liquid-glass-off):not(.is-mobile):not(.is-translucent):not(.liquid-glass-tint-off) .mod-sidedock {
-  background-color: color-mix(in srgb, var(--background-primary) 98%, var(--interactive-accent));
+  background-color: var(--surface-sidebar);
+  border: 1px solid var(--surface-border);
+  backdrop-filter: var(--blur-l);
+  -webkit-backdrop-filter: var(--blur-l);
 }
 body:not(.liquid-glass-off):not(.is-mobile).show-ribbon:not(.mod-macos) .workspace-ribbon.mod-left:not(.is-collapsed) {
   margin-top: 8px;
@@ -4334,6 +4374,13 @@ body:not(.liquid-glass-off):not(.is-mobile) .mod-sidedock.mod-left-split {
   border-radius: var(--radius-window, var(--radius-m));
   height: -webkit-fill-available;
   overflow: hidden;
+}
+body:not(.liquid-glass-off):not(.is-mobile) .mod-sidedock.mod-left-split,
+body:not(.liquid-glass-off):not(.is-mobile) .mod-sidedock.mod-right-split {
+  background-color: var(--surface-sidebar);
+  border: 1px solid var(--surface-border);
+  backdrop-filter: var(--blur-l);
+  -webkit-backdrop-filter: var(--blur-l);
 }
 body:not(.liquid-glass-off):not(.is-mobile) .mod-sidedock.mod-left-split .mod-top-left-space .workspace-tab-header-container,
 body:not(.liquid-glass-off):not(.is-mobile) .mod-sidedock.mod-left-split .mod-top-left-space .workspace-tab-header-container .sidebar-toggle-button {
