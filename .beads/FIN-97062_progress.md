@@ -4,7 +4,7 @@
 - **File Path**: `/Users/rogerlin/Reserve/FinanceCompendium/VII. Corporate Finance/Valuation/Analytical Corporate Valuation Fundamental Analysis, Asset Pricing, and Company Valuation.md`
 - **Total Lines**: 14,473
 - **Current Status**: In Progress
-- **Chunks Completed**: 12 of ~29 (6000 lines formatted)
+- **Chunks Completed**: 13 of ~29 (6500 lines formatted)
 
 ## Progress Log
 
@@ -124,11 +124,40 @@
   - Standard deviation equations: Fixed multiple spaced text commands
   - Equation 5.48: Fixed `\mathrm {P S D} _ {\mathrm {M C} (\mathrm {k})}` → `\mathrm{PSD}_{\mathrm{MC(k)}}`
 
+### Chunk 13 (lines 6001-6500) - ✓ Complete
+**Corrections Made:**
+- Fixed LaTeX spaced text commands in equations 5.50-5.80:
+  - Equation 5.50: Fixed `\sigma_ {\mathrm {P}} ^ {2}` → `\sigma_{\mathrm{P}}^{2}`, `\mu_ {2} - \mu_ {1}` → `\mu_{2} - \mu_{1}`
+  - Equation 5.51: Fixed `\sigma_ {\mathrm {P}}` → `\sigma_{\mathrm{P}}`, `\mu_ {2} - \mu_ {1}` → `\mu_{2} - \mu_{1}`
+  - Equation 5.52: Fixed `\alpha_ {R}` → `\alpha_{R}`, `\sigma_ {1}` → `\sigma_{1}`
+  - Equation 5.53: Fixed multiple `\mu_ {R}` → `\mu_{R}`, `\sigma_ {1}` → `\sigma_{1}`, `\sigma_ {2}` → `\sigma_{2}`
+  - Equation 5.54: Fixed `\min_ {\boldsymbol {\alpha} \in \mathbb {R} ^ {n}}` → `\min_{\boldsymbol{\alpha} \in \mathbb{R}^{n}}`
+  - Equation 5.55: Fixed `\max_ {\boldsymbol {\alpha} \in \mathbb {R} ^ {n}}` → `\max_{\boldsymbol{\alpha} \in \mathbb{R}^{n}}`
+  - Equation 5.56: Fixed `\min_ {\alpha \in \mathbb {R} ^ {n}}` → `\min_{\alpha \in \mathbb{R}^{n}}`
+  - Equation 5.57: Fixed `\mathcal {L}` → `\mathcal{L}`, `\lambda^ {\prime}` → `\lambda^{\prime}`
+  - Partial derivatives: Fixed `\frac {\partial \mu_ {\mathrm {P}}}{\partial \alpha_ {\mathrm {k}}}` → `\frac{\partial \mu_{\mathrm{P}}}{\partial \alpha_{\mathrm{k}}}`
+  - Equation 5.58: Fixed `\frac {\partial \mathcal {L}}{\partial \alpha_ {k}}` → `\frac{\partial \mathcal{L}}{\partial \alpha_{k}}`
+  - Equation 5.59: Fixed `\sum_ {j = 1} ^ {n}` → `\sum_{j=1}^{n}`, `\lambda^ {\prime}` → `\lambda^{\prime}`
+  - Equation 5.60: Fixed `\mu_ {0}` → `\mu_{0}`, `\alpha_ {\mathrm {k}}` → `\alpha_{\mathrm{k}}`
+  - Equation 5.61: Fixed `\sigma_ {0} ^ {2}` → `\sigma_{0}^{2}`, `\rho_ {\mathrm {k}, \mathrm {j}}` → `\rho_{\mathrm{k},\mathrm{j}}`
+  - Equation 5.62: Fixed `\sigma_ {*} ^ {2}` → `\sigma_{*}^{2}`, `\min_ {\mathrm {w} \in \mathcal {B}}` → `\min_{\mathrm{w} \in \mathcal{B}}`
+  - Equation 5.63: Fixed `\min_ {w \in \mathbb {R} ^ {n}}` → `\min_{w \in \mathbb{R}^{n}}`
+  - Equation 5.64: Fixed `R _ {F}` → `R_{F}`, `A _ {0}` → `A_{0}`, `Q _ {0}` → `Q_{0}`
+  - Equation 5.65: Fixed `\delta_ {\mathrm {k}}` → `\delta_{\mathrm{k}}`, `\mathrm {R} _ {\mathrm {F}}` → `\mathrm{R}_{\mathrm{F}}`
+  - Equation 5.66: Fixed `\mu_ {P}` → `\mu_{P}`, `R _ {F}` → `R_{F}`, `\mathrm {R} _ {\mathrm {F}}` → `\mathrm{R}_{\mathrm{F}}`
+  - Equation 5.67: Fixed `\sigma_ {P} ^ {2}` → `\sigma_{P}^{2}`, `\sigma_ {\mathrm {l}} ^ {2}` → `\sigma_{\mathrm{l}}^{2}`
+  - Equation 5.68: Fixed `\sigma_ {\mathrm {P}}` → `\sigma_{\mathrm{P}}`
+  - Equation 5.69: Fixed `\sigma_ {P}` → `\sigma_{P}`, `R _ {F}` → `R_{F}`, `\mathrm {R} _ {\mathrm {F}}` → `\mathrm{R}_{\mathrm{F}}`
+  - Portfolio allocation equations: Fixed multiple spaced text commands in optimization equations
+  - Lagrangian equations: Fixed `\frac {\partial \mathcal {L}}{\partial \alpha_ {k}}` → `\frac{\partial \mathcal{L}}{\partial \alpha_{k}}`
+  - System equations: Fixed `\alpha_ {1} + \alpha_ {2}` → `\alpha_{1} + \alpha_{2}`, `\sigma_ {P} ^ {2}` → `\sigma_{P}^{2}`
+  - Risk-free return equations: Fixed `R _ {F}` → `R_{F}` throughout
+
 ## Next Steps
-- Continue with Chunk 13 (lines 6001-6500)
+- Continue with Chunk 14 (lines 6501-7000)
 - Fix remaining LaTeX spaced text commands throughout the document
 - Remove duplicate section headers as they appear
-- Total estimated chunks remaining: ~17
+- Total estimated chunks remaining: ~16
 
 ## Document Frontmatter Status
 The document already has valid YAML frontmatter with comprehensive tags:

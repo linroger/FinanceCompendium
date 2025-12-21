@@ -6195,7 +6195,7 @@ Fig. 5.12 The opportunity frontier for n risky assets in portfolio and short sel
 If short selling is not permitted, the opportunity frontier is defined only based on the assets owned. In this case, the constrained optimization problem can be defined as follows (Castellani et al. 2005):
 
 $$
-\left\{ \begin{array}{l} \min  _ {w \in \mathbb {R} ^ {n}} \sigma_ {P} ^ {2} (\alpha) \\ \mu_ {P} (\alpha) = \mu_ {0} \\ \sum_ {k = 1} ^ {n} w \alpha_ {k} = 1 \\ \alpha_ {k} \geq 0 \quad k = 1, 2, \dots , n \end{array} \right. \tag {5.63}
+\left\{ \begin{array}{l} \min_{w \in \mathbb{R}^{n}} \sigma_{P}^{2} (\alpha) \\ \mu_{P} (\alpha) = \mu_{0} \\ \sum_{k=1}^{n} w \alpha_{k} = 1 \\ \alpha_{k} \geq 0 \quad k = 1, 2, \dots , n \end{array} \right. \tag{5.63}
 $$
 
 where  $\pmb{\alpha}$  is a vector as follows:  $\pmb {\alpha} = \{a_{1},a_{2},\dots ,a_{n}\}$
@@ -6211,7 +6211,7 @@ Introduction of the asset free-risk in the portfolio, allows for simplification 
 Assuming a portfolio consisting of  $N$  risky assets  $(\alpha_{1},\alpha_{2},\dots,\alpha_{n})$  and one risk-free asset  $(\alpha_0)$ . Assuming that it is a zero-coupon bond issued in t-time and maturity in s-time. Denoting by  $Q_{0}$  the price of the risk-free asset in t-time and by  $A_0$  the price of the risk-free asset in s-time, it returns  $(R_F)$  (that it is sure and not expected), it is equal to:
 
 $$
-R _ {F} = \frac {A _ {0} - Q _ {0}}{Q _ {0}} = \frac {A _ {0}}{Q _ {0}} - 1 \tag {5.64}
+R_{F} = \frac{A_{0} - Q_{0}}{Q_{0}} = \frac{A_{0}}{Q_{0}} - 1 \tag{5.64}
 $$
 
 Considering that the asset is risk-free, the price  $A_0$  is known in t-time and therefore, the return  $R_f$  is sure and not expected.
@@ -6225,7 +6225,7 @@ $$
 The difference between the  $\mu_{k}$  and  $R_{F}$  is the extra-return expected by investors for the risk burden, and therefore the risk premium  $(\delta_{\mathrm{k}})$  required by investor for the risk:
 
 $$
-\delta_ {\mathrm {k}} = \mu_ {\mathrm {k}} - \mathrm {R} _ {\mathrm {F}} \tag {5.65}
+\delta_{\mathrm{k}} = \mu_{\mathrm{k}} - \mathrm{R}_{\mathrm{F}} \tag{5.65}
 $$
 
 Considering two assets in the portfolio: (i) risky asset  $(A_{1})$  and (ii) risk-free asset  $(A_0)$ . The expected return of the risky asset is equal to  $\mu_{1}$  and the sure return of the risk-free asset is equal to  $R_{F}$ . Denoting the part of wealth invested in the risky asset
@@ -6233,45 +6233,45 @@ Considering two assets in the portfolio: (i) risky asset  $(A_{1})$  and (ii) ri
 by  $\alpha$ , and the part of wealth invested in the risk-free asset by  $(1 - \alpha)$ , the portfolio's expected return  $(\mu_P)$  can be calculated as follows:
 
 $$
-\mu_ {P} = \alpha \mu_ {1} + (1 - \alpha) R _ {F}
+\mu_{P} = \alpha \mu_{1} + (1 - \alpha) R_{F}
 $$
 
 and therefore:
 
 $$
-\mu_ {\mathrm {P}} = \mathrm {R} _ {\mathrm {F}} + \alpha \left(\mu_ {1} - \mathrm {R} _ {\mathrm {F}}\right) \tag {5.66}
+\mu_{\mathrm{P}} = \mathrm{R}_{\mathrm{F}} + \alpha \left(\mu_{1} - \mathrm{R}_{\mathrm{F}}\right) \tag{5.66}
 $$
 
 Considering that the variance of the risk-free asset is equal to zero  $\left(\sigma_{i}^{2} = 0\right)$  by definition (its return is certain), the portfolio's variance  $\left(\sigma_{P}^{2}\right)$  is equal to:
 
 $$
-\sigma_ {P} ^ {2} = \alpha^ {2} \sigma_ {1} ^ {2} + (1 - \alpha) \sigma_ {2} ^ {2} + 2 \alpha (1 - \alpha) \sigma_ {1, 2}
+\sigma_{P}^{2} = \alpha^{2} \sigma_{1}^{2} + (1 - \alpha) \sigma_{2}^{2} + 2 \alpha (1 - \alpha) \sigma_{1,2}
 $$
 
 $$
-\sigma_ {\mathrm {P}} ^ {2} = \sigma_ {\mathrm {l}} ^ {2} \alpha^ {2} \tag {5.67}
+\sigma_{\mathrm{P}}^{2} = \sigma_{\mathrm{l}}^{2} \alpha^{2} \tag{5.67}
 $$
 
 The portfolio's variance is positive. Therefore, it is possible to move from the variance to the standard deviation directly as follows:
 
 $$
-\sigma_ {\mathrm {P}} = \sigma_ {1} \alpha \tag {5.68}
+\sigma_{\mathrm{P}} = \sigma_{1} \alpha \tag{5.68}
 $$
 
 It is possible to define the portfolio's expected return  $(\mu_P)$  as function of its standard deviation. By solving Eq. (5.68) by  $\alpha$  and substituting in Eq. (5.66) we have:
 
 $$
-\alpha = \frac {\sigma_ {P}}{\sigma_ {1}}
+\alpha = \frac{\sigma_{P}}{\sigma_{1}}
 $$
 
 $$
-\mu_ {P} = R _ {F} + \frac {\sigma_ {P}}{\sigma_ {1}} \left(\mu_ {1} - R _ {F}\right)
+\mu_{P} = R_{F} + \frac{\sigma_{P}}{\sigma_{1}} \left(\mu_{1} - R_{F}\right)
 $$
 
 and therefore:
 
 $$
-\mu_ {\mathrm {P}} = \mathrm {R} _ {\mathrm {F}} + \sigma_ {\mathrm {P}} \left(\frac {\mu_ {1} - \mathrm {R} _ {\mathrm {F}}}{\sigma_ {1}}\right) \tag {5.69}
+\mu_{\mathrm{P}} = \mathrm{R}_{\mathrm{F}} + \sigma_{\mathrm{P}} \left(\frac{\mu_{1} - \mathrm{R}_{\mathrm{F}}}{\sigma_{1}}\right) \tag{5.69}
 $$
 
 Equation (5.69) draws a straight-line in the space  $(\sigma_P; \mu_P)$  where interception is equal to  $(R_F)$  and slope is equal to  $\left(\frac{\mu_1 - R_F}{\sigma_1}\right)$ , as shown in Fig. 5.13.
@@ -6400,53 +6400,53 @@ The left side of the equation is the portfolio's variance  $\left(\sigma_P^2\rig
 Considering that:
 
 $$
-\alpha_ {1} + \alpha_ {2} = 1 \leftrightarrow \mu_ {1} + \mu_ {2} = \mu
+\alpha_{1} + \alpha_{2} = 1 \leftrightarrow \mu_{1} + \mu_{2} = \mu
 $$
 
 the right side of the equation is equal to the product between  $\lambda$  and the difference between the portfolio's expected return due to the risky assets  $(\mu)$  and the sure return of the risk-free asset  $(R_F)$ , as follows:
 
 $$
-\sigma_ {P} ^ {2} = \lambda (\mu - R _ {F}) \rightarrow \lambda = \frac {\sigma_ {P} ^ {2}}{(\mu - R _ {F})}
+\sigma_{P}^{2} = \lambda (\mu - R_{F}) \rightarrow \lambda = \frac{\sigma_{P}^{2}}{(\mu - R_{F})}
 $$
 
 Now it is possible to solve the first and the second equations of the system of Eq. (5.80) for  $\alpha_{1}$  and  $\alpha_{2}$ . Substituting  $\lambda$  in the first equation, we have:
 
 $$
-\alpha_ {1} \sigma_ {1} ^ {2} + \rho \sigma_ {1} \sigma_ {2} \alpha_ {2} - \frac {\sigma_ {P} ^ {2}}{(\mu - R _ {F})} (\mu_ {1} - R _ {F}) = 0
+\alpha_{1} \sigma_{1}^{2} + \rho \sigma_{1} \sigma_{2} \alpha_{2} - \frac{\sigma_{P}^{2}}{(\mu - R_{F})} (\mu_{1} - R_{F}) = 0
 $$
 
 $$
-\alpha_ {1} \sigma_ {1} ^ {2} (\mu - R _ {F}) + \rho \sigma_ {1} \sigma_ {2} \alpha_ {2} (\mu - R _ {F}) - \sigma_ {P} ^ {2} (\mu_ {1} - R _ {F}) = 0
+\alpha_{1} \sigma_{1}^{2} (\mu - R_{F}) + \rho \sigma_{1} \sigma_{2} \alpha_{2} (\mu - R_{F}) - \sigma_{P}^{2} (\mu_{1} - R_{F}) = 0
 $$
 
 $$
-\alpha_ {1} = \frac {\sigma_ {P} ^ {2} (\mu_ {1} - R _ {F}) - \rho \sigma_ {1} \sigma_ {2} \alpha_ {2} (\mu - R _ {F})}{\sigma_ {1} ^ {2} (\mu - R _ {F})}
+\alpha_{1} = \frac{\sigma_{P}^{2} (\mu_{1} - R_{F}) - \rho \sigma_{1} \sigma_{2} \alpha_{2} (\mu - R_{F})}{\sigma_{1}^{2} (\mu - R_{F})}
 $$
 
 $$
-\alpha_ {1} = \frac {\sigma_ {P} ^ {2} \left(\mu_ {1} - R _ {F}\right)}{\sigma_ {1} ^ {2} \left(\mu - R _ {F}\right)} - \frac {\rho \sigma_ {1} \sigma_ {2} \alpha_ {2} \left(\mu - R _ {F}\right)}{\sigma_ {1} ^ {2} \left(\mu - R _ {F}\right)}
+\alpha_{1} = \frac{\sigma_{P}^{2} \left(\mu_{1} - R_{F}\right)}{\sigma_{1}^{2} \left(\mu - R_{F}\right)} - \frac{\rho \sigma_{1} \sigma_{2} \alpha_{2} \left(\mu - R_{F}\right)}{\sigma_{1}^{2} \left(\mu - R_{F}\right)}
 $$
 
 $$
-\alpha_ {1} = \frac {\sigma_ {P} ^ {2} (\mu_ {1} - R _ {F})}{\sigma_ {1} ^ {2} (\mu - R _ {F})} - \frac {\rho \sigma_ {1} \sigma_ {2} \alpha_ {2}}{\sigma_ {1} ^ {2}}
+\alpha_{1} = \frac{\sigma_{P}^{2} (\mu_{1} - R_{F})}{\sigma_{1}^{2} (\mu - R_{F})} - \frac{\rho \sigma_{1} \sigma_{2} \alpha_{2}}{\sigma_{1}^{2}}
 $$
 
 Substituting  $\lambda$  and  $\alpha_{1}$  in the second equation, we have:
 
 $$
-\alpha_ {2} \sigma_ {2} ^ {2} + \rho \sigma_ {1} \sigma_ {2} \left[ \frac {\sigma_ {P} ^ {2} (\mu_ {1} - R _ {F})}{\sigma_ {1} ^ {2} (\mu - R _ {F})} - \frac {\rho \sigma_ {1} \sigma_ {2} \alpha_ {2}}{\sigma_ {1} ^ {2}} \right] - \frac {\sigma_ {P} ^ {2}}{\mu - R _ {F}} (\mu_ {2} - R _ {F}) = 0
+\alpha_{2} \sigma_{2}^{2} + \rho \sigma_{1} \sigma_{2} \left[ \frac{\sigma_{P}^{2} (\mu_{1} - R_{F})}{\sigma_{1}^{2} (\mu - R_{F})} - \frac{\rho \sigma_{1} \sigma_{2} \alpha_{2}}{\sigma_{1}^{2}} \right] - \frac{\sigma_{P}^{2}}{\mu - R_{F}} (\mu_{2} - R_{F}) = 0
 $$
 
 $$
-\alpha_ {2} \sigma_ {2} ^ {2} + \frac {\rho \sigma_ {1} \sigma_ {2} \sigma_ {P} ^ {2} (\mu_ {1} - R _ {F})}{\sigma_ {1} ^ {2} (\mu - R _ {F})} - \frac {\rho^ {2} \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} \alpha_ {2}}{\sigma_ {1} ^ {2}} - \frac {\sigma_ {P} ^ {2}}{\mu - R _ {F}} (\mu_ {2} - R _ {F}) = 0
+\alpha_{2} \sigma_{2}^{2} + \frac{\rho \sigma_{1} \sigma_{2} \sigma_{P}^{2} (\mu_{1} - R_{F})}{\sigma_{1}^{2} (\mu - R_{F})} - \frac{\rho^{2} \sigma_{1}^{2} \sigma_{2}^{2} \alpha_{2}}{\sigma_{1}^{2}} - \frac{\sigma_{P}^{2}}{\mu - R_{F}} (\mu_{2} - R_{F}) = 0
 $$
 
 $$
-\alpha_ {2} \sigma_ {2} ^ {2} \sigma_ {1} ^ {2} (\mu - R _ {F}) + \rho \sigma_ {1} \sigma_ {2} \sigma_ {P} ^ {2} (\mu_ {1} - R _ {F}) - \rho^ {2} \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} \alpha_ {2} (\mu - R _ {F}) - \sigma_ {P} ^ {2} \sigma_ {1} ^ {2} (\mu_ {2} - R _ {F}) = 0
+\alpha_{2} \sigma_{2}^{2} \sigma_{1}^{2} (\mu - R_{F}) + \rho \sigma_{1} \sigma_{2} \sigma_{P}^{2} (\mu_{1} - R_{F}) - \rho^{2} \sigma_{1}^{2} \sigma_{2}^{2} \alpha_{2} (\mu - R_{F}) - \sigma_{P}^{2} \sigma_{1}^{2} (\mu_{2} - R_{F}) = 0
 $$
 
 $$
-\alpha_ {2} \sigma_ {2} ^ {2} \sigma_ {1} ^ {2} (\mu - R _ {F}) - \rho^ {2} \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} \alpha_ {2} (\mu - R _ {F}) = \sigma_ {P} ^ {2} \sigma_ {1} ^ {2} (\mu_ {2} - R _ {F}) - \rho \sigma_ {1} \sigma_ {2} \sigma_ {P} ^ {2} (\mu_ {1} - R _ {F})
+\alpha_{2} \sigma_{2}^{2} \sigma_{1}^{2} (\mu - R_{F}) - \rho^{2} \sigma_{1}^{2} \sigma_{2}^{2} \alpha_{2} (\mu - R_{F}) = \sigma_{P}^{2} \sigma_{1}^{2} (\mu_{2} - R_{F}) - \rho \sigma_{1} \sigma_{2} \sigma_{P}^{2} (\mu_{1} - R_{F})
 $$
 
 $$

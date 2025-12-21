@@ -1,4 +1,117 @@
+---
+title: Chapter 03 Duration and Convexity
+primary_tags:
+  - duration and convexity
+  - fixed income risk measures
+  - interest rate sensitivity
+  - bond mathematics
+secondary_tags:
+  - macaulay duration
+  - modified duration
+  - effective duration
+  - key rate duration
+  - convexity measures
+  - immunization strategies
+  - yield curve trading
+  - bond portfolio management
+  - interest rate risk
+  - price sensitivity
+  - pv01 dv01
+  - wal weighted average life
+  - wam weighted average maturity
+  - yield curve riding
+  - barbell strategy
+cssclasses: academia
+---
+
 # Chapter 3: Duration and Convexity
+
+## Duration and Convexity Visualization
+
+```d2
+# Duration and Convexity Concepts
+duration_convexity: {
+  label: "Duration and Convexity Concepts"
+  style: {fill: "#e3f2fd", border-radius: 10}
+
+  duration: {
+    label: "Duration\n(First Derivative)"
+    style: {fill: "#e8f5e8"}
+    duration_types: {
+      label: "Types:\n• Macaulay Duration\n• Modified Duration\n• Effective Duration\n• Key Rate Duration"
+      style: {fill: "#f3e5f5"}
+    }
+  }
+
+  convexity: {
+    label: "Convexity\n(Second Derivative)"
+    style: {fill: "#fff3e0"}
+    convexity_types: {
+      label: "Types:\n• Macaulay Convexity\n• Dollar Convexity\n• Effective Convexity"
+      style: {fill: "#e1f5fe"}
+    }
+  }
+
+  bond_price: {
+    label: "Bond Price Sensitivity"
+    style: {fill: "#f1f8e9"}
+  }
+
+  duration -> bond_price: {label: "Measures first-order sensitivity"}
+  convexity -> bond_price: {label: "Measures second-order sensitivity"}
+}
+
+# Price-Yield Relationship
+price_yield: {
+  label: "Price-Yield Relationship"
+  style: {fill: "#fff8e1", border-radius: 10}
+
+  high_yield: {
+    label: "High Yield Environment\nLow Duration"
+    style: {fill: "#e8f5e8"}
+  }
+
+  low_yield: {
+    label: "Low Yield Environment\nHigh Duration"
+    style: {fill: "#ffebee"}
+  }
+
+  curve_shape: {
+    label: "Convex Shape\n(Duration = Slope)"
+    style: {fill: "#e3f2fd"}
+  }
+
+  high_yield -> curve_shape
+  low_yield -> curve_shape
+}
+
+# Hedging Applications
+hedging: {
+  label: "Hedging Applications"
+  style: {fill: "#f3e5f5", border-radius: 10}
+
+  immunization: {
+    label: "Immunization\n(Duration Matching)"
+    style: {fill: "#e8f5e8"}
+  }
+
+  convexity_hedge: {
+    label: "Convexity Hedging\n(Protection against large moves)"
+    style: {fill: "#fff3e0"}
+  }
+
+  barbell_trade: {
+    label: "Barbell Trade\n(Long + Short = Target Duration)"
+    style: {fill: "#e1f5fe"}
+  }
+
+  immunization -> convexity_hedge
+  barbell_trade -> immunization
+}
+
+duration_convexity -> price_yield: {label: "Relationship"}
+price_yield -> hedging: {label: "Applications"}
+```
 
 ## 3.1 Introduction
 
@@ -39,10 +152,10 @@ $$ D_{\mathrm{MaCaulay}} = - \frac{\partial P}{\partial y} \frac{1 + y}{P} \tag{
 which can be shown as:
 
 $$
-\begin{array}{l}
-\frac{\partial P}{\partial y} \frac{1 + y}{P} = \frac{1}{P} \sum_{i=1}^{n} i \frac{c_i}{(1 + y)^i} \tag{3.3} \\
-= \sum_{i=1}^{n} i \times w_i \\
-\end{array}
+\begin{align}
+\frac{\partial P}{\partial y} \frac{1 + y}{P} &= \frac{1}{P} \sum_{i=1}^{n} i \frac{c_i}{(1 + y)^i} \tag{3.3} \\
+&= \sum_{i=1}^{n} i \times w_i \\
+\end{align}
 $$
 
 Equation (3.3) is very intuitive and has nice interpretations:
@@ -174,14 +287,14 @@ Despite that the tabulation method is quite insightful and easy to set up, it ca
 From equation (3.2), we know that the MaCaulay duration is:
 
 $$
-\begin{array}{l}
-D_{\mathrm{MaCaulay}} = - \frac{\partial P}{\partial y} \frac{1 + y}{P} \\
-= \left\{\begin{array}{l}
+\begin{align}
+D_{\mathrm{MaCaulay}} &= - \frac{\partial P}{\partial y} \frac{1 + y}{P} \\
+&= \left\{\begin{array}{l}
 \frac{P(y) - P\left(y^{+}\right)}{y^{+} - y} \frac{1 + y}{P(y)} \\
 \frac{P\left(y^{-}\right) - P(y)}{y - y^{-}} \frac{1 + y}{P(y)} \\
 \frac{P\left(y^{-}\right) - P\left(y^{+}\right)}{\left(y^{+} - y^{-}\right) / 2} \frac{1 + y}{P(y)}
 \end{array}\right. \tag{3.9} \\
-\end{array}
+\end{align}
 $$
 
 where $y^{+}$ is a (VERY) little bit more than $y$ and $y^{-}$ is (VERY) little bit less; furthermore $P(y)$ is the price at the current yield which is the market price, $P(y^{+})$ is price discounted at $y^{+}$ which is less than $P(y)$; and $P(y^{-})$ is price discounted at $y^{-}$ which is more than $P(y)$.
@@ -227,11 +340,11 @@ Readers can assume any frequency as needed. There is a yearfraction which betwee
 Recall the discussion in Chapter 1 on two-step discounting (equation (1.3)). We can discount all the coupons till time $T_1$ and the result is further discounted to today using yearfraction. That is, recall from Chapter 1 the yield to maturity formula:
 
 $$
-\begin{array}{l}
-P = \left[ \frac{c / 2}{(1 + y / 2)^{2(T_1 - t)}} + \frac{c / 2}{(1 + y / 2)^{2(T_2 - t)}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2(T_n - t)}} \right] N \\
-= \frac{c / 2}{(1 + y / 2)^{2(T_1 - t)}} \left[ \frac{c / 2}{(1 + y / 2)} + \frac{c / 2}{(1 + y / 2)^{2(T_2 - T_1)}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2(T_n - T_{n-1})}} \right] N \\
-= \frac{c / 2}{(1 + y / 2)^{2(T_1 - t)}} \left[ \frac{c / 2}{(1 + y / 2)} + \frac{c / 2}{(1 + y / 2)^2} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2n}} \right] N \\
-\end{array}
+\begin{align}
+P &= \left[ \frac{c / 2}{(1 + y / 2)^{2(T_1 - t)}} + \frac{c / 2}{(1 + y / 2)^{2(T_2 - t)}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2(T_n - t)}} \right] N \\
+&= \frac{c / 2}{(1 + y / 2)^{2(T_1 - t)}} \left[ \frac{c / 2}{(1 + y / 2)} + \frac{c / 2}{(1 + y / 2)^{2(T_2 - T_1)}} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2(T_n - T_{n-1})}} \right] N \\
+&= \frac{c / 2}{(1 + y / 2)^{2(T_1 - t)}} \left[ \frac{c / 2}{(1 + y / 2)} + \frac{c / 2}{(1 + y / 2)^2} + \dots + \frac{1 + c / 2}{(1 + y / 2)^{2n}} \right] N \\
+\end{align}
 $$
 
 where $c$ is coupon rate, $T_j$ is the coupon time, $y$ is yield to maturity and $N$ is notional. Duration is the first order derivative:
@@ -291,10 +404,10 @@ Given the following example of zero rates:
 Move one rate at a time. These are zero rates.
 
 $$
-\begin{array}{l}
-D_{\mathrm{key}} = \frac{P^{+} - P^{-}}{0.0002} \\
-= \frac{P(\text{yieldshifteddownby1 bp}) - P(\text{yieldshiftedupby1 bp})}{0.0002} \\
-\end{array}
+\begin{align}
+D_{\mathrm{key}} &= \frac{P^{+} - P^{-}}{0.0002} \\
+&= \frac{P(\text{yieldshifteddownby1 bp}) - P(\text{yieldshiftedupby1 bp})}{0.0002} \\
+\end{align}
 $$
 
 The results are: key rate duration are $1.98\%$, $3.93\%$, $5.81\%$, $9.34\%$, $645.03\%$ respectively.
@@ -306,10 +419,10 @@ Effective duration measures the price change of the entire yield curve change (p
 The computation:
 
 $$
-\begin{array}{l}
-D_{\mathrm{eff}} = \frac{1}{P} \frac{P^{+} - P^{-}}{0.0002} \\
-= \frac{1}{P} \frac{P(\mathrm{wholey.c.shifteddownby1 bp}) - P(\mathrm{wholey.c.shiftedupby1 bp})}{0.0002} \\
-\end{array}
+\begin{align}
+D_{\mathrm{eff}} &= \frac{1}{P} \frac{P^{+} - P^{-}}{0.0002} \\
+&= \frac{1}{P} \frac{P(\mathrm{wholey.c.shifteddownby1 bp}) - P(\mathrm{wholey.c.shiftedupby1 bp})}{0.0002} \\
+\end{align}
 $$
 
 ![Triangular Rule for Key Rate Duration](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/c4ae3f90b9bf8a406e3c79fb33d6eebb58dc60abef8cd1cfbba5565981c13e0a.jpg)
@@ -429,10 +542,10 @@ $$ \frac{1}{2} \frac{1}{P} \frac{\partial^2 P}{\partial y^2} $$
 Convexity measures the curvature. It is second order derivative. We use the same example as in duration but we need to move the yield both up and down. To achieve better accuracy, the shift size is 0.000002 which is much smaller than 1 bp in the duration example.
 
 $$
-\begin{array}{l}
-\mathbb{C} = \frac{1}{2P} \frac{P^{+} - 2P + P^{-}}{\varepsilon^2} \\
-= \frac{1}{2P(y)} \frac{P(y - \varepsilon) - 2P(y) + P(y + \varepsilon)}{\varepsilon^2} \tag{3.10} \\
-\end{array}
+\begin{align}
+\mathbb{C} &= \frac{1}{2P} \frac{P^{+} - 2P + P^{-}}{\varepsilon^2} \\
+&= \frac{1}{2P(y)} \frac{P(y - \varepsilon) - 2P(y) + P(y + \varepsilon)}{\varepsilon^2} \tag{3.10} \\
+\end{align}
 $$
 
 where $\varepsilon$ is the shift size.
