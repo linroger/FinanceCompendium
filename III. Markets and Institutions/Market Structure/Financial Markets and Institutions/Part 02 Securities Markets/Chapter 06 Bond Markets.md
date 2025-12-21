@@ -1,11 +1,25 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Chapter 06 Bond Markets"
+parent_directory: "Part 02 Securities Markets"
+formatted: 2025-12-21 10:45:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - bond markets
+  - treasury securities
+  - municipal bonds
+  - corporate bonds
+secondary_tags:
+  - treasury notes
+  - treasury bonds
+  - bond ratings
+  - interest rate spreads
+  - bond indexes
+  - bond market participants
+  - eurobonds
+  - foreign bonds
+  - sovereign bonds
 cssclasses: academia
-title: OUTLINE
-linter-yaml-title-alias: OUTLINE
 ---
 
 Bond markets are markets in which bonds are issued and traded. They are used to assist in the transfer of funds from individuals, corporations, and government units with excess funds to corporations and government units in need of long-term debt funding. Bond markets are traditionally classified into three types: (1) Treasury notes and bonds, (2) municipal bonds, and (3) corporate bonds. Figure 6-1 shows the distribution of each type outstanding in 1994 and 2018. In Chapter 3, we applied time value of money principles to the valuation and duration of bonds, paying particular attention to the change in a bond's value when interest rates change. We also examined how characteristics specific to a bond (e.g., coupon rate and remaining time to maturity) influence its price. In this chapter

@@ -108,7 +108,7 @@ The risk of late or nonpayment of principal or interest.
 
 The need for money markets arises because the immediate cash needs of individuals, corporations, and governments do not necessarily coincide with their receipts of cash. For example, the federal government collects taxes quarterly. However, its operating and other expenses occur daily. Similarly, corporations' daily patterns of receipts from sales do not necessarily occur with the same pattern as their daily expenses (e.g., wages and other disbursements). Because excessive holdings of cash balances involve a cost in the form of forgone interest, called opportunity cost, those economic units with excess cash usually keep such balances to the minimum needed to meet their day-to-day transaction requirements. Consequently, holders of cash invest "excess" cash funds in financial securities that can be quickly and relatively costlessly converted back to cash when needed with little risk of loss of value over the short investment horizon. Money markets are efficient in performing this service in that they enable large amounts of money to be transferred from suppliers of funds to users of funds for short periods of time both quickly and at low cost to the transacting parties. A money market instrument provides an investment opportunity that generates a higher rate of interest (return) than holding cash (which yields zero interest), but it is also very liquid and (because of its short maturity) has relatively low default risk.
 
-Notice, from the description above, that money markets and money market securities or instruments have three basic characteristics. First, money market instruments are generally sold in large denominations (often in units of  \$1 million to\$ 10 million). Most money market participants want or need to borrow large amounts of cash, so that transactions costs are low relative to the interest paid. The size of these initial transactions prohibits most individual investors from investing directly in money market securities. Rather, individuals generally invest in money market securities indirectly, with the help of financial institutions such as money market mutual funds.
+Notice, from the description above, that money markets and money market securities or instruments have three basic characteristics. First, money market instruments are generally sold in large denominations (often in units of $1 million to $10 million). Most money market participants want or need to borrow large amounts of cash, so that transactions costs are low relative to the interest paid. The size of these initial transactions prohibits most individual investors from investing directly in money market securities. Rather, individuals generally invest in money market securities indirectly, with the help of financial institutions such as money market mutual funds.
 
 Second, money market instruments have low default risk; the risk of late or nonpayment of principal and/or interest is generally small. Since cash lent in the money markets must be available for a quick return to the lender, money market instruments can generally be issued only by high-quality borrowers with little risk of default.
 
@@ -120,28 +120,27 @@ For many of the money market securities discussed below, returns are measured an
 
 ### Bond Equivalent Yields
 
-The bond equivalent yield,  $i_{be}$ , is the quoted nominal, or stated, yield on a security. From Chapters 2 and 3, the bond equivalent yield is the rate used to calculate the present value of an investment. For money market securities, the bond equivalent yield is the product of the periodic rate and the number of periods in a year. It is calculated as follows:
+The bond equivalent yield, $i_{be}$, is the quoted nominal, or stated, yield on a security. From Chapters 2 and 3, the bond equivalent yield is the rate used to calculate the present value of an investment. For money market securities, the bond equivalent yield is the product of the periodic rate and the number of periods in a year. It is calculated as follows:
 
-$$ i_{b e} = \left[ \frac{\left(P_{f} - P_{0}\right)}{P_{0}} \right] \times \frac{3 6 5}{n}
+$$
+i_{be} = \left[ \frac{(P_f - P_0)}{P_0} \right] \times \frac{365}{n}
 $$ where
 
-
+$$
+\begin{array}{l}
+P_f = \text{Face value} \\
+P_0 = \text{Purchase price of the security}
+\end{array}
 $$
 
-\begin{array}{l} P_{f} = \text{Fa ce va lu e} \\ P_{0} = \text{Pu pc ha se pr ic eo ft he se cu ri ty} \\ \end{array}
+$n$ = Number of days until maturity
 
-$$
-
-$n =$  Number of days until maturity
-
-# Effective Annual Return
+### Effective Annual Return
 
 The bond equivalent yield is a quoted nominal or stated rate earned on an investment over a one-year period. The bond equivalent yield does not consider the effects of compounding of interest during a less than one year investment horizon. If interest is paid or compounded more than once per year, the true annual rate earned is the effective annual return on an investment. The bond equivalent yield on money market securities with a maturity of less than one year can be converted to an effective annual interest return (EAR) using the following equation:
 
 $$
-
-E A R = \left(1 + \frac{i_{b e}}{3 6 5 / n}\right)^{3 6 5 / n} - 1
-
+EAR = \left(1 + \frac{i_{be}}{365/n}\right)^{365/n} - 1
 $$
 
 **Example 5-1 Calculation of EAR on a Money Market Security**
@@ -154,7 +153,7 @@ EAR = \left(1 + \frac{0.03}{365 / 75}\right)^{365 / 75} - 1 = 3.036\%
 
 $$
 
-# Discount Yields
+### Discount Yields
 
 Some money market instruments (e.g., Treasury bills and commercial paper) are bought and sold on a discount basis. That is, instead of directly received interest payments over the investment horizon, the return on these securities results from the purchase of the security at a discount from its face value  $(P_0)$  and the receipt of face value  $(P_f)$  at maturity, as we show in the following time line.
 
@@ -166,25 +165,23 @@ $$
 
 Further, yields on these securities use a 360-day year rather than a 365-day year. Interest rates on discount securities, or discount yields  $(i_d)$ , are quoted on a discount basis using the following equation:
 
-$$ i_{d} = \frac{P_{f} - P_{0}}{P_{f}} \times \frac{3 6 0}{n}
-$$
+$$ i_d = \frac{P_f - P_0}{P_f} \times \frac{360}{n} $$
 
 There are several features of a discount yield that make it difficult to compare with bond equivalent yields on other (nondiscount) securities—for example, U.S. Treasury bonds. Notice the discount yield uses the terminal price, or the security's face value  $(P_f)$ , as the base price in calculating an annualized interest rate. By contrast, bond equivalent yields are based on the purchase price  $(P_0)$  of a security. Further, and as already mentioned, discount yields generally use a 360-day rather than a 365-day year to compute interest returns. Prior to the advent of calculators and computers, it was quicker and easier for investors and traders to compute discount yields using a 360-day year. Similarly, manual calculations of discount yields were simpler using the face value (a nice round number) as the base number rather than the purchase price (which can take many values). Thus, these became the convention for calculating discount yields. Although these features mean that the discount yield is a measure of return that is incorrect, convention has not changed, even as calculators and computers have become commonplace. An appropriate comparison of interest rates on discount securities versus nondiscount securities, adjusting for both the base price and days in the year differences, requires converting a discount yield into a bond equivalent yield in the following manner:
 
-$$ i_{b e} = i_{d} \times \frac{P_{f}}{P_{0}} \times \frac{3 6 5}{3 6 0}
-$$
+$$ i_{be} = i_d \times \frac{P_f}{P_0} \times \frac{365}{360} $$
 
 **Example 5-2 Comparison of Discount Yield, Bond Equivalent Yield, and EAR**
 
-Suppose you can purchase a  $1 million Treasury bill that is currently selling on a discount basis (i.e., with no explicit interest payments) at 98 \frac{1}{2}$  percent of its face value. The T-bill is 140 days from maturity (when the 1 million will be paid). Depending on the setting in which you are interested, any one of the following three yields or interest rates could be appropriate:
+Suppose you can purchase a $1 million Treasury bill that is currently selling on a discount basis (i.e., with no explicit interest payments) at 98½ percent of its face value. The T-bill is 140 days from maturity (when the $1 million will be paid). Depending on the setting in which you are interested, any one of the following three yields or interest rates could be appropriate:
 
-Discount yield:  $i_d = \left[ \frac{(\$1m. - \$985,000)}{(\$1m.} \right] \left( \frac{360 / 140}{140} \right) = 3.857\%$
+Discount yield: $i_d = \left[ \frac{(\$1,000,000 - \$985,000)}{\$1,000,000} \right] \times \frac{360}{140} = 3.857\%$
 
-Bond equivalent yield:  $i_{be} = \left[\frac{(\$1\mathrm{m.} - \$985,000)}{\$985,000$ }\right]  (365/140) = 3.970\%
+Bond equivalent yield: $i_{be} = \left[ \frac{(\$1,000,000 - \$985,000)}{\$985,000} \right] \times \frac{365}{140} = 3.970\%$
 
-EAR:  $EAR = [1 + 0.03970 / (365 / 140)]^{365 / 140} - 1 = 4.019\%$
+EAR: $EAR = \left[1 + \frac{0.03970}{365/140}\right]^{365/140} - 1 = 4.019\%$
 
-# Single-Payment Yields
+### Single-Payment Yields
 
 Some money market securities (e.g., negotiable CDs and fed funds) pay interest only once during their lives: at maturity. Thus, the single-payment security holder receives a terminal payment consisting of interest plus the face value of the security, as we show in the following time line. Such securities are special cases of the pure discount securities that only pay the face value on maturity.
 
@@ -231,8 +228,6 @@ Table 5-1 lists various money market instruments and their quoted interest rates
 
 ## Money Market Securities
 
-# LG5-2
-
 A variety of money market securities are issued by corporations and government units to obtain short-term funds. These securities include Treasury bills, federal funds, repurchase agreements, commercial paper, negotiable certificates of deposit, and banker's acceptances. In this section, we look at the characteristics of each of these. Table 5-2 defines each of the money market securities, and Table 5-3 lists the amounts of each outstanding and the interest rate on each of these instruments in 1990 and 2018. As noted in previous chapters, in the late 2000s, as the U.S. economy faced a severe financial crisis and fell into its deepest recession since the Great Depression, in a historic move the Fed unexpectedly announced that it would drop its target fed funds rate to a range between zero and one-quarter of 1 percent and lowered its discount window rate to one-half percent.
 
 TABLE 5-1 Various U.S. Money Market Security Rates
@@ -253,7 +248,7 @@ Source: Federal Reserve Bank of St. Louis website, "FRED Economic Data," https:/
 
 ### Treasury Bills
 
-# Treasury bills (T-bills)
+#### Treasury Bills (T-Bills)
 
 Short-term obligations of the U.S. government issued to cover government budget deficits and to refinance maturing government debt.
 
@@ -263,9 +258,7 @@ Treasury bills (T-bills) are short-term obligations of the U.S. government issue
 
 Because they are backed by the U.S. government, T-bills are virtually default risk free. In fact, T-bills are often referred to as the risk-free asset in the United States. Further, because of their short-term nature and active secondary market, T-bills have little interest rate risk and liquidity risk.
 
-# LG 5-3
-
-# Treasury bill auctions
+#### Treasury Bill Auctions
 
 The formal process by which the U.S. Treasury sells new issues of Treasury bills.
 
@@ -643,7 +636,7 @@ Only the largest U.S. banks are active in the banker's acceptance market. Becaus
 8. Why the negotiable CD market was created?
 9. What the process is by which a banker's acceptance is created?
 
-# Comparison of Money Market Securities
+### Comparison of Money Market Securities
 
 Having reviewed the different money market securities, it should be obvious that the different securities have a number of characteristics in common: large denominations, low default risk, and short maturities. It should also be noted that these securities are quite different in terms of their liquidity. For example, Treasury bills have an extensive secondary market. Thus, these money market securities can be converted into cash quickly and with little loss in value. Commercial paper, on the other hand, has no organized secondary market. These securities cannot be converted into cash quickly unless resold to the original dealer/underwriter, and conversion may involve a relatively higher cost. Federal funds also have no secondary market trading, since they are typically overnight loan transactions and are not intended as investments to be held beyond very short horizons (thus, the lack of a secondary market is inconsequential). Indeed, longer-horizon holders simply roll over their holdings. Bank negotiable CDs also can be traded on secondary markets, but in recent years trading has been relatively inactive, as most negotiable CDs are being bought by "buy and hold" oriented money market mutual funds, as are banker's acceptances.
 
@@ -691,9 +684,9 @@ The third group of brokers and dealers are the thousands of brokers and dealers 
 
 Nonfinancial and financial corporations raise large amounts of funds in the money markets, primarily in the form of commercial paper. Because corporate cash inflows rarely equal their cash outflows, they often invest their excess cash funds in money market securities, especially T-bills, repos, commercial paper, negotiable CDs, and banker's acceptances.
 
-# Other Financial Institutions
+### Other Financial Institutions
 
-# DO YOU UNDERSTAND
+## Do You Understand?
 
 10. Who the major money market participants are?
 11. Which money market securities commercial banks issue?
@@ -703,7 +696,7 @@ Because their liability payments are relatively unpredictable, property-casualty
 
 Since finance companies are not banks and cannot issue deposits, they raise large amounts of funds in the money markets (see Chapter 14), especially through the issuance of commercial paper.
 
-# Individuals
+### Individuals
 
 Individual investors participate in the money markets through direct investments in these securities (e.g., negotiable CDs) or through investments in money market mutual funds, which contain a mix of all types of money market securities.
 
@@ -733,7 +726,7 @@ Source: Federal Reserve Board website, "Table L.209 Open Market Paper," www.fede
 
 Note from Table 5-7 that foreign investments in U.S. money market securities increased from 1994 through 2007 (before the financial crisis). During the crisis, only foreign investments in Treasury securities increased significantly (from  \$2.376 trillion in 2007 to\$ 4.467 trillion in 2010). In contrast, foreign investments in repos decreased significantly (from  \$1.109 trillion in 2007 to$ -0.460 trillion in 2010), as did investments in open market paper (from  \$0.278 trillion in 2007 to\$ 0.191 trillion in 2010). During the financial crisis, investors worldwide, searching for a safe haven for their funds, invested huge amounts of funds in U.S. Treasury securities, while reducing investments in other money market (and capital market) securities. These trends reversed by the mid-2010s. For example, foreign investments in negotiable CDs rose to 0.594 trillion by 2018, surpassing pre-crisis levels. In addition, while central banks varied in the level of interest rates they set, all countries reduced their interest rates to historic lows during the financial crisis as they took steps to stimulate their local economies (see Table 5-8). For example, the United Kingdom lowered its repurchase rate from 5.75 percent in 2007, prior to the crisis, to 0.50 percent in 2010, during the crisis. Japan, whose economy was relatively weak in 2007, set its discount rate at 0.75 percent in 2007 and lowered it even further, to 0.10 percent, during the crisis. The low rates existed even into 2016 when the central banks of Sweden, Switzerland, and Japan all set interest rates below zero.
 
-# Euro Money Markets
+### Euro Money Markets
 
 Because of the importance of the U.S. dollar relative to other currencies, many international financial contracts call for payment in U.S. dollars—the U.S. dollar is still the major international medium of exchange (62 percent of the world's currency reserves are held in U.S. dollars as of September 2019). As a result, foreign governments and businesses have historically held a store of funds (deposits) denominated in dollars outside of the United States. Further, U.S. corporations conducting international trade often hold U.S. dollar deposits in foreign banks overseas to facilitate expenditures and purchases. These dollar-denominated deposits held offshore in U.S. bank branches overseas and in other (foreign) banks are called Eurodollar deposits (Eurodollar CDs) and the market in which they trade is called the Eurodollar market. Eurodollars may be held by governments, corporations, and individuals from anywhere in the world and are not directly subject to U.S. bank
 
@@ -741,7 +734,7 @@ Because of the importance of the U.S. dollar relative to other currencies, many 
 
 13. What the major U.S. money market securities held by foreign investors are?
 
-# Eurodollar market
+#### Eurodollar Market
 
 The market in which Eurodollars trade.
 
@@ -759,7 +752,7 @@ The Eurodollar Market. Large banks in London organized the interbank Eurodollar 
 
 The rate offered for sale on Eurodollar funds is known as the London Interbank Offered Rate (LIBOR). Funds traded in the Eurodollar market are often used as an alternative to fed funds as a source of overnight funding for banks.[14] Initially, most short-term
 
-# London Interbank Offered Rate (LIBOR)
+#### London Interbank Offered Rate (LIBOR)
 
 The rate paid on Eurodollars.
 
@@ -780,7 +773,7 @@ Source: Federal Reserve Bank of St. Louis website, "FRED Economic Data," https:/
 
 Concerns were also raised about the failure of British and U.S. regulators to stop the manipulation of LIBOR when there was evidence that both were aware of it. In July 2012, a former trader stated that LIBOR manipulation had been occurring since at least 1991. In July 2012, the Federal Reserve Bank of New York released documents dated as far back as 2007 showing that it knew that banks were misreporting their borrowing costs when setting LIBOR. Yet, no action was taken. Similarly, documents from the Bank of England indicated that the bank knew as early as November 2007 that the LIBOR rate was being manipulated. It was not until June 2012 that Barclays became the first bank to agree to settle LIBOR manipulation allegations. In late 2012, eight global financial institutions, including JPMorgan Chase and Deutsche Bank, were fined  \$2.32 billion by the European Union regulators for alleged collusion in fixing the LIBOR rate. In December 2012, UBS agreed to pay about\$ 1.5 billion to settle charges that it manipulated LIBOR. Also in December, the U.S. Justice Department charged Tom Hayes, a former UBS and Citigroup trader, with conspiracy to commit fraud by manipulating the LIBOR (in June 2013, he was charged with eight counts of fraud as part of the UK investigation). In February 2013, the Royal Bank of Scotland also decided to settle at a cost of 610 million. In early 2013, Deutsche Bank stated that it had set aside money to cover potential fines associated with its role in the manipulation of the LIBOR. While several big banks pleaded guilty to and accepted penalties for manipulating LIBOR, the first criminal conviction of an individual
 
-# Traders Influenced LIBOR Rates
+##### Traders Influenced LIBOR Rates
 
 In February of 2012, *The Wall Street Journal* reported that an anonymous bank tipped off Canadian financial regulators, informing them that a group of brokers and traders had "successfully managed to manipulate key interbank lending rates that affect loans around the world." In an official Canadian court filing, Canada's Competition Bureau noted that the unnamed bank confirmed that the actions of the accused did in fact result in changes to interest rates. The *Journal* cited sources claiming the anonymous institution was UBS AG, a Swiss bank that had been granted immunity in Switzerland for cooperating in an investigation of potential manipulation of the London Interbank Offered Rate, or LIBOR.
 
@@ -797,7 +790,7 @@ Following the 2012 rate-fixing scandals, regulators and policymakers undertook a
 
 Working groups convened by regulators in the most used LIBOR currencies have already converged on alternative reference rates. In the U.S., the Alternative Reference Rates Committee (ARRC) was charged by the Federal Reserve Board and the Federal Reserve Bank of New York in 2014 with selecting a new risk-free benchmark for use in the USD derivatives market. In 2017, the ARRC selected Secured Overnight Financing
 
-# Eurodollar certificates of deposit (CDs)
+#### Eurodollar Certificates of Deposit (CDs)
 
 Dollar-denominated deposits in non-U.S. banks.
 
@@ -816,19 +809,19 @@ Figure 5-10 shows the difference between three-month Eurodollar and U.S. bank-is
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/ab2bc87b0f66b47ef4e041229aa527110facf38d1922dd5454257ceb65579266.jpg)
 Figure 5-10 Three-Month U.S. Bank-Issued versus Eurodollar CD Rates, 1971-2019
 
-# Eurocommercial paper (Euro-CP)
+#### Eurocommercial Paper (Euro-CP)
 
 Unsecured, short-term loan issued by a bank or corporation in the international money market, denominated in a currency that differs from the domestic currency of the market where the paper is issued.
 
 rate from the U.S. CD rate. Indeed, in 2007, the average rate paid on three-month Eurodollar CDs was 5.52 percent and on three-month U.S. CDs the average rate paid was 5.49 percent. Note, however, that during the financial crisis, Eurodollar CD rates rose above U.S. CD rates. In October 2008, the Eurodollar CD rate (5.31 percent) was 0.99 percent higher than the U.S. CD rate (4.32 percent). This difference was again due to the low-risk nature of U.S. bank deposits relative to foreign bank deposits. Following the crisis, rates on U.S. CDs and Eurodollar CDs have become close again.
 
-Eurocommercial Paper. Eurocommercial paper (Euro-CP) is an unsecured, short-term loan issued by a bank or corporation in the international money market, denominated in a currency that differs from the domestic currency of the market where the paper is issued. An example would be Eurodollar commercial paper denominated in U.S. dollars but issued in the Japanese debt market with a short time remaining until maturity. The Eurocommercial paper rate is generally benchmarked to the Euro Overnight Index Average (EONIA). According to the CMP Portal, there were  \$523.2 billion Eurocommercial paper outstanding and\$ 435.9 billion Eurodollar certificates of deposit outstanding as of December 31, 2019.
+Eurocommercial Paper. Eurocommercial paper (Euro-CP) is an unsecured, short-term loan issued by a bank or corporation in the international money market, denominated in a currency that differs from the domestic currency of the market where the paper is issued. An example would be Eurodollar commercial paper denominated in U.S. dollars but issued in the Japanese debt market with a short time remaining until maturity. The Eurocommercial paper rate is generally benchmarked to the Euro Overnight Index Average (EONIA). According to the CMP Portal, there were $523.2 billion Eurocommercial paper outstanding and $435.9 billion Eurodollar certificates of deposit outstanding as of December 31, 2019.
 
 ## Summary
 
 In this chapter, we reviewed money markets, which are markets that trade debt securities with original maturities of one year or less. The need for money markets arises because cash receipts do not always coincide with cash expenditures for individuals, corporations, and government units. Because holding cash involves an opportunity cost, holders of excess cash invest these funds in money market securities. We looked at the various money market securities available to short-term investors and the major borrowers and issuers of each. We also outlined the processes by which each of these securities are issued and traded in secondary markets. We concluded the chapter by examining international issues involving money markets, taking a particular look at Euro money markets.
 
-## Questions
+### Questions
 
 1. What are the three characteristics common to money market securities? (LG 5-1)
 2. What is the difference between a discount yield and a bond equivalent yield? Which yield is used for Treasury bill quotes? (LG 5-1)
@@ -879,9 +872,9 @@ b. Calculate the bid price of the T-bill maturing on April 30, 2020, as of Decem
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/61a9227deef3217a8ee28da575e8e44ccf6ce0856ce38a93ad2eb38dfca380d4.jpg)
 
-# Using a Spreadsheet to Calculate T-bill
+#### Using a Spreadsheet to Calculate T-Bill Prices
 
-Prices: What is the bid price of a 10,000 face value T-bill with a bid rate of 2.23 percent if there are 10, 25, 50, 100, and 250 days to maturity? (LG 5-2)
+What is the bid price of a $10,000 face value T-bill with a bid rate of 2.23 percent if there are 10, 25, 50, 100, and 250 days to maturity?
 
 
 <table><tr><td>Face Value</td><td>Bid Rate</td><td>Days to Maturity</td><td>Rightarrow The Answer Will Be</td></tr><tr><td>$10,000</td><td>2.23\%</td><td>10</td><td>$9,993.81</td></tr><tr><td>10,000</td><td>2.23</td><td>25</td><td>9,984.51</td></tr><tr><td>10,000</td><td>2.23</td><td>50</td><td>9,969.03</td></tr><tr><td>10,000</td><td>2.23</td><td>100</td><td>9,938.06</td></tr><tr><td>10,000</td><td>2.23</td><td>250</td><td>9,845.14</td></tr></table>
@@ -892,9 +885,9 @@ b. Calculate the discount yield, bond equivalent yield, and EAR on the T-bill if
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/c6434a57db2e30ecad75b1c5df11f40201f41408e6102f2c4a9c2d96f8fe2b70.jpg)
 
-# Using a Spreadsheet to Calculate T-bill
+#### Using a Spreadsheet to Calculate T-Bill Yields
 
-Yield: What is the quoted yield of a 10,000 face value T-bill with a market price of 8,885 if there are 10, 25, 50, 100, and 250 days to maturity? (LG 5-2)
+What is the quoted yield of a $10,000 face value T-bill with a market price of $8,885 if there are 10, 25, 50, 100, and 250 days to maturity?
 
 
 <table><tr><td>Face Value</td><td>Market Price</td><td>Days to Maturity</td><td> \Rightarrow </td><td>The Answer Will Be</td></tr><tr><td>$10,000</td><td>$8,885</td><td>10</td><td></td><td>4.014\%</td></tr><tr><td>10,000</td><td>8,885</td><td>25</td><td></td><td>1.606</td></tr><tr><td>10,000</td><td>8,885</td><td>50</td><td></td><td>0.803</td></tr><tr><td>10,000</td><td>8,885</td><td>100</td><td></td><td>0.401</td></tr><tr><td>10,000</td><td>8,885</td><td>250</td><td></td><td>0.161</td></tr></table>
@@ -912,34 +905,34 @@ b. Calculate the yield on the repo if it has a 21-day maturity.
 18. A bank has issued a six-month, 2 million negotiable CD with a 0.52 percent quoted annual interest rate (iCD, sp). (LG 5-2) a. Calculate the bond equivalent yield and the EAR on the CD.
 
 b. How much will the negotiable CD holder receive at maturity?
-c. Immediately after the CD is issued, the secondary market price on the  \$2 million CD falls to\$ 1,998,750. Calculate the new secondary market quoted yield, the bond equivalent yield, and the EAR on the 2 million face value CD.
+c. Immediately after the CD is issued, the secondary market price on the $2 million CD falls to $1,998,750. Calculate the new secondary market quoted yield, the bond equivalent yield, and the EAR on the 2 million face value CD.
 
 19. A bank has issued a six-month, 5 million negotiable CD with a 0.35 percent quoted annual interest rate (iCD, sp). (LG 5-2) a. Calculate the bond equivalent yield and the EAR on the CD.
 
 b. How much will the negotiable CD holder receive at maturity?
-c. Immediately after the CD is issued, the secondary market price on the  \$5 million CD falls to\$ 4,994,500. Calculate the new secondary market quoted yield, the bond equivalent yield, and the EAR on the 5 million face value CD.
+c. Immediately after the CD is issued, the secondary market price on the $5 million CD falls to $4,994,500. Calculate the new secondary market quoted yield, the bond equivalent yield, and the EAR on the 5 million face value CD.
 
 20. You have just purchased a three-month, 500,000 negotiable CD, which will pay a 5.5 percent annual interest rate. (LG 5-2) a. If the market rate on the CD rises to 6 percent, what is its current market value?
 
 b. If the market rate on the CD falls to 5.25 percent, what is its current market value?
 
-# SEARCH THE SITE
+#### Search the Site
 
 Go to the Bureau of Public Debt website at www.treasurydirect.gov and find the latest information on 13-week and 26-week Treasury bill auctions using the following steps.
 
 Under "Financial Institutions," click on "Auction Announcements and Results." Click on "Bill." Click on "Term: 13-Week." Under the column, "Competitive Results," click on "PDF." This will bring the file onto your computer that contains the relevant data. This will bring up the relevant information. Repeat the process, clicking on "Term: 26-week."
 
-# Questions
+##### Questions
 
 1. What are the high, low, and median prices on the most recent issues?
 2. What is the dollar value of tendered and accepted bids for the most recent issues?
 3. What is the dollar value of noncompetitive bids on the most recent issues?
 
-# SEARCH THE SITE
+#### Search the Site
 
 Go to the Federal Reserve website at www.federalreserve.gov and find the most recent information on prime versus commercial paper rates using the following steps. Click on “Selected Interest Rates” and then on the most recent date. This will bring up the relevant data (“Commercial Paper, Nonfinancial, 3-Month” and “Bank prime loan”).
 
-# Questions
+##### Questions
 
 1. By how much have the prime rate and commercial paper rate changed since December 2016?
 2. Calculate the average spread between the prime rate and the commercial paper rate over the last year. How does this compare to the spread seen in the fall of 2008?
@@ -949,30 +942,3 @@ APPENDIX 5A: Single versus Discriminating Price Treasury Auctions
 APPENDIX 5B: Creation of a Banker's Acceptance
 
 Appendixes 5A and 5B are available through Connect or your course instructor.
-
-# Bond Markets
-
-# Learning Goals
-
-LG 6-1
-
-Describe the major bond markets.
-
-LG 6-2
-
-Identify the characteristics of the various bond market securities.
-
-LG 6-3
-
-List the major bond market participants.
-
-LG 6-4
-
-Describe the types of securities traded in international bond markets.
-
-# DEFINITION OF BOND MARKETS: CHAPTER OVERVIEW
-
-Equity (stocks) and debt (notes, bonds, and mortgages) instruments with maturities of more than one year trade in capital markets. In the next several chapters, we look at characteristics of the different capital markets, starting in this chapter with bond markets. In Chapter 7, we look at the mortgage markets (e.g., mortgage-backed securities), and in Chapter 8, we describe equity markets.
-
-Bonds are long-term debt obligations issued by corporations and government units. Proceeds from a bond issue are used to raise funds to support long-term operations of the issuer (e.g., for capital expenditure projects). In return for the investor's funds, bond issuers promise to pay a specified amount in the future on the maturity of the bond (the face value) plus coupon interest on the borrowed funds (the coupon rate times the face value of the bond). If the terms of the repayment are not met by the bond issuer, the bond holder (investor) has a claim on the assets of the bond issuer.
-

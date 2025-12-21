@@ -1,42 +1,30 @@
 ---
+title: Notes for Quantitative Methods Advanced Mathematics from an Elementary Point of View
 parent_directory: I. Foundations/Mathematics
-title: 'Notes for Quantitative Methods: Advanced Mathematics from an Elementary Point
-  of View'
-tags: null
-aliases:
-- Quantitative Methods: Advanced Mathematics from an Elementary Point of View
-parent_folder: Mathematics
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: 'Notes for Quantitative Methods: Advanced Mathematics from
-  an Elementary Point of View'
+formatted: 2025-12-21 10:45:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
 primary_tags:
-- some examples
-- random vectors
-- lower variance
-- statistics part
-- exponential distributions
-- two possible estimators
+- quantitative methods
+- advanced mathematics
+- elementary point of view
+- mathematical foundations
+- statistical inference
+- optimization theory
 secondary_tags:
-- 11.3.continuity 19
-- some review
-- basic problem
-- ', the likelihood'
-- neyman pearson lemma
-- cauchy schwartz inequality
-- discrete and cts distributions
-- complete metric spaces
-- closed form formula
-- explicit calculations
-- linear functions
-- maximum likelihood
-- axiomatic approach
-- next estimator
-- negative exponential distribution
-- hidden variables
-tags_extracted: '2025-12-18T17:58:36.922753'
-tags_method: max_quality_v1
+- metric spaces
+- convex analysis
+- dynamic programming
+- stochastic processes
+- information theory
+- hypothesis testing
+- probability distributions
+- conditional expectations
+- cauchy schwarz inequality
+- separating hyperplane theorem
+- maximum likelihood estimation
+- cramer rao lower bound
+cssclasses: academia
 ---
 
 # NOTES FOR QUANTITATIVE METHODS:
@@ -48,8 +36,9 @@ tags_method: max_quality_v1
 
 0. Organizational Stuff 4  
 1. Some Basics About Numbers and Quantities 5  
-2.1. Lengths and measurements 5  
-3.2. Why we want more 5  
+### 1.1. Lengths and measurements
+
+### 1.2. Why we want more  
 4.3. Valuing sequences of rewards 5  
 5.4. Convex analysis 6  
 6.5. Problems 9  
@@ -73,9 +62,11 @@ tags_method: max_quality_v1
 24.3. Bayesians 28  
 25.4. Classical statistics 29
 
-4.5. An Information Inequality 30  
-4.6. Mis-Specification 31  
-4.7.Problems 32  
+### 4.5. An Information Inequality
+
+### 4.6. Mis-Specification
+
+### 4.7. Problems  
 5. Basic Probability, Transformations, and Expectations 34  
 5.1. Basic Probability and Expectations 34  
 5.2. Transformations and Expectations 34  
@@ -111,7 +102,7 @@ tags_method: max_quality_v1
 10.3.Problems 60  
 11. Evaluating different estimators 61
 
-# QUANTITATIVE METHODS
+## QUANTITATIVE METHODS
 
 11.1. Mean Squared Error (MSE) 61  
 11.2. Desirable properties for estimators 62  
@@ -139,8 +130,13 @@ Topics: Completeness properties of  $\mathbb{R}$  and  $\mathbb{R}^{\ell}$ , sum
 
 Readings: Marinacci's "An Axiomatic Approach to Complete Patience and Time Invariance," Journal of Economic Theory 83, 105-144 (1998). Mas-Colell, Whinston, and Green on support functions and the supporting hyperplane theorem. §1.6 below is for you to read and work on, either by yourself or in a study group.
 
-1.1. Lengths and measurements.  $\mathbb{N}$  and  $\mathbb{Q}$  from elementary school. As models of measurements of quantities, we're done.  
-1.2. Why we want more. Irrationality of easily described lengths, clt and integration.
+### 1.1. Lengths and measurements
+
+$\mathbb{N}$ and $\mathbb{Q}$ from elementary school. As models of measurements of quantities, we're done.
+
+### 1.2. Why we want more
+
+Irrationality of easily described lengths, clt and integration.
 
 Sequences in  $\mathbb{Q}$ , convergence implies settling down, but not the reverse. Subsequences.
 
@@ -148,8 +144,13 @@ Cauchy sequences and  $\mathbb{R}$  as the completion of  $\mathbb{Q}$ .
 
 Implications of completeness: decreasing and increasing bounded sequences have limits, equivalently, every bounded set has a sup and an inf. The idea of completion also shows up in the major limit theorem in statistics (i.e. the CLT).
 
-1.3. Valuing sequences of rewards. This section is based on classic analyses as well as the more recent Marinacci's "An Axiomatic Approach to Complete Patience and Time Invariance," Journal of Economic Theory 83, 105-144 (1998). Patience about finite sequences,  $(r_1, r_2, \ldots, r_t)$ , of rewards seems to be about being indifferent between all time permutations of the sequence. In the dynamic programming models used in game theory and macro, one often achieves infinite sequences of rewards. These may not be entirely believable, but they do a pretty good job of capturing the idea of an indefinite future.  
-1.3.1. Classic analyses.  $\lim \inf_t r_t \leq \lim \sup_t r_t$ , equality for limits.
+### 1.3. Valuing sequences of rewards
+
+This section is based on classic analyses as well as the more recent Marinacci's "An Axiomatic Approach to Complete Patience and Time Invariance," Journal of Economic Theory 83, 105-144 (1998). Patience about finite sequences, $(r_1, r_2, \ldots, r_t)$, of rewards seems to be about being indifferent between all time permutations of the sequence. In the dynamic programming models used in game theory and macro, one often achieves infinite sequences of rewards. These may not be entirely believable, but they do a pretty good job of capturing the idea of an indefinite future.
+
+#### 1.3.1. Classic analyses
+
+$\lim \inf_t r_t \leq \lim \sup_t r_t$, equality for limits.
 
 $X^{Y}$  notation, e.g.'s  $2^{3}$ ,  $\mathbb{R}^{\ell}$ ,  $\mathbb{R}^{\mathbb{N}}$ .
 
@@ -173,7 +174,9 @@ $$
 
 has  $V_{\mathrm{liminf}}(x) = 0 < V_1(x) = V_2(x) = \frac{1}{2}$ .
 
-1.3.2. Marinacci's extension of the classic analyses. The sequence of  $x_{t}$
+#### 1.3.2. Marinacci's extension of the classic analyses
+
+The sequence of $x_{t}$
 
 $$
 \underbrace{11}_{2^{1}}\underbrace{0000}_{2^{2}}\underbrace{11111111}_{2^{3}}\dots
@@ -191,7 +194,9 @@ $$
 
 $V_{Polya}(x)$  exists for all  $x \in \mathbb{R}^{\mathbb{N}}$ , and for  $x$  such that  $V_{\mathrm{liminf}}^{average}(x) = V_{\mathrm{limsup}}^{average}(x)$ ,  $V_{Polya}(x) = V_{\mathrm{liminf}}^{average}(x)$ .
 
-1.4. Convex analysis.  $\mathbb{R}^{\ell}$ , vectors. Two important examples of convex sets from microeconomics:
+### 1.4. Convex analysis
+
+$\mathbb{R}^{\ell}$, vectors. Two important examples of convex sets from microeconomics:
 
 1. Netput vectors in production, intermediate micro  $x_{2} \leq f(x_{1})$ ,  $x_{1}$  the input,  $x_{2}$  the output, becomes  $Y = \{(y_{1}, y_{2}) : y_{1} \leq 0, y_{2} \leq f(|y_{1}|)\}$ .  
 2. Given a utility function  $u: \mathbb{R}_+^\ell \to \mathbb{R}$  and a utility level  $\overline{u}$ ,  $C_u(\overline{u}) := \{x \in \mathbb{R}_+^\ell : u(x) \geq \overline{u}\}$  is a upper contour set of  $u$ . Decreasing marginal rates of substitution are captured by the assumption that each  $C_u(\overline{u})$  is a convex set.
@@ -202,7 +207,9 @@ In the first example above, the profit function is  $\pi(p) := \max \{p \cdot y 
 
 $\min \{p \cdot x : x \in C_u(\overline{u})\}$ , again,  $p \gg 0$  a price vector. One of the things we will see is that  $D_p\pi = y^*(p)$  where  $y^*(p)$  is the solution to  $\max \{p \cdot y : y \in Y\}$ , and  $D_p e(p, \overline{u}) = h(p, \overline{u})$  where  $h(p, \overline{u})$  is the solution to  $\min \{p \cdot x : x \in C_u(\overline{u})\}$ .  $y^*(p)$  is the supply/demand function for the firm,  $h(p, \overline{u})$  is the Hicksian demand function.
 
-1.4.1. Convexity of sets. Dfn convexity of sets, e.g.'s hyperplanes  $H_{p}^{\leq}(r) \coloneqq \{x : p \cdot x \leq r\}$ , triangles, squares, the set  $Y$  above when  $f'' < 0$ . A function is concave when its subgraph is a convex set. In the production function example, you should recognize decreasing returns to scale (DRTS). When the epigraph is a convex set, the function is convex. There is no such creature as a concave set.
+#### 1.4.1. Convexity of sets
+
+Dfn convexity of sets, e.g.'s hyperplanes $H_{p}^{\leq}(r) \coloneqq \{x : p \cdot x \leq r\}$, triangles, squares, the set $Y$ above when $f'' < 0$. A function is concave when its subgraph is a convex set. In the production function example, you should recognize decreasing returns to scale (DRTS). When the epigraph is a convex set, the function is convex. There is no such creature as a concave set.
 
 # 1.4.2. Three basic results.
 
@@ -244,7 +251,9 @@ Pictures. The SHThm gives us
 
 Lemma 1.4.4. If  $K$  is convex, then for all  $\epsilon >0$ ,  $\overline{K}\subset K + B(0,\epsilon)$ .
 
-1.4.3. A worked example.  $Y = \{(y_{1}, y_{2}) : y_{1} \leq 0, y_{2} \leq \sqrt{|y_{1}|}\}$ ,  $\Pi_{Y}(p) := \sup \{p \cdot y : y \in Y\}$ , find the input demand function, the supply function, the profit function, show that the profit function is convex, "application" to stability of prices, refer to homework on derivative tests.
+#### 1.4.3. A worked example
+
+$Y = \{(y_{1}, y_{2}) : y_{1} \leq 0, y_{2} \leq \sqrt{|y_{1}|}\}$, $\Pi_{Y}(p) := \sup \{p \cdot y : y \in Y\}$, find the input demand function, the supply function, the profit function, show that the profit function is convex, "application" to stability of prices, refer to homework on derivative tests.
 
 Given a convex profit function  $\Pi(\cdot)$ ,  $Y_{\Pi}\coloneqq\{y:\forall p>0,\ p\cdot y\leq\Pi(p)\}$ , relate to convex-closed sets, do the work in the example to show the basic duality result for profit functions,
 
@@ -256,7 +265,9 @@ This means that I can give you a profit function and I have implicitly specified
 
 Applications of this idea to expenditure functions (recovering upper contour sets from expenditure functions and vice versa), costs functions (same idea).
 
-1.4.4. Support functions. The inf-support function of a set  $K$  is  $\mu_K^{\inf}(p) \coloneqq \inf \{ p \cdot x : x \in K \}$ . [Beware: this is the support function that most people use, not the next one.] The sup-support function of a set  $K$  is  $\mu_K^{\sup}(p) \coloneqq \sup \{ p \cdot x : x \in K \}$ . Note that  $\mu_K^{\sup}(p) = -\mu_K^{\inf}(-p)$ , so these are essentially the same function.
+#### 1.4.4. Support functions
+
+The inf-support function of a set $K$ is $\mu_K^{\inf}(p) \coloneqq \inf \{ p \cdot x : x \in K \}$. [Beware: this is the support function that most people use, not the next one.] The sup-support function of a set $K$ is $\mu_K^{\sup}(p) \coloneqq \sup \{ p \cdot x : x \in K \}$. Note that $\mu_K^{\sup}(p) = -\mu_K^{\inf}(-p)$, so these are essentially the same function.
 
 Conventions with  $\pm \infty$  and  $0 < \alpha < 1$  in the definition of concave and convex functions.
 
@@ -326,11 +337,15 @@ Problem 1.7 (Cauchy-Schwarz inequality and dot products). Consider vectors  $x =
 4. Define  $d(x,y) = \| x - y\|$  so that  $d:\mathbb{R}^n\times \mathbb{R}^n\to \mathbb{R}_+$ . Show that  $(\mathbb{R}^n,d)$  is a metric space. \[That is, show that  $d(x,y) = d(y,x)$ ,  $d(x,y) = 0$  iff  $x = y$ , and  $d(x,y) + d(y,z)\geq d(x,z)$ . The hardest part is the last inequality, known as the triangle inequality.]  
 5. Define  $\rho(x, y) = \sum_{k} |x_k - y_k|$  so that  $\rho: \mathbb{R}^n \times \mathbb{R}^n \to \mathbb{R}_+$ . Show that  $(\mathbb{R}^n, \rho)$  is a metric space.
 
-1.6. Self-guided tour to differentiability and concavity. This section develops the negative semi-definiteness of the matrix of second derivatives as being equivalent to the concavity of a twice continuously differentiable function. It also develops the determinant test for negative semi-definiteness. Before reading this, you should know the equivalent of the math camp review of matrix multiplication and determinants.
+### 1.6. Self-guided tour to differentiability and concavity
+
+This section develops the negative semi-definiteness of the matrix of second derivatives as being equivalent to the concavity of a twice continuously differentiable function. It also develops the determinant test for negative semi-definiteness. Before reading this, you should know the equivalent of the math camp review of matrix multiplication and determinants.
 
 You are responsible for handing in the problems scattered throughout this section by the middle of the semester. I would recommend that you do it before that.
 
-1.6.1. The two results. Before giving the results, we need some terminology.
+#### 1.6.1. The two results
+
+Before giving the results, we need some terminology.
 
 A function  $f: C \to \mathbb{R}$  is strictly concave if  $\forall x, y \in C$ ,  $x \neq y$ , and all  $\alpha \in (0,1)$ ,  $f(\alpha x + (1 - \alpha)y) > \alpha f(x) + (1 - \alpha)f(y)$ .
 
@@ -358,7 +373,9 @@ Problem 1.8. The function  $f: \mathbb{R}_+^2 \to \mathbb{R}$  defined by  $f(x,
 
 Problem 1.9. The function  $f: \mathbb{R}_+^2 \to \mathbb{R}$  defined by  $f(x, y) = (x^p + y^p)^{1/p}$  is convex on  $\mathbb{R}_{++}^2$  if  $p \geq 1$  and is concave if  $p \leq 1$ .
 
-1.6.2. The one dimensional case,  $f:\mathbb{R}^1\to \mathbb{R}$
+#### 1.6.2. The one dimensional case
+
+$f:\mathbb{R}^1\to \mathbb{R}$
 
 Problem 1.10. Suppose that  $f:(a,b)\to \mathbb{R}$  is twice continuously differentiable. \[Read the third part of this before starting the first two.]
 
@@ -379,7 +396,9 @@ Multiply the lhs by  $\alpha$ , the rhs by  $(1 - \alpha)$ , and …
 2. Show that if  $f$  is concave, then  $f''(x) \leq 0$  for all  $x \in (a,b)$ . \[If not, then  $f''(x^{\circ}) > 0$  for some  $x^{\circ} \in (a,b)$  which implies that  $f''$  is strictly positive on some interval  $(a',b') \subset (a,b)$ . Reverse the above argument.]  
 3. Repeat the previous two problems for strict concavity, changing whatever needs to be changed.
 
-1.6.3. The multi-dimensional case,  $f: \mathbb{R}^n \to \mathbb{R}$ .
+#### 1.6.3. The multi-dimensional case
+
+$f: \mathbb{R}^n \to \mathbb{R}$.
 
 Problem 1.11. Suppose that  $f: C \to \mathbb{R}$  is twice continuously differentiable,  $C$  an open convex subset of  $\mathbb{R}^n$ .
 
@@ -389,7 +408,9 @@ For each  $y,z\in \mathbb{R}^n$ , define  $g_{y,z}(\lambda) = f(y + \lambda z)$ 
 2. Show that  $g''(\lambda) = z^T D_x^2 f(x^\circ)z$  where  $x^\circ = y + \lambda z$ .  
 3. Conclude that  $f$  is (strictly) concave iff for all  $x^{\circ} \in C$ ,  $D^{2}f(x^{\circ})$  is negative semi-definite (negative definite).
 
-1.6.4. A fair amount of matrix algebra background. The previous has demonstrated that we sometimes want to know conditions on  $n \times n$  symmetric matrices  $\mathbf{A}$  such that  $z^T\mathbf{A}z \leq 0$  for all  $z$ , or  $z^T\mathbf{A}z < 0$  for all  $z \neq 0$ . We are trying to prove that a  $\mathbf{A}$  is negative semi-definite (respectively negative definite) iff the sign of  $m$ 'th principal sub-matrix is either 0 or  $-1^m$  (respectively, the sign of the  $m$ 'th principal sub-matrix is  $-1^m$ ). This will take a longish detour through eigenvalues and eigenvectors. The detour is useful for the study of linear regression too, so this section is also background for next semester's econometrics course.
+#### 1.6.4. A fair amount of matrix algebra background
+
+The previous has demonstrated that we sometimes want to know conditions on $n \times n$ symmetric matrices $\mathbf{A}$ such that $z^T\mathbf{A}z \leq 0$ for all $z$, or $z^T\mathbf{A}z < 0$ for all $z \neq 0$. We are trying to prove that a $\mathbf{A}$ is negative semi-definite (respectively negative definite) iff the sign of $m$'th principal sub-matrix is either 0 or $-1^m$ (respectively, the sign of the $m$'th principal sub-matrix is $-1^m$). This will take a longish detour through eigenvalues and eigenvectors. The detour is useful for the study of linear regression too, so this section is also background for next semester's econometrics course.
 
 Throughout, all matrices have only real number entries.
 
@@ -583,7 +604,9 @@ Readings: Mas-Colell, Whinston, and Green on the Theorem of the Maximum, support
 
 Readings: Sheldon Ross, Tables 1 and 2, p. 4.
 
-2.1. Metrics. Let  $X$  be a set. This could be  $\mathbb{R}^{\ell}$  or a subset thereof,  $\mathbb{R}^{\mathbb{N}}$  or a subset (e.g. the bounded sequences, or  $\ell_2$ ) the set of probability distributions on  $\mathbb{R}$  or  $\mathbb{R}^{\ell}$  or a subset thereof, the set of convex preferences on  $\mathbb{R}^{\ell}$  or a subset thereof, the set of possible demand functions or a subset (e.g. the set of differentiable demand functions), the set of technologies satisfying some natural set of restrictions, the set of budget sets or a subset thereof.
+### 2.1. Metrics
+
+Let $X$ be a set. This could be $\mathbb{R}^{\ell}$ or a subset thereof, $\mathbb{R}^{\mathbb{N}}$ or a subset (e.g. the bounded sequences, or $\ell_2$) the set of probability distributions on $\mathbb{R}$ or $\mathbb{R}^{\ell}$ or a subset thereof, the set of convex preferences on $\mathbb{R}^{\ell}$ or a subset thereof, the set of possible demand functions or a subset (e.g. the set of differentiable demand functions), the set of technologies satisfying some natural set of restrictions, the set of budget sets or a subset thereof.
 
 Definition 2.1.1. A metric on  $X$  is any function  $d: X \times X \to \mathbb{R}_+$  such that
 
@@ -597,7 +620,9 @@ We will mostly use convergence of sequences. A sequence in  $X$  is a point in  
 
 Dfn  $x_{n} \to x$ . Pictures about tail behavior should come to mind. Dfn closed set, open set, there are sets that are neither open nor closed.
 
-2.2. Probability distributions as cdf's. We introduce a metric on cdf's as a metric on  $\Delta (\mathbb{R})$ , the set of probability distributions on  $\mathbb{R}$ . This is a precursor to prob/stats material involving the CLT.
+### 2.2. Probability distributions as cdf's
+
+We introduce a metric on cdf's as a metric on $\Delta (\mathbb{R})$, the set of probability distributions on $\mathbb{R}$. This is a precursor to prob/stats material involving the CLT.
 
 Dfn cdf. These give probabilities on the field  $\mathcal{F}_0$  generated by  $\{(-\infty, a] : a \in \mathbb{R}\}$  by addition. We assume continuity from above at the empty set, which in our case is the same as right continuity (e.g. of problems is  $F(x) = \frac{1}{2} 1_{\{0\}}(x) + 1_{(0,\infty)}(x)$ ,  $A_n = (0, \frac{1}{n}]$ ,  $P_F(A_n) = F\left(\frac{1}{n}\right) - F(0) \equiv \frac{1}{2}$  but  $\cap_n A_n = \emptyset$ ).
 
@@ -617,18 +642,22 @@ Dfn  $F_{n}\to_{weak}F$  iff  $F_{n}(x)\rightarrow F(x)$  for all continuity poi
 
 Theorem 2.2.1.  $F_{n}\to_{weak}F$  iff  $\rho (F_n,F)\to 0$
 
-2.3. Continuity. Metrics,  $\tau_{X}$  is the collection of open sets, closedness, closed subsets of complete metric spaces are complete. Dfn:  $f:X\to Y$  is cts if  $f^{-1}(\tau_Y)\subset \tau_X$ . Lemma: cts iff  $f^{-1}$  of the closed sets is a subset of the closed sets iff  $\epsilon$ - $\delta$  iff sequence definition of ctuity.
+### 2.3. Continuity
+
+Metrics, $\tau_{X}$ is the collection of open sets, closedness, closed subsets of complete metric spaces are complete. Dfn: $f:X\to Y$ is cts if $f^{-1}(\tau_Y)\subset \tau_X$. Lemma: cts iff $f^{-1}$ of the closed sets is a subset of the closed sets iff $\epsilon$ - $\delta$ iff sequence definition of ctuity.
 
 Equality of topologies with different metrics, completeness does not survive change of metrics,  $\rho (x,y) = |F(x) - F(y)|$ ,  $F(r) = e^{r} / (1 + e^{r})$ .
 
-2.4. Compactness and the existence of optima.
+### 2.4. Compactness and the existence of optima
 
 1. Heine-Borel If  $[a,b]\subset \cup_{\alpha \in A}(r_\alpha ,s_\alpha)$  , then  $\exists$  finite  $A_F\subset A$ $[a,b]\subset \cup_{\alpha \in A_F}$  . Pf.  
 2. Finite intersection property (fip) A collection  $\{F_{\alpha} : \alpha \in A\}$  of closed subsets of  $[a, b]$  has the finite intersection property (fip) if  $\cap_{\alpha \in A_F} F_{\alpha} \neq \emptyset$  for all finite  $A_F \subset A$ . Any collection of closed sets in  $[a, b]$  with the flip satisfies  $\cap_{\alpha \in A} F_{\alpha} \neq \emptyset$ . By DeMorgan, this is equivalent to Heine-Borel.  
 3. If  $f:[a,b] \to \mathbb{R}$  is cts, then  $\exists x^{*} \in [a,b]$ ,  $f(x^{*}) \geq f([a,b])$ . Pf: By finite subcover of  $f([a,b]) \subset \cup_{n \in \mathbb{Z}} (n,n+2)$ ,  $f([a,b])$  is bounded, hence has a supremum, call it  $\overline{f}$ . The collection  $\{f^{-1}([r - \frac{1}{n}, r]): n \in \mathbb{N}\}$  has the flip, therefore  $x^{*} \in \cap_{n} f^{-1}([r - \frac{1}{n}, r] \neq \emptyset$ .  
 4. Turn Heine-Borel/fip into a dfn for metric spaces. Closed subsets of compact metric spaces are compact. Cts functions on compact metric spaces achieve their maximum.
 
-2.5. The Theorem of the Maximum. For  $E$  a subset of  $X$ , define  $E^{\epsilon} = \cup_{x \in E} B(x, \epsilon)$ , this is the  $\epsilon$ -ball around the set  $E$ . For compact  $A, B \subset X$ , define  $m(A, B) = \inf \{\epsilon > 0 : A \subset B^{\epsilon}\}$ . The Hausdorff distance between compact sets is
+### 2.5. The Theorem of the Maximum
+
+For $E$ a subset of $X$, define $E^{\epsilon} = \cup_{x \in E} B(x, \epsilon)$, this is the $\epsilon$-ball around the set $E$. For compact $A, B \subset X$, define $m(A, B) = \inf \{\epsilon > 0 : A \subset B^{\epsilon}\}$. The Hausdorff distance between compact sets is
 
 $$
 d (A, B) = \max \{m (A, B), m (B, A) \}.
@@ -655,9 +684,11 @@ Theorem 2.5.2 (Theorem of the Maximum). If  $u: X \times Y \to \mathbb{R}$  is c
 
 Applications: consumer choice theory, producer theory, general equilibrium, game theory. We will see this theorem in dynamic programming too.
 
-2.6. The Separating Hyperplane Theorem. Hyperplanes, separation, the theorem, the proof. Applications: the 2'nd Welfare Theorem (existence of prices), existence of Lagrange multipliers [pass through saddle points and the simplest form of the Kuhn-Tucker theorem]. We did the basic duality theorem with applications to the recovery of preferences and technology from demand and supply behavior.
+### 2.6. The Separating Hyperplane Theorem
 
-# 2.7. Problems.
+Hyperplanes, separation, the theorem, the proof. Applications: the 2'nd Welfare Theorem (existence of prices), existence of Lagrange multipliers [pass through saddle points and the simplest form of the Kuhn-Tucker theorem]. We did the basic duality theorem with applications to the recovery of preferences and technology from demand and supply behavior.
+
+# ### 2.7. Problems
 
 Problem 2.1.  $1_A(x)$  is the indicator function of a set  $A$ , taking the value 1 when  $x \in A$  and taking the value 0 otherwise. Show that  $(X, \rho)$  is a metric space when  $X$  is non-empty and  $\rho(x, y) = 1_{\{x \neq y\}}(x, y)$ .
 
@@ -694,7 +725,9 @@ Readings: Ross, Chapters 1, 2.1-2, 2.4, 4.1-3, and 6.1-5.
 
 Optimization in dynamic contexts is more difficult, and substantive results that are true in generality are hard to come by. By contrast, in neoclassical demand theory, the general result is that demand functions have a negative semi-definite Slutsky matrix. Don't expect anything so definite here without piles of extra assumptions.
 
-3.1. Compactness and continuity in spaces of sequences. In consumer demand theory, max  $u(x)$  s.t.  $x \geq 0$ ,  $px \leq m$  has a solution if  $u$  is continuous because the constraint set is compact. There is a parallel result for dynamic programming.
+### 3.1. Compactness and continuity in spaces of sequences
+
+In consumer demand theory, max $u(x)$ s.t. $x \geq 0$, $px \leq m$ has a solution if $u$ is continuous because the constraint set is compact. There is a parallel result for dynamic programming.
 
 Each  $(Y_{t},d_{t})$  compact,  $t=0,1,\ldots,\ Y\coloneqq\times_{t}Y_{t}$  , the metric on  $Y$  is
 
@@ -722,7 +755,9 @@ $$
 
 Proof: Uniform continuity and shape of the  $d$ -balls.
 
-3.2. Deterministic Dynamic Programming. Deterministic dynamic programming problems that economists use are almost always problems that maximize continuous functions over compact subsets of compact  $Y$ 's of the form given. They almost always have the following structure: (i) one starts with  $x_0$ , picks  $x_1$ , then restarts with  $x_1$  and picks  $x_2$ , and on and on; (ii) the possible  $x_t$  are constrained by  $x_{t-1}$ ; (iii) in each period  $t$ , the reward depends on the "state,"  $x_{t-1}$  and the action,  $x_t$ ; (iv) rewards are added across periods and discounted; (v) this period's action becomes next period's state.
+### 3.2. Deterministic Dynamic Programming
+
+Deterministic dynamic programming problems that economists use are almost always problems that maximize continuous functions over compact subsets of compact $Y$'s of the form given. They almost always have the following structure: (i) one starts with $x_0$, picks $x_1$, then restarts with $x_1$ and picks $x_2$, and on and on; (ii) the possible $x_t$ are constrained by $x_{t-1}$; (iii) in each period $t$, the reward depends on the "state," $x_{t-1}$ and the action, $x_t$; (iv) rewards are added across periods and discounted; (v) this period's action becomes next period's state.
 
 Some notation,  $(x_0,x_1,x_2,\ldots)=(x_0,x_{1+})$
 
@@ -807,7 +842,9 @@ This last term,  $\beta^nd(f(y),y)[1+\beta+\dots+\beta^{m-1}]$ , goes to 0 as  $
 
 Discuss starting at  $W\equiv 0$  and applying  $\Psi$
 
-3.3. Stochastic Dynamic Programming. Discrete Markov chains and Markovian dynamic programming (Ross, parts of Chapters 1, 2, 4, and 6).
+### 3.3. Stochastic Dynamic Programming
+
+Discrete Markov chains and Markovian dynamic programming (Ross, parts of Chapters 1, 2, 4, and 6).
 
 Chapter 1. Random variables: as distributions, as functions on  $([0,1],\mathcal{B},\lambda)$ , as characteristic functions. State (but do not yet prove) uniqueness and convergence results for characteristic functions.
 

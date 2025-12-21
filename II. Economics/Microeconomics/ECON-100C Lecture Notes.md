@@ -1,18 +1,39 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "ECON-100C Lecture Notes"
+parent_directory: "Microeconomics"
+formatted: "2025-12-21 10:30:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - "intermediate microeconomics"
+  - "market equilibrium"
+  - "consumer producer surplus"
+  - "elasticities"
+  - "externalities"
+  - "public goods"
+secondary_tags:
+  - "supply demand curves"
+  - "price controls"
+  - "taxes excise"
+  - "monopoly pricing"
+  - "oligopoly models"
+  - "game theory"
+  - "asymmetric information"
+  - "adverse selection"
+  - "moral hazard"
+  - "principal agent"
+  - "health insurance markets"
+  - "credit market failures"
+  - "business ownership"
+  - "wealth inequality"
 cssclasses: academia
-title: Announcement
-linter-yaml-title-alias: Announcement
 ---
 
-# Announcement
+## Announcement
 
 This class meeting will be recorded and made available to students asynchronously.
 
-# Lecture 2
+## Lecture 2
 
 Econ 100C: Intermediate Microeconomics Fall 2021
 
@@ -30,7 +51,7 @@ If you are interested in speaking with a current economics PhD student, please f
 
 Questions? Email us at econnected-g@ucsd.edu.
 
-# Roadmap
+## Roadmap
 
 Class logistics:
 
@@ -39,7 +60,7 @@ Problem sets due Fridays at 11pm
 
 - Some weeks there will also be a "reflection"-type homework
 
-# Another resource:
+## Another resource:
 
 https://www.youtube.com/channel/UC40wcWKCjXeXHZwT0LugWNg
 
@@ -53,7 +74,7 @@ https://youtu.be/bVf1jl5_PGk
 https://youtu.be/ztNfcv4NPzU  
 https://youtu.be/0toYU84ylYs
 
-# Survey results
+## Survey results
 
 (If you still haven't filled it out and want to, go to: https://forms.gle/WFcfMHoHD2YyuLdu5)
 
@@ -65,7 +86,7 @@ How are you doing? (select all that apply)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/415b46708364ae1fff2d6b1b3a91b1e09bf4f62a82e1dbb1c6dd830fc0f0a0ac.jpg)
 
-# Survey results
+## Survey results
 
 - Quite a few may not be able to get to class in person
 
@@ -92,14 +113,14 @@ I'm tired of wearing a mask and sometimes just don't want to. (please…
 No preference  
 I limit my time indoors with other people to as close to zero as I can get. Outside…
 
-# Survey results
+## Survey results
 
 - Topics: some of you are interested in macro & finance – topics which we won't be able to cover much this quarter. I started a different Discord server where we can discuss these (and anything else): https://discord.gg/P9TyKZCp
 - This is separate from the class, and is open to students from other/past classes as well.  
 - You can join now or at the end of the quarter if you want to continue any class discussions.
 - Most frequent request was a general one for real-world contemporary issues Please post news articles & policy questions of interest on Discord (or email them to econ100C.Tocoian@gmail.com)
 
-# In Econ 100A and B we assumed perfectly competitive markets
+## In Econ 100A and B we assumed perfectly competitive markets
 
 We made many assumptions:
 
@@ -133,9 +154,9 @@ $\Rightarrow \mathsf{P}^{\uparrow}$  due to competition among buyers
 
 there is excess supply
 
-$\Rightarrow \mathsf{P} \downarrow$  due to competition among sellers
+$\Rightarrow \mathsf{P} \downarrow$ due to competition among sellers
 
-# Market Equilibrium, second interpretation
+## Market Equilibrium, second interpretation
 
 - A market is in equilibrium if no additional opportunities for mutually-beneficial exchange remain for individual buyers and sellers in the market.
 
@@ -437,150 +458,11 @@ SR:
 
 LR:
 
-# At the market level:
+## At the market level:
 
-In the SR price goes up.
-
-Firms enter, market supply shifts right, price falls back to  $P^{*}$  in LR
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/ec584506544114869ad0eb4bd87dad0f318e4ea771efe1ba07c8e637e5f0946e.jpg)  
-$/unit
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/e270f28f693a1335d48bf468281665e4e6c73346d7ee3fc7e0be84a9a51e840e.jpg)  
-$/unit
-
-# Announcement
-
-This class meeting will be recorded and made available to students asynchronously.
-
-# Lecture 3
-
-Econ 100C: Intermediate Microeconomics Fall 2021
-
-# ECONnected
-
-Informal conversations with Econ PhD students about grad school.
-
-What would inspire someone to pursue Economics Graduate School? What is PhD life like? Do your TAs/professors draw supply and demand curves, make mad money on the stock market, or re-cache the infamous Hayek/Keynes debates all day?
-
-ECONnected connects you with an Econ PhD student to discuss these questions!
-
-Whether you know graduate school is for you, and you want to talk about the best strategy for your application process, or you're only starting to consider graduate school and just want to learn more, we are here to get you the information you need.
-
-If you are interested in speaking with a current economics PhD student, please fill out this google form: https://forms.gle/KUDbuM2nFCAtpk6T9.
-
-Questions? Email us at econnected-g@ucsd.edu.
-
-# Continuing from last time:
-
-- Allocative vs. rationing (or distributive) function of price:  
-= where inputs go vs. where outputs go  
-= what/how much is produced vs. who consumes it  
-- Price controls and the inefficiency they introduce:  
-- At any given price  $\mathrm{P}, \mathrm{Q} = \min  \left( {{Q}^{D}\left( P\right) ,{Q}^{S}\left( P\right) }\right)$  will get produced and sold  
-If  $P \neq P^{*}$ ,  $Q < Q^{*}$  
-$\Rightarrow$  (MB - MC) for the "missing" units (from  $Q$  to  $Q^{*}$ ) is unrealized surplus = DWL  
-- The amount of DWL introduced depends on responsive demand/supply are to the price restriction
-
-(Assuming throughout that  $P^{D}(Q) = MB(Q)$  and  $P^{S}(Q) = MC(Q)$ )
-
-# How much of a difference do price controls make? (changes in surplus and DWL)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/dcedcf506d0ee66343cb5e601bb52cad08759a2f1865fe0f8e2c8b94e4cb0b96.jpg)
-
-The quantity transacted is  $Q = \min(Q^D, Q^S)$
-
-DWL increases with the deviation from  $Q^{*}$
-
-$\rightarrow$  The DWL introduced by a price ceiling depends on the elasticity of supply  
-→ The DWL introduced by a price floor depends on the elasticity of demand
-
-Recall the price elasticities of supply and demand:
-
-$$
-\begin{array}{l} \varepsilon_{Q^{S}, P} = \varepsilon^{S} = \frac{\partial Q^{S}}{\partial P} \times \frac{P}{Q^{s}} = \frac{\Delta Q^{S} / Q^{S}}{\Delta P / P} \\ \varepsilon_{Q^{D}, P} = \varepsilon^{D} = \frac{\partial Q^{D}}{\partial P} \times \frac{P}{Q^{D}} = \frac{\Delta Q^{D} / Q^{D}}{\Delta P / P} \\ \end{array}
-$$
-
-# Inefficiency introduced by a price ceiling
-
-# Price ceiling with inelastic supply
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/d7ce6c54787e909fd9dfb509756a96e7e418ee6ae9d94375028a2a572a422900.jpg)
-
-e.g.  $P^{*} = \$ 5, Q^{*} = 100$
-
-$$
-P_{c e i l i n g} = \$ 4
-$$
-
-$$
-\varepsilon^{S} = 0. 2 5
-$$
-
-# Price ceiling with elastic supply
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/b9f2714d1de6c4036932cd571ed879bffd61f851a6be8f0c58eaa37bfb134284.jpg)
-
-e.g.  $P^{*} = \$ 5, Q^{*} = 100$
-
-$$
-P_{c e i l i n g} = \$ 4
-$$
-
-$$
-\varepsilon^{S} = 2 \Rightarrow Q^{\prime} = 6 0
-$$
-
-$$
-\varepsilon^{S} = \frac{\Delta Q / Q}{\Delta P / P} \Rightarrow \frac{\Delta Q}{Q} = \varepsilon^{S} \times \frac{\Delta P}{P} = 0.25 \times 20 \% = 5 \%
-$$
-
-$$
-\Rightarrow Q^{\prime} = 9 5
-$$
-
-# Inefficiency introduced by a price floor
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/970668bc00bbcf41a1cc3eec0c218a4bc2047e425c5e7269fac79ee86568addc.jpg)  
-Price floor with elastic demand
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/2144055a3a33d187d75b6d918a666d43b2c410488c962fa86a336a6537a307d6.jpg)  
-Price floor with inelastic demand
-
-# Short run vs long run adjustment, The long run perfectly comp. market equilibrium
-
-In the short run, supply is often inelastic – even in competitive markets.
-
-What makes long run supply more elastic?
-
-Entry/exit of new producers
-
-# Simulate a demand increase (without price restrictions)
-
-# At the firm level:
-
-SR: Existing firms earn positive profits  
-LR: Both incumbent and new firms earn zero profits.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/3f1763a889167cc8267e11d2a8d604f7b71276a46bfe861e9187c336d50e2a09.jpg)
-
-SR:
-
-LR:
-
-# At the market level:
-
-In the SR price goes up.
-
-Firms enter, market supply shifts right, price falls back to  $P^{*}$  in LR
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/a5986a0a55babc49f9f1d07d61b50ad51760975c8bb6ea2a0da2c92d3f915d89.jpg)  
-$/unit
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/fc895a554602400448c35144cfc1d1ff1ae0f05faa2ea9afaca7a8904d2e1e83.jpg)  
 $\mathbb{S} / \mathbb{u}$  n it
 
-# Free price adjustments and efficiency
+## Free price adjustments and efficiency
 
 - With free entry, allowing price to jump in response to a demand increase ensures larger supply in the long run.  
 - Problems with this model?
@@ -592,16 +474,16 @@ Solution to the problem of essential but sporadically-needed goods?
 
 E.g….
 
-# Overproduction
+## Overproduction
 
 - In class we went over the following scenario: the produced quantity in a given period is higher than intended (e.g. bumper crops in agriculture). Then price would be driven down by the excess quantity available for sale.  
 - If there is a price floor which prevents the good from being sold below some level, some quantity will go unsold, and – assuming it isn't put to some other use – the full area under demand for the segment of quantity from  $Q^{*}$  to  $Q^{\prime}$  (produced but not consumed) would be DWL.  
 - If the gov't were to agree to buy the excess output from producers at that price, the purchase itself would neither increase nor decrease DWL, since all that is happening is a transfer.
 - But, the way in which this purchase is potentially relevant for DWL is if the government announces ahead of time that it will support that price level with public purchases, regardless of what excess quantity is available. See next slide.
 
-# A separate (but related) case:
+## A separate (but related) case:
 
-# Price supports with guaranteed gov't purchase
+## Price supports with guaranteed gov't purchase
 
 (We didn't show this case during lecture)
 
@@ -609,7 +491,7 @@ E.g….
 (This is a different type of price constraint than what we have been discussing. In fact, there is no longer a need for a formal price floor, since producers wouldn't want to sell for a lower price anyway.)  
 - Then there would be intentional over-production, and deadweight loss would be the full area under the supply curve, for the range of quantities from  $Q^{*}$  to  $Q^{\prime}$ , PLUS the full area under the demand curve from the quantity  $Q^{\prime \prime}$  consumers buy to  $Q^{*}$ .
 
-# The two cases
+## The two cases
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/3a68442f00cae5dc83f318fd7bddd9fc5d3978527d010167ab6362a6d7e156bc.jpg)  
 = scenario from class
@@ -617,9 +499,9 @@ E.g….
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/45682cea2b3699046afaaff4d4ef2887663709daebd6fd59f1dd285a15e83adb.jpg)  
 Econ 100C
 
-# Taxes on goods and services
+## Taxes on goods and services
 
-# (General) sales tax
+## (General) sales tax
 
 - is a tax imposed on all commodities (with exceptions) at the point of sale  
 - it specifies a dollar amount per dollar (ad valorem) that has to be collected at the point of sale.
@@ -629,7 +511,7 @@ e.g. the sales tax in San Diego is:  $7.75\%$  ( $= 7.25\%$  state +  $0.5\%$  S
 - Collects money for federal, state, local gov't  
 Generally recognized as a distortionary intervention
 
-# - Excise tax (or specific tax)
+## - Excise tax (or specific tax)
 
 - is imposed on a specific commodity (e.g. cigarettes, alcohol, gasoline)  
 - it usually specifies a dollar amount per unit that has to be collected at the point of sale.
@@ -642,7 +524,7 @@ Intended to:
 - raise money for provision of specific public goods  
 discourage consumption
 
-# Excise taxes – graphical representation
+## Excise taxes – graphical representation
 
 We will focus on excise taxes. The methods and conclusions of the analysis of sales taxes are similar.
 
@@ -653,7 +535,7 @@ Usually, the seller is responsible for collecting the tax. For every unit sold, 
   - At what price will the seller now supply the same quantity  $Q_0$ ?  
 What happens to the supply curve?
 
-# Excise taxes – graphical representation
+## Excise taxes – graphical representation
 
 It's as if the seller has a new supply function  $S'$ :
 
@@ -661,7 +543,7 @@ $S^{\prime}$  is  $S$  shifted up by tax  $t$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/4db2961523a996d8e8a49bd0b3975e87c36181fb73ec431bc6a7659d23bbb95c.jpg)
 
-# Excise taxes – interpretation
+## Excise taxes – interpretation
 
 - Recall technology and costs determine a firm's supply curve  
 - We can think of an excise tax as an extra marginal cost per unit.
@@ -818,18 +700,18 @@ $$
 $$
 
 $$
-P^{d} = 2 0 + 2^{*} t / 3 = 2 8
+P^{d} = 20 + 2^{*} t / 3 = 28
 $$
 
 $$
-P^{S} = 2 0 - t / 3 = 1 6
+P^{S} = 20 - t / 3 = 16
 $$
 
 $$
-Q^{\prime} = 2^{*} 1 6 = 3 2
+Q^{\prime} = 2^{*}16 = 32
 $$
 
-# Incidence of a tax
+## Incidence of a tax
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/1b03c9fe547cd72fe60715d958d674498e4141017b805dd3aa2083f3170b7401.jpg)
 
@@ -838,7 +720,7 @@ The incidence of a tax  $=$  a measure of the effect of a tax on the prices cons
 - The price consumers pay increases by:  $P^{D} - P^{*}$  
 - The price sellers earn decreases by:  $P^{*} - P^{S}$
 
-# Incidence of a tax
+## Incidence of a tax
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/a482191285e9d3a86fe4e9ba3a85f51344cab1bebdda5e07aff05843db643009.jpg)
 
@@ -846,7 +728,7 @@ The incidence of a tax depends on the elasticity of demand and supply.
 
 When supply is more elastic than demand, the incidence of the tax is borne primarily by consumers
 
-# Incidence of a tax, cont'd
+## Incidence of a tax, cont'd
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/da615f4fcc2caccb816589d49ac4bdb8039b5fed7f3ab8172b7b5712e300234f.jpg)
 
@@ -854,7 +736,7 @@ When demand is more elastic than supply, the incidence of the tax is borne prima
 
 In general, the side that can respond less to price (i.e. is less elastic) will bear most of the tax.
 
-# Production quota
+## Production quota
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/dc89bd7ad53646f584ac9416922f5fa0c1502cc2d19027d7bb26e220484232cb.jpg)
 
@@ -862,7 +744,7 @@ A production quota is an upper limit on how much can be produced in a market. (A
 
 Will price end up above or below  $P^{*}$ ?
 
-# Firm supply decision
+## Firm supply decision
 
 How does the firm decide how much to produce?
 
@@ -887,7 +769,7 @@ What does the supply curve (or supply function) show, again?
 It shows the quantity available for sale at any given price:  $q^{S}(P)$  
 $\rightarrow$  This concept does not apply to a firm that can influence price.
 
-# Imperfectly competitive firms have market power
+## Imperfectly competitive firms have market power
 
 Market power is the firm's ability to raise its price without losing all its sales  
 
@@ -904,14 +786,14 @@ Price setter
 
 A price setter will decide how much to produce depending on… consumer demand, market competition, and available options for differentiation.
 
-# Forms of market competition
+## Forms of market competition
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/730cd45f511de89a682e6f06e6c5d0ca671eddb24da1814303e5168359b40df7.jpg)  
 Assume many buyers
 
 Monopsony = market with a single buyer (assume many sellers)
 
-# Monopolist uniform pricing
+## Monopolist uniform pricing
 
 How does the firm decide how much to produce?
 
@@ -1068,7 +950,7 @@ Implied price elasticity of demand?
 
 Applying IEPR we get:  $90\% = \left|\frac{1}{\varepsilon_{Q,P}}\right|$  so  $\varepsilon_{Q,P} = -1.1$
 
-# Under perfect competition we had:
+## Under perfect competition we had:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/7707345e984ce83b6c9efb6653e915e260184da5dbaf9f0fe995564c18dac595.jpg)
 
@@ -1082,7 +964,7 @@ $$
 M R = \frac{\partial T R}{\partial q} = \frac{\partial (P_{m a r k e t} \times q)}{\partial q} = P_{m a r k e t}
 $$
 
-# Under a monopoly?
+## Under a monopoly?
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/c05668ca-6de7-4558-83e9-15faddbfdbc5/4e5272a9bfc86336272d0efb627f0193e8a20db31b9ec64855039976398bff43.jpg)
 
@@ -1176,7 +1058,7 @@ Show surpluses
 
 How would the graph change if  $FC > 0$ ?
 
-# Non-linear demand (and/or MC)
+## Non-linear demand (and/or MC)
 
 (Recall that  $P^{D}(q) = M B(q)$
 
@@ -1301,7 +1183,7 @@ $$
 
 So  $2^{\text{nd}}$  order cond. was  $\frac{\partial MC}{\partial q} > 0$
 
-# Minimum efficient scale (MES)
+## Minimum efficient scale (MES)
 
 = the smallest quantity at which the long run average cost curve attains its minimum point
 
@@ -4278,13 +4160,13 @@ $\Rightarrow$  An individual's optimization
 problem:  $\frac{\partial U_{i}}{\partial H_{i}} = 0$
 
 $$
-\Rightarrow \frac{1 0 0}{n} \frac{\partial (H_{i} + H_{- i})}{\partial H_{i}} = 2 H_{i} \Rightarrow \boxed {H_{i}^{*} = \frac{5 0}{n}}
+\Rightarrow \frac{100}{n} \frac{\partial (H_{i} + H_{- i})}{\partial H_{i}} = 2 H_{i} \Rightarrow \boxed {H_{i}^{*} = \frac{50}{n}}
 $$
 
 $\Rightarrow H = 50$ , and each gets utility
 
 $$
-\begin{array}{l} U_{i}^{*} = \frac{1 0 0 \times 5 0}{n} - \left(\frac{5 0}{n}\right)^{2} = \frac{5 , 0 0 0}{n} - \frac{2 5 0 0}{n^{2}} = \\ \frac{2 , 5 0 0}{n} \left(2 - \frac{1}{n}\right) \\ \end{array}
+\begin{array}{l} U_{i}^{*} = \frac{100 \times 50}{n} - \left(\frac{50}{n}\right)^{2} = \frac{5,000}{n} - \frac{2,500}{n^{2}} = \\ \frac{2,500}{n} \left(2 - \frac{1}{n}\right) \\ \end{array}
 $$
 
 What if we maximize the sum of all utilities?
@@ -4294,13 +4176,13 @@ Choose  $H_{1}, H_{2}, \ldots$  so as to maximize:
 $\Rightarrow \frac{\partial \pi}{\partial H_{i}} - 2 H_{i} = 0$ , for all  $i$
 
 $$
-\begin{array}{l} U_{t o t a l} = \pi - H_{1}^{2} - H_{2}^{2} - \dots - H_{n}^{2} \\ \Rightarrow 1 0 0 - 2 \mathrm{H}_{\mathrm{i}} = 0 \Rightarrow \boxed {H_{i}^{e} = 5 0} \\ \end{array}
+\begin{array}{l} U_{t o t a l} = \pi - H_{1}^{2} - H_{2}^{2} - \dots - H_{n}^{2} \\ \Rightarrow 100 - 2 \mathrm{H}_{\mathrm{i}} = 0 \Rightarrow \boxed {H_{i}^{e} = 50} \\ \end{array}
 $$
 
 $\Rightarrow H = 50 n$ , and each gets utility
 
 $$
-U_{i}^{e} = \frac{1 0 0 \times 5 0 n}{n} - 2, 5 0 0 = 2, 5 0 0
+U_{i}^{e} = \frac{100 \times 50 n}{n} - 2,500 = 2,500
 $$
 
 $\Rightarrow U_{i}^{*} = U_{i}^{e}$  only for  $n = 1$

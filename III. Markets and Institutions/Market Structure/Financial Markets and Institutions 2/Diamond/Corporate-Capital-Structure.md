@@ -1,14 +1,30 @@
 ---
+title: Corporate Capital Structure: The Control Roles of Bank and Public Debt with Taxes and Costly Bankruptcy
 parent_directory: Diamond
-title: "Corporate Capital Structure: The Control Roles of Bank and Public Debt with Taxes and Costly Bankruptcy"
-tags:
-aliases:
-  - Corporate Capital Structure
-parent_folder: Diamond
-subfolder:
-key_concepts:
+formatted: 2025-12-21 10:45:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - capital structure theory
+  - debt financing trade-offs
+  - bank debt advantages
+  - public debt costs
+  - corporate control mechanisms
+  - bankruptcy incentives
+secondary_tags:
+  - tax deductibility
+  - agency problems
+  - investment decisions
+  - debt covenants
+  - financial distress
+  - leverage optimization
+  - creditor monitoring
+  - debt renegotiation
+  - investment incentives
+  - bankruptcy costs
+  - firm value maximization
+  - risk management
 cssclasses: academia
-linter-yaml-title-alias: "Corporate Capital Structure: The Control Roles of Bank and Public Debt with Taxes and Costly Bankruptcy"
 ---
 
 # Corporate Capital Structure: The Control Roles of Bank and Public Debt with Taxes and Costly Bankruptcy

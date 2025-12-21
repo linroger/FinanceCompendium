@@ -1,4 +1,34 @@
 
+---
+title: Cross-Sectional Factor-Based Models and Trading Strategies
+parent_directory: Factor Models for Portfolio Construction
+formatted: 2025-12-21 11:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - factor models
+  - portfolio construction
+  - trading strategies
+  - factor premiums
+  - cross-sectional analysis
+secondary_tags:
+  - portfolio sorts
+  - information coefficients
+  - fama-macbeth regression
+  - factor portfolios
+  - model evaluation
+  - multifactor trading
+  - risk-adjusted performance
+  - return forecasting
+  - factor exposures
+  - quantitative asset management
+  - factor weights
+  - optimization approaches
+  - heuristic methods
+  - data driven models
+cssclasses: academia
+---
+
 # Cross-Sectional Factor-Based Models and Trading Strategies
 
 JOSEPH A. CERNIGLIA
@@ -24,7 +54,7 @@ We begin by reviewing several approaches for the evaluation of return premiums a
 
 Throughout this entry, we provide a series of examples, including backtests of a multifactor trading strategy. The purpose of these examples is not to attempt to provide a profitable trading strategy, but rather to illustrate the process a financial modeler may follow when performing research. We emphasize that the factors that we use are well known and have for years been exploited by industry practitioners. We think that the value added of these examples is in the concrete illustration of the research and development process of a factor-based trading model.
 
-# CROSS-SECTIONAL METHODS FOR EVALUATION OF FACTOR PREMIUMS
+## CROSS-SECTIONAL METHODS FOR EVALUATION OF FACTOR PREMIUMS
 
 # Portfolio Sorts
 
