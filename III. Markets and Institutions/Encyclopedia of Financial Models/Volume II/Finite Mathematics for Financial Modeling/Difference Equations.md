@@ -87,7 +87,7 @@ $$
 
 Suppose that time extends from  $0\Rightarrow \infty ,t = 0,1$  2,... and that the initial conditions  $(x_{-1},x_{-2},\dots$ $x_{-P})$  are given.
 
-# Real Roots
+### Real Roots
 
 Consider first the case of real roots. In this case, as we see later in this entry, solutions are sums of exponentials. First suppose that the roots of the characteristic equation are all real and distinct. It can be verified by substitution that any series of the form
 
@@ -723,7 +723,7 @@ $$
 
 These four matrices have all algebraic multiplicity 3 but geometric multiplicity from left to right 1, 2, 2, 3, respectively.
 
-# KEY POINTS
+## KEY POINTS
 
 - Homogeneous difference equations are linear conditions that link the values of variables at different time lags.
 - In the case of real roots, solutions are sums of exponentials. Any linear combination of solu tions of the homogeneous difference equation is another solution.
@@ -734,11 +734,11 @@ These four matrices have all algebraic multiplicity 3 but geometric multiplicity
 - A system of difference equations is called homogeneous if the system's exogenous variable is zero, and nonhomogeneous if the exogenous term is present.
 - One method of solving first-order systems of difference equations is by eliminating variables as in ordinary algebraic systems; another way is a direct method that can be used to solve systems of linear difference equations of any order.
 
-# NOTE
+## NOTE
 
 1. This discussion of systems of difference equations draws on Elaydi (2002).
 
-# REFERENCES
+## REFERENCES
 
 Elaydi, S. (2002). An Introduction to Difference Equations. New York: Springer Verlag.
 Goldberg, S. (2010). Introduction to Difference Equations. New York: Dover Publications.

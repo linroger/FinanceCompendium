@@ -1,25 +1,23 @@
 ---
-title: "Risk Measures and Portfolio Selection"
-parent_directory: "Volume III"
-formatted: "2025-12-21 12:15:00 PM"
-formatter_model: "claude-sonnet-4-5-20241022"
-cli_tool: "claude-code"
+title: Risk Measures and Portfolio Selection
+parent_directory: Risk Measures
+formatted: 2025-12-21 07:56:25 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-  - risk measures
-  - portfolio selection
+  - portfolio risk measures
   - dispersion measures
   - safety-first measures
-secondary_tags:
   - value at risk
-  - conditional value at risk
+secondary_tags:
   - mean variance analysis
-  - non-normal distributions
-  - downside risk
+  - conditional value at risk
+  - expected tail loss
   - lower partial moment
   - gini index
-  - mean absolute deviation
-  - exponential entropy
-  - minimax risk
+  - entropy measures
+  - min-max risk
+  - downside risk
 cssclasses: academia
 ---
 
@@ -226,7 +224,7 @@ $$ where the minimum is taken over all joint distributions of  $(r_p, r_b)$  wit
 
 
 $$
-\begin{array}{l} F (x) = P \left(r_{p} \leq x\right) \text{an d} \\ G (x) = P \left(r_{b} \leq x\right), \quad x \text{re al} \\ \end{array}
+\begin{array}{l} F (x) = P \left(r_{p} \leq x\right) \text{and} \\ G (x) = P \left(r_{b} \leq x\right), \quad x \text{real} \\ \end{array}
 $$
 
 Here  $r_b$  is the benchmark return, say, the return of a market index, or just the risk-free rate (U.S. Treasury rate or LIBOR, for example).

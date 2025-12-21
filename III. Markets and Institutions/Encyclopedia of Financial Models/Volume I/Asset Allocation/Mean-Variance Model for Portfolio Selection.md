@@ -1,3 +1,31 @@
+---
+title: "Mean-Variance Model for Portfolio Selection"
+parent_directory: Encyclopedia of Financial Models/Volume I/Asset Allocation
+formatted: 2025-12-21 08:15:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - portfolio selection theory
+  - mean-variance analysis
+  - efficient portfolios
+  - diversification principles
+secondary_tags:
+  - utility functions
+  - risk measurement
+  - expected returns
+  - covariance analysis
+  - global minimum variance
+  - correlation effects
+  - asset allocation
+  - robust optimization
+  - markowitz model
+  - investment risk
+  - portfolio optimization
+  - standard deviation
+  - statistical measures
+  - behavioral economics
+cssclasses: academia
+---
 
 # Mean-Variance Model for Portfolio Selection
 
@@ -18,11 +46,11 @@ It would not be an overstatement to say that modern portfolio theory has revolut
 Though practitioners realized that the risks of individual assets were related, before modern portfolio theory, they were unable to formalize how combining these assets into a portfolio impacted the risk at the entire portfolio level, or how the addition of a new asset would change the return-risk characteristics of the portfolio. This is because practitioners were unable to quantify the returns and risks of their investments. Furthermore, in the context of the entire portfolio, they were also unable to formalize the interaction of the returns and risks across asset classes and individual assets. The failure to quantify these important measures and formalize these important relationships made the goal of constructing an optimal portfolio highly subjective and provided no insight into the return investors could expect and the risk they were undertaking. The other drawback before the advent of the theory of portfolio selection and asset pricing theory was that there was no mea surement tool available to investors for judging the performance of their investment managers.
 
 
-# SOME BASIC CONCEPTS
+## SOME BASIC CONCEPTS
 
 Portfolio theory draws on concepts from two fields: financial economic theory and probability and statistical theory. This section presents the concepts from financial economic theory used in portfolio theory. While many of the concepts presented here have a more technical or rigorous definition, the purpose is to keep the explanations simple and intuitive so that the importance and contribution of these concepts to the development of modern portfolio theory can be appreciated.
 
-# Utility Function and Indifference Curves
+## Utility Function and Indifference Curves
 
 There are many situations where entities (i.e., individuals and firms) face two or more choices. The economic "theory of choice" uses the concept of a utility function to describe the way entities make decisions when faced with a set of choices. A utility function assigns a (numeric) value to all possible choices faced by the entity. The higher the value of a particular choice, the greater the utility derived from that choice. The choice that is selected is the one that results in the maximum utility given a set of constraints faced by the entity.
 
@@ -31,19 +59,18 @@ In portfolio theory too, entities are faced with a set of choices. Different por
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/23cfb24d0642ee3402ca18c2f5d7a1aa4b7665b456b487c44975d7327a7a4549.jpg)
 Figure 1 Indifference Curves
 
-
 A utility function can be expressed in graphical form by a set of indifference curves. Figure 1 shows indifference curves labeled  $u_{1}$ ,  $u_{2}$ , and  $u_{3}$ . By convention, the horizontal axis measures risk and the vertical axis measures expected return. Each curve represents a set of portfolios with different combinations of risk and return. All the points on a given indifference curve indicate combinations of risk and expected return that will give the same level of utility to a given investor. For example, on utility curve  $u_{1}$ , there are two points  $u$  and  $u'$ , with  $u$  having a higher expected return than  $u'$ , but also having a higher risk. Because the two points lie on the same indifference curve, the investor has an equal preference for (or is indifferent to) the two points, or, for that matter, any point on the curve. The (positive) slope of an indifference curve reflects the fact that, to obtain the same level of utility, the investor requires a higher expected return in order to accept higher risk.
 
 For the three indifference curves shown in Figure 1, the utility the investor receives is greater the further the indifference curve is from the horizontal axis because that curve represents a higher level of return at every level of risk. Thus, for the three indifference curves shown in the figure,  $u_{3}$  has the highest utility and  $u_{1}$  the lowest.
 
 
-# The Set of Efficient Portfolios and the Optimal Portfolio
+## The Set of Efficient Portfolios and the Optimal Portfolio
 
 Portfolios that provide the largest possible expected return for given levels of risk are called efficient portfolios. To construct an efficient portfolio, it is necessary to make some assumption about how investors behave when making investment decisions. One reasonable assumption is that investors are risk averse. A risk-averse investor is an investor who, when faced with choosing between two investments with the same expected return but two different risks, prefers the one with the lower risk.
 
 In selecting portfolios, an investor seeks to maximize the expected portfolio return given his tolerance for risk. (Alternatively stated, an investor seeks to minimize the risk that he is exposed to given some target expected return.) Given a choice from the set of efficient portfolios, an optimal portfolio is the one that is most preferred by the investor.
 
-# Risky Assets vs. Risk-Free Assets
+## Risky Assets vs. Risk-Free Assets
 
 A risky asset is one for which the return that will be realized in the future is uncertain. For example, an investor who purchases the stock of Pfizer Corporation today with the intention of holding it for some finite time does not know what return will be realized at the end of the holding period. The return will depend on the price of Pfizer's stock at the time of sale and on the dividends that the company pays during the holding period. Thus, Pfizer stock, and indeed the stock of all companies, is a risky asset.
 
@@ -52,11 +79,11 @@ Securities issued by the U.S. government are also risky. For example, an investo
 
 There are assets, however, for which the return that will be realized in the future is known with certainty today. Such assets are referred to as risk-free or riskless assets. The risk-free asset is commonly defined as a short-term obligation of the U.S. government. For example, if an investor buys a U.S. government security that matures in one year and plans to hold that security for one year, then there is no uncertainty about the return that will be realized. The investor knows that in one year, the maturity date of the security, the government will pay a specific amount to retire the debt. Notice how this situation differs for the U.S. government security that matures in 30 years. While the 1-year and the 30-year securities are obligations of the U.S. government, the former matures in one year so that there is no uncertainty about the return that will be realized. In contrast, while the investor knows what the government will pay at the end of 30 years for the 30-year bond, he does not know what the price of the bond will be one year from now.
 
-# MEASURING A PORTFOLIO'S EXPECTED RETURN
+## MEASURING A PORTFOLIO'S EXPECTED RETURN
 
 We are now ready to define the actual and expected return of a risky asset and a portfolio of risky assets.
 
-# Measuring Single-Period Portfolio Return
+### Measuring Single-Period Portfolio Return
 
 The actual return on a portfolio of assets over some specific time period is straightforward to calculate using the formula:
 
@@ -97,7 +124,7 @@ $$
 R_{p} = 0.24 (12 \%) + 0.32 (10 \%) + 0.44 (5 \%) = 8.28 \%
 $$
 
-# The Expected Return of a Portfolio of Risky Assets
+### The Expected Return of a Portfolio of Risky Assets
 
 Equation (1) shows how to calculate the actual return of a portfolio over some specific time period. In portfolio management, the investor also wants to know the expected (or anticipated) return from a portfolio of risky assets. The expected portfolio return is the weighted average of the expected return of each asset in the portfolio. The weight assigned to the expected return of each asset is the percentage of the market value of the asset to the total market value of the portfolio. That is,
 
@@ -118,51 +145,51 @@ $$ where
 
 
 $$
-R_{n} = \text{th en th po ss ib le ra te of re tu rn fo ra ss et} i
+R_{n} = \text{the nth possible rate of return for asset} i
 $$
 
 $$
-\begin{array}{l} p_{n} = \text{th ep ro ba bi li ty of at ta in in gt he ra te of re tu rn R_{n} f o r a s s e t i} \end{array}
+\begin{array}{l} p_{n} = \text{the probability of attaining the rate of return R_{n} for asset i} \end{array}
 $$
 
 $$
-N = \text{th en um be ro fp os si bl eo ut co me sf or th e}
+N = \text{the number of possible outcomes for the}
 $$
 
 How do we specify the probability distribution of returns for an asset? We shall see later
 
 Table 1 Probability Distribution for the Rate of Return for Stock XYZ
 
-<table><tr><td>n</td><td>Rate of Return</td><td>Probability of Occurrence</td></tr><tr><td>1</td><td>12\%</td><td>0.18</td></tr><tr><td>2</td><td>10\%</td><td>0.24</td></tr><tr><td>3</td><td>8\%</td><td>0.29</td></tr><tr><td>4</td><td>4\%</td><td>0.16</td></tr><tr><td>5</td><td>-4\%</td><td>0.13</td></tr><tr><td>Total</td><td></td><td>1.00</td></tr></table> on in this entry that in most cases the probability distribution of returns is based on long-run historical returns. If there is no reason to believe that future long-run returns should differ significantly from historical long-run returns, then probabilities assigned to different return outcomes based on the historical long-run performance of an uncertain investment could be a reasonable estimate for the probability distribution. However, for the purpose of illustration, assume that an investor is considering an investment, stock XYZ, which has a probability distribution for the rate of return for some time period as given in Table 1. The stock has five possible rates of return and the probability distribution specifies the likelihood of occurrence (in a probabilistic sense) of each of the possible outcomes.
+<table><tr><td>n</td><td>Rate of Return</td><td>Probability of Occurrence</td></tr><tr><td>1</td><td>12\%</td><td>0.18</td></tr><tr><td>2</td><td>10\%</td><td>0.24</td></tr><tr><td>3</td><td>8\%</td><td>0.29</td></tr><tr><td>4</td><td>4\%</td><td>0.16</td></tr><tr><td>5</td><td>-4\%</td><td>0.13</td></tr><tr><td>Total</td><td></td><td>1.00</td></tr></table> on this entry that in most cases the probability distribution of returns is based on long-run historical returns. If there is no reason to believe that future long-run returns should differ significantly from historical long-run returns, then probabilities assigned to different return outcomes based on the historical long-run performance of an uncertain investment could be a reasonable estimate for the probability distribution. However, for the purpose of illustration, assume that an investor is considering an investment, stock XYZ, which has a probability distribution for the rate of return for some time period as given in Table 1. The stock has five possible rates of return and the probability distribution specifies the likelihood of occurrence (in a probabilistic sense) of each of the possible outcomes.
 
 
 Substituting into equation (4) we get
 
 $$
-\begin{array}{l} E \left(R_{X Y Z}\right) = 0.18 (12 \%)+ 0.24 (10 \%)+ 0.29 (8 \% \\ +0.16(4\%) + 0.13(-4\%) \\ = 7 \% \\ \end{array}
+\begin{array}{l} E \left(R_{X Y Z}\right) = 0.18 (12 \%)+ 0.24 (10 \%)+ 0.29 (8 \%)+0.16(4\%) + 0.13(-4\%) = 7 \% \\ \end{array}
 $$
 
 Thus,  $7\%$  is the expected return or mean of the probability distribution for the rate of return on stock XYZ.
 
-# MEASURING PORTFOLIO RISK
+## MEASURING PORTFOLIO RISK
 
 Investors have used a variety of definitions to describe risk. Markowitz (1952, 1959) quantified the concept of risk using the well-known statistical measure: the standard deviation and the variance. The former is the intuitive concept. For most probability density functions, about
 
 $95\%$  of the outcomes fall in the range defined by two standard deviations above and below the mean. Variance is defined as the square of the standard deviation. Computations are simplest in terms of variance. Therefore, it is convenient to compute the variance of a portfolio and then take its square root to obtain standard deviation.
 
-# Variance and Standard Deviation as a Measure of Risk
+### Variance and Standard Deviation as a Measure of Risk
 
 The variance of a random variable is a measure of the dispersion or variability of the possible outcomes around the expected value (mean). In the case of an asset's return, the variance is a measure of the dispersion of the possible rate of return outcomes around the expected return.
 
 The equation for the variance of the expected return for asset  $i$ , denoted  $\operatorname{var}(R_i)$ , is
 
 $$
-\begin{array}{l} \operatorname{va r} \left(R_{i}\right) = p_{1} \left[ r_{1} - E \left(R_{i}\right) \right]^{2} + p_{2} \left[ r_{2} - E \left(R_{i}\right) \right]^{2} + \dots \\ + p_{N} \left[ r_{N} - E \left(R_{i}\right) \right]^{2} \\ \end{array}
+\begin{array}{l} \operatorname{var} \left(R_{i}\right) = p_{1} \left[ r_{1} - E \left(R_{i}\right) \right]^{2} + p_{2} \left[ r_{2} - E \left(R_{i}\right) \right]^{2} + \dots \\ + p_{N} \left[ r_{N} - E \left(R_{i}\right) \right]^{2} \\ \end{array}
 $$ or
 
 
 $$
-\operatorname{va r} \left(R_{i}\right) = \sum_{n = 1}^{N} p_{n} \left[ r_{n} - E \left(R_{i}\right) \right]^{2} \tag {5}
+\operatorname{var} \left(R_{i}\right) = \sum_{n = 1}^{N} p_{n} \left[ r_{n} - E \left(R_{i}\right) \right]^{2} \tag {5}
 $$
 
 Using the probability distribution of the return for stock XYZ, we can illustrate the calculation of the variance:
@@ -187,12 +214,12 @@ $$
 
 The variance and standard deviation are conceptually equivalent; that is, the larger the variance or standard deviation, the greater the investment risk. (A criticism of the variance or standard deviation as a measure is discussed later in this entry.)
 
-# Measuring the Portfolio Risk of a Two-Asset Portfolio
+### Measuring the Portfolio Risk of a Two-Asset Portfolio
 
 Equation (5) gives the variance for an individual asset's return. The variance of a portfolio consisting of two assets is a little more difficult to calculate. It depends not only on the variance of the two assets, but also upon how closely the returns of one asset track those of the other asset. The formula is
 
 $$
-\begin{array}{l} \operatorname{va r} \left(R_{p}\right) = w_{i}^{2} \operatorname{va r} \left(R_{i}\right) + w_{j}^{2} \operatorname{va r} \left(R_{j}\right) \\ + 2 w_{i} w_{j} \operatorname{co v} \left(R_{i}, R_{j}\right) \tag {6} \\ \end{array}
+\begin{array}{l} \operatorname{var} \left(R_{p}\right) = w_{i}^{2} \operatorname{var} \left(R_{i}\right) + w_{j}^{2} \operatorname{var} \left(R_{j}\right) \\ + 2 w_{i} w_{j} \operatorname{co v} \left(R_{i}, R_{j}\right) \tag {6} \\ \end{array}
 $$ where
 
 
@@ -200,7 +227,7 @@ $\operatorname{cov}(R_i, R_j) = \text{covariancebetweenthereturnforassets } i$  
 
 In words, equation (6) states that the variance of the portfolio return is the sum of the squared weighted variances of the two assets plus two times the weighted covariance between the two assets. We will see that this equation can be generalized to the case where there are more than two assets in the portfolio.
 
-# Covariance
+### Covariance
 
 The covariance has a precise mathematical translation. Its practical meaning is the degree to which the returns of two assets covary or change together. The covariance is not expressed in a particular unit, such as dollars or percent. A positive covariance means the returns on two assets tend to move or change in
 
@@ -226,7 +253,7 @@ $$
 \begin{array}{l} \operatorname{co v} \left(R_{X Y Z}, R_{A B C}\right) \\ = 0.18(12\% -7\%) (21\% -10\%) \\ +0.24(10\% -7\%) (14\% -10\%) + 0.29(8\%) \\ -7\%)(9\% -10\%) + 0.16(4\% -7\%)(4\% -10\%) \\ +0.13(-4\% -7\%)(-3\% -10\%) = 0.3396\% \\ \end{array}
 $$
 
-# Relationship between Covariance and Correlation
+### Relationship between Covariance and Correlation
 
 The correlation is related to the covariance between the expected returns for two assets. Specifically, the correlation between the returns for assets  $i$  and  $j$  is defined as the covariance of the two assets divided by the product of their standard deviations:
 
@@ -242,22 +269,22 @@ $$
 
 The correlation coefficient can have values ranging from  $+1.0$ , denoting perfect comovement in the same direction, to  $-1.0$ , denoting perfect comovement in the opposite direction. Also note that because the standard deviations are always positive, the correlation can only be negative if the covariance is a negative number. A correlation of zero implies that the returns are uncorrelated.
 
-# Measuring the Risk of a Portfolio Consisting of More than Two Assets
+### Measuring the Risk of a Portfolio Consisting of More than Two Assets
 
 So far we have defined the risk of a portfolio consisting of two assets. The extension to three assets— $i, j,$  and  $k$ —is as follows:
 
 $$
-\begin{array}{l} \operatorname{va r} \left(R_{p}\right) = w_{i}^{2} \operatorname{va r} \left(R_{i}\right) + w_{j}^{2} \operatorname{va r} \left(R_{j}\right) + w_{k}^{2} \operatorname{va r} \left(R_{k}\right) \\ + 2 w_{i} w_{j} \operatorname{co v} \left(R_{i}, R_{j}\right) + 2 w_{i} w_{k} \operatorname{co v} \left(R_{i}, R_{k}\right) \\ + 2 w_{j} w_{k} \operatorname{co v} \left(R_{j}, R_{k}\right) \tag {9} \\ \end{array}
+\begin{array}{l} \operatorname{var} \left(R_{p}\right) = w_{i}^{2} \operatorname{var} \left(R_{i}\right) + w_{j}^{2} \operatorname{var} \left(R_{j}\right) + w_{k}^{2} \operatorname{var} \left(R_{k}\right) \\ + 2 w_{i} w_{j} \operatorname{co v} \left(R_{i}, R_{j}\right) + 2 w_{i} w_{k} \operatorname{co v} \left(R_{i}, R_{k}\right) \\ + 2 w_{j} w_{k} \operatorname{co v} \left(R_{j}, R_{k}\right) \tag {9} \\ \end{array}
 $$
 
 In words, equation (9) states that the variance of the portfolio return is the sum of the squared weighted variances of the individual assets plus two times the sum of the weighted pairwise covariances of the assets. In general, for a portfolio with  $G$  assets, the portfolio variance is given by
 
 
 $$
-\begin{array}{l} \operatorname{va r} \left(R_{p}\right) = \sum_{g = 1}^{G} w_{g}^{2} \operatorname{va r} \left(R_{g}\right) \\ + \sum_{\substack {g = 1 \\ \text{and}} \sum_{\substack {h = 1 \\ h \neq g}}^{G} w_{g} w_{h} \operatorname{cov} \left(R_{g}, R_{h}\right)} \tag{10} \\ \end{array}
+\begin{array}{l} \operatorname{var} \left(R_{p}\right) = \sum_{g = 1}^{G} w_{g}^{2} \operatorname{var} \left(R_{g}\right) \\ + \sum_{\substack {g = 1 \\ \text{and}} \sum_{\substack {h = 1 \\ h \neq g}}^{G} w_{g} w_{h} \operatorname{cov} \left(R_{g}, R_{h}\right)} \tag{10} \\ \end{array}
 $$
 
-# PORTFOLIO DIVERSIFICATION
+## PORTFOLIO DIVERSIFICATION
 
 Often, one hears investors talking about diversifying their portfolio. By this an investor means constructing a portfolio in such a way as to reduce portfolio risk without sacrificing return. This is certainly a goal that investors should seek. However, the question is how to do this in practice.
 
@@ -296,7 +323,7 @@ $$
 The variance of the return on the two-stock portfolio from equation (6), using decimal form rather than percentage form for the standard deviation inputs, is
 
 $$
-\begin{array}{l} \operatorname{va r} \left(R_{p}\right) = w_{C}^{2} \operatorname{va r} \left(R_{C}\right) + w_{D}^{2} \operatorname{va r} \left(R_{D}\right) \\ + 2 w_{C} w_{D} \operatorname{co v} \left(R_{C}, R_{D}\right) \\ = (0. 5)^{2} (0. 3 0)^{2} + (0. 5)^{2} (0. 4 0)^{2} \\ + 2 (0. 5) (0. 5) \operatorname{co v} \left(R_{C}, R_{D}\right) \\ \end{array}
+\begin{array}{l} \operatorname{var} \left(R_{p}\right) = w_{C}^{2} \operatorname{var} \left(R_{C}\right) + w_{D}^{2} \operatorname{var} \left(R_{D}\right) \\ + 2 w_{C} w_{D} \operatorname{co v} \left(R_{C}, R_{D}\right) \\ = (0. 5)^{2} (0. 3 0)^{2} + (0. 5)^{2} (0. 4 0)^{2} \\ + 2 (0. 5) (0. 5) \operatorname{co v} \left(R_{C}, R_{D}\right) \\ \end{array}
 $$
 
 From equation (8),
@@ -319,7 +346,7 @@ $$
 Substituting into the expression for  $\operatorname{var}(R_p)$ , we get
 
 $$
-\begin{array}{l} \operatorname{va r} \left(R_{p}\right) = (0. 5)^{2} (0. 3 0)^{2} + (0. 5)^{2} (0. 4 0)^{2} \\ + 2 (0. 5) (0. 5) (0. 3 0) (0. 4 0) \operatorname{co r} \left(R_{C}, R_{D}\right) \\ \end{array}
+\begin{array}{l} \operatorname{var} \left(R_{p}\right) = (0. 5)^{2} (0. 3 0)^{2} + (0. 5)^{2} (0. 4 0)^{2} \\ + 2 (0. 5) (0. 5) (0. 3 0) (0. 4 0) \operatorname{co r} \left(R_{C}, R_{D}\right) \\ \end{array}
 $$
 
 Taking the square root of the variance gives

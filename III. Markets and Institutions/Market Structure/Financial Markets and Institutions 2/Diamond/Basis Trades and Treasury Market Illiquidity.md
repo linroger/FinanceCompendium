@@ -1,19 +1,26 @@
 ---
 title: Basis Trades and Treasury Market Illiquidity
 parent_directory: Diamond
-formatted: "2025-12-21 11:03:25 PM"
+formatted: 2025-12-21 11:09:25 PM
 formatter_model: grok-code-fast-1
 cli_tool: opencode
 primary_tags:
   - treasury basis trades
   - market illiquidity
   - hedge fund risks
+  - federal reserve intervention
+  - cheapest-to-deliver treasury
 secondary_tags:
   - repo market financing
   - futures convergence
   - margin requirements
   - rollover risk
   - implied repo rate
+  - basis trade profitability
+  - margin call stress
+  - risk neutral pricing
+  - bond option valuation
+  - interest rate parity
 cssclasses: academia
 ---
 
@@ -1315,66 +1322,17 @@ Feb 10 Feb 24 Mar 09 Mar 23 Apr 06 Apr 20
 
 Following March 16, returns on basis trades began to move back into line with the returns on Treasury bills, and came closer to the cost of borrowing in the sponsored repo market. Several Fed actions on March 16 and 17 may have contributed to this easing of pressure on hedge funds. In particular, Federal Reserve expansions of Treasury purchases provided an additional source of demand for off-the-run Treasuries, while expansions of the central bank's repo facility reduced financing risks associated with providing liquidity to Treasury markets. It is difficult to know exactly which of these actions was most important, in particular because they were mutually reinforcing.
 
-The Federal Reserve took the unusual action of including
+The Federal Reserve took the unusual action of including the cheapest-to-deliver Treasury across contracts in its purchases. The direct effect of these purchases may have been limited. Purchases of deliverables for longer duration securities picked up almost immediately after March 15. However, these longer-duration securities seem to have made up a relatively small portion of hedge fund short futures positions. Alternatively, Fed purchases of the most popular two-year and fiveyear cheapest-to-deliver Treasuries were negligible until April. This is consistent with the basis trade still providing liquidity to the market, as dealers may have been more comfortable holding Treasuries for which they had a natural source of demand from basis traders.
 
-the cheapest-to-deliver Treasury across contracts in its
+However, the indirect effect of including cheapest-to-deliver Treasuries in Federal Reserve purchases may have been substantial. Even if purchases of shorter-maturity cheapest-to-deliver Treasuries on March 16 were small, the knowledge that the Treasuries could be sold to the Federal Reserve in the future may have made dealers more willing to hold these Treasuries, allowing hedge funds to gradually reduce their exposure to the basis trade. The increase in Federal Reserve purchases in April may then represent concerns over the longer-term profitability of basis trades, which as we discuss below is likely to be reduced. Without these actions, dealers may not have been willing to hold the cheapest-to-deliver securities in order to accommodate a gradual withdrawal from the basis trade.
 
-purchases. The direct effect of these purchases may
+As these purchases may have made dealers more willing to accept cheapest-to-deliver Treasuries, the Fed also lowered the costs of funding these Treasury holdings for hedge funds. Fed actions succeeded in lowering the
 
-have been limited. Purchases of deliverables for longer
+Figure 21. Cumulative Federal Reserve Purchases of Cheapest-to-Deliver Securities ($ billions)
 
-duration securities picked up almost immediately after
-
-March 15. However, these longer-duration securities seem to have made up a relatively small portion
-
-of hedge fund short futures positions. Alternatively,
-Fed purchases of the most popular two-year and fiveyear cheapest-to-deliver Treasuries were negligible
-until April. This is consistent with the basis trade still
-providing liquidity to the market, as dealers may have
-been more comfortable holding Treasuries for which
-they had a natural source of demand from basis traders.
-
-However, the indirect effect of including cheapest-to-deliver Treasuries in Federal Reserve purchases
-
-may have been substantial. Even if purchases of shorter-maturity cheapest-to-deliver Treasuries on March 16
-
-were small, the knowledge that the Treasuries could
-
-be sold to the Federal Reserve in the future may have
-
-made dealers more willing to hold these Treasuries,
-
-allowing hedge funds to gradually reduce their exposure to the basis trade. The increase in Federal Reserve
-
-purchases in April may then represent concerns over
-
-the longer-term profitability of basis trades, which as
-
-we discuss below is likely to be reduced. Without these
-
-actions, dealers may not have been willing to hold the
-
-cheapest-to-deliver securities in order to accommodate
-
-a gradual withdrawal from the basis trade.
-
-As these purchases may have made dealers more willing
-
-to accept cheapest-to-deliver Treasuries, the Fed also
-
-lowered the costs of funding these Treasury holdings
-
-for hedge funds. Fed actions succeeded in lowering the
-
-Figure 21. Cumulative Federal Reserve Purchases of
-
-|Col1|e Cheapest-to-Deliver Securities ($ billions) 2-Year CTD|Col3|
-|---|---|---|
-||2-Year CTD<br> <br>2-Year CTD<br>~~5~~-Year CTD|2-Year CTD<br> <br>2-Year CTD<br>~~5~~-Year CTD|
-|2<br>4<br>6<br>8<br>0|5-Year CTD<br>10-Year CTD<br>Bond CTD<br> <br>~~1~~0-Year CTD<br>~~B~~one CTD||
-|2<br>4<br>6<br>8<br>0|5-Year CTD<br>10-Year CTD<br>Bond CTD<br> <br>~~1~~0-Year CTD<br>~~B~~one CTD||
-|2<br>4<br>6<br>8<br>0|5-Year CTD<br>10-Year CTD<br>Bond CTD<br> <br>~~1~~0-Year CTD<br>~~B~~one CTD||
-|2<br>4<br>6<br>8<br>0|||
+| Date | 2-Year CTD | 5-Year CTD | 10-Year CTD | Bond CTD |
+|------|------------|------------|-------------|----------|
+| Various dates | Data points | Data points | Data points | Data points |
 
 Jan 01 Jan 15 Feb 01 Feb 15 Mar 01 Mar 15 Apr 01 Apr 15 May 01
 
@@ -1384,25 +1342,7 @@ Treasuries for June delivery.
 
 Sources: Federal Reserve Bank of New York, Office of Financial Research
 
-DVP repo rate across segments of the market, including
-
-in the sponsored borrowing segment. Expansion of
-
-the repo facility likely reduced these rates by relieving
-
-liquidity concerns among dealers. Following this
-
-expansion on March 16, the sponsored lending rate fell
-
-to the zero lower bound defined by the Fed's overnight
-
-reverse repurchase (ON-RRP) facility (see **Figure 21** ).
-
-The rate on sponsored borrowing largely fell in lockstep,
-
-reducing the cost of funding these Treasury positions
-
-for hedge funds.
+DVP repo rate across segments of the market, including in the sponsored borrowing segment. Expansion of the repo facility likely reduced these rates by relieving liquidity concerns among dealers. Following this expansion on March 16, the sponsored lending rate fell to the zero lower bound defined by the Fed's overnight reverse repurchase (ON-RRP) facility (see **Figure 21** ). The rate on sponsored borrowing largely fell in lockstep, reducing the cost of funding these Treasury positions for hedge funds.
 
 ## Conclusion
 
@@ -1505,106 +1445,25 @@ broader wholesale funding markets. Future episodes of
 Treasury market instability therefore remain a possibility and may trigger continued intervention by the
 Federal Reserve.
 
-OFR Brief Series | 20-01 July 2020 | Page 17
+
 
 ## Endnotes
 
-1 Daniel Barth, Senior Economist, Board of
+1 Daniel Barth, Senior Economist, Board of Governors of the Federal Reserve System (daniel.j.barth@frb.gov), and Jay Kahn, Research Economist, Office of Financial Research (robert.kahn@ofr.treasury.gov). The authors thank Amanda Buckley, Katherine Gleason, Maryann Haggerty, Matthew McCormick, Sriram Rajan and Stacey Schreft for their comments and assistance.
 
-Governors of the Federal Reserve System
+2 Previous research, in particular Andreas Schrimpf, Hyun Song Shin, and Vladyslav Sushko "Leverage and margin spirals in fixed income markets during the Covid-19 crisis," BIS Bulletin No. 2, April 2, 2020 (https://www.bis.org/publ/bisbull02.pdf), has discussed the role of the basis trade in March Treasury illiquidity. While we confirm their results that losses on the trade occurred during March, we provide evidence that feedback into Treasury market illiquidity may have been limited.
 
-[(daniel.j.barth@frb.gov), and Jay Kahn,](mailto:daniel.j.barth@frb.gov)
+3 Throughout this brief, when we construct long series of the returns on the basis trade, we use a roll date for the futures contract that avoids the delivery month, so as to avoid any excess volatility caused by optionality in physical delivery. In particular, we choose the futures contract that on any given day has the second-nearest delivery date.
 
-Research Economist, Office of Financial
+4 For 10-year note contracts and bond contracts, the CBOT offers additional "ultra" futures, with narrower maturity ranges eligible for delivery.
 
-[Research (robert.kahn@ofr.treasury.gov). The](mailto:robert.kahn@ofr.treasury.gov)
+5 For instance, the deliverable basket for the two-year contract contains Treasuries with an original maturity of less than five years and three months and a residual maturity on the last day of the delivery month between one year and eight months and two years.
 
-authors thank Amanda Buckley, Katherine
+6 Specific collateral repo rates can vary for individual securities. If the repo rate on the cheapest-to-deliver is particularly high, the cheapest-to-deliver may not actually be the most attractive Treasury to deliver into the futures position.
 
-Gleason, Maryann Haggerty, Matthew
+7 These post-crisis limits stem mostly from the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 and from the international Basel III standards.
 
-McCormick, Sriram Rajan and Stacey Schreft
-
-for their comments and assistance.
-
-2 Previous research, in particular Andreas
-
-Schrimpf, Hyun Song Shin, and Vladyslav
-
-Sushko "Leverage and margin spirals in fixed
-
-income markets during the Covid-19 crisis,"
-
-[BIS Bulletin No. 2, April 2, 2020 (https://](https://www.bis.org/publ/bisbull02.pdf)
-
-[www.bis.org/publ/bisbull02.pdf), has discussed](https://www.bis.org/publ/bisbull02.pdf)
-
-the role of the basis trade in March Treasury
-
-illiquidity. While we confirm their results that
-
-losses on the trade occurred during March, we
-
-provide evidence that feedback into Treasury
-
-market illiquidity may have been limited.
-
-3 Throughout this brief, when we construct long
-
-series of the returns on the basis trade, we use a
-
-roll date for the futures contract that avoids the
-
-delivery month, so as to avoid any excess volatility caused by optionality in physical delivery.
-
-In particular, we choose the futures contract
-
-that on any given day has the second-nearest
-
-delivery date.
-
-4 For 10-year note contracts and bond contracts,
-
-the CBOT offers additional "ultra" futures,
-
-with narrower maturity ranges eligible for
-
-delivery.
-
-5 For instance, the deliverable basket for the
-
-two-year contract contains Treasuries with an
-
- original maturity of less than five years and
-three months and a residual maturity on the last
-day of the delivery month between one year and
-eight months and two years.
-
-6 Specific collateral repo rates can vary for
-
-individual securities. If the repo rate on the
-
-cheapest-to-deliver is particularly high, the
-
-cheapest-to-deliver may not actually be the
-
-most attractive Treasury to deliver into the
-
-futures position.
-
-7 These post-crisis limits stem mostly from the
-
-Dodd-Frank Wall Street Reform and Consumer
-
-Protection Act of 2010 and from the interna
-
-tional Basel III standards.
-
-8 See Joe Rennison, "Repo blame game moves
-
-focus to hedge funds," _Financial Times_,
-
-Dec. 13, 2019. [https://www.ft.com/content/](https://www.ft.com/content/6427f16a-1d05-11ea-97df-cc63de1d73f4)
+8 See Joe Rennison, "Repo blame game moves focus to hedge funds," _Financial Times_, Dec. 13, 2019. https://www.ft.com/content/6427f16a-1d05-11ea-97df-cc63de1d73f4
 
 [6427f16a-1d05-11ea-97df-cc63de1d73f4.](https://www.ft.com/content/6427f16a-1d05-11ea-97df-cc63de1d73f4)
 
@@ -1687,6 +1546,4 @@ Bloomberg, March 19, 2020. [https://www.](https://www.bloomberg.com/news/article
 
 [before-fed-acted-leverage-burned-hedge-funds-](https://www.bloomberg.com/news/articles/2020-03-19/before-fed-acted-leverage-burned-hedge-funds-in-treasury-trade)
 
-[in-treasury-trade.](https://www.bloomberg.com/news/articles/2020-03-19/before-fed-acted-leverage-burned-hedge-funds-in-treasury-trade)
-
-OFR Brief Series | 20-01 July 2020 | Page 18
+https://www.bloomberg.com/news/articles/2020-03-19/before-fed-acted-leverage-burned-hedge-funds-in-treasury-trade

@@ -1,29 +1,19 @@
 ---
+title: Resources and Trade: The Heckscher-Ohlin Model
+parent_directory: Part 1 - International Trade Theory
+formatted: 2025-12-21 08:15:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
-- proportions theory free trade
-- labor foreign scarce factor
-- differences country factor abundance
-- food economy labor
-- trade theories including factor
-- resource differences trade chapter
-secondary_tags:
-- factor proportions theory trade
-- trade induces convergence relative
-- economy produces cloth food
-- factors home foreign trade
-- relative price cloth economy
-- ohlin model labor factor
-- exports brought factor proportions
-- capital food sector cloth
-- cloth sector expansion economy
-- multiple countries factors production
-- resources trade heckscher ohlin
-- factor production ricardian model
-- sector relationship relative goods
-- factor intensively countries tend
-- income distribution effects international
 - heckscher ohlin model
-tags_extracted: '2025-12-18T00:51:11.122095'
+- factor proportions theory
+- resource based trade
+secondary_tags:
+- factor abundance
+- factor intensity
+- trade patterns
+- income distribution effects
+cssclasses: academia
 ---
 
 # RESOURCES AND TRADE: THE HECKSCHER-OHLIN MODEL
@@ -37,6 +27,30 @@ That international trade is largely driven by differences in countries' resource
 To develop the factor-proportions theory, we begin by describing an economy that does not trade and then ask what happens when two such economies trade with each other. We will see that as opposed to the Ricardian model with a single factor of production, trade can affect the distribution of income across factors,
 
 even in the long run. We discuss the extent to which trade may be contributing to increases in wage inequality in developed countries. We then conclude with a further review of the empirical evidence for (and against) the predictions of the factor-proportions theory of trade.
+
+```d2
+heckscher_ohlin_model: Heckscher-Ohlin Model Overview {
+  shape: rectangle
+  label: Trade based on factor endowments
+}
+factor_abundance: Factor Abundance {
+  shape: circle
+}
+factor_intensity: Factor Intensity {
+  shape: circle
+}
+trade_pattern: Trade Pattern {
+  shape: circle
+}
+income_distribution: Income Distribution Effects {
+  shape: circle
+}
+heckscher_ohlin_model -> factor_abundance
+heckscher_ohlin_model -> factor_intensity
+factor_abundance -> trade_pattern: Determines comparative advantage
+factor_intensity -> trade_pattern
+trade_pattern -> income_distribution: Affects factor prices
+```
 
 # LEARNING GOALS
 

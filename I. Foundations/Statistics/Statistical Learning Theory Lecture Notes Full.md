@@ -31,15 +31,15 @@ Risk vs Risk: Some differences between Statistics and ML Terminology
 
 Instructor: Sham Kakade
 
-# 1 A Quick Note
+## 1 A Quick Note
 
-Unfortunately, the machine learning uses of the word "risk" quite differently from it's traditional definition in statistics — I am not sure what the historical reasons for this are. This is quick note to clarify things (mostly for my students).
+Unfortunately, the machine learning uses of the word "risk" quite differently from its traditional definition in statistics — I am not sure what the historical reasons for this are. This is quick note to clarify things (mostly for my students).
 
 My feeling is that it best not to use the terminology "risk" in ML, unless it is used in a manner consistent with the standard definition.
 
 At a high level, the statistical risk measure the quality of the learning algorithm/estimation procedure (where the expectation is taken with respect to the training set).
 
-# 2 From Training Sets to Parameter Estimation
+## 2 From Training Sets to Parameter Estimation
 
 We observe data:
 
@@ -69,7 +69,7 @@ where now  $X$  is fixed matrix and  $Y$  is a vector.
 
 Let us say a decision rule  $\delta$  is a mapping from  $\mathcal{T}$  to some space — this is our estimation procedure or our learning algorithm. The notion of risk in statistics measures the quality of the procedure, on average.
 
-# 3 Risk: In statistics
+## 3 Risk: In statistics
 
 Suppose we have a set of distributions  $\{P_{\theta}:\theta \in \Theta \}$ . Assume there exists a  $\theta^{*}$  such that:
 
@@ -111,7 +111,7 @@ $$
 
 Critically, note that the expectation is over the training set.
 
-# 4 Risk in Machine Learning
+## 4 Risk in Machine Learning
 
 In the supervised learning setting, we have loss function  $\ell(f(X), Y)$  which is the prediction loss on a given  $(X, Y)$  pair with respect to the function  $f$ . For example,
 
@@ -157,7 +157,7 @@ $$
 
 where the parameter loss is defined with respect to the appropriate norm between  $w^{*}$  and  $w$ . Essentially, the regret is often analogous to the parameter loss. Though often ML does not assume a true model for the data generation process (beyond iid and certain other restrictions).
 
-# 4.1 Risk vs Risk
+### 4.1 Risk vs Risk
 
 Again, let  $\delta$  be the learning rule (e.g. a decision rule), which takes  $\mathcal{T}$  to some function  $f\in \mathcal{F}$ . We are typically interested in statements of the form:
 
@@ -189,11 +189,11 @@ but instead attempts to make high probability statements. These high probability
 
 However, bounding even the expected regret (e.g. statistical risk) of the learning algorithm is powerful statement. Any strong guarantee on performance of the learning algorithm/decision procedure is ultimately what we are after.
 
-# Introduction and the Bias-Variance Tradeoff
+## Introduction and the Bias-Variance Tradeoff
 
 Instructor: Sham Kakade
 
-# 1 Goal of Statistical Learning Theory
+### 1 Goal of Statistical Learning Theory
 
 The goal of statistical learning theory is to study the statistical behavior of statistical machine learning algorithms, and understand their theoretical properties such as rate of convergence (upper bound), optimality (whether upper bound matches lower bound), computational efficiency, under different conditions. Some questions to address:
 
@@ -222,7 +222,7 @@ Some of the tools that we will utilize are:
 - (some) convex analysis  
 - (some) random matrix analysis
 
-# 2 Goal of Class and Requirements
+### 2 Goal of Class and Requirements
 
 # Goals:
 
@@ -238,11 +238,11 @@ Some of the tools that we will utilize are:
 2. reading papers with theoretical analysis  
 3. project?
 
-# 3 Example Supervised Learning Problems
+### 3 Example Supervised Learning Problems
 
 Two basic paradigms we will focus on are regression and classification.
 
-# 3.1 Linear Least Squares Regression
+#### 3.1 Linear Least Squares Regression
 
 The Input  $X$  is a  $p$ -dimensional real valued vector in  $R^p$ . The output  $Y$  is a real-valued number (e.g. return of a particular stock). The function class  $C$  consists of linear functions, parameterized by linear weight (coefficient) vector  $w \in R^p$ . That is,  $f_w \in C$  as a linear function  $f_w(x) = w \cdot x$ . The quality measure  $L(f) = \mathbb{E}(f(X) - Y)^2$  is the squared error, under some distribution on  $X$  and  $Y$ .
 
@@ -258,7 +258,7 @@ $$
 E_{X, Y} (\hat {w}^{\top} X - Y)^{2}.
 $$
 
-# 3.2 Binary Linear Classification
+#### 3.2 Binary Linear Classification
 
 The Input  $X$  is a  $p$ -dimensional real valued vector in  $R^p$  (e.g., representing information of an email). The output  $Y$  is a binary-valued number (whether the email is a spam or not), assume the binary values are  $\{-1, 1\}$ . The function class  $C$  consists of linear functions, parameterized by linear weight (coefficient) vector  $w \in R^p$ . That is,  $f_w \in C$  as a linear function  $f_w(x) = w^\top x$ . The quality measure is  $\ell(f(x), y) = I(f(x) \neq y)$ , where  $I(\cdot)$  is the 0-1 valued indicator function, so that  $\ell(f(x), y) = 0$  if  $f(x) = y$  (prediction is correct), or  $\ell(f(x), y) = 1$  if  $f(x) \neq y$  (prediction is incorrect). This loss is called classification error loss.
 
@@ -274,7 +274,7 @@ $$
 L (f) = E_{X, Y} I \left(w^{\top} X \neq Y\right).
 $$
 
-# 4 The Squared Error; Linear Regression; and Bias-Variance
+### 4 The Squared Error; Linear Regression; and Bias-Variance
 
 The (generalization) squared error of  $f: \mathbb{R}^p \to \mathbb{R}$  is
 
@@ -286,7 +286,7 @@ which we are interested in optimizing.
 
 Note that the Bayes optimal function is the conditional expectation. To see this, first observe:
 
-# Lemma 4.1.
+#### Lemma 4.1.
 
 We have that:
 
@@ -310,7 +310,7 @@ The square loss is actually quite natural when dealing with  $Y \in \{0,1\}$  if
 
 Corollary 4.3. If  $Y \in \{0,1\}$ , then the Bayes optimal predictor is the conditional probability  $\operatorname{Pr}(Y = 1|X)$ , since  $\operatorname{Pr}(Y = 1|X) = \mathbb{E}[Y|X]$ .
 
-# 4.1 Linear Least Squares Regression and the Error Decomposition
+#### 4.1 Linear Least Squares Regression and the Error Decomposition
 
 We are typically provided with some training set  $\mathcal{T}$  of the form  $(X_{1},Y_{1}),\ldots (X_{n},Y_{n})$ . The are two natural sampling processes for this set.
 
@@ -377,7 +377,7 @@ Remember that our goal is to find  $\hat{f}$  that predicts well on unseen data 
 
 There are various related theoretical concepts: training versus test error, bias variance trade-off, overfitting, model complexity, generalization performance, regularization.
 
-# 4.2 Regret and Risk
+#### 4.2 Regret and Risk
 
 It is often useful to compare to the best thing we could hope for in our class. In other words, we may be interested in:
 
@@ -401,15 +401,15 @@ $$
 
 Note that the "approximation error" is not explicitly in the risk.
 
-# Fixed Design and Least Squares
+## Fixed Design and Least Squares
 
 Instructor: Sham Kakade
 
-# 1 Intro
+### 1 Intro
 
 We now attempt to understand the least squares algorithm in the fixed design setting. We start with the  $p < n$  case, and then move to the  $p > n$  case.
 
-# 2 Review: The SVD; the "Thin" SVD; and the pseudo-inverse
+### 2 Review: The SVD; the "Thin" SVD; and the pseudo-inverse
 
 Theorem 2.1. (SVD) For any matrix  $X \in \mathbb{R}^{n \times p}$ , there exists  $U \in \mathbb{R}^{n \times n}$  and  $V \in \mathbb{R}^{p \times p}$  orthogonal matrices (e.g. matrices with orthogonal rows and columns, so that  $UU^{\top} = I$  and  $VV^{t}op = I$ ) such that:
 
@@ -476,7 +476,7 @@ $$
 
 (Note that the above is always a minimizer, while the solution provided in Equation 1 only holds if  $X^{\top}X$  is invertible, in which case the minimizer is unique).
 
-# 3 Risk and Fixed Design Regression
+### 3 Risk and Fixed Design Regression
 
 Let us now consider the 'normal means' problem, sometimes referred to as the fixed design setting (also sometimes referred to as the problem of signal reconstruction). Here, we have a set of  $n$  points  $\mathcal{X} = \{X_i\} \subset \mathbb{R}^p$ , and let  $X$  denote the  $\mathbb{R}^{n \times p}$  matrix where the  $i$  row of  $X$  is  $X_i$ . We also observe a output vector  $Y \in \mathbb{R}^n$ . We desire to learn  $\mathbb{E}[Y]$ . In particular, we seek to predict  $\mathbb{E}[Y]$  as  $X\hat{\beta}$ .
 
@@ -512,7 +512,7 @@ $$
 
 Another interpretation of the risk is how well we accurately learn the parameters of the model.
 
-# 3.1 Risk Bounds for Least Squares
+### 3.1 Risk Bounds for Least Squares
 
 The least squares estimator using an outcome  $Y$  is just:
 
@@ -600,7 +600,7 @@ $$
 
 The second claim follows from using an inequality in the second to last step.
 
-# 3.2 What about high probability bounds?
+### 3.2 What about high probability bounds?
 
 Note that we have shown that:
 
@@ -626,16 +626,16 @@ $$
 
 which will examine later.
 
-# 4 What about if  $d > n$ ?
+## 4 What about if  $d > n$ ?
 
 If  $d > n$ , the risk of the least squares estimator is not useful (as  $\hat{Y} = Y$ ). There are two common approaches we seek to understand in detail:
 
 - Regularization. The idea is to "shrink"  $\beta$  in a certain manner to reduce variance (and increase bias).  
 - Feature Selection. The idea is to fit  $\beta$  only in certain directions (and exclude other irrelevant directions).
 
-# 5 Ridge Regression
+## 5 Ridge Regression
 
-# 5.1 Bias Variance in the Fixed Design Setting
+### 5.1 Bias Variance in the Fixed Design Setting
 
 Lemma 5.1. (bias-variance for risk) We can decompose the expected risk as:
 
@@ -655,7 +655,7 @@ $$
 p r e d i c t i o n \beta = X \beta - X \mathbb {E} [ \hat {\beta} ] = Y^{*} - \mathbb {E} [ \hat {Y} ]
 $$
 
-# 5.2 Ridge Regression and the Bias-Variance Tradeoff
+### 5.2 Ridge Regression and the Bias-Variance Tradeoff
 
 The ridge regression estimator using an outcome  $Y$  is just:
 
@@ -705,9 +705,9 @@ The above is an equality if  $\operatorname{Var}(Y_i) \leq \sigma^2$ .
 
 Proof. in next class
 
-# 1 Ridge Regression
+### 1 Ridge Regression
 
-# 1.1 Bias Variance in the Fixed Design Setting
+#### 1.1 Bias Variance in the Fixed Design Setting
 
 Lemma 1.1. (bias-variance for risk) We can decompose the expected risk as:
 
@@ -727,7 +727,7 @@ $$
 p r e d i c t i o n \beta = X \beta - X \mathbb {E} [ \hat {\beta} ] = Y^{*} - \mathbb {E} [ \hat {Y} ]
 $$
 
-# 1.2 Ridge Regression and the Bias-Variance Tradeoff
+#### 1.2 Ridge Regression and the Bias-Variance Tradeoff
 
 The ridge regression estimator using an outcome  $Y$  is just:
 
@@ -801,7 +801,7 @@ $$
 
 and the result follows from algebraic manipulations.
 
-# 1.3 Margin Based Bound
+#### 1.3 Margin Based Bound
 
 There following bound characterizes the risk for two natural settings for  $\lambda$ .
 
@@ -853,7 +853,7 @@ $$
 
 and this is  $\Omega (\sqrt{n})$ , for all  $\lambda$ .
 
-# 2 PCA Projections and MLEs
+## 2 PCA Projections and MLEs
 
 Fix some  $\lambda$ . Consider the following 'keep or kill' estimator, which uses the MLE estimate if  $\lambda_i \geq \lambda$  and 0 otherwise:
 
@@ -909,11 +909,11 @@ Since each term is within a factor of 4, the proof is completed.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/3f1f3ebb-6a12-4a2a-a9ea-82bbea0d783f/3852b4fd0db1fc8a712db49081247fcb5c8235c8df23460ccfae605acc8f8915.jpg)
 
-# The Central Limit Theorem; Large Deviations; and Rate Functions
+## The Central Limit Theorem; Large Deviations; and Rate Functions
 
 Instructor: Sham Kakade
 
-# 1 The Central Limit Theorem
+### 1 The Central Limit Theorem
 
 While true under more general conditions, a rather simple proof exists of the central limit theorem. This proof provides some insight into our theory of large deviations.
 
@@ -947,7 +947,7 @@ $$
 
 Thus the limiting moment generating function of  $Z_{n}$  is identical to that of a standard normal (in a neighborhood of 0 for  $\lambda$ ). This proves they have identical CDFs (using properties of the MGF).
 
-# 2 Large Deviations
+### 2 Large Deviations
 
 Note that the CLT says
 
@@ -985,7 +985,7 @@ Does the CLT provide the limit of the above quantity? Why have we chosen  $\frac
 
 The answer to the former question is "no" since the key difference is that  $\epsilon$  is fixed in the above (while the CLT only quantifies a limit for  $\epsilon$  which scales as  $1 / \sqrt{n}$ .
 
-# 2.1 Large Deviations for a Gaussian random variable
+#### 2.1 Large Deviations for a Gaussian random variable
 
 Let  $X$  be a standard Gaussian random variable:  $X \sim N(0,1)$ , with density function
 
@@ -1010,13 +1010,13 @@ $$
 Therefore we have
 
 $$
-0. 5 e^{- (\epsilon + 1)^{2} / 2} \leq P (X \geq \epsilon) \leq 0. 5 e^{- \epsilon^{2} / 2}.
+0.5 e^{-(\epsilon + 1)^{2}/2} \leq P(X \geq \epsilon) \leq 0.5 e^{-\epsilon^{2}/2}.
 $$
 
 Equivalently,
 
 $$
-P (X \geq \epsilon) \leq 0. 5 e^{- \epsilon^{2} / 2} \leq P (X \geq \epsilon - 1)
+P(X \geq \epsilon) \leq 0.5 e^{-\epsilon^{2}/2} \leq P(X \geq \epsilon - 1)
 $$
 
 which shows that our upper bound is sandwiched between the tail probabilities within one deviation.
@@ -1024,18 +1024,18 @@ which shows that our upper bound is sandwiched between the tail probabilities wi
 Now let  $X_{1},\ldots ,X_{n}$  be  $n$  iid Gaussians  $X_{i}\sim N(\mu ,\sigma^{2})$ , and let  $\bar{X}_n = n^{-1}\sum_{i = 1}^n X_i$ . Then since  $P(\bar{X}_n\geq \mu +\epsilon) = P(\sqrt{n} (\bar{X}_n - \mu) / \sigma \geq \sqrt{n}\epsilon /\sigma)$ , where  $\sqrt{n} (\bar{X}_n - \mu) / \sigma \sim N(0,1)$ , the above bound becomes
 
 $$
-0. 5 e^{- n (\epsilon + \sigma / \sqrt{n})^{2} / 2 \sigma^{2}} \leq P (\bar {X}_{n} \geq \mu + \epsilon) \leq 0. 5 e^{- n \epsilon^{2} / 2 \sigma^{2}}.
+0.5 e^{-n (\epsilon + \sigma / \sqrt{n})^{2} / 2 \sigma^{2}} \leq P(\bar{X}_{n} \geq \mu + \epsilon) \leq 0.5 e^{-n \epsilon^{2} / 2 \sigma^{2}}.
 $$
 
 The tail probability decays exponentially fast. The bound is tight, meaning that any fixed  $\epsilon$ :
 
 $$
-\lim_{n \to \infty} n^{- 1} \ln P (\bar {X}_{n} \geq \mu + \epsilon) = - \epsilon^{2} / 2 \sigma^{2}.
+\lim_{n \to \infty} n^{-1} \ln P(\bar{X}_{n} \geq \mu + \epsilon) = -\epsilon^{2}/2\sigma^{2}.
 $$
 
 This is a large deviation result (meaning fixed deviation  $\epsilon$  from the mean is much larger than standard deviation  $\sigma / \sqrt{n}$  of  $X$ ).
 
-# 3 Markov Inequality
+## 3 Markov Inequality
 
 More generally, let  $X_{1},\ldots ,X_{n}$  be  $n$  iid random variables (not necessarily Gaussian) with mean  $\mu$ , and let  $\bar{X}_n = n^{-1}\sum_{i = 1}^{n}X_{i}$ , we are interested in estimating the tail bound  $P(\bar{X}_n\geq \mu +\epsilon)$  and  $P(\bar{X}_n\leq \mu -\epsilon)$  for some  $\epsilon >0$ .
 
@@ -1073,7 +1073,7 @@ $$
 P (\bar {X}_{n} \geq \mu + \epsilon) \leq \frac{\operatorname{Var} (X_{1})}{n \epsilon^{2}}.
 $$
 
-# 4 Exponential Inequality
+## 4 Exponential Inequality
 
 In order to get exponential tail bounds, we choose  $g(z) = e^{\lambda nz}$  for some tuning parameter  $\lambda > 0$ . Then Markov inequality becomes
 
@@ -1125,7 +1125,7 @@ $$
 
 Exactly the same (and tight) estimate of Gaussian tail inequality derived by integration.
 
-# 1 The Exponential Inequality and Convex Duality
+### 1 The Exponential Inequality and Convex Duality
 
 The exponential inequality for sum of independent random variables is very easy to apply because independence allows us to change the problem of estimating the exponential moment of the sum of independent random variables into the estimating of the exponential moment of a single random variable.
 
@@ -1171,7 +1171,7 @@ $$
 
 Exactly the same (and tight) estimate of Gaussian tail inequality derived by integration.
 
-# 1.1 The Fenchel Conjugate
+#### 1.1 The Fenchel Conjugate
 
 Assume we have a vector space  $\mathcal{X}$ , equipped with an inner product  $<, \cdot, >$  (and a dual space  $\mathcal{X}^*$  — for all practical purposes, think of  $\mathcal{X}^* = \mathcal{X}$ ).
 
@@ -1199,7 +1199,7 @@ $$
 f^{*} (\lambda) = - \inf_{x \in \mathcal {X}} (- <   \lambda , x > + f (x))
 $$
 
-# 1.2 A Variational interpretation of the Rate Function
+#### 1.2 A Variational interpretation of the Rate Function
 
 The function
 

@@ -1,12 +1,9 @@
 ---
 aliases:
 - The Global Macroeconomy
-tags: null
-key_concepts: null
 parent_directory: Part 5 - Introduction to International Macroeconomics
 cssclasses: academia
 title: Chapter 12 - The Global Macroeconomy
-linter-yaml-title-alias: Chapter 12 - The Global Macroeconomy
 primary_tags:
 - economic theory compelling
 - fall billions external wealth
@@ -57,7 +54,7 @@ Policy Thomas Jefferson's assessment of government may be extreme, but looking a
 
 Many fundamental questions like these must be answered if we are to understand the economic world around us. To that end, the chapters that follow combine economic theory with compelling empirical evidence to explain the workings of today's global macroeconomy. This introductory chapter briefly explains the road ahead.
 
-# 1 Foreign Exchange: Currencies and Crises
+## 1 Foreign Exchange: Currencies and Crises
 
 In most branches of economics, and even in the study of international trade, it is common to assume that all goods are priced in a common currency. Despite this unrealistic assumption, such analysis delivers important insights into the workings of the global economy.
 
@@ -138,15 +135,15 @@ are often more pronounced in poorer countries. Although we could confine our stu
 
 Key Topics Why do exchange rate crises occur? Are they an inevitable consequence of deeper fundamental problems in an economy or are they an avoidable result of "animal spirits"—irrational forces in financial markets? Why are these crises so economically and politically costly? What steps might be taken to prevent crises, and at what cost?
 
-# Summary and Plan of Study
+### Summary and Plan of Study
 
 International macroeconomists frequently refer to the exchange rate as "the single most important price in an open economy." If we treat this statement as more than self-promotion, we should learn why it might be true. In our course of study, we will explore the factors that determine the exchange rate, how the exchange rate affects the economy, and how crises occur.
 
 Our study of exchange rates proceeds as follows: in Chapter 13, we learn about the structure and operation of the markets in which foreign currencies are traded.
 
-# Headlines
+### Headlines
 
-# Economic Crisis in Iceland
+#### Economic Crisis in Iceland
 
 International macroeconomics can often seem like a dry and abstract subject, but it must be remembered that societies and individuals can be profoundly shaken by the issues we will study. This article was written just after the start of the severe economic crisis that engulfed Iceland in 2008, following the collapse of its exchange rate, a financial crisis, and a government fiscal crisis. Real output per person shrank by more than  $ 10\% $, and unemployment rose from $ 1\% $ to $ 9\% $ . Five years later a recovery was just beginning to take shape.
 
@@ -206,13 +203,13 @@ Source: Excerpted from Marc Preel, "Iceland's new poor line up for food," AFP, 8
 
 Chapters 14 and 15 present the theory of exchange rates. Chapter 16 discusses how exchange rates affect international transactions in assets. We examine the short-run impact of exchange rates on the demand for goods in Chapter 18, and with this understanding Chapter 19 examines the trade-offs governments face as they choose between fixed and floating exchange rates. Chapter 20 covers exchange rate crises in detail and Chapter 21 covers the euro, a common currency used in many countries. Chapter 22 presents further exploration of some exchange rate topics.
 
-# 2 Globalization of Finance: Debts and Deficits
+## 2 Globalization of Finance: Debts and Deficits
 
 Financial development is a defining characteristic of modern economies. Households' use of financial instruments such as credit cards, savings accounts, and mortgages is taken for granted, as is the ability of firms and governments to use the products and services offered in financial markets. A few years ago, very little of this financial activity spilled across international borders; countries were very nearly closed from a financial standpoint. Today many countries are more open: financial globalization has taken hold around the world, starting in the economically advanced countries and spreading to many emerging market countries.
 
 Although you might expect that you need many complex and difficult theories to understand the financial transactions between countries, such analysis requires only the application of familiar household accounting concepts such as income, expenditure, and wealth. We develop these concepts at the national level to understand how flows of goods, services, income, and capital make the global macroeconomy work. We can then see how the smooth functioning of international finance can make countries better off by allowing them to lend and borrow. Along the way, we also find that financial interactions are not always so smooth. Defaults and other disruptions in financial markets can mean that the potential gains from globalization are not so easily realized in practice.
 
-# Deficits and Surpluses: the Balance of Payments
+### Deficits and Surpluses: the Balance of Payments
 
 Do you keep track of your finances? If so, you probably follow two important figures: your income and your expenditure. The difference between the two is an important number: if it is positive, you have a surplus; if it is negative, you have a deficit. The
 
@@ -239,7 +236,7 @@ shows the massive scale of some of these recent imbalances, dramatically illustr
 
 Key Topics How do different international economic transactions contribute to current account imbalances? How are these imbalances financed? How long can they persist? Why are some countries in surplus and others in deficit? What role do current account imbalances perform in a well-functioning economy? Why are these imbalances the focus of so much policy debate?
 
-# Debtors and Creditors: External Wealth
+### Debtors and Creditors: External Wealth
 
 To understand the role of wealth in international financial transactions, we revisit our household analogy. Your total wealth or net worth is equal to your assets (what others owe you) minus your liabilities (what you owe others). When you run a surplus, and save money (buying assets or paying down debt), your total wealth, or net worth, tends to rise. Similarly, when you have a deficit and borrow (taking on debt or running down savings), your wealth tends to fall. We can use this analysis to understand the behavior of nations. From an international perspective, a country's net worth is called its external wealth and it equals the difference between its foreign assets (what it is owed by the rest of the world) and its foreign liabilities (what it owes to the rest of the world). Positive external wealth makes a country a creditor nation (other nations owe it money); negative external wealth makes it a debtor nation (it owes other nations money).
 
@@ -263,11 +260,11 @@ External Wealth A country's net credit position with the rest of the world is ca
 
 Source: Philip R. Lane and Gian Maria Milesi-Ferretti, 2007, "The External Wealth of Nations Mark II: Revised and Extended Estimates of Foreign Assets and Liabilities, 1970-2004," Journal of International Economics, 73(2), 223-250 (and updates).
 
-announced a record default on its government debt by offering to pay about  $ 30\text{e} $ for each dollar of debt in private hands. The foreigners who held most of this debt lost about $ \ $ 55 \$  billion. At the same time, Argentina gained about $ \ $ 55 \$  billion in external wealth, as shown by the sudden jump in Figure 12-4, panel (b). Thus, you don’t have to run a surplus to increase external wealth—external wealth rises not only when creditors are paid off but also when they are blown off.
+announced a record default on its government debt by offering to pay about $30¢$ for each dollar of debt in private hands. The foreigners who held most of this debt lost about \$55 billion. At the same time, Argentina gained about \$55 billion in external wealth, as shown by the sudden jump in Figure 12-4, panel (b). Thus, you don't have to run a surplus to increase external wealth—external wealth rises not only when creditors are paid off but also when they are blown off.
 
 Key Topics What forms can a nation's external wealth take and does the composition of wealth matter? What explains the level of a nation's external wealth and how does it change over time? How important is the current account as a determinant of external wealth? How does it relate to the country's present and future economic welfare?
 
-# Darlings and Deadbeats: Defaults and Other Risks
+### Darlings and Deadbeats: Defaults and Other Risks
 
 The 2002 Argentine government's debt default was by no means unusual. The following countries (among many others) have defaulted (sometimes more than once) on private creditors since 1980: Argentina (twice), Chile, Dominican Republic (twice), Ecuador, Greece, Indonesia, Mexico, Nigeria, Pakistan, Peru (twice), Philippines, Russia (twice), South Africa (twice), Ukraine, and Uruguay (twice). Dozens more countries could be added to the list if we expanded the definition of default to include the inability to make payments on loans from international financial institutions like
 
@@ -283,7 +280,7 @@ For example, on September 28, 2012, the Financial Times reported that relatively
 
 Key Topics Why do countries default? And what happens when they do? What are the determinants of risk premiums? How do risk premiums affect macroeconomic outcomes such as output, wealth, and exchange rates?
 
-# Summary and Plan of Study
+### Summary and Plan of Study
 
 International flows of goods, services, income, and capital allow the global macroeconomy to operate. In our course of study, we build up our understanding gradually, starting with basic accounting and measurement, then moving on to the causes and consequences of imbalances in the flows and the accumulations of debts and credits. Along the way, we learn about the gains from financial globalization, as well as some of its potential risks.
 
@@ -291,7 +288,7 @@ In Chapter 16, we learn how international transactions enter into a country's na
 
 what macroeconomic effects this might have. Chapter 20 examines the implications of risk premiums for exchange rates, and shows that exchange rate crises and default crises are linked. Chapter 22 explores in more detail topics such as global imbalances and default.
 
-# 3 Government and Institutions: Policies and Performance
+## 3 Government and Institutions: Policies and Performance
 
 In theory, one could devise a course of study in international economics without reference to government, but the result might not shed much light on reality. As we know from other courses in economics, and as we have already started to see in this chapter, government actions influence economic outcomes in many ways by making decisions about exchange rates, macroeconomic policies, whether to pay (or not pay) their debts, and so on.
 
@@ -299,7 +296,7 @@ To gain a deeper understanding of the global macroeconomy, we can look at govern
 
 To conclude this brief introduction to international macroeconomics, we highlight three important features of the broad macroeconomic environment that play an important role in the remainder of this book: the rules that a government decides to apply to restrict or allow capital mobility; the decision that a government makes between a fixed and a floating exchange rate regime; and the institutional foundations of economic performance, such as the quality of governance that prevails in a country.
 
-# Integration and Capital Controls: the Regulation of International Finance
+### Integration and Capital Controls: the Regulation of International Finance
 
 The United States is seen as one of the most financially open countries in the world, fully integrated into the global capital market. This is mostly true, but in recent years the U.S. government has blocked some foreign investment in ports, oil, and airlines. These are exceptional cases in the United States, but in many countries there are numerous, severe restrictions on cross-border financial transactions.
 
@@ -337,7 +334,7 @@ Evading control: For years, Zimbabwe imposed capital controls. In theory, U.S. d
 
 controls and encouraging openness? If there are benefits, why has this policy change been so slow to occur since the 1970s? Are there any costs that offset the benefits? If so, can capital controls benefit the country that imposes them?
 
-# Independence and Monetary Policy: the Choice of Exchange Rate Regimes
+### Independence and Monetary Policy: the Choice of Exchange Rate Regimes
 
 There are two broad categories of exchange rate behavior: fixed regimes and floating regimes. How common is each type? Figure 12-6 shows that there are many countries operating under each kind of regime. Because fixed and floating are both common regime choices, we have to understand both.
 
@@ -362,7 +359,7 @@ most notable example is the Eurozone, a subset of the European Union that in 201
 
 Key Topics Why do so many countries insist on the "barbarism" of having their own currency (as John Stuart Mill put it)? Why do some countries create a common currency or adopt another nation's currency as their own? Why do some of the countries that have kept their own currencies maintain a fixed exchange rate with another currency? And why do others permit their exchange rate to fluctuate over time, making a floating exchange rate their regime choice?
 
-# Institutions and Economic Performance: the Quality of Governance
+### Institutions and Economic Performance: the Quality of Governance
 
 Going beyond specific policy choices, economists also consider the broader institutional context in which such choices are made. The legal, political, social, cultural, ethical, and religious structures of a society can influence the environment for economic prosperity and stability, or poverty and instability.
 
@@ -392,15 +389,15 @@ Resource endowments (tropical regions being more suitable for slave-based econom
 
 Key Topics Governance explains large differences in countries' economic outcomes. Poor governance generally means that a country is poorer, subject to more damaging macroeconomic and political shocks, and cannot conduct policy in a reliable and consistent way. These characteristics force us to think carefully about how to formulate optimal policies and policy regimes in rich and poor countries. One size may not fit all, and policies that work well in a stable well-governed country may be less successful in an unstable developing country with poor governance.
 
-# Summary and Plan of Study
+### Summary and Plan of Study
 
 The functioning of the global macroeconomy is affected in many ways by the actions of governments. Throughout this book, we must pay attention to the possible actions that governments might take and try to understand their possible causes and consequences.
 
 Chapter 15 explores the finding that if a country is financially open, then a fixed exchange rate is incompatible with monetary policy autonomy. Because both goals may be desirable, policy makers are often reluctant to face up to the difficult trade-offs implied by financial globalization. Chapter 17 explores the economic rationales for financial liberalization: If financial openness has clear economic benefits, why are countries slow to liberalize? We explore exchange rate regime choice in detail in Chapter 19 and study the trade-offs involved. Then, in Chapter 20, we study crises, and find that if a country's policy makers cling to fixed exchange rates, there is a risk of suffering costly crises. The remarkable Euro project, discussed in Chapter 21, throws these issues into sharper perspective in the one region of the world where economic integration has arguably progressed the furthest in recent decades—but where the recent economic crisis has been most severe. The main lessons of our study are that policy makers need to acknowledge trade-offs, formulate sensible goals, and exercise careful judgment when deciding when and how to financially open their economies. Sadly, history shows that, all too often, they don't.
 
-# Headlines
+### Headlines
 
-# The Wealth of Nations
+#### The Wealth of Nations
 
 Social scientists have sought for centuries to understand the essential conditions that enable a nation to achieve prosperity. In The Wealth of Nations, Adam Smith said: "Little else is requisite to carry a state to the highest degree of opulence from the lowest barbarism, but peace, easy taxes, and a tolerable administration of justice; all the rest being brought about by the natural course of things." The following article discusses the poor quality of governance in developing countries and the obstacle this poses to economic development.
 
@@ -432,7 +429,7 @@ Governments then are both the disease and the cure. This is why development is s
 
 $ ^{*} $ A Better Investment Climate for Everyone, World Development Report 2005. Oxford University Press and the World Bank.
 
-# 4 Conclusions
+## 4 Conclusions
 
 Today's global macroeconomy is an economic system characterized by increasingly integrated markets for goods, services, and capital. To effectively study macroeconomic outcomes in this context, we must understand the economic linkages between different countries—their currencies, their trade, their capital flows, and so on. Only then can we begin to understand some of the most important economic phenomena in the world today, such as the fluctuations in currencies, the causes of crises, the determinants of global imbalances, the problems of economic policy making, and the origins of the growing gap between rich and poor countries.
 
@@ -493,35 +490,5 @@ income per capita, p. 427
 
 incomevolatility,p.427
 
-# Problems
 
-1. The data in Table 12-1 end in 2011. Visit the U.S. Bureau of Economic Analysis at bea.gov to find information for the latest full calendar year (or for the last four quarters). What is the latest estimate of the size of the annual U.S. current account deficit in billions of dollars?
-2. The data in Figure 12-1 end in 2012. Visit oanda.com (or another site with daily exchange rate data) and download data on the same exchange rates (yuan per dollar and dollar per euro) for the past 12 months. What are the rates today? What were they a year ago? By what percentage amount did the rates change? Do you think the rates are floating or fixed? Why?
-3. The data in Figure 12-3 end in the year 2011. Find the IMF's World Economic Outlook Databases. (Hint: Try searching "world economic outlook databases.") Use this interactive tool to obtain the latest data on current accounts in U.S. dollars for all countries (actual data or IMF estimates). Which countries had the 10 largest deficits last year? Which countries had the 10 largest surpluses last year?
-4. Visit the Financial Times website (at ft.com click on "Market data") to download data for country risk today. (Hint: Try searching "FT high-yield emerging markets.") Which three emerging market countries have the highest spreads on their U.S. dollar debt? Which three have the lowest?
-5. The map at the end of the chapter shows the World Bank's composite governance indicator. The World Bank has prepared other indicators to measure institutional differences among countries. Use the Internet to find the World Bank's "Ease of Doing Business Map." (Hint:
-
-Again, try an Internet search.) Do you notice a correlation between the ease of doing business and the overall governance indicator? Can you find countries that rank high on the Ease of Doing Business indicator but low on the governance indicator? Are these countries rich or poor? (Hint: Look up their GNI per person at the World Bank by searching "world bank GNI per capita.")
-
-6. The charts on page 433 show the growth of real GDP per capita in three pairs of geographically adjacent countries: North and South Korea, Argentina and Chile, Zimbabwe and Botswana (using data from the Penn World Table).
-
-(a) Which country in each pair experienced faster growth in GDP per capita? Which one is now richest?
-(b)The World Bank's World Governance Indicators for each country in 2000 were as shown in the table above (higher is better):
-
-Based on these data, do you think institutions can explain the divergent outcomes in these countries? Explain. Why do you think it helps to compare countries that are physically contiguous?
-
-7. Visit one of the many websites that lists all of the current exchange rates between different currencies around the world. Try a financial newspaper's site such as ft.com (follow the links to "Market Data," and then "Currencies"), or try websites devoted to foreign exchange market data such as oanda.com or xe.com (dig down; don't just look at the major currency tables). According to these lists, how many distinct currencies exist around the world today? Are some currencies used in more than one country?
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/1bc7a88420af487ab552b7dfbfde88e6715001d0a86f30cc44be034003239820.jpg)
-Real GDP per capita
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/ecd3097a965847d6ff72a86d964b24eeeb4225b7c6e18cc3d0cf963d1e9adf0a.jpg)
-Real GDP per capita
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/17d32b2d56f88bb3647ea66309636142ad6f9f8a30aff22a66de99503dcb72c1.jpg)
-Real GDP per capita
-
-<table><tr><td></td><td>Control of Corruption</td><td>Government Effectiveness</td><td>Political Stability and Absence of Violence</td><td>Rule of Law</td><td>Regulatory Quality</td><td>Voice and Accountability</td></tr><tr><td>South Korea</td><td>0.37</td><td>0.63</td><td>0.49</td><td>0.64</td><td>0.47</td><td>0.76</td></tr><tr><td>North Korea</td><td>-0.93</td><td>-1.10</td><td>-0.66</td><td>-1.08</td><td>-1.70</td><td>-2.02</td></tr><tr><td>Chile</td><td>1.56</td><td>1.34</td><td>0.85</td><td>1.31</td><td>1.38</td><td>0.56</td></tr><tr><td>Argentina</td><td>-0.34</td><td>0.28</td><td>0.48</td><td>0.17</td><td>0.45</td><td>0.44</td></tr><tr><td>Botswana</td><td>1.02</td><td>0.98</td><td>0.90</td><td>0.67</td><td>0.79</td><td>0.78</td></tr><tr><td>Zimbabwe</td><td>-0.87</td><td>-1.13</td><td>-1.21</td><td>-0.74</td><td>-1.61</td><td>-0.97</td></tr></table>
-
-This page intentionally left blank.
 

@@ -1,30 +1,24 @@
 ---
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 19_13_2008_to_2020Fiat_Money_and_Debt_Monetization
+title: "2008 to 2020: Fiat Money and Debt Monetization"
+parent_directory: "How-Countries-Go-Broke Ray Dalio Full"
+formatted: "2025-12-21 08:15:00 AM"
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
 primary_tags:
-- private sector debt problems
-- debt crisis
-- interest rates
+  - private sector debt problems
+  - debt crisis
+  - interest rates
 secondary_tags:
-- debt monetization
-- global financial crisis
-- global crisis
-- free-market demand
-- money printing
-- private market lending
-tags_extracted: '2025-12-18T18:03:58.398302'
-tags_method: max_quality_v1
+  - debt monetization
+  - global financial crisis
+  - global crisis
+  - free-market demand
+  - money printing
+  - private market lending
+cssclasses: academia
 ---
 
-# 19_13_2008_to_2020Fiat_Money_and_Debt_Monetization
-## 2008 TO 2020—
-
-### FIAT MONEY AND
-
-### DEBT MONETIZATION
+# 2008 to 2020: Fiat Money and Debt Monetization
 
 In 2008, there was a big deleveraging—the global financial crisis. It was led by the mortgage/real estate sector being financed by a lot of debt, which led to big debt problems that spread quickly to affect almost everyone in all countries, like the Great Depression in the 1930s. The debt crisis that started with the mortgage/real estate sector spread to take down leveraged banks, companies, and individuals and to knock down financial assets and the real economy. Unemployment hit  $10\%$  in late 2009, and major stock indices were down over  $50\%$  from their peak in 2007.
 
@@ -66,9 +60,7 @@ USA MONETARY BASE (\% GDP)
 
 While the 2008 crisis began in the US, it spilled over into a global crisis, and virtually all developed world central banks followed the US and transitioned from MP1 to MP2 (and many emerging market central banks did, too). These actions pushed up the prices of financial assets and pushed down the yields for lender-creditors and created cheap money for borrower-debtors. The stimulative monetary policies that flowed through the system further benefited the rich, who had financial assets. The government bailing out the banks contributed to the perception that the system favored the rich, which heightened animosity toward the rich capitalists, especially those who seemed to cause the problems and got away free and made a lot of money. Ultimately, the US was able to manage its private sector debt problems and engineer an economic recovery, even as public debt kept rising (effectively kicking the can down the road; more on that in Chapter 18).
 
-The continuing increases in imports of Chineseand other foreign-produced goods took away American jobs at the same time that new technology was taking away jobs. These forces contributed to the hollowing out of the middle class, which increased tensions between the "elites/capitalists" and the "proletariat." China came to hold a lot of US debt assets, and the US lost lots of jobs in uncompetitive businesses, which in the US contributed to the creation of large wealth and values differences, anti-China sentiment, and great political and social polarization. People who were hurting
-
-Economically, they believed that the "elites" running things and the system they controlled were maximizing their profits at the expense of American workers. That, along with the 2008 debt/economic crisis and the fact that the government bailed out financial institutions and benefited those who held financial assets more than it was perceived to have helped the common man, also had a big impact on domestic conflict. As a result, the financial crisis led to a shift toward populism of the right (e.g., the Tea Party movement) and populism of the left (e.g., Occupy Wall Street).
+The continuing increases in imports of Chinese and other foreign-produced goods took away American jobs at the same time that new technology was taking away jobs. These forces contributed to the hollowing out of the middle class, which increased tensions between the "elites/capitalists" and the "proletariat." China came to hold a lot of US debt assets, and the US lost lots of jobs in uncompetitive businesses, which in the US contributed to the creation of large wealth and values differences, anti-China sentiment, and great political and social polarization. People who were hurting economically, they believed that the "elites" running things and the system they controlled were maximizing their profits at the expense of American workers. That, along with the 2008 debt/economic crisis and the fact that the government bailed out financial institutions and benefited those who held financial assets more than it was perceived to have helped the common man, also had a big impact on domestic conflict. As a result, the financial crisis led to a shift toward populism of the right (e.g., the Tea Party movement) and populism of the left (e.g., Occupy Wall Street).
 
 Conflict between the politically and socially right and the politically and socially left became greater in response to growing wealth and values differences in most countries, especially in the United States. In the US, the rise of populism of the right, especially among the non-college-educated, non-urban white population, led to Donald Trump's election in 2016. That changed the American approach to its domestic order and the world order in profound ways that wouldn't be understood for many years (and, at the time of my writing in March 2025, still are not fully understood). I will describe these changes more extensively at the end of Chapter 14. However, said succinctly, President Trump produced a shift in the domestic, international, economic, political, and geopolitical orders to be much more aggressive, top-down/autocratic, rightist, nationalistic, protectionist, and militaristic. These shifts in policies to ones that are characterized by increased confrontation and reduced levels of cooperation (and that are also reflected in the breakdown of multilateral organizations and increased unilateralism) are analogous to those that occurred many times throughout history, most recently in the periods before World War I and World War II.
 
@@ -103,4 +95,4 @@ Here are some other key developments that I'll note briefly but not digress into
 - Climate change started to get a lot of attention. In 2015, there was the Paris Agreement, which initiated an attempt to keep global temperatures from rising by more than 2 degrees Celsius. Climate change is a big force that is very costly and will reshape what the human and natural worlds look like.
 - Regarding new technologies, computer chips rapidly advanced, cryptocurrencies were launched, self-driving-car features started rolling out, movie streaming became more widespread, 4G (and then 5G) wireless began, reusable rocket ships began to be used, and many more advances were made.
 
-### CHAPTER 14
+## Chapter 14

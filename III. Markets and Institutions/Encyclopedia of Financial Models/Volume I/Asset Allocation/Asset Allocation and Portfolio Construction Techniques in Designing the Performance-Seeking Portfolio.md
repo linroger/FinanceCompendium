@@ -1,7 +1,34 @@
 
+---
+title: "Asset Allocation and Portfolio Construction Techniques in Designing the Performance-Seeking Portfolio"
+parent_directory: "Encyclopedia of Financial Models/Volume I/Asset Allocation"
+formatted: 2025-12-21 08:09:36 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - asset allocation
+  - portfolio construction
+  - performance seeking portfolio
+  - modern portfolio theory
+  - sharpe ratio maximization
+  - tangency portfolio
+secondary_tags:
+  - liability driven investment
+  - covariance estimation
+  - expected returns
+  - principal components analysis
+  - factor models
+  - risk parameters
+  - mean variance optimization
+  - efficient benchmarks
+  - downside risk
+  - higher order moments
+  - systematic risk
+  - idiosyncratic risk
+cssclasses: academia
+---
+
 # Asset Allocation and Portfolio Construction Techniques in Designing the Performance-Seeking Portfolio
-
-
 
 Abstract: Meeting the challenges of modern investment practice involves the design of novel forms of investment solutions, as opposed to investment products customized to meet investors' expectations. These new forms of investment solutions rely on the use of improved, more efficient performance-seeking portfolio and liability-hedging portfolio building blocks, as well as on the use of improved dynamic allocation strategies. Understanding the conceptual and technical challenges involved in the design of improved benchmarks for the performance-seeking portfolio is critical.
 
@@ -10,14 +37,54 @@ Management is justified as an industry by the capacity of adding value through t
 This sole focus has somewhat distracted the industry from another key source of added value, namely portfolio construction and asset allocation decisions. In the face of recent crises, and given the intrinsic difficulty in delivering added value through security selection decisions only, the relevance of the old paradigm has been questioned with heightened intensity, and a new paradigm is starting to emerge.
 
 
-Academic research has provided very useful guidance with respect to how asset allocation and portfolio construction decisions should be analyzed so as to best improve investors' welfare. In a nutshell, the "fund separation theorems" that lie at the core of modern portfolio theory advocate a separate management of performance and risk control objectives. In the context of asset allocation decisions with consumption/liability objectives, it can be shown that the suitable expression of the fund separation theorem provides rational support for liability-driven investment (LDI) techniques that have recently been promoted by a number of investment banks and asset management firms. These solutions involve on the one hand the design of a customized liability-hedging portfolio (LHP), the sole purpose of which is to hedge away as effectively as possible the impact of unexpected changes in risk factors affecting liability values (most notably interest rate and inflation risks), and on the other hand the design of a performance-seeking portfolio (PSP), whose raison d'etre is to provide investors with an optimal risk-return trade-off.
+Academic research has provided very useful guidance with respect to how asset allocation and portfolio construction decisions should be analyzed so as to best improve investors' welfare. In a nutshell, the "fund separation theorems" that lie at the core of modern portfolio theory advocate a separate management of performance and risk control objectives. In the context of asset allocation decisions with consumption/liability objectives, it can be shown that the suitable expression of the fund separation theorem provides rational support for liability-driven investment (LDI) techniques that have recently been promoted by a number of investment banks and asset management firms.
+
+```d2
+direction: right
+
+Liability Hedging Portfolio: Liability-Hedging Portfolio (LHP) {
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+
+  Purpose: Hedge Liability Risks
+  Focus: Interest Rate & Inflation Risks
+  Goal: Minimize Unexpected Changes
+}
+
+Performance Seeking Portfolio: Performance-Seeking Portfolio (PSP) {
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+
+  Purpose: Optimal Risk-Return Trade-off
+  Focus: Return Enhancement
+  Goal: Maximize Sharpe Ratio
+}
+
+Total Portfolio: Total Portfolio {
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+}
+
+Liability Hedging Portfolio -> Total Portfolio: Risk Control
+Performance Seeking Portfolio -> Total Portfolio: Return Generation
+
+Liabilities: Investor Liabilities {
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+  near: top-center
+}
+
+Liabilities -> Liability Hedging Portfolio: Drives LHP Design
+```
+
+These solutions involve on the one hand the design of a customized liability-hedging portfolio (LHP), the sole purpose of which is to hedge away as effectively as possible the impact of unexpected changes in risk factors affecting liability values (most notably interest rate and inflation risks), and on the other hand the design of a performance-seeking portfolio (PSP), whose raison d'etre is to provide investors with an optimal risk-return trade-off.
 
 One of the implications of this LDI paradigm is that one should distinguish two different levels of asset allocation decisions: allocation decisions involved in the design of the performance-seeking or the liability-hedging portfolio (design of better building blocks, or BBBs), and asset allocation decisions involved in the optimal split between the PSP and the LHP (designed of advanced asset allocation decisions, or AAAs). We address the question of better building blocks in detail in this entry and provide some thoughts on integrating these building blocks in asset allocation. More specifically, we mainly focus here on how to construct efficient performance-seeking portfolios.
 
 In this entry we provide an overview of the key conceptual challenges involved in asset al location and portfolio construction in designing the performance-seeking portfolio. We begin by presenting the fundamental principle of the maximization of risk/reward efficiency and then deal with estimation of risk parameters and expected return parameters. The empirical results of optimal portfolio construction modeling are presented. We also provide a brief discussion on integrating such properly designed building blocks in the overall PSP at the asset allocation level.
 
 
-# THE TANGENCY PORTFOLIO AS THE RATIONALE BEHIND SHARPE RATIO MAXIMIZATION
+## THE TANGENCY PORTFOLIO AS THE RATIONALE BEHIND SHARPE RATIO MAXIMIZATION
 
 Modern portfolio theory provides some useful guidance with respect to the optimal design of a PSP that would best suit investors' needs. More precisely, the prescription is that the PSP should be obtained as the result of a portfolio optimization procedure aiming at generating the highest risk-reward ratio.
 
@@ -58,16 +125,79 @@ $$
 
 This is a two-fund separation theorem, which gives the allocation to the MSR performance-seeking portfolio (PSP), with the rest invested in cash, as well as the composition of the MSR performance-seeking portfolio.
 
+```d2
+direction: right
+
+Risk-Free Asset: Risk-Free Asset {
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+Tangency Portfolio: Tangency Portfolio {
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+}
+
+Efficient Frontier: Efficient Frontier {
+  shape: oval
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+  style.dashed: true
+}
+
+Risk-Free Asset -> Tangency Portfolio: Capital Allocation Line
+Tangency Portfolio -> Efficient Frontier: Tangent Point
+
+note: Two-Fund Separation {
+  The optimal portfolio combines the risk-free asset with the tangency portfolio (maximum Sharpe ratio portfolio) along the Capital Allocation Line.
+}
+```
+
 In practice, investors end up holding more or less imperfect proxies for the truly optimal performance-seeking portfolio, if only because of the presence of parameter uncertainty, which makes it impossible to obtain a perfect estimate for the maximum Sharpe ratio portfolio. Denoting by  $\lambda$  the Sharpe ratio of the (generally inefficient) PSP actually held by the investor, and by  $\sigma$  its volatility, we obtain the following optimal allocation strategy:
 
 $$ w_{0}^{*} = \frac{\lambda}{\gamma \sigma} P S P \tag {2}
 $$
 
-Hence the allocation to the performance-seeking portfolio is a function of two objective parameters, the PSP volatility and the PSP
+Hence the allocation to the performance-seeking portfolio is a function of two objective parameters, the PSP volatility and the PSP Sharpe ratio, and one subjective parameter, the investor's risk aversion. The optimal allocation to the PSP is inversely proportional to the investor's risk aversion. If risk aversion goes to infinity, the investor holds the risk-free asset only, as should be expected. For finite risk-aversion levels, the allocation to the PSP is inversely proportional to the PSP volatility, and it is proportional to the PSP Sharpe ratio. As a result, if the Sharpe ratio of the PSP is increased, one can invest more in risky assets. Hence, portfolio construction modeling is not only about risk reduction; it is also about performance enhancement through a better spending of investors' risk budgets.
 
-Sharpe ratio, and one subjective parameter, the investor's risk aversion. The optimal allocation to the PSP is inversely proportional to the investor's risk aversion. If risk aversion goes to infinity, the investor holds the risk-free asset only, as should be expected. For finite risk-aversion levels, the allocation to the PSP is inversely proportional to the PSP volatility, and it is proportional to the PSP Sharpe ratio. As a result, if the Sharpe ratio of the PSP is increased, one can invest more in risky assets. Hence, portfolio construction modeling is not only about risk reduction; it is also about performance enhancement through a better spending of investors' risk budgets.
+The expression (1) is useful because it provides in principle a straightforward expression for the optimal portfolio starting from a set of  $N$  risky assets. In the presence of a realistically large number  $N$  of securities, the curse of dimensionality, however, makes it practically impossible for investors to implement such direct one-step portfolio optimization decisions involving all individual components of the asset mix. The standard alternative approach widely adopted in investment practice consists instead in first grouping individual securities in various asset classes according to various dimensions, for example, country, sector, and/or style within the equity universe, or country, maturity, and credit rating within the bond universe, and subsequently generating the optimal portfolio through a two-stage process.
 
-The expression (1) is useful because it provides in principle a straightforward expression for the optimal portfolio starting from a set of  $N$  risky assets. In the presence of a realistically large number  $N$  of securities, the curse of dimensionality, however, makes it practically impossible for investors to implement such direct one-step portfolio optimization decisions involving all individual components of the asset mix. The standard alternative approach widely adopted in investment practice consists instead in first grouping individual securities in various asset classes according to various dimensions, for example, country, sector, and/or style within the equity universe, or country, maturity, and credit rating within the bond universe, and subsequently generating the optimal portfolio through a two-stage process. On the one hand, investable proxies are generated for maximum Sharpe ratio (MSR) portfolios within each asset class in the investment universe. We call this step, which is typically delegated to professional money managers, the portfolio construction step. On the other hand, when the MSR proxies are obtained for each asset class, an optimal allocation to the various asset classes is eventually generated so as to generate the maximum Sharpe ratio at the global portfolio level. This step is called the asset allocation step, and it is typically handled by a centralized decision maker (e.g., a pension fund CIO) with or without the help of specialized consultants, as opposed to being delegated to decentralized asset managers. In this entry, the discussion focuses on the first step, and we provide some concluding remarks on its relation to the second step at the end of this entry.
+```d2
+direction: down
+
+Portfolio Construction: Portfolio Construction Step {
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+
+  Individual Securities: Individual Securities
+  Asset Classes: Group into Asset Classes
+  MSR Proxies: Generate MSR Proxies per Class
+}
+
+Asset Allocation: Asset Allocation Step {
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+
+  MSR Proxies: MSR Proxies from Step 1
+  Global Optimization: Global Portfolio Optimization
+  Final Portfolio: Final Multi-Asset Portfolio
+}
+
+Portfolio Construction -> Asset Allocation: Provides Building Blocks
+
+Professional Managers: Professional Money Managers {
+  near: bottom-left
+}
+
+CIO: CIO/Consultants {
+  near: bottom-right
+}
+
+Professional Managers -> Portfolio Construction
+CIO -> Asset Allocation
+```
+
+On the one hand, investable proxies are generated for maximum Sharpe ratio (MSR) portfolios within each asset class in the investment universe. We call this step, which is typically delegated to professional money managers, the portfolio construction step. On the other hand, when the MSR proxies are obtained for each asset class, an optimal allocation to the various asset classes is eventually generated so as to generate the maximum Sharpe ratio at the global portfolio level. This step is called the asset allocation step, and it is typically handled by a centralized decision maker (e.g., a pension fund CIO) with or without the help of specialized consultants, as opposed to being delegated to decentralized asset managers. In this entry, the discussion focuses on the first step, and we provide some concluding remarks on its relation to the second step at the end of this entry.
 
 
 For the definition of building blocks for asset allocation, in the absence of active views, the default option consists of using market cap weighted indexes as proxies for the asset class MSR portfolio. Academic research, however, has found that such market cap indexes were likely to be severely inefficient portfolios. In a nutshell, market cap weighted indexes are not good choices as investment benchmarks because they are poorly diversified portfolios. In fact, cap-weighting tends to lead to exceedingly high concentration in relatively few stocks. As a consequence of their lack of diversification, cap weighted indexes have been empirically found to be severely inefficient portfolios, which do not provide investors with the fair reward given the risk taken. As a result of their poor diversification, they have been found to be dominated by equally weighted benchmarks, which are naively diversified portfolios that are optimal if and only if all securities have identical expected return, volatilities, and all pairs of correlations are identical.
@@ -78,14 +208,15 @@ Modern portfolio theory was born with the efficient frontier analysis of Markowi
 
 In a first section, we explain how to help bridge the gap between portfolio theory and portfolio construction by showing how to generate enhanced parameter estimates so as to improve the quality of the portfolio optimization.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/3a9b69789e9ddcb972d65c336387eb4e2c65aa45800dfecd279821069c8397de.jpg) tion outputs (optimal portfolio weights). We first focus on enhanced covariance parameter estimates and explain how to meet the main challenge of sample risk reduction. Against this backdrop, we present the state-of-the-art methodologies for reducing the problem dimensionality and estimating the covariance matrix with multifactor models. We then turn to expected return estimation. We argue that statistical methodologies are not likely to generate any robust expected return estimates, which suggests that economic models such as the single-factor CAPM and the multifactor APT should instead be used for expected return estimation. Finally, we also present evidence that proxies for expected return estimates should not only include systematic risk measures, but they should also incorporate idiosyncratic risk measures as well as downside risk measures.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/3a9b69789e9ddcb972d65c336387eb4e2c65aa45800dfecd279821069c8397de.jpg)
+
+Optimization outputs (optimal portfolio weights). We first focus on enhanced covariance parameter estimates and explain how to meet the main challenge of sample risk reduction. Against this backdrop, we present the state-of-the-art methodologies for reducing the problem dimensionality and estimating the covariance matrix with multifactor models. We then turn to expected return estimation. We argue that statistical methodologies are not likely to generate any robust expected return estimates, which suggests that economic models such as the single-factor CAPM and the multifactor APT should instead be used for expected return estimation. Finally, we also present evidence that proxies for expected return estimates should not only include systematic risk measures, but they should also incorporate idiosyncratic risk measures as well as downside risk measures.
 Figure 1 Inefficiency of Cap-Weighted Benchmarks, and the Quest for an Efficient Proxy for the True Tangency Portfolio
 
 
-# ROBUST ESTIMATORS FOR COVARIANCE PARAMETERS
+## ROBUST ESTIMATORS FOR COVARIANCE PARAMETERS
 
 In practice, success in the implementation of a theoretical model relies not only upon its conceptual grounds but also on the reliability of the inputs of the model. In the case of mean-variance (MV) optimization the results will highly depend on the quality of the parameter estimates: the covariance matrix and the expected returns of assets.
-
 
 Several improved estimates for the covariance matrix have been proposed, including most notably the factor-based approach suggested by Sharpe (1963), the constant correlation approach suggested by Elton and Gruber (1973), and the statistical shrinkage approach suggested by Ledoit and Wolf (2004). In addition, Jagannathan and Ma (2003) find that imposing (non-short selling) constraints on the weights in the optimization program improves the risk-adjusted out-of-sample performance in a manner that is similar to some of the aforementioned improved covariance matrix estimators.
 
@@ -107,7 +238,6 @@ $$
 \boldsymbol {\Omega} = \boldsymbol {\beta} \cdot \boldsymbol {\Sigma}_{F} \cdot \boldsymbol {\beta}^{T} + \boldsymbol {\Sigma}_{\varepsilon}
 $$ where  $\Sigma_F$  is the  $K\times K$  covariance matrix of the risk factors and  $\Sigma_{\varepsilon}$  an  $N\times N$  covariance matrix of the residuals corresponding to each asset.
 
-
 While the factor-based estimator is expected to allow for a reasonable trade-off between sample risk and model risk, there still remains, however, the problem of choosing the "right" factor model. One popular approach aims at relying as little as possible on strong theoretical assumptions by using principal components analysis (PCA) to determine the underlying risk factors from the data. The PCA method is based on a spectral decomposition of the sample covariance matrix, and its goal is to explain covariance structures using only a few linear combinations of the original stochastic variables, which will constitute the set of (unobservable) factors.
 
 Bengtsson and Holst (2002) and Fujiwara et al. (2006) motivate the use of PCA in a similar way, extracting principal components in order to estimate expected correlation within MV portfolio optimization. Fujiwara et al. (2006) find that the realized risk-return of portfolios based on the PCA method outperforms the single-index-based one and that the optimization gives a practically reasonable asset allocation. Overall, the main strength of the PCA approach at this stage is that it allows "the data to talk" and has them tell the financial modeler what the underlying risk factors are that govern most of the variability of the assets at each point in time. This strongly contrasts with having to rely on the assumption that a particular factor model is the true pricing model and reduces the specification risk embedded in the factor-based approach while keeping the sample risk reduction.
@@ -115,9 +245,9 @@ Bengtsson and Holst (2002) and Fujiwara et al. (2006) motivate the use of PCA in
 
 The question of determining the appropriate number of factors to structure the correlation matrix is critical for the risk estimation when using PCA as a factor model. Several options have been proposed to answer this question, some of them with more theoretical grounds than others.
 
-As a final note, we need to recognize that the discussion is so far cast in a mean-variance setting, which can in principle only be rationalized for normally distributed asset returns. In the presence of non-normally distributed asset returns, optimal portfolio selection techniques require estimates for variance-covariance parameters, along with estimates for higher-order moments and comments of the return distribution. This is a formidable challenge that severely exacerbates the dimensionality problem already present with mean-variance analysis. In a recent paper, Martellini and Ziemann (2010) extend the existing literature, which has mostly focused on the covariance matrix, by introducing improved estimators for the coskewness and cokurtosis parameters. On the one hand, they find that the use of these enhanced estimates generates a significant improvement in investors' welfare. On the other hand, they find that also that when the number of constituents in the portfolios is large (e.g., exceeding 20), the increase in sample risk related to the need to estimate higher-order comments by far outweighs the benefits related to considering a more general portfolio optimization procedure. In the end, when portfolio optimization is performed on the basis of a large number of individual securities, it appears that maximizing the portfolio Sharpe ratio leads to a better out-of-sample return-to-VaR ratio or return-to-CVaR ratio compared to a procedure focusing on maximizing the return-to-VaR ratio or the return-to-CVaR ratio, a result that holds true even if improved estimators are used for higher-order comments.
+As a final note, we need to recognize that the discussion is so far cast in a mean-variance setting, which can in principle only be rationalized for normally distributed asset returns. In the presence of non-normally distributed asset returns, optimal portfolio selection techniques require estimates for variance-covariance parameters, along with estimates for higher-order moments and comoments of the return distribution. This is a formidable challenge that severely exacerbates the dimensionality problem already present with mean-variance analysis. In a recent paper, Martellini and Ziemann (2010) extend the existing literature, which has mostly focused on the covariance matrix, by introducing improved estimators for the coskewness and cokurtosis parameters. On the one hand, they find that the use of these enhanced estimates generates a significant improvement in investors' welfare. On the other hand, they find that also that when the number of constituents in the portfolios is large (e.g., exceeding 20), the increase in sample risk related to the need to estimate higher-order comments by far outweighs the benefits related to considering a more general portfolio optimization procedure. In the end, when portfolio optimization is performed on the basis of a large number of individual securities, it appears that maximizing the portfolio Sharpe ratio leads to a better out-of-sample return-to-VaR ratio or return-to-CVaR ratio compared to a procedure focusing on maximizing the return-to-VaR ratio or the return-to-CVaR ratio, a result that holds true even if improved estimators are used for higher-order moments.
 
-# ROBUST ESTIMATORS FOR EXPECTED RETURNS
+## ROBUST ESTIMATORS FOR EXPECTED RETURNS
 
 While it appears that risk parameters can be estimated with a fair degree of accuracy, it has been shown (Merton, 1980) that expected returns are difficult to obtain with a reasonable estimation error. What makes the problem worse is that optimization techniques are very sensitive to differences in expected returns, so that portfolio optimizers typically allocate the largest fraction of capital to the asset class for which estimation error in the expected returns is the largest.[5]
 
@@ -130,7 +260,7 @@ Taken together, these findings suggest that total risk, a model-free quantity gi
 More generally, recent research suggests that the cross-section of expected returns might be best explained by risk indicators taking into account higher-order moments. Theoretical models have shown that, in exchange for higher skewness and lower kurtosis of returns, investors are willing to accept expected returns lower (and with volatility higher) than those of the mean-variance benchmark. More specifically, skewness and kurtosis in individual stock returns (as opposed to the skewness and kurtosis of aggregate portfolios) have been shown to matter in several papers. High skewness is associated with lower expected returns in Barberis and Huang (2004), Brunnermeier, Gollier, and Parker (2005), and Mitton and Vorkink (2007). The intuition behind this result is that investors like to hold positively skewed portfolios. The highest skewness is achieved by concentrating portfolios in a small number of stocks that themselves have positively skewed returns. Thus investors tend to be underdiversified and drive up the price of stocks with high positive skewness, which in turn reduces their future expected returns. Stocks with negative skewness are relatively unattractive and thus have low prices and high returns. The preference for kurtosis is in the sense that investors like low kurtosis and thus expected returns should be positively related to kurtosis. Boyer, Mitton, and Vorkink (2010) and Conrad, Dittmar and Ghysels (2008) provide empirical evidence that individual stocks' skewness and kurtosis is in deed related to future returns. An alternative to direct consideration of the higher moments of returns is to use a risk measure that aggregates the different dimensions of risk. In this line, Bali and Cakici (2004) show that future returns on stocks are positively related to their value-at-risk and Estrada (2000) and Chen, Chen, and Chen (2009) show that there is a relationship between downside risk and expected returns.
 
 
-# IMPLICATIONS FOR BENCHMARK PORTFOLIO CONSTRUCTION
+## IMPLICATIONS FOR BENCHMARK PORTFOLIO CONSTRUCTION
 
 Once careful estimates for risk and return parameters have been obtained, one may then design efficient proxies for an asset class benchmark with an attractive risk-return profile. For example, Amenc et al. (2011) find that efficient equity benchmarks designed on the basis of robust estimates for risk and expected return parameters substantially outperform in terms of risk-adjusted performance market cap weighted indexes that are often used as default options for investment benchmarks in spite of their well-documented lack of efficiency.[9]
 
@@ -146,8 +276,7 @@ The table shows risk and return statistics portfolios constructed with the same 
 
 performance difference is pronounced, as the Sharpe ratio increases by about  $70\%$ .
 
-# ASSET ALLOCATION
-MODELING: PUTTING THE EFFICIENT BUILDING BLOCKS TOGETHER
+## ASSET ALLOCATION MODELING: PUTTING THE EFFICIENT BUILDING BLOCKS TOGETHER
 
 After efficient benchmarks have been designed for various asset classes, these building blocks can be assembled in a second step, the asset allocation step, to build a well-designed multiclass performance-seeking portfolio.
 
@@ -158,7 +287,7 @@ In the asset allocation context, the number of constituents is small, and using 
 
 Furthermore, in an asset allocation context, the universe is not homogenous, which has implications for expected returns and covariance estimation. In terms of a covariance matrix, it will not prove easy to obtain a universal factor model for the whole investment universe. In this context, it is arguably better to use statistical shrinkage toward, say, the constant correlation model, as opposed to using a factor model approach.[10]
 
-# KEY POINTS
+## KEY POINTS
 
 - Modern portfolio theory advocates the separation of the management of performance and risk control objectives. In the context of asset allocation decisions, the fund separation theorem provides rational support for liability-driven investment techniques whose solutions involve the design of a customized liability-hedging portfolio and the design of a performance-seeking portfolio.
 - The sole purpose of the liability-hedging portfolio is to hedge away as effectively as possible the impact of unexpected changes in risk factors affecting liability values (most notably interest rate and inflation risks); the purpose of the performance-seeking portfolio is to provide investors with an optimal risk-return trade-off.
@@ -175,5 +304,3 @@ Furthermore, in an asset allocation context, the universe is not homogenous, whi
 - While it appears that risk parameters can be estimated with a fair degree of accuracy, it has been shown that expected returns are difficult to obtain with a reasonable estimation error. What makes the problem worse is that optimization techniques are very sensitive to differences in expected returns, so that portfolio optimizers typically allocate the largest fraction of capital to the asset class for which estimation error in the expected returns is the largest. In the face of the difficulty of using sample-based expected return estimates in a portfolio optimization context, a reasonable alternative consists in using some risk estimate as a proxy for excess expected returns.
 - Research suggests that the cross-section of expected returns might be best explained by risk indicators taking into account higher-order moments. Theoretical models have shown that, in exchange for higher skewness and lower kurtosis of returns, investors are willing to accept expected returns lower (and volatility higher) than those of the mean-variance benchmark.
 - Once careful estimates for risk and return parameters have been obtained, one may then design efficient proxies for an asset class benchmark with an attractive risk-return profile. After efficient benchmarks have been designed for various asset classes, these building blocks can be assembled in a second step, the asset allocation step, to build a well-designed multiclass performance-seeking portfolio.
-
-

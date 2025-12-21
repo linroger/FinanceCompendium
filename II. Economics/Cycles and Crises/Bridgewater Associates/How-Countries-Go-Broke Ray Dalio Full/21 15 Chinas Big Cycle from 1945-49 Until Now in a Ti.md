@@ -1,9 +1,9 @@
 ---
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 21_15_Chinas_Big_Cycle_from_1945-49_Until_Now_in_a_Ti
+title: 21.15 China's Big Cycle from 1945-49 Until Now in a Tiny Nutshell
+parent_directory: How-Countries-Go-Broke Ray Dalio Full
+formatted: 2025-12-21 04:45:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
 - big cycle
 - big debt issue
@@ -19,11 +19,10 @@ secondary_tags:
 - new strong leaders
 - late february
 - big debt/financial, internal order
-tags_extracted: '2025-12-18T18:04:22.919620'
-tags_method: max_quality_v1
+cssclasses: academia
 ---
 
-# 21_15_Chinas_Big_Cycle_from_1945-49_Until_Now_in_a_Ti
+# 21.15 China's Big Cycle from 1945-49 Until Now in a Tiny Nutshell
 ## CHINA'S BIG CYCLE FROM
 
 ## 1945-49 UNTIL NOW IN

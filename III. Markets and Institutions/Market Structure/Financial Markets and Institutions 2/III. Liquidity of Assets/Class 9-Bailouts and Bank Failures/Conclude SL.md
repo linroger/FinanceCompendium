@@ -1,13 +1,14 @@
 ---
-title: "Class 9 - The Two Central Principles Underpinning Our Individual Recommendations"
+title: "The Two Central Principles Underpinning Our Individual Recommendations"
 parent_directory: "Class 9-Bailouts and Bank Failures"
-formatted: 2025-12-21 05:05:35 PM
-formatter_model: grok-code-fast-1
+formatted: 2025-12-21 08:15:00 AM
+formatter_model: claude-sonnet-4-5-20250929
 cli_tool: opencode
 primary_tags:
    - systemic risk management
    - bailout prevention
    - financial regulation principles
+   - regulatory reform principles
 secondary_tags:
    - capital requirements
    - compensation holdbacks
@@ -18,6 +19,7 @@ secondary_tags:
    - systemic regulation
    - financial stability
    - taxpayer protection
+   - crisis response mechanisms
 cssclasses: academia
 ---
 
@@ -69,7 +71,7 @@ The Securities and Exchange Commission, Bear Stearns' main regulator, was not up
 
 Our recommendations could have helped in three respects. First, from the perspective of the safety of the financial system, Bear Stearns was seriously undercapitalized. Public accounts of its demise emphasize the disagreement within the firm over whether to raise new equity or reduce risk.<sup>2</sup> Our proposals on capital rules (Chapter 5) would have forced Bear Stearns (and all other securities dealers) to have had more capital in the months and years leading up to the crisis. Our regulatory hybrid securities (Chapter 7) could also have been issued by Bear Stearns and converted in time to reduce its interest payments and debt overhang problems during this difficult time.
 
-Second, our proposal for compensation holdbacks (Chapter 6) would have provided an additional buffer against taxpayer losses when Bear Stearns failed. It might also have changed the discussions within the firm about whether to cut risk exposure and raise capital during the early stages of the World Financial Crisis. In the five years before it was absorbed by J.P. Morgan, Bear Stearns paid over  \$17 billion in employee compensation and benefits. Our proposal for compensation holdbacks might have set aside\$ 2 billion or more of this total.<sup>3</sup> In the Bear Stearns rescue, the Federal Reserve provided J.P. Morgan protection against losses on roughly \$30 billion of Bear Stearns' hard-to-value securities. This guarantee was structured so that the Fed had a senior loan against the assets of \$28.8 billion and J.P. Morgan had a junior loan of \$1.15 billion. As of December 31, 2009, the fair-market value of these securities had fallen to \$27.2 billion. Thus, compensation holdbacks would have materially reduced the Fed's risk on this loan.
+Second, our proposal for compensation holdbacks (Chapter 6) would have provided an additional buffer against taxpayer losses when Bear Stearns failed. It might also have changed the discussions within the firm about whether to cut risk exposure and raise capital during the early stages of the World Financial Crisis. In the five years before it was absorbed by J.P. Morgan, Bear Stearns paid over \$17 billion in employee compensation and benefits. Our proposal for compensation holdbacks might have set aside \$2 billion or more of this total.<sup>3</sup> In the Bear Stearns rescue, the Federal Reserve provided J.P. Morgan protection against losses on roughly \$30 billion of Bear Stearns' hard-to-value securities. This guarantee was structured so that the Fed had a senior loan against the assets of \$28.8 billion and J.P. Morgan had a junior loan of \$1.15 billion. As of December 31, 2009, the fair-market value of these securities had fallen to \$27.2 billion. Thus, compensation holdbacks would have materially reduced the Fed's risk on this loan.
 
 At the time of Bear Stearns' takeover, its employees were estimated to have held more than 30 percent of its outstanding shares. Thus, Bear Stearns seems to have satisfied the often heard corporate-governance proposal for improving the incentives of executives by making employees hold their firm's shares. As we explain in Chapter 6, however, the key compensation issue from the perspective of systemic risk is not better aligning the incentives of managers with shareholders' incentives. Managers who receive stock become more aligned with stockholders, but this does not align them with society.
 
@@ -87,13 +89,13 @@ It is clear that a competent systemic risk regulator would have flagged these in
 
 ## Lehman Brothers
 
-The Lehman Brothers bankruptcy remains one of the most controversial events of the World Financial Crisis. As the fourth largest investment bank, with more than \(600 billion in assets at the time of its failure, our capitalrequirement recommendations would have mandated that Lehman hold more capital during its pre-Crisis expansion because of both its size and its reliance on short-term funding (Chapter 5). The compensation holdbacks we propose would have generated more pressure for Lehman to find a buyer without government support (Chapter 6). And, like Bear Stearns,
+The Lehman Brothers bankruptcy remains one of the most controversial events of the World Financial Crisis. As the fourth largest investment bank, with more than \$600 billion in assets at the time of its failure, our capital requirement recommendations would have mandated that Lehman hold more capital during its pre-Crisis expansion because of both its size and its reliance on short-term funding (Chapter 5). The compensation holdbacks we propose would have generated more pressure for Lehman to find a buyer without government support (Chapter 6). And, like Bear Stearns,
 
 Lehman could have issued regulatory hybrid securities that would have reduced its leverage amid its emerging distress in 2008 (Chapter 7).
 
 The reporting requirements for our new information infrastructure would have required all major institutions to report their asset positions every quarter (Chapter 3). Armed with this information, as Lehman's condition worsened, regulators would have better understood the losses Lehman's counterparties would suffer if the firm failed and could have identified and alerted institutions with concentrated exposure to Lehman—and, as we discuss below, to AIG, which was rescued the day after Lehman failed.
 
-Lehman's bankruptcy caused private sector losses that our regulatory proposals could have mitigated in at least three ways. First, the bankruptcy filing triggered an abrupt unwinding of all Lehman's derivative positions. Lehman was party to 1.2 million derivative contracts worth a total notional value of \$39 trillion.<sup>5</sup> Our proposals would push derivative transactions toward centralized clearing. If Lehman's contracts had been cleared, the task of unwinding the positions would have been less urgent and less challenging.
+Lehman's bankruptcy caused private sector losses that our regulatory proposals could have mitigated in at least three ways. First, the bankruptcy filing triggered an abrupt unwinding of all Lehman's derivative positions. Lehman was party to 1.2 million derivative contracts worth a total notional value of more than \$39 trillion.<sup>5</sup> Our proposals would push derivative transactions toward centralized clearing. If Lehman's contracts had been cleared, the task of unwinding the positions would have been less urgent and less challenging.
 
 Second, the bankruptcy filing created chaos in Lehman's brokerage and clearing operations because many of its customers' assets and securities had been commingled with Lehman's own assets. Customers have been left as general creditors in the ensuing bankruptcy, and many have yet to recover their money. Our recommendation that regulators tighten liquidity requirements for prime brokers (Chapter 10) might have induced greater segregation of customer assets within Lehman.
 
@@ -103,7 +105,7 @@ Most important, had our proposals been in place and understood, expectations of 
 
 ## American International Group
 
-AIG's regulators were ill-equipped to understand the workings of AIG Financial Products, the subsidiary that wrote the derivatives that played a critical role in AIG's problems. AIG's financing crisis arose because many of its derivative contracts forced it to post large amounts of additional collateral if its credit ratings from Moody's and Standard and Poor's were downgraded. When AIG's ratings were downgraded in September 2008 in the wake of Lehman's failure, AIG was required to post more than  \$13 billion in collateral. Although failure to post the collateral would have meant AIG was in default on its contracts, it was not able to raise funds quickly enough to do so. AIG had written more than\$ 375 billion in credit default swaps, including \$70 billion on CDOs, and was a significant counterparty to many of the financial system's most important firms. Its default would have led to significant losses for many of them. To prevent AIG's default, authorities rescued the firm the day after Lehman's bankruptcy.
+AIG's regulators were ill-equipped to understand the workings of AIG Financial Products, the subsidiary that wrote the derivatives that played a critical role in AIG's problems. AIG's financing crisis arose because many of its derivative contracts forced it to post large amounts of additional collateral if its credit ratings from Moody's and Standard and Poor's were downgraded. When AIG's ratings were downgraded in September 2008 in the wake of Lehman's failure, AIG was required to post more than \$13 billion in collateral. Although failure to post the collateral would have meant AIG was in default on its contracts, it was not able to raise funds quickly enough to do so. AIG had written more than \$375 billion in credit default swaps, including \$70 billion on CDOs, and was a significant counterparty to many of the financial system's most important firms. Its default would have led to significant losses for many of them. To prevent AIG's default, authorities rescued the firm the day after Lehman's bankruptcy.
 
 A systemic regulator armed with the information and tools we propose could in many ways have helped AIG, taxpayers, and the overall financial system. Because of AIG's size, it would have faced substantially higher capital requirements as it grew in the years preceding the crisis (Chapter 5). Our proposed information infrastructure would have revealed its burgeoning unhedged CDS positions—information that, in turn, could have triggered the systemic regulator to initiate risk-control conversations with AIG management long before the fateful Lehman bankruptcy (Chapter 3). The regulators overseeing AIG Financial Products had no reason to consider how a failure of AIG would affect its counterparties, but a systemic regulator would have been responsible for assessing the firm's interactions with other systemically important institutions. AIG's living will would have discussed obvious distress scenarios—one of which likely would have been a rating-agency downgrade (Chapter 8). Compensation holdbacks might have raised the incentive of key AIG managers to limit the firm's growing risk (Chapter 6). Finally, by giving AIG an incentive to use and clear standardized CDS contracts, our recommendations would have reduced AIG's systemic importance (Chapter 9). A March 2010 estimate by the Congressional Budget Office puts the taxpayer cost of rescuing AIG at \$36 billion. Our proposals would have substantially reduced this amount.
 

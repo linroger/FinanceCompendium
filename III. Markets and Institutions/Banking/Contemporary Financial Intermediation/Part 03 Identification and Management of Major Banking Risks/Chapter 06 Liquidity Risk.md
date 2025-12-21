@@ -1,12 +1,20 @@
 ---
-aliases:
-  - Liquidity Risk
-tags:
-key_concepts:
-parent_directory: Contemporary Financial Intermediation
-cssclasses: academia
 title: Chapter 06 - Liquidity Risk
-linter-yaml-title-alias: Chapter 06 - Liquidity Risk
+parent_directory: Contemporary Financial Intermediation
+formatted: 2025-12-21 11:10:25 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - liquidity risk management
+  - banking liquidity
+  - lender of last resort
+secondary_tags:
+  - deposit withdrawal risk
+  - fractional reserve banking
+  - duration mismatching
+  - wholesale financing
+  - informational frictions
+cssclasses: academia
 ---
 
 # GLOSSARY OF TERMS
@@ -33,7 +41,7 @@ It is important to distinguish between illiquidity and insolvency. The latter re
 
 Informational frictions are at the heart of liquidity problems. To see how informational asymmetries interact with default and interest rate risks to create liquidity risk, let us imagine that you own a bank that has made loans of  \$1 million with a maturity of 2 years and financed them with uninsured demand deposits. As a banker, you know more about the default risk of your loans than outsiders do, that is, there is asymmetric information about loan quality. Now, suppose that 6 months down the road,\$ 400,000 of deposits are withdrawn because your depositors suffer a "liquidity shock", that is, they have an urgent need for funds to take care of some expenditures, such as medical care of paying for college. However,
 
-your existing stock of cash assets is only  \$100,000. This means you need to raise\$ 300,000 to fund the deposit withdrawal. If potential depositors' perceptions about the quality of your loan portfolio are sufficiently favorable, you will not have any trouble acquiring new deposits in the amount of \$300,000. But suppose that outsiders have received unfavorable information about your loans. If this information is sufficiently unfavorable, new deposits may simply not be forthcoming, or you might have to pay an excessively high interest rate – relative to the rate you consider "appropriate" – to attract the necessary deposits. The point is this can happen even though your loans are in good shape. Your problem is that you know this, but your potential new depositors do not. This is an example of liquidity risk.
+your existing stock of cash assets is only \$100,000. This means you need to raise \$300,000 to fund the deposit withdrawal. If potential depositors' perceptions about the quality of your loan portfolio are sufficiently favorable, you will not have any trouble acquiring new deposits in the amount of \$300,000. But suppose that outsiders have received unfavorable information about your loans. If this information is sufficiently unfavorable, new deposits may simply not be forthcoming, or you might have to pay an excessively high interest rate – relative to the rate you consider "appropriate" – to attract the necessary deposits. The point is this can happen even though your loans are in good shape. Your problem is that you know this, but your potential new depositors do not. This is an example of liquidity risk.
 
 There are four points we should note about this example. First, the problem for your bank started with existing depositors experiencing their own "liquidity shock" or need for liquidity. Second, an informational asymmetry about asset quality plays a pivotal role in creating liquidity risk. If you know your loan quality is good and outsiders knew as much about your loan quality as you do, then you would be able to acquire the deposits you need at a price that you consider appropriate for the risk associated with the loan portfolio. This eliminates liquidity risk. Third, it is easy to confuse insolvency or credit risk with liquidity risk. That is, if the bank's loan quality truly deteriorated and the credit risk of the bank for (uninsured) depositors went up, the bank would be faced with insolvency risk and new deposits would not be forthcoming even if there was no asymmetric information about loan quality between you and your potential new depositors. An outside observer would simply see the bank unable to raise new deposits and think this was a manifestation of liquidity risk when it is really an insolvency problem.
 
@@ -49,13 +57,11 @@ Typically, we think that a big part of liquidity risk is withdrawal risk, which 
 
 We now turn to the interaction between interest rate risk and liquidity risk. There are two ways to explain this interaction. First, suppose we have deposit interest rate ceilings. Given this ceiling, a rise in market interest rates causes withdrawals because depositors can earn higher rates elsewhere. Hence, deposit interest rate ceilings transform interest rate risk into withdrawal risk.
 
-Another way to understand this interaction is by returning to the example we discussed in the section under interest rate risk. If the term structure receives a random shock that causes interest rates to rise, it is possible that you will experience a deposit outflow as your depositors will want to reinvest their money at the prevailing higher interest rates. You have two ways to finance these withdrawals. One way is for you to acquire new (partially insured) deposits. But this
-
-may require you to pay a premium to depositors due to a possible informational asymmetry about your loan portfolio. Moreover, you must satisfy reserve and capital requirements on deposits. An alternative is to liquidate part of your asset portfolio to meet these unanticipated deposit withdrawals. You can do this by selling off marketable securities you hold or by selling off some of your loans.<sup>5</sup> Due to an informational asymmetry about your loans, however, you may only be able to sell your loans for less than what you think they are worth. The loss you incur as a result is also a part of liquidity risk. Although this loss is precipitated by an unfavorable move in interest rates, note again the central role played by asymmetric information. Moreover, the greater the asymmetric information, the greater the potential for loss, and hence the lower the asset's liquidity. This is why, despite an active secondary market, a corporation's common stock is not as liquid as a U.S. Treasury bill.
+Another way to understand this interaction is by returning to the example we discussed in the section under interest rate risk. If the term structure receives a random shock that causes interest rates to rise, it is possible that you will experience a deposit outflow as your depositors will want to reinvest their money at the prevailing higher interest rates. You have two ways to finance these withdrawals. One way is for you to acquire new (partially insured) deposits. But this may require you to pay a premium to depositors due to a possible informational asymmetry about your loan portfolio. Moreover, you must satisfy reserve and capital requirements on deposits. An alternative is to liquidate part of your asset portfolio to meet these unanticipated deposit withdrawals. You can do this by selling off marketable securities you hold or by selling off some of your loans.<sup>5</sup> Due to an informational asymmetry about your loans, however, you may only be able to sell your loans for less than what you think they are worth. The loss you incur as a result is also a part of liquidity risk. Although this loss is precipitated by an unfavorable move in interest rates, note again the central role played by asymmetric information. Moreover, the greater the asymmetric information, the greater the potential for loss, and hence the lower the asset's liquidity. This is why, despite an active secondary market, a corporation's common stock is not as liquid as a U.S. Treasury bill.
 
 # SOME FORMAL DEFINITIONS OF LIQUIDITY
 
-Think of  $P^*$  as the full-value price of an asset, that is, the highest price an owner can expect to realize by liquidating one unit, provided all useful preparations are made for the sale. If the asset is sold before all useful preparations can be made, a lesser price will be realized. Call this lesser price  $P_i$ , where  $i = 0, \dots, n$  indicates the time used for marketing, and  $n$  is the time needed to realize full value. The length of time used should be thought of as the interval between a decision to sell and the time at which a sales contract is consummated.<sup>6</sup> Hence
+Think of $P^*$ as the full-value price of an asset, that is, the highest price an owner can expect to realize by liquidating one unit, provided all useful preparations are made for the sale. If the asset is sold before all useful preparations can be made, a lesser price will be realized. Call this lesser price $P_i$, where $i = 0, \dots, n$ indicates the time used for marketing, and $n$ is the time needed to realize full value. The length of time used should be thought of as the interval between a decision to sell and the time at which a sales contract is consummated.<sup>6</sup> Hence
 
 $$
 P_{n} = P^{*}
@@ -213,9 +219,3 @@ Brunnermeier, M.K., Pedersen, L.H., 2009. Market liquidity and funding liquidity
 Farhi, E., Tirole, J., 2012. Collective moral hazard, maturity mismatch, and systemic bailouts. Am. Econ. Rev. 102, 60-93.  
 Huang, R., Ratnovski, L., 2011. The dark side of bank wholesale funding. J. Finan. Intermed. 20, 248-263.  
 Thakor, A.V., Vuong, T., 2018. Optimal Capital Buffers, working paper, Washington University in St. Louis.
-
-# Spot Lending and Credit Risk
-
-"Neither a borrower nor a lender be; for loan oft loses itself and a friend, and borrowing dulls the edge of husbandry."
-
-William Shakespeare

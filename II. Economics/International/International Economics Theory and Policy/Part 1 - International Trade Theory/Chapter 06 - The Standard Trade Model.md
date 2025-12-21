@@ -1,24 +1,22 @@
 ---
+title: The Standard Trade Model
+parent_directory: International Economics Theory and Policy
+formatted: 2025-12-21 08:20:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- trade makes different assumptions
-- standard model economy produces
-- peterson institute international economics
-- imports gdp percent
-- trade model production possibilities
+- standard trade model
+- terms of trade
+- economic growth
+- international trade
 secondary_tags:
-- different models international trade
-- trade reduce real income
-- trade decline relative
-- fluctuations terms trade european
-- production model sectors differences
-- share imports income european
-- parameters affect world economy
-- trade differential effects
-- percent change terms trade
-- trade measured empirically averaging
-- assumptions determinants production
-- economy faces trade consumption
-tags_extracted: '2025-12-18T00:51:29.377057'
+- production possibility frontier
+- relative supply and demand
+- tariffs and subsidies
+- intertemporal trade
+- biased growth
+- export subsidies
+cssclasses: academia
 ---
 
 # THE STANDARD TRADE MODEL

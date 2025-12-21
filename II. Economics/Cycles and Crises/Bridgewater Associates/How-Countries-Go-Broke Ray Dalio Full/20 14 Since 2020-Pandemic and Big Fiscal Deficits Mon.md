@@ -1,30 +1,85 @@
 ---
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 20_14_Since_2020-Pandemic_and_Big_Fiscal_Deficits_Mon
+title: "20 14 Since 2020-Pandemic and Big Fiscal Deficits Mon"
+parent_directory: "How-Countries-Go-Broke Ray Dalio Full"
+formatted: "2025-12-21 08:15:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- fiscal policy
-- other countries
-- write downs
+  - fiscal policy
+  - monetary policy
+  - debt cycle
 secondary_tags:
-- quantitative easing
-- independent mandate
-- long-term big cycle
-- free-market capitalist system
-- rate changes
-- big changes
-tags_extracted: '2025-12-18T18:04:12.167905'
-tags_method: max_quality_v1
+  - pandemic response
+  - quantitative easing
+  - inflation dynamics
+  - wealth redistribution
+  - interest rate policy
+  - economic cycles
+cssclasses: academia
 ---
 
-# 20_14_Since_2020-Pandemic_and_Big_Fiscal_Deficits_Mon
+# 20 14 Since 2020-Pandemic and Big Fiscal Deficits Mon
 ## SINCE 2020—
 
 ### PANDEMIC AND BIG FISCAL
 
 ### DEFICITS MONETIZED
+
+```d2
+direction: right
+
+COVID Pandemic -> "Economic Crisis" {
+  style.fill: "#ffebee"
+}
+
+"Economic Crisis" -> "MP3: Coordinated Fiscal & Monetary Policy" {
+  style.fill: "#e8f5e9"
+}
+
+"MP3: Coordinated Fiscal & Monetary Policy" -> "Government Deficits" {
+  style.fill: "#fff3e0"
+}
+
+"MP3: Coordinated Fiscal & Monetary Policy" -> "Central Bank Monetization" {
+  style.fill: "#fff3e0"
+}
+
+"Government Deficits" -> "Increased Debt" {
+  style.fill: "#fce4ec"
+}
+
+"Central Bank Monetization" -> "Increased Money Supply" {
+  style.fill: "#fce4ec"
+}
+
+"Increased Debt" -> "Inflation Surge" {
+  style.fill: "#ffcdd2"
+}
+
+"Increased Money Supply" -> "Inflation Surge" {
+  style.fill: "#ffcdd2"
+}
+
+"Inflation Surge" -> "Fed Tightening" {
+  style.fill: "#e1f5fe"
+}
+
+"Fed Tightening" -> "Higher Interest Rates" {
+  style.fill: "#b3e5fc"
+}
+
+"Higher Interest Rates" -> "Asset Price Declines" {
+  style.fill: "#e8eaf6"
+}
+
+"Higher Interest Rates" -> "Stronger Dollar" {
+  style.fill: "#e8eaf6"
+}
+
+"Asset Price Declines" -> "Wealth Reduction" {
+  style.fill: "#f3e5f5"
+}
+```
 
 In 2020, the world was hit with the COVID pandemic. While there is a government financial management principle in the US and in many other countries that monetary policy should be independent of fiscal policy and be targeted to pursue inflation and, in the US case, economic growth goals, because without that independence and that independent mandate there would be the politicization and degradation of the supply and value of money, the truth is that nearly every sacrosanct rule is inevitably tested by reality and starts to break down later in the Big Cycle.
 
@@ -103,11 +158,11 @@ I am now going to look in more detail at what happened between 2020 and the pres
 ### More specifically:
 
 - This short-term debt cycle easing began in 2020 in response to the combination of a) a COVID-induced economic crisis, b) large wealth gaps, and c) political moves to the left via the elections of a Democratic president, a Democratic-controlled House of Representatives, and a Democratic-controlled Senate. The easing took the form of huge government spending increases that led to huge government fiscal deficits and government debt sales that were much greater than free-market lender-creditors would buy, which required central banks, most importantly the Fed, to buy/monetize the debt. Other entities like banks and Japanese institutional investors also bought a lot of US Treasury debt. That stimulation increased the amount of debt/credit/money/spending by a lot. This massive MP3-type of coordination of fiscal and monetary policies that allows the government to borrow and direct money as it chooses because the central bank buys its debt with printed money is explained more completely in Principles for Navigating Big Debt Crises, if you're interested in knowing more and seeing past cases, which you can download at economicprinciples.org. That is what happened in 2020-21; as mentioned, it has happened repeatedly for similar reasons throughout history though not in our lifetime.
-- The 2020-21 debt monetization was the fourth  $^{43}$  and the largest big debt monetization since the original big debt monetization/QE in 2008 (which was the first since 1933). From the start of the easing cycle of 2008, the nominal Treasury bond yield was pushed down from  $3.7\%$  to only  $0.5\%$ , the real Treasury bond yield was pushed from  $1.4\%$  to  $-1\%$ , and the non-government nominal and real bond yields fell a lot more (because credit spreads narrowed). Money and credit became essentially free and plentiful, so the environment became great for borrower-debtors and terrible for lender-creditors and led to an orgy of borrowing and new bubbles forming. My bubble indicator, which was at only $18\%$ in 2010, rose to $75\%$ at the end of 2020, showing the bubbles in companies and assets that had little or no profits and were funded by selling equity and/or borrowing money based on promises of doing well in the future and speculative buying fever. It was analogous to the Nifty Fifty bubble in the 1970-72 period, the Japan bubble of 1989-90, and the dot-com bubble of 1999-2000. The decline in interest rates in the years following 2008 took them so low that they couldn't continue to fall, and it benefited stocks a lot. I estimate that the interest rate decline raised stock prices about $75\%$ more than they would have risen without that decline (compared to the pre-financial-crisis peak). In addition, profit margins roughly doubled on average as a result of advances in technology and globalization, which also boosted profits and profit margins. Corporate and personal taxes declined, which also helped asset prices. From the post-crisis lows of 2009 through the second quarter of 2024, the nominal value of US household wealth in financial assets (i.e., "paper wealth") rose from \$32 trillion to \$99 trillion, so there was a tripling of paper wealth.[44]
+- The 2020-21 debt monetization was the fourth  $^{43}$  and the largest big debt monetization since the original big debt monetization/QE in 2008 (which was the first since 1933). From the start of the easing cycle of 2008, the nominal Treasury bond yield was pushed down from $3.7\%$ to only $0.5\%$ , the real Treasury bond yield was pushed from $1.4\%$ to $-1\%$ , and the non-government nominal and real bond yields fell a lot more (because credit spreads narrowed). Money and credit became essentially free and plentiful, so the environment became great for borrower-debtors and terrible for lender-creditors and led to an orgy of borrowing and new bubbles forming. My bubble indicator, which was at only $18\%$ in 2010, rose to $75\%$ at the end of 2020, showing the bubbles in companies and assets that had little or no profits and were funded by selling equity and/or borrowing money based on promises of doing well in the future and speculative buying fever. It was analogous to the Nifty Fifty bubble in the 1970-72 period, the Japan bubble of 1989-90, and the dot-com bubble of 1999-2000. The decline in interest rates in the years following 2008 took them so low that they couldn't continue to fall, and it benefited stocks a lot. I estimate that the interest rate decline raised stock prices about $75\%$ more than they would have risen without that decline (compared to the pre-financial-crisis peak). In addition, profit margins roughly doubled on average as a result of advances in technology and globalization, which also boosted profits and profit margins. Corporate and personal taxes declined, which also helped asset prices. From the post-crisis lows of 2009 through the second quarter of 2024, the nominal value of US household wealth in financial assets (i.e., "paper wealth") rose from \$32 trillion to \$99 trillion, so there was a tripling of paper wealth.[44]
 - That debt/credit/money surge in 2020 produced a big increase in inflation, which was exacerbated by supply chain problems and external conflicts (the third of the five major forces that I will touch on at the end of this chapter).
 - That big increase in inflation led to the short-term debt cycle tightening by the Fed and the contraction in the balance sheet by having maturing debt roll off rather than buying more of it. As a result of the Fed (and other central banks), changing their short-term debt cycle mode from easing to tightening, nominal and real interest rates went from levels that were overwhelmingly favorable to borrower-debtors and detrimental to lender-creditors to levels that were more normal (e.g., a $2\%$ real bond yield). Once the tightening began, US Treasury bond nominal yields rose from $0.5\%$ to over $4\%$ and real yields rose from about $-1.1\%$ to about $2.5\%$, which hurt most asset prices, particularly those with weak or negative profits and/or needs for new equity funding. Naturally, that shift especially hurt the prices of assets that were in bubbles. My bubble indicator fell from $75\%$ (in a significant bubble) to $35\%$ (not in a bubble) and the bubble stocks in the index fell an average of $75\%$. As a result, the nominal value of wealth in stocks and bonds fell by $\sim 12\%$ in the US and the real value of wealth fell by nearly $18\%$, which were the largest declines since 2009. As cash (i.e., investing in short-term cash instruments like T-Bills) went from "trash" to "attractive," and both short-term nominal and real interest rates were brought to levels that were more attractive than they were for lender-creditors and more unattractive than they were for borrower-debtors, and the yield curve inverted, these changes had the very classic effect of lowering the present values of most investment assets' future cash flows and strengthening the dollar relative to the currencies of other countries whose central bankers were slower to tighten. In other words, the Fed's quick movement brought US dollar-denominated cash to relatively attractive levels in relation to most assets, cash denominated in other currencies, and gold. This, as usual, hurt interest-rate-sensitive sectors like commercial and residential real estate, as well as low or negative cash flow bubble companies, both public and private, though public more so. For example, the then-hot "FAANG" stocks and the tech-heavy Nasdaq fell from their peaks by around  $45\%$  and  $33\%$ , respectively. Non-public-market assets—private equity, venture capital,
 
-and real estate assets—were not marked down commensurately as there was a great reluctance to accept the markdowns. Write-downs and having to downfundraising rounds became too painful for both the companies and the venture capital and private equity managers in these markets, so there has been, to this day, a stand-off in which sellers and buyers can't agree on prices and transaction volumes have plunged. It did not, however, weaken the economy as much as it typically would have because it was the central government that got into more debt rather than the private sector and it was the central bank that bought the debt and had the losses from holding it rather than the private sector. Also, the inflation was in wages and other compensation being earned as well as in goods and services being bought.
+and real estate assets—were not marked down commensurately as there was a great reluctance to accept the markdowns. Write-downs and having to down-fundraising rounds became too painful for both the companies and the venture capital and private equity managers in these markets, so there has been, to this day, a stand-off in which sellers and buyers can't agree on prices and transaction volumes have plunged. It did not, however, weaken the economy as much as it typically would have because it was the central government that got into more debt rather than the private sector and it was the central bank that bought the debt and had the losses from holding it rather than the private sector. Also, the inflation was in wages and other compensation being earned as well as in goods and services being bought.
 
 - Then inflation fell but prices stayed high, and the Fed and other central banks eased their monetary policies, which supported asset prices generally. Artificial intelligence and artificial intelligence companies became the new hot things and are expected to improve the economy and life hugely like the new hot things that produced the industrial and digital revolutions and led to financial bubbles. With these changes came great differences in which stocks, companies, and countries did well. Also, the world capital markets changed with new types of investment products, though in the same sort of ways we saw before. For example, we are seeing new types of lending, like the development of the private credit market, which is the modern-day version of the junk bond market of the late 1970s and early 1980s (though more customized, not securitized, more illiquid, and inclusive of early-stage companies). The large amount of money entering this type of lending helped to keep credit spreads down and fund more speculative activities.
 - Regarding the internal conflicts over wealth and values between the populists of the right and the populists of the left, the intensity increased in most democracies, most importantly in the US. In the US, the divide between the political right and the political left became more extreme, and the big rises in prices that came from the earlier-described big fiscal and monetary stimulations by the US central government and central bank led to big price increases in goods, services, and financial assets. In the 2024 election, this inflation and other factors, such as President Biden's impaired acuity, helped a) the rightist/capitalist/social conservative Donald Trump and the Republican Party to a decisive win over b) the leftist/socialist/social liberal Kamala Harris and the Democratic Party, giving Trump a mandate to undertake a big renovation of the central government and the country as a whole and prepare for some type of war with China and its allies. The potential great conflict that would have likely occurred if there was a close Trump loss was averted, and huge changes to the US domestic order began.

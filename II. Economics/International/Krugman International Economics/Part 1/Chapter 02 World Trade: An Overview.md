@@ -1,8 +1,8 @@
 ---
 title: Chapter 02 World Trade: An Overview
 parent_directory: Part 1
-formatted: 2025-12-21 07:00:00 AM
-formatter_model: grok-code-fast-1
+formatted: 2025-12-21 08:15:00 AM
+formatter_model: claude-sonnet-4-5-20250929
 cli-tool: opencode
 primary_tags:
 - world trade patterns
@@ -67,9 +67,9 @@ trade_flow -> country_b: Imports to B
 3. **Border Effects**: Political borders reduce trade flows significantly
 4. **Trade Costs**: Transportation costs, tariffs, and non-tariff barriers affect trade
 
-## Using the Gravity Model Looking for Anomalies
+## Using the Gravity Model: Looking for Anomalies
 
-## Impediments to Trade Distance Barriers and Borders
+## Impediments to Trade: Distance, Barriers, and Borders
 
 ## The Changing Pattern of World Trade
 

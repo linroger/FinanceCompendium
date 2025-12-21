@@ -1,29 +1,24 @@
 ---
+title: Specific Factors and Income Distribution
+parent_directory: International Economics Theory and Policy
+formatted: 2025-12-21 08:15:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
 primary_tags:
-- effects international labor mobility
-- potential benefits trade model
-- factor production country labor
-- wage differences countries driven
-- trade affect income distribution
-- wage terms cloth rise
+- specific factors model
+- income distribution effects
+- international labor mobility
 secondary_tags:
-- specific factors income distribution
-- trade income distribution believe
-- ricardian model international trade
-- migration labor similar causes
-- relative income capitalists
-- sectors equalized international migration
-- affects factors labor capital
-- trade factor mobility
-- specific factors model assumes
-- international trade strong effects
-- sectors changes country labor
-- main reasons international trade
-- real wage foreign obstacles
-- incomes different factors
-- affects income distribution apparel
-- trade distributional effects trade
-tags_extracted: '2025-12-18T00:49:26.882706'
+- trade winners losers
+- immigration economic effects
+- trade political economy
+- factor price equalization
+- migration income distribution
+- trade adjustment assistance
+- production possibility frontier
+- marginal product labor
+- labor market equilibrium
+cssclasses: academia
 ---
 
 # SPECIFIC FACTORS AND INCOME DISTRIBUTION
@@ -32,15 +27,13 @@ As we saw in Chapter 3, international trade can be mutually beneficial to the na
 
 The Ricardian model of international trade developed in Chapter 3 illustrates the potential benefits from trade. In that model, trade leads to international specialization, with each country shifting its labor force from industries in which that labor is relatively inefficient to industries in which it is relatively more efficient. Because labor is the only factor of production in that model and it is assumed that labor can move freely from one industry to another, there is no possibility that individuals will be hurt by trade. The Ricardian model thus suggests not only that all countries gain from trade but also that every individual is made better off as a result of international trade because trade does not affect the distribution of income. In the real world, however, trade has substantial effects on the income distribution within each trading nation, so that in practice the benefits of trade are often distributed very unevenly.
 
-There are two main reasons why international trade has strong effects on the distribution of income. First, resources cannot move immediately or without cost from one industry to another—a short-run consequence of trade. Second, industries differ in the factors of production they demand. A shift in the mix of goods a country produces will ordinarily reduce the demand for some factors of production while raising the demand for others—a long-run consequence of trade. For
-
-both of these reasons, international trade is not as unambiguously beneficial as it appeared to be in Chapter 3. While trade may benefit a nation as a whole, it often hurts significant groups within the country in the short run and potentially, but to a lesser extent, in the long run.
+There are two main reasons why international trade has strong effects on the distribution of income. First, resources cannot move immediately or without cost from one industry to another—a short-run consequence of trade. Second, industries differ in the factors of production they demand. A shift in the mix of goods a country produces will ordinarily reduce the demand for some factors of production while raising the demand for others—a long-run consequence of trade. For both of these reasons, international trade is not as unambiguously beneficial as it appeared to be in Chapter 3. While trade may benefit a nation as a whole, it often hurts significant groups within the country in the short run and potentially, but to a lesser extent, in the long run.
 
 We describe in greater detail later in this chapter the politics of the U.S. restrictions on sugar imports. It is substantially more expensive to farm sugar cane in the United States than in tropical countries. Eliminating those restrictions would drastically lower the price of sugar in the United States, raising standards of living as a whole. But sugar cane farmers, along with corn and beet farmers (crops that are used to produce sweeteners that substitute for sugar cane), would be hurt by freer trade: This would lead to lower prices for their crops in the United States. Those farmers could switch to other crops or find jobs in other sectors, but those transitions would be difficult and costly. Not surprisingly, those farmers are vehemently opposed to removing the sugar import restrictions. And politicians representing those farm districts consistently vote to maintain those restrictions.
 
 A realistic analysis of trade must go beyond the Ricardian model to models in which trade can affect income distribution. In this chapter, we focus on the short-run consequences of trade on the income distribution when factors of production cannot move without cost between sectors. To keep our model simple, we assume that the sector-switching cost for some factors is high enough that such a switch is impossible in the short run. Those factors are specific to a particular sector.
 
-# LEARNING GOALS
+## Learning Goals
 
 After reading this chapter, you will be able to:
 
@@ -50,11 +43,11 @@ After reading this chapter, you will be able to:
 Discuss the reasons why trade is a politically contentious issue.
 - Explain the arguments in favor of free trade despite the existence of losers.
 
-# The Specific Factors Model
+## The Specific Factors Model
 
 The specific factors model was developed by Paul Samuelson and Ronald Jones.2 Like the simple Ricardian model, it assumes an economy that produces two goods and that can allocate its labor supply between the two sectors. Unlike the Ricardian model, however, the specific factors model allows for the existence of factors of production besides labor. Whereas labor is a mobile factor that can move between sectors, these other factors are assumed to be specific. That is, they can be used only in the production of particular goods.
 
-# WHAT IS A SPECIFIC FACTOR?
+### What is a Specific Factor?
 
 In the model developed in this chapter, we assume two factors of production—land and capital—are permanently tied to particular sectors of the economy. In advanced economies, however, agricultural land receives only a small part of national income. When economists apply the specific factors model to economies like those of the United States or France, they typically think of factor specificity not as a permanent condition but as a matter of time. For example, the vats used to brew beer and the stamping presses used to build auto bodies cannot be substituted for each other, and so these different kinds of equipment are industry-specific. Given time, however, it would be possible to redirect investment from auto factories to breweries or vice versa. As a result, in a long-term sense both vats and stamping presses can be considered two manifestations of a single, mobile factor called capital.
 
@@ -62,7 +55,7 @@ In practice, then, the distinction between specific and mobile factors is not a 
 
 Worker mobility varies greatly with the characteristics of the worker (such as age) and the job occupation (whether it requires general or job-specific skills). Nevertheless, one can measure an average rate of mobility by looking at the duration of unemployment following a worker's displacement. After four years, a displaced worker in the United States has the same probability of being employed as a similar worker who was not displaced. This four-year time span compares with a lifetime of 15 or 20 years for a typical specialized machine and 30 to 50 years for structures (a shopping mall, office building, or production plant). So labor is certainly a less specific factor than most kinds of capital. However, even though most workers can find new employment in other sectors within a four-year time span, switching occupations entails additional costs: A displaced worker who is reemployed in a different occupation suffers an 18 percent permanent drop in wages (on average). This compares with a 6 percent drop if the worker does not switch occupations. Thus, labor is truly flexible only before a worker has invested in any occupation-specific skills.
 
-# Assumptions of the Model
+### Assumptions of the Model
 
 Imagine an economy that can produce two goods, cloth and food. Instead of one factor of production, however, the country has three: labor  $(L)$ , capital  $(K)$ , and land  $(T$  for terrain). Cloth is produced using capital and labor (but not land), while food is produced using land and labor (but not capital). Labor is therefore a mobile factor that can be used in either sector, while land and capital are both specific factors that can be used only in the production of one good. Land can also be thought of as a different type of capital, one that is specific to the food sector (see "What Is a Specific Factor?" box).
 
@@ -84,23 +77,23 @@ $$
 L_{C} + L_{F} = L. \tag {4-3}
 $$
 
-# Production Possibilities
+### Production Possibilities
 
 The specific factors model assumes that each of the specific factors, capital and land, can be used in only one sector, cloth and food, respectively. Only labor can be used in either sector. Thus, to analyze the economy's production possibilities, we need only to ask how the economy's mix of output changes as labor is shifted from one sector to the other. This can be done graphically, first by representing the production functions (4-1) and (4-2) and then by putting them together to derive the production possibility frontier.
 
 Figure 4-1 illustrates the relationship between labor input and output of cloth. The larger the input of labor for a given capital supply, the larger the output. In Figure 4-1, the slope of  $Q_{C}(K, L_{C})$  represents the marginal product of labor, that is, the addition to output generated by adding one more person-hour. However, if labor input is increased without increasing capital, there will normally be diminishing returns: Because adding a worker means that each worker has less capital to work with, each successive increment of labor will add less to production than the last. Diminishing returns are reflected in the shape of the production function:  $Q_{C}(K, L_{C})$  gets flatter as we move to the right, indicating that the marginal product of labor declines as more labor is used.[5]
 
-# FIGURE 4-1
+#### Figure 4-1
 
-# The Production Function for Cloth
+##### The Production Function for Cloth
 
 The more labor employed in the production of cloth, the larger the output. As a result of diminishing returns, however, each successive person-hour increases output by less than the previous one; this is shown by the fact that the curve relating labor input to output gets flatter at higher levels of employment.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/5531d525ae6ca9a66ac58df5649efb089801fa31d97998a554a5620c75a9aac6.jpg)
 
-# FIGURE 4-2
+#### Figure 4-2
 
-# The Marginal Product of Labor
+##### The Marginal Product of Labor
 
 The marginal product of labor in the cloth sector, equal to the slope of the production function shown in Figure 4-1, is lower the more labor the sector employs.
 
@@ -139,7 +132,7 @@ We can now see why  $PP$  has the bowed shape it does. As we move from  $1'$  to
 
 We have shown how output is determined, given the allocation of labor. The next step is to ask how a market economy determines what the allocation of labor should be.
 
-# Prices, Wages, and Labor Allocation
+## Prices, Wages, and Labor Allocation
 
 How much labor will be employed in each sector? To answer this, we need to look at supply and demand in the labor market. The demand for labor in each sector depends on the price of output and the wage rate. In turn, the wage rate depends on the combined demand for labor by food and cloth producers. Given the prices of cloth and food together with the wage rate, we can determine each sector's employment and output.
 
@@ -161,7 +154,7 @@ The wage rate  $w$  must be the same in both sectors because of the assumption t
 
 By representing these two labor demand curves in a diagram (Figure 4-4), we can see how the wage rate and employment in each sector are determined given the prices of food and cloth. Along the horizontal axis of Figure 4-4, we show the total labor supply  $L$ . Measuring from the left of the diagram, we show the value of the marginal product of labor in cloth, which is simply the  $MPL_{C}$  curve from Figure 4-2 multiplied by  $P_{C}$ . This is the demand curve for labor in the cloth sector. Measuring from the right, we show the value of the marginal product of labor in food, which is the demand for labor in food. The equilibrium wage rate and allocation of labor between the two sectors is
 
-# FIGURE 4-4 The Allocation of Labor
+#### Figure 4-4 The Allocation of Labor
 
 Labor is allocated so that the value of its marginal product  $(P \times MPL)$  is the same in the cloth and food sectors. In equilibrium, the wage rate is equal to the value of labor's marginal product.
 
@@ -186,32 +179,36 @@ The left side of equation (4-6) is the slope of the production possibility front
 
 What happens to the allocation of labor and the distribution of income when the prices of food and cloth change? Notice that any price change can be broken into two parts: an equal-proportional change in both  $P_{C}$  and  $P_{F}$  and a change in only one price. For example, suppose the price of cloth rises 17 percent and the price of food rises 10 percent. We can analyze the effects of this by first asking what happens if cloth and food prices both rise by 10 percent and then by finding out what happens if only cloth prices rise by 7 percent. This allows us to separate the effect of changes in the overall price level from the effect of changes in relative prices.
 
-# FIGURE 4-5
+#### Figure 4-5
 
-# Production in the Specific Factors Model
+##### Production in the Specific Factors Model
 
 The economy produces at the point on its production possibility frontier  $(PP)$  where the slope of that frontier equals minus the relative price of cloth.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/7077389cc8fe40b37c303a80df4d93868409c4700f910b9b40d2e1056fefd6e0.jpg)
 
-An Equal-Proportional Change in Prices Figure 4-6 shows the effect of an equal-proportional increase in  $P_{C}$  and  $P_{F}$ .  $P_{C}$  rises from  $P_{C}^{1}$  to  $P_{C}^{2}$ ;  $P_{F}$  rises from  $P_{F}^{1}$  to  $P_{F}^{2}$ . If the prices of both goods increase by 10 percent, the labor demand curves will also shift up by 10 percent. As you can see from the diagram, these shifts lead to a 10 percent increase in the wage rate from  $w^{1}$  (point 1) to  $w^{2}$  (point 2). However, the allocation of labor between the sectors and the outputs of the two goods does not change.
+# An Equal-Proportional Change in Prices
+
+Figure 4-6 shows the effect of an equal-proportional increase in  $P_{C}$  and  $P_{F}$ .  $P_{C}$  rises from  $P_{C}^{1}$  to  $P_{C}^{2}$ ;  $P_{F}$  rises from  $P_{F}^{1}$  to  $P_{F}^{2}$ . If the prices of both goods increase by 10 percent, the labor demand curves will also shift up by 10 percent. As you can see from the diagram, these shifts lead to a 10 percent increase in the wage rate from  $w^{1}$  (point 1) to  $w^{2}$  (point 2). However, the allocation of labor between the sectors and the outputs of the two goods does not change.
 
 In fact, when  $P_{C}$  and  $P_{F}$  change in the same proportion, no real changes occur. The wage rate rises in the same proportion as the prices, so real wage rates, the ratios of the wage rate to the prices of goods, are unaffected. With the same amount of labor employed in each sector, receiving the same real wage rate, the real incomes of capital owners and landowners also remain the same. So everyone is in exactly the same position as before. This illustrates a general principle: Changes in the overall price level have no real effects, that is, do not change any physical quantities in the economy. Only changes in relative prices—which in this case means the price of cloth relative to the price of food,  $P_{C} / P_{F}$ —affect welfare or the allocation of resources.
 
-A Change in Relative Prices Consider the effect of a price change that does affect relative prices. Figure 4-7 shows the effect of a change in the price of only one good, in this case a 7 percent rise in  $P_{C}$  from  $P_{C}^{1}$  to  $P_{C}^{2}$ . The increase in  $P_{C}$  shifts the cloth labor demand curve in the same proportion as the price increase and shifts the equilibrium from point 1 to point 2. Notice two important facts about the results of this shift. First, although the wage rate rises, it rises by less than the increase in the price of cloth. If wages had risen in the same proportion as the price of cloth (7 percent increase), then wages would have risen from  $w^{1}$  to  $w^{2'}$ . Instead, wages rise by a smaller proportion, from  $w^{1}$  to  $w^{2}$ .
+# A Change in Relative Prices
 
-# FIGURE 4-6
+Consider the effect of a price change that does affect relative prices. Figure 4-7 shows the effect of a change in the price of only one good, in this case a 7 percent rise in  $P_{C}$  from  $P_{C}^{1}$  to  $P_{C}^{2}$ . The increase in  $P_{C}$  shifts the cloth labor demand curve in the same proportion as the price increase and shifts the equilibrium from point 1 to point 2. Notice two important facts about the results of this shift. First, although the wage rate rises, it rises by less than the increase in the price of cloth. If wages had risen in the same proportion as the price of cloth (7 percent increase), then wages would have risen from  $w^{1}$  to  $w^{2'}$ . Instead, wages rise by a smaller proportion, from  $w^{1}$  to  $w^{2}$ .
 
-# An Equal- Proportional Increase in the Prices of Cloth and Food
+#### Figure 4-6
+
+##### An Equal-Proportional Increase in the Prices of Cloth and Food
 
 The labor demand curves in cloth and food both shift up in proportion to the rise in  $P_{C}$  from  $P_{C}^{1}$  to  $P_{C}^{2}$  and the rise in  $P_{F}$  from  $P_{F}^{1}$  to  $P_{F}^{2}$ . The wage rate rises in the same proportion, from  $w^{1}$  to  $w^{2}$ , but the allocation of labor between the two sectors does not change.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/7574070da357971d94f74964773e709d2552f25126ada00a982280a696ad62a7.jpg)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/df3f270db85ee6a808b68be0531e715c1d66e6a2f4a45ef925e238e016879d6e.jpg)
-FIGURE 4-7
+#### Figure 4-7
 
-# A Rise in the Price of Cloth
+##### A Rise in the Price of Cloth
 
 The cloth labor demand curve rises in proportion to the 7 percent increase in  $P_{C}$ , but the wage rate rises less than proportionately. Labor moves from the food sector to the cloth sector. Output of cloth rises; output of food falls.
 
@@ -221,21 +218,21 @@ The effect of a rise in the relative price of cloth can also be seen directly by
 
 Since higher relative prices of cloth lead to a higher output of cloth relative to that of food, we can draw a relative supply curve showing  $Q_{C} / Q_{F}$  as a function of  $P_{C} / P_{F}$ . This relative supply curve is shown as  $RS$  in Figure 4-9. As we showed in Chapter 3, we can also draw a relative demand curve, which is illustrated by the downward-sloping line  $RD$ . In the absence of international trade, the equilibrium relative price  $(P_{C} / P_{F})^{1}$  and output  $(Q_{C} / Q_{F})^{1}$  are determined by the intersection of relative supply and demand.
 
-# Relative Prices and the Distribution of Income
+## Relative Prices and the Distribution of Income
 
 So far, we have examined the following aspects of the specific factors model: (1) the determination of production possibilities given an economy's resources and technology and (2) the determination of resource allocation, production, and relative prices in a
 
-# FIGURE 4-8
+#### Figure 4-8
 
-# The Response of Output to a Change in the Relative Price of Cloth
+##### The Response of Output to a Change in the Relative Price of Cloth
 
 The economy always produces at the point on its production possibility frontier  $(PP)$  where the slope of  $PP$  equals minus the relative price of cloth. Thus, an increase in  $P_{C} / P_{F}$  causes production to move down and to the right along the production possibility frontier corresponding to higher output of cloth and lower output of food.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/f3be6cfbe09617b179c26ba0bba0c4e98d0a0bd163f2333a246f44f0249f1d0b.jpg)
 
-# FIGURE 4-9
+#### Figure 4-9
 
-# Determination of Relative Prices
+##### Determination of Relative Prices
 
 In the specific factors model, a higher relative price of cloth will lead to an increase in the output of cloth relative to that of food. Thus, the relative supply curve  $RS$  is upward sloping. Equilibrium relative quantities and prices are determined by the intersection of  $RS$  with the relative demand curve  $RD$ .
 
@@ -409,21 +406,21 @@ In addition, many of the protected sectors contained a high proportion of interm
 
 It is therefore not surprising that those Trump tariffs have led to job losses in manufacturing—the exact opposite from their purported goal. A recent study by Aaron Flaaen and Justin Pierce estimates that those tariffs generated job losses in downstream U.S. manufacturing sectors that were double the number of jobs gained in the sectors protected by the tariffs. And the job losses caused by the retaliatory tariffs were more than triple that number of jobs gained.[17]
 
-# International Labor Mobility
+## International Labor Mobility
 
 In this section, we will show how the specific factors model can be adapted to analyze the effects of labor mobility. In the modern world, restrictions on the flow of labor are legion—just about every country imposes restrictions on immigration. Thus, labor mobility is less prevalent in practice than capital mobility. However, the analysis of physical capital movements is more complex, as it is embedded along with other factors in a multinational's decision to invest abroad (see Chapter 8). Still, it is important to understand the international economic forces that drive desired migration of workers across borders and the short-run consequences of those migration flows whenever they are realized. We will also explore the long-run consequences of changes in a country's labor and capital endowments in the next chapter (Chapter 5).
 
 In the previous sections, we saw how workers move between the cloth and food sectors within one country until the wages in the two sectors are equalized. Whenever international migration is possible, workers will also want to move from the low-wage to the high-wage country.[18] To keep things simple and to focus on international migration, let's
 
-# FIGURE 4-14
+#### Figure 4-14
 
-# Causes and Effects of International Labor Mobility
+##### Causes and Effects of International Labor Mobility
 
 Initially,  $OL^1$  workers are employed in Home, while  $L^1 O^*$  workers are employed in Foreign. Labor migrates from Home to Foreign until  $OL^2$  workers are employed in Home,  $L^2 O^*$  in Foreign, and wages are equalized.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/36ffe3727d37e495dfefc30687fb46f5a4c909dc4c1a7454ccbd0d855d5eee2e.jpg)
 
-assume that two countries produce a single good with labor and an immobile factor, land. Since there is only a single good, there is no reason to trade it; however, there will be "trade" in labor services when workers move in search of higher wages. In the absence of migration, wage differences across countries can be driven by technology differences or, alternatively, by differences in the availability of land relative to labor.
+Assume that two countries produce a single good with labor and an immobile factor, land. Since there is only a single good, there is no reason to trade it; however, there will be "trade" in labor services when workers move in search of higher wages. In the absence of migration, wage differences across countries can be driven by technology differences or, alternatively, by differences in the availability of land relative to labor.
 
 Figure 4-14 illustrates the causes and effects of international labor mobility. It is very similar to Figure 4-4, except that the horizontal axis now represents the total world labor force (instead of the labor force in a given country). The two marginal product curves now represent production of the same good in different countries (instead of the production of two different goods in the same country). We do not multiply those curves by the prices of the good; instead, we assume the wages measured on the vertical axis represent real wages (the wage divided by the price of the unique good in each country). Initially, we assume there are  $OL^1$  workers in Home and  $L^1 O^*$  workers in Foreign. Given those employment levels, technology and land endowment differences are such that real wages are higher in Foreign (point  $B$ ) than in Home (point  $C$ ).
 
@@ -438,9 +435,9 @@ Three points should be noted about this redistribution of the world's labor forc
 
 As in the case of the gains from international trade, then, international labor mobility, while allowing everyone to be made better off in principle, leaves some groups worse off in practice. This main result would not change in a more complex model where countries produce and trade different goods, so long as some factors of production are immobile in the short run. However, we will see in Chapter 5 that this result need not hold in the long run when all factors are mobile across sectors. Changes in a country's labor endowment, so long as the country is integrated into world markets through trade, can leave the welfare of all factors unchanged. This has very important implications for immigration in the long run and has been shown to be empirically relevant in cases where countries experience large immigration increases.
 
-# CASE STUDY
+### Case Study
 
-# Wage and Social Benefits Convergence: Migrant Mobility in China
+#### Wage and Social Benefits Convergence: Migrant Mobility in China
 
 Although China is a unified country, its government enforces Hukou, an internal registration system under which every Chinese citizen is registered as a resident of a specific region in the country. Established in 1958, this system is meant to ensure sufficient agricultural workforce and therefore enough sufficient production of food grains to support the urban industrial sector as well as to regulate the security of cities. It has led to the erection of a wall between the urban and rural areas and resulted in differences in social statuses in terms of access to healthcare, education, or retirement benefits.
 
@@ -449,7 +446,7 @@ However, by the turn of the millennium, China's rapid modernization and internat
 Has this process been associated with wage convergence as predicted by our model of labor mobility? Indeed, it has. Figure 4-15 plots the relative wage between migrants and urban workers between 1990 and 2014. We can see a clear trend of convergence in spite of the income inequality that occurred after the economy opened up in 1992. The wages of migrant workers increased sixfold and the wage gap differential (the ratio of urban to migrant wages in the figure) closed by more than 50 percent.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/8c48a10b281258a207819be14b9ee7b1f2b94afe3d02172de2aad03f78ffd150.jpg)
-FIGURE 4-15 Average Urban Workers and Migrants Wages
+#### Figure 4-15 Average Urban Workers and Migrants Wages
 
 (Monthly wages in RMB (LHS) and Ratio (RHS))
 
@@ -457,9 +454,9 @@ Source: IMF Working Paper; China's Labor Market in the "New Normal"; W. Raphael 
 
 However, since the turn of the millennium, migrant wages have remained more or less stagnant at about 60 percent of urban workers' wages. This could be partially explained by the differences in education and qualification between the two populations. While these remaining gaps are still an engine of growth for labor market dynamics, they could also become a rigidity in the future by slowing down adequate allocation of the workforce across regions. These concerns led to the Hukou system being gradually relaxed. Reforms in 2014 aimed to completely liberalize it by granting "urban Hukou" status to all those who ask for it and closing the rural-urban gap in access to healthcare, education, and other benefits.
 
-# CASE STUDY
+### Case Study
 
-# Immigration and the U.S. Economy
+#### Immigration and the U.S. Economy
 
 As Figure 4-16 shows, the share of immigrants in the U.S. population has varied greatly over the past two centuries. At the turn of the 20th century, the number of foreign-born U.S. residents increased dramatically due to vast immigration from Eastern and Southern Europe. Tight restrictions on immigration imposed in the 1920s brought an end to this era, and by the 1960s immigrants were a minor factor on the American scene. A new wave of immigration began around 1970, this time with most immigrants coming from Latin America and Asia. Although the share of immigrants has been steadily increasing ever since, it is still below the levels reached during the first wave of immigration.
 
@@ -468,18 +465,18 @@ How has this new wave of immigration affected the U.S. economy? The most direct 
 Other things equal, we would expect this increase in the workforce to reduce wages. One widely cited estimate is that average wages in the United States are 3 percent lower than they would be in the absence of immigration.[19] However, comparisons of average wages can be misleading because immigrants to the United States have a very different education profile relative to the overall U.S. population.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/3e343e7ad9ed2dbb16434e5b988ccf7887871f8be88990e5ebf1b6214e36b7b2.jpg)
-FIGURE 4-16
+#### Figure 4-16
 
-# Foreign-Born Population as a Percentage of the U.S. Population
+##### Foreign-Born Population as a Percentage of the U.S. Population
 
 Restrictions on immigration in the 1920s led to a sharp decline in the foreign-born population in the mid-20th century, but immigration has risen sharply again in recent decades.
 
 Source: U.S. Census Bureau.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/029d28d151e3054d5f0db9ab19b244b5fd8e233b44a7299a6daa571384585e63.jpg)
-FIGURE 4-17
+#### Figure 4-17
 
-# Foreign-Born and Total U.S. Population Over 25 Years Old by Educational Attainment
+##### Foreign-Born and Total U.S. Population Over 25 Years Old by Educational Attainment
 
 Relative to native-born workers, foreign-born workers are concentrated in both the highest and lowest educational groups.
 
@@ -497,7 +494,7 @@ There's one more complication in assessing the economic effects of immigration: 
 
 Immigration is, of course, an extremely contentious political issue. The economics of immigration, however, probably doesn't explain this contentiousness. Instead, it may be helpful to recall what Swiss author Max Frisch once said about the effects of immigration into his own country, which at one point relied heavily on workers from other countries: "We asked for labor, but people came." And it's the fact that immigrants are people that makes the immigration issue so difficult.
 
-# SUMMARY
+## Summary
 
 - International trade often has strong effects on the distribution of income within countries, so that it often produces losers as well as winners. Income distribution effects arise for two reasons: Factors of production cannot move instantaneously and costlessly from one industry to another, and changes in an economy's output mix have differential effects on the demand for different factors of production.
 - A useful model of income distribution effects of international trade is the specific factors model, which allows for a distinction between general-purpose factors that can move between sectors and factors specific to particular uses. In this model, differences in resources can cause countries to have different relative supply curves and thus cause international trade.
@@ -508,7 +505,7 @@ Trade nonetheless produces overall gains in the limited sense that those who gai
 - Nonetheless, in the actual politics of trade policy, income distribution is of crucial importance. This is true in particular because those who lose from trade are usually a much more informed, cohesive, and organized group than those who gain.
 - International factor movements can sometimes substitute for trade, so it is not surprising that international migration of labor is similar in its causes and effects to international trade. Labor moves from countries where it is abundant to countries where it is scarce. This movement raises total world output, but it also generates strong income distribution effects, so that some groups are hurt as a result.
 
-# KEY TERMS
+## Key Terms
 
 budget constraint, p. 91
 
@@ -532,51 +529,9 @@ U.S. Trade Adjustment
 
 Assistance program, p. 95
 
-# PROBLEMS
 
-1. Why would a country opt for free trade when some workers remain unemployed in the import-competing sector? Given the real wage rate in Thailand is higher than that in Bangladesh, how would international trade affect real wages between them under a perfectly mobile labor movement?
-2. An economy can produce good 1 using labor and capital and good 2 using labor and land. The total supply of labor is 100 units. Given the supply of capital, the outputs of the two goods depend on labor input as follows:
 
-<table><tr><td>Labor Input to Good 1</td><td>Output of Good 1</td><td>Labor Input to Good 2</td><td>Output of Good 2</td></tr><tr><td>0</td><td>0.0</td><td>0</td><td>0.0</td></tr><tr><td>10</td><td>25.1</td><td>10</td><td>39.8</td></tr><tr><td>20</td><td>38.1</td><td>20</td><td>52.5</td></tr><tr><td>30</td><td>48.6</td><td>30</td><td>61.8</td></tr><tr><td>40</td><td>57.7</td><td>40</td><td>69.3</td></tr><tr><td>50</td><td>66.0</td><td>50</td><td>75.8</td></tr><tr><td>60</td><td>73.6</td><td>60</td><td>81.5</td></tr><tr><td>70</td><td>80.7</td><td>70</td><td>86.7</td></tr><tr><td>80</td><td>87.4</td><td>80</td><td>91.4</td></tr><tr><td>90</td><td>93.9</td><td>90</td><td>95.9</td></tr><tr><td>100</td><td>100</td><td>100</td><td>100</td></tr></table>
-
-a. Graph the production functions for good 1 and good 2.
-b. Graph the production possibility frontier. Why is it curved?
-
-3. The marginal product of labor curves corresponding to the production functions in problem 2 are as follows:
-
-<table><tr><td>Workers Employed</td><td>MPL in Sector 1</td><td>MPL in Sector 2</td></tr><tr><td>10</td><td>1.51</td><td>1.59</td></tr><tr><td>20</td><td>1.14</td><td>1.05</td></tr><tr><td>30</td><td>1.00</td><td>.82</td></tr><tr><td>40</td><td>.87</td><td>.69</td></tr><tr><td>50</td><td>.78</td><td>.60</td></tr><tr><td>60</td><td>.74</td><td>.54</td></tr><tr><td>70</td><td>.69</td><td>.50</td></tr><tr><td>80</td><td>.66</td><td>.46</td></tr><tr><td>90</td><td>.63</td><td>.43</td></tr><tr><td>100</td><td>.60</td><td>.40</td></tr></table>
-
-a. Suppose the price of good 2 relative to that of good 1 is 2. Determine graphically the wage rate and the allocation of labor between the two sectors.
-b. Using the graph drawn for problem 2, determine the output of each sector. Then confirm graphically that the slope of the production possibility frontier at that point equals the relative price.
-c. Suppose the relative price of good 2 falls to 1.3. Repeat (a) and (b).
-d. Calculate the effects of the price change from 2 to 1.3 on the income of the specific factors in sectors 1 and 2.
-
-4. Consider two countries (Home and Foreign) that produce goods 1 (with labor and capital) and 2 (with labor and land) according to the production functions described in problems 2 and 3. Initially, both countries have the same supply of labor (100 units each), capital, and land. The capital stock in Home then grows. This change shifts out both the production curve for good 1 as a function of labor employed (described in problem 2) and the associated marginal product of labor curve (described in problem 3). Nothing happens to the production and marginal product curves for good 2.
-
-a. Show how the increase in the supply of capital for Home affects its production possibility frontier.
-b. On the same graph, draw the relative supply curve for both the Home and the Foreign economy.
-c. If those two economies open up to trade, what will be the pattern of trade (i.e., which country exports which good)?
-d. Describe how opening up to trade affects all three factors (labor, capital, land) in both countries.
-
-5. In Home and Foreign, there are two factors each of production, land, and labor used to produce only one good. The land supply in each country and the technology of production are exactly the same. The marginal product of labor in each country depends on employment as follows:
-
-<table><tr><td>Number of Workers Employed</td><td>Marginal Product of Last Worker</td></tr><tr><td>1</td><td>20</td></tr><tr><td>2</td><td>19</td></tr><tr><td>3</td><td>18</td></tr><tr><td>4</td><td>17</td></tr><tr><td>5</td><td>16</td></tr><tr><td>6</td><td>15</td></tr><tr><td>7</td><td>14</td></tr><tr><td>8</td><td>13</td></tr><tr><td>9</td><td>12</td></tr><tr><td>10</td><td>11</td></tr><tr><td>11</td><td>10</td></tr></table>
-
-Initially, there are 11 workers employed in Home but only 3 workers in Foreign.
-
-Find the effect of free movement of labor from Home to Foreign on employment, production, real wages, and the income of landowners in each country.
-
-6. Using the numerical example in problem 5, assume now that Foreign limits immigration so that only two workers can move there from Home. Calculate how the movement of these two workers affects the income of five different groups:
-
-a. Workers who were originally in Foreign
-b. Foreign landowners
-c. Workers who stay in Home
-d. Home landowners
-e. The workers who do move
-
-7. Studies of the effects of immigration into the United States from Mexico tend to find that the big winners are the immigrants themselves. Explain this result in terms of the example in problem 6. How might things change if the border were open with no restrictions on immigration?
-
-# FURTHER READINGS
+## Further Readings
 
 David Card. "Immigration and Inequality." American Economic Review 99 (2) (2009), pp. 1-21.
 Avinash Dixit and Victor Norman. Theory of International Trade. Cambridge: Cambridge University Press, 1980. The problem of establishing gains from trade when some people may be made worse off has been the subject of a long debate. Dixit and Norman show it is always possible in principle for a country's government to use taxes and subsidies to redistribute income in such a way that everyone is better off with free trade than with no trade.
@@ -591,11 +546,11 @@ J. Peter Neary. "Short-Run Capital Specificity and the Pure Theory of Internatio
 Mancur Olson. The Logic of Collective Action. Cambridge: Harvard University Press, 1965. A highly influential book that argues the proposition that in practice, government policies favor small, concentrated groups over large ones.
 David Ricardo. The Principles of Political Economy and Taxation. Homewood, IL: Irwin, 1963. While Ricardo's Principles emphasizes the national gains from trade at one point, elsewhere in his book the conflict of interest between landowners and capitalists is a central issue.
 
-# Further Details on Specific Factors
+## Further Details on Specific Factors
 
 The specific factors model developed in this chapter is such a convenient tool of analysis that we take the time here to spell out some of its details more fully. We give a fuller treatment of two related issues: (1) the relationship between marginal and total product within each sector and (2) the income distribution effects of relative price changes.
 
-# Marginal and Total Product
+### Marginal and Total Product
 
 In the text, we illustrated the production function of cloth in two different ways. In Figure 4-1, we showed total output as a function of labor input, holding capital constant. We then observed that the slope of that curve is the marginal product of labor and illustrated that marginal product in Figure 4-2. We now want to demonstrate that the total output is measured by the area under the marginal product curve. (Students familiar with calculus will find this obvious: Marginal product is the derivative of total, so total is the integral of marginal. Even for these students, however, an intuitive approach can be helpful.)
 
@@ -605,9 +560,9 @@ $$
 d L_{C} \times M P L_{C},
 $$
 
-# FIGURE 4A-1
+# #### Figure 4A-1
 
-# Showing That Output Is Equal to the Area under the Marginal Product Curve
+##### Showing That Output Is Equal to the Area under the Marginal Product Curve
 
 By approximating the marginal product curve with a series of thin rectangles, one can show that the total output of cloth is equal to the area under the curve.
 
@@ -622,9 +577,9 @@ This is, however, only an approximation because we used the marginal product of 
 
 Figure 4A-2 uses the result we just found to show the distribution of income within the cloth sector. We saw that cloth employers hire labor  $L_{C}$  until the value of the workers' marginal product,  $P_{C} \times MPL_{C}$ , is equal to the wage  $w$ . We can rewrite this in terms of the real wage of cloth as  $MPL_{C} = w / P_{C}$ . Thus, at a given real wage, say  $(w / P_{C})^{1}$ , the marginal product curve in Figure 4A-2 tells us that  $L_{C}^{1}$  worker-hours will be employed. The total output produced with those workers is given by the area under the marginal product curve up to  $L_{C}^{1}$ . This output is divided into the real income (in terms of cloth) of workers and capital owners. The portion paid to workers is the real wage  $(w / P_{C})^{1}$  times the employment level  $L_{C}^{1}$ , which is the area of the rectangle shown. The remainder is the real income of the capital owners. We can determine the distribution of food production between labor and landowners in the same way, as a function of the real wage in terms of food,  $w / P_{F}$ .
 
-# FIGURE 4A-2
+#### Figure 4A-2
 
-# The Distribution of Income within the Cloth Sector
+##### The Distribution of Income within the Cloth Sector
 
 Labor income is equal to the real wage times employment. The rest of output accrues as income to the owners of capital.
 
@@ -634,17 +589,17 @@ Suppose the relative price of cloth now rises. We saw in Figure 4-7 that a rise 
 
 This effect on real income is reinforced by the change in  $P_{C} / P_{F}$  itself. The real income of capital owners in terms of food rises by more than their real income in terms of cloth—because food is now relatively cheaper than cloth. Conversely, the real income of landowners in terms of cloth drops by more than their real income in terms of food—because cloth is now relatively more expensive.
 
-# FIGURE 4A-3
+#### Figure 4A-3
 
-# A Rise in  $P_{C}$  Benefits the Owners of Capital
+##### A Rise in  $P_{C}$  Benefits the Owners of Capital
 
 The real wage in terms of cloth falls, leading to a rise in the income of capital owners.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/e019d193f951f8b12786e6d71c836d3586d570cf61500a8eab2fb0813ea1f8fa.jpg)
 
-# FIGURE 4A-4
+#### Figure 4A-4
 
-# A Rise in  $P_{C}$  Hurts Landowners
+##### A Rise in  $P_{C}$  Hurts Landowners
 
 The real wage in terms of food rises, reducing the income of land.
 

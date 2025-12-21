@@ -1,4 +1,24 @@
 
+---
+title: Principles of Optimization for Portfolio Selection
+parent_directory: Asset Allocation
+formatted: 2025-12-21 04:45:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - portfolio optimization
+  - optimization theory
+  - unconstrained optimization
+secondary_tags:
+  - constrained optimization
+  - convex programming
+  - lagrange multipliers
+  - linear programming
+  - quadratic programming
+  - mean variance analysis
+cssclasses: academia
+---
+
 # Principles of Optimization for Portfolio Selection
 
 
@@ -11,7 +31,7 @@ In optimization theory there is a distinction between two types of optimization 
 In this chapter, we describe the basic types of optimization problems and remark on the methods for their solution. Boyd and Vandenberghe (2004) and Ruszczynski (2006) provide more detailed information on the topic.
 
 
-# UNCONSTRAINED OPTIMIZATION
+## UNCONSTRAINED OPTIMIZATION
 
 When there are no constraints imposed on the set of feasible solutions, we have an unconstrained optimization problem. Thus, the goal is to maximize or to minimize the objective function with respect to the function arguments without any limits on their values. We consider directly the  $n$ -dimensional case; that is, the domain of the objective function  $f$  is the  $n$ -dimensional space and the function values are real numbers,  $f:\mathbb{R}^n\to \mathbb{R}$ . Maximization is denoted by
 
@@ -62,7 +82,7 @@ This relationship is illustrated in Figure 1. As a consequence, problems for max
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/0467ef2e99935708b55e26ec4e6228d1cae079fdc2a1bea185f27753c1a7d953.jpg)
 Figure 1 The Relationship between Minimization and Maximization for a One-Dimensional Function
 
-# Minima and Maxima of a Differentiable Function
+## Minima and Maxima of a Differentiable Function
 
 If the second derivatives of the objective function exist, then its local maxima and minima, often called generically local extrema, can be characterized. Denote by  $\nabla f(x)$  the vector of the first partial derivatives of the objective function evaluated at  $x$ ,
 
@@ -125,7 +145,7 @@ $$
 - If  $\nabla f(x_1, x_2) = (0, 0)$  at a given point  $(x_1, x_2)$  and the determinant of the Hessian matrix evaluated at  $(x_1, x_2)$  is negative, then the function  $f$  has a saddle point in  $(x_1, x_2)$ .
 - If  $\nabla f(x_1, x_2) = (0, 0)$  at a given point  $(x_1, x_2)$  and the determinant of the Hessian matrix evaluated at  $(x_1, x_2)$  is zero, then no conclusion can be drawn.
 
-# Convex Functions
+## Convex Functions
 
 We just demonstrated that the first-order conditions are insufficient in the general case to describe the local extrema. However, when certain assumptions are made for the objective function, the first-order conditions can become sufficient. Furthermore, for certain classes of functions, the local extrema are necessarily global. Therefore, solving the first-order conditions we obtain the global extremum.
 
@@ -200,7 +220,7 @@ $$ which is a quadratic function of the components  $x_{i}, i = 1, \dots, n$ . T
 Figures 5-8 illustrate the surface and contour lines of a convex and nonconvex two-dimensional quadratic function. The contour lines of the convex function are concentric ellipses and a sublevel set  $L_{c}$  is represented by the points inside some ellipse. The point  $(0,0)$  in Figure 8 is a saddle point. The convex quadratic function is defined by the matrix
 
 $$
-C = \left( \begin{array}{c c} 1 & 0. 4 \\ 0. 4 & 1 \end{array} \right)
+C = \left( \begin{array}{c c} 1 & 0.4 \\ 0.4 & 1 \end{array} \right)
 $$ and the nonconvex quadratic function is defined by the matrix
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/8cf330b28057e5cee7349f56137a6e63a94c70b2cbd1b53c090897474ae696b6.jpg)
@@ -214,7 +234,7 @@ Figure 8 The Contour Lines of a Nonconvex Two-Dimensional Quadratic Function
 
 
 $$
-C = \left( \begin{array}{c c} - 1 & 0. 4 \\ 0. 4 & 1 \end{array} \right)
+C = \left( \begin{array}{c c} - 1 & 0.4 \\ 0.4 & 1 \end{array} \right)
 $$
 
 A property of convex functions is that the sum of convex functions is a convex function. As a result of the preceding analysis, the function
@@ -239,7 +259,7 @@ $$ x^{0} = \frac{1}{2 \lambda} C^{- 1} a
 $$ where  $C^{-1}$  denotes the inverse of the matrix  $C$ .
 
 
-# Quasi-Convex Functions
+## Quasi-Convex Functions
 
 Besides convex functions, there are other classes of functions with convenient optimal properties. An example of such a class is the class of quasi-convex functions. Formally, a function is called quasi-convex if all sublevel sets defined in (7) are convex sets. Alternatively, a function  $f(x)$  is called quasi-convex if
 
@@ -268,7 +288,7 @@ Properties of the quasi-convex functions include:
 
 Quasi-convex functions arise naturally in risk management when considering optimization of performance ratios. (See Chapter 10 in Rachev, Stoyanov, and Fabozzi [2008].)
 
-# CONSTRAINED OPTIMIZATION
+## CONSTRAINED OPTIMIZATION
 
 In constructing optimization problems solving practical issues, it is very often the case that certain constraints need to be imposed in or- der for the optimal solution to make practical sense. For example, long-only portfolio optimization problems require that the portfolio weights, which represent the variables in optimization, should be nonnegative and should sum up to one. According to the notation in this chapter, this corresponds to a problem of the type
 
@@ -278,21 +298,21 @@ $$
 $$
 
 $$
-\text{su bj ec t} \quad x^{\prime} e = 1 \tag {10}
+\text{subject} \quad x^{\prime} e = 1 \tag {10}
 $$
 
 $$ x \geq 0
 $$ where
 
 
-$$ f (x) = \text{th e}
+$$ f (x) = \text{the}
 $$
 
-$$ e \in \mathbb {R}^{n} = \text{av ec to ro fo ne s}, e = (1, \dots , 1)
+$$ e \in \mathbb {R}^{n} = \text{vector oones}, e = (1, \dots , 1)
 $$
 
 $$
-\begin{array}{c} x^{\prime} e = \text{th es um of al lc om po ne nt so f} x, \\ x^{\prime} e = \sum_{i}^{n} x_{i} \end{array}
+\begin{array}{c} x^{\prime} e = \text{thes um of al lc om po ne nt so f} x, \\ x^{\prime} e = \sum_{i}^{n} x_{i} \end{array}
 $$
 
 $$
@@ -311,17 +331,17 @@ $$
 $$ where  $\mathbf{X}$  is defined in (11).
 
 
-We distinguish between different types of optimization problems depending on the assumed properties for the objective function and the constraint set. If the constraint set contains only equalities, the problem is easier to handle analytically. In this case, the method of Lagrange multipliers is applied. For more general constraint sets, when they are formed by both equalities and inequalities, the method of Lagrange multipliers is generalized by the Karush-Kuhn-Tucker conditions (KKT conditions). Like the first-order conditions we considered in unconstrained optimization problems, none of the two approaches lead to necessary and sufficient conditions for constrained optimization problems without further assumptions. One of the most general frameworks in which the KKT conditions are necessary and sufficient is that of convex programming. We have a convex programming problem if the objective function is a convex function and the set of feasible points is a convex set. As important subcases of convex optimization, linear programming and convex quadratic programming problems are considered.
+We distinguish between different types of optimization problems depending on the assumed properties for the objective function and the constraint set. If the constraint set contains only equalities, the problem is easier to handle analytically. In this case, the method of Lagrange multipliers is applied. For more general constraint sets, when they are formed by bothequalities and inequalities, the method of Lagrange multipliers is generalized by the Karush-Kuhn-Tucker conditions (KKT conditions). Like the first-order conditions we considered in unconstrained optimization problems, none of the two approaches lead to necessary and sufficient conditions for constrained optimization problems without further assumptions. One of the most general frameworks in which the KKT conditions are necessary and sufficient is that of convex programming. We have a convex programming problem if the objective function is a convex function and the set of feasible points is a convex set. As important subcases of convex optimization, linear programming and convex quadratic programming problems are considered.
 
 
 In this section, we describe first the method of Lagrange multipliers, which is often applied to special types of mean-variance optimization problems in order to obtain closed-form solutions. Then we proceed with convex programming, which is the framework for reward-risk analysis.
 
-# Lagrange Multipliers
+## Lagrange Multipliers
 
 Consider the following optimization problem in which the set of feasible points is defined by a number of equality constraints:
 
 $$
-\begin{array}{l} \min_{x} f (x) \\ \text{su bj ec t} \quad h_{1} (x) = 0 \\ h_{2} (x) = 0 \tag {12} \\ \cdot \cdot \cdot \\ h_{k} (x) = 0 \\ \end{array}
+\begin{array}{l} \min_{x} f (x) \\ \text{subject} \quad h_{1} (x) = 0 \\ h_{2} (x) = 0 \tag {12} \\ \cdot \cdot \cdot \\ h_{k} (x) = 0 \\ \end{array}
 $$
 
 The functions  $h_i(x), i = 1, \dots, k$  build up the constraint set. Note that even though the right-hand side of the equality constraints is zero in the classical formulation of the problem given in (12), this is not restrictive. If in a practical problem the right-hand side happens to be different from zero, it can be equivalently transformed; for example:
@@ -334,12 +354,12 @@ In order to illustrate the necessary condition for optimality valid for (12), le
 
 
 $$
-\begin{array}{l} \min_{x \in \mathbb {R}^{2}} \frac{1}{2} x^{\prime} C x \tag {13} \\ \text{su bj ec t} \quad x^{\prime} e = 1 \\ \end{array}
+\begin{array}{l} \min_{x \in \mathbb {R}^{2}} \frac{1}{2} x^{\prime} C x \tag {13} \\ \text{subject} \quad x^{\prime} e = 1 \\ \end{array}
 $$ where the matrix is
 
 
 $$
-C = \left( \begin{array}{c c} 1 & 0. 4 \\ 0. 4 & 1 \end{array} \right)
+C = \left( \begin{array}{c c} 1 & 0.4 \\ 0.4 & 1 \end{array} \right)
 $$
 
 The objective function is a quadratic function and the constraint set contains one linear equality. A mean-variance optimization problem in which short positions are allowed is very similar to (13). (See Chapter 8 in Rachev, Stoyanov, and Fabozzi [2008].) The surface of the objective function and the constraint are shown in Figures 11 and 12. The black line on the surface shows the function values of the feasible points. Geometrically, solving problem (13) reduces to finding the lowest point of the black curve on the surface. The contour lines shown in Figure 12 imply that the feasible point yielding the minimum of the objective function is where a contour line is tangential to the line defined by the equality constraint. On the plot, the tangential contour line and the feasible points are in bold. The black dot indicates the position of the point in which the objective function attains its minimum subject to the constraints.
@@ -386,12 +406,12 @@ The first  $n$  equations in (16) make sure that the relationship between the gr
 This analysis suggests that the method of Lagrange multipliers provides a necessary condition for optimality. Under certain assumptions for the objective function and the functions building up the constraint set, (16) turns out to be a necessary and sufficient condition. For example, if  $f(x)$  is a convex and differentiable function and  $h_i(x), i = 1, \dots, k$  are affine functions, then the method of Lagrange multipliers identifies the points solving (12). A function  $h(x)$  is called affine if it has the form  $h(x) = a + c'x$ , where  $a$  is a constant and  $c = (c_1, \dots, c_n)$  is a vector of coefficients. All linear functions are affine. Figure 12 illustrates a convex quadratic function subject to a linear constraint. In this case, the solution point is unique.
 
 
-# Convex Programming
+## Convex Programming
 
 The general form of convex programming problems is
 
 $$
-\begin{array}{l} \min_{x} f (x) \\ \text{su bj ec t} \quad g_{i} (x) \leq 0, \quad i = 1, \dots , m \tag {17} \\ h_{j} (x) = 0, \quad j = 1, \dots , k \\ \end{array}
+\begin{array}{l} \min_{x} f (x) \\ \text{subject} \quad g_{i} (x) \leq 0, \quad i = 1, \dots , m \tag {17} \\ h_{j} (x) = 0, \quad j = 1, \dots , k \\ \end{array}
 $$ where
 
 
@@ -399,11 +419,11 @@ $$ f (x) \qquad \qquad \text{is ac on ve xo bj ec ti ve fu nc ti on}
 $$
 
 $$
-\begin{array}{l l} g_{1} (x), \ldots , g_{m} (x) & \text{ar ec on ve xf un ct io ns} \\ & \text{de fi ni ng th ei ne qu al it y} \\ & \text{co ns tr ai nt s} \end{array}
+\begin{array}{l l} g_{1} (x), \ldots , g_{m} (x) & \text{are convex functions} \\ & \text{defining the inequality} \\ & \text{constraint s} \end{array}
 $$
 
 $$
-\begin{array}{l l} h_{1} (x), \ldots , h_{k} (x) & \text{ar ea ff in ef un ct io ns} \\ & \text{de fi ni ng th ee qu al it y} \\ & \text{co ns tr ai nt s} \end{array}
+\begin{array}{l l} h_{1} (x), \ldots , h_{k} (x) & \text{are affine functions} \\ & \text{defining the equality} \\ & \text{constraint s} \end{array}
 $$
 
 Generally, without the assumptions of convexity, problem (17) is more involved than (12) because besides the equality constraints, there are inequality constraints. The KKT condition, generalizing the method of Lagrange multipliers, is only a necessary condition for optimality in this case. However, adding the assumption of convexity makes the KKT condition necessary and sufficient.
@@ -413,12 +433,12 @@ Note that, similar to problem (12), the fact that the right-hand side of all con
 Consider the following two-dimensional optimization problem
 
 $$
-\begin{array}{l} \min_{x \in \mathbb {R}^{2}} \quad \frac{1}{2} x^{\prime} C x \\ \text{su bj ec t} (x_{1} + 2)^{2} + (x_{2} + 2)^{2} \leq 3 \tag {18} \\ \end{array}
+\begin{array}{l} \min_{x \in \mathbb {R}^{2}} \quad \frac{1}{2} x^{\prime} C x \\ \text{subject} (x_{1} + 2)^{2} + (x_{2} + 2)^{2} \leq 3 \tag {18} \\ \end{array}
 $$ in which
 
 
 $$
-C = \left( \begin{array}{c c} 1 & 0. 4 \\ 0. 4 & 1 \end{array} \right)
+C = \left( \begin{array}{c c} 1 & 0.4 \\ 0.4 & 1 \end{array} \right)
 $$
 
 The objective function is a two-dimensional convex quadratic function and the function in the constraint set is also a convex quadratic function. In fact, the boundary of the feasible set is a circle with a radius of  $\sqrt{3}$  centered at the point with coordinates  $(-2, -2)$ . Figures 13 and 14 show the surface of the objective function and the set of feasible points. The shaded part on the surface indicates the function values of all feasible points. In fact, solving problem (18) reduces to finding the lowest point on the shaded part of the surface. Figure 14 shows the contour lines of the objective function together with the feasible set, which is in gray. Geometrically, the point in the feasible set yielding the minimum of the objective function is positioned where a contour line only touches the constraint set. The position of this point is marked with a black dot and the tangential contour line is given in bold.
@@ -469,12 +489,12 @@ $$ are called complementary slackness conditions. If an inequality constraint is
 
 Important special cases of convex programming problems include linear programming problems and convex quadratic programming problems, which we consider in the remaining part of this section.
 
-# Linear Programming
+## Linear Programming
 
 Optimization problems are said to be linear programming problems if the objective function is a linear function and the feasible set is defined by linear equalities and inequalities. Since all functions are linear, they are also convex, which means that linear programming problems are also convex problems. The definition of linear programming problems in standard form is the following:
 
 $$
-\begin{array}{l} \min_{x} c^{\prime} x \\ \text{su bj ec t} A x \leq b \tag {20} \\ x \geq 0 \\ \end{array}
+\begin{array}{l} \min_{x} c^{\prime} x \\ \text{subject} A x \leq b \tag {20} \\ x \geq 0 \\ \end{array}
 $$ where  $A$  is an  $m \times n$  matrix of coefficients,  $c = (c_{1},\ldots ,c_{n})$  is a vector of objective function coefficients, and  $b = (b_{1},\dots,b_{m})$  is a vector of real numbers. As a result, the constraint set contains  $m$  inequalities defined by linear functions. The feasible points defined by means of linear
 
 
@@ -496,34 +516,34 @@ A general result in linear programming is that, on condition that the problem is
 
 From computational viewpoint, the polyhedral set has a finite number of vertices and an algorithm can be devised with the goal of finding a vertex solving the optimization problem in a finite number of steps. This is the basic idea behind the simplex method, which is an efficient numerical approach to solving linear programming problems. Besides the simplex algorithm, there are other, more contemporary methods, such as the interior point method.
 
-# Quadratic Programming
+## Quadratic Programming
 
 Besides linear programming, another class of problems with simple structure is the class of quadratic programming problems. It contains optimization problems with a quadratic objective function and linear equalities and inequalities in the constraint set:
 
 $$
-\begin{array}{l l} \min_{x} & c^{\prime} x + \frac{1}{2} x^{\prime} H x \\ \text{su bj ec tt o} & A x \leq b \end{array} \tag {21}
+\begin{array}{l l} \min_{x} & c^{\prime} x + \frac{1}{2} x^{\prime} H x \\ \text{subject to} & A x \leq b \end{array} \tag {21}
 $$ where
 
 
-$$ c = (c_{1}, \ldots , c_{n}) \text{is av ec to ro fc oe ff ic ie nt s} \text{de fi ni ng th el in ea rp ar to f}
+$$ c = (c_{1}, \ldots , c_{n}) \text{is vectoro coefficients} \text{defining the linear part of}
 $$
 
 $$
-H = \{h_{i j} \}_{i, j = 1}^{n} \quad \text{is an} n \times n \text{ma tr ix de fi ni ng} \quad \text{th eq ua dr at ic pa rt of th e} \quad \text{ob je ct iv e}
+H = \{h_{i j} \}_{i, j = 1}^{n} \quad \text{is an} n \times n \text{matrix defining} \quad \text{thequadratic part of the} \quad \text{objective}
 $$
 
 $$
-A = \{a_{i j} \} \qquad \begin{array}{l} \text{is ak \timesn ma tr ix de fi ni ng k} \\ \text{li ne ar in eq ua li ti es in th e} \\ \text{co ns tr ai nt se t} \end{array}
+A = \{a_{i j} \} \qquad \begin{array}{l} \text{is a k \times n matrix defining k} \\ \text{linear inequalities in the} \\ \text{constraint set} \end{array}
 $$
 
-$$ b = (b_{1}, \ldots , b_{k}) \begin{array}{l} \text{is av ec to ro fr ea ln um be rs} \\ \text{de fi ni ng th er ig ht -h an ds id e} \\ \text{of th el in ea ri ne qu al it ie s} \end{array}
+$$ b = (b_{1}, \ldots , b_{k}) \begin{array}{l} \text{is vector oreal numbers} \\ \text{defining the right-hand side} \\ \text{of the linear inequalities} \end{array}
 $$
 
 In optimal portfolio theory, mean-variance optimization problems in which portfolio variance is in the objective function are quadratic programming problems.
 
 From the point of view of optimization theory, problem (21) is a convex optimization problem if the matrix defining the quadratic part of the objective function is positive semidefinite. In this case, the KKT conditions can be applied to solve it.
 
-# KEY POINTS
+## KEY POINTS
 
 1. The mathematical theory of optimization concerns identifying the best alternative within a set of available, or feasible, alternatives and finds application in different areas of finance such as portfolio selection or, more generally, explaining behavior of economic agents in the face of uncertainty.
 

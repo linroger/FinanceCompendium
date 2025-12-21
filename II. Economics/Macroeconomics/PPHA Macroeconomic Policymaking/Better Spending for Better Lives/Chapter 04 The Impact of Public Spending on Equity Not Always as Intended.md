@@ -1,12 +1,23 @@
 ---
-aliases:
-  - The Impact of Public Spending on Equity Not Always as Intended
-tags:
-key_concepts:
-parent_directory: "[[Better Spending for Better Lives]]"
+title: Chapter 04 - The Impact of Public Spending on Equity: Not Always as Intended
+parent_directory: Better Spending for Better Lives
+formatted: 2025-12-21 08:13:09 AM
+formatter_model: grok-code-fast-1
+cli-tool: open code
+primary_tags:
+  - public spending equity
+  - fiscal policy latin america
+  - poverty reduction
+secondary_tags:
+  - income inequality
+  - social programs
+  - conditional cash transfers
+  - noncontributory pensions
+  - human capital investment
+  - fiscal incidence analysis
+  - behavioral effects
+  - territorial inequality
 cssclasses: academia
-title: "Chapter 04 - The Impact of Public Spending on Equity: Not Always as Intended"
-linter-yaml-title-alias: "Chapter 04 - The Impact of Public Spending on Equity: Not Always as Intended"
 ---
 
 # 4 The Impact of Public Spending on Equity: Not Always as Intended
@@ -22,6 +33,33 @@ Hence, fiscal policy and public spending in the region seem to be making progres
 governments want to sustain the reduction in poverty and inequality, they need to change priorities: improve targeting, decrease reliance on noncontributory social spending, enhance the quality of education and health for the poor, and increase the overall efficiency of social spending.
 
 This chapter focuses on the effect of public spending on the welfare state, providing evidence that public spending in Latin America and the Caribbean was not efficient in achieving a sustained decrease in poverty and inequality over the last decade. Important problems remain and this chapter identifies and quantifies: 1) the low redistributive capacity of fiscal policy, particularly spending policy; 2) high spending on regressive programs and low spending on progressive programs; 3) the low targeting capacity of social programs; 4) ever-greater noncontributory spending, which elicits behavioral responses that diminish the effect of social policy; 5) spending on health and education that, when quantified at cost, seems progressive, but when analyzed by its coverage and quality, is actually regressive; and 6) the increasing share of subnational governments' contributions to social spending, which adds an additional challenge for equity.
+
+```d2
+public_spending_equity: Public Spending and Equity Overview {
+  shape: rectangle
+  label: Complex relationship between spending and equity
+}
+fiscal_policy: Fiscal Policy {
+  shape: circle
+}
+social_spending: Social Spending {
+  shape: circle
+}
+poverty_reduction: Poverty Reduction {
+  shape: circle
+}
+income_inequality: Income Inequality {
+  shape: circle
+}
+behavioral_effects: Behavioral Effects {
+  shape: circle
+}
+public_spending_equity -> fiscal_policy
+public_spending_equity -> social_spending
+fiscal_policy -> poverty_reduction: Can reduce
+social_spending -> income_inequality: Affects
+behavioral_effects -> social_spending: Diminishes effect
+```
 
 # Past, Present, and Future
 

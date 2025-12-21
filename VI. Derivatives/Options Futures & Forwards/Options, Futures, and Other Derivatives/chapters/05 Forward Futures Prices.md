@@ -673,11 +673,7 @@ Routledge, B. R., D. J. Seppi, and C. S. Spatt. "Equilibrium Forward Curves for 
 
 
 
-# Interest Rate Futures
 
-So far we have covered futures contracts on commodities, stock indices, and foreign currencies. We have seen how they work, how they are used for hedging, and how futures prices are determined. We now move on to consider interest rate futures.
-
-This chapter explains the contracts that trade in the United States. Many of the other interest rate futures contracts throughout the world have been modeled on these contracts. The chapter also shows how interest rate futures contracts, when used in conjunction with the duration measure introduced in Chapter 4, can be used to hedge a company's exposure to interest rate movements.
 
 ## D2 Diagrams for Forward and Futures Pricing Visualization
 

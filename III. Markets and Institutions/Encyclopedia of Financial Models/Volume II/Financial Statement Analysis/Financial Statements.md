@@ -1,3 +1,25 @@
+---
+title: Financial Statements
+parent_directory: Financial Statement Analysis
+formatted: 2025-12-21 08:12:25 AM
+formatter_model: grok-code-fast-1
+cli-tool: open code
+primary_tags:
+  - financial statements
+  - balance sheet
+  - income statement
+  - cash flow statement
+secondary_tags:
+  - accounting principles
+  - depreciation methods
+  - earnings per share
+  - shareholders equity
+  - financial ratios
+  - pro forma reporting
+  - asset valuation
+  - liability classification
+cssclasses: academia
+---
 
 # Financial Statements
 
@@ -37,7 +59,7 @@ In this section we will discuss the four basic financial statements and the info
 The balance sheet is a report of the assets, liabilities, and equity of a firm at a point in time, generally at the end of a fiscal quarter or fiscal year. Assets are resources of the business enterprise, which are comprised of current or long-lived assets. How did the company finance these resources? It did so with liabilities and equity. Liabilities are obligations of the business enterprise that must be repaid at a future point in time, whereas equity is the ownership interest of the business enterprise. The relation between assets, liabilities and equity is simple, as reflected in the balance of what is owned and how it is financed, referred to as the accounting identity:
 
 $$
-\text{As se ts} = \text{Li ab il it ie s} + \text{Eq ui ty}
+\text{Assets} = \text{Liabilities} + \text{Equity}
 $$
 
 # Assets
@@ -168,10 +190,10 @@ A common declining balance method is the double-declining balance method (DDB), 
 
 Because the declining balance methods result in more depreciation sooner, relative to straight-line, and lower depreciation in the later years, companies may switch to straight-line in these later years. The same amount is depreciated over the life of the asset, but the pattern—and depreciation's impact on earnings—is modified slightly. In the case of the declining balance method, salvage value is not considered in the calculation of depreciation until the undepreciated balance reaches the salvage value.
 
-For this same asset, the sum-of-the-years' digits (SYD) depreciation for the first year is the rate of 10/55, or 18.18\%, applied against the depreciable basis of 1,000,000 - 100,000 = \900,000:
+For this same asset, the sum-of-the-years' digits (SYD) depreciation for the first year is the rate of 10/55, or 18.18\%, applied against the depreciable basis of 1,000,000 - 100,000 = 900,000:
 
 $$
-\mathrm{SY Df ir st ye ar} = \900,000(^{10} / _{55}) = \163,636
+\mathrm{SYD first year} = 900,000 \left( \frac{10}{55} \right) = 163,636
 $$
 
 We calculate the denominator as the "sum of the years":  $10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 = 55$ . In the second year, the rate is  $9 / 55$  applied against the  $\$ 900,000$ , and so on.

@@ -7,8 +7,6 @@ cli_tool: opencode
 primary_tags:
 - mathematical postscripts
 - factor proportions model
-- international trade equations
-- goods prices factors
 secondary_tags:
 - cost minimization production
 - input coefficients capital labor
@@ -20,6 +18,20 @@ secondary_tags:
 - income prices utility
 - terms trade improvement
 - supply demand equilibrium
+- economic growth
+- income transfer
+- tariff imposition
+- monopolistic competition
+- risk aversion
+- portfolio diversification
+- indifference curves
+- expected utility
+- contingent consumption
+- marginal utility
+- arbitrage profits
+- short sales
+- substitution income effects
+- risk neutral behavior
 cssclasses: academia
 ---
 
@@ -723,7 +735,7 @@ To interpret  $\phi$  as the market trade-off between state 2 and state 1 consum
 
 ### FIGURE 20P-2
 
-# Maximizing Expected Utility
+### Maximizing Expected Utility
 
 To maximize expected utility, the investor makes the state-contingent consumption choices shown at point 1, where the budget line is tangent to the highest attainable indifference curve,  $II_{1}$ . The optimal portfolio share,  $\alpha$ , can be calculated as  $(F_{2}W - C_{2}^{1}) \div (F_{2}W - H_{2}W)$ .
 
@@ -737,15 +749,15 @@ For some values of  $C_1$  and  $C_2$ ,  $\alpha$  may be negative or greater th
 
 Figure 20P-3 shows the points on the investor's budget constraint at which  $\alpha = 1$  (so that  $C_1 = H_1W$ ,  $C_2 = H_2W$ ) and  $\alpha = 0$  (so that  $C_1 = F_1W$ ,  $C_2 = F_2W$ ). Starting from  $\alpha = 1$ , the investor can move upward and to the left along the constraint by going short in the Foreign asset (thereby making  $\alpha$  greater than 1 and  $1 - \alpha$  negative). She can move downward and to the right from  $\alpha = 0$  by going short in the Home asset.
 
-# The Effects of Changing Rates of Return
+## The Effects of Changing Rates of Return
 
 The diagram we have developed can be used to illustrate the effect of changes in rates of return under risk aversion. Suppose, for example, the Home asset's state 1 payoff rises while all other payoffs and the investor's wealth,  $W$ , stay the same. The rise in  $H_{1}$  raises  $\phi$ , the relative price of state 2 consumption, and therefore steepens the budget line shown in Figure 20P-3.
 
 We need more information, however, to describe completely how the position of the budget line in Figure 20P-3 changes when  $H_{1}$  rises. The following reasoning fills the
 
-# FIGURE 20P-3
+### FIGURE 20P-3
 
-# Nondiversified Portfolios
+### Nondiversified Portfolios
 
 When  $\alpha = 1$ , the investor holds all her wealth in the Home asset. When  $\alpha = 0$ , she holds all her wealth in the Foreign asset. Moves along the budget constraint upward and to the left from  $\alpha = 1$  correspond to short sales of the Foreign asset, which raise  $\alpha$  above 1. Moves downward and to the right from  $\alpha = 0$  correspond to short sales of the Home asset, which push  $\alpha$  below 0.
 
@@ -757,9 +769,9 @@ The effect on the investor of a rise in  $H_{1}$  is shown in Figure 20P-4, whic
 
 Corresponding to this ambiguity is an ambiguity concerning the effect of the rise in  $H_{1}$  on the portfolio share,  $\alpha$ . Figure 20P-5 illustrates the two possibilities. The key to understanding this figure is to observe that if the investor does not change  $\alpha$  in response to the rise in  $H_{1}$ , her consumption choices are given by point  $1'$ , which lies on the new budget constraint vertically above the initial consumption point 1. Why is
 
-# FIGURE 20P-4
+### FIGURE 20P-4
 
-# Effects of a Rise in  $H_{1}$  on Consumption
+### Effects of a Rise in  $H_{1}$  on Consumption
 
 A rise in  $H_{1}$  causes the budget line to pivot clockwise around  $\alpha = 0$ , and the investor's optimum shifts to point 2. State 1 consumption always rises; in the case shown, state 2 consumption falls.
 
@@ -774,9 +786,9 @@ State 1 consumption,  $C_1$
 State 1 consumption,  $C_1$
 (b)
 
-# FIGURE 20P-5
+### FIGURE 20P-5
 
-# Effects of a Rise in  $H_{1}$  on Portfolio Shares
+### Effects of a Rise in  $H_{1}$  on Portfolio Shares
 
 Panel (a): If the investor is not too risk averse, she shifts her portfolio toward the Home asset, picking a  $C_1 / C_2$  ratio greater than the one indicated by the slope of OR. Panel (b): A very risk-averse investor might increase state 2 consumption by shifting her portfolio toward the Foreign asset.
 

@@ -1,11 +1,19 @@
 ---
-parent_directory:
 title: Creditor control rights and firm investment policy
-tags:
-aliases:
-parent_folder: Class 2-Debt contracts due to the lack of information
-subfolder:
-key_concepts:
+parent_directory: Class 2-Debt contracts due to the lack of information
+formatted: 2025-12-21 08:45:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+- creditor control rights
+- firm investment policy
+- capital expenditure restrictions
+secondary_tags:
+- private credit agreements
+- debt covenants
+- borrower credit quality
+- investment constraints
+- corporate finance
 cssclasses: academia
 ---
 
@@ -17,7 +25,7 @@ Greg Nini<sup>a</sup>, David C. Smith<sup>b</sup>, Amir Sufi<sup>c,*</sup>
 <sup>b</sup> University of Virginia, McIntire School of Commerce, Charlottesville, VA 22903, USA  
 $^{c}$  University of Chicago, Booth School of Business, Chicago, IL 60637, USA
 
-# ARTICLEINFO
+## ARTICLEINFO
 
 Article history:
 
@@ -49,13 +57,13 @@ Covenants
 
 Capital expenditures
 
-# ABSTRACT
+## ABSTRACT
 
 We present novel empirical evidence that conflicts of interest between creditors and their borrowers have a significant impact on firm investment policy. We examine a large sample of private credit agreements between banks and public firms and find that  $32\%$  of the agreements contain an explicit restriction on the firm's capital expenditures. Creditors are more likely to impose a capital expenditure restriction as a borrower's credit quality deteriorates, and the use of a restriction appears at least as sensitive to borrower credit quality as other contractual terms, such as interest rates, collateral requirements, or the use of financial covenants. We find that capital expenditure restrictions cause a reduction in firm investment and that firms obtaining contracts with a new restriction experience subsequent increases in their market value and operating performance.
 
 © 2009 Elsevier B.V. All rights reserved.
 
-# 1. Introduction
+## 1. Introduction
 
 How does a reliance on external finance affect firm investment? This question has been the focus of research across many economic disciplines, including corporate finance, banking, macroeconomics, and development. In their seminal article, Jensen and Meckling (1976) suggest that risk shifting tendencies of equity-holders may lead creditors to directly restrict investment in debt contracts. However, in their classic study of corporate bond covenants, Smith and Warner (1979, p. 117) conclude that "extensive direct restrictions on production/investment policy would be expensive to employ and are not observed". Consistent with the findings in Smith and Warner (1979), recent evidence on bond covenants reported by Billett, King, and Mauer (2007) suggests that fewer than  $5\%$  of public bond indentures contain an explicit restriction on firm investments.
 
@@ -85,7 +93,7 @@ Our study also contributes to the emerging area of applied financial contracting
 
 The rest of the paper proceeds as follows. The next section discusses the data and summary statistics. Section 3 presents the theoretical framework with which we motivate the empirical analysis. Sections 4-7 present the results, and Section 8 concludes.
 
-# 2. Data and summary statistics
+## 2. Data and summary statistics
 
 Our analysis centers on a novel set of private credit agreements collected directly from Securities and Exchange Commission (SEC) filings of public firms. SEC rules and precedent have established a requirement that public companies include copies of all "material" contracts, including bank loan agreements. The reporting requirements for loan contracts fall within item 601(b) of Regulation S-K, which is the general provision that requires exhibits to be filed. Item 4 and item 10 under this regulation require disclosure of securities and the disclosure of all material contracts, respectively. Most loan contracts fall within one of these two categories.
 
@@ -93,7 +101,7 @@ The contracts typically appear as exhibits at the end of a 10-K or 10-Q report, 
 
 The SEC's EDGAR electronic filing system makes it possible to search, extract, and download these credit agreements. Below, we detail the data-collection process.
 
-# 2.1. Loan agreements from EDGAR
+### 2.1. Loan agreements from EDGAR
 
 We begin with a sample of loan deals from Reuters Loan Pricing Corporation's DealScan database that are matched with firm financial characteristics from Standard & Poor's Compustat database. Our sample includes deals made to non-financial firms, and we require that each deal have information on the loan amount and the interest spread of all tranches in the deal. The sample is restricted to deals initiated during the years 1996-2005. Our starting year corresponds to when the SEC began requiring firms to file electronically; electronic filings are only sparsely available on EDGAR prior to 1996. Once these restrictions are in place, we are left with 9,580 deals (representing 13,715 loan tranches).
 
@@ -107,7 +115,7 @@ agreements in EDGAR, which yields a final sample of 3,720 loan contracts to 1,93
 
 We also use a text-search program to collect data from 10-Q and 10-K filings on whether firms violate a financial covenant in the year prior to the loan agreement. Roberts and Sufi (2009) provide a detailed description of the text-search algorithm. Financial covenants are accounting-based risk and performance hurdles that the borrower must meet to be in compliance with the credit agreement. The breach of a financial covenant means that the borrower is in technical default on the loan, and that the lender has the right to demand immediate repayment of the entire loan. Banks typically utilize this right to initiate a renegotiation of the credit agreement which can lead to significant changes in interest spreads and loan amounts (Beneish and Press, 1993, 1995; Chen and Wei, 1993; Smith, 1993; Sweeney, 1994; Dichev and Skinner, 2002; Sufi, 2009). For example, the L.A. Gear case study by DeAngelo, DeAngelo, and Wruck (2002) shows that creditors used covenant violations to reduce credit availability from \$360 million to \$75 million in just two years.
 
-# 2.2. Capital expenditure restrictions
+### 2.2. Capital expenditure restrictions
 
 From our sample of loan contracts, we collect information on capital expenditure restrictions contained in each agreement. There are a number of interesting control-oriented covenants in private credit agreements, including restrictions on acquisitions, expenditures on non-capital items, and changes in company ownership (Beneish and Press, 1993; Baird and Rasmussen, 2006). However, we restrict our analysis to capital expenditure restrictions for three reasons. First, covenants restricting capital expenditures are relatively easy to identify using our search methods. Second, unlike more "boiler-plate" covenants that are in almost all loan agreements, capital expenditure restrictions are deal-specific, and their incidence varies across our sample of contracts. Third, capital expenditure restrictions refer primarily to "cash" capital expenditures, (item 128 in Compustat), and thus pertain specifically to what is usually termed "investment" in the corporate finance literature. Capital expenditure restrictions typically cover cash capital expenditures as reported in a company's statement of cash flows plus the capitalized value of new capital leases.
 
@@ -132,13 +140,13 @@ Summary statistics.
 
 <table><tr><td></td><td>Mean</td><td>Median</td><td>St. dev.</td><td>N</td></tr><tr><td colspan="5">Capital expenditure restrictions</td></tr><tr><td>Capital expenditure restriction {0,1}</td><td>0.319</td><td>0.000</td><td>0.466</td><td>3,720</td></tr><tr><td>Restriction amount/lagged assets</td><td>0.085</td><td>0.056</td><td>0.102</td><td>486</td></tr><tr><td>Actual capital expenditures/lagged assets</td><td>0.064</td><td>0.039</td><td>0.089</td><td>486</td></tr><tr><td colspan="5">Other loan characteristics</td></tr><tr><td>Agreement amount ($ in millions)</td><td>450</td><td>200</td><td>985</td><td>3,720</td></tr><tr><td>Agreement amount/ assets</td><td>0.338</td><td>0.245</td><td>0.308</td><td>3,720</td></tr><tr><td>Agreement contains a line of credit/revolver {0,1}</td><td>0.938</td><td>1.000</td><td>0.241</td><td>3,720</td></tr><tr><td>Agreement is secured {0,1}</td><td>0.647</td><td>1.000</td><td>0.478</td><td>3,117</td></tr><tr><td>Agreement contains dividend restriction {0,1}</td><td>0.813</td><td>1.000</td><td>0.390</td><td>3,446</td></tr><tr><td>Interest rate spreadt (basis points above LIBOR)</td><td>170</td><td>150</td><td>119</td><td>3,720</td></tr><tr><td>Coverage ratio covenant {0,1}</td><td>0.743</td><td>1.000</td><td>0.437</td><td>3,603</td></tr><tr><td>Debt to cash flow covenant {0,1}</td><td>0.575</td><td>1.000</td><td>0.494</td><td>3,603</td></tr><tr><td>Net worth covenant {0,1}</td><td>0.452</td><td>0.000</td><td>0.498</td><td>3,603</td></tr><tr><td>Debt to balance sheet covenant {0,1}</td><td>0.292</td><td>0.000</td><td>0.455</td><td>3,603</td></tr><tr><td>Liquidity covenant {0,1}</td><td>0.147</td><td>0.000</td><td>0.354</td><td>3,603</td></tr><tr><td>Minimum cash flow covenant {0,1}</td><td>0.127</td><td>0.000</td><td>0.333</td><td>3,603</td></tr><tr><td colspan="5">Borrower characteristics</td></tr><tr><td>Cash flow/ assets</td><td>0.034</td><td>0.034</td><td>0.026</td><td>3,720</td></tr><tr><td>Book leverage ratio</td><td>0.301</td><td>0.288</td><td>0.193</td><td>3,720</td></tr><tr><td>Debt to cash flow</td><td>3.052</td><td>2.260</td><td>2.888</td><td>3,526</td></tr><tr><td>Negative cash flow {0,1}</td><td>0.052</td><td>0.000</td><td>0.222</td><td>3,720</td></tr><tr><td>Financial covenant violation within past year {0,1}</td><td>0.063</td><td>0.000</td><td>0.242</td><td>3,720</td></tr><tr><td>Total assets ($M)</td><td>1,622</td><td>674</td><td>1,974</td><td>3,720</td></tr><tr><td>Market-to-book ratio</td><td>1.768</td><td>1.426</td><td>1.136</td><td>3,720</td></tr><tr><td>Firm has a corporate credit rating {0,1}</td><td>0.490</td><td>0.000</td><td>0.500</td><td>3,720</td></tr><tr><td colspan="5">Conditional on borrower having credit rating</td></tr><tr><td>Credit rating (1 = AAA or AA, 2 = A, 3 = BBB…)</td><td>3.502</td><td>3.000</td><td>1.066</td><td>1,822</td></tr><tr><td>Junk rated {0,1}</td><td>0.482</td><td>0.000</td><td>0.500</td><td>1,822</td></tr><tr><td>CCC rated or worse {0,1}</td><td>0.020</td><td>0.000</td><td>0.141</td><td>1,822</td></tr></table>
 
-# 2.3. Summary statistics
+### 2.3. Summary statistics
 
 Table 1 contains the summary statistics for the sample of 3,720 private credit agreements signed by 1,931 borrowers. The first statistic is also one of our main results:  $32\%$  of the agreements contain an explicit restriction on capital expenditures. Across the agreements for which we gather the restricted amount, the average level of the restriction, measured relative to lagged assets, is  $8.5\%$ . The average capital expenditures in the year of the agreement for these firms, also measured relative to lagged assets, is  $6.4\%$ . The average loan deal amount is \$450 million, which represents  $34\%$  of book assets. While the loan size may appear large, it is important to understand that over  $94\%$  of the deals contain revolving
 
 credit facilities, many of which remain unused (Sufi, 2009). Almost half of the credit agreements are obtained by firms with a Standard & Poor's issuer credit rating. Conditional on having a credit rating, only  $2\%$  of firms in our sample have a rating of CCC or below, meaning very few of the borrowers in our sample are in, or even near, bankruptcy.
 
-# 3. Theoretical background
+## 3. Theoretical background
 
 The summary statistics presented in Table 1 suggest that capital expenditure restrictions are relatively common in private credit agreements. Theoretical research suggests that the use of such restrictions is motivated by conflicts of interest between equity-holders and creditors.
 
@@ -148,13 +156,13 @@ Aghion and Bolton (1992) generalize the intuition of Jensen and Meckling (1976) 
 
 Jensen and Meckling (1976) and Aghion and Bolton (1992) share two hypotheses that we use to motivate our empirical analysis. First, in the presence of conflicts of interest between creditors and equity-holders, debt agreements may limit investment policy even outside of payment default states. Second, given that conflicts of interest are exacerbated when firms perform poorly, creditors are more likely to limit investment in response to deterioration in firm credit quality.
 
-# 4. Use of capital expenditure restrictions
+## 4. Use of capital expenditure restrictions
 
 In this section, we examine whether creditors contractually restrict the investment policy of public firms outside of payment default. Table 2 shows that  $32\%$  of the credit agreements in our sample contain an explicit restriction on capital expenditures. In fact,  $42\%$  of the firms in our sample have a capital expenditure restriction at some point between 1996 and 2005. Over roughly the
 
 4 In their framework, the equity-holders continue to receive monetary payments even when the creditor obtains decision rights, which makes it difficult to interpret such an outcome as "bankruptcy". Hart (1995) criticizes this aspect of Aghion and Bolton (1992, p. 101): "One of the most basic features of a debt contract is that what triggers a shift in control is the non-payment of debt … the Aghion-Bolton contract does not have this property". Garleanu and Zwiebel (2007) and DeMarzo and Fishman (2007) also consider contracts that explicitly restrict borrower investment behavior. Garleanu and Zwiebel (2007) study how debt contracts with exogenously imposed investment restrictions influence the efficiency of renegotiation (see also Berlin and Mester, 1992). DeMarzo and Fishman (2007) derive an optimal compensation contract that rewards good-performing managers by allowing them to grow the firm through new investment, and penalizes bad performers by restricting investment growth.
 
-# Table 2
+### Table 2
 
 Capital expenditure restrictions, across types of firms.
 
@@ -172,17 +180,17 @@ Table 2 also shows how the likelihood of capital expenditure restrictions varies
 
 Although capital expenditure restrictions are more common on loans to borrowers of lower credit quality, Table 2 shows that restrictions are not exclusively associated with firms near bankruptcy. For example,  $39\%$  of credit agreements obtained by firms with a BB rating have a restriction, and on average, only  $1.4\%$  of similarly rated borrowers defaulted over a one-year horizon between 1920 and 2005, according to Moody's Investors Service (2006) historical default rates. Capital expenditure restrictions are correlated with borrower credit quality, but they are not a restriction used exclusively on loans to borrowers that are in or near bankruptcy.
 
-# 5. Restrictions and credit quality
+## 5. Restrictions and credit quality
 
 In this section, we examine the impact of declines in borrower credit quality on the incidence of capital expenditure restrictions, and measure how these estimates compare with changes in other loan terms following a credit quality decline. We also examine the extent to which contracts employ explicit contingencies that impose capital expenditure restrictions following measurable changes in borrower performance.
 
-# 5.1. The effect of credit quality on the likelihood of restrictions
+### 5.1. The effect of credit quality on the likelihood of restrictions
 
 We use three measures of credit quality to estimate the impact of a credit quality decline on the likelihood of observing a capital expenditure restriction in a loan agreement. First, for the full sample, we use the
 
 borrower's ratio of debt to cash flow. The motivation for the use of the debt to cash flow ratio is that it is easy to measure, available for almost all borrowers, and is the basis for the most common financial covenants—so called "leverage ratios"—utilized by banks (see Table 1). This latter fact suggests that banks view the debt to cash flow ratio as a particularly valuable signal of credit quality. The debt to cash flow ratio is measured as debt in the quarter before the loan origination scaled by the sum of cash flows for the four quarters prior to the loan origination. Given that the debt to cash flow ratio typically has large outliers and is not well defined if a borrower has negative cash flow, we use debt to cash flow quartile indicator variables along with an independent category for borrowers with negative cash flow. The second measure of credit quality is whether the firm has violated a financial covenant in a pre-existing agreement in the previous four quarters. Finally, we use the borrower's S&P issuer credit rating in the quarter before origination as a measure of credit quality. The drawback of the credit rating measure is that it is only available for rated firms, which comprise  $49\%$  of our sample.
 
-# 5.1.1. Empirical strategy
+#### 5.1.1. Empirical strategy
 
 Our goal is to estimate the average partial effect of credit quality on the likelihood of a capital expenditure restriction in a given borrower's loan agreement. Our main data set is a panel of credit agreements to firms indexed by  $i$  at dates indexed by  $t$ . The advantage of a panel over a cross-section is the ability to mitigate biases in coefficient estimates caused by an unobserved effect of a given firm, which we denote,  $c_{i}$ . In a standard linear framework with a continuous left-hand side variable, fixed effects estimation explicitly estimates  $c_{i}$ , which allows for arbitrary correlation between the unobserved effect and the observed explanatory variables (Wooldridge, 2002). By allowing for this arbitrary correlation, fixed effects estimation produces consistent estimates of the average partial effects of covariates under the relatively weak assumption that the mean of the error term, conditional on the covariates and the unobserved effect, is zero.
 
@@ -224,7 +232,7 @@ While assumption (5) is quite strict, the random effects probit model has the ni
 
 The estimates of average partial effects we choose to report in the next subsection are from a pooled probit model, a random effects probit model, and a linear probability fixed effects model. As we show below, our coefficient estimates of interest are stable across these different specifications.
 
-# 5.1.2. Results
+#### 5.1.2. Results
 
 Table 3 presents the estimates. For each of the four estimation models, we present two specifications. The first uses the full sample and examines how debt to cash flow ratio quartiles and financial covenant violations affect the likelihood of a capital expenditure restriction in the credit agreement. The second specification adds credit rating indicator variables as covariates and isolates the sample to firms that have a credit rating. The linear probability fixed effects models further restrict the sample to firms with at least two loans.
 
@@ -248,7 +256,7 @@ Table 3 Credit quality and capital expenditure restrictions.
 
 \*\*\* Statistically distinct from zero at the  $5 \%$  and  $1 \%$  level, respectively.
 
-# 5.2. Restrictions versus other loan terms
+### 5.2. Restrictions versus other loan terms
 
 In this section, we explore how other contract terms respond to credit quality deterioration in order to understand the relative importance of shifts in control over investment. We focus on capital expenditure restrictions versus interest spreads, whether a loan is secured, whether a loan contains a restriction on dividend payments, and whether a loan contains financial covenants.
 
@@ -272,7 +280,7 @@ Firms experience a large increase in the likelihood of capital expenditure restr
 
 Because the results in Table 5 rely on the subsample of firms that have a credit rating from S&P, we also examine in unreported results the full sample with imputed credit ratings using cash flow, cash flow variance, the leverage ratio, and the MTB ratio as credit-rating prediction variables. We obtain similar results.
 
-# 5.3. Contingency
+### 5.3. Contingency
 
 In this section, we examine how creditors make future contract terms contingent on the borrower's credit quality.
 
@@ -294,7 +302,7 @@ Table 5
 
 Column 1 of Table 6 reports the fraction of original and renegotiated agreements that contain capital expenditure restrictions. While  $40\%$  of credit agreements obtained before the financial covenant violation include a restriction, over  $60\%$  of the renegotiated agreements following the violation contain a restriction. That is, the renegotiated agreement after the violation is  $51\%$  more likely to contain a restriction on capital expenditures. The remaining columns of Table 6 show that the renegotiated loan agreement has an interest spread that is  $30\%$  higher than the original loan agreement, that the likelihood of requiring collateral increases by  $20\%$ , and that presence of a dividend restriction is  $9\%$  more likely. The results in Table 6 show that the likelihood of capital expenditure restrictions is more sensitive to financial covenant violations than other contract terms such as the interest spread or collateral requirements.
 
-# 6. The impact of restrictions on investment
+## 6. The impact of restrictions on investment
 
 In this section, we examine how capital expenditure restrictions affect investment. As Section 5 demonstrates, restrictions on investment are not randomly imposed. Instead, creditors introduce restrictions into credit agreements, and borrowers agree to the loans, in response to deterioration in credit quality. The non-randomness introduces a significant identification problem when attempting to measure the impact of the restriction on actual investment, as investment levels for firms with deteriorating credit quality are likely to fall even in the absence of a new capital expenditure restriction.
 
@@ -360,7 +368,7 @@ One concern with Fig. 2 is that restrictions are set at the borrowers' planned l
 
 Third, in Table 8, we find that the size of the kink and shape of the distribution does not vary with the time from the contract origination until the end of the fiscal year.
 
-# Table 8
+### Table 8
 
 Capital expenditures-contractual limit, by time from contract origination to end of year.
 
@@ -384,7 +392,7 @@ Fig. 4. Firm performance, by whether contract contains restriction. Panel A: Mar
 
 yet-to-be-imposed limit are not asymmetrically skewed downward. To the contrary, there appear to be more deviations above the yet-to-be-imposed limit. This evidence supports the idea that we see fewer deviations above the limit in the year after it is imposed because the restriction is binding, and not because deviations from planned expenditures tend to be negative.
 
-# 7. Impact of restrictions on firm performance
+## 7. Impact of restrictions on firm performance
 
 In this section, we explore the value and performance implications of restrictions on capital expenditures in private credit agreements. Theoretical research does not provide a clear hypothesis on whether creditor-imposed restrictions promote or distort efficient investment. For example, in Jensen and Meckling (1976), investment restrictions might reduce value-improving investments by preventing risky but positive net present value projects. However, they may also prevent risky negative NPV projects that would otherwise benefit equity-holders, given their convex payoff function. Alternatively, by
 
@@ -412,7 +420,7 @@ A potential concern with the results in Table 9 is that the introduction of othe
 
 The results in columns 3 and 6 also mitigate the selection bias concern that capital expenditure restrictions are positively correlated with MTB and ROA because banks only lend to troubled firms for which they have private information on future improvements in performance. This selection bias concern would imply that all harsher contract terms would be positively correlated with future performance, yet the results show that a capital expenditure restriction is the only contract term that is correlated with future increases in both MTB and ROA.
 
-# 8. Conclusion
+## 8. Conclusion
 
 We provide evidence of widespread use of explicit restrictions on investment in the private credit agreements of a large fraction of publicly traded companies. These restrictions are more likely to be put in place after credit quality deterioration. In fact, the elasticity of a capital expenditure restriction with respect to borrower credit quality is often larger than the elasticities of other contract terms, such as the interest spread or a dividend restriction. We describe how creditors use financial covenants and associated acceleration rights to make investment restrictions effectively conditional on the borrower's credit quality, and we provide compelling evidence that restrictions on capital expenditures contained in private credit agreements constrain firm investment. These results are consistent with the hypothesis that conflicts of interest between creditors and their borrowers have a significant impact on firm investment policy.
 
@@ -420,7 +428,7 @@ We also show that investment restrictions can create positive externalities for 
 
 restrictions shown here, and we hope that future research is able to utilize our data to answer the efficiency question more definitively.
 
-# Appendix A. Contracts unmatched and matched to DealScan
+## Appendix A. Contracts unmatched and matched to DealScan
 
 As stated in Section 2, of the 9,580 credit agreement observations in DealScan, we are able to successfully match  $40\%$  to the actual loan contract from EDGAR to yield the final sample of 3,720 private credit agreements. In order to understand why the match rate is only  $40\%$ , it is instructive to describe how Reuters LPC constructs its DealScan data set. DealScan obtains its most detailed observations from SEC filings. Reuters LPC follows the filing of SEC documents and continually extracts information from those filings that contain credit agreements. But Reuters LPC also creates additional DealScan observations through information collected from financial institutions that report "deal flow" directly to the company. Reuters LPC uses this information to construct league tables of bank loan deals. Although LPC requires that the financial institutions provide enough information on the loans to verify the accuracy of the information, they do not typically obtain a copy of the credit agreement, and thus forego the level of detail available from a copy of the agreement. Thus, the completeness of a DealScan record will tend to depend on whether LPC could find the original credit agreement in an SEC filing.
 
@@ -461,7 +469,7 @@ Based on our reading of the definition of "materiality" by the SEC, we believe t
 
 restriction itself could be deemed material under these guidelines, what is likely to make the contract material is the loan itself, independent of the contents of the contract. Put differently, firms are likely to identify a loan as material because the magnitude of the financing arrangement is material, not because of the covenants per se. Consistent with this view, the SEC requires under Regulation S-K that firms file as exhibits those contracts deemed to be "material" and "definitive". The SEC defines a Material Definitive Agreement to be the "entry into any material contract not made in the ordinary course of business… as well as any material amendment to a material contract" (SEC, 2007). Further, the SEC requires a company to disclose all large financial obligations, be they onor off-balance sheet items: "A company must report when it becomes a party to a material, direct financial obligation enforceable against it. Reporting is also required upon creation of a direct or contingent obligation arising out of an off-balance sheet arrangement" (SEC, 2007). The definitions make no reference to particular covenants in the agreements, but to the agreements themselves. Thus, the contracts missing from EDGAR are likely to be loans that are deemed by the borrower to be not material. Such loans could include loans that are relatively small, short-term, or agreements that are reported to DealScan as a commitment by the financial institution, but are later canceled prior to initiation. None of these explanations should bias the findings of our paper.
 
-# References
+## References
 
 Aghion, P., Bolton, P., 1992. An incomplete contracts approach to financial contracting. Review of Economic Studies 59, 473-494.  
 Andrade, G., Kaplan, S., 1998. How costly is financial (not economic) distress? Evidence from highly leveraged transactions that become distressed. Journal of Finance 53, 1443-1493.  

@@ -1,15 +1,34 @@
 ---
-aliases:
-  - Public Spending From Bigger to Better
-tags:
-key_concepts:
-parent_directory: "[[Better Spending for Better Lives]]"
+title: "Chapter 01 Public Spending From Bigger to Better"
+parent_directory: "Better Spending for Better Lives"
+formatted: 2025-12-21 08:15:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+   - public spending growth
+   - fiscal sustainability
+   - capital vs current spending
+   - spending composition
+   - latin america economics
+secondary_tags:
+   - wagner's law
+   - procyclical fiscal policy
+   - government expenditure
+   - debt sustainability
+   - redistributive policy
+   - infrastructure investment
+   - social transfers
+   - demographic factors
+   - trust in government
+   - fiscal rules
+   - inequality effects
+   - trade openness
+   - electoral democracy
+   - population dependency
 cssclasses: academia
-title: "Chapter 01 - Public Spending: From Bigger to Better"
-linter-yaml-title-alias: "Chapter 01 - Public Spending: From Bigger to Better"
 ---
 
-# 1 Public Spending: From Bigger to Better
+# Chapter 01 Public Spending From Bigger to Better
 
 Since the early 1900s, the role of governments and their participation in the economy has steadily increased around the world. Typical ratios of public spending to gross domestic product (GDP) have crept up from about 5 percent in the early 1900s to about 22 percent in 2018. Government participation is almost twice as large in the developed world as in developing countries, including in Latin America and the Caribbean (40 percent vs 20 percent of GDP, respectively). The latest commodity boom of the 2000s pushed the size of government to 25 percent in Latin America and the Caribbean as a whole, and to 30 percent in the LAC-7 (that is, the seven largest regional economies) plus commodity producers. Moreover, following the Great Recession in the United States and its repercussions in the developing world, many countries in the region followed expansionary policies in an effort to bolster aggregate demand. However, many of these expansionary policies, which were considered countercyclical at the time, led to permanent increases in expenditure, mostly through higher wages and transfers, which are very difficult to reverse.
 
@@ -38,7 +57,7 @@ preference</td><td>Conservative on preferences and fiscally sound</td><td>Conser
 
 two dimensions: their high or low preference for public expenditure; and the institutions that make them fiscally sound or fiscally "exuberant" and eventually unsustainable if not kept in check. Usually, the struggle lies with countries that belong to the upper-right quadrant of Table 1.1: those that have a higher preference for expenditure but lack the institutions or national arrangements to make this expenditure sustainable.
 
-# Greater Public Spending: At What Cost?
+## Greater Public Spending: At What Cost?
 
 During the last decade, has the increase in public spending come at the expense of fiscal sustainability? According to Figure 1.2, the answer is a resounding yes. It shows in the x-axis the "fiscal gap," which relies on a Debt Sustainability Assessment (DSA) approach. A positive value indicates that the observed primary surplus is smaller than the surplus required to stabilize the debt-to-GDP ratio (i.e., pointing to fiscal sustainability issues). On the other hand, a negative value indicates that the observed primary surplus is larger than the surplus required to stabilize the debt-to-GDP ratio (i.e.,
 
@@ -67,7 +86,7 @@ Even if cuts are not needed from a sustainability point of view—the privilege 
 
 Even when countries plan to expand expenditures—as would be the case when ratios of public expenditure to GDP drop below those suggested by Wagner's law—it is important to focus on efficiency gains. Usually, countries with low spending levels for their stage of development find it difficult to raise taxes to finance higher expenditures. Typically, their citizens are unwilling to pay higher taxes as they don't believe their governments will spend those additional resources efficiently by providing them the services they need. Thus, a precondition for tax increases and higher spending seems to be a government's ability to deliver efficient services and leave nothing to waste. Citizens that trust their governments may be willing to pay for services, particularly those that take more time to deliver, as is the case of education or infrastructure (see Chapter 10).
 
-# Composition of Public Expenditure
+## Composition of Public Expenditure
 
 The most common approach to analyzing the participation of the public sector in the economy is to focus on the level of public spending. This focus is also used to answer questions about public spending sustainability, or how public spending is financed, as well as issues related to social demands for publicly provided goods. However, a less explored, but equally relevant, approach to complement the analysis focuses on the composition of public spending. The framework based on the amount of spending can shed light on people's preferences for public expenditure and the size of government. Yet, it provides little information about which expenditures are prioritized, or how they are combined to achieve efficiency and equity objectives. The level of total spending does not indicate whether a government is investing much or little, whether it is actively pursuing redistributive policy, or whether it spends more on health, education, or infrastructure. Nor does it answer whether expenditures on
 
@@ -75,7 +94,7 @@ public employees are high, whether retirees receive reasonable pensions, or whet
 
 To study public spending composition, spending must be classified. Two widely used classifications distinguish spending components by their function or purpose and by economic characteristics. The former is called the functional classification of government expenditure and it breaks total expenditure into categories such as health care, education, and defense. The latter is called the economic classification of government expenditure; it separates total spending into current and capital expenditure. Usually, the literature looks at determinants of public spending composition using the first classification. In an interesting contribution, Shelton (2007) tests the relevance of several leading hypotheses on determinants of public spending using a double disaggregation: i) by categories of spending (i.e., health, education, and defense), and ii) by level of government (i.e., central and local). The results suggest that much of the expenditure associated with greater trade openness is not in categories that explicitly insure for risk, and there is evidence that both political access and income inequality affect the extent of social insurance. However, to date little has been done to analyze the determinants of public spending composition using the economic classification view. This chapter strives to fill that gap by looking into current versus capital public spending trends and their determinants, including some novel variables such as trust in government.
 
-# Today vs. Tomorrow: Current vs. Capital Spending
+## Today vs. Tomorrow: Current vs. Capital Spending
 
 During the past two decades and a half, public spending composition has basically remained constant in industrial economies while it has changed dramatically in developing economies. Figure 1.3 plots the evolution of current and capital spending shares of primary total spending since 1980 and clearly shows a growing bias against capital spending in developing economies. A bias against capital spending can be defined as a decline in capital spending's share of total primary spending over the course of the sample period. With this definition in mind, capital spending lost 3.7 percentage points (from 11.5 percent of total spending to 7.8 percent) relative to current spending in industrial economies (Figure 1.4A) while in developing economies, capital spending lost more than double that amount, reaching 8.5 percentage points (from 32.1 percent to 23.5 percent, see Figure 1.4B). Curiously, this bias against capital spending occurred despite substantial hikes in primary spending as a share of GDP, which could have provided enough room to increase social and other current expenditures, without substantially cutting into the share of capital spending. This implies
 
@@ -124,15 +143,15 @@ B. Capital spending per capita
 Source: Izquierdo, Puig, et al. (2018c).  
 Note: Each bar shows the median value within the period.
 
-It may be argued that this bias is all about shares, not about levels; as Latin American and Caribbean economies have grown over time, it may well be that capital expenditure per capita has grown despite losing its share of the budget. This argument is true in industrial countries and in the developing world as a whole, but not in Latin America. In the early 1980s, industrial countries spent on average  \$10,212 (PPP-adjusted) per person on current spending (see Figure 1.8A) and\$ 1,131 on capital spending (Figure 1.8B). Now they spend US\$18,281 and \$1,524, respectively. This
+It may be argued that this bias is all about shares, not about levels; as Latin American and Caribbean economies have grown over time, it may well be that capital expenditure per capita has grown despite losing its share of the budget. This argument is true in industrial countries and in the developing world as a whole, but not in Latin America. In the early 1980s, industrial countries spent on average \$10,212 (PPP-adjusted) per person on current spending (see Figure 1.8A) and \$1,131 on capital spending (Figure 1.8B). Now they spend US\$18,281 and \$1,524, respectively. This
 
 Figure 1.9 Current and Capital Spending, by Region (growth rates between 2010-2015 and 1980-1985)  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/039d4ff1-8da6-4c4c-9fe7-0e1baa9d2e55/8c4c0f42746f53841ea79f2c594ee9ebca3ada35124b9b38b06867ca26a8d669.jpg)  
 Source: Izquierdo, Puig, et al. (2018c).
 
-represents an increase of 79 percent in current spending and 35 percent in capital spending, both in per capita terms. On the other hand, developing countries earmarked  \$1,353 per person for current spending and\$ 506 for capital spending between 1980 and 1985. Today, the figures are  \$2,971 and\$ 702, respectively. Thus, developing countries expanded current spending per capita by 120 percent and capital spending per capita by 39 percent (see Figure 1.9). However, the picture is quite different for Latin America and the Caribbean; indeed, the region has penalized capital expenditure per capita the most. At the beginning of the 1980s, Latin American and Caribbean countries spent on average  \$701 on capital expenditure per capita—roughly the same as they spend today (\$ 735). Yet, Latin America has managed to increase current spending per capita by 72 percent—from $1,687 to $2,905—very much in line with the rest of the world.
+represents an increase of 79 percent in current spending and 35 percent in capital spending, both in per capita terms. On the other hand, developing countries earmarked \$1,353 per person for current spending and \$506 for capital spending between 1980 and 1985. Today, the figures are \$2,971 and \$702, respectively. Thus, developing countries expanded current spending per capita by 120 percent and capital spending per capita by 39 percent (see Figure 1.9). However, the picture is quite different for Latin America and the Caribbean; indeed, the region has penalized capital expenditure per capita the most. At the beginning of the 1980s, Latin American and Caribbean countries spent on average \$701 on capital expenditure per capita—roughly the same as they spend today (\$735). Yet, Latin America has managed to increase current spending per capita by 72 percent—from $1,687 to $2,905—very much in line with the rest of the world.
 
-# Determinants of Public Spending Composition
+## Determinants of Public Spending Composition
 
 The economic literature has attempted to shed light on the determinants of public spending composition, particularly for the functional classification of public expenditure, highlighting numerous explanatory variables that involve economic, political, institutional, and demographic factors. Many of these factors are explored here to determine their relevance for the economic composition of public expenditure, but many new factors, which are relevant for the economic classification, are also studied here. So, which factors help determine the economic composition trends analyzed in this chapter (Izquierdo, Puig, et al. 2018c)? The dependent variable is capital
 
@@ -145,25 +164,25 @@ Note: Model 1 regresses each explanatory variable at a time. Model 2 regresses t
 
 spending's share of total primary spending. Two main specifications are presented in Table 1.2. The first one runs individual regressions between the share of capital spending and each explanatory variable, controlling for fixed effects (Basic Model). The second one is basically a joint regression including all explanatory variables, also controlling for fixed effects (Full Model). The sample includes 120 countries (98 developing and 22 developed, following the classification in Frankel, Végh, and Vuletin, 2013) from 1980 to 2016.
 
-# Cyclicality
+### Cyclicality
 
 Among economic factors that may help explain the composition of public spending, a natural candidate is the business cycle. In procyclical countries (i.e., countries that follow policies that tend to deepen the cycle), cyclicality can affect the economic composition of expenditure to the extent that each type of spending exhibits different cyclical behaviors. During bad times, for instance, capital spending is used to adjust, while during good times, current expenditure expands much more than capital expenditure (Ardanaz and Izquierdo, 2017). In the long run, this pattern naturally biases the composition toward current spending, so that a lower capital spending share could be expected in more procyclical countries.
 
 Cyclicality is associated with a lower share of capital expenditure in the basic model, but not in the larger model. The degree of cyclicality is measured by the correlation coefficient between the cyclical component of GDP and the cyclical component of total expenditure, using a 10-year rolling window. Having said this, the fact that fiscal rules are also included in the full model may downplay the role of cyclicality. This would be the case when governments use capital expenditure to adjust in bad times in order to comply with the fiscal rule, if previous savings are not enough.
 
-# Capital Stocks
+### Capital Stocks
 
 The initial stock of capital could also affect decisions on public expenditure composition. Lower starting capital stocks may lead to more capital spending as capital is highly productive at very low levels, given decreasing marginal returns to capital spending. Thus, when capital stock levels are lower, the share of capital expenditure in total expenditure could be larger.
 
 In line with this theoretical prediction, regressions show that a large initial stock of capital reduces the share of capital spending. The measure used here is the capital stock at constant national prices provided by Penn World Tables. This finding is relevant since Latin American and Caribbean countries present the lowest levels of capital stock after Africa. If Latin American and Caribbean countries were to behave like the rest of the sample, the share of capital spending in the region should be higher—not lower—given its low starting capital stocks.
 
-# Inequality
+### Inequality
 
 Factors reflecting income distribution, such as the Gini coefficient, are also pertinent since inequality in pretax income can lead to high demand for redistributive policies (Romer, 1975) and, therefore, greater social spending.4 Thus, an inequality measure like the Gini coefficient may be negatively associated with the share of capital spending in total spending.
 
 Results confirm that inequality, as measured by the Gini coefficient, reduces capital spending's relative participation. This finding may well explain part of the observed bias against capital expenditure in Latin America and the Caribbean, given that the region is the most unequal in the world.
 
-# Openness
+### Openness
 
 Openness to international markets can also be a key determinant of expenditure composition. Countries that are more internationally integrated face greater domestic volatility during times of global economic turbulence. When global markets gyrate, governments may need to compensate for this external risk by providing public insurance in the form of social transfers (Rodrik, 1998), or by increasing public employment. Thus, more open countries would be expected to spend more on these policies, thereby adding to
 
@@ -171,7 +190,7 @@ current expenditures and establishing a negative association between openness an
 
 The effect of openness to international markets is less clear since ambiguous signs are found in both models. Openness is measured as the sum of exports and imports over GDP, with data provided by the World Bank. In the basic model, no relation is found between public spending composition and openness, but in the larger model a positive relation emerges, which may point to the presence of weak mechanisms to compensate the losers of trade reforms.
 
-# Political and Institutional Factors
+### Political and Institutional Factors
 
 Among political and institutional factors, ideology could play a prominent role. Leftist-oriented governments usually attach greater importance to social security and health care, while rightist-oriented governments favor infrastructure and defense (Van Dalen and Swank, 1996). Thus, capital expenditure's share is expected to be lower in left-leaning governments.
 
@@ -185,19 +204,19 @@ On the other hand, based on the measure of corruption provided by the Internatio
 
 Ideology, as measured by data from the Inter-American Development Bank's 2017 Database of Political Institutions, does not seem to affect composition either.
 
-# Fiscal Rules
+### Fiscal Rules
 
 The adoption of fiscal rules can also bias public expenditure composition. The principal goal of fiscal rules is to ensure the sustainability of a government's fiscal accounts by appropriately managing the business cycle. Thus, one of its objectives is to reduce procyclicality or to achieve countercyclicality (i.e., ensure savings in good times to spend in bad times). But these rules do not usually specify what type of expenditure should be used in the different phases of the cycle. If public expenditure needs to be adjusted to comply with a fiscal rule—particularly given Latin America and the Caribbean's performance in the past—capital expenditure cuts will be used to meet the rule's demands. Thus, fiscal rules with no additional conditions on expenditure composition may be negatively associated with capital expenditure's share of total expenditure.
 
 Fiscal rules are a key determinant of public spending composition and seem to bias public spending toward current spending. Although fiscal rules have been mostly implemented in industrial countries, in the past decade, Latin American and Caribbean countries have increasingly implemented them. In this context, the design of fiscal rules that protect public investment, beyond representing good management of the business cycle, becomes a central issue in the makeup and efficiency of public spending (see Chapter 9).
 
-# Demographics
+### Demographics
 
 Large population dependency ratios—measured as the sum of young (under 15 years of age) and old (65 years of age and above) over total population—may favor current spending, especially for social purposes. The young may push for more health and education spending, while the elderly may prefer increases in health and social security spending. Moreover, to the extent that the elderly are not fully altruistic about their progeny, they may bias their preferences in favor of current spending instead of capital spending, which benefits future generations. Thus, the share of the elderly, as well as their intergenerational altruism, may be a determining factor in the composition of public spending (Izquierdo and Kawamura, 2015).
 
 As expected, population dependency ratios pull for more current spending. Policymakers should carefully consider the implications of this trend; although the region is currently enjoying a demographic dividend, in the near future this dividend will end and countries will need to contemplate the effects of an aging population (see Chapter 3).
 
-# Trust, or the Lack Thereof
+### Trust, or the Lack Thereof
 
 Lack of trust in politicians is another key determinant of public spending composition, as it may bias preferences toward certain, short-term spending such as transfers instead of uncertain, but perhaps more profitable, long-term spending such as infrastructure. Thus, the lack of credibility may lead citizens to prefer "a bird in hand (transfers) than two in the bush (infrastructure).
 
@@ -211,7 +230,7 @@ Source: Izquierdo, Puig, et al. (2018c).
 
 (as published by the International Monetary Fund), which is potentially a better measure of the substitution effect that emerging PPPs could have had on public investment. This variable is not significant either in explaining the fall in capital expenditure's share.
 
-# Policy Implications
+## Policy Implications
 
 The bias against capital spending can be explained by several economic, political-institutional, and demographic factors that policymakers should consider when contemplating the composition of public expenditure.
 

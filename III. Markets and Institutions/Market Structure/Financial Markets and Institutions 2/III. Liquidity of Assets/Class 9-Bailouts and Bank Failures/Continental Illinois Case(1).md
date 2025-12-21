@@ -1,49 +1,49 @@
 ---
-title: Class 9 - Continental Illinois Case
+title: Continental Illinois Case
 parent_directory: Class 9-Bailouts and Bank Failures
-formatted: 2025-12-21 11:35:00 AM
+formatted: 2025-12-21 08:10:00 AM
 formatter_model: claude-sonnet-4-5-20250929
 cli_tool: claude-code
 primary_tags:
-  - continental illinois bank failure
-  - penn square collapse
-  - bank bailout
-  - too big to fail
+   - continental illinois bank failure
+   - penn square collapse
+   - bank bailout
+   - too big to fail
 secondary_tags:
-  - energy lending risks
-  - loan loss provisions
-  - federal reserve intervention
-  - deposit insurance guarantee
-  - bank regulatory oversight
-  - liquidity crisis management
+   - energy lending risks
+   - loan loss provisions
+   - federal reserve intervention
+   - deposit insurance guarantee
+   - bank regulatory oversight
+   - liquidity crisis management
 cssclasses: academia
 ---
 
-## NEW YORK UNIVERSITY SALOMON CENTER
+> **NEW YORK UNIVERSITY SALOMON CENTER**
+>
+> **Working Paper Series**
+>
+> C41
+>
+> CONTINENTAL-ILLINOIS
+>
+> Richard Herring
+>
+> NEW YORK UNIVERSITY SALOMON CENTER
+>
+> LEONARD N. STERN SCHOOL OF BUSINESS
+>
+> 44 WEST 4TH STREET, SUITE 9-160
+>
+> NEW YORK, NY 10012-1126
+>
+> TELEPHONE 212-998-0700
+>
+> FAX 212-995-4220
+>
+> SEE BACK PAGES FOR CURRENT WORKING PAPERS
 
-## Working Paper Series
-
-C41
-
-CONTINENTAL-ILLINOIS
-
-Richard Herring
-
-NEW YORK UNIVERSITY SALOMON CENTER
-
-LEONARD N. STERN SCHOOL OF BUSINESS
-
-44 WEST 4TH STREET, SUITE 9-160
-
-NEW YORK, NY 10012-1126
-
-TELEPHONE 212-998-0700
-
-FAX 212-995-4220
-
-SEE BACK PAGES FOR CURRENT WORKING PAPERS
-
-## CONTINENTAL ILLINOIS BANK AND TRUST COMPANY
+# Continental Illinois Case
 
 The background material for this case was originally submitted by the Comptroller of the Currency, C.T. Conover, to the House Banking Committee four months after the collapse of Continental. As the official with principal supervisory responsibility for Continental, Conover had the awkward task of explaining to Congress why Continental collapsed despite the superb quality of supervision it received. Although the Comptroller's statement reflects this special perspective, the facts are clearly stated.
 
@@ -98,7 +98,7 @@ Source: Call Reports
 
 Beginning in 1973, Continental embarked on an aggressive assault on selected segments of the banking market. The bank rapidly built up its consumer loan portfolio. A private placement unit was created that secured a foothold in the market by arranging placements of debt for small companies. Its international effort was expanded by structuring syndicated Eurodollar loans, making advances in direct lending to European multinational companies, and becoming active in project financing.
 
-Like most banks, Continental suffered during the collapse of the real estate investment trust industry in the mid-1970s. Continental's management, however, handled this problem well; it recovered from its real estate problems more successfully than most other large banks with similar problems. As a result, Continental continued to remain active in real estate lending throughout the 1970s. Its mortgage and real estate portfolio grew from  \$997 million at the end of 1977 to approximately\$ 2.3 billion at the end of 1979.
+Like most banks, Continental suffered during the collapse of the real estate investment trust industry in the mid-1970s. Continental's management, however, handled this problem well; it recovered from its real estate problems more successfully than most other large banks with similar problems. As a result, Continental continued to remain active in real estate lending throughout the 1970s. Its mortgage and real estate portfolio grew from  \$997 million at the end of 1977 to approximately \$2.3 billion at the end of 1979.
 
 Continental emerged from the 1974-75 recession with one of the best loan loss records among its peer group, reflecting management's ability to steer the bank through economic downturns. Financial problems at some of Continental's prime competitors in the late 1970s also provided the bank with a competitive opportunity to increase its market share and become the "premier bank in the Midwest."
 
@@ -108,18 +108,14 @@ In 1972, the bank expanded individual lending officers' authority and removed th
 
 In light of Continental's rapid growth, OCC examiners stressed the importance of adequate controls, especially in the loan area. Certain internal control problems within the bank were noted by examiners. In particular, exceptions were noted in the timeliness of putting problem loans on the bank's internal watch list.
 
-In reaction to these criticisms, management implemented new control features, including computer-generated past due reports and a system to track exceptions in the
+In reaction to these criticisms, management implemented new control features, including computer-generated past due reports and a system to track exceptions in the internal rating process. Given the bank's historical loan loss experience and proven ability to deal with problem situations, supervisory concerns were not of a serious nature.
 
-internal rating process. Given the bank's historical loan loss experience and proven ability to deal with problem situations, supervisory concerns were not of a serious nature.
-
-During the period 1974-81, Continental sought to spur loan growth by courting companies in profitable, although sometimes high risk businesses. Lending officers were encouraged to move fast, offer more innovative packages, and take on more loans. This aggressive lending strategy worked well for the bank; Continental's commercial and industrial (C&I) loans expanded from  \$4.9 billion in 1974 to\$ 14.3 billion in 1981. Moreover, it was able to expand its market share during a period in the late 1970s when many other major U.S. banks experienced declining market shares because of increasing competition from foreign banks, the commercial paper market, and other nontraditional lenders. By adding numerous multinational and middle-market companies that previously did no business with the bank, Continental's share of the domestic C&I loan market rose from 3.9% at the end of 1974 to 4.4% at year-end 1981.
+During the period 1974-81, Continental sought to spur loan growth by courting companies in profitable, although sometimes high risk businesses. Lending officers were encouraged to move fast, offer more innovative packages, and take on more loans. This aggressive lending strategy worked well for the bank; Continental's commercial and industrial (C&I) loans expanded from  \$4.9 billion in 1974 to \$14.3 billion in 1981. Moreover, it was able to expand its market share during a period in the late 1970s when many other major U.S. banks experienced declining market shares because of increasing competition from foreign banks, the commercial paper market, and other nontraditional lenders. By adding numerous multinational and middle-market companies that previously did no business with the bank, Continental's share of the domestic C&I loan market rose from 3.9% at the end of 1974 to 4.4% at year-end 1981.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/e6867f7ee1f331915464f8bcc94cb67836b3631a540f7a0fda2c07bd3f1c0677.jpg)  
 Source: Call Reports, OCC
 
-As part of its corporate expansion, Continental became particularly aggressive in the energy area. The bank created a special oil-lending unit in the early 1950s -- reportedly the first major bank to have petroleum engineers and other energy specialists on staff. The economic consequences of the 1973 oil embargo and the resulting four-fold increase in world oil prices pushed energy self-sufficiency to the forefront of our national goals. A number of actions were taken by various Administrations and Congress following the first embargo and subsequent oil price hikes to both reduce U.S. energy consumption and to
-
-increase domestic production. The Department of Energy, created in 1977, sought to develop ways of encouraging higher investment in U.S. exploration, development, production, and refining capacity. Cultivation of this niche had made Continental a premier energy lending bank and contributed significantly to its rapid, and profitable, expansion.
+As part of its corporate expansion, Continental became particularly aggressive in the energy area. The bank created a special oil-lending unit in the early 1950s -- reportedly the first major bank to have petroleum engineers and other energy specialists on staff. The economic consequences of the 1973 oil embargo and the resulting four-fold increase in world oil prices pushed energy self-sufficiency to the forefront of our national goals. A number of actions were taken by various Administrations and Congress following the first embargo and subsequent oil price hikes to both reduce U.S. energy consumption and to increase domestic production. The Department of Energy, created in 1977, sought to develop ways of encouraging higher investment in U.S. exploration, development, production, and refining capacity. Cultivation of this niche had made Continental a premier energy lending bank and contributed significantly to its rapid, and profitable, expansion.
 
 Continental C&I loans, including its energy loans, produced high returns for the bank. Average yields were consistently higher than those of other wholesale money center banks.
 
@@ -156,7 +152,7 @@ As a consequence, through 1980 Continental was able to achieve one of the best a
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/0e9f70a4c7bfedd8434b4ae15ffb55d7a0fefdc6f147f1929ae57a8da623d828.jpg)  
 Source: Call Reports
 
-The bank showed record earnings while its assets grew to a high of  \$45.1 billion in 1981. As shown in the following chart, net income rose rapidly before peaking at\$ 236 million at year-end 1981.
+The bank showed record earnings while its assets grew to a high of  \$45.1 billion in 1981. As shown in the following chart, net income rose rapidly before peaking at \$236 million at year-end 1981.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/aa700541371986506f67ba890e3738a349a13ecb661bdc335c4d4bf55e7e6c3e.jpg)  
 Source: Call Reports
@@ -168,13 +164,13 @@ While Continental's capital to asset ratio compared favorably to other money cen
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/353414c788c8bbf0cdbb44ddfa59f09a6238ecd24a6297fa0173168cec7f1e23.jpg)  
 Source: Call Reports
 
-During the 1976 examination, the Office pointed out that, unlike most other large national banks, Continental had no definite capital growth plan. As a result, the bank prepared a three year capital plan and took immediate measures to increase capital, including cutting the size of its 1976 dividends to the holding company, by  \$15 million, to\$ 45.6 million. In addition, the bank holding company issued debt and used the proceeds to inject \$62 million into the bank's surplus account. Despite these efforts, capital failed to keep pace with asset growth and continued to decline through 1980.
+During the 1976 examination, the Office pointed out that, unlike most other large national banks, Continental had no definite capital growth plan. As a result, the bank prepared a three year capital plan and took immediate measures to increase capital, including cutting the size of its 1976 dividends to the holding company, by  \$15 million, to \$45.6 million. In addition, the bank holding company issued debt and used the proceeds to inject \$62 million into the bank's surplus account. Despite these efforts, capital failed to keep pace with asset growth and continued to decline through 1980.
 
 Continental had an excellent loan loss experience, with one of the lowest percentages of nonperforming assets and net loan losses in the industry. Asset quality, which was a major concern at most money center banks in the 1975-1976 period, showed steady improvement at Continental throughout the late 1970s. Its classified assets decreased dramatically following the recession, demonstrating management's ability to deal effectively with problem assets. By the end of 1977, Continental had classified assets representing  $86\%$  of gross capital, down from  $121\%$  of capital the previous year. In the 1975-1977 period, Continental's ratio of net loan losses to average total loans and leases was  $25\%$  lower than the average of other wholesale money center banks.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/eab33e5ced63aa4d580e717afe0f6451ee874c3ef3e221f2d3fdb471e82fc414.jpg)
 
-# Source: Call Reports
+**Source:** Call Reports
 
 OCC's 1979 examination of Continental noted continuing improvement in asset quality. Classified assets had declined from  $86\%$  to  $80\%$  of gross capital funds. Liquidity was also considered adequate at this time. Some problems, however, were noted in the bank's internal credit review system. Deficiencies were cited in the identification and rating of problem loans and the completeness of credit files. In light of the bank's rapid asset growth, OCC examiners once again emphasized the importance of building a strong capital base.
 
@@ -189,11 +185,9 @@ Continental historically had made loans to energy producers that were secured by
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/3695b25a970c27a55127a0d3c4784c92a72d9630aec07ab28a5b95e06a4c7f83.jpg)  
 Energy Share of Continental's C&I Loans
 
-# Source: OCC
+**Source:** OCC
 
-In 1981, Continental had over \(6.7 billion in oil and gas loans outstanding. Despite this high commitment to a single sector of the economy, Continental's management felt confident about the strength of the energy industry and its knowledge of specific oil fields and companies. Losses from Continental's energy loans had consistently averaged less than half the net loan losses from its non-energy loans. According to Gerald Bergman, former head of Continental's Special Industries lending department, the bank was simply
-
-demonstrating "a reasonable way to leverage [its] expertise in the oil industry" (American Banker, August 25, 1981).
+In 1981, Continental had over \(6.7 billion in oil and gas loans outstanding. Despite this high commitment to a single sector of the economy, Continental's management felt confident about the strength of the energy industry and its knowledge of specific oil fields and companies. Losses from Continental's energy loans had consistently averaged less than half the net loan losses from its non-energy loans. According to Gerald Bergman, former head of Continental's Special Industries lending department, the bank was simply demonstrating "a reasonable way to leverage [its] expertise in the oil industry" (American Banker, August 25, 1981).
 
 While conducting the 1981 examination, which used information as of April 30, 1981, OCC examiners noted a significant level of participations from Penn Square that were backed up by standby letters of credit. Recognizing that the amount of these loans was large in comparison with Penn Square's size, additional time was spent examining them. The OCC's review determined that these standby letters of credit were issued by banks other than Penn Square, including several money center banks, alleviating our concerns. Moreover, since the energy industry still appeared strong and the energy loans were continuing to perform, we saw no cause for concern at that time. In all, only two oil and gas loans, totaling \$85 million were classified. Neither loan had been purchased from Penn Square.
 
@@ -248,19 +242,16 @@ The Special Litigation Report once again indicated that while senior Continental
 
 In July of 1982, following the collapse of Penn Square, Continental sent a staff of experienced energy lenders to Oklahoma City to review Penn Square's records and assess the dimensions of the problem. Each of the loans Continental purchased from Penn Square were reviewed during the first two weeks of July. After analyzing the probable risk associated with each credit, senior Continental officers recommended an addition to loan loss reserves of $220 million. This Office, as well as the bank's accounting firm of Ernst & Whinney, reviewed this figure and concluded that it was supported by the information available at that time. This figure was then published on July 21 along with a full statement of Continental's second-quarter results.
 
-Continental auditors, supported by accountants from Ernst & Whinney, remained in Oklahoma City reconciling Continental's records with Penn Square data, assisting in the Penn Square portfolio assessment program, and preparing the loan workouts. OCC examiners also reviewed in late August and early September each loan purchased from Penn Square and discussed their findings with senior Continental management before release of third quarter earnings. That review resulted in an additional  \$81 million being added to the bank's provision for loan losses in the third quarter, as reported in Continental Illinois Corporation's October 14 press release. The holding company also indicated that its nonperforming assets had reached\$ 2 billion as of September 30, 1982, up \$700 million from the previous quarter.
+Continental auditors, supported by accountants from Ernst & Whinney, remained in Oklahoma City reconciling Continental's records with Penn Square data, assisting in the Penn Square portfolio assessment program, and preparing the loan workouts. OCC examiners also reviewed in late August and early September each loan purchased from Penn Square and discussed their findings with senior Continental management before release of third quarter earnings. That review resulted in an additional  \$81 million being added to the bank's provision for loan losses in the third quarter, as reported in Continental Illinois Corporation's October 14 press release. The holding company also indicated that its nonperforming assets had reached \$2 billion as of September 30, 1982, up \$700 million from the previous quarter.
 
-Simultaneously with the credit review, Continental undertook an extensive review of the people involved in the Penn Square relationship and the lending policies, procedures, and practices which might have contributed to the crisis. In its first phase, an independent
-
-review committee appointed by Continental's Board of Directors recommended a series of major staff changes beginning with the July 14 suspension of John R. Lytle. Mr. Lytle was permanently released from the bank on August 30. Resignations and early retirements, including those of Executive Vice President Bergman and his superior, Executive Vice President George Baker, soon followed. In addition, various other bank personnel were reassigned.
+Simultaneously with the credit review, Continental undertook an extensive review of the people involved in the Penn Square relationship and the lending policies, procedures, and practices which might have contributed to the crisis. In its first phase, an independent review committee appointed by Continental's Board of Directors recommended a series of major staff changes beginning with the July 14 suspension of John R. Lytle. Mr. Lytle was permanently released from the bank on August 30. Resignations and early retirements, including those of Executive Vice President Bergman and his superior, Executive Vice President George Baker, soon followed. In addition, various other bank personnel were reassigned.
 
 In its second phase, the internal review committee assessed bank policy and recommended:
 
-codification of bank lending policies and procedures;  
-enhancement of secured lending and related support systems;  
-
-- improvement in cooperation between loan operations and the line;  
-- revision of loan operations activity to improve its reliability and productivity; and  
+codification of bank lending policies and procedures;
+enhancement of secured lending and related support systems;
+- improvement in cooperation between loan operations and the line;
+- revision of loan operations activity to improve its reliability and productivity; and
 - formulation of a Credit Risk Evaluation Division, as had been recommended by the OCC, to strengthen the bank's credit rating system and enhance credit risk identification, evaluation, reporting, and monitoring.
 
 Following the Penn Square collapse, the domestic money market's confidence in Continental was seriously weakened. The bank's access to the Fed Funds and domestic CD markets quickly dried up. As illustrated below, Continental lost  $40\%$  of its purchased domestic funding in 1982.
@@ -277,7 +268,7 @@ Continental's parent holding company maintained its $0.50 per share dividend on 
 
 Despite these actions, Continental's condition deteriorated throughout 1982. Many of its energy loans that had performed well and been extremely profitable in the 1970s and well into 1981 were now serious collection problems.
 
-Nonperforming assets at the holding company level, which totaled  \$653 million at the end of 1981, grew to\$ 844 million at the end of the first quarter of 1982. While most of these nonperforming assets were concentrated in real estate loans and nonenergy-related corporate loans through the first quarter of 1982, this changed dramatically in the following quarters when a number of energy loans were nonperforming. By the end of 1982, close to half (over \$900 million) of Continental's nonperforming assets were energy-related.
+Nonperforming assets at the holding company level, which totaled  \$653 million at the end of 1981, grew to \$844 million at the end of the first quarter of 1982. While most of these nonperforming assets were concentrated in real estate loans and nonenergy-related corporate loans through the first quarter of 1982, this changed dramatically in the following quarters when a number of energy loans were nonperforming. By the end of 1982, close to half (over \$900 million) of Continental's nonperforming assets were energy-related.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/8960a782c8bfa508545b9996ceaa350e7e52617419cb1ea3910c2545f3ff1db9.jpg)  
 Source:OCC
@@ -292,7 +283,7 @@ Continental's net loan losses reached $371 million by December 1982, nearly a fi
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/123fb3a8be85fea5dd7c7726d42617ccb41601088ac353aaa56edb81d56a146a.jpg)  
 Source: Call Reports
 
-Energy-related loans represented a disproportionate share of Continental's loan losses. While oil and gas loans comprised approximately  $20\%$  of Continental's average total loan portfolio in 19182 and 1983, they represented approximately  $67\%$  of its June 1982 through June 1984 loan losses.
+Energy-related loans represented a disproportionate share of Continental's loan losses. While oil and gas loans comprised approximately  $20\%$  of Continental's average total loan portfolio in 1982 and 1983, they represented approximately  $67\%$  of its June 1982 through June 1984 loan losses.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/19a1dc8d6f152f92928a90a2e98526f660ea7699c087b84b2e3aac4ea9be5b64.jpg)  
 Note: OCC estimate based on a review of losses in excess of \$2 million per loan taken between June 30, 1982 and June 30, 1984.  
@@ -304,7 +295,7 @@ Most of Continental's oil and gas loan losses were a direct result of its purcha
 Continental's Losses Since June 30, 1982  
 Compared to Average Outstandings
 
-# Source: OCC
+**Source:** OCC
 
 As illustrated in the following chart, most of Continental's loan losses since June 1982, including those purchased from Penn Square, were from Loans that originated in 1980 and 1981.
 
@@ -312,7 +303,7 @@ As illustrated in the following chart, most of Continental's loan losses since J
 Origination Date of Continental's  
 Post-June 1982 Loan Losses
 
-# Source:OCC
+**Source:** OCC
 
 These loan quality problems caused Continental's earnings to collapse. The bank's provision for loan losses consumed 93% of its 1982 operating income, reaching \$476.8 million. Resulting net income fell from \$236 million in 1981 to \$72 million at year-end 1982.
 
@@ -364,9 +355,7 @@ Continental's financial situation, while stable for most of June, began to deter
 
 During the 60 days after the erroneous press reports, Continental's deposits, Federal Funds, and repos had fallen nearly \$10 billion. By July, Continental had borrowed \$4 billion from 28 banks, another \$3.55 billion from the Federal Reserve Bank of Chicago, and \$2 billion more from the FDIC and the seven banks holding subordinated notes.
 
-Throughout this period, OCC held several meetings with senior bank management and with various members of the bank's Board of Directors. Numerous meetings were held internally to analyze and refine the proposed plan. Intensive monitoring of the bank's
-
-funding continued and a joint OCC/FDIC review of the loan portfolio was conducted.
+Throughout this period, OCC held several meetings with senior bank management and with various members of the bank's Board of Directors. Numerous meetings were held internally to analyze and refine the proposed plan. Intensive monitoring of the bank's funding continued and a joint OCC/FDIC review of the loan portfolio was conducted.
 
 The long-term solution, announced on July 26 and subject to shareholder approval on September 26, is intended to restore Continental to health and allow it to continue to serve its marketplace without interruption. It entailed two key elements: top management changes and substantial assistance.
 

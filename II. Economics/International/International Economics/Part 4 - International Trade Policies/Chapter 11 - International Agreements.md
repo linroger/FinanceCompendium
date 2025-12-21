@@ -1,33 +1,19 @@
 ---
-aliases:
-- International Agreements - Trade, Labor, and the Environment
-tags: null
-key_concepts: null
-parent_directory: Part 4 - International Trade Policies
-cssclasses: academia
 title: Chapter 11 - International Agreements - Trade, Labor, and the Environment
-linter-yaml-title-alias: Chapter 11 - International Agreements - Trade, Labor, and
-  the Environment
+parent_directory: Part 4 - International Trade Policies
+formatted: 2025-12-21 11:11:25 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- tariff offset production externality
-- social gain free trade
-- world trade organization seattle
-- free trade supply mexico
-- asia example importing auto
+  - international trade agreements
+  - labor standards globalization
+  - environmental trade regulations
 secondary_tags:
-- protesters seattle international agreements
-- production externality negative
-- cost externality free trade
-- negative consumption externalities addition
-- wto protests environment
-- agreements environment rulings wto
-- trade reduces externality compared
-- agreements labor issues international
-- labor environment seattle riot
-- reflects social cost externality
-- wto environmentalists
-- trade labor environment
-tags_extracted: '2025-12-18T00:39:48.518504'
+  - world trade organization
+  - multilateral environmental agreements
+  - trade creation diversion
+  - tariffs externalities
+cssclasses: academia
 ---
 
 # International Agreements: Trade, Labor, and the Environment
@@ -57,14 +43,7 @@ Convention on Climate Change, December 19, 2009
 
 In 1999 policy makers from around the world met in Seattle, Washington, to discuss the next round of trade negotiations under the World Trade Organization (WTO). But the meeting never achieved that goal because it was disrupted by large groups of protesters who filled the streets. The protest at times turned violent (as described in the lyrics above from "Seattle Was a Riot"). The scale of these protests took many people by surprise; after all, discussions about trade reform had been occurring since the General Agreement on Tariffs and Trade (GATT) was formed in 1947, but never before had there been such an organized protest against it. What explains this grassroots movement against the WTO?
 
-In past rounds of negotiations, the GATT and now the WTO have been successful in lowering tariffs in most sectors of its members' economies. The barriers to trade remaining for the WTO to address now go beyond tariffs and involve issues of national interest that are indirectly related to trade. One of those issues is the environment. Most countries have national laws governing environmental
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/c770c5b794417bc83049c6425375b46f3b07074466e01b940ab9b60a3a39cfef.jpg)
-In protests at the 1999 meeting of the World Trade Organization in Seattle, Washington, environmentalists dressed as turtles and other endangered species that had been affected by recent WTO rulings.
-
-issues, such as the use of pesticides or genetically modified organisms, the protection of endangered species, the extent to which firms can release pollutants into the atmosphere, the harvesting of renewable and nonrenewable resources, and so on. Inevitably, some of these rules will also affect international trade, and that is where the WTO comes in. Under the Uruguay Round of negotiations (1986-1994), the WTO toughened its own rules governing the extent to which national laws can affect international trade. Countries that believed they were excluded from a foreign market because of unreasonable environmental standards there could bring a dispute before the WTO, where a panel of judges in Geneva would
-
-rule on the case. In principle, the panel's ruling would be binding on the countries involved.
+In past rounds of negotiations, the GATT and now the WTO have been successful in lowering tariffs in most sectors of its members' economies. The barriers to trade remaining for the WTO to address now go beyond tariffs and involve issues of national interest that are indirectly related to trade. One of those issues is the environment. Most countries have national laws governing environmental issues, such as the use of pesticides or genetically modified organisms, the protection of endangered species, the extent to which firms can release pollutants into the atmosphere, the harvesting of renewable and nonrenewable resources, and so on. Inevitably, some of these rules will also affect international trade, and that is where the WTO comes in. Under the Uruguay Round of negotiations (1986-1994), the WTO toughened its own rules governing the extent to which national laws can affect international trade. Countries that believed they were excluded from a foreign market because of unreasonable environmental standards there could bring a dispute before the WTO, where a panel of judges in Geneva would rule on the case. In principle, the panel's ruling would be binding on the countries involved.
 
 The new WTO rules governing environmental regulations infuriated grassroots groups in the United States and abroad. Just before the Seattle meeting, these environmental groups formed a coalition with union leaders, religious groups, third-world activists, and others who believed that the WTO might threaten the interests of those whom they represent. In addition, a wide range of political groups—from conservatives to anarchists—believed it was undesirable for a WTO panel in Geneva to make rulings that would affect U.S. regulations. Members of
 
@@ -74,14 +53,9 @@ Protests over the environment were also evident at a meeting 10 years later, in 
 
 The goal of this chapter is to examine why international agreements like those negotiated under the WTO for trade, and those negotiated for environmental reasons like the Copenhagen Climate Summit, are needed.
 
-We begin by reviewing the reasons why international agreements dealing with tariffs are needed. As we discussed in an earlier chapter, countries that are large can influence
+We begin by reviewing the reasons why international agreements dealing with tariffs are needed. As we discussed in an earlier chapter, countries that are large can influence the price they pay for imports by applying an import tariff: the tariff increases the import price for consumers in the large country but lowers the price received by foreign exporting firms. The reduction in the price received by exporters is a terms-of-trade gain for the importing country. In this chapter, we show that when two or more countries apply tariffs against one another in an attempt to capture this terms-of-trade gain, they both end up losing. The terms-of-trade gain for one country is canceled by the use of a tariff in another country, so both countries wind up losing as a result of the tariffs.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/37942d5e7006c52739c8a0f10e6cf410e176314cbebeb31a0c0f952ce956bcd2.jpg)
-Protesters at the U.N. climate change conference, Copenhagen, December 2009.
-
-the price they pay for imports by applying an import tariff: the tariff increases the import price for consumers in the large country but lowers the price received by foreign exporting firms. The reduction in the price received by exporters is a terms-of-trade gain for the importing country. In this chapter, we show that when two or more countries apply tariffs against one another in an attempt to capture this terms-of-trade gain, they both end up losing. The terms-of-trade gain for one country is canceled by the use of a tariff in another country, so both countries wind up losing as a result of the tariffs.
-
-To avoid such losses, international agreements to reduce tariffs and move toward free trade are needed. These international agreements take several forms. The WTO is a multilateral agreement, involving many countries, with agreement to lower tariffs between all the members. There are also smaller regional trade agreements, involving several countries, often located near one another. The North American Free Trade Agreement (NAFTA) and the European Union are both examples of regional trade agreements, which lead to free trade among the countries who are parties to the agreement. A recent example is an agreement between China and the Association of Southeast Asian Nations (ASEAN) for the China-ASEAN free-trade area. That agreement eliminated tariffs on  $ 90\% $  of products traded between China and six members of ASEAN—Brunei, Indonesia, Malaysia, Philippines, Singapore, and Thailand—on January 1, 2010, with the remaining four countries of the association (Cambodia, Laos, Myanmar, and Vietnam) added by 2015. This Asian free-trade area covers nearly 1.9 billion people, or more than one-quarter of the world's population. In economic terms, it is the third largest free-trade area in the world, after the European Union (covering about 500 million people) and NAFTA (covering 444 million people).
+To avoid such losses, international agreements to reduce tariffs and move toward free trade are needed. These international agreements take several forms. The WTO is a multilateral agreement, involving many countries, with agreement to lower tariffs between all the members. There are also smaller regional trade agreements, involving several countries, often located near one another. The North American Free Trade Agreement (NAFTA) and the European Union are both examples of regional trade agreements, which lead to free trade among the countries who are parties to the agreement. A recent example is an agreement between China and the Association of Southeast Asian Nations (ASEAN) for the China-ASEAN free-trade area. That agreement eliminated tariffs on $90\%$ of products traded between China and six members of ASEAN—Brunei, Indonesia, Malaysia, Philippines, Singapore, and Thailand—on January 1, 2010, with the remaining four countries of the association (Cambodia, Laos, Myanmar, and Vietnam) added by 2015. This Asian free-trade area covers nearly 1.9 billion people, or more than one-quarter of the world's population. In economic terms, it is the third largest free-trade area in the world, after the European Union (covering about 500 million people) and NAFTA (covering 444 million people).
 
 Many new regional trade agreements that span vast regions are currently being considered. The Trans-Pacific Partnership is a proposed free-trade agreement between Australia, Brunei, Chile, Canada, Japan, Malaysia, Mexico, New Zealand, Peru, Singapore, the United States, Vietnam and South Korea. The Trans-Atlantic Trade and Investment partnership is a proposed agreement between the United States and the European Union. A Europe-Japan free-trade area is also under consideration. All of these proposed free-trade areas are a response to the failure of the Doha Round of WTO negotiations. As we saw in the last chapter, the Doha Round has foundered over the issue of agricultural tariffs and subsidies. Although it will still be difficult to bargain over the use of these policies in a Trans-Pacific, Trans-Atlantic, or Europe-Japan free-trade area, we can expect that it will be easier than when all the 159 members of the WTO are involved in the negotiations, as they have been in the Doha Round.
 
@@ -534,7 +508,9 @@ The second related reason comes from the competitive threat to Home producers fr
 
 panel industry in the U.S. and EU through tariffs, or to encourage the greatest use of solar panels in these countries by allowing low-price imports from China? That is the dilemma faced by the United States and the EU with regard to the imports of solar panels from China.
 
-Trade in Rare Earth Minerals In Chapter 10, we discussed policies used by China in its export of rare earth minerals. During 2009-11, China used export quotas to restrict the sale of these minerals, leading to higher world prices. As a result, a mine was opened in Australia and a mine in the Mojave Desert of the United States was re-opened. The U.S. mine had been closed in 2002 because of a spill of radioactive fluid from a pipeline. Rare earth minerals are often found in the presence of radioactive elements such as thorium and uranium, so the processing of these minerals leads to low-grade radioactive waste. It is this by-product of the processing of rare earth minerals that leads to environmental concerns. The ore from the Australian mine is processed in Malaysia, leading to worry in that country about the safe handling of the radioactive waste: see Headlines: China Signals Support for Rare Earths, in Chapter 10. Other countries that have deposits of these minerals include Greenland (as discussed in the beginning of Chapter 1) and some African countries.
+### Trade in Rare Earth Minerals
+
+In Chapter 10, we discussed policies used by China in its export of rare earth minerals. During 2009-11, China used export quotas to restrict the sale of these minerals, leading to higher world prices. As a result, a mine was opened in Australia and a mine in the Mojave Desert of the United States was re-opened. The U.S. mine had been closed in 2002 because of a spill of radioactive fluid from a pipeline. Rare earth minerals are often found in the presence of radioactive elements such as thorium and uranium, so the processing of these minerals leads to low-grade radioactive waste. It is this by-product of the processing of rare earth minerals that leads to environmental concerns. The ore from the Australian mine is processed in Malaysia, leading to worry in that country about the safe handling of the radioactive waste: see Headlines: China Signals Support for Rare Earths, in Chapter 10. Other countries that have deposits of these minerals include Greenland (as discussed in the beginning of Chapter 1) and some African countries.
 
 Regardless of the country in which they are processed, the processing of rare earth minerals has a negative production externality, as we examined in panel (a) of Figure 11-4. It would be difficult to limit the amount demanded of these minerals, because they are used in so many high-tech products. So from an environmental point of view, the most important matter is to regulate the disposal of the radioactive by-product.
 
@@ -542,7 +518,7 @@ China has begun to make efforts in that direction, as discussed in the Headlines
 
 # International Agreements on Pollution
 
-Pollution is a by-product of many manufacturing activities. The tragedy of the commons applies to pollution, too, because companies and countries can treat the air and water as a common-property resource, allowing pollutants to enter it without regard for where these pollutants end up. Pollution is an international issue because it can often cross borders in the water or atmosphere. We will use the term "global pollutants" for substances that cross country borders. Examples include chlorofluorocarbons (CFCs), which result in a depletion of the ozone layer in the atmosphere, and carbon dioxide  $ (\mathrm{CO}_{2}) $ , which contributes to global warming. In contrast, we use the term "local pollutants" for substances that, for the most part, stay within a country. An example is smog, which is caused by the carbon monoxide in factory emissions and automobile exhaust.
+Pollution is a by-product of many manufacturing activities. The tragedy of the commons applies to pollution, too, because companies and countries can treat the air and water as a common-property resource, allowing pollutants to enter it without regard for where these pollutants end up. Pollution is an international issue because it can often cross borders in the water or atmosphere. We will use the term "global pollutants" for substances that cross country borders. Examples include chlorofluorocarbons (CFCs), which result in a depletion of the ozone layer in the atmosphere, and carbon dioxide $(\mathrm{CO}_{2})$, which contributes to global warming. In contrast, we use the term "local pollutants" for substances that, for the most part, stay within a country. An example is smog, which is caused by the carbon monoxide in factory emissions and automobile exhaust.
 
 Global Pollutants For global pollutants, a prisoner's dilemma similar to that illustrated in Figure 11-2 for tariffs again applies. Because the pollution crosses international borders, each country does not face the full cost of its own pollution. It follows that there is little incentive to regulate global pollutants. In the absence of regulation, however, countries will end up with the bad outcome of having too much global pollution, so international agreements are needed to control the amount.
 

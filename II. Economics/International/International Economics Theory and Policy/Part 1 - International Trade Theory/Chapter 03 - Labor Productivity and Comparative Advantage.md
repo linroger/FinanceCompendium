@@ -1,20 +1,30 @@
 ---
+---
+title: "Labor Productivity and Comparative Advantage: The Ricardian Model"
+parent_directory: "International Economics Theory and Policy"
+formatted: "2025-12-21 08:15:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- economy produce fewer things
-- comparative advantage ricardian model
-- countries eventually opened economies
-- chapters described comparative advantage
+  - comparative advantage
+  - ricardian model
+  - labor productivity
+  - gains from trade
+  - opportunity cost
 secondary_tags:
-- productivity labor known ricardian
-- international differences productivity labor
-- samuelson comparative advantage trade
-- relationship relative productivity trade
-- international trade ricardian factor
-- comparative advantage winter
-- trade david ricardo principles
-- model international trade works
-- misconceptions comparative advantage shortage
-tags_extracted: '2025-12-18T00:49:04.794167'
+  - absolute advantage
+  - production possibility frontier
+  - unit labor requirements
+  - relative wages
+  - trade patterns
+  - specialization benefits
+  - world relative supply
+  - world relative demand
+  - nontraded goods
+  - transport costs
+  - empirical evidence
+  - pauper labor argument
+cssclasses: academia
 ---
 
 # LABOR PRODUCTIVITY AND COMPARATIVE ADVANTAGE: THE RICARDIAN MODEL
@@ -64,19 +74,19 @@ To answer these questions, we must be much more explicit in our analysis. In thi
 
 To introduce the role of comparative advantage in determining the pattern of international trade, we begin by imagining that we are dealing with an economy—which we call Home—that has only one factor of production. (In Chapter 4 we extend the analysis to models in which there are several factors.) We imagine that only two goods, wine and cheese, are produced. The technology of Home's economy can be summarized by labor productivity in each industry, expressed in terms of the unit labor requirement, the number of hours of labor required to produce a pound of cheese or a gallon of wine. For example, it might require one hour of labor to produce a pound of cheese and two hours to produce a gallon of wine. Notice, by the way, that we're defining unit labor requirements as the inverse of productivity—the more cheese or wine a worker can produce in an hour, the lower the unit labor requirement. For future reference,
 
-we define  $a_{LW}$  and  $a_{LC}$  as the unit labor requirements in wine and cheese production, respectively. The economy's total resources are defined as  $L$ , the total labor supply.
+we define $a_{LW}$ and $a_{LC}$ as the unit labor requirements in wine and cheese production, respectively. The economy's total resources are defined as $L$, the total labor supply.
 
 # Production Possibilities
 
 Because any economy has limited resources, there are limits on what it can produce, and there are always trade-offs; to produce more of one good, the economy must sacrifice some production of another good. These trade-offs are illustrated graphically by a production possibility frontier (line  $PF$  in Figure 3-1), which shows the maximum amount of wine that can be produced once the decision has been made to produce any given amount of cheese, and vice versa.
 
-When there is only one factor of production, the production possibility frontier of an economy is simply a straight line. We can derive this line as follows: If  $Q_W$  is the economy's production of wine and  $Q_C$  its production of cheese, then the labor used in producing wine will be  $a_{LW}Q_W$ , and the labor used in producing cheese will be  $a_{LC}Q_C$ . The production possibility frontier is determined by the limits on the economy's resources—in this case, labor. Because the economy's total labor supply is  $L$ , the limits on production are defined by the inequality
+When there is only one factor of production, the production possibility frontier of an economy is simply a straight line. We can derive this line as follows: If $Q_W$ is the economy's production of wine and $Q_C$ its production of cheese, then the labor used in producing wine will be $a_{LW}Q_W$, and the labor used in producing cheese will be $a_{LC}Q_C$. The production possibility frontier is determined by the limits on the economy's resources—in this case, labor. Because the economy's total labor supply is $L$, the limits on production are defined by the inequality
 
 $$
 a_{L C} Q_{C} + a_{L W} Q_{W} \leq L. \tag {3-1}
 $$
 
-Suppose, for example, that the economy's total labor supply is 1,000 hours and that it takes one hour of labor to produce a pound of cheese and two hours of labor to produce a gallon of wine. Then the total labor used in production is  $(1 \times$  pounds of cheese produced)  $^+$ $(2 \times$  gallons of wine produced), and this total must be no more than the 1,000 hours of labor available. If the economy devoted all its labor to cheese production, it could, as shown in Figure 3-1, produce  $L / a_{LC}$  pounds of cheese (1,000 pounds). If it devoted all its labor to wine production instead, it could produce  $L / a_{LW}$  gallons— $1,000 / 2 = 500$  gallons—of wine. And it can produce any mix of wine and cheese that lies on the straight line connecting those two extremes.
+Suppose, for example, that the economy's total labor supply is 1,000 hours and that it takes one hour of labor to produce a pound of cheese and two hours of labor to produce a gallon of wine. Then the total labor used in production is  $(1 \times$  pounds of cheese produced)  $^+$ $(2 \times$  gallons of wine produced), and this total must be no more than the 1,000 hours of labor available. If the economy devoted all its labor to cheese production, it could, as shown in Figure 3-1, produce $L / a_{LC}$ pounds of cheese (1,000 pounds). If it devoted all its labor to wine production instead, it could produce $L / a_{LW}$ gallons—$1,000 / 2 = 500$ gallons—of wine. And it can produce any mix of wine and cheese that lies on the straight line connecting those two extremes.
 
 # FIGURE 3-1
 
@@ -96,7 +106,7 @@ In a competitive economy, supply decisions are determined by the attempts of ind
 
 Suppose, once again, that it takes one hour of labor to produce a pound of cheese and two hours to produce a gallon of wine. Now suppose further that cheese sells for \$4 a pound while wine sells for \$7 a gallon. What will workers produce? Well, if they produce cheese, they can earn \$4 an hour. (Bear in mind that since labor is the only input into production here, there are no profits, so workers receive the full value of their output.) On the other hand, if workers produce wine, they will earn only \$3.50 an hour, because a \$7 gallon of wine takes two hours to produce. So if cheese sells for \$4 a pound while wine sells for \$7 a gallon, workers will do better by producing cheese—and the economy as a whole will specialize in cheese production.
 
-But what if cheese prices drop to \(3 a pound? In that case, workers can earn more by producing wine, and the economy will specialize in wine production instead.
+But what if cheese prices drop to $3 a pound? In that case, workers can earn more by producing wine, and the economy will specialize in wine production instead.
 
 More generally, let  $P_{C}$  and  $P_{W}$  be the prices of cheese and wine, respectively. It takes  $a_{LC}$  person-hours to produce a pound of cheese; since there are no profits in our one-factor model, the hourly wage in the cheese sector will equal the value of what a worker can produce in an hour,  $P_{C} / a_{LC}$ . Since it takes  $a_{LW}$  person-hours to produce a gallon of wine, the hourly wage rate in the wine sector will be  $P_{W} / a_{LW}$ . Wages in the cheese sector will be higher if  $P_{C} / P_{W} > a_{LC} / a_{LW}$ ; wages in the wine sector will be higher if  $P_{C} / P_{W} < a_{LC} / a_{LW}$ . Because everyone will want to work in whichever industry offers the higher wage, the economy will specialize in the production of cheese if  $P_{C} / P_{W} > a_{LC} / a_{LW}$ . On the other hand, it will specialize in the production of wine if  $P_{C} / P_{W} < a_{LC} / a_{LW}$ . Only when  $P_{C} / P_{W}$  is equal to  $a_{LC} / a_{LW}$  will both goods be produced.
 
@@ -150,13 +160,13 @@ Prices of internationally traded goods, like other prices, are determined by sup
 
 # FIGURE 3-3 World Relative Supply and Demand
 
-The  $RD$  and  $RD^{\prime}$  curves show that the demand for cheese relative to wine is a decreasing function of the price of cheese relative to that of wine, while the RS curve shows that the supply of cheese relative to wine is an increasing function of the same relative price.
+The $RD$ and $RD'$ curves show that the demand for cheese relative to wine is a decreasing function of the price of cheese relative to that of wine, while the RS curve shows that the supply of cheese relative to wine is an increasing function of the same relative price.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/ec4c6acc3b28233211489b751fea4653217c545d6a4a886e368eb449a784b528.jpg)
 
 One useful way to keep track of two markets at once is to focus not just on the quantities of cheese and wine supplied and demanded but also on the relative supply and demand, that is, on the number of pounds of cheese supplied or demanded divided by the number of gallons of wine supplied or demanded.
 
-Figure 3-3 shows world supply and demand for cheese relative to wine as functions of the price of cheese relative to that of wine. The relative demand curve is indicated by  $RD$ ; the relative supply curve is indicated by  $RS$ . World general equilibrium requires that relative supply equal relative demand, and thus the world relative price is determined by the intersection of  $RD$  and  $RS$ .
+Figure 3-3 shows world supply and demand for cheese relative to wine as functions of the price of cheese relative to that of wine. The relative demand curve is indicated by $RD$; the relative supply curve is indicated by $RS$. World general equilibrium requires that relative supply equal relative demand, and thus the world relative price is determined by the intersection of  $RD$  and  $RS$ .
 
 The striking feature of Figure 3-3 is the funny shape of the relative supply curve  $RS$ : It's a "step" with flat sections linked by a vertical section. Once we understand the derivation of the  $RS$  curve, we will be almost home-free in understanding the whole model.
 
@@ -257,9 +267,7 @@ Our discussion of the gains from trade took the form of a "thought experiment" i
 
 Historical examples abound of countries that experimented with nontrade and autarky either fully or partially, either for longer or shorter time periods. Such examples include the Islamic State of Afghanistan under the Taliban rule (1996-2001), the People's Republic of Albania (1976-1991), Myanmar (1962-1988), Cambodia under the Khmer Rouge (1975-1979), Nazi Germany (began four-year Plan in 1936), India (1950-1991), Japan (during "Edo Period" up to 1850s), Guyana under Forbes Burnham (1970-1985), South Africa, partial autarky during Apartheid period, Spain under Franco (1939-1958), the United States under President Jefferson (1807-1809). In all such cases, countries eventually opened up their economies and lifted most trade restrictions.
 
-Spain, under Francisco Franco is a prime example of a country with closed economic borders for 15 years before taking steps to realize the potential benefits of trade and usher the era of the "Spanish Miracle." Spain was embroiled in a bitter Civil War between 1936 and 1939 among the
-
-Republicans and the Nationalists under General Franco, who staged a coup against the leftist government and ultimately established a dictatorship.
+Spain, under Francisco Franco is a prime example of a country with closed economic borders for 15 years before taking steps to realize the potential benefits of trade and usher the era of the "Spanish Miracle." Spain was embroiled in a bitter Civil War between 1936 and 1939 among the Republicans and the Nationalists under General Franco, who staged a coup against the leftist government and ultimately established a dictatorship.
 
 Despite assistance from Nazi Germany and Italy's Mussolini during the Civil War, Spain remained neutral during WWII, but due to its government's origins was shunned by the post war international political and economic order. Spain was left out of the European Recovery Plan (ERP—"Marshall Plan") and was ostracized from numerous European and world organizations and institutions. At the same time, due to the nationalist ideology of Franco, the new regime itself followed a policy of isolation and economic self-reliance that compounded on the economic problems emanating from international ostracism.
 
@@ -405,9 +413,7 @@ The relative derived demand for Home labor will fall when the ratio of Home to F
 
 We can illustrate these two effects using our numerical example as illustrated in Table 3-2. Suppose we start with the following situation: The Home wage is initially 3.5 times the Foreign wage. At that level, Home would produce apples, bananas, and caviar while Foreign would produce dates and enchiladas. If the relative Home wage were to increase from 3.5 to 3.99, the pattern of specialization would not change. However, as the goods produced in Home became relatively more expensive, the relative demand for these goods would decline and the relative demand for Home labor would decline with it.
 
-Suppose now that the relative wage increased slightly from 3.99 to 4.01. This small further growth in the relative Home wage would bring about a shift in the pattern of specialization. Because it is now cheaper to produce caviar in Foreign than in Home, the production of caviar shifts from Home to Foreign. What does this imply for the relative demand for Home labor? Clearly it implies that as the relative wage rises from a little less than 4 to a little more than 4, there is an abrupt drop-off in the relative demand,
-
-as Home production of caviar falls to zero and Foreign acquires a new industry. If the relative wage continues to rise, relative demand for Home labor will gradually decline, then drop off abruptly at a relative wage of 8, at which point production of bananas shifts to Foreign.
+Suppose now that the relative wage increased slightly from 3.99 to 4.01. This small further growth in the relative Home wage would bring about a shift in the pattern of specialization. Because it is now cheaper to produce caviar in Foreign than in Home, the production of caviar shifts from Home to Foreign. What does this imply for the relative demand for Home labor? Clearly it implies that as the relative wage rises from a little less than 4 to a little more than 4, there is an abrupt drop-off in the relative demand, as Home production of caviar falls to zero and Foreign acquires a new industry. If the relative wage continues to rise, relative demand for Home labor will gradually decline, then drop off abruptly at a relative wage of 8, at which point production of bananas shifts to Foreign.
 
 We can illustrate the determination of relative wages with a diagram like Figure 3-5. Unlike Figure 3-3, this diagram does not have relative quantities of goods or relative prices of goods on its axes. Instead it shows the relative quantity of labor and the relative wage rate. The world demand for Home labor relative to its demand for Foreign labor is shown by the curve  $RD$ . The world supply of Home labor relative to Foreign labor is shown by the line  $RS$ .
 
@@ -522,41 +528,6 @@ relative supply curve, p. 57
 relative wage, p. 61
 Ricardian model, p. 52
 unit labor requirement, p. 52
-
-# PROBLEMS
-
-1. Home has 1,200 units of labor available. It can produce two goods, apples and bananas. The unit labor requirement in apple production is 3, while in banana production it is 2.
-
-a. Graph Home's production possibility frontier.
-b. What is the opportunity cost of apples in terms of bananas?
-c. In the absence of trade, what would be the price of apples in terms of bananas? Why?
-
-2. Home is as described in problem 1. There is now also another country, Foreign, with a labor force of 800. Foreign's unit labor requirement in apple production is 5, while in banana production it is 1.
-
-a. Graph Foreign's production possibility frontier.
-b. Construct the world relative supply curve.
-
-3. Now suppose world relative demand takes the following form: Demand for apples/demand for bananas  $=$  price of bananas/price of apples.
-
-a. Graph the relative demand curve along with the relative supply curve.
-b. What is the equilibrium relative price of apples?
-c. Describe the pattern of trade.
-d. Show that both Home and Foreign gain from trade.
-
-4. Suppose in an hour, India and Thailand produce two products—rice and cloth. India produces  $10\mathrm{~kgs}$  of rice and 5 meters of cloth, and Thailand produces  $5\mathrm{~kgs}$  of rice and 2 meters of cloth. Using opportunity costs, explain which country should export cloth and which country should export rice.
-
-5. Suppose Mike and Johnson produce two products—hamburgers and T-shirts. Mike produces 10 hamburgers or 3 T-shirts a day, and Johnson produces 7 hamburgers or 4 T-shirts. Assuming they can devote time to making either hamburgers or T-shirts.
-
-a. Draw the production possibility curve.
-b. Who enjoys the absolute advantage of producing both?
-c. Who has a higher opportunity cost of making T-shirts?
-d. Who has a comparative advantage in producing hamburgers?
-
-6. "It has been all downhill for the West since China entered the world market; we just can't compete with hundreds of millions of people willing to work for almost nothing." Discuss.
-7. In China, local governments are responsible for setting the minimum wages. In the United States, a network of federal laws, state laws, and local laws set the minimum wages. How can this be associated with productivity and transformed into a comparative advantage?
-8. Why do governments set the living standards of the people by setting the minimum wage? (Think about your answer to Problem 7.)
-9. International immobility of resources is compensated by the international flow of goods. Justify the statement.
-10. We have focused on the case of trade involving only two countries. Suppose that there are many countries capable of producing two goods and that each country has only one factor of production, labor. What could we say about the pattern of production and trade in this case? (Hint: Try constructing the world relative supply curve.)
 
 # FURTHER READINGS
 

@@ -1,9 +1,9 @@
 ---
 title: The Credit Crisis: Conjectures about Causes and Remedies
 parent_directory: Class 7-CP, Repo, and the Crisis
-formatted: 2025-12-21 04:44:30 PM
-formatter_model: kimi-k2-turbo
-cli-tool: claude-code
+formatted: 2025-12-21 04:45:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
   - credit crisis causes
   - financial crisis remedies
@@ -30,6 +30,64 @@ What caused the financial crisis that is sweeping across the world? What keeps a
 
 There is some consensus on the proximate causes of the crisis: (i) the US financial sector misallocated resources to real estate, financed through the issuance of exotic new financial instruments; (ii) a significant portion of these instruments found their way, directly or indirectly, into commercial and investment bank balance sheets; (iii) these investments were largely financed with short-term debt. Let us first dig deeper into the more fundamental reasons for these proximate causes.
 
+```d2
+direction: right
+
+originators: Originators {
+  shape: rectangle
+  label: "Mortgage Originators\n(Lenders)"
+}
+
+securitization: Securitization {
+  shape: rectangle
+  label: "Securitization Process"
+}
+
+rating_agencies: Rating Agencies {
+  shape: rectangle
+  label: "Rating Agencies"
+}
+
+investors: Investors {
+  shape: rectangle
+  label: "International Investors"
+}
+
+banks: Banks {
+  shape: rectangle
+  label: "Commercial/Investment Banks"
+}
+
+subprime_loans: Subprime Loans {
+  shape: oval
+  label: "Subprime Mortgage Loans"
+}
+
+mbs: MBS {
+  shape: oval
+  label: "Mortgage-Backed Securities\n(MBS)"
+}
+
+aaa_tranches: AAA Tranches {
+  shape: oval
+  label: "AAA-Rated Tranches"
+}
+
+risky_tranches: Risky Tranches {
+  shape: oval
+  label: "Risky Tranches\n(Mezzanine/Equity)"
+}
+
+originators -> subprime_loans: "Issue loans to borrowers"
+subprime_loans -> securitization: "Bundle into packages"
+securitization -> mbs: "Create MBS tranches"
+mbs -> rating_agencies: "Rate securities"
+rating_agencies -> aaa_tranches: "AAA ratings for safe portions"
+rating_agencies -> risky_tranches: "Lower ratings for riskier portions"
+aaa_tranches -> investors: "Sold to international investors"
+risky_tranches -> banks: "Held by banks as 'worthwhile investments'"
+```
+
 ## I. Misallocation of Investment
 
 This is a crisis born in some ways of previous financial crises, which swept through the emerging markets in the late 1990s: East Asian economies collapsed, Russia defaulted, and Argentina, Brazil, and Turkey faced severe stress. In response to these crises, emerging markets became far more circumspect about borrowing from abroad. Their corporations, governments, and households cut back on investment and reduced consumption. From net absorbers of financial capital from the rest of the world, a number of these countries became net exporters of financial capital.
@@ -46,9 +104,7 @@ The United States was not by any means the highest in terms of price growth. Hou
 
 It is very difficult for an international investor to hold a home mortgage loan directly because it requires servicing, is of uncertain credit quality, and has a higher propensity to default than an arm's-length conservative investor feels comfortable with. Securitization dealt with some of these concerns. If the mortgage was packaged together with mortgages from other areas, diversification would reduce the risk. Furthermore, the riskiest claims against the package could be sold to those who had the capacity to evaluate them and an appetite for bearing the risk, while the safest AAA-rated portions could be held by international investors. Indeed, because of the demand from international investors for AAA paper, securitization became focused on squeezing out the most AAA paper from an underlying package of mortgages (see Efraim Benmelech and Jennifer Dlugosz 2008); the lower quality securities issued against the initial package of mortgages were packaged together with similar securities from other packages, and a new range of securities, including a large quantity rated AAA, was issued by this "collateralized debt obligation."
 
-The "originate-to-securitize" process had unintended consequences. Because rating agencies were at a distance from the homeowner,
-
-they could process only hard information such as the credit score of the homeowner and the loan-to-value ratio, and perforce had to ignore the detailed soft information that loan officers collected in assessing borrower creditworthiness (see Uday Rajan, Amit Seru, and Vikrant Vig 2008). In turn, this meant originators stopped collecting this useful information, and focused instead only on ensuring borrowers had good credit scores and observable low loan-to-value ratios. Of course, originators could not completely ignore the true quality of borrowers since they would be responsible for initial defaults, but because house prices were rising steadily over this period, even this source of discipline weakened; the house price rise would give the homeowner the "equity" with which he could finance loan repayment.
+The "originate-to-securitize" process had unintended consequences. Because rating agencies were at a distance from the homeowner, they could process only hard information such as the credit score of the homeowner and the loan-to-value ratio, and perforce had to ignore the detailed soft information that loan officers collected in assessing borrower creditworthiness (see Uday Rajan, Amit Seru, and Vikrant Vig 2008). In turn, this meant originators stopped collecting this useful information, and focused instead only on ensuring borrowers had good credit scores and observable low loan-to-value ratios. Of course, originators could not completely ignore the true quality of borrowers since they would be responsible for initial defaults, but because house prices were rising steadily over this period, even this source of discipline weakened; the house price rise would give the homeowner the "equity" with which he could finance loan repayment.
 
 Moreover, the slicing and dicing through repeated securitization of the original package of mortgages created very complicated securities. The problems in valuing these securities were not obvious when house prices were rising and defaults were few. But as the house prices stopped rising and defaults started increasing, the valuation of these securities became very complicated.
 
@@ -74,6 +130,59 @@ to write insurance on infrequent events such as defaults, taking on what is term
 
 This is not to say that risk managers in a bank are unaware of such incentives. However, they may be unable to fully control them, because tail risks are by nature rare, and therefore hard to quantify with precision before they occur. While they could try to impose crude limits on the activities of the traders taking maximum risk, these traders are likely to have been very profitable (before the risk actually is realized), and such actions are unlikely to sit well with a top management that is being pressured for profits.
 
+```d2
+direction: down
+
+root_causes: Root Causes {
+  shape: hexagon
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
+
+emerging_market_crises: Emerging Market Crises {
+  shape: rectangle
+  label: "Late 1990s Emerging Market Crises\n(East Asia, Russia, Argentina, etc.)"
+}
+
+capital_flows: Capital Flows Shift {
+  shape: rectangle
+  label: "Emerging Markets Become\nNet Exporters of Capital"
+}
+
+industrial_absorption: Industrial Absorption {
+  shape: rectangle
+  label: "Industrial Countries Absorb Savings\n(IT Investment Boom)"
+}
+
+it_bubble_burst: IT Bubble Burst {
+  shape: rectangle
+  label: "2000 IT Bubble Collapse"
+}
+
+monetary_policy: Accommodative Monetary Policy {
+  shape: rectangle
+  label: "Fed Low Interest Rates\n('Greenspan Put')"
+}
+
+housing_boom: Housing Boom {
+  shape: rectangle
+  label: "US Housing Price Boom"
+}
+
+securitization_innovation: Securitization Innovation {
+  shape: rectangle
+  label: "US Securitizes Subprime Loans"
+}
+
+root_causes -> emerging_market_crises
+emerging_market_crises -> capital_flows
+capital_flows -> industrial_absorption
+industrial_absorption -> it_bubble_burst
+it_bubble_burst -> monetary_policy
+monetary_policy -> housing_boom
+housing_boom -> securitization_innovation
+```
+
 ## III. Short-Term Debt
 
 Given the complexity of bank risk-taking, and the potential breakdown in internal control processes, investors would have demanded a very high premium for financing the bank long term. By contrast, they would have been far more willing to hold short-term claims on the bank, since that would give them the option to exit—or get a higher premium—if the bank appeared to be getting into trouble. So, investors would have demanded lower premia for holding short-term secured debt in light of potential agency problems at banks (as shown in Diamond and Rajan 2001).
@@ -88,9 +197,7 @@ The more general point is that in good times, short-term debt seems relatively c
 
 Given the proximate causes of high bank holdings of mortgage-backed securities (as well as other risky loans, such as those to private equity), financed with a capital structure heavy on short-term debt, the crisis had a certain degree of inevitability. As house prices stopped rising, and indeed started falling, mortgage defaults started increasing. MBS fell in value, became more difficult to price, and their prices became more volatile. They became hard to borrow against, even short term. Banks became illiquid, the canonical example being Bear Stearns, which was taken over by JP Morgan in March of 2008.
 
-The Federal Reserve opened new facilities that allowed banks to borrow against illiquid positions. But as more banks tried to sell out of their positions, prices plummeted further, and concerns about illiquidity turned to potential insolvency—despite being able to borrow against the full value of their illiquid assets—there was now not enough asset value to offset the liabilities. Bank runs started, with the bankruptcy of Lehman Brothers the trigger for a worldwide
-
-panic. Interbank lending froze up, with banks resuming lending to one another overnight only after a variety of interventions by central banks and finance ministries, including guarantees of bank debt and bank recapitalizations. But, even well-capitalized banks still seem unwilling to lend.
+The Federal Reserve opened new facilities that allowed banks to borrow against illiquid positions. But as more banks tried to sell out of their positions, prices plummeted further, and concerns about illiquidity turned to potential insolvency—despite being able to borrow against the full value of their illiquid assets—there was now not enough asset value to offset the liabilities. Bank runs started, with the bankruptcy of Lehman Brothers the trigger for a worldwide panic. Interbank lending froze up, with banks resuming lending to one another overnight only after a variety of interventions by central banks and finance ministries, including guarantees of bank debt and bank recapitalizations. But, even well-capitalized banks still seem unwilling to lend.
 
 ## V. The Credit Crunch
 
@@ -111,6 +218,67 @@ There are three possible ways the overhang can be reduced. First, the authoritie
 A second approach is for the government to ensure the stability of significant parts of the financial system that holds illiquid assets through the recapitalization of entities that have a realistic possibility of survival, and the merger or closure of those that do not. For those entities that are closed down, this will mean moving illiquid assets into a holding entity that will dispose of them slowly over time. One issue here is that in order to be successful in avoiding future fire sales, the authorities might decide that they also have to intervene in institutions in the unregulated "shadow" financial system. Not only will this create political difficulties if these interventions provide subsidies (the public appetite for a bailout of hedge funds is rightly small), interventions without subsidies could result in legal difficulties as the authorities are sued by any claimholder who argues he is made worse off by the intervention.
 
 The third approach is some mix of the first two, where the authorities buy illiquid assets, even while cleaning up the regulated financial sector, focusing particularly on resolving entities that are likely to become distressed. Note that this differs substantially from the current approach where well-capitalized entities are given even more capital; while the current approach certainly prevents them from unloading illiquid assets on the market, it does not deal with the overhang of illiquid assets that more distressed entities hold. Unless those entities fail or are forcibly taken over, those illiquid assets are not going to make their way on to the balance sheets of well-capitalized banks, allowing the overhang of illiquid assets to persist, and forcing lending to be subdued until the distressed entities actually fail.
+
+```d2
+direction: right
+
+current_situation: Current Situation {
+  shape: rectangle
+  label: "Credit Crunch:\nBanks Unwilling to Lend"
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
+
+illiquid_assets: Illiquid Assets Overhang {
+  shape: oval
+  label: "Illiquid Assets on\nDistressed Bank Balance Sheets"
+}
+
+fire_sale_fears: Fire Sale Fears {
+  shape: oval
+  label: "Fear of Future\nFire Sales Depressing Prices"
+}
+
+remedy_1: Government Asset Purchase {
+  shape: rectangle
+  label: "Remedy 1:\nGovernment Buys Illiquid Assets\n(TARP-like Program)"
+  style.fill: "#e8f5e9"
+  style.stroke: "#2e7d32"
+}
+
+remedy_2: Recapitalization & Resolution {
+  shape: rectangle
+  label: "Remedy 2:\nRecapitalize Viable Entities,\nClose/Merge Non-Viable Ones"
+  style.fill: "#e3f2fd"
+  style.stroke: "#1565c0"
+}
+
+remedy_3: Mixed Approach {
+  shape: rectangle
+  label: "Remedy 3:\nAsset Purchases +\nSector Cleanup"
+  style.fill: "#fff3e0"
+  style.stroke: "#e65100"
+}
+
+price_increase: Price Increase {
+  shape: oval
+  label: "Asset Prices Rise,\nReducing Fire Sale Risk"
+}
+
+lending_resumption: Lending Resumption {
+  shape: oval
+  label: "Banks Resume Lending"
+}
+
+current_situation -> illiquid_assets
+current_situation -> fire_sale_fears
+
+remedy_1 -> price_increase: "Raises prices today"
+remedy_2 -> price_increase: "Removes overhang"
+remedy_3 -> price_increase: "Combined effect"
+
+price_increase -> lending_resumption
+```
 
 We have offered some conjectures on the causes of the crisis and suggested some potential remedies to the current credit crunch. Time will certainly offer more data allowing us to sharpen these views.
 
