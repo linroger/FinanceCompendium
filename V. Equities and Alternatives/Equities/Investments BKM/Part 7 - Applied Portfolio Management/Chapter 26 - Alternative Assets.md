@@ -142,8 +142,6 @@ straight bond plus a call option on the underlying stock; the market-neutral str
 
 Although these market-neutral positions are hedged, they are not risk-free arbitrage strategies. Rather, they should be viewed as pure plays, that is, bets on particular (perceived) mispricing between two sectors or securities, with extraneous sources of risk such as general market exposure hedged away. Moreover, because the funds often operate with considerable leverage, returns can be quite volatile. While traditional asset classes diversify away idiosyncratic risk, hedge funds embrace it to drive abnormal returns while still eliminating systematic risk.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/6361c75c-7c74-4d6c-888c-4b31d441c5ca/a64f8fd0d4483bbe9f3880e3f5407be8e9afb9d318e2725f2699f1bb1e15a34b.jpg)
-
 # Concept Check 26.1
 
 Classify each of the following strategies of a hypothetical hedge fund as directional or nondirectional.

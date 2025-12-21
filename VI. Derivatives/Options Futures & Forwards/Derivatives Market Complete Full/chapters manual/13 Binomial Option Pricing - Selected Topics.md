@@ -1,9 +1,26 @@
 ---
-title: "Chapter 13 - Binomial Option Pricing: Selected Topics"
-aliases:
-  - Binomial Option Pricing - Selected Topics
-  - Early Exercise
+title: "Binomial Option Pricing: Selected Topics"
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:20:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: opencode
+primary_tags:
+  - binomial option pricing
+  - risk neutral valuation
+  - early exercise decisions
+  - lognormal distribution
+  - discrete dividends
+secondary_tags:
+  - option pricing models
+  - binomial trees
+  - volatility modeling
+  - stochastic processes
+  - dividend pricing
+  - financial derivatives
+  - option valuation
+  - continuous time finance
+  - martingale pricing
+  - forward pricing
 cssclasses: academia
 ---
 
@@ -31,7 +48,7 @@ From Chapter 11 of Derivatives Markets, Third Edition, Robert McDonald. Copyrigh
 - Pays the strike price prior to expiration (this has an interest cost).
 - Losses the insurance implicit in the call. By holding the call instead of exercising, the option holder is protected against the possibility that the stock price will be less than the strike price at expiration. Once the option is exercised, this protection no longer exists.
 
-Consider an example where a call option has a strike price of  \$100, the interest rate is 5\%$ , and the stock pays continuous dividends of  $5\%$ . If the stock price is 200, the net effect of dividends and interest encourages early exercise. Annual dividends are approximately  $5\%$  of \$200, or  $0.05 \times$ 200 = \$10. The annual interest saved by deferring exercise is approximately  $0.05 \times$ 100 = \$5. Thus, for a stock price of \$200 (indeed, for any stock price above 100) dividends lost by not exercising exceed interest saved by deferring exercise.
+Consider an example where a call option has a strike price of \$100, the interest rate is $5\%$, and the stock pays continuous dividends of $5\%$. If the stock price is 200, the net effect of dividends and interest encourages early exercise. Annual dividends are approximately $5\%$ of \$200, or $0.05 \times 200 = \$10$. The annual interest saved by deferring exercise is approximately $0.05 \times 100 = \$5$. Thus, for a stock price of \$200 (indeed, for any stock price above 100) dividends lost by not exercising exceed interest saved by deferring exercise.
 
 The only reason in this case not to exercise early is the implicit insurance the option owner loses by exercising. This implicit insurance arises from the fact that the option holder could exercise and then the stock price could fall below the strike price of 100. Leaving the option unexercised protects against this scenario. The early-exercise calculation for a call therefore implicitly weighs dividends, which encourage early exercise, against interest and insurance, which discourage early exercise.
 
@@ -50,9 +67,9 @@ In the special case when  $r = \delta$  and  $\sigma = 0$ , any in-the-money opt
 
 The decision to exercise is more complicated when volatility is positive. In this case the implicit insurance has value that varies with time to expiration. Figure 1 displays the price above which early exercise is optimal for a 5-year option with  $K = \100$ ,  $r = 5\%$ , and  $\delta = 5\%$ , for three different volatilities, computed using 500 binomial steps. If it is optimal to exercise a call at a given stock price, then it is optimal to exercise at all higher stock prices. Figure 1 thus shows the lowest stock price at which exercise is optimal. The oscillation in this lowest price, which is evident in the figure, is due to the up and down binomial movements that approximate the behavior of the stock; with an infinite number of binomial steps, the early-exercise schedule would be smooth and continuously decreasing. Comparing the three lines, we observe a significant volatility effect. A 5-year option with a volatility of  $50\%$  should only be exercised if the stock price exceeds about  $\$ 360 . If volatility is  $10\%$ , the boundary drops to  $\$130$ . This volatility effect stems from the fact that the insurance value lost by early-exercising is greater when volatility is greater.
 
-Figure 2 performs the same experiment for put options with the same inputs. The picture is similar, as is the logic: The advantage of early exercise is receiving the strike
+Figure 2 performs the same experiment for put options with the same inputs. The picture is similar, as is the logic: The advantage of early exercise is receiving the strike price sooner rather than later. The disadvantages are the dividends lost by giving up the stock, and the loss of insurance against the stock price exceeding the strike price.
 
-# FIGURE I
+# FIGURE 1
 
 Early-exercise boundaries for volatilities of 10\%, 30\%, and 50\% for a 5-year American call option. In all cases, K = \100, r = 5\%, \text{and} \delta = 5\%
 
@@ -62,7 +79,7 @@ Early-exercise boundaries for volatilities of 10\%, 30\%, and 50\% for a 5-year 
 
 Early-exercise boundaries for volatilities of 10\%, 30\%, and 50\% for a 5-year American put option. In all cases, K = \100, r = 5\% and \delta = 5\%.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/79d936449c470cf3717d5c332405757cc7f8a72735615860299abf1a741a4dd9.jpg) price sooner rather than later. The disadvantages are the dividends lost by giving up the stock, and the loss of insurance against the stock price exceeding the strike price.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/79d936449c470cf3717d5c332405757cc7f8a72735615860299abf1a741a4dd9.jpg)
 
 Figures 1 and 2 also show that, other things equal, early-exercise criteria become less stringent closer to expiration. This occurs because the value of insurance diminishes as the options approach expiration.
 
@@ -88,7 +105,7 @@ In this section we explain why  $p^*$  is called the risk-neutral probability an
 
 The idea that an option price is the result of a present value calculation is reassuring, but at the same time equation (1) is puzzling. A standard discounted cash flow calculation would require computing an expected value using the true probability that the stock price would go up. Discounting would then be done using the expected return on an asset of equivalent risk, not the risk-free rate.
 
-It is common in finance to emphasize that investors are risk averse. To see what risk aversion means, suppose you are offered either (a)  \$1000, or (b)\$ 2000 with probability 0.5, and 0 with probability 0.5. A risk-averse investor prefers (a), since alternative (b) is risky and has the same expected value as (a). This kind of investor will require a premium to bear risk when expected values are equal.
+It is common in finance to emphasize that investors are risk averse. To see what risk aversion means, suppose you are offered either (a) \$1000, or (b) \$2000 with probability 0.5, and 0 with probability 0.5. A risk-averse investor prefers (a), since alternative (b) is risky and has the same expected value as (a). This kind of investor will require a premium to bear risk when expected values are equal.
 
 A risk-neutral investor is indifferent between a sure thing and a risky bet with an expected payoff equal to the value of the sure thing. A risk-neutral investor, for example, will be equally happy with alternative (a) or (b).
 
@@ -101,7 +118,7 @@ $$
 
 Solving for  $p^*$  gives us equation (2), which is why we refer to  $p^*$  as the risk-neutral probability that the stock price will go up. It is the probability that the stock price would increase in a risk-neutral world.
 
-Not only would the risk-neutral probability, equation (2), be used in a risk-neutral world, but also all discounting would take place at the risk-free rate. Thus, the option pricing formula, equation (1), can be said to price options as if investors are risk-neutral. Ous, It is important to note that we are not assuming that investors are actually risk-neutral, and we are not assuming that risky assets are actually expected to earn the risk-free rate of return. Rather, risk-neutral pricing is an interpretation of the formulas above. Those formulas in turn arise from finding the cost of the portfolio that replicates the option payoff.
+Not only would the risk-neutral probability, equation (2), be used in a risk-neutral world, but also all discounting would take place at the risk-free rate. Thus, the option pricing formula, equation (1), can be said to price options as if investors are risk-neutral. Thus, it is important to note that we are not assuming that investors are actually risk-neutral, and we are not assuming that risky assets are actually expected to earn the risk-free rate of return. Rather, risk-neutral pricing is an interpretation of the formulas above. Those formulas in turn arise from finding the cost of the portfolio that replicates the option payoff.
 
 This interpretation of the option-pricing procedure has great practical importance; risk-neutral pricing can sometimes be used where other pricing methods are too difficult. Risk-neutral pricing is the basis for Monte Carlo valuation, in which asset prices are simulated under the assumption that assets earn the risk-free rate, and these simulated prices are used to value the option.
 
@@ -109,7 +126,7 @@ This interpretation of the option-pricing procedure has great practical importan
 
 We are left with this question: Is option pricing consistent with standard discounted cash flow calculations? The answer is yes. We can use the true distribution for the future stock price in computing the expected payoff to the option. This expected payoff can then be discounted with a rate based on the stock's required return.
 
-Discounted cash flow is not used in practice to price options because there is no reason to do so: However, we present two examples of valuing an option using real probabilities to see the difficulty in using real probabilities, and also to understand how to determine the risk of an option.
+Discounted cash flow is not used in practice to price options because there is no reason to do so. However, we present two examples of valuing an option using real probabilities to see the difficulty in using real probabilities, and also to understand how to determine the risk of an option.
 
 Suppose that the continuously compounded expected return on the stock is  $\alpha$  and that the stock does not pay dividends. Then if  $p$  is the true probability of the stock going up,  $p$  must be consistent with  $u$ ,  $d$ , and  $\alpha$ :
 
@@ -142,39 +159,38 @@ It turns out that this gives us the same option price as performing the risk-neu
 
 The calculations leading to equation (7) started with the assumption that the expected return on the stock is  $\alpha$ . We then derived a consistent probability,  $p$ , and discount rate for the option,  $\gamma$ . You may be wondering if it matters whether we have the "correct" value of  $\alpha$  to start with. The answer is that it does not matter: Any consistent pair of  $\alpha$  and  $\gamma$  will give the same option price. Risk-neutral pricing is valuable because setting  $\alpha = r$  results in the simplest pricing procedure.
 
-A One-Period Example. To see how to value an option using true probabilities, we will compute two examples. First, consider the one-period binomial example in Figure 3. Suppose that the continuously compounded expected return on XYZ is  $\alpha = 15\%$ . Then the true probability of the stock going up, from equation (4), is
+A One-Period Example. To see how to value an option using true probabilities, we will compute two examples. First, consider the one-period binomial example in Figure 3. Suppose that the continuously compounded expected return on XYZ is $\alpha = 15\%$. Then the true probability of the stock going up, from equation (4), is
 
-$$ p = \frac {e ^ {0 . 1 5} - 0 . 8 0 2 5}{1 . 4 6 2 3 - 0 . 8 0 2 5} = 0. 5 4 4 6
+$$ p = \frac {e ^ {0.15} - 0.8025}{1.4623 - 0.8025} = 0.5446
 $$
 
 The expected payoff to the option in one period, from equation (5), is
 
 $$
-0. 5 4 4 6 \times \$ 1 9. 9 5 4 + (1 - 0. 5 4 4 6) \times \$ 0 = \$ 1 0. 8 6 7
+0.5446 \times \$19.954 + (1 - 0.5446) \times \$0 = \$10.867
 $$
 
-The replicating portfolio,  $\Delta$  and  $B$ , does not depend on  $p$  or  $\alpha$ . In this example,  $\Delta = 0.738$  and  $B = -\$22.405$ . The discount rate,  $\gamma$ , from equation (6) is given by
+The replicating portfolio, $\Delta$ and $B$, does not depend on $p$ or $\alpha$. In this example, $\Delta = 0.738$ and $B = -\$22.405$. The discount rate, $\gamma$, from equation (6) is given by
 
 $$
-\begin{array}{l} e ^ {\gamma h} = \frac {0 . 7 3 8 \times \$ 4 1}{0 . 7 3 8 \times \$ 4 1 - \$ 2 2 . 4 0 5} e ^ {0. 1 5} + \frac {- \$ 2 2 . 4 0 5}{0 . 7 3 8 \times \$ 4 1 - \$ 2 2 . 4 0 5} e ^ {0. 0 8} \\ = 1. 3 8 6 \\ \end{array}
+\begin{array}{l} e ^ {\gamma h} = \frac {0.738 \times \$41}{0.738 \times \$41 - \$22.405} e ^ {0.15} + \frac {-\$22.405}{0.738 \times \$41 - \$22.405} e ^ {0.08} \\ = 1.386 \\ \end{array}
 $$
 
 # FIGURE 3
 
 Binomial tree for pricing a European call option;
 
-assumes  S = \41.00, K =  \ 41.00
+assumes S = \$41.00, K = \$41.00,
 
-40.00, σ = 0.30, r = 0.08,
+σ = 0.30, r = 0.08,
 
-$T = 1.00$  years,  $\delta = 0.00$ and  $h = 1.000$
+T = 1.00 years, δ = 0.00 and h = 1.000
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/720aa2e8747e925fb773cdf542fa85e5d05075e1dd100886526365ae1e0422eb.jpg)
 
-Thus,  $\gamma = \ln (1.386) = 32.64\%$ . The option price is then given by equation (7):
+Thus, $\gamma = \ln (1.386) = 32.64\%$. The option price is then given by equation (7):
 
-$$ e ^ {- 0. 3 2 6 4} \times \$ 1 0. 8 6 7 = \$ 7. 8 3 9
-
+$$ e ^ {-0.3264} \times \$10.867 = \$7.839
 $$
 
 This is exactly the price we obtained before.
@@ -185,33 +201,32 @@ A Multi-Period Example. To demonstrate that this method of valuation works over 
 
 $$
 
-\frac {e ^ {0 . 1 5 \times 1 / 3} - 0 . 8 6 3 7}{1 . 2 2 1 2 - 0 . 8 6 3 7} = 0. 5 2 4 7
+\frac {e ^ {0.15 \times 1 / 3} - 0.8637}{1.2212 - 0.8637} = 0.5247
 
 $$
 
 To compute the price at the node where the stock price is 61.149, we discount the expected option price the next period at 26.9\%. This gives
 
-$$ e ^ {- 0. 2 6 9 \times 1 / 3} \left[ 0. 5 2 4 7 \times \\ (3 4. 6 7 8 + (1 - 0. 5 2 4 7) \times \\ \\ (1 2. 8 1 4 ] = \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \end{array} \right]
+$$ e ^ {-0.269 \times 1 / 3} \left[ 0.5247 \times 34.678 + (1 - 0.5247) \times 12.814 \right] = 22.202
 $$
 
 When the stock price is 43.246, the discount rate is 49.5\%, and the option price is
 
-$$ e ^ {- 0. 4 9 5 \times 1 / 3} \left[ 0. 5 2 4 7 \times \$ 1 2. 8 1 4 + (1 - 0. 5 2 4 7) \times \$ 0 \right] = \$ 5. 7 0 0
-
+$$ e ^ {-0.495 \times 1 / 3} \left[ 0.5247 \times \$12.814 + (1 - 0.5247) \times \$0 \right] = \$5.700
 $$
 
 # FIGURE 4
 
-Binomial tree for pricing an American call option; assumes  $S = \$ 41.00 ,  $K = \40.00$ ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $T = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . The continuously compounded true expected return on the stock,  $\alpha$ , is  $15\%$ . At each node the stock price, option price, and continuously compounded true discount rate for the option,  $\gamma$ , are given. Option price in bold italic signify that exercise is optimal at that node.
+Binomial tree for pricing an American call option; assumes S = \$41.00, K = \$40.00, σ = 0.30, r = 0.08, T = 1.00 years, δ = 0.00, and h = 0.333. The continuously compounded true expected return on the stock, α, is 15\%. At each node the stock price, option price, and continuously compounded true discount rate for the option, γ, are given. Option price in bold italic signify that exercise is optimal at that node.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/facfb945a9727cf63e994354319aa8479728334c5fb9f0d3c9b9cba981cbcdea.jpg)
 
 We work back through the tree. To compute the price at the node where the stock price is 50.071, we discount the expected option price the next period at 32.3\%. Thus,
 
-$$ e ^ {- 0. 3 2 3 \times 1 / 3} \left[ 0. 5 2 4 7 \times \$ 2 2. 2 0 2 + (1 - 0. 5 2 4 7) \times \$ 5. 7 0 0 \right] = \$ 1 2. 8 8 9
+$$ e ^ {-0.323 \times 1 / 3} \left[ 0.5247 \times \$22.202 + (1 - 0.5247) \times \$5.700 \right] = \$12.889
 $$
 
-The actual discount rate for the option changes as we move down the tree at a point in time and also over time. The required return on the option is less when the stock price is  \$61.149 (26.9\%) than when it is\$ 43.246 (49.5\%). The discount rate increases as the stock price decreases because the option is equivalent to a leveraged position in the stock, and the degree of leverage increases as the option moves out of the money.
+The actual discount rate for the option changes as we move down the tree at a point in time and also over time. The required return on the option is less when the stock price is \$61.149 (26.9\%) than when it is \$43.246 (49.5\%). The discount rate increases as the stock price decreases because the option is equivalent to a leveraged position in the stock, and the degree of leverage increases as the option moves out of the money.
 
 These examples illustrate that it is possible to obtain option prices using standard discounted-cash-flow techniques. Generally, however, there is no reason to do so. Moreover, the fact that risk-neutral pricing works means that it is not necessary to estimate  $\alpha$ , the expected return on the stock, when pricing an option. Since expected returns are hard to estimate precisely, this makes option pricing a great deal easier.
 
@@ -231,7 +246,7 @@ $$
 Z _ {n} = \sum_ {i = 1} ^ {n} Y _ {i} \tag {8}
 $$
 
-It turns out that the more times we flip, on average, the farther we will move from where we start. We can understand intuitively why with more flips the average distance from the starting point increases. Think about the first flip and imagine you get a head. You move to  $+1$ , and as far as the remaining flips are concerned, this is your new starting point. After the second flip, you will either be at 0 or  $+2$ . If you are at zero, it is as if you started over; however, if you are at  $+2$ , you are starting at  $+2$ . Continuing in this way, your average distance from the starting point increases with the number of flips.²
+It turns out that the more times we flip, on average, the farther we will move from where we start. We can understand intuitively why with more flips the average distance from the starting point increases. Think about the first flip and imagine you get a head. You move to +1, and as far as the remaining flips are concerned, this is your new starting point. After the second flip, you will either be at 0 or +2. If you are at zero, it is as if you started over; however, if you are at +2, you are starting at +2. Continuing in this way, your average distance from the starting point increases with the number of flips.
 
 Another way to represent the process followed by  $Z_{n}$  is in terms of the change in  $Z_{n}$ :
 
@@ -242,11 +257,11 @@ $$
 We can rewrite this more explicitly as
 
 $$
-\text {H e a d s :} \quad Z _ {n} - Z _ {n - 1} = + 1 \tag {9}
+\text{Heads:} \quad Z _ {n} - Z _ {n - 1} = + 1 \tag {9}
 $$
 
 $$
-\text {T a i l s :} \quad Z _ {n} - Z _ {n - 1} = - 1 \tag {10}
+\text{Tails:} \quad Z _ {n} - Z _ {n - 1} = - 1 \tag {10}
 $$
 
 With heads, the change in  $Z$  is 1, and with tails, the change in  $Z$  is -1. This random walk is illustrated in Figure 5.
@@ -255,10 +270,10 @@ The idea that asset prices should follow a random walk was articulated in Samuel
 
 # Modeling Stock Prices as a Random Walk
 
-The idea that stock prices move up or down randomly makes sense; however, the description of a random walk in the previous section is not a satisfactory description of stock price movements. Suppose we take the random walk model in Figure 5 literally. Assume the beginning stock price is  \$100, and the stock price will move up or down\$ 1 each time we flip the coin. There are at least three problems with this model:
+The idea that stock prices move up or down randomly makes sense; however, the description of a random walk in the previous section is not a satisfactory description of stock price movements. Suppose we take the random walk model in Figure 5 literally. Assume the beginning stock price is \$100, and the stock price will move up or down \$1 each time we flip the coin. There are at least three problems with this model:
 
 1. If by chance we get enough cumulative down movements, the stock price will become negative. Because stockholders have limited liability (they can walk away from a bankrupt firm), a stock price will never be negative.
- 2. The magnitude of the move (\$1) should depend upon how quickly the coin flips occur and the level of the stock price. If we flip coins once a second, \$1 moves are excessive; in real life, a \$100 stock will not typically have 60 \$1 up or down movements in 1 minute. Also, if a \$1 move is appropriate for a \$100 stock, it likely isn't appropriate for a 5 stock.
+2. The magnitude of the move (\$1) should depend upon how quickly the coin flips occur and the level of the stock price. If we flip coins once a second, \$1 moves are excessive; in real life, a \$100 stock will not typically have 60 \$1 up or down movements in 1 minute. Also, if a \$1 move is appropriate for a \$100 stock, it likely isn't appropriate for a \$5 stock.
 3. The stock on average should have a positive return. The random walk model taken literally does not permit this.
 
 # FIGURE 5
@@ -290,8 +305,8 @@ Since  $\ln (S_{t + h} / S_t)$  is the continuously compounded return from  $t$ 
 Let's see how equation (11) solves the three problems in the random walk discussed earlier:
 
 1. The stock price cannot become negative. Even if we move down the binomial tree many times in a row, the resulting large, negative, continuously compounded return will give us a positive price.
- 2. As stock price moves occur more frequently, h gets smaller, therefore up and down moves get smaller. By construction, annual volatility is the same no matter how many binomial periods there are. Since returns follow a random walk, the percentage price change is the same whether the stock price is \$100 or \$5.
-3. There is a  $(r - \delta)h$  term, and we can choose the probability of an up move, so we can guarantee that the expected change in the stock price is positive.
+2. As stock price moves occur more frequently, h gets smaller, therefore up and down moves get smaller. By construction, annual volatility is the same no matter how many binomial periods there are. Since returns follow a random walk, the percentage price change is the same whether the stock price is \$100 or \$5.
+3. There is a $(r - \delta)h$ term, and we can choose the probability of an up move, so we can guarantee that the expected change in the stock price is positive.
 
 The bottom panel of Figure 5 illustrates the stock price that results when the continuously compounded return follows equation (11). The figure is one particular path through a 10,000-step binomial tree, with the path generated by the same sequence of coin flips as in the top panel of Figure 5.
 
@@ -322,24 +337,15 @@ We can take the probabilities and outcomes from the binomial tree and plot them 
 Suppose that a binomial tree has  $n$  periods and the risk-neutral probability of an up move is  $p^*$ . To reach the top node, we must go up  $n$  times in a row, which occurs with a probability of  $(p^*)^n$ . The price at the top node is  $Su^n$ . There is only one path through the tree by which we can reach the top node. To reach the first node below the top node, we must go up  $n - 1$  times and down once, for a probability of  $(p^*)^{n - 1} \times (1 - p^*)$ . The price at that node is  $Su^{n - 1}d$ . Since the single down move can occur in any of the  $n$  periods, there are  $n$  ways this can happen. The probability of reaching the  $i$ th node below the top is  $(p^*)^{n - i} \times (1 - p^*)^i$ . The price at this node is  $Su^{n - i}d^i$ . The number of ways to reach this node is
 
 $$
-\text {N u m b e r o f w a y s t o r e a c h} i \text {t h n o d e} = \frac {n !}{(n - i) ! i !} = \binom {n} {i}
-$$ where  $n! = n\times (n - 1)\times \dots \times 1$
+\text{Number of ways to reach} i \text{th node} = \frac {n !}{(n - i) ! i !} = \binom {n} {i}
+$$ where $n! = n\times (n - 1)\times \dots \times 1$
 
 
-We can construct the implied probability distribution in the binomial tree by plotting the stock price at each final period node,  $Su^{n - i}d^i$ , against the probability of reaching that
-
-# FIGURE 8
-
-Comparison of lognormal distribution with 25-period binomial approximation.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/873121506ff18203a2b789f8ac45454c6a840055ce19afd9f4c4ec8bbab8f408.jpg)
-Lognormal Probability
-Binomial Probability node. The probability of reaching any given node is the probability of one path reaching that node times the number of paths reaching that node:
-
+We can construct the implied probability distribution in the binomial tree by plotting the stock price at each final period node, $Su^{n - i}d^i$, against the probability of reaching that node. The probability of reaching any given node is the probability of one path reaching that node times the number of paths reaching that node:
 
 $$
 
-\text {P r o b a b i l i t y} i \text {t h n o d e} = p ^ {* n - i} \left(1 - p ^ {*}\right) ^ {i} \frac {n !}{(n - i) ! i !} \tag {12}
+\text{Probability of} i \text{th node} = p ^ {* n - i} \left(1 - p ^ {*}\right) ^ {i} \frac {n !}{(n - i) ! i !} \tag {12}
 
 $$
 
@@ -363,10 +369,10 @@ The Cox-Ross-Rubinstein approach is often used in practice. A problem with this 
 
 The Lognormal Tree. Another alternative is to construct the tree using
 
-$$ u = e ^ {(r - \delta - 0. 5 \sigma^ {2}) h + \sigma \sqrt {h}} \tag {14}
+$$ u = e ^ {(r - \delta - 0.5 \sigma^ {2}) h + \sigma \sqrt {h}} \tag {14}
 $$
 
-$$ d = e ^ {(r - \delta - 0. 5 \sigma^ {2}) h - \sigma \sqrt {h}}
+$$ d = e ^ {(r - \delta - 0.5 \sigma^ {2}) h - \sigma \sqrt {h}}
 $$
 
 This procedure for generating a tree was proposed by Jarrow and Rudd (1983) and is sometimes called the Jarrow-Rudd binomial model.
@@ -444,11 +450,11 @@ Figure 9, in which a dividend with a period-2 value of 5 is paid between periods
 To see how the tree is constructed, period-1 prices are
 
 $$
-\$ 41 e ^ {0. 0 8 \times 1 / 3 + 0. 3 \times \sqrt {1 / 3}} = \$ 5 0. 0 7 1
+\$41 e ^ {0.08 \times 1 / 3 + 0.3 \times \sqrt {1 / 3}} = \$50.071
 $$
 
 $$
-\$ 41 e ^ {0. 0 8 \times 1 / 3 - 0. 3 \times \sqrt {1 / 3}} = \$ 3 5. 4 1 1
+\$41 e ^ {0.08 \times 1 / 3 - 0.3 \times \sqrt {1 / 3}} = \$35.411
 $$
 
 <table><tr><td rowspan="2">FIGURE 9</td><td>Binomial Period: 0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>Dividend:</td><td>0</td><td>5</td><td>0</td></tr><tr><td colspan="5">The tree depicts a discrete \$5 dividend paid between the first and second binomial periods. There are eight discrete terminal nodes (six of them distinct) rather than four. Assumes S = \$41, σ = 0.3, r = 0.08, t = 1 year, and h = 0.333.</td></tr><tr><td></td><td colspan="3">$55.203</td><td>$67.417</td></tr><tr><td></td><td colspan="3">\$47.679</td><td></td></tr><tr><td></td><td colspan="3">\$47.679</td><td></td></tr><tr><td></td><td colspan="3">\$33.720</td><td></td></tr><tr><td></td><td colspan="3">\$45.553</td><td></td></tr><tr><td></td><td colspan="3">\$32.216</td><td></td></tr><tr><td></td><td colspan="3">\$32.216</td><td></td></tr><tr><td></td><td colspan="3">22.784</td><td></td></tr></table>

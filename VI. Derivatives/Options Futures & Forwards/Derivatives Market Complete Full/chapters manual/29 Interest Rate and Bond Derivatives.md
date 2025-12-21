@@ -2,10 +2,28 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: Derivatives Market Complete Full/chapters manual
 cssclasses: academia
 title: Interest Rate and Bond Derivatives
-linter-yaml-title-alias: Interest Rate and Bond Derivatives
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - interest rate derivatives
+  - bond pricing models
+  - short-rate models
+secondary_tags:
+  - market models
+  - forward rates
+  - bond options
+  - caplets and floorlets
+  - Black-Scholes approach
+  - Vasicek model
+  - Cox-Ingersoll-Ross model
+  - duration and convexity
+  - yield curve dynamics
+  - risk-neutral valuation
+  - interest rate options
 ---
 
 # Interest Rate and Bond Derivatives
@@ -35,7 +53,7 @@ $$
 The time  $T$  payoff to a long bond forward, with the forward bought at  $t$ , is
 
 $$
-\text {P a y o f t} = P _ {T} (T, T + s) - P _ {t} (T, T + s)
+\Delta = \frac{C_u - C_d}{F (u - d)}
 $$
 
 Similarly,  $R_{t}(T,T + s)$  is the nonannualized interest rate that can be obtained at time  $t$  for a loan commencing at  $T$  that is repaid in a lump sum at time  $T + s$ . If  $T > t$ , the interest rate is a forward rate agreement (FRA).
@@ -43,7 +61,7 @@ Similarly,  $R_{t}(T,T + s)$  is the nonannualized interest rate that can be obt
 The forward rate quoted at time  $t$  for a loan commencing at time  $T$  with repayment at time  $T + s$  is
 
 $$
-R _ {t} (T, T + s) = \frac {P _ {t} (t , T)}{P _ {t} (t , T + s)} - 1 \tag {2}
+B = e^{-r h} \left(C_u \frac{1 - d}{u - d} + C_d \frac{u - 1}{u - d}\right)
 $$
 
 Note that  $R_{t}(T,T + s) = 1 / F_{t,T,T + s} - 1$
@@ -51,7 +69,7 @@ Note that  $R_{t}(T,T + s) = 1 / F_{t,T,T + s} - 1$
 The time  $T + s$  payoff to a long position on a forward rate agreement created at time  $t$  is the difference between the spot  $s$ -period rate,  $R_{T}(T,T + s)$ , and the forward rate,  $R_{t}(T,T + s)$ :
 
 $$
-\text {P a y o f t F R A} T + s = R _ {T} (T, T + s) - R _ {t} (T, T + s)
+\Delta \times (u F - F) + e^{r h} \times B = C_u
 $$
 
 We could also settle the FRA at time  $T$  in an economically equivalent way by paying the present value of the time  $T + s$  payoff:
@@ -821,7 +839,7 @@ Possible movements of interest rates in the Hull-White interest rate grid. Patte
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/4f7f94918330b3febc43d3e3fcf2e533166ddbf244ff179074a276b082eee59c.jpg)
 
 $$
-\begin{array}{l} - a \hat {r} h = q _ {u} [ \hat {r} + \epsilon - \hat {r} ] + q _ {m} [ \hat {r} - \hat {r} ] + q _ {d} [ \hat {r} - \epsilon - \hat {r} ] \\ = (q _ {u} - q _ {d}) \epsilon \\ \end{array}
+\begin{array}{l} p^* = \frac{F_{t,t+h}/S_t - d}{u - d} \tag{23} \\ = \frac{e^{(r - \delta)h} - d}{u - d} \\ \end{array}
 $$
 
 The variance of the change in the interest rate is
@@ -942,7 +960,7 @@ $$
 Example 9. Consider a 3-year call option on a 1-year bond with a strike price of  $K = 0.94$ . The applicable rates are 1-year rates for a bond bought in period 3 and paying 1 in period 4. The two in-the-money nodes are those in period 3 where rates are 5.31\% and 3.58\%. The value of the option is
 
 $$
-\begin{array}{l} 0. 1 9 4 \times \max  \left[ 0, e ^ {- 0. 0 5 3 1} - 0. 9 4 \right] \\ + 0. 0 1 8 \times \max  \left[ 0, e ^ {- . 0 3 5 8} - 0. 9 4 \right] = 0. 0 0 3 6 6 \\ \end{array}
+\begin{array}{l} P(S, K, t) = \\ \max\left(K - S, e^{-r h} \left[ P(u S, K, t + h) p^* + P(d S, K, t + h) (1 - p^*) \right]\right) \tag{19} \\ \end{array}
 $$
 
 # 5. MARKET MODELS
@@ -1104,7 +1122,7 @@ Equation (59) defines processes for the complete set of LIBOR rates in an intern
 
 You may encounter variants of equation (59) constructed using a different zero-coupon bond as numeraire. These solutions will look different, but this occurs because a different maturity is the starting point.
 
-# CHAPTER SUMMARY
+## CHAPTER SUMMARY
 
 Two important classes of interest rate and bond derivatives are those based on the evolution of the short-rate and those based on forward prices. Short-rate models generally value a zero-coupon bond by specifying a process for the short-term interest rate,  $r(t)$ , and then computing
 
@@ -1120,7 +1138,69 @@ For many short-rate processes there is not a closed-form solution. In these case
 
 Under the assumption that the forward price for a bond is lognormally distributed, the Black model provides a simple closed-form pricing model (essentially the Black-Scholes formula) that can be used to price bond and interest rate options. The LIBOR market model is a generalization of the Black model that specifies the process for an entire set of forward interest rates.
 
-# FURTHER READING
+```d2
+direction: right
+
+InterestRateDerivatives: Interest Rate Derivatives {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
+
+ShortRateModels: Short-Rate Models {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+MarketModels: Market Models {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+BlackScholes: Black-Scholes-Merton Approach {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+Vasicek: Vasicek Model {
+  shape: rectangle
+  style.fill: "#fce4ec"
+  style.stroke: "#c2185b"
+}
+
+CIR: Cox-Ingersoll-Ross Model {
+  shape: rectangle
+  style.fill: "#f1f8e9"
+  style.stroke: "#689f38"
+}
+
+BinomialTrees: Binomial Trees {
+  shape: rectangle
+  style.fill: "#e0f7fa"
+  style.stroke: "#00bcd4"
+}
+
+TrinomialTrees: Trinomial Trees {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#9c27b0"
+}
+
+InterestRateDerivatives -> ShortRateModels: Includes
+InterestRateDerivatives -> MarketModels: Includes
+ShortRateModels -> BlackScholes: Uses
+ShortRateModels -> Vasicek: Example
+ShortRateModels -> CIR: Example
+ShortRateModels -> BinomialTrees: Implements with
+ShortRateModels -> TrinomialTrees: Implements with
+MarketModels -> Black: Uses
+MarketModels -> LIBOR: Uses
+```
+
+## FURTHER READING
 
 Fixed income texts at roughly the level of this chapter include Sundaresan (2009), Tuckman and Serrat (2012), and Veronesi (2010). Classic treatments of bond pricing with interest rate uncertainty are Vasicek (1977) and Cox et al. (1985b). These are examples of affine term structure models, discussed more generally in Duffie and Kan (1996) and Dai and Singleton (2000).
 

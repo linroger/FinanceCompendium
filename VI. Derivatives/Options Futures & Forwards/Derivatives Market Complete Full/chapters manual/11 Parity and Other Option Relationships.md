@@ -1,9 +1,30 @@
 ---
 title: "Chapter 11 - Parity and Other Option Relationships"
 aliases:
-  - Parity and Other Option Relationships
-  - Put-Call Parity
+    - Parity and Other Option Relationships
+    - Put-Call Parity
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: "2025-12-21 02:20:00 PM"
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+    - put-call parity
+    - synthetic options
+    - early exercise
+    - time to expiration
+    - strike price convexity
+secondary_tags:
+    - parity bounds
+    - synthetic stock
+    - dividend effects
+    - currency options
+    - bond options
+    - exchange options
+    - american vs european
+    - arbitrage spreads
+    - butterfly spreads
+    - moneyness
+    - option bounds
 cssclasses: academia
 ---
 
@@ -21,12 +42,12 @@ Before we delve into pricing models, we devote this chapter to refining our comm
 
 These questions, and others, will be answered in this chapter, but you should take a minute and think about the answers now. While doing so, pay attention to how you are trying to come up with the answers. What constitutes a persuasive argument? Along with finding the answers, we want to understand how to think about questions like these.
 
-# I. PUT-CALL PARITY
+## I. PUT-CALL PARITY
 
 Put-call parity is perhaps the single most important relationship among option prices. Synthetic forwards (created by buying the call and selling the put) must be priced consistently with actual forwards. The basic parity relationship for European options with the same strike price and time to expiration is
 
 $$
-\text {C a l l} - \text {p u t} = \mathrm {P V} (\text {f o r w a r d p r i c e} - \text {s t r i k e p r i c e})
+\text{Call} - \text{Put} = \mathrm{PV}(\text{forward price} - \text{strike price})
 $$
 
 From Chapter 9 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
@@ -39,28 +60,11 @@ IBM option prices, dollars per share, May 6, 2011. The closing price of IBM on t
 
 Source: Chicago Board Options Exchange.
 
-The equation  $\operatorname{Call}(K, T) - \operatorname{Put}(K, T) = \operatorname{PV}(F_{0,T} - K)$  expresses this more precisely:
+The equation $\operatorname{Call}(K,T) - \operatorname{Put}(K,T) = \operatorname{PV}(F_{0,T} - K)$ expresses this more precisely:
 
 $$
-\begin{array}{l} C (K, T) - P (K, T) = \mathrm {P V} _ {0, T} \left(F _ {0, T} - K\right) \tag {1} \\ = e ^ {- r T} \left(F _ {0, T} - K\right) \\ \end{array}
-$$ where  $C(K, T)$  is the price of a European call with strike price  $K$  and time to expiration  $T$ ,  $P(K, T)$  is the price of a European put,  $F_{0,T}$  is the forward price for the underlying asset,  $K$  is the strike price,  $T$  is the time to expiration of the options, and  $\mathrm{PV}_{0,T}$  denotes the present value over the life of the options. Note that  $e^{-rT}F_{0,T}$  is the prepaid forward price for the asset and  $e^{-rT}K$  is the prepaid forward price for the strike, so we can also think of parity in terms of prepaid forward prices.
-
-
-The intuition for equation (1) is that buying a call and selling a put with the strike equal to the forward price  $(F_{0,T} = K)$  creates a synthetic forward contract and hence must have a zero price. If we create a synthetic long forward position at a price lower than the forward price, we have to pay  $\mathrm{PV}_{0,T}(F_{0,T} - K)$  since this is the benefit of buying the asset at the strike price rather than the forward price.
-
-Parity generally fails for American-style options, which may be exercised prior to maturity. Appendix A discusses parity bounds for American options.
-
-We now consider the parity relationship in more detail for different underlying assets.
-
-# Options on Stocks
-
-If the underlying asset is a stock and Div is the stream of dividends paid on the stock, then  $e^{-rT}F_{0,T} = S_0 - \mathrm{PV}_{0,T}(\mathrm{Div})$ . Thus, from equation (1), the parity relationship for European options on stocks is
-
-$$
-
-C (K, T) = P (K, T) + \left[ S _ {0} - \mathrm {P V} _ {0, T} (\mathrm {D i v}) \right] - e ^ {- r T} K \tag {2}
-
-$$ where  $S_0$  is the current stock price and  $\mathrm{PV}_{0,T}(\mathrm{Div})$  is the present value of dividends payable over the life of the option. For index options, we know that  $S_0 - \mathrm{PV}_{0,T}(\mathrm{Div}) = S_0e^{-\delta T}$ .
+C(K,T) = P(K,T) + [S_{0} - \mathrm{PV}_{0,T}(\mathrm{Div})] - e^{-rT}K \tag{2}
+$$ where $S_0$ is the current stock price and $\mathrm{PV}_{0,T}(\mathrm{Div})$ is the present value of dividends payable over the life of the option. For index options, we know that $S_0 - \mathrm{PV}_{0,T}(\mathrm{Div}) = S_0e^{-\delta T}$.
 
 # FIGURE I
 
@@ -77,13 +81,13 @@ Buy Call, Sell Put
 Hence, we can write
 
 $$
-C (K, T) = P (K, T) + S _ {0} e ^ {- \delta T} - \mathrm {P V} _ {0, T} (K)
+\lambda = \frac{K_{3} - K_{2}}{K_{3} - K_{1}} \tag{21}
 $$
 
-Example 1. Suppose that the price of a non-dividend-paying stock is  \$40, the continuously compounded interest rate is 8\%$ , and options have 3 months to expiration. A 40-strike European call sells for 2.78 and a 40-strike European put sells for 1.99. This is consistent with equation (2):
+Example 1. Suppose that the price of a non-dividend-paying stock is \$40, the continuously compounded interest rate is 8\%, and options have 3 months to expiration. A 40-strike European call sells for 2.78 and a 40-strike European put sells for 1.99. This is consistent with equation (2):
 
 $$
-\$ 2.78 = \$ 1.99 + \$ 40 - \$ 40 e ^ {- 0.08 \times 0.25}
+59 = (1 - 0.6) \times 50 + 0.6 \times 65
 $$
 
 Why does the price of an at-the-money call exceed the price of an at-the-money put by 0.79? The answer is that buying a call and selling a put is a leveraged synthetic stock purchase, with different cash flows than an outright purchase. Figure 1 compares the synthetic purchase of the stock (buying the call and selling the put) with an outright purchase.
@@ -92,16 +96,32 @@ Notice that both positions result in the ownership of the stock 3 months from to
 
 Although with the synthetic stock purchase we do not own the stock until expiration, we are still exposed to the risk of the stock. A \$1 change in the value of the stock will induce a \$1 change in the value of the synthetic stock, exactly as if we owned the stock outright.
 
+```d2
+direction: right
+Stock: Buy Stock (Cash: -$40 today)
+Synthetic: Buy Call + Sell Put (Cash: -$0.79 today)
+Stock -> Expiration: +Stock at T
+Synthetic -> Expiration: +Stock at T (if exercised)
+```
+
 Thus, by buying the call and selling the put we own the stock economically, but we have deferred the payment of  \$40 until expiration. To obtain this deferral we must pay 3 months of interest on the\$ 40, the present value of which is 0.79. The option premiums differ by the interest on the deferral of payment for the stock. The difference in the call and put premiums is due to interest on the strike price. This is the reason that an at-the-money European call on a non-dividend-paying stock always sells for more than an at-the-money European put with the same expiration.
 
 Note that if we reverse the position by selling the call and buying the put, then we are synthetically short-selling the stock. In 3 months, the options will be exercised and we will receive \$40. In this case, the \$0.79 compensates us for deferring receipt of the 40.
+
+```d2
+direction: right
+Short_Stock: Short Stock (Cash: +$40 today)
+Synthetic_Short: Sell Call + Buy Put (Cash: +$0.79 today)
+Short_Stock -> Expiration: -Stock at T
+Synthetic_Short -> Expiration: -Stock at T (if assigned)
+```
 
 There are differences between the outright and synthetic positions. First, the stock pays dividends and the synthetic does not. This example assumed that the stock paid no dividends. If it did, the cost of the actual stock would exceed that of the synthetic by the present value of dividends paid over the life of the options. Second, the actual stock has voting rights, unlike the synthetic position.
 
 Example 2. Make the same assumptions as in Example 1, except suppose that the stock pays a \$5 dividend just before expiration. The price of the European call is \$0.74 and the price of the European put is 4.85. These prices satisfy parity with dividends, equation (2):
 
 $$
-\$ 0.74 - \$ 4.85 = (\$ 40 - \$ 5 e ^ {- 0.08 \times 0.25}) - \$ 40 e ^ {- 0.08 \times 0.25}
+C(40) \leq \$20 + (\$50 - \$40) = \$30
 $$
 
 The call price is higher than the put price by interest on the strike ( \$0.79) and lower by the present value of the dividend (\$ 4.90), for a net difference of 4.11.
@@ -115,7 +135,7 @@ Synthetic stock. Parity provides a cookbook for the synthetic creation of option
 The example above shows that buying a call and selling a put is like buying the stock except that the timing of the payment for the stock differs in the two cases. Rewriting equation (2) gives us
 
 $$
-S _ {0} = C (K, T) - P (K, T) + \mathrm {P V} _ {0, T} (\mathrm {D i v}) + e ^ {- r T} K \tag {3}
+\boxed{C(S_{t},Q_{t},T-t) - P(S_{t},Q_{t},T-t) = F_{t,T}^{P}(S) - F_{t,T}^{P}(Q)} \tag{8}
 $$
 
 To match the cash flows for an outright purchase of the stock, in addition to buying the call and selling the put, we have to lend the present value of the strike and dividends to be paid over the life of the option. We then receive the stock in 91 days.
@@ -123,7 +143,7 @@ To match the cash flows for an outright purchase of the stock, in addition to bu
 Synthetic T-bills. If we buy the stock, sell the call, and buy the put, we have purchased the stock and short-sold the synthetic stock. This transaction gives us a hedged position that has no risk but requires investment. Parity shows us that
 
 $$
-S _ {0} + P (K, T) - C (K, T) = \mathrm {P V} _ {0, T} (K) + \mathrm {P V} _ {0, T} (\mathrm {D i v})
+K - \mathrm{PV}_{t,T}(K) > \mathrm{PV}_{t,T}(\mathrm{Div}) \tag{14}
 $$
 
 We have thus created a position that costs  $\mathrm{PV}(K) + \mathrm{PV}_{0,T}(\mathrm{Div})$  and that pays  $K + F V_{0,T}(\mathrm{Div})$  at expiration. This is a synthetic Treasury bill.
@@ -137,10 +157,7 @@ The creation of a synthetic T-bill by buying the stock, buying a put, and sellin
 Synthetic options. Parity tells us that
 
 $$
-C (K, T) = S _ {0} - \mathrm {P V} _ {0, T} (\operatorname {D i v}) - \mathrm {P V} _ {0, T} (K) + P (K, T)
-$$ and that
-
-
+C(K,T) = P(K,T) + [B_{0} - \mathrm{PV}_{0,T}(\text{Coupons})] - \mathrm{PV}_{0,T}(K) \tag{5}
 $$
 
 P (K, T) = C (K, T) - S _ {0} + \mathrm {P V} _ {0, T} (K) + \mathrm {P V} _ {0, T} (\mathrm {D i v})
@@ -149,9 +166,9 @@ $$
 
 The first relation says that a call is equivalent to a leveraged position on the underlying asset  $[S_0 - \mathrm{PV}_{0,T}(\mathrm{Div}) - \mathrm{PV}(K)]$ , which is insured by the purchase of a put. The second relation says that a put is equivalent to a short position on the stock, insured by the purchase of a call.
 
-# Options on Currencies
+## Options on Currencies
 
-Suppose we have options to buy euros by paying dollars. The dollar forward price for a euro is  $F_{0,T} = x_0 e^{(r - r\in)T}$ , where  $x_0$  is the current exchange rate denominated as  $\mathbb{S} / \in$ ,  $r\in$  is the euro-denominated interest rate, and  $r$  is the dollar-denominated interest rate. The parity relationship for options to buy one euro by paying  $x_0$  is then
+Suppose we have options to buy euros by paying dollars. The dollar forward price for a euro is $F_{0,T} = x_0 e^{(r - r_f)T}$, where $x_0$ is the current exchange rate denominated as $\$/€$, $r_f$ is the euro-denominated interest rate, and $r$ is the dollar-denominated interest rate. The parity relationship for options to buy one euro by paying $x_0$ is then
 
 $$
 
@@ -161,9 +178,9 @@ $$
 
 Buying a euro call and selling a euro put is equivalent to lending euros and borrowing dollars. Equation (4) tells us that the difference in the call and put premiums simply reflects the difference in the amount borrowed and loaned, in the currency of the country in which the options are denominated.
 
-# Options on Bonds
+## Options on Bonds
 
-Finally, we can construct the parity relationship for options on bonds. The prepaid forward for a bond differs from the bond price due to coupon payments (which are like dividends). Thus, if the bond price is  $B_{0}$ , we have
+Finally, we can construct the parity relationship for options on bonds. The prepaid forward for a bond differs from the bond price due to coupon payments (which are like dividends). Thus, if the bond price is $B_{0}$, we have
 
 $$
 
@@ -173,7 +190,7 @@ $$
 
 Note that for a pure-discount bond, the parity relationship is exactly like that for a nondividend-paying stock.
 
-# Dividend Forward Contracts
+## Dividend Forward Contracts
 
 Dividends play a critical role in the parity equation. In practice, there is at least some uncertainty about future dividend payments and yields. Dividend forward contracts and dividend swaps can be used to hedge or speculate on actual dividend amounts. A dividend forward contract pays  $\mathrm{FV}_{0,T}(D) - F_{0,T}$  at time  $T$ , where  $F_{0,T}$  is the dividend forward price and  $\mathrm{FV}_{0,T}(D)$  is the time  $T$  value of dividends paid between time 0 and time  $T$ . It is straightforward to determine the dividend forward price,  $F_{0,T}(D)$ , using put-call parity. The intuition is that prices of European options reflect expected future ex-dividend stock prices, so that comparing the stock price today with option prices, we can determine the price of a claim on dividends.
 
@@ -212,7 +229,7 @@ R = \frac {\sum_ {i = 1} ^ {n} P (0 , t _ {i}) f _ {0} (t _ {i})}{\sum_ {i = 1} 
 
 $$
 
-# 2. GENERALIZED PARITY AND EXCHANGE OPTIONS
+## 2. GENERALIZED PARITY AND EXCHANGE OPTIONS
 
 The preceding section showed how the parity relationship works for different underlying assets. Now we will generalize parity to apply to the case where the strike asset is not necessarily cash but could be any other asset. This version of parity includes all previous versions as special cases.
 
@@ -263,7 +280,7 @@ $$
 
 The put is 5 more expensive than the call for any time to expiration of the options.
 
-# Options to Exchange Stock
+## Options to Exchange Stock
 
 Executive stock options are sometimes constructed so that the strike price of the option is the price of an index, rather than a fixed cash amount. The idea is to have an option that pays off only when the company outperforms competitors, rather than one that pays off simply because all stock prices have gone up. As a hypothetical example of this, suppose that Microsoft executives are given compensation options that payoff only if Microsoft outperforms Google. They will exercise these options if and only if the share price of Microsoft,  $S_{\mathrm{MSFT}}$ , exceeds the share price of Google,  $S_{\mathrm{GOOG}}$ , i.e.,  $S_{\mathrm{MSFT}} > S_{\mathrm{GOOG}}$ . From the executives' perspective, this is a call option, with the payoff
 
@@ -285,7 +302,7 @@ This is a call from the Google executives' perspective.
 
 Here is the interesting twist: The Google call looks like a Microsoft put! And the Microsoft call looks like a Google put. Either option can be viewed as a put or call; it is simply a matter of perspective. The distinction between a put and a call in this example depends upon what we label the underlying asset and what we label as the strike asset.
 
-# What Are Calls and Puts?
+## What Are Calls and Puts?
 
 The preceding discussion suggests that labeling an option as a call or put is always a matter of convention. It is an important convention because we use it all the time in talking about options. Nevertheless, in general we can interpret calls as being puts, and vice versa. We can see why by using an analogy.
 
@@ -307,7 +324,7 @@ Now consider a put option on a stock. The put option confers the right to exchan
 
 If  $S > K$  we do not exercise under either interpretation. If the dollars are worth less than the stock, we would not pay the stock to obtain the dollars.
 
-# Currency Options
+## Currency Options
 
 The idea that calls can be relabeled as puts is commonplace in currency markets. A currency transaction involves the exchange of one kind of currency for another. In this context, it is obvious to market participants that referring to a particular currency as having been bought or sold is a matter of convention, depending upon which currency a trader regards as the home currency.
 
@@ -322,6 +339,8 @@ We will now use a numerical example to illustrate how to convert a call in one c
 1. A 1-year dollar-denominated call option on euros with a strike price of \$1.20 and premium of \$0.06545. In 1 year, the owner of the option has the right to buy €1 for 1.20. The payoff on this option, in dollars, is therefore
 
 $$
+\max(0, x_{1} - 1.20)
+$$
 
 \max  (0, x _ {1} - 1. 2 0)
 
@@ -329,6 +348,8 @@ $$
 
 2. A 1-year euro-denominated put option on dollars with a strike of 1/1.20 = €0.833. The premium of this option is €0.04363. In 1 year the owner of this put has the right to give up \$1 and receive €0.833; the owner will exercise the put when \$1 is worth less than €0.833. The euro value of 1 in 1 year will be 1/x₁. Hence, the payoff of this option is
 
+$$
+\max\left(0, \frac{1}{1.20} - \frac{1}{x_{1}}\right)
 $$
 
 \max  \left(0, \frac {1}{1 . 2 0} - \frac {1}{x _ {1}}\right)
@@ -366,7 +387,7 @@ $$
 
 This insight—that calls in one currency are the same as puts in the other—is interesting in and of itself. Its generalization to all options provides a fresh perspective for thinking about the difference between calls and puts.
 
-# 3. COMPARING OPTIONS WITH RESPECT TO STYLE, MATURITY, AND STRIKE
+## 3. COMPARING OPTIONS WITH RESPECT TO STYLE, MATURITY, AND STRIKE
 
 We now examine how option prices change when there are changes in option characteristics, such as exercise style (American or European), the strike price, and time to expiration. Remarkably, we can say a great deal without a pricing model and without making any assumptions about the distribution of the underlying asset. Thus, whatever the particular option model or stock price distribution used for valuing a given option, we can still expect option prices to behave in certain ways.
 
@@ -383,7 +404,7 @@ In this section we will explore the following issues for stock options (some of 
 
 A word of warning before we begin this discussion: You may find option price listings reporting prices that seem to permit arbitrage. This can occur if some of the reported option prices are stale, meaning that the comparison is among option prices recorded at different times of the day. Also, an apparent arbitrage opportunity only becomes genuine when bidask spreads (see Table 1), commissions, costs of short-selling, and market impact are taken into account.
 
-# European Versus American Options
+## European Versus American Options
 
 Since an American option can be exercised at any time, it must always be at least as valuable as an otherwise identical European option. (By "otherwise identical" we mean that the two options have the same underlying asset, strike price, and time to expiration.) Any exercise strategy appropriate to a European option can always be duplicated with an American option. Thus we have
 
@@ -401,7 +422,7 @@ $$
 
 We will see that there are times when the right to early-exercise is worthless, and, hence, American and European options have the same value.
 
-# Maximum and Minimum Option Prices
+## Maximum and Minimum Option Prices
 
 It is often useful to understand just how expensive or inexpensive an option can be. Here are some basic limits.
 
@@ -433,12 +454,14 @@ K \geq P _ {\text {A m e r}} (S, K, T) \geq P _ {\text {E u r}} (S, K, T) \geq \
 
 $$
 
-# Early Exercise for American Options
+## Early Exercise for American Options
 
 When might we want to exercise an option prior to expiration? An important result is that an American call option on a non-dividend-paying stock should never be exercised prior to expiration. You may, however, rationally exercise an American-style put option prior to expiration.
 
 Calls on a non-dividend-paying stock. We can demonstrate in two ways that an American-style call option on a non-dividend-paying stock should never be exercised prior to expiration. Early exercise is not optimal if the price of an American call prior to expiration satisfies
 
+$$
+C(S_{t},K,T-t) > K - \mathrm{PV}_{t,T}(K)
 $$
 
 C _ {\text {A m e r}} \left(S _ {t}, K, T - t\right) > S _ {t} - K
@@ -495,13 +518,7 @@ If dividends are sufficiently great, however, early exercise can be optimal. To 
 
 If dividends do make early exercise rational, it will be optimal to exercise at the last moment before the ex-dividend date. By exercising earlier than that, we pay the strike price prematurely and thus at a minimum lose interest on the strike price.
 
-Early exercise for puts. It can be optimal to early-exercise a put. To see this, suppose a company is bankrupt and the stock price falls to zero. Then a put not exercised until expiration will be worth  $\mathrm{PV}_{t,T}(K)$ . If we could early-exercise, we would receive  $K$ . If the
-
-Demonstration of arbitrage if a call option with price  $C$  sells for less than  $S_{t} - Ke^{-r(T - t)}$  and the stock pays no dividends. Every entry in the row labeled "Total" is nonnegative.
-
-TABLE 4
-
-<table><tr><td rowspan="2">Transaction</td><td rowspan="2">Time t</td><td colspan="2">Expiration or Exercise, Time T</td></tr><tr><td>ST &lt; K</td><td>ST &gt; K</td></tr><tr><td>Buy call</td><td>-C</td><td>0</td><td>ST - K</td></tr><tr><td>Short stock</td><td>St</td><td>-ST</td><td>-ST</td></tr><tr><td>Lend Ke-r(T-t)</td><td>-Ke-r(T-t)</td><td>K</td><td>K</td></tr><tr><td>Total</td><td>St - Ke-r(T-t) - C</td><td>K - ST</td><td>0</td></tr></table> interest rate is positive,  $K > \mathrm{PV}(K)$ . Therefore, early exercise would be optimal in order to receive the strike price earlier.
+Early exercise for puts. It can be optimal to early-exercise a put. To see this, suppose a company is bankrupt and the stock price falls to zero. Then a put not exercised until expiration will be worth $\mathrm{PV}_{t,T}(K)$. If we could early-exercise, we would receive $K$. If the interest rate is positive, $K > \mathrm{PV}(K)$. Therefore, early exercise would be optimal in order to receive the strike price earlier.
 
 
 We can also use a parity argument to understand this. The put will never be exercised as long as  $P > K - S$ . Supposing that the stock pays no dividends, parity for the put is
@@ -512,18 +529,17 @@ P \left(S _ {t}, K, T - t\right) = C \left(S _ {t}, K, T - t\right) - S _ {t} + 
 
 $$
 
-The no-exercise condition,  $P > K - S$ , then implies
+The no-exercise condition, $P > K - S$, then implies
 
 $$
 
-C \left(S _ {t}, K, T - t\right) - S _ {t} + \mathrm {P V} _ {t, T} (K) > K - S _ {t}
+C(S_t, K, T - t) - S_t + \mathrm{PV}_{t,T}(K) > K - S_t
 
 $$ or
 
-
 $$
 
-C \left(S _ {t}, K, T - t\right) > K - \mathrm {P V} _ {t, T} (K)
+C(S_t, K, T - t) > K - \mathrm{PV}_{t,T}(K)
 
 $$
 
@@ -535,7 +551,7 @@ Similarly, dividends on the strike asset become a reason not to early-exercise. 
 
 The point of this section has been to make some general statements about when early exercise will not occur, or under what conditions it might occur. Early exercise is a trade-off involving time value of money on the strike price, dividends on the underlying asset, and the value of insurance on the position. In general, figuring out when to exercise requires an option pricing model.
 
-# Time to Expiration
+## Time to Expiration
 
 How does an option price change as we increase time to expiration? If the options are American, the option price can never decline with an increase in time to expiration. If the options are European, the price can go either up or down as we increase time to expiration.
 
@@ -561,7 +577,7 @@ If the longer-lived put is not more expensive—i.e., if  $P(T) \leq P(t)$ —bu
 
 Table 5 summarizes the resulting payoffs. By buying the long-lived put and selling the short-lived put, we are guaranteed not to lose money at time  $T$ . Therefore, if  $P(t) \geq P(T)$  there is an arbitrage opportunity. A practical application of this result is discussed in Box 1.
 
-# Different Strike Prices
+## Different Strike Prices
 
 We discussed at the beginning of this section some statements we can make about how option prices vary with the strike price. Here is a more formal statement of these propositions. Suppose we have three strike prices,  $K_{1} < K_{2} < K_{3}$ , with corresponding call option prices  $C(K_{1}), C(K_{2})$ , and  $C(K_{3})$  and put option prices  $P(K_{1}), P(K_{2})$ , and  $P(K_{3})$ . Here are the propositions we discuss in this section:
 
@@ -569,7 +585,7 @@ We discussed at the beginning of this section some statements we can make about 
 
 $$
 
-\boxed {C \left(K _ {1}\right) \geq C \left(K _ {2}\right)} \tag {15}
+\boxed{C(K_1) \geq C(K_2)} \tag{15}
 
 $$
 
@@ -577,11 +593,11 @@ A put with a high strike price is at least as valuable as an otherwise identical
 
 $$
 
-\boxed {P (K _ {2}) \geq P (K _ {1})} \tag {16}
+\boxed{P(K_2) \geq P(K_1)} \tag{16}
 
 $$
 
-# BOX I: Portfolio Insurance for the Long Run
+## BOX I: Portfolio Insurance for the Long Run
 
 Historically, the rate of return from investing in stocks over a long horizon has outperformed that from investing in government bonds in the United States (see, for example, Siegel, 1998). This observation has led some to suggest that if held for a sufficiently long period of time, stocks are a safe investment relative to risk-free bonds.
 
@@ -594,7 +610,7 @@ Bodie uses the Black-Scholes model to show that the premium on this insurance in
 
 $$
 
-\boxed {C (K _ {1}) - C (K _ {2}) \leq K _ {2} - K _ {1}} \tag {17}
+\boxed{C(K_1) - C(K_2) \leq K_2 - K_1} \tag{17}
 
 $$
 
@@ -602,7 +618,7 @@ The premium difference for otherwise identical puts also cannot be greater than 
 
 $$
 
-\boxed {P (K _ {2}) - P (K _ {1}) \leq K _ {2} - K _ {1}} \tag {18}
+\boxed{P(K_2) - P(K_1) \leq K_2 - K_1} \tag{18}
 
 $$
 
@@ -610,13 +626,13 @@ $$
 
 $$
 
-\boxed {\frac {C \left(K _ {1}\right) - C \left(K _ {2}\right)}{K _ {2} - K _ {1}} \geq \frac {C \left(K _ {2}\right) - C \left(K _ {3}\right)}{K _ {3} - K _ {2}}} \tag {19}
+\boxed{\frac{C(K_1) - C(K_2)}{K_2 - K_1} \geq \frac{C(K_2) - C(K_3)}{K_3 - K_2}} \tag{19}
 
 $$
 
 $$
 
-\boxed {\frac {P \left(K _ {2}\right) - P \left(K _ {1}\right)}{K _ {2} - K _ {1}} \leq \frac {P \left(K _ {3}\right) - P \left(K _ {2}\right)}{K _ {3} - K _ {2}}} \tag {20}
+\boxed{\frac{P(K_2) - P(K_1)}{K_2 - K_1} \leq \frac{P(K_3) - P(K_2)}{K_3 - K_2}} \tag{20}
 
 $$
 
@@ -633,7 +649,7 @@ Example 4. Suppose we observe the call premiums in Panel A of Table 6. These val
 
 Now consider the third proposition, strike price convexity. There is a different way to write the convexity inequality, equation (19). Since  $K_{2}$  is between  $K_{1}$  and  $K_{3}$ , we can write
 
-Panel A shows call option premiums for which the change in the option premium (\$6) exceeds the change in the strike price (\$5). Panel B shows how a bear spread can be used to arbitrage these prices. By lending the bear spread proceeds, we have a zero cash flow at time 0; the cash outflow at time  $T$  is always greater than 1.
+Panel A shows call option premiums for which the change in the option premium (\$6) exceeds the change in the strike price (\$5). Panel B shows how a bear spread can be used to arbitrage these prices. By lending the bear spread proceeds, we have a zero cash flow at time 0; the cash outflow at time $T$ is always greater than 1.
 
 TABLE 6
 
@@ -642,32 +658,31 @@ TABLE 6
 
 $$
 
-K _ {2} = \lambda K _ {1} + (1 - \lambda) K _ {3}
+K_2 = \lambda K_1 + (1 - \lambda) K_3
 
 $$ where
 
+$$
+
+\lambda = \frac{K_3 - K_2}{K_3 - K_1} \tag{21}
 
 $$
 
-\lambda = \frac {K _ {3} - K _ {2}}{K _ {3} - K _ {1}} \tag {21}
+With this expression for $\lambda$, it is possible to rewrite equation (19) as
 
 $$
 
-With this expression for  $\lambda$ , it is possible to rewrite equation (19) as
-
-$$
-
-C \left(K _ {2}\right) \leq \lambda C \left(K _ {1}\right) + (1 - \lambda) C \left(K _ {3}\right) \tag {22}
+C(K_2) \leq \lambda C(K_1) + (1 - \lambda) C(K_3) \tag{22}
 
 $$
 
 Here is an example illustrating convexity.
 
-Example 5. If  $K_{1} = 50$ ,  $K_{2} = 59$ , and  $K_{3} = 65$ ,  $\lambda = \frac{65 - 59}{65 - 50} = 0.4$ ; hence,
+Example 5. If $K_1 = 50$, $K_2 = 59$, and $K_3 = 65$, $\lambda = \frac{65 - 59}{65 - 50} = 0.4$; hence,
 
 $$
 
-5 9 = 0. 4 \times 5 0 + 0. 6 \times 6 5
+59 = 0.4 \times 50 + 0.6 \times 65
 
 $$
 
@@ -675,7 +690,7 @@ Call prices must then satisfy
 
 $$
 
-C (5 9) \leq 0. 4 \times C (5 0) + 0. 6 \times C (6 5)
+C(59) \leq 0.4 \times C(50) + 0.6 \times C(65)
 
 $$
 
@@ -683,23 +698,23 @@ Suppose we observe the call premiums in Table 7. The change in the option premiu
 
 To arbitrage this mispricing, we engage in an asymmetric butterfly spread: Buy four 50-strike calls, buy six 65-strike calls, and sell ten 59-strike calls.[12] By engaging in a butterfly spread, Panel B shows that a profit of at least 3 is earned.
 
-The formula for  $\lambda$  may look imposing, but there is an easy way to figure out what  $\lambda$  is in any situation. In this example, we had the prices 50, 59, and 65. It is possible to express 59 as a weighted average of 50 and 65. The total distance between 50 and 65 is 15, and the distance from 50 to 59 is 9, which is  $9 / 15 = 0.6$  of the total distance. Thus, we can write 59 as
+The formula for $\lambda$ may look imposing, but there is an easy way to figure out what $\lambda$ is in any situation. In this example, we had the prices 50, 59, and 65. It is possible to express 59 as a weighted average of 50 and 65. The total distance between 50 and 65 is 15, and the distance from 50 to 59 is 9, which is $9/15 = 0.6$ of the total distance. Thus, we can write 59 as
 
 $$
 
-5 9 = (1 - 0. 6) \times 5 0 + 0. 6 \times 6 5
+59 = (1 - 0.6) \times 50 + 0.6 \times 65
 
 $$
 
-This is the interpretation of  $\lambda$  in expression (22).
+This is the interpretation of $\lambda$ in expression (22).
 
 Here is an example of convexity with puts.
 
-Example 6. See the prices in Panel A of Table 8. We have  $K_{1} = 50$ ,  $K_{2} = 55$ , and  $K_{3} = 70$ .  $\lambda = 0.75$  and  $55 = 0.75 \times 50 + (1 - 0.75) \times 70$ . Convexity is violated since
+Example 6. See the prices in Panel A of Table 8. We have $K_1 = 50$, $K_2 = 55$, and $K_3 = 70$. $\lambda = 0.75$ and $55 = 0.75 \times 50 + (1 - 0.75) \times 70$. Convexity is violated since
 
 $$
 
-P (5 5) = 8 > 0. 7 5 \times 4 + (1 - 0. 7 5) \times 1 6 = 7
+P(55) = 8 > 0.75 \times 4 + (1 - 0.75) \times 16 = 7
 
 $$
 
@@ -736,9 +751,16 @@ In this case, we always make at least 4. Figure 2 illustrates the necessary shap
 Illustration of convexity and other strike price properties for calls and puts. For calls the premium is decreasing in the strike, with a slope less than 1 in absolute value. For puts the premium is increasing in the strike, with a slope less than 1. For both, the graph is convex, i.e., shaped like the cross section of a bowl.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/752f16edf43e726651dfdefefbaf8ab71542773f71c8532f6e352069285d546d.jpg)
-Option Premium
+```d2
+direction: right
+Strike: Strike Price
+Call_Premium: Call Premium (decreasing convex)
+Put_Premium: Put Premium (increasing convex)
+Strike -> Call_Premium: Decreases at decreasing rate
+Strike -> Put_Premium: Increases at decreasing rate
+```
 
-# Exercise and Moneyness
+## Exercise and Moneyness
 
 If it is optimal to exercise an option, it is also optimal to exercise an otherwise identical option that is more in-the-money. Consider what would have to happen in order for this not to be true.
 
@@ -748,15 +770,25 @@ Now what can we say about the premium of a 40-strike option? We know from the di
 
 $$
 
-C (4 0) \leq \$ 2 0 + (\$ 5 0 - \$ 4 0) = \$ 3 0
+C(40) \leq \$20 + (\$50 - \$40) = \$30
 
 $$
 
 Since the 40-strike call is worth 30 if exercised, it must be optimal to exercise it.
 
+```d2
+direction: right
+Strike_Price: Strike Price
+Moneyness: Moneyness
+Exercise_Optimality: Exercise Optimality
+
+Strike_Price -> Moneyness: In-the-money increases
+Moneyness -> Exercise_Optimality: If optimal for one, optimal for more ITM
+```
+
 Following the same logic, this is also true for puts.
 
-# CHAPTER SUMMARY
+## CHAPTER SUMMARY
 
 Put-call parity is one of the most important relations in option pricing. Parity is the observation that buying a European call and selling a European put with the same strike price and time to expiration is equivalent to making a leveraged investment in the underlying asset, less the value of cash payments to the underlying asset over the life of the option. Different versions of parity for different underlying assets appear in Table 9. In every case the value
 
@@ -773,6 +805,6 @@ Option prices must obey certain restrictions when we vary the strike price, time
 
 There are a number of pricing relationships related to changing strike prices. In particular, as the strike price increases, calls become less expensive with their price decreasing at a decreasing rate. The absolute value of the change in the call price is less than the change in the strike price. As the strike price decreases, puts become less expensive with their price decreasing at a decreasing rate. The change in the put price is less than the change in the strike price.
 
-# FURTHER READING
+## FURTHER READING
 
 Much of the material in this chapter can be traced to Merton (1973b), which contains an exhaustive treatment of option properties that must hold if there is to be no arbitrage. Cox and Rubinstein (1985) also provides an excellent treatment of this material.

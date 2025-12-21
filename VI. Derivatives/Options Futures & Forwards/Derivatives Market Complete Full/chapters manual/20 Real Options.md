@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Investment Project Call Option
-linter-yaml-title-alias: Investment Project Call Option
+parent_directory: Options Futures & Forwards
+formatted: 2025-12-21 02:15:25 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - real options analysis
+  - investment timing decisions
+  - commodity extraction options
+  - project valuation methods
+  - option pricing applications
+secondary_tags:
+  - npv rule limitations
+  - binomial option valuation
+  - perpetual option models
+  - peak load pricing
+  - research development options
+  - shutdown restart options
+  - hysteresis effects
+  - operating flexibility
+  - strategic investment decisions
+  - capital budgeting techniques
+cssclasses: academia
 ---
 
 # Investment Project Call Option
@@ -16,13 +32,13 @@ Present value of project  $=$  Price of underlying asset
 
 This comparison suggests that we can view any investment project as a call option, with the investment cost equal to the strike price and the present value of cash flows equal to the asset price. The exploitation of this and other analogies between real investment projects and financial options has come to be called real options, which we define as the application of derivatives theory to the operation and valuation of real investment projects. Note the phrase "operation and valuation." We will see in this chapter that you cannot value a real asset without also understanding how you will operate it. You cannot value any option without understanding when you will exercise it.
 
-# I. INVESTMENT AND THE NPV RULE
+## I. INVESTMENT AND THE NPV RULE
 
 We first consider a simple investment decision of the sort you would encounter in a basic finance course when studying net present value (NPV). Despite its simplicity, the example illustrates the issues that will arise again later in this chapter.
 
 From Chapter 17 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
-Suppose we can invest in a machine, costing  \$10, that will produce one widget a year forever. In addition, each widget costs\$ 0.90 to produce. The price of widgets will be 0.55 next year and will increase at 4\% per year. The effective annual risk-free rate is 5\% per year. We can invest, at any time, in one such machine. There is no uncertainty.
+Suppose we can invest in a machine, costing \$10, that will produce one widget a year forever. In addition, each widget costs \$0.90 to produce. The price of widgets will be 0.55 next year and will increase at 4\% per year. The effective annual risk-free rate is 5\% per year. We can invest, at any time, in one such machine. There is no uncertainty.
 
 Before reading further, you should try to answer this question: What is the most you would pay to acquire the rights to this project?
 
@@ -31,19 +47,19 @@ Before reading further, you should try to answer this question: What is the most
 A natural first step is to compute the NPV if we invested in the project today. We obtain
 
 $$
-\begin{array}{l} \mathrm {N P V} _ {\text {I n v e s t t o d a y}} = \\ \mathrm {N P V} _ {\text {I n v e s t t o d a y}} = \\ \mathrm {N P V} _ {\text {I n v e s t t o d a y}} = \\ \mathrm {N P V} _ {\text {I n v e s t t o d a y}} = \\ \mathrm {N P V} _ {\text {I n v e s t t o d a y}} = \\ \\ - \mathbb {S} 0. 9 \times \left(\frac {1}{1 . 0 5} + \frac {1}{1 . 0 5 ^ {2}} + \frac {1}{1 . 0 5 ^ {3}} + \dots\right) - \mathbb {S} 1 0 \tag {1} \\ = \frac {\mathbb {S} 0 . 5 5}{1 . 0 4} \times \left(\frac {1}{\frac {1 . 0 5}{1 . 0 4} - 1}\right) - \frac {\mathbb {S} 0 . 9}{0 . 0 5} - \mathbb {S} 1 0 = \frac {\mathbb {S} 0 . 5 5}{0 . 0 1} - \mathbb {S} 2 8 = \mathbb {S} 2 7 \\ \end{array}
+\begin{array}{l} \mathrm{NPV}_{\text{Invest today}} = -\$0.9 \times \left(\frac{1}{1.05} + \frac{1}{1.05^{2}} + \frac{1}{1.05^{3}} + \dots\right) - \$10 \\ = \frac{\$0.55}{1.04} \times \left(\frac{1}{\frac{1.05}{1.04} - 1}\right) - \frac{\$0.9}{0.05} - \$10 = \frac{\$0.55}{0.01} - \$28 = \$27 \\ \end{array}
 $$
 
 This calculation tells us that if widget production were to start next year, we would pay 27 for the project. For reasons that will become obvious, we call this the project's static NPV.
 
-Notice that in the early years, the project has an operating loss. If we activate the project today, then next year we will have negative operating cash flows, spending  \$0.90 to produce a\$ 0.55 widget. In addition, at a 5\% rate of interest, the opportunity cost of the \$10 investment is \$0.50/year.
+Notice that in the early years, the project has an operating loss. If we activate the project today, then next year we will have negative operating cash flows, spending \$0.90 to produce a \$0.55 widget. In addition, at a 5\% rate of interest, the opportunity cost of the \$10 investment is \$0.50/year.
 
 Why is NPV positive if we will be producing at a loss? Although the initial cash flows are negative, the widget price is growing. The project will become profitable in the future. This eventual profitability is why NPV is positive. This analysis suggests that we might consider waiting until later to invest.
 
 Suppose we wait 5 years to invest instead of investing immediately. NPV is then
 
 $$
-\begin{array}{l} \mathrm {N P V} _ {\text {W a i t 5 y e a r s}} = \frac {1}{1 . 0 5 ^ {5}} \left[ (1. 0 4) ^ {5} \frac {\$ 0 . 5 5}{0 . 0 1} - \$ 2 8 \right] \\ = \$ 30.49 \\ \end{array}
+\begin{array}{l} \mathrm{NPV}_{\text{Wait 5 years}} = \frac{1}{1.05^{5}} \left[ (1.04)^{5} \frac{\$0.55}{0.01} - \$28 \right] \\ = \$30.49 \\ \end{array}
 $$
 
 Thus, it is better to wait 5 years than to invest today. What is the maximum NPV we can attain?
@@ -51,13 +67,13 @@ Thus, it is better to wait 5 years than to invest today. What is the maximum NPV
 Common sense points to an approximate answer: We should not invest until annual widget revenue covers marginal production cost (\$0.90) plus the opportunity cost of the project (\$0.50); i.e., cost is at least \$1.40. The widget price will be \$1.40 when  $n$  satisfies
 
 $$
-(1 +. 0 4) ^ {n} 0. 5 5 = 1. 4 0
+(1.04)^{n} \times 0.55 = 1.40
 $$
 
 Solving for  $n$  gives us  $n = 23.82$ . After 23.82 years, the widget price will have reached a break-even level. The value today of waiting that long to invest in the project is
 
 $$
-\left[ \frac {(1 . 0 4) ^ {2 3 . 8 2} \$ 0 . 5 5}{0 . 0 1} - \frac {\$ 0 . 9 0}{0 . 0 5} - \$ 1 0 \right] \frac {1}{(1 + 0 . 0 5) ^ {2 3 . 8 2}} = \$ 3 5. 0 3
+\left[ \frac{(1.04)^{23.82} \times \$0.55}{0.01} - \frac{\$0.90}{0.05} - \$10 \right] \frac{1}{(1.05)^{23.82}} = \$35.03
 $$
 
 Problem 4 asks you to verify this result. You will discover that 23.82 years is not exactly optimal. Rather, waiting approximately 24.32 years—not 23.82 years—maximizes NPV. At this point the widget price will be about 1.43.
@@ -88,24 +104,24 @@ To decide whether and when to invest in an arbitrary project, we need to be able
 
 The decision to invest in the project involves a comparison of net present values. In what sense is this an option?
 
-We can interpret equation (1) so as to make the option analogy more apparent. When we take the project, we pay  \$10 and we commit to paying\$ 0.90/year forever. The present value of this stream of costs is
+We can interpret equation (1) so as to make the option analogy more apparent. When we take the project, we pay \$10 and we commit to paying \$0.90/year forever. The present value of this stream of costs is
 
 $$
-\text {P r e s e n t v a l u e o f c o s t s} = \$ 1 0 + \frac {\$ 0 . 9 0}{0 . 0 5} = \$ 2 8
+\text{Present value of costs} = \$10 + \frac{\$0.90}{0.05} = \$28
 $$
 
 As we discussed earlier, we can view this present value as analogous to the exercise price in an option valuation. In return for paying 28, we receive a cash flow with a present value of
 
 $$
-\text {P r e s e n t v a l u e o f w i d g e t r e v e n u e} = \frac {S _ {+ 1}}{0 . 0 1}
-$$ where  $S_{+1}$  is the widget price the year after we make the investment. When  $S_{+1} = \0.55$ , the present value of cash flow is \55. This present value of widget revenue is the price the revenue stream would have if it were traded separately. It is analogous to the stock price in an option valuation, and therefore it is sometimes called the twin security or the traded present value of the project.
+\text{Present value of widget revenue} = \frac{S_{+1}}{0.01}
+$$ where $S_{+1}$ is the widget price the year after we make the investment. When $S_{+1} = \$0.55$, the present value of cash flow is \$55. This present value of widget revenue is the price the revenue stream would have if it were traded separately. It is analogous to the stock price in an option valuation, and therefore it is sometimes called the twin security or the traded present value of the project.
 
 
 The dividends forgone by not acquiring the asset today, the interest saved by deferring the payment of the strike price, and the value of the insurance that is lost by exercising the option. It turns out that the same three considerations govern the decision to invest in the widget project.
 
-First, by delaying investment, we lose the cash flow from selling widgets. The cash flow we do not receive is analogous to stock dividends we do not receive by holding an option rather than the underlying stock. The first period cash flow is  \$0.55. The present value of future cash flows is\$ 0.55/0.01 = 55. Thus, the dividend yield is approximately 1\%. (We can also think of the dividend yield as the difference between the discount rate [5\%] and the growth rate of the cash flows [4\%].)
+First, by delaying investment, we lose the cash flow from selling widgets. The cash flow we do not receive is analogous to stock dividends we do not receive by holding an option rather than the underlying stock. The first period cash flow is \$0.55. The present value of future cash flows is \$0.55/0.01 = 55. Thus, the dividend yield is approximately 1\%. (We can also think of the dividend yield as the difference between the discount rate [5\%] and the growth rate of the cash flows [4\%].)
 
-Second, once we begin widget production, we are committed to spending the present value of the marginal widget cost,  \$18, along with the\$ 10 initial investment. The annual value of delaying investment is interest on the total investment cost, or  $0.05 \times$ 28 = 1.40 per year.
+Second, once we begin widget production, we are committed to spending the present value of the marginal widget cost,  \$18, along with the\$ 10 initial investment. The annual value of delaying investment is interest on the total investment cost, or $0.05 \times 28 = 1.40$ per year.
 
 Third and finally, in the widget project, there is no uncertainty and therefore no insurance value to delaying investment.
 
@@ -117,13 +133,23 @@ The example in this section illustrates the importance of thinking dynamically a
 
 # 2. INVESTMENT UNDER UNCERTAINTY
 
-In this section we discuss the valuation of real investment projects when cash flows are uncertain. With the widget project in the previous section, waiting to invest was optimal because project dividends were initially less than the interest gained from deferring the project. If we add uncertainty about project cash flows, the value of insurance (the implicit put option) also influences the decision to delay the project. In such a case, waiting to invest provides information about the value of the project. In this section we will use a binomial tree to value a project with uncertain cash flows.
-
-As before, the decision to invest in such a project is like exercising an American option: We pay the investment cost (strike price) to receive the asset (present value of future cash flows).
-
-# A Simple DCF Problem
-
 We first examine a particularly simple valuation problem in order to better understand the link between discounted cash flow (DCF), real options, and financial options.
+
+```d2
+direction: right
+
+DCF Valuation: {
+  Expected Cash Flow
+  Discount Rate
+  NPV Calculation
+}
+
+Real Options: {
+  DCF + Flexibility
+  Option to Delay/Abandon/Expand
+  Binomial/Black-Scholes Models
+}
+```
 
 Suppose an analyst is evaluating a project that will generate a single cash flow,  $X$ , occurring at time  $T$ . As with many investment projects, it is not possible to observe market characteristics of the project. There is no way to directly estimate project returns, project volatility, or the covariances of the project with the stock market. Instead, suppose the analyst considers the economic fundamentals of the project and makes educated inferences about these characteristics. The analyst might also look for public firms with a business resembling the project. The analyst could then use information about these public firms to infer characteristics (such as beta) of the project.
 
@@ -766,9 +792,17 @@ The ability to restart affects the decision to shut down. When we shut down, we 
 
 Comparison of investment  $(\overline{S})$ , shutdown  $(S_{*})$ , and restart  $(S^{*})$  triggers under different assumptions.  $k_{s}$  is the cost of shutting down the well and  $k_{r}$  is the cost of restarting once it is shut. In all cases,  $r = 5\%$  and the lease rate is  $\delta = 4\%$ .
 
-TABLEI
+# TABLE I
 
-<table><tr><td colspan="3">Parameters</td><td colspan="2">Number of Times</td><td colspan="3">Triggers</td></tr><tr><td>σ</td><td>ks</td><td>kr</td><td>Shutdown</td><td>Restart</td><td>S</td><td>S*</td><td>S*</td></tr><tr><td>0.0</td><td>—</td><td>—</td><td>0</td><td>0</td><td>16.92</td><td>—</td><td>—</td></tr><tr><td>0.15</td><td>—</td><td>—</td><td>0</td><td>0</td><td>25.34</td><td>—</td><td>—</td></tr><tr><td>0.15</td><td>0</td><td>—</td><td>1</td><td>0</td><td>25.12</td><td>4.27</td><td>—</td></tr><tr><td>0.15</td><td>25</td><td>—</td><td>1</td><td>0</td><td>25.14</td><td>3.60</td><td>—</td></tr><tr><td>0.15</td><td>0</td><td>0</td><td>1</td><td>1</td><td>25.00</td><td>6.03</td><td>11.92</td></tr><tr><td>0.15</td><td>25</td><td>25</td><td>1</td><td>1</td><td>25.17</td><td>4.33</td><td>13.79</td></tr><tr><td>0.15</td><td>25</td><td>25</td><td>∞</td><td>∞</td><td>25.17</td><td>4.37</td><td>13.18</td></tr></table>
+| σ    | ks   | kr   | Shutdown | Restart | S      | S*    | S**   |
+|------|------|------|----------|---------|--------|-------|-------|
+| 0.0  | —    | —    | 0        | 0       | 16.92  | —     | —     |
+| 0.15 | —    | —    | 0        | 0       | 25.34  | —     | —     |
+| 0.15 | 0    | —    | 1        | 0       | 25.12  | 4.27  | —     |
+| 0.15 | 25   | —    | 1        | 0       | 25.14  | 3.60  | —     |
+| 0.15 | 0    | 0    | 1        | 1       | 25.00  | 6.03  | 11.92 |
+| 0.15 | 25   | 25   | 1        | 1       | 25.17  | 4.33  | 13.79 |
+| 0.15 | 25   | 25   | ∞        | ∞       | 25.17  | 4.37  | 13.18 |
 
 # Additional Options
 

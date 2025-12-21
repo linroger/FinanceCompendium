@@ -1,7 +1,17 @@
 ---
 aliases:
 tags:
+  - jensens-inequality
+  - convexity
+  - probability
+  - mathematics
+  - options-pricing
 key_concepts:
+  - Jensen's inequality
+  - convex functions
+  - concave functions
+  - expected value
+  - call option pricing
 parent_directory:
 cssclasses: academia
 title: Appendix B - Jensens Inequality
@@ -11,6 +21,19 @@ linter-yaml-title-alias: Appendix B - Jensens Inequality
 # Appendix B - Jensens Inequality
 
 The purpose of this appendix is to understand Jensen's inequality. Suppose that  $x$  is a random variable with mean  $E(x)$ , and  $f(x)$  is a convex function of  $x$ .
+
+```d2
+direction: right
+
+Jensen's Inequality: {
+  For Convex Function f(x)
+  E[f(x)] >= f(E[x])
+  Examples: {
+    Exponential Function
+    Call Option Payoff
+  }
+}
+```
 
 Proposition 1 Jensen's inequality states that if  $f(x)$  is convex, then for any probability distribution for  $x$ ,
 

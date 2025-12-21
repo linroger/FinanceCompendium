@@ -1,51 +1,89 @@
+---
+aliases:
+tags:
+  - equity-derivatives
+  - binomial-tree
+  - trinomial-tree
+  - monte-carlo
+  - CRR-model
+  - JR-model
+  - option-pricing
+key_concepts:
+  - Cox-Ross-Rubenstein model
+  - Jarrow-Rudd model
+  - binomial tree
+  - trinomial tree
+  - Monte Carlo simulation
+  - risk-neutral pricing
+  - Feynman-Kac
+  - Black-Scholes PDE
+parent_directory: VI. Derivatives/Options Futures & Forwards
+cssclasses: academia
+title: Equity Derivatives Documentation
+linter-yaml-title-alias: Equity Derivatives Documentation
+---
+
 # Objectives
 
 This document first describes three option pricing models and their implementation with binomial and trinomial trees. With these models, a tree pricing program can be created that will value American and European options. Monte Carlo simulation is then discussed for pricing path-dependent securities. Trees can also be adapted to simulation asset price paths. Additional notes are included on option payoffs and mathematical derivations that underpin many characteristics of the models.
 
 Actual implementation of the models is performed using Python and MATLAB and can be found here on Github. Market data on stock prices and options are obtained from Yahoo Finance and interest rate data is from the U.S. Treasury.
 
+```d2
+direction: right
+
+Equity Derivatives Pricing Models: {
+  Binomial Trees: {
+    CRR Model
+    JR Model
+  }
+  Trinomial Trees
+  Monte Carlo Simulation: Path-dependent options
+}
+```
+
 # Contents
 
-# 1 The Cox-Ross-Rubenstein (CRR) Model 3
+# 1 The Cox-Ross-Rubenstein (CRR) Model
 
-1.1 Binomial Tree Parameters 4  
-1.2 Trinomial Tree Parameters 5  
-1.3 Monte Carlo Simulation 6
+## 1.1 Binomial Tree Parameters
+## 1.2 Trinomial Tree Parameters
+## 1.3 Monte Carlo Simulation
 
-# 2 The Jarrow-Rudd (JR) Model 6
+# 2 The Jarrow-Rudd (JR) Model
 
-2.1 Binomial Tree Parameters 6
+## 2.1 Binomial Tree Parameters
 
-# 3 Option Payoffs 6
+# 3 Option Payoffs
 
-3.1 European Calls & Puts 6  
-3.2 American Calls & Puts 7  
-3.3 Asian Options 7  
-3.4 Look-back Options 7
+## 3.1 European Calls & Puts
+## 3.2 American Calls & Puts
+## 3.3 Asian Options
+## 3.4 Look-back Options
 
-# 4 A Tree Pricing Program 7
+# 4 A Tree Pricing Program
 
-# 5 Example of Pricing with Trees 7
+# 5 Example of Pricing with Trees
 
-# 6 Example of Pricing with MC Simulation 7
+# 6 Example of Pricing with MC Simulation
 
-# 7 Mathematical Notes 8
+# 7 Mathematical Notes
 
-7.1 The Feynman-Kac Result 8  
-7.2 Risk Neutral Probability Measure 8  
-7.3 Closed-Form Solution of the Black-Scholes PDE 9  
-7.4 Deriving Parameters for the CRR Model 10
+## 7.1 The Feynman-Kac Result
+## 7.2 Risk Neutral Probability Measure
+## 7.3 Closed-Form Solution of the Black-Scholes PDE
+## 7.4 Deriving Parameters for the CRR Model
 
-7.4.1 Solving for Probability  $p$  10  
-7.4.2 Solving for Parameters  $u$  and  $d$  10
+### 7.4.1 Solving for Probability $p$
+### 7.4.2 Solving for Parameters $u$ and $d$
 
-7.5 Deriving the Log-Returns Expression 11
+## 7.5 Deriving the Log-Returns Expression
 
 # 1 The Cox-Ross-Rubenstein (CRR) Model
 
 The Cox-Ross-Rubenstein (CRR) is a market model for pricing equity derivatives and is often implemented with a binomial or trinomial tree. It was proposed in 1979, shortly after Myron Scholes and Fischer Black published their paper in 1973 on an option pricing formula that is regarded as the first completely satisfactory equilibrium option pricing model. CRR intended to provide a practical, simplified approach to pricing an option with a lattice-based method that could be straightforward to implement in practice. As will be discussed later, a lattice-based method is especially useful for considering American-style options that have the possibility of exercise before maturity; the Black-Scholes closed-form formula can only price European style options that can be exercised at maturity.
 
-Within the binomial tree model, it is assumed that a stock price either moves up  $(u)$  or down  $(d)$  with certain risk neutral probabilities  $(p$  and  $(1 - p))$ . This is a very simple approximation of asset price movement that implies that at time  $t$ , the stock price can only take on two values at  $t + \Delta$ . However, this simplification can produce quite accurate option prices with an adequate number of time periods. Visually, a one-period tree would look like:
+Within the binomial tree model, it is assumed that a stock price either moves up $(u)$ or down $(d)$ with certain risk neutral probabilities $(p$ and $(1 - p))$ . This is a very simple approximation of asset price movement that implies that at time $t$ , the stock price can only take on two values at $t + \Delta$ . However, this simplification can produce quite accurate option prices with an adequate number of time periods. Visually, a one-period tree would look like:
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/ea0fae40-afeb-4016-9dcb-8990335f18a7/a34e86f845afde34ea0a4234336c9c9d038bf907c39e51b73d3a35ae950dfeb2.jpg)
 
@@ -81,7 +119,7 @@ The recombining characteristic is now evident at  $t = 2$  with node  $S_{t}ud$ 
 These are essentially the same assumptions that underlie the Black-Scholes formula for pricing European options. Formally, the last assumption regarding log-normal distribution of returns can be written as:
 
 $$
-l n (S _ {t + \Delta}) - l n (S _ {t}) \sim \mathbb {N} \left[ \left(\mu - \frac {\sigma^ {2}}{2}\right) \Delta , \sigma \sqrt {\Delta} \right]
+\ln (S _ {t + \Delta}) - \ln (S _ {t}) \sim \mathbb {N} \left[ \left(\mu - \frac {\sigma^ {2}}{2}\right) \Delta , \sigma \sqrt {\Delta} \right]
 $$
 
 This assumption is utilized to derive equations for the up and down parameters of pricing trees.
@@ -134,26 +172,31 @@ $$
 
 # 3 Option Payoffs
 
-# 3.1 European Calls & Puts
+# 3 Option Payoffs
 
-A call option is a derivative that grants its purchaser the right to buy a number of shares at a specific price at some future point in time. The purchase price is commonly referred to as the strike price or exercise price (often denoted as  $K$ ).
+## 3.1 European Calls & Puts
 
-3.2 American Calls & Puts  
-3.3 Asian Options  
-3.4 Look-back Options  
+A call option is a derivative that grants its purchaser the right to buy a number of shares at a specific price at some future point in time. The purchase price is commonly referred to as the strike price or exercise price (often denoted as $K$ ).
+
+## 3.2 American Calls & Puts
+
+## 3.3 Asian Options
+
+## 3.4 Look-back Options
 4 A Tree Pricing Program
 
 Programs to price options via binomial and trinomial trees are straightforward to implement in Python or MATLAB with a relatively small amount of code.
 
-Tree pricing program has time complexity  $O(n^{2})$  and space complexity can be  $O(n)$ . The most straightforward way to approach implementation is to use an array to hold tree values. In practice, a single, one-dimensional array would be needed to perform calculations. For the sake of this documentation,
+Tree pricing program has time complexity $O(n^{2})$ and space complexity can be $O(n)$ . The most straightforward way to approach implementation is to use an array to hold tree values. In practice, a single, one-dimensional array would be needed to perform calculations. For the sake of this documentation,
 
-5 Example of Pricing with Trees  
-6 Example of Pricing with MC Simulation
+# 5 Example of Pricing with Trees
+
+# 6 Example of Pricing with MC Simulation
 
 The Euler discretization for MC simulation is the following:
 
 $$
-S _ {t + \Delta} = S _ {t} e x p \left[ \left(r - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma \sqrt {\Delta} \epsilon_ {t} \right]
+S _ {t + \Delta} = S _ {t} \exp \left[ \left(r - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma \sqrt {\Delta} \epsilon_ {t} \right]
 $$
 
 This equation can be used
@@ -225,13 +268,13 @@ $$
 To avoid discretization error, it is useful to derive a closed-form solution for dynamics of the stock price. The Black-Scholes SDE is given as:
 
 $$
-d S _ {t} = \mu S _ {t} d t + \sigma S _ {t} d Z _ {t}
+dS _ {t} = \mu S _ {t} dt + \sigma S _ {t} dZ _ {t}
 $$
 
 With this equation, the strategy is to apply Ito's Lemma to the function  $f(S_{t}) = \ln (S_{t})$ . The formula for Ito's Lemma is the following:
 
 $$
-d f (S _ {t}, t) = \left(\frac {\partial f (S _ {t})}{\partial t} + \frac {\partial f (S _ {t})}{\partial S _ {t}} \mu S _ {t} + \frac {1}{2} \frac {\partial^ {2} f (S _ {t})}{\partial S _ {t} ^ {2}} \sigma^ {2} S _ {t} ^ {2}\right) d t + \left(\frac {\partial f (S _ {t})}{\partial S _ {t}} \sigma S _ {t}\right) d Z _ {t}
+df (S _ {t}, t) = \left(\frac {\partial f (S _ {t})}{\partial t} + \frac {\partial f (S _ {t})}{\partial S _ {t}} \mu S _ {t} + \frac {1}{2} \frac {\partial^ {2} f (S _ {t})}{\partial S _ {t} ^ {2}} \sigma^ {2} S _ {t} ^ {2}\right) dt + \left(\frac {\partial f (S _ {t})}{\partial S _ {t}} \sigma S _ {t}\right) dZ _ {t}
 $$
 
 Calculating the required derivatives for  $f(S_{t})$  to plug into Ito's Lemma:
@@ -243,45 +286,45 @@ $$
 Plugging these results into the formula for Itô's Lemma gives the following:
 
 $$
-d l n (S _ {t}) = \left(\frac {1}{S _ {t}} \mu S _ {t} - \frac {1}{2} \frac {1}{S _ {t} ^ {2}} \sigma^ {2} S _ {t} ^ {2}\right) d t + \left(\frac {1}{S _ {t}} \sigma S _ {t}\right) d Z _ {t}
+d\ln (S _ {t}) = \left(\frac {1}{S _ {t}} \mu S _ {t} - \frac {1}{2} \frac {1}{S _ {t} ^ {2}} \sigma^ {2} S _ {t} ^ {2}\right) dt + \left(\frac {1}{S _ {t}} \sigma S _ {t}\right) dZ _ {t}
 $$
 
 $$
-d l n (S _ {t}) = \left(\mu - \frac {1}{2} \sigma^ {2}\right) d t + \sigma d Z _ {t}
+d\ln (S _ {t}) = \left(\mu - \frac {1}{2} \sigma^ {2}\right) dt + \sigma dZ _ {t}
 $$
 
 The distribution of  $dln(S_{t})$  can be inferred, assuming that  $\mu$  and  $\sigma$  are constants:
 
 $$
-d l n (S _ {t}) = \underbrace {\left(\mu - \frac {1}{2} \sigma^ {2}\right)} _ {\mathrm {c o n s t a n t}} d t + \underbrace {\sigma} _ {\mathrm {c o n s t a n t}} d Z _ {t}, d Z _ {t} \sim \sqrt {d t} \mathbb {N} (0, 1)
+d\ln (S _ {t}) = \underbrace {\left(\mu - \frac {1}{2} \sigma^ {2}\right)} _ {\mathrm {c o n s t a n t}} dt + \underbrace {\sigma} _ {\mathrm {c o n s t a n t}} dZ _ {t}, dZ _ {t} \sim \sqrt {dt} \mathbb {N} (0, 1)
 $$
 
 $$
-d l n (S _ {t}) = \left(\mu - \frac {1}{2} \sigma^ {2}\right) d t + \sigma d Z _ {t} \sim \mathbb {N} \left[ \left(\mu - \frac {1}{2} \sigma^ {2}\right) d t, \sigma^ {2} d t \right]
+d\ln (S _ {t}) = \left(\mu - \frac {1}{2} \sigma^ {2}\right) dt + \sigma dZ _ {t} \sim \mathbb {N} \left[ \left(\mu - \frac {1}{2} \sigma^ {2}\right) dt, \sigma^ {2} dt \right]
 $$
 
 Discretizing the formula via  $t$  and  $t + \Delta$  increments:
 
 $$
-l n (S _ {t + \Delta}) - l n (S _ {t}) = \left(\mu - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma (Z _ {t + \Delta} - Z _ {t})
+\ln (S _ {t + \Delta}) - \ln (S _ {t}) = \left(\mu - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma (Z _ {t + \Delta} - Z _ {t})
 $$
 
 $$
-l n \left(\frac {S _ {t + \Delta}}{S _ {t}}\right) = \left(\mu - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma (Z _ {t + \Delta} - Z _ {t})
+\ln \left(\frac {S _ {t + \Delta}}{S _ {t}}\right) = \left(\mu - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma (Z _ {t + \Delta} - Z _ {t})
 $$
 
 $$
-\frac {S _ {t + \Delta}}{S _ {t}} = e x p \left[ \left(\mu - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma (Z _ {t + \Delta} - Z _ {t}) \right]
+\frac {S _ {t + \Delta}}{S _ {t}} = \exp \left[ \left(\mu - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma (Z _ {t + \Delta} - Z _ {t}) \right]
 $$
 
 $$
-S _ {t + \Delta} = S _ {t} e x p \left[ \left(\mu - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma (Z _ {t + \Delta} - Z _ {t}) \right]
+S _ {t + \Delta} = S _ {t} \exp \left[ \left(\mu - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma (Z _ {t + \Delta} - Z _ {t}) \right]
 $$
 
 This completes the derivation, but a slightly different formula is ultimately utilized for Monte Carlo simulation purposes. Applying a Euler discretization to the formula above provides the formula for MC simulation:
 
 $$
-S _ {t + \Delta} = S _ {t} e x p \left[ \left(r - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma \sqrt {\Delta} \epsilon_ {t} \right]
+S _ {t + \Delta} = S _ {t} \exp \left[ \left(r - \frac {1}{2} \sigma^ {2}\right) \Delta + \sigma \sqrt {\Delta} \epsilon_ {t} \right]
 $$
 
 Where we have:
@@ -335,7 +378,7 @@ $$
 First, recall the fundamental assumption of the CRR model that stock price changes are lognormally distributed:
 
 $$
-l n (S _ {t + \Delta}) - l n (S _ {t}) \sim \mathbb {N} \left[ \left(\mu - \frac {\sigma^ {2}}{2}\right) \Delta , \sigma \sqrt {\Delta} \right]
+\ln (S _ {t + \Delta}) - \ln (S _ {t}) \sim \mathbb {N} \left[ \left(\mu - \frac {\sigma^ {2}}{2}\right) \Delta , \sigma \sqrt {\Delta} \right]
 $$
 
 # 7.5 Deriving the Log-Returns Expression
@@ -370,4 +413,4 @@ $$
 
 # References
 
-Add CRR mdoel, trinomial model, some powerpoints, the derivation.
+Add CRR model, trinomial model, some powerpoints, the derivation.

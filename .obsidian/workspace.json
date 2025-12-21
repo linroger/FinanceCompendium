@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "V. Equities and Alternatives/Equities/Investments BKM/Part 7 - Applied Portfolio Management/Chapter 25 - International Diversification.md",
+                "file": "V. Equities and Alternatives/Equities/Investments BKM/Part 7 - Applied Portfolio Management/Chapter 26 - Alternative Assets.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 25 - International Diversification"
+              "title": "Chapter 26 - Alternative Assets"
             }
           },
           {
@@ -245,6 +245,7 @@
   },
   "active": "f415a2f46a27c8d6",
   "lastOpenFiles": [
+    "V. Equities and Alternatives/Equities/Investments BKM/Part 7 - Applied Portfolio Management/Chapter 25 - International Diversification.md",
     "V. Equities and Alternatives/Equities/Investments BKM/Part 6 - Options Futures and Other Derivatives/Chapter 20 - Options Markets Introduction.md",
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Chapter 01 What Is Mathematics.md",
     "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/notification.json",
@@ -280,7 +281,6 @@
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Appendix A Definitions and Theorems.md",
     "styleguide/subagent-formatting-instructions.md",
     "I. Foundations/Machine Learning/Foundations of Language Models.md",
-    "IV. Fixed Income/Fundamentals/Bond Markets, Analysis, and Strategies Processed.md",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]

@@ -1,46 +1,92 @@
 ---
-parent_directory: FINM Quantitative Trading Strategies/Lecture Notes
 title: "Lecture 02: A Simple Quantitative Trading Example - Spread Trading"
-tags:
-aliases:
-  - Spread Trading
-  - Simple Quantitative Trading Example
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+parent_directory: FINM Quantitative Trading Strategies/Lecture Notes
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+   - spread trading
+   - quantitative trading strategy
+   - mean reversion
+secondary_tags:
+   - futures contracts
+   - pair trading
+   - treasury note futures
+   - return spreads
+   - stop loss
+   - hedge proportions
+   - backtesting
 cssclasses: academia
 ---
 
-# A SIMPLE QUANTITATIVE TRADING EXAMPLE: SPREADS
+# A Simple Quantitative Trading Example: Spreads
 
-# 1. WORKING OUT A SPREAD TRADE
+## 1. Working Out a Spread Trade
 
 Let's work out what the bones of a quantitative trading strategy might entail by examining one of the simplest examples: the spread trade.
 
 Spread trading strategies have a long history and many current forms. Because they involve trading more than one asset, they are just about the simplest example of a case where we can stochastically control risk versus reward.
 
-1.1. What Is A Spread? Let's say we monitor prices or returns on a pair of securities. For sake of argument, we will say we are monitoring the prices  $f_{t}^{(2)}, f_{t}^{(5)}$  of 2 and 5 year CME treasury note futures<sup>1</sup>. We can construct a new variable consisting of the difference between them
+### 1.1. What Is a Spread?
+
+Let's say we monitor prices or returns on a pair of securities. For sake of argument, we will say we are monitoring the prices $f_{t}^{(2)}, f_{t}^{(5)}$ of 2 and 5 year CME treasury note futures<sup>1</sup>. We can construct a new variable consisting of the difference between them.
 
 $$
-s _ {t} := f _ {t} ^ {(5)} - f _ {t} ^ {(2)}
+s_{t} := f_{t}^{(5)} - f_{t}^{(2)}
 $$
 
-This value  $s_t$  is called the spread or difference spread between the 2 and 5 year note futures, and we often think in terms of trading spreads, even when in practice the trades are expressed in underlying securities such as futures contracts.
+This value $s_t$ is called the spread or difference spread between the 2 and 5 year note futures, and we often think in terms of trading spreads, even when in practice the trades are expressed in underlying securities such as futures contracts.
 
-1.1.1. Return Spreads. For assets with clear fundamental relations, we tend to use difference spreads as above. Frequently, we prefer to assume that old differences are "priced in" and therefore unlikely to change, in which case we may prefer return spreads in which we consider how much returns for the two assets have differed in recent history.
+```d2
+spread_visual: Spread Calculation Visualization {
+  direction: right
+  f5_year: 5-Year Futures {
+    label: f_t^(5)
+  }
+  f2_year: 2-Year Futures {
+    label: f_t^(2)
+  }
+  spread: Spread s_t {
+    label: s_t = f_t^(5) - f_t^(2)
+  }
+  f5_year -> spread
+  f2_year -> spread
+}
+```
 
-1.2. Reversion To The Mean. We might find that, during the 20 years from 1995 to 2015, the average of  $s_t$  was  $\bar{s} = 8.5$ . It is easy to conceive of a strategy that would plausibly make money by always making bets that, whatever the value of  $s_t$ , it is expected to revert back to around 8.5. How would such a spread trading strategy look?
+#### 1.1.1. Return Spreads
 
-It probably does not make sense to make bets when the current  $s_t$  is very close to 8.5. So, for example, if  $s_t = 8.499$  or  $s_t = 8.501$  we should not hold a position. On the other hand, if  $s_t = 4.0$  this looks like a good opportunity to bet that  $s$  will soon rise. We do not necessarily know if  $f_t^{(2)}$  will fall or  $f_t^{(5)}$  will rise, but we think some combination of those things will happen. So it makes sense to both short some 2 year note futures and buy some 5 year note futures. We call this "buying" the spread because we are trading securities in such a way that we think the spread will rise.
+For assets with clear fundamental relations, we tend to use difference spreads as above. Frequently, we prefer to assume that old differences are "priced in" and therefore unlikely to change, in which case we may prefer return spreads in which we consider how much returns for the two assets have differed in recent history.
 
-For similar reasons, if we see  $s_t = 12.0$  then we ought to buy some 2 year note futures and short some 5 year note futures. We call this "shorting" the spread.
+### 1.2. Reversion to the Mean
 
-Now, if  $s_t = 14.0$ , it is easy to argue that the opportunity is greater and we should be shorting even more of the spread. But remember, it probably only got to 14.0 by going through 12.0 at some point. We are likely already short the spread and, since it has risen further, have lost money on the position. Are we prepared to lose more?
+We might find that, during the 20 years from 1995 to 2015, the average of $s_t$ was $\bar{s} = 8.5$. It is easy to conceive of a strategy that would plausibly make money by always making bets that, whatever the value of $s_t$, it is expected to revert back to around 8.5. How would such a spread trading strategy look?
+
+It probably does not make sense to make bets when the current $s_t$ is very close to 8.5. So, for example, if $s_t = 8.499$ or $s_t = 8.501$ we should not hold a position. On the other hand, if $s_t = 4.0$ this looks like a good opportunity to bet that $s$ will soon rise. We do not necessarily know if $f_t^{(2)}$ will fall or $f_t^{(5)}$ will rise, but we think some combination of those things will happen. So it makes sense to both short some 2 year note futures and buy some 5 year note futures. We call this "buying" the spread because we are trading securities in such a way that we think the spread will rise.
+
+For similar reasons, if we see $s_t = 12.0$ then we ought to buy some 2 year note futures and short some 5 year note futures. We call this "shorting" the spread.
+
+Now, if $s_t = 14.0$, it is easy to argue that the opportunity is greater and we should be shorting even more of the spread. But remember, it probably only got to 14.0 by going through 12.0 at some point. We are likely already short the spread and, since it has risen further, have lost money on the position. Are we prepared to lose more?
 
 In spread trading, it is common to have some point at which you admit that your hypothesis (of spread reverting to its mean) has been so contradicted by market data that you are no longer willing to believe it, at least not with your dollars. Such a point is often defined in terms of PL - dollars lost to the position, and is called a stop loss level. Once you have reached it, you resolve to close out all positions, and perhaps wait a while before attempting a similar spread trade again.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/266f9831-02ff-49c7-a2f9-14427b928968/b9f643e2cb73bcab39819999d9e268cc7fc2127550fa64e90066ebb2324ee077.jpg)  
-Profit: 0.045  
+```d2
+mean_reversion: Mean Reversion Strategy Visualization {
+  direction: down
+  current_spread: Current Spread s_t
+  mean_spread: Mean Spread bar(s) = 8.5
+  decision: Decision {
+    if s_t < mean: Buy Spread
+    if s_t > mean: Short Spread
+  }
+  current_spread -> decision
+  mean_spread -> decision
+  decision -> position: Take Position
+}
+```
+
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/266f9831-02ff-49c7-a2f9-14427b928968/b9f643e2cb73bcab39819999d9e268cc7fc2127550fa64e90066ebb2324ee077.jpg)
+Profit: 0.045
 FIGURE 1. Trading A Hypothetical Spread
 
 The human complexity of spread trading is very low. It can be done in 50-150 lines of R or Python, and is feasible even in Excel. However, when we consider how might approach it in practice, we find there are many parameters to determine and they are likely to make us run simulations over and over. These parameters include

@@ -1,11 +1,25 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "The Lognormal Distribution"
+parent_directory: "chapters manual"
+formatted: "2025-12-21 02:20:00 AM"
+formatter_model: "claude-sonnet-4-5-20251001"
+cli-tool: "claude-code"
+primary_tags:
+  - lognormal distribution
+  - normal distribution
+  - black-scholes model
+  - continuously compounded returns
+  - stock price modeling
+secondary_tags:
+  - probability calculations
+  - volatility estimation
+  - option pricing
+  - risk-neutral valuation
+  - statistical distributions
+  - central limit theorem
+  - monte carlo simulation
+  - value at risk
 cssclasses: academia
-title: The Lognormal Distribution
-linter-yaml-title-alias: The Lognormal Distribution
 ---
 
 # The Lognormal Distribution
@@ -14,7 +28,7 @@ It is common in option pricing to assume the lognormality of asset prices. The p
 
 We will find that stock prices are not exactly lognormal. Nevertheless, the lognormal assumption is the basis for many frequently used pricing formulas. Moreover, it is difficult to understand more realistic models used in practice without first understanding models based on the lognormal distribution.
 
-# I. THE NORMAL DISTRIBUTION
+## I. THE NORMAL DISTRIBUTION
 
 A random variable,  $\tilde{x}$ , obeys the normal distribution—or is normally distributed—if the probability that  $\tilde{x}$  takes on a particular value is described by the normal density function, which we represent by  $\phi$ . The formula for the normal density function is
 
@@ -26,7 +40,7 @@ Notice in equation (1) that in order to calculate a value for  $\phi$ , in addit
 
 Figure 1 graphs equation (1) for two different standard deviations (1 and 1.5), and for the same mean (0). The normal density with  $\mu = 0$  and  $\sigma = 1$  is called the standard normal density. When working with the standard normal density, we will write  $\phi(x)$ , without a mean and standard deviation.
 
-# FIGURE I
+### Figure 1
 
 Two normal densities with mean 0, one with  $\sigma = 1$  (the standard normal), the other with  $\sigma = 1.5$ .
 
@@ -52,7 +66,7 @@ We can use the normal distribution to compute the probability of different event
 
 We could ask, for example, what is the probability that if we draw a number from the standard normal distribution, it will be less than some number  $a$ ? The area under the curve to the left of  $a$ , denoted  $N(a)$ , equals this probability,  $\operatorname{Pr}(z < a)$ . We call  $N(a)$  the cumulative normal distribution function. The integral from  $-\infty$  to  $a$  is the area under the density over that range; it is cumulative in that it sums the probabilities from  $-\infty$  to  $a$ .
 
-# FIGURE 2
+### Figure 2
 
 Top panel: Area under the normal curve to the left of 0.3. Bottom panel: Cumulative normal distribution. The height at  $x = 0.3$ , given by  $N(0.3)$ , is 0.6179.
 
@@ -99,12 +113,12 @@ $$
 Example 1. The probability that a number drawn from the standard normal distribution will be between  $-0.3$  and  $+0.3$  is
 
 $$
-\begin{array}{l} \Pr (- 0. 3 <   z <   0. 3) = N (0. 3) - N (- 0. 3) \\ = N (0. 3) - [ 1 - N (0. 3) ] \\ = 2 \times 0. 6 1 7 9 - 1 = 0. 2 3 5 8 \\ \end{array}
+\begin{array}{l} \Pr (-0.3 < z < 0.3) = N(0.3) - N(-0.3) \\ = N(0.3) - [1 - N(0.3)] \\ = 2 \times 0.6179 - 1 = 0.2358 \\ \end{array}
 $$
 
 Finally, if a variable obeys the standard normal distribution, it is extremely unlikely to take on large positive or negative values. The probability that a single draw will be below  $-3$  or above 3 is only 0.0027. If you drew from a standard normal distribution every day, you would draw above 3 or below  $-3$  only about once a year. The probability of being below  $-4$  or above 4 is 0.000063, which, with daily draws, would occur on average about once every 43.25 years.
 
-# Converting a Normal Random Variable to Standard Normal
+### Converting a Normal Random Variable to Standard Normal
 
 If we have an arbitrary normal random variable, it is easy to convert it to standard normal. Suppose
 
@@ -144,11 +158,11 @@ $$ and
 
 $$
 
-3 + 5 \times z \sim \mathcal {N} (3, 2 5)
+3 + 5 \times z \sim \mathcal{N}(3, 25)
 
 $$
 
-# Sums of Normal Random Variables
+### Sums of Normal Random Variables
 
 Suppose we have  $n$  jointly distributed random variables  $x_{i}, i = 1, \dots, n$ , with mean and variance  $\operatorname{E}(x_i) = \mu_i$ ,  $\operatorname{Var}(x_i) = \sigma_i^2$ , and covariance  $\operatorname{Cov}(x_i, x_j) = \sigma_{ij}$ . (The covariance between two random variables measures their tendency to move together. We can also write the covariance in terms of  $\rho_{ij}$ , the correlation between  $x_{i}$  and  $x_{j}$ :  $\sigma_{ij} = \rho_{ij}\sigma_i\sigma_j$ .) Then the weighted sum of the  $n$  random variables has mean
 
@@ -182,7 +196,7 @@ The normal distribution is therefore not just a convenient, aesthetically pleasi
 
 In the context of asset returns, the continuously compounded stock return over a year is the sum of the daily continuously compounded returns. If news and other factors are the shocks that cause asset prices to change, and if these changes are independent, then it is natural to think that longer-period continuously compounded returns are normally distributed. Since the central limit theorem is a theorem about what happens in the limit, sums of just a few random variables may not appear normal. But the normality of continuously compounded returns is a reasonable starting point for thinking about stock returns.
 
-# 2. THE LOGNORMAL DISTRIBUTION
+## 2. THE LOGNORMAL DISTRIBUTION
 
 A random variable,  $y$ , is said to be lognormally distributed if  $\ln(y)$  is normally distributed. Put another way, if  $x$  is normally distributed,  $y$  is lognormal if it can be written in either of two equivalent ways:
 
@@ -234,7 +248,7 @@ $$
 
 We prove this in Appendix A, but it is intuitive that the mean of the exponentiated variable will be greater than the exponentiated mean of the underlying normal variable. Exponentiation is asymmetric: A positive random draw generates a bigger increase than an identical negative random draw does a decrease. To see this, consider a mean zero binomial random variable that is 0.5 with probability 0.5 and  $-0.5$  with probability 0.5. You can verify that  $e^{0.5} = 1.6487$ . Thus,  $\frac{e^{0.5} + e^{-0.5}}{2} = \frac{1.6487 + 0.6065}{2} = 1.128$ , which is obviously greater than  $e^0 = 1$ .
 
-# FIGURE 3
+### Figure 3
 
 Graph of the lognormal density for  $y$ , where  $\ln(y) \sim \mathcal{N}(0,1)$ ,  $\ln(y) \sim \mathcal{N}(0,1.5)$ , and  $\ln(y) \sim \mathcal{N}(1.5,0.2)$ .
 
@@ -252,7 +266,7 @@ $$
 
 While we can compute the variance of a lognormal variable, it is much more convenient to use only the variance of  $\ln (y)$ , which is normal.
 
-# 3. A LOGNORMAL MODEL OF STOCK PRICES
+## 3. A LOGNORMAL MODEL OF STOCK PRICES
 
 How do we implement lognormality as a model for the stock price? If the stock price  $S_{t}$  is lognormal, we can write
 
@@ -321,7 +335,7 @@ Now we have enough background to present an explicit lognormal model of the stoc
 
 $$
 
-\ln \left(S _ {t} / S _ {0}\right) \sim \mathcal {N} [ (\alpha - \delta - 0. 5 \sigma^ {2}) t, \sigma^ {2} t ] \tag {18}
+\ln \left(S _ {t} / S _ {0}\right) \sim \mathcal{N} [ (\alpha - \delta - 0.5 \sigma^ {2}) t, \sigma^ {2} t ] \tag {18}
 
 $$
 
@@ -398,7 +412,7 @@ Example 4. Suppose that the stock price today is \$100, the expected rate of ret
 
 $$
 
-S _ {2} = \$ 100 e ^ {(0. 1 - \frac {1}{2} (0. 3 ^ {2}) \times 2 + \sigma \sqrt {2} Z}
+S _ {2} = \$ 100 e ^ {(0.1 - \frac {1}{2} (0.3 ^ {2}) \times 2 + \sigma \sqrt {2} Z}
 
 $$
 
@@ -406,7 +420,7 @@ The expected value of  $S_{2}$  is
 
 $$
 
-\mathrm {E} (S _ {2}) = \\mathbb {1} 0 0 e ^ {(0. 1 \times 2)} = \\mathbb {1} 2 2. 1 4
+\mathrm {E} (S _ {2}) = \$100 e ^ {(0.1 \times 2)} = \$122.14
 
 $$
 
@@ -414,7 +428,7 @@ The median stock price is
 
 $$
 
-\$ 100 e ^ {(0. 1 - 0. 5 \times 0. 3 ^ {2}) \times 2} = \$ 1 1 1. 6 3
+\$ 100 e ^ {(0.1 - 0.5 \times 0.3 ^ {2}) \times 2} = \$ 111.63
 
 $$
 
@@ -422,7 +436,7 @@ If the volatility were  $60\%$ , the expected value would still be 122.14, but t
 
 $$
 
-\$ 100 e ^ {(0. 1 - 0. 5 \times 0. 6 ^ {2}) \times 2} = \$ 85. 2 1
+\$ 100 e ^ {(0.1 - 0.5 \times 0.6 ^ {2}) \times 2} = \$ 85.21
 
 $$
 
@@ -434,7 +448,7 @@ Example 5. Using the same assumptions as in Example 4, a one standard deviation 
 
 $$
 
-S _ {2} = \$ 1 0 0 e ^ {(0. 1 - \frac {1}{2} 0. 3 ^ {2}) \times 2 + \sigma \sqrt {2} \times 1} = \$ 1 7 0. 6 2
+S _ {2} = \$ 100 e ^ {(0.1 - \frac {1}{2} 0.3 ^ {2}) \times 2 + \sigma \sqrt {2} \times 1} = \$ 170.62
 
 $$
 
@@ -442,7 +456,7 @@ A one standard deviation move down is given by
 
 $$
 
-S _ {2} = \$ 1 0 0 e ^ {(0. 1 - \frac {1}{2} 0. 3 ^ {2}) \times 2 - \sigma \sqrt {2} \times 1} = \$ 7 3. 0 3
+S _ {2} = \$ 100 e ^ {(0.1 - \frac {1}{2} 0.3 ^ {2}) \times 2 - \sigma \sqrt {2} \times 1} = \$ 73.03
 
 $$
 
@@ -456,22 +470,22 @@ S _ {u} = S e ^ {\alpha h + \sigma \sqrt {h}}; \qquad S _ {d} = S e ^ {\alpha h 
 
 $$ where  $\alpha$  differed for the three models. In all cases, we generated up and down moves by setting  $Z = \pm 1$ . As  $h \to 0$  the three models converge; the effects of the different  $\alpha$ 's in each case are offset by the different risk-neutral probabilities.
 
-# 4. LOGNORMAL PROBABILITY CALCULATIONS
+## 4. LOGNORMAL PROBABILITY CALCULATIONS
 
 If  $S_{t}$  is lognormally distributed, we can use this fact to compute a number of probabilities and expectations. For example, we can compute the probability that an option will expire in the money, and, given that it expires in the money, the expected stock price. In this section we will present formulas for these calculations.
 
-# Probabilities
+### Probabilities
 
 If the stock price today is  $S_0$ , what is the probability that  $S_t < K$ , where  $K$  is some arbitrary number? Note that  $S_t < K$  exactly when  $\ln(S_t) < \ln(K)$ . Since  $\ln(S_t)$  is normally distributed, we can just use the normal calculations we developed above. We have
 
 $$
-\ln (S _ {t} / S _ {0}) \sim \mathcal {N} [ (\alpha - \delta - 0. 5 \sigma^ {2}) t, \sigma^ {2} t ]
+\ln (S _ {t} / S _ {0}) \sim \mathcal{N} [ (\alpha - \delta - 0.5 \sigma^ {2}) t, \sigma^ {2} t ]
 $$ or, equivalently,
 
 
 $$
 
-\ln \left(S _ {t}\right) \sim \mathcal {N} \left[ \ln \left(S _ {0}\right) + (\alpha - \delta - 0. 5 \sigma^ {2}) t, \sigma^ {2} t \right]
+\ln \left(S _ {t}\right) \sim \mathcal{N} \left[ \ln \left(S _ {0}\right) + (\alpha - \delta - 0.5 \sigma^ {2}) t, \sigma^ {2} t \right]
 
 $$
 
@@ -479,7 +493,7 @@ We can create a standard normal number random variable,  $Z$ , by subtracting th
 
 $$
 
-Z = \frac {\ln (S _ {t}) - \ln (S _ {0}) - (\alpha - \delta - 0 . 5 \sigma^ {2}) t}{\sigma \sqrt {t}}
+Z = \frac {\ln (S _ {t}) - \ln (S _ {0}) - (\alpha - \delta - 0.5 \sigma^ {2}) t}{\sigma \sqrt {t}}
 
 $$
 
@@ -493,7 +507,7 @@ $$
 
 $$
 
-\operatorname * {P r} \left[ \frac {\ln (S _ {t}) - \ln (S _ {0}) - (\alpha - \delta - 0 . 5 \sigma^ {2}) t}{\sigma \sqrt {t}} <   \frac {\ln (K) - \ln (S _ {0}) - (\alpha - \delta - 0 . 5 \sigma^ {2}) t}{\sigma \sqrt {t}} \right]
+\operatorname * {P r} \left[ \frac {\ln (S _ {t}) - \ln (S _ {0}) - (\alpha - \delta - 0.5 \sigma^ {2}) t}{\sigma \sqrt {t}} <   \frac {\ln (K) - \ln (S _ {0}) - (\alpha - \delta - 0.5 \sigma^ {2}) t}{\sigma \sqrt {t}} \right]
 
 $$
 
@@ -501,7 +515,7 @@ Since the left-hand side is a standard normal random variable, the probability t
 
 $$
 
-\operatorname * {P r} (S _ {t} <   K) = \operatorname * {P r} \left[ Z <   \frac {\ln (K) - \ln (S _ {0}) - (\alpha - \delta - 0 . 5 \sigma^ {2}) t}{\sigma \sqrt {t}} \right]
+\operatorname * {P r} (S _ {t} <   K) = \operatorname * {P r} \left[ Z <   \frac {\ln (K) - \ln (S _ {0}) - (\alpha - \delta - 0.5 \sigma^ {2}) t}{\sigma \sqrt {t}} \right]
 
 $$
 

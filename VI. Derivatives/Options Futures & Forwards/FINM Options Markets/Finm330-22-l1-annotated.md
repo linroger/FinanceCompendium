@@ -1,24 +1,33 @@
 ---
-parent_directory:
 title: Financial Mathematics 33000
-tags:
-aliases:
-parent_folder: Options
-subfolder:
-key_concepts:
+parent_directory: VI. Derivatives/Options Futures & Forwards/FINM Options Markets
+formatted: 2025-12-21 02:50:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - financial mathematics
+  - options pricing
+  - arbitrage free pricing
+secondary_tags:
+  - forward contracts
+  - call options
+  - put options
+  - put call parity
+  - static portfolios
+  - discount bonds
+  - frictionless markets
 cssclasses: academia
-linter-yaml-title-alias: Financial Mathematics 33000
 ---
 
 # Financial Mathematics 33000
 
-# Lecture 1
+## Lecture 1
 
 Roger Lee
 
 2022 September 28
 
-# Introduction
+## Introduction
 
 General properties of arbitrage-free prices
 

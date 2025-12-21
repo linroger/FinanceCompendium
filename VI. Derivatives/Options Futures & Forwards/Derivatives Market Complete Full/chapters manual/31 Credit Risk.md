@@ -1,11 +1,30 @@
 ---
+title: "Credit Risk"
 aliases:
-tags:
-key_concepts:
-parent_directory:
+   - Credit Risk
+   - Default Concepts
+   - Credit Default Swaps
+parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:17:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - credit risk management
+  - default probability
+  - credit default swaps
+  - merton model
+  - credit ratings
+secondary_tags:
+  - bankruptcy valuation
+  - recovery rates
+  - credit events
+  - collateralized debt obligations
+  - risk neutral pricing
+  - bond default risk
+  - credit derivatives
+  - counterparty risk
+  - financial crisis impact
 cssclasses: academia
-title: Credit Risk
-linter-yaml-title-alias: Credit Risk
 ---
 
 # Credit Risk
@@ -16,7 +35,7 @@ In this chapter we discuss theory and practice relating to credit risk. We first
 
 Defaults and fear of defaults played a central role in the financial crisis of 2008, so you may recognize many of the terms and concepts in this chapter. Credit risk is important because routine financial dealings presume the credit-worthiness of a counterparty. Also, many investors seek assets that have a low risk of default. Thus, assessing and managing credit risk are of critical importance in modern financial markets.
 
-# I. DEFAULT CONCEPTS AND TERMINOLOGY
+## I. DEFAULT CONCEPTS AND TERMINOLOGY
 
 In this section we introduce basic concepts and terminology related to default in the context of pricing a zero-coupon bond. Suppose that a firm with asset value  $A_0$  issues a zero-coupon bond maturing at time  $T$ , with a promised payment of  $\bar{B}$ . Let  $B_T$  denote the market value of the bond at time  $T$ . At time  $T$ , there are two possible outcomes:
 
@@ -32,14 +51,13 @@ $$
 The first integral on the right-hand side is the risk-neutral partial expectation of the asset value, conditional on bankruptcy. The second integral is the risk-neutral probability that the firm is not bankrupt. Thus, we can rewrite the value of the bonds as
 
 $$
-B _ {0} = e ^ {- r T} \left\{\mathrm {E} ^ {*} \left(A _ {T} | \text {D e f a u l t}\right) \times \Pr^ {*} (\text {D e f a u l t}) + \bar {B} \times [ 1 - \Pr^ {*} (\text {D e f a u l t}) ] \right\}
-$$ where  $\mathrm{E}^*$  and  $\mathrm{Pr}^*$  are computed with respect to the risk-neutral measure. Since  $B_{T} = A_{T}$  in default, we can also write this as
-
-
+B_{0} = e^{-rT} \left\{\mathrm{E}^{*} \left(A_{T} | \text{Default}\right) \times \Pr^{*} (\text{Default}) + \bar{B} \times [1 - \Pr^{*} (\text{Default})] \right\}
 $$
 
-B _ {0} = e ^ {- r T} \left\{\mathrm {E} ^ {*} \left(B _ {T} | \text {D e f a u l t}\right) \times \Pr^ {*} (\text {D e f a u l t}) + \bar {B} \times [ 1 - \Pr^ {*} (\text {D e f a u l t}) ] \right\} \tag {2}
+where $\mathrm{E}^{*}$ and $\Pr^{*}$ are computed with respect to the risk-neutral measure. Since $B_{T} = A_{T}$ in default, we can also write this as
 
+$$
+B_{0} = e^{-rT} \left\{\mathrm{E}^{*} \left(B_{T} | \text{Default}\right) \times \Pr^{*} (\text{Default}) + \bar{B} \times [1 - \Pr^{*} (\text{Default})] \right\} \tag{2}
 $$
 
 If we set the probability of default equal to zero, equation (2) yields the standard formula for the value of a default-free bond,  $B_0 = e^{-rT}\bar{B}$ . Equation (2) also illustrates that default introduces two new elements: the default probability  $(\mathrm{Pr}^*[Default])$ , and the payoff conditional on default  $(\mathrm{E}^* \left[ B_T | Default \right])$ .
@@ -90,7 +108,7 @@ $$
 
 Thus, the credit spread approximately equals the annualized product of the risk-neutral default probability and the expected loss given default.
 
-# 2. THE MERTON DEFAULT MODEL
+## 2. THE MERTON DEFAULT MODEL
 
 Owning zero-coupon debt subject to default is the same thing as owning a default-free bond and writing a put option on the assets of the firm. This is an example of a structural approach to modeling bankruptcy: We create an explicit model for the evolution of the firm's assets, coupled with a rule governing default.
 
@@ -481,7 +499,7 @@ Variants of standard CDS indices trade:
 
 Tranched investment grade CDX has a payoff structure illustrated in Figure 4. Products based on this structure can be either funded or unfunded. We discuss tranched structure below, and we will see that the pricing of the various tranches is sensitive to correlation. In fact, tranche pricing can be quoted using implied correlation in much the same way equity option premiums are quoted using implied volatility.
 
-# Other Credit-Linked Structures
+## Other Credit-Linked Structures
 
 There are other ways to hedge credit risk besides credit default swaps. It is possible to swap the return on a bond for the return on a different asset (total return swaps), and it is possible to create funded structures that pay when there is a default (credit-linked notes).
 
@@ -493,7 +511,7 @@ Because of the trust, the credit-linked notes can be paid in full even if ABC de
 
 Credit Guarantees. If party A guarantees party B against default on a debt obligation, party A is said to have issued a credit guarantee. A credit guarantee is a put option on an obligation, with the option payable on a default or other credit event. Thus, a credit guarantee is effectively like a CDS. One consequence of the financial crisis is that the federal government in the United States has become a major provider of credit guarantees. Some of these are described in the box on the next page.
 
-# 5. TRANCHED STRUCTURES
+## 5. TRANCHED STRUCTURES
 
 Financial institutions acquire assets that are difficult to resell individually, examples of which are auto loans, credit card receivables, home equity loans, and mortgages. A process called securitization provides a mechanism for reselling such assets by pooling together many of them and creating securities based on the pool. An asset-backed security (ABS)
 

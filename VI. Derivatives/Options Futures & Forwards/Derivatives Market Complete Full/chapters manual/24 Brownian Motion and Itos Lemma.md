@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Brownian Motion and Itos Lemma
-linter-yaml-title-alias: Brownian Motion and Itos Lemma
+parent_directory: chapters manual
+formatted: 2025-12-21 02:25:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+  - brownian motion
+  - itos lemma
+  - stochastic processes
+  - geometric brownian motion
+  - stochastic calculus
+secondary_tags:
+  - quadratic variation
+  - martingale pricing
+  - diffusion processes
+  - risk neutral valuation
+  - stochastic differential equations
+  - lognormal distribution
+  - cholesky decomposition
+  - jensens inequality
+  - taylor series expansion
+  - delta gamma approximation
+cssclasses: academia
 ---
 
 # Brownian Motion and Itos Lemma
@@ -22,7 +38,7 @@ $$
 \frac {d S (t)}{S (t)} = (\alpha - \delta) d t + \sigma d Z (t) \tag {1}
 $$
 
-In this expression,  $S(t)$  is the stock price,  $dS(t)$  is the instantaneous change in the stock price,  $\alpha$  is the continuously compounded expected return on the stock,  $\sigma$  is the standard deviation of the instantaneous return (volatility), and  $Z(t)$  is a normally distributed random variable that follows a process called Brownian motion. The variable  $dZ(t)$  represents the change in  $Z(t)$  over a short period of time. A stock obeying equation (1) is said to follow a process called geometric Brownian motion. Expressions like equation (1) are called stochastic differential equations.
+In this expression, $S(t)$ is the stock price, $dS(t)$ is the instantaneous change in the stock price, $\alpha$ is the continuously compounded expected return on the stock, $\sigma$ is the standard deviation of the instantaneous return (volatility), and $Z(t)$ is a normally distributed random variable that follows a process called Brownian motion. The variable $dZ(t)$ represents the change in $Z(t)$ over a short period of time. A stock obeying equation (1) is said to follow a process called geometric Brownian motion. Expressions like equation (1) are called stochastic differential equations.
 
 From Chapter 20 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
@@ -31,7 +47,7 @@ One goal of this chapter is to understand the meaning of equations like (1). For
 1. If the stock price follows equation (1), the distribution of  $S(T)$ , conditional upon the current price  $S(0)$ , is lognormal, i.e.,
 
 $$
-\ln [ S (T) ] \sim \mathcal {N} (\ln [ S (0) ] + [ \alpha - \delta - 0. 5 \sigma^ {2} ] T, \sigma^ {2} T)
+\ln [ S (T) ] \sim \mathcal {N} (\ln [ S (0) ] + [ \alpha - \delta - 0.5 \sigma^ {2} ] T, \sigma^ {2} T)
 $$
 
 The assumption that the stock follows geometric Brownian motion thus provides a foundation for our assumption that the stock price is lognormally distributed.
@@ -50,8 +66,8 @@ Brownian motion is a continuous stochastic process,  $Z(t)$ , with the following
 
 $Z(0) = 0$
 
-- $Z(t + s) - Z(t)$  is normally distributed with mean 0 and variance  $s$ .
-- $Z(t + s_1) - Z(t)$  is independent of  $Z(t) - Z(t - s_2)$ , where  $s_1, s_2 > 0$ . In other words, nonoverlapping increments are independently distributed.
+- $Z(t + s) - Z(t)$ is normally distributed with mean 0 and variance $s$.
+- $Z(t + s_1) - Z(t)$ is independent of $Z(t) - Z(t - s_2)$, where $s_1, s_2 > 0$. In other words, nonoverlapping increments are independently distributed.
 - $Z(t)$  is continuous (you can draw a picture of Brownian motion without lifting your pencil).
 
 These properties imply that  $Z(t)$  is a martingale: a stochastic process for which  $\operatorname{E}[Z(t + s)|Z(t)] = Z(t)$ . The process  $Z(t)$  is also called a diffusion process. Brownian motion is an example of a random walk, which is a stochastic process with independent increments.
@@ -255,7 +271,7 @@ We now circle back to our discussion of lognormality because of this fact: A var
 While  $X$  is not normal,  $\ln [X(t)]$  is normally distributed:
 
 $$
-\ln [ X (t) ] \sim \mathcal {N} (\ln [ X (0) ] + (\alpha - 0. 5 \sigma^ {2}) t, \sigma^ {2} t) \tag {12}
+\ln [ X (t) ] \sim \mathcal {N} (\ln [ X (0) ] + (\alpha - 0.5 \sigma^ {2}) t, \sigma^ {2} t) \tag {12}
 $$
 
 As a result, we can write
@@ -269,7 +285,7 @@ Given that  $X$  follows (11), we can compute the expected value of  $X$  at a p
 
 $$
 
-\begin{array}{l} \operatorname {E} [ X (t) ] = X (0) e ^ {(\alpha - 0. 5 \sigma^ {2}) t} \mathrm {E} _ {0} \left(e ^ {\sigma \sqrt {t} Z}\right) \\ = X (0) e ^ {\left(\alpha - 0. 5 \sigma^ {2}\right) t} e ^ {0. 5 \sigma^ {2} t} \tag {14} \\ = X (0) e ^ {\alpha t} \\ \end{array}
+\begin{array}{l} \operatorname {E} [ X (t) ] = X (0) e ^ {(\alpha - 0.5 \sigma^ {2}) t} \mathrm {E} _ {0} \left(e ^ {\sigma \sqrt {t} Z}\right) \\ = X (0) e ^ {\left(\alpha - 0.5 \sigma^ {2}\right) t} e ^ {0.5 \sigma^ {2} t} \tag {14} \\ = X (0) e ^ {\alpha t} \\ \end{array}
 
 $$
 
@@ -321,7 +337,7 @@ Expanding this expression and simplifying, we have
 
 $$
 
-[ X (t + h) - X (t) ] ^ {2} = \alpha^ {2} X (t) ^ {2} h ^ {2} + 2 \alpha \sigma X (t) ^ {2} Y (t) h ^ {1. 5} + \sigma^ {2} X (t) ^ {2} Y (t) ^ {2} h
+[ X (t + h) - X (t) ] ^ {2} = \alpha^ {2} X (t) ^ {2} h ^ {2} + 2 \alpha \sigma X (t) ^ {2} Y (t) h ^ {1.5} + \sigma^ {2} X (t) ^ {2} Y (t) ^ {2} h
 
 $$
 
@@ -347,11 +363,11 @@ $$
 $$
 
 Rewriting this expression gives us
-
-$$
-\left[ \alpha X (t) h + \sigma X (t) Y (t) \sqrt {h} \right] h = \alpha X (t) h ^ {2} + \sigma X (t) Y (t) h ^ {1. 5}
 $$
 
+\left[ \alpha X (t) h + \sigma X (t) Y (t) \sqrt {h} \right] h = \alpha X (t) h ^ {2} + \sigma X (t) Y (t) h ^ {1.5}
+
+$$
 Since the smallest power of  $h$  is 1.5, this entire term vanishes relative to  $h$  as  $h$  goes to zero.
 
 One way to make these calculations mechanical is to use the following so-called multiplication rules for terms containing  $dt$  and  $dZ$ :
@@ -567,7 +583,7 @@ Example 4 is interesting because we know that the product of lognormal variables
 
 Example 5. Suppose  $C(S_1, S_2) = S_1 / S_2$ . Then by Itô's Lemma we have
 
-$$ d \left(\frac {S _ {1}}{S _ {2}}\right) = d S _ {1} \frac {1}{S _ {2}} - d S _ {2} \frac {S _ {1}}{S _ {2} ^ {2}} + 0. 5 \left[ 2 (d S _ {2}) ^ {2} \frac {S _ {1}}{S _ {2} ^ {3}} - 2 d S _ {1} d S _ {2} \frac {1}{S _ {2} ^ {2}} \right]
+$$ d \left(\frac {S _ {1}}{S _ {2}}\right) = d S _ {1} \frac {1}{S _ {2}} - d S _ {2} \frac {S _ {1}}{S _ {2} ^ {2}} + 0.5 \left[ 2 (d S _ {2}) ^ {2} \frac {S _ {1}}{S _ {2} ^ {3}} - 2 d S _ {1} d S _ {2} \frac {1}{S _ {2} ^ {2}} \right]
 $$
 
 This implies that
@@ -648,7 +664,7 @@ Consider a claim that pays  $V(S(T), T) = S(T)^a$ . Because  $S$  follows geomet
 
 $$
 
-S (T) ^ {a} = S (0) ^ {a} e ^ {a (r - \delta - 0. 5 \sigma^ {2}) T + a \sigma Z (T)}
+S (T) ^ {a} = S (0) ^ {a} e ^ {a (r - \delta - 0.5 \sigma^ {2}) T + a \sigma Z (T)}
 
 $$
 
@@ -656,7 +672,7 @@ Computing the expectation of a lognormal variable, and discounting at the risk-f
 
 $$
 
-\begin{array}{l} e ^ {- r T} \mathrm {E} [ S (T) ^ {a} ] = e ^ {- r T} S (0) ^ {a} e ^ {a (r - \delta - 0. 5 \sigma^ {2}) T + 0. 5 a ^ {2} \sigma^ {2} T} \\ = e ^ {- r T} S (0) ^ {a} e ^ {[ a (r - \delta) + 0. 5 a (a - 1) \sigma^ {2} ] T} \\ \end{array}
+\begin{array}{l} e ^ {- r T} \mathrm {E} [ S (T) ^ {a} ] = e ^ {- r T} S (0) ^ {a} e ^ {a (r - \delta - 0.5 \sigma^ {2}) T + 0.5 a ^ {2} \sigma^ {2} T} \\ = e ^ {- r T} S (0) ^ {a} e ^ {[ a (r - \delta) + 0.5 a (a - 1) \sigma^ {2} ] T} \\ \end{array}
 
 $$
 
@@ -682,7 +698,7 @@ An alternative way to compute  $\operatorname{E}[S(T)^a]$  is to use Ito's Lemma
 
 $$
 
-\begin{array}{l} d S ^ {a} = a S ^ {a - 1} d S + 0. 5 a (a - 1) S ^ {a - 2} d S ^ {2} \\ = a S ^ {a} \frac {d S}{S} + 0. 5 a (a - 1) S ^ {a} \sigma^ {2} d t \\ \end{array}
+\begin{array}{l} d S ^ {a} = a S ^ {a - 1} d S + 0.5 a (a - 1) S ^ {a - 2} d S ^ {2} \\ = a S ^ {a} \frac {d S}{S} + 0.5 a (a - 1) S ^ {a} \sigma^ {2} d t \\ \end{array}
 
 $$
 
@@ -690,7 +706,7 @@ Using equation (30), this implies that
 
 $$
 
-\frac {d S (t) ^ {a}}{S ^ {a}} = [ a (r - \delta) + 0. 5 a (a - 1) \sigma^ {2} ] d t + a \sigma d Z \tag {34}
+\frac {d S (t) ^ {a}}{S ^ {a}} = [ a (r - \delta) + 0.5 a (a - 1) \sigma^ {2} ] d t + a \sigma d Z \tag {34}
 
 $$
 
@@ -698,7 +714,7 @@ The solution to equation (34) is
 
 $$
 
-S (T) ^ {a} = S (0) ^ {a} e ^ {a (r - \delta + 0. 5 a (a - 1) \sigma^ {2}) T - 0. 5 a ^ {2} \sigma^ {2} T + a \sigma Z (T)}
+S (T) ^ {a} = S (0) ^ {a} e ^ {a (r - \delta + 0.5 a (a - 1) \sigma^ {2}) T - 0.5 a ^ {2} \sigma^ {2} T + a \sigma Z (T)}
 
 $$
 
@@ -799,12 +815,12 @@ This gives us the same result as equation (35) for the forward price for a squar
 We obtain the price for the claim by computing  $e^{-r(T - t)}\mathrm{E}_t^* \left[ S(T)^a Q(T)^b \right]$ . We can compute the expectation by using the fact that  $S(T)^a$  and  $Q(T)^b$  are both lognormal. We have
 
 $$
-\begin{array}{l} S (T) ^ {a} Q (T) ^ {b} = S (0) ^ {a} e ^ {a (r - \delta_ {S} - 0. 5 \sigma_ {S} ^ {2}) T + a \sigma_ {S} Z _ {S} (T)} Q (0) ^ {b} e ^ {b (r - \delta_ {Q} - 0. 5 \sigma_ {Q} ^ {2}) T + b \sigma_ {Q} Z _ {Q} (T)} \\ = S (0) ^ {a} Q (0) ^ {b} e ^ {a (r - \delta_ {S} - 0. 5 \sigma_ {S} ^ {2}) T + b (r - \delta_ {Q} - 0. 5 \sigma_ {Q} ^ {2}) T} e ^ {a \sigma_ {S} Z _ {S} (T) + b \sigma_ {Q} Z _ {Q} (T)} \\ \end{array}
+\begin{array}{l} S (T) ^ {a} Q (T) ^ {b} = S (0) ^ {a} e ^ {a (r - \delta_ {S} - 0. 5 \sigma_ {S} ^ {2}) T + a \sigma_ {S} Z _ {S} (T)} Q (0) ^ {b} e ^ {b (r - \delta_ {Q} - 0. 5 \sigma_ {Q} ^ {2}) T + b \sigma_ {Q} Z _ {Q} (T)} \\ = S (0) ^ {a} Q (0) ^ {b} e ^ {a (r - \delta_ {S} - 0.5 \sigma_ {S} ^ {2}) T + b (r - \delta_ {Q} - 0.5 \sigma_ {Q} ^ {2}) T} e ^ {a \sigma_ {S} Z _ {S} (T) + b \sigma_ {Q} Z _ {Q} (T)} \\ \end{array}
 $$
 
 Note that the expectation of the second exponential term is
 
-$$ e ^ {0. 5 \left[ a ^ {2} \sigma_ {S} ^ {2} + b ^ {2} \sigma_ {Q} ^ {2} + 2 a b \sigma_ {S} \sigma_ {Q} \rho \right] T}
+$$ e ^ {0.5 \left[ a ^ {2} \sigma_ {S} ^ {2} + b ^ {2} \sigma_ {Q} ^ {2} + 2 a b \sigma_ {S} \sigma_ {Q} \rho \right] T}
 $$
 
 The expected time-  $T$  value of  $S^a Q^b$  under the risk-neutral measure is therefore

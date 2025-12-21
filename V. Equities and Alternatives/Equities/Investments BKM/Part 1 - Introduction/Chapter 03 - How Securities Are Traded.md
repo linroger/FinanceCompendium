@@ -57,8 +57,6 @@ An important innovation was introduced in 1982 when the SEC approved Rule 415 fo
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ed8ed02a5722bdb6b8b84a6242892d1b61f957f4020d2b0cfe8ba62ee60c70f6.jpg)
 Figure 3.1 Relationships among a firm issuing securities, the underwriters, and the public.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/ac2f1a7b2798054ff74fb68a4bdd16f48e08f95318526e97f0a8006076e82961.jpg)
-
 # Concept Check 3.1
 
 Why does it make sense for shelf registration to be limited in time?

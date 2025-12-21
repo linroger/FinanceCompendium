@@ -333,13 +333,13 @@ The lease rate for gold, silver, and other commodities is typically reported usi
 As an example of the lease rate computation, consider gold prices on June 2, 2010. The June, December, and June 2011 futures settlement prices that day were 1220.6, 1226.8, and 1234.3. The return from buying June gold and selling December gold would have been
 
 $$
-\mathrm {R e t u r n} _ {6 \text {m o n t h s}} = \frac {1 2 2 6 . 8}{1 2 2 0 . 6} - 1 = 0. 0 0 5 0 8
+\mathrm{Return}_{6 \text{months}} = \frac{1226.8}{1220.6} - 1 = 0.00508
 $$
 
-At the same time, June LIBOR was 99.432 and September LIBOR was 99.2, so the implied 6-month interest rate was  $(1 + 0.00568 / 4) \times (1 + 0.008 / 4)$ , a 6-month interest rate of 0.00342. Because the (nonannualized) implied 6-month gold appreciation rate exceeds (nonannualized) 6-month LIBOR, the lease rate is negative. The annualized lease rate in this calculation is
+At the same time, June LIBOR was 99.432 and September LIBOR was 99.2, so the implied 6-month interest rate was $(1 + 0.00568 / 4) \times (1 + 0.008 / 4)$, a 6-month interest rate of 0.00342. Because the (nonannualized) implied 6-month gold appreciation rate exceeds (nonannualized) 6-month LIBOR, the lease rate is negative. The annualized lease rate in this calculation is
 
 $$
-2 \times (0. 0 0 3 4 2 - 0. 0 0 5 0 8) = - 0. 0 0 3 3 1 3
+2 \times (0.00342 - 0.00508) = -0.003313
 $$
 
 The negative lease rate seems to imply that gold owners would pay to lend gold. With significant demand in recent years for gold storage, the negative lease rate could be measuring increased marginal storage costs. It is also possible that LIBOR is not the correct interest rate to use in computing the lease rate. Whatever the reason for negative lease rates, gold in recent years has been trading at close to full carry.
@@ -356,12 +356,12 @@ $$
 
 This equation assumes that the gold mine is certain to operate the entire time and that the quantity of production is known. Only price is uncertain. Note that in equation (10), by computing the present value of the forward price, we compute the prepaid forward price.
 
-Example 2. Suppose we have a mining project that will produce 1 ounce of gold every year for 6 years. The cost of this project is  \$1100 today, the marginal cost per ounce at the time of extraction is\$ 100, and the continuously compounded interest rate is 6\%.
+Example 2. Suppose we have a mining project that will produce 1 ounce of gold every year for 6 years. The cost of this project is \$1100 today, the marginal cost per ounce at the time of extraction is \$100, and the continuously compounded interest rate is 6\%.
 
 We observe the gold forward prices in the second column of Table 6, with implied prepaid forward prices in the third column. Using equation (10), we can use these prices to perform the necessary present value calculations.
 
 $$
-\text {N e t p r e s e n t v a l u e} = \sum_ {i = 1} ^ {6} \left[ F _ {0, i} - 1 0 0 \right] e ^ {- 0. 0 6 \times i} - \$ 1 1 0 0 = \$ 1 1 9. 5 6 \tag {11}
+\text{Net present value} = \sum_{i=1}^{6} \left[ F_{0,i} - 100 \right] e^{-0.06 \times i} - \$1100 = \$119.56 \tag{11}
 $$
 
 Gold forward and prepaid forward prices on 1 day for gold delivered at 1-year intervals, out to 6 years. The continuously compounded interest rate is  $6\%$  and the lease rate is assumed to be a constant  $1.5\%$ .
@@ -600,18 +600,18 @@ An example of a weather contract is the degree-day index futures contract traded
 
 With city-specific degree-day index contracts, it is possible to create and hedge payoffs based on average temperatures, or using options, based on ranges of average temperatures. If Minneapolis is unusually cold but the rest of the country is normal, the heating degree-day contract for Minneapolis will make a large payment that will compensate the holder for the increased consumption of energy.
 
-# 8. SYNTHETIC COMMODITIES
+## 8. Synthetic Commodities
 
-Just as it is possible to use stock index futures to create a synthetic stock index, it is also possible to use commodity futures to create synthetic commodities. We can create a synthetic commodity by combining a commodity forward contract and a zero-coupon bond. Enter into a long commodity forward contract at the price  $F_{0,T}$  and buy a zero-coupon bond that pays  $F_{0,T}$  at time  $T$ . Since the forward contract is costless, the cost of this investment strategy at time 0 is just the cost of the bond, which equals the prepaid forward price:  $e^{-rT}F_{0,T}$ . At time  $T$ , the strategy pays
+Just as it is possible to use stock index futures to create a synthetic stock index, it is also possible to use commodity futures to create synthetic commodities. We can create a synthetic commodity by combining a commodity forward contract and a zero-coupon bond. Enter into a long commodity forward contract at the price $F_{0,T}$ and buy a zero-coupon bond that pays $F_{0,T}$ at time $T$. Since the forward contract is costless, the cost of this investment strategy at time 0 is just the cost of the bond, which equals the prepaid forward price:  $e^{-rT}F_{0,T}$ . At time $T$, the strategy pays
 
 $$
 \underbrace {S _ {T} - F _ {0 , T}} _ {\text {F o r w a r d c o n t r a c t p a y o f f}} + \underbrace {F _ {0 , T}} _ {\text {B o n d p a y o f f}} = S _ {T}
-$$ where  $S_{T}$  is the time  $T$  price of the commodity. This investment strategy creates a synthetic commodity, which has the same value as a unit of the commodity at time  $T$ .
+$$ where $S_{T}$ is the time $T$ price of the commodity. This investment strategy creates a synthetic commodity, which has the same value as a unit of the commodity at time  $T$ .
 
 
-During the early 2000s, indexed commodity investing became popular. Commodity funds use futures contracts and Treasury bills or other bonds to create synthetic commodities and replicate published commodity indexes. Two important indexes are the S&P GSCI index (originally created by Goldman Sachs) and the Dow Jones UBS index (originally created by AIG). Masters (2008) estimates that money invested in commodity funds grew 20-fold between 2003 and 2008, from  \$13 billion to\$ 260 billion.[12] During this same period, commodity prices rose significantly. Figure 11 shows the performance of two commodity indexes plotted with the S&P 500. The two indexes diverge sharply in 2009 because they weight commodities differently. The S&P GSCI index, for example, is world-production
+During the early 2000s, indexed commodity investing became popular. Commodity funds use futures contracts and Treasury bills or other bonds to create synthetic commodities and replicate published commodity indexes. Two important indexes are the S&P GSCI index (originally created by Goldman Sachs) and the Dow Jones UBS index (originally created by AIG). Masters (2008) estimates that money invested in commodity funds grew 20-fold between 2003 and 2008, from \$13 billion to \$260 billion.[12] During this same period, commodity prices rose significantly. Figure 11 shows the performance of two commodity indexes plotted with the S&P 500. The two indexes diverge sharply in 2009 because they weight commodities differently. The S&P GSCI index, for example, is world-production
 
-# FIGURE 11
+### FIGURE 11
 
 Value of S&P GSCI and DJ UBS indexes from 1991 to 2011, plotted against the S&P 500 index.
 
@@ -620,19 +620,19 @@ Value of S&P GSCI and DJ UBS indexes from 1991 to 2011, plotted against the S&P 
 Source: Datastream
 
 
-You might wonder whether a commodity fund should use futures contracts to create synthetic commodities, or whether the fund should hold the physical commodity (where feasible). An important implication of the discussion in Section 3 is that it is generally preferable to invest in synthetic commodities rather than physical commodities. To see this, we can compare the returns to owning the physical commodity and owning a synthetic commodity. As before, let  $\lambda(0, T)$  denote the future value of storage costs.
+You might wonder whether a commodity fund should use futures contracts to create synthetic commodities, or whether the fund should hold the physical commodity (where feasible). An important implication of the discussion in Section 3 is that it is generally preferable to invest in synthetic commodities rather than physical commodities. To see this, we can compare the returns to owning the physical commodity and owning a synthetic commodity. As before, let $\lambda(0, T)$ denote the future value of storage costs.
 
-To invest in the physical commodity for 1 year, we can buy the commodity and prepay storage costs. This costs  $S_0 + \lambda(0,1) / (1 + R)$  initially and one period later pays  $S_1 + \lambda(0,1) - \lambda(0,1) = S_1$ .
+To invest in the physical commodity for 1 year, we can buy the commodity and prepay storage costs. This costs $S_0 + \lambda(0,1) / (1 + R)$ initially and one period later pays $S_1 + \lambda(0,1) - \lambda(0,1) = S_1$.
 
-An investment in the synthetic commodity costs the present value of the forward price,  $F_{0,1} / (1 + R)$ , and pays  $S_{1}$ . The synthetic investment will be preferable if
+An investment in the synthetic commodity costs the present value of the forward price, $F_{0,1} / (1 + R)$, and pays $S_{1}$. The synthetic investment will be preferable if
 
 $$
 
 F _ {0, 1} / (1 + R) <   S _ {0} + \lambda (0, 1) / (1 + R)
 
-$$ or  $F_{0,1} < S_0(1 + R) + \lambda (0,1)$ . Suppose, however, that  $F_{0,1} > S_0(1 + R) + \lambda (0,1)$ . This is an arbitrage opportunity exploitable by buying the commodity, storing it, paying storage costs, and selling it forward. Thus, if there is no arbitrage, we expect that  $F_{0,1} \leq S_0(1 + R) + \lambda (0,1)$  and the synthetic commodity will be the less expensive way to obtain the commodity return. Moreover, there will be equality only in a carry market. So investors will be indifferent between physical and synthetic commodities in a carry market, and will prefer synthetic commodities at all other times.
+$$ or $F_{0,1} < S_0(1 + R) + \lambda (0,1)$. Suppose, however, that $F_{0,1} > S_0(1 + R) + \lambda (0,1)$. This is an arbitrage opportunity exploitable by buying the commodity, storing it, paying storage costs, and selling it forward. Thus, if there is no arbitrage, we expect that $F_{0,1} \leq S_0(1 + R) + \lambda (0,1)$ and the synthetic commodity will be the less expensive way to obtain the commodity return. Moreover, there will be equality only in a carry market. So investors will be indifferent between physical and synthetic commodities in a carry market, and will prefer synthetic commodities at all other times.
 
-# CHAPTER SUMMARY
+## Chapter Summary
 
 At a general level, commodity forward prices can be described by the same formula as financial forward prices:
 
@@ -648,7 +648,7 @@ Forward curves provide information about individual commodities, each of which d
 
 It is possible to create synthetic commodities by combining commodity futures and default-free bonds. In general it is financially preferable to invest in a synthetic rather than a physical commodity. Synthetic commodity indexes have been popular investments in recent years.
 
-# FURTHER READING
+## Further Reading
 
 Geman (2005) and Siegel and Siegel (1990) provide a detailed discussion of many commodity futures. There are numerous papers on commodities. Bodie and Rosansky (1980) and Gorton and Rouwenhorst (2004) examine the risk and return of commodities as an investment. Brennan (1991), Pindyck (1993b), and Pindyck (1994) examine the behavior of commodity prices. Schwartz (1997) compares the performance of different models of commodity price behavior. Jarrow and Oldfield (1981) discuss the effect of storage costs on pricing, and Routledge et al. (2000) present a theoretical model of commodity forward curves. The websites of commodity exchanges are also useful resources, with information about particular contracts and sometimes about trading and hedging strategies.
 

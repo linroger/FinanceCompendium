@@ -28,8 +28,6 @@ In contrast to real assets are financial assets such as stocks and bonds. Such s
 
 While real assets generate net income to the economy, financial assets simply define the allocation of income or wealth among investors. When investors buy securities issued by companies, the firms use the money so raised to pay for real assets, such as plant, equipment, technology, or inventory. So investors' returns ultimately come from the income produced by the real assets that were financed by the issuance of those securities.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/56883cc699a6667bcf48b31fad9687cdfc68e62aa4eaaba91288c8b32051e416.jpg)
-
 **Concept Check 1.1**
 
 Are the following assets real or financial?

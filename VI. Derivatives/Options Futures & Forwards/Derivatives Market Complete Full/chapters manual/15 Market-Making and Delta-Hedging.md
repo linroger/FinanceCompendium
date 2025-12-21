@@ -1,9 +1,32 @@
 ---
-title: "Chapter 15 - Market-Making and Delta-Hedging"
+title: Chapter 15 - Market-Making and Delta-Hedging
 aliases:
-  - Market-Making and Delta-Hedging
-  - Delta Hedging
+   - Market-Making and Delta-Hedging
+   - Delta Hedging
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+   - market-making
+   - delta-hedging
+   - option risk management
+   - black-scholes technique
+   - competitive pricing
+secondary_tags:
+   - option delta
+   - option gamma
+   - option theta
+   - mark-to-market
+   - self-financing portfolio
+   - risk-neutral valuation
+   - hedging strategies
+   - market-maker profit
+   - binomial option pricing
+   - standard deviation moves
+   - interest rate carrying cost
+   - time decay
+   - volatility impact
 cssclasses: academia
 ---
 
@@ -19,11 +42,9 @@ We will see that the costs of carrying a hedged option position can be expressed
 
 A market-maker stands ready to sell to buyers and to buy from sellers. The owner of an appliance store, for example, is a market-maker. The store owner buys televisions at a low price (the wholesale price) and sells them at cost plus a markup (the retail price), earning the difference. The markup must at a minimum cover the cost of doing business—rent, salaries, utilities, and advertising—so that the retail price covers the cost of acquiring televisions plus all other costs of doing business. The appliance dealer has both a bid price and an ask price. The bid price is the price at which the dealer buys the television, also known as the wholesale price. The ask price is the price at which the dealer will sell the television, also known as the retail price.
 
-An appliance seller does not select which models to sell based on personal preference and does not expect to profit by speculating on the price of a television. Rather, the appliance dealer selects inventory based on expected customer demand and earns profit based on the markup. The store maintains an inventory, and the owner is able to satisfy customers
+An appliance seller does not select which models to sell based on personal preference and does not expect to profit by speculating on the price of a television. Rather, the appliance dealer selects inventory based on expected customer demand and earns profit based on the markup. The store maintains an inventory, and the owner is able to satisfy customers who walk in and want to buy a television immediately.
 
-From Chapter 13 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
-
-who walk in and want to buy a television immediately. Market-makers supply immediacy, permitting customers to trade whenever they wish.
+From Chapter 13 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved. Market-makers supply immediacy, permitting customers to trade whenever they wish.
 
 Proprietary trading, which is conceptually distinct from market-making, is trading to express an investment strategy. Customers and proprietary traders typically expect their positions to be profitable depending upon whether the market goes up or down. In contrast, market-makers profit by buying at the bid and selling at the ask. The position of a market-maker is the result of whatever order flow arrives from customers.
 
@@ -43,17 +64,15 @@ With the help of a simple numerical example, we can understand not only the intu
 
 # Option Risk in the Absence of Hedging
 
-If a customer wishes to buy a 91-day call option, the market-maker fills this order by selling a call option. To be specific, suppose that  $S = \$ 40 ,  $K = \40$ ,  $\sigma = 0.30$ ,  $r = 0.08\$  (continuously compounded), and  $\delta = 0$ . We will let  $T$  denote the expiration time of the option and  $t$  the present, so time to expiration is  $T - t$ . Let  $T - t = 91/365$ . The price, delta, gamma, and theta for this call are listed in Table 1.
+If a customer wishes to buy a 91-day call option, the market-maker fills this order by selling a call option. To be specific, suppose that $S=\$40$, $K=\$40$, $\sigma=0.30$, $r=0.08$ (continuously compounded), and $\delta=0$. We will let  $T$  denote the expiration time of the option and  $t$  the present, so time to expiration is  $T - t$ . Let  $T - t = 91/365$ . The price, delta, gamma, and theta for this call are listed in Table 1.
 
-Because the market-maker has written the option, the sign of the Greek measures for the position is opposite those of a purchased option. In particular, the written option is like shorting shares of stock (negative delta) and the option gains in value over time (positive
+Because the market-maker has written the option, the sign of the Greek measures for the position is opposite those of a purchased option. In particular, the written option is like shorting shares of stock (negative delta) and the option gains in value over time (positive theta).
 
-TABLEI
-
-Price and Greek information for a call option with  $S = \$ 40, K = \ $40, \sigma = 0.30, r = 0.08\$  (continuously compounded),  $T - t = 91/365$ , and  $\delta = 0$ .
+Price and Greek information for a call option with $S=\$40$, $K=\$40$, $\sigma=0.30$, $r=0.08$ (continuously compounded), $T-t=91/365$, and $\delta=0$.
 
 <table><tr><td></td><td>Purchased</td><td>Written</td></tr><tr><td>Call price</td><td>2.7804</td><td>-2.7804</td></tr><tr><td>Delta</td><td>0.5824</td><td>-0.5824</td></tr><tr><td>Gamma</td><td>0.0652</td><td>-0.0652</td></tr><tr><td>Theta</td><td>-0.0173</td><td>0.0173</td></tr></table> theta). Because delta is negative, the risk for the market-maker who has written a call is that the stock price will rise.
 
-Suppose that the market-maker does not hedge the written option and the stock price rises to \$40.75. We can measure the profit of the market-maker by marking-to-market the position. Marking-to-market answers the question: If we liquidated the position today, what would be the gain or loss? In the case of an option price increase, the market-maker would need to buy the option back at a higher price than that at which it was sold, and therefore would lose money. At a stock price of \$40.75, the call price would increase to \$3.2352, so the market-maker profit on a per-share basis would be $2.7804 - $3.2352 = -\$0.4548.1
+Suppose that the market-maker does not hedge the written option and the stock price rises to \$40.75. We can measure the profit of the market-maker by marking-to-market the position. Marking-to-market answers the question: If we liquidated the position today, what would be the gain or loss? In the case of an option price increase, the market-maker would need to buy the option back at a higher price than that at which it was sold, and therefore would lose money. At a stock price of \$40.75, the call price would increase to \$3.2352, so the market-maker profit on a per-share basis would be $2.7804 - $3.2352 = -\$0.4548
 
 Figure 1 graphs the overnight profit of the unhedged written call option as a function of the stock price, against the profit of the option at expiration. In computing overnight profit, we are varying the stock price holding fixed all other inputs to the Black-Scholes formula except for time to expiration, which decreases by 1 day. It is apparent from the graph that the risk for the market-maker is a rise in the stock price. Although it is not obvious from the graph, if the stock price does not change, the market-maker will profit because of time decay: It would be possible to liquidate the option position by buying options at a lower price the next day than the price at which they were sold originally.
 
@@ -61,7 +80,7 @@ Figure 1 graphs the overnight profit of the unhedged written call option as a fu
 
 Since delta tells us the price sensitivity of the option, it also measures the market-maker's exposure. The delta of the call at a stock price of \$40 is 0.5824, which suggests that a \$1 increase in the stock price should increase the value of the option by approximately $0.5824. A $0.75 increase in the stock price would therefore increase the option price by $0.75 × 0.5824 = $0.4368. However, the actual increase in the option's value is \$0.4548, greater by \$0.0180.
 
-This discrepancy occurs because delta varies with the stock price: As the stock price increases and the option moves more into the money, delta also increases. At a stock price of  \$40.75, delta is 0.6301. Thus, using the delta at\$ 40 will understate the actual change in the value of the option due to a price increase.
+This discrepancy occurs because delta varies with the stock price: As the stock price increases and the option moves more into the money, delta also increases. At a stock price of \$40.75, delta is 0.6301. Thus, using the delta at \$40 will understate the actual change in the value of the option due to a price increase.
 
 # FIGURE I
 
@@ -69,7 +88,7 @@ Depiction of overnight and expiration profit from writing a call option on one s
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/9b30feba5f2f38c74363c8e462179a0282f948958d486eb75372a4d19fdf43d1.jpg)
 
-Similarly, the delta at  \$40 will overstate the decline in the value of the option due to a stock price decrease. If the stock price had fallen$ 0.75 to $39.25, the option price would have declined to \$2.3622, which would result in a gain of \$0.4182 to the market-maker. Using delta, we would have predicted a price decline of -\$0.75 × 0.5824 = -0.4368, which is greater than the actual decline. This occurs because the option delta decreases as the stock price declines. The delta at this new price is 0.5326.
+Similarly, the delta at \$40 will overstate the decline in the value of the option due to a stock price decrease. If the stock price had fallen $0.75 to $39.25, the option price would have declined to \$2.3622, which would result in a gain of \$0.4182 to the market-maker. Using delta, we would have predicted a price decline of -\$0.75 × 0.5824 = -0.4368, which is greater than the actual decline. This occurs because the option delta decreases as the stock price declines. The delta at this new price is 0.5326.
 
 Gamma measures the change in delta when the stock price changes. In the example above, the gamma of 0.0652 means that delta will change by approximately 0.0652 if the stock price moves 1. This is why delta did not accurately predict the change in the option price: The delta itself was changing as the stock price changed. The ultimate change in the option price is a result of the average delta during the stock price change, not just the delta at the initial stock price. As you might guess, we can use gamma in addition to delta to better approximate the effect on the value of the option of a change in the stock price. We will discuss this adjustment later.
 
@@ -84,12 +103,12 @@ We now will consider the risk of a delta-hedged position by assuming that the ma
 Day 0. Consider the 40-strike call option described above, written on 100 shares of stock. The market-maker sells the option and receives \$278.04. Since  $\Delta = 0.5824$ , the market-maker also buys 58.24 shares. (We will permit fractional share purchases in this example.) The net investment is
 
 $$
-(5 8. 2 4 \times \$ 4 0) - \$ 2 7 8. 0 4 = \$ 2 0 5 1. 5 6
+(58.24 \times \$40) - \$278.04 = \$2051.56
 $$
 
-At an  $8\%$  interest rate, the market-maker has an overnight financing charge of  $\$ 2051.56 \times \left(e^{0.08 / 365} - 1\right) = \$ 0.45$ .
+At an $8\%$ interest rate, the market-maker has an overnight financing charge of $\$2051.56 \times \left(e^{0.08/365} - 1\right) = \$0.45$.
 
-Day 1: Marking-to-Market. Without at first worrying about rebalancing the portfolio to maintain delta-neutrality, we can ask whether the market-maker made money or lost money overnight. Suppose the new stock price is  \$40.50. The new call option price with 1 day less to expiration and at the new stock price is\$ 3.0621. Overnight mark-to-market profit is a gain of 0.50, computed as follows:
+Day 1: Marking-to-Market. Without at first worrying about rebalancing the portfolio to maintain delta-neutrality, we can ask whether the market-maker made money or lost money overnight. Suppose the new stock price is \$40.50. The new call option price with 1 day less to expiration and at the new stock price is \$3.0621. Overnight mark-to-market profit is a gain of 0.50, computed as follows:
 
 <table><tr><td>Gain on 58.24 shares</td><td>58.24 × ($40.50 – $40) = \$29.12</td></tr><tr><td>Gain on written call option</td><td>$278.04 – $306.21 = –\$28.17</td></tr><tr><td>Interest</td><td>-(e0.08/365 - 1) × $2051.56 = –$0.45</td></tr><tr><td>Overnight profit</td><td>0.50</td></tr></table>
 
@@ -103,7 +122,7 @@ Day 2: Marking-to-Market. The stock price now falls to \$39.25. The market-maker
 
 At the end of day 1, we show a 0.50 profit from the mark-to-market calculation. Conceptually, we can think of the profit or loss as measuring the extent to which the portfolio requires cash infusions in order to maintain a delta-neutral hedge. When we show a positive profit, as in this case, we can take cash out of the portfolio.
 
-To see that mark-to-market profit measures the net cash infusions required to maintain the delta-neutral position, suppose that a lender is willing at all times to lend us the value of securities in the portfolio. Initially, we buy 58.24 shares of stock, which costs  \$2329.60, but this amount is offset by the\$ 278.04 option premium, so the net cash we require is \$2051.56. This is also the net value of our portfolio (stock less the option), so we can borrow this amount. $^2$
+To see that mark-to-market profit measures the net cash infusions required to maintain the delta-neutral position, suppose that a lender is willing at all times to lend us the value of securities in the portfolio. Initially, we buy 58.24 shares of stock, which costs \$2329.60, but this amount is offset by the \$278.04 option premium, so the net cash we require is \$2051.56. This is also the net value of our portfolio (stock less the option), so we can borrow this amount. $^2$
 
 As time passes, there are three sources of cash flow into and out of the portfolio:
 
@@ -121,9 +140,7 @@ Since the bank is willing to lend us the value of our securities, we are free to
 
 This example demonstrates that the mark-to-market profit equals the net cash flow generated by always borrowing to fully fund the position. Another way to see the equality of mark-to-market profit and net cash flow is by examining the sources and uses of funds, and the extent to which it is necessary to inject additional cash into the position in order to maintain the delta-neutral hedge. We can calculate the net cash flow from the portfolio as
 
-Net cash flow  $=$  Change in borrowing capacity cash used to purchase additional shares
-
-- interest
+Net cash flow = Change in borrowing capacity - cash used to purchase additional shares - interest
 
 Let  $\Delta_{i}$  denote the option delta on day  $i$ ,  $S_{i}$  the stock price,  $C_{i}$  the option price, and  $\mathrm{MV}_i$  the market value of the portfolio. Borrowing capacity on day  $i$  is  $\mathrm{MV}_i = \Delta_i S_i - C_i$ ; hence, the change in borrowing capacity is
 
@@ -142,7 +159,7 @@ $$
 The last expression is the overnight gain on shares, less the overnight gain on the option, less interest; this result is identical to the profit calculation we performed above. In the numerical example, we have
 
 $$
-\begin{array}{l} \mathrm {M V} _ {1} - \mathrm {M V} _ {0} - S _ {1} \left(\Delta_ {1} - \Delta_ {0}\right) - r \mathrm {M V} _ {0} = \\ 2 1 8 1. 3 0 - \\ 2 0 5 1. 5 6 - \\ 1 2 8. 7 9 - \\ 0. 4 5 \\ = \$ 0.50 \\ \end{array}
+\begin{array}{l} \mathrm{MV}_{1} - \mathrm{MV}_{0} - S_{1} (\Delta_{1} - \Delta_{0}) - r \mathrm{MV}_{0} = \\ 2181.30 - \\ 2051.56 - \\ 128.79 - \\ 0.45 \\ = \$0.50 \\ \end{array}
 $$
 
 This value is equal to the overnight profit we calculated between day 0 and day 1.
@@ -163,7 +180,9 @@ TABLE 2
 
 Daily profit calculation over 5 days for a market-maker who delta-hedges a written option on 100 shares.
 
-<table><tr><td rowspan="2"></td><td colspan="6">Day</td></tr><tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Stock ($)</td><td>40.00</td><td>40.50</td><td>39.25</td><td>38.75</td><td>40.00</td><td>40.00</td></tr><tr><td>Call ($)</td><td>278.04</td><td>306.21</td><td>232.82</td><td>205.46</td><td>271.04</td><td>269.27</td></tr><tr><td>100 × delta</td><td>58.24</td><td>61.42</td><td>53.11</td><td>49.56</td><td>58.06</td><td>58.01</td></tr><tr><td>Investment ($)</td><td>2051.58</td><td>2181.30</td><td>1851.65</td><td>1715.12</td><td>2051.35</td><td>2051.29</td></tr><tr><td>Interest ($)</td><td></td><td>-0.45</td><td>-0.48</td><td>-0.41</td><td>-0.38</td><td>-0.45</td></tr><tr><td>Capital gain ($)</td><td></td><td>0.95</td><td>-3.39</td><td>0.81</td><td>-3.62</td><td>1.77</td></tr><tr><td>Daily profit ($)</td><td></td><td>0.50</td><td>-3.87</td><td>0.40</td><td>-4.00</td><td>1.32</td></tr></table> results from gamma: If the stock price changes, the position becomes unhedged. In this case, since the market-maker is short the option, a large move generates a loss. As the stock price rises, the delta of the call increases and the call loses money faster than the stock makes money. As the stock price falls, the delta of the call decreases and the call makes money more slowly than the fixed stock position loses money. In effect, the market-maker becomes unhedged net long as the stock price falls and unhedged net short as the stock price rises. The losses on days 2 and 4 are attributable to gamma. For all of the entries in Table 2, the gamma of the written call is about  $-0.06$  per share.
+<table><tr><td rowspan="2"></td><td colspan="6">Day</td></tr><tr><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Stock ($)</td><td>40.00</td><td>40.50</td><td>39.25</td><td>38.75</td><td>40.00</td><td>40.00</td></tr><tr><td>Call ($)</td><td>278.04</td><td>306.21</td><td>232.82</td><td>205.46</td><td>271.04</td><td>269.27</td></tr><tr><td>100 × delta</td><td>58.24</td><td>61.42</td><td>53.11</td><td>49.56</td><td>58.06</td><td>58.01</td></tr><tr><td>Investment ($)</td><td>2051.58</td><td>2181.30</td><td>1851.65</td><td>1715.12</td><td>2051.35</td><td>2051.29</td></tr><tr><td>Interest ($)</td><td></td><td>-0.45</td><td>-0.48</td><td>-0.41</td><td>-0.38</td><td>-0.45</td></tr><tr><td>Capital gain ($)</td><td></td><td>0.95</td><td>-3.39</td><td>0.81</td><td>-3.62</td><td>1.77</td></tr><tr><td>Daily profit ($)</td><td></td><td>0.50</td><td>-3.87</td><td>0.40</td><td>-4.00</td><td>1.32</td></tr></table>
+
+results from gamma: If the stock price changes, the position becomes unhedged. In this case, since the market-maker is short the option, a large move generates a loss. As the stock price rises, the delta of the call increases and the call loses money faster than the stock makes money. As the stock price falls, the delta of the call decreases and the call makes money more slowly than the fixed stock position loses money. In effect, the market-maker becomes unhedged net long as the stock price falls and unhedged net short as the stock price rises. The losses on days 2 and 4 are attributable to gamma. For all of the entries in Table 2, the gamma of the written call is about  $-0.06$  per share.
 
 2. Theta: If a day passes with no change in the stock price, the option becomes cheaper. This time decay works to the benefit of the market-maker who could unwind the position more cheaply. Time decay is especially evident in the profit on day 5, but is also responsible for the profit on days 1 and 3.
 3. Interest cost: In order to hedge, the market-maker must purchase stock. The net carrying cost is a component of the overall cost.
@@ -184,7 +203,7 @@ Figure 2 graphs overnight market-maker profit on day 1 as a function of the stoc
 
 If the market-maker had purchased a call and shorted delta shares, the profit calculation would be reversed. The market-maker would lose money for small stock price moves and make money with large moves. The profit diagram for such a position would be a mirror image of Figure 2.
 
-# A Self-Financing Portfolio: The Stock Moves One  $\sigma$
+# A Self-Financing Portfolio: The Stock Moves One $\sigma$
 
 In the previous example, the stock price changes by varying amounts and our daily profit varies substantially. However, in Figure 2, there is an up move and a down move for the stock such that the market-maker exactly breaks even in our profit calculations. If the stock always moved by this amount, the portfolio would be self-financing: No cash inflows are required to maintain delta-neutrality. It turns out that the portfolio is self-financing if the stock moves by one standard deviation.
 
@@ -201,7 +220,7 @@ Delta alone is an inaccurate predictor of the change in the option price because
 If the stock price were \$40.75 instead of \$40, the option price would be \$3.2352 instead of \$2.7804. For the purpose of computing the change in the option price, we want to know the average rate of price increase between \$40 and \$40.75, which we can approximate by averaging the deltas at \$40 and \$40.75:
 
 $$
-\Delta_ {\text {a v e r a g e}} = \frac {\Delta_ {4 0} + \Delta_ {4 0 . 7 5}}{2}
+\Delta_{\text{average}} = \frac{\Delta_{40} + \Delta_{40.75}}{2}
 $$
 
 We could then approximate the option price at 40.75 by computing
@@ -210,22 +229,22 @@ $$
 C (\$ 4 0. 7 5) = C (\$ 4 0) + 0. 7 5 \times \Delta_ {\text {a v e r a g e}} \tag {1}
 $$
 
-When we average the deltas at  \$40 and\$ 40.75, we have to compute deltas at two different stock prices. A different approach is to approximate the average delta by using only the delta evaluated at  \$40 together with gamma. Since gamma measures the change in delta, we can approximate the delta at\$ 40.75 by adding  $0.75 \times \Gamma$  to  $\Delta_{40}$ :
+When we average the deltas at \$40 and \$40.75, we have to compute deltas at two different stock prices. A different approach is to approximate the average delta by using only the delta evaluated at \$40 together with gamma. Since gamma measures the change in delta, we can approximate the delta at \$40.75 by adding $0.75 \times \Gamma$ to $\Delta_{40}$:
 
 $$
-\Delta_ {4 0. 7 5} = \Delta_ {4 0} + 0. 7 5 \times \Gamma
+\Delta_{40.75} = \Delta_{40} + 0.75 \times \Gamma
 $$
 
 Using this relationship, the average delta is
 
 $$
-\begin{array}{l} \Delta_ {\text {a v e r a g e}} = \frac {\Delta_ {4 0} + (\Delta_ {4 0} + 0 . 7 5 \times \Gamma)}{2} \\ = \Delta_ {4 0} + \frac {1}{2} \times 0. 7 5 \times \Gamma \\ \end{array}
+\begin{array}{l} \Delta_{\text{average}} = \frac{\Delta_{40} + (\Delta_{40} + 0.75 \times \Gamma)}{2} \\ = \Delta_{40} + \frac{1}{2} \times 0.75 \times \Gamma \\ \end{array}
 $$
 
 Using equation (1), we can then approximate the call price as
 
 $$
-\begin{array}{l} C (\mathbb {S} 4 0. 7 5) = C (\mathbb {S} 4 0) + 0. 7 5 \times \Delta_ {\text {a v e r a g e}} \\ = C (\$ 4 0) + 0. 7 5 \times \left(\Delta_ {4 0} + \frac {1}{2} \times 0. 7 5 \times \Gamma\right) \\ = C (\$ 4 0) + 0. 7 5 \times \Delta_ {4 0} + \frac {1}{2} \times 0. 7 5 ^ {2} \times \Gamma \tag {2} \\ \end{array}
+\begin{array}{l} C(\$40.75) = C(\$40) + 0.75 \times \Delta_{\text{average}} \\ = C(\$40) + 0.75 \times \left(\Delta_{40} + \frac{1}{2} \times 0.75 \times \Gamma\right) \\ = C(\$40) + 0.75 \times \Delta_{40} + \frac{1}{2} \times 0.75^{2} \times \Gamma \tag{2} \\ \end{array}
 $$
 
 The use of delta and gamma to approximate the new option price is called a delta-gamma approximation.
@@ -233,27 +252,27 @@ The use of delta and gamma to approximate the new option price is called a delta
 Example I. If the stock price rises from $40 to $40.75, the option price increases from $2.7804 to $3.2352. Using a delta approximation alone, we would estimate C(40.75) as
 
 $$
-C (\$ 4 0. 7 5) = C (\$ 4 0) + 0. 7 5 \times 0. 5 8 2 4 = \$ 3. 2 1 7 2
+C(\$40.75) = C(\$40) + 0.75 \times 0.5824 = \$3.2172
 $$
 
 Using a delta-gamma approximation, we obtain
 
 $$
-C (\$ 4 0. 7 5) = C (\$ 4 0) + 0. 7 5 \times 0. 5 8 2 4 + \frac {1}{2} \times 0. 7 5 ^ {2} \times 0. 0 6 5 2 = \$ 3. 2 3 5 5
+C(\$40.75) = C(\$40) + 0.75 \times 0.5824 + \frac{1}{2} \times 0.75^{2} \times 0.0652 = \$3.2355
 $$
 
 The delta-gamma approximation is significantly closer to the true option price at 40.75 than is the delta approximation.
 
-Similarly, for a stock price decline to  \$39.25, the true option price is\$ 2.3622. The delta approximation gives
+Similarly, for a stock price decline to \$39.25, the true option price is \$2.3622. The delta approximation gives
 
 $$
-C (\mathbb {S} 3 9. 2 5) = C (\mathbb {S} 4 0) - 0. 7 5 \times 0. 5 8 2 4 = \mathbb {S} 2. 3 4 3 6
+C(\$39.25) = C(\$40) - 0.75 \times 0.5824 = \$2.3436
 $$
 
 The delta-gamma approximation gives
 
 $$
-C (\$ 3 9. 2 5) = C (\$ 4 0) - 0. 7 5 \times 0. 5 8 2 4 + \frac {1}{2} \times 0. 7 5 ^ {2} \times 0. 0 6 5 2 = \$ 2. 3 6 1 9
+C(\$39.25) = C(\$40) - 0.75 \times 0.5824 + \frac{1}{2} \times 0.75^{2} \times 0.0652 = \$2.3619
 $$
 
 Again, the delta-gamma approximation is more accurate.

@@ -4,6 +4,21 @@ aliases:
   - Financial Engineering and Security Design
   - Security Design
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:15:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - financial engineering
+  - security design
+  - structured notes
+  - convertible bonds
+secondary_tags:
+  - modigliani miller theorem
+  - islamic finance
+  - zero coupon bonds
+  - equity linked bonds
+  - commodity linked bonds
+  - currency linked bonds
 cssclasses: academia
 ---
 
@@ -11,7 +26,7 @@ cssclasses: academia
 
 Forwards, calls, puts, and common exotic options can be added to bonds or otherwise combined to create new securities. For example, many traded securities are effectively bonds with embedded options. Individual derivatives thus become building blocks—ingredients used to construct new kinds of financial products. In this chapter we will see how to assemble the ingredients to create new products. The process of constructing new instruments from these building blocks is called financial engineering.
 
-# I. THE MODIGLIANI-MILLER THEOREM
+## I. THE MODIGLIANI-MILLER THEOREM
 
 The starting point for any discussion of modern financial engineering is the analysis of Franco Modigliani and Merton Miller (Modigliani and Miller, 1958). Before their work, financial analysts would puzzle over how to compare the values of firms with similar operating characteristics but different financial characteristics. Modigliani and Miller realized that different financing decisions (for example, the choice of the firm's debt-to-equity ratio) may carve up the firm's cash flows in different ways, but if the total cash flows paid to all claimants is unchanged, the total value of all claims would remain the same. They showed that if firms differing only in financial policy differed in market value, profitable arbitrage would exist. Using their famous analogy, the price of whole milk should equal the total prices of the skim milk and butterfat that can be derived from that milk.
 
@@ -30,25 +45,25 @@ As a starting point, you can ask the following questions when you confront new f
 
 We begin by discussing structured notes without and with options. We then turn to examples of engineered products.
 
-# 2. STRUCTURED NOTES WITHOUT OPTIONS
+## Structured Notes Without Options
 
 An ordinary note or bond has interest and maturity payments that are fixed at the time of issue.² A structured note has interest or maturity payments that are not fixed in dollars but are contingent in some way. Structured notes can make payments based on stock prices, interest rates, commodities, or currencies, and the payoffs may or may not contain options.
 
 We first discuss bonds that make a single payment and then bonds that make multiple payments (such as coupon bonds), all without options. In the next section we will introduce structures with options.
 
-# Single Payment Bonds
+### Single Payment Bonds
 
 A single payment bond is a financial instrument for which you pay today and that makes a single payment at time  $T$ . The payment could be 1, a share of stock, an ounce of gold, or a bushel of corn. A single payment bond is equivalent to a prepaid forward contract on the asset or commodity.
 
 Because the price of a single payment bond is the value today of a future payment, it also is equivalent to a discount factor—a value that translates future payments into a value today. This interpretation will play an important role in our discussion.
 
-# BOX I: Islamic Finance*
+**BOX I: Islamic Finance** *
 
 Shariah, the religious law of Islam, places restrictions on financial transactions. Four verses in the Qur'an, the holy book of Islam, prohibit the payment of interest. By scholarly interpretation, the Qur'an also requires that business transactions must both pertain to real assets and have an ethical purpose. These restrictions and requirements have given rise to a practice known as Islamic Finance. The primary elements of Islamic Finance are
 
 - No interest or usury
 - No gambling
-No speculation
+- No speculation
 - Strive for fair and just business practices
 - Avoid prohibited goods and services (alcohol, weapons, hedonism)
 
@@ -68,7 +83,7 @@ Islamic Finance also maintains a general objection to speculative uses of deriva
 
 *I am grateful to Karen Hunt-Ahmed for her assistance with this box.
 
-The most basic financial instrument is a zero-coupon bond that pays \$1 at maturity. Let  $r_s(t, T)$  represent the annual continuously compounded interest rate prevailing at time  $s \leq t$ , for a loan from time  $t$  to time  $T$ . Similarly, the price of a zero-coupon bond purchased at time  $t$ , maturing at time  $T$ , and quoted at time  $s$  is  $P_s(t, T)$ . Thus, we have
+The most basic financial instrument is a zero-coupon bond that pays \$1 at maturity. Let $r_s(t, T)$ represent the annual continuously compounded interest rate prevailing at time  $s \leq t$ , for a loan from time  $t$  to time  $T$ . Similarly, the price of a zero-coupon bond purchased at time  $t$ , maturing at time  $T$ , and quoted at time  $s$  is  $P_s(t, T)$ . Thus, we have
 
 $$
 P _ {s} (t, T) = e ^ {- r _ {s} (t, T) (T - t)}
@@ -542,7 +557,7 @@ The profit from owning a share and hedging with the VPF is in Figure 2. The prof
 
 The net profit line in Figure 2 has a positive slope above \$125. This is because λ = 0.80; for every dollar by which the stock price increases, the VPF pays \$0.80 and the VPF seller keeps \$0.20. The slope will vary with λ; in particular, if λ = 1, the line would be flat above \$125.
 
-# 4. STRATEGIES MOTIVATED BY TAX AND REGULATORY CONSIDERATIONS
+# Strategies Motivated by Tax and Regulatory Considerations
 
 A common use of financial engineering is to create financial structures with particular tax and regulatory characteristics. Many such structures resemble the variable prepaid forward structure (panel (d) in Figure 1). This section focuses on two functional examples using instruments with a payoff like the variable prepaid forward: the deferral of capital gains taxes and an instrument that provides tax-deductible equity capital for a bank holding company.
 
@@ -657,7 +672,7 @@ At this point, it may be helpful to answer some questions that may occur to you:
 
 Many financial institutions have used a trust structure like that in the M&I transaction. For example, in November 2007 Citigroup issued a 7.5 billion trust preferred security to Abu Dhabi's state investment fund.[21] Related structures under different names (for example, "Upper DECS") are used by companies wishing to obtain partially tax-deductible equity-like financing.
 
-# 5. ENGINEERED SOLUTIONS FOR GOLDDIGGERS Gold-Linked Notes
+# Engineered Solutions for Golddiggers Gold-Linked Notes
 
 Any hedger using a forward (or futures) contract to hedge faces the risk that the forward contract will suffer a loss prior to expiration of the hedge. That loss generally must be funded when it occurs.[22] This need to fund interim losses arises from the structure of the hedging instrument, in particular the fact that it is a zero-investment contract linked to the price of gold, meant to serve as a hedging instrument and not as a financing instrument.
 
@@ -790,3 +805,19 @@ Instruments can be designed specifically to take advantage of tax rules and regu
 In this chapter we focused on the creation of engineered instruments using basic building blocks such as assets, bonds, forward contracts, and options. However, using the Black-Scholes technology based on delta-hedging, it is possible to engineer more complicated instruments.
 
 The SEC's press release about structured notes is at http://www.sec.gov/news/press/2011/2011-118.htm. Readings about structured products (including some not discussed in this chapter) include Baubonis et al. (1993), McConnell and Schwartz (1992), Arzac (1997), and Crabbe and Argilagos (1994). For more information about Western-Southern, a deal similar to Times-Mirror Netscape PEPS, see http://www kellogg.northwestern.edu/faculty/petersen/html.
+
+# D2 Diagram: Variable Prepaid Forward Payoff Structure
+
+```d2
+direction: right
+
+stock_price: Stock Price {
+  shape: plaintext
+}
+
+payoff: Payoff {
+  shape: plaintext
+}
+
+stock_price -> payoff: "if stock < K1: payoff = stock\nif K1 ≤ stock ≤ K2: payoff = K1\nif stock > K2: payoff = K1 + λ × (stock - K2)"
+```

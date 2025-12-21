@@ -624,9 +624,7 @@ At first glance this product appears to permit gains but no losses. However, by 
 As a first step in analyzing the CD, we will draw a payoff diagram. If we invest $10,000, we receive at least $10,000. If the index rises to $S_{\text{final}} > 1300$, we also receive on our investment 70\% of the rate of return
 
 $$
-
-\frac {S _ {\text {f i n a l}}}{1 3 0 0} - 1
-
+\frac{S_{\text{final}}}{1300} - 1
 $$
 
 # FIGURE 13
@@ -646,14 +644,12 @@ Payoff</td></tr><tr><td>500</td><td>10,000.00</td></tr><tr><td>1000</td><td>10,0
 Thus, the CD pays
 
 $$
-
-\$ 10,000 \times \left(1 + 0.7 \times \max \left[ 0, \frac {S _ {\text {f i n a l}}}{1 3 0 0} - 1 \right]\right) \tag {11}
-
+\$10,000 \times \left(1 + 0.7 \times \max\left[0, \frac{S_{\text{final}}}{1300} - 1\right]\right) \tag{11}
 $$
 
 Figure 13 graphs the payoff at expiration to this investment in the CD.
 
-Recall the discussion in Section 1 of incorporating a zero-coupon bond into a payoff diagram. Per unit of the index (there are  $10,000 / 1300 = 7.69$  units of the index in a  $\$10,000$  investment), the CD buyer receives 0.7 of an index call option, plus a zero-coupon bond paying  $\$1300$  at expiration.
+Recall the discussion in Section 1 of incorporating a zero-coupon bond into a payoff diagram. Per unit of the index (there are $10,000/1300 = 7.69$ units of the index in a $10,000 investment), the CD buyer receives 0.7 of an index call option, plus a zero-coupon bond paying $1300 at expiration.
 
 Table 6 computes the payoff to the equity-linked CD for different values of the index.
 
@@ -662,9 +658,7 @@ Table 6 computes the payoff to the equity-linked CD for different values of the 
 Now we are in a position to understand the economics of this product. Think about what happens if the index is below 1300 at expiration. We pay  \$10,000 and we receive\$ 10,000 back, plus an option. Thus, we have forgone interest on 10,000 in exchange for the possibility of receiving 70\% of the gains on the S&P. Suppose that the effective annual interest rate is 6\%; after 5½ years, the buyer has lost interest with a present value of
 
 $$
-
-\$ 10,000 \times (1.06) ^ {- 5.5} - \$ 10,000 = - \$ 2,742
-
+\$10,000 \times (1.06)^{-5.5} - \$10,000 = -\$2,742
 $$
 
 Essentially, the buyer forgoes interest in exchange for a call option on the index.
@@ -686,7 +680,7 @@ What does the financial institution get out of this? Just as the supermarket ear
 TABLE 7
 Forwards, calls, and puts at a glance: A summary of forward and option positions.
 
-<table><tr><td>Derivative Position</td><td>Position with Respect to Underlying Asset</td><td>Asset Price Contingency</td><td>Strategy</td></tr><tr><td>Long forward</td><td>Long (buy)</td><td>Always</td><td>Guaranteed purchase price</td></tr><tr><td>Short forward</td><td>Short (sell)</td><td>Always</td><td>Guaranteed sale price</td></tr><tr><td>Long call</td><td>Long (buy)</td><td>&gt; Strike</td><td>Insures against high price</td></tr><tr><td>Short call</td><td>Short (sell)</td><td>&gt; Strike</td><td>Sells insurance against high price</td></tr><tr><td>Long put</td><td>Short (sell)</td><td>&lt; Strike</td><td>Insures against low price</td></tr><tr><td>Short put</td><td>Long (buy)</td><td>&lt; Strike</td><td>Sells insurance against low price</td></tr></table> earned about  $3.5\%$  of the value of the CD as a fee, with about  $1\%$  as the transaction cost of hedging the written call.[12]
+<table><tr><td>Derivative Position</td><td>Position with Respect to Underlying Asset</td><td>Asset Price Contingency</td><td>Strategy</td></tr><tr><td>Long forward</td><td>Long (buy)</td><td>Always</td><td>Guaranteed purchase price</td></tr><tr><td>Short forward</td><td>Short (sell)</td><td>Always</td><td>Guaranteed sale price</td></tr><tr><td>Long call</td><td>Long (buy)</td><td>&gt; Strike</td><td>Insures against high price</td></tr><tr><td>Short call</td><td>Short (sell)</td><td>&gt; Strike</td><td>Sells insurance against high price</td></tr><tr><td>Long put</td><td>Short (sell)</td><td>&lt; Strike</td><td>Insures against low price</td></tr><tr><td>Short put</td><td>Long (buy)</td><td>&lt; Strike</td><td>Sells insurance against low price</td></tr></table> earned about $3.5\%$ of the value of the CD as a fee, with about $1\%$ as the transaction cost of hedging the written call.[12]
 
 
 In this discussion we have viewed the equity-linked CD from several perspectives. The end-user is interested in the product and whether it meets a financial need at a fair cost. The market-maker (the bank in this case) is interested in making a profit without bearing risk from having issued the CD. And the economic observer is interested in knowing why equity-linked CDs exist. The three perspectives overlap, and a full explanation of the product touches on all of them.

@@ -1,13 +1,28 @@
 ---
-parent_directory:
-title: Financial Mathematics 33000
-tags:
+title: "Financial Mathematics 33000 - Lecture 5"
 aliases:
-parent_folder: Options
-subfolder:
-key_concepts:
+   - Lecture 5 Arbitrage
+   - Black-Scholes Model
+   - Continuous Time Arbitrage
+parent_directory: Derivatives Market Complete Full/FINM Options Markets
+formatted: 2025-12-21 02:18:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - black-scholes model
+  - arbitrage pricing
+  - continuous time arbitrage
+  - delta hedging
+  - option greeks
+secondary_tags:
+  - ito processes
+  - self-financing portfolio
+  - risk neutral measure
+  - stochastic calculus
+  - gamma hedging
+  - theta decay
+  - volatility smile
 cssclasses: academia
-linter-yaml-title-alias: Financial Mathematics 33000
 ---
 
 # Financial Mathematics 33000

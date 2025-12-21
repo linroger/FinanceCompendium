@@ -1,18 +1,31 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "27 Exotic Options II"
+parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:25:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+  - exotic options
+  - barrier options
+  - quantos
+secondary_tags:
+  - all-or-nothing options
+  - cash-or-nothing calls
+  - asset-or-nothing options
+  - rebate options
+  - digital options
+  - quanto contracts
+  - nikkei futures
 cssclasses: academia
-title: I. ALL-OR-NOTHING OPTIONS
-linter-yaml-title-alias: I. ALL-OR-NOTHING OPTIONS
 ---
 
-# I. ALL-OR-NOTHING OPTIONS
+# 27 Exotic Options II
+
+## I. All-or-Nothing Options
 
 We begin with a discussion of simple all-or-nothing options, which pay the holder a discrete amount of cash or a share if some particular event occurs. These are described as all-orn-thing (also called binary or digital options) because the payoff can be thought of as 0 or 1: Either you receive the cash or share, or you do not.
 
-# Terminology
+### Terminology
 
 There are many different kinds of all-or-nothing options; payoffs can be contingent on the stock price at expiration, as well as on whether the stock price has hit a barrier over the life of the option. We are interested in these options in and of themselves, and also because they are building blocks, useful for constructing variants of ordinary puts and calls as well as barrier options.
 
@@ -30,7 +43,7 @@ The condition under which it pays off,  $S_{T} > K$ , is like that for an ordina
 
 Some options make payments only if multiple events occur. For example, consider a cash-or-nothing call that pays 1 only if S_{T} > K and the barrier H > S_{0} has not been hit. We will refer to this as a "cash up and out call" (CashUOCall): "Cash" because it pays \$1, "up and out" because payment does not occur if the stock price rises to the barrier, and "call" because payment requires S_{T} > K. Similarly, we will use the terms "asset" to refer to options that pay off in shares and "put" to refer to options that pay off only when S_{T} < K. To simplify the formulas in this chapter, we will use the notation in Table 2.
 
-# Cash-or-Nothing Options
+## Cash-or-Nothing Options
 
 The risk-neutral probability that  $S_{T} > K$  is given by  $N(d_{2})$  from the Black-Scholes formula. Discounted risk-neutral probabilities are prices of derivatives. Thus, the price for a cash-orn-thing call—which pays $1 if  $S_{T} > K$  and zero otherwise—is
 
@@ -81,7 +94,7 @@ Example 1. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 
 
 We know that equations (3) and (4) are correct since both formulas satisfy the Black-Scholes equation (equation (11)) and the appropriate boundary conditions.
 
-# Asset-or-Nothing Options
+## Asset-or-Nothing Options
 
 An asset-or-nothing call is an option that gives the owner a unit of the underlying asset if the asset price exceeds a certain level and zero otherwise. The price of an asset-or-nothing call is obtained from the price of a cash-or-nothing by replacing the dividend yield,  $\delta$ , in the cash-or-nothing formula with  $\delta - \sigma^2$ , and multiplying the result by the forward price for the stock. The result is
 
@@ -113,7 +126,7 @@ Example 2. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 
 
 Figure 1 graphs the maturity payoffs of cash and asset calls.
 
-# Ordinary Options and Gap Options
+### Ordinary Options and Gap Options
 
 We can construct an ordinary call by buying a European asset-or-nothing call with strike price  $K$  and selling  $K$  European cash-or-nothing calls with strike price  $K$ . That is,
 
@@ -149,7 +162,7 @@ Example 3. Suppose S = $40, K = $40, σ = 0.3, r = 0.08, T - t = 0.25, and δ = 
 
 The price of a gap call in which the owner pays \$20 (K1) if the stock is greater than \$40 (K2) at expiration is $23.20 - 20 × $0.5129 = 13.0427.
 
-# Delta-Hedging All-or-Nothing Options
+### Delta-Hedging All-or-Nothing Options
 
 All-or-nothing options appear frequently in writings about options, but they are relatively rare in practice. The reason is that they are easy to price but hard to hedge. To understand why, think about the position of a market-maker when such an option is close to expiration. The nightmare scenario for a market-maker is that the option is close to expiration and close to the strike price. In this case a small swing in the stock price can determine whether the option is inor out-of-the-money, with the payoff changing discretely. This potential for a small price change to have a large effect on the option value is evident in Figure 1.
 
@@ -165,7 +178,7 @@ Price and delta of a cash call at two different times to expiration: 3 months (t
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/25a710f7e43dff160ae0da9fca6a23ca6588d3d0d96148434c6177f2bccd046d.jpg)
 
-# 2. ALL-OR-NOTHING BARRIER OPTIONS
+## 2. All-or-Nothing Barrier Options
 
 Barrier options are options in which the option comes into or goes out of existence if the price of the underlying asset hits a barrier. There are down-and-out options, which become worthless if the stock price hits a barrier price below the initial stock price, as well as up-and-out, down-and-in, and up-and-in options. We can construct options such as these using all-or-nothing barrier options.
 
@@ -196,7 +209,7 @@ By valuing these pieces and adding them together we can price any standard barri
 
 There are 16 basic kinds of all-or-nothing barrier options. First, consider cash-or-nothing barrier options that pay \$1 at expiration. Such options can knock in or knock out; they can be calls (pay cash if  $S_T > K$ ) or puts (pay cash if  $S_T < K$ ); and the barrier event can occur if the barrier is above the price (up-and-ins or up-and-outs) or below the price (down-and-ins or down-and-outs). This gives us  $2^3 = 8$  basic cash-or-nothing barrier options to value. By the same reasoning there are also 8 basic asset-or-nothing barrier options, for a total of 16 all-or-nothing barrier options.
 
-# Cash-or-Nothing Barrier Options
+### Cash-or-Nothing Barrier Options
 
 We first consider the valuation of barrier cash-or-nothing options. To anticipate the results in this section, we will first see how to value one particular barrier cash-or-nothing option, a down-and-in cash call. From this one formula we will be able to value the remaining seven cash-or-nothing options and deferred rebate options.
 
@@ -352,7 +365,7 @@ $$
 \begin{array}{l} \operatorname {C a s h U O C a l l} (S, K, \sigma , r, T - t, \delta , H) = \operatorname {C a s h C a l l} (S, K, \sigma , r, T - t, \delta) \tag {18} \\ - \operatorname {C a s h U I C a l l} (S, K, \sigma , r, T - t, \delta , H) \\ \end{array}
 $$
 
-# Asset-or-Nothing Barrier Options
+### Asset-or-Nothing Barrier Options
 
 We now wish to find the eight pricing formulas for asset-or-nothing options corresponding to those for the eight cash-or-nothing options. Fortunately, there is a simple way to do this. If we view asset-or-nothing options as cash-or-nothing options denominated in shares rather than cash, we can use a proposition dealing with a change of numeraire, to transform the pricing formulas for cash-or-nothing options into formulas for asset-or-nothing options. In each case, we replace  $\delta$  by  $\delta - \sigma^2$ , and we multiply the cash-or-nothing formula by  $S_0 e^{(r - \delta)(T - t)}$ , the forward price for the stock. For example, we have
 
@@ -362,7 +375,7 @@ $$
 
 The other seven asset-or-nothing pricing formulas—AssetDOCall, AssetDIPut, Asset-DOPut, AssetUICall, AssetUOCall, AssetUIPut, and AssetUOP—can be created in exactly the same way.
 
-# Rebate Options
+### Rebate Options
 
 Rebate options pay  \$1 if the barrier is hit. We have already seen how to price deferred rebate options, which pay the\$ 1 at expiration. If the option pays at the time the barrier is hit, we will call the claim a rebate option or immediate rebate option.
 
@@ -408,7 +421,7 @@ $$
 $$ where all variables are defined as above for the down rebate.
 
 
-# Perpetual American Options
+### Perpetual American Options
 
 If we set  $T = \infty$  in (21), we obtain the price of a perpetual claim that pays 1 the first time S reaches H from below. Note that g > 0. Therefore, when T → ∞, equation (21) becomes
 
@@ -481,7 +494,7 @@ $$
 
 The capped call is more expensive because all of the stock price paths that cross 120 and end up lower result in the maximum payout on the capped call but a lower payout on the bull spread.
 
-# 4. QUANTOS
+## 4. Quantos
 
 A U.S. investor wishing to invest in a foreign stock index can purchase the foreign index directly or hold futures based on that index. However, the investor then bears two risks: the risk of the foreign index, and currency (exchange rate) risk.
 
@@ -496,7 +509,7 @@ The Nikkei 225 index futures contract, traded at the CME, is an example of a qua
 <table><tr><td>TABLE 4</td><td colspan="3">Parameters used in the Nikkei/yen quanto example.</td></tr><tr><td></td><td>Dollar-denominated interest rate</td><td>r</td><td>0.08</td></tr><tr><td></td><td>Yen-denominated interest rate</td><td>rf</td><td>0.04</td></tr><tr><td></td><td>Current Nikkei index</td><td>Q0</td><td>¥20,000</td></tr><tr><td></td><td>Nikkei dividend yield</td><td>δQ</td><td>0.02</td></tr><tr><td></td><td>Nikkei volatility (¥)</td><td>σQ</td><td>0.15</td></tr><tr><td></td><td>Current exchange rate ($/¥)</td><td>x0</td><td>0.0100</td></tr><tr><td></td><td>Exchange rate volatility</td><td>s</td><td>0.1</td></tr><tr><td></td><td>Nikkei-exchange rate ($/¥) correlation</td><td>ρ</td><td>0.2</td></tr><tr><td></td><td>Time to expiration</td><td>T</td><td>1 year</td></tr></table> based on a yen-denominated price. $^4$  There is also a yen-denominated Nikkei futures contract that trades in Osaka. Both futures are based on the Nikkei 225 contract, but they differ in currency of denomination. We will see in this section how their pricing differs. A box on a later page discusses Nikkei put warrants, which were another example of a quanto contract. Table 4 lists the symbols and specific numbers used throughout the examples in this section.
 
 
-# The Yen Perspective
+### The Yen Perspective
 
 The yen-based investor is interested in the yen price of \$1 and, hence, faces an exchange rate of 1/x0 = 100 ¥/$. Because the Nikkei index and the yen price of a dollar are both denominated in yen, we use the usual formulas to find forward prices for the yen and Nikkei. For the Nikkei, we have
 
@@ -574,7 +587,7 @@ F _ {0, 1} (Q) = \yen 0. 4 6 2 6 \times \yen 2 3, 7 0 6. 1 0 + (1 - 0. 4 6 2 6) 
 
 $$
 
-# The Dollar Perspective
+### The Dollar Perspective
 
 Now we consider yen and Nikkei investments from the perspective of a dollar-based investor. The yen forward price is given by
 

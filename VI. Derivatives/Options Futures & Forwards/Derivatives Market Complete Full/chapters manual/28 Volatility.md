@@ -1,14 +1,50 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Volatility"
+parent_directory: Derivatives Market Complete Full
+formatted: 2025-12-21 02:16:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - volatility measurement
+  - implied volatility
+  - stochastic volatility
+  - garch models
+  - volatility skew
+secondary_tags:
+  - historical volatility
+  - exponentially weighted moving average
+  - arch models
+  - realized quadratic variation
+  - variance swaps
+  - volatility hedging
+  - black-scholes extensions
+  - jump diffusion models
+  - heston model
+  - constant elasticity variance
 cssclasses: academia
-title: V o is volatility is a critical input necessary for pricing options, but it is not directly observable and it is not constant over time. Consequently, both theorists and practitioners are concerned with the behavior of volatility and the construction of option pricing models in which volatility can change. Hedging volatility risk is also an important issue for market-makers.
-linter-yaml-title-alias: V o is volatility is a critical input necessary for pricing options, but it is not directly observable and it is not constant over time. Consequently, both theorists and practitioners are concerned with the behavior of volatility and the construction of option pricing models in which volatility can change. Hedging volatility risk is also an important issue for market-makers.
 ---
 
-# V o is volatility is a critical input necessary for pricing options, but it is not directly observable and it is not constant over time. Consequently, both theorists and practitioners are concerned with the behavior of volatility and the construction of option pricing models in which volatility can change. Hedging volatility risk is also an important issue for market-makers.
+# Volatility
+
+Volatility is a critical input necessary for pricing options, but it is not directly observable and it is not constant over time. Consequently, both theorists and practitioners are concerned with the behavior of volatility and the construction of option pricing models in which volatility can change. Hedging volatility risk is also an important issue for market-makers.
+
+```d2
+volatility_concepts: Key Volatility Concepts {
+  direction: right
+  implied_volatility: Implied Volatility
+  historical_volatility: Historical Volatility
+  stochastic_volatility: Stochastic Volatility
+  garch_models: GARCH Models
+  volatility_skew: Volatility Skew
+  variance_swaps: Variance Swaps
+  implied_volatility -> volatility_skew: Leads to
+  historical_volatility -> garch_models: Modeled with
+  garch_models -> stochastic_volatility: Extends to
+  variance_swaps -> volatility_skew: Related to
+  style.fill: "#fff8dc"
+  style.stroke: "#daa520"
+}
+```
 
 In this chapter we will discuss specific techniques for measuring stock price volatility and also demonstrate how volatility models can be incorporated into the Black-Scholes pricing framework.
 
@@ -51,6 +87,19 @@ Source: Yahoo.
 
 In addition to examining the pattern of implied volatilities at a point in time, we can track implied volatilities over time. Since 1993 the Chicago Board Options Exchange (CBOE) has reported an index of implied volatility called the "VIX" (its ticker symbol). Originally, the CBOE reported implied volatility for the S&P 100 index, computed from near-the-money options. This original index is now called the "Old VIX," with ticker symbol VXO. Beginning in 2003, the CBOE began reporting implied volatility for the S&P 500 index, based on a new methodology that we will describe later in this chapter. Both volatility measures have been computed for previous dates.
 
+```d2
+vix_evolution: VIX Index Evolution {
+  direction: right
+  old_vix: Old VIX (S&P 100, 1993-2003)
+  new_vix: New VIX (S&P 500, 2003-present)
+  methodology: New Methodology (Equation 28)
+  old_vix -> new_vix: Replaced by
+  new_vix -> methodology: Based on
+  style.fill: "#f0f8ff"
+  style.stroke: "#4169e1"
+}
+```
+
 The top panel of Figure 2 plots the new VIX index from 1990 to 2012. The spike in the VIX during Fall 2008 is evident. On November 20, 2008, the VIX reached its post-1990 maximum of  $80.86$ . The bottom panel of Figure 2 shows the difference between the new and old VIX measures. The difference is generally small, but has been large at times, especially for a brief period during the financial crisis in 2008.
 
 Looking at Figures 1 and 2, it is natural to ask whether implied volatility is an accurate forecast of future volatility. It turns out that implied volatility on average exceeds future realized volatility. An interpretation is that there is a negative volatility risk premium (Bakshi and Kapadia, 2003a; Bates, 2003). We discuss this later in the chapter.
@@ -91,7 +140,7 @@ It is natural to estimate volatility using daily returns for all trading days. I
 
 # Exponentially Weighted Moving Average
 
-Because volatility in appears to be changing over time, it is natural to try to take this variation into account when estimating volatility. We might reason that if volatility is changing, we want to emphasize more recent observations at the expense of more distant observations. One way to do this is to compute an exponentially weighted moving average (EWMA) of the squared stock returns.
+Because volatility appears to be changing over time, it is natural to try to take this variation into account when estimating volatility. We might reason that if volatility is changing, we want to emphasize more recent observations at the expense of more distant observations. One way to do this is to compute an exponentially weighted moving average (EWMA) of the squared stock returns.
 
 The EWMA formula computes volatility at time  $t$  as a weighted average of the time  $t - 1$  EWMA estimate,  $\hat{\sigma}_{\mathrm{EWMA},t-1}^2$ , and the time  $t - 1$  squared stock price change,  $\epsilon_{t-1}^2$ . Thus, we have
 
@@ -124,7 +173,7 @@ $$
 Example 1. Suppose  $b = 0.94$  and  $n = 60$ . We have  $1 - b^{n} = 0.9756$ . The first term in equation (6) is then
 
 $$
-\frac {(1 - 0 . 9 4)}{0 . 9 7 5 6} = 0. 0 6 1 5
+\frac {(1 - 0.94)}{0.9756} = 0.0615
 $$
 
 This compares with a weight of  $1 / 60 = 0.0167$  for each observation in the equal-weighted estimator in equation (2). Subsequent (earlier) observations have weights of 0.0578, 0.0543, 0.0511, etc.
@@ -184,7 +233,7 @@ $$
 In this specification, the error term would have variance
 
 $$
-\operatorname {V a r} \left(\epsilon_ {t}\right) = \sigma^ {2} h \tag {8}
+\operatorname{Var} \left(\epsilon_ {t}\right) = \sigma^ {2} h \tag {8}
 $$
 
 If  $\sigma^2$  is constant over time, we say the error term,  $\epsilon_{t}$ , is homoskedastic. Based on Figure 4, however, a more reasonable specification would be to assume that the variance of  $\epsilon_{t}$  varies over time, in which case it is heteroskedastic.
@@ -332,7 +381,7 @@ $$
 The implied estimate of the unconditional annualized volatility is
 
 $$
-\sqrt {\frac {0 . 0 0 0 0 0 1 3 0 5}{1 - 0 . 0 4 4 6 - 0 . 9 5 5 2} \times 2 5 2} = 1. 5 3 1 8
+\sqrt {\frac {0.000001305}{1 - 0.0446 - 0.9552} \times 252} = 1.5318
 $$
 
 The historical volatility during this period was  $39.85\%$ . An estimated unconditional volatility of  $153\%$  suggests that the GARCH(1,1) model has trouble fitting the data. In this case, it turns out that the problem is caused by large returns on days during which IBM announced earnings.
@@ -345,7 +394,7 @@ $$
 These parameters imply an unconditional volatility of
 
 $$
-\sqrt {\frac {0 . 0 0 0 0 0 2 2 0 3}{1 - 0 . 0 5 0 7 - 0 . 9 4 6 2} \times 2 5 2} = 0. 4 2 2 9
+\sqrt {\frac {0.000002203}{1 - 0.0507 - 0.9462} \times 252} = 0.4229
 $$
 
 The other parameters do not change much, and this unconditional volatility estimate of  $42.29\%$  is more reasonable. This example illustrates that a GARCH model estimated using normally distributed returns can be sensitive to extreme data points. In addition to eliminating earnings announcement days, one could permit a fatter-tailed return distribution (e.g., see Bollerslev, 1987).

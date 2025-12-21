@@ -1,19 +1,38 @@
 ---
 title: "Chapter 14 - The Black-Scholes Formula"
-aliases:
-  - Black-Scholes Formula
-  - Black-Scholes Model
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 03:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - black-scholes formula
+  - binomial model
+  - european options
+  - option pricing
+  - implied volatility
+  - option greeks
+secondary_tags:
+  - risk-neutral valuation
+  - volatility modeling
+  - delta hedging
+  - gamma exposure
+  - theta decay
+  - rho sensitivity
+  - volatility smile
+  - perpetual options
+  - barrier pricing
+  - currency options
+  - futures options
 cssclasses: academia
 ---
 
 # The Black-Scholes Formula
 
-# I. INTRODUCTION TO THE BLACK-SCHOLES FORMULA
+## I. INTRODUCTION TO T$H$E BLACK-SC$H$OLES FORMULA
 
 To introduce the Black-Scholes formula, we first use the binomial model. When computing a binomial option price, we can vary the number of binomial steps, holding fixed the time to expiration. Table 1 computes binomial call option prices, and increases the number of steps,  $n$ . Changing the number of steps changes the option price, but once the number of steps becomes great enough we appear to approach a limiting value for the price. The last row reports the call option price if we were to use an infinite number of steps. We can't literally have an infinity of steps in a binomial tree, but it is possible to show that as the number of steps approaches infinity, the option price is given by the Black-Scholes formula. Thus, the Black-Scholes formula is a limiting case of the binomial formula for the price of a European option.
 
-# Call Options
+## Call Options
 
 The Black-Scholes formula for a European call option on a stock that pays dividends at the continuous rate  $\delta$  is
 
@@ -21,25 +40,26 @@ $$
 C (S, K, \sigma , r, T, \delta) = S e ^ {- \delta T} N \left(d _ {1}\right) - K e ^ {- r T} N \left(d _ {2}\right) \tag {1}
 $$
 
-From Chapter 12 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
+From Chapter 12 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice $H$all. All rights reserved.
 
-# Box I: The History of the Black-Scholes Formula
+## Box I: The $H$istory of the Black-Scholes Formula
 
 The Black-Scholes formula was first published in the May/June 1973 issue of the Journal of Political Economy (JPE) (see Black and Scholes, 1973). By coincidence, the Chicago Board Options Exchange (CBOE) opened at almost the same time, on April 26, 1973. Initially, the exchange traded call options on just 16 stocks. Puts did not trade until 1977. In 2000, by contrast, the CBOE traded both calls and puts on over 1200 stocks.
 
-Fischer Black told the story of the formula in Black (1989). He and Myron Scholes started working on the option-pricing problem in 1969, when Black was an independent consultant in Boston and Scholes an assistant professor at MIT. While working on the problem, they had extensive discussions with Robert Merton of MIT, who was also working on option pricing.
+Fischer Black told the story of the formula in Black (1989). $H$e and Myron Scholes started working on the option-pricing problem in 1969, when Black was an independent consultant in Boston and Scholes an assistant professor at MIT. While working on the problem, they had extensive discussions with Robert Merton of MIT, who was also working on option pricing.
 
-The first version of their paper was dated October 1970 and was rejected for publication by the  $JPE$  and subsequently by another prominent journal. However, in 1971, Eugene Fama and Merton Miller of the University of Chicago, recognizing the importance of their work, interceded on their behalf with the editors of the  $JPE$ . Later in 1973 Robert Merton published an important and wide-ranging follow-up paper (Merton, 1973b), which, among other contributions, established the standard no-arbitrage restrictions on various option prices significantly generalized the Black-Scholes formula and their derivation of the model, and provided formulas for pricing perpetual American puts and down-and-out calls.
+The first version of their paper was dated October 1970 and was rejected for publication by the  $JPE$  and subsequently by another prominent journal. $H$owever, in 1971, Eugene Fama and Merton Miller of the University of Chicago, recognizing the importance of their work, interceded on their behalf with the editors of the  $JPE$ . Later in 1973 Robert Merton published an important and wide-ranging follow-up paper (Merton, 1973b), which, among other contributions, established the standard no-arbitrage restrictions on various option prices significantly generalized the Black-Scholes formula and their derivation of the model, and provided formulas for pricing perpetual American puts and down-and-out calls.
 
 In 1997, Robert Merton and Myron Scholes won the Nobel Prize in Economics for their work on option pricing. Fischer Black was ineligible for the prize, having died in 1995 at the age of 57.
 
-TABLEI
+TABLE I
 
 Binomial option prices for different numbers of binomial steps. All calculations assume that the stock price  S = \41 , the strike price  K = \$40 , volatility  \sigma = 0.30 , risk-free rate  r = 0.08 , time to expiration  T = 1 , and dividend yield  \delta = 0 .
 
 <table><tr><td>Number of Steps (n)</td><td>Binomial Call Price ($)</td></tr><tr><td>1</td><td>7.839</td></tr><tr><td>4</td><td>7.160</td></tr><tr><td>10</td><td>7.065</td></tr><tr><td>50</td><td>6.969</td></tr><tr><td>100</td><td>6.966</td></tr><tr><td>500</td><td>6.960</td></tr><tr><td>∞</td><td>6.961</td></tr></table> where
 
-$$ d _ {1} = \frac {\ln (S / K) + \left(r - \delta + \frac {1}{2} \sigma^ {2}\right) T}{\sigma \sqrt {T}} \tag {2a}
+$$ $$ d_{1} = \frac {\ln (S / K) + \left(r - \delta + \frac {1}{2} \sigma^{2}\right) T}{\sigma \sqrt {T}} \tag {2a}
+$$ \tag {2a}
 $$
 
 $$ d _ {2} = d _ {1} - \sigma \sqrt {T} \tag {2b}
@@ -53,13 +73,13 @@ Two of the inputs ( $K$  and  $T$ ) describe characteristics of the option contr
 
 It is important to be clear about units in which inputs are expressed. Several of the inputs in equation (1) are expressed per unit time: The interest rate, volatility, and dividend yield are typically expressed on an annual basis. In equation (1), these inputs are all multiplied by time: The interest rate, dividend, and volatility appear as  $r \times T$ ,  $\delta \times T$ , and  $\sigma^2 \times T$  (or equivalently,  $\sigma \times \sqrt{T}$ ). Thus, when we enter inputs into the formula, the specific time unit we use is arbitrary as long as we are consistent. If time is measured in years, then  $r$ ,  $\delta$ , and  $\sigma$  should be annual. If time is measured in days, then we need to use the daily equivalent of  $r$ ,  $\sigma$ , and  $\delta$ , and so forth. We will always assume inputs are per year unless we state otherwise.
 
-Example 1. Let  $S = \41$ ,  $K = \$ 40 ,  $\sigma = 0.3$ ,  $r = 8\%$ ,  $T = 0.25\$  (3 months), and  $\delta = 0$ . Computing the Black-Scholes call price, we obtain
+Example 1. Let  $S = \41$ ,  $K = \$40 ,  $\sigma = 0.3$ ,  $r = 8\%$ ,  $T = 0.25\$  (3 months), and  $\delta = 0$ . Computing the Black-Scholes call price, we obtain
 
 $$
-\begin{array}{l} \$ 41 \times e ^ {- 0 \times 0.25} \times N \left(\frac {\ln (\frac {4 1}{4 0}) + (0 . 0 8 - 0 + \frac {0 . 3 ^ {2}}{2}) \times 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) \\ - \mathbb {S} 4 0 \times e ^ {- 0. 0 8 \times 0. 2 5} \times N \left(\frac {\ln (\frac {4 1}{4 0}) + (0 . 0 8 - 0 - \frac {0 . 3 ^ {2}}{2}) \times 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) = \mathbb {S} 3. 3 9 9 \\ \end{array}
+\begin{array}{l} \$ 41 \times e ^ {- 0 \times 0.25} \times N \left(\frac {\ln (\frac {4 1}{4 0}) + (0.0 8 - 0 + \frac {0 . 3 ^ {2}}{2}) \times 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) \\ - \$40 \times e ^ {- 0. 0 8 \times 0. 2 5} \times N \left(\frac {\ln (\frac {4 1}{4 0}) + (0.0 8 - 0 - \frac {0 . 3 ^ {2}}{2}) \times 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) = \$3.399 \\ \end{array}
 $$
 
-There is one input that does not appear in the Black-Scholes formula—namely, the expected return on the stock. You might guess that stocks with a high beta would have a higher expected return; hence, options on these stocks would have a higher probability of settlement in-the-money. The higher expected return would seem to imply a higher option price. However, a high stock beta implies a high option beta, so the discount rate for the expected payoff to such an option is correspondingly greater. The net result—one of the key insights from the Black-Scholes analysis—is that beta is irrelevant: The larger average payoff to options on high beta stocks is exactly offset by the larger discount rate.
+There is one input that does not appear in the Black-Scholes formula—namely, the expected return on the stock. You might guess that stocks with a high beta would have a higher expected return; hence, options on these stocks would have a higher probability of settlement in-the-money. The higher expected return would seem to imply a higher option price. $H$owever, a high stock beta implies a high option beta, so the discount rate for the expected payoff to such an option is correspondingly greater. The net result—one of the key insights from the Black-Scholes analysis—is that beta is irrelevant: The larger average payoff to options on high beta stocks is exactly offset by the larger discount rate.
 
 # Put Options
 
@@ -76,13 +96,13 @@ P (S, K, \sigma , r, T, \delta) = K e ^ {- r T} N (- d _ {2}) - S e ^ {- \delta 
 $$ where  $d_{1}$  and  $d_{2}$  are given by equations (2a) and (2b).
 
 
-Equation (4) follows from equations (1) and (3), together with the fact that for any  $x$ ,  $1 - N(x) = N(-x)$  (i.e., the probability that a random draw from the standard normal distribution is above  $x$ ,  $1 - N(x)$ , equals the probability that a draw is below  $-x$ ,  $N(-x)$ ).
+Equation (4) follows from equations (1) and (3), together with the fact that for any  $x$ ,  $$1 - N(x) = N(-x)$$  (i.e., the probability that a random draw from the standard normal distribution is above  $x$ ,  $1 - N(x)$ , equals the probability that a draw is below  $-x$ ,  $N(-x)$ ).
 
 Example 2. Using the same inputs as in Example 1, the put price is 1.607. We can compute the put price in two ways. First, computing it using equation (4), we obtain
 
 $$
 
-\begin{array}{l} \$ 40e ^ {- 0.08 \times 0.25} N \left(- \frac {\ln (\frac {41}{40}) + (0.08 - 0 - \frac {0 .3 ^ {2}}{2}) 0.25}{0 .3 \sqrt {0 .25}}\right) \\ - \mathbb {S} 4 1 e ^ {- 0 \times 0. 2 5} N \left(- \frac {\ln \left(\frac {4 1}{4 0}\right) + (0 . 0 8 - 0 + \frac {0 . 3 ^ {2}}{2}) 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) = \mathbb {S} 1. 6 0 7 \\ \end{array}
+\begin{array}{l} \$40e ^ {- 0.08 \times 0.25} N \left(- \frac {\ln (\frac {41}{40}) + (0.08 - 0 - \frac {0 .3 ^ {2}}{2}) 0.25}{0 .3 \sqrt {0 .25}}\right) \\ - \$41e^{-0 \times 0.25} N \left(- \frac {\ln \left(\frac {4 1}{4 0}\right) + (0.0 8 - 0 + \frac {0 . 3 ^ {2}}{2}) 0 . 2 5}{0 . 3 \sqrt {0 . 2 5}}\right) = \$1.607 \\ \end{array}
 
 $$
 
@@ -90,7 +110,7 @@ Computing the price using put-call parity, equation (3), we have
 
 $$
 
-\begin{array}{l} P (4 1, 4 0, 0. 3, 0. 0 8, 0. 2 5, 0) = 3. 3 3 9 + 4 0 e ^ {- 0. 0 8 \times 0. 2 5} - 4 1 \\ = \$ 1.607 \\ \end{array}
+\begin{array}{l} $P(41, 40, 0.3, 0.08, 0.25, 0) = 3.399 + 40e^{-0.08 \times 0.25} - 41$ \\ = \$ 1.607 \\ \end{array}
 
 $$
 
@@ -112,7 +132,7 @@ Many of these assumptions can easily be relaxed. For example, with a small chang
 
 As a practical matter, the first set of assumptions—those about the stock price distribution—are the most crucial. Most academic and practitioner research on option pricing concentrates on relaxing these assumptions. They will also be our focus when we discuss empirical evidence. You should keep in mind that almost any valuation procedure, including ordinary discounted cash flow, is based on assumptions that appear strong; the interesting question is how well the procedure works in practice.
 
-# 2. APPLYING THE FORMULA TO OTHER ASSETS
+# 2. APPLYING T$H$E FORMULA TO OT$H$ER ASSETS
 
 The Black-Scholes formula is often thought of as a formula for pricing European options on stocks. Specifically, equations (1) and (4) provide the price of a call and put option, respectively, on a stock paying continuous dividends. In practice, we also want to be able to price European options on stocks paying discrete dividends, options on futures, and options on currencies. The binomial model can be adapted to different underlying assets by adjusting the dividend yield. The same adjustments work in the Black-Scholes formula.
 
@@ -222,7 +242,7 @@ The formulas for the Greeks appear in Appendix B. Greek measures can be computed
 
 The units in which changes are measured are a matter of convention. Thus, when we define a Greek measure, we will also provide the assumed unit of change.
 
-- Delta  $(\Delta)$  measures the option price change when the stock price increases by 1.
+- Delta  $($$\Delta$$)$  measures the option price change when the stock price increases by 1.
 - Gamma (Γ) measures the change in delta when the stock price increases by 1.
 - Vega measures the change in the option price when there is an increase in volatility of 1 percentage point.5
 - Theta  $(\theta)$  measures the change in the option price when there is a decrease in the time to maturity of 1 day.
@@ -246,7 +266,7 @@ Figure 1 represents the behavior of delta for European calls and puts with diffe
 We can use the interpretation of delta as a share-equivalent to interpret the Black-Scholes price. The formula both prices the option and also tells us what position in the stock and borrowing is equivalent to the option. The formula for the call delta is
 
 $$
-\Delta = e ^ {- \delta T} N (d _ {1})
+$$\Delta$$ = e ^ {- \delta T} N (d _ {1})
 $$
 
 If we hold  $e^{-\delta t}N(d_1)$  shares and borrow  $Ke^{-rT}N(d_2)$  dollars, the cost of this portfolio is
@@ -309,7 +329,7 @@ Psi. Psi, the change in the option premium due to a change in the dividend yield
 
 Rho (top panel) and psi (bottom panel) at different stock prices for call options with different maturities. Assumes  K = \ 40 ,  \sigma = 30\% ,  r = 8\% , and  \delta = 0 .
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/2a7be3c96fa452f953f41b4692e76e27926f149680a2e421a6943beaba1724a9.jpg) up, so the put is more valuable when the dividend yield is greater. Hence, psi for a put is positive.
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/2a7be3c96fa452f953f41b4692e76e27926f149680a2e421a6943beaba1724a9.jpg) up, so the put is more valuable when the dividend yield is greater. $H$ence, psi for a put is positive.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/96d8702ee7dca07a1276c9fba22e0ee9205323aa9ead2a90859f5b31d74fdaba.jpg)
 
@@ -320,7 +340,7 @@ The bottom panel of Figure 5 shows that the absolute value of psi increases with
 The Greek measure of a portfolio is the sum of the Greeks of the individual portfolio components. This relationship is important because it means that the risk of complicated option positions is easy to evaluate. For a portfolio containing  $N$  options with a single underlying stock, where the quantity of each option is given by  $n_i$ , we have
 
 $$
-\Delta_ {\text {p o r t f o l i o}} = \sum_ {i = 1} ^ {N} n _ {i} \Delta_ {i}
+$$\Delta$$_ {\text {p o r t f o l i o}} = \sum_ {i = 1} ^ {N} n _ {i} $$\Delta$$_ {i}
 $$
 
 The same relation holds true for the other Greeks as well.
@@ -338,49 +358,49 @@ Dollar Risk of the Option. If the stock price changes by  $\epsilon$ , the chang
 Change in option price  $=$  Change in stock price  $\times$  option delta
 
 $$
-= \epsilon \times \Delta
+= \epsilon \times $$\Delta$$
 $$
 
 Example 7. Suppose that the stock price is S = \$41, the strike price is K = \$40, volatility is σ = 0.30, the risk-free rate is r = 0.08, the time to expiration is T = 1, and the dividend yield is δ = 0. The call price is 6.961. Delta is 0.6911. If we own options to buy 1000 shares of stock, the delta of the position is
 
 $$
-1 0 0 0 \times \Delta = 6 9 1. 1 \text {s h a r e s o f}
+1 0 0 0 \times $$\Delta$$ = 691.1 \text {s h a r e s o f}
 $$
 
 Thus, the option position at this stock price has a "share-equivalent" of 691 shares. If the stock price changes by 0.50, we expect an option price change of approximately
 
 $$
-1 0 0 0 \times \Delta \times \ 0. 5 0 = \ 3 4 5. 5 5
+1 0 0 0 \times $$\Delta$$ \times \$0.50 = \$345.55
 $$
 
-Percentage Risk of the Option. The option elasticity computes the percentage change in the option price relative to the percentage change in the stock price. The percentage change in the stock price is simply  $\epsilon / S$ . The percentage change in the option price is the dollar change in the option price,  $\epsilon \Delta$ , divided by the option price,  $C$ :
+Percentage Risk of the Option. The option elasticity computes the percentage change in the option price relative to the percentage change in the stock price. The percentage change in the stock price is simply  $\epsilon / S$ . The percentage change in the option price is the dollar change in the option price,  $\epsilon $$\Delta$$$ , divided by the option price,  $C$ :
 
 $$
-\frac {\epsilon \Delta}{C}
+\frac {\epsilon $$\Delta$$}{C}
 $$
 
-The option elasticity, denoted by  $\Omega$ , is the ratio of these two:
+The option elasticity, denoted by  $$$$$\Omega$$$$$ , is the ratio of these two:
 
 $$
-\Omega \equiv \frac {\% \text {change in option price}}{\% \text {change in stock price}} = \frac {\frac {\epsilon \Delta}{C}}{\frac {\epsilon}{S}} = \frac {S \Delta}{C} \tag{8}
+$$$$\Omega$$$$ \equiv \frac {\% \text {change in option price}}{\% \text {change in stock price}} = \frac {\frac {\epsilon $$\Delta$$}{C}}{\frac {\epsilon}{S}} = \frac {S $$\Delta$$}{C} \tag{8}
 $$
 
 The elasticity tells us the percentage change in the option for a  $1\%$  change in the stock. It is effectively a measure of the leverage implicit in the option.
 
-For a call,  $\Omega \geq 1$ . A call option is replicated by a levered investment in the stock. A levered position in an asset is always riskier than the underlying asset. Also, the implicit leverage in the option becomes greater as the option is more out-of-the-money. Thus,  $\Omega$  decreases as the strike price decreases.
+For a call,  $$$$$\Omega$$$$ \geq 1$ . A call option is replicated by a levered investment in the stock. A levered position in an asset is always riskier than the underlying asset. Also, the implicit leverage in the option becomes greater as the option is more out-of-the-money. Thus,  $$$$$\Omega$$$$$  decreases as the strike price decreases.
 
-For a put,  $\Omega \leq 0$ . This occurs because the replicating position for a put option involves shorting the stock.
+For a put,  $$$$$\Omega$$$$ \leq 0$ . This occurs because the replicating position for a put option involves shorting the stock.
 
-Example 8. Suppose  S = \41 ,  K = \40 ,  \sigma = 0.30 ,  r = 0.08 ,  T = 1 , and  \delta = 0 . The option price is  \6.961  and  \Delta = 0.6911 . Hence, the call elasticity is
-
-$$
-\Omega = \frac {\mathbb {S} 4 1 \times 0 . 6 9 1 1}{\mathbb {S} 6 . 9 6 1} = 4. 0 7 1
-$$
-
-The put has a price of \$2.886 and  $\Delta$  of -0.3089; hence, the elasticity is
+Example 8. Suppose  $S = 41$, $K = 40$, $\sigma = 0.30$, $r = 0.08$, $T = 1$, and $\delta = 0$ . The option price is  \$6.961  and  $$$\Delta$$ = 0.6911$ . $H$ence, the call elasticity is
 
 $$
-\Omega = \frac {\mathbb {S} 4 1 \times - 0 . 3 0 8 9}{\mathbb {S} 2 . 8 8 6} = - 4. 3 8 9
+$$$$\Omega$$$$ = \frac {\mathbb {S} 4 1 \times 0 . 6 9 1 1}{\mathbb {S} 6 . 9 6 1} = 4.071
+$$
+
+The put has a price of \$2.886 and  $$$\Delta$$$  of -0.3089; hence, the elasticity is
+
+$$
+$$$$\Omega$$$$ = \frac {\mathbb {S} 4 1 \times $-0.3089$}{\mathbb {S} 2 . 8 8 6} = $-4.389$
 $$
 
 Figure 6 shows the behavior of elasticity for a call, varying both the stock price and time to expiration. The 3-month out-of-the-money calls have elasticities exceeding 8. For longer time-to-expiration options, elasticity is much less sensitive to the moneyness of the option.
@@ -388,8 +408,8 @@ Figure 6 shows the behavior of elasticity for a call, varying both the stock pri
 The Volatility of an Option. The volatility of an option is the elasticity times the volatility of the stock:
 
 $$
-\sigma_ {\text {o p t i o n}} = \sigma_ {\text {s t o c k}} \times | \Omega | \tag {9}
-$$ where  $|\Omega|$  is the absolute value of  $\Omega$ . Since elasticity is a measure of leverage, this calculation is analogous to the computation of the standard deviation of levered equity by multiplying the unlevered beta by the ratio of firm value to equity. Based on Figure 6, for a stock with a  $30\%$  volatility, an at-the-money option could easily have a volatility of  $120\%$  or more.
+$\sigma_{\text{option}}$ = \sigma_ {\text {s t o c k}} \times | $$$$\Omega$$$$ | \tag {9}
+$$ where  $|$$$$\Omega$$$$|$  is the absolute value of  $$$$$\Omega$$$$$ . Since elasticity is a measure of leverage, this calculation is analogous to the computation of the standard deviation of levered equity by multiplying the unlevered beta by the ratio of firm value to equity. Based on Figure 6, for a stock with a  $30\%$  volatility, an at-the-money option could easily have a volatility of  $120\%$  or more.
 
 
 The Risk Premium and Beta of an Option. Elasticity measures the percentage sensitivity of the option relative to the stock; therefore, it tells us how the risk premium of the option compares to that of the stock.
@@ -401,36 +421,36 @@ Elasticity for a call option for different stock prices and times to expiration.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/a11be42088400d98e209b4cdcda5eccc072e5a76492c9bc0200d28b873fd4e0e.jpg)
 Elasticity
 
-At a point in time, the option is equivalent to a position in the stock and in bonds; hence, the return on the option is a weighted average of the return on the stock and the risk-free rate. Let  $\alpha$  denote the expected rate of return on the stock,  $\gamma$  the expected return on the option, and  $r$  the risk-free rate. We have
+At a point in time, the option is equivalent to a position in the stock and in bonds; hence, the return on the option is a weighted average of the return on the stock and the risk-free rate. Let  $$\alpha$$  denote the expected rate of return on the stock,  $$\gamma$$  the expected return on the option, and  $r$  the risk-free rate. We have
 
 $$
 
-\gamma = \frac {\Delta S}{C (S)} \alpha + \left(1 - \frac {\Delta S}{C (S)}\right) r
+$\gamma$ = \frac {$$\Delta$$ S}{C (S)} $\alpha$ + \left(1 - \frac {$$\Delta$$ S}{C (S)}\right) r
 
 $$
 
-Because  $\Delta S / C(S)$  is the elasticity, this can also be written
+Because  $$$\Delta$$ S / C(S)$  is the elasticity, this can also be written
 
 $$
 
-\gamma = \Omega \alpha + (1 - \Omega) r
+$\gamma$ = $$$$\Omega$$$$ $\alpha$ + (1 - $$$$\Omega$$$$) r
 
 $$ or
 
 
 $$
 
-\gamma - r = (\alpha - r) \times \Omega \tag {10}
+$\gamma$ - r = ($\alpha$ - r) \times $$$$\Omega$$$$ \tag {10}
 
 $$
 
-Thus, the risk premium on the option equals the risk premium on the stock times  $\Omega$ .
+Thus, the risk premium on the option equals the risk premium on the stock times  $$$$$\Omega$$$$$ .
 
 In the capital asset pricing model, the beta of an asset is proportional to the risk premium. Thus, since the risk premium scales with elasticity, so does beta:
 
 $$
 
-\beta_ {\text {o p t i o n}} = \beta_ {\text {a s s e t}} \times \Omega \tag {11}
+$\beta_{\text{option}}$ = $\beta_{\text{asset}}$ \times $$$$\Omega$$$$ \tag {11}
 
 $$
 
@@ -441,7 +461,7 @@ The Sharpe Ratio of an Option. The Sharpe ratio for any asset is the ratio of th
 
 $$
 
-\text {S h a r p e} = \frac {\alpha - r}{\sigma} \tag {12}
+\text {S h a r p e} = \frac {$\alpha$ - r}{\sigma} \tag {12}
 
 $$
 
@@ -449,7 +469,7 @@ Using equations (9) and (10), the Sharpe ratio for a call is
 
 $$
 
-\text {S h a r p e} = \frac {\Omega (\alpha - r)}{\Omega \sigma} = \frac {\alpha - r}{\sigma} \tag {13}
+\text {S h a r p e} = \frac {$$$$\Omega$$$$ ($\alpha$ - r)}{$$$$\Omega$$$$ \sigma} = \frac {$\alpha$ - r}{\sigma} \tag {13}
 
 $$
 
@@ -457,11 +477,11 @@ Thus, the Sharpe ratio for a call equals the Sharpe ratio for the underlying sto
 
 The Elasticity and Risk Premium of a Portfolio. The elasticity of a portfolio is the weighted average of the elasticities of the portfolio components. This is in contrast to the Greeks expressed in dollar terms (delta, gamma, etc.), for which the portfolio Greek is the sum of the component Greeks.
 
-To understand this, suppose there is a portfolio of  $N$  calls with the same underlying stock, where the  $i$ th call has value  $C_i$  and delta  $\Delta_i$ , and where  $n_i$  is the quantity of the  $i$ th call. The portfolio value is then  $\sum_{i=1}^{N} n_i C_i$ . For a 1 change in the stock price, the change in the portfolio value is
+To understand this, suppose there is a portfolio of  $N$  calls with the same underlying stock, where the  $i$ th call has value  $C_i$  and delta  $$$\Delta$$_i$ , and where  $n_i$  is the quantity of the  $i$ th call. The portfolio value is then  $\sum_{i=1}^{N} n_i C_i$ . For a 1 change in the stock price, the change in the portfolio value is
 
 $$
 
-\sum_ {i = 1} ^ {N} n _ {i} \Delta_ {i} \tag {14}
+\sum_ {i = 1} ^ {N} n _ {i} $$\Delta$$_ {i} \tag {14}
 
 $$
 
@@ -469,12 +489,12 @@ The elasticity of the portfolio is the percentage change in the portfolio divide
 
 $$
 
-\Omega_ {\text {p o r t f o l i o}} = \frac {\frac {\sum_ {i = 1} ^ {N} n _ {i} \Delta_ {i}}{\sum_ {j = 1} ^ {N} n _ {j} C _ {j}}}{\frac {1}{S}} = \sum_ {i = 1} ^ {N} \left(\frac {n _ {i} C _ {i}}{\sum_ {j = 1} ^ {N} n _ {j} C _ {j}}\right) \frac {S \Delta_ {i}}{C _ {i}} = \sum_ {i = 1} ^ {N} \omega_ {i} \Omega_ {i} \tag {15}
+$$$$\Omega$$$$_ {\text {p o r t f o l i o}} = \frac {\frac {\sum_ {i = 1} ^ {N} n _ {i} $$\Delta$$_ {i}}{\sum_ {j = 1} ^ {N} n _ {j} C _ {j}}}{\frac {1}{S}} = \sum_ {i = 1} ^ {N} \left(\frac {n _ {i} C _ {i}}{\sum_ {j = 1} ^ {N} n _ {j} C _ {j}}\right) \frac {S $$\Delta$$_ {i}}{C _ {i}} = \sum_ {i = 1} ^ {N} $\omega_{i}$ $$$$\Omega$$$$_ {i} \tag {15}
 
-$$ where  $\omega_{i}$  is the fraction of the portfolio invested in option  $i$ . Using equation (10), the risk premium of the portfolio,  $\gamma - r$ , is just the portfolio elasticity times the risk premium on the stock,  $\alpha - r$ :
+$$ where  $\omega_{i}$  is the fraction of the portfolio invested in option  $i$ . Using equation (10), the risk premium of the portfolio,  $$\gamma$ - r$ , is just the portfolio elasticity times the risk premium on the stock,  $$\alpha$ - r$ :
 
 $$
-\gamma - r = \Omega_ {\text {p o r t f o l i o}} (\alpha - r) \tag {16}
+$\gamma$ - r = $$$$\Omega$$$$_ {\text {p o r t f o l i o}} ($\alpha$ - r) \tag {16}
 $$
 
 TABLE 3
@@ -497,7 +517,7 @@ The payoff diagram depicted in Figure 7 does not take into account the original 
 
 Example 9. The 1-year option in Table 3 costs \$6.285 at a stock price of \$40. If after 1 day the stock price is still \$40, the value of the option will have fallen to \$6.274, and the 1-day holding period profit is $6.274 - $6.285 × e^0.08/365 = -\$0.012. This loss reflects the theta of the option. If the stock price were to increase to \$42, the option premium would increase to \$7.655, and the 1-day holding period profit would be $7.655 - $6.285 × e^0.08/365 = \$1.369.
 
-# FIGURE 7
+## FIGURE 7
 
 Payoff and profit diagram for a purchased call option. Top panel shows payoff diagrams for options with different remaining times to expiration. Bottom panel shows profit diagrams for a one-year call bought when the stock price was 40 and then held for different lengths of time. Assumes K = 40, r = 8\%, \delta = 0, and \sigma = 30\%.
 
@@ -509,15 +529,15 @@ After 6 months, the holding period profit at a price of \$40 would be $4.155 - $
 
 The option premium graphs in Figure 7 illustrate the behavior of delta and gamma discussed in Section 3. In all cases the slope of the call option graph is positive. This corresponds to a positive delta. In addition, the slope becomes greater as the stock price increases. Delta increasing with the stock price corresponds to a positive gamma. The fact that gamma is always positive implies that the graphs will be curved like the cross section of a bowl, i.e., the option price is convex. A positive gamma implies convex curvature. A negative gamma implies the opposite (concave) curvature.
 
-# Calendar Spreads
+## Calendar Spreads
 
 There are a number of option spreads that permit you to speculate on the volatility of a stock, including straddle, strangle, and butterfly spreads. These spreads all contain options with the same time to expiration and different strikes. To speculate on volatility you could also enter into a calendar spread, in which the options you buy and sell have different expiration dates.
 
 Suppose you want to speculate that XYZ's stock price will be unchanged over the next 3 months. An alternative to a written straddle or a written butterfly spread is simply to
 
-# FIGURE 8
+## FIGURE 8
 
-Profit diagram for a calendar spread. Assumes we sell a 91-day 40-strike call with premium of 2.78 and buy a 365-day 40-strike call with premium of 6.28. Assumes S = \ {40},\sigma = {30}\% ,r = 8\% , and \delta = 0
+Profit diagram for a calendar spread. Assumes we sell a 91-day 40-strike call with premium of 2.78 and buy a 365-day 40-strike call with premium of 6.28. Assumes S = \$40,\sigma = 30\% ,r = 8\% , and \delta = 0
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/c9469c80218a126ecd716318f3e76785319b0872094684f95e78b35342e588a1.jpg)
 
@@ -529,7 +549,7 @@ We can understand the behavior of profit for this position by considering the th
 
 Figure 8 shows that at the initial stock price of 40, delta is positive: The delta of the written 91-day call is 0.5825 and that of the purchased 1-year call is 0.6615, for a net positive delta of 0.0790. Thus, over 1 day, the maximum profit occurs if the stock price rises by a small amount.
 
-# 5. IMPLIED VOLATILITY
+## 5. IMPLIED VOLATILITY
 
 To price an option we need volatility as an input. Specifically, we require an estimate of prospective volatility: What is the future uncertainty about the return on the underlying asset? The vega diagram in Figure 2 shows that option prices, particularly for near-the-money options, can be quite sensitive to volatility. Moreover, volatility is unobservable, which raises the question of how options are priced in practice.[12]
 
@@ -537,7 +557,7 @@ One approach is to compute historical volatility using the history of returns. A
 
 We obtain a different perspective by thinking of an option market as the venue where volatility is traded and revealed. Options are claims that investors use to hedge and speculate on future values of the stock price. Therefore the option price should reveal the market's expectations about the future stock price distribution. (The price of a deep out-of-the-money put, for example, depends upon the market's assessment that the stock will decline enough for the put to be valuable.) One way to extract information from an option price is by computing the option's implied volatility, which is the volatility that, when put into a pricing formula, yields the observed option price.[13]
 
-# Computing Implied Volatility
+### Computing Implied Volatility
 
 To compute a Black-Scholes implied volatility, assume that we observe the stock price  $S$ , strike price  $K$ , interest rate  $r$ , dividend yield  $\delta$ , and time to expiration  $T$ . The implied call volatility is the  $\hat{\sigma}$  that solves
 
@@ -569,11 +589,11 @@ In addition to computing implied volatility using the Black-Scholes, there is al
 
 Figure 10 graphs the VIX index since 1990. You can see on the graph that during the financial crisis, the VIX exceeded  $80\%$  for a brief period. Overall, it is apparent that volatility is volatile. The VIX is widely watched and reported upon. It is often described as the "fear index" because it generally rises during times of financial stress. There are also both futures and options based on the VIX.
 
-# Using Implied Volatility
+### Using Implied Volatility
 
 Implied volatility is a standard descriptive measure with important practical uses.
 
-# FIGURE 9
+## FIGURE 9
 
 Implied put volatilities for Apple and the S&P 500 on October 27, 2010. The top panel shows implied volatility curves for Apple and the bottom panel shows the same for the S&P 500 index, each for three different maturities. Closing prices for Apple and the S&P 500 were 307.83 and 1182.45.
 
@@ -591,7 +611,7 @@ Data from OptionMetrics.
 - Implied volatility is often used as a quick way to describe the level of option prices on a given underlying asset: you could quote option prices in terms of volatility, rather than as a dollar price. There are typically numerous options on a given asset; implied volatility can be used to succinctly describe the general level of option prices for a given underlying asset.
 - Volatility skew provides a measure of the extent to which pricing deviates from the assumptions underlying the Black-Scholes model. If the Black-Scholes model were literally true, implied volatilities for a given underlying asset would be the same at all strike prices and maturities. One common test of the Black-Scholes model is to check the empirical validity of this assumption. The existence of volatility skew suggests
 
-# FIGURE 10
+## FIGURE 10
 
 S&P 500 implied volatility (VIX) from January 1990 to May 2011.
 
@@ -603,7 +623,7 @@ that the Black-Scholes model and assumptions are not a perfect description of th
 
 Another implied volatility measure that is widely cited is the risk reversal, which is the difference between the implied volatilities of out-of-the-money calls and puts, each with the same delta (most commonly 0.25). A risk reversal is in effect a way to quote the price of a collar, which entails buying an out-of-the-money put and selling an out-of-the-money call, or vice versa. If the risk reversal is negative, the volatility of the put exceeds that of the call. Risk reversals are commonly quoted in currency markets.
 
-# 6. PERPETUAL AMERICAN OPTIONS
+## 6. PERPETUAL AMERICAN OPTIONS
 
 The Black-Scholes formula prices options that can only be exercised at expiration. In this section we present formulas, based on Merton (1973b), for the prices of calls and puts that never expire, which are known as perpetual options or "expirationless options."
 
@@ -611,68 +631,68 @@ American options are harder to price than European options because it is difficu
 
 Perpetual American options are different because such an option always has the same time to expiration, namely infinity. Because time to expiration is constant, the option exercise problem will look the same today, tomorrow, and forever. Thus, the price at which it is optimal to exercise the option is constant. The optimal exercise strategy entails picking the exercise barrier that maximizes the value of the option and then exercising the option the first time the stock price reaches that barrier.
 
-# Valuing Perpetual Options
+### Valuing Perpetual Options
 
 In this section we present the formulas for perpetual calls and puts. The formulas provide the option price and also the price of the underlying asset at which exercise is optimal.
 
 First, define  $h_1$  and  $h_2$ :
 
-$$ h _ {1} = \frac {1}{2} - \frac {r - \delta}{\sigma^ {2}} + \sqrt {\left(\frac {r - \delta}{\sigma^ {2}} - \frac {1}{2}\right) ^ {2} + \frac {2 r}{\sigma^ {2}}}
+$$ $$ h_{1} = \frac{1}{2} - \frac{r - \delta}{\sigma^{2}} + \sqrt{\left( \frac{r - \delta}{\sigma^{2}} - \frac{1}{2} \right)^{2} + \frac{2r}{\sigma^{2}}} $$
 $$
 
-$$ h _ {2} = \frac {1}{2} - \frac {r - \delta}{\sigma^ {2}} - \sqrt {\left(\frac {r - \delta}{\sigma^ {2}} - \frac {1}{2}\right) ^ {2} + \frac {2 r}{\sigma^ {2}}}
+$$ $$ h_{2} = \frac{1}{2} - \frac{r - \delta}{\sigma^{2}} - \sqrt{\left( \frac{r - \delta}{\sigma^{2}} - \frac{1}{2} \right)^{2} + \frac{2r}{\sigma^{2}}} $$
 $$
 
-The value of a perpetual American call with strike price  $K$  that is exercised when  $S \geq H_{c}$  is
+The value of a perpetual American call with strike price  $K$  that is exercised when  $S \geq $H$_{c}$  is
 
 $$
-\boxed {(H _ {c} - K) \left(\frac {S}{H _ {c}}\right) ^ {h _ {1}}} \tag {18}
-$$ where  $H_{c}$  is given by
+\boxed{($H$_{c} - K) \left( \frac{S}{$H$_{c}} \right)^{h_{1}}} \tag {18}
+$$ where  $$H$_{c}$  is given by
 
-
-$$
-
-H _ {c} = K \left(\frac {h _ {1}}{h _ {1} - 1}\right) \tag {19}
 
 $$
 
-You can verify that if  $\delta = 0$ , then  $H_{c} = \infty$ : It is never optimal to exercise a call option on a non-dividend-paying stock.
-
-Notice that equation (18), the value of the call, is a function of  $H_{c}$ , the price at which it is exercised. It is straightforward to show (using calculus) that the  $H_{c}$  given by equation (19) maximizes the value of the call. The option holder chooses an exercise strategy that makes the call as valuable as possible.
-
-The value of a perpetual American put with strike price  $K$  that is exercised when  $S \leq H_p$  is
+$$ $H$_{c} = K \frac{h_{1}}{h_{1} - 1} $$ \tag {19}
 
 $$
 
-\boxed {(K - H _ {p}) \left(\frac {S}{H _ {p}}\right) ^ {h _ {2}}} \tag {20}
+You can verify that if  $\delta = 0$ , then  $$H$_{c} = \infty$ : It is never optimal to exercise a call option on a non-dividend-paying stock.
 
-$$ where  $H_{p}$  is given by
+Notice that equation (18), the value of the call, is a function of  $$H$_{c}$ , the price at which it is exercised. It is straightforward to show (using calculus) that the  $$H$_{c}$  given by equation (19) maximizes the value of the call. The option holder chooses an exercise strategy that makes the call as valuable as possible.
 
-$$
-H _ {p} = K \frac {h _ {2}}{h _ {2} - 1} \tag {21}
-$$
-
-You can verify that if  $r = 0$ , then  $H_{p} = 0$ : It is never optimal to exercise a put option when the interest rate is non-positive. As with the call,  $H_{p}$  in equation (21) maximizes the value of the put.
-
-Example 11. Let  $S = \$ 45 ,  $K = \40$ ,  $\sigma = 0.30$ ,  $r = 0.05\$ , and  $\delta = 0.02$ . Using equation (18), a perpetual American call has a premium of  $\25.41$  and will be exercised when  $S = \$ 211.05 . A perpetual American put has a premium of  $\9.66$  and will be exercised when  $S = \$ 18.95 .
-
-# Barrier Present Values
-
-If you look at equation (18), you will see that the formula for the value of a perpetual call is the number of dollars received at exercise  $\left( {{H}_{c} - K}\right)$  times the factor  ${\left( S/{H}_{c}\right) }^{h_{1}}$  . The value at time 0,of \$1 received when the stock price reaches  $H$  ,assuming  $H > {S}_{0}$  ,is
+The value of a perpetual American put with strike price  $K$  that is exercised when  $S \leq $H$_p$  is
 
 $$
-\text {V a l u e o f} S 1 \text {r e c e i v e d w h e n} S \text {f i r s t r e a c h e s} H \text {f r o m b e l o w} = \left(\frac {S _ {0}}{H}\right) ^ {h _ {1}} \tag {22}
+
+\boxed{(K - $H$_{p}) \left( \frac{S}{$H$_{p}} \right)^{h_{2}}} \tag {20}
+
+$$ where  $$H$_{p}$  is given by
+
+$$
+$$ $H$_{p} = K \frac{h_{2}}{h_{2} - 1} $$ \tag {21}
 $$
 
-Similarly, the value at time 0 of 1 received when the stock price reaches H, assuming H < S0, is
+You can verify that if  $r = 0$ , then  $$H$_{p} = 0$ : It is never optimal to exercise a put option when the interest rate is non-positive. As with the call,  $$H$_{p}$  in equation (21) maximizes the value of the put.
+
+Example 11. Let  $S = \$ 45 ,  $K = \40$ ,  $\sigma = 0.30$ ,  $r = 0.05\$ , and  $\delta = 0.02$ . Using equation (18), a perpetual American call has a premium of  $\$25.41$  and will be exercised when  $S = \$ 211.05 . A perpetual American put has a premium of  $\$9.66$  and will be exercised when  $S = \$ 18.95 .
+
+### Barrier Present Values
+
+If you look at equation (18), you will see that the formula for the value of a perpetual call is the number of dollars received at exercise  $\left( {{$H$}_{c} - K}\right)$  times the factor  ${\left( S/{$H$}_{c}\right) }^{h_{1}}$  . The value at time 0,of \$1 received when the stock price reaches  $$H$$  ,assuming  $$H$ > {S}_{0}$  ,is
 
 $$
-\text {V a l u e o f $ 1 r e c e i v e d w h e n S f i r s t r e a c h e s H f r o m a b o v e} = \left(\frac {S _ {0}}{H}\right) ^ {h _ {2}} \tag {23}
+\text {V a l u e o f} S 1 \text {r e c e i v e d w h e n} S \text {f i r s t r e a c h e s} $H$ \text {f r o m b e l o w} = \left(\frac {S _ {0}}{$H$}\right) ^ {$h_{1}$} \tag {22}
+$$
+
+Similarly, the value at time 0 of 1 received when the stock price reaches $H$, assuming $H$ < S0, is
+
+$$
+\text {V a l u e o f $ 1 r e c e i v e d w h e n S f i r s t r e a c h e s $H$ f r o m a b o v e} = \left(\frac {S _ {0}}{$H$}\right) ^ {$h_{2}$} \tag {23}
 $$
 
 We will refer to the expressions in equations (22) and (23) as "barrier present values."
 
-# CHAPTER SUMMARY
+## C$H$APTER SUMMARY
 
 Under certain assumptions, the Black-Scholes formula provides an exact formula—approximated by the binomial formula—for pricing European options. The inputs to the Black-Scholes formula are the same as for the binomial formula: the stock price, strike price, volatility, interest rate, time to expiration, and dividend yield. As with the binomial formula, the Black-Scholes formula accommodates different underlying assets by changing the dividend yield.
 
@@ -682,6 +702,6 @@ Of the inputs to the Black-Scholes formula, volatility is hardest to estimate. I
 
 Although there is no simple formula for valuing a finitely lived American option, there are simple formulas in the special case of perpetual puts and calls.
 
-# FURTHER READING
+## FURT$H$ER READING
 
 The classic early papers on option pricing are Black and Scholes (1973) and Merton (1973b). The details of how the binomial model converges to the Black-Scholes model are in Cox et al. (1979). The perpetual put formula is derived in Merton (1973b). The link between the perpetual call and put formulas is discussed by McDonald and Siegel (1986).

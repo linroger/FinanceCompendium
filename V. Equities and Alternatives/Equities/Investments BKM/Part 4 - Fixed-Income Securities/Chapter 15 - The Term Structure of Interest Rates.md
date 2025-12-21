@@ -742,8 +742,6 @@ b. Compute the price of a 5-year annual-pay Treasury security with a coupon rate
 
 Go to stockcharts.com/freecharts/yieldcurve.php, where you will find a dynamic or "living" yield curve, a moving picture of the yield curve over time. Hit theAnimate button to start the demonstration. Is the yield curve usually upward- or downward-sloping? What about today's yield curve? How much does the slope of the curve vary? Which varies more: short-term or long-term rates? Can you explain why this might be the case?
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/f1240908ff6144e44e8e1335f057f58c3370376133b9a3053fb2f426ba9054c5.jpg)
-
 # SOLUTIONS TO CONCEPT CHECKS
 
 1. The price of the 3-year bond paying a 40 coupon is

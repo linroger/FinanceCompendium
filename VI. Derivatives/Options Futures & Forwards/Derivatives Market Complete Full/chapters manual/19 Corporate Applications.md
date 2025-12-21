@@ -1,9 +1,26 @@
 ---
-title: "Chapter 19 - Corporate Applications"
-aliases:
-  - Corporate Applications
-  - Debt and Equity as Options
+title: "Corporate Applications"
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 02:25:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+  - debt equity options
+  - corporate finance options
+  - convertible bonds
+  - warrants valuation
+  - callable bonds
+secondary_tags:
+  - option pricing theory
+  - credit risk modeling
+  - capital structure
+  - bankruptcy valuation
+  - dividend policy
+  - asset substitution
+  - risk neutral pricing
+  - binomial valuation
+  - conversion premium
+  - put call parity
 cssclasses: academia
 ---
 
@@ -15,21 +32,17 @@ Second, many firms grant options as compensation to employees. These options typ
 
 Third, merger deals in which firm A offers their own stock to buy firm B sometimes offer price protection to firm B shareholders. This protection can take the form of a collar. We examine one merger—Northrop Grumman-TRW—that used a collar for this purpose.
 
-# I. EQUITY, DEBT, AND WARRANTS
+## I. EQUITY, DEBT, AND WARRANTS
 
 Firms issue explicit derivatives, such as warrants. However, firms also issue implicit derivatives, such as ordinary debt and equity, which have values determined by the asset value of the firm. In this section we see how option theory helps us understand corporate finance. You will see that it is natural to think of stocks, bonds, and other instruments as options.
 
-# Debt and Equity as Options
+### Debt and Equity as Options
 
 Consider a firm with the following very simple capital structure. The firm has non-dividend-paying equity outstanding, along with a single zero-coupon debt issue. Represent the time  $t$  values of the assets of the firm, the debt, and the equity as  $A_{t}$ ,  $B_{t}$ , and  $E_{t}$ . The debt matures at time  $T$  and has maturity value  $\overline{B}$ .
 
 We assume throughout this section that there are no taxes, bankruptcy costs, transaction costs, or other market imperfections.
 
-The value of the debt and equity at time  $T$  will depend upon the value of the firm's assets. Equity-holders are the legal owners of the firm; in order for them to have unambiguous possession of the firm's assets, they must pay the debt-holders  $\overline{B}$  at time  $T$ . If  $A_{T} > \overline{B}$ , equity-holders will pay  $\overline{B}$  to the bondholders since equity will then be worth the
-
-From Chapter 16 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
-
-value of the assets less the payment to bondholders, or  $A_{T} - \overline{B} > 0$ . However, if  $A_{T} < \overline{B}$ , equity-holders would have to inject additional funds in order to pay off the debt. In this case equity-holders would declare bankruptcy, permitting the bondholders to take possession of the assets. Therefore, the value of the equity at time  $T$ ,  $E_{T}$ , is
+The value of the debt and equity at time $T$ will depend upon the value of the firm's assets. Equity-holders are the legal owners of the firm; in order for them to have unambiguous possession of the firm's assets, they must pay the debt-holders $\overline{B}$ at time $T$. If $A_{T} > \overline{B}$, equity-holders will pay $\overline{B}$ to the bondholders since equity will then be worth the value of the assets less the payment to bondholders, or $A_{T} - \overline{B} > 0$. However, if $A_{T} < \overline{B}$, equity-holders would have to inject additional funds in order to pay off the debt. In this case equity-holders would declare bankruptcy, permitting the bondholders to take possession of the assets. Therefore, the value of the equity at time $T$, $E_{T}$, is
 
 $$
 E _ {T} = \max  (0, A _ {T} - \bar {B}) \tag {1}
@@ -61,13 +74,7 @@ The interpretation of equation (4) is that the bondholders own risk-free debt wi
 
 Example 1. Suppose a firm has issued zero-coupon debt with a face value of \overline{B} = \6000. The maturity value of the equity is given by equation (1) and the maturity value of the debt is given by equation (4). The two payoffs are graphed in Figure 1 as a function of corporate assets at maturity.
 
-If we assume that the assets of the firm are lognormally distributed, then we can use the Black-Scholes model to value the payoffs to the firm's equity and debt, equations (1)
-
-# FIGURE I
-
-Value of debt and equity at maturity of the debt, as a function of assets, for a firm that has a single issue of zero-coupon debt with a maturity value of 6000.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/cfe1424a5ed8300e3c0ce87f9d44478e39ddd72f86520cd528d862739706d30b.jpg) and (4). For purposes of option pricing, the firm's assets are the underlying asset, the strike price is the promised payment on debt,  $\overline{B}$ , the volatility of the firm's assets,  $\sigma$ , is volatility, and the payout rate from the firm becomes the dividend yield. If the risk-free rate is  $r$  and the debt matures at time  $T$ , we have
+If we assume that the assets of the firm are lognormally distributed, then we can use the Black-Scholes model to value the payoffs to the firm's equity and debt, equations (1) and (4). For purposes of option pricing, the firm's assets are the underlying asset, the strike price is the promised payment on debt, $\overline{B}$, the volatility of the firm's assets, $\sigma$, is volatility, and the payout rate from the firm becomes the dividend yield. If the risk-free rate is $r$ and the debt matures at time $T$, we have
 
 $$
 E _ {t} = \operatorname {B S C a l l} \left(A _ {t}, \bar {B}, \sigma , r, T - t, \delta\right) \tag {5}
@@ -87,12 +94,36 @@ Equity and debt are options, so they have the familiar characteristics of option
 
 This model of the firm is very simple, in that we have not incorporated coupons or dividends, refinancings or subsequent debt issues, etc. It is possible to create more complicated models of a firm's capital structure; nevertheless, this model provides a starting point for understanding how leverage affects returns on debt and equity and determines the yield on risky debt.
 
+```d2
+direction: right
+
+assets: Assets Value (A_T) {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+}
+
+equity: Equity Payoff {
+  shape: rectangle
+  style.fill: "#c8e6c9"
+}
+
+debt: Debt Payoff {
+  shape: rectangle
+  style.fill: "#ffcdd2"
+}
+
+assets -> equity: max(A_T - B, 0)
+assets -> debt: min(A_T, B)
+
+equity -> debt: Total = A_T
+```
+
 Viewing debt and equity as options also provides a framework for thinking about credit risk. Equation (4) shows that defaultable debt is equivalent to owning default-free debt and writing a put option on the assets of the firm. An investor owning a corporate bond could buy such a put; the result would be economically equivalent to owning a default-free bond. Thus, the value of the put is the value of insurance to protect bondholders against default. Such a put is called a "credit default swap."
 
-Example 2. Suppose that  $\overline{B} = \100$ ,  $A_0 = \$ 90,  $r = 6\%$ ,  $\sigma = 25\%$ ,  $\delta = 0\$  (the firm makes no payouts), and  $T = 5$  years. We have
+Example 2. Suppose that $\overline{B} = \$100$, $A_0 = \$90$, $r = 6\%$, $\sigma = 25\%$, $\delta = 0$ (the firm makes no payouts), and $T = 5$ years. We have
 
 $$
-\begin{array}{l} E _ {0} = \operatorname {B S C a l l} (\mathbb {S} 9 0, \mathbb {S} 1 0 0, 0. 2 5, 0. 0 6, 5, 0) \\ = \$ 2 7. 0 7 \\ \end{array}
+\begin{array}{l} E_{0} = \operatorname{BSCall}(90, 100, 0.25, 0.06, 5, 0) \\ = \$27.07 \\ \end{array}
 $$
 
 The value of the debt is
@@ -112,16 +143,16 @@ The debt yield of  $9.26\%$  is 326 basis points greater than the risk-free rate
 By put-call parity, the value of the debt can be written as the value of a \$100 risk-free bond less a put with a \$100 strike price:
 
 $$
-\begin{array}{l} B _ {0} = \ 1 0 0 e ^ {- 0. 0 6 \times 5} - \text {B S P u t} ( 9 0, $ 1 0 0, 0. 2 5, 0. 0 6, 5, 0) \\ = \ 74.08 - \ 11.15 = \$ 62.93 \\ \end{array}
+\begin{array}{l} B_{0} = 100e^{-0.06 \times 5} - \text{BSPut}(90, 100, 0.25, 0.06, 5, 0) \\ = 74.08 - 11.15 = \$62.93 \\ \end{array}
 $$
 
 The cost of an insurance contract on the bond is the cost of the put, 11.15. Stated differently, buying a bond for 62.93 plus an insurance contract on the bond for 11.15 creates a risk-free position costing 74.08.
 
-# Leverage and the Expected Return on Debt and Equity
+## Leverage and the Expected Return on Debt and Equity
 
 Example 2 shows that, because of the possibility of bankruptcy, the yield to maturity on debt exceeds the risk-free rate. However, a bondholder earns the yield to maturity only if the firm does not go bankrupt. Accounting for the possibility of bankruptcy, the investor on average will earn a return less than the yield to maturity and greater than the risk-free rate. In effect, debt that can default bears some of the risk of the assets, sharing this risk with the equity-holders.
 
-We can compute the expected return on both debt and equity using the concept of option elasticity. The elasticity of an option tells us the relationship between the expected return on the underlying asset and that on the option. Using the equation  $\gamma - r = (\alpha - r) \times \Omega$ , we can compute the expected return on equity as
+We can compute the expected return on both debt and equity using the concept of option elasticity. The elasticity of an option tells us the relationship between the expected return on the underlying asset and that on the option. Using the equation $\gamma - r = (\alpha - r) \times \Omega$, we can compute the expected return on equity as
 
 $$ r _ {E} = r + \left(r _ {A} - r\right) \times \Omega_ {E} \tag {8}
 $$ where  $r_A$  is the expected return on assets,  $r$  is the risk-free rate, and  $\Omega_E$  is the elasticity of the equity. Using equation (5), elasticity is
@@ -162,8 +193,36 @@ $$
 
 This is the familiar Modigliani-Miller expression for the expected return on levered equity. Equation (13) can be obtained from equation (8) by assuming that the delta of the equity is one, which implies that the delta of the debt is zero. Viewing debt and equity as options, by contrast, allows us take into the account the effects of possible bankruptcy. Equation (8) assumes that debtand equity-holders share the risk of the assets, so equation (13) will give a higher  $r_E$  than equation (8).
 
-Example 3. Use the same assumptions as in Example 2, and suppose that the expected return on assets,  $r_A$ , is  $10\%$ . The equity delta is
+Example 3. Use the same assumptions as in Example 2, and suppose that the expected return on assets, $r_A$, is $10\%$. The equity delta is
 
+$$
+\operatorname{BSCallDelta}(90, 100, 0.25, 0.06, 5, 0) = 0.735
+$$
+
+The debt delta is $1 - 0.735 = 0.265$. Thus, if the asset value increases by \$1, the value of the equity increases by \$0.735 and the value of the debt increases by 0.265.
+
+Using equation (9), the equity elasticity is
+
+$$
+\frac{90 \times 0.735}{27.07} = 2.443
+$$
+
+The expected return on equity is therefore
+
+$$
+\begin{array}{l} r_{E} = 0.06 + (0.1 - 0.06) \times 2.443 \\ = 0.1577 \\ \end{array}
+$$
+
+Using equation (11), the debt elasticity is
+
+$$
+\frac{90}{90 - 27.07} \times 1 - \frac{27.07}{90 - 27.07} \times 2.443 = 0.3793
+$$
+
+The expected return on debt is therefore
+
+$$
+\begin{array}{l} r_{B} = 0.06 + (0.1 - 0.06) \times 0.3793 \\ = 0.0752 \\ \end{array}
 $$
 \operatorname {B S C a l l D e l t a} (9 0, 1 0 0, 0. 2 5, 0. 0 6, 5, 0) = 0. 7 3 5
 $$
@@ -191,15 +250,15 @@ $$
 The expected return on debt is therefore
 
 $$
-\begin{array}{l} r _ {B} = 0. 0 6 + (0. 1 - 0. 0 6) \times 0. 3 7 9 3 \\ = 0. 0 7 5 2 \\ \end{array}
+\begin{array}{l} r_{B} = 0.06 + (0.1 - 0.06) \times 0.3793 \\ = 0.0752 \\ \end{array}
 $$
 
-Note that the  $7.52\%$  expected return on debt is greater than the risk-free rate  $(6\%)$  and less than the yield to maturity on debt  $(9.26\%)$ .
+Note that the $7.52\%$ expected return on debt is greater than the risk-free rate $(6\%)$ and less than the yield to maturity on debt $(9.26\%)$.
 
 If we owned equity and debt in the same proportion in which they were issued by the firm, we would have a return of
 
 $$
-\frac {2 7 . 0 7}{9 0} \times 0. 1 5 7 7 + \frac {9 0 - 2 7 . 0 7}{9 0} \times 0. 0 7 5 2 = 0. 1 0 0 0
+\frac{27.07}{90} \times 0.1577 + \frac{90 - 27.07}{90} \times 0.0752 = 0.1000
 $$
 
 Since  $10\%$  is the expected return on assets, this illustrates equation (12).
@@ -207,7 +266,7 @@ Since  $10\%$  is the expected return on assets, this illustrates equation (12).
 Finally, if we were to (erroneously) assume that debt is risk-free and use equation (13) to compute the expected return on equity, we would obtain
 
 $$
-\begin{array}{l} \hat {r} _ {E} = 0. 0 6 + \frac {1}{2 7 . 0 7 / 9 0} (0. 1 - 0. 0 6) \\ = 0. 1 9 2 9 \\ \end{array}
+\begin{array}{l} \hat{r}_{E} = 0.06 + \frac{1}{27.07/90} (0.1 - 0.06) \\ = 0.1929 \\ \end{array}
 $$
 
 This calculation gives an expected return on equity substantially greater than  $15.77\%$ .
@@ -220,7 +279,7 @@ You can also see that as the debt-to-asset ratio declines, so does the expected 
 
 For purposes of comparison, Figure 2 also graphs the expected return on equity, computed assuming that the debt is risk-free. For asset values close to 200, the difference
 
-# FIGURE 2
+**FIGURE 2**
 
 The top panel graphs the debt-to-asset ratio as a function of the asset value of the firm, using the Black-Scholes formula to compute the value of the debt. The bottom panel graphs the expected return on equity as a function of the asset value of the firm, using equations (13) (dashed line) and (8) (solid line). Both graphs assume that there is a single zero-coupon debt issue with maturity value 100 and 5 years to maturity, and also assume that r = 6\%, \sigma = 25\% (for the assets), and \delta = 0.
 
@@ -238,7 +297,7 @@ There are two decisions equity-holders make that affect the relative value of de
 
 A second decision that equity-holders can make is the size of payouts to shareholders, such as dividends and share repurchases. To see why payouts are a potential problem for bondholders, suppose that the firm makes an unexpected one-time  \$1 payout to shareholders. This payout reduces assets by\$ 1. The delta of the equity with respect to assets is less than one, so the value of equity declines by less than 1. Since the value of debt plus
 
-# Box I: The Bank Capital Debate
+### Box I: The Bank Capital Debate
 
 A number of prominent financial institutions in the United States in 2008 failed outright or were rescued by the federal government. An incomplete list includes familiar names such as Bear Stearns, Lehman Brothers, AIG, Fannie Mae, Freddie Mac, and Washington Mutual. Lesser institutions failed as well: Between 2007 and mid-2011, the FDIC resolved over 350 failed banks with deposits of about  \$650 billion (compared to 29 failed institutions with total deposits of\$ 6 billion in the preceding 7 years). In addition to the direct cost of failed institutions, regulators worry about spillover effects: Banks have deep financial ties to one another, so that a large failed bank could lead to a cascade of failures among connected banks.
 
@@ -260,22 +319,22 @@ Bondholders also encounter problems from actions that shareholders fail to take.
 
 The shareholders in this example only will make the investment if the value of shares goes up by more than the  $1 they invest, which will only occur if \Delta_E > 0.5$ . In order for shareholders to be willing to invest, the NPV must be great enough that shareholders gain after allowing for the value increase that is lost to debt-holders.4 Thus, because of debt, the shareholders may fail to make positive NPV investments. A related problem is asset substitution: Shareholders might make negative NPV investments that increase asset risk, thereby transferring value from bondholders to stockholders.
 
-# Multiple Debt Issues
+## Multiple Debt Issues
 
 The option-based model of debt accommodates multiple issues of zero-coupon debt with different seniorities. By definition, more senior debt has priority in the event of bankruptcy. Suppose that there are three debt issues, with maturity values of  $30,$ 30, and \$40, ranked in seniority from highest to lowest. We will refer to each distinct level of seniority as a tranche. The value of equity will be the same as in Example 2, since it is still necessary for equity-holders to pay \$100 to receive ownership of the assets. However, the option pricing approach permits us to assign appropriate yields to each level of debt.
 
 Senior debt-holders are the first in line to be paid. They own the firm and have written a call option permitting the next set of bondholders to buy the firm from them by paying the maturity value of the senior debt,  \$30. Intermediate debt-holders own a call option permitting them to buy the firm for\$ 30, and have sold a call option permitting the junior bondholders to buy the firm for \$60. Junior bondholders in turn own the call option to buy the firm for \$60, and have written a call option permitting the equity-holders to buy the firm for 100. The values of these options are
 
 $$
-\operatorname {B S C a l l} (\mathbb {S} 9 0, \mathbb {S} 3 0, 0. 2 5, 0. 0 6, 5, 0) = \mathbb {S} 6 7. 8 2 \tag {14}
+\operatorname{BSCall}(90, 30, 0.25, 0.06, 5, 0) = 67.82 \tag{14}
 $$
 
 $$
-\operatorname {B S C a l l} (\mathbb {S} 9 0, \mathbb {S} 6 0, 0. 2 5, 0. 0 6, 5, 0) = \mathbb {S} 4 7. 2 5 \tag {15}
+\operatorname{BSCall}(90, 60, 0.25, 0.06, 5, 0) = 47.25 \tag{15}
 $$
 
 $$
-\operatorname {B S C a l l} (\mathbb {S} 9 0, \mathbb {S} 1 0 0, 0. 2 5, 0. 0 6, 5, 0) = \mathbb {S} 2 7. 0 7 \tag {16}
+\operatorname{BSCall}(90, 100, 0.25, 0.06, 5, 0) = 27.07 \tag{16}
 $$
 
 Table 1 summarizes the value, yield to maturity, and expected return of each tranche of debt. The junior tranche has a yield to maturity of  $13.69\%$ , very close to the required return on equity. The senior tranche, according to the model, is almost risk-free.

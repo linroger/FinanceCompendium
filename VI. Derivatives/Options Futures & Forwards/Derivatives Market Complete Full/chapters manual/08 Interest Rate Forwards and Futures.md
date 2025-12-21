@@ -8,11 +8,11 @@ cssclasses: academia
 
 # Interest Rate Forwards and Futures
 
-Suppose you have the opportunity to spend  \$1 one year from today to receive\$ 2 two years from today. What is the value of this opportunity? To answer this question, you need to know the appropriate interest rates for discounting the two cash flows. This comparison is an example of the most basic concept in finance: using interest rates to compute present values. Once we find a present value for one or more assets, we can compare the values of cash flows from those assets even if the cash inflows and cash outflows occur at different times. In order to perform these calculations, we need information about the set of interest rates prevailing between different points in time.
+Suppose you have the opportunity to spend $1 one year from today to receive $2 two years from today. What is the value of this opportunity? To answer this question, you need to know the appropriate interest rates for discounting the two cash flows. This comparison is an example of the most basic concept in finance: using interest rates to compute present values. Once we find a present value for one or more assets, we can compare the values of cash flows from those assets even if the cash inflows and cash outflows occur at different times. In order to perform these calculations, we need information about the set of interest rates prevailing between different points in time.
 
 We begin the chapter by reviewing basic bond concepts—coupon bonds, yields to maturity, and implied forward rates. Any reader of this chapter should understand these basic concepts. We then look at interest rate forwards and forward rate agreements, which permit hedging interest rate risk. Finally, we look at bond futures and the repo market.
 
-# I. BOND BASICS
+## Bond Basics
 
 Table 1 presents information about current interest rates for bonds maturing in from 1 to 3 years. Identical information is presented in five different ways in the table. Although the information appears differently across columns, it is possible to take the information in any one column of Table 1 and reproduce the other four columns.
 
@@ -105,14 +105,14 @@ The implied forward interest rate,  $r_0(2,3)$ , can be computed as
 
 $$
 
-1 + r _ {0} (2, 3) = \frac {[ 1 + r _ {0} (0 , 3) ] ^ {3}}{[ 1 + r _ {0} (0 , 2) ] ^ {2}} = \frac {(1 + 0 . 0 7) ^ {3}}{(1 + 0 . 0 6 5) ^ {2}} = 1. 0 8 0 0 7 0 5
+1 + r _ {0} (2, 3) = \frac {[ 1 + r _ {0} (0 , 3) ] ^ {3}}{[ 1 + r _ {0} (0 , 2) ] ^ {2}} = \frac {(1 + 0.07) ^ {3}}{(1 + 0.065) ^ {2}} = 1.0800705
 
 $$ or equivalently as
 
 
 $$
 
-1 + r _ {0} (2, 3) = \frac {P _ {0} (0 , 2)}{P _ {0} (0 , 3)} = \frac {0 . 8 8 1 6 5 9}{0 . 8 1 6 2 9 8} = 1. 0 8 0 0 7 0 5
+1 + r _ {0} (2, 3) = \frac {P _ {0} (0 , 2)}{P _ {0} (0 , 3)} = \frac {0.881659}{0.816298} = 1.0800705
 
 $$
 
@@ -120,7 +120,7 @@ The implied forward 1-year zero-coupon bond price is
 
 $$
 
-\frac {P _ {0} (0 , 3)}{P _ {0} (0 , 2)} = \frac {1}{1 + r _ {0} (2 , 3)} = 0. 9 2 5 8 6 5
+\frac {P _ {0} (0 , 3)}{P _ {0} (0 , 2)} = \frac {1}{1 + r _ {0} (2 , 3)} = 0.925865
 
 $$
 
@@ -150,7 +150,7 @@ $$
 Example 2. Using the information in Table 1, the coupon on a 3-year coupon bond that sells at par is
 
 $$
-\begin{array}{l} c = \frac {1 - 0 . 8 1 6 2 9 8}{0 . 9 4 3 3 9 6 + 0 . 8 8 1 6 5 9 + 0 . 8 1 6 2 9 8} \\ = 6.95485\% \\ \end{array}
+\begin{array}{l} c = \frac {1 - 0.816298}{0.943396 + 0.881659 + 0.816298} \\ = 6.95485\% \\ \end{array}
 $$
 
 Equation (5) computes the bond price by discounting each bond payment at the rate appropriate for a cash flow with that particular maturity. For example, in equation (5), the coupon occurring at time  $t_i$  is discounted using the zero-coupon bond price  $P_t(t, t_i)$ ; an alternative way to write the bond price is using the yield to maturity to discount all payments.
@@ -172,31 +172,31 @@ We have started with zero-coupon bond prices and deduced the prices of coupon bo
 Suppose we observe the par coupons in Table 1. We can then infer the first zero-coupon bond price from the first coupon bond as follows:
 
 $$
-1 = (1 + 0. 0 6) P (0, 1)
+1 = (1 + 0.06) P (0, 1)
 $$
 
 This implies that  $P(0,1) = 1 / 1.06 = 0.943396$ . Using the second par coupon bond with a coupon rate of  $6.48423\%$  gives us
 
 $$
-1 = 0. 0 6 4 8 4 2 3 P (0, 1) + 1. 0 6 4 8 4 2 3 P (0, 2)
+1 = 0.0648423 P (0, 1) + 1.0648423 P (0, 2)
 $$
 
 Since we know  $P(0,1) = 0.943396$ , we can solve for  $P(0,2)$ :
 
 $$
-\begin{array}{l} P (0, 2) = \frac {1 - 0 . 0 6 4 8 4 2 3 \times 0 . 9 4 3 3 9 6}{1 . 0 6 4 8 4 2 3} \\ = 0. 8 8 1 6 5 9 \\ \end{array}
+\begin{array}{l} P (0, 2) = \frac {1 - 0.0648423 \times 0.943396}{1.0648423} \\ = 0.881659 \\ \end{array}
 $$
 
 Finally, knowing  $P(0,1)$  and  $P(0,2)$ , we can solve for  $P(0,3)$  using the 3-year par coupon bond with a coupon of  $6.95485\%$ :
 
 $$
-1 = (0. 0 6 9 5 4 8 5 \times P (0, 1)) + (0. 0 6 9 5 4 8 5 \times P (0, 2)) + (1. 0 6 9 5 4 8 5 \times P (0, 3))
+1 = (0.0695485 \times P (0, 1)) + (0.0695485 \times P (0, 2)) + (1.0695485 \times P (0, 3))
 $$ which gives us
 
 
 $$
 
-\begin{array}{l} P (0, 3) = \frac {1 - (0 . 0 6 9 5 4 8 5 \times 0 . 9 4 3 3 9 6) - (0 . 0 6 9 5 4 8 5 \times 0 . 8 8 1 6 5 9)}{1 . 0 6 9 5 4 8 5} \\ = 0. 8 1 6 2 9 8 \\ \end{array}
+\begin{array}{l} P (0, 3) = \frac {1 - (0.0695485 \times 0.943396) - (0.0695485 \times 0.881659)}{1.0695485} \\ = 0.816298 \\ \end{array}
 
 $$
 
@@ -213,7 +213,7 @@ Consider first what would happen if interest rates were certain, we bought the 3
 
 $$
 
-\begin{array}{l} B _ {1} = \frac {6 . 9 5 4 8 5}{1 . 0 7 0 0 2 3 7} + \frac {1 0 6 . 9 5 4 8 5}{(1 . 0 7 0 0 2 3 7) (1 + 0 . 0 8 0 0 7 0 5)} \\ = 9 9. 0 4 5 1 5 \\ \end{array}
+\begin{array}{l} B _ {1} = \frac {6.95485}{1.0700237} + \frac {106.95485}{(1.0700237) (1 + 0.0800705)} \\ = 99.04515 \\ \end{array}
 
 $$
 
@@ -221,7 +221,7 @@ The 1-period return is thus
 
 $$
 
-\begin{array}{l} 1 \text {p e r i o d} = \frac {6 . 9 5 4 8 5 + 9 9 . 0 4 5 1 5}{1 0 0} - 1 \\ = 0. 0 6 \\ \end{array}
+\begin{array}{l} 1 \text {period} = \frac {6.95485 + 99.04515}{100} - 1 \\ = 0.06 \\ \end{array}
 
 $$
 
@@ -230,14 +230,14 @@ We earn  $6\%$ , since that is the 1-year interest rate. Problem 13 asks you to 
 By year 3, we have received three coupons, two of which have been reinvested at the implied forward rate. The total value of reinvested bond holdings at year 3 is
 
 $$
-6. 9 5 4 8 5 \times [ (1. 0 7 0 0 2 3 7) (1. 0 8 0 0 7 0 5) + (1. 0 8 0 0 7 0 5) + 1 ] + 1 0 0 = 1 2 2. 5 0 4 3
+6.95485 \times [ (1.0700237) (1.0800705) + (1.0800705) + 1 ] + 100 = 122.5043
 $$
 
 The 3-year yield on the bond is thus
 
 $$
 
-\left(\frac {1 2 2 . 5 0 4 3}{1 0 0}\right) ^ {1 / 3} - 1 = 0. 0 7
+\left(\frac {122.5043}{100}\right) ^ {1 / 3} - 1 = 0.07
 
 $$
 
@@ -269,18 +269,18 @@ $$
 We can compute the continuously compounded 3-year zero yield, for example, as
 
 $$
-\frac {1}{3} \ln (1 / 0. 8 1 6 2 9 8) = 0. 0 6 7 6 5 8 6
+\frac {1}{3} \ln (1 / 0.816298) = 0.0676586
 $$
 
 Alternatively, we can obtain the same answer using the 3-year zero yield of  $7\%$ :
 
 $$
-\ln (1 + 0. 0 7) = 0. 0 6 7 6 5 8 6
+\ln (1 + 0.07) = 0.0676586
 $$
 
 Any of the zero yields or implied forward yields in Table 1 can be computed as effective annual or continuously compounded. The choice hinges on convention and ease of calculation.
 
-# 2. FORWARD RATE AGREEMENTS, EURODOLLAR FUTURES, AND HEDGING
+## Forward Rate Agreements, Eurodollar Futures, and Hedging
 
 We now consider the problem of a borrower who wishes to hedge against increases in the cost of borrowing. We consider a firm expecting to borrow  $100\mathrm{m}$  for 91 days, beginning 120 days from today, in June. This is the borrowing date. The loan will be repaid in September on the loan repayment date. In the examples we will suppose that the effective quarterly interest rate at that time can be either  $1.5\%$  or  $2\%$ , and that the implied June 91-day forward rate (the rate from June to September) is  $1.8\%$ . Here is the risk faced by the borrower, assuming no hedging:
 
@@ -309,7 +309,7 @@ $$
 Thus, if the borrowing rate is  $1.5\%$ , the payment under the FRA should be
 
 $$
-(0. 0 1 5 - 0. 0 1 8) \times \$ 1 0 0 \mathrm {m} = - \$ 3 0 0, 0 0 0
+(0.015 - 0.018) \times \$ 100 \mathrm {m} = - \$ 300,000
 $$
 
 Since the rate is lower than the FRA rate, the borrower pays the FRA counterparty.
@@ -317,7 +317,7 @@ Since the rate is lower than the FRA rate, the borrower pays the FRA counterpart
 Similarly, if the borrowing rate turns out to be  $2.0\%$ , the payment under the FRA should be
 
 $$
-(0. 0 2 - 0. 0 1 8) \times \$ 1 0 0 \mathrm {m} = \$ 2 0 0, 0 0 0
+(0.02 - 0.018) \times \$ 100 \mathrm {m} = \$ 200,000
 $$
 
 Settling the FRA in arrears is simple and seems like the obvious way for the contract to work. However, settlement can also occur at the time of borrowing.
@@ -410,7 +410,7 @@ Eurodollar futures contracts are similar to FRAs in that they can be used to gua
 Let's consider again the example in which we wish to guarantee a borrowing rate for a  $100\mathrm{m}$  loan from June to September. Suppose the June Eurodollar futures price is 92.8. Implied 3-month LIBOR is  $\frac{100 - 92.8}{4\times 100} = 1.8\%$  over 3 months. The payoff on a single short Eurodollar contract at expiration will be
 
 $$
-[ 9 2. 8 - (1 0 0 - r _ {\mathrm {L I B O R}}) ] \times 1 0 0 \times \$ 2 5
+[ 92.8 - (100 - r_{\mathrm{LIBOR}}) ] \times 100 \times \$ 25
 $$
 
 Thus, the payoff on the Eurodollar contract compensates us for differences between the implied rate  $(1.8\%)$  and actual LIBOR at expiration.
@@ -420,13 +420,13 @@ To illustrate hedging with this contract we again consider two possible 3-month 
 Suppose that we were to short 100 Eurodollar futures contracts. Ignoring marking-to-market prior to June, if the 3-month rate in June is  $1.5\%$ , the Eurodollar futures price will be 94. The payment is
 
 $$
-[ (9 2. 8 - 9 4) \times 1 0 0 \times \$ 2 5 ] \times 1 0 0 = - \$ 3 0 0, 0 0 0
+[ (92.8 - 94) \times 100 \times \$ 25 ] \times 100 = - \$ 300,000
 $$
 
 We multiply by 100 twice: once to account for 100 contracts, and the second time to convert the change in the futures price to basis points. Similarly, if the borrowing rate is  $2\%$ , we have
 
 $$
-[ (9 2. 8 - 9 2) \times 1 0 0 \times \$ 2 5 ] \times 1 0 0 = \$ 2 0 0, 0 0 0
+[ (92.8 - 92) \times 100 \times \$ 25 ] \times 100 = \$ 200,000
 $$
 
 This is like the payment on an FRA paid in arrears, except that the futures contract settles in June, but our interest expense is not paid until September. Thus we have 3 months to earn or pay interest on our Eurodollar gain or loss before we actually have to make the interest payment.
@@ -434,19 +434,19 @@ This is like the payment on an FRA paid in arrears, except that the futures cont
 Recall that when the FRA settles on the borrowing date, the payment is the present value of the change in borrowing cost. The FRA is thus tailed automatically as part of the agreement. With the Eurodollar contract, by contrast, we need to tail the position explicitly. We do this by shorting fewer than 100 contracts, using the implied 3-month Eurodollar rate of  $1.8\%$  as our discount factor. Thus, we enter into
 
 $$
-\text {N u m b e r o f E u r o d o l l a r c o n t r a c t s} = - \frac {1 0 0}{1 + 0 . 0 1 8} = - 9 8. 2 3 1 8
+\text {N u m b e r o f E u r o d o l l a r c o n t r a c t s} = - \frac {100}{1 + 0.018} = - 98.2318
 $$
 
 Now consider the gain on the Eurodollar futures position. If LIBOR = 6\% (r_quarterly = 1.5\%), our total gain on the short contracts when we initiate borrowing on day 120 will be
 
 $$
-9 8. 2 3 1 8 \times (9 2. 8 - 9 4) \times \$ 2 5 0 0 = - \$ 2 9 4, 6 9 5
+98.2318 \times (92.8 - 94) \times \$ 2500 = - \$ 294,695
 $$
 
 If LIBOR = 8\% (r_quarterly = 2.0\%), our total gain on the contracts will be
 
 $$
-9 8. 2 3 1 8 \times (9 2. 8 - 9 2) \times \$ 2 5 0 0 = \$ 1 9 6, 4 6 4
+98.2318 \times (92.8 - 92) \times \$ 2500 = \$ 196,464
 $$
 
 Notice that the amounts are different than with the FRA: The reason is that the FRA payment is automatically tailed using the 3-month rate prevailing in June, whereas with the Eurodollar contract we tailed using  $1.8\%$ , the LIBOR rate implied by the initial futures price.
@@ -687,7 +687,7 @@ $$ where  $D_{1}$  and  $D_{2}$  are Macaulay durations. If we want the net chan
 
 $$
 
-\boxed {N = - \frac {D _ {1} B _ {1} \left(y _ {1}\right) / \left(1 + y _ {1}\right)}{D _ {2} B _ {2} \left(y _ {2}\right) / \left(1 + y _ {2}\right)}} \tag {13}
+\boxed {N = - \frac {D_{1} B_{1} (y_{1}) / (1 + y_{1})}{D_{2} B_{2} (y_{2}) / (1 + y_{2})}} \tag {13}
 
 $$
 
@@ -696,11 +696,11 @@ When a portfolio is duration-matched in this fashion, the net investment in the 
 Example 8. Suppose we own a 7-year  $6\%$  coupon bond with a yield of  $7\%$  and want to find the duration-matched short position in a 10-year  $8\%$  coupon bond yielding  $7.5\%$ . Assuming annual coupon payments, the Macaulay duration and price of the two bonds is 5.882 years and \$94.611, and 7.297 years and \$103.432, respectively. Thus, if we own one of the 7-year bonds, we must hold
 
 $$
-- \frac {5 . 8 8 2 \times 9 4 . 6 1 1 / (1 . 0 7)}{7 . 2 9 7 \times 1 0 3 . 4 3 2 / (1 . 0 7 5)} = - 0. 7 4 0 8
+- \frac {5.882 \times 94.611 / (1.07)}{7.297 \times 103.432 / (1.075)} = - 0.7408
 $$ units of the 10-year bond. The short position in the 10-year bond is not enough to pay for the 7-year bond; hence, investment in the portfolio is  $1 \times 94.611 - 0.7408 \times 103.432 = 17.99$ . If the yield on both bonds increases 25 basis points, the price change of the portfolio is
 
 $$
-- 1. 2 8 9 + (- 0. 7 4 0 8) \times - 1. 7 3 5 = - 0. 0 0 4
+- 1.289 + (- 0.7408) \times - 1.735 = - 0.004
 $$
 
 # Convexity
@@ -722,7 +722,7 @@ Example 9. Consider again Example 7. We want to predict the new price of a 3-yea
 
 $$
 
-\text {C o n v e x i t y} = 3 \times 4 \times \frac {1 0 0}{1 . 0 7 ^ {(3 + 2)}} \times \frac {1}{8 1 . 6 3} = 1 0. 4 8 1 2
+\text {Convexity} = 3 \times 4 \times \frac {100}{1.07^{(3 + 2)}} \times \frac {1}{81.63} = 10.4812
 
 $$
 
@@ -730,7 +730,7 @@ Using equation (15), the price at a yield of  $7.25\%$  is
 
 $$
 
-\begin{array}{l} B (7.25 \%) = \ 81.63 - (3 / 1.07) \times \ 81.63 \times 0.0025 + 0.5 \times 10.4812 \times \ 81.63 \times 0.0025 ^ {2} \\ = \mathbb {S} 8 1. 0 6 0 \\ \end{array}
+\begin{array}{l} B (7.25 \%) = \ 81.63 - (3 / 1.07) \times \ 81.63 \times 0.0025 + 0.5 \times 10.4812 \times \ 81.63 \times 0.0025 ^ {2} \\ = \$ 81.060 \\ \end{array}
 
 $$
 
@@ -770,7 +770,7 @@ Now suppose that the futures contract is close to expiration, the observed futur
 
 $$
 
-\text {I n v o i c e p r i c e} - \text {m a r k e t p r i c e} = (9 7. 5 8 3 \times 1. 0 6 2 8) - 1 0 3. 7 1 = 0. 0 0
+\text {Invoice price} - \text {market price} = (97.583 \times 1.0628) - 103.71 = 0.00
 
 $$
 

@@ -1,11 +1,18 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Appendix A - Continuous Compounding
-linter-yaml-title-alias: Appendix A - Continuous Compounding
+parent_directory: chapters manual
+formatted: 2025-12-21 02:18:25 PM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
+primary_tags:
+   - continuous compounding
+   - interest rate conventions
+   - exponential functions
+secondary_tags:
+   - effective annual rates
+   - logarithmic functions
+   - interest rate conversion
+cssclasses: academia
 ---
 
 # Appendix A - Continuous Compounding
@@ -51,7 +58,7 @@ What happens if we let  $n$  get very large, that is, if interest is compounded 
 
 The exponential function is  $e^x$ , where  $e$  is a constant approximately equal to 2.71828. If compounding is continuous—that is, if interest accrues every instant—then we can use the exponential function to compute future values. For example, with a  $10\%$  continuously compounded rate, after 3 years we will have a future value of
 
-$$ e ^ {0. 1 \times 3} = \\ \\text{\1.349859}
+$$ e ^ {0.1 \times 3} = e^{0.3} = 1.349859
 $$
 
 Notice that assuming continuous compounding gives us a result very close to that assuming daily compounding. In Excel, we compute continuously compounded results using the built-in exponential function.
@@ -74,24 +81,24 @@ $$
 Example I. Suppose you have a zero-coupon bond that matures in 5 years. The price today is \$62.092 for a bond that pays \$100. The annually compounded rate of return is
 
 $$
-\left(\frac {\mathbb {S} 1 0 0}{\mathbb {S} 6 2 . 0 9 2}\right) ^ {1 / 5} - 1 = 0. 1 0
+\left(\frac {\$100}{\$62.092}\right) ^ {1 / 5} - 1 = 0.10
 $$
 
 The continuously compounded rate of return is
 
 $$
-\frac {\ln (\mathbb {S} 1 0 0 / \mathbb {S} 6 2 . 0 9 2)}{5} = \frac {0 . 4 7 6 5 5}{5} = 0. 0 9 5 3 1
+\frac {\ln (\$100 / \$62.092)}{5} = \frac {0.47655}{5} = 0.09531
 $$
 
 The continuously compounded rate of return of  $9.53\%$  corresponds to the annually compounded rate of return of  $10\%$ . To verify this, observe that
 
-$$ e ^ {0. 0 9 5 3} = 1. 1 0
+$$ e ^ {0.0953} = 1.10
 $$
 
 Finally, note that
 
 $$
-\ln (1. 1 0) = \ln \left(e ^ {0. 0 9 5 3}\right) = 0. 0 9 5 3
+\ln (1.10) = \ln \left(e ^ {0.0953}\right) = 0.0953
 $$
 
 # Changing Interest Rates
@@ -103,7 +110,7 @@ $$
 
 Suppose you can invest for 4 years, earning a continuously compounded return of  $5\%$  the first 2 years and  $6\%$  the second 2 years. If you invest 1 today, after 4 years you will have
 
-$$ e ^ {2 \times 0. 0 5} e ^ {2 \times 0. 0 6} = e ^ {0. 1 0 + 0. 1 2} = \$ 1. 2 4 6 1
+$$ e ^ {2 \times 0.05} e ^ {2 \times 0.06} = e ^ {0.10 + 0.12} = e^{0.22} = 1.2461
 
 $$
 

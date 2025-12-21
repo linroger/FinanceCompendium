@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Derivatives Markets
+parent_directory: Options Futures & Forwards
+formatted: 2025-12-21 02:18:25 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - derivatives markets overview
+  - financial market functions
+  - risk sharing mechanisms
+  - derivatives trading basics
+  - forward contract fundamentals
+secondary_tags:
+  - stock bond markets
+  - market size measures
+  - prediction markets
+  - derivatives uses
+  - trading perspectives
+  - short selling mechanics
+  - transaction costs
+  - bid ask spreads
+  - market makers
+  - derivatives disasters
 cssclasses: academia
-title: Pearson New International Edition
-linter-yaml-title-alias: Pearson New International Edition
 ---
 
 # Pearson New International Edition
@@ -14,9 +30,9 @@ Derivatives Markets
 
 Third Edition
 
-# Table of Contents
+## Table of Contents
 
-# Glossary
+## Glossary
 
 <toc>
 1. Introduction to Derivatives
@@ -55,11 +71,11 @@ Appendix: Continuous Compounding
 Appendix: Jensen's Inequality
 </toc>
 
-# Introduction to Derivatives
+## Introduction to Derivatives
 
 The world of finance has changed dramatically in recent decades. Electronic processing, globalization, and deregulation have all transformed markets, with many of the most important changes involving derivatives. The set of financial claims traded today is quite different than it was in 1970. In addition to ordinary stocks and bonds, there is now a wide array of products collectively referred to as financial derivatives: futures, options, swaps, credit default swaps, and many more exotic claims.
 
-Derivatives sometimes make headlines. Prior to the financial crisis in 2008, there were a number of well-known derivatives-related losses: Procter & Gamble lost  \$150 million in 1994, Barings Bank lost\$ 1.3 billion in 1995, Long-Term Capital Management lost \$3.5 billion in 1998, the hedge fund Amaranth lost \$6 billion in 2006, Société Générale lost €5 billion in 2008. During the crisis in 2008 the Federal Reserve loaned 85 billion to AIG in conjunction with AIG's losses on credit default swaps. In the wake of the financial crisis, a significant portion of the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 pertained to derivatives.
+Derivatives sometimes make headlines. Prior to the financial crisis in 2008, there were a number of well-known derivatives-related losses: Procter & Gamble lost \$150 million in 1994, Barings Bank lost \$1.3 billion in 1995, Long-Term Capital Management lost \$3.5 billion in 1998, the hedge fund Amaranth lost \$6 billion in 2006, Société Générale lost €5 billion in 2008. During the crisis in 2008 the Federal Reserve loaned 85 billion to AIG in conjunction with AIG's losses on credit default swaps. In the wake of the financial crisis, a significant portion of the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010 pertained to derivatives.
 
 What is not in the headlines is the fact that, most of the time, for most companies and most users, these financial products are a useful and everyday part of business. Just as companies routinely issue debt and equity, they also routinely use swaps to fix the cost of production inputs, futures contracts to hedge foreign exchange risk, and options to compensate employees, to mention just a few examples.
 
@@ -69,7 +85,7 @@ In this chapter, we introduce some important concepts underlying derivatives and
 
 From Chapter 1 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
-# I. WHAT IS A DERIVATIVE?
+### I. WHAT IS A DERIVATIVE?
 
 A derivative is a financial instrument that has a value determined by the price of something else. Options, futures, and swaps are all examples of derivatives. A bushel of corn is not a derivative; it is a commodity with a value determined in the corn market. However, you could enter into an agreement with a friend that says: If the price of a bushel of corn in 1 year is greater than \$3, you will pay the friend \$1. If the price of corn is less than \$3, the friend will pay you \$1. This is a derivative in the sense that you have an agreement with a value depending on the price of something else (corn, in this case).
 
@@ -112,7 +128,7 @@ Before we discuss specific markets, it will be helpful to explain some ways in w
 
 Trading volume. This measure counts the number of financial claims that change hands daily or annually. Trading volume is the number commonly emphasized in press coverage, but it is a somewhat arbitrary measure because it is possible to redefine the meaning of a financial claim. For example, on a stock exchange, trading volume refers to the number of shares traded. On an options exchange, trading volume refers to the number of options traded, but each option on an individual stock covers 100 shares of stock.
 
-Market value. The market value (or "market cap") of the listed financial claims on an exchange is the sum of the market value of the claims that could be traded, without regard to whether they have traded. A firm with 1 million shares and a share price of  \$50 has a market value of\$ 50 million. Some derivative claims can have a zero market value; for such claims, this measure tells us nothing about activity at an exchange.
+Market value. The market value (or "market cap") of the listed financial claims on an exchange is the sum of the market value of the claims that could be traded, without regard to whether they have traded. A firm with 1 million shares and a share price of \$50 has a market value of \$50 million. Some derivative claims can have a zero market value; for such claims, this measure tells us nothing about activity at an exchange.
 
 Notional value. Notional value measures the scale of a position, usually with reference to some underlying asset. Suppose the price of a stock is  \$100 and that you have a derivative contract giving you the right to buy 100 shares at a future date. We would then say that the notional value of one such contract is 100 shares, or\$ 10,000. The concept of notional value is especially important in derivatives markets. Derivatives exchanges frequently report the notional value of contracts traded during a period of time.
 
@@ -126,7 +142,7 @@ Securities exchanges facilitate the exchange of ownership of a financial asset f
 
 The bond market is similar in size to the stock market, but bonds generally trade through dealers rather than on an exchange. Most bonds also trade much less frequently than stocks.
 
-Table 1 shows the market capitalization of stocks traded on the six largest stock exchanges in the world in 2011. To provide some perspective, the aggregate value of publicly traded common stock in the U.S. was about  \$20 trillion at the end of 2011. Total corporate debt was about\$ 10 trillion, and borrowings of federal, state, and local governments in the U.S. was about \$18 trillion. By way of comparison, the gross domestic product (GDP) of the U.S. in 2011 was \$15.3 trillion.[6]
+Table 1 shows the market capitalization of stocks traded on the six largest stock exchanges in the world in 2011. To provide some perspective, the aggregate value of publicly traded common stock in the U.S. was about \$20 trillion at the end of 2011. Total corporate debt was about \$10 trillion, and borrowings of federal, state, and local governments in the U.S. was about \$18 trillion. By way of comparison, the gross domestic product (GDP) of the U.S. in 2011 was \$15.3 trillion.[6]
 
 <table><tr><td colspan="2">TABLE I</td><td>The six largest stock exchanges in the world, by market capitalization (in billions of US dollars) in 2011.</td></tr><tr><td>Rank</td><td>Exchange</td><td>Market Cap (Billions of U.S. $)</td></tr><tr><td>1</td><td>NYSE Euronext (U.S.)</td><td>11,796</td></tr><tr><td>3</td><td>Nasdaq OMX</td><td>3,845</td></tr><tr><td>2</td><td>Tokyo Stock Exchange</td><td>3,325</td></tr><tr><td>4</td><td>London Stock Exchange</td><td>3,266</td></tr><tr><td>5</td><td>NYSE Euronext (Europe)</td><td>2,447</td></tr><tr><td>6</td><td>Shanghai Stock Exchange</td><td>2,357</td></tr></table>
 

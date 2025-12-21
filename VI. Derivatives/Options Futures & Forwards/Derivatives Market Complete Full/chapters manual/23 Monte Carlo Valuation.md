@@ -1,14 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Chapter 23 - Monte Carlo Valuation"
+parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 11:20:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+primary_tags:
+  - monte carlo valuation
+  - risk neutral pricing
+  - path dependent options
+secondary_tags:
+  - asian options
+  - poisson distribution
+  - control variates
+  - stratified sampling
+  - american options
+  - lognormal stock prices
 cssclasses: academia
-title: D derivatives have a (relatively simple) valuation formula, or can be valued binomially. For many common derivatives, however, a different approach is necessary. For example, consider arithmetic Asian options. There is no simple valuation formula for such options, and the binomial pricing approach is difficult because the final payoff depends on the specific path the stock price takes through the tree—i.e., the payoff is path-dependent. A pricing method that can be used in such cases is Monte Carlo valuation. In Monte Carlo valuation we simulate future stock prices and then use these simulated prices to compute the discounted expected payoff of the option.
-linter-yaml-title-alias: D derivatives have a (relatively simple) valuation formula, or can be valued binomially. For many common derivatives, however, a different approach is necessary. For example, consider arithmetic Asian options. There is no simple valuation formula for such options, and the binomial pricing approach is difficult because the final payoff depends on the specific path the stock price takes through the tree—i.e., the payoff is path-dependent. A pricing method that can be used in such cases is Monte Carlo valuation. In Monte Carlo valuation we simulate future stock prices and then use these simulated prices to compute the discounted expected payoff of the option.
 ---
 
-# D derivatives have a (relatively simple) valuation formula, or can be valued binomially. For many common derivatives, however, a different approach is necessary. For example, consider arithmetic Asian options. There is no simple valuation formula for such options, and the binomial pricing approach is difficult because the final payoff depends on the specific path the stock price takes through the tree—i.e., the payoff is path-dependent. A pricing method that can be used in such cases is Monte Carlo valuation. In Monte Carlo valuation we simulate future stock prices and then use these simulated prices to compute the discounted expected payoff of the option.
+# Monte Carlo Valuation
+
+Derivatives have a (relatively simple) valuation formula, or can be valued binomially. For many common derivatives, however, a different approach is necessary. For example, consider arithmetic Asian options. There is no simple valuation formula for such options, and the binomial pricing approach is difficult because the final payoff depends on the specific path the stock price takes through the tree—i.e., the payoff is path-dependent. A pricing method that can be used in such cases is Monte Carlo valuation. In Monte Carlo valuation we simulate future stock prices and then use these simulated prices to compute the discounted expected payoff of the option.
 
 Monte Carlo valuation is performed using the risk-neutral distribution, where we assume that assets earn the risk-free rate on average, and we then discount the expected payoff using the risk-free rate. We will see in this chapter that risk-neutral pricing is a cornerstone of Monte Carlo valuation; using the actual distribution instead would create a complicated discounting problem.
 
@@ -18,46 +30,44 @@ In this chapter we will see why risk-neutral valuation is important for Monte Ca
 
 # I. COMPUTING THE OPTION PRICE AS A DISCOUNTED EXPECTED VALUE
 
-Option valuation can be performed as if all assets earned the risk-free rate of return and investors performed all discounting at this rate. Specifically, we compute the time price of
+Option valuation can be performed as if all assets earned the risk-free rate of return and investors performed all discounting at this rate. Specifically, we compute the time price of a claim, $V[S(0),0]$, as
 
 From Chapter 19 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
 
-a claim,  $V[S(0),0]$  , as
-
 $$
-V [ S (0), 0 ] = e ^ {- r T} \mathrm {E} _ {0} ^ {*} [ V (S (T), T) ] \tag {1}
-$$ where  $\mathrm{E}_0^*$  is the expectation computed at time 0 using the risk-neutral distribution. Monte Carlo valuation exploits this procedure. We assume that assets earn the risk-free rate of return and simulate their returns. For example, for any given stock price 3 months from now, we can compute the payoff on a call. We perform the simulation many times and average the outcomes. This provides an estimate of  $\mathrm{E}_0^*[V(S_T), S_T]$ . Since we use risk-neutral valuation, we then discount the average payoff at the risk-free rate in order to arrive at the price.
+V[S(0), 0] = e^{-rT} \mathrm{E}_{0}^{*} [V(S(T), T)] \tag{1}
+$$ where $\mathrm{E}_0^*$ is the expectation computed at time 0 using the risk-neutral distribution. Monte Carlo valuation exploits this procedure. We assume that assets earn the risk-free rate of return and simulate their returns. For example, for any given stock price 3 months from now, we can compute the payoff on a call. We perform the simulation many times and average the outcomes. This provides an estimate of $\mathrm{E}_0^*[V(S_T), S_T]$. Since we use risk-neutral valuation, we then discount the average payoff at the risk-free rate in order to arrive at the price.
 
 
 As a practical matter, Monte Carlo valuation depends critically on risk-neutral valuation. In order to see why this is so, we will compute an option price as an expected value with both risk-neutral and true probabilities.
 
 # Valuation with Risk-Neutral Probabilities
 
-We can interpret the one-period binomial option pricing calculation as an expected value, in which the expectation is computed using the risk-neutral probability  $p^*$  and discounting is at the risk-free rate.
+We can interpret the one-period binomial option pricing calculation as an expected value, in which the expectation is computed using the risk-neutral probability $p^*$ and discounting is at the risk-free rate.
 
 In a multiperiod tree, we repeat this process at each node. For a European option, the result obtained by working backward through the tree is equivalent to computing the expected option price in the final period, and discounting at the risk-free rate.
 
-If there are  $n$  binomial periods, the equation
+If there are $n$ binomial periods, the equation
 
 $$
+\text{Probability ith node} = p^{*n-i}(1-p^*)^i \frac{n!}{(n-i)!i!}
+$$
 
-\text {P r o b a b i l i t y} i \text {t h n o d e} = p ^ {* n - i} (1 - p ^ {*}) ^ {i} \frac {n !}{(n - i) ! i !}
-
-$$ gives the probability of reaching any given stock price at expiration. Let  $n$  represent the number of binomial steps and  $i$  the number of stock price down moves. We can value a European call option by computing the expected option payoff at the final node of the binomial tree and then discounting at the risk-free rate. For example, for a European call,
+gives the probability of reaching any given stock price at expiration. Let $n$ represent the number of binomial steps and $i$ the number of stock price down moves. We can value a European call option by computing the expected option payoff at the final node of the binomial tree and then discounting at the risk-free rate. For example, for a European call,
 
 European call price
 
 $$
-= e ^ {- r T} \sum_ {i = 0} ^ {n} \max  [ 0, S u ^ {n - i} d ^ {i} - K ] \left(p ^ {*}\right) ^ {n - i} \left(1 - p ^ {*}\right) ^ {i} \frac {n !}{(n - i) ! i !} \tag {2}
+= e^{-rT} \sum_{i=0}^{n} \max[0, S u^{n-i} d^{i} - K] (p^*)^{n-i} (1-p^*)^{i} \frac{n!}{(n-i)!i!} \tag{2}
 $$
 
 To illustrate this calculation, Figure 1 shows the stock price tree with the total risk-neutral probabilities of reaching each of the terminal nodes. Figure 1 demonstrates that the option can be priced by computing the expected payoff at expiration using the probability of reaching each final node, and then discounting at the risk-free rate.
 
-We can also use the tree in Figure 1 to illustrate Monte Carlo valuation. Imagine a gambling wheel divided into four unequal sections, where each section has a probability corresponding to one of the option payoffs in Figure 1:  $9.5\%$  ( $\$34.678$ ),  $34\%$  ( $\$12.814$ ),  $40.4\%$  ( $0$ ), and  $16\%$  ( $0$ ). Each spin of the wheel therefore selects one of the final stock price nodes and option payoffs in Figure 1. If we spin the wheel numerous times and then average the resulting option values, we will have an estimate of the expected payoff. Discounting this expected payoff at the risk-free rate provides an estimate of the option value.
+We can also use the tree in Figure 1 to illustrate Monte Carlo valuation. Imagine a gambling wheel divided into four unequal sections, where each section has a probability corresponding to one of the option payoffs in Figure 1: $9.5\%$ $(\$34.678)$, $34\%$ $(\$12.814)$, $40.4\%$ ($0$), and $16\%$ ($0$). Each spin of the wheel therefore selects one of the final stock price nodes and option payoffs in Figure 1. If we spin the wheel numerous times and then average the resulting option values, we will have an estimate of the expected payoff. Discounting this expected payoff at the risk-free rate provides an estimate of the option value.
 
 # FIGURE I
 
-Binomial tree showing stock price paths, along with risk-neutral probabilities of reaching the various terminal prices. Assumes  $S = \41.00$ ,  $K = \$ 40.00 ,  $\sigma = 0.30$ ,  $r = 0.08$ ,  $t = 1.00\$  years,  $\delta = 0.00$ , and  $h = 0.333$ . The risk-neutral probability of going up is  $p^* = 0.4568$ . At the final node the stock price and terminal option payoff (beneath the price) are given.
+Binomial tree showing stock price paths, along with risk-neutral probabilities of reaching the various terminal prices. Assumes $S = \$41.00$, $K = \$40.00$, $\sigma = 0.30$, $r = 0.08$, $t = 1.00$ years, $\delta = 0.00$, and $h = 0.333$. The risk-neutral probability of going up is $p^* = 0.4568$. At the final node the stock price and terminal option payoff (beneath the price) are given.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/c773864f1c372ba1583e371e246121f174739e2394d0aa6aed2ef43bd7036e65.jpg)
 
@@ -489,97 +499,86 @@ Graph of Poisson distribution for  $\lambda t$  of 0.010, 0.025, and 0.050. This
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/c47330ebd61efe4d8f25c7d54622feae1933a4457e44ce87fcba9024113af53f.jpg)
 
-Example 3. Suppose the probability of a market crash over a short period of length  $h$  is  $\lambda h$ , where  $\lambda = 0.02$ . Then the probability of seeing no market crashes in any given year can be computed as  $p(0, 0.02 \times 1) = 0.9802$ . The probability of seeing no crashes over a 10-year period would be  $p(0, 0.02 \times 10) = 0.8187$ . The probability of seeing exactly two crashes over a 10-year period would be  $p(2, 0.02 \times 10) = 0.0164$ .
+Example 3. Suppose the probability of a market crash over a short period of length $h$ is $\lambda h$, where $\lambda = 0.02$. Then the probability of seeing no market crashes in any given year can be computed as $p(0, 0.02 \times 1) = 0.9802$. The probability of seeing no crashes over a 10-year period would be $p(0, 0.02 \times 10) = 0.8187$. The probability of seeing exactly two crashes over a 10-year period would be $p(2, 0.02 \times 10) = 0.0164$.
 
-Figure 6 graphs the Poisson distribution for three values of the Poisson parameter,  $\lambda t$ . Suppose we are interested in the number of times an event will occur over a 10-year period. Figure 6 shows us the distribution for  $t = 10$  and  $\lambda = 0.01$  (1\% per year),  $\lambda = 0.025$  (2.5\% per year), and  $\lambda = 0.05$  (5\% per year). The likeliest occurrence in all three scenarios is that no events occur. It is also extremely unlikely that four or more events occur.
+Figure 6 graphs the Poisson distribution for three values of the Poisson parameter, $\lambda t$. Suppose we are interested in the number of times an event will occur over a 10-year period. Figure 6 shows us the distribution for $t = 10$ and $\lambda = 0.01$ (1\% per year), $\lambda = 0.025$ (2.5\% per year), and $\lambda = 0.05$ (5\% per year). The likeliest occurrence in all three scenarios is that no events occur. It is also extremely unlikely that four or more events occur.
 
 The Poisson distribution only counts the number of events. If an event occurs, we need to determine the magnitude of the jump as an independent draw from some other density; the lognormal is frequently used. Thus, in those periods when a Poisson event occurs, we would draw a separate random variable to determine the magnitude of the jump.
 
 Using the inverse cumulative distribution function for a Poisson random variable, it is easy to generate a Poisson-distributed random variable. Even without the inverse cumulative distribution function (which Excel does not provide), we can construct the inverse distribution function from the cumulative distribution function.
 
-Table 5 calculates the Poisson distribution for a mean of 0.8. Using this table we can easily see how to randomly draw a Poisson event. First we draw a uniform (0,1) random
+Table 5 calculates the Poisson distribution for a mean of 0.8. Using this table we can easily see how to randomly draw a Poisson event. First we draw a uniform (0,1) random variable. Then we use the values in the table to decide how many events occur. If the uniform random variable is less than 0.4493, we say that no events occur. If the value is between 0.4493 and 0.8088, we say that one event occurs, and so forth.
 
 TABLE 5
 
-Values of Poisson distribution and cumulative Poisson distribution with mean  $(\lambda t) = 0.8$
+Values of Poisson distribution and cumulative Poisson distribution with mean $(\lambda t) = 0.8$
 
-<table><tr><td>Number of Events</td><td>Probability</td><td>Cumulative Probability</td></tr><tr><td>0</td><td>0.4493</td><td>0.4493</td></tr><tr><td>1</td><td>0.3595</td><td>0.8088</td></tr><tr><td>2</td><td>0.1438</td><td>0.9526</td></tr><tr><td>3</td><td>0.0383</td><td>0.9909</td></tr></table> variable. Then we use the values in the table to decide how many events occur. If the uniform random variable is less than 0.4493, we say that no events occur. If the value is between 0.4493 and 0.8088, we say that one event occurs, and so forth.
+<table><tr><td>Number of Events</td><td>Probability</td><td>Cumulative Probability</td></tr><tr><td>0</td><td>0.4493</td><td>0.4493</td></tr><tr><td>1</td><td>0.3595</td><td>0.8088</td></tr><tr><td>2</td><td>0.1438</td><td>0.9526</td></tr><tr><td>3</td><td>0.0383</td><td>0.9909</td></tr></table>
 
 # 8. SIMULATING JUMPS WITH THE POISSON DISTRIBUTION
 
-As we discussed, stock prices sometimes move more than would be expected from a lognormal distribution. If market volatility is  $20\%$  and the expected return is  $15\%$ , a 1-day  $5\%$  drop in the market occurs about once every 2.5 million days. (See Problem 8.) A  $20\%$  1-day drop (as in October 1987) is virtually impossible if prices are lognormally distributed with a reasonable volatility.
+As we discussed, stock prices sometimes move more than would be expected from a lognormal distribution. If market volatility is $20\%$ and the expected return is $15\%$, a 1-day $5\%$ drop in the market occurs about once every 2.5 million days. (See Problem 8.) A $20\%$ 1-day drop (as in October 1987) is virtually impossible if prices are lognormally distributed with a reasonable volatility.
 
 Merton (1976) introduced the use of the Poisson distribution in an option pricing context. The Poisson distribution counts the number of events that occur in a given period of time. If each event is a jump in the price, we can then use the lognormal (or other) distribution to compute the size of the jump. This Poisson-lognormal model assumes that jumps are independent. In addition to independence, we will assume that jumps are idiosyncratic, meaning that jumps can be diversified. In this case, the possibility of a jump does not affect the risk premium of the asset. (This is a common assumption made for tractability, but it is not always appropriate. While some jumps are idiosyncratic, a large market move is by definition systematic.)
 
-Let the lognormally distributed jump magnitude  $Y$  be given by
+Let the lognormally distributed jump magnitude $Y$ be given by
 
 $$
-Y = e ^ {\alpha_ {J} - 0. 5 \sigma_ {J} ^ {2} + \sigma_ {J} W}
-$$ where  $W$  is a standard normal variable. If  $S$  is the pre-jump price,  $YS$  is the post-jump price.  $e^{\alpha_J}$  is the expected jump and  $\sigma_J$  is the standard deviation of the log of the jump. The expected percentage jump is
-
+Y = e^{\alpha_{J} - 0.5 \sigma_{J}^{2} + \sigma_{J} W}
+$$ where $W$ is a standard normal variable. If $S$ is the pre-jump price, $YS$ is the post-jump price. $e^{\alpha_J}$ is the expected jump and $\sigma_J$ is the standard deviation of the log of the jump. The expected percentage jump is
 
 $$
-
-E \left(\frac {Y S - S}{S}\right) = e ^ {\alpha_ {J}} - 1 = k \tag {13}
-
+E\left(\frac{YS - S}{S}\right) = e^{\alpha_{J}} - 1 = k \tag{13}
 $$
 
 # Simulating the Stock Price with Jumps
 
-To simulate the stock price over a period of time  $h$ , we first pick two uniform random variables to determine the number of jumps and the ordinary (nonjump) lognormal return.
+To simulate the stock price over a period of time $h$, we first pick two uniform random variables to determine the number of jumps and the ordinary (nonjump) lognormal return.
 
-If there are  $m$  jumps, we must then pick  $m$  additional random variables to determine the magnitudes of the jumps. Each jump has a multiplicative effect on the stock price.
+If there are $m$ jumps, we must then pick $m$ additional random variables to determine the magnitudes of the jumps. Each jump has a multiplicative effect on the stock price.
 
-Specifically, suppose the stock price is  $S_{t}$ . If a stock cannot jump, its price at time  $t + h$  is
-
-$$
-
-S _ {t + h} = S _ {t} e ^ {(\alpha - \delta - 0. 5 \sigma^ {2}) h + \sigma \sqrt {h} Z}
-
-$$ where  $\alpha$  is the expected return.
-
-Now consider an otherwise identical stock that can jump, with price  $\hat{S}_t$ . The stock price will have two components, one with and one without jumps. The no-jump lognormal component is
+Specifically, suppose the stock price is $S_{t}$. If a stock cannot jump, its price at time $t + h$ is
 
 $$
-S _ {t} e ^ {(\hat {\alpha} - \delta - 0. 5 \sigma^ {2}) h + \sigma \sqrt {h} Z}
-$$ where the expected stock return, conditional on no jump, is  $\hat{\alpha}$ . We will see in a moment why we use a different notation for the expected return in this expression. If the stock jumps  $m$  times between  $t$  and  $t + h$ , each jump changes the price by a factor of
+S_{t + h} = S_{t} e^{(\alpha - \delta - 0.5 \sigma^{2}) h + \sigma \sqrt{h} Z}
+$$ where $\alpha$ is the expected return.
 
-
-$$
-
-Y _ {i} = e ^ {\alpha_ {J} - 0. 5 \sigma_ {J} ^ {2} + \sigma_ {J} W (i)}
+Now consider an otherwise identical stock that can jump, with price $\hat{S}_t$. The stock price will have two components, one with and one without jumps. The no-jump lognormal component is
 
 $$
-
-Where  $Z$  and  $W(i), i = 1, \dots, m$  are standard normal random variables. The cumulative jump is the product of the  $Y_{i}$ 's, or
-
-$$
-
-\prod_ {i = 1} ^ {m} Y _ {i} = e ^ {m (\alpha_ {J} - 0. 5 \sigma_ {J} ^ {2}) + \sigma_ {J} \Sigma_ {i = 1} ^ {m} W (i)}
+S_{t} e^{(\hat{\alpha} - \delta - 0.5 \sigma^{2}) h + \sigma \sqrt{h} Z}
+$$ where the expected stock return, conditional on no jump, is $\hat{\alpha}$. We will see in a moment why we use a different notation for the expected return in this expression. If the stock jumps $m$ times between $t$ and $t + h$, each jump changes the price by a factor of
 
 $$
-
-Notice that the cumulative jump is lognormal, since it is the product of lognormal random variables. The stock price at time  $t + h$ , taking account of both the normal lognormal return and jumps, is then
-
+Y_{i} = e^{\alpha_{J} - 0.5 \sigma_{J}^{2} + \sigma_{J} W(i)}
 $$
 
-\hat {S} _ {t + h} = \hat {S} _ {t} e ^ {(\hat {\alpha} - \delta - 0. 5 \sigma^ {2}) h + \sigma \sqrt {h} Z} \times e ^ {m (\alpha_ {J} - 0. 5 \sigma_ {J} ^ {2}) + \sigma_ {J} \Sigma_ {i = 1} ^ {m} W (i)} \tag {14}
+Where $Z$ and $W(i), i = 1, \dots, m$ are standard normal random variables. The cumulative jump is the product of the $Y_{i}$'s, or
 
 $$
+\prod_{i=1}^{m} Y_{i} = e^{m (\alpha_{J} - 0.5 \sigma_{J}^{2}) + \sigma_{J} \sum_{i=1}^{m} W(i)}
+$$
 
-It is possible to simulate  $\hat{S}_{t + h}$  using this expression. There are three steps:
+Notice that the cumulative jump is lognormal, since it is the product of lognormal random variables. The stock price at time $t + h$, taking account of both the normal lognormal return and jumps, is then
 
-1. Select a standard normal  $Z$ .
-2. Select  $m$  from the Poisson distribution.
-3. Select  $m$  draws,  $W(i), i = 1, \dots, m$ , from the standard normal distribution.
+$$
+\hat{S}_{t + h} = \hat{S}_{t} e^{(\hat{\alpha} - \delta - 0.5 \sigma^{2}) h + \sigma \sqrt{h} Z} \times e^{m (\alpha_{J} - 0.5 \sigma_{J}^{2}) + \sigma_{J} \sum_{i=1}^{m} W(i)} \tag{14}
+$$
 
-By inserting these values into equation (14), we generate  $\hat{S}_{t + h}$ , which is lognormal since it is a product of lognormal expressions.
+It is possible to simulate $\hat{S}_{t + h}$ using this expression. There are three steps:
 
-We have not answered the question: What is  $\hat{\alpha}$ ? There is a subtlety associated with modeling jumps. When a jump occurs, the expected percentage change in the stock price is  $e^{\alpha_J} - 1$ . If  $\alpha_J \neq 0$ , jumps will induce average up or down movement in the stock, depending upon whether  $\alpha_J > 0$  or  $\alpha_J < 0$ . Recall, however, that we assumed jumps are idiosyncratic. When jumps have no systematic risk, the jump does not affect the stock's expected return. Therefore, the unconditional (meaning that we do not know whether jumps will occur) expected return for a stock that does not jump should be the same as the unconditional expected return for an otherwise identical stock that does jump. We have to adjust the nonjump expected return,  $\hat{\alpha}$ , in order for jumps not to affect the expected return. For example, if the average jump return is  $-10\%$ , then over time the stock price will drift down on average due to jumps. In equilibrium, the stock must appreciate when not jumping in order to give the owner a fair return unconditionally. If  $\alpha_{J} = -10\%$ , we would need to raise the average expected return on the stock in order for it to earn a fair rate of return on average.
+1. Select a standard normal $Z$.
+2. Select $m$ from the Poisson distribution.
+3. Select $m$ draws, $W(i), i = 1, \dots, m$, from the standard normal distribution.
 
+By inserting these values into equation (14), we generate $\hat{S}_{t + h}$, which is lognormal since it is a product of lognormal expressions.
 
-We adjust for  $\alpha_{J}$  by subtracting  $\lambda k$  from the no-jump expected return, where  $\lambda$  is the Poisson parameter and  $k$  is given by equation (13). Thus,
+We have not answered the question: What is $\hat{\alpha}$? There is a subtlety associated with modeling jumps. When a jump occurs, the expected percentage change in the stock price is $e^{\alpha_J} - 1$. If $\alpha_J \neq 0$, jumps will induce average up or down movement in the stock, depending upon whether $\alpha_J > 0$ or $\alpha_J < 0$. Recall, however, that we assumed jumps are idiosyncratic. When jumps have no systematic risk, the jump does not affect the stock's expected return. Therefore, the unconditional (meaning that we do not know whether jumps will occur) expected return for a stock that does not jump should be the same as the unconditional expected return for an otherwise identical stock that does jump. We have to adjust the nonjump expected return, $\hat{\alpha}$, in order for jumps not to affect the expected return. For example, if the average jump return is $-10\%$, then over time the stock price will drift down on average due to jumps. In equilibrium, the stock must appreciate when not jumping in order to give the owner a fair return unconditionally. If $\alpha_{J} = -10\%$, we would need to raise the average expected return on the stock when it is not jumping.
 
+We adjust for $\alpha_{J}$ by subtracting $\lambda k$ from the no-jump expected return, where $\lambda$ is the Poisson parameter and $k$ is given by equation (13). Thus,
+
+$$
+\hat{\alpha} = \alpha - \lambda k \tag{15}
 $$
 
 \hat {\alpha} = \alpha - \lambda k \tag {15}
@@ -591,10 +590,8 @@ With this correction, if the expected jump is positive, we lower the expected re
 The final expression for the stock price is thus
 
 $$
-
-\begin{array}{l} \hat {S} _ {t + h} = \hat {S} _ {t} e ^ {(\alpha - \delta - \lambda k - 0. 5 \sigma^ {2}) h + \sigma \sqrt {h} Z} \prod_ {i = 0} ^ {m} e ^ {\alpha_ {J} - 0. 5 \sigma_ {J} ^ {2} + \sigma_ {J} W _ {i}} \tag {16} \\ = \hat {S} _ {t} e ^ {(\alpha - \delta - \lambda k - 0. 5 \sigma^ {2}) h + \sigma \sqrt {h} Z} e ^ {m (\alpha_ {J} - 0. 5 \sigma_ {J} ^ {2}) + \sigma_ {J} \Sigma_ {i = 0} ^ {m} W _ {i}} \\ \end{array}
-
-$$ where  $\alpha_{J}$  and  $\sigma_{J}$  are the mean and standard deviation of the jump magnitude,  $Z$  and  $W_{i}$  are random standard normal variables, and  $m$  is a Poisson-distributed random variable. A similar expression appears in Merton (1976).
+\begin{array}{l} \hat{S}_{t + h} = \hat{S}_{t} e^{(\alpha - \delta - \lambda k - 0.5 \sigma^{2}) h + \sigma \sqrt{h} Z} \prod_{i=0}^{m} e^{\alpha_{J} - 0.5 \sigma_{J}^{2} + \sigma_{J} W_{i}} \tag{16} \\ = \hat{S}_{t} e^{(\alpha - \delta - \lambda k - 0.5 \sigma^{2}) h + \sigma \sqrt{h} Z} e^{m (\alpha_{J} - 0.5 \sigma_{J}^{2}) + \sigma_{J} \sum_{i=0}^{m} W_{i}} \end{array}
+$$ where $\alpha_{J}$ and $\sigma_{J}$ are the mean and standard deviation of the jump magnitude, $Z$ and $W_{i}$ are random standard normal variables, and $m$ is a Poisson-distributed random variable. A similar expression appears in Merton (1976).
 
 Figure 7 displays two simulated stock price series, one for which jumps do not occur, and one generated using equation (16). In the absence of jumps, the stock price is assumed to follow a lognormal process with  $\alpha = 8\%$  and  $\sigma = 30\%$ . For the jump component, we assume  $\lambda = 3$  (an average of three jumps per year),  $\alpha_{J} = -2\%$ , and  $\sigma_{J} = 5\%$ . In the figure, we can detect jumps because the no-jump series is drawn using the same random  $Z$ 's. Some
 
@@ -624,32 +621,52 @@ When we assume lognormal moves of the stock conditional on a single jump event, 
 
 # 9. SIMULATING CORRELATED STOCK PRICES
 
-Suppose that  $S$  and  $Q$  are both lognormally distributed stock prices such that
+Suppose that $S$ and $Q$ are both lognormally distributed stock prices such that
 
 $$
-\ln (S _ {t}) = \ln (S _ {0}) + (\alpha_ {S} - 0. 5 \sigma_ {S} ^ {2}) t + \sigma_ {S} \sqrt {t} W
-$$
-
-$$
-\ln (Q _ {t}) = \ln (Q _ {0}) + (\alpha_ {Q} - 0. 5 \sigma_ {Q} ^ {2}) t + \sigma_ {Q} \sqrt {t} Z
-$$
-
-If  $S$  and  $Q$  are uncorrelated, then we can simulate both prices by drawing independent  $W$  and  $Z$ . However, suppose that the correlation between  $S$  and  $Q$  is  $\rho$ . Here is how to simulate these two random variables taking account of their correlation.
-
-Let  $\epsilon_{1}$  and  $\epsilon_{2}$  be independent and distributed as  $\mathcal{N}(0,1)$ . Let
-
-$$
-W = \epsilon_ {1} \tag {17}
+\ln(S_{t}) = \ln(S_{0}) + (\alpha_{S} - 0.5 \sigma_{S}^{2}) t + \sigma_{S} \sqrt{t} W
 $$
 
 $$
-Z = \rho \epsilon_ {1} + \epsilon_ {2} \sqrt {1 - \rho^ {2}}
+\ln(Q_{t}) = \ln(Q_{0}) + (\alpha_{Q} - 0.5 \sigma_{Q}^{2}) t + \sigma_{Q} \sqrt{t} Z
 $$
 
-Then  $\operatorname{Corr}(Z, W) = \rho$ , and  $Z$  is distributed  $\mathcal{N}(0, 1)$ .
+If $S$ and $Q$ are uncorrelated, then we can simulate both prices by drawing independent $W$ and $Z$. However, suppose that the correlation between $S$ and $Q$ is $\rho$. Here is how to simulate these two random variables taking account of their correlation.
 
-To see this, note first that  $Z$  and  $W$  both have zero mean. Compute the covariance between  $Z$  and  $W$  and the variance of  $Z$ :
+Let $\epsilon_{1}$ and $\epsilon_{2}$ be independent and distributed as $\mathcal{N}(0,1)$. Let
 
+$$
+W = \epsilon_{1} \tag{17}
+$$
+
+$$
+Z = \rho \epsilon_{1} + \epsilon_{2} \sqrt{1 - \rho^{2}}
+$$
+
+Then $\operatorname{Corr}(Z, W) = \rho$, and $Z$ is distributed $\mathcal{N}(0, 1)$.
+
+To see this, note first that $Z$ and $W$ both have zero mean. Compute the covariance between $Z$ and $W$ and the variance of $Z$:
+
+$$
+\mathrm{E}(W Z) = \mathrm{E} [\epsilon_{1} (\rho \epsilon_{1} + \epsilon_{2} \sqrt{1 - \rho^{2}})] = \rho \mathrm{E}(\epsilon_{1}^{2}) = \rho
+$$
+
+$$
+\mathrm{E}(Z^{2}) = \mathrm{E} [(\rho \epsilon_{1} + \epsilon_{2} \sqrt{1 - \rho^{2}})^{2}] = \rho^{2} + 1 - \rho^{2} = 1
+$$
+
+Thus, $W$ and $Z$ are both $\mathcal{N}(0,1)$ and have a correlation coefficient of $\rho$.
+
+Now we will check that the continuously compounded returns of $S$ and $Q$ have correlation $\rho$. The covariance between $\ln(S_t)$ and $\ln(Q_t)$ is
+
+$$
+\begin{array}{l} \mathrm{E} \left[ (\ln(S_{t}) - \mathrm{E}[\ln(S_{t})]) (\ln(Q_{t}) - \mathrm{E}[\ln(Q_{t})]) \right] = \mathrm{E}(\sigma_{S} W \sqrt{t} \sigma_{Q} Z \sqrt{t}) \\ = \sigma_{S} \sigma_{Q} \rho t \end{array}
+$$
+
+The correlation coefficient is
+
+$$
+\mathrm{Correlation} = \frac{\sigma_{S} \sigma_{Q} \rho t}{\sigma_{S} \sqrt{t} \sigma_{Q} \sqrt{t}} = \rho
 $$
 \mathrm {E} (W Z) = \mathrm {E} [ \epsilon_ {1} (\rho \epsilon_ {1} + \epsilon_ {2} \sqrt {1 - \rho^ {2}}) ] = \rho E (\epsilon_ {1} ^ {2}) = \rho
 $$
@@ -672,31 +689,26 @@ $$
 \mathrm {C o r r e l a t i o n} = \frac {\sigma_ {S} \sigma_ {Q} \rho t}{\sigma_ {S} \sqrt {t} \sigma_ {Q} \sqrt {t}} = \rho
 $$
 
-Thus, if  $W$  and  $Z$  have correlation  $\rho$ , so will the continuously compounded returns of  $S$  and  $Q$ .
+Thus, if $W$ and $Z$ have correlation $\rho$, so will the continuously compounded returns of $S$ and $Q$.
 
-# Generating  $n$  Correlated Lognormal Random Variables
+# Generating $n$ Correlated Lognormal Random Variables
 
-Suppose we have  $n$  correlated lognormal variables. The question we address here is how to generalize the previous analysis. The first of the  $n$  random variables will have  $n - 1$  pairwise correlations with the others. The second will have  $n - 2$  (not counting its correlation with the first, which we have already counted). Continuing in this way, we will have
+Suppose we have $n$ correlated lognormal variables. The question we address here is how to generalize the previous analysis. The first of the $n$ random variables will have $n - 1$ pairwise correlations with the others. The second will have $n - 2$ (not counting its correlation with the first, which we have already counted). Continuing in this way, we will have
 
-$$ n - 1 + n - 2 + \dots + 1 = \frac {1}{2} n (n - 1)
-$$ pairwise correlations we have to take into account. We will denote the correlation between variables  $i$  and  $j$  as  $\rho_{i,j}$ .
+$$ n - 1 + n - 2 + \dots + 1 = \frac{1}{2} n (n - 1)
+$$ pairwise correlations we have to take into account. We denote the correlation between variables $i$ and $j$ as $\rho_{i,j}$.
 
-
-We denote the original uncorrelated random  $\mathcal{N}(0,1)$  variables as  $\epsilon_1,\epsilon_2,\ldots ,\epsilon_n$ . The correlated random variables are  $Z(1),Z(2),\ldots ,Z(n)$ , with
-
-$$
-
-\operatorname {E} [ Z (i) Z (j) ] = \rho_ {i, j}
+We denote the original uncorrelated random $\mathcal{N}(0,1)$ variables as $\epsilon_1,\epsilon_2,\ldots ,\epsilon_n$. The correlated random variables are $Z(1),Z(2),\ldots ,Z(n)$, with
 
 $$
-
-We can generate the  $Z(i)$  as
-
+\mathrm{E}[Z(i) Z(j)] = \rho_{i, j}
 $$
 
-Z (i) = \sum_ {j = 1} ^ {i} a _ {i, j} \epsilon_ {j}
+We can generate the $Z(i)$ as
 
-$$ where the  $a_{i,j}$  are coefficients selected to make sure the pairwise correlations are correct.
+$$
+Z(i) = \sum_{j=1}^{i} a_{i, j} \epsilon_{j}
+$$ where the $a_{i,j}$ are coefficients selected to make sure the pairwise correlations are correct.
 
 Creating the coefficients  $a_{i,j}$  has a recursive solution. That is, we construct  $Z(1)$ , then  $Z(2)$  using the solution to  $Z(1)$ , and so on. The formula for the  $a_{i,j}$  is
 

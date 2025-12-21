@@ -2,34 +2,97 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: Derivatives Market Complete Full/chapters manual
 cssclasses: academia
-title: Risk-Neutral and Martingale Pricing
-linter-yaml-title-alias: Risk-Neutral and Martingale Pricing
+title: "Risk-Neutral and Martingale Pricing"
+formatted: "2025-12-21 02:35:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+primary_tags:
+  - risk neutral pricing
+  - martingale pricing
+  - change of measure
+secondary_tags:
+  - stochastic discount factor
+  - portfolio selection
+  - marginal utility
+  - girsanov theorem
+  - forward measure
+  - black scholes formula
 ---
 
 # Risk-Neutral and Martingale Pricing
 
-This page intentionally left blank
-
 In this chapter we discuss the economic justification for risk-neutral pricing. In the process, we will learn about a different approach to pricing derivatives—namely, martingale pricing.
 
-It is common to assume that the observed price of stock  $i$  follows the process
+```d2
+direction: right
+
+portfolio_selection: Portfolio Selection Problem {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+  style.stroke-width: 2
+}
+
+stochastic_discount: Stochastic Discount Factor {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+martingale_property: Martingale Property {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+change_of_measure: Change of Measure {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+risk_neutral_pricing: Risk-Neutral Pricing {
+  shape: rectangle
+  style.fill: "#fce4ec"
+  style.stroke: "#c2185b"
+}
+
+physical_measure: Physical Measure {
+  shape: oval
+  style.fill: "#fafafa"
+  style.stroke: "#616161"
+}
+
+equivalent_martingale: Equivalent Martingale Measure {
+  shape: oval
+  style.fill: "#e0f2f1"
+  style.stroke: "#00695c"
+}
+
+portfolio_selection -> stochastic_discount: Implies
+stochastic_discount -> martingale_property: Requires
+martingale_property -> change_of_measure: Enables
+change_of_measure -> risk_neutral_pricing: Leads to
+
+physical_measure -> equivalent_martingale: Transforms via marginal utility
+equivalent_martingale -> risk_neutral_pricing: Foundation of
+```
+
+It is common to assume that the observed price of stock $i$ follows the process
 
 $$
-\frac {d S _ {i}}{S _ {i}} = \left(\alpha_ {i} - \delta_ {i}\right) d t + \sigma_ {i} d \tilde {Z} _ {i} \tag {1}
-$$ where  $\alpha_{i}$  is the expected return on the stock and  $\delta_{i}$  the dividend yield. For most stocks,  $\alpha_{i} > r$ : The risk premium is positive. When pricing derivatives, by contrast, we use the risk-neutral stock return process:
-
+\frac{dS_{i}}{S_{i}} = (\alpha_{i} - \delta_{i})dt + \sigma_{i}d\tilde{Z}_{i} \tag{1}
+$$ where $\alpha_{i}$ is the expected return on the stock and $\delta_{i}$ the dividend yield. For most stocks, $\alpha_{i} > r$: The risk premium is positive. When pricing derivatives, by contrast, we use the risk-neutral stock return process:
 
 $$
-
-\frac {d S _ {i}}{S _ {i}} = (r - \delta_ {i}) d t + \sigma_ {i} d Z _ {i} \tag {2}
-
+\frac{dS_{i}}{S_{i}} = (r - \delta_{i})dt + \sigma_{i}dZ_{i} \tag{2}
 $$
 
 We assume that the stock follows this process and then value derivative claims by computing the expected derivative payoff using equation (2) and discounting this expected payoff at the risk-free rate.
 
-The transformation from equation (1) to equation (2) is the main subject of this chapter. To obtain equation (2), we replace  $\alpha_{i}$  in equation (1) with the risk-free rate  $r$ , and the diffusion  $d\tilde{Z}_i$  with  $dZ_{i}$ . The justification for using equation (2) is far from obvious, but the effect is powerful. In many applications we simply assume that the asset follows (2) and we then proceed with pricing.
+The transformation from equation (1) to equation (2) is the main subject of this chapter. To obtain equation (2), we replace $\alpha_{i}$ in equation (1) with the risk-free rate $r$, and the diffusion $d\tilde{Z}_i$ with $dZ_{i}$. The justification for using equation (2) is far from obvious, but the effect is powerful. In many applications we simply assume that the asset follows (2) and we then proceed with pricing.
 
 Given its importance, it is helpful to understand how equation (2) arises. The transformation from equation (1) to equation (2) has an economic interpretation, and there are related transformations that are useful in pricing particular derivatives, particularly in fixed income.
 
@@ -38,22 +101,20 @@ In order to understand the economic underpinnings of equation (2), we need first
 Prior to this point you might have wondered how to tell whether a derivative pricing model is legitimate. Can we write down equation (2) for any asset or financial quantity? The answer is that a pricing procedure is legitimate if it is consistent with the solution to the portfolio problem. This consistency takes a surprisingly simple form: An acceptable pricing model is one in which ratios of asset prices follow a martingale:
 
 $$
-
-\mathrm {E} _ {t} ^ {*} \left(\frac {S _ {1 , T}}{S _ {2 , T}}\right) = \frac {S _ {1 , t}}{S _ {2 , t}} \quad t <   T \tag {3}
-
+\mathrm{E}_{t}^{*} \left(\frac{S_{1,T}}{S_{2,T}}\right) = \frac{S_{1,t}}{S_{2,t}} \quad t < T \tag{3}
 $$
 
-Here  $S_{1,t}$  and  $S_{2,t}$  are the prices of two non-dividend-paying assets that investors can own and  $\mathrm{E}_t^*$  is computed with respect to a probability distribution under which the martingale condition, equation (3), is true. We will see that risk-neutral pricing arises when the denominator asset in equation (3) is an account that pays the short-term risk-free rate. Different assumptions about the numeraire are convenient in other contexts, such as pricing interest rate derivatives. You may find equation (3) puzzling at this point, but we will discuss it at greater length below.
+Here $S_{1,t}$ and $S_{2,t}$ are the prices of two non-dividend-paying assets that investors can own and $\mathrm{E}_t^*$ is computed with respect to a probability distribution under which the martingale condition, equation (3), is true. We will see that risk-neutral pricing arises when the denominator asset in equation (3) is an account that pays the short-term risk-free rate. Different assumptions about the numeraire are convenient in other contexts, such as pricing interest rate derivatives. You may find equation (3) puzzling at this point, but we will discuss it at greater length below.
 
-The rest of the chapter provides an economic explanation of the martingale approach and examples of its use. A key part of the martingale approach to derivatives pricing is the concept of a change of measure, which means transforming the probability distribution for assets into a new probability distribution. In continuous time, this change of measure is achieved using Girsanov's theorem, which we briefly summarize. We then present specific examples of changes of measure, including the risk-neutral measure. Finally, we discuss Warren Buffett's critique of using the Black-Scholes formula to price long-term put options.
+The rest of the chapter provides an economic explanation of the martingale approach and examples of its use. A key part of the martingale approach to derivatives pricing is the concept of a change of measure, which means transforming the probability distribution of assets into a new probability distribution. In continuous time, this change of measure is achieved using Girsanov's theorem, which we briefly summarize. We then present specific examples of changes of measure, including the risk-neutral measure. Finally, we discuss Warren Buffett's critique of using the Black-Scholes formula to price long-term put options.
 
 As you read the chapter, it is important to keep in mind that pricing a derivative, or any financial claim, amounts to asking how investors would value a particular risky cash flow. This chapter is meant to illuminate the link between investor portfolio decisions and derivatives pricing.
 
-# I. RISK AVERSION AND MARGINAL UTILITY
+## I. Risk Aversion and Marginal Utility
 
 All investors face two fundamental problems: first, whether to consume today or in the future (the savings/consumption decision) and second, which assets to hold in the savings portfolio (the portfolio selection problem). The two decisions are linked because the savings portfolio is a source of funds for future consumption.2 Portfolio selection is also tied to valuation because an investment decision requires assessing and discounting future payoffs.
 
-The solution to the portfolio selection problem determines demand for an asset. At a point in time there is a given supply of assets, which are priced so that they are held willingly by investors. For each asset the risk premium (the difference between the expected return and the risk free rate) is at the level necessary to equate asset demand and supply. In equilibrium, assets have a positive risk premium only for risks that cannot be eliminated by diversification. We assume in what follows that markets are complete, i.e., that all risks are tradeable, and that all investors are unconstrained in selecting their portfolios.
+The solution to the portfolio selection problem determines demand for an asset. At a point in time there is a given supply of assets, which are priced so that they are held willingly by investors. For each asset the risk premium (the difference between the expected return and the risk-free rate) is at the level necessary to equate asset demand and supply. In equilibrium, assets have a positive risk premium only for risks that cannot be eliminated by diversification. We assume in what follows that markets are complete, i.e., that all risks are tradeable, and that all investors are unconstrained in selecting their portfolios.
 
 It is helpful to think of each possible economic outcome as a distinct event, which is called a state. Strictly speaking, every set of different outcomes is a distinct state. For example, the state in which the level of the S&P index is 1300 is different from the state in which it is 1301. We will use the term more generally to refer to economically distinct conditions, for example referring to "good states" (in which investors are well off) and "bad states" (in which investors are not well off). The price of stock  $i$  in state  $j$  at time  $t$  is  $S_{i}(t,j)$ .
 
@@ -63,7 +124,7 @@ Consumption of  $C(t)$  at time  $t$  produces utility of  $U[C(t), t]$ . Since 
 
 We assume that investors have a utility function resembling that in Figure 1. The two important features of this utility function are that first, it is increasing (the investor prefers consuming more to less), and second, it is concave (utility increases at a decreasing rate). An investor with a utility function like that in Figure 1 is risk-averse. Such an investor will not accept a fair bet.
 
-# FIGURE I
+### Figure I: Utility Function with Decreasing Marginal Utility
 
 A utility function that exhibits decreasing marginal utility. Marginal utility is high when consumption and utility are low; marginal utility is low when consumption and utility are high.
 
@@ -82,17 +143,15 @@ Where it does not cause confusion, we will abbreviate  $U^{\prime}[C(t,j),t]$  a
 
 The important idea in Figure 1 is that marginal utility is a measure of whether consumption is high or low, and thus whether investors are in a good state or a bad state. You can see in Figure 1 that the slope of the utility function decreases as the level of consumption is greater: Marginal utility is decreasing with the level of consumption. Risk-averse investors with high consumption (those at point B in Figure 1) assign less value to an additional dollar than when consumption is low (those at point A in Figure 1). Thus, investors at point A have low consumption and high marginal utility (this is the bad state), while investors at point B have high consumption and low marginal utility (this is the good state). The more you are able to consume, the less you value 1 of additional consumption.
 
-# 2. THE FIRST-ORDER CONDITION FOR PORTFOLIO SELECTION
+### 2. The First-Order Condition for Portfolio Selection
 
-Suppose that the investor allocates savings across  $n$  assets:  $n - 1$  non-dividend-paying risky assets with prices  $S_{i}(t)$  ( $i = 1, \dots, n - 1$ ) and a default-free money-market account, which always earns the currently prevailing short-term risk-free rate,  $r(t)$ . An investment of  $B(t)$ in the money-market account at time  $t$  will accumulate to  $B(t)\exp \left[\int_t^T r(s)ds\right]$  at time  $T$ . If the interest rate is stochastic,  $B(T)$  will be a random variable.
+Suppose that the investor allocates savings across $n$ assets: $n-1$ non-dividend-paying risky assets with prices $S_{i}(t)$ ($i = 1, \dots, n-1$) and a default-free money-market account, which always earns the currently prevailing short-term risk-free rate, $r(t)$. An investment of $B(t)$ in the money-market account at time $t$ will accumulate to $B(t)\exp\left[\int_t^T r(s)ds\right]$ at time $T$. If the interest rate is stochastic, $B(T)$ will be a random variable.
 
 
-The statement of the investor's problem along with the solution is presented in Appendix A. The main result is given by equation (42). This equation must be satisfied by a utility-maximizing investor who can freely invest (either long or short) in all assets. We say that such an investor is "unconstrained" with respect to portfolio choices. The result is that for each asset  $i$ , we have
+The statement of the investor's problem along with the solution is presented in Appendix A. The main result is given by equation (42). This equation must be satisfied by a utility-maximizing investor who can freely invest (either long or short) in all assets. We say that such an investor is "unconstrained" with respect to portfolio choices. The result is that for each asset $i$, we have
 
 $$
-
-\mathrm {E} _ {t} \left[ U ^ {\prime} (T) \frac {S _ {i} (T)}{S _ {i} (t)} \right] = U ^ {\prime} (t) \tag {4}
-
+\mathrm{E}_{t} \left[ U^{\prime}(T) \frac{S_{i}(T)}{S_{i}(t)} \right] = U^{\prime}(t) \tag{4}
 $$
 
 We have simplified the notation to let  $U'(T)$  denote the random variable  $U'[C(T, j), T]$ , when the state  $j$  is not known. The marginal utility  $U'(T)$  is a random variable from the perspective of time  $t$ . Equation (4) states that the expected product of the future marginal utility of consumption times one plus the realized return on asset  $i$  equals the marginal utility of consumption today. Note that at time  $t$ ,  $U'(T)$  and  $S_i(T)$  are both random variables, whereas  $U'(t)$  and  $S_i(t)$  are both known. The interpretation of equation (4) is that the investor is indifferent between consuming one unit less today ( $U'(t)$ ) and consuming an uncertain extra amount in the future. The expected marginal benefit from consuming in the future—the left-hand side of equation (4)—is the same for all assets, and is equal to  $U'(t)$ .
@@ -101,12 +160,10 @@ Equation (4) holds for an individual investor who has made an optimal portfolio 
 
 In equilibrium, asset prices will be such that the aggregate demand by investors for assets equals their supply. This equilibrium does not imply or require that investors agree about the prospects for all assets, and in general investors will not all hold the same portfolios. Instead, equilibrium means that, given their chosen portfolios and the market prices for assets, investors have no desire to change their position. An implication is that all investors will agree on asset prices; if they did not, investors with a high valuation would buy from investors with a low valuation.[6]
 
-By moving  $S_{i}(t)$  to the right-hand side of equation (4), we can also write the equation as
+By moving $S_{i}(t)$ to the right-hand side of equation (4), we can also write the equation as
 
 $$
-
-\mathrm {E} _ {t} \left[ \frac {U ^ {\prime} (T)}{U ^ {\prime} (t)} S _ {i} (T) \right] = S _ {i} (t) \tag {5}
-
+\mathrm{E}_{t} \left[ \frac{U^{\prime}(T)}{U^{\prime}(t)} S_{i}(T) \right] = S_{i}(t) \tag{5}
 $$
 
 The marginal value in utility terms of an extra unit of asset  $i$  in state  $j$  is  $U'[C(T, j), T] \in S_i(T, j)$ . In equation (5), future cash flows are weighted by both marginal utility and probability. The ratio of the future uncertain marginal utility to the present known marginal utility,  $U'(T) / U'(t)$ , is called the stochastic discount factor. Equation (5) makes clear the reason for this terminology: The future stock price is discounted by the ratio of marginal utilities in order to determine the current stock price.
@@ -132,17 +189,17 @@ Here,  $\tilde{\mu}_j$  is a random variable, which is a rewritten version of th
 
 Thus, we can have either a set of asset-specific state-independent discount rates (traditional DCF, equation (6)), or we can have an asset-independent, state-dependent discount rate that correctly discounts all cash flows (the stochastic discount factor, equation (7)). In practice it is common to use DCF. However, understanding the stochastic discount factor approach is helpful in understanding both derivative pricing and DCF. When implemented correctly, the two approaches give the same present value.
 
-# 3. CHANGE OF MEASURE AND CHANGE OF NUMERAIRE
+### 3. Change of Measure and Change of Numeraire
 
 In the preceding section we showed that there is a direct link between discounting and the solution to the portfolio selection problem, summarized by equation (4). Another way to write equation (4) is
 
 $$
-\mathrm {E} _ {t} \left[ \frac {U ^ {\prime} (T)}{U ^ {\prime} (t)} \frac {S _ {i} (T)}{S _ {i} (t)} \right] = 1 \tag {8}
+\mathrm{E}_{t} \left[ \frac{U^{\prime}(T)}{U^{\prime}(t)} \frac{S_{i}(T)}{S_{i}(t)} \right] = 1 \tag{8}
 $$
 
 In this section we show that equation (8) implies that marginal utilities can be used to redefine the probability distribution of future returns: We will create new probabilities by using marginal utility to reweight the original probabilities. The process of moving from one probability distribution to another is called a change of measure. When defining a change of measure, it is also typical to redefine the units in which a payoff is measured; this is called a change of numeraire. We begin by reviewing some results from probability theory and we then show the link to the portfolio selection problem.
 
-# Change of Measure
+#### Change of Measure
 
 Suppose there is a discrete random variable with  $m$  possible outcomes. Denote the probability of the  $i$ th outcome as  $p_i$ . Probabilities are nonnegative and the sum over all possible outcomes is one. Thus, we have
 

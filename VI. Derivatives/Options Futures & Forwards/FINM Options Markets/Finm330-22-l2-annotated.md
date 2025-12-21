@@ -1,18 +1,30 @@
 ---
-parent_directory:
-title: Financial Mathematics 33000
-tags:
-aliases:
-parent_folder: Options
-subfolder:
-key_concepts:
+title: "Financial Mathematics 33000 - Lecture 2"
+parent_directory: Derivatives Market Complete Full/FINM Options Markets
+formatted: 2025-12-21 02:18:45 PM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - binomial option pricing
+  - arbitrage free pricing
+  - fundamental theorem
+  - option replication
+secondary_tags:
+  - risk neutral valuation
+  - one period models
+  - discrete state pricing
+  - static portfolios
+  - no arbitrage principle
+  - replicating portfolio
+  - state price deflators
+  - martingale pricing
+  - brexit arbitrage example
 cssclasses: academia
-linter-yaml-title-alias: Financial Mathematics 33000
 ---
 
 # Financial Mathematics 33000
 
-# Lecture 2
+## Lecture 2
 
 Roger Lee
 
@@ -26,17 +38,17 @@ One-period, more discrete states
 
 Fundamental Theorem, again
 
-# Binomial model specification
+## Binomial Model Specification
 
-- Times 0 and  $T$ . No intermediate trading; all portfolios are static.  
-Up and down state  $\{\omega_u,\omega_d\}$  at time  $T$  , each with probability  $>0$  
-Bank account: Each unit has time- $t$  value  $B_{t} = e^{rt}$  for  $t = 0, T$ .  
-Stock  $S$ : Let  $S_{T}$  take values  $S_{T}(\omega_{u}) = s_{u}$  and  $S_{T}(\omega_{d}) = s_{d}$  in the up and down state respectively, where  $s_u > s_d$  
-"Option" contract  $C$ , paying  $C_T(\omega_u) = c_u$  and  $C_T(\omega_d) = c_d$ .
+- Times 0 and $T$. No intermediate trading; all portfolios are static.
+- Up and down state $\{\omega_u,\omega_d\}$ at time $T$, each with probability $>0$
+- Bank account: Each unit has time-$t$ value $B_{t} = e^{rt}$ for $t = 0, T$.
+- Stock $S$: Let $S_{T}$ take values $S_{T}(\omega_{u}) = s_{u}$ and $S_{T}(\omega_{d}) = s_{d}$ in the up and down state respectively, where $s_u > s_d$
+- "Option" contract $C$, paying $C_T(\omega_u) = c_u$ and $C_T(\omega_d) = c_d$.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a46a5a-73bc-4725-8589-33d9eec2a160/e87f16bdf362420cf4312b71a423ae7f663372c67ff98d8530b0181ae09cd721.jpg)
 
-# Exercises: Find an arbitrage
+### Exercises: Find an Arbitrage
 
 Suppose that  $S_0 e^{rT} \leq s_d$ . Find an arbitrage.  
 Suppose that  $S_0e^{rT}\geq s_u$  . Find an arbitrage.
@@ -44,10 +56,10 @@ Suppose that  $S_0e^{rT}\geq s_u$  . Find an arbitrage.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a46a5a-73bc-4725-8589-33d9eec2a160/f6cda9f1c0da3d51e414e41b8a036c1b3092f3c7e6527319397460bb6612616a.jpg)
 
 $$
-\begin{array}{r l} & {(+ 1 u n i t o f S,} \\ & {- S _ {0} u n i t s o f B)} \end{array}
+\begin{array}{r l} & {(+1 \text{ unit of } S,} \\ & {-S_{0} \text{ units of } B)} \end{array}
 $$
 
-# Exercises: Find an arbitrage
+### Exercises: Find an Arbitrage
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a46a5a-73bc-4725-8589-33d9eec2a160/f2aa5f3f19a4c1763a661f1a68627bb2761ae002a72834724ef38e911aeef6ea.jpg)
 

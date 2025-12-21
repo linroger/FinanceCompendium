@@ -1,11 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "The Black-Scholes-Merton Equation"
+parent_directory: "Derivatives Market Complete Full"
+formatted: "2025-12-21 02:25:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - black-scholes equation
+  - risk-neutral pricing
+  - geometric brownian motion
+secondary_tags:
+  - ito's lemma
+  - delta hedging
+  - option pricing
+  - brownian motion
+  - merton model
+  - partial differential equations
+  - stochastic calculus
+  - jump diffusion
 cssclasses: academia
-title: The Black-Scholes-Merton Equation
-linter-yaml-title-alias: The Black-Scholes-Merton Equation
 ---
 
 # The Black-Scholes-Merton Equation
@@ -16,16 +28,16 @@ Black and Scholes assumed that the stock follows geometric Brownian motion and u
 
 In this chapter we study the Black-Scholes approach to pricing options. This methodology is important not only for pricing European call options; it provides the intellectual foundation for pricing virtually all derivatives, and also underpins the risk-management practices of modern financial institutions.
 
-# I. DIFFERENTIAL EQUATIONS AND VALUATION UNDER CERTAINTY
+## I. Differential Equations and Valuation Under Certainty
 
 The end result of the Black-Scholes derivation is a partial differential equation that describes the price of an option. At first glance the idea of using a differential equation to perform valuation may seem perplexing and special to options. However, differential equations can also be used to motivate even very simple calculations that appear in an elementary finance course. The valuation of stocks and bonds when payouts are known provides simple examples. We will demonstrate this in order to provide some context for the discussion of the Black-Scholes model.
 
-# The Valuation Equation
+## The Valuation Equation
 
 A familiar equation from introductory finance is the following:
 
 $$
-S (t) = \frac {D (t + h) h + S (t + h)}{\left(1 + r _ {h}\right)} \tag {1}
+S(t) = \frac{D(t + h)h + S(t + h)}{(1 + r_h)} \tag{1}
 $$
 
 This equation says that the stock price today,  $S(t)$ , is the discounted value of the future stock price,  $S(t + h)$ , plus dividends paid over the period of length  $h$ ,  $D(t + h)h$ . The discount rate over a period of length  $h$  is  $r_h$ . We can also interpret  $S(t)$  as the price of a bond and  $D(t)$  as the coupon payment.
@@ -46,7 +58,7 @@ $$
 
 Equation (3) is a differential equation stating the condition that the stock must appreciate to earn an appropriate rate of return. The transformation from equation (1) to equation (3) illustrates the sense in which an equation describing the evolution of the price is linked to valuation.
 
-# Bonds
+## Bonds
 
 Let  $S(t)$  represent the price of a zero-coupon bond that pays \$1 at time  $T$ . Since the bond makes no payouts, the evolution of the bond price satisfies equation (3) with  $D = 0$ . The interpretation is that at every time,  $t$ , the percentage change in the price of the bond  $\left[\frac{dS(t)}{dt} / S(t)\right]$  equals the interest rate. This is a familiar condition that the bond should satisfy if it is fairly priced. The general solution to this equation is
 
@@ -55,7 +67,7 @@ S (t) = A e ^ {- r (T - t)} \tag {4}
 $$ where  $A$  can be any number. You can check that this is in fact a solution by differentiating it to be sure that it satisfies the differential equation.
 
 
-The differential equation describes the bond's behavior over time but does not tell us what  $A$  is. In order to price the bond we also need to know the bond price at some particular point in time. This price is called a boundary condition. If the bond is worth \$1 at maturity, we have the boundary condition  $S(T) = \1$ . Examining equation (4) shows that  $S(T)$  can equal \$1 only if  $A = \$ 1 . Thus, the bond price is
+The differential equation describes the bond's behavior over time but does not tell us what  $A$  is. In order to price the bond we also need to know the bond price at some particular point in time. This price is called a boundary condition. If the bond is worth \$1 at maturity, we have the boundary condition  $S(T) = \$1$ . Examining equation (4) shows that  $S(T)$  can equal \$1 only if  $A = \$1$ . Thus, the bond price is
 
 $$
 
@@ -67,51 +79,45 @@ The condition  $S(T) = \$ 1$  is called a terminal boundary condition because it
 
 The solution confirms what you already know: The price of the bond is the present value of 1.
 
-# Dividend-Paying Stocks
+## Dividend-Paying Stocks
 
 We can interpret  $S(t)$  as the price of a risk-free stock that pays a continuous fixed dividend of  $D$  and has a price of  $\bar{S}$  at time  $T$ . Equation (3) then says that at every time,  $t$ , dividends plus capital gains on the stock provide the risk-free rate of return.
 
 Since we know the value at time  $T$  will be  $\bar{S}$ , we also have the boundary condition
 
 $$
-
-S (T) = \bar {S}
-
+S(T) = \bar{S}
 $$
 
 Equation (3) with this boundary condition has the solution
 
 $$
-
-S (t) = \int_ {t} ^ {T} D e ^ {- r (s - t)} d s + \bar {S} e ^ {- r (T - t)}
-
+S(t) = \int_{t}^{T} D e^{-r(s - t)} ds + \bar{S} e^{-r(T - t)}
 $$
 
 The stock price today is the discounted value of dividends to be paid between now and time  $T$ , plus the present value of the stock at time  $T$ . Again, the discrete time version of this equation is the standard present value formula taught in every introductory finance class.
 
-# The General Structure
+## The General Structure
 
 Under certainty, a bond or stock will be priced so that the owner receives a risk-free return. The differential equation in these examples describes how the security changes from a given point. The boundary condition describes the price at some point in the security's life (such as at a bond's maturity date). By combining the differential equation and the boundary condition, we can determine the price of the bond at any point in time.
 
 By analogy, if at every point you know an automobile's speed and direction, and if you know where it stops, you can work backward to figure out where it started. Essentially the same idea is used to price options: We know the price of the option at maturity (for a call it is  $\max [0,S - K]$ ), and we then need to know how the option price changes over time.
 
-# 2. THE BLACK-SCHOLES EQUATION
+## 2. The Black-Scholes Equation
 
 Consider the problem of owning an option and buying or selling enough shares to create a riskless position. Assume that the stock price follows geometric Brownian motion:
 
 $$
-
-\frac {d S}{S} = (\alpha - \delta) d t + \sigma d Z \tag {5}
-
+\frac{dS}{S} = (\alpha - \delta) dt + \sigma dZ \tag{5}
 $$ where  $\alpha$  is the expected return on the stock,  $\sigma$  is the stock's volatility, and  $\delta$  is the continuous dividend yield on the stock. The option value depends on the stock price,  $S(t)$ , and time,  $t$ , so we write it as  $V[S(t), t]$ . Also suppose there are risk-free bonds that pay the return  $r$ . If we invest  $W$  in these bonds, the change in the value of the bond position is
 
-$$ d W = r W d t \tag {6}
+$$ dW = r W dt \tag{6}
 $$
 
 Let  $I$  denote the total investment in the option, stocks, and the risk-free bond. Suppose that we buy  $N$  shares of stock to hedge the option and invest  $W$  in risk-free bonds so that our total investment is zero. Then we have
 
 $$
-I = V (S, t) + N S + W = 0 \tag {7}
+I = V(S, t) + N S + W = 0 \tag{7}
 $$
 
 The zero-investment condition ensures that we keep track of financing costs. It imposes the requirement that in order to buy more of one asset we have to sell something else. To buy stock, for example, we can short-sell bonds.
@@ -144,7 +150,7 @@ $$
 With a zero-investment, zero-risk portfolio, we should expect to earn a zero return or else there is arbitrage, so that  $dI = 0$ . Imposing this condition in equation (10) and dividing by  $dt$  gives
 
 $$
-\boxed {V _ {t} + \frac {1}{2} \sigma^ {2} S ^ {2} V _ {S S} + (r - \delta) S V _ {S} - r V = 0} \tag {11}
+\boxed{V_t + \frac{1}{2} \sigma^{2} S^{2} V_{SS} + (r - \delta) S V_{S} - r V = 0} \tag{11}
 $$
 
 This is the famous Black-Scholes partial differential equation (PDE), which we will call the Black-Scholes equation.4 (We will refer to the formula giving us the price of a European call as the Black-Scholes formula.) Appendix A derives the generalization of equation (11) when the value of  $V$  depends on more than one underlying asset.
@@ -155,7 +161,7 @@ We started this discussion by supposing that we owned an option that we wished t
 
 These assumptions are unquestionably violated in practice. There are transaction costs, volatility and interest rates change over time, asset prices can jump, etc. However, our goal is to have a thorough understanding of how derivatives pricing and hedging works in this basic setting. This is a starting point for developing more realistic models.
 
-# Verifying the Formula for a Derivative
+## Verifying the Formula for a Derivative
 
 We can now answer the main question of option pricing: Given that asset prices follow geometric Brownian motion (equation (5)), what is the correct formula for the price of an option? As discussed in Section 1, there are two conditions. The pricing formula must satisfy the Black-Scholes equation, (11), and it must also satisfy the appropriate boundary conditions for the option. If we satisfy both conditions, we have the correct option price.
 
@@ -200,7 +206,7 @@ V _ {S S} ^ {2} = 0
 $$
 
 $$
-V _ {t} ^ {2} = \delta S (t) e ^ {- \delta (T - t)}
+S(t) = \$1 \times e^{-r(T - t)}
 $$
 
 Substituting these into the Black-Scholes equation gives
@@ -287,7 +293,7 @@ The fact that  $V^3$  and  $V^4$  solve the Black-Scholes equation gives us pric
 
 The boundary conditions we have considered thus far are all terminal boundary conditions, meaning that they are satisfied by an option at expiration. American options and some nonstandard options have a boundary condition that must be satisfied prior to expiration. For example, barrier options have boundary conditions prior to expiration related to knocking in or out. Nevertheless, their price still solves equation (11).
 
-# The Black-Scholes Equation and Equilibrium Returns
+## The Black-Scholes Equation and Equilibrium Returns
 
 In the foregoing derivation of the option pricing formula we required that a delta-hedged position earn the risk-free rate of return. A different approach to pricing an option is to impose the condition that the actual expected return on the option must equal the equilibrium expected return.[10] In the context of the binomial model, the expected return on the option changes as the option moves into or out of the money.
 
@@ -338,7 +344,7 @@ When we multiply both sides by  $V$  and rearrange terms, the expected return on
 
 When we equate expected and actual returns, we can interpret the result as giving us a fair price for the option, as opposed to a no-arbitrage price. This is equilibrium pricing. The no-arbitrage and equilibrium prices are the same. The equilibrium approach makes clear that determining a fair price for the option using the Black-Scholes equation does not depend upon the assumption that hedging is actually possible.
 
-# What If the Underlying Asset Is Not an Investment Asset?
+## What If the Underlying Asset Is Not an Investment Asset?
 
 So far we have been discussing option pricing when the underlying asset is an investment asset, meaning that the asset is priced so as to be held by investors. Stocks and bonds are investment assets, but many commodities are not. Suppose that widgets generate no dividends, and that the price of widgets,  $S$ , follows the process
 
@@ -394,7 +400,7 @@ $$
 
 The lease rate on an asset paying  $S^a$  is  $\delta^{*} = r - a(r - \delta) - \frac{1}{2} a(a - 1)\sigma^{2}$ . From Ito's Lemma, the volatility is  $a\sigma$ . Thus, using equation (26), we can price the option by using  $S^a$  as the stock price,  $K^a$  as the strike price,  $\delta^{*}$  as the dividend yield, and  $a\sigma$  as the volatility.
 
-# 3. RISK-NEUTRAL PRICING
+## 3. Risk-Neutral Pricing
 
 The expected return on the stock,  $\alpha$ , does not appear in the Black-Scholes equation, equation (11). Thus, when pricing derivatives on investment assets, only the risk-free rate matters; the actual expected return on a stock is irrelevant for pricing an option on the stock. The binomial pricing formula also depends only on the risk-free rate.
 
@@ -406,7 +412,7 @@ $$
 
 As we keep emphasizing, the risk-neutral distribution is not an assumption about investor risk preferences. It is a device that can be used when pricing by arbitrage is possible (see Appendix B for a discussion).
 
-# Interpreting the Black-Scholes Equation
+## Interpreting the Black-Scholes Equation
 
 The actual expected change in the option price is given by
 
@@ -428,7 +434,7 @@ $$
 
 Under the risk-neutral process, the option appreciates on average at the risk-free rate.
 
-# The Backward Equation
+## The Backward Equation
 
 Closely related to equation (31) are the following equations, which characterize both the actual and risk-neutral probability distributions:
 
@@ -464,7 +470,7 @@ $$
 
 The first is the probability a call is in-the-money at time  $T$ . The second is the partial expectation of the stock price, conditional on  $S_{T} > K$ . Both are undiscounted. The backward equation holds for both the true and risk-neutral distributions generated by Ito processes.
 
-# Derivative Prices as Discounted Expected Cash Flows
+## Derivative Prices as Discounted Expected Cash Flows
 
 The solution to equation (31) is equivalent to computing an expected value of the derivative payoff under the risk-neutral probability distribution and discounting at the risk-free rate. The specific form of the integral depends upon boundary conditions and payouts. We can see how this works with our assumptions (in particular a constant risk-free interest rate) by considering a simple European call option on a stock that pays continuous dividends at the rate  $\delta$ . In that case, equation (11), along with the boundary condition that the option at expiration is worth  $\max[0, S(T) - K]$ , is equivalent to the discounted expectation
 

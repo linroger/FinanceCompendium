@@ -1,24 +1,78 @@
 ---
+title: Chapter 30 - Value at Risk
 aliases:
-tags:
-key_concepts:
-parent_directory:
+   - Value at Risk
+   - VaR
+   - Risk Assessment
+parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 12:15:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+   - value at risk
+   - risk management
+   - portfolio risk assessment
+   - financial risk models
+   - capital requirements
+secondary_tags:
+   - tail value at risk
+   - stressed value at risk
+   - monte carlo simulation
+   - delta approximation
+   - black swans
+   - basel accords
+   - risk-neutral valuation
+   - historical volatility
+   - bootstrapping returns
+   - cash flow mapping
+   - yield curve risk
+   - correlation estimation
+   - subadditive risk measures
+   - conditional value at risk
+   - insurance cost calculation
 cssclasses: academia
-title: F financial and nonfinancial firms routinely assess risks and engage in both financial and operational risk management. Risk assessment entails evaluating the distribution of possible outcomes, with a focus on the worst that might happen. Insurance companies, for example, assess the likelihood of insured events, and the resulting possible losses for the insurer. Financial institutions must understand their portfolio risks in order to determine the capital buffer needed to support their business.
-linter-yaml-title-alias: F financial and nonfinancial firms routinely assess risks and engage in both financial and operational risk management. Risk assessment entails evaluating the distribution of possible outcomes, with a focus on the worst that might happen. Insurance companies, for example, assess the likelihood of insured events, and the resulting possible losses for the insurer. Financial institutions must understand their portfolio risks in order to determine the capital buffer needed to support their business.
+---
+linter-yaml-title-alias: Chapter 30 - Value at Risk
 ---
 
-# F financial and nonfinancial firms routinely assess risks and engage in both financial and operational risk management. Risk assessment entails evaluating the distribution of possible outcomes, with a focus on the worst that might happen. Insurance companies, for example, assess the likelihood of insured events, and the resulting possible losses for the insurer. Financial institutions must understand their portfolio risks in order to determine the capital buffer needed to support their business.
+# Chapter 30 - Value at Risk
+
+Financial and nonfinancial firms routinely assess risks and engage in both financial and operational risk management. Risk assessment entails evaluating the distribution of possible outcomes, with a focus on the worst that might happen. Insurance companies, for example, assess the likelihood of insured events, and the resulting possible losses for the insurer. Financial institutions must understand their portfolio risks in order to determine the capital buffer needed to support their business.
+
+```d2
+direction: right
+
+Value at Risk Framework: {
+  Portfolio Value Distribution
+  Loss Quantile: 95% Confidence Level
+  VaR: Maximum Loss with Given Probability
+  Tail VaR: Expected Loss Beyond VaR
+  Stressed VaR: Historical Stress Scenarios
+}
+```
 
 In this chapter, we discuss value at risk, which is commonly used to measure the possible losses on a portfolio of financial assets.
 
 The implicit tension in risk management is the tradeoff between safety on the one hand and the possibility of great success and profitability on the other. There is a risk-return tradeoff in portfolio theory. This tension is evident in extraordinarily productive but specialized firms that are vulnerable to physical disruption. The 2011 earthquake in Japan and flood in Thailand, for example, wreaked havoc with supply chains. $^{1}$  This chapter will focus on financial models, but as you read the chapter, you should keep in mind that this tradeoff is pervasive.
 
-# I. VALUE AT RISK
+## I. Value at Risk
 
 A financial institution might have a complex portfolio containing stocks, bonds with different maturities and with various embedded options, and instruments denominated in different currencies. The form of these instruments could be simple notes or complex options. Value at risk (VaR) is one way to perform risk assessment for such a portfolio. The idea of value at risk is to estimate the losses on a portfolio that occur with a given probability.
 
-With an estimate of the distribution of outcomes we can either ask about the probability of losing a given sum (e.g., what is the chance our loss exceeds 5m?) or ask, for a given probability, how much we might lose (what level of loss do we exceed with a  $1\%$  probability?). For example, a derivatives market-maker could estimate that for a given portfolio, over one day there is a  $1\%$  chance of losses in excess of \$500,000. The amount \$ 500,000 is then the 1-day value at risk with a  $99\%$  level of confidence. In general, computing value at risk means finding the value of a portfolio such that there is a specified probability that the portfolio will be worth at least this much over a given horizon. The choice of horizon and probability will depend on how VaR is to be used. A related and often preferable measure that we discuss below in Section 2 is tail VaR, which is the expected loss should the VaR level be exceeded.
+With an estimate of the distribution of outcomes we can either ask about the probability of losing a given sum (e.g., what is the chance our loss exceeds 5m?) or ask, for a given probability, how much we might lose (what level of loss do we exceed with a  $1\%$  probability?). For example, a derivatives market-maker could estimate that for a given portfolio, over one day there is a  $1\%$  chance of losses in excess of \$500,000. The amount \$ 500,000 is then the 1-day value at risk with a  $99\%$  level of confidence. In general, computing value at risk means finding the value of a portfolio such that there is a specified probability that the portfolio will be worth at least this much over a given horizon. The choice of horizon and probability will depend on how VaR is to be used.
+
+```d2
+var_concept: Value at Risk Concept {
+  direction: right
+  portfolio: Portfolio Value Distribution
+  quantile: 5% Quantile
+  var: VaR = Loss at Quantile
+  confidence: 95% Confidence Level
+  portfolio -> quantile
+  quantile -> var
+  var -> confidence
+}
+``` A related and often preferable measure that we discuss below in Section 2 is tail VaR, which is the expected loss should the VaR level be exceeded.
 
 The standard version of VaR was developed in the 1990s and presented in J.P. Morgan/Reuters (1996). The obvious challenge with a risk model is calibration: determining return distributions for assets and correlations across assets. There is also the question of which risks are being measured and controlled.
 
@@ -28,7 +82,7 @@ Distributions of outcomes matter at the personal level as well. If you are plann
 
 There are at least three common uses of value at risk. First, regulators can use VaR to access capital requirements for financial institutions. See the box on the next page for an example. Second, managers can use VaR as an input in making risk-taking and risk-management decisions. Third, managers can also use VaR to assess the quality of the bank's models. For example, if the models say that there is a  $5\%$  chance that a particular trading operation will lose  $\$1$ m over a 1day horizon, then on average once every 20 days (5\%
 
-# BOX I: Value-at-Risk and Bank Regulation
+## Box I: Value-at-Risk and Bank Regulation
 
 The Basel Committee on Banking Supervision (BCBS) is an international organization housed in the Bank of International Settlements (BIS), that promulgates banking rules which are then adopted (possibly in modified form) by national banking regulators. Some of these rules rely on VaR calculations.
 
@@ -48,7 +102,7 @@ Most of the examples in this section use lognormally distributed stocks and line
 
 The question of how best to perform risk assessment is unsettled in the wake of the economics events from 2006 to 2009. Variants such as stressed value at risk may address shortcomings. One well-known critique is discussed in the box on the next page.
 
-# Box 2: Black Swans
+## Box 2: Black Swans
 
 The most significant events are among the most surprising. Few predicted the destruction of the World Trade Center in 2001 (although there had been a prior attempt by different means) or the depth of the financial crisis in 2008 (although some warned of high real estate prices). Taleb (2010) has argued that history is shaped by such unpredictable events, and that because of their low probability and extreme nature they generally lie beyond the scope of standard risk evaluation models. He terms these events "black swans," alluding to the idea that a single unexpected event (the sighting of a black swan) can fundamentally change understanding (a belief that all swans are white).
 
@@ -297,11 +351,13 @@ $$
 
 Using equations (10) and (11), the annual mean and standard deviation are  $8.392\%$  and  $16.617\%$ . There is a  $95\%$  chance that the portfolio value will exceed
 
-TABLE I
+# TABLE I
 
-Information about two stocks and call options on those stocks. Assumes the risk-free rate is  $8\%$  and that neither stock pays a dividend. The correlation between the stocks is 0.4.
-
-<table><tr><td rowspan="2">Stock</td><td colspan="4">Stock Information</td><td colspan="5">Option Information</td></tr><tr><td>S</td><td># Shares</td><td>α</td><td>σ</td><td>C(S)</td><td>Strike</td><td>Δ</td><td>Expiration</td><td># Shares</td></tr><tr><td># 1</td><td>$100</td><td>30,000</td><td>0.15</td><td>0.30</td><td>$13.3397</td><td>$105</td><td>0.6003</td><td>1.0</td><td>-25,000</td></tr><tr><td># 2</td><td>$100</td><td>50,000</td><td>0.18</td><td>0.45</td><td>$10.3511</td><td>$110</td><td>0.4941</td><td>0.5</td><td>-60,000</td></tr></table>
+| Stock | Stock Information |  |  |  | Option Information |  |  |  |  |
+|-------|-------------------|----|----|----|------------------|-------|----|-----------|----------|
+|       | S                 | # Shares | α  | σ  | C(S)             | Strike | Δ  | Expiration | # Shares |
+| # 1   | $100              | 30,000   | 0.15 | 0.30 | $13.3397        | $105   | 0.6003 | 1.0       | -25,000  |
+| # 2   | $100              | 50,000   | 0.18 | 0.45 | $10.3511        | $110   | 0.4941 | 0.5       | -60,000  |
 
 $$
 \begin{array}{l} W \times \left[ 1 + \left(R _ {p} \times h\right) + \left(\sigma_ {p} \times \sqrt {h} \times z\right) \right] \\ = \7,045,440 \times \left[ 1 + 0.08392 \times \frac{1}{52} + 0.16617 \times \sqrt{\frac{1}{52}} \times (-1.645) \right] = \6,789,740 \\ \end{array}
@@ -323,7 +379,7 @@ Example 6. Consider the 1-week 95\% value at risk of an at-the-money written str
 
 # FIGURE 3
 
-The value of a portfolio, as a function of the stock price, containing 100,000 written call options with a \$100 strike and 100,000 written put options with a \$100 strike. Assumes σ = 30\%, r = 8\%, t = 23 days, and δ = 0.
+The value of a portfolio, as a function of the stock price, containing 100,000 written call options with a \$100 strike and 100,000 written put options with a \$100 strike. Assumes $\sigma = 30\%$ , r = 8\%, t = 23 days, and $\delta = 0$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/c71e8320238ea1373c22100aba862c4b2b7380459a22ee40f3746b3f71b319c4.jpg)
 
@@ -363,7 +419,7 @@ In this section we see how to compute VaR for bonds, using information about the
 
 # FIGURE 4
 
-Histogram from a Monte Carlo simulation of the value of a written straddle after 7 days. Both the call and the put are written on the same stock. Assumes at-the-money calls and puts are written on 100,000 shares, with  S = \100 ,  \sigma = 30\% ,  r = 8\% ,  T = 23  days, and  \delta = 0 .
+Histogram from a Monte Carlo simulation of the value of a written straddle after 7 days. Both the call and the put are written on the same stock. Assumes at-the-money calls and puts are written on 100,000 shares, with  $S = \$100$ ,  $\sigma = 30\%$ ,  $r = 8\%$ ,  $T = 23$  days, and  $\delta = 0$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/10e8007b-6b0c-4ee4-a779-beb006a490c3/e21a33bc2085e1c0d0f9a670b7781665ec0ac18fdd5a93be645ad37c15e67f78.jpg)
 

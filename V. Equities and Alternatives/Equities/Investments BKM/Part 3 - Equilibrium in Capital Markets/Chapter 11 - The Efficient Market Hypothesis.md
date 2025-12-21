@@ -699,8 +699,6 @@ Defining insider trading is not always easy, however. After all, stock analysts 
 
 Notice one thing that all versions of the EMH have in common: They all assert that prices should reflect available information. We do not expect traders to be superhuman or market prices to always be right. We will always wish for more information about a company's prospects than will be available. Sometimes market prices will turn out in retrospect to have been outrageously high, at other times absurdly low. The EMH asserts only that at the given time, using current information, we cannot be sure if today's prices will ultimately prove themselves to have been too high or too low. If markets are rational, however, we can expect them to be correct on average.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8a8441a6d9f6878a04d3f94b9000b8bff320c89c7f71d1b81ea80497e8bf91c7.jpg)
-
 # Concept Check 11.1 a. Suppose you observed that high-level managers make superior returns on investments in their company's stock. Would this be a violation of weak-form market efficiency? Would it be a violation of strong-form market efficiency?
 
 b. If the weak-form version of the efficient market hypothesis is valid, must the strong-form version also hold? Conversely, does strong-form efficiency imply weak-form efficiency?
@@ -723,8 +721,6 @@ Consider stock XYZ, which traded for several months at a price of  \$72 and then
 The efficient market hypothesis implies that technical analysis should be fruitless. The past history of prices and trading volume is publicly available at minimal cost. Therefore, any information that was ever available from analyzing past trading has already been reflected in stock prices. As investors compete to exploit their common knowledge of a stock's price history, they necessarily drive stock prices to levels where expected rates of return are exactly commensurate with risk. At those levels one cannot expect abnormal returns.
 
 As an example of how this process works, consider what would happen if the market believed that a level of  \$72 truly was a resistance level in Example 11.2. No one would be willing to purchase the stock at a price of\$ 71.50 because it would have almost no room to increase in price, but ample room to fall. However, if no one would buy it at  \$71.50, then\$ 71.50 would become a resistance level. But then, using a similar analysis, no one would buy it at  \$71, or\$ 70, and so on. The notion of a resistance level poses a logical conundrum. Its simple resolution is the recognition that if the stock is ever to sell at \$71.50, investors must believe that the price can as easily increase as fall. The fact that investors are willing to purchase (or even hold) the stock at \$71.50 is evidence of their belief that they can earn a fair expected rate of return at that price.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/0a888ebe9cde8fb538d1e76d2f8475ee50a8853507f2fbe5df33db5dc3be435b.jpg)
 
 # Concept Check 11.2
 
@@ -773,8 +769,6 @@ Investors in these funds obtain broad diversification with low management fees. 
 Indexing need not be limited to major U.S. stock indexes, however. For example, some of the funds offered by the Vanguard Group track the Barclays U.S. Aggregate Bond Index, the CRSP index of small-capitalization U.S. companies, and the Financial Times indexes of the European and Pacific Basin equity markets. Several other mutual fund complexes offer indexed portfolios, but Vanguard dominates the retail market for indexed mutual funds.
 
 Exchange-traded funds, or ETFs, are a close (and often lower-expense) alternative to indexed mutual funds. As described in Chapter 4, these are shares in diversified portfolios that can be bought or sold just like shares of individual stock. ETFs matching several broad stock market indexes such as the S&P 500 or CRSP indexes and dozens of international and industry stock indexes are available to investors who want to hold a diversified sector of a market without attempting active security selection. Over 5 trillion is invested in ETFs, most of which is indexed.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/728502aa187e9b35a3263f73f68ec11b3900e1cb24c65454594a0c576205c783.jpg)
 
 # Concept Check 11.3
 
@@ -852,8 +846,6 @@ Event study methodology has become a widely accepted tool to measure the economi
 # Example 11.5 Using Abnormal Returns to Infer Damages
 
 Suppose the stock of a company with market value of 100 million falls by 4 \%on the day that news of an accounting scandal surfaces. The rest of the market, however, generally does well that day. The market indexes are up sharply and, on the basis of the usual relationship between the stock and the market, one would have expected a 2 \%gain on the stock. We would conclude that the impact of the scandal was a 6 \%drop in value, the difference between the 2 \%gain that we would have expected and the 4 \%drop actually observed. One might then infer that the damages sustained from the scandal were \$ 6million because the value of the firm (after adjusting for general market movements) fell by 6 \%of \$ 100million when investors became aware of the news and reassessed the value of the stock.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/6a6d10999462e5520148519720897cadd4d65db72da5ca549ea3cc6729244f2f.jpg)
 
 # Concept Check 11.4
 

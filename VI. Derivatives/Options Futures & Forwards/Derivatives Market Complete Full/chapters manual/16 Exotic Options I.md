@@ -1,15 +1,33 @@
 ---
-title: "Chapter 16 - Exotic Options I"
-aliases:
-  - Exotic Options
-  - Nonstandard Options
+title: Chapter 16 - Exotic Options I
 parent_directory: Derivatives Market Complete Full/chapters manual
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+   - exotic options
+   - asian options
+   - barrier options
+   - compound options
+   - path dependent options
+secondary_tags:
+   - currency hedging
+   - average price options
+   - knock out options
+   - knock in options
+   - gap options
+   - exchange options
+   - delta hedging
+   - option pricing
+   - risk management
+   - derivative instruments
+   - volatility reduction
 cssclasses: academia
 ---
 
 # Exotic Options I
 
-# I. INTRODUCTION
+## I. INTRODUCTION
 
 Suppose that XYZ Corp., a dollar-based multinational corporation with sizable European operations, has a large monthly inflow of euros that are eventually converted to dollars. XYZ is considering the purchase of 1-year put options as insurance against a fall in the euro but is also interested in exploring alternatives. In thinking about how to hedge this position, you might reason as follows: "A standard 1-year put option would hedge the firm against the level of the euro on the one day the option expires. This hedge would have significant basis risk since the price at expiration could be quite different from the average price over the year. Buying a strip of put options in which one option expires every month would have little basis risk but might be expensive. Over the course of the year what really matters is the average exchange rate over this period; the ups and downs around the average rate cancel out by definition."
 
@@ -31,7 +49,7 @@ Since exotic options are often constructed by tweaking ordinary options in minor
 - What is the rationale for the use of the exotic option?
 - How easily can the exotic option be hedged? An option may be desirable to a customer, but it will not be sold unless the risk arising from market-making can be controlled.
 
-# 2. ASIAN OPTIONS
+## 2. ASIAN OPTIONS
 
 An Asian option has a payoff that is based on the average price over some period of time. An Asian option is an example of a path-dependent option, which means that the value of the option at expiration depends upon the path by which the stock arrived at its final price. Such an option has the potential to solve XYZ's hedging problem.
 
@@ -39,12 +57,12 @@ There are many practical applications in which we average prices. In addition to
 
 As we will see, Asian options are worth less at issuance than otherwise equivalent ordinary options. The reason is that the averaged price of the underlying asset is less volatile than the asset price itself, and an option on a lower volatility asset is worth less.
 
-# XYZ's Hedging Problem
+## XYZ's Hedging Problem
 
 Let's think more about XYZ's currency hedging problem. Suppose that XYZ has a monthly euro inflow of €100m, reflecting revenue from selling products in Europe. Its costs, however, are primarily fixed in dollars. Let  $x_{i}$  denote the dollar price of a euro in month  $i$ . At the end of the year, the converted amount in dollars is
 
 $$
-\in 1 0 0 \mathrm {m} \times \sum_ {i = 1} ^ {1 2} x _ {i} e ^ {r (1 2 - i) / 1 2} \tag {1}
+100m \times \sum_{i=1}^{12} x_{i} e^{r(12-i)/12} \tag{1}
 $$
 
 We have numerous strategies available for hedging the end-of-year cash flow. Here are a few obvious ones:
@@ -58,25 +76,25 @@ The difference between the forward and option strategies is the ability to profi
 The idea of an Asian option stems from expression (1): What we really care about is the future value of the sum of the converted cash flows. This in turn depends on the sum of the month-end exchange rates. If for simplicity we ignore interest, what we are trying to hedge is
 
 $$
-\sum_ {i = 1} ^ {1 2} x _ {i} = 1 2 \times \left(\frac {\sum_ {i = 1} ^ {1 2} x _ {i}}{1 2}\right) \tag {2}
+\sum_{i=1}^{12} x_{i} = 12 \times \left(\frac{\sum_{i=1}^{12} x_{i}}{12}\right) \tag{2}
 $$
 
 The expression in parentheses is the month-end arithmetic average exchange rate, which motivates the idea of an option on the average.
 
-# Options on the Average
+## Options on the Average
 
 As a logical matter there are eight basic kinds of Asian options, depending upon whether the option is a put or a call, whether the average is computed as a geometric or arithmetic average, and whether the average asset price is used in place of the price of the underlying asset or the strike price. Here are details about some of these alternatives.
 
 The Definition of the Average. It is most common in practice to define the average as an arithmetic average. Suppose we record the stock price every  $h$  periods from time 0 to  $T$ ; there are then  $N = T / h$  periods. The arithmetic average is defined as
 
 $$
-A (T) = \frac {1}{N} \sum_ {i = 1} ^ {N} S _ {i h} \tag {3}
+A(T) = \frac{1}{N} \sum_{i=1}^{N} S_{i h} \tag{3}
 $$
 
 While arithmetic averages are typically used, they are mathematically inconvenient.3 It is computationally easier, but less common in practice, to use the geometric average stock price, which is defined as
 
 $$
-G (T) = \left(S _ {h} \times S _ {2 h} \times \dots \times S _ {N h}\right) ^ {\frac {1}{N}} \tag {4}
+G(T) = \left(S_{h} \times S_{2h} \times \dots \times S_{Nh}\right)^{\frac{1}{N}} \tag{4}
 $$
 
 The following example illustrates the difference between an arithmetic and geometric average.
@@ -84,13 +102,13 @@ The following example illustrates the difference between an arithmetic and geome
 Example I. Suppose that we compute the average based on quarterly stock prices over 1 year. We observe stock prices of $55, $72, \$61, and \$85. The arithmetic average is
 
 $$
-\frac {\mathbb {S} 5 5 + \mathbb {S} 7 2 + \mathbb {S} 6 1 + \mathbb {S} 8 5}{4} = \mathbb {S} 6 8. 2 5 0
+\frac{\$55 + \$72 + \$61 + \$85}{4} = \$68.250
 $$
 
 The geometric average is
 
 $$
-\left(\mathbb {S} 5 5 \times \mathbb {S} 7 2 \times \mathbb {S} 6 1 \times \mathbb {S} 8 5\right) ^ {0. 2 5} = \mathbb {S} 6 7. 3 1 5
+(\$55 \times \$72 \times \$61 \times \$85)^{0.25} = \$67.315
 $$
 
 The chapter appendix has (relatively simple) formulas for pricing European options based on the geometric average.
@@ -98,24 +116,24 @@ The chapter appendix has (relatively simple) formulas for pricing European optio
 Whether the Average Is Used as the Asset Price or the Strike. The payoff at maturity can be computed using the average stock price either as the price of the underlying asset or as the strike price. When the average is used as the asset price, the option is called an average price option. When the average is used as the strike price, the option is called an average strike option. Here are the four variants of options based on the geometric average:
 
 $$
-\text {G e o m e t r i c a v e r a g e p r i c e c a l l} = \max  [ 0, G (T) - K ] \tag {5}
+\text{Geometric average price call} = \max[0, G(T) - K] \tag{5}
 $$
 
 $$
-\text {G e o m e t r i c a v e r a g e p r i c e p u t} = \max  [ 0, K - G (T) ] \tag {6}
+\text{Geometric average price put} = \max[0, K - G(T)] \tag{6}
 $$
 
 $$
-\text {G e o m e t r i c a v e r a g e s t i k e c a l l} = \max  [ 0, S _ {T} - G (T) ] \tag {7}
+\text{Geometric average strike call} = \max[0, S_{T} - G(T)] \tag{7}
 $$
 
 $$
-\text {G e o m e t r i c a v e r a g e s t r i k e p u t} = \max  [ 0, G (T) - S _ {T} ] \tag {8}
+\text{Geometric average strike put} = \max[0, G(T) - S_{T}] \tag{8}
 $$
 
 The terms "average price" and "average strike" refer to whether the average is used in place of the asset price or the strike price. In each case the average could also be computed as an arithmetic average, giving us our eight basic kinds of Asian options.
 
-# Comparing Asian Options
+## Comparing Asian Options
 
 Table 1 shows values of geometric average price calls and puts. If the number of averages,  $N$ , is 1, then the average is the final stock price. In that case the average price call is an ordinary call.
 
@@ -198,13 +216,13 @@ Figure 1 illustrates how a barrier option works. The stock price starts at aroun
 The important parity relation for barrier options is
 
 $$
-\text {K n o c k - i n ” o p t i o n ＋ ＂ K n o c k - o u t ＂ o p t i o n = O r d i n a r y o p t i o n} \tag {10}
+\text{Knock-in option} + \text{Knock-out option} = \text{Ordinary option} \tag{10}
 $$
 
 For example, for otherwise equivalent options, we have
 
 $$
-\text {D o w n - a n d - i n c a l l} + \text {D o w n - a n d - o u t c a l l} = \text {S t a n d a r d c a l l}
+\text{Down-and-in call} + \text{Down-and-out call} = \text{Standard call}
 $$
 
 Since these option premiums cannot be negative, this equation demonstrates directly that barrier options have lower premiums than standard options.
@@ -219,7 +237,9 @@ TABLE 3
 
 Premiums of standard, down-and-in, and up-and-out currency put options with strikes  $K$ . The column headed "standard" contains prices of ordinary put options. Assumes  $x_0 = 0.9$ ,  $\sigma = 0.1$ ,  $r_{\S} = 0.06$ ,  $r_{\in} = 0.03$ , and  $t = 0.5$ .
 
-<table><tr><td rowspan="2">Strike ($)</td><td rowspan="2">Standard ($)</td><td colspan="2">Down-and-In Barrier ($)</td><td colspan="2">Up-and-Out Barrier ($)</td><td rowspan="2">1.0500</td></tr><tr><td>0.8000</td><td>0.8500</td><td>0.9500</td><td>1.0000</td></tr><tr><td>K = 0.8</td><td>0.0007</td><td>0.0007</td><td>0.0007</td><td>0.0007</td><td>0.0007</td><td>0.0007</td></tr><tr><td>K = 0.9</td><td>0.0188</td><td>0.0066</td><td>0.0167</td><td>0.0174</td><td>0.0188</td><td>0.0188</td></tr><tr><td>K = 1.0</td><td>0.0870</td><td>0.0134</td><td>0.0501</td><td>0.0633</td><td>0.0847</td><td>0.0869</td></tr></table> less attractive. A down-and-out put would be worthless when we needed it. Similarly, an up-and-in put would provide insurance only if, prior to the exchange rate falling below the strike, the exchange rate had risen so the option could knock in.
+<table><tr><td rowspan="2">Strike ($)</td><td rowspan="2">Standard ($)</td><td colspan="2">Down-and-In Barrier ($)</td><td colspan="2">Up-and-Out Barrier ($)</td><td rowspan="2">1.0500</td></tr><tr><td>0.8000</td><td>0.8500</td><td>0.9500</td><td>1.0000</td></tr><tr><td>K = 0.8</td><td>0.0007</td><td>0.0007</td><td>0.0007</td><td>0.0007</td><td>0.0007</td><td>0.0007</td></tr><tr><td>K = 0.9</td><td>0.0188</td><td>0.0066</td><td>0.0167</td><td>0.0174</td><td>0.0188</td><td>0.0188</td></tr><tr><td>K = 1.0</td><td>0.0870</td><td>0.0134</td><td>0.0501</td><td>0.0633</td><td>0.0847</td><td>0.0869</td></tr></table>
+
+Less attractive. A down-and-out put would be worthless when we needed it. Similarly, an up-and-in put would provide insurance only if, prior to the exchange rate falling below the strike, the exchange rate had risen so the option could knock in.
 
 This leaves down-and-ins and up-and-outs to consider. Table 3 presents prices of standard, down-and-in, and up-and-out puts with different strikes and different barriers. Consider first the row where  $K = 0.8$ . Notice that all options appear to have the same price. It is a useful exercise in the logic of barrier options to understand why they appear equally priced. In fact, here is an exercise to solve before reading further: Can you deduce which of the six premiums with  $K = 0.8$  are exactly equal and which are merely close?
 
@@ -231,7 +251,7 @@ How likely is this scenario? The low premium of 0.0007 for the ordinary put tell
 
 When the strike price is 1.0, the up-and-outs with barriers of 1.0 and 1.05 have substantially all the value of the ordinary put with the same strike. The interpretation is that most of the value of the puts comes from scenarios in which the option remains in-the-money; in those scenarios in which the option knocks out, the exchange rate on average does not fall enough for the option to be valuable.
 
-# 4. COMPOUND OPTIONS
+## 4. COMPOUND OPTIONS
 
 A compound option is an option to buy an option. If you think of an ordinary option as an asset—analogous to a stock—then a compound option is similar to an ordinary option.
 
@@ -240,13 +260,13 @@ Compound options are a little more complicated than ordinary options because the
 If we exercise the compound call at time  $t_1$ , then the price of the option we receive is  $C(S, K, T - t_1)$ . At time  $T$ , this option will have the value  $\max(0, S_T - K)$ , the same as an ordinary call with strike  $K$ . At time  $t_1$ , when the compound option expires, the value of the compound option is
 
 $$
-\max  \left[ C \left(S _ {t _ {1}}, K, T - t _ {1}\right) - x, 0 \right]
+\max\left[C\left(S_{t_{1}}, K, T - t_{1}\right) - x, 0\right]
 $$
 
 We only exercise the compound option if the stock price at time  $t_1$  is sufficiently great that the value of the call exceeds the compound option strike price,  $x$ . Let  $S^*$  be the critical stock price above which the compound option is exercised. By definition,  $S^*$  satisfies
 
 $$
-C \left(S ^ {*}, K, T - t _ {1}\right) = x \tag {11}
+C\left(S^{*}, K, T - t_{1}\right) = x \tag{11}
 $$
 
 # FIGURE 2
@@ -278,7 +298,7 @@ Formulas for the four compound options—an option to buy a call (CallOnCall), a
 As you might guess, there are parity relationships among the compound option prices. Suppose we buy a call on a call, and sell a put on a call, where both have the same strike, underlying option, and time to maturity. When the compound options expire, we will acquire the underlying option by paying the strike price  $x$ . If the stock price is high, we will exercise the compound call, and if the stock price is low, the compound put will be exercised and we will be forced to buy the call. Thus, the difference between the call on call and put on call premiums, plus the present value of  $x$ , must equal the premium to acquire the underlying option outright. That is,
 
 $$
-\begin{array}{l} \text {C a l l O n C a l l} (S, K, x, \sigma , r, t _ {1}, t _ {2}, \delta) - \text {P u t O n C a l l} (S, K, x, \sigma , r, t _ {1}, t _ {2}, \delta) + x e ^ {- r t _ {1}} \\ = \operatorname {B S C a l l} (S, K, \sigma , r, t _ {2}, \delta) \tag {12} \\ \end{array}
+\begin{array}{l} \text{CallOnCall}(S, K, x, \sigma, r, t_{1}, t_{2}, \delta) - \text{PutOnCall}(S, K, x, \sigma, r, t_{1}, t_{2}, \delta) + x e^{- r t_{1}} \\ = \operatorname{BSCall}(S, K, \sigma, r, t_{2}, \delta) \tag{12} \\ \end{array}
 $$
 
 An analogous relationship holds for puts.
@@ -290,19 +310,19 @@ It is possible to price American options on dividend-paying stocks using the bin
 Suppose that at time  $t_1$  the stock will pay a dividend,  $D$ . We have a choice of exercising the option at the cum-dividend price,  $S_{t_1} + D$ , or holding the call, which will have a value reflecting the ex-dividend price,  $S_{t_1}$ . Thus, at  $t_1$ , the value of the call option is the greater of its exercise value,  $S_{t_1} + D - K$ , and the option valued at the ex-dividend price,  $C(S_{t_1}, T - t_1)$ :
 
 $$
-\max  \left[ C \left(S _ {t _ {1}}, T - t _ {1}\right), S _ {t _ {1}} + D - K \right] \tag {13}
+\max\left[C\left(S_{t_{1}}, T - t_{1}\right), S_{t_{1}} + D - K\right] \tag{13}
 $$
 
 By put-call parity, at time  $t_1$  we can write the value of the ex-dividend unexercised call as
 
 $$
-C (S _ {t _ {1}}, T - t _ {1}) = P (S _ {t _ {1}}, T - t _ {1}) + S _ {t _ {1}} - K e ^ {- r (T - t _ {1})}
+C(S_{t_{1}}, T - t_{1}) = P(S_{t_{1}}, T - t_{1}) + S_{t_{1}} - K e^{- r (T - t_{1})}
 $$
 
 Making this substitution in equation (13) and rewriting the result, we obtain
 
 $$
-\left. S _ {t _ {1}} + D - K + \max  \left(P \left[ S _ {t _ {1}}, T - t _ {1} \right] - \left[ D - K \left(1 - e ^ {- r \left(T - t _ {1}\right)}\right) \right], 0\right) \right. \tag {14}
+S_{t_{1}} + D - K + \max\left(P\left[S_{t_{1}}, T - t_{1}\right] - \left[D - K\left(1 - e^{- r (T - t_{1})}\right)\right], 0\right) \tag{14}
 $$
 
 The value of the option is the present value of this expression.
@@ -316,13 +336,13 @@ Equation (14) tells us that we can value a call option on a dividend-paying stoc
 In this interpretation, exercising the compound option corresponds to keeping the option on the stock unexercised. To see this, notice that if we exercise the compound option in equation (14), we give up the dividend and gain interest on the strike in order to acquire the put. The total is
 
 $$
-S _ {t _ {1}} + P (S _ {t _ {1}}, T - t _ {1}) - K e ^ {- r (T - t _ {1})}
+S_{t_{1}} + P(S_{t_{1}}, T - t_{1}) - K e^{- r (T - t_{1})}
 $$
 
 If we do not exercise the compound option, we receive the stock plus dividend, less the strike:
 
 $$
-S _ {t _ {1}} + D - K
+S_{t_{1}} + D - K
 $$
 
 This valuation exercise provides a way to understand early exercise. We can view exercising an American call as not exercising the compound option to buy a put in equation (14). The cost of not exercising is that we lose the dividend, less interest on the strike. This is exactly the intuition governing early exercise.

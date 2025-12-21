@@ -1,8 +1,24 @@
 ---
 title: "Chapter 9 - Swaps"
 aliases:
-  - Swaps
-parent_directory: Derivatives Market Complete Full/chapters manual
+   - Swaps
+parent_directory: Derivatives Market Complete Full
+formatted: "2025-12-21 02:15:00 PM"
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+   - swaps
+   - commodity swaps
+   - interest rate swaps
+   - currency swaps
+secondary_tags:
+   - swaptions
+   - total return swaps
+   - hedging strategies
+   - forward contracts
+   - swap pricing
+   - notional amount
+   - market value
 cssclasses: academia
 ---
 
@@ -16,20 +32,16 @@ A swap is a contract calling for an exchange of payments over time. One party ma
 
 From this description, you can see that there is a relationship between swaps and forward contracts. In fact, a forward contract is a single-payment swap. It is possible to price a multi-date swap—determine the fixed price for oil in the above example—by using information from the set of forward prices with different maturities (i.e., the strip). We will see that swaps are nothing more than forward contracts coupled with borrowing and lending money.
 
-# I. AN EXAMPLE OF A COMMODITY SWAP
+## I. AN EXAMPLE OF A COMMODITY SWAP
 
 We begin our study of swaps by presenting an example of a simple commodity swap. Our purpose here is to understand how a swap is related to forwards, why someone might use a swap, and how market-makers hedge the risk of swaps. In later sections we present swap-price formulas and examine interest rate swaps, total return swaps, and more complicated commodity swap examples.
 
-An industrial producer, IP Inc., is going to buy 100,000 barrels of oil 1 year from today and 2 years from today. Suppose that the forward price for delivery in 1 year is 110/barrel
-
-From Chapter 8 of Derivatives Markets, Third Edition, Robert McDonald. Copyright © 2013 by Pearson Education, Inc. Published by Pearson Prentice Hall. All rights reserved.
-
-and in 2 years is \$111/barrel. Suppose that the 1and 2-year annual zero-coupon bond yields are  $6\%$  and  $6.5\%$ .
+An industrial producer, IP Inc., is going to buy 100,000 barrels of oil 1 year from today and 2 years from today. Suppose that the forward price for delivery in 1 year is 110/barrel and in 2 years is \$111/barrel. Suppose that the 1- and 2-year annual zero-coupon bond yields are  $6\%$  and  $6.5\%$ .
 
 IP can use forward contracts to guarantee the cost of buying oil for the next 2 years. Specifically, IP could enter into long forward contracts for 100,000 barrels in each of the next 2 years, committing to pay  \$110/barrel in 1 year and\$ 111/barrel in 2 years. The present value of this cost is
 
 $$
-\frac {\mathbb {S} 1 1 0}{1 . 0 6} + \frac {\mathbb {S} 1 1 1}{1 . 0 6 5 ^ {2}} = \mathbb {S} 2 0 1. 6 3 8
+\frac{\mathbb{S}110}{1.06} + \frac{\mathbb{S}111}{1.065^{2}} = \mathbb{S}201.638
 $$
 
 IP could invest this amount today and ensure that it had the funds to buy oil in 1 and 2 years. Alternatively, IP could pay an oil supplier 201.638, and the supplier would commit to delivering one barrel in each of the next 2 years. A single payment today for a single delivery of oil in the future is a prepaid forward. A single payment today to obtain multiple deliveries in the future is a prepaid swap.
@@ -39,12 +51,12 @@ Although it is possible to enter into a prepaid swap, buyers might worry about t
 Note that there are many feasible ways to have the buyer pay. Typically, however, a swap will call for equal payments in each year. The payment per year per barrel,  $x$ , will then have to be such that
 
 $$
-\frac {x}{1 . 0 6} + \frac {x}{1 . 0 6 5 ^ {2}} = \$ 2 0 1. 6 3 8
+\frac{x}{1.06} + \frac{x}{1.065^{2}} = \$201.638
 $$
 
 To satisfy this equation, the payments must be  \$110.483 in each year. We then say that the 2-year swap price is\$ 110.483. However, any payments that have a present value of 201.638 are acceptable.
 
-# Physical Versus Financial Settlement
+## Physical Versus Financial Settlement
 
 Thus far we have described the swap as if the swap counterparty supplied physical oil to the buyer. Figure 1 shows a swap that calls for physical settlement. In this case 110.483 is the per-barrel cost of oil.
 
@@ -53,40 +65,61 @@ Thus far we have described the swap as if the swap counterparty supplied physica
 However, we could also arrange for financial settlement of the swap. With financial settlement, the oil buyer, IP, pays the swap counterparty the difference between \$110.483 and the spot price (if the difference is negative, the counterparty pays the buyer), and the oil buyer then buys oil at the spot price. For example, if the market price is \$115, the swap counterparty pays IP
 
 $$
-\text {S p o t} = \mathbb {1 5} - \text {s w a p} = \mathbb {1 5} - \mathbb {1 0}. 4 8 3 = \mathbb {4}. 5 1 7
+\text{Spot} = \mathbb{15} - \text{swap} = \mathbb{15} - \mathbb{10.483} = \mathbb{4.517}
 $$
 
 If the market price is 108, the spot price less the swap price is
 
 $$
-\text {S p o t} = \text {s w a p} = \\ 1 0 8 - \text {s w a p} = \\ 1 1 0. 4 8 3 = - \text {s w a p}
+\text{Spot} - \text{swap} = 108 - 110.483 = -2.483
 $$
 
 In this case, the oil buyer, IP, makes a payment to the swap counterparty. Whatever the market price of oil, the net cost to the buyer is the swap price, 110.483:
 
 $$
-\underbrace {\text {S p o t p r i c e} - \text {s w a p p r i c e}} _ {\text {S w a p p a y m e n t}} - \underbrace {\text {s p o t p r i c e}} _ {\text {S p o t p u r c h a s e o f o i l}} = - \text {S w a p p r i c e}
+\underbrace{\text{Spot price} - \text{swap price}}_{\text{Swap payment}} - \underbrace{\text{spot price}}_{\text{Spot purchase of oil}} = -\text{Swap price}
 $$
 
 Figure 2 depicts cash flows and transactions when the swap is settled financially. The results for the buyer are the same whether the swap is settled physically or financially. In both cases, the net cost to the oil buyer is 110.483.
+
+```d2
+direction: right
+
+buyer: Oil Buyer {
+  shape: rectangle
+}
+
+counterparty: Swap Counterparty {
+  shape: rectangle
+}
+
+buyer -> counterparty: Pays fixed price\n(\$110.483/barrel) {
+  style.stroke: blue
+}
+
+counterparty -> buyer: Pays floating price\n(spot price) {
+  style.stroke: red
+}
+
+note: Net result:\nBuyer pays fixed price\nregardless of spot price {
+  near: buyer
+  shape: callout
+}
+```
 
 We have discussed the swap on a per-barrel basis. For a swap on 100,000 barrels, we simply multiply all cash flows by 100,000. In this example, 100,000 is the notional amount of the swap, meaning that 100,000 barrels is used to determine the magnitude of the payments when the swap is settled financially.
 
 To illustrate how a commodity swap would be specified in practice, Figure 3 is an abbreviated example of a term sheet for an oil swap. Term sheets are commonly used by broker-dealers to succinctly convey the important terms of a financial transaction. The specific example is hypothetical, but the language is from a real term sheet. This particular example is a 3-month oil swap with settlement each month based on the difference between a fixed price and the average over the month of the NYMEX near-month futures price. As you would expect, the complete documentation for such a deal is lengthy. Transaction confirmations typically make reference to standard documentation supplied by the International Swaps and Derivatives Association (ISDA). The use of standard documentation makes swaps less costly to trade and prices more comparable across dealers.
 
-# FIGURE 2
-
-Cash flows from a transaction where the oil buyer enters into a financially settled 2-year swap. Each year the buyer pays the spot price for oil and receives spot price -  \$110.483. The buyer's net cost of oil is\$ 110.483/barrel.
+**Figure 2:** Cash flows from a transaction where the oil buyer enters into a financially settled 2-year swap. Each year the buyer pays the spot price for oil and receives spot price - \$110.483. The buyer's net cost of oil is \$110.483/barrel.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/5b5a785df75c24e041cf0275d70b59b8c9ebed1070953026f20697f98d3f3c13.jpg)
 
-# FIGURE 3
-
-Illustrative example of the terms for an oil swap based on West Texas Intermediate (WTI) crude oil.
+**Figure 3:** Illustrative example of the terms for an oil swap based on West Texas Intermediate (WTI) crude oil.
 
 <table><tr><td>Fixed-Price Payer:</td><td>Broker-dealer</td></tr><tr><td>Floating-Price Payer:</td><td>Counterparty</td></tr><tr><td>Notional Amount:</td><td>100,000 barrels</td></tr><tr><td>Trade Date:</td><td>April 18, 2011</td></tr><tr><td>Effective Date:</td><td>July 1, 2011</td></tr><tr><td>Termination Date:</td><td>September 31, 2011</td></tr><tr><td>Period End Date:</td><td>Final Pricing Date of each Calculation Period as defined in the description of the Floating Price.</td></tr><tr><td>Fixed Price:</td><td>110.89 USD per barrel</td></tr><tr><td>Commodity Reference Price:</td><td>OIL-WTI-NYMEX</td></tr><tr><td>Floating Price:</td><td>The average of the first nearby NYMEX WTI Crude Oil Futures settlement prices for each successive day of the Calculation Period during which such prices are quoted</td></tr><tr><td>Calculation Period:</td><td>Each calendar month during the transaction</td></tr><tr><td>Method of Averaging:</td><td>Unweighted</td></tr><tr><td>Settlement and Payment:</td><td>If the Fixed Amount exceeds the Floating Amount for such Calculation Period, the Fixed Price Payer shall pay the Floating Price Payer an amount equal to such excess. If the Floating Amount exceeds the Fixed Amount for such Calculation Period, the Floating Price Payer shall pay the Fixed Price Payer an amount equal to such excess.</td></tr><tr><td>Payment Date:</td><td>5 business days following each Period End Date</td></tr></table>
 
-# Why Is the Swap Price Not 110.50?
+## Why Is the Swap Price Not 110.50?
 
 The swap price,  \$110.483, is close to the average of the two oil forward prices,\$ 110.50. However, it is not exactly the same. Why?
 
@@ -96,13 +129,13 @@ Now consider the actual swap price of  \$110.483/barrel. Relative to the forward
 
 The interest rate on this loan is  $0.517 / 0.483 - 1 = 7\%$ . Where does  $7\%$  come from? We assumed that  $6\%$  is the 1-year zero yield and  $6.5\%$  is the 2-year yield. Given these interest rates,  $7\%$  is the 1-year implied forward yield from year 1 to year 2. By entering into
 
-# FIGURE 4
+**Figure 4:**
 
 Cash flows from a transaction where an oil buyer and seller each enters into a financially settled 2-year swap. The buyer pays the spot price for oil and receives the spot price – \$110.483 each year as a swap payment. The oil seller receives the spot price for oil and receives \$110.483 – spot price as a swap payment.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/02abefd4-2dfe-4fd1-a4bc-6204fb633ac1/fa1159f8a7bc808a76a7607cfffb65d2c994d6ecfea0f31dd1dbda8c48b99ae0.jpg) the swap, we are lending the counterparty money for 1 year beginning in 1 year. If the deal is priced fairly, the interest rate on this loan should be the implied forward interest rate.
 
-# The Swap Counterparty
+## The Swap Counterparty
 
 The swap counterparty is a dealer who hedges the oil price risk resulting from the swap. The dealer can hedge in several ways. First, imagine that an oil seller would like to lock in a fixed selling price of oil. In this case, the dealer locates the oil buyer and seller and serves as a go-between for the swap, receiving payments from one party and passing them on to the other. In practice the fixed price paid by the buyer exceeds the fixed price received by the seller. This price difference is a bid-ask spread and is the dealer's fee.
 
@@ -166,7 +199,7 @@ The examples we have analyzed in this section illustrate the fundamental charact
 
 Source: Securities and Exchange Commission.
 
-# 2. COMPUTING THE SWAP RATE IN GENERAL
+#### 2. COMPUTING THE SWAP RATE IN GENERAL
 
 We now present a general formula for computing the swap rate. As we saw in the previous section, the swap rate calculation equates the value of a prepaid swap with the present value of the fixed swap payments. This principle for computing the swap rate is the same for any underlying asset.
 

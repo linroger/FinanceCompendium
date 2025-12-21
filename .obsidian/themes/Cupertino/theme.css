@@ -67,8 +67,8 @@ body,
   --surface-glass-strong: color-mix(in srgb, var(--liquid-glass-background) 85%, var(--liquid-glass-tint));
   --surface-glass-weak: color-mix(in srgb, var(--liquid-glass-background) 55%, var(--liquid-glass-tint));
   --surface-border: var(--liquid-glass-border);
-  --modal-panel-background: color-mix(in srgb, var(--background-primary) 96%, var(--liquid-glass-background));
-  --modal-panel-sidebar-background: color-mix(in srgb, var(--background-secondary) 94%, var(--liquid-glass-background));
+  --modal-panel-background: rgb(from var(--background-primary) r g b / 94%);
+  --modal-panel-sidebar-background: rgb(from var(--background-secondary) r g b / 96%);
   --modal-scrim-color: rgba(0, 0, 0, 0.24);
   --divider-color: var(--background-modifier-border);
   --tab-container-background: var(--surface-content);
@@ -116,6 +116,8 @@ body,
   --liquid-glass-border: rgba(0, 0, 0, 0.08);
   --liquid-glass-background: rgba(255, 255, 255, 0.6);
   --liquid-glass-tint: rgba(255, 255, 255, 0.7);
+  --modal-panel-background: rgb(from var(--background-primary) r g b / 94%);
+  --modal-panel-sidebar-background: rgb(from var(--background-secondary) r g b / 97%);
   --modal-scrim-color: rgba(0, 0, 0, 0.18);
   --blur-xs: blur(4px);
   --blur-s: blur(8px);
@@ -175,6 +177,8 @@ body,
   --liquid-glass-border: rgba(255, 255, 255, 0.1);
   --liquid-glass-background: rgba(255, 255, 255, 0.12);
   --liquid-glass-tint: rgba(255, 255, 255, 0.08);
+  --modal-panel-background: rgb(from var(--background-primary) r g b / 96%);
+  --modal-panel-sidebar-background: rgb(from var(--background-secondary) r g b / 97%);
   --modal-scrim-color: rgba(0, 0, 0, 0.36);
   --blur-xs: blur(6px);
   --blur-s: blur(12px);
@@ -1497,12 +1501,17 @@ body.is-phone .modal.mod-sidebar-layout:not(.mod-community-modal) .modal-title:n
 
 .modal.mod-sidebar-layout.mod-community-modal .modal-sidebar {
   padding: 0;
+  background-color: var(--modal-panel-sidebar-background);
+  border-inline-end: 1px solid var(--divider-color);
 }
 .modal.mod-sidebar-layout.mod-community-modal .community-modal-controls {
   display: flex;
   flex-wrap: wrap;
   padding: 8px;
   gap: 16px;
+  background-color: var(--modal-panel-background);
+  border-bottom: 1px solid var(--divider-color);
+  border-radius: var(--radius-m);
 }
 .modal.mod-sidebar-layout.mod-community-modal .community-modal-controls .setting-item {
   padding: 0;
@@ -1520,6 +1529,12 @@ body.is-phone .modal.mod-sidebar-layout:not(.mod-community-modal) .modal-title:n
 .modal.mod-sidebar-layout.mod-community-modal .community-modal-controls .community-modal-search-summary {
   display: none;
 }
+.modal.mod-sidebar-layout.mod-community-modal .community-modal-search-results-wrapper,
+.modal.mod-sidebar-layout.mod-community-modal .community-modal-search-results,
+.modal.mod-sidebar-layout.mod-community-modal .community-modal-info,
+.modal.mod-sidebar-layout.mod-community-modal .community-modal-details {
+  background-color: var(--modal-panel-background);
+}
 .modal.mod-sidebar-layout.mod-community-modal .community-modal-search-results {
   gap: 8px;
 }
@@ -1530,6 +1545,14 @@ body.is-phone .modal.mod-sidebar-layout:not(.mod-community-modal) .modal-title:n
 }
 .modal.mod-sidebar-layout.mod-community-modal .community-item {
   padding: 16px;
+  background-color: rgb(from var(--background-secondary) r g b / 72%);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow-xs);
+  transition: background-color var(--anim-duration-fast) var(--anim-motion-cupertino);
+}
+.modal.mod-sidebar-layout.mod-community-modal .community-item:hover {
+  background-color: rgb(from var(--background-secondary) r g b / 82%);
 }
 
 body.is-phone .modal.mod-sidebar-layout.mod-community-modal .community-modal-controls {

@@ -239,8 +239,6 @@ Source: Muni bond yields from Economic Report of the President.
 
 Figure 2.5 shows that for most of the last 40 years, the ratio of tax-exempt to taxable yields fluctuated around .70. What does this imply about the cutoff tax bracket above which tax-exempt bonds provide higher after-tax yields? Equation 2.3 shows that an investor whose tax bracket (federal plus local) exceeds  $1 - .70 = .30$ , or  $30\%$ , will derive a greater after-tax yield from principals. As we pointed out, however, it is difficult to control precisely for differences in the risks of these bonds, so the cutoff tax bracket must be taken as approximate.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/8ccea45b8a27b8134fb80302d6269392355e9808de9b2dafbdcb661ae2d37c48.jpg)
-
 # Concept Check 2.2
 
 Suppose your combined federal plus state tax bracket is  $30\%$ . Would you prefer to earn a  $6\%$  taxable return or a  $4\%$  tax-free return? What is the equivalent taxable yield of the  $4\%$  tax-free yield?
@@ -289,8 +287,6 @@ The two most important characteristics of common stock as an investment are its 
 Residual claim means that stockholders are the last in line of all those who have a claim on the assets and income of the corporation. In a liquidation of the firm's assets, the shareholders have a claim to what is left after all other claimants such as the tax authorities, employees, suppliers, bondholders, and other creditors have been paid. For a firm not in liquidation, shareholders have claim to the part of operating income left over after interest and taxes have been paid. Management can either pay this residual as cash dividends to shareholders or reinvest it in the business to increase the value of the shares.
 
 Limited liability means that the most shareholders can lose in the event of failure of the corporation is their original investment. Unlike owners of unincorporated businesses, whose creditors can lay claim to the personal assets of the owner (house, car, furniture), corporate shareholders may at worst have worthless stock. They are not personally liable for the firm's obligations.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/208cd1406f0f6b8f997feb6c62636e8fb1c51b2a8eca3aa784575c27045f4058.jpg)
 
 # Concept Check 2.3 a. If you buy 100 shares of Intel stock, to what are you entitled?
 
@@ -425,8 +421,6 @@ Unlike the price-weighted index, the value-weighted index gives more weight to A
 
 Note also from Tables 2.2 and 2.3 that market-value-weighted indexes are unaffected by stock splits. The total market value of the outstanding XYZ stock decreases from  \$100 million to\$ 90 million regardless of the stock split, thereby rendering the split irrelevant to the performance of the index.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/910d04b2f0a5d6e141f44bbb26d3daf5047e5f31e5678e1fe306ed46a42a6680.jpg)
-
 # Concept Check 2.5
 
 Reconsider companies XYZ and ABC from Concept Check 2.4. Calculate the percentage change in the market-value-weighted index. Compare that to the rate of return of a portfolio that holds \$500 of ABC stock for every \$100 of XYZ stock (i.e., an index portfolio).
@@ -510,8 +504,6 @@ Table 2.6 presents prices of Microsoft options on July 14, 2021. The price of Mi
 Notice that the prices of call options decrease as the exercise price increases. For example, the August expiration call with exercise price  \$290 costs only\$ 3.31. This makes sense, because the right to purchase a share at a higher price is less valuable. Conversely, put prices increase with the exercise price. The right to sell Microsoft at a price of \$285 in August costs \$7.48, while the right to sell at \$290 costs \$10.35.
 
 Option prices also increase with time until expiration. Clearly, one would rather have the right to buy Microsoft for  \$285 at any time until September rather than at any time until August. Not surprisingly, this shows up in a higher price for the longer expiration options. For example, the call with exercise price\$ 285 expiring on September 17 sells for \$8.45 compared to only \$5.06 for the August 6 expiration call.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/671ed89c-9f15-4f1f-83ef-906b19e5f9bf/bf1974580215332544531b45c2636e4e22a272aae97aa52e227a634fe4c48e94.jpg)
 
 # Concept Check 2.6
 
