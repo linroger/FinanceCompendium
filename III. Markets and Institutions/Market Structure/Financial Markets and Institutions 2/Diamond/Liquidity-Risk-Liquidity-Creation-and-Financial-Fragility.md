@@ -1,14 +1,19 @@
 ---
+title: Liquidity Risk, Liquidity Creation, and Financial Fragility: A Theory of Banking
 parent_directory: Diamond
-title: "Liquidity Risk, Liquidity Creation, and Financial Fragility: A Theory of Banking"
-tags:
-aliases:
-  - Liquidity Risk and Financial Fragility
-parent_folder: Diamond
-subfolder:
-key_concepts:
+formatted: 2025-12-21 09:53:25 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - liquidity risk
+  - financial fragility
+secondary_tags:
+  - banking theory
+  - relationship lending
+  - deposit insurance
+  - capital requirements
+  - bank runs
 cssclasses: academia
-linter-yaml-title-alias: "Liquidity Risk, Liquidity Creation, and Financial Fragility: A Theory of Banking"
 ---
 
 # Liquidity Risk, Liquidity Creation, and Financial Fragility: A Theory of Banking
@@ -43,19 +48,19 @@ The rest of the paper is organized as follows. We present the frame
 
 work in Section I and derive the nature of the optimal financing contract in Section II. In Section III we explain how a bank can achieve the second-best outcome. Our model has a number of implications, which we explore in Section IV. We relate the paper to the literature in Section V, especially Diamond and Dybvig (1983) and Calomiris and Kahn (1991). We conclude in Section VI with a description of some of the many extensions to this model that are possible.
 
-# I. The Framework
+## I. The Framework
 
-# A. Projects
+## A. Projects
 
-Consider an economy with entrepreneurs and potential financiers. The economy lasts for two periods and three dates—date 0 to date 2. All agents have linear utility of consumption. Each entrepreneur has a project, which lasts for two periods. The project requires an investment of up to  \$1 at date 0. If an entrepreneur works on his project, it produces a riskless cash flow of \(C_t$  at date  $t$  (all amounts are per dollar invested). Investment in the project is observable and contractible: the entrepreneur cannot divert the funds to another use. There is also a storage opportunity that returns \)1 for every dollar invested.
+Consider an economy with entrepreneurs and potential financiers. The economy lasts for two periods and three dates—date 0 to date 2. All agents have linear utility of consumption. Each entrepreneur has a project, which lasts for two periods. The project requires an investment of up to  \$1 at date 0. If an entrepreneur works on his project, it produces a riskless cash flow of $C_t$ at date $t$ (all amounts are per dollar invested). Investment in the project is observable and contractible: the entrepreneur cannot divert the funds to another use. There is also a storage opportunity that returns $1 for every dollar invested.
 
-# B. Financing
+## B. Financing
 
 Entrepreneurs do not have money to finance their projects. There are many potential financiers with an endowment of one unit at date 0 and arbitrarily many other financiers with smaller endowments at each date. The exact distribution of endowment is not critical.
 
 The entrepreneur can raise money by issuing contracts (which for convenience only we shall call loans). We assume very little about the form of the contract other than that there is a required payment on a particular date or dates and the lender gets control rights over the asset if the entrepreneur defaults. This specification subsumes a contract in which the lender always has control rights since that is obtained by setting the required payment to infinity. So a contract specifies only repayments  $P_{t}$  that the borrower is required to make at date  $t$  (with repayments possibly contingent on the liquidity shock to the lender, which we shall describe shortly).
 
-# C. Relationship Lending
+## C. Relationship Lending
 
 The date 0 lender to a project, whom we shall call the relationship lender, develops specific skills in identifying the liquidation value of the assets: she has been in a relationship with the entrepreneur at an early
 
@@ -63,7 +68,7 @@ enough stage to know how the business was built, knows which markets personnel w
 
 Because other lenders who come in later do not have her specific skills in finding the next-best alternative use, they can generate only  $\beta X_{v}$  where  $0\leq \beta < 1$ , from the asset. Since educating the initial lender takes time and effort, we assume that an entrepreneur can borrow from only one such lender.<sup>1</sup> We shall discuss various other interpretations of the relationship lender's skills later.
 
-# D. Limited Commitment
+## D. Limited Commitment
 
 There are two limitations on the willingness of financiers to lend. First, at any date an agent can commit to working on the specific venture only for that date (as in Hart and Moore [1994] and Hart [1995]): the law prevents him from irrevocably selling himself into bondage. This implies that after borrowing and investing at date 0, the entrepreneur could threaten to quit before cash flows are due to be produced at date 1 unless the terms of financing are renegotiated. He can do this again before date 2. Similarly, the relationship lender cannot commit to others that she will use her specific skills on their behalf at any future date.
 
@@ -79,7 +84,7 @@ Relationship lender rejects, liquidates for  $X_{2}$ . Payoff of Entrepreneur, R
 
 FIG. 1.-Bargaining at date 2 between a relationship lender and an entrepreneur
 
-# E. Liquidity Shock
+## E. Liquidity Shock
 
 The second limitation on the willingness to lend up-front is that with probability  $\theta$  at date 1, the relationship lender could get a liquidity shock—a highly valued investment or consumption opportunity—which makes her impatient (we denote this type of lender by superscript  $I$ ). The shock increases her personal rate of time preference, making one unit of date 1 goods worth  $R$  units of date 2 goods to her. We refer to a lender who does not get a liquidity shock as patient or  $\sim I$ . We assume that the realization of the liquidity shock is the relationship lender's own private information: outsiders have no way of finding out how strong her desire to consume is or how good the investment opportunity really is. This specification of liquidity shocks is similar to that in Bryant (1980) and Diamond and Dybvig (1983), but without the introduction of risk aversion.
 
@@ -87,11 +92,11 @@ Apart from those who get the liquidity shock described above, no one discounts f
 
 We make the following assumptions.
 
-ASSUMPTION 1. min  $[C_1 + C_2, (C_1 + C_2) / X_1] > R > 1$ .
+ASSUMPTION 1. $\min \{C_1 + C_2, (C_1 + C_2)/X_1\} > R > 1$ .
 
 ASSUMPTION 2.  $C_2 > X_2$ .
 
-ASSUMPTION 3. max  $[X_1, X_2] \geq 1$ .
+ASSUMPTION 3. $\max \{X_1, X_2\} \geq 1$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/ccbad88d-1fb2-41aa-94d4-76c1d0d98b72/7fa0244e32c5d54a6715881cf9cfb6f6fba2e1981ae77e9ce1fa5bf270d922d5.jpg)  
 FIG. 2.—Bargaining at date 1 between a patient relationship lender and an entrepreneur
@@ -114,13 +119,13 @@ amount raised, linearity implies that she will find them acceptable (suitably sc
 
 In offering to borrow using a particular loan contract up-front, the entrepreneur wants to maximize his expected payoffs. If it is to be rational for the relationship lender to make the loan at date 0, she should expect to get at least  $(1 - \theta) + \theta R$ , which is her expected utility, given the probability of a liquidity shock, using her alternative of storage. Because there is no shortage of funds at date 0, we assume that the entrepreneur can borrow by matching the expected utility from this outside option of storage.
 
-$a$  ) Because the returns from continuation exceed  $R$ , the entrepreneur would like to ensure that his project does not get liquidated unless this is absolutely necessary for the lender to make the loan—unless liquidation is the only way to satisfy the lender's individual rationality constraint.  
-$b$  ) Since the entrepreneur values cash flows the same in either state and at either date (because his discount factor is one), he would like to commit up-front to giving the relationship lender as much as possible at date 1 when she is impatient and needs liquidity. Define the illiquidity premium as the increase in expected payments the entrepreneur has to make over and above the expected payments the lender would receive
+(a) Because the returns from continuation exceed  $R$ , the entrepreneur would like to ensure that his project does not get liquidated unless this is absolutely necessary for the lender to make the loan—unless liquidation is the only way to satisfy the lender's individual rationality constraint.  
+(b) Since the entrepreneur values cash flows the same in either state and at either date (because his discount factor is one), he would like to commit up-front to giving the relationship lender as much as possible at date 1 when she is impatient and needs liquidity. Define the illiquidity premium as the increase in expected payments the entrepreneur has to make over and above the expected payments the lender would receive
 
 if she had invested in storage at date 0 (which pays \$1 for sure at date 1 regardless of the lender's type). Then the illiquidity premium is3
 
 $$
-\theta (R - 1) (1 - \text{da te} 1 \text{ca sh fl ow to im pa ti en tl en de r}), \tag {1}
+\theta (R - 1) (1 - \text{date 1 cash flow to impatient lender}), \tag{1}
 $$
 
 where  $\theta$  is the probability that the lender gets the liquidity shock, and the cash flow to the impatient lender includes any payments by the entrepreneur and any proceeds from the loan sale or project liquidation. We call an asset with a zero illiquidity premium "liquid." An asset with a positive illiquidity premium is one in which more is paid in expectation over time to the holder because it does not pay as much when she is impatient at date 1 as storage. Thus a relationship lender is willing to pay less at date 0 for such an asset than the present value of its future repayments discounted at the gross market interest rate (of one). It is "illiquid." Moreover, we shall see that the reason for the illiquidity premium is that the impatient relationship lender will realize less from the loan at date 1 than the present value of payoffs if she held the loan to maturity and discounted at the market interest rate. Thus a loan is illiquid because it has poor state-contingent payoffs, and it has poor state-contingent payoffs because it cannot fetch as much in times of need as the present value of what the holder could realize if she did not have the need.
@@ -628,7 +633,7 @@ Jacklin, Charles J. "Demand Deposits, Trading Restrictions, and Risk Sharing." I
 Jacklin, Charles J., and Bhattacharya, Sudipto. "Distinguishing Panics and Information-Based Bank Runs: Welfare and Policy Implications." J.P.E. 96 (June 1988): 568-92.  
 Kashyap, Anil K.; Rajan, Raghuram G.; and Stein, Jeremy C. "Banks as Liquidity
 
-# LIQUIDITY RISK
+
 
 Providers: An Explanation for the Co-existence of Lending and Deposit Taking." Manuscript. Chicago: Univ. Chicago, Grad. School Bus., 1999.  
 Myers, Stewart C., and Rajan, Raghuram G. "The Paradox of Liquidity." Q.J.E. 113 (August 1998): 733-71.  

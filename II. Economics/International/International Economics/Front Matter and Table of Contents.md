@@ -1,20 +1,21 @@
 ---
+title: International Economics
+parent_directory: International Economics
+formatted: 2025-12-21 09:55:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
-- global economy patterns
-- economics introduction international trade
-- tiger tortoise 575 gni
-- international macroeconomics 859
+- international economics textbook
+- international trade theory
+- global macroeconomic patterns
 secondary_tags:
-- trade technology ricardian model
-- pattern international trade 40
-- world trade trade compared
-- 304 free trade equilibrium
-- trade policies chapter
-- macroeconomics chapter 12
-- comparative advantage created
-- industry trade gravity
-- financial globalization 609 chapter
-tags_extracted: '2025-12-18T00:31:29.651298'
+- ricardian trade model
+- heckscher ohlin model
+- trade policy analysis
+- international finance
+- exchange rate systems
+- balance of payments
+cssclasses: academia
 ---
 
 # International Economics
@@ -121,7 +122,7 @@ Key Points, Key Terms, and Problems
 
 Patterns of International Trade
 
-# Chapter 2 Trade and Technology: the Ricardian Model 27
+# Chapter 2 Trade and Technology: The Ricardian Model 27
 
 # 1 Reasons for Trade 29
 
@@ -163,7 +164,7 @@ APPLICATION The Terms of Trade for Primary Commodities 52
 
 Key Points, Key Terms, and Problems
 
-# Chapter 3 Gains and Losses from Trade in the Specific-factors Model 59
+# Chapter 3 Gains and Losses from Trade in the Specific-Factors Model 59
 
 # 1 Specific-factors Model 61
 
@@ -203,9 +204,9 @@ HEADLINES Rise in Coffee Prices—Great for Farmers, Tough on Co-ops 83
 
 Key Points, Key Terms, and Problems
 
-# Chapter 4 Trade and Resources: the Heckscher-ohlin Model 87
+# Chapter 4 Trade and Resources: The Heckscher-Ohlin Model 87
 
-# 1 Heckscher-ohlin Model 88
+# 1 Heckscher-Ohlin Model 88
 
 Assumptions of the Heckscher-Ohlin Model 89
 
@@ -215,7 +216,7 @@ No-Trade Equilibrium 92
 
 Free-Trade Equilibrium 94
 
-# 2 Testing the Heckscher-ohlin Model 98
+# 2 Testing the Heckscher-Ohlin Model 98
 
 Leontief's Paradox 99
 
@@ -243,9 +244,7 @@ APPLICATION Opinions toward Free Trade 117
 
 Key Points, Key Terms, and Problems
 
-# Chapter 5 Movement of Labor and Capital Between
-
-Countries 123
+# Chapter 5 Movement of Labor and Capital Between Countries 123
 
 # 1 Movement of Labor Between Countries: Migration 125
 
@@ -299,7 +298,7 @@ Gains from Foreign Direct Investment 159
 
 Key Points, Key Terms, and Problems
 
-CHAPTER 6 Increasing Returns to Scale and Monopolistic Competition 165
+# CHAPTER 6 Increasing Returns to Scale and Monopolistic Competition 165
 
 # 1 Basics of Imperfect Competition 168
 
@@ -313,7 +312,7 @@ Equilibrium without Trade 172
 
 Equilibrium with Free Trade 174
 
-# 3 the North American Free Trade Agreement 178
+# 3 The North American Free Trade Agreement 178
 
 Gains and Adjustment Costs for Canada Under NAFTA 178
 
@@ -343,7 +342,7 @@ Key Points, Key Terms, and Problems
 
 New Explanations for International Trade
 
-CHAPTER 7 Offshoring of Goods and Services 197
+# CHAPTER 7 Offshoring of Goods and Services 197
 
 SIDE BAR "Foreign Outsourcing" Versus "Offshoring" 199
 
@@ -381,13 +380,9 @@ The Future of U.S. Comparative Advantage 225
 
 Key Points, Key Terms, and Problems
 
-PART 4
+# PART 4 International Trade Policies
 
-International Trade Policies
-
-CHAPTER 8 Import Tariffs and Quotas Under Perfect
-
-Competition 233
+# CHAPTER 8 Import Tariffs and Quotas Under Perfect Competition 233
 
 1 A Brief History of the World Trade Organization 235
 

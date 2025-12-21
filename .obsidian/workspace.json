@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FT/The Japanese government bond market is in trouble.md",
+                "file": "V. Equities and Alternatives/Equities/Investments BKM/Part 4 - Fixed-Income Securities/Chapter 14 - Bond Prices and Yields.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Japanese government bond market is in trouble"
+              "title": "Chapter 14 - Bond Prices and Yields"
             }
           },
           {
@@ -120,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 348.5
   },
   "right": {
     "id": "4bcd7846abe7e2d4",
@@ -246,6 +246,10 @@
   },
   "active": "f415a2f46a27c8d6",
   "lastOpenFiles": [
+    "V. Equities and Alternatives/Equities/Investments BKM/Part 1 - Introduction/Chapter 04 - Mutual Funds and Other Investment Companies.md",
+    "V. Equities and Alternatives/Equities/Investments BKM/Part 1 - Introduction/Chapter 02 - Asset Classes and Financial Instruments.md",
+    "VII. Corporate Finance/Valuation/Analytical Corporate Valuation Fundamental Analysis, Asset Pricing, and Company Valuation.md",
+    "FT/The Japanese government bond market is in trouble.md",
     "yaml_header.tmp",
     "full_content.md",
     "temp_original.md",
@@ -271,9 +275,6 @@
     "FT/Analysts pore over Ueda’s words for clues on Japanese bond policy.md",
     "FT/The challenges for Bank of Japan governor Kazuo Ueda — in charts.md",
     "FT/Application Error.md",
-    "FT/Investment banks warn investors of potential BoJ surprise.md",
-    "FT/Bank of Japan monetary policy tweak sends bond yields to 9-year high.md",
-    "FT/Bank of Japan policy shift boosts appeal of home market for local investors.md",
     "logs/f620b06b-77df-4c91-851a-23ca35976aa0/notification.json",
     "logs/f620b06b-77df-4c91-851a-23ca35976aa0/stop.json",
     "logs/f620b06b-77df-4c91-851a-23ca35976aa0/chat.json",
@@ -281,7 +282,6 @@
     "logs/f620b06b-77df-4c91-851a-23ca35976aa0/pre_tool_use.json",
     "logs/f620b06b-77df-4c91-851a-23ca35976aa0/subagent_stop.json",
     "logs/f620b06b-77df-4c91-851a-23ca35976aa0",
-    "FT",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]

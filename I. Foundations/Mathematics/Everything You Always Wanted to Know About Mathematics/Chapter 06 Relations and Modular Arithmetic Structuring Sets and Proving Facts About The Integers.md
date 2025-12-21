@@ -1,54 +1,44 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Chapter 6
-linter-yaml-title-alias: Chapter 6
+title: "Chapter 6: Relations and Modular Arithmetic: Structuring Sets and Proving Facts About The Integers"
+parent_directory: "Everything You Always Wanted to Know About Mathematics"
+formatted: "2025-12-21 09:57:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- each line
-- any relation
-- many interesting properties
-- mathematical induction
-- set builder notation
-- i) reflexive
-- any two integers
+  - relations and modular arithmetic
+  - equivalence relations
+  - modular arithmetic
+  - congruence modulo n
+  - chinese remainder theorem
+  - bezouts identity
 secondary_tags:
-- equivalence relations
-- mathematical rigor
-- following questions
-- different relation
-- strong induction
-- (nonempty) set
-- number-theoretic results
-- at least one cube
-- and term
-- another set
-- two-dimensional set and related pairs
-- optional reading
-- first equation
-- i.e. equivalence classes
-- theorem statement
-- order relation
-- one-dimensional set
-- special properties
-- previous theorem
-tags_extracted: '2025-12-18T17:57:07.233751'
-tags_method: max_quality_v1
+  - binary relations
+  - reflexive relations
+  - symmetric relations
+  - transitive relations
+  - anti-symmetric relations
+  - equivalence classes
+  - partial orders
+  - total orders
+  - integer divisibility
+  - multiplicative inverses
+  - number theoretic proofs
+  - set partitions
+  - order relations
+  - strict partial orders
+  - quadratic residues
+cssclasses: academia
 ---
 
-# Chapter 6
+# Chapter 6: Relations and Modular Arithmetic: Structuring Sets and Proving Facts About The Integers
 
-# Relations and Modular Arithmetic: Structuring Sets and Proving Facts About The Integers
-
-# 6.1 Introduction
+## 6.1 Introduction
 
 Now that we've built a strong foundation of mathematical terminology, concepts, and material, you might be wondering what we're going to talk about next! Well, much like we wanted to rigorize the concept of mathematical induction—something we intuitively "understood" but couldn't yet develop in a precise mathematical way—we will, in the next two chapters, set on firmer ground a concept that we have used in passing already, and one that you're likely familiar with in an intuitive sense: a function.
 
 To accomplish this, we will start by talking about relations. This will lead us into the particular area of equivalence relations, which allow us to talk about some qualitative properties of sets. In particular, we will use some equivalence relations on the set  $\mathbb{Z}$  to state and prove many interesting properties about integers. This will give us occasion to briefly explore the mathematical branch of Number Theory. It is a rich, deep, and broad field, and we will really only skim the surface by stating and proving a few helpful theorems and using them to solve some interesting puzzles and problems. Then, we will move right along to the next chapter and get back to our goal of discussing functions.
 
-# 6.1.1 Objectives
+### 6.1.1 Objectives
 
 The following short sections in this introduction will show you how this chapter fits into the scheme of the book. They will describe how our previous work
 
@@ -65,21 +55,21 @@ By the end of this chapter, you should be able to …
 - Define the concept of multiplicative inverses, understand what this means in the particular context of modular arithmetic, and apply this idea to prove/disprove the existence of solutions to particular equations.  
 - State and understand various theorems in number theory, and apply them to solve given problems.
 
-# 6.1.2 Segue from previous chapter
+### 6.1.2 Segue from previous chapter
 
 This chapter doesn't quite follow from the previous one directly, in the way that others have. Instead, we are really moving into a new part of the book. From now on, we will be taking all of the mathematical knowledge we have developed thus far and applying it to learn about other interesting areas. We needed to work through all of that other material first, to get to this point. From now on, we will be stating complicated claims and applying proof techniques to prove them. We will provide you with definitions and theorems and expect you to use them to prove other claims. In this sense, this chapter follows from all of the previous chapters. We will be putting all of that acquired knowledge, terminology, and experience to good use!
 
-# 6.1.3 Motivation
+### 6.1.3 Motivation
 
 You have possibly worked with functions in calculus (differentiating and integrating them) or in a high school algebra course (graphing a function or finding its roots) or even in computer science (coding an algorithm or using recursive programming). But try this: define what a function is. How would you explain it to your uncle who's never studied mathematics? How would you explain it to a hyper-intelligent alien? How would you attempt to explain it with the level of rigor that we've provided with mathematical induction? It's not so easy, is it?
 
 To develop a rigorous notion of functions, we will first talk about relations, a way to compare elements of sets. We will look at plenty of examples and their properties. Then, in the next chapter, we will see that a function is just a particular type of relation! While we talk about relations, we will explore their properties and discover that a particular combination of properties yields a special property. Specifically, we will see that equivalence relations yield natural partitions of sets, and vice-versa. This result will allow us to state and prove several results about the integers.
 
-# 6.1.4 Goals andWarnings for the Reader
+### 6.1.4 Goals and Warnings for the Reader
 
 This chapter will continue our foray into abstract ideas and rigorous mathematics, so it is essential (especially if you feel put off by or uncomfortable with this increasing level of abstraction and the language required as part of it) that you don't get swept up and think that none of this information is "important" or "applicable". All of these concepts will continue to appear throughout this book—and all of mathematics, of course!—so keep that in mind if you find yourself losing focus. We recommend jotting down notes to yourself about what you're learning to remind yourself of what you're doing. When you see a theorem and read through it several times and finally understand it, write down a summary of the theorem in the margin or something so you'll have it later. Draw a little picture to help you conceptualize the important components of an example or theorem. When you read a definition, write down a canonical example and a non-example. After reading a proof, jot down an outline of the steps of the argument so you can "chunk" the concepts and remember (and recall) them more effectively. If you don't understand a definition or theorem or proof, make a note about your confusion, too! Take it to a fellow student or smart mathy friend or your TA or professor in office hours and see if they can address your confusion. Most of all, just remember that it takes time to digest and internalize these types of abstract concepts and arguments, and it's as important as ever to always work through examples to make sure you follow along in a way that makes sense to you. If you can understand something well enough to explain it to someone else, then you're in great shape.
 
-# 6.2 Abstract (Binary) Relations
+## 6.2 Abstract (Binary) Relations
 
 # 6.2.1 Definition
 
@@ -103,12 +93,12 @@ $$
 (a, b) \in R \Longleftrightarrow P (a, b)
 $$
 
-# Examples
+## Examples
 
 Example 6.2.4. Let  $W = \{\text{Englishwords}\}$  and  $L = \{\text{Englishletters}\}$ . Define the relation  $R$  by setting
 
 $$
-(w, \ell) \in R \Longleftrightarrow w \text{be gi ns wi th} \ell
+(w, \ell) \in R \Longleftrightarrow w \text{begins with} \ell
 $$
 
 Then, (mathematics,m)  $\in R$  and (golf,g)  $\in R$  because these are valid words and we have identified their starting letters. For some non-examples, notice that (knowledge,n)  $\notin R$  and (you,u)  $\notin R$ . Furthermore, note that (zyzyxyqy,z)  $\notin R$  because zzyxyqy\n\n
@@ -118,30 +108,30 @@ It is often the case that  $A = B$ , so  $R$  defines a relation on pairs of ele
 Example 6.2.5. Let  $A = B = \mathbb{Z}$  and define a relation  $R$  on  $\mathbb{Z}$  by setting
 
 $$
-(x, y) \in R \Longleftrightarrow x \text{an d} y \text{ha ve th es am ep ar it y}
+(x, y) \in R_2 \Longleftrightarrow x \text{and} y \text{have the same parity}
 $$
 
-Then  $(2,8)\in R$  and  $(-3,7)\in R$  and  $(-99, - 99)\in R$ , but  $(1,2)\notin R$  and  $(0, - 3)\notin R$  and  $(\pi ,0)\notin R$  (since  $\pi \notin \mathbb{Z}$ ).
+Then  $(2,8)\in R$  and  $(-3,7)\in R$  and  $(-99,-99)\in R$ , but  $(1,2)\notin R$  and  $(0,-3)\notin R$  and  $(\pi,0)\notin R$  (since  $\pi \notin \mathbb{Z}$ ).
 
 Example 6.2.6. Define a relation  $L$  on  $\mathbb{R}$  by setting
 
 $$
-(x, y) \in L \Longleftrightarrow x <   y
+(x, y) \in L \Longleftrightarrow x < y
 $$
 
-Then  $(-1,\pi)\in L$  and  $(0,100)\in L$  but  $(2,2)\notin L$  and  $(\pi , - 1)\notin L$
+Then  $(-1,\pi)\in L$  and  $(0,100)\in L$  but  $(2,2)\notin L$  and  $(\pi,-1)\notin L$
 
 Notice that these are ordered pairs (which we may forget about since  $A = B = \mathbb{R}$ ) so the order of the elements matters. Indeed, knowing that  $(x,y) \in L$  doesn't necessarily imply that  $(y,x) \in L$ , in general. In this example, that implication is always False, in fact!
 
 Recall that we sometimes write  $xLy$  to say  $(x,y)\in L$ , so let us note that we could say  $-1R\pi$  but  $\pi \mathcal{R}$ -1 here, and  $2\mathcal{R}2$ .
 
-# The Empty Relation
+## The Empty Relation
 
 Remark 6.2.7. The examples we have seen thus far are interesting relations, in some sense. Given any  $x, y \in \mathbb{R}$ , we can determine whether  $x < y$  or not by just comparing them and deciding whether that property holds. That is, each of the examples we have seen thus far were defined by saying  $(a, b) \in R \Longleftrightarrow P(a, b)$  is true for some property  $P(a, b)$ .
 
 A relation doesn't necessarily need to be defined this way, though. For instance, we know  $\varnothing \subseteq S$  for any set  $S$ . Thus, given two sets, we can always define the trivial relation by using the fact that  $\varnothing \subseteq A \times B$ ; that is, the trivial relation is the one where no elements are related! This is relatively "uninteresting" for sure, but it still satisfies the definition of a relation, so we allow it.
 
-# Any Set of Ordered Pairs is a Relation
+## Any Set of Ordered Pairs is a Relation
 
 Remark 6.2.8. Given sets  $A, B$ , any subset  $R \subseteq A \times B$  defines a relation. It might be difficult (or impossible, perhaps) to identify a property that characterizes that relation.
 
@@ -153,11 +143,11 @@ $$
 
 Why is 1 related to  $\star$ ? Why is 3 not related to anything? Who knows? It's just a set of ordered pairs! This is, mathematically speaking, totally fine.
 
-# The Equality Relation
+## The Equality Relation
 
 Example 6.2.9. Another example of a way to define a relation on any set  $X$  is to define the equality relation. That is, let  $(x, y) \in R \Longleftrightarrow x = y$ . Notice that this doesn't depend on what  $X$  is or what types of objects it contains as elements, merely that it is a set.
 
-# Similarities Between Relations
+## Similarities Between Relations
 
 Example 6.2.10. Let  $S$  be the set of students in your class. Define a relation  $R_{1}$  between  $S$  and  $\mathbb{N}$  by saying  $(s, n) \in R_{1}$  if person  $s \in S$  is  $n$  years old. Write out a few elements of this relation set.
 
@@ -165,7 +155,7 @@ Now, define a relation  $R_{2}$  on  $S$  itself by saying  $(s,t)\in S$  if per
 
 How do the relations  $R_{1}$  and  $R_{2}$  compare? Do they somehow "encode" the same information about the elements of the set  $S$ ? Why or why not? Is there a way we can use  $R_{1}$  to determine  $R_{2}$ ? What about the other way around? Think about this carefully and try to write a few sentences that summarize your thoughts about this. We will address these questions immediately in the next subsection, but take some time now to investigate on your own!
 
-# Relations "Encode" Information
+## Relations "Encode" Information
 
 The previous example is meant to illustrate the real use of abstract relations and motivate why we even talk about them at all (besides our overarching goal of rigorizing the notion of a function). In some sense, a relation is a way of "storing" information about elements of two sets, or one set; it's a way of comparing two elements and declaring whether or not they satisfy some property. In a more general sense, though, a relation can provide information about how "well" a set's (or sets') elements behave in terms of a specific property.
 
@@ -179,7 +169,7 @@ But we're getting slightly ahead of ourselves here! We can't yet describe to you
 
 Let's start right off by defining a few properties. For each of these properties, every relation either does or does not satisfy it. We encourage you to read each property one by one and try to construct a relation that does satisfy the property, and then one that doesn't. This will help you truly understand the underlying principles of the property and how relations work. (Then, try to define some relations that have some combination of the properties!) After these definitions, we will provide some canonical examples that you might have even come up with yourself! But seriously, do try to come up with some on your own and share any interesting ones that you have!
 
-# Definitions: Properties of a Relation on a Set
+## Definitions: Properties of a Relation on a Set
 
 These properties rely on being able to reverse the order of a pair. That is, given  $(x,y)\in R$ , we might wonder about the pair  $(y,x)$ ; however, the relationship between the domain and codomain demands that  $(y,x)\in A\times B$ , as well. Thus, we will require  $A\times B = B\times A$ , which only happens when  $A = \emptyset$  or  $B = \emptyset$  or  $A = B$ . (Remember we proved this earlier when talking about sets in Chapter 3!) Since  $A = \emptyset$  and  $B = \emptyset$  are uninteresting cases, we will assume in these properties that  $A = B$  (and  $A\neq \emptyset$ ), so we are defining a relation on one non-empty set and comparing its elements with each other.
 
@@ -306,7 +296,7 @@ What about anti-symmetry here? It depends! Are there two different people in you
 
 When we are presented with a set and a relation on that set, we will immediately wonder whether any of these properties hold. By playing around with some particular elements of the set in question, we can try to conjecture whether or not the relation satisfies a property, and then attempt to prove/disprove it. This sometimes amounts to a bit of "guessing and checking" but, ultimately, to prove a property holds, we must prove a statement of the form "For all … it is true that …" (Look back at our proof techniques from Section 4.9!) Thus, proving a relations property amounts to taking an arbitrary element (or elements) and arguing about how they are related. To disprove such a statement, we would prove its logical negation, which is of the form "There exists … such that …" (Again, look back at our proof techniques!) Thus, disproving a property amounts to finding a counterexample. Let's look at a couple of examples of proving/disproving relation properties. There are several more examples of these styles of proofs in the exercises, as well.
 
-# The "Divides" Relation on  $\mathbb{Z}$
+## The "Divides" Relation on  $\mathbb{Z}$
 
 We will present (or, perhaps, remind you of) one definition first, because it will be the basis of one of our examples. This is a formal definition of what it means for one integer to divide another integer.
 
@@ -394,7 +384,7 @@ However, certainly  $x \neq y$ . This shows that  $R$  is not anti-symmetric.
 
 As a follow-up question, consider what happens when we define this relation on the set  $\mathbb{N}$  instead of  $\mathbb{Z}$ . What changes? Which properties hold now? Are any answers different than with  $\mathbb{Z}$ ? Do think about this. The answers to those questions will motivate our next subsection.
 
-# Constructing a Relation with Specific Properties
+## Constructing a Relation with Specific Properties
 
 One more example before we move on. An interesting "game" to play is to take a set and construct a relation  $R$  that satisfies some specific subset of the four properties. (Note: there are 16 different ways that the 4 properties can/cannot hold.) We will ask you questions like this in the exercises, so let's work through one example here.
 
@@ -427,7 +417,7 @@ We will point out that, in general, a relation of this form—one defined as  $(
 
 # 6.2.5 Questions & Exercises
 
-# Remind Yourself
+## Remind Yourself
 
 Answering the following questions briefly, either out loud or in writing. These are all based on the section you just read, so if you can't recall a specific definition or concept or example, go back and reread that part. Making sure you can confidently answer these before moving on will help your understanding and memory!
 
@@ -441,7 +431,7 @@ Answering the following questions briefly, either out loud or in writing. These 
 
 Give an example of a set and a relation on that set which is both symmetric and anti-symmetric.
 
-# Try It
+## Try It
 
 Try answering the following short-answer questions. They require you to actually write something down, or describe something out loud (to a friend/classmate, perhaps). The goal is to get you to practice working with new concepts, definitions, and notation. They are meant to be easy, though; making sure you can work through them will help you!
 
@@ -517,7 +507,7 @@ Since  $R$  is transitive, and  $(x,y) \in R$  and  $(y,x) \in R$ , we deduce th
 
 Since  $x$  was arbitrary, we have shown that the reflexive property holds.
 
-# 6.3 [Optional Reading] Order Relations
+## 6.3 [Optional Reading] Order Relations
 
 Let us discuss some relations that behave like " $\leq$ " and have similar inherent properties. This is motivated by the fact that these relations are easily definable on the standard sets of numbers we have— $\mathbb{N}$ ,  $\mathbb{Z}$ ,  $\mathbb{Q}$ ,  $\mathbb{R}$ —and they also apply to some other, potentially surprising, situations. We will give a definition first and then consider some examples. We will then use those examples to motivate some interesting properties of order relations and then state and prove those facts.
 
@@ -669,32 +659,32 @@ Think about what the chains are under this relation. Try to describe them geomet
 
 Example 6.3.10. Let  $A$  be the standard English alphabet of 26 letters, and let  $W$  be the set of all finite strings of letters from  $A$ . That is,  $W$  is the set of all possible "words", where we allow any combination of letters to be included in our "dictionary". Let's try to define  $L$ , the standard lexicographic ordering on
 
-$W$ . It helps to represent  $A$  as the set [26], where  $\mathrm{a} = 1$  and  $\mathrm{b} = 2$  and so on, until  $\mathrm{z} = 26$ . Then, we say a word  $w \in W$  is represented by
+ $W$ . It helps to represent  $A$  as the set [26], where  $\mathrm{a} = 1$  and  $\mathrm{b} = 2$  and so on, until  $\mathrm{z} = 26$ . Then, we say a word  $w \in W$  is represented by
 
 $$
-w = \left(w_{1}, w_{2}, \dots , w_{n}\right) \quad \text{wh er e} n \in \mathbb {N} \text{an d} \forall i \in [ n ]. w_{i} \in A
+w = \left(w_{1}, w_{2}, \dots , w_{n}\right) \quad \text{where} n \in \mathbb {N} \text{and} \forall i \in [ n ]. w_{i} \in A
 $$
 
 Notice that for any two words  $v, w \in W$ , we can compare them "letter by letter" reading left to right until we reach a difference between them. Wherever that difference occurs, we sort the two words according to the comparison of those two letters. If one word is longer than the other and they have the same letters otherwise, we want to sort the longer one after the shorter one, just like "there" comes before "therefore" in the dictionary.
 
 $$
-\begin{array}{c} (v, w) \in L \Longleftrightarrow \text{at th es ma ll es ti nd ex} i \text{wh er e} v_{i} \neq w_{i}, \text{we ha ve} v_{i} <   w_{i} \\ \text{(an dw he re ab la nk sp ac ei st ra te da s2 7)} \end{array}
+\begin{array}{c} (v, w) \in L \Longleftrightarrow \text{at the smallest index} i \text{where} v_{i} \neq w_{i}, \text{we have} v_{i} <   w_{i} \\ \text{(and where a blank space is treated as 27)} \end{array}
 $$
 
 Think about why this corresponds to the usual ordering of words in the dictionary. (Could you define this using more rigorous mathematical notation? Try it!)
 
 Now that we've looked at several examples of order relations, we recommend you try several of the exercises to practice identifying these relations and proving their properties. After that, we can move on to talk about many other interesting and useful properties of order relations!
 
-# 6.3.1 Questions & Exercises
+### 6.3.1 Questions & Exercises
 
-# Remind Yourself
+## Remind Yourself
 
 Answering the following questions briefly, either out loud or in writing. These are all based on the section you just read, so if you can't recall a specific definition or concept or example, go back and reread that part. Making sure you can confidently answer these before moving on will help your understanding and memory!
 
 (1) What is the difference between a partial order and a total order?  
 (2) Give an example of a partial order that is not total. Give an example of a total order.
 
-# Try It
+## Try It
 
 Try answering the following short-answer questions. They require you to actually write something down, or describe something out loud (to a friend/classmate, perhaps). The goal is to get you to practice working with new concepts, definitions, and notation. They are meant to be easy, though; making sure you can work through them will help you!
 
@@ -702,9 +692,9 @@ Try answering the following short-answer questions. They require you to actually
 
 (2) Let  $S = [3]$ ,  $T = [2]$ , and define  $R \subseteq S \times T$  by  $(x, y) \in R \Longleftrightarrow x \supseteq y$ . Prove/disprove each of the four standard properties of relations for  $R$  (i.e. reflexive, symmetric, transitive, anti-symmetric.) Use your results to determine whether  $R$  is any kind of order relation(s).
 
-# 6.4 Equivalence Relations
+## 6.4 Equivalence Relations
 
-# 6.4.1 Definition and Examples
+### 6.4.1 Definition and Examples
 
 Let's shift gears only slightly and talk about another type of relation that satisfies a different subset of the four standard properties of relations. In fact, let's return to a particular relation we mentioned in a previous example: on the set  $\mathbb{R}$ , define  $R$  to be the relation where
 
@@ -756,7 +746,7 @@ Third, let's assume  $(x,y) \in R$  and  $(y,z) \in R$ . This means  $x$  and  $
 
 We do recommend this method for identifying whether or not a given relation is an equivalence or order relation. Just go through each of the relevant properties—reflexivity, symmetry, transitivity, whatever else you might consider—and try to prove them. If you succeed, that's it! If you struggle to prove one of them, use your efforts to identify the problem and see why the property fails. Use this to construct a counterexample for that property.
 
-# Motivation
+## Motivation
 
 Think about that first example again that we mentioned in this section, where  $xRy \Longleftrightarrow \lfloor x\rfloor = \lfloor y\rfloor$ . Notice that each real number is related to an integer, specifically the integer we get by rounding down. For instance, 1.5 R1 and π R3 and -1.5 R-2. Furthermore, any two real numbers that are related to the same integer are related to each other. For instance, 3.5 R3 and π R3, and 3.5 Rπ. Because of these observations, we claim that we can "package" all of the real numbers that satisfy  $0 \leq x < 1$  into one "cluster" and represent them by a single element of that cluster, say 0. Likewise, we can take all of the real numbers that satisfy  $1 \leq x < 2$  and package them into one "cluster" represented by 1. And so on. We didn't have to choose 0 and 1 as the representative elements. We could very well have chosen  $\frac{1}{2}$  and  $\frac{3}{2}$  instead, for example. But the point is that those "clusters" of real numbers are all related to each other within the same cluster, and we can represent each of those clusters by one representative element.
 
@@ -778,7 +768,7 @@ Essentially, do some exploring! It will really help to solidify your understandi
 
 # 6.4.2 Equivalence Classes
 
-# Definition
+## Definition
 
 Let's say we have an equivalence relation  $R$  on a set  $A$ . The reason we make the following definition was hinted at in the previous paragraphs. The three properties—reflexivity, symmetry, and transitivity—combine to create a canonical partition of a set  $A$ . Any elements that are related to each other form a kind of "closed club" or "cluster", and this allows us to refer to any one element of the "club" as a representative, instead of all of them. These "clubs" are called equivalence classes, and this idea is explored in the following definition.
 
@@ -788,7 +778,7 @@ $$
 [ x ]_{R} = \{y \in A \mid (x, y) \in R \}
 $$
 
-# Motivation and Examples
+### Motivation and Examples
 
 The idea behind this definition is that equivalence classes allow us to partition the set  $A$  into some canonical sets based on the relation  $R$ . Look back at Definition 3.6.9 in Chapter 3 to see how we defined a partition of a set. (In fact, look at Definition 4.5.11, as well, to see how we restated that definition using logical symbols.) For now, just remember that a partition is a non-empty collection of sets that are pairwise disjoint and whose union is the entire set in question.
 
@@ -834,7 +824,7 @@ because the two sets are equal; they contain the same elements, because any real
 
 Play around with this example some more and try to convince yourself that this partitioning property really works here. In the next part, we will formally prove this fact in its full generality, with your help! Because it will be a somewhat abstract discussion, we encourage you to get your hands dirty working with actual examples like this one. Try to define an equivalence relation on another set. What are its equivalence classes? Do you see why they form a partition?
 
-# Equivalence Classes Partition the Set
+## Equivalence Classes Partition the Set
 
 Now that we've explored the idea that equivalence classes partition a set, let's formalize this idea. We'll need to make a definition, then we can prove a theorem! The theorem will be, essentially, an "if and only if" style theorem, and we will prove one direction, leaving the other for you as an exercise.
 
@@ -918,7 +908,7 @@ We will guide you through a proof of this result in Exercise 6.7.13 at the end o
 
 an intuitive understanding of why this theorem is true, but working through the details of the proof will give you a solid understanding of the mathematical rigor behind that.
 
-# A Partition Yields an Equivalence Relation
+## A Partition Yields an Equivalence Relation
 
 Now, let's move on and look at a similar and important result that is a converse for the previous theorem. To warm up to it, we will first look at one example that will also give us a sketch of the theorem's proof.
 
@@ -990,7 +980,7 @@ Likewise, any set  $S_i \neq \emptyset$ , so  $\exists x \in S_i$ , and thus the
 
 This shows that any partition corresponds nicely to an equivalence relation, and its classes!
 
-# 6.4.3 More Examples
+## 6.4.3 More Examples
 
 Now that we have these two theorems in hand, let's work with some examples of relations. For each, we'll try to figure out whether it is an equivalence relation or not. If it is, we can describe its equivalence classes. If it's not, we can try to invoke one of the theorems and see why it isn't.
 
@@ -1070,7 +1060,7 @@ This is only an intuitive explanation and not rigorous, mathematically speaking,
 
 # 6.4.4 Questions & Exercises
 
-# Remind Yourself
+## Remind Yourself
 
 Answering the following questions briefly, either out loud or in writing. These are all based on the section you just read, so if you can't recall a specific definition or concept or example, go back and reread that part. Making sure you can confidently answer these before moving on will help your understanding and memory!
 
@@ -1078,7 +1068,7 @@ Answering the following questions briefly, either out loud or in writing. These 
 (2) What is an equivalence class? What must be true about all of the elements in one equivalence class?  
 (3) Given a set  $S$  and an equivalence relation  $R$  on  $S$ , what must be true about the set of equivalence classes?
 
-# Try It
+## Try It
 
 Try answering the following short-answer questions. They require you to actually write something down, or describe something out loud (to a friend/classmate, perhaps). The goal is to get you to practice working with new concepts, definitions, and notation. They are meant to be easy, though; making sure you can work through them will help you!
 
@@ -1130,7 +1120,7 @@ A natural and common equivalence relation that you may have already seen and wor
 
 # 6.5.1 Definition and Examples
 
-# Divisibility
+## Divisibility
 
 We'll start with a definition that we have seen a few times already.
 
@@ -1166,7 +1156,7 @@ $$
 
 The main point here is that there exists such a way to find this remainder, and that it is unique. With that result in hand, let's use it to define some relations on  $\mathbb{Z}$ . We will go on to show that these are all equivalence relations and, more specifically, see how useful their equivalence classes are!
 
-# Congruence modulo  $n$
+## Congruence modulo $n$
 
 Definition 6.5.4. Let  $n \in \mathbb{N}$ . We define a relation  $R_{n}$  on  $\mathbb{Z}$  by saying  $(a, b) \in R_{n}$  if and only if  $a$  and  $b$  have the same remainder upon division by  $n$ .
 
@@ -1235,7 +1225,7 @@ $$
 - 3 \equiv 1 7 \equiv - 3 3 \equiv 1 0 7 \mod 1 0
 $$
 
-# Notation
+## Notation
 
 One important comment about notation: in mathematics, mod is a relation, not an operator or function. In computer science and programming, you might see something like "5 mod 3 = 2" to say that "the remainder when we divide
 
@@ -1249,7 +1239,7 @@ which says all of those numbers and expressions are equivalent when considered m
 
 (Question: Can you find  $x, y, z, w \in \mathbb{Z}$  that make the line above True?)
 
-# Three Important Lemmas
+## Three Important Lemmas
 
 Here, we will ask you to prove two important results; namely, you will prove that congruence modulo  $n$  can be thought of equivalently in terms of divisibility, and that these relations are equivalence relations. Work through these corresponding exercises now, while you are reading this section. The following section—where we talk about the equivalence classes under these relations—will make much more sense to you if you have already worked through these details. After these two proofs, we will present one more result and prove it for you. The last example we see before talking about equivalence classes will be an interesting arithmetic problem that is easily solvable using congruences, but not exactly easy if you want to do it "by hand", so to speak.
 
@@ -1313,13 +1303,13 @@ There are more subtle details to this "division" issue, too, and we will have oc
 
 In the meantime, to make sure we are only talking about integers, we will stick to addition and multiplication only.
 
-# Two Examples of Usefulness
+## Two Examples of Usefulness
 
 We're not sure yet whether we've convinced you that any of this modular arithmetic is even useful or helpful. To make sure we've established that these notions of congruence as an equivalence relation are both mathematically interesting and applicable, we are going to consider here two interesting and useful examples. The first is just a simply stated problem that is vastly easier to solve using modular arithmetic than "standard" arithmetic. The second is a handy trick that we're sure you've used before, but you might have never considered how or why it works. We'll prove it!
 
 Example 6.5.12. Consider the following problem:
 
-# Questions:
+## Questions:
 
 Does there exist a natural number  $k$  such that  $5^k$  is 1 more than a multiple of 7?
 
@@ -1419,13 +1409,13 @@ You proved (see Lemma 6.5.9) that congruence modulo  $n$  is, indeed, an equival
 
 Let's start with two simpler questions: (1) How many equivalence classes are there of  $\mathbb{Z}$  modulo  $n$ ? (2) How "big" are the equivalence classes?
 
-# How many equivalence classes?
+## How many equivalence classes?
 
 To answer question (1), we just have to remember how we defined remainders upon division by  $n$ . The Division Algorithm (see Lemma 6.5.2) required a remainder  $r$  to satisfy  $0 \leq r \leq n - 1$ , when we divide some other number by  $n$ . This indicates that there are at most  $n$  possibilities for what a remainder could be: either 0 or 1 or 2 or … or  $n - 1$ . (That is,  $r \in [n - 1] \cup \{0\}$ .) Are we sure that there exist numbers whose remainders are these possibilities? Sure, we can just use those numbers themselves! Certainly  $n - 1$  has remainder  $n - 1$  when we divide it by  $n$  (since  $n - 1 < n$ ). Together, these observations tell us there are exactly  $n$  equivalence classes of  $\mathbb{Z}$  modulo  $n$ .
 
 We can also identify some natural choices for representatives of these equivalence classes via these same observations! Since  $a \equiv b \mod n$  means that  $a$  and  $b$  have the same remainder upon division by  $n$ , why don't we just declare that those two numbers belong to the equivalence class represented by that remainder, whatever it is. That remainder  $r$  must satisfy  $0 \leq r \leq n - 1$ , and we will write  $a, b \in [r]_{\mathrm{mod} n}$  to indicate that  $a$  and  $b$  belong to that equivalence class represented by the remainder  $r$  (with the subscript "mod  $n$ ", as well, to indicate the remainder comes from division by  $n$ ).
 
-# How big are the classes?
+## How big are the classes?
 
 Let's think of this by using a particular value, say  $n = 4$ . What does it mean for an integer  $z \in \mathbb{Z}$  to belong to the equivalence class corresponding to 0? That is, if we know  $z \in [0]_{\mathrm{mod} 4}$ , what can we say about  $z$ ?
 
@@ -1441,13 +1431,13 @@ Notice that we resorted to "… notation at first to show you the pattern we not
 
 This is also an infinite set. We will let you play around with other remainders (upon division by 4, as well as for general  $n$ ), to let you discover that these sets are all infinite. (Also, we have not provided a proper, formal definition of what it means for a set to be infinite yet, but we are relying on our collective intuition for what this means. If you're looking for a good way to think about it, try this: this set is infinite because we can start to list all its elements, and identify a pattern that we are sure will generate all its elements, but this process will not end in a finite amount of time.)
 
-# The Partition of  $\mathbb{Z}$  modulo  $n$
+## The Partition of $\mathbb{Z}$ modulo $n$
 
 Let's take these observations we've made about the equivalence classes and use them to make a summary about a canonical (i.e. standard/natural/convenient) representation of the equivalence classes of  $\mathbb{Z}$  modulo  $n$ . We know there are  $n$  equivalence classes, each of them infinitely big. We know that each class corresponds to exactly one of the remainders you might get when dividing an integer by  $n$ . Since that remainder must satisfy  $0 \leq r \leq n - 1$ , we will use the set  $\{0,1,2,\ldots,n - 1\} = [n - 1] \cup \{0\}$  as the set of canonical representatives.
 
 The equivalence class corresponding to remainder  $r$  will collect together all the integers which yield that remainder when divided by  $n$ . Said another way, all of the elements  $z \in [r]_{\mathrm{mod}~n}$  must be exactly  $r$  more than some multiple of  $n$ . This means we can generate all the elements of the equivalence class by starting with  $r$  and adding/subtracting  $n$  over and over and over. (Think about it, and you'll realize this means that any two elements of the same equivalence class differ by a multiple of  $n$ .)
 
-# The equivalence classes of  $\mathbb{Z}$  modulo  $n$ :
+## The equivalence classes of $\mathbb{Z}$ modulo $n$:
 
 Given  $n\in \mathbb{N}$ , there are exactly  $n$  equivalence classes:
 
@@ -1519,7 +1509,7 @@ $$
 \begin{array}{l} [ 3 ]_{\mathrm{mo d} 4} = \{z \in \mathbb {Z} \mid \exists k \in \mathbb {Z}. z = 4 k + 3 \} = \{\text{mu lt ip le so f} 4, \text{pl us} 3 \} \\ = \{\dots , - 9, - 5, - 1, 3, 7, 1 1, 1 5, \dots \} \\ \end{array}
 $$
 
-# Using the Equivalence Classes
+## Using the Equivalence Classes
 
 Why is this helpful? Why have we bothered to take you through this development of the set of integers modulo a particular equivalence relation?
 
@@ -1547,7 +1537,7 @@ We can examine each case separately. Supposing  $n$  belongs to a particular equ
 
 In each case, we find that  $n^3 + 5n$  is a multiple of 6 (since it has a remainder of 0 when divided by 6). This tells us that  $6 \mid n^3 + 5n$ , no matter what  $n$  is. This proves the claim holds for all  $n \in \mathbb{N}$ , without using any inductive argument!
 
-# Example 6.5.15. Quadratic Residues:
+## Example 6.5.15. Quadratic Residues:
 
 In this example, we will investigate perfect squares. Specifically, we will look at what remainders perfect squares yield when divided by various numbers. This example will be interesting because you will notice some different patterns appear, depending on what number we are dividing by, and you might be tempted to go off and explore these patterns on your own. (If so, wonderful!) But this example will also be helpful in that some of our investigations will lead us to other results, proven in this text and in the exercises. Particularly, these investigations of perfect squares can be helpful when exploring Pythagorean Triples; these are triplets of integers  $(a,b,c) \in \mathbb{N}^3$  that satisfy  $a^2 + b^2 = c^2$ . Knowing information about perfect squares can help us prove some interesting facts about these triples!
 
@@ -1749,7 +1739,7 @@ You will have to look up some definitions to read even the first two paragraphs.
 
 We mentioned before—when we proved the MAL, Lemma 6.5.10—that we weren't going to talk about "division" in the context of  $\mathbb{Z}$  modulo  $n$ . In this section, we will revisit that idea and explain why (and how) there are some "nice" situations in which "division" makes sense. However, we want to stress that we are actually appealing to a more general idea of multiplicative inverses, and that we should not actually be thinking of this in terms of "division". We will explain this first with a couple of motivating examples, and then we will state and prove a result about exactly what these "nice" situations are.
 
-# The General Concept
+## The General Concept
 
 Given a particular mathematical objects, its multiplicative inverse is another object such that when we "multiply" the two objects together, we get "1". We are using scare quotes here because the notions of "multiply" and "1" depend greatly on the context!
 
@@ -1775,7 +1765,7 @@ in our current context.
 
 These two examples are meant to show you that the idea of an inverse is a general idea, and is not tied to any standard context of dividing numbers. In fact, we will see another example of this idea later on, when we talk about the inverse of a function. (In that context, "multiplication" is the composition of functions, and "1" is the identity function. You'll see what we mean later on in the next chapter, but we wanted to point this out now, in case you are already familiar with these concepts.)
 
-# Relatively Prime Integers
+## Relatively Prime Integers
 
 You might be familiar with the following definition. We will use it in the forthcoming result that declares when multiplicative inverses exist (in the context of  $\mathbb{Z}$  modulo  $n$ ), so we want to reiterate it for you now and show you some examples.
 
@@ -1805,7 +1795,7 @@ Since  $p \nmid a$ , then none of the prime factors of  $a$  are  $p$ . Since  $
 
 This is convenient! In particular, we now know that whenever  $p$  is a prime, all of the numbers  $1, 2, 3, \ldots, p - 1$  are relatively prime to  $p$ .
 
-# Definition and Examples
+## Definition and Examples
 
 Let's talk about what multiplicative inverse means in the context of  $\mathbb{Z}$  modulo  $n$ . Here, "multiply" means the usual multiplication, but everything is reduced modulo  $n$ . Also, "1" really means the equivalence class corresponding to 1. In this sense, we will say that for any  $x \in \mathbb{Z}$ , its multiplicative inverse—written as  $x^{-1}$ —is equal to  $y$  if and only if  $xy \equiv 1 \mod n$ . That is,
 
@@ -1899,7 +1889,7 @@ $$
 
 We will also leave it to you to verify that, for example, 6 has no multiplicative inverse modulo 15.
 
-# When Do Multiplicative Inverses Exist?
+## When Do Multiplicative Inverses Exist?
 
 Now that we've played around with a few examples, we should settle down and characterize all of the situations wherein multiplicative inverses exist. The following lemma does exactly this.
 
@@ -2107,7 +2097,7 @@ Wow! There was a lot going on in that proof. Make sure you read through it a few
 
 Let's take this result we now have—knowing precisely when a multiplicative inverse exists—and use it to solve some problems!
 
-# Using Multiplicative Inverses
+## Using Multiplicative Inverses
 
 How is this useful? You might consider this answer to be a little cheeky, but it is certainly valid: multiplicative inverses are useful in solving congruences using modular arithmetic. Now, that might seem like we developed some mathematical tools to solve the very problems they arose from, but that's not quite the case. In fact, as you will see from the forthcoming examples, in trying to solve these problems, you would likely have to innovate the very techniques we will apply. That is to say, you could try to solve these problems without having studied multiplicative inverses before, but in doing so and considering more general problems, you would wind up rediscovering the results we have worked through with you!
 
@@ -2163,7 +2153,7 @@ $$
 S = \{(x, y) \in \mathbb {Z} \times \mathbb {Z} \mid \exists k \in \mathbb {Z}. (x, y) = (7 k + 6, 3 k + 1) \}
 $$
 
-# Interesting Fact:
+## Interesting Fact:
 
 In this example, we solved a Linear Diophantine Equation and established all of its solutions. By linear, we mean that the variables  $x$  and  $y$  are both only raised to the first power. There are no squares or cubes or what have you.
 
@@ -2201,7 +2191,7 @@ $$
 
 However, look back at Example 6.5.15 where we examined quadratic residues. We saw that the set of quadratic residues modulo 5 is  $\{0,1,4\}$ . That is, it is not possible to have an integer  $x$  satisfy  $x^2 \equiv 2 \mod 5$ . This means no integral solutions exist to the given equation.
 
-# Interesting Fact:
+## Interesting Fact:
 
 We stated above that we know exactly when Linear Diophantine Equations are solvable, and how to solve them. Unfortunately, we are not so lucky regarding these Quadratic Diophantine Equations. It's quite difficult to look at one and determine whether it is solvable or not. Even then, knowing it is solvable, it is quite difficult to actually solve it, too!
 
@@ -2209,7 +2199,7 @@ In fact, we are extremely unlucky with these Quadratic Diophantine Equations. It
 
 Rest assured, the Diophantine Equations we will give you here in the examples and the exercises will be ones you can analyze with the techniques we've provided. This fact we mentioned here is a broader statement about the class of all such equations, in generality.
 
-# A Little Bit of Group Theory
+## A Little Bit of Group Theory
 
 In this small section, we want to just point out that there are some powerful and profound principles of mathematics underlying the current topic. Alas, we don't have the time and space required to devote ourselves to developing these topics fully. In lieu of doing so, we will state a few ideas and facts here and illustrate them with examples.
 
@@ -2283,7 +2273,7 @@ If you are interested in exploring these ideas further, we have included some ex
 
 In this section, we will explore some theorems in number theory that appeal to modular arithmetic and are useful and interesting in their own rights. We will state and prove the theorems (sometimes, with your help via some exercises!) and then demonstrate their usefulness with examples.
 
-# Chinese Remainder Theorem
+## Chinese Remainder Theorem
 
 To motivate this theorem, we will first describe its usefulness by a story:
 
@@ -2491,7 +2481,7 @@ One proof of the Chinese Remainder Theorem follows the method we used to solve t
 
 Another proof is constructive. That is, it takes the information in the theorem statement and combines it to define a number  $X$  that is a solution (and proves this, of course). This proof is outlined in Exercise 6.7.27. We like this proof because it is, indeed, constructive; rather than proving an existence result by arguing for why a certain object exists, it actually produces it for you. However, the solution it constructs is not the same solution you would find by performing the "cross out bad candidates" or "combine congruences" methods. It's actually a somewhat "unnatural" method to use, but it does indeed work without having to do any inductive process. For the sake of comparison, we encourage you to work through both proofs of this theorem. However, if we had to recommend only one, we would suggest the induction proof.
 
-# Bezout's Identity
+## Bezout's Identity
 
 This theorem hearkens back to our discussion of Linear Diophantine Equations. In Example 6.5.26, we solved a particular such equation, by prudently applying multiplicative inverses. In addition to showing you that method, we pointed out that there is a simple way of verifying whether such an equation even has a solution. This theorem characterizes precisely when a linear diophantine equation of two variables has a solution. It is known as Bézout's Identity, named after the 18th-century French mathematician Étienne Bézout.
 
@@ -2629,7 +2619,7 @@ Try to state and prove a result about this. Can you generalize it to any number 
 
 # 6.5.5 Questions & Exercises
 
-# Remind Yourself
+## Remind Yourself
 
 Answering the following questions briefly, either out loud or in writing. These are all based on the section you just read, so if you can't recall a specific definition or concept or example, go back and reread that part. Making sure you can confidently answer these before moving on will help your understanding and memory!
 
@@ -2647,7 +2637,7 @@ $$
 
 Can you identify a solution to the system? (Hint: Yes, you can!)
 
-# Try It
+## Try It
 
 Try answering the following short-answer questions. They require you to actually write something down, or describe something out loud (to a friend/classmate, perhaps). The goal is to get you to practice working with new concepts, definitions, and notation. They are meant to be easy, though; making sure you can work through them will help you!
 

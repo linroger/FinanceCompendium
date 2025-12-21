@@ -1,33 +1,30 @@
 ---
+title: "Chapter 5: Increasing Returns and the Gravity Equation"
+parent_directory: "Economics Advance International Trade"
+formatted: "2025-12-21 10:15:00 AM"
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- country derived market clearing
-- trade models allowing increasing
-- assumptions countries producing different
-- empirical exercises canada trade
-- chapter increasing returns gravity
+- increasing returns scale
+- monopolistic competition model
+- gravity equation derivation
+- Canada US free trade
 secondary_tags:
-- fixed effects gravity equation
-- gravity equation monopolistic competition
-- prices obtain explicit solution
-- simple equation bilateral trade
-- gdp terms coefficients constrained
-- equation assumption free trade
-- gdp country share theorem
-- idea increasing returns reason
-- explaining growth trade oecd
-- trade complex gravity
-- market effect make assumptions
-- competition model country exporting
-tags_extracted: '2025-12-18T00:14:39.142657'
+- Krugman love variety approach
+- CES utility function
+- selection effect productivity
+- scale effect firms
+- bilateral trade patterns
+- OECD trade dispersion
+- Helpman theorem specialization
+cssclasses: academia
 ---
 
 # Chapter 5: Increasing Returns and the Gravity Equation
 
 In this chapter, we make a significant departure from earlier trade models by allowing for increasing returns to scale. The idea that increasing returns might be a reason for trade between countries was well recognized by Bertil Ohlin (1933) and also Frank Graham (1923), and has been the motivation for policy actions. $^{1}$  In Canada, for example, extensive policy discussions in the 1960s argued that Canadian firms would benefit from unrestricted access to the U.S. market. It was believed that the Canadian market was too small to allow manufacturing industries to operate at a minimum efficient scale, and that with access to the U.S. market, firms could move down their average costs curves, which is a gain in efficiency. $^{2}$  Indeed, this was a principal reason that Canada entered in a free trade agreement with the United States in 1989: to give its firms free access to the large American market. As promising as this line of argument is, however, it contains a puzzle: as firms in Canada and the U.S. move down their average cost curves due to access to the other market, surely not all firms can expand output that much, since who would buy it? Thus, an expansion by some firms seems to suggest that others will need to exit the market entirely. So we need a model to sort out these various effects.
 
-The model that is most suited to this purpose is one of monopolistic competition: a market with a large number of firms, each producing a unique variety of a differentiated product, with freedom of entry and exit. This model dates back to Edward Chamberlin (1936) and Joan Robinson (1933) who presented graphical analyses. The widespread use of this model had to wait for a mathematical formulation, however, which was achieved by Lancaster (1975, 1979),
-
-Spence (1976), and Dixit and Stiglitz (1977). Lancaster presented a model in which consumers differed in their "ideal variety" of a differentiated good. In contrast, Spence and Dixit and Stiglitz had a single representative consumer demanding many varieties of the differentiated good, in what is called the "love of variety" approach. Lancaster (1980) and Helpman (1981) applied the "ideal variety" approach to international trade, while Krugman (1979,1980,1981) applied the "love of variety" approach due to Dixit and Stiglitz. The comprehensive treatment by Helpman and Krugman (1985) shows that these two approaches lead to very similar results, so we will use the simpler "love of variety" approach. We begin by describing the model of Krugman (1979).
+The model that is most suited to this purpose is one of monopolistic competition: a market with a large number of firms, each producing a unique variety of a differentiated product, with freedom of entry and exit. This model dates back to Edward Chamberlin (1936) and Joan Robinson (1933) who presented graphical analyses. The widespread use of this model had to wait for a mathematical formulation, however, which was achieved by Lancaster (1975, 1979), Spence (1976), and Dixit and Stiglitz (1977). Lancaster presented a model in which consumers differed in their "ideal variety" of a differentiated good. In contrast, Spence and Dixit and Stiglitz had a single representative consumer demanding many varieties of the differentiated good, in what is called the "love of variety" approach. Lancaster (1980) and Helpman (1981) applied the "ideal variety" approach to international trade, while Krugman (1979,1980,1981) applied the "love of variety" approach due to Dixit and Stiglitz. The comprehensive treatment by Helpman and Krugman (1985) shows that these two approaches lead to very similar results, so we will use the simpler "love of variety" approach. We begin by describing the model of Krugman (1979).
 
 # Monopolistic Competition Model
 
@@ -141,17 +138,13 @@ $$
 
 So there is no scale effect in a model using (5.10), though trade will still affect the product variety available to consumers. The product variety produced in each country is readily solved from (5.12) and the full-employment condition (5.8), obtaining  $\mathrm{N} = \mathrm{L} / (\alpha + \beta \overline{\mathrm{y}})$ . Thus, the number of varieties produced does not change due to trade in this CES model, so there is no selection effect either, but the number of varieties consumed will increase due to those available from imports.
 
-The key advantage of using the CES functional form is that it is homothetic, whereas this will not hold for any other choice of  $\mathrm{v}(\mathrm{c}_{\mathrm{i}})$  in (5.1). For this reason the CES functional form is commonly used in the monopolistic competition literature, and despite its special properties,
-
-and we shall also make use of it later in the chapter.
+The key advantage of using the CES functional form is that it is homothetic, whereas this will not hold for any other choice of  $\mathrm{v}(\mathrm{c}_{\mathrm{i}})$  in (5.1). For this reason the CES functional form is commonly used in the monopolistic competition literature, and despite its special properties, and we shall also make use of it later in the chapter.
 
 # The Gravity Equation
 
 In the monopolistic competition model, each country will be exporting varieties of the differentiated product to each other. While firms in different countries may produce the same product varieties in autarky, we assume they can costlessly leave one variety and produce another, so that with trade it is profit maximizing to produce different varieties. In other words, the countries are completely specialized in different product varieties. Trade in these product varieties is referred to as "intra-industry trade." Notice that complete specialization and intra-industry trade does not occur in the two-sector Heckscher-Ohlin model: countries may be producing in the same industries, but they either export or import in each industry – not both. In the Heckscher-Ohlin model with a continuum of goods, however, we do have complete specialization in different products when factor prices are unequal, as described in chapter 3. The common feature of the monopolistic competition model and the HO model with a continuum of goods is that they both have many more goods than factors: that is what allows for complete specialization in different product varieties across countries. In this case, it turns out that trade patterns can be described by a remarkably simple equation called the "gravity equation."
 
-In its simplest form, the gravity equation states that the bilateral trade between two countries is directly proportional to the product of the countries GDP's. Thus, larger countries will tend to trade more with each other, and countries that are more similar in their relative sizes will also trade more. This equation performs extremely well empirically, as has been known since the original work of Tinbergen (1962). Our goal in this section is to derive this simple
-
-version of the gravity equation, under the assumption of free trade, so that all countries have identical prices. In later sections, we will loosen this assumption and allow for differing prices due to trade barriers between countries, which turns out to be quite important.
+In its simplest form, the gravity equation states that the bilateral trade between two countries is directly proportional to the product of the countries GDP's. Thus, larger countries will tend to trade more with each other, and countries that are more similar in their relative sizes will also trade more. This equation performs extremely well empirically, as has been known since the original work of Tinbergen (1962). Our goal in this section is to derive this simple version of the gravity equation, under the assumption of free trade, so that all countries have identical prices. In later sections, we will loosen this assumption and allow for differing prices due to trade barriers between countries, which turns out to be quite important.
 
 To the assumption that countries are specialized in different varieties of a final product, let us add that demand is identical and homothetic across countries, and that trade is free (no tariffs or transport costs). Then it follows that a good produced in any country is sent to all other countries in proportion to the purchasing country's GDP. To formalize this, consider a multi-country framework where i,j=1,...,C denotes countries, and k=1,...,N denotes products (any variety of a good counts as a distinct product). Let y<sub>k</sub> denote country i's production of good k. Since prices are the same across all countries, we normalize them to unity, so y<sub>k</sub> actually measures the value of production. The total GDP in each country is measured by Y = ∑k=1N y<sub>k</sub> , and world GDP is Y = ∑i=1C Y.
 

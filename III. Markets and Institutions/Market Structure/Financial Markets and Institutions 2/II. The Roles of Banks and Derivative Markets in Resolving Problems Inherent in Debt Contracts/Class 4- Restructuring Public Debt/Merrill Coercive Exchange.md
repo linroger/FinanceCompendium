@@ -1,24 +1,15 @@
 ---
 title: "Merrill Coercive Exchange"
 parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 4- Restructuring Public Debt
-formatted: 2025-12-21 11:55:00 AM
-formatter_model: claude-sonnet-4-5-20250929
-cli-tool: claude-code
-formatter_agent: obsidian-formatting-agent
+formatted: 2025-12-21 07:00:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
   - coercive exchange offers
-  - high yield bonds
+secondary_tags:
   - debt restructuring
   - exit consent
-secondary_tags:
-  - bondholder coercion
   - holdout problem
-  - distressed debt
-  - bankruptcy alternatives
-  - covenant amendments
-  - advancepcs company update
-  - junk bond markets
-  - investment banking research
 cssclasses: academia
 ---
 

@@ -1,47 +1,39 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: international economics
-linter-yaml-title-alias: international economics
+---
+title: "International Economics"
+parent_directory: "International Economics"
+formatted: "2025-12-21 10:00:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
-- left right underbrace text
-- debt repayment likely volatility
-- imf bailout argentina
-- country witnessed banking crises
-- industry wages reflect
-- argentina net external debt
-- automobile industry china buying
+  - international trade
+  - global economy
+  - trade patterns
+  - migration flows
+  - foreign direct investment
+  - trade barriers
+  - comparative advantage
+  - ricardian model
 secondary_tags:
-- 16 14 text underbrace
-- underbrace left begin array
-- expertise did lenovo acquire
-- external conditions argentina macroeconomic
-- times underbrace left
-- economics trade global
-- array frac leq underbrace
-- left argentina worse debt
-- debt level country defaults
-- handle eurozone financial instability
-- volatility borrowing country output
-- overline underbrace overline overline
-- theta underbrace underbrace theta
-- higher volatility default region
-- workers eligible trade adjustment
-- tag 17 underbrace
-- underbrace substack text trade
-- probability output repayment region
-- region hasn vanished debt
-tags_extracted: '2025-12-18T00:30:51.593634'
+  - trade balance
+  - export import
+  - world trade flows
+  - trade to gdp ratio
+  - tariffs quotas
+  - immigration restrictions
+  - fdi horizontal vertical
+  - trade technology
+  - gains from trade
+  - specific factors model
+cssclasses: academia
+---
 ---
 
 Index I-1
 
 # international economics
 
-# Trade in the Global Economy
+## Trade in the Global Economy
 
 The emergence of China, India, and the former communist-bloc countries implies that the greater part of the earth's population is now engaged, at least potentially, in the global economy. There are no historical antecedents for this development.
 
@@ -55,7 +47,7 @@ In August 2009, the ships Beluga Fraternity and Beluga Foresight made a historic
 
 In this historical milestone, we see that global climate change can have important consequences for international trade, by which we mean the movement of goods (such as cargo) and services (such as the shipping of the cargo) across borders. To move goods from South Korea (or elsewhere in Asia) to Europe would normally involve a trip through the Suez Canal (in the Middle East) at much greater cost. The Northern Sea Route is shorter than the Suez Canal route by about 4,000 nautical miles. If the Northern Sea Route becomes passable for much of the year, then we would expect that the amount of trade from Asia to Europe will increase.
 
-In this book, we will study international trade in goods and services and will learn the economic forces that determine what that trade looks like: what products are traded; who trades them; at what quantities and prices they are traded; and what the
+In this book, we will study international trade in goods and services and will learn the economic forces that determine what that trade looks like: what products are traded; who trades them; at what quantities and prices they are traded; and what the benefits and costs of trade are. We will also learn about the policies that governments use to shape trade patterns among countries.
 
 1 International Trade
 
@@ -67,7 +59,6 @@ In this book, we will study international trade in goods and services and will l
 
 Melting icebergs in Disko Bay, Greenland
 
-$^{\text{©}}$ Frank Krahmer/Corbis benefits and costs of trade are. We will also learn about the policies that governments use to shape trade patterns among countries.
 
 Why should we care about international trade? Many people believe that international trade creates opportunities for countries to grow and thrive. The manufacture of goods exported from China, for example, creates employment for many millions of workers there. The same is true for exports from the United States and European countries. It is not just large countries that potentially benefit from trade; smaller countries, too, are affected. In Greenland, for example, higher temperatures due to global warming have exposed deposits of "rare earth" minerals, such as lanthanum and neodymium, which are used in cell phones and other high-tech devices. Because of international trade, Greenland is expected to benefit from exporting these rare earth minerals to meet global demand. But such benefits can also bring difficult social change and challenges, as the traditional lifestyle of fishing becomes less crucial to Greenland's economy. In this book we will explore both the opportunities and challenges created by international trade for different groups in society.
 
@@ -513,11 +504,11 @@ Where did Shaun White's snowboard come from?
 
 This model explains how the level of a country's technology affects the wages paid to labor, such that countries with better technologies have higher wages. This, in turn, helps to explain how a country's technology affects its trade pattern, the products that it imports and exports.
 
-# 1 Reasons for Trade
+## 1 Reasons for Trade
 
 Besides technology differences across countries, which is the focus of the Ricardian model, there are many other reasons why countries trade goods. Before we get into the details of the Ricardian model, let's briefly explore the other reasons for trade.
 
-# Proximity
+### Proximity
 
 The proximity of countries is a reason for trade primarily because it affects the costs of transportation. Countries that are near one another will usually have lower shipping costs added to the cost of their traded goods. The proximity of countries to one another helps to explain why Canada is among the top exporters of snowboards to the United States and why Canada is the United States' largest trading partner overall. There are many other examples of how the closeness of countries affects trade partners. The largest trading partner of many European countries is another European country, and the largest trading partner of many Asian countries is Japan or China.
 
@@ -587,7 +578,7 @@ In developing the Ricardian model of trade, we will work with an example similar
 
 # The Home Country
 
-To simplify our example, we will ignore the role of land and capital and suppose that both goods are produced with labor alone. In Home, one worker can produce 4 bushels of wheat or 2 yards of cloth. This production can be expressed in terms of the marginal product of labor (MPL) for each good. Recall from your study of microeconomics that the marginal product of labor is the extra output obtained by using one more unit of labor. In Home, one worker produces 4 bushels of wheat, so  $MPL_{W} = 4$ . Alternatively, one worker can produce 2 yards of cloth, so  $MPL_{C} = 2$ .
+To simplify our example, we will ignore the role of land and capital and suppose that both goods are produced with labor alone. In Home, one worker can produce 4 bushels of wheat or 2 yards of cloth. This production can be expressed in terms of the marginal product of labor (MPL) for each good. Recall from your study of microeconomics that the marginal product of labor is the extra output obtained by using one more unit of labor. In Home, one worker produces 4 bushels of wheat, so $MPL_{W} = 4$. Alternatively, one worker can produce 2 yards of cloth, so  $MPL_{C} = 2$ .
 
 Home Production Possibilities Frontier Using the marginal products for producing wheat and cloth, we can graph Home's production possibilities frontier (PPF). Suppose there are  $\overline{L} = 25$  workers in the home country (the bar over the letter  $L$  indicates our assumption that the amount of labor in Home stays constant). If all these workers were employed in wheat, they could produce  $Q_{W} = MPL_{W} \cdot \overline{L} = 4 \cdot 25 = 100$  bushels. Alternatively, if they were all employed in cloth, they could produce  $Q_{C} = MPL_{C} \cdot \overline{L} = 2 \cdot 25 = 50$  yards. The production possibilities frontier is a straight line between these two points at the corners, as shown in Figure 2-1. The straight-line PPF, a special feature of the Ricardian model, follows from the assumption that
 
@@ -606,7 +597,9 @@ the marginal products of labor are constant. That is, regardless of how much whe
 Given this property, the slope of the PPF in Figure 2-1 can be calculated as the ratio of the quantity of cloth produced to the quantity of wheat produced at the corners, as follows:
 
 $$
-\text{Sl op e} = - \frac{5 0}{1 0 0} = - \frac{M P L_{C} \cdot \bar {L}}{M P L_{W} \cdot \bar {L}} = - \frac{M P L_{C}}{M P L_{W}} = - \frac{1}{2}
+
+\text{Slope} = - \frac{50}{100} = - \frac{MPL_C \cdot \overline{L}}{MPL_W \cdot \overline{L}} = - \frac{MPL_C}{MPL_W} = - \frac{1}{2}
+
 $$
 
 Ignoring the minus sign, the slope equals the ratio of marginal products of the two goods. The slope is also the opportunity cost of wheat, the amount of cloth that must be given up to obtain one more unit of wheat. To see this, suppose that  $Q_W$  is increased by 1 bushel. It takes one worker to produce 4 bushels of wheat, so increasing  $Q_W$  by 1 bushel means that one-quarter of a worker's time must be withdrawn from the cloth industry and shifted into wheat production. This shift would reduce cloth output by  $\frac{1}{2}$  yard, the amount of cloth that could have been produced by one-quarter of a worker's time. Thus, yard of cloth is the opportunity cost of obtaining 1 more bushel of wheat and is the slope of the PPF.

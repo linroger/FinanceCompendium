@@ -1,36 +1,54 @@
+---
+title: "Quantitative Models to Value Convertible Bonds"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume I/Bond Valuation"
+formatted: "2025-12-21 09:55:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - convertible bond valuation
+  - analytical pricing models
+  - numerical valuation methods
+  - Ingersoll convertible model
+  - binomial tree pricing
+secondary_tags:
+  - option embedded securities
+  - equity conversion options
+  - credit spread adjustments
+  - conversion probability trees
+  - monte carlo simulation
+  - trinomial tree models
+  - arbitrage opportunities
+  - hedge fund strategies
+cssclasses: academia
+---
 
 # Quantitative Models to Value Convertible Bonds
 
-FILIPPO STEFANINI
-
-Head of Hedge Funds and Manager Selection, Eurizon Capital SGR
-
-Abstract: Convertible bonds are bonds that give their holders the right to periodic coupon payments and, as of a fixed date, the right to convert the bonds into a fixed number of shares. If the bondholder decides to exercise his conversion right, instead of being paid back the par value of the bonds, he will receive a fixed number of shares in exchange. There are several options embedded in a convertible bond. There is obviously a call option on the underlying stock. All convertible bonds are callable. A convertible bond may be putable. The presence of all of these options complicates the valuation of convertible bonds. There are models that practitioners use for valuation purposes. These models are classified as analytical models and numerical models.
+Convertible bonds are bonds that give their holders the right to periodic coupon payments and, as of a fixed date, the right to convert the bonds into a fixed number of shares. If the bondholder decides to exercise his conversion right, instead of being paid back the par value of the bonds, he will receive a fixed number of shares in exchange. There are several options embedded in a convertible bond. There is obviously a call option on the underlying stock. All convertible bonds are callable. A convertible bond may be putable. The presence of all of these options complicates the valuation of convertible bonds. There are models that practitioners use for valuation purposes. These models are classified as analytical models and numerical models.
 
 Convertibles are ideal securities for arbitrage, because the convertible itself, namely the underlying stock and the associated derivatives, are traded along predictable ratios, and any discrepancy or misprice would give rise to arbitrage opportunities for fund managers. Traders use quantitative models to identify convertible bonds whose market value differs from their theoretical price. However, unlike callable bonds or putable bonds that have interest rate-embedded options, a convertible bond also has an embedded equity option. This complicates the quantitative modeling of these securities.
 
 Quantitative models, or valuation models, for convertible bonds are divided into two categories: analytical models and numerical models. In this entry, we describe the more commonly used model in both of these categories.
 
-# ANALYTICAL MODELS
+## ANALYTICAL MODELS
 
 Ingersoll (1977) proposed a valuation model for convertible bonds based on the option theory and on the Black-Scholes option pricing model. The model's main assumptions are:
 
-Markets operate continuously.
+- Markets operate continuously.
 - There are no transaction costs.
 - Share prices follow an Ito diffusion process.
-Securities prices have a lognormal distribution.
+- Securities prices have a lognormal distribution.
 - The underlying stock volatility is constant.
 
 Ingersoll's model assumes that prices vary continuously, that is, there is always liquidity in the market and there are no limits to securities lending and short selling. It also assumes that the company's market value follows an Ito diffusion process, that is, a continuous Brownian motion. Under this assumption, it is possible to set up a closed analytical formula to calculate the value of a convertible bond.
 
-
 The model can be applied only to European convertibles, namely, convertibles that can be exercised only upon expiration. Moreover, the model makes it clear how complex the valuation of convertible bonds is, and it provides a highly interesting theoretical reference, in that it can reach an analytical solution to the valuation of convertibles. Yet, we know all too well that interest rates, credit spreads, currencies, and dividends are not constant, and the clauses and provisions written in the prospectus of a convertible are often highly varied and complicated, making it fairly difficult to apply analytical valuation models. This is why it is necessary to turn to numerical approximation models.
 
-# The Ingersoll Model
+## The Ingersoll Model
 
 As just noted, the Ingersoll model provides an analytic solution for the pricing of a convertible bond, given some general market assumptions. The strongest assumptions are:
 
-Capital markets are perfect with no transaction costs, no taxes, and equal access to information for all investors.
+- Capital markets are perfect with no transaction costs, no taxes, and equal access to information for all investors.
 - Trading takes place continuously in time and there are no restrictions against borrowing or short sales.
 - The market value of the company follows an Ito diffusion process.
 
@@ -89,7 +107,7 @@ Figure 1 Plot of a Convertible Bond Function for Different Firm Values
 To illustrate the model, let's plot the function  $H$  with the following parameters:
 
 $$
-\begin{array}{l} B = 1 0 0 \\ \rho = 0, 0 2 \\ \gamma = 0, 2 \\ \sigma^{2} = 5 \% \\ r = 7 \% \\ \end{array}
+\begin{array}{l} B = 100 \\ \rho = 0.02 \\ \gamma = 0.2 \\ \sigma^{2} = 5\% \\ r = 7\% \\ \end{array}
 $$
 
 $V$  ranges from 0 to 625.
@@ -100,7 +118,7 @@ $$
 V (\tau) = \frac{K (\tau)}{\gamma}
 $$
 
-# NUMERICAL MODELS
+## NUMERICAL MODELS
 
 The most widely used mathematical models among hedge fund managers for the valuation of convertible bonds are numerical methods, among which are the binomial and trinomial trees, the three-dimensional binomial model, implied trees, and the Monte Carlo simulation model.
 
@@ -113,9 +131,35 @@ The trinomial tree model was introduced by Boyle (1986). The share price can mov
 
 The Monte Carlo method, named after the casino of the Principality of Monaco, is a statistical simulation method, according to which data obtained through the generation of random numbers coming from a given statistical distribution is considered empirical and is used to estimate the parameters under consideration. Thousands of random samples are generated, derived from the assumed statistical distribution, which takes as parameters the maximum likelihood estimators using real data, and then these data are used to estimate the parameters under examination.
 
-# The Binomial Tree Model
+## The Binomial Tree Model
 
 Here, we will describe a version of the Cox-Ross-Rubinstein model as modified by Goldman Sachs. The binomial tree model can be used to evaluate convertible bonds with either an embedded European call option or an embedded American call option.
+
+```d2
+direction: right
+
+start: Start Valuation
+
+stock_tree: Build Stock Price Tree {
+  shape: hexagon
+}
+
+conversion_prob: Build Conversion Probability Tree {
+  shape: hexagon
+}
+
+credit_spread: Build Credit-Adjusted Spread Tree {
+  shape: hexagon
+}
+
+bond_value: Build Convertible Bond Value Tree {
+  shape: hexagon
+}
+
+end: Convertible Bond Price
+
+start -> stock_tree -> conversion_prob -> credit_spread -> bond_value -> end
+```
 
 
 To determine the value of the convertible bond, it's necessary to build four different trees in the following order:
@@ -129,10 +173,10 @@ In the first step we build the stock price tree. The binomial tree model allows 
 
 Between a node and the following node, the stock price can move upward or downward. The jump of the stock price depends on the length of the time interval  $\Delta t = T / N$  and on the stock price volatility  $\sigma$ . Therefore
 
-$$ u = e^{\sigma \sqrt{\Delta t}} (\text{up wa rd mo ve})
+$$ u = e^{\sigma \sqrt{\Delta t}} (\text{upward move})
 $$
 
-$$ d = e^{- \sigma \sqrt{\Delta t}} (\text{do wn wa rd mo ve})
+$$ d = e^{- \sigma \sqrt{\Delta t}} (\text{downward move})
 $$
 
 The stock price,  $S$ , at each node is set equal to
@@ -173,7 +217,7 @@ $$ where  $m$  is the conversion ratio.
 For example, let's determine the price of a convertible bond with the binomial tree method, starting with the following data:
 
 $$
-\begin{array}{l} T = 5 \text{ye ar s (ma tu ri ty)} \\ \Delta t = 1 \text{ye ar (st ep)} \\ N = 5 \text{(nu mb er of no de s)} \\ r = 4\% \text{(risk -freerate)} \\ k = 2\% \text{(creditspread)} \\ \end{array}
+\begin{array}{l} T = 5 \text{years (maturity)} \\ \Delta t = 1 \text{year (step)} \\ N = 5 \text{(number of nodes)} \\ r = 4\% \text{(risk-free rate)} \\ k = 2\% \text{(credit spread)} \\ \end{array}
 $$
 
 <table><tr><td colspan="8">Stock Price Tree</td></tr><tr><td></td><td></td><td></td><td>85.00</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>93.94</td><td>76.91</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>103.82</td><td>85.00</td><td></td><td>69.59</td><td></td><td></td></tr><tr><td></td><td>114.74</td><td></td><td>93.94</td><td>76.91</td><td></td><td>62.97</td><td></td></tr><tr><td>126.81</td><td></td><td>103.82</td><td>85.00</td><td></td><td>69.59</td><td></td><td>56.98</td></tr><tr><td>140.14</td><td></td><td>114.74</td><td>93.94</td><td></td><td>76.91</td><td>62.97</td><td>51.56</td></tr></table>
@@ -188,23 +232,23 @@ Figure 2 Binomial Trees Necessary to Determine the Value of a Convertible Bond
 
 The convertible bond has nominal value 100 and coupon  $10\%$ .
 
-$$ m = 100\% \text{(conversionratio)}
+$$ m = 100\% \text{(conversion ratio)}
 $$
 
 $$
-S = 8 5 (\text{st oc kp ri ce})
+S = 85 (\text{stock price})
 $$
 
 $$
-\sigma = 10 \% (\text{stockvolatility})
+\sigma = 10 \% (\text{stock volatility})
 $$
 
 With the formulas discussed above we calculate
 
-$$ u = 1. 1 0 5 2 (\text{up wa rd sm ov e})
+$$ u = 1.1052 (\text{upward move})
 $$
 
-$$ d = 0. 9 0 4 8 \text{(do wn wa rd sm ov e)}
+$$ d = 0.9048 (\text{downward move})
 $$
 
 $p = 0.6787$  (probability of an upward move of the stock price in the next time interval  $\Delta t$ )
@@ -212,10 +256,9 @@ $p = 0.6787$  (probability of an upward move of the stock price in the next time
 As shown in Figure 2 we built first the stock price tree, then the conversion probability tree, then the credit-adjusted spread tree, and finally the convertible bond value tree. The value in the root of the tree is 90.4, which is the price of the convertible bond.
 
 
-# KEY POINTS
+## KEY POINTS
 
 - To implement strategies involving convertible bonds, traders and fund managers require a valuation model.
 - Analytical models provide a closed-form solution for the value of a convertible bond, and the most commonly used model in practice is the Ingersoll model.
 
 - While there are several models that fall into the realm of numerical models, the one commonly used is the binomial tree model, which requires the construction of a stock price tree, conversion probability tree, credit-adjusted spread tree, and convertible bond value tree that is calculated backward from the previous trees.
-

@@ -1,123 +1,60 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Valuation Multiples: A Primer
+parent_directory: Market Structure
+formatted: 2025-12-21 09:58:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - valuation multiples
+  - equity analysis
+  - enterprise valuation
+secondary_tags:
+  - discounted cash flow
+  - cost of capital
+  - return on capital
+  - price earnings ratio
+  - enterprise value multiples
+  - financial modeling
+  - investment analysis
+  - market comparables
 cssclasses: academia
-title: Global Equity Research
-linter-yaml-title-alias: Global Equity Research
 ---
 
-# Global Equity Research
+## Valuation Multiples: A Primer
 
-www.ubswarburg.com/researchweb
-
-In addition to the UBS Warburg web site our research products are available over third-party systems provided or serviced by: Bloomberg, First Call, I/B/E/S, IFIS, Multex, QUICK and Reuters
-
-UBS Warburg is a business group of UBS AG
-
-Peter Suozzo
-
-+852-2971 6121
-
-peter.suozzo@ubsw.com
-
-Stephen Cooper
-
-+44-20-7568 1962
-
-stephen.cooper@ubsw.com
-
-Gillian Sutherland
-
-+44-20-7568 8369
-
-gillian.sutherland@ubsw.com
-
-Zhen Deng
-
-+1-212-713 9921
-
-zhen.deng@ubsw.com
-
-# Valuation Multiples: A Primer
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2433722d-0268-4e0d-912c-deddef6c655e/40e18354002dc2db816e8f79a4fee6fee41b49b246887da1f7bf9625c8c68dff.jpg)
-
-# Valuation Primer Series
-
-# Issue 1
+This is the first in a series of primers on fundamental valuation topics such as discounted cash flow, valuation multiples and cost of capital. This document explains how to calculate and use multiples commonly used in equity analysis. We discuss the differences between equity and enterprise multiples, show how target or 'fair' multiples can be derived from underlying value drivers and discuss the ways multiples can be used in valuation. For each multiple, we show its derivation, discuss its strengths and weaknesses, and suggest appropriate use.
 
 This is the first in a series of primers on fundamental valuation topics such as discounted cash flow, valuation multiples and cost of capital.  
 This document explains how to calculate and use multiples commonly used in equity analysis.  
 We discuss the differences between equity and enterprise multiples, show how target or 'fair' multiples can be derived from underlying value drivers and discuss the ways multiples can be used in valuation. For each multiple, we show its derivation, discuss its strengths and weaknesses, and suggest appropriate use.
 
-# Contents
+## Contents
 
-page
+- An Introduction to Multiples
+  - What Is a Multiple?
+  - Advantages/Disadvantages of Multiples
+  - Enterprise versus Equity Multiples
+  - Why Multiples Vary
+  - Choosing the Pricing Date
+- Target Valuation Multiples
+  - What Is a Target Multiple?
+  - Single-stage Target Multiples
+  - Two-stage Target Multiples
+  - Examples
+  - Assumptions Used in Target Multiple Formulas
+  - The Effect of Growth on Value
+- Using Valuation Multiples
+- Enterprise Value Multiples
+  - What Is Enterprise Value?
+  - Why Use Enterprise Value Multiples?
+  - Potential Problems in Calculating EV
+  - Enterprise Value Multiples
+- Equity Multiples
+  - What Are Equity Multiples?
+  - Equity Multiples
+- Appendix: Derivation of Target Multiple Formulas
 
-# Peter Suozzo
-
-+852-29716121
-
-peter.suozzo@ubsw.com
-
-# Stephen Cooper
-
-+44-20-7568 1962
-
-stephen.cooper@ubsw.com
-
-# Gillian Sutherland
-
-+44-20-7568 8369
-
-gillian.sutherland@ubsw.com
-
-# Zhen Deng
-
-+1-212-713 9921
-
-zhen.deng@ubsw.com
-
-An Introduction to Multiples 3
-
-- What Is a Multiple? 3  
-- Advantages/Disadvantages of Multiples 3  
-—Enterprise versus Equity Multiples 5  
-— Why Multiples Vary 5  
-- Choosing the Pricing Date 10
-
-Target Valuation Multiples 13
-
-- What Is a Target Multiple? 13  
-— Single-stage Target Multiples 14  
-— Two-stage Target Multiples 15  
-- Examples. 16  
-Assumptions Used in Target Multiple Formulas 17  
-The Effect of Growth on Value 18
-
-Using Valuation Multiples 20
-
-Enterprise Value Multiples 24
-
-- What Is Enterprise Value? 24  
-— Why Use Enterprise Value Multiples? 25  
-— Potential Problems in Calculating EV 26  
-—EnterpriseValueMultiples 28
-
-EquityMultiples 37
-
-- What Are Equity Multiples? 37  
-EquityMultiples 37
-
-Appendix: Derivation of Target Multiple Formulas 42
-
-For research, valuation models and more on equity analysis go to the Global Valuation Group website…
-
-www.ubswarburg.com/research/gvg
-
-# Section 1
+For research, valuation models and more on equity analysis go to the Global Valuation Group website: www.ubswarburg.com/research/gvg
 
 # An Introduction to Multiples
 

@@ -1,51 +1,43 @@
 ---
-aliases:
-- The Heckscher-Ohlin Model
-tags: null
-key_concepts: null
-parent_directory: II. Economics/International/Economics Advance International Trade
-cssclasses: academia
-title: 'Chapter 2: The Heckscher-Ohlin Model'
-linter-yaml-title-alias: 'Chapter 2: The Heckscher-Ohlin Model'
+title: "The Heckscher-Ohlin Model"
+parent_directory: "II. Economics/International/Economics Advance International Trade"
+formatted: "2025-12-21 10:00:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- goods factors model formulation
-- factor endowments free trade
-- aimed analysis taking account
-- chapter heckscher ohlin model
+- heckscher-ohlin model
+- factor endowments theory
+- international trade patterns
+- factor price equalization
 secondary_tags:
-- ohlin model countries goods
-- free trade ho model
-- goods countries based differences
-- model let consider countries
-- ohlin samuelson hos model
-- goods countries answered heckscher
-- factor prices equalized countries
-- trade patterns
-- panel equilibrium foreign
-tags_extracted: '2025-12-18T00:14:20.294729'
+- comparative advantage
+- leontief paradox
+- factor content of trade
+- technological differences
+- trade empirical tests
+- stolper-samuelson theorem
+cssclasses: academia
 ---
 
-# Chapter 2: the Heckscher-Ohlin Model
+# Chapter 2: The Heckscher-Ohlin Model
 
 We begin this chapter by describing the Heckscher-Ohlin model with two countries, two goods, and two factors (or the  $2 \times 2 \times 2$  model). This formulation is often called the Heckscher-Ohlin-Samuelson (HOS) model, based on the work of Paul Samuelson who developed a mathematical model from the original insights of Eli Heckscher and Bertil Ohlin. The goal of that model is to predict the pattern of trade in goods between the two countries, based on their differences in factor endowments. Following this, we present the multi-good, multi-factor extension that is associated with the work of Vanek (1968), and is often called the Heckscher-Ohlin-Vanek (HOV) model. As we shall see, in this latter formulation we do not attempt to keep track of the trade pattern in individual goods, but instead, compute the "factor content" of trade, i.e. the amounts of labor, capital, land, etc. embodied in the exports and imports of a country.
 
-The factor-content formulation of the HOV model has led to a great deal of empirical research, beginning with Leontief (1953) and continuing with Leamer (1980), Bowen, Leamer and Sveikauskas (1987), Trefler (1993, 1995), Davis and Weinstein (2001a), with many other writers in-between. We will explain the twists and turns in this chain of empirical research. The bottom line is that the HOV model performs quite poorly empirically unless we are willing to dispense with the assumption of identical technologies across countries. This brings us back to the earlier tradition of the Ricardian model of allowing for technological differences, which also implies differences in factor prices across countries. We will show several ways that technological differences can be incorporated into an "extended" HO model, and their empirical results, and this remains a question of ongoing research.
+The factor-content formulation of the HOV model has led to a great deal of empirical research, beginning with Leontief (1953) and continuing with Leamer (1980), Bowen, Leamer and Sveikaukas (1987), Trefler (1993, 1995), Davis and Weinstein (2001a), with many other writers in-between. We will explain the twists and turns in this chain of empirical research. The bottom line is that the HOV model performs quite poorly empirically unless we are willing to dispense with the assumption of identical technologies across countries. This brings us back to the earlier tradition of the Ricardian model of allowing for technological differences, which also implies differences in factor prices across countries. We will show several ways that technological differences can be incorporated into an "extended" HO model, and their empirical results, and this remains a question of ongoing research.
 
-# Heckscher-Ohlin-Samuelson (hos) Model
+## Heckscher-Ohlin-Samuelson (HOS) Model
 
 The basic assumptions of the HOS model were already introduced in the previous chapter: identical technologies across countries; identical and homothetic tastes across countries; differing factor endowments; and free trade in goods (but not factors). For the most part, we will also assume away the possibility of factor-intensity reversals. Provided that all countries have their endowments within their "cone of diversification," this means that factor prices are equalized across countries
 
 We begin by supposing that there are just two countries, two sectors and two factors, exactly like the two-by-two model we introduced in chapter 1. We shall assume that the home country is labor abundant, so that  $\mathrm{L} / \mathrm{K} > \mathrm{L}^{*} / \mathrm{K}^{*}$ . We will also assume that good 1 is labor intensive. The countries engage in free trade, and we also suppose that trade is balanced (value of exports = value of imports). Then the question is: what is the pattern of trade in goods between the countries? This is answered by:
 
-# Heckscher-Ohlin Theorem
+### Heckscher-Ohlin Theorem
 
 Each country will export the good that uses its abundant factor intensively.
 
-Thus, under our assumptions the home country will export good 1 and the foreign country will export good 2. To prove this, let us take a particular case of the factor endowment differences  $\mathrm{L} / \mathrm{K} > \mathrm{L}^{*} / \mathrm{K}^{*}$ , and assume that the labor endowments are identical in the two countries,  $\mathrm{L}^{*} = \mathrm{L}$ , while the foreign capital endowments exceeds that at home,  $\mathrm{K}^{*} > \mathrm{K}$ . In order to derive the pattern of trade between the countries, we proceed by first establishing what
+Thus, under our assumptions the home country will export good 1 and the foreign country will export good 2. To prove this, let us take a particular case of the factor endowment differences  $\mathrm{L} / \mathrm{K} > \mathrm{L}^{*} / \mathrm{K}^{*}$ , and assume that the labor endowments are identical in the two countries,  $\mathrm{L}^{*} = \mathrm{L}$ , while the foreign capital endowments exceeds that at home,  $\mathrm{K}^{*} > \mathrm{K}$ . In order to derive the pattern of trade between the countries, we proceed by first establishing what the relative product price is in each country without any trade, or in autarky. As we shall see, the pattern of autarky prices can then be used to predict the pattern of trade: a country will export the good whose free trade price is higher than its autarky price, and import the other.
 
-the relative product price is in each country without any trade, or in autarky. As we shall see, the pattern of autarky prices can then be used to predict the pattern of trade: a country will export the good whose free trade price is higher than its autarky price, and import the other.
-
-Let us begin by illustrating the home autarky equilibrium, at point A in Figure 2.1. We have assumed a representative consumer with homothetic tastes, so we can use indifference curves to reflect demand. The autarky equilibrium is established where an indifference curve is tangent to the home PPF, at point A. The price line drawn tangent to the PPF and indifference curve has a slope of (negative) the autarky relative price of good 1,  $\mathrm{p}^{\mathrm{a}} \equiv \mathrm{p}_{1}^{\mathrm{a}} / \mathrm{p}_{2}^{\mathrm{a}}$ . Let us now consider the foreign PPF, which is drawn outside the home PPF in the Figure 2.1. In order to determine where the foreign autarky equilibrium lies, let us initially suppose that  $\mathfrak{p}^{\mathrm{a}}$  is also the autarky equilibrium abroad, and see whether this assumption leads to a contradiction.
+Let us begin by illustrating the home autarky equilibrium, at point A in Figure 2.1. We have assumed a representative consumer with homothetic tastes, so we can use indifference curves to reflect demand. The autarky equilibrium is established where an indifference curve is tangent to the home PPF, at point A. The price line drawn tangent to the PPF and indifference curve has a slope of (negative) the autarky relative price of good 1,  $\mathrm{p}^{\mathrm{a}} \equiv \mathrm{p}_{1}^{\mathrm{a}} / \mathrm{p}_{2}^{\mathrm{a}}$ . Let us now consider the foreign PPF, which is drawn outside the home PPF in the Figure 2.1. In order to determine where the foreign autarky equilibrium lies, let us initially suppose that  $p^{\mathrm{a}}$  is also the autarky equilibrium abroad, and see whether this assumption leads to a contradiction.
 
 If  $p^a$  is also the autarky price in the foreign country, then production must occur at the tangency between the price line with slope  $p^a$  and the foreign PPF, or at point  $B'$ . Notice that from the Rybcynzski Theorem, point  $B'$  must lie above and to the left of point A: the higher capital endowment abroad leads to more of good 2 and less of good 1. The price line through point  $B'$  acts like a budget constraint for the representative consumer in the foreign country, so that the consumer chooses the highest indifference curve on this price line. Since tastes are homothetic, the foreign representative consumer will demand the two goods in exactly the same proportion as the home representative consumer. In other words, the foreign consumption point must lie on the budget constraint through point  $B'$ , and also on a ray from the origin through
 
@@ -68,11 +60,9 @@ C is made up through exporting good 1 and importing good 2, as illustrated by th
 
 In addition to establishing the trade pattern, the HO model has precise implications about who gains and who loses from trade: the abundant factor in each country gains from trade, and the scarce factor loses. This result follows from the pattern of price changes  $(\mathrm{p}^{\mathrm{a}^{*}} > \mathrm{p} > \mathrm{p}^{\mathrm{a}})$  and the Stolper-Samuelson theorem. With the relative price of good 1 rising at home, the factor used intensively in that good (labor) will gain in real terms, and the other factor (capital) will lose. Notice that labor is the abundant factor at home. The fact that  $\mathrm{L} / \mathrm{K} > \mathrm{L}^{*} / \mathrm{K}^{*}$  means that labor would have been earning less in the home autarky equilibrium than in the foreign autarky equilibrium: its marginal product at home would have been lower (in both goods) than abroad. However, with free trade the home country can shift production towards the labor-intensive good, and export it, thereby absorbing the abundant factor without lowering its wage. Indeed, factor prices are equalized in the two countries after trade, as we argued in the previous chapter. Thus, the abundant factor, whose factor price was bid down in autarky, will gain from the opening of trade, while the scarce factor in each country loses.
 
-Our presentation of the HO model above is about as far as most discussion of this model goes at the undergraduate level. After showing something like Figure 2.2, it would be common
+Our presentation of the HO model above is about as far as most discussion of this model goes at the undergraduate level. After showing something like Figure 2.2, it would be common to provide some rough data or anecdotes to illustrate the HO Theorem (e.g. the United States in abundant in scientists, so it exports high-tech goods; Canada is abundant in land, so it exports natural resources, etc.). As plausible as these illustrations are, it turns out that the HO model is a rather poor predictor of actual trade patterns, indicating that its assumptions are not realistic. It has taken many years, however, to understand why this is the case, and we begin this exploration by considering the earliest results of Leontief (1953).
 
-to provide some rough data or anecdotes to illustrate the HO Theorem (e.g. the United States in abundant in scientists, so it exports high-tech goods; Canada is abundant in land, so it exports natural resources, etc.). As plausible as these illustrations are, it turns out that the HO model is a rather poor predictor of actual trade patterns, indicating that its assumptions are not realistic. It has taken many years, however, to understand why this is the case, and we begin this exploration by considering the earliest results of Leontief (1953).
-
-# Leontief's Paradox
+## Leontief's Paradox
 
 Leontief (1953) was the first to confront the HO model with data. He had developed the set of input-output accounts for the U.S. economy, which allowed him to compute the amounts of labor and capital used in each industry for 1947. In addition, he utilized U.S. trade data for the same year to compute the amounts of labor and capital used in the production of \$1 million of U.S. exports and imports. His results are shown in Table 2.1.
 
@@ -100,7 +90,7 @@ U.S. and foreign technologies are not the same;
 
 These reasons are all quite valid criticisms of the test that Leontief performed, and research in the years following his test aimed to re-do the analysis while taking into account land, skilled versus unskilled labor, checking other years, etc. This research is well summarized by Deardorff (1984a), and the general conclusion is that the paradox continued to occur in some cases. It was not until two decades later, however, that Leamer (1980) provided the definitive critique of the Leontief paradox: it turned out that Leontief had performed the wrong test! That is, even if the HO model is true, it turns out the capital/labor ratios in export and imports, as reported in Table 2.1, should not be compared. Instead, an alternative test should be performed. The test that Leamer proposed relies on the "factor content" version of the Heckscher-Ohlin model, developed by Vanek (1968), which we turn to next.
 
-# Heckscher-Ohlin-Vanek (hov) Model
+## Heckscher-Ohlin-Vanek (HOV) Model
 
 Let us now consider many countries, indexed by  $\mathrm{i} = 1,\ldots ,\mathrm{C}$ ; many industries, indexed by  $\mathrm{j} = 1,\ldots ,\mathrm{N}$ ; and many factors, indexed by  $\mathbf{k},\ell = 1,\ldots ,\mathbf{M}$ . We will continue to assume that technologies are identical across countries, and that factor-price equalization prevails under free trade. In addition, we assume that tastes are identical and homothetic across countries.
 
@@ -108,9 +98,7 @@ Let the (MxN) matrix  $\mathbf{A} = [\mathbf{a}_{\mathrm{jk}}]^\prime$  denote t
 
 Next, let  $\mathbf{Y}^{\mathrm{i}}$  denote the (Nx1) vector of outputs in each industry for country i, and let  $\mathbf{D}^{\mathrm{i}}$  denote the (Nx1) vector of demands of each good, so that  $\mathbf{T}^{\mathrm{i}} = \mathbf{Y}^{\mathrm{i}} - \mathbf{D}^{\mathrm{i}}$  equals the vector of net exports for country i. The factor content of trade is then defined as  $\mathbf{F}^{\mathrm{i}} \equiv \mathbf{A}\mathbf{T}^{\mathrm{i}}$ , which is an (Mx1) vector. We will denote individual components of this vector as  $\mathbf{F}_{\mathrm{k}}^{\mathrm{i}}$ , where a positive value indicates that the factor is exported, while a negative value indicates that the factor is imported. For example, with just labor and capital, the factor content of trade is  $\begin{pmatrix} \mathbf{F}_{\ell}^{\mathrm{i}} \\ \mathbf{F}_{\mathrm{k}}^{\mathrm{i}} \end{pmatrix} \equiv \mathbf{A}\mathbf{T}^{\mathrm{i}}$ .
 
-The goal of the HOV model is to relate the factor content of trade  $\mathrm{AT}^{\mathrm{i}}$  to the underlying
-
-endowments of country i. To do so, we can proceed by computing  $\mathrm{AY}^{\mathrm{i}}$  and  $\mathrm{AD}^{\mathrm{i}}$ . The term  $\mathrm{AY}^{\mathrm{i}}$  equals the demand for factors in country i. Analogous to the full-employment conditions studied in chapter 1,  $\mathrm{AY}^{\mathrm{i}}$  equals the endowments of country i, which we write as  $\mathrm{AY}^{\mathrm{i}} = \mathrm{V}^{\mathrm{i}}$ . Turning to  $\mathrm{AD}^{\mathrm{i}}$ , this terms is simplified by using our assumption of identical and homothetic tastes. Since product prices are equalized across countries by free trade, it follows that the consumption vectors of all countries must be proportional to each other. We shall write this as  $\mathrm{D}^{\mathrm{i}} = \mathrm{s}^{\mathrm{i}} \mathrm{D}^{\mathrm{w}}$ , where  $\mathrm{D}^{\mathrm{w}}$  denotes the world consumption vector and  $\mathrm{s}^{\mathrm{i}}$  is the share of country i in world consumption. It follows that  $\mathrm{AD}^{\mathrm{i}} = \mathrm{s}^{\mathrm{i}} \mathrm{AD}^{\mathrm{w}}$ . Note that if trade is balanced, then  $\mathrm{s}^{\mathrm{i}}$  also equals country i's share of world GDP. $^5$  Since world consumption must equal world production, we therefore obtain  $\mathrm{AD}^{\mathrm{i}} = \mathrm{s}^{\mathrm{i}} \mathrm{AD}^{\mathrm{w}} = \mathrm{s}^{\mathrm{i}} \mathrm{AY}^{\mathrm{w}} = \mathrm{s}^{\mathrm{i}} \mathrm{V}^{\mathrm{w}}$ , where the last equality is the full-employment condition at the world level.
+The goal of the HOV model is to relate the factor content of trade  $\mathrm{AT}^{\mathrm{i}}$  to the underlying endowments of country i. To do so, we can proceed by computing  $\mathrm{AY}^{\mathrm{i}}$  and  $\mathrm{AD}^{\mathrm{i}}$ . The term  $\mathrm{AY}^{\mathrm{i}}$  equals the demand for factors in country i. Analogous to the full-employment conditions studied in chapter 1,  $\mathrm{AY}^{\mathrm{i}}$  equals the endowments of country i, which we write as  $\mathrm{AY}^{\mathrm{i}} = \mathrm{V}^{\mathrm{i}}$ . Turning to  $\mathrm{AD}^{\mathrm{i}}$ , this terms is simplified by using our assumption of identical and homothetic tastes. Since product prices are equalized across countries by free trade, it follows that the consumption vectors of all countries must be proportional to each other. We shall write this as  $\mathrm{D}^{\mathrm{i}} = \mathrm{s}^{\mathrm{i}} \mathrm{D}^{\mathrm{w}}$ , where  $\mathrm{D}^{\mathrm{w}}$  denotes the world consumption vector and  $\mathrm{s}^{\mathrm{i}}$  is the share of country i in world consumption. It follows that  $\mathrm{AD}^{\mathrm{i}} = \mathrm{s}^{\mathrm{i}} \mathrm{AD}^{\mathrm{w}}$ . Note that if trade is balanced, then  $\mathrm{s}^{\mathrm{i}}$  also equals country i's share of world GDP. $^5$  Since world consumption must equal world production, we therefore obtain  $\mathrm{AD}^{\mathrm{i}} = \mathrm{s}^{\mathrm{i}} \mathrm{AD}^{\mathrm{w}} = \mathrm{s}^{\mathrm{i}} \mathrm{AY}^{\mathrm{w}} = \mathrm{s}^{\mathrm{i}} \mathrm{V}^{\mathrm{w}}$ , where the last equality is the full-employment condition at the world level.
 
 Making use of these expressions for  $\mathrm{AY}^{\mathrm{i}}$  and  $\mathrm{AD}^{\mathrm{i}}$ , we have therefore proved:
 
@@ -121,7 +109,7 @@ $$
 which is a statement of the Heckscher-Ohlin-Vanek (HOV) Theorem. In terms of individual factors, this is written as  $\mathrm{F_k^i =V_k^i -s^iV_k^w}$ . If country i's endowment of factor k relative to the world endowment exceeds country i's share of world GDP ( $\mathrm{V_k^i /V_k^w >s^i}$ ), then we say that country i is abundant in that factor. In that case, (2.1) says that the factor-content of trade in factor k should also be positive ( $\mathrm{F_k^i >0}$ ), and conversely if country i is scarce in factor k
 
 $$
-(\mathrm{V_{k}^{i}} / \mathrm{V_{k}^{w}} <   s^{i}).
+(\mathrm{V_{k}^{i}} / \mathrm{V_{k}^{w}} < s^{i}).
 $$
 
 What does the HOV Theorem tell us about the Leontief test? To answer this, let us focus on just two elements of the factor-content vector, for labor and capital. These are written as:
@@ -136,7 +124,7 @@ $$
 
 where  $\mathrm{F_k^i}$  and  $\mathrm{F}_{\ell}^{\mathrm{i}}$  are the computed factor contents of trade, and  $\mathbf{K}^{\mathrm{i}}$  and  $\mathbf{L}^{\mathrm{i}}$  are the capital and labor endowments for country i. Following Leamer (1980), we define capital to be abundant relative to labor in country i if  $\mathrm{K}^{\mathrm{i}} / \mathrm{K}^{\mathrm{w}} > \mathrm{L}^{\mathrm{i}} / \mathrm{L}^{\mathrm{w}}$ . Then using (2.2), the implications of capital abundance are:
 
-# Theorem (Leamer, 1980)
+### Theorem (Leamer, 1980)
 
 If capital is abundant relative to labor in country  $i$ , then the HOV Theorem (2.1) implies that the capital/labor ratio embodied in production for country  $i$  exceeds the capital/labor ratio embodied in consumption:
 
@@ -152,7 +140,7 @@ To interpret this result, note that  $\mathbf{K}^{\mathrm{i}}$  and  $\mathbf{L}
 
 The results from making this comparison for the U.S. in 1947 are shown in Table 2.2. In the first column we list the capital and labor endowments for the U.S., and in the second column we show the capital and labor embodied in consumption. Taking the ratio of these, it is indeed the case that the capital/labor ratio embodied in production exceeds that in consumption. This is the precise application of the HOV Theorem, and it turns out to be satisfied for the U.S. in 1947, contrary to what Leontief concluded. Thus, there was no paradox after all!
 
-It is useful to see the HOV Theorem and Leamer's result in a diagram. In Figure 2.3, the length of the horizontal axis is the world labor endowment  $\mathrm{L}^{\mathrm{w}} = \mathrm{L}^{1} + \mathrm{L}^{2}$ , and the length of the vertical axis is the world capital endowment  $\mathrm{K}^{\mathrm{w}} = \mathrm{K}^{1} + \mathrm{K}^{2}$ . The origin for country 1 is in the lower-left corner, and for country 2 is in the upper-right corner. Thus, any point in the world endowment box measures the endowments  $(\mathrm{L}^{\mathrm{i}}, \mathrm{K}^{\mathrm{i}})$  of the two countries. Suppose that the endowments are at the point  $\mathrm{V}^{\mathrm{i}}$ , where country 1 is labor-abundant,  $\mathrm{L}^{\mathrm{l}} / \mathrm{K}^{\mathrm{l}} > \mathrm{L}^{\mathrm{w}} / \mathrm{K}^{\mathrm{w}} > \mathrm{L}^{\mathrm{2}} / \mathrm{K}^{\mathrm{2}}$ .
+It is useful to see the HOV Theorem and Leamer's result in a diagram. In Figure 2.3, the length of the horizontal axis is the world labor endowment  $\mathrm{L}^{\mathrm{w}} = \mathrm{L}^{1} + \mathrm{L}^{2}$ , and the length of the vertical axis is the world capital endowment  $\mathrm{K}^{\mathrm{w}} = \mathrm{K}^{1} + \mathrm{K}^{2}$ . The origin for country 1 is in the lower-left corner, and for country 2 is in the upper-right corner. Thus, any point in the world endowment box measures the endowments  $(\mathrm{L}^{\mathrm{i}}, \mathrm{K}^{\mathrm{i}})$  of the two countries. Suppose that the endowments are at the point  $\mathrm{V}^{\mathrm{i}}$ , where country 1 is labor-abundant,  $\mathrm{L}^{1} / \mathrm{K}^{1} > \mathrm{L}^{\mathrm{w}} / \mathrm{K}^{\mathrm{w}} > \mathrm{L}^{2} / \mathrm{K}^{2}$ .
 
 Under the assumptions of the HOV model, the consumption of each country  $D^i$  is proportional to world consumption  $D^w$ , which means that the factor content of consumption  $AD^i$  is proportional to  $AD^w = V^w$ . In other words, the factor-content of consumption must lie along
 
@@ -169,7 +157,7 @@ the diagonal in the world endowment box, as illustrated by point  $\mathrm{AD}^{
 
 The theorem of Leamer (1980) states that if country 1 is labor-abundant, as illustrated, then the capital/labor ratio embodied in consumption must exceed the capital/labor ratio embodied in production. That is, since the consumption point  $\mathrm{AD}^{\mathrm{i}}$  must lie on the diagonal, it is necessary above the endowment point  $\mathbf{V}^{\mathrm{i}}$ . While this is graphically obvious, note that it does not depend in any way on whether trade is balanced or not. For example, if country 1 is running a trade surplus (with the value of production exceeding consumption), then we should move the consumption point  $\mathrm{AD}^{\mathrm{i}}$  to the left down the diagonal. This would have not effect whatsoever on the capital/labor ratio embodied in consumption as compared to the capital/labor ratio embodied in production. So Leamer's test of the HOV theorem in (2.3) is completely robust to having non-balanced trade. Alternatively, holding consumption fixed at  $\mathrm{AD}^{\mathrm{i}}$ , we could vary the factor endowments along the line EE (parallel to the diagonal). By drawing the triangle of factor trade to the diagonal, we see that any endowments along EE have same factor content of trade.
 
-# Partial Tests of the Hov Theorem
+## Partial Tests of the HOV Theorem
 
 The statement of the HOV Theorem in (2.1) tells us immediately how a complete test of the theory should be performed: simply compute the left-hand side (using data on trade  $\mathbf{T}^{\mathrm{i}}$  and technology A), compute the right-hand side (using data on endowments  $\mathbf{V}^{\mathrm{i}}$  and  $\mathbf{V}^{\mathrm{w}}$ ), and compare them. Depending on how well they match up, we can judge whether the Theorem is an empirical success or not. This complete test requires both trade and endowments data for many countries, and technology data for at least one country. While such data is readily available today, this was not the case two or three decades ago. Accordingly, many researchers, including Leontief himself, performed what we can call "partial tests" of the HOV model, using only two rather than all three types of data. Before considering the complete test, we will review several other partial tests that were performed.
 
@@ -234,7 +222,7 @@ Because the estimated coefficients can be positive or negative they do not provi
 
 We summarize our results so far in Table 2.4, which indicates the data used and the basic methods of the various authors. These various "partial tests" have used only two sources of data, and we now turn to various complete tests of the HOV Theorem, using all three sources of data (trade, technology and factor endowments).
 
-# Complete Test of the Hov Theorem
+## Complete Test of the HOV Theorem
 
 The first complete test of the HOV theorem was by Bowen, Leamer and Sveikaukas (1987). They proposed two tests of equation (2.1):
 
@@ -264,7 +252,7 @@ cases when using the U.S. technology to measure the matrix A (column (2) in Tabl
 
 Trefler (1995) performs several diagnostic tests on the data to determine which assumptions of the HOV model is most likely to be responsible for its failure, and concludes that the assumption of equal technologies across countries is especially bad. Accordingly, he develops an extended version of the HOV model that allows for different technologies across countries, as originally proposed by Leontief (1953) as one explanation for the "paradox."
 
-# Modeling Different Technologies Across Countries
+## Modeling Different Technologies Across Countries
 
 There are two ways that technological differences can be introduced into the HOV model. One approach is to model the productivity of factors in different countries, whereas another approach is to model differences in the factor requirements matrix  $A$ . These approaches are closely related, of course: saying that a factor is  $10\%$  less productive in one country is the same as saying that  $10\%$  more of that factor is needed per unit of production. But thinking about them as distinct will be convenient for our discussion.
 
@@ -278,7 +266,7 @@ $$
 
 There are MC equations in (2.7), and M(C-1) productivity parameters. These equations are not independent, however. For any factor  $k$ , if we sum (2.7) across countries  $i = 1,\dots,C$  then we must obtain zero on both sides: exports equal imports for the world, even when measured in terms of factor contents. So we can drop the equations for one country, and we do so for the U.S. This leaves M(C-1) equations in M(C-1) parameters. These equations will be independent "almost everywhere," i.e. for almost all sets of data on endowments and factor-contents of trade. Furthermore, the productivity parameters enter (2.7) linearly, so the M(C-1) equations in (2.7) can be inverted to solve for these uniquely. Thus, we have established:
 
-# Theorem (Trefler, 1993)
+### Theorem (Trefler, 1993)
 
 Allowing for all factors in all but one country to differ in their productivities  $\pi_{\mathrm{k}}^{\mathrm{i}}$ , for almost all datasets there will be a solution for productivities  $\pi_{\mathrm{k}}^{\mathrm{i}}$  such that the HOV equation (2.7) hold with equality for  $\mathrm{i} = 1,\dots,\mathrm{C}$ ,  $\mathrm{k} = 1,\dots,\mathrm{M}$ .
 
@@ -329,7 +317,7 @@ Trefler (1995) goes on to consider other modifications to the HOV framework, inc
 
 a limited set of factor productivity differences (allowed to differ between rich and poor countries), non-homothetic tastes, and a “home country” bias in consumption. He concludes that the contribution of these to further explaining “missing trade” is more limited, and prefers the initial model that allows for uniform productivity differences.[16]
 
-# Using Data on Different Technologies Across Countries
+## Using Data on Different Technologies Across Countries
 
 The reader will notice in Table 2.4 that most complete tests of the HOV Theorem, using all three types of data, have still relied on the U.S. technology matrix. This is again due to data limitations: factor requirements for other countries, concorded to the same set of factors and industries, have only recently become available. $^{17}$  With the availability of this data, the next logical step is to make use of it to construct  $\mathbf{A}^{\mathrm{i}}$  across countries, rather than only using the U.S. technology matrix. This is the approach taken by Davis and Weinstein (2001a). We will defer a discussion of their approach until the next chapter, since it relies on material that we have not yet covered. We note at this point, however, that Davis and Weinstein are careful to estimate the differences in the technology matrices  $\mathbf{A}^{\mathrm{i}}$  across countries, rather than using the actual data for  $\mathbf{A}^{\mathrm{i}}$ , since the latter approach would run the risk of having the constructed factor content of trade equal to the countries' relative endowments by construction. This is the same issue that Trefler (1993) had, where he allowed for enough productivity parameters for the HOV equations to fit perfectly. If the actual technology matrices are used to construct the factor content of trade, the HOV equation can again hold as an identity, as we now show.
 
@@ -357,7 +345,7 @@ Now make use of the factor content of exports in (2.11'),  $\mathrm{F}^{\mathrm{
 
 all destination countries  $j \neq i$ , and appears as the first term on the right of (2.12), which is interpreted as the factors used in country  $i$  to produce exports for all countries  $j \neq i$ . Similarly, the second term on the right of (2.12) is the factors used in every country  $j \neq i$  to produce exports to country  $i$ . Thus, using (2.11') to replace the terms on the right of (2.12), we have shown:
 
-# Theorem (Trefler, 1998)
+### Theorem (Trefler, 1998)
 
 If the output of every good is distributed around the world in proportion to the purchasing country's GDP, then,
 
@@ -369,7 +357,7 @@ The first term on the right of (2.13) is the factor content of exports from coun
 
 This result, due to Trefler (1998), serves as a warning about using actual technology data to construct the factor content of trade. As in Trefler (1993) who allowed for unlimited differences in factor productivities across countries, using the actual technologies can quickly lead us to an identity between the factor content of trade and country's relative endowments, as in (2.13). This would not then be a test of the theory. Trefler (1998) further shows how this result can be extended to accommodate trade in intermediate inputs, and rightfully suggests that future work needs to take this identity into account.
 
-# Other Tests of Trade
+## Other Tests of Trade
 
 We conclude this chapter by briefly considering some other approaches to testing models of trade. We begin with the most general test of the "law of comparative advantage," as proposed by Deardorff (1984b), which does not depend on the Heckscher-Ohlin model at all. While this test is completely general, it unfortunately relies on information on autarky prices, which is seldom available. Accordingly, we move towards alternative tests of the HO model that do not rely on factor price equalization, and also do not require information on autarky prices. Such a test has been proposed by Helpman (1984a), building on the earlier work of Brecher and Choudhri (1982b). We shall review this test and the recent empirical application of Choi and Krishna (2001).
 
@@ -435,7 +423,7 @@ To summarize, (2.17)-(2.19) give us testable hypotheses on bilateral factor-cont
 
 Choi and Krishna (2001) also show how (2.17) and (2.18) can be generalized to allow for scalar technological differences across countries, much like in (2.8). In that case, they find that the one-way trade flows in (2.17) and (2.18) have the correct sign in  $55\%$  to  $59\%$  of cases, while the two-way trade flows in (2.19) have the correct sign in  $79\%$  of cases. It is somewhat surprising that correcting for scalar technology differences between countries did not lead to a greater improvement in the test results, but then again, this correction improved the "sign test" for Trefler (1995) from  $50\%$  to only  $62\%$ . Trefler's acceptance of the scalar productivity differences as an improvement over the conventional HOV model was based on other criterion, and in particular, their ability to help explain the "missing trade." For the bilateral flows analyzed by Choi and Krishna, the fact that the combined equation (2.19) – emphasized by Helpman (1984a) – is satisfied in about three-quarters of cases indicates support for the theory, and suggests that dropping FPE is an important direction for further research.
 
-# Conclusions
+## Conclusions
 
 We started this chapter with the Leontief paradox, and after explaining this away using the results of Leamer (1980), went on to argue that the complete tests of the HOV model fail sadly under the conventional assumptions of this model: identical homothetic tastes and identical technologies with FPE across countries. As we begin to loosen these assumptions, the model performs better, and when we allow for unlimited differences in productivities of factors across countries, as in Trefler (1993), then the resulting HOV equations will hold as an identity. Between these two extremes, Trefler (1995) shows that a parsimonious specification of technological differences between countries – allowing for a uniform difference with the U.S. – is still able to greatly improve the fit of the HOV equation. Recent research such as Davis and Weinstein (2001a), which we review in the next chapter, generalizes these technological
 
@@ -447,7 +435,7 @@ Second, even if we accept that the HOV equation can fit perfectly by allowing fo
 
 be explicable based on underlying causes. Increasing returns to scale might be one explanation, and this has been incorporated into the HOV framework by Antweiler and Trefler (2002) as will be discussed in chapter 5. Economy-wide increasing returns are also suggested by the literature on "endogenous growth," which we will discuss in chapter 10. Beyond this, some recent authors have argued that geography/climate (Sachs, 2001), or colonial institutions (Acemoglu, et al, 2001), or social capital (Jones and Hall, 1999), or the efficiency with which labor is utilized (Clark and Feenstra, 2001) must play an important role. Whatever the answer, this issue will no doubt occupy researchers for some years to come.
 
-# Problems
+## Problems
 
 2.1 Suppose that the factor content of trade is zero on the left of equation (2.7). Then solve for the implied values of the productivities  $\pi_{\mathrm{k}}^{\mathrm{i}}$  in one country relative to another.
 2.2 An assumption of the Heckscher-Ohlin-Vanek model, as outlined in this chapter, is that tastes are identical across countries and also homothetic. The latter is an unrealistic assumption because of Engel's Law: expenditures on food are a declining share of total income. Following Hunter and Markusen (1989), we can introduce non-homothetic tastes using a linear expenditure system. Denoting per-capital consumption of good  $i$  in any country  $j$  by  $d_i^j$ , we suppose that the utility function is given by:
@@ -478,7 +466,7 @@ where  $\delta_{\mathrm{i}} \equiv (\overline{\mathrm{d}}_{\mathrm{i}} - \phi_{\
 
 $\mathrm{D_i^j =L^jd_i^j = \delta_iL^j + \phi_iE^j}$ , where  $\mathrm{E}^{\mathrm{j}}\equiv \mathrm{L}^{\mathrm{j}}\mathrm{I}^{\mathrm{j}}$  denotes total expenditure in country j. We can write this in vector notation as,  $\mathrm{D}^{\mathrm{j}} = \delta \mathrm{L}^{\mathrm{j}} + \phi \mathrm{E}^{\mathrm{j}}$ . Using this demand function, re-derive the HOV equation (2.1), and interpret the new equation.
 
-# Empirical Exercises
+## Empirical Exercises
 
 In these exercises, you will reproduce some of the empirical results from Trefler (1993, 1995). To complete the exercise, the Excel file "hov_pub.csv" should be stored in the directory: c:\Empirical_Exercise\Chapter_2\hov_pub.csv. After this, run the STATA program "hov_pub.do", which will create a new STATA data file "trefler.dta". Then do:
 

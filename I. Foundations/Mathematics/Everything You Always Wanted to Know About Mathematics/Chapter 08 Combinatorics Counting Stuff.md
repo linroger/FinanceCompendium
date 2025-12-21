@@ -40,13 +40,13 @@ tags_method: max_quality_v1
 
 # Chapter 8
 
-# Combinatorics: Counting Stuff
+## Combinatorics: Counting Stuff
 
-# 8.1 Introduction
+## 8.1 Introduction
 
 The field of combinatorics is one of the most active and exciting areas of interest in modern mathematics. It is also sometimes known as "discrete math" to distinguish it from analysis, which studies more "continuous" notions like the real number line and functions defined on that set. In this chapter we will explore some of the fundamental ideas in combinatorics and apply them to solve interesting problems. Essentially, we will be learning interesting and useful principles about how to count the number of elements in finite sets where those elements are described in some way but not enumerated for us.
 
-# 8.1.1 Objectives
+### 8.1.1 Objectives
 
 The following short sections in this introduction will show you how this chapter fits into the scheme of the book. They will describe how our previous work will be helpful, they will motivate why we would care to investigate the topics that appear in this chapter, and they will tell you our goals and what you should keep in mind while reading along to achieve those goals. Right now, we will summarize the main objectives of this chapter for you via a series of statements. These describe the skills and knowledge you should have gained by the conclusion of this chapter. The following sections will reiterate these ideas in more detail, but this will provide you with a brief list for future reference. When you finish working through this chapter, return to this list and see if you understand all of these objectives. Do you see why we outlined them here as being important? Can you define all the terminology we use? Can you apply the techniques we describe?
 
@@ -61,11 +61,11 @@ By the end of this chapter, you should be able to …
 - State the Pigeonhole Principle and use it in counting arguments.  
 - State the Principle of Inclusion/Exclusion and use it in counting arguments.
 
-# 8.1.2 Segue from previous chapter
+### 8.1.2 Segue from previous chapter
 
 In Chapter 7, we left off talking about the cardinality of sets, both finite and infinite. While many of the results about infinite sets are interesting and mathematically rich, that particular area can lead to some mind-bending and confusing areas that are, alas, beyond the scope of our current studies. For now, we will focus on finite sets. In particular, we will explore how some results about the cardinality of finite sets can be used to solve problems about "counting" mathematical objects. That is, we will explore how we can answer questions of the form "How many objects are there with property X?" This branch of mathematics is known as combinatorics. You can think of it as "the study of combinations of objects". While investigating this branch of mathematics, we will develop some new notation and definitions, prove and use some results about finite sets, and describe and study some particular objects that live in the field of combinatorics and computer science. Importantly, we will learn an entirely new proof technique based on counting objects!
 
-# 8.1.3 Motivation
+### 8.1.3 Motivation
 
 Think about playing poker. If you're unfamiliar with the game, just think of it as a simple system where two players receive a hand of 5 random cards each and then they compare to see who wins. Hands are ranked according to the following list, from best to worst:
 
@@ -83,7 +83,7 @@ Is this a fair game? If you've played poker before, and especially if you've pla
 
 By our question, "Is this a fair game?", what we're really wondering is why the ranking is the way it is! Is drawing a flush actually rarer than a straight? Does it make sense that a full house loses to four of a kind? Why? How can we prove these results? To answer these questions, we will rephrase the questions in terms of counting instead of probability. We will ask how many distinct five card hands are flushes, how many are straights, and so on. This will allow us to compare them directly. Do you see how this relates to our work in the previous chapter, too? We will really be identifying the cardinality of the set of all poker hands that are flushes, for instance, and comparing it to the cardinalities of other sets of hands.
 
-# 8.1.4 Goals andWarnings for the Reader
+### 8.1.4 Goals and Warnings for the Reader
 
 We will need to develop some notation and definitions to begin formulating a method to count the elements of particular finite sets, but we want to emphasize that this is really what is going on, overall: combinatorics is about counting the number of elements in finite sets using particular methods (which we will develop in this chapter). More specifically, we want to study these counting techniques in an abstract sense so that we can apply them in an efficient manner. Perhaps we could answer those poker questions we posed above by looking at all possible five card hands and making a tally mark every time we see a flush, say, but surely this will take way too long! There must be a better way! Well, of course, there is, and we will develop it soon enough in this chapter's first section.
 
@@ -99,15 +99,15 @@ You might not know what that means now, but if you look back at this quote after
 
 How does combinatorics differ, then? Well, in all of our work with combinatorics, we are given a finite set; the difference is that its elements are only described to us in some way. We are not presented with the elements of a set directly and asked to count them. (That would be easy: "One, two, three, …") We have to come up with relevant and helpful strategies to identify how many objects have a certain prescribed list of properties. That is where the difficulty of combinatorics comes in. When we say, "Consider the set of all 5-card hands, as drawn from a standard deck of cards", you can immediately grasp the idea of that set, but you certainly can't picture all its elements laid out before you, let alone begin to count them one-by-one. In this sense, combinatorics is hard; this is also why it is incredibly interesting and popular!
 
-# 8.2 Basic Counting Principles
+## 8.2 Basic Counting Principles
 
-# 8.2.1 The Rule of Sum
+### 8.2.1 The Rule of Sum
 
 Look back at Theorem 7.6.7 that we proved in the previous chapter. It says that when we take two finite sets that are disjoint (i.e. they share no elements),
 
 the size of their union is the sum of their individual sizes. This makes intuitive sense for finite sets, and we proved the result mathematically using A bijection. This result forms the basis for the first, fundamentally useful principle of combinatorics. Notice that this grounds us firmly in the principles of set theory.
 
-# Partitions
+#### Partitions
 
 We start by recalling Definition 3.6.9, which was introduced in our discussion of sets.
 
@@ -180,7 +180,7 @@ Now we have seen an example of a finite and infinite partition.
 
 (Challenge question: Can you identify an infinite partition of  $\mathbb{N}$  such that all of the component sets of the partition are also infinite?)
 
-# Statement
+#### Statement
 
 For the remainder of the chapter, we will only consider finite partitions of finite sets. In particular, the Rule of Sum only applies in this specific case.
 
@@ -192,7 +192,7 @@ $$
 
 The Rule of Sum tells us that the size of a set can be found by partitioning it into a finite number of smaller sets and summing their sizes. Notice that this is precisely Corollary 7.6.10 that we saw last chapter in our discussion of finite sets! There, we asked you to prove this claim by induction, in Exercise 2 in Section 7.6.5. With this result in hand, we'll move on to see some examples.
 
-# Examples
+#### Examples
 
 Example 8.2.5. At Unique Activity University, every student is required to participate in exactly one varsity sport each year. Playing more than one would be too much of a time commitment, and not playing at all would make them lazy, so everyone plays exactly one of the following non-traditional-but-still-sports sports: golf, cricket, badminton, and chess. The athletic department released the following statistics about the rosters for each sport this year:
 
@@ -215,9 +215,9 @@ More interesting examples of applying the Rule of Sum will appear when we combin
 
 The next counting principle is just as, if not more, helpful but a little more intricate to define and prove.
 
-# 8.2.2 The Rule of Product
+### 8.2.2 The Rule of Product
 
-# Motivation
+#### Motivation
 
 We'll motivate this principle via an example.
 
@@ -245,7 +245,7 @@ Okay, so there are 24 total ways to assign the stickers. What about with five pe
 
 the Rule of Product comes in to save the day. (Side note: You might notice a pattern to our list above; can you infer how we made sure we actually listed all possibilities? Could you write a little computer program that would generate all the possibilities, for any number of elements? Try it!)
 
-# Statement
+#### Statement
 
 We will actually make two separate statements of the Rule of Product. The first is an intuitive statement of when and how it applies and what it claims. The second is a more rigorous, mathematical statement that is rooted in the kind of set-theoretic language that we have been using all along. We emphasize that both definitions should, ideally, be understood; however, truly understanding the first one is more important, and the second is presented mostly because it is the one that can and will be rigorously proven.
 
@@ -267,7 +267,7 @@ What about with 5 people? Well,  $5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$ . We 
 
 With  $n$  people, where  $n \in \mathbb{N}$ ? We can answer all of these questions very easily and precisely now, thanks to the Rule of Product. Infinite hooray!
 
-# Tree Diagrams
+#### Tree Diagrams
 
 An interesting and helpful interpretation of the Rule of Product is evidenced by a tree diagram. The concept of a tree arises in the branch of mathematics known as graph theory, which studies mathematical objects consisting of vertices (dots) connected by edges (lines between the dots, where we only care about whether or not a line is present, and not on what it "looks like" when drawn on a piece of paper). A tree is a particular type of graph, and it arises commonly in computer science, as well, when studying branching processes. Within our context, we can use a tree to represent the decision points of a procedure whose end products will be counted by the Rule of Product. Furthermore, this method will provide some insight into the mathematically rigorous statement and proof of the Rule of Product. (We will leave these ultimate goals to the exercises, but for those of you who are interested and motivated to attempt them, we strongly encourage reading this section, as well; it will give you some intuition and guide you through those exercises.)
 
@@ -293,7 +293,7 @@ $$
 
 Does this make more sense, now? Does this provide you any insight into how the Rule of Product actually works?
 
-# More Formal Statement
+#### More Formal Statement
 
 See Exercise 8.9.1, which asks for a proof of the following theorem. This is a more formal statement of what the Rule of Product is, mathematically. After the statement, we'll describe how it relates to the previous version.
 
@@ -309,11 +309,11 @@ The relationship with the previously-stated rule of product is as follows. The e
 
 In the end, we can describe an outcome of this process by an ordered  $n$ -tuple, where coordinate  $i$  is an element of the set  $T_{i}$ . Indeed, what that element could be does depend on what the previous coordinates are, but the number of choices for this element is independent of those prior choices. Since, in the end, we really only care about the number of possible outcomes, the result makes sense. Actually listing all of the outcomes would require a careful analysis of each step, seeing how a particular choice affects the choices in the next step (and the steps thereafter), but that's not the point of the result. This is why, essentially, the result amounts to proving that the size of a product of finite sets is equal to the product of their sizes.
 
-# Example: Applying the Rules of Sum and Product (Together)
+#### Example: Applying the Rules of Sum and Product (Together)
 
 Let's practice using these two combinatorics Rules. You'll also notice that we'll start abbreviating these rules as ROS and ROP, so that we can cite them easily. And yes, we do need to cite them when we use them!
 
-# Example 8.2.11. License Plates:
+#### Example 8.2.11. License Plates:
 
 Suppose a license plate string consists of 6 or 7 positions, each of which is filled with a letter (from  $A$  to  $Z$ ) or a digit (from 0 to 9).
 
@@ -371,7 +371,7 @@ $$
 
 total outcomes, by ROP and ROS.
 
-# 8.2.3 Fundamental Counting Objects and Formulas
+### 8.2.3 Fundamental Counting Objects and Formulas
 
 Let's return to our motivating example of counting poker hands. Remember that we want to know how many of each type of hand there are, how many ways we could be dealt a flush, say, from a freshly-shuffled deck of 52 cards. Let's start by answering a related, but simpler, question: how many total poker hands are there? Another way of phrasing the question--one that will actually hint at our method of answering it--is as follows: how many ways are there to shuffle the entire deck of 52 cards, and how many of those yield the same poker hand among the top 5 cards? That is, let's identify how many distinct (i.e. totally different) ways there are to shuffle the deck; let's call these ways shufflings. Then, let's think of a specific hand, say  $T \clubsuit J \clubsuit Q \clubsuit K \clubsuit A \clubsuit$ , and count how many shufflings have the property that the top 5 cards of the deck comprise that specific hand in any order (because we don't care how we receive the 5 card we're dealt, we just care what we're holding!).
 

@@ -1,15 +1,27 @@
 ---
-parent_directory: Class 2-Debt contracts due to the lack of information
 title: "Class 2: Corporate Bond Contracts"
-tags:
-aliases:
-  - Corporate Bond Contracts
-  - MGM Mirage Bond Analysis
-parent_folder: Class 2-Debt contracts due to the lack of information
-subfolder:
-key_concepts:
+parent_directory: Class 2-Debt contracts due to the lack of information
+formatted: 2025-12-21 09:56:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - corporate bond contracts
+  - debt covenants
+  - bond indentures
+  - callable bonds
+  - credit risk analysis
+secondary_tags:
+  - prospectus analysis
+  - bond ratings
+  - underwriting discounts
+  - make whole calls
+  - trustee obligations
+  - consent solicitation
+  - defeasance provisions
+  - negative pledge covenants
+  - sale leaseback restrictions
+  - merger covenants
 cssclasses: academia
-linter-yaml-title-alias: "Class 2: Corporate Bond Contracts"
 ---
 
 # University of Chicago Booth School

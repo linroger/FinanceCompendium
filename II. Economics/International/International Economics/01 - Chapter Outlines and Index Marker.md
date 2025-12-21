@@ -1,27 +1,20 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: PART 1 Introduction to International Trade
-linter-yaml-title-alias: PART 1 Introduction to International Trade
+title: Part 1 Introduction to International Trade
+parent_directory: International Economics
+formatted: 2025-12-21 06:00:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
-- introduction international trade preface
-- trade equilibrium 51 application
-- trade resources heckscher
-- map foreign direct investment
+- international trade theory
+- exchange rates
 secondary_tags:
-- determining pattern international trade
-- trade global economy
-- 40 international trade equilibrium
-- world trade trade compared
-- trade technology ricardian model
-- industry trade gravity equation
-- example trade creation
-- trade equilibrium 306 tariff
-- comparative advantage
-tags_extracted: '2025-12-18T00:30:21.917072'
+- trade patterns determinants
+- comparative advantage models
+- ricardian trade model
+- balance of payments
+- fixed vs floating exchange rates
+- euro currency union
+cssclasses: academia
 ---
 
 # PART 1 Introduction to International Trade
@@ -166,9 +159,7 @@ Factor Endowments in 2010 100
 
 Differing Productivities across Countries 102
 
-HEADLINES China Drawing High-Tech Research from
-
-U.S. 105
+HEADLINES China Drawing High-Tech Research from U.S. 105
 
 Leontief's Paradox Once Again 107
 
@@ -242,7 +233,7 @@ Gains from Foreign Direct Investment 159
 
 Key Points, Key Terms, and Problems
 
-CHAPTER 6 Increasing Returns to Scale and Monopolistic Competition 165
+# CHAPTER 6 Increasing Returns to Scale and Monopolistic Competition 165
 
 # 1 Basics of Imperfect Competition 168
 
@@ -286,7 +277,7 @@ Key Points, Key Terms, and Problems
 
 New Explanations for International Trade
 
-CHAPTER 7 Offshoring of Goods and Services 197
+# CHAPTER 7 Offshoring of Goods and Services 197
 
 SIDE BAR "Foreign Outsourcing" Versus "Offshoring" 199
 
@@ -328,7 +319,7 @@ PART 4
 
 International Trade Policies
 
-CHAPTER 8 Import Tariffs and Quotas Under Perfect
+# CHAPTER 8 Import Tariffs and Quotas Under Perfect
 
 Competition 233
 
@@ -496,7 +487,7 @@ HEADLINES EU Seeks 12 billion from US over Boeing Aid 362
 
 Key Points, Key Terms, and Problems
 
-CHAPTER 11 International Agreements: Trade, Labor, and the Environment 367
+# CHAPTER 11 International Agreements: Trade, Labor, and the Environment 367
 
 # 1 International Trade Agreements 370
 
@@ -508,9 +499,7 @@ Trade Creation and Trade Diversion 375
 
 Numerical Example of Trade Creation and Diversion 375
 
-HEADLINES China-ASEAN Treaty Threatens Indian
-
-Exporters 376
+HEADLINES China-ASEAN Treaty Threatens Indian Exporters 376
 
 Trade Diversion in a Graph 377
 
@@ -568,13 +557,7 @@ Deficits and Surpluses: The Balance of Payments 418
 
 Debtors and Creditors: External Wealth 421
 
-# PART 5
-
-Introduction to
-
-International
-
-Macroeconomics
+# PART 5 Introduction to International Macroeconomics
 
 Darlings and Deadbeats: Defaults and Other Risks 422
 
@@ -754,7 +737,7 @@ APPLICATION Nominal Anchors in Theory and Practice 512
 
 Key Points, Key Terms, and Problems
 
-CHAPTER 15 Exchange Rates II: The Asset Approach in the Short Run 521
+# CHAPTER 15 Exchange Rates II: The Asset Approach in the Short Run 521
 
 1 Exchange Rates and Interest Rates in the Short Run: UIP and FX Market Equilibrium 522
 
@@ -964,7 +947,7 @@ Key Points, Key Terms, and Problems
 
 # Appendix to Chapter 17 661
 
-CHAPTER 18 Balance of Payments II: Output, Exchange Rates, and Macroeconomic Policies in the Short Run 663
+# CHAPTER 18 Balance of Payments II: Output, Exchange Rates, and Macroeconomic Policies in the Short Run 663
 
 # 1 Demand in the Open Economy 664
 
@@ -1074,9 +1057,7 @@ Simple Criteria for a Fixed Exchange Rate 724
 
 APPLICATION Do Fixed Exchange Rates Promote Trade? 725
 
-APPLICATION Do Fixed Exchange Rates Diminish Monetary
-
-Autonomy and Stability? 727
+APPLICATION Do Fixed Exchange Rates Diminish Monetary Autonomy and Stability? 727
 
 # 2 Other Benefits of Fixing 730
 
@@ -1084,9 +1065,7 @@ Fiscal Discipline, Seigniorage, and Inflation 730
 
 SIDE BAR The Inflation Tax 731
 
-Liability Dollarization, National Wealth, and Contractionary
-
-Depreciations 733
+Liability Dollarization, National Wealth, and Contractionary Depreciations 733
 
 Summary 739
 
@@ -1108,7 +1087,7 @@ Bretton Woods to the Present 750
 
 Key Points, Key Terms, and Problems
 
-CHAPTER 20 Exchange Rate Crises: How Pegs Work and How They Break 757
+# CHAPTER 20 Exchange Rate Crises: How Pegs Work and How They Break 757
 
 # 1 Facts About Exchange Rate Crises 758
 
@@ -1134,13 +1113,9 @@ Graphical Analysis of the Central Bank Balance Sheet 767
 
 Defending the Peg I: Changes in the Level of Money Demand 769
 
-APPLICATION Risk Premiums in Advanced and Emerging
+APPLICATION Risk Premiums in Advanced and Emerging Markets 772
 
-Markets 772
-
-APPLICATION The Argentine Convertibility Plan Before the Tequila
-
-Crisis 775
+APPLICATION The Argentine Convertibility Plan Before the Tequila Crisis 775
 
 Defending the Peg II: Changes in the Composition of Money Supply 777
 
@@ -1216,7 +1191,9 @@ Sticking to the Rules 842
 
 # 5 Conclusions: Assessing the Euro 851
 
-HEADLINES A Bad Marriage? 852 Key Points, Key Terms, and Problems
+HEADLINES A Bad Marriage? 852
+
+Key Points, Key Terms, and Problems
 
 # CHAPTER 22 Topics in International Macroeconomics 859
 

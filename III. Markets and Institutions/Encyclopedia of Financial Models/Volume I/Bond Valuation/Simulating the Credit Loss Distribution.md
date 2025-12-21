@@ -1,4 +1,25 @@
 
+---
+title: Simulating the Credit Loss Distribution
+parent_directory: Bond Valuation
+formatted: 2025-12-21 10:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - monte carlo simulation
+  - credit loss distribution
+  - credit risk modeling
+secondary_tags:
+  - asset returns
+  - multivariate normal
+  - rating transition probabilities
+  - tail risk measures
+  - credit value at risk
+  - expected shortfall
+  - multivariate t distribution
+cssclasses: academia
+---
+
 # Simulating the Credit Loss Distribution
 
 SRICHANDER RAMASWAMY, PhD

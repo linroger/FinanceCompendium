@@ -1,19 +1,17 @@
 ---
-aliases:
-- Many Goods and Factors
-tags: null
-key_concepts: null
+title: Chapter 3: Many Goods and Factors
 parent_directory: II. Economics/International/Economics Advance International Trade
-cssclasses: academia
-title: 'Chapter 3: Many Goods and Factors'
-linter-yaml-title-alias: 'Chapter 3: Many Goods and Factors'
+formatted: 2025-12-21 09:54:35 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- number goods factors called
-- stolper samuelson rybczynski theorems
+  - stolper samuelson theorem
 secondary_tags:
-- goods factors heckscher ohlin
-- hov model studied
-tags_extracted: '2025-12-18T00:14:22.297726'
+  - rybczynski theorem
+  - factor price equalization
+  - heckscher ohlin model
+  - many goods factors
+cssclasses: academia
 ---
 
 # Chapter 3: Many Goods and Factors

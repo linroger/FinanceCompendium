@@ -32,7 +32,7 @@ Filed: December 15, 2006 (period: )
 
 Form of prospectus disclosing information, facts, events covered in both forms 424B2 424B3
 
-# PROSPECTUS SUPPLEMENT
+## PROSPECTUS SUPPLEMENT
 
 (To Prospectus Dated May 9, 2006)
 
@@ -48,7 +48,7 @@ the securities offered by means of this prospectus supplement.
 
 \$750,000,000
 
-# MGM MIRAGE
+## MGM MIRAGE
 
 # 75/8% Senior Notes due 2017
 
@@ -92,7 +92,7 @@ Prospectus Supplement dated December 13, 2006
 
 This prospectus supplement and the accompanying prospectus are part of a "shelf" registration statement that we filed with the SEC. By using a shelf registration statement, we may sell any combination of the securities described in the prospectus from time to time in one or more offerings. You should rely only on the information or representations incorporated by reference or provided in this prospectus supplement and the accompanying prospectus. We have not authorized anyone to provide you with different information. If anyone provides you with different or inconsistent information, you should not rely on it. If the description of this offering varies between this prospectus supplement and the accompanying prospectus, you should rely on the information contained in or incorporated by reference in this prospectus supplement. You may obtain copies of the shelf registration, or any document which we have filed as an exhibit to the shelf registration or to any other SEC filing, either from the SEC or from the Secretary of MGM MIRAGE as described under "Where You Can Find More Information." We are not making an offer to sell these securities in any jurisdiction where the offer or sale is not permitted. You should not assume that the information in this prospectus supplement and the accompanying prospectus is accurate as of any date other than the date printed on their respective covers.
 
-# FORWARD-LOOKING STATEMENTS
+## FORWARD-LOOKING STATEMENTS
 
 This prospectus supplement and the accompanying prospectus include "forward-looking statements" that are subject to risks and uncertainties. In portions of this prospectus supplement and the accompanying prospectus, the words "anticipates," "believes," "estimates," "seeks," "expects," "plans," "intends" and similar expressions, as they relate to us or our management, are intended to identify forward-looking statements. Although we believe that the expectations reflected in such forward-looking statements are reasonable, and have based these expectations on our beliefs as well as assumptions we have made, such expectations may prove to be incorrect. Important factors that could cause actual results to differ materially from such expectations are disclosed in this prospectus supplement and the accompanying prospectus including, without limitation, those set forth under "Risk Factors," beginning on page S-3.
 
@@ -100,11 +100,11 @@ All subsequent written and oral forward-looking statements attributable to us or
 
 S-ii
 
-# PROSPECTUSUMMARY
+## PROSPECTUSUMMARY
 
 This summary is not complete and may not contain all of the information that may be important to you. You should read the entire prospectus supplement and the accompanying prospectus carefully, as well as the documents incorporated by reference, for a more complete understanding of this offer and the notes. In this prospectus supplement, except where the context otherwise requires, we will collectively refer to MGM MIRAGE and its direct and indirect subsidiaries as "MGM MIRAGE," "we," "our" and "us."
 
-# MGM MIRAGE
+## MGM MIRAGE
 
 We are one of the largest gaming companies in the world. We own what we believe to be the world's finest collection of casino resorts. We own and operate Bellagio, MGM Grand, Mandalay Bay, The Mirage, Luxor, Treasure Island ("TI"), New York-New York, Excalibur, Monte Carlo, Circus Circus-Las Vegas and Slots-A-Fun located in Las Vegas, Nevada. We also own and operate Circus Circus-Reno, located in Reno, Nevada, Gold Strike and Nevada Landing, located in Jean, Nevada, Railroad Pass, located in Henderson, Nevada, MGM Grand Detroit, located in Detroit, Michigan, Gold Strike, located in Tunica County, Mississippi, and Beau Rivage, a beachfront resort located in Biloxi, Mississippi. Beau Rivage reopened on August 29, 2006 after being closed for business for one year due to extensive damage from Hurricane Katrina. We are also a  $50\%$  owner of Silver Legacy, located in Reno, Nevada, a  $50\%$  owner of Borgata, a destination casino resort on Renaissance Pointe in Atlantic City, New Jersey and  $50\%$  owner of Grand Victoria, a riverboat casino in Elgin, Illinois. We also have a  $50\%$  interest in the MGM Grand Macau under construction in Macau S.A.R. We are developing CityCenter, a multi-billion dollar mixed-use urban development project on the Las Vegas Strip. We are also developing a permanent hotel-casino facility in Detroit, Michigan, which is expected to replace the current interim casino facility in late 2007. In addition, our other operations include the Shadow Creek golf course in North Las Vegas, two golf courses at the Primm Valley Resorts, and a  $50\%$  investment in The Signature at MGM Grand, a condominium-hotel development in Las Vegas, Nevada.
 
@@ -112,7 +112,7 @@ In October 2006, we entered into an agreement to sell our subsidiaries that oper
 
 Our principal executive office is located at 3600 Las Vegas Boulevard South, Las Vegas, Nevada 89109. Our telephone number is (702) 693-7120.
 
-# The Offering
+## The Offering
 
 The following is a brief summary of some of the terms of the offering. For a more complete description of the terms of the notes, see "Description of the Notes" in this prospectus supplement.
 
@@ -578,7 +578,7 @@ The SEC allows us to "incorporate by reference" information filed with it, which
 
 We incorporate by reference the documents listed below and any future filings made with the SEC by us or Mandalay Resort Group under Sections 13(a), 13(c), 14 or 15(d) of the Exchange Act:
 
-# MGM MIRAGE:
+## MGM MIRAGE:
 
 - Our Annual Report on Form 10-K for the year ended December 31, 2005;  
 - Our Quarterly Reports on Form 10-Q for the fiscal quarters ended March 31, 2006, June 30, 2006 and September 30, 2006;  
@@ -595,7 +595,7 @@ Any person receiving a copy of this prospectus supplement may obtain, without ch
 
 # PROSPECTUS
 
-# MGM MIRAGE
+## MGM MIRAGE
 
 # Debt Securities Guarantees Common Stock
 
@@ -633,7 +633,7 @@ The Commission allows us to "incorporate by reference" the information that we f
 
 We incorporate by reference the documents listed below:
 
-# MGM MIRAGE:
+## MGM MIRAGE:
 
 - Our Annual Report on Form 10-K for the year ended December 31, 2005;  
 - Our definitive Proxy Statement filed with the Commission on April 3, 2006;  
@@ -694,7 +694,7 @@ TABLE OF CONTENTS
 
 \$750,000,000
 
-# MGM MIRAGE
+## MGM MIRAGE
 
 75/8% Senior Notes due 2017
 

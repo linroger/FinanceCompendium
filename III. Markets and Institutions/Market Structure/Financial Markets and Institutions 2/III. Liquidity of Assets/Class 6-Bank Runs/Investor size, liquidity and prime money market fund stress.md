@@ -1,24 +1,33 @@
 ---
-title: Class 6 - Investor Size, Liquidity and Prime Money Market Fund Stress
+title: "Investor Size, Liquidity and Prime Money Market Fund Stress"
 parent_directory: Class 6-Bank Runs
-formatted: 2025-12-21 05:00:00 AM
-formatter_model: claude-haiku-4-5-20251001
+formatted: 2025-12-21 05:55:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-  - money market funds
-  - investor behavior
-  - liquidity management
-  - financial crisis 2020
+   - money market funds
+   - investor behavior
+   - liquidity management
+   - financial crisis 2020
+   - redemption runs
+   - fund managers response
 secondary_tags:
-  - prime institutional funds
-  - redemption runs
-  - federal reserve intervention
-  - asset liquidity
-  - market microstructure
-  - covid 19 impact
+   - prime institutional funds
+   - federal reserve intervention
+   - asset liquidity
+   - market microstructure
+   - covid 19 impact
+   - central bank intervention
+   - liquidity buffers
+   - mmlf facility
+   - government mmfs
+   - euro area mmfs
+   - regulatory reforms
+   - share pricing rules
 cssclasses: academia
 ---
 
-# Investor size, liquidity and prime money market fund stress<sup>1</sup>
+# Investor Size, Liquidity and Prime Money Market Fund Stress
 
 Massive redemptions at money market funds (MMFs) investing primarily in high-quality short-term private debt securities were an important feature of the market dislocations in March 2020. Building on previous studies of the underlying drivers, we find that large investors' withdrawals did not differentiate across prime institutional MMFs according to these funds' asset liquidity positions. We also find that, faced with large redemptions, the managers of these funds disposed of the less liquid securities in their portfolios, marking a departure from their behaviour in tranquil times. This is likely to have exacerbated market-wide liquidity shortages. After the Federal Reserve's announcement of the Money Market Mutual Fund Liquidity Facility, all funds strengthened their liquidity positions, with those hardest-hit by outflows attempting to catch up with peers.
 
@@ -29,6 +38,39 @@ JEL classification: G23, G28, E58.
 - In March 2020, prime institutional money market funds serving large investors experienced withdrawals irrespective of the liquidity of underlying assets.  
 - During the massive withdrawals, fund managers mostly disposed of less liquid assets, which may have exacerbated market-wide liquidity shortages.  
 - Once policy relief set in, fund managers rebuilt liquidity buffers, with the funds hardest-hit by outflows strengthening their liquidity positions most aggressively.
+
+```d2
+direction: right
+
+large_investors: Large Investors {
+  shape: person
+}
+
+small_investors: Small Investors {
+  shape: person
+}
+
+prime_mmfs: Prime MMFs
+
+fed: Federal Reserve
+
+large_investors -> prime_mmfs: Mass redemptions (irrespective of liquidity) {
+  style.stroke: red
+  style.stroke-width: 3
+}
+
+small_investors -> prime_mmfs: Redemptions (sensitive to liquidity) {
+  style.stroke: blue
+}
+
+prime_mmfs -> assets: Sell less liquid assets {
+  style.stroke: orange
+}
+
+fed -> prime_mmfs: MMLF support {
+  style.stroke: green
+}
+```
 
 As the Covid-19 shock gathered momentum in March 2020, large withdrawals beset money market mutual funds (MMFs) investing primarily in high-quality short-term private debt securities (prime MMFs). Since these funds are major global providers of short-term dollar funding to banks and non-financial corporates, their stress had system-wide repercussions (Eren, Schrimpf and Sushko (2020a,b)).
 
@@ -64,9 +106,9 @@ portfolio composition, only LVNAV funds are subject to MMF regulatory guidelines
 
 In early March 2020, the initial sanguine reaction of investors to the threat posed by Covid-19 gave way to a frantic "dash-for-cash".<sup>8</sup> Prime institutional MMFs saw 20 consecutive days of outflows between 6 and 26 March 2020 (henceforth, the run or stress period). The redemption dynamics in the midst of this acute market turmoil diverged widely across MMF types.
 
-Government MMFs saw massive inflows over the course of March 2020 as investors fled to safety in both the United States and Europe. By the end of the month, US government MMFs had notched up investor inflows of around  \$800 billion (Graph 1, first panel, red line), increasing their pre-stress AUM by almost a third. Similarly, European dollar-denominated CNAV funds saw almost a \(70\%$  increase in their AUM, with inflows around \)80 billion (third panel, red line).
+Government MMFs saw massive inflows over the course of March 2020 as investors fled to safety in both the United States and Europe. By the end of the month, US government MMFs had notched up investor inflows of around \$800 billion (Graph 1, first panel, red line), increasing their pre-stress AUM by almost a third. Similarly, European dollar-denominated CNAV funds saw almost a \(70\%\) increase in their AUM, with inflows around \$80 billion (third panel, red line).
 
-At the same time, most other MMF classes experienced outflows. US prime institutional MMFs and European dollar-denominated LVNAV funds underwent a run-type event, with withdrawals reaching roughly  \$100 and\$ 90 billion, respectively (Graph 1, first panel, green solid line, and third panel, yellow line). Daily outflows from US prime institutional MMFs exceeded 2% of the previous-day AUM for eight trading days in a row, an extraordinary event from a historical perspective. European dollar-denominated LVNAV funds had a similar experience.[9]
+At the same time, most other MMF classes experienced outflows. US prime institutional MMFs and European dollar-denominated LVNAV funds underwent a run-type event, with withdrawals reaching roughly \$100 and \$90 billion, respectively (Graph 1, first panel, green solid line, and third panel, yellow line). Daily outflows from US prime institutional MMFs exceeded 2% of the previous-day AUM for eight trading days in a row, an extraordinary event from a historical perspective. European dollar-denominated LVNAV funds had a similar experience.[9]
 
 Within the prime institutional MMF universe, the experience of individual funds was highly uneven. During the run, cumulative redemptions ranged from 5 to  $40\%$  of pre-run AUM for half of the funds, with a quarter of the funds faring much worse (Graph 1, second panel).<sup>10</sup> By contrast, some funds recorded gains of up to  $20\%$  of pre-run AUM. In Europe, one half of the fund-level redemptions were within a comparable range of  $0 - 30\%$  of pre-run AUM (fourth panel).
 
@@ -142,9 +184,9 @@ to more sizeable resources for data gathering, market intelligence and analysis 
 
 In addition, large investors may be subject to constraints that make them particularly averse to potential capital losses. For instance, corporate treasurers, who temporarily park excess liquidity earmarked for payrolls in prime funds, may be sensitive to potential capital losses and are likely to promptly redeem when signs of stress at these funds first appear. Also, large investors may take leveraged risky positions. When such positions turn sour, these investors are likely to redeem in response to margin calls, or in anticipation of them. In other words, they would react to sources of liquidity stress that are unrelated to the features of the MMFs in which they invest.
 
-We find that outflows of larger investors from prime institutional MMFs were more severe during the March episode. Since we do not have direct information on investors' size, we use the proxy of the size of the funds' minimum investments.[14] Funds with a minimum investment above the median (henceforth, funds with large investors) experienced on average higher redemptions (Graph 2, centre panel). In fact, cumulative outflows during the run differed by almost  $20\%$  between largeand small-investor funds.
+We find that outflows of larger investors from prime institutional MMFs were more severe during the March episode. Since we do not have direct information on investors' size, we use the proxy of the size of the funds' minimum investments.[14] Funds with a minimum investment above the median (henceforth, funds with large investors) experienced on average higher redemptions (Graph 2, centre panel). In fact, cumulative outflows during the run differed by almost  $20\%$  between large- and small-investor funds.
 
-More importantly, we find that large and small investors differed starkly in their response to funds' liquidity positions. To support this conclusion, we combine the two previous classifications and form four groups of funds. Up to end-March, outflows from funds, for both highand low-liquidity segments, with large investors were much more intense than those from funds with smaller investors (Graph 2, solid lines vs dashed lines). Moreover, among the funds with large investors, withdrawals were roughly of the same intensity regardless of the funds' underlying liquidity (Graph 2, red vs blue solid lines). By contrast, among funds with smaller investors, those with low liquidity saw larger withdrawals (red vs blue dashed lines). Overall, these results are consistent with large investors redeeming because of their own liquidity needs, while smaller investors appeared more concerned with the liquidity of the funds' assets.
+More importantly, we find that large and small investors differed starkly in their response to funds' liquidity positions. To support this conclusion, we combine the two previous classifications and form four groups of funds. Up to end-March, outflows from funds, for both high- and low-liquidity segments, with large investors were much more intense than those from funds with smaller investors (Graph 2, solid lines vs dashed lines). Moreover, among the funds with large investors, withdrawals were roughly of the same intensity regardless of the funds' underlying liquidity (Graph 2, red vs blue solid lines). By contrast, among funds with smaller investors, those with low liquidity saw larger withdrawals (red vs blue dashed lines). Overall, these results are consistent with large investors redeeming because of their own liquidity needs, while smaller investors appeared more concerned with the liquidity of the funds' assets.
 
 A panel regression analysis quantifies more formally the above results (Box A). Funds with larger investors experienced  $1.7\%$  higher daily outflows – that is,  $26\%$  higher cumulative run outflows over the stress period. Further, large investors' daily outflows did not differ materially  $(0.3\%)$  between highand low-liquidity funds, either in terms of economic or statistical significance. Finally, small investors did withdraw more forcefully from low-liquidity funds, to the tune of  $0.8\%$  higher daily outflows (or more than  $10\%$  higher cumulative run outflows).
 
@@ -177,17 +219,13 @@ To examine how liquidity and investor size interact with each other in affecting
 
 The results reveal that the liquidity position of the fund is irrelevant for the redemption decision of large investors (Table A, column (4)). The difference between  $\beta_{LH}$  and  $\beta_{HH}$  is small in magnitude (0.3%) and not statistically significant. The liquidity condition of the fund, however, does matter for small investors, with low liquidity funds experiencing 0.8% higher outflows all else equal ( $\beta_{LL} - \beta_{HL}$ ). Comparing larger with smaller investors, the former always withdrew more aggressively, by 2% ( $\beta_{HH} - \beta_{HL}$ ) and 1.5% ( $\beta_{LH} - \beta_{LL}$ ) in terms of daily outflows for highand low-liquid funds, respectively.
 
-$①$  The median for the minimum investment is calculated across funds. The median for the average WLA is calculated across portfolios. This is because sometimes several funds (akin to share classes) invest in a single portfolio. As a result, liquidity measures are identical for all funds that share the same portfolio.  $②$  We also rerun the analysis using continuous measures of liquidity and investor sophistication. The message is robust to this modification.
-
-weaken their liquidity positions, bringing them closer to the regulatory thresholds and potentially triggering further withdrawals. Alternatively, they could choose to also reduce their less liquid security holdings, in order to preserve the fund's liquidity position. This, however, could lead to larger price discounts and thus higher capital losses.[15]
+$①$ The median for the minimum investment is calculated across funds. The median for the average WLA is calculated across portfolios. This is because sometimes several funds (akin to share classes) invest in a single portfolio. As a result, liquidity measures are identical for all funds that share the same portfolio. $②$ We also rerun the analysis using continuous measures of liquidity and investor sophistication. The message is robust to this modification.
 
 How did managers actually respond? At the beginning of the run episode, managers of funds suffering larger withdrawals prioritised preserving their WLA. In fact, such funds tended to increase their WLA ratios (Graph 3, left-hand panel, red line across the grey area). Funds suffering lower outflows also increased their WLA, but to a lesser extent (blue line).
 
 Weighted average maturity (WAM), $^{16}$  another measure of portfolio liquidity, followed the opposite path at the beginning of this episode. Initially, this measure increased significantly – pointing to reduced liquidity – for high-outflow funds (Graph 3, right-hand panel, red line), in contrast with the upswing in WLA. The pattern was similar for low-outflow funds, even though the magnitudes were smaller (blue line).
 
-Thus, the asset managers of prime institutional MMFs may have added to the liquidity stress in financial markets prior to the MMLF announcement. Considered together, the WLA and WAM paths suggest that these managers substituted short-term private debt securities for longer-tenor US Treasuries and other government obligations. In this way, they could preserve WLA while at the same time enhancing
-
-yield. These trades were procyclical, as they took place when private debt was already under selling pressure and cash-like government instruments were in high demand.
+Thus, the asset managers of prime institutional MMFs may have added to the liquidity stress in financial markets prior to the MMLF announcement. Considered together, the WLA and WAM paths suggest that these managers substituted short-term private debt securities for longer-tenor US Treasuries and other government obligations. In this way, they could preserve WLA while at the same time enhancing yield. These trades were procyclical, as they took place when private debt was already under selling pressure and cash-like government instruments were in high demand.
 
 ## Liquidity Management at Prime Institutional MMFs During the March Turmoil
 

@@ -1,24 +1,21 @@
 ---
-aliases:
-- Preliminaries Two-Sector Models
-tags: null
-key_concepts: null
+title: "Chapter 1: Preliminaries: Two-Sector Models"
 parent_directory: II. Economics/International/Economics Advance International Trade
-cssclasses: academia
-title: 'Chapter 1: Preliminaries - Two-Sector Models'
-linter-yaml-title-alias: 'Chapter 1: Preliminaries - Two-Sector Models'
+formatted: 2025-12-21 09:50:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
 primary_tags:
-- world relative demand
-- goods factor labor ricardian
-- p2 f2 l2 k2
+- ricardian trade model
+- two sector models
+- factor price equalization
 secondary_tags:
-- trade patterns ricardian model
-- international trade equilibrium
-- pattern international trade countries
-- goods produced countries argued
-- sector models
-- labor capital production functions
-tags_extracted: '2025-12-18T00:14:14.907818'
+- comparative advantage
+- heckscher-ohlin theory
+- stolper-samuelson theorem
+- rybczynski theorem
+- production possibilities frontier
+- zero profit conditions
+cssclasses: academia
 ---
 
 # Chapter 1: Preliminaries: Two-Sector Models
@@ -31,20 +28,9 @@ After reviewing the Ricardian model, we turn to the two-good, two-factor model w
 
 Indexing goods by the subscript i, let  $a_i$  denote the labor needed per unit of production of each good at home, while  $a_i^*$  is the labor need per unit of production in the foreign country,  $i = 1,2$ . The total labor force at home is  $L$  and abroad is  $L^*$ . Labor is perfectly mobile between the industries in each country, but immobile across countries. This means that both goods are produced in the home country only if the wages earned in the two industries are the same. Since the marginal product of labor in each industry is  $1 / a_i$ , wages are equalized across industries if and only if  $p_1 / a_1 = p_2 / a_2$ , where  $p_i$  is the price in each industry. Letting  $p = p_1 / p_2$  denote the relative price of good 1 (using good 2 as the numeraire), this condition is  $p = a_1 / a_2$ .
 
-These results are illustrated in Figure 1.1(a) and (b), where we graph the production possibility frontiers (PPF's) for the home and foreign countries. With all labor devoted to good i at home, it can produce  $\mathrm{L /a_i}$  units,  $i = 1,2$ , so this establishes the intercepts of the PPF, and similarly for the foreign country. The slope of the PPF in each country is then  $\mathrm{a_1 /a_2}$  and  $\mathrm{a_1^* /a_2^*}$ . Under autarky (i.e. no international trade), the equilibrium relative prices  $\mathsf{p}^{\mathrm{a}}$  and  $\mathsf{p}^{\mathrm{a}^*}$  must equal these slopes in order to have both goods produced in both countries, as argued above. Thus, the autarky equilibrium at home and abroad might occur at points A and A*. Suppose that the home country has a comparative advantage in producing good 1, meaning that  $\mathrm{a_1 /a_2 <a_1^* /a_2^*}$ . This implies that the home autarky relative price of good 1 is lower than that abroad.
+These results are illustrated in Figure 1.1(a) and (b), where we graph the production possibility frontiers (PPF's) for the home and foreign countries. With all labor devoted to good i at home, it can produce $\mathrm{L /a_i}$ units, $i = 1,2$, so this establishes the intercepts of the PPF, and similarly for the foreign country. The slope of the PPF in each country is then $\mathrm{a_1 /a_2}$ and $\mathrm{a_1^* /a_2^*}$. Under autarky (i.e. no international trade), the equilibrium relative prices $\mathsf{p}^{\mathrm{a}}$ and $\mathsf{p}^{\mathrm{a}^*}$ must equal these slopes in order to have both goods produced in both countries, as argued above. Thus, the autarky equilibrium at home and abroad might occur at points A and A*. Suppose that the home country has a comparative advantage in producing good 1, meaning that $\mathrm{a_1 /a_2 <a_1^* /a_2^*}$. This implies that the home autarky relative price of good 1 is lower than that abroad.
 
-Now letting the two countries engage in international trade, then what is the equilibrium price  $p$  at which world demand equals world supply? To answer this, it is helpful to graph the
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/7f20fb49ca36c72dbcb478f59b204e1a8da18083c87eb94d950fb463868616a7.jpg)
-Figure 1.1(a): Home Country
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/3595259ac05908a15732100d2248dd9b32a6c79d36150edaa204d0fc78ae8cf4.jpg)
-Figure 1.1(b): Foreign Country
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/a2b0dbf7c48e1d7bc4a80e36b63c4ac0588621eb1a7f0baa00ff83463d1f9ef7.jpg)
-Figure 1.2
-
-world relative supply and demand curves, as illustrated in Figure 1.2. For the relative price satisfying  $p < p^a = a_1 / a_2$  and  $p < p^{a*} = a_1^* / a_2^*$ , both countries are fully specialized in good 2 (since wages earned in that sector are higher), so the world relative supply of good 1 is zero. For  $p^a < p < p^{a*}$ , the home country is fully specialized in good 1 whereas the foreign country is still specialized in good 2, so that the world relative supply is  $(L / a_1) / (L^* / a_2^*)$ , as labeled in Figure 1.2. Finally, for  $p > p^a$  and  $p > p^{a*}$ , both countries are specialized in good 1. So we see that the world relative supply curve has a "stair-step" shape, which reflects the linearity of the PPF's.
+Now letting the two countries engage in international trade, then what is the equilibrium price $p$ at which world demand equals world supply? To answer this, it is helpful to graph the world relative supply and demand curves, as illustrated in Figure 1.2. For the relative price satisfying  $p < p^a = a_1 / a_2$  and  $p < p^{a*} = a_1^* / a_2^*$ , both countries are fully specialized in good 2 (since wages earned in that sector are higher), so the world relative supply of good 1 is zero. For  $p^a < p < p^{a*}$ , the home country is fully specialized in good 1 whereas the foreign country is still specialized in good 2, so that the world relative supply is  $(L / a_1) / (L^* / a_2^*)$ , as labeled in Figure 1.2. Finally, for  $p > p^a$  and  $p > p^{a*}$ , both countries are specialized in good 1. So we see that the world relative supply curve has a "stair-step" shape, which reflects the linearity of the PPF's.
 
 To obtain world relative demand, let us make the simplifying assumption that tastes are identical and homothetic across the countries. Then demand will be independent of the distribution of income across the countries. Demand being homothetic means that relative demand  $\mathrm{d}_1 / \mathrm{d}_2$  in either country is a downward-sloping function of the relative price  $\mathfrak{p}$ , as illustrated in Figure 1.2. In the case we have shown, relative demand intersects relative supply at the world price  $\mathfrak{p}$  that lies between  $\mathrm{p}^{\mathrm{a}}$  and  $\mathrm{p}^{\mathrm{a}*}$ , but this does not need to occur: instead, we can have relative demand intersect one of the flat-segments of relative supply, so that the equilibrium price with trade equals the autarky price in one country.
 
@@ -56,9 +42,7 @@ Notice that the home country exports good 1, which is in keeping with its compar
 
 # Two-Good, Two-Factor Model
 
-Focusing now on a single country, we will suppose that it produces two goods with the production functions  $y_{i} = f_{i}(L_{i}, K_{i})$ ,  $i = 1,2$ , where  $y_{i}$  is the output produced using labor  $L_{i}$  and capital  $K_{i}$ . These production functions are assumed to be increasing, concave, and homogeneous of degree one in the inputs  $(L_{i}, K_{i})$ . The last assumption means that there is constant returns to
-
-scale in the production of each good. This will be a maintained assumption for the next several chapters, but it should be pointed out that it is rather restrictive. It has long been thought that increasing returns to scale might be an important reason to have trade between countries: if a firm with increasing returns is able to sell in a foreign market, this expansion of output will bring a reduction in its average costs of production, which is an indication of greater efficiency. Indeed, this was a principal reason that Canada entered into a free trade agreement with the United States in 1989: to give its firms free access to the large American market. We will return to these interesting issues in chapter 5, but for now, ignore increasing returns to scale.
+Focusing now on a single country, we will suppose that it produces two goods with the production functions  $y_{i} = f_{i}(L_{i}, K_{i})$ ,  $i = 1,2$ , where  $y_{i}$  is the output produced using labor  $L_{i}$  and capital  $K_{i}$ . These production functions are assumed to be increasing, concave, and homogeneous of degree one in the inputs $(L_{i}, K_{i})$. The last assumption means that there is constant returns to scale in the production of each good. This will be a maintained assumption for the next several chapters, but it should be pointed out that it is rather restrictive. It has long been thought that increasing returns to scale might be an important reason to have trade between countries: if a firm with increasing returns is able to sell in a foreign market, this expansion of output will bring a reduction in its average costs of production, which is an indication of greater efficiency. Indeed, this was a principal reason that Canada entered into a free trade agreement with the United States in 1989: to give its firms free access to the large American market. We will return to these interesting issues in chapter 5, but for now, ignore increasing returns to scale.
 
 We will assume that labor and capital are assumed to be fully mobile between the two industries, so we are taking a "long run" point of view. Of course, the amount of factors employed in each industry is constrained by the endowments found in the economy. These resource constraints are stated as:
 
@@ -120,9 +104,9 @@ $$
 \frac{\partial c_{i}}{\partial w} = a_{i L} + \left(w \frac{\partial a_{i L}}{\partial w} + r \frac{\partial a_{i K}}{\partial w}\right). \tag {1.6}
 $$
 
-As we found with differentiating the GDP function, it turns out that the terms in parentheses on the right of (1.6) sum to zero, which is again an application of the “envelope theorem.” It follows that the derivative of the unit-costs with respect to the wage equals the labor needed for one unit of production,  $\partial c_{\mathrm{i}} / \partial \mathrm{w} = a_{\mathrm{iL}}$ . Similarly,  $\partial c_{\mathrm{i}} / \partial \mathrm{r} = a_{\mathrm{iK}}$ .
+As we found with differentiating the GDP function, it turns out that the terms in parentheses on the right of (1.6) sum to zero, which is again an application of the “envelope theorem.” It follows that the derivative of the unit-costs with respect to the wage equals the labor needed for one unit of production, $\partial c_{\mathrm{i}} / \partial \mathrm{w} = a_{\mathrm{iL}}$. Similarly, $\partial c_{\mathrm{i}} / \partial \mathrm{r} = a_{\mathrm{iK}}$.
 
-To prove this result, notice that the constraint in the cost-minimization problem can be written as the isoquant  $\mathrm{f_i(a_{iL},a_{iK})} = 1$ . Totally differentiate this to obtain  $\mathrm{f_{iL}da_{iL} + f_{iK}da_{iK}} = 0$ , where  $\mathrm{f_{iL}}\equiv \partial \mathrm{f_i} / \partial \mathrm{L_i}$  and  $\mathrm{f_{iK}}\equiv \partial \mathrm{f_i} / \partial \mathrm{K_i}$ . This equality must hold for any small movement of labor  $\mathrm{da_{iL}}$  and capital  $\mathrm{da_{iK}}$  around the isoquant, and in particular, for the change in labor and capital induced by a change in wages. Therefore,  $\mathrm{f_{iL}}(\partial \mathrm{a_{iL}} / \partial \mathrm{w}) + \mathrm{f_{iK}}(\partial \mathrm{a_{iK}} / \partial \mathrm{w}) = 0$ . Now multiply this through by the product price  $p_i$ , noting that  $p_i f_{iL} = w$  and  $p_i f_{iK} = r$  from the profit-maximization conditions for a competitive firm. Then we see that the terms in parentheses on the right of (1.6) sum to zero.
+To prove this result, notice that the constraint in the cost-minimization problem can be written as the isoquant $\mathrm{f_i(a_{iL},a_{iK})} = 1$. Totally differentiate this to obtain $\mathrm{f_{iL}da_{iL} + f_{iK}da_{iK}} = 0$, where $\mathrm{f_{iL}}\equiv \partial \mathrm{f_i} / \partial \mathrm{L_i}$ and $\mathrm{f_{iK}}\equiv \partial \mathrm{f_i} / \partial \mathrm{K_i}$. This equality must hold for any small movement of labor $\mathrm{da_{iL}}$ and capital $\mathrm{da_{iK}}$ around the isoquant, and in particular, for the change in labor and capital induced by a change in wages. Therefore, $\mathrm{f_{iL}}(\partial \mathrm{a_{iL}} / \partial \mathrm{w}) + \mathrm{f_{iK}}(\partial \mathrm{a_{iK}} / \partial \mathrm{w}) = 0$. Now multiply this through by the product price $p_i$, noting that $p_i f_{iL} = w$ and $p_i f_{iK} = r$ from the profit-maximization conditions for a competitive firm. Then we see that the terms in parentheses on the right of (1.6) sum to zero.
 
 The first set of equilibrium conditions for the two-by-two economy is that profits equal zero. This follows from free entry under perfect competition. The zero-profit conditions are stated as:
 
@@ -130,9 +114,7 @@ $$
 \begin{array}{l} p_{1} = c_{1} (\mathrm{w}, \mathrm{r}), \tag {1.7} \\ \mathrm{p}_{2} = \mathrm{c}_{2} (\mathrm{w}, \mathrm{r}). \\ \end{array}
 $$
 
-The second set of equilibrium conditions is full-employment of both resources. These are the same as the resource constraints (1.1), except that now we express them as equalities. In addition, we will re-write the labor and capital used in each industry in terms of the derivatives of the unit-cost function. Since  $\partial c_{\mathrm{i}} / \partial \mathrm{w} = a_{\mathrm{iL}}$  is the labor used for one unit of production, it
-
-follows that the total labor used in  $\mathrm{L_i =y_ia_{iL}}$ , and similarly the total capital used is  $\mathrm{K_i =y_ia_{iK}}$ . Substituting these into (1.1), the full-employment conditions for the economy are written as:
+The second set of equilibrium conditions is full-employment of both resources. These are the same as the resource constraints (1.1), except that now we express them as equalities. In addition, we will re-write the labor and capital used in each industry in terms of the derivatives of the unit-cost function. Since $\partial c_{\mathrm{i}} / \partial \mathrm{w} = a_{\mathrm{iL}}$ is the labor used for one unit of production, it follows that the total labor used in $\mathrm{L_i =y_ia_{iL}}$, and similarly the total capital used is $\mathrm{K_i =y_ia_{iK}}$. Substituting these into (1.1), the full-employment conditions for the economy are written as:
 
 $$
 \underbrace {a_{1 \mathrm{L}} y_{1}}_{\mathrm{L}_{1}} + \underbrace {a_{2 \mathrm{L}} y_{2}}_{\mathrm{L}_{2}} = \mathrm{L}, \tag {1.8}
@@ -148,13 +130,11 @@ To guide us in this investigation, there are three key questions that we can ask
 
 # Determination of Factor Prices
 
-Notice that our four equation system above can be decomposed into the zero-profit conditions as two equations in two unknowns – the wage and rental – and then the full-employment conditions, which involve both the factor prices (which affect  $a_{iL}$  and  $a_{iK}$ ) and the outputs. It would be especially convenient if we could uniquely solve for the factor prices from
-
-the zero-profit conditions, and then just substitute these into the full-employment conditions. This will be possible when the hypotheses of the following Lemma, are satisfied:
+Notice that our four equation system above can be decomposed into the zero-profit conditions as two equations in two unknowns – the wage and rental – and then the full-employment conditions, which involve both the factor prices (which affect $a_{iL}$ and $a_{iK}$) and the outputs. It would be especially convenient if we could uniquely solve for the factor prices from the zero-profit conditions, and then just substitute these into the full-employment conditions. This will be possible when the hypotheses of the following Lemma, are satisfied:
 
 # Lemma (Factor Price Insensitivity)
 
-So long as both goods are produced, and factor intensity reversals (FIR) do not occur, then each price vector  $(\mathfrak{p}_1,\mathfrak{p}_2)$  corresponds to unique factor prices  $(\mathrm{w},\mathrm{r})$
+So long as both goods are produced, and factor intensity reversals (FIR) do not occur, then each price vector $(\mathfrak{p}_1,\mathfrak{p}_2)$ corresponds to unique factor prices $(\mathrm{w},\mathrm{r})$
 
 This is a remarkable result, because it says that the factor endowments (L,K) do not matter for the determination of (w,r). We can contrast this result with a one-sector economy, with production of  $y = f(L,K)$ , wages of  $w = pf_L$ , and diminishing marginal product  $f_{LL} < 0$ . In this case, any increase in the labor endowments would certainly reduce wages, so that countries with higher labor/capital endowments (L/K) would have lower wages. This is the result we normally expect. In contrast, the above Lemma says that in a two-by-two economy, with a fixed product price  $p$ , it is possible for the labor force or capital stock to grow without affecting their factor prices! Thus, Leamer (1995) refers to this result as "factor price insensitivity." Our goal in this section is to prove the result and also develop the intuition for why it holds.
 
@@ -172,7 +152,7 @@ In Figure 1.6, however, the situation is more complicated. Now there are two set
 
 While FIR might seem like a theoretical curiosum, they are actually quite realistic. Consider the footwear industry, for example. While much of the footwear in the world is
 
-produced in developing nations, the United States retains a small number of plants. In sneakers, New Balance has a plant in Norridgewock, Maine, where employers earn some  \$14 per hour.$  Some operate computerized equipment with up to 20 sewing machine heads running at once, while others operate automated stitchers guided by cameras, that allow one person to do the work of six. This is a far cry from the plants in Asia that produce shoes for Nike, Reebock and other U.S. producers, using century-old technology and paying less than  $\$ 1$ per hour. The technology used to make sneakers in Asia is like industry 1 at point A in Figure 1.5, using labor-intensive technology and paying low wages  $\mathrm{w}^{\mathrm{A}}$ , while industry 1 in the U.S. is at point B, paying higher wages  $\mathrm{w}^{\mathrm{B}}$  and using a capital-intensive technology.
+produced in developing nations, the United States retains a small number of plants. In sneakers, New Balance has a plant in Norridgewock, Maine, where employers earn some \$14 per hour. Some operate computerized equipment with up to 20 sewing machine heads running at once, while others operate automated stitchers guided by cameras, that allow one person to do the work of six. This is a far cry from the plants in Asia that produce shoes for Nike, Reebock and other U.S. producers, using century-old technology and paying less than \$1 per hour. The technology used to make sneakers in Asia is like industry 1 at point A in Figure 1.5, using labor-intensive technology and paying low wages $\mathrm{w}^{\mathrm{A}}$, while industry 1 in the U.S. is at point B, paying higher wages $\mathrm{w}^{\mathrm{B}}$ and using a capital-intensive technology.
 
 As suggested by this discussion, when there are two possible solutions for the factor prices such as points A and B in Figure 1.6, then some countries can be at one equilibrium and others countries at the other. How do we know which country is where? To answer this, it is necessary to consider the full-employment conditions: these will allow us to determine the factor prices prevailing in each country. Notice that we have now re-introduced a link between factor endowments (from the full-employment conditions) and factor prices, as we argued earlier in the one-sector model: when there are FIR in the two-by-two model, it will turn out that a labor-abundant country will be at an equilibrium like point A, paying low wages, while a capital-abundant country will be at an equilibrium like point B, paying high wages.
 
@@ -184,15 +164,7 @@ $$
 
 We have already illustrated the gradient vectors  $(\mathbf{a}_{\mathrm{iL}},\mathbf{a}_{\mathrm{iK}})$  to the iso-cost curves in Figures 1.5 and 1.6. Now let us take these vectors and re-graph them, in Figures 1.7 and 1.8. In the simpler case of Figure 1.7, we have a single equilibrium for factor prices and a single set of labor and capital requirements  $(\mathbf{a}_{1\mathrm{L}},\mathbf{a}_{1\mathrm{K}})$  and  $(\mathbf{a}_{2\mathrm{L}},\mathbf{a}_{2\mathrm{K}})$ . Multiplying each of these by the output of their respective industries, we obtain the total labor and capital demands  $\mathbf{y}_1(\mathbf{a}_{1\mathrm{L}},\mathbf{a}_{1\mathrm{K}})$  and  $\mathbf{y}_2(\mathbf{a}_{2\mathrm{L}},\mathbf{a}_{2\mathrm{K}})$ . Summing these as in (1.8') we obtain the labor and capital endowments  $(\mathrm{L},\mathrm{K})$ . But this exercise can also be performed in reverse: for any endowment vector  $(\mathrm{L},\mathrm{K})$ , there will be a unique value for the outputs  $(\mathbf{y}_1,\mathbf{y}_2)$  such that when  $(\mathbf{a}_{1\mathrm{L}},\mathbf{a}_{1\mathrm{K}})$  and  $(\mathbf{a}_{2\mathrm{L}},\mathbf{a}_{2\mathrm{K}})$  are multiplied by these amounts, they will sum to the endowments.
 
-How can we be sure that the outputs obtained from (1.8') are positive? It is clear from Figure 1.7 that the outputs in both industries will be positive if and only if the endowment vector  $(\mathrm{L},\mathrm{K})$  lies in-between the factor requirement vectors  $(\mathrm{a}_{1\mathrm{L}},\mathrm{a}_{1\mathrm{K}})$  and  $(\mathrm{a}_{2\mathrm{L}},\mathrm{a}_{2\mathrm{K}})$ . For this reason, the space spanned by these two vectors is called a "cone of diversification", which we label by cone A in Figure 1.7. In contrast, if the endowment vector  $(\mathrm{L},\mathrm{K})$  lies outside of this cone, then it is impossible to add together any positive multiples of the vectors  $(\mathrm{a}_{1\mathrm{L}},\mathrm{a}_{1\mathrm{K}})$  and  $(\mathrm{a}_{2\mathrm{L}},\mathrm{a}_{2\mathrm{K}})$  and arrive at the endowment vector. So if  $(\mathrm{L},\mathrm{K})$  lies outside of the cone of diversification, then it must be that only one good is produced. At the end of the chapter, we will show how to determine which good it is. For now, we should just recognize that when only one good is
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/9226eec421bcdf9c7cb0af9d5fd6f10f328cb6d3ca1b33aa65ad2e5c01741933.jpg)
-Figure 1.7
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/f6e7b8bdaaf21eba81d656438685d7b8c53745c2db621132772032ba3564fd60.jpg)
-Figure 1.8
-
-produced, then factor prices are determined by the marginal products of labor and capital as in the one-sector model, and will certainly depend on the factor endowments. This is why the Lemma stated above requires that both goods are produced, or equivalently, that the endowments are inside the "cone of diversification."
+How can we be sure that the outputs obtained from (1.8') are positive? It is clear from Figure 1.7 that the outputs in both industries will be positive if and only if the endowment vector  $(\mathrm{L},\mathrm{K})$  lies in-between the factor requirement vectors  $(\mathrm{a}_{1\mathrm{L}},\mathrm{a}_{1\mathrm{K}})$  and  $(\mathrm{a}_{2\mathrm{L}},\mathrm{a}_{2\mathrm{K}})$ . For this reason, the space spanned by these two vectors is called a "cone of diversification", which we label by cone A in Figure 1.7. In contrast, if the endowment vector  $(\mathrm{L},\mathrm{K})$  lies outside of this cone, then it is impossible to add together any positive multiples of the vectors  $(\mathrm{a}_{1\mathrm{L}},\mathrm{a}_{1\mathrm{K}})$  and  $(\mathrm{a}_{2\mathrm{L}},\mathrm{a}_{2\mathrm{K}})$  and arrive at the endowment vector. So if $(\mathrm{L},\mathrm{K})$ lies outside of the cone of diversification, then it must be that only one good is produced. At the end of the chapter, we will show how to determine which good it is. For now, we should just recognize that when only one good is produced, then factor prices are determined by the marginal products of labor and capital as in the one-sector model, and will certainly depend on the factor endowments. This is why the Lemma stated above requires that both goods are produced, or equivalently, that the endowments are inside the "cone of diversification."
 
 Now consider the more complex case in Figure 1.8, where we have re-drawn the two sets of gradient vectors  $(\mathbf{a}_{1\mathrm{L}},\mathbf{a}_{1\mathrm{K}})$  and  $(\mathbf{a}_{2\mathrm{L}},\mathbf{a}_{2\mathrm{K}})$ , and  $(\mathbf{b}_{1\mathrm{L}},\mathbf{b}_{1\mathrm{K}})$  and  $(\mathbf{b}_{2\mathrm{L}},\mathbf{b}_{2\mathrm{K}})$  from Figure 1.6, after multiplying each of them by the outputs of their respective industries. These vectors create two cones of diversification, labeled as cone A and cone B. Now we can answer the question of which factor prices will apply in any given country: a labor abundant economy, with a high ratio of labor/capital endowments such as  $(\mathbf{L}^{\mathrm{A}},\mathbf{K}^{\mathrm{A}})$  in cone A of Figure 1.8, will have factor prices given by  $(\mathbf{w}^{\mathrm{A}},\mathbf{r}^{\mathrm{A}})$  in Figure 1.6, with low wages; whereas a capital abundant economy with a high ratio of capital/labor endowments such as shown by  $(\mathbf{L}^{\mathrm{B}},\mathbf{K}^{\mathrm{B}})$  in cone B, will have factor prices given by  $(\mathbf{w}^{\mathrm{B}},\mathbf{r}^{\mathrm{B}})$ , with high wages. Thus, factor prices will depend on the endowments of the economy. A labor-abundant country such as China will pay low wages and a high rental (as in cone A). In contrast, a capital-abundant country such as the United States will have high wages and a low rental (as in cone B).
 
@@ -229,7 +201,7 @@ $$
 \mathrm{dp}_{\mathrm{i}} = \mathrm{a}_{\mathrm{iL}} \mathrm{dw} + \mathrm{a}_{\mathrm{iK}} \mathrm{dr} \Rightarrow \frac{\mathrm{dp}_{\mathrm{i}}}{\mathrm{p}_{\mathrm{i}}} = \frac{\mathrm{wa}_{\mathrm{iL}}}{\mathrm{c}_{\mathrm{i}}} \frac{\mathrm{dw}}{\mathrm{w}} + \frac{\mathrm{ra}_{\mathrm{iK}}}{\mathrm{c}_{\mathrm{i}}} \frac{\mathrm{dr}}{\mathrm{r}}, \mathrm{i} = 1, 2. \tag {1.9}
 $$
 
-The second equation is obtained by multiplying and dividing like terms, and noting that  $p_i = c_i(w, r)$ . The advantage of this approach is that it allows us to express the variables in terms of percentage changes, such as  $d\ln w = dw / w$ , as well as cost shares. Specifically, let  $\theta_{iL} = w a_{iL} / c_i$  denote the cost share of labor in industry  $i$ , while  $\theta_{iK} = r a_{iK} / c_i$  denotes the cost share of capital. The fact that costs equal  $c_i = w a_{iL} + r a_{iK}$  ensures that the shares sum to unity,  $\theta_{iL} + \theta_{iK} = 1$ . In addition, denote the percentage changes by  $dw / w = \hat{w}$  and  $dr / r = \hat{r}$ . Then (1.9) can be re-written as:
+The second equation is obtained by multiplying and dividing like terms, and noting that $p_i = c_i(w, r)$. The advantage of this approach is that it allows us to express the variables in terms of percentage changes, such as $d\ln w = dw / w$, as well as cost shares. Specifically, let $\theta_{iL} = w a_{iL} / c_i$ denote the cost share of labor in industry $i$, while $\theta_{iK} = r a_{iK} / c_i$ denotes the cost share of capital. The fact that costs equal $c_i = w a_{iL} + r a_{iK}$ ensures that the shares sum to unity, $\theta_{iL} + \theta_{iK} = 1$. In addition, denote the percentage changes by $dw / w = \hat{w}$ and $dr / r = \hat{r}$. Then (1.9) can be re-written as:
 
 $$
 \hat {\mathrm{p}}_{\mathrm{i}} = \theta_{\mathrm{iL}} \hat {\mathrm{w}} + \theta_{\mathrm{iK}} \hat {\mathrm{r}}, \quad \mathrm{i} = 1, 2. \tag {1.9'}
@@ -247,11 +219,11 @@ $$
 \begin{array}{l} \left| \boldsymbol {\theta} \right| = \theta_{1 \mathrm{L}} \theta_{2 \mathrm{K}} - \theta_{1 \mathrm{K}} \theta_{2 \mathrm{L}} \\ = \theta_{1 \mathrm{L}} \left(1 - \theta_{2 \mathrm{L}}\right) - \left(1 - \theta_{1 \mathrm{L}}\right) \theta_{2 \mathrm{L}} \tag {1.11} \\ = \theta_{1 \mathrm{L}} - \theta_{2 \mathrm{L}} = \theta_{2 \mathrm{K}} - \theta_{1 \mathrm{K}} \\ \end{array}
 $$
 
-where we have repeatedly made use of the fact that  $\theta_{\mathrm{iL}} + \theta_{\mathrm{iK}} = 1$
+where we have repeatedly made use of the fact that $\theta_{\mathrm{iL}} + \theta_{\mathrm{iK}} = 1$
 
-In order to fix ideas, let us assume henceforth that industry 1 is labor intensive. This implies that the cost share in industry 1 exceeds that in industry  $2, \theta_{\mathrm{1L}} - \theta_{\mathrm{2L}} > 0$ , so that  $|\theta| > 0$  in (1.11). Furthermore, suppose that the relative price of good 1 increases, so that
+In order to fix ideas, let us assume henceforth that industry 1 is labor intensive. This implies that the cost share in industry 1 exceeds that in industry $2, \theta_{\mathrm{1L}} - \theta_{\mathrm{2L}} > 0$, so that $|\theta| > 0$ in (1.11). Furthermore, suppose that the relative price of good 1 increases, so that
 
-$\hat{\mathfrak{p}} = \hat{\mathfrak{p}}_1 - \hat{\mathfrak{p}}_2 > 0$  . Then we can solve for the change in factor prices from (1.10) and (1.11) as:
+$\hat{\mathfrak{p}} = \hat{\mathfrak{p}}_1 - \hat{\mathfrak{p}}_2 > 0$. Then we can solve for the change in factor prices from (1.10) and (1.11) as:
 
 $$
 \hat {\mathrm{w}} = \frac{\theta_{2 \mathrm{K}} \hat {\mathrm{p}}_{1} - \theta_{1 \mathrm{K}} \hat {\mathrm{p}}_{2}}{| \theta |} = \frac{\left(\theta_{2 \mathrm{K}} - \theta_{1 \mathrm{K}}\right) \hat {\mathrm{p}}_{1} + \theta_{1 \mathrm{K}} \left(\hat {\mathrm{p}}_{1} - \hat {\mathrm{p}}_{2}\right)}{\left(\theta_{2 \mathrm{K}} - \theta_{1 \mathrm{K}}\right)} > \hat {\mathrm{p}}_{1}, \text{si nc e} \hat {\mathrm{p}}_{1} - \hat {\mathrm{p}}_{2} > 0, \tag {1.12a}
@@ -261,13 +233,13 @@ $$
 \text{an d ,} \quad \hat {\mathrm{r}} = \frac{\theta_{1 \mathrm{L}} \hat {\mathrm{p}}_{2} - \theta_{2 \mathrm{L}} \hat {\mathrm{p}}_{1}}{| \theta |} = \frac{(\theta_{1 \mathrm{L}} - \theta_{2 \mathrm{L}}) \hat {\mathrm{p}}_{2} - \theta_{2 \mathrm{L}} (\hat {\mathrm{p}}_{1} - \hat {\mathrm{p}}_{2})}{(\theta_{1 \mathrm{L}} - \theta_{2 \mathrm{L}})} <   \hat {\mathrm{p}}_{2}, \quad \text{si nc e} \hat {\mathrm{p}}_{1} - \hat {\mathrm{p}}_{2} > 0. \tag {1.12b}
 $$
 
-From the result in (1.12a), we see that the wage increases by more than the price of good 1,  $\hat{\mathbf{w}} >\hat{\mathbf{p}}_1 > \hat{\mathbf{p}}_2$ . This means that workers can afford to buy more of good 1 ( $w/p_1$  has gone up), as well as more of good 2 ( $w/p_2$  has gone up). When labor can buy more of both goods in this fashion, we say that the real wage has increased. Looking at the rental on capital in (1.12b), we see that the rental r changes by less than the price of good 2. It follows that capital-owner can afford less of good 2 ( $r/p_2$  has gone down), and also less of good 1 ( $r/p_1$  has gone down). Thus the real return to capital has fallen. We can summarize these results with the following:
+From the result in (1.12a), we see that the wage increases by more than the price of good 1, $\hat{\mathbf{w}} >\hat{\mathbf{p}}_1 > \hat{\mathbf{p}}_2$. This means that workers can afford to buy more of good 1 ($w/p_1$ has gone up), as well as more of good 2 ($w/p_2$ has gone up). When labor can buy more of both goods in this fashion, we say that the real wage has increased. Looking at the rental on capital in (1.12b), we see that the rental r changes by less than the price of good 2. It follows that capital-owner can afford less of good 2 ($r/p_2$ has gone down), and also less of good 1 ($r/p_1$ has gone down). Thus the real return to capital has fallen. We can summarize these results with the following:
 
 # Stolper-Samuelson (1941) Theorem
 
 An increase in the relative price of a good will increase the real return to the factor used intensively in that good, and reduce the real return to the other factor.
 
-To develop the intuition for this result, let us go back to the differentiated zero-profit conditions in (1.9'). Since the cost shares add up to unity in each industry, we see from equation (1.9') that  $\hat{\mathbf{p}}_{\mathrm{i}}$  is a weighted average of the factor price changes  $\hat{\mathbf{w}}$  and  $\hat{\mathbf{r}}$ . This implies that  $\hat{\mathbf{p}}_{\mathrm{i}}$  necessarily lies in between  $\hat{\mathbf{w}}$  and  $\hat{\mathbf{r}}$ . Putting these together with our assumption that  $\hat{\mathbf{p}}_1 - \hat{\mathbf{p}}_2 > 0$ , it is therefore clear that:
+To develop the intuition for this result, let us go back to the differentiated zero-profit conditions in (1.9'). Since the cost shares add up to unity in each industry, we see from equation (1.9') that $\hat{\mathbf{p}}_{\mathrm{i}}$ is a weighted average of the factor price changes $\hat{\mathbf{w}}$ and $\hat{\mathbf{r}}$. This implies that $\hat{\mathbf{p}}_{\mathrm{i}}$ necessarily lies in between $\hat{\mathbf{w}}$ and $\hat{\mathbf{r}}$. Putting these together with our assumption that $\hat{\mathbf{p}}_1 - \hat{\mathbf{p}}_2 > 0$, it is therefore clear that:
 
 $$
 \hat {\mathrm{w}} > \hat {\mathrm{p}}_{1} > \hat {\mathrm{p}}_{2} > \hat {\mathrm{r}}. \tag {1.13}
@@ -277,7 +249,7 @@ Jones (1965) has called this set of inequalities the "magnification effect": the
 
 down), the magnification effect says that there will be both gainers and losers due to this change. Even though we will argue in chapter 6 that there are gains from trade in some overall sense, it is still the case that trade opportunities have strong distributional consequences, making some people worse off and some better off!
 
-We conclude this section by illustrating the Stolper-Samuelson Theorem in Figure 1.10. We begin with an initial factor price equilibrium given by point A, where industry 1 is labor-intensive. An increase in the price of that industry will shift out the iso-cost curve, and as illustrated, move the equilibrium to point B. It is clear that the wage has gone up, from  $\mathrm{w}_0$  to  $\mathrm{w}_1$ , and the rental has declined, from  $\mathrm{r}_0$  to  $\mathrm{r}_1$ . Can we be sure that the wage has increased in percentage terms by more than the relative price of good 1? The answer is yes, as can be seen by drawing a ray from the origin through the point A. Because the unit-cost functions are homogeneous of degree one in factor prices, moving along this ray increases p and (w,r) in the same proportion. Thus, at the point  $\mathrm{A}^*$ , the increase in the wage exactly matched the percentage change in the price p. But it is clear that the equilibrium wage increases by more,  $\mathrm{w}_1 > \mathrm{w}^*$ , so the percentage increase in the wage exceeds that of the product price, which is the Stolper-Samuelson result.
+We conclude this section by illustrating the Stolper-Samuelson Theorem in Figure 1.10. We begin with an initial factor price equilibrium given by point A, where industry 1 is labor-intensive. An increase in the price of that industry will shift out the iso-cost curve, and as illustrated, move the equilibrium to point B. It is clear that the wage has gone up, from $\mathrm{w}_0$ to $\mathrm{w}_1$, and the rental has declined, from $\mathrm{r}_0$ to $\mathrm{r}_1$. Can we be sure that the wage has increased in percentage terms by more than the relative price of good 1? The answer is yes, as can be seen by drawing a ray from the origin through the point A. Because the unit-cost functions are homogeneous of degree one in factor prices, moving along this ray increases p and (w,r) in the same proportion. Thus, at the point $\mathrm{A}^*$, the increase in the wage exactly matched the percentage change in the price p. But it is clear that the equilibrium wage increases by more, $\mathrm{w}_1 > \mathrm{w}^*$, so the percentage increase in the wage exceeds that of the product price, which is the Stolper-Samuelson result.
 
 # Changes in Endowments
 
@@ -294,7 +266,7 @@ $$
 \mathrm{a_{1K} d y_{1} + a_{2 K} d y_{2} = d K .}
 $$
 
-Notice that the  $a_{ij}$  coefficients do not change, despite the fact that they are functions of the factor prices (w, r). These coefficients are fixed because  $p$  does not change, so from our earlier Lemma, the factor prices are also fixed.
+Notice that the $a_{ij}$ coefficients do not change, despite the fact that they are functions of the factor prices (w, r). These coefficients are fixed because $p$ does not change, so from our earlier Lemma, the factor prices are also fixed.
 
 By re-writing the equations in (1.14) using the "Jone's algebra", we obtain:
 
@@ -308,11 +280,11 @@ $$
 
 To move from the first set of equations to the second, we denote the percentage changes
 
-$\mathrm{dy}_1 / \mathrm{y}_1 = \hat{\mathrm{y}}_1$  , and likewise for all the other variables. In addition, we define  $\lambda_{\mathrm{iL}}\equiv (\mathrm{y_ia_{iL} / L})$
+$\mathrm{dy}_1 / \mathrm{y}_1 = \hat{\mathrm{y}}_1$, and likewise for all the other variables. In addition, we define $\lambda_{\mathrm{iL}}\equiv (\mathrm{y_ia_{iL} / L})$
 
-$= (\mathrm{L_i} / \mathrm{L})$ , which measures the fraction of the labor force employed in industry  $i$ , where
+$= (\mathrm{L_i} / \mathrm{L})$, which measures the fraction of the labor force employed in industry $i$, where
 
-$\lambda_{1\mathrm{L}} + \lambda_{2\mathrm{L}} = 1$ . We define  $\lambda_{\mathrm{iK}}$  analogously as the fraction of the capital stock employed in industry i.
+$\lambda_{1\mathrm{L}} + \lambda_{2\mathrm{L}} = 1$. We define $\lambda_{\mathrm{iK}}$ analogously as the fraction of the capital stock employed in industry i.
 
 This system of equations is written in matrix form and solved as:
 
@@ -328,7 +300,7 @@ $$
 
 where we have repeatedly made use of the fact that  $\lambda_{1\mathrm{L}} + \lambda_{2\mathrm{L}} = 1$  and  $\lambda_{1\mathrm{K}} + \lambda_{2\mathrm{K}} = 1$ .
 
-Recall that we assumed industry 1 to be labor-intensive. This implies that the share of the labor force employed in industry 1 exceeds the share of the capital stock used there,  $\lambda_{\mathrm{1L}} - \lambda_{\mathrm{1K}} > 0$ , so that  $|\lambda| > 0$  in (1.16). Suppose further that the endowments of labor is increasing, while the endowments of capital remains fixed such that  $\hat{\mathbf{L}} > 0$ , and  $\hat{\mathbf{K}} = 0$ . Then we can solve for the change in outputs from (1.15)-(1.16) as,
+Recall that we assumed industry 1 to be labor-intensive. This implies that the share of the labor force employed in industry 1 exceeds the share of the capital stock used there, $\lambda_{\mathrm{1L}} - \lambda_{\mathrm{1K}} > 0$, so that $|\lambda| > 0$ in (1.16). Suppose further that the endowments of labor is increasing, while the endowments of capital remains fixed such that $\hat{\mathbf{L}} > 0$, and $\hat{\mathbf{K}} = 0$. Then we can solve for the change in outputs from (1.15)-(1.16) as,
 
 $$
 \hat {y}_{1} = \frac{\lambda_{2 K}}{(\lambda_{2 K} - \lambda_{2 L})} \hat {L} > \hat {L} > 0 \quad \text{an d} \quad \hat {y}_{2} = \frac{\lambda_{1 K}}{| \lambda |} <   0. \tag {1.17}
@@ -340,7 +312,7 @@ From (1.17), we see that the output of the labor-intensive industry 1 expands, w
 
 An increase in a factor endowment will increase output of the industry using it intensively, and decrease the output of the other industry.
 
-The intitution for this result is developed in Figure 1.11. With the initial endowments  $(\mathrm{L},\mathrm{K})$ , the equilibrium outputs are  $\mathbf{y}_1$  and  $\mathbf{y}_2$ . Now suppose that the labor endowment increases to  $\mathrm{L}' > \mathrm{L}$ , with no change in the capital endowment. Starting from the endowments  $(\mathrm{L}',\mathrm{K})$ , the only way to add up multiples of  $(\mathrm{a}_{1\mathrm{L}},\mathrm{a}_{1\mathrm{K}})$  and  $(\mathrm{a}_{2\mathrm{L}},\mathrm{a}_{2\mathrm{K}})$  and obtain the endowments is to
+The intitution for this result is developed in Figure 1.11. With the initial endowments $(\mathrm{L},\mathrm{K})$, the equilibrium outputs are $\mathbf{y}_1$ and $\mathbf{y}_2$. Now suppose that the labor endowment increases to $\mathrm{L}' > \mathrm{L}$, with no change in the capital endowment. Starting from the endowments $(\mathrm{L}',\mathrm{K})$, the only way to add up multiples of $(\mathrm{a}_{1\mathrm{L}},\mathrm{a}_{1\mathrm{K}})$ and $(\mathrm{a}_{2\mathrm{L}},\mathrm{a}_{2\mathrm{K}})$ and obtain the endowments is to
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/8c625b088213c91e3cf51f44823bf9efffa83be2b17864f7f58007234baf5ca8.jpg)
 Figure 1.11
@@ -352,11 +324,9 @@ reduce the output of industry 2 to  $y_2'$ , and increase the output of industry
 
 There are many examples of the Rybczynski Theorem in practice, but perhaps the most commonly cited is what is called the "Dutch Disease." This refers to the discovery of oil off the coast of the Netherlands, which led to an increase in industries making use of this resource. (Shell Oil, one of the world's largest producers of petroleum products, is a Dutch company.) At the same time, however, other "traditional" export industries of the Netherlands contracted. This occurred because resources were attracted away from these industries and into those that were intensive in oil, as the Rybczynski Theorem would predict.
 
-Our final task for this chapter is to trace through the changes in the outputs, induced by changes in endowments, on the equilibrium of the production possibilities frontier. As the labor endowment grows in Figure 1.11, the PPF will shift out. This is shown in Figure 1.12, where the outputs will shift from point A to point  $\mathrm{A}'$  with an increased of good 1 and reduction of good 2, at the unchanged price p. As the endowment of labor rises, we can join up all points such as A and  $\mathrm{A}'$ , where the slopes of the PPFs are equal. These form a downward sloping line, which we will call the Rybczynski line for changes in labor ( $\Delta L$ ). The Rybczynski line for  $\Delta L$  indicates how outputs change as labor endowment expands.
+Our final task for this chapter is to trace through the changes in the outputs, induced by changes in endowments, on the equilibrium of the production possibilities frontier. As the labor endowment grows in Figure 1.11, the PPF will shift out. This is shown in Figure 1.12, where the outputs will shift from point A to point $\mathrm{A}'$ with an increased of good 1 and reduction of good 2, at the unchanged price p. As the endowment of labor rises, we can join up all points such as A and $\mathrm{A}'$, where the slopes of the PPFs are equal. These form a downward sloping line, which we will call the Rybczynski line for changes in labor ($\Delta L$). The Rybczynski line for $\Delta L$ indicates how outputs change as labor endowment expands.
 
-Of course, there is also a Rybczynski line for  $\Delta \mathbf{K}$ , which indicates how the outputs
-
-change as the capital endowment grows: this would lead to an increase in the output of good 2, and reduction in the output of good 1. As drawn, we have illustrated both of the Rybczynski lines as straight lines: can we be sure that this is the case? The answer is yes: the fact that the product price is fixed along a Rybczynski line, implying that factor prices are also fixed, ensures that these are straight lines. To see this, we can easily calculated their slopes by differentiating the full-employment conditions (1.8). To compute the slope of the Rybczynski line for  $\Delta L$ , it is convenient to work with the full-employment condition for capital, since that endowment does not change. Total differentiating (1.8) for capital gives:
+Of course, there is also a Rybczynski line for $\Delta \mathbf{K}$, which indicates how the outputs change as the capital endowment grows: this would lead to an increase in the output of good 2, and reduction in the output of good 1. As drawn, we have illustrated both of the Rybczynski lines as straight lines: can we be sure that this is the case? The answer is yes: the fact that the product price is fixed along a Rybczynski line, implying that factor prices are also fixed, ensures that these are straight lines. To see this, we can easily calculated their slopes by differentiating the full-employment conditions (1.8). To compute the slope of the Rybczynski line for $\Delta L$, it is convenient to work with the full-employment condition for capital, since that endowment does not change. Total differentiating (1.8) for capital gives:
 
 $$
 \mathrm{a}_{1 \mathrm{K}} \mathrm{y}_{1} + \mathrm{a}_{2 \mathrm{K}} \mathrm{y}_{2} = \mathrm{K} \Rightarrow \mathrm{a}_{1 \mathrm{K}} \mathrm{dy}_{1} + \mathrm{a}_{2 \mathrm{K}} \mathrm{dy}_{2} = 0 \Rightarrow \frac{\mathrm{dy}_{2}}{\mathrm{dy}_{1}} = - \frac{\mathrm{a}_{1 \mathrm{K}}}{\mathrm{a}_{2 \mathrm{K}}}. \tag {1.18}
@@ -364,7 +334,7 @@ $$
 
 Thus, the slope of the Rybczynski line for  $\Delta L$  is the negative of the ratio of capital/output in the two industries, which is constant for fixed prices. This proves that the Rybczynski lines are indeed straight.
 
-If we continue to increase the labor endowment in Figure 1.12, outputs will move downwards on the Rybczynski line for  $\Delta L$ , until this line hits the  $y_{1}$  axis. At this point the economy is fully specialized in good 1. In terms of Figure 1.7, the vector of endowments (L, K) is coincident with the vector of factor requirements ( $a_{1L}, a_{1K}$ ) in industry 1. For further increases in the labor endowment, the Rybczynski line for  $\Delta L$  then moves right along the  $y_{1}$  axis in Figure 1.12, indicating that the economy remains specialized in good 1. $^{14}$  This corresponds to the vector of endowments (L, K) lying outside and below the cone of diversification in Figure 1.7.
+If we continue to increase the labor endowment in Figure 1.12, outputs will move downwards on the Rybczynski line for $\Delta L$, until this line hits the $y_{1}$ axis. At this point the economy is fully specialized in good 1. In terms of Figure 1.7, the vector of endowments (L, K) is coincident with the vector of factor requirements ($a_{1L}, a_{1K}$) in industry 1. For further increases in the labor endowment, the Rybczynski line for $\Delta L$ then moves right along the $y_{1}$ axis in Figure 1.12, indicating that the economy remains specialized in good 1.$^{14}$ This corresponds to the vector of endowments (L, K) lying outside and below the cone of diversification in Figure 1.7.
 
 With the economy fully specialized in good 1, factor prices are determined by the marginal products of labor and capital in that good, and the earlier "factor price insensitivity" Lemma no longer applies.
 
@@ -378,41 +348,29 @@ for these chapters that follow, based on the tools and intuition we have develop
 
 # Problems
 
-1.1 Rewrite the production function  $\mathrm{y}_1 = \mathrm{f}_1(\mathrm{L}_1, \mathrm{K}_1)$  as  $\mathrm{y}_1 = \mathrm{f}_1(\mathrm{v}_1)$ , and similarly,  $\mathrm{y}_2 = \mathrm{f}_2(\mathrm{v}_2)$ .
+1.1 Rewrite the production function $\mathrm{y}_1 = \mathrm{f}_1(\mathrm{L}_1, \mathrm{K}_1)$ as $\mathrm{y}_1 = \mathrm{f}_1(\mathrm{v}_1)$, and similarly, $\mathrm{y}_2 = \mathrm{f}_2(\mathrm{v}_2)$.
 
-Concavity means that given two points  $\mathbf{y}_1^{\mathrm{a}} = \mathbf{f}_1(\mathbf{v}_1^{\mathrm{a}})$  and  $\mathbf{y}_1^{\mathrm{b}} = \mathbf{f}_1(\mathbf{v}_1^{\mathrm{b}})$ , and  $0 \leq \lambda \leq 1$ , then
+Concavity means that given two points $\mathbf{y}_1^{\mathrm{a}} = \mathbf{f}_1(\mathbf{v}_1^{\mathrm{a}})$ and $\mathbf{y}_1^{\mathrm{b}} = \mathbf{f}_1(\mathbf{v}_1^{\mathrm{b}})$, and $0 \leq \lambda \leq 1$, then
 
-$\mathrm{f}_1(\lambda \mathrm{v}_1^{\mathrm{a}} + (1 - \lambda)\mathrm{v}_1^{\mathrm{b}}) \geq \lambda \mathrm{y}_1^{\mathrm{a}} + (1 - \lambda)\mathrm{y}_1^{\mathrm{b}}$ . Similarly for the production function  $\mathrm{y}_2 = \mathrm{f}_2(\mathrm{v}_2)$ .
+$\mathrm{f}_1(\lambda \mathrm{v}_1^{\mathrm{a}} + (1 - \lambda)\mathrm{v}_1^{\mathrm{b}}) \geq \lambda \mathrm{y}_1^{\mathrm{a}} + (1 - \lambda)\mathrm{y}_1^{\mathrm{b}}$. Similarly for the production function $\mathrm{y}_2 = \mathrm{f}_2(\mathrm{v}_2)$.
 
-Consider two points  $y^a = (y_1^a, y_2^a)$  and  $y^b = (y_1^b, y_2^b)$ , both of which can be produced while satisfying the full-employment conditions  $v_1^a + v_2^a \leq V$  and  $v_1^b + v_2^b \leq V$ , where  $V$  are the endowments. Consider a production point mid-way between these,  $\lambda y^a + (1 - \lambda) y^b$ . Then use the concavity of the production functions to show that this point can also be produced while satisfying the full-employment conditions. This proves that the production possibilities set is convex. (Hint: Rather than showing that  $\lambda y^a + (1 - \lambda) y^b$  can be produced while satisfying the full-employment conditions, consider instead allocating  $\lambda v_1^a + (1 - \lambda) v_1^b$  of the resources to industry 1, and  $\lambda v_2^a + (1 - \lambda) v_2^b$  of the resources to industry 2.)
+Consider two points $y^a = (y_1^a, y_2^a)$ and $y^b = (y_1^b, y_2^b)$, both of which can be produced while satisfying the full-employment conditions $v_1^a + v_2^a \leq V$ and $v_1^b + v_2^b \leq V$, where $V$ are the endowments. Consider a production point mid-way between these, $\lambda y^a + (1 - \lambda) y^b$. Then use the concavity of the production functions to show that this point can also be produced while satisfying the full-employment conditions. This proves that the production possibilities set is convex. (Hint: Rather than showing that $\lambda y^a + (1 - \lambda) y^b$ can be produced while satisfying the full-employment conditions, consider instead allocating $\lambda v_1^a + (1 - \lambda) v_1^b$ of the resources to industry 1, and $\lambda v_2^a + (1 - \lambda) v_2^b$ of the resources to industry 2.)
 
-1.2 Any function  $\mathrm{y} = \mathrm{f}(\mathrm{v})$  is homogeneous of degree  $\alpha$  if for all  $\lambda > 0$ ,  $\mathrm{f}(\lambda \mathrm{v}) = \lambda^{\alpha} \mathrm{f}(\mathrm{v})$ .
+1.2 Any function $\mathrm{y} = \mathrm{f}(\mathrm{v})$ is homogeneous of degree $\alpha$ if for all $\lambda > 0$, $\mathrm{f}(\lambda \mathrm{v}) = \lambda^{\alpha} \mathrm{f}(\mathrm{v})$.
 
-Differentiating with respect to  $\alpha$  and evaluating at  $\alpha = 1$ , we therefore obtain:  $f_{v}(v)'v = \alpha f(v)$ .
+Differentiating with respect to $\alpha$ and evaluating at $\alpha = 1$, we therefore obtain: $f_{v}(v)'v = \alpha f(v)$.
 
-Consider the production function  $y = f(L, K)$ , which we assume is homogeneous of degree one, so that  $f(\lambda L, \lambda K) = \lambda f(L, K)$ . Now differentiate this expression with respect to  $L$ , and answer:
+Consider the production function $y = f(L, K)$, which we assume is homogeneous of degree one, so that $f(\lambda L, \lambda K) = \lambda f(L, K)$. Now differentiate this expression with respect to $L$, and answer:
 
-Is the marginal product  $\mathrm{f_L(L,K)}$  homogeneous, and of what degree? Use the expression you have obtained to show that  $\mathrm{f_L(L /K,1)} = \mathrm{f_L(L,K)}$ .
+Is the marginal product $\mathrm{f_L(L,K)}$ homogeneous, and of what degree? Use the expression you have obtained to show that $\mathrm{f_L(L /K,1)} = \mathrm{f_L(L,K)}$.
 
-1.3 Consider the problem of maximizing  $y_{1} = f_{1}(L_{1},K_{1})$ , subject to the full-employment
+1.3 Consider the problem of maximizing $y_{1} = f_{1}(L_{1},K_{1})$, subject to the full-employment conditions $\mathrm{L}_1 + \mathrm{L}_2 \leq \mathrm{L}$ and $\mathrm{K}_1 + \mathrm{K}_2 \leq \mathrm{K}$, and the constraint $\mathrm{y}_2 = \mathrm{f}_2(\mathrm{L}_2, \mathrm{K}_2)$. Set this up as a Lagrangian, and obtain the first-order conditions. Then use the Lagrangian to solve for $\mathrm{dy}_1 / \mathrm{dy}_2$ which is the slope of the production possibilities frontier. How is this slope related to the marginal product of labor and capital?
 
-conditions  $\mathrm{L}_1 + \mathrm{L}_2 \leq \mathrm{L}$  and  $\mathrm{K}_1 + \mathrm{K}_2 \leq \mathrm{K}$ , and the constraint  $\mathrm{y}_2 = \mathrm{f}_2(\mathrm{L}_2, \mathrm{K}_2)$ . Set this up as a
+1.4 Consider the problem of maximizing $p_1 f_1(L_1, K_1) + p_2 f_2(L_2, K_2)$, subject to the full employment constraints $\mathrm{L}_1 + \mathrm{L}_2\leq \mathrm{L}$ and $\mathrm{K}_1 + \mathrm{K}_2\leq \mathrm{K}$. Call the result the GDP function $\mathrm{G}(\mathrm{p},\mathrm{L},\mathrm{K})$ where $\mathbf{p} = (\mathbf{p}_1, \mathbf{p}_2)$ is the price vector. Then answer:
 
-Lagrangian, and obtain the first-order conditions. Then use the Lagrangian to solve for  $\mathrm{dy}_1 / \mathrm{dy}_2$
-
-which is the slope of the production possibilities frontier. How is this slope related to the
-
-marginal product of labor and capital?
-
-1.4 Consider the problem of maximizing  $p_1 f_1(L_1, K_1) + p_2 f_2(L_2, K_2)$ , subject to the full
-
-employment constraints  $\mathrm{L}_1 + \mathrm{L}_2\leq \mathrm{L}$  and  $\mathrm{K}_1 + \mathrm{K}_2\leq \mathrm{K}$ . Call the result the GDP function  $\mathrm{G}(\mathrm{p},\mathrm{L},\mathrm{K})$
-
-where  $\mathbf{p} = (\mathbf{p}_1, \mathbf{p}_2)$  is the price vector. Then answer:
-
-(a) What is  $\partial G / \partial p_{i}$ ? (Hint: we solved for this in the chapter)
-(b) Give an economic interpretation to  $\partial G / \partial L$  and  $\partial G / \partial K$ .
-(c) Give an economic interpretation to  $\partial^2\mathrm{G} / \partial \mathrm{p_i}\partial \mathrm{L} = \partial^2\mathrm{G} / \partial \mathrm{L}\partial \mathrm{p_i}$ , and  $\partial^2\mathrm{G} / \partial \mathrm{p_i}\partial \mathrm{K} = \partial^2\mathrm{G} / \partial \mathrm{K}\partial \mathrm{p_i}$ .
+(a) What is $\partial G / \partial p_{i}$? (Hint: we solved for this in the chapter)
+(b) Give an economic interpretation to $\partial G / \partial L$ and $\partial G / \partial K$.
+(c) Give an economic interpretation to $\partial^2\mathrm{G} / \partial \mathrm{p_i}\partial \mathrm{L} = \partial^2\mathrm{G} / \partial \mathrm{L}\partial \mathrm{p_i}$, and $\partial^2\mathrm{G} / \partial \mathrm{p_i}\partial \mathrm{K} = \partial^2\mathrm{G} / \partial \mathrm{K}\partial \mathrm{p_i}$.
 
 1.5 Trace through changes in outputs when there are factor intensity reversals. That is,
 

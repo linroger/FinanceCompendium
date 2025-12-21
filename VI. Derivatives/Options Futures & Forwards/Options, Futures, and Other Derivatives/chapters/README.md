@@ -1,9 +1,9 @@
 ---
 title: Hull Options, Futures, and Other Derivatives - Chapters
 parent_directory: chapters
-formatted: 2025-12-21 08:15:00 AM
-formatter_model: claude-sonnet-4-5-20250929
-cli_tool: claude-code
+formatted: 2025-12-21 10:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
   - hull options futures
   - chapter organization
