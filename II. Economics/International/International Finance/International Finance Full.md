@@ -1,61 +1,35 @@
 ---
-parent_directory: null
-title: INTERNATIONAL FINANCE
-tags: null
-aliases: null
-parent_folder: Global-Markets
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: INTERNATIONAL FINANCE
+title: International Finance
+parent_directory: International Finance
+formatted: 2025-12-21 05:45:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: opencode
 primary_tags:
-- news exchange rate model
-- forward contract currency exchanged
-- devaluation income absorption
-- currencies relation ppp
-- debt service percentage exports
-- title international finance
-- exchange limits exposure dealing
-- expansionary fxo response
+  - international finance
+  - exchange rate determination
+  - balance of payments
+  - international monetary system
+  - currency derivatives
 secondary_tags:
-- currency dornbusch model assumed
-- international capital eurobond market
-- currency forward premium
-- coordination making countries worse
-- differences currency futures contract
-- expectation devaluation cost government
-- relative purchasing power parity
-- eurocurrency eurobond markets ways
-- countries notes ation hypothesis
-- asian crisis case imf
-- concept exchange rate overshooting
-- equilibrium gains international coordination
-- variables affected expected devaluation
-- international finance recession argentinian
-- exchange rate consistent equilibrium
-- ppp inflation rate japan
-- rate theory understanding exchange
-- peso devalued
-- international macroeconomic
-- mortgage loan led predatory
-- relative ppp te absolute
-tags_extracted: '2025-12-18T01:43:38.112923'
+  - purchasing power parity
+  - portfolio balance model
+  - eurocurrency markets
+  - macroeconomic policy coordination
+  - foreign exchange market
+  - elasticity approach
+  - monetary approach
+  - fixed exchange rates
+  - floating exchange rates
+cssclasses: academia
 ---
 
----
-title: "International Finance"
-source: "International Finance.pdf"
-converted: "2025-11-28T13:42:37.592598"
-type: document
----
+# International Finance
 
-# INTERNATIONAL FINANCE
-
-# CONTENTS
+## Contents
 
 List of tables viii
 
-List of !gures xi
+List of figures xi
 
 Acknowledgements xiv
 
@@ -63,37 +37,33 @@ Introduction 1
 
 **Part 1 Balance of payments theory and policy**
 
-1 Te foreign exchange market 11
+1 The foreign exchange market 11
 
-2 Te balance of payments 37
+2 The balance of payments 37
 
 3 Elasticity and absorption approaches to the balance of payments 63
 
 4 Macroeconomic policy in an open economy 77
 
-5 Te monetary approach to the balance of payments 103
+5 The monetary approach to the balance of payments 103
 
 **Part 2 Exchange rate determination: theory, evidence and policy**
 
-6 127
-
-Purchasing power parity theory and floating exchange rate experience
+6 Purchasing power parity theory and floating exchange rate experience 127
 
 7 Modern models of exchange rate determination 149
 
-8 Te portfolio balance model 177
+8 The portfolio balance model 177
 
 9 Empirical evidence on exchange rates 199
 
-10 229
+10 Fixed, floating and managed exchange rates 229
 
-Fixed, floating and managed exchange rates
+**Part 3 The post-war international monetary system**
 
-**Part 3 Te post-war international monetary system**
+11 The international monetary system 251
 
-11 Te international monetary system 251
-
-12 Te Eurocurrency and Eurobond markets 295
+12 The Eurocurrency and Eurobond markets 295
 
 13 Currency derivatives: futures, options and swaps 311
 
@@ -129,7 +99,7 @@ Subject index 542
 1.8 Derivation of the demand for pounds 24
 1.9 Derivation of the supply of pounds 25
 1.10 Chinese foreign exchange reserves (excluding gold holdings) 31
-1.11 Te $/£ forward exchange quotations and UK and US interest rates using hypothetical data 33
+1.11 The $/£ forward exchange quotations and UK and US interest rates using hypothetical data 33
 2.1 Balance of payments of Americana ($millions) 39
 2.2 Examples of balance of payments accounting 43
 2.3 IMF balance of payments summary: the United States, Japan, China, Germany, France, Italy,

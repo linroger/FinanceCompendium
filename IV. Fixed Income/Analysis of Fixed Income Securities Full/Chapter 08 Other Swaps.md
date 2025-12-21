@@ -1,7 +1,7 @@
 ---
 title: "Chapter 8: Other Swaps"
 parent_directory: "Analysis of Fixed Income Securities Full"
-formatted: 2025-12-21 12:00:00 PM
+formatted: 2025-12-21 12:15:00 PM
 formatter_model: claude-sonnet-4-5-20251001
 cli_tool: claude-code
 primary_tags:

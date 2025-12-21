@@ -1,6 +1,27 @@
+---
+title: "Chapter 12: Mortgage and Asset Backed Securities"
+parent_directory: "Analysis of Fixed Income Securities Full"
+formatted: 2025-12-21 12:20:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
+primary_tags:
+  - mortgage backed securities
+  - asset backed securities
+  - residential mortgages
+  - commercial mortgages
+secondary_tags:
+  - prepayment risk
+  - credit risk
+  - securitization
+  - collateralized mortgage obligations
+  - passthrough securities
+  - real estate derivatives
+cssclasses: academia
+---
+
 # Chapter 12: Mortgage and Asset Backed Securities
 
-# 12.1 Introduction
+## 12.1 Introduction
 
 MBS is the perhaps the most successful financial innovation in the world of banking and finance globally. The creation of MBS allows the US to be one of very few (could be only) countries that can offer "affordable housing" via free market and not via government subsidy. The creation of the MBS market allows individual investors like you and I can participate in helping borrowers to buy their own homes.
 
@@ -15,11 +36,11 @@ The former contains mortgages made out to residential homes. It further is under
 
 # 12.1.1 RMBS
 
-# Agencies
+### Agencies
 
 The major player of the MBS is the three agencies: GNMA, FNMA, and FHLMC (pronounced Ginnie Mae, Fannie Mae, and Freddie Mac). These agencies were established after the WW2 by the congress to provide affordable mortgages. Over the years, FNMA and FHLMC, after completing their missions, have become private and GNMA remains as public as it has been. That said, it is a general belief that FNMA and FHLMC are very much guaranteed by the government and 2008 proved it.
 
-# Agency or Non-agency Based MBS
+### Agency or Non-agency Based MBS
 
 Agencies underwrite mortgages and these securities are known as agency RMBS. These RMBS must pass certain credit criteria (to name a few):
 
@@ -31,12 +52,12 @@ These mortgages are known as prime mortgages. Mortgages that do not pass these r
 
 Not only non-agency RMBS are more risky because of the borrowers are more likely to default, the underwriting banks are also subject to default risk. These mortgages are smaller in volume and hence these RMBS are less liquid as well.
 
-# Basics https://www.sifma.org/wp-content/uploads/2017/08/chsf.pdf
+### Basics https://www.sifma.org/wp-content/uploads/2017/08/chsf.pdf
 
 
 Brueggman and Fisher book
 
-# SMM
+### SMM
 
 Investopedia:
 
@@ -62,7 +83,9 @@ The CDR can be expressed as a formula:
 
 $$
 C D R = 1 - \left(1 - \frac{D}{N D P}\right)^{n}
-$$ where:
+$$
+
+where:
 
 
 $D =$ Amount of new defaults during the period

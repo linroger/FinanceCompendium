@@ -221,19 +221,17 @@ Companies will execute a forced conversion to eliminate debt. In this case, bond
 
 A straight bond has a positive convexity (i.e. negative slope) with respect to its yield. A callable bond (a bond with a call option) is known to have negative convexity. This is because as bond price goes up (as yield or interest rates) goes down, it would hit the limit of the call price (which is usually par), as demonstrated in Figure 11.4.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/205077a3aac81e365d4c523c42691d98b542a7797867a6f3ac149ab7581e155a.jpg)
-Figure 11.4: Added Convexity of Callable Bond
+![Figure 11.4: Convexity of Callable Bond](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/205077a3aac81e365d4c523c42691d98b542a7797867a6f3ac149ab7581e155a.jpg)
 
 In the case of a convertible bond, the situation is more complex. A convertible bond is more like a bond when the equity value is low or the interest rates are low (i.e. bond price is high). Conversely, when the equity price is high and the interest rates are high (bond price low), the convertible bond is more like a stock.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/ecb07fe5f2fe8145d4725c4c0f69b9a913fbdef67a2965fed3996d26e200f2d2.jpg)
-Figure 11.5: Added Convexity of Convertible Bond
+![Figure 11.5: Convexity of Convertible Bond](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/ecb07fe5f2fe8145d4725c4c0f69b9a913fbdef67a2965fed3996d26e200f2d2.jpg)
 
 # 11.8 Loan
 
-An outright loan is like a bond where a specified amount of money is borrowed (usually by an individual) and in return periodical interests are paid and at maturity the principal is paid. However, for corporation borrowers, loans are arranged differently.
+An outright loan is like a bond where a specified amount of money is borrowed (usually by an individual) and in return periodic interest is paid and at maturity the principal is paid. However, for corporation borrowers, loans are arranged differently.
 
-A line of credit is given to the corporation (say \$1 million) for a period of time (say 1 year). During this year, the borrower (corporation) can take any amount out, known as draw, up to \$1 million. If the borrower has no use of the loan, it can prepay back to the credit line. After a year, usually such loan will be renewed and amount can be increased or decreased.
+A line of credit is given to the corporation (say $1 million) for a period of time (say 1 year). During this year, the borrower (corporation) can take any amount out, known as draw, up to $1 million. If the borrower has no use of the loan, it can prepay back to the credit line. After a year, usually such loan will be renewed and amount can be increased or decreased.
 
 The unused line of credit is called "unfunded" and the used is called "funded". At the beginning when the loan (line of credit) is granted, the whole amount is unfunded. To maintain this unfunded loan, the borrower must pay a fee to keep the line of credit alive (otherwise the line of credit will be canceled). After a draw, the amount of draw is called funded. Then the borrower must pay an interest on the funded loan as a straight loan. Certainly, the borrower can cancel the line of credit at any time.
 
@@ -262,24 +260,21 @@ Regime III: option to stay
 
 Table 11.1: Options in a Loan
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/4da07affd0d8d4dad2c0b077b81b2a145bbc22d0edb1d0218160a9105d9e3243.jpg)
-Figure 1: Regime Transition Diagram (modified)
-Figure 11.6: Loan Diagram
+![Figure 11.6: Loan Regime Transition Diagram](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/4da07affd0d8d4dad2c0b077b81b2a145bbc22d0edb1d0218160a9105d9e3243.jpg)
 
 # An Example of HELOC
 
 When you're approved for a HELOC (Home Equity Line of Credit), you will also be approved for a credit limit based, in part, on how much equity you have in your home. You can use this line of credit during what is called the "draw period." This is the amount of time you have to draw funds from the HELOC. The draw period typically lasts for a fixed amount of time. It can vary between lenders but the period usually can last up to ten years. Each lender could also have different requirements, like minimum draw amounts or when you need to start making repayments (more on that coming up!). Be sure to look into the specific details of each lender you consider.
 
-During the draw period you typically can make interest-only payments on what you've borrowed. But you can also pay back the principal amount if you choose. You also don't have to withdraw the entire amount. But it's available if you need it. Here's an example: If you have a \$90,000 HELOC, you can borrow up to that amount. If you only use, say, \$25,000 of the line of credit, you will only pay interest on that \$25,000, not the \$90,000 maximum value of the line.
+During the draw period you typically can make interest-only payments on what you've borrowed. But you can also pay back the principal amount if you choose. You also don't have to withdraw the entire amount. But it's available if you need it. Here's an example: If you have a $90,000 HELOC, you can borrow up to that amount. If you only use, say, $25,000 of the line of credit, you will only pay interest on that $25,000, not the $90,000 maximum value of the line.
 
 "HELOCs are a good option for those looking for a source of revolving credit that can be managed in the same way as a credit card."
 
 # Unfunded as CDS and Funded as Bond
 
-It is quite understandable that the funded part of the loan is a bond. But how should the fee of unfunded be determined? As it turns out, it is equivalent to a CDS. The bank charges a fee to compensate its loss of interests if the borrower either default or terminate the loan early.
+It is quite understandable that the funded part of the loan is a bond. But how should the fee of unfunded be determined? As it turns out, it is equivalent to a CDS. The bank charges a fee to compensate its loss of interests if the borrower either defaults or terminates the loan early.
 
-
-As a result, Figure 11.6 can be viewed as a structure to build a model for the loan. It can be a Markov process with  $\alpha$ 's and  $\beta$ 's as transition probabilities. These probabilities can be then calibrated to benchmark CDS or credit curves.
+As a result, Figure 11.6 can be viewed as a structure to build a model for the loan. It can be a Markov process with $\alpha$'s and $\beta$'s as transition probabilities. These probabilities can be then calibrated to benchmark CDS or credit curves.
 
 # 11.9 Securities Lending
 

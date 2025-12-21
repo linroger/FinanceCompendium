@@ -1,122 +1,82 @@
 ---
 aliases:
 - European Monetary System Union
-tags: null
-key_concepts: null
+tags:
+- international-finance
+- european-monetary-system
+- emu
+- eurozone
+key_concepts:
+- European Monetary System
+- European Monetary Union
+- Exchange Rate Mechanism
+- Euro currency
 parent_directory: International Finance Full chapters
 cssclasses: academia
-title: 'Chapter 16: European Monetary System Union'
-linter-yaml-title-alias: 'Chapter 16: European Monetary System Union'
-primary_tags:
-- eurobond proposal particular
-- ecb uses intermediate monetary
-- european monetary ems commenced
-- countries exchange rate union
-- emu eurozone
-- raising powers repayment bonds
-secondary_tags:
-- chapter 16 european monetary
-- eurozone countries transition costs
-- european monetary union chapter
-- policies ecb target rate
-- creating single currency europe
-- external equilibrium eurozone
-- european monetary union talked
-- grexit apparent ecb policy
-- snake european monetary cooperation
-- deficits member state monetary
-- ecb governing
-- european debt
-- new european currency called
-- ecu single currency diverging
-- eu joined commencement emu
-- debt switch eurobonds discount
-tags_extracted: '2025-12-18T01:38:18.450482'
+title: Chapter 16: European Monetary System Union
 ---
 
-# CHAPTER 16
+# Chapter 16: European Monetary System Union
 
-## THE EUROPEAN MONETARY SYSTEM AND EUROPEAN MONETARY UNION
+## The European Monetary System and European Monetary Union
 
-CHAPTER OUTLINE
+### Chapter Outline
 
 16.1 Introduction
 
-16.2 !e Snake in the Tunnel
+16.2 The Snake in the Tunnel
 
-16.3 !e background to the EMS
-16.4 !e ERM
+16.3 The background to the EMS
+16.4 The ERM
 
-16.5 !e ECU and its role as an indicator of divergence
+16.5 The ECU and its role as an indicator of divergence
 16.6 Financing facilities and monetary cooperation
 16.7 An assessment of the EMS
 
-16.8 !e EMS as an anti-in$ation zone
+16.8 The EMS as an anti-inflation zone
 
 16.9 Intervention policy in the EMS
-16.10 !e economic performance of ERM and non-ERM countries
+16.10 The economic performance of ERM and non-ERM countries
 16.11 What is meant by economic and monetary union?
 
-16.12
-Benefits of economic and monetary union
+16.12 Benefits of economic and monetary union
 16.13 Costs of EMU
 
 16.14 A history of the road to EMU
-16.15 !e Maastricht Treaty
+16.15 The Maastricht Treaty
 16.16 An evaluation of the Maastricht criteria
 
-16.17 !e Stability and Growth Pact
-16.18 !e changeover to the single currency
-16.19 !e performance of the euro in the foreign exchange market
-16.20 !e eurosystem
-16.21 !e failure of the Stability and Growth Pact
-16.22 !e ERM II
+16.17 The Stability and Growth Pact
+16.18 The changeover to the single currency
+16.19 The performance of the euro in the foreign exchange market
+16.20 The eurosystem
+16.21 The failure of the Stability and Growth Pact
+16.22 The ERM II
 
 16.23 PIIGS and the eurozone crisis
 
-16.24 !e bailouts of Greece, Ireland, Portugal and Spain
-16.25 !e Covered Bond Purchase Programme
-16.26 !e Securities Market Programme
+16.24 The bailouts of Greece, Ireland, Portugal and Spain
+16.25 The Covered Bond Purchase Programme
+16.26 The Securities Market Programme
 
-16.27
-!e Long Term Refinancing Operation (LTRO)
-16.28 !e Fiscal Compact
-16.29 !e European Stability Mechanism
+16.27 The Long Term Refinancing Operation (LTRO)
+16.28 The Fiscal Compact
+16.29 The European Stability Mechanism
 16.30 'Whatever it takes' and outright monetary transactions
 16.31 Proposals to resolve the European debt crisis
 16.32 First EMU Reform Plan (2012–15)
 16.33 Second EMU Reform Plan (2015–25)
-16.34 !e creation of the Banking Union
-16.35 !e completion of the European Banking Union
+16.34 The creation of the Banking Union
+16.35 The completion of the European Banking Union
 
-The European Monetary System and European Monetary Union
-
-16.36 !e creation of a Capital Markets Union
-16.37 !e accession countries and EMU
+16.36 The creation of a Capital Markets Union
+16.37 The accession countries and EMU
 
 16.38 Conclusions
 
-16.1 INTRODUCTION
+### 16.1 Introduction
 
-In this chapter, we examine one of the most important economic issues ever tackled by the European Union
-
-(EU),)namely the creation of the European Monetary Union (EMU). On 1 January 1999 EMU was finally
-
-realized in Europe when 11 founding countries (Austria, Belgium, Finland, France, Germany, Ireland, Italy,
-
-Luxembourg, the Netherlands, Portugal and Spain) agreed to irrevocably fix their exchange rates with no margin
-
-- f $uctuation and to replace their national currencies with a new European currency called the euro, which
-happened three years later on 1 January 2002. !e original 11 have since been joined by Greece (1)January 2001),
-Slovenia (1 January 2007), Malta and Cyprus (1 January 2008), Slovakia (1 January 2009), Estonia (1)January
-NaN., Latvia (2014) and Lithuania (2015), bringing the total membership to 19 countries. !is means that
-eight countries (Bulgaria, Croatia, Czech Republic, Denmark, Hungary, Poland, Romania and Sweden) are EU
-members but have not yet adopted the euro. !e United Kingdom and Denmark both negotiated 'opt-outs'
-from the EMU project and Sweden has a _de facto_ - pt-out. !e UK has since departed the European Union on
-1 January 2020 and is therefore unlikely to be part of any eurozone for the foreseeable future. However, all the
-new members of the EU that have joined since the commencement of the EMU have in principle agreed to
-adopt the euro at some point in the future as part of their accession agreements. !e euro area population in
-early 2021 covers some 342 million citizens which is higher than the US population of 330 million.
+In this chapter, we examine one of the most important economic issues ever tackled by the European Union (EU), namely the creation of the European Monetary Union (EMU). On 1 January 1999 EMU was finally realized in Europe when 11 founding countries (Austria, Belgium, Finland, France, Germany, Ireland, Italy, Luxembourg, the Netherlands, Portugal and Spain) agreed to irrevocably fix their exchange rates with no margin of fluctuation and to replace their national currencies with a new European currency called the euro, which happened three years later on 1 January 2002. The original 11 have since been joined by Greece (1 January 2001), Slovenia (1 January 2007), Malta and Cyprus (1 January 2008), Slovakia (1 January 2009), Estonia (1 January 2011), Latvia (2014) and Lithuania (2015), bringing the total membership to 19 countries. This means that eight countries (Bulgaria, Croatia, Czech Republic, Denmark, Hungary, Poland, Romania and Sweden) are EU members but have not yet adopted the euro. The United Kingdom and Denmark both negotiated 'opt-outs' from the EMU project and Sweden has a *de facto* opt-out. The UK has since departed the European Union on 1 January 2020 and is therefore unlikely to be part of any eurozone for the foreseeable future. However, all the new members of the EU that have joined since the commencement of the EMU have in principle agreed to adopt the euro at some point in the future as part of their accession agreements. The euro area population in early 2021 covers some 342 million citizens which is higher than the US population of 330 million.
 
 Despite its successful realization, some ten years a(er its commencement the eurozone faced a severe test,
 
@@ -140,101 +100,17 @@ Stability and Growth Pact. !e Fiscal Stability Treaty that was signed on 1 March
 effect on 1 January 2013 places very tight constraints on the fiscal deficits of eurozone countries. In addition,
 there has also been a new intergovernmental organization in the form of the European Stability Mechanism
 (ESM) set up to manage future 'bailouts' which strictly speaking had been ruled out in the Maastricht Treaty.
-!ere were also two key reports aimed at strengthening the EMU in December 2012: a report entitled _Towards_
-_a Genuine Economic and Monetary Union_ was followed by a second report in June 2015 entitled _Completing_
-_Europe's Economic and Monetary Union._ !is has led to two new initiatives to reinforce the EMU framework:
-the creation of a Banking Union and a Capital Markets Union. !e Banking Union has the objective of
-creating a safer and sounder banking sector, especially for those countries sharing the euro, while the Capital
-Markets Union has the objective of improving investment and savings $ows across the Union to the benefit of
-businesses and households and to lower the dependence of the eurozone on the banking sector.
+There were also two key reports aimed at strengthening the EMU in December 2012: a report entitled *Towards a Genuine Economic and Monetary Union* was followed by a second report in June 2015 entitled *Completing Europe's Economic and Monetary Union*. This has led to two new initiatives to reinforce the EMU framework: the creation of a Banking Union and a Capital Markets Union. The Banking Union has the objective of creating a safer and sounder banking sector, especially for those countries sharing the euro, while the Capital Markets Union has the objective of improving investment and savings flows across the Union to the benefit of businesses and households and to lower the dependence of the eurozone on the banking sector.
 
-389
+In this chapter, we will review the history behind the EMU and spend some time looking at the features and operation of its predecessor, the European Monetary System (EMS), which commenced operations in March 1979 and ultimately proved to be the vehicle for the achievement of EMU. We will describe the EMS and evaluate its performance during its years of operation, including an analysis of the major crises that confronted the system in 1992/93 and the convergence process in the run-up to EMU. We will then look at the economic gains/losses from EMU, including some controversial empirical research on the topic. We review the various safeguards that were originally put into place to ensure that the euro would be a sound low-inflation currency, with particular focus on the Stability and Growth Pact. We will look at the arrangements for the management of the euro under the so-called eurosystem. This is followed by an analysis of the eurozone crisis that started in January 2009 and the required bailout packages for Ireland, Portugal, Greece and Spain. We also look at various solutions being put forward to resolve the crisis. Finally, we look at some of the issues raised by potential new entrants into the EMU, distinguishing between the cases of the United Kingdom and the 12 new countries which joined the EU in 2004 and 2007.
 
-International Finance
+### 16.2 The Snake in the Tunnel
 
-In this chapter, we will review the history behind the EMU and spend some time looking at the features
+Following the collapse of the Bretton Woods system in 1971, there was a great deal of concern at the community level that if the European Economic Community (EEC) (as it was then called) countries allowed their exchange rates to be determined solely by market forces there might be large and sudden changes in international competitiveness associated with exchange rate movements that could undermine the development of free trade within the community. Indeed, it was feared that there might even be deliberate competitive depreciations by some countries to gain trading advantage, which could result in trade frictions and the emergence of protectionist pressures within the EEC and possibly threaten the existence of the community itself. In addition, following the Werner Report of 1972 (see section 16.14), the member countries of the EEC had set a target date for achieving EMU by 1980. As a result of these fears and a desire to introduce a single currency as well as some degree of exchange rate stability, EEC members set up the so-called 'Snake in the Tunnel' which subsequently became the plain 'Snake'.
 
-and operation of its predecessor, the European Monetary System (EMS), which commenced operations in
+The Snake system has been characterized as a mini-Bretton Woods. It commenced operations on 24 April 1972 and was made up of the original six EEC members (Belgium, France, Italy, Luxembourg, the Netherlands and Germany); on 23 May 1972 the UK and Denmark joined and Norway became an associate member. While the member currencies could vary by a maximum of ±1.125% against each other (the Snake) they could float by ±2.25% against the US dollar (the Tunnel) as permitted by the Smithsonian agreement. This smaller margin of fluctuation for the member currencies vis-à-vis each other than was permitted against the US dollar gave rise to the term 'Snake in a Tunnel' to describe the system. Indeed, between 1972 and 1976 Belgium and the Netherlands limited the divergence between their currencies to ±0.75%, and this became known as the 'worm inside the Snake'!
 
-March 1979 and ultimately proved to be the vehicle for the achievement of EMU. We will describe the EMS
-
-and evaluate its performance during its years of operation, including an analysis of the major crises that
-
-confronted the system in 1992/93 and the convergence process in the run-up to EMU. We will then look
-
-at the economic gains/losses from EMU, including some controversial empirical research on the topic. We
-
-review the various safeguards that were originally put into place to ensure that the euro would be a sound lowin$ation currency, with particular focus on the Stability and Growth Pact. We will look at the arrangements for
-
-the management of the euro under the so-called eurosystem. !is is followed by an analysis of the eurozone
-
-crisis that started in January 2009 and the required bailout packages for Ireland, Portugal, Greece and Spain.
-
-We also look at various solutions being put forward to resolve the crisis. Finally, we look at some of the issues
-
-raised by potential new entrants into the EMU, distinguishing between the cases of the United Kingdom and
-
-the 12 new countries which joined the EU in 2004 and 2007.
-
-16.2 THE SNAKE IN THE TUNNEL
-
-Following the collapse of the Bretton Woods system in 1971, there was a great deal of concern at the
-
-community level that if the European Economic Community (EEC) (as it was then called) countries allowed
-
-their exchange rates to be determined solely by market forces there might be large and sudden changes
-
-in international competitiveness associated with exchange rate movements that could undermine the
-
-development of free trade within the community. Indeed, it was feared that there might even be deliberate
-
-competitive depreciations by some countries to gain trading advantage, which could result in trade frictions
-
-and the emergence of protectionist pressures within the EEC and possibly threaten the existence of the
-
-community itself. In addition, following the Werner Report of 1972 (see section 16.14), the member countries
-
-- f the EEC had set a target date for achieving EMU by 1980. As a result of these fears and a desire to introduce
-a single currency as well as some degree of exchange rate stability, EEC members set up the so-called 'Snake
-in the Tunnel' which subsequently became the plain 'Snake'.
-
-!e Snake system has been characterized as a mini-Bretton Woods. It commenced operations on 24)April
-
-1972 and was made up of the original six EEC members (Belgium, France, Italy, Luxembourg, the Netherlands
-
-and Germany); on 23 May 1972 the UK and Denmark joined and Norway became an associate member.
-
-While the member currencies could vary by a maximum of ±1.125% against each other (the Snake) they
-
-could $oat by ±2.25% against the US dollar (the Tunnel) as permitted by the Smithsonian agreement. !is
-
-smaller margin of $uctuation for the member currencies vis-à-vis each other than was permitted against the
-
-US dollar gave rise to the term 'Snake in a Tunnel' to describe the system. Indeed, between 1972 and 1976
-
-Belgium and the Netherlands limited the divergence between their currencies to ±0.75%, and this became
-
-known as the 'worm inside the Snake'!
-
-!e Snake system had a chequered history; the UK abandoned its membership a(er just six weeks and was
-
-followed four days later by Denmark, which subsequently rejoined in October 1972. Italy withdrew from the
-
-Snake in February 1973 and the Tunnel was demolished in March 1973 when the Snake currencies decided on
-
-a joint $oat against the dollar. In April 1973 as part of the Snake system the European Monetary Cooperation
-
-Fund (EMCF) was set up to provide credits and support for deficit countries. France le( the system in
-
-January 1974, rejoined in July 1975 and le( again in March 1976. Norway le( the system in December 1978.
-
-!roughout its lifetime the Snake was characterized by a series of devaluations and revaluations which are
-
-listed in Table 16.1. !is, coupled with the fact that both Italy and France were out of the system, meant that
-
-390
-
-The European Monetary System and European Monetary Union
+The Snake system had a chequered history; the UK abandoned its membership after just six weeks and was followed four days later by Denmark, which subsequently rejoined in October 1972. Italy withdrew from the Snake in February 1973 and the Tunnel was demolished in March 1973 when the Snake currencies decided on a joint float against the dollar. In April 1973 as part of the Snake system the European Monetary Cooperation Fund (EMCF) was set up to provide credits and support for deficit countries. France left the system in January 1974, rejoined in July 1975 and left again in March 1976. Norway left the system in December 1978. Throughout its lifetime the Snake was characterized by a series of devaluations and revaluations which are listed in Table 16.1. This, coupled with the fact that both Italy and France were out of the system, meant that
 
 **Table 16.1** Central parity realignments in the Snake
 
@@ -251,135 +127,37 @@ _Notes:_ (+) indicates a revaluation; (–) indicates a devaluation.
 
 _Source_ : European Commission.
 
-by 1979 the Snake was looking badly mutilated. In the end, the Snake system failed to produce the necessary
+by 1979 the Snake was looking badly mutilated. In the end, the Snake system failed to produce the necessary degree of coordination of economic policies and convergence of economic performance required for its successful operation.
 
-degree of coordination of economic policies and convergence of economic performance required for its
+### 16.3 The Background to the EMS
 
-successful operation.
+On 17 June 1978, at a conference held in Bremen, six of the community countries committed themselves to the setting-up of the EMS to replace the Snake. The EMS aimed to provide a 'zone of monetary stability' bringing back into the fold countries like Italy and France which had left the Snake. Before looking at the operation of the EMS it is worthwhile reviewing the motivations behind its formation.
 
-16.3 THE BACKGROUND TO THE EMS
+Yao-su Hu (1981) argues that the formation of the EMS has to be seen in a wider context than simply the setting-up of an exchange rate mechanism. He argues that the EMS was based upon a convergence of interests among the EEC countries with regard to a common dollar problem. Under the Bretton Woods system, the dollar was the major international reserve currency, used as a means of settlement between central banks, for exchange market interventions and as a vehicle currency to denominate many international transactions. He argues that the USA was free to run balance of payments deficits to supply the world with the dollars it required. In return for this freedom from balance of payments constraints, the USA was expected to avoid undermining the purchasing power of dollars. When President Nixon suspended dollar convertibility into gold in 1971 the USA had effectively abdicated its responsibility, causing serious economic and financial losses for the Europeans.
 
-On 17 June 1978, at a conference held in Bremen, six of the community countries committed themselves
+The dollar problem had many facets. As the dollar was pegged by foreign central bank purchases of US dollars, this led to a rapid growth in the world money supply and thereby contributed to worldwide inflation. Also, the depreciation of the dollar after suspension of its convertibility meant huge losses for central banks who had purchased dollars under the Bretton Woods system. In return for this freedom from balance of payments constraints, the USA was expected to avoid undermining the purchasing power of dollars. When President Nixon suspended dollar convertibility into gold in 1971 the USA had effectively abdicated its responsibility, causing serious economic and financial losses for the Europeans. In sum, it can be argued that central banks' experience of purchasing and holding US dollars in their reserves had not been a happy one.
 
-to the setting-up of the EMS to replace the Snake. !e EMS aimed to provide a 'zone of monetary stability'
+Another motivation underlying the Bremen initiative was a desire to provide a stable framework for the conduct of European trade. Since the adoption of floating exchange rates in 1973, there had been very divergent inflation rates, economic growth and balance of payments performances between the EEC economies. European policy-makers were concerned that such divergent economic performances could threaten intra-EEC trade, and it was hoped that stabilizing European currencies would lead to a greater convergence of economic performance and continued growth of European trade.
 
-bringing back into the fold countries like Italy and France which had le( the Snake. Before looking at the
+The EMS commenced operation on 13 March 1979 and, despite much initial scepticism about its survival chances, operated with mixed success for two decades. The EMS consisted of three main features: (1) the Exchange Rate Mechanism (ERM); (2) the European Currency Unit (ECU); and (3) financing facilities. A proposed European Monetary Fund was never set up. All members of the EEC joined the EMS, though the UK did not initially participate in the ERM. We will now briefly review the three key features as an understanding of these is essential to show how the EMU was eventually brought about.
 
-- peration of the EMS it is worthwhile reviewing the motivations behind its formation.
+### 16.4 The ERM
 
-Yao-su Hu (1981) argues that the formation of the EMS has to be seen in a wider context than simply the
+The ERM consisted of two parts:
 
-setting-up of an exchange rate mechanism. He argues that the EMS was based upon a convergence of interests
+1. A grid of bilateral exchange rate bands between each of the member currencies which defined obligatory intervention.
 
-among the EEC countries with regard to a common dollar problem. Under the Bretton Woods system, the
-
-dollar was the major international reserve currency, used as a means of settlement between central banks, for
-
-exchange market interventions and as a vehicle currency to denominate many international transactions. He
-
-argues that the USA was free to run balance of payments deficits to supply the world with the dollars it required.
-
-In return for this freedom from balance of payments constraints, the USA was expected to avoid undermining
-
-the purchasing power of dollars. When President Nixon suspended dollar convertibility into gold in 1971 the
-
-USA had effectively abdicated its responsibility, causing serious economic and financial losses for the Europeans.
-
-!e dollar problem had many facets. As the dollar was pegged by foreign central bank purchases of US
-
-dollars, this led to a rapid growth in the world money supply and thereby contributed to worldwide in$ation.
-
-Also, the depreciation of the dollar a(er suspension of its convertibility meant huge losses for central banks
-
-who had purchased dollars under the Bretton Woods system. In sum, it can be argued that central banks'
-
-experience of purchasing and holding US dollars in their reserves had not been a happy one.
-
-Another motivation underlying the Bremen initiative was a desire to provide a stable framework for the
-
-conduct of European trade. Since the adoption of $oating exchange rates in 1973, there had been very divergent
-
-in$ation rates, economic growth and balance of payments performances between the EEC economies.
-
-European policy-makers were concerned that such divergent economic performances could threaten intraEEC trade, and it was hoped that stabilizing European currencies would lead to a greater convergence of
-
-economic performance and continued growth of European trade.
-
-391
-
-International Finance
-
-!e EMS commenced operation on 13 March 1979 and, despite much initial scepticism about its survival
-
-chances, operated with mixed success for two decades. !e EMS consisted of three main features: (1) the
-
-Exchange Rate Mechanism (ERM); (2) the European Currency Unit (ECU); and (3) financing facilities. A
-
-proposed European Monetary Fund was never set up. All members of the EEC joined the EMS, though the UK
-
-did not initially participate in the ERM. We will now brie$y review the three key features as an understanding
-
-- f these is essential to show how the EMU was eventually brought about.
-
-16.4 THE ERM
-
-!e ERM consisted of two parts:
-
-A grid of bilateral exchange rate bands between each of the member currencies which defined
-
-    - bligatory intervention.
-
-2. An individual band of $uctuation (threshold) for each currency against the ECU. !e ECU was an
-
-artificial currency based upon a calculation of a weighted basket of 12 European currencies. If a
-
-currency moved too much against the ECU basket it would lead to the expectation that the authorities
-
-    - f that currency would take policy measures designed to bring it back within its ECU threshold.
+2. An individual band of fluctuation (threshold) for each currency against the ECU. The ECU was an artificial currency based upon a calculation of a weighted basket of 12 European currencies. If a currency moved too much against the ECU basket it would lead to the expectation that the authorities of that currency would take policy measures designed to bring it back within its ECU threshold.
 
 _Bilateral exchange rate parities and obligatory intervention limits_
 
-!e bilateral exchange rate aspect of the ERM consisted of a grid of central exchange rates between each
+The bilateral exchange rate aspect of the ERM consisted of a grid of central exchange rates between each pair of currencies in the ERM. Originally each currency could fluctuate a maximum ±2.25% of its assigned bilateral central rate against another member currency of the ERM. On the setting-up of the system, Italy was allowed to join with a larger band of fluctuation of ±6%; a similar ±6% was applied when Spain joined in June 1989, the UK in October 1990, and when the Portuguese escudo entered the system in April 1992. However, following an exchange rate crisis on 2 August 1993 there was a widening of permissible fluctuation margins to ±15% for all currencies. Table 16.2 shows the central rates of the grid that also became the fixed bilateral conversion rates between the euro countries announced on 2 May 1998.
 
-pair of currencies in the ERM. Originally each currency could $uctuate a maximum ±2.25% of its assigned
+Within the bilateral margins authorities could intervene if they wished, though it was not compulsory. **Intra-marginal** intervention was carried out in either EMS or non-EMS currencies (normally the US dollar). Once two currencies reached a bilateral exchange rate margin the authorities of the two currencies were obliged to intervene or take economic policy measures to keep the currencies within their bilateral limits. At the outset of the system, the intention was that obligatory intervention should take place in the relevant EMS currencies rather than in US dollars. For example, if the French franc was at the bottom of its bilateral limit against the Deutschmark, the French and/or German authorities would sell Deutschmarks and purchase French francs rather than the French use dollars to buy francs. An important feature of the ERM was that any changes in the grid of central rates required 'mutual agreement'. In practice, this meant that parity changes were taken by the finance ministers of the currencies participating in the ERM.
 
-bilateral central rate against another member currency of the ERM. On the setting-up of the system, Italy was
+### 16.5 The ECU and Its Role as an Indicator of Divergence
 
-allowed to join with a larger band of $uctuation of ±6%; a similar ±6% was applied when Spain joined in June
-
-1989, the UK in October 1990, and when the Portuguese escudo entered the system in April 1992. However,
-
-following an exchange rate crisis on 2 August 1993 there was a widening of permissible $uctuation margins
-
-to ±15% for all currencies. Table 16.2 shows the central rates of the grid that also became the fixed bilateral
-
-conversion rates between the euro countries announced on 2 May 1998.
-
-Within the bilateral margins authorities could intervene if they wished, though it was not compulsory.
-
-**Intra-marginal** intervention was carried out in either EMS or non-EMS currencies (normally the US dollar).
-
-Once two currencies reached a bilateral exchange rate margin the authorities of the two currencies were
-
-- bliged to intervene or take economic policy measures to keep the currencies within their bilateral limits.
-At the outset of the system, the intention was that obligatory intervention should take place in the relevant
-EMS currencies rather than in US dollars. For example, if the French franc was at the bottom of its bilateral
-limit against the Deutschmark, the French and/or German authorities would sell Deutschmarks and purchase
-French francs rather than the French use dollars to buy francs. An important feature of the ERM was that any
-changes in the grid of central rates required 'mutual agreement'. In practice, this meant that parity changes
-were taken by the finance ministers of the currencies participating in the ERM.
-
-16.5 THE ECU AND ITS ROLE AS AN INDICATOR OF DIVERGENCE
-
-A key component of the ERM was the ECU which, between 1979 and 1999, was a weighted basket of 12
-
-member currencies; the 12 currencies being those of the 12 members prior to the entrance of the three new
-
-members. !e ECU acted as an 'indicator of divergence' within the ERM. Once a bilateral margin was reached,
-
-392
-
-The European Monetary System and European Monetary Union
+A key component of the ERM was the ECU which, between 1979 and 1999, was a weighted basket of 12 member currencies; the 12 currencies being those of the 12 members prior to the entrance of the three new members. The ECU acted as an 'indicator of divergence' within the ERM. Once a bilateral margin was reached,
 
 **Table 16.2** Central rates of the ERM grid in 1998 (bilateral conversion rates announced 2 May 1998)
 
@@ -521,106 +299,56 @@ a zone of currency stability and, secondly, as an anti-in$ation zone.
 
 _Exchange rate stability in the EMS_
 
-In the early days of its operation, some critics of the system viewed it as a 'mere crawling peg', a fixed exchange
-
-rate system with bands in which the central parities are frequently realigned. As Table 16.3 shows, in the first
-
-394
-
-The European Monetary System and European Monetary Union
+In the early days of its operation, some critics of the system viewed it as a 'mere crawling peg', a fixed exchange rate system with bands in which the central parities are frequently realigned. As Table 16.3 shows, in the first four years of its operation, exchange rate realignments were both frequent and quite substantial. To a large extent, the turbulence of the early years was not surprising given that the second oil shock coincided with the inception of the EMS. However, post-1984 realignments became far less frequent and were much smaller. Indeed, between January 1987 and October 1992 there were five and a half years of stability with only a minor devaluation of the central parity of the lira. Cheung et al. (1995) have shown that most realignments in the ERM can be characterized as attempts to restore international competitiveness; that is, move the exchange rate to its PPP level.
 
 **Table 16.3** A chronology of developments in the EMS and EMU
 
 |Year|Date|Event|
 |---|---|---|
-|1979|13 Mar|EMS starts operation (r2.25% for allparticipants except the Italian lirar6% band)|
-||24Sep|Deutschmark (2%), Danish krone (2.9%)|
-||30 Nov|Danish krone (4.76%)|
-|1981|23 Mar|Lira (6%)|
-||5 Oct|Deutschmark (5.5%),guilder (5.5%), French franc (3%), lira (3%)|
-|1982|22 Feb|Belgian franc (8.5%), Danish krone (3%)|
-||14 Jun|Deutschmark (4.25%),guilder (4.25%), French franc (5.75%), lira (2.75%)|
-|1983|21 Mar|Deutschmark (5.5%), guilder (3.5%), Danish krone (2.5%), Belgian franc (1.5%),<br>Frenchfranc (2.5%), lira (2.5%),punt (3.5%)|
-|1985|22 Jul|Belgian franc (2%), Danish krone (2%), deutschmark (2%), French franc (2%),<br>punt(2%),guilder (2%), lira (6%)|
-|1986|7 Apr|Deutschmark (3%), guilder (3%), Belgian franc (1%), Danish krone (1%),<br>Frenchfranc(3%)|
-||4 Aug|Punt (8%)|
-|1987|12 Jan|Deutschmark (3%),guilder (3%), Belgian franc (2%)|
-|1989|19 Jun|Peseta enters withr6% band|
-|1990|8 Jan|Lira (3.7%) and adoptsr2.25% band|
-||8 Oct|Sterling enters withr6% band|
-|1992|6 Apr|Escudo enters withr6% band|
-||14 Sep|Belgian franc (3.5%), Deutschmark (3.5%), guilder (3.5%), Danish krone (3.5%),<br>escudo(3.5%), French franc (3.5%),punt (3.5%), sterling (3.5%), lira (3.5%)|
-||17 Sep|Sterling and lira suspend membership of ERM,peseta (5%)|
-||23 Nov|Escudo (6%),peseta (6%)|
-|1993|1 Feb|Punt (10%)|
-||14 May|Peseta (8%), escudo (6.5%)|
-||2 Aug|Widening of margins of $uctuations tor15% for all ERM currencies, Germany and<br>Netherlands agree to bilaterally maintain their currencies in ther2.25% band|
-|1995|9 Jan|Austrian schilling enters withr15% band|
-||6 Mar|Peseta (7%), escudo (3.5%)|
-|1996|14 Oct|Finnish markka enters withr15% band|
-||25 Nov|Italian lira rejoins withr15% band|
-|1998|1 May|Selection of 11 qualifying members for EMU and irrevocable ﬁxing of bilateral<br>exchangeratesannounced|
-|1999|1 Jan|EMU came into eﬀect and ERM II starts with Denmark and Greece as members<br>±2.25%band|
+|1979|13 Mar|EMS starts operation (±2.25% for all participants except the Italian lira ±6% band)|
+||24 Sep|Deutschmark (+2%), Danish krone (-2.9%)|
+||30 Nov|Danish krone (-4.76%)|
+|1981|23 Mar|Lira (-6%)|
+||5 Oct|Deutschmark (+5.5%), guilder (+5.5%), French franc (-3%), lira (-3%)|
+|1982|22 Feb|Belgian franc (-8.5%), Danish krone (-3%)|
+||14 Jun|Deutschmark (+4.25%), guilder (+4.25%), French franc (-5.75%), lira (-2.75%)|
+|1983|21 Mar|Deutschmark (+5.5%), guilder (+3.5%), Danish krone (+2.5%), Belgian franc (+1.5%), French franc (-2.5%), lira (-2.5%), punt (-3.5%)|
+|1985|22 Jul|Belgian franc (+2%), Danish krone (+2%), deutschmark (+2%), French franc (+2%), punt (+2%), guilder (+2%), lira (-6%)|
+|1986|7 Apr|Deutschmark (+3%), guilder (+3%), Belgian franc (+1%), Danish krone (+1%), French franc (-3%)|
+||4 Aug|Punt (-8%)|
+|1987|12 Jan|Deutschmark (+3%), guilder (+3%), Belgian franc (+2%)|
+|1989|19 Jun|Peseta enters with ±6% band|
+|1990|8 Jan|Lira (-3.7%) and adopts ±2.25% band|
+||8 Oct|Sterling enters with ±6% band|
+|1992|6 Apr|Escudo enters with ±6% band|
+||14 Sep|Belgian franc (+3.5%), Deutschmark (+3.5%), guilder (+3.5%), Danish krone (+3.5%), escudo (+3.5%), French franc (+3.5%), punt (+3.5%), sterling (+3.5%), lira (-3.5%)|
+||17 Sep|Sterling and lira suspend membership of ERM, peseta (-5%)|
+||23 Nov|Escudo (-6%), peseta (-6%)|
+|1993|1 Feb|Punt (-10%)|
+||14 May|Peseta (-8%), escudo (-6.5%)|
+||2 Aug|Widening of margins of fluctuations to ±15% for all ERM currencies, Germany and Netherlands agree to bilaterally maintain their currencies in the ±2.25% band|
+|1995|9 Jan|Austrian schilling enters with ±15% band|
+||6 Mar|Peseta (-7%), escudo (-3.5%)|
+|1996|14 Oct|Finnish markka enters with ±15% band|
+||25 Nov|Italian lira rejoins with ±15% band|
+|1998|1 May|Selection of 11 qualifying members for EMU and irrevocable fixing of bilateral exchange rates announced|
+|1999|1 Jan|EMU came into effect and ERM II starts with Denmark and Greece as members ±2.25% band|
 |2001|1 Jan|Greece enters EMU|
 |2002|1 Jan|Euro arrives on the streets|
-|2004|28 Jun|Estonia, Lithuania and Sloveniajoin ERM II withr15% band|
+|2004|28 Jun|Estonia, Lithuania and Slovenia join ERM II with ±15% band|
 |2007|1 Jan|Slovenia enters EMU|
-
-395
-
-International Finance
-
-|Year|Date|Event|
-|---|---|---|
 |2008|1 Jan|Cyprus and Malta enter EMU|
 |2009|1 Jan|Slovakia enters EMU|
 |2011|1 Jan|Estonia enters EMU|
 |2014|1 Jan|Latvia enters EMU|
 |2015|1 Jan|Lithuania enters EMU|
-|2020|10 Jul|Bulgaria starts currency board at 1.95583 levper euro|
+|2020|10 Jul|Bulgaria starts currency board at 1.95583 lev per euro|
 
-_Notes:_ ( - ) indicates a devaluation, ( - ) indicates a revaluation.
+_Notes:_ (+) indicates a revaluation, (-) indicates a devaluation.
 
-four years of its operation, exchange rate realignments were both frequent and quite substantial. To a large
+Following German reunification and the entrance of the peseta in 1989, the pound in 1990 and the escudo in April 1992, pressures started to build up in the system. In June 1992, a Danish referendum which rejected Danish participation in the EMU raised doubts over continued progress towards EMU and concern in the financial markets about the commitment of certain governments towards economic convergence and the maintenance of their exchange rate parities. In particular, strain brought on by German reunification which had led to high German interest rates to finance its growing budget deficit and keep inflationary pressures under control meant that interest rates for other European countries were forced higher in order to maintain their exchange rate parities, since German interest rates effectively placed a floor on other ERM members' interest rates.
 
-extent, the turbulence of the early years was not surprising given that the second oil shock coincided with the
-
-inception of the EMS. However, post-1984 realignments became far less frequent and were much smaller.
-
-Indeed, between January 1987 and October 1992 there were five and a half years of stability with only a minor
-
-devaluation of the central parity of the lira. Cheung et al. (1995) have shown that most realignments in the
-
-ERM can be characterized as attempts to restore international competitiveness; that is, move the exchange
-
-rate to its PPP level.
-
-Following German reunification and the entrance of the peseta in 1989, the pound in 1990 and the escudo
-
-in April 1992, pressures started to build up in the system. In June 1992, a Danish referendum which rejected
-
-Danish participation in the EMU raised doubts over continued progress towards EMU and concern in the
-
-financial markets about the commitment of certain governments towards economic convergence and the
-
-maintenance of their exchange rate parities. In particular, strain brought on by German reunification which
-
-had led to high German interest rates to finance its growing budget deficit and keep in$ationary pressures
-
-under control meant that interest rates for other European countries were forced higher in order to maintain
-
-their exchange rate parities, since German interest rates effectively placed a $oor on other ERM members'
-
-interest rates.
-
-With many European economies in recession, speculators became increasingly sceptical about the
-
-commitment of governments to defend their exchange rate parities via high interest rates. Doubts about the result
-
-- f a French referendum on the Maastricht Treaty on 20 September 1992 led to speculative pressure building up
-- n the Italian lira and pound sterling. As a response, both the Italian and British governments issued statements
-proclaiming they were committed to defending their exchange rate parities. However, due to unprecedented
-market pressure, the Italians were forced to accept an effective devaluation of the lira of 7% (a combined 3.5%
+With many European economies in recession, speculators became increasingly sceptical about the commitment of governments to defend their exchange rate parities via high interest rates. Doubts about the result of a French referendum on the Maastricht Treaty on 20 September 1992 led to speculative pressure building up on the Italian lira and pound sterling. As a response, both the Italian and British governments issued statements proclaiming they were committed to defending their exchange rate parities. However, due to unprecedented market pressure, the Italians were forced to accept an effective devaluation of the lira of 7% (a combined 3.5%
 devaluation of the lira and a 3.5% revaluation of all the other ERM currencies). However, this was regarded as
 insu'cient by speculators and on 17 September a further wave of speculative pressure against the lira, pound
 and peseta led to the suspension of the pound and lira from the ERM, while the peseta was devalued by 5%.
@@ -671,105 +399,25 @@ post-1982.
 
 Although the EMS resulted in less volatility of real and nominal exchange rates for its members, there is
 
-clear evidence of significant changes in the levels of real exchange rates over time, particularly in the 1980s.
+clear evidence of significant changes in the levels of real exchange rates over time, particularly in the 1980s. This is because in the 1980s France, Italy, Denmark and Ireland had higher inflation rates than Germany, and the periodic devaluations of their currencies only partly offset these differentials, implying real exchange rate appreciations of their currencies against the Deutschmark. In the 1990s, however, French inflation was generally below German inflation, leading to much more stability of the real exchange rate.
 
-!is is because in the 1980s France, Italy, Denmark and Ireland had higher in$ation rates than Germany,
+### 16.8 The EMS as an Anti-Inflation Zone
 
-and the periodic devaluations of their currencies only partly offset these differentials, implying real exchange
+By way of background, before we consider the anti-inflation hypothesis, we should mention that it was a widely held belief that German inflation had generally been lower than that of other EU countries because of the independent status of the German Bundesbank. The Bundesbank was given a charter in 1957 that required it to ensure price stability, enabling it to pursue tough monetary policies regardless of political pressures to inflate. Having experienced two periods of hyperinflation in the twentieth century the Germans have a high aversion to inflation. Only in the 1990s were other central banks, such as the Banca d'Italia (1992), Bank of Portugal (1992), Banque de France (1993), Bank of Greece (1993), Bank of Spain (1994) and the Bank of England (1998), granted similar degrees of independence.
 
-rate appreciations of their currencies against the Deutschmark. In the 1990s, however, French in$ation was
+A popular interpretation of the advantages of EMS membership was put forward by Giavazzi and Pagano (1988) and Melitz (1988). According to this interpretation one of the major advantages of ERM membership for relatively high inflation countries such as Italy and France was that participation enabled them to reduce their inflation rates more rapidly, substantially and at lower cost than if they had been non-members.
 
-generally below German in$ation, leading to much more stability of the real exchange rate.
+According to this anti-inflation hypothesis, there are two ways that the fight against inflation was assisted by full EMS membership: (i) by giving the authorities an incentive to bring inflation under control; and (ii) by affecting private agents' wage and price behaviour.
 
-16.8 THE EMS AS AN ANTI-INFLATION ZONE
+With regard to the authorities' incentives, both Italy and France (and other members) by making a commitment to peg their nominal exchange rates against the key low-inflation currency in the system – the Deutschmark – in effect pledged to bring their inflation rates down to the German level. If their inflation rates remained higher than Germany's then they would be penalized by a loss of international competitiveness. Of course, they could opt for occasional devaluations to maintain their competitiveness, but if France and Italy were to do so too frequently this would signal to economic agents that the authorities were not serious in pursuing anti-inflationary policies. By making a commitment to peg their currencies to the Deutschmark the authorities made a visible signal of their commitment to an anti-inflation strategy. So long as they maintained the peg (tying their hands), they gained some of the anti-inflation credibility of the Bundesbank.
 
-By way of background, before we consider the anti-in$ation hypothesis, we should mention that it was a
+The effect of agents' wage and price behaviour is connected to the authorities' incentive/credibility effect. Given that their authorities maintained the peg, economic agents in France and Italy learnt that persisting with high wage and price inflation demands made their economies uncompetitive. This would ultimately lead to job losses and an economic slowdown. Hence, workers had an incentive to lower their wage demands which in turn resulted in lower inflation. In addition, employers would resist excessive wage demands since if they believed that the authorities would maintain the exchange rate peg they would know that the resulting cost-push pressures would undermine their competitiveness in international markets.
 
-widely held belief that German in$ation had generally been lower than that of other EU countries because of
+Given the anti-inflation incentives for both the authorities and economic agents, it was argued that membership of the ERM assisted in the process of bringing down inflation compared to non-ERM membership. The Italian and French authorities by being members of the ERM were, according to the anti-inflation hypothesis, able to bring down their inflation rates more substantially and more quickly than could have been achieved without membership.
 
-the independent status of the German Bundesbank. !e Bundesbank was given a charter in 1957 that required
+While the anti-inflation hypothesis explained what was in ERM membership for traditionally high-inflation countries, it did not explain German participation in the ERM. Germany, since the Second World War, had already been a low-inflation country, and the Bundesbank already had anti-inflation credibility. Melitz (1988) argues that the main gain for Germany was that, while the nominal exchange rates were fixed and other countries still had relatively high inflation rates, the Germans experienced an improvement in their international competitiveness due to the resulting real depreciation of the Deutschmark.
 
-it to ensure price stability, enabling it to pursue tough monetary policies regardless of political pressures to
-
-in$ate. Having experienced two periods of hyperin$ation in the twentieth century the Germans have a high
-
-aversion to in$ation. Only in the 1990s were other central banks, such as the Banca d'Italia (1992), Bank of
-
-Portugal (1992), Banque de France (1993), Bank of Greece (1993), Bank of Spain (1994) and the Bank of
-
-England (1998), granted similar degrees of independence.
-
-A popular interpretation of the advantages of EMS membership was put forward by Giavazzi and Pagano
-
-(1988) and Melitz (1988). According to this interpretation one of the major advantages of ERM membership
-
-for relatively high in$ation countries such as Italy and France was that participation enabled them to reduce
-
-their in$ation rates more rapidly, substantially and at lower cost than if they had been non-members.
-
-According to this anti-in$ation hypothesis, there are two ways that the fight against in$ation was assisted by
-
-full EMS membership: (i) by giving the authorities an incentive to bring in$ation under control; and (ii) by
-
-affecting private agents' wage and price behaviour.
-
-With regard to the authorities' incentives, both Italy and France (and other members) by making a
-
-commitment to peg their nominal exchange rates against the key low-in$ation currency in the system – the
-
-Deutschmark – in effect pledged to bring their in$ation rates down to the German level. If their in$ation rates
-
-remained higher than Germany’s then they would be penalized by a loss of international competitiveness. Of
-
-course, they could opt for occasional devaluations to maintain their competitiveness, but if France and Italy
-
-were to do so too frequently this would signal to economic agents that the authorities were not serious in
-
-pursuing anti-in$ationary policies. By making a commitment to peg their currencies to the Deutschmark the
-
-authorities made a visible signal of their commitment to an anti-in$ation strategy. So long as they maintained
-
-the peg (tying their hands), they gained some of the anti-in$ation credibility of the Bundesbank.
-
-397
-
-International Finance
-
-!e effect of agents' wage and price behaviour is connected to the authorities' incentive/credibility effect.
-
-Given that their authorities maintained the peg, economic agents in France and Italy learnt that persisting
-
-with high wage and price in$ation demands made their economies uncompetitive. !is would ultimately
-
-lead to job losses and an economic slowdown. Hence, workers had an incentive to lower their wage demands
-
-which in turn resulted in lower in$ation. In addition, employers would resist excessive wage demands since
-
-if they believed that the authorities would maintain the exchange rate peg they would know that the resulting
-
-cost-push pressures would undermine their competitiveness in international markets.
-
-Given the anti-in$ation incentives for both the authorities and economic agents, it was argued that
-
-membership of the ERM assisted in the process of bringing down in$ation compared to non-ERM
-
-membership. !e Italian and French authorities by being members of the ERM were, according to the antiin$ation hypothesis, able to bring down their in$ation rates more substantially and more quickly than could
-
-have been achieved without membership.
-
-While the anti-in$ation hypothesis explained what was in ERM membership for traditionally highin$ation countries, it did not explain German participation in the ERM. Germany, since the Second World
-
-War, had already been a low-in$ation country, and the Bundesbank already had anti-in$ation credibility.
-
-Melitz (1988) argues that the main gain for Germany was that, while the nominal exchange rates were fixed
-
-and other countries still had relatively high in$ation rates, the Germans experienced an improvement in their
-
-international competitiveness due to the resulting real depreciation of the Deutschmark.
-
-!is interpretation of the EMS suggests that all countries got something out of the system, but at a cost. !e
-
-Italians and French managed to bring down their in$ation rates and sustain them at lower rates than had they
+This interpretation of the EMS suggests that all countries got something out of the system, but at a cost. The Italians and French managed to bring down their inflation rates and sustain them at lower rates than had they
 
 not joined the system, but at the expense of some loss of international competitiveness. !e Germans probably
 
@@ -852,104 +500,21 @@ _Source_ : OECD _World Economic Outlook_ .
 
 International Finance
 
-parameters governing wage, price and output behaviour in the countries studied (France, Italy, Denmark and
+parameters governing wage, price and output behaviour in the countries studied (France, Italy, Denmark and Germany) should have changed, given the discipline of the EMS. Giavazzi and Giovannini did not find that the statistical relationships changed significantly if mid-1979 was taken as the starting point. If the starting point was taken as the beginning of 1982, there was some weak evidence of a change in wage and price behaviour, providing some support for the anti-inflation hypothesis. The authors suggest that because of large real depreciations of the lira and franc in 1978, the French and Italian authorities did not have to accept the EMS discipline in the early stages of the system. Furthermore, it took economic agents time to learn the implications of EMS memberships and the authorities time to earn credibility. Only then did agents revise downwards their wage and price behaviour.
 
-Germany) should have changed, given the discipline of the EMS. Giavazzi and Giovannini did not find that
+Overall, it appears that one of the reasons for the lack of conclusive support for the anti-inflation hypothesis is that for the first three years of its operation it is a seriously defective description of the EMS. The differential effects of the second oil shock made authorities very reluctant to accept the discipline of the system, as is amply illustrated by the frequent realignments and the French dash for growth in 1981. It seems that only after 1982 did policy-makers in France, Denmark, Belgium and Italy decide to subject their economies to disinflationary policies. For instance, the French government adopted an austerity package in March 1983 and the Italian authorities repealed wage indexation laws in 1984. The resulting disinflation led to both a rapid decline in EMS inflation rates and to a greater degree of convergence as compared to the group of non-EMS currencies.
 
-the statistical relationships changed significantly if mid-1979 was taken as the starting point. If the starting
+### 16.9 Intervention Policy in the EMS
 
-point was taken as the beginning of 1982, there was some weak evidence of a change in wage and price
+Although the EMS was supposed to result in more symmetry with regard to intervention through the mechanism of the ECU divergence indicator, in practice the indicator did not work particularly well. A study of intervention within the EMS by Mastropasqua et al. (1988) showed some interesting asymmetries and contrasts with respect to intervention behaviour.
 
-behaviour, providing some support for the anti-in$ation hypothesis. !e authors suggest that because of large
+The Bundesbank was generally very active with regard to non-obligatory **intra-marginal intervention**. At times, however, particularly when the system was on the verge of realignments (such as in January 1987 and the 1992/93 crises) it was prepared to engage in heavy obligatory **marginal intervention**. The Bundesbank was far more active with regard to the dollar exchange rate: it was a large seller of dollars when the dollar was appreciating during 1980–85 and a large purchaser when it subsequently fell. The other ERM countries were far more active with regard to intra-marginal intervention and keeping their currencies in line with the Deutschmark, which they increasingly used in preference to dollars for such intra-marginal intervention.
 
-real depreciations of the lira and franc in 1978, the French and Italian authorities did not have to accept the
+The other interesting finding was that the Bundesbank typically sterilized its interventions so that they did not affect the German monetary base. That is, purchases or sales of foreign currency that increased or decreased the German money supply were typically offset by sales or purchases of domestic bonds so as to neutralize the effect on the German monetary base. The other EMS countries normally only engaged in partial sterilization (30–40%) so that purchases or sales of foreign currency resulted in expansion and contraction of their domestic money supplies.
 
-EMS discipline in the early stages of the system. Furthermore, it took economic agents time to learn the
+The overall picture that emerges is that the Bundesbank managed the external exchange rate of the ERM currencies against the dollar, while the rest of the ERM members took responsibility for ensuring that they kept their exchange rates in line with the Deutschmark, managing the internal parities. In addition, the Bundesbank by pursuing a sterilization policy generally did not allow its exchange rate policy to influence its money supply and its primary objective of domestic price stability. On the other hand, other ERM countries accepted the discipline of the system by purchasing their currencies when they were weak to keep them in line with the Deutschmark and permitting this intervention to result in a contraction in their money supplies.
 
-implications of EMS memberships and the authorities time to earn credibility. Only then did agents revise
-
-downwards their wage and price behaviour.
-
-Overall, it appears that one of the reasons for the lack of conclusive support for the anti-in$ation hypothesis
-
-is that for the first three years of its operation it is a seriously defective description of the EMS. !e differential
-
-effects of the second oil shock made authorities very reluctant to accept the discipline of the system, as is amply
-
-illustrated by the frequent realignments and the French dash for growth in 1981. It seems that only a(er 1982
-
-did policy-makers in France, Denmark, Belgium and Italy decide to subject their economies to disin$ationary
-
-policies. For instance, the French government adopted an austerity package in March 1983 and the Italian
-
-authorities repealed wage indexation laws in 1984. !e resulting disin$ation led to both a rapid decline in
-
-EMS in$ation rates and to a greater degree of convergence as compared to the group of non-EMS currencies.
-
-16.9 INTERVENTION POLICY IN THE EMS
-
-Although the EMS was supposed to result in more symmetry with regard to intervention through the
-
-mechanism of the ECU divergence indicator, in practice the indicator did not work particularly well. A study
-
-- f intervention within the EMS by Mastropasqua et al. (1988) showed some interesting asymmetries and
-contrasts with respect to intervention behaviour.
-
-!e Bundesbank was generally very active with regard to non-obligatory **intra-marginal intervention** . At
-
-times, however, particularly when the system was on the verge of realignments (such as in January 1987 and
-
-the 1992/93 crises) it was prepared to engage in heavy obligatory **marginal intervention** . !e Bundesbank
-
-was far more active with regard to the dollar exchange rate: it was a large seller of dollars when the dollar
-
-was appreciating during 1980–85 and a large purchaser when it subsequently fell. !e other ERM countries
-
-were far more active with regard to intra-marginal intervention and keeping their currencies in line with the
-
-Deutschmark, which they increasingly used in preference to dollars for such intra-marginal intervention.
-
-!e other interesting finding was that the Bundesbank typically sterilized its interventions so that they
-
-did not affect the German monetary base. !at is, purchases or sales of foreign currency that increased or
-
-decreased the German money supply were typically offset by sales or purchases of domestic bonds so as to
-
-neutralize the effect on the German monetary base. !e other EMS countries normally only engaged in partial
-
-sterilization (30–40%) so that purchases or sales of foreign currency resulted in expansion and contraction of
-
-their domestic money supplies.
-
-!e overall picture that emerges is that the Bundesbank managed the external exchange rate of the ERM
-
-currencies against the dollar, while the rest of the ERM members took responsibility for ensuring that they
-
-kept their exchange rates in line with the Deutschmark, managing the internal parities. In addition, the
-
-Bundesbank by pursuing a sterilization policy generally did not allow its exchange rate policy to in$uence its
-
-money supply and its primary objective of domestic price stability. On the other hand, other ERM countries
-
-accepted the discipline of the system by purchasing their currencies when they were weak to keep them in
-
-line with the Deutschmark and permitting this intervention to result in a contraction in their money supplies.
-
-400
-
-The European Monetary System and European Monetary Union
-
-Nevertheless, Mastropasqua et al. (1988) emphasized that intervention was only one of the means by which
-
-countries maintained their peg to the Deutschmark. !e most obvious means was to raise their domestic
-
-interest rates when their currencies were under pressure and lower them when the pressure receded. Here,
-
-again, there was ample evidence that countries other than Germany undertook most of the adjustment burden,
-
-the Bundesbank proving very reluctant to reduce interest rates when the Deutschmark was strong. In practice,
-
-far from being a symmetrical system it appears that weak currency members accepted the discipline of the
+Nevertheless, Mastropasqua et al. (1988) emphasized that intervention was only one of the means by which countries maintained their peg to the Deutschmark. The most obvious means was to raise their domestic interest rates when their currencies were under pressure and lower them when the pressure receded. Here, again, there was ample evidence that countries other than Germany undertook most of the adjustment burden, the Bundesbank proving very reluctant to reduce interest rates when the Deutschmark was strong. In practice, far from being a symmetrical system it appears that weak currency members accepted the discipline of the
 
 EMS both with respect to their intervention and domestic economic policies and were prepared to accept the
 
@@ -1034,84 +599,27 @@ $uctuation around a central rate. A monetary union requires a well-developed ins
 |**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|**Non-ERM countries**|
 |Austria|2.9|0.3|1.1|2.0|1.4|2.5|1.2|1.7|4.1|3.8|4.2|3.6|2.4|0.3|2.7|1.9|2.6|1.8|3.6|
 |Canada|1.5|3.7|3.2|3.2|6.3|4.8|3.3|4.2|5.0|2.4|0.2|2.1|0.9|2.3|4.8|2.8|1.6|4.2|4.1|
-|Japan|2.8|3.2|3.1|2.3|3.9|4.4|2.9|4.2|6.2|4.8|5.1|3.4|1.0|0.2|1.1|1.9|3.4|1.9|1.1|
-|Norway|4.2|0.9|0.3|4.6|5.7|5.3|4.2|2.0|0.5|0.9|1.9|3.6|3.3|2.7|5.3|4.4|5.3|5.2|2.6|
-|United<br>Kingdom|2.2|1.3|1.7|3.7|2.4|3.5|4.4|4.8|5.0|2.2|0.4|1.4|0.2|2.3|4.4|2.9|2.8|3.3|3.1|
-|United States|0.3|2.5|2.1|4.0|6.8|3.7|3.0|2.9|3.8|3.4|1.3|0.2|3.3|2.7|4.0|2.5|3.7|4.5|4.2|
+|Japan|2.8|3.2|3.1|2.3|3.9|4.4|2.9|4.2|6.2|4.8|5.1|3.4|1.0|0.2|1.1|1.9|3.4|1.9|-1.1|
+|Norway|4.2|0.9|0.3|4.6|5.7|5.3|4.2|2.0|-0.5|0.9|1.9|3.6|3.3|2.7|5.3|4.4|5.3|5.2|2.6|
+|United<br>Kingdom|-2.2|-1.3|1.7|3.7|2.4|3.5|4.4|4.8|5.0|2.2|0.4|-1.4|0.2|2.3|4.4|2.9|2.8|3.3|3.1|
+|United States|-0.3|2.5|-2.1|4.0|6.8|3.7|3.0|2.9|3.8|3.4|1.3|-0.2|3.3|2.7|4.0|2.5|3.7|4.5|4.2|
 |Average<br>non-ERM|1.5|1.5|0.2|3.3|4.4|4.0|3.2|3.3|3.9|2.9|2.1|1.2|1.9|1.8|3.7|2.7|3.2|3.5|2.8|
 
 _Source_ : OECD _World Economic Outlook_ .
 
-The European Monetary System and European Monetary Union
+as a single union central bank. Finally, within a monetary union financial capital must be allowed to move freely between the members of the union. This contrasts with the experience of some fixed exchange rate regimes whereby exchange rate parities are often defended only by resort to capital controls.
 
-as a single union central bank. Finally, within a monetary union financial capital must be allowed to move
+### 16.12 Benefits of Economic and Monetary Union
 
-freely between the members of the union. !is contrasts with the experience of some fixed exchange rate
+The benefits and costs associated with the introduction of a single European currency – the euro – as legal tender throughout the EU members of the currency union are in nature a mixture of the political, social and economic.
 
-regimes whereby exchange rate parities are o(en defended only by resort to capital controls.
+- **Stimulus to intra-EU trade.** The underlying rationale of the EU is that the removal of barriers to trade by increasing the volume of intra-EU trade will lead to a corresponding rise in the economic prosperity of its members. To maximize the trade flows between the EU member states and achieve a truly single market it is argued that there needs to be a common medium of exchange. Differing national currencies that fluctuate against one another inhibit trade flows by increasing uncertainty facing companies which can only be eliminated by hedging techniques that entail additional (though not substantial) costs for small to medium-sized companies. This argument for a currency union in Europe is particularly important; not only are the European economies particularly open to international trade as a percentage of their gross domestic product, but also a large proportion of their trade is with each other, that is, there is a high degree of intra-European trade.
 
-16.12 BENEFITS OF ECONOMIC AND MONETARY UNION
+Against this, some have argued that short-run exchange rate uncertainty can be easily hedged and probably has very little adverse effect on trade (see, for example, IMF, 1984), implying that the benefits from a single currency may be small. However, Peree and Steinherr (1989) have argued that the problem is not really short-term uncertainty which can be easily hedged, but rather mediumto long-term uncertainty (one-year-plus horizon) for which well-developed forward markets do not exist. They find that mediumto long-run exchange rate uncertainty generally exerts a significant adverse effect on international trade. As a monetary union is, by definition, a long-term arrangement, the adverse effects of mediumto long-run exchange rate uncertainty would presumably be eliminated.
 
-!e benefits and costs associated with the introduction of a single European currency – the euro – as legal
+A further boost to intra-EU trade comes from the elimination of the transaction costs involved in converting different currencies for such trade. These costs involve the time and resources used up by firms acquiring and selling the requisite currencies and banks' commission charges. The European Commission has estimated the cost savings from elimination of these transaction costs to be around 0.4% of EU GDP per annum. It should be noted, however, that this would involve smaller profits for banks. Box 16.1 describes controversial research on the impact of monetary unions on trade flows.
 
-tender throughout the EU members of the currency union are in nature a mixture of the political, social and
-
-economic.
-
- - **Stimulus to intra-EU trade.** !e underlying rationale of the EU is that the removal of barriers to
-trade by increasing the volume of intra-EU trade will lead to a corresponding rise in the economic
-prosperity of its members. To maximize the trade $ows between the EU member states and achieve
-a truly single market it is argued that there needs to be a common medium of exchange. Differing
-national currencies that $uctuate against one another inhibit trade $ows by increasing uncertainty
-facing companies which can only be eliminated by hedging techniques that entail additional (though
-not substantial) costs for small to medium-sized companies. !is argument for a currency union
-in Europe is particularly important; not only are the European economies particularly open to
-international trade as a percentage of their gross domestic product, but also a large proportion of
-their trade is with each other, that is, there is a high degree of intra-European trade.
-
-Against this, some have argued that short-run exchange rate uncertainty can be easily hedged
-
-and probably has very little adverse effect on trade (see, for example, IMF, 1984), implying that the
-
-benefits from a single currency may be small. However, Peree and Steinherr (1989) have argued that
-
-the problem is not really short-term uncertainty which can be easily hedged, but rather mediumto
-
-long-term uncertainty (one-year-plus horizon) for which well-developed forward markets do not
-
-exist. !ey find that mediumto long-run exchange rate uncertainty generally exerts a significant
-
-adverse effect on international trade. As a monetary union is, by definition, a long-term arrangement,
-
-the adverse effects of mediumto long-run exchange rate uncertainty would presumably be
-
-eliminated.
-
-A further boost to intra-EU trade comes from the elimination of the transaction costs involved in
-
-converting different currencies for such trade. !ese costs involve the time and resources used up by
-
-firms acquiring and selling the requisite currencies and banks' commission charges. !e European
-
-Commission has estimated the cost savings from elimination of these transaction costs to be around
-
-0.4% of EU GDP per annum. It should be noted, however, that this would involve smaller profits for
-
-banks. Box 16.1 describes controversial research on the impact of monetary unions on trade $ows.
-
- - **A more efficient allocation of factors of production within the EU.** EMU involved not only the
-creation of a single European currency, but also the removal of capital controls and distortions to
-the treatment of financial capital among EU countries. !ere is no doubt that the free movement
-
-	- f capital within the EU has in the past been distorted by capital controls and differing national
-treatments of financial capital, which has led to a suboptimal allocation within the Union. Capital
-controls have typically restricted capital from moving to countries where it has a low marginal
-productivity to countries where it has a high one. !e permanent abolition of exchange rate controls
-and the absence of uncertainty created by exchange rate $uctuations has undoubtedly led to a more
-
-403
-
-International Finance
+- **A more efficient allocation of factors of production within the EU.** EMU involved not only the creation of a single European currency, but also the removal of capital controls and distortions to the treatment of financial capital among EU countries. There is no doubt that the free movement of capital within the EU has in the past been distorted by capital controls and differing national treatments of financial capital, which has led to a suboptimal allocation within the Union. Capital controls have typically restricted capital from moving to countries where it has a low marginal productivity to countries where it has a high one. The permanent abolition of exchange rate controls and the absence of uncertainty created by exchange rate fluctuations has undoubtedly led to a more
 
 **Box 16.1 The impact of a monetary union on trade**
 
@@ -1192,104 +700,21 @@ now company stocks are all quoted in euros with more equity business done on the
 exchanges. !e access to cheaper sources of finance and improved liquidity for both governments and
 companies is a potentially significant benefit from EMU.
 
- - **Greater price transparency.** Another gain from having a single currency is that consumers and
-businesses benefit from price transparency. Now that all prices in the eurozone countries are quoted
-in euros it is more di'cult for manufacturers to maintain significant price differentials in different
-markets. Consumers buying from the cheapest sources will, over time, help to ensure that a single
-pricing policy biased towards the lower end of the prices charged in different countries is adopted by
-many multinationals. !is implies a potential benefit for consumers and businesses at the expense of
-reduced profits for some multinational companies.
+- **Greater price transparency.** Another gain from having a single currency is that consumers and businesses benefit from price transparency. Now that all prices in the eurozone countries are quoted in euros it is more difficult for manufacturers to maintain significant price differentials in different markets. Consumers buying from the cheapest sources will, over time, help to ensure that a single pricing policy biased towards the lower end of the prices charged in different countries is adopted by many multinationals. This implies a potential benefit for consumers and businesses at the expense of reduced profits for some multinational companies.
 
-16.13 COSTS OF EMU
+### 16.13 Costs of EMU
 
-Most of the perceived costs of EMU are not so much associated with the final attainment of monetary union,
+Most of the perceived costs of EMU are not so much associated with the final attainment of monetary union, but rather with the transitional costs associated in achieving it:
 
-but rather with the transitional costs associated in achieving it:
+- **Loss of monetary autonomy.** The use of a common currency with a European Central Bank, charged with determining monetary policy and the short-term interest rate on the euro, is the most visible sign of the main cost associated with EMU. Since EMU has involved the introduction of a single currency with no capital controls, then a single short-term interest rate has prevailed in the eurozone countries. This means real dilemmas for the European Central Bank when setting interest rates, as it has to reconcile the needs of booming member states with those of member states suffering from recession. In the absence of EMU, national central banks in booming countries would typically raise the short-term interest rate to dampen economic activity, while those of countries in recession would usually reduce the short-term interest rate to boost economic activity. A common interest rate in the post-EMU era may be insufficiently high to curtail economic activity in booming countries while being too high to help countries in recession.
 
- - **Loss of monetary autonomy.** !e use of a common currency with a European Central Bank, charged
-with determining monetary policy and the short-term interest rate on the euro, is the most visible
-sign of the main cost associated with EMU. Since EMU has involved the introduction of a single
-currency with no capital controls, then a single short-term interest rate has prevailed in the eurozone
-countries. !is means real dilemmas for the European Central Bank when setting interest rates, as
-it has to reconcile the needs of booming member states with those of member states suffering from
-recession. In the absence of EMU, national central banks in booming countries would typically raise
-the short-term interest rate to dampen economic activity, while those of countries in recession would
-usually reduce the short-term interest rate to boost economic activity. A common interest rate in the
-post-EMU era may be insu'ciently high to curtail economic activity in booming countries while
-being too high to help countries in recession.
-
- - **Loss of national macroeconomic policy autonomy.** A major argument against EMU is that the
-acceptance of a single currency means that countries are no longer free to determine their own
-monetary policies and in$ation rates. In economics it is widely believed that in the short run a trade
-	- ff exists between in$ation and unemployment, known as the Phillips curve. Some countries prefer
-to have low in$ation rates and are prepared to accept relatively high unemployment, while others
-prefer low unemployment and relatively high in$ation. With $oating exchange rates these different
-in$ation preferences can be reconciled by an appreciating currency for low-in$ation countries. Since
-a monetary union requires common in$ation rates, countries with differing preferences with respect
-to any unemployment–in$ation trade-off will lose from monetary union. !is argument is illustrated
-in Figure 16.1 that compares the UK and eurozone Phillips curves.
-
-405
-
-International Finance
-
-UK inflation (a) UK Phillips Eurozone inflation (b) Eurozone
-
-Puk*
-
-Pu
-
-Uuk* Uuk UK unemployment
-
-0 Uuk* Uuk UK unemployment 0 Ue Ue* Eurozone unemployment
-
-Ue Ue*
+- **Loss of national macroeconomic policy autonomy.** A major argument against EMU is that the acceptance of a single currency means that countries are no longer free to determine their own monetary policies and inflation rates. In economics it is widely believed that in the short run a trade-off exists between inflation and unemployment, known as the Phillips curve. Some countries prefer to have low inflation rates and are prepared to accept relatively high unemployment, while others prefer low unemployment and relatively high inflation. With floating exchange rates these different inflation preferences can be reconciled by an appreciating currency for low-inflation countries. Since a monetary union requires common inflation rates, countries with differing preferences with respect to any unemployment–inflation trade-off will lose from monetary union. This argument is illustrated in Figure 16.1 that compares the UK and eurozone Phillips curves.
 
 **Figure 16.1** UK and eurozone Phillips curves
 
-Assume that UK policy-makers prefer relatively high in$ation, while the eurozone prefers less
+Assume that UK policy-makers prefer relatively high inflation, while the eurozone prefers less inflation. The optimal inflation–unemployment trade-off for the UK is given by _P_ UK* and _U_ UK*, while the optimal trade-off for the eurozone area is _P_ E* and _U_ E*. In a monetary union both have to accept a common inflation rate _P_ U, which implies higher UK unemployment than UK policy-makers prefer, and higher eurozone inflation than the eurozone countries prefer. However, there is much debate in economics over whether the Phillips curve trade-off exists. Most economists accept that in the short run such a trade-off usually exists but in the long run does not, with each country having a vertical Phillips curve at its natural rate of unemployment. Hence, the costs associated with the loss of national policy autonomy are probably confined to the short run.
 
-in$ation. !e optimal in$ation–unemployment trade-off for the UK is given by _P_ UK* and _U_ UK*, while
-
-the optimal trade-off for the eurozone area is _P_ E* and _U_ E*. In a monetary union both have to accept a
-
-common in$ation rate _P_ U, which implies higher UK unemployment than UK policy-makers prefer,
-
-and higher eurozone in$ation than the eurozone countries prefer. However, there is much debate
-
-in economics over whether the Phillips curve trade-off exists. Most economists accept that in the
-
-short run such a trade-off usually exists but in the long run does not, with each country having a
-
-vertical Phillips curve at its natural rate of unemployment. Hence, the costs associated with the loss of
-
-national policy autonomy are probably confined to the short run.
-
- - **Loss of inflation tax.** German agreement to EMU was crucially dependent upon guarantees of a
-low in$ation rate in the union. For some governments, especially the 2004 accession countries, the
-move to EMU is potentially costly because it is necessary to bring their in$ation rates down and into
-line with the low eurozone rate. !is undermines their implicit in$ation tax revenue. In countries
-where there is a large amount of outstanding public debt and a large holding of the monetary base,
-as opposed to interest-earning bank accounts, the in$ation that results from reducing the real value
-
-	- f both the outstanding debt and the purchasing power of the authorities' monetary base liability
-effectively constitutes a tax. !e lower EMU in$ation rate implies a smaller in$ation tax revenue for
-high-in$ation countries, meaning that their governments will have to replace the lost in$ation tax
-with explicit direct and indirect taxes. In an analysis of this argument, Cohen and Wyplosz (1989)
-calculated that the taxation of the monetary base was far more significant for some countries than
-
-	- thers. In particular, assuming a constant 5% in$ation rate, the in$ation tax as a percentage of GDP
-was 2.1% for Ireland, 3.9% for Italy and 3.5% for Spain, but only 1% for Germany, 1.1% for France
-and 0.7% for the UK and the Netherlands. Furthermore, since Italy and Spain are among the most
-heavily indebted countries, the temptation to in$ate and reduce the real value of outstanding debt was
-higher in those countries. It should be noted that although explicit taxes tend to be politically more
-unpopular than hidden taxes, such as ‘in$ation taxes', from an economic viewpoint the replacement
-
-	- f in$ation tax by more explicit taxes is not necessarily a bad thing.
-
-406
-
-The European Monetary System and European Monetary Union
+- **Loss of inflation tax.** German agreement to EMU was crucially dependent upon guarantees of a low inflation rate in the union. For some governments, especially the 2004 accession countries, the move to EMU is potentially costly because it is necessary to bring their inflation rates down and into line with the low eurozone rate. This undermines their implicit inflation tax revenue. In countries where there is a large amount of outstanding public debt and a large holding of the monetary base, as opposed to interest-earning bank accounts, the inflation that results from reducing the real value of both the outstanding debt and the purchasing power of the authorities' monetary base liability effectively constitutes a tax. The lower EMU inflation rate implies a smaller inflation tax revenue for high-inflation countries, meaning that their governments will have to replace the lost inflation tax with explicit direct and indirect taxes. In an analysis of this argument, Cohen and Wyplosz (1989) calculated that the taxation of the monetary base was far more significant for some countries than others. In particular, assuming a constant 5% inflation rate, the inflation tax as a percentage of GDP was 2.1% for Ireland, 3.9% for Italy and 3.5% for Spain, but only 1% for Germany, 1.1% for France and 0.7% for the UK and the Netherlands. Furthermore, since Italy and Spain are among the most heavily indebted countries, the temptation to inflate and reduce the real value of outstanding debt was higher in those countries. It should be noted that although explicit taxes tend to be politically more unpopular than hidden taxes, such as 'inflation taxes', from an economic viewpoint the replacement of inflation tax by more explicit taxes is not necessarily a bad thing.
 
  - **Regional disparities.** Another concern over EMU is that while it will probably lead to gains for
 the EU as a whole, some countries could gain while others could lose. !e increased movements
@@ -1375,104 +800,19 @@ union with full monetary integration among its members. At the time of signing t
 
 was the creation of a customs union which involved the adoption of a common tariff policy vis-à-vis third
 
-countries and the removal of trade barriers (especially tariffs) between member countries. By 1968 much
-
-progress had been made in these areas and it was believed that a means of further increasing trade between
-
-members would be the creation of a single European currency. At the Hague Summit of December 1969 the
-
-then six member countries of the EEC agreed in principle to establish complete economic and monetary union
-
-in stages, commencing in January 1971 and being completed by the end of 1980. Although in retrospect such
-
-a target seems absurdly ambitious, it must be remembered that the Bretton Woods system of fixed exchange
-
-rates had been operating with only occasional realignments for two decades.
+countries and the removal of trade barriers (especially tariffs) between member countries. By 1968 much progress had been made in these areas and it was believed that a means of further increasing trade between members would be the creation of a single European currency. At the Hague Summit of December 1969 the then six member countries of the EEC agreed in principle to establish complete economic and monetary union in stages, commencing in January 1971 and being completed by the end of 1980. Although in retrospect such a target seems absurdly ambitious, it must be remembered that the Bretton Woods system of fixed exchange rates had been operating with only occasional realignments for two decades.
 
 _The Werner Report_
 
-As a result of the Hague Summit of 1969, a committee was set up to investigate the subject, and in 1972
+As a result of the Hague Summit of 1969, a committee was set up to investigate the subject, and in 1972 it delivered the so-called Werner Report on Economic and Monetary Union. The report envisaged a full-fledged monetary union between the members of the EEC by 1980. In relation to the free movement of factors of production the report argued for the removal of all impediments and distortions to such movements. The report foresaw the conduct of fiscal and monetary policies being carried out at the community level by community institutions invested with the necessary decision-making powers, the main aim of such institutions being to regulate the monetary and credit policies of the union and manage the external exchange rate vis-à-vis non-EEC currencies. Fiscal policy would be employed to ensure both economic stability and growth. Finally, community institutions would also operate regional and structural policies designed 'to contribute to the balanced development of the community'.
 
-it delivered the so-called Werner Report on Economic and Monetary Union. !e report envisaged a fully$edged monetary union between the members of the EEC by 1980. In relation to the free movement of factors
+The main result of the Werner Report was the Snake in the Tunnel arrangement of 1972 which, as we have seen, had a very poor track record and was all but finished by 1978. Apart from being overambitious, there were more fundamental reasons for the failure to achieve EMU by the target date. In the first instance, the six original members were joined by Ireland, the United Kingdom and Denmark in 1973. Their accession negotiations and the ensuring of their successful integration into the EEC inevitably took precedence. In addition, as we saw in Chapter 11, the Bretton Woods system of fixed exchange rates broke up in 1971 and was swiftly followed by the first oil shock of 1973/74. The impact of the oil price rise was not spread evenly, and coinciding with the new era of floating exchange rates meant that countries were free to adopt different policy responses. Some countries, such as the UK and Italy, adopted expansionary policies in a bid to stave off recession, while others such as Germany were determined to avoid inflation and adopted deflationary policies. With such policy divergences and resulting differential inflation rates any hope of achieving fixed exchange rate parities between European currencies was soon vanquished. During the period 1971–75 French consumer prices rose by 52%, while in Germany they rose by 34.7% and in the UK by 82.5%.
 
-- f production the report argued for the removal of all impediments and distortions to such movements.
-!e report foresaw the conduct of fiscal and monetary policies being carried out at the community level by
-community institutions invested with the necessary decision-making powers, the main aim of such institutions
-being to regulate the monetary and credit policies of the union and manage the external exchange rate visà-vis non-EEC currencies. Fiscal policy would be employed to ensure both economic stability and growth.
-Finally, community institutions would also operate regional and structural policies designed 'to contribute to
-the balanced development of the community'.
-
-!e main result of the Werner Report was the Snake in the Tunnel arrangement of 1972 which, as
-
-we have seen, had a very poor track record and was all but finished by 1978. Apart from being overambitious, there were more fundamental reasons for the failure to achieve EMU by the target date. In the
-
-first instance, the six original members were joined by Ireland, the United Kingdom and Denmark in 1973.
-
-!eir accession negotiations and the ensuring of their successful integration into the EEC inevitably took
-
-precedence. In addition, as we saw in Chapter 11, the Bretton Woods system of fixed exchange rates broke
-
-up in 1971 and was swi(ly followed by the first oil shock of 1973/74. !e impact of the oil price rise was
-
-not spread evenly, and coinciding with the new era of $oating exchange rates meant that countries were
-
-free to adopt different policy responses. Some countries, such as the UK and Italy, adopted expansionary
-
-policies in a bid to stave off recession, while others such as Germany were determined to avoid in$ation
-
-and adopted de$ationary policies. With such policy divergences and resulting differential in$ation rates
-
-408
-
-The European Monetary System and European Monetary Union
-
-any hope of achieving fixed exchange rate parities between European currencies was soon vanquished.
-
-During the period 1971–75 French consumer prices rose by 52%, while in Germany they rose by 34.7%
-
-and in the UK by 82.5%.
-
-Ultimately, the principal obstacle to monetary union was that the heads of state that met at the Hague
-
-Summit failed to deliver the political will and commitment necessary for its achievement. To a large extent
-
-they misunderstood the full implications required to achieve EMU. Put simply, the declaration to achieve
-
-EMU only had a real chance of success if the member states were prepared to sacrifice the macroeconomic
-
-control of their national economies to achieve common in$ation objectives – but the political will to do this
-
-was never present.
+Ultimately, the principal obstacle to monetary union was that the heads of state that met at the Hague Summit failed to deliver the political will and commitment necessary for its achievement. To a large extent they misunderstood the full implications required to achieve EMU. Put simply, the declaration to achieve EMU only had a real chance of success if the member states were prepared to sacrifice the macroeconomic control of their national economies to achieve common inflation objectives – but the political will to do this was never present.
 
 _EMS and the Delors Report_
 
-!e EMU project was clearly $agging when in 1978 the President of the European Commission Roy Jenkins
-
-suggested that an EMS be set up to provide a zone of currency stability for the European currencies. As
-
-we have seen, the EMS had a mixed performance in its early days and was not initially viewed as a vehicle
-
-for achieving EMU. However, in 1986 Europe passed the Single European Act with the aim of creating a
-
-single market by 1992. !is in turn led to an inevitable debate about whether a single market would be best
-
-served by a single currency. At a meeting of the European Council in June 1988, the Heads of Government
-
-- f the member countries of the EEC confirmed the long-run objective of economic and monetary union.
-A committee of academics and central bankers headed by Jacques Delors, President of the European
-Commission, was set up to investigate the EMU issue and propose a strategy for achieving it. !e result
-
-- f the deliberations was the so-called Delors Report of 1989 which set out a broad outline proposal for
-achieving EMU. !e Delors Report emphasized that member states would have to be prepared to transfer
-decision-making powers to community institutions in the field of monetary policy and be bound to preset
-procedures and rules in other areas such as fiscal policy. In particular, it emphasized the need not only for
-convergent monetary policies, but also for convergent fiscal policies. !e report argued that monetary union
-requires a single currency rather than just irrevocably fixed parities. A single currency would demonstrate
-the irreversibility of the move to monetary union, would considerably facilitate monetary management
-within the community and would avoid the transaction costs of converting currencies. An EU Central Bank
-was viewed as a necessity to operate monetary, credit and interest policy rather than close coordination
-between existing central banks. Full liberalization of capital markets and financial market integration were
-also viewed as essential.
+The EMU project was clearly flagging when in 1978 the President of the European Commission Roy Jenkins suggested that an EMS be set up to provide a zone of currency stability for the European currencies. As we have seen, the EMS had a mixed performance in its early days and was not initially viewed as a vehicle for achieving EMU. However, in 1986 Europe passed the Single European Act with the aim of creating a single market by 1992. This in turn led to an inevitable debate about whether a single market would be best served by a single currency. At a meeting of the European Council in June 1988, the Heads of Government of the member countries of the EEC confirmed the long-run objective of economic and monetary union. A committee of academics and central bankers headed by Jacques Delors, President of the European Commission, was set up to investigate the EMU issue and propose a strategy for achieving it. The result of the deliberations was the so-called Delors Report of 1989 which set out a broad outline proposal for achieving EMU. The Delors Report emphasized that member states would have to be prepared to transfer decision-making powers to community institutions in the field of monetary policy and be bound to preset procedures and rules in other areas such as fiscal policy. In particular, it emphasized the need not only for convergent monetary policies, but also for convergent fiscal policies. The report argued that monetary union requires a single currency rather than just irrevocably fixed parities. A single currency would demonstrate the irreversibility of the move to monetary union, would considerably facilitate monetary management within the community and would avoid the transaction costs of converting currencies. An EU Central Bank was viewed as a necessity to operate monetary, credit and interest policy rather than close coordination between existing central banks. Full liberalization of capital markets and financial market integration were also viewed as essential.
 
 !e Delors Report took it for granted that the benefits of EMU would exceed the costs, and it was the remit
 
@@ -1560,105 +900,31 @@ Rome, covering political and economic reform. It provided the legal basis to est
 
 for EMU; for instance, allowing the formation of an ECB. !e Treaty also set out the conditions under which
 
-a country would be eligible for joining EMU. Only countries that meet all four of the following conditions, the
+a country would be eligible for joining EMU. Only countries that meet all four of the following conditions, the so-called 'convergence criteria', had the right to join the EMU at the outset, and these conditions also apply to prospective new EMU entrants (see section 16.31):
 
-410
+1. Average consumer price inflation in the country should not be more than 1.5% above that of the three countries with the lowest inflation rates;
 
-The European Monetary System and European Monetary Union
+2. A country should not have an excessive budget deficit, with the reference rate being that it should not exceed 3% of GDP;
 
-so-called 'convergence criteria', had the right to join the EMU at the outset, and these conditions also apply to
+3. The outstanding public-sector debt (national debt) of the country should not exceed 60% of GDP;
 
-prospective new EMU entrants (see section 16.31):
+4. Average nominal long-term interest rates in the year of examination should not be more than 2% above that of the three countries with the lowest inflation rates.
 
-1. Average consumer price in$ation in the country should not be more than 1.5% above that of the three
+It should be noted that in respect of the Maastricht criteria there were two big let-out clauses. Firstly, in respect of fiscal deficits a country might be permitted to join with a deficit above 3% of GDP if 'the ratio has declined substantially and continuously and reached a level that comes close to the reference value; or, alternatively, the excess over the reference value is only exceptional and temporary and the ratio remains close to the reference value'. Secondly, in respect of the levels of national debt, a country might be permitted to join the EMU with national debts above 60% if 'the ratio is sufficiently diminishing and approaching the reference value at a satisfactory pace'. The latter let-out clause became very significant when the European Commission made its assessment of eligible entrants in 1998.
 
-countries with the lowest in$ation rates;
+In addition to the four criteria, the currency of a country was expected to have respected normal margins of fluctuation and not have been devalued within the ERM in the two years prior to a country joining EMU. The United Kingdom and Denmark were in a different position from the other EU countries since they were not required to join EMU even if they met the convergence criteria. The United Kingdom negotiated an 'opt-out' which was set out in a Protocol attached to the Treaty. The Protocol stated that the UK was not obliged to join Stage 3 without a separate decision by its government and Parliament. Denmark decided not to join Stage 3 but had the right to revoke this decision in accordance with its constitution. Subsequently, it was agreed that actual (not forecast!) 1997 data would be used for assessing which countries were eligible to join EMU in conjunction with forecasts for 1998, the decision being taken by a qualified majority vote in May 1998. Sweden effectively made itself ineligible for EMU entrance by not permitting the krona to participate in the ERM system for the two years prior to EMU.
 
-A country should not have an excessive budget deficit, with the reference rate being that it should not
+### 16.16 An Evaluation of the Maastricht Criteria
 
-exceed 3% of GDP;
+The Maastricht criteria were primarily motivated by a German desire to ensure that the qualifying members for EMU had a strong fiscal and monetary background. Having an ECB with voting members made up from countries with a sound financial background was viewed as an essential foundation for ensuring that the euro would turn out to be a sound currency with similar attributes to the Deutschmark. Another way of saying roughly the same thing was that the Germans were keen to exclude countries with a poor economic record and a high propensity to print money when faced with economic difficulty (such as Italy and Greece).
 
-3. !e outstanding public-sector debt (national debt) of the country should not exceed 60% of GDP;
-4. Average nominal long-term interest rates in the year of examination should not be more than 2%
+While the basic idea of including only countries with sound economies and sound fiscal policies as a basis for ensuring a sound monetary union has significant merits, the Maastricht criteria have been subjected to numerous criticisms.
 
-above that of the three countries with the lowest in$ation rates.
+One criticism was that the Maastricht criteria were very arbitrary both in relation to the targets set and the targets chosen. The choice of 3% for the budget deficit to GDP ratio and 60% for the government debt to GDP ratio were clearly arbitrary – the limits could easily be raised to say 3.5% and 80% respectively without creating a confidence crisis and permitting more founding members. In addition, in the run-up to EMU there was evidence that some governments were massaging their fiscal deficits to meet the criteria.
 
-It should be noted that in respect of the Maastricht criteria there were two big let-out clauses. Firstly, in respect
+Another major criticism was that the national debt criterion was not really appropriate since it looked only on the liability side, ignoring state-owned assets. A government could have a high national debt, but the value of state-owned assets might mean it has a low net liability or even a positive net asset position; whereas a government with a lower national debt might have relatively few state-owned assets and a lower net asset position relative to its GDP. Many have criticized the choice of targets as being only financially oriented, having nothing to say on the real economy, such as economic growth, the balance of payments and the rate of unemployment. Indeed, the narrow focus on financial criteria may have imposed an excessive degree of fiscal austerity on Europe in the run-up to EMU, implying higher unemployment and lower economic growth, than would otherwise have been the case.
 
-- f fiscal deficits a country might be permitted to join with a deficit above 3% of GDP if 'the ratio has declined
-substantially and continuously and reached a level that comes close to the reference value; or, alternatively, the
-excess over the reference value is only exceptional and temporary and the ratio remains close to the reference
-value'. Secondly, in respect of the levels of national debt, a country might be permitted to join the EMU with
-national debts above 60% if 'the ratio is su'ciently diminishing and approaching the reference value at a
-satisfactory pace'. !e latter let-out clause became very significant when the European Commission made its
-assessment of eligible entrants in 1998.
-
-In addition to the four criteria, the currency of a country was expected to have respected normal margins
-
-- f $uctuation and not have been devalued within the ERM in the two years prior to a country joining EMU.
-!e United Kingdom and Denmark were in a different position from the other EU countries since they
-were)not required to join EMU even if they met the convergence criteria. !e United Kingdom negotiated
-an 'opt-out' which was set out in a Protocol attached to the Treaty. !e Protocol stated that the UK was not
-
-- bliged to join Stage 3 without a separate decision by its government and Parliament. Denmark decided not
-to join Stage 3 but had the right to revoke this decision in accordance with its constitution. Subsequently, it
-was agreed that actual (not forecast!) 1997 data would be used for assessing which countries were eligible to
-join EMU in conjunction with forecasts for 1998, the decision being taken by a qualified majority vote in May
-1998. Sweden effectively made itself ineligible for EMU entrance by not permitting the krona to participate in
-the ERM system for the two years prior to EMU.
-
-16.16 AN EVALUATION OF THE MAASTRICHT CRITERIA
-
-!e Maastricht criteria were primarily motivated by a German desire to ensure that the qualifying members
-
-for EMU had a strong fiscal and monetary background. Having an ECB with voting members made up from
-
-countries with a sound financial background was viewed as an essential foundation for ensuring that the
-
-euro would turn out to be a sound currency with similar attributes to the Deutschmark. Another way of
-
-saying roughly the same thing was that the Germans were keen to exclude countries with a poor economic
-
-record and a high propensity to print money when faced with economic di'culty (such as Italy and Greece).
-
-While the basic idea of including only countries with sound economies and sound fiscal policies as a basis
-
-for ensuring a sound monetary union has significant merits, the Maastricht criteria have been subjected to
-
-numerous criticisms.
-
-One criticism was that the Maastricht criteria were very arbitrary both in relation to the targets set and
-
-the targets chosen. !e choice of 3% for the budget deficit to GDP ratio and 60% for the government debt to
-
-411
-
-International Finance
-
-GDP ratio were clearly arbitrary – the limits could easily be raised to say 3.5% and 80% respectively without
-
-creating a confidence crisis and permitting more founding members. In addition, in the run-up to EMU there
-
-was evidence that some governments were massaging their fiscal deficits to meet the criteria.
-
-Another major criticism was that the national debt criterion was not really appropriate since it looked
-
-- nly on the liability side, ignoring state-owned assets. A government could have a high national debt, but the
-value of state-owned assets might mean it has a low net liability or even a positive net asset position; whereas
-a government with a lower national debt might have relatively few state-owned assets and a lower net asset
-position relative to its GDP. Many have criticized the choice of targets as being only financially oriented,
-having nothing to say on the real economy, such as economic growth, the balance of payments and the rate of
-unemployment. Indeed, the narrow focus on financial criteria may have imposed an excessive degree of fiscal
-austerity on Europe in the run-up to EMU, implying higher unemployment and lower economic growth, than
-would otherwise have been the case.
-
-A significant critique of the Maastricht conditions was made by Paul De Grauwe (1996), who pointed out
-
-that countries like Italy and Belgium would have less of a public debt problem and lower fiscal deficits if they
-
-were allowed to join the EMU. !is is because outside of EMU they had to pay high interest rates on their
-
-public debts since financial markets feared that they would resort to printing money to repay their debts,
+A significant critique of the Maastricht conditions was made by Paul De Grauwe (1996), who pointed out that countries like Italy and Belgium would have less of a public debt problem and lower fiscal deficits if they were allowed to join the EMU. This is because outside of EMU they had to pay high interest rates on their public debts since financial markets feared that they would resort to printing money to repay their debts,
 
 and as such they had a significant in$ation risk premium built into their interest rates. In a monetary union
 
@@ -1734,105 +1000,23 @@ If the measures are not implemented or are deemed to be insu'cient, the member s
 
 the deposit is converted into a fine two years later.
 
-!ere are exceptions in which a deficit may be above 3% of GDP without incurring a fine. Most importantly,
+There are exceptions in which a deficit may be above 3% of GDP without incurring a fine. Most importantly, if the member state has suffered a sharp economic downturn, defined as an annual fall of real GDP of 2%, then the deficit is considered exceptional and does not trigger any action. In general, a fall of less than 0.75% in GDP is not considered exceptional, while a fall of between 0.75% and 2% in GDP is subject to the judgement of the Council. Other exceptions, i.e. unusual events outside of the country's control, such as a national catastrophe which has a major impact on the member state's financial position.
 
-if the member state has suffered a sharp economic downturn, defined as an annual fall of real GDP of 2%, then
+The penalty initially takes the form of a deposit to be placed in a special Community budget account, which is convertible into a fine after two years if the country fails to bring down its annual budget deficit. The maximum penalty in any one year is 0.5% of GDP; in the first year the deposit is a fixed portion of 0.2% of GDP and a variable portion of 0.1% for every 1% above the 3% threshold. If the deficit persists in the second year, additional variable portion sanctions can be levied up to a ceiling of 0.5% of GDP.
 
-the deficit is considered exceptional and does not trigger any action. In general, a fall of less than 0.75% in GDP
+### 16.18 The Changeover to the Single Currency
 
-is not considered exceptional, while a fall of between 0.75% and 2% in GDP is subject to the judgement of the
+In November 1995 the EMI published a document entitled 'The Changeover to the Single Currency', setting out the transition process. The document envisaged three periods for the transition:
 
-Council. Other exceptions, i.e. unusual events outside of the country's control, such as a national catastrophe
+- The first period (scheduled for May 1998) involved the selection of the countries that met the Maastricht criteria and were therefore eligible to join EMU.
 
-which has a major impact on the member state's financial position.
+- A second period (1 January 1999) involved the permanent fixing of the bilateral rates between the member currencies and announcement of their conversion rates to the euro. At the start of the second period the EMI was to be liquidated and replaced by the ECB and the ESCB, comprising the ECB and existing national central banks; the purpose of the ESCB being to conduct a single monetary policy for the euro area and to maintain price stability by setting appropriate short-term interest rates for the euro. The ESCB would be responsible for both money-market and foreign-exchange operations for the euro. The euro was to be used in banking operations alongside the existing national currencies, but one of the guiding principles of the second period was 'no compulsion, no prohibition', that is, no company/bank was to be compelled to use or prevented from using the euro or existing national currencies. This meant that banks were free to make transactions and offer services in the euro but would only be compelled to do so in the final period. In addition, all contracts denominated in ECUs were to be legally replaced by the euro on the basis of one ECU being equal to one euro.
 
-!e penalty initially takes the form of a deposit to be placed in a special Community budget account,
+- A final period (starting on 1 January 2002) was the introduction of euro banknotes and coins alongside existing national notes and coins for a maximum period of six months. Both were to be legal tender and anyone was able to exchange on demand their national currency for euros at commercial banks or the national central banks. At the end of the six months and no later than 1 July 2002, it was planned that national notes would cease to be legal tender (although exchangeable for euros at national central banks) with the euro becoming the sole legal tender in the participating countries.
 
-which is convertible into a fine a(er two years if the country fails to bring down its annual budget deficit. !e
+By and large, the timetable envisaged in the changeover plan was successfully followed. On 25 March 1998 the European Commission and EMI published their convergence reports recommending that 11 countries – Austria, Belgium, Finland, France, Germany, Ireland, Italy, Luxembourg, the Netherlands, Portugal and Spain – be admitted to EMU. Then in May 1998 during a meeting of the Heads of State held in Brussels the formal decision was taken to admit these countries and the bilateral exchange rate parities were fixed at the central rates prevailing in the ERM as shown in Table 16.2. It was not possible to announce the rates against the euro since the pound sterling was floating against the currencies; and since the pound was part of the ECU then the currencies were still fluctuating against the ECU. On 1 June 1998 the ECB formally came into being, replacing the EMI.
 
-maximum penalty in any one year is 0.5% of GDP; in the first year the deposit is a fixed portion of 0.2% of
-
-GDP and a variable portion of 0.1% for every 1% above the 3% threshold. If the deficit persists in the second
-
-year, additional variable portion sanctions can be levied up to a ceiling of 0.5% of GDP.
-
-16.18 THE CHANGEOVER TO THE SINGLE CURRENCY
-
-In November 1995 the EMI published a document entitled '!e Changeover to the Single Currency', setting
-
-- ut the transition process. !e document envisaged three periods for the transition:
-!e first period (scheduled for May 1998) involved the selection of the countries that met the
-
-Maastricht criteria and were therefore eligible to join EMU.
-
-A second period (1 January 1999) involved the permanent fixing of the bilateral rates between the
-
-member currencies and announcement of their conversion rates to the euro. At the start of the
-
-second period the EMI was to be liquidated and replaced by the ECB and the ESCB, comprising the
-
-ECB and existing national central banks; the purpose of the ESCB being to conduct a single monetary
-
-policy for the euro area and to maintain price stability by setting appropriate short-term interest
-
-rates for the euro. !e ESCB would be responsible for both money-market and foreign-exchange
-
-    - perations for the euro. !e euro was to be used in banking operations alongside the existing
-
-national currencies, but one of the guiding principles of the second period was 'no compulsion,
-
-no prohibition', that is, no company/bank was to be compelled to use or prevented from using the
-
-euro or existing national currencies. !is meant that banks were free to make transactions and
-
-    - ffer services in the euro but would only be compelled to do so in the final period. In addition, all
-
-contracts denominated in ECUs were to be legally replaced by the euro on the basis of one ECU being
-
-equal to one euro.
-
-413
-
-International Finance
-
-A final period (starting on 1 January 2002) was the introduction of euro banknotes and coins
-
-alongside existing national notes and coins for a maximum period of six months. Both were to
-
-be legal tender and anyone was able to exchange on demand their national currency for euros at
-
-commercial banks or the national central banks. At the end of the six months and no later than
-
-1)July 2002, it was planned that national notes would cease to be legal tender (although exchangeable
-for euros at national central banks) with the euro becoming the sole legal tender in the participating
-
-countries.
-
-By and large, the timetable envisaged in the changeover plan was successfully followed. On 25 March 1998
-
-the European Commission and EMI published their convergence reports recommending that 11 countries)–
-
-Austria, Belgium, Finland, France, Germany, Ireland, Italy, Luxembourg, the Netherlands, Portugal and
-
-Spain)– be admitted to EMU. !en in May 1998 during a meeting of the Heads of State held in Brussels the
-
-formal decision was taken to admit these countries and the bilateral exchange rate parities were fixed at the
-
-central rates prevailing in the ERM as shown in Table 16.2. It was not possible to announce the rates against
-
-the euro since the pound sterling was $oating against the currencies; and since the pound was part of the ECU
-
-then the currencies were still $uctuating against the ECU. On 1 June 1998 the ECB formally came into being,
-
-replacing the EMI.
-
-On 31 December 1998 the conversion rates to the euro were announced, based on the then prevailing
-
-exchange rates of the currencies against the ECU. Hence the ECU moved from being a mere calculation to
-
-a real currency, called the euro, at a parity of one ECU to one euro. !e final announced conversion rates of
-
-the national currencies to the euro are shown in Table 16.6 and are the permanently irrevocably fixed rates
+On 31 December 1998 the conversion rates to the euro were announced, based on the then prevailing exchange rates of the currencies against the ECU. Hence the ECU moved from being a mere calculation to a real currency, called the euro, at a parity of one ECU to one euro. The final announced conversion rates of the national currencies to the euro are shown in Table 16.6 and are the permanently irrevocably fixed rates
 
 that prevailed from that point onwards for financial market transactions and for when the national currencies
 
@@ -1916,105 +1100,21 @@ around)\$1/&1.
 
 1
 
-0.9
+**Figure 16.2** The dollar–euro exchange rate, 1999–2022
 
-0.8
+### 16.20 The Eurosystem
 
-0.7
+The overall decision-making structure and control of monetary policy in the eurozone is carried out in the framework of the eurosystem. The eurosystem comprises the ECB and the 19 national central banks (NCBs); the governing bodies of the eurosystem are the Executive Board and the Governing Council. The Executive Board consists of the president, vice president and four directors of the ECB, while the Governing Council is made up of the six members of the Executive Board and governors of the 19 NCBs. The Governing Council is the main decision-making body and formulates monetary policy for the eurozone area, taking decisions on interest rates, reserve requirements and the provision of liquidity to financial markets and institutions. The Governing Council meets every two weeks in Frankfurt and each of its 25 members has one vote; the Executive Board implements decisions taken by the Governing Council including giving instructions to the 19 NCBs. So, while the decision-making process is highly centralized, the implementation process is in fact quite decentralized with the NCBs carrying out the decisions in their national money markets.
 
-1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022
+The independent ECB has been modelled on the Bundesbank. Indeed, De Grauwe (2003) argues that the language used by the drafters of the statutes on the ECB was tougher on inflation and political independence than the statutes of the Bundesbank. The ECB has a statutory duty to ensure 'price stability', whose definition was left to the ECB to define: 'the primary objective of the ECB's monetary policy is to maintain price stability. The ECB aims at inflation rates of below, but close to, 2% over the medium term'. While the objectives of the ECB are laid out in the Maastricht Treaty, Article 105 in particular makes it clear that the prime objective is price stability, though it permits the ECB 'without prejudice to the objective of price stability' to take into account general economic policies within the eurozone area, including levels of employment, though these are very much secondary to the main objective. From its _Monthly Report_ it is quite clear that the ECB itself regards its sole objective as being the maintenance of price stability.
 
-**Figure 16.2** !e dollar–euro exchange rate, 1999–2022
+The Maastricht Treaty is very clear on the political independence of the ECB, and Article 107 states that:
 
-415
+When exercising the powers and carrying out the tasks and duties conferred upon them by this Treaty … neither the ECB nor a national central bank, nor any member of their decision making bodies shall seek or take instructions from Community institutions or bodies, from any Government of a Member State or from any other body.
 
-International Finance
+The independence of the ECB has been secured by several means. Firstly, the Maastricht Treaty conditions, which can themselves only be modified by unanimous approval of all EU member states. Secondly, the minutes of its Governing Council meeting – when it sets the target level of short-term interest rates for the euro – are not published, nor is the voting record of its members – this protects national central bank governors from fear of job losses for not voting the way that their national governments would like. Finally, the ECB is also prohibited from printing money to finance any member state's fiscal deficit. There have been criticisms about the potential lack of accountability of the ECB, but it has made some moves to dispel such criticisms. For instance, the President of the Bank holds a press conference after every meeting of the Governing Council to explain its interest rate policy; the ECB also publishes its _Monthly Report_ which explains in some detail the basis of its policies.
 
-16.20 THE EUROSYSTEM
-
-!e overall decision-making structure and control of monetary policy in the eurozone is carried out in the
-
-framework of the eurosystem. !e eurosystem comprises the ECB and the 19 national central banks (NCBs);
-
-the governing bodies of the eurosystem are the Executive Board and the Governing Council. !e Executive
-
-Board consists of the president, vice president and four directors of the ECB, while the Governing Council is
-
-made up of the six members of the Executive Board and governors of the 19 NCBs. !e Governing Council
-
-is the main decision-making body and formulates monetary policy for the eurozone area, taking decisions
-
-- n interest rates, reserve requirements and the provision of liquidity to financial markets and institutions.
-!e Governing Council meets every two weeks in Frankfurt and each of its 25 members has one vote; the
-Executive Board implements decisions taken by the Governing Council including giving instructions to the
-19 NCBs. So, while the decision-making process is highly centralized, the implementation process is in fact
-quite decentralized with the NCBs carrying out the decisions in their national money markets.
-
-!e independent ECB has been modelled on the Bundesbank. Indeed, De Grauwe (2003) argues that the
-
-language used by the dra(ers of the statutes on the ECB was tougher on in$ation and political independence
-
-than the statutes of the Bundesbank. !e ECB has a statutory duty to ensure ‘price stability’, whose definition
-
-was le( to the ECB to define: ‘the primary objective of the ECB’s monetary policy is to maintain price stability.
-
-!e ECB aims at in$ation rates of below, but close to, 2% over the medium term'. While the objectives of the
-
-ECB are laid out in the Maastricht Treaty, Article 105 in particular makes it clear that the prime objective is
-
-price stability, though it permits the ECB 'without prejudice to the objective of price stability' to take into
-
-account general economic policies within the eurozone area, including levels of employment, though these are
-
-very much secondary to the main objective. From its _Monthly Report_ it is quite clear that the ECB itself regards
-
-its sole objective as being the maintenance of price stability.
-
-!e Maastricht Treaty is very clear on the political independence of the ECB, and Article 107 states that:
-
-When exercising the powers and carrying out the tasks and duties conferred upon them by this
-
-Treaty … neither the ECB nor a national central bank, nor any member of their decision making bodies
-
-shall seek or take instructions from Community institutions or bodies, from any Government of a
-
-Member State or from any other body.
-
-!e independence of the ECB has been secured by several means. Firstly, the Maastricht Treaty conditions,
-
-which can themselves only be modified by unanimous approval of all EU member states. Secondly, the minutes
-
-- f its Governing Council meeting – when it sets the target level of short-term interest rates for the euro – are
-not published, nor is the voting record of its members – this protects national central bank governors from
-fear of job losses for not voting the way that their national governments would like. Finally, the ECB is also
-prohibited from printing money to finance any member state's fiscal deficit. !ere have been criticisms about
-the potential lack of accountability of the ECB, but it has made some moves to dispel such criticisms. For
-instance, the President of the Bank holds a press conference a(er every meeting of the Governing Council to
-explain its interest rate policy; the ECB also publishes its _Monthly Report_ which explains in some detail the
-basis of its policies.
-
-While the ECB has a target rate of in$ation of close to 2%, it has made it clear that this is a medium-term
-
-target (the precise time period is not defined) and as such it can permit this target to be exceeded in the short
-
-run. Indeed, in the first 285 months of the euro the 2% in$ation target was exceeded in 116 of the months
-
-(that is, 40.7% of the time); however, the deviations were not generally substantial except for a period during
-
-416
-
-The European Monetary System and European Monetary Union
-
-September 2007 to October 2008 when it was above 3% with a peak of 4.0% in June and July 2008, following
-
-the Russian invasion of Ukraine it peaked at 10.7% in October 2022. In fact, during the period January 1999 to
-
-October 2022 covering 285 months, the monthly average annualized rate of in$ation was 1.84%. !e behaviour
-
-- f the in$ation rate in the eurozone is depicted in Figure 16.3. !e ECB uses an intermediate monetary targeting
-system to achieve its in$ation target, and in particular it has set a reference value for the rate of growth of the
-M3 money supply in the eurozone of 4.5% per annum, though it permits the reference value to be exceeded or
-undershot so long as the in$ation target is likely to be met over the medium term. !e main policy decision of
+While the ECB has a target rate of inflation of close to 2%, it has made it clear that this is a medium-term target (the precise time period is not defined) and as such it can permit this target to be exceeded in the short run. Indeed, in the first 285 months of the euro the 2% inflation target was exceeded in 116 of the months (that is, 40.7% of the time); however, the deviations were not generally substantial except for a period during September 2007 to October 2008 when it was above 3% with a peak of 4.0% in June and July 2008, following the Russian invasion of Ukraine it peaked at 10.7% in October 2022. In fact, during the period January 1999 to October 2022 covering 285 months, the monthly average annualized rate of inflation was 1.84%. The behaviour of the inflation rate in the eurozone is depicted in Figure 16.3. The ECB uses an intermediate monetary targeting system to achieve its inflation target, and in particular it has set a reference value for the rate of growth of the M3 money supply in the eurozone of 4.5% per annum, though it permits the reference value to be exceeded or undershot so long as the inflation target is likely to be met over the medium term. The main policy decision of
 the Governing Council is to set the _refinancing rate_ which is the rate of interest at which it will provide liquidity
 to the banking system in exchange for eligible reserves such as euro-denominated Treasury bills.
 
@@ -2101,30 +1201,20 @@ blocked attempts by smaller countries and the Commission to impose the fines. !e
 need to stimulate economic growth by running larger than 3% fiscal deficits for a certain period of time, led
 to an intense debate on how to reform the SGP.
 
-One suggestion was to pay attention to the size of public debt. If a country has a low level of national debt
-
-then it could be permitted to exceed the 3% fiscal deficit criterion for a period of time, whereas a country
-
-with a high national debt would be expected to keep to the 3% limit. As Table 16.9 shows, there are very large
-
-variations in countries' debt levels, which have all worsened considerably since the onset of the 2007 financial
-
-418
+One suggestion was to pay attention to the size of public debt. If a country has a low level of national debt then it could be permitted to exceed the 3% fiscal deficit criterion for a period of time, whereas a country with a high national debt would be expected to keep to the 3% limit. As Table 16.9 shows, there are very large variations in countries' debt levels, which have all worsened considerably since the onset of the 2007 financial
 
 **Table 16.7** Current account surpluses and deficits as a percentage of GDP
 
 |Col1|1999|2000|2001|2002|2003|2004|2005|2006|2007|2008|2009|2010|2011|2012|2013|2014|2015|2016|2017|2018|2019|2020|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|Germany|1.4|1.8|0.4|1.9|1.4|4.5|4.7|5.8|6.9|5.7|5.8|5.8|6.2|7.1|6.5|7.2|8.6|8.5|7.8|8.0|7.6|7.1|
-|Greece|5.6|7.9|7.3|6.8|8.5|7.7|8.9|11.5|15.2|15.1|12.3|10.1|8.8|3.5|1.4|0.7|0.8|1.8|1.9|2.9|1.5|6.6|
-|Ireland|0.6|0|0.6|0.3|0.5|0.1|3.5|5.3|6.5|6.3|4.7|1.2|1.6|3.4|1.5|1.1|4.4|4.2|0.5|5.2| 19.8|2.7|
-|Italy|0.8|0.3|0.1|0.5|0.8|0.5|0.9|1.5|1.4|2.9|1.9|3.3|2.8|0.2|1.1|1.9|1.4|2.6|2.6|2.5|3.2|3.7|
-|Portugal|8.9|10.8|10.5|8.4|6.6|8.0|9.6|10.3|9.6|11.8|10.3|10.6|6.0|1.6|1.6|0.2|0.2|1.2|1.3|0.6|0.4|1.1|
-|Spain|3.2|4.3|4.4|3.7|3.9|5.5|7.3|8.9|9.4|8.9|4.1|3.7|2.7|0.1|2.0|1.7|2.0|3.2|2.8|1.9|2.1|0.8|
+|Germany|-1.4|-1.8|-0.4|1.9|1.4|4.5|4.7|5.8|6.9|5.7|5.8|5.8|6.2|7.1|6.5|7.2|8.6|8.5|7.8|8.0|7.6|7.1|
+|Greece|-5.6|-7.9|-7.3|-6.8|-8.5|-7.7|-8.9|-11.5|-15.2|-15.1|-12.3|-10.1|-8.8|-3.5|-1.4|-0.7|-0.8|-1.8|-1.9|-2.9|-1.5|-6.6|
+|Ireland|0.6|0|-0.6|0.3|0.5|-0.1|-3.5|-5.3|-6.5|-6.3|-4.7|-1.2|-1.6|-3.4|1.5|1.1|4.4|-4.2|0.5|5.2|-19.8|-2.7|
+|Italy|0.8|-0.3|-0.1|-0.5|-0.8|-0.5|-0.9|-1.5|-1.4|-2.9|-1.9|-3.3|-2.8|-0.2|1.1|1.9|1.4|2.6|2.6|2.5|3.2|3.7|
+|Portugal|-8.9|-10.8|-10.5|-8.4|-6.6|-8.0|-9.6|-10.3|-9.6|-11.8|-10.3|-10.6|-6.0|-1.6|1.6|0.2|0.2|1.2|1.3|0.6|0.4|-1.1|
+|Spain|-3.2|-4.3|-4.4|-3.7|-3.9|-5.5|-7.3|-8.9|-9.4|-8.9|-4.1|-3.7|-2.7|0.1|2.0|1.7|2.0|3.2|2.8|1.9|2.1|0.8|
 
-_Note:_ (a) Some figures are provisional for some countries. (b) !e current account deficit for Ireland in 2019 is heavily impacted by US multinationals making tax-related transactions
-
-that led to a large increase in Irish imports of services related to the treatment of intellectual property rights.
+_Note:_ (a) Some figures are provisional for some countries. (b) The current account deficit for Ireland in 2019 is heavily impacted by US multinationals making tax-related transactions that led to a large increase in Irish imports of services related to the treatment of intellectual property rights.
 
 _Source:_ OECD.
 
@@ -2168,59 +1258,17 @@ _Note:_ !e above table uses the Maastricht criterion for measuring national debt
 
 The European Monetary System and European Monetary Union
 
-crisis, the PIIGS crisis and the covid-19 pandemic. Another suggestion is to pay more attention to the cyclically
+crisis, the PIIGS crisis and the covid-19 pandemic. Another suggestion is to pay more attention to the cyclically adjusted fiscal deficit; in the case where an economy is growing below trend, its headline deficit may be above 3% but its cyclically adjusted deficit might be below 3%, whereas when the economy is growing above trend, its headline figure may be below 3% while its cyclically adjusted figure might be above 3%. Other proposals include raising the fiscal deficit above 3% to, say, 4%, or permitting it to average 3% over the economic cycle, thereby allowing a country temporarily to exceed 3% without necessarily incurring a fine. The credit crunch and eurozone crisis eventually led to the so-called Fiscal Compact which is covered in section 16.28.
 
-adjusted fiscal deficit; in the case where an economy is growing below trend, its headline deficit may be above
+### 16.22 The ERM II
 
-3% but its cyclically adjusted deficit might be below 3%, whereas when the economy is growing above trend,
+When the ERM I ceased to exist on 1 January 1999, ERM II came into being principally so that Greece that had not qualified for EMU and Denmark that had decided not to join could continue to maintain stable currencies against the euro members. The ERM II is also relevant to the accession countries that joined the EU in May 2004, as joining ERM II for two years is an essential precondition for participation in EMU itself.
 
-its headline figure may be below 3% while its cyclically adjusted figure might be above 3%. Other proposals
+Despite having the same fluctuation bands as ERM I of ±15%, ERM II is not a carbon copy. ERM II has four key features: (1) it is based on central rates fixed for participating currencies vis-à-vis the euro and therefore has no parity grid – the normal band of fluctuation being ±15%; (2) there exist obligatory interventions once margins are met; (3) the ECB and all participating 'pre-in' central banks have the right to initiate procedures to review the central rates; and (4) access is provided to short-term financing facilities with the ECB having the right to suspend intervention and financing operations. In practice, a country that joins ERM II can request a lower margin of fluctuation, and such has been the case with Denmark that currently operates a ±2.25% band against the euro. Any accession countries are expected to spend a *minimum* of two years in ERM II prior to their adoption of the euro. As at November 2022, the EMU has 19 member countries and there are three members of ERM II as depicted in Table 16.10.
 
-include raising the fiscal deficit above 3% to, say, 4%, or permitting it to average 3% over the economic cycle,
+### 16.23 PIIGS and the Eurozone Crisis
 
-thereby allowing a country temporarily to exceed 3% without necessarily incurring a fine. !e credit crunch
-
-and eurozone crisis eventually led to the so-called Fiscal Compact which is covered in section 16.28.
-
-16.22 THE ERM II
-
-When the ERM I ceased to exist on 1 January 1999, ERM II came into being principally so that Greece that
-
-had not qualified for EMU and Denmark that had decided not to join could continue to maintain stable
-
-currencies against the euro members. !e ERM II is also relevant to the accession countries that joined the
-
-EU in May 2004, as joining ERM II for two years is an essential precondition for participation in EMU itself.
-
-Despite having the same $uctuation bands as ERM I of ±15%, ERM II is not a carbon copy. ERM II has four
-
-key features: (1) it is based on central rates fixed for participating currencies vis-à-vis the euro and therefore
-
-has no parity grid – the normal band of $uctuation being ±15%; (2) there exist obligatory interventions once
-
-margins are met; (3) the ECB and all participating 'pre-in' central banks have the right to initiate procedures to
-
-review the central rates; and (4) access is provided to short-term financing facilities with the ECB having the
-
-right to suspend intervention and financing operations. In practice, a country that joins ERM II can request
-
-a lower margin of $uctuation, and such has been the case with Denmark that currently operates a ±2.25%
-
-band against the euro. Any accession countries are expected to spend a _minimum_ - f two years in ERM II prior
-
-to their adoption of the euro. As at November 2022, the EMU has 19 member countries and there are three
-
-members of ERM II as depicted in Table 16.10.
-
-16.23 PIIGS AND THE EUROZONE CRISIS
-
-Once the monetary union commenced in 1999, it was essential that to maintain their competitiveness visà-vis Germany, countries like Portugal, Ireland, Italy, Greece and Spain (PIIGS) would need to keep their
-
-in$ation rates in line with Germany. However, this was not the case, as shown in Figure 16.4. !is loss of
-
-competitiveness over time, with the consequent problems for the export sector, meant that the PIIGS
-
-economies were more vulnerable than countries like Germany when the global financial crisis started in 2007.
+Once the monetary union commenced in 1999, it was essential that to maintain their competitiveness vis-à-vis Germany, countries like Portugal, Ireland, Italy, Greece and Spain (PIIGS) would need to keep their inflation rates in line with Germany. However, this was not the case, as shown in Figure 16.4. This loss of competitiveness over time, with the consequent problems for the export sector, meant that the PIIGS economies were more vulnerable than countries like Germany when the global financial crisis started in 2007.
 
 While UIP implies that very short-term interest rates such as three-month Treasury bill rates will be equal
 
@@ -2230,9 +1278,9 @@ in a monetary union (since the expected change in the exchange rate is equal to 
 
 |Currency|Joinedin|Centralratepereuro|
 |---|---|---|
-|Danish krone|Jan 1999|7.46038r2.25%|
+|Danish krone|Jan 1999|7.46038 ±2.25%|
 |Bulgarian lev|July 2020|1.95583 currency board|
-|Croatian krune|July 2020|7.53450r15%|
+|Croatian krune|July 2020|7.53450 ±15%|
 
 _Source_ : European Commission.
 
@@ -2352,83 +1400,19 @@ Greece was allowed to join the EMU in January 2001 despite then having a nationa
 
 rather than the 60% ratio that would have been in strict compliance with the Maastricht Treaty conditions. In
 
-the run-up to Greece joining the eurozone, Greek ten-year bond yields fell significantly from 19% in January
+the run-up to Greece joining the eurozone, Greek ten-year bond yields fell significantly from 19% in January 1999 to only 5.3% in January 2001 when the country officially joined. The Greek governments used these very low yields to borrow even more, especially to help finance the Olympic games held in Athens in 2004. Another persistent problem in Greece was over-employment in the public sector combined with a poor system of tax collection and a culture of significant tax evasion by its citizens that meant a structural borrowing problem had built up over time. A further problem was that Greece appears to have been deliberately underreporting the state of its public finances.
 
-1999 to only 5.3% in January 2001 when the country o'cially joined. !e Greek governments used these very
+The problem of the build-up of debt was fully exposed once the credit crunch got under way. The rapid rise in unemployment meant reduced tax collection and greater fiscal outlays. This, combined with a large cumulative fall in 2008–12 of GDP of around 20%, meant the fiscal deficit rose from 6% in 2006 to 15.6% in 2009 along with a projected fiscal deficit of 7.4% for 2012. The national debt as a proportion of GDP also rose rapidly due to a combination of the high fiscal deficits (which add to the national debt) and the falls in GDP. Both the shipping and tourism industries in Greece were particularly badly affected by the slowdown in global trade.
 
-low yields to borrow even more, especially to help finance the Olympic games held in Athens in 2004. Another
+The first Greek rescue package was arranged on 2 May 2010 with a bailout of €110 billion: the 16 eurozone countries contributed €80 billion and the IMF €30 billion, the loans being made at an average yield of around 5.2%. The bailout was made conditional upon Greece taking significant austerity measures designed to get its fiscal deficits down, including a rise in VAT from 21 to 23%, a 10% rise in fuel, alcohol and tobacco duties and larger cuts in public salaries and pensions of over 20%. On 7 May 2010 the Greek government passed a package implementing a €30 billion reduction in its fiscal deficit over the following three years. In a bid to reduce the risk of contagion from Greece to other economies the EU/IMF agreed to set up a European Financial Stability Facility (EFSF) with an initial effective endowment of €250 billion (raised in July 2011 to €440 billion), the idea being that the EFSF could issue bonds, which would be guaranteed by the eurozone countries, and use these funds to lend to the PIIGS if necessary. The idea of the EFSF was to provide immediate liquidity for Greece, Ireland and Portugal that would help forestall further speculative attacks. In July 2011 the EFSF was given permission to use some of its capital buy bonds on the secondary market in a bid to contain bond yields.
 
-persistent problem in Greece was over-employment in the public sector combined with a poor system of tax
+The initial bailout of Greece did little to restore confidence in the financial markets as it became increasingly clear that the Greek national debt level projected to reach 160% of GDP was unsustainable, especially as bond yields on the debt were skyrocketing (ten-year yields were approaching 32% by the end of November 2011). As such, it became apparent that the Greek debt level would need to be both reduced and restructured, the hope being that resolving the Greek situation would prevent contagion to other markets such as Portugal and more importantly Spain and Italy. Once it became clear that the Greek debt level would need to be reduced and restructured, the key questions became:
 
-collection and a culture of significant tax evasion by its citizens that meant a structural borrowing problem
+- Who would suffer losses from the restructuring and how much losses would they be obliged to accept?
 
-had built up over time. A further problem was that Greece appears to have been deliberately underreporting
+- Would the Greek deal be classified as an orderly 'voluntary' restructuring deal or a disorderly default?
 
-the state of its public finances.
-
-!e problem of the build-up of debt was fully exposed once the credit crunch got under way. !e rapid
-
-rise in unemployment meant reduced tax collection and greater fiscal outlays. !is, combined with a large
-
-cumulative fall in 2008–12 of GDP of around 20%, meant the fiscal deficit rose from 6% in 2006 to 15.6%
-
-in 2009 along with a projected fiscal deficit of 7.4% for 2012. !e national debt as a proportion of GDP also
-
-rose rapidly due to a combination of the high fiscal deficits (which add to the national debt) and the falls in
-
-GDP.)Both the shipping and tourism industries in Greece were particularly badly affected by the slowdown
-
-in global trade.
-
-!e first Greek rescue package was arranged on 2 May 2010 with a bailout of &110 billion: the 16 eurozone
-
-countries contributed &80 billion and the IMF &30 billion, the loans being made at an average yield of around
-
-5.2%. !e bailout was made conditional upon Greece taking significant austerity measures designed to get its
-
-fiscal deficits down, including a rise in VAT from 21 to 23%, a 10% rise in fuel, alcohol and tobacco duties and
-
-larger cuts in public salaries and pensions of over 20%. On 7 May 2010 the Greek government passed a package
-
-implementing a &30 billion reduction in its fiscal deficit over the following three years. In a bid to reduce the
-
-risk of contagion from Greece to other economies the EU/IMF agreed to set up a European Financial Stability
-
-Facility (EFSF) with an initial effective endowment of &250 billion (raised in July 2011 to &440 billion), the
-
-idea being that the EFSF could issue bonds, which would be guaranteed by the eurozone countries, and use
-
-these funds to lend to the PIIGS if necessary. !e idea of the EFSF was to provide immediate liquidity for
-
-Greece, Ireland and Portugal that would help forestall further speculative attacks. In July 2011 the EFSF was
-
-given permission to use some of its capital buy bonds on the secondary market in a bid to contain bond yields.
-
-!e initial bailout of Greece did little to restore confidence in the financial markets as it became increasingly
-
-clear that the Greek national debt level projected to reach 160% of GDP was unsustainable, especially as bond
-
-yields on the debt were skyrocketing (ten-year yields were approaching 32% by the end of November 2011).
-
-As such, it became apparent that the Greek debt level would need to be both reduced and restructured, the
-
-hope being that resolving the Greek situation would prevent contagion to other markets such as Portugal and
-
-more importantly Spain and Italy. Once it became clear that the Greek debt level would need to be reduced
-
-and restructured, the key questions became:
-
-424
-
-The European Monetary System and European Monetary Union
-
- Who would suffer losses from the restructuring and how much losses would they be obliged to accept?
-
- Would the Greek deal be classified as an orderly 'voluntary' restructuring deal or a disorderly default?
-
- - What economic reforms and policies would Greece have to adopt to ensure that it would be able
-to repay the remaining debt and keep its restructured public finances on a longer-term fiscal
-sustainability?
+- What economic reforms and policies would Greece have to adopt to ensure that it would be able to repay the remaining debt and keep its restructured public finances on a longer-term fiscal sustainability?
 
 A second Greek rescue package was arranged in March 2012 with the eurozone countries and IMF
 
@@ -2815,72 +1799,15 @@ its creditors to restructure its debt as a condition for any bailout funds.
 
 16.30 'WHATEVER IT TAKES' AND OUTRIGHT MONETARY TRANSACTIONS
 
-A real turning point in the eurozone crisis came on 27 June 2012 when the Head of the ECB Mario Draghi in
+A real turning point in the eurozone crisis came on 27 June 2012 when the Head of the ECB Mario Draghi in a speech in London made the following statement:
 
-a speech in London made the following statement:
+We think the euro is irreversible. And it's not an empty word now, because I preceded saying exactly what actions have been made, are being made to make it irreversible. But there is another message I want to tell you. Within our mandate, the ECB is ready to do whatever it takes to preserve the euro. And believe me, it will be enough.
 
-We think the euro is irreversible. And it's not an empty word now, because I preceded saying exactly
+The irreversible references and the 'whatever it takes' phrase had a remarkable impact on financial markets as it clearly demonstrated that the ECB would take all necessary measures to keep the eurozone intact and signalled a preparedness of the ECB to use its resources and powers to take on any speculators betting on a breakup of the eurozone. The impact on financial markets was immediate with interest rates on bonds issued by the PIIGS falling. While the initial impact on yields was to lower them, during late August interest rates in the PIIGS debt were beginning to rise again and on 6 September 2012 the ECB, worried about the rising bond yields in Spain and Italy, announced that it was engaging in a new policy called Outright Monetary Transactions (OMTs) which would allow it to buy government debt in the secondary markets in unlimited amounts if necessary. The idea was that this would help to lower bond yields in countries such as Spain and Italy. However, such purchases would be conditional on countries adopting strict conditionality with regard to fiscal policy under the ESM and IMF programmes. Any OMT purchases would be sterilized in that for every €1 billion of government debt purchased the ECB would sell €1 billion of securities, so that there would be no monetary base implications from the programme. This means it is not part of the quantitative easing programme which does affect the monetary base. Interestingly any bonds purchased by the ECB under the programme would be treated on an equal basis ( _pari passu_ ) as other bond holders. The initial market reaction was very favourable with Italian and Spanish bond yields falling over 50 basis points within the first few days of the announcement and a study by Altavilla et al. (2014) argued that the OMT programme, although never used, through its announcement effect and extra confidence that it engendered, decreased Italian and Spanish two-year government bond yields by approximately 2% while leaving German and French twoyear bond yields unchanged. The legality of the OMT programme was challenged by the German Federal Constitutional Court as being contrary to German and EU law; however, the European Court of Justice in June 2015 ruled that the OMT programme was legal since it 'does not exceed the powers of the ECB in relation to monetary policy and does not contravene the prohibition of monetary financing of EU nations'.
 
-what actions have been made, are being made to make it irreversible. But there is another message
+### 16.31 Proposals to Resolve the European Debt Crisis
 
-I)want to tell you. Within our mandate, the ECB is ready to do whatever it takes to preserve the euro.
-
-And believe me, it will be enough.
-
-!e irreversible references and the 'whatever it takes' phrase had a remarkable impact on financial markets
-
-as it clearly demonstrated that the ECB would take all necessary measures to keep the eurozone intact and
-
-signalled a preparedness of the ECB to use its resources and powers to take on any speculators betting on a
-
-breakup of the eurozone. !e impact on financial markets was immediate with interest rates on bonds issued
-
-by the PIIGS falling. While the initial impact on yields was to lower them, during late August interest rates
-
-in the PIIGS debt were beginning to rise again and on 6 September 2012 the ECB, worried about the rising
-
-bond yields in Spain and Italy, announced that it was engaging in a new policy called Outright Monetary
-
-Transactions (OMTs) which would allow it to buy government debt in the secondary markets in unlimited
-
-amounts if necessary. !e idea was that this would help to lower bond yields in countries such as Spain and
-
-Italy. However, such purchases would be conditional on countries adopting strict conditionality with regard
-
-to fiscal policy under the ESM and IMF programmes. Any OMT purchases would be sterilized in that for
-
-every &1 billion of government debt purchased the ECB would sell &1 billion of securities, so that there would
-
-be no monetary base implications from the programme. !is means it is not part of the quantitative easing
-
-programme which does affect the monetary base. Interestingly any bonds purchased by the ECB under the
-
-programme would be treated on an equal basis ( _pari passu_ ) as other bond holders. !e initial market reaction
-
-was very favourable with Italian and Spanish bond yields falling over 50 basis points within the first few days
-
-- f the announcement and a study by Altavilla et al. (2014) argued that the OMT programme, although never
-actually used, through its announcement effect and extra confidence that it engendered, decreased Italian
-and Spanish two-year government bond yields by approximately 2% while leaving German and French twoyear bond yields unchanged. !e legality of the OMT programme was challenged by the German Federal
-Constitutional Court as being contrary to German and EU law; however, the European Court of Justice in
-June 2015 ruled that the OMT programme was legal since it 'does not exceed the powers of the ECB in relation
-to monetary policy and does not contravene the prohibition of monetary financing of EU nations'.
-
-16.31 PROPOSALS TO RESOLVE THE EUROPEAN DEBT CRISIS
-
-!ere have been various proposals put forward to resolve the European debt crisis, motivated by the desire to
-
-avoid the risk of contagion that would result from a formal default by one or more of the PIIGS, the real fear
-
-being that a default by one of the smaller PIIGS could ultimately result in major speculative attacks against
-
-431
-
-International Finance
-
-Spain and Italy, which are too large to rescue and whose default would in turn result in financial turmoil by
-
-undermining the European banks that have large holdings of sovereign debt on their balance sheets.
+There have been various proposals put forward to resolve the European debt crisis, motivated by the desire to avoid the risk of contagion that would result from a formal default by one or more of the PIIGS, the real fear being that a default by one of the smaller PIIGS could ultimately result in major speculative attacks against Spain and Italy, which are too large to rescue and whose default would in turn result in financial turmoil by undermining the European banks that have large holdings of sovereign debt on their balance sheets.
 
 _Structural reform_
 
@@ -3272,36 +2199,15 @@ between EDIS and member states' national Deposit Guarantee Schemes (DGS). Given 
 
 DGS may remain vulnerable to large local shocks, the purpose of EDIS is to ensure equal protection
 
-    - f deposits through the Banking Union regardless of the member state where the deposit is located.
+of deposits through the Banking Union regardless of the member state where the deposit is located.
 
-!e)transitioning from member states' deposit guarantee schemes (DGS) to the EDIS is planned
+The transitioning from member states' deposit guarantee schemes (DGS) to the EDIS is planned to take seven years; during the transition both banks and national deposit insurance funds would contribute to the EDIS deposit insurance fund (DIF).
 
-to take seven years; during the transition both banks and national deposit insurance funds would
+Overall the European Banking Union project is a major change in the regulation of European banking since it involves the harmonization of banking rules. Importantly, it also represents a major centralization of the supervision and regulation of banks with responsibility being shifted in a significant manner to the ECB in conjunction with national authorities. The Single Resolution Mechanism funded by contributions by the banking sector is a major change in that it shifts the responsibility away from taxpayers and national authorities to the more solvent banks. In addition, the EDIS represents a significant cross-country 'mutualization' of protection for depositors which was previously the responsibility of national deposit insurance schemes.
 
-contribute to the EDIS deposit insurance fund (DIF).
+### 16.36 The Creation of a Capital Markets Union
 
-Overall the European Banking Union project is a major change in the regulation of European banking since
-
-it involves the harmonization of banking rules. Importantly, it also represents a major centralization of the
-
-supervision and regulation of banks with responsibility being shi(ed in a significant manner to the ECB
-
-in conjunction with national authorities. !e Single Resolution Mechanism funded by contributions by the
-
-banking sector is a major change in that it shi(s the responsibility away from taxpayers and national authorities
-
-to the more solvent banks. In addition, the EDIS represents a significant cross-country 'mutualization' of
-
-protection for depositors which was previously the responsibility of national deposit insurance schemes.
-
-16.36 THE CREATION OF A CAPITAL MARKETS UNION
-
-On 19 June 2015 the European Commission was requested by the European Economic and Financial Affairs
-
-Council to look into drawing up a roadmap to create a Capital Markets Union (CMU). It has the objective
-
-- f improving investment and savings $ows across the Union to the benefit of businesses and households and
-to lower the dependence of the eurozone on the banking sector. More specifically, there were four key aims:
+On 19 June 2015 the European Commission was requested by the European Economic and Financial Affairs Council to look into drawing up a roadmap to create a Capital Markets Union (CMU). It has the objective of improving investment and savings flows across the Union to the benefit of businesses and households and to lower the dependence of the eurozone on the banking sector. More specifically, there were four key aims:
 
 1. **Unlock more investment from the EU and the rest of the world** especially for SMEs and to enable
 
@@ -3322,57 +2228,13 @@ to banking shocks.
 
 developing deeper and more liquid markets and lowering funding costs for businesses and citizens.
 
-Progress on creating a CMU has been quite discernible by 2021. !ere have been a range of measures
+Progress on creating a CMU has been quite discernible by 2021. There have been a range of measures undertaken to make it easier for firms to raise equity and debt finance, to support the venture capital market, improving the securitization market, ensuring the facilitation of greater cross-border investment, facilitating the creation of pan-European pension products, supervision of clearing houses, enabling greater use of over-the-counter derivatives by institutional investors and measures to improve the way crowdfunding platforms operate in the EU.
 
-undertaken to make it easier for firms to raise equity and debt finance, to support the venture capital market,
+With the advent of the Covid-19 crisis the EU finance ministers during 2020 and 2021 widened the scope of the CMU project in order to improve corporations' ability to raise finance to help with the economic recovery from the Covid-19 crisis and the necessary conversion to a digital and sustainable economy, recognizing that this will require increased funding on the part of EU companies and SMEs, which cannot be shouldered by the banking system alone. The CMU has become an important project for the EU especially in the light of the exit of the UK from the European Union on 1 January 2020 which negatively impacts the ability of London – which is by far Europe's largest financial centre – to service EU corporations and citizens.
 
-437
+### 16.37 The Accession Countries and EMU
 
-International Finance
-
-improving the securitization market, ensuring the facilitation of greater cross-border investment, facilitating
-
-the creation of pan-European pension products, supervision of clearing houses, enabling greater use of overthe-counter derivatives by institutional investors and measures to improve the way crowdfunding platforms
-
-- perate in the EU.
-
-With the advent of the Covid-19 crisis the EU finance ministers during 2020 and 2021 widened the scope of
-
-the CMU project in order to improve corporations' ability to raise finance to help with the economic recovery
-
-from the Covid-19 crisis and the necessary conversion to a digital and sustainable economy, recognizing that
-
-this will require increased funding on the part of EU companies and SMEs, which cannot be shouldered by
-
-the banking system alone. !e CMU has become an important project for the EU especially in the light of the
-
-exit of the UK from the European Union on 1 January 2020 which negatively impacts the ability of London –
-
-which is by far Europe's largest financial centre – to service EU corporations and citizens.
-
-16.37 THE ACCESSION COUNTRIES AND EMU
-
-When the eight Central Eastern European Countries (CEEC) (the Czech Republic, Estonia, Hungary, Latvia,
-
-Lithuania, Poland, Slovakia and Slovenia) along with Malta and Cyprus joined the EU in May 2004 they also
-
-agreed in principle to the adoption of the euro as their national currency at some time in the future; and
-
-none have an 'opt-out' arrangement such as the one negotiated by the UK. !e same applies to Romania and
-
-Bulgaria who joined in January 2007. According to the European Commission and the ECB, the monetary
-
-integration of the new member economies into the euro area should be multilateral (that is, involve the ECB,
-
-existing and new entrants), successive (that is, in stages dependent on economic reform and progress prior
-
-to ERM II entrance) and phased (some join before others). !e new members need to meet the Maastricht
-
-Treaty criteria as a precondition for joining EMU, but in addition they are also expected to achieve some real
-
-convergence, which entails catching up with the rest of Europe in the process of economic development by
-
-speeding up the processes of transition and structural reform.
+When the eight Central Eastern European Countries (CEEC) (the Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Slovakia and Slovenia) along with Malta and Cyprus joined the EU in May 2004 they also agreed in principle to the adoption of the euro as their national currency at some time in the future; and none have an 'opt-out' arrangement such as the one negotiated by the UK. The same applies to Romania and Bulgaria who joined in January 2007. According to the European Commission and the ECB, the monetary integration of the new member economies into the euro area should be multilateral (that is, involve the ECB, existing and new entrants), successive (that is, in stages dependent on economic reform and progress prior to ERM II entrance) and phased (some join before others). The new members need to meet the Maastricht Treaty criteria as a precondition for joining EMU, but in addition they are also expected to achieve some real convergence, which entails catching up with the rest of Europe in the process of economic development by speeding up the processes of transition and structural reform.
 
 !e first phase of this process was the pre-accession phase prior to their admittance into the EU in May
 
@@ -3458,59 +2320,13 @@ the 60% national debt entrance criterion of the Maastricht Treaty, so potential 
 
 condition will be in better fiscal shape than most of the current members of the eurozone.
 
-16.38 CONCLUSIONS
+### 16.38 Conclusions
 
-Although the EMS was originally envisaged as a zone of monetary stability, it differed from a simple agreement
+Although the EMS was originally envisaged as a zone of monetary stability, it differed from a simple agreement to peg exchange rates in a number of important respects, such as the central role of the ECU, the setting-up of a common pool of reserves, the individualization of divergence thresholds and the theoretically symmetric responsibilities for surplus and deficit countries. However, the EMS was certainly far from a monetary union. There was no ECB to supply the ECU, which was a mere calculation and far from a medium of exchange. The EMS transformed itself from a zone of currency stability into a credible anti-inflation zone, and its final transformation was to become a framework for achieving EMU. Its success as an anti-inflation zone can be partly explained by the fact that, following the experience of the 1970s, there was a greater commitment by governments to control inflation. Furthermore, the associated cost in terms of higher unemployment levels did not prove to be politically disastrous for the governments concerned. While EMS members did bring down their inflation rates, especially in the cases of Italy and France, this does not establish causality. It may well have been the case that Italy and France would have engaged in an anti-inflationary set of policies even if they had not joined the EMS.
 
-to peg exchange rates in a number of important respects, such as the central role of the ECU, the setting-up
+During the 1980s and 1990s the balance of benefits and costs tipped increasingly favourably towards EMU. In the way of benefits, the single market project, by tackling non-tariff barriers to trade and requiring the removal of capital controls, made the usage of differing national currencies look increasingly inefficient. On the other hand, the main cost associated with EMU, namely the loss of monetary policy sovereignty, had already largely been given up by members of the ERM who accepted the monetary discipline of the Bundesbank. For this reason, France and Italy became increasingly interested in EMU partly because it would give them a greater say in the conduct of monetary policy as members of the board of the ECB.
 
-- f a common pool of reserves, the individualization of divergence thresholds and the theoretically symmetric
-responsibilities for surplus and deficit countries. However, the EMS was certainly far from a monetary union.
-!ere was no ECB to supply the ECU, which was a mere calculation and far from a medium of exchange.
-!e EMS transformed itself from a zone of currency stability into a credible anti-in$ation zone, and its final
-transformation was to become a framework for achieving EMU. Its success as an anti-in$ation zone can be
-partly explained by the fact that, following the experience of the 1970s, there was a greater commitment by
-governments to control in$ation. Furthermore, the associated cost in terms of higher unemployment levels
-did not prove to be politically disastrous for the governments concerned. While EMS members did bring
-down their in$ation rates, especially in the cases of Italy and France, this does not establish causality. It may
-well have been the case that Italy and France would have engaged in an anti-in$ationary set of policies even
-if they had not joined the EMS.
-
-439
-
-International Finance
-
-During the 1980s and 1990s the balance of benefits and costs tipped increasingly favourably towards
-
-EMU. In the way of benefits, the single market project, by tackling non-tariff barriers to trade and
-
-requiring the removal of capital controls, made the usage of differing national currencies look increasingly
-
-ine'cient. On the other hand, the main cost associated with EMU, namely the loss of monetary policy
-
-sovereignty, had already largely been given up by members of the ERM who accepted the monetary
-
-discipline of the Bundesbank. For this reason, France and Italy became increasingly interested in EMU
-
-partly because it would give them a greater say in the conduct of monetary policy as members of the
-
-board of the ECB.
-
-!e PIIGS crisis has shown that, in retrospect, the overlooking of the 60% national debt criterion for
-
-entrance to EMU was a mistake. By admitting countries like Italy and Greece, the eurozone made itself
-
-vulnerable to a speculative attack on those countries with high national debts. On the other hand, the policy of
-
-bailing out bond holders who knew the risks they undertook when buying PIIGS debt must also be questioned.
-
-If bondholders fail to diversify their portfolios appropriately, then there is not really a case in a capitalist
-
-system for bailing them out. Banks are supposedly sophisticated investors who should understand the need to
-
-appropriately diversify their sovereign bond exposures, and the shareholders of those banks should be forced
-
-to accept the losses rather than be bailed out by taxpayers of whatever country.
+The PIIGS crisis has shown that, in retrospect, the overlooking of the 60% national debt criterion for entrance to EMU was a mistake. By admitting countries like Italy and Greece, the eurozone made itself vulnerable to a speculative attack on those countries with high national debts. On the other hand, the policy of bailing out bond holders who knew the risks they undertook when buying PIIGS debt must also be questioned. If bondholders fail to diversify their portfolios appropriately, then there is not really a case in a capitalist system for bailing them out. Banks are supposedly sophisticated investors who should understand the need to appropriately diversify their sovereign bond exposures, and the shareholders of those banks should be forced to accept the losses rather than be bailed out by taxpayers of whatever country.
 
 !e survival of the EMU is an issue that extends well beyond the 19 eurozone members. A break-up of
 
@@ -3549,101 +2365,12 @@ Korea, India and Russia have diversified their risks from US Treasury bonds, reg
 
 - otherwise of the euro.
 
-!e euro crisis revealed some significant $aws in the design of the EMU project that were not fully
+The euro crisis revealed some significant flaws in the design of the EMU project that were not fully appreciated when it was launched in 1999. The first flaw was that the criteria for admission to EMU were not fully adhered to. In particular, the 60% ceiling on the national debt criterion was ignored. This meant that countries like Italy and Greece were admitted with national debts over 100% of GDP, well above the Maastricht limit. While the SGP was designed to ensure fiscal rectitude following EMU, it was not fully appreciated what the impact of a major recession would do to fiscal balances and national debt dynamics. The 2008–12 recession revealed that several countries' debt dynamics were unsustainable in the face of a significant adverse economic shock. The other key flaw in the system was the limited role for the ECB as a lender of last resort: its SMP purchases of government bonds, liquidity provision and LTRO policies were controversial and seen by some German policy-makers as contrary to the no-bailout principle. If the ECB had a lender of the last resort function it might have been able to forestall the crisis by making it clear to market participants that their sovereign bond holdings in the PIIGS would be repaid in full. This would have helped to keep down their borrowing rates and reduced the risk of contagion.
 
-appreciated when it was launched in 1999. !e first $aw was that the criteria for admission to EMU were not
+The euro survived the PIIGS crisis intact and the European Central Bank has shown a strong commitment to maintain the integrity of the eurozone area with its willingness to undertake a series of quantitative easing measures. There was a period during the eurozone crisis when Greece was on the verge of leaving the eurozone and/or defaulting on its debt. However, the support of the German government, the ECB being prepared to 'do whatever it takes' and subsequent restructuring of Greek debt have enabled the eurozone to increase rather than decrease its membership.
 
-fully adhered to. In particular, the 60% ceiling on the national debt criterion was ignored. !is meant that
+Even though the eurozone survived the PIIGS crisis, the recent large increases in fiscal deficits and national debts and falls in the eurozone GDP resulting from the Covid-19 crisis of 2020–21 will present new challenges for many of the eurozone countries. The Covid-19 crisis means that there remains a continued need for certain countries to bring down their fiscal deficits and national debts to much more manageable and sustainable levels, along with continued progress on restoring the competitiveness of their economies. It also involves undertaking what in the short term are painful structural reforms designed to improve the workings of goods and labour markets. In addition, there remains a need for banks to reduce their sovereign exposures and continue the process of deleveraging and restoring their balance sheets to a healthier state. Such reforms will take many years to implement, will usually meet stiff resistance and, even when in place, will take time to bear fruit.
 
-countries like Italy and Greece were admitted with national debts over 100% of GDP, well above the Maastricht
+Following the eurozone crisis, it became clear that a successful European Monetary Union required progress to be made not only on fiscal deficits but also a stronger institutional framework in the form of progress towards a Banking Union and Capital Markets Union. In this respect, once fully implemented the Banking and Capital Market Unions will be a significant step in the right direction towards providing a much stronger framework for the EMU project. Some go further and suggest that it even requires some form of political union if it is ultimately to survive and prosper. On balance, the chances are that the eurozone will remain intact and is unlikely to lose any of its members for the foreseeable future. Indeed, it is likely to continue to gradually increase in size; this is due to a number of factors. The EMU project is in many ways a political rather than economic project and, given the enormous political capital that was expended in setting up the project in the first instance, one should not underestimate the political will present to keep the project alive. Ultimately, it is political will that will decide the fate of the euro. A country leaving the euro would also raise the prospects of severe economic contagion as speculators attacked the next candidate country likely to leave. There would also be bank runs in countries where it was felt that exit from the euro was a significant probability, leading to the need for such banks to be rescued. From a legal standpoint, there is currently no provision for a country to leave the eurozone and there would be huge problems in both financial markets and the real economy concerning the validity and valuation of outstanding contracts. As such, the costs of countries leaving are substantially higher than the costs of staying in the eurozone, for both the country concerned and other key countries such as France and Germany.
 
-limit. While the SGP was designed to ensure fiscal rectitude following EMU, it was not fully appreciated
-
-what the impact of a major recession would do to fiscal balances and national debt dynamics. !e 2008–12
-
-recession revealed that several countries' debt dynamics were unsustainable in the face of a significant adverse
-
-economic shock. !e other key $aw in the system was the limited role for the ECB as a lender of last resort:
-
-its SMP purchases of government bonds, liquidity provision and LTRO policies were controversial and seen
-
-by some German policy-makers as contrary to the no-bailout principle. If the ECB had a lender of the last
-
-440
-
-The European Monetary System and European Monetary Union
-
-resort function it might have been able to forestall the crisis by making it clear to market participants that
-
-their sovereign bond holdings in the PIIGS would be repaid in full. !is would have helped to keep down their
-
-borrowing rates and reduced the risk of contagion.
-
-!e euro survived the PIIGS crisis intact and the European Central Bank has shown a strong commitment
-
-to maintain the integrity of the eurozone area with its willingness to undertake a series of quantitative easing
-
-measures. !ere was a period during the eurozone crisis when Greece was on the verge of leaving the eurozone
-
-and/or defaulting on its debt. However, the support of the German government, the ECB being prepared to
-
-'do whatever it takes' and subsequent restructuring of Greek debt have enabled the eurozone to increase rather
-
-than decrease its membership.
-
-Even though the eurozone survived the PIIGS crisis, the recent large increases in fiscal deficits and
-
-national debts and falls in the eurozone GDP resulting from the Covid-19 crisis of 2020–21 will present new
-
-challenges for many of the eurozone countries. !e Covid-19 crisis means that there remains a continued
-
-need for certain countries to bring down their fiscal deficits and national debts to much more manageable and
-
-sustainable levels, along with continued progress on restoring the competitiveness of their economies. It also
-
-involves undertaking what in the short term are painful structural reforms designed to improve the workings
-
-- f goods and labour markets. In addition, there remains a need for banks to reduce their sovereign exposures
-and continue the process of deleveraging and restoring their balance sheets to a healthier state. Such reforms
-will)take many years to implement, will usually meet stiff resistance and, even when in place, will take time
-to bear fruit.
-
-Following the eurozone crisis, it became clear that a successful European Monetary Union required
-
-progress to be made not only on fiscal deficits but also a stronger institutional framework in the form of
-
-progress towards a Banking Union and Capital Markets Union. In this respect, once fully implemented the
-
-Banking and Capital Market Unions will be a significant step in the right direction towards providing a much
-
-stronger framework for the EMU project. Some go further and suggest that it even requires some form of
-
-political union if it is ultimately to survive and prosper. On balance, the chances are that the eurozone will
-
-remain intact and is unlikely to lose any of its members for the foreseeable future. Indeed, it is likely to
-
-continue to gradually increase in size; this is due to a number of factors. !e EMU project is in many ways a
-
-political rather than economic project and, given the enormous political capital that was expended in setting
-
-up the project in the first instance, one should not underestimate the political will present to keep the project
-
-alive. Ultimately, it is political will that will decide the fate of the euro. A country leaving the euro would also
-
-raise the prospects of severe economic contagion as speculators attacked the next candidate country likely to
-
-leave. !ere would also be bank runs in countries where it was felt that exit from the euro was a significant
-
-probability, leading to the need for such banks to be rescued. From a legal standpoint, there is currently no
-
-provision for a country to leave the eurozone and there would be huge problems in both financial markets
-
-and the real economy concerning the validity and valuation of outstanding contracts. As such, the costs of
-
-countries leaving are substantially higher than the costs of staying in the eurozone, for both the country
-
-concerned and other key countries such as France and Germany.
-
-_Further Reading for_ _Chapter 16_ _can be found at the end of the book._
-
-441
+_Further Reading for Chapter 16 can be found at the end of the book._

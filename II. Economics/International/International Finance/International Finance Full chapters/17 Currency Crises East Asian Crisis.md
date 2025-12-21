@@ -1,37 +1,30 @@
 ---
-aliases:
-- Currency Crises East Asian Crisis
-tags: null
-key_concepts: null
+title: Chapter 17: Currency Crises East Asian Crisis
 parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 17: Currency Crises East Asian Crisis'
-linter-yaml-title-alias: 'Chapter 17: Currency Crises East Asian Crisis'
+formatted: 2025-12-21 05:25:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: opencode
 primary_tags:
-- play asian crisis mentioned
-- models currency crises 17
-- 1997 spread asian dollardenominated
-- severe international investors
-- crises east asian financial
+  - currency crises models
+  - east asian financial crisis
+  - speculative attacks
+  - exchange rate crises
+  - financial crisis contagion
 secondary_tags:
-- causes currency financial crises
-- asian financial crises 1997
-- currency financial crises occurred
-- 2002 currency crises east
-- 450 currency crises east
-- generation financial crisis models
-- crisis deterioration macroeconomic fundamentals
-- 17 run asian crisis
-- explain financial crises occur
-- ai baht devaluation
-- speculative attacks crisis
-- collapse exchange rate country
-tags_extracted: '2025-12-18T01:38:40.219712'
+  - first generation models
+  - second generation models
+  - third generation models
+  - asian crisis 1997
+  - imf crisis response
+  - early warning systems
+  - macroeconomic fundamentals
+  - external factors crisis
+  - financial system role
+  - crisis evaluation
+cssclasses: academia
 ---
 
-# CHAPTER 17
-
-## CURRENCY CRISES AND THE EAST ASIAN FINANCIAL)CRISIS
+# Chapter 17: Currency Crises and the East Asian Financial Crisis
 
 CHAPTER OUTLINE
 
@@ -40,55 +33,50 @@ CHAPTER OUTLINE
 17.2 First-generation models of currency crises
 17.3 Second-generation models of currency crises
 
-17.4
-!ird-generation and other models of currency and financial crises
-17.5 !e run-up to the Asian crisis
-17.6 !e macroeconomic fundamentals
-
-17.7 !e role of external factors in the crisis
-
-17.8
-!e role of the financial system
-17.9 !e immediate causes of the crisis
-
+17.4 Third-generation and other models of currency and financial crises
+17.5 The run-up to the Asian crisis
+17.6 The macroeconomic fundamentals
+17.7 The role of external factors in the crisis
+17.8 The role of the financial system
+17.9 The immediate causes of the crisis
 17.10 An analysis of the crisis
-17.11 !e IMF handling of the crisis
+17.11 The IMF handling of the crisis
 17.12 An evaluation of the IMF programmes
-17.13 !e crisis and post-crisis performance of the economies
+17.13 The crisis and post-crisis performance of the economies
 17.14 Early-warning systems
 17.15 Conclusions
 
 17.1 INTRODUCTION
 
-!e 1990s and early part of this century were characterized by a number of currency and financial crises.
+The 1990s and early part of this century were characterized by a number of currency and financial crises.
 
-!e turmoil started with major speculative attacks against the EMS in 1992–93 which led to devaluations
+The turmoil started with major speculative attacks against the EMS in 1992–93 which led to devaluations
 
-- f the pound sterling and the Italian lira, followed by the Mexican crisis of December 1994. !en, starting
-with the !ai baht devaluation on 2 July 1997, the so-called East Asian financial crisis is generally agreed to
-have started. !e Asian crisis was characterized by major economic and financial turmoil in many of the East
-Asian economies with large falls in the values of their currencies, stock markets and property prices. !e crisis
+of the pound sterling and the Italian lira, followed by the Mexican crisis of December 1994. Then, starting
+with the Thai baht devaluation on 2 July 1997, the so-called East Asian financial crisis is generally agreed to
+have started. The Asian crisis was characterized by major economic and financial turmoil in many of the East
+Asian economies with large falls in the values of their currencies, stock markets and property prices. The crisis
 continued into 1998, a year in which there were very significant falls in output in many of these previously
 fast-growing economies. Fortunately, there was a sharp recovery of those economies in 1999 and 2000 by
 which time the crisis was largely over.
 
-!e Asian financial crisis was swi(ly followed by other crises such as the Russian default on its debt in
+The Asian financial crisis was swiftly followed by other crises such as the Russian default on its debt in
 
 August 1998 and the collapse of the hedge fund Long-Term Capital Management in late September 1998.
 
 Other noticeable crises followed: in January 1999 the Brazilian real was forced to devalue and eventually to
 
-$oat, quickly depreciating a further 35%; in January 2001 there was a major banking crisis in Turkey, leading
+float, quickly depreciating a further 35%; in January 2001 there was a major banking crisis in Turkey, leading
 
-to the $oating of the Turkish lira; and, more spectacularly, in December 2001 Argentina declared a default on
+to the floating of the Turkish lira; and, more spectacularly, in December 2001 Argentina declared a default on
 
 its external debt and abandoned its currency board on 7 January 2002 with a devaluation from 1 to 1.4 pesos
 
-per dollar, swi(ly followed by a dramatic fall to a low of 3.75 pesos per dollar by the end of October 2002.
+per dollar, swiftly followed by a dramatic fall to a low of 3.75 pesos per dollar by the end of October 2002.
 
 Currency Crises and the East Asian Financial Crisis
 
-!ese periodic crises have stimulated a great deal of theoretical and empirical literature that looks at the
+These periodic crises have stimulated a great deal of theoretical and empirical literature that looks at the
 
 causes of currency and financial crises, and in this chapter we look at some of the theoretical models that have
 
@@ -96,14 +84,14 @@ been developed to analyse such crises. In particular, we will look at what have 
 
 third-generation models of currency crises, and we will explain some of their basic features and differences.
 
-We will also brie$y mention some of the other models that have been developed. We then concentrate on
+We will also briefly mention some of the other models that have been developed. We then concentrate on
 
 the causes and details surrounding the East Asian financial crisis, which was one of the most significant
 
 events to confront the international financial community in the last 40 years. We focus attention on eight
 
-- f the countries most directly involved in the crisis, namely Hong Kong, Indonesia, the Philippines, South
-Korea, Singapore, Malaysia, Taiwan and !ailand, and as such we will exclude any detailed analysis of other
+of the countries most directly involved in the crisis, namely Hong Kong, Indonesia, the Philippines, South
+Korea, Singapore, Malaysia, Taiwan and Thailand, and as such we will exclude any detailed analysis of other
 countries affected by the crisis such as China and India. A great deal of money can be made by predicting
 crises in advance of them happening, and early warning of such crises may help policy-makers to avert them.
 We conclude the chapter by looking at some of the recent literature that attempts to find what economic and
@@ -119,23 +107,23 @@ In his article, Krugman assumed that a government operates a fixed exchange rate
 
 financed by the government selling bonds in exchange for money from the central bank; that is, its fiscal
 
-deficits are financed)by domestic credit expansion. However, this increases the supply of money and puts
+deficits are financed by domestic credit expansion. However, this increases the supply of money and puts
 
-downward pressure on the interest rate leading to capital out$ows and pressure for a devaluation of the
+downward pressure on the interest rate leading to capital outflows and pressure for a devaluation of the
 
 currency. As such, it is necessary for the central bank to defend the currency by using its foreign exchange
 
-reserves. At)a certain point, the reserves reach a critically low level and a speculative attack is made on the
+reserves. At a certain point, the reserves reach a critically low level and a speculative attack is made on the
 
 currency, forcing a devaluation. In the so-called 'first generation models of speculative currency attacks'
 
-there) is a fundamental inconsistency between the fiscal (and with it monetary) policy pursued by the
+there is a fundamental inconsistency between the fiscal (and with it monetary) policy pursued by the
 
-government and)the commitment to a fixed exchange rate, which is spotted by speculators and precipitates a
+government and the commitment to a fixed exchange rate, which is spotted by speculators and precipitates a
 
 speculative attack.
 
-!e assumptions of the Krugman (1979) model are: perfect competition in the economy; domestic and
+The assumptions of the Krugman (1979) model are: perfect competition in the economy; domestic and
 
 foreign goods are perfect substitutes; perfect capital mobility and uncovered interest parity (UIP) holds at all
 
@@ -143,8 +131,8 @@ times; and purchasing power parity holds. In the Krugman model, money demand is 
 
 some constant value and the exchange rate is assumed to be fixed so that _s_ _[. ]_ = 0, where _s_ _[.]_ is the rate of change
 
-- f the exchange rate. A final important feature of the model is that once the fixed exchange rate regime breaks
-down, the new regime that replaces it is a fully $oating one.
+of the exchange rate. A final important feature of the model is that once the fixed exchange rate regime breaks
+down, the new regime that replaces it is a fully floating one.
 
 !e first assumption is that the money market is kept in continual equilibrium, that is:
 
@@ -514,7 +502,7 @@ agents' expectations of a devaluation without any significant change in macro-fu
 
 important to note that an increase in private agents' expectations of a devaluation will not necessarily lead
 
-to an actual devaluation in the second-generation models. !e government is continually monitoring the
+to an actual devaluation in the second-generation models. The government is continually monitoring the
 
 costs and benefits of the devaluation and if, for instance, the fixed costs of devaluation are relatively high then
 

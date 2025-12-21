@@ -1,7 +1,7 @@
 ---
 title: Central banking
 parent_directory: Modern Financial Markets and Institutions
-formatted: 2025-12-21 11:03:25 PM
+formatted: 2025-12-21 11:45:30 PM
 formatter_model: claude-sonnet-4-5-20250929
 cli-tool: claude-code
 primary_tags:
@@ -376,11 +376,11 @@ The sky is not falling. But this does not mean the Fed's policies are the best p
 
 Source: Financial Times, 10 November 2010, p. 13. Reprinted with permission.
 
-# Safety and soundness of the financial system
+## Safety and soundness of the financial system
 
 The collapse of many banks into insolvency in 2008 is a reminder of the vulnerability of these institutions. The mere fear of a bank collapse can lead to recession/depression as a damaging wave of lowered confidence in financial institutions sweeps through economies. A hundred years ago banks would fail on a regular basis, but today we have a number of mechanisms to reassure people and businesses that their money is safe within the banking system. Some of these mechanisms were found wanting in the recent financial crisis and so policy makers are currently looking for fixes for these. Nevertheless, the modern system is generally far safer than it was 100 years ago.
 
-# Depositor insurance
+## Depositor insurance
 
 Bank runs occur when depositors fear that because a bank holds in cash or near-cash only a fraction of the total deposits, if, say, 20 per cent of depositors want to take their money in cash the bank would not be able to pay and could be declared bust. Most of the time people are sanguine about this problem because they know that on a typical day the amount of net withdrawals (i.e. money taken from the bank minus money put into accounts at that bank) is a minuscule proportion of total deposits. This all relies on psychology: people have to have a great deal of confidence that the bank will be able to pay out when they want their money back. The trouble arises when something disturbs that confidence. In the film It's a Wonderful Life George (James Stewart) loses 8,000 of the bank's money. News that the bank might be in trouble leaks out and people queue up to demand their cash. The bank cannot pay everyone immediately despite there being plenty of value in the bank in the form of house mortgages. The story was repeated in 2007 in the UK (without Clarence, the Angel!) when news spread that Northern Rock, a building society turned bank, might be unable to repay depositors. Panicked depositors queued around the block in towns and cities up and down the country to take out their money.
 
@@ -390,7 +390,7 @@ One way to reduce the risk of bank runs (and to make the system fairer for the i
 
 In the US, the insurer of deposits is not the Fed but the Federal Deposit and Insurance Corporation (FDIC), which pays out up to  \$250,000 per depositor. In the UK, until the Northern Rock crisis the Financial Services Compensation Scheme (outside of BoE) paid\$ 30,000 in full and 90 per cent of the next £20,000. Because many depositors held more than £30,000 they knew that they were not fully covered and so rushed to withdraw their money from Northern Rock. Today the Scheme pays out full compensation up to the maximum of £85,000, which covers the vast majority of depositors.
 
-# Lender of last resort
+## Lender of last resort
 
 Another safety net for banks and their depositors is the lender of last resort function of the central bank: to prevent a bank failure leading on to other bank failures the central bank will step in to provide reserves when no one else will lend to the banks. Following the September 11 2001 World Trade Center attack many cheques were stuck on grounded aircraft and so a number of banks missed an inflow of money for a few days, thus their reserves declined. Furthermore, bank customers increased their demand for cash. The Federal Reserve kept the banking system going by adding  \$38 billion through repurchase agreements to the banks that needed money to restore their reserve levels. It also increased its discount window lending by 200-fold to\$ 45 billion. The terrorists did not bring down the financial system.
 
@@ -402,9 +402,9 @@ It is necessary to have both the lender of last resort role and deposit insuranc
 
 In the recent financial crisis central banks found many ways to lend to the banks. In the UK, for example, the BoE introduced the Special Liquidity Scheme in 2008 which allowed banks to exchange, for up to three years, bonds backed by mortgage payments (securitised bonds) for UK Treasury bills. These could then be sold when the bank needed extra reserves. The BoE also relaxed the rules on the type of securities that can be used as collateral in repos, i.e. beyond government securities. The Fed bought 1.25 trillion of mortgage-backed securities in 2009 to keep the mortgage market going – no one else would buy. It also allowed banks to draw down overnight loans from the Fed using some pretty risky securities as collateral (the Fed normally insists on US government bills and bonds as collateral) – see Exhibit 7.12.
 
-# Exhibit 7.12
+## Exhibit 7.12
 
-# Crisis-hit banks flooded Fed with junk
+## Crisis-hit banks flooded Fed with junk
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/c27d51b9dd410f7eea3f1091d47f5db80b064bbd3fa4d6224cacbd242bfd30e1.jpg)
 
@@ -434,9 +434,9 @@ Morgan Stanley and Merrill declined to comment, but people close to the situatio
 
 The European Central Bank also felt obliged to help banks unable to borrow in the financial markets. But by 2010 it was worried that some banks were addicted to obtaining money from the ECB and totally unable to obtain it commercially – see Exhibit 7.13.
 
-# Exhibit 7.13
+## Exhibit 7.13
 
-# Fears grow over banks addicted to ECB funding
+## Fears grow over banks addicted to ECB funding
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/bbd2755083f814c84c3e18c970e120dc6e33b75cd2936b4e3a4fdf6cdcaa56ac.jpg)
 
@@ -476,7 +476,7 @@ Earlier this month, Mr Trichet announced that the ECB would continue to match in
 
 "The addiction of many European banks, particularly those in the periphery, to the ECB for lending will be hard to break," says Padhraic Garvety, global head of developed markets rates strategy at ING.
 
-# Exhibit 7.13 continued
+## Exhibit 7.13 continued
 
 Private markets remain severely stressed with banks not prepared to risk lending to many institutions, which mean these institutions will have to borrow from the ECB.
 
@@ -492,7 +492,7 @@ Source: Financial Times, 14 September 2010, p. 37. Reprinted with permission.
 
 An extreme form of support for a bank is for the government to nationalise it, as happened with Northern Rock in 2008 and Anglo Irish Bank in 2009. While not fully nationalised, more than 80 per cent of Royal Bank of Scotland's shares and 43 per cent of Lloyds Bank shares are now owned by the UK taxpayer.
 
-# Too big to fail
+## Too big to fail
 
 The danger with having a lender of last resort facility available to banks is that it might encourage banks to take high risks. If their bets are successful then the managers and their shareholders reap the reward; if they fail they are bailed out by the central bank or government. This is a moral hazard problem – encouraging bad behaviour. The problem for the rest of society is not too great when it comes to small banks, whose failure would not cause knock-on failures of other banks or financial institutions. The authorities often let these go bust and impose pain on the managers (lose jobs), shareholders (lose all value in their shares) and bond holders (bonds become worthless), to encourage other banks to believe that they will not be saved regardless of incompetence or recklessness. The problem arises with the large banks, which have numerous interbank and other borrowings and derivative transactions which could pose a threat to the entire system should they fail – because if they go then many of their counterparties might lose so much in the fallout (liquidity-wise or solvency-wise) that they fail too. These are the banks that pose a systemic risk. Rather than size being the relevant criterion, we should really focus on degree of importance and significance of the bank, dubbed 'too important to fail'. The phrase 'too big to fail' has stuck with the media, but increasingly policy makers are using Sifi – systemically important financial institutions.
 
@@ -542,7 +542,7 @@ The too big to fail problem is particularly acute with an international bank mad
 
 FT
 
-# Brooke Masters
+## Brooke Masters
 
 Large multinational banks that organise themselves as a constellation of self-sufficient subsidiaries could be candidates for lower capital requirements than those that operate as fully integrated global groups, Lord Turner, chairman of the UK Financial Services Authority, said yesterday.
 
@@ -606,7 +606,7 @@ Capital reserve levels are not just national affairs because banking is internat
 
 To understand the Basel rules you need to first deal with a point of difficulty I have so far skipped over: defining what we mean by capital. The Basel I committee split capital into two: tier 1 and tier 2.
 
-# Tier 1:
+## Tier 1:
 
 Equity capital placed in the bank by shareholders when they purchase shares.
 
@@ -634,7 +634,7 @@ Basel II was rapidly overtaken by events: the financial crisis revealed that man
 
 At the time of writing Basel III is being designed and rolled out. This is much tougher. First, the definition of what can be called capital has been narrowed to exclude virtually everything other than money put in by bank shareholders or kept in the bank on behalf of shareholders from retained earnings. This is called core tier 1 and leaves out preference shares, unsecured bonds, etc. Second, instead of tier 1 being 4 per cent of risk-weighted assets and tier 2 being 4 per cent of risk-weighted assets we have the requirement that tier 2 capital be completely left out of the picture and that core tier 1 be effectively raised to 7 per cent, from the previous typical level of 2 per cent. The picture is a little more complicated than that – as shown in Exhibit 7.18.
 
-# Exhibit 7.18 Basel III core tier 1 capital to be held by banks as a percentage of risk-weighted assets
+## Exhibit 7.18 Basel III core tier 1 capital to be held by banks as a percentage of risk-weighted assets
 
 'Minimum'
 

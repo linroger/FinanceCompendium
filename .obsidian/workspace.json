@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/7. BlackScholesModel.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. BlackScholesModel"
+              "title": "CLAUDE"
             }
           },
           {
@@ -243,8 +243,10 @@
       "ai-tagger:Generate tags!": false
     }
   },
-  "active": "f415a2f46a27c8d6",
+  "active": "360abbbc2746a8b9",
   "lastOpenFiles": [
+    "FT",
+    "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/7. BlackScholesModel.md",
     "docs/handoff/beads-db-analysis/handoff.md",
     "docs/handoff/beads-db-analysis",
     "docs/handoff",
@@ -261,7 +263,6 @@
     "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/stop.json",
     "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/chat.json",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/5. MeanVariance-CAPM.md",
-    "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/7. BlackScholesModel.md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCS Greeks MasterSlides (1).md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCS Generate RVars (1).md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCMC MasterSlides (1).md",
@@ -280,7 +281,6 @@
     "I. Foundations/Machine Learning/CS229 - Machine Learning Lecture Notes.md",
     "I. Foundations/Machine Learning/Algorithms for Optimization.md",
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Chapter 02 Mathematical Induction And so on.md",
-    "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Appendix A Definitions and Theorems.md",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]

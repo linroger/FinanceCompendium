@@ -60,19 +60,13 @@ On 12 August 1982, the Mexican government announced that it could not meet its f
 - n its \$80 billion of outstanding debt to international banks. !is was the first sign of the Latin American debt
 crisis. Soon after the Mexican announcement, a number of other developing countries announced that they too were facing severe difficulty in meeting forthcoming repayments. Throughout the 1980s and 1990s and the early part of the new century the problems faced by developing countries in servicing their debts has been one of the major international policy issues. Granting debt relief has recently also become a major policy issue.
 
-!e debt crisis encompassed a wide set of countries from low-income developing nations to middleincome countries. In this chapter, we concentrate primarily upon four countries that were classified by the
-
-World Bank in its 1994 _World Debt Tables_ as severely indebted middle-income countries (SIMICs), that is,
+The debt crisis encompassed a wide set of countries from low-income developing nations to middle-income countries. In this chapter, we concentrate primarily upon four countries that were classified by the World Bank in its 1994 _World Debt Tables_ as severely indebted middle-income countries (SIMICs), that is,
 
 Argentina, Brazil, Mexico and Venezuela. In its 2004 _Global Development Finance_ _Report_ the World Bank
 
 classification of a SIMIC is that the country must be a middle-income country (an annual income of between
 
-\$725 and \$9,075 per capita) and have one of two key ratios above certain critical levels. !ese ratios are
-
-the present value of debt to gross national income (GNI) (80%) and the present value of debt to exports
-
-- f goods)and services (220%). Other than the SIMICs there are groups classified as: moderately indebted
+$725 and $9,075 per capita) and have one of two key ratios above certain critical levels. These ratios are the present value of debt to gross national income (GNI) (80%) and the present value of debt to exports of goods and services (220%). Other than the SIMICs there are groups classified as: moderately indebted
 
 International Finance
 
@@ -86,7 +80,7 @@ and Venezuela having shown a marked improvement, resulting in them being listed 
 
 Although they were both severely indebted, there are considerable contrasts between the SIMICs and the
 
-SILICs. !e 15 SIMICs identified by the World Bank in 1994 were especially concentrated in Latin America,
+SILICs. The 15 SIMICs identified by the World Bank in 1994 were especially concentrated in Latin America,
 
 and in 1994 their combined external debt amounted to \$587.4 billion, the majority of which was owed to
 
@@ -94,7 +88,7 @@ private sources made up primarily of commercial banks. By contrast, the majority
 
 by the World Bank in 1994 were to be found in sub-Saharan Africa – in 1994 their combined external
 
-debt amounted to \$223.6 billion with the vast majority owed to governments and o'cial agencies and the
+debt amounted to $223.6 billion with the vast majority owed to governments and official agencies and the
 
 remainder to private sources.
 

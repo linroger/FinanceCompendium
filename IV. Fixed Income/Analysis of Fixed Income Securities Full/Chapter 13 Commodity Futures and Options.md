@@ -1,4 +1,28 @@
-# Chapter 13: Commodities
+---
+title: Chapter 13: Commodity Futures and Options
+parent_directory: Analysis of Fixed Income Securities Full
+formatted: 2025-12-21 05:35:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: opencode
+primary_tags:
+  - commodity futures
+  - commodity options
+  - convenience yield
+  - commodity seasonality
+  - real options
+secondary_tags:
+  - agricultural commodities
+  - energy commodities
+  - metal commodities
+  - storage costs
+  - inventory effects
+  - commodity pricing
+  - futures contracts
+  - options valuation
+cssclasses: academia
+---
+
+# Chapter 13: Commodity Futures and Options
 
 # 13.1 Introduction
 
@@ -97,7 +121,7 @@ One obstacle in taking advantage of seasonality is that the only way to trade it
 
 As an analyst, you can't find the seasonal pattern in commodities using futures because the typical data is back-adjusted. That's necessary because long-term prices are constructed from many shorter contracts. When building these continuous price series, older data is adjusted up or down to blend the prices into a smooth series. Very often, the tail of that series, the older data, can go negative. Then calculating the monthly returns as a percent of price is impossible. Even when the results are not obviously incorrect, the past prices in the back-adjusted data are not the actual prices on those dates, so none of the percentages are correct.
 
-# Enter the ETFs
+## Enter the ETFs
 
 Then seasonality is found using cash prices, which cannot be traded. Enter ETFs. Commodity ETFs are traded just like any equity ETF. You buy a certain number of shares and you can hold them indefinitely. No rolls, no price distortion, but also no leverage. However, seasonal price moves can be pretty big and using seasonality presents unique diversification. You will probably find that giving up the volatility is a fair exchange for no leverage.
 
@@ -110,7 +134,7 @@ Figure 13.2: Commodity production by country
 
 Sources: Corn and wheat, Index Mundi; Coffee, Statistica; Sugar, USDA.
 
-# Classic Seasonal Patterns
+## Classic Seasonal Patterns
 
 The US dominates corn production, and the combination of the US and China is overwhelming. Because both countries are in the Northern hemisphere, we can expect the same seasonal pattern. On the left in Chart 1 the monthly returns give a clear pattern of planting in March/April and harvesting in September. Note that the blue line spikes in July, indicating a crop "scare" in the middle of growing season. We normally expect to see a rally in the early Summer when weather creates uncertainty about the health of the crop, but that turns out to be far less often than thought. The greatest problem is in the Spring when extreme rainfall delays planting and farmers may shift from corn to soybeans. The highest prices are in the Winter when inventories are low and planting is uncertain.
 
@@ -122,7 +146,7 @@ Figure 13.3: Corn seasonality. Cash prices from 1989 (left) and a comparison of 
 
 On the right is a comparison of cash, futures, and the ETF CORN, from 2010 when the ETF started trading. During these five years the Summer weather has been less certain and prices rallied in July. Futures, which reflects more speculation, shows a much bigger move. But corn is a hearty crop and prices returned to the normal lows in September. The EFT tracked cash prices fairly well, indicating that it may represent seasonality very nicely.
 
-# Wheat
+### Wheat
 
 The US is far from the biggest producer of wheat, but all of the top countries are again in the Northern hemisphere; therefore, Winter wheat would be planted in the Fall and harvested in the Spring. Why can't we see that clearly in Chart 2? It turns out that it's easier to see in a more recent period from 2010.
 
@@ -136,7 +160,7 @@ During the past five years, the pattern can be seen in Chart 3. Prices rise from
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/66ce4cd6ba70198a48deab1ac2b137ef73583cdad837a22f282d631664c73035.jpg)
 Figure 13.5: Comparison of cash, futures, and WEAT ETF seasonality
 
-# Sugar and Coffee
+### Sugar and Coffee
 
 Sugar has a more complex seasonal pattern because half of production in the Southern hemisphere and half in the Northern. The comparison on the right of Chart 4 is easier to see. If the Northern season has its season from April to November with its peak in July, the Southern hemisphere is from November to April with its peak in January. That gives two seasons and two trading opportunities.
 
@@ -257,13 +281,13 @@ Real estate is another real asset that follows the same model. In investing in r
 
 One thing particular to the real estate market is that properties need to be depreciated. As a result, the minimum return for the property to generate is the depreciate rate. Because of this, the convenience yield now  $\ell$  is rent minus depreciation rate.
 
-# 13.5 Various Contracts
+## 13.5 Various Contracts
 
 The majority contents of this section are taken from a series of lessons provided by Mercatus Energy (mercatusenergy.com)
 
 Note that although energy has been dominating the commodity trading in the recent years, the analyses provided here are applicable to other commodities listed in Introduction.
 
-# 13.5.1 Futures
+### 13.5.1 Futures
 
 This is a very liquid market. CBOE and CME are two major exchanges in the U.S. New York Mercantile Exchange is also popular. They can be categorized as:
 
@@ -487,7 +511,7 @@ Not much to say here, its very straightforward, no need to do the Monte-Carlo an
 
 3) Reinforcement learning (Q-learning algorithm)
 
-# Swing Contracts
+### Swing Contracts
 
 These are very common in energy markets (gas and power) and more or less they are a nonlinear version of commodity storages. Typical contract terms are as follows:
 
@@ -545,7 +569,7 @@ $$
 
 This is a linear programming problem that can be easily solved in Excel using the Solver.
 
-# 13.6.2 Random Quantities
+#### 13.6.2 Random Quantities
 
 When the quantities are random (i.e. determined at each date), then it becomes a function of the realized futures price at each date. (6)
 
@@ -564,7 +588,7 @@ As a result, a dynamic programming approach must be adopted and the swing contra
 
 <Give an example>
 
-# 13.6.3 Extensions (Liquidity and Random Interest Rates)
+#### 13.6.3 Extensions (Liquidity and Random Interest Rates)
 
 Now the problem becomes more complex:
 
@@ -573,7 +597,7 @@ $$
 $$ where  $\tilde{\mathbb{E}}_t^{(T_i)}$  is the  $T_{i}$ -forward expectation. With non-stochastic  $q_{i}$ , there is a closed-form solution to the price option (Chen (1992)) and LP can still solve the problem. In other words, as long as the optimal quantities are not random, stochastic interest rates do not add too much complexity to the problem. If quantities are random, then, there is no easy solution
 
 
-# 13.7 Water Futures
+## 13.7 Water Futures
 
 Bloomberg News:
 

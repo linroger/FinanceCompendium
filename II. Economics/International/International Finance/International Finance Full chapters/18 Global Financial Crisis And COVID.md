@@ -1,119 +1,66 @@
 ---
-aliases:
-- Global Financial Crisis And COVID
-tags: null
-key_concepts: null
+title: "Chapter 18: Global Financial Crisis and COVID-19 Pandemic"
 parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 18: Global Financial Crisis And COVID'
-linter-yaml-title-alias: 'Chapter 18: Global Financial Crisis And COVID'
+formatted: 2025-12-21 12:20:00 PM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
 primary_tags:
-- global financial crisis
-- global cost credit crunch
-- innovations linked financial crisis
-- financial crisis covid019
-- 2009 report imf estimated
-- international finance problem cds
+  - global financial crisis
+  - credit crunch
+  - financial innovations
+  - credit default swaps
+  - collateralized debt obligations
 secondary_tags:
-- aig collapse
-- pandemic number financial innovations
-- billion outbreak credit crunch
-- derivatives 18 credit crunch
-- innovation collateralized debt obligations
-- institutions paid premiums aig
-- 482 global financial crisis
-- financial effects crisis clear
-- mortgages usa impact
-- financial crisis theory instruments
-- crisis impact
-- pandemic chapter outline 18
-- finance great deal crisis
-- crucial role credit crunch
-- 2008 losses cdss instigated
-- financial institutions 18 22
-tags_extracted: '2025-12-18T01:39:28.933079'
+  - subprime mortgages
+  - structured investment vehicles
+  - special purpose entities
+  - aig collapse
+  - covid-19 pandemic
+  - financial regulation
+  - quantitative easing
+  - fiscal stimulus
+cssclasses: academia
 ---
 
-# CHAPTER 18
+# Chapter 18: Global Financial Crisis and COVID-19 Pandemic
 
-## THE GLOBAL FINANCIAL CRISIS AND THE COVID019 PANDEMIC
-
-CHAPTER OUTLINE
+## Chapter Outline
 
 18.1 Introduction
-
 18.2 Financial innovation: collateralized debt obligations and credit default swaps
 18.3 Special purpose vehicle/special purpose entity
 18.4 A structured investment vehicle
-
 18.5 Credit derivatives and credit default swaps
-18.6 !e pricing of credit derivatives
-18.7 !e credit crunch
-
+18.6 The pricing of credit derivatives
+18.7 The credit crunch
 18.8 Causes of the credit crunch
-
 18.9 Legislative changes and deregulation
 18.10 Deterioration in bank lending standards and adverse selection
 18.11 Increase in household indebtedness
-
 18.12 Financial innovation and the credit rating agencies
-
-18.13
-Increased leverage in the financial system
+18.13 Increased leverage in the financial system
 18.14 Mispricing of risk
 18.15 Incentive structures and risk management practices in the banks
-18.16 !e response to the credit crunch
-18.17 Cuts in o'cial short-term interest rates
-
+18.16 The response to the credit crunch
+18.17 Cuts in official short-term interest rates
 18.18 Liquidity provision
 18.19 Quantitative easing
 18.20 Fiscal stimulus
-
-18.21
-Bailouts of financial institutions
+18.21 Bailouts of financial institutions
 18.22 Bank stress tests
-
 18.23 Regulatory response
-18.24 !e UK response
-
+18.24 The UK response
 18.25 Fines
-
-18.26
-!e Covid-19 crisis and the impact on global financial markets and the global economy
+18.26 The COVID-19 crisis and the impact on global financial markets and the global economy
 18.27 Conclusions
 
-18.1 INTRODUCTION
+## 18.1 Introduction
 
-In this chapter you will learn about: financial innovations such as collateralized debt obligations (CDOs)
+In this chapter you will learn about: financial innovations such as collateralized debt obligations (CDOs) and credit default swaps (CDSs), the causes of the credit crunch, the failure of Lehman Brothers and AIG, the financial cost of the credit crunch, the measures taken by the authorities in response to the crisis and the policy lessons and implications of the credit crunch. In addition, we look at the impact of the COVID-19 global health and economic crisis and the policy response.
 
-and credit default swaps (CDSs), the causes of the credit crunch, the failure of Lehman Brothers and AIG,
+### The Global Financial Crisis and the COVID-19 Pandemic
 
-the financial cost of the credit crunch, the measures taken by the authorities in response to the crisis and the
-
-policy lessons and implications of the credit crunch. In addition, we look at the impact of the Covid-19 global
-
-health and economic crisis and the policy response.
-
-The Global Financial Crisis and the Covid-19 Pandemic
-
-A number of financial innovations have been developed since the 1990s through to the present. !ese new
-
-financial instruments such as collateralized debt obligations and credit derivatives including credit default
-
-swaps played a significant role in the so-called credit crunch which is generally considered to have started
-
-- n 9)August 2007. On that date BNP Paribas warned investors that they would not be able to withdraw
-money from two of its funds due to a 'complete evaporation of liquidity' in the market. In addition, the
-European Central Bank pumped &95 billion of liquidity into the markets, followed a few days later by a further
-&108.7 billion. Up until the outbreak of the credit crunch financial innovation had generally been viewed as a
-good thing for financial markets and the economy. It was believed that risk could be divided up into various
-tranches and transferred from market participants wishing to reduce their risk exposure to other participants
-prepared to take on greater risk exposure. However, the credit crunch showed that rather than reduce risk
-exposure, much of the financial innovation had in fact built up the level of risk to such a high level that there
-was a major breakdown in the banking and financial systems. In April 2009, the International Monetary Fund
-(IMF) estimated that there would be close to \$4.1 trillion of losses in financial institutions worldwide. !e
-scale of the financial crisis was unprecedented in modern times and comparisons were made with the global
-depression of the 1930s.
+A number of financial innovations have been developed since the 1990s through to the present. These new financial instruments such as collateralized debt obligations and credit derivatives including credit default swaps played a significant role in the so-called credit crunch which is generally considered to have started on 9 August 2007. On that date BNP Paribas warned investors that they would not be able to withdraw money from two of its funds due to a 'complete evaporation of liquidity' in the market. In addition, the European Central Bank pumped €95 billion of liquidity into the markets, followed a few days later by a further €108.7 billion. Up until the outbreak of the credit crunch financial innovation had generally been viewed as a good thing for financial markets and the economy. It was believed that risk could be divided up into various tranches and transferred from market participants wishing to reduce their risk exposure to other participants prepared to take on greater risk exposure. However, the credit crunch showed that rather than reduce risk exposure, much of the financial innovation had in fact built up the level of risk to such a high level that there was a major breakdown in the banking and financial systems. In April 2009, the International Monetary Fund (IMF) estimated that there would be close to $4.1 trillion of losses in financial institutions worldwide. The scale of the financial crisis was unprecedented in modern times and comparisons were made with the global depression of the 1930s.
 
 !e chapter begins with a look at two of the key financial instruments linked to the credit crisis,
 
@@ -207,93 +154,23 @@ such as Moody's and Standard & Poor's play a pivotal role in assigning credit ra
 
 its credit ratings, Moody's applies a methodology that looks at the default correlations between the various
 
-securities in the pool, the average credit quality of the pool of securities, the structure of the CDO and expected
+securities in the pool, the average credit quality of the pool of securities, the structure of the CDO and expected losses to each tranche. The fact that the CDO was sliced up into various tranches makes it an attractive security for different types of investors – for example, pension funds would be attracted to the AAA tranche, hedge funds to the junior tranche and other banks to the mezzanine tranche.
 
-losses to each tranche. !e fact that the CDO was sliced up into various tranches makes it an attractive security
+![Figure 18.1: The creation of a CDO](https://example.com/cdo-diagram.jpg)
 
-for different types of investors – for example, pension funds would be attracted to the AAA tranche, hedge
+### The Global Financial Crisis and the COVID-19 Pandemic
 
-funds to the junior tranche and other banks to the mezzanine tranche.
+Although the above example gives a good idea of what a CDO is, there are a number of additional important points that need to be made. The first is that each CDO is a unique package; the quality of the CDO and the credit rating attached to each of its tranches will depend upon the quality of the original bank loans and how these have been packaged in the CDO. Another point is that even if some of the borrowers default on their bank loans there is likely to be some recovery against the assets owned by the defaulting borrower. For example, if one of the loans in the CDO is for $500,000 against a house purchase then if the borrower defaults the bank will still be able to foreclose on the home and this will have some value, say $300,000 after recovery expenses, that can be used to repay the CDO holders. There are likely to be some covenants in the CDO that make it hard for the originating bank to reschedule and renegotiate loans with the original borrowers if they are having difficulty making payments.
 
-Original bank loans
+All of these factors make the pricing of a CDO a very complex issue as the cash flows of each CDO are highly uncertain. Assumptions about timings of defaults, default rates, recovery rates, the impact of covenants and the fact that each CDO is unique combine to make designing the correct pricing structure a difficult task.
 
-CDO
+As we shall see later in the chapter, the complexity of the CDOs and difficulties of determining their secondary market values ultimately became quite crucial in the evolution of the credit crunch.
 
-**Figure 18.1** !e creation of a CDO
+It should be noted that many CDOs were issued by banks to free up capital that the bank would otherwise be forced to hold against those loans. If loans are made and then the risks of the loans sold off to other investors, then banks have new capital to make further loans, undertake share buy backs or develop new products while freeing themselves of the credit risk of the loans they have made. In our example, suppose that the bank has a loan book worth $500 million and is required to hold regulatory capital of 8% (that is, $40 million) to cover potential losses. By selling the CDO the bank sells 95% of its loan book, retaining the equity piece worth 5% of the $500 million – it is required to hold 100% of the equity piece, that is $25 million, for regulatory capital purposes. As such the bank has managed to reduce its regulatory capital holding from $40 million to $25 million, a saving of $15 million. In addition, it has raised $475 million from selling the CDO. Of course, the debt repayments on the loans are now used to make payments to the holders of the various tranches of the CDO rather than accrue to the bank. As such, the returns the bank gets on its $475 million cash received from the CDO become crucial to determining the overall profitability of creating the CDO.
 
-474
+There are variations in CDOs. One of the most notorious is the CDO squared (CDO²), which is a CDO based upon a package of existing CDOs or tranches of differing CDOs. A collateralized loan obligation (CLO) is simply a CDO based upon a package of loans, such as a package of auto loans, student loans or credit card loans. A collateralized bond obligation (CBO) is a CDO based upon a pool of bonds, such as a pool of corporate bonds. One issue of concern with a CDO is the asymmetric information involved – the bank creating the CDO is more likely to understand the quality of the loans behind the CDO than outside investors. This problem is partially solved by the bank retaining the risky equity tranche of the CDO, so that it suffers the first loss before outside investors. Also by holding the equity tranche, the bank is more likely to monitor and enforce the loan than if the entire loan has been sold off to a third party.
 
-The Global Financial Crisis and the Covid-19 Pandemic
-
-Although the above example gives a good idea of what a CDO is, there are a number of additional important
-
-points that need to be made. !e first is that each CDO is a unique package; the quality of the CDO and the
-
-credit rating attached to each of its tranches will depend upon the quality of the original bank loans and
-
-how these have been packaged in the CDO. Another point is that even if some of the borrowers default on
-
-their bank loans there is likely to be some recovery against the assets owned by the defaulting borrower. For
-
-example, if one of the loans in the CDO is for \$500,000 against a house purchase then if the borrower defaults
-
-the bank will still be able to foreclose on the home and this will have some value, say \$300,000 a(er recovery
-
-expenses, that can be used to repay the CDO holders. !ere are likely to be some covenants in the CDO that
-
-make it hard for the originating bank to reschedule and renegotiate loans with the original borrowers if they
-
-are having di'culty making payments.
-
-All of these factors make the pricing of a CDO a very complex issue as the cash $ows of each CDO are
-
-highly uncertain. Assumptions about timings of defaults, default rates, recovery rates, the impact of covenants
-
-and the fact that each CDO is unique combine to make designing the correct pricing structure a di'cult task.
-
-As we shall see later in the chapter, the complexity of the CDOs and di'culties of determining their secondary
-
-market values ultimately became quite crucial in the evolution of the credit crunch.
-
-It should be noted that many CDOs were issued by banks to free up capital that the bank would otherwise be
-
-forced to hold against those loans. If loans are made and then the risks of the loans sold off to other investors,
-
-then banks have new capital to make further loans, undertake share buy backs or develop new products while
-
-freeing themselves of the credit risk of the loans they have made. In our example, suppose that the bank has a
-
-loan book worth \$500 million and is required to hold regulatory capital of 8% (that is, \$40)million) to cover
-
-potential losses. By selling the CDO the bank sells 95% of its loan book, retaining the equity piece worth
-
-5% of the \$500 million – it is required to hold 100% of the equity piece, that is \$25 million, for regulatory
-
-capital purposes. As such the bank has managed to reduce its regulatory capital holding from \$40 million to
-
-\$25)million, a saving of \$15 million. In addition, it has raised \$475 million from selling the CDO. Of course,
-
-the debt repayments on the loans are now used to make payments to the holders of the various tranches of
-
-the CDO rather than accrue to the bank. As such, the returns the bank gets on its \$475 million cash received
-
-from the CDO become crucial to determining the overall profitability of creating the CDO.
-
-!ere are variations in CDOs. One of the most notorious is the CDO squared (CDO [2] ), which is a CDO
-
-based upon a package of existing CDOs or tranches of differing CDOs. A collateralized loan obligation (CLO)
-
-is simply a CDO based upon a package of loans, such as a package of auto loans, student loans or credit
-
-card loans. A collateralized bond obligation (CBO) is a CDO based upon a pool of bonds, such as a pool
-
-- f corporate bonds. One issue of concern with a CDO is the asymmetric information involved – the bank
-creating the CDO is more likely to understand the quality of the loans behind the CDO than outside investors.
-!is problem is partially solved by the bank retaining the risky equity tranche of the CDO, so that it suffers the
-first loss before outside investors. Also by holding the equity tranche, the bank is more likely to monitor and
-enforce the loan than if the entire loan has been sold off to a third party.
-
-18.3 SPECIAL PURPOSE VEHICLE/SPECIAL PURPOSE ENTITY
+## 18.3 Special Purpose Vehicle/Special Purpose Entity
 
 When a CDO or other securitized product is sold onto the market it is usual for a bank to sponsor the
 
