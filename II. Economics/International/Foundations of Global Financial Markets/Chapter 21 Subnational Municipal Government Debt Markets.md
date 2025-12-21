@@ -91,6 +91,30 @@ This view, however, is based on assumptions that if not true would require centr
 
 Central governments have two models from which to develop their subnational debt markets. The first is via bank lending, and the second is the issuance of municipal bonds. Bank lending to subnationalals is the primary source for funding subnationalals today in Europe and Asia, but in North America, the primary source is municipal bonds. Of course, a hybrid of the two can be used.
 
+```d2
+
+Municipal Credit Market Models: {
+
+  Bank Lending Model: {
+
+    Municipal Banks -> Subnationals: Long-term loans
+
+    Notes: Primary in Europe and Asia
+
+  }
+
+  Bond Issuance Model: {
+
+    Subnationals -> Investment Bankers -> Municipal Bonds -> Investors
+
+    Notes: Primary in North America
+
+  }
+
+}
+
+```
+
 ## Bank Lending Model
 
 Some banks specialize in lending to subnationalals. The largest one is Credit Local de France, which is now part of the Dexia Group. These banks have offered loans for investment projects of from 15 to 30 years. Municipal banks seek to establish a permanent partnership with subnationalals. The typical services that they provide to supplement their lending include preparing and structuring budgets, planning and designing investment projects that a subnational is considering financing, managing the subnational's finances, and serving as an intermediary between the subnational and central government in matters related to tax-sharing arrangements and grant allocations.
@@ -255,7 +279,7 @@ As of 2017, the four largest municipal Chapter 9 bankruptcies are:
 
 Municipal securities are traded in the OTC market supported by more than 1,500 municipal bond dealers. Markets for the debts of smaller issuers (referred to as local credits) are maintained by regional brokerage firms, local banks, and some of the larger Wall Street firms. Markets for the bonds of larger issuers (referred to as generic names) are supported by the larger brokerage firms and banks, many of whom have investment banking relationships with these issuers.
 
-In the municipal bond market, an "odd lot" of bonds is  \$25,000 or less in par value for retail investors. For institutions, anything below\$ 100,000 in par value is considered an odd lot. Dealer spreads depend on several factors. For the retail investor, the spread can range from as low as 0.25 points ($12.50 per $5,000 par value) on large blocks of actively traded bonds to four points ($200 per $5,000 of par value) for odd-lot sales of an inactive issue. For institutional investors, the dealer spread rarely exceeds 0.5 points ($25 per $5,000 of par value). The convention for both corporate and Treasury bonds is to quote prices as a percentage of par value with 100 equal to par. However, municipal securities generally are traded and quoted in terms of yield (yield to maturity or yield to call). The price of the bond in this case is called a "basis price." The exception is certain long-maturity revenue bonds. A bond traded and quoted in dollar prices (actually, as a percentage of par value) is called a dollar bond.
+In the municipal bond market, an "odd lot" of bonds is  \$25,000 or less in par value for retail investors. For institutions, anything below \$100,000 in par value is considered an odd lot. Dealer spreads depend on several factors. For the retail investor, the spread can range from as low as 0.25 points ($12.50 per $5,000 par value) on large blocks of actively traded bonds to four points ($200 per $5,000 of par value) for odd-lot sales of an inactive issue. For institutional investors, the dealer spread rarely exceeds 0.5 points ($25 per $5,000 of par value). The convention for both corporate and Treasury bonds is to quote prices as a percentage of par value with 100 equal to par. However, municipal securities generally are traded and quoted in terms of yield (yield to maturity or yield to call). The price of the bond in this case is called a "basis price." The exception is certain long-maturity revenue bonds. A bond traded and quoted in dollar prices (actually, as a percentage of par value) is called a dollar bond.
 
 As noted earlier, more than  $75\%$  of the outstanding principal amount of municipal securities is held directly or indirectly by retail (individual investors). Historically, the market has been viewed as one where investors tended to buy a municipal security and then hold it to maturity. Thus, after the initial sale of a municipal security, there is infrequent trading. However, a significant volume of secondary market trading does occur. According to trade data compiled by the Municipal Securities Rulemaking Board (MSRB), annual trading in municipal securities for the years 2010-2013 averaged 3.4 trillion in principal value; the average number of trades per year over the same period averaged 10.3 million.[22] The number of trades for revenue bonds during those years was approximately double the number for general obligation bonds. For the three years ending 2013, trading in tax-exempt bonds was almost 10 times greater than taxable bonds in terms of the number of trades.
 
@@ -314,71 +338,4 @@ Another important financing vehicle that has been used in China since the global
 - To evaluate general obligation bonds, the credit rating agencies assess information in four basic categories: (1) issuer's debt structure and overall debt burden, (2) issuer's ability and political discipline to maintain sound budgetary policy, (3) issuer's access to specific local taxes and intergovernmental revenues, and (4) issuer's overall socioeconomic environment.
 - The provision in the U.S. bankruptcy code dealing with bankruptcy protection for municipalities is Chapter 9 and provides for a reorganization plan.
 
-# Questions
 
-1. Explain why you agree or disagree with the following statement: "Subnationalals are free to select the form of debt obtained."
-2. Why do subnationals have a substantial need for debt?
-3. What are the limitations of municipal banks in establishing a sustainable municipal debt market?
-4. What are the prerequisites for a subnational to issue a municipal bond?
-5. a. What is a municipal bond bank?
-
-b. Why is it advantageous for a small subnational that is an infrequent issuer to issue via a municipal bond bank?
-
-6. What is the key distinction between a public-private partnership and a project finance initiative?
-7. Why are public-private partnerships and project finance initiatives referred to as "off-balance financing"?
-8. Why are green bonds issued?
-9. Explain why you agree or disagree with the following statement: "All U.S. municipal bonds are exempt from federal income taxes."
-10. How does the shape of the Treasury yield curve compare to that of the municipal yield curve?
-11. What is the yield ratio, and why is it typically less than 1?
-12. In December 2017, the U.S. Congress changed the tax law so as to decrease marginal tax rates. What do you think will happen to the price of municipal securities?
-13. What is the major difference between a tax-backed debt and a revenue bond?
-14. Why did the downgrading of municipal bond insurers following the financial crisis that began in 2007 basically result in the elimination of the issuance of insured municipal bonds?
-15. a. What is a prerefunded bond?
-
-b. Give two reasons an issuing municipality would want to prerefund an outstanding bond.
-
-16. Why does a properly structured prerefunded municipal bond have no credit risk?
-17. The following statement appeared in a publication by Idaho's State Treasurer's Office:
-
-63-3202. PROCEDURE FOR ISSUANCE OF NOTES. (1) Whenever the state treasurer shall deem it to the best interests of the state of Idaho to issue state of Idaho tax anticipation notes, as provided in section 63-3201, Idaho Code, the state treasurer shall make written application to the state board of examiners, stating the amount of state of Idaho tax anticipation notes the state treasurer deems advisable to issue. Upon approval of the state board of examiners by order or resolution duly entered on the minutes of the state board of examiners, the state treasurer shall issue the tax anticipation notes in accordance with the provisions of this chapter.[25]
-
-What is a tax anticipation note?
-
-18. The four largest tobacco companies in the United States reached a settlement with 46 state attorney generals to pay a total of \$206 billion over the following 25 years. States and municipalities, New York City being the first, sold bonds backed by the future payments of tobacco companies. What are these bonds called?
-19. Why are municipal bankruptcies (Chapter 9) rare?
-20. When describing the development of the Chinese municipal bond market, the following statement appeared on NBC:
-
-Foreign investors will still have some lingering concerns, particularly over local government finances, however. Municipalities would need to improve the disclosure of their accounts, and the central government will probably need to impose debt limits as well as authorize the big three U.S. agencies to start rating the municipalities, said ANZ's Li-Gang.[26]
-
-Explain why these actions would be important in the development of China's municipal bond market.
-
-1. Otaviano Canuto and Lili Liu, "Subnational Debt: Making It Sustainable," in The Day after Tomorrow—A Handbook on the Future of Economic Policy in the Developing World, ed. Otaviano Canuto and Marcelo Giugale (Washington, DC: World Bank, 2010), chapter 13.
-2. For a detailed discussion of controlling local financing by central governments, see the contributed chapters in Bernard Dafflon, ed., Local Public Finance in Europe: Balancing the Budget and Controlling Debt, Studies in Fiscal Federalism and State-Local Finance (Cheltenham, UK: Edward Elgar, 2002).
-3. George E. Peterson, "Banks or Bonds? Building a Municipal Credit Market" (Washington, DC: Urban Institute, undated). The discussion of municipal banks here draws from this publication. Available at http://www.oecd.org/greengrowth/21559374.pdf.
-4. Peterson, "Banks or Bonds? Building a Municipal Credit Market," 3.
-5. For a more detailed described of PPP and PFI, see Frank J. Fabozzi and Carmel F. de Nahik, Project Financing, eighth edition (London: Euromoney International Investors, 2012), chapter 30.
-6. The term PFI is generally considered to have originated in the United Kingdom in 1992 and was defined in a parliamentary research paper dated 2001.
-7. RBC Capital Markets, "Green Bonds: Fifty Shades of Green" (Toronto, March 26, 2014).
-8. The two groups in the World Bank Group that were involved in fostering green bonds were the International Bank for Reconstruction and Development and the International Financial Corporation.
-9. Heike Reichelt and Alexandra Klöpfer, "Green Bonds Market Tops 20 Billion, Expands to New Issuers, Currencies & Structures" (Washington, DC: World Bank, July 23, 2014), http://blogs.worldbank.org/climatechange/green-bondissuance-tops-20-billion-and-expanding-new-issuers-currencies-products.
-10. Reichelt and Klöpfer, "Green Bonds Market Tops 20 Billion."
-11. Ceres, "Green Bond Principles, 2014: Voluntary Process Guidelines for Issuing Green Bonds" (Boston: Ceres, January 13, 2014), http://www.ceres.org/resources/reports/green-bond-principles-2014-voluntaryprocess-guidelines-for-issuing-green-bonds.
-12. Ceres, "Green Bond Principles, 2014."
-13. The tax treatment at the state level is one of the following: (1) exemption of interest from all municipal securities, (2) taxation of interest from all municipal securities, (3) exemption of interest from municipal securities if the issuer is in state but taxation of interest if the issuer is out of state.
-14. For a further discussion of these securities, see Sylvan G. Feldstein and Frank J. Fabozzi (eds.), The Handbook of Municipal Securities (Hoboken, NJ: John Wiley & Sons, 2008).
-15. The Bond Buyer's 2011 in Statistics, February 13, 2012, available at http://www.bondbuyer.com/pdfs/2012_bb.stats_supp.pdf.
-16. Securities and Exchange Commission, Report on the Municipal Securities Market (Washington, DC, 2012), 26.
-17. As reported in Moody's Investors Service, "US Municipal Bond Defaults and Recoveries, 1970-2012," May 7, 2013.
-18. James E. Spiotto, "A History of Modern Municipal Defaults," chapter 44 in Feldstein and Fabozzi, The Handbook of Municipal Securities.
-19. The Tenth Amendment, ratified in 1791, provides that powers that the Constitution does not either delegate to the federal government or prohibit to the states are reserved to the states or the people.
-20. See http://www abiworld.org/statcharts/Ch9Filings1980-Current.pdf.
-21. See http://archive.news10.net/news/pdf/State-Policies-on-Chapter-9-bankruptcy.pdf.
-22. The data reported here were computed from several tables in Municipal Securities Rulemaking Board, 2013 Fact Book (Washington, DC, 2014).
-23. Municipal Securities Rulemaking Board, 2013 Fact Book.
-24. Brent Ambrose, Yongheng Deng, and Jing Wu, "Understanding the Risk of China's Local Government Debts and Its Linkage with Property Markets" (Social Science Research Network: January 2015). Available at http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2557031.
-25. Idaho State Treasurer's Office, Title 63, Revenue and Taxation, chapter 32, "Anticipation of Revenue by State." https://legislature.idaho.gov/wp-content/uploads/statutesrules/idstat/Title63/T63CH32.pdf.
-26. Mia Tahara-Stubbs, "China's Muni Bond Market Set for Take Off," *CNBC online*, May 5, 2015. https://www.cnbc.com/2015/05/05/chinas-muni-bond-market-set-to-explode.html.
-
----
-
-**Note:** This chapter is part of the Corporate Funding Markets section.

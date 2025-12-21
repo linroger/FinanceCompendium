@@ -51,48 +51,48 @@ b. Home pays $N^H = X \cdot \frac{1}{M_0}$ in $H$ currency.
 1. Time $t = 0$ value of the bond denominated in $F$ currency.
 
 $$
-B _ {0} ^ {F} = \underbrace {\sum_ {t} ^ {T} \frac {c}{2} \cdot N ^ {F} \cdot Z ^ {F} (0 , t)} _ {\text {I n t e r e s t P V}} + \underbrace {N ^ {F} \cdot Z ^ {F} (0 , T)} _ {\text {P r i n c i p a l P V}}
+B_{0}^{F} = \underbrace{\sum_{t}^{T} \frac{c}{2} \cdot N^{F} \cdot Z^{F}(0,t)}_{\text{Interest PV}} + \underbrace{N^{F} \cdot Z^{F}(0,T)}_{\text{Principal PV}}
 $$
 
 2. Time $t = 0$ value of the bond denominated in $H$ currency.
 
 $$
-B _ {0} ^ {H} (K) = \underbrace {\sum_ {t} ^ {T} \frac {K}{2} \cdot N ^ {H} \cdot Z ^ {H} (0 , t)} _ {\text {I n t e r e s t P V}} + \underbrace {N ^ {H} \cdot Z ^ {H} (0 , T)} _ {\text {P r i n c i p a l P V}}
+B_{0}^{H}(K) = \underbrace{\sum_{t}^{T} \frac{K}{2} \cdot N^{H} \cdot Z^{H}(0,t)}_{\text{Interest PV}} + \underbrace{N^{H} \cdot Z^{H}(0,T)}_{\text{Principal PV}}
 $$
 
 - $K$ denotes the "swap rate," i.e. the annualized coupon rate for semi-annual payments of coupons in the $H$ currency.
-The bond value  $B_0^H (K)$  is a function of the swap rate  $K$
+The bond value $B_0^H(K)$ is a function of the swap rate $K$
 
 ### 1.4 Swap Rate under Spot Exchange of Principal
 
-1. Time  $t = 0$  value of the swap in  $F$  currency is equal to the value of the long position in the bond denominated in the  $F$  currency minus the value of the short position in the bond denominated in the  $H$  currency, converted into the  $F$  currency using the time  $t = 0$  exchange rate  $M_0$ .
+1. Time $t = 0$ value of the swap in $F$ currency is equal to the value of the long position in the bond denominated in the $F$ currency minus the value of the short position in the bond denominated in the $H$ currency, converted into the $F$ currency using the time $t = 0$ exchange rate $M_0$.
 
 $$
-V _ {0,} ^ {\mathrm {S w a p}, F} (K) = B _ {0} ^ {F} - M _ {0} \cdot B _ {0} ^ {H} (K)
+V_{0}^{\mathrm{Swap},F}(K) = B_{0}^{F} - M_{0} \cdot B_{0}^{H}(K)
 $$
 
-2. Swap rate  $K$  adjusts so as to set value of the swap at inception  $t = 0$  to zero.
+2. Swap rate $K$ adjusts so as to set value of the swap at inception $t = 0$ to zero.
 
 $$
-V _ {0,} ^ {\operatorname {S w a p}, F} (K ^ {*}) = 0
+V_{0}^{\mathrm{Swap},F}(K^{*}) = 0
 $$
 
 3. Formula for swap rate  $K^{*}$ .
 
 $$
-K ^ {*} = 2 \cdot \left[ \frac {\frac {C}{2} \cdot \sum_ {t} ^ {T} Z ^ {F} (0 , t) + Z ^ {F} (0 , T) - Z ^ {H} (0 , T)}{\sum_ {t} ^ {T} Z ^ {H} (0 , t)} \right]
+K^{*} = 2 \cdot \left[ \frac{\frac{C}{2} \cdot \sum_{t}^{T} Z^{F}(0,t) + Z^{F}(0,T) - Z^{H}(0,T)}{\sum_{t}^{T} Z^{H}(0,t)} \right]
 $$
 
 ### 1.5 Swap Rate under Alternative Exchange of Principal
 
-1. Time  $t = 0$  value of the swap in  $F$  currency has an additional component  $V_0^{\mathrm{FX},F}(\overline{M}_0)$  to account for the fact that the exchange of principal occurs at an alternative exchange rate  $\overline{M}_0$  for  $F / H$  currencies, in place of the spot exchange rate  $M_0$ .
+1. Time $t = 0$ value of the swap in $F$ currency has an additional component $V_0^{\mathrm{FX},F}(\overline{M}_0)$ to account for the fact that the exchange of principal occurs at an alternative exchange rate $\overline{M}_0$ for $F/H$ currencies, in place of the spot exchange rate $M_0$.
 
 $$
-V _ {0,} ^ {\mathrm {S w a p}, F} (K) = B _ {0} ^ {F} - M _ {0} \cdot B _ {0} ^ {H} (K) + V _ {0} ^ {\mathrm {F X}, F} (\overline {{M}} _ {0})
+V_{0}^{\mathrm{Swap},F}(K) = B_{0}^{F} - M_{0} \cdot B_{0}^{H}(K) + V_{0}^{\mathrm{FX},F}(\overline{M}_{0})
 $$
 
 2. Value of exchange of principal.
 
 $$
-V _ {0} ^ {\mathrm {F X}, F} (\bar {M} _ {0}) = \left(\frac {M _ {0}}{\bar {M} _ {0}} - 1\right) \cdot N ^ {F}
+V_{0}^{\mathrm{FX},F}(\bar{M}_{0}) = \left(\frac{M_{0}}{\bar{M}_{0}} - 1\right) \cdot N^{F}
 $$

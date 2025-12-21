@@ -933,13 +933,13 @@ $$
 and by substituting we have:
 
 $$
-\operatorname{E} \left[ \mathrm{U} (\widetilde{\mathrm{W}}) \right] = \operatorname{E} (\widetilde{\mathrm{W}}) - \frac{\mathrm{a}}{2} \left[ \operatorname{Var} (\widetilde{\mathrm{W}}) + \operatorname{E} (\widetilde{\mathrm{W}})^2 \right]
+\operatorname{E}[U(\widetilde{W})] = \operatorname{E}(\widetilde{W}) - \frac{a}{2} \left[ \operatorname{Var}(\widetilde{W}) + \operatorname{E}(\widetilde{W})^2 \right]
 $$
 
 This equation shows how the investor chooses on the basis of two variables: mean $E(\widetilde{W})$ and variance $Var(\widetilde{W})$. The relationship can be defined as follows:
 
 $$
-\operatorname{E} \left[ \mathrm{U} (\widetilde{\mathrm{W}}) \right] = \Psi \left[ \binom{+}{\mathrm{E} (\widetilde{\mathrm{W}})}; \left(\operatorname{Var} (\widetilde{\mathrm{W}})\right) \right] \tag{4.40}
+\operatorname{E}[U(\widetilde{W})] = \Psi[E(\widetilde{W}); \operatorname{Var}(\widetilde{W})] \tag{4.40}
 $$
 
 The function $\Psi$ is called mean-variance indirect utility (or indirect mean-variance utility function), and it shows that:

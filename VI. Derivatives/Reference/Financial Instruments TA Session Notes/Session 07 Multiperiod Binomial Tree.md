@@ -1,63 +1,72 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Option Pricing with Multiperiod Binomial Tree
-linter-yaml-title-alias: Option Pricing with Multiperiod Binomial Tree
+parent_directory: Financial Instruments TA Session Notes
+formatted: 2025-12-20 6:20:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: opencode
+primary_tags:
+  - binomial tree model
+  - option pricing
+  - multiperiod models
+secondary_tags:
+  - replicating portfolio
+  - risk neutral valuation
+  - discrete time models
+  - delta hedging
+  - dividend adjustment
+cssclasses: academia
 ---
 
 # Option Pricing with Multiperiod Binomial Tree
 
-# 1. Multiperiod Binomial Tree
+### 1. Multiperiod Binomial Tree
 
-# 1.1. Preamble
+**1.1. Preamble**
 
-1. Three periods:  $i \in \{0, 1, 2\}$
-2. Stock price in initial period:  $S_0$
-3. Stock price can either rise or fall by  $10\%$  in each subsequent period  $i \in \{1,2\}$
-4. Discrete compounding per period interest rate:  $r$
-5. European call option has strike price:  $K = S_{0}$
+1. Three periods: $i\in\{0,1,2\}$
+2. Stock price in initial period: $S_0$
+3. Stock price can either rise or fall by $10\%$ in each subsequent period $i\in\{1,2\}$
+4. Discrete compounding per period interest rate: $r$
+5. European call option has strike price: $K=S_{0}$
 
-# 1.2. Option Pricing with Multiple Periods
+**1.2. Option Pricing with Multiple Periods**
 
 1. Overview: Construct a replicating portfolio of stocks and bonds that replicates the payoff of the call option.
 2. Stock price payoff tree.
 
-a. Period  $i = 0$ :  $S_0$
+a. Period $i=0$: $S_0$
 
-i. Period  $i = 1$
+i. Period $i=1$
 
-1. $S_{u} = u\cdot S_{0}$
-2. $S_{d} = d\cdot S_{0}$
+1. $S_{u}=u\cdot S_{0}$
+2. $S_{d}=d\cdot S_{0}$
 
-a. Period  $i = 2$
+a. Period $i=2$
 
-i.  $S_{uu} = u\cdot S_u$
+i. $S_{uu}=u\cdot S_u$
 
-ii.  $S_{ud} = d\cdot S_u = u\cdot S_d = S_{du}$
+ii. $S_{ud}=d\cdot S_u=u\cdot S_d=S_{du}$
 
-iii.  $S_{dd} = d\cdot S_d$
+iii. $S_{dd}=d\cdot S_d$
 
 3. Call option payoff tree.
 
-a. Period  $i = 0$ :  $c_0$  (to be determined)
+a. Period $i=0$: $c_0$ (to be determined)
 
-i. Period  $i = 1$
+i. Period $i=1$
 
-1. $c_{u}$  (to be determined)
-2. $c_{d}$  (to be determined)
+1. $c_{u}$ (to be determined)
+2. $c_{d}$ (to be determined)
 
-a. Period  $i = 2$
+a. Period $i=2$
 
-i.  $c_{uu} = \max \{S_{uu} - K,0\}$
+i. $c_{uu}=\max\{S_{uu}-K,0\}$
 
-ii.  $c_{ud} = \max \{S_{ud} - K,0\}$
+ii. $c_{ud}=\max\{S_{ud}-K,0\}$
 
-iii.  $c_{dd} = \max \{S_{dd} - K,0\}$
+iii. $c_{dd}=\max\{S_{dd}-K,0\}$
 
-4. Work backwards from final node in the tree to determine option prices  $(c_0, c_u, c_d)$ .
+4. Work backwards from final node in the tree to determine option prices $(c_0,c_u,c_d)$.
 5. Period  $i = 1$
 
 a. Node  $u$

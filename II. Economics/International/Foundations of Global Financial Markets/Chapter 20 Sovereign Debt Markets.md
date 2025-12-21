@@ -1,43 +1,40 @@
 ---
 aliases:
 - Sovereign Debt Markets
-tags: null
-key_concepts: null
-parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
-cssclasses: academia
-title: 'Chapter 20: Sovereign Debt Markets'
-linter-yaml-title-alias: 'Chapter 20: Sovereign Debt Markets'
+title: "Chapter 20: Sovereign Debt Markets"
+parent_directory: Foundations of Global Financial Markets
+formatted: 2025-12-20 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
 primary_tags:
-- country lowest default risk
-- coupon securities called stripping
-- primary sovereign debt markets
-- repurchase agreements government markets
-- gilts gilt strips
+  - country lowest default risk
+  - coupon securities called stripping
+  - primary sovereign debt markets
+  - repurchase agreements government markets
+  - gilts gilt strips
 secondary_tags:
-- 20 sovereign debt markets
-- government markets sovereign
-- payments gilt stripped
-- 20 central government debt
-- government debt securities
-- debt markets contents
-- inflation adjusted securities sovereign
-- secondary government securities market
-- pricing debt instruments governments
-- sector government bond market
-- countries marketable debt issued
-- government securities exchange rate
-tags_extracted: '2025-12-18T00:21:04.703677'
+  - 20 sovereign debt markets
+  - government markets sovereign
+  - payments gilt stripped
+  - 20 central government debt
+  - government debt securities
+  - debt markets contents
+  - inflation adjusted securities sovereign
+  - secondary government securities market
+  - pricing debt instruments governments
+  - sector government bond market
+  - countries marketable debt issued
+  - government securities exchange rate
+cssclasses: academia
 ---
 
-# 20
+# Chapter 20: Sovereign Debt Markets
 
-Sovereign Debt Markets
+## CONTENTS
 
-# CONTENTS
+## Learning Objectives
 
-# Learning Objectives
-
-# Types of Securities Issued
+## Types of Securities Issued
 
 Floating-Rate Securities
 
@@ -88,7 +85,7 @@ After reading this chapter, you will understand:
 
 Sovereign debt refers to the debt issued by the highest level of government in a particular country. Sovereign governments occupy a central place in the financial market. Not only are they among the largest single group of borrowers in most countries, but the marketable debt issued by central governments is considered to be the debt in a country that has the lowest default risk. The reason is that central governments borrow in a currency whose value they control. To pay off their nominal debt, governments can simply print more money to pay off these claims. A notable exception is the European Union, where member nations cede control of monetary policy to the European Central Bank. Table 20.1 shows the amount of central bank debt securities outstanding for 18 countries as of year-end 2016. Of the total amount outstanding of almost US20.5 trillion, 59\% was issued by the U.S. government.
 
-# Table 20.1
+Table 20.1
 
 Central government debt securities outstanding in Billions of U.S. Dollars as of year end, 2016.
 
@@ -108,7 +105,7 @@ Investors can be domiciled in the country where the central government has issue
 
 In this chapter, we describe sovereign debt instruments and the markets in which they trade. We explain who participates in this market and how the securities are distributed to investors in the primary market and the role of primary dealers in the process. Once securities are issued, they trade in the secondary market. We highlight the role of an efficient and liquid secondary market in financing governments. Important markets related to efficient functioning of the sovereign debt market are also covered. Another important aspect of a well-functioning sovereign debt market is interest rate derivative contracts on sovereign bonds. We postpone discussion of these instruments until chapter 37.
 
-# Types of Securities Issued
+## Types of Securities Issued
 
 Central governments typically issue marketable and nonmarketable securities. Our focus here is on marketable securities. Most sovereign borrowers issue bonds with a fairly wide range of maturities. By doing so, they move toward a benchmark yield which can aid in the pricing of other debt instruments. Governments routinely issue two types of securities—discount and coupon. A discount security pays a single cash flow at the end of its life. The difference between the maturity value and the purchase price is the interest that the investor receives. An example of this type of security is a three-month discount instrument sold by several governments, including the United States and Switzerland. Most sovereign debt issued with an original maturity of one year or less is issued as discount securities. Table 20.2 lists the various maturities routinely issued as short-term securities for selected countries.
 
@@ -146,7 +143,7 @@ Different designs can be used for linkers. The reference rate that is a proxy fo
 
 Given the reference rate, the design of a linker can be such that over time, the principal or the coupon income is adjusted for inflation between the date of issuance and the payment date of a cash flow. The most commonly used design for a linker today calls for adjusting both the principal and the coupon interest. Before maturity, prices for trades in the secondary market are adjusted similarly. The inflation adjustment is usually done with a lag. This structure is used in the United States for its linker (TIPS), with a three-month lag in the CPI-U.
 
-To highlight the differences between inflation-indexed bonds and traditional bonds, consider two eight-year annual pay bonds—one traditional bond and one inflation-indexed bond. The inflation-indexed bond has a real coupon rate of 2\% annually. Inflation is assumed to be a constant 1\% per year for the next eight years. The traditional bond has a coupon rate of 3\% annually. Both bonds have a principal value of \100. Payments of the two bonds are presented side-by-side in table 20.4. Note that for the traditional bond, the nominal values for principal and coupon payments remain constant, but their real values decline with inflation. To be sure, nominal values are deflated by 1\% per year with inflation. For the inflation-indexed bond, just the opposite occurs. The real values remain constant, but the nominal values for the principal and coupon payments increase with inflation. Notice the coupon rate in the inflation-indexed bond remains constant, but the coupon payments increase and coincide with the increase in the inflation-adjusted principal. Nominal values are inflated by 1\% per year so as to keep real values constant.
+To highlight the differences between inflation-indexed bonds and traditional bonds, consider two eight-year annual pay bonds—one traditional bond and one inflation-indexed bond. The inflation-indexed bond has a real coupon rate of 2\% annually. Inflation is assumed to be a constant 1\% per year for the next eight years. The traditional bond has a coupon rate of 3\% annually. Both bonds have a principal value of \$100. Payments of the two bonds are presented side-by-side in table 20.4. Note that for the traditional bond, the nominal values for principal and coupon payments remain constant, but their real values decline with inflation. To be sure, nominal values are deflated by 1\% per year with inflation. For the inflation-indexed bond, just the opposite occurs. The real values remain constant, but the nominal values for the principal and coupon payments increase with inflation. Notice the coupon rate in the inflation-indexed bond remains constant, but the coupon payments increase and coincide with the increase in the inflation-adjusted principal. Nominal values are inflated by 1\% per year so as to keep real values constant.
 
 Table 20.4
 
