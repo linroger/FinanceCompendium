@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "FT/The Japanese government bond market is in trouble.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "The Japanese government bond market is in trouble"
             }
           },
           {
@@ -120,7 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 200
   },
   "right": {
     "id": "4bcd7846abe7e2d4",
@@ -222,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 219.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,8 +244,22 @@
       "ai-tagger:Generate tags!": false
     }
   },
-  "active": "360abbbc2746a8b9",
+  "active": "f415a2f46a27c8d6",
   "lastOpenFiles": [
+    "FT/The BoJ is playing a blinder.md",
+    "FT/Yen under renewed pressure following BoJ policy tweak.md",
+    "FT/The BoJ is, or isn’t, playing a blinder.md",
+    "FT/What the end of Japan’s yield curve control experiment means for markets.md",
+    "FT/What does the end of YCC mean for US credit?.md",
+    "FT/Yen falls after Bank of Japan sticks with negative interest rates.md",
+    "FT/How high will borrowing costs go once Bank of Japan ditches negative rates?.md",
+    "FT/Japan’s 10-year yield tops 1% for first time in 11 years.md",
+    "FT/Bank of Japan to ‘significantly’ scale back bond buying in shift on ultra-loose policy.md",
+    "FT/Bank of Japan raises interest rates to 0.25%.md",
+    "FT/Global bond sell-off deepens as Germany jolts markets.md",
+    "FT/Japan’s long-term borrowing costs hit record high on demand fears.md",
+    "CLAUDE.md",
+    "FT/The Japanese government bond market is in trouble.md",
     "FT",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/7. BlackScholesModel.md",
     "docs/handoff/beads-db-analysis/handoff.md",
@@ -261,26 +276,12 @@
     "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Chapter 01 What Is Mathematics.md",
     "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/notification.json",
     "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/stop.json",
-    "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/chat.json",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/5. MeanVariance-CAPM.md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCS Greeks MasterSlides (1).md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCS Generate RVars (1).md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCMC MasterSlides (1).md",
     "VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters/Chapter 39 - Flexibility.md",
     "styleguide/obsidian-formatting-instructions.md",
-    "VII. Corporate Finance/Valuation/Lecture Notes/Lectures on Valuation and Security Analysis.md",
-    "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/8. Credit Modeling and Credit Derivatives.md",
-    "VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters/Chapter 27 - Cross-Border Valuation.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "II. Economics/International/International Finance/International Finance Full chapters/01 Foreign Exchange Market.md",
-    "II. Economics/International/International Finance/International Finance Full chapters/07 Modern Exchange Rate Models.md",
-    "II. Economics/International/International Finance/International Finance Full chapters/02 Balance of Payments.md",
-    "II. Economics/International/International Finance/International Finance Full chapters/00 Front Matter.md",
-    "II. Economics/International/International Economics/Part 1 - Introduction to International Trade/Chapter 01 - Trade in the Global Economy.md",
-    "I. Foundations/Machine Learning/CS229 - Machine Learning Lecture Notes.md",
-    "I. Foundations/Machine Learning/Algorithms for Optimization.md",
-    "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics/Chapter 02 Mathematical Induction And so on.md",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]
