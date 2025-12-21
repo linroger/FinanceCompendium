@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: Capital Structure, Dividends, and Share Repurchases
 linter-yaml-title-alias: Capital Structure, Dividends, and Share Repurchases
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [capital structure, dividends, share repurchases]
+secondary_tags: [cash deployment, payout policy, shareholder returns]
 ---
 
-# Capital Structure, Dividends, and Share Repurchases
+## Capital Structure, Dividends, and Share Repurchases
 
 Shaping a modern corporation's financial profile might appear to be an infinitely complex task. But in practice, it typically boils down to just three decisions: how much to invest, how much debt to carry, and how much cash to return to shareholders. In this book, we devote most of our attention to exploring the first of these topics, but the others are also important. It's not so much that making the right decisions about capital structure will create a great deal of value; it's that making the wrong calls can destroy tremendous amounts of it. For example, during the high-tech bubble of the late 1990s, many European telecommunication companies accumulated unprecedented levels of debt on their balance sheets to fund investments in digital mobile networks, expecting to issue equity at a later stage to repay the borrowing. But before they could, the bursting of the high-tech bubble in 2000 drove down the earnings outlook for mobile services and the share prices for telecom players. Providers had to recapitalize their balance sheets at great pain and cost, losing billions of shareholder value.
 

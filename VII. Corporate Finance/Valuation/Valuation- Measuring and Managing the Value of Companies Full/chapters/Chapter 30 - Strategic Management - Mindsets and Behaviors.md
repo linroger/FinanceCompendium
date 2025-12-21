@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: "Strategic Management: Mindsets and Behaviors"
 linter-yaml-title-alias: "Strategic Management: Mindsets and Behaviors"
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [strategic management, mindsets and behaviors, value creation]
+secondary_tags: [resource allocation, decision making, governance]
 ---
 
-# Strategic Management: Mindsets and Behaviors
+## Strategic Management: Mindsets and Behaviors
 
 As we described at the beginning of Chapter 29, effective strategic management requires fluency in two distinct yet interrelated disciplines. One, strong analytics capabilities, was the subject of that chapter. This chapter focuses on the other discipline: the mindsets, behaviors, and processes that orient and motivate the entire management team toward its long-term common goals.
 

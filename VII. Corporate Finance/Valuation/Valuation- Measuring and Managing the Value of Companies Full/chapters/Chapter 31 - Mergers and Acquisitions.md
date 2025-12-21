@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: Mergers and Acquisitions
 linter-yaml-title-alias: Mergers and Acquisitions
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [mergers acquisitions, value creation, revenue growth]
+secondary_tags: [acquisition premiums, organic growth, accounting changes]
 ---
 
-# Mergers and Acquisitions
+## Mergers and Acquisitions
 
 Growth through acquisition may have very different effects on value creation than internal growth does because of the sizable premiums a company must pay to acquire another company. Therefore, it is important to understand how companies have been generating historical revenue growth: through organic means or through acquisition.
 

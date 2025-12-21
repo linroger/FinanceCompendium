@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: Emerging Markets*
 linter-yaml-title-alias: Emerging Markets*
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [emerging markets, valuation, country risk premium]
+secondary_tags: [scenario dcf, economic risks, government actions]
 ---
 
-# Emerging Markets*
+## Emerging Markets*
 
 The world's emerging economies, home of 86 percent of the population, accounted for about 59 percent of global GDP in 2017 and are growing faster than the developed economies. As emerging markets become more important to the global economy and to investors, sound methods are needed for analyzing and valuing companies and business units in these markets.
 

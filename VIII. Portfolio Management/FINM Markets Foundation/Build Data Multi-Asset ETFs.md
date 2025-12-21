@@ -1,12 +1,17 @@
 ---
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VIII. Portfolio Management/FINM Markets Foundation
 cssclasses: academia
 title: Build Data Multi-Asset ETFs
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [build data, multi-asset etfs, portfolio management]
+secondary_tags: [etfs, asset allocation, data analysis]
 ---
 
-# Build Data Multi-Asset ETFs
+## Build Data Multi-Asset ETFs
 
 ```python
 import pandas as pd

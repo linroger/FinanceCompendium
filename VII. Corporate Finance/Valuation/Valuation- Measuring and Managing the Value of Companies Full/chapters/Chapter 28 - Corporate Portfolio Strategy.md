@@ -1,11 +1,18 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Corporate Portfolio Strategy
-linter-yaml-title-alias: Corporate Portfolio Strategy
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - corporate portfolio strategy
+  - best owner
+  - diversification
+secondary_tags:
+  - business divestitures
+  - acquisitions
+  - value creation
+cssclasses: academia
 ---
 
 # Corporate Portfolio Strategy
@@ -15,6 +22,20 @@ A company's value depends greatly, though not entirely, on the actions of its ma
 Applying a management perspective to the science and art of value creation is the focus of the seven chapters that make up Part Four of this book. Specifically, we examine two critical top management decisions: What should executives decide to hold in the company's portfolio of businesses? And how should they allocate resources in support of decisions on capital expenditures, research and development (R&D), talent management, and more? We also explore managing the performance of the company's businesses through target setting, monitoring performance, and taking corrective action where necessary.
 
 We begin in this chapter with the question of what businesses a company should be in, along with two related questions: What constitutes being the best owner of a company, and how might the best owner change over time? The chapter also discusses how a business portfolio evolves and how to manage that portfolio throughout its evolution. We then explore why diversification's role in creating value is often misunderstood. The chapter concludes with a guide to systematic construction of a portfolio of businesses, using a case study of a company that applied the approaches we explain.
+
+```d2
+corporate portfolio strategy framework: {
+  shape: flowchart
+  
+  assess_businesses: "Assess Business Units (ROIC, growth, competitive advantage)"
+  identify_best_owner: "Identify Best Owner (links, skills, governance, insight, access)"
+  dynamic_management: "Dynamic Portfolio Management (acquire/divest based on lifecycle)"
+  diversification_myth: "Debunk Diversification Myths (focus on value addition)"
+  construct_portfolio: "Construct Portfolio (scenario analysis, optimization)"
+  
+  assess_businesses -> identify_best_owner -> dynamic_management -> diversification_myth -> construct_portfolio
+}
+```
 
 # BET ON THE HORSE—OR THE JOCKEY?
 

@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: Investor Communications*
 linter-yaml-title-alias: Investor Communications*
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [investor communications, share price, intrinsic value]
+secondary_tags: [earnings guidance, consensus forecasts, long-term investors]
 ---
 
-# Investor Communications*
+## Investor Communications*
 
 The value of investor communications is a subject of considerable controversy. Some executives, practitioners, and academics argue that actively handling relations with investors is a waste of management time and has no effect on a company's share price. Others have unrealistic expectations, assuming that you can talk up your company's stock and, if your investor relations staff is really sharp, it can tell you why the share price went down by 1.2 percent yesterday.
 

@@ -2,10 +2,15 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VIII. Portfolio Management/FINM Markets Foundation
 cssclasses: academia
 title: Adjusted vs Unadjusted Prices
 linter-yaml-title-alias: Adjusted vs Unadjusted Prices
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [build equity data, portfolio management, data analysis]
+secondary_tags: [adjusted prices, bloomberg, financial data]
 ---
 
 ```python
@@ -34,7 +39,7 @@ ENDDATE = '2022-06-30'
 FLDS = 'last_price'
 ```
 
-# Adjusted vs Unadjusted Prices
+## Adjusted vs Unadjusted Prices
 
 ```python
 bbtick = f'{TICK} US Equity'

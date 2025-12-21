@@ -1,12 +1,17 @@
 ---
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VIII. Portfolio Management/FINM Markets Foundation
 cssclasses: academia
 title: Build Data Fama-French
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [build data, fama french, portfolio management]
+secondary_tags: [factor models, risk factors, asset pricing]
 ---
 
-# Build Data Fama-French
+## Build Data Fama-French
 
 ```python
 import pandas as pd

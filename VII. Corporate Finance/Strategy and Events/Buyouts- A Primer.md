@@ -9,7 +9,7 @@ title: "Buyouts: A Primer"
 linter-yaml-title-alias: "Buyouts: A Primer"
 ---
 
-# Buyouts: A Primer
+## Buyouts: A Primer
 
 # Abstract
 

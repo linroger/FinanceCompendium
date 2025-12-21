@@ -2,10 +2,15 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VIII. Portfolio Management/FINM Markets Foundation
 cssclasses: academia
 title: Factor Data
 linter-yaml-title-alias: Factor Data
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [build data, momentum analysis, portfolio management]
+secondary_tags: [factor data, fama french, data analysis]
 ---
 
 ```python

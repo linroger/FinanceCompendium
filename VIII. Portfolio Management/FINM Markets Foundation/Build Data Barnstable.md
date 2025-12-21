@@ -1,12 +1,17 @@
 ---
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VIII. Portfolio Management/FINM Markets Foundation
 cssclasses: academia
 title: Build Data Barnstable
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [build data, barnstable, portfolio management]
+secondary_tags: [data analysis, financial markets, indices]
 ---
 
-# Build Data Barnstable
+## Build Data Barnstable
 
 ```python
 import wrds

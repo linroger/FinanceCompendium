@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: High-Growth Companies
 linter-yaml-title-alias: High-Growth Companies
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [high-growth companies, valuation, discounted cash flow]
+secondary_tags: [scenario analysis, market sizing, sustainable margins]
 ---
 
-# High-Growth Companies
+## High-Growth Companies
 
 Valuing high-growth companies is a challenge; some practitioners even describe it as hopeless. Yet we've found that the valuation principles in this book work well for coping with the great uncertainty that accompanies these rapid growers. The best way to value such companies is to start with a discounted-cash-flow (DCF) valuation and buttress it with economic fundamentals and probability-weighted scenarios.
 

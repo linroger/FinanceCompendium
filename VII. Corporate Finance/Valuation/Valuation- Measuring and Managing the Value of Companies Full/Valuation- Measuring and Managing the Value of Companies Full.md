@@ -1,14 +1,6 @@
 ---
 aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
-title: VALUATION
-linter-yaml-title-alias: VALUATION
----
-
---- title: Valuation  Measuring And Managing The Value Of Companies Part I
+- Valuation  Measuring And Managing The Value Of Companies Part I
 tags:
 - accounting_analysis
 - banking_institutions
@@ -23,18 +15,25 @@ tags:
 - term
 - trade
 - valuation
-- value aliases:
-- Valuation  Measuring And Managing The Value Of Companies Part I parent_folder: 2024 Adv Fin Analysis & Valuation
-subfolder: key_concepts:
+- value
+key_concepts:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full
 cssclasses: academia
+title: Valuation - Measuring and Managing the Value of Companies Full
+linter-yaml-title-alias: Valuation - Measuring and Managing the Value of Companies Full
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [valuation, corporate finance, value creation]
+secondary_tags: [financial analysis, risk management, growth strategies]
 ---
-# VALUATION
+## VALUATION
 
 MEASURING AND MANAGING THE VALUE OF COMPANIES
 
-# Contents
+## Contents
 <toc>
-# Part One Foundations of Value
+## Part One Foundations of Value
 
 1 Why Value Value? 3
 
@@ -54,7 +53,7 @@ MEASURING AND MANAGING THE VALUE OF COMPANIES
 
 9 Growth 155
 
-# Part Two Core Valuation Techniques
+## Part Two Core Valuation Techniques
 
 10 Frameworks for Valuation 177
 
@@ -76,7 +75,7 @@ MEASURING AND MANAGING THE VALUE OF COMPANIES
 
 19 Valuation by Parts 391
 
-# Part Three Advanced Valuation Techniques
+## Part Three Advanced Valuation Techniques
 
 20 Taxes 413
 
@@ -94,7 +93,7 @@ MEASURING AND MANAGING THE VALUE OF COMPANIES
 
 27 Cross-Border Valuation 507
 
-# Part Four Managing for Value
+## Part Four Managing for Value
 
 28 Corporate Portfolio Strategy 527
 
@@ -110,7 +109,7 @@ MEASURING AND MANAGING THE VALUE OF COMPANIES
 
 34 Investor Communications 667
 
-# Part Five Special Situations
+## Part Five Special Situations
 
 35 Emerging Markets 691
 
@@ -146,9 +145,9 @@ Index 861
 
 Part One
 
-# Foundations of Value
+## Foundations of Value
 
-# Why Value Value?
+## Why Value Value?
 
 The guiding principle of business value creation is a refreshingly simple construct: companies that grow and earn a return on capital that exceeds their cost of capital create value. Articulated as early as 1890 by Alfred Marshall, the concept has proven to be both enduring in its validity and elusive in its application.
 
@@ -168,7 +167,7 @@ As business leaders strive to resolve all of those weighty trade-offs, we hope t
 
 To dispel such misguided notions, this chapter begins by describing what value creation does mean. We then contrast the value creation perspective with short-termism and acknowledge some of the difficulties of value creation. We offer guidance on reconciling competing interests and adhering to principles that promote value creation. The chapter closes with an overview of the book's remaining topics.
 
-# WHAT DOES IT MEAN TO CREATE SHAREHOLDER VALUE?
+## WHAT DOES IT MEAN TO CREATE SHAREHOLDER VALUE?
 
 Particularly at this time of reflection on the virtues and vices of capitalism, it's critical that managers and board directors have a clear understanding of what value creation means. For value-minded executives, creating value cannot be limited to simply maximizing today's share price. Rather, the evidence points to a better objective: maximizing a company's collective value to its shareholders, now and in the future.
 
@@ -182,7 +181,7 @@ Despite such challenges, the evidence strongly suggests that companies with a lo
 
 Managers who create value for the long term do not take actions to increase today's share price if those actions will damage the company down the road. For example, they don't shortchange product development, reduce product quality, or skimp on safety. When considering investments, they take into account likely future changes in regulation or consumer behavior, especially with regard to environmental and health issues. Today's managers face volatile markets, rapid executive turnover, and intense performance pressures, so making long-term value-creating decisions requires courage. But the fundamental task of management and the board is to demonstrate that courage, despite the short-term consequences, in the name of value creation for the collective interests of shareholders, now and in the future.
 
-# SHORT-TERMISM RUNS DEEP
+## SHORT-TERMISM RUNS DEEP
 
 Despite overwhelming evidence linking intrinsic investor preferences to long-term value creation,[9] too many managers continue to plan and execute strategy—and then report their performance—against shorter-term measures, particularly earnings per share (EPS).
 
@@ -208,7 +207,7 @@ Board members might also benefit from spending more time on their board activiti
 
 Changes in CEO evaluation and compensation might help as well. The compensation of many CEOs and senior executives is still skewed to short-term accounting profits, often by formula. Given the complexity of managing a large multinational company, we find it odd that so much weight is given to a single number.
 
-# SHAREHOLDER CAPITALISM CANNOT SOLVE EVERY CHALLENGE
+## SHAREHOLDER CAPITALISM CANNOT SOLVE EVERY CHALLENGE
 
 Short-terminism is a critical affliction, but it isn't the only source of today's crisis of trust in corporate capitalism. Imagine that short-terminism were magically cured. Would other foundational problems suddenly disappear as well? Of course not. Managers struggle to make many trade-offs for which neither a shareholder nor a stakeholder approach offers a clear path forward. This is especially true when it comes to issues affecting people who aren't immediately involved with the company—for example, a company's carbon emissions affecting parties that may be far away and not even know what the company is doing. These so-called externalities can be extremely challenging for corporate decision making, because there is no objective basis for making trade-offs among parties.
 
@@ -226,7 +225,7 @@ Institutional investors such as pension funds, as stewards of the millions of me
 
 Long-term-oriented companies must be attuned to long-term changes that investors and governments will demand. This enables executives to adjust their strategies over a 5-, 10-, or 20-year time horizon and reduce the risk of holding still-productive assets that can't be used because of environmental or other issues. For value-minded executives, what bears remembering is that a delicate chemistry will always exist between government policy and long-term investors, and between shareholder value creation and the impact of externalities.
 
-# CAN STAKEHOLDER INTERESTS BE RECONCILED?
+## CAN STAKEHOLDER INTERESTS BE RECONCILED?
 
 Much recent criticism of shareholder-oriented capitalism has called on companies to focus on a broader set of stakeholders beyond just its shareholders. It's a view that has long been influential in continental Europe, where it is frequently embedded in corporate governance structures. It's gaining traction in the United States as well, with the rise of public-benefit corporations, which explicitly empower directors to consider the interests of constituencies other than shareholders.
 
@@ -266,7 +265,7 @@ In our experience, not only do managers carefully weigh bottom-line impact, they
 
 2007 to 2017—measured as total shareholder returns—have shown stronger employment growth (see Exhibit 1.1).[22]
 
-# CONSEQUENCES OF FORGETTING VALUE-CREATION PRINCIPLES
+## CONSEQUENCES OF FORGETTING VALUE-CREATION PRINCIPLES
 
 When companies forget the simple value-creation principles, the negative consequences to the economy can be huge. Two recent examples of many executives failing in their duty to focus on true value creation are the Internet bubble of the 1990s and the financial crisis of 2008.
 
@@ -274,7 +273,7 @@ During the Internet bubble, managers and investors lost sight of what drives ret
 
 Shortsighted focus can breed dishonorable dealing, and sometimes the consequences can shake confidence in capitalism to its foundations. In 2008, too many financial institutions ignored core principles. Banks lent money to individuals and speculators at low teaser rates on the assumption that housing prices would only increase. Banks packaged these high-risk debts into long-term securities and sold them to investors who used short-term debt to finance the purchase, thus creating a long-term risk for whoever lent them the money. When the home buyers could no longer afford the payments, the real estate market crashed, pushing the values of many homes below the values of the loans taken out to buy them. At that point, homeowners could neither make the required payments nor sell their homes. Seeing this, the banks that had issued short-term loans to investors in securities backed by mortgages became unwilling to roll over those loans, prompting the investors to sell all such securities at once. The value of the securities plummeted. Finally, many of the large banks themselves owned these securities, which they, of course, had also financed with short-term debt they could no longer roll over.
 
-# THIS BOOK
+## THIS BOOK
 
 This book is a guide to how to measure and manage the value of a company. The faster companies can increase their revenues and deploy more capital at attractive rates of return, the more value they create. The combination of growth and return on invested capital (ROIC), relative to its cost, is what drives cash flow and value. Anything that doesn't increase ROIC or growth at an attractive ROIC doesn't create value. This category can include steps that change the ownership of claims to cash flows, and accounting techniques that may change the timing of profits without actually changing cash flows.
 
@@ -286,13 +285,13 @@ This book explains both the economics of value creation (for instance, how compe
 
 Applying the principles of value creation sometimes means going against the crowd. It means accepting that there are no free lunches. It means relying on data, thoughtful analysis, a deep understanding of the competitive dynamics of your industry, and a broad, well-informed perspective on how society continually affects and is affected by your business. We hope this book provides readers with the knowledge to help them throughout their careers to make and defend decisions that will create value for investors and for society at large.
 
-# Finance in a Nutshell
+## Finance in a Nutshell
 
 Companies create value when they earn a return on invested capital (ROIC) greater than their opportunity cost of capital. If the ROIC is at or below the cost of capital, growth may not create value. Companies should aim to find the combination of growth and ROIC that drives the highest discounted value of their cash flows. In so doing, they should consider that performance in the stock market may differ from intrinsic value creation, generally as a result of changes in investors' expectations.
 
 To illustrate how value creation works, this chapter uses a simple story. Our heroes are Lily and Nate, who start out as the owners of a small chain of trendy clothing stores. Success follows. Over time, their business goes through a remarkable transformation. They develop the idea of Lily's Emporium and convert their stores to the new concept. To expand, they take their company public to raise additional capital. Encouraged by the resulting gains, they develop more retail concepts, including Lily's Furniture and Lily's Garden Supplies. In the end, Lily and Nate are faced with the complexity of managing a multibusiness retail enterprise.
 
-# THE EARLY YEARS
+## THE EARLY YEARS
 
 When we first met Lily and Nate, their business had grown from a tiny boutique into a small chain of trendy, midpriced clothing stores called Lily's Dresses. They met with us to find out how they could know if they were achieving attractive financial results. We told them they should measure their business's return on invested capital: after-tax operating profits divided by the capital invested in working capital and property, plant, and equipment.
 
@@ -326,7 +325,7 @@ $ thousand investing heavily. Despite all the growth in operating profit, his co
 
 We asked the two why they thought their stores earned higher returns on capital than Logan's. Nate said one reason was that their products were unique and cutting-edge fashion, so their customers were willing to pay higher prices for their dresses than for the products at many other dress shops. Lily added that each of their stores attracted more customers, so their sales per square foot (a proxy for fixed costs) were greater than Logan's. As they saw it, Logan's products were not much different from those of his competitors, so he had to match his prices to theirs and had less customer traffic in his stores. This discussion helped Nate and Lily appreciate that it was beneficial to consider ROIC along with growth.
 
-# A NEW CONCEPT
+## A NEW CONCEPT
 
 Several years later, Lily and Nate called us with a great idea. They wanted to develop a new concept, which they called Lily's Emporium. Lily's Emporium would operate larger stores carrying a wider assortment of clothes and accessories that their talented designers were working on. But when they looked at the projected results (they now had a financial-analysis department), they found that all the new capital investment to convert their stores would reduce ROIC and cash flow for four years, even though revenue and profits would be growing faster, as shown in Exhibit 2.3. After four years, cash flow would be greater, but they didn't know how to trade off the short-term decline in ROIC and cash flow against the long-term improvement.
 
@@ -334,7 +333,7 @@ We affirmed that these were the right questions and explained that answering the
 
 We helped Lily and Nate apply DCF to their new concept, discounting the projected cash flows at 10 percent. We showed them that the DCF value of their company would be  \$53 million if they did not adopt the new concept. With the new concept, the DCF value would be greater:\$ 62 million. (Actually, on our spreadsheet, we rounded to the nearest thousand: 61,911,000.) These numbers gave them confidence in their idea for Lily's Emporium.
 
-# SHOULD LILY AND NATE TRY TO MAXIMIZE ROIC?
+## SHOULD LILY AND NATE TRY TO MAXIMIZE ROIC?
 
 As they saw how these financial measures could help them build a more valuable business, Lily and Nate began to formulate more questions about measuring value. Lily asked if their strategy should be to maximize their return on
 
@@ -356,7 +355,7 @@ For Nate, though, this analysis raised a practical concern. With different metho
 
 "Good question," we said. "In fact, they're the same." We prepared Exhibit 2.5 to show Nate and Lily a comparison, using the DCF we had previously estimated for their business: 61,911,000. To apply the economic-profit method, we discounted the future economic profit at the same cost of capital we had used with the DCF. Then we added the discounted economic profit to the amount of capital invested today. The results for the two approaches are the same—exactly, to the penny.[2]
 
-# GOING PUBLIC
+## GOING PUBLIC
 
 Now Lily and Nate had a way to make important strategic decisions over multiple time periods. Lily's Emporium was successful, and the next time they called us, they talked excitedly about new ambitions. "We need more
 
@@ -402,7 +401,7 @@ We agreed and explained that if they were to create a great deal of value in the
 
 After exploring these issues, Lily and Nate felt prepared to take their company public. They went forward with an initial public offering and raised the capital they needed.
 
-# EXPANSION INTO RELATED FORMATS
+## EXPANSION INTO RELATED FORMATS
 
 Lily and Nate's business was successful, growing quickly and regularly beating the expectations of the market, so their share price was a top performer. They were comfortable that their management team would be able to achieve high growth in their Emporium stores, so they decided next to try some new concepts they had been thinking about: Lily's Furniture and Lily's Garden Supplies. But they grew concerned about managing the business as it became more and more complex. They had always had a good feel for the business, but as it expanded and they had to delegate more decision making, they were less confident that things would be managed well.
 
@@ -416,7 +415,7 @@ They met with us again and told us that their financial people had put in place 
 
 Lily and Nate both nodded, satisfied. The lessons they so quickly absorbed and applied have placed their company on a solid foundation. The two of them still come to see us from time to time, but only for social visits. Sometimes they bring flowers from their garden supplies center.
 
-# SOME LESSONS
+## SOME LESSONS
 
 While we have simplified the story of Lily and Nate's business, it highlights the core ideas around value creation and its measurement:
 
@@ -428,7 +427,7 @@ While we have simplified the story of Lily and Nate's business, it highlights th
 
 In the next chapter, we develop a more formal framework for understanding and measuring value creation.
 
-# Fundamental Principles of Value Creation
+## Fundamental Principles of Value Creation
 
 Companies create value for their owners by investing cash now to generate more cash in the future. The amount of value they create is the difference between cash inflows and the cost of the investments made, adjusted to reflect the fact that tomorrow's cash flows are worth less than today's because of the time value of money and the riskiness of future cash flows. As we illustrated in Chapter 2, the conversion of revenues into cash flows—and earnings—is a function of a company's return on invested capital (ROIC) and its revenue growth. That means the amount of value a company creates is governed ultimately by its ROIC, revenue growth, and ability to sustain both over time. Keep in mind that a company will create value only if its ROIC is greater than its cost of capital. Moreover, only if ROIC exceeds the cost of capital will growth increase a company's value. Growth at lower returns actually reduces a company's value. Exhibit 3.1 illustrates this core principle of value creation.
 
@@ -444,7 +443,7 @@ For example, earnings growth alone can't explain why investors in discount retai
 
 To be fair, if all companies in an industry earned the same ROIC, then earnings growth would be the differentiating metric, because then only growth and not ROIC would determine differences in companies' cash flow. For reasons of simplicity, analysts and academics have sometimes made this assumption. But as Chapter 8 demonstrates, returns on invested capital can vary considerably, not only across industries but also between companies within the same industry and across time.
 
-# THE RELATIONSHIP OF GROWTH, ROIC, AND CASH FLOW
+## THE RELATIONSHIP OF GROWTH, ROIC, AND CASH FLOW
 
 Disaggregating cash flow into revenue growth and ROIC helps illuminate the underlying elements that power a company's performance. Say a company's cash flow was  \$100 last year and will be\$ 115 next year. This doesn't tell us much about its economic performance, since the 15 increase in cash flow could come from many sources, including revenue growth, a reduction in capital spending, or a reduction in marketing expenditures. But if we told you that the company was generating revenue growth of 7 percent per year and would earn a return on invested capital of 15 percent, then you would be able to evaluate its performance. You could, for instance, compare the company's growth rate with the growth rate of its industry or the economy, and you could analyze its ROIC relative to peers, its cost of capital, and its own historical performance.
 
@@ -540,7 +539,7 @@ $$
 
 Using this equation, you can see that value is driven by growth, ROIC, and the cost of capital, just as we described in the example. In practice, we rarely use this formula by itself, because of its assumption of constant growth and ROIC forever. Still, we find it useful as a reminder of the elements that drive value. Note that improving ROIC, for any level of growth, always increases value because it reduces the investment required for growth. The impact of growth, however, is ambiguous, as it appears in both the numerator and the denominator. In the next section, we'll show that faster growth increases value only when a company's ROIC is greater than its cost of capital. At the end of this chapter, we'll also show how this equation is derived.
 
-# BALANCING ROIC AND GROWTH TO CREATE VALUE
+## BALANCING ROIC AND GROWTH TO CREATE VALUE
 
 It is possible to create a matrix that shows how different combinations of growth and ROIC translate into value (Exhibit 3.6). Each cell in the matrix represents the present value of future cash flows under each of the assumptions of growth and ROIC, discounted at the company's cost of capital. This case assumes a 9 percent cost of capital and a company that earns 100 in the first year.
 
@@ -562,7 +561,7 @@ higher growth but low ROIC. For example, at the end of 2017, Brown-Forman and Co
 
 We sometimes hear the argument that even low-ROIC companies should strive for growth. The logic is that if a company grows, its ROIC will naturally increase. However, we find this is true only for young, start-up businesses. Most often in mature companies, a low ROIC indicates a flawed business model or unattractive industry structure. Don't fall for the trap that growth will lead to scale economies that automatically increase a company's return on capital. It almost never happens for mature businesses.
 
-# SOME EXAMPLES
+## SOME EXAMPLES
 
 The logic laid out in this section reflects the way companies perform in the stock market. Recall the earlier explanation of why shareholder returns for Costco and Brown-Forman were the same even though earnings for Costco grew much faster. Another example of the relative impact of growth and ROIC on value is Rockwell Automation, which provides integrated systems to monitor and control automation in factories. Rockwell's total shareholder returns (TSR) from 1995 to 2018 were 19 percent per year, placing it in the top quartile of industrial companies. During this period, Rockwell's revenues actually shrank from  \$13 billion in 1995 to\$ 7 billion in 2018 as it divested its aviation and power systems divisions. The major factor behind its high TSR was its success in increasing ROIC, from about 12 percent in the mid-1990s to about 35 percent in 2018 (including goodwill). After spinning off its aviation business (now known as Rockwell Collins) in 2001, Rockwell focused on its core industrial-automation business and improved ROIC significantly. While this was partially accomplished by divesting lower-margin ancillary businesses, the majority of the improvement came from operational improvement in industrial automation. The company publicly reiterated its focus on cost and capital productivity many times during the period.
 
@@ -574,7 +573,7 @@ To test whether the core valuation principle also applies at the level of countr
 
 More evidence showing that ROIC and growth drive value appears in Chapter 7.
 
-# IMPLICATIONS FOR MANAGERS
+## IMPLICATIONS FOR MANAGERS
 
 We'll dive deeper into the managerial dimensions of ROIC and growth in Chapters 8 and 9, respectively. For now, we outline several lessons managers should learn for strategic decision making.
 
@@ -582,7 +581,7 @@ Start by referring back to Exhibit 3.6, because it contains the most important s
 
 For example, Exhibit 3.7 shows that a typical high-ROIC company, such as a branded consumer packaged-goods company, can increase its value by
 
-# EXHIBIT 3.7 Increasing Value: Impact of Higher Growth and ROIC
+## EXHIBIT 3.7 Increasing Value: Impact of Higher Growth and ROIC
 
 Change in value, \%
 
@@ -598,7 +597,7 @@ Until now, we have assumed that all growth earns the same ROIC and therefore gen
 
 Exhibit 3.8 shows the value created from different types of growth for a typical consumer products company. These results are based on cases with which we are familiar, not on a comprehensive analysis. Still, we believe they reflect the broader reality. The results are expressed in terms of value created for \$1.00 of incremental revenue. For example, \$1.00 of additional revenue from a new product creates $1.75 to $2.00 of value. The most important implication of this chart is the rank order. New products typically create more value for shareholders, while acquisitions typically create the least. The key to the difference between these extremes is differences in returns on capital for the different types of growth.
 
-# EXHIBIT 3.8 Value Creation by Type of Growth
+## EXHIBIT 3.8 Value Creation by Type of Growth
 
 Shareholder value created for incremental  \$1.00 of revenue,$
 
@@ -656,7 +655,7 @@ One final factor for management to consider is the method by which it chooses to
 
 The reason for this relationship is best explained by an example. Consider a company with zero growth,  \$1,000 of revenues,\$ 100 of profits, and \$500 of invested capital (translating to a 10 percent margin, a 50 percent ratio of invested capital to revenues, and ROIC of 20 percent). One way to increase ROIC by one percentage point is to increase the profit margin to 10.5 percent, increasing profits by \$5. Since the company is not growing, the \$5 of extra profits translates to \$5 of cash flow each year going forward. Discounting at a 10 percent cost of capital, this represents a \$50 increase in value. The company could also increase ROIC by reducing working capital. If it reduced working capital by \$24, ROIC would increase to 21 percent (\$100 divided by \$476). The company's value would increase only by the 24 one-time cash inflow from reducing working capital. Future cash flows would not be affected.
 
-# ECONOMIC PROFIT COMBINES ROIC AND SIZE
+## ECONOMIC PROFIT COMBINES ROIC AND SIZE
 
 You can also measure a company's value creation using economic profit, a measure that combines ROIC and size into a currency metric (here we use the
 
@@ -690,7 +689,7 @@ Economic profit is also useful for comparing the value creation of different com
 
 Finally, measuring performance in terms of economic profit encourages a company to undertake investments that earn more than their cost of capital, even if their return is lower than the current average return. Suppose Value Inc. had the opportunity to invest an extra  \$200 at a 15 percent return. Its average ROIC would decline from 20 percent to 18.6 percent, but its economic profit would increase from\$ 50 to 60.
 
-# CONSERVATION OF VALUE
+## CONSERVATION OF VALUE
 
 A corollary of the principle that discounted cash flow (DCF) drives value is the conservation of value: anything that doesn't increase cash flows doesn't create value. That means value is conserved, or unchanged, when a company changes the ownership of claims to its cash flows but doesn't change the total available cash flows—for example, when it substitutes debt for equity or issues debt to repurchase shares. Similarly, changing the appearance of the cash flows without actually changing the cash flows—say, by changing accounting techniques—doesn't change the value of a company.[10] While the validity of this principle is obvious, it is worth emphasizing because executives, investors, and pundits so often forget it, as when they hope that one accounting treatment will lead to a higher value than another or that some fancy financial structure will turn a mediocre deal into a winner.
 
@@ -700,7 +699,7 @@ The FASB issued its new rules in 2004,[11] more than a decade after taking up th
 
 In this case, the conservation of value principle explains why executives didn't need to worry about any effects that changes in stock option accounting would have on their share price. The same applies to questions such as whether an acquisition creates value simply because reported earnings increase, whether a company should return cash to shareholders through share repurchases instead of dividends, or whether financial engineering creates value. In every circumstance, executives should focus on increasing cash flows rather than finding gimmicks that merely redistribute value among investors or make reported results look better. Executives should also be wary of proposals that claim to create value unless they're clear about how their actions will materially increase the size of the pie. If you can't pinpoint the tangible source of value creation, you're probably looking at an illusion, and you can be sure that's what the market will think, too.
 
-# Conserving Value: A Brief History
+## Conserving Value: A Brief History
 
 The value conservation principle is described in the seminal textbook *Principles of Corporate Finance*, by Richard Brealey, Stewart Myers, and Franklin Allen.[13] One of the earliest applications of the principle can be found in the pioneering work of Nobel Prize winners Franco Modigliani and Merton Miller, financial economists who in the late 1950s and early 1960s questioned whether managers could use changes in capital structure to increase share prices. In 1958, they showed that the value of a company shouldn't be affected by changing the structure of the debt and equity ownership unless the overall cash flows generated by the company also change.[14]
 
@@ -716,7 +715,7 @@ In most countries, however, borrowing money does change cash flows because inter
 
 In a similar vein, finance academics in the 1960s developed the idea of efficient markets. While the meaning and validity of efficient markets are subjects of continuing debate, especially after the bursting of the dot-com and real estate bubbles, one implication of efficient-market theory remains: the stock market isn't easily fooled when companies undertake actions to increase reported accounting profit without increasing cash flows. One example is the market's reaction to changes in accounting for employee stock options, as described in the previous section of this chapter. And when the FASB eliminated goodwill amortization effective in 2002 and the International Accounting Standards Board (IASB) did the same in 2005, many companies reported increased profits, but their underlying values and stock prices didn't change, because the accounting change didn't affect cash flows. The evidence is overwhelming that the market isn't fooled by actions that don't affect cash flow, as we will show in Chapter 7.
 
-# A Tool for Managers
+## A Tool for Managers
 
 The conservation of value principle is so useful because it tells us what to look for when analyzing whether some action will create value: the cash flow impact and nothing else. This principle applies across a wide range of important business decisions, such as accounting policy, acquisitions (Chapter 31), corporate portfolio decisions (Chapter 28), dividend payout policy (Chapter 33), and capital structure (also Chapter 33).
 
@@ -778,7 +777,7 @@ The transaction may create value if the company wants the ability to stop using 
 
 Sale-leaseback transactions may also create value if the lessor is better able to use the tax benefits associated with owning the asset, such as accelerated depreciation. This does not violate the conservation of value principle, because the total cash flows to the companies involved have increased—at the expense of the government.
 
-# THE MATH OF VALUE CREATION
+## THE MATH OF VALUE CREATION
 
 Earlier in this chapter, we introduced the value driver formula, a simple equation that captures the essence of valuation. For readers interested in the technical math of valuation, this section will show how we derive the formula. Let's begin with some terminology that we will use throughout the book (Part Two defines the terms in detail):
 
@@ -887,13 +886,13 @@ $$
 $$ where ROIC equals the return on the company's current capital and RONIC equals the return on new invested capital.
 
 
-# SUMMARY
+## SUMMARY
 
 This chapter has explored how expected cash flows, discounted at a cost of capital, drive value. Cash flow, in turn, is driven by expected returns on invested capital and revenue growth. Companies create value only when ROIC exceeds their cost of capital. Further, higher-ROIC companies should typically prioritize growth over further improving ROIC, as growth is a more powerful value driver for them. In contrast, lower-ROIC companies should prioritize improving ROIC, as it is a stronger value driver for them.
 
 A corollary of this is the conservation of value: anything that doesn't increase cash flows doesn't create value. So changing the appearance of a company's performance through, say, accounting changes or write-ups or write-downs, without changing cash flows, won't change a company's value. Risk enters into valuation both through the company's cost of capital and in the uncertainty of future cash flows. Because investors can diversify their portfolios, the only risk that affects the cost of capital is the risk that investors cannot diversify, a topic we take up in Chapters 4 and 15.
 
-# Risk and the Cost of Capital
+## Risk and the Cost of Capital
 
 In valuing companies or projects, the subjects of risk and the cost of capital are essential, inseparable, and fraught with misconceptions. These misconceptions can lead to damaging strategic mistakes. For example, when a company borrows money to finance an acquisition and applies only the cost of debt to the target's cash flows, it might easily overestimate by two times the target's value. Conversely, when a company adds an arbitrary risk premium to a target's cost of capital in an emerging market, it could underestimate the value of the target by half.
 
@@ -906,7 +905,7 @@ We'll also discuss how much cash flow risk to take on. Companies should take on 
 
 Our focus in this chapter will be on key principles. Chapter 15 provides detail on how to measure the cost of capital.
 
-# COST OF CAPITAL IS AN OPPORTUNITY COST
+## COST OF CAPITAL IS AN OPPORTUNITY COST
 
 The cost of capital is not a cash cost. It is an opportunity cost. To illustrate, when one company acquires another company, the alternative might have been to return that cash to shareholders, who could then reinvest it in other companies. So the cost of capital for the acquiring company is the price investors charge for bearing risk—what they could have earned by reinvesting the proceeds in other investments with similar risk. Similarly, when valuing individual business units or projects for strategic decision making, the correct cost of capital is what a company's investors could expect to earn in other similarly risky projects, not necessarily the whole company. The core principle is that the cost of capital is driven by investors' opportunity cost, because the executives leading the company are the investors' agents and have a fiduciary responsibility to the company's investors. That's why the cost of capital is also referred to as the investors' required return or expected return. The meaning of these terms may differ in academia, but for the most part you can use cost of capital, required return, and expected return interchangeably.
 
@@ -926,7 +925,7 @@ To illustrate, say Company A is considering buying Company B. Both operate in th
 
 In addition, if you apply the cost of debt to the acquisition, you end up with a perverse situation: Company A's existing businesses are assigned an 8 percent cost of capital, and the acquired business is assigned a 4 percent cost of capital. In addition, the only reason Company A can borrow 100 percent of the cost of the acquisition is that it has unused debt capacity in its existing businesses. And don't forget, the cost of capital is determined by the acquired company's riskiness, not that of the parent company (although their risk profiles are likely to be the same if they are in the same industry).
 
-# COMPANIES HAVE LITTLE CONTROL OVER THEIR COST OF CAPITAL
+## COMPANIES HAVE LITTLE CONTROL OVER THEIR COST OF CAPITAL
 
 It might be surprising to learn that the cost of capital for a company with steady revenues, like Procter & Gamble, isn't that different from a company like LyondellBasell, a chemical company in an industry known for having more variable earnings and cash flows. In 2019, most large companies' WACC fell in the range of 7 to 9 percent. The range is small because investors purposely avoid putting all their eggs in one basket. The ability of investors to diversify their portfolios means that only nondiversifiable risk affects the cost
 
@@ -947,7 +946,7 @@ The unique risks that any company faces—say, product obsolescence and new comp
 
 It is a common misconception that the cost of capital is company-specific, rather than a function of the industries in which a company operates and the specific investments it makes. For the most part, companies have scant influence over the cost of capital of their individual business units or their company as a whole. There are some theoretical examples of how companies could reduce their cost of capital. For example, a company could outsource production to lower fixed costs and therefore reduce the volatility of cash flows. If you can achieve lower volatility than your peers', your cost of capital will be slightly lower. But it's unlikely that the change in the cost of capital will be large enough relative to other strategic considerations of outsourcing manufacturing. Some companies have shortened the duration of their debt to try to reduce their cost of capital. What these companies fail to recognize is that this increases their risk because of the possibility that interest rates will be higher when the shorter-term debt is rolled over or that the company may have difficulty refinancing the debt at all.
 
-# CREATE BETTER FORECASTS, NOT AD HOC RISK PREMIUMS
+## CREATE BETTER FORECASTS, NOT AD HOC RISK PREMIUMS
 
 Certain projects carry what many investors see as high risk. These include large capital projects in politically unstable countries (common among companies in the mining and oil and gas sectors), speculative R&D projects in
 
@@ -996,7 +995,7 @@ Note: This particular example is for a company with an indefinite life, assuming
 
 Source: R. Davis, M. Goedhart, and T. Koller, "Avoiding a Risk Premium That Unnecessarily kills Your Project," McKinsey Quarterly (August 2012).
 
-# DECIDE HOW MANY CASH FLOW RISK TO TAKE ON
+## DECIDE HOW MANY CASH FLOW RISK TO TAKE ON
 
 Now let's turn to cash flow risk. When we talk about total cash flow risk, we mean the uncertainty that a company faces about its future cash flows, whether for the company as a whole, a business unit, or a single project. Finance theory provides guidance on pricing the nondiversifiable part of cash flow risk in the cost of capital. In theory, a company should take on all projects or growth opportunities that have positive expected values even if there is high likelihood of failure, as long as the project is small enough that failure will not put the company in financial distress. In practice, we've found that companies overweight the impact of losses from smaller projects, thereby missing value creation opportunities.
 
@@ -1027,7 +1026,7 @@ One technology company successfully used a portfolio approach to assess its proj
 
 It's worth pointing out that even though a portfolio of projects has lower risk, the use of portfolios does not lower a company's cost of capital. That's because the portfolio, by definition, cannot reduce the nondiversifiable risk, which is the risk embedded in the cost of capital.
 
-# DECIDE WHICH TYPES OF RISK TO HEDGE
+## DECIDE WHICH TYPES OF RISK TO HEDGE
 
 There are also risks that investors are eager for companies to take. For example, investors in gold-mining companies and oil production companies buy those stocks to gain exposure to often-volatile gold or oil prices. If gold and oil companies attempt to hedge their revenues, that effort merely complicates life for their investors, who then must guess how much price risk is being hedged and how and whether management will change its policy in the future. Moreover, hedging may lock in today's prices for two years, the time horizon within which it is possible to hedge those commodities, but a company's present value includes the cash flows from subsequent years at fluctuating market prices. So while hedging may reduce the short-term cash flow volatility, it will have little effect on the company's valuation based on long-term cash flows.
 
@@ -1039,13 +1038,13 @@ The U.S. market is different. When the dollar/euro exchange rate changes, Heinek
 
 Because Heineken's production facilities are in a different country and it is unable to pass on cost increases because it is competing with locally produced products, its currency risk is larger for its U.S. business than for its other markets. Hedging might be much more important for Heineken's U.S. business than for other markets, because a rise or fall in the dollar/euro exchange rate has a much greater impact on its business.
 
-# SUMMARY
+## SUMMARY
 
 To avoid unfavorable strategic decisions, executives must understand well the dynamic relationship between the cost of capital and risk. Risk enters valuation both through the company's cost of capital (an opportunity cost) and through the uncertainty surrounding future cash flows. Because investors can diversify their portfolios, a company's cost of capital is for the most part determined by the industry in which it operates.
 
 Valuations that use multiple cash flow scenarios better reflect diversifiable risks than those that adjust the cost of capital. Executives tend to shy away from risky projects even if the potential return is high. This excessive loss aversion can be overcome by examining portfolios of projects, rather than individual ones.
 
-# The Alchemy of Stock Market Performance
+## The Alchemy of Stock Market Performance
 
 A commonly used measure for evaluating the performance of a company and its management is total shareholder returns (TSR), defined as the percent increase in share price plus the dividend yield over a period of time. In fact, in the United States, the Securities and Exchange Commission requires that companies publish in their annual reports their TSR relative to a set of peers over the last five years. That sounds like a good idea: if managers focus on improving TSR to win performance bonuses, then their interests and the interests of their shareholders should be aligned. The evidence shows that this is indeed true over long periods—at a minimum, 10 to 15 years. But TSR measured over shorter periods may not reflect the actual performance of a company, because TSR is heavily influenced by changes in investors' expectations, not just the company's performance.
 
@@ -1055,7 +1054,7 @@ The widespread use of TSR over short periods as a measure of management performa
 
 This chapter starts by explaining the expectations treadmill. It then shows an approach to analyzing TSR that isolates how much TSR comes from revenue growth and improvements in return on invested capital (ROIC)—the factors that drive long-term value creation—versus changes in expectations and nonoperating items. Managers, boards of directors, and investors can learn much more about company performance from this granular breakdown of TSR.
 
-# WHY SHAREHOLDER EXPECTATIONS BECOME A TREADMILL
+## WHY SHAREHOLDER EXPECTATIONS BECOME A TREADMILL
 
 As we described in Chapter 2, the return on capital that a company earns is not the same as the return earned by every shareholder. Suppose a company can invest  \$1,000 in a factory and earn\$ 200 a year, which it pays out in dividends to its shareholders. The first investors in the company pay \$1,000 in total for their shares, and if they hold the shares, they will earn 20 percent per year (\$200 divided by 1,000).
 
@@ -1079,7 +1078,7 @@ The danger for companies whose shareholders already have high expectations is th
 
 The expectations treadmill is the dynamic behind the adage that a good company and a good investment may not be the same. In the short term, good companies may not be good investments, because future great performance might already be built into the share price. Smart investors may prefer weaker-performing companies, because they have more upside potential, as the expectations expressed in their lower share prices are easier to beat.
 
-# THE TREADMILL'S REAL-WORLD EFFECTS
+## THE TREADMILL'S REAL-WORLD EFFECTS
 
 Tyson Foods and J&J Snack Foods are two U.S. branded-food processors. Tyson is one of the largest in the world, with brands such as Hillshire Farm and Sara Lee. Its revenues in 2017 were  \$40 billion. J&J Snack Foods is smaller, at just over\$ 1 billion of revenues in 2017, with brands such as Icee and Auntie Anne's. Not surprisingly, given its smaller size and more snack-oriented products, J&J grew its revenues faster, at 6 percent per year from 2013 to 2017, while Tyson grew only 3 percent (Exhibit 5.1). J&J also outperformed on ROIC, with after-tax ROIC (before goodwill and intangibles) averaging about 24 percent over the period, compared with Tyson's 19 percent. Yet Tyson's shareholders earned almost twice the TSR: 27 percent versus 14 percent annualized.
 
@@ -1094,7 +1093,7 @@ Another source of the difference in TSR was changes in ROIC, driven primarily by
 
 Which company did a better job? You can make arguments for either one: Tyson succeeded in outperforming its expectations, and J&J Snack Foods succeeded in delivering against high expectations. TSR might have been a fair measure of the performance of Tyson's managers, but it would not have reflected what a great job the J&J team did. For TSR to provide deeper insight into a company's true performance, we need a finer-grained look inside this measure.
 
-# DECOMPOSING TSR
+## DECOMPOSING TSR
 
 We recommend analyzing TSR by decomposing it and quantifying its components in the manner outlined in this section. The effort serves two purposes. First, when managers, boards of directors, and investors understand the sources of TSR, they are better able to evaluate management. For example, it's important to know that J&J's TSR, though lower than Tyson's, reflects strong underlying performance against high expectations. Second, decomposing TSR can help with setting future targets. For example, it may be challenging for Tyson's managers to repeat their high TSR, because that would probably require raising profit margins and earnings multiples much higher.
 
@@ -1241,7 +1240,7 @@ While the impact of increasing expectations (the change in multiple) was similar
 
 Tyson had a further seven-percentage-point advantage in TSR due to higher financial leverage. The impact of leverage on J&J's TSR was actually negative, because it had more cash than debt. In contrast, Tyson's debt added six percentage points to its TSR.
 
-# UNDERSTANDING EXPECTATIONS
+## UNDERSTANDING EXPECTATIONS
 
 As the examples in this chapter have shown, investors' expectations at the beginning and end of the measurement period have a big effect on TSR. A crucial issue for investors and executives to understand, however, is that a company whose TSR has consistently outperformed the market will reach a point where the company will no longer be able to satisfy expectations reflected in its share price. From that point, TSR will be lower than it was in the past, even though the company may still be creating huge amounts of value. Managers need to realize and communicate to their boards and to investors that a small decline in TSR is better for shareholders in the long run at this juncture than a desperate attempt to maintain TSR through ill-advised acquisitions or new ventures.
 
@@ -1253,7 +1252,7 @@ Realistically, there wasn't much Home Depot could have done except prepare for a
 
 Home Depot's situation in 1999 was unusual. Most companies, most of the time, will not have much trouble satisfying the shareholder expectations expressed in their current share price simply by performing as well as the rest of their industry. We have reverse engineered hundreds of companies' share prices over the years using discounted cash flows. With the exception of the Internet bubble era (1999-2000), at least 80 percent of the companies have had performance expectations built into their share prices that are in line with industry growth expectations and returns on capital. TSR for a company among these 80 percent is unlikely to be much different from the industry average unless the company performs significantly better or worse than expected, relative to its industry peers. The other 20 percent, however, should brace themselves for a significantly faster or slower ride on the treadmill. Managers who reverse engineer their share prices to understand expectations of their ROIC and growth can benefit from seeing on which side of this 80/20 divide they fall.
 
-# IMPLICATIONS FOR MANAGERS
+## IMPLICATIONS FOR MANAGERS
 
 The expectations treadmill makes it difficult to use TSR as a performance measurement tool. As we saw in the example of Tyson and J&J Snack Foods, the sizable differences in TSR for the two companies from 2013 to 2017 masked the big difference in expectations at the beginning of the measurement period. In Home Depot's case, living up to the expectations was virtually impossible, as no company can run that fast for very long.
 
@@ -1268,7 +1267,7 @@ Executives also need to give up incessantly monitoring their stock prices. It's 
 
 Finally, be careful what you wish for. All executives and investors like to see their company's share price increase. But once your share price rises, it's hard to keep it rising faster than the market average. The expectations treadmill is virtually impossible to escape, and we don't know any easy way to manage expectations down.
 
-# Valuation of ESG and Digital Initiatives
+## Valuation of ESG and Digital Initiatives
 
 As we write this book at the beginning of 2020, two items on any executive's agenda are noteworthy for their emerging importance in creating value and their slipperiness when it comes to valuing them. One is managing the intertwined elements of environmental, social, and governance (ESG) concerns. The other is grappling with the myriad manifestations of technological improvement or transformation commonly referred to as "digital."
 
@@ -1276,7 +1275,7 @@ The principles of corporate valuation do not include simple prescriptions for as
 
 This chapter offers instead a way to think about how to value strategies and decisions related to ESG and digital initiatives. Our view is that companies should focus on the few areas that make a difference in their industry—for example, water consumption for beverage makers, supply chain management for apparel companies, or carbon emissions for many industries. It's also important, particularly at times of rapid technological change, to fix a gimlet eye on the risks of embracing—or ignoring—trends big and small. In each case, we recommend trying out the basic principles of valuation to establish a foundation for measuring outcomes, combined with gathering data to improve their application in the future.
 
-# A COMMON FRAMEWORK
+## A COMMON FRAMEWORK
 
 Before we dive into the details of ESG and digital valuation, it's worth pointing out that valuing these strategies or projects follows the same principles that apply to all investment decisions: use discounted cash flows, and compare scenario cash flows with a base case. Often, what is most critical for this analysis is the definition of the base case.
 
@@ -1284,7 +1283,7 @@ Sometimes executives argue that hard-to-quantify investments are necessary becau
 
 Companies are often reluctant to create business-as-usual projections that show declines in profits and cash flows. Yet such declines are what will most often happen when companies avoid change. Companies must become comfortable with declining-base cases; if they don't, they will have difficulty quantifying the value of many investments in ESG and digital. Quantifying the value is essential to making smart choices. It allows you to compare these initiatives against other investments that may be competing for scarce resources. And as in the example of the mobile-banking app, it may cause you to think about how much to invest in particular initiatives. It's not good enough to look at advancing technology or increasing demand for sustainability and act blindly, based on an uninformed sense of obligation to keep up with outside forces.
 
-# ENVIRONMENTAL, SOCIAL, AND GOVERNANCE (ESG) CONCERNS
+## ENVIRONMENTAL, SOCIAL, AND GOVERNANCE (ESG) CONCERNS
 
 Every business is deeply intertwined with environmental, social, and governance (ESG) concerns:
 - Environmental criteria include the energy a company takes in and the waste it discharges, the resources it needs, and the consequences for living beings as a result. Some of the most significant measures are carbon emissions and climate change.
@@ -1307,7 +1306,7 @@ In a 2019 McKinsey survey of 558 executives from around the globe and in differe
 
 These favorable opinions do not mean that a company should undertake every ESG idea that comes along. Consistent with valuation principles, our point is that companies should take ESG considerations into account when they make important decisions and that companies should actively look for opportunities to invest in projects that have ESG benefits. Those who look actively may find more positive present value opportunities than they had expected. Where can they look for a strong ESG proposition that makes financial sense? ESG may link to cash flow in five important ways: (1) facilitating revenue growth, (2) reducing costs, (3) minimizing regulatory and legal interventions, (4) increasing employee productivity, and (5) optimizing investment and capital expenditures.
 
-# Revenue Growth
+## Revenue Growth
 
 A strong ESG proposition helps companies tap new markets and expand in existing ones. When governing authorities trust corporate actors, they are more likely to award them the access, approvals, and licenses that afford fresh
 
@@ -1320,20 +1319,20 @@ ESG can also drive consumer preference. McKinsey research has shown that custome
 
 The payoffs are real. When Unilever developed Sunlight, a brand of dishwashing liquid that uses much less water than its other brands, sales of Sunlight and Unilever's other water-saving products proceeded to outpace category growth by more than 20 percent in a number of water-scarce markets. Procter & Gamble, too, is taking aim at developing an estimated  \$20 billion product line of detergents that are effective in cold water.$  And Finland's Neste, founded as a traditional petroleum-refining company more than 70 years ago, now generates more than two-thirds of its profits from renewable fuels and sustainability-related products.
 
-# Cost Reductions
+## Cost Reductions
 
 ESG can also reduce costs substantially. Among other advantages, executing ESG effectively can help combat rising operating expenses (such as raw materials costs and the true cost of water or carbon), which McKinsey research found can boost operating profits by as much as 60 percent. The researchers created a metric—the amount of energy use, water use, and waste created in relation to revenue—to analyze the relative resource efficiency of companies within various sectors. They found a significant correlation between resource efficiency and financial performance. The study also identified companies across sectors that did particularly well in terms of resource efficiency and financial performance—precisely the companies that had taken their sustainability strategies the furthest.
 
 
 As with each of the five links to ESG value creation, the first step to realizing value begins with recognizing the opportunity. Consider 3M, which has long understood that being proactive about environmental risk can be a source of competitive advantage. The company has a program called "pollution prevention pays," which aims to prevent rather than clean up pollution; efforts have included reformulating products, improving manufacturing processes, redesigning equipment, and recycling and reusing waste from production. Since introducing the program in 1975, 3M has saved \$2.2 billion. Another enterprise, a major water utility, achieved cost savings of almost \$180 million per year through lean initiatives aimed at improving preventive maintenance, refining spare-parts inventory management, and tackling energy consumption and recovery from sludge. FedEx, for its part, aims to convert its entire 35,000-vehicle fleet to electric or hybrid engines. To date, 20 percent have been converted, which has already reduced fuel consumption by more than 50 million gallons.[9]
 
-# Reduced Regulatory and Legal Interventions
+## Reduced Regulatory and Legal Interventions
 
 A stronger external-value proposition can enable companies to achieve greater strategic freedom, easing regulatory pressure. In case after case, across sectors and geographies, we've seen that strength in ESG helps reduce companies' risk of adverse government action. It can also engender government support.
 
 The value at stake may be higher than you think. Typically one-third of corporate profits are at risk from state intervention.[10] Regulation's impact, of course, varies by industry. For pharmaceuticals and health care, the profits at stake are about 25 to 30 percent. In banking, where provisions on capital requirements, "too big to fail" regulations, and consumer protection are so critical, the value at stake is typically 50 to 60 percent. For the automotive, aerospace and defense, and tech sectors, where government subsidies (among other forms of intervention) are prevalent, the value at stake can reach 60 percent as well.
 
-# Employee Productivity Uplift
+## Employee Productivity Uplift
 
 A strong ESG proposition can help companies attract and retain quality employees, enhance employee motivation by instilling a sense of purpose, and increase productivity overall. Employee satisfaction is positively correlated with shareholder returns.[11] For example, the London Business School's Alex Edmans found that the companies that made Fortune's list of the 100 Best Companies to Work For in America generated 2.3 to 3.8 percent higher stock returns per year than their peers, measured over a period of more than 25 years.[12] Moreover, it has long been observed that employees who report feeling not just satisfied but also connected perform better. The stronger an employee's perception of impact on the beneficiaries of their work, the greater the employee's motivation to act in a "prosocial" way.[13]
 
@@ -1349,7 +1348,7 @@ $^{12}$  A. Edmans, "The Link between Job Satisfaction and Firm Value, with Impl
 
 Farsighted companies pay heed. Consider General Mills, which works to ensure that its ESG principles apply "from farm to fork to landfill." Walmart, for its part, tracks the work conditions of its suppliers, including those with extensive factory floors in China, according to a proprietary company scorecard. And Mars seeks opportunities where it can deliver what it calls "win-win-wins" for the company, its suppliers, and the environment. Mars has developed model farms that not only introduce new technological initiatives to farmers in its supply chains, but also increase farmers' access to capital so they are able to obtain a financial stake in those initiatives.[16]
 
-# Investment and Asset Optimization
+## Investment and Asset Optimization
 
 A strong ESG proposition can enhance investment returns by allocating capital to more promising and more sustainable opportunities (for example, renewables, waste reduction, and scrubbers). It can also help companies avoid stranded investments that may not pay off because of longer-term environmental issues (such as massive write-downs in the value of oil tankers). Remember, taking proper account of investment returns requires that you start from the proper baseline. When it comes to ESG, it's important to bear in mind that a do-nothing approach is usually an eroding line, not a straight one. Continuing to rely on energy-hungry plants and equipment, for example, can drain cash going forward. While the investments required to update operations may be substantial, choosing to wait it out can be the most expensive option of all.
 
@@ -1357,13 +1356,13 @@ The rules of the game are shifting: regulatory responses to emissions will likel
 
 Foresight flows to the bottom line, and riding sustainability's tailwinds presents new opportunities to enhance investment returns. "Consider China, for example. The country's imperative to combat air pollution is forecast to create more than 3 trillion in investment opportunities through 2030, ranging across industries from air-quality monitoring to indoor air purification and even cement mixing.
 
-# DIGITAL INITIATIVES
+## DIGITAL INITIATIVES
 
 The definition of digital is fuzzy. Some view it as simply the upgraded term for what their IT function does. Others focus on digital marketing and sales, providing digital services to customers, or connecting devices. The applications of digital technology in organizations involve all of these and probably ideas that haven't been thought of yet. Several of our colleagues examined a typical consumer packaged-goods company to see how many ways digitization and digital applications could be used to improve performance. They identified at least 33 possibilities, including digital marketing, optimizing trade spending, improving sales force coverage, predictive maintenance, supply chain planning, and robotic process automation in the back office.
 
 Given the wide scope of potential digital initiatives, it is no surprise that most companies are launching them. In a 2018 survey of 1,733 managers, about eight in ten said their organizations had begun a digital transformation. However, just 14 percent said their efforts had made and sustained performance improvements. What's more, only 3 percent reported complete success at sustaining their change.[17] Evidently, digital is an area where management discipline is much needed.
 
-# Measuring the Value of Digitization
+## Measuring the Value of Digitization
 
 It's not surprising that companies struggle with how to evaluate the myriad "digital" initiatives being proposed. Yet the fundamental principle still applies: evaluate digital projects based on the cash flow they are expected to generate. While it sounds simple, getting it right requires some thoughtful strategic analysis.
 
@@ -1375,7 +1374,7 @@ Here's where the importance of the base case comes in. If the bank doesn't build
 
 Ideally, the bank would estimate the timing of market-share loss to decide on the best time to build the app. Perhaps delaying a year or two might maximize value if the bank's customer base isn't clamoring for it yet. The bank should also consider alternative features for the app and ways to build it. Should it start with something simple and low cost to roll out and then improve it over time? Or should it spend more up front on a more feature-laden product? As you can see, there are many different cash flow scenarios to analyze when making this decision.
 
-# Paths to Improved Performance
+## Paths to Improved Performance
 
 Digital initiatives can improve a company's performance in numerous ways. To analyze the potential impact of digital, it helps to frame the discussion as two opportunities or threats. The first—and the highest-profile manifestation of digital in the business press—is an application of digital tools that fundamentally disrupts an industry, requiring a major revamp of a company's business model.
 
@@ -1427,11 +1426,11 @@ Consider two examples. A maker of high-tech hardware implemented a partially aut
 
 Advanced analytics to improve decision making can generate additional revenues, reduce costs, or both. In the planogram example, the improvement can increase total customer spending by getting customers to upgrade to more profitable products. In this case, because the change involves only choices within the company's product mix, the improvement can create value without necessarily inviting a competitive response. In other cases, the benefits may be diluted because competitors take similar actions, but the investment in analytics still may create value by maintaining competitive parity.
 
-# CLOSING THOUGHTS
+## CLOSING THOUGHTS
 
 As executives and investors alike grapple with understanding the impact on business value of emerging environmental, social, and governance issues, as well as the competitive implications of digital technologies in all their forms, it bears remembering that these topics and the management responses to them will likely be fluid for some time to come. Still, as new as these topics may seem, existing valuation principles can help with framing initial responses and surfacing techniques for dealing with such challenges as they evolve. Companies will also do well if they concentrate on the specific areas that will have the greatest impact on the factors that create value.
 
-# The Stock Market Is Smarter Than You Think
+## The Stock Market Is Smarter Than You Think
 
 The stock market's volatility and the sometimes-erratic pricing of companies' shares have always raised questions about the link between stock prices and economic fundamentals. Some experts have at times even posited that stock markets seem to lead lives of their own. In 2017 the level of market valuations led Nobel laureate Richard Thaler to comment, "We seem to be living in the riskiest moment of our lives, and yet the stock market seems to be napping. . . . I admit to not understanding it."1 Several years earlier, another Nobel Prize-winning economist, Robert Shiller, wrote, "Fundamentally, stock markets are driven by popular narratives, which don't need basis in solid facts."2 American investor Bill Gross claimed in 2012 that the last 100 years of U.S. stock returns "belied a commonsensical flaw much like that of a chain letter or yes—a Ponzi scheme."3
 
@@ -1440,7 +1439,7 @@ Does it make sense to view the stock market as an arena where emotions rule supr
 In this chapter, we'll explain how a market with different types of investors can lead to rational prices most of the time, even if some of the investors don't make decisions based on economic fundamentals. Then we'll show the empirical evidence that growth and return on invested capital (ROIC) are, in fact, the key drivers of value. Finally, we'll explode the myths behind some commonly accepted beliefs that are at odds with the fundamental principles of valuation.
 
 
-# MARKETS AND FUNDAMENTALS: A MODEL
+## MARKETS AND FUNDAMENTALS: A MODEL
 
 We use a straightforward model to illustrate how market trading by both fundamental, or informed, investors and nonfundamental investors (what we call "noise traders") will produce prices that are generally in line with intrinsic value but can still be volatile. These prices may even deviate significantly from intrinsic value under certain, albeit rare, conditions.
 
@@ -1462,7 +1461,7 @@ In this model, prices will move within the bandwidth if there is enough informed
 
 restrictions. As a result, the price rally might continue. But noise traders cannot push share prices above their intrinsic levels for prolonged periods; at some point, fundamentals prevail in setting prices in the stock market. In extreme cases, such as the technology bubble of the 1990s, this could take a few years, but the stock market always corrects itself to align with the underlying fundamental economics.
 
-# MARKETS AND FUNDAMENTALS: THE EVIDENCE
+## MARKETS AND FUNDAMENTALS: THE EVIDENCE
 
 In general, the empirical evidence supports the idea that growth and ROIC are the key drivers of value. That means the evidence tends not to support beliefs that value is shaped as much by other measures. Even some of the most conventional beliefs about the stock market are not supported by the facts. For example, most growth and value indexes, like those of Standard & Poor's, categorize companies as either "value" or "growth" based on a combination of factors, including market-to-book ratios and price-to-earnings ratios (P/Es). Typically, companies with high market-to-book ratios and high P/Es end up in the growth category, while the others fall in the value category. However, growth is only one factor driving differences in market-to-book ratios and P/Es. ROIC also is important. In fact, we have found no difference in the distribution of growth rates between so-called value and growth stocks (see Exhibit 7.2). We did, however, find that so-called growth stocks tend to have high ROIC, and value stocks have lower ROIC. The median return on capital for so-called value companies was 15 percent, compared with 35 percent for the growth companies. So the companies classified as growth did not grow faster on average, but they did have higher returns on capital. That's
 
@@ -1476,7 +1475,7 @@ EXHIBIT 7.3 Stock Performance against Bonds in the Long Run, 1801-2018 why a mod
 Source: J. J. Siegel, Stocks for the Long Run: The Definitive Guide to Financial Market Returns and Long-Term Investment Strategies (New York: McGraw-Hill, 2014); R. G. Ibbotson, 2019 SBBI Yearbook (Duff & Phelps).
 
 
-# Decades of Consistent Returns
+## Decades of Consistent Returns
 
 Similarly, market bubbles and crises have always captured public attention, fueling the belief that the stock market moves in chaotic ways, detached from economic fundamentals. The 2008 financial crisis, the technology bubble of the 1990s, the Black Monday crash of October 1987, the leveraged-buyout (LBO) craze of the 1980s, and, of course, the Wall Street crash of 1929 appear to confirm such ideas. But the facts tell a different story. Despite these occurrences, U.S. equities over the past 200 years have delivered decade after decade of consistent returns to shareholders of about 6.75 percent annually, adjusted for inflation. Over the long term, the stock market has been far from chaotic (Exhibit 7.3).
 
@@ -1490,7 +1489,7 @@ EXHIBIT 7.4 Economic Fundamentals Explain Long-Term Total Shareholder Returns
 
 40 to 50 percent of profits every year to achieve this profit growth, leaving the remainder to be paid to shareholders as dividends and share repurchases. The resulting 50 to 60 percent payout ratio is not a coincidence: it follows from a typical 12 to 14 percent return on equity for U.S. companies, combined with 3 to 3.5 percent growth in real terms, or 5 to 6 percent including inflation. It translates to a cash yield to shareholders (that is, the inverse of the P/E times the payout ratio) of around 3.5 percent at the long-term average P/E of 15 to 17. Adding the cash yield to the annual 3 to 3.5 percent share price appreciation results in total real shareholder returns of about 6.5 to 7 percent per year.
 
-# P/E Fundamentals
+## P/E Fundamentals
 
 Some analysts miss an important element of stock returns: the gains are driven by both share price appreciation and cash yields. In the view of these analysts, share prices cannot increase faster than corporate profits. But this perspective erroneously misses the cash distributions entirely. Other experts have been too pessimistic about the share price appreciation component when they've predicted convergence of the P/E toward long-term average levels. Their estimates for the long-term average level are too low because they incorporate the 1970s and 1980s, when P/Es were severely depressed because of exceptionally high inflation levels.[8]
 
@@ -1513,7 +1512,7 @@ Market value is enterprise value, capital is invested capital excluding goodwill
 3 Analyst consensus forecast of annual revenue growth from 2018 to 2020.
 Source: Corporate Performance Analytics by McKinsey.
 
-# Higher Returns, Higher Value
+## Higher Returns, Higher Value
 
 What holds for the stock market as a whole also holds across industries. For the largest listed companies in the world grouped by industry in 2018, $^{11}$  we took their average ROIC for the previous three years as a proxy for expected future returns and used the analysts' consensus estimate of their three-year growth outlook as the proxy for long-term expected growth (see Exhibit 7.6). Industries with higher ratios of market value to capital or market value to earnings also have higher growth and/or higher ROIC driven by better sales margins and capital turnover. Life science and technology companies had the highest valuation levels, thanks to having the highest ROIC combined with superior growth. Other companies, like those in the hotels and restaurants or luxury-goods sectors, receive high valuations from strong growth at average
 
@@ -1534,7 +1533,7 @@ The same principles apply to individual companies. We compared the ratios of mar
 
 For example, consider the fact that valuation multiples in the United States tend to be higher than in most other countries. That fact has even made some European companies consider relisting their stocks in the U.S. stock market in the hope of obtaining a higher valuation. As we discuss later in this chapter, however, such hope is false. U.S. investors do not pay more than European investors for the same stock. The difference in valuation multiples can be explained by underlying fundamentals. First, there is a marked difference in sector composition between the U.S and European economies. The technology and life science sectors, which have high valuation multiples, carry far more weight in the U.S. economy. Second, we find that U.S. companies typically generate higher returns on capital than European companies in the same sector.
 
-# EXHIBIT 7.8 U.S. and European Equity Markets in High-Tech and Credit Bubbles
+## EXHIBIT 7.8 U.S. and European Equity Markets in High-Tech and Credit Bubbles
 
 U.S. and European total return index (January 1991 = 100)
 
@@ -1543,7 +1542,7 @@ Source: S&P Capital IQ.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/75ea39cc-041a-437e-9d57-dabed85d38b7/4dc46d059ddbf886169feaf0725370ea30154ebef76340421a68dd99d5fd30ec.jpg)
 
-# Deviations from Fundamentals
+## Deviations from Fundamentals
 
 Nevertheless, there have been periods when deviations from economic fundamentals were so significant and widespread that they affected the stock market as a whole. Two examples are the technology bubble that burst in 2000 and the credit bubble that collapsed in 2007 (see Exhibit 7.8).
 
@@ -1564,7 +1563,7 @@ After 2009, U.S. stock markets quickly regained momentum and reached new record 
 
 Paradoxically, the fact that market deviations do occur from time to time makes it even more important for corporate managers and investors to understand the true, intrinsic value of their companies; otherwise, they will be unsure how to exploit any market deviations, if and when they occur. For instance, they might use shares to pay for acquisitions when those shares are overvalued by the market, or they might divest particular businesses at times when trading and transaction multiples in those sectors are higher than underlying fundamentals can justify.
 
-# MYTHS ABOUT EARNINGS
+## MYTHS ABOUT EARNINGS
 
 So far, we've made the positive case for managers to focus their energy on growth at an attractive ROIC. Yet some companies go to great lengths to achieve a certain earnings per share (EPS) number or to smooth out their earnings. This is wasted energy. The evidence shows that these efforts aren't worth it, and they may actually hurt the company.
 
@@ -1584,13 +1583,13 @@ Based on a sample set of more than 250 nonfinancial S&P 500 companies.
 
 Source: Corporate Performance Analytics by McKinsey.
 
-# EPS Growth from Share Repurchases
+## EPS Growth from Share Repurchases
 
 Even though EPS is not a reliable indicator of value creation, many companies still use it as a key measure of financial performance and an important input for executive compensation. Not surprisingly, we find that executives pursue share repurchase programs mainly because they believe the resulting EPS growth creates value for shareholders. But savvy markets see through such moves with a gimlet eye. One company managed to create strong growth in EPS while its net income was falling, simply by retiring its shares even faster.[14] When investors understood that business results were declining, the company's share price dropped by 40 percent relative to the overall market change.
 
 The empirical evidence is clear. At face value, there appears to be a correlation between shareholder value creation and the intensity of a company's share repurchase program. But that is simply because companies with higher returns on capital and growth also tend to pay out more cash to shareholders. After we control for differences in growth and return on capital, no relationship is left between share repurchases and shareholder value creation (see Exhibit 7.10).
 
-# Earnings from Mergers and Acquisitions
+## Earnings from Mergers and Acquisitions
 
 There is yet another way for companies to increase their earnings: buying another company. Say a company has \$1 billion of excess cash. It uses the cash to buy another company earning \$50 million per year at a P/E multiple of 20 times. Its earnings will increase by \$50 million, less the forgone interest it was earning on the excess cash; assuming that equals \$5 million (at a 0.5 percent after-tax return on cash), the net increase is \$45 million. Though the company's earnings have increased, we can't tell whether it has created value. At a 20 P/E purchase price, it will be earning only 5 percent on its invested capital. If it has a 10 percent cost of capital, it will need to double the earnings of the acquired company to earn its cost of capital on the \$1 billion it just invested.
 
@@ -1598,7 +1597,7 @@ Investors see through the accounting earnings. Chapter 31 shows that whether an 
 
 Investors also see through the illusion of "multiple expansion," as we discussed in Chapter 3. There is no empirical evidence or economic logic that the stock market will value an acquired business at the earnings multiple of the acquiring business. The earnings multiple of two combined businesses will simply equal the weighted average of the individual earnings multiples. Any value increase must come from additional cash flows over and above those of the individual businesses.
 
-# Write-Downs
+## Write-Downs
 
 Executives are often reluctant to take the earnings hit from writing down the value of assets, assuming that investors will react negatively. But investors don't respond mechanically to write-downs. Rather, they assess what information the write-down conveys about the future performance of the company.
 
@@ -1611,7 +1610,7 @@ Source: SEC filings, Datastream, Bloomberg.
 
 Stock markets clearly look at the underlying cash flows and business fundamentals rather than reported earnings and goodwill impairments. In the 2010 to 2012 sample of European write-offs, in fact, only one analyst report issued after one announcement even commented on the size of the impairment. Analysts did, however, comment strongly on indications of how the company would move forward. Changes in signals or explicit guidance about future operating earnings, the outlook for the market and business units, and any management actions or plans to address changing conditions are important.
 
-# Employee Stock Options
+## Employee Stock Options
 
 In the early 2000s, proposed new accounting rules requiring employee stock options to be expensed in the income statement caused much concern. Some executives and venture capitalists claimed that expensing stock options would reduce the earnings of small high-growth companies so much that they would not be able to take the companies public.
 
@@ -1620,7 +1619,7 @@ Of course, there was no need for concern, because stock prices are driven by cas
 
 We came to a similar conclusion after examining 120 U.S. companies that began expensing their stock options between July 2002 and May 2004. Furthermore, we found no relationship between the size of the earnings decrease due to option expensing and any abnormal returns during the days surrounding the new policy's announcement. The market already had the relevant information on the option plans and was not confused by a change in reporting policy.
 
-# Different Accounting Standards
+## Different Accounting Standards
 
 Share price data for companies that report different accounting results in different stock markets provide additional evidence that stock markets do not take reported earnings at face value. Prior to 2008, non-U.S. companies that had securities listed in the United States and did not report under U.S. Generally Accepted Accounting Principles (GAAP) or International Financial Reporting Standards (IFRS), for example, were required to report equity and net profit under U.S. GAAP.[20] These could have provided results that differed significantly from the equity and net profit reported under their domestic accounting standards. We analyzed a sample of 50 European companies that began reporting reconciliations of equity and profit to U.S. GAAP after obtaining U.S. listings between 1997 and 2004. The differences between net income and equity under U.S. and local accounting standards were often quite large; in more than half the cases, the gap exceeded 30 percent.
 
@@ -1630,11 +1629,11 @@ EXHIBIT 7.12 No Clear Impact of U.S. GAAP Reconciliation
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/75ea39cc-041a-437e-9d57-dabed85d38b7/0fa69615c33311601b7aeb6016841923d190554549b2806fb408011b60b8ac78.jpg)
 Source: SEC filings, Datastream, Bloomberg.
 
-# MYTHS ABOUT EARNINGS MANAGEMENT
+## MYTHS ABOUT EARNINGS MANAGEMENT
 
 On July 17, 2019, Internet entertainment service company Netflix reported second-quarter earnings of  \$0.56 per share, just four cents short of the\$ 0.60 analyst consensus expectations. In addition, it had generated \$4.92 billion in revenues, 25 percent higher than for the same quarter the year before, but missed analyst revenue targets by \$10 million. On the same day, its share price dropped by more than 10 percent. The trigger for the price decline was not the company's missing its earnings or revenue targets. Rather, investors were concerned about the company's long-term outlook because of a decline in U.S. subscribers when an increase was expected, as well as significantly lower growth in international subscribers. Still, events such as this have led many managers to believe that stock markets are increasingly sensitive to short-term earnings that undershoot analysts' expectations or to volatility in earnings generally. As we'll show, events like these are not driven by the earnings announcement itself, but by other information that accompanies the earnings, such as the underlying subscriber base growth in the case of Netflix. Furthermore, investors are not much concerned by earnings volatility and offer no rewards for predictable earnings or earnings guidance.
 
-# Earnings Volatility
+## Earnings Volatility
 
 Some managers believe investors will pay a premium for steady earnings growth. Indeed, executives regularly cite stabilizing earnings growth as a reason for strategic actions. For example, the CEO of Conoco once justified a
 
@@ -1658,13 +1657,13 @@ Part of the explanation for the results is that smooth earnings growth is a myth
 
 more years. Most companies with relatively stable earnings growth follow a pattern similar to the four companies other than Home Depot in Exhibit 7.13: several years of steady growth interrupted by a sudden decline in earnings.
 
-# Meeting Consensus Earnings Estimates
+## Meeting Consensus Earnings Estimates
 
 When a high-profile company misses an earnings target, it certainly makes headlines, but the impact of short-term earnings on share prices should not be overstated. For example, empirical research has shown that earnings surprises explain less than 2 percent of share price volatility in the four weeks surrounding the announcements.[26] Investors place far more importance on a company's economic fundamentals than on reported earnings. Sometimes, however, short-term earnings are the only data investors have on which to base their judgment of fundamental corporate performance. In these cases, investors may interpret a missed EPS target as an omen of a decline in long-term performance and management credibility, so they lower the company's share price accordingly. As we describe in more detail in Chapter 34, the announcement of lower-than-expected earnings only drives share prices down in case of downward revisions of long-term fundamental prospects.
 
 Similarly, share prices do not rise if the market believes a positive earnings surprise is simply the result of some imaginative accounting, such as deliberate timing of book gains from asset divestments or acceleration of sales from deep discounts to customers. For such accruals-dependent earnings increases, subsequent shareholder returns are poor, relative to peers.[27] And investors are wise to be wary when accruals contribute substantially to earnings, because this typically indicates that a company has reached a turning point and will post lower earnings in the future.
 
-# Earnings Guidance
+## Earnings Guidance
 
 Many companies believe that providing guidance on their expected earnings for the upcoming quarter or year can lead to higher valuations, lower share price volatility, and greater market liquidity for their shares at what they perceive to be limited costs. Unfortunately, there is no evidence that guidance delivers any of these benefits. As we discuss in Chapter 34, we find that whether companies issue guidance does not affect their earnings multiples, returns to shareholders, or share price volatility. The impact of guidance on a stock's liquidity, if any, typically disappears in the following year, making it practically irrelevant from a shareholder's perspective.[28]
 
@@ -1674,7 +1673,7 @@ Many companies believe that providing guidance on their expected earnings for th
 
 However, earnings guidance could lead to significant but hidden costs. Companies at risk of missing their own forecasts could be tempted to artificially improve their short-term earnings. As described previously, that is not likely to convince the market and could come at the expense of long-term value creation. When providing guidance at all, companies are therefore better off if they present ranges rather than point estimates and if they present these for underlying operational performance (for example, targets for volume and revenue, operating margins, and initiatives to reduce costs) rather than for earnings per share.
 
-# MYTHS ABOUT DIVERSIFICATION
+## MYTHS ABOUT DIVERSIFICATION
 
 Diversification is intrinsically neither good nor bad; it all depends on whether the parent company is the best owner of the businesses in its portfolio. Some executives believe that diversification brings benefits, such as more stable aggregate cash flows, tax benefits from higher debt capacity, and better timing of investments across business cycles. However, as we discuss in Chapter 28, there is no evidence of such advantages in developed economies. Yet the evidence does point to costs of diversification: the business units of diversified companies often underperform their focused peers because of added complexity and bureaucracy.
 
@@ -1685,7 +1684,7 @@ Typically, this misunderstanding is based on a misleading sum-of-the-parts calcu
 Positive share price reactions to divestment announcements therefore do not represent any correction of undervaluation or oversight by investors. The reactions simply reflect investor expectations that performance will improve at both the parent company and the divested business once each has the freedom to change its strategies, people, and organization. As a large body of empirical evidence shows, investors are right in anticipating performance step-ups.[29] For example, we found that for 85 major spin-offs since 1992, both the divested businesses and the parent companies delivered significant improvements in operating profit margins over five years following the transaction (see Chapter 32).
 
 
-# MYTHS ABOUT COMPANY SIZE
+## MYTHS ABOUT COMPANY SIZE
 
 Many executives are tempted by the illusion that the absolute size or scale of a company brings benefits in the form of either higher share prices in the stock market or higher ROIC and growth in the businesses. Academics and practitioners have claimed that larger companies are in higher demand by investors because they get more coverage from equity analysts and media. Or they say the cost of capital is lower because large companies are less risky and their stocks more liquid. Higher demand and lower cost of capital should lead to higher valuation in the market.
 
@@ -1700,11 +1699,11 @@ See R. McNish and M. Palys, “Does Scale Matter to Capital Markets?” McKinsey
 
 Growth often means adding more business units and expanding geographically, which lengthen the chain of command and involve more people in every decision. Smaller, nimbler companies can well end up with lower costs. Whether size helps or hurts, whether it creates scale economies or diseconomies, depends on the unique circumstances of each company.
 
-# MYTHS ABOUT MARKET MECHANICS
+## MYTHS ABOUT MARKET MECHANICS
 
 Conventional wisdom has long held that companies can capture benefits for their shareholders without any improvements to underlying cash flows by having their stock included in a key market index, listing it in multiple markets, or splitting their stocks. True, a company from an emerging market in Asia securing a U.S. listing or a little-known European company joining a leading global stock index might secure some appreciable uplift. But well-functioning capital markets are entirely focused on the fundamentals of cash flow and revenue growth.
 
-# Index Membership
+## Index Membership
 
 Becoming a member of a leading stock market index such as the S&P 500 or FTSE 100 appeals to managers because many large institutional investors track these indexes. Managers believe that when institutional investors rebalance their portfolios to reflect the change of index membership, demand will shift dramatically, boosting the share price. Anecdotal evidence appears to confirm this view. In 2001, Nortel, Shell, Unilever, and four other companies based outside the United States were removed from the S&P 500 index and replaced with the same number of U.S. corporations. The departing companies lost, on average, nearly 7.5 percent of their value in the three days after the announcement. The stock prices of the new entrants—including eBay, Goldman Sachs, and UPS—increased by more than 3 percent in the same period.
 
@@ -1714,7 +1713,7 @@ But empirical evidence shows that such changes are typically short-lived. On ave
 EXHIBIT 7.14 Effects of Inclusion Disappear after 45 Days on share price of 103 inclusions and 41 exclusions from the S&P 500 between December 1999 and March 2004.[33] As Exhibit 7.14 shows, new entrants to the index experienced only a short-lived increase in share price: statistically significant positive returns disappeared after only 20 days, and all effects largely disappeared after 45 days. As investors adjust their portfolios to changes in the index, share prices of new entrants initially increase but then revert to normal once portfolios are rebalanced. For 41 companies ejected from the S&P 500 over the same period, we found similar patterns of temporary price change. The pressure on their prices following exclusion from the index lifted after two to three weeks.
 
 
-# Cross-Listing
+## Cross-Listing
 
 For years, many academics, executives, and analysts believed companies cross-listing their shares on exchanges in the United States, London, and Tokyo could realize a higher share price and a lower cost of capital.[34] Cross-listed shares would benefit from more analyst coverage, a broader shareholder base, improved liquidity, higher governance standards, and better access to capital.
 
@@ -1734,7 +1733,7 @@ See, for example, M. Lang, K. Lins, and D. Miller, "ADRs, Analysts, and Accuracy
 38 For example, CalPERS, a large U.S. investor, has an international equity portfolio of around 2,400 companies, but less than 10 percent of them have a U.S. cross-listing.
 39 Based on 420 depositary receipt issues on the New York Stock Exchange, NASDAQ, and American Stock Exchange from January 1970 to May 2008. Data from the Bank of New York Mellon Corporation, www.adrbnymellon.com.
 
-# EXHIBIT 7.16 U.S. Cross-Listing: No Impact on Valuation of Developed-Market Companies
+## EXHIBIT 7.16 U.S. Cross-Listing: No Impact on Valuation of Developed-Market Companies
 
 U.S.-listed and non-U.S.-listed companies in Western Europe, Japan, Canada, Australia, and New Zealand
 
@@ -1754,7 +1753,7 @@ Source: New York Stock Exchange, NASDAQ, Bloomberg, Datastream, Corporate Perfor
 
 For companies from the emerging world, however, the story might be different. These companies might benefit from access to new equity and more stringent corporate governance requirements through cross-listings in U.S. or UK equity markets.[40]
 
-# Stock Splits
+## Stock Splits
 
 Although their numbers have come down significantly over the past decade, each year some listed companies in the United States increase their number of shares through a stock split to bring a company's share price back into the "optimal trading range."41 But fundamentally, stock splits can't create value, because the size of the pie available to shareholders does not change. For example, after a two-for-one stock split, a shareholder who owned two shares worth  \$5 apiece ends up with four shares, each worth\$ 2.50. But some managers and academics claim that the lower price should make the stock more attractive for capital-constrained investors, thereby increasing demand, improving liquidity, and leading to higher returns for shareholders.42
 
@@ -1771,7 +1770,7 @@ In many cases, a stock split is indeed accompanied by positive abnormal returns 
 
 More insightful is the abnormal return for the three days around the date of the stock split announcement, at about 3 percent.[44] When managers announce a stock split, they are also signaling that they expect further improvement in economic fundamentals. Indeed, two-thirds of companies reported higher-than-expected earnings and dividends in the year following a stock split. When performance improvements followed the split, the stock market did not react, indicating that investors had already factored them into their decisions at the time of the stock split announcement. Consistent with this pattern, companies that did not improve performance as expected in the year after a stock split saw their share prices fall.[45]
 
-# MYTHS ABOUT VALUE DISTRIBUTION
+## MYTHS ABOUT VALUE DISTRIBUTION
 
 Another common misconception among executives is that share repurchases and dividends create value for shareholders. This view is often reinforced by both private and public demands from investors for companies to return more cash to shareholders, particularly as share repurchases. If you dig deeper into understanding investor demands, though, you will typically find that investors want more cash distributed not because the cash distribution itself creates value, but because investors are concerned that companies will squander excess cash and debt capacity on value-destroying investments. They view cash distributions as a way to impose discipline on the company's use of its cash.[46]
 
@@ -1781,7 +1780,7 @@ So why do companies' share prices often increase on the announcement of share re
 
 Dividends and share repurchases are merely instruments for distributing cash generated by the company's operations. Furthermore, as we discuss in Chapter 33, decisions about cash distributions should not drive a company's investment decisions; they should be an integral part of a company's capital allocation that matches its investment needs, financing opportunities, and desired level of risk.
 
-# SUMMARY
+## SUMMARY
 
 Dramatic swings in share prices sometimes lead finance practitioners to suggest that established valuation theories are irrelevant and that stock markets lead lives of their own, detached from the realities of economic growth and business profitability. We disagree. There is compelling evidence that valuation levels for individual companies and the stock market as a whole clearly reflect the underlying fundamental performance in terms of return on capital and growth. Yes, there are times when valuations deviate from fundamentals, but these typically do not last long. Evidence also shows that some widespread beliefs espoused by managers and finance professionals are inconsistent with the fundamental principles of valuation and are erroneous.
 
@@ -1790,7 +1789,7 @@ We also find that executives are often overly focused on earnings and earnings g
 
 Finally, myriad myths have grown up about how the market values companies based on measures unrelated to the companies' economic performance. None stand up to scrutiny. There is no value premium from diversification, from cross-listing, or from size for size's sake. Conversely, there is no conglomerate discount, only a performance discount for many diversified companies. Dividends and share repurchases don't create value, but markets react positively when management signals it will be disciplined about future investments.
 
-# Return on Invested Capital
+## Return on Invested Capital
 
 As Chapter 3 explains, the higher a company can raise its return on invested capital (ROIC), and the longer it can earn a rate of return on that capital greater than its cost of capital, the more value it will create. So it is critical to every strategic and investment decision to be able to understand and predict what drives and sustains ROIC.
 
@@ -1806,7 +1805,7 @@ The importance of ROIC is universal: it applies to companies as well as to busin
 
 This chapter explores how rates of return on invested capital depend on competitive advantage. We examine how strategy drives competitive advantage, which when properly fitted to industry structure and competitive behavior can produce and sustain a superior ROIC. This explains why some companies earn only a 10 percent ROIC while others earn 50 percent. The final part of the chapter presents 55 years of ROIC data by industry over time. This analysis shows how ROIC varies by industry and how rates of ROIC fluctuate or remain stable over time.
 
-# WHAT DRIVES ROIC?
+## WHAT DRIVES ROIC?
 
 To understand how strategy, competitive advantage, and return on invested capital are linked, consider the following representation of ROIC:
 
@@ -1838,7 +1837,7 @@ Industry structure is by no means the only determinant of ROIC, as the significa
 
 Finally, industry structure and competitive behavior aren't fixed; they're subject to shocks from technological innovation, changes in government regulation, and competitive entry—any or all of which can affect individual companies or an entire industry. We show in this chapter's final section that the software and pharmaceutical industries, for example, consistently earn high returns. However, the leading companies may not be the same in 20 years, just as many of today's leaders were not major players or didn't even exist 20 years ago.
 
-# COMPETITIVE ADVANTAGE
+## COMPETITIVE ADVANTAGE
 
 Competitive advantage derives from some combination of ten sources, defined in Exhibit 8.2. Of these, five allow companies to charge a price premium, four contribute to cost and capital efficiency, and one (often referred to as "network economies") combines price and cost advantages to produce increasing returns to scale. It is important to understand that competitive advantage drawn from these sources is enjoyed not by entire companies but by particular business units and product lines. This is the only level of competition at which the concept of competitive advantage affords you any real traction in strategic thinking; even if a company sells soup or dog food exclusively, it may still have individual businesses and product lines with very different degrees of competitive advantage and therefore different returns on invested capital.
 
@@ -1848,7 +1847,7 @@ EXHIBIT 8.2 Sources of Competitive Advantage
 
 On balance, price premiums offer any business the greatest scope for achieving an attractive ROIC, but they are usually more difficult to achieve than cost efficiencies. Also, the businesses or products with the highest returns are often those that weave together more than one advantage.
 
-# Price Premium Advantages
+## Price Premium Advantages
 
 In commodity markets, companies are typically price takers, meaning they must sell at the market price to generate sales, because the products are hard to differentiate. To sell its products at a price premium, a company must find a way to differentiate its products from those of competitors. We distinguish five sources of price premiums: innovative products, quality, brand, customer lock-in, and rational price discipline.
 
@@ -1882,7 +1881,7 @@ Most attempts by industry players to maintain a floor price fail. Take the paper
 Even cartels (which are illegal in most of the world) find it difficult to maintain price levels, because each cartel member has a great incentive to lower prices and attract more sales. This so-called free-rider issue makes it difficult to maintain price levels over long periods, even for the Organization of Petroleum Exporting Countries (OPEC), the world's largest and most prominent cartel.
 
 
-# Cost and Capital Efficiency Advantages
+## Cost and Capital Efficiency Advantages
 
 Theoretically, cost and capital efficiency are two separate competitive advantages. Cost efficiency is the ability to deliver products and services at a lower cost than the competition. Capital efficiency is about delivering more products per dollar of invested capital than competitors. In practice, both tend to share common drivers and are hard to separate. (Is a company's outsourcing of manufacturing to Asia a source of cost efficiency or capital efficiency?) Consequently, we treat the following four sources of competitive advantage as deriving from both the cost and capital efficiencies they achieve.
 
@@ -1913,7 +1912,7 @@ Other examples of scalable businesses include media companies that make and dist
 
 Most IT-based or IT-enabled businesses offer some form of scalability, especially given recent developments in cloud-based computing. But what counts is whether all critical elements of a business system are scalable. Take, for example, online food delivery businesses. These businesses can easily scale up in terms of number of registered restaurants, customers, and orders, but they still incur incremental costs for each individual order delivery, if only for transportation. Such costs still mount with the number of clients, which presents some limits on scalability and reduction of costs to serve as the business grows.
 
-# Network Economies
+## Network Economies
 
 Some scalable businesses models provide extraordinarily high returns on capital because they exhibit network economies that lead to increasing returns to scale. As the business gains customers and grows, the cost of offering the products decreases, and their value to customers increases. The eBay example we related at the beginning of this chapter illustrates this. Other examples are online lodging and travel platforms such as Airbnb and Booking.com. These models feature scalable products where the marginal cost of additional transactions is minimal. In addition, with scale, these platform services also become more valuable to both end customers and lodging providers. As a result, Airbnb and Booking.com can realize competitive advantages both in price and in cost and capital efficiencies.
 
@@ -1923,21 +1922,21 @@ Although many new digital business models for social media, digital marketplaces
 
 The management implication of this insight was that in a business with increasing returns, it is important to get big faster than anyone else. Shapiro and Varian also explained the rare conditions under which it is possible to increase returns to scale. Sadly, executives who ignored that part of the book and pursued "network effects" faced disaster. For example, many U.S. electric-power producers tried to get big fast by buying up everything they could. Most collapsed, because there are no increasing returns from scaling electric-power production. Perhaps more important, such scale effects lead to superior lasting returns only if a company can prevent competitors from achieving similar scale.
 
-# SUSTAINING RETURN ON INVESTED CAPITAL
+## SUSTAINING RETURN ON INVESTED CAPITAL
 
 The longer a company can sustain a high ROIC, the more value management will create. In a perfectly competitive economy, ROIC higher than the cost of capital get competed away. Whether a company can sustain a given level of ROIC depends on the length of the life cycles of its businesses and products, the length of time its competitive advantages can persist, and its potential for renewing businesses and products.
 
-# Length of Product Life Cycle
+## Length of Product Life Cycle
 
 The longer the life cycle of a company's businesses and products, the better its chances of sustaining its ROIC. To illustrate, while the products of companies such as Coca-Cola or Mars may not seem as exciting as the latest flashy electronics items, culturally entrenched, branded soft drinks and snacks are likely to have a market for far longer than many new gadgets. Similarly, a unique resource (like palladium-rich nickel ore) can be a durable source of advantage if it is related to a long product life cycle but will be less so if it isn't (this appears to be the case for lignite and coal today).
 
 A business model that locks customers into a product with a short life cycle is far less valuable than one that locks customers in for a long time. Once users of Microsoft's Windows have become well versed in the platform, they are unlikely to switch to a new competitor. Even Linux, a low-cost alternative to Windows, has struggled to gain market share as system administrators and end users remain wary of learning a new way of computing. Microsoft's success in extending the life cycle of Windows has been a huge source of value to the company. Contrast this with a company like BlackBerry, which had an impressive customer base until the life cycle of its early smartphones was cut short by the introduction of the iPhone and other next-generation devices.
 
-# Persistence of Competitive Advantage
+## Persistence of Competitive Advantage
 
 If a company cannot prevent competition from duplicating its business, high ROIC will be short-lived, and the company's value will diminish. Consider two major cost improvements that airlines implemented over the past decade. The self-service kiosk and, more recently, the smartphone app allow passengers to purchase a ticket and to print or download a boarding pass from anywhere in the world without waiting in line. From the airlines' perspective, fewer ground personnel and equipment are needed to handle even more passengers. So why has this cost improvement not translated into high ROIC for the airlines? Since every company has access to the technology, any cost improvements are passed directly to the consumer in the form of lower prices. A similar example comes from robotic automation's ongoing effect on productivity improvements in automotive manufacturing: all players adopt the new technology and pass on the cost reductions to customers. In general, advantages that arise from brand and quality on the price side and scalability on the cost side tend to have more staying power than those arising from more temporary sources of advantage, such as an innovation that will tend to be superseded by subsequent innovations.
 
-# Potential for Product Renewal
+## Potential for Product Renewal
 
 Few businesses or products have life cycles as long as Coca-Cola's. Most companies need to find renewal businesses and products where they can leverage existing advantages or build new ones. This is an area where brands prove their value. Consumer goods companies excel at using their brands to launch new products: think of Apple's success with the iPhone, Bulgari moving into fragrances, Mars entering the ice cream business, Netflix switching from DVD rentals by mail to video streaming online, John Deere offering information services to farmers, and Signify (the former Philips Lighting) developing connected lighting solutions such as Hue. Being good at innovation also helps companies renew products and businesses. Thus, pharmaceutical companies exist because they can discover new drugs, and semiconductor technology players such as ASML and Intel rely on their technology innovation to launch new products and stay ahead of competitors.
 
@@ -1946,7 +1945,7 @@ Some companies, such as Procter & Gamble and Alphabet's Google subsidiary, are a
 
 As the next section of this chapter indicates, empirical studies show that over the past five decades, companies have been generally successful in sustaining their rates of ROIC. It appears that when companies have found a strategy that creates competitive advantages, they are often able to sustain and renew these advantages over many years. This also holds for the relatively new digital business models with which Amazon, Google, Microsoft, and others have retained and renewed their competitive advantages for two decades and more. While competition clearly plays a major role in driving down ROIC, managers can sustain a high rate of return by anticipating and responding to changes in the environment better than their competitors do.
 
-# AN EMPIRICAL ANALYSIS OF RETURNS ON INVESTED CAPITAL
+## AN EMPIRICAL ANALYSIS OF RETURNS ON INVESTED CAPITAL
 
 Several key findings concerning ROIC emerge from a study of 1963-2017 returns on invested capital at U.S.-based nonfinancial companies with (inflation-adjusted) revenues greater than 1 billion:
 - The median ROIC was stable at about 10 percent until the turn of the century and then increased to 17 percent after 2010, where it has remained since. Important drivers of this effect were a general increase in profitability across sectors, combined with a shift in the mix of U.S.-based companies to higher-returning sectors in life sciences and technology. These sectors not only significantly increased their ROIC, but also grew faster.
@@ -1954,7 +1953,7 @@ Several key findings concerning ROIC emerge from a study of 1963-2017 returns on
 - There are large variations in rates of ROIC within industries. Some companies earn attractive returns in industries where the median return is low (e.g., Walmart), and vice versa.
 - Relative rates of ROIC across industries are generally stable, especially compared with rates of growth (discussed in the next chapter). Industry rankings by median ROIC do not change much over time, with only a few industries making a clear aggregate shift upward or downward. These shifts typically reflect structural changes, such as the widespread consolidation in the defense and airline industries over the past two decades and the maturing of the biotech industry. Individual company returns gradually tend toward their industry medians over time but are generally persistent. Even the 2008 financial crisis did not upset this trend.
 
-# ROIC Trends and Drivers
+## ROIC Trends and Drivers
 
 Relatively stable ROIC levels from the early 1960s to the early 2000s are evident in Exhibit 8.3, which plots median ROIC between 1963 and 2017 for U.S.-based nonfinancial companies. In that exhibit, the measure of ROIC excludes goodwill and acquired intangibles, which allows us to focus on the underlying economics of companies without the distortion of premiums paid for acquisitions (discussed later in the chapter).
 
@@ -1976,7 +1975,7 @@ Source: Corporate Performance Analytics by McKinsey.
 
 faster growth of these sectors relative to the rest of the economy, these sectors' generally higher margins and returns on capital, and increases in these sectors' margins and returns on capital. As a result, the life science and technology sectors generate six percentage points of the total 16 percent return on capital for the U.S. economy as a whole, compared with only two percentage points of a 12 percent overall return in 1995 (see Exhibit 8.6).
 
-# ROIC by Industry
+## ROIC by Industry
 
 To see how differences in ROIC across industries and companies relate to likely differences in drivers of competitive advantage, we examined variations in ROIC by industry over the past two decades. Our findings are in line with results from prior editions of this book, in which we tracked profitability going back to the 1960s. Exhibit 8.7 shows the median returns on invested
 
@@ -2015,7 +2014,7 @@ Source: Corporate Performance Analytics by McKinsey.
 
 This chart also shows that the best performers in a weaker or mediocre industry may outperform the median performer in a stronger industry. Consider, for example, retailing, shown in the bottom half of the chart. The stronger retailers (like Walmart) outperform the weaker companies in the media industry, which appears in the top half of the chart.
 
-# Stability of ROIC
+## Stability of ROIC
 
 While industries often exhibit variations in their respective ROIC, many industries tend to remain fairly stable over time. We can see this by grouping the industry-level returns on invested capital according to whether they are relatively high, medium, or low. As shown in Exhibit 8.9, most industries stayed in the same group over the period we studied, starting in the early 1960s. In addition, some industries are cyclical, having high and low returns at different points in the cycle but demonstrating no clear trend up or down over time.
 
@@ -2049,7 +2048,7 @@ EXHIBIT 8.11 ROIC Decay through Economic Crisis and Recovery
  As of 2003, companies are grouped into quartiles, based on ROIC.
 Source: Corporate Performance Analytics by McKinsey.
 
-# EXHIBIT 8.12 ROIC Decay for Branded Consumer Goods
+## EXHIBIT 8.12 ROIC Decay for Branded Consumer Goods
 
 Median ROIC of portfolios (without goodwill), by quintile,  ${}^{1}\%$
 
@@ -2059,7 +2058,7 @@ Source: Corporate Performance Analytics by McKinsey.
 
 Although decay rates examine the rate of regression toward the mean, they present only aggregate results and tell us nothing about the spread of potential future performance. Does every company generating returns greater than 20 percent eventually migrate to 15 percent, or do some companies actually go on to generate higher returns? Conversely, do some top performers become poor performers? To address this question, we measured the probability that a company will migrate from one ROIC grouping to another in ten years. The results are presented in Exhibit 8.13. Read each row from left to right.
 
-# EXHIBIT 8.13 ROIC Transition Probability
+## EXHIBIT 8.13 ROIC Transition Probability
 
 Probability of achieving ROIC in 2017, \%
 
@@ -2067,7 +2066,7 @@ Probability of achieving ROIC in 2017, \%
 
 Both high and low performers demonstrate significant stability in their performance. Companies with high or low ROIC are most likely to stay in the same grouping. A company whose ROIC was below 15 percent in 2007 had a 74 percent chance of earning less than 15 percent in 2017. For companies with a ROIC above 25 percent, the probability of maintaining that high performance was 70 percent. Among companies whose ROIC was between 15 and 25 percent in 2007, there was no clear tendency for companies to increase or decrease their ROIC ten years later.
 
-# Effect of Acquisitions on ROIC
+## Effect of Acquisitions on ROIC
 
 While returns on invested capital without goodwill have been increasing, returns on invested capital with goodwill have been flat, as shown in Exhibit 8.14. Companies paid high prices for their acquisitions, so much of the value the deals created was transferred to the shareholders of the target company. (Acquisitions and value creation are discussed in Chapter 31.) It does not mean that companies have failed to create value from acquisitions: returns on capital including goodwill above the cost of capital, combined with ongoing growth, indicate that they have created value above and beyond the price paid for these acquisitions. Increasing returns without goodwill indicates that companies have captured significant synergies to improve the performance of the acquired businesses.
 
@@ -2077,11 +2076,11 @@ EXHIBIT 8.14 ROIC Including and Excluding Goodwill, 1995-2017
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/75ea39cc-041a-437e-9d57-dabed85d38b7/0e12ec04dc843a3b9222d294d3c1c053fa9f440d473ea93615cbf4bc8a81c978.jpg)
 Source: Corporate Performance Analytics by McKinsey.
 
-# SUMMARY
+## SUMMARY
 
 There is much to learn about returns on invested capital. First, these returns are driven by competitive advantages that enable companies to realize price premiums, cost and capital efficiencies, or some combination of these. Second, industry structure is an important—but not an exclusive—determinant of ROIC. Certain industries are more likely to earn either high, medium, or low returns, but there is still significant variation in the rates of return for individual companies within each industry. Third, and most important, if a company finds a formula or strategy that earns an attractive ROIC, there is a good chance it can sustain that attractive return over time and through changing economic, industry, and company conditions, especially in the case of industries that enjoy relatively long product life cycles. Of course, the converse also is true: if a company earns a low ROIC, that is likely to persist as well.
 
-# Growth
+## Growth
 
 Growth and its pursuit grip the business world. The popular view is that a company must grow to survive and prosper. There is certainly some truth to this. Slow-growing companies present fewer interesting opportunities for managers and so may have difficulty attracting and retaining talent. They are also much more likely to be acquired than faster-growing firms. Over the past 25 years, most of the companies that have disappeared from the S&P 500 index were acquired by larger companies or went private.
 
@@ -2089,7 +2088,7 @@ However, as discussed in Chapters 2 and 3, growth creates value only when a comp
 
 The previous chapter explored why executives need to understand whether their strategies will lead to high returns on invested capital. Similarly, they also need to know which growth opportunities will create the most value. This chapter discusses the principal strategies for driving revenue growth, the ways in which growth creates value, and the challenges of sustaining growth. It ends by analyzing the data on corporate growth patterns over the past 55 years.
 
-# DRIVERS OF REVENUE GROWTH
+## DRIVERS OF REVENUE GROWTH
 
 When executives plan for growth, a good starting point is for them to disaggregate revenue growth into its three main components:2
 
@@ -2109,7 +2108,7 @@ Exhibit 9.1 also shows widely varied growth within industries. For some sectors,
 
 To understand markets in this fine-grained way and the differences in companies' revenue growth, Baghai, Smit, and Viguerie analyzed market growth at the level of individual product and geographical segments with around  \$50 million to\$ 200 million in sales, rather than at the company, divisional, or business unit level. Their example of a large European manufacturer of personal-care products shows why such analysis is revealing. The company has three divisions with apparently low prospective growth rates ranging from 1.6 percent to 7.5 percent a year. However, the range of forecast growth rates for individual product lines within the divisions is much wider. For instance, the division with the lowest expected growth rate has one product line growing at 24 percent, one of the company's best growth opportunities. At the same time, the division with the highest growth rate has several product lines that are shrinking fast and may warrant divestment.
 
-# GROWTH AND VALUE CREATION
+## GROWTH AND VALUE CREATION
 
 While managers typically strive for high growth, the highest growth will not necessarily create the most value. The reason is that the three drivers of growth (portfolio momentum, acquisitions, and market share gains) do not all create value in equal measure. To understand why not, consider who loses under alternative scenarios for revenue growth and how effectively losers can retaliate:
 - Growth from increases in market share, particularly in slow- and moderate-growth markets, rarely creates much value for long, because established competitors typically retaliate to protect their market shares. Lasting value creation could only occur in situations where smaller competitors are pushed out of the market entirely or where the company introduces differentiated products or services that are hard for competitors to copy.
@@ -2121,7 +2120,7 @@ EXHIBIT 9.2 Value Creation from Organic Growth Higher Than from Acquisitions
 1 Excludes banks, insurance companies, extraction companies, and cyclical commodities.
 - The value of growth from acquisitions is harder to characterize, because it depends so much on the price of the acquisition (as discussed in Chapter 31). However, as shown in Exhibit 9.2, a sample of 550 U.S. and European companies reveals that, in general, growth from acquisitions creates less value than organic growth. The main reason is that companies don't have to invest as much up front for organic growth. In growing through acquisitions, companies typically must pay for the stand-alone value of an acquired business plus a takeover premium. This results in a lower return on invested capital and lower value creation compared with growing organically.
 
-# A Hierarchy of Growth Scenarios
+## A Hierarchy of Growth Scenarios
 
 It is possible to rank different growth scenarios that fall within the three overall growth strategies according to their potential for creating value (see Exhibit 9.3). This ranking may not be exactly the same for all industries, but it works well as a starting point. The scenarios with the highest potential to create value are all variations on entering fast-growing product markets that take revenues from distant companies, rather than from direct competitors or customers via price increases.
 
@@ -2155,13 +2154,13 @@ There are two main approaches to growing through acquisitions. Growth through bo
 In contrast, creating growth through large acquisitions—say, one-third the size or more of the acquiring company—tends to create less value. Large acquisitions typically occur when a market has begun to mature and the industry has excess capacity. While the acquiring company shows revenue growth, the combined revenues often do not increase, and sometimes they decrease because customers prefer to have multiple suppliers. Any new value comes primarily from cost cutting, not from growth. Furthermore, integrating the two companies requires significant investments and involves far more complexity and risk than integrating small, bolt-on acquisitions.
 
 
-# Choosing a Growth Strategy
+## Choosing a Growth Strategy
 
 The logic explaining why growth from product market expansion creates greater and more sustainable value than growth from taking share is compelling. Nevertheless, the dividing line between the two types of growth can be fuzzy. For instance, some innovations prevent existing competitors from retaliating, even though the innovator's products and services may not appear to be that new. Walmart's innovative approach to retailing in the 1960s and 1970s offered an entirely new shopping experience to its customers, who flocked to the company's stores. One could argue that Walmart was merely taking share away from small local stores. But the fact that its competitors could not retaliate suggests that Walmart's approach constituted a truly innovative product. However, if Walmart were to grow by winning customers from Target, that would count as market share gain, because Target and Walmart offer their retailing product in a similar fashion. Notably, over the past decade, Walmart itself has been facing competition from innovative offerings in direct and platform sales by Amazon, which has taken significant market share from Walmart in many retail categories.
 
 In general, underlying product market growth tends to create the most value. Companies should aim to be in the fastest-growing product markets, so they can achieve growth that consistently creates value. If a company is in the wrong markets and can't easily get into the right ones, it may do better by sustaining growth at the same level as its competitors while finding ways to improve and sustain its ROIC.
 
-# WHY SUSTAINING GROWTH IS HARD
+## WHY SUSTAINING GROWTH IS HARD
 
 Sustaining high growth is much more difficult than sustaining ROIC, especially for larger companies. The math is simple. Suppose your core product markets are growing at the rate of the gross domestic product (GDP)—say, 5 percent nominal growth—and you currently have  \$10 billion in revenues. Ten years from now, assuming you grow at 5 percent a year, your revenues will be\$ 16.3 billion. Assume you aspire to grow organically at 8 percent a year. In ten years, your revenues will need to be \$21.6 billion. Therefore, you will need to find new sources of revenues that can grow to more than \$5.3 billion per year by the tenth year. Adjusting for inflation of 1 to 2 percent, you need an extra \$4.3 billion to \$4.8 billion per year in today's dollars. Another way to think of it is that to find such revenues, you would need to reinvent a
 
@@ -2193,7 +2192,7 @@ Sustaining high growth presents major challenges to companies. Given the natural
 
 To sustain high growth, companies need to overcome this "portfolio treadmill" effect: for each product that matures and declines in revenues, the company needs to find a similar-size replacement product to stay level in revenues—and even more to continue growing. Think of the pharmaceutical industry, which showed unprecedented growth from the mid-1990s, thanks to so-called blockbuster drugs such as Lipitor and Celebrex. Then growth plummeted as these drugs came off patent and the next generation of drugs didn't deliver the same outsize sales as the blockbusters. Finding sizable new sources of growth requires more experimentation and a longer time horizon than many companies are willing to invest in. Royal Philips's health technology business was a small corporate division in 1998, when it generated around 7 percent of total company revenues. It took 15 years of ongoing investments and acquisitions to become Philips's largest business unit, generating half of its total revenues. After the carve-out of its lighting business and other divestitures, health technology has now become Philips's core business.
 
-# EMPIRICAL ANALYSIS OF CORPORATE GROWTH
+## EMPIRICAL ANALYSIS OF CORPORATE GROWTH
 
 The empirical research backs up the principles we have been discussing. This section presents our findings on the level and persistence of corporate growth for U.S.-based nonfinancial companies with revenues greater than 1 billion (inflation-adjusted) from 1963 to 2017. (The sample size for each year is different but amounts to 1,095 companies in 2017.) The analysis of their revenue growth follows the same procedure as the analysis of ROIC data in Chapter 8, except here we use three-year rolling averages to moderate distortions caused by currency fluctuations and M&A activity. We also use real, rather than nominal, data to analyze all corporate growth results, because even mature companies saw a dramatic increase in revenues during the 1970s as inflation increased prices. Ideally, we would report statistics on organic revenue growth, but current reporting standards do not require companies to disclose the effects of currencies and M&A on their revenues.
 
@@ -2205,7 +2204,7 @@ EXHIBIT 9.7 Long-Term Revenue Growth for Nonfinancial Companies, 1965-2017
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/75ea39cc-041a-437e-9d57-dabed85d38b7/f8325bef465c0c8cccf42e99410e96e86c48e1ab2e177176c34a127ce6496c7c.jpg)
 Source: Compustat; Corporate Performance Analytics by McKinsey.
 
-# Growth Trends
+## Growth Trends
 
 Let's begin by examining aggregate levels and trends of corporate growth. Exhibit 9.7 presents median revenue growth rates in real terms between 1965 and 2017. The average median revenue growth rate for that period equals 4.9 percent per year and oscillates between roughly 0 percent and 9 percent. Median revenue growth demonstrates no trend over time, but over the past five years, growth rates declined to around 2 percent in real terms.
 
@@ -2224,11 +2223,11 @@ In addition to mapping median growth, Exhibit 9.7 also reveals that from the mid
 
 Exhibit 9.8 shows the distribution of three-year real revenue growth for two periods, 1997-2007 (before the 2008 financial crisis) and 2007-2017. Not surprisingly, the distribution became wider and shifted to the left in the latter period. From 2007 to 2017, almost two-thirds of companies in the sample grew at an annual real rate of less than 5 percent. Only 21 percent grew faster than 10 percent. (This includes the effect of acquisitions, so fewer companies grew faster than 10 percent just through organic growth.)
 
-# Growth across Industries
+## Growth across Industries
 
 As Exhibit 9.1 illustrated, growth rates vary widely across and within industries. In addition—unlike ROIC, where the industry ranking tends to be stable—the industry growth ranking varies significantly over time, as shown in Exhibit 9.9 for the decades 1997–2007 and 2007–2017. Some of the variation is explained by structural factors, such as the saturation of markets (the declining growth in hotels and restaurants and in chemicals) or the effect of technological innovation in creating entirely new markets (the strong growth in biotechnology and information services). In other cases, growth is more cyclical. Growth in the oil and gas sector varied from more than 10 percent in the first decade to just 1 percent over the past ten years, as oil prices plummeted after 2014. Similarly, the construction industry is subject to cycles, with growth
 
-# EXHIBIT 9.9 Volatile Growth by Industry
+## EXHIBIT 9.9 Volatile Growth by Industry
 
 10-year revenue growth rate,  ${}^{1}$  industry median adjusted for inflation,  $\%$
 
@@ -2240,14 +2239,14 @@ at much lower levels since the 2008 credit crisis. Telecommunications service pr
 
 Despite this high degree of variation, some sectors have consistently been among the fastest growing, not only during the 30 years covered in this sample, but also for earlier periods. These include life sciences and technology, such as information services and software, technology hardware, pharmaceuticals, biotechnology, and health care, where demand has remained strong for three decades. Others, such as automobile parts, chemicals, and branded consumer goods, have consistently registered lower growth rates, as their markets had already reached maturity well before the 1990s.
 
-# EXHIBIT 9.10 Revenue Growth Decay Analysis
+## EXHIBIT 9.10 Revenue Growth Decay Analysis
 
 Median growth of portfolios, by quintile, $^{1}$  \%
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/75ea39cc-041a-437e-9d57-dabed85d38b7/12035717b816da4072bbda28bcbc289fe6232e41b0cdeebce11e135e7d60c6a2.jpg)
  At year 0, companies are grouped into one of five portfolios, based on revenue growth. Source: Compustat; Corporate Performance Analytics by McKinsey.
 
-# Sustaining Growth
+## Sustaining Growth
 
 Understanding a company's potential for growing revenues in the future is critical to valuation and strategy assessment. Yet developing reasonable projections is a challenge, especially given the upward bias in growth expectations demonstrated by equity research analysts and the media. Research shows that analyst forecasts of one-year-out aggregate earnings growth for the S&P 500 are systematically overoptimistic, exceeding actual earnings growth by five percentage points or more.[9]
 
@@ -2266,7 +2265,7 @@ As discussed earlier in this chapter, companies struggle to maintain high growth
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/75ea39cc-041a-437e-9d57-dabed85d38b7/ee92e53095d069b3f9ddd0eed14f7d02ed437ba23e274fd8f0cdeb3b472f12c7.jpg)
 EXHIBIT 9.12 Revenue Growth Transition Probability
 
-# SUMMARY
+## SUMMARY
 
 To maximize value for their shareholders, companies should understand what drives growth and how it creates value. For large companies, the growth of the markets in which they operate largely drives long-term revenue growth. Although gains in market share contribute to revenues in the short term, these gains are far less important for long-term growth.
 
@@ -2276,9 +2275,9 @@ Sustaining high growth is no less a challenge than initiating it. Because most p
 
 Part Two
 
-# Core Valuation Techniques
+## Core Valuation Techniques
 
-# Frameworks for Valuation
+## Frameworks for Valuation
 
 In Part One, we built a conceptual framework to show what drives the creation of value for investors. A company's value stems from its ability to earn a healthy return on invested capital (ROIC) and its ability to grow. Healthy rates of return and growth produce future cash flows, the ultimate source of value.
 
@@ -2294,7 +2293,7 @@ It then values the tax benefits associated with debt and adds them to the all-eq
 
 This chapter also includes a brief discussion of capital cash flow and equity cash flow valuation models. Properly implemented, these models will yield the same results as enterprise DCF. However, given that they mix operating performance and capital structure in cash flow, we believe implementation errors occur more easily. For this reason, we avoid capital cash flow and equity cash flow valuation models, except when valuing banks and other financial institutions, where capital structure is an inextricable part of operations (for how to value banks, see Chapter 38).
 
-# ENTERPRISE DISCOUNTED CASH FLOW MODEL
+## ENTERPRISE DISCOUNTED CASH FLOW MODEL
 
 The enterprise DCF model discounts free cash flow (FCF), meaning the cash flow available to all investors—equity holders, debt holders, and any other investors—at the weighted average cost of capital, meaning the blended cost of capital for all investor capital. The company's debt and other nonequity claims on cash flow are subtracted from enterprise value to determine equity value. Equity valuation models, in contrast, value directly the equity holders' cash flows. Exhibit 10.2 demonstrates the relationship between enterprise value and equity value. For this example, it is possible to calculate equity holders'
 
@@ -2339,7 +2338,7 @@ To the value of operations, add nonoperating assets, such as excess cash and non
 
 Over the course of the next few sections, we dig deeper into the inputs and the valuation process. Although this chapter presents the enterprise DCF valuation sequentially, valuation is an iterative process.
 
-# Valuing Operations
+## Valuing Operations
 
 The value of operations equals the discounted value of future free cash flow. Free cash flow equals the cash flow generated by the company's operations, less any reinvestment back into the business. As defined at the beginning of this section, free cash flow is the cash flow available to all investors—equity holders, debt holders, and any other investors—so it is independent of how
 
@@ -2445,7 +2444,7 @@ EXHIBIT 10.12 GlobalCo: Weighted Average Cost of Capital
 
 The weighted average cost of capital for GlobalCo is presented in Exhibit 10.12. GlobalCo's 7.8 percent WACC is based on a cost of equity of 9.3 percent, pretax cost of debt of 4.0 percent, and a debt-to-value ratio of 25 percent.
 
-# Identifying and Valuing Nonoperating Assets
+## Identifying and Valuing Nonoperating Assets
 
 Many companies own assets that have value but whose cash flows are not included in accounting revenue or operating profit. As a result, the cash generated by these assets is not part of free cash flow and must be valued separately.
 
@@ -2453,7 +2452,7 @@ For example, consider equity investments, known outside the United States as non
 
 Other nonoperating assets include excess cash, tradable securities, and customer-financing business units. A detailed process for identifying and valuing nonoperating assets appears in Chapter 16.
 
-# Identifying and Valuing Debt and Other Nonequity Claims
+## Identifying and Valuing Debt and Other Nonequity Claims
 
 To convert enterprise value into equity value, subtract debt and other nonequity claims, such as unfunded retirement liabilities, capitalized operat ing leases, and outstanding employee options. Common equity is a residual claimant, receiving cash flows only after the company has fulfilled its other contractual claims. Careful analysis of all potential claims against cash flows is therefore critical.
 
@@ -2472,7 +2471,7 @@ The identification and valuation of nonequity claims are covered in detail in Ch
 
 A common mistake made when valuing companies is to double-count nonequity claims already deducted from cash flow. Consider a company with a pension shortfall. You have been told the company will make extra payments to eliminate the liability. If you deduct the present value of the liability from enterprise value, do not model the extra payments within free cash flow; that would mean double-counting the shortfall (once in cash flow and once as a debtlike claim), leading to an underestimate of equity value.
 
-# Valuing Equity
+## Valuing Equity
 
 Once you have identified and valued all nonequity claims, subtract the value of these claims from enterprise value to determine equity value. In Exhibit 10.4, we subtract  \$250 million in debt, both short-term and long-term debt, from\$ 1 billion in enterprise value. Since GlobalCo has no debt equivalents, this leads to an intrinsic equity value of 750 million.
 
@@ -2480,7 +2479,7 @@ To determine GlobalCo's share price, divide the intrinsic equity value by the nu
 
 Although it appears the valuation is complete, the job is not done. Compare the intrinsic value with market prices. If the two values differ, and they probably will, search for the cause, such as overly optimistic forecasts or missing liabilities. Next, use the model to test the sensitivity of various inputs on the valuation. Determine which inputs lead to the biggest changes, and which lead to negligible differences. Use this analysis to identify opportunities, prioritize operating activities, and identify risks.
 
-# ECONOMIC PROFIT-BASED VALUATION MODELS
+## ECONOMIC PROFIT-BASED VALUATION MODELS
 
 The enterprise DCF model is a favorite of academics and practitioners because it relies solely on how cash flows in and out of the company. Complex accounting can be replaced with a simple question: Does cash change hands? One shortfall of enterprise DCF, however, is that each year's cash flow provides little insight into the company's competitive position and economic performance. Declining free cash flow can signal either poor performance or investment for the future. The economic-profit model highlights how and when the company creates value, yet properly implemented, it leads to a valuation that is identical to that of enterprise DCF.
 
@@ -2566,7 +2565,7 @@ cost of capital but drop over time as new competitors enter and put pressure on 
 
 Also note how GlobalCo's high ROIC—double its cost of capital—leads to an operating value that exceeds the book value of its invested capital ( \$1 billion versus\$ 348 million). When investors believe a company will create value, enterprise value will be greater than invested capital.
 
-# ADJUSTED-PRESENT-VALUE MODEL
+## ADJUSTED-PRESENT-VALUE MODEL
 
 When building an enterprise DCF or economic-profit valuation, most investment professionals discount all future flows at a constant WACC. Using a constant WACC, however, assumes the company manages its capital structure to a target debt-to-value ratio.
 
@@ -2590,7 +2589,7 @@ To build an APV valuation, value the company as if it were all-equity financed. 
 
 Since we assume (for expositional purposes) that GlobalCo will manage its capital structure to a target debt-to-value level of 25 percent, the APV-based valuation leads to the same value for equity as did enterprise DCF (see Exhibit 10.4) and economic profit (see Exhibit 10.14). A simplified proof of equivalence between enterprise DCF and adjusted present value can be found in Appendix B. The following subsections explain adjusted present value in detail.
 
-# Valuing Free Cash Flow at Unlevered Cost of Equity
+## Valuing Free Cash Flow at Unlevered Cost of Equity
 
 When valuing a company using the APV, explicitly separate the unlevered value of operations  $(V_{u})$  from any value created by financing, such as tax
 
@@ -2624,7 +2623,7 @@ $$
 
 The unlevered cost of equity can now be reverse engineered using the observed cost of equity, the cost of debt, and the market debt-to-equity ratio. (Appendix C shows some alternative versions for deriving  $k_{u}$  from  $k_{e}$ .)
 
-# Valuing Tax Shields and Other Capital Structure Effects
+## Valuing Tax Shields and Other Capital Structure Effects
 
 To complete an APV valuation, forecast and discount capital structure side effects such as tax shields, security issuance costs, and distress costs. Since GlobalCo has only a small probability of default, we estimated the company's future interest tax shields using the company's expected interest payments and marginal tax rate (see Exhibit 10.16). To calculate the expected interest payment in year 1, multiply the prior year's debt of  \$250 million by the interest rate of 4.0 percent. This results in an expected interest payment of\$ 10 million. Next, multiply the expected interest payment by the marginal tax rate of 20 percent, for an expected interest tax shield of 2 million in year 1. To determine the continuing value of interest tax shields beyond year 3, use a growth perpetuity based on interest tax shields in the continuing-value year, the unlevered cost of capital, and growth in NOPAT.
 
@@ -2638,7 +2637,7 @@ Total debt net of excess cash.
 
 probability of default, you must model expected tax shields, rather than the calculated tax shields based on promised interest payments.[14] To do this, reduce each promised tax shield by the cumulative probability of default.
 
-# CAPITAL CASH FLOW MODEL
+## CAPITAL CASH FLOW MODEL
 
 When a company actively manages its capital structure to a target debt-to-value level, both free cash flow (FCF) and the interest tax shield (ITS) should be discounted at the unlevered cost of equity,  $k_{u}$ , such that enterprise value equals the sum of discounted cash flows plus the sum of discounted interest tax shields:
 
@@ -2656,7 +2655,7 @@ Given that Ruback's assumptions match those of the weighted average cost of capi
 
 Although free cash flow and capital cash flow lead to the same result when debt is proportional to value, we believe FCF models are superior to CCF models. By keeping NOPAT and FCF independent of leverage, it is easier to evaluate the company's operating performance over time and against competitors. A clean measure of historical operating performance leads to better forecasts.
 
-# CASH-FLOW-TO-EQUITY VALUATION MODEL
+## CASH-FLOW-TO-EQUITY VALUATION MODEL
 
 Each of the preceding valuation models determined the value of equity indirectly by subtracting debt and other nonequity claims from enterprise value. The equity cash flow model values equity directly by discounting cash flows to equity (CFE) at the cost of equity, rather than at the weighted average cost of capital.[16]
 
@@ -2688,7 +2687,7 @@ A third shortcoming of the cash-flow-to-equity model emerges when valuing a comp
 
 One situation where the equity cash flow model leads to the simplest implementation is the analysis and valuation of financial institutions. Since capital structure is a critical part of operations in a financial institution, using enterprise DCF to separate operations and capital structure requires unnecessary assumptions. This is why Chapter 38 uses the cash-flow-to-equity model to value banks and other financial institutions.
 
-# PROBLEMATIC MODIFICATIONS TO DISCOUNTED CASH FLOW
+## PROBLEMATIC MODIFICATIONS TO DISCOUNTED CASH FLOW
 
 In this chapter, we valued GlobalCo by discounting nominal cash flows at a nominal cost of capital. An alternative is to value companies by projecting cash flow in real terms, ignoring the rise in prices, and discounting this cash flow at a real discount rate (the nominal rate less expected inflation). But most managers think in terms of nominal rather than real measures, so nominal measures are often easier to communicate. In addition, interest rates are generally quoted nominally rather than in real terms, excluding expected inflation.
 
@@ -2696,11 +2695,11 @@ A second difficulty occurs when calculating and interpreting ROIC. The historica
 
 A second alternative to the enterprise DCF method outlined earlier is to discount pretax cash flows at a pretax hurdle rate (the market-based cost of capital multiplied by 1 plus the marginal tax rate) to determine a pretax value. This method, however, leads to three fundamental inconsistencies. First, the government calculates taxes on profits after depreciation, not on cash flow after capital expenditures. By discounting pretax cash flow at the pretax cost of capital, you implicitly assume capital investments are tax deductible when made, not as they are depreciated. Furthermore, working-capital investments, such as accounts receivable and inventory, are never tax deductible. Selling a product at a profit, rather than holding inventory, is what leads to incremental taxes. By discounting pretax cash flow at the pretax cost of capital, you incorrectly assume that investments in operating working capital are tax deductible. Finally, it can be shown that even when net investment equals depreciation, the result will be downward biased—and the larger the cost of capital, the larger the bias. This bias occurs because the method is only an approximation, not a formal mathematical relationship. Because of these inconsistencies, we recommend against discounting pretax cash flows at a pretax hurdle rate.
 
-# ALTERNATIVES TO DISCOUNTED CASH FLOW
+## ALTERNATIVES TO DISCOUNTED CASH FLOW
 
 To this point, we've focused solely on discounted cash flow models. Two additional valuation techniques are using the multiples of comparable companies and real options.
 
-# Multiples
+## Multiples
 
 One simple way that investors and executives value companies is to value a company in relation to the value of other companies, akin to the way a real estate agent values a house by comparing it with similar houses that have recently sold. To do this, first calculate how similar companies are valued as a multiple of a relevant metric, such as earnings, invested capital, or an operating metric like barrels of oil reserves. You can then apply that multiple to the company you are valuing. For example, assume the company's NOPAT equals  \$100 million and the typical enterprise-value-to-NOPAT multiple for companies in the industry with similar growth and ROIC prospects is 13 times. Multiplying 13 by\$ 100 million leads to an estimated value of 1.3 billion.
 
@@ -2708,17 +2707,17 @@ Multiples can be a great check on your DCF valuation if done properly. Suppose t
 
 In a nutshell, to use multiples properly, you need to carefully choose the multiple and the comparable companies. In the case of earnings multiples, we recommend using ratios of enterprise value to NOPAT rather than price to earnings or enterprise value to earnings before interest, taxes, depreciation, and amortization (EBITDA). We also urge you to be careful when choosing the comparable companies. The comparable companies not only should be in the same industry, but also should have similar performance, as measured by ROIC and growth.
 
-# Real Options and Replicating Portfolios
+## Real Options and Replicating Portfolios
 
 In 1997, Robert Merton and Myron Scholes won the Nobel Prize in economics for developing an ingenious method to value derivatives that avoids the need to estimate either cash flows or the cost of capital.[18] Their model relies on what today's economists call a "replicating portfolio." They argued that if a portfolio exists of traded securities whose future cash flows perfectly mimic the security you are attempting to value, the portfolio and security must have the same price. This is known as the law of one price. As long as you can find a suitable replicating portfolio, you need not discount future cash flows.
 
 Given the model's power in valuing derivatives like stock options, there have been many recent attempts to translate the concepts of replicating portfolios to corporate valuation. This valuation technique, commonly known as real options, is especially useful in situations of great uncertainty. Unlike those for financial options, however, replicating portfolios for companies and their projects are difficult to create. Therefore, although option-pricing models may teach powerful lessons, today's applications are limited. Chapter 39 covers valuation using options-based models.
 
-# SUMMARY
+## SUMMARY
 
 Our exploration of the most common DCF valuation models has put a particular focus on the enterprise DCF model and the economic-profit model. Each model has its own rationale, and each has an important place in corporate valuation. The remaining chapters in Part Two describe a step-by-step approach to valuing a company. These chapters explain the technical details of valuation, including how to reorganize the financial statements, analyze return on invested capital and revenue growth, forecast free cash flow, compute the cost of capital, and estimate an appropriate terminal value.
 
-# Reorganizing the Financial Statements
+## Reorganizing the Financial Statements
 
 Traditional financial statements—the income statement, balance sheet, and statement of cash flows—do not provide easy insights into operating performance and value. They simply aren't organized that way. The balance sheet mixes together operating assets, nonoperating assets, and sources of financing. The income statement similarly combines operating profits, interest expense, and other nonoperating items.
 
@@ -2726,7 +2725,7 @@ To prepare the financial statements for analyzing economic performance, you shou
 
 Since reorganizing the financial statements is complex, this chapter breaks down the process into three sections. The first section presents a simple example demonstrating how to build invested capital, net operating profit after taxes (NOPAT), and free cash flow. The second section applies this method to the financial statements for Costco Wholesale, with comments on some of the intricacies of implementation. Finally, we provide a brief summary of advanced analytical topics, including how to adjust for restructuring charges, operating leases, pensions, and capitalized expenses. An in-depth analysis of each of these topics can be found in the chapters of Part Three.
 
-# REORGANIZING THE ACCOUNTING STATEMENTS: KEY CONCEPTS
+## REORGANIZING THE ACCOUNTING STATEMENTS: KEY CONCEPTS
 
 To calculate return on invested capital (ROIC) and free cash flow (FCF), it is necessary to reorganize the balance sheet to estimate invested capital, as well as to likewise reorganize the income statement to estimate NOPAT. Invested capital represents the investor capital required to fund operations, without regard to how the capital is financed. NOPAT represents the after-tax operating profit (generated by the company's invested capital) that is available to all investors.
 
@@ -2751,7 +2750,7 @@ $$
 
 $$
 
-# Invested Capital: Key Concepts
+## Invested Capital: Key Concepts
 
 To build an economic balance sheet that separates a company's operating assets from its nonoperating assets and financial structure, we start with the traditional balance sheet. The accounting balance sheet is bound by the most fundamental rule of accounting:
 
@@ -2796,7 +2795,7 @@ EXHIBIT 11.1 An Example of Invested Capital
 <table><tr><td colspan="7">$ million</td></tr><tr><td colspan="3">Accountant&#x27;s balance sheet</td><td colspan="4">Invested capital</td></tr><tr><td>Assets</td><td>Prior year</td><td>Current year</td><td></td><td>Prior year</td><td>Current year</td><td></td></tr><tr><td>Cash</td><td>5</td><td>15</td><td>Cash</td><td>5</td><td>15</td><td></td></tr><tr><td>Inventory</td><td>200</td><td>225</td><td>Inventory</td><td>200</td><td>225</td><td rowspan="3">Operating liabilities are netted against operating assets</td></tr><tr><td>Net PP&amp;E</td><td>300</td><td>350</td><td>Accounts payable</td><td>(125)</td><td>(150)</td></tr><tr><td>Equity investments</td><td>15</td><td>25</td><td>Operating working capital</td><td>80</td><td>90</td></tr><tr><td>Total assets</td><td>520</td><td>615</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Net PP&amp;E</td><td>300</td><td>350</td><td></td></tr><tr><td>Liabilities and equity</td><td></td><td></td><td>Invested capital</td><td>380</td><td>440</td><td></td></tr><tr><td>Accounts payable</td><td>125</td><td>150</td><td></td><td></td><td></td><td></td></tr><tr><td>Interest-bearing debt</td><td>225</td><td>200</td><td>Equity investments</td><td>15</td><td>25</td><td>Nonoperating assets are not included in invested capital</td></tr><tr><td>Shareholders&#x27; equity</td><td>170</td><td>265</td><td>Total funds invested</td><td>395</td><td>465</td><td></td></tr><tr><td>Total liabilities and equity</td><td>520</td><td>615</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Reconciliation of total funds invested</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Interest-bearing debt</td><td>225</td><td>200</td><td></td></tr><tr><td></td><td></td><td></td><td>Shareholders&#x27; equity</td><td>170</td><td>265</td><td></td></tr><tr><td></td><td></td><td></td><td>Total funds invested</td><td>395</td><td>465</td><td></td></tr></table> rearranges the balance sheet into invested capital for a simple hypothetical company with only a few line items. The reconciliation at the lower right shows how the amount of total funds invested is identical regardless of the method used.
 
 
-# Net Operating Profit after Taxes: Key Concepts
+## Net Operating Profit after Taxes: Key Concepts
 
 NOPAT is the after-tax profit generated from core operations, excluding any income from nonoperating assets or financing expenses, such as interest. Whereas net income is the profit available to equity holders only, NOPAT is the profit available to all investors, including providers of debt, equity, and any other types of investor financing. It is critical to define NOPAT consistently with your definition of invested capital and to include only those profits generated by invested capital.
 
@@ -2815,7 +2814,7 @@ will lead to an inconsistent definition of ROIC; the numerator and denominator w
 
 Finally, since reported taxes are calculated after interest and nonoperating income, they are a function of nonoperating items and capital structure. Keeping NOPAT focused solely on ongoing operations requires that the effects of interest expense and nonoperating income also be removed from taxes. To calculate operating taxes, start with reported taxes, add back the tax shield from interest expense, and remove the taxes paid on nonoperating income. The resulting operating taxes should equal the hypothetical taxes that would be paid by an all-equity, pure operating company. Nonoperating taxes, the difference between operating taxes and reported taxes, are not included in NOPAT, but instead as part of income available to investors.
 
-# Free Cash Flow: Key Concepts
+## Free Cash Flow: Key Concepts
 
 To value a company's operations, we discount projected free cash flow at a company's weighted average cost of capital. Free cash flow is the after-tax cash flow available to all investors: debt holders and equity holders. Unlike "cash flow from operations" reported in a company's annual report, free cash flow is independent of financing flows and nonoperating items. It can be thought of as the after-tax cash flow that would be generated if the company held only core operating assets and financed the business entirely with equity. Free cash flow is defined as:
 
@@ -2834,7 +2833,7 @@ EXHIBIT 11.3 An Example of Free Cash Flow
 <table><tr><td colspan="5">$ million</td></tr><tr><td colspan="2">Accountant&#x27;s cash flow statement</td><td colspan="3">Free cash flow</td></tr><tr><td></td><td>Current year</td><td></td><td>Current year</td><td></td></tr><tr><td>Net income</td><td>198</td><td>NOPAT</td><td>210</td><td></td></tr><tr><td>Depreciation</td><td>20</td><td>Depreciation</td><td>20</td><td></td></tr><tr><td>Decrease (increase) in inventory</td><td>(25)</td><td>Gross cash flow</td><td>230</td><td></td></tr><tr><td>Increase (decrease) in accounts payable</td><td>25</td><td></td><td></td><td>Subtract investments in operating items from gross cash flow</td></tr><tr><td>Cash flow from operations</td><td>218</td><td>Decrease (increase) in operating cash</td><td>(10)</td><td></td></tr><tr><td></td><td></td><td>Decrease (increase) in inventory</td><td>(25)</td><td></td></tr><tr><td>Capital expenditures</td><td>(70)</td><td>Increase (decrease) in accounts payable</td><td>25</td><td></td></tr><tr><td>Decrease (increase) in equity investments</td><td>(10)</td><td>Capital expenditures</td><td>(70)</td><td></td></tr><tr><td>Cash flow from investing</td><td>(80)</td><td>Free cash flow</td><td>150</td><td></td></tr><tr><td>Increase (decrease) in interest-bearing debt</td><td>(25)</td><td>Nonoperating income</td><td>4</td><td></td></tr><tr><td>Dividends</td><td>(103)</td><td>Nonoperating taxes</td><td>4</td><td></td></tr><tr><td>Cash flow from financing</td><td>(128)</td><td>Decrease (increase) in equity investments</td><td>(10)</td><td>separately from free cash flow</td></tr><tr><td>Starting cash</td><td>5</td><td>Cash flow available to investors</td><td>148</td><td></td></tr><tr><td>Cash flow from operations</td><td>218</td><td>Reconciliation of cash flow available to investors</td><td></td><td></td></tr><tr><td>Cash flow from investing</td><td>(80)</td><td></td><td></td><td>Treat interest as a financial payout to investors, not an expense</td></tr><tr><td>Cash flow from financing</td><td>(128)</td><td></td><td></td><td></td></tr><tr><td>Ending cash</td><td>15</td><td>Interest expense</td><td>20</td><td></td></tr><tr><td></td><td></td><td>Increase (decrease) in interest-bearing debt</td><td>25</td><td></td></tr><tr><td></td><td></td><td>Dividends</td><td>103</td><td></td></tr><tr><td></td><td></td><td>Cash flow available to investors</td><td>148</td><td></td></tr></table> checking that both give the same result can help avoid line item omissions and classification pitfalls.
 
 
-# REORGANIZING THE ACCOUNTING STATEMENTS: IN PRACTICE
+## REORGANIZING THE ACCOUNTING STATEMENTS: IN PRACTICE
 
 Reorganizing a company's financial statements can be difficult, even for the savviest analyst. Which assets are operating assets? Which are nonoperating? Which liabilities should be treated as debt? Which count as equity?
 
@@ -2849,7 +2848,7 @@ Note: Costco's fiscal year ends on the Sunday nearest August 31. For example, FY
 2 Deferred taxes are aggregated in other current assets, other assets, and other liabilities in original filings.
 3 Capital leases are aggregated in other current liabilities and other liabilities in original filings.
 
-# Invested Capital: In Practice
+## Invested Capital: In Practice
 
 To compute invested capital, we reorganize the company's balance sheet. Exhibit 11.4 presents historical balance sheets for Costco, whose fiscal year ends on the Sunday nearest August 31. The version presented is slightly more detailed than the balance sheets reported in Costco's annual reports, because we have searched the notes in each annual report for information about accounts that mix operating and nonoperating items. For instance, the notes in
 
@@ -2902,7 +2901,7 @@ Second, add back cumulative amortization and impairment. Unlike other fixed asse
 
 Consider FedEx, which wrote down approximately 900 million in goodwill and acquired intangibles when it converted the acquired brand name Kinko's to FedEx Office. Failing to add back this impairment would have caused a large artificial jump in return on invested capital following the writedown. The money spent on an acquisition is real and needs to be accounted for, even when the investment loses value.
 
-# Computing Total Funds Invested
+## Computing Total Funds Invested
 
 Invested capital represents the capital necessary to operate a company's core business. In addition to invested capital, companies can also own nonoperating assets. The combination of invested capital and nonoperating assets leads to total funds invested. Nonoperating assets include excess cash and marketable securities, receivables from financial subsidiaries (for example, credit card receivables), nonconsolidated subsidiaries, overfunded pension assets, and tax loss carry-forwards. Costco has two nonoperating assets: excess cash and foreign tax credit carryforwards.
 
@@ -2929,7 +2928,7 @@ Tax Loss Carryforwards Unless they are small and grow consistently with revenue,
 
 Other Nonoperating Assets Other nonoperating assets, such as derivatives, excess real estate, and discontinued operations, also should be excluded from invested capital. For Costco, derivatives were disclosed in the footnotes but were immaterial, so no adjustments were made to the balance sheet accounts.
 
-# Reconciling Total Funds Invested
+## Reconciling Total Funds Invested
 
 Total funds invested can be calculated as invested capital plus nonoperating assets, as in the previous section, or as the sum of debt, equity, and their equivalents. The totals produced by the two approaches should reconcile. A summary of sources of financing appears in Exhibit 11.6. We next examine each of these sources of capital contributing to total funds invested.
 
@@ -2967,7 +2966,7 @@ Hybrid Securities and Noncontrolling Interests Some sources of financing resist 
 
 Correctly classifying balance sheet items can be a daunting task. But fret not: perfect classification is not required. You need only to assure that each account is included as part of free cash flow or valued separately.
 
-# Calculating NOPAT
+## Calculating NOPAT
 
 To determine NOPAT for Costco, we turn to the income statement (see Exhibit 11.8) and convert it into NOPAT, as shown in Exhibit 11.9.
 
@@ -3053,13 +3052,13 @@ The taxes related to nonoperating accounts, which equal  $-\$ 15 $million in 201
 
 Note how the reconciliation ties to the reported income taxes on the income statement presented in Exhibit 11.8. Although reconciliation can be time-consuming, it assures that the modeling has been carried out correctly.
 
-# Reconciliation to Net Income
+## Reconciliation to Net Income
 
 To ensure that the reorganization is accurate, we recommend reconciling net income to NOPAT (see the lower half of Exhibit 11.9). To reconcile NOPAT, start with net income available to both common shareholders and noncontrolling interests, and add back the increase (or subtract the decrease) in operating deferred-tax liabilities. We label this amount adjusted net income.
 
 Next, add any nonoperating charges (or subtract any income) reported by the company, such as interest expense and other nonoperating expenses. After this, include any adjustments that have been made, like adjustments for operating lease interest and, if required, the nonoperating portion of the pension expense. Finally, subtract tax shields on the nonoperating expenses calculated previously and add any nonoperating taxes from the tax reconciliation table. Whether NOPAT is estimated using revenues less expenses or alternatively as net income plus nonoperating items and other adjustments, the result should be identical.
 
-# Free Cash Flow: In Practice
+## Free Cash Flow: In Practice
 
 This subsection details how to build free cash flow from the reorganized financial statements. For estimating free cash flow, the income statement and balance sheet will not suffice; the statement of shareholders' equity also is required. Exhibit 11.12 presents the statement of shareholders' equity for Costco. This statement reconciles the income statement with the balance sheet and
 
@@ -3115,7 +3114,7 @@ Exhibit 11.14 deconstructs the change in property, plant, and equipment for Cost
 
 It is not always possible to eliminate the currency effects for each line item on the balance sheet. If this is the case, adjust aggregate free cash flow for currency effects using the balance sheet account titled foreign-currency translation, which under U.S. GAAP and IFRS is found within the statement of accumulated other comprehensive income. Unfortunately, the balance sheet account reports the aggregate effect across all foreign assets and liabilities, not just operating items. If you believe most currency adjustments are related to operating items, add the increase in the currency translation account to determine free cash flow. Consider the situation where inventory is rising on the balance sheet due to currency changes and not investment. To balance the balance sheet, the company increases the currency translation account within equity. Since the increase in inventory overstates actual investment in inventory, adding the increase in foreign-currency translation back to free cash flow undoes the negative cash flow caused by currency translation. For Costco, since we adjusted critical accounts one by one, we classify the unexplained currency translations as nonoperating.
 
-# Cash Flow Available to Investors
+## Cash Flow Available to Investors
 
 Although not included in free cash flow, cash flows related to nonoperating assets are valuable in their own right. They must be evaluated and valued separately and then added to free cash flow to give the total cash flow available to investors:
 
@@ -3127,7 +3126,7 @@ To reconcile free cash flow with total cash flow available to investors, include
 - Cash flow related to excess cash and marketable securities. Subtract the increase (or add the decrease) in excess cash and marketable securities to compute total cash flow available to investors. If the company reports unrecognized gains and losses related to marketable securities in its statement of other comprehensive income, net the gain or loss against the change computed previously.
 - Cash flow from other nonoperating assets. Repeat the process used for excess cash and marketable securities for other nonoperating assets. When possible, combine nonoperating gains and losses from a particular asset with changes in that nonoperating asset.
 
-# Reconciling Cash Flow Available to Investors
+## Reconciling Cash Flow Available to Investors
 
 Cash flow available to investors should be identical to the company's total financing flow. By modeling cash flow to and from investors, you will catch mistakes otherwise missed. Financial flows include flows related to debt, debt equivalents, and equity:
 - Interest expenses. Interest from both traditional debt and operating leases should be treated as a financing flow.
@@ -3137,7 +3136,7 @@ Cash flow available to investors should be identical to the company's total fina
 - Share issues and repurchases. When new equity is issued or shares are repurchased, four accounts will be affected: common stock, additional paid-in capital, treasury shares, and retained earnings (for shares that are retired). Although different transactions will have varying effects on the individual accounts, only the aggregate matters, not how the individual accounts are affected. Exhibit 11.13 refers to the aggregate change as "Repurchases of common stock."
 - Outflows to nonconsolidated subsidiaries. Income attributable to nonconsolidated subsidiaries, found at the bottom of the income statement, is a financing flow, similar to dividends.
 
-# ADVANCED ISSUES
+## ADVANCED ISSUES
 
 In this section, we summarize a set of the most common advanced topics in reorganizing a company's financial statements, including nonoperating charges and restructuring reserves, operating leases, pensions, and capitalized research and development (R&D). We provide only a brief summary of these topics here, as each one is discussed in depth in the chapters of Part Three, "Advanced Valuation Techniques."
 
@@ -3151,7 +3150,7 @@ For the purpose of analyzing and valuing a company, we categorize provisions int
 
 The process for classifying and properly adjusting for provisions is explained in more detail in Chapter 21.
 
-# Operating Leases
+## Operating Leases
 
 Starting in 2019, companies that report under U.S. Generally Accepted Accounting Principles (GAAP) or International Financial Reporting Standards (IFRS) are required to capitalize nearly all asset leases, including short-term ones known as operating leases.[12] Under both standards, the present value of operating lease payments will be recorded on the balance sheet. On the income statement, IFRS allocates operating lease payments to depreciation and interest expense as appropriate, so no adjustment is necessary. For companies using GAAP, the entire lease expense, including embedded interest, is incorporated into other operating expenses like cost of sales. If this is the case, reclassify embedded interest in the lease expense as an interest expense.
 
@@ -3172,7 +3171,7 @@ Exhibit 11.15 presents the adjustment for operating leases for Costco's historic
 
 While capitalizing operating leases improves the quality of benchmarking, whether or not you capitalize will not affect intrinsic value as long as it is incorporated correctly in free cash flow, the cost of capital, and debt equivalents. Chapter 22 demonstrates how to incorporate operating leases throughout the valuation. The chapter also discusses alternative models to value operating leases.
 
-# Retirement Obligations Such as Pensions
+## Retirement Obligations Such as Pensions
 
 Following the passage of FASB Statement 158 under U.S. GAAP in 2006, companies now report the present value of pension shortfalls (and excess pension assets) on their balance sheets.[14] Since excess pension assets do not generate operating profits, nor do pension shortfalls fund operations, pension accounts should not be included in invested capital. Instead, pension assets should be treated as nonoperating assets, and pension shortfalls as a debt equivalent (and both should be valued separately from operations). If pension accounts are not explicitly detailed on the company's balance sheet, search the pension footnote to determine where they are embedded. Often excess pension assets are embedded in other assets, and unfunded pension liabilities are in other liabilities.
 
@@ -3182,7 +3181,7 @@ On the income statement, new GAAP accounting for pensions in 2018 dictates that 
 
 Since Costco does not provide pension benefits to employees, we do not adjust the company's historical statements. Chapter 23 provides details on how to adjust NOPAT for pensions and how to factor under- or overfunded pensions into a company's value.
 
-# Capitalized Research and Development
+## Capitalized Research and Development
 
 In line with the conservative principles of accounting, accountants expense R&D, advertising, and certain other costs in their entirety in the period when they are incurred, even when economic benefits resulting from such expenses continue beyond the current reporting period.[16] This practice can dramatically understate invested capital and overstate return on capital for some companies. Therefore, you should consider whether it would be effective to capitalize and amortize R&D and other quasi investments in a manner like that used for capital expenditures. Equity should be adjusted correspondingly to balance the invested-capital equation.
 
@@ -3190,7 +3189,7 @@ If you decide to capitalize R&D, do not deduct the reported R&D expense from rev
 
 Whether or not you capitalize certain expenses will not affect computed value; it will affect only the timing of ROIC and economic profit. Chapter 24 analyzes the complete valuation process for R&D-intensive companies, including adjustments to free cash flow and value.
 
-# Other Advanced Adjustments
+## Other Advanced Adjustments
 
 Some companies may have industry-specific items that require adjustment. These adjustments arise from an uncommon line item on the income statement or balance sheet and, given their rarity, require thoughtful judgment based on the economic principles of this book.
 
@@ -3200,13 +3199,13 @@ Should the liability for deferred gains be treated as operating and deducted fro
 
 Not every advanced issue will lead to material differences in ROIC, growth, and free cash flow. Before collecting extra data and estimating required unknowns, decide whether the adjustment will further your understanding of a company and its industry. An unnecessarily complex model can sometimes obscure the underlying economics that would be obvious in a simple model. Remember, the goal of financial analysis is to provide a strong context for good financial decision making and robust forecasting, not to create an overly engineered model that deftly handles unimportant adjustments.
 
-# Analyzing Performance
+## Analyzing Performance
 
 Understanding a company's past is essential to forecasting its future, so a thorough analysis of historical performance is a critical component of valuation. Always begin with the core elements of value creation: return on invested capital (ROIC) and revenue growth. Examine trends in the company's long-run performance and its performance relative to that of its peers, so you can base your forecasts of future cash flows on reasonable assumptions about the company's key value drivers.
 
 Start by analyzing ROIC, both with and without goodwill. ROIC with goodwill measures the company's ability to create value over and above premiums paid for acquisitions. ROIC without goodwill is a better measure of the company's underlying operating performance compared with that of its peers. Then drill down into the components of ROIC to build an integrated view of the company's operating performance and understand which aspects of the business are responsible for its overall performance. Next, examine what drives revenue growth. Does revenue growth stem, for instance, more from organic growth or from currency effects, which are largely beyond management control and probably not sustainable? Finally, assess the company's financial health to determine whether it has the financial resources to conduct business and make investments for growth.
 
-# ANALYZING RETURNS ON INVESTED CAPITAL
+## ANALYZING RETURNS ON INVESTED CAPITAL
 
 Chapter 11 reorganized the income statement into net operating profit after taxes (NOPAT) and the balance sheet into invested capital. ROIC measures the ratio of NOPAT to invested capital:
 
@@ -3229,7 +3228,7 @@ $^{1}$  ROIC measured on average capital without goodwill and acquired intangibl
 
 showed significant increases in 2018 and 2019. As we will show later, Costco's higher ROIC can be traced to its lower operating profit margin offset by strong capital productivity.
 
-# Analyzing ROIC with and without Goodwill and Acquired Intangibles
+## Analyzing ROIC with and without Goodwill and Acquired Intangibles
 
 Goodwill and acquired intangibles are intangible assets purchased in an acquisition. ROIC should be computed both with and without goodwill and acquired intangibles. In our analysis, we treat goodwill identically to acquired intangibles. Therefore, we will often shorten the expression goodwill and acquired intangibles to simply goodwill.
 
@@ -3242,7 +3241,7 @@ EXHIBIT 12.2 Tapestry: Return on Invested Capital
 
 Accurately evaluating ROIC with goodwill leads to a second challenge: ROIC may increase even without improvements to the underlying business. We've seen situations where a business unit submitted a new strategic plan saying it expected to improve its ROIC over time. On the surface, its forecast looked impressive, but we then discovered that the ROIC included goodwill, and the expected improvement in ROIC would be caused solely by goodwill remaining constant as the business grew profits organically. The management team would earn accolades for improving ROIC purely as a result of the accounting for goodwill, not an underlying improvement to the business.
 
-# Decomposing ROIC to Develop an Integrated Perspective of Company Economics
+## Decomposing ROIC to Develop an Integrated Perspective of Company Economics
 
 To show how we analyze a company's economics based on decomposition of its ROIC, we return to the example of Costco and its peers. Costco has consistently earned a higher ROIC than its peers. But what caused this difference in performance? To understand which elements of a company's business are driving the company's ROIC, split apart the ratio as follows:
 
@@ -3330,7 +3329,7 @@ average salary is 16.4 percent higher for Airline A, while productivity per mile
 
 Analyzing performance using operating drivers gives additional insight into the competitive differences among airlines. But the analysis is far from done. In fact, a thoughtful analysis will often raise more questions than it answers. For instance, can the salary difference between Airline A and Airline B be explained by the mix of employees (pilots are more expensive than gate personnel) or the location of the employees (the East and West coasts are more expensive than the Midwest)? Each of these analyses will provide additional insight into each carrier type's ability to survive and prosper.
 
-# ANALYZING REVENUE GROWTH
+## ANALYZING REVENUE GROWTH
 
 Chapter 3 showed that ROIC, cost of capital, and growth in cash flows drive a company's value. By analyzing historical revenue growth, you can assess the potential for growth in the future.
 
@@ -3347,7 +3346,7 @@ In general, for large multinationals, swings in currency values and changes in c
 
 The next three sections discuss in detail each of the major sources of distortions—changes in currency values, mergers and acquisitions, and changes in accounting policies. For each, we consider its effect on performance measurement, forecasting, and, ultimately, valuation.
 
-# Currency Effects
+## Currency Effects
 
 Multinational companies conduct business in many currencies. At the end of each reporting period, these revenues are converted to the home currency of the reporting company. If foreign currencies are rising in value relative to the company's home currency, this translation at better rates will lead to higher revenue numbers. Thus, a rise in revenue may not reflect increased pricing power or greater quantities sold, but simply depreciation in the company's home currency.
 
@@ -3356,7 +3355,7 @@ Compass and Sodexo are two companies exposed to foreign currency. The companies 
 
 Compass translates U.S. dollars from its North American business into pounds. Given the weakening of the pound against the U.S. dollar ( \$1.51 per pound in 2015 versus\$ 1.30 per pound by 2017), Compass reported an increase in revenues of 5.4 percent in 2016 and 11.3 percent in 2017 attributable to the weakening pound, shown as "currency effects" in Exhibit 12.7. For Sodexo, exchange rates had the opposite effect. As the euro strengthened slightly against the dollar, Sodexo translated revenue from North America into fewer euros, leading to a 0.4 percent drop in euro-denominated revenues in 2016 and a 0.8 percent drop in 2017. Note how movements that helped Compass in 2016 and 2017 reversed themselves in 2018. Failing to acknowledge these currency movements can lead to a critical misunderstanding of a global company's ability to grow organically.
 
-# Mergers and Acquisitions
+## Mergers and Acquisitions
 
 Growth through acquisition may have very different effects on value creation than internal growth does because of the sizable premiums a company must pay to acquire another company. Therefore, it is important to understand how companies have been generating historical revenue growth: through organic means or through acquisition.
 
@@ -3376,7 +3375,7 @@ To create an internally consistent comparison for years 3 and 4, adjust the prio
 
 Even though the acquisition occurs in year 3, the revenue growth rate for year 4 also will be affected by the acquisition. Year 4 contains a full year of revenues from the target. Therefore, to estimate year 4 organic growth, you must increase year 3 revenue by five months of target revenue (5/12 × \$24.2 million = \$10.1 million).
 
-# Accounting Changes and Irregularities
+## Accounting Changes and Irregularities
 
 Each year, the Financial Accounting Standards Board (FASB) in the United States and the International Accounting Standards Board (IASB) make recommendations concerning the financial treatment of certain business transactions through either formal standards or topic notes issued by assigned task forces. Changes in a company's revenue recognition policy can significantly affect revenues during the year of adoption, distorting the one-year growth rate. You therefore need to eliminate their effects in order to understand real historical revenue trends.
 
@@ -3384,7 +3383,7 @@ Consider the new revenue recognition standards that replaced existing IFRS and G
 
 If an accounting change is material, a company will document the change in its section on management discussion and analysis (MD&A). For instance, as shown in Exhibit 12.7, Sodexo specifically called attention to an unusual 53-week year in 2017. The longer time period in 2017 artificially raised 2017 growth rates while lowering 2018 growth rates.
 
-# Decomposing Revenue Growth to Develop an Integrated Perspective of Growth Drivers
+## Decomposing Revenue Growth to Develop an Integrated Perspective of Growth Drivers
 
 Once you have removed the effects of mergers and acquisitions, currency translations, and accounting changes from the year-to-year revenue growth numbers, analyze organic revenue growth from an operational perspective. The most standard breakdown is:
 
@@ -3414,7 +3413,7 @@ EXHIBIT 12.9 Hypothetical Retailers: Operating Statistics
 
 <table><tr><td></td><td colspan="3">Delta</td><td colspan="3">Gamma</td></tr><tr><td>Reported</td><td>2016</td><td>2017</td><td>2018</td><td>2016</td><td>2017</td><td>2018</td></tr><tr><td>Revenues, $ million</td><td>51,081</td><td>54,488</td><td>58,430</td><td>35,109</td><td>37,054</td><td>38,507</td></tr><tr><td>Average number of stores</td><td>1,229</td><td>1,232</td><td>1,234</td><td>1,076</td><td>1,070</td><td>1,050</td></tr><tr><td>Number of transactions, millions</td><td>834</td><td>853</td><td>875</td><td>510</td><td>515</td><td>511</td></tr><tr><td>Average square footage, millions</td><td>90</td><td>90</td><td>90</td><td>85</td><td>86</td><td>85</td></tr><tr><td>Derived</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Revenues per store, $ million</td><td>42</td><td>44</td><td>47</td><td>33</td><td>35</td><td>37</td></tr><tr><td>Transactions per store, thousands</td><td>678</td><td>692</td><td>709</td><td>474</td><td>481</td><td>487</td></tr><tr><td>Revenues per transaction, $</td><td>61</td><td>64</td><td>67</td><td>69</td><td>72</td><td>75</td></tr></table>
 
-# EXHIBIT 12.10 Hypothetical Retailers: Organic Revenue Growth Analysis, 2018
+## EXHIBIT 12.10 Hypothetical Retailers: Organic Revenue Growth Analysis, 2018
 
 Growth rates, \%
 
@@ -3424,7 +3423,7 @@ As the exhibit demonstrates, Delta grew faster than Gamma, because Gamma closed 
 
 Moving farther right in the tree, we gain additional insight into what has been driving same-store sales for each company. Delta also generated more foot traffic, increasing transactions per store at 2.5 percent versus Gamma's 1.2 percent. Revenues per transaction grew at the same rate for the two stores.
 
-# CREDIT HEALTH AND CAPITAL STRUCTURE
+## CREDIT HEALTH AND CAPITAL STRUCTURE
 
 To this point, we have focused on the operating performance of the company and its ability to create value. We have examined the primary drivers of value: a company's return on invested capital and organic revenue growth. In the final step of historical analysis, we focus on how the company has financed its operations. What proportion of invested capital comes from creditors instead of from equity investors? Is this capital structure sustainable? Can the company survive an industry downturn? How much cash, if any, has been distributed to shareholders?
 
@@ -3433,7 +3432,7 @@ To assess a company's capital structure, conduct four analyses. First, examine l
 
 This section introduces the tools for evaluating a company's capital structure. Chapter 33 examines how capital structure decisions must be an integral part of a company's operating strategy and its plan for how it will return cash to shareholders.
 
-# Measuring Liquidity Using Coverage Ratios
+## Measuring Liquidity Using Coverage Ratios
 
 To estimate the company's ability to meet short-term obligations, analysts use ratios that incorporate three measures of earnings:
 
@@ -3455,7 +3454,7 @@ including rental expenses is a critical part of understanding the financial heal
 
 Returning to our previous example of Costco and its peers, Exhibit 12.11 presents their financial data and coverage ratios. For 2018, Costco's coverage ratio of EBITA to interest equaled 31.6 times, whereas its peers had a ratio of 15.3 times. By most standards, Costco has very little debt, which is reflected in its extremely high AA- rating by Standard & Poor's. Costco's peers also have small amounts of leverage and high debt ratings, but to a lesser degree.
 
-# Measuring Leverage
+## Measuring Leverage
 
 Over the past decade, interest rates have dropped to unprecedented lows, making interest coverage ratios uncharacteristically high. To evaluate leverage in this low-interest-rate environment, many analysts are now measuring and evaluating debt multiples such as debt to EBITDA or debt to EBITA. Given its much larger denominator, debt to EBITDA tends to be more stable, making assessments over time much clearer. The ratio also does a better job of teasing out companies that are exposed to rollover risk and widening default spreads, neither of which is captured when interest rates are extremely low.
 
@@ -3476,7 +3475,7 @@ As the formula demonstrates, a company's ROE is a direct function of its ROIC, i
 
 To assess leverage, measure the company's (market) debt-to-equity ratio over time and against peers. Does the leverage ratio compare favorably with the industry? How much risk is the company taking? Chapter 33 offers in-depth answers to these and other questions about the use of debt to finance operations.
 
-# Payout Ratio
+## Payout Ratio
 
 The dividend payout ratio equals total common dividends divided by net income available to common shareholders. We can better understand the company's financial situation by analyzing the payout ratio in relation to its cash flow reinvestment ratio:
 - If the company has a high dividend payout ratio and a reinvestment ratio greater than 1, then it must be borrowing money to fund negative free cash flow, to pay interest, or to pay dividends. But is this sustainable?
@@ -3484,7 +3483,7 @@ The dividend payout ratio equals total common dividends divided by net income av
 
 Applying these questions to Costco, we find that from 2015 to 2019, Costco generated  \$14.7 billion in NOPAT, paid\$ 1.1 billion in interest, and returned 9.5 billion to shareholders in dividends.
 
-# Valuation Metrics
+## Valuation Metrics
 
 To conclude your assessment of capital structure, measure the shareholders' perception of future performance by calculating a market multiple. To build a market multiple, divide core operating value (defined in Chapter 10 as enterprise value less the market value of nonoperating assets, such as excess cash and nonconsolidated subsidiaries) by a normalizing factor, such as revenue, EBITA, or the book value of invested capital. By comparing the multiple of one company versus another, you can examine how the market perceives the company's future relative to other companies.
 
@@ -3496,7 +3495,7 @@ EXHIBIT 12.12 Costco versus Peer Group: Operating Value to EBITDA
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/75ea39cc-041a-437e-9d57-dabed85d38b7/b22660a4cd7e986a064213e2783a50eda557b5397f391a84407ea938a462b17d.jpg)
 Note: Operating value equals enterprise value less the book value of nonoperating assets.
 
-# GENERAL CONSIDERATIONS
+## GENERAL CONSIDERATIONS
 
 Although it is impossible to provide a comprehensive checklist for analyzing a company's historical financial performance, here are some guidelines to keep in mind:
 - Look back as far as possible (at least ten years). Long time horizons will allow you to determine whether the company and industry tend to revert to some normal level of performance and whether short-term trends are likely to be permanent.
@@ -3506,7 +3505,7 @@ Although it is impossible to provide a comprehensive checklist for analyzing a c
 
 With historical analysis complete, we now have the appropriate context to build a robust set of forecasts, a critical ingredient of any valuation.
 
-# Forecasting Performance
+## Forecasting Performance
 
 This chapter focuses on the mechanics of forecasting—specifically, how to develop an integrated set of financial forecasts. We'll explore how to build a well-structured spreadsheet model: one that separates raw inputs from computations, flows from one worksheet to the next, and is flexible enough to handle multiple scenarios. Then we'll discuss the process of forecasting.
 
@@ -3514,7 +3513,7 @@ To arrive at future cash flow, we forecast the income statement, balance sheet, 
 
 While you are building a forecast, it is easy to become engrossed in the details of individual line items. But we stress the importance of placing your aggregate results in the proper context. You can do much more to improve your valuation through a careful analysis of whether your forecast of future ROIC is consistent with the company's ability to generate value than you can by precisely (but perhaps inaccurately) forecasting an immaterial line item ten years out.
 
-# DETERMINE THE FORECAST'S LENGTH AND DETAIL
+## DETERMINE THE FORECAST'S LENGTH AND DETAIL
 
 Before you begin forecasting individual line items on the financial statements, decide how many years to forecast and how detailed your forecast should be. The typical solution, described in Chapter 10, is to develop an explicit year-by-year forecast for a set period and then to value the remaining years by using a perpetuity formula, such as the key value driver formula introduced in Chapter 3. Whatever perpetuity formula you choose, all the continuing-value approaches assume steady-state performance. Thus, the explicit forecast period must be long enough for the company to reach a steady state, defined by the following characteristics:
 - The company grows at a constant rate by reinvesting a constant proportion of its operating profits into the business each year.
@@ -3531,7 +3530,7 @@ To simplify the model and avoid the error of false precision, we often split the
 
 Using a simplified intermediate forecast forces you to focus on the business's long-term economics, rather than become engrossed in too much detail.
 
-# COMPONENTS OF A GOOD MODEL
+## COMPONENTS OF A GOOD MODEL
 
 If you combine 15 years of financial forecasts with 10 years of historical analysis, even the simplest valuation spreadsheet becomes complex. Therefore, you should carefully design and structure your model before starting to forecast. In Exhibit 13.1, we structure a valuation model with seven distinct worksheets:
 
@@ -3552,7 +3551,7 @@ EXHIBIT 13.1 Sample Workbook together, you can verify information as needed and 
 
 Well-built valuation models have certain characteristics. First, original data and user input are collected in only a few places. For instance, limit original data and user input to just three worksheets: raw data (worksheet 1), forecasts (worksheet 3), and market data (worksheet 4). To provide additional clarity, denote raw data and user input in a different color from calculations. Second, whenever possible, a given worksheet should feed into the next worksheet. Formulas should not bounce from sheet to sheet without clear direction. Raw data should feed into integrated financials, which in turn should feed into ROIC and FCF. Third, unless specified as data input, numbers should never be hard-coded into a formula. Hard-coded numbers are easily forgotten as the spreadsheet grows in complexity. Finally, use formulas that come built into the spreadsheet software sparingly, such as the net present value (NPV) formula. Built-in formulas can obscure the model's logic and make auditing results difficult.
 
-# MECHANICS OF FORECASTING
+## MECHANICS OF FORECASTING
 
 The enterprise discounted-cash-flow (DCF) valuation model relies on a forecast of free cash flow (FCF). However, as noted at the beginning of this chapter, FCF forecasts should be created indirectly by first forecasting the income statement, balance sheet, and statement of retained earnings. Compute forecasts of free cash flow in the same way as when analyzing historical performance. (A well-built spreadsheet will use the same formulas for historical and forecast ROIC and FCF without any modification.)
 
@@ -3570,7 +3569,7 @@ We break the forecasting process into six steps:
 
 Give extra emphasis to your revenue forecast. Almost every line item in the spreadsheet will be either directly or indirectly driven by revenues, so you should devote enough time to arrive at a good revenue forecast, especially for rapidly growing businesses.
 
-# Step 1: Prepare and Analyze Historical Financials
+## Step 1: Prepare and Analyze Historical Financials
 
 Before starting to build a forecast, input the company's historical financials into a spreadsheet. To do this, you can rely on data from a professional service, such as Bloomberg, Capital IQ, Compustat, or Thomson ONE, or you can use financial statements directly from the company's filings.
 
@@ -3590,7 +3589,7 @@ We prefer to collect raw data on a separate worksheet. On the raw-data sheet, re
 As you build the integrated financials, you must decide whether to aggregate immaterial line items. Analyzing and forecasting too many line items can lead to confusion, introduce errors, and cause the model to become unwieldy. Returning to the Honeywell example presented in Exhibit 13.2, the income taxes payable account amounts to under 0.1 percent of Honeywell's revenues. Therefore, you might simplify a valuation of Honeywell by combining income taxes payable with the "other" account. When aggregating, however, make sure never to combine operating and nonoperating accounts into a single category. If operating and nonoperating accounts are combined, you cannot calculate ROIC and FCF properly.
 
 
-# Step 2: Build the Revenue Forecast
+## Step 2: Build the Revenue Forecast
 
 To build a revenue forecast, you can use a top-down forecast, in which you estimate revenues by sizing the total market, determining market share, and forecasting prices. Alternatively, with the bottom-up approach, you can use the company's own forecasts of demand from existing customers, customer turnover, and the potential for new customers. When possible, use both methods to establish bounds for the forecast.
 
@@ -3620,7 +3619,7 @@ Whereas a top-down approach starts with the aggregate market and predicts penetr
 
 Regardless of the method, forecasting revenues over long time periods is imprecise. Customer preferences, technologies, and corporate strategies change. These often-unpredictable changes can profoundly influence the winners and losers in the marketplace. Therefore, you must constantly reevaluate whether the current forecast is consistent with industry dynamics, competitive positioning, and the historical evidence on corporate growth. If you lack confidence in your revenue forecast, use multiple scenarios to model uncertainty. Doing this not only will bound the forecast, but also will help company management make better decisions. A discussion of scenario analysis can be found in Chapter 16.
 
-# Step 3: Forecast the Income Statement
+## Step 3: Forecast the Income Statement
 
 With a revenue forecast in place, forecast individual line items related to the income statement. To forecast a line item, use a three-step process:
 
@@ -3702,7 +3701,7 @@ Next, forecast the taxes related to nonoperating accounts. Although such taxes a
 
 To determine the 2020 provision for income taxes, sum operating taxes ( \$24.0 million) and taxes related to nonoperating accounts (\$ 1.8 million). You now have a forecast of 22.2 million for reported taxes, calculated such that future values of FCF and ROIC will not change with leverage.
 
-# Step 4: Forecast the Balance Sheet: Invested Capital and Nonoperating Assets
+## Step 4: Forecast the Balance Sheet: Invested Capital and Nonoperating Assets
 
 To forecast the balance sheet, start with items related to invested capital and nonoperating assets. Do not forecast excess cash or sources of financing (such as debt and equity). Excess cash and sources of financing require special treatment and will be handled in step 5.
 
@@ -3760,7 +3759,7 @@ Regarding deferred-tax assets and liabilities, those used to occur primarily thr
 
 For sophisticated valuations that require extremely detailed forecasts, forecast deferred taxes line by line, tying each tax to its appropriate driver. In most situations, forecasting operating deferred taxes by computing the aggregate proportion of taxes likely to be deferred will lead to reasonable results. For instance, if operating taxes are estimated at 23.4 percent of EBITA and the company historically could defer one-fifth of operating taxes paid, we often assume it can defer one-fifth of 23.4 percent going forward. Operating-related deferred-tax liabilities will then increase by the amount deferred.
 
-# Step 5: Reconcile the Balance Sheet with Investor Funds
+## Step 5: Reconcile the Balance Sheet with Investor Funds
 
 To complete the balance sheet, forecast the company's sources of financing. To do this, rely on the rules of accounting. First, use the principle of clean surplus accounting:
 
@@ -3795,17 +3794,17 @@ To bring the capital structure on the balance sheet in line with the capital str
 How you choose to model the payout ratio depends on the requirements of the model. In most situations, you can adjust the dividend payout ratio or amount of repurchases by hand when needed (remember, the ratio does not affect value but rather brings excess cash and newly issued debt closer to reality). For more complex models, determine net debt (total debt less excess cash) by applying the target net-debt-to-value ratio modeled in the WACC at each point in time. Next, using the target debt-to-value ratio, solve for the required payout. To do this, however, you must perform a valuation in each forecast year and iterate backward—a time-consuming process for a feature that will not affect the final valuation.[16]
 
 
-# Step 6: Calculate ROIC and FCF
+## Step 6: Calculate ROIC and FCF
 
 Once you have completed your income statement and balance sheet forecasts, calculate ROIC and FCF for each forecast year. This process should be straightforward if you have already computed ROIC and FCF historically. Since a full set of forecast financials is now available, merely copy the two calculations from historical financials to projected financials.
 
 For companies that are creating value, future ROICs should fit one of three general patterns: ROIC should either remain near current levels (when the company has a distinguishable sustainable advantage), trend toward an industry or economic median, or trend to the cost of capital. Think through the economics of the business to decide what is appropriate. For more on long-term trends of ROIC, refer to Chapter 8.
 
-# ADVANCED FORECASTING
+## ADVANCED FORECASTING
 
 The preceding sections detailed the process for creating a comprehensive set of financial forecasts. When forecasting, you are likely to come across three advanced issues: forecasting using nonfinancial operating drivers, forecasting using fixed and variable costs, and handling the impact of inflation.
 
-# Nonfinancial Operating Drivers
+## Nonfinancial Operating Drivers
 
 Until now, the chapter has created forecasts that rely solely on financial drivers. In industries where prices are changing or technology is advancing, forecasts should incorporate nonfinancial ratios, such as volume and productivity.
 
@@ -3814,7 +3813,7 @@ Consider the turmoil in the airline industry during the early 2000s. Fares requi
 
 The same concept applies to advances in technology. For instance, rather than estimate labor as a percentage of revenues, you could forecast units per employee and average salary per employee. Separating these two drivers of labor costs allows you to model a direct relationship between productivity improvements from new technology and estimated changes in units per employee.
 
-# Fixed versus Variable Costs
+## Fixed versus Variable Costs
 
 When you are valuing a small project, it is important to distinguish fixed costs (incurred once to create a basic infrastructure) from variable costs (correlated with volume). When you are valuing an individual project, only variable costs should be increased as revenues grow.
 
@@ -3822,7 +3821,7 @@ At the scale of most publicly traded companies, however, the distinction between
 
 When an asset, such as computer software or a mobile app, is truly scalable, its development cost should be treated as a fixed cost. Be careful, however. Many technologies, such as computer software, quickly become obsolete, requiring new incremental expenditures for the company to remain competitive. In this case, a cost deemed fixed actually requires repeated cash outflows, just not in traditional ways.
 
-# Incorporating Inflation
+## Incorporating Inflation
 
 In Chapter 10, we recommended that financial-statement forecasts and the cost of capital be estimated in nominal currency units (with inflation), rather than real currency units (without inflation). To remain consistent, the nominally based financial forecast and the nominally based cost of capital must reflect the same expected general inflation rate. This means the inflation rate built into the forecast must be derived from an inflation rate implicit in the cost of capital.[18]
 
@@ -3852,11 +3851,11 @@ Exhibit 13.14 presents annualized growth in the U.S. consumer price index (CPI) 
 
 Inflation can distort historical analysis, especially when it exceeds 5 percent annually. In these situations, historical financials should be adjusted to reflect operating performance independent of inflation. We discuss the impact of high inflation rates in Chapter 26.
 
-# CONCLUDING THOUGHTS
+## CONCLUDING THOUGHTS
 
 In this chapter, we provided a detailed line-by-line process to create a set of financial forecasts. While it is important that the model reflect the complexities of the business you are analyzing, always keep a close eye on the bigger picture. Make sure resulting value drivers, such as ROIC and growth, are consistent with the past performance of the business and the industry's economics. When the model is complete, use the model to test the importance of various inputs. A sensitivity table can provide insight on not only the valuation but also on the actions management must undertake to capture it.
 
-# Estimating Continuing Value
+## Estimating Continuing Value
 
 A thoughtful estimate of continuing value is essential to any company valuation. It serves as a useful method for simplifying the valuation process while still incorporating solid economic principles. To estimate a company's value, separate the forecast of expected cash flow into two periods and define the company's value as follows:
 
@@ -3879,7 +3878,7 @@ EXHIBIT 14.1 Continuing Value as a Percentage of Total Value
 
 This chapter begins with the recommended continuing-value formulas for DCF and economic-profit valuation models. It then discusses concerns that arise out of common misinterpretations of continuing value, explaining how proper measurement addresses these concerns. Then we identify common pitfalls in estimation and offer best practices for avoiding these. Finally, we compare the recommended formulas with other common techniques, such as multiples and liquidation values.
 
-# RECOMMENDED FORMULA FOR DCF VALUATION
+## RECOMMENDED FORMULA FOR DCF VALUATION
 
 If you are using the enterprise DCF model, you should estimate continuing value by using the value driver formula derived in Chapter 3:
 
@@ -3948,11 +3947,11 @@ EXHIBIT 14.2 Impact of Continuing-Value Assumptions
 
 Exhibit 14.2 shows how continuing value, calculated using the value driver formula, is affected by various combinations of growth rate and RONIC. The example assumes a  \$100 million base level of NOPAT and a 10 percent WACC. For RONIC near the cost of capital, there is little change in value as the growth changes. This is because the company is taking on projects whose net present value is close to zero. At an expected RONIC of 14 percent, however, changing the growth rate from 6 percent to 8 percent increases the continuing value by 50 percent, from about\$ 1.4 billion to about 2.1 billion. The higher the RONIC, the more sensitive the continuing value is to changing growth rates.
 
-# Two-Stage Continuing-Value Models
+## Two-Stage Continuing-Value Models
 
 For high-growth companies or companies undergoing long-term structural changes, we recommend extending the explicit forecast period until the company reaches a steady state. If the resulting model is too cumbersome, use a multistage continuing value that aggregates multiple years into a single formula. In a two-stage model, the continuing value is split into a growth annuity followed by a growth perpetuity. This allows for distinct returns on capital and growth rates for different stages of the company's life, without the burden of year-by-year forecasts. We provide two-stage continuing-value formulas for discounted cash flow and economic-profit models in Appendix I.
 
-# CONTINUING VALUE USING ECONOMIC PROFIT
+## CONTINUING VALUE USING ECONOMIC PROFIT
 
 To estimate continuing value in an economic-profit valuation, we again rely on perpetuity-based formulas. With the economic-profit approach, however, the continuing value does not equal the value of the company following the explicit forecast period, as it does for discounted free cash flow. Instead, it is the incremental value over the company's invested capital at the end of the explicit forecast period. Today's value of the company is as follows:
 
@@ -3982,11 +3981,11 @@ RONIC  $=$  expected rate of return on new invested capital after the explicit f
 
 According to the formula, total economic profit following the explicit forecast period equals the present value of economic profit in the first year after the explicit forecast in perpetuity plus any incremental economic profit after that year. Incremental economic profit is created by additional growth at returns exceeding the cost of capital. If expected RONIC equals WACC, the third term (economic profits beyond year 1) equals zero, and the continuing economic-profit value is the value of just the first year's economic profit in perpetuity.
 
-# MISUNDERSTANDINGS ABOUT CONTINUING VALUE
+## MISUNDERSTANDINGS ABOUT CONTINUING VALUE
 
 Properly applied, continuing value can simplify your valuation while incorporating robust economic principles. In practice, however, proper application often requires correcting three common misunderstandings about continuing value. The first is the perception that the length of the explicit forecast affects the company's value. As we show in this section, only the split of value is changing, not the total value. Second, people incorrectly believe that value creation stops at the end of the explicit forecast period, when return on new invested capital is set equal to WACC in the continuing-value formula. As we demonstrate, since returns from existing capital carry into the continuing-value period, aggregate ROIC will only gradually approach the cost of capital. Finally, some investment professionals incorrectly infer that a large continuing value relative to the company's total value means that value creation occurs primarily after the explicit forecast period. This makes them uneasy about using enterprise DCF. In this section, we show why these concerns are not necessarily justified and why continuing value is more robust than often perceived.
 
-# Why Forecast Length Doesn't Affect a Company's Value
+## Why Forecast Length Doesn't Affect a Company's Value
 
 While the length of the explicit forecast period you choose is important, it does not affect the value of the company; it affects only the distribution of the company's value between the explicit forecast period and the years that follow. In Exhibit 14.3, the value of the company is 893 million, regardless of how long the forecast period is. With a forecast horizon of five years, the continuing value accounts for 79 percent of total value. With an eight-year horizon, the continuing value accounts for only 67 percent of total value. As the explicit forecast horizon grows longer, value shifts from the continuing value to the explicit forecast period, but the total value always remains the same.
 
@@ -4016,7 +4015,7 @@ The choice of forecast horizon will indirectly affect value if it is associated 
 
 So how do you choose the appropriate length of the explicit forecast period? The period should be long enough that the business will have reached a steady state by the end of it. Suppose you expect the company's margins to decline as its customers consolidate. Margins are currently 14 percent, and you forecast they will fall to 9 percent over the next seven years. In this case, the explicit forecast period must be at least seven years, because continuing-value approaches cannot account for the declining margin (at least not without complex computations). The business must be operating at an equilibrium level for the continuing-value approaches to be useful. If the explicit forecast period is more than seven years, there will be no effect on the company's total value.
 
-# Why Continuing Value Doesn't Mark the End of Competitive Advantage
+## Why Continuing Value Doesn't Mark the End of Competitive Advantage
 
 A related but subtle issue is the concept of the competitive-advantage period, or that period during which a company earns supernormal returns above the cost of capital. Although counterintuitive, setting RONIC equal to WACC in the continuing-value formula does not imply that the competitive-advantage period will conclude at the end of the explicit forecast period.
 
@@ -4030,7 +4029,7 @@ EXHIBIT 14.6 Gradual Decline in Average ROIC According to Continuing-Value Formu
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/75ea39cc-041a-437e-9d57-dabed85d38b7/ae1cab847fbe6d6cdb22560aef0cd93acb6d2f7261a19060a65a54a57e283358.jpg)
 EXHIBIT 14.7 Innovation Inc.: Free Cash Flow Forecast and Valuation
 
-# Why Value Isn't Just from Continuing Value
+## Why Value Isn't Just from Continuing Value
 
 "All the value is in the continuing value" is a comment we've often heard from dismayed executives. Exhibit 14.7 illustrates the problem for a hypothetical company, Innovation Inc. Based on discounted free cash flow, it appears that 80 percent of Innovation's value comes from the continuing value. But there are other interesting ways to interpret the source of value.
 
@@ -4045,7 +4044,7 @@ EXHIBIT 14.9 Innovation Inc.: Comparison of Continuing-Value Approaches or 74 pe
 
 It is possible to use the economic-profit model to generate another interpretation of continuing value. Exhibit 14.9 compares the components of value for Innovation Inc., using the discounted-FCF approach, the business components approach, and an economic-profit model. Under the economic-profit model, 35 percent of Innovation's value is simply the book value of invested capital. The rest of the value, 1,172 million, is the present value of projected economic profit. Of that, only 34 percent of total value is generated during the continuing-value period—a much smaller share than under the discounted-FCF model.
 
-# COMMON PITFALLS
+## COMMON PITFALLS
 
 Estimating a company's performance 10 to 15 years out is an imprecise exercise. Common mistakes in continuing value estimation include erroneously extrapolating base-year cash flow, as well as making overly conservative assumptions on capital returns, both naively and purposely.
 
@@ -4053,7 +4052,7 @@ EXHIBIT 14.10 Correct and Incorrect Methods of Forecasting Base FCF
 
 <table><tr><td colspan="6">$ million</td></tr><tr><td></td><td></td><td></td><td colspan="3">Year 11, 5\% growth</td></tr><tr><td></td><td></td><td>Year 9</td><td>Year 10</td><td>Incorrect</td><td>Correct</td></tr><tr><td></td><td>Revenues</td><td>1,000</td><td>1,100</td><td>1,155</td><td>1,155</td></tr><tr><td></td><td>Operating expenses</td><td>(850)</td><td>(935)</td><td>(982)</td><td>(982)</td></tr><tr><td></td><td>EBITA</td><td>150</td><td>165</td><td>173</td><td>173</td></tr><tr><td></td><td>Operating taxes</td><td>(60)</td><td>(66)</td><td>(69)</td><td>(69)</td></tr><tr><td></td><td>NOPAT</td><td>90</td><td>99</td><td>104</td><td>104</td></tr><tr><td></td><td>Depreciation</td><td>27</td><td>30</td><td>32</td><td>32</td></tr><tr><td></td><td>Gross cash flow</td><td>117</td><td>129</td><td>136</td><td>136</td></tr><tr><td></td><td>Capital expenditures</td><td>(30)</td><td>(33)</td><td>(35)</td><td>(35)</td></tr><tr><td></td><td>Increase in working capital</td><td>(27)</td><td>(30)</td><td>(32)</td><td>(17)</td></tr><tr><td></td><td>Gross investment</td><td>(57)</td><td>(63)</td><td>(67)</td><td>(52)</td></tr><tr><td></td><td>Free cash flow</td><td>60</td><td>66</td><td>69</td><td>84</td></tr><tr><td></td><td>Supplemental calculations</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>Working capital, year-end</td><td>300</td><td>330</td><td>362</td><td>347</td></tr><tr><td></td><td>Working capital/revenues, \%</td><td>30.0</td><td>30.0</td><td>31.3</td><td>30.0</td></tr></table>
 
-# Erroneous Base-Year Extrapolation
+## Erroneous Base-Year Extrapolation
 
 Exhibit 14.10 illustrates a common error in forecasting the base level of free cash flow: assuming that the investment rate is constant, so that NOPAT, investment, and FCF all grow at the same rate. From year 9 to year 10 (the last forecast year), the company's earnings and cash flow grow by 10 percent. It is believed that revenue growth in the continuing-value period will be 5 percent per year. A common, yet incorrect, forecast for year 11 (the continuing-value base year) simply increases every line item from year 10 by 5 percent, as shown in the third column. This forecast is wrong because the increase in working capital is far too large, given the smaller increase in sales. Since revenues are growing more slowly, the proportion of gross cash flow devoted to working capital requirements should decline significantly, as shown in the last column. In the final column, the increase in working capital should be the amount necessary to maintain the year-end working capital at a constant percentage of revenues.
 
@@ -4062,17 +4061,17 @@ The erroneous approach continually increases working capital as a percentage of 
 To avoid making an error in estimating final-year cash flow, we highly recommend using the value driver formula instead of the cash flow perpetuity model. The value driver model implicitly computes the required investment based on expectations of growth and ROIC.
 
 
-# Naive Overconservatism
+## Naive Overconservatism
 
 Many investment professionals routinely assume that the incremental return on capital during the continuing-value period will equal the cost of capital. This practice relieves them of having to forecast a growth rate, since growth in this case neither adds nor destroys value. For some businesses, this assumption is too conservative. For example, both Coca-Cola's and PepsiCo's soft-drink businesses earn high returns on invested capital, and their returns are unlikely to fall substantially as they continue to grow, due to the strength of their brands, high barriers to entry, and limited competition. For these businesses, an assumption that RONIC equals WACC would understate their values. This problem applies equally to almost any business selling a product or service that is unlikely to be duplicated, including many pharmaceutical companies, numerous consumer products companies, and some software companies.
 
 However, even if RONIC remains high, growth will drop as the market matures. Therefore, any assumption that RONIC is greater than WACC should be coupled with an economically reasonable growth rate.
 
-# Purposeful Overconservatism
+## Purposeful Overconservatism
 
 Some investment professionals are overly conservative because of the uncertainty and size of the continuing value. But if continuing value is to be estimated properly, the uncertainty should cut both ways: the results are just as likely to be higher than an unbiased estimate as they are to be lower. So conservatism overcompensates for uncertainty. Uncertainty matters, but it should be modeled using scenarios, not through conservatism regarding ROIC or growth in the continuing-value formula.
 
-# OTHER APPROACHES TO CONTINUING VALUE
+## OTHER APPROACHES TO CONTINUING VALUE
 
 Several alternative approaches to estimating continuing value are used in practice. A few approaches are acceptable if applied carefully, but in general, these alternatives often produce misleading results. We prefer the methods
 
@@ -4083,7 +4082,7 @@ EXHIBIT 14.11 Continuing-Value Estimates for a Sporting Goods Company
 
 The most common techniques fall into three categories: other DCF approaches, multiples, and asset-based valuations. This section describes techniques in these categories and explains why we prefer the approaches we recommended earlier.
 
-# Other DCF Approaches
+## Other DCF Approaches
 
 The recommended DCF formulas can be modified to create additional continuing-value formulas with more restrictive (and sometimes unreasonable) assumptions.
 
@@ -4157,7 +4156,7 @@ EXHIBIT 14.12 Rates of Return Implied by Alternative Continuing-Value Formulas
 
 Exhibit 14.12 compares the two variations of the key value driver formula, showing how the average return on invested capital (both existing and new investment) behaves under the two assumptions. In the aggressive-growth case, NOPAT grows without any new investment, so the return on invested capital eventually approaches infinity. In the convergence case, the average return on invested capital moves toward the weighted average cost of capital as new capital becomes a larger portion of the total capital base.
 
-# Multiples
+## Multiples
 
 Multiples, also known as comparables, assume that a company will be worth some multiple of future earnings or book value in the continuing period. But how do you estimate an appropriate future multiple?
 
@@ -4165,7 +4164,7 @@ A common approach is to assume that the company will be worth a multiple of earn
 
 When valuing an acquisition, companies sometimes fall into the circular reasoning that the multiple for the continuing value should equal the multiple paid for the acquisition. In other words, if I pay 15 times EBITDA today, I should be able to sell the business for 15 times EBITDA at the end of the explicit forecast period. In most cases, the reason a company is willing to pay a particular multiple for an acquisition is that it plans to improve the target's profitability. So the effective EBITDA multiple it is paying on the improved level of EBITDA will be much less than 15. Once the improvements are in place and earnings are higher, buyers will not be willing to pay the same multiple unless they can make additional improvements beyond those already made. Chapter 18 describes other common mistakes made when using multiples.
 
-# Asset-Based Valuations
+## Asset-Based Valuations
 
 Unlike the previous methods, which rely on future cash flow or earnings, estimating continuing value using replacement cost or liquidation value is known as an asset-based approach. Since these approaches ignore the future potential of the company, use them only in situations where ongoing operations are in jeopardy.
 
@@ -4173,14 +4172,14 @@ The liquidation value approach sets the continuing value equal to the estimated 
 
 The replacement cost approach sets the continuing value equal to the expected cost to replace the company's assets. This approach has at least two drawbacks. First, not all tangible assets are replaceable. The company's organizational capital can be valued only on the basis of the cash flow the company generates. The replacement cost of just the company's tangible assets may greatly understate the value of the company. Second, not all the company's assets will ever be replaced. Consider a machine used by a particular company. As long as it generates a positive cash flow, the asset is valuable to the ongoing business of the company. But the replacement cost of the asset may be so high that replacing it is not economical. Here, the replacement cost may exceed the value of the business as an ongoing entity.
 
-# CLOSING THOUGHTS
+## CLOSING THOUGHTS
 
 The future is inherently unknowable, so it is understandable why many professionals are skeptical about enterprise DCF models that rely on a continuing-value formula. This skepticism may be warranted in some cases, but for many valuations, disaggregating the continuing value into its economic components can show why these concerns are overstated. Remember, the value of a company is merely its invested capital plus the economic profits it generates on that capital. If most of the value creation occurs during the explicit forecast period, then the continuing value plays a much smaller role than the free cash flow would lead you to believe.
 
 
 When estimating continuing value, remember to follow a few simple guidelines for successful valuation. First, use the key value driver formula to estimate continuing value. Unlike the free-cash-flow model, the value driver formula implicitly models the correct investment required for growth. Second, carefully assess the value drivers at the time of continuing value. The value drivers should be consistent with the company's potential in the future, rather than today's performance or economic environment. We believe a thoughtful analysis will lead to insights not available with other models.
 
-# Estimating the Cost of Capital
+## Estimating the Cost of Capital
 
 To value a company using enterprise discounted cash flow (DCF), discount your forecast of free cash flow (FCF) at the weighted average cost of capital (WACC). The WACC represents the returns that all investors in a company—equity and debt—expect to earn for investing their funds in one particular business instead of others with similar risk. The investment return they are forgoing is also referred to as their opportunity cost of capital. Since a company's investors will earn the cost of capital if the company meets expectations, the cost of capital is used interchangeably with expected return.
 
@@ -4188,7 +4187,7 @@ The WACC has three primary components: the cost of equity, the after-tax cost of
 
 This chapter begins with a brief summary of the WACC calculation and then presents detailed sections on how to estimate its components: the cost of equity, the after-tax cost of debt, and the target capital structure, which is used to weight the first two components. The chapter concludes with a discussion of WACC estimation for companies whose capital structure is more complex than just traditional debt and common stock.
 
-# CALCULATING THE WEIGHTED AVERAGE COST OF CAPITAL
+## CALCULATING THE WEIGHTED AVERAGE COST OF CAPITAL
 
 In its simplest form, the weighted average cost of capital equals the weighted average of the after-tax cost of debt and cost of equity:
 
@@ -4230,14 +4229,14 @@ Always estimate the WACC in a manner consistent with the principles of free cash
 - It must be based on the same expectations of inflation as those embedded in forecasts of free cash flow.
 - The duration of the securities used to estimate the cost of capital must match the duration of the cash flows.
 
-# ESTIMATING THE COST OF EQUITY
+## ESTIMATING THE COST OF EQUITY
 
 The cost of equity is the central building block of the cost of capital. Unfortunately, it is also extremely difficult to measure. Academics and practitioners have proposed numerous models to estimate the cost of equity, but none have been reliable, especially at the company level. Even if a model could be agreed upon, accurately measuring the required inputs has also proven elusive. Consequently, deriving the cost of equity is far more difficult in practice than many core finance texts imply. With these hurdles in mind, we estimate the cost of equity in two steps:
 
 1. Estimate market return. First, we estimate the expected return on the entire stock market. Although a particular company will not necessarily have the same cost of capital as the market as a whole, the market return provides a critical benchmark for judging how reasonable estimates of cost of equity for individual companies are.
 2. Adjust for risk. We next adjust for company risk using one of two well-known models, the capital asset pricing model (CAPM) and the Fama-French three-factor model. Each model measures company risk by measuring the correlation of its stock price to market changes, known as beta. Since estimates of beta are at best imprecise, we rely on peer group betas, rather than individual company betas.
 
-# Estimating the Market Return
+## Estimating the Market Return
 
 Every day, thousands of investors attempt to estimate the market's expected return. Since the future is unobservable, many practitioners use one of two approaches to estimate it.
 
@@ -4343,7 +4342,7 @@ Do not use a short-term Treasury bill to determine the risk-free rate. When intr
 
 Closing Thoughts on Expected Market Returns Although many in the finance profession disagree about how to measure the market risk premium, we believe a number around 5 percent is appropriate. Historical estimates found in various textbooks (and locked in the minds of many), which often report numbers near 8 percent, are too high for valuation purposes, because they compare the market risk premium versus Treasury bills (very-short-term bonds) and are biased by the historical strength of the U.S. market.
 
-# Adjust for Industry/Company Risk
+## Adjust for Industry/Company Risk
 
 Once you've estimated the cost of equity for the market as a whole, adjust it for differences in risk across companies. Keep in mind the discussion from Chapter 4 about the difference between diversifiable and nondiversifiable risk. Only the nondiversifiable risk that investors cannot eliminate by holding a portfolio of stocks is incorporated into the cost of equity.
 
@@ -4533,7 +4532,7 @@ Otherwise, arbitrage (positive return with zero risk) is possible.
 
 On paper, the theory is extremely powerful. Any deviations from the model result in unlimited returns with no risk. In practice, implementation of the model has been tricky, as there is little agreement about how many factors there are, what they represent, and how to measure them. For this reason, use of the APT resides primarily in the classroom.
 
-# ESTIMATING THE AFTER-TAX COST OF DEBT
+## ESTIMATING THE AFTER-TAX COST OF DEBT
 
 The weighted average cost of capital blends the cost of equity with the after-tax cost of debt. To estimate the cost of debt for investment-grade companies, use the yield to maturity of the company's long-term, option-free bonds. Multiply your estimate of the cost of debt by 1 minus the marginal tax rate to determine the cost of debt on an after-tax basis.
 
@@ -4541,7 +4540,7 @@ Technically speaking, yield to maturity is only a proxy for expected return, bec
 
 For companies with below-investment-grade debt, we recommend one of two methods. If the debt-to-value ratio is uncharacteristically high, estimate the cost of debt using a target capital structure that better reflects the long-term dynamics of the industry. If the company's strategy includes substantial leverage, value the company using adjusted present value (APV) discounted at the unlevered cost of equity, rather than the WACC.
 
-# Yield to Maturity as a Proxy
+## Yield to Maturity as a Proxy
 
 To solve for yield to maturity (YTM), reverse engineer the discount rate required to set the present value of the bond's promised cash flows equal to its price:
 
@@ -4575,7 +4574,7 @@ Because the duration of Costco's longest-maturity debt was less than ten years, 
 
 Using the company's bond ratings to determine the yield to maturity is a good alternative to calculating the yield to maturity directly from bond prices. Never, however, approximate the yield to maturity using a bond's coupon rate. Coupon rates are set by the company at time of issuance and approximate the yield only if the bond trades near its par value. When valuing a company, you must estimate expected returns relative to today's comparable investments. Thus, when you measure the cost of debt, estimate what a comparable investment would earn if bought or sold today.
 
-# Cost of Below-Investment-Grade Debt
+## Cost of Below-Investment-Grade Debt
 
 In practice, few financial analysts distinguish between expected and promised returns. But for debt below investment grade, rated BB or below, using the yield to maturity as a proxy for the cost of debt can significantly overestimate the cost of debt.
 
@@ -4601,7 +4600,7 @@ When a company is not investment-grade, start by assessing the company's financi
 
 If the company purposely maintains a debt rating below investment grade, we do not recommend using the weighted average cost of capital to value the company. Instead, use adjusted present value. The APV model discounts projected free cash flow at the company's industry-based unlevered cost of equity and adds the present value of tax shields. For more on APV valuation, see Chapter 10.
 
-# Incorporating the Interest Tax Shield
+## Incorporating the Interest Tax Shield
 
 To calculate free cash flow (using techniques detailed in Chapters 10 and 11), we compute taxes as if the company were entirely financed by equity. By using all-equity taxes, it is possible to make comparisons across companies and over time, without regard to capital structure. Yet since the tax shield has value, it must be accounted for. In an enterprise DCF using the WACC, the tax shield is valued as part of the cost of capital. To value the tax shield, reduce the cost of debt by the marginal tax rate:
 
@@ -4613,7 +4612,7 @@ Chapters 10 and 11 detail how to calculate the marginal tax rate for historical 
 
 For companies with either low or volatile earnings, the statutory tax rate may overstate the marginal tax rate in future years. According to research by John Graham, the statutory marginal tax rate overstates the future marginal tax rate because of rules related to tax loss carryforwards, tax loss carrybacks, investment tax credits, and alternative minimum taxes.[27] Graham uses simulation to estimate the realizable marginal tax rate on a company-by-company basis. Graham estimates that the marginal tax rate is on average five percentage points below the statutory rate, primarily driven by smaller, less profitable companies.
 
-# FORECASTING TARGET CAPITAL STRUCTURE TO WEIGHT WACC COMPONENTS
+## FORECASTING TARGET CAPITAL STRUCTURE TO WEIGHT WACC COMPONENTS
 
 With our estimates of the cost of equity and after-tax cost of debt in hand, it is now possible to blend the two expected returns to estimate the WACC. To do this, use the target weights of debt (net of excess cash) and equity to enterprise value (net of excess cash) on a market basis:
 
@@ -4629,7 +4628,7 @@ Many companies are already near their target capital structure. If the company y
 
 To estimate the target capital structure from an external perspective, first estimate the company's current market-value-based capital structure. Next, review the capital structure of comparable companies. Finally, examine management's implicit or explicit approach to financing and its implications for the target capital structure. We discuss each step next.
 
-# Current Capital Structure
+## Current Capital Structure
 
 To determine the company's current capital structure, measure the market value of all claims against enterprise value. For most companies, the claims will consist primarily of traditional debt and equity (this chapter's final section addresses more complex securities). If a company's debt and equity are publicly traded, simply multiply the quantity of each security by its most recent price. Most difficulties arise when securities are not traded and prices cannot be readily observed.
 
@@ -4653,7 +4652,7 @@ At this point, you may be wondering why you are valuing the company if you are g
 
 For privately held companies, the equity value is unobservable. In this case, you must determine equity value (for the cost of capital) either using a multiples approach or through DCF iteratively. To perform an iterative valuation, assume a reasonable capital structure, and value the enterprise using DCF. Using the estimate of debt-to-enterprise value, repeat the valuation. Continue this process until the valuation no longer materially changes.
 
-# Capital Structure of Peer Companies
+## Capital Structure of Peer Companies
 
 To place the company's current capital structure in the proper context, compare its capital structure with those of similar companies. Exhibit 15.11 presents the median debt-to-value levels for ten industries. As the exhibit shows, high-growth industries like software and IT services, especially those with intangible investments, tend to use very little debt. In fact, many companies hold more excess cash than debt, causing the net debt ratio to be negative.[29]
 
@@ -4661,11 +4660,11 @@ Industries with heavy fixed investment in tangible assets, like mining and utili
 
 It is perfectly acceptable for a company's capital structure to be different from that of its industry. But you should understand why. For instance, is the company philosophically more aggressive or innovative in the use of debt financing, or is the capital structure only a temporary deviation from a more conservative target? Often, companies finance acquisitions with debt they plan to retire quickly or refinance with a stock offering. Alternatively, is there anything different about the company's cash flow or asset intensity that can explain the difference? Determine the cause for any difference before applying a target capital structure.
 
-# Management's Financing Philosophy
+## Management's Financing Philosophy
 
 As a final step, review management's historical financing philosophy. Even better, question management outright, if possible. Has the current team been actively managing the company's capital structure? Is the management team aggressive in its use of debt? Or is it overly conservative? Consider Garmin, the personal-technology company that makes GPS devices. Although cash flow is strong and stable, the company rarely issues debt. From a financing perspective, it doesn't need to issue additional securities; investments can be funded with current profits.
 
-# ESTIMATING WACC FOR COMPLEX CAPITAL STRUCTURES
+## ESTIMATING WACC FOR COMPLEX CAPITAL STRUCTURES
 
 The weighted average cost of capital is determined by weighting each security's expected return by its proportional contribution to total value. For a complex security, such as convertible debt, measuring expected return is challenging. Is a convertible bond similar enough to straight debt, enabling us to use the yield to maturity? Or is it like equity, enabling us to use the CAPM? In actuality, it is neither, so we recommend an alternative method.
 
@@ -4673,11 +4672,11 @@ If the treatment of hybrid securities will make a material difference in valuati
 
 In some situations, you may still desire an accurate representation of the WACC. In these cases, split hybrid securities into their individual components. For instance, you can replicate a convertible bond by combining a traditional bond with a call option on the company's stock. You can further disaggregate a call option into a portfolio consisting of a risk-free bond and the company's stock. By converting a complex security into a portfolio of debt and equity, you once again have the components required for the traditional cost of capital. The process of using replicating portfolios to value options is discussed in Chapter 39.
 
-# CLOSING THOUGHTS
+## CLOSING THOUGHTS
 
 The cost of capital is one of the most hotly debated topics in the field of finance. While robust statistical techniques have improved our understanding of the issues, a practical measurement of the cost of capital remains elusive. Nonetheless, we believe the steps outlined in this chapter, combined with a healthy perspective of long-term trends, will lead to a cost of capital that is reliable and reasonable. Even so, do not let a lack of precision overwhelm you. A company creates value when ROIC exceeds the cost of capital, and for many of our clients, the variation in ROIC across projects greatly exceeds any variation in the cost of capital. Smart selection of strategies and their corresponding investments based on forward-looking ROIC, not a precise measurement of the cost of capital, often generates most of the impact in day-to-day decision making.
 
-# Moving from Enterprise Value to Value per Share
+## Moving from Enterprise Value to Value per Share
 
 When you have completed the valuation of core operations, as described in Chapter 10, you are ready to estimate enterprise value, equity value, and value per share. Enterprise value represents the value of the entire company, while equity value represents the portion owned by shareholders.
 
@@ -4687,7 +4686,7 @@ While nonoperating assets and nonequity claims may feel like an afterthought, th
 
 This chapter lays out the process for converting core operating value into enterprise value and subsequently into equity value. The chapter goes step-by-step through the process of identifying and valuing the most common nonoperating assets, debt and debt equivalents, hybrid securities, and noncontrolling interests, ending with the final step in valuation—estimating the intrinsic value per share.[2]
 
-# THE VALUATION BUILDUP PROCESS
+## THE VALUATION BUILDUP PROCESS
 
 The valuation buildup begins with a company's core operating value, based on discounted cash flow (DCF)—the top line of the example shown in Exhibit 16.1. This amount plus nonoperating assets equals enterprise value. The equity value—the bottom line in the exhibit—is the value that remains after subtracting from the enterprise value all the nonequity claims, which include interest-bearing debt, debt equivalents, and hybrid claims. We use the term nonequity claim because there are many financial claims against a company's cash flows other than traditional fixed-coupon debt and shareholders' equity.
 
@@ -4703,13 +4702,13 @@ Nonequity claims are financial claims against enterprise value whose expenses ar
 
 Nonequity claims also include hybrid securities, such as preferred stock, convertible securities, and employee options, which have characteristics of both debt and equity. Such hybrids require special care: their valuations are highly dependent on enterprise value, so you should value them using option-pricing models rather than book value. Finally, if other shareholders have noncontrolling interests against certain consolidated subsidiaries, deduct the value of the noncontrolling interests to determine equity value. Like hybrid securities, noncontrolling interests will correlate with enterprise value, so extra care is required.
 
-# VALUING NONOPERATING ASSETS
+## VALUING NONOPERATING ASSETS
 
 Although not included in free cash flow, nonoperating assets still represent value to the shareholder. Thus, to arrive at enterprise value, you must estimate the market value of each nonoperating asset separately and add the resulting value to the DCF value of operations. If necessary, adjust for circumstances that could affect shareholders' ability to capture the full value of these assets. For example, if the company has announced it will sell off a nonoperating asset in the near term, deduct the estimated capital gains taxes (if any) on the asset from its market value. If ownership of the asset is shared with another company, include only your company's portion of the value.
 
 This section identifies the most common nonoperating assets and describes how to handle each of them in the valuation.
 
-# Excess Cash and Marketable Securities
+## Excess Cash and Marketable Securities
 
 As discussed in Chapter 11, companies often hold more cash and marketable securities than they need to run the business. Companies hold excess cash for a number of reasons, parking it in short-term securities until they can invest it or return it to shareholders. Prior to the change in American tax laws in 2018, American companies held significant amounts of excess cash when they had substantial earnings outside the United States. They were reluctant to repatriate cash because they were required to pay any difference in taxes upon repatriation. With a drop in the corporate tax rate from 35 percent to 21 percent, many companies have committed to repatriating cash. How they deploy this cash will unfold over time, but it will probably consist of new investment, increased dividends, and significant share repurchases.[4]
 
@@ -4717,7 +4716,7 @@ You should make an estimate of how much the business needs for operations. The r
 
 Cash and marketable securities are reported on a company's balance sheet at fair market value. You can use these assets' book value in your valuation, unless you have reason to believe they have significantly changed in value since the reporting date (as in the limited case of volatile equity holdings).
 
-# Investments in Nonconsolidated Companies
+## Investments in Nonconsolidated Companies
 
 Companies often invest in other companies without taking control, and hence they do not consolidate the investment's financial statements into their own. Investments in nonconsolidated companies can be found on the balance sheet under many names. For instance, Philips reports its investments in nonconsolidated companies as investments in associates, Intel reports them as equity investments, and PPG Industries reports them as investment in equity affiliates.
 
@@ -4755,11 +4754,11 @@ Build forecasts for how the equity-based key value drivers (net income growth an
 
 You should triangulate your results as much as possible, given the lack of precision for these valuation approaches.
 
-# Loans to Other Companies
+## Loans to Other Companies
 
 For loans to nonconsolidated subsidiaries and other companies, use the reported book value. This is a reasonable approximation of market value if the loans were given at fair market terms and if the borrower's credit risk and general interest rates have not changed significantly since issuance. If this is not the case and the investment is substantial, you should perform a separate DCF valuation of the promised interest and principal payments at the yield to maturity for corporate bonds with similar risk and maturity.
 
-# Finance Subsidiaries
+## Finance Subsidiaries
 
 To make their products more accessible, some companies operate customer financing businesses. Because financial subsidiaries differ greatly from manufacturing and services businesses, it is critical to separate revenues, expenses, and balance sheet accounts associated with the subsidiary from core operations. Failing to do so will distort return on invested capital, free cash flow, and ultimately your perspective on the company's valuation.
 
@@ -4767,21 +4766,21 @@ Once the finance subsidiary is separated from operations, use the reorganized fi
 
 We present the valuation of a company with a finance subsidiary in Chapter 19, and we cover bank valuation in Chapter 38.
 
-# Discontinued Operations
+## Discontinued Operations
 
 Discontinued operations are businesses being sold or closed. The earnings from discontinued operations are explicitly shown in the income statement, and the associated net asset position is disclosed on the balance sheet. Because discontinued operations are no longer part of a company's operations, their value should not be modeled as part of free cash flow or included in the DCF value of operations. Under U.S. GAAP and IFRS, the assets and liabilities associated with the discontinued operations are written down to their fair value and disclosed as a net asset on the balance sheet, so the most recent book value is usually a reasonable approximation.[8]
 
-# Excess Real Estate
+## Excess Real Estate
 
 Excess real estate and other unutilized assets are assets no longer required for the company's operations. As a result, any cash flows that the assets generate are excluded from the free-cash-flow projection, and the assets are not included in the DCF value of operations. Identifying these assets in an outside-in valuation is nearly impossible unless they are specifically disclosed in the company's footnotes. For that reason, only internal valuations are likely to include their value separately as a nonoperating asset. For excess real estate, use the most recent appraisal value when it is available. Alternatively, estimate the real estate value either by using a multiple, such as value per square meter, or by discounting expected future cash flows from rentals at the appropriate cost of capital. Of course, be careful to exclude any operating real estate from these figures, because that value is implicitly included in the free-cash-flow projections and value of operations.
 
 We do not recommend a separate valuation for unutilized operating assets unless they are expected to be sold in the near term. If the financial projections for the company reflect growth, the value of any underutilized assets should instead be captured in lower future capital expenditures.
 
-# Excess Pension Assets
+## Excess Pension Assets
 
 Surpluses in a company's pension funds show up as net pension assets on the balance sheet and typically reported at market value.[9] (Small amounts are typically embedded within other assets.) On an after-tax basis, the pension's value depends on management's plans. If pensions are expected to be dissolved soon, subtract liquidation taxes—typically set higher than the statutory tax rate—from the market value of excess pension assets. Otherwise, subtract taxes at the statutory rate, which reflects the need for lower future contributions. For details on pension accounting and valuation, see Chapter 23.
 
-# Tax Loss Carryforwards
+## Tax Loss Carryforwards
 
 When a company generates a loss in a given year, it can accumulate those losses and net them against future income, thereby reducing future taxes.[10] This is known as a tax loss carryforward. Since tax savings will increase future cash flows, estimate their value using discounted cash flow, and add your result to the company's value of operations.
 
@@ -4793,7 +4792,7 @@ To estimate the present value, forecast the year-by-year tax savings based on yo
 
 Finally, be careful not to double-count future tax savings by also incorporating them into the projected free cash flow. Since we value tax loss carryforwards separately, the tax loss carryforward is classified as a nonoperating asset and not included as part of either net operating profit after taxes (NOPAT) or invested capital.
 
-# VALUING INTEREST-BEARING DEBT
+## VALUING INTEREST-BEARING DEBT
 
 With enterprise value in hand, subtract the value of nonequity claims to determine equity value. Nonequity claims are found in the liability and equity sections of the balance sheet. Nonequity claims include traditional interest-bearing debt, debt equivalents such as unfunded retirement obligations, and hybrid securities that have characteristics of both debt and equity. In this section, we discuss traditional interest-bearing debt.
 
@@ -4825,11 +4824,11 @@ Equity value equals enterprise value less the face value of debt, or zero, which
 
 rather than scenario analysis to value equity, however, has practical drawbacks. First, to model the distribution of enterprise values, you must forecast the expected change and volatility for each source of uncertainty, such as revenue growth and gross margin. This too easily becomes a mechanical exercise that replaces a thoughtful analysis of the underlying economics of potential scenarios. Second, most options models treat each source of uncertainty as independent of the others. This can lead to outcomes that are economically unrealistic. For these reasons, we believe a thoughtful scenario analysis will lead to a better-informed and more accurate valuation than an advanced options model will.
 
-# VALUING DEBT EQUIVALENTS
+## VALUING DEBT EQUIVALENTS
 
 Debt equivalents have the characteristics of debt but are not formal loan contracts or traded securities. They include operating provisions such as plant decommissioning, nonoperating provisions such as restructuring charges, operating leases, and contingent liabilities such as pending lawsuits. We discuss the most common debt equivalents next.
 
-# Provisions
+## Provisions
 
 Certain provisions other than retirement-related liabilities must be deducted as debt equivalents. We distinguish four types of provisions (as introduced in Chapter 11 and discussed in detail in Chapter 21) and value them as follows:
 
@@ -4838,7 +4837,7 @@ Certain provisions other than retirement-related liabilities must be deducted as
 3. Nonoperating provisions (in cases such as restructuring charges resulting from layoffs) should be deducted from enterprise value as a debt equivalent. Although a discounted value would be ideal, the book value from the balance sheet is often a reasonable approximation. These provisions are recorded on the financial statements at a nondiscounted value, because outlays are usually made in the near term.
 4. Income-smoothing provisions should be eliminated from NOPAT. Consequently, they should not be deducted from enterprise value. For an example of income smoothing, see the sale-leaseback example for FedEx presented at the end of Chapter 11.
 
-# Leases
+## Leases
 
 Starting in 2019, companies are required to recognize nearly all leases, including operating leases, on the balance sheet. For companies that report using IFRS, lease-related interest is recorded as a financial expense, and lease-related liabilities are incorporated within debt. Therefore, no adjustment is required.
 
@@ -4846,19 +4845,19 @@ For companies that report using U.S. GAAP, there are two types of leases: financ
 
 Chapter 22 details the new accounting rules, required adjustments, and valuation of leases.
 
-# Unfunded Retirement Obligations
+## Unfunded Retirement Obligations
 
 Unfunded retirement obligations, such as unfunded pensions and post-retirement medical benefits, should be treated as debt equivalents and deducted from enterprise value to determine equity value. Since the future contributions to eliminate unfunded liabilities are tax deductible at the marginal tax rate, multiply unfunded pension liabilities by 1 minus the statutory income tax rate. For details on pension accounting and valuation, see Chapter 23.
 
-# Contingent Liabilities
+## Contingent Liabilities
 
 Certain liabilities are not disclosed in the balance sheet but are separately discussed in the notes to the balance sheet. Examples are possible liabilities from pending litigation and loan guarantees. When possible, estimate each liability's expected after-tax cash flows (if the costs are tax deductible), and discount these at the cost of debt. Unfortunately, an external assessment of the probability of such cash flows materializing is challenging, so the valuation should be interpreted with caution. To provide some boundaries on your final valuation, estimate the value of contingent liabilities for a range of probabilities.
 
-# VALUING HYBRID SECURITIES AND NONCONTROLLING INTERESTS
+## VALUING HYBRID SECURITIES AND NONCONTROLLING INTERESTS
 
 For stable, profitable companies, the current values of debt and debt equivalents are typically independent of enterprise value. For hybrid securities and noncontrolling interests, this is not the case. Each must be valued in conjunction with estimates of enterprise value. The most common hybrid securities are convertible debt, convertible preferred stock, and employee stock options. We will detail the treatment of all three, as well as noncontrolling interests.
 
-# Convertible Securities
+## Convertible Securities
 
 Convertible bonds are corporate bonds that can be exchanged for common equity at a predetermined conversion ratio.[19] Convertible preferred stock has the same basic structure as convertible bonds, except convertible stock often comes with other rights of control, such as board seats. Both have become a major source of financing for publicly traded technology companies.[20] A convertible bond is essentially a package of a straight corporate bond plus a call option on equity (the conversion option). Because the conversion option can have significant value, this form of debt requires treatment different from that of regular corporate debt.
 
@@ -4905,7 +4904,7 @@ In its annual report, Square reports, "The Company entered into convertible note
 
 Although Square does not report the value of the hedge on the balance sheet or in the notes, the company does disclose that "the convertible note hedge and warrant transactions may affect the value of our Class A common stock." Even with the recent improvements in accounting transparency, a diligent analysis of the notes continues to be critical!
 
-# Employee Stock Options
+## Employee Stock Options
 
 Many companies offer their employees stock options as part of their compensation. Options give the holder the right, but not the obligation, to buy company stock at a specified price, known as the exercise price. Since employee stock options have long maturities and the company's stock price could eventually rise above the exercise price, options can have great value.
 
@@ -4933,13 +4932,13 @@ With 33.2 million options outstanding, the aggregate value of options is valued 
 
 Under the exercise value approach, employee options are assumed to be exercised immediately. According to Square's 2018 10-K, 33,152,881 shares can be exercised at an average strike price of  \$9.52, for total proceeds of\$ 315.6 million. Exercise of employee options generates cash for the company and increases shares outstanding from 419.7 million to 452.8 million. Dividing equity value by diluted shares leads to a value of 56.1, slightly lower than the value under the Black-Scholes method.
 
-# Noncontrolling Interests by Other Companies
+## Noncontrolling Interests by Other Companies
 
 When a company controls a subsidiary but does not fully own it, the subsidiary's financial statements must be fully consolidated in the group accounts. The subsidiary's assets and liabilities will be indistinguishable from the parent company's accounts, but the portion of the subsidiary's equity not owned by the parent company will be separated from other equity accounts as noncontrolling interest.[30] Since the full value of the subsidiary will be incorporated into the value of operations, a valuation adjustment must be made for the portion of the subsidiary not owned by the parent company being valued.
 
 Because noncontrolling interests by other companies are to a certain extent the mirror image of nonconsolidated assets, the recommended valuation approach for noncontrolling interests is similar to that of nonconsolidated assets, described earlier in this chapter. In the case of a minority carve-out (in which the consolidated but not fully owned subsidiary is publicly traded), deduct the proportional market value owned by outsiders from enterprise value to determine equity value. Alternatively, you can perform a separate valuation using a DCF approach, multiples, or a tracking portfolio, depending on the amount of information available. Remember, however, that a noncontrolling interest is a claim on a subsidiary, not the entire company. Thus, any valuation should be directly related to the subsidiary and not to the company as a whole.
 
-# ESTIMATING VALUE PER SHARE
+## ESTIMATING VALUE PER SHARE
 
 The final step in a valuation is to calculate the value per share. Assuming that you have used an option-based valuation approach for convertible bonds and employee options, divide the total equity value by the number of undiluted shares outstanding. Use the undiluted (rather than diluted) number of shares because the full values of convertible debt and stock options have already been deducted from the enterprise value as nonequity claims. Also, use the most recent number of undiluted shares outstanding. Do not use the weighted average of shares outstanding; it is reported in the financial statements to determine average earnings per share.
 
@@ -4949,7 +4948,7 @@ If you used the conversion and exercise value approach to account for employee o
 
 With intrinsic value per share in hand, you have completed the mechanics of your valuation. But the job is not done. The next two chapters discuss how to stress-test your valuation using integrated scenarios and trading multiples.
 
-# Analyzing the Results
+## Analyzing the Results
 
 Now that the valuation model is complete, we are ready to put it to work. Start by testing its validity. Even a carefully planned model can have mechanical errors or flaws in economic logic. To help you avoid such troubles, this chapter presents a set of systematic checks and other tricks of the trade that test the model's sturdiness. During this verification, you should also ensure that key ratios like return on invested capital are consistent with the economics of the industry.
 
@@ -4957,11 +4956,11 @@ Once you are comfortable that the model works, learn the ins and outs of your va
 
 Next, use scenario analysis to deepen the understanding that your valuation provides. Start by determining the key uncertainties that affect the company's future and use these to construct multiple forecasts. Uncertainty can take the form of a simple question (will a product launch be successful?) or a complex one (which technology will dominate the market?). Construct a comprehensive forecast consistent with each scenario, and weight the resulting equity valuations by their probability of occurring. Scenario analysis will not only guide your valuation range but also inform your thinking about strategic actions and resource allocation under alternative situations.
 
-# VALIDATING THE MODEL
+## VALIDATING THE MODEL
 
 Once you have a workable valuation model, perform several checks to test the logic of your results, minimize the possibility of errors, and ensure that you understand the forces driving the valuation. Start by making sure that the model is technically robust—for example, by checking that the balance sheet balances in each forecast year. Second, test whether results are consistent with industry economics. For instance, do key value drivers, such as return on invested capital (ROIC), change in a way that is consistent with the intensity of competition? Next, compare the model's output with the current share price and trading multiples. Can differences be explained by economics, or is an error possible? We address each of these tasks next.
 
-# Is the Model Technically Robust?
+## Is the Model Technically Robust?
 
 Ensure that all checks and balances in your model are in place. Your model should reflect the following fundamental equilibrium relationships:
 
@@ -4973,7 +4972,7 @@ A good model will automatically compute each check as part of the model. A techn
 
 As a final consistency check, adjust the dividend payout ratio. Since payout will change funding requirements, the company's capital structure will change. Because NOPAT, invested capital, and free cash flow are independent of capital structure, these values should not change with variations in the payout ratio. If they do, the model has a mechanical flaw.
 
-# Is the Model Economically Consistent?
+## Is the Model Economically Consistent?
 
 The next step is to check that your results reflect appropriate value driver economics. If the projected returns on invested capital are above the weighted average cost of capital (WACC), the value of operations should be above the book value of invested capital. Moreover, if revenue growth is high, the value of operations should be considerably above book value. If not, a computational error has probably occurred. Compare your valuation results with a back-of-the-envelope value estimate based on the key value driver formula, using long-term average revenue growth and return on invested capital as key inputs.
 
@@ -4988,17 +4987,17 @@ EXHIBIT 17.1 ROIC Impact of Small Changes: Sample Price and Cost Trends
 <table><tr><td></td><td>Year 1</td><td>Year 2</td><td>Year 3</td><td>Year 4</td><td>Year 5</td><td>…</td><td>Year 10</td><td>Growth, \%</td></tr><tr><td>Price</td><td>50.0</td><td>51.5</td><td>53.0</td><td>54.6</td><td>56.3</td><td>…</td><td>65.2</td><td>3.0</td></tr><tr><td>Number of units</td><td>100.0</td><td>103.0</td><td>106.1</td><td>109.3</td><td>112.6</td><td>…</td><td>130.5</td><td></td></tr><tr><td>Revenue</td><td>5,000.0</td><td>5,304.5</td><td>5,627.5</td><td>5,970.3</td><td>6,333.9</td><td>…</td><td>8,512.2</td><td></td></tr><tr><td>Cost per unit</td><td>43.0</td><td>42.1</td><td>41.3</td><td>40.5</td><td>39.7</td><td>…</td><td>35.9</td><td>-2.0</td></tr><tr><td>Number of units</td><td>100.0</td><td>103.0</td><td>106.1</td><td>109.3</td><td>112.6</td><td>…</td><td>130.5</td><td></td></tr><tr><td>Cost</td><td>4,300.0</td><td>4,340.4</td><td>4,381.2</td><td>4,422.4</td><td>4,464.0</td><td>…</td><td>4,677.8</td><td></td></tr><tr><td>Operating profit</td><td>700.0</td><td>964.1</td><td>1,246.3</td><td>1,547.9</td><td>1,869.9</td><td>…</td><td>3,834.4</td><td></td></tr><tr><td>Invested capital</td><td>7,500.0</td><td>7,725.0</td><td>7,956.8</td><td>8,195.5</td><td>8,441.3</td><td>…</td><td>9,785.8</td><td></td></tr><tr><td>Pretax ROIC, \%</td><td>9.3</td><td>12.5</td><td>15.7</td><td>18.9</td><td>22.2</td><td>…</td><td>39.2</td><td></td></tr></table>
 - Is the company in a steady state by the end of the explicit forecasting period? Following the explicit forecasting period, when you apply a continuing-value formula, the company's margins, returns on invested capital, and growth should be stable. If this is not the case, extend the explicit forecast period until a steady state is reached.
 
-# Are the Results Plausible?
+## Are the Results Plausible?
 
 Once you are confident that the model is technically sound and economically consistent, test whether the model's valuation results are plausible. If the company is publicly listed, compare your results with the market value. If your estimate is far from the market value, do not jump to the conclusion that the market price is wrong. If a difference exists, search for the cause. For instance, perhaps not all relevant information has been incorporated in the share price—say, due to a small free float or paucity of trading in the stock.
 
 Also perform a sound multiples analysis. Calculate the implied forward-looking valuation multiples of the operating value over, for example, earnings before interest, taxes, and amortization (EBITA). Compare these with equivalently defined multiples of traded peer-group companies. Chapter 18 describes how to do a proper multiples analysis. Make sure you can explain any significant differences with peer-group companies in terms of the companies' value drivers and underlying business characteristics or strategies.
 
-# SENSITIVITY ANALYSIS
+## SENSITIVITY ANALYSIS
 
 With a robust model in hand, test how the company's value responds to changes in key inputs. Senior management can use sensitivity analysis to prioritize the actions most likely to affect value materially. From the investor's perspective, sensitivity analysis can focus on which inputs to investigate further and monitor more closely. Sensitivity analysis also helps bound the valuation range when there is uncertainty about the inputs.
 
-# Assessing the Impact of Individual Drivers
+## Assessing the Impact of Individual Drivers
 
 Start by testing each input one at a time to see which has the largest impact on the company's valuation. Exhibit 17.2 presents a sample sensitivity analysis. Among the alternatives presented, a permanent one-percentage-point reduction in selling expenses has the greatest effect on the company's valuation.
 
@@ -5010,7 +5009,7 @@ The analysis will also show which drivers have a minimal impact on value. Too of
 
 Although an input-by-input sensitivity analysis will increase your knowledge about which inputs drive the valuation, its use is limited. First, inputs rarely change in isolation. For instance, an increase in selling expenses should, if managed well, increase revenue growth. Second, when two inputs are changed simultaneously, interactions can cause the combined effect to differ from the sum of the individual effects. Therefore, you cannot compare a one-percentage-point increase in selling expenses with a one-percentage-point increase in growth. If there are interactions in the movements of inputs, the one-by-one analysis would miss them. To capture possible interactions between inputs, analyze trade-offs.
 
-# Analyzing Trade-Offs
+## Analyzing Trade-Offs
 
 Strategic choices typically involve trade-offs between inputs into your valuation model. For instance, raising prices leads to fewer purchases, lowering inventory results in more missed sales, and entering new markets often affects both growth and margin. Exhibit 17.3 presents an analysis that measures the impact on a valuation when two inputs are changed simultaneously. Based on
 
@@ -5020,7 +5019,7 @@ EXHIBIT 17.3 Valuation Isocurves by Growth and Margin an EBITA margin of 14 perc
 
 When performing sensitivity analysis, do not limit yourself to changes in financial variables. Check how changes in sector-specific operational value drivers affect the final valuation. This is where the model's real power lies. For example, if you increase customer churn rates for a telecommunications company, does company value decrease? Can you explain with back-of-the-envelope estimates why the change is so large or small?
 
-# CREATING SCENARIOS
+## CREATING SCENARIOS
 
 Valuation requires a forecast, but the future can take many paths. A government might pass legislation affecting the entire industry. A new discovery could revolutionize a competitor's product portfolio. Since the future is never knowable, consider making financial projections under multiple scenarios. $^2$  The scenarios should reflect different assumptions regarding future macroeconomic, industry, or business developments, as well as the corresponding strategic responses by industry players. Collectively, the scenarios should capture the future states of the world that would have the most impact on value creation over time and a reasonable chance of occurrence. Assess how likely it is that the key assumptions underlying each scenario will change and assign to each scenario a probability of occurrence.
 
@@ -5055,13 +5054,13 @@ When using the scenario approach, make sure to generate a complete valuation bui
 
 Creating scenarios also helps you understand the company's key priorities. In our example, reducing costs or cutting capital expenditures in the downside scenario will not meaningfully affect value. Any improvements in the upside scenario whose value is less than  \$531 million (\$ 2,800 million in face value less 2,269 million in market value) will accrue primarily to the debt holders. In contrast, increasing the odds of a successful launch has a much greater impact on shareholder value. Increasing the success probability from two-thirds to three-fourths would boost shareholder value by more than 10 percent.
 
-# THE ART OF VALUATION
+## THE ART OF VALUATION
 
 Valuation can be highly sensitive to small changes in assumptions about the future. Take a look at the sensitivity of a typical company with a forward-looking price-to-earnings ratio of 15 to 16. Increasing the cost of capital for this company by half a percentage point will decrease the value by approximately 10 percent. Changing the growth rate for the next 15 years by one percentage point annually will change the value by about 6 percent. For high-growth companies, the sensitivity is even greater. Considering this, it shouldn't be surprising that the market value of a company fluctuates over time. Historical volatilities for a typical stock over the past several years have been around 25 percent per annum. Taking this as an estimate for future volatility, the market value of a typical company could well fluctuate around its expected value by 15 percent over the next month.
 
 We typically aim for a valuation range of plus or minus 15 percent, which is similar to the range used by many investment bankers. Even the best professionals cannot generate exact estimates. In other words, keep your aspirations for precision in check.
 
-# Using Multiples
+## Using Multiples
 
 While discounted cash flow (DCF) is the most accurate and flexible method for valuing companies, using a relative valuation approach, such as juxtaposing the earnings multiples of comparable companies, can provide insights and help you summarize and test your valuation. In practice, however, multiples are often used in a superficial way that leads to erroneous conclusions. This chapter explains how to use multiples correctly. Most of the focus will be on earnings multiples, the most commonly used variety. At the end, we'll also touch on some other multiples.
 
@@ -5081,7 +5080,7 @@ To use earnings multiples properly, you should dig into the accounting statement
 4. Adjust the multiple for nonoperating items. Nonoperating items embedded in reported EBITA, as well as balance sheet items like excess cash and pension items, can lead to large distortions of multiples.
 5. Use the right peer group, not a broad industry average. A good peer group consists of companies that not only operate in the same industry but also have similar prospects for ROIC and growth.
 
-# VALUE MULTIBUSINESS COMPANIES AS A SUM OF THEIR PARTS
+## VALUE MULTIBUSINESS COMPANIES AS A SUM OF THEIR PARTS
 
 Most large companies, even if they operate in a single industry, have business units that are in subindustries with different competitive dynamics and therefore differ widely in ROIC and growth. For example, many analysts would classify Johnson & Johnson as a health-care company, but its three major units (pharmaceuticals, medical devices, and consumer health products) have widely varying economic characteristics in terms of growth and return on capital. Each of the units will therefore have different valuation multiples. For such multibusiness companies, a valuation using multiples requires a sum-of-parts approach, which values each business unit with a multiple appropriate to its peers and performance.
 
@@ -5095,7 +5094,7 @@ EXHIBIT 18.2 Sample Sum-of-Parts Valuation
 
 <table><tr><td rowspan="2"></td><td rowspan="2">NOPAT, 2014, $ million</td><td colspan="3">EV/NOPAT, times</td><td colspan="2">Value, $ million</td></tr><tr><td>High</td><td>Low</td><td></td><td>High</td><td>Low</td></tr><tr><td>Business Unit 1</td><td>410</td><td>16.0</td><td>14.5</td><td></td><td>6,568</td><td>5,952</td></tr><tr><td>Business Unit 2</td><td>299</td><td>13.9</td><td>12.5</td><td></td><td>4,165</td><td>3,749</td></tr><tr><td>Business Unit 3</td><td>504</td><td>13.1</td><td>12.5</td><td></td><td>6,597</td><td>6,306</td></tr><tr><td>Business Unit 4</td><td>587</td><td>9.7</td><td>9.4</td><td></td><td>5,681</td><td>5,533</td></tr><tr><td>Business Unit 5</td><td>596</td><td>9.0</td><td>8.0</td><td></td><td>5,365</td><td>4,769</td></tr><tr><td>Business Unit 6</td><td>116</td><td>8.0</td><td>7.0</td><td></td><td>931</td><td>814</td></tr><tr><td>Corporate</td><td>(542)</td><td>8.0</td><td>9.1</td><td></td><td>(4,339)</td><td>(4,917)</td></tr><tr><td>Net Enterprise Value</td><td>1,971</td><td>12.7</td><td>11.3</td><td></td><td>24,968</td><td>22,207</td></tr><tr><td rowspan="2"></td><td rowspan="2">After-tax net income, 2013, $ million</td><td rowspan="2">Book value, $ million</td><td rowspan="2">Earnings multiple, 2013 times</td><td rowspan="2">Market value/ book value, times</td><td colspan="2">Value, $ million</td></tr><tr><td>High</td><td>Low</td></tr><tr><td>Joint ventures</td><td>157</td><td>675</td><td>12.0</td><td>2.5</td><td>1,879</td><td>1,688</td></tr><tr><td>Other investments</td><td></td><td>1,525</td><td></td><td></td><td>1,525</td><td>1,525</td></tr><tr><td>Cash and marketable securities</td><td></td><td>2,879</td><td></td><td></td><td>2,879</td><td>2,879</td></tr><tr><td>Gross enterprise value</td><td></td><td></td><td></td><td></td><td>31,251</td><td>28,298</td></tr><tr><td>Debt</td><td></td><td>(10,776)</td><td></td><td></td><td>(10,776)</td><td>(10,776)</td></tr><tr><td>Unfunded retirement liabilities</td><td></td><td>(2,907)</td><td></td><td></td><td>(2,907)</td><td>(2,907)</td></tr><tr><td>Noncontrolling interest</td><td>(45)</td><td>(296)</td><td>12.0</td><td>2.5</td><td>(540)</td><td>(739)</td></tr><tr><td>Other</td><td></td><td>(1,940)</td><td></td><td></td><td>(1,940)</td><td>(1,940)</td></tr><tr><td>Equity value</td><td></td><td></td><td></td><td></td><td>15,088</td><td>11,937</td></tr><tr><td>Shares outstanding, millions</td><td></td><td></td><td></td><td></td><td>500</td><td>500</td></tr><tr><td>Equity value per share</td><td></td><td></td><td></td><td></td><td>\$30.18</td><td>23.87</td></tr></table>
 
-# USE FORWARD EARNINGS ESTIMATES
+## USE FORWARD EARNINGS ESTIMATES
 
 When you are building multiples, the denominator should be a forecast of profits, preferably normalized for unusual items, rather than historical profits. Unlike backward-looking multiples, forward-looking multiples are consistent with the principles of valuation—in particular, that a company's value equals the present value of future cash flows, not sunk costs. When companies have recently acquired or divested significant parts of their operations, historical profits are even less meaningful. Normalized earnings estimates better reflect long-term cash flows by avoiding one-time items. For example, Warren Buffett and other disciples of value-investing guru Benjamin Graham don't use reported earnings. Rather, they rely on a sustainable level of earnings that they refer to as "earnings power."2
 
@@ -5115,7 +5114,7 @@ Empirical evidence shows that forward-looking multiples are indeed more accurate
 
 To build a forward-looking multiple, choose a forecast year for EBITA that best represents the long-term prospects of the business. In periods of stable growth and profitability, next year's estimate will suffice. For companies generating extraordinary earnings (either too high or too low) or for companies whose performance is expected to change, use projections further out.
 
-# USE NET ENTERPRISE VALUE DIVIDED BY ADJUSTED EBITA OR NOPAT
+## USE NET ENTERPRISE VALUE DIVIDED BY ADJUSTED EBITA OR NOPAT
 
 Most financial websites and newspapers quote a price-to-earnings ratio by dividing a company's share price by the prior 12 months' GAAP-reported earnings per share. Yet these days, sophisticated investors and bankers use what we call forward-looking multiples of net enterprise value to EBITA (or NOPAT). They find that these multiples provide a more apples-to-apples comparison of company values.
 
@@ -5123,7 +5122,7 @@ The reasons for using forward earnings are the same as the ones discussed in the
 
 Sometimes analysts use an alternative multiple: enterprise value to earnings before interest, taxes, depreciation, and amortization (EBITDA). Later in this section, we'll explain the logic of using EBITA or NOPAT instead of EBITDA.
 
-# Why Not Price to Earnings?
+## Why Not Price to Earnings?
 
 This book has focused throughout on the drivers of operating performance—ROIC, growth, and free cash flow—because the traditional metrics, such as return on assets (ROA) and return on equity (ROE), mix the effects of operations and capital structure. The same logic holds for multiples. Since the price-to-earnings ratio mixes capital structure and nonoperating items with expectations of operating performance, a comparison of P/Es is a less reliable guide to companies' relative value than a comparison of enterprise value (EV) to EBITA or NOPAT.
 
@@ -5137,7 +5136,7 @@ EXHIBIT 18.4 P/E Multiple Distorted by Capital Structure
 
 Since the blend of debt at 20 times and pretax equity must equal the enterprise value at 10 times, the pretax equity multiple must drop below 10 times to offset the greater weight placed on high-multiple debt. The opposite is true when enterprise value to EBITA exceeds the ratio of debt to interest expense (less common, given today's low interest rates). Company D has a higher P/E than Company C because Company D uses more leverage than Company C. In this case, a high pretax P/E (greater than 25 times) must be blended with the debt multiple (20 times) to generate an EV-to-EBITA multiple of 25 times.
 
-# Why Not EV to EBIT?
+## Why Not EV to EBIT?
 
 It's clear that shifting to enterprise-value multiples provides better insights and comparisons across peer companies. The next question is what measure of operating profits to use in the denominator—EBIT, EBITDA, EBITA (adjusted), or NOPAT? We recommend EBITA or NOPAT.
 
@@ -5159,7 +5158,7 @@ EXHIBIT 18.6 Enterprise-Value-to-EBITDA Multiple Distorted by Capital Investment
 
 <table><tr><td colspan="6">$ million</td></tr><tr><td></td><td>Company A</td><td>Company B</td><td></td><td>Company A</td><td>Company B</td></tr><tr><td>Income statement</td><td></td><td></td><td>Free cash flow</td><td></td><td></td></tr><tr><td>Revenues</td><td>1,000</td><td>1,000</td><td>NOPAT</td><td>210</td><td>210</td></tr><tr><td>Raw materials</td><td>(100)</td><td>(250)</td><td>Depreciation</td><td>200</td><td>50</td></tr><tr><td>Operating costs</td><td>(400)</td><td>(400)</td><td>Gross cash flow</td><td>410</td><td>260</td></tr><tr><td>EBITDA</td><td>500</td><td>350</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Investment in working capital</td><td>(60)</td><td>(60)</td></tr><tr><td>Depreciation</td><td>(200)</td><td>(50)</td><td>Capital expenditures</td><td>(200)</td><td>(50)</td></tr><tr><td>EBITA</td><td>300</td><td>300</td><td>Free cash flow</td><td>150</td><td>150</td></tr><tr><td>Operating taxes</td><td>(90)</td><td>(90)</td><td>Enterprise value</td><td>3,000</td><td>3,000</td></tr><tr><td>NOPAT</td><td>210</td><td>210</td><td></td><td></td><td></td></tr><tr><td colspan="6">Multiples, times</td></tr><tr><td>EV/EBITA</td><td>10.0</td><td>10.0</td><td></td><td></td><td></td></tr><tr><td>EV/EBITDA</td><td>6.0</td><td>8.6</td><td></td><td></td><td></td></tr></table>
 
-# Choosing between EBITA and EBITDA
+## Choosing between EBITA and EBITDA
 
 A common alternative to the EBITA multiple is the EBITDA multiple. Many practitioners use EBITDA multiples because depreciation is, strictly speaking, a noncash expense, reflecting sunk costs, not future investment. This logic, however, does not apply uniformly. For many industries, depreciation of existing assets is the accounting equivalent of setting aside the future capital expenditure that will be required to replace the assets. Subtracting depreciation from the earnings of such companies therefore better represents future cash flow and consequently the company's valuation.
 
@@ -5177,7 +5176,7 @@ In some situations, EBITDA scales a company's valuation better than EBITA. These
 
  Since depreciation is tax deductible, a company with higher depreciation will have a smaller tax burden. Lower taxes lead to higher cash flows and a higher valuation. Therefore, even companies with identical EBITDAs will have different EBITDA multiples. The distortion, however, is less pronounced.
 
-# NOPAT vs. EBITA
+## NOPAT vs. EBITA
 
 Analysts and investors often use enterprise value to EBITA instead of NOPAT because there is no need to figure out the operating taxes on EBITA. (Reported taxes are not usually a good predictor of operating taxes, because they include nonoperating items. Therefore, most analysts ignore taxes altogether.) We often use EBITA because it's common practice and works well when all the companies in the peer group have the same operating tax rate, as when they all operate within a single tax jurisdiction. However, when tax rates are different, NOPAT is a better measure to use.
 
@@ -5237,7 +5236,7 @@ EXHIBIT 18.9 Difference between Preand Posttax Earnings Multiples for U.S. Stock
 
 P/E Multiple versus EV/EBIT Multiple
 
-# ADJUST FOR NONOPERATING ITEMS
+## ADJUST FOR NONOPERATING ITEMS
 
 In a presentation to a group of professional investors, we provided the audience with financial data on two companies. We then asked the audience which company traded at a higher EV multiple. The results were surprising. Upon polling the group, we discovered that there was no common agreement on how to compute the EV multiple. A group of 100 professionals generated nearly a dozen different comparisons. Further investigation revealed that the primary cause of this divergence was inconsistency in defining enterprise value.
 
@@ -5265,7 +5264,7 @@ As a general rule, any nonoperating asset that does not contribute to EBITA shou
 
 A trickier adjustment is needed for pensions and other retirement benefits, as explained in Chapter 23. Treat the unfunded liabilities as debt or the excess assets as a nonoperating asset. In addition, exclude the nonoperating parts of pension expense from EBITA.
 
-# USE THE RIGHT PEER GROUP
+## USE THE RIGHT PEER GROUP
 
 Selecting the right peer group is critical to coming up with a reasonable valuation using multiples. Common practice is to select a group of 8 to 15 peers and take the average of the multiples of the peers. Getting a reasonable valuation, though, requires judgment about which companies and their multiples are truly relevant for the valuation.
 
@@ -5294,11 +5293,11 @@ EXHIBIT 18.11 Peer Groups by ROIC and Growth rates line up with the ranges of mu
 
 Once you have collected a list of peers and measured their multiples properly, the digging begins. You must answer a series of questions: Why are the multiples different across the peer group? Do certain companies in the group have superior products, better access to customers, recurring revenues, or economies of scale? If these strategic advantages translate to superior ROIC and growth rates, better-positioned companies should trade at higher multiples.
 
-# ALTERNATIVE MULTIPLES
+## ALTERNATIVE MULTIPLES
 
 Although we have so far focused on enterprise value multiples based on EBITA or NOPAT, other multiples can prove helpful in certain situations. The EV-to-revenues multiple can be useful in bounding valuations with volatile EBITA. The P/E-to-growth (PEG) ratio somewhat controls for different growth rates across companies. Nonfinancial multiples can be useful for young companies where current financial information is not relevant. This section discusses each of these alternative multiples.
 
-# Enterprise Value to Revenues
+## Enterprise Value to Revenues
 
 In most cases, value-to-revenues multiples are not particularly useful for explaining company valuations, except in industries with unstable or negative profits. We'll use a simple example to illustrate. Companies A and B have the same expected growth, ROIC, and cost of capital; the only difference is that A's EBITA margin is 10 percent, while B's is 20 percent (B is more capital intensive, so its higher margin is offset by its greater invested capital). Because the companies have the same ROIC and growth, their value-to-EBIT ratios must be the same (13 times, based on the value driver formula). But the resulting value-to-revenues multiple is 1.3 for A and 2.6 for B. In this case, the value-to-revenues multiple tells us nothing about the valuations of the companies.
 
@@ -5306,7 +5305,7 @@ EV-to-revenues multiples are useful as a last resort in several situations. One 
 
 If investors are confident about the return to profit margins similar to those of peers, an EV-to-revenues multiple in line with peers might prove more relevant than an EV-to-EBITA multiple that is out of line with peers. Finally, a revenue multiple can provide a quick understanding of the potential value a company could generate if it were able to achieve the same levels of growth, operating margins, and capital efficiency as its peer group.
 
-# PEG Ratio
+## PEG Ratio
 
 Some analysts and investors use a P/E-to-growth (PEG) ratio to assess the value of a company. For example, a company with a P/E of 15 and expected growth of 4 percent would have a PEG ratio of 3.75:
 
@@ -5327,13 +5326,13 @@ EXHIBIT 18.12 PEG Ratios Distorted by ROIC Differences
 <table><tr><td></td><td>Company A</td><td>Company B</td></tr><tr><td>ROIC, \%</td><td>30</td><td>14</td></tr><tr><td>Expected growth years 1–10, \%</td><td>5</td><td>10</td></tr><tr><td>Expected growth after year 10, \%</td><td>3</td><td>3</td></tr><tr><td>WACC, \%</td><td>9</td><td>9</td></tr><tr><td>P/E = EV/NOPAT, times</td><td>17.0</td><td>17.0</td></tr><tr><td>PEG ratio, times</td><td>3.4</td><td>1.7</td></tr></table> growth over the first ten years (10 percent, versus 5 percent for A). The DCF valuations of both companies at a 9 percent cost of capital and no debt lead to the same earnings multiple: 17 times. But Company A's PEG ratio is 3.4, while Company B's is 1.7. The common interpretation is that Company A is overvalued relative to Company B because its PEG ratio is higher. Yet it's clear that both companies are valued the same when both growth and ROIC are taken into account.
 
 
-# Multiples of Invested Capital
+## Multiples of Invested Capital
 
 In some industries, multiples based on invested capital can provide better insights than earnings multiples. One example comes from the banking industry. In the years after the 2008 credit crisis, there was tremendous uncertainty about what levels of return on equity banks would be able to earn.[10] Furthermore, earnings forecasts one to three years out were not reliable and were often negative. Most investors resorted to using multiples of book equity. Banks with higher expected long-term returns on equity, based on their mix of businesses and the underlying economics of those businesses, tended to have higher multiples than banks in lower-return businesses. For example, banks whose portfolios emphasized wealth management and transaction processing, which are stable and earn high returns, were valued at higher multiples to equity than banks focused on more volatile and lower-return investment banking and retail banking.
 
 Regulated industries provide another application of invested capital multiples. Under some regulatory regimes, profits are capped by the allowed return on a company's so-called regulatory asset base (RAB). The RAB is separately reported and represents the invested capital as calculated following certain rules that the regulator sets for qualified capital expenditures. If regulators were to not allow any excess returns above the cost of capital, the enterprise value-to-RAB multiple of a regulated company should be (close to) 1. In practice, the multiples end up at higher levels because regulators often provide various efficiency incentives allowing companies to generate excess returns. In addition, most companies have growth opportunities; they can expand their RAB by new, approved investment projects. For companies under similar regulatory regimes, many investors and analysts use RAB multiples for comparison and valuation.
 
-# Multiples Based on Operating Metrics
+## Multiples Based on Operating Metrics
 
 Sometimes company valuations are based on multiples of operating metrics. For example, values of oil and gas companies can be expressed as value per barrel of oil reserves. Clearly, the amount of oil reserves in the ground the company has access to will drive the company's value. While the value of each barrel once the oil is extracted and sold is roughly the same, the costs to extract those barrels will vary widely and affect profit per barrel, depending on the geology of those reserves and the techniques needed to extract them. When estimating the value of an oil and gas company based on a valuation multiple of the amount of reserves it holds, you therefore have to make adjustments for any differences in the costs of extraction and distribution relative to the companies for which the multiple was estimated.
 
@@ -5355,11 +5354,11 @@ $^{14}$  P. Jorion and E. Talmor, "Value Relevance of Financial and Non Financia
 
 A problem with all multiples is that they are relative valuation tools. They measure one company's valuation relative to another's, normalized by some measure of size, be it size of earnings, revenues, or number of customers. They do not measure absolute valuation levels. For multiples based on operating metrics, there is an additional challenge of interpretation, because you can only compare them across a very limited number of companies that have a very similar operating model. Financial multiples are easier to interpret and compare. Take the example of an EV-to-EBITA multiple of 20 times for a mature industrial company. Basic understanding of underlying value drivers can readily lead you to a first conclusion: this multiple reflects high expectations for ROIC and growth (at a reasonable cost of capital). But it is much harder to come to such a conclusion when you observe an EV multiple of 1,200 per customer.
 
-# SUMMARY
+## SUMMARY
 
 Of the available valuation tools, discounted cash flow continues to deliver the best results. However, a thoughtful comparison of selected multiples for the company you are valuing with multiples from a carefully selected group of peers merits a place in your tool kit as well. When that comparative analysis is careful and well reasoned, it not only serves as a useful check of your DCF forecasts, but also provides critical insights into what drives value in a given industry. The distinction between operating and nonoperating results, capital, and cash flows should follow the exact same logic as applied in DCF valuation. The most insightful multiples are those that compare operating value to operating results. Operating metrics such as mineral reserve size or number of subscribers can be used when these are clearly related to value creation. In all cases, be sure that you analyze the underlying reasons that multiples differ from company to company, and never view multiples as a shortcut to valuation. Instead, approach your multiples analysis with as much care as you bring to your DCF analysis.
 
-# Valuation by Parts
+## Valuation by Parts
 
 Up to this point, our analysis has focused on single-business companies. But many large companies have multiple business units, each competing in segments with different economic characteristics. For instance, Anglo-Dutch Unilever competes in food and refreshments, personal products, and home-care products. Even so-called pure-play companies, such as Vodafone (mobile telecommunication services) and Amazon (online retail), often have a wide variety of underlying geographical and category segments. This is not just the case for large companies: consider the local bicycle shop that also has an online sales channel.
 
@@ -5374,7 +5373,7 @@ Valuing by parts generates better valuation estimates and deeper insights into w
 
 4. Testing the value based on multiples of peers
 
-# THE MECHANICS OF VALUING BY PARTS
+## THE MECHANICS OF VALUING BY PARTS
 
 The most effective way to explore the mechanics of valuing by parts and the insights that can result is to work through a valuation. Exhibit 19.1 details the key financials, value drivers, valuation results, and multiples for each part of ConsumerCo, a hypothetical business. Its parts are four business units, a financial subsidiary, and a nonconsolidated joint venture. To simplify, we kept all future returns and growth rates constant at 2020 levels for each business unit.
 
@@ -5423,7 +5422,7 @@ were largest in the private-label and branded-products businesses, and lowest in
 
 Sometimes securing the best insights requires even more finely grained valuations than the ConsumerCo example provides. When we analyzed four divisions within a consumer-durable-goods company, we found that all were generating fairly similar returns, between 12 and 18 percent, well above the company's 9 percent cost of capital (see Exhibit 19.5). But at the next level, business units, returns were much more widely distributed. Even in the company's highest-performing division, a business unit was earning returns below its cost of capital. At the level of individual activities within business units, the return distribution was even larger. Differentiating where to invest in growth and where to improve margins at such granular levels can trigger significant improvements in value creation for the company as a whole.[2]
 
-# BUILDING BUSINESS UNIT FINANCIAL STATEMENTS
+## BUILDING BUSINESS UNIT FINANCIAL STATEMENTS
 
 To value a company's individual business units, you need income statements, balance sheets, and cash flow statements. Ideally, these financial statements should approximate what the business units would look like if they
 
@@ -5439,7 +5438,7 @@ Understanding financial subsidiaries
 
 We will illustrate each of these issues by extending the ConsumerCo example.
 
-# Allocating Corporate Overhead Costs
+## Allocating Corporate Overhead Costs
 
 Most multibusiness companies have shared services and corporate overhead, so you need to decide which costs should be allocated to the businesses and which retained at the corporate level. For services that the corporate center provides, such as payroll, human resources, and accounting, allocate the costs by cost drivers. For example, the aggregate cost of human resources services provided by the corporate parent can be allocated by the number of employees in each business unit.
 
@@ -5448,7 +5447,7 @@ When costs are incurred only because the units are part of a larger company (for
 
 For ConsumerCo, the unallocated corporate costs are estimated at 83 million, around 1.7 percent of revenue, with a present value amounting to about 10 percent of enterprise value. The present value of corporate costs is often in the range of 10 to 20 percent of enterprise value for multibusiness companies.
 
-# Dealing with Intercompany Transactions
+## Dealing with Intercompany Transactions
 
 Sometimes business units provide goods and services to one another, incur intragroup payables and receivables, and borrow and lend funds to a group treasury. To arrive at consolidated corporate results, accountants eliminate the internal revenues, costs, and profits, as well as internal assets and liabilities, to prevent double-counting. Only revenues, costs, assets, and liabilities from transactions with external parties remain at the consolidated level. Exhibit 19.6 shows how the 2020 reorganized financials for ConsumerCo's businesses are consolidated with the accounts of the parent company, ConsumerCo Corporation. In this example, ConsumerCo Corporation has no business activities and only holds the equity stakes in the business subsidiaries and most of the group's debt.
 
@@ -5470,7 +5469,7 @@ The Eliminations II column of Exhibit 19.6 shows how this occurs for ConsumerCo.
 
 In addition, ConsumerCo Corporation has lent  \$200 million to the privatelabel unit, which shows up as an intercompany receivable for the parent company and an intercompany payable for the private-label unit. For the parent company, it represents a nonoperating asset that does not generate operating profits and hence should not be included in its operating working capital. For private label, it represents a financial infusion that is similar to equity. In the consolidated financials, the amounts are eliminated. Similarly, the intercompany receivables for the branded-products and devices businesses are treated as nonoperating assets that are eliminated in the consolidated financials against the\$ 750 million of parent intercompany payables. Failure to handle the intercompany receivables and payables correctly can generate seriously misleading results. In the ConsumerCo example, if the intercompany accounts had been treated as working capital instead of equity, the private-label business's invested capital would have been understated by more than 20 percent, leading to an overstatement of ROIC by roughly the same percentage.
 
-# Understanding Financial Subsidiaries
+## Understanding Financial Subsidiaries
 
 Some firms have financial subsidiaries that provide financing for customers (for example, John Deere Financial and practically all automotive manufacturers). If these subsidiaries are majority owned, they are fully consolidated in the company financial statements. But balance sheets of financial businesses are structured differently from those of industrial or service businesses. The assets tend to be financial rather than physical (largely receivables or loans) and are usually highly leveraged. As detailed in Chapter 38, financial businesses should be valued using cash flow to equity, discounted at the cost of equity. Most companies with significant financial subsidiaries provide a separate balance sheet and income statement for those subsidiaries; the information can be used to analyze and value the financial subsidiaries separately.
 
@@ -5486,7 +5485,7 @@ customer-finance unit's loans are assumed to grow in line with the revenues of t
 
 Be careful not to double-count the debt of the financial subsidiary in the overall valuation of the company. The equity value of the customer-finance subsidiary is already net of its  \$1,038 million debt, so when we subtracted debt from ConsumerCo's total enterprise value to arrive at the consolidated company's equity value in Exhibit 19.1, we subtracted only the\$ 1,941 million debt associated with business operations.
 
-# Navigating Public Information
+## Navigating Public Information
 
 For our ConsumerCo example, we have the benefit of complete financial statements by business unit. But that will typically not be the case if you are valuing a multibusiness company from the outside in. Exhibit 19.7 shows the disclosure of financial information typical of U.S. Generally Accepted Accounting Principles (GAAP) and International Financial Reporting Standards (IFRS) for a company like ConsumerCo. Companies disclose revenues, operating profit (or something similar, such as EBITA), depreciation, capital expenditures, and assets by segment. You must convert these items to NOPAT and invested capital.
 
@@ -5505,7 +5504,7 @@ Using the proportional approach for ConsumerCo, you could have allocated its tot
 
 Once you have estimated invested capital for the business units and corporate center, reconcile these estimates with the total invested capital derived from the consolidated statements.
 
-# COST OF CAPITAL
+## COST OF CAPITAL
 
 Each business segment should be valued at its own cost of capital, because the systematic risk (beta) of operating cash flows and their ability to support debt—that is, the implied capital structure—will differ by business. To determine an operational business unit's weighted average cost of capital (WACC), you need the unit's target capital structure, its cost of equity (as determined by its levered beta), and its cost of borrowing. For a financial business, you simply need the cost of equity following from its equity beta. (For details on estimating the cost of equity and WACC, see Chapter 15.) The results for ConsumerCo's segments are summarized in Exhibit 19.8.
 
@@ -5536,7 +5535,7 @@ EXHIBIT 19.9 ConsumerCo: Multiples for Peer Branded-Product Companies, January 2
 <table><tr><td colspan="2">Company</td><td>ROIC 2020, \%</td><td>Growth, 2020-2025, \%</td><td>EV/EBITA</td><td>EV/NOPAT</td></tr><tr><td>Peer</td><td>1</td><td>31.0</td><td>4.7</td><td>16.5</td><td>22.0</td></tr><tr><td>Peer</td><td>2</td><td>29.6</td><td>4.4</td><td>15.8</td><td>22.6</td></tr><tr><td>Peer</td><td>3</td><td>28.5</td><td>4.5</td><td>14.3</td><td>20.4</td></tr><tr><td>Peer</td><td>4</td><td>27.1</td><td>3.9</td><td>12.8</td><td>19.1</td></tr><tr><td>Peer</td><td>5</td><td>22.0</td><td>3.0</td><td>12.0</td><td>16.0</td></tr><tr><td>Peer</td><td>6</td><td>21.1</td><td>2.8</td><td>10.5</td><td>15.7</td></tr><tr><td>Peer</td><td>7</td><td>19.7</td><td>2.4</td><td>11.0</td><td>15.7</td></tr><tr><td>Peer</td><td>8</td><td>19.0</td><td>2.1</td><td>10.0</td><td>15.4</td></tr><tr><td>Peer</td><td>9</td><td>18.5</td><td>2.2</td><td>9.5</td><td>15.1</td></tr><tr><td>Peer</td><td>10</td><td>18.3</td><td>4.0</td><td>20</td><td>26.7</td></tr><tr><td>Peer</td><td>11</td><td>9.0</td><td>3.4</td><td>32</td><td>45.7</td></tr><tr><td rowspan="3" colspan="5">Overall average</td><td>Outliers</td></tr><tr><td>Excluding outliers</td></tr><tr><td>Including outliers</td></tr></table> error and is likely to change over time as the weights of the underlying businesses in the company portfolio change.[9]
 
 
-# TESTING THE VALUE BASED ON MULTIPLES OF PEERS
+## TESTING THE VALUE BASED ON MULTIPLES OF PEERS
 
 Whenever possible, triangulate the discounted cash flow results with valuation multiples, following the recommendations made in Chapter 18. For each of the company's segments, carefully select a group of companies that are comparable not only in terms of sector but also in terms of return on capital and growth. Do not simply take an average or median of the peer group multiples. Instead, always eliminate outliers with multiples that are out of line with their underlying economics, and where possible, estimate a median of close peers with similar returns and growth. Furthermore, we recommend using NOPAT-based instead of EBITA-based multiples, as the latter can be distorted by tax differences across companies.
 
@@ -5562,7 +5561,7 @@ The conclusion is as wrong as the recommendation. The discount simply reflects t
 
 Over the years, practitioners and academics have debated whether a conglomerate or diversification discount exists. In other words, does the market value conglomerates at less than the sum of their parts? Unfortunately, the results are incomplete. There is no consensus about whether diversified firms are valued at a discount relative to a portfolio of pure plays in similar businesses.[10] Some argue that they may even trade at a premium. Among studies that claim a discount, there is no consensus about whether the discount results from the weaker performance of diversified firms relative to more focused firms, or whether the market values diversified firms lower than focused firms.[11] In our experience, however, whenever we have examined a company valued at less than pure-play peers, the company's business units had lower growth and/or returns on capital relative to those peers. In other words, there was a performance discount, not a diversification or conglomerate discount.
 
-# SUMMARY
+## SUMMARY
 
 Many large companies have multiple business units, each competing in segments with different economic characteristics. Valuing such companies by their individual parts is standard practice in industry-leading companies and among sophisticated investors. Not only does it generate better valuation results, but it also produces deeper insights into where and how the company is generating value.
 
@@ -5573,15 +5572,15 @@ To triangulate your DCF estimate, make a multiples-based valuation estimate for 
 
 Part Three
 
-# Advanced Valuation Techniques
+## Advanced Valuation Techniques
 
-# Taxes
+## Taxes
 
 A good valuation begins with good housekeeping. Reorganize the company's income statement and balance sheet into three categories: operating, nonoperating, and financing items. The reorganized statements can then be used to estimate return on invested capital (ROIC) and free cash flow (FCF), which in turn drive the company's valuation.
 
 One line item that incorporates all three categories is taxes. In this chapter, we explore the role of operating taxes in valuation and discuss how to use the notes in the annual report to estimate operating taxes and the operating tax rate. Since some companies can defer a portion of their reported taxes over long periods, we'll also go through the steps for converting operating taxes to operating cash taxes and, as a result, how to incorporate deferred taxes into a valuation.
 
-# ESTIMATING OPERATING TAXES
+## ESTIMATING OPERATING TAXES
 
 The operating tax rate is the tax rate a company would pay if the company generated only operating income and was financed entirely with equity. It is the best tax rate for estimating net operating profit after taxes (NOPAT), a key component of free cash flow. The operating tax rate is better suited than two well-known alternatives, the statutory tax rate and the effective tax rate. The statutory tax rate, which equals the domestic tax rate on a dollar of income, fails to account for differences in foreign tax rates and ongoing, operating-related tax credits. For a company that actively manages its tax burden, the statutory tax rate will often overestimate the taxes paid. In contrast, the effective tax rate, which equals income taxes divided by pretax income, includes too many nonoperating items, such as one-time audit resolutions. Because of these one-time nonoperating items, the effective tax rate can be quite volatile, making accurate tax forecasts challenging.
 
@@ -5607,7 +5606,7 @@ As noted earlier, operating taxes are the taxes that would be paid by a company 
 
 Note how the statutory, effective, and operating taxes differ. The statutory tax rate on domestic income is 25.0 percent, the effective tax rate (shown in Exhibit 20.1) equals 17.9 percent, and the operating tax rate is 21.4 percent. The operating tax rate is the best tax rate for converting EBITA to NOPAT.
 
-# Using Public Statements to Estimate Operating Taxes
+## Using Public Statements to Estimate Operating Taxes
 
 In practice, companies do not publicly disclose income by country. Instead, you must rely on a company-wide income statement and a tax reconciliation table. The tax reconciliation table can be found in the notes that accompany the financial statements. It explains why a company's reported taxes do not equal the product of pretax profit times the statutory rate. At the company's discretion, the table can express amounts in percentages or in the company's reporting currency.
 
@@ -5659,7 +5658,7 @@ We treat the remaining adjustments in Exhibit 20.5 as nonoperating. These includ
 
 On an aggregate basis, the three adjustments included in Exhibit 20.6 lower statutory taxes on EBITA by 1.4 percentage points in 2018. Multiplying this percentage by earnings before taxes gives us a negative adjustment of  \$160 million, resulting in operating taxes of\$ 4,451 million. Dividing the amount of operating taxes by EBITA of 21,957 million leads to an operating tax rate of 20.3 percent in 2018, slightly below the statutory rate of 21 percent.
 
-# CONVERTING OPERATING TAXES TO OPERATING CASH TAXES
+## CONVERTING OPERATING TAXES TO OPERATING CASH TAXES
 
 In the previous section, we estimated operating taxes on an accrual basis. For most companies, especially growing companies, the taxes reported on the income statement will not reflect the actual cash taxes paid, because of differences in accounting rules versus tax rules. For instance, tax rules allow for accelerated depreciation of physical assets, whereas financial accounting typically uses straight-line depreciation. With higher expenses and lower pretax profits on its tax books, companies can significantly delay or perhaps even perpetually postpone paying accrual-based taxes. For companies that consistently defer or prepay taxes, we recommend using cash-based operating taxes, which we call operating cash taxes. (In the case of low-growth companies, deferred-tax accounts may rise and fall unpredictably. If the operating
 
@@ -5702,7 +5701,7 @@ The operating cash tax rate for 2018 equals operating cash taxes of  \$3,710 mil
 Once the estimation of cash taxes is complete, analyze the results. For instance, a significant portion of the change in operating-related deferred taxes for Walmart was driven by a decline in the accrued liabilities DTA. Ask yourself if the decline is sustainable or perhaps the result of a one-time reduction in benefits, such as new limitations on accrued vacation. Include only ongoing, operating-related differences in your forecast cash taxes and ultimately free cash flow.
 
 
-# DEFERRED TAXES ON THE REORGANIZED BALANCE SHEET
+## DEFERRED TAXES ON THE REORGANIZED BALANCE SHEET
 
 One critical component of a well-structured valuation model is a properly reorganized balance sheet. As outlined in Chapter 11, the accounting balance sheet is reorganized into invested capital, nonoperating items, and sources of financing. Since operating DTAs and DTLs flow through NOPAT via cash taxes, they are considered equity equivalents. Why equity? When we convert accrual taxes to cash taxes, income is adjusted, and the difference becomes part of retained earnings, making it an equity equivalent. As discussed in Chapter 11, equity equivalents are not part of invested capital. If operating DTAs and DTLs were mistakenly included as part of invested capital, they could be double-counted in free cash flow: once in NOPAT via cash taxes and again when taking the change in invested capital.
 
@@ -5720,11 +5719,11 @@ Why deduct deferred taxes for intangible assets from acquired intangibles? When 
 
 To apply this offset for 2018 in Exhibit 20.9, we subtract the deferred-tax liability of  \$2,099 million from acquired intangibles of\$ 31,181 million. As shown with the uses of funds on the left side the exhibit, this results in adjusted intangibles of 29,082 million. By calculating taxes on EBITA and subtracting the DTL from acquired intangibles, we have essentially converted accrual taxes to the cash taxes actually paid.
 
-# Finding Deferred Taxes on the Balance Sheet
+## Finding Deferred Taxes on the Balance Sheet
 
 One practical difficulty with DTAs and DTLs is finding them. Sometimes they are explicitly listed on the balance sheet, but often they are embedded within other assets and other liabilities. Check the tax footnote for embedded items. For instance, in the notes to its 2018 annual report, Walmart discloses that it embeds 1,796 million in deferred-tax assets in "other long-term assets."
 
-# VALUING DEFERRED TAXES
+## VALUING DEFERRED TAXES
 
 As noted in the previous section, any deferred-tax assets and liabilities classified as operating are incorporated into operating cash taxes. As such, they flow through NOPAT and free cash flow, so they are already embedded in the value of operations. In contrast, the valuation process for nonoperating deferred taxes depends on the particulars of the account.
 
@@ -5737,14 +5736,14 @@ To value the remaining deferred-tax accounts, including pensions and convertible
 
 Regardless of the deferred-tax account, never use the book value of the account to approximate value. Deferred-tax accounts reflect past differences between accounting and tax statements. They reflect neither future cash flows nor the present value of those flows.
 
-# CLOSING THOUGHTS
+## CLOSING THOUGHTS
 
 Accounting for taxes is complex and can be daunting for even the most seasoned professional. However, given the number of companies whose operating tax rates consistently differ from both the statutory tax rate and the effective tax rate, a careful assessment of the operating tax rate is critical to an accurate valuation.
 
 If you are confused about a particular line item in the tax reconciliation table, rely on the general principles of this book by asking two questions: First, is the item ongoing and related to core operations? Second, does the item materially change your perception of the company's performance or valuation? Finally, when converting from operating taxes to cash operating taxes, always assess whether the deferral rate is reasonable and can be continued. Perhaps an acquisition is causing an artificial jump in a deferred-tax account, making the deferral rate uncharacteristically high. If so, use long-term trends to forecast future deferral rates.
 
 
-# Nonoperating Items, Provisions, and Reserves
+## Nonoperating Items, Provisions, and Reserves
 
 To project free cash flow, you would typically focus on operating expenses, such as cost of sales, distribution expenses, selling expenses, and administrative expenses. But what about nonoperating expenses, such as business realignment expenses, goodwill impairment, and extraordinary items?
 
@@ -5752,7 +5751,7 @@ Nonoperating expenses are infrequent or unusual charges that are indirectly rela
 
 This chapter analyzes the most common nonoperating expenses. These include the amortization of acquired intangibles, restructuring charges, unusual charges such as litigation expenses, asset write-offs, and goodwill impairments. Since noncash expenses will be accompanied by a corresponding provision, we create a classification system of various provisions and describe the process for reorganizing the income statement and balance sheet to reflect the true effect of such provisions, if any, on company value. We show how to treat provisions in free cash flow and equity valuation.
 
-# NONOPERATING EXPENSES AND ONE-TIME CHARGES
+## NONOPERATING EXPENSES AND ONE-TIME CHARGES
 
 Given their infrequent nature, nonoperating expenses and one-time charges can distort a company's historical financial performance and consequently distort our view of the future. It is therefore critical to separate one-time nonoperating expenses from ongoing operating expenses. The idea sounds simple, but implementing it can be tricky. Nonoperating expenses are often spread across the income statement, and some are hidden within other accounts and can be discovered only by searching the company's notes. Even after you've properly identified nonoperating expenses, the job is not done. Each nonoperating expense must be carefully analyzed to determine its impact on future cash flow, and if necessary, forecasts must be adjusted to reflect any information embedded in the expense.
 
@@ -5763,7 +5762,7 @@ To assess the impact of nonoperating expenses and incorporate their information 
 2. Search the notes for embedded one-time items. Not every one-time charge will be separately disclosed on the income statement. Sometimes the management discussion and analysis section of the annual report will disclose additional information on one-time items.
 3. Analyze each nonoperating item for its impact on future operations. Line items not included in earnings before interest, taxes, and amortization (EBITA) will not be included in free cash flow (FCF), so they are not part of core operating value. Therefore, it is critical to analyze each nonoperating line item separately and determine whether the charge is likely to continue in the future, in which case it should be incorporated into FCF projections.
 
-# Separating Operating from Nonoperating Expenses
+## Separating Operating from Nonoperating Expenses
 
 Many companies include a line item on their income statement that reads "Operating income (loss)" or "Operating profit/loss." For example, in Exhibit 21.1, the income statement for Boston Scientific shows that in 2018 the company reported an operating profit of 1.5 billion. But is this profit an accurate reflection of the company's long-run earnings potential? The accounting definition of operating profit differs from our definition of EBITA, in that the accounting standards for classifying items as nonoperating (i.e., to be recorded below operating profit or loss) are extremely strict. To benchmark core operations effectively, EBITA and net operating profit after taxes (NOPAT) should include only items related to the ongoing core business, regardless of their classification by accounting standards.
 
@@ -5788,7 +5787,7 @@ Source: Boston Scientific annual reports.
 
 When classification is unclear, measure ROIC with and without the expense. If the expense is lumpy, smooth the expense over the period in which the expense was generated.
 
-# Searching the Notes for Hidden One-Time Items
+## Searching the Notes for Hidden One-Time Items
 
 The income statement does not explicitly report every nonoperating expense or one-time charge. These can also be embedded in cost of sales or selling expenses. To find embedded expenses, read the management discussion and analysis section in the company's annual report. The section details the changes in cost of sales and other expenses from year to year and will sometimes report unusual items. In 2011, Boston Scientific reported such an expense:
 
@@ -5796,7 +5795,7 @@ During the first quarter of 2011, we reversed 20 million of previously establish
 
 Whether you make an adjustment to NOPAT for such an expense depends on whether the charge is large enough to affect perceptions of performance. If it is not, don't bother. An adjustment could make your analysis overly complex and time-consuming.
 
-# Analyzing Each Nonoperating Item for Impact on Future Operations
+## Analyzing Each Nonoperating Item for Impact on Future Operations
 
 In Kimberly-Clark's 2018 annual report, the company writes, "The 2018 Global Restructuring Program will reduce our structural cost base by streamlining and simplifying our manufacturing supply chain and overhead organization. The restructuring is expected to generate annual pre-tax cost savings of  $500 to$ 550 [million] by the end of 2021." If credible, such projections should be incorporated into your forecast of future cash flow.
 
@@ -5850,7 +5849,7 @@ Gains and Losses on Asset Sales When an asset's sale price differs from its book
 
 Although gains and losses should not be included in operating profit, past asset sales may provide insight about the level of cash to be generated by future asset sales. Again, be careful to value future asset sales (and their corresponding gains and losses) only when the assets are not incorporated in free cash flow. Otherwise, the resulting double-counting will overstate the company's value.
 
-# PROVISIONS AND THEIR CORRESPONDING RESERVES
+## PROVISIONS AND THEIR CORRESPONDING RESERVES
 
 Provisions are noncash expenses that reflect future costs or expected losses. Companies take provisions by reducing current income and setting up a corresponding reserve as a liability (or deducting the amount from the relevant asset).
 
@@ -5858,7 +5857,7 @@ For the purpose of analyzing and valuing a company, we categorize provisions int
 
 We believe our classification system of reserves leads to better analysis, but the way you adjust the financial statements should not affect the company's valuation. The valuation depends solely on how and when cash flows through the business, not on accrual-based accounting.
 
-# Adjustments for the Provisions
+## Adjustments for the Provisions
 
 In Exhibit 21.6, we present the abbreviated financial statements for a hypothetical company that recognizes four provisions: an environmental provision
 
@@ -5920,18 +5919,18 @@ In Exhibit 21.6, our hypothetical company was able to show a smooth growth in re
 
 To evaluate the company's performance properly, eliminate any income-smoothing provisions. Do this by adding the income-smoothing provision back to reported EBITA (essentially undoing the income-smoothing provision). In this way, we are converting the provision to cash, rather than accounting for it as an accrual, and subsequently need to treat the reserve as an equity equivalent (using a process identical to the one for deferred taxes). Since income-smoothing provisions are entirely noncash, they don't affect free cash flow or valuation.
 
-# Provisions and Taxes
+## Provisions and Taxes
 
 In most situations, provisions are tax deductible only when cash is disbursed, not when the provision is reported. Thus, most provisions will give rise to deferred-tax assets. For example, a  \$30 million noncash restructuring charge would lead to a\$ 30 million restructuring reserve. If the restructuring charge is tax deductible on the GAAP income statement, retained earnings would drop by only \$21 million (assuming a 30 percent tax rate). Since the increase in the restructuring reserve does not match the drop in retained earnings, the balance sheet will not balance. To eliminate the difference, a deferred-tax asset is recognized for \$9 million.
 
 For operating-related provisions, we recommend using cash, rather than accrual taxes. For nonoperating provisions, estimate the tax impact of the corresponding provision. Do not use book values, as they reflect past accounting and not necessarily future cash flow. For an in-depth discussion of deferred taxes, see Chapter 20.
 
-# CLOSING THOUGHTS
+## CLOSING THOUGHTS
 
 The accounting definition of nonoperating expense is narrow and limited to interest expense and a few other items. Therefore, the accounting definition of operating profits will inappropriately include many one-time and other nonoperating items. Always start your financial analysis by separating operating from nonoperating items on the income statement. This will create a better picture of the company's performance and its potential for generating future cash flow. In some cases, the proper classification of a particular expense will be unclear. But don't let this distract you from the task at hand. A proper valuation will not depend on how the item is treated, as long as you include it somewhere and treat it consistently.
 
 
-# Leases
+## Leases
 
 Many companies, especially retailers and airlines, lease their assets from other companies rather than purchasing the assets outright. They do this for many reasons, including greater flexibility and to lower taxes.
 
@@ -5944,7 +5943,7 @@ The new accounting guidelines bring the treatment of operating leases closer to 
 This chapter begins with a review of the new accounting rules, how they differ across accounting bodies, and how they are presented on the financial statements. We then outline how to incorporate operating leases into an enterprise valuation. Since operating leases affect each part of the valuation, this chapter provides a review of the valuation principles outlined in Part Two. As companies will not revise their historical financial statements, we discuss how to adjust past financial statements to assure consistent benchmarking over time. The chapter concludes with a discussion of an alternative method for lease valuation, which can be helpful when benchmarking across companies.
 
 
-# ACCOUNTING FOR OPERATING LEASES
+## ACCOUNTING FOR OPERATING LEASES
 
 Although both IASB and FASB now require capitalization of operating leases, there are differences in implementing the new standards. For companies that use International Financial Reporting Standards (IFRS), nearly all leases greater than one year are treated as "finance" leases, meaning that leased assets and their corresponding liabilities are capitalized on the balance sheet, and lease expense is appropriately split between depreciation and interest expense. The enterprise valuation methodology outlined in Part Two of this book will correctly incorporate leases under IFRS without further adjustment.
 
@@ -5976,7 +5975,7 @@ not match over time if cash payments vary year to year. That is the case in our 
 
 Because of the mismatch described in the previous paragraph, most companies report operating lease liabilities that differ from their corresponding right-of-use assets. Delta Airlines, for example, reported  \$6.0 billion in right-of-use assets in its 10-Q for the first quarter of 2019. In contrast, current maturities of operating leases equal\$ 941 million, and noncurrent operating leases equal \$5.8 billion, totaling \$6.7 billion. In this reporting period, the corresponding values differ by more than 10 percent.
 
-# VALUING A COMPANY WITH OPERATING LEASES
+## VALUING A COMPANY WITH OPERATING LEASES
 
 Incorporating operating leases into an enterprise valuation follows the same process outlined in Part Two of this book. We use four steps to value FlightCo:
 
@@ -5987,7 +5986,7 @@ Incorporating operating leases into an enterprise valuation follows the same pro
 
 As long as you treat right-of-use assets as purchased equipment and treat the operating lease liability as a form of debt, your results will be theoretically consistent. Only operating profit requires an upward adjustment for implicit lease interest. Failing to adjust operating profit will undervalue equity, because implicit interest would be double-counted: once as part of lease expense and again as part of lease value when subtracting the value of leases from enterprise value to get to equity value.
 
-# Reorganizing the Financial Statements
+## Reorganizing the Financial Statements
 
 To start the valuation of FlightCo, first reorganize the financial statements. Exhibit 22.3 presents the income statement, balance sheet, and statement of equity for FlightCo.
 
@@ -6011,7 +6010,7 @@ To calculate NOPAT, subtract operating taxes from adjusted operating profit. Ope
 
 We do not present a reorganized balance sheet for FlightCo, as the simplified balance sheet already matches invested capital. In general, include the right-of-use asset as part of invested capital and the operating lease liability as a source of financing.
 
-# Estimating Free Cash Flow
+## Estimating Free Cash Flow
 
 Once the financial statements are reorganized, estimate free cash flow. Exhibit 22.5 presents the free cash flow statement and its reconciliation to cash flow to investors for FlightCo. Free cash flow starts with NOPAT. Since FlightCo does not own property or equipment, there is no add-back for depreciation. From this value, subtract increases in working capital (inventory) and long-term assets (in this case, the right-of-use assets). Since both accounts are declining over time, they are positive numbers.
 
@@ -6026,13 +6025,13 @@ EXHIBIT 22.5 FlightCo: Free Cash Flow and Its Reconciliation
 
 When reconciling cash flow to investors, treat embedded interest on operating leases and the change in the operating lease liability as a flow to debt holders. Again, note in Exhibit 22.5 how the summation of these two accounts matches the cash-based lease payment. Financing and its associated taxes should not be part of free cash flow.
 
-# Incorporating Operating Leases into Financial Projections
+## Incorporating Operating Leases into Financial Projections
 
 To forecast right-of-use assets, use the forecasting process introduced in Chapter 13. Link right-of-use assets to sales or a quantity-based measure, such as the number of units sold. In the airline industry, units are represented by number of available seat-miles. Make sure the mix of purchased and leased assets is consistent with the amount of capacity necessary to conduct operations.
 
 Set the operating lease liability as a percentage of the right-of-use asset. While this estimation method is far from precise, flows to and from financing do not affect an enterprise-based valuation. Instead, financing affects valuation only through the target capital structure set in the weighted average cost of capital. If helpful, you can model the combination of operating leases and debt to the target capital structure, but it is not required.
 
-# Estimating the Cost of Capital
+## Estimating the Cost of Capital
 
 To discount free cash flow, use the weighted average cost of capital inclusive of the value of operating leases. Exhibit 22.6 presents the weighted average cost of capital for FlightCo.
 
@@ -6040,7 +6039,7 @@ We assume the company will maintain its current capital structure of 40 percent 
 
 In the calculations for this example, the cost of equity is provided. In practice, the cost of equity must be estimated using beta. Following the principles of Chapter 15, start by estimating an industry unlevered beta. Unlever each company's beta using a debt-to-equity ratio adjusted for operating leases. Next, to determine the target company's beta, relever the unlevered beta to the target company's capital structure, again inclusive of leases.
 
-# Moving from Enterprise Value to Equity Value
+## Moving from Enterprise Value to Equity Value
 
 To calculate enterprise value, discount free cash flow at the weighted average cost of capital, both inclusive of leases. Exhibit 22.7 shows the enterprise DCF valuation for FlightCo.
 
@@ -6058,7 +6057,7 @@ EXHIBIT 22.7 FlightCo: Enterprise DCF Valuation
 
 1 The present value of operating leases, found in the liabilities section of the balance sheet.
 
-# Valuation Using Cash Flow to Equity
+## Valuation Using Cash Flow to Equity
 
 In general, we do not recommend a valuation model based on cash flow to equity, because it mixes assets of different risks and commingles operating performance with the capital structure. If implemented properly, however, a cash-flow-to-equity valuation can confirm the accuracy of the enterprise DCF process described in this chapter. It can also provide insight into choices made during the capitalization process.
 
@@ -6078,7 +6077,7 @@ Exhibit 22.9 values cash flow to equity at the cost of equity. The cost of equit
 
 Discounting cash flow to equity at a 12 percent cost of equity leads to an equity valuation of 52.4 million. This is the same valuation as we calculated by using the enterprise DCF model.
 
-# ADJUSTING HISTORICAL FINANCIAL STATEMENTS FOR OPERATING LEASES
+## ADJUSTING HISTORICAL FINANCIAL STATEMENTS FOR OPERATING LEASES
 
 As time progresses, distortions caused by operating leases will be forgotten in the same way most investors have forgotten the adjustments required for the long-defunct pooling of interests prior to 2000. Until then, it is important to recognize that historical financial statements will remain unadjusted. To assure consistency in historical analysis prior to 2019, adjust historical statements to match current accounting policy.
 
@@ -6097,7 +6096,7 @@ In general, when reorganizing the balance sheet, include the value of operating 
 
 In Chapter 11, we adjust Costco's reorganized financial statements for operating leases. Exhibit 11.5 presents invested capital inclusive of operating leases, and Exhibit 11.9 adjusts EBITA and NOPAT for implicit interest. To calculate implicit interest for 2019, multiply the cost of debt of 3.63 percent by the 2018 capitalized operating lease of  \$2.5 billion. The resulting adjustment to EBITA equals\$ 91 million.
 
-# AN ALTERNATIVE METHOD FOR VALUING OPERATING LEASES
+## AN ALTERNATIVE METHOD FOR VALUING OPERATING LEASES
 
 To capitalize operating leases on the balance sheet, the company discounts future lease commitments at the company's borrowing rate. For short-term leases, this methodology will understate the actual value of the asset, since it ignores the residual value of the asset being returned to the lessor. Consider FlightCo, which rented an aircraft for three years of the plane's 40-year life. A new aircraft may cost 125 million, but three years of rental expense will be far lower.
 
@@ -6124,17 +6123,17 @@ Lease expense is disclosed in the notes, and the cost of debt can be estimated u
 In this section, we focus on the distortions to benchmarking caused by different leasing policies. Companies choose different leasing policies for many reasons, including flexibility and taxes.
 S. C. Lim, S. C. Mann, and V. T. Mihov, "Market Evaluation of Off-Balance Sheet Financing: You Can Run but You Can't Hide" (EFMA 2004 Basel Meetings paper, European Financial Management Association, December 1, 2003).
 
-# CLOSING THOUGHTS
+## CLOSING THOUGHTS
 
 Recent changes in lease accounting have brought financial reporting very close to the core principles of this book. Still, a proper valuation requires special care regarding operating leases. To inform better forecasts, adjust statements created prior to the accounting rules changes to incorporate operating leases. If you do not, apples-to-oranges comparisons may obscure crucial trends. For statements reported after the changes, remember to eliminate any interest embedded in operating expenses. Otherwise, you risk double-counting embedded interest, biasing your valuation downward. The task requires discipline and attention to detail, but with practice, the adjustments should become routine.
 
-# Retirement Obligations
+## Retirement Obligations
 
 To attract and retain talent, companies often offer retirement benefits to employees. These benefits include fixed pension payments, tax-advantaged savings plans, and promises to provide medical benefits when the employee retires. In some countries, companies are required to set up separate funds to pay these benefits, but inconsistencies are common because of differences in regulations and tax policy. For example, in the United States, companies must set up separate funds for pension promises (known as defined-benefit plans) but not for promises of retiree medical benefits. If the value of investments does not fully fund future promises, the company will have unfunded retirement obligations. Since the company is responsible for any shortfalls and these obligations take precedence over equity, any accurate valuation must account for them.
 
 This chapter explores how to analyze and value a company with pension and other retirement obligations. Recent accounting changes have made the analysis easier, but careful thinking and reorganizing of financial statements are still required. The challenges include deciding which part of the pension expense is operating versus nonoperating, treating the balance sheet for unfunded or overfunded obligations, estimating the cost of capital for companies with pensions, and adjusting equity value to reflect unfunded (or overfunded) retirement obligations.
 
-# REORGANIZING THE FINANCIAL STATEMENTS WITH PENSIONS
+## REORGANIZING THE FINANCIAL STATEMENTS WITH PENSIONS
 
 In the past, accounting for pensions and other retirement obligations severely distorted operating profit, requiring adjustments to correctly measure the impact of retirement obligations on the company's value. In response, accounting policy has changed, gradually bringing the accounting for retirement obligations in line with the underlying doctrines of this text.
 
@@ -6146,7 +6145,7 @@ Because of these changes, you no longer need to make as many adjustments to the 
 
 Throughout the chapter, we examine pension accounting using the American food manufacturer Kellogg. Kellogg is an interesting case because, even though its pension obligations are almost fully funded (about  $95\%$ , which is within the margin of year-to-year fluctuations), it's still necessary to dive into the details to make the right adjustments to estimate net operating profit after taxes (NOPAT) and invested capital. The information required to analyze pensions for Kellogg is in the footnotes to their financial statements, note 10, "Pension Benefits," and note 11, "Nonpension Postretirement and Postemployment Benefits."2 In these two notes, the company provides information on projected benefit obligations, the fair value of plan assets, and a breakout of the annual pension expense.
 
-# Reorganizing the Balance Sheet
+## Reorganizing the Balance Sheet
 
 To start, find all the retirement-related assets and liabilities on the balance sheet. If these items are relatively small, companies may include prepaid pension
 
@@ -6165,7 +6164,7 @@ Note that most companies don't fund their "other" retirement obligations, like p
 
 When reorganizing the balance sheet, separate operating assets from pension assets, and treat excess pension assets as nonoperating. Unfunded pension liabilities (on a gross basis) should be treated as a debt equivalent and, as such, should not be deducted from operating assets to determine invested capital. Instead, they will be valued separately during the transition from enterprise value to equity value.
 
-# Reorganizing the Income Statement
+## Reorganizing the Income Statement
 
 Pension accounting combines several items into a single expense, known as the pension expense. Some components are operating, while others are related to the performance of the plan assets. As such, pension expense must be
 
@@ -6198,7 +6197,7 @@ Under new accounting standards, the pension expense is no longer treated as oper
 
 Given that accounting guidelines across countries may differ, always check the notes for the location of various elements and adjust accordingly.
 
-# Expected Return and Earnings Manipulation
+## Expected Return and Earnings Manipulation
 
 To avoid volatility in the income statement, accounting standards allow companies to include an "expected return" on pension plan assets as part of pension expense, rather than actual returns. For example, Exhibit 23.2 shows that Kellogg recorded 455 million in expected return on plan assets in 2018, even
 
@@ -6213,7 +6212,7 @@ though the plan assets lost 350 million that same year. This enables companies t
 
 Since expected return must be estimated, company management has discretion over the rate used—a license that management may sometimes use to manipulate accounting profitability. Bergstresser, Desai, and Rauh found that management increases expected rates of return to increase profitability immediately before acquiring other firms and before exercising stock options. They also found that companies with the weakest shareholder protections tend to use the highest estimates for expected return. With nonoperating items now incorporated into other income and expenses, cost of sales and operating profit are no longer affected by expected-return choices. Even so, net income remains susceptible, which is just one of many reasons why NOPAT, and not earnings per share (EPS), remains a critical measure of accurate benchmarking and financial forecasting.
 
-# PENSIONS AND THE COST OF CAPITAL
+## PENSIONS AND THE COST OF CAPITAL
 
 A key component of valuation is the cost of equity, which is typically estimated using the capital asset pricing model (CAPM) and beta. As discussed in Chapter 15, it is difficult to accurately measure the beta of a single company. Therefore, we recommend using an industry beta derived from multiple companies in similar lines of business.
 
@@ -6249,12 +6248,12 @@ To measure the beta of plan assets, we use the target allocation reported in the
 
 While each method has its benefits, we believe Equation 1 inclusive of unfunded pension liabilities is the easiest and most reliable method for unlevering beta. An estimate of unfunded pension liabilities is already required for equity valuation, and the method does not require an extensive analysis of plan assets—a daunting task when there are many companies to analyze within an industry.
 
-# RELEVERING BETA TO ESTIMATE THE COST OF EQUITY
+## RELEVERING BETA TO ESTIMATE THE COST OF EQUITY
 
 Once you have estimated the unlevered industry beta, relever the industry beta to the company's target capital structure and compute the company's cost of capital. To relever the industry beta, do not incorporate pensions. While this may seem inconsistent for a company with pensions, it is not. We have eliminated pensions from free cash flow and the cost of capital, and there is no reason to reintroduce pensions, or the risk associated with them, into the value of operations. Instead, value pensions separately, and sum the parts.
 
 
-# INCORPORATING PENSIONS INTO THE VALUE OF EQUITY
+## INCORPORATING PENSIONS INTO THE VALUE OF EQUITY
 
 Pension plans and other obligations, such as promised medical benefits, will affect a company's value in two ways. First, service cost will be embedded within free cash flow. Since only cash contributions and not service costs are tax deductible, make sure to adjust taxes appropriately for companies that systematically underfund their obligations. Not every country provides tax relief on pension contributions, so check local tax law to determine the marginal tax rate for contributions. Second, past over- or underfunding must be incorporated into value as a nonoperating asset or debt equivalent.
 
@@ -6264,17 +6263,17 @@ To value companies with net unfunded liabilities, reduce enterprise value by the
 
 In 2018, Kellogg recognized  \$440 million in unfunded pension liabilities and\$ 71 million in prefunded other benefits (see Exhibit 23.1), for a net total liability of \$369 million. Assuming a marginal tax rate of 24 percent, the after-tax liability equals \$280 million. To determine equity value, deduct the after-tax liability from enterprise value.
 
-# CLOSING THOUGHTS
+## CLOSING THOUGHTS
 
 The International Accounting Standards Board and the U.S.-based Financial Accounting Standards Board have worked to eliminate the distortions caused by pension accounting. For most companies, the income statement now separates service cost from nonoperating pension expenses, and the balance sheet recognizes the market value of unfunded pension obligations. The result is better benchmarking, requiring fewer adjustments, and a valuation that is easier to carry out.
 
-# Measuring Performance in Capital-Light Businesses
+## Measuring Performance in Capital-Light Businesses
 
 In this book, our primary measure of return on capital is return on invested capital (ROIC). We define ROIC as net operating profit after taxes (NOPAT) divided by invested capital. We derive ROIC from items on a company's financial statements, with some adjustments, such as separating operations from financing and separating operating items from nonoperating items. ROIC correctly reflects return on capital in most cases, but special circumstances require alternative measures. For example, a young biotech company could spend a billion dollars on research and development (R&D) before its product is launched. Since R&D is expensed, not capitalized, the company would show a negative ROIC in its early years and a very high ROIC once the product is launched. The actual economic return on capital over the life of the product would lie at some average level in between.
 
 In this chapter, we show how to deal with such investments in R&D and in marketing and sales that are expensed when they are incurred. Creating pro forma financial statements that capitalize these expenses can provide more insight into the underlying economics of a business. In addition, we discuss businesses with very low capital requirements, where we recommend using economic profit or economic profit scaled by revenues to measure return on capital.
 
-# CAPITALIZING EXPENSED INVESTMENTS
+## CAPITALIZING EXPENSED INVESTMENTS
 
 When a company builds a plant or purchases equipment, it capitalizes the asset on the balance sheet and depreciates it over time. Conversely, when a company invests in intangible assets such as a new production technology, a brand name, or a distribution network, the entire outlay must be expensed immediately. In sectors such as pharmaceuticals, high technology, and branded consumer goods, failure to recognize such expenses as investments can lead to significantly underestimating a company's invested capital and overstating its return on invested capital.
 
@@ -6285,7 +6284,7 @@ The economics of investments in intangible assets are very similar to those of i
 
 In addition to improving the measurement of ROIC, capitalizing intangible investments can reduce the manipulation of short-term profits. Under traditional accounting, a manager looking to meet short-term earnings targets can simply reduce R&D spending. With R&D capitalized, however, amortization charges to earnings will remain almost unchanged in the short term. Capitalizing investments can also provide strategic insights. For example, many companies set R&D budgets at a fixed percentage of revenue. When combined with expensing R&D, this masks the change in performance resulting from any change in revenues, because the earnings margin remains unchanged. But when R&D is capitalized, amortization charges do not change with revenues, and the impact on performance is clearly reflected in earnings.
 
-# Example: Capitalizing R&D Expenses
+## Example: Capitalizing R&D Expenses
 
 As an illustration of capitalizing intangible investments and its impact on ROIC, Exhibit 24.1 presents the reorganized financial statements for PharmaCo. This fictional company has experienced rapid growth over the past 25 years, reaching around 1.2 billion in revenues by 2020. The after-tax earnings margin is 11 percent of sales. R&D expenses, to renew the product pipeline, are at around 20 percent of sales. ROIC is at 33 percent, with revenues at three times invested capital as
 
@@ -6337,7 +6336,7 @@ EXHIBIT 24.6 PharmaCo: ROIC at Different Estimates of R&D Asset Lifetime, 2020
 \% assets) does not materially affect perceptions of performance: for PharmaCo, ROIC would be 8.9 percent for a 12-year life, versus 9.4 percent for an eight-year life. This pattern remains unchanged when R&D spending is much lower—for example, at only 10 percent of revenues. Furthermore, when using ROIC to compare the performance of competing companies, what matters most is that asset lifetime estimates are consistent across all companies. Keep in mind that the lifetimes for tangible assets are also based on rough estimates and accounting conventions. Yet most managers and analysts are quite comfortable using tangible-asset book values and depreciation charges as the basis for return on capital and earnings.[7]
 
 
-# Interpreting Return on Capital, Including Capitalized Expenses
+## Interpreting Return on Capital, Including Capitalized Expenses
 
 In general, capitalizing intangible investments will lead to lower ROIC. For mature companies with stable revenues and investment spending, the amortization charges for intangible assets are likely to be close to the amounts expensed. As a result, capitalizing the expenses may have little impact on NOPAT. But the capital base will always increase when the expenses are capitalized, leading to lower ROIC.
 
@@ -6363,11 +6362,11 @@ Capitalizing intangibles can provide a better financial perspective on competiti
 
 While insights from capitalizing resources are valuable, companies must take care. Left unchecked, managers could have an incentive to classify all expenses as investments, even those with no long-term benefits, because this will maximize reported short-term performance. They could also be reluctant to write off investments that prove worthless after they have been capitalized. For instance, a distribution channel may be kept open merely to avoid a writedown on the manager's economic balance sheet.
 
-# WHEN BUSINESSES NEED LITTLE OR NO CAPITAL
+## WHEN BUSINESSES NEED LITTLE OR NO CAPITAL
 
 Some businesses do not require significant amounts of capital—for example, those in the professional services sector, but also consumer electronics companies with outsourced manufacturing. Because of these companies' low or even negative capital base, ROIC can become less meaningful. In such cases, we recommend using economic profit as the key measure of value creation.
 
-# Capital-Light Business Models and ROIC
+## Capital-Light Business Models and ROIC
 
 Examples of businesses with an inherently low need for capital include accounting, legal counseling and other professional services, and real estate and other forms of brokerage services. Businesses such as software development and services have limited fixed capital needs, and customer license prepayments and supplier financing often bring their overall invested capital close to zero. In these cases, capital is very low relative to earnings generated, and ROIC accordingly is high. Modest changes in an already small invested-capital base can lead to very large swings in ROIC, making ROIC in any particular year hard to use for performance management or financial planning and target setting.
 
@@ -6384,7 +6383,7 @@ highest turnover, supplies and tools are purchased on customer order. Because Tr
 
 As Exhibit 24.8 shows, revenues, earnings, and free cash flow are fairly stable on a year-by-year basis. But as the graph in Exhibit 24.9 shows, ROIC fluctuates wildly and is even unmeasurable in some years, despite stable earnings margins and healthy cash flows. The reason is that TradeCo's invested capital is very small and sometimes even negative, mainly because of movements in working capital. ROIC is not meaningful in 2015 and 2017 because the company had negative invested capital. ROIC is numerically negative, but it lacks any economic interpretation. Looking at the bottom of Exhibit 24.8, we see that economic profit was positive in 2017, clearly indicating value creation. The movements in ROIC could mislead your assessment of performance. For example, ROIC increased from 316 percent in 2019 to 632 percent
 
-# EXHIBIT 24.9 TradeCo: ROIC and NOPAT Margin
+## EXHIBIT 24.9 TradeCo: ROIC and NOPAT Margin
 
 \% in 2020. Yet value creation declined, as the change in economic profit for the same period shows. The change in ROIC was driven by a decline in working capital. Earnings declined simultaneously and pushed down value creation.
 
@@ -6405,7 +6404,7 @@ Cost of capital equals  $7.5\%$ .
 
 outsourcing. $^{9}$  Managers should therefore not make decisions to outsource merely on the grounds that it raises ROIC. These decisions need to be supported by an analysis of economic profit or, equivalently, a DCF valuation.
 
-# Economic Profit as a Key Value Metric
+## Economic Profit as a Key Value Metric
 
 Although there is no objective way to determine a cutoff point, we believe that ROICs above 50 percent need to be handled with caution when used as a measure of value creation. Special caution is required in businesses where high capital turnover, rather than high earnings margins, drives such ROIC levels.
 
@@ -6451,11 +6450,11 @@ In the same way, the ratio of economic profit over revenues can help in benchmar
 
 In general, when you are comparing the performance of businesses with very different capital intensity and size, using economic profit over revenues provides the best insights into performance and value creation.
 
-# SUMMARY
+## SUMMARY
 
 For most businesses, ROIC is a good measure of return on capital. However, for businesses that rely on significant investments in intangibles, such as R&D or brands, you should make some adjustments to ROIC to include the capitalized value of these resources. For businesses that use very little or no capital, economic profit is a better measure of value creation. To allow for comparison across businesses of different sizes, you can scale economic profit by revenues.
 
-# Alternative Ways to Measure Return on Capital
+## Alternative Ways to Measure Return on Capital
 
 Valuations often assume that historical return on capital is a good starting point for projecting future returns as a company grows. But if historical return on capital is measured in a way that gives us no meaningful information about value creation, decisions about whether to continue investing in a business may be incorrect. To be truly value based, the measure for return on capital should reflect the internal rate of return (IRR) of the underlying business from the time investments are made until all the cash flows from that investment have been collected. That's not possible in practice, because we can't wait until the end of every project to assess a company's performance; a business is an accumulation of different investments made at different times. So we need a proxy that measures how much value a company has created in the recent past and that can help a company with the particularly important task of planning for the future.
 
@@ -6465,7 +6464,7 @@ As we compare these measures, note that all of them apply this important princip
 
 Take, for example, the case where the fair value of an asset is based on the intrinsic, discounted-cash-flow (DCF) value of its future cash flows. By definition, the return on capital for the asset at its fair value does not provide any indication of an investment's value creation in such assets. For a growing business, a return on capital measured against the DCF value will always be less than the cost of capital, because the DCF value reflects the value creation of future investments.
 
-# WHEN ROIC EQUALS IRR
+## WHEN ROIC EQUALS IRR
 
 The simplest approach to measuring return on capital, which works well in most cases, is the one we use throughout this book: ROIC, or operating earnings divided by the net book value of a company's operating capital (purchase cost less accumulated depreciation). To illustrate when ROIC accurately estimates the IRR of an asset and the business activities it supports, we will use a stylized example, shown in Exhibit 25.1. The initial investment is  \$100, and operating cash flows gradually decline over the asset's five-year lifetime. With linear depreciation charges of\$ 20, the operating profit is proportional to the net invested capital in each year, declining from \$15 in the first year to \$3 in the last. We define ROIC in a particular year as the operating profit for that year divided by the invested capital at the beginning of the year, net of accumulated depreciation (ignoring taxes for simplicity). In this example, the asset's ROIC is constant over the asset's lifetime at 15 percent.
 
@@ -6481,7 +6480,7 @@ It is possible to generalize the result for a business consisting of a portfolio
 
 This means that the ROIC of a business (or company) is equal to the IRR of new investments if the operating earnings for the business are proportional to net invested capital. In these conditions, ROIC is a value-based measure of return on capital, even though it is based on accounting measures of earnings and capital.
 
-# WHEN CFROI EQUALS IRR
+## WHEN CFROI EQUALS IRR
 
 CFROI is an alternative measure of return on capital based on cash flow rather than profit and book value. For any given year, CFROI is defined as the discount rate for which the present value of that year's operating cash flow (as an  $N$ -year annuity) equals gross invested capital at the beginning of the year, where  $N$  is the lifetime of the underlying asset. The basic formula for calculating CFROI in a given year  $T$  is
 
@@ -6511,7 +6510,7 @@ In fact, when the operating cash flow is constant over an asset's lifetime, CFRO
 
 Let's generalize the results again to a business consisting of five such individual assets, with remaining lifetimes of one, two, three, four, and five years (the right column in Exhibit 25.2). As in the prior example, the business's overall cash flows, earnings, and invested capital derive from those of the underlying five assets. The business's CFROI and IRR therefore equal the CFROI and IRR of each individual asset. If this business wants to grow its cash flows by 10 percent, it must expand its gross invested capital by 10 percent as well—an investment outlay of 50. The IRR on that incremental investment is now equal to its CFROI of 13.8 percent. Note that the business ROIC of 15 percent overestimates the IRR in this case. In general, the business (or company) CFROI is exactly equal to the IRR of new investments if operating cash flows for the business are proportional to gross invested capital.
 
-# CHOOSING BETWEEN ROIC AND CFROI
+## CHOOSING BETWEEN ROIC AND CFROI
 
 To understand when to use ROIC and when to use CFROI, let's now compare the two examples in Exhibits 25.1 and 25.2 in more detail. Note that the businesses (not the assets) in both examples have identical ROIC, CFROI, earnings (operating profit), operating cash flow, and invested capital. Nevertheless, the underlying economics and value creation are quite different, as is the "right" measure for return on capital.
 
@@ -6521,13 +6520,13 @@ For the example in Exhibit 25.2, CFROI is the right measure and equal to the IRR
 
 These two examples illustrate that there is no single right measure of return on capital. Depending on the earnings and cash flow pattern of the investment projects underlying a business, ROIC or CFROI can be equal to IRR—in theory. The fact that CFROI is calculated based on cash components does not mean it is always superior to the accounting-based ROIC.
 
-# Theoretical Trade-Offs
+## Theoretical Trade-Offs
 
 Although the examples were stylized, it is possible to derive general insights about the theoretical trade-offs between ROIC and CFROI. CFROI is more appropriate in businesses where investments are very lumpy. As two extreme examples, think of infrastructure projects or hydroelectric power plants. These require very substantial up-front investments that generate relatively stable cash flows without significant investments in maintenance or overhauling over many years or even decades. Although accounting conventions may require that the assets be depreciated, their net capital base has little bearing on the capacity to generate cash flows. ROIC often rises to levels that are unrelated to the project's economic return (IRR), but CFROI will be much closer to the IRR because the operating cash flows are very stable.
 
 In contrast, ROIC is likely to be a better estimate of the underlying IRR in businesses where investments occur in a more regular and smoother pattern because they are needed to support the earnings. As an example, think of retail supermarkets or a manufacturing company with many plants and pieces of equipment. These businesses require regular investments as management maintains, upgrades, and renews product lines and shop formats. In the periods between making such investments, pricing and earnings are likely to face pressure from competition with newer products or formats. As a result, the depreciated capital base is a reasonable approximation of the ability to generate earnings, making ROIC a better estimate of underlying IRR. In our experience, this is the case for most companies: maintenance and replacement investments are required on an ongoing basis to support the operating earnings.
 
-# Practical Considerations
+## Practical Considerations
 
 Apart from these theoretical considerations, some practical trade-offs exist between ROIC and CFROI. First, it is easier to estimate ROIC and its components, such as operating earnings and book value of invested capital, from standard financial reporting statements with some reorganization and adjustments (as described in Chapter 11). Once you have the components, ROIC is a straightforward ratio that most managers are familiar with. In contrast, CFROI requires a far more complex, iterative calculation that is not transparent to many managers.[5]
 
@@ -6543,7 +6542,7 @@ EXHIBIT 25.3 Returns under Inflation: ROIC vs. CFROI
 
 1 CFROI includes an inflation adjustment.
 
-# EXHIBIT 25.4 Pretax ROIC and CFROI per Sector, 2003-2013
+## EXHIBIT 25.4 Pretax ROIC and CFROI per Sector, 2003-2013
 
 10-year average of median ROIC and CFROI by sector,  ${}^{1}\%$
 
@@ -6553,7 +6552,7 @@ EXHIBIT 25.3 Returns under Inflation: ROIC vs. CFROI
 
 and 2013, we found that, on average, these differences were not very large (see Exhibit 25.4). For all but one of the ten nonfinancial sectors we considered, the spread between the average ROIC and CFROI was three percentage points or less when taking both ROIC and CFROI without inflation adjustments. The difference between the highestand lowest-quartile ROIC in a sector was typically four times larger than this spread. Thus, your decision whether to measure a business's return on capital by using ROIC or CFROI is unlikely to make a difference in what the result tells you about the company's relative performance versus that of sector peers.
 
-# FLAWS OF OTHER CASH RETURNS ON CAPITAL
+## FLAWS OF OTHER CASH RETURNS ON CAPITAL
 
 In practice, we see managers and analysts apply other measures of return on capital, not just ROIC and CFROI. Sometimes the only difference is in the name. For example, most definitions of return on capital employed (ROCE) are fairly similar to ROIC and calculated as operating earnings divided by operating capital employed—although the exact definition of earnings and capital varies across applications.
 
@@ -6565,11 +6564,11 @@ $$
 
 Unfortunately, such cash returns are flawed measures of value creation, as they do not equal the underlying IRR. In Exhibits 25.1 and 25.2, the cash returns on both gross and net invested capital overestimate the true underlying IRR. The main reason is that these cash returns on capital fail to account for the charge of depleting the underlying capital, because they ignore depreciation charges. $^{7}$  For the cash return on invested capital net of cumulative depreciation, the error is magnified, as the denominator becomes smaller over the lifetime of the asset. This makes the overestimation of IRR even worse, as indicated by the results for operating cash flow divided by net invested capital in Exhibits 25.1 and 25.2. Because of these variances from IRR, we advise against using cash returns on capital as measures of business performance.
 
-# SUMMARY
+## SUMMARY
 
 For most businesses, ROIC is a good measure of return on capital. It accurately reflects the economic return, as defined by the internal rate of return of the cash flows that the business generates. In addition, it is derived from information that is readily available from standard financial reports, and it is easy for managers to understand. For businesses with high up-front investments in capital that generate steady cash flows for many years, you can consider whether using CFROI justifies the additional effort and complexity relative to ROIC.
 
-# Inflation
+## Inflation
 
 High-inflation environments make analyzing and forecasting companies' financial performance a challenge. Inflation distorts the financial statements, adding to the difficulty of year-to-year historical comparisons, ratio analyses, and performance forecasts.
 
@@ -6581,7 +6580,7 @@ Although all the familiar tools described in Part Two still apply to periods of 
 - How to evaluate a company's historical performance when inflation is high
 - How to prepare financial projections of a company's performance in both nominal and real terms
 
-# INFLATION LEADS TO LOWER VALUE CREATION
+## INFLATION LEADS TO LOWER VALUE CREATION
 
 Since the 1980s, inflation has generally been mild in the developed economies of Europe and North America, at levels around 2 to 3 percent per year. But this does not mean inflation has become irrelevant. As Exhibit 26.1 shows, the situation was quite different in the 1970s, when inflation hovered around
 
@@ -6657,7 +6656,7 @@ Whatever the exact reason, history shows that companies do not manage to pass on
 
  Modigliani and Cohn, "Inflation, Rational Valuation, and the Market"; Ritter and Warr, "The Decline of Inflation."
 
-# HISTORICAL ANALYSIS IN TIMES OF HIGH INFLATION
+## HISTORICAL ANALYSIS IN TIMES OF HIGH INFLATION
 
 In countries experiencing extreme inflation (more than 25 percent per year), companies often report in year-end currency. In the income statement, items such as revenues and costs that were booked throughout the year are restated at year-end purchasing power. Otherwise, the addition of these items would have no relevance. The balance sheet usually has adjustments to fixed assets, inventory, and equity; the accounts payable and receivables are already in year-end terms.
 
@@ -6670,7 +6669,7 @@ As a result, many financial indicators typically used in historical analyses can
 - Operating margins (operating profit divided by sales) can be overstated because depreciation is too low and slow-moving inventories make large nominal holding gains. Corrections for depreciation charges follow from adjustments to PP&E. You can estimate cash operating expenses at current-cost basis by inflating the reported costs for the average time held in inventory. Alternatively, use historical EBITDA-to-sales ratios to assess the company's performance relative to peers; these ratios at least do not suffer from any depreciation-induced bias.
 - Credit ratios and other indicators of capital structure health become distorted and require cautious interpretation. Distortions are especially significant in solvency ratios such as debt to equity or total assets, because long-lived assets are understated relative to replacement costs, and floating-rate debt is expressed in current currency units. As Chapter 33 advises, use coverage ratios such as EBITDA to interest expense.[10] These are less exposed to accounting distortions, because depreciation has no impact on them and debt financing is mostly at floating rates or in foreign currency when inflation is persistent.
 
-# FINANCIAL PROJECTIONS IN REAL AND NOMINAL TERMS
+## FINANCIAL PROJECTIONS IN REAL AND NOMINAL TERMS
 
 When you make financial projections of income statements and balance sheets for a valuation in a high-inflation environment, keep in mind that accounting adjustments should not affect free cash flow. Projections are typically made in either nominal or real terms, but high-inflation environments require a hybrid approach because each single approach has different strengths, as Exhibit 26.5 shows. On the one hand, projecting in real terms makes it difficult to calculate taxes correctly, as tax charges are often based on nominal financial statements. Furthermore, you need to project explicitly the effects of working-capital changes on cash flow, because these do not automatically follow from the annual change in real-terms working capital. On the other hand, using nominal cash flows makes future capital expenditures difficult to project, because the typically stable relationship between revenues and fixed assets does not hold in times of high inflation. This means it will also be difficult to project depreciation charges and EBITA.
 
@@ -6690,7 +6689,7 @@ To prepare consistent financial projections, you therefore need to use elements 
 
 In practice, financial projections for high-inflation valuations raise many more issues than in this simplified example. Nevertheless, the example is useful for showing how to address some key issues when developing a cash flow forecast in periods of inflation. Using the following step-by-step approach leads to the real and nominal valuation results shown in Exhibit 26.7.
 
-# Step 1: Forecast Operating Performance in Real Terms
+## Step 1: Forecast Operating Performance in Real Terms
 
 To the extent possible, convert historical nominal balance sheets and income statements into real terms (usually at the current year's currency value). At a minimum, make a real-terms approximation of the historical development of the key value drivers—growth and return on capital—and the underlying capital turnover and EBITA margin, so you can understand the true
 
@@ -6709,7 +6708,7 @@ economics of the business. With these approximations, forecast the operating per
 - Working capital follows from projected revenues and assumptions about days of working capital required.
 - From projected net PP&E and assumptions about the lifetime of the assets, derive the annual depreciation to estimate real-terms EBITA.
 
-# Step 2: Build Financial Statements in Nominal Terms
+## Step 2: Build Financial Statements in Nominal Terms
 
 Nominal projections can be readily derived through the following steps, which convert the real operating projections into nominal terms:13
 
@@ -6725,11 +6724,11 @@ This example did not build a complete balance sheet and income statement. Comple
 - Check that equity equals last year's equity plus earnings, less dividends, plus or minus any share issues or repurchases.
 Balance the balance sheet with debt or marketable securities.
 
-# Step 3: Build Financial Statements in Real Terms
+## Step 3: Build Financial Statements in Real Terms
 
 Most of the operating items for the real-terms income statement and balance sheet were already estimated in step 1. Now include the real-terms taxes on EBITA by deflating the nominal taxes as estimated in step 2. For full financial statements, use the inflation index to convert debt, marketable securities, interest expense, income taxes, and nonoperating terms from the nominal statements into real terms. The real-terms equity account is a plug to balance the balance sheet. To make sure you have done this correctly, be sure the real equity account equals last year's equity plus earnings, less dividends, plus or minus share issues or repurchases, and plus or minus inflationary gains or losses on the monetary assets and liabilities (such as cash, receivables, payables, and debt).
 
-# Step 4: Forecast Free Cash Flows in Real and Nominal Terms
+## Step 4: Forecast Free Cash Flows in Real and Nominal Terms
 
 Forecast the future free cash flows in real and nominal terms from the projected income statements and balance sheets. Follow the general approach described in Chapter 10. The only difference is that the real-terms investment in net working capital  $(\mathrm{NWC}^{\mathrm{R}})$  is equal to the increase in working capital plus a monetary loss due to inflation:14
 
@@ -6740,7 +6739,7 @@ $$ where  $i_{t}$  is the inflation rate in year  $t$ .
 
 To check for consistency, use the inflation index to convert the free cash flows from the nominal projections to real terms. These should equal the free cash flows from the real-terms projections in each year.
 
-# Step 5: Estimate DCF Value in Real and Nominal Terms
+## Step 5: Estimate DCF Value in Real and Nominal Terms
 
 When discounting real and nominal cash flows under high inflation, you must address three key issues:
 
@@ -6776,13 +6775,13 @@ The resulting continuing-value estimate is the same as that obtained from an FCF
 
 Of course, the DCF valuations in nominal and real terms should lead to exactly the same result. Combining both approaches not only provides additional insights into a company's economics under inflation but also is a useful cross-check on the validity of the valuation outcomes.
 
-# SUMMARY
+## SUMMARY
 
 High and persistent inflation destroys value because companies typically cannot increase prices enough to offset higher capital outlays. To analyze and value companies in the presence of such inflation, we use the same tools and approaches as introduced in Part Two. However, applying them can be somewhat different.
 
 When analyzing a company's historical performance, you should be aware that persistent inflation can distort many familiar financial indicators, such as growth, capital turnover, operating margins, and solvency ratios. Ensure that you make appropriate adjustments to these ratios. When making financial projections, use a combined nominal- and real-terms approach, because real-terms and nominal-terms projections offer relevant insights and can be used for cross-checking your results. When discounting cash flows, use inflation assumptions in the weighted average cost of capital that are fully consistent with those underlying your cash flow projections.
 
-# Cross-Border Valuation
+## Cross-Border Valuation
 
 To value businesses, subsidiaries, or companies in foreign countries, follow the same principles and methods that we presented in Part Two. Fortunately, accounting issues in cross-border valuations have diminished. Most of the world's major economies have adopted either International Financial Reporting Standards (IFRS) or U.S. Generally Accepted Accounting Principles (GAAP), and these two standards are rapidly converging. Moreover, remember that if you follow Chapter 11's recommendations for rearranging financial statements, you will obtain identical results regardless of which accounting principles you follow in preparing the financial statements.
 
@@ -6795,7 +6794,7 @@ Nevertheless, the following issues arise in cross-border valuations and still re
 
 This chapter highlights the steps involved in the special analyses required for each of these issues.
 
-# FORECASTING CASH FLOWS
+## FORECASTING CASH FLOWS
 
 A company or business unit valuation should always result in the same value regardless of the currency or mix of currencies in which cash flows are projected. To achieve this, you should use consistent monetary assumptions and one of the two following methods for forecasting and discounting cash flows denominated in foreign currency.
 
@@ -6823,7 +6822,7 @@ The results for the spot-rate and forward-rate valuations are identical because 
 - Forward exchange rates between two currencies must be consistent with inflation and interest rate differences between those currencies.
 - Conversion of cash flow projections from one currency into another should be done at forward exchange rates.
 
-# Inflation and Interest Rates
+## Inflation and Interest Rates
 
 Inflation and interest rates should be projected in accordance with the Fisher effect. For each currency, the inflation rate  $i_t$  in each year should align with the nominal forward interest rate  $(f_t)$  and real interest rate  $(R_t)$  in that year:
 
@@ -6845,7 +6844,7 @@ $$
 3.77 \% = \left[ (1 + 3.52 \%) (1 + 4.03 \%) \right] ^ {1 / 2} - 1
 $$
 
-# Forward Exchange Rates
+## Forward Exchange Rates
 
 Forward exchange rates should reflect inflation and interest rates following interest rate parity. For currencies with liquid forward markets, arbitrage trading drives forward rates to interest rate parity, but you should always verify that the rates are consistent with inflation and interest rates you are using in your cash flow projections and valuation. The forward foreign-exchange rate in year  $t$ ,  $X_{t}$ , should equal the current spot rate,  $X_{0}$ , multiplied by the ratio of nominal interest rates in the two currencies over the forecast interval,  $t$ :
 
@@ -6879,11 +6878,11 @@ $$
 
 Interest rate parity implies that whether a company borrows in Swiss francs or euros has no impact on value (unless there are any tax implications). You could borrow 1,200 Swiss francs today at 4.16 percent interest per year, totaling 1,412 Swiss francs to repay in 2024. At the four-year forward exchange rate, this amounts to €1,212 (1,412 ÷ 1.165). Alternatively, you could take up a €1,000 loan today at 4.93 percent annual interest in euros, accruing to a total payment of €1,212 in 2024.
 
-# Conversion of Cash Flows
+## Conversion of Cash Flows
 
 Conversion of future cash flows should be done only at forward exchange rates that are consistent with the interest and inflation rates used in your valuation. Otherwise, valuation results are likely to differ depending on the currency used in the cash flow projections. Do not rely on "forecast" exchange rates for your projections, as these rates could induce a bias in your valuation if they are not consistent with your assumptions on inflation and discount rates.
 
-# ESTIMATING THE COST OF CAPITAL
+## ESTIMATING THE COST OF CAPITAL
 
 As when you are forecasting cash flows in different currencies, the most important rule for estimating costs of capital for cross-border valuations is to have consistent monetary assumptions. The expected inflation that determines the foreign-currency cash flows should equal the expected inflation included in the foreign-currency weighted average cost of capital (WACC) through the risk-free rate. Then estimate the cost of capital, depending on the investor's position.
 
@@ -6895,7 +6894,7 @@ Many practitioners make ad hoc adjustments to the discount rate to reflect polit
 
 Finally, keep in mind that estimating a cost of capital is not a mechanical exercise with a precise outcome. You should pair the approach outlined in this chapter with sound judgment on long-term trends in interest rates and market risk premiums (see Chapter 15) to obtain a cost of capital estimate that is sufficiently robust for financial decision making. The following sections and Appendix G provide further background for our recommendations and practical guidelines for estimating the cost of capital in foreign currency.
 
-# Global CAPM
+## Global CAPM
 
 For investors and companies able to invest outside their home markets without restrictions, we recommend using a global CAPM. In a global CAPM, there is a single, real-terms risk-free rate, and the market risk premium and beta are measured against a global market portfolio:
 
@@ -6962,7 +6961,7 @@ Some practitioners and academic researchers propose always using a local CAPM, r
 
 Nevertheless, we don't recommend the local CAPM approach for integrated markets, for several reasons. When applying the local CAPM for investments in different countries, you need to estimate the local market risk premium and beta for each of these countries instead of only the global market risk premium when applying the global CAPM. Using a local CAPM also means you cannot make a straightforward estimate of a company's beta based on the average of the estimated betas for a sample of industry peers. In Chapter 15, we recommend estimating an industry average beta to reduce its standard error, but if the peers are in different countries, their local betas are not directly comparable. Finally, local risk premiums are typically less stable over time than their aggregate, the global risk premium. See Appendix G for more detail.
 
-# APPLYING A DOMESTIC- OR FOREIGN-CAPITAL WACC
+## APPLYING A DOMESTIC- OR FOREIGN-CAPITAL WACC
 
 When cash flows and cost of capital are estimated in a consistent manner, the currency in which the cash flows are denominated will not affect the valuation. This holds regardless of whether you are using the enterprise DCF approach, the adjusted present value (APV) approach, or the cash-flow-to-equity approach.
 
@@ -6987,7 +6986,7 @@ The foreign-capital WACC is derived by converting the euro-based cost of debt an
 
 In practice, financing choices for cross-border business operations are far from straightforward, because companies need to take into account many complicating factors. These include differences in international taxation, the cost of local versus international debt funding, the depth of alternative debt markets, the impact on foreign-currency exposure, and others. How to make such international financing choices is beyond the scope of this book. But you should be careful in properly reflecting the outcome of such financing choices via the cost of capital in cross-border valuations. In practice, a domestic-capital WACC is most common—but beware of exceptions.
 
-# INCORPORATING FOREIGN-CURRENCY RISK IN THE VALUATION
+## INCORPORATING FOREIGN-CURRENCY RISK IN THE VALUATION
 
 Many executives are concerned about the impact that currency fluctuations from foreign investments have on value creation in company results. The analyst community and investors may be wary of the resulting earnings volatility, even though it does not matter for value creation. As a result, many companies still add a premium for currency risk to the cost of capital for foreign investments. This is unnecessary. As we discuss in Appendix G, currency risk premiums in the cost of capital—if any—are likely to be small. There should be no difference between the cost of capital for investments in foreign currency and otherwise identical investments in domestic currency (when you apply consistent monetary assumptions). First, price fluctuations tend to mitigate currency fluctuations because of purchasing power parity. Second, currency risk is largely diversifiable for companies and shareholders. Any remaining risk from currency rate changes is best reflected in the cash flow projections for the investment.
 
@@ -7012,13 +7011,13 @@ If the foreign business being valued has limited international purchases and sal
 
 If the business has significant cash flows in international currencies, such as an exporting oil company, exchange-rate adjustments toward PPP will affect cash flows in local currency. Prepare the local cash flow forecasts for the business based on two scenarios: one with convergence of the exchange rate toward PPP, and one without. Then value the cash flows for both currency scenarios using the spot-rate or forward-rate approach. Ensure that the spot and forward rates correctly reflect the assumptions on the convergence of the exchange rate made in your currency scenarios. The result will again be a valuation range in domestic currency, indicating the potential impact of an exchange-rate convergence to PPP.
 
-# USING TRANSLATED FOREIGN-CURRENCY FINANCIAL STATEMENTS
+## USING TRANSLATED FOREIGN-CURRENCY FINANCIAL STATEMENTS
 
 To conduct analysis of the historical performance of foreign businesses, it's best to use the foreign currency. But this is impossible if you are conducting your analysis on an outside-in basis and the business's statements in foreign currency have been translated into its parent company's domestic currency and consolidated in the parent's accounts.
 
 For example, a British subsidiary of a European corporate group will always prepare financial statements in British pounds, and when the European parent company prepares its financial statements, it will translate the British pounds in the statements of the British subsidiary at the current euro-pound exchange rate. However, if the exchange rate fluctuates from year to year, the European parent company will report the same asset at a different euro amount each year, even if the asset's value in British pounds has not changed. This change in the value of the British asset in the parent's reporting currency would suggest a cash expenditure. But no cash has been spent, because the change is solely due to a change in the exchange rate. Therefore, following the guidelines from Chapter 11, you need to make a correction to the cash flow estimated from the financial statements that is equal to the gains or losses from the currency translation.
 
-# Three Approaches
+## Three Approaches
 
 Between them, U.S. GAAP and IFRS sanction three approaches to translating the financial statements of foreign subsidiaries into the parent company's currency: the current method, the temporal method, and the inflation-adjusted current method. Exhibit 27.5 shows the approach recommended by each standard for countries with moderate inflation and for those with hyperinflation.
 
@@ -7034,7 +7033,7 @@ Temporal Method U.S. GAAP requires companies to use the temporal method for tran
 
 Inflation-Adjusted Current Method The IFRS approach to currency translation for subsidiaries in hyperinflation countries is like that for moderate-inflation countries. The key difference? IFRS requires that the hyperinflation country statements be restated in current (foreign) currency units based on a general price index before they are translated into the parent company's currency. All except some monetary items need to be restated to account for the estimated impact of very high inflation on values over time. The restatement will result in a gain or loss on the subsidiary's income statement. Because the full statements are restated in current (year-end) foreign-currency units, the year-end exchange rate should be used to translate both the balance sheet and the income statement into the parent company's currency. Any translation gains or losses will be included in the equity account of the parent in OCI.
 
-# An Application of the Methods
+## An Application of the Methods
 
 Exhibit 27.6 shows an example for a U.S. parent company using all three approaches to currency translation. In this example, the exchange rate has changed from 0.95 at the beginning of the year to 0.85 at the end of the year, consistent with 14 percent inflation in the foreign country during the year and U.S. inflation of 2 percent. The average exchange rate for the year is 0.90. As the exhibit illustrates, the three approaches can result in significantly different amounts for net income and equity in the parent company's currency.
 
@@ -7047,7 +7046,7 @@ EXHIBIT 27.6 Currency Translation
 
 1 Gain from restatement.
 
-# SUMMARY
+## SUMMARY
 
 In principle, applying the DCF valuation approach to foreign businesses is the same as applying it to domestic companies. But there are some additional issues to consider. You'll want to reflect local accounting in your analysis, following the general guidelines from Chapter 11. Because IFRS and U.S. GAAP are now the dominant standards, accounting issues have become less of a burden.
 
@@ -7055,9 +7054,9 @@ You can project and discount cash flows for foreign businesses in foreign or dom
 
 Part Four
 
-# Managing for Value
+## Managing for Value
 
-# Corporate Portfolio Strategy
+## Corporate Portfolio Strategy
 
 A company's value depends greatly, though not entirely, on the actions of its managers. In 2018, colleagues of ours published the results of their global research on 2,393 companies, in which they identified the core drivers that helped some ascend to the top quintile of value creators. These drivers of value included the industry and geography in which the company participated plus five strategic management actions: changing the business portfolio (through programmatic acquisitions and divestitures), allocating resources, spending capital, improving productivity, and innovating to differentiate products and services better.
 
@@ -7066,7 +7065,7 @@ Applying a management perspective to the science and art of value creation is th
 We begin in this chapter with the question of what businesses a company should be in, along with two related questions: What constitutes being the best owner of a company, and how might the best owner change over time? The chapter also discusses how a business portfolio evolves and how to manage that portfolio throughout its evolution. We then explore why diversification's role in creating value is often misunderstood. The chapter concludes with a guide to systematic construction of a portfolio of businesses, using a case study of a company that applied the approaches we explain.
 
 
-# BET ON THE HORSE—OR THE JOCKEY?
+## BET ON THE HORSE—OR THE JOCKEY?
 
 Deciding what businesses to operate in is clearly one of the most important decisions executives make. As our colleagues' research showed, it is a critical determinant of a company's destiny. For example, a company that produces commodity chemicals is unlikely ever to earn as much return on capital as one that makes branded breakfast cereal can. That said, different owners and managers might be able to extract more or less value from the same business. So creation of the most value requires picking attractive businesses, combined with identifying the owner able to generate the greatest cash flows from each business.
 
@@ -7083,18 +7082,18 @@ In practice, one can never pinpoint a company's ideal owner, but only the best a
 
 Best ownership also helps the economy by redirecting resources to their highest-value use. Significant activities can be carried out at much lower cost, freeing up capital and human resources for other activities.
 
-# WHAT MAKES AN OWNER THE BEST?
+## WHAT MAKES AN OWNER THE BEST?
 
 To identify the best owner of a business in any given industry circumstances, you must first understand the sources of value that potential new owners might draw upon. Some owners add value by linking a new business with other activities in their portfolio—for example, by using existing sales channels to access additional customers or by sharing an existing manufacturing infrastructure. Others add value by applying distinctive skills such as operational or marketing excellence, by providing better governance and incentives for the management team, or by having better insight into how a market will develop. Still others add value by more effectively influencing a particular market's critical stakeholders—for instance, governments, regulators, or customers. Let's examine these sources of value one at a time, understanding that in some cases, the best owner may be able to draw on two or more sources at once.
 
 
-# Unique Links with Other Businesses
+## Unique Links with Other Businesses
 
 The most direct way that owners add value is by creating links between businesses within their portfolio, especially when only the parent company can make such links. Suppose a mining company has the rights to develop a coalfield in a remote location far from any rail lines or other infrastructure. Another mining company already operates a coal mine just ten miles away and has built the necessary infrastructure, including the rail line. The second mining company would be a better owner of the new mine because its incremental costs to develop the mine are much lower than anyone else's. It can afford to purchase the undeveloped mine at a higher price than any other firm in the market and still earn an attractive return on invested capital (ROIC).
 
 Such unique links can be made across the value chain, from R&D to manufacturing to distribution to sales. For instance, a large pharmaceutical company with a sales force dedicated to oncology might be the best owner of a small pharmaceutical company with a promising new oncology drug but no sales force.
 
-# Distinctive Skills
+## Distinctive Skills
 
 Better owners may have distinctive functional or managerial skills from which the new business can benefit. Such skills may reside anywhere in the business system, including product development, manufacturing processes, and sales and marketing. But to make a difference, any such skill must be an important driver of success in the industry. For example, a company with great manufacturing skills probably wouldn't be a better owner of a consumer packaged-goods business, because the latter company's manufacturing costs aren't large enough to affect its competitive position.
 
@@ -7103,7 +7102,7 @@ In consumer packaged goods, distinctive skills in developing and marketing brand
 
 Another example of distinctive skills is Danaher, a diversified company with revenues of 19 billion. What makes Danaher successful is its well-known Danaher Business System. Danaher makes acquisitions only where it believes it can apply its management approach to substantially improve margins. By applying this strategy over the past 25 years, Danaher has consistently increased the margins of its acquired companies. These include Gilbarco VeederRoot, a leader in point-of-sale solutions, and Videojet Technologies, which manufactures coding and marking equipment and software. Both companies' margins improved by more than 700 basis points after Danaher acquired them. As Danaher's activities grew in size and complexity, it also began to divest or spin off some of the businesses that were large enough to stand on their own. For example, in 2016, it spun off its professional instrumentation and industrial technologies businesses. Fortive, the spun-off company, included Gilbarco Veeder-Root and 21 other businesses that Danaher had acquired and whose performance it had improved. Danaher also announced the spin-off of its dental business in 2018 (the spin-off was not yet completed at the time of this writing).
 
-# Better Governance
+## Better Governance
 
 Regardless of whether owners are running day-to-day operations, better owners can add value through their overall governance of a business. They provide better governance through the way they (or their representatives) interact with the management team to create maximum value in the long term. For example, the best private-equity firms don't just recapitalize companies with debt; they improve the companies' performance through better governance.
 
@@ -7111,13 +7110,13 @@ Two of our colleagues analyzed 60 successful investments by 11 leading private-e
 
 Private-equity firms don't have the time or skills to run their portfolio companies from day to day, but the higher-performing private-equity firms do govern these companies very differently from the way exchange-listed companies are governed. This is a key source of their outperformance. Typically, the private-equity firms introduce a stronger performance culture and make quick management changes when necessary. They encourage managers to abandon any sacred cows, and they give managers leeway to focus on a longer horizon, say five years, rather than the typical one-year horizon for a listed company. Moreover, the boards of private-equity companies spend three times as many days on their roles as do those at public companies. Private-equity firms' boards spend most of their time on strategy and performance management, rather than compliance and risk avoidance, where boards of public companies typically focus.[4]
 
-# Better Insight and Foresight
+## Better Insight and Foresight
 
 Companies that act on their insight into how a market and industry will evolve to expand existing businesses or develop new ones can be better owners because they capitalize on innovative ideas. One example is Alibaba, China's leading online marketplace. Its leaders realized that lack of trust between buyers and sellers was a barrier to the growth of online marketplaces in China. So in 2004, five years after Alibaba's founding, the company launched Alipay, an escrow service to facilitate online transactions. A buyer deposits money with Alipay for the purchase of goods. Once the goods are shipped and are found acceptable, Alipay releases the funds to the seller. Alipay provides services not only to Alibaba's online businesses but also to thousands of other merchants. In 2011, Alipay was spun off into a stand-alone company.
 
 Or consider Amazon Web Services (AWS). As the largest e-commerce company in the world, Amazon had developed unique skills running distributed computing systems. In 2006, Amazon officially launched AWS and, using its unique skills, sold cloud computing services to companies, governments, and individuals. By 2012, its revenues were estimated to be  \$1.8 billion (Amazon didn't disclose AWS's results as a separate unit until 2015). In 2018, AWS generated\$ 25 billion of revenues and 7.3 billion of operating profits.
 
-# Distinctive Access to Critical Stakeholders
+## Distinctive Access to Critical Stakeholders
 
 Distinctive access to talent, capital, government, suppliers, and customers primarily benefits companies in some Asian and emerging markets. Several factors complicate running companies in emerging markets: relatively small pools of managerial talent from which to hire, undeveloped capital markets, and governments that are heavily involved in business as customers, suppliers, and regulators.
 
@@ -7126,7 +7125,7 @@ In such markets, large-scale diversified conglomerates, such as Tata and Relianc
 
 In more developed markets, access to talent and capital is rarely an issue. In fact, in the United States, smaller, high-growth companies are often more attractive to talent than larger companies. Moreover, capital is readily available in these markets, even for small businesses. Finally, with some exceptions, clout with the government rarely provides an advantage, given the arm's-length government procurement processes more common in these countries.
 
-# THE BEST-OWNER LIFE CYCLE
+## THE BEST-OWNER LIFE CYCLE
 
 The definition of best owner isn't static, and best owners themselves will change over time as a business's circumstances change. Thus, a business's best owner could at different times be a larger company, a private-equity firm, a government, a sovereign wealth fund, a family, the business's customers, its employees, or shareholders whenever a business becomes an independent public company listed on a stock exchange.
 
@@ -7144,7 +7143,7 @@ As the markets mature for the businesses in the division where the original comp
 
 At each stage of the company's life, each best owner took actions to increase the company's cash flows, thereby adding value. The founder came up with the idea for the business. The venture capital firm provided capital and professional management. Going public provided the early investors with a way to realize the value of the founders' groundwork and raised more cash. The large corporation accelerated the company's growth with a global distribution capability. The private-equity firm restructured the company's division when growth slowed. The company that became the final best owner applied its skills in managing slow-growth brands. All these changes of ownership made sense in terms of creating value.
 
-# DYNAMIC PORTFOLIO MANAGEMENT
+## DYNAMIC PORTFOLIO MANAGEMENT
 
 Applying the best-owner sequence, executives must continually identify and develop or acquire companies where they could be the best owner and must divest businesses where they used to be the best owner but now have less to contribute than another potential owner. Since the best owner for a given business changes with time, a company needs to have a structured, regular corporate strategy process to review and renew its list of development ideas and acquisition targets, and to test whether any of its existing businesses have reached their sell-by date. Similarly, as demand falls off in a mature industry, long-standing companies are likely to have excess capacity. If they don't have the will or ability to shrink assets and people along with capacity, then they're not the best owner of the business anymore. At any time in a business's history, one group of managers may be better equipped to manage the business than another. At moments like these, acquisitions and divestitures are often the best or only way to allocate resources sensibly.
 
@@ -7170,11 +7169,11 @@ In recent years, prominent companies have decided that shrinking is a good thing
 
 In another example of purposely shrinking, Kraft in 2012 split into two businesses: Mondelez International and Kraft Foods Group. Mondelez is a global snack-food business selling cookies, crackers, and chocolate. Kraft is a largely North American-only grocery products company, focusing on cheese, meat products, sauces, and coffee. Although both companies are in branded foods, management believed that the challenges and opportunities of the two businesses were different enough that they would be better managed as separate companies.[9]
 
-# THE MYTH OF DIVERSIFICATION
+## THE MYTH OF DIVERSIFICATION
 
 A perennial question in corporate strategy is whether companies should hold a diversified portfolio of businesses. The idea seemed to be discredited in the 1970s, yet today some executives still say things like "It's the third leg of the stool that makes a company stable." Our perspective is that diversification is intrinsically neither good nor bad; which one it is depends on whether the parent company adds more value to the businesses it owns than any other potential owner could, making it the best owner of those businesses in the circumstances.
 
-# Smoothing Cash Flow Isn't the Key
+## Smoothing Cash Flow Isn't the Key
 
 Over the years, different ideas have been advanced to encourage or justify diversification, but these theories simply don't add up. Most rest on the idea that different businesses have different business cycles, so cash flows at the peak of one business's cycle will offset the lean cash years of other businesses, thereby stabilizing a company's consolidated cash flows. If cash flows and earnings are smoothed in this way, the reasoning goes, then investors will pay higher prices for the company's stock.
 
@@ -7184,7 +7183,7 @@ Another argument is that diversified companies with more stable cash flows can s
 
 A more nuanced argument is that diversified companies are better positioned to take advantage of different business cycles in different sectors. They can use cash flows from their businesses in sectors at the top of their cycle to invest in businesses in sectors at the bottom of their cycle (when their undiversified competitors cannot). Once again, we haven't found diversified companies that actually behave that way. In fact, we typically find the opposite: the senior executives at diversified companies don't understand their individual business units well enough to have the confidence to invest at the bottom of the cycle, when none of the competitors are investing. Diversified companies tend to respond to opportunities more slowly than less diversified companies.
 
-# Elusive Benefits, Real Costs
+## Elusive Benefits, Real Costs
 
 While any benefits from diversification are elusive, the costs are very real. Investors can diversify their investment portfolios at lower cost than companies can diversify their business portfolios, because they only have to buy and sell stocks, something they can do easily and relatively cheaply many times a year. In contrast, substantially changing the shape of a portfolio of real businesses involves considerable transaction costs and disruption, and it typically takes many years. Moreover, the business units of diversified companies often perform less well than those of more focused peers, partly because of added complexity and bureaucracy.
 
@@ -7192,7 +7191,7 @@ Today, many executives and boards in developed markets realize how difficult it 
 
 We examined the performance of these conglomerates versus focused companies. The striking insight was not that average total shareholder returns (TSR) was lower for conglomerates, but that the top end of the distribution was chopped off. No conglomerate in our study exceeded a TSR above 20 percent, while the TSR of more focused companies topped out above 30 percent (see Exhibit 28.1). Upside gains are limited for conglomerates because it's unlikely that all of their diverse businesses will outperform at the same time. The returns of units that do are dwarfed by underperformers. Moreover, conglomerates are usually made up of relatively mature businesses, well beyond the point where they would be likely to generate unexpected high returns. But the downside isn't limited, because the performance of more mature businesses can fall a lot further than it can rise. Consider a simple mathematical example: if a business unit accounting for a third of a conglomerate's value earns a 20 percent TSR while other units earn 10 percent, the weighted average will be about 14 percent. But if that unit's TSR is  $-50$  percent, the weighted average TSR will be dragged down to about 2 percent, even before other units are affected. In addition, the poor aggregate performance can affect the motivation of the entire company and the company's reputation with customers, suppliers, and prospective employees.
 
-# What Does Matter
+## What Does Matter
 
 What matters in a diversification strategy is whether managers have the skills to add value to businesses in unrelated industries. We found three ways high-performing conglomerates outperform. First, as discussed in greater depth
 
@@ -7206,7 +7205,7 @@ Second, high-performing conglomerates aggressively manage capital allocation acr
 
 Finally, high-performing conglomerates operate in much the same way as better private-equity firms: with a lean corporate center that restricts its involvement in the management of business units to selecting leaders, allocating capital, vetting strategy, setting performance targets, and monitoring performance. Just as important, these firms do not create extensive corporate-wide processes or large shared-service centers. For instance, you won't find corporate-wide programs to reduce working capital, because that may not be a priority for all parts of the company. At Illinois Tool Works, business units are primarily self-supporting, with broad authority to manage themselves as long as managers adhere to the company's 80/20 rule (80 percent of a company's revenue is derived from 20 percent of its customers) and innovation principles. The corporate center largely handles taxes, auditing, investor relations, and some centralized human resources functions.
 
-# Conglomerates in Emerging Markets
+## Conglomerates in Emerging Markets
 
 As mentioned earlier, the economic situation in emerging markets is distinct enough that we are cautious in applying insights gleaned from developed-world companies. Some preliminary, unpublished McKinsey research shows that more diversified companies in emerging markets outperform their less diversified peers. That is not the case in developed markets. While we expect the conglomerate structure to fade away eventually, the pace will vary from country to country and industry to industry.
 
@@ -7215,11 +7214,11 @@ We can already see the rough contours of change in the role that conglomerates p
 The rise of IT services and pharmaceuticals in India and of Internet companies in China shows that the large conglomerates' edge in access to managerial talent has already fallen. As emerging markets open to more foreign investors, these companies' advantage in access to capital may also decline. That will leave access to government as their last remaining strength, further restricting their opportunities to industries where its influence remains important. Although the time could be decades away, conglomerates' large size and diversification will eventually become impediments rather than advantages.
 
 
-# CONSTRUCTING THE PORTFOLIO
+## CONSTRUCTING THE PORTFOLIO
 
 Executives can apply the principles discussed in this chapter to construct a portfolio of businesses for their company. A typical large company already owns enterprises in a single business or has an existing collection of diverse businesses. While there's no single right way to think through this task, we've found over the past 30 years that a systematic approach to constructing a company's portfolio of businesses is helpful. This section describes that approach.
 
-# Assessment of Business Units
+## Assessment of Business Units
 
 The process starts with analyzing the value creation characteristics of each business unit. The following questions can direct the analysis:
 - Is the unit in an attractive market—specifically, a market with attractive ROIC and growth opportunities?
@@ -7240,7 +7239,7 @@ EXHIBIT 28.2 Assessment of Business Units: Format with Sample Data
 
 <table><tr><td>Primary factor criteria</td><td>Unit A</td><td>Unit B</td><td>Unit C</td><td>Unit D</td><td>Unit E</td><td>Unit F</td><td>Unit G</td></tr><tr><td>ROIC, 2019, \%</td><td>14\%</td><td>33\%</td><td>17\%</td><td>12\%</td><td>13\%</td><td>22\%</td><td>10\%</td></tr><tr><td>Growth, 2019-2023, \%</td><td>-4\%</td><td>-4\%</td><td>2\%</td><td>4\%</td><td>14\%</td><td>7\%</td><td>2\%</td></tr><tr><td>ROIC vs. peers, 2019</td><td>Above</td><td>Above</td><td>Comparable</td><td>Comparable</td><td>n/a</td><td>Below</td><td>Comparable</td></tr><tr><td>Growth vs. peers, 2014-2019</td><td>Above</td><td>Above</td><td>Comparable</td><td>Comparable</td><td>n/a</td><td>Comparable</td><td>Comparable</td></tr><tr><td>Source of advantages</td><td>• Manufacturing process</td><td>• Manufacturing process</td><td>• Cost leadership• Technology leadership</td><td>• Market position</td><td>• Stakeholder relationships• R&amp;D/patents</td><td>• Product quality• Brand</td><td>• None</td></tr><tr><td>Corporate value added</td><td>• Customer insight• Process excellence• Innovation leadership</td><td>• Customer insight• Process excellence• Innovation leadership</td><td>• Insights into industry&#x27;s market• Process excellence• Supply chain expertise</td><td>• Process excellence</td><td>• Customer insight• Process excellence• Innovation leadership</td><td>• Capital to drive market consolidation</td><td>• None</td></tr><tr><td>Expansion scope</td><td>Low</td><td>Low</td><td>Low: Few other product applications</td><td>Low: Highly specialized skills/application</td><td>High: Wide range of product applications</td><td>Medium: Highly specialized skills/application</td><td>Low: Few other product applications</td></tr><tr><td>Inflection points</td><td>• Currency shifts• Changes in pricing and replacement cycle• Competitor capacity</td><td>• New competitor entry</td><td>• Product adoption• Regulatory changes</td><td>• User-friendly technology applications• New competitor entry</td><td>• Channel consolidation• R&amp;D in emerging markets</td><td>• Anti-dumping suits• Regional market recovery</td><td></td></tr><tr><td colspan="8">Secondary factor criteria</td></tr><tr><td>Risk impact on company</td><td>High: Many factors outside control (e.g., currency)</td><td>High: Many factors outside control (e.g., currency)</td><td>Medium: Risk of new competitors and technologies</td><td>Low: Too small</td><td>High: Source of future growth; adoption unclear</td><td>Low: Too small</td><td>High: Market exposure</td></tr><tr><td>Cash flows, 2019 FCF, $ billion</td><td>0.90</td><td>0.60</td><td>-0.10</td><td>0.03</td><td>-0.20</td><td>0.20</td><td>0.20</td></tr><tr><td>Size, value estimate, $ billion</td><td>6.30</td><td>5.70</td><td>2.80</td><td>1.90</td><td>3.00</td><td>0.90</td><td>2.30</td></tr><tr><td>Management time vs. value potential</td><td>Adequate</td><td>Adequate</td><td>Adequate</td><td>Adequate</td><td>Adequate</td><td>Too high</td><td>Too high</td></tr></table>
 
-# Scenario Analysis
+## Scenario Analysis
 
 Next, estimate the value of each business unit under four scenarios:
 
@@ -7286,7 +7285,7 @@ EXHIBIT 28.4 Hexa Corporation: Value Created through Restructuring
 
 <table><tr><td></td><td>DCF value of momentum case, $ million</td><td>New corporate strategy, $ million</td><td>Difference, \%</td><td>Actions</td></tr><tr><td>Consumerco</td><td>6,345</td><td>8,700</td><td>37</td><td>Operating improvements</td></tr><tr><td>Foodco</td><td>825</td><td>1,050</td><td>27</td><td>Divest</td></tr><tr><td>Woodco</td><td>1,800</td><td>2,400</td><td>33</td><td>Consolidate and divest</td></tr><tr><td>Newscoco</td><td>600</td><td>600</td><td>-</td><td>Divest</td></tr><tr><td>Propco</td><td>450</td><td>480</td><td>7</td><td>Divest</td></tr><tr><td>Finco</td><td>105</td><td>135</td><td>29</td><td>Liquidate</td></tr><tr><td>Corporate overhead</td><td>(1,275)</td><td>(675)</td><td>n/a</td><td>Streamline</td></tr><tr><td>Total</td><td>8,850</td><td>12,690</td><td>43</td><td></td></tr><tr><td>Debt</td><td>(900)</td><td>(900)</td><td>-</td><td></td></tr><tr><td>Equity value</td><td>7,950</td><td>11,790</td><td>48</td><td></td></tr><tr><td>New growth opportunities</td><td>-</td><td>2,400+</td><td>-</td><td></td></tr><tr><td>Equity value with new growth opportunities</td><td>7,950</td><td>14,190+</td><td>78</td><td></td></tr></table>
 
-# SUMMARY
+## SUMMARY
 
 To construct a portfolio of value-creating businesses, managers should put the question of best ownership front and center in any analysis of a company's current business lineup. If another company would be a better owner for a business, then the business is a candidate for divestment. Conversely, if you identify businesses from which the company could create more value than their present owners can, those businesses are appropriate acquisition targets.
 
@@ -7294,7 +7293,7 @@ The owner that qualifies as best for a business may change over the course of th
 
 The following chapters build on these ideas to continue our study of how managers can contribute to a company's value. Chapter 29 examines the analytical aspects of resource allocation and performance management; Chapter 30 explores related behavioral and social aspects. Chapters 31 and 32 cover acquisitions and divestitures as tools to change a company's portfolio of businesses. Chapter 33 explains a company's need to have its strategy supported by the right financial underpinnings, including policies for capital structure, dividends, and share repurchases. Finally, Chapter 34 discusses some core principles of communicating with investors.
 
-# Strategic Management: Analytics
+## Strategic Management: Analytics
 
 The value that a company creates is the sum of the outcomes of innumerable business decisions that its managers and staff take at every level, from choosing when to open the door to customers to deciding whether to acquire a new business. Successful strategic management encompasses all the tasks a company undertakes to achieve its strategic goals and create long-term value.
 
@@ -7313,13 +7312,13 @@ Overcoming such obstacles in order to manage strategically requires fluency in t
 
 The analytical discipline of strategic management should combine three processes. First, managers should adopt a fine-grained approach to setting targets and allocating resources, drilling down to the level of 20 to 50 or even more units or projects. Next, applying this granular approach, executives should rank investment opportunities and set priorities for them across the entire enterprise, using the lens of how each unit or project contributes to the company's overall success. Finally, in planning and monitoring performance, management should use not only financial performance metrics but also, and more importantly, approaches pegged to value drivers that combine long-term and short-term perspectives on value creation. These drivers can also include strategic, organizational, environmental, and social indicators.
 
-# ADOPTING A GRANULAR PERSPECTIVE
+## ADOPTING A GRANULAR PERSPECTIVE
 
 The larger the company and the more diversified its portfolio, the more likely executives are to allocate resources and manage performance using high-level metrics, such as corporate or divisional top-line growth, profit, and return on invested capital (ROIC). Such metrics are understandable shorthand for comparing performance among multiple divisions and myriad business units. But like all averages, they tend to hide the outliers—the strongest and weakest performers, which are the ones most in need of promotion or correction. Exhibit 29.1 shows one example where the four divisions of a diversified industrial company each fell between 5 and 10 percent short of overall economic-profit goals, suggesting only modest underperformance. Yet a closer look found that two-thirds of the company's 150 business segments were underperforming on its economic-profit goals by as much as 40 percent, while the rest were outperforming enough to skew the averages. As a result, the opportunity for improvement turned out to be much larger than the executives had anticipated.
 
 It's clear from this example that strategic management should take place at the level of business segments, so that senior management clearly sees where value is created, not at the corporate center. However, the management
 
-# EXHIBIT 29.1 Improvement Opportunity at Different Levels of Review
+## EXHIBIT 29.1 Improvement Opportunity at Different Levels of Review
 
 € million
 
@@ -7337,7 +7336,7 @@ Second, taking a finer-grained perspective helps managers understand performance
 
 Finally, a granular approach offers executives better information for direct and radical interventions at the level of individual units or projects, should stepping in become necessary. This can occur when a division-based structure leads to misaligned management incentives. $^3$  For example, in one global industrial company, whenever one of the business units needed to achieve its overall profit target it would cut its research investments in breakthrough renewable-energy technology, although the technology had excellent potential to create long-term value. To remedy the situation, management separated out the renewable-energy project as an independent unit reporting directly to the executive team. Detached from the original business unit's profit goals, the new unit increased and stabilized these value-creating research investments.
 
-# TAKING THE ENTERPRISE VIEW
+## TAKING THE ENTERPRISE VIEW
 
 In addition to taking a granular view of strategic management, companies need to examine all resource allocation decisions (including capital expenditures, research and development, talent, and sales and marketing) in the context of the entire enterprise, not as single, stand-alone decisions and not as a part of a division or business unit.4
 
@@ -7349,7 +7348,7 @@ Taking the enterprise view means evaluating resource investments from the perspe
 
 Effective strategic management should aim to make allocation decisions for the entire company all at once or at least in groups, using some form of project ranking and prioritization across the company. Ideally, a company would apply a portfolio optimization model that incorporates risk correlations across potential investment projects. In Chapter 4 we discussed the example of a technology company that adopted this approach. Regardless of which division or business unit individual projects belong to, they are combined in alternative portfolios, and the portfolios are ranked by their aggregate return and risk. With this approach, a company can find the portfolio of projects that would provide the best balance between risk and return. For example, it can derive what would be the least risky portfolio that achieves an overall target rate of return.
 
-# A Simpler Alternative
+## A Simpler Alternative
 
 Following the same underlying logic, a less technical approach can generate similar insights without explicit estimates of project risk correlations. Consider the example of a company that operates three business units, each with ten projects seeking investment. In this approach, the business units submit all their project proposals to the teams responsible for overseeing financial planning and analysis, corporate strategy, and other functions. Each proposal includes a range of possible present-value outcomes and an assessment of the associated risks. The corporate staff then simply ranks all 30 projects across the company based on their expected return, ignoring risk for the moment. Given a certain investment budget and based on this ranking, the staff determines which projects should be selected to maximize overall value creation, regardless of which business they belong to (see Exhibit 29.2).
 
@@ -7372,7 +7371,7 @@ Sometimes business units need to consider projects that address critical threats
 EXHIBIT 29.3 Ranking by Tranches of Investment Opportunities and CFO. The strategic projects are then included alongside the business unit tranches in the overall ranking. This approach ensures that critical strategic projects are highlighted for discussion and funding at the level of the company's executive leadership, rather than by business unit management.
 
 
-# APPLYING VALUE DRIVERS TO MONITOR PERFORMANCE
+## APPLYING VALUE DRIVERS TO MONITOR PERFORMANCE
 
 Analyzing business units and projects at a fine-grained level while allocating investment opportunities across the entire enterprise unveils the promise of managing strategically. In many companies, communication between management layers revolves entirely around missing or hitting profit targets for divisions, business units, and other groups. Strategic management, done well, helps an organization's various layers communicate frankly and effectively. Managers gain leeway to manage while assuring their bosses that agreed-upon levels of performance will be achieved. They can also carefully disaggregate such targets to business segments that can be individually monitored and managed. Attention shifts to the long-term, value-creating potential behind short-term profit targets and the adjustments needed to achieve long-term performance goals.
 
@@ -7383,7 +7382,7 @@ To see the difference between companies' recorded performance and their long-ter
 
 To effectively manage short-term and long-term performance, companies should identify and understand the underlying value drivers of their businesses. Based on these insights, they should develop a coherent set of actionable metrics that are tailored to their business and set appropriate targets against which to monitor results.
 
-# Identifying Value Drivers
+## Identifying Value Drivers
 
 We can gain insight into a company's health by examining what drives long-term growth and ROIC, the key drivers of value creation. A systematic method for analytically and visually linking a business's unique value drivers to financial metrics and shareholder value is the value driver tree. It breaks down each element of financial performance into value drivers.
 
@@ -7424,7 +7423,7 @@ We distinguish two basic categories of long-term value drivers:
 
 2. Organizational health reflects whether the company has the people, skills, and culture to sustain and improve its performance. Diagnostics of organizational health typically measure the skills and capabilities of a company, its ability to retain its employees and keep them satisfied, its culture and values, and the depth of its management talent. Again, what is important varies by a company's sector and life-cycle stage. E-commerce businesses need entrepreneurial and innovation capabilities in the start-up phase and require more managers and customer-service-oriented staff as they mature. Semiconductor and biotechnology companies need deep scientific innovation capabilities but relatively few managers. Retailers need lots of trained store managers, a few great merchandisers, and in most cases, store staff with a customer-service orientation.
 
-# Understanding Value Drivers Pays Benefits
+## Understanding Value Drivers Pays Benefits
 
 Clearly understanding a business's value drivers has several advantages. If managers know the relative impact of their company's value drivers on long-term value creation, they can make explicit trade-offs between pursuing a critical driver and allowing performance against a less critical driver to deteriorate. This is particularly helpful for choosing between activities that deliver short-term performance and those that build the long-term health of the business. These trade-offs are material: increasing investment for the long term will cause short-term returns to decline, as management expenses some of the costs, such as R&D or advertising, in the year they occur rather than the year the investments achieve their benefits. Other costs are capitalized but will not earn a return before the project is commissioned, so they too will suppress overall returns in the short term. Understanding the long-term benefits of sacrificing short-term earnings in this way should help corporate boards support managers in making investments that build a business's long-term capability to create value.
 
@@ -7433,7 +7432,7 @@ Clarity about value drivers also enables the management team to set priorities s
 In general, distinctive strategic management promotes a common language and understanding of value drivers that shape the way top management and employees think about creating value at each level of the organization. For example, in a pharmaceutical company, distinctive strategic management would encourage discussion and coordinated action across the organization about specific steps to increase the speed of product launches, thus accelerating value creation. In contrast, strategic management in refining and other commodity-based process industries would focus on operational excellence in terms of capacity utilization and operational expenses.
 
 
-# Creating Actionable Metrics
+## Creating Actionable Metrics
 
 As we saw in Exhibit 29.4, most value driver trees start on the left side with financial value drivers such as ROIC and growth, and each of these is disaggregated into more specific drivers of business value and operational value, moving from left to right. Where possible, managers and analysts should specify actionable metrics for the value drivers.
 
@@ -7489,7 +7488,7 @@ Potential ROIC impact,  $1 \%$
 
 could possibly be helpful for running the company. To be sure that performance management remains practical and effective, managers need to decide at this stage which drivers are the most important for value creation and then should focus on these.
 
-# SETTING TARGETS
+## SETTING TARGETS
 
 To make best use of their understanding of key value drivers and to safeguard their company's future health, managers need to agree on objectives for each driver. These targets should be both challenging and realistic enough that managers can take responsibility for meeting them.
 
@@ -7503,7 +7502,7 @@ The setting of targets must shift at some organizational level below divisions o
 
 Choosing the right performance metrics lays the groundwork for discovering new insights into how a company might improve its performance in the future. For instance, a hypothetical pharmaceutical company has the key value drivers shown in Exhibit 29.11. For each of these value drivers, the exhibit shows the company's current performance relative to best- and worst-in-class benchmarks, its targets for each driver, and the potential value impact from meeting its targets. The greatest value creation would come from three areas: accelerating the rate of release of new products from 0.5 to 0.8 per year, reducing from six years to four the time it takes for a new drug to reach 80 percent of peak sales, and cutting the cost of goods sold from 26 percent to 23 percent of sales. Some of the value drivers (such as new-drug development) are long-term, whereas others (such as reducing cost of goods sold) have a shorter-term focus.
 
-# MONITORING RESULTS
+## MONITORING RESULTS
 
 Focusing on the right performance metrics can reveal what may be driving underperformance. A consumer goods company we know illustrates the importance of having a tailored set of key value metrics. For several years, a
 
@@ -7540,13 +7539,13 @@ Cost of goods sold as  $\%$  of sales business unit showed consistent double-dig
 
 A well-defined and appropriately selected set of key value drivers ought to allow management to articulate how the organization's strategic, marketing, operating, or other initiatives create value. If it is impossible to represent some component of a strategic initiative using the key value drivers, or if some key value driver does not serve as a building block in the initiative, then managers should reexamine the value trees. Similarly, managers must regularly revisit the targets they set for each value driver. As their business environment changes, so will the limits of what they can achieve.
 
-# SUMMARY
+## SUMMARY
 
 Strategic management encompasses some of the most important decisions executives make for creating value in a company. One critical element of managing strategically is establishing the analytics to assess performance and investment opportunities. To establish the right analytical base, executives should adopt a fine-grained approach to planning and target setting at the level of individual business segments. Managers should use those granular insights to rank and set priorities for investment opportunities that contribute to value creation for the company as a whole. To monitor performance, managers should move beyond standard financial and operating metrics to apply an approach that identifies what drives both short- and long-term value.
 
 Another critical element of strategic management is establishing processes to orient the organization toward achievement of long-term value creation. That is the subject of the next chapter.
 
-# Strategic Management: Mindsets and Behaviors
+## Strategic Management: Mindsets and Behaviors
 
 As we described at the beginning of Chapter 29, effective strategic management requires fluency in two distinct yet interrelated disciplines. One, strong analytics capabilities, was the subject of that chapter. This chapter focuses on the other discipline: the mindsets, behaviors, and processes that orient and motivate the entire management team toward its long-term common goals.
 
@@ -7568,11 +7567,11 @@ Making such decisions requires not only the analytics discussed in Chapter 29 bu
 
 3. Synchronized processes. Companies must link together more explicitly their strategic planning, budgeting, and other processes to ensure that strategic initiatives are funded with a view to maximizing enterprise value. To support the development of such streamlined processes, companies also need to nurture excellent strategic skills throughout the organization.
 
-# STRONG GOVERNANCE
+## STRONG GOVERNANCE
 
 A company can have a very good strategy, but it won't succeed unless its top executives are committed to making the tough decisions required to carry out that strategy. For example, a technology company announced a thoughtful and ambitious strategy that was on target with emerging trends and technologies. However, the company's existing businesses were simultaneously under pressure from declining demand. To keep short-term profits growing, management held back on making serious investments in the new strategic areas. A competitor spotted the new opportunity and became the first to make the necessary investments to win in the market. As of 2019, that competitor was garnering five times the revenues from this new area than the first company was taking in.
 
-# Long-Term Vision
+## Long-Term Vision
 
 To commit to their company's strategy, executives must take a long-term view. Otherwise, the demands of short-term profit are likely to create a distraction, as they did at the tech company in the previous example. This is not to say that maintaining a long-term view is easy. In many cases, management and employee incentives are tied to short-term performance, and the company's board may observe only short-term measurable results, not progress toward long-term goals.
 
@@ -7583,7 +7582,7 @@ Ultimately, overcoming these obstacles requires some subjective behaviors. A com
 2. The right incentives for top management. Most management incentive plans suffer from short-term bias and are heavily weighted to a single year's accounting and earnings measures. Even those based on share price performance typically rely on earnings over a single year to determine how many shares an executive receives. Ideally, incentives should weight more to revenue growth and achieving strategic milestones, even if they are measured qualitatively.
 3. An engaged, supportive board of directors. To be engaged and supportive, board members must understand and back up the strategy, enabling managers to avoid skimping on investment to meet short-term profit growth. To do this, they must be familiar with the details of the strategy and understand performance at a granular level. This equips them to ensure that managers are striking the right balance between investments and current financial performance.
 
-# The Right Decision Makers
+## The Right Decision Makers
 
 Managing strategically requires the conviction to make difficult choices. A CEO's core activities in pursuit of value creation are setting targets and allocating resources, such as capital, R&D, and people. Yet targets and resource allocation often don't align with tough strategic choices, either because decisions are not made at the right level or because the CEO strives for consensus, which results in compromises that dilute strategic efforts.
 
@@ -7593,7 +7592,7 @@ This kind of funnel effect helped the CEO of a financial technology company wher
 
 That said, modifications may be necessary, depending on the culture of the company or in countries where consensus is essential. For example, a CEO could shape her own proposed allocation plan and come back to the senior management team to gain consensus support for it.
 
-# Granular Decisions
+## Granular Decisions
 
 Decisions also need to be made at the right level of granularity. Consider a large health-care company that was organized around three divisions, with each division having roughly 20 business units. The company had a culture of decentralized decision making, so executives allocated R&D and sales and marketing spending to the three divisions and let the division leaders decide how to allocate across their business units. The result: spending was aligned not with corporate priorities, but with the short-term incentives of the division heads. Even worse, if one business unit was having a difficult year, the division head would frequently ask other units to pull back funding from longer-term investments.
 
@@ -7601,24 +7600,24 @@ The solution in such a case is for the CEO, often with the CFO, to allocate reso
 
 Allocating resources at a more granular level requires more CEO time. But we believe that careful allocation, as one of the CEO's most important decisions, is well worth the extra time and effort. In our discussions with companies, we've observed a dichotomy between companies where the CEO and CFO allocate at only a high level versus those that are much more detailed. More granular allocation is typically more effective at ensuring that spending is aligned with long-term priorities. One large company spent more than 10 billion per year in capital expenditures, but the top corporate executives spent only several hours per year in their final deliberations on how to allocate that spending. After working through a new process, they increased their time spent on resource allocation to two days. The result: a finer-grained capital spending plan more tightly linked to the company's overall strategic priorities.
 
-# Strong Staff
+## Strong Staff
 
 To make allocation decisions, CEOs and CFOs need effective staff support. This usually takes the form of a financial planning and analysis (FPA) team and/or a corporate-strategy team. Despite the importance of this role, many companies have in recent years cut the resources of their FPA teams to levels where they barely have time to coordinate the planning process and add up the numbers. This misguided gesture, aimed at setting an example of commitment to spending reductions, has left no capacity for thoughtful analysis or for challenges to business units' resource requests. In these situations, any challenges to business unit plans are left to the CEO or CFO, who often lacks sufficient knowledge to build a strong case.
 
 In contrast, we've observed that companies with stronger FPA or corporate-strategy teams tend to draw valuable insight and influence from the teams. This appears to make a large difference in the effectiveness of their planning and resource allocation. Common indicators of a strong FPA capability include an FPA leader with real stature and influence inside the company, team members with extensive experience in different parts of the company beyond finance, and a team with time to do its own analysis of the current and potential performance and opportunities for different business units.
 
 
-# DEBIASED DECISION MAKING
+## DEBIASED DECISION MAKING
 
 When it comes to making decisions, human beings have built-in biases. So do companies and other organizations. In any number of ways, these biases can stall, skew, or deny the kind of clear-sighted decisions that are at the heart of strategic management. To put in place the right sets of behaviors and processes to tie strategy to value creation, management must make tangible efforts to overcome these biases. This section defines some of the most common behavioral biases that we have seen affecting important strategic-planning situations. By identifying and remedying the distorted thinking associated with these biases, executives can improve the quality of their company's decision making. The good news is that, in many cases, simply having strictly enforced rules and processes for managers and employees can reduce the incidence of biased thinking. A culture that promotes strong analytics also can help (see Chapter 29).
 
-# Inertia (Stability Bias)
+## Inertia (Stability Bias)
 
 Inertia, or stability bias, is the natural tendency of organizations to resist change. A study by colleagues of ours found, on average, a greater than 90 percent correlation of spending allocations across business units from year to year. Furthermore, the correlation for fully one-third of the companies was 99 percent; that is, the allocation of spending to business units essentially never changed. The same study showed that companies that reallocated more resources—the top third of our sample over a 15-year period—earned, on average, 30 percent higher total shareholder returns (TSR) annually than companies in the bottom third of the sample.
 
 The solution to inertia bias is relatively straightforward. Rank initiatives across the entire enterprise, as described in Chapter 29. In addition, ensure that the budget you are building is rooted in the current strategic plan, not last year's budget. The essential idea is to ignore as much as possible the influences of past allocations or budgets. In practice, you may not be able to shift resources as quickly or as much as this approach suggests. But trying to ignore the past as a starting point will help you minimize the inertia.
 
-# Groupthink
+## Groupthink
 
 Groups of decision makers have a tendency to engage in groupthink, a focus on harmony and consensus. This can get in the way of examining all the options objectively, leading to weaker—and sometimes disastrous—decisions. Consider the failed Bay of Pigs invasion of Cuba during U.S. president John F. Kennedy's administration. Arthur Schlesinger Jr., one of Kennedy's advisers, wrote this about his participation in the debate leading up to the humiliating defeat of U.S.-backed Cuban exiles trying to overthrow the regime of Cuban leader Fidel Castro: "In the months after the Bay of Pigs I bitterly reproached myself for having kept so silent in the Cabinet Room . . . . I can only explain my failure to do more than raise a few timid questions by reporting that one's impulse to blow the whistle on this nonsense was simply undone by the circumstance."5
 
@@ -7632,7 +7631,7 @@ Ideally, a company dedicated to pursuing long-term strategic success should have
 - Encouraging debate with secret ballots. Use a secret ballot at the beginning of the debate, not the end. Once a proposal has been presented and before it is debated, ask participants to vote on the idea in secret. The request could be for a yes-or-no vote on a project or for a ranking of investment priorities. When the results are revealed, assuming participants discover at least one other person shares their views, the knowledge will likely make them more comfortable expressing their opinion.
 - Setting up a red-team/blue-team activity for large investments. Arrange two teams to prepare arguments for opposing outcomes. While undertaking the preparatory work and analysis for this approach is expensive, it can make a difference for particularly large decisions with high uncertainty.
 
-# Confirmation Bias and Excessive Optimism
+## Confirmation Bias and Excessive Optimism
 
 Confirmation bias and overoptimism are two distinct biases. However, the same set of techniques applies to both, so we discuss them together.
 
@@ -7646,7 +7645,7 @@ Some of the techniques used to overcome groupthink, such as the use of opposing 
 
 2. Taking the outside view. One way to make better forecasts is to take the outside view, which means building a statistical view of a project based on a reference class of similar projects. To understand how the outside view works, consider an experiment performed with a group at a private-equity company. The group was asked to build a forecast for an ongoing investment from the bottom up—tracing its path from beginning to end and noting the key steps, actions, and milestones required to meet proposed targets. The group's median expected rate of return on this investment was about 50 percent. The group was then asked to fill out a table comparing that ongoing investment with categories of similar investments, looking at factors such as relative quality of the investment and average return for an investment category. Using this outside view, the group saw that its median expected rate of return was more than double that of the most similar investments.[10]
 
-# Loss Aversion
+## Loss Aversion
 
 We previously explored loss aversion in Chapter 4, via survey results showing that most executives are loss averse and unwilling to undertake risky projects with high estimated present values.[11] The primary solution to overcoming loss aversion is to view investment decisions based not on their individual risk but on the basis of their contribution to the risk of the enterprise as a whole (see Chapter 29).
 
@@ -7660,21 +7659,21 @@ To be most effective, companies also must encourage middle-level managers and ot
 
 Some companies have gone even further by demonstrating that failure, depending on the circumstances, does not damage one's career. For example, David Pottruck, former CEO of Charles Schwab, wrote about what he calls Noble Failures.[12] If a project was well planned, had contingencies, limited the negative fallout, and followed a policy of "no surprises," and if participants learned from their experience, even a failed effort might be considered "noble." Pottruck explained, "The Noble Failure concept is intended to encourage people to voice their opinions and ideas more freely because they know that even a failing effort will be tolerated, sometimes even celebrated, and never punished."
 
-# SYNCHRONIZED AND STREAMLINED PROCESSES
+## SYNCHRONIZED AND STREAMLINED PROCESSES
 
 The typical company's planning and performance management process includes developing a corporate strategy, creating a three- to five-year strategic financial plan, converting that to an annual operating plan, and finally producing a detailed budget. During the year, the company needs to monitor performance for potential corrective action or adjustments and may need to adjust its resource allocation. Exploring each of these processes in detail is beyond the scope of the book. Instead, we'll focus on certain key elements that are essential to ensuring that the corporate strategy and its required enterprise resource allocation are implemented effectively.
 
-# Start with Strategy
+## Start with Strategy
 
 Let's begin with the corporate strategy itself. The strategy should include the company's broad strategic direction, including high-level resource allocation across units, key strategic initiatives, and portfolio changes (for example, significant acquisitions and divestitures). The company's strategy need not be on the same rigid schedule as the rest of the planning and performance management process. In fact, some argue that the timing should be delinked so that the strategy can be refined and revised as circumstances change and new information becomes available.[13] This also provides more time for introspection and avoids the "all hands on deck" approach that consumes so much time. The CEO and top team, supported by a strong staff, should handle the strategy itself.
 
-# Build a Plan
+## Build a Plan
 
 Once a year, the strategy must be translated into specific plans.[14] Companies typically start with a three- to five-year strategic financial plan. Ideally, the plan should focus on resource allocation: where investment dollars (capital as well as expensed investments) will be allocated and how much will be invested overall. The plan should also consider whether the company has the right people in the right places to execute the investments effectively.
 
 One mistake that companies often make in their three- to five-year strategic plan is putting the detail in the wrong places. A good strategic financial plan should be granular in terms of its number of business units and strategic initiatives to pursue but simplified when it comes to the number of line items per business. Companies often require detailed, line-by-line income statement and balance sheet projections. In our experience, a value driver approach (see Chapter 29) is better for streamlining the process and focusing on strategic issues. This approach focuses on the most important items for each unit—for instance, market growth, share growth, changes in costs per unit and pricing, overall general and administrative spending, and overall R&D spending. This approach also requires fewer people and simplifies iteration.
 
-# Shape Operations
+## Shape Operations
 
 After the three- to five-year financial plan is set, it's time to craft an annual operating plan (AOP), although some companies skip this step and go straight to preparing a detailed budget. The AOP is the opportunity for the company to finalize spending decisions and performance targets for the year.
 
@@ -7684,7 +7683,7 @@ This disconnect can be repaired. Senior management should mandate that the AOP s
 
 Strategic financial plans and AOPs can feel static, given that no action plan backs them up. Successful companies remedy that situation by ensuring that action plans support strategic initiatives and detail clear lines of responsibility. Only when these requirements are met should a company put together the detailed budget for every unit and department.
 
-# Review Performance, Repeat
+## Review Performance, Repeat
 
 The next step is managing performance during the year, which comprises a regular review of performance against AOP and budget targets. The major stumbling blocks to insightful performance management are a lack of good, timely data at a sufficient level of detail and the wrong kind of data. The best companies have automated and integrated systems that allow them to review results, typically monthly, shortly after the end of the month. Unfortunately, many companies still spend too much time generating and debating the performance numbers. Or they focus on just the accounting results, rather than the business drivers of performance. Only by understanding the business drivers can executives take action to improve performance. Is the market growing faster or slower than expected? Are we losing or gaining share? Are competitors behaving as expected? If the market is growing slower, should we try to gain share, or will a price war just exacerbate the problem? Should we cut discretionary costs because sales are not at target levels? If we do, won't that move hurt us next year?
 
@@ -7705,11 +7704,11 @@ Another common shortcoming of many companies lies in the quality of business cas
 We believe that almost every project should have a business case with a quantified present value and risk assessment, even if the value is a rough estimate. At one company, managers argued that they couldn't quantify the value of projects to improve customer service, because the projects would serve only to maintain, not increase, revenues. Their fallacy was the improper definition of the base case as no change in revenue forecasts. But what would actually happen if they didn't improve customer service? Would revenues decline? How quickly? Would the customers they would lose be marginal ones or profitable ones? After they posed and answered these questions and incorporated the insights into their analysis, the managers could quantify the value impact of these projects and rank them against other projects.
 
 
-# CLOSING THOUGHTS
+## CLOSING THOUGHTS
 
 Executives squander good corporate strategy when they can't overcome the organizational barriers, behavioral biases, weak processes, and plain lack of courage needed to turn ideas into value-creating actions. Strategic management requires combining strong analytics capabilities with the mindsets, behaviors, and operating guidelines that link strategy to value and inform and motivate managers toward long-term value creation. A prime goal for forward-looking executives should be making a solid connection between strategic goals and resource allocation. The list of best practices is long and can be daunting, but executives can begin by focusing on those that are easiest and likely to have the biggest impact on their performance. Adding new refinements over time will move any company closer to the goal of managing strategically for the long term.
 
-# Mergers and Acquisitions
+## Mergers and Acquisitions
 
 Mergers and acquisitions (M&A) are an important element of a dynamic economy. At different stages of an industry's or a company's life span, resource decisions that once made economic sense no longer do. For instance, the company that invented a groundbreaking innovation may not be best suited to exploit it. As demand falls off in a mature industry, companies are likely to have built excess capacity. At any time in a business's history, one group of managers may be better equipped to manage the business than another. At moments like these, acquisitions are often the best or only way to reallocate resources sensibly and rapidly.
 
@@ -7719,7 +7718,7 @@ For companies in growth mode, acquisitions can be an effective way to accelerate
 
 The challenge for managers, therefore, is to ensure that their acquisitions are among those that do create value for their shareholders. To that end, this chapter provides a framework for analyzing how to create value from acquisitions and summarizes the empirical research. It discusses the archetypal approaches that are most likely to create value, as well as some other strategies that are often attempted but have longer odds of executing successfully. It provides practical advice on how to estimate and achieve operating improvements and whether to pay in cash or in stock. Finally, it reminds managers that stock markets respond to the expected impact of acquisitions on intrinsic value, not accounting results.
 
-# A FRAMEWORK FOR VALUE CREATION
+## A FRAMEWORK FOR VALUE CREATION
 
 Acquisitions create value when the cash flows of the combined companies are greater than they would have otherwise been. If the acquirer doesn't pay too much for the acquisition, some of that value will accrue to the acquirer's shareholders. Acquisitions are a good example of the conservation of value principle (explained in Chapter 3).
 
@@ -7768,15 +7767,15 @@ Present value of announced performance improvements divided by target value.
 
 created from a sample of deals over the past 20 years. To estimate the gross value creation, we discounted the announced actual performance improvements at the company's weighted average cost of capital (WACC). The performance improvements were substantial, typically exceeding 50 percent of the value of the target. In addition, Kellogg and PepsiCo paid unusually low premiums for their acquisitions, allowing them to capture more value.
 
-# EMPIRICAL RESULTS
+## EMPIRICAL RESULTS
 
 Acquisitions and their effects on value creation are a perennial topic of interest to researchers. Empirical studies of acquisitions have yielded useful insights into when they occur, whether they create value, and for whom they create value.
 
-# When Do Acquisitions Take Place?
+## When Do Acquisitions Take Place?
 
 Acquisition activity tends to occur in waves, as shown in Exhibit 31.4. Several factors drive these waves. First, we tend to see more acquisitions when stock prices are rising and managers are optimistic (though to maximize the amount of value created, they should really make acquisitions when prices are low). Low interest rates also stimulate acquisitions, especially heavily leveraged acquisitions by private-equity firms. Finally, one large acquisition in an industry encourages others in the same industry to acquire something, too.
 
-# Do Acquisitions Create Value?
+## Do Acquisitions Create Value?
 
 For decades, academics and other researchers have studied the question of whether acquisitions create value. Most studies have examined the stock price reaction to the announcement of acquisitions. One effect of this approach is
 
@@ -7787,7 +7786,7 @@ Source: Dealogic, Capital IG, Mergerstat, Thomson Reuters.
 
 Researchers have shown that acquisitions do create value for the collective shareholders of the acquirer and the acquired company. According to McKinsey research on 1,770 acquisitions from 1999 through 2013, the combined value of the acquirer and target increased by about 5.8 percent on average. So we can conclude that acquisitions tend to create value for the economy, through some combination of cost and revenue synergies.
 
-# For Whom Do Acquisitions Create Value?
+## For Whom Do Acquisitions Create Value?
 
 To see who benefits from acquisitions, we'll begin by reviewing the studies driven mostly by large acquisitions. While buying and selling shareholders collectively derive value from acquisitions, large acquisitions on average do not create any value for the acquiring company's shareholders. Empirical studies examining the reaction of capital markets to M&A announcements find that the value-weighted average large deals lower the acquirer's stock price between 1 and 3 percent.[2] Stock returns following the acquisition are no better. Mark Mitchell and Erik Stafford have found that acquirers underperform
 
@@ -7813,7 +7812,7 @@ M. Becht, A. Polo, and S. Rossi, "Does Mandatory Shareholder Voting Prevent Bad 
  Rehm and Sivertsen, "A Strong Foundation for M&A in 2010." An unpublished update in 2018 showed similar results.
  Updated and expanded analysis of W. Rehm, R. Uhlaner, and A. West, "Taking a Longer-Term Look at M&A Value Creation," McKinsey Quarterly (January 2012), www.mckinsey.com.
 
-# EXHIBIT 31.5 Success Rates of Observed Acquisition Strategies
+## EXHIBIT 31.5 Success Rates of Observed Acquisition Strategies
 
 1,645 nonbanking companies, 2007-2017, \%
 
@@ -7855,7 +7854,7 @@ Perhaps it is just as important to identify the characteristics that don't matte
 
 This empirical evidence is important because it shows that there is no magic formula to make an acquisition successful. Like any other business strategy, acquisitions are not inherently good or bad, just as marketing or research and development (R&D) are not inherently good or bad. Each deal must have its own strategic logic, and the company must have the relevant skills to execute deals or deal programs. In our experience, acquirers in the most successful deals have well-articulated, specific value creation ideas going into each deal. The strategic rationales for less successful deals tend to be vague, such as to pursue international scale, fill in portfolio gaps, or build a third leg of the portfolio.
 
-# ARCHETYPES FOR VALUE-CREATING ACQUISITIONS
+## ARCHETYPES FOR VALUE-CREATING ACQUISITIONS
 
 The empirical analysis is limited in its ability to identify specific acquisition strategies that create value. This is because acquisitions come in a wide variety of shapes and sizes and also because there is no objective way to classify acquisitions by strategy. Furthermore, the stated strategy may not be the real strategy. Companies typically talk up all kinds of strategic benefits from acquisitions that are really all about cutting costs.
 
@@ -7873,7 +7872,7 @@ If an acquisition does not fit one or more of these archetypes, it's unlikely to
 
 The strategic rationale for an acquisition should be a specific articulation of one of these archetypes, not a vague concept like growth or strategic positioning. While growth and strategic positioning may be important, they need to be translated into something tangible. Furthermore, even if your acquisition conforms to one of these archetypes, it still won't create value if you overpay.
 
-# Improve Target Company's Performance
+## Improve Target Company's Performance
 
 One of the most common value-creating acquisition strategies is improving the performance of the target company. Put simply, you buy a company and radically reduce costs to improve margins and cash flows. In some cases, the acquirer may also take steps to accelerate revenue growth.
 
@@ -7881,7 +7880,7 @@ Pursuing this strategy is what the best private-equity firms do. Acharya, Hahn, 
 
 Keep in mind that it is easier to improve the performance of a company with low margins and low return on invested capital (ROIC) than that of a high-margin, high-ROIC company. Consider the case of buying a company with a 6 percent operating profit margin. Reducing costs by three percentage points from 94 percent of revenues to 91 percent of revenues increases the margin to 9 percent and could lead to a 50 percent increase in the value of the company. In contrast, if the company's operating profit margin is 30 percent, increasing the company's value by 50 percent requires increasing the margin to 45 percent. Costs would need to decline from 70 percent of revenues to 55 percent, a 21 percent reduction in the cost base. That expectation might be unreasonable.
 
-# Consolidate to Remove Excess Capacity
+## Consolidate to Remove Excess Capacity
 
 As industries mature, they typically develop excess capacity. For example, in chemicals, companies are constantly looking for ways to get more production out of their plants at the same time as new competitors (for example, Saudi Arabia in petrochemicals) continue to enter the industry. The combination of higher production from existing capacity and new capacity from new entrants often leads to more supply than demand. However, it is in no single competitor's interest to shut a plant. Companies often find it easier to shut plants across the larger combined entity resulting from an acquisition than absent an acquisition, to shut their least productive plants and end up with a smaller company.
 
@@ -7890,7 +7889,7 @@ Reducing excess capacity is not limited to shutting factories but can extend to 
 
 While there is substantial value to be created from removing excess capacity, the bulk of the value nevertheless often accrues to the seller's shareholders, not the buyer's. In addition, all the other competitors in the industry may benefit from the capacity reduction without having to take any action of their own (the free-rider problem).
 
-# Accelerate Market Access for Products
+## Accelerate Market Access for Products
 
 Often, relatively small companies with innovative products have difficulty accessing the entire potential market for their products. For instance, small pharmaceutical companies typically lack the large sales forces required to access the many doctors they need to see in order to promote their products. Larger pharmaceutical companies sometimes purchase these smaller companies and use their own large-scale sales forces to accelerate the sales growth of the smaller companies' products.
 
@@ -7898,13 +7897,13 @@ IBM has pursued this strategy in its software and services businesses. Between 2
 
 In some cases, the target can also help accelerate the acquirer's revenue growth. In Procter & Gamble's acquisition of Gillette, the combined company benefited because P&G had stronger sales in some emerging markets while Gillette had a bigger share of others. Working together, they were able to introduce their products into new markets much more quickly.
 
-# Acquire Skills or Technologies Faster or at Lower Cost
+## Acquire Skills or Technologies Faster or at Lower Cost
 
 Many technology-based companies buy other companies whose technologies the acquirers need to enhance their own products. They do this because they can acquire the technology more quickly than developing it themselves, avoid royalty payments on patented technologies, and keep the technology away from competitors. For example, Apple bought Siri (the automated personal assistant) in 2010 to enhance its iPhones. In 2014, Apple purchased Novauris Technologies, a speech recognition technology company, to further enhance Siri's capabilities. During the same year, Apple also purchased Beats Electronics, which had recently launched a music-streaming service. One reason for the acquisition was that Apple could quickly offer its customers a music-streaming service as the market was moving away from its iTunes business model of purchasing and downloading music.
 
 Cisco Systems, the network product and services company (with  \$49 billion in revenue in 2018), used acquisitions of key technologies to assemble a broad line of network solution products during the frenzied Internet growth period. From 1993 to 2001, Cisco acquired 71 companies at an average price of approximately\$ 350 million each, helping it to increase revenues from \$650 million in 1993 to \$22 billion in 2001, with nearly 40 percent of its 2001 revenues coming directly from these acquisitions.
 
-# Exploit a Business's Industry-Specific Scalability
+## Exploit a Business's Industry-Specific Scalability
 
 Economies of scale are often cited as a key source of value creation in M&A. While they can be, you have to be very careful in justifying an acquisition by economies of scale, especially for large acquisitions. That's because large companies often are already operating at scale, in which case combining them will not likely lead to lower unit costs. Take big package-delivery companies, for example. They already have some of the largest airline fleets in the world and operate them very efficiently. If they were to combine, it's unlikely that there would be substantial savings in their flight operations.
 
@@ -7915,7 +7914,7 @@ Companies also find economies of scale in the purchasing function, but such bene
 
 While economies of scale can be a significant source of acquisition value creation, rarely are generic economies of scale, like back-office savings, significant enough to justify an acquisition. Economies of scale must be unique to be large enough to justify an acquisition.
 
-# Pick Winners Early and Help Develop Their Businesses
+## Pick Winners Early and Help Develop Their Businesses
 
 The final winning acquisition strategy involves making acquisitions early in the life cycle of a new product area or industry line, long before most others recognize that the industry will grow. Typical examples come from the medical-device business, where larger companies buy young, innovative companies, help them refine their technology, and accelerate and turbocharge their product launches. It's not unusual in these cases, though, for a payoff to take five or more years.
 
@@ -7923,11 +7922,11 @@ This strategy can involve a high level of risk. Consider the example of cannabis
 
 This acquisition strategy requires managers to take a disciplined approach in three dimensions. First, you need to be willing to make investments early, long before your competitors and the market see the industry's or company's potential. Second, you need to make multiple bets and expect some to fail. Third, you need to have the skills and patience to nurture the acquired businesses.
 
-# LONGER-ODDS STRATEGIES FOR CREATING VALUE FROM ACQUISITIONS
+## LONGER-ODDS STRATEGIES FOR CREATING VALUE FROM ACQUISITIONS
 
 Beyond the six main acquisition archetypes just described, a handful of other acquisition strategies can create value. However, these are more difficult to execute successfully.
 
-# Rolling Up
+## Rolling Up
 
 Roll-up strategies are used to consolidate highly fragmented markets, where the current competitors are too small to achieve scale economies. An example is Service Corporation International's roll-up of the U.S. funeral business.
 
@@ -7937,17 +7936,17 @@ Size per se is not what creates a successful roll-up. What matters is the right 
 
 Because roll-up strategies are hard to disguise, they invite copycats. As others tried to copy Service Corporation's strategy, prices for some funeral homes were eventually bid up to levels that made additional acquisitions uneconomic.
 
-# Consolidate to Improve Competitive Behavior
+## Consolidate to Improve Competitive Behavior
 
 Many executives in highly competitive industries hope consolidation will lead competitors to focus less on price competition, thereby improving the industry's ROIC. However, the evidence shows that unless an industry consolidates down to just three or four competitors and can keep entrants out, competitor pricing behavior does not change: there's often an incentive for smaller companies or new entrants to gain share through price competition. So in an industry with ten competitors, lots of deals must be completed before the basis of competition changes.
 
-# Enter into a Transformational Merger
+## Enter into a Transformational Merger
 
 A commonly mentioned reason for an acquisition or merger is to transform one or both companies. Transformational mergers are rare, however, because the circumstances must be just right, and the management team needs to execute the strategy well. The best way to describe a transformational merger is by example. One of the world's leading pharmaceutical companies, Novartis of Switzerland, was formed by the  \$30 billion merger of Sandoz and Ciba-Geigy, announced in 1996. But this merger was much more than a simple combination of businesses. Under the leadership of the new CEO, Daniel Vasella, Sandoz and Ciba-Geigy were transformed into an entirely new company. Using the merger as a catalyst for change, Vasella and his management team not only captured\$ 1.4 billion in cost synergies but also redefined the company's mission and strategy, portfolio and organization, and all key processes from research to sales. In all areas, there was no automatic choice for either the Ciba or the Sandoz way of doing things; instead, a systematic effort was made to find the best way of doing things.
 
 Novartis shifted its strategic focus to innovation in its life sciences business (pharmaceuticals, nutrition, and agricultural) and spun off the 7 billion Ciba Specialty Chemicals business in 1997. Organizational changes included reorganizing research and development worldwide by therapeutic rather than geographic area, enabling Novartis to build up a world-leading oncology franchise. Across all departments and management layers, Novartis created a strong performance-oriented culture, supported by a change from a seniority-based to a performance-based compensation system for its managers.
 
-# Buy Cheap
+## Buy Cheap
 
 The final way to create value from an acquisition is to buy cheap—in other words, at a price below the target's intrinsic value. In our experience, however, opportunities to create value in this way are rare and relatively small.
 
@@ -7965,7 +7964,7 @@ Since market values can sometimes deviate from intrinsic values, management must
 
 potential acquisition. Consider the stock market bubble during the late 1990s. Companies that merged with or acquired technology, media, and telecommunications companies saw their share prices plummet when the market reverted to earlier levels. Overpaying when the market is inflated is a serious concern, because M&A activity seems to rise following periods of strong market performance. If (and when) prices are artificially high, large improvements are necessary to justify an acquisition, even when the target can be purchased at no premium to market value.
 
-# ESTIMATING OPERATING IMPROVEMENTS
+## ESTIMATING OPERATING IMPROVEMENTS
 
 As we've been discussing, the main sources of value created through M&A are the cost, capital, and revenue improvements, often referred to as synergies, that the combined company makes. Rarely does a cheap purchase price make the same sort of difference. So estimating the potential improvements is one of the most important success factors for M&A—along with executing on those improvements once the deal is completed.
 
@@ -7973,7 +7972,7 @@ Before getting into the estimation, it's worth emphasizing that estimating impro
 
 We find that companies do a much better job of realizing cost savings than revenue improvements. McKinsey's Merger Management Practice analyzed 90 acquisitions and found that 86 percent of the acquirers were able to capture at least 70 percent of the estimated cost savings.[23] In contrast, almost half of the acquirers realized less than 70 percent of the targeted revenue improvements, and in almost one-quarter of the observed acquisitions, the acquirer realized less than 30 percent of the targeted revenue improvements.
 
-# Estimating Cost and Capital Savings
+## Estimating Cost and Capital Savings
 
 Too often, managers estimate cost savings simply by calculating the difference in financial performance between the bidder and the target. Having an earnings before interest, taxes, and amortization (EBITA) margin 200 basis
 
@@ -8007,7 +8006,7 @@ After you complete the assessment, always compare the aggregate results for the 
 You'll also find that the potential cost savings vary widely by cost category. Exhibit 31.7 presents the cost savings by category for an automotive-industry acquisition. While the overall estimated cost savings for the automotive acquisition were about 10 percent of total combined costs, the savings varied considerably across category. For example, although procurement costs are the single largest cost category for automotive manufacturers, most companies already have the necessary scale to negotiate favorable contracts. Therefore, savings from procurement were estimated at only 5 percent. In contrast, research and development reductions were estimated at 33 percent, as the two companies consolidated new-product development, paring down the number of expected offerings. This reduction also had a follow-on effect in manufacturing, as product designs would move toward a common platform, lowering overall manufacturing costs. Finally, while sales and distribution expenses could be lowered, management decided to preserve the combined company's marketing budget.
 
 
-# Estimating Revenue Improvements
+## Estimating Revenue Improvements
 
 Although it is tempting to assume that revenues for the newly combined company will equal stand-alone sales plus new cross-selling, the reality is often quite different. First, the merger often disrupts existing customer relationships, leading to a loss of business. Also, smart competitors use mergers as a prime opportunity to recruit star salespeople and product specialists. Some customers may have used the acquirer and target as dual sources, so they will move part of their business to another company to maintain a minimum of two suppliers. Finally, customers who decide to stay during the merger will not be shy in asking for price and other concessions that salespeople will be eager to offer, for fear of losing the business.
 
@@ -8024,7 +8023,7 @@ Alternatively, revenue increases could come from higher prices, achievable becau
 
 We also suggest you project revenue improvements in absolute amounts per year or as a percentage of stand-alone revenues, rather than as an increase in the revenue growth rate. With the growth rate approach, you can easily overestimate the true impact of revenue improvements.
 
-# Implementation Costs, Requirements, and Timing
+## Implementation Costs, Requirements, and Timing
 
 Although performance improvements often result from doing more with less, making a change or combining systems always involves some costs. Some are obvious, such as the costs to decommission a plant and the severance that must be paid to employees being let go. Others are more subtle, such as rebranding campaigns when the name of the target is changed, integration costs for different information technology (IT) systems, and the retraining of employees. But these costs, often forgotten, must also be identified and estimated. It is not unusual for total implementation costs to be equivalent to a full year of cost savings or more.
 
@@ -8034,7 +8033,7 @@ Moreover, timing problems can affect whether the improvements are captured at al
 
 Neglecting the "use by" date of certain savings can be equally problematic. Many potential savings do not stay on the table forever. For example, one source of cost savings is eliminating cyclical excess capacity in a growing industry. But in these circumstances, the excess capacity will eventually be eliminated through natural growth. Thus, reducing capacity can achieve incremental savings only if the reduction comes during the expected duration of any capacity overhang.
 
-# HOW TO PAY: WITH CASH OR STOCK?
+## HOW TO PAY: WITH CASH OR STOCK?
 
 Should the acquiring company pay in cash or in shares? Research shows that, on average, an acquirer's stock returns surrounding the acquisition announcement are higher when the acquirer offers cash than when it offers shares. We hesitate, however, to draw a conclusion based solely on aggregate statistics; after all, even companies that offer cash can pay too much.
 
@@ -8057,7 +8056,7 @@ When weighing whether to pay in cash or in shares, you should also consider what
 
 If the capital structure of the combined entity cannot accommodate any extra debt incurred by paying cash for the acquisition, then you need to consider paying partially or fully in shares, regardless of any desire to share risk among the shareholders of the new entity.
 
-# FOCUS ON VALUE CREATION, NOT ACCOUNTING
+## FOCUS ON VALUE CREATION, NOT ACCOUNTING
 
 Many managers focus on the accretion and dilution of earnings brought about by an acquisition, rather than the value it could create. They do so despite numerous studies showing that stock markets pay no attention to the effects of
 
@@ -8093,18 +8092,18 @@ Financial markets understand the difference between creating real value and incr
 
 Regardless of whether the expected EPS was greater, smaller, or the same two years after the deal, the market's reaction was similar (within the bounds of statistical significance) at one month after the announcement and one year after the announcement.
 
-# CHARACTERISTICS OF BETTER ACQUIRERS
+## CHARACTERISTICS OF BETTER ACQUIRERS
 
 This chapter ends with some observations about the characteristics of companies that are better acquirers. Companies are more successful at M&A when they apply the same focus, consistency, and professionalism to it as they do to other critical disciplines.[28] This requires building four often-neglected institutional capabilities: engaging in M&A thematically, managing their reputation as an acquirer, confirming their strategic vision, and managing performance improvement targets across the M&A life cycle.
 
-# Engaging in M&A Thematically
+## Engaging in M&A Thematically
 
 Successful companies develop a pipeline of potential acquisitions around two or three explicit M&A themes that support the corporate strategy. These themes are effectively business plans that utilize both M&A and organic investments to meet a specific objective while explicitly considering an organization's capabilities and its characteristics as the best owner of a business. Priority themes are those where the company needs M&A to deliver its strategy and to have the ability to add value to targets. They are also highly detailed, and their effect is measurable in market share, customer segment, or product development goals.
 
 Consider, for example, a global retail company's M&A theme: to grow through entry into two emerging markets by acquiring only local companies that are unprofitable yet in the top three of their market. That's a level of specificity few companies approach. To get there, managers started with the company's strategic goal: to become the third-largest player in its sector within five years, something it could achieve only by aggressively entering emerging markets. A less disciplined company might have accepted the strategic goal as its M&A objective and moved on to a broad scan for targets. But managers at the retail company refined their M&A goals further. They concluded that trying to enter too many markets at once was impractical, due to constraints on management time and the complexities of entering new geographies, so they limited their search to the two most promising regions. They also knew their lean operations would offer cost performance improvements in companies with bloated operations—especially given the importance of economies of scale in the industry—and that local branding and catering to local preferences were critical. With their M&A theme defined so precisely, managers were able to narrow the list of potential candidates to a handful of companies.
 
 
-# Managing Reputation as an Acquirer
+## Managing Reputation as an Acquirer
 
 Few companies consider how they are perceived by targets or how their value proposition as an acquirer compares with that of their competitors. Many are too slow and reactive at identifying potential acquisition targets, too timid in courting and building relationships with them, or too tactical when initiating conversations. They may have such broad goals that they can't proactively approach a list of potential targets.
 
@@ -8112,7 +8111,7 @@ In our observation, companies that invest in their reputation as acquirers are p
 
 At one high-tech company, for example, these concepts came together around the theme of enabling innovation. The company's investment in its reputation as an acquirer started with an external marketing campaign but quickly made its way deep into the M&A process. In discussions at conferences and in engineering communities, managers used testimonials from acquired employees to underscore their track record at buying companies and providing them with the expertise and resources they need to accelerate their product pipelines. They developed useful personal relationships with target-company executives by discussing ways to work together even beyond the context of a deal (or instead of a deal). And when it came time to present integration plans and future investment models to targets, managers made sure the proposals were consistent with the acquiring company's reputation.
 
-# Confirming the Strategic Vision
+## Confirming the Strategic Vision
 
 For many companies, the link between strategy and a transaction breaks down during due diligence. By focusing strictly on financial, legal, tax, and operations issues, the typical due diligence fails to bring in data critical to testing whether the strategic vision for the deal is valid.
 
@@ -8120,7 +8119,7 @@ To underpin the strategic impulse behind the deal, companies should bolster the 
 
 It is critical for executives to be honest and thorough when assessing their advantages. Ideally, they develop a fact-based point of view on their beliefs—testing them with anyone responsible for delivering value from the deal, including salespeople, R&D engineers, and their human resources and finance departments. Such an approach would have helped a large financial company whose due diligence for the deal focused on auditing existing operations rather than testing the viability of the future operating models. The advantaged-buyer criteria assumed by the company focused on being one of the most effective operators in the industry, supported by strong IT systems and processes. Executives proceeded with the deal without ever learning that the IT team had a different picture of the eventual end state, and they learned only after close that the two companies' IT systems could not be integrated.
 
-# Reassessing Performance Improvement Targets
+## Reassessing Performance Improvement Targets
 
 One of the most common but avoidable pitfalls in any transaction is failing to update expectations on performance improvements as the buyer learns more about the target during integration. Companies that treat M&A as a project typically build and secure approval for a company's valuation only once, during due diligence, and then build these targets into operating budgets. This forces the organization's aspirations down to the lowest common denominator by freezing expectations at a time when information is uncertain and rarely correlated with the real potential of a deal.
 
@@ -8129,7 +8128,7 @@ Managing this challenge can be complex but worthwhile. One consumer packaged-goo
 
 Companies can employ various tactics to build a real capability at realizing synergies. They might, for example, bring stakeholders together in so-called value creation summits that mimic the intensity and focus of a due-diligence effort but change the incentives to focus on the upside. And we've seen experienced acquirers take a blank-sheet approach to foster creativity, rather than anchor the exercise in a financial due-diligence model, which often leads to incremental synergies. These and similar activities allow companies to reinforce the idea that due-diligence estimates of performance improvements are the lowest acceptable performance, and they get managers used to setting their sights higher.
 
-# CLOSING THOUGHTS
+## CLOSING THOUGHTS
 
 Acquisitions are good for the economy when they allocate resources more efficiently between owners. However, most acquisitions create more value for the shareholders of the target company than for those of the buyer, and many destroy value for the buyer's shareholders. This is perhaps not surprising when we recall that acquisitions can create value for acquirers only if the target company's performance improves by more than the value of the premium over the target's intrinsic value that the acquirer had to offer for the target in order to persuade its shareholders to part with it.
 
@@ -8139,7 +8138,7 @@ Managers should bear in mind that stock markets are interested only in the impac
 
 Finally, the best acquirers build systematic institutional skills in defining their M&A strategy, managing their reputation as an acquirer, and consistently looking for performance improvement opportunities beyond those estimated before the deal was complete.
 
-# Divestitures*
+## Divestitures*
 
 Divestitures, like mergers and acquisitions, tend to occur in waves, as Exhibit 32.1 shows. In the decade following the conglomerate excesses of the 1960s and 1970s, many companies refocused their portfolios. These divestitures were generally sales to other companies or private buyout firms. By the 1990s, divestiture activity included more public-ownership transactions—spin-offs, carve-outs, and tracking stocks. Such public-ownership transactions have since become an established divestment approach, although most divestitures still take the form of deals between companies.
 
@@ -8168,7 +8167,7 @@ EXHIBIT 32.2 Market-Adjusted Announcement Returns of Divestitures
 
 Source: B. Eckbo and K. Thomburn, "Corporate Restructuring," Foundations and Trends in Finance 7 (2012): 159-288.
 
-# VALUE CREATION FROM DIVESTITURES
+## VALUE CREATION FROM DIVESTITURES
 
 Academic research provides abundant evidence of divestitures' potential to create value. $^{1}$  A 2012 survey of the empirical results of more than 10,000 private and public transactions found significant positive excess returns associated with the announcement of different types of divestitures. $^{2}$  Exhibit 32.2 summarizes the results. Actual excess returns are probably higher because many companies disclose their intentions to divest well before the transaction is announced. $^{3}$
 
@@ -8195,7 +8194,7 @@ The process of systematic divestment is natural and ongoing, as the Siemens exam
 
 Divesting a business unit creates value when other owners can extract more value from it than the current owners can. This is the "best owner" principle described in Chapter 28. Value creation occurs because a new owner can realize superior synergies, but also because the divestiture eliminates some unique costs of the business unit itself and/or its current owner. An active portfolio management approach creates value by avoiding, eliminating, or at least minimizing these costs.
 
-# The Costs of Holding On
+## The Costs of Holding On
 
 For underperforming businesses, the clear benefit from divesting lies in avoiding the direct costs of bearing deteriorating results. Companies that hold on to underperforming businesses too long risk bringing down the value of the entire corporation. By the time the company is forced to conduct a fire sale of the assets, it has already destroyed substantial value and generally will receive limited proceeds from the divestiture. Managers should be in a better position than outsiders to determine a business's performance prospects. Research has shown that as a business becomes more mature and competitive challenges increase, it loses the potential for ongoing value creation, and its total shareholder returns start to decline, relative to the business's industry sector.[11] An opportune moment to divest the business is therefore shortly before market valuations begin to reflect its lower performance expectations.
 
@@ -8213,7 +8212,7 @@ expansion to maturity. Different skills and capabilities are needed to manage th
 
 A common misperception about divestments is that they are an easy solution for undervaluation in the stock market. Some managers interpret the positive excess returns to divestment announcements as a confirmation that the divestment exposes value the market had overlooked. That interpretation is wrong. It is often based on a misleading "sum of the parts" analysis, showing that the current market value of the company is smaller than the sum of the values of its individual business. Unfortunately, the analyses often rely on valuation multiples of industry peers with higher performance or from different sectors than the company's businesses. When the analysis uses true peers, the conglomerate discount typically disappears (see Chapter 19).
 
-# WHY EXECUTIVES SHY AWAY FROM DIVESTITURES
+## WHY EXECUTIVES SHY AWAY FROM DIVESTITURES
 
 Although an active portfolio approach recognizes the value to be created from divestitures, most executives seem to shy away from initiating them. Looking at the 690 companies that remained in the global top 1,000 during the period from 2000 until 2013, almost 60 percent did not execute in any single year divestitures that exceeded 5 percent of their market value. About 20 percent of the companies had only one year out of the 14 in which divestments amounted to at least 5 percent of their value. The previously mentioned McKinsey study of 200 U.S. companies found that at least 75 percent of the transactions were made in reaction to some form of pressure, such as underperformance of the corporate parent, the business unit, or both.
 
@@ -8236,7 +8235,7 @@ In addition, changes in earnings per share and the earnings multiple depend on h
 
 Even though the divestment causes the size of the company to be smaller (in terms of revenues and market capitalization) and its earnings per share to be lower, shareholders still benefit from this divestment. What matters is that the company generates more value from selling this business than from running it. Shareholders care about value, not size.
 
-# ASSESSING POTENTIAL VALUE FROM DIVESTITURES
+## ASSESSING POTENTIAL VALUE FROM DIVESTITURES
 
 A value-creating approach to divestitures can result in divesting good and bad businesses at any stage of their life cycle. Clearly, divesting a good business is often not an intuitive choice and may be hard for managers. It therefore makes sense to enforce some discipline in active portfolio management—for example, by holding regular, dedicated business exit review meetings, to ensure that the topic remains on the executive agenda, and by assigning units a "date stamp," or estimated time of exit. This practice has the advantage of obliging executives to evaluate all businesses as their sell-by date approaches, although executives may decide to retain businesses after that date. Other approaches to promote discipline include setting a limit on the number of businesses in the corporate portfolio or aiming for a target balance in acquisitions and divestitures. Such practices help transform divestitures from evidence of failure into shrewd strategies for building value.
 
@@ -8258,19 +8257,19 @@ $$
 
 This section discusses these synergies and costs. Also, it examines practical challenges around legal and regulatory issues, as well as pricing and liquidity of the businesses.
 
-# Lost Synergies
+## Lost Synergies
 
 When a company divests a business unit, it may lose with it certain synergy benefits of having that business in its portfolio, even if the company isn't the best owner of the business. For example, a business unit may give cross-selling opportunities to other units. Likewise, a corporation may bundle its procurement for various businesses globally so that it enjoys significant discounts. Thus, divestment can result in lower discounts and higher costs for the remaining businesses, as well as for the divested business unit itself, when volumes decrease.
 
 Divestments could also lead to the loss of nonoperating synergies related to taxes and financing, although these tend to be relatively small. For example, an integrated electricity player that divests its (regulated) transmission and/or distribution network business and keeps a portfolio of generation and supply units will have a higher risk profile after the divestiture and, consequently, a lower debt capacity and corresponding value from tax shields.
 
-# Disentanglement Costs
+## Disentanglement Costs
 
 Depending on the extent to which a business unit is integrated within an organization and its operations, disentangling it can incur substantial expenses. Examples of such expenses include legal and advisory fees, information technology (IT) system replacement or reconfiguration costs, relocation costs, and retention bonuses. Disentanglements can be more complex than the integration processes of large M&A deals.
 
 Taxes triggered by the divestment depend on the details of a proposed deal structure, but they too can have real impact on post-deal economics. Differences in fiscal regimes also play a role. In many European countries, profit (including capital gains) distributions from subsidiaries to parents are to some extent exempt from corporate income and withholding taxes. In the United States, corporations do not enjoy this so-called participation exemption for capital gains on divested subsidiaries. Depending on the fiscal regime, executives may therefore prefer different types of transactions (see discussion later in the chapter).
 
-# Stranded Costs
+## Stranded Costs
 
 Stranded costs can be real but are easily overestimated. These are (corporate) costs for assets and activities associated with the business unit but ultimately not transferred with it. Stranded costs can relate to shared services, such as procurement, marketing, and investor relations. They can also refer to IT infrastructure and shared production assets—for example, when a single manufacturing facility consists of production lines of products from different business units. And they can relate to general overhead costs that are allocated to businesses, such as costs for the board of directors, legal counsel, and corporate compliance.
 
@@ -8279,14 +8278,14 @@ In our experience, divestments often bring to light excessive corporate overhead
 
 Real stranded costs from divestitures take considerable time and effort to unwind. Some stranded costs are fixed and difficult to reduce, as in the case of shared IT systems. Others can be more readily managed over time—for example, by head-count reductions in shared service centers. McKinsey research has found that it often takes up to three years for the parent company to recover from stranded costs, leaving it with substantially lower profit margins during this period.[15] A seller could therefore consider including transitional service agreements for the divested business. This could help cover the costs for central and shared support services, at least in the near term. But sellers should be careful that the transitional agreements do not diminish the pressure on the organization to reduce the stranded costs in the longer term. How to handle stranded costs will vary with the type of buyer. A strategic buyer may be able to absorb the divested business unit without all the corporate support services or even production facilities; a financial buyer may be more interested in acquiring the business with these services and facilities included.
 
-# Legal and Regulatory Barriers
+## Legal and Regulatory Barriers
 
 The divestment process may be complicated by legal or regulatory issues. These are typically not large enough to distort the value creation potential, but they can seriously slow down the process and add to the amount of work to be done, thereby increasing the time and resources required to come to closure. For example, pharmaceutical companies are required to have a so-called marketing authorization to sell an individual product in a specific market, typically a single country. If a pharmaceutical company decides to sell a particular product portfolio (e.g., oncology, respiratory, vaccines) to another pharmaceutical company, it needs to apply for a transfer of the marketing authorization for each individual product in each specific market. This is a time-consuming process that requires additional expenses. Asset transactions can be especially complex, because they require extensive documentation and contracts with respect to all the different categories of assets involved.
 
 
 Contractual issues often come as unpleasant surprises that typically surface after companies have started the divestiture process. Procurement contracts, long-term contracts with customers, and loan agreements, for example, often require the creation of transitional service agreements between buyer and seller to guarantee continuity of the business unit. Or they may include change-of-ownership clauses activated upon divestiture that render the existing contract or agreement invalid when ownership in the business transfers.
 
-# Pricing and Liquidity
+## Pricing and Liquidity
 
 As discussed in Chapter 7, market valuation levels are generally in line with intrinsic value potential in the long term but can deviate in the short term. A near-term divestiture would seem to be a good idea if the market would price a business above management's estimate of its intrinsic value. The reverse holds as well: Siemens, for example, abandoned the initial public offering (IPO) of its lighting business OSRAM several times due to adverse market conditions.
 
@@ -8294,32 +8293,32 @@ Although external market factors may lower potential proceeds from a divestiture
 
 Even when market valuation levels seem to be free of distortions and a seller could reasonably expect a value-creating offer, a lack of competing buyers may make the seller reluctant to pursue the transaction. An academic study concluded that companies are less likely to pursue divestitures of particular assets when the markets for these assets are less liquid in terms of the volume of transactions.[16] The more liquid a market for particular assets, the better the price setting is expected to be.
 
-# DECIDING ON TRANSACTION TYPE
+## DECIDING ON TRANSACTION TYPE
 
 Once a corporation has identified businesses for divestiture, it must decide what transaction structure to use. Its choices will depend on the availability of strategic or financial buyers, the need to raise cash, the benefits of retaining some level of control during the first phase of the separation, and fiscal implications for the company and/or its shareholders.
 
 The remainder of this chapter provides a brief overview of different transaction types and discusses the trade-offs among alternative forms of public-ownership transactions, their impact on long-term performance, and the dynamics of ownership structures over time. Executives can choose from many types of structures for private and public transactions:
 
-# Private transactions
+## Private transactions
 
 Trade sale: sale of part or all of a business to a strategic or financial investor.
 - Joint venture: a combination of part or all of a business with other industry players, other companies in the value chain, or venture capitalists
 
-# Public transactions
+## Public transactions
 - Initial public offering (IPO): sale of all shares of a subsidiary to new shareholders in the stock market
 - Carve-out (IPO of a minority stake): sale of part of the shares in a subsidiary to new shareholders in the stock market
 - Spin-off (or demerger): distribution of all shares in a subsidiary to existing shareholders of the parent company
 - Split-off: an offer to existing shareholders of the parent company to exchange their shares in the parent company for shares in the subsidiary
 - Tracking stock: a separate class of parent shares that is distributed to existing shareholders of the parent company through a spin-off or sold to new shareholders through a carve-out.
 
-# Private Transactions
+## Private Transactions
 
 Private transactions typically create the most value if other parties are judged to be better owners of the business. Private transactions allow the company to sell the business unit at a premium and capture value immediately. In most situations, the counterparties will be strategic buyers (that is, other industry players), but potential financial buyers also should be considered.
 
 However, an outright sale may result in taxable gains that will put this alternative at a disadvantage. In the United States, for example, a company must pay income tax on gains from a business sale. Businesses with relatively high ROIC or low capital intensity may therefore be less attractive candidates for an outright sale unless the premium offered justifies the capital gains tax. In many European countries, the so-called participation exemption makes the sale of the parent's shares in a subsidiary exempt from taxes.
 
 
-# Public Transactions
+## Public Transactions
 
 If the company cannot identify another company as a better owner, it can consider public restructuring alternatives. All the public transactions in the preceding list involve the creation of a new public security, but not all of them actually result in cash proceeds. Full IPOs and carve-outs result in cash proceeds as securities are sold to new shareholders. In spin-off and split-off transactions, new securities are offered to existing shareholders, sometimes in exchange for other existing shares (split-offs).
 
@@ -8331,7 +8330,7 @@ Depending on the jurisdiction, spin-offs can also offer tax benefits over altern
 
 Sometimes spin-offs are executed in two steps: a minority IPO (carve-out) followed by a full spin-off relatively shortly thereafter. Some advocates claim that a two-step spin-off has benefits: the initial minority listing establishes
 
-# EXHIBIT 32.4 Long-Term Market Performance of Spin-Offs
+## EXHIBIT 32.4 Long-Term Market Performance of Spin-Offs
 
 Cumulative TSR for 2-year post-transaction period, \%
 
@@ -8377,7 +8376,7 @@ In addition to producing competing needs, tracking stocks also result in both en
 
 As we write this, no major U.S. or European company has tracking stock outstanding, underlining the point that this form of ownership restructuring fails to bring the benefits executives are looking for.
 
-# SUMMARY
+## SUMMARY
 
 As businesses develop through their life cycles, they pose new challenges to the parent company. Parent companies therefore should continually reevaluate which businesses to keep and which to divest. However, most corporations divest businesses only after resisting shareholder pressure. In delaying, they risk forgoing potentially significant value.
 
@@ -8385,7 +8384,7 @@ Senior executives should prepare the organization for this cultural shift to a m
 
 There is no guarantee that divestitures will create value. The best divestitures indeed outperform the market, but those at the bottom fall even further behind. To increase the chances of a successful divestiture, executives should thoroughly identify the implications for the economics of the remaining businesses and consider these implications when structuring the divestiture agreement. Executives should also take care not to underestimate the time and effort required to complete a divestiture.
 
-# Capital Structure, Dividends, and Share Repurchases
+## Capital Structure, Dividends, and Share Repurchases
 
 Shaping a modern corporation's financial profile might appear to be an infinitely complex task. But in practice, it typically boils down to just three decisions: how much to invest, how much debt to carry, and how much cash to return to shareholders. In this book, we devote most of our attention to exploring the first of these topics, but the others are also important. It's not so much that making the right decisions about capital structure will create a great deal of value; it's that making the wrong calls can destroy tremendous amounts of it. For example, during the high-tech bubble of the late 1990s, many European telecommunication companies accumulated unprecedented levels of debt on their balance sheets to fund investments in digital mobile networks, expecting to issue equity at a later stage to repay the borrowing. But before they could, the bursting of the high-tech bubble in 2000 drove down the earnings outlook for mobile services and the share prices for telecom players. Providers had to recapitalize their balance sheets at great pain and cost, losing billions of shareholder value.
 
@@ -8394,7 +8393,7 @@ The primary objective of a company's decisions to structure its capital, pay div
 This chapter explores the options managers have for choosing an appropriate capital structure for their company and how they should develop a supporting policy for returning cash to shareholders or raising new capital. In the first two sections, we discuss some practical guidelines and a four-step approach to deciding a company's capital structure, payout, and financing. The remainder of the chapter discusses key theoretical and empirical findings on capital structure and payout that form the basis for our guidelines and approach.
 
 
-# PRACTICAL GUIDELINES
+## PRACTICAL GUIDELINES
 
 Finance theory has much to say about capital structure and payout—for example, about the costs and benefits of leverage, the way markets react to shareholder payouts, and the ability of managers to time their buying back of shares. But it does not tell us how to set an effective capital structure and payout policy for a given company. Building on insights from finance theory (explored later in this chapter), we offer the following practical guidelines to help executives make the right choices on capital structure and payout:
 - Decisions about capital structure, dividends, and share repurchases should be an integral part of overall cash deployment. This matches investment needs across businesses with funding opportunities and payouts to shareholders to best support the company's strategy and risk preferences. When deciding to deploy cash (for example, by using it for share repurchases), companies should consider all alternative uses of cash and set priorities for the uses according to their potential to create value, as laid out in Exhibit 33.1. The greatest opportunity to create value comes from investing cash in business operations (organic growth) and acquisitions at returns above the cost of capital.2 The returns are typically higher for organic growth, making it the first choice for deploying cash. One level below is using cash for growth by acquisitions, where returns on capital tend be somewhat lower because acquiring assets usually requires paying a premium.3 Financing—that is, using (or raising) cash to adjust a company's capital structure—should assume a lower priority. This does not mean that capital structure decisions are unimportant; rather, they are a necessary means of ensuring that sufficient funding is available to capture attractive investment opportunities and withstand cash shortfalls. At the bottom of the list of cash alternatives are payout decisions. These don't drive value directly but should aim to return cash to shareholders when a company has insufficient opportunities to reinvest at returns above the cost of capital.
@@ -8407,7 +8406,7 @@ Figure 33.1 Cash Deployment: Value Creation Hierarchy
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/69ab1b76-099f-46d2-9341-d47072e8fd93/f01040f83538f678dd207632ddf7fdd50c871c7123365c141f1a075afe72b714.jpg)
 1 ROIC is return on invested capital; WACC is weighted average cost of capital.
 
-# A FOUR-STEP APPROACH
+## A FOUR-STEP APPROACH
 
 With these guidelines in mind, we recommend a sequential approach to establishing capital structure and payout policies. With a clearly defined corporate strategy in place, the approach itself consists of four stages:
 
@@ -8419,7 +8418,7 @@ With these guidelines in mind, we recommend a sequential approach to establishin
 To illustrate the approach, we can apply it to a hypothetical company in international branded consumer products. In the past, the company, which we call MaxNV, has generated annual operating earnings before interest, taxes, depreciation, and amortization (EBITDA) of around  \$1 billion, with some fluctuations resulting from movements in raw-materials prices and currency rates. MaxNV has held little debt, but acquisitions have driven up its ratio of net debt to EBITDA from 1.5 in 2015 to 2.8 at the beginning of 2020 (calculated as net debt at beginning of year over expected EBITDA for the year, which for 2020 would equal\$ 2.8 billion divided by 1.0 billion).
 
 
-# Step 1: Project and Stress-Test Operating Cash Flows
+## Step 1: Project and Stress-Test Operating Cash Flows
 
 MaxNV's strategic plan under a base-case scenario foresees annual EBITDA growth of 5 percent, from  \$1.0 billion in 2020 to\$ 1.2 billion in 2024 (see Exhibit 33.2). Growth derives in part from planned bolt-on acquisitions of around \$0.2 billion per year, with some revenue lost to minor divestments. In the base case, MaxNV generates around \$3.0 billion in free cash flow from operations over the next five years.
 
@@ -8436,11 +8435,11 @@ and investments in its own direct-to-customer channels. Compared with the base c
 
 For companies in industries where price and volume risks are greater, such as commodities, you might replace the use of scenarios with a more sophisticated approach: modeling future cash flows by using stochastic simulation techniques to estimate the probability of financial distress at the various debt levels.
 
-# Step 2: Develop a Capital Structure Target
+## Step 2: Develop a Capital Structure Target
 
 Next, we set a target credit rating and estimated the corresponding coverage ratios to develop a capital structure target. Although MaxNV's operating performance is normally stable (as it is with most branded-consumer-goods players), we targeted the high end of a BBB credit rating because of the company's currency risk as an exporter. We translated the target credit rating to a target net-debt-to-EBITDA coverage ratio of 2.5 times. This coverage ratio was applied in all scenarios.
 
-# Step 3: Estimate Surplus or Deficit
+## Step 3: Estimate Surplus or Deficit
 
 Based on the target coverage ratio and projections of operating cash flows, we estimated MaxNV's target capital structure and cash surpluses (or deficits) for each of the next five years. The detailed calculations are shown in Exhibit 33.3. For example, in the base case scenario,  \$1.0 billion of EBITDA in 2020 and a target coverage ratio of 2.5 times result in a target debt level of\$ 2.5 billion for the end of the year. Starting with  \$2.8 billion of debt at the beginning of 2020, deducting\$ 513 million of free cash flow from operations and adding \$105 million of after-tax interest expenses leave MaxNV with surplus cash of \$108 million that could be distributed to shareholders in 2020. With the same calculation through the remaining years of the forecast, the cumulative cash surplus for distribution amounts to around \$2.7 billion over the five-year period. Exhibit 33.3 also shows the cumulative surplus for the competitive-disruption scenario ( \$1.2 billion) and the economic-downturn scenario (552 million).
 
@@ -8453,7 +8452,7 @@ EXHIBIT 33.3 MaxNV: Estimates of Cash Surplus and Deficit
 
 For both downside scenarios, a cash deficit occurs in some individual years. For these years, MaxNV could decide to simply exceed target debt levels and return to target levels later. Alternatively, it could build up excess debt capacity in prior years to ensure target debt levels are met in each year. Of course, if a cumulative deficit occurred for the entire planning horizon, MaxNV would need to consider issuing equity or find other financing opportunities, such as additional divestitures or cost savings.
 
-# Step 4: Decide on a Surplus Payout and Deficit Financing
+## Step 4: Decide on a Surplus Payout and Deficit Financing
 
 The final step is to decide what payout and financing over the ensuing years will move the company to its target capital structure. Consider Exhibit 33.4, which summarizes the cumulative cash flows associated with the four steps for each of the three scenarios. Over the next five years under all scenarios, MaxNV can easily return  \$450 million (\$ 90 million per year) in the form of regular dividends. Taking a less conservative stance, MaxNV could even consider a dividend payout of about \$1 billion (\$200 million per year), which it would need to cut back in the case of a downturn scenario. If the new dividend payout represents an increase from current levels, its announcement would send a strong signal to the stock market that MaxNV is confident about its business outlook and its ability to sustain this dividend level.
 
@@ -8465,13 +8464,13 @@ EXHIBIT 33.4 MaxNV: Deciding on Payout
 
 Any remaining cash for each of the scenarios could be returned to shareholders over the next several years through share repurchases or extraordinary dividends. The amount based on a conservative  \$450 million dividend payout would be almost\$ 2.3 billion under the base case, about \$800 million under the disruption scenario, and about \$100 million under the downturn scenario. Like a dividend increase, share repurchases and extraordinary dividends signal confidence, but they have the advantage that investors won't see them as a commitment to additional payouts in future years. This gives MaxNV valuable flexibility to change the amount of cash paid out over the next years in accordance with business results and market developments. It might increase its payout, for example, as management becomes more certain that the company will achieve the base-case projection, or it could withhold most of the cash as long as it considers a downturn scenario more likely.
 
-# SETTING A TARGET CAPITAL STRUCTURE
+## SETTING A TARGET CAPITAL STRUCTURE
 
 Financing instruments vary widely, offering many options, from traditional common equity and straight debt to more exotic instruments, among them convertible preferred equity and convertible and commodity-linked debt. But the essential choice remains between straight debt and common equity. In this balancing act, tilting toward equity gives managers more flexibility to work through unexpected downturns or take advantage of unforeseen opportunities, such as acquisitions. Taking on more debt delivers higher efficiency from tax benefits and enhances management discipline over investment spending.
 
 Empirical research shows that companies actively manage their capital structure around certain leverage boundaries. They make adjustments to regain their target capital structure after they have missed it for one or two years, rather than immediately after each change in leverage. Continual adjustment would be impractical and costly, due to share price volatility and transaction costs.
 
-# Fundamental Debt/Equity Trade-Offs
+## Fundamental Debt/Equity Trade-Offs
 
 For decades, academic researchers have sought to learn which debt-to-equity ratio represents the best trade-off between flexibility and efficiency and maximizes value for shareholders. Unfortunately, a clear model remains elusive.[8]
 
@@ -8493,7 +8492,7 @@ creating a negative cycle of lower inventories that lead to lower sales, which t
 
 Higher leverage may cause additional value destruction as a result of conflicts of interest among debt holders, shareholders, and managers. For example, when companies come close to defaulting on their debt, shareholders will prefer to take out cash or invest it in high-risk opportunities, at debt holders' expense.[14] Of course, debt holders anticipate such conflicts and try to protect themselves with restrictive covenants and other costly measures.
 
-# Evidence on Debt/Equity Trade-Offs
+## Evidence on Debt/Equity Trade-Offs
 
 Although finance theory is clear about the sources of costs and benefits of leverage, it does not tell us specifically how to measure the best capital structure for a given company. Fortunately, it turns out that capital structure has less impact on value than many practitioners think. In addition, evidence from academic research provides some guidance on leverage profiles for companies, depending on their characteristics, as one would expect from fundamental debt/equity trade-offs.[15]
 
@@ -8533,7 +8532,7 @@ of interest coverage (below 2) rarely seen for large, investment-grade companies
 
 In contrast, losses in flexibility from higher leverage do translate to significant value destruction. John Graham and others examined listed U.S. companies over a period of more than 25 years and analyzed the loss in a company's value due to deviations of its leverage from what was estimated as its theoretical optimum.[22] The analysis offers two key insights, illustrated in Exhibit 33.6. First, it confirms our analysis that value at stake is limited to no more than a couple of percentage points for a fairly wide range of leverage around the theoretical optimum. Second, it shows that there is a lot more downside from having too much debt than from having too little. In other words, the losses due to diminished flexibility tend to outweigh the gains from tax benefits and management discipline.
 
-# Credit Ratings and Target Capital Structure
+## Credit Ratings and Target Capital Structure
 
 Difficult as it may be to determine an optimal capital structure, it is much easier to find an effective structure—that is, one that cannot clearly be improved upon in terms of shareholder value creation because it is somewhere in the relatively flat range of the valuation curves of Exhibits 33.5 and 33.6.
 
@@ -8604,7 +8603,7 @@ EXHIBIT 33.10 Default Probability and Credit Spread
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/69ab1b76-099f-46d2-9341-d47072e8fd93/f96b4fc0b42d414697dc353f67e425829a71efe1969bcc3b6435dd8c7968695b.jpg)
 Source: S&P Capital IQ; Corporate Performance Analytics by McKinsey.
 
-# PAYOUTS TO SHAREHOLDERS
+## PAYOUTS TO SHAREHOLDERS
 
 Most successful companies, at some point, find it virtually impossible to reinvest all the cash they generate. In that case, there is little alternative but to return surplus cash to shareholders. Although some executives might consider that a failure to find value-creating investments, it is actually an inevitable consequence for maturing companies with high returns on capital and moderate growth. For example, a company with  \$1 billion of net operating profit after taxes (NOPAT), a return on invested capital of 25 percent, and annual revenue growth of 5 percent needs net investments of only\$ 200 million per year to continue its growth at that rate. That leaves \$800 million of surplus cash flow for additional investments or payouts to shareholders (see Exhibit 33.11). Finding \$800 million of new investment opportunities at attractive returns in every year is a challenge in many industries. Reinvesting all its surplus cash flow in new opportunities at its current return on capital of 25 percent would imply that the company grows revenues by 20 percent each year.
 
@@ -8616,7 +8615,7 @@ EXHIBIT 33.11 Surplus Cash Flow, Given Earnings of 1 Billion its net earnings ov
 
 Companies with cash surpluses have three basic alternatives for paying out the surpluses to shareholders: dividend increases, share repurchases, and extraordinary dividends. All three provide a positive signal to the capital market about a company's prospects. The potential negative signal that a cash payout could send is that the company has run out of investment opportunities. This assumes that investors did not already know that the company was generating more cash flow than it could reinvest. However, such cases are extremely rare; investors typically anticipate payouts long before managers make that decision, as illustrated by the simple math in our example in Exhibit 33.11.[30]
 
-# Dividends
+## Dividends
 
 Companies that increase their dividends receive positive market reactions averaging around 2 percent on the day of announcement.[31] For companies that initiate dividend payments, the impact is even greater.[32] In general, investors interpret dividend increases as good news about the company's long-term
 
@@ -8632,7 +8631,7 @@ A few companies do not commit to dividends or dividend growth rates that are sup
 
 Managers considering increases in dividend commitments—whether in the form of fixed dividends or a payout ratio for variable dividends—should be confident that future cash flows from operations will be sufficient to pay for capital expenditures as well as higher dividends. Furthermore, a higher dividend payout could lead to higher taxable income for shareholders, depending on the jurisdiction and their individual tax position. Such shareholders could suffer a tax loss if a company would make unexpected, significant changes to the dividend payout ratio. In other words, dividend increases are useful to handle structural cash surpluses over time but much less suitable for a one-time surplus payout.
 
-# Share Repurchases
+## Share Repurchases
 
 In the early 1980s, share repurchases represented less than 10 percent of cash payouts to shareholders. Since then, they have gained notable importance as an alternative way to distribute cash to shareholders, mainly because key regulatory limits for corporations to purchase their own shares were removed in the United States in 1982.[34] By 1999, for example, share repurchases totaled  \$181 billion, close to the\$ 216 billion in regular dividend payments for companies listed on the New York Stock Exchange.[35] Even in the wake of the stock market downturn in 2000, major companies in different sectors have continued to repurchase shares on a large scale; examples include ExxonMobil, IBM, Marks & Spencer, Shell, Unilever, and Viacom. In 2018, about 60 percent of cash distributions to shareholders in the United States were share repurchases.
 
@@ -8645,7 +8644,7 @@ These signaling effects should not be confused with value creation for sharehold
 36 In smaller programs, companies typically buy their own shares at no premium or a limited premium in so-called open-market purchases. Larger programs are often organized in the form of tender offers in which companies announce that they will repurchase a particular number of shares at a significant premium. See, for example, R. Comment and J. Jarrell, "The Relative Signaling Power of Dutch-Auction and Fixed Price Self-Tender Offers and Open-Market Repurchases," Journal of Finance 46, no. 4 (1991): 1243-1272; and T. Vermaelen, "Common Stock Repurchases and Market Signaling: An Empirical Study," Journal of Financial Economics 9, no. 2 (1981): 138-183.
 37 See B. Jiang and T. Koller, "Paying Back Your Shareholders," McKinsey on Finance, no. 39 (2011): 2-7.
 
-# EXHIBIT 33.12 Valuation Unrelated to Payout Level or Payout Mix
+## EXHIBIT 33.12 Valuation Unrelated to Payout Level or Payout Mix
 
 Median enterprise-value-to-EBITDA multiple,  ${}^{1}$  end of year 2007
 
@@ -8703,11 +8702,11 @@ EXHIBIT 33.14 Value Creation from Share Repurchases vs. Alternatives for Cash De
 
 When a company then decides to pay out cash to shareholders, there are some good reasons to use share repurchases. In contrast to dividend increases, repurchases offer companies more flexibility in adapting their payout to unexpected investment needs in a volatile economy. Share buyback programs are not seen as long-term commitments and can be adjusted without influencing investor expectations as much as adjustments to regular dividends would. In addition, they offer investors the flexibility to participate or not. For institutional investors, this means they can choose to uphold the amount invested in a stock—for example, because of a client mandate or because they are tracking an index—without having to reinvest dividends and incur any transaction costs. Finally, share buybacks can result in lower taxes than dividend payments for investors in countries where capital gains are taxed at lower rates. In some countries, individuals have the option to defer taxes on any capital gains and realize such gains in a more tax-efficient manner, potentially years later. Because of their flexibility, share repurchases are a very effective way to pay out any cash surpluses that exceed the level of regular dividends.
 
-# Extraordinary Dividends
+## Extraordinary Dividends
 
 As an alternative to share repurchases, a company could declare an extraordinary dividend payout, as Microsoft did in 2004 as part of its 75 billion, four-year cash return program. Microsoft paid out a significant portion in the form of an extraordinary dividend because of its concern that the share repurchase was so massive that it would swamp the liquidity in the market for Microsoft stock. The drawback of extraordinary dividends, compared with share repurchases, is that they offer no flexibility to shareholders and force the cash payout on all of them, regardless of their preferences for capital gains or dividends.
 
-# EQUITY FINANCING
+## EQUITY FINANCING
 
 If a company is facing a cash deficit and has already reached its long-term leverage target, it has little choice (other than selling noncore businesses, as discussed later in this chapter) but to raise equity or cut its dividends. As with all payout and financing decisions, this does not create or destroy value in itself. But raising equity and—especially—cutting dividends will send negative signals to investors.
 
@@ -8716,7 +8715,7 @@ As noted, companies are extremely reluctant to cut dividends to free up funds fo
 
 Issuing equity is also likely to lead to a short-term drop in share prices. Typically, share prices decline by around 3 percent on announcements of so-called seasoned equity offerings.[47] Because investors assume that managers have superior insights into the company's true business and financial outlook, they believe managers will issue equity only if a company's shares are overvalued in the stock market. Therefore, the share price will likely decrease in the short term on the announcement of an equity issuance, even if it is not actually overvalued. A similar price reaction can be expected for various equity-like instruments, such as preferred stock, convertibles, warrants, and more exotic hybrid forms of capital.
 
-# DEBT FINANCING
+## DEBT FINANCING
 
 In principle, the amount of debt that needs to be issued or redeemed follows from a company's actual and targeted capital structure. In contrast to equity financing, issuing or redeeming debt typically does not send strong signals to investors about the company's future cash flows.
 
@@ -8725,26 +8724,26 @@ When issuing debt, companies commit to fixed future interest payments that can b
 Redeeming debt does not meet with significant stock market reactions, either, unless the company is in financial distress. In that case, buying back bonds can send a positive signal to the equity markets. For distressed companies, bond prices go up and down with the enterprise value, just as share prices do. A bond buyback could therefore be a credible signal that management believes the bonds are undervalued (and because in this case bonds are similar to equity, this must also mean that shares are undervalued). For example, when the Swiss-Swedish engineering company ABB announced a €775 million bond buyback in July 2004, its share price increased 4 percent on the day of the announcement. The stock market apparently saw the buyback as further evidence that the company was on a trajectory to recover from an earlier financial crisis.
 
 
-# DIVESTITURES OF NONCORE BUSINESSES
+## DIVESTITURES OF NONCORE BUSINESSES
 
 As discussed in Chapter 28, companies should regularly monitor whether there are businesses in their portfolio for which they are no longer the best owner. Such businesses could generate more value in the hands of new owners—for example, because of a buyer's distinctive skills, better governance, superior insight and foresight, or strong synergies with their existing businesses. Ideally, portfolio monitoring should form an integral part of a cash deployment process where companies match investment needs across business with funding opportunities from debt, equity financing, and divestitures, also keeping in mind payouts to shareholders.
 
 In recent years, BP, General Electric, and other companies have divested more than 40 billion in noncore assets, restructuring their corporate portfolios as well as strengthening their balance sheets. Similarly, Royal Philips divested significant parts of its portfolio, such as its lighting business, freeing up cash for investments in organic growth and acquisitions in its core healthcare businesses. Such examples underline the importance of always considering divestitures in cash deployment because they form an important source of funds as well as value creation.
 
-# CREATING VALUE FROM FINANCIAL ENGINEERING
+## CREATING VALUE FROM FINANCIAL ENGINEERING
 
 Managing a company's capital structure with financial instruments beyond straight debt and equity—our definition of financial engineering—typically involves complex and sometimes even exotic instruments such as synthetic leasing, mezzanine finance, securitization, commodity-linked debt, commodity and currency derivatives, and balance sheet insurance. In general, capital markets do a good job of pricing even complex financial instruments, and companies will have difficulty boosting their share prices by accessing so-called cheap funding, no matter how complex the funding structures are. Nevertheless, financial engineering can create shareholder value under specific conditions, both directly (through tax savings or lower costs of funding) and indirectly (for example, by increasing a company's debt capacity so it can raise funds to capture more value-creating investment opportunities). However, such benefits need to outweigh any potential unintended consequences that inevitably arise with the complexity of financial engineering.
 
 
 This section considers three of the more common tools of financial engineering: derivative instruments that transfer company risks to third parties, off-balance-sheet financing that detaches funding from the company's credit risk, and hybrid financing that offers new risk/return financing combinations.
 
-# Derivative Instruments
+## Derivative Instruments
 
 With derivative instruments, such as forwards, swaps, and options, a company can transfer particular risks to third parties that can carry these risks at a lower cost. For example, many airlines hedge their fuel costs with derivatives to be less exposed to sudden changes in oil prices. Of course, this does not make airlines immune to prolonged periods of high oil prices, because the derivative positions must be renewed at some point. But derivatives at least give the airlines some time to prepare business measures such as cost cuts or price increases.
 
 Derivatives are not relevant to all companies, and there are many examples where the complexity around the use of derivatives has been badly managed.[49] In general, derivatives are useful tools for financial managers when risks are clearly identified, derivative contracts are available at reasonable prices because of liquid markets, and the total risk exposures are so large that they could seriously harm a corporation's health.
 
-# Off-Balance-Sheet Financing
+## Off-Balance-Sheet Financing
 
 A wide range of instruments fall under the umbrella of off-balance-sheet financing. These include, for example, real estate investment trusts (REITs), securitization, project finance, synthetic leases, and operating leases. Although the variety of these instruments is huge, they have a common element: companies effectively raise debt funding without carrying all the debt on their own balance sheets. Although they are still referred to as off-balance-sheet financing, new standards for U.S. Generally Accepted Accounting Principles (U.S. GAAP) and International Financial Reporting Standards (IFRS) require that most of these instruments be recognized in the balance sheet, as is also the case since 2019 for operating leases and rentals.
 
@@ -8760,7 +8759,7 @@ Other successful examples include the use of project financing for building and 
 Some managers find off-balance-sheet financing more attractive because it reduces the amount of assets shown on the balance sheet and increases the reported return on assets. That is not a good reason to do it. Investors will see through accounting representations, as discussed in Chapter 7. Furthermore, as already mentioned, following the latest U.S. and international accounting standards, operating leases and special-purpose entities for off-balance-sheet financing need to be fully recognized on the balance sheet.
 
 
-# Hybrid Financing
+## Hybrid Financing
 
 Hybrid financing involves forms of funding that share some elements of both equity and debt. Examples are convertible debt, convertible preferred stock, and callable perpetual debt. In particular, issuance of convertible debt has seen strong growth over the past decades, and the amount of convertible debt outstanding surpassed €400 billion in 2014.[52]
 
@@ -8771,11 +8770,11 @@ Do not issue convertible debt just because it has a low coupon. The coupon is lo
 52 Bank for International Settlements, BIS Quarterly Review, September 2014.
 53 See M. Brennan and E. Schwartz, "The Case for Convertibles," Journal of Applied Corporate Finance 1, no. 2 (1988): 55-64.
 
-# SUMMARY
+## SUMMARY
 
 Although a poorly managed capital structure can lead to financial distress and value destruction, capital structure is not a key value driver. For companies whose leverage is already at reasonable levels, the potential to add value is limited, especially relative to the impact of improvements in returns on invested capital and growth. Managers should refrain from fine-tuning for the optimal capital structure and from simply giving in to any shareholder demands for higher payouts. Instead, they should make sure capital structure and payout decisions are integral parts of a cash deployment that ensures the company has enough financial flexibility to support its strategy while at the same time minimizing the risk of financial distress.
 
-# Investor Communications*
+## Investor Communications*
 
 The value of investor communications is a subject of considerable controversy. Some executives, practitioners, and academics argue that actively handling relations with investors is a waste of management time and has no effect on a company's share price. Others have unrealistic expectations, assuming that you can talk up your company's stock and, if your investor relations staff is really sharp, it can tell you why the share price went down by 1.2 percent yesterday.
 
@@ -8786,7 +8785,7 @@ The point of good investor communications is to build relationships with the rig
 This chapter also deals with two questions linked to investor communications. First, should companies provide earnings guidance? There is no evidence that companies benefit from the practice. Similarly, should companies be concerned about meeting or beating consensus earnings forecasts? Again, the evidence shows that performance—return on invested capital (ROIC) and growth—is more important than whether a company meets the consensus earnings forecast.
 
 
-# OBJECTIVES OF INVESTOR COMMUNICATIONS
+## OBJECTIVES OF INVESTOR COMMUNICATIONS
 
 Good investor communications must be founded on the right objectives. Achieving the highest-possible share price is not one of them. Instead, the overriding objective of investor communications should be to align a company's share price with management's perspective on the intrinsic value of the company.
 
@@ -8796,7 +8795,7 @@ A second objective of investor communications is to develop support from a group
 
 A final objective is to learn what your investors like and don't like about your company as an investment. Here it is important to focus on the sophisticated longer-term investors who own your shares or investors who follow you but don't own your shares. Investors have many different investing strategies. Some will be focused on the short term. It is important to separate the concerns of the shorter-term investors from those of the long-term investors. You probably can't please them all, so priority should be given to the views of longer-term investors. These investors can also be a source of intelligence about your customers, competitors, and suppliers. The best investors will be talking regularly with these groups and may give senior management information that is more objective than the results of the company's own research efforts.
 
-# INTRINSIC VALUE vs. MARKET VALUE
+## INTRINSIC VALUE vs. MARKET VALUE
 
 Senior executives often claim that the stock market undervalue or "doesn't appreciate" their company. They say this not just in public, where you would expect them to, but also in private. They truly believe that if only they had different investors, or if only the investors or analysts understood their company better, the company's share price would be higher. Yet often these senior executives have not performed an objective outside-in valuation of their company, viewing it through the lens of a sophisticated investor. Their optimistic belief is based on a superficial comparison of price-to-earnings ratios (P/Es) or a stray comment by an analyst that the shares are undervalued.
 
@@ -8814,7 +8813,7 @@ EXHIBIT 34.1 Fashion Co.: Valuation in Line with Close Peers
 
 Next, we reverse engineered the share price of Fashion Co. and its peers by building a discounted-cash-flow (DCF) model for each company and estimating what levels of future performance would be consistent with the current share price. We found that if Fashion Co. increased its revenues at 2 percent per year and maintained its most recent level of margins and capital turnover, its DCF value would equal its current share price. This growth rate was in line with the implicit growth of its closest peers and lower than the companies in the fast-growing segment.
 
-# WHICH INVESTORS MATTER?
+## WHICH INVESTORS MATTER?
 
 Does it matter who your investors are? It is not clear whether one investor base is better than another in the sense of helping to align the share price with a company's intrinsic value. But understanding a company's investor base can give managers insights that might help them anticipate how the market will react to important events and strategic actions, as well as help managers improve the effectiveness and efficiency of their investor relations activities.
 
@@ -8824,7 +8823,7 @@ That said, we do not get much help from the common approaches to understanding i
 
 Many executives mistakenly believe they can increase their share price (and valuation multiple) by better marketing their shares to growth investors, because growth investors tend to own shares with higher valuation multiples. But the causality runs in reverse: in our analysis of companies whose stock prices have recently increased enough to shift them from the value classification to the growth classification, what precipitated the rise in their market value was clearly not an influx of growth investors. Rather, growth investors responded to higher multiples, moving into the stock only after the share price had already risen.
 
-# Investor Segmentation by Strategy
+## Investor Segmentation by Strategy
 
 A more useful way to categorize and understand investors is to classify them by their investment strategy. Do they develop a view on the value of a company, or do they look for short-term price movements? Do they conduct extensive research and make a few big bets, or do they make lots of small bets with less information? Do they build their portfolios from the bottom up, or do they mirror an index?
 
@@ -8850,7 +8849,7 @@ The extent to which an investment fund might be considered a closet indexer is n
  For more on closet index funds, see M. Cremers and A. Petajisto, "How Active Is Your Fund Manager? A New Measure That Predicts Performance" (paper presented at American Finance Association 2007 Chicago Meetings, January 15, 2007); and E. Khusainova and J. Mier, *Taking a Closer Look at Active Share*, Lazard Asset Management, September 2017, www.lazardassetmanagement.com.
 A. Petajisto, "Active Share and Mutual Fund Performance," December 2010, available at SSRN: http://ssrn.com/abstract=1685942 or http://dx.doi.org/10.2139/ssrn.1685942.
 
-# Targeting Communications by Segment
+## Targeting Communications by Segment
 
 Which of these investors matter most for the stock price? Analyzing the trading behavior of all four investor groups in more detail, we find support for the idea that intrinsic investors are the ultimate drivers of share prices over the long term.
 
@@ -8877,11 +8876,11 @@ Of course, CEOs and CFOs can't ignore the sell-side analysts, whose role has cha
 
 This said, there are often one to three sell-side analysts with deep understanding of the industry dynamics and the company's strategies, opportunities, and risks. These sell-side analysts resemble intrinsic investors in their approach. The logical way to treat sell-side analysts is to segment them into those whose interests and approach tend to mimic trading investors and those whose approach mimics intrinsic investors, and then to pay more attention to the latter segment.
 
-# COMMUNICATING WITH INTRINSIC INVESTORS
+## COMMUNICATING WITH INTRINSIC INVESTORS
 
 Intrinsic investors are sophisticated and have spent considerable effort to understand your business. They want transparency about results, management's candid assessment of the company's performance, and insightful guidance about the company's targets and strategies. Their role in determining stock prices makes it worth management's time to address intrinsic investors' desire for clear, well-informed communication.
 
-# What Investors Want
+## What Investors Want
 
 In 2015, McKinsey and the Aspen Institute Business and Society Program surveyed and interviewed intrinsic investors to find out what was important to them. One highlight from the survey was intrinsic investors' overwhelming support of companies' efforts to pursue long-term value, even at the expense of short-term earnings. A second highlight was that intrinsic investors expressed a desire for managers to provide what the investors called education about companies' strategies and the dynamics of their industries.
 
@@ -8893,7 +8892,7 @@ Intrinsic investors expressed this as a desire for what they called education. O
 
 Investors also said they want to learn how CEOs make decisions, whether a company's approach is aligned with long-term value creation, and whether the whole management team is singing from the same song sheet. This is not surprising, given that 23 out of 24 long-term investors taking the survey identified management credibility as one of the most important factors to consider in making investments. Management credibility includes both clarity of decision making and openness when not everything goes well. One investor put it this way: "There are always bumps in the road. You earn trust and respect by not trying to sugarcoat. That doesn't mean the stock price won't go down. But it will mean the recovery will be better because investors will have more confidence in managers who are level-headed and matter-of-fact." Said another investor, "I get them to talk about something other than what's in their pitch book. I want to know how they think. For example, what's their rationale for a particular decision that will increase value?" Another common theme, which is supported by research in behavioral psychology, is that managers would do well to ensure that the long term and its context are part of every investor engagement, especially when talking about short-term results. This approach starts with the long term as the wide lens on a business and then zooms in on the details as needed. As one investor said, "It's all about the horizon. Long-term investors don't need a lot of detailed guidance about quarterly numbers. They need clarity, consistency, and transparency from managers in communicating strategic priorities and their long-term expectations."
 
-# Benefits of Transparency
+## Benefits of Transparency
 
 Many companies are reluctant to provide a detailed discussion of results, issues, and opportunities. Their rationale is that this kind of disclosure reduces their flexibility to manage reported profits or will reveal sensitive information to competitors. In our experience, however, a company's competitors, customers, and suppliers already know more about any business than its managers might expect. For example, there's a cottage industry of photographers dedicated to searching for and publicizing new car models that automotive manufacturers have not yet formally acknowledged. In addition, a company's competitors will be talking regularly to the company's customers and suppliers, who won't hesitate to share information about the company whenever that's in their interest. Therefore, revealing details about yourself is unlikely to affect your company as adversely as you might expect. Managers should keep that in mind as they assess the competitive costs and benefits of greater transparency.
 
@@ -8925,7 +8924,7 @@ Legislation and accounting rules have been requiring ever-greater transparency. 
 
 In most industries, however, the level of disclosure and transparency has been less standardized, so management must choose how transparent it wants to be. In these cases, managers are too often cowed by fears that a detailed discussion of the issues and opportunities facing their company will reveal sensitive information to competitors or make it harder to put the best gloss on their results. One large global electronics company, for example, reports gross margins for both its product and services businesses. But nowhere does it provide operating margins for the different units—information that is crucial to helping investors value businesses with differing levels of expenditure on R&D and selling, general, and administrative costs. In another case, a U.S. media conglomerate provides detailed information by business unit on the income statement but leaves it to investors to sort out the balance sheet by business unit. Failing to report such information often gives investors the impression that management is trying to obscure some underlying performance issues.
 
-# LISTENING TO INVESTORS
+## LISTENING TO INVESTORS
 
 The final element of effective investor communications is listening to investors. Listening to gain competitive intelligence is, of course, a no-lose proposition. But to what extent should executives be influenced by investors' opinions about what strategies the company should pursue (expressed either as opinions or by the nature of the questions the investors ask), particularly when those opinions run counter to what the senior executives believe is the best strategy for creating long-term value?
 
@@ -8933,11 +8932,11 @@ The answer lies again in the segmentation of the investors and the interpretatio
 
 In the end, though, executives have more information than investors about their company, its capabilities, opportunities, and threats. They need to be confident about their strategic choices and convey that confidence to investors. You can't expect to please all investors. You must do what's right for long-term value creation.
 
-# EARNINGS GUIDANCE
+## EARNINGS GUIDANCE
 
 Many executives view the ritual of issuing guidance on their likely earnings per share (EPS) in the next quarter or year as a necessary, if sometimes onerous, part of communicating with financial markets. In a survey, we found that they saw three primary benefits of issuing earnings guidance: higher valuations, lower share price volatility, and improved liquidity. Yet several analyses found no evidence that those expected benefits materialize.[8] Therefore, instead of EPS guidance, we believe executives should provide investors with the broader operational measures shaping company performance, such as volume targets, revenue targets, and initiatives to reduce costs.
 
-# No Payoff for Earnings Guidance
+## No Payoff for Earnings Guidance
 
 It's a myth that quarterly EPS guidance is necessary and that almost everyone does it. In 2002, Coca-Cola became one of the earliest large companies to stop issuing guidance. Its executives had concluded that providing short-term guidance prevented management from concentrating on strategic initiatives to build its businesses over the long term. Gary Fayard, CFO at that time, believed that, rather than indicating weak earnings, the move signaled a renewed focus on long-term goals. The market seemed to agree and did not react negatively: Coke's share price held steady.[9] Since then, many other companies have stopped providing guidance entirely or have shifted the focus of their guidance away from EPS and toward broader indicators of performance. In fact, in 2016, only 28 percent of S&P 500 companies provided quarterly EPS guidance, while 31 percent gave only annual guidance. Forty-one percent gave no EPS guidance.[10] In Europe, the share of companies providing EPS guidance is much lower: only 4 percent of the Eurostoxx 300.
 
@@ -8953,7 +8952,7 @@ When we asked executives about ceasing earnings guidance, many feared that their
 Our conclusion was that issuing guidance offers companies and investors no real benefits. On the contrary, it can trigger real costs and unfortunate unintended consequences. The difficulty of predicting earnings accurately, for example, frequently causes management teams to endure the painful experience of missing quarterly forecasts. That, in turn, can be a powerful incentive for management to focus excessive attention on the short term, at the expense of longer-term investments, and to manage earnings inappropriately from quarter to quarter to create the illusion of stability. Moreover, our research with intrinsic investors indicates that they realize that earnings are inherently unpredictable. Consequently, they prefer that companies not issue quarterly EPS guidance. Only 20 percent of intrinsic investors surveyed by McKinsey and the Aspen Institute said they would see a company's announced intention to discontinue earnings guidance one year from the announcement as a "yellow flag."13 In a survey by the Rivel Research Group's Intelligence Council, just 7 percent of investors said that they want companies to offer guidance on any metrics at all (financial and operational) for periods less than one year.14
 
 
-# An Alternative to Earnings Guidance
+## An Alternative to Earnings Guidance
 
 As an alternative, we believe executives will gain advantages from providing guidance on the real short-, medium-, and long-term value drivers of their businesses, providing ranges rather than point estimates. For example, some companies provide target ranges for returns on capital. Other companies provide a range of possibilities for revenue growth under a variety of assumptions about inflation, and they discuss the growth of individual business units when that matters. Some companies also provide information on value drivers that can help investors assess the sustainability of growth. Humana, for example, provides guidance on estimated membership in its health plans, including plans whose membership the company expects will decline.
 
@@ -8962,7 +8961,7 @@ The value drivers a business chooses to publicize will depend on the unique char
 Ideally, a company would provide the kind of information that would help investors make their own projections of the company's performance based on their assessment of external factors. For example, in resource industries, prices are volatile for extracted commodities such as gold, copper, or oil. For such companies, a management team's view on future prices is not necessarily better than that of their investors. Investors would therefore find production targets more useful than revenue targets in these industries. Similarly, exchange rates are unpredictable, yet they can affect the profits of multinationals by 5 percent or more in a given year. Companies should therefore avoid predicting exchange rates and locking them into EPS targets. Rather, they should discuss their targets at constant currency rates. This would give investors a much clearer picture of expected performance.
 
 
-# MEETING CONSENSUS EARNINGS FORECASTS
+## MEETING CONSENSUS EARNINGS FORECASTS
 
 Whether or not a company provides guidance, there will be an analyst consensus earnings forecast to meet or beat.[15] The conventional wisdom, mistaken though it is, is that missing the consensus earnings forecast, even by a small amount, means that your share price will drop. A striking example: in early 2005, when eBay reported that it had missed the fourth-quarter 2004 consensus estimate by just one penny, its share price plunged 22 percent. Conversely, many executives believe that consistently beating the consensus leads to a premium share price. Thus, a common reason given for choosing to provide earnings guidance is to influence the consensus.
 
@@ -8973,7 +8972,7 @@ Yet our analysis of large U.S. companies shows that these fears are unfounded.[1
 This doesn't mean that companies should ignore consensus estimates, which can hint at what is on investors' minds and why. For example, how does the industry growth outlook of investors compare with that of executives? The consensus can also be used to assess how well analysts and investors understand the drivers of a company's performance. Our findings demonstrate that when investors are valuing a company, they consider more indicators of financial health than just whether the company meets its consensus earnings estimates. Thus, companies need not go to extremes to meet or beat analysts' expectations if it means damaging the long-term prospects of the company.
 
 
-# When Companies Fall Short
+## When Companies Fall Short
 
 Most executives haven't personally experienced many catastrophic drops in share price after minor earnings misses, so they conclude that such misses are rare. The mechanics of earnings estimates lend some support to that perception. After all, analysts' estimates typically are overly optimistic at the beginning of the financial year, but by the third quarter, it's reasonable to expect them to fall roughly in line with the eventual reported earnings—a pattern borne out by previous research.[18] According to standard practice, a company has beaten the consensus estimate if its actual earnings are greater than the last available estimate for the year (almost always projected after the year is over). Consequently, one would expect analyst estimates at that stage to be accurate. Moreover, executives tend to focus on dramatic press accounts of earnings mishaps that are among the most extreme outliers, as in the eBay example where barely missing the consensus forecast led to a sharp drop in share prices.
 
@@ -8982,7 +8981,7 @@ In fact, falling short is common, and the effect is benign. More than 40 percent
 Executives concerned about their company's performance relative to consensus estimates should also consider that 40 percent of companies that saw their earnings miss the consensus estimate also saw their share price, adjusted for the market, move in the opposite direction. For example, when PPG Industries, a global supplier of paints, coatings, and chemicals, announced earnings for 2010 that were 4 percent below the consensus, the market reacted positively with an excess return of 7 percent. Why? On digging deeper, investors saw that the long-term outlook had improved. Sales were stronger than expected in nearly all business segments. The CEO also announced some investment initiatives that investors viewed as having the potential to create value in the longer term.
 
 
-# When Companies Meet or Beat the Consensus Forecast
+## When Companies Meet or Beat the Consensus Forecast
 
 Similarly, meeting or exceeding the consensus estimate is less important than how the earnings were reached. That's because investors are continually assessing other news, such as whether the company met the consensus estimate for revenues as well as earnings. When North American brewing company Molson Coors beat the consensus estimate by 2 percent in 2010, the market nevertheless reacted negatively, with an excess return of  $-7$  percent. Investors saw that the company's sales volume had declined by 2 percent and that margins also were down; the company beat the consensus only because of a lower-than-expected tax rate. The market reacted to the fundamental drivers of performance—volume and margin—rather than EPS itself.
 
@@ -9006,7 +9005,7 @@ Source: Standard & Poor's Capital IQ.
 
 Just as critical, the notion that markets reward companies with higher share prices when they consistently beat the earnings consensus turns out to be wrong. Here again, while some researchers have found this to be true, their analysis doesn't take into consideration the underlying performance of companies as measured by revenue growth and return on capital.[19] Once adjusted for performance, the apparent effect of beating the consensus consistently (which we define as four or more years out of seven) disappears. Companies with strong growth or ROIC had high shareholder returns regardless of whether they consistently beat the consensus. Only the companies that missed it consistently—again, in four years out of seven—showed a statistically significant negative effect from doing so (see Exhibit 34.6).
 
-# SUMMARY
+## SUMMARY
 
 The issues surrounding investor communications will remain unresolved for some time. Traditionally, there have been two camps: those who believe you can talk up your share price and those who believe companies shouldn't spend much time or effort on investor communications at all, because it won't make any difference to their market value. Our view is, first, that investors can more accurately value a company if they have the right information and, second, that a market value aligned with the true value of your company is the best outcome of your investor communications strategy. Moreover, even if you do manage to talk up the stock in the short term, this is unlikely to be the best thing for the company in the long run.
 
@@ -9017,9 +9016,9 @@ Moreover, rather than providing precise earnings guidance or taking actions to a
 
 Part Five
 
-# Special Situations
+## Special Situations
 
-# Emerging Markets*
+## Emerging Markets*
 
 The world's emerging economies, home of 86 percent of the population, accounted for about 59 percent of global GDP in 2017 and are growing faster than the developed economies. As emerging markets become more important to the global economy and to investors, sound methods are needed for analyzing and valuing companies and business units in these markets.
 
@@ -9027,7 +9026,7 @@ Chapters 26 and 27 discussed general issues related to forecasting cash flows, e
 
 For accurate valuation of companies in emerging markets, we recommend using a scenario discounted-cash-flow (DCF) approach as described in Chapter 16 to prepare multiple cash flow scenarios reflecting the outcomes of different risks that a company could face. These scenarios are each discounted and then weighted by probabilities assigned to each. You can supplement this method by comparing the results with two secondary approaches: a DCF valuation with a country risk premium built into the cost of capital and a valuation based on the multiples of comparable companies.
 
-# WHY SCENARIO DCF IS MORE ACCURATE THAN RISK PREMIUMS
+## WHY SCENARIO DCF IS MORE ACCURATE THAN RISK PREMIUMS
 
 The most vigorously debated issue about valuing companies in emerging markets is whether to incorporate a country risk premium in the cost of capital. A common practice has been to add a country risk premium to the discount rate to account for the higher risks of operating in emerging markets.2 Often, the premium is based on the government's borrowing rate relative to a benchmark, such as the borrowing rates for the U.S. government.
 
@@ -9082,7 +9081,7 @@ Combined portfolio included additional countries not reflected here.
 
 Finally, most of us underestimate the impact that even a small country risk premium has on valuations, as we will show in the next section.
 
-# APPLYING THE SCENARIO DCF APPROACH
+## APPLYING THE SCENARIO DCF APPROACH
 
 The preceding analysis of the Brazilian cost of equity masks a wide variation in P/Es across the economy. That's where the scenario DCF approach proves its advantages; it allows you to assess the risk of each company based on company-specific risk factors. At a minimum, model two scenarios. The first should assume that cash flow develops according to conditions reflecting business as usual (i.e., without major economic distress). The second should reflect cash flows assuming that one or more emerging-market risks materialize.
 
@@ -9125,11 +9124,11 @@ In our example, we could simply reverse engineer the country risk premium, becau
 
 From an operational viewpoint, using scenarios forces managers to discuss emerging-market risks and their effect on cash flows, thereby gaining more insights than they would secure from an arbitrary addition to the discount rate. By identifying specific factors with a large impact on value, managers can plan to mitigate these risks.
 
-# ESTIMATING COST OF CAPITAL IN EMERGING MARKETS
+## ESTIMATING COST OF CAPITAL IN EMERGING MARKETS
 
 Calculating the cost of capital in any country can be challenging, but for emerging markets, the challenge is an order of magnitude greater. This section provides our fundamental assumptions, background on the important issues, and a practical way to estimate the components of the cost of capital.
 
-# General Guidelines
+## General Guidelines
 
 Our analysis adopts the perspective of a global investor—either a multinational company or a global investor with a diversified portfolio. Of course, some emerging markets are not yet well integrated with the global market. In China, for example, local investors may face barriers to investing outside their home market. As a result, local investors in such markets cannot always hold well-diversified portfolios, and their cost of capital may be considerably different from that of a global investor. Unfortunately, there is no established framework for estimating the capital cost for local investors. However, if the local stock market is fully integrated into the global markets (investors both in and out of the country can freely trade both locally and internationally), local prices will more likely be linked to an international cost of capital.
 
@@ -9143,7 +9142,7 @@ Given these assumptions, the cost of capital in emerging markets should generall
 - Allow for changes in cost of capital. The cost of capital in an emerging-market valuation may change, based on evolving inflation expectations, changes in a company's capital structure and cost of debt, or foreseeable reforms in the tax system. For example, in Argentina during the economic and monetary crisis of 2002, the short-term inflation rate was 30 percent. This could not have been a reasonable rate for a long-term cost of capital estimate, because such a crisis could not be expected to last forever. In such cases, estimate the cost of capital on a year-by-year basis, following the underlying set of basic monetary assumptions.
 - Don't mix approaches. Use the cost of capital to discount the cash flows in a scenario DCF approach. Do not add any risk premium, because you would then be double-counting risk. If you are discounting only future cash flows in a business-as-usual scenario, add a risk premium to the discount rate.
 
-# Estimating the Cost of Equity
+## Estimating the Cost of Equity
 
 To estimate the components of the cost of equity, use the approach described in Chapter 15, with the following considerations for the risk-free rate, market risk premium, and beta.
 
@@ -9155,17 +9154,17 @@ Sometimes practitioners calculate beta relative to the local market index. This 
 
 Excess returns of local equity markets over local bond returns are not a good proxy for the market risk premium. This holds even more so for emerging markets, given the lack of diversification in the local equity market. Furthermore, the quality and the length of available data on equity and bond market returns usually make such data unsuitable for long-term estimates. To use a market risk premium that is consistent with the perspective of a global investor, use a global estimate (as discussed in Chapter 15) of 4.5 to 5.5 percent.
 
-# Estimating the After-Tax Cost of Debt
+## Estimating the After-Tax Cost of Debt
 
 In most emerging economies, there are no liquid markets for corporate bonds, so little or no market information is available to estimate the cost of debt. However, from a global investor's perspective, the cost of debt in local currency should simply equal the sum of the dollar (or euro) risk-free rate, the systematic part of the credit spread (which depends on the debt's beta; see the section titled "Estimating the After-Tax Cost of Debt in Chapter 15), and the inflation differential between local currency and dollars (or euros). Most of the country risk can be diversified away in a global bond portfolio. Therefore, the systematic part of the default risk is probably no larger than that of companies in international markets, and the cost of debt should not include a separate country risk premium. Furthermore, companies in countries like Brazil often hold large amounts of cash to provide liquidity and minimize their net debt.
 
 The marginal tax rate in emerging markets can be very different from the effective tax rate, which often includes investment tax credits, export tax credits, taxes, equity or dividend credits, and operating loss credits. Few of these arrangements provide a tax shield on interest expense, and only those few should be incorporated in the after-tax-cost-of-debt component of the WACC. Other taxes or credits should be modeled directly in the cash flows.
 
-# Estimating Capital Structure and WACC
+## Estimating Capital Structure and WACC
 
 Having estimated the cost of equity and after-tax cost of debt, we need debt and equity weights to derive an estimate of the weighted average cost of capital. In emerging markets, many companies have unusual capital structures compared with their international peers. One reason is, of course, the country risk: the possibility of macroeconomic distress makes companies more conservative in setting their leverage. Another reason could be anomalies in the local debt or equity markets. In the long run, when the anomalies are corrected, the companies should expect to develop a capital structure similar to that of their global competitors. You could forecast explicitly how the company evolves to a capital structure that is more like global standards. In that case, you should consider using the adjusted-present-value (APV) approach, discussed in Chapter 10.
 
-# OTHER COMPLICATIONS IN VALUING EMERGING-MARKETS COMPANIES
+## OTHER COMPLICATIONS IN VALUING EMERGING-MARKETS COMPANIES
 
 Other complications that should be considered in valuing emerging-markets companies include consistent macroeconomic parameters, accounting differences, nonoperating assets, and inefficient capital markets.
 
@@ -9179,7 +9178,7 @@ Nonoperating assets remain a challenge, however. Companies in emerging markets�
 
 The capital markets in which emerging-markets companies trade may have inefficiencies. In many cases, these companies may have limited float because controlling shareholders may hold large stakes. The presence of controlling shareholders (often founding families) may also raise concerns about governance and whether there are potential conflicts between the interests of public shareholders and the controlling shareholders. This could lead to a lower share price than otherwise warranted. Some countries (particularly China and India) also have restrictions on investors, or the governments actively intervene in the markets, causing deviations in share prices from intrinsic values. For example, in China, Chinese citizens are not allowed to invest in shares outside the country, so the share prices of mainland Chinese companies can be disconnected from intrinsic value and the value of similar companies outside China. This could be caused by an imbalance of supply and demand for shares that cannot be corrected by arbitrage with other equity markets. Unlike most markets, the Chinese traded market is also dominated by retail investors (75 percent of holdings), roughly the reverse of the U.S. market, where institutional investors own most shares. Retail investors aren't as sophisticated and don't do as much research as institutional investors. They also tend to move in the same direction, leading to large swings in prices. Such market inefficiencies can make it difficult to reconcile DCF values with market values. Finally, companies in emerging markets often have complex corporate structures with voting and nonvoting shares. This often leads to a small group of investors controlling the company even though they own less than 50 percent. In some countries with weak governance, public market investors will discount the value of these companies if they don't believe the controlling shareholders make decisions in the interests of all shareholders.
 
-# TRIANGULATING VALUATION
+## TRIANGULATING VALUATION
 
 We recommend triangulating the results of the scenario DCF approach with a comparable multiples approach and DCF using a country risk premium. We'll illustrate with the example of a Brazilian retail company we'll call ConsuCo.
 
@@ -9209,11 +9208,11 @@ EXHIBIT 35.7 ConsuCo: Multiples Analysis vs. Peers reason for this gap lies in C
 
 If ConsuCo had had a lower-growth outlook, the country risk premium approach would have produced a valuation much closer to the valuation from the scenario approach. Note that irrespective of ConsuCo's cash flow profile, a risk premium of 3 to 5 percent (as is typically used in emerging markets) would have either resulted in unrealistically low valuations relative to current share price and peer group multiples or else required an unrealistically bullish forecast of future performance.
 
-# SUMMARY
+## SUMMARY
 
 To value companies in emerging markets, we use concepts similar to the ones applied to developed markets. However, it's necessary to incorporate into valuations the unique risks of emerging markets, such as macroeconomic or political crises, by following the scenario DCF approach. This approach develops alternative scenarios for future cash flows, discounts the cash flows at the cost of capital without a country risk premium, and then weights the DCF values by the scenario probabilities. The cost of capital estimates for emerging markets build on the assumption of a global risk-free rate, market risk premium, and beta, following guidelines similar to those used for developed markets. Since company values in emerging markets are often more volatile than values in developed markets, we recommend triangulating the scenario DCF results with two other valuations: one that is based on discounting cash flows developed in a business-as-usual projection but using a cost of capital that includes a country risk premium, and another that is based on multiples.
 
-# High-Growth Companies
+## High-Growth Companies
 
 Valuing high-growth companies is a challenge; some practitioners even describe it as hopeless. Yet we've found that the valuation principles in this book work well for coping with the great uncertainty that accompanies these rapid growers. The best way to value such companies is to start with a discounted-cash-flow (DCF) valuation and buttress it with economic fundamentals and probability-weighted scenarios.
 
@@ -9223,7 +9222,7 @@ This chapter details the differences in the order and emphasis of DCF valuation 
 
 Keep in mind that while scenario-based DCF techniques can help bound and quantify uncertainty, they will not make it disappear. High-growth companies have volatile stock prices for sound reasons.
 
-# A VALUATION PROCESS FOR HIGH-GROWTH COMPANIES
+## A VALUATION PROCESS FOR HIGH-GROWTH COMPANIES
 
 When valuing an established company, the first step is to analyze historical performance. But in the case of a high-growth company, historical financial results provide limited clues about future prospects. Therefore, begin with the future, not with the past. Focus on sizing the potential market, estimating the share of the market the company will capture, predicting the level of sustainable operating margin, and approximating the investments necessary to achieve scale. To make these estimates, choose a point well into the future at a time when the company's financial performance is likely to stabilize, and begin forecasting.
 
@@ -9231,7 +9230,7 @@ Once you have developed a long-term future view, work backward to link the futur
 
 Given the uncertainty associated with high-growth companies, do not rely on a single long-term forecast. Describe the market's development in terms of multiple scenarios, including total size, likely competitive structure, and so on. When you build a comprehensive scenario, be sure all forecasts, including revenue growth, profitability margins, and required investment, are consistent with the underlying assumptions of the particular scenario. Apply probabilistic weights to each scenario, using weights that are consistent with long-term historical evidence on corporate growth. As we saw during the dotcom bubble of the late 1990s, valuations that rely on unrealistic assessments can lead to overestimates of value, poor investment returns, and strategic errors.
 
-# Start from the Future
+## Start from the Future
 
 Begin by thinking about what the industry and company might look like as the company evolves from its current high-growth, uncertain condition to a state of sustainable, moderate growth in the future. Then interpolate back to current performance. The future state should be defined and bounded by measures of operating performance, such as customer penetration rates, average revenue per customer, and sustainable margins. Next, determine how long growth will continue at an elevated rate before it stabilizes to normal levels. Since most high-growth companies are start-ups, stable economics probably lie at least 10 to 15 years in the future.
 
@@ -9343,13 +9342,13 @@ Source: Farfetch F-1 filing and 2018 20-F filing; Cowen and Company estimates.
 
 For 2028, the exhibit shows a forecast operating profit margin of 18 percent, which we'll use in our scenario B. Later, we'll show a range of margin forecasts. We've also assumed that Farfetch's capital productivity is a hybrid of a marketplace and e-tailer in proportion to Farfetch's relative third-party versus first-party sales.
 
-# Work Backward to Current Performance
+## Work Backward to Current Performance
 
 After completing a forecast for total market size, market share, operating margin, and capital intensity, reconnect the long-term forecast to current performance. To do this, you must assess the speed of transition from current performance to future long-term performance. Estimates must be consistent with economic principles and industry characteristics. For instance, from the perspective of operating margin, how long will fixed costs dominate variable costs, resulting in low margins? Concerning capital turnover, what scale is required before revenues rise faster than capital? As scale is reached, will competition drive down prices? Often the questions outnumber the answers.
 
 To determine the speed of transition from current performance to target performance, examine the historical progression for similar companies. Unfortunately, analyzing historical financial performance for high-growth companies is often misleading, because long-term investments for high-growth companies tend to be intangible. Under current accounting rules, these investments must be expensed. Therefore, both early accounting profits and invested capital will be understated. With so little formal capital, many companies have unreasonably high ROICs as soon as they become profitable.
 
-# Develop Scenarios
+## Develop Scenarios
 
 A simple and straightforward way to deal with uncertainty associated with high-growth companies is to use probability-weighted scenarios. Developing even a few scenarios makes the critical assumptions and interactions more transparent than you will achieve with other modeling approaches, such as real options and Monte Carlo simulation.
 
@@ -9367,7 +9366,7 @@ optimistic forecast, but structural similarities between the online luxury and c
 
 Scenarios B through D follow a similar construct but vary key assumptions. In scenarios B and C, penetration rates reach only 30 percent, reflecting the desire among luxury goods buyers for a greater physical shopping experience than with other categories. Farfetch's market share reaches a healthy, but not overly aggressive, 8 percent and 5 percent, respectively. Margins are somewhat lower than the best e-tailers because of stronger supplier market power, in the range of 14 to 18 percent. Scenario D is characterized by sluggish growth in online penetration that more closely mirrors the home furnishings industry, a segment that is less conducive to electronic retail. In scenario D, by 2028, online penetration is 15 percent, and Farfetch achieves revenues of just 1.2 billion. Increased pressure from new entrants and more widespread omnichannel adoption by individual brands result in more moderate margin expansion, reaching only 6 percent, comparable to discount retailers.
 
-# Weight Scenarios
+## Weight Scenarios
 
 To derive current equity value for Farfetch, weight the intrinsic equity valuation from each scenario by its estimated likelihood of occurrence, and sum across the weighted scenarios. Exhibit 36.9 lists the intrinsic equity valuations and the probability of occurrence for each scenario. At a 10 percent probability for scenario A, 30 percent for scenario B, 35 percent for scenario C, and 25 percent for scenario D, Farfetch's equity value equals  \$6.1 billion and value per share at\$ 20, matching its 2018 IPO price. Whether this price is appropriate depends on your belief in the forecasts and their respective probabilities. Were they too optimistic, too pessimistic, or just right?
 
@@ -9375,7 +9374,7 @@ EXHIBIT 36.9 Farfetch: Probability-Weighted Expected Value
 
 <table><tr><td>Scenario</td><td>Intrinsic equity valuation, $ billion</td><td>×</td><td>Probability, \%</td><td>=</td><td>Contribution to equity valuation, $ billion</td></tr><tr><td>Scenario A</td><td>19.6</td><td></td><td>10</td><td></td><td>2.0</td></tr><tr><td>Scenario B</td><td>8.2</td><td></td><td>30</td><td></td><td>2.5</td></tr><tr><td>Scenario C</td><td>4.1</td><td></td><td>35</td><td></td><td>1.4</td></tr><tr><td>Scenario D</td><td>1.0</td><td></td><td>25</td><td></td><td>0.2</td></tr><tr><td></td><td></td><td></td><td>100</td><td></td><td>6.1</td></tr><tr><td></td><td></td><td colspan="2">Shares outstanding, millions</td><td></td><td>300.0</td></tr><tr><td></td><td></td><td colspan="2">Value per share, $</td><td></td><td>20</td></tr></table>
 
-# UNCERTAINTY IS HERE TO STAY
+## UNCERTAINTY IS HERE TO STAY
 
 By adapting the DCF approach, it is possible to generate reasonable valuations for dramatically changing businesses. But investors and companies entering fast-growth markets like those related to new technologies and complex business ecosystems still face huge uncertainties. To see why, look at what could happen under our four scenarios to an investor who holds a share of Farfetch stock for five years after buying it in 2018 for 20. To facilitate the calculation, we assume the investor gradually learns about the most likely scenario.
 
@@ -9407,17 +9406,17 @@ The results come from Corporate Performance Analytics by McKinsey, which relies 
 
 will win big, while the vast majority will toil away in obscurity. It is difficult to predict which companies will prosper and which will not. Neither investors nor companies can eliminate this uncertainty; that is why advisers tell investors to diversify their portfolios, and why companies do not pay cash when acquiring young, high-growth firms.
 
-# SUMMARY
+## SUMMARY
 
 The emergence of Internet, mobile, and other technology companies has created impressive value for some high-growth enterprises. It has also raised questions about the sanity of a stock market that at times has appeared to assign higher value to companies the more their losses mounted. But as this chapter demonstrates, the DCF approach remains an essential tool for understanding the value of high-growth companies. You must adapt your approach when valuing these companies: start from the future rather than the present when making your forecast, think in terms of scenarios, and compare the economics of the business model with peers. Though you cannot reduce the volatility of these companies, you can at least understand it.
 
-# Cyclical Companies
+## Cyclical Companies
 
 A cyclical company is one whose earnings demonstrate a repeating pattern of significant increases and decreases. The earnings of cyclical companies, including those in the steel, airline, paper, and chemical industries, fluctuate because the prices of their products change dramatically as demand and/or supply varies. The companies themselves often create too much capacity. Volatile earnings within the cycle introduce additional complexity into the valuation of these cyclical companies. For example, historical performance must be assessed in the context of the cycle. A decline in recent performance does not necessarily indicate a long-term negative trend, but rather may signal a shift to a different part of the cycle.
 
 This chapter explores the valuation issues particular to cyclical companies. It starts with an examination of how the share prices of cyclical companies behave. This leads to a suggested approach for valuing these companies, as well as possible implications for managers.
 
-# SHARE PRICE BEHAVIOR
+## SHARE PRICE BEHAVIOR
 
 Suppose you were using the discounted-cash-flow (DCF) approach to value a cyclical company and had perfect foresight about the industry cycle. Would the company's value and earnings behave similarly? No. A succession of DCF values would exhibit much lower volatility than the earnings or cash flows. DCF reduces future expected cash flows to a single value. As a result, any single year is unimportant. For a cyclical company, the high cash flows cancel out the low cash flows. Only the long-term trend really matters.
 
@@ -9471,7 +9470,7 @@ Exhibit 37.5 summarizes the results, comparing them with actual share prices. As
 
 EXHIBIT 37.5 Market Values of Cyclical Companies: Forecasts with Three Levels of Foresight market has neither perfect foresight nor zero foresight. One could argue that this 50/50 valuation is the right place for the market to be.
 
-# AN APPROACH TO VALUING CYCLICAL COMPANIES
+## AN APPROACH TO VALUING CYCLICAL COMPANIES
 
 No one can precisely predict the earnings cycle for an industry, and any single forecast of performance must be wrong. Managers and investors can benefit from following explicitly the multiple-scenario probabilistic approach to valuing cyclical companies, similar to the approach used in Chapter 16 and the high-growth-company valuation in Chapter 36. The probabilistic approach avoids the traps of a single forecast and allows exploration of a wider range of outcomes and their implications.
 
@@ -9494,7 +9493,7 @@ EXHIBIT 37.6 ROIC and Investment Rate: Commodity Chemicals, 1980-2013
 
 would subtract the cost of purchasing natural gas (volume times natural-gas prices) and operating costs to estimate operating profits. It may be simpler, however, to model only volumes and the "crack spread"—the difference between polyethylene prices and the cost of natural gas—and then subtract operating costs. What ultimately matters is the crack spread, not the revenues. The crack spread will often be set by the demand-supply balance for polyethylene, not the level of natural-gas prices. For example, during a decline in natural-gas prices, the crack spread might remain constant as producers pass on the lower natural-gas prices to customers by lowering polyethylene prices. If volumes were stable, so would be operating profits, despite a decline in revenues.
 
-# IMPLICATIONS FOR MANAGING CYCLICAL COMPANIES
+## IMPLICATIONS FOR MANAGING CYCLICAL COMPANIES
 
 Is there anything managers can do to reduce or take advantage of the cyclicality of their industry? Evidence suggests that, in many cyclical industries, the companies themselves are what drive cyclicality. Exhibit 37.6 shows the ROIC and net investment in commodity chemicals from 1980 to 2013. The chart shows that, collectively, commodity chemical companies invest large amounts when prices and returns are high. But since capacity comes on line in very large chunks, utilization plunges, and this places downward pressure on price and ROIC. The cyclical investment in capacity is the driver of the cyclical profitability. Fluctuations in demand from customers do not cause cyclicality in profits. Producer supply does.
 
@@ -9510,11 +9509,11 @@ How could managers exploit their superior knowledge of the cycle? The most obvio
 
 Can companies really behave this way and invest against the cycle? It is actually very difficult for a company to take the contrarian view. The CEO must convince the board and the company's bankers to expand when the industry outlook is gloomy and competitors are retrenching. In addition, the CEO has to hold back while competitors build at the top of the cycle. Breaking out of the cycle may be possible, but it is the rare CEO who can do it.
 
-# SUMMARY
+## SUMMARY
 
 At first glance, the share prices of cyclical companies appear too volatile to be consistent with the DCF valuation approach. This chapter shows, however, that share price volatility can be explained by the uncertainty surrounding the industry cycle. Using scenarios and probabilities, managers and investors can take a systematic DCF approach to valuing and analyzing cyclical companies.
 
-# Banks
+## Banks
 
 Banks are among the most complex businesses to value, especially from the outside in. Published accounts give an overview of a bank's financial performance but often lack vital information about its underlying economics, such as the extent of its credit losses or any mismatch between its assets and liabilities. Moreover, banks are highly levered, making bank valuations even more contingent on changing economic circumstances than are valuations in other sectors. Finally, most banks are in fact multibusiness companies, requiring separate analysis and valuation of their key business segments. So-called universal banks today engage in a wide range of businesses, including retail and wholesale banking, investment banking, and asset management.
 
@@ -9522,7 +9521,7 @@ In the view of some academics, managers, and regulators, the size, complexity, a
 
 This chapter provides a general overview of how to value banks and highlights some of the most common valuation challenges peculiar to the sector. First, it discusses the economic fundamentals of banking and trends in performance and growth, and then it describes how to use the equity cash flow approach for valuing banks, using a hypothetical, simplified example. It concludes by offering some practical recommendations for valuing universal banks in all their real-world complexity.
 
-# ECONOMICS OF BANKING
+## ECONOMICS OF BANKING
 
 After years of strong profitability and growth in the U.S. and European banking sectors, the crisis in the mortgage-backed securities market in 2007 sent many large banks spiraling into financial distress. Many large institutions on either side of the Atlantic went bankrupt or were kept afloat with costly government bailouts. The fallout in the real economy from what was originally a crisis in the banking sector ultimately curtailed growth in almost all sectors around the globe, bringing economic growth to a halt worldwide in 2008.
 
@@ -9532,17 +9531,17 @@ The credit crisis demonstrates the extent to which the banking industry is both 
 
 Universal banks may engage in any or all of a wide variety of business activities, including lending and borrowing, underwriting and placement of securities, payment services, asset management, proprietary trading, and brokerage. For the purpose of financial analysis and valuation, we group these activities according to the three types of income they generate for a bank: net interest income, fee and commission income, and trading income. "Other income" forms a fourth and generally smaller residual category of income from activities unrelated to the main banking businesses.
 
-# Net Interest Income
+## Net Interest Income
 
 In their traditional role, banks act as intermediaries between parties with funding surpluses and those with deficits. They attract funds in the form of customer deposits and debt to provide funds to customers in the form of loans such as mortgages, credit card loans, and corporate loans. The difference between the interest income a bank earns from lending and the interest expense it pays to borrow funds is its net interest income. For the regional retail banks in the United States and retail-focused universal banks such as Banco Santander and ING Group, net interest income is typically the biggest component of total net revenues.
 
 As we discuss later in this chapter, it is important to understand that not all of a bank's net interest income creates value. Most banks have a maturity mismatch as a result of using short-term deposits as funding to back long-term loans and mortgages. In this case, the bank earns income from holding positions on different parts of the yield curve. Typically, deposits are a low-cost and predictable form of funding, so that borrowing for the short term costs a bank less than what it can earn from long-term lending. Yet it is unclear whether all of this income represents value creation. For example, the true value created from lending is measured by the difference between the rate that banks receive on their outstanding loans and their returns in the financial markets on loans with the same maturity (see the section on economic-spread analysis later in this chapter).
 
-# Fee and Commission Income
+## Fee and Commission Income
 
 For services such as transaction advisory, underwriting and placement of securities, managing investment assets, securities brokerage, and many others, banks typically charge their customers a fee or commission. For investment banks (like Morgan Stanley and Goldman Sachs), such commissions and fees typically make up around half of total net revenues and around one-third or more for universal banks with large investment-banking activities (among them HSBC and Bank of America). Fee income is usually easier to understand than net interest income, as it is independent of financing. However, some forms of fee income are highly cyclical; examples include fees from underwriting and transaction advisory services.
 
-# Trading Income
+## Trading Income
 
 Over the past 30 years, proprietary trading emerged as a third main category of income for the banking sector as a whole. This can involve not only a wide variety of instruments traded on exchanges and over the counter, such as equity stocks, bonds, and foreign exchange, but also more exotic products, such as credit default swaps and asset-backed debt obligations, traded mostly over the counter.
 
@@ -9562,7 +9561,7 @@ Source: Bloomberg, Compustat, Datastream, CapitallQ.
 
 banks from engaging in proprietary trading for their own profit. $^3$  This resulted in steeply lower overall trading income, as the law permits only trading related to serving the bank's customers. In Europe, restrictions on trading activities also were adopted—for example, through the 2017 Markets in Financial Instruments Directive II (MiFID II). Trading income for European banks has sharply declined since 2008.
 
-# Other Income
+## Other Income
 
 Some banks also generate income from a range of nonbanking activities, including real estate development, minority investments in industrial companies, and distribution of investment, insurance, and pension products and services for third parties. Typically, these activities make only small contributions to overall income and are unrelated to the bank's main banking activities.
 
@@ -9580,7 +9579,7 @@ EXHIBIT 38.2 Increased Cyclicality in Banking
 
 ${}^{2}$  EU banks: For 1980-2007, based on aggregate financials and valuation of 113 EU banks, of which 109 were active in 2007. For 2008-2013, based on a sample of 211 EU banks active in 2013. For 2014-2018, based on a sample of largest 80 EU banks active in 2014. Book value excludes goodwill.
 
-# PRINCIPLES OF BANK VALUATION
+## PRINCIPLES OF BANK VALUATION
 
 Throughout most of this book, we apply the enterprise discounted-cash-flow (DCF) approach to valuation. Discounting free cash flows is the appropriate approach for nonfinancial companies, where operating decisions and financing decisions are separate. For banks, however, we cannot value operations separately from interest income and expense, since these are the main categories of a bank's core operations. It is necessary to value the cash flow to equity, which includes both the operational and financial cash flows. For valuation of banks, we therefore recommend the equity DCF method. To understand the principles of the equity DCF method, let's explore a stylized example of a retail bank. ABC Bank attracts customer deposits to provide funds for loans and mortgages to other customers. ABC's historical balance sheet, income statement, and key financial indicators are shown in Exhibit 38.3.
 
@@ -9623,7 +9622,7 @@ EXHIBIT 38.4 ABC Bank: Historical Cash Flow to Equity
 
 Another way to calculate equity cash flow is to sum all cash paid to or received from shareholders, including cash changing hands as dividends, through share repurchases, and through new share issuances. Both calculations arrive at the same result. Note that equity cash flow is not the same as dividends paid out to shareholders, because share buybacks and issuance can also form a significant part of cash flow to and from equity.
 
-# Analyzing and Forecasting Equity Cash Flows
+## Analyzing and Forecasting Equity Cash Flows
 
 The generic value driver tree for a retail bank, shown in Exhibit 38.5, is conceptually the same as one for an industrial company. Following the tree's branches, we analyze ABC's historical performance as laid out in Exhibit 38.3.
 
@@ -9636,7 +9635,7 @@ Higher regulatory requirements for equity risk capital forced ABC to double its 
 
 Exhibit 38.6 shows the financial forecasts for ABC Bank, assuming its loan portfolio growth rate increases to 4.5 percent in the short term and settles at 3.5 percent in perpetuity. Interest rates on loans and deposits are expected to decrease to 6.1 and 3.9 percent, respectively. Operating expenses will decline to 43 percent of net interest income. As a result, ABC's return on equity increases somewhat to 12.8 percent in 2021 and stays at that level in perpetuity. Note that a mere one-percentage-point increase in interest rates on loans would translate into a change in return on equity of around 12 percentage points, a function of ABC's high leverage (equity capital at 8 percent of total assets).
 
-# Discounting Equity Cash Flows
+## Discounting Equity Cash Flows
 
 To estimate the cost of equity,  $k_{\mathrm{e}}$ , for ABC Bank, we use a beta of 1.1 (based on the average beta for its banking peers), a long-term risk-free interest rate of 4.5 percent, and a market risk premium of 5 percent:
 
@@ -9675,7 +9674,7 @@ $$
 
 The calculation of the discounted value of ABC's cash flow to equity is presented in Exhibit 38.7. The present value of ABC's equity amounts to 134.2 million, which implies a market-to-book ratio for its equity of 1.4 and a price-to-earnings (P/E) ratio of 11.6. As for industrial companies, whenever possible you should triangulate your results with an analysis based on multiples (see Chapter 18). Note that the market-to-book ratio indicates that ABC is creating value over its book value of equity, which is consistent with a long-term return on equity of 12.8 percent (which is above the cost of equity of 10.0 percent).
 
-# Pitfalls of Equity DCF Valuation
+## Pitfalls of Equity DCF Valuation
 
 The equity DCF approach as illustrated here is straightforward and theoretically correct. However, the approach involves some potential pitfalls. These concern the sources of value creation, the impact of leverage and business risk on the cost of equity, and the tax penalty on holding equity risk capital.
 
@@ -9701,7 +9700,7 @@ Tax Penalty on Holding Equity Risk Capital Holding equity risk capital represent
 
 The true cost of holding equity capital is this so-called tax penalty, whose present value equals the equity capital times the tax rate. If ABC Bank were to increase its equity capital by  \$50 million to invest in risk-free bonds, holding everything else constant, this would entail destroying\$ 15 million of present value (30 percent times 50 million) because of the tax penalty. As long as the cost of equity reflects the bank's leverage and business risk, the tax penalty is implicitly included in the equity DCF. However, in the economic-spread analysis discussed next, we explicitly include the tax penalty as a cost of the bank's lending business.
 
-# Economic-Spread Analysis
+## Economic-Spread Analysis
 
 The equity DCF approach does not reveal the sources of value creation in a bank. To understand how much value ABC Bank is creating in its different product lines, we can analyze them by their economic spread. We define the pretax economic spread on ABC's loan business in 2019 as the interest rate on loans minus the matched-opportunity rate (MOR) for loans, multiplied by the amount of loans outstanding at the beginning of the year:
 
@@ -9770,7 +9769,7 @@ EXHIBIT 38.10 ABC Bank: Net Interest Income and Value Creation
 
 Note that we could further refine the tree by allocating the operating expenses to the product lines, represented by the different asset and liability categories. This is worth doing if there is enough information on the operating costs incurred by each product line and the equity capital required for each.
 
-# Economic Spread vs. Net Interest Income
+## Economic Spread vs. Net Interest Income
 
 The spread analysis helps to show why a bank's reported net interest income does not reveal the value created by the bank and should be interpreted with care. For example, out of ABC Bank's 2019 net interest income after taxes of  \$20.2 million, only\$ 10.3 million represents true value created (the economic spread of \$8.2 million on loans plus \$2.2 million on deposits minus a rounding difference, as shown in Exhibit 38.10). The remaining 9.9 million is income but not value, because it is offset by the following two charges shown in the exhibit:
 
@@ -9778,11 +9777,11 @@ The spread analysis helps to show why a bank's reported net interest income does
 
 2. The mismatched-capital charge, amounting to 5.7 million of ABC's net interest income, arises from the difference in the duration of ABC's assets and deposits. To illustrate, when a bank borrows at short maturity and invests at long maturity, it creates income. The income does not represent value when the risks of taking positions on the yield curve are taken into account. The mismatched-capital charge represents the component of net interest income required to compensate shareholders for that risk.[14]
 
-# COMPLICATIONS IN BANK VALUATIONS
+## COMPLICATIONS IN BANK VALUATIONS
 
 When you value banks, significant challenges arise in addition to those discussed in the hypothetical ABC Bank example. In reality, banks have many interest-generating business lines, including credit card loans, mortgage loans, and corporate loans, all involving loans of varying maturities. On the liability side, banks could carry a variety of customer deposits as well as different forms of straight and hybrid debt. Banks need to invest in working capital and in property, plant, and equipment, although the amounts are typically small fractions of total assets. Obviously, this variety makes the analysis of real-world banks more complex, but the principles laid out in the ABC example remain generally applicable. This section discusses some practical challenges in the analysis and valuation of banks.
 
-# Convergence of Forward Interest Rates
+## Convergence of Forward Interest Rates
 
 For ABC Bank, we assumed a perpetual difference in short-term and long-term interest rates. As a result, ABC generates a permanent, positive net interest income from a maturity mismatch: using short-term customer deposits as funding for investments in long-term loans. However, following the expectations theory of interest rates, long-term rates move higher when short-term rates are expected to increase, and vice versa. Following this theory, it is necessary to ensure that our expectations for interest rates in future years are consistent with the current yield curve.
 
@@ -9798,7 +9797,7 @@ $$ where  $r_{2021-2024}$  is the expected three-year interest rate as of 2021, 
 
 In practice, forward rate curves derived from the yield curve will rarely follow the smooth patterns of Exhibit 38.11. Small irregularities in the current yield curve can lead to large spikes and dents in the forward rate curves, which would produce large fluctuations in net interest income forecasts. As a practical solution, use the following procedure. First, obtain the forward one-year interest rates from the current yield curve. Then smooth these forward one-year rates to even out the spikes and dents arising from irregularities in the yield curve. Finally, derive the two-year and longermaturity forward rates from the smoothed forward one-year interest rates. As the exhibit shows, all interest rates should converge toward the current yield curve in the long term. As a result, the bank's income contribution from any maturity difference in deposits and loans disappears in the long term as well.
 
-# Loan Loss Provisions
+## Loan Loss Provisions
 
 For our ABC Bank valuation, we did not model any losses from defaults on loans outstanding to customers. In real life, your analysis and valuation have to include loan loss forecasts, because loan losses are among the most important factors determining the value of retail and wholesale banking activities. For estimating expected loan losses from defaults across different loan categories, a useful first indicator would be a bank's historical additions to loan loss provisions or sector-wide estimates of loan losses (see Exhibit 38.12). As the exhibit shows, these losses increased sharply during the 2008 credit crisis but recovered to pre-crisis levels by 2013. Credit cards typically have the highest losses, and mortgages the lowest, with business loans somewhere in between. All default losses are strongly correlated with overall economic growth, so use through-the-economic-cycle estimates of additions to arrive at future annual loan loss rates to apply to your forecasts of equity cash flows.
 
@@ -9808,7 +9807,7 @@ EXHIBIT 38.12 Annual Losses for U.S. Banks by Loan Category
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/69ab1b76-099f-46d2-9341-d47072e8fd93/9e700cf7f17c4e2ab887aa7638e0f39916df435847d4453c5bc89500d9cb70e3.jpg)
 Source: Federal Reserve, "Charge-Off and Delinquency Rates on Loans and Leases at Commercial Banks," www.federalreserve.gov.
 
-# Risk-Weighted Assets and Equity Risk Capital
+## Risk-Weighted Assets and Equity Risk Capital
 
 Banks are required to hold a minimum level of equity capital that can absorb potential losses to safeguard the bank's obligations to its customers and financiers. In December 2010, new regulatory requirements for capital adequacy were specified in the Basel III guidelines, replacing the 2007 Basel II accords, which were no longer considered adequate in the wake of the 2008 and 2010 financial crises.[15] The new guidelines are being gradually implemented by banks across the world between 2013 and 2022.
 
@@ -9842,7 +9841,7 @@ Many of the larger banks nowadays already target CET1 at around 13 percent of RW
 
 Using your RWA forecasts and the targeted CET1 ratio, you can estimate the required Tier 1 capital in each future year. From the projected CET1 capital requirements, you can estimate the implied shareholders' equity requirements by applying an average historical ratio of CET1 capital to shareholders' equity excluding goodwill and deferred-tax assets. Historical Tier 1 capital is reported separately in the notes to the bank's financial statements and is typically close to straightforward shareholders' equity excluding goodwill and deferred-tax assets.
 
-# Value Drivers for Different Banking Activities
+## Value Drivers for Different Banking Activities
 
 Given that many banks have portfolios of different business activities, sometimes as distinct as consumer credit card loans and proprietary trading, their businesses can have very distinct risks and returns, making the bank's consolidated financial results difficult to interpret, let alone forecast. The businesses are best valued separately, as in the case of multibusiness companies, discussed in Chapter 19. Unfortunately, financial statements for multibusiness banks often lack separately reported income statements and balance sheets for different business activities. In that case, you have to construct separate statements following the guidelines described in Chapter 19.
 
@@ -9863,13 +9862,13 @@ EXHIBIT 38.16 Value Drivers: Asset Management (Simplified)
 
 Along with these variables in activities, remember that banks are highly leveraged and that many of their businesses are cyclical. When performing a bank valuation, you should not rely on point estimates but should use scenarios for future financial performance to understand the range of possible outcomes and the key underlying value drivers.
 
-# SUMMARY
+## SUMMARY
 
 The fundamentals of the discounted-cash-flow (DCF) approach laid out in this book apply equally to banks. The equity cash flow version of the DCF approach is most appropriate for valuing banks, because the operational and financial cash flows of these organizations cannot be separated, given that banks are expected to create value from funding as well as lending operations.
 
 Valuing banks remains a delicate task because of the diversity of the business portfolio, the cyclicality of many bank businesses (especially trading and fee-based business), and high leverage. Because of the difference in underlying value drivers, it is best to value a bank by its key parts according to the source of income: interest-generating business, fee and commission business, and trading. To understand the sources of value creation in a bank's interest-generating business, supplement the equity DCF approach with an economic-spread analysis. This analysis reveals which part of a bank's net interest income represents true value creation and which reflects not value but charges for maturity mismatch and capital. When forecasting a bank's financials, handle the uncertainty surrounding the bank's future performance and growth by using scenarios that capture the cyclicality of its key businesses.
 
-# Flexibility
+## Flexibility
 
 Properly managing a modern business is about making choices to create value. Valuation provides important insights for executives faced with making decisions on corporate strategy, acquisitions and divestments, capital structure, and other management actions. All these decisions take place against a backdrop of uncertainty about the outcomes of alternative courses of action. However, in some cases, you can face decisions where not only is uncertainty present, but so is flexibility.
 
@@ -9883,7 +9882,7 @@ Flexibility comes in many forms and can substantially alter the value of a busin
 - Comparison of decision tree analysis (DTA) and real-option valuation (ROV) to valuing flexibility, including situations in which each approach is more appropriate
 - A four-step approach to analyzing and valuing real options, illustrated with numerical examples using ROV and DTA
 
-# A HIERARCHY OF APPROACHES
+## A HIERARCHY OF APPROACHES
 
 It is possible to illustrate a hierarchy of standard and contingent approaches to valuation under situations of uncertainty and flexibility and suggest when it is best to apply each (Exhibit 39.1). When a flexible response is neither expected
 
@@ -9905,7 +9904,7 @@ Company-wide valuation models rarely take flexibility into account. To analyze a
 
 Flexibility is typically more relevant in the valuation of individual businesses and projects, as it mostly concerns detailed decisions related to production, capacity investment, marketing, research and development, and other factors.
 
-# UNCERTAINTY, FLEXIBILITY, AND VALUE
+## UNCERTAINTY, FLEXIBILITY, AND VALUE
 
 To appreciate the value of flexibility and its key value drivers, consider a simple example. Suppose you are deciding whether to invest  \$6,000 one year from now to produce and distribute a new pharmaceutical drug already under development. In the upcoming final development stage, the product will undergo clinical tests on patients for one year, for which all investments have already been made. These tests involve no future cash flows. The trials could have one of two possible outcomes. If the drug proves to be highly effective, it will generate an annual net cash inflow of\$ 500 into perpetuity. If it is only somewhat effective, the annual net cash inflow will be 100 into perpetuity. These outcomes are equally probable.
 
@@ -9976,7 +9975,7 @@ EXHIBIT 39.3 When Is Flexibility Valuable?
 Uncertainty, likelihood of receiving new information the competitive products or services to offer. In these cases, the flexibility recognized in contingent valuation fits better with strategic intuition than do the rigid assumptions of standard NPV approaches.
 
 
-# What Creates Flexibility Value
+## What Creates Flexibility Value
 
 To identify and value flexibility, you must understand where its value comes from. Consider what happens if the range of possible annual cash flow outcomes (originally \$500 versus \$100 per year) increases to \$600 versus \$0. Since expected cash flows and cost of capital remain unchanged, the standard NPV is the same (\$286). However, the contingent NPV increases from its prior level of \$2,143:
 
@@ -9998,7 +9997,7 @@ These drivers of option value show how allowing for flexibility affects the valu
 Be careful how you interpret the impact of value drivers when designing investment strategies to exploit flexibility. The impact of any individual driver described in Exhibit 39.4 holds only when all other value drivers remain constant. In practice, changes in uncertainty and interest rates not only affect the value of the option but usually change the value of the underlying asset as well. When you assess the impact of these drivers, you should assess all their effects on the option's value, both direct and indirect. Take the case of higher uncertainty. In our example, we increased the uncertainty of future cash flows by widening the gap between future cash flows in the favorable and unfavorable scenarios from  $400 to$ 600. But we kept the expected value of the future cash flows unchanged at 300 so that their present value remained constant. However, if greater uncertainty lowers the expected level of cash flows or raises the cost of capital, the value of the underlying asset declines so that the impact on the value of the option could be negative. The same holds for the impact of an increase in the risk-free interest rate. Higher interest rates reduce the present value of the required investment, thereby increasing the option value—if the value of the underlying asset is assumed constant. But if higher interest rates lead to an increase in the cost of capital, the present value of cash flows on the underlying asset would decrease, which could lower the option's value.
 
 
-# MANAGING FLEXIBILITY
+## MANAGING FLEXIBILITY
 
 Contingent valuation is an important tool for managers trying to make the right decisions to maximize shareholder value when faced with strategic or operating flexibility. In actual practice, however, flexibility is never as well defined and straightforward as in the preceding examples. Much depends on management's ability to recognize, structure, and manage opportunities to create value from operating and strategic flexibility. A detailed discussion is beyond the scope of this book,[7] but we provide some basic guidelines here.
 
@@ -10017,7 +10016,7 @@ EXHIBIT 39.5 Classification of Real Options
 
 To help managers recognize, structure, and manage opportunities for capturing value from flexibility, we segment options into the categories described in Exhibit 39.5 and provide some examples.
 
-# METHODS FOR VALUING FLEXIBILITY
+## METHODS FOR VALUING FLEXIBILITY
 
 As mentioned earlier in this chapter, the two methods for contingent valuation are decision tree analysis (DTA) and real-option valuation (ROV) using formal option-pricing models. We will illustrate each method with a simple example: the opportunity to invest  \$105 at the end of one year in a mining project that has an equal chance of returning either\$ 150 or \$50 in cash flow, depending on the mineral price. The risk-free rate,  $r_f$ , is 5 percent, and the weighted average cost of capital (WACC) for the project is 10 percent. The present value (PV) of the cash flows today is:
 
@@ -10045,7 +10044,7 @@ The answer changes if management has flexibility to defer the investment decisio
 
 To value this flexibility, we first use an ROV approach and then repeat the valuation with the DTA approach.
 
-# Real-Option Valuation
+## Real-Option Valuation
 
 Option-pricing models use a replicating portfolio to value the project. The basic idea of a replicating portfolio is straightforward: if you can construct a portfolio of priced securities that has the same payouts as an option, the portfolio and option should have the same price. If the securities and the option are traded in an open market, this identity is required; otherwise arbitrage profits are possible. The interesting implication is that the ROV approach lets you correctly value complex, contingent cash flow patterns.
 
@@ -10107,7 +10106,7 @@ $$
 
 It is no coincidence that the replicating portfolio and risk-neutral valuation lead to the same result. They are mathematically equivalent, and both rely on the price of the twin security to derive the value of an investment project with an option to defer.
 
-# Valuation Based on Decision Tree Analysis
+## Valuation Based on Decision Tree Analysis
 
 A second method for valuing a project with flexibility is to use DTA. This leads to the right answer in principle, but only if we apply the correct cost of capital for a project's contingent cash flows.
 
@@ -10125,7 +10124,7 @@ $$
 
 For longer-term contingent payoffs, this DTA approach generates results that are closer to the correct ROV value. The next section discusses how this second DTA approach can lead to the exact ROV outcome if the underlying risk is either diversifiable or nondiversifiable but is too small to influence the future investment decision (that is, if the project value would exceed the investment requirements even in the unfavorable state).
 
-# Comparing ROV and DTA Approaches
+## Comparing ROV and DTA Approaches
 
 As summarized in Exhibit 39.7, the standard NPV approach undervalue our mining project at -\9.10. The ROV approach generates a correct value (NPV = \19.50) because it captures the value of flexibility by using a replicating portfolio or risk-neutral valuation. The DTA approach at \18.20 is quite close in this example, capturing almost the entire gap between the standard NPV valuation and the more granular ROV result. But the DTA results might
 
@@ -10215,7 +10214,7 @@ A similar argument holds for estimates of the variance of the underlying asset's
 
 Sometimes the underlying asset value and variance can be derived from traded assets. Examples include options to shut down gas-fueled power generation, abandon a copper mine, or defer production of an oil field. In such cases, because you can estimate the key inputs with reasonable accuracy, ROV should be more accurate than DTA. When estimates for the underlying asset valuation and variance (volatility) cannot be derived from traded assets and are largely judgmental, a DTA approach is more appropriate. It is more straightforward and transparent to decision makers than the ROV approach. Transparency is especially important when critical valuation assumptions require the decision maker's judgment. DTA captures the essence of flexibility value, and the theoretical advantage of ROV is less important if required inputs are unavailable.
 
-# FOUR STEPS TO VALUING FLEXIBILITY
+## FOUR STEPS TO VALUING FLEXIBILITY
 
 To value flexibility, use the four-step process illustrated in Exhibit 39.10. In step 1, conduct a valuation of the investment project without flexibility, using a traditional discounted-cash-flow model. In step 2, expand the DCF model into an event tree, mapping how the value of the project evolves over time, using (unadjusted) probabilities and the weighted average cost of capital. At this stage, the model does not include flexibility, so the present value of the
 
@@ -10227,7 +10226,7 @@ In step 3, turn the event tree into a decision tree by identifying the types of 
 
 Finally, step 4 entails recognizing how the exercise of flexibility alters the project's risk characteristics. If the prevailing risk affecting the contingent cash flows is fully diversifiable, you need no special modeling; you can use DTA, discounting investment cash flows at the risk-free rate and the underlying project's cash flows at the weighted average cost of capital, as in the pharmaceutical example in the upcoming section on ROV and DTA. If the prevailing risk is nondiversifiable and priced in the market, the appropriate risk-adjusted discount rate for the project's cash flows is no longer the weighted average cost of capital used in step 1. In that case, apply an ROV approach for the project with flexibility, using risk-neutral valuation or a replicating portfolio.
 
-# Real-Option Valuation: A Numerical Example
+## Real-Option Valuation: A Numerical Example
 
 Using the four-step process, we illustrate the ROV approach with a straightforward binomial lattice for valuing flexibility that is assumed to be driven by nondiversifiable risk. The results are identical to alternative option-pricing models that use more complicated mathematics such as stochastic calculus or Monte Carlo simulation.
 
@@ -10237,7 +10236,7 @@ Step 1: Estimate Net Present Value without Flexibility Assume that an investment
 
 $
 
-# Underlying asset
+## Underlying asset
 
 PV = 100
 
@@ -10247,7 +10246,7 @@ Initial investment  $= 105$
 
 No-flexibility NPV = 100 - 105 = (5)
 
-# Assumptions
+## Assumptions
 
 Risk-free rate  $= 5\%$
 
@@ -10342,7 +10341,7 @@ Decision to abandon
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/69ab1b76-099f-46d2-9341-d47072e8fd93/0bdcdef9e385de049aec1f05a648946b153acbd23183f52b6872024e99673fca.jpg)
 
-# Underlying asset values
+## Underlying asset values
 
 PV+ = 116
 
@@ -10350,19 +10349,19 @@ PV-  $= 86$
 
 PV = 100
 
-# Management decisions  $(t = 5)$
+## Management decisions  $(t = 5)$
 
 116 = Max(116, 100)
 
 100 = Max (86, 100)
 
-# Risk-neutral valuation
+## Risk-neutral valuation
 
 $p^{*} = (1 + r_{f} - d) / (u - d)$
 $= (1.05 - 0.861) / (1.162 - 0.861)$
 $= 0.629$
 
-# Value of option  $(t = 4)$
+## Value of option  $(t = 4)$
 
 Option  $= \operatorname {Max}\left(\left[p^{*}\times 116 + (1 - p^{*})100\right] / 1.05,100\right)$
 $= \mathrm{Max}(105,100)$
@@ -10465,13 +10464,13 @@ Incremental investment: 15
 
 Incremental payoff:  $20\%$
 
-# REAL-OPTION VALUATION AND DECISION TREE ANALYSIS: A NUMERICAL EXAMPLE
+## REAL-OPTION VALUATION AND DECISION TREE ANALYSIS: A NUMERICAL EXAMPLE
 
 Our next example applies both the DTA and the ROV approaches in the valuation of a research and development project. Assume a company needs to decide whether to develop a new pharmaceutical drug. In our simplified example,[26] the first step in development is a research phase of three years, in which the most promising chemical compounds are selected. The probability of success in the research phase is estimated at 15 percent. This is followed by a three-year testing phase, during which the compounds are tested in laboratory and clinical settings. The chance of successfully completing the testing phase is 40 percent. If there are successful results, the drug can be released in the market. On failure in any phase, the company terminates development, and the product dies worthless.
 
 26 Pharmaceutical R&D is much more complex and consists of more phases than shown in this example. For a more extensive example of valuing flexibility in pharmaceutical research and development, see Kellogg and Charnes, "Real-Options Valuation for a Biotechnology Company."
 
-# DTA Approach: Technological Risk
+## DTA Approach: Technological Risk
 
 The DTA approach presented next follows the four steps for the valuation of flexibility as described in the previous section. In the DTA valuation of the research and development project, we consider only the prevailing technological risk relating to the research and testing outcomes. The commercial risk concerning the future profitability of the drug and the technological risk are taken into account jointly in the ROV approach discussed in the next section.
 
@@ -10592,7 +10591,7 @@ $$
 
 $$
 
-# ROV Approach: Technological and Commercial Risk
+## ROV Approach: Technological and Commercial Risk
 
 Our analysis thus far did not include the other source of uncertainty in the development project: the commercial risk concerning the future cash flow potential of the successfully developed and marketed drug. ROV is necessary to handle both technological and commercial risk.
 
@@ -10668,17 +10667,17 @@ Moreover, in real situations, the prevailing uncertainty in drug development is 
 
 In general, when faced with multiple sources of underlying risk, carefully assess whether all of these possible risks are important or whether one prevails. Sometimes you can focus the valuation approach on just one or two sources of uncertainty and greatly simplify the analysis.
 
-# SUMMARY
+## SUMMARY
 
 Managerial flexibility lets executives defer or change investment decisions as a business or project develops. It can substantially alter the value of a business or project. Rigidly applying standard DCF analysis fails to account for the impact that exercising flexibility can have on present value.
 
 Flexibility takes many forms, such as the option to defer, expand, contract, or abandon projects, or to switch them on and off. This chapter has illustrated only a few applications. Contingent NPV analysis, in the form of decision tree analysis (DTA) or real-option valuation (ROV) models, correctly captures flexibility's impact on value. The ROV approach is theoretically superior to DTA, but applying it is more complicated. So ROV is often limited to valuing flexibility in commodity-based industries where prices are measurable, making its application more straightforward. In most other cases, a careful DTA approach delivers results that are reasonably solid and can provide more valuable insights.
 
-# Discounted Economic Profit Equals Discounted Free Cash Flow
+## Discounted Economic Profit Equals Discounted Free Cash Flow
 
 This appendix demonstrates algebraically the equivalence between discounted cash flow and discounted economic profit. In the first section, we convert the key value driver formula presented in Chapter 3 into a value driver formula based on economic profit. This formula is used in Chapter 10 to estimate continuing value in the economic-profit valuation. The second section of this appendix generalizes the proof to any set of cash flows.
 
-# PROOF USING PERPETUITIES
+## PROOF USING PERPETUITIES
 
 To convert the key value driver formula into an economic-profit-based formula, start with the growing cash flow perpetuity:
 
@@ -10737,7 +10736,7 @@ $$
 
 According to this formula, a company's operating value equals the book value of its invested capital plus the present value of all future economic profits. (The final term is a growing perpetuity of economic profits.) If future economic profits are expected to be zero, the intrinsic value of a company equals its book value. In addition, if future economic profits are expected to be less than zero, then enterprise value should trade at less than the book value of invested capital—an occurrence observed in practice.
 
-# GENERALIZED PROOF
+## GENERALIZED PROOF
 
 The previous section limited our proof to a set of cash flows growing at a constant rate. This section generalizes the proof to any set of cash flows. To demonstrate equivalence, start by computing the present value of a periodic stream of cash flows:
 
@@ -10798,13 +10797,13 @@ The enterprise value of a company equals the book value of its invested capital 
 
 The interdependence of invested capital, economic profit, and free cash flow is not surprising. Think of discounted cash flow this way: a portion of future cash flows is required to cover the required return for the investor's capital. The remaining cash flow is either used to grow invested capital (to generate additional future cash flows) or returned to investors as an extra bonus. This bonus is valuable, so investors are willing to pay a premium for cash flows above the amount required. Subsequently, companies with positive economic profits will trade at a premium to the book value of invested capital.
 
-# Derivation of Free Cash Flow, Weighted Average Cost of Capital, and Adjusted Present Value
+## Derivation of Free Cash Flow, Weighted Average Cost of Capital, and Adjusted Present Value
 
 Chapter 10 demonstrated numerically the equivalence of enterprise discounted cash flow (DCF), adjusted present value (APV), and the cash-flow-to-equity valuation when leverage (as measured by the market-based debt-to-equity ratio) is constant. This appendix derives the key terms in each model—namely, free cash flow (FCF) and the weighted average cost of capital (WACC)—and demonstrates their equivalence algebraically.
 
 To simplify the analysis, we assume cash flows to equity are growing at a constant rate,  $g$ . This way we can use growth perpetuities to analyze the relationship between methods.
 
-# ENTERPRISE DISCOUNTED CASH FLOW
+## ENTERPRISE DISCOUNTED CASH FLOW
 
 By definition, enterprise value (V) equals the market value of debt (D) plus the market value of equity (E):
 
@@ -10914,7 +10913,7 @@ $$
 
 Note how the after-tax cost of debt and the cost of equity are weighted by each security's market-based weight to enterprise value. This is why you should use market-based values, and not book values, to build the cost of capital. This is also why you should discount free cash flow at the weighted average cost of capital to determine enterprise value. Remember, however, that you can only use a constant WACC when leverage is expected to remain constant (i.e., debt grows as the business grows).
 
-# ADJUSTED PRESENT VALUE
+## ADJUSTED PRESENT VALUE
 
 To determine enterprise value using adjusted present value, once again start with  $V = D + E$  and multiply by a fraction equal to 1. This time, however, do not include the marginal tax rate in the fraction:
 
@@ -10976,11 +10975,11 @@ This expression is commonly referred to as adjusted present value.
 
 In this simple proof, we assumed tax shields should be discounted at the unlevered cost of equity. This need not be the case. Some financial analysts discount expected interest tax shields at the cost of debt. If you do this, however, free cash flow discounted at the traditional WACC (defined earlier) and adjusted present value will lead to different valuations. In this case, WACC must be adjusted to reflect the alternative assumption concerning the risk of tax shields.
 
-# Levering and Unlevering the Cost of Equity
+## Levering and Unlevering the Cost of Equity
 
 This appendix derives various formulas that can be used to compute unlevered beta and the unlevered cost of equity under different assumptions. Unlevered betas are required to estimate an industry beta, as detailed in Chapter 15. We prefer using an industry beta rather than a company beta to determine the cost of capital because company betas cannot be estimated accurately. As discussed in Chapter 10, the unlevered cost of equity is used to discount free cash flow to compute adjusted present value. For companies with substantial postretirement obligations, the appendix concludes by incorporating pensions and other postretirement benefits into the unlevering process.
 
-# UNLEVERED COST OF EQUITY
+## UNLEVERED COST OF EQUITY
 
 Franco Modigliani and Merton Miller postulated that the market value of a company's economic assets, such as operating assets  $(V_{u})$  and tax shields  $(V_{txa})$ , should equal the market value of its financial claims, such as debt  $(D)$  and equity  $(E)$ :
 
@@ -11022,7 +11021,7 @@ $$
 
 Since most companies manage their debt-to-value ratio to stay within a particular range, we believe this formula and its resulting derivations are the most appropriate for standard valuation.
 
-# Unlevered Cost of Equity When  $k_{txa}$  equals  $k_d$
+## Unlevered Cost of Equity When  $k_{txa}$  equals  $k_d$
 
 Some financial analysts set the required return on interest tax shields equal to the cost of debt. In this case, Equation C.2 can be expressed as follows:
 
@@ -11063,7 +11062,7 @@ $$
 
 Equation C.4 mirrors Equation C.2 closely. It differs from Equation C.2 only in that the market value of debt is reduced by the present value of expected tax shields.
 
-# Unlevered Cost of Equity When Debt Is Constant
+## Unlevered Cost of Equity When Debt Is Constant
 
 Exhibit C.1 summarizes three methods to estimate the unlevered cost of equity. The two formulas in the top row assume that the risk associated with interest tax shields  $(k_{txa})$  equals the risk of operations  $(k_u)$ . When this is true, whether debt is constant or expected to change, the formula remains the same.
 
@@ -11075,7 +11074,7 @@ $$
 
 Consequently,  $V_{txa}$  in the formula in the bottom left corner is replaced with  $D(T_m)$ . The equation is simplified by converting  $D - D(T_m)$  into  $D(1 - T_m)$ . The resulting equation is presented in the bottom right corner.
 
-# LEVERED COST OF EQUITY
+## LEVERED COST OF EQUITY
 
 In certain situations, you will have already estimated the unlevered cost of equity and need to relever the cost of equity to a new target structure. In this case, use Equation C.2 to solve for the levered cost of equity,  $k_{e}$ :
 
@@ -11158,7 +11157,7 @@ D = debt
 E = equity
 Vtxa = present value of tax shields</td></tr></table>
 
-# LEVERED BETA
+## LEVERED BETA
 
 Similar to the cost of capital, the weighted average beta of a company's assets, both operating and financial, must equal the weighted average beta of its financial claims:
 
@@ -11187,7 +11186,7 @@ EXHIBIT C.3 Levered Beta
 
 This last equation is an often-applied formula for levering (and unlevering) beta when the risk of interest tax shields  $(\beta_{txa})$  equals the risk of operating assets  $(\beta_u)$  and the company's debt is risk free. For investment-grade companies, debt is nearly risk free, so any errors using this formula will be small. If the company is highly leveraged, however, errors can be large. In this situation, estimate the beta of debt, and use the more general version of the formula.
 
-# UNLEVERED BETA AND PENSIONS
+## UNLEVERED BETA AND PENSIONS
 
 Since stockholders are responsible for future pension payments and other retirement obligations, the risks associated with these employee benefits can affect a company's beta. If a company has significant pensions, especially unfunded pensions, make sure to include them in the unlevering process.
 
@@ -11236,13 +11235,13 @@ $$
 
 Chapter 23 discusses how to incorporate pensions into a valuation. In Exhibit 23.5, we use the equation above to unlever beta for a set of food manufacturers. Given the small size of each company's pension relative to the respective company's market value of equity, the difference in unlevered beta with and without the pension adjustment is minor. We therefore recommend adjusting beta for pensions only when pension assets and liabilities are substantial. In most situations, the unlevering equations that classify the unfunded portion of pensions as debt will suffice.
 
-# Leverage and the Price-to-Earnings Multiple
+## Leverage and the Price-to-Earnings Multiple
 
 This appendix demonstrates that the price-to-earnings (P/E) multiple of a levered company depends on its unlevered (all-equity) P/E, its cost of debt, and its debt-to-value ratio. When the unlevered P/E is less than  $1 / k_{d}$  (where  $k_{d}$  equals the cost of debt), the P/E falls as leverage rises. Conversely, when the unlevered P/E is greater than  $1 / k_{d}$ , the P/E rises with increased leverage.
 
 In this proof, we assume the company faces no taxes and no distress costs. We do this to avoid modeling the complex relationship between capital structure and enterprise value. Instead, our goal is to show that there is a systematic relationship between the debt-to-value ratio and the P/E.
 
-# STEP 1: DEFINING UNLEVERED P/E
+## STEP 1: DEFINING UNLEVERED P/E
 
 To determine the relationship between P/E and leverage, start by defining the unlevered P/E  $(\mathrm{PE}_u)$ . When a company is entirely financed with equity, its enterprise value equals its equity value, and its net operating profit after taxes (NOPAT) equals its net income:
 
@@ -11261,7 +11260,7 @@ V _ {\text {E N T}} = \mathrm {N O P A T} _ {t + 1} \left(\mathrm {P E} _ {u}\ri
 
 $$
 
-# STEP 2: LINKING NET INCOME TO NOPAT
+## STEP 2: LINKING NET INCOME TO NOPAT
 
 For a company partially financed with debt, net income (NI) equals NOPAT less after-tax interest payments. Assuming the value of debt equals its face value, the company's interest expense will equal the cost of debt times the value of debt, which can be defined by multiplying enterprise value by the debt-to-value ratio:
 
@@ -11287,7 +11286,7 @@ $$
 
 $$
 
-# STEP 3: DERIVING LEVERED P/E
+## STEP 3: DERIVING LEVERED P/E
 
 At this point, we are ready to solve for the company's price-to-earnings ratio. Since  $\mathrm{P} / \mathrm{E}$  is based on equity values, first convert enterprise value to equity value. To do this, once again start with Equation D.1:
 
@@ -11379,24 +11378,24 @@ $$
 
 As this final equation shows, a company's P/E is a function of its unlevered P/E, its cost of debt, and its debt-to-value ratio. When the unlevered P/E equals the reciprocal of the cost of debt, the numerator of the second fraction equals zero, and leverage has no effect on the P/E. For companies with large unlevered P/Es, P/E systematically increases with leverage. Conversely, companies with small unlevered P/Es would exhibit a drop in P/E as leverage rises.
 
-# Other Capital Structure Issues
+## Other Capital Structure Issues
 
 This appendix discusses alternative models of capital structure and credit rating estimations. These models offer some interesting insights but tend to be less useful in practice for designing a company's capital structure. Finally, the appendix shows the similarities and differences between widely used credit ratios such as leverage, coverage, and solvency.
 
-# PECKING-ORDER THEORY
+## PECKING-ORDER THEORY
 
 An alternative to the view that there are trade-offs between equity and debt is a school of thought in finance theory that sees a pecking order in financing. According to this theory, companies meet their investment needs first by using internal funds (from retained earnings), then by issuing debt, and finally by issuing equity. One of the causes of this pecking order is that investors interpret financing decisions by managers as signals of a company's financial prospects. For example, investors will interpret an equity issue as a signal that management believes shares are overvalued. Anticipating this interpretation, rational managers will turn to equity funding only as a last resort, because it could cause the share price to fall. An analogous argument holds for debt issues, although the overvaluation signal is much smaller because the value of debt is much less sensitive to a company's financial success.
 
 According to the theory, companies will have lower leverage when they are more mature and profitable, simply because they can fund internally and do not need any debt or equity funding. However, evidence for the theory is not conclusive. For example, mature companies generating strong cash flows are among the most highly leveraged, whereas the pecking-order theory would predict them to have the lowest leverage. High-tech start-up companies are among the least leveraged, rather than debt loaded, as the theory would predict. Empirical research shows how the signaling hypotheses underlying the pecking-order theory are more relevant to financial managers in selecting and timing specific funding alternatives than for setting long-term capital structure targets. Surveys among financial executives confirm these findings.
 
-# MARKET-BASED RATING APPROACH
+## MARKET-BASED RATING APPROACH
 
 Alternative metrics to credit ratings have been developed based on the notion that equity can be modeled as a call option on the company's enterprise value, with the debt obligations as the exercise price. Using option valuation models and market data on price and volatility of the shares, these approaches estimate the future probability of default—that is, the probability that enterprise value will be below the value of debt obligations. The advantage is that all information captured by the equity markets is directly translated into the default estimates. Traditional credit ratings tend to lag changes in a company's performance and outlook because they aim to measure credit quality "through the cycle" and are less sensitive to short-term fluctuations in quality.
 
 The disadvantage of market-based ratings is that no fundamental analysis is performed on the company's underlying business and financial health. If equity markets have missed some critical information, the resulting estimates of default probability do not reflect their omission. As discussed in Chapter 7, markets reflect company fundamentals most of the time, but not always. When they do not, the market-based rating approaches would incorrectly estimate default risk as well.[9]
 
 
-# LEVERAGE, COVERAGE, AND SOLVENCY
+## LEVERAGE, COVERAGE, AND SOLVENCY
 
 The leverage measure used in the academic literature is typically defined as the market value of debt  $(D)$  over the market value of debt plus equity  $(E)$ :
 
@@ -11445,21 +11444,21 @@ Solvency measures of debt over book value of total assets or equity are seldom a
 
 Solvency becomes more relevant in times of financial distress, when a company's creditors use it as a rough measure of the available collateral. Higher levels of solvency usually indicate that debt holders stand better chances of recovering their principal and interest due—assuming that asset book values are reasonable approximations of asset liquidation values. However, in a going concern, solvency is much less relevant for deciding capital structure than coverage and leverage measures.
 
-# Technical Issues in Estimating the Market Risk Premium
+## Technical Issues in Estimating the Market Risk Premium
 
 In its simplest form, the historical market risk premium can be measured by subtracting the return on government bonds from the return (total return to shareholders) on a large sample of companies over some time frame. But this requires many choices that will affect the results. For the best measurement of the risk premium using historical data, follow the guidelines presented in this appendix.
 
-# CALCULATE PREMIUM RELATIVE TO LONG-TERM GOVERNMENT BONDS
+## CALCULATE PREMIUM RELATIVE TO LONG-TERM GOVERNMENT BONDS
 
 When calculating the market risk premium, compare historical market returns with the return on ten-year government bonds. Long-term government bonds match the duration of a company's cash flows better than short-term bonds.
 
-# USE THE LONGEST PERIOD POSSIBLE
+## USE THE LONGEST PERIOD POSSIBLE
 
 How far back should you look when using historical observations to predict future results? If the market risk premium is stable, a longer history will reduce estimation error. Alternatively, if the premium changes and estimation error is small, a shorter period is better. To determine the appropriate historical period, consider any trends in the market risk premium compared with the imprecision associated with short-term estimates.
 
 To test for the presence of a long-term trend, we regress the U.S. market risk premium against time. Over the past 119 years, no statistically significant trend is observable. Based on regression results, the average excess return has fallen by two basis points a year, but this result cannot be statistically distinguished from zero. Premiums calculated over shorter periods are too volatile to be meaningful. For instance, U.S. stocks outperformed bonds by 18 percent in the 1950s but offered no premium in the 1970s. Given the lack of any discernible trend and the significant volatility of shorter periods, use the longest time series possible.
 
-# USE AN ARITHMETIC AVERAGE OF LONGER-DATED (E.G., TEN-YEAR) INTERVALS
+## USE AN ARITHMETIC AVERAGE OF LONGER-DATED (E.G., TEN-YEAR) INTERVALS
 
 When reporting market risk premiums, most data providers report an annual number, such as 6.3 percent per year. But how do they convert a century of data into an annual number? And is the annualized number even relevant?
 
@@ -11514,13 +11513,13 @@ Blume's estimator depends on the length of time for which you plan to discount. 
 
 Even with the best statistical techniques, however, these estimates are probably too high, because our sample includes only U.S. data, representing the best-performing market over the past century. Since it is unlikely that the U.S. stock market will replicate its performance over the next century, we adjust downward the historical market risk premium. Research shows that the U.S. arithmetic annual return exceeded a 17-country composite return by 0.8 percent in real terms. If we subtract an 0.8 percent survivorship premium from the values presented above, this leads to an expected return of between 5.0 percent and 5.5 percent.
 
-# Global, International, and Local CAPM
+## Global, International, and Local CAPM
 
 The standard capital asset pricing model (CAPM), introduced in Chapter 15, for estimating the cost of capital, does not explicitly account for foreign assets, foreign investors, or currencies. This raises the question whether such a model can provide the right cost of capital for investments in foreign currencies. If foreign-currency rates are changing, the same investment will generate different returns to investors from different countries. Take the case of a German government bond denominated in euros. From the perspective of a German or Dutch investor, this bond generates a risk-free return (assuming there is no inflation), because the euro is also the investor's domestic currency. But the bond's return is not risk free for investors in the United States, because the return measured in U.S. dollars will vary with the dollar-to-euro exchange rate.
 
 As a general rule, investors from countries with different currencies are likely to disagree about an asset's expected return and risk. In theory, this means that the standard CAPM no longer holds, and a more complex, international CAPM is required. In practice, however, we find that the CAPM-based approach as laid out in Chapter 15 is still valid for estimating the cost of capital for cross-border investments. This appendix provides further background for our recommendations and practical guidelines for estimating the cost of capital in foreign currency.
 
-# GLOBAL CAPM
+## GLOBAL CAPM
 
 Investors' disagreement about the return and risk of international investments disappears if purchasing power parity (PPP) holds across all currencies. In that case, changes in exchange rates perfectly match differences in inflation between currencies:
 
@@ -11554,7 +11553,7 @@ Technically, the global CAPM is valid only if PPP holds. Evidence on PPP has bee
 
 For investors and companies able to invest outside their home markets without restrictions, we recommend using the global CAPM to estimate the cost of capital for foreign as well as domestic investments. Effectively, this means applying the approach described in Chapter 15. Although the alternative, international CAPM (discussed next), may be theoretically superior, it is far more complex and does not lead to materially different results in practice.
 
-# INTERNATIONAL CAPM
+## INTERNATIONAL CAPM
 
 If PPP does not hold, real returns from foreign assets are no longer free from currency risk, because changes in exchange rates are not offset by differences in inflation. The greater the correlation between the return on a foreign asset and the relevant currency rate, the higher the risk for an investor. Take, for example, a Dutch company whose stock returns, measured in euros, tend to be higher when the euro appreciates against the U.S. dollar and vice versa (for instance, because the company imports components from the United States and sells end products in Europe). The stock's returns will be riskier for an American investor than for a European investor, because the exchange rate tends to amplify the returns when translated into U.S. dollars. The absence of PPP means that disparities between dollar and euro inflation will not offset this difference in returns when measured in real terms.
 
@@ -11587,7 +11586,7 @@ Although theoretically correct, the international CAPM is probably too cumbersom
 
 Another reason not to use the international CAPM is that empirical research has shown that the currency risk premiums are typically too small to matter when estimating a cost of capital. According to recent research that compared cost of capital estimates from a global and an international CAPM for large U.S. companies, differences are probably less than half a percentage point. As we can see from Equations G.1 and G.2, the international CAPM simplifies to the global CAPM when currency risk premiums are negligible. In other words, PPP apparently holds sufficiently well for the global CAPM to lead to the same cost of capital as the international CAPM. Expressed either way, this evidence reinforces our recommendation to use the global CAPM.
 
-# LOCAL CAPM
+## LOCAL CAPM
 
 Some practitioners and academic researchers propose estimating the cost of capital for an investment opportunity in a particular country by using a local CAPM. The investment's beta is then estimated versus the market portfolio of the country, and the market risk premium follows from the excess return of that same market portfolio over the local risk-free rate. The approach is theoretically correct if stocks are correlated to the global market portfolio only through the local market:
 
@@ -11646,7 +11645,7 @@ R. Harris, F. Marston, D. Mishra, and T. O'Brien, "Ex-Ante Cost of Equity Estima
  See C. Koedijk, C. Kool, P. Schotman, and M. van Dijk, "The Cost of Capital in International Financial Markets: Local or Global?", Journal of International Money and Finance 21, no. 6 (2002): 905-929.
  E. Dimson, P. Marsh, and M. Staunton, *Triumph of the Optimists: 101 Years of Global Investment Returns* (Princeton, NJ: Princeton University Press, 2002); and E. Dimson, P. Marsh, M. Staunton, and J. Wilmot, *Credit Suisse Global Investment Returns Yearbook* 2016 (London: Credit Suisse Research Institute, 2016).
 
-# EXHIBIT G.1 Comparing Risk Premiums across Countries and over Time
+## EXHIBIT G.1 Comparing Risk Premiums across Countries and over Time
 
 Annualized market risk premium over 1-year Treasury bills, \%
 
@@ -11665,13 +11664,13 @@ Source: R. Roll, "Industrial Structure and the Comparative Behaviour of Internat
 
 We recommend a local CAPM only for investors and companies facing restrictions on investing abroad. In that case, the local market portfolio is the right reference to estimate the cost of capital. As a result, valuations in such restricted markets can be out of line with those in global markets—which is what we have encountered in the past for valuations in, for example, Asian stock markets.
 
-# A Valuation of Costco Wholesale
+## A Valuation of Costco Wholesale
 
 This appendix shows a typical outside-in valuation model, using Costco Wholesale as an example. Our historical analysis is based on Costco's published income statements and balance sheets from its 2015 to 2019 annual reports. Companies rarely restate balance sheets more than one or two years back in time, so we use original data to avoid confusion. The line item names and references to footnotes are worded according to the conventions of the 2019 annual report.
 
 The valuation process we apply here is detailed in Part Two. The following commentary provides an informal guide to each of the exhibits, including clarification of items that may not be apparent. We hope our references to specific chapters will help readers connect the exhibits to general principles explored in the book.
 
-# MODELING THE FINANCIAL STATEMENTS
+## MODELING THE FINANCIAL STATEMENTS
 
 The valuation process begins by modeling the financial statements in a spreadsheet, including the income statement, the balance sheet, the statement of shareholders' equity, and the tax reconciliation table. The first three statements for Costco are presented in the annual report following the auditor's letter. The company's tax reconciliation table is found in the notes to the financial statements.
 
@@ -11689,7 +11688,7 @@ Exhibit H.3: Statement of Shareholders' Equity. The statement of shareholders' e
 
 Exhibit H.4: Tax Reconciliation Table. The tax reconciliation table is required to estimate operating taxes and reconcile net operating profit after taxes (NOPAT) to net income. Costco reports the tax reconciliation table in Note 8, Taxes. While most companies report the table in either their home currency or percentages, Costco reports both versions.
 
-# REORGANIZING THE FINANCIAL STATEMENTS
+## REORGANIZING THE FINANCIAL STATEMENTS
 
 With financial statements in hand, we next reorganize them into NOPAT, operating taxes, invested capital, and total funds invested. Here we briefly describe the reorganization; Chapter 11 presents a full description of how to reorganize the financial statements.
 
@@ -11715,7 +11714,7 @@ Exhibit H.9: Reconciliation of Total Funds Invested. To better understand how th
 
 Costco's total funds invested are financed mostly by equity. For more on how to evaluate and create an appropriate capital structure to support the operations of a business, see Chapter 33.
 
-# FORECASTING THE FINANCIALS
+## FORECASTING THE FINANCIALS
 
 For each financial statement, we present a ten-year forecast. Chapter 13 demonstrates how to create a set of forecasts, link your forecasts to the financial statements, and avoid common pitfalls.
 
@@ -11734,7 +11733,7 @@ Exhibit H.12: Free Cash Flow and Cash Flow to Investors. Exhibit H.12 shows how 
 
 Exhibit H.13: Reconciliation of Cash Flow to Investors. To reconcile cash flow to investors, we accumulate the changes in debt and equity accounts. Debt includes traditional debt, capital leases, and capitalized operating leases. Equity includes stock-based compensation, repurchases of common stock, dividends, and payments to noncontrolling interests.
 
-# ESTIMATING CONTINUING VALUE
+## ESTIMATING CONTINUING VALUE
 
 Next, use a continuing-value formula to estimate the value of cash flows beyond the explicit forecast period. Start using the continuing-value formula only at the point when the company has reached a steady state.
 
@@ -11743,7 +11742,7 @@ Exhibit H.14: Continuing Value. We use the key value driver formula to estimate 
 One critical forecast in the continuing value is long-run revenue growth. Given the historical strength of Costco's ability to grow, we use a growth rate of 4 percent to estimate the long-run growth rate. For a comprehensive discussion of how to estimate continuing value, see Chapter 14.
 
 
-# ESTIMATING THE WEIGHTED AVERAGE COST OF CAPITAL
+## ESTIMATING THE WEIGHTED AVERAGE COST OF CAPITAL
 
 To value operations, discount cash flow at the weighted average cost of capital. The WACC incorporates the required return from all sources of capital into a single number.
 
@@ -11751,7 +11750,7 @@ Exhibit H.15: Weighted Average Cost of Capital. Net of excess cash, Costco uses 
 
 Likewise, when we estimate the cost of debt and cost of equity, we use the same debt-to-value ratio. For a comprehensive discussion of the cost of capital, see Chapter 15.
 
-# VALUING THE ENTERPRISE AND CONVERTING TO EQUITY
+## VALUING THE ENTERPRISE AND CONVERTING TO EQUITY
 
 To value Costco, we use both enterprise DCF and discounted economic profit. Free cash flow (FCF) models measure how cash flows in and out of the company, regardless of accounting. Economic profit links better to value creation. Implemented correctly, both models will lead to the same valuation result.
 
@@ -11765,7 +11764,7 @@ Exhibit H.17: ROIC and Economic Profit. A robust valuation will focus not only o
 
 Exhibit H.18: Valuation Using Economic Profit. To determine the value of operations, add discounted economic profit to invested capital. As expected, an economic-profit-based valuation leads to the same value of operations as an enterprise DCF valuation.
 
-# PUTTING THE MODEL TO WORK
+## PUTTING THE MODEL TO WORK
 
 While the valuation model is complete, a good financial analyst or investor will now put it to work. Ask yourself several questions: Which variables are the most critical to value? What is the value if performance remains unchanged? How does this value differ from one based on other forecasts? What is the value with proposed improvements? Are there scenarios that may provide additional insights on various strategies?
 
@@ -11892,7 +11891,7 @@ EXHIBIT H.18 Costco: Valuation Using Economic Profit
 
 Invested capital measured at the beginning of the year.
 
-# Two-Stage Formula for Continuing Value
+## Two-Stage Formula for Continuing Value
 
 In certain situations, you may want to break up the continuing-value (CV) period into two periods with different assumptions for growth and return on invested capital (ROIC). In a situation such as this, you can use a two-stage variation of the value driver formula for discounted cash flow (DCF) valuations. The first stage is based on a limited-life annuity formula, and the second stage is based on a perpetuity:
 

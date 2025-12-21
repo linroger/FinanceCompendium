@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: Banks
 linter-yaml-title-alias: Banks
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [banks, valuation, financial institutions]
+secondary_tags: [net interest income, fee income, trading income, credit crisis]
 ---
 
-# Banks
+## Banks
 
 Banks are among the most complex businesses to value, especially from the outside in. Published accounts give an overview of a bank's financial performance but often lack vital information about its underlying economics, such as the extent of its credit losses or any mismatch between its assets and liabilities. Moreover, banks are highly levered, making bank valuations even more contingent on changing economic circumstances than are valuations in other sectors. Finally, most banks are in fact multibusiness companies, requiring separate analysis and valuation of their key business segments. So-called universal banks today engage in a wide range of businesses, including retail and wholesale banking, investment banking, and asset management.
 

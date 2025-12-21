@@ -1,12 +1,17 @@
 ---
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VIII. Portfolio Management/FINM Markets Foundation
 cssclasses: academia
 title: Build Data Factor Pricing Analysis
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [build data, factor pricing analysis, portfolio management]
+secondary_tags: [fama french, risk factors, data analysis]
 ---
 
-# Build Data Factor Pricing Analysis
+## Build Data Factor Pricing Analysis
 
 ```python
 import pandas as pd

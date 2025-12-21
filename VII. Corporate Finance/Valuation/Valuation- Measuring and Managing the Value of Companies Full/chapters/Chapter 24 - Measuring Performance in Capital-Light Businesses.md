@@ -1,16 +1,18 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
-cssclasses: academia
 title: Measuring Performance in Capital-Light Businesses
-linter-yaml-title-alias: Measuring Performance in Capital-Light Businesses
-formatted: "2025-12-20 07:52:00 PM"
-formatter_model: "claude-sonnet-4"
-cli-tool: "opencode"
-primary_tags: [capital-light businesses, return on capital, intangible investments]
-secondary_tags: [rd capitalization, economic profit, revenue-based measures]
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - capital-light businesses
+  - return on capital
+  - intangible investments
+secondary_tags:
+  - rd capitalization
+  - economic profit
+  - revenue-based measures
+cssclasses: academia
 ---
 
 ## Measuring Performance in Capital-Light Businesses
@@ -18,6 +20,21 @@ secondary_tags: [rd capitalization, economic profit, revenue-based measures]
 In this book, our primary measure of return on capital is return on invested capital (ROIC). We define ROIC as net operating profit after taxes (NOPAT) divided by invested capital. We derive ROIC from items on a company's financial statements, with some adjustments, such as separating operations from financing and separating operating items from nonoperating items. ROIC correctly reflects return on capital in most cases, but special circumstances require alternative measures. For example, a young biotech company could spend a billion dollars on research and development (R&D) before its product is launched. Since R&D is expensed, not capitalized, the company would show a negative ROIC in its early years and a very high ROIC once the product is launched. The actual economic return on capital over the life of the product would lie at some average level in between.
 
 In this chapter, we show how to deal with such investments in R&D and in marketing and sales that are expensed when they are incurred. Creating pro forma financial statements that capitalize these expenses can provide more insight into the underlying economics of a business. In addition, we discuss businesses with very low capital requirements, where we recommend using economic profit or economic profit scaled by revenues to measure return on capital.
+
+```d2
+capital-light performance measures: {
+  shape: flowchart
+  
+  roic: "ROIC (for normal capital businesses)"
+  capitalize_intangibles: "Capitalize Intangibles (R&D, Brands)"
+  adjusted_roic: "Adjusted ROIC"
+  economic_profit: "Economic Profit (for low capital)"
+  economic_profit_per_revenue: "Economic Profit / Revenues (for comparisons)"
+  
+  roic -> capitalize_intangibles -> adjusted_roic
+  roic -> economic_profit -> economic_profit_per_revenue
+}
+```
 
 # CAPITALIZING EXPENSED INVESTMENTS
 

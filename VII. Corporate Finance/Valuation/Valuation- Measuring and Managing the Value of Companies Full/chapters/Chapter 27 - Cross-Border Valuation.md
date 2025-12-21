@@ -1,11 +1,18 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Cross-Border Valuation
-linter-yaml-title-alias: Cross-Border Valuation
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
+formatted: 2025-12-20 11:50:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - cross-border valuation
+  - foreign currency
+  - exchange rates
+secondary_tags:
+  - dcf methods
+  - cost of capital
+  - wacc conversion
+cssclasses: academia
 ---
 
 # Cross-Border Valuation
@@ -21,6 +28,35 @@ Nevertheless, the following issues arise in cross-border valuations and still re
 - Using translated foreign-currency financial statements
 
 This chapter highlights the steps involved in the special analyses required for each of these issues.
+
+```d2
+cross_border_valuation: {
+  direction: right
+
+  cash_flow_methods: {
+    label: "Cash Flow Translation Approaches"
+
+    spot_rate_method: "Spot-Rate Method\n(Project in foreign currency\nDiscount at foreign WACC\nConvert at spot rate)"
+    forward_rate_method: "Forward-Rate Method\n(Project in foreign currency\nConvert at forward rates\nDiscount at domestic WACC)"
+  }
+
+  cost_of_capital_methods: {
+    label: "Cost of Capital Frameworks"
+
+    global_capm: "Global CAPM\n(Integrated capital markets\nSingle global risk pricing)"
+    local_capm: "Local CAPm\n(Market segmentation\nDomestic risk pricing)"
+  }
+
+  valuation: "Firm / Project Valuation"
+  cost_of_capital: "Cost of Capital"
+
+  cash_flow_methods.spot_rate_method -> valuation
+  cash_flow_methods.forward_rate_method -> valuation
+
+  cost_of_capital_methods.global_capm -> cost_of_capital
+  cost_of_capital_methods.local_capm -> cost_of_capital
+}
+```
 
 # FORECASTING CASH FLOWS
 

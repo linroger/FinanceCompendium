@@ -2,10 +2,15 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VIII. Portfolio Management/FINM Markets Foundation
 cssclasses: academia
 title: Load Data from Quandl
 linter-yaml-title-alias: Load Data from Quandl
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [build data, gmo, portfolio management]
+secondary_tags: [quandl, data loading, financial indices]
 ---
 
 ```python

@@ -1,12 +1,16 @@
 ---
+title: Introduction To Quantitative Trading
 parent_directory: FINM Quantitative Trading Strategies/Lecture Notes
-title: "Lecture 01: Introduction To Quantitative Trading"
-tags:
-aliases:
-  - Introduction To Quantitative Trading
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+formatted: 2025-12-20 07:07:30 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - quantitative trading introduction
+  - trading strategies basics
+secondary_tags:
+  - market inefficiency exploitation
+  - risk management fundamentals
+  - p and q models
 cssclasses: academia
 ---
 

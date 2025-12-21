@@ -17,7 +17,20 @@ secondary_tags: [internal rate of return, asset valuation, economic returns]
 
 Valuations often assume that historical return on capital is a good starting point for projecting future returns as a company grows. But if historical return on capital is measured in a way that gives us no meaningful information about value creation, decisions about whether to continue investing in a business may be incorrect. To be truly value based, the measure for return on capital should reflect the internal rate of return (IRR) of the underlying business from the time investments are made until all the cash flows from that investment have been collected. That's not possible in practice, because we can't wait until the end of every project to assess a company's performance; a business is an accumulation of different investments made at different times. So we need a proxy that measures how much value a company has created in the recent past and that can help a company with the particularly important task of planning for the future.
 
-Return on invested capital (ROIC), our primary measure of return on capital, correctly reflects value creation in most cases. But ROIC has some imperfections. For example, it doesn't account for the age of assets or the effect that inflation has on its measurement. Analysts have therefore proposed alternatives to overcome some of ROIC's weaknesses. One of these, cash flow return on investment (CFROI), is estimated from cash flows rather than from accounting measures. CFROI is the better measure of value creation in certain rare situations. This chapter explores the conditions under which ROIC accurately reflects the true economic return on capital and when to consider a more complex CFROI measure. We then look at some other alternatives and explain why they are flawed measures of value creation.
+Return on invested capital (ROIC), our primary measure of return on capital, correctly reflects value creation in most cases. But ROIC has some imperfections. For example, it doesn't account for the age of assets or the effect that inflation has on its measurement. Analysts have therefore proposed alternatives to overcome some of ROIC's weaknesses. One of these, cash flow return on investment (CFROI), is estimated from cash flows rather than from accounting measures. CFROI is the better measure of value creation in certain rare situations.
+
+```d2
+alternative roic measures: {
+  shape: flowchart
+  
+  roic: "ROIC (Primary Measure - NOPAT / Invested Capital)"
+  cfroi: "CFROI (Cash Flow ROI - For lumpy investments)"
+  cash_return: "Cash Return on Capital (Flawed - Overestimates IRR)"
+  
+  roic -> cfroi: "When assets have steady cash flows"
+  roic -> cash_return: "Avoid - Ignores depreciation"
+}
+``` This chapter explores the conditions under which ROIC accurately reflects the true economic return on capital and when to consider a more complex CFROI measure. We then look at some other alternatives and explain why they are flawed measures of value creation.
 
 As we compare these measures, note that all of them apply this important principle: any measure of return on capital should be based on the amount invested, not the current market value of the company or its assets.
 

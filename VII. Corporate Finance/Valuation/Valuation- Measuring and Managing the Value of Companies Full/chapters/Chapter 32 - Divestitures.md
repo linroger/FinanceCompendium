@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: Divestitures*
 linter-yaml-title-alias: Divestitures*
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [divestitures, value creation, portfolio management]
+secondary_tags: [spin-offs, carve-outs, asset sales]
 ---
 
-# Divestitures*
+## Divestitures*
 
 Divestitures, like mergers and acquisitions, tend to occur in waves, as Exhibit 32.1 shows. In the decade following the conglomerate excesses of the 1960s and 1970s, many companies refocused their portfolios. These divestitures were generally sales to other companies or private buyout firms. By the 1990s, divestiture activity included more public-ownership transactions—spin-offs, carve-outs, and tracking stocks. Such public-ownership transactions have since become an established divestment approach, although most divestitures still take the form of deals between companies.
 

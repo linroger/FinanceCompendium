@@ -12,6 +12,10 @@ body,
   --font-medium: 500;
   --font-semibold: 600;
   --font-bold: 700;
+  --font-interface: var(--font-interface-theme);
+  --font-text: var(--font-text-theme);
+  --font-ui: var(--font-interface-theme);
+  --font-monospace: "SF Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --titlebar-background: transparent;
   --titlebar-background-focused: transparent;
   --divider-color-hover: var(--color-base-50);
@@ -59,11 +63,45 @@ body,
 
 .theme-light {
   --workspace-background-translucent: rgb(from var(--background-secondary) r g b / var(--translucent-light-opacity));
+  --mono-rgb-0: 255, 255, 255;
+  --mono-rgb-100: 0, 0, 0;
+  --color-base-00: #ffffff;
+  --color-base-05: #f7f7f8;
+  --color-base-10: #f2f2f7;
+  --color-base-20: #e5e5ea;
+  --color-base-25: #d1d1d6;
+  --color-base-30: #c7c7cc;
+  --color-base-35: #b8b8bd;
+  --color-base-40: #aeaeb2;
+  --color-base-50: #8e8e93;
+  --color-base-60: #6e6e73;
+  --color-base-70: #5c5c5f;
   --color-base-80: #3c3c43;
   --color-base-90: #1d1d1f;
+  --color-base-100: #0b0b0c;
+  --background-primary: #fbfbfd;
+  --background-primary-alt: #f5f5f7;
+  --background-secondary: #f0f0f4;
+  --background-secondary-alt: #e8e8ee;
+  --background-modifier-hover: rgba(60, 60, 67, 0.08);
+  --background-modifier-border: rgba(60, 60, 67, 0.14);
+  --background-modifier-border-hover: rgba(60, 60, 67, 0.22);
+  --interactive-normal: var(--background-primary);
+  --interactive-hover: color-mix(in srgb, var(--background-primary) 80%, var(--color-base-20));
+  --interactive-accent: #0a84ff;
+  --interactive-accent-hover: #409cff;
+  --interactive-accent-hsl: 210, 100%, 52%;
+  --color-accent: #0a84ff;
+  --color-accent-hsl: 210, 100%, 52%;
+  --text-normal: var(--color-base-90);
+  --text-muted: var(--color-base-70);
+  --text-faint: var(--color-base-50);
+  --text-accent: var(--color-accent);
+  --text-on-accent: #ffffff;
+  --text-highlight: var(--text-normal);
   --liquid-glass-highlight: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 50%);
   --liquid-glass-border: rgba(0, 0, 0, 0.08);
-  --liquid-glass-background: rgba(255, 255, 255, 0.5);
+  --liquid-glass-background: rgba(255, 255, 255, 0.6);
   --liquid-glass-tint: rgba(255, 255, 255, 0.7);
   --blur-xs: blur(4px);
   --blur-s: blur(8px);
@@ -83,8 +121,42 @@ body,
 
 .theme-dark {
   --workspace-background-translucent: rgb(from var(--background-secondary) r g b / var(--translucent-dark-opacity));
+  --mono-rgb-0: 0, 0, 0;
+  --mono-rgb-100: 255, 255, 255;
+  --color-base-00: #0b0b0c;
+  --color-base-05: #131316;
+  --color-base-10: #1c1c1e;
+  --color-base-20: #2c2c2e;
+  --color-base-25: #3a3a3c;
+  --color-base-30: #3f3f41;
+  --color-base-35: #48484a;
+  --color-base-40: #545456;
+  --color-base-50: #636366;
+  --color-base-60: #8e8e93;
+  --color-base-70: #aeaeb2;
   --color-base-80: #ebebf5;
   --color-base-90: #f5f5f7;
+  --color-base-100: #ffffff;
+  --background-primary: #1c1c1e;
+  --background-primary-alt: #2c2c2e;
+  --background-secondary: #242427;
+  --background-secondary-alt: #2f2f33;
+  --background-modifier-hover: rgba(255, 255, 255, 0.08);
+  --background-modifier-border: rgba(255, 255, 255, 0.16);
+  --background-modifier-border-hover: rgba(255, 255, 255, 0.24);
+  --interactive-normal: var(--background-primary-alt);
+  --interactive-hover: color-mix(in srgb, var(--background-primary-alt) 85%, var(--color-base-50));
+  --interactive-accent: #0a84ff;
+  --interactive-accent-hover: #409cff;
+  --interactive-accent-hsl: 210, 100%, 52%;
+  --color-accent: #0a84ff;
+  --color-accent-hsl: 210, 100%, 52%;
+  --text-normal: var(--color-base-90);
+  --text-muted: var(--color-base-70);
+  --text-faint: var(--color-base-60);
+  --text-accent: var(--color-accent);
+  --text-on-accent: #ffffff;
+  --text-highlight: var(--text-normal);
   --liquid-glass-highlight: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0) 50%);
   --liquid-glass-border: rgba(255, 255, 255, 0.1);
   --liquid-glass-background: rgba(255, 255, 255, 0.08);
@@ -169,7 +241,7 @@ body:not(.mod-macos):not(.is-mobile) .titlebar .titlebar-button-container.mod-ri
 body:not(.mod-macos):not(.is-mobile) .titlebar .titlebar-button-container.mod-right .titlebar-button.mod-close svg {
   -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' viewBox='0 0 12 12'%3e%3cpath fill='black' d='m6 6.848-4.975 4.974a.618.618 0 0 1-.856.006.618.618 0 0 1 .006-.855L5.15 5.998.175 1.024c-.226-.227-.24-.628 0-.85a.606.606 0 0 1 .85 0l4.974 4.975L10.974.174a.606.606 0 0 1 .85 0 .606.606 0 0 1 0 .85L6.848 5.998l4.974 4.975a.606.606 0 0 1 0 .85c-.222.239-.623.225-.85 0L6 6.847Z'/%3e%3c/svg%3e");
 }
-body:not(.mod-macos):not(.is-mobile) .titlebar .titlebar-button-container.mod-right.is-maximized .titlebar .titlebar-button-container.mod-right .titlebar-button.mod-maximize svg {
+body:not(.mod-macos):not(.is-mobile) .titlebar .titlebar-button-container.mod-right.is-maximized .titlebar-button.mod-maximize svg {
   -webkit-mask-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' viewBox='0 0 12 12'%3e%3cpath fill='black' d='M10.799 3.557C10.799 2.27 9.67 1.2 8.396 1.2H2.502a1.808 1.808 0 0 1 1.7-1.2h4.194C10.352 0 12 1.641 12 3.598v4.2c0 .758-.484 1.45-1.201 1.7V3.557ZM1.769 12C.826 12 0 11.175 0 10.23V4.172c0-.941.828-1.77 1.77-1.77h6.058c.945 0 1.77.825 1.77 1.77v6.058c0 .942-.829 1.77-1.77 1.77H1.77Zm6.03-1.201a.61.61 0 0 0 .603-.598v-6a.607.607 0 0 0-.603-.603h-6A.61.61 0 0 0 1.2 4.2v6c0 .325.273.598.598.598h6Z'/%3e%3c/svg%3e");
 }
 
@@ -218,8 +290,8 @@ body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-android:not(.android
   --blur-l: none;
 }
 body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-android:not(.android-off)).theme-light {
-  --liquid-glass-background: rgba(255, 255, 255, 0.5);
-  --background-modifier-border: rgba(0, 0, 0, 0.075);
+  --liquid-glass-background: rgba(255, 255, 255, 0.6);
+  --background-modifier-border: rgba(60, 60, 67, 0.14);
   --shadow-base: inset 1px 1px 2px rgba(255, 255, 255, 0.5), inset -1px -1px 2px rgba(255, 255, 255, 0.5), inset 0 4px 16px rgba(255, 255, 255, 0.025);
   --shadow-border: 0 0 1px 0 rgba(0, 0, 0, 0.4);
   --shadow-xs: var(--shadow-base), inset 0 -8px 48px rgba(0, 0, 0, 0.02), 0 0 8px rgba(0, 0, 0, 0.025), 0 4px 48px rgba(0, 0, 0, 0.15);
@@ -227,8 +299,8 @@ body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-android:not(.android
   --shadow-l: var(--shadow-border), inset 0 0 1px 1px white, 0 16px 64px 0 rgba(0, 0, 0, 0.15);
 }
 body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-android:not(.android-off)).theme-dark {
-  --liquid-glass-background: rgba(255, 255, 255, 0.075);
-  --background-modifier-border: rgba(255, 255, 255, 0.15);
+  --liquid-glass-background: rgba(255, 255, 255, 0.1);
+  --background-modifier-border: rgba(255, 255, 255, 0.16);
   --shadow-base: inset 1px 1.5px 1px -1px rgba(255, 255, 255, 0.2), inset -1px -1.5px 1px -1px rgba(255, 255, 255, 0.15), inset 0 4px 16px rgba(255, 255, 255, 0.025);
   --shadow-border: 0 0 1px 0 rgba(255, 255, 255, 0.3);
   --shadow-xs: var(--shadow-base);
@@ -242,7 +314,7 @@ body:is(.liquid-glass-off, :not(.liquid-glass-off)).theme-light {
   --color-yellow-rgb: 255, 204, 0;
   --color-green-rgb: 52, 199, 89;
   --color-cyan-rgb: 0, 192, 232;
-  --color-blue-rgb: 0, 136, 255;
+  --color-blue-rgb: 10, 132, 255;
   --color-purple-rgb: 203, 48, 224;
   --color-pink-rgb: 255, 45, 85;
 }
@@ -253,7 +325,7 @@ body:is(.liquid-glass-off, :not(.liquid-glass-off)).theme-dark {
   --color-yellow-rgb: 255, 214, 0;
   --color-green-rgb: 48, 209, 88;
   --color-cyan-rgb: 60, 211, 254;
-  --color-blue-rgb: 0, 145, 255;
+  --color-blue-rgb: 10, 132, 255;
   --color-purple-rgb: 107, 52, 242;
   --color-pink-rgb: 255, 55, 95;
 }
@@ -1020,6 +1092,11 @@ body.is-phone .modal:not(.mod-sidebar-layout) > button:last-child {
 .suggestion-container {
   -electron-corner-smoothing: system-ui;
   padding: 0;
+  background-color: color-mix(in srgb, var(--liquid-glass-background) 70%, var(--liquid-glass-tint));
+  border: 1px solid var(--liquid-glass-border);
+  box-shadow: var(--shadow-m);
+  backdrop-filter: var(--blur-m);
+  -webkit-backdrop-filter: var(--blur-m);
 }
 .menu .menu-item,
 .menu .suggestion-item,
@@ -1578,9 +1655,9 @@ body.is-mobile {
   --input-border-width-focus: 0;
 }
 body.is-mobile.theme-dark {
-  --color-base-00: #1e1e1e;
-  --color-base-10: #242424;
-  --color-base-20: #262626;
+  --color-base-00: #0b0b0c;
+  --color-base-10: #1c1c1e;
+  --color-base-20: #2c2c2e;
   --search-result-background: var(--background-primary);
 }
 body.is-mobile .workspace-drawer-inner {
@@ -1637,7 +1714,7 @@ body.is-phone .mobile-tab-switcher-menubar {
   border-top: none;
 }
 body.is-phone .mobile-navbar-tabs-action {
-  font-family: "Inter";
+  font-family: var(--font-interface);
 }
 
 body.is-tablet {
@@ -2866,7 +2943,7 @@ body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-mobile) {
   --radius-l: 16px;
   --radius-xl: 20px;
   --radius-xxl: 24px;
-  --radius-window: 10px;
+  --radius-window: 14px;
   --radius-capsule: 100vh;
   --control-height-s: 24px;
   --control-height-m: 28px;
@@ -6681,19 +6758,19 @@ span[src$="#interface"] img {
 }
 
 body.is-mobile.theme-dark {
-  --system-status-background: black;
-  --mobile-sidebar-background: black;
-  --tab-background-active: black;
+  --system-status-background: var(--background-primary);
+  --mobile-sidebar-background: var(--background-secondary);
+  --tab-background-active: var(--background-primary);
   --background-primary-alt: var(--color-base-05);
   --background-secondary-alt: var(--color-base-10);
-  --background-modifier-border: var(--background-modifier-hover);
-  background-color: black;
+  --background-modifier-border: rgba(255, 255, 255, 0.16);
+  background-color: var(--background-primary);
 }
 body.is-mobile.theme-dark.is-mobile .mod-root .view-header,
 body.is-mobile.theme-dark .workspace,
 body.is-mobile.theme-dark .mod-root .view-header::before,
 body.is-mobile.theme-dark .mod-root .view-content {
-  background-color: black !important;
+  background-color: var(--background-primary) !important;
 }
 
 body:not(.is-mobile) .backlink-pane .search-result-file-match:not(:hover) .search-result-file-match-replace-button {

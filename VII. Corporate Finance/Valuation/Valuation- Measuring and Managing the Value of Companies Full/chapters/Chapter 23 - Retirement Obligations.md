@@ -18,6 +18,19 @@ secondary_tags: [nonoperating assets, unfunded liabilities, operating expenses]
 
 Following the passage of FASB Statement 158 under U.S. GAAP in 2006, companies now report the present value of pension shortfalls (and excess pension assets) on their balance sheets.[14] Since excess pension assets do not generate operating profits, nor do pension shortfalls fund operations, pension accounts should not be included in invested capital. Instead, pension assets should be treated as nonoperating assets, and pension shortfalls as a debt equivalent (and both should be valued separately from operations). If pension accounts are not explicitly detailed on the company's balance sheet, search the pension footnote to determine where they are embedded. Often excess pension assets are embedded in other assets, and unfunded pension liabilities are in other liabilities.
 
+```d2
+retirement obligations valuation: {
+  shape: flowchart
+  
+  pension_assets: "Excess Pension Assets (Nonoperating Assets)"
+  pension_liabilities: "Unfunded Pension Liabilities (Debt Equivalent)"
+  valuation: "Value Separately from Operations"
+  
+  pension_assets -> valuation
+  pension_liabilities -> valuation
+}
+```
+
 Reporting rules under IFRS (IAS 19) differ slightly in that companies can postpone recognition of their unfunded pension obligations resulting from changes in actuarial assumptions, but only as long as the cumulative unrecognized gain or loss does not exceed 10 percent of the obligations. For companies reporting under IFRS, search the notes for the current value of obligations.
 
 On the income statement, new GAAP accounting for pensions in 2018 dictates that only service cost—the new benefits promised to employees for service rendered in a given year—be included in operating expenses like cost of goods sold.[15] The remaining items, such as expected return on assets and interest cost on the liabilities, are now included as nonoperating income or expense. For years prior to 2018, an adjustment is still required.

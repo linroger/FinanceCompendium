@@ -2,13 +2,18 @@
 aliases:
 tags:
 key_concepts:
-parent_directory:
+parent_directory: VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters
 cssclasses: academia
 title: "Strategic Management: Analytics"
 linter-yaml-title-alias: "Strategic Management: Analytics"
+formatted: "2025-12-20 07:52:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags: [strategic management, analytics, value creation]
+secondary_tags: [resource allocation, performance management, business units]
 ---
 
-# Strategic Management: Analytics
+## Strategic Management: Analytics
 
 The value that a company creates is the sum of the outcomes of innumerable business decisions that its managers and staff take at every level, from choosing when to open the door to customers to deciding whether to acquire a new business. Successful strategic management encompasses all the tasks a company undertakes to achieve its strategic goals and create long-term value.
 
