@@ -1,25 +1,35 @@
---- aliases: null
-tags: null 
-key_concepts: null 
-parent_directory: null 
-cssclasses: academia 
-title: CHAPTER 1 
-linter-yaml-title-alias: CHAPTER 1 
+---
+title: The Foreign Exchange Market
 primary_tags:
-- currency currency according market
-- spot currency depreciates rates
-- forward exchange markets decide
-- pounds foreign exchange secondary_tags:
-- chapter foreign exchange market
-- outline introduction exchange rate
-- forward pounds speculators average
-- indicated forward exchange rate
-- quote rates foreign currency
-- market exchange rate definitions
-- ective exchange rates national
-- depreciation dollar london selling
-- exchange rate net sellers
-tags_extracted: '2025-12-18T01:29:55.742656'
+  - foreign_exchange_market
+  - exchange_rate_definitions
+  - spot_exchange_rates
+  - forward_exchange_rates
+  - currency_trading
+secondary_tags:
+  - bid_offer_spread
+  - cross_currency_arbitrage
+  - financial_centre_arbitrage
+  - nominal_exchange_rate
+  - real_exchange_rate
+  - effective_exchange_rate
+  - vehicle_currency
+  - us_dollar_trading
+  - central_bank_intervention
+  - foreign_exchange_brokers
+  - commercial_banks_fx
+  - retail_clients_fx
+  - forward_contracts
+  - spot_contracts
+  - currency_depreciation
+  - currency_appreciation
+  - exchange_rate_regimes
+  - fx_market_participants
+  - currency_pairs
+  - cross_rates
+  - bid_rate
+  - offer_rate
+cssclasses: academia
 ---
 
 # Chapter 1

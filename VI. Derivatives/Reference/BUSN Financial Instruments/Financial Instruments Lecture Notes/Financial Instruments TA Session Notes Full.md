@@ -898,5 +898,71 @@ $$
 a. For example:  $S_{uu,pre}(2) = S_{u,post}(1)\cdot u$
 
 6. For call payoff, use pre-dividend stock price.  
-7. For put payoff, use post-dividend stock price.  
+7. For put payoff, use post-dividend stock price.
 8. Intuition: Put option is more valuable as the stock price falls.
+
+## Additional D2 Diagrams for Financial Instruments
+
+### Covered Interest Rate Parity
+```d2
+# Covered Interest Rate Parity Framework
+domestic_investment: "Domestic Investment\n(exp(r_home * T) * N)"
+foreign_investment: "Foreign Investment\nConvert->Invest->Convert back"
+exchange_rate: "Exchange Rate M"
+forward_rate: "Forward Rate F"
+
+domestic_investment <-> foreign_investment: "No-Arbitrage Condition"
+foreign_investment -> exchange_rate: "N/M initial conversion"
+foreign_investment -> forward_rate: "F final conversion"
+domestic_investment -> "Home currency returns"
+foreign_investment -> "Equivalent home currency returns"
+forward_rate -> "F = M * exp((r_home - r_foreign) * T)"
+```
+
+### Binomial Option Pricing
+```d2
+# Binomial Tree Structure
+initial_node: "Initial Node\nS_0, c_0"
+up_node: "Up Node\nS_u, c_u"
+down_node: "Down Node\nS_d, c_d"
+uu_node: "Up-Up Node\nS_uu, c_uu"
+ud_node: "Up-Down Node\nS_ud, c_ud"
+dd_node: "Down-Down Node\nS_dd, c_dd"
+
+initial_node -> up_node: "Up movement"
+initial_node -> down_node: "Down movement"
+up_node -> uu_node: "Up movement"
+up_node -> ud_node: "Down movement"
+down_node -> ud_node: "Up movement"
+down_node -> dd_node: "Down movement"
+```
+
+### Currency Swap Structure
+```d2
+# Currency Swap Components
+bond_foreign: "Foreign Currency Bond\nValue X, Coupon c"
+bond_domestic: "Domestic Currency Bond\nValue X/M_0, Coupon K"
+principal_swap: "Principal Swap\nF: X, H: X/M_0"
+interest_swap: "Interest Swap\nPeriodic payments"
+swap_rate: "Swap Rate K"
+
+bond_foreign -> principal_swap: "Initial exchange"
+bond_domestic -> principal_swap: "Initial exchange"
+bond_foreign -> interest_swap: "Foreign interest payments"
+bond_domestic -> interest_swap: "Domestic interest payments"
+interest_swap -> swap_rate: "Determines payment amounts"
+```
+
+### Risk Neutral Valuation
+```d2
+# Risk Neutral vs Actual Probabilities
+actual_prob: "Actual Probability q\nBased on market analysis"
+risk_neutral_prob: "Risk Neutral Probability q*\nArbitrage-free pricing"
+stock_valuation: "Stock Valuation"
+option_valuation: "Option Valuation"
+
+actual_prob -> stock_valuation: "Fundamental valuation"
+risk_neutral_prob -> option_valuation: "Risk-neutral pricing"
+stock_valuation -> "S_0 = E_q[S_T] / (1+r_f)"
+option_valuation -> "C_0 = E_q*[C_T] / (1+r_f)"
+```

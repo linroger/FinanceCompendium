@@ -666,13 +666,6 @@ Routledge, B. R., D. J. Seppi, and C. S. Spatt. "Equilibrium Forward Curves for 
 5.9. Explain the meaning of cost of carry and convenience yield. What is the relationship between futures price, spot price, convenience yield, and cost of carry?
 5.10. Under what circumstances is the futures price greater than the expected future spot price according to (a) Keynes and Hicks and (b) systematic risk considerations?
 
-
-
-
-
-
-
-
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/fef9415f941ea29745914c2a1c37ce732cb006baee2a304071b9048a782c5f47.jpg)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/e4a3c432-f970-46aa-92e4-7e5c2a06d8f6/be27b44a1ca136a204004b26559051648bd78c72658b9a3da3b2487d527f5718.jpg)

@@ -2,7 +2,7 @@
 
 **Version:** 1.0
 **Scope:** Manual formatting remediation for FinanceCompendium vault documents
-**Mandatory:** This is a HIGH-TOUCH, FULLY MANUAL task to read through and fix formatting issues in the markdown notes with targeted edits to the documents, not blanket scripts that make edits across documents without even viewing them first. . NO SCRIPTS OR AUTOMATION PERMITTED.
+**Mandatory:** This is a HIGH-TOUCH, FULLY MANUAL task to read through and fix formatting issues in the markdown notes with targeted edits to the documents, not blanket scripts that make edits across documents without even viewing them first. . NO SCRIPTS OR AUTOMATION PERMITTED. Use the obsidian-markdown-formatter subagent located here styleguide/obsidian-markdown-formatter to perform the formatting tasks.
 
 ---
 
@@ -83,8 +83,66 @@ cssclasses: academia
 - Exactly ONE blank line after the closing `---` before content
 - formatted: Use current date/time in `YYYY-MM-DD HH:MM:SS AM/PM` format. Time when document formatting is complete
 - parent_directory: Name of the immediate parent folder in the vault
-formatter_agent: model used to format document
-cli_ tool: tool used for formatting
+formatter_agent: model used to format document. 
+- **claude-haiku-4-5-20251001** (anthropic)
+- **qwen3-235b-a22b-instruct** (iflow)
+- **gemini-3-pro-preview** (antigravity)
+- **claude-opus-4-5-20251101** (anthropic)
+- **gpt-5.1-codex-mini** (openai)
+- **gpt-5.1-codex-max** (openai)
+- **claude-sonnet-4** (github-copilot)
+- **grok-code-fast-1** (github-copilot)
+- **qwen3-max-preview** (iflow)
+- **qwen3-235b** (iflow)
+- **gpt-5.1-codex** (openai)
+- **gpt-5.2** (openai)
+- **deepseek-v3** (iflow)
+- **claude-sonnet-4-5-20250929** (anthropic)
+- **gemini-claude-sonnet-4-5-thinking** (antigravity)
+- **claude-opus-4.1** (github-copilot)
+- **claude-sonnet-4.5** (github-copilot)
+- **gpt-oss-120b-medium** (antigravity)
+- **claude-opus-4-20250514** (anthropic)
+- **gpt-4.1** (github-copilot)
+- **claude-haiku-4.5** (github-copilot)
+- **gemini-2.5-flash-lite** (antigravity)
+- **gemini-2.5-pro** (google)
+- **qwen3-coder-plus** (qwen)
+- **qwen3-max** (iflow)
+- **gemini-claude-sonnet-4-5** (antigravity)
+- **gpt-5.1** (openai)
+- **gpt-5-mini** (github-copilot)
+- **qwen3-235b-a22b-thinking-2507** (iflow)
+- **vision-model** (qwen)
+- **gemini-3-pro** (github-copilot)
+- **deepseek-v3.2-chat** (iflow)
+- **qwen3-coder-flash** (qwen)
+- **gemini-2.5-computer-use-preview-10-2025** (antigravity)
+- **deepseek-v3.1** (iflow)
+- **claude-opus-4.5** (github-copilot)
+- **qwen3-vl-plus** (iflow)
+- **deepseek-v3.2** (iflow)
+- **gemini-3-pro-image-preview** (antigravity)
+- **gemini-3-flash** (antigravity)
+- **gemini-claude-opus-4-5-thinking** (antigravity)
+- **claude-3-7-sonnet-20250219** (anthropic)
+- **tstars2.0** (iflow)
+- **kimi-k2** (iflow)
+- **claude-opus-4-1-20250805** (anthropic)
+- **claude-3-5-haiku-20241022** (anthropic)
+- **raptor-mini** (github-copilot)
+- **kimi-k2-0905** (iflow)
+- **glm-4.6** (iflow)
+- **kimi-k2-thinking** (iflow)
+- **minimax-m2** (iflow)
+- **gemini-2.5-flash** (antigravity)
+- **claude-sonnet-4-20250514** (anthropic)
+- **gpt-5-codex-mini** (openai)
+- **deepseek-r1** (iflow)
+- **qwen3-32b** (iflow)
+- **gpt-5** (openai)
+- **gpt-5-codex** (openai)
+cli_ tool: tool used for formatting. Options: claude-code, codex, gemini-cli, kimi-cli, iflow, jules, copilot, cursor, opencode. 
 **If frontmatter is missing:** Create it based on the document's H1 title and content.
 
 ### Phase 4: Chunk-by-Chunk Processing
@@ -509,3 +567,379 @@ Example final update:
 ---
 
 **Remember:** This is a manual, high-touch task. Read every line. Make targeted fixes. Document everything. No shortcuts.
+
+
+# Document Formatting Checklist for FinanceCompendium
+
+## Pre-Processing Verification
+- [ ] File path and name follow consistent naming conventions
+- [ ] Document begins with proper YAML frontmatter structure
+- [ ] Title is in title case without markdown formatting
+- [ ] All required YAML fields are present and properly formatted
+
+## YAML Frontmatter
+- [ ] `title` field is plain text, title case
+- [ ] `primary_tags` contains 3-8 most important concepts
+- [ ] `secondary_tags` contains 8-25 supporting concepts
+- [ ] All tags are multi-word phrases (2-4 words)
+- [ ] Tags use natural spaces, not snake_case or hyphens
+- [ ] Tags are lowercase (even proper nouns)
+- [ ] `cssclasses` is set to `academia`
+- [ ] No extraneous fields like `tags`, `key_concepts`, or linter-generated fields
+- [ ] Exactly one blank line after closing `---` before content
+
+## Document Structure
+- [ ] Single H1 header matching the YAML title
+- [ ] Proper heading hierarchy (H1 → H2 → H3 → H4)
+- [ ] No skipped heading levels
+- [ ] Consistent heading formatting throughout
+- [ ] All headings have proper spacing (blank line before)
+
+## Text and Paragraph Formatting
+- [ ] No mid-sentence line breaks without proper punctuation
+- [ ] No orphaned sentence fragments
+- [ ] Consistent paragraph spacing (single blank line between paragraphs)
+- [ ] No multiple consecutive blank lines
+- [ ] Proper capitalization and punctuation throughout
+- [ ] OCR artifacts corrected (e.g., "di erent" → "different")
+
+## Mathematical Expression Formatting
+- [ ] Inline math properly enclosed in `$...$` with no spaces
+- [ ] Display math properly enclosed in `$$...$$` on separate lines
+- [ ] All equation tags properly formatted as `\tag{X.Y}`
+- [ ] Words within equations use `\text{word}`
+- [ ] Greek letters properly formatted (e.g., `$\alpha$`, `$\beta$`)
+- [ ] Subscripts and superscripts properly grouped (e.g., `$x_{ij}$`, `$e^{rt}$`)
+- [ ] Fractions use `\frac{}{}` for complex expressions
+- [ ] Matrix and aligned equations use proper environments
+- [ ] All special finance notation is consistent throughout
+
+## List Formatting
+- [ ] All lists use `-` for bullet points (not `*`, `+`, or `•`)
+- [ ] No blank lines between list items
+- [ ] Proper spacing before and after lists (blank lines as needed)
+- [ ] Numbered lists properly formatted with dots: `1. Item`
+- [ ] Nested lists properly indented
+
+## Table Formatting
+- [ ] All tables use markdown format with pipes and dashes
+- [ ] Proper alignment markers (`:---`, `:---:`, `---:`)
+- [ ] Consistent cell content alignment
+- [ ] No HTML tables (convert to markdown if needed)
+
+## Image and Media Links
+- [ ] All image links preserved exactly as-is (no modifications)
+- [ ] No attempt to fix "broken" image paths
+- [ ] Image syntax left untouched (`![[image.png]]` or `![alt](path/to/image.png)`)
+
+## Content-Specific Formatting
+- [ ] Finance-specific notation is consistent (rates, yields, greeks, etc.)
+- [ ] Mathematical expressions follow finance conventions
+- [ ] Proper notation for derivatives, bonds, and other instruments
+- [ ] All cross-references and citations are properly formatted
+- [ ] Any practice/problem sections removed if at document end
+
+## Special Elements
+- [ ] Callouts (`> [!NOTE]`) preserved with proper formatting
+- [ ] Footnotes (`[^1]`) preserved exactly
+- [ ] Comments (`%% comment %%`) preserved
+- [ ] Code blocks (` ``` `) preserved with content intact
+- [ ] HTML elements preserved if present (tables, divs, etc.)
+
+## Post-Processing Verification
+- [ ] Document renders properly in Obsidian
+- [ ] All mathematical expressions render correctly
+- [ ] All links work as expected
+- [ ] No formatting artifacts or rendering errors
+- [ ] All original content preserved while improving structure
+- [ ] Document maintains academic/professional appearance
+
+## Tag Quality Verification
+- [ ] Primary tags represent core document identity
+- [ ] Secondary tags provide supporting context
+- [ ] Tags enable cross-linking within vault
+- [ ] Tags are specific enough to be meaningful
+- [ ] Tags follow consistent naming conventions
+- [ ] No redundant or overlapping tag concepts
+
+## Final Consistency Check
+- [ ] Style matches other documents in the same section
+- [ ] Terminology is consistent with finance compendium standards
+- [ ] Mathematical notation follows established conventions
+- [ ] All examples and figures are properly formatted
+- [ ] Citations and references follow consistent format
+
+# Mathematical Formatting Standards for Finance Documents
+
+## Purpose
+This guide establishes consistent mathematical formatting standards for all finance documents in the FinanceCompendium to ensure proper rendering, readability, and professional presentation.
+
+## Inline Mathematics
+
+### Basic Rules
+- Enclose inline math expressions in single dollar signs: `$x + y = z$`
+- No spaces between the `$` and the mathematical content
+- Use `\text{word}` for words within equations: `$\text{rate} = \frac{\text{distance}}{\text{time}}$`
+- Include proper spacing: `$x + y$` not `$x+y$`
+
+### Common Elements
+- Variables: `$r$` (interest rate), `$P$` (price), `$t$` (time)
+- Greek letters: `$\alpha$`, `$\beta$`, `$\gamma$`, `$\mu$`, `$\sigma$`, `$\lambda$`
+- Superscripts: `$x^2$`, `$e^{rt}$`, `$\sigma^2$`
+- Subscripts: `$r_t$`, `$P_{t,T}$`, `$\beta_{ij}$`
+- Fractions: `$\frac{a}{b}$` not `$a/b$` for complex expressions
+- Functions: `$\log(x)$`, `$\exp(x)$`, `$\sqrt{x}$`
+
+## Displayed Mathematics
+
+### Single Equations
+Use double dollar signs for displayed equations:
+```
+$$
+P(t, T) = \frac{1}{(1+r)^{T-t}}
+$$
+```
+
+### Aligned Equations
+For multiple equations or steps:
+```
+$$
+\begin{align}
+dS &= \mu S dt + \sigma S dW \\
+\frac{dS}{S} &= \mu dt + \sigma dW \\
+\end{align}
+$$
+```
+
+### Numbered Equations
+Use `\tag{}` for equation numbers:
+```
+$$
+P = \sum_{i=1}^{n} \frac{C_i}{(1+y)^i} \tag{3.1}
+$$
+```
+
+## Special Mathematical Constructs
+
+### Matrices
+```
+$$
+\mathbf{A} = 
+\begin{bmatrix}
+a_{11} & a_{12} \\
+a_{21} & a_{22}
+\end{bmatrix}
+$$
+```
+
+### Piecewise Functions
+```
+$$
+f(x) = 
+\begin{cases}
+x^2 & \text{if } x \geq 0 \\
+-x & \text{if } x < 0
+\end{cases}
+$$
+```
+
+### Summations and Integrals
+- Summations: `$\sum_{i=1}^{n} x_i$`
+- Products: `$\prod_{i=1}^{n} x_i$`
+- Integrals: `$\int_{a}^{b} f(x) dx$`
+- Double integrals: `$\iint_D f(x,y) \,dx\,dy$`
+
+## Probability and Statistics Notation
+
+### Expectations and Operators
+- Expectation: `$\mathbb{E}[X]$` or `$\hat{\mathbb{E}}[X]$`
+- Variance: `$\text{Var}(X)$` or `$\mathbb{V}[X]$`
+- Covariance: `$\text{Cov}(X,Y)$`
+- Probability: `$\mathbb{P}(A)$`
+
+### Stochastic Processes
+- Wiener process: `$dW_t$` or `$d\hat{W}_t$`
+- Ito processes: `$dX_t = \mu(X_t,t)dt + \sigma(X_t,t)dW_t$`
+- Quadratic variation: `$\langle W \rangle_t$`
+
+## Finance-Specific Notation
+
+### Interest Rates and Bonds
+- Spot rate: `$r(t)$`
+- Forward rate: `$f(t,T)$`
+- Zero-coupon bond: `$P(t,T)$`
+- Yield: `$y$`
+- Duration: `$D$`
+- Convexity: `$C$`
+
+### Options and Derivatives
+- Call option: `$C(S,K,T,r,\sigma)$`
+- Put option: `$P(S,K,T,r,\sigma)$`
+- Greeks: `$\Delta$`, `$\Gamma$`, `$\Theta$`, `$\rho$`, `$\nu$`
+- Strike price: `$K$`
+- Maturity: `$T$`
+
+### Risk Measures
+- Value at Risk: `$\text{VaR}_\alpha$`
+- Expected Shortfall: `$\text{ES}_\alpha$`
+- Sharpe ratio: `$S$`
+- Beta: `$\beta$`
+
+## Formatting Best Practices
+
+### Alignment and Spacing
+- Align equations at relation symbols (`=`) using `align` environment
+- Use consistent spacing around operators
+- Include blank lines before and after displayed equations
+- Use `\phantom{}` for consistent spacing when aligning complex expressions
+
+### Mixed Text and Math
+- Use `\text{}` for words within math mode: `$\text{NPV} = \sum \cdots$`
+- Capitalize proper nouns within `\text{}`: `$\text{Black-Scholes}$`
+- Avoid mixing math and text without `\text{}`
+
+### Complex Expressions
+- Break long expressions across multiple lines using `align` or `multline`
+- Use parentheses appropriately: `$\left( \frac{a}{b} \right)$` for sizing
+- Group terms logically: `$a(b + c) + d(e + f)$`
+
+## Common Mistakes to Avoid
+
+### Syntax Errors
+- Don't use `$$...$$` for inline math (use `$...$`)
+- Don't forget to escape special characters: `\%` not `%` in math mode
+- Don't use `_` or `^` without braces for multiple characters: `x_{ij}` not `x_ij`
+- Don't use spaces within math delimiters unnecessarily
+
+### Stylistic Issues
+- Don't mix notation styles inconsistently
+- Don't use fractions for simple ratios: `$a/b$` is fine for simple cases
+- Don't use `*` for multiplication in math mode (use `\cdot` or implicit)
+- Don't forget to use `\mathbb{}` for expected values and probabilities
+
+### Rendering Issues
+- Don't use Unicode characters in math mode (use LaTeX equivalents)
+- Don't nest math delimiters
+- Don't use raw HTML or special characters in equations
+- Don't include markdown formatting within math expressions
+
+## Verification Checklist
+
+Before finalizing a document, ensure:
+- [ ] All inline math is properly enclosed in `$...$`
+- [ ] All displayed math is properly enclosed in `$$...$$`
+- [ ] All equation numbers use `\tag{}`
+- [ ] All words within equations use `\text{}`
+- [ ] All Greek letters are properly formatted
+- [ ] All subscripts and superscripts are properly grouped
+- [ ] All fractions use `\frac{}{}`
+- [ ] All matrices and aligned equations use appropriate environments
+- [ ] All special finance notation is consistent
+- [ ] All equations render properly in Obsidian
+
+# Tag Classification Guide: Primary vs Secondary Tags
+
+## Purpose
+This guide establishes clear criteria for distinguishing between primary_tags and secondary_tags in Obsidian markdown documents to ensure consistent tagging across the FinanceCompendium.
+
+## Primary Tags: Core Identity Categories
+
+### Definition
+Primary tags represent the fundamental subject matter that defines what the document IS about. These are the essential, non-negotiable topics that would appear in the title or main heading of the document.
+
+### Criteria
+- **Essentiality**: Without these concepts, the document would lose its core identity
+- **Universality**: These appear throughout the document as central themes
+- **Search Frequency**: Likely to be searched by users looking for this specific topic
+- **Uniqueness**: Distinctive to the document's primary purpose
+
+### Examples
+- For a derivatives pricing document: `options pricing`, `black-scholes model`, `greeks`
+- For a fixed income document: `bond valuation`, `duration and convexity`, `yield curve`
+- For an equity document: `equity valuation`, `discounted cash flow`, `market multiples`
+
+### Quantity
+- 3-5 tags for most documents
+- Maximum of 8 for very comprehensive documents
+
+## Secondary Tags: Supporting Context Categories
+
+### Definition
+Secondary tags represent related concepts, methodologies, applications, and contextual information that support the primary topics but are not the core focus.
+
+### Criteria
+- **Supporting Role**: These enhance understanding but are not the main focus
+- **Specificity**: Often more detailed or specialized than primary tags
+- **Application Context**: Specific use cases, industries, or scenarios
+- **Methodological Details**: Specific techniques, variations, or implementations
+
+### Examples
+- For a derivatives document: `implied volatility`, `volatility surface`, `american options`, `exotic options`
+- For a fixed income document: `treasury bonds`, `corporate bonds`, `mortgage-backed securities`, `credit risk`
+- For an equity document: `growth stocks`, `value investing`, `sector rotation`, `momentum investing`
+
+### Quantity
+- 8-15 tags for most documents
+- Maximum of 25 for comprehensive documents
+
+## Distinction Between Primary and Secondary Tags
+
+### Primary Tags Are:
+- **Broad and Fundamental**: Core concepts that define the field/subject
+- **Title Reflective**: Directly related to the document title
+- **Search Driven**: What users would search for first
+- **Category Defining**: Place the document in its main category
+
+### Secondary Tags Are:
+- **Specific and Detailed**: More granular aspects of the subject
+- **Content Derived**: Topics covered within but not defining the document
+- **Cross-Reference Enabling**: Connect to related concepts elsewhere
+- **Context Providing**: Additional descriptors that enhance discovery
+
+## Selection Rules
+
+### For Primary Tags:
+1. **Must Appear in Title or Main Heading**: If it's in the title, it's likely a primary tag
+2. **Core Concept Test**: If removing this concept makes the document lose its identity
+3. **Frequency Test**: Appears consistently throughout the document
+4. **User Intent Match**: What would users expect to find in a document with this title
+5. **Hierarchical Position**: Higher-level, more general concepts
+
+### For Secondary Tags:
+1. **Supporting Material**: Topics covered but not central to the document
+2. **Specific Applications**: Particular use cases or implementations
+3. **Method Variants**: Specific techniques or approaches mentioned
+4. **Contextual Elements**: Industry, geography, time period, audience
+5. **Cross-Linking Potential**: Connect to other documents in the vault
+
+## Tag Format Standards
+
+### Naming Convention:
+- Use lowercase words
+- Separate multiple words with spaces: `interest rate modeling`
+- Avoid underscores or hyphens unless they're part of standard terminology
+- Use natural language rather than abbreviations (unless the abbreviation is more common)
+
+### Granularity:
+- Primary tags: Higher-level, more general concepts
+- Secondary tags: More specific, detailed concepts
+- Avoid redundancy between primary and secondary tags
+- Ensure tags are specific enough to be meaningful but general enough to be useful
+
+## Quality Checks
+
+Before finalizing tags, verify:
+1. **Completeness**: Do the primary tags fully capture the document's core identity?
+2. **Specificity**: Do secondary tags add meaningful context without being too narrow?
+3. **Balance**: Is there a good balance between broad and specific tags?
+4. **Searchability**: Would users likely search for these terms?
+5. **Consistency**: Are similar documents tagged similarly?
+
+## Common Mistakes to Avoid
+
+- Making primary tags too specific or secondary tags too general
+- Duplicating concepts across primary and secondary tags
+- Including overly narrow or obscure terms in primary tags
+- Missing fundamental concepts that should be primary tags
+- Creating tags that are too similar to each other
+- Using inconsistent terminology across documents

@@ -1,8 +1,32 @@
 ---
-title: "Leverage as a Measure of Risk"
-tags: [leverage, risk_management, derivatives, portfolio_management, accounting_leverage, risk_based_leverage]
-key_concepts: [leverage as risk measure, accounting leverage, risk-based leverage, equivalent security approach, bucketized risk]
-parent_directory: VII. Corporate Finance
+title: Leverage as a Measure of Risk
+primary_tags:
+  - leverage
+  - risk_management
+  - derivatives
+  - portfolio_management
+  - accounting_leverage
+secondary_tags:
+  - risk_based_leverage
+  - equivalent_security_approach
+  - bucketized_risk
+  - financial_crisis
+  - structured_finance
+  - portfolio_risk_control
+  - delta_hedging
+  - dv01
+  - risk_sensitivity
+  - portfolio_nav
+  - leverage_measurement
+  - risk_metrics
+  - portfolio_optimization
+  - hedge_ratios
+  - risk_exposure
+  - volatility_analysis
+  - option_greeks
+  - duration_matching
+  - curve_risk
+  - interest_rate_sensitivity
 cssclasses: academia
 ---
 
@@ -117,3 +141,61 @@ Differentiating (A.1) - (A.4) with respect to $S$, we obtain $\frac{\partial c}{
 [1] D. Goldman. Seeing is not believing: Fund of funds and hedge fund risk assessment and transparency, survival and leverage. Working paper, MeasuriskTM, 2003.
 
 [2] J. Hull. Options, Futures and Other Derivatives. Prentice Hall, 6th edition, 2006.
+
+## D2 Diagrams for Leverage and Risk Concepts
+
+### Leverage Types Comparison
+```d2
+# Accounting vs Risk-Based Leverage
+accounting_leverage: "Accounting Leverage\nAssets/Equity"
+risk_based_leverage: "Risk-Based Leverage\n(Change in Assets)/(Change in Equity)"
+traditional_assets: "Traditional Assets"
+derivatives: "Derivatives"
+
+accounting_leverage -> traditional_assets: "Works well"
+accounting_leverage -> derivatives: "Not relevant"
+risk_based_leverage -> traditional_assets: "Equivalent to accounting"
+risk_based_leverage -> derivatives: "Captures risk better"
+```
+
+### Equivalent Security Approach
+```d2
+# Equivalent Security Approach for Portfolio Risk
+portfolio: "Portfolio"
+equivalent_security: "Equivalent Security\n(e.g., 10-yr Treasury)"
+dv01_portfolio: "Portfolio DV01"
+dv01_equivalent: "Equivalent Security DV01"
+notional_amount: "Notional Amount\nN_eq = DV01_port / DV01_eq"
+
+portfolio -> dv01_portfolio: "Calculate risk metrics"
+equivalent_security -> dv01_equivalent: "Reference security"
+dv01_portfolio -> notional_amount: "Calculate equivalent assets"
+dv01_equivalent -> notional_amount: "Denominator"
+notional_amount -> "Risk-based leverage\ncalculation"
+```
+
+### Risk Sensitivity Analysis
+```d2
+# Bucketized Risk Analysis
+risk_buckets: "Risk Buckets\n(2, 3, 5, 10, 30 yr Treasuries)"
+portfolio_exposure: "Portfolio Exposure"
+sensitivity_analysis: "Sensitivity Analysis"
+bucketized_risk: "Bucketized Risk\nExposure to different\ncurve segments"
+
+risk_buckets -> sensitivity_analysis: "Decompose portfolio"
+portfolio_exposure -> sensitivity_analysis: "Map exposures"
+sensitivity_analysis -> bucketized_risk: "Capture segment risk"
+```
+
+### Leverage Impact on Returns
+```d2
+# Leverage Impact on Return Amplification
+roa: "Return on Assets (ROA)"
+roe: "Return on Equity (ROE)"
+leverage_ratio: "Leverage Ratio\nL = Assets/Equity"
+amplification: "Amplification Effect\nROE = L * ROA"
+
+roa -> amplification: "Amplified by L"
+leverage_ratio -> amplification: "Multiplier"
+amplification -> roe: "Resulting ROE"
+```

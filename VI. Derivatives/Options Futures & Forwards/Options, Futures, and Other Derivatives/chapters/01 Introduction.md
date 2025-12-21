@@ -1,11 +1,38 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Introduction to Derivatives - Exchange-Traded and OTC Markets
+primary_tags:
+  - derivatives_markets
+  - exchange_traded_derivatives
+  - over_the_counter_derivatives
+  - forward_contracts
+  - futures_contracts
+  - options
+secondary_tags:
+  - chicago_board_of_trade
+  - chicago_mercantile_exchange
+  - clearing_house
+  - margin_requirements
+  - open_outcry_system
+  - electronic_trading
+  - high_frequency_trading
+  - central_counterparties
+  - bilateral_clearing
+  - market_makers
+  - systemic_risk
+  - bid_ask_spread
+  - forward_price
+  - spot_price
+  - call_options
+  - put_options
+  - strike_price
+  - expiration_date
+  - american_options
+  - european_options
+  - option_pricing
+  - derivatives_regulation
+  - swap_execution_facilities
+  - derivatives_reporting
 cssclasses: academia
-title: 1.1 EXCHANGE-TRADED MARKETS
-linter-yaml-title-alias: 1.1 EXCHANGE-TRADED MARKETS
 ---
 
 # 1.1 EXCHANGE-TRADED MARKETS
@@ -410,4 +437,60 @@ What opportunities are open to an arbitrageur in the following situations?
 In Chapter 1 we explained that both futures and forward contracts are agreements to buy or sell an asset at a future time for a certain price. A futures contract is traded on an exchange, and the contract terms are standardized by that exchange. A forward contract is traded in the over-the-counter market and can be customized to meet the needs of users.
 
 This chapter covers the details of how futures markets work. We examine issues such as the specification of contracts, the operation of margin accounts, the organization of exchanges, the regulation of markets, the way in which quotes are made, and the treatment of futures transactions for accounting and tax purposes. We explain how some of the ideas pioneered by futures exchanges have been adopted by over-the-counter markets.
+
+## D2 Diagrams for Derivatives Markets
+
+### Derivatives Market Structure
+```d2
+# Derivatives Market Structure
+exchange_traded: "Exchange-Traded Markets"
+otc_markets: "Over-the-Counter (OTC) Markets"
+clearing_house: "Clearing House"
+central_counterparty: "Central Counterparty (CCP)"
+
+exchange_traded -> clearing_house: "Standardized contracts\nMargin requirements"
+otc_markets -> central_counterparty: "Bilateral clearing\nor CCP clearing"
+clearing_house -> "Manages counterparty risk"
+central_counterparty -> "Reduces systemic risk"
+```
+
+### Forward vs Futures vs Options
+```d2
+# Derivatives Comparison
+forward_contract: "Forward Contract"
+futures_contract: "Futures Contract"
+options_contract: "Options Contract"
+
+forward_contract -> "OTC, customizable\nNo daily settlement\nCounterparty risk"
+futures_contract -> "Exchange-traded\nStandardized\nDaily settlement\nClearing house guarantee"
+options_contract -> "Right, not obligation\nPremium paid upfront\nLimited risk for buyer"
+```
+
+### Option Payoff Diagrams
+```d2
+# Option Payoffs
+long_call: "Long Call Payoff"
+short_call: "Short Call Payoff"
+long_put: "Long Put Payoff"
+short_put: "Short Put Payoff"
+
+long_call -> "Profit when S > K + premium"
+short_call -> "Profit when S < K + premium"
+long_put -> "Profit when S < K - premium"
+short_put -> "Profit when S > K - premium"
+```
+
+### Market Participants and Risk Management
+```d2
+# Market Participants and Risk Management
+hedgers: "Hedgers"
+speculators: "Speculators"
+arbitrageurs: "Arbitrageurs"
+systemic_risk: "Systemic Risk"
+
+hedgers -> "Reduce risk exposure"
+speculators -> "Take on risk for profit"
+arbitrageurs -> "Exploit price differences"
+systemic_risk -> "Risk of market-wide failure\nRegulatory oversight needed"
+```
 

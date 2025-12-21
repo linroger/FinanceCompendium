@@ -940,3 +940,109 @@ Table 1.4: Yield Curve Data
 
 8. If the above yields are continuously discounted, what are the discount factors? What are the 1-year forward rates?
 9. Use annually discounted factors, compute the price of a  $6\%$ , 4-year coupon bond. Also compute the yield of this coupon bond.
+
+## Additional D2 Diagrams for Fixed Income Concepts
+
+### Fixed Income Security Types
+```d2
+# Fixed Income Security Classification
+fixed_income: "Fixed Income Securities" {
+  direction: down
+  style.fill: "#e3f2fd"
+}
+
+government: "Government Securities"
+agency: "Agency Securities"
+corporate: "Corporate Securities"
+municipal: "Municipal Securities"
+mortgage_backed: "Mortgage-Backed Securities"
+asset_backed: "Asset-Backed Securities"
+
+fixed_income -> government: "Treasuries, TIPS, STRIPS"
+fixed_income -> agency: "GNMA, FNMA, FHLMC"
+fixed_income -> corporate: "Investment Grade, High Yield"
+fixed_income -> municipal: "General Obligation, Revenue Bonds"
+fixed_income -> mortgage_backed: "Pass-through, CMOs, IO/PO"
+fixed_income -> asset_backed: "Auto, Credit Card, Student Loans"
+```
+
+### Yield Curve Relationships
+```d2
+# Yield Curve Types and Relationships
+yield_curves: "Yield Curve Types" {
+  direction: right
+}
+
+spot_curve: "Spot Rate Curve"
+forward_curve: "Forward Rate Curve"
+par_curve: "Par Yield Curve"
+
+spot_curve -> forward_curve: "Forward rates derived from\nspot rates via bootstrapping"
+spot_curve -> par_curve: "Par yields computed from\nspot rates"
+par_curve -> spot_curve: "Spot rates computed from\npar yields via bootstrapping"
+```
+
+### Credit Rating Hierarchy
+```d2
+# Credit Rating Scales
+rating_hierarchy: "Credit Rating Hierarchy" {
+  direction: down
+}
+
+investment_grade: "Investment Grade" {
+  direction: right
+  style.fill: "#e8f5e9"
+}
+
+speculative_grade: "Speculative Grade (Junk)" {
+  direction: right
+  style.fill: "#ffebee"
+}
+
+aaa: "AAA"
+aa: "AA"
+a: "A"
+bbb: "BBB"
+bb: "BB"
+b: "B"
+ccc: "CCC"
+cc: "CC"
+c: "C"
+d: "D (Default)"
+
+investment_grade -> aaa
+investment_grade -> aa
+investment_grade -> a
+investment_grade -> bbb
+
+speculative_grade -> bb
+speculative_grade -> b
+speculative_grade -> ccc
+speculative_grade -> cc
+speculative_grade -> c
+speculative_grade -> d
+
+aaa -> aa: "Lower Quality"
+aa -> a: "Lower Quality"
+a -> bbb: "Lower Quality"
+bbb -> bb: "Fallen Angel"
+bb -> b: "Lower Quality"
+b -> ccc: "Lower Quality"
+ccc -> d: "Default"
+```
+
+### Bond Pricing Components
+```d2
+# Bond Pricing Components
+bond_pricing: "Bond Pricing Components" {
+  direction: down
+}
+
+clean_price: "Clean Price"
+accrued_interest: "Accrued Interest"
+dirty_price: "Dirty Price (Full Price)"
+
+clean_price -> dirty_price: "Add"
+accrued_interest -> dirty_price: "Add"
+dirty_price -> "Actual Transaction Price"
+```

@@ -6500,79 +6500,75 @@ $$
 $$
 
 $$
-\alpha_ {1} = \frac {\sigma_ {1} ^ {2} + \frac {\lambda}{\Delta} \left\{\rho \sigma_ {1} \sigma_ {2} \left[ \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {1} - R _ {F}\right) \right] \right\} - \lambda \left(\mu_ {1} - R _ {F}\right)}{\sigma_ {1} ^ {2}}
+\alpha_{1} = \frac{\sigma_{1}^{2} + \frac{\lambda}{\Delta} \left\{\rho \sigma_{1} \sigma_{2} \left[ \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{1} - R_{F}\right) \right] \right\} - \lambda \left(\mu_{1} - R_{F}\right)}{\sigma_{1}^{2}}
 $$
 
 $$
-\alpha_ {1} = \frac {\lambda}{\Delta} \frac {1}{\sigma_ {1} ^ {2}} \left[ \left(\mu_ {1} - R _ {F}\right) \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} (1 - \rho^ {2}) - \rho \sigma_ {1} \sigma_ {2} \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) + \rho^ {2} \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} \left(\mu_ {1} - R _ {F}\right) \right]
+\alpha_{1} = \frac{\lambda}{\Delta} \frac{1}{\sigma_{1}^{2}} \left[ \left(\mu_{1} - R_{F}\right) \sigma_{1}^{2} \sigma_{2}^{2} (1 - \rho^{2}) - \rho \sigma_{1} \sigma_{2} \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right) + \rho^{2} \sigma_{1}^{2} \sigma_{2}^{2} \left(\mu_{1} - R_{F}\right) \right]
 $$
 
 $$
-\alpha_ {1} = \frac {\lambda}{\Delta} \frac {1}{\sigma_ {1} ^ {2}} \left[ \left(\mu_ {1} - R _ {F}\right) \left[ \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} (1 - \rho^ {2}) + \rho^ {2} \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} \right] - \rho \sigma_ {1} \sigma_ {2} \sigma_ {1} ^ {2} (\mu_ {2} - R _ {F}) \right]
+\alpha_{1} = \frac{\lambda}{\Delta} \frac{1}{\sigma_{1}^{2}} \left[ \left(\mu_{1} - R_{F}\right) \left[ \sigma_{1}^{2} \sigma_{2}^{2} (1 - \rho^{2}) + \rho^{2} \sigma_{1}^{2} \sigma_{2}^{2} \right] - \rho \sigma_{1} \sigma_{2} \sigma_{1}^{2} (\mu_{2} - R_{F}) \right]
 $$
 
 $$
-\alpha_ {1} = \frac {\lambda}{\Delta} \frac {1}{\sigma_ {1} ^ {2}} \left[ \left(\mu_ {1} - R _ {F}\right) \left[ \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} - \rho^ {2} \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} + \rho^ {2} \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} \right] - \rho \sigma_ {1} \sigma_ {2} \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) \right]
+\alpha_{1} = \frac{\lambda}{\Delta} \frac{1}{\sigma_{1}^{2}} \left[ \left(\mu_{1} - R_{F}\right) \left[ \sigma_{1}^{2} \sigma_{2}^{2} - \rho^{2} \sigma_{1}^{2} \sigma_{2}^{2} + \rho^{2} \sigma_{1}^{2} \sigma_{2}^{2} \right] - \rho \sigma_{1} \sigma_{2} \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right) \right]
 $$
 
 $$
-\alpha_ {1} = \frac {\lambda}{\Delta} \frac {1}{\sigma_ {1} ^ {2}} \left[ (\mu_ {1} - R _ {F}) \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} - \rho \sigma_ {1} \sigma_ {2} \sigma_ {1} ^ {2} (\mu_ {2} - R _ {F}) \right]
+\alpha_{1} = \frac{\lambda}{\Delta} \frac{1}{\sigma_{1}^{2}} \left[ (\mu_{1} - R_{F}) \sigma_{1}^{2} \sigma_{2}^{2} - \rho \sigma_{1} \sigma_{2} \sigma_{1}^{2} (\mu_{2} - R_{F}) \right]
 $$
 
 $$
-\alpha_ {1} = \frac {\lambda}{\Delta} \left[ \left(\mu_ {1} - R _ {F}\right) \sigma_ {1} ^ {2} \sigma_ {2} ^ {2} \frac {1}{\sigma_ {1} ^ {2}} - \rho \sigma_ {1} \sigma_ {2} \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) \frac {1}{\sigma_ {1} ^ {2}} \right]
+\alpha_{1} = \frac{\lambda}{\Delta} \left[ \left(\mu_{1} - R_{F}\right) \sigma_{1}^{2} \sigma_{2}^{2} \frac{1}{\sigma_{1}^{2}} - \rho \sigma_{1} \sigma_{2} \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right) \frac{1}{\sigma_{1}^{2}} \right]
 $$
 
 $$
-\alpha_ {1} = \frac {\lambda}{\Delta} \left[ \left(\mu_ {1} - R _ {F}\right) \sigma_ {2} ^ {2} - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {2} - R _ {F}\right) \right]
+\alpha_{1} = \frac{\lambda}{\Delta} \left[ \sigma_{2}^{2} \left(\mu_{1} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{2} - R_{F}\right) \right]
 $$
 
 $$
-\alpha_ {1} = \frac {\lambda}{\Delta} \left[ \sigma_ {2} ^ {2} \left(\mu_ {1} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {2} - R _ {F}\right) \right]
-$$
-
-$$
-\alpha_ {2} = \frac {\lambda}{\Delta} \left[ \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {1} - R _ {F}\right) \right]
+\alpha_{2} = \frac{\lambda}{\Delta} \left[ \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{1} - R_{F}\right) \right]
 $$
 
 Defined the value of  $\alpha_{1}$  and  $\alpha_{2}$ , and by substituting it in the budget constraint we have the efficient frontier. Specifically, the budget constraint is equal to:
 
 $$
-\mu = R _ {F} + \alpha_ {1} \left(\mu_ {1} - R _ {F}\right) + \alpha_ {2} \left(\mu_ {2} - R _ {F}\right)
+\mu = R_{F} + \alpha_{1} \left(\mu_{1} - R_{F}\right) + \alpha_{2} \left(\mu_{2} - R_{F}\right)
 $$
 
 By replacing it, we have:
 
 $$
-\begin{array}{l} \mu - R _ {F} = \left\{\frac {\lambda}{\Delta} \left[ \sigma_ {2} ^ {2} \left(\mu_ {1} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {2} - R _ {F}\right) \right] \right\} \left(\mu_ {1} - R _ {f}\right) \\ + \left\{\frac {\lambda}{\Delta} \left[ \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {1} - R _ {F}\right) \right] \right\} \left(\mu_ {2} - R _ {F}\right) \\ \end{array}
+\begin{array}{l} \mu - R_{F} = \left\{\frac{\lambda}{\Delta} \left[ \sigma_{2}^{2} \left(\mu_{1} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{2} - R_{F}\right) \right] \right\} \left(\mu_{1} - R_{f}\right) \\ + \left\{\frac{\lambda}{\Delta} \left[ \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{1} - R_{F}\right) \right] \right\} \left(\mu_{2} - R_{F}\right) \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \mu - R _ {F} = \frac {\lambda}{\Delta} \left\{\left[ \sigma_ {2} ^ {2} \left(\mu_ {1} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {2} - R _ {F}\right) \right] \left(\mu_ {1} - R _ {F}\right) \right. \\ \left. + \left[ \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {1} - R _ {F}\right) \right] \left(\mu_ {2} - R _ {F}\right) \right\} \\ \end{array}
+\begin{array}{l} \mu - R_{F} = \frac{\lambda}{\Delta} \left\{\left[ \sigma_{2}^{2} \left(\mu_{1} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{2} - R_{F}\right) \right] \left(\mu_{1} - R_{F}\right) \right. \\ \left. + \left[ \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{1} - R_{F}\right) \right] \left(\mu_{2} - R_{F}\right) \right\} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \mu - R _ {F} = \frac {\lambda}{\Delta} \left[ \sigma_ {2} ^ {2} \left(\mu_ {1} - R _ {F}\right) ^ {2} - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {2} - R _ {F}\right) \left(\mu_ {1} - R _ {F}\right) + \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) ^ {2} \right. \\ \left. - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {1} - R _ {F}\right) \left(\mu_ {2} - R _ {F}\right) \right] \\ \end{array}
+\begin{array}{l} \mu - R_{F} = \frac{\lambda}{\Delta} \left[ \sigma_{2}^{2} \left(\mu_{1} - R_{F}\right)^{2} - \rho \sigma_{1} \sigma_{2} \left(\mu_{2} - R_{F}\right) \left(\mu_{1} - R_{F}\right) + \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right)^{2} \right. \\ \left. - \rho \sigma_{1} \sigma_{2} \left(\mu_{1} - R_{F}\right) \left(\mu_{2} - R_{F}\right) \right] \\ \end{array}
 $$
 
 $$
-\mu - R _ {F} = \frac {\lambda}{\Delta} \left[ \sigma_ {2} ^ {2} \left(\mu_ {1} - R _ {F}\right) ^ {2} + \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) ^ {2} - 2 \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {1} - R _ {F}\right) \left(\mu_ {2} - R _ {F}\right) \right]
+\mu - R_{F} = \frac{\lambda}{\Delta} \left[ \sigma_{2}^{2} \left(\mu_{1} - R_{F}\right)^{2} + \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right)^{2} - 2 \rho \sigma_{1} \sigma_{2} \left(\mu_{1} - R_{F}\right) \left(\mu_{2} - R_{F}\right) \right]
 $$
 
 $$
-\begin{array}{l} \mu - R _ {F} = \frac {\lambda}{\Delta} \left[ \sigma_ {2} ^ {2} \left(\mu_ {1} ^ {2} + R _ {F} ^ {2} - 2 \mu_ {1} R _ {F}\right) + \sigma_ {1} ^ {2} \left(\mu_ {2} ^ {2} + R _ {F} ^ {2} - 2 \mu_ {2} R _ {F}\right) \right. \\ \left. - 2 \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {1} \mu_ {2} - \mu_ {1} R _ {F} - \mu_ {2} R _ {F} + R _ {F} ^ {2}\right) \right] \\ \end{array}
+\begin{array}{l} \mu - R_{F} = \frac{\lambda}{\Delta} \left[ \sigma_{2}^{2} \left(\mu_{1}^{2} + R_{F}^{2} - 2 \mu_{1} R_{F}\right) + \sigma_{1}^{2} \left(\mu_{2}^{2} + R_{F}^{2} - 2 \mu_{2} R_{F}\right) \right. \\ \left. - 2 \rho \sigma_{1} \sigma_{2} \left(\mu_{1} \mu_{2} - \mu_{1} R_{F} - \mu_{2} R_{F} + R_{F}^{2}\right) \right] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \mu - R _ {F} = \frac {\lambda}{\Delta} \left[ \sigma_ {2} ^ {2} \mu_ {1} ^ {2} + \sigma_ {2} ^ {2} R _ {F} ^ {2} - 2 \mu_ {1} R _ {F} \sigma_ {2} ^ {2} + \sigma_ {1} ^ {2} \mu_ {2} ^ {2} + \sigma_ {1} ^ {2} R _ {F} ^ {2} - 2 \mu_ {2} R _ {F} \sigma_ {1} ^ {2} \right. \\ \left. - 2 \rho \sigma_ {1} \sigma_ {2} \mu_ {1} \mu_ {2} + 2 \rho \sigma_ {1} \sigma_ {2} \mu_ {1} R _ {F} + 2 \rho \sigma_ {1} \sigma_ {2} \mu_ {2} R _ {F} - 2 \rho \sigma_ {1} \sigma_ {2} R _ {\mathrm {F}} ^ {2} \right] \\ \end{array}
+\begin{array}{l} \mu - R_{F} = \frac{\lambda}{\Delta} \left[ \sigma_{2}^{2} \mu_{1}^{2} + \sigma_{2}^{2} R_{F}^{2} - 2 \mu_{1} R_{F} \sigma_{2}^{2} + \sigma_{1}^{2} \mu_{2}^{2} + \sigma_{1}^{2} R_{F}^{2} - 2 \mu_{2} R_{F} \sigma_{1}^{2} \right. \\ \left. - 2 \rho \sigma_{1} \sigma_{2} \mu_{1} \mu_{2} + 2 \rho \sigma_{1} \sigma_{2} \mu_{1} R_{F} + 2 \rho \sigma_{1} \sigma_{2} \mu_{2} R_{F} - 2 \rho \sigma_{1} \sigma_{2} R_{\mathrm{F}}^{2} \right] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \mu - R _ {F} = \frac {\lambda}{\Delta} \left[ \mathrm {R} _ {\mathrm {F}} ^ {2} \left(\sigma_ {2} ^ {2} + \sigma_ {1} ^ {2} - 2 \rho \sigma_ {1} \sigma_ {2}\right) - 2 \mathrm {R} _ {\mathrm {f}} \left(\sigma_ {2} ^ {2} \mu_ {1} + \sigma_ {1} ^ {2} \mu_ {2} - \rho \sigma_ {1} \sigma_ {2} \mu_ {1} - \rho \sigma_ {1} \sigma_ {2} \mu_ {2}\right) \right. \\ \left. + \left(\sigma_ {2} ^ {2} \mu_ {1} ^ {2} + \sigma_ {1} ^ {2} \mu_ {2} ^ {2} - 2 \rho \sigma_ {1} \sigma_ {2} \mu_ {1} \mu_ {2}\right) \right] \\ \end{array}
+\begin{array}{l} \mu - R_{F} = \frac{\lambda}{\Delta} \left[ \mathrm{R}_{\mathrm{F}}^{2} \left(\sigma_{2}^{2} + \sigma_{1}^{2} - 2 \rho \sigma_{1} \sigma_{2}\right) - 2 \mathrm{R}_{\mathrm{f}} \left(\sigma_{2}^{2} \mu_{1} + \sigma_{1}^{2} \mu_{2} - \rho \sigma_{1} \sigma_{2} \mu_{1} - \rho \sigma_{1} \sigma_{2} \mu_{2}\right) \right. \\ \left. + \left(\sigma_{2}^{2} \mu_{1}^{2} + \sigma_{1}^{2} \mu_{2}^{2} - 2 \rho \sigma_{1} \sigma_{2} \mu_{1} \mu_{2}\right) \right] \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \mu - R _ {F} = \frac {\lambda}{\Delta} \left[ \mathrm {R} _ {\mathrm {F}} ^ {2} \left(\sigma_ {1} ^ {2} + \sigma_ {2} ^ {2} - 2 \rho \sigma_ {1} \sigma_ {2}\right) - 2 R _ {F} \left(\sigma_ {2} ^ {2} \mu_ {1} + \sigma_ {1} ^ {2} \mu_ {2} - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {1} + \mu_ {2}\right)\right) \right. \\ \left. + \left(\sigma_ {2} ^ {2} \mu_ {1} ^ {2} + \sigma_ {1} ^ {2} \mu_ {2} ^ {2} - 2 \rho \sigma_ {1} \sigma_ {2} \mu_ {1} \mu_ {2}\right) \right] \\ \end{array}
+\begin{array}{l} \mu - R_{F} = \frac{\lambda}{\Delta} \left[ \mathrm{R}_{\mathrm{F}}^{2} \left(\sigma_{1}^{2} + \sigma_{2}^{2} - 2 \rho \sigma_{1} \sigma_{2}\right) - 2 R_{F} \left(\sigma_{2}^{2} \mu_{1} + \sigma_{1}^{2} \mu_{2} - \rho \sigma_{1} \sigma_{2} \left(\mu_{1} + \mu_{2}\right)\right) \right. \\ \left. + \left(\sigma_{2}^{2} \mu_{1}^{2} + \sigma_{1}^{2} \mu_{2}^{2} - 2 \rho \sigma_{1} \sigma_{2} \mu_{1} \mu_{2}\right) \right] \\ \end{array}
 $$
 
 By placing:

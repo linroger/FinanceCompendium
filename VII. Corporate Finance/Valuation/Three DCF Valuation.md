@@ -1,32 +1,36 @@
 ---
-title: Three DCF Valuation Approaches - WACC, APV, and CCF Comparison
+title: Three DCF Valuation Approaches: WACC, APV, and CCF Comparison
+parent_directory: Valuation
+formatted: 2025-12-20 11:30:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
 primary_tags:
-  - dcf_valuation
-  - weighted_average_cost_of_capital
-  - adjusted_present_value
-  - capital_cash_flow
-  - enterprise_valuation
+  - dcf valuation approaches
+  - weighted average cost of capital
+  - adjusted present value
+  - capital cash flow
+  - enterprise valuation
 secondary_tags:
-  - free_cash_flow
-  - interest_tax_shields
-  - tax_shield_valuation
-  - cost_of_capital
-  - unlevered_firm_value
-  - levered_firm_value
-  - modigliani_miller
-  - capital_structure
-  - enterprise_value
-  - equity_value
-  - debt_valuation
-  - cost_of_equity
-  - cost_of_debt
-  - discount_rate
-  - perpetuity_valuation
-  - terminal_value
-  - unlevered_cash_flow
-  - levered_cash_flow
-  - tax_advantaged_debt
-  - financial_distress_costs
+  - free cash flow
+  - interest tax shields
+  - cost of capital
+  - modigliani miller
+  - capital structure
+  - unlevered firm value
+  - levered firm value
+  - enterprise value
+  - equity value
+  - debt valuation
+  - cost of equity
+  - cost of debt
+  - discount rate
+  - tax shield valuation
+  - terminal value
+  - unlevered cash flow
+  - levered cash flow
+  - financial distress costs
+  - numerical example
+  - valuation comparison
 cssclasses: academia
 ---
 
@@ -115,7 +119,7 @@ $$\mathrm{CCF} = \mathrm{FCF} + \text{Interest tax shield} = \mathrm{FCF} + \mat
 
 With this approach capital cash flows are then discounted at the return on assets. This implicitly assumes that interest tax shields are as risky as the firm and are discounted at the return on assets. This is true when debt is a fixed proportion of value. Under this assumption the capital cash flow approach will generate the same results as the WACC approach. Furthermore if the debt is forecasted in levels instead of a debt-to-value ratio the CCF approach is easier to use because the tax shield are simple to calculate and to include in the CCF.
 
-If the forecasted debt levels imply a change in the debt-to-value ratio, the CCF retains his simplicity since the discount rate, the return on assets, is independent of the capital structure and can be used for every forecast period. Therefore the approach is easier to apply in transactions involving change in capital structure such as a LBO or a restructuring. However in this case discounting the interest tax shields at Ra is a simplifying assumption since the risk of those cash flows is not anymore the same as the risk associate with the firm.
+If the forecasted debt levels imply a change in the debt-to-value ratio, the CCF retains its simplicity since the discount rate, the return on assets, is independent of the capital structure and can be used for every forecast period. Therefore the approach is easier to apply in transactions involving change in capital structure such as a LBO or a restructuring. However in this case discounting the interest tax shields at Ra is a simplifying assumption since the risk of those cash flows is not anymore the same as the risk associate with the firm.
 
 ## Numerical Example
 
@@ -136,7 +140,7 @@ Table 1 shows the financial assumptions underlying our numerical example. The fi
 | Increase in NWC | 10,000 | 10,000 | 10,000 | 10,000 | 10,000 |
 | Debt | 100,000 | 50,000 | 25,000 | 12,500 | 6,250 |
 
-We will start valuing the firm using the WACC approach (see table 2). This is the less appropriated and most complex methodology given the forecasted changes in capital structure. Indeed the WACC needs to be recalculated every year and an iterative calculation has to be used since the value of the firm for each year is required to derive the percentage of debt and equity. The firm value in year N is the value of the remaining cash flows. For instance the value of the firm at the beginning of Year 3 is the value of the remaining cash flow in Year 3, 4 and 5 discounted using the WACC in year 3, 4 and 5.
+We will start valuing the firm using the WACC approach (see table 2). This is the less appropriate and most complex methodology given the forecasted changes in capital structure. Indeed the WACC needs to be recalculated every year and an iterative calculation has to be used since the value of the firm for each year is required to derive the percentage of debt and equity. The firm value in year N is the value of the remaining cash flows. For instance the value of the firm at the beginning of Year 3 is the value of the remaining cash flow in Year 3, 4 and 5 discounted using the WACC in year 3, 4 and 5.
 
 ### Table 2: WACC Valuation (in €)
 

@@ -1,36 +1,51 @@
 ---
-title: Chapter 01 - Company Business Model Analysis
-tags: [business_model_analysis, corporate_strategic_formula, fundamental_analysis, competitive_advantage, corporate_finance]
-parent_directory: VII. Corporate Finance/Valuation/Analytical Corporate Valuation/Part I - Fundamental Analysis
-key_concepts: [company strategic formula, internal strategic front, external strategic front, competitive advantage, business model analysis]
+title: Company Business Model Analysis
+parent_directory: Analytical Corporate Valuation
+formatted: 2025-12-20 11:03:25 PM
+formatter_model: claude-sonnet-4-20250514
+cli-tool: claude-code
+primary_tags:
+  - company strategic formula
+  - business model analysis
+  - competitive advantage
+  - fundamental analysis
+secondary_tags:
+  - internal strategic front
+  - external strategic front
+  - corporate governance
+  - organizational architecture
+  - strategic resources
+  - strategic business area
+  - capital market
+  - operating income analysis
+  - capital invested analysis
+  - free cash flow analysis
 cssclasses: academia
 ---
 
-# Chapter 1 Company Business Model Analysis
+# Company Business Model Analysis
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/89fd56cb104edaacd180f7960e543ab6585b4f373b4531a8dd2f775bcbc0051e.jpg)
 
-Abstract This first step of the company analysis focuses on the business model. The company's "health condition" in a defined period of time and its ability to create profit over time requires an analysis based on two main elements:
+**Abstract** This first step of the company analysis focuses on the business model. The company's "health condition" in a defined period of time and its ability to create profit over time requires an analysis based on two main elements:
 
-- a qualitative analysis of the business model;
-- a quantitative analysis of the effects of the business model choices on the economic and financial dynamics over time.
+- A qualitative analysis of the business model
+- A quantitative analysis of the effects of the business model choices on the economic and financial dynamics over time
 
 A qualitative analysis of the company's business model focuses on the Company Strategic Formula (CSF).
 
 The CSF defines the strategic profile of the company on the basis of two different strategic fronts:
 
-- internal strategic front referring to the internal structure of the company;
-- external strategic front referring to the structural relationships between the company and the players of its environment classified into two main groups: business players and financial players.
+- Internal strategic front referring to the internal structure of the company
+- External strategic front referring to the structural relationships between the company and the players of its environment classified into two main groups: business players and financial players
 
 The CSF allows for simultaneous optimisation of the companies operating in the Strategic Business Area and Capital Market. The internal and the external strategic fronts are strictly connected on the basis of systemic and dynamic bidirectional relationships. In this sense the CSF must be "continuant": it is achieved only if the relationships between all of its elements are Systemic-Structural-Dynamic.
 
 A quantitative analysis of the company focuses on the economic and financial dynamics over time. Several analytical schemes can be used. In this context the analysis is developed on the basis of Operating and Net Income, Capital Invested and Capital Structure, and Free Cash-flow from Operations and Free-Cash Flow to Equity.
 
-The qualitative and quantitative analyses are strictly related. The competitive advantage of the company, on the basis of its business model, must be reflected in the economic and financial values over time. Consequently, it is not possible to investigate into the company by only taking into consideration the analysis of its business model without considering the effects of the strategic choices on the
+The qualitative and quantitative analyses are strictly related. The competitive advantage of the company, on the basis of its business model, must be reflected in the economic and financial values over time. Consequently, it is not possible to investigate into the company by only taking into consideration the analysis of its business model without considering the effects of the strategic choices on the economic and financial dynamics. At the same time, it is impossible to investigate into the company's ability to perform by considering the economic and financial dynamics without clearly understanding the source of the strategic choices.
 
-economic and financial dynamics. At the same time, it is impossible to investigate into the company's ability to perform by considering the economic and financial dynamics without clearly understanding the source of the strategic choices.
-
-# 1.1 Strategic Formula of the Company
+## 1.1 Strategic Formula of the Company
 
 The company can be defined as a dynamic and open system towards the environment with which it maintains several types of relationships in order to pursue the economic and financial equilibrium to be valid over time.
 
@@ -70,7 +85,7 @@ The CSF defines the strategic profile of the company, by considering two differe
 - internal strategic front: it refers to the internal structure of the company;
 - external strategic front: it refers to the structural relationships between the company and the players of its environment classified into two main groups of business players and financial players.
 
-## Internal Front of the CSF
+### Internal Front of the CSF
 
 The Internal Strategic Front (ISF) refers to the internal structure of the company. It is defined from all elements, tangible and intangible, needed for the production of goods and services. The internal structure defines the company's specific characteristics by generating its uniqueness. It gives form and substance to the CSF by establishing the uniqueness of the thinking and operation of the company. Therefore, it is the main reason for which one company is different from another.
 
@@ -82,7 +97,7 @@ The internal structure of the company is defined on the basis of three main elem
 - (b) Organizational architecture
 - (c) Strategic resources
 
-### (a) Corporate Governance
+#### (a) Corporate Governance
 
 The corporate governance of the company refers to the rules and the procedures by which the decision-making processes in the governmental area and how the managerial and operating activities of the company are defined (Bertini 2009).
 
@@ -116,7 +131,7 @@ The "bank-oriented" capitalism model is based on the strong relationship between
 
 shareholders reduces agency costs on equity and debt. On the contrary, there are two main problems: the first refers to the conflict between majority and minority shareholders based on the asymmetric information, while the second refers to annulment of the capital market discipline effects. The capital market is unable to measure the company's performance and the price is no longer the reference point of the company's value and its operativeness. In this context only a few large companies are financed on the basis of policy choice rather than on the capital market's selection based on the effectiveness and efficiencies of the companies with all imaginable negative effects.
 
-# (b) Organizational Architecture
+#### (b) Organizational Architecture
 
 The organizational architecture of the company refers to how the company's resources are combined and coordinated between them for company operations.
 

@@ -1,11 +1,35 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Objectives of Bank Regulation
+primary_tags:
+  - bank_regulation
+  - financial_system_stability
+  - safety_net
+  - moral_hazard
+  - regulatory_arbitrage
+secondary_tags:
+  - deposit_insurance
+  - lender_of_last_resort
+  - too_big_to_fail
+  - regulatory_dialectic
+  - bank_supervision
+  - systemic_risk
+  - regulatory_capture
+  - financial_crisis
+  - bank_resolution
+  - consumer_protection
+  - credit_allocation
+  - monetary_policy
+  - regulatory_agencies
+  - federal_deposit_insurance_corporation
+  - office_of_the_comptroller_of_the_currency
+  - federal_reserve_system
+  - consumer_financial_protection_bureau
+  - systemic_risk_regulation
+  - risk_based_capital_requirements
+  - prompt_corrective_action
+  - regulatory_compliance
+  - financial_stability
 cssclasses: academia
-title: GLOSSARY OF TERMS
-linter-yaml-title-alias: GLOSSARY OF TERMS
 ---
 
 # GLOSSARY OF TERMS
@@ -914,3 +938,101 @@ Yellen, J.L., 2014. Speech at the 2014 Camdessus Central Banking Lecture, Intern
 "In all that the people can individually do well for themselves, government ought not to interfere."
 
 Abraham Lincoln
+
+## D2 Diagrams for Bank Regulation Concepts
+
+### Bank Regulation Framework
+```d2
+# Bank Regulation Framework
+regulatory_objectives: "Objectives of Bank Regulation" {
+  direction: down
+}
+
+safety_soundness: "Safety & Soundness\nIndividual Banks"
+financial_stability: "Financial System\nStability"
+competition: "Foster Competition"
+consumer_protection: "Consumer Protection"
+credit_allocation: "Credit Allocation"
+monetary_control: "Monetary Control"
+
+regulatory_objectives -> safety_soundness
+regulatory_objectives -> financial_stability
+regulatory_objectives -> competition
+regulatory_objectives -> consumer_protection
+regulatory_objectives -> credit_allocation
+regulatory_objectives -> monetary_control
+```
+
+### Safety Net and Moral Hazard
+```d2
+# Safety Net and Moral Hazard Relationship
+safety_net: "Government Safety Net" {
+  direction: down
+}
+
+llr: "Lender of Last Resort"
+deposit_insurance: "Deposit Insurance"
+payments_protection: "Payments System Protection"
+too_big_to_fail: "Too-Big-To-Fail Policy"
+
+moral_hazard: "Moral Hazard" {
+  direction: right
+}
+
+exploitation: "Bank Exploitation\nof Safety Net"
+increased_risk: "Increased Risk-Taking"
+regulatory_response: "Regulatory Response"
+
+safety_net -> llr
+safety_net -> deposit_insurance
+safety_net -> payments_protection
+safety_net -> too_big_to_fail
+
+llr -> moral_hazard
+deposit_insurance -> moral_hazard
+payments_protection -> moral_hazard
+too_big_to_fail -> moral_hazard
+
+moral_hazard -> exploitation
+moral_hazard -> increased_risk
+exploitation -> regulatory_response
+increased_risk -> regulatory_response
+```
+
+### Regulatory Agencies Structure
+```d2
+# US Bank Regulatory Agencies
+regulatory_landscape: "US Bank Regulatory Landscape" {
+  direction: down
+}
+
+occ: "Office of the Comptroller\nof the Currency (OCC)"
+fed: "Federal Reserve System"
+fdic: "Federal Deposit Insurance\nCorporation (FDIC)"
+cfpb: "Consumer Financial\nProtection Bureau (CFPB)"
+
+regulatory_landscape -> occ: "National Banks"
+regulatory_landscape -> fed: "Member Banks,\nBank Holding Companies"
+regulatory_landscape -> fdic: "State Banks,\nDeposit Insurance"
+regulatory_landscape -> cfpb: "Consumer Protection"
+```
+
+### Regulatory Dialectic Cycle
+```d2
+# Regulatory Dialectic Cycle
+banks_adapt: "Banks Adapt to\nRegulation" {
+  style.fill: "#ffebee"
+}
+
+regulatory_gap: "Regulatory Gaps\nEmerging" {
+  style.fill: "#fff3e0"
+}
+
+new_regulation: "New Regulation\nImplemented" {
+  style.fill: "#e8f5e8"
+}
+
+banks_adapt -> regulatory_gap: "Exploit loopholes"
+regulatory_gap -> new_regulation: "Government responds"
+new_regulation -> banks_adapt: "Find new adaptations"
+```

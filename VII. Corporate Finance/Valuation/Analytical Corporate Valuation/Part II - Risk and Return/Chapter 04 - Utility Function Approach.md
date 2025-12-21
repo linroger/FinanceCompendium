@@ -1,19 +1,44 @@
 ---
-title: "Chapter 04 - Utility Function Approach"
-tags: [utility_theory, risk_aversion, portfolio_theory, expected_utility, decision_making, utility_functions, risk_measurement, risk_tolerance, risk_averse, risk_neutral, risk_seeking, axiomatic_approach, portfolio_optimization, utility_maximization]
-parent_directory: "VII. Corporate Finance/Valuation/Analytical Corporate Valuation/Part II - Risk and Return"
-key_concepts: [utility functions, risk aversion, decision making under uncertainty, portfolio optimization, expected utility, risk measurement, axiomatic approach, utility maximization]
-cssclasses: [academia]
+title: Chapter 04 - Utility Function Approach
+parent_directory: Analytical Corporate Valuation
+formatted: 2025-12-20 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
+primary_tags:
+  - utility theory
+  - risk aversion
+  - portfolio theory
+  - expected utility
+  - decision making
+secondary_tags:
+  - utility functions
+  - risk measurement
+  - risk tolerance
+  - risk preferences
+  - von neumann morgenstern
+  - certainty equivalent
+  - risk premium
+  - indifference curves
+  - portfolio optimization
+  - mean variance analysis
+  - absolute risk aversion
+  - relative risk aversion
+  - CARA utility functions
+  - CRRA utility functions
+  - quadratic utility
+  - logarithmic utility
+  - exponential utility
+cssclasses: academia
 ---
 
-# Chapter 4 - Utility Function Approach
+# Chapter 04 - Utility Function Approach
 
 ![Utility Function Approach](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/4df73873f90e42f72f67c4c02ccea7eb1ab2401b174640fbcc5dabdc3ea5af7d.jpg)
 
 **Abstract** - In the context of decisions under uncertainty investors try to maximize the expected return on investment and minimize investment risk. Unfortunately, there is a trade-off between these two aims. The theory of the choices under uncertainty leads the decision-making process in capital markets. The aim is to analyse the behaviour of the rational investor under uncertainty. Specifically, the aim of the theory is not to define a set of criteria for the investor's preference for general validity because all investors are different from one another. Otherwise, the aim of the theory is to define a set of criteria of the decision-making process based on a few principles characterized by generality, rationality, economic significance, consistency with individual criteria, and therefore able to have a normative function. In this regard, the theory defines the criteria by which the rational investor chooses between the real possible options, considering the restrictions, on the basis of the expected effects that could be achieved according to their nature and that can be sorted in consideration of the relative probability. The portfolio choices (or portfolio selection) is a problem related to wealth allocation between different investment assets. In this context, the portfolio choices will be analysed based on the two main criteria:
 
-- utility functions criteria;
-- mean-variance criteria.
+- utility functions criteria
+- mean-variance criteria
 
 This chapter analyses the first criteria, while the next chapter analyses the second criteria.
 
@@ -62,10 +87,10 @@ $$
 In this case, it can be defined a random variable $(\tilde{X}_a)$ to associate the real number $(y_{i,j})$ to the pair $(a_i,s_j)$, as follows:
 
 $$
-\tilde{\mathrm{X}} \left(\mathrm{a}_{\mathrm{i}}, \mathrm{s}_{\mathrm{j}}\right) = \mathrm{y}_{\mathrm{i}, \mathrm{j}} \tag{4.3}
+\tilde{X} \left(a_i, s_j\right) = y_{i,j} \tag{4.3}
 $$
 
-Therefore, it is possible to substitute with decision $(a_i)$ the random variable associated $(\tilde{\mathrm{X}}_{\mathrm{a}})$. Therefore, the probability distribution $(\mathrm{F_a})$, can be associated to each random variable, as follows:
+Therefore, it is possible to substitute with decision $(a_i)$ the random variable associated $(\tilde{X}_a)$. Therefore, the probability distribution $(F_a)$, can be associated to each random variable, as follows:
 
 $$
 F_a (s) = y \tag{4.4}
@@ -99,7 +124,7 @@ Based on this process, the problem of the choice under uncertainty can be faced 
 Formally, the utility of the i-th decision $(a_i)$ can be defined as follows:
 
 $$
-\mathrm{E} [ \mathrm{U} (\mathrm{a}_{\mathrm{i}}) ] = \pi_1 \mathrm{U} \left(\mathrm{y}_{\mathrm{a}_{\mathrm{i}}, 1}\right) + \pi_2 \mathrm{U} \left(\mathrm{y}_{\mathrm{a}_{\mathrm{i}}, 2}\right) + \dots + \pi_{\mathrm{S}} \mathrm{U} \left(\mathrm{y}_{\mathrm{a}_{\mathrm{i}}, \mathrm{S}}\right) = \sum_{\mathrm{s} = 1}^{\mathrm{S}} \pi_{\mathrm{s}} \mathrm{U} \left(\mathrm{y}_{\mathrm{a}_{\mathrm{i}}, \mathrm{s}}\right) \tag{4.5}
+E [ U (a_i) ] = \pi_1 U \left(y_{a_i, 1}\right) + \pi_2 U \left(y_{a_i, 2}\right) + \dots + \pi_{S} U \left(y_{a_i, S}\right) = \sum_{s = 1}^{S} \pi_{s} U \left(y_{a_i, s}\right) \tag{4.5}
 $$
 
 where:
@@ -112,7 +137,7 @@ where:
 Based on Eq. (4.5) the decision $A$ is preferred to the decision $B$, only if the expected utility of the decision $A$ is greater than the decision $B$, as follows:
 
 $$
-\mathrm{A} \succ \mathrm{B} \leftrightarrow \sum_{\mathrm{s} = 1}^{\mathrm{S}} \pi_{\mathrm{s}} \mathrm{U} \left(\mathrm{y}_{\mathrm{A}, \mathrm{s}}\right) > \sum_{\mathrm{s} = 1}^{\mathrm{S}} \pi_{\mathrm{s}} \mathrm{U} \left(\mathrm{y}_{\mathrm{B}, \mathrm{s}}\right) \tag{4.6}
+A \succ B \leftrightarrow \sum_{s = 1}^{S} \pi_{s} U \left(y_{A, s}\right) > \sum_{s = 1}^{S} \pi_{s} U \left(y_{B, s}\right) \tag{4.6}
 $$
 
 The possibility to equate the choices under uncertainty to the choices under certainty, with the consequence of using the utility functions, requires the strict adhesion of the same postulates about the investor's behaviour. These postulates define the axiomatic approach. Generally, the axioms define the baseline properties of the rational behaviour of the investor. The investor's decisions must be aligned with the axioms. The investors' behaviour can be considered as rational only if there is coherence between the investors' behaviour and the axioms and his preferences can be classified according to the utility functions (Saltari 2011).
@@ -136,7 +161,7 @@ Preferences are complete in the sense that, given two probability distributions,
 By assuming two probability distribution, $p \in q$, we have:
 
 $$
-\mathrm{p} \succcurlyeq \mathrm{q} \quad \text{or} \quad \mathrm{q} \succcurlyeq \mathrm{p} \quad \text{or} \quad \mathrm{p} \sim \mathrm{q} \tag{4.7}
+p \succcurlyeq q \quad \text{or} \quad q \succcurlyeq p \quad \text{or} \quad p \sim q \tag{4.7}
 $$
 
 The preferences are also consistent because they are transitive.
@@ -144,7 +169,7 @@ The preferences are also consistent because they are transitive.
 If the distribution of probability $p$ is preferred, at least to the probability distribution of $q$, and if, in turn, the probability distribution $q$ is preferred at least to the probability distribution $r$, then the probability distribution $p$ is preferred at least to the probability distribution $r$. If the preferences are not transitive, it is not possible to identify an optimal probability distribution. Formally:
 
 $$
-\mathrm{p} \succcurlyeq \mathrm{q} \quad \text{and} \quad \mathrm{q} \succcurlyeq \mathrm{r} \Rightarrow \mathrm{p} \succcurlyeq \mathrm{r} \tag{4.8}
+p \succcurlyeq q \quad \text{and} \quad q \succcurlyeq r \Rightarrow p \succcurlyeq r \tag{4.8}
 $$
 
 ### Axiom 2: Monotonicity
@@ -154,7 +179,7 @@ Given a decision, if two distributions of probability are associated with the sa
 Given two degenerate distributions $(\delta)$, the first providing the best result $(\delta_m)$ with certainty and the second providing the worst result $(\delta_p)$ with certainty and using $\alpha$ and $\beta$ to indicate the probability including between 0 and 1, and using the symbols $o$ and $\oplus$ to indicate how the distributions are made, we have:
 
 $$
-\alpha \circ \delta_{\mathrm{m}} \oplus (1 - \alpha) \circ \delta_{\mathrm{p}} \succcurlyeq \beta \circ \delta_{\mathrm{m}} \oplus (1 - \beta) \circ \delta_{\mathrm{p}} \Leftrightarrow \alpha \geq \beta \tag{4.9}
+\alpha \circ \delta_{m} \oplus (1 - \alpha) \circ \delta_{p} \succcurlyeq \beta \circ \delta_{m} \oplus (1 - \beta) \circ \delta_{p} \Leftrightarrow \alpha \geq \beta \tag{4.9}
 $$
 
 Therefore, given two degenerate distributions (or deterministic distribution) $(\delta_m$ and $\delta_p)$, the preference is function of the probability $(\alpha$ and $\beta)$ of execution and their combination.
@@ -173,7 +198,7 @@ Denoted by $r$ the degenerate distributions that assigns probability 1 to the re
 In this case, we have:
 
 $$
-\forall \mathrm{r} \in \mathrm{P} \exists \alpha \in [ 0, 1 ]: \mathrm{r} \sim \alpha \mathrm{o} \delta_{\mathrm{m}} \oplus (1 - \alpha) \mathrm{o} \delta_{\mathrm{p}} \tag{4.10}
+\forall r \in P \exists \alpha \in [ 0, 1 ]: r \sim \alpha o \delta_{m} \oplus (1 - \alpha) o \delta_{p} \tag{4.10}
 $$
 
 The relationship shows that:
@@ -192,7 +217,7 @@ It is worth noting that the value of $\alpha$ is the utility of $x$: $\alpha = U
 The probability distribution $p$ is indifferent to the probability distribution $q$ if any other probability distribution $r$ is considered and the probability $\alpha$ between 0 and 1, we have:
 
 $$
-\alpha \mathrm{o p} \oplus (1 - \alpha) \mathrm{o r} \sim \alpha \mathrm{o q} \oplus (1 - \alpha) \mathrm{o r} \tag{4.11}
+\alpha o p \oplus (1 - \alpha) o r \sim \alpha o q \oplus (1 - \alpha) o r \tag{4.11}
 $$
 
 Each of the two terms of the relationship can be considered as a particular probability distribution, where with probability $\alpha$ the probability distribution $p$ is obtained (left side of the relationship) or the probability distribution $q$ (right side of the relationship), and with residual probability $(1 - \alpha)$ the probability distribution $r$ for both terms is obtained.
@@ -208,7 +233,7 @@ For the decision-making process only the final probability associated to the eff
 Given the two degenerate distributions $(\delta)$, the first that generates the best result with certainty $(\delta_m)$ and the second that generates the worst result with certainty $(\delta_p)$, and using $\alpha$ and $\beta$ to indicate the probability including between 0 and 1, we have:
 
 $$
-\alpha \mathrm{o} [ \beta \mathrm{o} \delta_{\mathrm{m}} \oplus (1 - \beta) \mathrm{o} \delta_{\mathrm{p}} ] \oplus (1 - \alpha) \mathrm{o} \delta_{\mathrm{p}} \sim \gamma \mathrm{o} \delta_{\mathrm{m}} \oplus (1 - \gamma) \mathrm{o} \delta_{\mathrm{p}} \tag{4.12}
+\alpha o [ \beta o \delta_{m} \oplus (1 - \beta) o \delta_{p} ] \oplus (1 - \alpha) o \delta_{p} \sim \gamma o \delta_{m} \oplus (1 - \gamma) o \delta_{p} \tag{4.12}
 $$
 
 Therefore, $\gamma = \alpha \beta$ is the total probability to obtain $\delta_m$. Consequently, for the investor it is indifferent to obtain $\delta_m$ at one time with probability $\gamma$, or twice with probability $\alpha$ and $\beta$.
@@ -221,7 +246,7 @@ $$
 \begin{array}{l}
 p \succ q \Leftrightarrow \sum U (x) p (x) \geq \sum U (x) q (x) \\
 p \succcurlyeq q \Leftrightarrow \sum U (x) p (x) \geq \sum U (x) q (x) \tag{4.13} \\
-\mathrm{p} \sim \mathrm{q} \Leftrightarrow \sum \mathrm{U} (\mathrm{x}) \mathrm{p} (\mathrm{x}) \geq \sum \mathrm{U} (\mathrm{x}) \mathrm{q} (\mathrm{x}) \\
+p \sim q \Leftrightarrow \sum U (x) p (x) \geq \sum U (x) q (x) \\
 \end{array}
 $$
 
@@ -270,7 +295,7 @@ The second baseline assumption states that the utility function $U(w)$ must be c
 The third baseline assumption states that "more is always preferred to less". In mathematical terms it implies that the first derivative must always be strictly positive, as follows:
 
 $$
-\mathrm{U} \left(\mathrm{w}_2\right) > U \left(\mathrm{w}_1\right) \quad \forall \mathrm{w}_2 > \mathrm{w}_1 \rightarrow U' (W) > 0 \tag{4.16}
+U \left(w_2\right) > U \left(w_1\right) \quad \forall w_2 > w_1 \rightarrow U' (W) > 0 \tag{4.16}
 $$
 
 It is true regardless of the behaviour of the investor to risk. It follows that the utility function is increasing and therefore the investor is non-satiable.
@@ -295,7 +320,7 @@ There are three main types of investor's behaviour at risk: (a) risk aversion; (
 In the case of risk aversion, the second derivative of the utility function is negative $(U''(w) < 0)$. It is possible to use the Jensen's inequality. Given a function $f(x)$ where $x$ is a random variable, $f(E(x)) > E[f(x)]$ only if $f(x)$ is a function with a concave shape. If $f(x)$ has a concave shape no one segment is capable of joining two points on the graph in any point. Therefore, the segment $l(x) = a + bx$ lies always above the function: $l(x) = a + bx \geq f(x)$. The same values $l(E(x)) = f(E(x))$ can only be found in the tangent point $E(x)$. Since $l(x)$ is a linear function, it follows that: $l(E(x)) = E(l(x))$. Therefore $f(E(x)) = l(E(x)) = E(l(x)) \geq E(f(x))$. The inequality follows the condition that $l(x) - f(x) \geq 0$. Therefore, by considering the expectation, we have: $E[l(x) - f(x)] \geq 0$, and therefore $E(l(x)) \geq E(f(x))$. Therefore, on the basis of on the Jensen's inequality, we have:
 
 $$
-\mathrm{E} [ \mathrm{U} (\mathrm{w}) ] < U [ \mathrm{E} (\mathrm{w}) ] \tag{4.17}
+E [ U (w) ] < U [ E (w) ] \tag{4.17}
 $$
 
 Assuming that the random variable $(w)$ can assume two values, $w_1$ and $w_2$, with probability $p_1$ and $(1 - p_1)$ respectively. The $E[U(w)]$ and $U[E(w)]$ can be explicated as follows:
@@ -313,7 +338,7 @@ $$
 Substituting in Eq. (4.17), we have:
 
 $$
-\mathrm{p}_1 \mathrm{U} \left(\mathrm{w}_1\right) + \left(1 - \mathrm{p}_1\right) \mathrm{U} \left(\mathrm{w}_2\right) < U \left[ \mathrm{p}_1 \mathrm{w}_1 + \left(1 - \mathrm{p}_1\right) \mathrm{w}_2 \right] \tag{4.18}
+p_1 U \left(w_1\right) + \left(1 - p_1\right) U \left(w_2\right) < U \left[ p_1 w_1 + \left(1 - p_1\right) w_2 \right] \tag{4.18}
 $$
 
 Equation (4.18) implies the concave shape of the function $U(w)$ in all of domain $D$, as shown in Fig. 4.2.
@@ -1712,6 +1737,62 @@ Tobin J (1958) Liquidity preference as behavior towards risk. The Review of Econ
 Varian HR (1992) Microeconomic analysis, 3rd edn. W.W. Norton & Company, New York
 Von Neumann J, Morgenstern O (1944) Theory of games and economic behavior. Princeton University Press
 
+## D2 Diagrams for Utility Function Approach
+
+### Utility Function Types
+```d2
+# Utility Function Types and Risk Preferences
+risk_aversion: "Risk Averse U''(W) < 0"
+risk_neutral: "Risk Neutral U''(W) = 0"
+risk_seeking: "Risk Seeking U''(W) > 0"
+
+risk_aversion -> "Concave utility function\nPrefers certain outcome\nto risky prospect with\nsame expected value"
+risk_neutral -> "Linear utility function\nIndifferent between\ncertain and risky outcomes\nwith same expected value"
+risk_seeking -> "Convex utility function\nPrefers risky prospect\nto certain outcome with\nsame expected value"
+```
+
+### Expected Utility Framework
+```d2
+# Expected Utility Components
+probabilities: "Probabilities π_s"
+outcomes: "Outcomes y_{i,s}"
+utility_function: "Utility Function U(.)"
+expected_utility: "Expected Utility E[U(y)]"
+
+probabilities -> expected_utility: "Weight outcomes"
+outcomes -> expected_utility: "Input to utility"
+utility_function -> expected_utility: "Transform outcomes"
+expected_utility -> "Decision criterion"
+```
+
+### Axioms of Rational Choice
+```d2
+# Axioms of Rational Choice
+completeness: "Completeness"
+transitivity: "Transitivity"
+independence: "Independence"
+continuity: "Continuity"
+monotonicity: "Monotonicity"
+
+completeness <-> transitivity: "Rational preferences"
+independence <-> continuity: "Consistent mixing"
+monotonicity -> "Preference for more"
+```
+
+### Risk Measures
+```d2
+# Risk Aversion Measures
+absolute_risk: "Absolute Risk Aversion\n-AU''(W)/U'(W)"
+relative_risk: "Relative Risk Aversion\n-WU''(W)/U'(W)"
+certainty_equiv: "Certainty Equivalent"
+risk_premium: "Risk Premium"
+
+absolute_risk -> "Local risk attitude"
+relative_risk -> "Scaling with wealth"
+certainty_equiv -> "Willing to accept for sure"
+risk_premium -> "Amount willing to pay\nto avoid risk"
+```
+
 $$
 \mathrm {U} (\mathrm {w}) = \mathrm {a} + \mathrm {b w} \quad \mathrm {b} > 0 \tag {4.33}
 $$
@@ -2793,4 +2874,60 @@ Saltari E (2011) Appunti di Economia Finanziaria. Esculpio
 Tobin J (1958) Liquidity preference as behavior towards risk. The Review of Economic Studies 25(2):65-86
 Varian HR (1992) Microeconomic analysis, 3rd edn. W.W. Norton & Company, New York
 Von Neumann J, Morgenstern O (1944) Theory of games and economic behavior. Princeton University Press
+
+## D2 Diagrams for Utility Function Approach
+
+### Utility Function Types
+```d2
+# Utility Function Types and Risk Preferences
+risk_aversion: "Risk Averse U''(W) < 0"
+risk_neutral: "Risk Neutral U''(W) = 0"
+risk_seeking: "Risk Seeking U''(W) > 0"
+
+risk_aversion -> "Concave utility function\nPrefers certain outcome\nto risky prospect with\nsame expected value"
+risk_neutral -> "Linear utility function\nIndifferent between\ncertain and risky outcomes\nwith same expected value"
+risk_seeking -> "Convex utility function\nPrefers risky prospect\nto certain outcome with\nsame expected value"
+```
+
+### Expected Utility Framework
+```d2
+# Expected Utility Components
+probabilities: "Probabilities π_s"
+outcomes: "Outcomes y_{i,s}"
+utility_function: "Utility Function U(.)"
+expected_utility: "Expected Utility E[U(y)]"
+
+probabilities -> expected_utility: "Weight outcomes"
+outcomes -> expected_utility: "Input to utility"
+utility_function -> expected_utility: "Transform outcomes"
+expected_utility -> "Decision criterion"
+```
+
+### Axioms of Rational Choice
+```d2
+# Axioms of Rational Choice
+completeness: "Completeness"
+transitivity: "Transitivity"
+independence: "Independence"
+continuity: "Continuity"
+monotonicity: "Monotonicity"
+
+completeness <-> transitivity: "Rational preferences"
+independence <-> continuity: "Consistent mixing"
+monotonicity -> "Preference for more"
+```
+
+### Risk Measures
+```d2
+# Risk Aversion Measures
+absolute_risk: "Absolute Risk Aversion\n-AU''(W)/U'(W)"
+relative_risk: "Relative Risk Aversion\n-WU''(W)/U'(W)"
+certainty_equiv: "Certainty Equivalent"
+risk_premium: "Risk Premium"
+
+absolute_risk -> "Local risk attitude"
+relative_risk -> "Scaling with wealth"
+certainty_equiv -> "Willing to accept for sure"
+risk_premium -> "Amount willing to pay\nto avoid risk"
+```
 
