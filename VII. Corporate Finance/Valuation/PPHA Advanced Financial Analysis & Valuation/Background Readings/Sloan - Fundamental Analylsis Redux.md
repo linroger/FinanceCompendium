@@ -1,7 +1,7 @@
 ---
 title: "Fundamental Analysis Redux"
 parent_directory: "Background Readings"
-formatted: 2025-12-21 03:50:00 PM
+formatted: 2025-12-21 04:10:00 PM
 formatter_model: claude-sonnet-4
 cli_tool: claude-code
 primary_tags:
@@ -9,11 +9,14 @@ primary_tags:
   - quantitative investing
   - value investing
 secondary_tags:
-  - security analysis
-  - market efficiency
-  - financial statement analysis
-  - accounting anomalies
-  - intrinsic value
+   - security analysis
+   - market efficiency
+   - financial statement analysis
+   - accounting anomalies
+   - intrinsic value
+   - capital markets efficiency
+   - financial reporting quality
+   - fundamental analyst skills
 cssclasses: academia
 ---
 
@@ -37,7 +40,7 @@ I have spent much of my career teaching students how to interpret financial stat
 
 Accounting textbooks are replete with examples of how accounting principles can distort economic reality. The requirement to expense most investments in research and development is a case in point. In other cases, managers must choose between accounting methods that can poorly reflect economic reality. Examples include different inventory cost flow assumptions and different long-lived asset depreciation and amortization methods. Finally, many accounting numbers require substantial judgement and estimation. Examples include the allowance for loan losses on receivables and the liability for employee postretirement benefit obligations.
 
-These examples should sound familiar to anyone that teaches a user-oriented course in financial accounting. They are at the heart of fundamental analysis and can be traced back at least as far as the pioneering work of Graham and Dodd (1934). Consequently, I suspect that many accounting academics believe that fundamental analysis is alive and well. Yet the field of
+These examples should sound familiar to anyone that teaches a user-oriented course in financial accounting. They are at the heart of fundamental analysis and can be traced back at least as far as the pioneering work of Graham and Dodd (1934). Consequently, I suspect that many accounting academics believe that fundamental analysis is alive and well. Yet the field of academic finance and the investment world today are increasingly dominated by quantitative investment strategies. These strategies typically select securities using a few financial ratios, often in conjunction with mathematical portfolio optimization techniques. Recent changes have been so profound that the Wall Street Journal recently proclaimed that "The Quants Run Wall Street Now." $^{2}$
 
 This essay is based on my Presidential Scholar address at the 2017 American Accounting Association Annual Meeting in San Diego. I thank President David Burgstahler for the opportunity to give the address, Mary E. Barth (editor) for inviting the publication of this associated essay, and an anonymous reviewer for many helpful comments. I thank my many coauthors and other colleagues who have helped shape the thoughts expressed here. Special mentions to Patricia Dechow, Ilia Dichev, Ryan Erhard, Paul Healy, Bob Holthausen, U-Wen Kok, Alastair Lawrence, Charles Lee, Russell Lundholm, Jason Ribando, Steve Rossi, Scott Richardson, Steve Sloan, Mark Soliman, Jieyin Zeng, and seminar participants at the 2018 George Washington University Cherry Blossom Conference. I also thank Alex Seaver and Dominic DeMarco of Stadium Capital Management for helpful discussions.
 
@@ -53,7 +56,7 @@ Accepted: December 2018
 
 Published Online: March 2019
 
-academic finance and the investment world today are increasingly dominated by quantitative investment strategies. These strategies typically select securities using a few financial ratios, often in conjunction with mathematical portfolio optimization techniques. Recent changes have been so profound that the Wall Street Journal recently proclaimed that "The Quants Run Wall Street Now." $^2$
+academic finance and the investment world today are increasingly dominated by quantitative investment strategies. These strategies typically select securities using a few financial ratios, often in conjunction with mathematical portfolio optimization techniques. Recent changes have been so profound that the Wall Street Journal recently proclaimed that "The Quants Run Wall Street Now." $^{2}$
 
 Quantitative investing strategies are often referred to as "rules-based" strategies. A common example is the construction of a portfolio of stocks with high book-to-market ratios. The benefits of such strategies are well-documented. These rules-based strategies can quickly select securities from a large investment universe, while the traditional fundamental analyst can typically analyze only a small subset of the investment universe. Quantitative strategies are also objective, thus avoiding the well-documented behavioral biases affecting many human investors, such as chasing glamor stocks or holding on to losing stocks. Finally, the past performance of quantitative strategies can be objectively verified using backtests.
 
@@ -509,13 +512,11 @@ future -> outcomes: Leads to
 
 Advances in quantitative finance have produced many benefits, including lowering the cost of information processing, facilitating the detection of certain systematic errors in security pricing, facilitating the construction of low risk portfolios, and facilitating the design and pricing of complex financial instruments that can enhance risk sharing. While acknowledging these benefits, I argue that the focus on quantitative finance has also had negative effects, particularly, a decreased focus on fundamental analysis in security selection. An important role of capital markets is the efficient allocation of scarce resources. For capital markets to perform this role effectively, marginal investors must have good estimates of the intrinsic values of the underlying securities. Popular quantitative approaches to investing employ naive estimates of intrinsic value.
 
-How did we get here? The original paradigm in quantitative finance embraced the idea that prices were already close to reflecting intrinsic value. Since attempts to estimate intrinsic value were unlikely to uncover significant mispricing, the topic
+How did we get here? The original paradigm in quantitative finance embraced the idea that prices were already close to reflecting intrinsic value. Since attempts to estimate intrinsic value were unlikely to uncover significant mispricing, the topic was not judged to be worthy of significant academic inquiry.
 
 FIGURE 3 Aggregate Ownership Trends for the Top Institutional Holders of Big Five Sporting Goods as of March 31, 2017 and the Associated Short Position  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/1646bf3a-1a47-48c2-9b4d-3a73c6a56d40/a3097d0be4215043884901adf002620a10a112362ce93fa413fddc72311c1144.jpg)  
-Source:FactSet.
-
-was not judged to be worthy of significant academic inquiry. Popular textbooks and investments courses have embraced this paradigm and pay little attention to fundamental analysis. More recently, academics in quantitative finance have identified numerous "anomalies," whereby backtests have uncovered relations between certain accounting ratios and future stock returns. These accounting ratios are increasingly being used to construct investment strategies that appeal to fundamental analysis, with labels such as "value" and "quality," and are claimed to offer superior investment performance. The current situation parallels the pre-Graham and Dodd (1934) era, whereby investors fixate on simple accounting ratios and overlook the importance of detailed fundamental analysis.
+Source:FactSet. Popular textbooks and investments courses have embraced this paradigm and pay little attention to fundamental analysis. More recently, academics in quantitative finance have identified numerous "anomalies," whereby backtests have uncovered relations between certain accounting ratios and future stock returns. These accounting ratios are increasingly being used to construct investment strategies that appeal to fundamental analysis, with labels such as "value" and "quality," and are claimed to offer superior investment performance. The current situation parallels the pre-Graham and Dodd (1934) era, whereby investors fixate on simple accounting ratios and overlook the importance of detailed fundamental analysis.
 
 This brings me to my main conclusions:
 
@@ -523,9 +524,7 @@ This brings me to my main conclusions:
 2. Comprehensive fundamental analysis requires information to help investors assess the prospects for the future net cash inflows to an entity.  
 3. Comprehensive fundamental analysis requires analysts with a wide set of business skills who can effectively analyze and synthesize both qualitative and quantitative information.
 
-Let me briefly discuss each of these in turn. First, fundamental analysis is much more than just another investment technique. Unlike technical analysis and multi-factor quantitative models, the ultimate goal of fundamental analysis is to forecast the future cash flows and hence the intrinsic value of a security. Comprehensive fundamental analysis enables capital markets to function effectively and facilitates the efficient allocation of resources. Some finance academics have dismissed fundamental analysis on the grounds that it does not offer an easy path for "beating the market." My response here is that there
-
-are no easy paths to beating the market. The early days of quantitative finance may have uncovered some systematic inefficiencies, but these are now well known and unlikely to persist. Fundamental analysis, however, will endure.
+Let me briefly discuss each of these in turn. First, fundamental analysis is much more than just another investment technique. Unlike technical analysis and multi-factor quantitative models, the ultimate goal of fundamental analysis is to forecast the future cash flows and hence the intrinsic value of a security. Comprehensive fundamental analysis enables capital markets to function effectively and facilitates the efficient allocation of resources. Some finance academics have dismissed fundamental analysis on the grounds that it does not offer an easy path for "beating the market." My response here is that there are no easy paths to beating the market. The early days of quantitative finance may have uncovered some systematic inefficiencies, but these are now well known and unlikely to persist. Fundamental analysis, however, will endure.
 
 The returns to fundamental analysis should follow the basic principles of any competitive market. Well-trained fundamental analysts, just like well-trained M.B.A. graduates, should earn a premium in the labor market. Like any other market, the market for fundamental analysts may experience temporary demand and supply imbalances, but I expect that there will continue to be a healthy long-run premium for the well-trained and industrious fundamental analyst. Being a good fundamental analyst in today's environment includes taking advantage of innovations in quantitative finance. But the ultimate goal continues to be good estimates of intrinsic value.
 

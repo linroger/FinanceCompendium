@@ -1,8 +1,8 @@
 ---
 title: Appendix H Eigenvectors and Eigenvalues
 parent_directory: Part 8 Appendices
-formatted: 2025-12-21 04:05:00 PM
-formatter_model: claude-sonnet-4
+formatted: 2025-12-21 04:15:00 PM
+formatter_model: claude-sonnet-4-5-20250929
 cli-tool: opencode
 primary_tags:
   - eigenvectors eigenvalues
@@ -99,13 +99,13 @@ $$
 
 The simultaneous equations corresponding to this are
 
-$$ x _ {1} - x _ {2} = 3 x _ {1}
+$$ x_{1} - x_{2} = 3 x_{1}
 $$ and
 
 
 $$
 
-2 x _ {1} + 4 x _ {2} = 3 x _ {2}
+2 x_{1} + 4 x_{2} = 3 x_{2}
 
 $$
 

@@ -1,13 +1,18 @@
 ---
-parent_directory:
-title: Counterpoint Global Insights
-tags:
-aliases:
-parent_folder: Week 1
-subfolder:
-key_concepts:
+title: Everything Is a DCF Model
+parent_directory: Week 1
+formatted: 2025-12-21 2:00:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - discounted cash flow
+  - intrinsic value
+  - cash generating assets
+secondary_tags:
+  - valuation mantra
+  - market participants
+  - investment theory
 cssclasses: academia
-linter-yaml-title-alias: Counterpoint Global Insights
 ---
 
 # Counterpoint Global Insights

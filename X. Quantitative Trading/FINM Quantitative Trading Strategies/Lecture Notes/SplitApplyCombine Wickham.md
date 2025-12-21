@@ -1,14 +1,18 @@
 ---
-parent_directory: Lecture Notes
 title: The Split-Apply-Combine Strategy for Data Analysis
-tags:
-aliases:
-  - Split-Apply-Combine Strategy for Data Analysis
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+parent_directory: Lecture Notes
+formatted: 2025-12-21 2:30:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - split apply combine
+  - data analysis strategy
+  - plyr package
+secondary_tags:
+  - r programming
+  - data manipulation
+  - group wise operations
 cssclasses: academia
-linter-yaml-title-alias: The Split-Apply-Combine Strategy for Data Analysis
 ---
 
 # The Split-Apply-Combine Strategy for Data Analysis

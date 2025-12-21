@@ -1,19 +1,25 @@
 ---
+title: Least-Squares Fitting of Linear Models
 parent_directory: Lecture Notes
-title: LEAST-SQUARES FITTING OF LINEAR MODELS
-tags:
-aliases:
-  - LEAST-SQUARES FITTING OF LINEAR MODELS
-parent_folder: Mathematical Finance
-subfolder:
-key_concepts:
+formatted: 2025-12-21 04:05:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: opencode
+primary_tags:
+  - least squares regression
+  - linear model fitting
+  - statistical modeling
+secondary_tags:
+  - regression analysis
+  - parameter estimation
+  - error minimization
+  - model calibration
+  - statistical inference
 cssclasses: academia
-linter-yaml-title-alias: LEAST-SQUARES FITTING OF LINEAR MODELS
 ---
 
-# LEAST-SQUARES FITTING OF LINEAR MODELS
+# Least-Squares Fitting of Linear Models
 
-# 1. THE IMPORTANCE OF LINEAR FITS
+## 1. The Importance of Linear Fits
 
 Linear model fits are of tremendous importance in finance.
 
@@ -21,7 +27,7 @@ They are, approximately, the most complex model explainable to quantitatively in
 
 Though we need to avoid complacency about nonlinear effects, and be aware of false positives, they serve well as initial models in most circumstances. We begin by examining fits using ordinary least squares regressions.
 
-# 2. PERSPECTIVE ON REGRESSION
+## 2. Perspective on Regression
 
 Regression on a data set may be viewed as one of several sorts of exercise, including
 
@@ -43,9 +49,9 @@ Though the three exercises are philosophically different, our assumptions cause 
 
 We begin our course of study with the mathematics of least-squares linear models under the highly restrictive assumptions above. Later on, we will progress to considering the consequences of questioning our assumptions.
 
-# 3. FITTING
+## 3. Fitting
 
-Let's begin our mathematical tour by taking the statistical perspective. Assume we have a set of  $N$  observation times indexed by  $t$ , a dependent variable  $Y$  with  $N$  observations  $Y_{t}$  and
+Let's begin our mathematical tour by taking the statistical perspective. Assume we have a set of $N$ observation times indexed by $t$, a dependent variable $Y$ with $N$ observations $Y_{t}$ and
 
 a set of explanatory variables  $X_{i}, i = 1,\dots ,K$  having observations  $X_{i,t}$ . Our model is
 
@@ -114,7 +120,7 @@ $$
 
 and find ourselves in need of further information, which will have to be derived from the second moment.
 
-# 3.1. Some Probability Theory.
+### 3.1. Some Probability Theory
 
 Definitions 3.2. The conditional probability  $P(A|B)$ , the probability of  $A$  conditional on  $B$  is
 
@@ -176,7 +182,7 @@ $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/d6b3974c-f53e-44dd-9cd9-e1a2bb34b308/93f60d6b94bf5de2e18857c074e1b868af64bc08f8278b6a76dbf19a8487f609.jpg)
 
-# 3.2. Second Moments For Regression. Recall now that our model is
+### 3.2. Second Moments For Regression
 
 $$
 Y = \alpha + \beta X + u
@@ -228,7 +234,7 @@ Note that, due to the convexity of the square function and the triangle inequali
 
 The method of moments is far more broadly useful than as a simple regression formula. It is widely used in time series analysis and derivatives pricing to form tractable equations for fitting highly nonlinear models.
 
-# 4. SQUARED ERRORS
+## 4. Squared Errors
 
 Let us now take another perspective on fitting the model
 
@@ -342,7 +348,7 @@ Uses of weights include
 - Fitting according to practical importance of points  
 - Local regressions
 
-# 5. THE COMPUTATIONAL COMPLEXITY OF INVERTING A MATRIX
+## 5. The Computational Complexity of Inverting a Matrix
 
 Matrix inverses like the one above appear frequently in the theory of regression, in finite difference schemes for option pricing, and in risk computations. However, they should essentially never be computed, being both computationally expensive and unstable (sensitive to round-off error). For a scalar  $\sigma$ , viewed as a 1-dimensional matrix, there is no problem in
 
@@ -382,7 +388,7 @@ $$
 
 with 252 naive FLOPS and 60 actual FLOPS. With larger matrices, the combinatorial explosion is staggering, going roughly as  $(n!)^2$ . If we look at the apparent computational needs for a matrix inverse, it quickly becomes obvious that a matrix inverse is never the end product of one of our calculations but rather an intermediate step. Therefore, we can be well-served by avoiding calculation of a matrix inverse and computing its effects in our formula instead.
 
-# 6. BASICS OF COMPUTATION IN LINEAR ALGEBRA
+## 6. Basics of Computation in Linear Algebra
 
 We consider our matrices  $A \in \mathbb{R}^{m \times n}$  as comprised of components in several ways. When not otherwise noted, the matrix elements are represented with lowercase equivalent letters and two indices over the natural numbers up to  $m, n$ , i.e.  $A$  is comprised of elements
 

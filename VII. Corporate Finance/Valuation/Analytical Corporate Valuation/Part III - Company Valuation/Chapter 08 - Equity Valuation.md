@@ -1,7 +1,7 @@
 ---
 title: "Chapter 08 - Equity Valuation"
 parent_directory: Part III - Company Valuation
-formatted: 2025-12-21 12:15:00 PM
+formatted: 2025-12-21 12:30:00 PM
 formatter_model: kimi-k2-turbo
 cli-tool: claude-code
 primary_tags:
@@ -904,239 +904,10 @@ $$
 and then:
 
 $$
-W _ {E} = \sum_ {t = 1} ^ {n} \frac {F C F E _ {t}}{\left(1 + K _ {E , e g}\right) ^ {t}} + \frac {F C F E _ {n + 1}}{\left(K _ {E , s g} - g _ {n}\right) \left(1 + K _ {E , s g}\right) ^ {n}} \tag {8.40}
+P _ {0} = \frac {E P S \cdot P R \cdot \left(1 + g _ {e}\right) ^ {n} \left(1 + g _ {n}\right)}{\left(K _ {E , s g} - g _ {n}\right) \left(1 + K _ {E , s g}\right) ^ {n}}
 $$
 
-The Eq. (8.40) estimates the Equity Value on the basis of two parts:
-
-- the first part, is the present value of the expected FCFE estimated in the first period for each year. Therefore, it is an analytical valuation;
-- the second part, is the present value of expected Terminal Value estimated in the second period from the end of the first period in perpetuity. Therefore, it is a synthetic valuation.
-
-The Cost of Equity $(K_{E})$ used to discount both the expected FCFE and Terminal Value, may be the same in the two periods.
-
-# Three-Stage Edm
-
-The Three-Stage EDM (3S-EDM) can be used to evaluate companies characterized by three different stages of growth:
-
-- extraordinary growth period: it is the first period and it is characterized by a high or low growth rate;
-- transitional growth period: it is the second period and it is characterized by a declining or increasing growth rate to reach a stable level;
-- steady-state growth period: it is the third period and it is characterized by a steady-state growth rate.
-
-The Equity Value is equal to the sum of present values of expected FCFE in a high or low growth period (first period), transaction period (second period) and steady-state period (third period) (Damodaran 2012). By considering the extraordinary growth rate $(g_{a})$, transitional growth rate $(g_{tr})$ and the steady-state growth rate $(g_{n})$ and the cost of equity $(K_{E})$ in the first period $(K_{E,eg})$, second period $(K_{E,tr})$ and third period $(K_{E,st})$, the Equity Value $(W_{E})$ is equal to:
-
-$$
-W _ {E} = \sum_ {t = 1} ^ {n} \frac {F C F E _ {t}}{\left(1 + K _ {E , e g}\right) ^ {t}} + \sum_ {t = n + 1} ^ {m} \frac {F C F E _ {t}}{\left(1 + K _ {E , t r}\right) ^ {t}} + \frac {T V _ {m}}{\left(1 + K _ {E , s t}\right) ^ {m}} \tag {8.41}
-$$
-
-where the growth rates referring to the first and second periods are the following:
-
-$$
-g _ {a} = \frac {\text {D i v} _ {t + 1}}{\text {D i v} _ {t}} - 1 \leftrightarrow g _ {a} = \frac {\text {D P S} _ {t + 1}}{\text {D P S} _ {t}} - 1
-$$
-
-$$
-g _ {t r} = \frac {D i v _ {t + 1}}{D i v _ {t}} - 1 \leftrightarrow g _ {t r} = \frac {D P S _ {t + 1}}{D P S _ {t}} - 1
-$$
-
-The Terminal value  $(TV)$  can be calculated by using the infinite growth rate model:
-
-$$
-T V _ {m} = \frac {F C F E _ {m + 1}}{K _ {E , s t} - g _ {m}} \tag {8.42}
-$$
-
-By substituting Eq. (8.42), the Eq. (8.41) can be rewritten as follows:
-
-$$
-W _ {E} = \sum_ {t = 1} ^ {n} \frac {F C F E _ {t}}{\left(1 + K _ {E , e g}\right) ^ {t}} + \sum_ {t = n + 1} ^ {m} \frac {F C F E _ {t}}{\left(1 + K _ {E , t r}\right) ^ {t}} + \frac {\frac {F C F E _ {m + 1}}{K _ {E , s t} - g _ {m}}}{\left(1 + K _ {E , s t}\right) ^ {m}}
-$$
-
-and then
-
-$$
-W _ {E} = \sum_ {t = 1} ^ {n} \frac {F C F E _ {t}}{\left(1 + K _ {E , e g}\right) ^ {t}} + \sum_ {t = n + 1} ^ {m} \frac {F C F E _ {t}}{\left(1 + K _ {E , t r}\right) ^ {t}} + \frac {F C F E _ {m + 1}}{\left(K _ {E , s t} - g _ {m}\right) \left(1 + K _ {E , s t}\right) ^ {m}} \tag {8.43}
-$$
-
-The Eq. (8.43) is based on three different parts:
-
-- The first part, is the present value of expected FCFE in the first period (from  $t = 1$  to  $t = n$ ) and it is characterized by a high or low growth rate;
-- The second part, is the present value of the expected FCFE in the second period (from  $t = n + 1$  to  $t = m$ ) and it is characterized by a transitory growth rate;
-- The third part, is the present value of expected Terminal Value in the third period (from  $t = m + 1$  in perpetuity) and it is characterized by a steady-state growth rate.
-
-While the first and second periods can be defined "analytically" because the expected FCFE's are estimated in each period of valuation, the third part can be defined "synthetically" because the Terminal Value is estimated in perpetuity.
-
-# 8.4 Multiples on Equity Value
-
-The relative valuation estimates the Equity Value and Enterprise Value on the basis of multiples (Copeland et al. 2004; Damodaran 2012, 2015; Koller et al. 2015; Vernimmen et al. 2014; Graham et al. 1962; Beidelman 1971; Foster 1970;
-
-Whitbeck and Kisor 1963; Gordon 1962; Malkiel and Cragg 1970; Joy and Jones 1970; Hawkins 1977; Chen 1998; Blume 1977; Corelli 2016; Beaver 1978).
-
-While in the Discounted Cash-Flow Models (DDM, EDM, and EPDM) both Equity Value and Enterprise Value are estimated on the basis of the company's fundamentals, in the multiples approach they are estimated on the basis of current market price of comparable companies.
-
-Although the Discounted Cash-Flow Models (DCF) are far more reliable in the asset valuation, they require many forecasting variables. On the other hand, the multiple approach requires few variables and it is easier than the DCF (Bing 1971).
-
-Specifically, the multiples approach:
-
-- requires less time, efforts and information than a direct valuation of Discounted Cash-Flow Models;
-- basic assumptions are not required;
-- is easy to understand for analyst, advisors and investors;
-- is easy to defend the reliability of evaluation in the market;
-- reflects the market dynamics more than the direct valuation because the objective is the relative value of the company based on market price and not its intrinsic value as direct valuation.
-
-Unfortunately, these strong points define weak points at the same time. Indeed, this approach is unsophisticated and has several problems. Among these, the main ones can be summarized as follows (Damodaran 2012):
-
-- the basic reasoning according to which if the assets are equal, their price in the market must be equal, and therefore the price of the asset can be defined based according to the market price of an equal asset, is very limited. The main problem is due to the "comparable asset": it is a great simplification because there are no two assets, and therefore two companies, that can be defined equal in the market;
-- the simply use of multiples, can generate an inconsistent valuation compared to the company's fundamentals mainly with regards to its expectations about the expected free cash flow and risk;
-- the multiples reflect the market trend. Then, the company's value reflects the market trends: the company's valuation can be overestimated (or underestimated) if the market is overestimated (or underestimated);
-- the multiples can be easily manipulated because the basic assumptions cannot be transparent. It is not strange that even easy multiples are calculated differently by different analysts;
-- if the companies use a different accounting principle, there are distortions in the multiples;
-- not always can the value of the multiple be calculated in a useful manner. It is not useful to calculate the multiple if one of the two variables considered is negative;
-- the valuation based on the multiples is unstable in the long time. The value of the multiples in the business and in the market, change over time. These changes are due to the changes in the market structure, in the company's fundamentals or in the financial markets with regards to the cost of capital. Therefore, it is not always easy to compare the value of a multiple at different times. Also, one company may be cheaper than another company today, but not tomorrow;
-- the use of subjective judgments is high in all phases of the multiple definition and its application;
-- in the use of the multiples, both equity and enterprise, it is necessary to consider that the multiples change in time for the same company and each multiple is different according to the market and the State of the company.
-
-Even if the multiples approach is easy, its correct application requires a rigorous procedure (Damodaran 2012). This procedure can be scheduled in 6 steps:
-
-- (step 1) to find a comparable company. The basic reasoning is simple: if the assets are equal, their price in the market must be equal. Therefore, the company's value can be estimated based on the market value of other comparable companies. Generally, the "comparable company" is defined as a company with similar expected cash-flows, growth rate and risk profile in the same business;
-- (step 2) to relate the market price with common variables by generating the well-known multiples (such as net income, EBITDA, EBIT, Capital invested, etc.). It is necessary to standardize the price for comparison;
-- (step 3) to define the multiple coherently according to the relationship between numerator and denominator. If the numerator refers to equity (or enterprise) the denominator has to refer to equity (or enterprise) too;
-- (step 4) to define the multiple evenly for all comparable companies. It must be defined in the same way for all comparable companies. Also, it is useful to understand the companion variable of the multiple in order to measure the sensitivity of the multiple to the company's fundamental changes. Finally, it is necessary to understand the range of the "normal value" of the multiple with regards to the business references;
-- (step 5) to adjust the company's value estimated by multiples according to the differences between the company evaluated and the company comparable;
-- (step 6) to understand the statistic characteristics of the distribution of the multiple with regards to the specific business and the market in general. The first is useful to understand the position of the company in the business; the second is useful to understand the position of the business in the market.
-
-In this context the multiples derive from the discounted cash flow approach (Discount Dividend Model (DDM), Free Cash Flow to Equity Discount Models (EDM), and Free Cash Flow to Company Discount Models (EFDM)). In these models the value of equity and the value of enterprise are functions of the expected cash flows (FCFO and FCFE), the expected growth rate of these cash flow and their uncertainty and the cost of capital. Therefore, each multiple is a function of the same variables of the models such as expected cash-flow, growth and risk.
-
-In this context, as in the case of direct valuation, also for the relative valuation the multiples approach is used by distinguishing the two perspectives: Asset Side, to estimate the Enterprise Value; Equity Side, to estimate Equity Value. Therefore, the most useful multiples are distinguished in these two perspectives as follows:
-
-- Equity Side, to estimate Equity Value the four main multiples are considered:
-- Price-to-Earnings (P/E or PE) Ratio;
-PE-to-Growth (PE/G or PEG) Ratio;
-- Price-to-Book Value (P/BV or PBV) Ratio;
-- Price-to-Sales (P/S or PS) Ratio.
-- Asset Side, to estimate Enterprise Value, three main multiples are considered:
-- Enterprise Value-to-EBITDA (EV/EBITDA) Ratio;
-- Enterprise Value-to-Book Value (EV/BV) Ratio;
-- Value of Operating Assets-to-Sales (EV/Sales) Ratio.
-
-Figure 8.4 summarizes the multiples approach by distinguishing between the Asset Side and the Equity Side in order to estimate Enterprise Value and Equity Value respectively.
-
-Note that the PS Ratio and the EV/Sales Ratio are two multiples based on revenues. Specifically, these multiples estimate the Equity and Enterprise Values on the basis of the company's ability to generate revenues. Their simplicity generates relevant advantages:
-
-- first, they can be easily used to evaluate a young company with negative earnings or for new-economy companies in which their value can be estimated based on the specific sector measures (such as the number of customers, subscribers, web site visitors);
-- second, while the earnings and book value ratios can be negative and therefore not meaningful, revenues multiples are available even for the most troubled company and for young company;
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/1fff2e8f6e1c077441002c7bec48c32499a48edc6a1ec30b809a94ca750c25fe.jpg)
-Fig. 8.4 Multiples to estimate equity value and enterprise value
-
-- third, while the earnings and book values are heavily affected by accounting standards and therefore they can be manipulated, the revenue is relatively difficult to manipulate;
-- fourth, revenue multiples tend to have a low volatility and therefore they are more stable over time.
-
-The main problem of these multiples is that they may assign high value to a company that is generating high revenue but losing a relevant amount of money.
-
-In this paragraph multiples on Equity Value are analysed while in the next chapter multiples on Enterprise Value will be analysed.
-
-# Price-to-Earnings Ratio (p/e)
-
-The Price-earnings (PE) Ratio is the most commonly used multiple to estimate Equity Value. Three main approaches are used. The simplest way to use the multiple is to define a measure of earnings: present earnings, normalized earnings, predicted earnings. A more complex way is to investigate and to discuss large numbers of factors that should affect the multiple in order to find which of them really affects the multiple and their weights (Graham et al. 1962; Beidelman 1971; Foster 1970). In a larger view of this approach, common stock price, earnings, dividends, risk, growth and time value of money are considered. All of these variables are put together by considering their weights in order to estimate the multiple. The relationship between the multiple and variables identified is usually defined by using a regression analysis and multiple regression analysis (Whitbeck and Kisor 1963; Gordon 1962; Malkiel and Cragg 1970). This is probably one of the most popular in the standard texts of security analysis. One of the earlier equations shows that the P/E ratio is related to earnings, dividends, growth, risk (Whitbeck and Kisor 1963). The relationship can be formalized as follows: the higher the growth, the higher the dividends (by assuming constant growth), and the lower the risk (measured as standard deviation of growth), the higher the P/E ratio.
-
-It is worth noting that all models developed over time on this approach are able to explain stock price at a given point in time. However, they are not able to select the appropriate stocks to buy or sell short at the same time. In other words, models are able to find which variables and their weights are important in the stock price at a given point in time but they cannot identify which stock will be successful. There are three main reasons (Elton et al. 2013): (i) market changes: the importance of certain variables and their weight change over time, sometimes rapid and drastic; (ii) the values of each variable change over time: even if the market preference on variables was to remain constant over time, the theoretical value of stock changes because the estimation of the value of variables changes; (iii) the model is not able to capture all company fundamentals and their effects on stock price: the actual price of stocks can be above or below their theoretical prices. Indeed, the theory behind their use in order to find stocks under-valued and over-valued is that the market price will converge to a theoretical price before this theoretical price itself changes. The main problem is that the parameters that determine theoretical price might change.
-
-Note that even if the multiple use seems simple, several errors are usually made in its application. These errors are mainly due to an unclear relationship with company's fundamentals.
-
-Formally, it is equal to the ratio of the Market Price per Share (MPS) to the Earnings per Share (EPS):
-
-$$
-P E = \frac {M P S}{E P S} \tag {8.44}
-$$
-
-There are several approaches to estimate both numerator and denominator. Indeed (Damodaran 2012):
-
-- the market price can be defined in terms of (i) the current market price or (ii) the mean market price based on the last quarter or the last year;
-- the earnings per share can be defined in terms of (i) the current earnings per share, with regards to the most recent book value earnings; (ii) the trailing earnings per share, with regards to the book value earnings of the last quarter; (iii) the forward earnings per share, with regards to the expected book value earnings for the next year.
-
-By combining these determinations of numerator and denominator, several configurations of the multiple are achieved:
-
-- price current or mean/earnings current (PE current): is the ratio between the market price and the current earnings per share of the company;
-- price current or mean/earnings trailing (PE trailing): is the ratio between the market price and the earnings per share of the last year;
-- price current or mean/earnings forward (PE forward): is the ratio between the market price and the expected earnings per share for the next year.
-
-Note that there is a relationship among these configurations as follows:
-
-$$
-P E f o r w a r d <   P E t r a i l i n g <   P E c u r r e n t
-$$
-
-A relationship between the PE ratio and the company's fundamentals can be found. Specifically, this relationship can be defined by using the Discounted Dividend Model (DDM) in two scenarios (Damodaran 2012):
-
-- steady-state growth over time scenario;
-- two-stage growth scenario: extraordinary growth in the first period and steady-state growth in the second period.
-
-In the steady-state growth over time scenario, the Equity Value can be estimated on the basis of C-DDM as follows:
-
-$$
-P _ {0} = \frac {D P S}{K _ {E} - g _ {n}}
-$$
-
-where  $P_0$  is the current stock price,  $DPS$  are the Dividends per Share that the company can pay in perpetuity in steady-state scenario and  $g_n$  is the steady-state growth rate.
-
-Dividing both sides by Earnings per Share (EPS), we have:
-
-$$
-\frac {P _ {0}}{E P S} = \frac {\frac {D P S}{K _ {E} - g _ {n}}}{E P S} \rightarrow \frac {P _ {0}}{E P S} = \frac {D P S}{(K _ {E} - g _ {n}) E P S}
-$$
-
-The first member of equation is the PE Ratio, and then we have:
-
-$$
-P E = \frac {D P S}{\left(K _ {E} - g _ {n}\right) E P S}
-$$
-
-The Dividends per Share (DPS) can be defined on the basis of Earnings per Share (EPS) by considering the Payout Ratio (PR) as follows:
-
-$$
-D P S = E P S \cdot P R
-$$
-
-The expected Dividends per Share (DPS) can be defined on the basis of Earnings per Share (EPS), its expected growth rate in a steady-state scenario  $(g_{n})$ , and the applied payout ratio (PR), as follows:
-
-$$
-D P S = \left[ E P S \left(1 + g _ {n}\right) \right] \cdot P R
-$$
-
-Substituting in the equation, we have:
-
-$$
-P E = \frac {\left[ E P S \left(1 + g _ {n}\right) \right] P R}{\left(K _ {E} - g _ {n}\right) E P S}
-$$
-
-and therefore:
-
-$$
-P E = \frac {P R (1 + g _ {n})}{K _ {E} - g _ {n}} \tag {8.45}
-$$
-
-The Payout Ratio  $(PR)$  can be explicated on the basis of the steady-state growth rate  $(g_{n})$  and ROE (Damodaran 2012). In order to define this relationship, the following should be considered in a steady-state scenario: (i) the growth rate  $(g_{n})$  can be estimated equal to ROE multiply Retention Ratio  $(RR)$ ; (ii) the Retention Ratio  $(RR)$  can be defined as 1 less Payout Ratio  $(PR)$ . Formally, the Payout Ratio  $(PR)$  can be estimated equal to:
-
-$$
-\left\{\begin{array}{l}g _ {n} = R R \cdot R O E\\R R = 1 - P R\end{array}\rightarrow g _ {n} = (1 - P R) \cdot R O E \rightarrow P R = 1 - \frac {g _ {n}}{R O E} \right. \tag {8.46}
-$$
-
-# 8.4 Multiples on Equity Value
-
-On the basis of Eq. (8.46), the Eq. (8.45) can be rewritten as follows:
-
-$$
-P E = \frac {\left(1 - \frac {g _ {n}}{R O E}\right) \left(1 + g _ {n}\right)}{K _ {E} - g _ {n}} \tag {8.47}
-$$
-
-The Eq. (8.47) shows the relationship between PE Ratio and the company's fundamental in steady-state growth condition.
-
-In the two stage growth scenario (extraordinary growth in the first period and steady-state grow in the second period) the Equity Value can be estimated on the basis of 2S-DDM as follows:
-
-$$
-P _ {0} = \frac {E P S \cdot \left(1 + g _ {e}\right) \cdot P R \left[ 1 - \frac {\left(1 + g _ {e}\right) ^ {n}}{\left(1 + K _ {E , e g}\right) ^ {n}} \right]}{K _ {E , e g} - g _ {e}} + \frac {E P S \cdot P R \cdot \left(1 + g _ {e}\right) ^ {n} \left(1 + g _ {n}\right)}{\left(K _ {E , s g} - g _ {n}\right) \left(1 + K _ {E , s g}\right) ^ {n}}
-$$
-
-where  $g_{e}$  is the growth rate in the extraordinary growth period (first period) and  $g_{n}$  is the growth rate in the steady-state period (second period).
+where $g_{e}$ is the growth rate in the extraordinary growth period (first period) and $g_{n}$ is the growth rate in the steady-state period (second period).
 
 By dividing the first and second member by Earning per Share (EPS), we have:
 
@@ -1320,7 +1091,7 @@ $$
 P _ {0} = \frac {E P S \cdot P R}{K _ {E} - g _ {n}}
 $$
 
-Remembering that ROE in  $t$  can be expressed as the ratio between the Earnings per Share (EPS) and Equity Book Value (EBV), it is possible to define the Earning per Share (EPS) in term of ROE as follows:
+Remembering that ROE in $t$ can be expressed as the ratio between the Earnings per Share (EPS) and Equity Book Value (EBV), it is possible to define the Earning per Share (EPS) in term of ROE as follows:
 
 $$
 R O E = \frac {E P S}{E B V} \rightarrow E P S = R O E \cdot E B V
@@ -1433,9 +1204,7 @@ $$
 P _ {0} = \frac {E P S (1 + g _ {n}) P R}{K _ {E} - g _ {n}}
 $$
 
-Note that the Net Profit Margin of the company can be defined as the ratio between the Earnings and Sales. Therefore, the Net Profit Margin per Share (NPMS) is equal to Earnings per Share (EPS) and Sales  $(S)$ . On the basis of this relationship, it is possible to define Earnings per Share as follows:
-
-# 8.4 Multiples on Equity Value
+Note that the Net Profit Margin of the company can be defined as the ratio between the Earnings and Sales. Therefore, the Net Profit Margin per Share (NPMS) is equal to Earnings per Share (EPS) and Sales $(S)$. On the basis of this relationship, it is possible to define Earnings per Share as follows:
 
 $$
 N P M S = \frac {E P S}{S} \rightarrow E P S = N P M S \cdot S

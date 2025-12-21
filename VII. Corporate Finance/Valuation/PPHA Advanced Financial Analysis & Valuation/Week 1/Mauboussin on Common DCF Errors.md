@@ -1,13 +1,19 @@
 ---
-parent_directory:
 title: Common Errors in DCF Models
-tags:
-aliases:
-parent_folder: Week 1
-subfolder:
-key_concepts:
+parent_directory: Week 1
+formatted: 2025-12-21 2:45:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - dcf model errors
+  - valuation mistakes
+  - discounted cash flow
+secondary_tags:
+  - forecast horizon
+  - terminal value
+  - growth assumptions
+  - discount rate
 cssclasses: academia
-linter-yaml-title-alias: Common Errors in DCF Models
 ---
 
 # Common Errors in DCF Models

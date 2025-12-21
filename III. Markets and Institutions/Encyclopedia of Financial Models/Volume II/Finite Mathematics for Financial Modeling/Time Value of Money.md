@@ -1,4 +1,27 @@
 
+---
+title: Time Value of Money
+parent_directory: III. Markets and Institutions/Encyclopedia of Financial Models/Volume II/Finite Mathematics for Financial Modeling
+formatted: 2025-12-21 12:15:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - time value of money
+  - compound interest
+  - present value
+  - future value
+secondary_tags:
+  - financial mathematics
+  - discounting
+  - annuities
+  - loan amortization
+  - investment valuation
+  - yield calculation
+  - interest rates
+  - compounding periods
+cssclasses: academia
+---
+
 # Time Value of Money
 
 PAMELA P. DRAKE, PhD, CFA
@@ -13,7 +36,7 @@ Abstract: Investing decisions require the valuation of investments and the deter
 
 In this entry, we introduce the mathematical process of translating a value today into a value at some future point in time, and then show how this process can be reversed to determine the value today of some future amount. We then show how to extend the time value of money mathematics to include multiple cash flows and the special cases of annuities and loan amortization. Finally, we demonstrate how these mathematics can be used to calculate the yield on an investment.
 
-# IMPORTANCE OF THE TIME VALUE OF MONEY
+## IMPORTANCE OF THE TIME VALUE OF MONEY
 
 Reason 2: Cash flows are uncertain.
 
@@ -32,7 +55,7 @@ Future value  $=$  Present value  $^+$  Interest
 
 The interest is compensation for the use of funds for a specific period. It consists of (1) compensation for the length of time the money is borrowed and (2) compensation for the risk that the amount borrowed will not be repaid exactly as set forth in the loan agreement.
 
-# DETERMINING THE FUTURE VALUE
+## DETERMINING THE FUTURE VALUE
 
 Suppose you deposit \$1,000 into a savings account at the Surety Savings Bank and you are promised 10\% interest per period. At the end of one period you would have \$1,100. This \$1,100 consists of the return of your principal amount of the investment (the \$1,000) and the interest or return on your investment (the 100). Let's label these values:
 
@@ -55,7 +78,7 @@ $$
 In terms of our example,
 
 $$
-\begin{array}{l} F V = \$ 1,000 + (\$ 1,000 \times 0.1 0) \\ = \ 1,000 (1 + 0. 1 0) = \ 1,1 0 0 \\ \end{array}
+\begin{array}{l} FV = \$1,000 + (\$1,000 \times 0.10) \\ = \$1,000(1 + 0.10) = \$1,100 \\ \end{array}
 $$
 
 If the 100 interest is withdrawn at the end of the period, the principal is left to earn interest at the 10\% rate. Whenever you do this, you earn simple interest. It is simple because it repeats itself in exactly the same way from one period to the next as long as you take out the interest at the end of each period and the principal remains the same. If, on the other hand, both the principal and the interest are left on deposit at the Surety Savings Bank, the balance earns interest on the previously paid interest, referred to as compound interest. Earning interest on interest is called compounding because the balance at any time is a combination of the principal, interest on principal, and interest on accumulated interest (or simply, interest on interest).
@@ -63,7 +86,7 @@ If the 100 interest is withdrawn at the end of the period, the principal is left
 If you compound interest for one more period in our example, the original \$1,000 grows to \$1,210.00:
 
 $$
-\begin{array}{l} F V = \text{Pr in ci pa l} + \text{Fi rs tp er io di nt er es t} \\ + \text{Se co nd pe ri od in te rs t} \\ = \$ 1,000.00 + (\\$ 1,000.00 \times 0.10) \\ + (\$ 1, 1 0 0. 0 0 \times 0. 1 0) \\ = \mathbb {S} 1, 2 0 0. 0 0 \\ \end{array}
+\begin{array}{l} FV = \text{Principal} + \text{First period interest} \\ + \text{Second period interest} \\ = \$1,000.00 + (\$1,000.00 \times 0.10) \\ + (\$1,100.00 \times 0.10) \\ = \$1,210.00 \\ \end{array}
 $$
 
 The present value of the investment is  \$1,000, the interest earned over two years is\$ 210, and the future value of the investment after two years is 1,210.
@@ -98,7 +121,7 @@ Figure 1 The Value of 1,000 Invested 10 Years in an Account That Pays 10\% Compo
 The relation between present and future values for a principal of  \$1,000 and interest of 10\%$  per period through 10 compounding periods is shown graphically in Figure 1. For example, the value of 1,000, earning interest at  $10\%$  per period, is 2,593.70 ten periods into the future:
 
 $$
-\begin{array}{l} F V = \$ 1,000 (1 + 0. 1 0)^{1 0} = \$ 1,000 (2. 5 9 3 7) \\ = \mathbb {S} 2, 5 9 3. 7 0 \\ \end{array}
+\begin{array}{l} FV = \$1,000(1 + 0.10)^{10} = \$1,000(2.5937) \\ = \$2,593.70 \\ \end{array}
 $$
 
 As you can see in this figure the 2,593.70 balance in the account at the end of 10 periods is comprised of three parts:
@@ -129,7 +152,7 @@ $$
 F V = \$ 10,000,000 (1 + 0. 0 6)^{5} = \$ 1 3, 3 8 2, 2 5 6
 $$
 
-# Compounding More Than One Time per Year
+## Compounding More Than One Time per Year
 
 An investment may pay interest more than one time per year. For example, interest may be paid semiannually, quarterly, monthly, weekly, or daily, even though the stated rate is quoted on an annual basis. If the interest is stated as, say,  $10\%$  per year, compounded semiannually, the nominal rate—often referred to as the annual percentage rate (APR)—is  $10\%$ . The basic valuation equation handles situations in which there is compounding more frequently than once a year if we translate the nominal rate into a rate per compounding period. Therefore, an APR of  $10\%$  with compounding semiannually is  $5\%$  per period—where a period is six months—and the number of periods in one year is 2.
 
@@ -159,7 +182,7 @@ $$
 F V = \$ 2 0 0, 0 0 0 (1 + 0. 0 1)^{4 0} = \$ 2 9 7, 7 7 2. 7 5
 $$
 
-# Continuous Compounding
+## Continuous Compounding
 
 The extreme frequency of compounding is continuous compounding—interest is compounded instantaneously. The factor for compounding continuously for one year is  $e^{\mathrm{APR}}$ , where  $e$  is 2.71828..., the base of the natural logarithm. And the factor for compounding continuously for two years is  $e^{\mathrm{APR}} e^{\mathrm{APR}}$  or  $e^{\mathrm{APR}}$ . The future value of an amount that is compounded continuously for  $N$  years is:
 
@@ -176,7 +199,7 @@ $$
 
 Comparing this future value with that if interest is compounded annually at  $12\%$  per year for five years,  $\$ 1,762.34$ , we see the effects of this extreme frequency of compounding.
 
-# Multiple Rates
+## Multiple Rates
 
 In our discussion thus far, we have assumed that the investment will earn the same periodic interest rate,  $i$ . We can extend the calculation of a future value to allow for different interest rates or growth rates for different periods. Suppose an investment of \$10,000 pays 9\% during the first year and 10\% during the second year. At the end of the first period, the value of the investment is \$10,000 (1 + 0.09), or \$10,900. During the second period, this \$10,900 earns interest at 10\%. Therefore, the future value of this 10,000 at the end of the second period is:
 
@@ -207,7 +230,7 @@ $$
 \begin{array}{l} i = \sqrt [ 3 ]{(1 + 0 . 0 5) + (1 + 0 . 0 6) (1 + 0 . 0 6 5)} - 1 \\ = 5.8315 \% \\ \end{array}
 $$
 
-# DETERMINING THE PRESENT VALUE
+## DETERMINING THE PRESENT VALUE
 
 Now that we understand how to compute future values, let's work the process in reverse. Suppose that for borrowing a specific amount of money today, the Yenom Company promises to pay lenders 5,000 two years from today. How much should the lenders be willing to lend Yenom in exchange for this promise? This dilemma is different than figuring out a future value. Here we are given the future value and have to figure out the present value. But we can use the same basic idea from the future value problems to solve present value problems.
 
@@ -277,7 +300,7 @@ $$
 P V = \frac{\mathbb {S} 7 5 , 0 0 0}{(1 + 0 . 0 2 5)^{8}} = \mathbb {S} 6 1, 5 5 5. 9 9
 $$
 
-# DETERMINING THE UNKNOWN INTEREST RATE
+## DETERMINING THE UNKNOWN INTEREST RATE
 
 As we saw earlier in our discussion of growth rates, we can rearrange the basic equation to solve for  $i$ :
 
@@ -301,7 +324,7 @@ $$
 
 The  $12.507\%$  is the average annual rate of the growth during this 10-year span.
 
-# DETERMINING THE NUMBER OF COMPOUNDING PERIODS
+## DETERMINING THE NUMBER OF COMPOUNDING PERIODS
 
 Given the present and future values, calculating the number of periods when we know the interest rate is a bit more complex than calculating the interest rate when we know the number of periods. Nevertheless, we can develop an equation for determining the number of periods, beginning with the valuation formula given by equation (1) and rearranging to solve for  $N$ ,
 
@@ -318,7 +341,7 @@ $$
 
 You'll notice that we round off to the next whole period. To see why, consider this last example. After 11.8885 years, we have doubled our money if interest were paid  $88.85\%$  the way through the 12th year. But, we stated earlier that interest is paid at the end of each period—not part of the way through. At the end of the 11th year, our investment is worth  \$189.93, and at the end of the 12th year, our investment is worth\$ 201.22. So, our investment's value doubles by the 12th period—with a little extra, 1.22.
 
-# THE TIME VALUE OF A SERIES OF CASH FLOWS
+## THE TIME VALUE OF A SERIES OF CASH FLOWS
 
 Applications in finance may require the determination of the present or future value of a series of cash flows rather than simply a single cash flow. The principles of determining the future value or present value of a series of cash flows are the same as for a single cash flow, yet the math becomes a bit more cumbersome.
 
@@ -382,12 +405,12 @@ For example, if there are cash flows today and at the end of periods 1 and 2, to
 We can represent the present value of a series using summation notation as shown below:
 
 $$
-P V = \sum_{t = 0}^{N} C F_{t} \left(\frac{1}{1 + i}\right)^{t} \tag {7}
+PV = \sum_{t=0}^{N} CF_{t} \left(\frac{1}{1 + i}\right)^{t} \tag{7}
 $$
 
 This equation tells us that the present value of a series of cash flows is the sum of the products of each cash flow and its corresponding discount factor.
 
-# Shortcuts: Annuities
+## Shortcuts: Annuities
 
 There are valuation problems that require us to evaluate a series of level cash flows—each cash flow is the same amount as the others—received at regular intervals. Let's suppose you expect to deposit 2,000 at the end of each of the next four years in an account earning 8\% compounded interest. How much will you have available at the end of the fourth year?
 
@@ -398,7 +421,7 @@ Figure 5 Balance in an Account in Which Deposits of 2,000 Each Are Made Each Yea
 As we just did for the future value of a series of uneven cash flows, we can calculate the future value (as of the end of the fourth year) of each 2,000 deposit, compounding interest at 8\%:
 
 $$
-\begin{array}{l} F V = \$ 2,000 (1 + 0. 0 8)^{3} + \$ 2,000 (1 + 0. 0 8)^{2} \\ + \mathbb {S} 2, 0 0 0 (1 + 0. 0 8)^{1} + \mathbb {S} 2, 0 0 0 (1 + 0. 0 8)^{0} \\ = \ 2,519.40 + \ 2,332.80 + \$ 2,160.00 \\ + \mathbb {S} 2, 0 0 0 = \mathbb {S} 9, 0 1 2. 2 0 \\ \end{array}
+\begin{array}{l} FV = \$2,000(1 + 0.08)^{3} + \$2,000(1 + 0.08)^{2} \\ + \$2,000(1 + 0.08)^{1} + \$2,000(1 + 0.08)^{0} \\ = \$2,519.40 + \$2,332.80 + \$2,160.00 \\ + \$2,000 = \$9,012.20 \\ \end{array}
 $$
 
 Figure 5 shows the contribution of each deposit and the accumulated interest at the end of each period.
@@ -411,7 +434,7 @@ Figure 5 shows the contribution of each deposit and the accumulated interest at 
 Notice that in our calculations, each deposit of 2,000 is multiplied by a factor that corresponds to an interest rate of 8\% and the number of periods that the deposit has been in the savings account. Since the deposit of 2,000 is common to each multiplication, we can simplify the math a bit by multiplying the 2,000 by the sum of the factors to get the same answer:
 
 $$
-\begin{array}{l} F V = \$ 2,000 (1. 2 5 9 7) + \$ 2,000 (1. 1 6 6 4) \\ + \mathbb {S} 2, 0 0 0 (1. 0 8 0 0) + \mathbb {S} 2, 0 0 0 (1. 0 0 0 0) \\ = \$ 9,012.20 \\ \end{array}
+\begin{array}{l} FV = \$2,000(1.2597) + \$2,000(1.1664) \\ + \$2,000(1.0800) + \$2,000(1.0000) \\ = \$9,012.20 \\ \end{array}
 $$
 
 A series of cash flows of equal amount occurring at even intervals is referred to as an annuity. Determining the value of an annuity, whether compounding or discounting, is simpler than valuing uneven cash flows. If each  $CF_{t}$  is equal (that is, all the cash flows are the same value) and the first one occurs at the end of the first period ( $t = 1$ ), we can express the future value of the series as:
@@ -525,9 +548,9 @@ We can convince ourselves that five installments of  \$1,000 each can pay off th
 For example, the first payment of \$1,000 is used to: (1) pay interest on the loan at 5\% ($4,329.40 × 0.05 = $216.47) and (2) pay down the principal or loan balance ($1,000.00 - $216.47 = \$783.53 paid off). Each successive payment pays off a greater amount of the loan—as the principal amount of the loan is reduced, less of each payment goes to paying off interest and more goes to reducing the loan principal. This analysis of the repayment of a loan is referred to as loan amortization. Loan amortization is the repayment of a loan with equal payments, over a specified period of time. As we can see from the example of borrowing 4,329.40, each payment can be broken down into its interest and principal components.
 
 
-# VALUING CASH FLOWS WITH DIFFERENT TIME PATTERNS
+## VALUING CASH FLOWS WITH DIFFERENT TIME PATTERNS
 
-# Valuing a Perpetual Stream of Cash Flows
+## Valuing a Perpetual Stream of Cash Flows
 
 There are some circumstances where cash flows are expected to continue forever. For example, a corporation may promise to pay dividends on preferred stock forever, or, a company may issue a bond that pays interest every six months, forever. How do you value these cash flow streams? Recall that when we calculated the present value of an annuity, we took the amount of one cash flow and multiplied it by the sum of the discount factors that corresponded to the interest rate and number of payments. But what if the number of payments extends forever—into infinity?
 
@@ -577,7 +600,7 @@ $$
 
 Therefore, an investment of  \$5,000 that generates\$ 50 per period provides 1\% compounded interest per period.
 
-# Valuing an Annuity Due
+## Valuing an Annuity Due
 
 The ordinary annuity cash flow analysis assumes that cash flows occur at the end of each period. However, there is another fairly common cash flow pattern in which level cash flows occur at regular intervals, but the first cash flow occurs immediately. This pattern of cash flows is called an annuity due. For example, if you win the Florida Lottery Lotto grand prize, you will receive your winnings in 20 installments (after taxes, of course). The 20 installments are paid out annually, beginning immediately. The lottery winnings are therefore an annuity due.
 
@@ -616,7 +639,7 @@ Since the cash flows in the annuity due situation are each discounted one less p
 $PV_{\mathrm{due}} = CF$  [Present value annuity factor ordinary) for  $N$  and  $i](1 + i)$
 
 
-# Valuing a Deterred Annuity
+## Valuing a Deterred Annuity
 
 A deferred annuity has a stream of cash flows of equal amounts at regular periods starting at some time after the end of the first period. When we calculated the present value of an annuity, we brought a series of cash flows back to the beginning of the first period—or, equivalently the end of the period 0. With a deferred annuity, we determine the present value of the ordinary annuity and then discount this present value to an earlier period.
 
@@ -681,7 +704,7 @@ $$
 Therefore, by depositing \$1,008.02 today and the same amount on the same date each of the next three years, we will have a balance in the account of \$4,451.80 at the end of the fourth period. With this period 4 balance, we will be able to withdraw 1,000 at the end of the following five periods.
 
 
-# LOAN AMORTIZATION
+## LOAN AMORTIZATION
 
 There are securities backed by various types of loans. These include asset-backed securities, residential mortgage-backed securities, and commercial mortgage-backed securities. Consequently, it is important to understand the mathematics associated with loan amortization.
 
@@ -731,7 +754,7 @@ In the loan amortization examples so far, we have assumed that the interest rate
 
 A floating-rate loan requires a recalculation of the loan payment and payment schedule at each time the loan rate is reset. Suppose in the case of BigRock's term loan that the rate remains constant for the first three years, but is reset to 9\% in the fourth year. This requires BigRock to pay off the principal remaining at the end of three years, the \$28,064,562.84, in the remaining 12 payments. The revised schedule of payments and payoff for the fourth year require a payment of \$2,454,287.47 (PV = \$27,064,562.84; N = 12; i = 0.09 \div 12 = 0.75), as shown in Table 3.
 
-# THE CALCULATION OF INTEREST RATES AND YIELDS
+## THE CALCULATION OF INTEREST RATES AND YIELDS
 
 The calculation of the present or future value of a lump-sum or set of cash flows requires information on the timing of cash flows and the compound or discount rate. However, there are
 
@@ -744,7 +767,7 @@ Table 3 Term Loan Schedule: Reset Rate, Fully Amortized
 <table><tr><td>Amount of loan</td><td>\$100,000,000</td><td></td><td></td><td></td></tr><tr><td>Interest rate</td><td>8\% per year for the first 3 years, 9\% thereafter</td><td></td><td></td><td></td></tr><tr><td>Number of years</td><td>4</td><td></td><td></td><td></td></tr><tr><td>Monthly payment</td><td colspan="4">\$2,441,292.33 for the first 3 years, \$2,454,287.47 for the fourth year and beyond</td></tr><tr><td>Monthly Payment</td><td>Beginning-of-the-Year Principal</td><td>Interest on Loan</td><td>Principal Paid Off = Payment - Interest</td><td>Remaining Principal</td></tr><tr><td>37</td><td>$28,064,562.84</td><td>$210,484.22</td><td>$2,243,803.24</td><td>$25,820,759.59</td></tr><tr><td>38</td><td>$25,820,759.59</td><td>$193,655.70</td><td>$2,260,631.77</td><td>$23,560,127.82</td></tr><tr><td>39</td><td>$23,560,127.82</td><td>$176,700.96</td><td>$2,277,586.51</td><td>$21,282,541.32</td></tr><tr><td>40</td><td>$21,282,541.32</td><td>$159,619.06</td><td>$2,294,668.41</td><td>$18,987,872.91</td></tr><tr><td>41</td><td>$18,987,872.91</td><td>$142,409.05</td><td>$2,311,878.42</td><td>$16,675,994.49</td></tr><tr><td>42</td><td>$16,675,994.49</td><td>$125,069.96</td><td>$2,329,217.51</td><td>$14,346,776.99</td></tr><tr><td>43</td><td>$14,346,776.99</td><td>$107,600.83</td><td>$2,346,686.64</td><td>$12,000,090.35</td></tr><tr><td>44</td><td>$12,000,090.35</td><td>$90,000.68</td><td>$2,364,286.79</td><td>$9,635,803.56</td></tr><tr><td>45</td><td>$9,635,803.56</td><td>$72,268.53</td><td>$2,382,018.94</td><td>$7,253,784.62</td></tr><tr><td>46</td><td>$7,253,784.62</td><td>$54,403.38</td><td>$2,399,884.08</td><td>$4,853,900.54</td></tr><tr><td>47</td><td>$4,853,900.54</td><td>$36,404.25</td><td>$2,417,883.21</td><td>$2,436,017.33</td></tr><tr><td>48</td><td>$2,436,017.33</td><td>$18,270.13</td><td>\$2,436,017.34</td><td>0.00</td></tr></table> many applications in which we are presented with values and cash flows, and wish to calculate the yield or implied interest rate associated with these values and cash flows. By calculating the yield or implied interest rate, we can then compare investment or financing opportunities. We first look at how interest rates are stated and how the effective interest rate can be calculated based on this stated rate, and then we look at how to calculate the yield, or rate of return, on a set of cash flows.
 
 
-# Annual Percentage Rate versus Effective Annual Rate
+## Annual Percentage Rate versus Effective Annual Rate
 
 A common problem in finance is comparing alternative financing or investment opportunities when the interest rates are specified in a way that makes it difficult to compare terms. The Truth in Savings Act requires institutions to provide the annual percentage yield for savings accounts. As a result of this law, consumers can compare the yields on different savings arrangements. But this law does not apply beyond savings accounts. One investment may pay  $10\%$  interest compounded semiannually, whereas another investment may pay  $9\%$  interest compounded daily. One financing ar rangement may require interest compounding quarterly, whereas another may require interest compounding monthly. To compare investments or financing with different frequencies of compounding, we must first translate the stated interest rates into a common basis. There are two ways to convert interest rates stated over different time intervals so that they have a common basis: the annual percentage rate and the effective annual interest rate.
 
@@ -846,7 +869,7 @@ Figuring out the effective annual rate is useful when comparing interest rates f
 
 To illustrate how to calculate effective annual rates, consider the rates offered by two banks, Bank A and Bank B. Bank A offers  $9.2\%$  compounded semiannually and Bank B other offers  $9\%$  compounded daily. We can compare these rates using the EARs. Which bank offers the highest interest rate? The effective annual rate for Bank A is  $(1 + 0.046)^{2} - 1 = 9.4\%$ . The effective annual rate for Bank B is  $(1 + 0.000247)^{365} - 1 = 9.42\%$ . Therefore, Bank B offers the higher interest rate.
 
-# Yields on Investments
+## Yields on Investments
 
 Suppose an investment opportunity requires an investor to put up  \$1 million and offers cash inflows of\$ 500,000 after one year and \$600,000 after two years. The return on this investment, or yield, is the discount rate that equates the present values of the \$500,000 and \$600,000 cash inflows to equal the present value of the \$1 million cash outflow. This yield is also referred to as the internal rate of return (IRR) and is calculated as the rate that solves the following:
 
@@ -895,7 +918,7 @@ $$
 
 Using a calculator or spreadsheet, the six-month yield is  $5.315\%$ . Bond yields are generally stated on the basis of an annualized yield, referred to as the yield to maturity (YTM) on a bond-equivalent basis. This YTM is analogous to the APR with semiannual compounding. Therefore, yield to maturity is  $10.63\%$ .
 
-# KEY POINTS
+## KEY POINTS
 
 - A present value can be translated into a value in the future through compounding. The extreme frequency of compounding is continuous compounding.
 - A future value can be converted into an equivalent value today through discounting.
@@ -906,11 +929,11 @@ Using a calculator or spreadsheet, the six-month yield is  $5.315\%$ . Bond yiel
 - The interest on alternative investments is stated in different terms, so these interest rates must be placed on a common basis so that investment alternatives can be compared. Typically, an interest rate on an annual basis is specified, using either the annual percentage rate or the effective annual rate. The latter method is preferred since it takes into consideration the compounding of interest within a year.
 - The yield on an investment (also referred to as internal rate of return) is the interest rate that makes the present value of the future cash flows equal to the cost of the investment.
 
-# NOTE
+## NOTE
 
 1. For a more detailed treatment of this topic, see Drake and Fabozzi (2009). The topic is covered in finite mathematics textbooks. See, for example, Barnett, Ziegler, and Byleen (2002), Mizrahi and Sullivan (1999), and Rolf (2007).
 
-# REFERENCES
+## REFERENCES
 
 Barnett, R.A., Ziegler, M.R., and Byleen, K.E. (2002). Finite Mathematics for Business, Economics, Life Sciences, and Social Sciences, 9th ed. Upper Saddle River, NJ: Prentice Hall.
 Drake, P.P. and Fabozzi, F.J. (2009). Foundations and Applications of the Time Value of Money. Hoboken, NJ: John Wiley & Sons.

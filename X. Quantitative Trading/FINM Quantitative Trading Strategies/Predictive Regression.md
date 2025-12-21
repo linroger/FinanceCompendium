@@ -1,15 +1,21 @@
 ---
-aliases:
-  - Predictive Regression
-tags:
-key_concepts:
+title: Homework 6 Predictive Regression - Jingwen Li
 parent_directory: FINM Quantitative Trading Strategies
+formatted: 2025-12-21 04:25:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: opencode
+primary_tags:
+  - predictive regression
+  - cds spreads
+  - quantitative trading
+secondary_tags:
+  - credit default swaps
+  - statistical analysis
+  - financial modeling
 cssclasses: academia
-title: "Homework 6: Predictive Regression - Jingwen Li"
-linter-yaml-title-alias: "Homework 6: Predictive Regression - Jingwen Li"
 ---
 
-# Homework 6: Predictive Regression - Jingwen Li
+# Homework 6 Predictive Regression - Jingwen Li
 
 ```python
 import matplotlib.pyplot as plt

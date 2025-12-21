@@ -416,11 +416,11 @@ Exhibit 12: Example of Capitalization Process for Microsoft, 2021-2022
 
 Source: Microsoft Corporation and Counterpoint Global.
 
-The total amortization for 2022 is \(13.9 billion, the sum of amortization of investments in S&M in 2020 and 2021.
+The total amortization for 2022 is \$13.9 billion, the sum of amortization of investments in S&M in 2020 and 2021.
 
 The adjusted increase in NOPAT and invested capital from that SG&A item in 2022 is \$1.4 billion, the difference between the allocated intangible investment for S&M of \$15.3 billion and the amortization of \$13.9 billion. You repeat the same calculation for R&D and G&A to come up with the complete schedule and the aggregate adjustment. The aggregate amortization was \$31 billion in fiscal 2022.
 
-We now have the two pieces we need to do this calculation for fiscal 2022. Intangible investment was  \$41 billion and amortization was\$ 31 billion, for a net adjustment of \$10 billion. Exhibit 13 shows that NOPAT goes from $70 to $80 billion, a 14 percent increase.
+We now have the two pieces we need to do this calculation for fiscal 2022. Intangible investment was \$41 billion and amortization was \$31 billion, for a net adjustment of \$10 billion. Exhibit 13 shows that NOPAT goes from $70 to $80 billion, a 14 percent increase.
 
 Exhibit 13: Impact of Capitalizing Intangibles on Microsoft's NOPAT, 2020-2022  
 
@@ -430,9 +430,9 @@ Source: Microsoft Corporation and Counterpoint Global. Note: EBITA = Earnings be
 
 We now turn to invested capital. The process is exactly the same as the treatment of a physical asset in PP&E. For each year, we add the intangible investment to gross intangible assets and subtract the amortization to come up with net capitalized intangibles.
 
-What makes this analysis a challenge is that you need to go back to the company's founding to get a truly accurate assessment of invested capital. Without doing so, you can come to the erroneous conclusion that the capitalization of intangibles increases ROIC for a profitable business.[51] Fortunately, there is a workaround called the perpetual inventory method.[52] This technique uses past intangible investment to estimate the value of the stock of intangible investment.
+What makes this analysis a challenge is that you need to go back to the company's founding to get a truly accurate assessment of invested capital. Without doing so, you can come to the erroneous conclusion that the capitalization of intangibles increases ROIC for a profitable business.$^{51}$ Fortunately, there is a workaround called the perpetual inventory method.$^{52}$ This technique uses past intangible investment to estimate the value of the stock of intangible investment.
 
-Exhibit 14 shows how capitalizing intangibles changes invested capital. On the left is the traditional invested capital of  \$165 billion. On the right is the adjusted invested capital of\$ 260 billion after reflecting \$95 billion of net capitalized internally-generated intangibles. Invested capital is 58 percent greater.
+Exhibit 14 shows how capitalizing intangibles changes invested capital. On the left is the traditional invested capital of \$165 billion. On the right is the adjusted invested capital of \$260 billion after reflecting \$95 billion of net capitalized internally-generated intangibles. Invested capital is 58 percent greater.
 
 Exhibit 14: Impact of Capitalizing Intangibles on Microsoft's Invested Capital, 2020-2022  
 
@@ -441,7 +441,7 @@ Exhibit 14: Impact of Capitalizing Intangibles on Microsoft's Invested Capital, 
 Source: Microsoft Corporation and Counterpoint Global.  
 Note: * Cash = 2 percent of revenue; NIBCLs = Non-interest-bearing current liabilities.
 
-When we recalculate ROIC we see the number goes from 49 percent (on the left of exhibit 14) to 34 percent (on the right). The adjusted ROIC is still fabulous but it's considerably more modest. This is consistent with academic research.[53] Exhibit 15 shows the difference between the traditional and adjusted ROIC for Microsoft from 2001 through 2022.
+When we recalculate ROIC we see the number goes from 49 percent (on the left of exhibit 14) to 34 percent (on the right). The adjusted ROIC is still fabulous but it's considerably more modest. This is consistent with academic research.$^{53}$ Exhibit 15 shows the difference between the traditional and adjusted ROIC for Microsoft from 2001 through 2022.
 
 Exhibit 15: Microsoft's Traditional and Adjusted ROIC, 2001-2022  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/9d516627-9c12-4ef1-a18f-5737ef8dc1cb/e1194fe9c0c5fe75857e5445ef2dd520573f95c431507fc5ffe3cf7e64b07e12.jpg)  
@@ -463,7 +463,7 @@ A company's absolute ROIC is a useful figure to know. But stock prices reflect e
 
 The stock market looks to the future. While ROIC provides a great deal of information about a business, what matters is how ROIC will change in the future and whether that change will deviate from the market's expectations.
 
-We need a measure of incremental change. One candidate is return on incremental invested capital (ROIIC), which has been adopted by some investors and companies.[54] ROIIC captures the relationship between the change in NOPAT and the change in invested capital. As such, it ignores sunk costs but in so doing assumes that the return on the existing invested capital remains stable.[55]
+We need a measure of incremental change. One candidate is return on incremental invested capital (ROIIC), which has been adopted by some investors and companies.$^{54}$ ROIIC captures the relationship between the change in NOPAT and the change in invested capital. As such, it ignores sunk costs but in so doing assumes that the return on the existing invested capital remains stable.$^{55}$
 
 Here is the calculation for ROIC:
 
@@ -473,27 +473,27 @@ $$
 
 ROIC is the ratio of the change in NOPAT in one year to the investments the company made in the year before.
 
-To illustrate, assume a company's year-1 invested capital is \$10,000 and it invests \$1,000 during the year. Year0 invested capital increases to \$11,000. Further, NOPAT goes from \$2,000 in year0 to \$2,300 in year1. In this case, ROIIC is 30 percent [(\$2,300 - \$ 2,000)/(\$11,000-10,000)].
+To illustrate, assume a company's year-1 invested capital is \$10,000 and it invests \$1,000 during the year. Year0 invested capital increases to \$11,000. Further, NOPAT goes from \$2,000 in year0 to \$2,300 in year1. In this case, ROIIC is 30 percent [(\$2,300 - \$2,000)/(\$11,000-10,000)].
 
 Annual ROIC calculations can be very noisy, especially for businesses with NOPAT variability and lumpy investments. For example, Microsoft agreed to acquire Activision Blizzard, a video game company, in early 2022 for \$69 billion. Microsoft's invested capital will increase around 40 percent when that deal closes.
 
 One way to dampen the noise is to calculate ROIIC over threeor five-year periods. In the case of a three-year rolling ROIIC, you take the change in NOPAT over the last three years (Year $_3$  NOPAT - Year $_0$  NOPAT) and divide it by the change in invested capital, again with a lag (Year $_2$  invested capital - Year $_1$  invested capital).
 
-Exhibit 16 shows Microsoft's rolling three-year ROIC from fiscal 2018 to 2022. The results in recent years have been high. But the figures were much lower following the \(26 billion acquisition in 2016 of LinkedIn, an online service focused on employment, and it will again drop after the Activision Blizzard deal closes.
+Exhibit 16 shows Microsoft's rolling three-year ROIC from fiscal 2018 to 2022. The results in recent years have been high. But the figures were much lower following the \$26 billion acquisition in 2016 of LinkedIn, an online service focused on employment, and it will again drop after the Activision Blizzard deal closes.
 
 Exhibit 16: Microsoft's 3-Year Return on Incremental Invested Capital, 2018-2022  
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/9d516627-9c12-4ef1-a18f-5737ef8dc1cb/ea2ef9d28f51086d3629eb4db75aa5a92b10fbe305b3be17a5d877664e3eaa56.jpg)  
 Source: Microsoft Corporation and Counterpoint Global.
 
-Companies that earn high ROICs are usually capital efficient or have substantial operating leverage. Operating leverage, which can push ROIC in a positive or negative direction, measures the change in operating profit divided by the change in sales and is important for companies with high fixed costs. Anticipating the change in earnings as the result of operating leverage is challenging and investors are not good at it.[56] All of that noted, a company's historical ROIC can help anticipate potential moves in earnings that are not priced in by the market.
+Companies that earn high ROICs are usually capital efficient or have substantial operating leverage. Operating leverage, which can push ROIC in a positive or negative direction, measures the change in operating profit divided by the change in sales and is important for companies with high fixed costs. Anticipating the change in earnings as the result of operating leverage is challenging and investors are not good at it.$^{56}$ All of that noted, a company's historical ROIC can help anticipate potential moves in earnings that are not priced in by the market.
 
 For all of its utility, ROIIC is a substandard measure of economic value. It can shed light on the likelihood of change and point out past patterns, but it should not be compared to the cost of capital or be considered a true measure of return. Specifically, ROIIC overstates economic returns when it is above the cost of capital and understates economic returns when it is below the cost of capital. This problem becomes more acute as the length of the competitive advantage period extends.
 
-We have made the case that market-expected return on investment (MEROI) does a better job of reflecting economic returns. MEROI is the return at which the present value of a company's profits equals the present value of the investments a company makes.[57]
+We have made the case that market-expected return on investment (MEROI) does a better job of reflecting economic returns. MEROI is the return at which the present value of a company's profits equals the present value of the investments a company makes.$^{57}$
 
 ## Analyzing Divisions
 
-ROICs commonly vary a great deal for divisions or segments within a firm that has multiple businesses. Marakon Associates, a consulting firm that is now part of CRA International, estimated that for many companies all of the value creation is concentrated in 50 percent of the invested capital.[58] So getting a sense of ROIC by business can tell you where value resides and where it might be getting wasted. Inertia appears to play a big role in capital allocation across divisions, and managers who allocate capital more proactively enjoy better financial results.[59]
+ROICs commonly vary a great deal for divisions or segments within a firm that has multiple businesses. Marakon Associates, a consulting firm that is now part of CRA International, estimated that for many companies all of the value creation is concentrated in 50 percent of the invested capital.$^{58}$ So getting a sense of ROIC by business can tell you where value resides and where it might be getting wasted. Inertia appears to play a big role in capital allocation across divisions, and managers who allocate capital more proactively enjoy better financial results.$^{59}$
 
 Public companies are required to disclose information about the segments within their businesses. This enables stakeholders, including shareholders, to understand the company's results and prospects. This disclosure should aid investors in understanding the company's value drivers, including sales growth, operating profit margins, and capital needs.
 
@@ -505,7 +505,7 @@ Disclosures usually include sales and a measure of profit. Some companies share 
 
 First, the whole has to equal the sum of the parts. You can estimate how each business adds to the aggregate with a sense of each division's earnings and assets. You can translate assets into invested capital by calculating the ratio for the company overall and assessing how that ratio may vary by division or geography. Microsoft's
 
-invested capital is about 63 percent of total assets ( \$165 billion/\$ 264 billion), excluding excess cash and without adjustments for intangibles. But note the ratio can be very different for various divisions or geographies. You have to figure out how the pieces fit together, but you are always constrained by the aggregate result.
+invested capital is about 63 percent of total assets (\$165 billion/\$264 billion), excluding excess cash and without adjustments for intangibles. But note the ratio can be very different for various divisions or geographies. You have to figure out how the pieces fit together, but you are always constrained by the aggregate result.
 
 Comparable company analysis can be a useful guide. Consider businesses similar to the division you are analyzing and assess potential similarities and differences. At a minimum, comparable company analysis will generate valuable questions and provide you with insight about how the businesses operate.
 
@@ -517,7 +517,7 @@ Smart activist investors are really good at breaking down businesses by ROIC. Do
 
 The calculation of ROIC is an effort to understand a company's past and prospective ability to create shareholder value. An ROIC in excess of the cost of capital reflects competitive success that is the result of a strategy. Understanding how a company achieves its returns can provide guidance in assessing whether they will be sustainable.
 
-Michael Porter, a professor of strategy at Harvard Business School, identified differentiation and cost leadership as generic strategies to gain an advantage. Differentiation means that a company can price its good or service at a premium to others. Cost leadership means a company can deliver its offering at a relatively low price.[60] Knowing how a company generates an attractive ROIC can inform competitive strategy analysis.
+Michael Porter, a professor of strategy at Harvard Business School, identified differentiation and cost leadership as generic strategies to gain an advantage. Differentiation means that a company can price its good or service at a premium to others. Cost leadership means a company can deliver its offering at a relatively low price.$^{60}$ Knowing how a company generates an attractive ROIC can inform competitive strategy analysis.
 
 $$
 \mathrm {R O I C} = \frac {\mathrm {N O P A T}}{\mathrm {S a l e s}} \times \frac {\mathrm {S a l e s}}{\mathrm {I n v e s t e d c a p i t a l}}
@@ -555,7 +555,7 @@ Financial sector. As we saw earlier, most practitioners use a DCF model that est
 
 Financing costs are a component of operations for many financial institutions, including banks. This means you value a financial company by estimating the free cash flows attributable to equity, or FCFE, and discounting them to the present value by the cost of equity capital.
 
-The principle of discounting cash flows applies to all companies. But the proper number to project, and the appropriate discount rate, is different for a financial company as compared to a non-financial company.[62]
+The principle of discounting cash flows applies to all companies. But the proper number to project, and the appropriate discount rate, is different for a financial company as compared to a non-financial company.$^{62}$
 
 Return on equity (ROE) is to financial companies what ROIC is to non-financial firms. The definition of ROE is as follows:
 
@@ -571,9 +571,9 @@ Take a simple example of opening a successful restaurant as a way to think about
 
 The right way to assess an M&A deal is to do a net present value calculation. The question is whether the present value of future cash flows, including the benefit of synergies, exceeds the purchase price. If so, the deal creates economic value.
 
-There is research that shows that companies that have high ROICs are, on average, better at doing good M&A deals than those that have low ROICs.[63] The suggestion is that capital allocation skills apply both internally and externally.
+There is research that shows that companies that have high ROICs are, on average, better at doing good M&A deals than those that have low ROICs.$^{63}$ The suggestion is that capital allocation skills apply both internally and externally.
 
-What question ROIC seeks to answer. Aswath Damodaran, the professor of finance, recently expressed substantial skepticism about the calculation of ROIC, suggesting it is not useful for young companies and that companies can game the figures.[64] The more fundamental issue is that the answer that ROIC gives you can depend a great deal on the question you seek to answer.
+What question ROIC seeks to answer. Aswath Damodaran, the professor of finance, recently expressed substantial skepticism about the calculation of ROIC, suggesting it is not useful for young companies and that companies can game the figures.$^{64}$ The more fundamental issue is that the answer that ROIC gives you can depend a great deal on the question you seek to answer.
 
 As we have seen throughout this discussion, there are a number of judgments you have to make to calculate ROIC in a way that offers insight. These include adjustments for excess cash, capitalization of intangibles, and adding back write-offs. The results can differ significantly based on what you choose to measure. For this reason, investment firms should define ROIC in a consistent manner to make sure that comparisons between companies are valid.
 
@@ -589,7 +589,7 @@ Exhibit 20: Various Calculations of ROIC and the Questions They Address
 
 Source: Microsoft Corporation and Counterpoint Global.
 
-Some investors choose to examine ROIC by subtracting acquired goodwill and intangibles and not making intangible adjustments.[65] This calculation seeks to determine what the underlying ROIC looks like excluding the impact of M&A, or the organic ROIC. That figure for Microsoft for fiscal 2022 is 94 percent.
+Some investors choose to examine ROIC by subtracting acquired goodwill and intangibles and not making intangible adjustments.$^{65}$ This calculation seeks to determine what the underlying ROIC looks like excluding the impact of M&A, or the organic ROIC. That figure for Microsoft for fiscal 2022 is 94 percent.
 
 Next, we look at how ROIC is commonly reported. This includes leaving acquired goodwill and intangibles in the calculation but not making adjustments for intangibles. This tells us the ROIC based on reported numbers. That figure is 49 percent, as we have seen.
 
@@ -639,7 +639,7 @@ A few comments are in order. First, it is crucial to use the proper definition o
 
 Second, the initial invested capital figure, and hence ROIC, does not affect the valuation. We assumed invested capital was \$1,000 in this example, but we could have plugged in any number and the outcome would have been unchanged. The reason is that future cash flows determine value. ROIC is useful only to the degree that past results provide some guidance about the future.
 
-Finally, take note of the mechanics of the two models. NOPAT is the same and the annual investment determines the change in invested capital. The question is whether one is more informative than the other. It is possible to calculate shareholder value added (SVA) and market-expected return on investment (MEROI) for the first model to get a grasp of the magnitude of expected value creation.[66] ROIC is clear and easy to see in the second model.
+Finally, take note of the mechanics of the two models. NOPAT is the same and the annual investment determines the change in invested capital. The question is whether one is more informative than the other. It is possible to calculate shareholder value added (SVA) and market-expected return on investment (MEROI) for the first model to get a grasp of the magnitude of expected value creation.$^{66}$ ROIC is clear and easy to see in the second model.
 
 ROIC has its limitations as a financial measure but is consistent with a standard free cash flow model provided you define the value drivers correctly. Introducing a line in the model to estimate ROIC can be helpful as a way to make sure that the assumptions accurately capture the expected outcomes.
 
@@ -660,7 +660,7 @@ Here are the numbers for Microsoft. The traditional ROIC is 49 percent, or  \$70
 
 The math works in the opposite direction for a company that loses money. Without knowing any of the specific numbers, we know that we will start with a negative ROIC because the numerator reflects a loss and that the adjustment will add positive ROIC as NOPAT is always revised up. As a result, the aggregate ROIC rises following the change.
 
-Let's look at Snowflake Inc., a cloud computing-based data warehousing company, to illustrate the point. In fiscal 2022, the company had NOPAT of negative  \$704 million (see exhibit 22). A majority of the company's\$ 1.475 billion in SG&A expense can be deemed an intangible investment, so we know that the adjustment to NOPAT will have a significant effect. We estimate that adjusted NOPAT for 2022 is \$52 million.[67]
+Let's look at Snowflake Inc., a cloud computing-based data warehousing company, to illustrate the point. In fiscal 2022, the company had NOPAT of negative \$704 million (see exhibit 22). A majority of the company's \$1.475 billion in SG&A expense can be deemed an intangible investment, so we know that the adjustment to NOPAT will have a significant effect. We estimate that adjusted NOPAT for 2022 is \$52 million.$^{67}$
 
 Exhibit 22: Impact of Capitalizing Intangibles on Snowflake's NOPAT, 2020-2022  
 
@@ -669,11 +669,11 @@ Exhibit 22: Impact of Capitalizing Intangibles on Snowflake's NOPAT, 2020-2022
 Source: Snowflake Inc. and Counterpoint Global.  
 Note: EBITA = Earnings before interest, taxes, and amortization; NOPAT = Net operating profit after taxes.
 
-The impact of the adjustment for intangible investment is equally material to invested capital. Exhibit 23 shows that invested capital goes from  \$230 million to nearly\$ 2.1 billion.
+The impact of the adjustment for intangible investment is equally material to invested capital. Exhibit 23 shows that invested capital goes from \$230 million to nearly \$2.1 billion.
 
-The ROIC is -416 percent in 2022, or negative  \$704 million of NOPAT divided by\$ 169 million of average invested capital. This figure does not provide much insight.
+The ROIC is -416 percent in 2022, or negative \$704 million of NOPAT divided by \$169 million of average invested capital. This figure does not provide much insight.
 
-The adjustment adds an ROIC of 51 percent, or  \$756 million in NOPAT divided by\$ 1.490 billion in average invested capital. You can think about it as starting with a low-return part (-416% = -704/169) and adding a high-
+The adjustment adds an ROIC of 51 percent, or \$756 million in NOPAT divided by \$1.490 billion in average invested capital. You can think about it as starting with a low-return part (-416% = -704/169) and adding a high-
 
 return part (51% = 756/1,490) to get an adjusted total of 3 percent (3% = 52/1,659). Three percent is not great but it is consistent with a healthy company early in its life cycle.
 
@@ -688,74 +688,77 @@ Note: * Cash = 5 percent of revenue; NIBCLs = Non-interest-bearing current liabi
 
 # Endnotes
 
-<sup>1</sup> Robert F. Bruner, "Does M&A Pay? A Survey of Evidence for the Decision-Maker," Journal of Applied Finance, Vol. 12, No. 1, Spring/Summer 2002, 48-68.  
-$^{2}$  Wayne R. Landsman and Alan C. Shapiro, "Tobin's q and the Relation Between Accounting ROI and Economic Return," Journal of Accounting, Auditing & Finance, Vol. 10, No. 1, January 1995, 103-118 and F.J. Arcelus, D. Mitra, and G. Srinivasan, "On the Incidence of Deferred Taxes, Intangibles and Non-Linearities in the Relationship Between Tobin's Q and ROI," Journal of Economics and Business, Vol. 57, No. 2, March-April 2005, 165-185.  
-<sup>3</sup> Matthew A. Stallings, "The Potential Impact of Lease Accounting on Equity Valuation: Implications of Cost of Capital and Free Cash Flow Estimates," CPA Journal, Vol. 87, No. 11, November 2017, 52-56.  
-4 What is most important is to be consistent. Let's say a company buys a store and finances it with debt. It would record the store as an asset and the debt as a liability. It would then subtract interest expense, a financing cost, from operating income. Now consider the case of a firm leasing the same store. It would also reflect the store on the asset and liability sides of the balance sheet according to the new accounting standard. But the lease cost would be recorded as an operating, rather than a financing, expense. The adjustment is to reclassify the embedded interest portion of the lease cost from the operating section of the income statement to the financing section. This increases NOPAT. Notably, the International Accounting Standards Board (IASB) properly treats the depreciation and interest expense components of operating lease payments.  
-<sup>5</sup> Here's what Northrop Grumman wrote in its Form 10-K for the year ended December 31, 2021. "Beginning in 2022, the Tax Cuts and Jobs Act of 2017 ('TCJA') eliminates the option to deduct research and development expenditures currently and requires taxpayers to amortize them over five years pursuant to IRC Section 174. Although Congress is considering legislation that would defer the amortization requirement to later years, we have no assurance that the provision will be repealed or otherwise modified. If the requirement is not modified, it will materially reduce our cash flows beginning in 2022."  
+$^{1}$ Robert F. Bruner, "Does M&A Pay? A Survey of Evidence for the Decision-Maker," Journal of Applied Finance, Vol. 12, No. 1, Spring/Summer 2002, 48-68.  
+$^{2}$ Wayne R. Landsman and Alan C. Shapiro, "Tobin's q and the Relation Between Accounting ROI and Economic Return," Journal of Accounting, Auditing & Finance, Vol. 10, No. 1, January 1995, 103-118 and F.J. Arcelus, D. Mitra, and G. Srinivasan, "On the Incidence of Deferred Taxes, Intangibles and Non-Linearities in the Relationship Between Tobin's Q and ROI," Journal of Economics and Business, Vol. 57, No. 2, March-April 2005, 165-185.  
+$^{3}$ Matthew A. Stallings, "The Potential Impact of Lease Accounting on Equity Valuation: Implications of Cost of Capital and Free Cash Flow Estimates," CPA Journal, Vol. 87, No. 11, November 2017, 52-56.  
+$^{4}$ What is most important is to be consistent. Let's say a company buys a store and finances it with debt. It would record the store as an asset and the debt as a liability. It would then subtract interest expense, a financing cost, from operating income. Now consider the case of a firm leasing the same store. It would also reflect the store on the asset and liability sides of the balance sheet according to the new accounting standard. But the lease cost would be recorded as an operating, rather than a financing, expense. The adjustment is to reclassify the embedded interest portion of the lease cost from the operating section of the income statement to the financing section. This increases NOPAT. Notably, the International Accounting Standards Board (IASB) properly treats the depreciation and interest expense components of operating lease payments.  
+$^{5}$ Here's what Northrop Grumman wrote in its Form 10-K for the year ended December 31, 2021. "Beginning in 2022, the Tax Cuts and Jobs Act of 2017 ('TCJA') eliminates the option to deduct research and development expenditures currently and requires taxpayers to amortize them over five years pursuant to IRC Section 174. Although Congress is considering legislation that would defer the amortization requirement to later years, we have no assurance that the provision will be repealed or otherwise modified. If the requirement is not modified, it will materially reduce our cash flows beginning in 2022."  
 During its conference call for the third quarter of 2021, the company's chief financial officer, Dave Keffer, quantified the amount with the following: "…as we've noted in the past, current tax law would require companies to amortize R&D costs over five years, starting in 2022, which would increase our cash taxes by around \$1 billion next year and smaller amounts in subsequent years. There continues to be uncertainty in the tax environment with potential new legislation that could change the R&D amortization provision and other provisions." See www.fool.com/earnings/call-transcripts/2021/10/28/northrop-grumman-noc-q3-2021-earnings-call-transcr/.  
  For example, consider a company with \$125,000 in earnings before stock-based compensation, \$25,000 in stock-based compensation, and a 21 percent tax rate. The pretax income the company reports would be $100,000 ($125,000 - 25,000) and the tax provision would be $21,000 ($100,000 × .21). But since the stock-based compensation is not deductible, the tax bill would be $26,250 ($125,000 × .21). The difference, \$5,250, is recorded as a tax asset. For a useful discussion, see https://sfmagazine.com/post-entry/december-2017-the-impact-of-share-based-compensation/.  
-<sup>7</sup> Tim Koller, Marc Goedhart, and David Wessels, Valuation: Measuring and Managing the Value of Companies, 7<sup>th</sup> Edition (Hoboken, NJ: John Wiley & Sons, 2020), 224-227.  
-$^{8}$  John R. Graham, "Presidential Address: Corporate Finance and Reality," Journal of Finance, Vol. 77, No. 4, August 2022, 1975-2049.  
-9 See "Tax Rate by Industry" for the U.S. at https://pages.stern.nyu.edu/~adamodar/.  
-10 The cash conversion cycle (CCC) = days in sales outstanding (DSO) + days in inventory outstanding (DIO) - days in payables outstanding (DPO). DSO = [(Beginning accounts receivable + ending accounts receivable)/2]/(Sales/365). DIO = [(Beginning inventory + ending inventory)/2]/(Cost of goods sold/365). DPO = [(Beginning accounts payable + ending accounts payable)/2]/(Cost of goods sold/365).  
-Microsoft's CCC was -3.5 days in fiscal 2022: DSO was 75.8 days, DIO was 18.6 days, and DPO was 97.8 days.  
-<sup>11</sup> Baolian Wang, "The Cash Conversion Cycle Spread," Journal of Financial Economics, Vol. 133, No. 2, August 2019, 472-497 and Qi Lin and Xi Lin, "Cash Conversion Cycle and Aggregate Stock Returns," Journal of Financial Markets, Vol. 52, January 2021, 100560.  
-<sup>12</sup> Hyun Jong Na, "Disappearing Working Capital: Implications for Accounting Research," Working Paper, November 2019.
+$^{7}$ Tim Koller, Marc Goedhart, and David Wessels, Valuation: Measuring and Managing the Value of Companies, 7$^{th}$ Edition (Hoboken, NJ: John Wiley & Sons, 2020), 224-227.  
+$^{8}$ John R. Graham, "Presidential Address: Corporate Finance and Reality," Journal of Finance, Vol. 77, No. 4, August 2022, 1975-2049.  
+$^{9}$ See "Tax Rate by Industry" for the U.S. at https://pages.stern.nyu.edu/~adamodar/.  
+$^{10}$ The cash conversion cycle (CCC) = days in sales outstanding (DSO) + days in inventory outstanding (DIO) - days in payables outstanding (DPO). DSO = [(Beginning accounts receivable + ending accounts receivable)/2]/(Sales/365). DIO = [(Beginning inventory + ending inventory)/2]/(Cost of goods sold/365). DPO = [(Beginning accounts payable + ending accounts payable)/2]/(Cost of goods sold/365).  
+$^{11}$ Microsoft's CCC was -3.5 days in fiscal 2022: DSO was 75.8 days, DIO was 18.6 days, and DPO was 97.8 days.  
+$^{12}$ Baolian Wang, "The Cash Conversion Cycle Spread," Journal of Financial Economics, Vol. 133, No. 2, August 2019, 472-497 and Qi Lin and Xi Lin, "Cash Conversion Cycle and Aggregate Stock Returns," Journal of Financial Markets, Vol. 52, January 2021, 100560.  
+$^{13}$ Hyun Jong Na, "Disappearing Working Capital: Implications for Accounting Research," Working Paper, November 2019.
 
 Depreciation and amortization are tools to spread the expense of an investment over its useful life. Depreciation is for expensing tangible assets and amortization is for intangible assets. They are functionally the same but in some cases have different implications for tax purposes.  
-<sup>14</sup> Financial Accounting Standards Board, "Statement of Financial Accounting Standards No. 141 (Revised 2007): Business Combinations," No. 299-A, December 2007.  
-15 Koller, Goedhart, and Wessels, Valuation, 216-218.  
-<sup>16</sup> Fred R. Bleakley, "Clinton Budget Would End Tax Cut for 100-Year Bonds," Wall Street Journal, February 4, 1997.  
-$^{17}$  Katharine Adame, Jennifer Koski, Katie Lem, and Sarah McVay, "Free Cash Flow Disclosure in Earnings Announcements," Working Paper, June 3, 2020.  
-18 Jerald E. Pinto, Thomas R. Robinson, and John D. Stowe, "Equity Valuation: A Survey of Professional Practice," Financial Economics, Vol. 37, No. 2, April 2019, 219-233.  
-<sup>19</sup> Michael J. Mauboussin and Dan Callahan, "Categorizing for Clarity: Cash Flow Statement Adjustments to Improve Insight," Consilient Observer: Counterpoint Global Insights, October 6, 2021.  
-20 David Solomons, *Divisional Performance: Measurement and Control* (New York: Financial Executives Research Foundation, 1965), 60-71.  
-21 G. Bennett Stewart, The Quest for Value: A Guide for Senior Managers (New York: HarperCollins Publishers, 1991).  
-22 Vartika Gupta, Tim Koller, and Peter Stumpner, "Which Metrics Really Drive Total Returns to Shareholders?" McKinsey & Company, October 2021.  
-$^{23}$  Marshall Fisher, Vishal Gaur, and Herb Kleinberger, "Curing the Addiction to Growth," Harvard Business Review, Vol. 95, No. 1, January-February 2017, 66-74.  
-[24] Aswath Damodaran, "Dealing with Cash, Cross Holdings and Other Non-Operating Assets: Approaches and Implications," New York University - Stern School of Business, September 30, 2005.  
-25 Tim Opler, Lee Pinkowitz, René Stulz, and Rohan Williamson, "The Determinants and Implications of Corporate Cash Holdings," Journal of Financial Economics, Vol. 52, No. 1, April 1999, 3-46; Richard Passov, "How Much Cash Does Your Company Need?" Harvard Business Review, Vol. 81, No. 11, November 2003, 119-126; and Thomas W. Bates, Kathleen M. Kahle and René M. Stulz, "Why Do U.S. Firms Hold So Much More Cash than They Used To?" Journal of Finance, Vol. 64, No. 5, October 2009, 1985-2021.  
-26 Thomas W. Bates, Ching-Hung Chang, and Jianxin Daniel Chi, "Why Has the Value of Cash Increased Over Time?" Journal of Financial and Quantitative Analysis, Vol. 53, No. 2, April 2018, 749-787.  
-[27] Amy Dittmar and Jan Mahrt-Smith, "Corporate Governance and the Value of Cash Holdings," Journal of Financial Economics, Vol. 83, No. 3, March 2007, 599-634.  
-[28] Amy Dittmar, Jan Mahrt-Smith and Henri Servaes, "International Corporate Governance and Corporate Cash Holdings," Journal of Financial and Quantitative Analysis, Vol. 38, No. 1, March 2003, 111-133.  
-29 Koller, Goedhart, and Wessels, Valuation, 338.  
-30 James L. Canessa and Gregg A. Jarrell, "The Proper Treatment of Cash Holdings in DCF Valuation Theory and Practice," Journal of Business Valuation and Economic Loss Analysis, forthcoming.  
-<sup>31</sup> Ethan Rouen, Eric C. So, and Charles C.Y. Wang, "Core Earnings: New Data and Evidence," Journal of Financial Economics, Vol. 142, No. 3, December 2021, 1068-1091.  
-32 For a good chapter on this topic, see Koller, Goedhart, and Wessels, Valuation, 427-442.  
+$^{14}$ Financial Accounting Standards Board, "Statement of Financial Accounting Standards No. 141 (Revised 2007): Business Combinations," No. 299-A, December 2007.  
+$^{15}$ Koller, Goedhart, and Wessels, Valuation, 216-218.  
+$^{16}$ Fred R. Bleakley, "Clinton Budget Would End Tax Cut for 100-Year Bonds," Wall Street Journal, February 4, 1997.  
+$^{17}$ Katharine Adame, Jennifer Koski, Katie Lem, and Sarah McVay, "Free Cash Flow Disclosure in Earnings Announcements," Working Paper, June 3, 2020.  
+$^{18}$ Jerald E. Pinto, Thomas R. Robinson, and John D. Stowe, "Equity Valuation: A Survey of Professional Practice," Financial Economics, Vol. 37, No. 2, April 2019, 219-233.  
+$^{19}$ Michael J. Mauboussin and Dan Callahan, "Categorizing for Clarity: Cash Flow Statement Adjustments to Improve Insight," Consilient Observer: Counterpoint Global Insights, October 6, 2021.  
+$^{20}$ David Solomons, *Divisional Performance: Measurement and Control* (New York: Financial Executives Research Foundation, 1965), 60-71.  
+$^{21}$ G. Bennett Stewart, The Quest for Value: A Guide for Senior Managers (New York: HarperCollins Publishers, 1991).  
+$^{22}$ Vartika Gupta, Tim Koller, and Peter Stumpner, "Which Metrics Really Drive Total Returns to Shareholders?" McKinsey & Company, October 2021.  
+$^{23}$ Marshall Fisher, Vishal Gaur, and Herb Kleinberger, "Curing the Addiction to Growth," Harvard Business Review, Vol. 95, No. 1, January-February 2017, 66-74.  
+$^{24}$ Aswath Damodaran, "Dealing with Cash, Cross Holdings and Other Non-Operating Assets: Approaches and Implications," New York University - Stern School of Business, September 30, 2005.  
+$^{25}$ Tim Opler, Lee Pinkowitz, René Stulz, and Rohan Williamson, "The Determinants and Implications of Corporate Cash Holdings," Journal of Financial Economics, Vol. 52, No. 1, April 1999, 3-46; Richard Passov, "How Much Cash Does Your Company Need?" Harvard Business Review, Vol. 81, No. 11, November 2003, 119-126; and Thomas W. Bates, Kathleen M. Kahle and René M. Stulz, "Why Do U.S. Firms Hold So Much More Cash than They Used To?" Journal of Finance, Vol. 64, No. 5, October 2009, 1985-2021.  
+$^{26}$ Thomas W. Bates, Ching-Hung Chang, and Jianxin Daniel Chi, "Why Has the Value of Cash Increased Over Time?" Journal of Financial and Quantitative Analysis, Vol. 53, No. 2, April 2018, 749-787.  
+$^{27}$ Amy Dittmar and Jan Mahrt-Smith, "Corporate Governance and the Value of Cash Holdings," Journal of Financial Economics, Vol. 83, No. 3, March 2007, 599-634.  
+$^{28}$ Amy Dittmar, Jan Mahrt-Smith and Henri Servaes, "International Corporate Governance and Corporate Cash Holdings," Journal of Financial and Quantitative Analysis, Vol. 38, No. 1, March 2003, 111-133.  
+$^{29}$ Koller, Goedhart, and Wessels, Valuation, 338.  
+$^{30}$ James L. Canessa and Gregg A. Jarrell, "The Proper Treatment of Cash Holdings in DCF Valuation Theory and Practice," Journal of Business Valuation and Economic Loss Analysis, forthcoming.  
+$^{31}$ Ethan Rouen, Eric C. So, and Charles C.Y. Wang, "Core Earnings: New Data and Evidence," Journal of Financial Economics, Vol. 142, No. 3, December 2021, 1068-1091.  
+$^{32}$ For a good chapter on this topic, see Koller, Goedhart, and Wessels, Valuation, 427-442.  
 33 "Kimberly-Clark Announces Year-End 2021 Results And 2022 Outlook," January 26, 2022. See www.news.kimberly-clark.com/2022-01-26-KIMBERLY-CLARK-ANNOUNCES-YEAR-END-2021-RESULTSAND-2022-OUTLOOK.  
 34 Bikki Jaggi, Beixin Lin, Suresh Govindaraj, and Picheng Lee, "The Value Relevance of Corporate Restructuring Charges," Review of Quantitative Finance and Accounting, Vol. 32, No. 2, February 2009, 101-128.  
 35 Here's the calculation: We take  \$560 million, multiply it by the complement of the assumed tax rate of 25 percent (.75 = 1 -.25), and capitalize it by the cost of capital of 6 percent. So,\$ 420 million/.06 = \$7,000 million.  
-36 Venkat Ramana Reddy Peddireddy, "Estimating Maintenance CapEx," Columbia University PhD Thesis, 2021.
+$^{33}$ "Kimberly-Clark Announces Year-End 2021 Results And 2022 Outlook," January 26, 2022. See www.news.kimberly-clark.com/2022-01-26-KIMBERLY-CLARK-ANNOUNCES-YEAR-END-2021-RESULTSAND-2022-OUTLOOK.  
+$^{34}$ Bikki Jaggi, Beixin Lin, Suresh Govindaraj, and Picheng Lee, "The Value Relevance of Corporate Restructuring Charges," Review of Quantitative Finance and Accounting, Vol. 32, No. 2, February 2009, 101-128.  
+$^{35}$ Here's the calculation: We take \$560 million, multiply it by the complement of the assumed tax rate of 25 percent (.75 = 1 -.25), and capitalize it by the cost of capital of 6 percent. So,\$420 million/.06 = \$7,000 million.  
+$^{36}$ Venkat Ramana Reddy Peddireddy, "Estimating Maintenance CapEx," Columbia University PhD Thesis, 2021.
 
-37 Matteo Arena and Stephen Ferris, "A Survey of Litigation in Corporate Finance," Managerial Finance, Vol 43, No.1, 2017, 4-18.  
-38 Amar Gande and Craig M. Lewis, "Shareholder-Initiated Class Action Lawsuits: Shareholder Wealth Effects and Industry Spillovers," Journal of Financial and Quantitative Analysis, Vol. 44, No. 4, August 2009, 823-850.  
-39 To simplify this analysis, we used the same cost of capital for all companies in each year based on prevailing interest rates and estimates of risk premia. For example, our 2021 estimate was 5.0 percent. For the cost of equity, we used a risk-free rate of 1.45 percent, based on the yield on the 10-year Treasury note, and an equity risk premium of 4.24 percent as estimated by Aswath Damodaran. This sums to 5.7 percent. We assumed an after-tax cost of debt of 2.2 percent and a debt-to-total-capital ratio of 20 percent. This resulted in an estimate for the weighted average cost of capital of 5.0 percent  $[(0.2 \times 2.2\%) + (0.8 \times 5.7\%)]$ .  
-Feng Gu, Baruch Lev, and Chenqi Zhu, "All Losses Are Not Alike: Real versus Accounting-Driven Reported Losses," SSRN Working Paper, May 2022.  
-<sup>41</sup> Frederico Belo, Vito D. Gala, Juliana Salomao, Maria Ana Vitorino, "Decomposing Firm Value," Journal of Financial Economics, Vol. 143, No. 2, February 2022, 619-639.  
-42 "Accounting for Research and Development Costs," Statement of Financial Accounting Standards No. 2, October 1974.  
-43 Luminita Enache and Anup Srivastava, "Should Intangible Investments Be Reported Separately or Commingled with Operating Expenses? New Evidence," Management Science, Vol. 64, No. 7, July 2018, 3446-3468.  
-$^{44}$  Ryan H. Peters and Lucian A. Taylor, "Intangible Capital and the Investment-q Relation," Journal of Financial Economics, Vol. 123, No. 2, February 2017, 251-272; Michael Ewens, Ryan H. Peters, and Sean Wang, "Measuring Intangible Capital with Market Prices," NBER Working Paper, October 2020; and Aneel Iqbal, Shivaram Rajgopal, Anup Srivastava, and Rong Zhao, "Value of Internally Generated Intangible Capital," Working Paper, February 2022.  
-<sup>45</sup> Charles R. Hulten, "Decoding Microsoft: Intangible Capital as a Source of Company Growth," NBER Working Paper 15799, March 2010.  
-46 We would note that a strong case can be made that not all R&D should be considered an intangible investment. See Vijay Govindarajan, Shivaram Rajgopal, Anup Srivastava, and Luminita Enache, "It's Time to Stop Treating R&D as a Discretionary Item," Harvard Business Review, January 29, 2019 and Aneel Iqbal, Shivaram Rajgopal, Anup Srivastava, and Rong Zhao, "Value of Internally Generated Intangible Capital," Working Paper, February 2022.  
-47 Carol A. Corrado and Charles R. Hulten, "Innovation Accounting," in Dale W. Jorgenson, J. Steven Landefeld, and Paul Schreyer, eds., Measuring Economic Sustainability and Progress (Chicago: University of Chicago Press, 2014), 614.  
-<sup>48</sup> The magnitude of the earnings increase is a function of the relative magnitude of intangible investments. See Michael J. Mauboussin and Dan Callahan, "Intangibles and Earnings: Improving the Usefulness of Financial Statements," Consilient Observer: Counterpoint Global Insights, April 12, 2022.  
-49 Note that many DCF models include a continuing value estimate (also known as a residual or terminal value). To the degree to which a continuing value estimate is based on NOPAT or earnings before interest, taxes, depreciation, and amortization (EBITDA), capitalizing intangibles can change the output of the model. Conceptually, the value of a business is the present value of future free cash flows for as long as the company is around. The potential change in output reflects the model rather than the reality.  
-50 Aswath Damodaran has posted a webcast on how to do this for R&D. You can use the same process for other items. See www.youtube.com/watch?v=Y_UpzqNk3l4.  
-In other words, the upward adjustment in NOPAT is inconsistent with the more limited adjustment in invested capital. For example, see "To Capitalize Expenses or Not? It Doesn't Matter," New Constructs, February 15, 2022.  
-52 Michael Berlemann and Jan-Erik Wesselhöft, "Estimating Aggregate Capital Stocks Using the Perpetual Inventory Method: A Survey of Previous Implementations and New Empirical Evidence for 103 Countries," Review of Economics, Vol. 65, No. 1, 2014, 1-34 and Michael Berlemann and Jan-Erik Wesselhöft, "Aggregate Capital Stock Estimations for 122 Countries: An Update," Review of Economics, Vol. 68, No. 2, 2017, 75-92.
+$^{37}$ Matteo Arena and Stephen Ferris, "A Survey of Litigation in Corporate Finance," Managerial Finance, Vol 43, No.1, 2017, 4-18.  
+$^{38}$ Amar Gande and Craig M. Lewis, "Shareholder-Initiated Class Action Lawsuits: Shareholder Wealth Effects and Industry Spillovers," Journal of Financial and Quantitative Analysis, Vol. 44, No. 4, August 2009, 823-850.  
+$^{39}$ To simplify this analysis, we used the same cost of capital for all companies in each year based on prevailing interest rates and estimates of risk premia. For example, our 2021 estimate was 5.0 percent. For the cost of equity, we used a risk-free rate of 1.45 percent, based on the yield on the 10-year Treasury note, and an equity risk premium of 4.24 percent as estimated by Aswath Damodaran. This sums to 5.7 percent. We assumed an after-tax cost of debt of 2.2 percent and a debt-to-total-capital ratio of 20 percent. This resulted in an estimate for the weighted average cost of capital of 5.0 percent  $[(0.2 \times 2.2\%) + (0.8 \times 5.7\%)]$ .  
+$^{40}$ Feng Gu, Baruch Lev, and Chenqi Zhu, "All Losses Are Not Alike: Real versus Accounting-Driven Reported Losses," SSRN Working Paper, May 2022.  
+$^{41}$ Frederico Belo, Vito D. Gala, Juliana Salomao, Maria Ana Vitorino, "Decomposing Firm Value," Journal of Financial Economics, Vol. 143, No. 2, February 2022, 619-639.  
+$^{42}$ "Accounting for Research and Development Costs," Statement of Financial Accounting Standards No. 2, October 1974.  
+$^{43}$ Luminita Enache and Anup Srivastava, "Should Intangible Investments Be Reported Separately or Commingled with Operating Expenses? New Evidence," Management Science, Vol. 64, No. 7, July 2018, 3446-3468.  
+$^{44}$ Ryan H. Peters and Lucian A. Taylor, "Intangible Capital and the Investment-q Relation," Journal of Financial Economics, Vol. 123, No. 2, February 2017, 251-272; Michael Ewens, Ryan H. Peters, and Sean Wang, "Measuring Intangible Capital with Market Prices," NBER Working Paper, October 2020; and Aneel Iqbal, Shivaram Rajgopal, Anup Srivastava, and Rong Zhao, "Value of Internally Generated Intangible Capital," Working Paper, February 2022.  
+$^{45}$ Charles R. Hulten, "Decoding Microsoft: Intangible Capital as a Source of Company Growth," NBER Working Paper 15799, March 2010.  
+$^{46}$ We would note that a strong case can be made that not all R&D should be considered an intangible investment. See Vijay Govindarajan, Shivaram Rajgopal, Anup Srivastava, and Luminita Enache, "It's Time to Stop Treating R&D as a Discretionary Item," Harvard Business Review, January 29, 2019 and Aneel Iqbal, Shivaram Rajgopal, Anup Srivastava, and Rong Zhao, "Value of Internally Generated Intangible Capital," Working Paper, February 2022.  
+$^{47}$ Carol A. Corrado and Charles R. Hulten, "Innovation Accounting," in Dale W. Jorgenson, J. Steven Landefeld, and Paul Schreyer, eds., Measuring Economic Sustainability and Progress (Chicago: University of Chicago Press, 2014), 614.  
+$^{48}$ The magnitude of the earnings increase is a function of the relative magnitude of intangible investments. See Michael J. Mauboussin and Dan Callahan, "Intangibles and Earnings: Improving the Usefulness of Financial Statements," Consilient Observer: Counterpoint Global Insights, April 12, 2022.  
+$^{49}$ Note that many DCF models include a continuing value estimate (also known as a residual or terminal value). To the degree to which a continuing value estimate is based on NOPAT or earnings before interest, taxes, depreciation, and amortization (EBITDA), capitalizing intangibles can change the output of the model. Conceptually, the value of a business is the present value of future free cash flows for as long as the company is around. The potential change in output reflects the model rather than the reality.  
+$^{50}$ Aswath Damodaran has posted a webcast on how to do this for R&D. You can use the same process for other items. See www.youtube.com/watch?v=Y_UpzqNk3l4.  
+$^{51}$ In other words, the upward adjustment in NOPAT is inconsistent with the more limited adjustment in invested capital. For example, see "To Capitalize Expenses or Not? It Doesn't Matter," New Constructs, February 15, 2022.  
+$^{52}$ Michael Berlemann and Jan-Erik Wesselhöft, "Estimating Aggregate Capital Stocks Using the Perpetual Inventory Method: A Survey of Previous Implementations and New Empirical Evidence for 103 Countries," Review of Economics, Vol. 65, No. 1, 2014, 1-34 and Michael Berlemann and Jan-Erik Wesselhöft, "Aggregate Capital Stock Estimations for 122 Countries: An Update," Review of Economics, Vol. 68, No. 2, 2017, 75-92.
 
-53 Meghan Ayyagari, Asli Demirguc-Kunt, Vojislav Maksimovic, "The Rise of Star Firms: Intangible Capital and Competition," Working Paper, September 2021.  
-For example, see McDonald's Corporation, Form 10-K, December 31, 2020. For an older example, see the sidebar, "How Much Bang for the Buck?" in G. Dan Hutcheson and Jerry D. Hutcheson, "Technology and Economics in the Semiconductor Industry," Scientific American, Vol. 274, No. 1, January 1996, 54-62.  
-This can be a strong assumption, especially for young companies or companies that participate in cyclical industries.  
-<sup>56</sup> Huong N. Higgins, "Earnings Forecasts of Firms Experiencing Sales Decline: Why So Inaccurate?" Journal of Investing, Vol. 17, No. 1, Spring 2008, 26-33.  
-<sup>57</sup> Michael J. Mauboussin and Dan Callahan, "Market-Expected Return on Investment: Bridging Accounting and Valuation," Consilient Observer: Counterpoint Global Insights, April 14, 2021. For insightful research along the same lines, see Shivaram Rajgopal, Anup Srivastava, and Rong Zhao, "Do Digital Technology Firms Earn Excess Profits? Alternative Perspectives," Accounting Review, forthcoming.  
-James M. McTaggart, Peter W. Kontes, and Michael C. Mankins, The Value Imperative: Managing Superior Shareholder Returns (New York: Free Press, 1994), 241.  
-59 Dan Loyallo, Alexander L. Brown, David J. Teece, and David Bardolet, "Resource Re-Allocation Capabilities in Internal Capital Markets: The Value of Overcoming Inertia," Strategic Management Journal, Vol. 41, No. 8, August 2020, 1365-1380.  
+$^{53}$ Meghan Ayyagari, Asli Demirguc-Kunt, Vojislav Maksimovic, "The Rise of Star Firms: Intangible Capital and Competition," Working Paper, September 2021.  
+$^{54}$ For example, see McDonald's Corporation, Form 10-K, December 31, 2020. For an older example, see the sidebar, "How Much Bang for the Buck?" in G. Dan Hutcheson and Jerry D. Hutcheson, "Technology and Economics in the Semiconductor Industry," Scientific American, Vol. 274, No. 1, January 1996, 54-62.  
+$^{55}$ This can be a strong assumption, especially for young companies or companies that participate in cyclical industries.  
+$^{56}$ Huong N. Higgins, "Earnings Forecasts of Firms Experiencing Sales Decline: Why So Inaccurate?" Journal of Investing, Vol. 17, No. 1, Spring 2008, 26-33.  
+$^{57}$ Michael J. Mauboussin and Dan Callahan, "Market-Expected Return on Investment: Bridging Accounting and Valuation," Consilient Observer: Counterpoint Global Insights, April 14, 2021. For insightful research along the same lines, see Shivaram Rajgopal, Anup Srivastava, and Rong Zhao, "Do Digital Technology Firms Earn Excess Profits? Alternative Perspectives," Accounting Review, forthcoming.  
+$^{58}$ James M. McTaggart, Peter W. Kontes, and Michael C. Mankins, The Value Imperative: Managing Superior Shareholder Returns (New York: Free Press, 1994), 241.  
+$^{59}$ Dan Loyallo, Alexander L. Brown, David J. Teece, and David Bardolet, "Resource Re-Allocation Capabilities in Internal Capital Markets: The Value of Overcoming Inertia," Strategic Management Journal, Vol. 41, No. 8, August 2020, 1365-1380.  
 $^{60}$ Joan Magretta, *Understanding Michael Porter: The Essential Guide to Competition and Strategy* (Boston, MA: Harvard Business Review Press, 2012), 114-115.  
-$^{61}$  Dale L. Flesher and Gary John Previts, "Donaldson Brown (1885-1965): The Power of an Individual and His Ideas Over Time," Accounting Historians Journal, Vol. 40, No. 1, June 2013, 79-101.  
-62 For an excellent discussion of valuing banks, see Koller, Goedhart, and Wessels, Valuation, 733-758.  
-$^{63}$  Jun "QJ" Qian and Julie Lei Zhu, "Return to Invested Capital and the Performance of Mergers and Acquisitions," Management Science, Vol. 64, No. 10, October 2018, 4818-4834.  
+$^{61}$ Dale L. Flesher and Gary John Previts, "Donaldson Brown (1885-1965): The Power of an Individual and His Ideas Over Time," Accounting Historians Journal, Vol. 40, No. 1, June 2013, 79-101.  
+$^{62}$ For an excellent discussion of valuing banks, see Koller, Goedhart, and Wessels, Valuation, 733-758.  
+$^{63}$ Jun "QJ" Qian and Julie Lei Zhu, "Return to Invested Capital and the Performance of Mergers and Acquisitions," Management Science, Vol. 64, No. 10, October 2018, 4818-4834.  
 64 "Aswath Damodaran-Making Sense of the Market," Invest Like the Best Podcast, May 22, 2022. See www joinsolossus.com/episodes/75305584/damodaran-teaching-the-world-finance?tab=transcript.  
 65 "Will Thorndike – The Power of Long Holding Periods," Invest Like the Best Podcast, August 2, 2022. See www joinscolossus.com/episodes/88167992/thorndike-the-power-of-long-holding-periods?tab=transcript. Joel Greenblatt, who came up with the "magic formula," also uses a similar variation. He defines return on capital as EBIT/(Net Working Capital + Net Fixed Assets). This is the same equation, only pretax. See Joel Greenblatt, The Little Book That Beats the Market (Hoboken, NJ: John Wiley & Sons, 2006), 138-140.  
 For more on shareholder value added (SVA), see Alfred Rappaport, Creating Shareholder Value: A Guide for Managers and Investors-Revised and Updated (New York: Free Press, 1998), 45-51. For more on MEROI, see Mauboussin and Callahan, "Market-Expected Return on Investment."  

@@ -1,25 +1,29 @@
 ---
-parent_directory: Week 1
 title: The Failure of Arbitrage
-tags:
-aliases:
-  - Failure of Arbitrage
-parent_folder: Week 1
-subfolder:
-key_concepts:
+parent_directory: Week 1
+formatted: 2025-12-21 04:30:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: opencode
+primary_tags:
+  - arbitrage failure
+  - market efficiency
+  - financial crises
+secondary_tags:
+  - leverage effects
+  - statistical arbitrage
+  - value investing
 cssclasses: academia
-linter-yaml-title-alias: The Failure of Arbitrage
 ---
 
 # The Failure of Arbitrage
 
-# Leverage, Liquidity, and the Persistence of Inefficiency
+## Leverage, Liquidity, and the Persistence of Inefficiency
 
 It's like there are two businesses here—the old business, which works fine under normal conditions, and this stand-by business, when the world goes mad. And for that, you either need to buy insurance or have a pool of stand-by capital to take advantage of these opportunities.
 
 Eric Rosenfeld
 
-# When Lead Steers Get Lost
+## When Lead Steers Get Lost
 
 Sometimes people aren't there when you need them the most.
 
@@ -33,7 +37,7 @@ The existence of rational arbitrageurs is one of the theoretical planks supporti
 
 But what happens if circumstances aren't normal? As the Eckstein and LTCM stories show, arbitrageurs sometimes fail to show up. More to the point, they often fail to show up precisely when price-to-value gaps are unusually attractive. Some reflection on the failure of arbitrage provides insights into the shortcomings of the efficient market hypothesis, why attractive investment opportunities periodically arise, and what has occurred during the recent financial crisis.
 
-# How to Play Emotion
+## How to Play Emotion
 
 Taking one large step back, there appear to be two empirically legitimate ways to play emotion to generate excess investment returns. The first is to ride emotion. This is momentum investing, and is at the core of trend-following strategies. The second is to exploit emotion, using fundamental analysis to find price-to-value gaps that arise from suboptimal group behavior. This notion is at the core of value investing and statistical arbitrage techniques.<sup>4</sup>
 
@@ -55,7 +59,7 @@ Trend followers, as emotion riders, are not concerned with price-to-value discre
 
 To assure market efficiency, arbitrageurs have to be willing and able to dedicate sufficient capital to close aberrant price-to-value gaps. As we have seen before, are witnessing today, and will undoubtedly see in the future, arbitrageurs frequently fail precisely when the opportunities are most attractive. We now explore why this occurs.
 
-# The Role of Asset Price Changes, Leverage, and Collateral
+## The Role of Asset Price Changes, Leverage, and Collateral
 
 While all financial crises are unique, they do tend to follow a similar pattern.  $^{10}$  First, an asset or asset class does well. Next, some dose of bad news comes into the market that triggers an asset price decline. The most optimistic investors, those with loads of leverage and a large risk appetite, are hurt first. Their lenders then require more collateral and issue margins calls, sparking an additional round of selling. This initial wave creates a domino effect where selling leads to lower asset prices, sparking more margin calls, further depressing asset prices, and so forth. While financial crises almost always start where asset price performance has been good (arguably a state of overvaluation), the process invariably leads to asset prices dropping below any reasonable semblance of value.
 
@@ -75,7 +79,7 @@ Collateral requirements also play a prime role in financial crisis, even as the 
 
 Prior to a financial crisis, asset prices are up, leverage levels are elevated, and lending standards are lax. The crisis reverses all of these conditions, leaving asset prices depressed, leverage levels too low, and lending standards unduly restrictive. And arbitrageurs, despite their mission, cannot change this outcome.
 
-# The Failure of Arbitrage
+## The Failure of Arbitrage
 
 There is solid literature on the limits of arbitrage under normal conditions, when arbitrage opportunities tend to be steady and small. Our emphasis here is on the failure of arbitrage in periods of financial crisis, where price-to-value gaps are wide and investors can put substantial capital to work at attractive returns. In financial stress, we see:
 

@@ -1,11 +1,19 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Appendix M SIMM
+parent_directory: Part 8 Appendices
+formatted: 2025-12-21 1:30:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - simm
+  - initial margin
+  - standard initial margin model
+secondary_tags:
+  - variation margin
+  - risk weights
+  - stressed market conditions
+  - weighted sensitivity approach
 cssclasses: academia
-title: Appendix M
-linter-yaml-title-alias: Appendix M
 ---
 
 # Appendix M

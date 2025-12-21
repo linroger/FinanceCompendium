@@ -1,16 +1,23 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Appendix L Synthetic CDOs and Their Valuation
+parent_directory: Part 8 Appendices
+formatted: 2025-12-21 1:00:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - synthetic cdos
+  - tranche valuation
+  - gaussian copula model
+secondary_tags:
+  - credit derivatives
+  - default risk modeling
+  - correlation smile
 cssclasses: academia
-title: Appendix L
-linter-yaml-title-alias: Appendix L
 ---
 
 # Appendix L
 
-# Synthetic CDOs and Their Valuation
+## Synthetic CDOs and Their Valuation
 
 Synthetic collateralized debt obligations (CDOs) consist of tranches where one party (Party A) agrees to make payments to another party (Party B) that are equal to those losses on a specified portfolio of debt instruments that are in a certain range. In return, Party B agrees to make payments to Party A that are a certain proportion of the amount of principal that is being insured.
 

@@ -1,13 +1,18 @@
 ---
-parent_directory:
-title: MAKING MARKETS
-tags:
-aliases:
-parent_folder: Financial Markets and Institutions
-subfolder:
-key_concepts:
+title: Making Markets
+parent_directory: Lecture Notes
+formatted: 2025-12-21 11:03:25 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - market making
+  - liquidity provision
+secondary_tags:
+  - bid ask spread
+  - liquidity takers
+  - execution structure
+  - market participation
 cssclasses: academia
-linter-yaml-title-alias: MAKING MARKETS
 ---
 
 # MAKING MARKETS
@@ -16,8 +21,8 @@ linter-yaml-title-alias: MAKING MARKETS
 
 Market making is a service provided to other market participants. As with any service, payment is expected, so market makers are compensated in one or more of the following ways:
 
-- favorable prices in trades  
-rebates and fees  
+- favorable prices in trades
+- rebates and fees
 - related business transactions
 
 In the first case, our market maker asks prices  $P_A$  somewhat higher than the perceived true value  $P$  of an asset, and bids lower at  $P_B$ . The spread  $S = P_B - P_A$  characterizes market maker revenue from the trades, with each trade contributing half the spread (times quantity  $Q$ ) to the total.
@@ -30,7 +35,7 @@ Finally, a market maker can provide locked quotes with no spread, or quotes with
 
 Market making can be a good business, but the profits come only in theory. As part of trading activity, the market maker will accumulate inventory, which then results in profits or losses as prices change. Liquidity takers are liable to be informed, crossing the spread for strong economic reasons. If the taker is correct, the half spread and any rebate collected can be overwhelmed by the subsequent price change<sup>2</sup>.
 
-In addition to trading profit and loss, market makers tend to occur high fixed costs in personnel, technology and data fees. To a large extent, the costs can be spread over quotes in multiple securities, so market makers tend to be somewhat large businesses, both in number of assets quoted and in capital employed.
+In addition to trading profit and loss, market makers tend to incur high fixed costs in personnel, technology and data fees. To a large extent, the costs can be spread over quotes in multiple securities, so market makers tend to be somewhat large businesses, both in number of assets quoted and in capital employed.
 
 One cost that is relatively insignificant for market makers is capital. The capital needed to support market making is some fraction, perhaps  $\frac{1}{4}$  or so, of the maximum notional held at any time during the day. Thus, dozens, hundreds or even thousands of trades can be supported per unit of capital.
 

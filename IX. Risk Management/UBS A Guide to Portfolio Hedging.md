@@ -1,11 +1,19 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: A Guide to Portfolio Hedging
+parent_directory: Risk Management
+formatted: 2025-12-21 2:15:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - portfolio hedging
+  - hedging strategies
+  - risk management
+secondary_tags:
+  - equity drawdowns
+  - hedging scorecard
+  - proxy hedges
+  - derivatives hedging
 cssclasses: academia
-title: A guide to portfolio hedging
-linter-yaml-title-alias: A guide to portfolio hedging
 ---
 
 # A guide to portfolio hedging
