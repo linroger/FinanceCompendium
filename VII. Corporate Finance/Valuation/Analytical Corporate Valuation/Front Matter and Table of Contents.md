@@ -2,7 +2,7 @@
 title: "Analytical Corporate Valuation - Front Matter and Table of Contents"
 parent_directory: "VII. Corporate Finance/Valuation/Analytical Corporate Valuation"
 formatted: 2025-12-20 11:03:25 PM
-formatter_model: kimi-k2-turbo
+formatter_model: claude-sonnet-4-20250514
 cli-tool: claude-code
 primary_tags:
   - corporate valuation

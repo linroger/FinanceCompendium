@@ -1,24 +1,38 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Largest Events Driving Changes to Life Expectancy Through Time
-linter-yaml-title-alias: Largest Events Driving Changes to Life Expectancy Through
-  Time
+parent_directory: Bridgewater Associates
+formatted: 2025-12-20 11:53:00 PM
+formatter_model: claude-haiku-4-5-20251001
 primary_tags:
-- conflict1850 64china201 madras faminefamine1876
-- africa15038 fall yuan dynastyinternal
+- life expectancy determinants
+- historical mortality events
 secondary_tags:
-- life expectancy changed time
-- largest events drove historical
-tags_extracted: '2025-12-18T00:12:08.583069'
+- pandemic death tolls
+- famine historical patterns
+- war impact on population
+cssclasses: academia
 ---
 
 # Largest Events Driving Changes to Life Expectancy Through Time
 
 In my book *The Changing World Order: Why Nations Succeed and Fail*, I show these charts of how life expectancy has changed through time. Here, I wanted to share some of the largest events that drove these historical moves up and down. Note that prior to 1800, these charts only reflect shifts in UK life expectancy, but I am listing global events here and including events over a longer time frame.
+
+```d2
+types: Major Event Types Affecting Life Expectancy {
+  Wars: {
+    examples: "Genghis Khan Conquests, Thirty Years' War"
+  }
+  Pandemics: {
+    examples: "Black Death, Smallpox Epidemics"
+  }
+  Famines: {
+    examples: "Great Bengal Famine, Chinese Famines"
+  }
+  Internal Conflicts: {
+    examples: "Fall of Ming Dynasty"
+  }
+}
+```
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/38954b3e-2bf2-4138-815e-36fb78fa3688/441e2fc7c854f39032065932dd07fd6c8aab0aab0d7b482798e4bbb49ee41b53.jpg)  
 GLOBAL LIFE EXPECTANCY AT BIRTH

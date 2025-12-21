@@ -1,3 +1,48 @@
+---
+title: Chapter 05 - Interest Rate Swaps
+primary_tags:
+  - interest_rate_swaps
+  - forward_rate_agreements
+  - zero_coupon_swaps
+  - swap_valuation
+  - comparative_advantage
+  - basis_risk
+  - cross_currency_swaps
+  - credit_default_swaps
+  - swap_pricing
+  - swap_execution
+secondary_tags:
+  - fixed_vs_floating_rates
+  - swap_intermediaries
+  - swap_margins
+  - swap_clearing
+  - interest_rate_derivatives
+  - basis_swaps
+  - currency_swaps
+  - swap_maturity_matching
+  - swap_spreads
+  - swap_quotes
+  - swap_market_makers
+  - swap_book_builders
+  - swap_settlement
+  - swap_trading_conventions
+  - swap_risk_management
+  - swap_hedging
+  - swap_speculation
+  - swap_arbitrage
+  - swap_duration
+  - swap_convexity
+  - swap_volatility
+  - swap_correlation
+  - swap_structuring
+  - swap_trading_desk
+  - swap_portfolio_management
+  - swap_accounting
+  - swap_regulation
+  - central_clearing_counterparties
+cssclasses: academia
+---
+
 # Chapter 5: Interest Rate Swaps
 
 There are many swap contracts very popular in the market place (interest rate swaps, currency swaps, asset swaps, residential property index swap, equity swap, total return swap, credit default swaps, ...) In this chapter, we shall introduce interest rate swaps and in Chapter 7 we shall discuss credit default swaps.

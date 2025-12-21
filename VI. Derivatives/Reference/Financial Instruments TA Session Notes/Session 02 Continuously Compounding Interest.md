@@ -1,7 +1,7 @@
 ---
 title: Continuously Compounding Interest
 parent_directory: Financial Instruments TA Session Notes
-formatted: 2025-12-20 11:03:25 AM
+formatted: 2025-12-20 11:03:25 PM
 formatter_model: claude-sonnet-4-5-20250929
 cli_tool: opencode
 primary_tags:
@@ -47,3 +47,19 @@ r_{c} = n \cdot \ln\left[1 + \frac{r_{d}}{n}\right]
 $$
 
 Note that the maturity horizon  $T$  does not affect the conversion between a discrete compounding interest rate and a continuously compounding interest rate.
+
+```d2
+discrete_compounding: Discrete Compounding {
+  label: "r_d with frequency n"
+}
+
+continuous_compounding: Continuous Compounding {
+  label: "r_c"
+}
+
+conversion: Conversion Formula {
+  label: "r_c = n * ln(1 + r_d/n)"
+}
+
+discrete_compounding -> conversion -> continuous_compounding
+```

@@ -1,8 +1,8 @@
 ---
 title: "Teaching Note 3: Introduction to Options"
 parent_directory: "Financial Instruments Lecture Notes"
-formatted: "2025-12-20 06:05:00 PM"
-formatter_model: "claude-sonnet-4-5-20250929"
+formatted: "2025-12-20 11:03:25 PM"
+formatter_model: "claude-3-5-sonnet-20241022"
 cli_tool: "opencode"
 primary_tags:
   - option pricing
@@ -25,16 +25,16 @@ The University of Chicago
 
 Booth School of Business
 
-## 1. Options
+## Table of Contents
 
-### 1.1 Options Payoffs
-### 1.2 Put Call Parity
-### 1.3 Hedging with Options
-### 1.4 No Arbitrage Bounds
-### 1.5 Options' Combinations
-### 1.6 Slope and Convexity Restrictions
+- Options Payoffs
+- Put Call Parity
+- Hedging with Options
+- No Arbitrage Bounds
+- Options' Combinations
+- Slope and Convexity Restrictions
 
-# Options
+## Options
 
 - A European option gives its holder the right, but not the obligation, to buy (call) or sell (put) a prespecified security or commodity for a prespecified price at a prespecified date.
 - Since the holder of the option has a right, but not the obligation to exercise, the option has always a non-negative value to the option holder.
@@ -43,7 +43,7 @@ Booth School of Business
 - In exchange of the option premium (received at 0), the seller of the option takes on the obligation to deliver the underlying security at maturity $T$, if requested by the option buyer.
 - An American option is the same, but exercise can occur any time before maturity.
 
-# Call Option Payoff
+## Call Option Payoff
 
 - For instance, stock options have:
 - Underlying $= S$ = stock price; Prespecified price $= K$ = strike price; Prespecified date $= T$ = maturity date.
@@ -51,21 +51,21 @@ Booth School of Business
 - If at $T$, $S_T < K$ the option buyer has the choice between  
 * Buy the stock in the market at $S_{T}$
 * Buy the stock from the option seller for $K > S_{T}$  
-$\Longrightarrow$  Walk away from the contract is optimal
+$\Longrightarrow$ Walk away from the contract is optimal
 
 - If at  $T$ ,  $S_T > K$  the option buyer has the choice between
 
 * Buy the stock in the market at  $S_{T}$  
 * Buy the stock from the option seller for  $K < S_{T}$
 
-$\Longrightarrow$  exercise the option is optimal and profit  $= S_{T} - K$
+$\Longrightarrow$ exercise the option is optimal and profit $= S_{T} - K$
 
 * The option seller must deliver the stock in exchange of a price  $K$ .
 
 - Thus, the payoff to the option buyer is
 
 $$
-\mathrm {P a y o f f o f a C a l l} = \max (S _ {T} - K, 0)
+\text{Payoff of a Call} = \max (S _ {T} - K, 0)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/7a25ea3ae2483e16448db8daf553955eed3b2d1fe14ae21c74137c77c0d0a5ac.jpg)  
@@ -81,7 +81,7 @@ Call Option Payoff Diagram to Call Option Writer
 
 - Zero sum game: Losses of one party = gains of the other party.
 
-# Put Option Payoff
+## Put Option Payoff
 
 - How is the payoff of a put option determined?
 - If at  $T$ ,  $S_T < K$  the put option buyer has the choice between
@@ -90,7 +90,7 @@ Call Option Payoff Diagram to Call Option Writer
 * Sell the stock to the option writer for  $K > S_{T}$
 
 $$
-\Longrightarrow \text {E x e r c i s e t h e p u t o p i o n t o s e l l i s o p t i m a l , a n d p r o f i t} = K - S _ {T}
+\Longrightarrow \text{Exercise the put option to sell is optimal, and profit} = K - S _ {T}
 $$
 
 * The option seller must purchase the stock in exchange of a price  $K$ .
@@ -101,13 +101,13 @@ $$
 * Sell the stock to the option writer for  $K < {S}_{T}$
 
 $$
-\Longrightarrow \mathrm {w a l k a w a y f r o m t h e o p t i o n c o n t r a c t i s o p t i m a l}
+\Longrightarrow \text{walk away from the option contract is optimal}
 $$
 
 - Thus, the payoff of a put is as follows:
 
 $$
-\mathrm {P a y o f f o f a P u t} = \max (K - S _ {T}, 0)
+\text{Payoff of a Put} = \max (K - S _ {T}, 0)
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/1f756767c340a91c9a61490a1112ae6f2fea59edaa2d9846ddb0fabc8bcbaab7.jpg)  
@@ -119,12 +119,12 @@ Put Option Payoff Diagram
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/e79f30ff4bf42653fcb7e219cdc3815b63ea75aef783cde1bdea510114396e34.jpg)  
 Put Option Payoff Diagram for Put Option Seller
 
-# Payoff versus Profit
+## Payoff versus Profit
 
 - An option buyer has to pay a premium to seller. Thus, his/her profit is equal to payoff in previous pictures, minus the premium.  
 - Similarly, an option seller receives the premium from the buyer. Thus, his/her profit is equal to payoff in previous pictures, plus the premium.
 
-# Payoff versus Profit
+## Payoff versus Profit Diagrams
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/d59d8824141abe4b60f05a6bcae311253c8ee15ca44b4db5d824f646e6339c07.jpg)  
 Payoff versus Profit for Call Option Buyer  
@@ -136,9 +136,9 @@ Payoff versus Profit for Call Option Seller
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/4d521d63e09547c66da256583d6fb131c432d17993c99da4a811e3c70252269b.jpg)  
 Payoff versus Profit for Put Option Seller
 
-# Types of Options
+## Types of Options
 
-Stock Options
+### Stock Options
 
 - CBOE, AMEX, PHLX, PSE, ISE;  
 - Over 1000 different stocks;  
@@ -154,7 +154,7 @@ Stock Options
 - Based on agricultural, oil, livestock, metals, currency, and stock index futures.  
 - E.g. Options on the 30 year Treasury Bond Futures (traded on CBOT)
 
-# Example: S&P500 Options
+## Example: S&P500 Options
 
 SPX (S&P 500 INDEX)
 
@@ -168,7 +168,7 @@ Apr16,2007 @ 19:53 ET
 
 Real-Time Streaming Option Chains -30-day FREE trial
 
-# Example: Microsoft Corp.
+## Example: Microsoft Corp.
 
 MSFT (MCROSOFTCORP)
 
@@ -190,7 +190,7 @@ $$
 \Longrightarrow \mathrm {P u t - C a l l} = e ^ {- r \times T} \times (K - F _ {0, T})
 $$
 
-# Put - Call Parity
+## Put - Call Parity
 
 - $\Rightarrow$  Given the price of a call, we can always get the price of the put (and vice-versa)  
 - For instance, for a non-dividend paying stock, we have
@@ -205,7 +205,7 @@ $$
 \mathrm {P u t} = \$ 10.4506 + e ^ {- 5 \% \times 1} \times \$ 100 - \$ 100 = \$ 10.4506 + \$ 95.1229 - \$ 100 = \$ 5.5735
 $$
 
-# Hedging with Options
+## Hedging with Options
 
 - Options are really insurance contracts.  
 - Example: A firm is long a stock  $S$  and it is worried about  $S$  declining.  
@@ -214,25 +214,25 @@ $$
 1. It can hedge the risk by using a forward (or futures) contract on  $S$  with delivery price  $K$ .
 
 $$
-\Rightarrow \mathrm {P a y o f f} T = S _ {T} + (K - S _ {T}) = K
+\Rightarrow \text{Payoff} T = S _ {T} + (K - S _ {T}) = K
 $$
 
 2. It can insure against the risk by buying a put option
 
 $$
-\Rightarrow \mathrm {P a y o f f a t} T = S _ {T} + \max (K - S _ {T}, 0) = \left\{ \begin{array}{l l} S _ {T} & \mathrm {i f} S _ {T} > K \\ K & \mathrm {i f} S _ {T} <   K \end{array} \right.
+\Rightarrow \text{Payoff at} T = S _ {T} + \max (K - S _ {T}, 0) = \left\{ \begin{array}{l l} S _ {T} & \text{if} S _ {T} > K \\ K & \text{if} S _ {T} < K \end{array} \right.
 $$
 
 - As any insurance contract, it costs money upfront to purchase options (the option's premium) - In contrast, it costs nothing to enter into forward contracts.
 
-# Option Premium
+## Option Premium
 
 - How can we compute the option premium?  
 - Usual insurance principle does not apply: The risks of underlying are not independent.  
 - In the future, we will study two main (related) methodologies to determine the option premium, the "binomial tree" approach, and the Black, Scholes, and Merton model.  
 - In what follows, we instead look at some basic no arbitrage "bounds" that have to hold.
 
-# Option Premium: No Arbitrage Bounds
+## Option Premium: No Arbitrage Bounds
 
 - A call option, European or American, is never worth more than the stock:
 
@@ -255,7 +255,7 @@ $$
 
 - Think what happens if a company goes bankrupt  $\Longrightarrow S_{t} = 0$ .
 
-# Option Premium: No Arbitrage Bounds
+## Option Premium: No Arbitrage Bounds
 
 - The value of a call (put) option is always higher than the value of long (short) forward with delivery price equal to strike price.
 - Recall from Teaching Notes 2 (consider a non-dividend paying stock for simplicity):
@@ -281,7 +281,7 @@ $$
 - Intuition:
 - An option always pays no less than the forward contract (as the option payoff equals the positive part of the forward).
 
-# Option Premium: No Arbitrage Bounds
+## Option Premium: No Arbitrage Bounds
 
 - Putting together the previous bounds, we find that for a non-dividend paying stock the call option premium has to be in the shaded area
 
@@ -291,7 +291,7 @@ $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/14441370d8f27fe7d348ec5373461a6e142f65a9ff2cbe3982c19a44eea4d041.jpg)
 
-# Option Premium: No Arbitrage Bounds
+## Option Premium: No Arbitrage Bounds
 
 - Putting together the previous bounds, we find that for a non-dividend paying stock the put option premium has to be in the shaded area
 
@@ -301,38 +301,38 @@ $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/c8b1621936682a78a2a0654936405f91028dcb885648049000c9d94a898bb12b.jpg)
 
-# Options' Combinations
+## Options' Combinations
 
 - Combining options with various strike prices allows a trader to speculate on particular views, or a hedger to make up a customized hedged portfolios.  
-- Protective Put: A long position in stock is risky. Purchasing a put provides a hedge against the fall in stock.  $\Rightarrow$  Payoff at  $T = S_{T} + \max (K - S_{T},0)$
+- Protective Put: A long position in stock is risky. Purchasing a put provides a hedge against the fall in stock. $\Rightarrow$ Payoff at $T = S_{T} + \max (K - S_{T},0)$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/001baa3fb7fa930f39412a73bef0aa4020469f63af86ea436d939c8c34338182.jpg)
 
-# Options' Combinations
+## Options' Combinations
 
-- Covered Call: A short call gives potentially infinite liability. Holding the stock provides a hedge for the option seller.  $\Longrightarrow$  Payoff at  $T = S_{T} - \max(S_{T} - K, 0)$
+- Covered Call: A short call gives potentially infinite liability. Holding the stock provides a hedge for the option seller. $\Longrightarrow$ Payoff at $T = S_{T} - \max(S_{T} - K, 0)$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/4070e98ac2a1f837983d8e4c74a4421713cd4ad2c141540bf8d3dcae41028c24.jpg)
 
-# Options' Spreads
+## Options' Spreads
 
 - Bear Spread: Bet on a decrease in the stock price. Short OTM put (strike  $K_{1}$ ) and long ITM put (strike  $K_{2} > K_{1}$ ).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/83802eea2a26cbf5ea92d946abc712ff9a73f1637e02b819b88829126de4b087.jpg)
 
-# Options' Spreads
+## Options' Spreads
 
 - Bull Spread: Bet on an increase in the stock price. Long ITM call (strike  $K_{1}$ ) and short OTM call (strike  $K_{2} > K_{1}$ ).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/94b511aaaa8aa2e346c6cbdf26ca5492a98cbc4124de7f1ac03152b13a16ac91.jpg)
 
-# Options' Spreads
+## Options' Spreads
 
 - Bull Spread using Puts: Long OTM put (strike  $K_{1}$ ) and short ITM put (strike  $K_{2} > K_{1}$ ) [this part is a short bear spread] plus cash  $K_{2} - K_{1}$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/62567356b82f441b4bcd2bf119ef2162593965ecc25fd5ab1d48b980778add4d.jpg)
 
-# Options' Spreads
+## Options' Spreads
 
 - **Butterfly Spread:** Long 1 call with strike  $K_{0}$ , short 2 calls with strike  $K_{1}$ , and long 1 call with strike  $K_{2}$ , with  $K_{0} < K_{1} < 2$  and  $K_{1} = (K_{0} + K_{2}) / 2$ .
 
@@ -340,13 +340,13 @@ $$
 
 What are you betting on here?
 
-# Options' Spreads
+## Options' Spreads
 
 - **Butterfly Spread - 2:** Long 1 put with strike  $K_{0}$ , short 2 puts with strike  $K_{1}$ , and long 1 put with strike  $K_{2}$ , with  $K_{0} < K_{1} < 2$  and  $K_{1} = (K_{0} + K_{2}) / 2$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/32500935031692d4cd13aa9363c8cfeafb4d3d502cf03b629790b69cceb72356.jpg)
 
-# Slope Restrictions
+## Slope Restrictions
 
 - What is the sensitivity of a put option to changes in the strike price?
 - Consider the bull spread with puts. Its payoff is always positive for every stock price at maturity, and therefore its value today must be positive.
@@ -371,7 +371,7 @@ $$
 - $\Longrightarrow$  One dollar increase in the strike price, increases the put price by less than the present value of one dollar.
 - A similar derivation can be made for calls.
 
-# Convexity Restrictions
+## Convexity Restrictions
 
 - The put price increases as the strike price increases. How does the rate of increase depend on the strike price?  
 - Consider the butterfly spread. The payoff is positive, so its value is always positive.
@@ -396,36 +396,36 @@ Slope between  $K_{1}$  and  $K_{2}$  Slope between  $K_{0}$  and  $K_{1}$
 - $\Rightarrow$  The put price is convex in the strike price.  
 - A similar derivation can be made for calls.
 
-# Convexity Restrictions
+## Convexity Restrictions
 
 - Graphically, the following figure plots the S&P500 put prices versus strike prices on May 11, 2007, when the S&P500=1505.42.
 - The convexity is evident.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/0110e9e6f6d8861a3e19a366131235799fedf5b13420279cab43a4987080ed13.jpg)
 
-# Other Popular Strategies
+## Other Popular Strategies
 
 - Straddle. Bet on high volatility. Long a call and a put with the same strike price.
 - To understand this strategy, it is better to use a profit diagram, rather than a payoff diagram.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/0cd20ba64d6bd1b65f8557505089140fc60856e9f731ddb778fe0d2a646540cd.jpg)
 
-# Other Popular Strategies
+## Other Popular Strategies
 
 - Strangle. Bet on large movements. Long a put with strike  $K_{0}$  and a call with strike  $K_{1} > K_{0}$ . - The profit diagram is as follows.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/8b62ecf9a0d5388297669be1fc3f3d4dd2171ebd866d4499801b3da744a1d662.jpg)
 
-# Other Popular Strategies
+## Other Popular Strategies
 
 - European Box Spread. Long ITM put and call (strike  $K_{1}$  and  $K_{2} > K_{1}$ ) and short OTM call and put (strike  $K_{1}$  and  $K_{2} > K_{1}$ ).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/12cbd3a8-935c-4ea7-857f-c8ce217a164a/34704767d2149804c791a2ddce0a8682bbb379541756953529624bdbc1c02413.jpg)
 
 - $\Longrightarrow$  Payoff is the same as a zero coupon bond with principal  $K_{2} - K_{1}$ .  
-- $\Longrightarrow$  The short Box Spread allows a trader to borrow using the option's market.
+- $\Longrightarrow$ The short Box Spread allows a trader to borrow using the option's market.
 
-# Options and Payoff Flexibility
+## Options and Payoff Flexibility
 
 - The number of option's strategies is virtually endless.  
 - Indeed, a trader can draw pretty much any desired payoff structure on a board, and find a portfolio of options that generates that payoff structure.  

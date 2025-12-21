@@ -1,12 +1,9 @@
 ---
 aliases:
 - The Changing World Order Charts
-tags: null
-key_concepts: null
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
 cssclasses: academia
 title: Principles for Dealing with The Changing World Order - Charts v2
-linter-yaml-title-alias: The Changing World Order Charts
 primary_tags:
 - china conflict
 - log) global real gdp
@@ -22,21 +19,16 @@ secondary_tags:
 - resource allocation efficiency
 - xinhai revolution chn
 - rank trajectory position
-tags_extracted: '2025-12-18T18:01:39.125449'
-tags_method: max_quality_v1
+formatted: 2025-12-20 11:03:25 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
 ---
 
-# Principles for Dealing with
-
-# THE CHANGING
-
-# WORLD ORDER
-
-# RAY DALIO
+# Principles for Dealing with The Changing World Order
 
 This PDF contains the charts and tables from the book for printing and easy reference.
 
-# CHAPTER 1
+## CHAPTER 1
 
 # THE BIG CYCLE IN A TINY NUTSHELL
 

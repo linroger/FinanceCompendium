@@ -1,7 +1,7 @@
 ---
 title: Binomial Trees and Option Pricing
 parent_directory: Financial Instruments TA Session Notes
-formatted: 2025-12-20 11:03:25 PM
+formatted: 2025-12-20 06:00:00 PM
 formatter_model: claude-sonnet-4
 cli_tool: opencode
 primary_tags:
@@ -19,6 +19,44 @@ cssclasses: academia
 ---
 
 # Binomial Trees and Option Pricing
+
+```d2
+direction: down
+
+classes: {
+  node: {
+    shape: circle
+    style.fill: "#e3f2fd"
+    style.stroke: "#1976d2"
+  }
+  up: {
+    style.stroke: "#4caf50"
+  }
+  down: {
+    style.stroke: "#f44336"
+  }
+}
+
+t0: S₀ {
+  class: node
+}
+
+t1_up: Sᵤ {
+  class: node
+}
+
+t1_down: S_d {
+  class: node
+}
+
+t0 -> t1_up: p* (up) {
+  class: up
+}
+
+t0 -> t1_down: (1-p*) (down) {
+  class: down
+}
+```
 
 ## 1. Binomial Trees in Pharmaceuticals
 
@@ -48,17 +86,17 @@ b. Increase scenario:  $1 - q$
 3. Relationship between continuously compounded and annually compounded interest rates
 
 $$
-1 + \bar {r} ^ {f} = \exp \left(r ^ {f}\right)
+1 + \bar{r} ^{f} = \exp \left(r ^{f}\right)
 $$
 
 $$
-\frac {1}{1 + \bar {r} ^ {f}} = \exp \bigl (- r ^ {f} \bigr)
+\frac {1}{1 + \bar{r} ^{f}} = \exp \bigl (- r ^{f} \bigr)
 $$
 
 4. CAPM formula.
 
 $$
-\mathbb {E} [ R _ {i} ] = \bar {r} ^ {f} + \beta_ {i} \cdot \left[ \mathbb {E} [ R ^ {m} ] - r ^ {f} \right]
+\mathbb{E} [ R _ {i} ] = \bar{r} ^{f} + \beta_{i} \cdot \left[ \mathbb{E} [ R ^ {m} ] - r ^{f} \right]
 $$
 
 5. Note  $\mathbb{E}[R_i]$  varies (linearly) with  $\beta_{i}$
@@ -69,13 +107,13 @@ $$
 2. Expected stock price at maturity  $t = T$  (i.e., the mean of the random variable  $S_{T,i}$ ).
 
 $$
-\mathbb {E} _ {q} \big [ S _ {T, i} \big ] = q \cdot S _ {u} + (1 - q) \cdot S _ {d}
+\mathbb{E} _ {q} \big [ S _ {T, i} \big ] = q \cdot S _ {u} + (1 - q) \cdot S _ {d}
 $$
 
 3. Use expected stock price return  $\mathbb{E}[R_i]$  to compute present-value as inception.
 
 $$
-(1 + \mathbb {E} [ R _ {i} ]) \cdot S _ {0, i} = \mathbb {E} \big [ S _ {T, i} \big ]
+(1 + \mathbb{E} [ R _ {i} ]) \cdot S _ {0, i} = \mathbb{E} \big [ S _ {T, i} \big ]
 $$
 
 ### 1.4. At-the-Money Option Under Dynamic Replication
@@ -90,13 +128,13 @@ $$
 3. Value of position in stocks at inception  $t = 0$ .
 
 $$
-\Delta_ {i, 0} = \frac {\operatorname* {m a x} \{S _ {u} - K _ {i} , 0 \} - \operatorname* {m a x} \{S _ {d} - K _ {i} , 0 \}}{S _ {u} - S _ {d}}
+\Delta_ {i, 0} = \frac {\max \{S _ {u} - K _ {i} , 0 \} - \max \{S _ {d} - K _ {i} , 0 \}}{S _ {u} - S _ {d}}
 $$
 
 4. Value of position in bonds at inception  $t = 0$ .
 
 $$
-B _ {0} = \exp \left(- r ^ {f}\right) \cdot \left[ \max  \left\{S _ {u} - K _ {i}, 0 \right\} - \Delta_ {i, 0} \cdot S _ {u} \right]
+B _ {0} = \exp \left(- r ^{f}\right) \cdot \left[ \max  \left\{S _ {u} - K _ {i}, 0 \right\} - \Delta_ {i, 0} \cdot S _ {u} \right]
 $$
 
 5. Value of ATM option at inception  $t = 0$ .
@@ -108,7 +146,7 @@ $$
 6. Payoff from dynamic replication portfolio at maturity  $t = T$  should replicate the payoff from the option.
 
 $$
-V _ {T, i} ^ {D R} \big (S _ {T, i} \big) = \left\{ \begin{array}{l l} \Delta_ {i, 0} \cdot S _ {d} + \exp \big (r ^ {f} \big) \cdot B _ {0} & S _ {T, i} = S _ {d} \\ \Delta_ {i, 0} \cdot S _ {u} + \exp \big (r ^ {f} \big) \cdot B _ {0} & S _ {T, i} = S _ {u} \end{array} \right.
+V _ {T, i} ^ {D R} \big (S _ {T, i} \big) = \left\{ \begin{array}{l l} \Delta_ {i, 0} \cdot S _ {d} + \exp \big (r ^{f} \big) \cdot B _ {0} & S _ {T, i} = S _ {d} \\ \Delta_ {i, 0} \cdot S _ {u} + \exp \big (r ^{f} \big) \cdot B _ {0} & S _ {T, i} = S _ {u} \end{array} \right.
 $$
 
 ### 1.5. At-the-Money Option Under Risk Neutral Methodology
@@ -116,38 +154,38 @@ $$
 1. Risk neutral probability: The probability such that the risky asset (stock) yields an expected (gross) return equal to that of the risk-free asset (bond).
 
 $$
-q ^ {*} \cdot \frac {S _ {u}}{S _ {0}} + (1 - q ^ {*}) \cdot \frac {S _ {d}}{S _ {0}} = \exp \left(r ^ {f}\right)
+q ^ {*} \cdot \frac {S _ {u}}{S _ {0}} + (1 - q ^ {*}) \cdot \frac {S _ {d}}{S _ {0}} = \exp \left(r ^{f}\right)
 $$
 
 2. Expected stock price at maturity  $t = T$  under risk neutral probability.
 
 $$
-\mathbb {E} _ {q ^ {*}} \big [ S _ {T, i} \big ] = q ^ {*} \cdot S _ {u} + (1 - q ^ {*}) \cdot S _ {d}
+\mathbb{E} _ {q ^ {*}} \big [ S _ {T, i} \big ] = q ^ {*} \cdot S _ {u} + (1 - q ^ {*}) \cdot S _ {d}
 $$
 
 3. Expected stock price at maturity  $t = T$  under analysts' probability.
 
 $$
-\mathbb {E} _ {q} \big [ S _ {T, i} \big ] = q \cdot S _ {u} + (1 - q) \cdot S _ {d}
+\mathbb{E} _ {q} \big [ S _ {T, i} \big ] = q \cdot S _ {u} + (1 - q) \cdot S _ {d}
 $$
 
 4. Question: Why may the probabilities  $(q, q^{*})$  differ?
 5. Value of ATM option under risk neutral methodology at inception  $t = 0$ .
 
 $$
-V _ {0} ^ {A T M} = \exp \left(- r ^ {f}\right) \cdot \left[ q ^ {*} \cdot \max \{S _ {u} - K _ {i}, 0 \} + (1 - q ^ {*}) \cdot \max \{S _ {d} - K _ {i}, 0 \} \right]
+V _ {0} ^ {A T M} = \exp \left(- r ^{f}\right) \cdot \left[ q ^ {*} \cdot \max \{S _ {u} - K _ {i}, 0 \} + (1 - q ^ {*}) \cdot \max \{S _ {d} - K _ {i}, 0 \} \right]
 $$
 
-# 1.6. Option Value Comparative Statics
+## 1.6. Option Value Comparative Statics
 
-# 1.6.1. Change in Analyst Probabilities
+### 1.6.1. Change in Analyst Probabilities
 
 1. Suppose that  $q$  changes.
 2. All else equal,  $\mathbb{E}_q[S_{T,i}]$  changes because the probability distribution has changed.
 3. In turn, the present-value of the stock price  $S_0$  at inception  $t = 0$  changes.
 4. Furthermore, the risk neutral probability  $q^{*}$  changes due to change in  $S_{0}$ .
 
-# 1.6.2. Change in Market Exposure
+### 1.6.2. Change in Market Exposure
 
 1. Suppose that  $\beta_{i}$  changes.
 2. All else equal,  $\mathbb{E}[R_i]$  changes by CAPM formula.

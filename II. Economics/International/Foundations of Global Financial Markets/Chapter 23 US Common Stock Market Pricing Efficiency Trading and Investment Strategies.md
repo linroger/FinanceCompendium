@@ -1,19 +1,20 @@
 ---
-title: 'Chapter 23 US Common Stock Market Pricing Efficiency Trading and Investment Strategies'
+title: Chapter 23 US Common Stock Market Pricing Efficiency Trading and Investment Strategies
+parent_directory: Foundations of Global Financial Markets
+formatted: 2025-12-20 12:30:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: opencode
 primary_tags:
   - stock market pricing efficiency
   - trading costs
   - high frequency trading
   - market efficiency
   - investment strategies
-  - equity valuation
-  - market indexes
-  - trading mechanisms
+  - market capitalization
 secondary_tags:
   - equity asset classification
   - stock market index construction
   - index weighting methods
-  - market capitalization
   - growth versus value stocks
   - forms of market efficiency
   - efficient market hypothesis
@@ -28,6 +29,9 @@ secondary_tags:
   - program trades
   - algorithmic trading
   - market microstructure
+  - equity valuation
+  - market indexes
+  - trading mechanisms
 cssclasses: academia
 ---
 
@@ -237,52 +241,6 @@ The equal-weighted index also has a strong small-cap bias, which would cause con
 Let us return to table 23.2, which shows the index weights for Alphabet and Ford Motor for May 21, 2016, for the three weighting methodologies. Note that the resultant weights vary widely for the price weighting, equal weighting, and market cap-weighting calculations. The market cap-weighted index appears to be more reasonable than either the equal-weighted or price-weighted index.
 
 There are also theoretical arguments favoring market cap weighting. First, market cap-weighted portfolios are "macro consistent," meaning that if all investors invested in such a portfolio, all available shares in its universe would be held, and none would be left over, and so the prices would be stable equilibrium prices. With the other weighting methods, it is mathematically impossible for all investors to hold the stocks in this index portfolio at the initial prices. Thus, changes in portfolio holdings would be necessary, and security prices would change for all other weighting methods. Thus, if an investor holds a market cap-weighted portfolio and some market prices change, it is not necessary to rebalance the portfolio weights for the portfolio to continue to replicate the index—that is, the portfolio remains "indexed." Not needing to rebalance to maintain index weights is a major practical and operational advantage of market cap weighting. It also conserves transaction costs. As a result, it is not surprising that most equity portfolio families employ primarily market cap weighting. These families include S&P, Russell, MSCI, and Morningstar.
-
-But there is a major concern about market cap weighting. As mentioned, equal weighting has a small-cap bias. Recently, it has been pointed out that market cap weighting has a large-cap growth bias with, perhaps, some resulting investment disadvantages.
-
-Given its theoretical advantage (macro consistency), operational advantage (no need for rebalancing), intuitive sense that securities should be weighted by size when forming an index, and given that market cap is the common measure of size for equities, it is not surprising that market cap weighting has become the dominant index weighting mechanism.
-
-Recently, however, a limitation of the market cap-weighting method has been recognized. Consider portfolios that were indexed to or just followed generally the S&P 500 index as a benchmark during the tech bubble of 1995 to March 2000. During this period, significant appreciation was realized by large cap growth stocks, primarily due to the technology sector, at the expense of other sectors of the stock market. As this mania for large cap growth technology stocks continued, it became self-propelling because of the indexation process. As investments in large cap growth stocks continued, their prices increased, and as they became a component of the S&P 500 Index, they became overvalued. These investments were funded by the liquidation of large cap value and small cap value stocks. These purchases of larger cap growth stocks occurred due to either strict indexing or using indexing as a general benchmark.
-
-As a result, this process led to large growth stocks becoming more expensive (higher price) due to buying as part of the index, and large and small value stocks becoming cheaper due to their lack of demand (because they were not part of the index). In essence, investors were buying expensive large cap growth technology stocks and selling—or not buying—cheap small cap value stocks. That is, they were "buying high and selling low," hardly an ideal investment strategy. Of course, bubbles always eventually burst, as this one did during 2000–2002. Note in the table below the sharp reversal of the returns of large cap growth and small cap value stocks from 1998, the core of the tech bubble, to 2001 after the bubble burst.
-
-In the bubble year of 1998, large growth stocks significantly outperformed small value stocks. In the bubble-bursting year of 2001, this pattern reversed.
-
-<table><tr><td rowspan="2"></td><td colspan="2">Returns</td></tr><tr><td>Large Growth</td><td>Small Value</td></tr><tr><td>1998</td><td>0.3464</td><td>-0.0863</td></tr><tr><td>2001</td><td>-0.1559</td><td>0.4024</td></tr></table>
-
-These results indicate that market cap-weighted index strategies promote overbuying and overselling and thus cause volatile markets. Proponents of this view also proposed an alternative to market cap-weighted indexes. These proponents agree that size is a correct metric for weighting stocks in an index. They assert, however, that market cap is the wrong measure of size. It is the price variable in the market cap metric for size that promotes overbuying and subsequent overselling, basically providing self-fulfilling prophecies. These critics instead assert that the measure of size used should be a "fundamental" variable from corporate financial statements (income statement and balance sheet), rather than a price-based measure. It is the price variable in the size measure that causes the extreme overreactions. These alternate variables include net income, dividends, sales, cash flow, book value, among others. Such indexes weight stock prices by a measure of size, but that measure does not have a self-perpetuating feature, because it does not include the stock price variable. This approach has come to be known as "fundamental indexing." Many mutual funds and ETFs based on fundamental factors have become available. The most common fundamental factors used are net income and dividends. However, market cap-weighted indexes still dominate institutional and individual markets.
-
-Although market cap weighting gives indexes a large-cap and growth bias, weighting by fundamental factors (such as net income and dividends) gives indexes a value tilt.
-
-As mentioned earlier, stock market indicators can be classified into two groups: those produced by stock exchanges based on all stocks traded on the respective exchange, and those produced by other financial organizations that subjectively select the stocks to be included in an index.
-
-The first group includes the New York Stock Exchange Composite Index, which reflects the market value of all stocks traded on the exchange. The NASDAQ Composite Index also falls into this category, because the index represents all stocks tracked by the Nasdaq system. The second group includes the Dow Jones Composite Index and the S&P's stock indexes, which are produced by other financial organizations.
-
-Some indexes represent a broad segment of the overall stock market, whereas others represent a particular sector, such as technology, energy, or financials. In addition, because the notion of an equity investment style is widely accepted in the investment community, some indexes are based on either of the two equity styles: growth or value. As for growth versus value, growth is the appellation applied to the stock of companies with high earnings growth expectations. That is, the stock is expected to appreciate as the company continues to generate future cash flow increments. In contrast, a value strategy involves investing in stocks that have low expected earnings growth and that the market has somehow undervalued. Other indexes have separate indexes based on size (that is, on small, medium, or large market capitalization stocks).
-
-NYSE Composite Index The New York Stock Exchange Composite Index includes more than 2,000 stocks, of which approximately 1,600 are from the United States and approximately 360 are foreign. These include American depositary receipts (ADRs), real estate investment trusts (REITs), and foreign listings. The NYSE also provides subindexes on tech/media/telecom, energy, financial, and healthcare. The NYSE uses a free-float market cap-weighting method. These indexes are not widely used in practice.
-
-NASDAQ Composite Index The NASDAQ Composite Index also falls into the second group of stock market indicators. It includes all the stocks traded by Nasdaq. The index includes ADRs, tracking stocks, and limited partnership interests, but is heavily weighted toward information technology stocks. It is market cap weighted. It is one of the most commonly followed indexes in the U.S.
-
-Nasdaq also provides the Nasdaq100 Index, which is based on 100 of the largest nonfinancial companies traded on Nasdaq. Since the tech bubble in 1995-1999, this index has come to be known as the "technology index." Nasdaq also provides less commonly used indexes based on industrials, banks, insurance, other finance, telecommunications, and computers. The Nasdaq100 and other subindexes are modified market cap-weighted indexes (they use rules capping the influence of the largest stocks).
-
-Dow Jones Industrial Average The DJIA originally included 30 large and widely held industrial stocks. The companies included in the average are those selected by Dow Jones & Company, the publisher of the Wall Street Journal. The index now also includes technology, financial, and other sector stocks. The company now also provides the Dow Jones Transportation Average (20 stocks) and the Dow Jones Utility Average (15 stocks). The most controversial aspect of the DJIA is that it is price weighted (it is the only major index that is price weighted), most likely due to its early development (in the 19th century). Although price weighted, the price is adjusted for stock splits and other changes.
-
-Standard & Poor's 500 Index Also in the second group, the S&P 500 Index represents 500 large—not necessarily the 500 largest—stocks chosen from the listings of the two major national stock exchanges (NYSE and NASDAQ) and the OTC market. The stocks in the index at any given time are determined by a committee of Standard & Poor's Corporation, which may occasionally add or delete (on no prespecified schedule) individual stocks or the stocks of entire industry groups. The committee has considerable discretion in its choice. A free float market cap-weighted index is used. (The float is the number of shares available for public trading, not the total number of shares outstanding.)
-
-The S&P 500 is one of the most widely followed U.S. stock indexes and is commonly used as an indicator of the stock market. Standard & Poor's also provides indexes based on size and style. Their size indexes are the Mid-Cap 400 and Small-Cap 600, which along with the large cap S&P 500, provide the S&P Composite 1500, representing the entire stock market. S&P also provides style indexes (growth and value) for each size category. These subindexes are commonly used by investment professionals.
-
-Neither the DJIA nor the S&P indexes have specific rules regarding which stocks must be included in their indexes or the timing of changes; that is, the composition of the indexes is not rules based. Thus, the composition of the indexes is determined by the discretion of the sponsor.
-
-MSCI indexes MSCI Inc., formerly Morgan Stanley Capital International (called "MSCI"), provides a family of U.S. and global stock indexes (as well as fixed income and hedge fund indexes). The U.S. equity indexes are provided in the following categories: Investible Market (2,500 stocks), Prime Market Index (750 stocks), Large-Cap Index (300 stocks), Mid-Cap 450 Index (450 stocks), Small-Cap 1750 Index (1,750 stocks), and Micro-Cap Index.
-
-Russell indexes Another family of nonexchange-sponsored U.S. stock indexes is the Russell Family, Russell Inc. In this family of equity indexes, the broad-based index is the Russell 3000, which is based on the largest 3000 stocks in the United States. The Russell 3000 index is divided into the large cap Russell 1000 and the remaining small cap Russell 2000 Index. These indexes are rebalanced annually, typically scheduled for the closing prices on the last Friday in June. These market caps determine the largest 3,000 stocks and the break-up into the 1,000 and 2,000 stocks. This process is called "reconstitution." This stock selection process is thus completely rules based, unlike the discretionary Standard & Poor's and DJIA processes. There are also growth and value versions of the Russell indexes. These indexes are widely used in practice.
-
-Wilshire indexes The Wilshire 5000 Total Market Index (the Wilshire 5000), sponsored by Wilshire Associates (in Santa Monica, California), is also a market cap-weighted index of most of the common stocks (including REITs) actively traded on the NYSE and Nasdaq. As of year-end 2016, the index had 3,618 stocks. This index has moderate use. Another Wilshire index, the Wilshire 4,500 Completion Index, includes the stocks in the Wilshire 5000 with the stocks in the S&P 500 removed.
-
-In this regard, the number of publicly listed stocks has declined by approximately $50\%$ from 7,322 in 1996 to 3,671 in 2016. The major reasons for this are that the delistings due primarily to mergers, acquisitions, and private equity activity have exceeded initial public offerings.
-
-CBOE Volatility Index Another index which has become very popular in the equity markets is the CBOE Volatility Index (VIX, which stands for "volatility index"). The VIX is not a stock index, but it is a stock-related index. The VIX is a measure of the implied volatility of the S&P 500 index option, which is calculated by the Chicago Board Options Exchange (CBOE) and used by stock traders. The VIX provides a measure of this option's market expectation of the S&P 500 stock market volatility over the next 30-day period. The VIX is quoted as a percentage, which is consistent with its being a volatility. A high VIX measure indicates that the stock market is expected to be very volatile and is regarded as a bearish signal. For this reason, the VIX is regarded as a "fear index." Futures and options contracts on the VIX are available from the CBOE.
 
 ## Pricing Efficiency of the Stock Market
 

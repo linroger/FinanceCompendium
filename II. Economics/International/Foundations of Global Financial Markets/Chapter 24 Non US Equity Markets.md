@@ -1,5 +1,9 @@
 ---
-title: Chapter 24 Non US Equity Markets
+title: Chapter 24 Non-U.S. Equity Markets
+parent_directory: Foundations of Global Financial Markets
+formatted: 2025-12-20 11:03:25 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
 primary_tags:
   - international equity markets
   - emerging market investments
@@ -35,7 +39,7 @@ secondary_tags:
 cssclasses: academia
 ---
 
-# Chapter 24 - Non US Equity Markets
+# Chapter 24 Non-U.S. Equity Markets
 
 ## Contents
 
@@ -197,7 +201,7 @@ Global Equity Markets.Risk vs Return: {
 
 There are several methods for classifying stock markets. In this chapter, we use the Morgan Stanley Capital International (MSCI) market classification, which is a family of indexes constructed and maintained by that organization. Its structure and current data are provided in table 24.2. MSCI's broadest index is the MSCI ACWI Index (ACWI stands for "All Country World Index"). As shown, this broad index is divided into the categories of developed markets, emerging markets, frontier markets, and standalone markets. Each is further divided into geographical regions. In general, the emerging market sector has been grouped in several different ways. The most commonly used grouping is the BRIC group. These four countries were thought to be of similar levels of development. Subsequently, South Africa was added to this group to form the BRICS. Interestingly, as of year-end 2017, China was the second largest global stock market but remains a developing market.
 
-Table 24.3 provides basic data on the 20 largest global equity exchanges.. Global equity data on a frequent basis (daily or weekly) are found for many countries, exchanges, and sectors in the Wall Street Journal, Barron's, The Economist, and Bloomberg.
+Table 24.3 provides basic data on the 20 largest global equity exchanges. Global equity data on a frequent basis (daily or weekly) are found for many countries, exchanges, and sectors in the Wall Street Journal, Barron's, The Economist, and Bloomberg.
 
 ### Table 24.3
 
@@ -479,7 +483,7 @@ For every stock listed on either the SSE or the SZSE, two share classes are list
 
 A-shares are traded in yuan (RMB) and are available to all mainland Chinese investors; they are also available to foreign investors but only through a QFII program. A-shares were only available to mainland Chinese investors, but this restriction ended in 2013. Since then, QFII-licensed foreign institutions that have received a special permission by the Chinese government, can also participate in this A-share market, as discussed above.
 
-B-shares are traded mainly among international investors. They are also available to mainland Chinese investors who have a legal foreign currency account. B-shares are quoted in U.S. dollars on the SSE and in Hong Kong dollars on the SZSE. B-shares are based on local Chinese companies. They have a face value in RMB. They are listed for trading primarily by international investors. However, B-shares are also open to domestic investors, provided that these investors set up a foreign currency account. B-shares are traded in U.S. dollars on the SSE and in Hong Kong dollars on the SZSE. Many companies list and trade their shares simultaneously on the SEHK and the mainland Chinese stock exchanges and thus offer two share classes, called "dual listing," as discussed below.
+B-shares are traded mainly among international investors. They are also available to mainland Chinese investors who have a legal foreign currency account. B-shares are quoted in U.S. dollars on the SSE and in Hong Kong dollars on the SZSE. B-shares are based on local Chinese companies. They have a face value in RMB. They are listed for trading primarily by international investors. However, B-shares are also open to domestic investors, provided that these investors set up a foreign currency account. Many companies list and trade their shares simultaneously on the SEHK and the mainland Chinese stock exchanges and thus offer two share classes, called "dual listing," as discussed below.
 
 H-shares are shares of companies incorporated in mainland China, which are listed on the SEHK. Although they are regulated by the Chinese legal system, H-shares are denominated in Hong Kong dollars and are traded in the same way as the other stocks on the SEHK. Many companies list their shares on both the SEHK and one of the two mainland Chinese stock exchanges (dual listing), as discussed below.
 

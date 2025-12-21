@@ -1,5 +1,9 @@
 ---
 title: The Structure and Trading Venues of the Equity Market
+parent_directory: Foundations of Global Financial Markets
+formatted: 2025-12-20 11:03:25 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: opencode
 primary_tags:
   - equity market structure
   - stock trading venues
@@ -28,72 +32,6 @@ cssclasses: academia
 ---
 
 # The Structure and Trading Venues of the Equity Market
-
-## CONTENTS
-
-## Learning Objectives
-
-## Evolution of Stock Markets and Their Institutionalization
-
-Electronic Trading
-
-## Regulation of U.S. Equity Markets
-
-### U.S. Regulatory System
-
-#### Securities and Exchange Commission
-
-#### Financial Industry Regulatory Authority
-
-#### State regulation
-
-## Stock Trading Market Structures
-
-### Order-Driven Markets
-
-### Quote-Driven Markets
-
-### Order-Driven versus Quote-Driven Markets
-
-## U.S. Equity Trading Venues
-
-### Exchange Markets for Listed Stocks
-
-#### New York Stock Exchange
-
-#### Nasdaq Stock Market: Exchange Market for Unlisted Stocks
-
-### Alternative Trading Systems
-
-#### Electronic communications networks
-
-#### Crossing networks
-
-## Execution of an Order
-
-## Market Trading Regulation in the United States
-
-### Regulatory Background
-
-### Market Regulation
-
-#### Market volatility rules
-
-#### Short selling rules
-
-#### Insider trading rules
-
-### Other Types of Common Stock Trading
-
-#### Offshore Trading
-
-#### Rule 144A Securities
-
-#### Euro Equity
-
-## Key Points
-
-## Questions
 
 ## Learning Objectives
 
@@ -409,7 +347,7 @@ Nasdaq is essentially a telecommunications network that links thousands of geogr
 
 As mentioned earlier, ATS are off-exchange trading venues that serve as an alternative to trading on exchanges and for after-hours trading. There are two types of ATSs, electronic communication networks and crossing networks.
 
-Electronic communications networks Electronic communications networks (ECNs) display quotes that reflect actual orders and provide members with an anonymous way to enter orders. Essentially, an ECN is a limit order book that is widely disseminated and open for continuous trading to subscribers, who may enter and access orders displayed on the ECN. ECNs offer transparency, anonymity, automated service, and reduced costs; they are therefore effective for handling small orders. Because ECNs provide for pre-trade transparency about orders and post-trade transparency about executed trades, they are referred to as light pool markets, as opposed to venues known as dark pools that do not provide pre-trade transparency (we discuss them shortly). It important to note that some ECNs are now going "dark"—that is; they have dark pools. Similarly, some dark pools are being "lit"—they are now providing pre-trade transparency.
+Electronic communications networks Electronic communications networks (ECNs) display quotes that reflect actual orders and provide members with an anonymous way to enter orders. Essentially, an ECN is a limit order book that is widely disseminated and open for continuous trading to subscribers, who may enter and access orders displayed on the ECN. ECNs offer transparency, anonymity, automated service, and reduced costs; they are therefore effective for handling small orders. Because ECNs provide for pre-trade transparency about orders and post-trade transparency about executed trades, they are referred to as light pool markets, as opposed to venues known as dark pools that do not provide pre-trade transparency (we discuss them shortly). It is important to note that some ECNs are now going "dark"—that is; they have dark pools. Similarly, some dark pools are being "lit"—they are now providing pre-trade transparency.
 
 ECNs are used to disseminate firm commitments to trade (firm bids or offers) to participants, or subscribers, which typically have either purchased or leased hardware for the operation of the ECN or have built a custom connection to the ECN. In general, ECNs use the Internet to link buyers and sellers, bypassing brokers and trading floors. Examples of ECNs are Bloomberg Tradebook, Track ECN, and LavaFlow.
 
@@ -421,7 +359,7 @@ Brokers may allow customers direct market access to an ECN, with the fee and the
 
 Crossing networks ATSs allow institutional investors to "cross" trades, typically matching traders directly by computer buyers and sellers.7 Crossing networks are batch processes that aggregate orders for execution at specified times. Pre-trade transparency varies with the type of crossing network. Crossing networks that do not provide pre-trade transparency are called "dark pools."
 
-For dark pools, post-trade transparency is required, but because the executed transactions are treated as OTC trades, less information is required than for trades on the NYSE. Because there is no pre-trade transparency (i.e., no public displaying of orders), dark pools provide institutional investors with several benefits, including less leakage of information contained in an order, the avoidance of front-running on large orders, and reduced market impact costs (a cost we discuss in chapter 23). With respect to information leakage, the order may be part of a proprietary trading strategy pursued by an intuitional investor, and a displayed order might provide information about such strategies to competitors. There is a concern that other market participants (such as broker-dealers and traders) could front-run the order, with the result that trading costs would be higher than in the absence of a public display of an order.
+For dark pools, post-trade transparency is required, but because the executed transactions are treated as OTC trades, less information is required than for trades on the NYSE. Because there is no pre-trade transparency (i.e., no public displaying of orders), dark pools provide institutional investors with several benefits, including less leakage of information contained in an order, the avoidance of front-running on large orders, and reduced market impact costs (a cost we discuss in chapter 23). With respect to information leakage, the order may be part of a proprietary trading strategy pursued by an institutional investor, and a displayed order might provide information about such strategies to competitors. There is a concern that other market participants (such as broker-dealers and traders) could front-run the order, with the result that trading costs would be higher than in the absence of a public display of an order.
 
 Some dark pools are either moving in the direction of pre-trade transparency or have done so already. For example, some dark pools use electronic messages to reveal an indication of interest, which is like a firm quotation, to a subset of subscribers.
 
@@ -433,7 +371,7 @@ Dark pools are classified based on the minimum size of transactions that can be 
 - Exchange-based pools: Because they are similar in terms of pricing, dark pools classified as exchange-based pools include two types of dark pools. The first are dark pools that are registered with the SEC as national securities exchanges. (Recall that an ATS may elect to be regulated as a national securities exchange or as a broker-dealer.) The second type consists of ECNs and exchanges that create pools of liquidity resulting from hidden orders, where, unlike in other dark pools, the hidden order usually interacts with regular displayed orders. Unlike the other categories of dark pools, which charge a fee on a per share basis, exchange-based pools follow the ECN pricing policy, which provides fees and rebates depending on whether the transacting party is a supplier or a taker of liquidity.
 - Consortium-based pools: A consortium-based pool is one that is started by several broker-dealers. Unlike an internalization pool operated by one broker-dealer that may not permit access to other sell-side firms (i.e., other broker-dealers), consortium-based pools provide access to their competitors that are sell-side firms. Broker-dealers that are partners in a consortium-based pool typically have an internalization pool for crossing trades so as to generate fee income before they route a trade to the consortium.
 
-# Execution of an Order
+## Execution of an Order
 
 With the considerable number of venues for the secondary trading of common stock, the processing of an order should be simple. However, that is not at all the case. The large number of alternative venues has created fragmented market making. It is important to understand the process by which an order is executed once it is placed with a broker. The reason is that how the broker ultimately executes the order affects the price at which the trade is executed and therefore the overall effective cost of the trade.
 
@@ -447,7 +385,7 @@ To induce brokers to route an order to their venue, regional exchanges, third ma
 
 Two other choices are available to a broker for routing an order: (1) a division of the broker's firm that can execute the order or (2) an ECN. When an order is routed internally (i.e., within the brokerage firm), the firm will fulfill the order from its own inventory. This is referred to as internalization of an order.
 
-# Market Trading Regulation in the United States
+## Market Trading Regulation in the United States
 
 Regulation of securities markets, such as the stock market, has three primary objectives: (1) to protect investors, (2) to ensure the smooth functioning of the market, and (3) to reduce systemic risk. When seeking to protect investors, regulation must address information asymmetries between the issuers of securities and investors. This can be achieved through disclosure regulation. The smooth functioning of the market involves trading and settlement rules that minimize the risk of market disruptions. Systemic risk has been discussed in several earlier chapters in this book.
 
@@ -501,7 +439,7 @@ Two types of circuit breakers have been adopted to deal with significant market 
 
 Single-stock circuit-breaker rules were adopted by the SEC in response to extreme movements in the prices of many individual stocks that did not result in the triggering of the market-wide circuit breakers. In May 2012, however, the SEC replaced the single-stock circuit-breaker rules with what is referred to as the "limit up-limit down" rule. The previous single-stock circuit-breaker rules were triggered after a trade occurred and at times could be triggered by erroneous trades. The intention of the limit up-limit down rule is to prevent trades in individual stocks from being executed outside a specified price band. The price band is established as a percentage level above and below the stock's average price, where the average price is computed over the immediately preceding five-minute trading period. Failure of the price of a stock trading outside the price band to return to a price in the band within 15 seconds results in a five-minute trading halt.
 
-Short selling rules In chapter 18, we described short selling and the mechanism for selling a security short. A short sale is the sale of a security not owned by an investor. The expectation of an investor who shorts a security is that the price will decline, so that the investor can purchase the security at a future date at a price less than the price at which the security was sold. Short selling is illegal only if it done by an investor with an intent to manipulate the market. An example of such a manipulative practice would be an investor entering into a series of transactions with the intent of depressing a security's price so as induce the purchase or sale of the security by others.
+Short selling rules In chapter 18, we described short selling and the mechanism for selling a security short. A short sale is the sale of a security not owned by an investor. The expectation of an investor who shorts a security is that the price will decline, so that the investor can purchase the security at a future date at a price less than the price at which the security was sold. Short selling is illegal only if it is done by an investor with an intent to manipulate the market. An example of such a manipulative practice would be an investor entering into a series of transactions with the intent of depressing a security's price so as induce the purchase or sale of the security by others.
 
 Rules adopted by the SEC to deal with short sales include the alternative uptick rule and rules applied to naked short selling. The current short sale price test restriction for stocks, commonly referred to as the alternative uptick rule,[12] restricts short selling from further driving down a stock's price that has fallen more than  $10\%$  in a single trading day, with the drop being calculated based on the closing price on the previous trading day. If this short-sale-related circuit breaker is triggered, short selling is permitted only if the security's price exceeds the current national best bid.
 
@@ -519,17 +457,17 @@ The federal securities laws covering insider trading are set forth in Section 10
 
 The SEC adopted Rule 10b-5 to implement Section 10(b). This rule defines when a trade is done on the basis of material nonpublic information. The SEC has two rules that make up Rule 10b-5: Rule 10b-5-1 and Rule 10b-5-2. The former applies to a person who trades on the basis of material nonpublic information if that person at the time of the trade knows that the information in his or her possession is in fact material nonpublic information. Conditions under which permissible trading may be done by an insider are described. For example, an insider is allowed to trade if that information is not a factor in the decision to trade. An example would be an executive who has an established investment plan that specifies the automatic purchase of the corporation's stock at designated time intervals.
 
-The second part of Rule 10b-5, Rule 10b-5-2, applies to nonbusiness relationships' (e.g., family members' and friends') use of material nonpublic information when trading. The rule provides circumstances in which such nonbusiness relationships create what the SEC refers to as a "duty of trust or confidence" that if used by a person would be breached by the disclosure of material nonpublic information and would be considered illegal.[15]
+The second part of Rule 10b-5, Rule 10b-5-2, applies to nonbusiness relationships (e.g., family members' and friends') use of material nonpublic information when trading. The rule provides circumstances in which such nonbusiness relationships create what the SEC refers to as a "duty of trust or confidence" that if used by a person would be breached by the disclosure of material nonpublic information and would be considered illegal.[15]
 
 ## Other Types of Common Stock Trading
 
 Other types of common stock trading vehicles and security types are available to investors.
 
-# Offshore Trading
+## Offshore Trading
 
 Broker-dealers may trade exchange-listed and Nasdaq equities offshore on foreign exchanges (e.g., the Bermuda Stock Exchange) or OTC through foreign trading desks (e.g., a broker-dealer's London office). In general, such transactions must be reported to a U.S. marketplace (typically the third market) during the next trading day.
 
-# Rule 144A Securities
+## Rule 144A Securities
 
 Rule 144A, adopted by the SEC in April 1990, is designed to facilitate secondary market trading in nonfungible unregistered securities among qualified institutional buyers by providing a "safe harbor" from the registration requirements of the Securities Act of 1933. Qualified institutional buyers are institutions with 100 million invested in the securities of issuers not affiliated with the qualified buyer. Basically, Rule 144A permits the issue of nonregistered securities and their purchase by qualified institutions.
 

@@ -1,8 +1,29 @@
 ---
 title: Chapter 21 - Subnational Municipal Government Debt Markets
-tags: [municipal_bonds, subnational_debt, government_finance, infrastructure_finance, public_private_partnerships]
+parent_directory: Foundations of Global Financial Markets
+formatted: 2025-12-20 11:03:25 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - municipal bond markets
+  - subnational debt financing
+  - infrastructure financing
+  - public private partnerships
+  - credit risk assessment
+secondary_tags:
+  - municipal bank lending
+  - bond issuance model
+  - multilateral financial institutions
+  - green bond issuance
+  - municipal securities market
+  - tax exempt bonds
+  - revenue bond structures
+  - municipal notes
+  - default risk factors
+  - municipal bankruptcy process
+  - secondary market dynamics
+  - chinese municipal bonds
 cssclasses: academia
-key_concepts: ["Subnational government financing", "Municipal bond markets", "Infrastructure financing", "Public-private partnerships", "Credit risk assessment"]
 ---
 
 # Chapter 21 - Subnational Municipal Government Debt Markets

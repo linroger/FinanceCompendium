@@ -719,11 +719,11 @@ $$
 The absolute risk aversion $(\lambda_{(\mathrm{w})})$ and the relative risk aversion $(\rho_{(\mathrm{w})})$ are the following:
 
 $$
-\lambda_{(\mathrm{w})} = - \frac{\mathrm{U}^{\prime \prime} (\mathrm{w})}{\mathrm{U}^{\prime} (w)} = - \left[ \frac{(- \frac{1}{a}) e^{- \frac{w}{a}}}{e^{- \frac{w}{a}}} \right] = \frac{1}{a}
+\lambda_{(w)} = -\frac{U''(w)}{U'(w)} = -\left[ \frac{\left(-\frac{1}{a}\right) e^{-\frac{w}{a}}}{e^{-\frac{w}{a}}} \right] = \frac{1}{a}
 $$
 
 $$
-\rho_{(\mathrm{w})} = - \mathrm{w} \frac{\mathrm{U}^{\prime \prime} (w)}{\mathrm{U}^{\prime} (w)} = - w \left[ \frac{\left(- \frac{1}{a}\right) e^{- \frac{w}{a}}}{e^{- \frac{w}{a}}} \right] = - w \left(- \frac{1}{a}\right) = w \frac{1}{a}
+\rho_{(w)} = -w \frac{U''(w)}{U'(w)} = -w \left[ \frac{\left(-\frac{1}{a}\right) e^{-\frac{w}{a}}}{e^{-\frac{w}{a}}} \right] = -w \left(-\frac{1}{a}\right) = w \frac{1}{a}
 $$
 
 In this case, the relative risk aversion $(\rho_{(\mathrm{w})})$ increases as wealth (w) increases. Differently, the absolute risk aversion $(\lambda_{(\mathrm{w})})$ is independent on the wealth (w) and therefore it is constant. For this reason, this function is classified into the group of functions CARA.
@@ -733,27 +733,27 @@ In this case, the relative risk aversion $(\rho_{(\mathrm{w})})$ increases as we
 The function can be defined as follows:
 
 $$
-\mathrm{U} (\mathrm{w}) = \mathrm{w} - \frac{\mathrm{a}}{2} \mathrm{w}^2 \quad \mathrm{a} > 0 \tag{4.37}
+U(w) = w - \frac{a}{2} w^2 \quad a > 0 \tag{4.37}
 $$
 
 The first and second derivatives are the following:
 
 $$
-\mathrm{U}^{\prime} (\mathrm{w}) = 1 - \frac{\mathrm{a}}{2} 2 \mathrm{w}^{2 - 1} = 1 - a w
+U'(w) = 1 - \frac{a}{2} 2w^{2-1} = 1 - a w
 $$
 
 $$
-\mathrm{U}^{\prime \prime} (\mathrm{w}) = - \mathrm{a}
+U''(w) = -a
 $$
 
 The absolute risk aversion $(\lambda_{(\mathrm{w})})$ and the relative risk aversion $(\rho_{(\mathrm{w})})$ are the following:
 
 $$
-\lambda_{(\mathrm{w})} = - \frac{\mathrm{U}^{\prime \prime} (\mathrm{w})}{\mathrm{U}^{\prime} (w)} = - \left[ \frac{- \mathrm{a}}{1 - a w} \right] = \frac{a}{1 - a w}
+\lambda_{(w)} = -\frac{U''(w)}{U'(w)} = -\left[ \frac{-a}{1 - a w} \right] = \frac{a}{1 - a w}
 $$
 
 $$
-\rho_{\mathrm{(w)}} = - \mathrm{w} \frac{\mathrm{U}^{\prime \prime} (w)}{\mathrm{U}^{\prime} (w)} = - w \left[ \frac{- \mathrm{a}}{1 - a w} \right] = w \left(\frac{a}{1 - a w}\right) = \frac{w a}{1 - a w}
+\rho_{(w)} = -w \frac{U''(w)}{U'(w)} = -w \left[ \frac{-a}{1 - a w} \right] = w \left(\frac{a}{1 - a w}\right) = \frac{w a}{1 - a w}
 $$
 
 It is relevant to know that the first derivative must be positive, and therefore the quadratic is only defined for a value of wealth $(w)$ equal to:
@@ -771,7 +771,7 @@ The first advantage of utility function is that the quadratic utility function c
 Assuming that the investor has a wealth equal to $k$ and he is characterized by a utility function $U(w)$ derivable infinitely. Therefore, it can be developed in a Taylor series around the point $w_0$ as follows:
 
 $$
-\mathrm{U} \left(\mathrm{w}_0\right) = \sum_{\mathrm{n} = 0}^{\infty} \frac{\mathrm{U}^{(\mathrm{n})} \left(\mathrm{w}_0\right)}{\mathrm{n} !} \left(\mathrm{w} - \mathrm{w}_0\right)^{\mathrm{n}} \rightarrow (k + k_1) = \sum_{\mathrm{n} = 0}^{\infty} \frac{\mathrm{U}^{(\mathrm{n})} (k)}{\mathrm{n} !} k_1^{\mathrm{n}}
+U(w_0) = \sum_{n=0}^{\infty} \frac{U^{(n)}(w_0)}{n!} (w - w_0)^n \rightarrow (k + k_1) = \sum_{n=0}^{\infty} \frac{U^{(n)}(k)}{n!} k_1^n
 $$
 
 where $k_1$ is the increase of initial wealth $(k)$.
@@ -801,7 +801,7 @@ $$
 We have:
 
 $$
-\mathrm{U} (\mathrm{k} + \mathrm{k}_1) = \mathrm{U} (\mathrm{k}) + \mathrm{U}^{\prime} (\mathrm{k}) k_1^1 + \frac{\mathrm{U}^{\prime \prime} (\mathrm{k})}{2} \mathrm{k}_1^2
+U(k + k_1) = U(k) + U'(k) k_1^1 + \frac{U''(k)}{2} k_1^2
 $$
 
 Subtracting $U(k)$ and dividing by $U'(k)$ both terms, we have:
@@ -813,49 +813,49 @@ $$
 and therefore:
 
 $$
-\begin{array}{l}
-\frac{U (k + k_1)}{U^{\prime} (k)} - \frac{U (k)}{U^{\prime} (k)} = \frac{U^{\prime} (k)}{U^{\prime} (k)} k_1 + \frac{1}{2} \frac{U^{\prime \prime} (k)}{U^{\prime} (k)} k_1^2 \\
-\frac{\mathrm{U} (\mathrm{k} + \mathrm{k}_1)}{\mathrm{U}^{\prime} (\mathrm{k})} - \frac{\mathrm{U} (\mathrm{k})}{\mathrm{U}^{\prime} (\mathrm{k})} = \mathrm{k}_1 + \frac{1}{2} \frac{\mathrm{U}^{\prime \prime} (\mathrm{k})}{\mathrm{U}^{\prime} (\mathrm{k})} \mathrm{k}_1^2 \\
-\end{array}
+\begin{aligned}
+\frac{U(k + k_1)}{U'(k)} - \frac{U(k)}{U'(k)} &= \frac{U'(k)}{U'(k)} k_1 + \frac{1}{2} \frac{U''(k)}{U'(k)} k_1^2 \\
+\frac{U(k + k_1)}{U'(k)} - \frac{U(k)}{U'(k)} &= k_1 + \frac{1}{2} \frac{U''(k)}{U'(k)} k_1^2
+\end{aligned}
 $$
 
 Placing:
 
 $$
-\begin{array}{l}
-\mathrm{a} = \frac{1}{\mathrm{U}^{\prime} (\mathrm{k})} \rightarrow \mathrm{U}^{\prime} (\mathrm{k}) > 0 \rightarrow a > 0 \\
-\mathsf{b} = - \frac{\mathbf{U} (\mathbf{k})}{\mathbf{U}^{\prime} (\mathbf{k})} \\
-\end{array}
+\begin{aligned}
+a &= \frac{1}{U'(k)} \rightarrow U'(k) > 0 \rightarrow a > 0 \\
+b &= -\frac{U(k)}{U'(k)}
+\end{aligned}
 $$
 
 The first term of equation is equal to:
 
 $$
-\frac{\mathrm{U} (\mathrm{k} + \mathrm{k}_1)}{\mathrm{U}^{\prime} (\mathrm{k})} - \frac{\mathrm{U} (\mathrm{k})}{\mathrm{U}^{\prime} (\mathrm{k})} = \mathrm{a U} (\mathrm{k} + \mathrm{k}_1) + \mathrm{b}
+\frac{U(k + k_1)}{U'(k)} - \frac{U(k)}{U'(k)} = a U(k + k_1) + b
 $$
 
 It is a positive linear transformation of the equation $U(k + k_1)$. Therefore, it is equivalent as follows:
 
 $$
-\frac{\mathrm{U} \left(\mathrm{k} + \mathrm{k}_1\right)}{\mathrm{U}^{\prime} (\mathrm{k})} - \frac{\mathrm{U} (\mathrm{k})}{\mathrm{U}^{\prime} (\mathrm{k})} = \mathrm{a U} \left(\mathrm{k} + \mathrm{k}_1\right) + \mathrm{b} \sim \mathrm{U} \left(\mathrm{k} + \mathrm{k}_1\right)
+\frac{U(k + k_1)}{U'(k)} - \frac{U(k)}{U'(k)} = a U(k + k_1) + b \sim U(k + k_1)
 $$
 
 The second term of equation can be rewritten on the basis of the absolute risk aversion coefficient as follows:
 
 $$
-\lambda_{(\mathrm{k})} = - \frac{\mathrm{U}^{\prime \prime} (\mathrm{k})}{\mathrm{U}^{\prime} (\mathrm{k})} \rightarrow \mathrm{k}_1 + \frac{1}{2} \frac{\mathrm{U}^{\prime \prime} (\mathrm{k})}{\mathrm{U}^{\prime} (\mathrm{k})} \mathrm{k}_1^2 = \mathrm{k}_1 - \frac{1}{2} \lambda_{(\mathrm{k})} \mathrm{k}_1^2
+\lambda_{(k)} = -\frac{U''(k)}{U'(k)} \rightarrow k_1 + \frac{1}{2} \frac{U''(k)}{U'(k)} k_1^2 = k_1 - \frac{1}{2} \lambda_{(k)} k_1^2
 $$
 
 Replacing the first and second terms in the equation, we have:
 
 $$
-\mathrm{U} (\mathrm{k} + \mathrm{k}_1) = \mathrm{k}_1 - \frac{1}{2} \lambda_{(\mathrm{k})} \mathrm{k}_1^2
+U(k + k_1) = k_1 - \frac{1}{2} \lambda_{(k)} k_1^2
 $$
 
 In order to represent the absolute risk aversion coefficient in the same unit measures of $k$, the absolute risk tolerance coefficient $(\tau_{(w_0)} = \frac{1}{\lambda_{(w_0)}})$ can be used. In this case Eq. (4.39) can be rewritten as follows:
 
 $$
-\mathrm{U} (\mathrm{k} + \mathrm{k}_1) = \mathrm{k}_1 - \frac{1}{2 \tau_{\left(\mathrm{w}_0\right)}} \mathrm{k}_1^2 \tag{4.39}
+U(k + k_1) = k_1 - \frac{1}{2 \tau_{(w_0)}} k_1^2 \tag{4.39}
 $$
 
 Equation (4.39) can be considered as a generic quadratic utility function.
@@ -865,7 +865,7 @@ The absolute risk tolerance coefficient $(\tau_{(w_0)})$ is greater, the higher 
 In order to be certain of the goodness of the approximation carried out, we should assume that the absolute risk tolerance $\tau_{(w_0)}$ is much greater than $k_1$ (Castellani et al. 2005):
 
 $$
-\tau_{\left(\mathrm{w}_0\right)} \gg \mathrm{k}_1
+\tau_{(w_0)} \gg k_1
 $$
 
 The second advantage of utility function is that the quadratic utility function is coherent with the mean-variance criteria. Consequently, the quadratic utility function allows for compatibility between the utility function approach and the mean-variance approach.
@@ -880,19 +880,19 @@ Specifically, if the investor maximizes expected utility of end-of-period portfo
 Assuming that an initial wealth equal to $w_0$ and the stochastic portfolio return is equal to $R_p$. At the end of the period, we have:
 
 $$
-w = w_0 \left(1 + R_p\right) \leftrightarrow U (w) = U \left[ w_0 \left(1 + R_p\right) \right]
+w = w_0 (1 + R_p) \leftrightarrow U(w) = U[w_0 (1 + R_p)]
 $$
 
 Expanding $U(R_p)$ in a Taylor series around the mean of $R_p \approx \mu_p$, we have:
 
 $$
-U \left(R_p\right) = U \left(\mu_p\right) + \left(R_p - \mu_p\right) U^{\prime} \left(\mu_p\right) + \frac{1}{2} \left(R_p - \mu_p\right)^2 U^{\prime \prime} \left(\mu_p\right) + \text{higher order terms}
+U(R_p) = U(\mu_p) + (R_p - \mu_p) U'(\mu_p) + \frac{1}{2} (R_p - \mu_p)^2 U''(\mu_p) + \text{higher order terms}
 $$
 
 Considering that $E(R_p - \mu_p) = 0$ and $E(R_p - \mu_p)^2 = \sigma_P^2$. Therefore, we have:
 
 $$
-U \left(R_p\right) = U \left(\mu_p\right) + \frac{1}{2} \sigma_P^2 U^{\prime \prime} \left(\mu_p\right) + E [ \text{higher-order terms} ]
+U(R_p) = U(\mu_p) + \frac{1}{2} \sigma_P^2 U''(\mu_p) + E[\text{higher-order terms}]
 $$
 
 If the utility function is quadratic, then the derivative greater than the second are equal to zero.
@@ -909,13 +909,13 @@ It is worth noting that until a specific utility function is specified, the func
 This result can be verified through a simple reasoning (Cesari 2012b). Assuming a random variables $\tilde{W}$. Assuming that investor uses the quadratic utility function as defined in Eq. (4.37) as follows:
 
 $$
-\mathrm{U} (\mathrm{w}) = \mathrm{w} - \frac{\mathrm{a}}{2} \mathrm{w}^2 \quad \mathrm{a} > 0
+U(w) = w - \frac{a}{2} w^2 \quad a > 0
 $$
 
 The expected utility for the variable can be computed as follows:
 
 $$
-\mathrm{E} \left[ \mathrm{U} (\widetilde{W}) \right] = \mathrm{E} \left[ \widetilde{\mathbf{W}} - \frac{\mathrm{a}}{2} \widetilde{\mathbf{W}}^2 \right] = \mathrm{E} \left(\widetilde{\mathbf{W}}\right) - \frac{\mathrm{a}}{2} \mathrm{E} \left(\widetilde{\mathbf{W}}^2\right)
+E[U(\widetilde{W})] = E\left[\widetilde{W} - \frac{a}{2} \widetilde{W}^2\right] = E(\widetilde{W}) - \frac{a}{2} E(\widetilde{W}^2)
 $$
 
 Based on the following property of variance:
@@ -927,7 +927,7 @@ $$
 the equation can be rewritten as follows:
 
 $$
-\mathrm{E} \left(\widetilde{\mathrm{W}}^2\right) = \operatorname{Var} \left(\widetilde{\mathrm{W}}\right) + \mathrm{E} \left(\widetilde{\mathrm{W}}\right)^2
+E(\widetilde{W}^2) = \operatorname{Var}(\widetilde{W}) + E(\widetilde{W})^2
 $$
 
 and by substituting we have:
