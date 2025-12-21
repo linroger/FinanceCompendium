@@ -1,16 +1,44 @@
 
+---
+title: "Modeling Operational Loss Distributions"
+parent_directory: "Operational Risk"
+formatted: "2025-12-21 07:30:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - operational risk modeling
+  - loss distribution analysis
+  - parametric distributions
+  - tail behavior analysis
+secondary_tags:
+  - nonparametric approach
+  - empirical distribution
+  - exponential distribution
+  - lognormal distribution
+  - weibull distribution
+  - gamma distribution
+  - beta distribution
+  - pareto distribution
+  - burr distribution
+  - mixture distributions
+  - goodness of fit tests
+  - empirical studies
+  - kolmogorov-smirnov test
+  - anderson-darling test
+  - extreme value theory
+  - generalized pareto distribution
+cssclasses: academia
+---
+
 # Modeling Operational Loss Distributions
 
-ANNA CHERNOBAI. PhD
-
+**Anna Chernobai, PhD**  
 Assistant Professor of Finance, M. J. Whitman School of Management, Syracuse University
 
-SVETLOZAR T. RACHEV, PhD, Dr Sci
-
+**Svetlozar T. Rachev, PhD, Dr Sci**  
 Frey Family Foundation Chair Professor, Department of Applied Mathematics and Statistics, Stony Brook University, and Chief Scientist, FinAnalytica
 
-FRANK J. FABOZZI, PhD, CFA, CPA
-
+**Frank J. Fabozzi, PhD, CFA, CPA**  
 Professor of Finance, EDHEC Business School
 
 Abstract: A major risk faced by financial entities is operational risk. In general terms, operational risk is the risk of loss resulting from inadequate or failed internal processes, people, or systems or from external events. The two principal approaches in modeling operational loss distributions are the nonparametric approach and the parametric approach. It is important to employ a model that captures tail events and for this reason in operational risk modeling, distributions that are characterized as light-tailed distributions should be used with caution.
@@ -43,7 +71,7 @@ Modeling operational losses with their empirical distribution function is a nonp
 Suppose we want to find the empirical distribution function of a random variable  $X$ . It is found by:
 
 $$
-P (X \leq x) = \frac{\text{nu mb er of lo ss es} \leq x}{\text{to ta ln um be ro fl os se s}}
+P(X \leq x) = \frac{\text{number of losses} \leq x}{\text{total number of losses}}
 $$
 
 The empirical distribution function looks like a step function, with a step up occurring at each observed value of  $X$ . Figure 3 provides an illustration. The density function is simply a relative frequency histogram with a bar at each observed data value, and the height of each bar shows the proportion of losses of this magnitude out of total.
@@ -62,10 +90,11 @@ In this section, we review several popular loss distributions. Certainly, a vari
 
 The exponential distribution for a random variable  $X$  of length  $n$  is described by its density  $f$  and distribution  $F$  of the following form:
 
-$$ f (x) = \lambda e^{- \lambda x}, \quad F (x) = 1 - e^{- \lambda x}, \quad x > 0
+$$
+f(x) = \lambda e^{-\lambda x}, \quad F(x) = 1 - e^{-\lambda x}, \quad x > 0
 $$
 
-The distribution is characterized by only one parameter  $\lambda$  ( $\lambda > 0$ ), which is the scale parameter.
+The distribution is characterized by only one parameter $\lambda$ ($\lambda > 0$), which is the scale parameter.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/16b2a7000ab34c42e7f95bb0b56e5ee85fd6510dd9d9f797de4b64ef337dfebc.jpg)
 Figure 4 Illustration of Exponential Density
@@ -73,7 +102,7 @@ Figure 4 Illustration of Exponential Density
 Examples of exponential densities are illustrated in Figure 4. The maximum likelihood estimate (MLE) for  $\lambda$  is
 
 $$
-\hat {\lambda} = \frac{1}{\bar {x}} \quad \text{wh er e} \quad \bar {x} = \frac{1}{n} \sum_{j = 1}^{n} x_{j}
+\hat {\lambda} = \frac{1}{\bar {x}} \quad \text{where} \quad \bar {x} = \frac{1}{n} \sum_{j = 1}^{n} x_{j}
 $$
 
 Raw moments are calculated as:
@@ -84,7 +113,7 @@ $$ and so the population mean and variance are
 
 
 $$
-\operatorname{me an} (X) = 1 / \lambda , \quad \operatorname{va r} (X) = 1 / \lambda^{2}
+\operatorname{mean}(X) = 1/\lambda, \quad \operatorname{var}(X) = 1/\lambda^{2}
 $$
 
 The mode of an exponential distribution is located at zero. The skewness and kurtosis coefficients are  $\gamma_{1} = 2$  and  $\gamma_{2} = 6$ , respectively.
@@ -100,11 +129,12 @@ Note that another parameterization of the exponential distribution is possible, 
 
 A random variable  $X$  has a lognormal distribution if its density and distribution are:
 
-$$ f (x) = \frac{1}{\sqrt{2 \pi \sigma x}} e^{- \frac{(\log x - \mu)^{2}}{2 \sigma^{2}}}
+$$
+f(x) = \frac{1}{\sqrt{2\pi\sigma x}} e^{-\frac{(\log x - \mu)^{2}}{2\sigma^{2}}}
 $$
 
 $$
-F (x) = \Phi \left(\frac{\log x - \mu}{\sigma}\right), \quad x > 0
+F(x) = \Phi\left(\frac{\log x - \mu}{\sigma}\right), \quad x > 0
 $$ where  $\Phi (x)$  is the distribution of a standard normal,  $N(0,1)$ , random variable, and can be obtained by looking up the table of the standard normal quantiles.
 
 
@@ -125,7 +155,7 @@ Figure 5 Illustration of Lognormal Density
 
 
 $$
-\operatorname{me an} (X) = e^{\mu + \frac{\sigma^{2}}{2}}, \quad \operatorname{va r} (X) = \left(e^{\sigma^{2}} - 1\right) e^{2 \mu + \sigma^{2}}
+\operatorname{mean}(X) = e^{\mu + \frac{\sigma^{2}}{2}}, \quad \operatorname{var}(X) = \left(e^{\sigma^{2}} - 1\right) e^{2\mu + \sigma^{2}}
 $$
 
 The mode is located at  $e^{\mu -\sigma^2}$ . The skewness and kurtosis coefficients are:
@@ -142,7 +172,8 @@ The lognormal distribution is characterized by moderately heavy tails, with the 
 
 The Weibull distribution is a generalization of the exponential distribution: Two parameters instead of one parameter allow for greater flexibility and heavier tails. The density and distribution are
 
-$$ f (x) = \alpha \beta x^{\alpha - 1} e^{- \beta x^{\alpha}}, F (x) = 1 - e^{- \beta x^{\alpha}}, x > 0
+$$
+f(x) = \alpha\beta x^{\alpha-1} e^{-\beta x^{\alpha}}, \quad F(x) = 1 - e^{-\beta x^{\alpha}}, \quad x > 0
 $$ with  $\beta (\beta >0)$  being the scale parameter and  $\alpha$ $(\alpha >0)$  the shape parameter.
 
 
@@ -160,20 +191,20 @@ Figure 7 Illustration of Gamma Density
 
 
 $$
-\begin{array}{l} \operatorname{me an} (X) = \beta^{- 1 / \alpha} \Gamma \left(1 + \frac{1}{\alpha}\right) \\ \operatorname{va r} (X) = \beta^{- 2 / \alpha} \left(\Gamma \left(1 + \frac{2}{\alpha}\right) - \Gamma^{2} \left(1 + \frac{1}{\alpha}\right)\right) \\ \end{array}
+\begin{array}{l} \operatorname{mean}(X) = \beta^{-1/\alpha} \Gamma\left(1 + \frac{1}{\alpha}\right) \\ \operatorname{var}(X) = \beta^{-2/\alpha} \left(\Gamma\left(1 + \frac{2}{\alpha}\right) - \Gamma^{2}\left(1 + \frac{1}{\alpha}\right)\right) \\ \end{array}
 $$
 
 The mode is located at  $\beta^{-1}(1 - \alpha^{-1})^{1 / \alpha}$  for  $\alpha >0$  and at zero otherwise. The formulae for the skewness and kurtosis coefficients are:
 
 $$
-\begin{array}{l} \gamma_{1} = \frac{2 \Gamma^{3} (1 + \frac{1}{\alpha}) - 3 \Gamma (1 + \frac{1}{\alpha}) \Gamma (1 + \frac{2}{\alpha}) + \Gamma (1 + \frac{3}{\alpha})}{\left[ \Gamma (1 + \frac{2}{\alpha}) - \Gamma^{2} (1 + \frac{1}{\alpha})^{3 / 2} \right]} \\ \gamma_{2} = \frac{- 6 \left[ \Gamma^{4} (1 + \frac{1}{\alpha}) - 1 2 \Gamma^{2} (1 + \frac{1}{\alpha}) \Gamma (1 + \frac{2}{\alpha}) - 3 \Gamma^{2} (1 + \frac{2}{\alpha}) - 4 \Gamma (1 + \frac{1}{\alpha}) \Gamma (1 + \frac{3}{\alpha}) + \Gamma (1 + \frac{4}{\alpha}) \right]}{\left[ \Gamma (1 + \frac{2}{\alpha}) - \Gamma^{2} (1 + \frac{1}{\alpha}) \right]^{2}} \\ \end{array}
+\begin{array}{l} \gamma_{1} = \frac{2 \Gamma^{3} (1 + \frac{1}{\alpha}) - 3 \Gamma (1 + \frac{1}{\alpha}) \Gamma (1 + \frac{2}{\alpha}) + \Gamma (1 + \frac{3}{\alpha})}{\left[ \Gamma (1 + \frac{2}{\alpha}) - \Gamma^{2} (1 + \frac{1}{\alpha})^{3 / 2} \right]} \\ \gamma_{2} = \frac{-6 \left[ \Gamma^{4} (1 + \frac{1}{\alpha}) - 12 \Gamma^{2} (1 + \frac{1}{\alpha}) \Gamma (1 + \frac{2}{\alpha}) - 3 \Gamma^{2} (1 + \frac{2}{\alpha}) - 4 \Gamma (1 + \frac{1}{\alpha}) \Gamma (1 + \frac{3}{\alpha}) + \Gamma (1 + \frac{4}{\alpha}) \right]}{\left[ \Gamma (1 + \frac{2}{\alpha}) - \Gamma^{2} (1 + \frac{1}{\alpha}) \right]^{2}} \\ \end{array}
 $$
 
 The inverse of a Weibull random variable does not exist in a simple closed form. To generate a Weibull random variable, one can first generate an exponential random variable  $Y$  with parameter  $\beta$  and then follow the transformation  $X = Y^{1 / \alpha}$ .
 
 The right tail behavior of a Weibull random variable follows the form  $\bar{F} (x) = e^{\beta x^{\alpha}}$ , and so the distribution is heavy-tailed for  $\alpha < 1$ . Weibull distribution has been found to be the optimal distribution in reinsurance models as well as in asset returns models.
 
-Note the following regarding the Weibull distribution. First, if  $\alpha = 1$ , then the Weibull distribution reduces to the exponential distribution. Second, other parameterizations of the Weibull distribution are possible. For example, some au thors use  $1 / \beta$  instead of  $\beta$ . Sometimes  $1 / \beta^{\alpha}$  is used instead of  $\beta$ .
+Note the following regarding the Weibull distribution. First, if  $\alpha = 1$ , then the Weibull distribution reduces to the exponential distribution. Second, other parameterizations of the Weibull distribution are possible. For example, some authors use  $1 / \beta$  instead of  $\beta$ . Sometimes  $1 / \beta^{\alpha}$  is used instead of  $\beta$ .
 
 
 # Gamma Distribution
@@ -182,7 +213,7 @@ The gamma distribution is another generalization of an exponential distribution 
 
 
 $$
-\begin{array}{l} f (x) = \frac{\beta^{\alpha}}{\Gamma (\alpha)} x^{a - 1} e^{- \beta x} \\ F (x) = \Gamma (a; \beta x), \quad x > 0 \\ \end{array}
+\begin{array}{l} f (x) = \frac{\beta^{\alpha}}{\Gamma (\alpha)} x^{\alpha - 1} e^{- \beta x} \\ F (x) = \Gamma (\alpha; \beta x), \quad x > 0 \\ \end{array}
 $$ where the two parameters,  $\alpha$  ( $\alpha > 0$ ) and  $\beta$  ( $\beta > 0$ ), characterize the shape and scale, respectively.
 
 
@@ -194,7 +225,7 @@ $$ yielding the population mean and variance as
 
 
 $$
-\operatorname{me an} (X) = \frac{\alpha}{\beta}, \quad \operatorname{va r} (X) = \frac{\alpha}{\beta^{2}}
+\operatorname{mean}(X) = \frac{\alpha}{\beta}, \quad \operatorname{var}(X) = \frac{\alpha}{\beta^{2}}
 $$
 
 The mode is  $\frac{\alpha - 1}{\beta}$  for  $\alpha > 1$  and zero otherwise. The skewness and kurtosis coefficients are found by
@@ -216,7 +247,7 @@ $$
 F (x) = I (x; \alpha , \beta), \quad 0 \leq x \leq 1
 $$
 
-Examples of the density are illustrated in Figure 8. Note that  $X$  has a bounded support on [0, 1]. Certainly, operational loss data may be rescaled to fit this interval. In this case, the following version of the beta density and distri bution is possible (the parameter  $\theta$  is assumed known):
+Examples of the density are illustrated in Figure 8. Note that  $X$  has a bounded support on [0, 1]. Certainly, operational loss data may be rescaled to fit this interval. In this case, the following version of the beta density and distribution is possible (the parameter $\theta$ is assumed known):
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/7ff28fdb3b6d1e27ecfa8c2f9c70845e22bd69a19e057a6d84bf0e17c68710b4.jpg)
 Figure 8 Illustration of Beta Density
@@ -241,7 +272,7 @@ $$
 $$
 
 $$
-\operatorname{va r} (X) = \frac{\alpha \beta}{(a + \beta)^{2} (\alpha + \beta + 1)}
+\operatorname{var}(X) = \frac{\alpha \beta}{(\alpha + \beta)^{2} (\alpha + \beta + 1)}
 $$
 
 The mode is equal to  $(\alpha - 1) / (\alpha + \beta - 2)$ . The skewness and kurtosis coefficients are estimated by
@@ -262,7 +293,8 @@ Note that the beta distribution is related to the gamma distribution. Suppose we
 
 The Pareto distribution is characterized by its density and distribution of the form:
 
-$$ f (x) = \frac{\alpha \beta^{\alpha}}{x^{\alpha + 1}}, F (x) = 1 - \left(\frac{\beta}{x}\right)^{\alpha}, \beta <   x <   \infty
+$$
+f(x) = \frac{\alpha \beta^{\alpha}}{x^{\alpha + 1}}, \quad F(x) = 1 - \left(\frac{\beta}{x}\right)^{\alpha}, \quad \beta < x < \infty
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/fcfc9c610a32c337cda8c25246053c30ac3b3c16dbafeb7c115f7c3269d32a88.jpg)
@@ -280,11 +312,11 @@ $$ from which the population mean and variance are found to be
 
 
 $$
-\operatorname{me an} (X) = \frac{\alpha \beta}{\alpha - 1} \quad \text{fo r} \alpha > 1
+\operatorname{mean}(X) = \frac{\alpha \beta}{\alpha - 1} \quad \text{for } \alpha > 1
 $$
 
 $$
-\operatorname{va r} (X) = \frac{\alpha \beta^{2}}{(\alpha - 1)^{2} (\alpha - 2)} \quad \text{fo r} \alpha > 2
+\operatorname{var}(X) = \frac{\alpha \beta^{2}}{(\alpha - 1)^{2} (\alpha - 2)} \quad \text{for } \alpha > 2
 $$
 
 The mode is equal to zero. The skewness and kurtosis coefficients are:
@@ -299,7 +331,7 @@ $$
 
 The inverse of the distribution is  $F^{-1}(p) = \beta((1 - p)^{-1/\alpha} - 1)$ , which can be used to generate a Pareto random variate.
 
-The Pareto distribution is a very heavy-tailed distribution, as is seen from the tail behavior.  $\alpha$  determines the heaviness of the right tail, which is monotonically decreasing for the Pareto dis tribution: The closer it is to zero, the thicker the tail,  $\bar{F} (x) = \left(\frac{\beta}{\beta + x}\right)^{\alpha}$ . Tails proportional to  $x^{-\alpha}$  are called the power tails (as opposed to the exponentially decaying tails) because they follow a power function. The case when  $\alpha \leq 1$  refers to a very heavy-tailed case, in which the mean and the variance are infinite (see the formulas for mean and variance earlier), means that losses of an infinitely high magnitude are possible.
+The Pareto distribution is a very heavy-tailed distribution, as is seen from the tail behavior.  $\alpha$  determines the heaviness of the right tail, which is monotonically decreasing for the Pareto distribution: The closer it is to zero, the thicker the tail,  $\bar{F} (x) = \left(\frac{\beta}{\beta + x}\right)^{\alpha}$ . Tails proportional to  $x^{-\alpha}$  are called the power tails (as opposed to the exponentially decaying tails) because they follow a power function. The case when  $\alpha \leq 1$  refers to a very heavy-tailed case, in which the mean and the variance are infinite (see the formulas for mean and variance earlier), means that losses of an infinitely high magnitude are possible.
 
 
 While on one hand the Pareto distribution appears very attractive for modeling operational risk, as it is expected to capture very high-magnitude losses, on the other hand, from the practical point of view, the possibility of infinite mean and variance could pose a problem.
@@ -315,7 +347,7 @@ Note the following:
 The Burr distribution is a generalized three-parameter version of the Pareto distribution and allows for greater flexibility in the shape due to additional shape parameter  $\gamma$  ( $\gamma > 0$ ). The density and distribution functions can be written as
 
 $$
-\begin{array}{l} f (x) = \gamma \alpha \beta^{\alpha} \frac{x^{\gamma - 1}}{(\beta + x^{\gamma})^{\alpha + 1}} \\ F (x) = 1 - \left(\frac{\beta}{\beta + x^{\gamma}}\right)^{\alpha}, \quad x > 0 \\ \end{array}
+\begin{array}{l} f(x) = \gamma \alpha \beta^{\alpha} \frac{x^{\gamma - 1}}{(\beta + x^{\gamma})^{\alpha + 1}} \\ F(x) = 1 - \left(\frac{\beta}{\beta + x^{\gamma}}\right)^{\alpha}, \quad x > 0 \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/fb8d08d758e7a28735ac661764e441f05fdc2cb3972687a460e6786e00efc4a6.jpg)
@@ -356,6 +388,44 @@ $$ where  $w_{j}, j = 1,2,\dots,m$ , are the positive weights attached to each m
 
 An example of a mixture of two lognormal distributions  $(\mu_{1} = 0.9, \sigma_{1} = 1, \mu_{2} = 3, \sigma_{2} = 0.5)$  is depicted in Figure 11.
 
+```d2
+direction: right
+
+mixture_concept: Mixture Distribution {
+  shape: hexagon
+  style.fill: "#e1f5fe"
+  style.stroke: "#0277bd"
+}
+
+component_1: Lognormal Distribution 1 {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  μ: 0.9
+  σ: 1.0
+  weight: w₁
+}
+
+component_2: Lognormal Distribution 2 {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  μ: 3.0
+  σ: 0.5
+  weight: w₂
+}
+
+result: Combined Mixture {
+  shape: hexagon
+  style.fill: "#e8f5e8"
+  style.stroke: "#2e7d32"
+  formula: f(x) = w₁·f₁(x) + w₂·f₂(x)
+}
+
+mixture_concept -> component_1: Component 1
+mixture_concept -> component_2: Component 2
+component_1 -> result: Weighted Sum
+component_2 -> result: Weighted Sum
+```
+
 The MLE estimates of the parameters (including the weights) of mixture distributions can generally be evaluated only numerically. A commonly used procedure to estimate the parameters of mixture distributions is the expectation-maximization algorithm. The raw moments are found as the weighted sum of the  $k$ th moments evaluated individually for each of the  $m$  member distributions. The population mean and variance are found by
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/24138d580a5deba800b7dcb8dbdefeeae8ad2a78c25760b677499facf1d22877.jpg)
@@ -363,7 +433,7 @@ Figure 11 Illustration of 2-Point Lognormal Mixture Density
 
 
 $$
-\operatorname{me an} (X) = \sum_{j = 1}^{m} w_{j} \mathbb {E}_{j} (X), \quad \operatorname{va r} (X) = \sum_{j = 1}^{m} w_{j}^{2} \sigma_{j}^{2} (X)
+\operatorname{mean} (X) = \sum_{j = 1}^{m} w_{j} \mathbb {E}_{j} (X), \quad \operatorname{var} (X) = \sum_{j = 1}^{m} w_{j}^{2} \sigma_{j}^{2} (X)
 $$ where the subscripts  $j$  refer to each member density. The right tail follows  $\bar{F} (x) = \sum_{j = 1}^{m}w_{j}\bar{F}_{j}(x)$
 
 
@@ -382,12 +452,10 @@ Note that the term mixture distribution is sometimes also used for distributions
 
 Operational risk managers are concerned with finding a model that would capture the "tail events." In the context of operational losses, it is understood that tail events refer to the events in the upper tail of the loss distribution. A crucial task in operational risk modeling is to produce a model that would give a realistic account to the possibility of losses exceeding a very high amount (this becomes critical in the estimation of the Value-at-Risk).
 
-In operational risk modeling, thin-tailed distributions should be used with caution. The following example illustrates the danger of fitting a light-tailed distribution to the data whose true distribution is heavy-tailed.[15] We generated 5,000 points from the Pareto distribution (heavy-tailed) with parameters  $\alpha = 1.67$  and  $\beta = 0.6$ . We then fitted an exponential distribution (light-tailed) to the data. The MLE procedure resulted in the exponential parameter of  $\lambda = 1.61$ . Figure 12 demonstrates the difference in the behavior of the tails of both distributions. In the far right, the probability of exceeding any high point is significantly lower (roughly, by
+In operational risk modeling, thin-tailed distributions should be used with caution. The following example illustrates the danger of fitting a light-tailed distribution to the data whose true distribution is heavy-tailed.[15] We generated 5,000 points from the Pareto distribution (heavy-tailed) with parameters  $\alpha = 1.67$  and  $\beta = 0.6$ . We then fitted an exponential distribution (light-tailed) to the data. The MLE procedure resulted in the exponential parameter of  $\lambda = 1.61$ . Figure 12 demonstrates the difference in the behavior of the tails of both distributions. In the far right, the probability of exceeding any high point is significantly lower (roughly, by $5\%$ ) under the exponential fit.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/2ee52964346c45492ab0946f8d682deb619e162dc7aebdacc9b14b0dac2c35f7.jpg)
-Figure 12 Tails of Pareto and Exponential Distributions Fitted to Simulated Pareto Random Variable
-
-$5\%$  ) under the exponential fit. This indicates that the probability of high-value events (and exceeding them) will be underestimated if one commits the mistake of fitting a thin-tailed loss distribution to the loss data. Such mistakes may be costly and lead to serious consequences in the operational risk management, if the potential for high-magnitude losses is being inadequately assessed.
+Figure 12 Tails of Pareto and Exponential Distributions Fitted to Simulated Pareto Random Variable This indicates that the probability of high-value events (and exceeding them) will be underestimated if one commits the mistake of fitting a thin-tailed loss distribution to the loss data. Such mistakes may be costly and lead to serious consequences in the operational risk management, if the potential for high-magnitude losses is being inadequately assessed.
 
 In Table 1 common distributions are classified into two categories depending on the heaviness of the right tail. Note that the Weibull distribution can be thin-tailed or heavy-tailed depending on the value of the shape parameter. Regarding the lognormal distribution, some literature refers to it as a thin-tailed distribution, but we follow Embrechts, Kluppelberg, and Mikosch (1997), who put it in the class of medium-tailed distributions. The beta distribution has a bounded support, which makes it a thin-tailed distribution.
 
@@ -439,7 +507,7 @@ Moscadelli (2004) explores the data (in euros) collected by the Risk Management 
 - BL7: Asset Management.
 BL8: Retail Brokerage.
 
-The lognormal, gamma, Gumbel, Pareto, and exponential distributions were fitted to the data. The estimation procedure used in the study was somewhat simplified for two reasons. First, different banks used different minimum truncation levels for their internal data, roughly between €6,000 to €10,000. This issue was ignored in the estimation process. Sec-
+The lognormal, gamma, Gumbel, Pareto, and exponential distributions were fitted to the data. The estimation procedure used in the study was somewhat simplified for two reasons. First, different banks used different minimum truncation levels for their internal data, roughly between €6,000 to €10,000. This issue was ignored in the estimation process. Second, the data across all participating banks were pooled together without any consideration given for bank characteristics such as size.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/683102579087393db7324ba2666a99b456011dd8f6616970d7fade3d60c25585.jpg)
 
@@ -451,9 +519,6 @@ The lognormal, gamma, Gumbel, Pareto, and exponential distributions were fitted 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/b7dc2258d97f1be939c4fd6e79b8cd059ccfd070cdc8f67e973ca15b074b11d2.jpg)
 Figure 13 Relative Frequency Histograms of Operational Loss Data in Müller Study
-
-
-ond, the data across all participating banks were pooled together without any consideration given for bank characteristics such as size.
 
 Table 4 reproduces the sample descriptive statistic (based on 1,000 bootstrapped samples generated from the original data), MLE
 

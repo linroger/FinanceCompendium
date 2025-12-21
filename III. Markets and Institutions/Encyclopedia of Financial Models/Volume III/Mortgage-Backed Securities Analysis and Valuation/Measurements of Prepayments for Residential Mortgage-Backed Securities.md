@@ -1,3 +1,27 @@
+---
+title: "Measurement of Prepayments for Residential Mortgage-Backed Securities"
+parent_directory: "Mortgage-Backed Securities Analysis and Valuation"
+formatted: "2025-12-21 07:15:00 AM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli-tool: "claude-code"
+primary_tags:
+  - prepayment measurement
+  - mortgage-backed securities
+  - conditional prepayment rate
+  - single monthly mortality rate
+secondary_tags:
+  - PSA prepayment benchmark
+  - voluntary prepayments
+  - involuntary prepayments
+  - delinquency measures
+  - cumulative default rate
+  - conditional default rate
+  - loss severity measures
+  - agency MBS
+  - nonagency MBS
+  - prospectus prepayment curve
+cssclasses: academia
+---
 
 # Measurement of Prepayments for Residential Mortgage-Backed Securities
 
@@ -47,10 +71,10 @@ The approach most commonly used to generate prepayment speeds is to calculate mo
 The CPR is an annual rate. However, because mortgage cash flows are a monthly phenomenon, calculating the CPR requires the generation of a monthly prepayment rate, called the single monthly mortality rate (SMM). The SMM is the most fundamental measure of prepayment speeds. SMM measures the monthly prepayment amount as a percentage of the previous month's outstanding balance minus the scheduled principal payment. Mathematically, the SMM is calculated as follows:
 
 $$
-\mathrm{SM M} = \frac{\text{To ta lp ay me nt ,i nc ul in gp re pa ym en ts -S ch ud ed in te re st pa ym en t -S ch ud ed pr in ci pa lp ay me nt}}{[ \text{Un pa id pr in ci pa lb al an ce -S ch ud ed pr in ci pa lp ay me nt} ]}
+\mathrm{SMM} = \frac{\text{Total payment, including prepayments - Scheduled interest payment - Scheduled principal payment}}{[\text{Unpaid principal balance - Scheduled principal payment}]}
 $$
 
-For example, if the pool balance at month zero is  \$10,000,000, assuming an interest rate of 12\%$ , the scheduled principal and interest payments are 2,861.26 and \$100,000 in month one, respectively. If the actual payment received by investors in month one is \$202,891.25, the SMM rate is  $1\%$ , calculated as
+For example, if the pool balance at month zero is \$10,000,000, assuming an interest rate of 12\%, the scheduled principal and interest payments are 2,861.26 and \$100,000 in month one, respectively. If the actual payment received by investors in month one is \$202,891.25, the SMM rate is 1\%, calculated as
 
 $$
 \mathrm{SMM} = \frac{(\$ 202,891.25 - \$ 100,000 - \$ 2,861.26)}{(\$ 10,000,000 - \$ 2,861.26)} = 1\%
@@ -61,7 +85,7 @@ Therefore, if a mortgage loan prepaid at  $1\%$  SMM in a particular month, this
 Given the SMM, a CPR can be computed using the following formula:
 
 $$
-\mathrm{CP R} = 1 - (1 - \mathrm{SM M})^{1 2}
+\mathrm{CPR} = 1 - (1 - \mathrm{SMM})^{12}
 $$
 
 For example, if the SMM is  $1\%$ , then the CPR is
@@ -73,7 +97,7 @@ $$
 Conversely, CPRs can be converted into SMMs (and thus be used to generate monthly cash flows) through the following formula:
 
 $$
-\mathrm{SM M} = 1 - (1 - \mathrm{CP R})^{1 / 1 2}
+\mathrm{SMM} = 1 - (1 - \mathrm{CPR})^{1/12}
 $$
 
 For example, suppose that the CPR used to estimate prepayments is  $6\%$ . The corresponding SMM is
@@ -94,11 +118,11 @@ The PSA standard benchmark assumes the following prepayment rates for 30-year mo
 This benchmark, referred to as "100\% PSA" or simply "100 PSA," is graphically depicted in the middle graph in Figure 1. Mathematically, 100 PSA can be expressed as follows:
 
 $$
-\text{If} t \leq 30 \text{thenCPR} = 6 \% \times (t / 30)
+\text{If } t \leq 30 \text{ then CPR} = 6\% \times (t / 30)
 $$
 
 $$
-\text{If} t > 30 \text{thenCPR} = 6 \%
+\text{If } t > 30 \text{ then CPR} = 6\%
 $$ where  $t$  is the number of months since the mortgage was originated. Since the CPR prior to month 30 rises at a constant rate, this period is sometimes referred to as the "ramp," and loans are considered to be "on the ramp" when they are less than 30 months old.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/d234f4a70e76f0b17b75753a1699737c5d60823017f5d7d66ff3628533990244.jpg)
@@ -114,19 +138,19 @@ It is helpful to outline the CPRs and SMMs assumed at different PSA assumptions 
 For month 5:
 
 $$
-\begin{array}{l} \mathrm{CPR} = 6 \% (5 / 30) = 1 \% = 0.01 \\ \mathrm{SM M} = 1 - (1 - 0. 0 1)^{1 / 1 2} = 1 - (0. 9 9)^{0. 0 8 3 3 3 3} \\ = 0. 0 0 0 8 3 7 \\ \end{array}
+\begin{array}{l} \mathrm{CPR} = 6\% (5 / 30) = 1\% = 0.01 \\ \mathrm{SMM} = 1 - (1 - 0.01)^{1/12} = 1 - (0.99)^{0.083333} \\ = 0.000837 \\ \end{array}
 $$
 
 For month 20:
 
 $$
-\begin{array}{l} \mathrm{CPR} = 6 \% (20 / 30) = 4 \% = 0.04 \\ \mathrm{SM M} = 1 - (1 - 0. 0 4)^{1 / 1 2} = 1 - (0. 9 6)^{0. 0 8 3 3 3 3} \\ = 0. 0 0 3 3 9 6 \\ \end{array}
+\begin{array}{l} \mathrm{CPR} = 6\% (20 / 30) = 4\% = 0.04 \\ \mathrm{SMM} = 1 - (1 - 0.04)^{1/12} = 1 - (0.96)^{0.083333} \\ = 0.003396 \\ \end{array}
 $$
 
 For months 31-360:
 
 $$
-\begin{array}{l} \mathrm{CPR} = 6 \% \\ \mathrm{SM M} = 1 - (1 - 0. 0 6)^{1 / 1 2} = 1 - (0. 9 4)^{0. 0 8 3 3 3 3} \\ = 0. 0 0 5 1 4 3 \\ \end{array}
+\begin{array}{l} \mathrm{CPR} = 6\% \\ \mathrm{SMM} = 1 - (1 - 0.06)^{1/12} = 1 - (0.94)^{0.083333} \\ = 0.005143 \\ \end{array}
 $$
 
 The SMMs for month 5, month 20, and months 31 through 360 assuming 165 PSA are computed as follows:
@@ -138,11 +162,11 @@ $$
 $$
 
 $$
-1 6 5 \mathrm{PS A} = 1. 6 5 (0. 0 1) = 0. 0 1 6 5
+165 \mathrm{PSA} = 1.65 (0.01) = 0.0165
 $$
 
 $$
-\begin{array}{l} \mathrm{SM M} = 1 - (1 - 0. 0 1 6 5)^{1 / 1 2} \\ = 1 - (0. 9 8 3 5)^{0. 0 8 3 3 3 3} = 0. 0 0 1 3 8 6 \\ \end{array}
+\begin{array}{l} \mathrm{SMM} = 1 - (1 - 0.0165)^{1/12} \\ = 1 - (0.9835)^{0.083333} = 0.001386 \\ \end{array}
 $$
 
 For month 20:
@@ -152,34 +176,32 @@ $$
 $$
 
 $$
-1 6 5 \mathrm{PS A} = 1. 6 5 (0. 0 4) = 0. 0 6 6
+165 \mathrm{PSA} = 1.65 (0.04) = 0.066
 $$
 
 $$
-\begin{array}{l} \mathrm{SM M} = 1 - (1 - 0. 0 6 6)^{1 / 1 2} = 1 - (0. 9 3 4)^{0. 0 8 3 3 3 3} \\ = 0. 0 0 5 6 7 4 \\ \end{array}
+\begin{array}{l} \mathrm{SMM} = 1 - (1 - 0.066)^{1/12} = 1 - (0.934)^{0.083333} \\ = 0.005674 \\ \end{array}
 $$
 
 For months 31 through 360:
 
 $$
-\mathrm{CPR} = 6 \%
+\mathrm{CPR} = 6\%
 $$
 
 $$
-1 6 5 \mathrm{PS A} = 1. 6 5 (0. 0 6) = 0. 0 9 9
+165 \mathrm{PSA} = 1.65 (0.06) = 0.099
 $$
 
 $$
-\begin{array}{l} \mathrm{SM M} = 1 - (1 - 0. 0 9 9)^{1 / 1 2} = 1 - (0. 9 0 1)^{0. 0 8 3 3 3 3} \\ = 0. 0 0 7 8 2 8 \\ \end{array}
+\begin{array}{l} \mathrm{SMM} = 1 - (1 - 0.099)^{1/12} = 1 - (0.901)^{0.083333} \\ = 0.008282 \\ \end{array}
 $$
 
 Notice that the SMM assuming 165 PSA is not 1.65 times the SMM at 100 PSA. Rather, the CPR for the pool's age at 100 PSA is multiplied by 1.65 to generate the CPR representing 165 PSA at that age.
 
-# Illustration of Monthly Cash Flow
+# Illustration of Monthly Cash Flow Construction
 
-# Construction
-
-We now show how to construct a monthly cash flow for a hypothetical agency pass-through given a PSA assumption. For the purpose of this illustration, the underlying mortgages for this hypothetical pass-through are assumed to be fixed rate fully amortizing mortgages with a weighted average coupon (WAC) rate of  $6.0\%$ . It will be assumed that the mortgage pass-through rate is  $5.5\%$  with a weighted average maturity (WAM) of 358 months.
+We now show how to construct a monthly cash flow for a hypothetical agency pass-through given a PSA assumption. For the purpose of this illustration, the underlying mortgages for this hypothetical pass-through are assumed to be fixed rate fully amortizing mortgages with a weighted average coupon (WAC) rate of 6.0\%. It will be assumed that the mortgage pass-through rate is 5.5\% with a weighted average maturity (WAM) of 358 months.
 
 Table 1 shows the cash flow for selected months assuming 100 PSA. The cash flow is broken down into three components: (1) interest (based on the pass-through rate), (2) the
 
@@ -206,14 +228,12 @@ Column 6. This column shows the scheduled principal repayment, or amortization. 
 
 Column 7. The dollar value of prepayments for the month is reported in this column. This amount is calculated by using the following equation:
 
-Prepayments
-$= \mathrm{SMM(Beginning~principal~balance}_t$
--Scheduled principal balance  $t$
+Prepayments = SMM × (Beginning principal balance_t - Scheduled principal payment_t)
 
 So, for example, in month 100, the beginning mortgage balance is \$223,414,587, the scheduled principal payment is \$423,356, and the SMM at 100 PSA is 0.00514301 (only 0.00514 is shown in the table to save space), so the prepayment is
 
 $$
-\begin{array}{l} 0. 0 0 5 1 4 3 0 1 \times (\$ 2 2 3, 4 1 4, 5 8 7 - \$ 4 2 3, 3 5 6) \\ = \$ 1,146,847 \\ \end{array}
+\begin{array}{l} 0.00514301 \times (\$223,414,587 - \$423,356) \\ = \$1,146,847 \\ \end{array}
 $$
 
 Column 8. The total principal payment, which is the sum of columns (6) and (7), is shown in this column.
@@ -251,13 +271,9 @@ Figure 2 HEP Curves
 
 In addition to utilizing the HEP curve, a PPC ramp is also commonly used to define the base-case prepayment assumption for the product. As with other mortgage products, the specification of the ramp will be dependent on the attributes of the underlying loan collateral, with respect to both the beginning and terminal speeds as well as the duration of the ramp. Occasionally, deals are also priced to a constant CPR assumption, ignoring the impact of seasoning in generating the deal's cash flows.
 
-# Manufactured Housing
+## Manufactured Housing Prepayment Curve
 
-# Prepayment Curve
-
-The manufactured housing prepayment (MHP) curve is a measure of prepayment behavior for manufactured housing, based on the Green Tree
-
-Financial manufactured housing prepayment experience. MHP is similar to the PSA curve, except that the seasoning ramp is slightly different to account for the specific behavior of manufactured loans:  $100\%$  MHP is equivalent to  $3.6\%$  CPR at month zero and increases  $0.1\%$  CPR every month until month 24, when it plateaus at  $6\%$  CPR. Figure 3 shows the prepayment speeds at  $50\%$  MHP,  $100\%$  MHP, and  $200\%$  MHP.
+The manufactured housing prepayment (MHP) curve is a measure of prepayment behavior for manufactured housing, based on the Green Tree Financial manufactured housing prepayment experience. MHP is similar to the PSA curve, except that the seasoning ramp is slightly different to account for the specific behavior of manufactured loans:  $100\%$  MHP is equivalent to  $3.6\%$  CPR at month zero and increases  $0.1\%$  CPR every month until month 24, when it plateaus at  $6\%$  CPR. Figure 3 shows the prepayment speeds at  $50\%$  MHP,  $100\%$  MHP, and  $200\%$  MHP.
 
 # DELINQUENCY, DEFAULT, AND LOSS TERMINOLOGY
 
@@ -283,7 +299,7 @@ The OTS method uses the following loan delinquency classifications:
 - 60-90 days late: 60 days delinquent
 - More than 90 days late:  ${90} +$  days delinquent
 
-The MBA method is a somewhat more stringent classification method, classifying a loan as 30 days delinquent once payments are not received after the due date. Thus, a loan classified as "current" under the OTS method would be listed be as "30 days delinquent" under the MBA method. The two methods can report significantly different delinquencies.[6]
+The MBA method is a somewhat more stringent classification method, classifying a loan as 30 days delinquent once payments are not received after the due date. Thus, a loan classified as "current" under the OTS method would be listed as "30 days delinquent" under the MBA method. The two methods can report significantly different delinquencies.[6]
 
 # Default Measures
 
@@ -294,16 +310,18 @@ Two broadly used measures for quantifying default are the cumulative default rat
 The conditional default rate (CDR) is the annualized value of the unpaid principal balance of newly defaulted loans over the course of a month as a percentage of the unpaid balance of the pool (before scheduled principal payment) at the beginning of the month. It is computed by first calculating the monthly default rate (MDR) as shown below:
 
 $$
-\begin{array}{l} \text{MD R} \\ = \frac{\text{De fa ul tl oa nb al an ce in mo nt h} t}{\text{Be gi nn in gb al an ce fo rm on th} t - \text{Sc hu du le dp ri nc ip al}} \\ \end{array}
+\begin{array}{l} \text{MDR} \\ = \frac{\text{Default loan balance in month } t}{\text{Beginning balance for month } t - \text{Scheduled principal}} \\ \end{array}
 $$
 
 This is then annualized as follows to get the CDR:
 
 $$
-\mathrm{CD R}_{t} = 1 - (1 - \text{De fa ul tr at ef or mo nt h} t)^{1 2}
-$$ to CPRs. As described earlier, the default rate is represents involuntary prepayments, and the CDR represents the involuntary prepayment speed calculated for nonagency MBS. Voluntary prepayment speeds (i.e., those resulting from refinancing activity and housing turnover) must be calculated separately.
+\mathrm{CDR}_{t} = 1 - (1 - \text{Default rate for month } t)^{12}
+$$
 
-Note that the conversion of MDR to CDR is identical to the formula for converting SMMs
+As described earlier, the default rate represents involuntary prepayments, and the CDR represents the involuntary prepayment speed calculated for nonagency MBS. Voluntary prepayment speeds (i.e., those resulting from refinancing activity and housing turnover) must be calculated separately.
+
+Note that the conversion of MDR to CDR is identical to the formula for converting SMMs to CPRs.
 
 
 Let's use the following as an example. Assume that a nonagency pool with an 8\% note rate and 300 months left to maturity has a balance at time  t  of 10,000,000. The pool's scheduled monthly payment is 77,181.62, comprised of 66,666.67 in interest and \$10,514.96 in scheduled principal. Assume that the pool receives \$20,000 of voluntary prepayments and 15,000 in involuntary prepayments.
@@ -311,7 +329,7 @@ Let's use the following as an example. Assume that a nonagency pool with an 8\% 
 The monthly voluntary prepayment speed is calculated as follows:
 
 $$
-\begin{array}{l} \text{Vo lu nt ar yS MM} = \frac{\mathbb {S} 2 0 , 0 0 0}{\mathbb {S} 1 0 , 0 0 0 , 0 0 0 - \mathbb {S} 1 0 , 5 1 4 . 9 6} \\ = 0. 0 0 2 \\ \end{array}
+\begin{array}{l} \text{Voluntary SMM} = \frac{\$20,000}{\$10,000,000 - \$10,514.96} \\ = 0.002 \\ \end{array}
 $$
 
 This can then be converted to  $2.37\%$  CPR.
@@ -319,14 +337,14 @@ This can then be converted to  $2.37\%$  CPR.
 The MDR is calculated similarly:
 
 $$
-\mathrm{MD R} = \frac{\mathbb {S} 1 5 , 0 0 0}{\mathbb {S} 1 0 , 0 0 0 , 0 0 0 - \mathbb {S} 1 0 , 5 1 4 . 9 6} = 0. 0 0 1 5
+\mathrm{MDR} = \frac{\$15,000}{\$10,000,000 - \$10,514.96} = 0.0015
 $$ which can be converted to  $1.78\%$  CDR.
 
 
 In some cases, the involuntary and voluntary prepayment speeds are combined to calculate a single prepayment speed. In this case, the calculation of a "total CPR" is as follows:
 
 $$
-\begin{array}{l} \text{To ta lS MM} = \frac{\mathbb {S} 3 5 , 0 0 0}{\mathbb {S} 1 0 , 0 0 0 , 0 0 0 - \mathbb {S} 1 0 , 5 1 4 . 9 6} \\ = 0. 0 0 3 5 \\ \end{array}
+\begin{array}{l} \text{Total SMM} = \frac{\$35,000}{\$10,000,000 - \$10,514.96} \\ = 0.0035 \\ \end{array}
 $$ which can be converted to a total CPR of  $4.12\%$ .
 
 
@@ -338,7 +356,7 @@ Figure 4 Monthly Dollar Amounts of Defaults on a 100 Million Pool Using 8\% CDR 
 
 Also note that the CDR metric measures only the amount of defaults and not the amount of losses because actual losses depends upon the amounts that can be recovered on loans in default, adjusted for the costs of collection and servicer advances, if applicable. In the extreme case, if there is full recovery of the unpaid principal balance of the defaulted loans, the losses will be zero except for the costs of recovery. However, depending upon the timing of the recovery of the defaulted loan balances, the cash flows to certain bondholders may be interrupted.
 
-There is also an interesting and important relationship between the voluntary prepayment speed and the dollar amount of defaults in a pool. Every dollar of principal that is prepaid voluntarily is returned at 100 cents on the dollar and cannot subsequently go into default. Therefore, the dollar amount of a pool's principal that goes into default declines as voluntary prepayment speeds increase, even if the assumed CDR remains constant. This is illustrated in Figure 4. The figure shows the projected dollar amounts of defaults on a  \$100 million pool with an 8.5\%$  note rate at  $8\%$  CDR for two different voluntary CPRs. At a combination of  $15\%$  CPR and  $8\%$  CDR, the pool is expected to lose a total of 21.9 million in face value; the projected amount of defaulted principal using  $8\%$  CPR and  $8\%$  CDR increases to 29.0 million.
+There is also an interesting and important relationship between the voluntary prepayment speed and the dollar amount of defaults in a pool. Every dollar of principal that is prepaid voluntarily is returned at 100 cents on the dollar and cannot subsequently go into default. Therefore, the dollar amount of a pool's principal that goes into default declines as voluntary prepayment speeds increase, even if the assumed CDR remains constant. This is illustrated in Figure 4. The figure shows the projected dollar amounts of defaults on a \$100 million pool with an 8.5\% note rate at 8\% CDR for two different voluntary CPRs. At a combination of  $15\%$  CPR and  $8\%$  CDR, the pool is expected to lose a total of 21.9 million in face value; the projected amount of defaulted principal using  $8\%$  CPR and  $8\%$  CDR increases to 29.0 million.
 
 
 As with prepayment analysis, there are disadvantages to using constant CDRs that tend to distort credit analysis. A constant CDR assumption is not necessarily consistent with the actual behavior of defaults, and also does not allow the analysis to take variations in the timing of defaults into account. As with prepayments, credit problems have historically tended to be very low immediately after the loans are closed, but generally increase with time as the pool in question ages.
@@ -365,7 +383,7 @@ A depiction of monthly defaults using the base assumptions of the SDA model at  
 Where the lender has a lien on the property, a portion of the value of the loan can be recovered through the legal recovery process (i.e., through foreclosure and repossession) and subsequent sale of the asset. The difference between the proceeds received from the recovery process (after all transaction costs) and principal balance of the loan is the loss in dollars. The historical loss severity rate in any month is defined as follows:
 
 $$
-\text{Lo ss se ve ri ty ra te} = 1 - \frac{\text{Li qu id at io nP ro ce ed s}}{\text{Li qu id at io nB al an ce}_{t}}
+\text{Loss severity rate} = 1 - \frac{\text{Liquidation Proceeds}}{\text{Liquidation Balance}_{t}}
 $$
 
 The loss severity rate ranges from 0 to 1 (or  $0\%$  to  $100\%$ ). If the loss severity rate is zero, then liquidation proceeds are equal to the liquidated loan balance. A loss severity rate of 1 (or  $100\%$ ) means that there are no liquidation proceeds. The loss rate is equal to the annual default rate multiplied by the loss assumption severity. In projecting future cash flows and losses, investors will often use a constant loss

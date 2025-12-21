@@ -1,4 +1,36 @@
 
+---
+title: "Concepts of Probability Theory"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume III/Probability Theory"
+formatted: "2025-12-21 07:35:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - "probability theory"
+  - "random variables"
+  - "probability measures"
+  - "stochastic processes"
+  - "distribution functions"
+  - "measurable spaces"
+secondary_tags:
+  - "set operations"
+  - "sigma algebras"
+  - "borel sigma algebra"
+  - "relative frequencies"
+  - "axiomatic systems"
+  - "countable spaces"
+  - "uncountable spaces"
+  - "probability spaces"
+  - "mathematical finance"
+  - "risk quantification"
+  - "empirical data analysis"
+  - "statistical tools"
+  - "uncertainty modeling"
+  - "financial decision making"
+  - "asset pricing models"
+cssclasses: academia
+---
+
 # Concepts of Probability Theory
 
 MARKUS HÖCHSTÖTTER, PhD
@@ -18,12 +50,11 @@ Abstract: Probability theory is the mathematical approach to formalizing the unc
 Probability theory serves as the quantification of risk in finance. To estimate probabilistic models, we have to gather and process empirical data. In this context, we need the tools provided by statistics. In this entry, we introduce the general concepts of probability theory.
 
 
-# HISTORICAL DEVELOPMENT OF ALTERNATIVE APPROACHES TO PROBABILITY
+## HISTORICAL DEVELOPMENT OF ALTERNATIVE APPROACHES TO PROBABILITY
 
 Before we introduce the formal definitions, we provide a brief outline of the historical development of probability theory and the alternative approaches since probability is, by no means, unique in its interpretation. We will describe the two most common approaches: relative frequencies and axiomatic system.
 
-# Probability as Relative Frequencies
-
+### Probability as Relative Frequencies
 
 The reasoning of von Mises and Reichenbach was that since extreme observations are unlikely given a reasonable sample size, the relative frequencies will portray the true probabilities with a high degree of accuracy. In other words, probability statements based on relative frequencies were justifiable since, in practice, highly unlikely events could be ruled out.
 
@@ -31,7 +62,7 @@ In the context of our dice example, they would consider unlikely that certain nu
 
 The approach of von Mises becomes relevant, again, in the context of estimating and hypothesis testing. For now, however, we will not pay any further attention to it but turn to the alternative approach to probability theory.
 
-# Axiomatic System
+### Axiomatic System
 
 Introduced by Andrei N. Kolmogorov in 1933, the axiomatic system abstracted probability from relative frequencies as obtained from observations and instead treated probability as purely mathematical. The variables were no longer understood as the quantities that could be observed but rather as some theoretical entities "behind the scenes." Strict rules were set up that controlled the behavior of the variables with respect to their likelihood of assuming values from a predetermined set. So, for example, consider the price of a stock, say General Electric (GE). GE's stock price as a variable is not what you can observe but a theoretical quantity obeying a particular system of probabilities. What you observe is merely realizations of the stock price with no implication on the true probability of the values since the latter is given and does not change from sample to sample. The relative frequencies, however, are subject to change depending on the sample.
 
@@ -53,11 +84,11 @@ In finance, the problem arising with this concept of probability is that, despit
 
 Despite this shortcoming, the concept of probability as an abstract quantity as formulated by Kolmogorov (1933) has become the standard in probability theory.
 
-# SET OPERATIONS AND PRELIMINARIES
+## SET OPERATIONS AND PRELIMINARIES
 
 Before proceeding to the formal definition of probability, randomness, and random variables we need to introduce some terminology.
 
-# Set Operations
+### Set Operations
 
 A set is a combination of elements. Usually, we denote a set by some capital (uppercase) letter, for example  $S$ , while the elements are denoted by lowercase letters such as  $a, b, c, \ldots$  or  $a_1, a_2, \ldots$ . To indicate that a set  $S$  consists of exactly the elements  $a, b, c$ , we write  $S = \{a, b, c\}$ . If we want to say that element  $a$  belongs to  $S$ , the notation used is that  $a \in S$  where  $\in$  means "belongs to." If, instead,  $a$  does not belong to  $S$ , then the notation used is  $a \notin S$  where  $\notin$  means "does not belong to."
 
@@ -77,7 +108,7 @@ If two sets contain no common elements (i.e., the intersection is the empty set)
 
 The complement to some set  $S$  is denoted by  $\overline{S}$ . It is defined as  $S \cap \overline{S} = \emptyset$  and  $S \cup \overline{S} = \Omega$ . That is, the complement  $\overline{S}$  is the remainder of  $\Omega$  that is not contained in  $S$ .
 
-# Right-Continuous and Non-decreasing Functions
+### Right-Continuous and Non-decreasing Functions
 
 Next we introduce two concepts of functions that should be understood in order to appreciate probability theory: right-continuous function and non-decreasing function.
 
@@ -90,7 +121,7 @@ Figure 1 Demonstration of Right-Continuity of Some Hypothetical Function  $f$  a
 
 A, B, and C,  $f$  might grow at different rates, it never decreases. Even for  $x$ -values in section B,  $f$  has zero and thus a nonnegative slope.
 
-# Outcome, Space, and Events
+## Outcome, Space, and Events
 
 Before we dive into the theory, we will use examples that help illustrate the concept be hind the definitions that follow later in this entry.
 
@@ -117,7 +148,7 @@ The power set has an additional pleasant feature. It contains any union of arbit
 
 As we will later see, all these properties of the power set are features of a  $\sigma$ -algebra (in words: sigma-algebra), often denoted by  $\mathbb{A}$ .
 
-Now consider an example where the space  $\Omega$  is no longer countable. Suppose that we are analyzing the daily logarithmic returns for a common stock or common stock index. Theoretically, any real number is a feasible outcome for a particular day's return. So, events are characterized by singular values as well as closed or open intervals on the real line. For example, we might be interested in the event  $E$  that the S&P 500 stock index return is "at least  $1\%$ ." Using the notation introduced earlier, this would be expressed as the half-open interval  $E = [0.01, \infty)$ . This event consists of the uncountable union of all outcomes between 0.01 and  $\infty$ . Now, as the sets containing all feasible events, we might take, again, the power set of the real numbers, that is,  $2^{\Omega}$  with  $\Omega = (-\infty, \infty) = \mathbb{R}$ . But, for theoretical reasons
+Now consider an example where the space  $\Omega$  is no longer countable. Suppose that we are analyzing the daily logarithmic returns for a common stock or common stock index. Theoretically, any real number is a feasible outcome for a particular day's return. So, events are characterized by singular values as well as closed or open intervals on the real line. For example, we might be interested in the event  $E$  that the S&P 500 stock index return is "at least  $1\%$ ." Using the notation introduced earlier, this would be expressed as the half-open interval  $E = [0.01, \infty)$ . This event consists of the uncountable union of all outcomes between 0.01 and  $\infty$ . Now, as the sets containing all feasible events, we might take, again, the power set of the real numbers, that is, $2^{\Omega}$ with $\Omega = (-\infty, \infty) = \mathbb{R}$. But, for theoretical reasons beyond the scope of this entry, that might cause trouble.
 
 Table 1 The Power Set of the Example Number of Dots of a Dice
 
@@ -125,14 +156,13 @@ Table 1 The Power Set of the Example Number of Dots of a Dice
 
 Note: The notation  $\{\omega_{i}\}$  for  $i = 1,2,\ldots ,6$  indicates that the outcomes are treated as events.
 
-
 Instead, we take a different approach. To design our set of events of the uncountable space  $\Omega$ , we begin with the inclusion of the events "any real number," which is the space  $\Omega$ , itself, and "no number at all," which is the empty set  $\varnothing$ . Next, we include all events of the form "less than or equal to  $a$ ," for any real number  $a$ , that is, we consider all half-open intervals  $(- \infty, a]$ , for any  $a \in \mathbb{R}$ . Now, for each of these  $(- \infty, a]$ , we add its complement  $\overline{(-\infty, a]} = \Omega \setminus (-\infty, a] = (a, \infty)$ , which expresses the event "greater than  $a$ ." So far, our set of events contains  $\varnothing$ ,  $\Omega$ , all sets  $(-\infty, a]$ , and all the sets  $(a, \infty)$ . Furthermore, we include all possible unions and intersections of everything already in the set of events as well as of the resulting unions and intersections themselves. By doing this, we guarantee that any event of practical relevance of an uncountable space is considered by our set of events.
 
 With this procedure, we construct the Borel  $\sigma$ -algebra,  $\mathbb{B}$ . This is the collection of events we will use any time we deal with real numbers.
 
 The events from the respective  $\sigma$ -algebra of the two examples can be assigned probabilities in a unique way, as we will see.
 
-# The Measurable Space
+## The Measurable Space
 
 Let us now express the ideas from the previous examples in a formal way. To describe a random experiment, we need to formulate
 
@@ -158,7 +188,7 @@ A tuple is the combination of several components. For example, when we combine t
 
 Given a measurable space, we have enough to describe a random experiment. All that is left is to assign probabilities to the individual events. We will do so next.
 
-# PROBABILITY MEASURE
+## PROBABILITY MEASURE
 
 We start with a brief discussion of what we expect of a probability or probability measure; that is, the following properties:
 
@@ -237,10 +267,10 @@ So, in this case we have a function  $F$  uniquely related to  $P$  from which w
 To illustrate, the probability of the S&P 500 log return being at most  $1\%$ ,  $E = (-\infty, 0.01]$ , is given by  $F^{\mathrm{S&P}500}(0.01) = P((- \infty, 0.01])$ , while the probability of it being between  $-1\%$  and  $1\%$  is
 
 $$
-F^{\mathrm{S} \& \mathrm{P} 5 0 0} (0. 0 1) - F^{\mathrm{S} \& \mathrm{P} 5 0 0} (- 0. 0 1) = P ((- 0. 0 1, 0. 0 1 ])
+F^{\mathrm{S} \& \mathrm{P} 5 0 0} (0.01) - F^{\mathrm{S} \& \mathrm{P} 5 0 0} (-0.01) = P ((-0.01, 0.01])
 $$
 
-# RANDOM VARIABLE
+## RANDOM VARIABLE
 
 Now the time has come to introduce the concept of a random variable. When we refer to some quantity as being a random variable, we want to express that its value is subject to uncertainty, or randomness. Technically, the variable of interest is said to be stochastic. In contrast to a deterministic quantity whose value can be determined with certainty, the value of a random variable is not known until we can observe a realized outcome of the random experiment. However, since we know the probability space  $(\Omega, \mathbb{A}, P)$ , we are aware of the possible values it can assume.
 
@@ -272,7 +302,7 @@ Now, we define a random variable  $X$  as a measurable function. That means for 
 
 To illustrate this, let us consider the example with the dice. Now we will treat the "number of points" as a random variable  $X$ . The possible outcome values of  $X$  are given by the state space  $\Omega'$ , namely,  $\Omega' = \{1, 2, 3, 4, 5, 6\}$ . The origin or domain space is given by the set of outcomes  $\Omega = \{\omega_1, \omega_2, \omega_3, \omega_4, \omega_5, \omega_6\}$ . Now, we can think of our random variable  $X$  as the function  $X: \Omega \to \Omega'$  with the particular map  $X(\omega_i) = i$  with  $i = 1, 2, \ldots, 6$ .
 
-# Random Variables on a Countable Space
+### Random Variables on a Countable Space
 
 We will distinguish between random variables on a countable space and on an uncountable space. We begin with the countable case.
 
@@ -311,17 +341,16 @@ Let:
 Now, we can determine the origin of the event that
 
 $$
-S_{t + 1} = \$ 18 \text{by} E_{\text{do wn}} = \{\omega : S (\omega) = \$ 1 8 \}
+S_{t + 1} = \$18 \text{ by } E_{\text{down}} = \{\omega : S(\omega) = \$18\}
 $$ and
 
-
 $$
-S_{t + 1} = \mathbb {S} 2 2 \text{by} E_{\mathrm{up}} = \{\omega : S (\omega) = \mathbb {S} 2 2 \}
+S_{t + 1} = \$22 \text{ by } E_{\text{up}} = \{\omega : S(\omega) = \$22\}
 $$
 
 Thus, we have partitioned  $\Omega$  into the two events,  $E_{\mathrm{down}}$  and  $E_{\mathrm{up}}$ , related to the two period  $t + 1$  stock prices. With the probability measure  $P$  on  $\Omega$ , we have the probability space  $(\Omega, \mathbb{A}, P)$ . Consequently, due to equation (2), we are able to compute the probability  $P^{S}(\$18) = P(E_{\mathrm{down}})$  and  $P^{S}(\$22) = P(E_{\mathrm{up}})$ , respectively.
 
-# Random Variables on an Uncountable Space
+### Random Variables on an Uncountable Space
 
 Now let's look at the case when the probability space  $(\Omega, \mathbb{A}, P)$  is no longer countable. Recall the particular way in which events are assigned probabilities in this case.
 
@@ -366,16 +395,15 @@ Let  $(\Omega, \mathbb{A}, P)$  be the probability space with the stock price in
 Now, the probability of the call becoming worthless is determined by the event in the origin space that the stock price falls below  $K$ . Formally, that equals
 
 $$
-\begin{array}{l} P^{C_{t + 1}} (0) = P \left(C_{t + 1} \leq 0 \right\} = P \left(S_{t + 1} \leq K \right\} \\ = P ((- \infty , K ]) \\ \end{array}
-$$ since the corresponding event in  $\mathbb{A}$  to a 0 value for the call option is  $(-\infty ,K]$ . Equivalently,  $C_{t + 1}^{-1}(\{0\}) = (-\infty ,K]$ . Any positive value  $c$  of  $C_{t + 1}$  is associated with zero probability since we have
-
+\begin{array}{l} P^{C_{t + 1}}(0) = P(C_{t + 1} \leq 0) = P(S_{t + 1} \leq K) \\ = P((-\infty, K]) \\ \end{array}
+$$ since the corresponding event in $\mathbb{A}$ to a 0 value for the call option is $(-\infty, K]$. Equivalently, $C_{t + 1}^{-1}(\{0\}) = (-\infty, K]$. Any positive value $c$ of $C_{t + 1}$ is associated with zero probability since we have
 
 $$
-P^{C_{t + 1}} (c) = P \left(C_{t + 1} = c \right\} = P \left(S_{t + 1} = c + K \right\} = 0
+P^{C_{t + 1}}(c) = P(C_{t + 1} = c) = P(S_{t + 1} = c + K) = 0
 $$ due to the relationship  $C_{t + 1} = S_{t + 1} - K$  for  $S_{t + 1} > K$ .
 
 
-# KEY POINTS
+## KEY POINTS
 
 - Events in a mathematical probabilistic sense represent sets of values. They are used to describe a certain situation such as an asset price being below some benchmark value.
 - A probability measure is a function that assigns each event a unique probability between zero and one. With respect to this probability measure an event is P-almost sure if it is assigned probability one, while an unlikely event is one with zero probability.
@@ -383,7 +411,7 @@ $$ due to the relationship  $C_{t + 1} = S_{t + 1} - K$  for  $S_{t + 1} > K$ .
 - A distribution function is uniquely related to the probability measure. It assigns real numbers values between zero and one. At any real number, it represents the probability that a random variable assumes values of at most this number.
 - Stochastic is the Greek term for random. It is often used in probability theory to describe that something is not deterministic, that is, known with certainty in advance.
 
-# NOTES
+## NOTES
 
 1. Suppose we have the interval [1,2], that is all real numbers between 1 and 2. We cannot count all numbers inside of this interval since, for any two numbers such as, for example, 1 and 1.001, 1.0001, or even 1.000001, there are always infinitely many more numbers that lie between them.
 2. Note that in a set, we do not consider an element more than once.
@@ -400,5 +428,5 @@ $$ due to the relationship  $C_{t + 1} = S_{t + 1} - K$  for  $S_{t + 1} > K$ .
 
 11. Theoretically,  $\Omega^{\prime}$  does not have to be countable; that is, it could contain more elements than  $X$  can assume values. But we restrict ourselves to countable state spaces  $\Omega^{\prime}$  consisting of exactly all the values of  $X$ .
 
-# REFERENCES
+## REFERENCES
 

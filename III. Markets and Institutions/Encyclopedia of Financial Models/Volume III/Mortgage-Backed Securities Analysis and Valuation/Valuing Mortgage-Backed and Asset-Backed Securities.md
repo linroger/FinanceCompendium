@@ -1,5 +1,107 @@
+---
+title: "Valuing Mortgage-Backed and Asset-Backed Securities"
+parent_directory: "Mortgage-Backed Securities Analysis and Valuation"
+formatted: 2025-12-21 07:01:25 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: opencode
+primary_tags:
+  - mortgage-backed securities valuation
+  - asset-backed securities pricing
+  - option-adjusted spread
+  - monte carlo simulation
+  - effective duration
+  - effective convexity
+secondary_tags:
+  - cash flow yield analysis
+  - zero-volatility spread
+  - prepayment risk
+  - embedded options
+  - interest rate risk
+  - lattice valuation method
+  - spot rate discounting
+  - modeling risk
+  - parallel yield curve shift
+  - negative convexity
+  - path dependent cash flows
+  - interest rate path simulation
+cssclasses: academia
+---
 
 # Valuing Mortgage-Backed and Asset-Backed Securities
+
+```d2
+direction: right
+
+valuation methods: Valuation Methods {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+}
+
+option free: Option-Free Bonds {
+  style.fill: "#e3f2fd"
+}
+
+corporate bonds: Corporate & Agency Bonds {
+  style.fill: "#fff3e0"
+}
+
+mbs abs: MBS & ABS {
+  style.fill: "#fce4ec"
+}
+
+valuation methods -> option free: Present Value\nof Expected Cash Flows
+valuation methods -> corporate bonds: Lattice Method
+valuation methods -> mbs abs: Monte Carlo Simulation
+
+option free -> spot rates: Discounted at\nSpot Rates + Spread
+corporate bonds -> embedded options: Accounts for\nCall/Put Options
+mbs abs -> path dependent: Accounts for\nInterest Rate Paths
+
+key measures: Key Measures {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.border-radius: 8
+}
+
+nominal spread: Nominal Spread {
+  style.fill: "#ffebee"
+}
+
+zero volatility: Zero-Volatility Spread {
+  style.fill: "#e8f5e9"
+}
+
+oas: Option-Adjusted Spread {
+  style.fill: "#e3f2fd"
+}
+
+key measures -> nominal spread: Simple Yield Difference
+key measures -> zero volatility: Spread over\nEntire Yield Curve
+key measures -> oas: Adjusts for\nPrepayment Risk
+
+mbs abs -> key measures: Measures Relative Value
+
+risk measures: Risk Measures {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.border-radius: 8
+}
+
+effective duration: Effective Duration {
+  style.fill: "#fce4ec"
+}
+
+effective convexity: Effective Convexity {
+  style.fill: "#f3e5f5"
+}
+
+risk measures -> effective duration: Price Sensitivity\nto Rate Changes
+risk measures -> effective convexity: Curvature of\nPrice-Yield Relationship
+
+mbs abs -> risk measures: Monte Carlo\nSimulation Input
+```
+
+**Figure: Mortgage-Backed and Asset-Backed Securities Valuation Framework** - This diagram illustrates the different valuation methodologies and measures used for various types of fixed income securities, with MBS and ABS requiring the most sophisticated Monte Carlo simulation approach due to path-dependent cash flows.
 
 FRANK J. FABOZZI, PhD, CFA, CPA
 
@@ -9,22 +111,19 @@ MARK B. WICKARD
 
 Senior Vice President/Corporate Cash Investment Advisor, Morgan Stanley Smith Bamey
 
-Abstract: The valuing (or pricing) of a bond without an embedded option (that is, an option-free bond) is straightforward. The value is equal to the present value of the expected cash flows. Ignoring defaults, for an option-free bond the cash flows are known and consist of the periodic interest payments and principal at the maturity date. The interest or discount rates for computing the present value of the cash flows begin with the spot rates for a benchmark security and to those rates an appropriate spread is added. Moving from valuing option-free bonds to corporate bonds and agency debentures with embedded options is not simple. The interest rate-sensitive options that can be embedded into these bonds are call options, put options, accelerated sinking provisions, and, for floating-rate securities, caps on the interest rate. The reason valuation is complicated is that the embedded options must be taken into account and the theoretical option-free value of the bond must be adjusted accordingly. The technique typically used for valuing corporate bonds and agency debentures with embedded options is the lattice method. Mortgage-backed securities also have embedded options: the right of the borrowers in a loan pool to prepay their mortgage loan. However, because future cash flows for a loan pool are sensitive to not only the current interest rate but the history of rates since the loans were originated, the lattice method which is solved using backward induction cannot be employed. Instead, the most common methodology used for valuing mortgage-backed securities and mortgage-related asset-backed securities is the Monte Carlo simulation model. Other types of asset-backed securities are straightforward to value. In addition to the complications in valuing mortgage-backed securities and mortgage-related asset-backed securities, there is the difficulty in estimating their price sensitivity to changes in interest rates (that is, duration and convexity). The Monte Carlo simulation model can be used to compute the effective duration of these securities. This duration measure takes into consideration how a change in interest rates can impact a security's cash flow.
+Abstract: The valuing (or pricing) of a bond without an embedded option (that is, an option-free bond) is straightforward. The value is equal to the present value of the expected cash flows. Ignoring defaults, for an option-free bond the cash flows are known and consist of the periodic interest payments and principal at the maturity date. The interest or discount rates for computing the present value of the cash flows begin with the spot rates for a benchmark security and to those rates an appropriate spread is added. Moving from valuing option-free bonds to corporate bonds and agency debentures with embedded options is not simple. The interest rate-sensitive options that can be embedded into these bonds are call options, put options, accelerated sinking provisions, and, for floating-rate securities, caps on the interest rate. The reason valuation is complicated is that the embedded options must be taken into account and the theoretical option-free value of the bond must be adjusted accordingly. The technique typically used for valuing corporate bonds and agency debentures with embedded options is the lattice method. Mortgage-backed securities also have embedded options: the right of the borrowers in a loan pool to prepay their mortgage loan. However, because future cash flows for a loan pool are sensitive to not only the current interest rate but the history of rates since the loans were originated, the lattice method which is solved using backward induction cannot be employed. Instead, the most common methodology used for valuing mortgage-backed securities and mortgage-related asset-backed securities is the Monte Carlo simulation model. Other types of asset-backed securities are straightforward to value. In addition to the complications in valuing mortgage-backed securities and mortgage-related asset-backed securities, there is the difficulty in estimating their price sensitivity to changes in interest rates (that is, duration and convexity). The Monte Carlo simul...
 
-In this entry we will explain the methodology for valuing asset-backed securities (ABS) and mortgage-backed securities (MBS) and measures of relative value. We begin by reviewing cash-flow yield analysis and the limitations of the spread measure that is a result of that analysis—the nominal spread. We then look at a better spread measure called the zero-volatility spread, but point out its limitation as a measure of relative value for MBS products because
-
-
-of the borrower's prepayment option and for ABS products where the prepayment option has value. Finally, we look at the methodology for valuing MBS and for ABS products where the prepayment option has value—the Monte Carlo simulation model. A by-product of this model is a spread measure called the option-adjusted spread (OAS). This measure is superior to the nominal spread and the zero-volatility spread for ABS products where the prepayment option has a value because it takes into account how cash flows may change when interest rates change. That is, it recognizes the borrower's prepayment option and how that affects prepayments when interest rates may change in the future. While the OAS is superior to the two other spread measures, it is based on assumptions that must be understood by an investor and the sensitivity of the security's value and OAS to changes in those assumptions must be investigated.
+In this entry we will explain the methodology for valuing asset-backed securities (ABS) and mortgage-backed securities (MBS) and measures of relative value. We begin by reviewing cash-flow yield analysis and the limitations of the spread measure that is a result of that analysis—the nominal spread. We then look at a better spread measure called the zero-volatility spread, but point out its limitation as a measure of relative value for MBS products because of the borrower's prepayment option and for ABS products where the prepayment option has value. Finally, we look at the methodology for valuing MBS and for ABS products where the prepayment option has value—the Monte Carlo simulation model. A by-product of this model is a spread measure called the option-adjusted spread (OAS). This measure is superior to the nominal spread and the zero-volatility spread for ABS products where the prepayment option has a value because it takes into account how cash flows may change when interest rates change. That is, it recognizes the borrower's prepayment option and how that affects prepayments when interest rates may change in the future. While the OAS is superior to the two other spread measures, it is based on assumptions that must be understood by an investor and the sensitivity of the security's value and OAS to changes in those assumptions must be investigated.
 
 # CASH-FLOW YIELD ANALYSIS
-$$ where  $i_{M}$  is the monthly interest rate that will equate the present value of the projected monthly cash flow to the market price (plus accrued interest) of the security.
 
+$$
+where\ i_{M}\ is\ the\ monthly\ interest\ rate\ that\ will\ equate\ the\ present\ value\ of\ the\ projected\ monthly\ cash\ flow\ to\ the\ market\ price\ (plus\ accrued\ interest)\ of\ the\ security.
+$$
 
-All yield measures suffer from problems that limit their use in assessing a security's potential return. The yield to maturity for a Treasury, agency, or corporate bond has two major shortcomings as a measure of a bond's potential return. To realize the stated yield to maturity, the investor must: (1) reinvest the coupon payments at a rate equal to the yield to maturity and (2) hold the bond to the maturity date. The reinvestment of the coupon payments is critical and for long-term bonds can comprise as much as  $80\%$  of the bond's return. The risk of having to reinvest the interest payments at less than the computed yield is called reinvestment risk. The risk associated with a decline in the value of a security due to a rise in interest rates is called interest rate risk and in practice is quantified by computing the security's duration and convexity.
+All yield measures suffer from problems that limit their use in assessing a security's potential return. The yield to maturity for a Treasury, agency, or corporate bond has two major shortcomings as a measure of a bond's potential return. To realize the stated yield to maturity, the investor must: (1) reinvest the coupon payments at a rate equal to the yield to maturity and (2) hold the bond to the maturity date. The reinvestment of the coupon payments is critical and for long-term bonds can comprise as much as $80\%$ of the bond's return. The risk of having to reinvest the interest payments at less than the computed yield is called reinvestment risk. The risk associated with a decline in the value of a security due to a rise in interest rates is called interest rate risk and in practice is quantified by computing the security's duration and convexity.
 
-These shortcomings are equally applicable to the cash-flow yield measure for ABS and MBS: (1) the projected cash flows are assumed to be reinvested at the computed cash-flow yield and (2) the security is assumed to be held until the final payout based on some prepayment assumption. The importance of reinvestment risk—the risk that the cash flow will be reinvested at a rate less than the calculated cash-flow yield—is particularly important for amortizing MBS and
-
-ABS products, because payments are monthly and both interest and principal must be reinvested. Moreover, an additional assumption is that the projected cash flow is actually realized. If the prepayment experience and the recovery rate realized differ from that assumed, the cashflow yield will not be realized.
+These shortcomings are equally applicable to the cash-flow yield measure for ABS and MBS: (1) the projected cash flows are assumed to be reinvested at the computed cash-flow yield and (2) the security is assumed to be held until the final payout based on some prepayment assumption. The importance of reinvestment risk—the risk that the cash flow will be reinvested at a rate less than the calculated cashflow yield—is particularly important for amortizing MBS and ABS products, because payments are monthly and both interest and principal must be reinvested. Moreover, an additional assumption is that the projected cash flow is actually realized. If the prepayment experience and the recovery rate realized differ from that assumed, the cashflow yield will not be realized.
 
 Given the computed cash-flow yield and the average life for a security based on some prepayment assumption and default/recovery assumption, the next step is to compare the yield to the yield for a comparable Treasury security. "Comparable" is typically defined as a Treasury security with the same maturity as the (weighted) average life or the duration of the security. The difference between the cash-flow yield and the yield on a comparable Treasury security is called the nominal spread.
 
@@ -32,8 +131,7 @@ Unfortunately, it is the nominal spread that investors will too often use as a m
 
 # ZERO-VOLATILITY SPREAD
 
-The proper procedure to compare ABS and MBS to a Treasury is to compare it to a portfolio of Treasury securities that have the same cash flow. The value of the security is then equal to the present value of all of the cash flows. The secu rity's value, assuming the cash flows are default free, will equal the present value of the replicating portfolio of Treasury securities. In turn, these cash flows are valued at the Treasury spot rates.
-
+The proper procedure to compare ABS and MBS to a Treasury is to compare it to a portfolio of Treasury securities that have the same cash flow. The value of the security is then equal to the present value of all of the cash flows. The security's value, assuming the cash flows are default free, will equal the present value of the replicating portfolio of Treasury securities. In turn, these cash flows are valued at the Treasury spot rates.
 
 The zero-volatility spread is a measure of the spread that the investor would realize over the entire Treasury spot rate curve if the non-Treasury security being analyzed is held to maturity. It is not a spread off one point on the Treasury yield curve, as is the nominal spread. The zero-volatility spread (also called the Z-spread and the static spread) is the spread that will make the present value of the cash flows from the non-Treasury security when discounted at the Treasury spot rate plus the spread equal to the market price plus accrued interest of the non-Treasury security. A trial-and-error procedure (or search algorithm) is required to determine the zero-volatility spread.
 
@@ -133,39 +231,43 @@ $f_{j}(n) =$  simulated future one-month rate for month  $j$  on path  $n$
 Consequently, the interest rate path for the simulated future one-month rates can be converted to the interest rate path for the simulated monthly spot rates as shown in Table 5. Therefore, the present value of the cash flows for month  $t$  on interest rate path  $n$  discounted at the simulated spot rate for month  $t$  plus some spread is:
 
 $$
-\operatorname{PV} \left[ B C C_{t} (n) \right] = \frac{B C C_{t} (n)}{\left[ 1 + z_{t} (n) + K \right]^{t}} \tag {1}
-$$ where
-
-
-$PV[BCC_{t}(n)] =$  present value of the cash flow for the bond class for month  $t$  on path  $n$
-
-$BCC_{t}(n) = \text{cashflowforthebondclass}$  for month  $t$  on path  $n$
-
-$z_{t}(n) =$  spot rate for month  $t$  on path  $n$
-
-$$
-K = \mathrm{sp re ad}
+\operatorname{PV}\left[BCC_{t}(n)\right] = \frac{BCC_{t}(n)}{\left[1 + z_{t}(n) + K\right]^{t}} \tag{1}
 $$
 
-The present value for path  $n$  is the sum of the present value of the cash flows for each month on path  $n$ . That is,
+where
 
+$PV[BCC_{t}(n)] =$ present value of the cash flow for the bond class for month $t$ on path $n$
+
+$BCC_{t}(n) = \text{cash flow for the bond class}$ for month $t$ on path $n$
+
+$z_{t}(n) =$ spot rate for month $t$ on path $n$
+
+$$
+K = \mathrm{spread}
+$$
+
+The present value for path $n$ is the sum of the present value of the cash flows for each month on path $n$. That is,
 
 (2)
 
 $$
-\begin{array}{l} \operatorname{PV} [ \text{Pa th} (n) ] = \operatorname{PV} [ B C C_{1} (n) ] + \operatorname{PV} [ B C C_{2} (n) ] \\ + \dots + \mathrm{PV} [ B C C_{M} (n) ] \\ \end{array}
-$$ where  $\mathrm{PV}[\mathrm{Path}(n)]$  is the present value of interest rate path  $n$ .
+\begin{array}{l}
+\operatorname{PV}[\text{Path}(n)] = \operatorname{PV}[BCC_{1}(n)] + \operatorname{PV}[BCC_{2}(n)] \\
++ \dots + \mathrm{PV}[BCC_{M}(n)]
+\end{array}
+$$
+
+where $\mathrm{PV}[\mathrm{Path}(n)]$ is the present value of interest rate path $n$.
 
 
 # Determining the Theoretical Value
 
 The present value of a given interest rate path is treated as the theoretical value of a bond class if that path is realized. The theoretical value of the bond class using the Monte Carlo simulation model is determined by calculating the average of the theoretical values of all the interest rate paths. That is, the theoretical value is equal to
 
-Theoretical value
-
 $$
-= \frac{\operatorname{PV} [ \operatorname{Pa th} (1) ] + \cdots + \operatorname{PV} [ \operatorname{Pa th} (N) ]}{N} \tag {3}
-$$ where  $N$  is the number of interest rate paths.
+\text{Theoretical value} = \frac{\operatorname{PV}[\operatorname{Path}(1)] + \cdots + \operatorname{PV}[\operatorname{Path}(N)]}{N} \tag{3}
+$$
+where $N$ is the number of interest rate paths.
 
 
 Notice that the results of the Monte Carlo simulation model produce one value, the average value, and that value is taken as the theoretical value. However, as noted earlier, the purpose of a Monte Carlo simulation model is to estimate the probability distribution for the variable of interest. While a probability distribution can easily be obtained from the values for each path and summary information in addition to the mean such as dispersion and skewness measures can be computed, it is rare if that information is provided. Basically, the reason is that investors rarely seek that information because too often they do not understand the Monte Carlo simulation process.
@@ -178,8 +280,9 @@ Moreover, it should be apparent how the Monte Carlo simulation model is driven b
 Thus far we have seen how the theoretical value of a security can be determined using the Monte Carlo simulation model. Recall that in the model, a spread  $(K)$  is added to the monthly spot rates on all the interest rate paths in Table 5 in order to determine the discount rate used for calculating the present value of the cash flows. The spread should reflect the risk associated with the security as required by the market. However, the reverse can be done. Given (1) the cash flows in Table 4 for the bond class being valued, (2) the spot rates in Table 5, and (3) the market price of the security being valued, one can determine the spread that will make the average value for the interest rate paths equal to the market price (plus accrued interest). That spread is what is referred to as the option-adjusted spread (OAS). Mathematically, OAS is the spread that will make
 
 $$
-\frac{\text{Ma rk et pr ic e} +}{\text{Ac cr ue di nt er es t}} = \frac{\operatorname{PV} [ \operatorname{Pa th} (1) ] + \cdots + \operatorname{PV} [ \operatorname{Pa th} (N) ]}{N} \tag {4}
-$$ where  $N$  is the number of interest rate paths.
+\frac{\text{Market price} +}{\text{Accrued interest}} = \frac{\operatorname{PV}[\operatorname{Path}(1)] + \cdots + \operatorname{PV}[\operatorname{Path}(N)]}{N} \tag{4}
+$$
+where $N$ is the number of interest rate paths.
 
 
 Basically, the OAS is used to reconcile the model's value [that is, the value determined by the Monte Carlo simulation model given by equation (3)] with the market price. On the left-hand side of equation (4) is the market's valuation of the security as represented by the market price. On the right-hand side of the equation is the model's evaluation of the security (that is, the theoretical value), which is the average present value over all the interest rate paths. Basically, the OAS was developed as a measure of the spread that can be used to convert dollar differences between model value and market price. But what is it a "spread" over? In describing the model above, we can see that the OAS is measuring the average spread over the benchmark spot rate. It is an average spread since the OAS is found by averaging over the interest rate paths for the possible future benchmark spot rate curves.
@@ -191,7 +294,7 @@ This spread measure is superior to the nominal spread, which gives no recognitio
 The implied cost of the option embedded in a security can be obtained by calculating the difference between the OAS and the zero-volatility spread. That is,
 
 $$
-\text{Op ti on} = \text{Ze ro -v ol at il it ys pr ea d -O AS}
+\text{Option} = \text{Zero-volatility spread - OAS}
 $$
 
 The option cost measures the prepayment (or option) risk embedded in MBS and ABS. Note that the cost of the option is a by-product of the OAS analysis, not valued explicitly with some option pricing model.
@@ -200,7 +303,7 @@ When the option cost is zero because the borrower tends not to exercise the prep
 
 
 $$
-Z e r o - v o l a t i l i t y s p r e a d = O A S
+\text{Zero-volatility spread} = \text{OAS}
 $$
 
 Consequently, when the value of the option is zero (that is, the option cost is zero) for a particular ABS, simply computing the zero-volatility spread for relative value purposes or for valuing that ABS is sufficient. Even if there is a small value for the option, the zero-volatility spread should be adequate rather than calculating an OAS using the Monte Carlo simulation model.
@@ -221,7 +324,12 @@ The most obvious way to measure a bond's price sensitivity as a percentage of it
 
 
 $$
-\begin{array}{l} V_{0} = \text{in it ia lv al ue or pr ic eo ft he se cu ri ty} \\ \Delta y = \text{ch an ge in th ey ie ld of th es ec ur it y (in} \quad \text{de ci ma l)} \\ V_{-} = \text{th e} \quad \text{et am is de cr ea se d} \quad \Delta y \\ V_{+} = \text{th e} \quad \text{et am is} \quad \text{in cr ea se d} \quad \Delta y \\ \end{array}
+\begin{array}{l}
+V_{0} = \text{initial value or price of the security} \\
+\Delta y = \text{change in the yield of the security (in decimal)} \\
+V_{-} = \text{the security's value when yield is decreased by } \Delta y \\
+V_{+} = \text{the security's value when yield is increased by } \Delta y
+\end{array}
 $$
 
 There are two key points to keep in mind in the foregoing discussion. First, the change in yield referred to above is the same change in yield for all maturities. This assumption is commonly referred to as a "parallel yield curve shift assumption." Thus, the foregoing discussion about the price sensitivity of a security to interest rate changes is limited to parallel shifts in the yield curve. Second, the notation refers to the estimated value of the security. This value is obtained from a valuation model. Consequently, the resulting measure of the price sensitivity of a security to interest rate changes is only as good as the valuation model employed to obtain the estimated value of the security.
@@ -232,7 +340,7 @@ $$
 \text{Du ra ti on} = \frac{V_{-} - V_{+}}{2 V_{0} (\Delta y)} \tag {5}
 $$
 
-The duration of a security can be interpreted as the approximate percentage change in price for a 100 basis point parallel shift in the yield curve. Thus, a bond with a duration of 5 will change by approximately  $5\%$  for a 100 basis point parallel shift in the yield curve. For a 50 basis point parallel shift in the yield curve, the bond's price will change by approximately  $2.5\%$ ; for a 25 basis point parallel shift in the yield curve,  $1.25\%$ , and so on.
+The duration of a security can be interpreted as the approximate percentage change in price for a 100 basis point parallel shift in the yield curve. Thus, a bond with a duration of 5 will change by approximately $5\%$ for a 100 basis point parallel shift in the yield curve. For a 50 basis point parallel shift in the yield curve, the bond's price will change by approximately $2.5\%$; for a 25 basis point parallel shift in the yield curve, $1.25\%$, and so on.
 
 What this means is that in calculating the values of  $V_{-}$  and  $V_{+}$  in the duration formula, the same cash flows used to calculate  $V_{0}$  are used. Therefore, the change in the bond's price when the yield curve is shifted by a small number of basis points is due solely to discounting at the new yields. This assumption makes sense for option-free bonds such as Treasury securities and nonmortgage ABS such as credit card ABS and auto loan-backed ABS. However, the same cannot be said for MBS and mortgage-related ABS because for these products the cash flows are sensitive to changes in interest rates. Rather, for these products a change in yield will alter the expected cash flows because it will change expected prepayments.
 
@@ -240,7 +348,7 @@ The Monte Carlo simulation model takes into account how parallel shifts in the y
 
 To calculate effective duration, the value of a security must be estimated when interest rates are shocked (that is, changed) up and down a given number of basis points. In terms of the Monte Carlo simulation model, the yield curve used is shocked up and down and the new curve is used to generate the values to be used in equation (5) to obtain effective duration.
 
-There are two important aspects of this process of generating the values when the rates are shocked that are critical to understand. First, the assumption is that the relationships assumed do not change when rates are shocked up and down. Specifically, (1) the interest rate volatility is assumed to be unchanged to derive the new interest rate paths for a given shock (that is, the new Table 1), as well as the other assumptions made to generate the new Table 2 from the newly constructed Table 1, and (2) the OAS is assumed to be constant. The constancy of the OAS comes into play because when discount ing the new cash flows (that is, the cash flows in the new Table 4), the current OAS that was computed is assumed to be the same and is added to the new rates in the new Table 1.
+There are two important aspects of this process of generating the values when the rates are shocked that are critical to understand. First, the assumption is that the relationships assumed do not change when rates are shocked up and down. Specifically, (1) the interest rate volatility is assumed to be unchanged to derive the new interest rate paths for a given shock (that is, the new Table 1), as well as the other assumptions made to generate the new Table 2 from the newly constructed Table 1, and (2) the OAS is assumed to be constant. The constancy of the OAS comes into play because when discounting the new cash flows (that is, the cash flows in the new Table 4), the current OAS that was computed is assumed to be the same and is added to the new rates in the new Table 1.
 
 
 # Convexity
@@ -252,7 +360,7 @@ The reason for this result is that duration is in fact a first approximation for
 The convexity measure of a bond can be approximated using the following formula:
 
 $$
-\text{Co nv ex it ym ea su re} = \frac{V_{+} + V_{-} - 2 V_{0}}{2 V_{0} (\Delta y)^{2}} \tag {6}
+\text{Convexity measure} = \frac{V_{+} + V_{-} - 2 V_{0}}{2 V_{0} (\Delta y)^{2}} \tag{6}
 $$ where the notation is the same as used earlier for duration. When the values for the inputs in the convexity measure as given in equation (6) are obtained from a Monte Carlo simulation model, the resulting convexity is referred to as effective convexity. Note that dealers often quote convexity by dividing the convexity measure by 100.
 
 

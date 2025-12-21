@@ -1,3 +1,30 @@
+---
+title: "Analysis of Nonagency Mortgage-Backed Securities"
+parent_directory: "Encyclopedia of Financial Models"
+formatted: "2025-12-21 07:15:00 AM"
+formatter_model: "claude-sonnet-4"
+cli_tool: "opencode"
+primary_tags:
+  - "nonagency mortgage-backed securities"
+  - "private-label mortgage-backed securities"
+  - "credit risk analysis"
+  - "loss-adjusted yield"
+  - "mortgage securitization"
+secondary_tags:
+  - "principal return timing"
+  - "loss severity modeling"
+  - "voluntary prepayments"
+  - "involuntary prepayments"
+  - "transition matrices"
+  - "tranche analysis"
+  - "credit enhancement"
+  - "capital structure analysis"
+  - "coverage ratios"
+  - "default rate projections"
+  - "prepayment vectors"
+  - "yield matrix analysis"
+cssclasses: academia
+---
 
 # Analysis of Nonagency Mortgage-Backed Securities
 
@@ -15,17 +42,55 @@ Professor of Finance Practice, Department of Finance, W. P. Carey School of Busi
 
 Abstract: The transformation of groups of mortgage loans with common attributes into tradable and liquid MBS occurs using one of two mechanisms. Loans that meet the guidelines of the agencies (i.e., Fannie Mae, Freddie Mac, and Ginnie Mae) in terms of credit quality, underwriting standards, and balance are assigned an insurance premium (called a guaranty fee) by the agency in question and securitized as an agency pool. Loans that either do not qualify for agency treatment, or for which agency pooling execution is not efficient, can be securitized in nonagency or "private-label" transactions when such transactions are economically feasible. These types of securities do not have an agency guaranty, and must therefore be issued under the registration entity or "shelf" of the issuer. Although the analysis of private-label mortgage-backed securities utilizes many of the techniques employed to assess agency securities, the analysis must be extended in order to incorporate credit risk and adjust returns for expected principal losses, requiring additional analysis and metrics.
 
-While the evaluation of private-label mortgage-backed securities (MBS) utilizes many of the techniques used in the evaluation of agency MBS (i.e., Ginnie Mae, Fannie Mae, and Freddie Mac MBS), the need to incorporate credit risk and adjust returns for expected principal losses requires additional analysis and metrics. The fact that the credit risk in these securities is not assumed by the government, either explicitly or implicitly, forces investors to evaluate and judge both the timing of the return of principal as well as the amount of principal, if any, that investors can expect to receive. Moreover, credit analysis has moved up what is called the credit stack. A major change stemming from the subprime mortgage crisis is that investors
-
+While the evaluation of private-label mortgage-backed securities (MBS) utilizes many of the techniques used in the evaluation of agency MBS (i.e., Ginnie Mae, Fannie Mae, and Freddie Mac MBS), the need to incorporate credit risk and adjust returns for expected principal losses requires additional analysis and metrics. The fact that the credit risk in these securities is not assumed by the government, either explicitly or implicitly, forces investors to evaluate and judge both the timing of the return of principal as well as the amount of principal, if any, that investors can expect to receive. Moreover, credit analysis has moved up what is called the credit stack. A major change stemming from the subprime mortgage crisis is that investors 
 
 can no longer assume that senior private-label mortgage-backed securities have virtually the same credit risk as agency MBS. Any bond that does not have agency credit support must be treated as a "credit piece" requiring the analysis of a variety of internal and external factors.
 
 In this entry, we outline the various elements that drive the performance of nonagency MBS, and also examine the interactions of these factors. We then examine a useful framework for understanding the evolution of a population's credit profile and discuss a variety of techniques used to evaluate the credit risk and expected returns of private-label securities.
 
-Before proceeding, it will be helpful to review a few concepts. Prepayments on nonagency securities must be classified based on their causation. Unlike agency securities, the return of principal to the securitization (or, more specifically, the investment trust) must be treated differently depending on whether it resulted from a voluntary action by the borrower or is forced by credit-related difficulties. Modeling the impact of voluntary prepayments is relatively straightforward; investors can assume that  $100\%$  of principal being prepaid will be returned on the next payment date. By contrast, projecting the impact of involuntary prepayments requires an estimate of both how much of every principal dollar prepaid will actually be paid to the investor, as well as when principal payments will be received by the trust.
+```d2
+direction: down
 
+Mortgage Pool: Mortgage Pool {
+  shape: cylinder
+  style.fill: "#e3f2fd"
+}
 
-# The Amount and Timing of Principal Return
+Tranche Structure: Tranche Structure {
+  direction: right
+}
+
+Super Senior: Super Senior {
+  style.fill: "#4caf50"
+  style.stroke: "#2e7d32"
+}
+
+Senior Mezzanine: Senior Mezzanine {
+  style.fill: "#ff9800"
+  style.stroke: "#f57c00"
+}
+
+Mezzanine: Mezzanine {
+  style.fill: "#ff5722"
+  style.stroke: "#d84315"
+}
+
+Subordinate: Subordinate {
+  style.fill: "#f44336"
+  style.stroke: "#c62828"
+}
+
+Mortgage Pool -> Tranche Structure: Securitization Process
+
+Tranche Structure -> Super Senior: Priority 1\n(No Credit Loss Until\nSupport Exhausted)
+Tranche Structure -> Senior Mezzanine: Priority 2\n(Losses After Senior)
+Tranche Structure -> Mezzanine: Priority 3\n(Higher Loss Absorption)
+Tranche Structure -> Subordinate: Priority 4\n(Equity Tranche -\nFirst Loss Position)
+```
+
+Before proceeding, it will be helpful to review a few concepts. Prepayments on nonagency securities must be classified based on their causation. Unlike agency securities, the return of principal to the securitization (or, more specifically, the investment trust) must be treated differently depending on whether it resulted from a voluntary action by the borrower or is forced by credit-related difficulties. Modeling the impact of voluntary prepayments is relatively straightforward; investors can assume that $100\%$ of principal being prepaid will be returned on the next payment date. By contrast, projecting the impact of involuntary prepayments requires an estimate of both how much of every principal dollar prepaid will actually be paid to the investor, as well as when principal payments will be received by the trust.
+
+## The Amount and Timing of Principal Return
 
 Before proceeding, a brief discussion of terminology will be helpful. For private-label securities voluntary prepayments encompass traditional prepayment activity. Involuntary prepayments are credit-related prepayments that result from defaults or other events specifically related to credit events (such as short sales of homes), while also accounting for the likelihood that less than the full amount of principal will be returned to the transaction (or, more accurately, the trust holding the deal's collateral). Voluntary prepayments are typically quoted as VPRs, which stands for voluntary prepayment rate. They are calculated similar to a conditional prepayment rate (CPR), in which a monthly percentage of prepaid principal (sometimes denoted by VMM) is annualized. Involuntary prepayment speeds are quoted as conditional default rates  $(\mathrm{CDRs})^2$ , which are the annualized rate of default. CDRs are calculated by annualizing the monthly rate of default as a percentage of the current balance, or the MDR. The sum of the monthly VMMs and MDRs equals the total deal single monthly mortgage (SMM) rate for any particular month.
 
@@ -42,7 +107,7 @@ Legal and political factors also impact lag times. Since real estate transaction
 
 Generally speaking, the amount and timing of cash flows to the trust are impacted by a variety of actions and decisions taken by both borrowers and servicers, and are also influenced by exogenous factors. We discuss how these behaviors can be understood and modeled later in this entry.
 
-# Deal-Specific Factors
+## Deal-Specific Factors
 
 There are also a series of other subtle and obscure factors that can impact the cash flows and returns of nonagency securities. Some of these factors result from decisions by the servicer, while others vary depending on how an individual transaction's governing documents were written. These factors include (but are not limited to) the following:
 
@@ -53,10 +118,10 @@ There are also a series of other subtle and obscure factors that can impact the 
 
 - The allocation of losses due to principal and interest "shortfalls" can become highly complex and deal-specific, particularly once the subordinate bonds in an overcollateralization structure are paid off. For example, some deals (typically those issued before mid-2005) only allow for the balances of senior bonds to be reduced by payments actually made by borrowers. These structures can experience a phenomenon called "negative overcollateralization," which means that losses for the seniors are "implied." As a result, losses on the senior tranches are only realized when the collateral pool is entirely paid off and the trust is terminated with some bond balances still outstanding.
 
-One conclusion that can be drawn is that investors in private-label MBS must have the will ingness and ability to read and understand the documents governing their holdings. Events and factors that were either not contemplated or were viewed as highly improbable can, under adverse conditions, become important in determining investor returns.
+One conclusion that can be drawn is that investors in private-label MBS must have the willingness and ability to read and understand the documents governing their holdings. Events and factors that were either not contemplated or were viewed as highly improbable can, under adverse conditions, become important in determining investor returns.
 
 
-# UNDERSTANDING THE EVOLUTION OF CREDIT PERFORMANCE WITHIN A TRANSACTION
+## UNDERSTANDING THE EVOLUTION OF CREDIT PERFORMANCE WITHIN A TRANSACTION
 
 As discussed previously, the actions and decisions taken by both borrowers and servicers, along with outside environmental factors, determine both the amount and timing of cash flows received by the trust. This behavior can be conceptualized through the use of transition matrices. Such matrices show the probability of loans moving from one credit status (or "state") to another in any month. This technique is often used as a foundation for formally modeling voluntary and involuntary speeds. We address it here, however, to help conceptualize the "life cycle" of a transaction's credit profile. The methodology offers useful techniques for demonstrating how the credit problems of obligors evolve into delinquencies and defaults and flow through a transaction over time. It is also useful in describing and quantifying how changes in the overall credit environment might impact the performance of a loan population.
 
@@ -109,28 +174,28 @@ Figure 3 CDR Projections for Different Scenarios after 12 Months
 
 "Cleanup" and "Borrower Improvement" scenarios described above.
 
-# THE PROCESS OF ESTIMATING PRIVATE-LABEL MBS RETURNS
+## THE PROCESS OF ESTIMATING PRIVATE-LABEL MBS RETURNS
 
 The analysis and valuation of private-label MBS is complicated by the need to project and account for a number of variables over and above those required to evaluate agency securities. As noted previously, the analysis requires additional metrics necessary to project the principal and interest cash flows paid to the trust, as well as how they will be allocated to the different tranches under a variety of scenarios.
 
 The additional complexity associated with private-label MBS means that the dominant metric used to assess expected returns is loss-adjusted yield. This represents the internal rate of return (IRR) for a security's projected cash flows using the additional factors and variables discussed previously after adjusting for the normal MBS-specific issues such as payment frequency and delay. The increased complexity associated with the product means that some methodologies, such as total return analysis, are infrequently utilized in evaluating credit pieces. For example, total return requires the estimation of a terminal value at the horizon for each scenario being analyzed. The complexity involved in projecting future prices makes them, and thus the analysis, quite subjective.
 
-In the following sections, we illustrate the technique described in this entry using a series of tranches, as well as the collateral, from a representative 2007-vintage hybrid ARM transaction. The three tranches examined include a super-senior (SS) tranche with  $24.2\%$  original credit support; a senior mezzanine (SM) tranche (i.e., a bond originally rated triple-A but junior in priority to the SS) with original credit support of  $5.25\%$ ; and a subordinate ("sub") bond or tranche that originally had  $3.85\%$  credit enhancement.
+In the following sections, we illustrate the technique described in this entry using a series of tranches, as well as the collateral, from a representative 2007-vintage hybrid ARM transaction. The three tranches examined include a super-senior (SS) tranche with $24.2\%$ original credit support; a senior mezzanine (SM) tranche (i.e., a bond originally rated triple-A but junior in priority to the SS) with original credit support of $5.25\%$; and a subordinate ("sub") bond or tranche that originally had $3.85\%$ credit enhancement.
 
-# Differentiating between Collateral and Tranche Losses
+## Differentiating between Collateral and Tranche Losses
 
 The various factors outlined above have interesting effects and interactions within individual transactions with respect to losses. For one thing, it is important to differentiate between losses on a deal's collateral pool (i.e., at the trust level) and those impacting individual bonds within a transaction. Private-label MBS have a variety of internal mechanisms that allocate cash flows and principal losses within the structure to tranches having different degrees of seniority. Therefore, losses absorbed by individual bonds are a function of both the losses absorbed by the trust and the amount of credit support available to them.
 
 Figure 4 shows projected losses, as a percentage of original face, for both the overall collateral pool of the deal as well as the three tranches described above. Losses were calculated using different loss severity assumptions while assuming a constant  $4\%$  VPR and CDR. (These levels are hypothetical and used for illustrative purposes only.) While the line showing projected losses on the collateral has a linear upward slope, the profile of projected losses for the tranches are quite different. For example, the SS tranche suffers no losses until severities are greater than  $50\%$ , while the SM begins to experience losses at severities greater than  $40\%$ . The sub tranche, however, has a unique loss profile. It experiences no losses until severities exceed  $30\%$ , but at that point losses spike higher; virtually the entire principal value of the bond is written off once the assumed loss severity reaches  $45\%$ . The chart highlights a critical conclusion; in addition to being different from the collateral, each bond's exposure to losses is a function of its place in the transaction's capital structure.
 
-# The Interaction of Credit Inputs
+## The Interaction of Credit Inputs
 
 There are also a series of interesting observations that can be made by comparing the yields of the three bonds under a variety of scenarios.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/dace62fc90e17665fd388ab0d3783593b38ba1653b9e0b4a0fdf2d3511d06250.jpg)
-Figure 4 Collateral and Bond Projected Losses at Different Loss Severities (assumption:  $4\%$  VPR,  $4\%$  CDR, 12-month lag)
+Figure 4 Collateral and Bond Projected Losses at Different Loss Severities (assumption: $4\%$ VPR, $4\%$ CDR, 12-month lag)
 
-For the purposes of the analysis, the bonds were all run at the hypothetical level of a  $10\%$  yield to assumptions of  $4\%$  VPR, a  $6\%$  CDR, a  $60\%$  loss severity, and a 12-month lag. (This resulted in prices of 64-12, 48-00, and 6-22 for the three securities.) Using those base-case prices, we ran a few representative scenarios in which different variables were altered, with the goal of ex ploring some of the subtleties of the different tranches' returns.
+For the purposes of the analysis, the bonds were all run at the hypothetical level of a  $10\%$  yield to assumptions of  $4\%$  VPR, a  $6\%$  CDR, a  $60\%$  loss severity, and a 12-month lag. (This resulted in prices of 64-12, 48-00, and 6-22 for the three securities.) Using those base-case prices, we ran a few representative scenarios in which different variables were altered, with the goal of exploring some of the subtleties of the different tranches' returns.
 
 
 Figure 5 shows yields on the three securities calculated using different CDR projections, assuming a constant  $4\%$  VPR along with a  $60\%$  loss severity and a 12-month lag. The yield on the SS tranche remains fairly stable (and actually increases slightly until the CDR reaches
@@ -140,7 +205,7 @@ Figure 5 Projected Yields on Different Tranches Using Different CDR (assumption:
 
 $6\%$ ). The reason for this behavior is that faster CDRs effectively increase the overall rate of prepayments to the SS tranche; however, the bond does not absorb losses until the  $6\%$  CDR level is breached due to its credit support. Given the tranche's highly discounted dollar price, the faster rate of prepayments increases its yield. By contrast, yields on the more junior tranches decline as CDRs are increased since both bonds realized losses once their limited credit support is exhausted.
 
-The rate of voluntary prepayments also influences returns for some bonds in the transaction. Figure 6 shows projected yields on the three tranches at different assumed VPRs, using a constant  $6\%$  CDR (and, as before,  $60\%$  severity and a 12-month lag assumption). While their profiles partially reflect the impact of faster prepayments on bonds with deeply discounted prices, voluntary prepayments also have a subtle impact on nonagency MBS. When voluntary prepayments increase, principal is paid back to investors at  $100\%$  of face value. This means that there is less principal outstanding that can later go into default, even if the CDR and loss sever ity are held constant. As a result, yields for the senior tranches are influenced (and in the SM's case, strongly so) by the expected voluntary prepayment speed.
+The rate of voluntary prepayments also influences returns for some bonds in the transaction. Figure 6 shows projected yields on the three tranches at different assumed VPRs, using a constant  $6\%$  CDR (and, as before,  $60\%$  severity and a 12-month lag assumption). While their profiles partially reflect the impact of faster prepayments on bonds with deeply discounted prices, voluntary prepayments also have a subtle impact on nonagency MBS. When voluntary prepayments increase, principal is paid back to investors at  $100\%$  of face value. This means that there is less principal outstanding that can later go into default, even if the CDR and loss severity are held constant. As a result, yields for the senior tranches are influenced (and in the SM's case, strongly so) by the expected voluntary prepayment speed.
 
 
 By contrast, the yield on the sub tranche class is insensitive to changes in the VPR assumption, in part as a result of its place in the deal's structure. (Subordinates generally don't receive voluntary prepayments in an overcollateralization structure unless the deal "steps down," which does not happen under these assumptions.) Its returns, however, are highly sensitive to the combination of assumptions used for CDRs, loss severities, and lags. In particular, the severity assumption plays a key role despite the fact that the bond does not receive principal under most scenarios. As a credit IO, the tranche's outstanding principal value serves as its notional value by dictating how much interest is paid to investors in any single month. Since the severity strongly influences how fast the tranche's face value is written off, it (along with the lag assumption) dictates how long the bond will remain outstanding and thus how much interest investors can expect to receive.
@@ -148,7 +213,7 @@ By contrast, the yield on the sub tranche class is insensitive to changes in the
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/c2ba81ab00a408d44a188c47b34fb14b92d11cd4aec7c6f7e8af9e8d2f145974.jpg)
 Figure 6 Projected Yields on Different Tranches Using Different VPR (assumption:  $6\%$  CDR,  $60\%$  severity, 12-month lag)
 
-# Evaluating Available Credit Support
+## Evaluating Available Credit Support
 
 Before evaluating projected yields and cash flows for a tranche, a prudent step is to assess the security's remaining credit support relative to the expected level of losses. The objective is to evaluate whether a bond's remaining credit support (i.e., the amount and proportion of bonds junior in priority) is adequate given the losses that the transaction is expected to absorb. The following discussion outlines a simple yet useful methodology for gauging a security's credit support relative to expected losses by using its current performance profile.
 
@@ -167,7 +232,7 @@ While this analysis serves as a useful first step in evaluating individual tranc
 
 Despite its limitations, however, the methodology serves as a useful first step in evaluating the credit enhancement currently supporting a tranche. In addition, investors evaluating potential purchases of newer securities will find this and related techniques particularly helpful in evaluating both the adequacy of a bond's credit support and whether it is vulnerable to a downgrade by the rating agencies.
 
-# Yield and Loss Matrix Analysis
+## Yield and Loss Matrix Analysis
 
 As noted previously, the complexities associated with the product have made loss-adjusted yield the primary metric for evaluating and comparing credit-related MBS. However, standard yield matrices must be altered in order to account for the numerous additional inputs and outputs necessary to properly evaluate private-label MBS. The additional inputs include separate entries for voluntary and involuntary prepayments, along with the inclusion of expected loss severities, lags, and servicer advances. In some cases, the analysis must also account for the presence of insurance wraps and how long they might remain in place; expectations for how long servicers will continue to advance principal and interest; and whether the deal will pass its triggers (i.e., the tests that dictate cash flow distributions within individual transactions).
 
@@ -185,23 +250,23 @@ Table 4 Example of Yield Tables for Private-Label MBS Tranches Pricing at  $10\%
 
 is also limited to showing two variables at any one time. Additional matrices would need to be constructed in order to display different factors, depending on how relevant they were to the analysis.
 
-# Model-Generated Analysis
+## Model-Generated Analysis
 
 The variables used in the above analysis can be generated in a variety of ways, depending on both investors' practices and the prevailing circumstances. During periods of relatively stable credit and housing performance, for example,
 
 Table 5 Yield and Bond Loss Matrix for Senior Mezzanine Tranche at Base-Case Price
 
-<table><tr><td rowspan="6">VPR</td><td>2</td><td>13.420/0.0\%</td><td>12.166/25.1\%</td><td>7.081/39.9\%</td><td>0.309/46.0\%</td><td>-6.665/49.2\%</td><td>-13.249/51.1\%</td></tr><tr><td>4</td><td>15.067/0.0\%</td><td>14.402/18.8\%</td><td>9.992/34.1\%</td><td>3.781/41.2\%</td><td>-2.786/45.1\%</td><td>-9.137/47.6\%</td></tr><tr><td>6</td><td>16.893/0.0\%</td><td>16.681/13.9\%</td><td>12.847/29.1\%</td><td>7.128/36.9\%</td><td>0.922/41.4\%</td><td>-5.209/44.4\%</td></tr><tr><td>8</td><td>18.890/0.0\%</td><td>19.010/9.9\%</td><td>15.681/24.8\%</td><td>10.396/33.1\%</td><td>4.515/38.1\%</td><td>-1.409/41.4\%</td></tr><tr><td>10</td><td>21.050/0.0\%</td><td>21.394/6.6\%</td><td>18.515/21.1\%</td><td>13.621/29.7\%</td><td>8.033/35.0\%</td><td>2.306/38.6\%</td></tr><tr><td>12</td><td>23.368/0.0\%</td><td>23.843/4.0\%</td><td>21.368/17.9\%</td><td>16.830/26.6\%</td><td>11.509/32.2\%</td><td>5.968/36.0\%</td></tr><tr><td></td><td></td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td></tr><tr><td></td><td></td><td colspan="6">CDR</td></tr></table> some investors may choose to simply utilize recent history for inputs such VPRs, CDRs, and loss severities, while making subjective adjustments based on an examination of the transaction's current collateral profile.
+<table><tr><td rowspan="6">VPR</td><td>2</td><td>13.420/0.0\%</td><td>12.166/25.1\%</td><td>7.081/39.9\%</td><td>0.309/46.0\%</td><td>-6.665/49.2\%</td><td>-13.249/51.1\%</td></tr><tr><td>4</td><td>15.067/0.0\%</td><td>14.402/18.8\%</td><td>9.992/34.1\%</td><td>3.781/41.2\%</td><td>-2.786/45.1\%</td><td>-9.137/47.6\%</td></tr><tr><td>6</td><td>16.893/0.0\%</td><td>16.681/13.9\%</td><td>12.847/29.1\%</td><td>7.128/36.9\%</td><td>0.922/41.4\%</td><td>-5.209/44.4\%</td></tr><tr><td>8</td><td>18.890/0.0\%</td><td>19.010/9.9\%</td><td>15.681/24.8\%</td><td>10.396/33.1\%</td><td>4.515/38.1\%</td><td>-1.409/41.4\%</td></tr><tr><td>10</td><td>21.050/0.0\%</td><td>21.394/6.6\%</td><td>18.515/21.1\%</td><td>13.621/29.7\%</td><td>8.033/35.0\%</td><td>2.306/38.6\%</td></tr><tr><td>12</td><td>23.368/0.0\%</td><td>23.843/4.0\%</td><td>21.368/17.9\%</td><td>16.830/26.6\%</td><td>11.509/32.2\%</td><td>5.968/36.0\%</td></tr><tr><td></td><td></td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td></tr><tr><td></td><td></td><td colspan="6">CDR</td></tr></table> some investors may choose to simply utilize recent history for inputs such as VPRs, CDRs, and loss severities, while making subjective adjustments based on an examination of the transaction's current collateral profile.
 
 
 Alternatively, some investors may choose to utilize more sophisticated analysis, which can incorporate both the attributes of a deal's collateral along with exogenous economic and market variables. The models can be further incorporated into integrated systems that generate yield and loss figures while simultaneously analyzing and stratifying the collateral. Partial output from such an integrated system is shown in Table 6. The exhibit shows a yield matrix from Vichara Technology's system for the SS tranche. The matrix shows a variety of outputs at different multiples of the prepayment and default models, assuming unchanged home prices and interest rates. In addition, separate tables generated by the analysis (not shown) display the current credit structure of the deal, the tranche's cash flows, and analyses of the collateral. (The model also allows for the generation of a "credit OAS," although this metric is not widely utilized by investors at this writing due to its sensitivity to modeling error.)
 
-Additional analysis can be generated for different home price appreciation (HPA) and interest rate assumptions. For example, a conservative set of assumptions might call for a 100 basis point parallel increase in rates accompanied by a  $10\%$  immediate decline in home prices. In addition, models for HPA that project different appreciation rates based on geographic and economic factors can also be utilized.
+Additional analysis can be generated for different home price appreciation (HPA) and interest rate assumptions. For example, a conservative set of assumptions might call for a 100 basis point parallel increase in rates accompanied by a $10\%$ immediate decline in home prices. In addition, models for HPA that project different appreciation rates based on geographic and economic factors can also be utilized.
 
 In the case of private-label securities, the normal challenge of assessing a model's "reasonableness" is complicated by the interactive nature of the variables. Unlike agency securities, where "model-equivalent CPRs" can be easily estimated (i.e., the bond's average life is iteratively calculated at various CPRs until it equals the model's calculated WAL), the division of prepayments into voluntary and involuntary categories means that a model- equivalent CDR cannot be calculated unless the VPR is held constant, and vice versa. This necessitates the need for additional output in order to view and judge the model's VPR and CDR projections.
 
 
-# Interpreting the Outputs
+## Interpreting the Outputs
 
 The analysis and valuation of most securities (and virtually all fixed income investments) can be broadly summarized as assessing the "correct" level of expected returns given both market conditions and the bond's risks. This means that a number of factors need to be evaluated, including:
 
@@ -211,7 +276,7 @@ The analysis and valuation of most securities (and virtually all fixed income in
 
 The relative complexity of analyzing private-label MBS, particularly compared to evaluating agency-backed securities, results from both the multiplicity of factors influencing returns as well as the many exogenous elements that drive these factors.
 
-For example, a cursory evaluation of the yield matrix for the SM tranche (contained in Table 4(B)) indicates that the bond's projected yields decline rapidly as CDRs are increased. However, the matrix in Table 5 also shows that the tranche's yields remain relatively high if VPRs increase commensurately with CDRs (i.e., in the lower-right quadrant of the matrix). Alternatively, its projected yields are negative when higher CDRs are paired with lower VPRs (in the upper-right quadrant), while yields greater than  $20\%$  can be achieved with a combination of fast VPRs and slowing CDRs (the lower-left quadrant). If an investor decides that the combination of VPRs and CDRs in the upper-right quadrant represents a likely scenario, the negative yields projected for such scenarios indicates that the base-case yield assumption is too low to compensate investors for the risks being accepted.
+For example, a cursory evaluation of the yield matrix for the SM tranche (contained in Table 4(B)) indicates that the bond's projected yields decline rapidly as CDRs are increased. However, the matrix in Table 5 also shows that the tranche's yields remain relatively high if VPRs increase commensurately with CDRs (i.e., in the lower-right quadrant of the matrix). Alternatively, its projected yields are negative when higher CDRs are paired with lower VPRs (in the upper-right quadrant), while yields greater than $20\%$ can be achieved with a combination of fast VPRs and slowing CDRs (the lower-left quadrant). If an investor decides that the combination of VPRs and CDRs in the upper-right quadrant represents a likely scenario, the negative yields projected for such scenarios indicates that the base-case yield assumption is too low to compensate investors for the risks being accepted.
 
 Utilizing just these two variables, the analysis requires investors to assess the returns of
 
@@ -233,7 +298,7 @@ Note that this entry's discussions were focused on the evaluation of legacy bond
 Finally, noticeably absent from these discussions were any mention of the rating agencies. Bond ratings cannot and should never substitute for rigorous analysis, as investors that experienced the post-2007 credit meltdown can attest. Ratings are relevant mainly due to constraints and restrictions on the holdings of regulated investors; when bond holdings are downgraded to below investment grade, many investors are forced to liquidate them, causing their prices to crater. Techniques similar to the coverage ratios outlined previously can be used to monitor the adequacy of bonds' credit support and identify bonds that are vulnerable to being downgraded.
 
 
-# KEY POINTS
+## KEY POINTS
 
 - In the analysis of agency MBS, since the government backing of these securities eliminates investors' exposure to principal writedown, the focus is on estimating the timing of principal cash flows.
 - Private-label securities require layers of additional analysis because of the introduction of a series of additional factors that determine the bond's cash flows and thus their projected returns. These factors can be broadly characterized as (1) the amount of principal expected to be returned, (2) the timing of principal returns, and (3) the allocation of principal within the transaction.
@@ -245,7 +310,7 @@ Finally, noticeably absent from these discussions were any mention of the rating
 - Before evaluating projected yields and cash flows for a tranche, a prudent step is to assess the security's remaining credit support relative to the expected level of losses. The objective is to evaluate whether a bond's remaining credit support (i.e., the amount and proportion of bonds junior in priority) is adequate given the losses that the transaction is expected to absorb.
 - The relative complexity of analyzing private-label MBS, particularly compared to evaluating agency-backed securities, results from both the multiplicity of factors influencing returns as well as the many exogenous elements that drive these factors. The most difficult aspect of the analysis is generating expectations for factors that are difficult or impossible to quantify.
 
-# NOTES
+## NOTES
 
 1. For an explanation of nonagency MBS, see Fabozzi (2005) and Fabozzi, Bhattacharya, and Berliner (2011).
 
@@ -255,7 +320,7 @@ Finally, noticeably absent from these discussions were any mention of the rating
 5. The analysis utilized CWALT 07-HY8C A1, A2, and M1.
 6. The system utilizes the deal libraries of Intex Solutions; the analysis shown used models and data provided by CoreLogic.
 
-# REFERENCES
+## REFERENCES
 
 Fabozzi, F. J. (2005). The Handbook of Mortgage-Backed Securities. New York: McGraw-Hill.
 

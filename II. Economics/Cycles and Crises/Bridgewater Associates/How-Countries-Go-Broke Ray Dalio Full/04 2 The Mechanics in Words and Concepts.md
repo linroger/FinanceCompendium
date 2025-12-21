@@ -1,37 +1,29 @@
 ---
-aliases:
-- The Mechanics in Words and Concepts
-tags: null
-key_concepts: null
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
-  Ray Dalio Full
+title: "04 2 The Mechanics in Words and Concepts"
+parent_directory: "II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full"
 cssclasses: academia
-title: '04 - Chapter 2: The Mechanics in Words and Concepts'
 primary_tags:
-- restructuring process
-- economic system
-- credit expansions
-- big cycle
-- artificial intelligence
+  - economic mechanics
+  - debt credit cycles
+  - market dynamics
+  - central banking
+  - fiscal policy
 secondary_tags:
-- debt/credit/money/economic dynamic
-- debt/credit/money/market/economic cycles
-- prior big debt cycle
-- internal political order/disorder cycle
-- disorder cycle
-- debt cycle transpires
-- 5) human inventiveness
-- long-term government debt
-- big debt restructurings
-- big debt crisis periods
-- four other big forces
-- long term
-tags_extracted: '2025-12-18T18:02:13.645337'
-tags_method: max_quality_v1
+  - transaction analysis
+  - supply demand dynamics
+  - monetary policy
+  - debt restructuring
+  - inflation dynamics
+  - productivity growth
+  - capital flows
+  - currency valuation
+  - economic cycles
+  - financial crises
 ---
 
-# 04_2_The_Mechanics_in_Words_and_Concepts
-## THE MECHANICS IN WORDS AND CONCEPTS
+# 04 2 The Mechanics in Words and Concepts
+
+## The Mechanics in Words and Concepts
 
 This chapter is about how the market and the economy work. It provides some unconventional concepts about the mechanics that have helped me a lot and that I believe would be valuable for professionals and aspiring professionals but may be beyond the interests of others. If you don't have much interest in the mechanics, I suggest just reading the bold material, and if that becomes too much, skipping the rest of this chapter and going to the next one.
 

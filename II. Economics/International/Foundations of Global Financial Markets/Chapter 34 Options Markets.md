@@ -1,78 +1,40 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: '34'
-linter-yaml-title-alias: '34'
+title: "Options Markets"
+parent_directory: "II. Economics/International/Foundations of Global Financial Markets"
+formatted: "2025-12-21 03:00:00 AM"
+formatter_model: "grok-code-fast-1"
+cli-tool: "opencode"
 primary_tags:
-- greater long position example
-- 34 options markets contents
-- differences options futures contracts
-- options market institutional
+  - "options markets"
+  - "derivative securities"
+  - "call options"
+  - "put options"
+cssclasses: academia
 secondary_tags:
-- 34 holds buyers options
-- options writing selling
-- role options markets options
-- trading futures options reasons
-- characteristics options buying options
-- option contract basic features
-- sharing arrangements options contracts
-- aspects non options markets
-- market does futures market
-tags_extracted: '2025-12-18T00:27:47.021235'
+  - "american options"
+  - "european options"
+  - "futures options"
+  - "stock options"
+  - "index options"
+  - "exotic options"
+  - "hedging strategies"
+  - "risk return characteristics"
+  - "option pricing"
+  - "option contracts"
+  - "exercise styles"
+  - "margin requirements"
+  - "exchange traded options"
+  - "over the counter options"
+  - "futures contracts comparison"
+  - "insurance arrangements"
+  - "long term equity anticipation securities"
+  - "flex options"
+  - "alternative options"
+  - "outperformance options"
+  - "cash settlement"
 ---
 
-# 34
-
 # Options Markets
-
-# CONTENTS
-
-Learning Objectives
-
-Options Contracts
-
-Differences between Options and Futures Contracts
-
-Risk and Return Characteristics of Options
-
-Buying Call Options
-
-Writing (Selling) Call Options
-
-Buying Put Options
-
-Writing (Selling) Put Options
-
-Considering the Time Value of Money
-
-Economic Role of the Options Markets
-
-U.S. Options Markets
-
-Stock Options
-
-Stock Index Options
-
-Long-Term Equity Anticipation Securities
-
-Interest Rate Options
-
-FLEX Options
-
-Exotic Options
-
-Futures Options
-
-Mechanics of Trading Futures Options
-
-Reasons for the Popularity of Futures Options
-
-Key Points
-
-Questions
 
 Learning Objectives
 
@@ -96,7 +58,7 @@ After reading this chapter, you will understand:
 
 In chapter 33, we introduced a derivative instrument, a futures contract. In this chapter, we introduce another derivative contract, an options contract, and we discuss the differences between the two. In particular, in chapter 33, we explained how derivatives transfer risk by either a risk-sharing arrangement or an insurance arrangement. Unlike futures contracts, which are risk-sharing arrangements, options contracts are insurance arrangements. In chapter 35, we show how to determine the price of an option, and in chapter 36, we explain how market participants can use these contracts.
 
-# Options Contracts
+## Options Contracts
 
 There are two parties to an options contract: the buyer and the writer (also called the "seller"). In an options contract, the writer of the option grants the buyer of the option the right, but not the obligation, to purchase from or sell to the writer something at a specified price in a specified period of time (or on a specified date). The writer grants this right to the buyer in exchange for a certain sum of money, which is called the option price or option premium. The price at which the underlying (that is, the asset or commodity) may be bought or sold is called the exercise price or strike price. The date after which an option is void is called the expiration date or maturity date. Our focus in this chapter is on options for which the underlying is a financial instrument or financial index.
 
@@ -120,7 +82,7 @@ Options, like other financial instruments, may be traded either on an organized 
 
 The higher cost of an OTC option reflects the cost of customizing the option for the common situation where an institutional investor needs to have a tailor-made option because the standardized exchange-traded option does not satisfy its investment objectives. Investment banking firms and commercial banks act as principals as well as brokers in the OTC options market. Most institutional investors are not concerned that an OTC option is less liquid than an exchange-traded option because they use OTC options as part of an asset/liability strategy in which they intend to hold them to expiration.
 
-# Differences between Options and Futures Contracts
+## Differences between Options and Futures Contracts
 
 One distinction between futures and options contracts is that one party to an option contract is not obligated to transact at a later date. Specifically, the option buyer has the right but not the obligation to exercise the option. However, the option writer (seller) does have the obligation to perform, if the buyer of the option insists on exercising it. In the case of a futures contract, both buyer and seller are obligated to perform. Of course, a futures buyer does not pay the seller to accept the obligation, whereas an options buyer pays the seller an option price.
 
@@ -132,7 +94,7 @@ We will return to the difference between options and futures later in this chapt
 
 Here we illustrate the risk and return characteristics of the four basic option positions: buying a call option (which market participants refer to as being long a call option), selling a call option (short a call option), buying a put option (long a put option), and selling a put option (short a put option). The illustrations assume that each option position is held to the expiration date and is not exercised early. To simplify the illustrations, we ignore transactions costs.
 
-# Buying Call Options
+### Buying Call Options
 
 Assume that there is a call option on Asset XYZ that expires in one month and has a strike price of  \$100. The option price is\$ 3. Suppose that the current price of Asset XYZ is 100. What is the profit or loss for the investor who purchases this call option and holds it to the expiration date?
 
@@ -207,7 +169,7 @@ This hypothetical example demonstrates another important feature of options: the
 
 It is this greater leverage that attracts investors to options when they wish to speculate on price movements. Leverage does have some drawbacks, however. Suppose that Asset XYZ's price is unchanged at  \$100 at the expiration date. In this case, the long call position (33.33 options) results in a loss of the entire investment of\$ 100, and the long position in Asset XYZ produces neither a gain nor a loss.
 
-Writing (Selling) Call Options
+#### Writing (Selling) Call Options
 
 To illustrate the option seller's (writer's) position, we use the same call option as in the example of buying a call option. The profit and loss profile of the short call position (that is, the position of the call option writer) is the mirror image of the profit and loss profile of the long call position (the position of the call option buyer). Consequently, the profit of the short call position for any given price of Asset XYZ at the expiration date is the same as the loss of the long call position. Furthermore, the maximum profit that the short call position can produce is the option price. The maximum loss is not limited, because it is the highest price reached by Asset XYZ on or before the expiration date, less the option price; this price can be indefinitely high. These relationships can be seen in figure 34.2, which shows the profit/loss profile for a short call position.
 
@@ -215,7 +177,7 @@ To illustrate the option seller's (writer's) position, we use the same call opti
 
 Figure 34.2 Profit/loss profile for a short call position.
 
-# Buying Put Options
+### Buying Put Options
 
 To illustrate the position of the buyer of a put option, we assume a hypothetical put option on one unit of Asset XYZ with one month to maturity and a strike price of  \$100. Assume that the put option is selling for\$ 2 and that the current price of Asset XYZ is 100. The profit or loss for this position at the expiration date depends on the market price of Asset XYZ. The possible outcomes are:
 
@@ -270,7 +232,7 @@ b. If the price of Asset XYZ is equal to  \$102, the loss will be\$ 2, the same 
 
 Table 34.3 presents a detailed account of this comparison of the profit and loss profiles for the long put position and short position in Asset XYZ. Although the investor who takes a short position in Asset XYZ faces all the downside risk as well as the upside potential, the long put position limits the downside risk to the option price while still maintaining upside potential (reduced only by an amount equal to the option price).
 
-Writing (Selling) Put Options
+#### Writing (Selling) Put Options
 
 The profit/loss profile for a short put option is the mirror image of that for the long put option. The maximum profit from this position is the option price. The theoretical maximum loss can be substantial should the price of the underlying asset fall; however, if the price were to fall all the way to zero, the loss would be as large as the strike price less the option price. Figure 34.4 graphically depicts this profit and loss profile.
 
@@ -290,7 +252,7 @@ The time value of money changes the profit/loss profile of the option positions 
 
 Our comparisons of the option position with long and short positions in the underlying asset also ignore the time value of money. We have not considered the fact that the underlying asset may generate interim cash flows (dividends in the case of common stock, interest in the case of bonds). The buyer of a call option is not entitled to any interim cash flows generated by the underlying asset. However, the buyer of the underlying asset would receive any interim cash flows and would have the opportunity to reinvest them. A complete comparison of the long call option position and the long position in the underlying asset must take into account the additional dollars from reinvesting any interim cash flows. Moreover, any effect on the price of the underlying asset as a result of the distribution of cash must be considered. This occurs, for example, when the underlying asset is common stock and, as a result of a dividend payment, the stock declines in price.
 
-# Economic Role of the Options Markets
+## Economic Role of the Options Markets
 
 Futures contracts allow investors to hedge the risks associated with adverse price movements. Hedging with futures lets a market participant lock in a price and thereby eliminates price risk. In the process, however, the investor gives up the opportunity to benefit from a favorable price movement. In other words, hedging with futures involves trading off the benefits of a favorable price movement for protection against an adverse price movement.
 
@@ -316,11 +278,11 @@ It should be clear now how hedging with options differs from hedging with future
 
 Although our focus has been on hedging price risk, options also allow investors an efficient way to expand the range of return characteristics available. That is, investors can use options to "shape" a return distribution for a portfolio to fit particular investment objectives.[2]
 
-# U.S. Options Markets
+## U.S. Options Markets
 
 There are a variety of options traded throughout the world. Here we provide a survey of the major ones, focusing on the United States but also mentioning other markets.
 
-# Stock Options
+### Stock Options
 
 In the United States, exchange-traded stock options are for 100 shares of a designated common stock. The major U.S. exchanges where options are traded are the Chicago Board Options Exchange (CBOE), the New York Stock Exchange (NYSE), and the Nasdaq.
 

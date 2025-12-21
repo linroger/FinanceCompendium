@@ -1,42 +1,33 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: '33'
-linter-yaml-title-alias: '33'
+title: Financial Futures Markets
+parent_directory: Foundations of Global Financial Markets
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- sharing price risk futures
-- forward contracts role
-- futures exchanges investors want
-- futures contracts come margin
-- futures contracts financial markets
+- financial derivatives
+- futures contracts
+- risk transfer vehicles
+- clearinghouse
+- margin requirements
 secondary_tags:
-- p500 futures contract cme
-- derivatives classified futures forwards
-- size futures contract settlement
-- single stock futures traded
-- futures contract short required
-- futures security indexes narrow
-- futures contract sold instead
-- futures contracts controlling long
-- single stock futures type
-- open futures position
-- stock futures 20 different
-- insurance arrangement derivatives
-tags_extracted: '2025-12-18T00:27:30.058869'
+- leverage in futures
+- forward contracts
+- risk-sharing arrangements
+- insurance arrangements
+- stock index futures
+- interest rate futures
+- currency futures
+cssclasses: academia
 ---
-
-# 33
 
 # Financial Futures Markets
 
-# CONTENTS
+## Contents
 
-# Learning Objectives
+## Learning Objectives
 
-# Futures Contracts
+## Futures Contracts
 
 Liquidating a Position
 
@@ -135,7 +126,7 @@ The buyer of a futures contract will realize a profit if the futures price incre
 
 If the futures price falls to \$40 and Sally buys the contract, she realizes a profit of \$60 because she agreed to sell Asset XYZ for 100, and now can buy it for \$40. Bob would realize a loss of \$60. Thus, if the futures price decreases, the buyer of the futures contract realizes a loss, and the seller of the futures contract realizes a profit.
 
-# Liquidating a Position
+## Liquidating a Position
 
 Depending on the contract, there is a predetermined time in the contract settlement month that the contract stops trading, and a price is determined by the exchange for settlement of the contract. The contract with the closest settlement date is called the nearby futures contract. The next futures contract is the one that settles just after the nearby contract. The contract farthest away in time from settlement is called the most distant (or deferred) futures contract.
 
@@ -147,7 +138,7 @@ A useful statistic measuring the liquidity of a contract is the number of contra
 
 An open interest figure is reported by an exchange for all futures contracts traded on the exchange.
 
-# Role of the Clearinghouse
+## Role of the Clearinghouse
 
 Associated with every futures exchange is a clearinghouse, which performs several functions. One of these functions is to guarantee that the two parties to the transaction will perform according to the contract. To see the importance of this function, consider potential problems in the futures transaction described earlier from the perspective of the two parties—Bob the buyer and Sally the seller. Each must be concerned with the other's ability to fulfill the obligation at the settlement date. Suppose that at the settlement date, the price of Asset XYZ in the cash market is  \$70. Sally can buy Asset XYZ for\$ 70 and deliver it to Bob, who in turn must pay her \$100. If Bob does not have the capacity to pay \$100 or refuses to pay, however, Sally has lost the opportunity to realize a profit of \$30. Suppose, instead, that the price of Asset XYZ in the cash market is \$150 at the settlement date. In this case, Bob is ready and willing to accept delivery of Asset XYZ and pay the agreed-on price of \$100. If Sally cannot deliver or refuses to deliver Asset XYZ, Bob has lost the opportunity to realize a profit of \$50.
 
@@ -157,7 +148,7 @@ Besides its guarantee function, the clearinghouse makes it simple for parties to
 
 The importance of a clearinghouse to the success of a derivatives market in general cannot be overemphasized. As explained in chapter 37, some derivatives have provoked increasing concerns about counterparty risk, particularly following the recent financial crisis and the failure of Lehman Brothers. As a result, international agreements have sought to ensure that an effective clearinghouse mechanism is implemented.
 
-# Margin Requirements
+## Margin Requirements
 
 When a position is first taken in a futures contract, the investor must deposit a minimum dollar amount per contract as specified by the exchange. This amount, called initial margin, is required as a deposit for the contract. Individual brokerage firms are free to set margin requirements above the minimum established by the exchange. The initial margin may be in the form of an interest-bearing security. As the price of the futures contract fluctuates each trading day, the value of the investor's equity in the position changes. The equity in a futures account is the sum of all margins posted and all daily gains less all daily losses to the account. We develop this important concept throughout this section.
 
@@ -179,7 +170,7 @@ Now, let's look at Sally's position. Sally as the seller of the futures contract
 
 3, she realizes a loss of \$500 with the increase of the price from $97 to $98. This results in a reduction of her equity to \$3,000. Finally, on trading day 4, she realizes a profit of \$1,000, making her equity \$4,000. She can withdraw 500.
 
-# Leveraging Aspect of Futures
+## Leveraging Aspect of Futures
 
 A party taking a position in a futures contract need not put up the entire amount of the investment. Instead, the exchange or clearinghouse requires only the initial margin to be put up. To see the crucial consequences of this fact, suppose Bob has \$100 and wants to invest in Asset XYZ, because he believes its price will appreciate. If Asset XYZ is selling for \$100, he can buy one unit of the asset. His payoff will then be based on the price action of one unit of Asset XYZ.
 
@@ -187,29 +178,15 @@ Suppose further that the exchange where the futures contract for Asset XYZ is tr
 
 At first, the leverage available in the futures market may suggest that the market benefits mainly those who want to speculate on price movements. As we shall see in chapter 35, however, futures markets can also be used to reduce price risk. Without the leverage possible in futures transactions, the cost of reducing price risk using futures would be too high for many market participants.
 
-# Daily Price Limits
+## Daily Price Limits
 
-The exchange has the right to impose a limit on the daily price movement of a futures contract from the previous day's closing price. A daily price limit sets the minimum and maximum price at which the futures contract may trade that day. When a daily price limit is reached, trading does not stop but rather continues at a price that does not violate the minimum or maximum price.
+## Futures versus Forward Contracts
 
-The rationale offered for the imposition of daily price limits is that they provide stability to the market at times when new information may cause the futures price to exhibit extreme fluctuations. Those who support daily price limits argue that giving market participants time to digest or reassess such information if price is restricted when price limits would be violated gives them greater confidence in the market. Not all economists agree with this rationale. The question of the role of daily price limits and whether they are necessary remains the subject of extensive debate.
-
-# Futures versus Forward Contracts
-
-A forward contract, just like a futures contract, is an agreement for the future delivery of the underlying at a specified price at the end of a designated period. Futures contracts are standardized agreements as to the delivery date (or month) and quality of the deliverable, and they are traded on organized exchanges. A forward contract is usually nonstandardized, because the terms of each contract are negotiated individually between buyer and seller. Also, there is no clearinghouse for trading forward contracts, and secondary markets are often nonexistent or extremely thin. Unlike a futures contract, which is an exchange-traded product, a forward contract is an over-the-counter (OTC) instrument.
-
-Although both futures and forward contracts set forth terms of delivery, futures contracts are not intended to be settled by delivery. In fact, generally fewer than  $2\%$  of outstanding futures contracts are settled by delivery. In contrast, forward contracts are intended for delivery.
-
-Futures contracts are marked to market at the end of each trading day. Consequently, futures contracts are subject to interim cash flows, as additional margin may be required in the case of adverse price movements, or as an investor who has experienced favorable price movements withdraws any cash that exceeds the account's margin requirement. A forward contract may or may not be marked to market, depending on the wishes of the two parties. For a forward contract that is not marked to market, there are no interim cash flow effects, because no additional margin is required.
-
-Finally, the parties in a forward contract are exposed to credit risk, because either party may default on the obligation. Credit risk is minimal in the case of futures contracts, because the clearinghouse associated with the exchange guarantees the other side of any transaction.
-
-Other than these differences, which reflect the institutional arrangements in the two markets, most of what we say about futures contracts applies equally to forward contracts.
-
-# Risk-Sharing versus Insurance Arrangements
+## Risk-Sharing versus Insurance Arrangements
 
 As mentioned at the outset of this chapter, derivatives allow for the transfer of risk. The two types of risk transfer arrangements are risk-sharing and insurance arrangements.
 
-# Risk-Sharing Arrangements
+## Risk-Sharing Arrangements
 
 Futures and forward contracts are risk-sharing arrangements because of the nature of the payoff of futures contracts. For simplicity, let us consider a commodity futures contract rather than a financial futures contract.
 
@@ -223,21 +200,9 @@ This payoff pattern is referred to as a symmetric payoff. Because in such a payo
 
 Interest rate and equity swaps are other types of derivatives that are risk-sharing arrangements.
 
-# Insurance Arrangements
+## Insurance Arrangements
 
-Now that we understand what a risk-sharing arrangement for transferring price risk is, let's look at another way of managing the price risk faced by the two parties in our illustration and introduce a solution from the perspective of the manufacturing firm. By doing so, we will clarify the concept of an insurance arrangement.
-
-Suppose that some third party is willing to ensure that the manufacturing firm will not have to pay more than \$101 per barrel for crude oil three months from now. Basically, this would be an insurance contract that the third party would provide. It would specify that for a fee, which is effectively an insurance premium, the manufacturing firm is guaranteed not to have to pay more than \$101 per barrel for crude oil three months from now. Let's assume that the insurance premium is 1.50 per barrel.
-
-Effectively, the manufacturing firm is establishing a maximum price for crude oil of \$102.50 per barrel, the price of \$101 under the insurance contract plus the insurance premium of \$1.50. Suppose that the price of crude oil increases to more than \$101 per barrel three months from now. Then the manufacturing firm will require the insurer to sell the manufacturing firm crude oil for \$101 per barrel. The manufacturing firm effectively pays \$102.50 and avoids the higher price. Now suppose the price of crude oil declines to \$98 per barrel. The manufacturing firm then just walks away from the agreement (remember, the contract allows but does not require the manufacturing firm to buy the crude oil), losing only the \$1.50 insurance premium.
-
-Effectively, the manufacturing firm pays \$99.50 per barrel (\$98 + 1.50). In this way, the manufacturing firm benefits from a favorable price movement for crude oil but limits the loss to the insurance premium. From the third party's perspective (effectively, the insurer's), there is considerable downside risk, and the upside potential is limited to the insurance premium. This type of payoff is referred to as a "nonlinear payoff," and hence, derivatives with this attribute are referred to as nonlinear payoff derivatives or asymmetric payoff derivatives.
-
-This type of payoff occurs, because unlike the case of a linear payoff derivative, where both parties are required to act, with a nonlinear payoff derivative, only one party is required to perform: the party providing the insurance. In terms of their economic function, nonlinear payoff derivatives are equivalent to insurance, so they are often referred to as insurance arrangements.
-
-What type of derivative has this type of payoff? As we will see in the chapter 34, options fall into this category of derivatives.
-
-# Stock-Related Contracts
+## Stock-Related Contracts
 
 In this section, we describe major stock-related futures contracts. Stock-related futures contracts include broad-based stock index futures, narrow-based stock index futures, and single-stock futures. Another type of equity-related futures contract is one where the underlying is some measure of stock market volatility.
 

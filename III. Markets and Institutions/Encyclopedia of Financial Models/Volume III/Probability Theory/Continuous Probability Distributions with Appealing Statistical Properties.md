@@ -1,3 +1,27 @@
+---
+title: "Continuous Probability Distributions with Appealing Statistical Properties"
+parent_directory: "Probability Theory"
+formatted: "2025-12-21 07:30:00 AM"
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - probability distributions
+  - statistical properties
+  - continuous distributions
+  - financial modeling
+secondary_tags:
+  - normal distribution
+  - chi-square distribution
+  - student t-distribution
+  - exponential distribution
+  - gamma distribution
+  - beta distribution
+  - log-normal distribution
+  - f-distribution
+  - rectangular distribution
+  - erlang distribution
+cssclasses: academia
+---
 
 # Continuous Probability Distributions with Appealing Statistical Properties
 
@@ -16,19 +40,23 @@ Professor of Finance, EDHEC Business School
 
 Abstract: To model the behavior of certain financial assets in a stochastic environment, we can usually resort to a variety of theoretical distributions. Most commonly, probability distributions are selected that are analytically well known. For example, the normal distribution is often the distribution of choice when asset returns are modeled, or the exponential distribution is applied to characterize the randomness of the time between two successive defaults of firms in a bond portfolio. Many other distributions are related to them or built on them in a well-known manner. These distributions often display pleasant features such as stability under summation—meaning that the return of a portfolio of assets whose returns follow a certain distribution again follows the same distribution. However, one has to be careful using these distributions since their advantage of mathematical tractability is often outweighed by the fact that the stochastic behavior of the true asset returns is not well captured by these distributions.
 
-In this entry, we discuss the more commonly used distributions with appealing statistical properties that are used in finance. The distributions discussed are the normal distribution, the chi-square distribution, the Student's  $t$ -distribution, the Fisher's  $F$ -distribution, the exponential distribution, the gamma distribution (including the special Erlang distribution), the beta distribution, and the log-normal distribution. Many of the distributions enjoy widespread attention in finance, or statistical applications in general, due to their well-known characteristics or mathematical simplicity. However, as we emphasize, the use of some of them might be ill-suited to replicate the real-world behavior of financial returns. For a more technical discussion of continuous distributions, see Evans, Hastings,
+In this entry, we discuss the more commonly used distributions with appealing statistical properties that are used in finance. The distributions discussed are the normal distribution, the chi-square distribution, the Student's $t$-distribution, the Fisher's $F$-distribution, the exponential distribution, the gamma distribution (including the special Erlang distribution), the beta distribution, and the log-normal distribution. Many of the distributions enjoy widespread attention in finance, or statistical applications in general, due to their well-known characteristics or mathematical simplicity. However, as we emphasize, the use of some of them might be ill-suited to replicate the real-world behavior of financial returns. For a more technical discussion of continuous distributions, see Evans, Hastings, and Peacock (2000) or Johnson, Kotz, and Balakrishnan (1995).
 
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/670d1a24c71cd531ccdce24ccd2db8614f49898d792fb55e135b8cd0d79f8539.jpg) and Peacock (2000) or Johnson, Kotz, and Balakrishnan (1995).
+![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/670d1a24c71cd531ccdce24ccd2db8614f49898d792fb55e135b8cd0d79f8539.jpg)
 Figure 1 Normal Density Function for Various Parameter Values
-
 
 # NORMAL DISTRIBUTION
 
 The first distribution we discuss is the normal distribution. It is the distribution most commonly used in finance despite its many limitations. This distribution, also referred to as the Gaussian distribution (named after the mathematician and physicist C. F. Gauss), is characterized by the two parameters: mean  $(\mu)$  and standard deviation  $(\sigma)$ . The distribution is denoted by  $N(\mu, \sigma^2)$ . When  $\mu = 0$  and  $\sigma^2 = 1$ , then we obtain the standard normal distribution.
 
-For  $x\in R$  , the density function for the normal distribution is given by
-The density in equation (1) is always positive. Hence, we have support (i.e., positive density) on the entire real line. Furthermore, the density function is symmetric about  $\mu$ . A plot of the density function for several parameter values is given in Figure 1. As can be seen, the value of  $\mu$  results in a horizontal shift from 0 while  $\sigma$  inflates or deflates the graph. A characteristic of the normal distribution is that the densities are bell shaped.
+For $x\in R$, the density function for the normal distribution is given by
+
+$$
+f (x) = \frac{1}{\sqrt{2 \pi} \sigma} \cdot e^{\frac{(x - \mu)^{2}}{2 \sigma^{2}}} \tag {1}
+$$
+
+The density in equation (1) is always positive. Hence, we have support (i.e., positive density) on the entire real line. Furthermore, the density function is symmetric about $\mu$. A plot of the density function for several parameter values is given in Figure 1. As can be seen, the value of $\mu$ results in a horizontal shift from 0 while $\sigma$ inflates or deflates the graph. A characteristic of the normal distribution is that the densities are bell shaped.
 
 A problem is that the distribution function cannot be solved for analytically and therefore has to be approximated numerically. In the particular case of the standard normal distribution, the values are tabulated. Standard statistical software provides the values for the standard normal distribution as well as most of the distributions presented in this entry. The standard normal distribution is commonly denoted by the Greek letter  $\Phi$  such that we have  $\Phi (x) = F(x) = P(X\leq x)$ , for some standard normal random variable  $X$ . In Figure 2, graphs of the distribution function are given for three different sets of parameters.
 
@@ -112,7 +140,7 @@ $$ where  $S_{1}$  is the stock price after one day. The exponent  $X$  in this 
 
 
 $$
-\begin{array}{l} P (X \leq 0. 0 1) = \int_{- \infty}^{0. 0 1} f (x) d x \\ = \int_{- \infty}^{0. 0 1} \frac{1}{\sqrt{2 \pi} \sqrt{0 . 2}} e^{- \frac{x^{2}}{2 \cdot 0 . 2}} d x \approx 0. 5 1 \\ \end{array}
+\begin{array}{l} P (X \leq 0.01) = \int_{-\infty}^{0.01} f (x) d x \\ = \int_{-\infty}^{0.01} \frac{1}{\sqrt{2 \pi} \sqrt{0.2}} e^{- \frac{x^{2}}{2 \cdot 0.2}} d x \approx 0.51 \\ \end{array}
 $$
 
 Consequently, after one day, the stock price increases, at most, by  $1\%$  with  $51\%$  probability, that is,  $P(S_{1} \leq 1.01 \cdot S_{0}) \approx 0.51$ .
@@ -472,7 +500,7 @@ $$ with variance
 
 
 $$
-V a r (X) = \frac{c}{\lambda^{2}}
+\operatorname{Var}(X) = \frac{c}{\lambda^{2}}
 $$
 
 # Erlang Distribution
@@ -485,7 +513,6 @@ $$ is distributed  $G a(\lambda, c)$  such that the resulting distribution funct
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/89b00dc6c617e7166ccfaec40eab079da59dd022364a5e128f15b8efaac1cf14.jpg)
 Figure 12 Density Function of a Beta Distribution  $Be(c, d)$
-
 
 $$
 F (s) = \left\{ \begin{array}{c c} 0 & s <   0 \\ 1 - e^{- \lambda s} \sum_{i = 1}^{c - 1} \frac{(\lambda s)^{i}}{i !}, & s \geq 0 \end{array} \right.
@@ -573,25 +600,25 @@ $$ follows a log-normal distribution with parameters  $\mu$  and  $\sigma$ , tha
 
 
 $$
-\begin{array}{l} P \left(S_{1} > 1 2 0\right) = P \left(S_{0} e^{X} > 1 2 0\right) \\ = P (1 0 0 \cdot e^{X} > 1 2 0) \\ \end{array}
+\begin{array}{l} P \left(S_{1} > 120\right) = P \left(S_{0} e^{X} > 120\right) \\ = P (100 \cdot e^{X} > 120) \\ \end{array}
 $$
 
 This corresponds to
 
 $$
-\begin{array}{l} P \left(\frac{S_{1}}{S_{0}} > \frac{1 2 0}{S_{0}}\right) = P \left(e^{X} > 1. 2 0\right) \\ = 1 - P \left(e^{X} \leq 1. 2 0\right) \\ = 1 - F (1. 2) \\ = 1 - 0. 8 1 9 0 = 0. 1 8 1 0 \\ \end{array}
+\begin{array}{l} P \left(\frac{S_{1}}{S_{0}} > \frac{120}{S_{0}}\right) = P \left(e^{X} > 1.20\right) \\ = 1 - P \left(e^{X} \leq 1.20\right) \\ = 1 - F (1.2) \\ = 1 - 0.8190 = 0.1810 \\ \end{array}
 $$ where in the third equation on the right-hand side, we have applied the log-normal cumulative probability distribution function F. So, in roughly 18\% of the scenarios, tomorrow's stock price S_{1} will exceed the price of today, S_{0} = \100,
 
 
 by at least  $20\%$ . From equation (17), the mean of the ratio is
 
 $$
-E \left(\frac{S_{1}}{S_{0}}\right) = \mu_{S_{1} / S_{0}} = e^{0 + \frac{0 . 2}{2}} = 1. 1 0 5 2
+E \left(\frac{S_{1}}{S_{0}}\right) = \mu_{S_{1} / S_{0}} = e^{0 + \frac{0.2}{2}} = 1.1052
 $$ implying that we have to expect tomorrow's stock price to be roughly  $10\%$  greater than today, even though the dynamic  $X$  itself has an expected value of 0. Finally, equation (18) yields the variance
 
 
 $$
-V a r \left(\frac{S_{1}}{S_{0}}\right) = \sigma_{S_{1 / S_{0}}}^{2} = e^{0. 2} (e^{0. 2} - 1) = 0. 2 7 0 4
+\operatorname{Var} \left(\frac{S_{1}}{S_{0}}\right) = \sigma_{S_{1 / S_{0}}}^{2} = e^{0.2} (e^{0.2} - 1) = 0.2704
 $$ which is only slightly larger than that of the dynamic  $X$  itself.
 
 

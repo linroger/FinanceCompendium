@@ -1,4 +1,30 @@
 
+---
+title: "Discrete Probability Distributions"
+parent_directory: "Probability Theory"
+formatted: "2025-12-21 08:15:00 AM"
+formatter_model: "claude-haiku-4-5-20251001"
+cli-tool: "claude-code"
+primary_tags:
+  - discrete probability distributions
+  - random variables
+  - probability laws
+  - binomial distribution
+  - poisson distribution
+secondary_tags:
+  - bernoulli distribution
+  - hypergeometric distribution
+  - multinomial distribution
+  - discrete uniform distribution
+  - mean and variance
+  - cumulative distribution function
+  - stock price models
+  - credit risk modeling
+  - urn problems
+  - binomial coefficients
+cssclasses: academia
+---
+
 # Discrete Probability Distributions
 
 MARKUS HÖCHSTÖTTER, PhD
@@ -38,13 +64,11 @@ $$
 \{\omega_{i}: X (\omega_{i}) \in E^{\prime} \}
 $$ through  $X$ . The probability of each individual outcome of  $X$  yields the discrete probability law of  $X$ . It is given by  $P(X = x_{i}) = p_{i}^{X}$ , for all  $x_{i} \in \Omega'$ .
 
-
 Only for individual discrete values  $x$  is the probability  $p^X$  positive. This is similar to the empirical frequency distribution with positive relative frequency  $f_i$  at certain observed values. If we sort the  $x_i \in \Omega$  in ascending order, analogous to the empirical relative cumulative frequency distribution
 
 $$
 F_{e m p}^{f} (x) = \sum_{x_{i} \leq x} f_{i}
 $$ we obtain the discrete cumulative distribution (cdf) of  $X$ ,
-
 
 $$
 F^{X} (x) = P (X \leq x) = \sum_{x_{i} \leq x} p_{i}^{X}
@@ -56,7 +80,7 @@ Suppose we want to know the probability of obtaining at most 3 dots when throwin
 
 $$
 F^{X} (3) = p_{1} + p_{2} + p_{3} = 1 / 6 + 1 / 6 + 1 / 6 = 0. 5
-$$ where the  $p_i$  denote the respective probabilities of the number of dots less than or equal to 3. A graph of the cdf is shown in Figure 1.
+$$ where the $p_i$ denote the respective probabilities of the number of dots less than or equal to 3. A graph of the cdf is shown in Figure 1.
 
 
 # Mean and Variance
@@ -83,7 +107,7 @@ $$ given that equation (1) is finite. (Often, the mean is denoted as the paramet
 For the number of dots on the dice example, the expected value is
 
 $$
-E (X) = \sum_{i = 1}^{6} i \cdot p_{i} \frac{1}{6} \sum_{i = 1}^{6} i = 2 1 / 6 = 3. 5
+E (X) = \sum_{i = 1}^{6} i \cdot p_{i} \frac{1}{6} \sum_{i = 1}^{6} i = 21/6 = 3.5
 $$
 
 So, on average, one can expect a value of 3.5 for the random variable, despite the fact this is not an obtainable number of dots. How can we interpret this? If we were to repeat the dice tossing many times, record for each toss the number of dots observed, then, if we averaged over all numbers obtained, we would end up with an average very close if not identical to 3.5.
@@ -92,7 +116,7 @@ Let's move from the dice tossing example to look at a binomial stock price model
 
 
 $$
-E (S) = 1 / 2 \cdot \ 18 + 1 / 2 \cdot \ 22 = \ 20
+E (S) = 1/2 \cdot \$18 + 1/2 \cdot \$22 = \$20
 $$
 
 This means on average, the stock price will remain unchanged even though 20 is itself not an obtainable outcome.
@@ -115,7 +139,7 @@ $$
 For example, for the number of dots obtained from tossing a dice, we obtain the variance
 
 $$
-\begin{array}{l} \sigma_{X}^{2} = \operatorname{Va r} (X) = \sum_{i = 1}^{6} (i - E (X))^{2} p_{i}^{X} \\ = \frac{1}{6} \left[ (1 - 3. 5)^{2} + (2 - 3. 5)^{2} + \dots + (6 - 3. 5)^{2} \right] \\ = 2. 9 1 6 7 \\ \end{array}
+\begin{array}{l} \sigma_{X}^{2} = \operatorname{Va r} (X) = \sum_{i = 1}^{6} (i - E (X))^{2} p_{i}^{X} \\ = \frac{1}{6} \left[ (1 - 3.5)^{2} + (2 - 3.5)^{2} + \dots + (6 - 3.5)^{2} \right] \\ = 2.9167 \\ \end{array}
 $$
 
 Thus, on average, we have to expect a squared deviation from the mean by roughly 2.9.
@@ -131,7 +155,7 @@ The standard deviation appeals to intuition because it is a quantity that is of 
 For the number of dots obtained from tossing a dice, since the variance is 2.9167, the standard deviation is
 
 $$
-\sigma_{X} = \sqrt{2 . 9 1 6 7} = 1. 7 0 7 8
+\sigma_{X} = \sqrt{2.9167} = 1.7078
 $$
 
 In Figure 2, we display all possible outcomes 1 through 6 indicated by the  $\circ$  symbol, including the mean of  $E(X) = 3.5$ . We extend a vicinity about the mean of length  $\sigma_{X} = 1.7078$ , indicated by the "+" symbol, to graphically
@@ -149,14 +173,14 @@ In the remainder of this entry, we introduce the most common discrete distributi
 
 Suppose we have a random variable  $X$  with two possible outcomes. That is, we have the state space  $\Omega^{\prime} = \{x_{1},x_{2}\}$ . The distribution of  $X$  is given by the probability for the two outcomes, that is,
 
-$$ p_{1}^{X} = p \text{an d} p_{2}^{X} = 1 - p
+$$ p_{1}^{X}=p \text{and} p_{2}^{X}=1-p
 $$
 
 Now, to express the random experiment of drawing a value for  $X$ , all we need to know is the two possible values in the state space and parameter  $p$  representing the probability of  $x_{1}$ . This situation is represented concisely by the Bernoulli distribution. This distribution is denoted  $B(p)$  where  $p$  is the probability parameter.
 
 Formally, the Bernoulli distribution is associated with random variables that assume the values  $x_{1} = 1$  and  $x_{2} = 0$ , or  $\Omega' = \{0,1\}$ . That is why this distribution is sometimes referred to as the "zero-one distribution." One usually sets the parameter  $p$  equal to the probability of  $x_{1}$  such that
 
-$$ p = P (X = x_{1}) = P (X = 1)
+$$ p = P(X = x_{1}) = P(X = 1)
 $$
 
 The mean of a Bernoulli distributed random variable is
@@ -175,7 +199,7 @@ The Bernoulli random variable is commonly used when one models the random experi
 
 Consider the outcomes when flipping a coin: head or tail. Now we set head equal to the numerical value 0 and tail equal to 1. We take  $X$  as the Bernoulli distributed random variable describing the side of the coin that is up after the toss. What should be considered a fair coin? It would be one where in  $50\%$  of the tosses, head should be realized and in the remaining  $50\%$  of the tosses, tail should be realized. So, a fair coin yields
 
-$$ p = 1 - p = 0. 5
+$$ p = 1 - p = 0.5
 $$
 
 According to equation (3), the mean is then  $E(X) = 0.5$  while, according to equation (4), the variance is  $Var(X) = 0.25$ . Here, again, the mean does not represent a possible value  $x$  from the state space  $\Omega'$ . We can interpret it in the following way: Since 0.5 is halfway between one outcome (0) and the other outcome (1), the coin is fair because the mean is not inclined to either outcome.
@@ -183,12 +207,12 @@ According to equation (3), the mean is then  $E(X) = 0.5$  while, according to e
 As another example, we will take a look at credit risk modeling by considering the risk of default of a corporation. Default occurs when the corporation is no longer able to meet its debt obligations. a priori, default occurring during some period is uncertain and, hence, is treated as random. Here, we view the corporation's failure within the next year as a Bernoulli random variable  $X$ . When the corporation defaults,  $X = 0$  and in the case of survival,  $X = 1$ . For example, a corporation may default within the next year with probability
 
 $$
-P (X = 0) = 1 - p = 1 - e^{- 0. 0 4} = 0. 0 3 9 2
+P (X = 0) = 1 - p = 1 - e^{-0.04} = 0.0392
 $$ and survive with probability
 
 
 $$
-P (X = 1) = p = e^{- 0. 0 4} = 0. 9 6 0 8
+P (X = 1) = p = e^{-0.04} = 0.9608
 $$
 
 We can, of course, extend the prerequisites of the Bernoulli distribution to a more general case; that is, we may choose values for the two outcomes,  $x_{1}$  and  $x_{2}$ , of the random variable  $X$  different from 0 and 1. Then, we set the parameter  $p$  equal to either one of the probabilities  $P(X = x_{1})$  or  $P(X = x_{2})$ . The distribution yields mean
@@ -207,12 +231,12 @@ $$ where we set  $p = P(X = x_{1})$
 We illustrate this generalization of the Bernoulli distribution in the case of the binomial stock price model. Again, we denote the random stock price at time period 1 by  $S_{1}$ . Recall that the state space  $\Omega' = \{$ 18, \$22\} containing the two possible values for  $S_{1}$ . The probability of  $S_{1}$  assuming value \$18 can be set to
 
 $$
-P (S_{1} = \$ 1 8) = p
+P(S_{1} = \$18) = p
 $$ so that
 
 
 $$
-P (S_{1} = \$ 2 2) = 1 - p
+P(S_{1} = \$22) = 1 - p
 $$
 
 Hence, we have an analogous situation to a Bernoulli random experiment; however, with  $\Omega^{\prime} = \{\mathbb{S}18,\mathbb{S}22\}$  instead of  $\Omega^{\prime} = \{0,1\}$ .
@@ -220,22 +244,22 @@ Hence, we have an analogous situation to a Bernoulli random experiment; however,
 Suppose that
 
 $$
-P (S_{1} = \$ 1 8) = p = 0. 4 \text{an d}
+P(S_{1} = \$18) = p = 0.4 \text{and}
 $$
 
 $$
-P (S_{1} = \$ 2 2) = 1 - p = 0. 6
+P(S_{1} = \$22) = 1 - p = 0.6
 $$
 
 Then, the mean is
 
 $$
-E \left(S_{1}\right) = 0. 4 \cdot \$ 1 8 + 0. 6 \cdot \$ 2 2 = \$ 2 0. 4
+E\left(S_{1}\right) = 0.4 \cdot \$18 + 0.6 \cdot \$22 = \$20.4
 $$ and the variance
 
 
 $$
-\begin{array}{l} \operatorname{Va r} \left(S_{1}\right) = (\$ 1 8 - \$ 2 0. 4)^{2} \cdot 0. 4 \\ + (\$ 22 - \$ 20.4)^{2} \cdot 0. 6 = (\$ 3. 8 4)^{2} \\ \end{array}
+\begin{array}{l} \operatorname{Var}\left(S_{1}\right) = (\$18 - \$20.4)^{2} \cdot 0.4 \\ + (\$22 - \$20.4)^{2} \cdot 0.6 = (\$3.84)^{2} \\ \end{array}
 $$
 
 # BINOMIAL DISTRIBUTION
@@ -272,18 +296,18 @@ $$
 Since we are dealing with a fair coin (i.e.,  $p = 0.5$ ), the above probability is
 
 $$
-\begin{array}{l} P (Y_{1} = 1, Y_{2} = 1, \dots , Y_{1 0} = 0) = 0. 5^{5} \cdot 0. 5^{5} \\ = 0. 5^{1 0} \approx 0. 0 0 1 0 \\ \end{array}
+\begin{array}{l} P(Y_{1} = 1, Y_{2} = 1, \dots, Y_{10} = 0) = 0.5^{5} \cdot 0.5^{5} \\ = 0.5^{10} \approx 0.0010 \\ \end{array}
 $$
 
 With
 
 $$
-\left( \begin{array}{c} 1 0 \\ 5 \end{array} \right) = 2 5 2
+\left( \begin{array}{c} 10 \\ 5 \end{array} \right) = 252
 $$ different samples leading to  $X = 5$ , we compute the probability for this value of the total as
 
 
 $$
-\begin{array}{l} P (X = 5) = \left( \begin{array}{c} 1 0 \\ 5 \end{array} \right) p^{5} \cdot (1 - p)^{5} \\ = 2 5 2 \cdot 0. 5^{1 0} = 0. 2 4 6 1 \\ \end{array}
+\begin{array}{l} P(X = 5) = \left( \begin{array}{c} 10 \\ 5 \end{array} \right) p^{5} \cdot (1 - p)^{5} \\ = 252 \cdot 0.5^{10} = 0.2461 \\ \end{array}
 $$
 
 So, in roughly one fourth of all samples of  $n = 10$  independent coin tosses, we obtain a total of  $X = 5$  1s (or heads).
@@ -293,7 +317,7 @@ From the example, we see that the exponent for  $p$  is equal to the value of th
 Let  $p$  be the parameter from the related Bernoulli distribution (i.e.,  $P(X = 1) = p$ ). The probability of the  $B(n,p)$  random variable  $X$  being equal to some  $\mathbf{i} \in \Omega'$  is given by
 
 $$
-P (X = i) = \binom {n} {i} \cdot p^{i} \cdot (1 - p)^{n - i}, i = 1, 2, \dots , n \tag {6}
+P(X = i) = \binom{n}{i} \cdot p^{i} \cdot (1 - p)^{n - i}, i = 1, 2, \dots, n \tag{6}
 $$
 
 For a particular selection of parameters, the probability distribution at certain values can be found in the four tables in Appendix A.
@@ -333,12 +357,12 @@ $$
 For purposes of this illustration, let's assume the following probabilities for the down movement and up movement, respectively,
 
 $$
-P (Y_{t + 1} = 1. 1) = p = 0. 6
+P(Y_{t+1} = 1.1) = p = 0.6
 $$ and
 
 
 $$
-P (Y_{t + 1} = 0. 9) = 1 - p = 0. 4
+P(Y_{t+1} = 0.9) = 1 - p = 0.4
 $$
 
 After  $T$  periods, we have a random total of  $X$  up movements; that is, for all periods  $(0,1], (1,2],\ldots,$  and  $(T - 1,T]$ , we increment  $X$  by 1 if the period related factor  $Y_{t + 1} = 1.1$ ,  $t = 0, 1,\ldots,T - 1$ . So, the result is some  $x \in \{1,2,\ldots,T\}$ . The total number of up movements,  $X$ , is a binomial distributed  $B(T,p)$  random variable on the probability space  $(\Omega', \mathbb{A}', P^X)$  where
@@ -348,30 +372,30 @@ After  $T$  periods, we have a random total of  $X$  up movements; that is, for 
 3.  $P^X$  is denoted by the binomial probability distribution given by
 
 $$
-P (X = k) = \left( \begin{array}{c} T \\ k \end{array} \right) p^{k} (1 - p)^{T - k}, k = 1, 2, \ldots , T
+P(X = k) = \left( \begin{array}{c} T \\ k \end{array} \right) p^{k} (1 - p)^{T - k}, k = 1, 2, \ldots, T
 $$ with  $p = 0.6$
 
 
 Consequently, according to equations (7) and (8), we have
 
 $$
-E (X) = 2 \cdot 0. 6 = 1. 2
+E(X) = 2 \cdot 0.6 = 1.2
 $$ and
 
 
 $$
-V a r (X) = 2 \cdot 0. 6 \cdot 0. 4 = 0. 4 8
+\operatorname{Var}(X) = 2 \cdot 0.6 \cdot 0.4 = 0.48
 $$
 
 By definition of  $S_T$  and  $X$ , we know that the evolution of the stock price is such that
 
 $$
-S_{T} = S_{0} \cdot 1. 1^{X} \cdot 0. 9^{T - X}
+S_{T} = S_{0} \cdot 1.1^{X} \cdot 0.9^{T - X}
 $$
 
 Let us next consider a random variable that is not binomial itself, but related to a binomial random variable. Now, instead of considering the  $B(T,p)$  distributed total  $X$ , we could introduce, as a random variable, the stock price at  $T$  (i.e.,  $S_T$ ). Using an illustration, we will derive the stock price independently of  $X$  and, then, emphasize the relationship between  $S_T$  and  $X$ . Note that  $S_T$  is not a binomial random variable.
 
-Let us set T = 2. We may start with an initial stock price of S_0 = \20. At the end of the first period, that is, (0,1], we have
+Let us set T = 2. We may start with an initial stock price of S_0 = \$20. At the end of the first period, that is, (0,1], we have
 
 $$
 S_{1} = S_{0} \cdot Y_{1}
@@ -384,7 +408,7 @@ $$ or
 
 
 $$
-S_{1} = \ 2 0 \cdot 0. 9 = \ 1 8
+S_{1} = \$20 \cdot 0.9 = \$18
 $$
 
 At the end of the second period, that is, (1,2], we have
@@ -945,10 +969,7 @@ Let us resume the stock price model where in  t = 0  we have a given stock price
 
 
 $$
-S_{1}^{(u)} = S_{0} \cdot 1. 1 = \$ 2 2
-$$ remains the same at
-
-
+S_{1} = S_{0} \cdot 1.1 = \$22
 $$
 S_{1}^{(l)} = S_{0} \cdot 1. 0 = \$ 2 0
 $$ or decreases to

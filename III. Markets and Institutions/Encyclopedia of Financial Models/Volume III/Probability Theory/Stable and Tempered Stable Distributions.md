@@ -1,4 +1,18 @@
 
+---
+title: "Stable and Tempered Stable Distributions"
+parent_directory: "Probability Theory"
+formatted: "2025-12-21 11:30:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - stable distributions
+  - tempered stable distributions
+  - infinitely divisible distributions
+  - levy processes
+cssclasses: academia
+---
+
 # Stable and Tempered Stable Distributions
 
 SVETLOZAR T. RACHEV, PhD, Dr Sci
@@ -18,7 +32,7 @@ FRANK J. FABOZZI, PhD, CFA, CPA
 
 Professor of Finance, EDHEC Business School
 
-Abstract: In financial models for asset pricing and asset allocation, asset returns and prices are assumed to follow a normal or Gaussian distribution. However, the properties of the normal distribution are not consistent with the observed behavior found for real-world asset returns. More specifically, the symmetric and rapidly decreasing tail properties of asset return distributions cannot describe the skewed and fat-tailed properties of the empirical distribution of asset returns. The alpha-stable distribution or  $\alpha$ -stable distribution has been proposed as an alternative to the normal distribution for modeling asset returns because it allows for skewness and fat tails. Recent research since the turn of the century has introduced alternative distributions such as the tempered stable distributions to better describe asset returns.
+Abstract: In financial models for asset pricing and asset allocation, asset returns and prices are assumed to follow a normal or Gaussian distribution. However, the properties of the normal distribution are not consistent with the observed behavior found for real-world asset returns. More specifically, the symmetric and rapidly decreasing tail properties of asset return distributions cannot describe the skewed and fat-tailed properties of the empirical distribution of asset returns. The alpha-stable distribution or $\alpha$-stable distribution has been proposed as an alternative to the normal distribution for modeling asset returns because it allows for skewness and fat tails. Recent research since the turn of the century has introduced alternative distributions such as the tempered stable distributions to better describe asset returns.
 
 In finance, the normal or Gaussian distribution has been the underlying assumption in describing asset returns in major financial theories such as the capital asset pricing theory and option pricing theory. In the early 1960s, Benoit Mandelbrot, a mathematician at
 
@@ -27,30 +41,28 @@ IBM's Thomas J. Watson Research Center, presented empirical evidence regarding r
 
 In Mandelbrot's attack on the normal distribution, he suggested that asset returns are more appropriately described by a non-normal stable distribution referred to as a stable Paretian distribution or alpha-stable distribution ( $\alpha$ -stable distribution), so named because the tails of this distribution have Pareto power-type decay. The reason for describing this distribution as "non-normal stable" is because the normal distribution is a special case of the stable distribution. Because of the work by Paul Lévy, a French mathematician who introduced and characterized the non-normal stable distribution, this distribution is also referred to as the Lévy stable distribution and the Pareto-Lévy stable distribution.
 
-There are two other facts about asset return distributions that have been supported by empirical evidence. First, distributions have been observed to be skewed or nonsymmetric. That is, unlike in the case of the normal distribution where there is a mirror imaging of the two sides of the probability distribution, typically in a skewed distribution one tail of the distribution is much longer (i.e., has greater probability of extreme values occurring) than the other tail of the probability distribution. Probability distributions with this attribute are referred to as having fat tails or heavy tails. The second finding is the tendency of large changes in asset prices (either positive or negative) to be followed by large changes, and small changes to be followed by small changes. This attribute of asset return distributions is referred to as volatility clustering. In contrast to the normal distribution, the
+There are two other facts about asset return distributions that have been supported by empirical evidence. First, distributions have been observed to be skewed or nonsymmetric. That is, unlike in the case of the normal distribution where there is a mirror imaging of the two sides of the probability distribution, typically in a skewed distribution one tail of the distribution is much longer (i.e., has greater probability of extreme values occurring) than the other tail of the probability distribution. Probability distributions with this attribute are referred to as having fat tails or heavy tails. The second finding is the tendency of large changes in asset prices (either positive or negative) to be followed by large changes, and small changes to be followed by small changes. This attribute of asset return distributions is referred to as volatility clustering. In contrast to the normal distribution, the $\alpha$-stable distribution allows for skewness and fat tails.
 
-$\alpha$  -stable distribution allows for skewness and fat tails.
+# $\alpha$-STABLE DISTRIBUTION
 
-# $\alpha$  -STABLE DISTRIBUTION
-
-In this section, we discuss a wide class of  $\alpha$ -stable distributions. We review the definition and the basic properties of the  $\alpha$ -stable distribution. We further present the class of smoothly truncated stable distributions which has been proposed by Menn and Rachev (2009) for dealing with the drawbacks of the  $\alpha$ -stable distribution.
+In this section, we discuss a wide class of $\alpha$-stable distributions. We review the definition and the basic properties of the $\alpha$-stable distribution. We further present the class of smoothly truncated stable distributions which has been proposed by Menn and Rachev (2009) for dealing with the drawbacks of the $\alpha$-stable distribution.
 
 # Definition of an  $\alpha$ -Stable Random Variable
 
-We begin with a definition of an  $\alpha$ -stable random variable. Suppose that  $X_{1}, X_{2}, \ldots, X_{n}$  are independent and identically distributed (IID) random variables, independent copies of  $X$ .
+We begin with a definition of an $\alpha$-stable random variable. Suppose that $X_{1}, X_{2}, \ldots, X_{n}$ are independent and identically distributed (IID) random variables, independent copies of $X$.
 
-Then a random variable  $X$  is said to follow an  $\alpha$ -stable distribution if there exist a positive constant  $C_n$  and a real number  $D_n$  such that the following relation holds:
+Then a random variable $X$ is said to follow an $\alpha$-stable distribution if there exist a positive constant $C_n$ and a real number $D_n$ such that the following relation holds:
 
 $$
 X_{1} + X_{2} + \dots + X_{n} \stackrel {{\mathrm{d}}} {{=}} C_{n} X + D_{n}
 $$
 
-The notation  $\stackrel{\mathrm{d}}{=}^{}$  denotes equality in distribution. The constant  $C_n = n^{\frac{1}{\alpha}}$  dictates the stability property, which we will discuss later. When  $\alpha = 2$ , we have the Gaussian (normal) case. In subsequent discussions of the  $\alpha$ -stable distributions in this entry, we restrict ourselves to the non-Gaussian case in which  $0 < \alpha < 2$ .
+The notation  $\stackrel{\mathrm{d}}{=}$  denotes equality in distribution. The constant  $C_n = n^{\frac{1}{\alpha}}$  dictates the stability property, which we will discuss later. When  $\alpha = 2$ , we have the Gaussian (normal) case. In subsequent discussions of the  $\alpha$ -stable distributions in this entry, we restrict ourselves to the non-Gaussian case in which  $0 < \alpha < 2$ .
 
 For the general case, the density of the  $\alpha$ -stable distribution does not have a closed-form solution. The distribution is expressed by its characteristic function:
 
 $$
-\begin{array}{l} \phi_{\text{st ab le}} (\mu ; \alpha , \beta , \mu) = E \left[ e^{i u X} \right] \\ \left\{ \begin{array}{l l} \exp (i \mu u - | \sigma u |^{\alpha} (1 - i \beta (\text{si gn} u) \tan \frac{\pi \alpha}{2})), & \alpha \neq 1 \\ \exp (i \mu u - \sigma | u | (1 - i \beta \frac{2}{\pi} (\text{si gn} u) \ln | u |)), & \alpha = 1 \end{array} \right. \tag {1} \\ \end{array}
+\begin{array}{l} \phi_{\text{stable}} (\mu ; \alpha , \beta , \mu) = E \left[ e^{i u X} \right] \\ \left\{ \begin{array}{l l} \exp (i \mu u - | \sigma u |^{\alpha} (1 - i \beta (\text{si gn} u) \tan \frac{\pi \alpha}{2})), & \alpha \neq 1 \\ \exp (i \mu u - \sigma | u | (1 - i \beta \frac{2}{\pi} (\text{si gn} u) \ln | u |)), & \alpha = 1 \end{array} \right. \tag {1} \\ \end{array}
 $$ where
 
 
@@ -60,20 +72,22 @@ $$
 
 The distribution is characterized by four parameters:
 
--  $\alpha$ : the index of stability or the shape parameter,  $\alpha \in (0,2)$ .
--  $\beta$ : the skewness parameter,  $\beta \in [-1, + 1]$ .
--  $\sigma$ : the scale parameter,  $\sigma \in (0, +\infty)$ .
--  $\mu$ : the location parameter,  $\mu \in (-\infty, +\infty)$ .
+- $\alpha$: the index of stability or the shape parameter, $\alpha \in (0,2)$.
+- $\beta$: the skewness parameter, $\beta \in [-1, +1]$.
+- $\sigma$: the scale parameter, $\sigma \in (0, +\infty)$.
+- $\mu$: the location parameter, $\mu \in (-\infty, +\infty)$.
 
-When a random variable  $X$  follows the  $\alpha$ -stable distribution characterized by those parameters, then we denote it by  $X \sim S_{\alpha}(\sigma, \beta, \mu)$ .
+When a random variable $X$ follows the $\alpha$-stable distribution characterized by those parameters, then we denote it by $X \sim S_{\alpha}(\sigma, \beta, \mu)$.
 
-The three special cases where there is a closed-form solution for the densities are (1) the Gaussian case  $(\alpha = 2)$ , (2) the Cauchy case  $(\alpha = 1, \beta = 0)$ , and (3) the Lévy case  $(\alpha = 1/2, \beta = \pm 1)$  with the following respective densities:
+The three special cases where there is a closed-form solution for the densities are (1) the Gaussian case $(\alpha = 2)$, (2) the Cauchy case $(\alpha = 1, \beta = 0)$, and (3) the Lévy case $(\alpha = 1/2, \beta = \pm 1)$ with the following respective densities:
 
-Gaussian:  $f(x) = \frac{1}{2\sigma\sqrt{\pi}} e^{-\frac{(x - \mu)^2}{4\sigma^2}}$ ,  $-\infty < x < \infty$
-- Gauchy:  $f(x) = \frac{\sigma}{\pi((x - \mu)^2 + \sigma^2)}$ ,  $-\infty < x < \infty$
-Lévy:  $f(x) = \frac{\sqrt{\sigma}}{\sqrt{2\pi}(x - \mu)^{3/2}} e^{-\frac{\sigma}{2(x - \mu)}}, \mu < x < \infty$
+Gaussian: $f(x) = \frac{1}{2\sigma\sqrt{\pi}} e^{-\frac{(x - \mu)^2}{4\sigma^2}}$, $-\infty < x < \infty$
 
-Because of the four parameters, the  $\alpha$ -stable distribution is highly flexible and suitable for modeling nonsymmetric, highly kurtotic, and heavy-tailed data. Figures 1 and 2 illustrate the effects of the shape and skewness parameters, respectively, on the shape of the distribution, with other parameters kept constant. As is evident from Figure 1, a lower value for  $\alpha$  is attributed to heavier tails and higher kurtosis.
+Cauchy: $f(x) = \frac{\sigma}{\pi((x - \mu)^2 + \sigma^2)}$, $-\infty < x < \infty$
+
+Lévy: $f(x) = \frac{\sqrt{\sigma}}{\sqrt{2\pi}(x - \mu)^{3/2}} e^{-\frac{\sigma}{2(x - \mu)}}$, $\mu < x < \infty$
+
+Because of the four parameters, the $\alpha$-stable distribution is highly flexible and suitable for modeling nonsymmetric, highly kurtotic, and heavy-tailed data. Figures 1 and 2 illustrate the effects of the shape and skewness parameters, respectively, on the shape of the distribution, with other parameters kept constant. As is evident from Figure 1, a lower value for $\alpha$ is attributed to heavier tails and higher kurtosis.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/868547f272fc2f31080490e22f1d0aa6b6b66315f342c128871fe6348a7296d0.jpg)
 Figure 1 Illustration of  $\alpha$ -Stable Densities for Varying  $\alpha$ 's, with  $\beta = 0, \sigma = 1$ , and  $\mu = 0$
@@ -104,17 +118,17 @@ $$
 - Property 2. Raw moments satisfy the property:
 
 $$
-E | X |^{p} <   \infty \text{fo ra ny} 0 <   p <   \alpha
+E | X |^{p} <   \infty \text{for any} 0 <   p <   \alpha
 $$
 
 $$
-E | X |^{p} = \infty \text{fo ra ny} p \geq \alpha
+E | X |^{p} = \infty \text{for any} p \geq \alpha
 $$
 
 - Property 3. Because of Property 2, the mean is finite only for  $\alpha > 1$ :
 
 $$
-E [ X ] = \mu \quad \text{fo r} \alpha > 1
+E [ X ] = \mu \quad \text{for} \alpha > 1
 $$
 
 $$
@@ -151,7 +165,7 @@ $$
 $$
 
 $$
-\mu = \left\{ \begin{array}{l l} a \mu_{1} & \text{fo r} \alpha \neq 1 \\ a \mu_{1} - \frac{2}{\pi} a (\operatorname{In} a) \sigma_{1} \beta_{1} & \text{fo r} \alpha = 1 \end{array} \right.
+\mu = \left\{ \begin{array}{l l} a \mu_{1} & \text{for} \alpha \neq 1 \\ a \mu_{1} - \frac{2}{\pi} a (\operatorname{In} a) \sigma_{1} \beta_{1} & \text{for} \alpha = 1 \end{array} \right.
 $$
 
 - The distribution of  $Y = -X_{1}$  is  $\alpha$ -stable with the index of stability  $\alpha$  and parameters:
@@ -188,17 +202,17 @@ In this section, we discuss six types of tempered stable distributions.
 
 # Classical Tempered Stable Distribution
 
-Let  $\alpha \in (0,1) \cup (1,2)$ ,  $C, \lambda+, \lambda_{-} > 0$ , and  $m \in \mathbb{R}$ .  $X$  is said to follow the classical tempered stable (CTS) distribution if the characteristic function of  $X$  is given by
+Let $\alpha \in (0,1) \cup (1,2)$, $C, \lambda_{+}, \lambda_{-} > 0$, and $m \in \mathbb{R}$. $X$ is said to follow the classical tempered stable (CTS) distribution if the characteristic function of $X$ is given by
 
 $$
 \begin{array}{l} \phi_{X} (u) = \phi_{C T S} (u; \alpha , C, \lambda_{+}, \lambda_{-}, m) \\ = \exp (i u m - i u C \Gamma (1 - \alpha) \left(\lambda_{+}^{\alpha - 1} - \lambda_{-}^{\alpha - 1}\right) \\ + C \Gamma (- \alpha) ((\lambda_{+} - i u)^{\alpha} - \lambda_{+}^{\alpha} \\ + \left(\lambda_{-} + i u\right)^{\alpha} - \lambda_{-}^{\alpha})) \tag {2} \\ \end{array}
-$$ and we denote it by  $X\sim \mathrm{CTS}(\alpha ,C,\lambda_{+},\lambda_{-},m)$
+$$ and we denote it by $X\sim \mathrm{CTS}(\alpha ,C,\lambda_{+},\lambda_{-},m)$
 
 
-Using the nth derivative of  $\psi (u) = \log \phi_X(u)$  evaluated around zero, the cumulants  $c_{n}(X) =$ $\frac{1}{i^n}\frac{\partial^n\psi}{\partial_u} (0)$  of  $X$  are obtained by
+Using the nth derivative of $\psi (u) = \log \phi_X(u)$ evaluated around zero, the cumulants $c_{n}(X) = \frac{1}{i^n}\frac{\partial^n\psi}{\partial_u} (0)$ of $X$ are obtained by
 
 $$
-\begin{array}{l} c_{1} (X) = m \\ c_{n} (X) = C \Gamma (n - \alpha) \left(\lambda_{+}^{\alpha - n}\right) \\ + (- 1)^{n} \lambda_{-}^{\alpha - n}), \text{fo r} n = 2, 3, \dots \\ \end{array}
+\begin{array}{l} c_{1} (X) = m \\ c_{n} (X) = C \Gamma (n - \alpha) \left(\lambda_{+}^{\alpha - n}\right) \\ + (- 1)^{n} \lambda_{-}^{\alpha - n}), \text{for} n = 2, 3, \dots \\ \end{array}
 $$
 
 The role of the parameters is as follows:
@@ -206,32 +220,32 @@ The role of the parameters is as follows:
 - The parameter  $m$  determines the location of the distribution.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/7219246f2ead3bb0d9a1e6fa05e01e1a6065ec2b7d214f51db18f199e10b47fc.jpg)
-Figure 4 Probability Density of the CTS Distributions' Dependence on  $C$  Note:  $C\in \{0.25,0.5,1,2\}$ $\alpha = 1.4,\lambda_{+} = 50,\lambda_{-} = 50,m = 0.$
+Figure 4 Probability Density of the CTS Distributions' Dependence on $C$ Note: $C\in \{0.25,0.5,1,2\}$ $\alpha = 1.4,\lambda_{+} = 50,\lambda_{-} = 50,m = 0.$
 
-- The parameter  $C$  is the scale parameter. Figure 4 shows the density function of the CTS distributions' dependence on  $C$ .
+- The parameter $C$ is the scale parameter. Figure 4 shows the density function of the CTS distributions' dependence on $C$.
 - The parameters  $\lambda_{+}$  and  $\lambda_{-}$  control the rate of decay on the positive and negative tails, respectively. If  $\lambda_{+} > \lambda_{-}$ $(\lambda_{+} < \lambda_{-})$  , then the distribution is skewed to the left (right), and if  $\lambda_{+} = \lambda_{-}$  , then it is symmetric. Figure 5 illustrates left and right skewed density functions of the CTS distribution, as well as the symmetric case.
 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/81466223c780c4afd8a03082ae66248a6445eb5320c0561e5b2ca9c50b888240.jpg)
-Figure 5 Probability Density of the CTS Distributions: Dependence on  $\lambda_{+}$  and  $\lambda_{-}$  Note:  $(\lambda_{+},\lambda_{-})\in \{(1,70),(3,3),(70,1)\} ,\alpha = 0.8,C = 1,m = 0.$
+Figure 5 Probability Density of the CTS Distributions: Dependence on $\lambda_{+}$ and $\lambda_{-}$ Note: $(\lambda_{+},\lambda_{-})\in \{(1,70),(3,3),(70,1)\} ,\alpha = 0.8,C = 1,m = 0.$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/e2e340b42fe24b84af0f05d9436632a3bd59ee11e4a9f56abf0489a8e41a1e59.jpg)
-Figure 6 Probability Density of the Symmetric CTS Distributions' Dependence on Parameters  $\lambda_{+},\lambda_{-}$  Note:  $\lambda_{+} = \lambda_{-}\in \{10,20,30,40\} ,\alpha = 1.1,C = 1,m = 0.$
+Figure 6 Probability Density of the Symmetric CTS Distributions' Dependence on Parameters $\lambda_{+},\lambda_{-}$ Note: $\lambda_{+} = \lambda_{-}\in \{10,20,30,40\} ,\alpha = 1.1,C = 1,m = 0.$
 
-- The parameters  $\lambda_{+}, \lambda_{-}$ , and  $\alpha$  are related to tail weights. Figures 6 and 7 illustrate this fact. We will discuss another role of  $\alpha$  later.
-- If  $\alpha$  approaches to 0, the CTS distribution converges to the variance-gamma distribution (discussed later in this entry) in distribution sense.
+- The parameters $\lambda_{+}, \lambda_{-}$, and $\alpha$ are related to tail weights. Figures 6 and 7 illustrate this fact. We will discuss another role of $\alpha$ later.
+- If $\alpha$ approaches to 0, the CTS distribution converges to the variance-gamma distribution (discussed later in this entry) in distribution sense.
 
 If we take a special parameter  $C$  defined by
 
 $$
 C = \left(\Gamma (2 - \alpha) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)\right)^{- 1} \tag {3}
-$$ then  $X \sim \mathrm{CTS}(\alpha, \mathsf{C}, \lambda_{+}, \lambda_{-}, 0)$  has zero mean and unit variance. In this case,  $X$  is called the standard CTS distribution with parameters  $(\alpha, \lambda_{+}, \lambda_{-})$  and denoted by  $X \sim \mathrm{stdCTS}(\alpha, \lambda_{+},$
+$$ then $X \sim \mathrm{CTS}(\alpha, \mathsf{C}, \lambda_{+}, \lambda_{-}, 0)$ has zero mean and unit variance. In this case, $X$ is called the standard CTS distribution with parameters $(\alpha, \lambda_{+}, \lambda_{-})$ and denoted by $X \sim \mathrm{stdCTS}(\alpha, \lambda_{+}, \lambda_{-})$.
 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/7f6433859a2a971b7d224ca44fe39f82a07c9ae6fbc7d56b6659a8b5d1c1d3fe.jpg)
-Figure 7 Probability Density of the CTS Distributions: Dependence on  $\alpha$  Note:  $\alpha \in \{0.5,0.8,1.1,1.4\}$ $C = 1,\lambda_{+} = 50,\lambda_{-} = 50,m = 0.$
+Figure 7 Probability Density of the CTS Distributions: Dependence on $\alpha$ Note: $\alpha \in \{0.5,0.8,1.1,1.4\}$ $C = 1,\lambda_{+} = 50,\lambda_{-} = 50,m = 0.$
 
-$\lambda_{-})$  .Let  $m$  be a real number,  $\sigma$  be a positive real number,and  $X\sim \mathrm{stdCTS}(\alpha ,\lambda_{+},\lambda_{-})$  .Then
+Let $m$ be a real number, $\sigma$ be a positive real number, and $X\sim \mathrm{stdCTS}(\alpha ,\lambda_{+},\lambda_{-})$. Then
 
 $$
 \begin{array}{l} Y = \sigma X + m \approx C T S \\ x \left(\alpha , \frac{\sigma^{\alpha}}{\Gamma (2 - \alpha) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)}, \frac{\lambda_{+}}{\sigma}, \frac{\lambda_{-}}{\sigma}, m\right) \\ \end{array}
@@ -245,19 +259,19 @@ A more general form of the characteristic function for the CTS distribution is
 
 $$
 \begin{array}{l} \phi_{X} (u) = \exp (i u m - i u \Gamma (1 - \alpha) (C + \lambda_{+}^{\alpha + - 1} - C_{-} \lambda_{-}^{\alpha_{-} - 1}) \\ + C_{+} \Gamma (- \alpha_{+}) ((\lambda_{+} - i u)^{\alpha_{+}} - \lambda_{+}^{\alpha_{+}}) \\ + C_{-} \Gamma (- \alpha_{-}) \left(\left(\lambda_{-} + i u\right)^{\alpha_{-}} - \lambda_{-}^{\alpha_{-}}\right)) \tag {4} \\ \end{array}
-$$ where  $\alpha_{+},\alpha_{-}\in (0,1)\cup (1,2),C_{+},C_{-},\lambda_{+},\lambda_{-} > 0,$  and  $m\in \mathbb{R}$ . This distribution has been referred to as the generalized classical tempered stable (GTS) distribution and we denote it by  $X\sim \mathrm{GTS}(\alpha_{+},$ $\alpha_{-},C_{+},C_{-},\lambda_{+},\lambda_{-},m).^{2}$
+$$ where $\alpha_{+},\alpha_{-}\in (0,1)\cup (1,2),C_{+},C_{-},\lambda_{+},\lambda_{-} > 0,$ and $m\in \mathbb{R}$. This distribution has been referred to as the generalized classical tempered stable (GTS) distribution and we denote it by $X\sim \mathrm{GTS}(\alpha_{+},\alpha_{-},C_{+},C_{-},\lambda_{+},\lambda_{-},m).^{2}$
 
 
-The cumulants of  $X$  are  $c_{1}(X) = m$  and
+The cumulants of $X$ are $c_{1}(X) = m$ and
 
 $$
 \begin{array}{l} c_{n} (X) = C_{+} \Gamma (n - \alpha_{+}) \lambda_{+}^{\alpha + - n} \\ + (- 1)^{n} C_{-} \Gamma (n - \alpha_{-}) \lambda_{-}^{\alpha_{-} - n} \\ \end{array}
-$$ for  $n = 2,3,\dots$  .If we substitute
+$$ for $n = 2,3,\dots$. If we substitute
 
 
 $$
 C_{+} = \frac{p \lambda_{+}^{2 - \alpha_{+}}}{\Gamma (2 - \alpha_{+})}, \quad C_{-} = \frac{(1 - p) \lambda_{-}^{2 - \alpha_{-}}}{\Gamma (2 - \alpha_{-})} \tag {5}
-$$ where  $p\in (0,1)$  , then  $X\sim \mathrm{GTS}(\alpha_{+},\alpha_{-},C_{+},C_{-}$ $\lambda_{+},\lambda_{-},0)$  has zero mean and unit variance. In this case,  $X$  is called the standard GTS distribution with parameters  $(\alpha_{+},\alpha_{-},\lambda_{+},\lambda_{-},p)$  and denoted by  $X\sim \mathrm{stdGTS}(\alpha_{+},\alpha_{-},\lambda_{+},\lambda_{-},p)$
+$$ where $p\in (0,1)$, then $X\sim \mathrm{GTS}(\alpha_{+},\alpha_{-},C_{+},C_{-},\lambda_{+},\lambda_{-},0)$ has zero mean and unit variance. In this case, $X$ is called the standard GTS distribution with parameters $(\alpha_{+},\alpha_{-},\lambda_{+},\lambda_{-},p)$ and denoted by $X\sim \mathrm{stdGTS}(\alpha_{+},\alpha_{-},\lambda_{+},\lambda_{-},p)$
 
 
 # Modified Tempered Stable Distribution
@@ -384,7 +398,7 @@ The KRTS distribution is an extension of the CTS distribution. Indeed, the distr
 The cumulants of the KRTS distributed random variable  $X$  are  $c_{1}(X) = m$  and
 
 $$
-\begin{array}{l} c_{n} (X) = \Gamma (n - \alpha) \left(\frac{k_{+} r_{+}^{n}}{p_{+} + n} + (- 1)^{n} \frac{k_{-} r_{-}^{n}}{p_{-} + n}\right), \\ \text{fo r} n = 2, 3, \dots . \\ \end{array}
+\begin{array}{l} c_{n} (X) = \Gamma (n - \alpha) \left(\frac{k_{+} r_{+}^{n}}{p_{+} + n} + (- 1)^{n} \frac{k_{-} r_{-}^{n}}{p_{-} + n}\right), \\ \text{for} n = 2, 3, \dots . \\ \end{array}
 $$
 
 If we substitute
@@ -396,7 +410,7 @@ $$ where
 
 $$
 C = \frac{1}{\Gamma (2 - \alpha)} \left(\frac{\alpha + p_{+}}{2 + p_{+}} r_{+}^{2 - \alpha} + \frac{\alpha + p_{-}}{2 + p_{-}} r_{-}^{2 - \alpha}\right)^{- 1} \tag {13}
-$$ then  $X \sim \mathrm{KRTS}(\alpha, k_{+}, k_{-}, r_{+}, r_{-}, p_{+}, p_{-}, 0)$  has zero mean and unit variance. In this case,  $X$  is said to be standard KRTS distributed and denoted by  $X \sim \mathrm{stdKRTS}(\alpha, r_{+}, r_{-}, p_{+}, p_{-})$ . Let  $m$  be a real number,  $\sigma$  be a positive real number, and  $X \sim \mathrm{stdKRTS}(\alpha, r_{+}, r_{-}, p_{+}, p_{-})$ . Then
+$$ then $X \sim \mathrm{KRTS}(\alpha, k_{+}, k_{-}, r_{+}, r_{-}, p_{+}, p_{-}, 0)$ has zero mean and unit variance. In this case, $X$ is said to be standard KRTS distributed and denoted by $X \sim \mathrm{stdKRTS}(\alpha, r_{+}, r_{-}, p_{+}, p_{-})$. Let $m$ be a real number, $\sigma$ be a positive real number, and $X \sim \mathrm{stdKRTS}(\alpha, r_{+}, r_{-}, p_{+}, p_{-})$. Then
 
 
 $$
@@ -405,11 +419,11 @@ $$ where  $C$  is equal to (13). The random variable  $Y$  is KRTS distributed, 
 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/3033aed2c7d0bd11ea2c0dab8e335742614348f33ac52391c0e4c70b3afbad4e.jpg)
-Figure 9 Probability Density of the CTS Distribution with Parameters  $C = 1, \lambda_{+} = 10, \lambda_{-} = 2, \alpha = 1.25$ , and the KRTS Distributions with  $k_{\pm} = C(\alpha + p)_{\pm}^{r^{-a}}$ ,  $r_{+} = 1 / \lambda_{+}$ ,  $r_{-} = 1 / \lambda_{-}$ , where  $p = p_{+} = p_{-} \in \{-0.25, 1, 10\}$
+Figure 9 Probability Density of the CTS Distribution with Parameters $C = 1, \lambda_{+} = 10, \lambda_{-} = 2, \alpha = 1.25$, and the KRTS Distributions with $k_{\pm} = C(\alpha + p)_{\pm}^{r^{-a}}$, $r_{+} = 1 / \lambda_{+}$, $r_{-} = 1 / \lambda_{-}$, where $p = p_{+} = p_{-} \in \{-0.25, 1, 10\}$
 
 # Rapidly Decreasing Tempered Stable Distribution
 
-Let  $\alpha \in (0,1)\cup (1,2),C,\lambda_{+},\lambda_{-} > 0$  , and  $m\in \mathbb{R}$  .A random variable  $X$  is said to follow the rapidly decreasing tempered stable (RDTS) distribution (see Bianchi et al., 2010 and Kim et al., 2010) if the characteristic function of  $X$  is given by
+Let $\alpha \in (0,1)\cup (1,2),C,\lambda_{+},\lambda_{-} > 0$, and $m\in \mathbb{R}$. A random variable $X$ is said to follow the rapidly decreasing tempered stable (RDTS) distribution (see Bianchi et al., 2010 and Kim et al., 2010) if the characteristic function of $X$ is given by
 
 $$
 \begin{array}{l} \phi_{X} (u) = \phi_{R D T S} (u; \alpha , C, \lambda_{+}, \lambda_{-}, m) \\ \exp (i u m + C \left(G (i u; \alpha , \lambda_{+}) + G (- i u; \alpha , \lambda_{-}))\right) \tag {14} \\ \end{array}
@@ -418,20 +432,20 @@ $$ where
 
 $$
 \begin{array}{l} G (x; \alpha , \lambda) = 2^{- \frac{\alpha}{2} - 1} \lambda^{\alpha} \Gamma \left(- \frac{\alpha}{2}\right) \left(M \left(- \frac{\alpha}{2}, \frac{1}{2}; \frac{x^{2}}{2 \lambda^{2}}\right) - 1\right) \\ + 2^{- \frac{\alpha}{2} - \frac{1}{2}} \lambda^{\alpha - 1} x \Gamma \left(\frac{1 - \alpha}{2}\right) \\ \times \left(M \left(\frac{1 - \alpha}{2}, \frac{3}{2}; \frac{x^{2}}{2 \lambda^{2}}\right) - 1\right) \\ \end{array}
-$$ and  $M$  is the confluent hypergeometric function. Further details of the confluent hypergeometric function are presented at the end of this entry. In this case, we denote  $X \sim \mathrm{RDTS}(\alpha, C, \lambda_{+}, \lambda_{-}, m)$ . The role of the parameters are the same as for the case of the CTS distribution.
+$$ and $M$ is the confluent hypergeometric function. Further details of the confluent hypergeometric function are presented at the end of this entry. In this case, we denote $X \sim \mathrm{RDTS}(\alpha, C, \lambda_{+}, \lambda_{-}, m)$. The role of the parameters are the same as for the case of the CTS distribution.
 
 
-The mean of  $X$  is  $m$ , and the cumulants of  $X$  are
+The mean of $X$ is $m$, and the cumulants of $X$ are
 
 $$
-\begin{array}{l} c_{n} (X) = 2^{\frac{n - \alpha - 2}{2}} C \Gamma \left(\frac{n - \alpha}{2}\right) \\ \times \left(\lambda_{+}^{\alpha - n} + (- 1)^{n} \lambda_{-}^{\alpha - n}\right), \text{fo r} n = 2, 3, \dots . \\ \end{array}
+\begin{array}{l} c_{n} (X) = 2^{\frac{n - \alpha - 2}{2}} C \Gamma \left(\frac{n - \alpha}{2}\right) \\ \times \left(\lambda_{+}^{\alpha - n} + (- 1)^{n} \lambda_{-}^{\alpha - n}\right), \text{for} n = 2, 3, \dots . \\ \end{array}
 $$
 
 If we substitute
 
 $$
 C = 2^{\frac{\alpha}{2}} \left(\Gamma \left(1 - \frac{\alpha}{2}\right) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)\right)^{- 1} \tag {15}
-$$ then  $X \sim \mathrm{RDTS}(\alpha, C, \lambda_{+}, \lambda_{-}, 0)$  has zero mean and unit variance, and  $X$  is called the standard RDTS distribution and denoted by  $X \sim \mathrm{stdRDTS}(\alpha, \lambda_{+}, \lambda_{-})$ . Let  $m$  be a real number,  $\sigma$  be a positive real number, and  $X \sim \mathrm{stdCTS}(\alpha, \lambda_{+}, \lambda_{-})$ . Then
+$$ then $X \sim \mathrm{RDTS}(\alpha, C, \lambda_{+}, \lambda_{-}, 0)$ has zero mean and unit variance, and $X$ is called the standard RDTS distribution and denoted by $X \sim \mathrm{stdRDTS}(\alpha, \lambda_{+}, \lambda_{-})$. Let $m$ be a real number, $\sigma$ be a positive real number, and $X \sim \mathrm{stdRDTS}(\alpha, \lambda_{+}, \lambda_{-})$. Then
 
 
 $$
@@ -441,9 +455,9 @@ $$ where  $C$  is equal to (15). The random variable  $Y$  is RDTS distributed, 
 
 # INFINITELY DIVISIBLE DISTRIBUTIONS
 
-A random variable  $Y$  is referred to as infinitely divisible if for each positive integer  $n$ , there are IID random variables  $Y_{i}, Y_{2}, \dots, Y_{n}$  such that  $Y \stackrel{\mathrm{d}}{=} \sum_{k=1}^{n} Y_{k}$  that is, the distribution of  $Y$  is the same as the distribution of  $\sum_{k=1}^{n} Y_{k}$
+A random variable $Y$ is referred to as infinitely divisible if for each positive integer $n$, there are IID random variables $Y_{i}, Y_{2}, \dots, Y_{n}$ such that $Y \stackrel{\mathrm{d}}{=} \sum_{k=1}^{n} Y_{k}$ that is, the distribution of $Y$ is the same as the distribution of $\sum_{k=1}^{n} Y_{k}$
 
-For example, the normal distribution is infinitely divisible. Using the characteristic function for the normal distribution, we can easily check the property. Suppose  $Y \sim N(\mu, \sigma^2)$ . For any positive integer  $n$ , consider a sequence of IID random variables  $Y_1, Y_2, \ldots, Y_n$  such that  $Y_k \sim N(\mu/n, \sigma^2/n)$ . Since  $Y_k$ 's are independent we have
+For example, the normal distribution is infinitely divisible. Using the characteristic function for the normal distribution, we can easily check the property. Suppose $Y \sim N(\mu, \sigma^2)$. For any positive integer $n$, consider a sequence of IID random variables $Y_1, Y_2, \ldots, Y_n$ such that $Y_k \sim N(\mu/n, \sigma^2/n)$. Since $Y_k$'s are independent we have
 
 $$
 E \left[ \exp \left(i u \sum_{k = 1}^{n} Y_{k}\right) \right] = \prod_{k = 1}^{n} E \left[ i u Y_{k} \right]
@@ -462,7 +476,7 @@ E \left[ \exp \left(i u \sum_{k = 1}^{n} Y_{k}\right) \right] = \exp \left(i u \
 $$ which is the same as the characteristic function of  $Y$ . Therefore,  $Y \stackrel{\mathrm{d}}{=} \sum_{k=1}^{n} Y_k$ .
 
 
-Using similar arguments, we can show that the Poisson, gamma, variance-gamma (VG), inverse Gaussian (IG),  $\alpha$ -stable, CTS, GTS, MTS, NTS(NIG), RDTs, and KRTS distributions are infinitely divisible. The relations of  $Y$  and  $Y_{k}, k = 1,\dots n$  for those distributions are presented in Table 2. We can show that the sum of infinitely divisible random variables is again infinitely divisible.
+Using similar arguments, we can show that the Poisson, gamma, variance-gamma (VG), inverse Gaussian (IG), $\alpha$-stable, CTS, GTS, MTS, NTS(NIG), RDTS, and KRTS distributions are infinitely divisible. The relations of $Y$ and $Y_{k}, k = 1,\dots n$ for those distributions are presented in Table 2. We can show that the sum of infinitely divisible random variables is again infinitely divisible.
 
 In the literature, the characteristic function of the one-dimensional infinitely divisible distribution is generalized by the Lévy-Khinchine formula:
 
@@ -472,7 +486,7 @@ $$
 
 Table 2 Infinitely Divisible Distributions
 
-<table><tr><td></td><td>Y d ∑k=1n Yk</td><td>Yk</td></tr><tr><td>Poisson</td><td>Poiss(λ)</td><td>Poiss(λ/n)</td></tr><tr><td>Gamma</td><td>Gamma(c, λ)</td><td>Gamma(c/n, λ)</td></tr><tr><td>Variance gamma</td><td>VG(C, λ+, λ-)</td><td>VG(C/n, λ+, λ-)</td></tr><tr><td>Inverse Gaussian</td><td>IG(c, λ)</td><td>IG(c/n, λ)</td></tr><tr><td>Normal</td><td>N(μ, σ2)</td><td>N(μ/n, σ2/2)</td></tr><tr><td>α-stable</td><td>Sα(σ, β, μ)</td><td>Sα(σ/n, β, μ/n)</td></tr><tr><td>CTS</td><td>CTS(α, C, λ+, λ-, m)</td><td>CTS(α, C/n, λ+, λ-, m/n)</td></tr><tr><td>GTS</td><td>GTS(α+, α-, C+, C-, λ+, λ-, m)</td><td>GTS(α+α-, C+, C-, N, λ+, λ-, m/n)</td></tr><tr><td>MTS</td><td>MTS(α, C, λ+, λ-, m)</td><td>MTS(α, C/n, λ+, λ-, m/n)</td></tr><tr><td>NTS</td><td>NTS(α, C, λ, β, m)</td><td>NTS(α, C/n, λ, β, m/n)</td></tr><tr><td>KRTS</td><td>KRTS(α+, k+, k-, r+, r-, p+, p-, m)</td><td>KRTS(α, k+, n, k-, r+, r-, p+, p-, m/n)</td></tr><tr><td>RDTS</td><td>RDTS(α, C, λ+, λ-, m)</td><td>RDTS(α, C/n, λ+, λ-, m/n)</td></tr></table>
+<table><tr><td>Distribution</td><td>Y ∼ Distribution</td><td>Yk ∼ Distribution</td></tr><tr><td>Poisson</td><td>Poiss(λ)</td><td>Poiss(λ/n)</td></tr><tr><td>Gamma</td><td>Gamma(c, λ)</td><td>Gamma(c/n, λ)</td></tr><tr><td>Variance gamma</td><td>VG(C, λ+, λ-)</td><td>VG(C/n, λ+, λ-)</td></tr><tr><td>Inverse Gaussian</td><td>IG(c, λ)</td><td>IG(c/n, λ)</td></tr><tr><td>Normal</td><td>N(μ, σ²)</td><td>N(μ/n, σ²/n)</td></tr><tr><td>α-stable</td><td>Sα(σ, β, μ)</td><td>Sα(σ/n, β, μ/n)</td></tr><tr><td>CTS</td><td>CTS(α, C, λ+, λ-, m)</td><td>CTS(α, C/n, λ+, λ-, m/n)</td></tr><tr><td>GTS</td><td>GTS(α+, α-, C+, C-, λ+, λ-, m)</td><td>GTS(α+, α-, C+/n, C-/n, λ+, λ-, m/n)</td></tr><tr><td>MTS</td><td>MTS(α, C, λ+, λ-, m)</td><td>MTS(α, C/n, λ+, λ-, m/n)</td></tr><tr><td>NTS</td><td>NTS(α, C, λ, β, m)</td><td>NTS(α, C/n, λ, β, m/n)</td></tr><tr><td>KRTS</td><td>KRTS(α, k+, k-, r+, r-, p+, p-, m)</td><td>KRTS(α, k+/n, k-/n, r+, r-, p+, p-, m/n)</td></tr><tr><td>RDTS</td><td>RDTS(α, C, λ+, λ-, m)</td><td>RDTS(α, C/n, λ+, λ-, m/n)</td></tr></table>
 
 Table 3 Lévy Measures
 

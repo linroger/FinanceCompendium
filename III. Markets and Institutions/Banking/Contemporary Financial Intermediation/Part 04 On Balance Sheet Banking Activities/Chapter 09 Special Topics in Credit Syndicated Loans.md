@@ -1,12 +1,22 @@
 ---
-aliases:
-  - Special Topics in Credit Syndicated Loans
-tags:
-key_concepts:
+title: Chapter 09 Special Topics in Credit Syndicated Loans
 parent_directory: Contemporary Financial Intermediation
+formatted: "2025-12-21 07:20:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - syndicated lending
+  - loan sales
+  - project finance
+secondary_tags:
+  - credit syndication
+  - loan participations
+  - bank lending
+  - infrastructure financing
+  - risk diversification
+  - financial intermediation
+  - credit risk management
 cssclasses: academia
-title: Chapter 09 - Special Topics in Credit Syndicated Loans
-linter-yaml-title-alias: Chapter 09 - Special Topics in Credit Syndicated Loans
 ---
 
 # GLOSSARY OF TERMS
@@ -203,11 +213,5 @@ Pavel, C., Phillis, D., 1987. "To sell or not to sell: loan sales by commercial 
 Pennacchi, G., 2006. Deposit insurance, bank regulation and financial system risks. J. Monetary Econ. 53, 1-30.  
 Shah, S., Thakor, A.V., 1987. Optimal capital structure and project financing. J. Econ. Theory 42, 209-243.  
 Sorge, M., 2004. The nature of credit risk in project finance. BIS Q. Rev., 91-102.  
-Sufi, A., 2007. Information asymmetry and financing arrangements: Evidence from syndicated loans. J. Financ. 62, 629-668.  
+Sufi, A., 2007. Information asymmetry and financing arrangements: Evidence from syndicated loans. J. Financ. 62, 629-668.
 Thakor, A., 2005. Do loan commitments cause overlending? J. Money, Credit Banking 37, 1067-1100.
-
-# Off-Balance Sheet Banking and Contingent Claims Products
-
-"Has the attention paid to simple capital-asset ratios driven risks off balance sheet, and is off balance sheet also out of mind?"
-
-Paul Volcker, *Chairman of the Board of Governors of the Federal Reserve system*, in an address to the American Bankers Association, October 1985

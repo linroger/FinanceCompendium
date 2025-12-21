@@ -1,42 +1,36 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: '35'
-linter-yaml-title-alias: '35'
+title: "Pricing Futures and Options Contracts"
+parent_directory: "Foundations of Global Financial Markets"
+formatted: "2025-12-21 07:15:00 AM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli-tool: "claude-code"
 primary_tags:
-- cash market transactions futures
-- strike price underlying asset
-- pricing futures contract arbitrage
-- options theoretical price option
-- hedge ratio calculate
+  - futures pricing theory
+  - options pricing models
+  - arbitrage pricing
+  - cost of carry
+  - put-call parity
 secondary_tags:
-- 35 pricing futures options
-- hedge riskless payoffs solving
-- arbitrage model price convergence
-- magnitude outcome deriving hedge
-- futures price differ theoretical
-- option pricing models deriving
-- futures price obtain equation
-- futures options contracts contents
-- transactions pricing options basic
-- hedge hold regardless price
-- basic principle hedged portfolio
-- portfolio riskless return equal
-tags_extracted: '2025-12-18T00:27:58.956377'
+  - binomial option pricing
+  - black-scholes model
+  - hedge ratios
+  - volatility impact
+  - interest rate effects
+  - cash flow adjustments
+  - transaction costs
+  - short selling constraints
+  - delivery options
+  - tax treatment differences
+cssclasses: academia
 ---
-
-# 35
 
 # Pricing Futures and Options Contracts
 
-# CONTENTS
+## CONTENTS
 
-# Learning Objectives
+## Learning Objectives
 
-# Pricing of Futures Contracts
+## Pricing of Futures Contracts
 
 Theoretical Futures Price Based on Arbitrage Model
 
@@ -58,7 +52,7 @@ The Deliverable Is a Basket of Securities
 
 Different Tax Treatment of Cash and Futures Transactions
 
-# Pricing of Options
+## Pricing of Options
 
 Basic Components of the Option Price
 
@@ -92,9 +86,9 @@ Deriving the Price of a Call Option
 
 Fixed-Income Option Pricing Models
 
-# Key Points
+## Key Points
 
-# Questions
+## Questions
 
 After reading this chapter, you will understand:
 
@@ -110,7 +104,7 @@ After reading this chapter, you will understand:
 
 In chapters 33 and 34, we described the various types of futures and options contracts. In this chapter, we explain how to determine the theoretical price of these contracts using arbitrage arguments. A close examination of the underlying assumptions necessary to derive the theoretical price indicates how it must be modified to price the specific contracts described in the previous two chapters.
 
-# Pricing of Futures Contracts
+## Pricing of Futures Contracts
 
 To understand what determines the futures price, consider once again the futures contract in chapter 33, whose underlying instrument is Asset XYZ. We make several assumptions:
 
@@ -281,11 +275,11 @@ The theoretical futures price may be at a premium to the cash market price (high
 
 At the delivery date, which is when the futures contract settles, the futures price must equal the cash market price, because a futures contract with no time left until delivery is equivalent to a cash market transaction. Thus, as the delivery date approaches, the futures price will converge to the cash market price. This fact is evident from the equation for the theoretical futures price. As the delivery date approaches, the financing cost approaches zero, and the yield that can be earned by holding the investment approaches zero. Hence, the cost of carry approaches zero, and the futures price will approach the cash market price.
 
-# A Closer Look at the Theoretical Futures Price
+## A Closer Look at the Theoretical Futures Price
 
 To derive the theoretical futures price using the arbitrage argument, we made several assumptions. When the assumptions are violated, the actual futures price will diverge from the theoretical futures price. That is, the difference between the two prices will differ from the value of carry. Next, we examine those assumptions and identify practical reasons for the tendency of actual prices of all financial futures contracts to deviate from their theoretical prices.
 
-# Interim Cash Flows
+### Interim Cash Flows
 
 Our theoretical analysis assumes that no interim cash flows arise because of changes in futures prices and the variation margin of the organized exchanges on which futures are traded. In addition, our approach assumes implicitly that any dividends or coupon interest payments are paid at the delivery date rather than at some time between initiation of the cash position and expiration of the futures contract. However, we know that interim cash flows of either type can and do occur in practice.
 
@@ -293,7 +287,7 @@ In the case of stock index futures, incorporating interim dividend payments into
 
 It is important to note that, in the absence of initial and variation margins, the theoretical price for the contract is technically the theoretical price for a forward contract, not the theoretical price for a futures contract. This is because, unlike a futures contract, a forward contract is not marked to market at the end of each trading day, and therefore does not require variation margin and does not generate cash inflows from gains or outflows from losses.
 
-# Differences between Lending and Borrowing Rates
+### Differences between Lending and Borrowing Rates
 
 When deriving the theoretical futures price, we assumed that the investor's borrowing and lending rates are equal. Typically, however, the borrowing rate is higher than the lending rate. The impact of this inequality is important and easy to identify. We begin by adopting these symbols for the two rates:
 
@@ -345,7 +339,7 @@ $$
 
 Thus, equilibrium is achieved if the futures price takes on any value between the two boundaries. In other words, equilibrium requires that $98.50 ≤ F ≤ $99.
 
-# Transaction Costs
+### Transaction Costs
 
 When deriving the theoretical futures price, we ignored transaction costs of the elements in the arbitrage strategies. In reality, the costs of entering into and closing the cash position as well as round-trip transaction costs for the futures contract do affect the futures price. It is easy to show, as we did previously for borrowing and lending rates, that transaction costs widen the boundaries for the equilibrium futures price. The details need not concern us here.
 
@@ -367,7 +361,7 @@ Some futures contracts involve a single asset, but other contracts apply to a ba
 
 The basic arbitrage model presented in this chapter ignores not only taxes but also different tax treatment of cash market transactions and futures transactions. Obviously, these factors can keep the actual futures price from being equal to the theoretical price.
 
-# Pricing of Options
+## Pricing of Options
 
 The theoretical price of an option is also derived from arbitrage arguments. However, the pricing of options is not as simple as the pricing of futures contracts.
 
@@ -690,7 +684,7 @@ Although the binomial option pricing model based on yields is superior to models
 
 The most elaborate models that take the yield curve into consideration, and as a result eliminate arbitrage opportunities, are called yield curve option pricing models or arbitrage-free option pricing models. These models can incorporate different volatility assumptions along the yield curve. They are theoretically superior to the other models we have described. $^4$
 
-# Key Points
+## Key Points
 - The equilibrium or theoretical futures price can be determined through arbitrage arguments.
 - The strategy that can be used to capture the arbitrage profit for an overpriced futures contract is the cash and carry trade; the strategy that can be used to capture the arbitrage profit for an underpriced futures contract is the reverse cash and carry trade.
 - The theoretical futures price depends on the price of the underlying asset in the cash market, the cost of financing a position in the underlying asset, and the cash yield on the underlying asset.
@@ -713,7 +707,7 @@ The most elaborate models that take the yield curve into consideration, and as a
 - The theoretical option price can be calculated with the binomial option pricing model, which also employs arbitrage arguments.
 - Application of the binomial model to the pricing of options on fixed-income securities poses problems because of the model's underlying assumptions.
 
-# Questions
+## Questions
 
 1. Models for pricing futures and options are said to be based on arbitrage arguments.
 

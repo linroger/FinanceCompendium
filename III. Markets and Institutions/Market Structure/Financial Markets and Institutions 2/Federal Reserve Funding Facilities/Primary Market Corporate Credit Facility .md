@@ -1,13 +1,19 @@
 ---
-parent_directory:
 title: Primary Market Corporate Credit Facility
-tags:
-aliases:
-parent_folder: Federal Reserve Funding Facilities
-subfolder:
-key_concepts:
+parent_directory: Federal Reserve Funding Facilities
+formatted: 2025-12-21 08:15:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - corporate credit facility
+  - federal reserve funding
+secondary_tags:
+  - investment grade bonds
+  - syndicated loans
+  - credit ratings
+  - treasury equity
+  - special purpose vehicle
 cssclasses: academia
-linter-yaml-title-alias: Primary Market Corporate Credit Facility
 ---
 
 # Primary Market Corporate Credit Facility

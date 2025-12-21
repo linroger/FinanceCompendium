@@ -1,4 +1,23 @@
 
+---
+title: "Average Value-at-Risk"
+parent_directory: "Volume III/Risk Measures"
+formatted: "2025-12-21 12:00:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - average value-at-risk
+  - coherent risk measure
+  - expected shortfall
+  - value-at-risk
+secondary_tags:
+  - tail risk measures
+  - portfolio risk management
+  - loss distribution
+  - risk assessment
+cssclasses: academia
+---
+
 # Average Value-at-Risk
 
 STOYAN V. STOYANOV, PhD
@@ -21,13 +40,10 @@ In this entry, we explore in detail the properties of AVaR and illustrate its su
 
 We also provide closed-form expressions for the AVaR of the normal distribution, Student's  $t$  distribution, and a practical formula for Lévy stable distributions. Finally, we describe different estimation methods and remark on potential pitfalls.
 
-# AVERAGE VALUE-AT-RISK DEFINED
+## AVERAGE VALUE-AT-RISK DEFINED
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/1b41db6d9d4eaaa4447fc3c920480c2849ae7afa790d1a5cc7113519ee66e03d.jpg)
 Figure 1 Note: The top plot shows the densities of  $X$  and  $Y$  and the bottom plot shows their c.d.f.s. The  $95\%$  VaRs of  $X$  and  $Y$  are equal to 0.15 but  $X$  has a thicker tail and is more risky.
-
-
-that their risks are equal because their  $95\%$  VaRs are equal.
 
 This conclusion is wrong because we pay no attention to the losses that are larger than the  $95\%$  VaR level. It is visible in Figure 1 that the left tail of  $X$  is heavier than the left tail of  $Y$ . Therefore, it is more likely that the losses of  $X$  will be larger than the losses of  $Y$ , on condition that they are larger than  $15\%$ . Thus, looking only at the losses occurring with probability smaller than  $5\%$ , the random return  $X$  is riskier than  $Y$ . Note that both  $X$  and  $Y$  have equal standard deviations. If we base the analysis on the standard deviation and the expected return, we would conclude that not only is the uncertainty of  $X$  equal to the uncertainty of  $Y$ , but  $X$  is actually preferable because of the higher expected return. In fact, we realize that it is exactly the opposite, which shows how important it is to ground the reasoning on a proper risk measure.
 
@@ -36,7 +52,7 @@ The disadvantage of VaR, that it is not informative about the magnitude of the l
 The AVaR at tail probability  $\epsilon$  is defined as the average of the VaRs, which are larger than the VaR at tail probability  $\epsilon$ . Therefore, by construction, the AVaR is focused on the losses in the tail, which are larger than the corresponding VaR level. The average of the VaRs is computed through the integral
 
 $$
-A V a R_{\in} (X) = \frac{1}{\epsilon} \int_{0}^{\epsilon} V a R_{p} (X) d p \tag {1}
+AVaR_{\epsilon} (X) = \frac{1}{\epsilon} \int_{0}^{\epsilon} VaR_{p} (X) d p \tag {1}
 $$ where  $VaR_{p}(X)$  is defined by  $VaR_{\epsilon}(X) = -\inf_{x}\{x|P(X\leq x)\geq \epsilon \} = -F_{X}^{-1}(\epsilon)$ . As a matter of fact, the AVaR is not well defined for all real-valued random variables but only for those with finite mean; that is  $AVaR_{\epsilon}(X) < \infty$  if  $E|X| < \infty$ . This should not be disturbing because random variables with infinite mathematical
 
 
@@ -60,14 +76,14 @@ In line with the geometric interpretation, the  $AVaR_{0.05}(X)$  is a number su
 Besides the definition in equation (1), AVaR can be represented through a minimization formula,
 
 $$
-A V a R_{\epsilon} (X) = \min_{\theta \in \mathbb {R}} \left(\theta + \frac{1}{\epsilon} E (- X - \theta)_{+}\right) \tag {2}
+AVaR_{\epsilon} (X) = \min_{\theta \in \mathbb {R}} \left(\theta + \frac{1}{\epsilon} E (- X - \theta)_{+}\right) \tag {2}
 $$ where  $(x)_{+}$  denotes the maximum between  $x$  and zero,  $(x)_{+} = \max (x,0)$  and  $X$  describes the portfolio return distribution. It turns out that this formula has an important application in optimal portfolio problems based on AVaR as a risk measure. In the appendix to this entry, we provide an illuminating geometric interpretation of equation (2), which shows the connection to the definition of AVaR.
 
 
 How can we compute the AVaR for a given return distribution? Throughout this section, we assume that the return distribution function is a continuous function, that is, there are no point masses. Under this condition, after some algebra and using the fact that VaR is the negative of a certain quantile, we obtain that the AVaR can be represented in terms of a conditional expectation,
 
 $$
-\begin{array}{l} A V a R_{\epsilon} (X) = - \frac{1}{\epsilon} \int_{0}^{\epsilon} F_{X}^{- 1} (t) d t \\ = - E (X \mid X <   - V a R_{\epsilon} (X)) \tag {3} \\ \end{array}
+\begin{array}{l} AVaR_{\epsilon} (X) = - \frac{1}{\epsilon} \int_{0}^{\epsilon} F_{X}^{- 1} (t) d t \\ = - E (X \mid X <   - VaR_{\epsilon} (X)) \tag {3} \\ \end{array}
 $$ which is called expected tail loss (ETL) and is denoted by  $ETL_{\epsilon}(X)$ . The conditional expectation implies that the AVaR equals the average loss provided that the loss is larger than the VaR level. In fact, the average of VaRs in equation (1) equals the average of losses in equation (3) only if the c.d.f. of  $X$  is continuous at  $x = VaR_{\epsilon}(X)$ . If there is a discontinuity, or a point mass, the relationship is more involved. The general formula is given in the appendix to this entry.
 
 
@@ -75,39 +91,39 @@ Equation (3) implies that AVaR is related to the conditional loss distribution. 
 
 For some continuous distributions, it is possible to calculate explicitly the AVaR through equation (3). We provide the closed-form expressions for the normal distribution and Student's  $t$  distribution. In the appendix to this entry, we give a semi-explicit formula for the class of stable distributions.
 
-# 1. The normal distribution
+###### 1. The normal distribution
 
 Suppose that  $X$  is distributed according to a normal distribution with standard deviation  $\sigma_X$  and mathematical expectation  $EX$ . The AVaR of  $X$  at tail probability  $\epsilon$  equals
 
 $$
-A V a R_{\epsilon} (X) = \frac{\sigma_{X}}{\epsilon \sqrt{2 \pi}} \exp \left(- \frac{(V a R_{\epsilon} (Y))^{2}}{2}\right) - E X \tag {4}
+AVaR_{\epsilon} (X) = \frac{\sigma_{X}}{\epsilon \sqrt{2 \pi}} \exp \left(- \frac{(VaR_{\epsilon} (Y))^{2}}{2}\right) - E X \tag {4}
 $$ where  $Y$  has the standard normal distribution,  $Y\in N(0,1)$
 
 
-# 2. The Student's t distribution
+###### 2. The Student's t distribution
 
 Suppose that  $X$  has Student's  $t$  distribution with  $\nu$  degrees of freedom,  $X\in t(\nu)$ . The AVaR of  $X$  at tail probability  $\epsilon$  equals
 
 $$
-\begin{array}{l} A V a R_{e} (X) = \\ \left\{ \begin{array}{l l} \frac{\Gamma \left(\frac{\nu + 1}{2}\right)}{\Gamma \left(\frac{\nu}{2}\right)} \frac{\sqrt{\nu}}{(\nu - 1) \epsilon \sqrt{\pi}} \left(1 + \frac{(V a R_{\epsilon} (X))^{2}}{\nu}\right)^{\frac{1 - \nu}{2}}, \nu > 1 \\ \infty & , \nu = 1 \end{array} \right. \\ \end{array}
+\begin{array}{l} AVaR_{\epsilon} (X) = \\ \left\{ \begin{array}{l l} \frac{\Gamma \left(\frac{\nu + 1}{2}\right)}{\Gamma \left(\frac{\nu}{2}\right)} \frac{\sqrt{\nu}}{(\nu - 1) \epsilon \sqrt{\pi}} \left(1 + \frac{(VaR_{\epsilon} (X))^{2}}{\nu}\right)^{\frac{1 - \nu}{2}}, \nu > 1 \\ \infty & , \nu = 1 \end{array} \right. \\ \end{array}
 $$ where the notation  $\Gamma (x)$  stands for the gamma function. It is not surprising that for  $\nu = 1$  the AVaR explodes because the Student's  $t$  distribution with one degree of freedom, also known as the Cauchy distribution, has infinite mathematical expectation.5
 
 
 Note that equation (4) can be represented in a more compact way,
 
 $$
-A V a R_{\epsilon} (X) = \sigma_{X} C_{\epsilon} - E X \tag {5}
+AVaR_{\epsilon} (X) = \sigma_{X} C_{\epsilon} - E X \tag {5}
 $$ where  $C_{\epsilon}$  is a constant which depends only on the tail probability  $\epsilon$ . Therefore, the AVaR of the normal distribution has the same structure as the normal VaR—the difference between the properly scaled standard deviation and the mathematical expectation. In effect, similar to the normal VaR, the normal AVaR properties are dictated by the standard deviation. Even though AVaR is focused on the extreme losses only, due to the limitations of the normal assumption, it is symmetric.
 
 
 Exactly the same conclusion holds for the AVaR of Student's  $t$  distribution. The true merits of AVaR become apparent if the underlying distributional model is skewed.
 
-# AVaR ESTIMATION FROM A SAMPLE
+## AVaR ESTIMATION FROM A SAMPLE
 
 Suppose that we have a sample of observed portfolio returns and we are not aware of their distribution. Provided that we do not impose any distributional model, the AVaR of portfolio return can be estimated from the sample of observed portfolio returns. Denote the observed portfolio returns by  $r_1, r_2, \ldots, r_n$  at time instants  $t_1, t_2, \ldots, t_n$ . The numbers in the sample are given in order of observation. Denote the sorted sample by  $r_{(1)} \leq r_{(2)} \leq \ldots \leq r_{(n)}$ . Thus,  $r_{(1)}$  equals the smallest observed portfolio return and  $r_{(n)}$  is the largest. The AVaR of portfolio returns at tail probability  $\epsilon$  is estimated according to the formula
 
 $$
-\widehat {A V a R_{\epsilon}} (r) = - \frac{1}{\epsilon} \left(\frac{1}{n} \sum_{k = 1}^{\lceil n \epsilon \rceil - 1} r_{(k)} + \left(\epsilon - \frac{\lceil n \epsilon \rceil - 1}{n}\right) r_{(\lceil n \epsilon \rceil)}\right) \tag {6}
+\widehat {AVaR_{\epsilon}} (r) = - \frac{1}{\epsilon} \left(\frac{1}{n} \sum_{k = 1}^{\lceil n \epsilon \rceil - 1} r_{(k)} + \left(\epsilon - \frac{\lceil n \epsilon \rceil - 1}{n}\right) r_{(\lceil n \epsilon \rceil)}\right) \tag {6}
 $$ where the notation  $\lceil x\rceil$  stands for the smallest integer larger than  $x$ . The "hat" above AVaR denotes that the number calculated by equation (6) is an estimate of the true value because it is
 
 
@@ -124,7 +140,7 @@ Formula (6) can be applied not only to a sample of empirical observations. We ma
 Besides formula (6), there is another method for calculation of AVaR. It is based on the minimization formula (2) in which we replace the mathematical expectation by the sample average,
 
 $$
-\widehat {A V a R_{\epsilon}} (r) = \min_{\theta \in \mathbb {R}} \left(\theta + \frac{1}{n \epsilon} \sum_{i = 1}^{n} \max  (- r_{i} - \theta , 0)\right) \tag {7}
+\widehat {AVaR_{\epsilon}} (r) = \min_{\theta \in \mathbb {R}} \left(\theta + \frac{1}{n \epsilon} \sum_{i = 1}^{n} \max  (- r_{i} - \theta , 0)\right) \tag {7}
 $$
 
 Even though it is not obvious, equations (6) and (7) are completely equivalent.
@@ -152,7 +168,7 @@ $$
 The solution to this optimization problem is the number  $1.137\%$ , which is attained for  $\theta = 0.38\%$ . In fact, this value of  $\theta$  coincides with the VaR at  $30\%$  tail probability and this is not by chance but a feature of the problem, which is demonstrated in the appendix to this entry. We verify that the solution of the problem is indeed the number  $1.137\%$  by calculating the objective in equation (7) for  $\theta = 0.38\%$ ,
 
 $$
-\begin{array}{l} A V a R_{\epsilon} (r) = 0.38 \% + \frac{0.98 \% - 0.38 \% + 1.37 \% - 0.38 \%}{7 \times 0.3} \\ = 1.137 \% \\ \end{array}
+\begin{array}{l} AVaR_{\epsilon} (r) = 0.38 \% + \frac{0.98 \% - 0.38 \% + 1.37 \% - 0.38 \%}{7 \times 0.3} \\ = 1.137 \% \\ \end{array}
 $$
 
 Thus, we obtain the number calculated through equation (6).
@@ -176,7 +192,7 @@ $$ where  $E$  stands for the mathematical expectation. Thus, under this assumpt
 
 
 $$
-\begin{array}{l} A V a R_{\epsilon} \left(r_{p}\right) = \frac{\sqrt{w^{\prime} \Sigma w}}{\epsilon \sqrt{2 \pi}} \exp \left(- \frac{\left(V a R_{\epsilon} (Y)\right)^{2}}{2}\right) - E r_{p} \\ = C_{\epsilon} \sqrt{w^{\prime} \Sigma w} - E r_{p} \tag {9} \\ \end{array}
+\begin{array}{l} AVaR_{\epsilon} \left(r_{p}\right) = \frac{\sqrt{w^{\prime} \Sigma w}}{\epsilon \sqrt{2 \pi}} \exp \left(- \frac{\left(VaR_{\epsilon} (Y)\right)^{2}}{2}\right) - E r_{p} \\ = C_{\epsilon} \sqrt{w^{\prime} \Sigma w} - E r_{p} \tag {9} \\ \end{array}
 $$ where  $C_{\epsilon}$  is a constant independent of the portfolio composition and can be calculated in advance. In effect, due to the limitations of the multivariate normal assumption, the portfolio AVaR appears symmetric and is representable as the difference between the properly scaled standard deviation of the random portfolio return and portfolio expected return.
 
 
@@ -194,7 +210,7 @@ According to the hybrid method, different weights are assigned to the observatio
 The hybrid method can be adapted for AVaR estimation. The weights assigned to the observations are interpreted as probabilities and, thus, the portfolio AVaR can be estimated from the resulting discrete distribution according to the formula
 
 $$
-\begin{array}{l} \widehat {A V a R_{\epsilon}} (r) \\ = - \frac{1}{\epsilon} \left(\sum_{j = 1}^{k_{\epsilon}} p_{j} r_{(j)} + \left(\epsilon - \sum_{j = 1}^{k_{\epsilon}} p_{j}\right) r_{\left(k_{\epsilon + 1}\right)}\right) \tag {10} \\ \end{array}
+\begin{array}{l} \widehat {AVaR_{\epsilon}} (r) \\ = - \frac{1}{\epsilon} \left(\sum_{j = 1}^{k_{\epsilon}} p_{j} r_{(j)} + \left(\epsilon - \sum_{j = 1}^{k_{\epsilon}} p_{j}\right) r_{\left(k_{\epsilon + 1}\right)}\right) \tag {10} \\ \end{array}
 $$ where  $r_{(1)}\leq r_{(2)}\leq \ldots \leq r_{(k_m)}$  denotes the sorted sample of portfolio returns or payoffs and  $p_1,$ $p_2,\dots ,p_{k_m}$  stand for the probabilities of the sorted observations; that is,  $p_1$  is the probability of  $r_{(1)}$  . The number  $k_{\epsilon}$  in equation (10) is an integer satisfying the inequalities
 
 
@@ -214,7 +230,7 @@ Similar to the case of VaR, an artifact of the Monte Carlo method is the variabi
 Suppose that the portfolio daily return distribution is the standard normal law,  $r_p \in N(0,1)$ . By the closed-form expression in equation (4), we calculate that the AVaR of the portfolio at  $1\%$  tail probability equals
 
 $$
-\begin{array}{l} A V a R_{0. 0 1} (r_{p}) = \frac{1}{0 . 0 1 \sqrt{2 \pi}} \exp \left(- \frac{2 . 3 2 6^{2}}{2}\right) \\ = 2. 6 6 5 \\ \end{array}
+\begin{array}{l} AVaR_{0. 0 1} (r_{p}) = \frac{1}{0 . 0 1 \sqrt{2 \pi}} \exp \left(- \frac{2 . 3 2 6^{2}}{2}\right) \\ = 2. 6 6 5 \\ \end{array}
 $$
 
 In order to investigate how the fluctuations of the  $99\%$  AVaR change about the theoretical value, we generate samples of different sizes: 500, 1,000, 5,000, 10,000, 20,000, and 100,000 scenarios. The  $99\%$  AVaR is computed from these samples using equation 6 and the numbers are stored. We repeat the experiment 100 times. In the end, we have 100 AVaR numbers for each sample size. We expect that as the sample size increases, the AVaR values will fluctuate less about the theoretical value which is  $AVaR_{0.01}(X) = 2.665$ ,  $X \in N(0,1)$ .
@@ -297,7 +313,7 @@ $$ where  $m_{\epsilon}^{1}(X)$  is the tail moment of order one. If the distrib
 
 
 $$
-M_{\epsilon}^{n} (X) = E ((X - m_{\epsilon}^{1} (X))^{n} | X <   V a R_{\epsilon} (X))
+M_{\epsilon}^{n} (X) = E ((X - m_{\epsilon}^{1} (X))^{n} | X <   VaR_{\epsilon} (X))
 $$
 
 The tail variance of the conditional distribution appears as  $M_{\epsilon}^{2}(X)$  and the tail standard deviation equals
@@ -309,7 +325,7 @@ $$
 There is a formula expressing the tail variance in terms of the tail moments introduced in (A.2),
 
 $$
-\begin{array}{l} M_{\epsilon}^{2} (X) = m_{\epsilon}^{2} (X) - (m_{\epsilon}^{1} (X))^{2} \\ = m_{\epsilon}^{2} (X) - (A V a R_{\epsilon} (X))^{2} \\ \end{array}
+\begin{array}{l} M_{\epsilon}^{2} (X) = m_{\epsilon}^{2} (X) - (m_{\epsilon}^{1} (X))^{2} \\ = m_{\epsilon}^{2} (X) - (AVaR_{\epsilon} (X))^{2} \\ \end{array}
 $$
 
 This formula is similar to the representation of variance in terms of the first two moments,
@@ -334,18 +350,18 @@ In the entry, we remarked that the tail of the random variable can be so heavy t
 
 
 $$
-M T L_{\epsilon} (X) = - F_{X}^{- 1} (1 / 2 | X <   - V a R_{\epsilon} (X)) \tag {A.5}
+M T L_{\epsilon} (X) = - F_{X}^{- 1} (1 / 2 | X <   - VaR_{\epsilon} (X)) \tag {A.5}
 $$ where  $F_{X}^{-1}(p|X < -VaR_{\epsilon}(X))$  stands for the inverse distribution function of the c.d.f. of the conditional loss distribution
 
 
 $$
-\begin{array}{l} F_{X} (x \mid X <   - V a R_{\epsilon} (X)) \\ = P (X \leq x \mid X <   - V a R_{\epsilon} (X)) \\ = \left\{ \begin{array}{l} P (X \leq x) / \epsilon , x <   - V a R_{\epsilon} (X) \\ 1, \hskip 2 8. 4 5 2 7 5 6 p t x \geq - V a R_{\epsilon} (X) \end{array} \right. \\ \end{array}
+\begin{array}{l} F_{X} (x \mid X <   - VaR_{\epsilon} (X)) \\ = P (X \leq x \mid X <   - VaR_{\epsilon} (X)) \\ = \left\{ \begin{array}{l} P (X \leq x) / \epsilon , x <   - VaR_{\epsilon} (X) \\ 1, \hskip 2 8. 4 5 2 7 5 6 p t x \geq - VaR_{\epsilon} (X) \end{array} \right. \\ \end{array}
 $$
 
 In effect, MTL, as well as any other quantile of the conditional loss distribution, can be directly calculated as a quantile of the distribution of  $X$ ,
 
 $$
-\begin{array}{l} M T L_{\epsilon} (X) = - F_{X}^{- 1} (\epsilon / 2) \\ = V a R_{\epsilon / 2} (X) \tag {A.6} \\ \end{array}
+\begin{array}{l} M T L_{\epsilon} (X) = - F_{X}^{- 1} (\epsilon / 2) \\ = VaR_{\epsilon / 2} (X) \tag {A.6} \\ \end{array}
 $$ where  $F_{X}^{-1}(p)$  is the inverse c.d.f. of  $X$  and  $\epsilon$  is the tail probability of the corresponding VaR in equation (A.5). Thus, MTL shares the properties of VaR. Equation (A.6) shows that MTL is not a coherent risk measure even though it is a robust alternative to AVaR, which is a coherent risk measure.
 
 
@@ -358,12 +374,12 @@ By definition, AVaR is the average of VaRs larger than the VaR at tail probabili
 Formally, the AVaR of order one is represented in the following way
 
 $$
-A V a R_{\epsilon}^{(1)} = \frac{1}{\epsilon} \int_{0}^{\epsilon} A V a R_{p} (X) d p
+AVaR_{\epsilon}^{(1)} = \frac{1}{\epsilon} \int_{0}^{\epsilon} AVaR_{p} (X) d p
 $$ where  $AVaR_{p}(X)$  is the AVaR at tail probability  $p$ . Replacing AVaR by the definition given in equation (1), we obtain
 
 
 $$
-\begin{array}{l} A V a R_{\epsilon}^{(1)} = - \frac{1}{\epsilon} \int_{0}^{\epsilon} \left(\int_{0}^{1} F_{X}^{- 1} (y) g_{p} (y) d y\right) d p \\ = - \frac{1}{\epsilon} \int_{0}^{1} F_{X}^{- 1} (y) \left(\int_{0}^{\epsilon} g_{p} (y) d p\right) d y \\ \end{array}
+\begin{array}{l} AVaR_{\epsilon}^{(1)} = - \frac{1}{\epsilon} \int_{0}^{\epsilon} \left(\int_{0}^{1} F_{X}^{- 1} (y) g_{p} (y) d y\right) d p \\ = - \frac{1}{\epsilon} \int_{0}^{1} F_{X}^{- 1} (y) \left(\int_{0}^{\epsilon} g_{p} (y) d p\right) d y \\ \end{array}
 $$ where
 
 
@@ -372,7 +388,7 @@ $$ and after certain algebraic manipulations, we get the expression
 
 
 $$
-\begin{array}{l} A V a R_{\epsilon}^{(1)} (X) = - \frac{1}{\epsilon} \int_{0}^{\epsilon} F_{X}^{- 1} (y) \log \frac{\epsilon}{y} d y \\ = \int_{0}^{\epsilon} V a R_{y} (X) \phi_{\epsilon} (y) d y \tag {A.7} \\ \end{array}
+\begin{array}{l} AVaR_{\epsilon}^{(1)} (X) = - \frac{1}{\epsilon} \int_{0}^{\epsilon} F_{X}^{- 1} (y) \log \frac{\epsilon}{y} d y \\ = \int_{0}^{\epsilon} VaR_{y} (X) \phi_{\epsilon} (y) d y \tag {A.7} \\ \end{array}
 $$
 
 In effect, the AVaR of order one can be expressed as a weighted average of VaRs larger than the VaR at tail probability  $\epsilon$  with a weighting function  $\phi_{\epsilon}(y)$  equal to
@@ -386,14 +402,14 @@ The AVaR of order one can be viewed as a spectral risk measure with  $\phi_{\eps
 Similarly, we define the higher-order AVaR through the recursive equation
 
 $$
-A V a R_{\epsilon}^{(n)} (X) = \frac{1}{\epsilon} \int_{0}^{\epsilon} A V a R_{p}^{(n - 1)} (X) d p \quad (A. 8)
+AVaR_{\epsilon}^{(n)} (X) = \frac{1}{\epsilon} \int_{0}^{\epsilon} AVaR_{p}^{(n - 1)} (X) d p \quad (A. 8)
 $$ where  $AVaR_{p}^{(0)}(X) = AVaR_{p}(X)$  and  $n = 1,2\ldots$  Thus, the AVaR of order two equals the average of AVaRs of order one, which are larger than the AVaR of order one at tail probability  $\epsilon$ . The AVaR of order  $n$  appears as an average of AVaRs of order  $n - 1$ .
 
 
 The quantity  $AVaR_{\epsilon}^{(n)}(X)$  is a coherent risk measure because it is an average of coherent risk measures. This is a consequence of the recursive definition in (A.8). It is possible to show that AVaR of order  $n$  admits the representation
 
 $$
-A V a R_{\epsilon}^{(n)} (X) = \frac{1}{\epsilon} \int_{0}^{\epsilon} V a R_{y} (X) \frac{1}{n !} \left(\log \frac{\epsilon}{y}\right)^{n} d y \tag {A.9}
+AVaR_{\epsilon}^{(n)} (X) = \frac{1}{\epsilon} \int_{0}^{\epsilon} VaR_{y} (X) \frac{1}{n !} \left(\log \frac{\epsilon}{y}\right)^{n} d y \tag {A.9}
 $$ and  $AVaR_{\epsilon}^{(n)}(X)$  can be viewed as a spectral risk measure with a risk aversion function equal to
 
 
@@ -404,7 +420,7 @@ $$
 As a simple consequence of the definition, the sequence of higher-order AVaRs is monotonic,
 
 $$
-\begin{array}{l} A V a R_{\epsilon} (X) \leq A V a R_{\epsilon}^{(1)} (X) \leq \dots \leq \\ A V a R_{\epsilon}^{(n)} (X) \leq \dots \\ \end{array}
+\begin{array}{l} AVaR_{\epsilon} (X) \leq AVaR_{\epsilon}^{(1)} (X) \leq \dots \leq \\ AVaR_{\epsilon}^{(n)} (X) \leq \dots \\ \end{array}
 $$
 
 In the entry, we remarked that if the random variable  $X$  has a finite mean,  $E|X| < \infty$ , then AVaR is also finite. This is not true for spectral risk measures and the higher-order AVaR in particular. In line with the general theory developed later in this appendix,  $AVaR_{\epsilon}^{(n)}(X)$  is finite if all moments of  $X$  exist. For example, if the random variable  $X$  has an exponential tail, then  $AVaR_{\epsilon}^{(n)}(X) < \infty$  for any  $n < \infty$ .
@@ -415,7 +431,7 @@ In the entry, we remarked that if the random variable  $X$  has a finite mean,  
 In this section, we provide a geometric interpretation of the minimization formula (2) for AVaR. We restate equation (2) in the following equivalent form,
 
 $$
-A V a R_{\epsilon} (X) = \frac{1}{\epsilon} \min_{\theta \in \mathbb {R}} (\epsilon \theta + E (- X - \theta)_{+}) \quad (A. 1 0)
+AVaR_{\epsilon} (X) = \frac{1}{\epsilon} \min_{\theta \in \mathbb {R}} (\epsilon \theta + E (- X - \theta)_{+}) \quad (A. 1 0)
 $$ where  $(x)_{+} = \max (x,0)$ . Note the similarity between equation (A.10) and the definition of AVaR in (A.2). Instead of the integral of the quantile function in the definition of AVaR, a minimization formula appears in (A.10). We interpreted the integral of the inverse c.d.f. as the shaded area in Figure 2. Similarly, we will find the area corresponding to the objective function in the minimization formula and we will demonstrate that as  $\theta$  changes, there is a minimal area that coincides with the area corresponding to the shaded area in Figure 2. Moreover, the minimal area is attained for  $\theta = VaR_{\epsilon}(X)$  when the c.d.f. of  $X$  is continuous at  $VaR_{\epsilon}(X)$ . In fact, all illustrations in this section are based on the assumption that  $X$  has a continuous distribution function.
 
 
@@ -452,12 +468,12 @@ Suppose that the random variable  $X$  has a stable distribution with tail expon
 If  $\alpha > 1$  and  $VaR_{\epsilon}(X) \neq 0$ , then the AVaR can be represented as
 
 $$
-A V a R_{\epsilon} (X) = \sigma A_{\epsilon , \alpha , \beta} - \mu
+AVaR_{\epsilon} (X) = \sigma A_{\epsilon , \alpha , \beta} - \mu
 $$ where the term  $A_{\epsilon ,\alpha ,\beta}$  does not depend on the scale and the location parameters. In fact, this representation is a consequence of the positive homogeneity and the invariance property of AVaR. Concerning the term  $A_{\epsilon ,\alpha ,\beta}$ ,
 
 
 $$
-\begin{array}{l} A_{\epsilon , \alpha , \beta} = \frac{\alpha}{1 - \alpha} \frac{| V a R_{\epsilon} (X) |}{\pi \epsilon} \\ \int_{- \bar {\theta}_{0}}^{\pi / 2} g (\theta) \exp \left(- | V a R_{\epsilon} (X) |^{\frac{\alpha}{\alpha - 1}} v (\theta)\right) d \theta \\ \end{array}
+\begin{array}{l} A_{\epsilon , \alpha , \beta} = \frac{\alpha}{1 - \alpha} \frac{| VaR_{\epsilon} (X) |}{\pi \epsilon} \\ \int_{- \bar {\theta}_{0}}^{\pi / 2} g (\theta) \exp \left(- | VaR_{\epsilon} (X) |^{\frac{\alpha}{\alpha - 1}} v (\theta)\right) d \theta \\ \end{array}
 $$ where
 
 
@@ -466,13 +482,13 @@ $$
 
 $$
 \begin{array}{l} v (\theta) = \left(\cos \alpha \bar {\theta}_{0}\right)^{\frac{1}{\alpha - 1}} \left(\frac{\cos \theta}{\sin \alpha (\bar {\theta}_{0} + \theta)}\right)^{\frac{\alpha}{\alpha - 1}} \\ \frac{\cos (\alpha \bar {\theta}_{0} + (\alpha - 1) \theta)}{\cos \theta}, \\ \end{array}
-$$ in which  $\bar{\theta}_0 = \frac{1}{\alpha}$  arctan  $(\bar{\beta}\tan \frac{\pi\alpha}{2})$ $\bar{\beta} = -\mathrm{sign}(VaR_{\epsilon}(X))\beta$  , and  $V a R_{\epsilon}(X)$  is the VaR of the stable distribution at tail probability  $\epsilon$
+$$ in which  $\bar{\theta}_0 = \frac{1}{\alpha}$  arctan  $(\bar{\beta}\tan \frac{\pi\alpha}{2})$ $\bar{\beta} = -\mathrm{sign}(VaR_{\epsilon}(X))\beta$  , and  $VaR_{\epsilon}(X)$  is the VaR of the stable distribution at tail probability  $\epsilon$
 
 
 If  $VaR_{\epsilon}(X) = 0$ , then the AVaR admits a very simple expression,
 
 $$
-A V a R_{\epsilon} (X) = \frac{2 \Gamma \left(\frac{\alpha - 1}{\alpha}\right)}{(\pi - 2 \theta_{0})} \frac{\cos \theta_{0}}{(\cos \alpha \theta_{0})^{1 / \alpha}}
+AVaR_{\epsilon} (X) = \frac{2 \Gamma \left(\frac{\alpha - 1}{\alpha}\right)}{(\pi - 2 \theta_{0})} \frac{\cos \theta_{0}}{(\cos \alpha \theta_{0})^{1 / \alpha}}
 $$ in which  $\Gamma (x)$  is the gamma function and  $\theta_0 = \frac{1}{\alpha}\arctan (\beta \tan \frac{\pi\alpha}{2})$
 
 
@@ -483,7 +499,7 @@ The expected tail loss and the average value-at-risk are two related concepts. I
 The ETL at tail probability  $\epsilon$  is defined as the average loss provided that the loss exceeds the VaR at tail probability  $\epsilon$ ,
 
 $$
-E T L_{\epsilon} (X) = - E (X \mid X <   - V a R_{\epsilon} (X)) \tag {A.11}
+E T L_{\epsilon} (X) = - E (X \mid X <   - VaR_{\epsilon} (X)) \tag {A.11}
 $$
 
 As a consequence of the definition, the ETL can be expressed in terms of the c.d.f. and the inverse c.d.f. Suppose additionally, that the c.d.f. of  $X$  has a jump at  $-VaR_{\epsilon}(X)$ . In this case, the loss  $VaR_{\epsilon}(X)$  occurs with probability equal to the size of the jump and, because of the strict inequality in (A.11), it will not be included in the average.
@@ -491,7 +507,7 @@ As a consequence of the definition, the ETL can be expressed in terms of the c.d
 Figure A.3 shows the graphs of the c.d.f. and the inverse c.d.f. of a random variable with a point mass at  $-VaR_{\epsilon}(X)$ . If  $\epsilon$  splits the jump of the c.d.f. as on the left plot in Figure A.3, then the ETL at tail probability  $\epsilon$  equals
 
 $$
-\begin{array}{l} E T L_{\epsilon} (X) = - E (X \mid X <   - V a R_{\epsilon} (X)) \\ = - E (X \mid X <   - V a R_{\epsilon_{0}} (X)) \\ = E T L_{\epsilon_{0}} (X) \\ \end{array}
+\begin{array}{l} E T L_{\epsilon} (X) = - E (X \mid X <   - VaR_{\epsilon} (X)) \\ = - E (X \mid X <   - VaR_{\epsilon_{0}} (X)) \\ = E T L_{\epsilon_{0}} (X) \\ \end{array}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/7ff94da998941cbd7185657474f419e5faacefc6f7bf57fbc67413890b88a0d1.jpg)
@@ -506,12 +522,12 @@ $$
 The relationship between AVaR and ETL follows directly from the definition of AVaR. Suppose that the c.d.f. of the random variable  $X$  is as on the left plot in Figure A.3. Then,
 
 $$
-\begin{array}{l} A V a R_{\epsilon} (X) = - \frac{1}{\epsilon} \int_{0}^{\epsilon} F_{X}^{- 1} (t) d t \\ = - \frac{1}{\epsilon} \left(\int_{0}^{\epsilon_{0}} F_{X}^{- 1} (t) d t + \int_{\epsilon_{0}}^{\epsilon} F_{X}^{- 1} (t) d t\right) \\ = - \frac{1}{\epsilon} \int_{0}^{\epsilon_{0}} F_{X}^{- 1} (t) d t + \frac{\epsilon - \epsilon_{0}}{\epsilon} V a R_{\epsilon} (X) \\ \end{array}
+\begin{array}{l} AVaR_{\epsilon} (X) = - \frac{1}{\epsilon} \int_{0}^{\epsilon} F_{X}^{- 1} (t) d t \\ = - \frac{1}{\epsilon} \left(\int_{0}^{\epsilon_{0}} F_{X}^{- 1} (t) d t + \int_{\epsilon_{0}}^{\epsilon} F_{X}^{- 1} (t) d t\right) \\ = - \frac{1}{\epsilon} \int_{0}^{\epsilon_{0}} F_{X}^{- 1} (t) d t + \frac{\epsilon - \epsilon_{0}}{\epsilon} VaR_{\epsilon} (X) \\ \end{array}
 $$ where the last inequality holds because the inverse c.d.f. is flat in the interval  $[\epsilon_0,\epsilon ]$  and the integral is merely the surface of the rectangle shown on the right plot in Figure A.3. The integral in the first summand can be related to the ETL at tail probability  $\epsilon$  and, finally, we arrive at the expression
 
 
 $$
-A V a R_{\epsilon} (X) = \frac{\epsilon_{0}}{\epsilon} E T L_{\epsilon} (X) + \frac{\epsilon - \epsilon_{0}}{\epsilon} V a R_{\epsilon} (X) \tag {A.12}
+AVaR_{\epsilon} (X) = \frac{\epsilon_{0}}{\epsilon} E T L_{\epsilon} (X) + \frac{\epsilon - \epsilon_{0}}{\epsilon} VaR_{\epsilon} (X) \tag {A.12}
 $$
 
 Equation (A.12) shows that  $AVaR_{\epsilon}(X)$  can be represented as a weighted average between the ETL and the VaR at the same tail probability as the coefficients in front of the two summands are positive and sum up to one. In the special case in which there is no jump, or if  $\epsilon = \epsilon_1$ , then AVaR equals ETL.
@@ -526,7 +542,7 @@ $$ where  $\lceil x\rceil$  is the smallest integer larger than  $x$ . Formula (
 
 
 $$
-\widehat {V a R}_{\epsilon} (r) = - r_{(\lceil n \epsilon \rceil)} \tag {A.14}
+\widehat {VaR}_{\epsilon} (r) = - r_{(\lceil n \epsilon \rceil)} \tag {A.14}
 $$
 
 It remains to determine the coefficients in (A.12). Having in mind that the observations in the sample are equally probable, we calculate that

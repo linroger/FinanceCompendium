@@ -1,4 +1,27 @@
 
+---
+title: "Important Functions and Their Features"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume II/Finite Mathematics for Financial Modeling"
+formatted: "2025-12-21 08:15:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - mathematical functions
+  - probability distributions
+  - financial modeling
+secondary_tags:
+  - continuous functions
+  - indicator function
+  - derivatives
+  - integrals
+  - gamma function
+  - characteristic function
+  - monotonic functions
+  - beta function
+  - bessel function
+cssclasses: academia
+---
+
 # Important Functions and Their Features
 
 MARKUS HÖCHSTÖTTER, PhD
@@ -45,7 +68,7 @@ For a formal treatment of continuity, we first concentrate on the behavior of  $
 We say that a function  $f(x)$  is continuous at  $x^{*}$  if, for any positive distance  $\delta$ , we obtain a related distance  $\varepsilon(\delta)$  such that
 
 $$
-\begin{array}{l} f (x^{*}) - \delta \leq f (x) \leq f (x^{*}) + \delta , \quad \text{fo ra ll} \\ x \in (x^{*} - \varepsilon (\delta), x^{*} + \varepsilon (\delta)) \\ \end{array}
+\begin{array}{l} f (x^{*}) - \delta \leq f (x) \leq f (x^{*}) + \delta , \quad \text{for all} \\ x \in (x^{*} - \varepsilon (\delta), x^{*} + \varepsilon (\delta)) \\ \end{array}
 $$
 
 What does that mean? We use Figure 3 to illustrate. (The function is  $f(x) = \sin (x)$  with  $x^{*} = 0.2$ .) At  $x^{*}$ , we have the value  $f(x^{*})$ . Now, we select a neighborhood around  $f(x^{*})$  of some arbitrary distance  $\delta$  as indicated by the dashed horizontal lines through  $f(x^{*}) - \delta$  and  $f(x^{*}) + \delta$ , respectively. From the intersections of these horizontal lines and the function graph (solid line), we extend two vertical dash-dotted lines down to the  $x$ -axis so that we obtain the two values  $x^{L}$  and  $x^{U}$ , respectively. Now, we measure the distance between  $x^{L}$  and  $x^{*}$  and also the distance between  $x^{U}$  and  $x^{*}$ . The smaller of the two yields the distance  $\varepsilon(\delta)$ . With this distance  $\varepsilon(\delta)$  on the  $x$ -axis, we obtain the environment  $(x^{*} - \varepsilon(\delta), x^{*} + \varepsilon(\delta))$  about  $x^{*}$ . (Note that  $x^{L} = x^{*} - \varepsilon_{\delta}$ , since the distance between  $x^{L}$  and  $x^{*}$  is the shorter one.) The environment is indicated by the dashed lines extending vertically above  $x^{*} - \varepsilon(\delta)$  and  $x^{*} + \varepsilon(\delta)$ , respectively. We require that all  $x$  that lie in  $(x^{*} - \varepsilon(\delta), x^{*} + \varepsilon(\delta))$  yield values  $f(x)$  inside of the environment  $[f(x^{*}) - \delta, f(x^{*}) + \delta]$ . We can see by Figure 3 that this is satisfied.
@@ -65,20 +88,20 @@ Finally, we say that the function  $f$  is continuous if it is continuous at all
 The indicator function acts like a switch. Often, it is denoted by  $1_{\mathrm{A}}(X)$  where  $A$  is the event of interest and  $X$  is a random variable. So,  $1_{\mathrm{A}}(X)$  is 1 if the event  $A$  is true, that is, if  $X$  assumes a value in  $A$ . Otherwise,  $1_{\mathrm{A}}(X)$  is 0. Formally, this is expressed as
 
 $$
-1_{A} (X) = \left\{ \begin{array}{l l} 1 & X \in A \\ 0 & \text{ot he rw is e} \end{array} \right.
+1_{A} (X) = \left\{ \begin{array}{l l} 1 & X \in A \\ 0 & \text{otherwise} \end{array} \right.
 $$
 
 Usually, indicator functions are applied if we are interested in whether a certain event has occurred or not. For example, in a simple way, the value  $V$  of a company may be described by a real numbered random variable  $X$  on  $\Omega = R$  with a particular probability distribution  $P$ . Now, the value  $V$  of the company may be equal to  $X$  as long as  $X$  is greater than 0. In the case where  $X$  assumes a negative value or 0, then  $V$  is automatically 0, that is, the company is bankrupt. So, the event of interest is  $A = [0, \infty)$ , that is, we want to know whether  $X$  is still positive. Using the indicator function this can be expressed as
 
 
 $$
-1_{[ 0, \infty)} (X) = \left\{ \begin{array}{l l} 1 & X \in [ 0, \infty) \\ 0 & \mathrm{ot he rw is e} \end{array} \right.
+1_{[ 0, \infty)} (X) = \left\{ \begin{array}{l l} 1 & X \in [ 0, \infty) \\ 0 & \mathrm{otherwise} \end{array} \right.
 $$
 
 Finally, the company value can be given as
 
 $$
-V = 1_{[ 0, \infty)} (X) \cdot X = \left\{ \begin{array}{l} X X \in [ 0, \infty) \\ 0 \text{ot he rw is e} \end{array} \right.
+V = 1_{[ 0, \infty)} (X) \cdot X = \left\{ \begin{array}{l} X & X \in [ 0, \infty) \\ 0 & \text{otherwise} \end{array} \right.
 $$
 
 The company value  $V$  as a function is depicted in Figure 4. We can clearly detect the kink at  $x = 0$  where the indicator function becomes 1 and, hence,  $V = X$ .
@@ -111,10 +134,7 @@ In contrast to the graph of  $g$ , the graph of  $f$  does not exhibit the prope
 
 $$
 \frac{\Delta y_{1}}{\Delta x_{1}} > \frac{\Delta y_{2}}{\Delta x_{2}} > \frac{\Delta y_{3}}{\Delta x_{3}}
-$$ as can be seen in Figure 6. So, the shorter our step  $\Delta x$  to the right, the steeper the slopes of the thin solid lines through  $(x^{*},f(x^{*}))$  and the corresponding points on the curve,  $(x^{*} + \Delta x_{1}$ $f(x^{*} + \Delta x_{1}))$ $(x^{*} + \Delta x_{2},f(x^{*} + \Delta x_{2}))$  ,and  $(x^{*} + \Delta x_{2},$
-
-
-$f(x^{*} + \Delta x_{2}))$  , respectively. That means that, the smaller the increment  $\Delta x$  , the higher the relative increment  $\Delta y$  of  $f$  . So, finally, if we moved only a minuscule step to the right from  $(x^{*},f(x^{*}))$  , we would obtain the steepest thin line and, consequently, the highest relative increase in  $f$  given by
+$$ as can be seen in Figure 6. So, the shorter our step  $\Delta x$  to the right, the steeper the slopes of the thin solid lines through  $(x^{*},f(x^{*}))$  and the corresponding points on the curve,  $(x^{*} + \Delta x_{1}, f(x^{*} + \Delta x_{1}))$, $(x^{*} + \Delta x_{2}, f(x^{*} + \Delta x_{2}))$, and  $(x^{*} + \Delta x_{3}, f(x^{*} + \Delta x_{3}))$, respectively. That means that, the smaller the increment  $\Delta x$  , the higher the relative increment  $\Delta y$  of  $f$  . So, finally, if we moved only a minuscule step to the right from  $(x^{*},f(x^{*}))$  , we would obtain the steepest thin line and, consequently, the highest relative increase in  $f$  given by
 
 $$
 \frac{\Delta y}{\Delta x} \tag {1}
@@ -144,7 +164,7 @@ $$ and the second with  $\Delta x^{-} < 0$  (i.e., a step to the left), would be
 
 
 $$
-\frac{f \left(x_{0} + \Delta x^{-}\right) - f \left(x_{0}\right)}{\left| \Delta x^{-} \right|} \xrightarrow {\Delta x^{-} \rightarrow 0} L^{U}
+\frac{f \left(x_{0} + \Delta x^{-}\right) - f \left(x_{0}\right)}{\left| \Delta x^{-} \right|} \xrightarrow {\Delta x^{-} \rightarrow 0} L^{L}
 $$
 
 If  $L^U$  and  $L^L$  are equal,  $L^U = L^L = L$ , then  $f$  is said to be differentiable at  $x_0$ . The limit  $L$  is the derivative of  $f$ . We commonly write the derivative in the fashion

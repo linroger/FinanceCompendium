@@ -1,0 +1,35 @@
+---
+title: "The Active-Passive Decomposition Model for MBS"
+parent_directory: "Encyclopedia of Financial Models/Volume III/Mortgage-Backed Securities Analysis and Valuation"
+formatted: "2025-12-21 11:30:00 PM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli-tool: "claude-code"
+primary_tags:
+  - active-passive decomposition model
+  - mortgage-backed securities valuation
+  - prepayment modeling
+  - path-dependent pricing
+secondary_tags:
+  - burnout effect
+  - refinancing behavior
+  - prepayment speeds
+  - interest rate risk
+  - backward induction
+  - probability trees
+  - finite difference grids
+  - heterogeneous borrowers
+  - S-curve prepayment
+  - turnover prepayment
+cssclasses: academia
+---
+
+# The Active-Passive Decomposition Model for MBS
+
+ALEXANDER LEVIN, PhD
+
+Director, Financial Engineering, Andrew Davidson & Co., Inc.
+
+Abstract: Even a simple mortgage pass-through is a path-dependent financial instrument, valuation of which depends on prepayment "burnout." The burnout is caused by observed or unobserved heterogeneity of borrowers; as a result, a mortgage pool's composition changes in the presence of refinancing incentives. An attractive modeling approach for dealing with this is to split a mortgage pool into mutually exclusive "active" and "passive" groups. Not only does such a method explain the burnout, it effectively decomposes the path-dependent valuation problem into two easy-to-solve path-independent ones. The method is faster than the traditional Monte Carlo sampling approach while delivering the full set of interest rate risk measures at no additional cost of computing time. The method can be applied to an attractive prepayment model specification where the speed is a function of the pool's objective price, and not an interest rate. This makes universal refinancing modeling feasible as the same curve or curves can apply to both fixed- and adjustable-rate mortgages.
+
+The active-passive decomposition (APD) method of mortgage-backed securities (MBS) modeling and valuation was introduced in Levin (2001, 2002, 2003). An efficient alternative to brute-force Monte Carlo simulation, the APD method splits a mortgage pass-through into two path-independent components, the active (refinanceable) and the passive (nonrefinanceable). Once this is done, the most time-efficient pricing structures operating backwards on probability trees or finite-difference grids could be employed. This valuation method runs faster than Monte Carlo simulation while deliver- ing a much richer outcome—all stressed values required by mandatory risk assessments—at no additional cost. Risk managers and traders of unstructured mortgage instruments such as agency pass-through MBS, whole loans, stripped (IO/PO) derivatives, and mortgage servicing rights (MSRs) are immediate beneficiaries of the method.
+

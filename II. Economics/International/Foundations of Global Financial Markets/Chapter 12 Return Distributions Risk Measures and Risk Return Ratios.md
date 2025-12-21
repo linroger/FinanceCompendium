@@ -1,40 +1,29 @@
 ---
-aliases:
-- Return Distributions Risk Measures and Risk Return Ratios
-tags: null
-key_concepts: null
-parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
-cssclasses: academia
-title: 'Chapter 12: Return Distributions, Risk Measures, and Risk-Return Ratios'
-linter-yaml-title-alias: 'Chapter 12: Return Distributions, Risk Measures, and Risk-Return
-  Ratios'
+title: Chapter 12: Return Distributions, Risk Measures, and Risk-Return Ratios
+parent_directory: II. Economics/International/Foundations of Global Financial Markets
+formatted: 2025-12-21 07:00:00 AM
+formatter_model: claude-sonnet-4-5-thinking
+cli-tool: claude-code
 primary_tags:
-- risk return ratios contents
-- correlation covariance correlations covariance
-- tempered stable distributions suggested
-- developed dividing covariance variance
-- probability distribution asset returns
+- return distributions
+- risk measures
+- risk return ratios
+- probability distributions
+- portfolio theory
+- value at risk
 secondary_tags:
-- random variables covariance
-- normal distribution means portfolio
-- distributions covariance correlations portfolio
-- finance covariance equivalently correlation
-- portfolio selection theory chapter
-- portfolio risk measures value
-- reward risk ratio explained
-- asset pricing derived purpose
-- covariance average joint
-- theory risk management property
-- risk multidimensionality risk asymmetry
-- unlike covariance correlation coefficient
-tags_extracted: '2025-12-18T00:19:27.338625'
+- normal distribution
+- stable distributions
+- skewness kurtosis
+- covariance correlation
+- sharpe ratio
+- geometric arithmetic returns
+cssclasses: academia
 ---
 
-# 12
+# Return Distributions, Risk Measures, and Risk-Return Ratios
 
-Return Distributions, Risk Measures, and Risk-Return Ratios
-
-# CONTENTS
+## Contents
 
 Learning Objectives
 
@@ -107,25 +96,22 @@ What is critical to understand is that the quantitative measures of risk describ
 
 An asset's rate of return (or simply, "return") over a given time interval is equal to the change in the asset's price plus any distributions received from holding the asset, expressed as a fraction of the asset's price at the beginning of the time interval. When computing the asset's return, it is important to include any income distributions made to the investor, or the measure of return will be deficient. The income distribution can be interest income in the case of a debt obligation or dividend income in the case of a stock.
 
-An asset's return, designated by  $R$ , is given by:
+An asset's return, designated by $R$, is given by:
 
 $$
 R = \frac{p_{1} - p_{0} + C}{p_{0}},
 $$ where
 
+$p_0 = \text{price at the beginning of the time interval},$
 
-$p_0 = \text{priceatthebeginningofthetimeinterval},$
+$p_{1} = \text{price at the end of the time interval, and}$
 
-$p_{1} = \text{priceattheendofthetimeinterval,and}$
+$C = \text{cash distribution}.$
 
-$C =$  cash distribution.
-
-For example, if an asset's price increased from \$100 on January 1 to \$105 by December 31 of the same year, and on December 31 a cash distribution of 1 was made, then the asset's return for the year would be
+For example, if an asset's price increased from \$100 on January 1 to \$105 by December 31 of the same year, and on December 31 a cash distribution of \$1 was made, then the asset's return for the year would be
 
 $$
-
-R = \frac{\mathrm{\105 - \100 + \$1}}{\mathrm{\100}} = 0.06 = 6 \%
-
+R = \frac{105 - 100 + 1}{100} = 0.06 = 6\%
 $$
 
 # Return Distributions
@@ -147,15 +133,13 @@ The information that can be obtained from the continuous probability distributio
 The location of a probability distribution is a measure of its central value. The three measures used to describe central value are the mean (or average), the median, and the mode. There is a relationship among these three measures that depends on the skewness of a probability distribution, to be described later. The most commonly used measure of location in finance is the mean, which is typically denoted by the Greek letter  $\mu$  ("mu"). The mean is the first moment of a probability distribution and is also referred to as the expected value. In practice, when computing the central measure for a random variable from a sample of size  $n$ , the sample mean is used and is computed as:
 
 $$
-
-\bar {x} = \left(\frac{1}{n}\right) \sum_{i = 1}^{n} x_{i}, \tag {12.1}
-
-$$ where  $\overline{x}$  is equal to the mean of the sample, and  $x_{i}$  is the ith observation.
+\bar{x} = \left(\frac{1}{n}\right) \sum_{i = 1}^{n} x_{i}, \tag{12.1}
+$$ where $\overline{x}$ is equal to the mean of the sample, and $x_{i}$ is the ith observation.
 
 Dispersion is a measure of how spread out the potential outcomes are that can be realized. Although there are various measures of dispersion—variance, mean absolute deviation, and range—the most commonly used measure in finance is the variance. The variance measures the dispersion of the outcomes that can be realized relative to the mean and is referred to as the second moment of a probability distribution. For a sample of size  $n$  ( $i = 1, 2, \ldots, n$ ) for random variable  $x$ , the variance, denoted by  $\operatorname{var}(x)$ , is computed as follows:
 
 $$
-\operatorname{va r} (x) = \left(\frac{1}{n}\right) \sum_{i = 1}^{n} x_{i} \left(x_{i} = \bar {x}\right)^{2}.
+\operatorname{var}(x) = \left(\frac{1}{n}\right) \sum_{i = 1}^{n} (x_{i} - \bar{x})^{2}.
 $$
 
 Basically, the variance is the average of the squared deviations from the mean. Because the variance is in squared units, the standard root of the variance is typically used. The square root of the variance is called the standard deviation.
@@ -242,7 +226,7 @@ FTSE 100 returns plotted against a normal distribution, 1990-2015: (a) FTSE 100 
 
 Source: This figure was created for the authors by Jang Ho Kim of Kyung Hee University using data from Yahoo! Finance.
 
-Stability property There is a highly desirable property of the normal distribution that makes it attractive in dealing with asset returns for the purpose of portfolio theory as well as risk management. The property, referred to as the "stability property," states that the sum of a number of  $N$  random variables that follow a normal distribution will again be a normal distribution, provided that the random variables behave independently of one another.
+Stability property There is a highly desirable property of the normal distribution that makes it attractive in dealing with asset returns for the purpose of portfolio theory as well as risk management. The property, referred to as the "stability property," states that the sum of a number of $N$ random variables that follow a normal distribution will again be a normal distribution, provided that the random variables behave independently of one another.
 
 The stability property is important for two reasons in portfolio theory and risk management. First, suppose that an investor has a portfolio of 80 stocks, and each of those 80 stocks is assumed to follow a normal distribution and behave independently of every other one. The stability property of the normal distribution means that the portfolio return (where the portfolio is composed of those 80 stocks) will follow a normal distribution. In our discussion of probability distributions below, the discussion is restricted to those distributions that satisfy the stability property. The second reason is that the stability property allows aggregation of asset returns over time. An example is the daily returns of some stock. If the daily return for the stock is assumed to be normally distributed, and if an investor aggregates the daily returns to obtain a weekly return for that stock, then by the stability property, the weekly return is also normally distributed.
 
@@ -296,7 +280,7 @@ Although the field of statistics offers several ways to measure the dependence b
 The covariance of two random variables is a measure of the joint variation of the random variables, where the association is assumed to be a linear one. In the case of two random variables, the covariance is calculated with sample data as follows. Let  $x$  and  $y$  be two random variables, and denote their sample means by  $\overline{x}$  and  $\overline{y}$ , respectively. Assuming that there are  $n$  observations for the two random variables, then the covariance between the two random variables  $x$  and  $y$ , denoted by  $\operatorname{cov}(x, y)$ , is
 
 $$
-\operatorname{co v} (x, y) = \left(\frac{1}{n}\right) \sum_{i = 1}^{n} \left(x_{i} - \bar {x}\right) \left(y - \bar {y}\right). \tag {12.2}
+\operatorname{cov}(x, y) = \left(\frac{1}{n}\right) \sum_{i = 1}^{n} (x_{i} - \bar{x})(y_{i} - \bar{y}). \tag{12.2}
 $$
 
 In words, the covariance is calculated by (1) calculating for all observations for each random variable the deviation from its respective mean, (2) multiplying for each observation the deviation for each random variable, (3) summing the product of the deviations, and (4) dividing by the number of observations. The sample covariance is then the average of all joint deviations.
@@ -306,7 +290,7 @@ A problem with the covariance is that it is affected by the scale of the random 
 To deal with this problem, an alternative but related measure can be developed by dividing the covariance by the variance of the two random variables. The resulting measure is called the Pearson correlation coefficient, or simply the correlation coefficient. That is, the correlation coefficient, denoted by  $\operatorname{cor}(x,y)$ , is
 
 $$
-\operatorname{co r} (x, y) = \frac{\operatorname{co v} (x , y)}{\operatorname{va r} (x) \operatorname{va r} (y)}, \tag {12.3}
+\operatorname{cor}(x, y) = \frac{\operatorname{cov}(x, y)}{\operatorname{var}(x) \operatorname{var}(y)}, \tag{12.3}
 $$ where  $\operatorname{var}(x)$  and  $\operatorname{var}(y)$  are the sample variances as computed using equation (12.2).
 
 
@@ -382,7 +366,7 @@ $$ where  $R_{G}$  is the geometric average return and  $R_{Pk}$  and  $N$  are 
 For example, if the portfolio returns were  $-10\%$ ,  $20\%$ , and  $5\%$  in July, August, and September, as in the preceding example, then the geometric average return would be
 
 $$
-R_{G} = [ (1 + (- 0. 1 0)) (1 + 0. 2 0) \dots (1 + 0. 0 5) ]^{1 / 3} - 1 = 0. 0 4 3.
+R_{G} = [(1 + (-0.10))(1 + 0.20) \dots (1 + 0.05)]^{1/3} - 1 = 0.043.
 $$
 
 As the geometric average return is  $4.3\%$  per month,  $\$ 1$ invested in the portfolio at the end of June would have grown at a rate of  $4.3\%$  per month during the three-month period.
@@ -396,13 +380,13 @@ Now that we know that the realized return should be computed using the geometric
 The most popular reward-risk ratio that measures the reward on an absolute basis is the Sharpe ratio.[20] The risk-free return is used to reduce the realized return in this reward-risk ratio:
 
 $$
-\text{Sh ar pe} = \frac{\text{Re al iz ed re tu rn -R is k -f re er at eo fr et ur n}}{\text{St an da rd de vi at io no ft he re al iz ed re tu rn s}}.
+\text{Sharpe} = \frac{\text{Realized return - Risk-free rate of return}}{\text{Standard deviation of the realized returns}}.
 $$
 
 Two well-known reward-risk ratios that measure reward on a relative return basis (i.e., a return in excess of the benchmark) are the Sortino ratio and the information ratio:
 
 $$
-\begin{array}{l} \text{So rt in o} = \frac{\text{Re al iz ed re tu rn -M in im um ac ce pt ab le re tu rn}}{\text{St an da rd de vi at io no fr et ur ns be lo wt he mi ni mu ma cc ep ta bl er et ur n}}. \\ \text{In fo rm at io n} = \frac{\text{Re al iz ed re tu rn -R et ur no nt he be nc hm ar k}}{\text{St an da rd de vi at io no ft he ex ce ss re tu rn re tu rn s}}. \\ \end{array}
+\begin{array}{l} \text{Sortino} = \frac{\text{Realized return - Minimum acceptable return}}{\text{Standard deviation of returns below the minimum acceptable return}}. \\ \text{Information} = \frac{\text{Realized return - Return on the benchmark}}{\text{Standard deviation of the excess return returns}}. \\ \end{array}
 $$
 
 # Risk Measure

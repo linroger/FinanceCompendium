@@ -1,11 +1,10 @@
 ---
-aliases: Applications of Futures and Options Contracts
-tags: null
-key_concepts: null
-parent_directory: '[[Foundations of Global Financial Markets]]'
+title: "Applications of Futures and Options Contracts"
+formatted: 2025-12-21 07:05:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open-code
+parent_directory: Foundations of Global Financial Markets
 cssclasses: academia
-title: 'Chapter 36: Applications of Futures and Options Contracts'
-linter-yaml-title-alias: Applications of Futures and Options Contracts
 primary_tags:
 - using futures options discuss
 - allow investors hedge risks
@@ -27,8 +26,6 @@ secondary_tags:
 - explains general principles hedging
 tags_extracted: '2025-12-18T00:28:06.149037'
 ---
-
-# 36
 
 # Applications of Futures and Options Contracts
 

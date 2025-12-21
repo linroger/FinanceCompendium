@@ -1,15 +1,27 @@
 ---
-aliases:
-  - Off-Balance Sheet Banking Contingent Claims Products
-tags:
-key_concepts:
-parent_directory: Contemporary Financial Intermediation
-cssclasses: academia
 title: Chapter 10 - Off-Balance Sheet Banking Contingent Claims Products
-linter-yaml-title-alias: Chapter 10 - Off-Balance Sheet Banking Contingent Claims Products
+parent_directory: Contemporary Financial Intermediation
+formatted: 2025-12-21 08:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - off balance sheet banking
+  - contingent claims
+  - loan commitments
+  - interest rate swaps
+secondary_tags:
+  - credit derivatives
+  - standby letters of credit
+  - counterparty risk
+  - regulatory capital
+  - bankers acceptances
+  - swaptions
+cssclasses: academia
 ---
 
-# GLOSSARY OF TERMS
+# Chapter 10 - Off-Balance Sheet Banking Contingent Claims Products
+
+## GLOSSARY OF TERMS
 
 Cost of Funds The effective rate paid by the bank to fund its assets. Source of funds include retail deposits, large-denomination certificates of deposit (CDs), senior and junior debt, preferred stock, and common stock.
 
@@ -27,9 +39,9 @@ Derivative A financial contract, also called a contingent claim, whose value dep
 
 Initial Public Offering A public stock offering that converts a privately held firm into a publicly held corporation.
 
-# INTRODUCTION
+## INTRODUCTION
 
-Once negligible in amount, and therefore worthy of no more than passing mention in banking texts, off-balance sheet (OBS) items of banks now amount to trillions of dollars in the United States. They include contingent claims that represent a variety of exposures across markets and credit risks – standby letters of credit (L/Cs), interest rate and currency swaps, note issuance facilities (NIF), options, foreign currencies, fixedand variable-rate loan commitments, and futures and forward contracts on everything from Treasury bills to gold. Loan commitments are among the largest components of the OBS items of banks. Also, when added together, OBS items exceed the total recorded assets of most large banks. This is a little misleading, however, since only some contingent claims impose a (contingent) liability on the bank, and this contingent liability is only a fraction of the nominal amount of its outstanding contingent claims. Nonetheless, these data highlight the enormous importance of OBS items in the current banking environment. The enormous growth in contingent claims of banks has coincided with an explosion in the growth of exchange-traded contingent claims like options and futures. Figure 10.1 depicts the global growth of exchange-traded options and futures.
+Once negligible in amount, and therefore worthy of no more than passing mention in banking texts, off-balance sheet (OBS) items of banks now amount to trillions of dollars in the United States. They include contingent claims that represent a variety of exposures across markets and credit risks – standby letters of credit (L/Cs), interest rate and currency swaps, note issuance facilities (NIF), options, foreign currencies, fixed and variable-rate loan commitments, and futures and forward contracts on everything from Treasury bills to gold. Loan commitments are among the largest components of the OBS items of banks. Also, when added together, OBS items exceed the total recorded assets of most large banks. This is a little misleading, however, since only some contingent claims impose a (contingent) liability on the bank, and this contingent liability is only a fraction of the nominal amount of its outstanding contingent claims. Nonetheless, these data highlight the enormous importance of OBS items in the current banking environment. The enormous growth in contingent claims of banks has coincided with an explosion in the growth of exchange-traded contingent claims like options and futures. Figure 10.1 depicts the global growth of exchange-traded options and futures.
 
 In this chapter, we focus on "OBS banking." OBS banking refers to transactions that do not appear on the bank's balance sheet, except possibly as footnotes. OBS items can be divided into two groups: option-like contingent claims and nonoption contingent claims. Table 10.1 shows the various items within each group. Any contingent claim involves a commitment on the part of the bank. According to Webster's dictionary, a "commitment" is a promise to do something in the future. An option-like contingent claim is a promise by the bank to settle in the future at prespecified terms and at the option of the holder of the commitment. Thus, an option-like contingent claim imposes a contingent liability on the bank (the seller) and endows the buyer of the commitment with an option. In a competitive market for contingent claims, the bank should be paid a fee at the time the contingent claim is sold which equals the value of the option contained in that claim. Nonoption contingent claims may also involve fees for the bank, but they do not necessarily impose a contingent liability on the bank because there is a symmetry in the obligations of the bank and the customer. Thus, even though there is a future
 
@@ -56,7 +68,7 @@ advantages of OBS banking. First, since OBS banking does not involve deposit fun
 
 In the previous three chapters we discussed the spot lending activities of banks. Our focus in this chapter is on forward markets. The rest of the chapter is organized as follows. In the next section we describe loan commitments. Economic rationales for the use of loan commitments are provided in the section that follows. Issues related to the valuation (pricing) of loan commitments are examined next. This is followed by a discussion of the differences between exchange-traded put options and loan commitments, and a discussion of the impact of loan commitments on the monetary policy. Then, in the next two sections we explain two other contingent claims: L/Cs and interest rate swaps. The issues of risks for banks offering contingent claims are taken up subsequently. The regulatory aspects of contingent claims are taken up next. This is followed by the conclusion of the chapter. A case study is provided to illustrate some of the issues facing a bank that sells contingent claims.
 
-# LOAN COMMITMENTS: A DESCRIPTION
+## LOAN COMMITMENTS: A DESCRIPTION
 
 # Definition and Pricing Structure
 
@@ -157,19 +169,19 @@ fails to exist if the spot riskless rate at  $t = 1$  is  $15\%$ . The reason is
 Consider alternative (i). Suppose the interest rate at  $t = 1$  is  $5\%$  and you assume that Knight Apparel will choose S. Then the interest rate,  $i_{s}$ , that you should charge the borrower in order to just break even on the loan is obtained as a solution to the following equation:
 
 $$
-0. 9 \times \left(1 + i_{s}\right) = 1. 0 5 \tag {10.1}
+0.9 \times (1 + i_s) = 1.05 \tag{10.1}
 $$
 
 where 0.9 is the probability that you will be repaid by Knight Apparel. Solving Equation (10.1) gives  $i_{\mathrm{s}} = 16.67\%$ . If Knight Apparel chooses S, its expected payoff at  $t = 2$  is
 
 $$
-0. 9 \times (1 5 0 - 1 1 6. 6 7) = \$ 3 0 \text{ap pr ox im at el y}.
+0.9 \times (150 - 116.67) = \$30 \text{approximately}.
 $$
 
 On the other hand, if Knight Apparel chooses R, its expected payoff at  $t = 2$  is
 
 $$
-0. 7 \times (1 5 8 - 1 1 6. 6 7) = \$ 2 8. 9 3.
+0.7 \times (158 - 116.67) = \$28.93.
 $$
 
 Thus, Knight Apparel will prefer S to R, and it is a Nash equilibrium for you to offer a \$100 loan at 16.67%.
@@ -179,7 +191,10 @@ Thus, Knight Apparel will prefer S to R, and it is a Nash equilibrium for you to
 Now suppose the interest rate at  $t = 1$  is  $15\%$ . If you assume that Knight Apparel will choose S, then you should charge an interest rate,  $i_{s}^{\prime}$ , that solves the following equation
 
 $$
-0. 9 \times \left(1 + i_{s}^{\prime}\right) = 1. 1 5 \tag {10.2}
+$$
+
+0.9 \times (1 + i_s') = 1.15 \tag{10.2}
+
 $$
 
 Solving Equation (10.2) yields  $i_{\mathrm{S}}' = 27.78\%$ . If Knight Apparel does indeed choose S, its expected payoff at  $t = 2$  will be
@@ -493,9 +508,9 @@ to purchase from the creditor a claim (the debtor's indebtedness) at par, contin
 
 One important difference between loan commitments and standby L/Cs as put options is in the random processes influencing the market values of the underlying claims in the two cases and in the consequent trigger mechanisms giving rise to exercise. In the case of a loan commitment, an increase in the customer's spot borrowing rate, above the commitment. In the case of standby L/Cs, nonperformance by the debtor depresses the value of the claim below the strike price (the guaranteed value of the claim), prompting exercise of the option. Another important difference lies in enforceability. Unlike the loan commitment, the standby L/C does not have a MAC clause and is therefore more rigidly binding.
 
-# OTHER CONTINGENT CLAIMS: SWAPS
+### OTHER CONTINGENT CLAIMS: SWAPS
 
-# What Are Swaps?
+### What Are Swaps?
 
 A swap is an agreement between two parties to exchange their exposure to a specific risk. The trade often involves an intermediary acting as either principal or broker.[27] Thus, for example, a swap is a tool for managing various types of risk. Basically an interest rate swap involves exchanging interest payments on notional securities with different prospects such as duration or the method by which interest payments are determined. For example, suppose a firm has a floating-rate liability and a fixed-rate asset. Such a firm will suffer losses if interest rates rise sharply. Now suppose another firm has a fixed-rate liability and a floating-rate asset. This firm will suffer losses if interest rates fall sharply. These two firms could arrange a swap to exchange their interest payments and thereby reduce their exposures to interest rate risk.
 
@@ -503,7 +518,7 @@ Interest rate swaps were first used in the Eurobond market during 1981. Large in
 
 A typical swap involves the exchange of a fixed for a floating rate over an agreed amount (notional amount) for a specific period; the floating rate is typically indexed to the LIBOR, the prime, or the T-bill rate.
 
-# How a Swap Works?
+### How a Swap Works?
 
 Suppose we have two firms. Firm A is a bank with  \$150 million of loans that promise a floating interest rate of prime plus 25 basis points, financed with\$ 150 million of 10-year bonds promising fixed  $10\%$  interest rate. Firm B is an S&L with \$150 million of fixed-rate mortgages financed with short-term MMFs (money market funds) and CDs with interest rates indexed to the T-bill rate. Each institution is exposed to interest rate risk that it wishes to hedge.
 
@@ -524,7 +539,7 @@ Another popular swap involves currencies. For example, a bank may have foreign l
 
 There are two common types of currency swaps: traditional fixed/fixed currency swaps and cross-currency interest rate swaps. A fixed/fixed currency swap involves fixed interest rates in each currency. Principal may or may not be exchanged. If principal is exchanged, this kind of swap transforms a fixed coupon bond denominated in one currency into a fixed coupon bond in another currency. With a cross-currency interest rate swap one exchanges a fixed payments stream for a floating payment stream, as well as payments in different currencies. These contracts are occasionally combined in a single transaction, and sometimes the currency and interest rate components are separated. There are other variations as well. For example, there are swaps in which the two parties exchange yields on assets of different maturities (or currency denominations), rather than interest payments on liabilities. The point is that a swap can be tailor-made to suit the needs of the swapping parties, so that the potential variety of swaps is almost limitless. Some of these are discussed in the next subsection.
 
-# Swaps and Swap-Related Innovations
+### Swaps and Swap-Related Innovations
 
 (a) Interest Rate Swap Variations: Some variations on the basic interest rate swaps are listed below.
 
@@ -557,27 +572,27 @@ The cap market has developed numerous derivatives and customizations. Some of th
 
 Suppose the cap strike rate is  $15\%$  and the floor strike rate is  $10\%$ . Then if the spot rate on the chosen security is  $17\%$ , the spot rate minus the cap strike rate is  $2\%$ , so party A receives  $2\%$  of the notional principal. If the spot rate is  $9\%$ , then the floor strike rate minus the spot rate is  $1\%$ , and party A receives  $1\%$  of the notional principal. If the spot rate falls between the cap and floor strike rates (say at  $12\%$ ), then party A receives nothing.
 
-# Advantages and Disadvantages of a Swap as a Hedging Instrument
+### Advantages and Disadvantages of a Swap as a Hedging Instrument
 
 Since a swap is an instrument to hedge interest rate risk, it is natural to ask how it compares with other ways of hedging interest rate risk. We now compare swaps with two alternatives: interest rate futures and debt refinancing.
 
-# Swap Versus Interest Rate Futures
+### Swap Versus Interest Rate Futures
 
-# What is a Futures Contract?
+#### What is a Futures Contract?
 
 An interest rate futures contract is an exchange-based contract (as opposed to over-the-counter) to buy or sell a particular financial asset (such as a T-bill) for a specific price at a prespecified date in the future.
 
 Before we can compare swap with a futures contract, you should be aware of how a futures contract can be used to hedge. Consider an S&L with long-term fixed-rate mortgages as assets and short-term CDs as liabilities. Suppose this S&L were to short (sell) a CD futures contract, that is, it could promise to deliver (sell) at a fixed price. Then, if interest rates rise in the future, the market value of the CD falls and thus the S&L receives a cash inflow equal to the (positive) difference between the fixed delivery price and the market value of the CD.[29] On the other hand, if interest rates fall and the market value of the CD rises as a result, the S&L will experience a loss. Thus, the gain to the S&L if rates rise is offset by the loss if rates fall. In this way, the S&L's interest rate exposure is hedged.
 
-# Advantage of a Swap Over a Futures Contract
+#### Advantage of a Swap Over a Futures Contract
 
 Interest rate futures are standardized contracts with specific delivery dates and specific types of instruments.30 Thus if you wish to hedge the interest rate risk on a financial claim that is not one of the deliverable instruments on which futures contracts are written, you must choose a futures contract on a deliverable that most closely resembles the claim you wish to hedge. Since the resemblance will be imperfect, you will bear cross-hedging risk. Moreover, even if the resemblance were perfect, you would bear basis risk (the risk that the relation between the spot and futures prices will change randomly). The major advantage of a swap contract over a futures contract is that a swap can be tailored to suit the customer's need because it is not a standardized contract. Thus, better interest rate hedging is often possible with a swap than with a futures contract. Note, however, that swaps are increasingly becoming more standardized and hence similar to futures contracts, but with longer hedging periods.
 
-# Disadvantages of a Swap
+#### Disadvantages of a Swap
 
 (i) Imperfect standardization means that it is not always easy to find a counterparty to the desired swap transaction. That is, futures contracts are more liquid than swaps contracts. (ii) Related to (i), the highly customer-specific nature of swaps means that search costs may be significant in some transactions. These costs will be passed on to the swapping parties by the swap broker, in the form of a higher fee. Thus, customers face higher transactions costs with swaps than with futures. (iii) There is a greater risk of nonperformance (default) with a swaps contract than with a futures contract. This is because the exchange guarantees execution with a futures contract, whereas with a swap one party could be left in the cold if the other party reneges and there is no (backup) guarantee by the swap broker. If there is a backup guarantee by the swap broker, then the swap broker plays the role of a clearinghouse. But even in this case, there is the possibility of nonperformance by the swap broker. Following the 2007-2009 financial crisis, there have been various legislative initiatives aimed at reducing counterparty risk by enforcing standardization and requiring clearing and settlement via Central Counter Parties (CCPs).
 
-# Swaps Versus Refinancing
+### Swaps Versus Refinancing
 
 # How do you Hedge Risk by Refinancing?
 

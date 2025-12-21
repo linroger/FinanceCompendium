@@ -1,4 +1,27 @@
 
+---
+title: "Continuous Probability Distributions Dealing with Extreme Events"
+parent_directory: "Probability Theory"
+formatted: "2025-12-21 07:00:00 AM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags:
+  - "extreme value theory"
+  - "heavy tailed distributions"
+  - "stable distributions"
+  - "generalized extreme value"
+secondary_tags:
+  - "generalized pareto distribution"
+  - "normal inverse gaussian"
+  - "alpha stable distribution"
+  - "skewness in finance"
+  - "risk management"
+  - "asset return modeling"
+  - "financial risk theory"
+  - "probability distributions"
+cssclasses: academia
+---
+
 # Continuous Probability Distributions Dealing with Extreme Events
 
 MARKUS HÖCHSTÖTTER, PhD
@@ -9,20 +32,17 @@ SVETLOZAR T. RACHEV, PhD, Dr Sci
 
 Frey Family Foundation Chair-Professor, Department of Applied Mathematics and Statistics, Stony Brook University, and Chief Scientist, FinAnalytica
 
-
 FRANK J. FABOZZI, PhD, CFA, CPA
 
 Professor of Finance, EDHEC Business School
 
 Abstract: Continuous probability distributions are commonly the preferred candidates when modeling financial asset returns. The most popular of them is unquestionably the normal distribution because of its appealing properties as well as the fact that it serves as the limit distribution for many sums of random variables such as, for example, aggregated returns. The normal distribution generally renders modeling easy because all moments exist. However, the normal distribution fails to reflect stylized facts commonly encountered in asset returns, namely, the possibility of very extreme movements and skewness. To remedy this shortcoming, probability distributions accounting for such extreme price changes have become increasingly popular. Some of these distributions concentrate exclusively on extreme values and others permit any real number, but in a manner that is capable of reflecting market behavior. Consequently, there is a selection of probability distributions that can realistically reproduce asset price changes. Their common shortcoming is generally that they are mathematically difficult to handle.
 
-In this entry, we present a collection of continuous probability distributions that are used in finance in the context of modeling extreme events. Although there are distributions that are appealing in nature due to their mathematical simplicity, the ones introduced in this entry are sometimes rather complicated, using parameters that are not necessarily intuitive. However, due to the observed behavior of many quanti ties in finance, there is a need for more flexible distributions compared to keeping models mathematically simple.
+In this entry, we present a collection of continuous probability distributions that are used in finance in the context of modeling extreme events. Although there are distributions that are appealing in nature due to their mathematical simplicity, the ones introduced in this entry are sometimes rather complicated, using parameters that are not necessarily intuitive. However, due to the observed behavior of many quantities in finance, there is a need for more flexible distributions compared to keeping models mathematically simple.
 
+While the Student's $t$-distribution is able to mimic some behavior inherent in financial data such as so-called heavy tails (which means that a lot of the probability mass is attributed to extreme values), it fails to capture other observed behavior such as skewness. Hence, we decided not to include the Student's $t$-distribution in this entry.
 
-While the Student's  $t$ -distribution is able to mimic some behavior inherent in financial data such as so-called heavy tails (which means that a lot of the probability mass is attributed to extreme values), it fails to capture other observed behavior such as skewness. Hence, we decided not to include the Student's  $t$ -distribution in this entry.
-
-
-In this entry, we present the generalized extreme value distribution, the generalized Pareto distribution, the normal inverse Gaussian distribution, and the  $\alpha$ -stable distribution together with their parameters of location and spread. The presentation of each distribution is accompanied by some illustration to help render the theory more appealing.
+In this entry, we present the generalized extreme value distribution, the generalized Pareto distribution, the normal inverse Gaussian distribution, and the $\alpha$-stable distribution together with their parameters of location and spread. The presentation of each distribution is accompanied by some illustration to help render the theory more appealing.
 
 # GENERALIZED EXTREME VALUE DISTRIBUTION
 
@@ -31,12 +51,13 @@ Sometimes it is of interest to analyze the probability distribution of extreme v
 
 Extreme value theory, a branch of statistics that focuses solely on the extremes (tails) of a distribution, distinguishes between three different types of generalized extreme value distributions: Gumbel distribution, Fréchet distribution, and Weibull distribution. In the extreme value theory literature, these distributions are referred to respectively as Type I, Type II, and Type III. (See Embrechts, Klüppelberg, and Mikosch [2003], De Haan and Ferreira [2006], and Kotz and Nadarajah [2002].) The three types are related in that we obtain one type from another by simply varying the value of the parameter  $\xi$ . This makes GEV distributions extremely pleasant for handling financial data.
 
-For the Gumbel distribution, the general parameter is zero (i.e.,  $\xi = 0$ ) and its density function is
+For the Gumbel distribution, the general parameter is zero (i.e., $\xi = 0$) and its density function is
 
-$$ f (x) = e^{- x} \exp \left\{- e^{- x} \right\}
+$$
+f (x) = e^{- x} \exp \left\{- e^{- x} \right\}
 $$
 
-A plot of this density is given by the dashed graph in Figure 1 that corresponds to  $\xi = 0$ . The distribution function of the Gumbel distribution is then
+A plot of this density is given by the dashed graph in Figure 1 that corresponds to $\xi = 0$. The distribution function of the Gumbel distribution is then
 
 $$
 F (x) = \exp \left\{- e^{- x} \right\}
@@ -89,7 +110,7 @@ For example, consider  $n$  random variables  $X_{1}, X_{2}, \ldots, X_{n}$  tha
 
 The following density function characterizes the Pareto distribution
 
-$$ f (x) = \left\{ \begin{array}{c c} \frac{1}{\beta} \left(1 + \xi \frac{x}{\beta}\right)^{- 1 - 1 / \xi}, & x \geq 0 \\ 0 & \text{el se} \end{array} \right.
+$$ f (x) = \left\{ \begin{array}{c c} \frac{1}{\beta} \left(1 + \xi \frac{x}{\beta}\right)^{- 1 - 1 / \xi}, & x \geq 0 \\ 0 & \text{else} \end{array} \right.
 $$ with  $\beta > 0$  and  $1 + (\xi x) / \beta > 0$ . Hence, the distribution is right skewed since the support is only on the positive real line. The corresponding distribution function is given by
 
 
@@ -168,7 +189,7 @@ Also, the NIG distribution is summation stable such that, under certain prerequi
 
 # $\alpha$  -STABLE DISTRIBUTION
 
-The final distribution we introduce is the class of  $\alpha$ -stable distributions. (For a further discussion of stable distributions, see Samorodnitsky and Taqqu [2000].) Often, these distri butions are simply referred to as stable distributions. While many models in finance have been modeled historically using the normal distribution based on its pleasant tractability, concerns have been raised that it underestimates the danger of downturns of extreme magnitude inherent in stock markets. The sudden declines of stock prices experienced during several crises since the late 1980s—October 19, 1987 ("Black Monday"), July 1997 ("Asian currency crisis"), 1998-1999 ("Russian ruble crisis"), 2001 ("Dot-com bubble"), and July 2007 and following ("Subprime mortgage crisis")—are examples that call for distributional alternatives accounting for extreme price shocks more adequately than the normal distribution. This may be even more necessary considering that financial crashes with serious price movements might become even more frequent in time given the major events that transpired throughout the global financial markets in 2008. The immense threat radiating from heavy tails in stock return distributions made industry professionals aware of the urgency to take them seriously and reflect them in their models.
+The final distribution we introduce is the class of $\alpha$-stable distributions. (For a further discussion of stable distributions, see Samorodnitsky and Taqqu [2000].) Often, these distributions are simply referred to as stable distributions. While many models in finance have been modeled historically using the normal distribution based on its pleasant tractability, concerns have been raised that it underestimates the danger of downturns of extreme magnitude inherent in stock markets. The sudden declines of stock prices experienced during several crises since the late 1980s—October 19, 1987 ("Black Monday"), July 1997 ("Asian currency crisis"), 1998-1999 ("Russian ruble crisis"), 2001 ("Dot-com bubble"), and July 2007 and following ("Subprime mortgage crisis")—are examples that call for distributional alternatives accounting for extreme price shocks more adequately than the normal distribution. This may be even more necessary considering that financial crashes with serious price movements might become even more frequent in time given the major events that transpired throughout the global financial markets in 2008. The immense threat radiating from heavy tails in stock return distributions made industry professionals aware of the urgency to take them seriously and reflect them in their models.
 
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/97059c07a3023386af53fef9cb694d843addf3d13eea36a4b358706147c22900.jpg)
@@ -202,7 +223,7 @@ $$
 
 Depending on the parameters  $\alpha$  and  $\beta$ , the distribution has either support on the entire real line or only the part extending to the right of some location.
 
-In general, the density function is not explicitly presentable. Instead, the distribution of the  $\alpha$ -stable random variable is given by its charac teristic function. The characteristic function is given by
+In general, the density function is not explicitly presentable. Instead, the distribution of the $\alpha$-stable random variable is given by its characteristic function. The characteristic function is given by
 
 
 $$
@@ -241,24 +262,24 @@ From the presentation of the normal distribution, we know that it serves as a li
 Let us resume the previous example with the random dynamic and the related stock price evolution. Suppose, now, that the 10-day dynamic was  $S_{\alpha}$  distributed. We denote the according random variable by  $V_{10}$ . We select a fairly moderate stable parameter of  $\alpha = 1.8$ . A value in this vicinity is commonly estimated for daily and even weekly stock returns. The skewness and location parameters are both set to zero, that is,  $\beta = \mu = 0$ . The scale is  $\sigma = 1$ , so that if the distribution was normal, that is,  $\alpha = 2$ , the variance would be 2 and, hence, consistent with the previous distributions. Note, however, that for  $\alpha = 1.8$ , the variance does not exist. Here the probability of the dynamic's exceedance of the lower threshold of 1 is
 
 $$
-P \left(V_{1 0} > 1\right) = 0. 2 4 1 3 \tag {4}
+P \left(V_{10} > 1\right) = 0.2413 \tag{4}
 $$ compared to 0.2398 and 0.1870 in the normal and Student's t cases, respectively. Again, the probability in (4) corresponds to the event that in 10 days, the stock price will be greater than \271. So, it is more likely than in the normal and Student's t model.
 
 
 For the higher threshold of 3.5, we obtain
 
 $$
-P (V_{1 0} > 3. 5) = 0. 0 1 8 1
+P (V_{10} > 3.5) = 0.0181
 $$ compared to 0.0067 and 0.0124 from the normal and Student's t cases, respectively. This event corresponds to a stock price beyond \3,312, which is an immense increase. Under the normal distribution assumption, this event is virtually unlikely. It would happen in less than 1\% of the 10-day periods. However, under the stable as well as the Student's t assumption, this could happen in 1.81\% or 1.24\% of the scenarios, which is three times or double the probability, respectively. Just for comparison, let us assume \alpha = 1.6, which is more common during a rough market climate. The dynamic would now exceed the threshold of 1 with probability
 
 
 $$
-P \left(V_{1 0} > 1\right) = 0. 2 4 2 8
+P \left(V_{10} > 1\right) = 0.2428
 $$ which fits in with the other distribution. For 3.5, we have
 
 
 $$
-P \left(V_{1 0} > 3. 5\right) = 0. 0 3 1 5 \tag {5}
+P \left(V_{10} > 3.5\right) = 0.0315 \tag{5}
 $$ which is equal to five times the probability under the normal distribution and almost three times the probability under the Student's  $t$  distribution assumption. For this threshold, the same probability as in equation (5) could only be achieved with a variance of  $\sigma^2 = 4$ , which would give the overall distribution a different shape. In the Student's  $t$  case, the degree of freedom parameter would have to be less than 3 such that now the variance would not exist any longer.
 
 

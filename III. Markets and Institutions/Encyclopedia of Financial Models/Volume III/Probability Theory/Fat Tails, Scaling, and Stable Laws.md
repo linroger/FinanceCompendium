@@ -1,3 +1,51 @@
+---
+title: Fat Tails, Scaling, and Stable Laws
+parent_directory: Probability Theory
+formatted: 2025-12-21 07:15:25 PM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - fat tailed distributions
+  - stable distributions
+  - extreme value theory
+  - power law distributions
+  - scaling laws
+  - self similarity
+secondary_tags:
+  - heavy tailed processes
+  - levy stable distributions
+  - subexponential distributions
+  - tail index estimation
+  - hill estimator
+  - pickands estimator
+  - maximum domain attraction
+  - garch processes
+  - subordinated processes
+  - markov switching models
+  - arch processes
+  - central limit theorem
+  - point process exceedances
+  - quantile transformation
+  - generalized extreme value
+cssclasses: academia
+---
+  - scaling laws
+  - power law distributions
+secondary_tags:
+  - heavy tailed processes
+  - levy stable distributions
+  - subexponential distributions
+  - self similarity
+  - tail index estimation
+  - hill estimator
+  - pickands estimator
+  - maximum domain attraction
+  - garch models
+  - subordinated processes
+  - markov switching models
+  - arch processes
+cssclasses: academia
+---
 
 # Fat Tails, Scaling, and Stable Laws
 
@@ -20,11 +68,12 @@ We discuss the key intuition relative to the applicability of fat-tailed or scal
 We begin with the mathematics of fat-tailed processes, followed by a discussion of classical extreme value theory for independent and identically distributed sequences. We then explore the consequences of eliminating the assumption of independence and discuss different concepts of scaling and self similarity. We will not provide a review of the literature on the evidence of fat tails in financial markets. For a review, see Rachev, Menn, and Fabozzi (2005).
 
 
-# Fat Tails
+## Fat Tails
 
 Consider a random variable  $X$ . By definition,  $X$  is a real-valued function from the set  $\Omega$  of the possible outcomes to the set  $R$  of real numbers, such that the set  $(X \leq x)$  is an event. If  $P(X \leq x)$  is the probability of the event  $(X \leq x)$ , the function  $F(x) = P(X \leq x)$  is a well-defined function for every real number  $x$ . The function  $F(x)$  is called the cumulative distribution function, or simply the distribution function, of the random variable  $X$ . Note that  $X$  denotes a function  $\Omega \to R$ ,  $x$  is a real variable, and  $F(x)$  is an ordinary real-valued function that assumes values in the interval [0,1]. If the function  $F(x)$  admits a derivative
 
-$$ f (x) = \frac{d F (x)}{d x}
+$$
+f(x) = \frac{d F(x)}{dx}
 $$
 
 The function  $f(x)$  is called the probability density of the random variable  $X$ . The function  $\bar{F}(x) = 1 - F(x)$  is the tail of the distribution  $F(x)$ . The function  $\bar{F}(x)$  is called the survival function.
@@ -42,7 +91,7 @@ For instance, a six-sigma event (i.e., a realized value of a random variable who
 
 The notion of fat-tailedness can be made quantitative as different distributions have different degrees of fat-tailedness. The degree of fat-tailedness dictates the weight of the tails and thus the probability of extremal events. Extreme value theory attempts to estimate the entire tail region, and therefore the degree of fat-tailedness, from a finite sample. A number of indicators for evaluating the size of extremal events have been proposed; among these is the extremal claim index proposed in Embrechts, Kluppelberg, and Mikosch (1999), which plays an important role in risk management.
 
-# The Class  $\mathfrak{L}$  of Fat-Tailed Distributions
+## The Class  $\mathfrak{L}$  of Fat-Tailed Distributions
 
 Many important classes of fat-tailed distributions have been defined; each is characterized by special statistical properties that are important in given application domains. We will introduce a number of such classes in order of inclusion, starting from the class with the broadest membership: the class  $\mathfrak{L}$ , which is defined as follows. Suppose that  $F$  is a distribution function defined in the domain  $(0,\infty)$  with  $F < 1$  in the entire domain (i.e.,  $F$  is the distribution function of a positive random variable with a tail that never decays to zero). It is said that  $F \in \mathfrak{L}$  if, for any  $y > 0$ , the following property holds:
 
@@ -62,13 +111,13 @@ Intuitively, this second property means that if it is known that a random variab
 It can be demonstrated that if a distribution  $F(x) \in \mathfrak{L}$ , then it has the following properties:
 
 - Infinite exponential moments of every order:  $E[e^{sX}] = \infty$  for every  $s \geq 0$
-$\lim_{x\to \infty}\bar{F} (x)e^{\lambda x} = \infty ,\forall \lambda >0$
+- $\lim_{x\to \infty}\bar{F} (x)e^{\lambda x} = \infty ,\forall \lambda >0$
 
 As distributions in class  $\mathfrak{L}$  have infinite exponential moments of every order, they satisfy one of the previous definitions of fat-tailedness. However, they might have finite or infinite mean and variance.
 
 The class  $\mathfrak{L}$  is in fact quite broad. It includes, in particular, the two classes of subexponential distributions and distributions with regularly varying tails that are discussed in the following sections.
 
-# Subexponential Distributions
+## Subexponential Distributions
 
 A class of fat-tailed distributions, widely used in insurance and telecommunications, is the class  $S$  of subexponential distributions. Introduced by Chistyakov (1964), subexponential distributions can be characterized by two equivalent properties: (1) the convolution closure property of the tails and (2) the property of the sums.
 
@@ -98,14 +147,14 @@ $$
 
 Note, however, that the class of distributions that satisfies the latter property is broader than the class of subexponential distributions; this is because the former includes, for instance, the class  $\mathfrak{L}$ .
 
-Subexponential distributions do not have finite exponential moments of any order, that is,  $E[e^{sX}] = \infty$  for every  $s \geq 0$ . They may or may not have a finite mean and/or a finite variance. Consider, in fact, that the class of subexpo nential distributions includes both Pareto and Weibull distributions. The former have infinite variance but might have finite or infinite mean depending on the index; the latter have finite moments of every order (see below).
+Subexponential distributions do not have finite exponential moments of any order, that is,  $E[e^{sX}] = \infty$  for every  $s \geq 0$ . They may or may not have a finite mean and/or a finite variance. Consider, in fact, that the class of subexponential distributions includes both Pareto and Weibull distributions. The former have infinite variance but might have finite or infinite mean depending on the index; the latter have finite moments of every order (see below).
 
 
 The key indicators of subexponentiality are (1) the equivalence in the distribution of the tail between a variable and a sum of independent copies of the same variable and (2) the fact that a sum is dominated by its largest term. The importance of the largest terms in a sum can be made more quantitative using measures such as the large claims index introduced in Embrechts, Kluppelberg, and Mikosch (1999) that quantifies the ratio between the largest  $p$  terms in a sum and the entire sum.
 
 The class of subexponential distributions is quite large. It includes not only Pareto and stable distributions but also log-gamma, lognormal, Benkander, Burr, and Weibull distributions. Pareto distributions and stable distributions are a particularly important subclass of subexponential distributions; these will be described in some detail below.
 
-# Power-Law Distributions
+## Power-Law Distributions
 
 Power-law distributions are a particularly important subset of subexponential distributions. Their tails follow approximately an inverse power law, decaying as  $x^{-\alpha}$ . The exponent  $\alpha$  is called the tail index of the distribution. To express formally the notion of approximate power-law decay, we need to introduce the class  $\Re(\alpha)$ , equivalently written as  $\Re_{\alpha}$  of regularly varying functions.
 
@@ -125,7 +174,7 @@ $$ where  $l$  is a slowly varying function. An example of a distribution with a
 
 
 $$
-\bar {F} (x) = P (X > x) = \frac{c}{c + x^{\alpha}} \text{fo r} x \geq 0
+\bar {F} (x) = P (X > x) = \frac{c}{c + x^{\alpha}} \text{for} x \geq 0
 $$
 
 Power-law distributions are thus distributions with regularly varying tails. It can be demonstrated that they satisfy the convolution closure property of the tail. The distribution of the sum of  $n$  independent variables of tail index  $\alpha$  is a power-law distribution of the same index  $\alpha$ . Note that this property holds in the limit for  $x \to \infty$ . Distributions with regularly varying tails are therefore a proper subset of subexponential distributions.
@@ -227,7 +276,7 @@ Stable distributions are also characterized by another property that might be us
 Except in the special cases of Gaussian  $(\alpha = 2)$ , symmetric Cauchy  $(\alpha = 1, \beta = 0)$ , and stable inverse Gaussian  $(\alpha = \frac{1}{2}, \beta = 0)$  distributions, stable distributions cannot be written as simple formulas; formulas have been discovered but are not simple. However, stable distributions can be characterized in a simple way through their characteristic function, the Fourier transform of the distribution function. In fact, this function can be written as
 
 $$
-\Phi_{X} (t) = \exp [ i \gamma t - c | t |^{\alpha} [ 1 - i \beta \operatorname{si gn} (t) z (t, \alpha) ] \}
+\Phi_{X} (t) = \exp [ i \gamma t - c | t |^{\alpha} [ 1 - i \beta \operatorname{sign} (t) z (t, \alpha) ] ]
 $$ where  $t\in R,\gamma \in R,c > 0,\alpha \in (0,2),\beta \in [-1,1],$  and
 
 
@@ -242,7 +291,7 @@ Even if stable distributions cannot be written as simple formulas, the asymptoti
 For stable distributions, the CLT holds in the same form as for inverse power-law distributions. In addition, the functions in the domain of attraction of a stable law of index  $\alpha < 2$  are characterized by the same tail index. This means that a distribution  $G$  belongs to the domain of attraction of a stable law of parameter  $\alpha < 2$  if and only if its tail decays as  $\alpha$ . In particular, Pareto's law belongs to the domain of attraction of stable laws of the same tail index.
 
 
-# EXTREME VALUE THEORY FOR IID PROCESSES
+# Extreme Value Theory for IID Processes
 
 In this section we introduce a number of important probabilistic concepts that form the conceptual basis of extreme value theory (EVT). The objective of EVT is to estimate the entire tail of a distribution from a finite sample by fitting to an appropriate distribution those values of the sample that fall in the tail. Two concepts play a crucial role in EVT: (1) the behavior of the upper order statistics (i.e., the largest  $k$  values in a sample) and, in particular, of the sample maxima; and (2) the behavior of the points where samples exceed a given threshold. We will explore the limit distributions of maxima and the distribution of the points of exceedances of a high threshold. Based on these concepts a number of estimators of the tail index in sequences of independent and identically distributed (IID) variables are presented.
 
@@ -275,13 +324,13 @@ If the distribution  $F$ , which is a nondecreasing function, reaches 1 at a fin
 
 
 $$
-\lim_{n \rightarrow \infty} P \left(M_{n} <   x\right) = \lim_{n \rightarrow \infty} F_{n} (x) = 0, \text{fo r} x <   x_{F}
+\lim_{n \rightarrow \infty} P \left(M_{n} <   x\right) = \lim_{n \rightarrow \infty} F_{n} (x) = 0, \text{for} x <   x_{F}
 $$
 
 If  $x_{F}$  is finite,
 
 $$
-P \left(M_{n} <   x\right) = F_{n} (x) = 1, \text{fo r} x > x_{F}
+P \left(M_{n} <   x\right) = F_{n} (x) = 1, \text{for} x > x_{F}
 $$
 
 The point  $x_{F}$  is called the right endpoint of the distribution  $F$ .
@@ -300,11 +349,11 @@ $$ c_{n}^{- 1} (M_{n} - d_{n}) \stackrel {D} {\to} H
 $$ then  $H$  is one of the following distributions:
 
 
-Frechet:  $\Phi_{\alpha}(x) = \left\{ \begin{array}{ll}0 & x\leq 0\\ \exp (-x^{-\alpha}) & x > 0 \end{array} \right.$ $\alpha >0$
+Frechet:  $\Phi_{\alpha}(x) = \left\{ \begin{array}{ll}0 & x\leq 0\\ \exp (-x^{-\alpha}) & x > 0 \end{array} \right.$, $\alpha >0$
 
-Weibull:  $\Psi_{\alpha}(x) = \left\{ \begin{array}{ll}\exp [-(x)^{-\alpha}] & x < 0\\ 1 & x\geq 0 \end{array} \right.$ $\alpha >0$
+Weibull:  $\Psi_{\alpha}(x) = \left\{ \begin{array}{ll}\exp [-(x)^{-\alpha}] & x < 0\\ 1 & x\geq 0 \end{array} \right.$, $\alpha >0$
 
-Gumbel:  $\Lambda (x) = \exp \{-e^{-x}\} ,x\in R$
+Gumbel:  $\Lambda (x) = \exp \{-e^{-x}\}$, $x\in R$
 
 The limit distribution  $H$  is unique, in the sense that different sequences of normalizing constants determine the same distribution.
 
@@ -410,7 +459,7 @@ It can be demonstrated that the class of max-stable distributions coincides with
 The three extreme value distributions, Frechet, Weibull, and Gumbel, can be represented as a one-parameter family of distributions through the standard generalized extreme value distribution (GEV) of Jenkinson and Von Mises. Define the distribution function  $H_{\xi}$  as follows:
 
 $$
-H_{\xi} = \left\{ \begin{array}{l l} \exp [ - (1 + \xi x)^{- 1 / \xi} ] & \text{fo r} \xi \neq 0 \\ \exp (- \exp (- x)) & \text{fo r} \xi = 0 \end{array} \right.
+H_{\xi} = \left\{ \begin{array}{l l} \exp [ - (1 + \xi x)^{- 1 / \xi} ] & \text{for} \xi \neq 0 \\ \exp (- \exp (- x)) & \text{for} \xi = 0 \end{array} \right.
 $$ where  $1 + \xi x > 0$ . One can see from the definition that  $\xi = \alpha^{-1} > 0$  corresponds to the Frechet distribution,  $\xi = 0$  corresponds to the Gumbel distribution, and  $\xi = -\alpha^{-1} < 0$  corresponds to the Weibull distribution. We can now introduce the related location-scale dependent family  $H_{\xi ;\mu ,\psi}$  by replacing the argument  $x$  with  $(x - \mu) / \psi$ .
 
 
@@ -463,7 +512,7 @@ $$ where  $I$  is the indicator function. In other words, for each  $x$ , the em
 The Glivenko-Cantelli theorem provides the theoretical underpinning of nonparametric statistics. It states that, if the samples  $X_{1},\ldots ,X_{n}$  are independent draws from the distribution  $F$  the empirical distribution function  $F_{n}$  tends to  $F$  for large  $n$  in the sense that
 
 $$
-\Delta_{n} = \sup_{x \in R} | F_{n} (x) - F (x) | \stackrel {a. s.} {\rightarrow} 0, \text{fo r} n \rightarrow \infty
+\Delta_{n} = \sup_{x \in R} | F_{n} (x) - F (x) | \stackrel {a. s.} {\rightarrow} 0, \text{for} n \rightarrow \infty
 $$
 
 The quantile transformation tells us that in cases where  $F$  is a Pareto distribution, if we approximate  $n$  random draws from a uniformly distributed variable as the sequence  $1,2,\ldots ,n$ , then the corresponding values of the sample  $X_{1},\ldots ,X_{n}$  will be
@@ -480,7 +529,7 @@ $$
 \frac{X_{k , n}}{X_{k + 1 , n}} = 1, \frac{k}{n} \rightarrow 0
 $$
 
-# Point Process of Exceedances or Peaks over Threshold
+# Point process of exceedances or peaks over threshold
 
 We have now reviewed the behavior of sums, maxima, and upper order statistics of continuous random variables. Yet another approach to EVT is based on point processes; herein we will use point processes only to define the point process of exceedances.
 
@@ -502,7 +551,7 @@ $$
 
 For any given sequence  $x_{i}, i \geq 1$  of points in  $E$ , define the following set function:
 
-$$ m (A) = \sum_{i = 1}^{\infty} \varepsilon_{x_{i}} (A) = \operatorname{ca rd} \{i: X_{i} \in A \}, A \in \mathfrak {B}
+$$ m (A) = \sum_{i = 1}^{\infty} \varepsilon_{x_{i}} (A) = \operatorname{card} \{i: X_{i} \in A \}, A \in \mathfrak {B}
 $$
 
 It can be verified that  $m(A)$  is a measure  $\mathfrak{B}$ , called a counting measure. If a counting mea sure is finite on each compact set, then it is called a point measure. In other words, any given countable sequence in  $E$  generates a counting measure on  $\mathfrak{V}$ .
@@ -519,7 +568,7 @@ To make this definition mathematically rigorous, a point process can be defined 
 Equipped with the general concept of point processes, we can now define the point process of exceedances. Consider a threshold formed by any real number  $u$  and a sequence of random variables  $X_{i}, i = 1,2,\ldots$ . The point process of exceedances with state space  $E = (0,1)$  counts the number of instances where the random variables  $X_{i}$  exceed the threshold  $u$ :
 
 $$
-N_{n} (A) = \sum_{i = 1}^{\infty} \varepsilon_{i / n} (A) = \operatorname{ca rd} \{i \leq n \text{an d} X_{i} > u \}
+N_{n} (A) = \sum_{i = 1}^{\infty} \varepsilon_{i / n} (A) = \operatorname{card} \{i \leq n \text{and} X_{i} > u \}
 $$
 
 Note that in this case the state space specifies the size of the sample.
@@ -567,7 +616,7 @@ $$
 $$ where  $L$  is a slowly varying function as described earlier in this entry. For this reason, estimation under this weaker assumption is semiparametric in nature. We will now introduce a number of estimators of the shape parameter  $\xi$ .
 
 
-# The Pick and Estimator
+# The Pickands Estimator
 
 The Pick and estimator  $\hat{\xi}_{k,n}^{(P)}$  for an  $n$ -sample of independent draws from a distribution  $F \in \mathrm{MDA}(H_{\xi})$  is defined as
 
@@ -626,7 +675,7 @@ The Hill estimator was extended by Dekkers and de Haan (1989) to cover the entir
 The estimation methods reviewed above are based on the behavior of maxima and upper order statistics; another methodology uses the points of exceedances of high thresholds. Estimation methodologies based on the points of exceedances require an appropriate model for the point process of exceedances that was defined in general terms previously in this entry.
 
 
-# ELIMINATING THE ASSUMPTION OF IID SEQUENCES
+# Eliminating the assumption of IID sequences
 
 In the previous sections we reviewed a number of mathematical tools that are used to describe fat-tailed processes under the key assumption of IID sequences. In this section we discuss the implications of eliminating this assumption. However, in finance theory the assumption of stationary sequences of independent variables is only a first approximation; it has been challenged in several instances. Consider individual price time series. The autocorrelation function of returns decays exponentially and goes to near zero at very short-time horizons while the autocorrelation function of volatility decays only hyperbolically and remains different from zero for long periods. In addition, if we consider portfolios made of many securities, price processes exhibit patterns of cross correlations at different time-lags and, possibly, cointegrating relationships. These findings offer additional reasons to consider the assumption of serial independence as only a first approximation.
 
@@ -814,7 +863,7 @@ A stationary sequence is called asymptotically self-similar if the above relatio
 When we apply the notion of scaling to stochastic processes—the natural setting for economics and finance—we have to abandon the simple characterization of scaling as inverse power laws. Though the scaling property is in itself characterized through simple power laws, the scaling processes are complex and rich mathematical structures entailing a variety of distributions and correlation functions. In particular, the long-range correlation structure of the process plays a role as important as the distribution of its variables.
 
 
-# KEY POINTS
+# Key points
 
 - Fat-tailed laws have been found in many economic variables.
 - Fully approximating a finite economic system with fat-tailed laws depends on an accurate statistical analysis of the phenomena, but also on a number of the theoretical implications of subexponentiality and scaling.

@@ -1,4 +1,28 @@
 
+---
+title: "Introduction to Stochastic Programming and Its Applications to Finance"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume III/Optimization Tools"
+formatted: "2025-12-21 07:07:00 AM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli_tool: "opencode"
+primary_tags:
+  - stochastic programming
+  - financial planning
+  - asset liability management
+secondary_tags:
+  - scenario generation
+  - multistage optimization
+  - risk management
+  - portfolio optimization
+  - capital budgeting
+  - fixed income
+  - mathematical programming
+  - uncertainty modeling
+  - decision making
+  - optimization algorithms
+cssclasses: academia
+---
+
 # Introduction to Stochastic Programming and Its Applications to Finance
 
 KORAY D. SIMSEK, PhD
@@ -7,14 +31,11 @@ Associate Professor, Sabanci School of Management, Sabanci University
 
 Abstract: Mathematical programming is one of a number of operations research techniques that employs mathematical optimization models to assist in decision making. Mathematical programming includes linear programming, integer programming, mixed-integer programming, nonlinear programming, stochastic programming, and goal programming. Mathematical programming models allow the decision maker to identify the "best" solution. This is in contrast to other mathematical tools that are in the arsenal of decision makers such as statistical models (which tell the decision maker what occurred in the past), forecasting models (which tell the decision maker what might happen in the future), and simulation models (which tell the decision maker what will happen under different conditions). The mean-variance model for portfolio selection as formulated by Markowitz is an example of an application of one type of mathematical programming (quadratic programming). However, in formulating optimization models in many applications in finance, decision makers need to take into consideration the uncertainty about the model's parameters and the multiperiod nature of the problem faced. To deal with these situations, the technique of stochastic programming is employed.
 
-The dynamic nature of financial decision making requires the use of tools that are capable of capturing the multiperiod nature inherent in problems faced by asset managers in portfolio selection decisions and financial managers in capital budgeting decisions. These tools should be understandable with adequate treatment of uncertainty. They should incorporate practical considerations, such as transaction costs in the case of asset managers. Stochastic programming bears these characteristics. In this entry, we discuss the basics of stochastic program ming, give a brief history, and emphasize its importance by comparing the approach to other tools used in finance.
+The dynamic nature of financial decision making requires the use of tools that are capable of capturing the multiperiod nature inherent in problems faced by asset managers in portfolio selection decisions and financial managers in capital budgeting decisions. These tools should be understandable with adequate treatment of uncertainty. They should incorporate practical considerations, such as transaction costs in the case of asset managers. Stochastic programming bears these characteristics. In this entry, we discuss the basics of stochastic programming, give a brief history, and emphasize its importance by comparing the approach to other tools used in finance.
 
+## WHAT IS STOCHASTIC PROGRAMMING?
 
-# WHAT IS STOCHASTIC PROGRAMMING?
-
-Stochastic programming is nothing but a fancy name for the study of optimal decision making under uncertainty. As opposed to "deterministic," the term "stochastic" implies that some of the parameters of the problem are random
-
-(that is, not known with certainty); the term "programming" points to links with mathematical programming and optimization algorithms.
+Stochastic programming is nothing but a fancy name for the study of optimal decision making under uncertainty. As opposed to "deterministic," the term "stochastic" implies that some of the parameters of the problem are random (that is, not known with certainty); the term "programming" points to links with mathematical programming and optimization algorithms.
 
 Uncertainty is almost always inherent in real-world decision problems (and even more so in financial planning). As an example, we may consider a bet whose outcome is determined by flipping a coin. In such problems, uncertainty of parameters may be due to the presence of uncertain events (e.g., a coin flip in the previous example) or simply due to lack of reliable data.
 
@@ -40,9 +61,9 @@ In general, stochastic optimization models result in large-scale programs since 
 
 Specialized software packages that employ these methods are much faster than general solvers. Combined with algebraic modeling languages, such as AMPL, these specialized stochastic programming solvers provide efficient means of tackling problems that involve high levels of uncertainty.
 
-# Stochastic Programming in Finance
+## Stochastic Programming in Finance
 
-Financial planning represents one of the major application areas of stochastic programming. In fact, it is a natural domain for stochastic programming, since risk needs to be incorporated into investment decisions (portfolio decisions and capital budgeting decisions) and the problem structure is amenable to algebraic constraints and relationships. Deterministic approximations would fail to see the big picture. For example, through stochastic programs, portfolio allocations that would opti mize an investor's risk level under several scenarios can be determined; by contrast, because they ignore risk, deterministic programs provide inadequate solutions. Static portfolio selection models, based on Markowitz's mean-variance model (1952), have been proposed in many cases; however, their implementations may result in significant transaction costs and mistimed liquidation of assets. Examples of application of stochastic programming in financial planning can be found in Ziemba and Vickson (1975) and Zenios (1992).
+Financial planning represents one of the major application areas of stochastic programming. In fact, it is a natural domain for stochastic programming, since risk needs to be incorporated into investment decisions (portfolio decisions and capital budgeting decisions) and the problem structure is amenable to algebraic constraints and relationships. Deterministic approximations would fail to see the big picture. For example, through stochastic programs, portfolio allocations that would optimize an investor's risk level under several scenarios can be determined; by contrast, because they ignore risk, deterministic programs provide inadequate solutions. Static portfolio selection models, based on Markowitz's mean-variance model (1952), have been proposed in many cases; however, their implementations may result in significant transaction costs and mistimed liquidation of assets. Examples of application of stochastic programming in financial planning can be found in Ziemba and Vickson (1975) and Zenios (1992).
 
 
 Within finance, stochastic programming applications have greatly increased in recent years, particularly in asset-liability management (ALM). Multistage stochastic programs take into account the dynamic aspects of ALM problems faced by institutional investors. Based on assumptions about the (joint) dynamics of risk factors that are usually described by stochastic processes, representative scenarios for investment strategies are generated. Transactions take place at discrete points in time over a finite planning horizon. Moreover, several constraints (e.g., liability considerations, liquidity restrictions, limits on risk exposure) can be taken into account.
@@ -55,7 +76,7 @@ Other successful commercial applications include the Towers Perrin-Tillinghast A
 
 Among other areas in finance, capital budgeting and fixed income portfolio management have been researched extensively using stochastic programming methods. For the former, Lockett and Gear (1975), De et al. (1982), and Turney (1990) are the earliest applications. Bradley and Crane (1972) were the first to propose stochastic programming for bond portfolio management. Zenios and Kang (1993) developed a portfolio immunization strategy in a multi-period stochastic optimization framework. Granville et al. (1994) describe a dual method for an asset-only allocation problem. Many other applications in the fixed income literature exist, including Hiller and Eckstein (1993) and Golub et al. (1995).
 
-# STOCHASTIC PROGRAMMING VERSUS OTHER METHODS IN FINANCE
+## STOCHASTIC PROGRAMMING VERSUS OTHER METHODS IN FINANCE
 
 In this section, we compare stochastic programming with other methods applied to financial planning (especially to ALM). First, we highlight the dynamic aspects of stochastic programming and show its differences with static models. Afterward, we briefly discuss continuous-time models in finance and compare these models with stochastic programming—a discrete-time approach.
 
@@ -78,20 +99,17 @@ Although some of the SC recommendations are implementable, the model simplificat
 
 In most cases, stochastic programming models require the uncertainties be approximated by a scenario tree with a finite number of states of the world at each time. As Kouwenberg and Zenios (2006, p. 291) suggest: "... important practical issues such as transaction costs, multiple state variables, market incompleteness, taxes and trading limits, regulatory restrictions, and corporate policy requirements can be handled simultaneously within the framework." This huge practical advantage, unfortunately, comes at a significant cost: curse of dimensionality. As analytical solutions are not possible, stochastic programming models need to be solved via numerical optimization. The model size explodes as the size of the state space or the number of decision stages increases. In recent years, this drawback has been substantially overcome through the development of new algorithms and the advances in computing power. Still, one should be careful about incorporating too much detail into a stochastic programming model, not because of the computational disadvantages but mainly to avoid confusing the decision maker, since SP solutions are hard to generalize.
 
-It is, however, interesting to note that the continuous-time models have been the focus of research in the financial economics literature, whereas models in the operation research literature are mostly stated in discrete time. As Berger (1995) points out, there have been several successful applications of SC, such as the
+It is, however, interesting to note that the continuous-time models have been the focus of research in the financial economics literature, whereas models in the operation research literature are mostly stated in discrete time. As Berger (1995) points out, there have been several successful applications of SC, such as the Black-Scholes option pricing formula (Black and Scholes, 1973) and the continuous-time capital asset pricing model (Merton, 1973). See also Constantinides (1986), Dumas and Luciano (1991), and Shreve and Soner (1991) for SC applications with practical considerations such as transaction costs.
 
-Black-Scholes option pricing formula (Black and Scholes, 1973) and the continuous-time capital asset pricing model (Merton, 1973). See also Constantinides (1986), Dumas and Luciano (1991), and Shreve and Soner (1991) for SC applications with practical considerations such as transaction costs.
-
-# A GENERAL MULTISTAGE STOCHASTIC PROGRAMMING MODEL FOR FINANCIAL PLANNING
+## A GENERAL MULTISTAGE STOCHASTIC PROGRAMMING MODEL FOR FINANCIAL PLANNING
 
 To illustrate the use of stochastic programming, we provide in this section a multistage stochastic program to tackle a long-term investment problem. We formulate the deterministic equivalent of the stochastic program and we discuss the issue of modeling the uncertain parameters on scenario generation methods.
 
-# Model Formulation
+### Model Formulation
 
 Here, we define the multiperiod investment problem as a multistage stochastic program. The basic model is a variant of Mulvey et al. (1997), with special attention to transaction costs.
 
 To define the model, we divide the entire planning horizon  $T$  into two discrete time intervals  $\mathrm{T}_1$  and  $\mathrm{T}_2$ , where  $\mathrm{T}_1 = \{0, 1, \dots, \tau\}$  and  $\mathrm{T}_2 = \{\tau + 1, \dots, T\}$ . The former corresponds to periods in which investment decisions are made. Period  $\tau$  defines the end of the planning horizon. We focus on the investor's position at the beginning of period  $\tau$ . Decisions occur at the beginning of each time stage. Much flexibility exists. An active trader might see his time interval as short as minutes, whereas a pension plan adviser will be more concerned with much longer planning periods such as the dates between the annual board of directors' meetings. It is possible for the steps to vary over time—short intervals at the beginning of the planning period and longer intervals toward the end.  $\mathrm{T}_2$  handles the horizon at time  $\tau$  by calculating economic and other factors beyond period  $\tau$  up to period T. The investor renders passive decisions after the end of period  $\tau$ .
-
 
 Asset classes are defined by set  $\mathrm{A} = \{1,2,\dots ,\mathrm{I}\}$ , with category 1 representing cash. The remaining asset classes can include growth and value stocks, bonds, real estate, hedge funds, or private equity. The asset classes should track well-defined market segments. Ideally, the co-movements between pairs of asset class returns would be relatively low so that diversification can be done across the asset classes.
 
@@ -101,7 +119,7 @@ We assume that the portfolio is rebalanced at the beginning of each period. Alte
 
 For each  $i\in \mathrm{A},t\in \mathrm{T}_1,$  and  $s\in S$  , we define the following parameters and decision variables.
 
-# Parameters
+#### Parameters
 
 $r_{i,t}^{s}$ $= 1 + \rho_{i,t}^{s}$  , where  $\rho_{i,t}^{s}$  is the percent return for asset  $i$  , in time period  $t$  , under scenario s (projected by a stochastic scenario generator, for example, see Mulvey et al. [2000]).
 $\pi_s$  Probability that scenario  $s$  occurs,  $\sum_{s\in S}\pi_s = 1$
@@ -109,14 +127,14 @@ $w_{0}$  Wealth at the beginning of time period 0.
 $\sigma_{i,t}$  Transaction costs incurred in rebalancing asset  $i$  at the beginning of period  $t$  (symmetric transaction costs are assumed, that is, cost of selling equals cost of buying).
 $\beta_t^s$  Borrowing rate in period  $t$ , under scenario  $s$ .
 
-# Decision Variables
+#### Decision Variables
 
 $x_{i,t}^{s}$  Amount of money in asset class  $i$ , at the beginning of time period  $t$ , under scenario  $s$ , after rebalancing.
 $v_{i,t}^{s}$  Amount of money in asset class  $i$ , at the beginning of time period  $t$ , under scenario  $s$ , before rebalancing.
 $w_{t}^{s}$  Total wealth at the beginning of time period  $t$  under scenario s.
 $p_{i,t}^{s}$  Amount of asset  $i$  purchased for rebalancing in period  $t$ , under scenario  $s$ .
 $d_{i,t}^{s}$  Amount of asset  $i$  sold for rebalancing in period  $t$ , under scenario  $s$ .
-$b_{t}^{s}$  Amount of money borrowed at the beginning of period  $t$ , underscenario  $s$ .
+$b_{t}^{s}$  Amount of money borrowed at the beginning of period  $t$ , under scenario  $s$ .
 
 Given these definitions, we present the deterministic equivalent of the stochastic asset-only allocation problem.
 
@@ -145,7 +163,7 @@ $$
 $$
 
 $$
-\begin{array}{c} x_{i, t}^{s} = x_{i, t}^{s^{\prime}} \quad \forall s \text{an d} s^{\prime} \text{wi th id en ti ca lp as tu pt o} \\ \text{ti me} t, t = 1, \dots , \tau \end{array} \tag {7}
+\begin{array}{c} x_{i, t}^{s} = x_{i, t}^{s^{\prime}} \quad \forall s \text{and} s^{\prime} \text{with identical past up to time} \\ t, t = 1, \dots , \tau \end{array} \tag {7}
 $$
 
 A generalized network investment model is presented in Figure 1. This figure depicts the flows across time for each of the asset classes. While all constraints cannot be put into a network model, the graphical form is easy for asset managers to comprehend. General linear and nonlinear programs are now readily available for solving the resulting problem. However, a network may have computational advantages for extremely large problems, such as security level models.
@@ -156,7 +174,6 @@ As with single-period models, the nonlinear objective function (1) can take seve
 Figure 1 Network Representation for Each Scenario,  $s \in S$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/6019b071d61aa8c941abb2e8fd2b31c94fe12a938590acd025148fbde1be71cb.jpg)
-
 
 Let's review the six constraints:
 
@@ -181,17 +198,16 @@ L-shaped method (a specialization of Benders' algorithm). (See Birge and Louveau
 
 As shown by Consigli and Dempster (1998), Dantzig and Infanger (1993), Mulvey et al. (2000), Ziemba and Mulvey (1998), and Ziemba (2003), a multistage model can provide superior performance over single-period models.
 
-# Modeling Future Uncertainties (Scenario Generation)
+### Modeling Future Uncertainties (Scenario Generation)
 
 To model future uncertainty in our financial planning problem, we utilize a representative set of scenarios. In this section, we review the procedures for scenario generation and give details about the approach described.
 
 In most cases, stochastic programming models require that the future uncertainties are approximated by a scenario tree with a finite number of states of the world at each time. The planning horizon is divided into T time periods (generally years for pension planning).
 
-A sample scenario tree of three periods and nine scenarios is depicted in Figure 3. The root of the tree represents the current state of the world. A scenario is defined as a single branch from the root to any leaf of the tree (e.g., the boldfaced path corresponds to scenario 4). Thus, all of the parameter uncertainties are depicted along this branch. Each node represents a state of the world under a given scenario at a given time; for instance, the boldfaced node corresponds to the set of uncertainties at the end of period 2 under scenario 4. The stochastic program will determine an optimal decision for each node of the scenario tree, given the information available at that point. As there are multiple succeeding nodes, the optimal decisions will be determined without exploiting hindsight. A stochastic programming model will find the optimal policy that will fit the current state of the world and the decision maker in each node, while anticipating the op timal adjustment of the policy later on as the tree evolves and more information is revealed.
+A sample scenario tree of three periods and nine scenarios is depicted in Figure 3. The root of the tree represents the current state of the world. A scenario is defined as a single branch from the root to any leaf of the tree (e.g., the boldfaced path corresponds to scenario 4). Thus, all of the parameter uncertainties are depicted along this branch. Each node represents a state of the world under a given scenario at a given time; for instance, the boldfaced node corresponds to the set of uncertainties at the end of period 2 under scenario 4. The stochastic program will determine an optimal decision for each node of the scenario tree, given the information available at that point. As there are multiple succeeding nodes, the optimal decisions will be determined without exploiting hindsight. A stochastic programming model will find the optimal policy that will fit the current state of the world and the decision maker in each node, while anticipating the optimal adjustment of the policy later on as the tree evolves and more information is revealed.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/16691c981b53c57a4ebc3b5270cc72c9b35e1fc013ed459076448a635fe31d43.jpg)
 Figure 3 A Three-Period Scenario Tree
-
 
 Generating scenario trees to represent the evolution of future uncertainty is a two-step process. Figure 4 depicts a diagram of the process.
 
@@ -202,17 +218,16 @@ The simplest approach, bootstrapping historical data, eliminates the need for a 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/b1dadc2181a117ced42a09374ee23ceb2e09d7782c7410239d90de82902f645c.jpg)
 Figure 4 From Historical Data to Scenario Trees
 
-
 The next step involves the discretization of the scenarios generated by the stochastic forecasting model in the first step. To avoid any computational disadvantages, this has to be done using a small number of nodes, which in turn will lead to approximation errors. There are several methods to achieve this depending on the models employed in the first step (see Hoyland and Wallace, 2001; Kouwenberg and Zenios, 2006; Grebeck, Rachev, and Fabozzi, 2009; and Ziemba, 2003). We first create discretized sample paths by moment-matching, using the cascaded SDE structure in the first step. Then, we convert these sample paths to a scenario tree by clustering (see Dupacova et al., 2002). We begin by grouping similar first stage values of the sample paths into clusters, and then continue sequentially through each stage.
 
 For an ALM system, one needs to generate scenarios for the liability side as well as the asset side. Obviously, both components are driven by economic factors. Liabilities are affected by actuarial predictions as well. When modeling the asset returns, one may need to use sentiment or expert judgment to improve the range of scenarios.
 
-The future value of the liabilities can be especially tricky to project for institutions, such as pension plans, where the liabilities consist of several contracts and therefore the valuation is affected by various sources of uncertainty. For a typical pension plan, one can simulate the future status of the participants by making assumptions about the retirement rates, resigna tion frequency, promotion/demotion probabilities, and the mortality rate. Once this is done, the interest rates are forecasted and used to calculate the present value of the liabilities.
+The future value of the liabilities can be especially tricky to project for institutions, such as pension plans, where the liabilities consist of several contracts and therefore the valuation is affected by various sources of uncertainty. For a typical pension plan, one can simulate the future status of the participants by making assumptions about the retirement rates, resignation frequency, promotion/demotion probabilities, and the mortality rate. Once this is done, the interest rates are forecasted and used to calculate the present value of the liabilities.
 
 
 When modeling the asset returns, the economic factors that drive the primary asset-class returns are projected as a first step, which would then be followed by the projection of returns for these primary assets. More complex assets would be the last to be modeled in this setup. Alternatively, one can model all uncertain variables at once through one big set of multivariate time-series models.
 
-# KEY POINTS
+## KEY POINTS
 
 - Stochastic programming is an operations research method for optimal decision making under uncertainty and bears suitable characteristics for modeling and solving financial planning applications, such as asset-liability management, capital budgeting, and fixed income portfolio management.
 - The main features of a stochastic program are: random parameters with known (or partially known) distributions; several decision variables with many potential values; multiple discrete time periods for decisions; use of expectations (or other functions of decision variables) for objectives.
@@ -220,7 +235,7 @@ When modeling the asset returns, the economic factors that drive the primary ass
 - Stochastic programming models generally require that the future uncertainties are approximated by a scenario tree with a finite number of states of the world at each time.
 - Multiperiod stochastic programs with a large number of parameters and scenarios result in large-scale deterministic-equivalent programs. Specialized software packages combined with algebraic modeling languages are utilized to efficiently tackle these problems.
 
-# REFERENCES
+## REFERENCES
 
 Beale, E. M. L. (1955). On minimizing a convex function subject to linear inequalities. Journal of Royal Statistical Society, Series B 17: 173-184.
 Beltratti, A., Consiglio, A., and Zenios, S. A. (1999). Scenario modeling for the management of international bond portfolios. Annals of Operations Research 85: 227-247.

@@ -1,38 +1,34 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: '31'
-linter-yaml-title-alias: '31'
+title: "Commercial Real Estate Markets"
+parent_directory: Foundations of Global Financial Markets
+formatted: 2025-12-21 07:05:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: open-code
 primary_tags:
-- refinancing balloon payment
-- property indexes public commercial
-- mortgage backed securities ed
-- reasons investing commercial
-- commercial mortgages held funds
-secondary_tags:
 - commercial real estate markets
+- private commercial real estate equity
+- public commercial real estate equity
+- private commercial real estate debt
+- public commercial real estate debt
+secondary_tags:
 - commercial property types multifamily
-- reit market cmbss
-- types included major reit
-- yield maintenance charge called
-- sectors real estate
-- real estate equity structured
-- nontraded reits private commercial
+- commercial real estate categories
+- securitization real estate investments
+- real estate investment categories
+- commercial property indexes
+- reit market structure
+- real estate operating companies
+- nontraded reits issues
 - cmbs commercial mortgage
-- charge treasury flat yield
-- market listed property companies
-- invest public equity commercial
-tags_extracted: '2025-12-18T00:26:27.835049'
+- commercial mortgage backed securities
+- investors commercial real estate
+- real estate market investors
+cssclasses: academia
 ---
 
-# 31
+# Commercial Real Estate Markets
 
-Commercial Real Estate Markets
-
-# CONTENTS
+## CONTENTS
 
 Learning Objectives
 
@@ -95,9 +91,9 @@ After reading this chapter, you will understand:
 - what a commercial mortgage-backed security (CMBS) is; the structural features of a CMBS deal: and
 the investors in the commercial real estate market.
 
-The real estate market includes residential properties and commercial properties. Residential real estate includes oneto four-family properties and is the subject of chapter 30. Commercial real estate is income-producing properties. The major commercial property types are multifamily housing, apartment buildings, office buildings, industrial properties (including warehouses), shopping centers, hotels, health care facilities (e.g., senior housing care facilities), and timberlands. In this chapter, we discuss the commercial real estate market.
+The real estate market includes residential properties and commercial properties. Residential real estate includes one- to four-family properties and is the subject of chapter 30. Commercial real estate is income-producing properties. The major commercial property types are multifamily housing, apartment buildings, office buildings, industrial properties (including warehouses), shopping centers, hotels, health care facilities (e.g., senior housing care facilities), and timberlands. In this chapter, we discuss the commercial real estate market.
 
-# Categories of the Commercial Real Estate Market
+## Categories of the Commercial Real Estate Market
 
 Prior to the introduction of the securitization of real estate-related equity and debt, real estate was defined to include only investments in private commercial real estate equity and private commercial real estate debt. Insurance companies traditionally constructed portfolios composed of individual private real estate mortgages. Pension funds and wealthy families held direct investments in individual buildings and in commingled funds. Given the absence of a secondary market for real estate debt and equity, investors followed a buy-to-hold strategy.
 
@@ -112,7 +108,7 @@ Regardless of what category a commercial real estate investment falls into, its 
 
 Investors are often explicitly or implicitly invested in all four categories, and therefore are exposed to real estate behaviors in each category. Consequently, when examining the reasons for commercial real estate investing, we should consider the categories rather than accepting the traditional reasons for the role of commercial real estate. These traditional reasons were historically based only on the private equity and ignore not only the other three categories available to investors but also the factors that affect returns.
 
-# Primary Reasons Offered for Investing in Commercial Real Estate
+## Primary Reasons Offered for Investing in Commercial Real Estate
 
 The five primary reasons that have been offered for considering commercial real estate as part of a portfolio are to:
 
@@ -166,7 +162,7 @@ The difficulties with the collective investment vehicles that can be used by ind
 
 Two more ways for individual investors to participate in the private commercial real estate market are via private REITs and crowdfunding real estate projects. In the United States, the shares of private REITs are not traded on an exchange; nor are they registered with the SEC. Instead, they are issued under one or more of several exemptions to the securities laws. More specifically, private REITs are issued under two rules set forth under Regulation D. The first rule allows an issuer to sell securities to "accredited investors," and the second (Rule 144A) exempts securities issued to qualified institutional buyers. With respect to crowdfunding (discussed in chapter 28), using one of various online crowdfunding platforms, individual investors can search for potential real estate investments. The funds from individual investors are then pooled to finance that real estate project. Effectively, individuals participating in a real estate project are limited partners. In 2014, it is estimated that 1 billion was raised via real estate crowdfunding.[8]
 
-# Commercial Property Indexes
+## Commercial Property Indexes
 
 With the increased interest in commercial real estate as an institutional asset class came the development of commercial property indexes. Most countries have property indexes. There are numerous commercial property indexes, but we discuss only a few of the major ones here.
 
@@ -176,7 +172,7 @@ The Investment Property Databank (IPD) provides information about commercial rea
 
 The NPI and IPD indexes are calculated based on appraised values, but the Moody's/Real Capital Analytics Commercial Property Price Indices are based on real estate transactions that measure property prices at a national level for U.S. apartment, retail, office, and industrial properties. There are indexes for the main properties types and for select metropolitan statistical areas.
 
-# Public Commercial Real Estate Equity
+## Public Commercial Real Estate Equity
 
 Public commercial real estate equity is structured as REITs or as real estate operating companies (REOCs). REITs can invest in both equity and debt, the former being a form of public real estate equity. We describe REITs in more detail in chapter 32, which covers collective investment vehicles.
 
@@ -188,9 +184,7 @@ Many developed and developing countries have legislation allowing for the creati
 
 - United Kingdom. Prior to 2006, in the United Kingdom the vehicle by which investors obtained exposure to commercial real estate market was via listed property companies. The Finance Act of 2006 (effective January 2007) allowed for the creation of REITs in the United Kingdom, requiring that they be set up as investment trusts listed on a stock exchange approved by the U.K. Financial Services Authority. As in the United States, U.K. REITs are required to distribute  $90\%$  of their income to investors. Because there were tax advantages to investors available from REITs that were not available from listed property companies, nine major listed property companies that were members of the major U.K. equity market index, the FTSE 100, converted to REITs. To provide investors with greater transparency and information about U.K. REITs, "Reita" was created by the Quoted Property Group, set up by several commercial property and financial services companies.
 - Germany. Germany is the largest European real estate market, split almost evenly between commercial and residential properties. Given the large size of the real estate market, the development of an investment vehicle, such as a REIT, was critical. In 2007, the law allowing REITs was approved by the Ministry of Finance, with the first REIT being the altria Office REIT-AG in April 2007. German REITs also have the  $90\%$  distribution rule and the requirement of the stock being traded on an exchange.
-- Japan. Legislation allowing for the creation of REITs was passed in 2001. Japanese REITs are traded on the Tokyo Stock Exchange. Japan's first two REITs, both listed in 2001, were the Nippon Nippon
-
-Building Fund Inc. and the Japan Real Estate Investment Corporation. The Japanese REIT market was initially dominated by office properties. In recent years, REITs have diversified and include a wider range of properties from the major sectors.
+- Japan. Legislation allowing for the creation of REITs was passed in 2001. Japanese REITs are traded on the Tokyo Stock Exchange. Japan's first two REITs, both listed in 2001, were the Nippon Building Fund Inc. and the Japan Real Estate Investment Corporation. The Japanese REIT market was initially dominated by office properties. In recent years, REITs have diversified and include a wider range of properties from the major sectors.
 
 - Singapore. Regulated as a collective investment vehicle under the Monetary Authority of Singapore's Code on Collective Investment or as a business trusts, the REIT was set up in July 2002. REITs in Singapore can invest in a wide range of property sectors in China, Hong Kong, Japan, Indonesia, and Hong Kong. Distribution of at least  $90\%$  of its annual income is required. The appealing tax benefit of REITs in Singapore is not being taxed twice: income is taxed only at the investor level and not at the REITs level.
 - Brazil. Referred to in Brazil as Fundos de Investimento Imobiliário, REITs in Brazil were first introduced via legislation in 1993. In 2006, the dividends paid by these REITs have been free of taxes for individual investors (not companies), provided the fund has at least 50 investors and is publicly traded on a stock market.
@@ -203,9 +197,9 @@ A family of indexes produced jointly by the European Public Real Estate Associat
 
 Another way for investors to invest in public equity commercial real estate is via exchange-traded funds (ETFs), a collective investment vehicle described in chapter 32. Three examples are the Vanguard REIT Index ETF, iShares Dow Jones U.S. Real Estate, and Schwab U.S. REIT ETF. The Vanguard REIT Index ETF which tracks the MSCI US REIT index, invests in equity REITs with a bias towards large ETFs. As of April 30, 2016, this ETF had a position in 150 REITs, with a quarter of the portfolio's holdings being in the retail REIT sector. As the name indicates, iShares Dow Jones U.S. Real Estate has as its benchmark the Dow Jones U.S. Real Estate Index, whereas the Schwab U.S. REIT ETF tracks the Dow Jones U.S. Select REIT Index.
 
-# Public Nontraded REITs
+## Public Nontraded REITs
 
-The most popular type of REIT is publicly traded on an exchange and falls into the quadrant of public commercial real estate equity. However, there are public nontraded REITs structured in the same way as traditional REITs (and subject to the same investment and payout constraints) but not traded on a public exchange, with the investment generally tied up for 7 to 10 years until a liquidity event (e.g., sale or listing) allows return of any proceeds to investors. Nontraded REITs, typically marketed to "mom and pop" investors, are part of the private commercial real estate equity available to individuals. According to the Investment Program Association, from 2000 to 2014, nontraded REITs raised  \$124 billion of capital, including\$ 21.1 billion in 2014 alone. The sponsors of nontraded REITs have been criticized for the high fees and sometimes misleading statements by brokers who aggressively sell this investment vehicle. The U.S. SEC identifies the following issues associated with investing in nontraded REITs:
+The most popular type of REIT is publicly traded on an exchange and falls into the quadrant of public commercial real estate equity. However, there are public nontraded REITs structured in the same way as traditional REITs (and subject to the same investment and payout constraints) but not traded on a public exchange, with the investment generally tied up for 7 to 10 years until a liquidity event (e.g., sale or listing) allows return of any proceeds to investors. Nontraded REITs, typically marketed to "mom and pop" investors, are part of the private commercial real estate equity available to individuals. According to the Investment Program Association, from 2000 to 2014, nontraded REITs raised \$124 billion of capital, including \$21.1 billion in 2014 alone. The sponsors of nontraded REITs have been criticized for the high fees and sometimes misleading statements by brokers who aggressively sell this investment vehicle. The U.S. SEC identifies the following issues associated with investing in nontraded REITs:
 
 - Lack of liquidity. Nontraded REITs are illiquid investments, which mean that they cannot be sold readily in the market. Instead, investors generally must wait until the non-traded REIT lists its shares on an exchange or liquidates its assets to achieve liquidity. These liquidity events, however, might not occur until more than 10 years after your investment.
 - Nontraded REITs usually offer investors' opportunities to redeem their shares early but these share redemption programs are typically subject to significant limitations and may be discontinued at the discretion of the REIT without notice. Redemption programs also may require that shares be redeemed at a discount, meaning investors lose part of their investment if they redeem their shares.
@@ -217,7 +211,7 @@ Private commercial real estate debt is held as directly issued commercial mortga
 
 A commercial mortgage loan exposes the lender to credit risk. For commercial mortgage loans, the lender relies on the ability of the borrower to repay and has no recourse from the borrower if the payment terms are not satisfied. That is, commercial mortgage loans are nonrecourse loans. As a result, the lender can look only to the income-producing property backing the loan for interest and principal repayment. Because of the credit risk, lenders rely on various measures to assess the credit risk. The two most commonly used measures of potential credit risk are the debt-to-service coverage ratio and the loan-to-value ratio.
 
-The debt-to-service coverage ratio (DSCR) measures the ability of the property to generate income to service the loan's obligations relative to the amount of the debt service required. More specifically, this ratio is equal to a property's net operating income (NOI) divided by the debt service. The NOI is equal to the projected rental income reduced by cash operating expenses (adjusted for a replacement reserve). A DCSR that exceeds 1 means that the NOI is sufficient to cover the debt servicing required by the loan. The higher the DSCR, the more likely it is that the borrower will be able to meet debt servicing from the property's cash flow.
+The debt-to-service coverage ratio (DSCR) measures the ability of the property to generate income to service the loan's obligations relative to the amount of the debt service required. More specifically, this ratio is equal to a property's net operating income (NOI) divided by the debt service. The NOI is equal to the projected rental income reduced by cash operating expenses (adjusted for a replacement reserve). A DSCR that exceeds 1 means that the NOI is sufficient to cover the debt servicing required by the loan. The higher the DSCR, the more likely it is that the borrower will be able to meet debt servicing from the property's cash flow.
 
 As with residential mortgage loans described in chapter 29, the loan-to-value ratio (LTV ratio) is a measure of the amount of the loan to the value of the property being financed by the loan. For residential mortgage loans, "value" is either market value or appraised value. For commercial properties, the value of the property is based on the fundamental principles of valuation that we have mentioned throughout this book. The value of an asset is the present value of its expected cash flow. Valuation requires projecting an asset's cash flow and discounting at an appropriate interest rate. For valuing commercial property, the cash flow is the future NOI. A discount rate (a single rate), referred to as the "capitalization rate" and reflecting the risks associated with the cash flow, is then used to compute the present value of the future NOI. Consequently, considerable variation in the estimates of NOI and the appropriate capitalization rate can occur when estimating a property's market value. Thus, investors are often skeptical about estimates of market value and the resulting LTV ratios reported for properties.
 
@@ -249,7 +243,9 @@ CMBSs are backed by either newly originated or seasoned commercial mortgage loan
 
 In Europe, one of the consequences of the global financial crisis has been the simplification of the transactions by only including a single large commercial loan rather than multiple commercial loans of varying size. An example of a single large loan backing a CMBS is the £263 million issued in July 2013 backed by the retail stores of Toys R Us, a privately owned retailer. (This company declared bankruptcy in September 2017.) The problem in Europe is that a single large loan CMBS is not sustainable, given that there may not be enough issuers of sufficient size to back a CMBS.
 
-CMBS structure We explained in chapter 30 how private-label RMBS transactions are structured to redistribute credit risk. The structure of a CMBS deal is much the same. Different bond classes or tranches are created, and waterfall rules are in place for the distribution of interest, principal, and losses. The structure of a CMBS transaction is the same as for a private-label RMBS in that most structures have multiple bond classes (branches) with different ratings, and rules exist for the distribution of interest and principal to the bond classes. However, three major differences arise from the features of the underlying loans.[10]
+# CMBS Structure
+
+We explained in chapter 30 how private-label RMBS transactions are structured to redistribute credit risk. The structure of a CMBS deal is much the same. Different bond classes or tranches are created, and waterfall rules are in place for the distribution of interest, principal, and losses. The structure of a CMBS transaction is the same as for a private-label RMBS in that most structures have multiple bond classes (branches) with different ratings, and rules exist for the distribution of interest and principal to the bond classes. However, three major differences arise from the features of the underlying loans.[10]
 
 First, as explained earlier when discussing private commercial real estate debt, prepayment terms for commercial mortgages differ significantly from those for residential mortgages. The former imposes prepayment penalties or restrictions on prepayments. Although some residential mortgages have prepayment penalties, they make up a small fraction of the market. When structuring a CMBS, there are rules for the allocation of any prepayment penalties among the bondholders. In addition, if defeasance occurs, the credit risk of a CMBS virtually disappears, because it is then backed by U.S. Treasury securities.
 
@@ -257,7 +253,9 @@ The second difference in structuring stems from the significant difference betwe
 
 The third difference in structuring between CMBSs and RMBSs has to do with the role of the buyers when the structure is being created. Specifically, for a CMBS, typically potential buyers of the junior bond classes are first sought by the issuer before the deal is structured. The potential buyers review the proposed pool of mortgage loans and in the review process, depending on market demand for CMBS products, may request the removal of some loans from the pool. This phase in the structuring process, which one does not find in RMBS transactions, provides an additional layer of security for the senior buyers, particularly because some of the buyers of the junior classes have tended to be knowledgeable real estate investors.
 
-Illustration of a CMBS deal In chapter 30, we discussed how an agency CMO and a private-label CMO are created. The structure of a CMBS deal is much the same. There are different bond classes or tranches, and there are rules for the distribution of interest, principal, and losses.
+## Illustration of a CMBS Deal
+
+In chapter 30, we discussed how an agency CMO and a private-label CMO are created. The structure of a CMBS deal is much the same. There are different bond classes or tranches, and there are rules for the distribution of interest, principal, and losses.
 
 Table 31.1 shows the bond classes of a CMBS deal, Banc of America Commercial Mortgage Trust 2006-1. Only the bond classes offered to the public are identified. The credit rating for each bond class is shown. For the bond classes offered, the senior certificates in this CMBS deal are Class A-1, Class A-2, Class A-3A, Class A-3B, Class A-4, Class A-1A, and Class XP Certificates. The junior certificates are Class A-M, Class A-J, Class B, Class C, and Class D. The subordination (credit support), priority of payment, and order of loss allocation as set forth in the prospectus supplement are reproduced in figure 31.1.
 
@@ -279,7 +277,9 @@ The Class XP certificates will accrue interest on their related notional amount 
 
 Figure 31.1 Subordination (credit support), priority of payment, and order of loss allocation for Banc of America Commercial Mortgage Trust 2006-1.
 
-How CMBSs trade in the market One might think that because CMBSs and RMBSs are backed by mortgage loans, they would trade in a similar manner in the marketplace. That is not the case. The primary reason has to do with the greater prepayment protection given to investors in CMBSs compared to RMBSs. We described that protection at the loan level. At the structure level (i.e., when the commercial mortgage loans are pooled to create a CMBS), certain bond classes can be created that give even greater prepayment protection. We described how this is done for certain RMBS tranches in collateralized mortgage obligations. As a result, CMBSs trade much like corporate bonds than RMBS.
+## How CMBSs Trade in the Market
+
+One might think that because CMBSs and RMBSs are backed by mortgage loans, they would trade in a similar manner in the marketplace. That is not the case. The primary reason has to do with the greater prepayment protection given to investors in CMBSs compared to RMBSs. We described that protection at the loan level. At the structure level (i.e., when the commercial mortgage loans are pooled to create a CMBS), certain bond classes can be created that give even greater prepayment protection. We described how this is done for certain RMBS tranches in collateralized mortgage obligations. As a result, CMBSs trade much like corporate bonds than RMBS.
 
 # Investors in the Commercial Real Estate Market
 
@@ -291,7 +291,7 @@ Commercial real estate falls into the alternative asset class, along with hedge 
 
 It has been argued that the pattern of institutional investor commitments to the commercial real estate market is different from that in past cycles.[11] The reasons for the change in the expected pattern of institutional investors' commitment to the global commercial real estate market are due to how investors have behaved and how the underlying fundamentals have behaved. The changes from past cycles in the real estate market reflect new trends that are likely to continue and accelerate in the future.
 
-In the years that followed the global financial crisis, the commercial real estate market has attracted significant inflows of capital from two major sources. Motivated by low interest rates available in global market, pension funds, foundations, and endowments, the first source was traditional institutional investors in real estate, who in their search for yield, have increased their allocation to real estate. The second major source is the entrance into the real estate market of nontraditional institutional investors. Some of these new institutional investors have already become important participants in the market, exerting a significant impact on commercial property values and real estate returns. Although other nontraditional institutional investors are now participating in the real estate market, they are still in the early stages of participation. Yet these new market participants may potentially have a major impact on the market.
+In the years that followed the global financial crisis, the commercial real estate market has attracted significant inflows of capital from two major sources. Motivated by low interest rates available in global markets, pension funds, foundations, and endowments, the first source was traditional institutional investors in real estate, who in their search for yield, have increased their allocation to real estate. The second major source is the entrance into the real estate market of nontraditional institutional investors. Some of these new institutional investors have already become important participants in the market, exerting a significant impact on commercial property values and real estate returns. Although other nontraditional institutional investors are now participating in the real estate market, they are still in the early stages of participation. Yet these new market participants may potentially have a major impact on the market.
 
 A particularly important investor that is relatively new to real estate is that of sovereign wealth funds (SWFs). SWFs represent a large and rapidly growing capital pool. According to data from Preqin (a company providing alternative asset data),[12] as well one study by the International Monetary Fund,[13] overall assets under management have increased from  \$3.07 trillion at the end of 2008 to\$ 6.31 trillion in May 2015. According to Preqin, 59\% of SWFs invest in the real estate market. However, for the larger SWFs, the percentage is much higher, with 100\% of SWFs larger than 100 billion investing in real estate. SWFs have been investors in real estate markets globally, and they have made their presence felt in a major way. The attraction of the real estate market for SWFs is that they typically have long-term wealth preservation as an investment objective and have few near-term liabilities. As a result, certain types of real estate are a good match for their investment objectives. Because of both the large capital pool and the long investment horizons of SWFs, it is felt that their participation in the market will greatly impact the real estate market.
 
@@ -322,64 +322,4 @@ Our discussion thus far has been on the impact on the real estate market of the 
 - Despite the 2008–2009 global financial crisis, allocation of institutional investor portfolios to the commercial real estate market has increased, with new entrants, such as sovereign wealth funds, entering the market.
 - Commercial real estate is the largest type of alternative asset in which institutional investors allocate funds.
 
-# Questions
 
-1. What is the rationale for categorizing the commercial real estate market into four categories?
-2. The following quote is taken from a September 2011 report by Morningstar regarding the performance of commercial real estate through publicly traded equity REITs and private equity real estate funds:
-
-The actual performance records now available reveal that publicly traded equity REITs provide a significant investment return premium compared with private equity real estate funds, as well as other public market attributes of liquidity, transparency, monitoring and access to public debt and equity financing.[15]
-
-Explain what is meant by "as well as other public attributes."
-
-3. The following statement is taken from a June 2012 Merrill Lynch publication:
-
-Real estate has historically displayed low or negative correlations to other major asset classes, providing investors with valuable diversification benefits that can work to improve an investor's efficient frontier.[16]
-
-Explain this quote.
-
-4. The following statement is from an online article by Rick Ferri:
-
-REITs have a positive real expected return due to a combination of rental income and income growth. Landlords pass inflation increases to tenants based on a general level of price increases and this gives real estate owners a built-in inflation hedge. The value of real estate eventually reflects higher rents through higher prices.[17]
-
-Explain whether you agree or disagree with this statement.
-
-5. Explain how retail investors can obtain exposure to the commercial real estate equity market.
-6. How does a real estate operating company differ from a REIT?
-7. What is a commercial mortgage loan?
-8. How is the net operating income of a commercial property determined?
-9. Why might an investor be skeptical about the LTV ratio for a commercial mortgage loan?
-10. What types of prepayment protection provisions result in a prepayment premium being paid if a borrower prepays?
-11. Why is balloon risk referred to as "extension risk"?
-12. What are the major differences in structuring CMBS and RMBS transactions?
-13. How does the typical CMBS in the United States differ from that in Europe?
-14. Why do CMBSs trade in the market more like corporate bonds than RMBSs?
-15. The following quote is from Jim Clayton et al.:
-
-Although the continued and increased commitment to real estate of the traditional institutional investor base has contributed to capital flows, helping propel property values, perhaps even more important for the future of the asset class has been the rising importance over the last several years of the second major source of capital inflows: capital sources that have not traditionally been involved in real estate.[18] a. What institutional investors comprise the traditional investors in the commercial real estate market?
-
-b. What is the second source of commercial real estate investors?
-
-16. Why does the pattern of institutional investor commitments to the commercial real estate market differ now from that in past real estate cycles?
-17. Some observers believe it may be individual (retail) investors who in the future may create the largest changes in the commercial property market. Why?
-18. These four categories were suggested by Jacques Gordon, "The Real Estate Capital Markets Matrix: A Paradigm Approach," Real Estate Finance 11, no. 3 (1994): 7-15; Susan Hudson-Wilson, Susan Guenther, and Daniel P. Guenther, "The Four Quadrants: Diversification Benefits for Investors in Real Estate—A Second Look," Real Estate Finance 12, no. 2 (1995): 82-99.
-19. These are arguments are given in Susan Hudson-Wilson, Frank J. Fabozzi, and Jacques N. Gordon, "Why Real Estate?" Journal of Portfolio Management 29, no. 5 (Special Issue, 2003): 12-25.
-20. Hudson-Wilson, Fabozzi, and Gordon, "Why Real Estate?"; Susan Hudson-Wilson, Jacques N. Gordon, Frank J. Fabozzi, Mark J. P. Anson, and S. Michael Giliberto, "Why Real Estate? And How? Where? And When?" Journal of Portfolio Management 31, no. 5 (Special Issue, 2005): 12-31.
-21. Hudson-Wilson, Fabozzi, and Gordon, "Why Real Estate?"; Hudson-Wilson et al., "Why Real Estate? And How? Where? And When?"
-22. Hudson-Wilson et al., "Why Real Estate? And How? Where? And When?"
-23. Hudson-Wilson et al., "Why Real Estate? And How? Where? And When?"
-24. Hudson-Wilson et al., "Why Real Estate? And How? Where? And When?"
-25. Vanessa Grout, "With  \$1 Billion Invested and\$ 100 Entry Points, Real Estate Crowdfunding Grows Up." Forbes.com, March 24, 2015, available at http://www.forbes.com/sites/vanessagROUT.
-26. SEC, "Investor Bulletin: Non-traded REITs," August 31, 2015, available at http://www.sec.gov/oiea/investor-alerts-bulletins/ib_nontradedreits.html.
-27. David P. Jacob, James M. Manzi, and Frank J. Fabozzi, "The Impact of Structuring on CMBS Bond Class Performance," in The Handbook of Mortgage-Backed Securities, ed. Frank J. Fabozzi, 6th edition (New York: McGraw-Hill, 2006), chapter 6.
-28. See Jim Clayton, Frank J. Fabozzi, S. Michael Gliberto, Jacques N. Gordon, Youguo Liang, Greg MacKinnon, and Asieh Mansour, "New Horizons and Familiar Landscapes: New Capital Sources Confront Shifting Real Estate Fundamentals," Journal of Portfolio Management 41, no. 5 (Special Real Estate Issue, 2015): 11-20.
-29. Preqin, "2015 Preqin Global Real Estate Report," 2015.
-30. A. Al-Hassan, M. Papaioannon, M. Skanke, and C. C. Sung, "Sovereign Wealth Funds: Aspects of Governance Structures and Investment Management," IMF Working Paper 13-231 (Washington, DC: International Monetary Fund, 2013).
-31. The first study empirically supporting this view for the office sector is Patrick McAllister and Anupam Nanda, "Does Foreign Investment Affect U.S. Office Real Estate Prices?" Journal of Portfolio Management 41, no. 5 (Special Real Estate Issue, 2015): 38-47.
-32. "Commercial Real Estate Investment: REITs and Private Equity Real Estate Funds," Morningstar, September 2011.
-33. James D. Bowden and Michael R. Smith, "Commercial Real Estate," Merrill Lynch, June 2012.
-34. Rick Ferri, "REITS and Your Portfolio," Forbes, January 7, 2014. https://www.forbes.com/sites/rickferri/2014/01/07/reits-and-your-portfolio/#1cc300a771ac.
-35. Jim Clayton, Frank J. Fabozzi, S. Michael Giliberto, Jacques N. Gordon, Youguo Liang, Greg MacKinnon, and Asieh Mansour, "New Horizons and Familiar Landscapes: New Capital Sources Confront Shifting Real Estate Fundamentals," Journal of Portfolio Management 41, no. 6 (Special Real Estate Issue, 2015): 12.
-
-# VIII
-
-COLLECTIVE INVESTMENT VEHICLES AND FINANCIAL DERIVATIVES MARKETS

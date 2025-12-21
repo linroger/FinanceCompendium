@@ -1,38 +1,22 @@
 ---
-aliases:
-- Exchange Rates I - The Monetary Approach in the Long Run
-tags: null
-key_concepts: null
-parent_directory: Part 6 - Exchange Rates
-cssclasses: academia
 title: Chapter 14 - Exchange Rates I - The Monetary Approach in the Long Run
-linter-yaml-title-alias: Chapter 14 - Exchange Rates I - The Monetary Approach in
-  the Long Run
+parent_directory: II. Economics/International/International Economics/Part 6 - Exchange Rates
+formatted: 2025-12-21 07:10:00 AM
+formatter_model: claude-sonnet-4-5-thinking
+cli-tool: claude-code
 primary_tags:
-- exchange rates adjust purchasing
-- according long run monetary
-- exchange rates monetary approach
-- serbia inflation 1992
-- conclusions example canadian prices
-- 1946 prices doubling average
-secondary_tags:
-- money includes currency circulation
-- definition money
-- austria hyperinflation 1921 1922
 - monetary approach exchange rates
-- measure liquid money compared
-- certain price foreign money
-- vary headlines hyperinflation century
-- money unit
-- definition money called base
-- inflation united states europe
-- money need equilibrium money
-- money transactions purposes
-- money rates prices long
-- currency remains comparable baskets
-- dollars rose true canadian
-- purchasing power parity hyperinflations
-tags_extracted: '2025-12-18T00:40:50.419162'
+- purchasing power parity
+- money market equilibrium
+- inflation exchange rates
+- long run exchange rates
+secondary_tags:
+- law one price
+- absolute relative ppp
+- quantity theory money
+- money supply demand
+- big mac index
+cssclasses: academia
 ---
 
 # Exchange Rates I: the Monetary Approach in the Long Run
@@ -83,12 +67,10 @@ Why will the prices be the same? Under competitive conditions and frictionless t
 We can mathematically state the law of one price as follows, for the case of any good  $ g $ sold in two locations, say, Europe (EUR, meaning the Eurozone) and the United States (US). The relative price (denoted $ q_{\text{US/EUR}}^g $ ) is the ratio of the good's price in Europe relative to the good's price in the United States where both prices are expressed in a common currency.
 
 Using subscripts to indicate locations and currencies, the relative price can be written
-$ $
-
-\underline {{q_{U S / E U R}^{\mathrm{g}}}} = \underbrace {(E_{\S / \epsilon} P_{E U R}^{\mathrm{g}})} / \underbrace {P_{U S}^{\mathrm{g}}}
-
-$ $
-Relative price of good  $ g $  in Europe versus U.S.
+$$
+\underline{q_{US/EUR}^{g}} = \underbrace{(E_{\$/\epsilon} P_{EUR}^{g})} / \underbrace{P_{US}^{g}}
+$$
+Relative price of good $g$ in Europe versus U.S.
 
 European price of good g in $ U.S. price of good g in $
 
@@ -186,11 +168,9 @@ $ $
 where the terms in brackets are the inflation rates in each location, denoted  $ \pi_{US} $ and $ \pi_{EUR} $ , respectively.
 
 If Equation (14-1) holds for levels of exchange rates and prices, then it must also hold for rates of change in these variables. By combining the last two expressions, we obtain
-$ $
-
-\text{Re la ti ve PP P :} \quad \underbrace {\frac{\Delta E_{\S / \epsilon , t}}{E_{\S / \epsilon , t}}} = \underbrace {\pi_{U S , t} - \pi_{E U R , t}}_{\text{In fl at io nd if fe re nt ia l}} \tag {14-2}
-
-$ $
+$$
+\text{Relative PPP:} \quad \underbrace{\frac{\Delta E_{\$/\epsilon,t}}{E_{\$/\epsilon,t}}} = \underbrace{\pi_{US,t} - \pi_{EUR,t}}_{\text{Inflation differential}} \tag{14-2}
+$$
 Rate of depreciation of the nominal exchange rate
 
 This way of expressing PPP is called relative PPP, and it implies that the rate of depreciation of the nominal exchange rate equals the difference between the inflation rates of two countries (the inflation differential).

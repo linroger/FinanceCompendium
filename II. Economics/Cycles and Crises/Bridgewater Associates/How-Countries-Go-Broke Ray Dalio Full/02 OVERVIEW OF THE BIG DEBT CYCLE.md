@@ -1,15 +1,34 @@
 ---
-title: Overview of the Big Debt Cycle
+title: "Overview of the Big Debt Cycle"
+parent_directory: "Cycles and Crises"
+formatted: "2025-12-21 08:15:30 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
   - big debt cycle
   - debt dynamics
   - economic cycles
-secondary_tags:
-  - credit cycles
   - debt crisis
-  - monetary system
+  - credit cycles
+  - financial cycles
+  - macroeconomic cycles
+  - debt sustainability
+secondary_tags:
+  - monetary policy
+  - fiscal policy
+  - interest rates
+  - inflation dynamics
+  - asset bubbles
+  - deleveraging process
+  - economic downturns
   - financial stability
-  - macroeconomic policy
+  - systemic risk
+  - business cycles
+  - leverage cycles
+  - debt accumulation
+  - economic indicators
+  - market psychology
+  - policy responses
 cssclasses: academia
 ---
 

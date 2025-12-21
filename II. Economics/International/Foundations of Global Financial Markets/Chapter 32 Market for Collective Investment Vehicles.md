@@ -1,96 +1,34 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: '32'
-linter-yaml-title-alias: '32'
+title: "Market for Collective Investment Vehicles"
+parent_directory: "Foundations of Global Financial Markets"
+formatted: "2025-12-21 11:03:25 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
-- firm venture capital fund
-- etfs dividend income capital
-- arbitrageurs retained etf
-- etfs based different
-- taxation rics etfs types
+  - collective investment vehicles
+  - investment company shares
+  - exchange traded funds
+  - hedge funds
+  - real estate investment trusts
 secondary_tags:
-- venture capital firm general
-- etfs hedge funds attributes
-- venture capital fund commit
-- venture capital fund typically
-- taxes sell etf
-- capital venture fund structured
-- collective investment vehicles contents
-- does invest venture capital
-- redeeming etf shares objective
-- discrepancy etf nav share
-- capital calls venture capital
-- liquid assets uses etfs
-tags_extracted: '2025-12-18T00:26:53.004349'
+  - mutual funds
+  - net asset value
+  - fund expenses
+  - etf creation redemption
+  - venture capital funds
+  - fund taxation
+  - asset management
+  - portfolio diversification
+  - liquidity management
+  - professional investment management
+cssclasses: academia
 ---
-
-# 32
 
 # Market for Collective Investment Vehicles
 
-# CONTENTS
 
-# Learning Objectives
 
-# Investment Company Shares
-
-Open-End Funds
-
-Closed-End Funds
-
-Fund Sales Charges and Annual Operating Expenses
-
-Sales charge
-
-Annual operating expenses (expense ratio)
-
-Economic Motivation for Funds
-
-Types of Funds by Investment Objective
-
-The Concept of a Family of Funds
-
-Taxation of RICs
-
-ETFs
-
-Types of ETFs and ETF Sponsors
-
-The Process of Creating and Redeeming ETF Shares
-
-Tracking the Performance of ETFs
-
-Uses of ETFs
-
-Hedge Funds
-
-Attributes of Hedge Funds
-
-Types of Hedge Funds
-
-# Concerns about Hedge Funds in Financial Markets
-
-# REITs
-
-Types of REITs
-
-# Venture Capital Funds
-
-Venture Capital Firms
-
-Investing in a Venture Capital Fund
-
-Stages of a Venture Capital Fund
-
-# Key Points
-
-# Questions
-
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter, you will understand:
 
@@ -116,7 +54,21 @@ Collective investment vehicles are products that are managed by asset management
 
 The major collective investment vehicles covered in this chapter are investment company shares, exchange-traded funds, hedge funds, real estate investment trusts (REITs), and venture capital funds.
 
-# Investment Company Shares
+```d2
+direction: right
+Collective Investment Vehicles: {
+  Investment Company Shares: {
+    Open-End Funds
+    Closed-End Funds
+  }
+  Exchange-Traded Funds
+## Hedge Funds
+  Real Estate Investment Trusts
+  Venture Capital Funds
+}
+```
+
+## Investment Company Shares
 
 Investment companies are financial intermediaries that sell shares to the public and invest the proceeds in a diversified portfolio of financial assets. Each share represents a proportional interest in the net assets in which the funds are invested.
 
@@ -126,20 +78,20 @@ The 1940 act classifies investment companies as management companies, unit inves
 
 Management companies are divided into open-end companies and closed-end companies. They are more commonly referred to as open-end and closed-end "funds." Although both types of management companies are popularly referred to as "mutual funds," technically, only open-end funds are mutual funds.
 
-# Open-End Funds
+## Open-End Funds
 
 Open-end funds, commonly referred to simply as mutual funds, are portfolios of securities—mainly stocks, bonds, and money market instruments. Investors in mutual funds own a pro rata share of the overall portfolio, which is managed by the fund's investment manager, who buys and sells securities.
 
 Additionally, the value or price of each share of the portfolio, called the net asset value (NAV), equals the market value of the portfolio minus the liabilities of the mutual fund divided by the number of shares owned by the fund's investors:
 
 $$
-\mathrm{NA V} = \frac{\text{Ma rk et va lu eo fp or tf ol io -L ia bi li ti es}}{\text{Nu mb er of sh ar es ou ts ta nd in g}}.
+\mathrm{NAV} = \frac{\text{Market value of portfolio - Liabilities}}{\text{Number of shares outstanding}}.
 $$
 
 For example, suppose that a mutual fund with 10 million shares outstanding has a portfolio with a market value of \$215 million and liabilities of \$15 million. The NAV is
 
 $$
-\mathrm{NA V} = \frac{\mathbb {S} 2 1 5 , 0 0 0 , 0 0 0 - \mathbb {S} 1 5 , 0 0 0 , 0 0 0}{1 0 , 0 0 0 , 0 0 0} = \mathbb {S} 2 0. 0 0.
+\mathrm{NAV} = \frac{\$215,000,000 - \$15,000,000}{10,000,000} = \$20.00.
 $$
 
 The mutual fund's NAV or price of the fund is determined only once each day, at the close of the day. For example, the NAV for a stock mutual fund is determined from the closing stock prices for the day. Finally, all new investments into the mutual fund or withdrawals from the fund during the day are priced at the closing NAV (investments made after the end of the day or on a nonbusiness day are priced at the next day's closing NAV).
@@ -152,7 +104,7 @@ If instead the prices of the securities in the portfolio change, both the total 
 
 Overall, a mutual fund's NAV increases or decreases as a result of an increase or decrease in the price of the securities in the portfolio. The number of shares issued increases or decreases as a result of the net deposits into and withdrawals from the fund. The market value of the fund's portfolio will increase or decrease for both reasons.
 
-# Closed-End Funds
+## Closed-End Funds
 
 The shares of a closed-end fund (CEF) are similar to those of common stock of a corporation. The new shares of a CEF are initially issued by an underwriter, and after their issuance, the number of shares remains constant. That is, after the initial issue, no sales or purchases of CEF shares are made by the fund's portfolio manager as with open-end mutual funds. Instead, the shares are traded on a secondary market, either on an exchange or in the over-the-counter market.
 
@@ -166,17 +118,19 @@ Although the divergence of the share price from the NAV is often puzzling, in so
 
 The relatively new exchange-traded funds (ETFs), which are discussed later in this chapter, pose a threat to the growth of both open-end mutual funds and CEFs. ETFs are essentially hybrid CEFs that trade on exchanges but typically trade very close to NAV. Because CEF shares are traded like stocks, the cost to any investor of buying or selling a CEF is the same as that of buying or selling a stock. The obvious charge is the stockbroker's commission. The bid-ask spread of the market in which the stock is traded is also a cost.
 
-Fund Sales Charges and Annual Operating Expenses
+### Fund Sales Charges and Annual Operating Expenses
 
 Investors in mutual funds bear two types of costs. The first is the shareholder fee, usually called the sales charge. This cost is a "one-time" charge debited to the investor for a specific transaction, such as a purchase, redemption, or exchange. The type of charge is related to the way the fund is sold or distributed. The second cost is the annual fund operating expense, usually called the expense ratio, which covers the fund's expenses, the largest of which is for investment management. This charge is imposed annually and occurs for all funds and for all types of distribution.
 
-Sales charge Sales charges on open-end mutual funds are related to their method of distribution. The two types of distribution are through a sales force (or wholesale) and direct. Sales force (wholesale) distribution occurs through an intermediary, such as an agent, a stockbroker, an insurance agent, or other entity providing investment advice and incentive to the client. Such an entity actively "makes the sale" and provides subsequent service. The other approach is direct distribution, or distribution from the mutual fund company to the investor. The client approaches the mutual fund company (most likely by a toll-free telephone number or website) in response to media advertisements or general information and opens the account. Little or no investment counsel or service is provided either initially or subsequently.
+#### Sales charge
+
+Sales charges on open-end mutual funds are related to their method of distribution. The two types of distribution are through a sales force (or wholesale) and direct. Sales force (wholesale) distribution occurs through an intermediary, such as an agent, a stockbroker, an insurance agent, or other entity providing investment advice and incentive to the client. Such an entity actively "makes the sale" and provides subsequent service. The other approach is direct distribution, or distribution from the mutual fund company to the investor. The client approaches the mutual fund company (most likely by a toll-free telephone number or website) in response to media advertisements or general information and opens the account. Little or no investment counsel or service is provided either initially or subsequently.
 
 For the service provided in the sales force distribution method, the customer bears a sales charge paid to the agent. The sales charge is called a load. The traditional type of load is called a front-end load, because the load is deducted at the time the purchase is made, or "up front." That is, the load is subtracted from the amount invested by the client and paid to the agent/distributor. Directly purchased mutual funds require no intermediary sales agent and therefore infrequently carry a sales charge. Funds with no sales charge are called no-load mutual funds.
 
-Recent adaptations of the sales load are back-end loads and level loads. Front-end loads are imposed at the time of the purchase of the fund, but the back-end load is imposed at the time fund shares are sold or redeemed. Level loads are assessed uniformly each year. These two alternative methods both provide ways to compensate the agent. However, unlike the front-end load, both of these distribution mechanisms permit the client to buy a fund at NAV, that is, not have any of the initial investment debited as a sales charge before it is invested in the shareholder's account. The most common type of back-end load currently is the contingent deferred sales charge. In this approach, a gradually declining load is imposed on withdrawals. For example, a common 3-3-2-2-1-1-0 contingent deferred sales charge approach imposes a  $3\%$  load on the amount withdrawn after one year, a  $3\%$  load on the amount withdrawn after the second year, a  $2\%$  on the amount withdrawn after the third year, and so on. No sales charge for withdrawals applies after the seventh year.
+Recent adaptations of the sales load are back-end loads and level loads. Front-end loads are imposed at the time of the purchase of the fund, but the back-end load is imposed at the time fund shares are sold or redeemed. Level loads are assessed uniformly each year. These two alternative methods both provide ways to compensate the agent. However, unlike the front-end load, both of these distribution mechanisms permit the client to buy a fund at NAV, that is, not have any of the initial investment debited as a sales charge before it is invested in the shareholder's account. The most common type of back-end load currently is the contingent deferred sales charge. In this approach, a gradually declining load is imposed on withdrawals. For example, a common 3-3-2-2-1-1-0 contingent deferred sales charge approach imposes a $3\%$ load on the amount withdrawn after one year, a $3\%$ load on the amount withdrawn after the second year, a $2\%$ on the amount withdrawn after the third year, and so on. No sales charge for withdrawals applies after the seventh year.
 
-Another type of load is neither a front-end load at the time of investment nor a (gradually declining) back-end load at the time of withdrawal but a constant load each year (e.g., a  $1\%$  load every year). This approach is called a level load. This type of load appeals to financial planners who charge annual fees rather than commissions, such as sales charges.
+Another type of load is neither a front-end load at the time of investment nor a (gradually declining) back-end load at the time of withdrawal but a constant load each year (e.g., a $1\%$ load every year). This approach is called a level load. This type of load appeals to financial planners who charge annual fees rather than commissions, such as sales charges.
 
 Many mutual fund families offer their funds with all three types of loads—that is, front-end loads (these fund shares are usually called "A shares"), back-end loads (called "B shares"), and level loads ("C shares")—and permit the distributor and its client, the investor, to select the type of load they prefer.
 
@@ -188,13 +142,13 @@ The management fee, also called the investment advisory fee, is charged by the i
 
 The management fee is typically a fixed fee based solely on the market value of the fund's assets. The fee structure for managing some mutual funds is on a sliding scale, with the fee declining with the market value of the fund's assets. A few mutual funds have adopted performance-based fees, which specify that if the quarterly performance is good, the fund manager receives a fee, and if it is not, the fee is waived for the quarter.
 
-In 1980, the SEC approved the imposition of a fixed annual fee, called the 12b-1 fee, which is, in general, intended to cover distribution costs, including continuing agent compensation and manufacturer marketing and advertising expenses. Such 12b-1 fees are now imposed by many mutual funds. By law, 12b-1 fees cannot exceed  $1\%$  of the fund's assets per year. The 12b-1 fee may include a service fee of up to  $0.25\%$  of assets per year to compensate sales professionals for providing services or maintaining shareholder accounts. The major rationale for the component of the 12b-1 fee that accrues to the selling agent is to provide an incentive to selling agents to continue to service their accounts after they receive a transaction-based fee, such as a front-end load. As a result, a 12b-1 fee of this type is consistent with sales-force-sold load funds, not with no-load funds sold directly to the investor. The rationale for the component of the 12b-1 fee that accrues to the manufacturer of the fund is to provide incentive and compensate for continuing advertising and marketing costs.
+In 1980, the SEC approved the imposition of a fixed annual fee, called the 12b-1 fee, which is, in general, intended to cover distribution costs, including continuing agent compensation and manufacturer marketing and advertising expenses. Such 12b-1 fees are now imposed by many mutual funds. By law, 12b-1 fees cannot exceed $1\%$ of the fund's assets per year. The 12b-1 fee may include a service fee of up to $0.25\%$ of assets per year to compensate sales professionals for providing services or maintaining shareholder accounts. The major rationale for the component of the 12b-1 fee that accrues to the selling agent is to provide an incentive to selling agents to continue to service their accounts after they receive a transaction-based fee, such as a front-end load. As a result, a 12b-1 fee of this type is consistent with sales-force-sold load funds, not with no-load funds sold directly to the investor. The rationale for the component of the 12b-1 fee that accrues to the manufacturer of the fund is to provide incentive and compensate for continuing advertising and marketing costs.
 
 Other expenses include primarily the costs of (1) custody (holding the cash and securities of the fund), (2) the transfer agent's activities (transferring cash and securities among buyers and sellers of the securities, making fund distributions, etc.), (3) the independent public accountant's fees, and (4) directors' fees.
 
 The sum of the annual management fee, the annual distribution fee, and other annual expenses is called the "expense ratio." All the cost information on a fund, including sales charges and annual expenses, are included in the fund's prospectus.
 
-Economic Motivation for Funds
+## Economic Motivation for Funds
 
 In chapter 3, we noted that financial intermediaries obtain funds by issuing financial claims against themselves and then investing these funds. An investment company is a financial intermediary in that it pools the funds of individual investors and uses these funds to buy portfolios of securities. We also noted the special role in financial markets played by financial intermediaries. Financial intermediaries provide some or all of the following six economic functions: (1) risk reduction through diversification, (2) lower costs of contracting and processing information, (3) professional portfolio management, (4) liquidity, (5) variety, and (6) a payments mechanism. Let's consider these economic functions as provided by mutual funds.
 
@@ -204,7 +158,7 @@ The second economic function is the reduced cost of contracting and processing i
 
 Third, and related to the first two advantages, is the advantage of professional management of the mutual fund. The fourth advantage is liquidity. Mutual funds can be bought or liquidated any day at the closing NAV. The fifth advantage is the variety of funds available in general, and even in one particular family of funds. Finally, money market funds and some other types of funds provide payment services by allowing investors to write checks drawn on the fund, although this facility may be limited in various ways.
 
-# Types of Funds by Investment Objective
+## Types of Funds by Investment Objective
 
 Mutual funds developed out of a need to satisfy the various investment objectives of investors. In general, in the main categories—stock funds, bond funds, money market funds, and others—several subcategories of funds exist. Other funds are U.S. only, international (no U.S. securities), or global (both U.S. and international securities). Still other funds are considered passive or active funds. Passive (or indexed) funds are designed to replicate an index, such as the S&P 500 stock index, the Barclays Capital Aggregate Bond Index, or the Morgan Stanley Capital International EAFE (Europe, Australasia, and Far East) Index. These funds are beta products. In contrast, Active funds attempt to outperform an index and other funds by actively trading the fund portfolio and are therefore alpha products. The objective of numerous other categories of funds is stated in the specific fund's prospectus, as required by the SEC and the Investment Company Act of 1940.
 
@@ -229,7 +183,9 @@ A concept that revolutionized the fund industry and benefited many investors is 
 
 Large fund families usually include money market funds; U.S. bond funds of several types; global stock and bond funds; broadly diversified U.S. stock funds; U.S. stock funds that specialize by market capitalization and style; and stock funds devoted to particular sectors, such as health care, technology, or precious minerals companies. According to Morningstar, the 10 largest mutual fund families are American Funds, BlackRock Inc., Columbia Management, Fidelity Investments, Franklin Templeton Investments, Oppenheimer Funds, Pacific Investment Management Co. (PIMCO), T. Rowe Price, J.P. Morgan, and the Vanguard Group. Fund families may also use external investment advisers along with internal advisers in their fund families.
 
-Taxation of RICs RICs must distribute at least  $90\%$  of their net investment income earned (bond coupons and stock dividends) exclusive of realized capital gains or losses to shareholders (along with meeting other criteria) to qualify as a RIC; as such, they are not required to pay taxes at the fund level prior to distributions to shareholders. Consequently, funds make these distributions. Taxes on distributions are paid only at the investor level, not the fund level. Even though many investors in RICs choose to reinvest these distributions, the distributions are taxable to the investor, either as ordinary income or as capital gains (long term or short term), whichever is relevant.
+## Taxation of RICs
+
+RICs must distribute at least $90\%$ of their net investment income earned (bond coupons and stock dividends) exclusive of realized capital gains or losses to shareholders (along with meeting other criteria) to qualify as a RIC; as such, they are not required to pay taxes at the fund level prior to distributions to shareholders. Consequently, funds make these distributions. Taxes on distributions are paid only at the investor level, not the fund level. Even though many investors in RICs choose to reinvest these distributions, the distributions are taxable to the investor, either as ordinary income or as capital gains (long term or short term), whichever is relevant.
 
 Capital gains distributions must occur annually, and typically occur late in the calendar year. The capital gains distributions may be either longor short-term capital gains, depending on whether the fund held the security for a year or more. Investors have no control over the size of these distributions, and as a result, the timing and amount of taxes paid on their fund holdings are largely out of their control. In particular, withdrawals by some investors may necessitate sales in the fund, which in turn cause realized capital gains and a tax liability to accrue to investors who maintain their holdings.
 
@@ -237,7 +193,7 @@ New investors in the fund may assume a tax liability even though they realize no
 
 Of course, the investor must also pay ordinary income taxes on distributions of income. Finally, when investors in the fund sell their shares, they realize longor short-term capital gains or losses, depending on whether they have held the fund for at least a year.
 
-# ETFs
+## ETFs
 
 Open-end mutual funds are often criticized for three reasons. First, the fund shares are priced at, and can be transacted only at, the end-of-day or closing price. Specifically, transactions—purchases and sales—cannot be made at intraday prices but only at closing prices. The second criticism relates to taxes and the investors' control over taxes. As noted earlier, withdrawals by some fund shareholders may cause taxable realized capital gains for shareholders who maintain their positions. Finally, it has been argued that the fees charged by asset managers are excessive.
 
@@ -249,13 +205,11 @@ Because ETFs are traded on an exchange, an ETF's share price is determined by th
 
 As with a CEF, the forces of supply and demand can cause the ETF's market price to deviate from its NAV. If executed properly, deviations between the ETF's NAV and its market price will be small. This is because arbitrageurs, referred to as authorized participants, can create or redeem large blocks of shares on any day at NAV, significantly limiting the deviations. We'll describe the key role of authorized participants shortly.
 
-A second major distinction between open-end mutual funds and ETFs relates to taxation. For both open-end mutual funds and ETFs, dividend income and capital gains realized when the mutual fund or ETF is sold are taxable to the investor. But, in addition, in the case of redemptions, open-end mutual funds may have to sell securities (if the cash position is not sufficient to fund the redemptions), thus causing a capital gain or loss for those who held their shares. In contrast, ETFs do not have to sell portfolio securities, because redemptions are effected by an in-kind exchange of the ETF shares for a basket of the underlying portfolio securities. This exchange is not a taxable event to investors under the U.S. tax code. Therefore, investors in
-
-ETFs are subject to significant capital gains taxes only when they sell their ETF shares (at a price above the original purchase price). However, ETFs do distribute cash dividends and may distribute a limited amount of realized capital gains, and these distributions are taxable. Overall, ETFs, like index mutual funds, avoid realized capital gains and the taxation thereof through their low portfolio turnover. But unlike index mutual funds (or other funds, for that matter), they do not cause potentially large capital gains tax liabilities that accrue to those who held their positions to meet shareholder redemptions because of the unique way in which they are redeemed.
+A second major distinction between open-end mutual funds and ETFs relates to taxation. For both open-end mutual funds and ETFs, dividend income and capital gains realized when the mutual fund or ETF is sold are taxable to the investor. But, in addition, in the case of redemptions, open-end mutual funds may have to sell securities (if the cash position is not sufficient to fund the redemptions), thus causing a capital gain or loss for those who held their shares. In contrast, ETFs do not have to sell portfolio securities, because redemptions are effected by an in-kind exchange of the ETF shares for a basket of the underlying portfolio securities. This exchange is not a taxable event to investors under the U.S. tax code. Therefore, investors in ETFs are subject to significant capital gains taxes only when they sell their ETF shares (at a price above the original purchase price). However, ETFs do distribute cash dividends and may distribute a limited amount of realized capital gains, and these distributions are taxable. Overall, ETFs, like index mutual funds, avoid realized capital gains and the taxation thereof through their low portfolio turnover. But unlike index mutual funds (or other funds, for that matter), they do not cause potentially large capital gains tax liabilities that accrue to those who held their positions to meet shareholder redemptions because of the unique way in which they are redeemed.
 
 Finally, the expense ratio for an ETF is generally less than that for a CEF or open-end mutual fund that has the same benchmark index. This is because ETFs are passively managed, unlike most CEFs and open-end mutual funds. Moreover, because of their low portfolio turnover (because most are passively managed), ETFs typically have lower portfolio trading costs than do CEFs or mutual funds.
 
-# Types of ETFs and ETF Sponsors
+## Types of ETFs and ETF Sponsors
 
 When ETFs were first introduced into the U.S. financial market, in 1993, and for several years thereafter, the types of ETFs available were all based on U.S. stock indexes and international stock market indexes.[2] The first ETF in the United States was the Standard & Poor's Depositary Receipts (SPDRs, pronounced "spiders"), an index fund that was designed to track the performance of the S&P 500 stock index. An ETF that followed was designed to track subsectors of the S&P 500, the Mid-Cap SPDRs. Other ETFs based on other U.S. stock indexes were then introduced. These included Diamonds, which track the Dow Jones Industrial Average and is sponsored by State Street Global Investors, and QQQs, designed to track the NASDAQ 100 index.
 
@@ -263,7 +217,7 @@ Today, there are numerous ETF products designed to track not only stock market i
 
 As with open-end mutual funds and CEFs, there are actively and passively managed ETFs. Most mutual funds and CEFs are actively managed. In contrast, in the ETF world, most are passively managed. Obviously, the ETFs that are actively managed have a higher cost structure. Consequently, ETFs provide investors with alpha products.
 
-The Process of Creating and Redeeming ETF Shares
+### The Process of Creating and Redeeming ETF Shares
 
 The objective of an ETF is for the performance of the portfolio of securities to be as close as possible to that of the target index. That is, the ETF portfolio's NAV should deviate as little as possible from that of its market price. This can only be accomplished with the intervention of a third party that is charged with the responsibility of arbitrating any discrepancy between the ETF's NAV and the share price.
 
@@ -280,7 +234,7 @@ Only an agent is authorized to create ETF shares by providing the ETF sponsor wi
 
 The arbitrage process just described becomes more difficult for an actively managed ETF. The reason is that the authorized professional does not know what the underlying portfolio is, because the portfolio is permitted to deviate from the benchmark index.
 
-# Tracking the Performance of ETFs
+## Tracking the Performance of ETFs
 
 The task of the authorized professional is critical and may seem simple enough. However, a fundamental requirement must be met for the arbitrage process to work: The composition and the NAV of the ETF portfolio must be known accurately, and the securities in the portfolio must be continuously traded throughout the trading day. An obvious example of such a portfolio would be the S&P 500 index portfolio. The 500 stocks in the index are very liquid, and their prices and the value of the index are quoted continuously throughout the trading day.
 
@@ -302,7 +256,7 @@ The term hedge fund was first used by Fortune magazine in 1966 to describe the p
 
 And that is the way federal securities law treated hedge funds until the passage of the Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010. This act changed the registration of hedge funds that had previously been granted exemption because they were "private advisers," replacing the exemption with several narrower exemptions for such advisers as venture capital funds, discussed later in this chapter. Not only did the act set forth regulatory changes regarding the registration of hedge funds, it also imposed reporting and record-keeping requirements. More specifically, the act gave the SEC the authority to collect data from hedge funds. The requirements were put in place not only to protect investors but also to allow the information mandated to be used by the Financial Stability Oversight Council (discussed in chapter 2) to assess the systemic risk that might be posed by large hedge funds.
 
-# Attributes of Hedge Funds
+## Attributes of Hedge Funds
 
 Let's look at some definitions of hedge funds that have been proposed based on their attributes. George Soros is the chairman of Soros Fund Management. His firm advises a privately owned group of hedge funds, the Quantum Group of Funds. He defines a hedge fund as follows:
 
@@ -339,7 +293,7 @@ Fourth, the management fee structure for hedge funds is a combination of a fixed
 
 Finally, when evaluating hedge funds, investors are interested in the absolute return generated by the asset manager, not the relative return. Absolute return on a portfolio is simply the return realized. The relative return is the difference between the absolute return and the return on some benchmark or index. The use of absolute return rather than relative return for evaluating an asset manager's performance managing a hedge fund is quite different from the criteria used to evaluate the performance of an asset manager managing the other types of portfolios discussed in this chapter.
 
-# Types of Hedge Funds
+## Types of Hedge Funds
 
 The different types of hedge funds can be categorized in various ways. Mark Anson uses the following four broad categories: market directional, corporate restructuring, convergence trading, and opportunistic.[10]
 
@@ -353,7 +307,7 @@ Opportunistic hedge funds have the broadest mandate of the four hedge fund categ
 
 As we explained earlier in this chapter, there are funds of funds that invest in mutual funds. Similarly, there are funds of funds that invest in other hedge funds. That is, that portfolio of a fund of funds consists of interests in other hedge funds.
 
-# Concerns about Hedge Funds in Financial Markets
+## Concerns about Hedge Funds in Financial Markets
 
 There is considerable debate over the role of hedge funds in financial markets because of their size and the impact they have on financial markets as a result of their investment strategies. On the positive side, it has been argued that they provide liquidity to the market. A Federal Reserve Bank study found that market participants described hedge funds "as a significant stability force" in the interest rate options markets.[11] (We describe interest rate options in chapters 34 and 37.) In addition, hedge funds have provided liquidity by participating in the municipal bond market.
 
@@ -363,7 +317,7 @@ More recently, in June 2007, two hedge funds sponsored by the investment banking
 
 As a result of the LTCM failure, the President's Working Group on Financial Markets made several recommendations for improving the functioning of hedge funds in financial markets. The major recommendation was that commercial banks and investment banks that lend to hedge funds improve their credit risk management practices.
 
-# REITs
+## REITs
 
 Real estate investment trusts (REITs) are stocks that represent an interest in an underlying pool of real estate properties. They are similar to closed-end funds, because the stock is publicly traded and the market price can differ from that of the REIT's NAV. In the case of REITs, the investments in the portfolio are real estate properties. The principal advantage of REITs is that they allow investors access to an illiquid asset class that would be difficult for an individual investor to invest in directly. Moreover, because a REIT has a large number of properties in its portfolio, individual investors obtain better diversification than by directly investing in real estate properties.
 
@@ -375,7 +329,7 @@ Investors in REITs include retail (individual) investors and institutional inves
 
 REIT ETFs are traded based on various REIT indexes.
 
-# Types of REITs
+## Types of REITs
 
 There are three types of REITs: equity REITs, mortgage REITs, and hybrid REITs.
 
@@ -400,7 +354,7 @@ A REIT that invests in both the equity interests and the debt interests in real 
 
 Benchmark indexes are available to assess the performance of REITs. The most popular index is the FTSE NAREIT US Real Estate Index series, which includes both equity and mortgage REITs. (For the purpose of the index construction, hybrid REITs are classified as either equity or mortgage REITs.) Subindexes are available to measure the different specialized categories discussed above (equity REITs and mortgage REITs), as well as the different categories of equity REITs. Other REIT indexes focusing on U.S. REITs are the MSCI US REIT Index, the Wilshire Real Estate Securities Index, and the S&P US REIT Index.
 
-# Venture Capital Funds
+## Venture Capital Funds
 
 An important participant in the real economy is the entrepreneur who develops new products and services. Entrepreneurs who want to move from their business plan and any prototype that they develop to the formation of a company to implement their business plan need varying amounts of capital. Startup companies typically lack tangible assets that can be used as collateral for a loan and are unlikely to produce positive earnings for several years.
 
@@ -408,7 +362,7 @@ The stages of a startup firm are (1) the early stage, (2) the expansion stage, a
 
 Entrepreneurs needing funds far in excess of what can be raised from loans and angel investors turn to venture capital firms. In turn, these firms create venture capital funds, which are pooled investment funds.
 
-# Venture Capital Firms
+## Venture Capital Firms
 
 A venture capital firm is an institutional management firm that provides equity financing to startup companies that do not have a sufficient track record to attract investment capital from traditional sources (e.g., the public markets or lending institutions). Venture capital firms typically specialize in one or more stages of a startup firm's business and by economic sector. Venture capital firms typically specialize in industries.
 
@@ -430,7 +384,7 @@ The investing of funds to create the portfolio of companies is the fourth stage,
 
 The venture capital fund's final stage is its windup and liquidation stage. By the time this stage is reached, all committed capital has been invested, and the venture capital fund is now reaping the financial rewards from its portfolio of companies. Each portfolio company is sold, brought to the public markets through an IPO, or liquidated through a legal bankruptcy liquidation process. The limited partners and the venture capital firm (i.e., the general partner) are allocated their share of the profits (the incentive fee, in the case of the venture capital firm).
 
-# Key Points
+## Key Points
 - Collective investment vehicles are products created through the pooling of funds and the management (investment) of those fund by an asset management firm, which receives compensation through a management fee and possibly an incentive fee.
 - Retail and institutional investors invest in pooled funds and thereby have an equity interest in the fund's net assets.
 - The advantages of collective investment vehicles compared to direct investment in financial assets are better portfolio diversification, better liquidity, professional management expertise, and possibly favorable tax treatment.
@@ -461,50 +415,4 @@ The venture capital fund's final stage is its windup and liquidation stage. By t
 - Capital for a venture capital fund is committed not only by outside investors but also by the venture capital firm itself, thereby aligning the interests of the outside investors and the venture capital firm.
 - A venture capital fund's final stage is its windup and liquidation stage. Each portfolio company is sold, brought to the public market through an IPO, or liquidated through a legal bankruptcy liquidation process. Profits are distributed to all investors, and the incentive fee is paid to the venture capital firm.
 
-# Questions
-
-1. An investment company has \$1.05 million in assets, \$50,000 in liabilities, and 10,000 shares outstanding.
-
-a. What is its NAV?
-
-b. Suppose the fund pays off its liabilities while at the same time, the value of its assets doubles. How many shares will an investor who invests 5,000 receive?
-
-2. a. "The NAV of an open-end fund is determined continuously throughout the trading day." Explain why you agree or disagree with this statement.
-
-b. "A closed-end fund will always trade at its NAV." Explain why you agree or disagree with this statement.
-
-3. Why might the price of a share of a closed-end fund diverge from its NAV?
-4. a. Describe the following: front-end load, back-end load, level load, 12b-1 fee, management fee.
-
-b. Why do mutual funds have different classes of shares?
-
-5. What is a fund of funds?
-6. What costs are incurred by a mutual fund?
-7. Why might the investor in a mutual fund be faced with a potential tax liability arising from capital gains, even though the investor did not benefit from such a gain?
-8. Does an investment company provide any economic function that individual investors cannot provide for themselves on their own? Explain your answer.
-9. What is an exchange-traded fund (ETF)?
-10. What are the advantages of an ETF relative to open-end and closed-end investment companies?
-11. What is the role played by an ETF's authorized participants?
-12. a. Why is the term "hedge," as used in the term "hedge funds," misleading?
-
-b. Where is the term "hedge fund" described in the U.S. securities law?
-
-13. How does the management fee structure of the asset manager of a hedge fund, a venture capital fund, or a real estate investment trust (REIT) differ from that of an asset manager of a mutual fund?
-14. How has the Dodd-Frank Act affected the regulation of hedge funds?
-15. Some hedge funds refer to their strategies as "arbitrage strategies." Why would this claim be misleading?
-16. What is meant by a "convergence traded hedge fund"?
-17. What was the major recommendation of the President's Working Group on Financial Markets regarding hedge funds?
-18. Two investors are arguing about the types of investment made by REITs. One investor believes that REITs are investors in real estate properties. The other investor believes that REITs provide financing for the purchase of real estate properties. The two investors ask you who is right. How would you respond to these investors?
-19. What are the two types of mortgage REITs?
-20. A capital venture firm does more than provide financing for startup companies. Explain what other activities the firm's management team performs.
-21. How does the raising of funds for a venture capital fund differ from that of other collective investment vehicles?
-22. a. When a capital venture fund is structured as a partner, who are the limited partners and who are the general partners?
-b. What does it mean for a venture capital fund's general partner to make a capital call on the limited partners?
-23. What is a venture capital fund's exit strategy?
-24. President's Working Group on Financial Markets, Hedge Funds, Leverage, and the Lessons of Long-Term Capital Management: Report of the President's Working Group on Financial Markets (Washington, DC: Department of the Treasury et al., April 1999), 1, available at http://www.treasury.gov/resource-center/bin-mkts/Documents/hedgfund.pdf.
-25. Financial Services Authority, "Hedge Funds and the FSA," Discussion Paper 16 (London: Financial Services Authority, 2002), 8.
-26. Mark J. P. Anson, Handbook of Alternative Assets, 2nd ed. (Hoboken, NJ: John Wiley & Sons, 2006).
-27. Federal Reserve Board, Concentration and Risk in the OTC Markets for U.S. Dollar Interest Rate Options (Washington, DC: Department of the Treasury, Board of Governors of the Federal Reserve System, March 2005), 3.
-28. The funds primarily invested in subprime mortgages. The subprime mortgage meltdown in the summer of 2007 is discussed in chapter 30. In March 2008, the Federal Reserve had to institute a plan to rescue Bear Stearns.
-29. The other type of legal structure used is a limited liability company.
 
