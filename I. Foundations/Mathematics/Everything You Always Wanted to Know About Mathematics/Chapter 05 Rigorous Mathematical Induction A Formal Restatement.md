@@ -1,42 +1,31 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Chapter 5
-linter-yaml-title-alias: Chapter 5
+title: Chapter 5 Rigorous Mathematical Induction A Formal Restatement
+parent_directory: Everything You Always Wanted to Know About Mathematics
+formatted: 2025-12-21 09:40:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
 primary_tags:
-- conditional statements
-- then proof
-- later examples
-- even natural numbers
-- rigorous induction
-- stronger result
-secondary_tags:
-- mathematical induction
-- other examples
-- 5.4 strong induction
-- strong induction
-- following statements
-- good induction proofs
-- following questions
-- principle proof
-- theorem statement
-- usual introductory matter
-- good proof
+- rigorous mathematical induction
+- principle of mathematical induction
 - strong induction proof
-- underlying principle
-- only sequence
-- some number
-- some argument
-tags_extracted: '2025-12-18T17:57:00.045159'
-tags_method: max_quality_v1
+- well-ordering principle
+- inductive proof techniques
+secondary_tags:
+- mathematical induction formal restatement
+- domino analogy induction
+- regular vs strong induction
+- induction variants
+- minimal criminal arguments
+- fibonacci sequence closed form
+- prime factorization existence
+- generalized de morgan law
+- induction proof template
+- backwards induction
+- induction on odds evens
+cssclasses: academia
 ---
 
-# Chapter 5
-
-# Rigorous Mathematical Induction: A Formal Restatement
+# Chapter 5 Rigorous Mathematical Induction: A Formal Restatement
 
 # 5.1 Introduction
 
@@ -98,13 +87,13 @@ then  $I$  is called an inductive set.
 Definition 5.2.4. The set of all natural numbers is the set
 
 $$
-\mathbb{N} := \{x \mid \text{everyinductiveset } I, x \in I \}
+\mathbb{N} := \{x \mid \text{every inductive set } I, x \in I \}
 $$
 
 Put another way,  $\mathbb{N}$  is the smallest inductive set:
 
 $$
-\mathbb{N} = \bigcap_{I\in \{S | S \text{ isinductive}\}}I
+\mathbb{N} = \bigcap_{I\in \{S | S \text{ is inductive}\}}I
 $$
 
 Okay, now we're ready for the proof!
@@ -138,9 +127,7 @@ The important thing that we have accomplished here, by restating the PMI, is tha
 
 Taking the observation above, we can develop a proof template for a proper "proof by induction". (This can be added to the list of proof strategies from the last chapter, as well, thereby broadening our mathematical toolkit!) Notice that all of the steps in this template are motivated by making our proof readable, orderly, and logically correct:
 
-- We must define a proposition  $P(n)$  to show our reader what we aim to prove.
-
-# 5.2. REGULAR INDUCTION
+- We must define a proposition $P(n)$ to show our reader what we aim to prove.
 
 - We must verify the Base Case (BC) to show that condition (1) in the PMI is satisfied.  
 - We must verify the conditional statement  $\forall k \in \mathbb{N}$ .  $P(k) \Rightarrow P(k + 1)$  to show that condition (2) in the PMI is satisfied. To do this, we will apply the direct proof strategy for proving conditional statements; this has two parts:
@@ -255,7 +242,7 @@ Thus,  $P(1)$  is True, because  $1 = 1$ .
 IH: Let  $k \in \mathbb{N}$  be arbitrary and fixed. Suppose  $P(k)$  holds. This means
 
 $$
-\sum_{i=1}^{n}(2k-1) = n^{2}
+\sum_{i=1}^{k}(2i-1) = k^{2}
 $$
 
 IS: Consider  $k + 1$ . We can write
@@ -578,7 +565,7 @@ We will not show an example of this method in action because we believe it is ex
 Let's motivate this section with an observation, which will lead us into the first example usage of this method. Consider the sequence of perfect square numbers:
 
 $$
-1, 4, 9, 1 6, 2 5, 3 6, 4 9, 6 4, 8 1, 1 0 0, 1 2 1, 1 4 4, \dots
+1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, \dots
 $$
 
 Look at what happens when we divide them by 8; specifically look at the remainders (indicated by the numerators of the fractions in each case):
@@ -690,7 +677,7 @@ Claim: For every  $n \in \mathbb{N}$ , the number  $2^n + 1$  is not a multiple 
 Proof. Define the sets  $A_{1}, A_{2}, A_{3}$  to be
 
 $$
-\begin{array}{l} A_{1} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m + 1 \} = \{1, 4, 7, 1 0, \dots \} \\ A_{2} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m + 2 \} = \{2, 5, 8, 1 1, \dots \} \\ A_{3} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m \} = \{3, 6, 9, 1 2, \dots \} \\ \end{array}
+\begin{array}{l} A_{1} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m + 1 \} = \{1, 4, 7, 10, \dots \} \\ A_{2} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m + 2 \} = \{2, 5, 8, 11, \dots \} \\ A_{3} = \{n \in \mathbb {N} \mid \exists m \in \mathbb {N} \cup \{0 \}. n = 3 m \} = \{3, 6, 9, 12, \dots \} \\ \end{array}
 $$
 
 (That is, these three sets partition  $\mathbb{N}$  based on remainders when divided by 3.)
@@ -734,13 +721,13 @@ By the IH, we know  $\exists \ell \in \mathbb{N}$ .  $2^{k} + 1 = 7\ell + 3$ . L
 We can deduce that
 
 $$
-2^{k + 3} = 2^{3} \cdot 2^{k} = 8 \cdot (7 \ell + 2) = 5 6 \ell + 1 6
+2^{k + 3} = 2^{3} \cdot 2^{k} = 8 \cdot (7 \ell + 2) = 56 \ell + 16
 $$
 
 Thus,
 
 $$
-2^{k + 3} + 1 = 5 6 \ell + 1 7 = 7 (8 \ell) + 1 4 + 3 = 7 (8 \ell + 2) + 3
+2^{k + 3} + 1 = 56 \ell + 17 = 7 (8 \ell) + 14 + 3 = 7 (8 \ell + 2) + 3
 $$
 
 and so  $Q(k + 3)$  holds, as well. Therefore,  $\forall n\in A_1$ .  $Q(n)$
@@ -758,13 +745,13 @@ By the IH, we know  $\exists \ell \in \mathbb{N}$ .  $2^{k} + 1 = 7\ell + 5$ . L
 We can deduce that
 
 $$
-2^{k + 3} = 2^{3} \cdot 2^{k} = 8 \cdot (7 \ell + 4) = 5 6 \ell + 3 2
+2^{k + 3} = 2^{3} \cdot 2^{k} = 8 \cdot (7 \ell + 4) = 56 \ell + 32
 $$
 
 Thus,
 
 $$
-2^{k + 3} + 1 = 5 6 \ell + 3 3 = 7 (8 \ell) + 2 8 + 5 = 7 (8 \ell + 4) + 5
+2^{k + 3} + 1 = 56 \ell + 33 = 7 (8 \ell) + 28 + 5 = 7 (8 \ell + 4) + 5
 $$
 
 and so  $R(k + 3)$  holds, as well. Therefore,  $\forall n \in A_2 \cdot R(n)$ .
@@ -782,13 +769,13 @@ By the IH, we know  $\exists \ell \in \mathbb{N}$ .  $2^{k} + 1 = 7\ell + 2$ . L
 We can deduce that
 
 $$
-2^{k + 3} = 2^{3} \cdot 2^{k} = 8 \cdot (7 \ell + 1) = 5 6 \ell + 8
+2^{k + 3} = 2^{3} \cdot 2^{k} = 8 \cdot (7 \ell + 1) = 56 \ell + 8
 $$
 
 Thus,
 
 $$
-2^{k + 3} + 1 = 5 6 \ell + 9 = 7 (8 \ell) + 7 + 2 = 7 (8 \ell + 1) + 2
+2^{k + 3} + 1 = 56 \ell + 9 = 7 (8 \ell) + 7 + 2 = 7 (8 \ell + 1) + 2
 $$
 
 and so  $S(k + 3)$  holds, as well. Therefore,  $\forall n \in A_3$ .  $S(n)$ .
@@ -1093,7 +1080,7 @@ IH: Let  $k \in \mathbb{N} \cup \{0\}$  be arbitrary and fixed. Suppose  $P(0) \
 IS: Observe that
 
 $$
-\begin{array}{l} s_{k + 1} = 1 + \sum_{i = 0}^{k} s_{i} \quad \text{De fi ni ti on} s_{k + 1} \\ = 1 + \sum_{i = 0}^{k} 2^{i} \quad \text{Us in gI Hs :} P (0) \wedge \dots \wedge P (k) \\ = 1 + \left(2^{k + 1} - 1\right) \quad \text{St an da rd} \\ = 2^{k + 1} \\ \end{array}
+\begin{array}{l} s_{k + 1} = 1 + \sum_{i = 0}^{k} s_{i} \quad \text{Definition of } s_{k + 1} \\ = 1 + \sum_{i = 0}^{k} 2^{i} \quad \text{Using IHs: } P (0) \wedge \dots \wedge P (k) \\ = 1 + \left(2^{k + 1} - 1\right) \quad \text{Standard geometric series} \\ = 2^{k + 1} \\ \end{array}
 $$
 
 Thus,  $P(k + 1)$  holds. Therefore,  $\forall n \in \mathbb{N} \cup \{0\}$ .  $P(n)$  holds, by induction.
@@ -1660,7 +1647,7 @@ Suppose we have a proposition  $P(n)$ , defined for every  $n \in \mathbb{N}$ . 
 Define the set  $F$  to be the set of "False instances" of  $P(n)$ . That is, define
 
 $$
-F = \{n \in \mathbb {N} \mid P (n) \text{is} \mathsf {F a l s e} \}
+F = \{n \in \mathbb {N} \mid P (n) \text{is} \mathsf{False} \}
 $$
 
 To prove that  $\forall n\in \mathbb{N}$ $P(n)$  , we will AFSOC that  $F\neq \varnothing$

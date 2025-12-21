@@ -1,18 +1,21 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: international economics
-linter-yaml-title-alias: international economics
+title: International Economics
+parent_directory: International Economics
+formatted: 2025-12-21 09:40:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
 primary_tags:
-- trade specific factors model
-- international economics introduction
+  - international trade theory
+  - exchange rate determination
+  - balance of payments
 secondary_tags:
-- economics introduction international trade
-- economy patterns international trade
-tags_extracted: '2025-12-18T00:30:16.991104'
+  - ricardian model
+  - heckscher-ohlin model
+  - comparative advantage
+  - trade policy instruments
+  - monetary approach
+  - asset market approach
+cssclasses: academia
 ---
 
 # international economics
