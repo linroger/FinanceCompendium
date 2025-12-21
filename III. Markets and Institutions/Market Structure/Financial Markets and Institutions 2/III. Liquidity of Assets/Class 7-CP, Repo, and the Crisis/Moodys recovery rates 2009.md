@@ -57,7 +57,7 @@ Moody's Global
 
 February 2009
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 ## Summary
 
@@ -71,7 +71,7 @@ Moody's global speculative-grade default rate ended 2008 at  $4.1\%$ , more than
 - Measured on a dollar volume basis, Moody's global speculative-grade bond default rate ended 2008 at  $5.8\%$ , up from 2007's year-end level of  $0.6\%$ . Among all Moody's-rated issuers, the volume-weighted default rate increased from  $0.1\%$  in 2007 to  $2.2\%$  in 2008.  
 Moody's global speculative-grade default rate forecasting model predicts that the speculative-grade default rate will jump sharply to  $16.4\%$  in the fourth quarter of 2009, a level that, if it materializes, would exceed the peaks reached in 1991 and 2001.
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Rating downgrades in 2008 surpassed rating upgrades for the first time since 2003. The upgrade-to-downgrade ratio fell significantly from 2.0 in 2007 to 0.3 in 2008.
 
@@ -80,7 +80,7 @@ Rating downgrades in 2008 surpassed rating upgrades for the first time since 200
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/ddb31d78974b36c2eb9c32f792a736686a7de20d2b00641c44b260ac8216157a.jpg)  
 Global Speculative-Grade Default Rate Peaks
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 ## Introduction
 
@@ -94,7 +94,7 @@ The global financial crisis reached a fevered pitch in 2008 with the failure of 
 
 World-wide, 101 Moody's-rated corporate issuers defaulted on a total of  \$281.2 billion of debt in 2008. Default counts and volumes both surged from 2007 when only 18 companies defaulted on\$ 6.7 billion of debt. From a geographic standpoint, 84 of the 101 defaulters were based in North America while 12 were based in Europe. On a volume basis, defaulted debt totaled \$226.2 billion in North America and \$53.4 billion in Europe. Exhibit 1 presents annual default counts and defaulted debt volumes for the period 1970 to 2008. The chart shows that default volume in 2008 easily reached a record high, while the number of defaulted issuers was the highest since 2002. Exhibit 21 on page 19 lists the top ten defaults among Moody's-rated issuers for the period 1920-2008, six of which were by 2008 defaulters.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/251a74783a068c8835faf06b349d26f93f6740cbd4d88e5da34b6368a164cd46.jpg)  
 Exhibit 1
@@ -103,7 +103,7 @@ Among the 101 defaulters in 2008, more than half were by issuers in the broad Ca
 
 A unique characteristic of initial default events in 2008 was the high incidence of distressed exchanges. With debt markets essentially closed for high yield issuers, and the scarcity of DIP financing making bankruptcy a less attractive option, distressed issuers with unsustainable capital structures or liquidity problems had few options other than to offer debt exchanges, effectively implementing out-of-court restructurings that constitute events of default under Moody's definition of default. Of the 101 defaulters in 2008,  $23\%$ , or 23, were distressed exchanges, which is more than double the historical average of  $10\%$  of total initial default events. Exhibit 2 breaks down the 101 defaults in 2008 by initial default type and broad industry.
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 2
 
@@ -114,7 +114,7 @@ As a result of rapidly increasing defaults in 2008, the trailing twelve-month is
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/12f6dd1bfed555ac6e0fe897d10db8166652eb2fdf6d95c6f01ac7013da3d99f.jpg)  
 Exhibit 3
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Consistent with rapidly weakening credit quality and increasing numbers of defaults, the upgrade-to-downgrade ratio for corporate issuers fell sharply in 2008. Specifically, there were 992 downgrades and 268 upgrades in 2008, sending the upgrade-to-downgrade ratio to 0.3 compared with 2.0 in  $2007^{3}$ . Exhibit 4 shows the annual upgrade-to-downgrade ratio for Moody's-rated corporate issuers between 1970 and 2008, indicating that the 2008 decline in the ratio was the largest in the past 39 years. Since 1970, the upgrade-to-downgrade ratio has averaged at 0.8.
 
@@ -123,7 +123,7 @@ Exhibit 4
 
 Historically, as shown by Moody's research, default rates and recovery rates are negatively correlated. In 2008, this negative correlation reared its head again as rising default rates coincided with declining recovery rates. As shown in Exhibit 5, and as measured by post-30 day trading prices, average recovery rates for bonds and loans in all lien positions dropped in 2008 from 2007. For example, in 2008, senior unsecured bonds recovered an average of  $33.8\%$  on an issuer-weighted basis, well below 2007's  $53.3\%$ . Measured on a value-weighted basis, the decline was even more pronounced as the average senior unsecured bond recovery rate fell to  $26.2\%$  in 2008, from a level of  $56.9\%$  a year earlier. And relative to historical averages, recovery rates of all debts, with the exception of senior secured bonds, were below average in 2008 when measured on an issuer-weighted basis.
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 5  
 
@@ -135,7 +135,7 @@ Exhibit 5
 
 Value-weighted recovery rates were noticeably lower than issuer-weighted recovery rates in 2008 as larger defaulters experienced lower recovery rates relative to those of smaller defaulters. And, as shown in Exhibit 6, the recovery rates for large financial institutions in 2008 were especially low with Lehman Brothers recovering  $9\%$  on its senior unsecured bonds and the three Icelandic banks recovering less than  $5\%$  on their senior unsecured bonds. Washington Mutual Bank and Washington Mutual, however, recovered an average of  $42\%$  and the GMAC's distressed debt exchange led the pack with a relatively high recovery rate at about  $70\%$ .
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 6  
 
@@ -151,7 +151,7 @@ Exhibit 7
 
 1. Issuer-weighted. Based on 30-day post-default market prices.
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 The recovery data discussed above is based on debt trading prices 30 days after the default date. An alternative recovery measure is based on ultimate recoveries, or the value creditors realize at the resolution of a default event. For example, for issuers filing for bankruptcy, the ultimate recoveries are the present values of the cash and/or securities that creditors actually receive when these issuers exit bankruptcy, typically 1-2 years following their initial default dates.<sup>4</sup>
 
@@ -204,7 +204,7 @@ Exhibit 11
 
 The high level of the high yield bond spread, which is a primary driver underlying the model's forecasts for rising default rates in 2009, began increasing in the second half of 2007 and reached a peak of approximately 2,000 basis points in the fourth quarter of 2008. Coincident with this increase in the high yield spread, Moody's Distressed Issuer index, which shows the percentage of speculative-grade issuers with debts trading at spreads to Treasuries greater than 1,000 basis points, also climbed sharply and now stands at  $52.6\%$  of speculative-grade issuers. Exhibit 12 shows the historical correlation between speculative-grade default rates,
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 high yield spreads, and Moody's Distressed Issuer index. The historical data suggest that movements in the high-yield spread often coincide with changes in the level of the speculative-grade default rate. During the last two credit cycles of 1990-91 and 2001-02, high yield bond spreads peaked at roughly 1,000 basis points, and were associated with peak speculative-grade default rates of roughly  $10 - 12\%$ . If this historical relationship were to hold up in this cycle, the recent peak of 2,000 basis points in the high yield spread suggests that speculative-grade default rates could approach  $20\%$ .
 
@@ -216,7 +216,7 @@ The current high default rate forecast also stems from deteriorating credit qual
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/8292b7889058f2af550c2ddee8deb0149ee60f9bbe4c4e3a8447a7a4c3dc6cc7.jpg)  
 Exhibit 13
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 In addition to deteriorating credit quality, refunding risks are projected to increase over the next several years as more than one-half of current U.S. speculative-grade issuers have debts maturing in the next three years. As shown in Exhibit 14, measured by dollar volume, a total of  \$190 billion in debt is coming due over the next three years, which more than doubles the refunding needs of\$ 86 billion between 2008 and 2010<sup>9</sup>. This increase in issuers' refunding needs stems from maturing debt that was originated during the refinancing boom years of 2004-2007. Among Caa-C issuers, almost one-half have at least some debt maturing from 2009 to 2011.
 
@@ -228,7 +228,7 @@ Across geographical regions, the speculative default rate is expected to climb t
 
 Exhibit 15 shows the baseline one-year default rate forecasts across industries in both the U.S. and Europe. In the U.S., the consumer transportation industry, comprised mostly of airline companies, is expected to experience the highest default rate at over  $30\%$ . In Europe, the most troubled sector is expected to be durable consumer goods.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 ## Exhibit 15
 
@@ -246,7 +246,7 @@ Besides forecasting default rates, the CTM can also forecast probabilities of up
 
 As recovery rates are negatively correlated with default rates, Moody's expects recovery rates to decline in 2009 as default rates continue to increase. Moreover, recoveries are likely to be below historical averages as a result of strong loan issuance in recent years $^{10}$ . The increasing share of loans in issuers' liability structures implies less protection for loan investors because it entails a corresponding reduction in the share of total debt junior to the loans—which serves as a first-loss cushion for the loans in the event of default. For unsecured bond holders, the increasing loan shares imply more debt senior to the bonds and, therefore, lower recovery rates on those bonds. Based on Moody's current LGD assessments, the average expected recovery rate across all U.S. first lien loans is  $68\%$ , which compares with a historical average of  $87\%$  from Moody's ultimate recovery database. For senior unsecured bonds, the average expected recovery rate is  $33\%$ , which is also lower than historical average of  $40\%$  (see Exhibit 16). In light of the current economic slowdown, we also present the LGD outlook under regularand stress-downturn scenarios where firm-wide recovery rates average  $45\%$  and  $35\%$ , respectively. In the previous two credit cycles of 1991 and 2001, firm-wide recovery rates averaged roughly  $45\%$ . However, the current downturn, and its impact on firm-wide recovery rates, could certainly be more severe than those associated with the previous two credit cycles.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/c2714e6caa4f96173018784763ebdf9126902ab50bdd9ba4d24c81b68ab6ba18.jpg)  
 Exhibit 16
@@ -262,7 +262,7 @@ Exhibit 17
 
 As a valuable tool to measure credit risk, ratings are expected to differentiate strong credits from weaker ones. In other words, an effective rating system should not only assign low ratings to issuers that ultimately default but also assign high ratings to those that are remote to default. A metric designed to measure this aspect of ratings performance is the cumulative accuracy profile (CAP) plot as shown in Exhibit 18. A rating system that possessed no predictive information about default risk would lie on the  $45^{\circ}$  line; the further the CAP curve
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 bows toward the northwest corner, the better it is at identifying defaults in the riskiest rating categories. Exhibit 18 shows that the CAP curve for 2008 lies below the one for the 1983-2008 period, which indicates a worse performance in 2008 relative to the historical average. The drop in rating performance in 2008 is largely the result of several investment-grade defaults in the banking and financial sectors, including Lehman Brothers, Washington Mutual and three Icelandic banks.
 
@@ -281,7 +281,7 @@ Another way to measure rating performance is the accuracy ratio, which is derive
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/134400ca-9de5-4741-8484-9b05ea5d5256/0c25058d987f8b894aa5bf37cdfaa6902e55f91e39ebec552850f9343b1138d7.jpg)  
 One and Five-Year Accuracy Ratios by Cohort Year, 1983-2008
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 ## Data Tables and Charts
 
@@ -291,7 +291,7 @@ Moody's-Rated 2008 Corporate Bond and Loan Defaults
 
 <table><tr><td>Company</td><td>Country</td><td>Initial Default Type</td><td>Bonds1</td><td>Loans1</td><td>In Jan 1 Cohort2</td></tr><tr><td>3217920 Nova Scotia Company</td><td>Canada</td><td>Distressed exchange</td><td></td><td>\$369</td><td>Yes</td></tr><tr><td>3D-GOLD Jewellery Holdings Limited</td><td>Hong Kong</td><td>Missed interest payment</td><td>\$170</td><td></td><td>Yes</td></tr><tr><td>Abitibi-Consolidated Company of Canada</td><td>Canada</td><td>Distressed exchange</td><td>\$138</td><td></td><td>Yes</td></tr><tr><td>Abitibi-Consolidated Inc.</td><td>Canada</td><td>Distressed exchange</td><td>\$317</td><td></td><td>Yes</td></tr><tr><td>ACIH, Inc.</td><td>United States</td><td>Missed interest payment</td><td>\$174</td><td></td><td>Yes</td></tr><tr><td>Ainsworth Lumber Company Limited</td><td>Canada</td><td>Distressed exchange</td><td>\$824</td><td></td><td>Yes</td></tr><tr><td>American Color Graphics, Inc.</td><td>United States</td><td>Suspension of payments</td><td></td><td>\$90</td><td>No3</td></tr><tr><td>American Media Operations, Inc.</td><td>United States</td><td>Missed interest payment</td><td>\$415</td><td></td><td>Yes</td></tr><tr><td>Ashton Woods USA, LLC</td><td>United States</td><td>Missed interest payment</td><td>\$125</td><td></td><td>Yes</td></tr><tr><td>Atlantis Plastics, Inc.</td><td>United States</td><td>Missed interest payment</td><td></td><td>\$216</td><td>Yes</td></tr><tr><td>Autocam Corporation</td><td>United States</td><td>Distressed exchange</td><td></td><td>\$30</td><td>Yes</td></tr><tr><td>Baseline Oil &amp; Gas Corp</td><td>United States</td><td>Missed pri&amp;int payments</td><td>\$115</td><td></td><td>Yes</td></tr><tr><td>Belvedere S.A.</td><td>France</td><td>Chapter 11</td><td>\$729</td><td></td><td>Yes</td></tr><tr><td>Big West Oil, LLC</td><td>United States</td><td>Chapter 11</td><td></td><td>\$600</td><td>Yes</td></tr><tr><td>BLB Management Services, Inc.</td><td>United States</td><td>Missed interest payment</td><td></td><td>\$565</td><td>Yes</td></tr><tr><td>Britannia Bulk Plc</td><td>United Kingdom</td><td>Placed under administration</td><td></td><td>\$170</td><td>Yes</td></tr><tr><td>Buffets, Inc.</td><td>United States</td><td>Chapter 11</td><td>$300</td><td>$640</td><td>Yes</td></tr><tr><td>Cap Cana, S.A.</td><td>Dominican Republic</td><td>Missed pri&amp;int payments</td><td></td><td>\$100</td><td>Yes</td></tr><tr><td>Chesapeake Corporation</td><td>United States</td><td>Missed interest payment</td><td>$295</td><td>$250</td><td>Yes</td></tr><tr><td>Constar International, Inc.</td><td>United States</td><td>Prepackaged Chapter 11</td><td>$395</td><td>$75</td><td>Yes</td></tr><tr><td>Controladora Comercial Mexicana S.A.B. de C.V</td><td>Mexico</td><td>Bankruptcy</td><td>\$455</td><td></td><td>Yes</td></tr><tr><td>Downey Financial Corp.</td><td>United States</td><td>Chapter 7</td><td>\$200</td><td></td><td>Yes</td></tr><tr><td>Finlay Fine Jewelry Corporation</td><td>United States</td><td>Distressed exchange</td><td>\$140</td><td></td><td>Yes</td></tr><tr><td>Fremont General Corporation</td><td>United States</td><td>Missed interest payment</td><td>\$166</td><td></td><td>Yes</td></tr><tr><td>French Lick Resorts &amp; Casino, LLC</td><td>United States</td><td>Distressed exchange</td><td>\$128</td><td></td><td>Yes</td></tr><tr><td>Gainey Corporation</td><td>United States</td><td>Missed interest payment</td><td></td><td>\$235</td><td>Yes</td></tr><tr><td>General Growth Properties</td><td>United States</td><td>Missed pri&amp;int payments</td><td></td><td>\$900</td><td>Yes</td></tr><tr><td>General Motors Acceptance Corp. of Canada Ltd</td><td>Canada</td><td>Distressed exchange</td><td>\$265</td><td></td><td>Yes</td></tr><tr><td>Ginn-LA CS Borrower, LLC</td><td>United States</td><td>Missed pri&amp;int payments</td><td></td><td>\$651</td><td>Yes</td></tr><tr><td>Glittir banki hf</td><td>Iceland</td><td>Seized by regulators</td><td>$13,365</td><td>$5,408</td><td>Yes</td></tr><tr><td>GMAC International Finance B.V.</td><td>Netherlands</td><td>Distressed exchange</td><td>\$51</td><td></td><td>Yes</td></tr><tr><td>GMAC LLC</td><td>United States</td><td>Distressed exchange</td><td>\$17,190</td><td></td><td>Yes</td></tr><tr><td>Greatwide Logistics Services, Inc.</td><td>United States</td><td>Missed pri&amp;int payments</td><td></td><td>\$487</td><td>Yes</td></tr><tr><td>Greektown Holdings, LLC</td><td>United States</td><td>Chapter 11</td><td>$185</td><td>$262</td><td>Yes</td></tr><tr><td>Harrah&#x27;s Entertainment, Inc.</td><td>United States</td><td>Distressed exchange</td><td>\$1,142</td><td></td><td>No4</td></tr><tr><td>Harrah&#x27;s Operating Company, Inc.</td><td>United States</td><td>Distressed exchange</td><td>\$1,082</td><td></td><td>Yes</td></tr><tr><td>Hawaiian Telcom Communications, Inc.</td><td>United States</td><td>Chapter 11</td><td>$500</td><td>$575</td><td>Yes</td></tr><tr><td>Herbst Gaming, Inc.</td><td>United States</td><td>Missed interest payment</td><td>$330</td><td>$847</td><td>Yes</td></tr><tr><td>Hines Nurseries</td><td>United States</td><td>Chapter 11</td><td>$175</td><td>$40</td><td>Yes</td></tr><tr><td>HRP Myrtle Beach Operations, LLC</td><td>United States</td><td>Chapter 11</td><td>$255</td><td>$15</td><td>Yes</td></tr><tr><td>IAP Worldwide Services, Inc.</td><td>United States</td><td>Distressed exchange</td><td></td><td>\$496</td><td>Yes</td></tr><tr><td>Interep National Radio Sales, Inc.</td><td>United States</td><td>Prepackaged Chapter 11</td><td>$100</td><td>$100</td><td>Yes</td></tr><tr><td>IT Holding S.p.A</td><td>Italy</td><td>Missed pri&amp;int payments</td><td></td><td>\$12</td><td>Yes</td></tr><tr><td>JHT Holdings</td><td>United States</td><td>Prepackaged Chapter 11</td><td></td><td>\$130</td><td>Yes</td></tr><tr><td>Journal Register Co.</td><td>United States</td><td>Missed interest payment</td><td></td><td>\$673</td><td>Yes</td></tr><tr><td>Kaupthing Bank hf</td><td>Iceland</td><td>Seized by regulators</td><td>$18,282</td><td>$1,781</td><td>Yes</td></tr><tr><td>Kimball Hill, Inc.</td><td>United States</td><td>Chapter 11</td><td>$203</td><td>$150</td><td>Yes</td></tr><tr><td>Kremikovtzi AD</td><td>Bulgaria</td><td>Missed interest payment</td><td>\$504</td><td></td><td>Yes</td></tr><tr><td>Landsbanki Islands hf</td><td>Iceland</td><td>Seized by regulators</td><td>$11,015</td><td>$1,146</td><td>Yes</td></tr><tr><td>Lazy Days&#x27; R.V. Center, Inc.</td><td>United States</td><td>Missed interest payment</td><td>\$139</td><td></td><td>Yes</td></tr><tr><td>LBREP/L SunCal Master I, LLC</td><td>United States</td><td>Chapter 11</td><td></td><td>\$395</td><td>Yes</td></tr><tr><td>Legends Gaming, LLC</td><td>United States</td><td>Chapter 11</td><td></td><td>\$222</td><td>Yes</td></tr><tr><td>Lehman Brothers Bankhaus AG</td><td>Germany</td><td>Payment moratorium</td><td>\$80</td><td></td><td>Yes</td></tr><tr><td>Lehman Brothers Holdings, Inc.</td><td>United States</td><td>Chapter 11</td><td>$118,164</td><td>$2,000</td><td>Yes</td></tr><tr><td>Lehman Brothers Holdings, Plc</td><td>United Kingdom</td><td>Placed under administration</td><td>\$10</td><td></td><td>Yes</td></tr></table>
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Moody's-Rated 2008 Corporate Bond and Loan Defaults  
 
@@ -302,7 +302,7 @@ Moody's-Rated 2008 Corporate Bond and Loan Defaults
 3. Primus Telecom Group and American Color Graphic initially defaulted in 2007. They are not counted as 2008 defaulters. However, some of their debts did not default until 2008 and these debts are included in 2008's default totals.  
 4. The ratings for PRC and Quebecor World (USA) were withdrawn before January 1st, 2008 while Harrah's Entertainment's initial rating was assigned in February 2008.
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 21  
 
@@ -314,7 +314,7 @@ Exhibit 22
 
 1. Includes bond and loan issuers rated as of January 1 of each year.
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 23  
 
@@ -322,7 +322,7 @@ Exhibit 23
 
 1. Millions USD; includes bond and loan issuers rated as of January 1 of each year.
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 24  
 
@@ -331,7 +331,7 @@ Exhibit 24
 1. Includes bond and loan issuers rated as of January 1 of each year.  
 2. Millions of USD
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 ## Exhibit 25
 
@@ -345,7 +345,7 @@ Sec.</td><td>Sr.
 Unsec.</td><td>Sr. 
 Sub.</td><td>Sub.</td></tr><tr><td>3D-GOLD Jewellery Holdings Limited</td><td>Payment default</td><td></td><td></td><td></td><td>7.00%</td><td></td><td></td><td></td></tr><tr><td>Abitibi-Consolidated Company of Canada</td><td>Distressed exchange</td><td></td><td></td><td></td><td>70.00%</td><td></td><td></td><td></td></tr><tr><td>Abitibi-Consolidated Inc.</td><td>Distressed exchange</td><td></td><td></td><td></td><td>60.75%</td><td></td><td></td><td></td></tr><tr><td>ACIH, Inc.</td><td>Payment default</td><td></td><td></td><td></td><td>20.00%</td><td></td><td></td><td></td></tr><tr><td>Ainsworth Lumber Company Limited</td><td>Distressed exchange</td><td></td><td></td><td></td><td>41.00%</td><td></td><td></td><td></td></tr><tr><td>American Media Operations, Inc.</td><td>Payment default</td><td></td><td></td><td></td><td></td><td>20.00%</td><td></td><td></td></tr><tr><td>Ashton Woods USA, LLC</td><td>Payment default</td><td></td><td></td><td></td><td></td><td>20.00%</td><td></td><td></td></tr><tr><td>Atherogenics, Inc.</td><td>Payment default</td><td></td><td></td><td></td><td>11.50%</td><td></td><td></td><td></td></tr><tr><td>Atlantis Plastics, Inc.</td><td>Payment default</td><td>54.63%</td><td>41.00%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Baseline Oil &amp; Gas Corp</td><td>Payment default</td><td></td><td></td><td></td><td>101.00%</td><td></td><td></td><td></td></tr><tr><td>Big West Oil, LLC</td><td>Bankruptcy</td><td>47.50%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Birch Mountain Resources Ltd.</td><td>Payment default</td><td></td><td></td><td></td><td></td><td></td><td>10.00%</td><td></td></tr><tr><td>Buffets, Inc.</td><td>Bankruptcy</td><td>55.63%</td><td></td><td></td><td>3.50%</td><td></td><td></td><td></td></tr><tr><td>Constar International, Inc.</td><td>Bankruptcy</td><td></td><td></td><td></td><td>62.00%</td><td>3.00%</td><td></td><td></td></tr><tr><td>Controladora Comercial Mexicana S.A.B. de C.V</td><td>Bankruptcy</td><td></td><td></td><td></td><td>32.23%</td><td></td><td></td><td></td></tr><tr><td>Corporacion Durango S.A. de C.V.</td><td>Bankruptcy</td><td></td><td></td><td></td><td>26.00%</td><td></td><td></td><td></td></tr><tr><td>Downey Financial Corp.</td><td>Bankruptcy</td><td></td><td></td><td></td><td>0.53%</td><td></td><td></td><td></td></tr><tr><td>Finlay Fine Jewelry Corporation</td><td>Distressed exchange</td><td></td><td></td><td></td><td>7.00%</td><td></td><td></td><td></td></tr><tr><td>Fleetwood Enterprises Inc.</td><td>Distressed exchange</td><td></td><td></td><td></td><td></td><td>72.25%</td><td></td><td></td></tr><tr><td>Franklin Bank Corp.</td><td>Bankruptcy</td><td></td><td></td><td></td><td>0.01%</td><td></td><td></td><td></td></tr><tr><td>Fremont General Corporation</td><td>Payment default</td><td></td><td></td><td></td><td>46.00%</td><td></td><td></td><td></td></tr><tr><td>French Lick Resorts &amp; Casino, LLC</td><td>Distressed exchange</td><td></td><td></td><td></td><td>75.00%</td><td></td><td></td><td></td></tr><tr><td>Gainey Corporation</td><td>Payment default</td><td>51.65%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>General Motors Acceptance Corp. of Canada Ltd</td><td>Distressed exchange</td><td></td><td></td><td></td><td>70.71%</td><td></td><td></td><td></td></tr><tr><td>Glittir banki hf</td><td>Bankruptcy</td><td></td><td></td><td></td><td>3.00%</td><td>1.00%</td><td></td><td></td></tr><tr><td>GMAC International Finance B.V.</td><td>Distressed exchange</td><td></td><td></td><td></td><td>85.50%</td><td></td><td></td><td></td></tr><tr><td>GMAC LLC</td><td>Distressed exchange</td><td></td><td></td><td></td><td>69.87%</td><td></td><td></td><td></td></tr><tr><td>Greatwide Logistics Services, Inc.</td><td>Payment default</td><td>82.80%</td><td>61.10%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Greettown Holdings, LLC</td><td>Bankruptcy</td><td>96.59%</td><td></td><td></td><td>74.00%</td><td></td><td></td><td></td></tr><tr><td>Harrah&#x27;s Entertainment, Inc.</td><td>Distressed exchange</td><td></td><td></td><td></td><td>29.38%</td><td>56.25%</td><td></td><td></td></tr><tr><td>Harrah&#x27;s Operating Company, Inc.</td><td>Distressed exchange</td><td></td><td></td><td></td><td>20.75%</td><td></td><td></td><td></td></tr><tr><td>Hawaiian Telcom Communications, Inc.</td><td>Bankruptcy</td><td></td><td></td><td></td><td>6.25%</td><td>0.50%</td><td></td><td></td></tr><tr><td>Herbst Gaming, Inc.</td><td>Payment default</td><td>27.22%</td><td></td><td></td><td></td><td>11.00%</td><td></td><td></td></tr><tr><td>Hines Nurseries</td><td>Bankruptcy</td><td></td><td></td><td></td><td>56.25%</td><td></td><td></td><td></td></tr><tr><td>HRP Myrtle Beach Holdings, LLC</td><td>Bankruptcy</td><td></td><td></td><td></td><td>0.50%</td><td></td><td></td><td></td></tr><tr><td>HRP Myrtle Beach Operations, LLC</td><td>Bankruptcy</td><td></td><td></td><td></td><td>31.75%</td><td></td><td></td><td></td></tr><tr><td>IAP Worldwide Services, Inc.</td><td>Distressed exchange</td><td>82.67%</td><td>72.17%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Interep National Radio Sales, Inc.</td><td>Bankruptcy</td><td></td><td></td><td></td><td></td><td>76.00%</td><td></td><td></td></tr><tr><td>Internet Corporation</td><td>Bankruptcy</td><td>85.17%</td><td>65.00%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>JHT Holdings</td><td>Bankruptcy</td><td>48.10%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Journal Register Co.</td><td>Payment default</td><td>35.00%</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Kaupthing Bank hf</td><td>Bankruptcy</td><td></td><td></td><td></td><td>4.00%</td><td>1.00%</td><td></td><td></td></tr><tr><td>Kimball Hill, Inc.</td><td>Bankruptcy</td><td></td><td></td><td></td><td></td><td>3.38%</td><td></td><td></td></tr><tr><td>Kremikovtzi AD</td><td>Payment default</td><td></td><td></td><td></td><td>61.00%</td><td></td><td></td><td></td></tr><tr><td>Landsbanki Islands hf</td><td>Bankruptcy</td><td></td><td></td><td></td><td>3.00%</td><td></td><td></td><td></td></tr><tr><td>LandSource Communities</td><td>Bankruptcy</td><td>71.79%</td><td>17.50%</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Lazy Days&#x27; R.V. Center, Inc.</td><td>Payment default</td><td></td><td></td><td></td><td>11.00%</td><td></td><td></td><td></td></tr><tr><td>Legends Gaming, LLC</td><td>Bankruptcy</td><td>64.63%</td><td>40.00%</td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 2008 Defaulted Corporate Bond and Loan Recoveries<sup>1</sup>  
 
@@ -359,7 +359,7 @@ Sub.</td><td>Sub.</td></tr><tr><td>Lehman Brothers Holdings, Inc.</td><td>Bankru
 
 1. Based on 30-day post default
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 26  
 
@@ -368,7 +368,7 @@ Exhibit 26
 1. Issuer-weighted, based on 30-day post-default market prices.  
 2. Second-lien loans excluded.
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 27  
 
@@ -383,7 +383,7 @@ Exhibit 28
 
 1. Based on average default rates and senior unsecured bond recoveries measured on issuer-weighted basis.
 
-## Corporate Default and Recovery Rates, 1920-2008
+### Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 29
 
@@ -421,7 +421,7 @@ Average Five-Year Letter Rating Migration Rates, 1970-2008
 
 1. Data in percent. Average migration rates in Exhibit 31-33 are calculated using monthly cohort frequency.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 # Exhibit 34
 
@@ -437,13 +437,13 @@ Average One-Year Alphanumeric Rating Migration Rates, 1983-2008
 
 1. Data in percent. Average migration rates in Exhibit 35 are calculated using monthly cohort frequency.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 36  
 
 <table><tr><td>Year</td><td>Aaa</td><td>Aa</td><td>A</td><td>Baa</td><td>Ba</td><td>B</td><td>Caa-C</td><td>Inv Grade</td><td>Spec Grade</td><td>All rated</td><td>Year</td><td>Aaa</td><td>Aa</td><td>A</td><td>Baa</td><td>Ba</td><td>B</td><td>Caa-C</td><td>Inv Grade</td><td>Spec Grade</td><td>All rated</td><td></td></tr><tr><td>1920</td><td>0.000</td><td>0.000</td><td>0.334</td><td>0.962</td><td>2.157</td><td>4.368</td><td></td><td>0.439</td><td>3.010</td><td>1.244</td><td>1965</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr><tr><td>1921</td><td>0.000</td><td>0.185</td><td>0.340</td><td>0.639</td><td>0.447</td><td>2.693</td><td>12.270</td><td>0.380</td><td>2.066</td><td>1.031</td><td>1966</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>2.273</td><td>0.000</td><td>0.000</td><td>0.415</td><td>0.119</td><td></td></tr><tr><td>1922</td><td>0.000</td><td>0.189</td><td>0.170</td><td>1.108</td><td>1.077</td><td>1.733</td><td>7.692</td><td>0.515</td><td>1.776</td><td>1.019</td><td>1967</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td></td></tr><tr><td>1923</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.614</td><td>0.910</td><td>2.320</td><td>5.952</td><td>0.242</td><td>1.713</td><td>0.805</td><td>1968</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>5.405</td><td>0.000</td><td>0.387</td><td>0.107</td><td></td><td></td></tr><tr><td>1924</td><td>0.000</td><td>0.371</td><td>0.000</td><td>0.118</td><td>2.041</td><td>2.788</td><td>12.414</td><td>0.138</td><td>2.846</td><td>1.152</td><td>1969</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td></td><td></td></tr><tr><td>1925</td><td>0.000</td><td>0.000</td><td>0.147</td><td>0.709</td><td>1.714</td><td>2.545</td><td>14.634</td><td>0.325</td><td>2.557</td><td>1.177</td><td>1970</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.541</td><td>4.264</td><td>19.718</td><td>53.333</td><td>0.271</td><td>8.772</td><td>2.641</td><td></td></tr><tr><td>1926</td><td>0.000</td><td>0.464</td><td>0.177</td><td>0.142</td><td>1.395</td><td>2.050</td><td>5.195</td><td>0.225</td><td>1.756</td><td>0.784</td><td>1971</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.881</td><td>0.000</td><td>14.286</td><td>0.000</td><td>1.152</td><td>0.285</td><td></td></tr><tr><td>1927</td><td>0.000</td><td>0.000</td><td>0.222</td><td>0.000</td><td>1.269</td><td>1.869</td><td>13.043</td><td>0.073</td><td>1.781</td><td>0.726</td><td>1972</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>7.273</td><td>37.500</td><td>0.000</td><td>1.957</td><td>0.455</td><td></td></tr><tr><td>1928</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.183</td><td>1.252</td><td>11.111</td><td>0.000</td><td>0.897</td><td>0.373</td><td>1973</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.460</td><td>0.000</td><td>3.922</td><td>36.364</td><td>0.231</td><td>1.271</td><td>0.454</td><td></td></tr><tr><td>1929</td><td>0.000</td><td>0.303</td><td>0.000</td><td>0.434</td><td>0.752</td><td>0.877</td><td>9.434</td><td>0.240</td><td>1.294</td><td>0.688</td><td>1974</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.512</td><td>7.143</td><td>0.000</td><td>0.000</td><td>1.330</td><td>0.275</td><td></td></tr><tr><td>1930</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.421</td><td>0.922</td><td>2.902</td><td>7.813</td><td>0.159</td><td>2.131</td><td>1.024</td><td>1975</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.020</td><td>6.154</td><td>0.000</td><td>0.000</td><td>1.735</td><td>0.361</td><td></td></tr><tr><td>1931</td><td>0.000</td><td>0.000</td><td>0.281</td><td>1.039</td><td>2.959</td><td>9.220</td><td>32.468</td><td>0.490</td><td>7.845</td><td>3.811</td><td>1976</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.985</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.864</td><td>0.175</td><td></td></tr><tr><td>1932</td><td>0.000</td><td>0.677</td><td>0.873</td><td>0.898</td><td>5.973</td><td>13.785</td><td>23.392</td><td>0.780</td><td>10.811</td><td>5.434</td><td>1977</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.291</td><td>5.255</td><td>3.175</td><td>50.000</td><td>0.109</td><td>1.339</td><td>0.351</td><td></td></tr><tr><td>1933</td><td>0.000</td><td>0.000</td><td>0.266</td><td>1.808</td><td>11.111</td><td>15.916</td><td>25.668</td><td>0.806</td><td>15.391</td><td>8.424</td><td>1978</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.090</td><td>5.556</td><td>0.000</td><td>0.000</td><td>1.798</td><td>0.352</td><td></td></tr><tr><td>1934</td><td>0.000</td><td>0.610</td><td>0.348</td><td>0.817</td><td>2.632</td><td>4.309</td><td>16.040</td><td>0.578</td><td>5.929</td><td>3.462</td><td>1979</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.494</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.420</td><td>0.087</td><td></td></tr><tr><td>1935</td><td>0.000</td><td>0.000</td><td>1.345</td><td>1.899</td><td>4.826</td><td>4.173</td><td>13.072</td><td>1.253</td><td>6.090</td><td>3.857</td><td>1980</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>4.938</td><td>33.333</td><td>0.000</td><td>1.613</td><td>0.343</td><td></td><td></td></tr><tr><td>1936</td><td>0.000</td><td>0.803</td><td>0.510</td><td>0.344</td><td>1.225</td><td>2.358</td><td>7.930</td><td>0.465</td><td>2.736</td><td>1.643</td><td>1981</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>4.494</td><td>0.000</td><td>0.000</td><td>0.701</td><td>0.164</td><td></td><td></td></tr><tr><td>1937</td><td>0.000</td><td>0.000</td><td>0.545</td><td>1.101</td><td>0.651</td><td>2.697</td><td>9.040</td><td>0.661</td><td>2.595</td><td>1.666</td><td>1982</td><td>0.000</td><td>0.000</td><td>0.256</td><td>0.318</td><td>2.783</td><td>2.299</td><td>23.077</td><td>0.212</td><td>3.571</td><td>1.038</td><td></td></tr><tr><td>1938</td><td>0.000</td><td>0.870</td><td>1.719</td><td>1.988</td><td>9.985</td><td>1.468</td><td>12.739</td><td>1.579</td><td>2.593</td><td>2.122</td><td>1983</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.911</td><td>6.306</td><td>42.105</td><td>0.000</td><td>3.824</td><td>0.965</td><td></td></tr><tr><td>1939</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.950</td><td>1.875</td><td>5.714</td><td>1.402</td><td>1.751</td><td>1.210</td><td></td><td>1984</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.362</td><td>0.833</td><td>6.780</td><td>100.000</td><td>0.096</td><td>3.333</td><td>0.925</td><td></td></tr><tr><td>1940</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.325</td><td>0.418</td><td>1.097</td><td>11.823</td><td>0.572</td><td>2.606</td><td>1.868</td><td>1985</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.413</td><td>7.483</td><td>0.000</td><td>3.448</td><td>0.947</td><td></td><td></td></tr><tr><td>1941</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.955</td><td>5.766</td><td>5.063</td><td>0.000</td><td>1.698</td><td>1.087</td><td>1986</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.347</td><td>2.041</td><td>11.602</td><td>26.667</td><td>0.319</td><td>5.644</td><td>1.906</td><td></td></tr><tr><td>1942</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.818</td><td>1.980</td><td>0.000</td><td>0.750</td><td>0.468</td><td></td><td>1987</td><td>0.000</td><td>0.000</td><td>0.000</td><td>2.724</td><td>6.154</td><td>20.000</td><td>0.000</td><td>4.222</td><td>1.504</td><td></td><td></td></tr><tr><td>1943</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.345</td><td>0.000</td><td>0.000</td><td>0.615</td><td>0.374</td><td></td><td>1988</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.258</td><td>6.202</td><td>28.571</td><td>0.000</td><td>3.580</td><td>1.359</td><td></td><td></td></tr><tr><td>1944</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.818</td><td>1.980</td><td>0.000</td><td>0.750</td><td>0.468</td><td></td><td>1989</td><td>0.000</td><td>0.604</td><td>0.000</td><td>5.943</td><td>3.037</td><td>8.720</td><td>25.000</td><td>0.288</td><td>5.794</td><td>2.348</td><td></td></tr><tr><td>1945</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.818</td><td>3.226</td><td>0.000</td><td>0.525</td><td>0.294</td><td></td><td>1990</td><td>0.000</td><td>0.000</td><td>0.000</td><td>3.409</td><td>15.616</td><td>58.824</td><td>0.000</td><td>9.976</td><td>3.564</td><td></td><td></td></tr><tr><td>1946</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.818</td><td>3.226</td><td>0.000</td><td>0.525</td><td>0.294</td><td></td><td>1991</td><td>0.000</td><td>0.000</td><td>0.272</td><td>4.892</td><td>12.598</td><td>38.889</td><td>0.065</td><td>9.370</td><td>2.931</td><td></td><td></td></tr><tr><td>1947</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.818</td><td>2.439</td><td>0.000</td><td>0.314</td><td>0.156</td><td></td><td>1992</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.306</td><td>9.182</td><td>28.571</td><td>0.000</td><td>5.154</td><td>1.402</td><td></td><td></td></tr><tr><td>1948</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.818</td><td>2.439</td><td>0.000</td><td>0.314</td><td>0.156</td><td></td><td>1993</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.567</td><td>4.517</td><td>26.667</td><td>0.000</td><td>3.072</td><td>0.817</td><td></td><td></td></tr><tr><td>1949</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.370</td><td>1.111</td><td>7.407</td><td>0.000</td><td>1.901</td><td>0.835</td><td></td><td>1994</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.242</td><td>4.050</td><td>5.263</td><td>0.000</td><td>2.073</td><td>0.602</td><td></td><td></td></tr><tr><td>1950</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.818</td><td>2.439</td><td>0.000</td><td>0.314</td><td>0.156</td><td></td><td>1995</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.714</td><td>4.227</td><td>9.091</td><td>0.000</td><td>2.920</td><td>0.918</td><td></td><td></td></tr><tr><td>1951</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.818</td><td>2.439</td><td>2.439</td><td>2.439</td><td>2.439</td><td></td><td></td><td>1996</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.366</td><td>13.793</td><td>0.000</td><td>1.637</td><td>1.523</td><td>5.723</td><td></td><td></td></tr><tr><td>1952</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td>7.417</td><td>1.414</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1953</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td>7.417</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1954</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1955</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1956</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1957</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1958</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1959</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1960</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1961</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1962</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1963</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1964</td><td>0.000</td><td>0.000</td><td>1.331</td><td>1.111</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 # Exhibit 37
 
@@ -454,7 +454,7 @@ Annual Issuer-Weighted Corporate Default Rates by Alphanumeric Rating, 1983-2008
 1. Data in percent. Includes bond and loan issuers rated as of January 1 of each year.  
 2. Moody's introduced alphanumericly modified Caa ratings in 1997. Caa letter ratings are mapped to Caa2 prior to 1997.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 # Exhibit 38
 
@@ -476,7 +476,7 @@ Average Cumulative Issuer-Weighted Global Default Rates, 1970-2008<sup>1</sup>
 
 1. Data in percent. Average cumulative default rates are calculated using monthly cohort frequency.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 # Exhibit 40
 
@@ -488,7 +488,7 @@ Average Cumulative Issuer-Weighted Global Default Rates, 1983-2008<sup>1</sup>
 
 1. Data in percent. Average cumulative default rates are calculated using monthly cohort frequency.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 # Exhibit 41
 
@@ -501,7 +501,7 @@ Average Cumulative Issuer-Weighted Global Default Rates by Alphanumeric Rating, 
 1. Data in percent. Average cumulative default rates are calculated using monthly cohort frequency.  
 2. Moody's introduced alphabetically modified Caa ratings in 1997. Caa letter ratings are mapped to Caa2 prior to 1997.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 42  
 
@@ -515,7 +515,7 @@ Exhibit 43
 
 1. Percent of all rated issuers in each industry group.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 # Exhibit 44
 
@@ -525,7 +525,7 @@ Annual Default Rates by Broad Industry Groups, 1970-2008<sup>1</sup>
 
 1. Percent of all rated issuers in each industry group.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Exhibit 45  
 Annual Volume-Weighted Corporate Default Rates by Letter Rating, 1994-2008  
@@ -541,7 +541,7 @@ Average Volume-Weighted Corporate Default Rates by Letter Rating, 1994-2008
 
 1. Data in percent. Cumulative default rates are calculated using monthly cohort frequency.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 # Exhibit 47
 
@@ -559,9 +559,9 @@ Cohort formed 1/1/1972
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td></td></tr><tr><td>Aaa</td><td>41</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>2.632</td><td>2.632</td><td>2.632</td><td>2.632</td><td>2.632</td><td>2.632</td></tr><tr><td>Aa</td><td>79</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.1667</td><td>1.667</td><td>3.344</td><td></td></tr><tr><td>A</td><td>303</td><td>0.000</td><td>0.337</td><td>0.337</td><td>0.337</td><td>0.337</td><td>0.337</td><td>0.337</td><td>0.337</td><td>0.337</td><td>0.337</td><td>0.337</td><td>0.718</td><td>1.102</td><td>1.102</td><td>1.102</td><td>1.503</td><td>2.373</td><td>2.373</td><td>2.850</td><td>3.344</td><td></td></tr><tr><td>Baa</td><td>431</td><td>0.000</td><td>0.487</td><td>0.735</td><td>1.246</td><td>1.510</td><td>2.061</td><td>2.638</td><td>2.638</td><td>3.270</td><td>3.270</td><td>3.966</td><td>4.327</td><td>5.070</td><td>5.456</td><td>6.673</td><td>7.553</td><td>8.516</td><td>9.541</td><td>11.162</td><td>13.418</td><td></td></tr><tr><td>Ba</td><td>225</td><td>0.000</td><td>0.471</td><td>1.439</td><td>2.450</td><td>2.983</td><td>3.549</td><td>4.751</td><td>4.751</td><td>4.751</td><td>6.233</td><td>9.412</td><td>10.258</td><td>10.258</td><td>13.107</td><td>17.196</td><td>19.513</td><td>19.513</td><td>20.865</td><td>22.291</td><td>29.763</td><td></td></tr><tr><td>B</td><td>28</td><td>7.273</td><td>7.273</td><td>7.273</td><td>7.273</td><td>7.273</td><td>7.273</td><td>7.273</td><td>7.273</td><td>7.273</td><td>7.273</td><td>18.864</td><td>18.864</td><td>18.864</td><td>18.864</td><td>26.591</td><td>26.591</td><td>26.591</td><td>26.591</td><td>26.591</td><td>26.591</td><td></td></tr><tr><td>Caa-C</td><td>8</td><td>37.500</td><td>51.389</td><td>51.389</td><td>51.389</td><td>51.389</td><td>67.593</td><td>67.593</td><td>67.593</td><td>67.593</td><td>67.593</td><td>67.593</td><td>67.593</td><td>67.593</td><td>67.593</td><td>67.593</td><td>67.593</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Inves-Grade</td><td>854</td><td>0.000</td><td>0.363</td><td>0.486</td><td>0.736</td><td>0.864</td><td>1.125</td><td>1.394</td><td>1.394</td><td>1.680</td><td>1.680</td><td>2.133</td><td>2.442</td><td>2.757</td><td>2.919</td><td>3.584</td><td>4.109</td><td>4.850</td><td>5.238</td><td>6.248</td><td>7.290</td><td></td></tr><tr><td>Spec-Grade</td><td>261</td><td>1.957</td><td>2.769</td><td>3.609</td><td>4.487</td><td>4.950</td><td>5.927</td><td>6.961</td><td>6.961</td><td>6.961</td><td>8.227</td><td>12.276</td><td>12.995</td><td>12.995</td><td>15.434</td><td>19.816</td><td>21.783</td><td>21.783</td><td>22.968</td><td>24.231</td><td>30.878</td><td></td></tr><tr><td>All rated</td><td>1115</td><td>0.455</td><td>0.921</td><td>1.206</td><td>1.595</td><td>1.795</td><td>2.208</td><td>2.634</td><td>2.634</td><td>2.864</td><td>3.103</td><td>4.212</td><td>4.592</td><td>4.853</td><td>5.389</td><td>6.641</td><td>7.379</td><td>8.007</td><td>8.504</td><td>9.539</td><td>11.324</td><td></td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/1973  
 
@@ -575,9 +575,9 @@ Cohort formed 1/1/1975
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr><tr><td>Aaa</td><td>52</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>2.000</td><td>2.000</td><td>2.000</td><td>2.000</td><td>2.000</td><td>2.000</td><td>2.000</td><td>2.000</td></tr><tr><td>Aa</td><td>104</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.036</td><td>1.036</td><td>1.036</td><td>1.036</td><td>1.036</td><td>2.229</td><td>2.229</td><td>3.466</td><td>3.466</td><td>3.466</td><td>3.466</td><td>3.466</td></tr><tr><td>A</td><td>321</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.355</td><td>0.355</td><td>0.355</td><td>0.726</td><td>0.726</td><td>1.526</td><td>1.526</td><td>1.961</td><td>2.871</td><td>3.365</td><td>3.899</td><td>3.899</td></tr><tr><td>Baa</td><td>411</td><td>0.000</td><td>0.000</td><td>0.266</td><td>0.822</td><td>0.822</td><td>1.433</td><td>1.433</td><td>2.439</td><td>3.133</td><td>3.845</td><td>4.585</td><td>4.974</td><td>5.815</td><td>6.275</td><td>7.259</td><td>9.326</td><td>10.940</td><td>10.940</td><td>10.940</td><td>10.940</td></tr><tr><td>Ba</td><td>201</td><td>1.020</td><td>2.096</td><td>3.231</td><td>3.829</td><td>3.829</td><td>3.829</td><td>4.546</td><td>8.349</td><td>9.150</td><td>9.150</td><td>10.914</td><td>16.600</td><td>19.808</td><td>20.987</td><td>22.251</td><td>23.569</td><td>30.333</td><td>31.784</td><td>33.389</td><td>33.389</td></tr><tr><td>B</td><td>33</td><td>6.154</td><td>6.154</td><td>6.154</td><td>9.566</td><td>9.566</td><td>9.566</td><td>13.586</td><td>22.016</td><td>22.016</td><td>22.016</td><td>22.016</td><td>28.255</td><td>28.255</td><td>28.255</td><td>37.223</td><td>47.686</td><td>47.686</td><td>47.686</td><td>47.686</td><td>47.686</td></tr><tr><td>Caa-C</td><td>2</td><td>0.000</td><td>0.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Inves-Grade</td><td>888</td><td>0.000</td><td>0.000</td><td>0.119</td><td>0.362</td><td>0.362</td><td>0.620</td><td>0.620</td><td>1.166</td><td>1.585</td><td>1.869</td><td>2.160</td><td>2.460</td><td>2.932</td><td>3.597</td><td>3.943</td><td>5.023</td><td>5.952</td><td>6.151</td><td>6.367</td><td>6.367</td></tr><tr><td>Spec-Grade</td><td>236</td><td>1.735</td><td>2.647</td><td>4.086</td><td>5.093</td><td>5.093</td><td>5.093</td><td>6.298</td><td>10.760</td><td>11.436</td><td>11.436</td><td>12.957</td><td>18.678</td><td>21.419</td><td>22.420</td><td>23.498</td><td>25.781</td><td>32.906</td><td>34.172</td><td>35.558</td><td>35.558</td></tr><tr><td>All rated</td><td>1124</td><td>0.361</td><td>0.546</td><td>0.926</td><td>1.318</td><td>1.318</td><td>1.528</td><td>1.745</td><td>2.981</td><td>3.443</td><td>3.680</td><td>4.167</td><td>5.304</td><td>6.105</td><td>6.813</td><td>7.258</td><td>8.493</td><td>10.248</td><td>10.589</td><td>10.960</td><td>10.960</td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/1976  
 
@@ -591,9 +591,9 @@ Cohort formed 1/1/1978
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td></td></tr><tr><td>Aaa</td><td>71</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.538</td><td>1.538</td><td>1.538</td><td>3.101</td><td>3.101</td><td>3.101</td><td>3.101</td><td>3.101</td><td>3.101</td><td>3.101</td><td>3.101</td></tr><tr><td>Aa</td><td>131</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.816</td><td>0.816</td><td>0.816</td><td>0.816</td><td>0.816</td><td>1.743</td><td>1.743</td><td>1.743</td><td>1.743</td><td>1.743</td><td>1.743</td><td>1.743</td><td>1.743</td><td>1.743</td><td>1.743</td><td>1.743</td></tr><tr><td>A</td><td>381</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.584</td><td>0.584</td><td>0.584</td><td>1.212</td><td>1.212</td><td>2.601</td><td>2.601</td><td>4.108</td><td>4.901</td><td>4.901</td><td>5.372</td><td>5.372</td><td>5.880</td><td>5.880</td><td>5.880</td><td></td></tr><tr><td>Baa</td><td>340</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.411</td><td>1.777</td><td>2.531</td><td>2.924</td><td>3.336</td><td>4.657</td><td>5.134</td><td>6.157</td><td>7.770</td><td>9.437</td><td>10.019</td><td>10.019</td><td>10.019</td><td>10.019</td><td>10.019</td><td>10.019</td><td></td></tr><tr><td>Ba</td><td>188</td><td>1.090</td><td>1.090</td><td>1.090</td><td>1.752</td><td>4.559</td><td>6.038</td><td>6.038</td><td>9.251</td><td>15.188</td><td>17.083</td><td>18.132</td><td>19.246</td><td>21.570</td><td>28.866</td><td>30.183</td><td>33.092</td><td>33.092</td><td>33.092</td><td>33.092</td><td>33.092</td><td></td></tr><tr><td>B</td><td>37</td><td>5.556</td><td>5.556</td><td>11.852</td><td>15.178</td><td>22.397</td><td>22.397</td><td>26.708</td><td>26.708</td><td>32.346</td><td>38.497</td><td>38.497</td><td>38.497</td><td>47.283</td><td>60.462</td><td>60.462</td><td>60.462</td><td>60.462</td><td>60.462</td><td>60.462</td><td>60.462</td><td></td></tr><tr><td>Caa-C</td><td>3</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td>50.000</td><td></td></tr><tr><td>Inves-Grade</td><td>923</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.607</td><td>0.980</td><td>1.233</td><td>1.364</td><td>1.770</td><td>2.337</td><td>3.232</td><td>3.542</td><td>4.831</td><td>5.663</td><td>5.841</td><td>6.035</td><td>6.035</td><td>6.250</td><td>6.250</td><td>6.250</td><td></td></tr><tr><td>Spec-Grade</td><td>228</td><td>1.798</td><td>1.798</td><td>2.810</td><td>3.896</td><td>7.359</td><td>8.582</td><td>9.233</td><td>11.942</td><td>18.438</td><td>20.849</td><td>21.733</td><td>22.676</td><td>25.670</td><td>33.156</td><td>34.329</td><td>36.904</td><td>36.904</td><td>36.904</td><td>36.904</td><td>36.904</td><td></td></tr><tr><td>All rated</td><td>1151</td><td>0.352</td><td>0.352</td><td>0.540</td><td>0.735</td><td>1.837</td><td>2.353</td><td>2.671</td><td>3.218</td><td>4.583</td><td>5.423</td><td>6.313</td><td>6.711</td><td>8.228</td><td>9.945</td><td>10.252</td><td>10.755</td><td>10.755</td><td>10.940</td><td>10.940</td><td>10.940</td><td></td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/1979  
 
@@ -607,9 +607,9 @@ Cohort formed 1/1/1981
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td></td></tr><tr><td>Aaa</td><td>92</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.242</td><td>1.242</td><td>1.242</td><td>2.525</td><td>2.525</td><td>2.525</td><td>2.525</td><td>2.525</td><td>2.525</td><td>2.525</td><td>2.525</td><td>2.525</td><td>2.525</td><td>2.525</td></tr><tr><td>Aa</td><td>135</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.823</td><td>2.483</td><td>2.483</td><td>2.483</td><td>2.483</td><td>2.483</td><td>2.483</td><td>2.483</td><td>2.483</td><td>2.483</td><td>2.483</td><td>2.483</td><td>2.483</td><td>3.810</td></tr><tr><td>A</td><td>386</td><td>0.000</td><td>0.268</td><td>0.268</td><td>0.268</td><td>0.268</td><td>0.268</td><td>1.164</td><td>1.479</td><td>2.150</td><td>2.150</td><td>3.237</td><td>4.000</td><td>4.000</td><td>4.455</td><td>4.455</td><td>4.944</td><td>4.944</td><td>4.944</td><td>4.944</td><td>6.040</td><td>6.601</td></tr><tr><td>Baa</td><td>335</td><td>0.000</td><td>0.638</td><td>1.981</td><td>2.677</td><td>3.399</td><td>3.399</td><td>3.803</td><td>4.664</td><td>6.032</td><td>8.441</td><td>9.922</td><td>10.940</td><td>10.940</td><td>10.940</td><td>10.940</td><td>10.940</td><td>10.940</td><td>10.940</td><td>10.940</td><td>10.940</td><td>11.732</td></tr><tr><td>Ba</td><td>242</td><td>0.000</td><td>3.620</td><td>5.044</td><td>8.051</td><td>11.708</td><td>18.392</td><td>20.847</td><td>21.535</td><td>24.553</td><td>28.609</td><td>35.885</td><td>37.970</td><td>40.225</td><td>40.225</td><td>40.225</td><td>40.225</td><td>40.225</td><td>41.569</td><td>42.960</td><td>42.960</td><td>42.960</td></tr><tr><td>B</td><td>46</td><td>4.494</td><td>11.569</td><td>16.482</td><td>24.312</td><td>27.168</td><td>40.116</td><td>40.116</td><td>40.116</td><td>40.116</td><td>50.096</td><td>56.334</td><td>56.334</td><td>56.334</td><td>56.334</td><td>56.334</td><td>56.334</td><td>56.334</td><td>56.334</td><td>56.334</td><td>56.334</td><td>56.334</td></tr><tr><td>Caa-C</td><td>8</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>14.286</td><td>28.571</td><td>28.571</td><td>28.571</td><td>28.571</td><td>28.571</td><td>28.571</td><td>28.571</td><td>28.571</td><td>28.571</td><td>28.571</td><td>28.571</td><td>28.571</td><td>28.571</td><td>28.571</td></tr><tr><td>Inves-Grade</td><td>948</td><td>0.000</td><td>0.330</td><td>0.782</td><td>1.015</td><td>1.254</td><td>1.625</td><td>2.147</td><td>2.969</td><td>3.396</td><td>4.723</td><td>5.484</td><td>5.809</td><td>5.986</td><td>5.986</td><td>6.183</td><td>6.183</td><td>6.183</td><td>6.183</td><td>6.183</td><td>6.631</td><td>7.324</td></tr><tr><td>Spec-Grade</td><td>296</td><td>0.701</td><td>4.754</td><td>6.686</td><td>10.361</td><td>13.784</td><td>21.580</td><td>24.094</td><td>24.654</td><td>27.124</td><td>31.826</td><td>38.681</td><td>40.433</td><td>42.339</td><td>42.339</td><td>42.339</td><td>42.339</td><td>43.459</td><td>44.613</td><td>44.613</td><td>44.613</td><td>44.613</td></tr><tr><td>All rated</td><td>1244</td><td>0.164</td><td>1.349</td><td>2.136</td><td>3.130</td><td>4.063</td><td>6.012</td><td>6.941</td><td>7.708</td><td>8.512</td><td>10.429</td><td>12.180</td><td>12.719</td><td>13.161</td><td>13.161</td><td>13.324</td><td>13.324</td><td>13.324</td><td>13.498</td><td>13.677</td><td>14.049</td><td>14.623</td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/1982  
 
@@ -623,9 +623,9 @@ Cohort formed 1/1/1984
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr><tr><td>Aaa</td><td>81</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>1.439</td><td>1.439</td><td>1.439</td><td>3.068</td><td>3.068</td><td>3.068</td><td>3.068</td><td>3.068</td><td>3.068</td><td>3.068</td><td>3.068</td><td>3.068</td><td>3.068</td><td>3.068</td><td>3.068</td><td>3.068</td></tr><tr><td>Aa</td><td>241</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.887</td><td>1.807</td><td>1.807</td><td>1.807</td><td>1.807</td><td>1.807</td><td>1.807</td><td>1.807</td><td>2.449</td><td>2.449</td><td>2.449</td><td>2.449</td><td>2.449</td><td>2.449</td><td>3.196</td><td>3.977</td><td>3.977</td></tr><tr><td>A</td><td>454</td><td>0.000</td><td>0.228</td><td>0.467</td><td>0.718</td><td>1.505</td><td>1.777</td><td>2.918</td><td>3.810</td><td>4.443</td><td>4.443</td><td>4.443</td><td>4.443</td><td>4.443</td><td>4.443</td><td>4.443</td><td>4.443</td><td>4.889</td><td>6.271</td><td>6.762</td><td>7.299</td></tr><tr><td>Baa</td><td>281</td><td>0.362</td><td>0.362</td><td>0.770</td><td>1.225</td><td>1.729</td><td>2.789</td><td>3.909</td><td>5.085</td><td>5.085</td><td>5.770</td><td>5.770</td><td>5.770</td><td>5.770</td><td>5.770</td><td>5.770</td><td>6.703</td><td>8.667</td><td>11.729</td><td>13.856</td><td>13.856</td></tr><tr><td>Ba</td><td>246</td><td>0.833</td><td>3.490</td><td>12.154</td><td>14.336</td><td>18.088</td><td>21.634</td><td>27.203</td><td>32.434</td><td>33.420</td><td>34.530</td><td>34.530</td><td>34.530</td><td>34.530</td><td>36.071</td><td>36.071</td><td>37.775</td><td>39.528</td><td>41.333</td><td>45.000</td><td>45.000</td></tr><tr><td>B</td><td>119</td><td>6.780</td><td>12.878</td><td>20.293</td><td>24.205</td><td>27.385</td><td>32.350</td><td>42.426</td><td>49.512</td><td>51.756</td><td>56.834</td><td>56.834</td><td>56.834</td><td>56.834</td><td>60.945</td><td>60.945</td><td>60.945</td><td>60.945</td><td>60.945</td><td>60.945</td><td>60.945</td></tr><tr><td>Caa-C</td><td>2</td><td>100.000</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Inves-Grade</td><td>1057</td><td>0.096</td><td>0.194</td><td>0.400</td><td>0.948</td><td>1.644</td><td>2.007</td><td>2.891</td><td>3.548</td><td>3.830</td><td>3.984</td><td>3.984</td><td>4.155</td><td>4.155</td><td>4.155</td><td>4.155</td><td>4.351</td><td>4.955</td><td>6.406</td><td>7.277</td><td>7.510</td></tr><tr><td>Spec-Grade</td><td>367</td><td>3.333</td><td>7.130</td><td>15.329</td><td>18.122</td><td>21.657</td><td>25.709</td><td>32.857</td><td>38.645</td><td>39.994</td><td>42.272</td><td>42.272</td><td>42.272</td><td>42.272</td><td>43.322</td><td>44.479</td><td>45.673</td><td>46.907</td><td>48.187</td><td>50.810</td><td>50.810</td></tr><tr><td>All rated</td><td>1424</td><td>0.925</td><td>1.957</td><td>4.131</td><td>5.212</td><td>6.551</td><td>7.687</td><td>9.792</td><td>11.375</td><td>11.831</td><td>12.333</td><td>12.333</td><td>12.473</td><td>12.473</td><td>12.625</td><td>12.782</td><td>13.107</td><td>13.777</td><td>15.156</td><td>16.241</td><td>16.434</td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/1985  
 
@@ -639,9 +639,9 @@ Cohort formed 1/1/1987
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td></td></tr><tr><td>Aaa</td><td>132</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.100</td><td>0.000</td><td>0.000</td><td></td></tr><tr><td>Aa</td><td>318</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.382</td><td>0.382</td><td>0.382</td><td>0.382</td><td>0.382</td><td>0.918</td><td>0.918</td><td>0.918</td><td>0.918</td><td>0.918</td><td>0.918</td><td>1.566</td><td>2.228</td><td>2.228</td><td>2.228</td><td>2.228</td><td>2.228</td><td></td></tr><tr><td>A</td><td>543</td><td>0.000</td><td>0.000</td><td>0.410</td><td>1.267</td><td>1.711</td><td>1.711</td><td>1.711</td><td>1.711</td><td>1.711</td><td>1.711</td><td>1.711</td><td>1.711</td><td>1.711</td><td>2.057</td><td>2.774</td><td>3.540</td><td>4.359</td><td>4.359</td><td>4.791</td><td>4.791</td><td></td></tr><tr><td>Baa</td><td>338</td><td>0.000</td><td>1.049</td><td>1.419</td><td>3.363</td><td>4.991</td><td>6.289</td><td>7.243</td><td>7.243</td><td>7.243</td><td>7.901</td><td>7.901</td><td>9.318</td><td>10.058</td><td>11.576</td><td>12.352</td><td>12.352</td><td>12.352</td><td>12.352</td><td>12.352</td><td>12.352</td><td></td></tr><tr><td>Ba</td><td>463</td><td>2.724</td><td>4.242</td><td>9.051</td><td>15.800</td><td>22.832</td><td>25.433</td><td>28.487</td><td>30.204</td><td>31.467</td><td>32.177</td><td>33.802</td><td>34.747</td><td>34.747</td><td>36.978</td><td>40.545</td><td>44.300</td><td>44.300</td><td>44.300</td><td>44.300</td><td>45.786</td><td>45.786</td></tr><tr><td>B</td><td>268</td><td>6.154</td><td>13.729</td><td>20.458</td><td>31.700</td><td>40.535</td><td>46.398</td><td>48.421</td><td>48.421</td><td>48.421</td><td>48.421</td><td>48.421</td><td>50.367</td><td>54.683</td><td>59.104</td><td>61.441</td><td>66.759</td><td>66.759</td><td>66.759</td><td>66.759</td><td>66.759</td><td>66.759</td></tr><tr><td>Caa-C</td><td>10</td><td>20.000</td><td>30.667</td><td>30.667</td><td>30.667</td><td>30.667</td><td>30.667</td><td>30.667</td><td>30.667</td><td>65.333</td><td>65.333</td><td>65.333</td><td>65.333</td><td>65.333</td><td>65.333</td><td>65.333</td><td>65.333</td><td>65.333</td><td>65.333</td><td>65.333</td><td>65.333</td><td>65.333</td></tr><tr><td>Inves-Grade</td><td>1331</td><td>0.000</td><td>0.248</td><td>0.508</td><td>1.415</td><td>1.981</td><td>2.283</td><td>2.503</td><td>2.503</td><td>2.628</td><td>2.628</td><td>2.766</td><td>2.766</td><td>3.062</td><td>3.368</td><td>4.155</td><td>4.811</td><td>5.155</td><td>5.155</td><td>5.341</td><td>5.341</td><td></td></tr><tr><td>Spec-Grade</td><td>741</td><td>4.222</td><td>8.116</td><td>13.557</td><td>21.818</td><td>29.365</td><td>33.009</td><td>35.662</td><td>36.794</td><td>38.058</td><td>38.529</td><td>39.594</td><td>40.833</td><td>42.209</td><td>45.098</td><td>48.170</td><td>52.283</td><td>52.283</td><td>52.283</td><td>53.299</td><td>53.299</td><td></td></tr><tr><td>All rated</td><td>2072</td><td>1.504</td><td>3.016</td><td>4.986</td><td>8.160</td><td>10.696</td><td>11.861</td><td>12.671</td><td>12.935</td><td>13.310</td><td>13.410</td><td>13.725</td><td>13.946</td><td>14.409</td><td>15.128</td><td>16.243</td><td>17.407</td><td>17.680</td><td>17.680</td><td>17.976</td><td>17.976</td><td></td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/1988  
 
@@ -655,9 +655,9 @@ Cohort formed 1/1/1990
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr><tr><td>Aaa</td><td>179</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.275</td><td></td></tr><tr><td>Aa</td><td>384</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.362</td><td>0.362</td><td>0.362</td><td>0.362</td><td>0.362</td><td>0.810</td><td>1.270</td><td>1.270</td><td>1.270</td><td>1.270</td><td>1.270</td><td>2.485</td><td></td></tr><tr><td>A</td><td>603</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.279</td><td>0.567</td><td>0.869</td><td>1.190</td><td>1.190</td><td>1.533</td><td>1.533</td><td>1.533</td><td>2.725</td></tr><tr><td>Baa</td><td>341</td><td>0.000</td><td>0.627</td><td>0.627</td><td>0.627</td><td>0.627</td><td>0.627</td><td>0.627</td><td>0.627</td><td>0.627</td><td>1.156</td><td>1.711</td><td>4.568</td><td>6.961</td><td>7.603</td><td>7.603</td><td>7.603</td><td>7.603</td><td>8.447</td><td></td></tr><tr><td>Ba</td><td>465</td><td>3.409</td><td>11.554</td><td>14.164</td><td>17.229</td><td>18.025</td><td>19.362</td><td>20.333</td><td>21.406</td><td>23.248</td><td>23.927</td><td>26.111</td><td>31.614</td><td>35.888</td><td>35.888</td><td>35.888</td><td>35.888</td><td>35.888</td><td>38.427</td><td>42.487</td></tr><tr><td>B</td><td>390</td><td>15.616</td><td>25.169</td><td>32.709</td><td>36.346</td><td>38.522</td><td>41.153</td><td>41.953</td><td>45.791</td><td>49.326</td><td>52.103</td><td>56.814</td><td>58.692</td><td>65.047</td><td>65.047</td><td>65.047</td><td>67.843</td><td>67.843</td><td>70.767</td><td></td></tr><tr><td>Caa-C</td><td>18</td><td>58.824</td><td>67.059</td><td>67.059</td><td>67.059</td><td>67.059</td><td>67.059</td><td>67.059</td><td>67.059</td><td>67.059</td><td>100.000</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Inves-Grade</td><td>1507</td><td>0.000</td><td>0.141</td><td>0.141</td><td>0.141</td><td>0.141</td><td>0.234</td><td>0.234</td><td>0.234</td><td>0.234</td><td>0.344</td><td>0.573</td><td>1.399</td><td>2.136</td><td>2.395</td><td>2.395</td><td>2.536</td><td>2.536</td><td>3.510</td><td></td></tr><tr><td>Spec-Grade</td><td>873</td><td>9.976</td><td>18.708</td><td>23.362</td><td>26.599</td><td>27.948</td><td>29.759</td><td>30.635</td><td>32.617</td><td>34.927</td><td>36.657</td><td>39.472</td><td>43.611</td><td>48.145</td><td>48.145</td><td>48.145</td><td>48.880</td><td>48.880</td><td>50.543</td><td>54.044</td></tr><tr><td>All rated</td><td>2380</td><td>3.564</td><td>6.592</td><td>8.064</td><td>9.026</td><td>9.401</td><td>9.938</td><td>10.153</td><td>10.607</td><td>11.087</td><td>11.508</td><td>12.211</td><td>13.584</td><td>14.924</td><td>15.127</td><td>15.127</td><td>15.350</td><td>15.350</td><td>15.596</td><td>16.881</td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/1991  
 
@@ -671,9 +671,9 @@ Cohort formed 1/1/1993
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td></td><td></td></tr><tr><td>Aaa</td><td>129</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td></td><td></td></tr><tr><td>Aa</td><td>454</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td></td><td></td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/1994  
 
@@ -687,9 +687,9 @@ Cohort formed 1/1/1996
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr><tr><td>Aaa</td><td>128</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr><tr><td>Aa</td><td>486</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr><tr><td>A</td><td>1019</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.119</td><td>0.368</td><td>0.628</td><td>0.766</td><td>0.766</td><td>0.766</td><td>0.766</td><td>0.766</td><td>1.674</td></tr><tr><td>Baa</td><td>630</td><td>0.000</td><td>0.000</td><td>0.177</td><td>0.727</td><td>1.301</td><td>2.704</td><td>3.338</td><td>3.565</td><td>3.807</td><td>4.067</td><td>4.635</td><td>4.635</td><td>6.270</td></tr><tr><td>Ba</td><td>468</td><td>0.000</td><td>0.730</td><td>2.380</td><td>6.364</td><td>8.400</td><td>12.438</td><td>14.854</td><td>16.720</td><td>16.720</td><td>17.328</td><td>18.008</td><td>18.768</td><td>20.469</td></tr><tr><td>B</td><td>542</td><td>1.366</td><td>4.222</td><td>9.011</td><td>11.644</td><td>17.679</td><td>25.591</td><td>33.267</td><td>37.358</td><td>40.369</td><td>41.059</td><td>42.696</td><td>44.672</td><td>49.098</td></tr><tr><td>Caa-C</td><td>76</td><td>13.793</td><td>19.843</td><td>26.738</td><td>43.726</td><td>49.650</td><td>62.237</td><td>67.272</td><td>67.272</td><td>67.272</td><td>67.272</td><td>67.272</td><td>67.272</td><td>67.272</td></tr><tr><td>Inves-Grade</td><td>2263</td><td>0.000</td><td>0.000</td><td>0.049</td><td>0.203</td><td>0.416</td><td>0.916</td><td>1.207</td><td>1.331</td><td>1.397</td><td>1.467</td><td>1.616</td><td>1.616</td><td>2.441</td></tr><tr><td>Spec-Grade</td><td>1086</td><td>1.637</td><td>3.782</td><td>7.326</td><td>11.513</td><td>15.632</td><td>21.784</td><td>26.678</td><td>29.458</td><td>30.820</td><td>31.437</td><td>32.494</td><td>33.707</td><td>36.422</td></tr><tr><td>All rated</td><td>3349</td><td>0.523</td><td>1.180</td><td>2.234</td><td>3.467</td><td>4.656</td><td>6.502</td><td>7.840</td><td>8.514</td><td>8.827</td><td>8.994</td><td>9.293</td><td>9.485</td><td>10.567</td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/1997
 
@@ -703,9 +703,9 @@ Cohort formed 1/1/1999
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Aaa</td><td>107</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Aa</td><td>611</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.218</td><td>0.218</td><td>0.218</td><td>0.218</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>A</td><td>1118</td><td>0.000</td><td>0.000</td><td>0.197</td><td>0.403</td><td>0.731</td><td>0.731</td><td>0.731</td><td>0.731</td><td>0.731</td><td>1.609</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Baa</td><td>987</td><td>0.103</td><td>0.639</td><td>1.539</td><td>2.739</td><td>3.131</td><td>3.414</td><td>3.719</td><td>4.215</td><td>4.215</td><td>5.427</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ba</td><td>669</td><td>1.261</td><td>3.343</td><td>5.785</td><td>8.707</td><td>10.636</td><td>11.191</td><td>11.818</td><td>12.521</td><td>12.916</td><td>14.662</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>B</td><td>1027</td><td>4.967</td><td>13.622</td><td>24.051</td><td>32.551</td><td>37.169</td><td>40.665</td><td>41.815</td><td>43.807</td><td>46.679</td><td>50.119</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Caa-C</td><td>244</td><td>18.182</td><td>28.754</td><td>47.651</td><td>54.425</td><td>60.279</td><td>65.168</td><td>65.168</td><td>67.345</td><td>67.345</td><td>72.369</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Inves-Grade</td><td>2823</td><td>0.036</td><td>0.223</td><td>0.615</td><td>1.112</td><td>1.377</td><td>1.519</td><td>1.619</td><td>1.779</td><td>1.779</td><td>2.510</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Spec-Grade</td><td>1940</td><td>5.384</td><td>12.051</td><td>20.794</td><td>27.093</td><td>30.816</td><td>33.265</td><td>34.097</td><td>35.495</td><td>36.989</td><td>39.471</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>All rated</td><td>4763</td><td>2.180</td><td>4.881</td><td>8.415</td><td>10.992</td><td>12.408</td><td>13.263</td><td>13.572</td><td>14.057</td><td>14.423</td><td>15.525</td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/2000  
 
@@ -719,9 +719,9 @@ Cohort formed 1/1/2002
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr><tr><td>Aaa</td><td>135</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr><tr><td>Aa</td><td>694</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr><tr><td>A</td><td>1238</td><td>0.166</td><td>0.340</td><td>0.340</td><td>0.340</td><td>0.340</td><td>0.340</td><td>1.608</td></tr><tr><td>Baa</td><td>1180</td><td>1.228</td><td>1.605</td><td>1.707</td><td>1.926</td><td>2.046</td><td>2.046</td><td>2.613</td></tr><tr><td>Ba</td><td>573</td><td>1.481</td><td>3.348</td><td>4.283</td><td>5.347</td><td>6.258</td><td>6.611</td><td>8.225</td></tr><tr><td>B</td><td>831</td><td>4.574</td><td>9.961</td><td>12.558</td><td>14.642</td><td>17.664</td><td>19.521</td><td>24.642</td></tr><tr><td>Caa-C</td><td>323</td><td>28.192</td><td>40.753</td><td>49.912</td><td>52.317</td><td>56.701</td><td>59.637</td><td>61.559</td></tr><tr><td>Inves-Grade</td><td>3247</td><td>0.507</td><td>0.710</td><td>0.746</td><td>0.822</td><td>0.863</td><td>0.863</td><td>1.561</td></tr><tr><td>Spec-Grade</td><td>1727</td><td>7.921</td><td>13.296</td><td>16.223</td><td>17.914</td><td>20.161</td><td>21.442</td><td>24.601</td></tr><tr><td>All rated</td><td>4974</td><td>3.031</td><td>4.902</td><td>5.804</td><td>6.326</td><td>6.929</td><td>7.225</td><td>8.436</td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/2003  
 
@@ -735,9 +735,9 @@ Cohort formed 1/1/2005
 
 <table><tr><td>Rating</td><td>Issuers</td><td>1</td><td>2</td><td>3</td><td>4</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Aaa</td><td>144</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Aa</td><td>632</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.199</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>A</td><td>1242</td><td>0.000</td><td>0.000</td><td>0.000</td><td>0.892</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Baa</td><td>1175</td><td>0.175</td><td>0.175</td><td>0.175</td><td>0.611</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ba</td><td>559</td><td>0.000</td><td>0.656</td><td>0.909</td><td>3.151</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>B</td><td>967</td><td>1.224</td><td>3.067</td><td>4.033</td><td>7.83</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Caa-C</td><td>330</td><td>6.179</td><td>10.417</td><td>13.753</td><td>21.354</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Inves-Grade</td><td>3193</td><td>0.065</td><td>0.065</td><td>0.065</td><td>0.613</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Spec-Grade</td><td>1856</td><td>1.732</td><td>3.627</td><td>4.768</td><td>8.648</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>All rated</td><td>5049</td><td>0.662</td><td>1.3</td><td>1.654</td><td>3.175</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-# Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
+## Cumulative Issuer-Weighted Default Rates by Annual Cohort, 1970-2008 (continued)
 
 Cohort formed 1/1/2006  
 
@@ -753,9 +753,9 @@ Cohort formed 1/1/2008
 
 1. Data in percent.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-## Guide to Data Tables and Charts
+### Guide to Data Tables and Charts
 
 In this section we briefly describe the interpretation of some of the Exhibits contained in this report. Methodological details are discussed in separate sections below.
 
@@ -773,21 +773,21 @@ Exhibit 47 shows the cumulative issuer-weighted historical default rates of coho
 
 Corporate Default and Recovery Rates, 1920-2008
 
-## Methodology and Data Sources
+### Methodology and Data Sources
 
-## Methodology Changes in this Year's Report
+### Methodology Changes in this Year's Report
 
 The historical data contained in Moody's 2009 global default study includes a number of revisions relative to previous years' publications. Moody's occasionally discovers historical defaults, leading to minor revisions of the historical data. As always, the data contained in the most recently published Moody's default study supersedes the data published in previous reports.
 
-## Change in Senior Rating Algorithm
+### Change in Senior Rating Algorithm
 
 In January 2009, we applied a smoothing procedure in the senior rating algorithm to estimate every issuer's senior unsecured ratings. This enhancement aims to eliminate artificial rating changes that are not the result of a change in an issuer's credit quality, but due to a switch of reference debt on which the estimated senior unsecured rating is derived. The implementation of the smoothing procedure is particularly important when Moody's introduced new debt ratings, refined its rating scale, or adjusted its notching practices. For example, the introduction of issuer ratings on October 25 1999 results in numerous artificial rating changes if the smoothing procedure is not in place. At other times, the impact of the smoothing is modest. For instance, only  $3\%$  of Moody's-rated issuers have a different estimated senior unsecured rating (mostly by one notch) as of January 1, 2009 due to the introduction of the smoothing procedure.
 
-## Removal of Special Purpose Vehicles
+### Removal of Special Purpose Vehicles
 
 In January 2009, we removed a substantial number of special purpose vehicles from Hartford Financial Services Group, Inc., Principal Financial Group, Inc., and Protective Life Corporation. These SPVs are noninsurance conduits and mostly Aa3 or A1 credits. None of them had defaulted.
 
-## Moody's Definition of Default
+### Moody's Definition of Default
 
 Moody's definition of default includes three types of credit events:
 
@@ -797,11 +797,11 @@ Moody's definition of default includes three types of credit events:
 
 The definition of a default is intended to capture events that change the relationship between debt holders and the debt issuer from the relationship which was originally contracted, and which subjects the bondholder to an economic loss. Technical defaults (covenant violations, etc.) are not included in Moody's definition of default. Secondary and tertiary defaults are reported only after the initial default event is believed to have been cured. This is to ensure that multiple defaults related to a single episode of credit distress are not over-counted.
 
-## Rating Migration Calculations
+### Rating Migration Calculations
 
 A rating migration matrix completely summarizes changes in credit ratings over a given time horizon. The cells of the matrix are discrete-time estimates of rating migration probabilities. They show rate of rating change measured at two points in time; e.g. the start and end of one year. When calculating credit rating migration rates, Moody's treats rating changes, rating withdrawals, and defaults as mutually exclusive states. For example, an issuer that is downgraded on the day of default is counted only as a default, not a downgrade or a downgrade and default. Similarly, an issuer whose rating is withdrawn on the day of default is counted as a default, not a withdrawal.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 The probability that an issuer's rating  $i$  held on cohort date  $y$  will transition to rating  $j$  (which includes default and withdrawal) over a time horizon  $T$  is calculated as:
 
@@ -815,7 +815,7 @@ $$
 \bar {p}_{i j} (T) = \frac{\sum_{y \in Y} n_{i j}^{y} (T)}{\sum_{y \in Y} n_{i}^{y} (0)}
 $$
 
-## Default Rate Calculations
+### Default Rate Calculations
 
 Moody's method for calculating cumulative default rates is a discrete-time approximation of the nonparametric continuous-time hazard rate approach. $^{12}$  Cumulative default rates are calculated from marginal default rates, which represent the probability that an issuer that has survived in the sample through a particular date will default over the next time interval (typically, one year) following that date.
 
@@ -845,7 +845,7 @@ $$
 \overline {{D}}_{i} (T) = 1 - \prod_{t = 1}^{T} [ 1 - \overline {{d}}_{i} (t) ]
 $$
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 where
 
@@ -861,7 +861,7 @@ $$
 
 Using this method, all issuers whose ratings are withdrawn are removed. In effect, data for issuers whose ratings are withdrawn is completely discarded. This method generally yields higher default rate estimates than the hazard rate method. Hence, Moody's hazard rate-derived default rate estimates lay between unadjusted migration matrix-derived default rates and withdrawal-adjusted migration matrix-derived default rates.
 
-## Recovery Rate Calculations
+### Recovery Rate Calculations
 
 Moody's estimates defaulted debt recovery rates using market bid prices observed roughly 30 days after the date of default. Recovery rates are measured as the ratio of price to par value. Using post-default prices to measure recovery (or its complement, loss severity) parallels common practice in the credit default swaps market. Moreover, recovery rates measured in this way are most relevant for cash bond investors who liquidate their holdings shortly after default as often required by their portfolio governance rules or their own investment objectives. For investors holding defaulted securities until ultimate resolution, prices observed shortly after default are generally accepted as the market's estimate of discounted expected ultimate recovery rates.
 
@@ -869,9 +869,9 @@ The alternative approach of directly measuring ultimate realized recoveries pres
 
 <table><tr><td>Statistic</td><td>Definition</td></tr><tr><td>Issuer-Weighted Mean Recovery Rates</td><td>They are derived by estimating mean recovery rates for each issuer, then averaging them across issuers. They are useful for predicting recovery rates for portfolios that are well diversified across issuers.</td></tr><tr><td>Value-Weighted Mean Recovery Rates</td><td>They represent the average of recovery rates on all defaulted issuers, weighted by the face value of those issues. These estimates are useful for predicting recovery rates on the market portfolio.</td></tr><tr><td>Issuer-Weighted Median Recovery Rates</td><td>They are estimated as median of issuer-weighted recovery rates and are used for predicting the most likely recovery rate for a randomly selected issuer.</td></tr><tr><td>Issue-Weighted Mean Recovery Rates</td><td>They are estimated using recovery rates for each issue and taking the average of all issues. While this measure is widely reported, it is useful only for predicting the average recovery rate on a portfolio of default bonds diversified across issues but without reference to issuer or issue size.</td></tr></table>
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
-## Credit Loss Rate Calculations
+### Credit Loss Rate Calculations
 
 Moody's credit ratings are opinions of relative expected credit losses. Credit losses are therefore a function of both probability of default (PD) as well as the severity of default (LGD). The expected credit loss rate for rating category  $i$  is calculated as the product of the  $T$ -horizon average issuer-weighted default rate and the  $T$ -horizon average issuer-weighted senior unsecured loss severity rate (where  $r(T)$  is the average senior unsecured recovery rate at horizon  $T$ ):
 
@@ -879,29 +879,29 @@ $$
 l_{i} (T) = \bar {D}_{i} (T) \times (1 - \bar {r}_{i} (T))
 $$
 
-## CAP Curve and Accuracy Ratio
+### CAP Curve and Accuracy Ratio
 
 In addition to assigning low ratings to issuers that ultimately default, the effectiveness of a rating system depends on its ability to assign high credit ratings to issuers that do not default. In other words, an efficient rating system is able to separate the low credit risks from the high credit risks. A metric designed to measure this aspect of ratings performance is the cumulative accuracy profile (CAP) plot. $^{14}$  The CAP plot graphs the cumulative proportion of defaults from a portfolio (the y-axis) against the proportion of issuers exposed to the risk of default (the x-axis), sorted by riskiness. A rating system that randomly identified defaults from non-defaults would plot a line directly on the 45-degree line. The more powerful the discriminatory power of the rating system, the further the CAP curve bows toward the top left corner.
 
 CAP curves are powerful tools for visualizing rating performance, but can be unwieldy from making comparisons over many time periods. A summary measure of rating accuracy that can be derived from the CAP curve is the accuracy ratio (AR). The accuracy ratio is the ratio of the area between the CAP curve and the 45-degree line to the total area above the 45-degree line. A rating system that perfectly differentiates defaults from non-defaults would score an AR of  $100\%$ , while a rating system that had zero predictive ability would score  $50\%$ .[15]
 
-## Data Sources
+### Data Sources
 
 Moody's bases the results of this study on its proprietary database of ratings and defaults for corporate bond and loan issuers. Municipal and sub-sovereign debt issuers, structured finance securities, private placements, and issuers with only short-term debt ratings are excluded unless otherwise noted. In total, Moody's data covers the credit experiences of over 18,000 corporate issuers that sold long-term public debt at some time between 1920 and 2008. As of January 1, 2008 approximately 6,000 corporate issuers held a Moody's long-term bond, loan, or corporate family rating.
 
 Moody's database of corporate defaults covers over 3,600 long-term bond defaults by issuers both rated and non-rated by Moody's. Additional data sources, such as Lehman Brothers index data, supplemented Moody's proprietary data in the construction of the aggregate dollar volume-weighted default rates. Defaulted bond pricing data was derived from Bloomberg, Reuters, and TRACE. The majority of these market quotes represent an actual bid on the debt instrument, although no trade may have occurred at that price. Over the 1982-2008 period, the dataset consists includes post-default prices for approximately 3,000 defaulted instruments issued by over 1,400 defaulting corporations. Moody's makes the 1970-2008 credit rating, default, and recovery rate data used in this study available through its Default Risk Service (DRS) database.
 
-# Corporate Default and Recovery Rates, 1920-2008
+## Corporate Default and Recovery Rates, 1920-2008
 
 Report Number: 114385
 
-# Authors
+## Authors
 
 Kenneth Emery
 
 Sharon Ou
 
-# Production
+## Production
 
 Ida Chan
 

@@ -1,27 +1,27 @@
 ---
-parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: 'Lecture 9: A Model for Foreign Exchange'
-tags: null
-aliases:
-- A Model for Foreign Exchange
-parent_folder: Lecture Notes
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: 'Lecture 9: A Model for Foreign Exchange'
+title: "Lecture 9: A Model for Foreign Exchange"
+parent_directory: "Lecture Notes"
+formatted: 2025-12-21 10:22:25 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
 primary_tags:
-- bretton woods agreement
-- exchange rate process
-- dollar/pound sterling exchange rate
+  - foreign exchange models
+  - exchange rate processes
+  - currency options pricing
+  - risk neutral measures
+  - stochastic differential equations
 secondary_tags:
-- .4 british pounds
-- exchange contracts
-- exchange contract
-- simplest model
-- 2.5 u. s. dollars
-- forward exchange contract
-tags_extracted: '2025-12-18T17:58:19.993174'
-tags_method: max_quality_v1
+  - bretton woods agreement
+  - geometric brownian motion
+  - likelihood ratio
+  - martingale measures
+  - arbitrage pricing
+  - forward exchange contracts
+  - numeraire choice
+  - ito formula
+  - black scholes analogy
+  - foreign exchange derivatives
+cssclasses: academia
 ---
 
 # LECTURE 9: A MODEL FOR FOREIGN EXCHANGE
@@ -144,28 +144,34 @@ It is noteworthy that the likelihood ratio (8) is of the same type as occurs in 
 
 (11)
 
-then under  $Q_A$  the process  $\{\tilde{W}_t\}_{0 \leq t \leq T}$  is a standard Wiener process. Substituting this equation into formula (6) gives the following alternative form for the exchange rate process  $Y_t$ :
+then under $Q_A$ the process $\{\tilde{W}_t\}_{0 \leq t \leq T}$ is a standard Wiener process. Substituting this equation into formula (6) gives the following alternative form for the exchange rate process $Y_t$:
 
 $$
 Y_{t} = Y_{0}\exp\{(r_{B} - r_{A})t - \sigma^{2}t/2 + \sigma W_{t}\}
 $$
 
-(12)  $= Y_{0}\exp\{(r_{B} - r_{A})t + \sigma^{2}t/2 + \sigma \tilde{W}_{t}\}.$
+$$
+Y_{t} = Y_{0}\exp\{(r_{B} - r_{A})t + \sigma^{2}t/2 + \sigma \tilde{W}_{t}\}. \tag{12}
+$$
 
 It follows by Itô's formula that the exchange rate process obeys the stochastic differential equation
 
-(13)  $dY_{t} = (r_{B} - r_{A} + \sigma^{2})Y_{t}dt + \sigma Y_{t}d\tilde{W}_{t}.$
+$$
+dY_{t} = (r_{B} - r_{A} + \sigma^{2})Y_{t}dt + \sigma Y_{t}d\tilde{W}_{t}. \tag{13}
+$$
 
 Observe that this is a second proof of Proposition 2 (the first proof was a homework exercise).
 
 # 4. OPTIONS ON FOREIGN EXCHANGE
 
-Consider an option CALL that gives the owner the right (but no obligation) to exchange 1 dollar for  $K$  pounds sterling at time  $T$ . What is the time  $t = 0$  arbitrage price, in dollars, of this option? Let's take the viewpoint of a dollar investor. (In the homework you will be asked to do the entire problem again from the viewpoint of the pound-sterling investor, and to verify that this leads to the same arbitrage price.) The value in dollars of  $K$  pounds sterling at time  $T$  will be  $K / Y_{T}$ , and so the value  $V_{T}$  (in dollars) of the option at termination  $t = T$  will be  $V_{T} = (K / Y_{T} - 1)_{+}$ . Consequently, the value at time zero is
-
-(14)  $V_{0} = e^{-r_{A}T}E_{A}(K / Y_{T} - 1)_{+}$
+Consider an option CALL that gives the owner the right (but no obligation) to exchange 1 dollar for  $K$  pounds sterling at time  $T$ . What is the time  $t = 0$  arbitrage price, in dollars, of this option? Let's take the viewpoint of a dollar investor. (In the homework you will be asked to do the entire problem again from the viewpoint of the pound-sterling investor, and to verify that this leads to the same arbitrage price.) The value in dollars of $K$ pounds sterling at time $T$ will be $K / Y_{T}$, and so the value $V_{T}$ (in dollars) of the option at termination $t = T$ will be $V_{T} = (K / Y_{T} - 1)_{+}$. Consequently, the value at time zero is
 
 $$
-= e^{-r_{A}T}E_{A}(KY_{0}\exp\{(r_{A} - r_{B} + \sigma^{2}/2)t - \sigma W_{t}\} - 1)_{+}.
+V_{0} = e^{-r_{A}T}E_{A}(K / Y_{T} - 1)_{+}. \tag{14}
+$$
+
+$$
+V_{0} = e^{-r_{A}T}E_{A}(KY_{0}\exp\{(r_{A} - r_{B} + \sigma^{2}/2)t - \sigma W_{t}\} - 1)_{+}.
 $$
 
 This last expectation is identical in form to the expectation that we encountered in pricing a European call option on a stock in the Black-Scholes theory, and thus may be evaluated explicitly in terms of the cumulative normal distribution function  $\Phi$ .

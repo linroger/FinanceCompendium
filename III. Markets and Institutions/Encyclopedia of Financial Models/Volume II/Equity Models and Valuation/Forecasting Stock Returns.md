@@ -1,4 +1,27 @@
 
+---
+title: "Forecasting Stock Returns"
+parent_directory: "Equity Models and Valuation"
+formatted: "2025-12-21 10:40:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - stock return forecasting
+  - predictive return models
+  - market efficiency concepts
+  - statistical forecasting methods
+secondary_tags:
+  - random walk hypothesis
+  - martingale processes
+  - autoregressive models
+  - factor models
+  - volatility forecasting
+  - risk-return predictability
+  - quantitative portfolio management
+  - market predictability debate
+cssclasses: academia
+---
+
 # Forecasting Stock Returns
 
 FRANK J. FABOZZI, PhD, CFA, CPA
@@ -24,7 +47,7 @@ Actually the debate about the predictability of stock prices and returns has a l
 
 In this entry, we look at the issue of whether forecasting stock returns can be done so as to generate trading profits and excess returns. Because the issue about predictability of stock returns or prices requires an understanding of statistical concepts, we will provide a brief description of the relevant concepts in probability theory and statistics. We then discuss the different types of predictive return models that are used by portfolio managers.
 
-# THE CONCEPT OF PREDICTABILITY
+## THE CONCEPT OF PREDICTABILITY
 
 To predict (or forecast) involves forming an expectation of a future event or future events. Since ancient times it has been understood that the notion of predicting the future is subject to potential inconsistencies. Consider what might happen if one receives a highly reliable prediction that tomorrow one will have a car accident driving to work. This might alter one's behavior such that a decision is made not to go to work. Hence, one's behavior will be influenced by the prediction, thus potentially invalidating the prediction. It is because of inconsistencies of this type that two economists in the mid 1960s, Paul Samuelson and Eugene Fama, arrived at the apparently paradoxical conclusion that "properly anticipated prices fluctuate randomly."3
 
@@ -58,7 +81,7 @@ Ultimately, the objective in solving this problem is to avoid models that allow 
 
 In statistical terminology, returns fluctuating randomly around a given mean refers to returns following multivariate random walks. A fair game means that returns are martingales. These concepts and their differences will be explained below. The first two proposed solutions are incorrect; the third is too general to be useful for asset management. Before we discuss the above models of prices, we digress to briefly explain some statistical concepts.
 
-# Statistical Concepts of Predictability and Unpredictability
+## Statistical Concepts of Predictability and Unpredictability
 
 Because we have stressed how we must rely on probability to understand the concepts of predictability and unpredictability, we will first explain the concepts of conditional probability, conditional expectation, independent and identically distributed random variables, strict white noise, martingale difference sequence, and white noise. In addition, we have to understand the concept of an error term and an innovation.
 
@@ -75,7 +98,7 @@ A martingale difference sequence is a sequence of random variables that have a m
 
 A white noise is a sequence of uncorrelated random variables with a mean of zero and a finite variance. Since the random variables are uncorrelated, in a white noise expectations are linearly unpredictable. Higher moments, if they exist, might be predictable. The key here is that they are unpredictable using a linear model. However, they may be predicted as nonlinear functions of past values. It is for this reason that certain statistical techniques that involve nonlinear functions such as neural networks have been used by some quantitative asset management firms to try to predict expectations.
 
-# Random Walks and Martingales
+## Random Walks and Martingales
 
 In the special case where the random variables are normally distributed, it can be proven that strict white noise, martingale difference sequence, and white noise coincide. In fact, two uncorrelated, normally distributed random variables are also independent.
 
@@ -86,7 +109,7 @@ We can now define what is meant by an arithmetic random walk, a martingale, and 
 - A martingale is the sum of martingale difference sequence terms. The mean of a martingale is unpredictable (linearly and nonlinearly); that is, the expectation of a martingale coincides with its present value. Higher moments might be predictable.
 - A stick random walk is the sum of strict white-noise terms. A strict random walk is unpredictable: Its mean, variance, and higher moments are all unpredictable.
 
-# Error Terms and Innovations
+## Error Terms and Innovations
 
 Any statistical process can be broken down into a predictable and an unpredictable component. The first component is that which can be predicted from the past values of the process. The second component is that which cannot be predicted. The component that cannot be predicted is called the innovation process. Innovation is not specifically related to a model, it is a characteristic of the process. Innovations are therefore unpredictable processes.
 
@@ -94,14 +117,14 @@ Now consider a model that is supposed to explain empirical data such as predicti
 
 More specifically, a random walk whose changes (referred to as increments) are nonnormal white noise contains a residual structure not explained by the model both at the level of expectations and higher moments. If data follow a martingale model, then expectations are completely explained by the model but higher moments are not.
 
-# The Importance of the Statistical Concepts
+## The Importance of the Statistical Concepts
 
 We have covered a good number of complex statistical concepts. What's more, many of these statistical concepts are not discussed in basic statistics courses offered in business schools. So, why are these apparently arcane statistical considerations of practical significance to investors? The reason is that the properties of models that are used in attempting to forecast returns and prices depend on the assumptions made about "noise" in the data. For example, a linear model makes linear predictions of expectations and cannot capture nonlinear events such as the clustering of volatility that have been observed in real-world stock markets. It is therefore natural to assume that errors are white noise. In other models attempting to forecast returns and prices, however, different assumptions about noise need to be made; otherwise the properties of the model conflict with the properties of the noise term.
 
 Now, the above considerations have important practical consequences when testing error terms to examine how well the models that will be described later in this entry perform. When testing a model, one has to make sure that the residuals have the properties that we assume they have. Thus, if we use a linear model, say a linear regression, we will have to make sure that residuals from time-series data are white noise; that is, that the residuals are uncorrelated over time. The correlation between the residuals at different times from a model based on time-series data is referred to as autocorrelation. In a linear regression using time-series data, the presence of autocorrelation violates the ordinary least squares assumption when estimating the parameters of the statistical model. In general, it will suffice to add lags to the set of predictor variables to remove the existence of autocorrelation of the residuals. However, if we have to check that residuals are martingale difference sequences or strict white noise, we will have to use more powerful tests. In addition, adding lags will not be sufficient to remove undesired properties of residuals. Models will have to be redesigned. These effects are not marginal: They can have a significant impact on the profitability and performance of investment strategies.
 
 
-# A CLOSER LOOK AT PRICING MODELS
+## A CLOSER LOOK AT PRICING MODELS
 
 Armed with these concepts from statistics, let's now return to a discussion of pricing models. The first hypothesis on equity price processes that was advanced as a solution to the problem of forecastability was the random walk hypothesis. The strongest formulation assumes that returns are a sequence of IID variables, that is, a strict random walk. This means that, over time, the mean and the variance do not change from period to period. If returns are IID variables, it can be shown that the logarithms of prices follow a random walk and the prices themselves follow what is called a geometric random walk. The IID model is clearly a model without forecastability as the distribution of future returns does not depend on any information set known at the present moment. It does, however, allow stock prices to have a fixed drift.
 
@@ -121,7 +144,7 @@ The definitive answer is due to Harrison and Kreps (1979) and Harrison and Plisk
 
 However, it is precisely due to the market being populated by market agents capable of making perfect forecasts, it is not necessarily true that successful predictions will lead to excess returns. For example, it is generally accepted that predicting volatility is easier than predicting returns. The usual explanation of this fact is that investors and portfolio managers are more interested in returns than in volatility. With the maturing of the quantitative methods employed by asset managers coupled with the increased emphasis placed on risk-return, risk and returns have become equally important. However, this does not entail that both risk and returns have become unpredictable. It is now admitted that it is possible to predict combinations of the two.
 
-# PREDICTIVE RETURN MODELS
+## PREDICTIVE RETURN MODELS
 
 Equity portfolio managers have used various statistical models for forecasting returns and risk. These models, referred to as predictive return models, make conditional forecasts of expected returns using the current information set. That information set could include past prices, company information, and financial market information such as economic growth or the level of interest rates.
 
@@ -147,13 +170,13 @@ What are the statistical properties of the model?
 
 The first and last questions rely on the statistical concepts that we described earlier. These questions are addressed in more technical-oriented equity investment management books.[14] Consequently, we will limit our discussion in this entry to only the first question, describing the statistical properties of the four types of predictive return models. That is, we describe the fundamental statistical concepts behind these models and their economic meaning, but we omit the mathematical details.
 
-# Regressive Models
+## Regressive Models
 
 Regressive models of returns are generally based on linear regressions on factors. Factors are also referred to as predictors. Linear regression models are used in several aspects of portfolio management beyond that of return forecasting. For example, an equity analyst may use such models to forecast future sales of a company being analyzed.
 
 Regressive models can be categorized as one of two fundamental kinds. The first is static regressive models. These models do not make predictions about the future but regress present returns on present factors. The second type is predictive regressive models. In such models future returns are regressed on present and past factors to make predictions. For both types of models, the statistical concepts and principles are the same. What differs is the economic meaning of each type of model.
 
-# Static Regressive Models
+### Static Regressive Models
 
 Static regressive models for predicting returns should be viewed as timeless relationships that are valid at any moment. They are not useful for predictive purposes because there is no time lag between the return and the factor. For example, consider the empirical analogue of the CAPM as represented by the characteristic line given by the following regression model:
 
@@ -199,13 +222,13 @@ $$
 
 Thus, in order for a portfolio manager to build a portfolio or to compute portfolio risk measures using the above multifactor model for month  $T + 1$ , just as in the case of the characteristic line, some assumption about how to forecast the excess returns (i.e.,  $r_{FN,T + 1} - r_{f,T + 1}$ ) for each factor is required.
 
-# Predictive Regressive Models
+### Predictive Regressive Models
 
 In the search for models to predict returns, predictive regressive models have been developed. To explain predictive regressive models, consider some stock return and an assumed number of predictors. These predicators could be financial measures and market measures. A predictive linear regressive model assumes that the stock return at any given time  $t$  is a weighted average of its predictors at an earlier time plus a constant and some error. Hence, the information needed for predicting a stock's return does not require the forecasting of the predictor used in the regression model.
 
 Predictive regressive models can also be defined by estimating a regression model where there are factors used as predictors at different lags. Such models, referred to as distributed lag models, have the advantage that they can capture the eventual dependence of returns not only on factors but also on the rate of change of factors. Here is the economic significance of such models. Suppose that a portfolio manager wants to create a predictive model based on, among other factors, "market sentiment." In practice, market sentiment is typically measured as a weighted average of analysts' forecasts. A reasonable assumption is that stock returns will be sensitive to the value of market sentiment but will be even more sensitive to changes in market sentiment. Hence, distributed lag models will be useful in this setting.
 
-# Linear Autoregressive Models
+## Linear Autoregressive Models
 
 In a linear autoregressive model, a variable is regressed on its own past values. Past values are referred to as lagged values and when they are used as predictors in the model they are referred to as lagged variables. In the case of predictive return models, one of the lagged variables would be the past values of the return of the stock. If the model involves only the lagged variable of the stock return, it is called an autoregressive model (AR model). An AR model prescribes that the value of a variable at time  $t$  be a weighted average of the values of the same variable at times  $t - 1, t - 2, \ldots$ , and so on (depending on number of lags) plus an error term. The weighting coefficients are the model parameters that must be estimated. If the model includes  $p$  lags, then  $p$  parameters must be estimated.
 
@@ -214,18 +237,18 @@ If there are other lagged variables in addition to the lagged variable represent
 For a model to be useful, the number of parameters to be estimated needs to be small. In practice, the implementation of a VAR is complicated by the fact that such models can only deal with a small number of series. This is because when there is a large number of series—for example, the return processes for the individual stocks making up such aggregates as the S&P 500 Index—this would require a large number of parameters to be estimated. For example, if one wanted to model the daily returns of the S&P 500 with a VAR model that included two lags, the number of parameters to estimate would be 500,000. To have at least as many data points as parameters, one would need at least four years of data, or 1,000 trading days, for each stock return process, which is  $1,000 \times 500 = 500,000$  data points. Under these conditions, estimates would be extremely noisy and the estimated model would be meaningless.
 
 
-# Dynamic Factor Models
+## Dynamic Factor Models
 
 Unlike a VAR model, which involves regressing returns on factors but does not model the factors, a dynamic factor model assumes factors follow a VAR model and returns (or prices) are regressed on these factors. The advantage of such models is that unlike the large amount of data needed to estimate the large number of parameters in a VAR model, a dynamic factor model can significantly reduce the number of parameters to be estimated and therefore the amount of data needed.
 
-# Hidden-Variable Models
+## Hidden-Variable Models
 
 Hidden-variable models attempt to represent states of the market using hidden variables. Probably the best known hidden-variable model is the autoregressive conditional heteroscedasticity (ARCH) and generalized autoregressive conditional heteroscedasticity (GARCH) family. ARCH/GARCH models use an autoregressive process to model the volatility of another process. The result is a rich representation of the behavior of the model volatility.
 
 Another category of hidden-variable models is the Markov switching-vector autoregressive (MS-VAR) family. These models do allow forecasting of expected returns. The simplest MS-VAR model is the Hamilton model. In economics, this model is based on two random walk models—one with a drift for periods of economic expansion and the other with a smaller drift for periods of economic recession. The switch between the two models is governed by a probability transition table that prescribes the probability of switching from recession to expansion, and vice versa, and the probability of remaining in the same state.
 
 
-# IS FORECASTING MARKETS WORTH THE EFFORT?
+## IS FORECASTING MARKETS WORTH THE EFFORT?
 
 In the end, all of this discussion leads to the question: What are the implications for portfolio managers and investors who are attempting or contemplating attempting building predictive return models? That is, how does this help portfolio managers and investors to decide if there is potentially sufficient benefit (i.e., trading profits and/or excess returns) in trying to extract information from market price data through quantitative modeling? There are three important points regarding this potential benefit.
 
@@ -253,7 +276,7 @@ Hence, whether the random walk assumption is in fact the benchmark model of pric
 
 [S]imple random walk models with risk premiums are not necessarily the safest models. The joint assumptions that markets are unforecastable and that there are risk premiums is not necessarily the safest assumption.
 
-# KEY POINTS
+## KEY POINTS
 
 - Despite the ongoing debate about the predictability of stock prices and returns, asset management firms have adopted statistical models of various levels of complexity for forecasting these values.
 - The concept of forecastability rests on how one can forecast the future given the current information set known at that date.

@@ -1,4 +1,28 @@
 
+---
+title: "Equity Portfolio Selection Models in Practice"
+parent_directory: "Equity Models and Valuation"
+formatted: "2025-12-21 10:40:00 AM"
+formatter_model: "claude-haiku-4-5-20251001"
+cli-tool: "claude-code"
+primary_tags:
+  - "portfolio optimization"
+  - "equity portfolio management"
+  - "quantitative portfolio allocation"
+  - "transaction costs modeling"
+  - "tracking error minimization"
+secondary_tags:
+  - "mean variance framework"
+  - "factor models"
+  - "portfolio constraints"
+  - "tax aware optimization"
+  - "robust portfolio optimization"
+  - "multi account optimization"
+  - "benchmark tracking"
+  - "risk factor exposure"
+cssclasses: academia
+---
+
 # Equity Portfolio Selection Models in Practice
 
 DESSISLAVA A. PACHAMANOVA. PhD
@@ -22,7 +46,7 @@ An integrated investment process generally involves the following activities:
 4. Portfolio adjustments are made as appropriate to reflect significant changes in any or all of the relevant variables.
 
 In this entry we focus on the second activity of the investment process, developing and implementing a portfolio strategy. The development of the portfolio strategy itself is typically done in two stages: First, funds are allocated among asset classes. Then, they are managed within the asset classes. The mean-variance framework is used at both stages, but in this entry, we discuss the second stage. Specifically, we introduce quantitative formulations of portfolio allocation problems used in equity portfolio management. Quantitative equity portfolio selection often involves extending the classical mean-variance framework or more advanced tail-risk portfolio allocation frameworks to include different constraints that take specific investment guidelines and institutional features into account.
-# PORTFOLIO CONSTRAINTS COMMONLY USED IN PRACTICE
+## PORTFOLIO CONSTRAINTS COMMONLY USED IN PRACTICE
 
 Institutional features and investment policy specifications often lead to more complicated requirements than simple minimization of risk (whatever the definition of risk may be) or maximization of expected portfolio return. For instance, there can be constraints that limit the number of trades, the exposure to a specific industry, or the number of stocks to be kept in the portfolio. Some of these constraints are imposed by the clients, while others are imposed by regulators. For example, in the case of regulated investment companies, restrictions on asset allocation are set forth in the prospectus and may be changed only with the approval of the fund's board of directors. Pension funds must comply with Employee Retirement Income Security Act (ERISA) requirements. The objective of the portfolio optimization problem can also be modified to consider specifically the trade-off between risk and return, transactions costs, or taxes.
 
@@ -31,11 +55,9 @@ In this section, we will take a single-period view of investing, in the sense th
 
 Many investment companies, especially institutional investors, have a long investment horizon. However, in reality, they treat that horizon as a sequence of shorter period horizons. Risk budgets are often stated over a time period of a year, and return performance is monitored quarterly or monthly.
 
-# Long-Only (No-Short-Selling) Constraints
+## Long-Only (No-Short-Selling) Constraints
 
-Many funds and institutional investors face restrictions or outright prohibitions on the amount of short selling they can do. When short selling is not allowed, the portfolio allocation optimization model contains the constraints  $\mathbf{w} \geq \mathbf{0}$ .
-
-# Holding Constraints
+## Holding Constraints
 
 Diversification principles argue against investing a large proportion of the portfolio in a single asset, or having a large concentration of assets in a specific industry, sector, or country. Limits on the holdings of a specific stock can be imposed with the constraints
 
@@ -48,7 +70,7 @@ Consider now a portfolio of 10 stocks. Suppose that the issuers of assets 1, 3, 
 
 
 $$
-0. 2 0 \leq w_{1} + w_{3} + w_{5} \leq 0. 4 0
+0.20 \leq w_{1} + w_{3} + w_{5} \leq 0.40
 $$ to the portfolio allocation optimization problem.
 
 
@@ -60,25 +82,9 @@ $$
 
 In words, this constraint requires that the sum of all stock weights in the particular category of investments with indexes  $I_{j}$  is greater than or equal to a lower bound  $L_{j}$  and less than or equal to a maximum exposure of  $U_{j}$ .
 
-# Turnover Constraints
+## Turnover Constraints
 
-High portfolio turnover can result in large transaction costs that make portfolio rebalancing inefficient and costly. Thus, some portfolio managers limit the amount of turnover allowed when trading their portfolio. (Another way to control for transaction costs is to minimize them explicitly; we will discuss the appropriate formulations later in this entry.)
-
-Most commonly, turnover constraints are imposed for each stock:
-
-$$
-\left| w_{i} - w_{0, i} \right| \leq u_{i},
-$$ that is, the absolute magnitude of the difference between the final and the initial weight of stock  $i$  in the portfolio is restricted to be less than some upper bound  $u_{i}$ . Sometimes, a constraint is imposed to minimize the portfolio turnover as a whole:
-
-
-$$
-\sum_{j \in I_{j}} | w_{j} - w_{0, j} | \leq U_{j}
-$$ that is, the total absolute difference between the initial and the final weights of the stocks in the portfolio is restricted to be less than or equal to an upper bound  $U_{i}$ . Under this constraint, some stock weights may deviate a lot more than others from their initial weights, but the total deviation is limited.
-
-
-Turnover constraints are often imposed relative to the average daily volume (ADV) of a stock. For example, we may want to restrict turnover to be no more than  $5\%$  of the ADV. (In the latter case, the upper bound  $u_{i}$  is set to a value equal to  $5\%$  of the ADV.) Modifications of these constraints, such as limiting turnover in a specific industry or sector, are also frequently applied.
-
-# Risk Factor Constraints
+## Risk Factor Constraints
 
 In practice, it is very common for quantitatively oriented portfolio managers to use factor models to control for risk exposures to different risk factors. Such risk factors could include the market return, size, and style. Let us assume that the return on stock  $i$  has a factor structure with  $K$  risk factors, that is, it can be expressed through the equality
 
@@ -121,35 +127,9 @@ $$
 
 This constraint forces the portfolio optimization algorithm to find portfolio weights so that the overall risk exposure to factor  $k$  is 0, that is, so that the portfolio is neutral with respect to changes in factor  $k$ . Portfolio allocation strategies that claim to be "market-neutral" typically employ this constraint, and the factor is in fact the return on the market.
 
-# Cardinality Constraints
+## Cardinality Constraints
 
-Depending on the portfolio allocation model used, sometimes the optimization subroutine recommends holding small amounts of a large number of stocks, which can be costly when one takes into consideration the transaction costs incurred when acquiring these positions. Alternatively, a portfolio manager may be interested in limiting the number of stocks used to track a particular index. (We will discuss index tracking later in this entry.) To formulate the constraint on the number of stocks to be held in the portfolio (called the cardinality constraint), we introduce binary variables, one for each of the  $N$  stocks in the portfolio. Let us call these binary variables  $\delta_1,\ldots ,\delta_N$ . Variable  $\delta_{i}$  will take value 1 if stock  $i$  is included in the portfolio, and 0 otherwise.
-
-Suppose that out of the  $N$  stocks in the investment universe, we would like to include a maximum of  $K$  stocks in the final portfolio.  $K$  here is a positive integer and is less than  $N$ . This constraint can be formulated as
-
-$$
-\sum_{i = 1}^{N} \delta_{i} \leq K
-$$
-
-$\delta_{i}$  binary,  $i = 1,\ldots ,N$
-
-We need to make sure, however, that if a stock is not selected in the portfolio, then the binary variable that corresponds to that stock is set to 0, so that the stock is not counted as one of the  $K$  stocks left in the portfolio. When the portfolio weights are restricted to be nonnegative, this can be achieved by imposing the additional constraints
-
-$$
-0 \leq w_{i} \leq \delta_{i}, \quad i = 1, \ldots , N
-$$
-
-If the optimal weight for stock  $i$  turns out to be different from 0, then the binary variable  $\delta_{i}$  associated with stock  $i$  is forced to take value 1, and stock  $i$  will be counted as one of the  $K$  stocks to be kept in the portfolio. If the optimal weight for stock  $i$  is 0, then the binary variable  $\delta_{i}$  associated with stock  $i$  can be either 0 or 1, but that will not matter for all practical purposes, because the solver will set it to 0 if there are too many other attractive stocks that will be counted as the  $K$  stocks to be kept in the portfolio. At the same time, since the portfolio weights  $w_{i}$  are between 0 and 1, and  $\delta_{i}$  is 0 or 1, the constraint  $w_{i} \leq \delta_{i}$  does not restrict the values that the stock weight  $w_{i}$  can take.
-
-
-The constraints are a little different if short sales are allowed, in which case the weights may be negative. We have
-
-$$
-- M \cdot \delta_{i} \leq w_{i} \leq M \cdot \delta_{i}, \quad i = 1, \dots , N
-$$ where  $M$  is a "large" constant (large relative to the size of the inputs in the problem; so in this portfolio optimization application  $M = 10$  can be considered "large"). You can observe that if the weight  $w_{i}$  is anything but 0, the value of the binary variable  $\delta_{i}$  will be forced to be different from 0, that is,  $\delta_{i}$  will need to be 1, since it can only take values 0 or 1.
-
-
-# Minimum Holding and Transaction Size Constraints
+## Minimum Holding and Transaction Size Constraints
 
 Cardinality constraints are often used in conjunction with minimum holding/trading constraints. The latter set a minimum limit on the amount of a stock that can be held in the portfolio, or the amount of a stock that can be traded, effectively eliminating small trades. Both cardinality and minimum holding/trading constraints aim to reduce the amount of transaction costs.
 
@@ -170,86 +150,16 @@ $$ where  $L_{i}^{\mathrm{trade}}$  is the smallest trading size allowed for sto
 
 Adding binary variables to an optimization problem makes the problem more difficult for the solver and can increase the computation time substantially. That is why in practice, portfolio managers often omit minimum holding and transaction size constraints from the optimization problem formulation, selecting instead to eliminate weights and/or trades that appear too small manually, after the optimal portfolio is determined by the optimization solver. It is important to realize, however, that modifying the optimal solution for the simpler portfolio allocation problem (the optimal solution in this case is the weights/trades for the different stocks) by eliminating small positions manually does not necessarily produce the optimal solution to an optimization problem that contained the minimum holding and transaction size constraints from the beginning. In fact, there can be pathological cases in which the solution is very different from the true optimal solution. However, for most cases in practice, the small manual adjustments to the optimal portfolio allocation do not cause tremendous discrepancies or inconsistencies.
 
-# Round Lot Constraints
+## Round Lot Constraints
 
-So far, we have assumed that stocks are infinitely divisible, that is, that we can trade and invest in fractions of stocks, bonds, and so on. This is, of course, not true—in reality, securities are traded in multiples of minimum transaction lots, or rounds (e.g., 100 or 500 shares).
-
-In order to represent the condition that securities should be traded in rounds, we need to introduce additional decision variables (let us call them  $z_{i}, i = 1, \dots, N$  that are integers and will correspond to the number of lots of a particular security that will be purchased. Each  $z_{i}$  will then be linked to the corresponding portfolio weight  $w_{i}$  through the equality
-
-
-$$ w_{i} = z_{i} \cdot f_{i}, \quad i = 1, \ldots , N
-$$ where  $f_{i}$  is measured in dollars, and is a fraction of the total amount to be invested. For example, suppose there is a total of \$100 million to be invested, and stock i trades at \$ 50 in round lots of 100. Then
-
-
-$$ f_{i} = \frac{5 0 \cdot 1 0 0}{1 0 0 , 0 0 0 , 0 0 0} = 5 \cdot 1 0^{- 7}
-$$
-
-All remaining constraints in the portfolio allocation can be expressed through the weights  $w_{i}$ , as usual. However, we also need to specify for the solver that the decision variables  $z_{i}$  are integers.
-
-An issue with imposing round lot constraints is that the budget constraint
-
-$$
-\mathbf {w}^{\prime} \iota = 1
-$$ which is in fact
-
-
-$$
-\sum_{i = 1}^{N} z_{i} \cdot f_{i} = 1
-$$ may not be satisfied exactly. One possibility to handle this problem is to relax the budget constraint. For example, we can state the constraint as
-
-
-$$
-\mathbf {w}^{\prime} \iota \leq 1
-$$ or, equivalently,
-
-
-$$
-\sum_{i = 1}^{N} z_{i} \cdot f_{i} \leq 1
-$$
-
-This will ensure that we do not go over budget.
-
-If our objective is stated as expected return maximization, the optimization solver will attempt to make this constraint as tight as possible, that is, we will end up using up as much of the budget as we can. Depending on the objective function and the other constraints in the formulation, however, this may not always happen. We can try to force the solver to minimize the slack in the budget constraint by introducing a pair of nonnegative decision variables (let us call them  $\varepsilon^{+}$  and  $\varepsilon^{-}$ ) that account for the amount that is "overinvested" or "underinvested." These variables will pick up the slack left over because of the inability to round the amounts for the different investments. Namely, we impose the constraints
-
-
-$$
-\begin{array}{l} \sum_{i = 1}^{N} z_{i} \cdot f_{i} + \varepsilon^{-} - \varepsilon^{+} = 1 \\ \varepsilon^{-} \geq 0, \varepsilon^{+} \geq 0 \\ \end{array}
-$$ and subtract the following term from the objective function:
-
-
-$$
-\lambda_{\mathrm{rl}} \cdot (\varepsilon^{-} + \varepsilon^{+})
-$$ where  $\lambda_{\mathrm{rl}}$  is a penalty term associated with the amount of over- or underinvestment the portfolio manager is willing to tolerate (selected by the portfolio manager). In the final solution, the violation of the budget constraint will be minimized. Note, however, that this formulation technically allows for the budget to be overinvested.
-
-
-The optimal portfolio allocation we obtain after solving this optimization problem will not be the same as the allocation we would obtain if we solve an optimization problem without round lot constraints, and then round the amounts to fit the lots that can be traded in the market.
-
-Cardinality constraints, minimum holding/trading constraints, and especially round lot constraints require more sophisticated binary and integer programming solvers, and are difficult problems to solve in the case of large portfolios.
-
-# BENCHMARK EXPOSURE AND TRACKING ERROR MINIMIZATION
+## BENCHMARK EXPOSURE AND TRACKING ERROR MINIMIZATION
 
 Expected portfolio return maximization under the mean-variance framework or other risk measure minimization are examples of active investment strategies, that is, strategies that identify a universe of attractive investments and ignore inferior investments opportunities. A different approach, referred to as a passive investment strategy, argues that in the absence of any superior forecasting ability, investors might as well resign themselves to the fact that they cannot beat the market. From a theoretical perspective, the analytics of portfolio theory tell them to hold a broadly diversified portfolio anyway. Many mutual funds are managed relative to a particular benchmark or stock universe, such as the S&P 500 or the Russell 1000. The portfolio allocation models are then formulated in such a way that the tracking error relative to the benchmark is kept small.
 
 
-# Standard Definition of Tracking Error
+## Standard Definition of Tracking Error
 
-To incorporate a passive investment strategy, we can change the objective function of the portfolio allocation problem so that instead of minimizing a portfolio risk measure, we minimize the tracking error with respect to a benchmark that represents the market, such as the Russell 3000, or the S&P 500. Such strategies are often referred to as indexing. The tracking error can be defined in different ways. However, practitioners typically mean a specific definition: the variance (or standard deviation) of the difference between the portfolio return,  $\mathbf{w}_b^{\prime}\tilde{\mathbf{r}}$ , and the return on the benchmark,  $\mathbf{w}_b^{\prime}\tilde{\mathbf{r}}$ . Mathematically, the tracking error (TE) can be expressed as
-
-$$
-\begin{array}{l} \mathrm{TE} = \operatorname{Va r} \left(\mathbf {w}^{\prime} \tilde {\mathbf {r}} - \mathbf {w}_{b}^{\prime} \tilde {\mathbf {r}}\right) \\ = \operatorname{Va r} \left(\left(\mathbf {w} - \mathbf {w}_{b}\right)^{\prime} \tilde {\mathbf {r}}\right) \\ = \left(\mathbf {w} - \mathbf {w}_{b}\right)^{\prime} \operatorname{Va r} (\tilde {\mathbf {r}}) \left(\mathbf {w} - \mathbf {w}_{b}\right) \\ = \left(\mathbf {w} - \mathbf {w}_{b}\right)^{\prime} \boldsymbol {\Sigma} \left(\mathbf {w} - \mathbf {w}_{b}\right) \\ \end{array}
-$$ where  $\pmb{\Sigma}$  is the covariance matrix of the stock returns. One can observe that the formula is very similar to the formula for the portfolio variance; however, the portfolio weights in the formula for the variance are replaced by differences between the weights of the stocks in the portfolio and the weights of the stocks in the index.
-
-
-Why do we need to optimize portfolio weights in order to track a benchmark, when technically the most effective way to track a benchmark is by investing the portfolio in the stocks in the benchmark portfolio in the same proportions as the proportions of these securities in the benchmark? The problem with this approach is that, especially with large benchmarks like the Russell 3000, the transaction costs of a proportional investment and the subsequent rebalancing of the portfolio can be prohibitive (that is, dramatically adversely impact the performance of the portfolio relative to the benchmark). Furthermore, in practice securities are not infinitely divisible, so investing a portfolio of a limited size in the same proportions as the composition of the benchmark will still not achieve zero tracking error. Thus, the optimal formulation is to require that the portfolio follows the benchmark as closely as possible.
-
-While indexing has become an essential part of many portfolio strategies, most portfolio managers cannot resist the temptation to identify at least some securities that will outperform others. Hence, restrictions on the tracking error are often imposed as a constraint, while the objective function is something different from minimizing the tracking error. The tracking error constraint takes the form
-
-$$
-(\mathbf {w} - \mathbf {w}_{b})^{\prime} \pmb {\Sigma} (\mathbf {w} - \mathbf {w}_{b}) \leq \sigma_{\mathrm{TE}}^{2}
-$$ where  $\sigma_{\mathrm{TE}}^2$  is a limit (imposed by the investor) on the amount of tracking error the investor is willing to tolerate. This is a quadratic constraint, which is convex and computationally tractable, but requires specialized optimization software.
-
-
-# Alternative Ways of Defining Tracking Error
+## Alternative Ways of Defining Tracking Error
 
 There are alternative ways in which tracking-error type constraints can be imposed.
 
@@ -300,18 +210,9 @@ $$ where  $U_{\mathrm{TE}}$  is the upper bound on the negative deviations.
 
 This formulation of tracking error is appealing in two ways. First, it treats positive and negative deviations relative to the benchmark differently, which agrees with the strategy of an investor seeking to maximize returns overall. Second, it results in a linear set of constraints, which are easy to handle computationally, in contrast to the first formulation of the tracking error constraint in this section, which results in a quadratic constraint.
 
-# Actual Versus Predicted Tracking Error
+## Actual Versus Predicted Tracking Error
 
-The tracking error calculation in practice is often backward-looking. For example, in computing the covariance matrix  $\pmb{\Sigma}$  in the standard tracking error definition as the variance of the deviations of the portfolio returns from the index, or in selecting the scenarios used in the CVaR-type tracking error constraint in the previous section, we may use historical data. The tracking error calculated in this manner is called the ex post tracking error, backward-looking error, or actual tracking error.
-
-The problem with using the actual tracking error for assessing future performance relative to a benchmark is that the actual tracking error does not reflect the effect of the portfolio manager's current decisions on the future active returns and hence the tracking error that may be realized in the future. The actual tracking error has little predictive value and can be misleading regarding portfolio risk.
-
-Portfolio managers need forward-looking estimates of tracking error to reflect future portfolio performance more accurately. In practice, this is accomplished by using the services of a commercial vendor that has a multifactor risk model that has identified and defined the risks associated with the benchmark, or by building such a model in-house. Statistical analysis of historical return data for the stocks in the benchmark is used to obtain the risk factors and to quantify the risks. Using the manager's current portfolio holdings, the portfolio's current exposure to the various risk factors can be calculated and compared to the benchmark's exposures to the risk factors. From the differential factor exposures and the risks of the factors, a forward-looking tracking error for the portfolio can be computed. This tracking error is also referred to as an ex ante tracking error or predicted tracking error.
-
-There is no guarantee that the predicted tracking error will match exactly the tracking error realized over the future time period of interest. However, this calculation of the tracking error has its use in risk control and portfolio construction. By performing a simulation analysis on the factors that enter the calculation, the manager can evaluate the potential performance of portfolio strategies relative to the benchmark, and eliminate those that result in tracking errors beyond the client-imposed tolerance for risk. The actual tracking error, on the other hand, is useful for assessing actual performance relative to a benchmark.
-
-
-# INCORPORATING
+## INCORPORATING
 TRANSACTION COSTS
 
 Transaction costs can be generally divided into two categories: (1) explicit such as bid-ask spreads, commissions, and fees, and (2) implicit such as price movement risk costs and market impact costs. Price movement risk costs are the costs resulting from the potential for a change in market price between the time the decision to trade is made and the time the trade is actually executed. Market impact is the effect a trader has on the market price of an asset when it sells or buys the asset. It is the extent to which the price moves up or down in response to the trader's actions. For example, a trader who tries to sell a large number of shares of a particular stock may drive down the stock's market price.
@@ -332,32 +233,9 @@ Transaction costs models can involve complicated nonlinear functions. Although s
 
 Next, we explain several widely used models for the transaction cost function.
 
-# Linear Transaction Costs
+## Linear Transaction Costs
 
-Let us start simple. Suppose that the transaction costs are proportional, that is, they are a percentage  $c_{i}$  of the transaction size  $|t| =$
-
-$|w_{i} - w_{0,i}|.$  Then, the portfolio allocation problem with transaction costs can be written simply as
-
-$$
-\max_{\mathbf {w}} \mathbf {w}^{\prime} \boldsymbol {\mu} - \lambda \cdot \mathbf {w}^{\prime} \boldsymbol {\Sigma} \mathbf {w} - \lambda_{\mathrm{TC}} \cdot \sum_{i = 1}^{N} c_{i} \cdot | w_{i} - w_{0, i} |
-$$
-
-The problem can be made solver-friendly by replacing the absolute value terms with new decision variables  $y_{i}$ , and adding two sets of constraints. Hence, we rewrite the objective function as
-
-$$
-\max_{\mathbf {w}, \mathbf {y}} \mathbf {w}^{\prime} \boldsymbol {\mu} - \lambda \cdot \mathbf {w}^{\prime} \boldsymbol {\Sigma} \mathbf {w} - \lambda_{\mathrm{TC}} \cdot \sum_{i = 1}^{N} c_{i} \cdot y_{i}
-$$ and add the constraints
-
-
-$$
-\begin{array}{l} y_{i} \geq w_{i} - w_{0, i} \\ y_{i} \geq - \left(w_{i} - w_{0, i}\right) \\ \end{array}
-$$
-
-This preserves the quadratic optimization problem formulation, a formulation that can be passed to quadratic optimization solvers such as Excel Solver and MATLAB's quadprog function, because the constraints are linear expressions, and the objective function contains only linear and quadratic terms.
-
-In the optimal solution, the optimization solver will in fact set the value for  $y_{i}$  to  $|w_{i} - w_{0,i}|$ . This is because this is a maximization problem and  $y_{i}$  occurs with a negative sign in the objective function, so the solver will try to set  $y_{i}$  to the minimum value possible. That minimum value will be the maximum of  $(w_{i} - w_{0,i})$  or  $-(w_{i} - w_{0,i})$ , which is in fact the absolute value  $|w_{i} - w_{0,i}|$ .
-
-# Piecewise-Linear Transaction Costs
+## Piecewise-Linear Transaction Costs
 
 Taking the model in the previous section a step further, we can introduce piecewise-linear approximations to transaction cost function models. This kind of function is more realistic than the linear cost function, especially for large trades. As the trading size increases, it becomes increasingly more costly to trade because of the market impact of the trade.
 
@@ -368,7 +246,7 @@ Figure 1 Example of Modeling Transaction Costs (TC) as a Piecewise-Linear Functi
 
 
 $$
-\begin{array}{l} \operatorname{TC} (t) = \\ \left\{ \begin{array}{l l} s_{1} t, & 0 \leq t \leq 0. 1 5 \cdot \operatorname{Vo l} \\ s_{1} (0. 1 5 \cdot \operatorname{Vo l}) + s_{2} (t - 0. 1 5 \cdot \operatorname{Vo l}), & 0. 1 5 \cdot \operatorname{Vo l} \leq t \leq 0. 4 0 \cdot \operatorname{Vo l} \\ s_{1} (0. 1 5 \cdot \operatorname{Vo l}) + s_{2} (0. 2 5 \cdot \operatorname{Vo l}) & 0. 4 0 \cdot \operatorname{Vo l} \leq t \leq 0. 5 0 \cdot \operatorname{Vo l} \\ + s_{3} (t - 0. 4 0 \cdot \operatorname{Vo l}), & \end{array} \right. \\ \end{array}
+\begin{array}{l} \operatorname{TC} (t) = \\ \left\{ \begin{array}{l l} s_{1} t, & 0 \leq t \leq 0.15 \cdot \operatorname{Vo l} \\ s_{1} (0.15 \cdot \operatorname{Vo l}) + s_{2} (t - 0.15 \cdot \operatorname{Vo l}), & 0.15 \cdot \operatorname{Vo l} \leq t \leq 0.40 \cdot \operatorname{Vo l} \\ s_{1} (0.15 \cdot \operatorname{Vo l}) + s_{2} (0.25 \cdot \operatorname{Vo l}) & 0.40 \cdot \operatorname{Vo l} \leq t \leq 0.50 \cdot \operatorname{Vo l} \\ + s_{3} (t - 0.40 \cdot \operatorname{Vo l}), & \end{array} \right. \\ \end{array}
 $$ where  $s_1, s_2, s_3$  are the slopes of the three linear segments on the graph. (They are given data.)
 
 
@@ -388,7 +266,7 @@ $$
 In addition, we specify the following constraints on the new decision variables:
 
 $$
-\begin{array}{l} 0 \leq z_{1, i} \leq 0. 1 5 \cdot \operatorname{Vo l}_{i} \\ 0 \leq z_{2, i} \leq 0. 2 5 \cdot \operatorname{Vo l}_{i} \\ 0 \leq z_{3, i} \leq 0. 1 0 \cdot \operatorname{Vo l}_{i} \\ \end{array}
+\begin{array}{l} 0 \leq z_{1, i} \leq 0.15 \cdot \operatorname{Vo l}_{i} \\ 0 \leq z_{2, i} \leq 0.25 \cdot \operatorname{Vo l}_{i} \\ 0 \leq z_{3, i} \leq 0.10 \cdot \operatorname{Vo l}_{i} \\ \end{array}
 $$ the optimizer would never set  $z_{3,i}$  to a number greater than 0 unless both  $z_{1,i}$  and  $z_{2,i}$  are at their upper bounds. So, this set of constraints allows us to compute the amount of transaction costs incurred in the trading of stock  $i$  as  $z_{1,i} + z_{2,i} + z_{3,i}$ .
 
 Note that because of the increasing slopes of the linear segments and the goal of making that term as small as possible in the objective function, the optimizer will never set the decision variable corresponding to the second segment,  $z_{2,i}$ , to a number greater than 0 unless the decision variable corresponding to the first segment,  $z_{1,i}$ , is at its upper bound. Similarly,
@@ -406,20 +284,9 @@ $$ where  $w_{0,i}$  and  $w_{i}$  are the initial and the final amount of stock
 
 Despite their apparent complexity, piecewise-linear approximations for transaction costs are very solver-friendly, and save time (relative to nonlinear models) in the actual portfolio optimization. Although modeling transaction costs this way requires introducing new decision variables and constraints, the increase in the dimension of the portfolio optimization problem does not affect significantly the running time or the performance of the optimization solver, because the problem formulation is easy from a computational perspective.
 
-# Quadratic Transaction Costs
+## Quadratic Transaction Costs
 
-The transaction cost function is often parameterized as a quadratic function of the form
-
-$$
-\mathrm{TC}_{i} (t) = c_{i} \cdot | t | + d_{i} \cdot | t |^{2}
-$$
-
-The coefficients  $c_{i}$  and  $d_{i}$  are calibrated from data-for example, by fitting a quadratic function to an observed pattern of transaction costs realized for trading a particular stock under normal conditions.
-
-
-Including this function in the objective function of the portfolio optimization problem results in a quadratic program that can be solved with widely available quadratic optimization software.
-
-# Fixed Transaction Costs
+## Fixed Transaction Costs
 
 In some cases, we need to model fixed transaction costs. Those are costs that are incurred independently of the amount traded. To include such costs in the portfolio optimization problem, we need to introduce binary variables  $\delta_1,\ldots ,\delta_N$  corresponding to each stock, where  $\delta_{i}$  equals 0 if the amount traded of stock  $i$  is 0, and 1 otherwise. The idea is similar to the idea we used to model the requirement that only a given number of stocks can be included in the portfolio.
 
@@ -452,38 +319,9 @@ $$
 
 The important takeaway from this section is that when transaction costs are included in the portfolio rebalancing problem, the result is a reduced amount of trading and rebalancing, and a different portfolio allocation than the one that would be obtained if transaction costs are not taken into consideration.
 
-# INCORPORATING TAXES
+## INCORPORATING TAXES
 
-When stocks in a portfolio appreciate or depreciate in value, capital gains (respectively, losses) accumulate. When stocks are sold, investors pay taxes on the realized net capital gains. The taxes are computed as a percentage of the difference between the current market value of the stocks and their tax basis, where the tax basis is the price at which the stocks were bought originally.[10] The percentage is less for long-term capital gains (when stocks have been held for more than a year) than it is for short-term capital gains (when stocks have been held for less than a year).[11] Since shares of the same stock could have been bought at different points in time (in different lots), selling one lot of the stock as opposed to another could incur a different amount of tax. In addition to capital gains taxes, investors who are not exempt from taxes owe taxes on the dividends paid on stocks in their portfolios. Those dividends are historically taxed at a higher rate than capital gains, and may eventually be taxed as income, that is, at the investor's personal tax rate. The tax liability of a particular portfolio therefore depends on the timing of the execution of trades, on the tax basis of the portfolio, on the accumulated short-term and long-term capital gains, and on the tax bracket of the investor.
-
-Over two-thirds of marketable portfolio assets in the United States are held by individuals, insurance, and holding companies who pay taxes on their returns. (Exceptions are, for ex ample, pension funds, which do not pay taxes year-to-year.) Studies have indicated that taxes are the greatest expense investors face—greater than commissions and investment management fees. To gain some intuition about the effect of taxes on the income of an investor over the investor's lifetime, consider a portfolio that has a capital appreciation of  $6.00\%$  per year. After 30 years,  $\$1,000$ invested in that portfolio will turn into  $\$1,000 \cdot (1 + 0.06)^{30} = \$5,743.49$ . Now suppose that the capital gains are realized each year, and a tax of  $35\%$  is paid on the gains (the remainder is reinvested). After 30 years,  $\$1,000$ invested in the portfolio will turn into  $\$1,000 \cdot (1 + (1 - 0.35) \cdot 0.06)^{30} = \$3,151.13$ , about half of the amount without taxes even when the tax is about one third of the capital gains. In fact, in order to provide the same return as the portfolio with no taxes, the portfolio with annual realized capital gains would need to generate a capital appreciation of  $9.23\%$  per year! One can imagine that the same logic would make benchmark tracking and performance measurement very difficult on an after-tax basis.
-
-
-As investors have become more aware of the dramatic impact of taxes on their returns, there is increasing pressure on portfolio managers to include tax considerations in their portfolio rebalancing decisions and to report after-tax performance. Consequently, the demand for computationally efficient and quantitatively rigorous methods for taking taxes into consideration in portfolio allocation decisions has grown in recent years. The complexity of the problem of incorporating taxes, however, is considerable, both from a theoretical and practical perspective:
-
-1. The presence of tax liabilities changes the interpretation of even fundamental portfolio performance summary measures such as market value and risk. Thus, well-established methods for evaluating portfolio performance on a pretax basis do not work well in the case of tax-aware portfolio optimization. For example, in traditional portfolio management a loss is associated with risk and is therefore minimized whenever possible. However, in the presence of taxes, losses may be less damaging, because they can be used to offset capital gains and reduce the tax burden of portfolio rebalancing strategies. Benchmarking is also not obvious in the presence of taxes: Two portfolios that have exactly the same current holdings are not equivalent if the holdings have a different tax basis.[12]
-
-
-2. Tax considerations are too complex to implement in a nonautomated fashion; at the same time, their automatic inclusion in portfolio rebalancing algorithms requires the ability to solve very difficult, large-scale optimization problems.
-
-3. The best approach for portfolio management with tax considerations is optimization problem formulations that look at return forecasts over several time periods (e.g., until the end of the year) before recommending new portfolio weights. However, the latter multiperiod view of the portfolio optimization problem is very difficult to handle computationally—the dimension of the optimization problem, that is, the number of variables and constraints, increases exponentially with the number of time periods under consideration.
-
-We need to emphasize that while many of the techniques described in the previous sections of this entry are widely known, there are no standard practices for tax-aware portfolio management that appear to be established. Different asset management firms interpret tax-aware portfolio allocation and approach the problem differently. To some firms, minimizing turnover,[13] for example, by investing in index funds, or selecting strategies that minimize the portfolio dividend yield,[14] qualify as tax-aware portfolio strategies. Other asset management firms employ complex optimization algorithms that incorporate tax considerations directly in portfolio rebalancing decisions, so that they can keep up with the considerable burden of keeping track of thousands of managed accounts and their tax preferences. The fact is, even using simple rules of thumb, such as always selling stocks from the oldest lots after rebalancing the portfolio with classical portfolio optimization routines, can have a positive effect on after-tax portfolio returns. The latter strategy minimizes the likelihood that short-term gains will be incurred, which in turn reduces taxes, because short-term capital gains are taxed at a higher rate than long-term capital gains.
-
-
-Apelfeld, Fowler, and Gordon (1996) suggest a tax-aware portfolio rebalancing framework that incorporates taxes directly into the portfolio optimization process. The main idea of the approach is to treat different lots of the same stock as different securities, and then penalize for taxes as if they were different transaction costs associated with the sale of each lot. (This means, for example, that Microsoft stock bought on Date 1 is treated as a different security from Microsoft stock bought on Date 2.) Many tax-aware quantitative investment strategies employ versions of this approach, but there are a few issues to beware of when using it in practice:
-
-- The first one is a general problem for all tax-aware approaches when they are used in the context of active portfolio management. For a portfolio manager who handles thousands of different accounts with different tax exposures, it is virtually impossible to pay attention to the tax cost incurred by each individual investor. While the tax-aware method described above minimizes the overall tax burden by reducing the amount of realized short-term sales, it has no provisions for differentiating between investors in different tax brackets because it is difficult to think of each trade as divided between all investors, and adjusted for each individual investor's tax circumstances. This issue is so intractable that in practice it is not really brought under consideration.
-
-- The dimension of the problem can become unmanageable very quickly. For example, a portfolio of 1,000 securities, each of which has 10 different lots, is equivalent to a portfolio of 10,000 securities when each lot is treated as a different security. Every time a new purchase is realized, a new security is added to the portfolio, since a new lot is created. One needs to exercise care and "clean up" lots that have been sold and therefore have holdings of zero each time the portfolio is rebalanced.
-- Practitioners typically use factor models for forecasting returns and estimating risk. One of the assumptions when measuring portfolio risk through factor models is that the specific risk of a particular security is uncorrelated with the specific risk of other securities. (The only risk they share is the risk expressed through the factors in the factor model.) This assumption clearly does not hold when different "securities" are in fact different lots of the same stock.
-
-DiBartolomeo (2000) describes a modification to the model used by Northfield Information Service's portfolio management software that eliminates the last two problems. Instead of treating each lot as a separate security, the software imposes piecewise-linear transaction costs (see Figure 1) where the break points on the horizontal axis correspond to the current size of different lots of the same security. The portfolio rebalancing algorithm goes through several iterations for the portfolio weights, and at each iteration, only the shares in the highest cost basis tax lot can be traded. Other shares of the same stock can be traded in subsequent iterations of the algorithm, with their appropriate tax costs attached.
-
-The approaches we described so far take into consideration the short-term or long-term nature of capital gains, but do not incorporate the ability to offset capital gains and losses accumulated over the year. This is an inherent limitation of single-period portfolio rebalancing approaches and is a strong argument in fa vor of adopting more realistic multiperiod portfolio optimization approaches. The rebalancing of the portfolio at each point in time should be made not only by considering the immediate consequences for the market value of the portfolio, but also the opportunity to correct for tax liabilities by realizing other capital gains or losses by the end of the taxable year. The scarce theoretical literature on multiperiod tax-aware portfolio optimization contains some characterizations of optimal portfolio strategies under numerous simplifying assumptions.[15] However, even under such simplifying assumptions, the dimension of the problem grows exponentially with the number of stocks in a portfolio, and it is difficult to come up with computationally viable algorithms for portfolios of realistic size.
-
-
-# MULTIACCOUNT OPTIMIZATION
+## MULTIACCOUNT OPTIMIZATION
 
 Portfolio managers who handle multiple accounts face an important practical issue. When individual clients' portfolios are managed, portfolio managers incorporate their clients' preferences and constraints. However, on any given trading day, the necessary trades for multiple diverse accounts are pooled and executed simultaneously. Moreover, typically trades may not be crossed, that is, it is not simply permissible to transfer an asset that should be sold on behalf of one client into the account of another client for whom the asset should be bought.[16] The trades should be executed in the market. Thus, each client's trades implicitly impact the results for the other clients: The market impact of the combined trades may be such that the benefits sought for individual accounts through trading are lost due to increased overall transaction costs. A robust multiaccount management process should ensure accurate accounting and fair distribution of transaction costs among the individual accounts.
 
@@ -547,75 +385,11 @@ $$
 O'Cinneide, Scherer, and Xu (2006) observed that key portfolio performance measures, such as the information ratio (IR),[25] turnover, and total transaction costs, change under this model relative to the traditional approach. Not surprisingly, the turnover and the net information ratios of the portfolios obtained with multiaccount optimization are lower than those obtained with single-account optimization under the assumption that accounts are traded separately, while transaction costs are higher. These results are in fact more realistic, and they are a better representation of the postoptimization performance of multiple client accounts in practice.
 
 
-# ROBUST PARAMETER ESTIMATION
+## ROBUST PARAMETER ESTIMATION
 
-The most commonly used approach for estimating security expected returns, covariances, and other parameters that are inputs to portfolio optimization models is to calculate the sample analogues from historical data. These are sample estimates for the parameters we need. It is important to remember that when we rely on historical data for estimation purposes, we in fact assume that the past provides a good representation of the future.
+## PORTFOLIO RESAMPLING
 
-It is well known, however, that expected returns exhibit significant time variation (referred to as nonstationarity). They are impacted by changes in markets and economic conditions, such as interest rates, the political environment, consumer confidence, and the business cycles of different industry sectors and geographical regions. Consequently, extrapolated historical returns are often poor forecasts of future returns.
-
-Similarly, the covariance matrix is unstable over time. Moreover, sample estimates of covariances for portfolios with thousands of stocks are notoriously unreliable, because we need large data sets to estimate them, and such large data sets of relevant data are difficult to procure. Estimates of the covariance matrix based on factor models are often used to reduce the number of statistical estimates needed from a limited set of data.
-
-In practice, portfolio managers often alter historical estimates of different parameters subjectively or objectively, based on their expectations and forecasting models for future trends. They also use statistical methods for finding estimators that are less sensitive to outliers and other sampling errors, such as Bayesian and shrinkage estimators. A complete review of advanced statistical estimation topics is beyond the scope of this entry. We provide a brief overview of the most widely used concepts.[26]
-
-Shrinkage is a form of averaging different estimators. The shrinkage estimator typically consists of three components: (1) an estimator with little or no structure (like the sample mean); (2) an estimator with a lot of structure (the shrinkage target); and (3) a coefficient that reflects the shrinkage intensity. Probably the most well-known estimator for expected returns in the financial literature was proposed by Jorion (1986). The shrinkage target in Jorion's model is a vector array with the return on the minimum variance portfolio, and the shrinkage intensity is determined from a specific formula.[27] Shrinkage estimators are used for estimates of the covariance matrix of returns as well,[28] although equally weighted portfolios of covariance matrix estimators have been shown to be equally effective as shrinkage estimators.[29]
-
-Bayesian estimation approaches, named after the English mathematician Thomas Bayes, are based on subjective interpretations of the probability that a particular event will occur. A probability distribution, called the prior distribution, is used to represent the investor's knowledge about the probability before any data are observed. After more information is gathered (e.g., data are observed), a formula (known as Bayes' rule) is used to compute the new probability distribution, called the posterior distribution.
-
-In the portfolio parameter estimation context, a posterior distribution of expected returns is derived by combining the forecast from the empirical data with a prior distribution. One of the most well-known examples of the applica tion of the Bayesian framework in this context is the Black-Litterman model,30 which produces an estimate of future expected returns by combining the market equilibrium returns (i.e., returns that are derived from pricing models and observable data) with the investor's subjective views. The investor's views are expressed as absolute or relative deviations from the equilibrium together with confidence levels of the views (as measured by the standard deviation of the views).
-
-
-The ability to incorporate exogenous insight, such as a portfolio manager's opinion, into quantitative forecasting models is important; this insight may be the most valuable input to the model. The Bayesian framework provides a mechanism for forecasting systems to use both important traditional information sources such as proprietary market data and subjective external information sources such as analyst's forecasts.
-
-It is important to realize that regardless of how sophisticated the estimation and forecasting methods are, they are always subject to estimation error. What makes matters worse, however, is that different estimation errors can accumulate over the different activities of the portfolio management process, resulting in large aggregate errors at the final stage. It is therefore critical that the inputs evaluated at each stage are reliable and robust, so that the aggregate impact of estimation errors is minimized.
-
-# PORTFOLIO RESAMPLING
-
-Robust parameter estimation is only one part of ensuring that the quantitative portfolio management process as a whole is reliable. It has been observed that portfolio allocation schemes are very sensitive to small changes in the inputs that go into the optimizer. In particular, a well-known study by Black and Litterman[31] demonstrated that in the case of mean-variance optimization, small changes in the inputs for expected returns had a substantial impact on the portfolio composition. "Optimal" portfolios constructed under conditions of uncertainty can have extreme or nonintuitive weights for some stocks.
-
-
-With advances in computational capabilities and new research in the area of optimization under uncertainty, practitioners in recent years have been able to incorporate considerations for uncertainty not only at the estimation, but also at the portfolio optimization stage. Methods for taking into consideration inaccuracies in the inputs to the portfolio optimization problem include simulation (resampling) and robust optimization. We explain portfolio resampling in this section, and robust portfolio optimization in the following section.
-
-A logical approach to making portfolio allocation more robust with respect to changes in the input parameters is to generate different scenarios for the values these parameters can take, and to find weights that remain stable for small changes in the input parameters. This method is referred to as portfolio resampling.[32] To illustrate the resampling technique, we explain how it is applied to portfolio mean-variance optimization.
-
-Suppose that we have initial estimates for the expected stock returns,  $\hat{\mu}$ , and covariance matrix,  $\hat{\Sigma}$ , for the  $N$  stocks in the portfolio. (We use "hat" to denote a statistical estimate.)
-
-1. We simulate  $S$  samples of  $N$  returns from a multivariate normal distribution with mean  $\hat{\mu}$  and covariance matrix  $\hat{\Sigma}$ .
-2. We use the  $S$  samples generated in (1) to compute  $S$  new estimates of vectors of expected returns  $\hat{\mathbf{\mu}}_1,\dots ,\hat{\mathbf{\mu}}_S$  and covariance matrices  $\hat{\Sigma}_1,\ldots ,\hat{\Sigma}_S$
-3. We solve  $S$  portfolio optimization problems, one for each estimated pair of expected returns and covariances  $(\hat{\mu}_s,\hat{\Sigma}_s)$ , and save the weights for the  $N$  stocks in a vector array  $\mathbf{w}^{(s)}$ , where  $s = 1,\dots ,S$ . (The optimization problem itself could be any of the standard mean-variance formulations: maximize expected return subject to constraints on risk, minimize risk subject to constraints on the expected return, or maximize the utility function.)
-
-
-4. To find the final portfolio weights, we average out the weight for each stock over the  $S$  weights found for that stock in each of the  $S$  optimization problems. In other words,
-
-$$
-\mathbf {w} = \frac{1}{S} \sum_{s = 1}^{S} \mathbf {w}^{(s)}
-$$
-
-For example, stock  $i$  in the portfolio has final weight
-
-$$ w_{i} = \frac{w_{i}^{(1)} + \cdots + w_{i}^{(S)}}{S}
-$$
-
-5. Perhaps even more valuable than the average estimate of the weights obtained from the simulation and optimization iterations is the probability distribution we obtain for the portfolio weights. If we plot the weights for each stock obtained over the  $S$  iterations,  $w_{i}^{(1)},\ldots ,w_{i}^{(S)}$ , we can get a sense for how variable this stock weight is in the portfolio. A large standard deviation computed from the distribution of portfolio weight  $i$  will be an indication that the original portfolio weight was not very precise due to estimation error.
-
-An important question, of course, is how large is "large enough." Do we have evidence that the portfolios we obtained through resampling are statistically different from one another? We can evaluate that by using a test statistic. For example, it can be shown that the test statistic
-
-$$ d (\mathbf {w}^{*}, \mathbf {w}) = (\mathbf {w}^{*} - \mathbf {w})^{\prime} \boldsymbol {\Sigma} (\mathbf {w}^{*} - \mathbf {w})
-$$ follows a chi-square  $(\chi^2)$  distribution with degrees of freedom equal to the number of securities in the portfolio. If the value of this statistic is statistically "large," then there will be evidence that the portfolio weights  $\mathbf{w}^{*}$  and  $\mathbf{w}$  are statistically different. This is an important insight for the portfolio manager, and its applications extend beyond just resampling. Let us provide some intuition as to why.
-
-
-Suppose that we are considering rebalancing our current portfolio. Given our forecasts of expected returns and risk, we could calculate a set of new portfolios through the resampling procedure. Using the test statistic above, we determine whether the new set of portfolio weights is statistically different from our current weights and, therefore, whether it would be worthwhile to rebalance or not. If we decide that it is worthwhile to rebalance, we could choose any of the resampled portfolios that are statistically different from our current portfolio. Which one should we choose? A natural choice would be to select the portfolio that would lead to the lowest transaction costs. The idea of determining statistically equivalent portfolios, therefore, has much wider implications than the ones illustrated in the context of resampling. Resampling has its drawbacks:
-
-- Since the resampled portfolio is calculated through a simulation procedure in which a portfolio optimization problem needs to be solved at each step, the approach is computationally cumbersome, especially for large portfolios. There is a trade-off between the number of resampling steps and the accuracy of estimation of the effect of errors on the portfolio composition.
-
-- Due to the averaging in the calculation of the final portfolio weights, it is highly likely that all stocks will end up with nonzero weights. This has implications for the amount of transaction costs that will be incurred if the final portfolio is to be attained. One possibility is to include constraints that limit both the turnover and the number of stocks with nonzero weights. As we saw earlier, however, the formulation of such constraints adds another level of complexity to the optimization problem and will slow down the resampling procedure.
-
-- Since the averaging process happens after the optimization problems are solved, the final weights may not actually satisfy some of the constraints in the optimization formulation.
-
-In general, only convex (such as linear) constraints are guaranteed to be satisfied by the averaged final weights. Turnover constraints, for example, may not be satisfied. This is a serious limitation of the resampling approach for practical applications.
-
-Despite these limitations, resampling has advantages and presents a good alternative to using only point estimates of inputs to the optimization problem.
-
-# ROBUST PORTFOLIO OPTIMIZATION
+## ROBUST PORTFOLIO OPTIMIZATION
 
 Another way in which uncertainty about the inputs can be modeled is by incorporating it directly into the optimization process. Robust optimization is an intuitive and efficient way to deal with uncertainty. Robust portfolio optimization does not use the traditional forecasts, such as expected returns and covariances, but rather uncertainty sets containing these point estimates. An example of such an uncertainty set is a confidence interval around the forecast for each expected return ("alpha"). This uncertainty shape looks like a "box" in the space of the input parameters. (See Figure 2(A).) We can also formulate advanced uncertainty sets that incorporate more knowledge about the estimation error. For instance, a widely used uncertainty set is the ellipsoidal uncertainty set, which takes into consideration the covariance structure of the estimation errors. (See Figure 2(B).) We will see examples of both uncertainty sets in this section.
 
@@ -719,22 +493,9 @@ Independent tests by practitioners and academics using both simulated and market
 
 Robust optimization, however, is not a panacea. By using robust portfolio optimization formulations, investors are likely to trade off the optimality of their portfolio allocation in cases in which nature behaves as they predicted for protection against the risk of inaccurate estimation. Therefore, investors using the technique should not expect to do better than classical portfolio optimization when estimation errors have little impact, or when typical scenarios occur. They should, however, expect insurance in scenarios in which their estimates deviate from the actual realized values by up to the amount they have prespecified in the modeling process.
 
-# KEY POINTS
+## KEY POINTS
 
-- Commonly used constraints in practice include long-only (no short-selling) constraints, turnover constraints, holding constraints, risk factor constraints, and tracking error constraints. These constraints can be handled in a straightforward way by the same type of optimization algorithms used for solving the classical mean-variance portfolio allocation problem.
-
-- Minimum holding constraints, transaction size constraints, cardinality constraints, and round-lot constraints are also widely used in practice, but their nature is such that they require binary and integer modeling, which necessitates the use of mixed-integer and other specialized optimization solvers.
-
-- Transaction costs can easily be incorporated in standard portfolio allocation models. Typical functions for representing transaction costs include linear, piecewise linear, and quadratic.
-
-
-- Taxes can have a dramatic effect on portfolio returns; however, it is difficult to incorporate them into the classical portfolio optimization framework. Their importance to the individual investor is a strong argument for taking a multiperiod view of investments, but the computational burden of multiperiod portfolio optimization formulations with taxes is extremely high.
-- For investment managers who handle multiple accounts, increased transaction costs because of the market impact of simultaneous trades can be an important practical issue and should be taken into consideration when individual clients' portfolio allocation decisions are made to ensure fairness across accounts.
-- As the use of quantitative techniques has become widespread in the investment industry, the consideration of estimation risk and model risk has grown in importance. Methods for robust statistical estimation of parameters include shrinkage and Bayesian techniques.
-- Portfolio resampling is a technique that uses simulation to generate multiple scenarios for possible values of the input parameters in the portfolio optimization problem and aims to determine portfolio weights that remain stable with respect to small changes in model parameters.
-- Robust portfolio optimization incorporates uncertainty directly into the optimization process. The uncertain parameters in the optimization problem are assumed to vary in prespecified uncertainty sets that are selected subjectively or based on data.
-
-# NOTES
+## NOTES
 
 1. See Chapter 1 in Maginn and Tuttle (1990).
 2. Multiperiod portfolio optimization models are still rarely used in practice, not because the value of multiperiod modeling is questioned, but because such models are often too intractable from a computational perspective.

@@ -1,14 +1,20 @@
 ---
-parent_directory: Diamond
 title: Banking and the Evolving Objectives of Bank Regulation
-tags:
-aliases:
-  - Bank Regulation
-parent_folder: Diamond
-subfolder:
-key_concepts:
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/Diamond
+formatted: 2025-12-21 10:23:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+- bank regulation
+- banking theories
+- liquidity provision
+secondary_tags:
+- deposit insurance
+- financial crises
+- bank monitoring
+- capital requirements
+- financial stability
 cssclasses: academia
-linter-yaml-title-alias: Banking and the Evolving Objectives of Bank Regulation
 ---
 
 # Banking and the Evolving Objectives of Bank Regulation

@@ -1,36 +1,26 @@
 ---
+title: Lecture 6: The Itô Calculus
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: 'Lecture 6: The Itô Calculus'
-tags: null
-aliases:
-- The Itô Calculus
-parent_folder: Lecture Notes
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: 'Lecture 6: The Itô Calculus'
+formatted: 2025-12-21 10:21:15 AM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
 primary_tags:
-- appropriate model
-- sde proof
-- no time change
+- ito calculus
 - geometric brownian motion
+- stochastic integral
+- ito formula
 secondary_tags:
-- stock price model
 - brownian motion
-- price processes
-- finite quadratic variation
-- time martingale
-- continuous paths
-- brownian path
-- process martingale
-- price behavior
-tags_extracted: '2025-12-18T17:58:05.504559'
-tags_method: max_quality_v1
+- quadratic variation
+- martingale property
+- stochastic calculus
+- brownian motion properties
+cssclasses: academia
 ---
 
 # LECTURE 6: THE ITÔ CALCULUS
 
-# 1. INTRODUCTION: GEOMETRIC BROWNIAN MOTION
+## 1. INTRODUCTION: GEOMETRIC BROWNIAN MOTION
 
 According to Lévy's representation theorem, quoted at the beginning of the last lecture, every continuous-time martingale with continuous paths and finite quadratic variation is a time-changed Brownian motion. Thus, we expect discounted price processes in arbitrage-free, continuous-time markets to be time-changed Brownian motions. However, Brownian motion (with no time change) is not an appropriate model for the behavior of stock price processes. Why not? Among other reasons is this: If  $\{W^{x}(t)\}_{t\geq 0}$  is a Brownian motion started at  $x > 0$ , then eventually the path  $W(t)$  will drift below 0. But the share prices of stocks traded on major exchanges do not drop below 0.
 
@@ -42,7 +32,7 @@ $$
 
 where  $\mu$  represents the instantaneous rate of return on a riskless asset,  $\sigma$  represents the volatility of the stock, and  $dW_{t}$  represents something like the infinitesimal change in a Brownian motion over the next instant of time. This is the stock price model used by BLACK and SCHOLES in their work on the pricing of call and put options — the stochastic processes  $S_{t}$  governed by equation (1) are called geometric Brownian motions. Unfortunately, equation (1) cannot be interpreted as an ordinary differential equation, because Brownian paths  $W_{t}$  are not differentiable. It was precisely for the purpose of dealing with differential equations incorporating stochastic differentials that Ito developed what is now called the Ito calculus.
 
-# 2. THE ITO INTEGRAL
+## 2. THE ITO INTEGRAL
 
 In ordinary calculus, the (Riemann) integral is defined by a limiting procedure. One first defines the integral of a step function, in such a way that the integral represents the "area beneath the graph". Then one extends the definition to a larger class of functions (the Riemann-integrable functions) by approximation: the integral of a function  $f$  is defined to be the limit of the integrals of step functions which converge (in a certain sense) to  $f$ .
 
@@ -218,7 +208,7 @@ $$
 
 is a martingale.
 
-# 3. AN EXAMPLE:  $\int_0^1 W dW$
+### 3. AN EXAMPLE:  $\int_0^1 W dW$
 
 There are tools for calculating stochastic integrals that usually make it unnecessary to use Definition 2 directly. The most useful of these, the Itô formula, will be discussed in the following sections. It is instructive, however, to do one explicit calculation using only the definition 2. This calculation will show (i) that the Fundamental Theorem of Calculus does not hold for Itô integrals; and (ii) the central importance of the Quadratic Variation formula in the Itô calculus.
 
@@ -276,7 +266,7 @@ $$
 
 Thus, formula (15) shows that the Itô calculus is fundamentally different than ordinary calculus.
 
-# 4. ITO'S FORMULA
+## 4. ITO'S FORMULA
 
 The cornerstone of stochastic calculus is the Itô formula. Like the Fundamental Theorem of Calculus, the Itô formula takes many different forms, and holds at several levels of generality. The simplest version is as follows:
 
@@ -356,7 +346,7 @@ $$
 
 By Proposition 5, it follows that the process  $\exp \{\theta W_t - \theta^2 t / 2\}$  is a martingale relative to the standard filtration.
 
-# 5. ITO'S FORMULA: THE GENERAL CASE
+## 5. ITO'S FORMULA: THE GENERAL CASE
 
 Definition 3. An Itô process is a stochastic process of the form
 
@@ -390,7 +380,7 @@ Proof. See section 8 below for a sketch.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/727aeace-d296-4f75-8b46-1026febe9463/c7bd6857377be16c59961ddfc5502d7484bca4b26460ffe964883a04b9ce58ff.jpg)
 
-# 6. WHEN IS AN ITO PROCESS A MARTINGALE?
+## 6. WHEN IS AN ITO PROCESS A MARTINGALE?
 
 Proposition 6. Let  $\{Z_t\}$  be an Itô process satisfying the Itô integral equation (22), where  $Z_0$  has finite first moment,  $\{A_t\}$  is of class  $\mathcal{H}^1$ , and  $\{B_t\}$  is of class  $\mathcal{H}^2$ . Then  $\{Z_t\}$  is a martingale (relative to the Brownian filtration) if and only if  $A_t = 0$  almost surely, for almost every  $t \geq 0$ .
 
@@ -416,7 +406,7 @@ $$
 
 almost surely, for almost every  $t$ . It follows that  $A_{t} = 0$  almost surely, for almost every  $t \geq 0$ .
 
-# 7. EXERCISES
+## 7. EXERCISES
 
 1. Evaluate  $\int_0^1 W_s^3 dW_s$ .  
 2. Use the Itô formula to show that, for any integer  $k \geq 2$ ,
@@ -447,7 +437,7 @@ $$
 
 5. Stock Price Processes. Let  $\{S_t\}_{t \geq 0}$  be the price process of a STOCK in a market with a riskless asset BOND whose price at time  $t$  is  $B_t = e^{rt}$ . Suppose that  $\{S_t\}$  obeys the SDE (1) for some parameters  $\mu$  and  $\sigma > 0$ . Show that  $\mu = r$ .
 
-# 8. APPENDIX: DERIVATION OF THE ITO FORMULA
+## 8. APPENDIX: DERIVATION OF THE ITO FORMULA
 
 For simplicity, let  $t = 1$ , and assume that the partial derivatives  $u_{t}$  and  $u_{xx}$  are uniformly bounded and uniformly continuous. (The theorem is true without these hypotheses, but the proof then requires further approximation arguments, which I deem not very enlightening). For each  $n \geq 1$ , let  $\mathcal{D}_n = \mathcal{D}_n[0,1]$  be the  $n$ th dyadic partition of the unit interval, that is, the partition into intervals  $[t_j, t_{j+1}]$ , where  $t_j = j / 2^n$ .
 
@@ -530,7 +520,7 @@ $$
 where
 
 $$
-\operatorname{er ro r} \leq \varepsilon \sum_{j = 0}^{2^{n} - 1} \left(\left(W \left(t_{j + 1}\right) - W \left(t_{j}\right)\right)^{2} \approx \varepsilon . \right.
+\operatorname{error} \leq \varepsilon \sum_{j = 0}^{2^{n} - 1} \left(\left(W \left(t_{j + 1}\right) - W \left(t_{j}\right)\right)^{2} \approx \varepsilon \right).
 $$
 
 Note that the last approximation is valid as  $n \to \infty$ , by the Quadratic Variation Formula. But observe also that each of the inner sums in (28) is also of the type considered in the Quadratic Variation Formula, and so, as  $n \to \infty$ , each of these inner sums converges to  $1 / 2^m$ . Thus, for each fixed  $m$ ,

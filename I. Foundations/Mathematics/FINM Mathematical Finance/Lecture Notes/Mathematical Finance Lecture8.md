@@ -1,27 +1,21 @@
 ---
+title: Lecture 8: The Cameron-Martin Formula and Barrier Options
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: 'Lecture 8: The Cameron-Martin Formula and Barrier Options'
-tags: null
-aliases:
-- The Cameron-Martin Formula and Barrier Options
-parent_folder: Lecture Notes
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: 'Lecture 8: The Cameron-Martin Formula and Barrier Options'
+formatted: "2025-12-21 10:50:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
 - exponential martingale
 - geometric brownian motion
-- subsequent lecture
-secondary_tags:
-- several exotic options
 - cameron martin formula
-- cameron martin introduction
-- certain threshold value
-- driving brownian motion
+secondary_tags:
+- barrier options
+- knockin knockout options
 - brownian motion
-tags_extracted: '2025-12-18T17:58:15.284513'
-tags_method: max_quality_v1
+- girsanov theorem
+- first passage time
+- risk neutral pricing
+cssclasses: academia
 ---
 
 # LECTURE 8: THE CAMERON-MARTIN FORMULA AND BARRIER OPTIONS
@@ -227,7 +221,7 @@ $$
 $$
 
 $$
-:= \infty \quad \text{ifthereisnosuch } t.
+:= \infty \quad \text{if there is no such } t.
 $$
 
 The problem is to evaluate  $P_0\{\nu < \infty\}$ . Observe that the problem may be recast as a first-passage problem for a Brownian motion with drift  $-b$ , because  $\nu$  is the first time that  $W_t - bt = a$ , and  $\{W_t - bt\}_{t \geq 0}$  is a Brownian motion with drift  $-b$ . In particular, the probability we wish to evaluate is

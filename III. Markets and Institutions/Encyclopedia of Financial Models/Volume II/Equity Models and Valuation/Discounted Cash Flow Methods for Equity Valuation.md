@@ -1,3 +1,26 @@
+---
+title: "Discounted Cash Flow Methods for Equity Valuation"
+parent_directory: "Equity Models and Valuation"
+formatted: "2025-12-21 10:30:00 AM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli_tool: "claude-code"
+primary_tags:
+  - discounted cash flow
+  - equity valuation
+  - dividend discount models
+  - free cash flow
+secondary_tags:
+  - constant growth models
+  - terminal value
+  - firm valuation
+  - market efficiency
+  - estimation risk
+  - cash flow projections
+  - cost of capital
+  - growth rates
+  - relative valuation
+cssclasses: academia
+---
 
 # Discounted Cash Flow Methods for Equity Valuation
 
@@ -19,14 +42,14 @@ This statement, though, does not reflect the internal contradictions in both pos
 Furthermore, it is not clear how markets would become efficient in the first place, if investors did not attempt to find under- and overvalued stocks and trade on these valuations. In other words, a precondition for market efficiency seems to be the existence of millions of investors who believe that markets are not.
 
 
-# DIVIDEND DISCOUNT MODEL
+## DIVIDEND DISCOUNT MODEL
 
 The dividend discount model (DDM) is the most basic DCF stock approach to equity valuation, originally formulated by Williams (1938). It states that the stock price should equal the present value of all expected future dividends into perpetuity under the assumption that a firm has an infinite life. But you may also have ignored the DDM once you recognized how difficult it is to apply in the real world. The next several paragraphs simply review the basic concepts in order to highlight the complexities that surround implementing the DDM in practice.
 
 Consider an investor who buys a share of stock, planning to hold it for one year. As you know from previous studies, the intrinsic value of the share is the present value,  $P(0)$ , of the expected dividend to be received at the end of the first year,  $ED(1)$ , and the expected sales price,  $EP(1)$ .
 
 $$
-P (0) = [ E D (1) + E P (1) ] / (1 + R) \tag {1}
+P(0) = [ED(1) + EP(1)] / (1 + R) \tag{1}
 $$
 
 Keep in mind that since we live in a world of uncertainty and no human can perfectly forecast the future, future prices and dividends are unknown. Specifically, we are dealing with expected values, not certain values. Under the assumption that dividends can be predictable, given a company's dividend history, the expected future dividend in the next period,  $ED(1)$ , can be estimated based on historical trends. You might ask how we can estimate  $EP(1)$ , the expected year-end price.
@@ -34,7 +57,7 @@ Keep in mind that since we live in a world of uncertainty and no human can perfe
 According to equation (1), the year-end intrinsic value,  $P(1)$ , will be
 
 $$
-P (1) = [ E D (2) + E P (2) ] / (1 + R) \tag {2}
+P(1) = [ED(2) + EP(2)] / (1 + R) \tag{2}
 $$
 
 If we assume the stock will be selling for its intrinsic value next year, then  $P(1) = EP(1)$ , and we can substitute equation (2) into equation (1), which gives
@@ -57,25 +80,25 @@ In short, the intrinsic price of a share of stock is the present value of a stre
 The key problems with implementing this model are the uncertainty of future dividends, the lack of a fixed maturity date, and the unknown sales price at the horizon date and the appropriate discount rate. Indeed, one can continue to substitute for a terminal price on out to infinity (INF):
 
 $$
-\begin{array}{l} P (0) = E D (1) / (1 + R) + E D (2) / (1 + R)^{2} + \dots \\ + E D (I N F) / (1 + R)^{\text{IN F}} \tag {5} \\ \end{array}
+\begin{array}{l} P (0) = E D (1) / (1 + R) + E D (2) / (1 + R)^{2} + \dots \\ + ED(INF) / (1 + R)^{\text{INF}} \tag {5} \\ \end{array}
 $$
 
 Equation (5) states that the stock price should equal the present value of all expected future dividends in perpetuity. This formula is the DDM in mathematical form. It is tempting, but incorrect, to conclude from the equation that the DDM focuses exclusively on dividends and ignores capital gains as a motive for investing in stock. Indeed, we assume explicitly in equation
 
 (4), the finite version of the DDM, that capital gains (as reflected in the expected sales price,  $EP(T)$ ) are part of the stock's value.  $EP(T)$  is the present value at time  $T$  of all dividends expected to be paid after the horizon date. That value is then discounted back to today, time  $T = 0$ . The DDM asserts that stock prices are determined ultimately by the cash flows accruing to stockholders, and those are dividends.
 
-# Stocks That Currently Pay No Dividend
+## Stocks That Currently Pay No Dividend
 
 If investors never expected a dividend to be paid, then this model implies that the stock would have no value. To reconcile the fact that stocks not paying a current dividend do have a positive market value with this model, one must assume that investors expect that someday, at some time  $T$ , the firm must pay out some cash, even if only a liquidating dividend.
 
-# CONSTANT-GROWTH DDM
+## CONSTANT-GROWTH DDM
 
 The general form of the DDM, as it stands, is still not very useful in valuing a stock because it requires dividend forecasts for every year into the indefinite future. To make the DDM practical, we need to introduce some simplifying assumptions. One useful and common first pass at the problem is to assume that dividends are trending upward at a stable or constant growth rate,  $g$ .
 
 For example, if  $g = 0.05$  and the most recently paid dividend was  $D(0) = 3.81$ , expected future dividends are
 
 $$
-\begin{array}{l} E D (1) = D (0) (1 + g) = (3. 8 1) (1. 0 5) = 4. 0 0 \\ E D (2) = D (0) (1 + g)^{2} = (3. 8 1) (1. 0 5)^{2} = 4. 2 0 \\ E D (3) = D (0) (1 + g)^{3} = (3. 8 1) (1. 0 5)^{3} = 4. 4 1 \\ \end{array}
+\begin{array}{l} E D (1) = D (0) (1 + g) = (3.81) (1.05) = 4.00 \\ E D (2) = D (0) (1 + g)^{2} = (3.81) (1.05)^{2} = 4.20 \\ E D (3) = D (0) (1 + g)^{3} = (3.81) (1.05)^{3} = 4.41 \\ \end{array}
 $$ and so on. Using these dividend forecasts, we can solve for intrinsic value as
 
 
@@ -87,7 +110,7 @@ Since the basic form of this equation stretches to infinity, basic algebra allow
 
 
 $$
-P (0) = E D (1) / (R - g) \tag {6}
+P(0) = ED(1) / (R - g) \tag{6}
 $$
 
 Equation (6) is called the constant-growth DDM, or the Gordon-Shapiro model, after Myron Gordon and Eli Shapiro, who popularized the model [see Gordon (1962) and Gordon and Shapiro (1956)].
@@ -95,16 +118,16 @@ Equation (6) is called the constant-growth DDM, or the Gordon-Shapiro model, aft
 Equation (6) should remind you of the formula for the present value of perpetuity. If dividends were expected not to grow,  $g = 0$ , then the dividend stream would be a simple perpetuity, and the valuation formula would be
 
 $$
-P (0) = E D (1) / R
+P(0) = ED(1) / R
 $$
 
 $P(0) = ED(1) / (R - g)$  is a generalization of the perpetuity formula to cover the case of a perpetuity growing at a constant rate,  $g$ . As  $g$  increases, for a given value of  $ED(1)$ , the stock price rises. The constant-growth DDM is valid only when  $g$  is less than  $R$ . If dividends were expected to grow forever (to infinity) at a rate faster than  $R$ , the value of the stock would be infinite. Further, in all of the DDM equations presented,  $R$  is also assumed to be constant forever.
 
-# NONCONSTANT-GROWTH DDM
+## NONCONSTANT-GROWTH DDM
 
 If you feel that you know the future growth rates in each period for a firm, then you can certainly use unique growth rates,  $g(T)$  and required rates of return,  $R(T)$ , in the present value equation and discount all unique dividends and future selling price back to the present. The problem becomes one of time, effort, and estimation risk. At some future point in time, what you believe to be a better unique estimate of a future dividend or a future discount rate will in reality be no better than an assumption of constant growth and constant discount rate.
 
-# INTUITION BEHIND THE DDM
+## INTUITION BEHIND THE DDM
 
 In a market economy, common sense dictates that you should go into business only if you expect to make money. In a sole proprietorship, everything left over from the revenue you earned, minus expenses, is yours. In other forms of a business organization, you need to be a bit more formal because there are other owners. In a partnership, partners draw money out of the business. And shareholders get money out of a corporation by receiving dividends. Using the corporate form as an example, the value per share is determined by the value of the dividends distributed to each shareholder. That is, the value per share is determined by the present value of each shareholder's expected share of the profits.
 
@@ -116,24 +139,24 @@ Financial capital is subject to principles of market supply and demand, just lik
 In all cases, assuming that the life of the corporation is infinite, the current price,  $P(0)$ , is computed as the constant dividend in perpetuity,  $D$ , divided by the required rate of return,  $R$ , that is, the present value of all future constant dividends. Often, though, investors use return,  $R$ , as the basis for comparing and pricing investments.  $R$  is often estimated from observable information as  $D$  (dividend) divided by current price  $P(0)$ . Mathematically, it looks like this:
 
 $$
-R = D / P (0)
+R = D / P(0)
 $$
 
 You've seen this before. It is the dividend yield.
 
-# COMPLICATIONS IN IMPLEMENTING THE DDM IN THE REAL WORLD
+## COMPLICATIONS IN IMPLEMENTING THE DDM IN THE REAL WORLD
 
 As you can see by now, there are essentially four major issues that complicate finding the present value of all future dividends and, therefore, in implementing the DDM.
 
-# Expected Growth of Dividends
+### Expected Growth of Dividends
 
 As profits grow over time (as we hope they will), dividends can be expected to grow and not remain constant forever. If profits and dividends are growing by  $10\%$  every year, the dividend this year may be  $\$ 10$ , but by next year, it will be  $\$ 11$ . If we divide  $\$ 11$  by today's  $\$ 200$  purchase price, next year's yield will be  $5.5\%$  (11/200). The year after, assuming further  $10\%$  growth, the dividend will be  $\$ 12.10$ . Dividing that by the  $\$ 200$  purchase price produces a yield of  $6.05\%$ . The buyer might smile, but the seller won't accept it. The seller wants a price that truly is consistent with the prevailing  $5\%$  yield. At  $\$ 200$ , the buyer gets too much of a good deal. If the latter holds the stock over time, he'll wind up with an annual return well in excess of  $5\%$ .
 
-# Appropriate Expected Required Rate of Return
+### Appropriate Expected Required Rate of Return
 
 Simply stated, present value is a tool for computing today's equivalent of a cash payment to be made tomorrow. As stated earlier, this is often referred to as DCF valuation. If I offer you \$10 today or \$10 a year from now, you'll probably choose \$10 today. But if the choice is \$10 today or \$11.50 a year from now, you have to pause. If you can invest today's \$10 payment for one year at 5\%, at the end of the year you'll have \$10.50. But if you bypass the \$10 for now and wait, you can get \$11.50 a year hence. That's a better deal. The way to decide if you should wait is to do some mathematics that helps you decide how much you must receive today to allow you to invest and wind up with \$11.50 a year hence. In this example, the "present value" of \$11.50 one year from now, assuming a 5\% return, is \$10.95. If I take \$10.95 and invest it for one year at 5\%, I'll wind up with \$11.50 at the end of the year. If interest rates rise, to say 8\%, it'll take less money today to generate \$11.50 a year hence (\$10.65 will be sufficient). So as interest rates rise, present values fall, and vice versa.
 
-# Expected Future Selling Price
+### Expected Future Selling Price
 
 Thus far, we have thought about a stream of dividends stretching into the infinite future. Even long-term investors prefer a holding period that's something short of infinity. So we need to account for the fact that someday you'll want to sell your shares. As such, the proceeds you expect to get when you sell are included, along with dividends, in the stream of cash you expect to get, and that goes into the present value calculation.
 
@@ -141,13 +164,13 @@ Let's think about a projection of the future sale price. If you think you may se
 
 \$12.10 and a 5\% return. So a price of \$244 seems a reasonable starting point. Of course, you'll need to make adjustments for probable growth beyond year two. And perhaps 5\% won't be appropriate as a rate of return. Market rates may rise or fall, and/or the quality of the corporation may improve or deteriorate relative to alternative investments. And two years hence, the growth forecast may change. But in any case, we do have a \$244 starting point. The changes may bring it up, perhaps to \$275, or down, possibly to \$175. But if an exuberant analyst publishes a target price of \$1,000, you ought to raise an eyebrow and insist that the analyst get serious about justifying his presumably bold assumptions about market rates, growth, or company quality.
 
-# Reinvestment of Profits/Internal Financing that Support Growth
+### Reinvestment of Profits/Internal Financing that Support Growth
 
 It is standard for corporations to refrain from paying out all annual profit as dividend. Some money is held in the business for a rainy day. And some money is simply reinvested for future growth. Either way, profits not paid out as dividends are known as retained earnings. Reinvestment is more desirable than dividend payments if the corporation can earn a higher return on the money than the shareholder could get (by reinvesting the dividends). If all goes well, the reinvestment will enable the corporation to pay a higher dividend in the future than would otherwise have been the case. Going back to the preceding example, if reinvestment gives the corporation the ability to set a year-five payout at  \$18 rather than\$ 12.10, that raises the starting-point target price to 360. A shareholder who accepts a forecast like that would likely forgo all or some immediate dividend payments in order to get that bigger future reward. As you can see, even if a corporation currently pays little or no dividend, we still have to acknowledge dividends as a major factor in our thoughts about share pricing.
 
 For better or worse, many corporations now see themselves as "growth" companies. And many shareholders have accepted a situation where these publicly traded growth companies pay out very little of their profits, if anything, as dividends, and reinvest most or all profits back into the business. Many companies do not deliver nearly as well on the growth dream as everybody hopes. But the growth culture remains alive and well, and the dividend payout ratio has declined.
 
-# ADAPTING TO THE COMPLICATIONS: THE EARNINGS PER SHARE APPROACH
+## ADAPTING TO THE COMPLICATIONS: THE EARNINGS PER SHARE APPROACH
 
 As a result of the four complications listed, modern stock prices have become uncoupled from dividends. So, in the real world, it is difficult to compute a fair price through the basic dividend formulas presented.
 
@@ -171,7 +194,7 @@ That's the basis for the generally recognized phenomenon of good stocks having h
 We handled the complicating factors by treating EPS as if it were the same as a dividend. But notwithstanding, we still have a reasonably rational basis for stock prices. We can argue over what the growth prospects are and what the market return ought to be (based on differing assessments of market conditions and company-quality issues). So there will always be disagreement on what, exactly, a fair stock price ought to be. But all rational investors should be somewhere in the same ballpark. We may have a big ballpark and debate if a stock that commands  \$25 today is worth\$ 15 or \$35. But we are unlikely to seriously consider a price of, say, \$350.
 
 
-# FREE CASH FLOW DCF MODEL—TOTAL FIRM VALUATION
+## FREE CASH FLOW DCF MODEL—TOTAL FIRM VALUATION
 
 While estimating future cash flows to an individual share of stock can seem daunting, some investors prefer to estimate the free cash flow to the entire firm. Doing this allows investors to estimate the value of the entire firm and then "back out" an estimated value of a share of stock. This is called the free cash flow (FCF) model. While legitimate accounting rules do enable managers and auditors some range of choices, at the end of the day, good companies wind up looking good and bad companies wind up looking bad. In short, there's no one number in an income report that truly gives you the necessary information to value a firm from a discounted expected future cash flow viewpoint. You still have to select which type of cash flow you're going to look at. But the choice becomes very easy once you ask yourself the following question: What's my specific purpose for wanting to know how a company is doing?
 
@@ -186,7 +209,7 @@ If you are looking to see how a company is doing because you want to form an opi
 
 As noted, many investors do not like GAAP because of the artificial nature of depreciation. Their objection is valid. GAAP is, indeed, imperfect. Companies have latitude to determine how to calculate it. They don't always use an equal allocation for each year. It's difficult, if not impossible, to reliably estimate useful life, especially since assets are usually enhanced (that is, factories modernized) as time passes, thereby giving rise to extended life and additional depreciable expenses tacked on. An assumption that at the end of the depreciation period the asset will be worth zero, or some predetermined salvage value, is often untrue in the real world. And besides, there are other kinds of "artificial" revenue-expense matching formulations to cover other situations. But depreciation is usually the biggest objection.
 
-# Difference between Cash Flow and Free Cash Flow
+### Difference between Cash Flow and Free Cash Flow
 
 The response is often to add depreciation back to net income to calculate cash flow. This can be a trap for the unwary. The phrase "cash flow" sounds comforting. After all, how much more reliable a gauge of performance can you seek than cash in minus cash out? Read the warning label closely. Is the cash flow you're seeing truly computed by adding depreciation back to net income? If that's what's happening, be very careful. Companies spend money to enhance their assets every year. Because it is understood that the benefits of these expenditures will span many years, they are not put on the income statement in any single year. So, in truth, simple cash flow understates a company's true cash-in minus cash-out situation. The solution lies in the firm's free cash flow. To arrive at a firm's FCF, we start with net income, add back the noncash depreciation charge, and then subtract the year's capital-spending outlays. (There are other adjustments, such as those relating to dividends and changes in net working capital; but for now, these simple adjustments will suffice.)
 
@@ -195,24 +218,24 @@ Once you hone in on FCF, you aren't likely to be misled regarding liquidity. But
 DCF valuation depends on the construction of pro forma financial statements in order to estimate a firm's future cash flows. Pro forma is Latin for "as if." This measure shows how a company might perform in the future "as if" it performs as it has in the past and other assumptions that are made by the analyst. In any event, it is necessary to construct pro forma financial statements in order to estimate future free cash flows that are the basis for total firm valuation.
 
 
-# CALCULATING FCF
+## CALCULATING FCF
 
 Operating cash flow (OCF) is defined as being equal to earnings before interest and taxes (EBIT) minus taxes plus depreciation. Note, though, that cash flows cannot be maintained over time unless depreciating fixed assets are replaced. That is, the firm must reinvest in those assets that are depreciating (wearing out) so that it can stay alive. Interest paid or any other financing costs such as dividends or principal repaid are not subtracted because we are interested in the cash flow generated by the assets of the firm. The particular mixture of debt and equity a firm actually chooses to use is a managerial decision and determines how the OCF is distributed between owners (equity holders) and creditors (debt holders). The mixture also determines the firm's weighted average cost of capital (WACC), which impacts the firm's value through the discount rate.
 
 $$
-\mathrm{OC F} = \text{EB IT} - \text{Ta xe s} + \text{De pr ec ia ti on}
+\mathrm{OCF} = \text{EBIT} - \text{Taxes} + \text{Depreciation}
 $$
 
 Net operating profit after tax (NOPAT) is defined as EBIT minus taxes.
 
 $$
-\mathrm{NO PA T} = \mathrm{EB IT} - \text{Ta xe s} = \mathrm{EB IT} \times (1 - \text{Ta xr at e})
+\mathrm{NOPAT} = \mathrm{EBIT} - \text{Taxes} = \mathrm{EBIT} \times (1 - \text{Tax rate})
 $$
 
 As a result, OCF can also be written as NOPAT plus any noncash adjustments. Where depreciation is the only noncash adjustment:
 
 $$
-\mathrm{OC F} = \mathrm{NO PA T} + \text{De pr ec ia ti on}
+\mathrm{OCF} = \mathrm{NOPAT} + \text{Depreciation}
 $$
 
 Free cash flow is defined as being the cash flow actually available for distribution to investors after the company has made all the investments in fixed assets and working capital necessary to sustain ongoing operations. To be more specific, the value of a company's operations depends on all the future expected FCFs, defined as OCF minus the amount of investment in working capital and fixed assets necessary to sustain the business. Thus, FCF represents the cash that is actually available for distribution to investors.
@@ -220,7 +243,7 @@ Free cash flow is defined as being the cash flow actually available for distribu
 Therefore, the way for managers to make their companies more valuable is to create a sustainable increase in the firm's FCF.
 
 $$
-\mathrm{FC F} = \mathrm{OC F} - \text{Ch an ge in NW C}
+\mathrm{FCF} = \mathrm{OCF} - \text{Change in NWC}
 $$
 
 - Gross investment in operating capital
@@ -228,7 +251,7 @@ $$
 Let's illustrate this. Assume a firm has NOPAT of 170.3 million. Its OCF is NOPAT plus any noncash adjustments as shown on the statement of cash flows. Where depreciation is the only noncash charge, the operating cash flow is:
 
 $$
-\begin{array}{l} \mathrm{OC F} = \mathrm{NO PA T} + \text{De pr ec ia ti on} \\ = \$ 170.3 + \$ 100 = \$ 270.3 \text{mi ll on} \\ \end{array}
+\begin{array}{l} \mathrm{OCF} = \mathrm{NOPAT} + \text{Depreciation} \\ = \$ 170.3 + \$ 100 = \$ 270.3 \text{mi ll on} \\ \end{array}
 $$
 
 Further, assume the firm had  \$1,455 million of operating assets, or operating capital, at the end of the year, but\$ 1,800 million at the end of the next year. Therefore, during the year:
@@ -240,13 +263,13 @@ $$
 However, the firm took 100 million of depreciation. We find the gross investment in operating capital as follows:
 
 $$
-\begin{array}{l} G r o s s \quad i n t e m p i n t \quad n o n \quad o p e r a t i n g \quad c a p i l \\ = \text{Ne ti nv es tm en t} + \text{De pr ec ia ti on} \\ = \$ 345 + \$ 100 = \$ 445 \text{mi ll on} \\ \end{array}
+\begin{array}{l} G r o s s \quad i n t e m p i n t \quad n o n \quad o p e r a t i n g \quad c a p i l \\ = \text{Net investment} + \text{Depreciation} \\ = \$ 345 + \$ 100 = \$ 445 \text{mi ll on} \\ \end{array}
 $$
 
 FCF in the year is:
 
 $$
-\begin{array}{l} C F = O C F - \text{Gr os si nv es tm en ti no pe ra ti ng ca pi ta l} \\ = \$ 270.3 - \$ 445 = -\$ 174.7 \text{mi ll on} (\text{Ne ga ti ve FC F}) \\ \end{array}
+\begin{array}{l} \text{FCF} = \text{OCF} - \text{Gross investment in operating capital} \\ = \$270.3 - \$445 = -\$174.7 \text{million} (\text{Negative FCF}) \\ \end{array}
 $$
 
 Even though the firm had a positive OCF, its very high investment in operating capital resulted in a negative FCF. Since FCF is what is available for distribution to investors, not only was there nothing for investors, but investors actually had to provide more money to the firm to keep the business going.
@@ -258,7 +281,7 @@ Table 1 Free Cash Flow Statement: Indirect Method
 <table><tr><td colspan="2">Net Income (Net Earnings)</td></tr><tr><td>+ Depreciation</td><td>Depreciation is a noncash expense, and therefore is added back to calculate cash flows.</td></tr><tr><td>– Increase in accounts receivable (A/R)</td><td>The increase in A/R represents sales that have not yet been collected, and therefore did not produce a cash inflow.</td></tr><tr><td>– Increase in inventories</td><td>The increase in inventory has not been recognized as part of cost of goods sold (COGS) but was fully paid for, and therefore is deducted from the cash flow.</td></tr><tr><td>+ Increase in accounts payable (A/P)</td><td>The increase in A/P represents costs that have not yet been paid, and therefore is added back to the cash flow.</td></tr><tr><td>+ Increase in taxes payable</td><td>Like the increase in A/P, these taxes have not yet been paid.</td></tr><tr><td>+ After-tax interest expense</td><td>We want to evaluate the operating side of the business and its financial side separately. The interest payment is a financial expense, and therefore we add back the “net interest cost.”</td></tr><tr><td colspan="2">= Operating cash flow (OCF)</td></tr><tr><td>– Gross investment in property, plant, and equipment (PP&amp;E), at cost</td><td>Some of the cash from operations must be used to buy the assets, such as equipment and plants that will allow the firm to generate future income. This is cash that cannot be freely used to pay dividends, to buy back shares, to repay loans, and the like, and therefore is deducted from the OCF to arrive at the FCF.</td></tr><tr><td>= Free cash flow (FCF)</td><td>This is the cash that the firm can use to distribute to any and all of its suppliers of capital, such as stockholders, debt holders, and warrant holders.</td></tr></table> that are incurring significant current expenses to launch a new product line. Also, many high-growth companies have positive NOPAT but negative FCF due to new investment in operating assets needed to support growth. There is nothing wrong with profitable growth, but at some point in time FCF must turn positive in order for a firm to have value. We will see this later in a firm valuation example.
 
 
-# USING THE CASH-FLOW STATEMENT TO ARRIVE AT OCF AND FCF
+## USING THE CASH-FLOW STATEMENT TO ARRIVE AT OCF AND FCF
 
 As stated earlier, FCF is a concept that defines the amount of cash that the firm can distribute to security holders. There are two principal techniques to calculate the FCF—the indirect method and the direct method. Tables 1 and 2
 
@@ -273,25 +296,25 @@ Credit sales are recorded as income but do not generate a cash inflow. Thus, to 
 The indirect method of calculating cash flows starts with the firm's NI and makes appropriate adjustments to arrive at a number that shows how much cash the firm has taken in over the period. The adjustments that have to be made to NI are of two types—operational adjustments and financial adjustments. When a firm pays interest, net income is defined as
 
 $$
-\begin{array}{l} \mathrm{NI} = \text{EB IT} - \text{In te rs t} - \text{Ta xe s} \\ \mathrm{NI} = \mathrm{EB T} - \text{Ta xe s} \\ \end{array}
+\begin{array}{l} \mathrm{NI} = \text{EBIT} - \text{Interest} - \text{Taxes} \\ \mathrm{NI} = \mathrm{EBT} - \text{Taxes} \\ \end{array}
 $$
 
 The following adjustments must be made in order to present the results of the business activity of the firm on a cash basis as explained later in this entry.
 
-# Adjustments for Changes in Net Working Capital
+### Adjustments for Changes in Net Working Capital
 
 Adjustments for changes in net working capital (ANWC) are made because not all the sales are made in cash and because not all the firm's expenses are paid out in cash. The term and notation are somewhat misleading: Not all the firm's working capital items are operationally related; since we are interested in cash derived from the ongoing business activity of the firm, we ignore all other current items in our ANWC. Cash and marketable securities are the best example of working capital items that we exclude from our definition of ANWC, as they are the firm's stock of excess liquidity. Another working capital item that we exclude from the adjustment is notes payable or short-term borrowing. Since our aim in the FCF statement is to calculate the cash available to the firm from its business activities, we exclude from the FCF statement any cash flows relating to the firm's financing activities—short term or long term.
 
 
-# Adjustments for Investment in New Fixed Assets
+### Adjustments for Investment in New Fixed Assets
 
 When investment in these assets is necessary for the ongoing business activity of the firm, it cannot be used to pay security holders and thus must be deducted to calculate the FCF.
 
-# Adjustments for Depreciation and Other Noncash Expenses
+### Adjustments for Depreciation and Other Noncash Expenses
 
 Although depreciation is an expense for tax and financial reporting purposes (thus lowering earnings before taxes [EBT] and hence profits after taxes—[NI]), it is by itself not a cash expense. In the FCF statement, we thus add the depreciation back to NI. The remaining effect of depreciation and other noncash expenses on the FCF is the tax savings they entail.
 
-# Financial Adjustments
+### Financial Adjustments
 
 Financial adjustments are adjustments for financial items included in NI. Since FCF is a concept that relates to the ongoing business (as opposed to financial) activities of the firm, we want to neutralize financial items when converting NI into FCF. Thus, for example, although NI includes interest as an expense, we will add back the after-tax interest expenses to obtain the FCF.
 
@@ -330,7 +353,7 @@ Thus, the bottom line of the cash flow statement is the closing link of the thre
 
 The cross-reference of the three accounting statements means that we can use accounting methods to ensure that models of projected financial performance are internally consistent. The firm's income statement and its cash flow statement are often the basis for predictions of its future FCFs. Note, however, that these statements reflect the past performance of the firm and are not, in themselves, necessarily predictive of future firm performance.
 
-# VALUING THE TOTAL FIRM
+## VALUING THE TOTAL FIRM
 
 Earlier we introduced several equations for valuing a firm's common stock. For example, review the constant growth dividend discount model and the nonconstant growth dividend discount model. These models (equations) have one common element: They all assume that the firm is currently paying a dividend. However, consider the situation of a start-up company formed to develop and market a new product. Such a company generally expects to have low sales during its first few years as it develops and begins to market its product. Then, if the product catches on, sales will grow rapidly for several years. Growing sales require additional assets. A company cannot grow without increasing its assets. Moreover, increasing a liability and/or equity account must finance asset growth.
 
@@ -339,7 +362,7 @@ Small firms can often obtain some bank credit, but they must maintain a reasonab
 
 Although most larger firms do pay a dividend, some firms, even highly profitable ones, have never paid a dividend. How can the value of such a company be determined? Similarly, suppose you start a business and someone offers to buy it from you. How could you determine its value, or that of any privately held business? Alternatively, suppose you work for a company with a number of divisions. How could you determine the value of one particular division that the company wants to sell? In none of these cases could you use the dividend growth model. However, you could use the FCF model to estimate total firm value, then back out the value of equity.
 
-# ESTIMATING TOTAL FIRM VALUE USING THE FCF MODEL
+## ESTIMATING TOTAL FIRM VALUE USING THE FCF MODEL
 
 Tables 4 and 5 contain the actual 20X8 and projected 20X9 to 20Y2 financial statements for
 
@@ -389,7 +412,7 @@ Notes:
 1. All assets except marketable securities are operating assets required to support sales. The marketable securities are financial assets not required in operations.
 2. Common equity is shown at par plus paid-in capital. Present value of nonoperating assets.
 
-value of operations as of "today," December 31, 20X8, we find the PV of each annual cash flow in Table 7, discounting at the  $10.84\%$  cost of capital.
+To find the value of operations as of "today," December 31, 20X8, we find the PV of each annual cash flow in Table 7, discounting at the  $10.84\%$  cost of capital.
 
 The sum of the PVs (all FCFs and the terminal value discounted at 10.84\%) is approximately \$615 million. The \$615.27 represents an estimate of the price XYZ could expect to receive if it sold its operating assets today, December 31, 20X8. The total value of any company is the value of its operations plus the value of its nonoperating assets. As the December 31, 20X8, balance sheet in Table 5 shows, XYZ had 63 million of marketable securities on that date. Unlike operating assets, we do not have to calculate a present value for marketable securities because short-term financial assets as reported on the balance sheet are at, or close to, their market value.
 
@@ -444,7 +467,7 @@ Table 8 Finding the Value of XYZ's Stock (in millions except for per-share data)
 <table><tr><td>1. Value of operations (net of payables and accruals)</td><td>\$615.27</td></tr><tr><td>2. Plus value of nonoperating assets</td><td>\$63.00</td></tr><tr><td>3. Total market value of the firm</td><td>\$678.27</td></tr><tr><td>4. Less: Value of debt</td><td>\$247.00</td></tr><tr><td>Value of preferred stock</td><td>\$62.00</td></tr><tr><td>5. Value of common equity</td><td>\$369.27</td></tr><tr><td>6. Divide by number of shares</td><td>100</td></tr><tr><td>7. Estimated value per share</td><td>3.69</td></tr></table> financing needs. Also, such an analysis can provide insights into actions that might be taken to increase the company's value.
 
 
-# KEY POINTS
+## KEY POINTS
 
 - The two most commonly used approaches for equity valuation are the discounted cash flow and relative valuation models.
 - Despite the fact that equity valuation is very strongly tilted toward the use of discounted cash flow models, it is impossible to ignore the fact that many financial modelers employ relative valuation techniques.

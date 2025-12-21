@@ -177,9 +177,9 @@ Antecedents of the Crisis / Changes in Housing Finance / Mortgage Derivatives / 
 
 End of Chapter Material 27-30
 
-# Chapter 2
+## Chapter 2
 
-# Asset Classes and Financial Instruments 31
+## Asset Classes and Financial Instruments 31
 
 2.1 The Money Market 31
 

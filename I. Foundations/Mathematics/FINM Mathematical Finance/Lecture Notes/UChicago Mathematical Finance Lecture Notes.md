@@ -1,40 +1,27 @@
 ---
-parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: UChicago Mathematical Finance Complete Lecture Notes
-tags: null
-aliases:
-- UChicago Mathematical Finance Complete Lecture Notes
-parent_folder: Lecture Notes
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: UChicago Mathematical Finance Complete Lecture Notes
+title: "UChicago Mathematical Finance Complete Lecture Notes"
+parent_directory: "Lecture Notes"
+formatted: 2025-12-21 10:22:45 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
 primary_tags:
-- risk-neutral probability measure
-- two possible market scenarios
-- fluctuation rates
-- useful special cases
-- following lemma
-- simple example
+  - fundamental theorem of arbitrage pricing
+  - risk neutral probability measures
+  - black scholes theory
+  - efficient market hypothesis
+  - derivative securities pricing
 secondary_tags:
-- efficient market hypothesis
-- black scholes argument
-- fundamental theorem see
-- any probability distribution
-- any such market
-- simple examples
-- no discounting
-- forwards contracts
-- every multiperiod market
-- traded assets
-- guaranteed profit
-- future rates
-- probability zero
-- only one constraint
-- wiener measure
-- terminal value
-tags_extracted: '2025-12-18T17:58:26.599366'
-tags_method: max_quality_v1
+  - forward contracts
+  - call options
+  - arbitrage strategies
+  - hedging techniques
+  - stochastic processes
+  - martingale theory
+  - no arbitrage pricing
+  - market completeness
+  - replicating portfolios
+  - option valuation
+cssclasses: academia
 ---
 
 # THE FUNDAMENTAL THEOREM OF ARBITRAGE PRICING

@@ -25,9 +25,7 @@ cssclasses: academia
 
 # OPTIONS FOR DEPOSIT INSURANCE REFORM
 
-MAY 1, 2023
-
-# Table of Contents
+## Table of Contents
 
 Section 1: Executive Summary
 
@@ -45,7 +43,7 @@ Section 7: Conclusion
 
 References
 
-# Section 1: Executive Summary
+## Section 1: Executive Summary
 
 The Federal Deposit Insurance Corporation was established in 1933 in response to widespread bank runs and bank failures that inflicted severe damage on the U.S. economy. Although many banks have failed since then, all insured deposits have been fully protected by the FDIC.
 
@@ -73,13 +71,13 @@ Deposit insurance has broader market effects.
 
 Banks compete for deposits on several dimensions. As deposit insurance increases, deposits become a relatively more attractive asset. In addition, as deposit insurance coverage increases, demand for deposits may rise, leading to a decline in deposit interest rates and an increase in bank reliance on deposit funding. Understanding the broader market implications of changes to deposit insurance is important for any policy decision.
 
-# Deposit insurance is not free and must be funded through assessments on the banking system.
+### Deposit insurance is not free and must be funded through assessments on the banking system.
 
 Although the challenges posed by concentrations of uninsured depositors in the system are driven primarily by a small subset of depositors at a subset of banks, increases to the deposit insurance limit increase the size of the Deposit Insurance Fund (DIF, or the Fund) necessary for a given target ratio of the Fund
 
 to insured deposits. Increasing the size of the Fund must be done through increased assessments on banks.
 
-# Additional policies can support deposit insurance objectives and mitigate undesired consequences.
+### Additional policies can support deposit insurance objectives and mitigate undesired consequences.
 
 Deposit insurance pricing is a tool that promotes fund adequacy, encourages the fair allocation of the cost of deposit insurance across banks and, to some extent, influences bank risk-taking. Requiring collateralization of large uninsured deposits may also be considered an option to limit bank reliance on uninsured deposits, reduce depositor run incentives, and increase depositor discipline. Limiting the convertibility of large uninsured deposits would restrict the capacity of depositors to run and may improve depositor discipline in a manner that does not threaten financial stability.
 
@@ -123,7 +121,7 @@ TABLE 1.1 Summary of Advantages and Disadvantages of the Options for Deposit Ins
 ·If large accounts remain partially insured, require that large deposits are secured
 ·If large accounts remain partially insured, place limits on convertibility for large deposits</td></tr></table>
 
-# Section 2: Introduction and Background
+## Section 2: Introduction and Background
 
 ## Introduction
 
@@ -233,7 +231,7 @@ Source: FDIC. Note: Top 1 percent is the top 1 percent of banks by total assets 
 
 PAGE INTENTIONALLY LEFT BLANK
 
-# Section 3: History of Deposit Insurance in the U.S.
+## Section 3: History of Deposit Insurance in the U.S.
 
 This section examines changes to deposit insurance coverage since the FDIC was established, including periodic changes to the standard maximum deposit insurance amount (SMDIA) and the periods when differential coverage was available for different account types. It includes a detailed discussion of the most recent differential deposit insurance coverage treatment by account type, the FDIC's 2008 TAG program, and a similar program put in place under Dodd-Frank in 2010. The section then discusses changes in the composition of deposits since 1984 and provides information on uninsured depositor losses over the past three decades. The section ends by looking briefly at technological and recent regulatory changes, and relevant upcoming changes to the financial system.
 
@@ -241,7 +239,7 @@ The SMDIA applies to each depositor by ownership right and capacity, or ownershi
 
 aggregated and insured up to the SMDIA for that ownership category."27 As of May 2023, there were 14 ownership categories.28 In practice, the ability of depositors to open accounts under multiple ownership categories allows depositors to access deposit insurance coverage above  \$250,000 at a single bank. This section refers to the SMDIA as\$ 250,000, rather than effective coverage, unless noted otherwise.
 
-# The History of FDIC Insurance Coverage Limits
+### The History of FDIC Insurance Coverage Limits
 
 Congress has increased the SMDIA for FDIC insurance seven times since it was originally set at  $2,500 in 1933$ <sup>29</sup> to keep pace with inflation, maintain depositor confidence, and help smaller institutions. Particularly during the mid-1960s to 1980, there was an added purpose of helping the thrift industry. The statutory changes to the SMDIA are presented in Table 3.1. Given the lengthy period with no increase to the SMDIA by the early 2000s, inflation-adjusted increases
 
@@ -301,13 +299,13 @@ The SMDIA was increased temporarily from \(100,000 to \)250,000 in October 2008 
 
 argued that adjusting for inflation, the  \$250,000 limit approximately restored the coverage that the\$ 100,000 limit provided in 1980. The National Credit Union Administration was also in favor of the permanent increase and said a reversion to the old limit would destabilize the industry and affect public confidence.[46] The FDIC stated that any permanent increase in the coverage limit was a decision by Congress but that the FDIC should be allowed to account for any increase in setting insurance premiums.[47] The Dodd-Frank Act made the increase to \$250,000 permanent. That increase did not generate significant comment in testimony before Congress, and the provision was not included in the legislation until it reached the House-Senate conference.
 
-# Differential Treatment of Accounts
+### Differential Treatment of Accounts
 
 Congress has several times set the deposit insurance coverage limit for certain types of accounts above the SMDIA. The first time was in 1974 when the statute set the SMDIA at  \$40,000 and increased coverage for public unit time and savings deposits held by state and political subdivisions to\$ 100,000. This increase benefited banks by allowing them to better compete for public deposits and by freeing pledged assets associated with public deposit accounts. Through the enactment of the Financial Institutions Regulatory and Interest Rate Control Act of 1978,[48] Congress authorized another differential treatment of deposits, increasing to \$100,000 the coverage limit for time and savings deposits of individual retirement accounts (IRAs) and KEOGH funds (funds in retirement plans for self-employed individuals, small businesses, and partnerships). Differential coverage for retirement accounts was extended further under the Federal Deposit Insurance Reform Act of 2005, when coverage for those accounts was increased to \$250,000, leaving the SMDIA at \$100,000 though providing for future periodic inflation adjustments to the SMDIA. The FDIC
 
 supported the increase to retirement account coverage and suggested that it be similar to the 2.5 times multiple adopted in 1978.[49]
 
-# The Transaction Account Guarantee Program<sup>50</sup>
+### The Transaction Account Guarantee Program<sup>50</sup>
 
 The most recent instance of differential coverage occurred in response to the financial crisis that began in 2008 and the recession that followed. The FDIC created the TAG program under a systemic risk exception. The program was in effect from October 2008 to year-end 2010. This program provided unlimited deposit insurance coverage to certain transaction accounts for institutions that chose to participate. Congress enacted a similar program, but for all institutions, under the Dodd-Frank Act in 2010. That program ended at year-end 2012.
 
@@ -355,7 +353,7 @@ The Dodd-Frank Act provided that going forward, a debt guarantee program like th
 
 the statute specifically stated that a debt guarantee program could not extend to a guarantee of deposits. However, in 2020, as part of the pandemic-related provisions related to economic stabilization, Section 4008 of the CARES Act<sup>58</sup> gave the FDIC authority to back up deposits to any limit and preemptively granted congressional approval for such a program so long as the FDIC guarantee terminated by December 31, 2020.<sup>59</sup> The FDIC did not put such a guarantee in place. However, the statute changed the Dodd-Frank Act provision stating that a debt guarantee program could not extend to a guarantee of deposits, and the law now allows such a program to include a guarantee of deposits.
 
-# Composition of Deposits
+### Composition of Deposits
 
 Deposits serve two primary functions. First, deposits serve a critical role in the payment system. Households and businesses use deposits to transfer monetary value to settle financial transactions. Second, deposits are a store of value used by households and businesses for saving and investment. Although deposit accounts are not distinguished directly along these dimensions, transaction accounts are generally associated with the payment system function, and savings and time deposits are generally associated with the saving and investment functions.
 
@@ -440,7 +438,7 @@ Movements toward open banking may also facilitate the likelihood that depositors
 
 PAGE INTENTIONALLY LEFT BLANK
 
-# Section 4: Objectives and Possible Consequences of Deposit Insurance
+## Section 4: Objectives and Possible Consequences of Deposit Insurance
 
 Since the creation of the FDIC in 1933, more than 140 national jurisdictions have adopted deposit insurance systems.[74] Financial stability and depositor protection are the two leading public policy objectives of deposit insurance. However, deposit insurance can also change bank behaviors and lead to market distortions. This section reviews the objectives of deposit insurance and its consequences in the context of U.S. institutions and the regulatory framework. It highlights the important tools, discussed in Section 5, that may be used along with changes to deposit insurance coverage to meet policy objectives while minimizing undesired consequences.
 
@@ -569,7 +567,7 @@ Increases in deposit insurance coverage may improve the availability and cost of
 
 Deposit insurance can affect competition between banks, competition between banks and nonbank financial companies, and competition between deposits and other financial assets. Deposit insurance can affect how banks compete with one another, as insured depositors do not need to worry about bank risk. In addition, changes to deposit insurance coverage are likely to affect the interaction between banks and nonbank financials that compete with banks along some dimensions and partner with banks along other dimensions. Nonbank financials may compete with banks on the liability side, creating deposit-like savings or transaction vehicles, and on the asset side, making loans traditionally associated with chartered depository institutions. Changes to deposit insurance may alter the competition between banks and financial assets viewed as substitutes. An increase in deposit insurance coverage would likely make deposits more competitive, decreasing the demand for alternative assets at least to some degree. A discussion of the competitive effects of deposit insurance is beyond the scope of this report.
 
-# Section 5: Tools to Support Objectives and Address Possible Consequences
+## Section 5: Tools to Support Objectives and Address Possible Consequences
 
 The effectiveness of deposit insurance depends critically on its interaction with other policy tools. Tools can increase the efficacy with which deposit insurance promotes financial stability or may dampen undesirable consequences associated with deposit insurance. Changes to deposit insurance coverage should be made in conjunction with an evaluation of the best associated policy tools.
 
@@ -690,7 +688,7 @@ Restoring the DIF to the statutory minimum reserve ratio, absent changes to requ
 
 PAGE INTENTIONALLY LEFT BLANK
 
-# Section 6: Options for Increased Deposit Insurance Coverage
+## Section 6: Options for Increased Deposit Insurance Coverage
 
 This section presents several options for alternative deposit insurance schemes. The options differ in how much they deviate from the statutory status quo and in their likely effects upon deposit insurance objectives. Of the options considered, the report suggests that Targeted Coverage, which allows for higher or unlimited deposit insurance limits for business payment accounts, has the greatest potential to meet many of the objectives of the deposit insurance system while mitigating many of the undesirable consequences of raising the limit more broadly.
 
@@ -938,7 +936,7 @@ For mismanaged and undercapitalized banks, limiting the liquidity of the largest
 
 PAGE INTENTIONALLY LEFT BLANK
 
-# Section 7: Conclusion
+## Section 7: Conclusion
 
 Deposit insurance reform merits consideration in the wake of bank runs in March 2023 and trends that may have increased the susceptibility of the system more broadly. This report assesses three options for deposit insurance reform, their efficacies to meet the objectives of deposit insurance in the current environment, their broader consequences, and tools that may be used along with each option to maximize their effectiveness. The primary options—ordered for expositional purposes only—are:
 

@@ -1,12 +1,21 @@
 ---
-aliases:
-  - "Interest Rates and Security Valuation"
-tags:
-key_concepts:
-parent_directory: "III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 01 Introduction"
-cssclasses: academia
 title: "Chapter 03: Interest Rates and Security Valuation"
-linter-yaml-title-alias: "Chapter 03: Interest Rates and Security Valuation"
+parent_directory: "Financial Markets and Institutions/Part 01 Introduction"
+formatted: "2025-12-21 10:25:00 AM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli_tool: "claude-code"
+primary_tags:
+  - interest rate determinants
+  - bond valuation
+  - equity valuation
+  - duration and convexity
+secondary_tags:
+  - coupon rates
+  - yield to maturity
+  - dividend discount models
+  - security price sensitivity
+  - immunization strategies
+cssclasses: academia
 ---
 
 Interest Rates as a Determinant of Financial Security Values: Chapter Overview
@@ -87,67 +96,65 @@ Appendix 3B: More on Convexity
 
 instructor)
 
-# Interest Rates and Security Valuation
+# Chapter 03: Interest Rates and Security Valuation
 
-# Learning Goals
+## Learning Goals
 
-# LG 3-1
+### LG 3-1
 
 Understand the differences in the required rate of return, the expected rate of return, and the realized rate of return.
 
-# LG3-2
+### LG 3-2
 
 Calculate bond values.
 
-# LG3-3
+### LG 3-3
 
 Calculate equity values.
 
-# LG 3-4
+### LG 3-4
 
 Appreciate how security prices are affected by interest rate changes.
 
-# LG 3-5
+### LG 3-5
 
 Understand how the maturity and coupon rate on a security affect its price sensitivity to interest rate changes.
 
-# LG 3-6
+### LG 3-6
 
 Know what duration is.
 
-# LG 3-7
+### LG 3-7
 
 Understand how maturity, yield to maturity, and coupon rate affect the duration of a security.
 
-# LG 3-8
+### LG 3-8
 
 Understand the economic meaning of duration.
 
-# INTEREST RATES AS A DETERMINANT OF FINANCIAL SECURITY VALUES: CHAPTER OVERVIEW
+## Interest Rates as a Determinant of Financial Security Values: Chapter Overview
 
 In Chapter 2, we reviewed the basic concepts of time value of money and how time value of money equations can be used to convert cash flows received or paid over an investment horizon into either a present value or future value. Of particular importance was the fact that interest rate levels, and changes in interest rate levels, affect security values. We also reviewed factors that determine the level of interest rates, changes in interest rates, and interest rate differences among securities (e.g., default risk, callability).
 
 With this understanding of how and why interest rates change, in this chapter we apply time value of money principles to the valuation of specific financial securities, paying particular attention to the change in a security's value when interest rates change. We examine how characteristics specific to a financial security (e.g., coupon rate and remaining time to maturity) also influence a financial security's price. We conclude the chapter with an analysis of the duration of a security. Duration, which measures the weighted-average time to maturity of an asset or liability, using the present values of the cash flows as weights, also has economic meaning as the sensitivity of an asset or liability's value or price to a small interest rate change. The valuation and duration models reviewed in this chapter are used by traders to determine whether to transact in the various financial markets we discuss in Chapters 5 through 10.
 
-# VARIOUS INTEREST RATE MEASURES
+## Various Interest Rate Measures
 
 LG3-1
 
 In Chapter 2, we presented a general discussion of interest rates and how they are determined. The term interest rates can actually have many different meanings depending on the time frame used for analysis and the type of security being analyzed. In this chapter, we start off by defining different interest rate measures employed in the valuation of financial securities by market participants. These definitions are summarized in Table 3-1. In the body of the chapter, we apply these rates to the valuation of bonds (bond markets and their operations are discussed in detail in Chapter 6) and the valuation of stocks (stock markets and their operations are discussed in Chapter 8).
 
-# coupon rate
+### Coupon Rate
 
 Interest rate used to calculate the annual cash flow the bond issuer promises to pay the bond holder.
 
-# Coupon Rate
-
 One variation on the meaning of the term interest rate specific to debt instruments is the coupon rate paid on a bond. As discussed in detail in the next section, the coupon rate on a bond instrument is the annual (or periodic) cash flow that the bond issuer contractually promises to pay the bond holder. This coupon rate is only one component of the overall return (required, expected, or realized rate of return) the bond holder earns on a bond, however. As discussed below, required, expected, or realized rates of return incorporate not only the coupon payments but all cash flows on a bond investment, including full and partial repayments of principal by the issuer.
 
-# Required Rate of Return
+### Required Rate of Return
 
 Market participants use time value of money equations to calculate the fair present value of a financial security over an investment horizon. As we discussed in Chapter 2 and will see later in this chapter, this process involves the discounting of all projected cash flows
 
-# TABLE 3-1 Various Interest Rate Measures
+### TABLE 3-1 Various Interest Rate Measures
 
 Coupon rate—interest rate on a bond instrument used to calculate the annual cash flow the bond issuer promises to pay the bond holder.
 
@@ -162,7 +169,7 @@ Realized rate of return—actual interest rate earned on an investment in a fina
 1. Security valuation is a topic that finance students probably studied in introductory financial management courses. However, these models are critical tools for traders of financial securities and managers of financial institutions. Therefore, in this chapter we review and provide a reference guide to the general pricing relationships. This material can be included or dropped from the chapter reading, depending on the need for review of the material, without harming the continuity of the chapter.
 2. The projected cash flows used in these equations may be those promised by the security issuer or expected cash flows estimated by the security purchaser (or some other analyst) from a probability distribution of the possible cash flows received on the security. In either case, the cash flows received are not ex ante known with perfect certainty because of default and other risks.
 
-# required rate of return
+### Required Rate of Return
 
 The interest rate an investor should receive on a security, given its risk.
 

@@ -1,9 +1,9 @@
 ---
 title: Chapter 01 Introduction
 parent_directory: Krugman International Economics
-formatted: 2025-12-21 07:30:00 PM
-formatter_model: grok-code-fast-1
-cli_tool: opencode
+formatted: 2025-12-21 10:25:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
 - international economics
 - trade theory

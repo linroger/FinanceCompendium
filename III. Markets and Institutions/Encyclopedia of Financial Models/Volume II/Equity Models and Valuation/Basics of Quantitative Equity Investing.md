@@ -1,3 +1,27 @@
+---
+title: "Basics of Quantitative Equity Investing"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume II/Equity Models and Valuation"
+formatted: "2025-12-21 10:15:00 AM"
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - quantitative equity investing
+  - stock selection models
+  - quantitative research metrics
+secondary_tags:
+  - fundamental vs quantitative
+  - portfolio construction
+  - risk management
+  - information coefficients
+  - quintile returns
+  - batting average
+  - information ratio
+  - performance attribution
+  - model creation
+  - data collection
+  - characteristic testing
+cssclasses: academia
+---
 
 # Basics of Quantitative Equity Investing
 
@@ -14,12 +38,12 @@ In answering these questions, I will pull back the curtain on the quantitative e
 
 It is important to understand that this entry is dedicated to a traditional quantitative equity investing approach. There are many other types of investing that are quantitative in nature (e.g., high-frequency trading, statistical arbitrage, etc.), which will not be covered.
 
-# EQUITY INVESTING
+## EQUITY INVESTING
 
 Investing can take many forms, but it starts with an investor assigning a value to a security.
 Whether this value exceeds or is less than the current market price usually determines whether the investor will buy or sell the security. In the case of equities, the investor often seeks to understand the specific company under consideration, the broader economic environment, and the interplay between the two. This encompasses a wide range of information for the investor to consider as displayed in Figure 1. How this information is used differentiates the quantitative from the fundamental investor.
 
-# FUNDAMENTAL VS. QUANTITATIVE INVESTOR
+## FUNDAMENTAL VS. QUANTITATIVE INVESTOR
 
 Let's start with a basic question. How do portfolio managers select stocks from a broad universe of 1,000 or more companies?
 
@@ -72,7 +96,7 @@ In fact, over the years, the defining line between the two approaches has been b
 Given our preceding discussion, the distinction between the quantitative and fundamental approaches should now be better appreciated. In the remainder of this entry we restrict our focus to the quantitative equity investment process, addressing the last two topics listed at the beginning of this entry: the core steps in a quantitative equity investment process and some of the basic building blocks used by quantitative investors.
 
 
-# THE QUANTITATIVE STOCK SELECTION MODEL
+## THE QUANTITATIVE STOCK SELECTION MODEL
 
 Before diving into the details of the quantitative investment process, let's look at what is at its core—the stock selection model. As explained in the previous section, the quantitative investment approach is rooted in understanding what separates strong-performing stocks from weak-performing stocks. The quantitative investor looks for sources of information or company characteristics (often referred to as factors or signals) that help to explain why one stock outperforms another stock. They assemble these characteristics into a stock selection model, which can be run daily to provide an updated view on every stock in their investment universe.
 
@@ -93,7 +117,7 @@ Overall, the golfers' process is much like quantitative investors' process. They
 
 With that analogy in mind, we now turn to the entire quantitative investment process.
 
-# THE OVERALL QUANTITATIVE INVESTMENT PROCESS
+## THE OVERALL QUANTITATIVE INVESTMENT PROCESS
 
 The quantitative process can be divided into the following three main phases (shown in Figure 6):
 
@@ -105,7 +129,7 @@ During the research phase, the stock selection model is created. During the port
 
 "productionalizes" the stock selection model or gets it ready to invest in a live portfolio. Finally, during the monitoring phase, the quantitative investor makes sure the portfolio is performing as expected.
 
-# RESEARCH
+## RESEARCH
 
 Let's start with the research phase since it is the basic building block of the quantitative process. It is where the fact-finding mission begins. This is similar to when the golfer spends countless hours at the driving range perfecting his (or her) swing. In this phase, the quantitative investor determines what aspects of a company make its stock attractive or unattractive. The research phase begins by the quantitative investors testing all the characteristics they have at their disposal, and it finishes with assembling the chosen characteristics into a stock selection model (see Figure 7).
 
@@ -130,11 +154,11 @@ Figure 9 Determining the Characteristic's Quintile Spread
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/cfb463a1-2282-4dad-842c-22b6b264a8a9/c9f7ca6d1b903f3497cccc48de2e01c851b86c4ede0c54b738d59cfd479464d4.jpg)
 
-# Characteristic Testing: Key Quantitative Research Metrics
+## Characteristic Testing: Key Quantitative Research Metrics
 
 In this section we will review quintile returns and information coefficients, which measure whether a characteristic can differentiate between winning and losing stocks. Although profitability was chosen for the examples, other characteristics such as sales growth, P/E ratio, or asset turnover also could have been chosen.
 
-# Quintile Returns
+## Quintile Returns
 
 The quintile return is already prevalent across most research publications, but is gaining popularity in more and more mainstream publications such as the Wall Street Journal, Barron's, and the like. Quintile returns measure how well a characteristic differentiates stocks. In essence, the stocks that are being reviewed are segmented into five groups (quintiles) and then are tested to determine if the companies in the group with the best attributes (top quintile) out perform the group with the least desirable attributes (bottom quintile).
 
@@ -153,7 +177,7 @@ Information
 Coefficient = Correlation = 11.0\% referred to as the characteristic's quintile return or quintile spread. The higher the quintile spread, the more attractive the characteristic is.
 
 
-# Information Coefficient
+## Information Coefficient
 
 Another common metric used for determining if a characteristic is good at separating the strong- from the weak-performing stocks is the information coefficient (IC). It does so by measuring the correlation between a stock's characteristic (i.e., profitability) and its return. The major difference between the IC and quintile return is that the IC looks across all of the stocks, while the quintile return only focuses on the best and worst stocks, ignoring those stocks in the middle. The IC is more concerned with differentiating performance across all stocks rather than the extremes.
 
@@ -172,11 +196,11 @@ $$ fewer stocks as it places a greater emphasis on measuring the few stocks at t
 
 The last two examples reviewed how a characteristic (profitability) was able to explain the next month's return for a group of stocks. In both cases it looked effective—a quintile return of  $2.0\%$  and an IC of  $11\%$ . However, in practice, it is also necessary to assess whether the characteristic was effective for not only one month, but over decades of investing encompassing multiple market cycles. To that end, during the research process a quantitative investor will look at the average quintile returns or ICs over an extended period of up to 20 years or more. When looking at these longer time series, quantitative investors use additional metrics to understand the characteristic's effectiveness.
 
-# Characteristic Testing: Key Measures of Consistency
+## Characteristic Testing: Key Measures of Consistency
 
 Two commonly used measures of consistency are batting average and information ratio.
 
-# Batting Average
+## Batting Average
 
 Batting average is a straightforward metric. In baseball a player's batting average is the number of hits divided by the number of times at bat. A similar metric is used in investing.
 
@@ -184,7 +208,7 @@ Batting average is the number of positive performance months (hits) divided by t
 
 As Figure 11 displays, to arrive at the batting average we take the number of months the quintile return was positive divided by the number of months tested. In our example, in 47 of the 72 months profitability was effective, resulting in a positive return. This translates to a batting average of  $65\%$ , which is quite high. Imagine walking into a casino in Las Vegas where you have a  $65\%$  chance of winning every bet. That casino would not be in business very long with you at the table.
 
-# Information Ratio
+## Information Ratio
 
 Information ratio is also used to measure consistency. This measure is defined as the average return of a characteristic divided by its volatility—basically a measure of return per unit of risk or risk reward ratio. For volatility, quantitative investors use tracking error, which is the standard deviation of excess returns.
 
@@ -195,7 +219,7 @@ Figure 12 Determining the Characteristic's Information Ratio
 
 Based only on returns, we would choose characteristic 2 since it has a higher excess return  $(3.0\%)$  than characteristic 1  $(2.0\%)$ . However, as we can see in the figure, characteristic 2 also has much larger swings in performance than characteristic 1 and therefore more risk. The higher risk of characteristic 2 is confirmed by its high tracking error of  $12.0\%$ , three times greater than characteristic 1's tracking error of  $4.0\%$ . Characteristic 1 looks much better on a risk-adjusted basis with an information ratio of 0.50  $(2.0\% / 4.0\%)$  or twice characteristic 2's information ratio of 0.25  $(3.0\% / 12.0\%)$ . So even though characteristic 1 has a lower return than characteristic 2, it also has much less risk, making it preferred since investors are rewarded more for the risk they are taking.
 
-# Model Creation
+## Model Creation
 
 After reviewing and selecting the best characteristics, the quantitative investor then needs to assemble them into a stock selection model. This step of the research process is called model creation. It usually involves two main components:
 
@@ -230,7 +254,7 @@ Figure 14 Stock Selection Model: Characteristic Weightings
 Figure 15 Three Main Steps of the Portfolio Construction Phase
 
 
-# PORTFOLIO CONSTRUCTION
+## PORTFOLIO CONSTRUCTION
 
 In the second phase of the investment process, the quantitative investor uses the stock selection model to buy stocks. It is in this phase that the quantitative investor puts the model into production. Returning to our golfer analogy, this is when they travel to the course to play a round of golf.
 
@@ -242,11 +266,11 @@ Step 2: Create security weights. New data are used to both select the stocks tha
 
 Step 3: Trade. The stock selection model that has incorporated the most current information is used for trading.
 
-# Data Collection
+## Data Collection
 
 As Figure 16 shows, data come from many different sources, such as a company's fundamental, pricing, economic, and other data (specialized data sources). All of these data are updated nightly, so it is important to have robust systems and processes established to handle large amounts of data, clean the data (check for errors), and process it in a timely fashion. The quantitative investor seeks to have everything ready to trade at the market opening.
 
-# Creating Security Weights
+## Creating Security Weights
 
 After the data are collected and verified, the next step is running all of the updated company information through the stock selection model. This will create final positions for every stock in the screened universe. In this step, each stock is ranked using the stock selection model, with the better scoring companies making it into the portfolio.
 
@@ -266,28 +290,28 @@ Figure 17 Creating Security Weights Step of the Portfolio Construction Phase
 
 Furthermore, the investment community has not discounted the slowing growth and hence the stock is still expensive.
 
-# Trade
+## Trade
 
 The final step in the portfolio construction process is to trade into the new positions chosen by the stock selection model. While many investment approaches trade regularly, even daily, quantitative investors tend not to. Quantitative investors tend to trade monthly or longer. They may wait for the views from their stock selection model to change significantly from their current portfolio before trading into the new views.
 
-# MONITORING
+## MONITORING
 
 The third and final phase in the quantitative equity investment process is monitoring performance and risk. This step is important to check if any hidden biases are embedded in the portfolio and that the portfolio is performing in line with expectations. Returning one last time to our golfer analogy, this is when the golfer is making mental notes as to what is and isn't working during the round to improve his or her game in the future. This step can be broken into two activities: risk management and performance attribution.
 
-# Risk Management
+## Risk Management
 
 In risk management, the main emphasis is on making sure that the quantitative investor is buying companies consistent with the stock selection model. Returning to the retail model discussed earlier in this entry, the model liked companies with good profit margins but had no view on the company's beta. So the quantitative investor would want to make sure that the companies included in the portfolio have high profit margins but average beta. If the portfolio started to include high-beta stocks, the quantitative investor would want to make adjustments to the process to eliminate this high-beta bias. There are many types of risk management software and techniques that can be used to detect any hidden risks embedded in the portfolio and provide ways to remedy those identified.
 
 
 Another aspect of risk management is to make sure that the portfolio's risk level is consistent with the modeling phase. The quantitative investor wants to ensure that the tracking error is not too high or low relative to expectations. Again, risk management techniques and software can be used to monitor tracking error and sources of tracking error, and to remedy any deviations from expectations.
 
-# Performance Attribution
+## Performance Attribution
 
 Performance attribution is critical in ensuring that the actual live portfolio's performance is coming from the characteristics in the stock selection model and is in line with performance expected during the modeling stage. Performance attribution is like monitoring a car's gas mileage: If the gas mileage begins to dip below what the driver expects, or what it is known to be, then the driver would want to look under the car's hood. Similarly, if the stock selection model is not producing the desired results, or the results have changed, then the quantitative investor would need to look under the hood of the stock selection model. If performance is not being generated from the selected characteristics, then the quantitative manager would want to check out the model in more detail. One possibility is that another characteristic is canceling the desired characteristics, or the model should be providing more weight to the desired characteristic.
 
 The monitoring phase is critical in making sure that the stock selection model is being implemented as expected.
 
-# CURRENT TRENDS
+## CURRENT TRENDS
 
 Let's look at some recent trends in the quantitative investment industry.
 
@@ -299,7 +323,7 @@ Dynamic modeling is gaining renewed popularity. It consists of timing characteri
 Finally, with the advent of high-frequency trading and more advanced trading analytics, many quantitative investors are reviewing how best to implement their stock selection models. Some characteristics such as earnings surprise may have short-lived alpha prospects, so quantitative investors would want to trade into these stocks more quickly. Other characteristics are longer term in nature, such as valuation metrics, so investors would not have to trade into companies with attractive valuations as quickly. Furthermore, trading costs are being measured with greater granularity, allowing quantitative investors to measure transaction cost and incor porate these better estimates into their research modeling phase.
 
 
-# KEY POINTS
+## KEY POINTS
 
 - Investing begins with processing many different types of information to find the most attractively priced assets. Fundamental and quantitative investors differ in their approach to the available information. The fundamental investor's primary focus is on a single company at a time, while the quantitative investor's primary focus is on a single characteristic at a time.
 - Quantitative and fundamental approaches are complementary. By combining the two approaches you can obtain a more well-rounded investment process including breadth and depth in analysis, facts based on human judgment, a past and future perspective of a company, and a more well-rounded view of risk and performance of the portfolio.
@@ -311,7 +335,7 @@ Finally, with the advent of high-frequency trading and more advanced trading ana
 
 - The monitoring phase is when the investor assures that the performance in the portfolio is consistent with expectations. During this phase, the investor will make sure there are no hidden bets in the portfolio and that the characteristics in the stock selection model are performing as expected.
 
-# NOTES
+## NOTES
 
 1. Throughout the entry we discuss whether characteristics can separate a stock with strong future returns from one with weak future returns. Many times reference will be made to a "strong" characteristic that can differentiate the strong- from weak-performing stocks.
 

@@ -1,4 +1,23 @@
 
+---
+title: Dividend Discount Models
+parent_directory: III. Markets and Institutions/Encyclopedia of Financial Models/Volume II/Equity Models and Valuation
+formatted: 2025-12-21 10:21:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+- dividend discount models
+- stock valuation
+- discounted cash flow
+secondary_tags:
+- dividend yield
+- dividend payout ratio
+- equity pricing
+- financial modeling
+- investment valuation
+cssclasses: academia
+---
+
 # Dividend Discount Models
 
 PAMELA P. DRAKE, PhD, CFA
@@ -18,13 +37,13 @@ In this entry, we discuss dividend discount models and their limitations. We beg
 Dividends are measured using three different measures:
 
 $$
-= \frac{\text{Di vi de nd s}}{\text{Nu mb er of sh ar es ou ts ta nd in g}}
+\text{Dividends per share} = \frac{\text{Dividends}}{\text{Number of shares outstanding}}
 $$
 
 If a company has paid 600,000 in dividends during the period and there are 1.5 million shares of common stock outstanding, then
 
 $$
-\begin{array}{l} \text{Di vi de nd sp er sh ar e} = \frac{\mathbb {S} 6 0 0 , 0 0 0}{1 , 5 0 0 , 0 0 0 \text{sh ar es}} \\ = \$ 0.40 \text{pe rs ha re} \\ \end{array}
+\begin{array}{l} \text{Dividends per share} = \frac{\$600,000}{1,500,000 \text{ shares}} \\ = \$0.40 \text{ per share} \\ \end{array}
 $$
 
 The company paid out 40 cents in dividends per common share during this period.
@@ -32,7 +51,7 @@ The company paid out 40 cents in dividends per common share during this period.
 The dividend yield, the ratio of dividends to price, is
 
 $$
-\begin{array}{l} \text{Di vi de nd yi el d} \\ = \frac{\text{An nu al ca sh di vi de nd sp er sh ar e}}{\text{Ma rk et pr ic ep er sh ar e}} \\ \end{array}
+\begin{array}{l} \text{Dividend yield} \\ = \frac{\text{Annual cash dividend per share}}{\text{Market price per share}} \\ \end{array}
 $$
 
 The dividend yield is also referred to as the dividend-price ratio. Historically, the dividend yield for U.S. stocks has been a little less than  $5\%$ , according to a study by Campbell and Shiller (1998). In an exhaustive study of the relation between dividend yield and stock prices, Campbell and Shiller find that:
@@ -48,14 +67,14 @@ Another way of describing dividends paid out during a period is to state the div
 Dividend payout ratio
 
 $$
-= \frac{\text{Di vi de nd s}}{\text{Ea rn in gs av ai la bl et oc om mo ns ha re ho ld er s}}
+\text{Dividend payout ratio} = \frac{\text{Dividends}}{\text{Earnings available to common shareholders}}
 $$
 
 If a company pays 360,000 in dividends and has earnings available to common shareholders of 1.2 million, the payout ratio is 30\%:
 
 
 $$
-\begin{array}{l} \text{Di vi de nd pa yo ut ra ti o} = \frac{\mathbb {S} 3 6 0 , 0 0 0}{\mathbb {S} 1 , 2 0 0 , 0 0 0} \\ = 0.30 \text{or} 30 \% \\ \end{array}
+\begin{array}{l} \text{Dividend payout ratio} = \frac{\$360,000}{\$1,200,000} \\ = 0.30 \text{ or } 30\% \\ \end{array}
 $$
 
 This means that the company paid out  $30\%$  of its earnings to shareholders.
@@ -122,21 +141,21 @@ Equation (3) is called the constant discount rate version of the finite life gen
 Let's illustrate the finite life general DDM assuming a constant discount rate assuming each period is a year. Suppose that the following data are determined for stock XYZ by a financial analyst:
 
 $$
-D_{1} = \ 2. 0 0 \quad D_{2} = \ 2. 2 0 \quad D_{3} = \ 2. 3 0
+D_{1} = \$2.00 \quad D_{2} = \$2.20 \quad D_{3} = \$2.30
 $$
 
 $$
-D_{4} = \ 2. 5 5 \quad D_{5} = \ 2. 6 5
+D_{4} = \$2.55 \quad D_{5} = \$2.65
 $$
 
 $$
-P_{5} = \$ 26 \quad N = 5 \quad r = 0. 1 0
+P_{5} = \$26.00 \quad N = 5 \quad r = 0.10
 $$
 
 Based on these data, the fair price of stock XYZ is
 
 $$
-\begin{array}{l} P = \frac{\mathbb {S} 2 . 0 0}{(1 . 1 0)^{1}} + \frac{\mathbb {S} 2 . 2 0}{(1 . 1 0)^{2}} + \frac{\mathbb {S} 2 . 3 0}{(1 . 1 0)^{3}} + \frac{\mathbb {S} 2 . 5 5}{(1 . 1 0)^{4}} \\ + \frac{\mathbb {S} 2 . 6 5}{(1 . 1 0)^{5}} + \frac{\mathbb {S} 2 6 . 0 0}{(1 . 1 0)^{5}} = \mathbb {S} 2 4. 8 9 5 \\ \end{array}
+\begin{array}{l} P = \frac{\$2.00}{(1.10)^{1}} + \frac{\$2.20}{(1.10)^{2}} + \frac{\$2.30}{(1.10)^{3}} + \frac{\$2.55}{(1.10)^{4}} \\ + \frac{\$2.65}{(1.10)^{5}} + \frac{\$26.00}{(1.10)^{5}} = \$24.895 \\ \end{array}
 $$
 
 # Required Inputs
@@ -185,13 +204,13 @@ $$ where  $D_{1}$  is equal to  $D_0(1 + g)$ .
 Consider a company that currently pays dividends of 3.00 per share. If the dividend is expected to grow at a rate of 3\% per year and the discount rate is 12\%, what is the value of a share of stock of this company? Using equation (5),
 
 $$
-P = \frac{\mathbb {S} 3 . 0 0 (1 + 0 . 0 3)}{0 . 1 2 - 0 . 0 3} = \frac{\mathbb {S} 3 . 0 9}{0 . 0 9} = \mathbb {S} 3 4. 3 3
+P = \frac{\$3.00(1 + 0.03)}{0.12 - 0.03} = \frac{\$3.09}{0.09} = \$34.33
 $$
 
 If the growth rate for this company's dividends is  $5\%$ , instead of  $3\%$ , the current value is 45.00:
 
 $$
-P = \frac{\mathbb {S} 3 . 0 0 (1 + 0 . 0 5)}{0 . 1 2 - 0 . 0 5} = \frac{\mathbb {S} 3 . 1 5}{0 . 0 7} = \mathbb {S} 4 5. 0 0
+P = \frac{\$3.00(1 + 0.05)}{0.12 - 0.05} = \frac{\$3.15}{0.07} = \$45.00
 $$
 
 Therefore, the greater the expected growth rate of dividends, the greater the value of a share of stock.
@@ -199,7 +218,7 @@ Therefore, the greater the expected growth rate of dividends, the greater the va
 In this last example, if the discount rate is  $14\%$  instead of  $12\%$  and the growth rate of dividends is  $3\%$ , the value of a share of stock is:
 
 $$
-P = \frac{\mathbb {S} 3 . 0 0 (1 + 0 . 0 3)}{0 . 1 4 - 0 . 0 3} = \frac{\mathbb {S} 3 . 0 9}{0 . 1 1} = \mathbb {S} 2 8. 0 9
+P = \frac{\$3.00(1 + 0.03)}{0.14 - 0.03} = \frac{\$3.09}{0.11} = \$28.09
 $$
 
 Therefore, the greater the discount rate, the lower the current value of a share of stock.
@@ -216,7 +235,7 @@ The dividend growth rate can be estimated by using the compounded rate of growth
 
 The compound growth rate,  $g$ , is found using the following formula:
 
-$$ g = \left(\frac{\text{La st di vi de nd}}{\text{St ar ti ng di vi de nd}}\right)^{1 / \text{no .o fy ea rs}} - 1
+$$ g = \left(\frac{\text{Last dividend}}{\text{Starting dividend}}\right)^{1 / \text{no. of years}} - 1
 $$
 
 This formula is equivalent to calculating the geometric mean of 1 plus the percentage change over the number of years. Using time value of money math, the 2006 dividend is the future value, the starting dividend is the present value, the number of years is the number of periods; solving for the interest rate produces the growth rate.
@@ -234,19 +253,19 @@ Substituting these values into equation (5), we obtain:
 Eli Lilly estimated price =  $\frac{\mathbb{S}1.60(1 + 0.08063)}{0.09125 - 0.08063}$
 
 $$
-= \frac{\mathbb {S} 1 . 7 2 9}{0 . 0 1 6 2} = \mathbb {S} 1 6 2. 8 0
+P = \frac{\$1.729}{0.0162} = \$162.80
 $$
 
 Schering-Plough estimated price
 
 $$
-\begin{array}{l} = \frac{\mathbb {S} 0 . 2 2 (1 + 0 . 0 2 1 4 6)}{0 . 0 9 6 2 5 - 0 . 0 2 1 4 6} \\ = \frac{\mathbb {S} 0 . 2 2 5}{0 . 0 7 4 7 9} = \mathbb {S} 3. 0 0 \\ \end{array}
+\begin{array}{l} = \frac{\$0.22(1 + 0.02146)}{0.09625 - 0.02146} \\ = \frac{\$0.225}{0.07479} = \$3.00 \\ \end{array}
 $$
 
 Wyeth estimated price  $= \frac{\$ 1.01(1 + 0.03533)}{0.09625 - 0.03533}$
 
 $$
-= \frac{\mathbb {S} 1 . 0 4 6}{0 . 0 6 0 9 2} = \mathbb {S} 1 7. 1 6
+= \frac{\$1.046}{0.06092} = \$17.16
 $$
 
 Comparing the estimated price with the actual price, we see that this model does not do a good job of pricing these stocks:
@@ -291,7 +310,7 @@ $$
 Suppose a company's dividends are expected to grow at 4\% rate for the next four years and then 8\% thereafter. If the current dividend is \2.00 and the discount rate is 12\%,
 
 $$
-\begin{array}{l} P = \frac{\mathbb {S} 2 . 0 8}{(1 + 0 . 1 2)^{1}} + \frac{\mathbb {S} 2 . 1 6}{(1 + 0 . 1 2)^{2}} + \frac{\mathbb {S} 2 . 2 5}{(1 + 0 . 1 2)^{3}} \\ + \frac{\$ 2 . 3 4}{(1 + 0 . 1 2)^{4}} + \left[ \frac{1}{(1 + 0 . 1 2)^{4}} \left(\frac{\$ 2 . 5 3}{0 . 1 2 - 0 . 0 8}\right) \right] \\ = \$ 46.87 \\ \end{array}
+\begin{array}{l} P = \frac{\$2.08}{(1 + 0.12)^{1}} + \frac{\$2.16}{(1 + 0.12)^{2}} + \frac{\$2.25}{(1 + 0.12)^{3}} \\ + \frac{\$2.34}{(1 + 0.12)^{4}} + \left[ \frac{1}{(1 + 0.12)^{4}} \left(\frac{\$2.53}{0.12 - 0.08}\right) \right] \\ = \$46.87 \\ \end{array}
 $$
 
 If this company's dividends are expected to grow at the rate of 4\% forever, the value of a share is \$26.00; if this company's dividends are expected to grow at the rate of 8\% forever, the value of a share is \$52.00. But because the growth rate of dividends is expected to increase from 4\% to 8\% in four years, the value of a share is between those two values, or 46.87.
@@ -330,11 +349,11 @@ $$ where
 
 
 $$
-D_{t} = \text{di vi de nd in pe ri od} t
+D_{t} = \text{dividend in period } t
 $$
 
 $$
-D_{t + 1} = \text{di vi de nd in pe ri od} t + 1
+D_{t + 1} = \text{dividend in period } t + 1
 $$
 
 $C =$  dollar amount of the dividend increase  $p =$  probability that the dividend will increase
@@ -350,7 +369,7 @@ For example, consider once again Wyeth. In the illustration of the constant grow
 In the 15-year span 1991 through 2006, dividends increased 11 of the 14 year-to-year differences. Therefore,  $p = 11 / 15 = 73.3333\%$ . Substituting these values into equation (8), we find the estimated price to be:
 
 $$
-\begin{array}{l} P = \frac{\mathbb {S} 1 . 0 1}{0 . 0 9 6 2 5} + \left[ \left(\frac{1}{0 . 0 9 1 2 5} + \frac{1}{0 . 0 9 1 2 5^{2}}\right) (\mathbb {S} 0. 0 3 7 2 7) \left(\frac{1 1}{1 5}\right) \right] \\ P = \$ 10.49351 + [ (1 1 8. 3 3 6) (\$ 0. 3 7 2 7) (0. 7 3 3 3 3) ] \\ P = \$ 10.49351 + \$ 3.23682 = \$ 13.73033 \\ \end{array}
+\begin{array}{l} P = \frac{\$1.01}{0.09625} + \left[ \left(\frac{1}{0.09125} + \frac{1}{0.09125^{2}}\right) (\$0.03727) \left(\frac{11}{15}\right) \right] \\ P = \$10.49351 + [ (118.336) (\$0.3727) (0.73333) ] \\ P = \$10.49351 + \$3.23682 = \$13.73033 \\ \end{array}
 $$
 
 Applying this model to the other two pharmaceutical companies, we see that the model produces an estimated price that is closer to the actual price than the fair value based on the constant growth model:
@@ -387,7 +406,7 @@ $$ where
 
 
 $$
-\begin{array}{l} p_{U} = \underset {\text{in cr ea se}} {\text{pr ob ab il it yt ha tt he di vi de nd wi ll}} \\ p_{D} = \text{pr ob ab il it y} \text{th at th ed iv id en dw il l} \\ p_{C} = \text{pr ob ab il it y} \text{th at th ed iv id en dw il lb e} \\ \end{array}
+\begin{array}{l} p_{U} = \underset {\text{increase}} {\text{probability that the dividend will}} \\ p_{D} = \text{probability that the dividend will} \\ p_{C} = \text{probability that the dividend will be} \\ \end{array}
 $$
 
 The theoretical value of the stock based on the trinomial additive stochastic DDM then becomes:
@@ -451,17 +470,17 @@ $ER =$  expected return
 The expected return (ER) in equation (12). For example, consider the following inputs used at the outset of this entry to illustrate the finite life general DDM as given by equation (3). For stock XYZ, the inputs assumed are:
 
 $$
-D_{1} = \ 2. 0 0 \quad D_{2} = \ 2. 2 0 \quad D_{3} = \ 2. 3 0
+D_{1} = \$2.00 \quad D_{2} = \$2.20 \quad D_{3} = \$2.30
 $$
 
 $$
-D_{4} = \$ 2. 5 5 \quad D_{5} = \$ 2. 6 5 \quad P_{5} = \$ 2 6 \quad N = 5
+D_{4} = \$2.55 \quad D_{5} = \$2.65 \quad P_{5} = \$26 \quad N = 5
 $$
 
 We calculated a fair price based on equation (3) to be  \$24.90. Suppose that the actual price is\$ 25.89. Then the expected return is found by solving the following equation for ER:
 
 $$
-\begin{array}{l} \$ 25.89 = \frac{\$ 2.00}{(1 + E R)} + \frac{\$ 2.20}{(1 + E R)^{2}} + \frac{\$ 2.30}{(1 + E R)^{3}} \\ + \frac{\mathbb {S} 2 . 5 5}{(1 + E R)^{4}} + \frac{\mathbb {S} 2 . 6 5}{(1 + E R)^{5}} + \frac{\mathbb {S} 2 6 . 0 0}{(1 + E R)^{5}} \\ \end{array}
+\begin{array}{l} \$25.89 = \frac{\$2.00}{(1 + ER)} + \frac{\$2.20}{(1 + ER)^{2}} + \frac{\$2.30}{(1 + ER)^{3}} \\ + \frac{\$2.55}{(1 + ER)^{4}} + \frac{\$2.65}{(1 + ER)^{5}} + \frac{\$26.00}{(1 + ER)^{5}} \\ \end{array}
 $$
 
 The expected return is  $9\%$ .

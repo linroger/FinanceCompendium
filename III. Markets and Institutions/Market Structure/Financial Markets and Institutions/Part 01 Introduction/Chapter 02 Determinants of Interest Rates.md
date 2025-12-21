@@ -1,69 +1,68 @@
 ---
-aliases:
-  - "Determinants of Interest Rates"
-tags:
-key_concepts:
-parent_directory: "III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 01 Introduction"
-cssclasses: academia
 title: "Chapter 02: Determinants of Interest Rates"
-linter-yaml-title-alias: "Chapter 02: Determinants of Interest Rates"
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 01 Introduction
+formatted: 2025-12-21 10:30:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+- interest rate determinants
+- loanable funds theory
+- term structure
+- risk premiums
+secondary_tags:
+- supply demand analysis
+- fisher effect
+- yield curve theories
+- default risk premium
+- liquidity risk premium
+cssclasses: academia
 ---
 
-Interest Rate Fundamentals: Chapter Overview
+## Interest Rate Fundamentals: Chapter Overview
 
-Loanable Funds Theory
+### Loanable Funds Theory
 
-Supply of Loanable Funds
+#### Supply of Loanable Funds
 
-Demand for Loanable
+#### Demand for Loanable Funds
 
-Funds
+#### Equilibrium Interest Rate
 
-Equilibrium Interest Rate
+#### Factors That Cause the Supply and Demand Curves for Loanable Funds to Shift
 
-Factors That Cause the
+#### Movement of Interest Rates over Time
 
-Supply and Demand
+### Determinants of Interest Rates for Individual Securities
 
-Curves for Loanable
+#### Inflation
 
-Funds to Shift
+#### Real Risk-Free Rates
 
-Movement of Interest Rates over Time
+#### Default or Credit Risk
 
-Determinants of Interest Rates for Individual Securities
+#### Liquidity Risk
 
-Inflation
+#### Special Provisions or Covenants
 
-Real Risk-Free Rates
+#### Term to Maturity
 
-Default or Credit Risk
+### Term Structure of Interest Rates
 
-Liquidity Risk
+#### Unbiased Expectations Theory
 
-Special Provisions or
+#### Liquidity Premium Theory
 
-Covenants
+#### Market Segmentation Theory
 
-Term to Maturity
+#### Forecasting Interest Rates
 
-Term Structure of Interest Rates
+### Time Value of Money and Interest Rates
 
-Unbiased Expectations Theory
+#### Time Value of Money
 
-Liquidity Premium Theory
+#### Lump Sum Valuation
 
-Market Segmentation Theory
-
-Forecasting Interest Rates
-
-Time Value of Money and Interest Rates
-
-Time Value of Money
-
-Lump Sum Valuation
-
-Annuity Valuation
+#### Annuity Valuation
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/4cd12345d072aae215f39ef56e32965807d4637e8a89b45af31959f0a6926dae.jpg)
 
@@ -81,11 +80,11 @@ Source: Federal Reserve Board and Federal Reserve Board of St. Louis websites, S
 
 The interest rates actually observed in financial markets.
 
-of the 1990s, and fell back to and was even below 4 percent in the early and late 2000s. As we discuss in detail in Chapter 4, in 2008 through 2016, the Federal Reserve lowered interest rates to historic lows as it took steps to stimulate the U.S. economy (which was suffering from its worst recession since the Great Depression).
+Nominal interest rates were relatively high in the 1980s, peaked in the early 1990s, and fell back to and was even below 4 percent in the early and late 2000s. As we discuss in detail in Chapter 4, in 2008 through 2016, the Federal Reserve lowered interest rates to historic lows as it took steps to stimulate the U.S. economy (which was suffering from its worst recession since the Great Depression).
 
 This chapter examines factors that drive the level of current and future interest rates, as well as the link between interest rates and the time value of money. Sections 1 through 5 (as listed in the Learning Goals for this chapter) generally deal with the levels of interest rates, while Sections 6 through 8 are more concerned with differences among various interest rates. Finally, Section 9 demonstrates how interest rates affect the value of financial securities by reviewing time value of money concepts.
 
-# LOANABLEFUNDSTHEORY
+# LOANABLE FUNDS THEORY
 
 Interest rates play a major part in the determination of the value of financial instruments. For example, in June 2013 the Federal Reserve announced that it expected to be able to reduce its efforts to support the U.S. economy as it recovered from the financial crisis of
 
@@ -107,7 +106,7 @@ The supply of loanable funds is a term commonly used to describe funds provided 
 
 The household sector (consumer sector) is one of the largest suppliers of loanable funds in the United States—84.66 trillion in 2019. Households supply funds when they have excess income or want to reallocate their asset portfolio holdings. For example, during times of high economic growth, households may replace part of their cash holdings with earning assets (i.e., by supplying loanable funds in exchange for holding securities). As the total wealth of a consumer increases, the total supply of loanable funds from that consumer will also generally increase. Households determine their supply of loanable funds not only on the basis of the general level of interest rates and their total wealth, but also on the risk of securities investments. The greater the perceived risk of securities investments, the less households are willing to invest at each interest rate. Further, the supply of loanable funds from households also depends on their immediate spending needs. For example, near-term educational or medical expenditures will reduce the supply of funds from a given household.
 
-Higher interest rates will also result in higher supplies of funds from the U.S. business sector ( \$28.06 trillion from nonfinancial business and\$ 98.47 trillion from financial business in 2019), which often has excess cash, or working capital, that it can invest for short periods of time in financial assets. In addition to the interest rates on these investments, the expected risk on financial securities and their businesses' future investment needs will affect their overall supply of funds.
+Higher interest rates will also result in higher supplies of funds from the U.S. business sector ($28.06 trillion from nonfinancial business and $98.47 trillion from financial business in 2019), which often has excess cash, or working capital, that it can invest for short periods of time in financial assets. In addition to the interest rates on these investments, the expected risk on financial securities and their businesses' future investment needs will affect their overall supply of funds.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/5dd3cc9ad01334f04430a8dbbe3009db866af8c5b37e4f627ddb4a99a9aaac25.jpg)
 
@@ -253,7 +252,7 @@ The continual increase in the price level of a basket of goods and services.
 The first factor to affect interest rates is actual or expected inflation in the economy. Inflation of the general price index of goods and services  $(IP)$  is defined as the (percentage) increase in the price of a standardized basket of goods and services over a given period of time. The higher the level of actual or expected inflation, the higher will be the level of interest rates. The intuition behind the positive relationship between interest rates and inflation rates is that an investor who buys a financial asset must earn a higher interest rate when inflation increases to compensate for the increased cost of forgoing consumption of real goods and services today and buying these more highly priced goods and services in the future. In other words, the higher the rate of inflation, the more expensive the same basket of goods and services will be in the future. In the United States, inflation is measured using indexes such as the consumer price index  $(CPI)$  and the producer price index  $(PPI)$ . For example, the annual inflation rate using the CPI index between years  $t$  and  $t + 1$  would be equal to:
 
 $$
-\text{In fl at io n} (I P) = \frac{C P I_{t + 1} - C P I_{t}}{C P I_{t}} \times 1 0 0
+\text{Inflation}(IP) = \frac{CPI_{t+1} - CPI_{t}}{CPI_{t}} \times 100
 $$
 
 # real risk-free rate
@@ -292,10 +291,14 @@ $$
 The one-year Treasury bill rate in 2018 averaged 2.25 percent and inflation (measured by the consumer price index) for the year was 1.90 percent. If investors had expected the same inflation rate as that actually realized (i.e., 1.90 percent), then according to the Fisher effect the real risk-free rate for 2018 was:
 
 $$
-2.25\% -1.90\% = 0.35\%
+DRP_{Aaa} = 2.98\% - 1.47\% = 1.51\%
 $$
 
-The one-year T-bill rate in 2019 was 1.75 percent, while the CPI change for the year was 1.80 percent. This implies a real risk-free rate of  $-0.05$  percent—that is, the real risk-free rate was actually negative.
+$$
+DRP_{Baa} = 3.87\% - 1.47\% = 2.40\%
+$$
+
+The one-year T-bill rate in 2019 was 1.75 percent, while the CPI change for the year was 1.80 percent. This implies a real risk-free rate of $-0.05\%$—that is, the real risk-free rate was actually negative.
 
 stats.bls.gov/cpi/home.htm
 
@@ -372,7 +375,7 @@ A convertible (special) feature of a security offers the holder the opportunity 
 
 A comparison of market yields on securities, assuming all characteristics except maturity are the same.
 
-Interest rates are also related to the term to maturity of a security. This relationship is often called the term structure of interest rates or the yield curve. The term structure of interest rates compares interest rates on securities, assuming that all characteristics (i.e., default risk, liquidity risk) except maturity are the same. The change in required interest rates as the maturity of a security changes is called the maturity premium (MP). The MP, or the difference between the required yield on long- and short-term securities of the same characteristics except maturity can be positive, negative, or zero. The term structure of interest rates for U.S. Treasury securities is the most frequently reported and analyzed yield curve. The shape of the yield curve on Treasury securities has taken many forms over the years, but the three most common shapes are shown in Figure 2-7. In Panel a, the yield curve on February 18, 2018, yields rise steadily with maturity when the yield curve is upward sloping. This is the most common yield curve, so that on average the MP is positive. Panel b shows an inverted or downward-sloping yield curve, reported on August 15, 2019, for which yields decline as maturity increases. Inverted yield curves do not generally last very long, yet is often a sign of an impending economic downturn. Finally, Panel c shows a flat yield curve, reported on December 18, 2018, in which the yield is virtually unaffected by the term to maturity.
+Interest rates are also related to the term to maturity of a security. This relationship is often called the term structure of interest rates or the yield curve. The term structure of interest rates compares interest rates on securities, assuming that all characteristics (i.e., default risk, liquidity risk) except maturity are the same. The change in required interest rates as the maturity of a security changes is called the maturity premium (MP). The MP, or the difference between the required yield on long- and short-term securities of the same characteristics except maturity can be positive, negative, or zero. The term structure of interest rates for U.S. Treasury securities is the most frequently reported and analyzed yield curve. The shape of the yield curve on Treasury securities has taken many forms over the years, but the three most common shapes are shown in Figure 2-7. In Panel a, the yield curve on February 18, 2018, yields rise steadily with maturity when the yield curve is upward sloping. This is the most common yield curve, so that on average the MP is positive. Panel b shows an inverted or downward-sloping yield curve, reported on August 15, 2019, for which yields decline as maturity increases. Inverted yield curves do not generally last very long, yet it is often a sign of an impending economic downturn. Finally, Panel c shows a flat yield curve, reported on December 18, 2018, in which the yield is virtually unaffected by the term to maturity.
 
 Note that these yield curves may reflect factors other than investors' preferences for the maturity of a security, since in reality there may be liquidity differences among the securities traded at different points along the yield curve. For example, yields on newly issued 30-year Treasury bonds may be less than yields on (seasoned issues) 10-year Treasury bonds if investors prefer new ("on the run") securities to previously issued ("off the run") securities. Specifically, since (historically) the Treasury issues new 10-year notes and 30-year bonds only at the long end of the maturity spectrum, an existing 10-year Treasury bond would have to have been issued 20 years previously (i.e., it was originally a 30-year bond when it was issued 20 years previously). The increased demand for the newly issued "liquid" 30-year Treasury bonds relative to the less liquid 10-year Treasury bonds can be large enough to push the equilibrium interest rate on the 30-year Treasury bonds below that on the 10-year Treasury bonds and even below short-term rates. In the next section, we review three major theories that are often used to explain the shape of the yield curve.
 
@@ -436,10 +439,7 @@ Market segmentation theory—assumes that investors do not consider securities w
 Figure 2-8 Unbiased Expectations Theory of the Term Structure of Interest Rates
 
 $$
-\left(1 +_{1} R_{N}\right)^{N} = \left(1 +_{1} R_{1}\right) \left(1 + E \left(_ {2} r_{1}\right)\right) \dots \left(1 + E \left(_ {N} r_{1}\right)\right) \tag {2-5}
-$$ therefore:
-
-
+{}_{1}R_{N} = \left[ (1 + {}_{1}R_{1})(1 + E({}_{2}r_{1})) \dots (1 + E({}_{N}r_{1})) \right]^{1/N} - 1
 $$
 
 { }_{ 1 } R_{ N } = \left[ ( 1 + { }_{ 1 } R_{ 1 } ) ( 1 + E ( { }_{ 2 } r_{ 1 } ) ) \dots ( 1 + E ( { }_{ N } r_{ 1 } ) ) \right]^{ 1 / N } - 1
