@@ -62,4 +62,34 @@ cssclasses: academia
 
 ## Summary
 
+
+## Visualizing the Standard Trade Model
+
+```d2
+direction: right
+
+RS: Relative Supply Curve {
+  shape: line
+  style.stroke: blue
+}
+
+RD: Relative Demand Curve {
+  shape: line
+  style.stroke: red
+}
+
+equilibrium: Equilibrium Point {
+  shape: circle
+  style.fill: green
+}
+
+RS -> equilibrium: Determines
+RD -> equilibrium: Determines
+
+note: Terms of Trade {
+  shape: text
+  content: "The intersection of RS and RD curves determines the equilibrium terms of trade, balancing world relative supply and demand for traded goods."
+}
+```
+
 ## APPENDIX TO CHAPTER 6: More on Intertemporal Trade

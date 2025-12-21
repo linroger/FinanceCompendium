@@ -161,6 +161,60 @@ Incomes, though not relative to liquid assets until 2009 (coming out of the glob
 
 So, in brief, in recent years four out of the five major forces (i.e., debt/economic, internal conflict, international conflict, and acts of nature) have become increasingly threatening to China, and the fifth, the technology force, appears to be a mixed picture of great advances and falling behind and leaping ahead of the US in different ways. In Part IV, I will tell you what I think about the future.
 
+
+## Visualizing the Five Big Forces in China's Big Cycle
+
+```d2
+direction: down
+
+forces: Five Big Forces {
+  shape: hexagon
+  style.fill: "#e1f5fe"
+}
+
+debt: Debt/Economic Force {
+  shape: rectangle
+  style.fill: "#ffcdd2"
+  style.stroke: "#d32f2f"
+}
+
+internal: Internal Conflict Force {
+  shape: rectangle
+  style.fill: "#c8e6c9"
+  style.stroke: "#388e3c"
+}
+
+external: External Conflict Force {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+nature: Acts of Nature Force {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
+
+tech: Technology Force {
+  shape: rectangle
+  style.fill: "#e0f2f1"
+  style.stroke: "#00695c"
+}
+
+forces -> debt: Influences
+forces -> internal: Influences
+forces -> external: Influences
+forces -> nature: Influences
+forces -> tech: Influences
+
+debt -> internal: Interacts with
+internal -> external: Leads to
+external -> nature: Combined with
+nature -> tech: Amidst
+tech -> debt: Cycles back
+```
+
 ### APPENDIX: CHINA'S BIG DEBT CYCLE IN A FEW CHARTS
 
 I am now going to show you a bunch of charts that do a good job of painting China's debt picture, but I won't get into an analysis with a commentary because a more complete proper analysis would be too much of a digression for now. Also, notably not all the debts are properly accounted for, so these charts are meant to just be broadly indicative.
