@@ -2,5 +2,6 @@
   "model": "gpt-4o-mini",
   "lowerCaseMode": false,
   "useCustomBaseUrl": true,
-  "customBaseUrl": "http://localhost:8317"
+  "customBaseUrl": "http://localhost:8317",
+  "openaiApiKey": "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"
 }

@@ -1,17 +1,25 @@
 ---
-aliases:
-  - Introduction to Quantitative Trading - Full
-tags:
-key_concepts:
-parent_directory: Quantitative Trading Strategies
-cssclasses: academia
 title: INTRODUCTION TO QUANTITATIVE TRADING - Full Lecture Notes
-linter-yaml-title-alias: INTRODUCTION TO QUANTITATIVE TRADING - Full Lecture Notes
+parent_directory: Quantitative Trading Strategies
+formatted: 2025-12-21 12:00:00 AM
+formatter_model: claude-opus-4-5-20251101
+cli_tool: claude-code
+primary_tags:
+  - quantitative trading strategies
+  - financial modeling
+  - algorithmic trading
+secondary_tags:
+  - market microstructure
+  - exponential weighting
+  - carry trade
+  - tick data analysis
+  - parameter reversion
+cssclasses: academia
 ---
 
 # INTRODUCTION TO QUANTITATIVE TRADING
 
-# 1. BASIC FEATURES OF QUANTITATIVE TRADING
+## 1. BASIC FEATURES OF QUANTITATIVE TRADING
 
 The ecosystem of the securities trading industry contains actors of all sorts, from farmers and silver miners attempting to hedge, through individual savers working on their retirement, governments maintaining currency pegs, and investment banks with fingers in nearly every pie. Our goal is to concentrate on those (relatively) few organizations employing quantitative trading strategies.
 
@@ -80,13 +88,13 @@ Major political events (Brexit, sovereign default), and
 
 - Instinctive trading.
 
-# 2. THE ROLE OF REGULAR TRADING
+## 2. THE ROLE OF REGULAR TRADING
 
 It is easy to envision a clever trader who identifies some tremendous opportunity in the markets, makes just one or a few big trades, and then relaxes watching the profits roll in. This happened during the 2007-2009 financial crisis where some traders (e.g. John Paulson and Steve Eisman) did just that. While the analysis may involve quite a bit of quantitative reasoning, and some trading is necessarily involved, these are not examples of quantitative trading strategies.
 
 A distinguishing feature of quantitative trading strategies is that they involve continual reactions to new information, typically by trading market securities to hedge existing positions, clear out undesirable positions, or take attractive new positions. There may be somewhat long periods where they are completely out of the market, but usually they have some position and activity. As a consequence, there is some degree to which their profits arise from betting multiple times on profitability of similar-looking attractive situations, effectively identical independent events. Doing so makes performance steadier and allows for statistical design and stochastic control unattainable by single-event bets.
 
-# 3. INFORMATION PROCESSING AND DATA FLOW
+## 3. INFORMATION PROCESSING AND DATA FLOW
 
 All quantitative trading strategies work by taking positions expected to realize "unusual" profits based on the best information available when trades are made. Once positions are in place, new information may dictate changes to the positions. Existing positions may or may not have lost money, but regardless of past outcomes the new information alters our perceptions of position value, and undesirable positions must be discarded while new ones are obtained.
 
@@ -103,9 +111,9 @@ There is of course a tremendous amount of configuration, model specification, an
 
 3.2. Risk Management. As we saw above, risk management is part of our stochastic control. However it is useful at this stage to at least point out major elements of risk management from the point of view of quantitative trading strategies. Most strategies are aimed at trading multiple securities simultaneously, in order to reap the benefits of large  $N$ , as well as spread development and maintenance costs among multiple revenue streams.
 
-# EXPONENTIALLY WEIGHTED STATISTICS
+## EXPONENTIALLY WEIGHTED STATISTICS
 
-# 1. MOTIVATION
+## 1. MOTIVATION
 
 Very frequently in trading model design, we need to know how a variable compares to recent history. As data points recede into the past, however, their importance to current trading strategies declines. In effect, at time  $t$ , we want to include points  $x_{t - s}$  in the past with declining weight  $W = W(s)$  depending on the age  $s$ . We can then get a weighted sum
 
@@ -185,7 +193,7 @@ FIGURE 6. Significant difference in weighting schemes on timescale close to the 
 Differing Averages With Outlier  
 FIGURE 7. All three schemes react to the outlier, but only boxcar suffers a severe "bounce-back" effect
 
-# 2. EFFICIENT ALGORITHMS
+## 2. EFFICIENT ALGORITHMS
 
 Among available weighting schemes, quantitative practitioners greatly favor the boxcar and the exponential. Boxcar is popular due to its simplicity of understanding and implementation. Exponential weighting is popular because it enjoys a particularly clean and efficient algorithm for computation. To begin with, note that each weight  $w_{i}$  can be computed as  $w_{i} = \eta w_{i - 1}$ . Now, note that if we have already computed the old, previous average
 
@@ -225,7 +233,7 @@ $$
 
 In cases of small sample counts, we may well want to adjust for this difference.
 
-# 3. TIME-WEIGHTED AVERAGING
+## 3. TIME-WEIGHTED AVERAGING
 
 So far, we have covered exponential weighting suitable for regular time series, or other cases where the relative importance of data depends on observation count.
 
@@ -249,7 +257,7 @@ For regularly spaced data at intervals  $\Delta t = \tau$ , this is equivalent t
 
 It is important to note that the time-weighted average will put very low weight on fresh data items if they come in rapid succession, since the decay of old data will be small. Whether or not this property is desirable depends on the specifics of the economic calculation in play.
 
-# 4. TERMINOLOGY IN EXPONENTIAL WEIGHTING
+## 4. TERMINOLOGY IN EXPONENTIAL WEIGHTING
 
 If we consider either a discrete scheme with decay on old data of  $c_{\lambda} = e^{-\lambda}$ , or a time-weighted scheme with decay of size  $e^{-\lambda \Delta t}$ , there are a few equivalent ways in which these may be described:
 
@@ -262,7 +270,7 @@ Center Of Mass
 
 All of these fully specify an exponential weighting scheme, so you will see various colleagues use these terms, according to their preferences.
 
-# 5. UPDATE FORMULAS FOR COVARIANCE
+## 5. UPDATE FORMULAS FOR COVARIANCE
 
 Higher-order moments, including covariance (and hence correlation), enjoy update formulas as found in Pebay (2008). In particular Pebay shows that in the case of no decay
 
@@ -270,15 +278,15 @@ $$
 c _ {i + 1} = c _ {i} + \frac {i}{i + 1} (x - \mu_ {x}) (y - \mu_ {y})
 $$
 
-# THE CARRY TRADE
+## THE CARRY TRADE
 
-# 1. THE PRINCIPLES OF CARRY TRADES
+## 1. THE PRINCIPLES OF CARRY TRADES
 
 A large subset of trading, and especially quantitative trading, can attribute significant portions of its profitability to holding positions that make money when nothing interesting happens, and (usually) lose money otherwise. In industry vernacular, this is called the carry trade, because the portfolio is "carrying" risk. For insurers, the business is quite explicit; premiums are collected, and damages are paid.
 
 In the finance industry, risks arise from declines in the value of our positions, and profits arise from increases in them. Sometimes it is not so clear whether profits are associated with skill, or with risk. When trading financial securities, we may have a persistent risk bias without even knowing it. Associated profits then comprise a carry trade without our even realizing it.
 
-# 2. STATISTICAL INDICIA OF CARRY TRADES
+## 2. STATISTICAL INDICIA OF CARRY TRADES
 
 Given a sufficiently long time series of returns  $r_i$ , identifying a carry trade is fairly simple. We expect to see
 
@@ -300,7 +308,7 @@ and the situation is far worse for data, such as returns, that only vaguely look
 
 Estimates of beta are far better behaved, so the practical way to identify unstated carry risks is to examine downside beta to broad market indicators, especially ones with assets in similar markets to the strategy in question.
 
-# 3. CARRY TRADE EXAMPLES
+## 3. CARRY TRADE EXAMPLES
 
 3.1. Rates Carry. A classic example of the carry trade takes place using levered investments in fixed income securities. The principle is to borrow at short tenors and low interest rates, incurring small interest payments, and lend at long tenors and high interest rates, pocketing large interest payments and principal risk accrual. The difference in cashflows provides the typical positive returns.  
 In mature markets, it is common to have brokerage accounts or other funding sources linked to LIBOR (or SOFR after 2019). Thus, borrowing and levering up are possible at LIBOR plus some few basis points of spread. Longer term securities, such as Treasury notes and bonds, are extremely liquid and easy to trade, typically with interest rates a few points above LIBOR.  
@@ -314,7 +322,7 @@ For a simple view of rates carry, consider lending by buying a 5 year zero-coupo
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/d12589b0-e653-4029-bbac-01616075b1c0/265ce8d3db064a345c19c9c15bf2592da7ddf567b8c38a9b1b475c9255a8a675.jpg)  
 FIGURE 1. Staked Ethereum yields from Convex as measured by DefLlama.
 
-# 1. THE STRUCTURE OF TICK DATA
+## 1. THE STRUCTURE OF TICK DATA
 
 1.1. Terminology. The basic important elements of market state change are trades, bids and offers. We use the term tick data to denote high-resolution observations of these numbers, and usually assume it is available as of any given time in which the market is open. The trades are collectively considered to comprise the trade tape while the bids and offers collectively form the order book as of any given moment.
 
@@ -340,7 +348,7 @@ Less established markets may use JSON-style formats as in this message from the 
 
 1.1.2. A Note On Timestamps. It is common, and desirable, to represent timestamps using UTC, except for human presentations. However, note that there have been over 15 billion seconds since 1970. Therefore the 15-digit resolution of IEEE double precision floating point arithmetic will track these timestamps to slightly worse than the microsecond level.
 
-# 2. INTERESTING ALTERNATIVE MARKET STRUCTURES
+## 2. INTERESTING ALTERNATIVE MARKET STRUCTURES
 
 The U.S. equity markets are a fractured market, in the sense that the same equities are traded on multiple exchanges. They are now legally linked by Reg NMS (i.e. national market structure) which specifies rules under which they must send orders to each other when prices are better-looking for the customer.
 
@@ -364,7 +372,7 @@ They frequently have minimum size rules for matching. In practice accumulation a
 
 Eric Budish suggests discretizing not only price, in order price ticks, but also times, by altering the matching process so as to hold periodic auctions.
 
-# 3. TICK LEVEL STATISTICS
+## 3. TICK LEVEL STATISTICS
 
 3.1. Basic Book Statistics. The most important tick-level statistic is the mid price, defined as
 
@@ -466,43 +474,43 @@ FIGURE 5. Price changes and returns are ambiguous in definition, and appear to v
 
 which can conveniently be computed without saving past ticks.
 
-# 4. THE EPPS EFFECT
+## 4. THE EPPS EFFECT
 
 A common issue with tick level data is the long periods of boredom interrupted by short intervals of terror. That is, data updates come at certain times (often bunched) so at a sufficiently small timescale correlations appear to drop to zero.
 
-# PARAMETER REVERSION
+## PARAMETER REVERSION
 
-# From  $\mathbf{Q}$  Parameters To  $\mathbf{P}$  models
+## From  $\mathbf{Q}$  Parameters To  $\mathbf{P}$  models
 
 To the extent we trust our sense of what parameters in a model are reasonable, "stress" in model parameters equates to profit opportunity. How do we decide when parameters are truly stressed?
 
-# Parameter Cones
+## Parameter Cones
 
 Burghardt (1990) pointed out an elegant visual means to measure current parameter values of a parameter (in his case, volatility) against past quantiles.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/d12589b0-e653-4029-bbac-01616075b1c0/d1a591db76475c83bbcbfce2f8f1d708a58efaa9ec2aa8ccb0b2e20c1e531e21.jpg)  
 FIGURE 1. Volatility cones show recent vols are fairly normal, except perhaps at the 60 day scale.
 
-# Taxonomy Of Reversion
+## Taxonomy Of Reversion
 
 Parameters that tend to revert include (some) 10-Q financial accounting ratios, volatility surfaces and varvol, yield curve shapes, default rates and risks, and general correlation.
 
 Parameters that revert, but not reliably, include a few other financial accounting ratios, FX fundamentals, betas and pairwise correlations, and post-shock prices.
 
-# Beware Of Regime Shifts
+## Beware Of Regime Shifts
 
 The less well a model fits the market, and the more parameters it has, the likelier it is to fall victim to apparent changes in regime that have no economic basis. This can lead to an optimization algorithm finding jumps in model parameters that ultimately lead to noise trading or worse.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/d12589b0-e653-4029-bbac-01616075b1c0/a7fbbacbe936bca33fce6b7115f2367304229f081cb692781404dded235ceb4f.jpg)  
 FIGURE 2. An objective function used for parameter choice may change as time passes and incoming information is updated.
 
-# The Uses Of Decaying Weights
+## The Uses Of Decaying Weights
 
 Traditional statistics and parameter estimation from historical data have tended to use data windows (rolling ones if necessary). We see this in Burghardt's original definition of volatility cones.
 
 In many cases, however, it is more reasonable to use some weighting scheme, where the weights decay toward zero as data items age. If we choose particular functional forms, particularly exponential weighting, computation costs can be greatly reduced as well.
 
-# EWMA
+## EWMA
 
 The simplest example of this is the exponentially-weighted moving average where we take some  $0 < \lambda < 1$  and compute the average
 
@@ -510,7 +518,7 @@ $$
 \bar {x} = \frac {\sum_ {n = 0} ^ {\infty} \lambda^ {n} x _ {- n}}{\sum_ {n = 0} ^ {\infty} \lambda^ {n}}
 $$
 
-# EWMA Update
+## EWMA Update
 
 This doesn't necessarily look cheap or simple, but it enjoys a 1-pass or online algorithm where we take (now for increasing  $n$ )
 
@@ -524,19 +532,19 @@ $$
 \bar {x} _ {n + 1} = \lambda \bar {x} _ {n} + (1 - \lambda) x _ {n + 1}
 $$
 
-# Update Algorithms
+## Update Algorithms
 
 Online algorithms, also known as update algorithms are algorithms in which a small amount of state information is stored, and each incoming datum allows us to derive the new desired output, and new algorithm state, in relatively few computations.
 
-# Nontrivial State Example
+## Nontrivial State Example
 
 In the case of the EWMA, this state is simply the EWMA value  $\bar{x}$  itself. For exponentially-weighted (or even windowed) estimates of variance, the state is actually two data elements corresponding roughly to the sum of squares and sum of square differences.
 
 Many stochastic control perspectives and machine learning algorithms make heavy use of update algorithms.
 
-# OPPORTUNITY IDENTIFICATION AND BACKTESTING
+## OPPORTUNITY IDENTIFICATION AND BACKTESTING
 
-# 1. THE ROLE OF HISTORICAL SIMULATION
+## 1. THE ROLE OF HISTORICAL SIMULATION
 
 A well-designed quantitative trading strategy nearly always undergoes a certain amount of analysis against historical data. There are various reasons to do this
 
@@ -544,7 +552,7 @@ A well-designed quantitative trading strategy nearly always undergoes a certain 
 - Make as much money as possible, by optimizing its parameters  
 - Develop a sense of risks and rewards expected in potential live trading scenarios
 
-# 2. MAJOR STRATEGY METRICS
+## 2. MAJOR STRATEGY METRICS
 
 When we judge a strategy, either in historical simulation or in actual performance, there are various metrics we can use. They range from extremely simple ones, such as annualized rate of return with no correction for fees, to more complex ones such as cost-adjusted risk/reward ratios. Here we look at some of the common choices.
 
@@ -638,7 +646,7 @@ For any given trade, the trader on the other side is likely an informed investor
 
 2.7. Further Metrics. We have further metrics that are important to examine for a strategy. In particular, we care about trade frequency, turnover, capacity, competition/crowding.
 
-# 3. BACKTEST PREREQUISITES
+## 3. BACKTEST PREREQUISITES
 
 What do we need to form a good backtest?
 
@@ -734,9 +742,9 @@ One big problem is that historical information on repo rates and short availabil
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/d12589b0-e653-4029-bbac-01616075b1c0/74446d013b537b671f273259abe3cd456e1db01e0ac94740f6fd471862b5304f.jpg)
 
-# 4. BACKTESTING CONSIDERATIONS BY ASSET CLASS
+## 4. BACKTESTING CONSIDERATIONS BY ASSET CLASS
 
-# 4.1. Equities.
+## 4.1. Equities.
 
 4.1.1. As-of data. Equity models often take into account SEC filings, which are subject to correction.  
 4.1.2. Mergers and spinoffs. Mergers and spinoffs modify the available universe while also (typically) invalidating the economic assumptions behind our models.  
@@ -751,7 +759,7 @@ Naively, one might think it reasonable to use the Yahoo "Raw" series. However, t
 
 4.1.4. High sensitivity to common benchmarks. If we take overall market return as a benchmark, we find most equities have correlations over  $60\%$ . If we allow further benchmarks to include Fama French or a set of ETFs, it can be surprising how much the rest resembles low-volatility noise.
 
-# 4.2. Credit Instruments.
+## 4.2. Credit Instruments.
 
 4.2.1. Finding hedging instruments. There are not many credit ETFs, and credit indexes tend to be untradable, so the only reasonable hedging instruments in corporate credit are CDX (in very mature markets) or highly liquid corporate bonds in related companies, which take care of market risk without addressing default risk.  
 4.2.2. Scaling and inventory. The credit markets are OTC and are traded in large lot sizes, making minimum position sizes quite large. At the same time, scaling strategies need to take into account the fact that these markets are quite slow relative to electronic markets. nextframe
@@ -775,21 +783,21 @@ Though credit instruments ultimately trade on probability of default,  $h$ , the
 
 4.3.2. Pegs. A common form of ongoing intervention is a peg (or sometimes a pair of lower and upper bounds), maintained by frequent interventions. Strategies relying on pegs may go suddenly bad, and strategies expecting pegs to fail can take a very long time to come to fruition.
 
-# 4.3.3. Sizing.
+## 4.3.3. Sizing.
 
 4.3.4. Similarity to common strategies. FX rates are clearly linked to many assets, such as foreign equities and bonds. Crises therefore tend to come with high covariance to other asset classes. In addition, these links mean that one should consider which elements of foreign economies may be driving FX rates.
 
 Unlike equities, a net long portfolio of foreign currencies has no theoretical positive excess return expectation. In each respective country, the currency is, of course, just cash, so the risk premium is zero.
 
-# 4.4. Options.
+## 4.4. Options.
 
 4.4.1. Probability of ruin at high leverage. Options are often very highly levered investments, so their use comes with enhanced probability of ruin. Hedging can control this to an extent, but markets can begin crashing just when liquidity disappears. The problem is exacerbated for market makers, who tend to be structurally short options.
 
 4.4.2. Volatility hedging. Options strategies almost always involve delta-hedging. It is extremely common to demand control of gamma/vega (volatility exposure) as well.
 
-# A SIMPLE QUANTITATIVE TRADING EXAMPLE: SPREADS
+## A SIMPLE QUANTITATIVE TRADING EXAMPLE: SPREADS
 
-# 1. WORKING OUT A SPREAD TRADE
+## 1. WORKING OUT A SPREAD TRADE
 
 Let's work out what the bones of a quantitative trading strategy might entail by examining one of the simplest examples: the spread trade.
 

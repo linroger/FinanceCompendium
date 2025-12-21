@@ -1,30 +1,33 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "A Primer on Commodity Hedge Funds"
+parent_directory: Alternatives
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - commodity hedge funds
+  - long-short strategies
+  - alpha generation
+secondary_tags:
+  - futures trading
+  - commodity markets
+  - investment performance
+  - risk management
+  - portfolio diversification
+  - benchmark analysis
+  - active management
 cssclasses: academia
-title: Original Article
-linter-yaml-title-alias: Original Article
 ---
 
-# Original Article
-
-# A primer on commodity hedge funds
+# A Primer on Commodity Hedge Funds
 
 Received (in revised form): 3rd June 2012
 
-# Christopher Bauer
+**Christopher Bauer** is an Analyst in the structured equity derivatives division of Barclays Capital in London. He holds a Bachelor of Arts in Business Administration from the Baden-Wuerttemberg Cooperative State University Heidenheim, and a Master of Finance from the Frankfurt School of Finance and Management.
 
-is an Analyst in the structured equity derivatives division of Barclays Capital in London. He holds a Bachelor of Arts in Business Administration from the Baden-Wuerttemberg Cooperative State University Heidenheim, and a Master of Finance from the Frankfurt School of Finance and Management.
+**Thomas Heidorn** is a Professor of Banking at the Frankfurt School of Finance and Management and the Managing Director of its Centre for Practical Quantitative Finance. He holds a Master of Arts in Economics and obtained his doctoral degree from the Christian-Albrechts-University in Kiel, Germany. He holds lectures and seminars on Financial Mathematics, Risk Management, Derivatives and Treasury.
 
-# Thomas Heidorn
-
-is a Professor of Banking at the Frankfurt School of Finance and Management and the Managing Director of its Centre for Practical Quantitative Finance. He holds a Master of Arts in Economics and obtained his doctoral degree from the Christian-Albrechts-University in Kiel, Germany. He holds lectures and seminars on Financial Mathematics, Risk Management, Derivatives and Treasury.
-
-# Dieter Kaiser
-
-is Managing Director of Robus Capital Management Limited in London. From 2007 to 2011, he was Director Hedge Funds at Feri AG in Bad Homburg, Germany, where he was portfolio manager of several funds of funds and responsible for hedge fund selection. He holds a Bachelor of Arts in Business Administration, a Master of Arts in Banking and Finance from the Frankfurt School of Finance and Management and a PhD in Finance from the Chemnitz University of Technology. On the academic side, he is a Research Fellow at the Centre for Practical Quantitative Finance of the Frankfurt School of Finance and Management.
+**Dieter Kaiser** is Managing Director of Robus Capital Management Limited in London. From 2007 to 2011, he was Director Hedge Funds at Feri AG in Bad Homburg, Germany, where he was portfolio manager of several funds of funds and responsible for hedge fund selection. He holds a Bachelor of Arts in Business Administration, a Master of Arts in Banking and Finance from the Frankfurt School of Finance and Management and a PhD in Finance from the Chemnitz University of Technology. On the academic side, he is a Research Fellow at the Centre for Practical Quantitative Finance of the Frankfurt School of Finance and Management.
 
 Correspondence: Dieter Kaiser, Robus Capital Management Limited, Marble Arch Tower, 55 Bryanston Street, London W1H 7AA, UK
 
@@ -38,31 +41,21 @@ Keywords: commodity futures; active management; long-short strategies;  $\alpha$
 
 # INTRODUCTION
 
-Investor interest in commodities markets has exploded over the past decade, as demand from emerging markets such as China and India has driven up prices dramatically. This increased
-
-demand has been paralleled by a growth in new investment vehicles. As Stoll and Whaley (2010) note, before the development of investment instruments in commodities and liquid exchange-traded futures markets, investors were
-
-limited to participating in natural resources markets only via physical investments, which were inconvenient and not particularly attractive. In fact, until the early 2000s, commodities were largely a niche market for institutional and private investors.
+Investor interest in commodities markets has exploded over the past decade, as demand from emerging markets such as China and India has driven up prices dramatically. This increased demand has been paralleled by a growth in new investment vehicles. As Stoll and Whaley (2010) note, before the development of investment instruments in commodities and liquid exchange-traded futures markets, investors were limited to participating in natural resources markets only via physical investments, which were inconvenient and not particularly attractive. In fact, until the early 2000s, commodities were largely a niche market for institutional and private investors.
 
 The limited commodity investment choices resulted from the fact that commodities were not typically included in traditional investment portfolios. According to Jeanneret et al (2011), the introduction of investable commodity indices and commodity-linked products such as exchange-traded products led to the increased investor interest in commodity investing. These products feature lower entry barriers, reduced complexity and higher liquidity. In addition, academic papers provided empirical evidence of how beneficial commodity investments can be diversifiers of traditional portfolios (see, for example, Jensen et al, 2000; Georgiev, 2001 and Jensen et al, 2002). Other articles highlighted their strong performance in inflation-driven environments (for example, Greer, 2000 and Erb and Harvey, 2006) and during financial crises (for example, Chow et al, 1999) the comparability of their risk/return profiles to stocks over the long term (for example, Gorton and Rouwenhorst, 2006), and their potential to generate excess returns (for example, Akey, 2005).
 
-To bet directly on particular commodities through futures contracts, however, requires excellent market and product knowledge on a continuous basis. Furthermore, there are often substantial minimum investments per single commodity, as well as initial and variation margins. Investors need expensive valuation and risk models and deep expertise in order to determine which commodity to buy or sell, or on which to go short. Therefore, most investors
-
-can decide between active or passive investment vehicles.
+To bet directly on particular commodities through futures contracts, however, requires excellent market and product knowledge on a continuous basis. Furthermore, there are often substantial minimum investments per single commodity, as well as initial and variation margins. Investors need expensive valuation and risk models and deep expertise in order to determine which commodity to buy or sell, or on which to go short. Therefore, most investors can decide between active or passive investment vehicles.
 
 Historically, commodity investments in terms of assets under management (AuM) were dominated by passive commodity investments. Such products are generally linked or benchmarked to the performance of a commodity index (for example, Dow Jones UBS (DJUBS), S&P Goldman Sachs Commodity Total Return Index (GSCI)), and they aim to replicate the performance of the index. Investors in passive investment products desire commodity exposure, or the so-called 'commodity  $\beta$ . According to Georgiev (2004), this is because a simple long exposure to natural resources is often less expensive and is in line with most investment restrictions, and thus there is no short-selling or leverage involved. In addition to the standard passive investment products, today there are many passive-enhanced products available as well, including, for example, simple roll yield optimization algorithms. Passive commodity investments are available mainly through structured products and mutual funds, and they tend to carry very low tracking error targets.
 
-Investors have thus begun to seek an additional return driver over the commonplace  $\beta$ , the so-called  $\alpha$ , which is defined as the excess return of a product over its benchmark, adjusted by its  $\beta$  component. The low efficiency of commodity markets makes them more attractive in terms of  $\alpha$  potential than traditional asset classes like stocks or fixed-income products. Investment choices for active commodity products include long-only commodity funds, which aim to outperform the benchmark by means of (i) overor underweighting the commodities in their portfolios relative to the benchmark, (ii) roll yield optimization
-
-techniques, (iii) replacement trades (for example, replacing the West Texas Intermediate (WTI) crude oil contract of the benchmark with Brent) and (iv) investing in commodities that are not part of the benchmark.
+Investors have thus begun to seek an additional return driver over the commonplace  $\beta$ , the so-called  $\alpha$ , which is defined as the excess return of a product over its benchmark, adjusted by its  $\beta$  component. The low efficiency of commodity markets makes them more attractive in terms of  $\alpha$  potential than traditional asset classes like stocks or fixed-income products. Investment choices for active commodity products include long-only commodity funds, which aim to outperform the benchmark by means of (i) overor underweighting the commodities in their portfolios relative to the benchmark, (ii) roll yield optimization techniques, (iii) replacement trades (for example, replacing the West Texas Intermediate (WTI) crude oil contract of the benchmark with Brent) and (iv) investing in commodities that are not part of the benchmark.
 
 Long-only commodity funds are also managed with extremely tight tracking error targets of between 3 and 5 per cent. Long-only commodity investments are volatile, subject to large drawdowns, and have generally exhibited a high correlation to risky assets since the financial crisis (correlation risk). Furthermore, they can be exposed to roll losses (Akey, 2006). In addition to low-tracking error products, investors today can also invest in actively managed absolute return products (which basically implies that these funds do not replicate a benchmark). These products take long and short positions in commodities and related instruments.
 
 An actively managed commodity long-short fund is flexible enough to respond to and take advantage of rapidly changing market conditions. It can also reduce volatility and actively control risk. Consequently, active management can potentially generate  $\alpha$  for commodity investors. However, most long-short commodity funds are unregulated investment vehicles (for example, offshore hedge funds), and hence do not report monthly risk, performance or AuM data. Thus, it can be difficult for investors to compare individual active long-short strategies in the form of consolidated quantitative and qualitative data.
 
-In this article, we focus on this type of active long-short commodity fund, which does not try to replicate a benchmark and hence cannot be easily evaluated relative to its benchmark. Our purpose is to describe the universe of long-short commodity funds and the differences in risk and
-
-return of the various investment choices available to investors. By merging several commercial and private databases, we construct an extensive data set of 683 long-short commodity funds covering the January 2000 – December 2010 observation period. The data set is then divided into three styles: long-short futures, long-short equities and funds of funds.
+In this article, we focus on this type of active long-short commodity fund, which does not try to replicate a benchmark and hence cannot be easily evaluated relative to its benchmark. Our purpose is to describe the universe of long-short commodity funds and the differences in risk and return of the various investment choices available to investors. By merging several commercial and private databases, we construct an extensive data set of 683 long-short commodity funds covering the January 2000 – December 2010 observation period. The data set is then divided into three styles: long-short futures, long-short equities and funds of funds.
 
 Our article adds to the existing literature on commodity hedge funds because our calculations are made on the most extensive data set thus far. For example, Akey (2005) uses a data set of 128 funds, and Jeanneret et al (2011) use a 92-fund sample. Because of the size of our sample, we are able to differentiate between three distinct groups of commodity hedge funds. Thus, our results are more granular. Although Jeanneret et al (2011) have already shown that commodity hedge funds yield higher returns and better downside risk control than commodity indices, we show that managers who focus on long-short futures strategies exhibit the highest  $\alpha$ s and Sharpe ratios and the lowest volatility over commodity hedge funds that focus on equities and over funds of commodity hedge funds.
 
@@ -70,15 +63,11 @@ The remainder of this article is structured as follows: The next section describ
 
 # INVESTMENT CHOICES IN LONG-SHORT COMMODITIES
 
-Investments in long-short commodities strategies can be through futures-focused
-
-managers, equities-focused managers or through funds of funds that allocate opportunistically to the other two styles. However, the most common approach to a commodity exposure is through commodity futures.
+Investments in long-short commodities strategies can be through futures-focused managers, equities-focused managers or through funds of funds that allocate opportunistically to the other two styles. However, the most common approach to a commodity exposure is through commodity futures.
 
 In comparison with passive long-only index investments, where an expiring commodity contract is rolled into the next available futures contract with the same maturity, active long-short managers must consider circumstances such as timing and the prevailing market environment. In a backwardation market, for example, a manager would not purchase the nearest-dated contract, but rather a longer-maturity one, because it is associated with lower costs. And with the additional technique of going short, a fund manager can generate returns in both rising and falling commodity price environments. With this investment style, funds can take advantage of market inefficiencies such as location spreads, $^{1}$  crack spreads $^{2}$  or time spreads. $^{3}$  Furthermore, they can trade based on price differences between grades (such as soft or hard wheat) or between substitutes (such as platinum and palladium). Long-short commodity funds use either systematic or fundamental techniques in order to analyze a particular commodity and forecast price movements in future commodity markets.
 
-Another common way to actively participate in commodity markets is to buy stocks from companies that are directly or indirectly engaged in the distribution, exploration, production or any other activity associated with commodities. Examples are coffee producers, oil or mining companies, steel producers, power and electricity providers and so on. Commodity equity investors will retain a leverage component as long as rising commodity prices exceed any cost increases experienced by the company in
-
-which the investment is made. Nevertheless, these advantages may also be considered disadvantages, because investors are exposed not only to commodity price risk, but also to idiosyncratic risks such as customer demand, management capability and earnings. And a commodity-based equity investment always bears the systematic risk of the overall stock market (Engelke and Yuen, 2008). Active long-short commodity equities funds seek to achieve capital appreciation through investments in a universe of commodity-related securities, using a combination of proprietary price forecasts and company valuation models.
+Another common way to actively participate in commodity markets is to buy stocks from companies that are directly or indirectly engaged in the distribution, exploration, production or any other activity associated with commodities. Examples are coffee producers, oil or mining companies, steel producers, power and electricity providers and so on. Commodity equity investors will retain a leverage component as long as rising commodity prices exceed any cost increases experienced by the company in which the investment is made. Nevertheless, these advantages may also be considered disadvantages, because investors are exposed not only to commodity price risk, but also to idiosyncratic risks such as customer demand, management capability and earnings. And a commodity-based equity investment always bears the systematic risk of the overall stock market (Engelke and Yuen, 2008). Active long-short commodity equities funds seek to achieve capital appreciation through investments in a universe of commodity-related securities, using a combination of proprietary price forecasts and company valuation models.
 
 Funds of hedge funds bundle all the previously mentioned strategies into one vehicle. The most obvious reason to use this type of vehicle is the inherent enhanced diversification. Furthermore, several studies have found that funds of hedge funds can compete with their single fund equivalents with regard to risk/return profile (see, for example, Ang et al, 2008). Critics, however, note that, despite the potential benefits, funds of hedge funds also impose substantial management and performance fees (for example, Brown et al, 2004; Gregoriou et al, 2007). Moreover, empirical evidence shows that funds of hedge funds yield lower Sharpe ratios than single manager funds (for example, Brown and Goetzmann, 2003; Malkiel and Saha, 2005).
 
@@ -95,9 +84,7 @@ After the cleansing procedure, our fund universe consisted of 683 active commodi
 
 Because of the voluntary nature of hedge fund performance reporting, hedge fund databases and the indices calculated on them are prone to numerous biases, such as self-selection, backfilling, survivorship and the liquidation bias (Kaiser and Haberfelner, 2011). These biases can overor understate 'true' market performance (see Ackermann et al, 1999).
 
-To overcome the effects of these biases, we take several steps. First, we include both live and dead funds in our data set, and thus we do not believe that survivorship will significantly distort our results. Selection bias should further be mitigated because we include a variety of databases, including private databases. To account for the backfilling bias, we use a procedure based on Fung and Hsieh (2000) that deletes the first 12 months of performance from the data histories. We minimize the impact of the liquidation bias by retrieving the performance of funds that have dropped out of commercial databases, and then making sure they are included in our data set. Hence, our data set includes monthly
-
-performance information about known frauds (for example, Juno Mother Earth), and blow-ups (for example, MotherRock). In aggregate, we observe a substantial overlap in the commodity funds that report to commercial databases, where approximately 72 per cent that reported to one database also reported to the others. However, if we did not include private databases in our data set, our sample size would have been cut nearly in half.
+To overcome the effects of these biases, we take several steps. First, we include both live and dead funds in our data set, and thus we do not believe that survivorship will significantly distort our results. Selection bias should further be mitigated because we include a variety of databases, including private databases. To account for the backfilling bias, we use a procedure based on Fung and Hsieh (2000) that deletes the first 12 months of performance from the data histories. We minimize the impact of the liquidation bias by retrieving the performance of funds that have dropped out of commercial databases, and then making sure they are included in our data set. Hence, our data set includes monthly performance information about known frauds (for example, Juno Mother Earth), and blow-ups (for example, MotherRock). In aggregate, we observe a substantial overlap in the commodity funds that report to commercial databases, where approximately 72 per cent that reported to one database also reported to the others. However, if we did not include private databases in our data set, our sample size would have been cut nearly in half.
 
 The consecutive data on historical performance and AuM date back to July 1984. Performance is stated on a net basis, including the calculation of all fees and any hurdle rates or high watermarks. As per Schneeweis et al (2006), hedge fund indices must contain at least five index components to be considered representative of the overall strategy. Therefore, we begin our index series in January 2000, when all three indices had at least five index components available. We conduct a comparative statistical analysis covering the 11-year period from January 2000 through December 2010.
 
@@ -124,11 +111,9 @@ Surprisingly, however, we find the opposite picture for AuM. Owing to the very l
 
 The average commodity hedge fund charges a 2 per cent management fee and a supplementary 20 per cent performance fee, which is subject to a high watermark in 80 per cent of all cases. A hurdle rate is applied in about 15 per cent of cases. Furthermore, roughly 28 per cent of commodity hedge funds are subject to an additional 3 per cent redemption fee, mostly because of soft lockup agreements, which usually last for up to 12 months and require a 30-day redemption notice. Twelve per cent of commodity hedge funds are subject to a hard lockup of approximately 12 months.
 
-For redemption frequency, besides soft or hard lockups, most commodity hedge funds tend to
+For redemption frequency, besides soft or hard lockups, most commodity hedge funds tend to favor a monthly arrangement, but around 28 per cent follow quarterly redemptions.
 
-favor a monthly arrangement, but around 28 per cent follow quarterly redemptions.
-
-When comparing long-short futures funds with the entire universe, we note that the investment advisory firms within this universe (Panel B of Table 1) tend to be approximately 1 year younger than the average commodity hedge fund (Panel A of Table 1), and up to 3 years younger than long-short equities advisors (Panel C of Table 1). We find a similar picture for total AuM, with about US\(200 million less in capital allocated, on average, in the long-short futures universe than for the median of the entire commodity hedge fund universe.
+When comparing long-short futures funds with the entire universe, we note that the investment advisory firms within this universe (Panel B of Table 1) tend to be approximately 1 year younger than the average commodity hedge fund (Panel A of Table 1), and up to 3 years younger than long-short equities advisors (Panel C of Table 1). We find a similar picture for total AuM, with about US$200 million less in capital allocated, on average, in the long-short futures universe than for the median of the entire commodity hedge fund universe.
 
 The long-short equities investment advisors have an average track record of 11 years, which is 2 years longer than other investment advisors (and 3 years longer than long-short futures). The median number of people employed by advisors is 13, but the real average is heavily skewed because of a high maximum. Furthermore, the high average amount of \$520 million of total AuM is quite striking compared with the universe. Accordingly, the number of total funds managed by long-short equities advisors is higher than average. The average AuM in commodities is ~50 per cent higher than the average of all funds, and it is over 70 per cent higher than that for the long-short futures strategy.
 
@@ -138,13 +123,11 @@ use of a high watermark, however, is in line with the average, with just 9 per c
 
 Although the age of fund of funds investment advisors (Panel D of Table 1) is roughly in line with the other styles, the number of employees tends to be considerably higher. Total AuM also exceeds the results for the other styles. Obviously, the fee structure in this style is lower than that associated with the other styles. Lockup periods are less likely to be instituted within funds of commodity hedge funds, but their redemption frequency and the corresponding notice period is somewhat higher than for single managers.
 
-The funds' strategies have different options within the commodity sector as a whole, either through specialization in particular commodity subsectors, or through a diversified approach (see Table 2). There is an obvious trend toward a more diversified commodity allocation, which accounts for approximately 50 per cent of the funds we evaluate here. Owing to its size and liquidity, the energy market represents the second largest focus of commodity hedge funds. Metals and agriculture are equally distributed, but each account for only about 10 per cent of all commodity hedge funds. Furthermore, few funds
+The funds' strategies have different options within the commodity sector as a whole, either through specialization in particular commodity subsectors, or through a diversified approach (see Table 2). There is an obvious trend toward a more diversified commodity allocation, which accounts for approximately 50 per cent of the funds we evaluate here. Owing to its size and liquidity, the energy market represents the second largest focus of commodity hedge funds. Metals and agriculture are equally distributed, but each account for only about 10 per cent of all commodity hedge funds. Furthermore, few funds concentrate on other sectors such as shipping or carbon trading. Most of the funds that focus on equities strategies concentrate on energy markets and do not follow the diversified approach.
 
-Table 2: Distribution of sector focus  
+Table 2: Distribution of sector focus
 
 <table><tr><td></td><td>All funds</td><td>Long-short futures</td><td>Long-short equities</td><td>Funds of funds</td></tr><tr><td>Energy</td><td>192</td><td>65</td><td>118</td><td>9</td></tr><tr><td>Metals</td><td>64</td><td>36</td><td>28</td><td>0</td></tr><tr><td>Agriculture</td><td>66</td><td>52</td><td>10</td><td>4</td></tr><tr><td>Diversified</td><td>341</td><td>183</td><td>98</td><td>60</td></tr><tr><td>Other</td><td>27</td><td>10</td><td>17</td><td>0</td></tr></table>
-
-concentrate on other sectors such as shipping or carbon trading. Most of the funds that focus on equities strategies concentrate on energy markets and do not follow the diversified approach.
 
 We use three benchmarks here, and we compare their performance with the performance of the three long-short commodity styles. Our observation period is January 2000 - December 2010, and we use the DJUBS Commodity Total Return Index and the S&P GSCI as proxies for the commodity market. We also evaluate the long-short equities strategy against a Commodities Equity Index (CEI) comprising 50 per cent MSCI World Energy and 50 per cent MSCI Metals and Mining stock indices.
 
@@ -152,9 +135,7 @@ To ensure the comparability of the three longshort commodity styles with the tra
 
 # EMPIRICAL RESULTS
 
-All 683 commodity hedge funds are allocated to one of the three styles. In order to compare the three strategies with each other and with commodity benchmarks, we must first use the median monthly return (on a net of fee basis) to replicate the performance of the particular strategy. When looking solely at average yearly returns, long-short futures and funds of hedge funds seem to be the least attractive investment strategies (see Table 3). Furthermore, during the bullish 2009 market, they achieved poor results
-
-Table 3: Empirical results  
+All 683 commodity hedge funds are allocated to one of the three styles. In order to compare the three strategies with each other and with commodity benchmarks, we must first use the median monthly return (on a net of fee basis) to replicate the performance of the particular strategy. When looking solely at average yearly returns, long-short futures and funds of hedge funds seem to be the least attractive investment strategies (see Table 3). Furthermore, during the bullish 2009 market, they achieved poor results compared with other strategies that yielded up to five times higher results.  
 
 <table><tr><td>Strategy</td><td>Long-short futures</td><td>Long-short equities</td><td>Funds of hedge funds</td></tr><tr><td colspan="4">Risk/performance measures</td></tr><tr><td>RoR (p.a.)</td><td>10.58%</td><td>12.40%</td><td>10.28%</td></tr><tr><td>Return (2007)</td><td>13.84%</td><td>16.87%</td><td>10.81%</td></tr><tr><td>Return (2008)</td><td>7.22%</td><td>-29.64%</td><td>-5.32%</td></tr><tr><td>Return (2009)</td><td>4.74%</td><td>23.79%</td><td>4.81%</td></tr><tr><td>Return (2010)</td><td>10.48%</td><td>10.47%</td><td>5.14%</td></tr><tr><td>Percentage of positive days</td><td>70.45%</td><td>68.18%</td><td>68.94%</td></tr><tr><td>Average Gain (p.m.)</td><td>1.51%</td><td>2.74%</td><td>1.68%</td></tr><tr><td>Average Loss (p.m.)</td><td>-0.71%</td><td>-2.60%</td><td>-1.07%</td></tr><tr><td>Volatility</td><td>5.34%</td><td>11.88%</td><td>6.12%</td></tr><tr><td>Maximum drawdown</td><td>-5.32%</td><td>-33.04%</td><td>-11.37%</td></tr><tr><td>VaR (99%; 1 m)</td><td>2.73%</td><td>6.94%</td><td>3.28%</td></tr><tr><td>3 M US LIBOR Average (p.a.)</td><td>2.98%</td><td>2.98%</td><td>2.98%</td></tr><tr><td>Sharpe (3 M LIB)</td><td>1.425</td><td>0.793</td><td>1.192</td></tr><tr><td>Treynor Ratio (GSCI)</td><td>0.573</td><td>0.313</td><td>0.627</td></tr><tr><td>Treynor Ratio (DJ/UBS)</td><td>0.346</td><td>0.193</td><td>0.355</td></tr><tr><td>Treynor Ratio (Commodity Equity Index)</td><td>0.665</td><td>0.219</td><td>0.475</td></tr><tr><td colspan="4">Independent regression</td></tr><tr><td>R2(GSCI)</td><td>0.388</td><td>0.403</td><td>0.227</td></tr><tr><td>R2(DJUBS)</td><td>0.521</td><td>0.517</td><td>0.347</td></tr><tr><td>R2(Commodity Equity Index)</td><td>0.241</td><td>0.687</td><td>0.330</td></tr><tr><td>α (GSCI)</td><td>0.76%</td><td>0.83%</td><td>0.75%</td></tr><tr><td>α (DJUBS)</td><td>0.68%</td><td>0.66%</td><td>0.68%</td></tr><tr><td>α (Commodity Equity Index)</td><td>0.74%</td><td>0.60%</td><td>0.68%</td></tr><tr><td>β (GSCI)</td><td>0.133</td><td>0.301</td><td>0.116</td></tr><tr><td>β (DJUBS)</td><td>0.220</td><td>0.487</td><td>0.206</td></tr><tr><td>β (Commodity Equity Index)</td><td>0.114</td><td>0.430</td><td>0.154</td></tr><tr><td colspan="4">Descriptive statistics</td></tr><tr><td>Mean (p.m.)</td><td>0.85%</td><td>1.04%</td><td>0.83%</td></tr><tr><td>Median (p.m.)</td><td>0.51%</td><td>0.92%</td><td>0.72%</td></tr><tr><td>Maximum (p.m.)</td><td>5.19%</td><td>9.68%</td><td>6.95%</td></tr><tr><td>Minimum (p.m.)</td><td>-3.39%</td><td>-13.53%</td><td>-5.21%</td></tr><tr><td>Skewness</td><td>0.49</td><td>-0.83</td><td>0.02</td></tr><tr><td>Kurtosis</td><td>0.48</td><td>3.21</td><td>1.56</td></tr></table>
 
@@ -166,9 +147,7 @@ The most diversified benchmark is the DJUBS Commodity Index, which has been outp
 
 Examining the major performance figures more closely, we note that long-short futures are ahead of the other strategies. They account for the highest  $\alpha$ s against two out of the three benchmarks. They also have the lowest volatility, the highest number of days of positive performance, the smallest value at risk, positive skewness and a low kurtosis.
 
-Another side effect of this analysis is the comparison between single hedge funds and funds of hedge funds. The results imply that single funds should be preferred over funds of funds from a statistical viewpoint, if we do not
-
-consider fund of funds advantages such as manager diversification, monitoring and so on.
+Another side effect of this analysis is the comparison between single hedge funds and funds of hedge funds. The results imply that single funds should be preferred over funds of funds from a statistical viewpoint, if we do not consider fund of funds advantages such as manager diversification, monitoring and so on.
 
 With regard to all the risk and performance figures, we believe that potential commodity investors who are seeking investments that will outperform comparable benchmarks should consider long-short futures commodity funds.
 
@@ -184,9 +163,7 @@ Nevertheless, we find that long-short commodity futures funds are the best choic
 
 # ACKNOWLEDGEMENTS
 
-The authors thank Greg N. Gregoriou and Florian Haberfelner for helpful comments on earlier versions of this article. Any remaining errors are those of the authors. The views and
-
-opinions presented in this article are not necessarily those of Barclays Capital or Robus Capital Management Limited.
+The authors thank Greg N. Gregoriou and Florian Haberfelner for helpful comments on earlier versions of this article. Any remaining errors are those of the authors. The views and opinions presented in this article are not necessarily those of Barclays Capital or Robus Capital Management Limited.
 
 # NOTES
 

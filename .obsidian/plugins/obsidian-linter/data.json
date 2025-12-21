@@ -32,7 +32,7 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "aliases: \ntags: \nparent_directory:\ncssclasses: academia"
+      "text-to-insert": "aliases: \ntags: \nparent_directory:\nprimary_tags:\nsecondary_tags:\nformatting_agent:\ncli_agent:\ntime:\ncssclasses: academia"
     },
     "move-tags-to-yaml": {
       "enabled": true,

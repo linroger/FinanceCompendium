@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "V. Equities and Alternatives/Equities/Investments BKM/Part 7 - Applied Portfolio Management/Chapter 26 - Alternative Assets.md",
+                "file": "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/7. BlackScholesModel.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 26 - Alternative Assets"
+              "title": "7. BlackScholesModel"
             }
           },
           {
@@ -243,8 +243,9 @@
       "ai-tagger:Generate tags!": false
     }
   },
-  "active": "360abbbc2746a8b9",
+  "active": "f415a2f46a27c8d6",
   "lastOpenFiles": [
+    "V. Equities and Alternatives/Equities/Investments BKM/Part 7 - Applied Portfolio Management/Chapter 26 - Alternative Assets.md",
     "V. Equities and Alternatives/Equities/Investments BKM/verify_concept_check_images.py",
     "V. Equities and Alternatives/Equities/Investments BKM/remove_concept_check_images.py",
     "IX. Risk Management/Risk Management and Financial Institutions/Part 3 Market Risk/Chapter 11 Value at Risk and Expected Shortfall.md.bak",
@@ -259,7 +260,6 @@
     "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/pre_tool_use.json",
     "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/post_tool_use.json",
     "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1/subagent_stop.json",
-    "logs/8c1794be-6b7f-4541-a3a1-ae7a962059e1",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/7. BlackScholesModel.md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCS Greeks MasterSlides (1).md",
     "I. Foundations/Numerical Methods/MFE Monte-Carlo Simulation/MCS Generate RVars (1).md",
