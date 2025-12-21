@@ -1,14 +1,14 @@
 ---
-title: "Chapter 19: International Monetary Systems: A Historical Overview"
+title: Chapter 19: International Monetary Systems: A Historical Overview
 parent_directory: Krugman International Economics
-formatted: 2025-12-21 06:45:00 AM
+formatted: 2025-12-21 09:15:00 AM
 formatter_model: grok-code-fast-1
-cli_tool: open code
+cli-tool: opencode
 primary_tags:
   - international monetary systems
+secondary_tags:
   - gold standard
   - bretton woods system
-secondary_tags:
   - historical overview
   - floating exchange rates
   - monetary policy autonomy

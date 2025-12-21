@@ -1,26 +1,26 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
 title: Doob Decomposition
-linter-yaml-title-alias: Doob Decomposition
+parent_directory: Mathematics
+formatted: 2025-12-21 09:15:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
 primary_tags:
-- other stochastic processes
-- doob-meyer decomposition
-secondary_tags:
-- doob decomposition martingale processes
-- decomposition martingale processes
+- doob decomposition theorem
 - martingale processes
+- stochastic process decomposition
+secondary_tags:
 - predictable drift process
-tags_extracted: '2025-12-18T17:56:19.842983'
-tags_method: max_quality_v1
+- submartingale decomposition
+- supermartingale decomposition
+- doob-meyer decomposition
+- ito isometry
+- binomial submartingale
+cssclasses: academia
 ---
 
 # Doob Decomposition
 
-Martingale processes and deterministic processes are normally much easier to analyze and manipulate than other stochastic processes containing both drift and random elements. One major reason for this is that working with martingales free us from having to calculate unknown risk-adjusted discount rates and risk premiums in the valuation process. Two types of procedures to convert drift processes to martingales involve either decoupling the drift from the random process and its associated martingale or changing the probability measure. Doob's Decomposition Theorem states that every discrete suband super-martingale  $S_{t}$  can be decomposed into the sum of a martingale  $M_{t}$  and a predictable drift process  $\mu_{t}$ ; that is,  $S_{t} = M_{t} + \mu_{t}$ .
+Martingale processes and deterministic processes are normally much easier to analyze and manipulate than other stochastic processes containing both drift and random elements. One major reason for this is that working with martingales free us from having to calculate unknown risk-adjusted discount rates and risk premiums in the valuation process. Two types of procedures to convert drift processes to martingales involve either decoupling the drift from the random process and its associated martingale or changing the probability measure. Doob's Decomposition Theorem states that every discrete sub- and super-martingale  $S_{t}$  can be decomposed into the sum of a martingale  $M_{t}$  and a predictable drift process  $\mu_{t}$ ; that is,  $S_{t} = M_{t} + \mu_{t}$ .
 
 We start by demonstrating the construction extending from time  $t-1$  to  $t$ . Express  $S_{t} = S_{t} - S_{t-1} + S_{t-1}$ . The drift in the process from time  $t-1$  to  $t$  equals  $E[S_{t} / \mathcal{F}_{t-1}] - S_{t-1}$ . The remaining change in the process from time  $t-1$  to  $t$  will be the martingale contribution:  $(S_{t} - S_{t-1}) - (E[S_{t} / \mathcal{F}_{t-1}] - S_{t-1}) = S_{t} - E[S_{t} / \mathcal{F}_{t-1}]$ . Observe that the martingale contribution is a measure of the volatility (variation) of the security from its mean at time  $t$  conditioned on its price at time  $t-1$ . We have:
 

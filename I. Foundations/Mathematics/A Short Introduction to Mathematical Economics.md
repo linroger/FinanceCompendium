@@ -1,86 +1,81 @@
 ---
+title: "A Short Introduction to Mathematical Economics"
+parent_directory: Mathematics
+formatted: 2025-12-21 09:15:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- each indifference curve
-- any utility function
-- high-school economics students
-- cost functions
-- where and are arbitrary constants
-- mc method
+- mathematical economics introduction
+- utility theory basics
+- consumer demand analysis
+- indifference curve properties
+- budget constraint optimization
+- marginal utility concepts
 secondary_tags:
-- utility maximisation
-- demand function
-- theory questions
-- new knowledge
-- utility measures
-- basic notations
-- simplest demand function
-- top three equations
-- closest possible corner point
-- part theory
-- standard cost function
-- firm 4 firm's costs
-- constant concavity
-- inefficient or not maximal use
-- first one
-- final equation
-tags_extracted: '2025-12-18T17:56:14.912371'
-tags_method: max_quality_v1
+- supply demand equilibrium
+- linear demand functions
+- utility maximization methods
+- lagrangian multiplier applications
+- production cost functions
+- opportunity cost analysis
+- game theory problems
+cssclasses: academia
 ---
 
 # A Short Introduction to Mathematical Economics
 
 Ilia Rivkin
 
-# Contents
+## Contents
 
-# 1 Introduction 4
+## 1 Introduction
 
-1.1 Who is this book for? 4  
-1.2 How can you use your new knowledge? 4  
-1.3 Contact the author 6  
-1.4 Note on Language Editing 6
+1.1 Who is this book for?
+1.2 How can you use your new knowledge?
+1.3 Contact the author
+1.4 Note on Language Editing
 
-# IConsumer Theory 6
+## I Consumer Theory
 
-# 2 Demand and Supply 6
+## 2 Demand and Supply
 
-2.1 Demand 6  
-2.2 Summing Linear Demand Curves 7  
-2.3 Supply 9  
-2.4 Equilibrium between supply and demand 9
+2.1 Demand
+2.2 Summing Linear Demand Curves
+2.3 Supply
+2.4 Equilibrium between supply and demand
 
-# 3 Utility 10
+## 3 Utility
 
-3.1 Introduction to the concept 10  
-3.2 Typical utility function 10  
-3.3 Basic Notations 12  
-3.4 Utility Principles and assumptions 12
+3.1 Introduction to the concept
+3.2 Typical utility function
+3.3 Basic Notations
+3.4 Utility Principles and assumptions
 
-3.4.1 Completeness 12  
-3.4.2 Transitivity 13  
-3.4.3 Monotonicity 13
+3.4.1 Completeness
+3.4.2 Transitivity
+3.4.3 Monotonicity
 
-3.5 Indifference curves 13  
-3.6 Principles of Indifference Curves 14
+3.5 Indifference curves
+3.6 Principles of Indifference Curves
 
-3.6.1 Indifference curves never intersect 14  
-3.6.2 Indifference curves are downward-sloping (in general) 15  
-3.6.3 Marginal utility 16  
-3.6.4 Marginal Rate of Substitution 17  
-3.6.5 The slope of indifference curves 19  
-3.6.6 Indifference curves are convex (in general) 20
+3.6.1 Indifference curves never intersect
+3.6.2 Indifference curves are downward-sloping (in general)
+3.6.3 Marginal utility
+3.6.4 Marginal Rate of Substitution
+3.6.5 The slope of indifference curves
+3.6.6 Indifference curves are convex (in general)
 
-3.7 Utility maximisation 21
+3.7 Utility maximisation
 
-3.7.1 Budget constraint 22  
-3.7.2 Maximisation Method 1: Brute Force 22  
-3.7.3 Indifference curves 24  
-3.7.4 Marginal utility per unit of cost 27  
-3.7.5 Standard Utility functions 28  
-3.7.6 Demand Derivation 33  
-3.7.7 Hard Problems 34  
-3.7.8 Lagrangian Multiplier 38  
-3.7.9 TL;DR 40
+3.7.1 Budget constraint
+3.7.2 Maximisation Method 1: Brute Force
+3.7.3 Indifference curves
+3.7.4 Marginal utility per unit of cost
+3.7.5 Standard Utility functions
+3.7.6 Demand Derivation
+3.7.7 Hard Problems
+3.7.8 Lagrangian Multiplier
+3.7.9 TL;DR
 
 II Theory of the Firm 40
 
@@ -134,7 +129,7 @@ II Theory of the Firm 40
 
 # 1 Introduction
 
-# 1.1 Who is this book for?
+#### 1.1 Who is this book for?
 
 This textbook is written for aspiring high-school economics students who want to study some mathematical economics without going (much) beyond A-Level Maths.
 
@@ -144,21 +139,19 @@ Going through this book will make your application to top-tier universities more
 
 Here are some suggestions:
 
-# 1.2 How can you use your new knowledge?
+#### 1.2 How can you use your new knowledge?
 
-# 1. Mentioning the topics studied in the personal statement
+1. Mentioning the topics studied in the personal statement
 
 The first and simplest way of enhancing your application is to mention that you went through different topics in Mathematical Economics.
 
 For instance:
 
-"Eager to learn how economists use Maths to model real-world decisions, I studied such
-
-topics as utility maximisation, costs, etc...
+"Eager to learn how economists use Maths to model real-world decisions, I studied such topics as utility maximisation, costs, etc...
 
 But remember, a personal statement should be a story of exploration rather than an activity list. You should mention what you learned, what you liked, and what interests it sparked in you. For example, you could say that "learning mathematical Economics inspired me to create my own model..."
 
-# 2. Creating your own model
+2. Creating your own model
 
 You can use the knowledge that you gained to find a real-world problem and create an Economic model to find a solution. For instance, you can create your own Game Theory model to answer whether, under your own assumptions, a country will be better off or worse off by investing in green technology on their own (without global cooperation). This could be either a micro or a macro model.
 
@@ -166,39 +159,39 @@ For example, in the summer after Year 12 I tried to use normal distribution to f
 
 Another example is my friend, who designed a market for pollution permits using Maths, and his paper was published.
 
-# 3. Combining two subjects together
+3. Combining two subjects together
 
 You can also try to combine Economics with your other subjects. For example, you can try to create an automated utility maximisation program, which, based on the function and budget constraint, maximises one's utility, or minimises firms' costs.
 
 Alternatively, you can explore the Economics of space launches, combining knowledge from Physics and Economics.
 
-# 4. Improving your interview performance
+4. Improving your interview performance
 
 Many questions given to you during an Oxbridge interview will be quite similar or, at least, use similar methods to the ones demonstrated in this book. This could particularly be applied to Game Theory questions.
 
 Also, when submitting your application you will typically be asked to mention topics studied by you in your subject. If you mention some of the topics in the book, you can be asked about it during the interview, which will help you to stand out.
 
-# 5. Improvise!
+5. Improvise!
 
 As a matter of fact, there are many other ways to make your application better with the knowledge from the book. Perhaps, you could even start to like Economics more than you did (or choose to stay out of it).
 
-# 1.3 Contact the author
+#### 1.3 Contact the author
 
 If you found a mistake or want to clarify a concept or request more problem sheets, contact me via email:
 
 rivkinilia@gmail.com
 
-# 1.4 Note on Language Editing
+#### 1.4 Note on Language Editing
 
 As the author is a non-native English speaker, AI tools were used to correct grammatical and language errors throughout the textbook as part of the editing process.
 
-# Part I
+## Part I
 
-# Consumer Theory
+## Consumer Theory
 
-# 2 Demand and Supply
+## 2 Demand and Supply
 
-# 2.1 Demand
+#### 2.1 Demand
 
 The first topic to be covered is demand and supply. As you might know from A-Level Economics, demand is a function that shows the quantity of a certain good that consumers are willing and able to buy on a certain market for each given price. The "able" part comes from the requirement that a consumer could actually afford the good at a certain price, not just "willing" to. The simplest and most common model of demand is a linear function.
 
@@ -217,16 +210,16 @@ NB.1, In economics, the dependent variable (quantity) is drawn on the x-axis, wh
 
 NB.2, technically, you can express either quantity as a function of price or price as a function of quantity. Yet, in some cases it might be easier to use the  $Q(P)$  way, which we will look at in the next section.
 
-# 2.2 Summing Linear Demand Curves
+#### 2.2 Summing Linear Demand Curves
 
 Imagine there is a market for a takeaway pizza where two groups of consumers demand the product: students and workers. Their respective demand functions could be:
 
 $$
-Q _{s} = 1 6 - 2 P _{s}
+Q_{s} = 16 - 2 P_{s}
 $$
 
 $$
-Q _{w} = 2 0 - P _{w}
+Q_{w} = 20 - P_{w}
 $$
 
 How would we then find an overall market demand?
@@ -245,16 +238,16 @@ For every  $8 < P \leq 20$  only workers demand a non-zero quantity of pizza, so
 
 The remaining part is the range  $0 \leq P \leq 8$ . To understand what's happening on that interval, let's look at an arbitrary price in the range:  $\mathrm{P} = 4$ .
 
-At  $\mathrm{P} = 4$ ,  $Q_{s} = 16 - 2 * 4 = 8$ , while  $Q_{w} = 20 - 4 = 16$ . The overall market quantity is then  $Q = 8 + 16 = 24$ , or, the sum of two quantities demanded. In other words, when  $0 \leq P \leq 8$ :
+At $\mathrm{P} = 4$, $Q_{s} = 16 - 2 \times 4 = 8$, while $Q_{w} = 20 - 4 = 16$. The overall market quantity is then $Q = 8 + 16 = 24$, or, the sum of two quantities demanded. In other words, when $0 \leq P \leq 8$:
 
 $$
-Q _{\text{ma rk et}} = Q _{s} + Q _{w} = 2 0 - P + 1 6 - 2 P = 3 6 - 3 P
+Q_{\text{market}} = Q_{s} + Q_{w} = 20 - P + 16 - 2P = 36 - 3P
 $$
 
 In economics, this is called a horizontal sum. A formal definition of the market demand will then be:
 
 $$
-Q _{\text{ma rk et}} = \sum_{i = 1} ^{n} Q _{i} (P)
+Q_{\text{market}} = \sum_{i = 1}^{n} Q_{i}(P)
 $$
 
 This formal definition tells us that for each price  $P$  the quantity demanded on the market will be the sum of all individual quantities demanded at this price level. In the aforementioned case we can rewrite the table to account for the formal definition to get the final answer:
@@ -264,12 +257,16 @@ This formal definition tells us that for each price  $P$  the quantity demanded 
 Hence, the final answer is:
 
 $$
-Q (P) = \left\{ \begin{array}{c} 3 6 - 3 P,   0 \leq P \leq 8, \\ 2 0 - P,   8 <   P \leq 2 0, \\ 0,   P > 2 0. \end{array} \right.
+Q(P) = \begin{cases}
+36 - 3P, & 0 \leq P \leq 8, \\
+20 - P, & 8 < P \leq 20, \\
+0, & P > 20.
+\end{cases}
 $$
 
 Note that in the horizontal-sum method we use  $Q(P)$  rather than  $P(Q)$  as it is the simplest and the most intuitive method.
 
-# 2.3 Supply
+#### 2.3 Supply
 
 In Economics, the supply function shows the quantity that a firm is willing and able to supply for each given price level ( $P \geq 0$ ).
 
@@ -279,7 +276,7 @@ $$
 Q = c + d P,
 $$
 
-where  $c$  and  $d$  are arbitrary parameters (  $\mathbf{c}$  is usually negative, meaning that any non-negative quantity will be supplied starting from a  $P^{*} > 0$  (where  $P^{*} = \frac{-c}{d}$ ).
+where $c$ and $d$ are arbitrary parameters ($c$ is usually negative, meaning that any non-negative quantity will be supplied starting from a $P^{*} > 0$ (where $P^{*} = \frac{-c}{d}$)).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/f1c5e64e-4746-468f-9197-552ab4bd1c5e/00c0f08517926a1ae7fac94e0661b8f84e354fd5bcb20f0ab90244331fb22751.jpg)
 
@@ -287,23 +284,23 @@ The same logic of indifference between  $\mathrm{Q}(\mathrm{P})$  and  $\mathrm{
 
 In general, applying horizontal summation to the supply function requires the same steps as for demand, so we will skip this step.
 
-# 2.4 Equilibrium between supply and demand
+#### 2.4 Equilibrium between supply and demand
 
 As with other mathematical functions, to find the equilibrium (a point where supply crosses demand) we want to express both  $Q_{s}$  and  $Q_{d}$  as a function of price (or price as a function of quantity) and equalise them. For example, if:
 
 $$
-Q _{s} = 1 0 + P
+Q_{s} = 10 + P
 $$
 
 $$
-Q _{d} = 2 0 - P
+Q_{d} = 20 - P
 $$
 
-Then  $Q_{s} = Qd \Rightarrow 10 + P = 20 - P \Rightarrow P = 5, Q = 10 + 5 = 15$
+Then $Q_{s} = Q_{d} \Rightarrow 10 + P = 20 - P \Rightarrow P = 5, Q = 10 + 5 = 15$
 
-# 3 Utility
+## 3 Utility
 
-# 3.1 Introduction to the concept
+#### 3.1 Introduction to the concept
 
 In Economics, utility measures the relative satisfaction of consumers from consuming goods and services, and serves as the main measure of how well-off the consumer is. It is relative because utility is an ordinal measure. An ordinal measure gives information only about relative magnitudes, for example, I like oranges more than apples.
 
@@ -312,29 +309,27 @@ Because of that, the utility of 100 gained from consuming the good  $x_{1}$  doe
 As such, the statement:
 
 $$
-U _{x _{1}} = 1 0 0 > U _{x _{2}} = 5 0
+U_{x_{1}} = 100 > U_{x_{2}} = 50
 $$
 
 is equivalent to the statement
 
 $$
-U _{x _{1}} = 1 0 0 0 > U _{x _{2}} = 2 0
+U_{x_{1}} = 1000 > U_{x_{2}} = 20
 $$
 
 because both statements show that the consumer prefers the good  $x_{1}$  more than the good  $x_{2}$ .
 
 That said, it doesn't mean the level of utility "within" one utility function is meaningless. If a consumer could gain higher utility, they will go for it. It will be explained further.
 
-# 3.2 Typical utility function
+#### 3.2 Typical utility function
 
-Most of the time, a utility function will be a function of two goods -  $x_{1}$  and  $x_{2}$  or  $x$  and  $y$ . This is done for simplicity of analysis. As such, it would sometimes be useful to refer
-
-to a certain combination of  $x$  and  $y$  as bundles. However, we will also look at some utility functions which include three or more variables.
+Most of the time, a utility function will be a function of two goods -  $x_{1}$  and  $x_{2}$  or $x$ and $y$. This is done for simplicity of analysis. As such, it would sometimes be useful to refer to a certain combination of $x$ and $y$ as bundles. However, we will also look at some utility functions which include three or more variables.
 
 A typical utility function might look like:
 
 $$
-U (x _{1}, x _{2}) = x _{1} * x _{2}
+U(x_{1}, x_{2}) = x_{1} \cdot x_{2}
 $$
 
 or
@@ -453,11 +448,11 @@ Plotting indifference curves on the line looks like:
 
 Now, technically since  $U \in \mathbb{R}$ , indifference curves should occupy all the space in the first quadrant. However, as economists, we draw only a few indifference curves in order to understand how they look and behave.
 
-# 3.6 Principles of Indifference Curves
+#### 3.6 Principles of Indifference Curves
 
 There are a few principles of indifference curves. As before, some of them will be true for any utility function while some of those will be logical assumptions which might be broken as a mathematical exercise.
 
-# 3.6.1 Indifference curves never intersect
+##### 3.6.1 Indifference curves never intersect
 
 This principle comes from transitivity and always holds. Suppose two indifference curves cross, with one giving utility  $U_{1}$  and the second one giving utility  $U_{2}$  on the graph below.
 
@@ -467,18 +462,18 @@ Since  $\mathrm{O}$  lies on the same indifference curve as  $\mathrm{A}$ , it s
 
 More intuitively, a unique bundle  $B_{i}$  representing the point of intersection should bring only a unique level of utility, which contradicts the fact that  $B_{i}$  lies on two indifference curves where each indifference curve has its unique level of utility.
 
-# 3.6.2 Indifference curves are downward-sloping (in general)
+##### 3.6.2 Indifference curves are downward-sloping (in general)
 
 If monotonicity holds (more of a good is better than less of that good) then indifference curves must be downward sloping. This is because, if a bundle  $B_{2}(\alpha + \triangle \alpha, \beta + \triangle \beta)$  is more preferred than the bundle  $B_{1}(\alpha, \beta)$ , then  $B_{2}$  must bring higher utility than  $B_{1}$ :
 
 $$
-U (B _{2}) > U (B _{1})
+U(B_{2}) > U(B_{1})
 $$
 
 However, an upward-sloping indifference curve means that both bundles  $B_{1}$  and  $B_{2}$  lie on the same indifference curve, meaning the same utility for both bundles. This effectively means:
 
 $$
-U (B _{1}) = U (B _{2})
+U(B_{1}) = U(B_{2})
 $$
 
 which contradicts the statement above.
@@ -487,10 +482,10 @@ More intuitively, if the consumer now consumes a higher quantity of the good  $x
 
 Of course, if monotonicity does not hold, the indifference curve might be upward sloping, meaning that higher consumption might not bring additional satisfaction (utility) to the consumer, for example,
 
-for  $U = y + 9 - x^{2}$ :
+for $U = y + 9 - x^{2}$:
 
 $$
-\overline {{U}} = y + 9 - x ^{2}
+\bar{U} = y + 9 - x^{2}
 $$
 
 $$
@@ -501,7 +496,7 @@ $$
 
 Such a utility function could mean that the consumer does not enjoy the good  $x$  at all; perhaps it might be olives or oysters.
 
-# 3.6.3 Marginal utility
+##### 3.6.3 Marginal utility
 
 As we introduced some principles of indifference curves, it's time to introduce marginal utility and then come back to the remaining principles.
 
@@ -512,15 +507,13 @@ Marginal utility is the extra utility gained from consuming the smallest possibl
 In other words, if  $\mathrm{U} = \mathrm{U}(\mathbf{x})$  (utility as a function of one good), then:
 
 $$
-M U _{x} = \lim _{h \to 0} \frac{U (x + h) - U (x)}{h}
+MU_{x} = \lim_{h \to 0} \frac{U(x + h) - U(x)}{h}
 $$
 
-However, as we remember, utility is usually a function of two variables -  $x$  and  $y$ . In that
-
-case, we would be interested to look at the marginal change of utility as a result of a marginal change in one good, leaving the other one constant. This is called a partial derivative and by definition is:
+However, as we remember, utility is usually a function of two variables - $x$ and $y$. In that case, we would be interested to look at the marginal change of utility as a result of a marginal change in one good, leaving the other one constant. This is called a partial derivative and by definition is:
 
 $$
-M U _{x} = \frac{\partial U}{\partial x} = \lim  _{h \rightarrow 0} \frac{U (x + h , y) - U (x , y)}{h}
+MU_{x} = \frac{\partial U}{\partial x} = \lim_{h \to 0} \frac{U(x + h, y) - U(x, y)}{h}
 $$
 
 , where  $\partial$  shows the partial change.
@@ -535,7 +528,7 @@ $$
 M U _{y} = \frac{\partial U}{\partial y} = x
 $$
 
-# 3.6.4 Marginal Rate of Substitution
+##### 3.6.4 Marginal Rate of Substitution
 
 The next important bit is the marginal rate of substitution. As the name suggests, the marginal rate of substitution  $(\mathrm{x},\mathrm{y})$  refers to how many units of good  $y$  the consumer is willing to give up to get one more unit of the good  $x$  while keeping the same utility.
 

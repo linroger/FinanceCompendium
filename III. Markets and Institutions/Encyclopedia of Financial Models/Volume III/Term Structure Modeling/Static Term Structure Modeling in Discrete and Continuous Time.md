@@ -1,3 +1,21 @@
+---
+title: Static Term Structure Modeling in Discrete and Continuous Time
+parent_directory: III. Markets and Institutions/Encyclopedia of Financial Models/Volume III/Term Structure Modeling
+formatted: 2025-12-21 09:11:25 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - term structure models
+  - spot yield curve
+  - forward rates
+secondary_tags:
+  - discount function
+  - continuous time models
+  - discrete time models
+  - arbitrage free models
+  - interest rate modeling
+cssclasses: academia
+---
 
 # Static Term Structure Modeling in Discrete and Continuous Time
 
@@ -27,11 +45,11 @@ Computational implementation of anything as complex as interest rate term struct
 
 A deterministic approach to the term structure of interest rates (or simply, the term structure) may be appropriately thought of as a static modeling approach. This is distinguished from a dynamic model of term structure. The chief distinction is that in a static term structure model, no accommodation is made of the course of interest rates over time. On the other hand, a dynamic model explicitly incorporates how interest rates change over time and therefore needs to admit a notion of uncertainty in considering the future course of interest rates. The following discussion will concentrate on static models. First, we address a taxonomy for term structure models in some additional detail.
 
-# INTRODUCTION TO TERM STRUCTURE MODELING
+## INTRODUCTION TO TERM STRUCTURE MODELING
 
 The term structure of interest rates (or term structure) is simply a price or yield relationship among a set of securities that differ only in the timing of their cash flows or their term until maturity. These securities invariably have a specified set of other attributes in common so that the study of the term relationship is meaningful.
 
-It is common to think of the term structure as consisting of the current-coupon U.S. Treasury issues only. This restriction is not necessary since it is possible to define other term structures derived from other securities. For exam- ple, it is meaningful to define the term structure of sets of coupon or principal Treasury strips. Other examples include off-the-run Treasury issues, agency debentures, LIBOR/interest-rate swaps, or the notes of single-A rated banks and finance companies. The set of securities used to define a term structure is called the reference set. A market sector (sometimes referred to as a market or a sector) consists of all those instruments described by a specific term structure. There is the market sector of coupon or principal Treasury strips, off-the-run Treasuries, agency debentures, interest-rate swaps, and single-A rated banks and finance companies, and so forth. Very often, the reference set for a market sector may have restrictions on the structure (noncallable only), liquidity (recent issues only), or price (close to par only) of the securities that make up the set.
+It is common to think of the term structure as consisting of the current-coupon U.S. Treasury issues only. This restriction is not necessary since it is possible to define other term structures derived from other securities. For example, it is meaningful to define the term structure of sets of coupon or principal Treasury strips. Other examples include off-the-run Treasury issues, agency debentures, LIBOR/interest-rate swaps, or the notes of single-A rated banks and finance companies. The set of securities used to define a term structure is called the reference set. A market sector (sometimes referred to as a market or a sector) consists of all those instruments described by a specific term structure. There is the market sector of coupon or principal Treasury strips, off-the-run Treasuries, agency debentures, interest-rate swaps, and single-A rated banks and finance companies, and so forth. Very often, the reference set for a market sector may have restrictions on the structure (noncallable only), liquidity (recent issues only), or price (close to par only) of the securities that make up the set.
 
 
 The relationship expressed by the term structure is traditionally the par-coupon yield relationship, hence the terminology: yield curve. This also is not a necessary restriction. In general, the term structure could be the discount function, the spot-yield curve, or some other expression of the price or yield relationship between the securities. Given the widespread usage of the (par) yield curve for the Treasury market, it is not surprising that many market sectors are defined from a reference set derived from the Treasury market. For example, the reference set that defines the agency debenture market is a set of yield spreads to the on-the-run Treasuries, so that a 5-year debenture issued by an agency may be priced at par to yield 15 basis points more than the current 5-year Treasury issue. If the Treasury issue is trading at a  $6.60\%$  yield to maturity, the par priced agency issue has a  $6.75\%$  coupon. By inference, from the spread quote of 15 basis points, the reference yield for the 5-year term is  $6.75\%$ . Similar statements can be made for the interest-rate swap and the corporate bond markets.
@@ -46,7 +64,7 @@ Theories about the term structure of interest rates fall into two categories:
 
 Usually, a quantitative theory about the term structure of interest rates culminates in a mathematical model, a term structure model that exhibits useful properties. Specifically, a term structure model is the mathematical representation of the relationship among the securities in a market sector. This formalizes the distinction between the reference set used to define a market sector and a term structure model.
 
-# TERM STRUCTURE MODELS
+## TERM STRUCTURE MODELS
 
 The simplest and most familiar term structure model is the (semilogarithmic) graph of the U.S. Treasury yield curve (once found daily in the Wall Street Journal and in the business section of many newspapers). This model is useful mainly as a visualization of the yield relationship between the most recently issued shorter-term Treasury instruments and bonds. The graph can be characterized by a mathematical equation and is one example of the set of interpolation models of the term structure.
 
@@ -71,7 +89,7 @@ The mathematical relationship of a term structure model can be used to character
 
 We begin with the familiar, discrete-time modeling approach. That is, units of time quanta are defined (usually in terms of compounding frequency) and financial manipulations are indexed with integer, multiple periods. We continue to build on the discussion by introducing the continuous-time analogies to the concepts developed for discrete-time modeling. Continuous-time modeling allows financial manipulations to be freed from discretization artifacts (such as compounding frequency) and provides an algebraic framework that more naturally and rigorously accommodates "rate" as a concept of change. In addition, this approach opens up a huge field of applicable mathematics with the attendant opportunity for abstraction. For example, continuous-time models free the analyst from artificial a priori assumptions about interest-rate lattices; allow concentration on the financial analyses at hand; defer time-step issues to final implementation of an algorithm; and let the analyst choose an approach based on convenience, speed, and accuracy.
 
-# DISCRETE-TIME MODELS OF THE TERM STRUCTURE
+## DISCRETE-TIME MODELS OF THE TERM STRUCTURE
 
 In the discrete-time framework, we introduce some fundamental concepts in term structure theory. These include the discount function, the spot rate and spot yield, and the forward rate. While these initially may appear to be esoteric in nature, they are in fact closely interrelated quantities that directly represent the term structure, or act to influence the course of future interest rates in an arbitrage-free environment. In this section these concepts are shown to be incorporated into the different expressions that describe the various qualitative term structure theories, such as the expectation, preferred habitat, and liquidity preference hypotheses. The continuous-time term structure model is evolved next from the same underlying premises as found in discrete time, thereby speeding the exposition.
 
@@ -482,14 +500,14 @@ $$ where
 
 
 $$
-\begin{array}{c} d W (t) = \text{in cr em en ta li nc re as ei nt he va lu eo f} \\ \text{th el oa nf ro mt im et to ti me t +d t} \end{array}
+\begin{array}{c} d W (t) = \text{incremental increase in the value of} \\ \text{the loan from time t to time t + dt} \end{array}
 $$
 
 $$
 W (t) = \text{va lu e} t
 $$
 
-$$ r (t) = \text{sp ot ra te} t
+$$ r (t) = \text{spot rate at} t
 $$
 
 To find the value of the loan  $W$  at maturity, integrate equation (19)
@@ -523,7 +541,7 @@ $$
 
 Graphically, the spot rate at  $t = 0$  may be visualized as the yield corresponding to the point at which the spot-yield curve intercepts the yield axis.
 
-# FORWARD RATE
+## FORWARD RATE
 
 The forward rate,  $F(t_0,t)$  is the marginal rate of return for extending an investment to an additional increment of term at  $t > t_0$ . The forward rate is defined by
 
@@ -561,7 +579,7 @@ Under a certain economy, equations (22) and (27) show that the spot rate needs t
 
 Since  $R$  is the yield of a discount bond and the term structure of interest rates is the set of spot yields as a function of maturity, equation (22) defines the term structure when the evolution of the spot rate is a known function of time. However, in general, the spot rate is not known; only the current spot rate is known from the current spot-yield curve. Nevertheless, term structure theory expands the basic relationship that is shown in equation (22), namely that the yield of a discount bond is a function of the spot rate. This is discussed in more detail in the next section when the spot rate assumes the form of a stochastic differential equation.
 
-# TERM STRUCTURE IN CONTINUOUS TIME
+## TERM STRUCTURE IN CONTINUOUS TIME
 
 As stated in the previous section, the term structure of interest rates describes the relationship between the yields of default-free, zero-coupon securities as a function of maturity. Consequently, the term structure may be envisioned as a continuous set of yields for zero-coupon securities over a range of maturities.
 
@@ -583,7 +601,17 @@ $$ where  $\ln[]$  is the natural logarithm.
 
 If an expression for  $P(r, t, T)$  can be found that defines the value of a zero-coupon bond at different points in time and for varying terms  $T$ , then the term structure of interest rates has been defined fully. Alternatively, equation (29) provides an equivalent description of the evolution of the term structure over time in terms of the spot yield.
 
-# KEY POINTS
+## KEY POINTS
+
+```d2
+direction: right
+spot_yield: Spot Yield Curve
+forward_rate: Forward Rates
+discount_func: Discount Function
+
+spot_yield -> forward_rate: transforms to
+spot_yield -> discount_func: transforms to
+```
 
 - There are three main static models for the term structure of interest rates: the spot yield curve, the discount function, and the curve of implied forward rates; straightforward trans formations allow moving from one model to the other.
 
@@ -593,7 +621,7 @@ If an expression for  $P(r, t, T)$  can be found that defines the value of a zer
 - Even though implied forward rates provide an arbitrage-free forecast for the future course of interest rates, static models do not admit uncertainty about the future.
 - There are three main explanations for the future course of interest rates in equilibrium: the expectations hypothesis, the preferred habitat hypothesis, and the liquidity preference hypothesis.
 
-# REFERENCES
+## REFERENCES
 
 Cox, J. C., Ingersoll, J. E., Jr., and Ross, S. A. (1981). Re-examination of traditional hypotheses about the term structure of interest rates. Journal of Finance (September): 769-799.
 

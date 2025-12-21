@@ -1,7 +1,7 @@
 ---
 title: "Long-Term Capital Management, L.P. (A)"
 parent_directory: "Class 8-Markets, Meltdowns, and Arbitrage"
-formatted: "2025-12-21 05:00:39 PM"
+formatted: "2025-12-21 09:25:00 AM"
 formatter_model: "grok-code-fast-1"
 cli_tool: "opencode"
 primary_tags:

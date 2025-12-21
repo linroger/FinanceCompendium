@@ -1,28 +1,19 @@
 ---
-aliases:
-- Financial Globalization: Opportunity and Crisis
+title: Chapter 20: Financial Globalization: Opportunity and Crisis
 parent_directory: Krugman International Economics
-cssclasses: academia
-title: 'Chapter 20: Financial Globalization: Opportunity and Crisis'
-formatted: 2025-12-21 12:00:00 PM
+formatted: 2025-12-21 09:15:00 AM
 formatter_model: grok-code-fast-1
-cli_tool: opencode
+cli-tool: opencode
 primary_tags:
   - financial globalization
+secondary_tags:
   - international capital markets
   - global financial crisis
   - banking regulation
-secondary_tags:
   - risk aversion
   - portfolio diversification
   - shadow banking system
-  - moral hazard
-  - too big to fail
-  - financial trilemma
-  - regulatory cooperation
-  - foreign exchange instability
-  - international asset trade
-  - capital market efficiency
+cssclasses: academia
 ---
 
 # Chapter 20: Financial Globalization: Opportunity and Crisis

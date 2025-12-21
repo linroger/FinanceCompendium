@@ -1,37 +1,28 @@
 ---
-aliases:
-- The Changing World Order
-tags: null
-key_concepts: null
+title: "The Changing World Order"
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
-cssclasses: academia
-title: The Changing World Order
-linter-yaml-title-alias: The Changing World Order
+formatted: "2025-12-21 09:20:00 AM"
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- big cycle china currency
-- movement democratize china developed
-- currencies people world like
-- reserve currency power
-- brought experiences chinese people
-- gold dollar denominated debt
+- world order cycles
+- reserve currencies
+- economic empires
+- political cycles
+- changing world order
+- ray dalio principles
 secondary_tags:
-- prevailing world order cycles
-- economically countries used money
-- changing world order chapter
-- dollar accounts world international
-- dollar based monetary
-- helped china immensely said
-- currency probably important
-- view china unfairly
-- contents changing world
-- things helped world dollarized
-- support independence explained chinese
-- half international transactions dollar
-- americans borrow money
-- global lending dollars american
-- currency 115 changing world
-- accounts global reserves half
-tags_extracted: '2025-12-18T00:07:01.421216'
+- dutch empire cycle
+- british empire cycle
+- united states cycle
+- chinese empire cycle
+- debt cycles
+- currency devaluation
+- economic depressions
+- political revolutions
+- wealth gaps
+- social conflicts
+cssclasses: academia
 ---
 
 # The Changing World Order
@@ -40,30 +31,7 @@ Ray Dalio
 
 September 2020
 
-<toc>
-# Table of Contents
-
-The Changing World Order 1
-
-Chapter 1: The Big Cycles in a Tiny Nutshell. 8
-
-Chapter 2: The Big Cycle of Money, Credit, Debt, and Economic Activity 24
-
-Chapter 3: The Changing Value of Money. 43
-
-Chapter 4: The Last 500 Years Part 1: The Big Cycles of the Dutch and British Empires and Their Currencies .54
-
-Chapter 5: The Last 500 Years Part 2: The Big Cycle of the United States and the Dollar 79
-
-Chapter 6: The Last 500 Years Part 3: The Big Cycle of China and Its Currency 115
-
-</toc>
-
-The Changing World Order
-
-# The Changing World Order
-
-# Introduction
+## Introduction
 
 I believe that the times ahead will be radically different from the times we have experienced so far in our lifetimes, though similar to many other times in history.
 
@@ -75,7 +43,7 @@ These cycles evolve over long periods, with transition periods coming along only
 
 The answers to this question can only be found by studying the mechanics behind similar cases in history—the 1930-45 period but also the rise and fall of the British and Dutch empires, the rise and fall of Chinese dynasties, and others—to unlock an understanding of what is happening and what is likely to happen. That was the purpose of this study. Then the pandemic came along, which was another one of those big events that never happened to me but happened many times before my lifetime that I needed to understand better.
 
-# My Approach
+## My Approach
 
 While it might seem odd that an investment manager who is required to make investment decisions on short time frames would pay so much attention to long-term history, through my experiences I have learned that I need this perspective to do my job well. My biggest mistakes in my career came from missing big market moves that hadn't happened in my lifetime but had happened many times before. These mistakes taught me that I needed to understand how economies and markets have worked throughout history and in faraway places so that I could learn the timeless and universal mechanics underlying them and develop timeless and universal principles for dealing with them well.
 
@@ -85,7 +53,7 @@ In other words, if some big and important event had happened in the past (like t
 
 My approach is not an academic one created for scholarly purposes; it is a very practical one that I follow in order to do my job well. You see, as a global macro investor, the game I play requires me to understand what is likely to happen to economies better than the competition does. From my years of wrestling with the markets and trying to come up with principles for doing it well, I've learned that 1) one's ability to anticipate and deal well with the future depends on one's understanding of the cause-effect relationships that make things change and 2) one's ability to understand these cause-effect relationships comes from studying how they have played out in the past. How practical this approach has been can be measured in Bridgewater's performance track record over several decades.
 
-# This Approach Affects How I See Everything
+## This Approach Affects How I See Everything
 
 Having done many such studies in pursuit of timeless and universal principles, I've learned that most things—e.g., prosperous periods, depressions, wars, revolutions, bull markets, bear markets, etc.—happen repeatedly through time. They come about for basically the same reasons, typically in cycles, and often in cycles that are as long or longer than our lifetimes. This has helped me come to see most everything as "another one of those," just like a biologist, upon encountering a creature in the wild, would identify what species (or "one of those") the creature belongs to, think about how that species of thing works, and try to have and use timeless and universal principles for dealing with it effectively.
 
@@ -101,7 +69,7 @@ a limited number of paths that lead them to encounter a limited number of situat
 
 The only things that change are the clothes the characters are wearing and the technologies they're using.
 
-# This Study & How I Came to Do It
+## This Study & How I Came to Do It
 
 One study led to another that led me to do this study. More specifically:
 
@@ -115,17 +83,17 @@ By the way you can read these studies for free at www.economicprinciples.org.
 
 So, what you are now reading came about because of my need to understand important things that are now happening that hadn't happened in my lifetime but have happened many times before that. These things are the result of three big forces and the questions they prompt.
 
-# 1) THE LONG-TERM MONEY AND DEBT CYCLE
+## 1) The Long-Term Money and Debt Cycle
 
 At no point in our lifetimes have interest rates been so low or negative on so much debt as they are today. At the start of 2020, more than \$10 trillion of debt was at negative interest rates and an unusually large amount of additional new debt will soon need to be sold to finance deficits. This is happening at the same time as huge pension and healthcare obligations are coming due. These circumstances raised some interesting questions for me. Naturally I wondered why anyone would want to hold debt yielding a negative interest rate and how much lower interest rates can be pushed. I also wondered what will happen to economies and markets when they can't be pushed lower and how central banks could be stimulative when the next downturn inevitably came. Would central banks print a lot more currency, causing its value to go down? What would happen if the currency that the debt is denominated in goes down while interest rates are so low? These questions led me to ask what central banks will do if investors flee debt denominated in the world's reserve currencies (i.e., the dollar, the euro, and the yen), which would be expected if the money that they are being paid back in is both depreciating in value and paying interest rates that are so low.
 
 In case you don't know, a reserve currency is a currency that is accepted around the world for transactions and savings. The country that gets to print the world's primary currency (now the US) is in a very privileged and powerful position, and debt that is denominated in the world's reserve currency (i.e., US dollar-denominated debt) is the most fundamental building block for the world's capital markets and the world's economies. It is also the case that all reserve currencies in the past have ceased to be reserve currencies, often coming to traumatic ends for the countries that enjoyed this special privilege. So I also began to wonder whether, when, and why the dollar will decline as the world's leading reserve currency—and how that would change the world as we know it.
 
-# 2) THE DOMESTIC WEALTH AND POWER CYCLE
+## 2) The Domestic Wealth and Power Cycle
 
 Wealth, values, and political gaps are now larger than at any other time during my lifetime. By studying the 1930s and other prior eras when polarity was also high, I've learned that which side wins out (i.e., left or right) will have very big impacts on economies and markets. So naturally I wondered what these gaps will lead to in our time. My examinations of history have taught me that, as a principle, when wealth and values gaps are large and there is an economic downturn, it is likely that there will be lot of conflict about how to divide the pie. How will people and policy makers be with each other when the next economic downturn arrives? I am especially concerned because of the previously mentioned limitations on central banks' abilities to cut interest adequately to stimulate the economy. In addition to these traditional tools being ineffective, printing money and buying financial assets (now called "quantitative easing") also widen the wealth gap because buying financial assets pushes up their prices, which benefits the wealthy who hold more financial assets than the poor.
 
-# 3) THE INTERNATIONAL WEALTH AND POWER CYCLE
+## 3) The International Wealth and Power Cycle
 
 For the first time in my lifetime, the United States is encountering a rival power. China has become a competitive power to the United States in a number of ways and is growing at a faster rate than the US. If trends continue, it will be stronger than the United States in most of the most important ways that an empire becomes dominant. (Or at the very least, it will become a worthy competitor.) I have seen both countries up close for most of my life, and I now see how conflict is increasing fast, especially in the areas of trade, technology, geopolitics, capital, and economic/political/social ideologies. I can't help but wonder how these conflicts, and the changes in the world order that will result from them, will transpire in the years ahead and what effects that will have on us all.
 
@@ -135,7 +103,7 @@ As I studied these factors, I knew that the short-term debt cycle was getting la
 
 To gain the perspective I needed about these factors and what their confluence might mean, I looked at the rises and declines of all the major empires and their currencies over the last 500 years, focusing most closely on the three biggest ones: the US empire and the US dollar which are most important now, the British Empire and the British pound which were most important before that, and the Dutch Empire and the Dutch guilder before that. I also focused less closely on the other six other significant, though less dominant, empires of Germany, France, Russia, Japan, China, and India. Of those six, I gave China the most attention and looked at its history back to the year 600 because 1) China was so important throughout history, it's so important now, and it will likely be even more important in the future and 2) it provides many cases of dynasties rising and declining to look at to help me better understand the patterns and the forces behind them. In these cases, a clearer picture emerged of how other influences, most importantly technology and acts of nature, played significant roles. From examining all these cases across empires and across time, I saw that important empires typically lasted roughly 250 years, give or take 150 years, with big economic, debt, and political cycles within them lasting about 50-100 years. By studying how these rises and declines worked individually, I could see how they worked on average in an archetypal way, and then I could examine how they worked differently and why. Doing that taught me a lot. My challenge is in trying to convey it well.
 
-# Remember That What I Don't Know Is Much Greater Than What I Know
+## Remember That What I Don't Know Is Much Greater Than What I Know
 
 In asking these questions, from the outset I felt like an ant trying to understand the universe. I had many more questions than answers, and I knew that I was delving into numerous areas that others have devoted their lives to studying. So I aggressively and humbly drew on knowledge of some remarkable scholars and practitioners, who each had in-depth perspectives on some piece of the puzzle, though none had the holistic understanding that I needed in order to adequately answer all my questions. In order to understand all the cause-effect relationships behind these cycles, I combined my triangulation with historians (who specialized in different parts of this big, complicated history) and policy makers (who had both practical experiences and historical perspectives) with an examination of statistics drawn out of ancient and contemporary archives by my excellent research team and by reading a number of superb books on history.
 
@@ -143,7 +111,7 @@ While I have learned an enormous amount that I will put to good use, I recognize
 
 It's up to you to assess for yourself what I've learned and do what you like with it.
 
-# How This Study Is Organized
+## How This Study Is Organized
 
 As with all my studies, I will attempt to convey what I learned in both a very short, simple way and in a much longer, more comprehensive way. To do so, I wrote this book in two parts.
 
@@ -152,10 +120,6 @@ Part 1 summarizes all that I learned in one very simplified archetype of the ris
 Part 2 shows all the individual cases in greater depth, sharing the same indices for all the major empires over the last 500 years. Providing the information this way allows you to get the gist of how I believe these rises and declines work by reading Part 1 and then to choose whether or not to go into Part 2 to see these interesting cases individually, in relation to each other, and in relation to the template explained in Part 1. I suggest that you read both parts because I expect that you will find the grand story of the evolutions of these countries over the last 500 years in Part 2 fascinating. That story presents a sequential picture of the world's evolution via the events that led the Dutch empire to rise and decline into the British empire, the British empire to rise and decline into the US empire, and the US empire to rise and enter its early decline into the rise of the Chinese empire. It also compares these three empires with those of Germany, France, Russia, Japan, China, and India. As you will see in the examinations of each of them, they all broadly followed the script, though not exactly. Additionally, I expect that you will find fascinating and invaluable the stories of the rises and declines of the Chinese dynasties since the year 600 just like I did. Studying the dynasties showed me what in China has been similar to the other rises and declines (which is most everything), helped me to see what was different (which is what makes China different from the West), and gave me an understanding of the perspectives of the Chinese leaders who all study these dynasties carefully for the lessons they provide.
 
 Frankly, I don't know how I'd be able to navigate what is happening now and what will be coming at us without having studied all this history. But before we get into these fascinating individual cases, let's delve into the archetypal case.
-
-Chapter 1:
-
-The Big Cycles in a Tiny Nutshell
 
 # Chapter 1: The Big Cycles in a Tiny Nutshell
 

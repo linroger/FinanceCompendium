@@ -1,254 +1,249 @@
 ---
+title: "Reinforcement Learning from Human Feedback: A Short Introduction to RLHF and Post-Training Focused on Language Models"
+parent_directory: "I. Foundations/Machine Learning"
+formatted: "2025-12-21 09:10:00 AM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli-tool: "claude-code"
 primary_tags:
-- current language models
-- deepseekmath paper details
-- implicit reward model learning
-- post-training techniques
-- general machine learning
-- related ideas
-- no 2025-05-21 hunyuan
+  - reinforcement learning from human feedback
+  - post-training techniques
+  - reward modeling
+  - preference optimization
+  - language model alignment
+  - human preference learning
 secondary_tags:
-- large scale reinforcement learning
-- related works
-- future rlhf
-- tool use models
-- target reward
-- direct-alignment objectives
-- core piece
-- evaluation datasets
-- helpful language models
-- larger language models
-- model l(θ
-- (e.g., success/failure
-- better formats
-- training time
-- implementation challenges
-- reward ensembles
-- reliable and specific feedback data
-- reward function
-- noukhovitch et al
-tags_extracted: '2025-12-18T17:56:01.547355'
-tags_method: max_quality_v1
+  - policy gradient algorithms
+  - proximal policy optimization
+  - direct preference optimization
+  - constitutional ai
+  - reasoning training
+  - tool use models
+  - synthetic data distillation
+  - evaluation methodologies
+  - over-optimization challenges
+  - instruction finetuning
+  - rejection sampling
+  - group relative policy optimization
+  - value function estimation
+  - advantage estimation
+  - kl divergence regularization
+  - reward model training
+  - preference data collection
+cssclasses: academia
 ---
 
-Reinforcement Learning from Human Feedback A short introduction to RLHF and post-training focused on language models.
-
-Nathan Lambert
-
-2 November 2025
-
-# Abstract
+## Abstract
 
 Reinforcement learning from human feedback (RLHF) has become an important technical and storytelling tool to deploy the latest machine learning systems. In this book, we hope to give a gentle introduction to the core methods for people with some level of quantitative background. The book starts with the origins of RLHF – both in recent literature and in a convergence of disparate fields of science in economics, philosophy, and optimal control. We then set the stage with definitions, problem formulation, data collection, and other common math used in the literature. The core of the book details every optimization stage in using RLHF, from starting with instruction tuning to training a reward model and finally all of rejection sampling, reinforcement learning, and direct alignment algorithms. The book concludes with advanced topics – understudied research questions in synthetic data and evaluation – and open questions for the field.
 
-# Contents
+## Contents
 
-# 1 Introduction 6
+# 1 Introduction
 
-1.1 What Does RLHF Do? 7  
-1.2 An Intuition for Post-Training 8  
-1.3 How We Got Here 9  
-1.4 Scope of This Book 11
+## 1.1 What Does RLHF Do?
+1.2 An Intuition for Post-Training
+1.3 How We Got Here
+1.4 Scope of This Book
 
-1.4.1 Chapter Summaries 11  
-1.4.2 Target Audience 12  
-1.4.3 How to Use This Book 12  
-1.4.4 About the Author 12
+1.4.1 Chapter Summaries
+1.4.2 Target Audience
+1.4.3 How to Use This Book
+1.4.4 About the Author
 
-1.5 Future of RLHF 12
+1.5 Future of RLHF
 
-# 2 Key Related Works 14
+# 2 Key Related Works
 
-2.1 Origins to 2018: RL on Preferences 14  
-2.2 2019 to 2022: RL from Human Preferences on Language Models 14  
-2.3 2023 to Present:ChatGPT Era 15
+2.1 Origins to 2018: RL on Preferences
+2.2 2019 to 2022: RL from Human Preferences on Language Models
+2.3 2023 to Present: ChatGPT Era
 
-# 3 Definitions & Background 16
+# 3 Definitions & Background
 
-3.1 Language Modeling Overview 16  
-3.2 ML Definitions 16  
-3.3 NLP Definitions 17  
-3.4 RL Definitions 17  
-3.5 RLHF Only Definitions 18  
-3.6 Extended Glossary 18
+3.1 Language Modeling Overview
+3.2 ML Definitions
+3.3 NLP Definitions
+3.4 RL Definitions
+3.5 RLHF Only Definitions
+3.6 Extended Glossary
 
-# 4 Training Overview 20
+# 4 Training Overview
 
-4.1 Problem Formulation 20
+4.1 Problem Formulation
 
-4.1.1 Manipulating the Standard RL Setup 20  
-4.1.2 Finetuning and Regularization 21  
-4.1.3 Optimization Tools 21
+4.1.1 Manipulating the Standard RL Setup
+4.1.2 Finetuning and Regularization
+4.1.3 Optimization Tools
 
-4.2 Canonical Training Recipes 22
+4.2 Canonical Training Recipes
 
-4.2.1 InstructGPT 22  
-4.2.2 Tulu 3 23  
-4.2.3 DeepSeek R1 24
+4.2.1 InstructGPT
+4.2.2 Tulu 3
+4.2.3 DeepSeek R1
 
-# 5 The Nature of Preferences 25
+# 5 The Nature of Preferences
 
-5.1 The path to optimizing preferences 26
+5.1 The path to optimizing preferences
 
-5.1.1 Quantifying preferences 26  
-5.1.2 On the possibility of preferences 27
+5.1.1 Quantifying preferences
+5.1.2 On the possibility of preferences
 
-# 6 Preference Data 28
+# 6 Preference Data
 
-6.1 Why We Need Preference Data 28  
-6.2 Bias 28
+6.1 Why We Need Preference Data
+6.2 Bias
 
-6.3 Collecting Preference Data 28
+6.3 Collecting Preference Data
 
-6.3.1 Interface 28  
-6.3.2 Rankings vs. Ratings 31  
-6.3.3 Multi-turn Data 34  
-6.3.4 Structured Preference Data 34
+6.3.1 Interface
+6.3.2 Rankings vs. Ratings
+6.3.3 Multi-turn Data
+6.3.4 Structured Preference Data
 
-6.3.5 Sourcing and Contracts 35
+6.3.5 Sourcing and Contracts
 
-6.4 Are the Preferences Expressed in the Models? 37
+6.4 Are the Preferences Expressed in the Models?
 
-# 7 Reward Modeling 38
+# 7 Reward Modeling
 
-7.1 Training Reward Models 38  
-7.2 Architecture 39  
-7.3 Implementation Example 39  
-7.4 Variants 41
+7.1 Training Reward Models
+7.2 Architecture
+7.3 Implementation Example
+7.4 Variants
 
-7.4.1 Preference Margin Loss 41  
-7.4.2 Balancing Multiple Comparisons Per Prompt 41  
-7.4.3 K-wise Loss Function 42
+7.4.1 Preference Margin Loss
+7.4.2 Balancing Multiple Comparisons Per Prompt
+7.4.3 K-wise Loss Function
 
-7.5 Outcome Reward Models 42  
-7.6 Process Reward Models 44  
-7.7 Reward Models vs. Outcome RMs vs. Process RMs vs. Value Functions 46  
-7.8 Generative Reward Modeling 46  
-7.9 Further Reading 47
+7.5 Outcome Reward Models
+7.6 Process Reward Models
+7.7 Reward Models vs. Outcome RMs vs. Process RMs vs. Value Functions
+7.8 Generative Reward Modeling
+7.9 Further Reading
 
-# 8 Regularization 49
+# 8 Regularization
 
-8.1 KL Distances in RL Optimization 49
+8.1 KL Distances in RL Optimization
 
-8.1.1 Reference Model to Generations 50  
-8.1.2 Implementation Example 50
+8.1.1 Reference Model to Generations
+8.1.2 Implementation Example
 
-8.2 Pretraining Gradients 51  
-8.3 Other Regularization 51
+8.2 Pretraining Gradients
+8.3 Other Regularization
 
-# 9 Instruction Finetuning 52
+# 9 Instruction Finetuning
 
-9.1 Chat templates and the structure of instructions 52  
-9.2 Best practices of instruction tuning 54  
-9.3 Implementation 55
+9.1 Chat templates and the structure of instructions
+9.2 Best practices of instruction tuning
+9.3 Implementation
 
-# 10 Rejection Sampling 56
+# 10 Rejection Sampling
 
-10.1 Training Process 56
+10.1 Training Process
 
-10.1.1 Generating Completions 56  
-10.1.2 Selecting Top-N Completions 57  
-10.1.3 Fine-tuning 59  
-10.1.4 Details 59
+10.1.1 Generating Completions
+10.1.2 Selecting Top-N Completions
+10.1.3 Fine-tuning
+10.1.4 Details
 
-10.2 Related: Best-of-N Sampling 60
+10.2 Related: Best-of-N Sampling
 
-# 11 Reinforcement Learning (i.e. Policy Gradient Algorithms) 61
+# 11 Reinforcement Learning (i.e. Policy Gradient Algorithms)
 
-11.1 Policy Gradient Algorithms 61
+11.1 Policy Gradient Algorithms
 
-11.1.1 Vanilla Policy Gradient 64  
-11.1.2 REINFORCE 64  
-11.1.3 Proximal Policy Optimization 66  
-11.1.4 Group Relative Policy Optimization 71
+11.1.1 Vanilla Policy Gradient
+11.1.2 REINFORCE
+11.1.3 Proximal Policy Optimization
+11.1.4 Group Relative Policy Optimization
 
-11.2 Implementation 73
+11.2 Implementation
 
-11.2.1 Policy Gradient Basics 74  
-11.2.2 Loss Aggregation 74  
-11.2.3 Asynchronicity 78  
-11.2.4 Proximal Policy Optimization 79  
-11.2.5 Group Relative Policy Optimization 81
+11.2.1 Policy Gradient Basics
+11.2.2 Loss Aggregation
+11.2.3 Asynchronicity
+11.2.4 Proximal Policy Optimization
+11.2.5 Group Relative Policy Optimization
 
-11.3 Auxiliary Topics 83
+11.3 Auxiliary Topics
 
-11.3.1 Comparing Algorithms 83  
-11.3.2 Generalized Advantage Estimation (GAE) 84  
-11.3.3 Double Regularization 85  
-11.3.4 Further Reading 85
+11.3.1 Comparing Algorithms
+11.3.2 Generalized Advantage Estimation (GAE)
+11.3.3 Double Regularization
+11.3.4 Further Reading
 
-# 12 Direct Alignment Algorithms 87
+# 12 Direct Alignment Algorithms
 
-12.1 Direct Preference Optimization (DPO) 87
+12.1 Direct Preference Optimization (DPO)
 
-12.1.1 How DPO Works 87  
-12.1.2 DPO Derivation 88
+12.1.1 How DPO Works
+12.1.2 DPO Derivation
 
-12.2 Numerical Concerns, Weaknesses, and Alternatives 93
+12.2 Numerical Concerns, Weaknesses, and Alternatives
 
-12.3 Implementation Considerations 94  
-12.4 DAAs vs. RL: Online vs. Offline Data 95
+12.3 Implementation Considerations
+12.4 DAAs vs. RL: Online vs. Offline Data
 
-# 13 Constitutional AI & AI Feedback 96
+# 13 Constitutional AI & AI Feedback
 
-13.1 Constitutional AI 96
+13.1 Constitutional AI
 
-13.2 Specific LLMs for Judgement 97  
-13.3 Further Reading 97
+13.2 Specific LLMs for Judgement
+13.3 Further Reading
 
-# 14 Reasoning Training & Inference-Time Scaling 99
+# 14 Reasoning Training & Inference-Time Scaling
 
-14.1 The Origins of New Reasoning Models 102
+14.1 The Origins of New Reasoning Models
 
-14.1.1 Why Does RL Work Now? 102  
-14.1.2 RL Training vs. Inference Time Scaling 102  
-14.1.3 The Future (Beyond Reasoning) of Reinforcement Finetuning 103
+14.1.1 Why Does RL Work Now?
+14.1.2 RL Training vs. Inference Time Scaling
+14.1.3 The Future (Beyond Reasoning) of Reinforcement Finetuning
 
-14.2 Understanding Reasoning Training Methods 103
+14.2 Understanding Reasoning Training Methods
 
-14.2.1 Reasoning Research Pre OpenAI's o1 or DeepSeek R1 103  
-14.2.2 Early Reasoning Models 104  
-14.2.3 Common Practices in Training Reasoning Models 105
+14.2.1 Reasoning Research Pre OpenAI's o1 or DeepSeek R1
+14.2.2 Early Reasoning Models
+14.2.3 Common Practices in Training Reasoning Models
 
-# 15 Tool Use & Function Calling 107
+# 15 Tool Use & Function Calling
 
-15.1 Interweaving Tool Calls in Generation 107  
-15.2 Multi-step Tool Reasoning 109  
-15.3 Model Context Protocol (MCP) 110  
-15.4 Implementation 110
+15.1 Interweaving Tool Calls in Generation
+15.2 Multi-step Tool Reasoning
+15.3 Model Context Protocol (MCP)
+15.4 Implementation
 
-# 16 Synthetic Data & Distillation 113
+# 16 Synthetic Data & Distillation
 
-# 17 Evaluation 115
+# 17 Evaluation
 
-17.1 Prompting Formatting: From Few-shot to Zero-shot to CoT 115  
-17.2 Using Evaluations vs. Observing Evaluations 119  
-17.3 Contamination 121  
-17.4 Tooling 121
+17.1 Prompting Formatting: From Few-shot to Zero-shot to CoT
+17.2 Using Evaluations vs. Observing Evaluations
+17.3 Contamination
+17.4 Tooling
 
-# 18 Over Optimization 122
+# 18 Over Optimization
 
-18.1 Qualitative Over-optimization 122
+18.1 Qualitative Over-optimization
 
-18.1.1 Managing Proxy Objectives 122  
-18.1.2 Over-refusal and "Too Much RLHF" 124
+18.1.1 Managing Proxy Objectives
+18.1.2 Over-refusal and "Too Much RLHF"
 
-18.2 Quantitative over-optimization 125  
-18.3 Misalignment and the Role of RLHF 126
+18.2 Quantitative over-optimization
+18.3 Misalignment and the Role of RLHF
 
-19 Style and Information 128
+# 19 Style and Information
 
-19.1 The Chattiness Paradox 128
+19.1 The Chattiness Paradox
 
-19.1.1 How Chattiness Emerges 129
+19.1.1 How Chattiness Emerges
 
-20 Product, UX, and Model Character 131
+# 20 Product, UX, and Model Character
 
-20.1 Character Training 131  
-20.2 Model Specifications 132  
-20.3 Product Cycles, UX, and RLHF 132
+20.1 Character Training
+20.2 Model Specifications
+20.3 Product Cycles, UX, and RLHF
 
-Bibliography 134
+## Bibliography
 
 # 1 Introduction
 
@@ -267,9 +262,7 @@ In modern language model training, RLHF is one component of post-training. Post-
 2. Preference Finetuning (PreFT), where we align to human preferences (and get smaller bump in capabilities at the same time). This is largely about style of language and subtle human preferences that are hard to quantify.  
 3. Reinforcement Finetuning (RFT). The newest type of post-training that boosts performance on verifiable domains.
 
-This book focuses on the second area, preference finetuning, which has more complexity
-
-than instruction tuning and is far more established than Reinforcement Finetuning. That being said, RLHF colloquially is what led to modern post-training. Soon after the release of ChatGPT, RLHF encompassed all of post-training. The foundations of RLHF involve far more than preferences alone and this book provides introductions to all the related topics.
+This book focuses on the second area, preference finetuning, which has more complexity than instruction tuning and is far more established than Reinforcement Finetuning. That being said, RLHF colloquially is what led to modern post-training. Soon after the release of ChatGPT, RLHF encompassed all of post-training. The foundations of RLHF involve far more than preferences alone and this book provides introductions to all the related topics.
 
 # 1.1 What Does RLHF Do?
 
@@ -289,9 +282,7 @@ George W. Bush was the president of the United States in 2006. He served two ter
 
 Modern research has established RLHF as a general method to integrate subtle stylistic and related behavioral features into the models. Compared to other techniques for post-training, such as instruction finetuning, RLHF generalizes far better across domains [7] [8] - helping create effective general purpose models.
 
-Intuitively, this can be seen in how the optimization techniques are applied. Instruction finetuning is training the model to predict the next certain token when the text preceding is
-
-close to examples it has seen. It is optimizing the model to more regularly output specific features in text. This is a per-token update.
+Intuitively, this can be seen in how the optimization techniques are applied. Instruction finetuning is training the model to predict the next certain token when the text preceding is close to examples it has seen. It is optimizing the model to more regularly output specific features in text. This is a per-token update.
 
 RLHF on the other hand tunes the responses on the response level rather than looking at the next token specifically. Additionally, it is telling the model what a better response looks like, rather than a specific response it should learn. RLHF also shows a model which type of response it should avoid, i.e. negative feedback. The training to achieve this is often called a contrastive loss function and is referenced throughout this book.
 
@@ -550,7 +541,7 @@ $$
 
 # 4 Training Overview
 
-# 4.1 Problem Formulation
+## 4.1 Problem Formulation
 
 The optimization of reinforcement learning from human feedback (RLHF) builds on top of the standard RL setup. In RL, an agent takes actions,  $a$ , sampled from a policy,  $\pi$ , with respect to the state of the environment,  $s$ , to maximize reward,  $r$  [54]. Traditionally, the environment evolves with respect to a transition or dynamics function  $p(s_{t+1}|s_t, a_t)$ . Hence, across a finite episode, the goal of an RL agent is to solve the following optimization:
 
@@ -565,12 +556,12 @@ Figure 2: Standard RL loop
 
 A standard illustration of the RL loop is shown in fig. 2 and how it compares to fig. 3.
 
-# 4.1.1 Manipulating the Standard RL Setup
+### 4.1.1 Manipulating the Standard RL Setup
 
 There are multiple core changes from the standard RL setup to that of RLHF:
 
-1. Switching from a reward function to a reward model. In RLHF, a learned model of human preferences,  $r_{\theta}(s_t, a_t)$  (or any other classification model) is used instead of an environmental reward function. This gives the designer a substantial increase in the flexibility of the approach and control over the final results.  
-2. No state transitions exist. In RLHF, the initial states for the domain are prompts sampled from a training dataset and the "action" is the completion to said prompt. During standard practices, this action does not impact the next state and is only scored by the reward model.  
+1. Switching from a reward function to a reward model. In RLHF, a learned model of human preferences,  $r_{\theta}(s_t, a_t)$  (or any other classification model) is used instead of an environmental reward function. This gives the designer a substantial increase in the flexibility of the approach and control over the final results.
+2. No state transitions exist. In RLHF, the initial states for the domain are prompts sampled from a training dataset and the "action" is the completion to said prompt. During standard practices, this action does not impact the next state and is only scored by the reward model.
 3. Response level rewards. Often referred to as a bandit problem, RLHF attribution of reward is done for an entire sequence of actions, composed of multiple generated tokens, rather than in a fine-grained manner.
 
 Given the single-turn nature of the problem, the optimization can be re-written without the time horizon and discount factor (and the reward models):
@@ -581,10 +572,10 @@ $$
 
 In many ways, the result is that while RLHF is heavily inspired by RL optimizers and problem formulations, the actual implementation is very distinct from traditional RL.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/69be4839-03a3-4ea6-b4d9-6a1fd08b62f0/b115265ff616e99d18d3765bd292c801e321ef31346de9391a306f5ca2df4f06.jpg)  
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/69be4839-03a3-4ea6-b4d9-6a1fd08b62f0/b115265ff616e99d18d3765bd292c801e321ef31346de9391a306f5ca2df4f06.jpg)
 Figure 3: Standard RLHF loop
 
-# 4.1.2 Finetuning and Regularization
+### 4.1.2 Finetuning and Regularization
 
 RLHF is implemented from a strong base model, which induces a need to control the optimization from straying too far from the initial policy. In order to succeed in a finetuning regime, RLHF techniques employ multiple types of regularization to control the optimization. The most common change to the optimization function is to add a distance penalty on the difference between the current RLHF policy and the starting point of the optimization:
 
@@ -594,7 +585,7 @@ $$
 
 Within this formulation, a lot of study into RLHF training goes into understanding how to spend a certain "KL budget" as measured by a distance from the initial model. For more details, see Chapter 8 on Regularization.
 
-# 4.1.3 Optimization Tools
+### 4.1.3 Optimization Tools
 
 In this book, we detail many popular techniques for solving this optimization problem. The popular tools of post-training include:
 
@@ -606,11 +597,11 @@ In this book, we detail many popular techniques for solving this optimization pr
 
 Modern RLHF-trained models always utilize instruction finetuning followed by a mixture of the other optimization options.
 
-# 4.2 Canonical Training Recipes
+## 4.2 Canonical Training Recipes
 
 Over time various models have been identified as canonical recipes for RLHF specifically or post-training generally. These recipes reflect data practices and model abilities at the time. As the recipes age, training models with the same characteristics become easier and takes fewer data. There is a general trend of post-training involving more optimization steps with more training algorithms across more diverse training datasets and evaluations.
 
-# 4.2.1 InstructGPT
+### 4.2.1 InstructGPT
 
 The canonical RLHF recipe circa the release of ChatGPT followed a standard three step post-training recipe where RLHF was the center piece [55] [3] [5]. The three steps taken on top of a "base" language model (the next-token prediction model trained on large-scale web text) was, summarized below in fig. 4:
 
@@ -623,7 +614,7 @@ Once RLHF was done, the model was ready to be deployed to users. This recipe is 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/69be4839-03a3-4ea6-b4d9-6a1fd08b62f0/50f434923365acb2189fd33983029abf8ddeb99989973df17b1aa04e20fbde56.jpg)  
 Figure 4: A rendition of the early, three stage RLHF process with SFT, a reward model, and then optimization.
 
-# 4.2.2 Tulu 3
+### 4.2.2 Tulu 3
 
 Modern versions of post-training involve many, many more model versions and training stages (i.e. well more than the 5 RLHF steps documented for Llama 2 [43]). An example is shown below in fig. 5 where the model undergoes numerous training iterations before convergence.
 
@@ -644,7 +635,7 @@ Figure 6: A summary of the Tülu 3 recipe with target skills and multi-step trai
 
 The recipe has been successfully applied to Llama 3.1 [6], OLMo 2 [58], and SmolLM models [59].
 
-# 4.2.3 DeepSeek R1
+### 4.2.3 DeepSeek R1
 
 With the rise of reasoning language models, such as OpenAI's o1, the best practices in post-training evolved again to re-order and redistribute compute across training stages. The clearest documentation of a reasoning model post-training recipe is DeepSeek R1 [60], which has been mirrored by Alibaba's larger Qwen 3 models (i.e. only the 32B and 225B MoE models) [61] or Xiaomi's MiMo 7B [62]. The DeepSeek recipe follows:
 
@@ -695,7 +686,7 @@ maximizing model performance on specific skills instead of measuring the calibra
 
 The goal of this chapter is to illustrate how complex motivations result in presumptions about the nature of tools used in RLHF that often do not apply in practice. The specifics of obtaining data for RLHF are discussed further in Chapter 6 and using it for reward modeling in Chapter 7. For an extended version of this chapter, see [64].
 
-# 5.1 The path to optimizing preferences
+## 5.1 The path to optimizing preferences
 
 A popular phrasing for the design of Artificial Intelligence (AI) systems is that of a rational agent maximizing a utility function [69]. The inspiration of a rational agent is a lens of decision making, where said agent is able to act in the world and impact its future behavior and returns, as a measure of goodness in the world.
 
@@ -703,7 +694,7 @@ The lens of study of utility began in the study of analog circuits to optimize b
 
 Reinforcement learning from human feedback combines multiple lenses by building the theory of learning and change of RL, i.e. that behaviors can be learned by reinforcing behavior, with a suite of methods designed for quantifying preferences.
 
-# 5.1.1 Quantifying preferences
+### 5.1.1 Quantifying preferences
 
 The core of RLHF's motivation is the ability to optimize a model of human preferences, which therefore needs to be quantified. To do this, RLHF builds on extensive literature with assumptions that human decisions and preferences can be quantified. Early philosophers discussed the existence of preferences, such as Aristotle's Topics, Book Three, and substantive forms of this reasoning emerged later with The Port-Royal Logic [73]:
 
@@ -713,7 +704,7 @@ Progression of these ideas continued through Bentham's *Hedonic Calculus* [74] t
 
 This theorem is core to all assumptions that pieces of RLHF are learning to model and dictate preferences. RLHF is designed to optimize these personal utility functions with reinforcement learning. In this context, many of the presumptions around RL problem formulation break down to the difference between a preference function and a utility function.
 
-# 5.1.2 On the possibility of preferences
+### 5.1.2 On the possibility of preferences
 
 Across fields of study, many critiques exist on the nature of preferences. Some of the most prominent critiques are summarized below:
 
@@ -727,21 +718,21 @@ Across fields of study, many critiques exist on the nature of preferences. Some 
 
 Preference data is the engine of preference finetuning and reinforcement learning from human feedback. The data is the signal groups collect in order to then match behaviors they desire and avoid the others. Within preference finetuning, many methods for collecting and using said data have been proposed, but until human preferences can be captured in a clear reward function, this process of collecting labeled preference data will be central to RLHF and related techniques.
 
-# 6.1 Why We Need Preference Data
+## 6.1 Why We Need Preference Data
 
 The preference data is needed for RLHF because directly capturing complex human values in a single reward function is effectively impossible. Collecting this data to train reward models is one of the original ideas behind RLHF [32] and has continued to be used extensively throughout the emergence of modern language models. One of the core intuitions for why this data works so well is that it is far easier, both for humans and AI models supervising data collection, to differentiate between a good and a bad answer for a prompt than it is to generate a good answer on its own. This chapter focuses on the mechanics of getting preference data and the best-practices depend on the specific problem being solved.
 
-# 6.2 Bias
+## 6.2 Bias
 
 Human preference data is known to contain many forms of bias, e.g. prefix bias [80], that can be passed to the final model [81]. These issues are often subtle and vary in how applicable interventions to mitigate them are. For many, such as sycophancy [82], they reflect issues within humans that are often outside of the labeling criteria. Others, such as verosity [9] [83] or formatting habits [84], emerge for a similar reason, but they are easier to detect and mitigate in training.
 
-# 6.3 Collecting Preference Data
+## 6.3 Collecting Preference Data
 
 Getting the most out of human data involves iterative training of models, evolving and highly detailed data instructions, translating through data foundry businesses, and other challenges that add up. The same applies for AI feedback data – the exact balance between human and AI preference data used for the latest AI models is unknown. Regardless, the process is difficult for new organizations trying to add human data to their pipelines. Given the sensitivity, processes that work and improve the models are extracted until the performance runs out.
 
 In this chapter we detail technical decisions on how the data is formatted and organizational practices for collecting it.
 
-# 6.3.1 Interface
+### 6.3.1 Interface
 
 Crucial to collecting preference data is the interface by which one interacts with the model. An example interface is shown below from [5]:
 
@@ -857,47 +848,11 @@ For models in the wild, one of the most common techniques is to collect feedback
 
 In domains other than language, the same core principles apply, even though these domains are not the focus of this book. For every Midjourney generation (and most popular image generators) they expose multiple responses to users. These companies then use the data of which response was selected to finetune their models with RLHF. Midjourney's interface is shown below:
 
-# 6.3.2 Rankings vs. Ratings
+### 6.3.2 Rankings vs. Ratings
 
-The largest decision on how to collect preference data is if the data should be rankings - i.e. relative ordering of model completions - or ratings - i.e. scores assigned to each piece of
+The largest decision on how to collect preference data is if the data should be rankings - i.e. relative ordering of model completions - or ratings - i.e. scores assigned to each piece of text. Common practice is to train on rankings, but ratings are often used as metadata and / or have been explored in related literature.
 
-6. Montreal, Canada - Known for its cold winters, Montreal offers several outdoor rinks, including the one at the Old Port, and is a city with a strong skating culture.  
-7. Helsinki, Finland - With its cold climate, Helsinki provides numerous ice skating opportunities, including the Ice Park in the city center.  
-8. Amsterdam, Netherlands - When the canals freeze over, which is rare but magical, locals and tourists alike take to the ice for a unique experience.  
-9. Edmonton, Canada - Home to the Edmonton Iceway and numerous community rinks, it's a city where ice skating is a beloved pastime.  
-10. Sapporo, Japan - Known for its annual Snow Festival, the city also offers excellent ice skating opportunities in its various parks and facilities.
 
-These cities offer a mix of natural and artificial ice rinks, cultural experiences, and scenic beauty that can make ice skating a memorable activity. The best choice depends on what you value most in an ice skating experience.
-
-# Good response
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/69be4839-03a3-4ea6-b4d9-6a1fd08b62f0/d1536d048427d5b35376d44a966543cc1f4a99ebb8cbcd9058923aab980ec22b.jpg)  
-Figure 10: Example preference data collection interface with up or down arrow.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/69be4839-03a3-4ea6-b4d9-6a1fd08b62f0/8c11e6f5e9f48fc7db162a6b1af802e5b18c63ad72c9ecefd77340ae397c6ddc.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/69be4839-03a3-4ea6-b4d9-6a1fd08b62f0/205ba23f2f16ea3c6b36386cd4f6eb291a22229fc302dd9043687db92f02d46f.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/69be4839-03a3-4ea6-b4d9-6a1fd08b62f0/a91182b1d67e7a2491380ec907326e31d1fbc0cf7f8589a8271f6367be4fe5d0.jpg)
-
-Reply to Tulu
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/69be4839-03a3-4ea6-b4d9-6a1fd08b62f0/41d0bc94accfc60a640fb0c10be6fd68226576d5d889e4ab2815bcd78452f976.jpg)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/69be4839-03a3-4ea6-b4d9-6a1fd08b62f0/70e96f0c7144d4a8b03091b1fb1bada64a6a6dd47fa533bc6ed513aacb476e9e.jpg)
-
-Always fact-check your results.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/69be4839-03a3-4ea6-b4d9-6a1fd08b62f0/2c60ff7532378f07c8cd03f746f522e9e9826bad289e66da3b4321c30b402c36.jpg)
-
-Midjourney Bot hyper realistic drawing of a pink muppet playing a synthesizer that looks like a Oberheim OB serie...
-
-Midjourney Bot  $\checkmark$  APP 1/9/25, 10:34 hyper realistic drawing of a pink muppet playing a synthesizer that looks like a Oberheim OB series (80s synthesizer with wood accents on the side) - Variations (Strong) by @soldni (fast)
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/69be4839-03a3-4ea6-b4d9-6a1fd08b62f0/543dfc41ce9da9dc17495e2e5de60d23e67af142a81eddca11a992d8a214efd4.jpg)  
-Figure 11: Example user interface of text-to-image-models.
-
-text. Common practice is to train on rankings, but ratings are often used as metadata and / or have been explored in related literature.
 
 The most common technique for collecting preferences is to use a Likert scale [86], which asks users to rate which response they prefer. For example, a 5 point Likert scale would look like the following:
 
@@ -913,11 +868,11 @@ Table 2: An example 8-wise Likert scale between two responses, A and B.
 
 In this case [5], and in other works, this information is still reduced to a binary signal for the training of a reward model.
 
-# 6.3.3 Multi-turn Data
+### 6.3.3 Multi-turn Data
 
 In practice, core questions often arise over how to parse and collect multi-turn data - simply conversations with multiple related prompts. In a real-world interaction, normally a piece of preference data is only collected on the "final" prompt, but there are scenarios where preferences can be given on every response. When preferences are given on every response, the conversation traditionally continues with the "chosen" answer. At training time, it is common to include the training data for every turn of the conversation as a "single prompt," where the model can learn from completing it. This can effectively unroll longer conversations into many training prompts, but needs to be done carefully to not bias the training data. Many research questions are still emerging, such as if the person labeling the preference on the generations should be the same as the person who creates the prompt (to avoid sycophancy), and other variables that are difficult to control for in data collection (question inspired by John Schulman). If the prompt creator cannot label the preference data, multi-turn is not really practical due to the need for conversations to continue in real-time - sometimes for preference data the curation of prompts is a different problem than comparing responses (also due to the work of maintaining active endpoints for models). For training, all of the previous turns in the conversation are masked from the loss, as discussed with instruction finetuning.
 
-# 6.3.4 Structured Preference Data
+### 6.3.4 Structured Preference Data
 
 In many applications of RLHF and post-training, preference data can be created automatically due to innate structures of the data - i.e. the domains make automatic checks of correctness
 
@@ -945,7 +900,7 @@ Crucially, the prompt for the preference data will need to include the constrain
 
 6.3.4.1 Alternatives There are multiple other ways to collect useful feedback data for RLHF that have not been pursued in as great of detail. Examples include using single datapoints with directional labels, e.g. as shown from Ai2 playground above in fig. 10, directly with algorithms designed for single direction signals like Kahneman-Tversky Optimization (KTO) [88]. Other algorithms have been proposed with different types of feedback signals such as fine-grained feedback, e.g. at the token level [89], or natural language feedback, e.g. by writing responses [90], to provide a richer learning signal in exchange for a more complex data collection setup.
 
-# 6.3.5 Sourcing and Contracts
+### 6.3.5 Sourcing and Contracts
 
 Getting human preference data is an involved and costly process. The following describes the experience of getting preference data when the field is moving quickly. Over time, these processes will become far more automated and efficient (especially with AI feedback being used for a larger portion of the process).
 
@@ -974,7 +929,7 @@ This experience, especially relative to the simplicity of synthetic data, makes 
 
 Note that this section does not mirror the experience for buying human-written instruction data, where the process is less of a time crunch.
 
-# 6.4 Are the Preferences Expressed in the Models?
+## 6.4 Are the Preferences Expressed in the Models?
 
 In the maturation of RLHF and related approaches, the motivation of them - to align models to abstract notions of human preference - has drifted from the practical use - to make the models more effective to users. A feedback loop that is not measurable due to the closed nature of industrial RLHF work is the check to see if the behavior of the models matches the specification given to the data annotators during the process of data collection. We have limited tools to audit this, such as the Model Spec from OpenAI [91] that details what they want their models to do, but we don't know exactly how this translates to data collection. This is an area to watch as the industry and approaches mature.
 
@@ -984,7 +939,7 @@ Reward models are core to the modern approach to RLHF. Reward models broadly hav
 
 The most common reward model predicts the probability that a piece of text was close to a "preferred" piece of text from the training comparisons. Later in this section we also compare these to Outcome Reward Models (ORMs) that predict the probability that a completion results in a correct answer or a Process Reward Model (PRM) that assigns a score to each step in reasoning. When not indicated, the reward models mentioned are those predicting preference between text.
 
-# 7.1 Training Reward Models
+## 7.1 Training Reward Models
 
 There are two popular expressions for how to train a standard reward model for RLHF - they are numerically equivalent. The canonical implementation is derived from the Bradley-Terry model of preference [93]. A Bradley-Terry model of preferences measures the probability that the pairwise comparison for two events drawn from the same distribution, say  $i$  and  $j$ , satisfy the following relation,  $i > j$ :
 
@@ -1020,13 +975,13 @@ $$
 \mathcal{L}(\theta) = \log \left(1 + e^{r_{\theta} \left(y_{r} | x\right) - r_{\theta} \left(y_{c} | x\right)}\right) \tag{14}
 $$
 
-# 7.2 Architecture
+## 7.2 Architecture
 
 The most common way reward models are implemented is through an abstraction similar to Transformer's AutoModelForSequenceClassification, which appends a small linear head to the language model that performs classification between two outcomes - chosen and rejected. At inference time, the model outputs the probability that the piece of text is chosen as a single logit from the model.
 
 Other implementation options exist, such as just taking a linear layer directly from the final embeddings, but they are less common in open tooling.
 
-# 7.3 Implementation Example
+## 7.3 Implementation Example
 
 Implementing the reward modeling loss is quite simple. More of the implementation challenge is on setting up a separate data loader and inference pipeline. Given the correct datalloader with tokenized, chosen and rejected prompts with completions, the loss is implemented as:
 
@@ -1036,51 +991,71 @@ import torch.nn as nn
 # completion tokens (y_c or y_r) that the reward model scores jointly.
 rewards_chosen = model(**inputs_chosen)
 rewards_rejected = model(**inputs_rejected)
-loss = -nnfunctional.logsigmoid(rewards_chosen - rewards_rejected).
-mean()
+loss = -nn.functional.logsigmoid(rewards_chosen - rewards_rejected).mean()
 ```
 
 As for the bigger picture, this is often within a causal language model that has an additional head added (and learned with the above loss) that transitions from the final hidden state to the score of the inputs. This model will have a structure as follows:
 
 ```python
-import torch   
-import torch.nn as nn   
-import torch.nn.Functional as F   
-class BradleyTerryRewardModel(nnModule): ""   
-Standard scalar reward model forBradley-Terrypreferencelearning   
-.   
-Usage(pairowisBTloss):   
-rewards_chosen  $\equiv$  model(**inputs_chosen)  $\square \square \square \# \square$  (batch,)   
-rewards_rejected  $= \square$  model(**inputs_rejected)  $\square \square \# \square$  (batch,)   
-loss  $= -F$  .logsigmoid(rewards_chosen-  $-\text{串}$  rewards_rejected).mean()   
-"" def __init__(self,base_lm): super().__init_. () self.lm  $=$  base_lm # e.g., AutoModelForCausalLM self.head  $=$  nn.Linear(self_lm.config.hidlen_size,1) def_sequence_rep(self,hidden,attention_mask): ""   
-Get a single vector per sequence to score.   
-Default:lastnon-paddingtoken(EOS token);ifnomask,last token.   
-hidden: (batch, seq_len, hidden_size)   
-attention_mask: (batch, seq_len)   
-"" # Index of last non-pad token in each sequence # attention_mask is 1 for real tokens, O for padding lengths  $=$  attention_mask.sum(dim=1)-1 # (batch,) batchidx  $=$  torch.arange(hiden.size(0),device  $\equiv$  hidden_device) return hidden [batch_idx, lengths] # (batch, hidden_size) def forward(self, input_ids, attention_mask):   
-Aforwardpassdesignedto show inference structure of a standardrewardmodel.   
-To trainone, thisfunction will need to be modified to compute rewards from both   
-chosen and rejected inputs, applying the loss above. outputs  $=$  self_lm( input_ids  $=$  input_ids, attention_mask  $=$  attention_mask, output Hidden_states  $\equiv$  True, return_dict  $\equiv$  True, # Final hidden states: (batch, seq_len, hidden_size)
-```
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+class BradleyTerryRewardModel(nn.Module):
+    """
+    Standard scalar reward model for Bradley-Terry preference learning.
 
-hidden = outputs-hidden_states[-1]
+    Usage (pairwise BT loss):
+    rewards_chosen = model(**inputs_chosen)  # (batch,)
+    rewards_rejected = model(**inputs_rejected)  # (batch,)
+    loss = -F.logsigmoid(rewards_chosen - rewards_rejected).mean()
+    """
+    def __init__(self, base_lm):
+        super().__init__()
+        self.lm = base_lm  # e.g., AutoModelForCausalLM
+        self.head = nn.Linear(self.lm.config.hidden_size, 1)
 
-One scalar reward per sequence: (batch,)
+    def _sequence_rep(self, hidden, attention_mask):
+        """
+        Get a single vector per sequence to score.
+        Default: last non-padding token (EOS token); if no mask, last token.
+        hidden: (batch, seq_len, hidden_size)
+        attention_mask: (batch, seq_len)
+        """
+        # Index of last non-pad token in each sequence
+        # attention_mask is 1 for real tokens, 0 for padding
+        lengths = attention_mask.sum(dim=1) - 1  # (batch,)
+        batch_idx = torch.arange(hidden.size(0), device=hidden.device)
+        return hidden[batch_idx, lengths]  # (batch, hidden_size)
 
-seq_repr = self._sequence_rep(hidden, attention_mask)
+    def forward(self, input_ids, attention_mask):
+        """
+        A forward pass designed to show inference structure of a standard reward model.
+        To train one, this function will need to be modified to compute rewards from both
+        chosen and rejected inputs, applying the loss above.
+        """
+        outputs = self.lm(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            output_hidden_states=True,
+            return_dict=True,
+            # Final hidden states: (batch, seq_len, hidden_size)
+        )
 
-rewards = self.head(seq_repr).squeeze(-1)
+        hidden = outputs.hidden_states[-1]
 
-return rewards
+        # One scalar reward per sequence: (batch,)
+        seq_repr = self._sequence_rep(hidden, attention_mask)
+        rewards = self.head(seq_repr).squeeze(-1)
+
+        return rewards
 
 In this section and what follows, most of the implementation complexity for reward models (and much of post-training) is around constructing the data-loaders correctly and distributed learning systems. Note, when training reward models, the most common practice is to train for only 1 epoch to avoid overfitting.
 
-# 7.4 Variants
+## 7.4 Variants
 
 Reward modeling is a relatively under-explored area of RLHF. The traditional reward modeling loss has been modified in many popular works, but the modifications have not solidified into a single best practice.
 
-# 7.4.1 Preference Margin Loss
+### 7.4.1 Preference Margin Loss
 
 In the case where annotators are providing either scores or rankings on a Likert Scale, the magnitude of the relational quantities can be used in training. The most common practice is to binarize the data direction, implicitly scores of 1 and 0, but the additional information has been used to improve model training. Llama 2 proposes using the margin between two datapoints,  $m(y_{c},y_{r})$ , to distinguish the magnitude of preference:
 
@@ -1135,11 +1110,35 @@ is a correct sample. This is far closer to the language modeling loss, where it 
 The model structure could follow as:
 
 ```python
-import torch nn as nn   
-import torch nnfunctional as F   
-class OutcomeRewardModel(nnModule): def__init__(self，base_lm): super(）.__init_（） self.lm  $=$  base_lm#e.g.,AutoModelForCausalLM self.head  $\equiv$  nn.Linear(self_lm.config.hiden_size，1) def forward(self，input_ids，attention_mask=None，labels=None): 1   
-The input_dataherewillbe tokenizedpromptsandcompletions alongwithlabels   
-perpromptforcorrectness. outputs  $=$  self_lm( input_ids  $\equiv$  input_ids, attention_mask  $\equiv$  attention_mask, output Hidden_states  $\equiv$  True, return_dict  $\equiv$  True, #Final hidden states：（batch，seq_len，hidden_size) hidden  $=$  outputs隐藏_states[-1] #One scalar logit per token：（batch，seq_len) logits  $=$  self.head(hidden).squeeze(-1) #Only compute loss on completion tokens (labels O or 1) #Prompt tokens have labels  $= -100$  mask  $=$  labels！=-100 if mask.any(): loss  $=$  F.binarycross_entropy_with_logits( logits[mask]，labels[mask].float() ） return loss，logits
+import torch.nn as nn
+import torch.nn.functional as F
+class OutcomeRewardModel(nn.Module):
+    def __init__(self, base_lm):
+        super().__init__()
+        self.lm = base_lm  # e.g., AutoModelForCausalLM
+        self.head = nn.Linear(self.lm.config.hidden_size, 1)
+
+    def forward(self, input_ids, attention_mask=None, labels=None):
+        # The input data here will be tokenized prompts and completions along with labels
+        # per prompt for correctness. outputs = self.lm(
+        outputs = self.lm(
+            input_ids=input_ids,
+            attention_mask=attention_mask,
+            output_hidden_states=True,
+            return_dict=True,
+            # Final hidden states: (batch, seq_len, hidden_size)
+        )
+        hidden = outputs.hidden_states[-1]
+        # One scalar logit per token: (batch, seq_len)
+        logits = self.head(hidden).squeeze(-1)
+        # Only compute loss on completion tokens (labels 0 or 1)
+        # Prompt tokens have labels = -100
+        mask = labels != -100
+        if mask.any():
+            loss = F.binary_cross_entropy_with_logits(
+                logits[mask], labels[mask].float()
+            )
+        return loss, logits
 ```
 
 A simplified version of the loss follows:

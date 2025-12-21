@@ -1,3 +1,18 @@
+---
+title: "Introduction to Contingent Claims Analysis"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume I/Bond Valuation"
+formatted: 2025-12-21 09:17:25 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - contingent claims analysis
+  - bond valuation
+secondary_tags:
+  - states of the world
+  - arrow-debreu securities
+  - incomplete markets
+cssclasses: academia
+---
 
 # Introduction to Contingent Claims Analysis
 
@@ -9,7 +24,7 @@ Abstract: Contingent claims are a tool for valuing securities and for analyzing 
 
 Contingent claims analysis is used in financial modeling to value any financial instrument, including such apparently exotic instruments as put and call options and convertible securities. In this entry, we discuss this important tool. We begin by explaining the notion of states of the world, a way of classifying risky outcomes whose value can then be represented using contingent claims. After providing examples of valuation using contingent claims, we introduce the concept of incomplete markets and consider its importance for modeling real-world financial arrangements. We then examine some financial instruments and arrangements that can be used to trade or to manage risks.
 
-# STATES OF THE WORLD
+## STATES OF THE WORLD
 
 The idea of states of the world is useful for thinking about convenient ways to model risky payoffs. In a two-time-point model, states of the world are defined as those future events that matter to the decision problem being considered. These states of the world are defined by the decision maker to be mutually exclusive and collectively exhaustive. Using an example given by Savage (1951), if one is about to break a ninth egg into a bowl already containing eight other eggs, the relevant states of the world could be whether the ninth egg is rotten and would hence spoil the others. (Here we presume the rottenness of an egg is not discernible until the egg has been broken and fallen into the bowl.)
 
@@ -24,7 +39,7 @@ We shall usually associate probabilities with the states; for example,  $p_i$  m
 
 Note that although in this chapter we make less use of multiperiod models using contingent claims, we can also define states at different points in time, for example, the states of the world at different times.
 
-# CONTINGENT CLAIMS AND THEIR VALUE
+## CONTINGENT CLAIMS AND THEIR VALUE
 
 A unit contingent claim is a security that will pay an amount of \$1 if a certain state of the world is actually realized, but nothing otherwise. A claim that pays \$1 if state i is realized is frequently called a unit claim on state i. A unit contingent claim is also referred to as a primary security or Arrow-Debreu security (so named after the economists who introduced them—Arrow [1964] and Debreu [1959]).
 
@@ -47,7 +62,7 @@ Let  $A(0) =$  denote the time 0 price of stock A and  $B(0) =$  the time 0 pric
 
 
 $$
-1 0 C_{1} + 8 C_{2} = \$ 6
+10 C_{1} + 8 C_{2} = \$ 6
 $$
 
 $$
@@ -56,7 +71,7 @@ $$ which can be solved to obtain
 
 
 $$
-C_{1} = \mathrm{\$} \frac{7}{1 7}, \quad C_{2} = \mathrm{\$} \frac{4}{1 7}
+C_{1} = \mathrm{\$} \frac{7}{17}, \quad C_{2} = \mathrm{\$} \frac{4}{17}
 $$
 
 We can use the same reasoning to find the risk-free rate of return that must obtain in this market. Since a risk-free instrument is one that offers the same payoff irrespective of which state of the world obtains, we wish to find a combination of the two stocks that gives the same time 1 payoff, here denoted  $k$ , in either state of the world. That is, the following equation must be solved for  $\alpha$ :
@@ -68,7 +83,7 @@ $$
 We can write the payoff  $k$  as equal to either of the following payoffs:
 
 $$
-1 0 \alpha + 7 (1 - \alpha) = 8 \alpha + 9 (1 - \alpha)
+10 \alpha + 7 (1 - \alpha) = 8 \alpha + 9 (1 - \alpha)
 $$ which implies that
 
 
@@ -78,7 +93,7 @@ $$ so that α = 1/2. The riskless payoff is then 1/2(10) + 1/2(7) = \$8.50, and 
 
 
 $$
-\frac{\mathbb {S} 8 . 5 0 - \mathbb {S} 5 . 5 0}{\mathbb {S} 5 . 5 0} = \frac{6}{1 1} = 5 4. 5 5
+\frac{\$ 8.50 - \$ 5.50}{\$ 5.50} = \frac{6}{11} = 54.55
 $$
 
 Of course, this is not necessarily a realistic number for a risk-free rate of interest. (Whether it is realistic or not depends on the length of the time period under consideration, a matter we have left unspecified.) However, our purpose here is to develop illustrative calculations to display relations between contingent claims, and for this purpose particular sizes of numbers are not really important.
@@ -86,30 +101,13 @@ Of course, this is not necessarily a realistic number for a risk-free rate of in
 Another way of making a riskless investment is to buy one of each available unit claim, that is, one claim on state 1 and one claim on state 2. Such a portfolio gives a certain payoff of 1 for an investment cost of
 
 $$
-\$ \frac{4}{1 7} + \$ \frac{7}{1 7} = \$ \frac{1 1}{1 7}
+\$ \frac{4}{17} + \$ \frac{7}{17} = \$ \frac{11}{17}
 $$
 
 The rate of return on this investment is then
 
 $$
-\frac{\frac{\mathrm{S} 1 - \mathrm{S} \frac{1 1}{1 7}}{\mathrm{S} \frac{1 1}{1 7}} = \frac{1 7 - 1 1}{1 1} = \frac{6}{1 1} = 5 4 . 5 5 \%
-$$ just as before.
-
-
-# INVESTOR'S UTILITY MAXIMIZATION IN CONTINGENT CLAIMS MARKETS
-
-In this section, we describe how an investor may solve the utility maximization problem when facing risk in a market for contingent claims. For our illustration, we shall continue with stocks  $A$  and  $B$  from the previous section. Further, we shall assume the investor's initial wealth to be \$600. This scenario is summarized in Table 1. We let w_{1}$  represent wealth if state 1 occurs and correspondingly for  $w_{2}$ , and we may plot these data in  $(w_{1}, w_{2})$  space, as shown in Figure 1. Note that the previously determined riskless position of dividing the purchases to obtain an equal number of each security (54.5 of each) is also shown and generates a riskless terminal wealth position of  $w_{1} = w_{2} = \$ 926.50.
-
-Table 1 Summary of Terminal Wealth in Two States
-
-<table><tr><td rowspan="2"></td><td rowspan="2">No. of Shares Purchased</td><td colspan="2">Terminal Wealth</td></tr><tr><td>State 1</td><td>State 2</td></tr><tr><td>Purchases A only</td><td>100</td><td>$1,000</td><td>$800</td></tr><tr><td>Purchases B only</td><td>120</td><td>$840</td><td>$1,080</td></tr></table>
-
-We can also use another way to calculate the value of the claims' combinations at time 1. We can write the equation of the straight line in Figure 1 as
-
-$$ w_{2} = a - b w_{1}
-$$ so that for the time 1 price of stock A we have
-
-
+\frac{\$1 - \$ \frac{11}{17}}{\$ \frac{11}{17}} = \frac{17 - 11}{11} = \frac{6}{11} = 54.55 \%
 $$
 \$ 800 = a - \$ 1,000b
 $$ while for the time 1 price of stock B we have
@@ -149,7 +147,7 @@ The point of the foregoing demonstration is to show first that every security ca
 
 Although we do not discuss it here, the real power of the contingent claim analysis is in providing the basis for valuing complex financial instruments and financial arrangements.
 
-# INCOMPLETE MARKETS FOR CONTINGENT CLAIMS
+## INCOMPLETE MARKETS FOR CONTINGENT CLAIMS
 
 A market is said to be a complete market when economic agents can structure any set of future state payoffs by investing in a portfolio of unit contingent claims (i.e., primary securities). A financial market is said to be incomplete if the number of (linearly) independent securities traded in it is smaller than the number of distinct states of the world. Clearly, market incompleteness depends on how states of the world are defined. However, since the number of states of the world needed to describe a typical financial market is likely to be large, the possibility that real-world financial markets will be incomplete is a very real one.
 
@@ -164,7 +162,7 @@ The situation is quite different if a third unit claim worth 1 in state 3 and ze
 
 We are now ready to discuss some practical implications of market incompleteness. It is obvious from the foregoing example that investor choice is restricted in incomplete markets. Moreover if investor choices are restricted, the investors will never be better off, and are likely to be worse off, than would be the case if markets were complete (i.e., if the restrictions were removed). In such situations, it is to be expected that if ways of completing the market can be found, those possibilities are likely to be utilized. That is, in the context of incomplete financial markets the appearance of new instruments might be regarded as attempts to provide investors with financial opportunities not otherwise available. The appearance of derivatives (options, futures, and swaps) might be examples of such attempts. Mossin (1977) argues that the preference existing firms show for organizing new activities as separate corporations may be another indication of attempts to deal with market incompleteness.
 
-# FINANCIAL INSTRUMENTS AS CONTINGENT CLAIMS
+## FINANCIAL INSTRUMENTS AS CONTINGENT CLAIMS
 
 Most financial instruments can be bought or sold, but not all of them are actively traded in financial markets. For example, a common form of contingent claim (and one that is close in concept to a unit claim) is a lottery ticket. In its simplest form this claim results in its holder winning either a positive prize or zero. Accordingly, this lottery ticket represents a claim that can be valued using two states of the world. Obviously, if a lottery has several different prizes, several states of the world may need to be defined in order to describe it completely. But lottery tickets, once issued, are rarely traded again. The same is true of such other contingent claims as the tickets obtained when betting on horse races or similar contests.
 
@@ -173,7 +171,7 @@ An insurance policy is a contingent claim that comes closer to our usual notions
 
 There are also securities that have embedded derivatives in them, derivatives that are not traded separately from the instrument itself. For example, a callable bond is a bond that grants the issuer the right to redeem the bond at some time in the future and at a specified price. That is, a callable bond can be viewed as a straight bond with an embedded call option granted to the issuer. A putable bond is a bond that grants the investor the right to sell (i.e., put) the bond to the issuer in the future at a specified price. Hence, the bond structure can be viewed as a straight bond with an embedded put option. Convertible securities, which include convertible bonds or convertible preferred stocks, represent contingent claims in that they typically allow the owner to exchange the original issue for other securities, usually common stock, and they are callable. Some convertible securities even include an embedded put option.
 
-# KEY POINTS
+## KEY POINTS
 
 Contingent claims analysis and contingent strategies are tools for dealing with risk in financial decision making.
 Contingent claims analysis uses the notion of states of the world in assessing future risky payoffs.

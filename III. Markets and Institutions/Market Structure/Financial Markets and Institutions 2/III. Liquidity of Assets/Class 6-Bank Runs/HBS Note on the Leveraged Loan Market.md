@@ -1,21 +1,21 @@
 ---
-title: "Class 6 - Note on the Leveraged Loan Market (HBS)"
-parent_directory: "III. Liquidity of Assets/Class 6-Bank Runs"
-formatted: 2025-12-21 04:45:00 PM
-formatter_model: claude-sonnet-4
+title: Note on the Leveraged Loan Market
+parent_directory: Class 6-Bank Runs
+formatted: 2025-12-21 09:17:00 AM
+formatter_model: kimi-k2-turbo
 cli-tool: claude-code
 primary_tags:
-   - leveraged loans
-   - loan syndication
-   - collateralized loan obligations
-   - institutional investors
+  - leveraged loans
+  - loan syndication
+  - collateralized loan obligations
+  - institutional investors
 secondary_tags:
-   - syndicated lending
-   - bank origination
-   - credit cycles
-   - loan mutual funds
-   - leveraged finance
-   - CLO structures
+  - syndicated lending
+  - bank origination
+  - credit cycles
+  - loan mutual funds
+  - leveraged finance
+  - CLO structures
 cssclasses: academia
 ---
 
@@ -27,17 +27,17 @@ A leveraged loan is a senior secured syndicated credit that has a non-investment
 
 Starting in the late 1990s, leveraged loans were the main form of financing for highly levered corporate transactions. Over  $90\%$  of all LBOs worldwide were backed by a leveraged loan. In contrast, only  $7\%$  of all LBOs had a senior bond and  $22\%$  had a subordinated bond as part of debt financing. Not considering revolving credit, leveraged loans on average accounted for  $75\%$  of the debt financing of LBOs, while bonds accounted for less than  $12\%$ . (See Exhibit 1 for the funding structure of a typical LBO.) Of the leveraged loans issued in 2017, almost  $45\%$  were used to finance sponsored transactions. $^{1}$
 
-The leveraged loan market experienced a severe contraction during the 2007-2009 financial crisis, hitting its lowest point in the fourth quarter of 2008. However, the overall syndicated loan market and leveraged loan market, in particular, had been on the rise since. According to Bloomberg, the total volume of U.S. syndicated loans was roughly  \$2.4 trillion in 2017, an \(18.97\%$  increase from the previous year. U.S. leveraged loan volume in 2017 was about \)1.5 trillion, up  $48.43\%$  from the previous year.[2] (See Exhibit 2 for the evolution of annual leveraged loan issuance in the global market.)
+The leveraged loan market experienced a severe contraction during the 2007-2009 financial crisis, hitting its lowest point in the fourth quarter of 2008. However, the overall syndicated loan market and leveraged loan market, in particular, had been on the rise since. According to Bloomberg, the total volume of U.S. syndicated loans was roughly $2.4 trillion in 2017, an \(18.97\%$  increase from the previous year. U.S. leveraged loan volume in 2017 was about \)1.5 trillion, up $48.43\%$ from the previous year.[2] (See Exhibit 2 for the evolution of annual leveraged loan issuance in the global market.)
 
 The goal of this note is to introduce key concepts related to the leveraged loan market and to outline the primary factors that influence leveraged loan issuance. In particular, the note explains the roles that banks and institutional investors play in this segment of the loan market.
 
-# 1. Loan Syndication
+## 1. Loan Syndication
 
 Leveraged loans are syndicated loans; they are originated (or "arranged") by one lender but funded by a group of lenders. The arrangers market is dominated by banks and is highly concentrated. As can be seen from Exhibit 3, the top 10 lead lenders by volume arrange over  $65\%$  of all syndicated loans, with the top 3 syndicating one third of all loans. The numbers are very similar for the leveraged segment of the market.
 
-The basic rationale for loan syndication—and syndication more broadly—is risk sharing. Between 2000 and 2006, the average syndicated loan to a U.S. borrower was  \$467 million, the median was\$ 185 million, and 90% of the loans were larger than \$20 million. Due to capital requirements and regulatory restrictions on sole-borrower exposure, banks would not be able to originate loans of a similar size on a large scale in the absence of syndication. Thus, understanding the process of syndication is central to understanding the conditions of bank credit supply to medium-sized and large firms and to understanding the financing available for merger and acquisition transactions.
+The basic rationale for loan syndication—and syndication more broadly—is risk sharing. Between 2000 and 2006, the average syndicated loan to a U.S. borrower was $467 million, the median was $185 million, and 90% of the loans were larger than $20 million. Due to capital requirements and regulatory restrictions on sole-borrower exposure, banks would not be able to originate loans of a similar size on a large scale in the absence of syndication. Thus, understanding the process of syndication is central to understanding the conditions of bank credit supply to medium-sized and large firms and to understanding the financing available for merger and acquisition transactions.
 
-# Information Asymmetry
+## Information Asymmetry
 
 Bank lending—including leveraged lending—builds on proprietary information. A large body of academic research shows that banks play a special role in information collection and processing (that is, the screening and monitoring of borrowers). This is one of the key differences between bank debt and public debt. A typical loan agreement requires the borrower to disclose material information—financial statements and projections, information on covenant compliance, waiver requests, plans for acquisitions, and so on—in a timely manner to its lenders. (This information exchange is covered by confidentiality agreements, and the borrower is not required to simultaneously disclose it to the public.) The ability to access and act on private information often makes banks the cheapest form of financing, especially in those cases where there is a lot of uncertainty about a firm's cash flows.
 
@@ -53,7 +53,7 @@ There is significant time variation in the average share of loans retained by le
 
 So, although much of the attention paid to leveraged loan origination has been focused on institutional investors (more on this below), this section points out that banks—and their ability to hold part of the loans on their balance sheets—are an intrinsic part of the origination of leveraged loans.
 
-# Cost of Distress
+## Cost of Distress
 
 Another important aspect of loan syndication is that all tranches (or "facilities") of the loan  $i$  - including second-lien facilities - are bound by the same contract. This means that, although the claims held by each lender are against the borrower, syndicate members cannot renegotiate the loan terms with the borrower independently in or out of court. This mechanism forces the syndicate members to coordinate. There cannot be the holdout problem typical in a bond exchange, because a lending syndicate can only vote one way. For the same reason, borrowers historically were unable to coerce lenders into a material amendment by creating favorable incentives for a fraction of the lenders. This
 
@@ -61,11 +61,11 @@ makes the interdependence of lenders in a syndicated loan an important feature t
 
 A typical loan contract would specify the number of votes required to pass certain amendments. Most loans require  $50.1\%$  of the votes by loan volume. However, material amendments—those that affect the interest rate, amount, or term of the loan—require a unanimous lenders agreement.
 
-# 2. Institutional Investors and Leveraged Loans
+## 2. Institutional Investors and Leveraged Loans
 
 Given that the arranging bank acts as an agent for the lending syndicate in collecting and processing information about the borrower, other syndicate participants—the "passive" lenders—no longer need to be banks; that is, they do not need to be able to screen and monitor the borrower to the same extent. Other than funding revolving and delay-draw lines, which require liquidity management, there is nothing that makes the participating (passive) banks any more special than a non-bank institutional investor.<sup>k</sup> Indeed, while banks have risk-based capital requirements, most institutional investors do not. A loan is not a security under the Securities Act of 1933, so loan investors would need to be reasonably sophisticated financial investors, but that still includes a wide range of institutional investors.
 
-# The Pros and Cons of Loan Investing
+## The Pros and Cons of Loan Investing
 
 The ability to attract a diverse investor base was central to the expansion of credit—to the expansion of leveraged loans, in particular—starting in the late 1990s. Initially, however, there were several barriers for institutional investors' entry into the loan market, including illiquidity and a lack of standardization in risk assessment and procedures. Banks do not actively trade loans, so although the market was dominated by banks, it remained highly illiquid. To facilitate institutional investors' entry into the loan market, starting in the late 1990s the Loan Syndications and Trading Association (LSTA) implemented several improvements, including the introduction of loan credit ratings and the standardization of settlement procedures. The latest improvement in the market was the introduction of loan-specific credit derivatives swaps and the corresponding index (LCDX), which facilitated risk hedging.
 
@@ -79,13 +79,13 @@ Another distinctive feature of loans (as compared to bonds) is that they are oft
 
 Although there are some obstacles for institutional investment in the loan markets, there are also reasons for institutional investors to find loans an attractive asset class. First, loans are variable rate, which reduces an investor's exposure to duration risk caused by interest-rate fluctuations. Second, loans are senior secured debt, so they benefit from a much safer position in the capital structure. Historically, the loan market had low default rates and higher recoveries than corporate bonds. Based on Moody's data, loans had a recovery rate of over 80 cents on the dollar between 1988 and May 2013. For the same period, senior unsecured bonds recovered less than 50 cents on the dollar. Before the 2007-2008 financial crisis, leveraged loans had an average annual return of  $6.40\%$  with a standard deviation of  $2.34\%$ . High-yield bonds, on the other hand, had an average annual return of  $8.50\%$  but a standard deviation of  $5.73\%$ . Following the financial crisis, however, the risk-return profile of leveraged loans was less attractive than that of high-yield bonds.[4]
 
-# Institutional Participants
+## Institutional Participants
 
 Institutional investors play a crucial role in the syndicated loan market, particularly in the risky leveraged segment of the market where bank participation is very small. Since 2010, about  $85\%$  of leveraged loans in the primary market have been funded by institutional investors. This number has increased since the 2007-2009 financial crisis, arguably due to greater regulatory pressure on banks, which traditionally retained a fraction of the leveraged loans.
 
 Institutional investors that actively participate in the syndicate include collateralized loan obligations (Close), mutual funds, hedge funds, pension funds, and insurance companies, among others. Exhibit 6 shows leveraged loan holdings by investor type. The central point to notice is that over the past 20 years, the leveraged loan market has gradually become dominated by an investor group made up of Close, prime rate funds (funds investing in senior secured debt), hedge funds, and high-yield mutual funds (high-yield investors). A widespread shutdown in securitization in late 2007, which also brought CLO issuance to a halt, was a primary driver of the severe contraction in leveraged loan issuance in 2007:Q3, which lasted through 2009. Since then, the issuance volume has returned to its pre-crisis levels, and high-yield investors' share of the primary leveraged loan market has increased to nearly  $81\%$  (its highest point).
 
-# Collateralized Loan Obligations
+## Collateralized Loan Obligations
 
 Close were the largest investors in – and arguably the largest driving force behind – the credit boom in leveraged loans preceding the 2007-2008 financial crisis. CLOs differ from other institutions that participate in the high-yield loan market in several ways, giving CLO managers different incentives from those of other syndicate participants.
 
@@ -95,13 +95,11 @@ To put together a collateral pool, a CLO usually participates in over 100 syndic
 
 Syndication before securitization is a key difference between corporate loan securitization and other types of securitization. For example, after origination, a subprime mortgage ( $150,000-$ 190,000 on average) is typically sold by the originating lender—as part of a pool—to other investors. In the case of a securitization, this mortgage pool would be used as part of the collateral held by the SPV. At no point are any of the individual mortgages split into parts; in other words, there is only one direct claim against the borrower of the original mortgage. However, the fact that securitized leveraged loans are syndicated implies that there are other non-CLO lenders in the syndicate. Although securitization has been shown to suffer from multiple agency problems, in the corporate segment, the presence of other lenders creates a mechanism that counterweights these effects.<sup>o</sup>
 
-# 3. Implications for Market Conditions
+## 3. Implications for Market Conditions
 
 To summarize some of the points raised in this note, the inflow of institutional, non-bank money into the syndicated loan market—and specifically the securitization boom—is central for understanding the evolution of the leveraged loan market and the syndicated loan market more broadly.
 
-After an explosive rise, CLO issuance – like other types of securitization – came to a halt in 2008 and 2009. The market seemed to have missed the fact that securitization of corporate loans differed in an
-
-important way from securitization of other asset classes. Leveraged loan performance through 2008-2010 was not nearly as bad as expected. In 2010 alone, Moody's upgraded the ratings of more than 280 tranches in 75 deals (8.5% of Moody's rated CLO universe). $^{\mathrm{P}}$  CLO issuance has since recovered, enjoying a slow and steady rise. (See Exhibit 8.)
+After an explosive rise, CLO issuance – like other types of securitization – came to a halt in 2008 and 2009. The market seemed to have missed the fact that securitization of corporate loans differed in an important way from securitization of other asset classes. Leveraged loan performance through 2008-2010 was not nearly as bad as expected. In 2010 alone, Moody's upgraded the ratings of more than 280 tranches in 75 deals (8.5% of Moody's rated CLO universe). $^{\mathrm{P}}$  CLO issuance has since recovered, enjoying a slow and steady rise. (See Exhibit 8.)
 
 Loan mutual funds, the other major player in the market, have blossomed only after the financial crisis, their assets under management nearly tripling from 2010:Q4 through 2013:Q4. (See Exhibit 9.) The combined assets under management of U.S. Close and loan mutual funds was around  \$400 billion at the beginning of 2013, and it was roughly\$ 660 billion as of January 2018.[5]
 
@@ -176,7 +174,7 @@ Exhibit 12 Average Discounted Spread to Maturity
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/26b4ab90-b761-4569-9588-87693bafd44f/1e3b916d85f1f59efb5c3033173247fee9aada5ce83e404064a5faf43a004b61.jpg)  
 Source: Standard & Poor's, Leveraged Data and Commentary.
 
-# Endnotes
+## Endnotes
 
 $^{1}$  KPMG, Credit Markets Update December 31, 2017  
 2 Bloomberg, Global Syndicated League Tables FY 2017  

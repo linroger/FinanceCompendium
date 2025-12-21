@@ -1,3 +1,24 @@
+---
+title: "The Concept and Measures of Interest Rate Volatility"
+parent_directory: Term Structure Modeling
+formatted: 2025-12-21 10:15:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - interest rate volatility
+  - term structure modeling
+  - stochastic processes
+  - mean reversion
+secondary_tags:
+  - brownian motion
+  - diffusive models
+  - volatility measurement
+  - risk management
+  - yield curve dynamics
+  - option pricing
+  - fixed income valuation
+cssclasses: academia
+---
 
 # The Concept and Measures of Interest Rate Volatility
 
@@ -9,30 +30,75 @@ Abstract: The knowledge of interest rates and cash flows represents the basis fo
 
 In this entry, we introduce the concepts of market volatility and discuss how it is measured. The dynamics of rates are subject to market forces, mean reversion, and combinations of diffusions and jumps.
 
-# BASIC DEFINITIONS AND FIRST FINDINGS
+## BASIC DEFINITIONS AND FIRST FINDINGS
 
 We can't tell in advance what interest rates will be. Investors may be either enriched or bankrupted from sudden changes in interest rates. Financial institutions devote considerable resources to risk management and hedging. Yet, if future interest rates were deterministic, there would be no need to hedge. Coping with uncertainty is a central feature of investment markets.
 
 The pricing of options and embedded-options instruments utilizes a statistical concept to describe the magnitude of potential interest rates changes. The key notion is the volatility of interest rates. While this term conjures up images of instability, flares of activity, and unpredictability, it is actually a very specific description of the range of possible outcomes. More precisely, volatility can be defined as the standard deviation of a rate's annualized daily increments. Table 1 provides an example for yields on the 10-year Treasury measured over 10 consecutive business days. As part of the measurement, we will be taking a daily time series and then transforming into "absolute returns" and "relative returns"—much like measuring portfolio performance.
 
+```d2
+direction: right
 
-The absolute rate changes are computed by taking the difference between the interest rates on successive days. The relative changes are computed by dividing the absolute change by the starting rate. For example, for the first day the absolute change is  $5.00343 - 5.03234 = -0.0289$ . The relative increment is  $-0.0289 / 5.03234 = -0.0057$ . In order to calculate the daily volatility, we just take the standard deviation of the daily absolute and relative change series. In the example above, the standard
+daily_rates: Daily Rate\nMeasurements {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
 
-Table 1 Example of Volatility Calculations
+absolute_changes: Absolute\nChanges {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+  style.stroke: "#7b1fa2"
+}
 
-<table><tr><td>Date</td><td>Rate</td><td>Absolute Increments</td><td>Relative Increments</td></tr><tr><td>03-Jun-02</td><td>5.03234</td><td></td><td></td></tr><tr><td>04-Jun-02</td><td>5.00343</td><td>-0.0289</td><td>-0.0057</td></tr><tr><td>05-Jun-02</td><td>5.04900</td><td>0.0456</td><td>0.0091</td></tr><tr><td>06-Jun-02</td><td>5.01176</td><td>-0.0372</td><td>-0.0074</td></tr><tr><td>07-Jun-02</td><td>5.06165</td><td>0.0499</td><td>0.0100</td></tr><tr><td>10-Jun-02</td><td>5.03885</td><td>-0.0228</td><td>-0.0045</td></tr><tr><td>11-Jun-02</td><td>4.97500</td><td>-0.0639</td><td>-0.0127</td></tr><tr><td>12-Jun-02</td><td>4.95004</td><td>-0.0250</td><td>-0.0050</td></tr><tr><td>13-Jun-02</td><td>4.90280</td><td>-0.0472</td><td>-0.0095</td></tr><tr><td>14-Jun-02</td><td>4.80276</td><td>-0.1000</td><td>-0.0204</td></tr></table> deviations are 0.048 (absolute increments) and 0.00966 (relative increments). The former number is the standard deviation for daily absolute increments; the latter number represents that of the daily relative changes. To compute volatility, we place these daily measures on an annual basis scaling by the number of trading days in the year (approximately 260):
+relative_changes: Relative\nChanges {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
+
+daily_volatility: Daily\nVolatility\n(Standard Deviation) {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#f57c00"
+}
+
+annual_volatility: Annual\nVolatility\n(×√260) {
+  shape: rectangle
+  style.fill: "#fce4ec"
+  style.stroke: "#c2185b"
+}
+
+daily_rates -> absolute_changes: difference
+daily_rates -> relative_changes: ratio
+absolute_changes -> daily_volatility: std dev
+relative_changes -> daily_volatility: std dev
+daily_volatility -> annual_volatility: annualize
+
+note: Volatility measures the magnitude of potential interest rate changes, annualized as standard deviation of daily increments. | {
+  near: bottom-center
+}
+```
+
+**Figure 1.1: Interest Rate Volatility Measurement Process** - From daily rate measurements through absolute and relative changes to annualized volatility calculations.
+
+
+The absolute rate changes are computed by taking the difference between the interest rates on successive days. The relative changes are computed by dividing the absolute change by the starting rate. For example, for the first day the absolute change is  $5.00343 - 5.03234 = -0.0289$ . The relative increment is  $-0.0289 / 5.03234 = -0.0057$ . In order to calculate the daily volatility, we just take the standard deviation of the daily absolute and relative change series. In the example above, the standard deviations are 0.048 (absolute increments) and 0.00966 (relative increments). The former number is the standard deviation for daily absolute increments; the latter number represents that of the daily relative changes. To compute volatility, we place these daily measures on an annual basis scaling by the number of trading days in the year (approximately 260):
+
+<table><tr><td>Date</td><td>Rate</td><td>Absolute Increments</td><td>Relative Increments</td></tr><tr><td>03-Jun-02</td><td>5.03234</td><td></td><td></td></tr><tr><td>04-Jun-02</td><td>5.00343</td><td>-0.0289</td><td>-0.0057</td></tr><tr><td>05-Jun-02</td><td>5.04900</td><td>0.0456</td><td>0.0091</td></tr><tr><td>06-Jun-02</td><td>5.01176</td><td>-0.0372</td><td>-0.0074</td></tr><tr><td>07-Jun-02</td><td>5.06165</td><td>0.0499</td><td>0.0100</td></tr><tr><td>10-Jun-02</td><td>5.03885</td><td>-0.0228</td><td>-0.0045</td></tr><tr><td>11-Jun-02</td><td>4.97500</td><td>-0.0639</td><td>-0.0127</td></tr><tr><td>12-Jun-02</td><td>4.95004</td><td>-0.0250</td><td>-0.0050</td></tr><tr><td>13-Jun-02</td><td>4.90280</td><td>-0.0472</td><td>-0.0095</td></tr><tr><td>14-Jun-02</td><td>4.80276</td><td>-0.1000</td><td>-0.0204</td></tr></table>
+
+The standard deviations are 0.048 (absolute increments) and 0.00966 (relative increments). The former number is the standard deviation for daily absolute increments; the latter number represents that of the daily relative changes. To compute volatility, we place these daily measures on an annual basis scaling by the number of trading days in the year (approximately 260):
 
 
 Relative Volatility
 
 $$
-\begin{array}{l} = \text{Da il yS ta nd ar dR el at iv eD ev ia ti on} \times \sqrt{2 6 0} \\ = 0. 0 0 9 6 6 \times \sqrt{2 6 0} = 0. 1 5 5 7 \\ \end{array}
+\begin{array}{l} = \text{Daily Standard Relative Deviation} \times \sqrt{260} \\ = 0.00966 \times \sqrt{260} = 0.1557 \\ \end{array}
 $$
 
 Absolute Volatility
 
 $$
-\begin{array}{l} = \text{Da il yS ta nd ar dA bs ol ut eD ev ia ti on} \times \sqrt{2 6 0} \\ = 0. 0 4 8 0 \times \sqrt{2 6 0} = 0. 7 7 3 \\ \end{array}
+\begin{array}{l} = \text{Daily Standard Absolute Deviation} \times \sqrt{260} \\ = 0.0480 \times \sqrt{260} = 0.773 \\ \end{array}
 $$
 
 Thus, in our example of the 10-day yield series, we would calculate the annual volatility as 77.3 basis points (absolute) or  $15.57\%$  (relative). The relative volatility times the average yield for the period  $0.1557 \times 4.983 = 0.776$  is close to the absolute yield volatility of 0.773—as one would expect.
@@ -44,11 +110,11 @@ In the 1980s, both volatility measures exhibited instability, although the relat
 
 Different points of the yield curve have differing volatility, too. This observation suggests that not only do the rates have a "term structure," but their volatility has a term structure as well. A hump shape of such a volatility curve is often observed (see Figure 2). It can be attributed to (1) absence of change in the short rates unless regulators take actions and (2) the dampening force of the mean reversion. We will explain both factors further in the entry.
 
-# A DIFFUSIVE MODEL FOR RANDOMNESS
+## A DIFFUSIVE MODEL FOR RANDOMNESS
 
 Can we describe the randomness mathematically? It is perhaps simpler than it sounds. In fact, having become acquainted with volatility, we did most of the task. A general diffusive model for an interest rate process that describes how interest rates will vary over time,  $r(t)$ , will have the following form:
 
-$$ d r = (D r i f t) d t + (V o l a t i l i t y) d z \tag {1}
+$$ d r = (\text{Drift}) dt + (\text{Volatility}) dz \tag {1}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/66256f4b-1176-4bdd-adf3-458dec1636a0/e3b35a807a4204a7bc482b9d6593bc9e9eefd4318a12f6ed015d42c03d281d54.jpg)
@@ -65,10 +131,10 @@ Figure 2 Historical Volatility Term Structure for the Swap Rates
 
 
 $$
-\begin{array}{l} \Delta r = \left(\text{Dr if t}\right) \left(\text{Pa ss ag eo ft im e}\right) + \left(\text{Vo la ti li ty}\right) \\ \times \text{(Ra nd om sh oc k)} \\ \end{array}
+\begin{array}{l} \Delta r = \left(\text{Drift}\right) \left(\text{Passage of time}\right) + \left(\text{Volatility}\right) \\ \times \text{(Random shock)} \\ \end{array}
 $$
 
-# A Brief Excursion to Brownian Motion
+## A Brief Excursion to Brownian Motion
 
 Brownian motion:
 
@@ -99,8 +165,9 @@ $$ where mean reversion parameter  $a > 0$ . This time, the solution will contai
 
 $$
 \sigma \sqrt{(1 - e^{- 2 a t}) / 2 a}
-$$ and converges to
+$$
 
+and converges to
 
 $$
 \sigma / \sqrt{2 a}
@@ -137,10 +204,11 @@ $$
 Another popular example is the squared transformation,  $R = r^2$ , that also guarantees that rate  $R$  stays positive; the distribution of such defined rate is known as noncentral  $\chi^2$ . For the squared transformation,
 
 $$
-E (R) = \mu^{2} + \sigma^{2}
+E(R) = \mu^{2} + \sigma^{2}
 $$
 
-$$ s t d (R) = \sigma \sqrt{2 \sigma^{2} + 4 \mu^{2}}
+$$
+std(R) = \sigma \sqrt{2 \sigma^{2} + 4 \mu^{2}}
 $$
 
 # INTEREST RATE JUMPS
@@ -160,14 +228,11 @@ These objective facts suggest that a stochastic diffusive model suitable for swa
 Aside from the jumps' arrival, the size of jumps can be also random. Merton (1976) introduced an option-pricing model when the underlying process includes Poisson jumps with normally distributed magnitude. Using mathematical notations, we can express the model as
 
 $$
-\begin{array}{l} d r = (D r i f t) d t + (V o l a t i l i t y) d z \\ + (J u m p \text{Vo la ti li ty}) d N \tag {3} \\ \end{array}
-$$ where  $N$  is the Poisson-Merton jump variable. When jump occurs,  $dN$  is drawn from the standard normal distribution  $N[0,1]$ ; it stays 0 oth-
-
-
-erwise. In a less strict notations,
+\begin{array}{l} dr = (\text{Drift}) dt + (\text{Volatility}) dz \\ + (\text{Jump Volatility}) dN \tag {3} \\ \end{array}
+$$ where $N$ is the Poisson-Merton jump variable. When jump occurs, $dN$ is drawn from the standard normal distribution $N[0,1]$; it stays 0 otherwise. In a less strict notations,
 
 $$
-\begin{array}{l} \Delta r = (D r i f t) (P a s s a g e o f t i m e) \\ + (V o l a t i l i t y) (R a n d o m s h o c k) \\ + (J u m p v o l a t i l i t y) (R a n d o m j u m p) \\ \end{array}
+\begin{array}{l} \Delta r = (\text{Drift}) (\text{Passage of time}) \\ + (\text{Volatility}) (\text{Random shock}) \\ + (\text{Jump volatility}) (\text{Random jump}) \\ \end{array}
 $$
 
 The practical difference between random shock and random jump is that, for a small time interval, the former is small, but nonzero, whereas the latter is mostly zero and rarely finite. Hence, equation (3) describes a more general stochastic process combining diffusion and jumps ("jump-diffusion"). Notably, mathematical variance of the Poisson process  $N(t)$  is too proportional to the time horizon  $t$ . This fact allows aligning interpretations of  $\sigma_{d} \equiv Volatility$  and  $\sigma_{j} \equiv JumpVolatility$ : for very small  $t$ , the standard deviation of  $r(t)$  is equal to

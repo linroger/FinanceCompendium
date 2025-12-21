@@ -1,30 +1,23 @@
 ---
+title: Stat200 Lecture Notes-Stanford
 primary_tags:
-- success/failure probability
-- some basic statistical concepts
-- univariate expectations
-- two particularly important statistics
-- observed value
-- possible values
+- probability and statistics
+- parametric modeling
+- maximum likelihood estimation
 secondary_tags:
-- one or more unknown parameters
-- sample mean
-- likelihood ratio statistic
-- some calculations
-- more than one random variable
-- every other sufficient statistic
-- different log-likelihoods
-- likelihood estimation
-- pareto distribution
-- likelihood many
-- both a random variable
-- sample values
-- prior variance
-- hypothesis value
-- exponential likelihood
-- actual random variables
-tags_extracted: '2025-12-18T18:00:40.057488'
-tags_method: max_quality_v1
+- frequentist and bayesian paradigms
+- random variables and distributions
+- expectation and related concepts
+- discrete random variables
+- continuous random variables
+- convergence concepts
+- weak law of large numbers
+- central limit theorem
+- delta method
+- sufficient statistics
+- factorization theorem
+- exponential family distributions
+cssclasses: academia
 ---
 
 # Lecture 0: Course Introduction
@@ -118,7 +111,8 @@ EXAMPLE 1.1.2: A fair coin is flipped repeatedly until it comes up heads. Let  $
 A random variable  $X$  is continuous if its possible values form an uncountable set (e.g., some interval on  $\mathbb{R}$ ) and the probability that  $X$  equals any such value exactly is zero.
 
 - The probability density function (pdf) of a continuous random variable  $X$  is a nonnegative function  $f(x)$  such that  $\int_{a}^{b} f(x) \, dx = P(a \leq X \leq b)$  for any  $a, b \in \mathbb{R}$ . It is always true that  $\int_{-\infty}^{\infty} f(t) \, dt = 1$ .  
-- Again, the cdf of a random variable  $X$  is  $F(x) = P(X \leq x)$ . If  $X$  is continuous, then  $F(x) = P(X \leq x) = \int_{-\infty}^{x} f(t) \, dt$ , and so the cdf is a continuous function.  
+- Again, the cdf of a random variable  $X$  is  $F(x) = P(X \leq x)$ . If  $X$  is continuous, then  $F(x) = P(X \leq x) = \int_{-\infty}^{x} f(t) \, dt$ , and so the cdf is a continuous function.
+
 Note that the pdf can be obtained by differentiating the cdf.
 
 Specific types of continuous random variables include normal, exponential, beta, gamma, chi-squared, Student's  $t$ , and continuous uniform random variables.
@@ -129,7 +123,7 @@ $$
 f(x) = \lambda \exp(-\lambda x) I_{[0,\infty)}(x) = \left\{\begin{array}{ll} \lambda \exp(-\lambda x) & \text{if } x \geq 0, \\ 0 & \text{if } x < 0, \end{array} \right.
 $$
 
-which we recognize as an exponential distribution. The probability that the part functions for at least  $c$  hours is  $P(X \geq 100) = \int_{c}^{\infty} f(x) \, dx = \exp(-c\lambda)$ .
+which we recognize as an exponential distribution. The probability that the part functions for at least  $c$  hours is  $P(X \geq c) = \int_{c}^{\infty} f(x) \, dx = \exp(-c\lambda)$ .
 
 Note: The cdf is a more general description of a random variable than the pmf or pdf, since it has a single definition that applies for both discrete and continuous random variables. In fact, there is no difficulty in writing down the cdf of a "mixed" random variable that is neither wholly discrete nor wholly continuous. Such a cdf would simply include both jump discontinuities and regions where it is continuously increasing. However, such "mixed" random variables have neither a pmf nor a pdf in the senses considered here.
 
@@ -514,7 +508,7 @@ $$
 \begin{array}{l} \sum_{i=2} ^{n} Y_{i} ^{2} = \sum_{i=1} ^{n} Y_{i} ^{2} - Y_{1} ^{2} = \boldsymbol{Y} ^{T} \boldsymbol{Y} - Y_{1} ^{2} = \boldsymbol{X} ^{T} \boldsymbol{A} ^{T} \boldsymbol{A} \boldsymbol{X} - n (\overline{{X}}) ^{2} = \boldsymbol{X} ^{T} \boldsymbol{X} - n (\overline{{X}}) ^{2} = \sum_{i=1} ^{n} X_{i} ^{2} - n (\overline{{X}}) ^{2} \\ = (n - 1) S^{2}. \\ \end{array}
 $$
 
-Finally, note that  $Y_{1},\ldots ,Y_{n}$  are all independent, so  $Y_{1}$  and and  $\sum_{i=2}^{n}Y_{i}^{2}$  are independent.
+Finally, note that  $Y_{1},\ldots ,Y_{n}$  are all independent, so  $Y_{1}$  and  $\sum_{i=2}^{n}Y_{i}^{2}$  are independent.
 
 Without the normality assumption, some parts of Theorem 2.1.3 still hold, but others do not. Suppose  $X_{1},\ldots ,X_{n}$  are iid with  $E(X_{1}) = \mu$  and  $\operatorname{Var}(X_1) = \sigma^2$ , but suppose their distribution is not necessarily normal.
 

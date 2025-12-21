@@ -1,47 +1,38 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
-title: Chapter 1
-linter-yaml-title-alias: Chapter 1
+title: Chapter 01 What Is Mathematics
+parent_directory: I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics
+formatted: 2025-12-21 09:20:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
-  - mit prof. fox
-  - mathematical arguments
-  - specific example
-  - new things
-  - even cases
-  - three words
-  - two types
+- mathematical proofs
+- pythagorean theorem
+- mathematical reasoning
+- mathematical arguments
+- mathematical truth
 secondary_tags:
-  - new mathematical discoveries
-  - mathematical induction
-  - related ideas
-  - mathematician gödel
-  - only answer/s. problem
-  - other arguments
-  - some context-dependent ingenuity
-  - even natural numbers
-  - any one topic
-  - whole numbers
-tags_extracted: 2025-12-18T17:56:32.693767
-tags_method: max_quality_v1
+- mathematical induction
+- mathematical discoveries
+- triangle geometry
+- mathematical proof examples
+- mathematical problem solving
+- mathematical thinking
+- mathematical creativity
+- mathematical verification
+- mathematical explanations
+- mathematical foundations
+cssclasses: academia
 ---
 
-# Chapter 1
+# Chapter 01 What Is Mathematics
 
-# What Is Mathematics?
-
-# 1.1 Truths and Proofs
+## 1.1 Truths and Proofs
 
 How do you know whether something is true or not? Surely, you've been told that the angles of a triangle add to  $180^{\circ}$ , for example, but how do you know for sure? What if you met an alien who had never studied basic geometry? How could you convince him/her/it that this fact is true? In a way, this is what mathematics is all about: devising new statements, deciding somehow whether they are true or false, and explaining these findings to other people (or aliens, as the case may be). Unfortunately, it seems like many people think mathematicians spend their days multiplying large numbers together; in actuality, though, mathematics is a far more creative and writing-based discipline than its widely-perceived role as ever-more-complicated arithmetic. One aim of this book is to convince you of this fact, but that's merely a bonus. This book's main goals are to show you what mathematical thinking, problem-solving, and proof-writing are really all about, to show you how to do those things, and to show you how much fun they really are!
 
-As a side note, you might even wonder "What does it mean for something to be true?" A full discussion of this question would delve into philosophy, psychology, and maybe linguistics, and we don't really want to get into that. The main idea in the context of mathematics, though, is that something is true only if we can show it to be true always. We know  $1 + 1 = 2$  always and forever. It doesn't matter if it's midnight or noon, we can rest assured that equation will hold true. (Have you ever thought about how to show such a fact, though? It's actually quite difficult! A book called the Principia Mathematica does this from "first principles" and it takes the authors many, many pages to even get to  $1 + 1 = 2!$ ) This is quite different from, perhaps, other sciences. If we conduct a physical experiment 10 times and the same result occurs, do we know that this will always happen? What if we do the experiment a million times? A billion? At what point have we actually proven anything? In mathematics, repeated experimentation is not a viable proof! We would need to
+As a side note, you might even wonder "What does it mean for something to be true?" A full discussion of this question would delve into philosophy, psychology, and maybe linguistics, and we don't really want to get into that. The main idea in the context of mathematics, though, is that something is true only if we can show it to be true always. We know  $1 + 1 = 2$  always and forever. It doesn't matter if it's midnight or noon, we can rest assured that equation will hold true. (Have you ever thought about how to show such a fact, though? It's actually quite difficult! A book called the Principia Mathematica does this from "first principles" and it takes the authors many, many pages to even get to  $1 + 1 = 2!$ ) This is quite different from, perhaps, other sciences. If we conduct a physical experiment 10 times and the same result occurs, do we know that this will always happen? What if we do the experiment a million times? A billion? At what point have we actually proven anything? In mathematics, repeated experimentation is not a viable proof! We would need to find an argument that shows why such a phenomenon would always occur. As an example, there is a famous open problem in mathematics called the Goldbach Conjecture. It is unknown, as of now, whether it is true or not, even though it has been verified by computer simulations up until a value of roughly  $10^{18}$ . That's a huge number, but it is still not enough to know whether the conjecture is True or False. Do you see the difference? We mathematicians like to prove facts, and checking a bunch of values but not all of them does not constitute a proof.
 
-find an argument that shows why such a phenomenon would always occur. As an example, there is a famous open problem in mathematics called the Goldbach Conjecture. It is unknown, as of now, whether it is true or not, even though it has been verified by computer simulations up until a value of roughly  $10^{18}$ . That's a huge number, but it is still not enough to know whether the conjecture is True or False. Do you see the difference? We mathematicians like to prove facts, and checking a bunch of values but not all of them does not constitute a proof.
-
-# 1.1.1 Triangle Tangle
+### 1.1.1 Triangle Tangle
 
 We've introduced the idea of a proof by talking about what we hope proofs to accomplish, and why we would care so much about them. You might wonder, then, how one can define a proof. This is actually a difficult idea to address! To approach this idea, we are going to present several different mathematical arguments. We want you to read along with them, and think about whether they are convincing. Do they prove something? Are they correct? Are they understandable? How do they make you feel? Think about them on your own and develop some opinions, and then read along with our discussion.
 
@@ -57,7 +48,7 @@ Have you ever wondered why it's true? How would you explain it to a skeptical fr
 
 Now, what exactly constitutes a proof? How do we know that an explanation is sufficiently clear and concise? Answering this question is, in general, rather difficult and is part of the reason why mathematics can be viewed as an art as much as it is a science. We deal with cold, hard facts, yes, but being able to reason with these facts and satisfactorily explain them to others is an art form in itself.
 
-# Examples of "Proofs"
+## Examples of "Proofs"
 
 Let's look at some sample "proofs" and see whether they work well enough. (We say "proof" for now until we come up with a more precise definition for it, later on.) Here's the first one:
 
@@ -121,35 +112,11 @@ Did that make any sense to you? Finally, here's one last "proof" to consider.
 
 "Proof" 4. The Pythagorean Theorem must be true, otherwise my teachers have been lying to me.  $\square$
 
-# Discussion
+## Discussion
 
-Before reading on, we encourage you to think about these four "proofs" and even discuss them with another student or a friend. What do you think constitutes a "correct" proof? Is clarity and ease of reading important? Does it affect the "correctness" of a proof?
+### Clarity
 
-From a historical perspective, mathematical proof-writing has evolved over the years and there is a good, general consensus as to what constitutes a "correct" proof:
-
-- It is important that every step in the proof, every logical inference and claim, is valid, mathematically speaking.  
-- It is also important that the proof-writer makes (reasonably) clear why a statement follows from the previous work or from outside knowledge.
-
-What's nice about the truth requirement is that mathematics has been built up so that we can read through an argument and verify each claim as True or False. What's difficult to define is clear writing. In a way, it is much like Supreme Court Justice Potter Stewart's famous definition of obscenity: "I know it when I see it".
-
-Given these four arguments for comparison, let's assess them for clarity and correctness:
-
-# Clarity:
-
-- "Proofs" 1 and 2 are fairly well explained. There are clear statements about what the writer is doing and why. They indicate where any equations come from, and even include some pictures to illustrate their ideas for the reader.
-
-Notice that "proof 1" does rely on some basic prior knowledge, like the algebraic manipulation of variables and formulae for the area of a triangle and square, but this is fine.
-
-Likewise, "Proof 2" relies on some understanding of similar triangles and what this means about the lengths of their sides. At least the proof-writers pointed this out, so an interested reader could look up some relevant ideas. If they didn't say this, a reader might be confused and have no idea how to figure out what they're missing!
-
-- "Proof" 3 is very poorly worded! It offers no explanation whatsoever. This makes it quite difficult to determine whether their claims are actually correct. Yes, a picture is included, but there is no indication of why they chose to draw a circle around the triangle, or why the stated equations follow from the diagram.  
-- "Proof" 4 is a grammatically correct English sentence, but it doesn't explain anything!
-
-Already, we can see that "Proof" 4 is certainly ont a viable candidate for being a good and proper proof. "Proofs" 1 and 2 are still in the running, since they are at least written clearly. "Proof" 3, as it is written now, would probably not be a good candidate; however, maybe it does contain correct ideas that just require better explanations. Perhaps it could be rewritten as a good and proper proof.
-
-Let's analyze the logical correctness of these four arguments:
-
-# Correctness:
+### Correctness
 
 - "Proof" 1 mostly good. The formulae for the areas of the square and triangles are correctly applied, and the algebraic manipulation thereof is correct. But how do we know that the process they described—putting four copies of the given triangle inside a larger square—creates a square with side length  $c$  on the inside? They merely say it does so without
 
@@ -177,23 +144,11 @@ Can you write some sentences to go along with the diagram that would turn this i
 
 This discussion shows that "Proof" 1 is actually a good proof. Amongst all four, it is the most clearly-written, and the one that is logically correct. We can refer to it now as a proof. "Proof" 2 is outright incorrect, despite how clearly it is presented. "Proof" 3 contains correct ideas, but is not presented clearly. "Proof" 4 is so far from a proof that we don't even want to discuss it.
 
-# Question
+### Question
 
-Before moving on to other topics, we'll leave you with a question: if we give you three positive numbers  $a, b, c$  that satisfy  $a^2 + b^2 = c^2$ , is it necessarily true that there is a right triangle with side lengths  $a, b$  and hypotenuse length  $c$ ? If so, how could you go about constructing it? If not, why not?
+## Definition, Examples, and Uses
 
-# 1.1.2 Prime Time
-
-While we're on the topic of proofs, let's look at another proof, for a different theorem. As a reminder (or brief introduction), let's talk about prime numbers.
-
-# Definition, Examples, and Uses
-
-Definition 1.1.2. A positive integer  $p$  that is larger than 1 is called a prime number if the only positive divisors of  $p$  are 1 and  $p$ . A non-prime positive integer is called a composite number.
-
-Prime numbers have shown to be incredibly important in all branches of mathematics, not just the study of integers and their properties, which is known as number theory. One of the most famous conjectures (a guess at a theorem that has been neither proven nor disproven thus far) in all of mathematics is the Riemann Hypothesis. Its conclusion has been shown to be closely related to the distribution of prime numbers throughout the integers. Many books have been written on this topic. Also, most modern cryptography schemes are based on multiplying huge prime numbers together, relying on the fact that it's quite difficult to undo this process and figure out the two huge prime factors, given their product. So now you know: every time you buy a song on iTunes with your credit card, some computer just multiplied two large prime numbers!
-
-The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, … (remember, 1 does not fit our definition). How many prime numbers are there? How far apart are they? Is there a pattern? Answering questions like these can be interesting and fun, but also difficult (and sometimes, impossible!). Here, we'll answer one of the questions: are there an infinite number of prime numbers?
-
-# Theorem and Proof
+### Theorem and Proof
 
 Theorem 1.1.3 (Infinitude of the Primes). There are infinitely-many prime numbers.
 
@@ -215,17 +170,9 @@ What do you think of this "proof"? Are you convinced? It feels a little differen
 
 Let's talk about a different type of number, now: rational numbers. You might know rational numbers as "fractions" or "quotients" or "ratios".
 
-# Definition and Examples
+### Definition and Examples
 
-Here is a precise definition of rational numbers:
-
-Definition 1.1.4. A real number  $r$  is a rational number if and only if it can be expressed as a ratio of two integers  $r = \frac{a}{b}$ , where  $a$  and  $b$  are both integers (and  $b \neq 0$ ).
-
-A real number that is not rational is called irrational.
-
-Nothing about this definition says that there has to be only one such representation of a rational number; it merely requires that a rational number have at least one such a representation. For instance, 1.5 is a rational number because  $1.5 = \frac{3}{2} = \frac{12}{8} = \frac{30}{20}$  and so on. A real number that is not rational is called an irrational number, and that's the entire definition: not rational, i.e. there is no such representation of the number as a ratio of integers. You may know that  $\sqrt{2}$  is an irrational number, but how do you prove such a thing? Try it for yourself. We will actually reexamine this question later on (see Example 4.9.4). Other irrational numbers you may know already include  $e, \pi, \varphi$  and  $\sqrt{n}$  where  $n$  is any positive integer that is not a perfect square.
-
-# Questions
+### Questions
 
 Given this definition of rational/irrational, we might wonder how we can combine irrational numbers to produce a rational number. Try to answer the following questions on your own. If your answer is "yes", try to find an example, and if your answer is "no", try to explain why the desired situation is not possible.
 
@@ -259,19 +206,9 @@ There are plenty of other concrete examples that answer this question, though. C
 
 # 1.2.1 Simply Symbols
 
-# Mathematics is a Language
+## Mathematics is a Language
 
-Despite appearances (and some densely-written textbooks), mathematics is not just a collection of symbols that we push around on paper. The English language is based on a fixed group of symbols (the 26 letters of the alphabet plus common punctuation like the period and comma and parenthesis) but we put these symbols together in a specific way, while following some standard and
-
-agreed-upon conventions, to craft meaningful words, phrases, sentences, paragraphs, and so on; in essence, English, like any language, is a way to convey meaning via a collection of symbols and a collection of rules governing those symbols. The same concept applies to the language of mathematics: there is a collection of symbols and a set of rules that we apply to those symbols.
-
-One difference is that the collection of symbols we use in mathematics can be rather large, depending on which branch of mathematics currently being discussed. A big part of the structural versatility of mathematics is that we can always create and define new symbols to use. Oftentimes, this is even done to make things shorter and easier to read.
-
-Another main difference between mathematics and other languages is that we choose carefully how to define our words and the concepts they represent. Frequently, most of the debates mathematicians have revolve around definitions. This may be surprising to you; perhaps it would make more sense to think that mathematicians debate over proofs and conjectures, or maybe it's a novel idea that mathematicians even debate at all! Choosing the right definitions and terms for a newly-discovered concept is a crucial component of mathematical discovery and exposition since it helps the discoverer/inventor explain his/her ideas to other, interested people. (Without this process, there is no advancement in mathematics, just a bunch of isolated people trying to discover truths on their own.)
-
-The situation is similar with spoken languages, but not as extreme, it seems. For instance, if you said to your friend, "I'm hungry", or "I'm feeling a bit peckish", or "Oh my god, I'm starving", they hear essentially the same message and would respond roughly the same way in each case. In mathematics, though, our definitions are far more precise and don't incorporate the types of nuances that spoken language permits. Of course, there are benefits and disadvantages to both philosophies, but in mathematics we strive for precision whenever possible, so we like our definitions to be exact and unwavering. That said, though, we have control over what those definitions are! This is why debates over definitions are so prevalent in the mathematical world: choosing the right definitions for concepts at hand can make future work with those concepts much easier and more convenient.
-
-# Choosing Definitions Properly
+### Choosing Definitions Properly
 
 As a concrete example, let's return to Definition 1.1.2 of a prime number that we saw in the previous subsection. It said:
 
@@ -301,35 +238,9 @@ There is a special property about these factorizations, too: in general, a prime
 
 that definitions should be driven by both logic and usefulness, and this can change over time and stir some debate.
 
-# Mathematicians Study Patterns
+## Mathematicians Study Patterns
 
-Another benefit of establishing clear and precise definitions is the knowledge and understanding you gain as a thinker; establishing logical foundations can be helpful in the future. A major aspect of how human beings learn involves identifying patterns through everyday experience and then associating ideas, concepts, words and events with those patterns. Then, one can use those patterns to predict and theorize about abstract ideas, concepts and events.
-
-For instance, it has been studied and shown that human babies initially lack, but develop over time, the concept of object permanence. If you show a child a colorful toy that they smile at and enjoy, and then hide it under a cardboard box, the child doesn't quite understand that the toy still exists but is just out of sight. He/she will act as if the object is no longer in existence. At some point, though, we learn that this isn't true and that objects that are outside our realm of vision are still existent. How exactly does this happen? Well, perhaps we recognize the pattern of many such occurrences where an object "disappears" and then we find it again later.
-
-Better examples can be found in the natural sciences, and they illustrate an extra facet of pattern recognition and abstract thinking that is of utmost importance, particularly in mathematics and the sciences. One can imagine that Neanderthals somehow knew that any time they picked up a rock and held it at arm's length and then let go, the rock would fall to the ground. This probably happened over and over and so they "understood" that this phenomenon is a necessary product of nature. After enough occurrences, it was likely understood that this would always happen, or, at least, any instance in which it didn't happen would cause great confusion and fear. (It is this type of emotional response which might serve to explain how the infrequent but powerful occurrences of, say, volcanic eruptions led ancient civilizations to blame such events on "angry gods").
-
-None of these observations of events brought these prehistoric human beings any closer to understanding why the rock would always fall to the ground, or being able to explain why it would necessarily happen every time. It would be many millennia before people even began to think to ask why and how this phenomenon occurred, and even longer before Isaac Newton finally proposed a model that sought to explain the behavior of gravity (the name given to this type of phenomenon, eventually). And even now, some say, we still haven't figured out precisely how it works. (Go online and Google "loop quantum gravity" and try to understand that, if you're curious).
-
-It's this abstractive leap in thinking—from observations of a pattern to an epistemological understanding of that pattern—that characterizes a truly inquisitive and intellectual thinker, a true scientist, in the best sense of the word. Whom would you consider the better entomologist: the voracious reader who has memorized and can list all of the currently-known species of beetle in the
-
-world, or the laboratory scientist who has examined a variety of species and can take a new specimen and classify it as a beetle or non-beetle? This is somewhat of a leading question, but the main point is this: it is far more beneficial to understand a definition and the motivations behind it than it is to simply know a bunch of instances that satisfy a certain definition.
-
-This is, arguably, even more important in mathematics. Can you imagine a mathematician who didn't know what a prime number was but could merely list the first 100 prime numbers from memory and was content with that? Of course not! Part of the beauty, versatility, and appeal of the study of mathematics is that we examine patterns and phenomena and then choose how to make the appropriate definitions associated with those patterns. We then use our newfound understanding of those patterns to make rigorously precise predictions about other patterns and phenomena. Thoroughly understanding a definition or concept increases the predictive power, and is far more effective than merely knowing examples of that definition/concept.
-
-# 1.2.2 Write Right
-
-Another interesting aspect of mathematics is that, as much as it is a language unto itself, we rely on an external language to convey the mathematical thoughts and insights we have. Try rewriting any of the definitions and proofs we've looked at before without using any words. It's tough, isn't it? Accordingly, we want the written language we use to convey mathematical ideas to follow the same types of standards we apply to the mathematical "sentences" we write: we want them to be precise, logical, and clear.
-
-Now, deciding on a precise, logical, and clear definition for each of these three words is a difficult task, in itself. However, we can all agree that it would be ideal for a proof to be:
-
-- precise: no individual statement should be untrue or interpretable in multiple ways that would make the truth debatable;  
-- logical: each step should follow from previous steps with proper motivation and explanation; and,  
-- clear: steps should be connected and described with proper English grammar and usage, helping the reader to see what's going on.
-
-Let's examine a few "proofs" that disregard these standards and somehow fail to fit the definition of proof that we have so far.
-
-# Bad "Proof" 1
+### Bad "Proof" 1
 
 First, we have a "proof" that  $1 = 2$ , so we know there must be something wrong with this one. Can you find the error? Which standard does it violate? Precision, logic, or clarity?
 
@@ -381,53 +292,9 @@ divide both sides by  $y$
 
 The issue here is precision. After factoring in line four, it seems convenient and wise to divide by the common factor  $(x - y)$  to obtain line five; however, line one tells us that  $x = y$  so  $x - y = 0$ , and division by zero is not allowed! Working with the variables  $x$  and  $y$  was just a way to throw you off the scent and disguise the division by zero. (While we're on the topic, why is division by zero not allowed? Can you think of a reasonable explanation? Think about it in terms of multiplication.)
 
-# Bad "Proof" 2
+### Bad "Proof" 2
 
-Here's another proof of a similar "fact", namely that  $0 = 36$ .
-
-"Proof". Consider the equation  $x^{2} + y^{2} = 25$ . Rearranging to isolate  $x$  tells us
-
-$$
-x = \sqrt{25 - y^{2}}
-$$
-
-and then adding 3 to both sides and squaring yields
-
-$$
-(x + 3)^{2} = \left(3 + \sqrt{25 - y^{2}}\right)^{2}
-$$
-
-Notice that  $x = -3$  and  $y = 4$  is a solution to the original equation, so the final equation should be true, as well. Plugging in these values for  $x$  and  $y$  tells us
-
-$$
-0 = (-3 + 3)^{2} = \left(3 + \sqrt{25 - 16}\right)^{2} = (3 + 3)^{2} = 36
-$$
-
-Therefore,  $0 = 36$
-
-What happened here? Can you spot the illogical step? Perhaps it would help if we rewrote the steps of the proof using the specific values of the variables
-
-$x$  and  $y$  that we chose towards the end:
-
-$$
-\begin{array}{l} (-3)^{2} + 4^{2} = 25 \\ -3 = \sqrt{25 - 4^{2}} \\ \end{array}
-$$
-
-$$
-\begin{array}{l} (-3 + 3)^{2} = \left(3 + \sqrt{25 - 4^{2}}\right)^{2} \\ 0 = 36 \\ \end{array}
-$$
-
-It's obvious now, isn't it? There's an issue with applying the square root operation to both sides of an equation, and it's dependent on the fact that  $(-x)^{2} = x^{2}$ .
-
-When we are looking to solve an equation like  $z^2 = x^2$ , we have to remember there are two roots of this equation:  $z = -x$  and  $z = x$ . Accordingly, starting from an equation and squaring both sides is a completely logical step (the truth of the resulting equations follows from the truth of the original equation), but working the other way is an illogical step (the truth of the squared equation does not necessarily tell us that the square-rooted equation is also true). This is an issue with conditional statements or logical implications, an idea we will discuss in detail later on (in Section 4.5.3). For now, we can summarize this idea with the following line:
-
-$$
-\text{If } a = b \text{ then } a^{2} = b^{2}, \text{ butif } a^{2} = b^{2} \text{ then } a = b \text{ or } a = -b.
-$$
-
-This shows why moving from  $x^{2} + y^{2} = 25$  to  $x = \sqrt{25 - y^2}$  in the "proof" above is an illogical step: we are immediately assuming one particular choice for the square root when there are two possible options. What would have happened if we had chosen the negative square root there? Try rewriting the proof with the second step reading  $-x = \sqrt{25 - y^2}$ , instead, and then use the same values for  $x$  and  $y$  at the end. What happens? What if you use  $x = 3$  and  $y = -4$  instead? Or  $x = -5$  and  $y = 0$ ? Can you describe how to determine when we should use the positive root  $x$  and when we should use the negative root  $-x$ ?
-
-# Mathematics Uses the "Inclusive Or"
+## Mathematics Uses the "Inclusive Or"
 
 Since this word just arose, let's mention the use of  $or$  in the sentence above. When we say " $a = b$  or  $a = -b$ ", we mean that at least one of the two statements must be true, possibly both. Now, if both  $a \neq 0$  and  $b \neq 0$ , then only one of the concluding statements can be true; that is, in that context, only one of the roots (positive or negative) will be the correct one and not both. If  $b = 0$ , though, then both of the concluding statements say the same thing,  $a = 0$ , so it would be illogical to dictate that  $or$  means only one of the statements can be true and doesn't allow both of them to be true, simultaneously. In other situations, this distinction makes a more marked difference.
 

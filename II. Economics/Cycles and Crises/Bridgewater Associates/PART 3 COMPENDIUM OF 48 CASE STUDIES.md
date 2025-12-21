@@ -1,171 +1,114 @@
 ---
-aliases:
-- Compendium of 48 Case Studies
-tags: null
-key_concepts: null
+title: "Part 3: Compendium of 48 Case Studies"
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
-cssclasses: academia
-title: 'Part 3: Compendium of 48 Case Studies'
-linter-yaml-title-alias: 'Part 3: Compendium of 48 Case Studies'
+formatted: 2025-12-21 09:15:00 AM
+formatter_model: claude-sonnet-4.5
+cli_tool: opencode
 primary_tags:
-- currency weakness contributed high
-- american debt crisis argentina
-- peru experienced bubble driven
-- crisis peak gdp period
-- economic conditions ecuador
-- bubble debt crisis roots
-- attribution reflation period argentina
+- debt crises analysis
+- historical deleveragings
+- economic case studies
 secondary_tags:
-- navigating big debt crises
-- debt crises ray dalio
-- bubble pressures argentina
-- currency debt crises
-- attribution reflation period indonesia
-- deleveraging debt gdp went
-- debt levels left argentina
-- peru experienced classic hyperinflationary
-- rising inflation argentina financial
-- debt crisis typically involves
-- attribution reflation period ecuador
-- united states experienced bubble
-- sample debt crises deleveragings
-- financial crisis hungary suffered
-- attribution reflation period peru
-- 1980s latin american debt
-- nominal income rising ecuador
-- rising indonesia lower currency
-- economic conditions indonesia
-tags_extracted: '2025-12-18T00:04:20.558291'
+- deflationary deleveraging
+- inflationary deleveraging
+- bridgewater associates methodology
+- archetypal debt crisis template
+- deleveraging attribution
+- monetary policy responses
+- fiscal policy responses
+- financial institution management
+- external position crises
+- domestic currency crises
+cssclasses: academia
 ---
 
-Principles
+# Part 3: Compendium of 48 Case Studies
 
-For Navigating
+```d2
+direction: right
 
-BIG
+bubble: Bubble Phase {
+  style.fill: "#e3f2fd"
+  style.stroke: "#1976d2"
+}
 
-DEBT
+depression: Depression Phase {
+  style.fill: "#ffebee"
+  style.stroke: "#d32f2f"
+}
 
-CRISES
+reflation: Reflation Phase {
+  style.fill: "#e8f5e9"
+  style.stroke: "#388e3c"
+}
 
-RAY DALIO
+bubble -> depression: Shock/Event
+depression -> reflation: Policy Response
+reflation -> bubble: Recovery (next cycle)
+```
 
-PART 3: COMPENDIUM OF 48 CASE STUDIES
+This compendium analyzes 48 historical debt crises through the lens of the archetypal debt crisis template: Bubble → Depression → Reflation phases.
 
-<toc>
-# Table of Contents
+## Table of Contents
 
-Glossary of Key Economic Terms 5
+- Glossary of Key Economic Terms
 
-# Primarily Domestic Currency Debt Crises
+## Primarily Domestic Currency Debt Crises (Typically Deflationary Deleveraging)
 
-(Typically Deflationary Deleveraging)
+- United States 1929
+- UK 1929
+- Japan 1929
+- France 1929
+- UK 1943
+- United States 1945
+- Norway 1990
+- Finland 1991
+- Sweden 1991
+- Japan 1991
+- United States 2007
+- Austria 2008
+- Germany 2008
+- Greece 2008
+- Hungary 2008
+- Ireland 2008
+- Italy 2008
+- Netherlands 2008
+- Portugal 2008
+- Spain 2008
+- UK 2008
 
-United States 1929 11
+## Non-Domestic Currency Debt Crises (Typically Inflationary Deleveraging)
 
-UK 1929 15
+- Germany 1918
+- Argentina 1980
+- Brazil 1980
+- Chile 1981
+- Mexico 1981
+- Peru 1982
+- Philippines 1983
+- Malaysia 1984
+- Peru 1987
+- Argentina 1989
+- Brazil 1990
+- Turkey 1993
+- Mexico 1994
+- Bulgaria 1995
+- Thailand 1996
+- Indonesia 1997
+- Korea 1997
+- Malaysia 1997
+- Philippines 1997
+- Russia 1997
+- Colombia 1998
+- Ecuador 1998
+- Turkey 2000
+- Argentina 2001
+- Iceland 2008
+- Russia 2008
+- Russia 2014
+- Appendix: Macroprudential Policies
 
-Japan 1929 19
-
-France 1929 23
-
-UK 1943 27
-
-United States 1945 33
-
-Norway 1990 39
-
-Finland 1991 43
-
-Sweden 1991 47
-
-Japan 1991 51
-
-United States 2007 55
-
-Austria 2008 59
-
-Germany 2008 63
-
-Greece 2008 67
-
-Hungary 2008 71
-
-Ireland 2008 75
-
-Italy 2008 79
-
-Netherlands 2008 83
-
-Portugal 2008 87
-
-Spain 2008 91
-
-UK 2008 95
-
-# Non-Domestic Currency Debt Crises
-
-(Typically Inflationary Deleveraging)
-
-Germany 1918 99
-
-Argentina 1980 105
-
-Brazil 1980 109
-
-Chile 1981 113
-
-Mexico 1981 117
-
-Peru 1982. 121
-
-Philippines 1983 125
-
-Malaysia 1984 129
-
-Peru 1987 133
-
-Argentina 1989 137
-
-Brazil 1990 141
-
-Turkey 1993 145
-
-Mexico 1994 149
-
-Bulgaria 1995 153
-
-Thailand 1996 157
-
-Indonesia 1997 161
-
-Korea 1997. 165
-
-Malaysia 1997 169
-
-Philippines 1997 173
-
-Russia 1997 177
-
-Colombia 1998 181
-
-Ecuador 1998 185
-
-Turkey 2000 189
-
-Argentina 2001 193
-
-Iceland 2008 197
-
-Russia 2008 201
-
-Russia 2014 205
-
-Appendix: Macroprudential Policies 209
-
-</toc>
-
-# Glossary of Key Economic Terms
+## Glossary of Key Economic Terms
 
 Below we explain some of the economic concepts used in Part 3 (and other parts of the books as well). These explanations are simplified for brevity.
 
@@ -237,9 +180,9 @@ tightening: Policy moves that reduce the availability of money and credit, which
 
 yield curve: The difference between shorter-term interest rates and longer-term interest rates. If short rates are above longer-term rates, the yield curve is said to be inverted, meaning short-term interest rates are priced to fall. If short rates are below longer-term rates, short-term interest rates are priced to rise.
 
-# 48 Debt Crises
+## 48 Debt Crises
 
-This section goes through each of the 48 debt crises we examined, so that you can live through them on your own. This case list was generated by us systematically screening for periods of deleveraging across major countries over the last century—focusing on those cases with a real GDP decline of more than  $3\%$ —as well as triangulating that list against the work of others like the IMF and prominent academics. This by no means encapsulates all the debt crises that have occurred over the past century, but it provides a good sample of debt crises and deleveragings that highlight the key similarities (as discussed in Part 1) as well as the differences.
+This section goes through each of the 48 debt crises we examined, so that you can live through them on your own. This case list was generated by us systematically screening for periods of deleveraging across major countries over the last century—focusing on those cases with a real GDP decline of more than $3\%$ —as well as triangulating that list against the work of others like the IMF and prominent academics. This by no means encapsulates all the debt crises that have occurred over the past century, but it provides a good sample of debt crises and deleveragings that highlight the key similarities (as discussed in Part 1) as well as the differences.
 
 Each case includes a simple computer-generated text analysis of what happened along with a bunch of charts showing the basic stats. These "auto-text" comments are observations of the basic stats and they present a very simplified version of our algorithmic analysis. I am providing you with these to show you how, by viewing cases through a simplified lens (based on the even more simplified template explained in Part 1), the important things pop. Note how the perspective you gain by seeing these situations in a simple way contrasts with the perspective you get when viewing the more complete blizzard of details described in Part 2. I hope seeing the cases at this level helps you more easily see the principle-level commonalities and differences explained in the "Archetypal Big Debt Crisis" template.
 
@@ -249,11 +192,11 @@ As shown in the charts to the right, the United States experienced a classic def
 
 # The Bubble Phase
 
-Between 1926 and 1929, the United States experienced a bubble that was driven by a self-reinforcing cycle of rising debt, strong equity returns, and strong growth. By the bubble's end, debts had reached a pre-crisis peak of  $125\%$  of GDP. In this case, the debt was in the United States's domestic currency, and the majority was owned domestically, too. Aided by that rising debt, growth was strong (at  $3\%$ ), while levels of economic activity were high (the GDP gap peaked at  $13\%$ ). Furthermore, strong asset returns (equities averaged  $31\%$  annualized returns over the bubble period) encouraged more borrowing and helped to stimulate growth. During this bubble period, policy makers initiated a moderate tightening (with short rates rising around 250 bps). Taken together, these bubble pressures, combined with tightening money and credit, created an unsustainable situation.
+Between 1926 and 1929, the United States experienced a bubble that was driven by a self-reinforcing cycle of rising debt, strong equity returns, and strong growth. By the bubble's end, debts had reached a pre-crisis peak of $125\%$ of GDP. In this case, the debt was in the United States's domestic currency, and the majority was owned domestically, too. Aided by that rising debt, growth was strong (at $3\%$), while levels of economic activity were high (the GDP gap peaked at $13\%$). Furthermore, strong asset returns (equities averaged $31\%$ annualized returns over the bubble period) encouraged more borrowing and helped to stimulate growth. During this bubble period, policy makers initiated a moderate tightening (with short rates rising around 250 bps). Taken together, these bubble pressures, combined with tightening money and credit, created an unsustainable situation.
 
 # The Depression Phase
 
-Eventually the dynamic turned, producing a self-reinforcing bust and an "ugly deleveraging," which ran from 1929 to 1933. High debt levels left the United States vulnerable to a shock—which came in the form of the 1929 stock market crash. The United States suffered from self-reinforcing declines in GDP (falling by  $26\%$ ), in stock prices (falling by  $84\%$ ) and in home prices (falling by  $24\%$ ). Unemployment rates increased by  $23\%$ . The United States's financial institutions also came under considerable pressure. As shown in the attribution chart to the right, even though the United States needed a deleveraging, its debt as a  $\%$  GDP went up by  $98\%$  (26% annualized), driven by a mix of falling real incomes, deflation, and interest payments financed with new debt.
+Eventually the dynamic turned, producing a self-reinforcing bust and an "ugly deleveraging," which ran from 1929 to 1933. High debt levels left the United States vulnerable to a shock—which came in the form of the 1929 stock market crash. The United States suffered from self-reinforcing declines in GDP (falling by $26\%$), in stock prices (falling by $84\%$) and in home prices (falling by $24\%$). Unemployment rates increased by $23\%$. The United States's financial institutions also came under considerable pressure. As shown in the attribution chart to the right, even though the United States needed a deleveraging, its debt as a \% GDP went up by $98\%$ (26% annualized), driven by a mix of falling real incomes, deflation, and interest payments financed with new debt.
 
 The gauges below are composed from a compendium of stats shown in the chart deck that follows. Note these are meant to be rough measures.
 
@@ -269,7 +212,7 @@ The gauges below are composed from a compendium of stats shown in the chart deck
 
 # The Reflation Phase
 
-After a slightly longer than average bust phase, policy makers were able to provide enough stimulation to turn the deleveraging into a beautiful one and create a period of reflation, which began in 1933. In terms of monetary policy, the government broke the peg to gold, M0 increased by  $6\%$  of GDP, interest rates were ultimately pushed down to  $0\%$ , and real FX averaged  $-5\%$  during the stimulative phase. Over the cycle, the United States was very aggressive in managing its financial institutions and bad debts, pulling 8 out of 9 classic policy levers. In particular, it provided liquidity and directly purchased troubled assets. This stimulation helped bring nominal growth well above nominal interest rates (with growth averaging  $8\%$  during this period and sovereign long rates falling to  $3\%$ ). During this phase, unemployment rates declined by  $14\%$  and debt as a \% of GDP fell by  $70\%$  (21% annualized), as shown in the attribution chart to the right. Throughout this "beautiful" period, the reduction in debt-to-income ratios was driven primarily by rising real incomes and to a lesser extent by inflation. It took 7 years before real GDP reached its prior peak and equity prices in USD terms recovered within 25 years.
+After a slightly longer than average bust phase, policy makers were able to provide enough stimulation to turn the deleveraging into a beautiful one and create a period of reflation, which began in 1933. In terms of monetary policy, the government broke the peg to gold, M0 increased by $6\%$ of GDP, interest rates were ultimately pushed down to  $0\%$ , and real FX averaged  $-5\%$  during the stimulative phase. Over the cycle, the United States was very aggressive in managing its financial institutions and bad debts, pulling 8 out of 9 classic policy levers. In particular, it provided liquidity and directly purchased troubled assets. This stimulation helped bring nominal growth well above nominal interest rates (with growth averaging  $8\%$  during this period and sovereign long rates falling to  $3\%$ ). During this phase, unemployment rates declined by $14\%$ and debt as a \% of GDP fell by $70\%$ (21% annualized), as shown in the attribution chart to the right. Throughout this "beautiful" period, the reduction in debt-to-income ratios was driven primarily by rising real incomes and to a lesser extent by inflation. It took 7 years before real GDP reached its prior peak and equity prices in USD terms recovered within 25 years.
 
 The crisis had a notable impact on the politics of the United States, as it helped set the stage for FDR, whom many people consider a populist leader, to take power.
 
@@ -339,11 +282,11 @@ As shown in the charts to the right, the United Kingdom experienced a classic de
 
 # The Bubble Phase
 
-Unlike many other cases, the United Kingdom didn't experience a broad-based bubble in the years before the crisis, but it was tied to other countries, economies, and financial markets that were experiencing bubble-like conditions. And it did build up a substantial debt stock, with debts reaching  $210\%$  of GDP prior to the crisis. In this case, the debt was in the United Kingdom's domestic currency, and the majority was owned domestically, too.
+Unlike many other cases, the United Kingdom didn't experience a broad-based bubble in the years before the crisis, but it was tied to other countries, economies, and financial markets that were experiencing bubble-like conditions. And it did build up a substantial debt stock, with debts reaching $210\%$ of GDP prior to the crisis. In this case, the debt was in the United Kingdom's domestic currency, and the majority was owned domestically, too.
 
 # The Depression Phase
 
-Eventually the cycle turned, producing a self-reinforcing bust and an "ugly deleveraging," which ran from 1929 to 1931. High debt levels left the United Kingdom vulnerable to a shock—which came in the form of ripples from a stock crash in the US and the early Great Depression. The United Kingdom suffered from self-reinforcing declines in GDP (falling by  $10\%$ ), and in stock prices (falling by  $61\%$ ). Unemployment rates increased by  $7\%$ . As shown in the attribution chart to the right, even though the United Kingdom needed a deleveraging, its debt as a % GDP went up by  $13\%$  (6% annualized), driven primarily by interest payments financed with new debt and to a lesser extent by falling real incomes. This was partially offset by paying down existing debt.
+Eventually the cycle turned, producing a self-reinforcing bust and an "ugly deleveraging," which ran from 1929 to 1931. High debt levels left the United Kingdom vulnerable to a shock—which came in the form of ripples from a stock crash in the US and the early Great Depression. The United Kingdom suffered from self-reinforcing declines in GDP (falling by $10\%$), and in stock prices (falling by $61\%$). Unemployment rates increased by $7\%$. As shown in the attribution chart to the right, even though the United Kingdom needed a deleveraging, its debt as a % GDP went up by $13\%$ (6% annualized), driven primarily by interest payments financed with new debt and to a lesser extent by falling real incomes. This was partially offset by paying down existing debt.
 
 The gauges below are composed from a compendium of stats shown in the chart deck that follows. Note these are meant to be rough measures.
 
@@ -360,7 +303,7 @@ Deleveraging Attribution: Depression Period
 
 # The Reflation Phase
 
-After a slightly shorter than average bust phase, policy makers were able to provide enough stimulation to turn the deleveraging into a beautiful one and create a period of reflation, which began in 1931. In terms of monetary policy, the government broke the peg to gold, M0 increased by  $2\%$  of GDP, interest rates were ultimately pushed down to  $0\%$ , and real FX averaged  $-8\%$  during the stimulative phase. Over the cycle, the United Kingdom was not aggressive in managing its financial institutions and bad debts, pulling 1 out of 9 classic policy levers. This and other stimulative measures helped bring nominal growth well above nominal interest rates (with growth averaging  $4\%$  during this period and sovereign long rates falling to  $3\%$ ). During this phase, unemployment rates declined by  $8\%$  and debt as a  $\%$  of GDP fell by  $29\%$  (5% annualized), as shown in the attribution chart to the right. Throughout this "beautiful" period, the reduction in debt-to-income ratios was driven primarily by paying down existing debt and to a lesser extent by rising real incomes. This was partially offset by interest payments financed with new debt. It took 5 years before real GDP reached its prior peak and equity prices in USD terms recovered within 8 years.
+After a slightly shorter than average bust phase, policy makers were able to provide enough stimulation to turn the deleveraging into a beautiful one and create a period of reflation, which began in 1931. In terms of monetary policy, the government broke the peg to gold, M0 increased by $2\%$ of GDP, interest rates were ultimately pushed down to $0\%$, and real FX averaged $-8\%$ during the stimulative phase. Over the cycle, the United Kingdom was not aggressive in managing its financial institutions and bad debts, pulling 1 out of 9 classic policy levers. This and other stimulative measures helped bring nominal growth well above nominal interest rates (with growth averaging  $4\%$  during this period and sovereign long rates falling to  $3\%$ ). During this phase, unemployment rates declined by $8\%$ and debt as a \% of GDP fell by $29\%$ (5% annualized), as shown in the attribution chart to the right. Throughout this "beautiful" period, the reduction in debt-to-income ratios was driven primarily by paying down existing debt and to a lesser extent by rising real incomes. This was partially offset by interest payments financed with new debt. It took 5 years before real GDP reached its prior peak and equity prices in USD terms recovered within 8 years.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/c249a7e7-8199-4409-80aa-927ff86a664c/6bf08c63a9e47516eac359753a14d29cd76134d520b6520410b1c61f49b7fa25.jpg)  
 Deleveraging Attribution: Reflation Period
@@ -428,11 +371,11 @@ As shown in the charts to the right, Japan experienced a classic deflationary de
 
 # The Bubble Phase
 
-Unlike many other cases, Japan didn't experience a broad-based bubble in the years before the crisis, but it was tied to other countries, economies, and financial markets that were experiencing bubble-like conditions. And it did build up a substantial debt stock, with debts reaching  $65\%$  of GDP prior to the crisis. In this case, the debt was in Japan's domestic currency, and the majority was owned domestically, too.
+Unlike many other cases, Japan didn't experience a broad-based bubble in the years before the crisis, but it was tied to other countries, economies, and financial markets that were experiencing bubble-like conditions. And it did build up a substantial debt stock, with debts reaching $65\%$ of GDP prior to the crisis. In this case, the debt was in Japan's domestic currency, and the majority was owned domestically, too.
 
 # The Depression Phase
 
-Eventually the cycle turned, producing a self-reinforcing bust and an "ugly deleveraging," which ran from 1927 to 1931. High debt levels left Japan vulnerable to a shock—which came in the form of the 1929 global stock market crash. Japan suffered from self-reinforcing declines in GDP (falling by  $4\%$ ), and in stock prices (falling by  $47\%$ ). Japan's financial institutions also came under considerable pressure. As shown in the attribution chart to the right, even though Japan needed a deleveraging, its debt as a  $\%$  GDP went up by  $36\%$  (8% annualized).
+Eventually the cycle turned, producing a self-reinforcing bust and an "ugly deleveraging," which ran from 1927 to 1931. High debt levels left Japan vulnerable to a shock—which came in the form of the 1929 global stock market crash. Japan suffered from self-reinforcing declines in GDP (falling by $4\%$), and in stock prices (falling by $47\%$). Japan's financial institutions also came under considerable pressure. As shown in the attribution chart to the right, even though Japan needed a deleveraging, its debt as a \% GDP went up by $36\%$ (8% annualized).
 
 The gauges below are composed from a compendium of stats shown in the chart deck that follows. Note these are meant to be rough measures.
 
@@ -449,7 +392,7 @@ Deleveraging Attribution: Depression Period
 
 # The Reflation Phase
 
-After a slightly longer than average bust phase, policy makers were able to provide enough stimulation to turn the deleveraging into a beautiful one and create a period of reflation, which began in 1931. In terms of monetary policy, the government broke the peg to gold, interest rates were ultimately pushed down to  $2\%$ , and real FX averaged  $-26\%$  during the stimulative phase. Over the cycle, Japan was somewhat aggressive in managing its financial institutions and bad debts, pulling 3 out of 9 classic policy levers. This stimulation helped bring nominal growth above nominal interest rates (with growth averaging  $4.7\%$  during this period and sovereign long rates falling to  $3.9\%$ ). During this phase, debt as a  $\%$  of GDP fell by  $18\%$  (4% annualized), as shown in the attribution chart to the right. Throughout this "beautiful" period, the reduction in debt-to-income ratios came mostly from income rising, driven primarily by higher real growth.
+After a slightly longer than average bust phase, policy makers were able to provide enough stimulation to turn the deleveraging into a beautiful one and create a period of reflation, which began in 1931. In terms of monetary policy, the government broke the peg to gold, interest rates were ultimately pushed down to  $2\%$ , and real FX averaged  $-26\%$  during the stimulative phase. Over the cycle, Japan was somewhat aggressive in managing its financial institutions and bad debts, pulling 3 out of 9 classic policy levers. This stimulation helped bring nominal growth above nominal interest rates (with growth averaging  $4.7\%$  during this period and sovereign long rates falling to  $3.9\%$ ). During this phase, debt as a \% of GDP fell by $18\%$ (4% annualized), as shown in the attribution chart to the right. Throughout this "beautiful" period, the reduction in debt-to-income ratios came mostly from income rising, driven primarily by higher real growth.
 
 The crisis had a notable impact on the politics of Japan, as it helped set the stage for Hideki Tojo, whom many people consider a populist leader, to take power.
 

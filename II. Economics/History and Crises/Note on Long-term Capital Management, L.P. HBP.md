@@ -2,33 +2,30 @@
 aliases:
 - Long-Term Capital Management
 - LTCM Case Study
-tags: null
-key_concepts: null
 parent_directory: II. Economics/History and Crises
 cssclasses: academia
 title: Long-Term Capital Management, L.P. (A)
-linter-yaml-title-alias: Long-Term Capital Management, L.P. (A)
 primary_tags:
-- fund faced capital requirements
-- convergence ltcm larger trades
-- ltcm regulated financial
-- firm future fund
-secondary_tags:
 - long term capital management
-- ltcm 1997 fund risk
-- fund ltcm received
-- ltcm principals employees investors
-- firms exhibit ltcm
-- ltcm estimates fund liquidity
-- ltcm took long position
-- capital requirements se ltcm
-- reasons ltcm did disclose
-tags_extracted: '2025-12-18T00:12:51.658696'
+- hedge fund crisis
+- arbitrage trading strategies
+- convergence trades
+secondary_tags:
+- fixed income arbitrage
+- relative value trading
+- risk management failure
+- financial market disruption
+- quantitative trading models
+- leverage and liquidity
+- regulatory oversight
+- institutional investors
+- proprietary trading
+- market microstructure
 ---
 
 # Long-Term Capital Management, L.P. (A)
 
-In September 1997, the principals at Long-Term Capital Management, L.P. (LTCM) were considering the firm's future. The fund that LTCM managed, Long-Term Capital Portfolio, L.P. ("the Fund"), had commenced operations with  \$1 billion of capital in early 1994, and had subsequently raised an additional\$ 2 billion. After three and a half years of investment returns that far exceeded even the principals' expectations, the Fund's net capital now stood at \$6.7 billion. The principals' personal share of this capital had risen from \$146 million to \$1.6 billion. Due to the limitations imposed by available market liquidity, the principals recognized that it would be impractical to increase position sizes commensurate with the performance-induced increase in capital. Consequently, they believed it would be difficult to sustain high rates of return on the current capital base, and had to consider whether it was a prudent and opportune moment to return capital to the Fund's investors.
+In September 1997, the principals at Long-Term Capital Management, L.P. (LTCM) were considering the firm's future. The fund that LTCM managed, Long-Term Capital Portfolio, L.P. ("the Fund"), had commenced operations with  \$1 billion of capital in early 1994, and had subsequently raised an additional \$2 billion. After three and a half years of investment returns that far exceeded even the principals' expectations, the Fund's net capital now stood at \$6.7 billion. The principals' personal share of this capital had risen from \$146 million to \$1.6 billion. Due to the limitations imposed by available market liquidity, the principals recognized that it would be impractical to increase position sizes commensurate with the performance-induced increase in capital. Consequently, they believed it would be difficult to sustain high rates of return on the current capital base, and had to consider whether it was a prudent and opportune moment to return capital to the Fund's investors.
 
 # Background on LTCM
 
@@ -36,9 +33,7 @@ LTCM was formed to engage in trading strategies that would exploit market pricin
 
 LTCM's trades often involved complex proprietary trading strategies aided by the use of sophisticated analytical models. The firm's principals possessed particular expertise in the development of such strategies and in analyzing newly created instruments and new markets. The firm directed considerable resources to building and evolving state-of-the-art software and financial modeling technologies. A substantial number of LTCM's employees were involved in research or in the development and support of technology.
 
-LTCM was headed by Mr. John Meriwether who had established fame as a pioneer of fixed-income arbitrage at Salomon Brothers in the early 1980s, and for having built Salomon's profitable Fixed-Income Arbitrage group. Before leaving in 1991, John Meriwether had been Vice Chairman of
-
-Salomon Brothers in charge of the firm's worldwide Fixed Income Trading, Fixed-Income Arbitrage and Foreign Exchange businesses. Several of LTCM's founding principals had, years earlier, been recruited to Salomon's Fixed-Income Arbitrage group by Meriwether, and had held senior positions at Salomon. In 1994, Salomon Inc. disclosed that its proprietary trading activities had generated more than  $100\%$  of Salomon Brothers' pre-tax income in 1990-1992, and a substantial fraction of its net income in 1993, as reproduced below:
+LTCM was headed by Mr. John Meriwether who had established fame as a pioneer of fixed-income arbitrage at Salomon Brothers in the early 1980s, and for having built Salomon's profitable Fixed-Income Arbitrage group. Before leaving in 1991, John Meriwether had been Vice Chairman of Salomon Brothers in charge of the firm's worldwide Fixed Income Trading, Fixed-Income Arbitrage and Foreign Exchange businesses. Several of LTCM's founding principals had, years earlier, been recruited to Salomon's Fixed-Income Arbitrage group by Meriwether, and had held senior positions at Salomon. In 1994, Salomon Inc. disclosed that its proprietary trading activities had generated more than  $100\%$  of Salomon Brothers' pre-tax income in 1990-1992, and a substantial fraction of its net income in 1993, as reproduced below:
 
 Pre-tax Income of Salomon Brothers (\$ millions) $^{1}$  
 
@@ -87,7 +82,7 @@ Purchase \$250 million, say, of 20 year Treasury bonds,  $100\%$  financed at th
 Because the bonds were purchased with  $100\%$  financing, this position initially would involve no net cash outlay, and the net flow X to the Fund would be:
 
 $$
-\begin{array}{l} X = (6.77\% - \text{reporate}) - (6.94\% - \text{libor}) \\ = (\text{libor} - \text{repo}) - (6.94 \% - 6.77 \%) \\ = (\text{li bo r} - \text{re po}) - \text{Sw ap sp re ad} \\ = 2 0 - 1 7 \\ = 3 \text{ba si ep oi nt sp er an nu mo n $2 50 mi ll on ,o r $7 5K pe ra nn um .}^{3} \\ \end{array}
+\begin{array}{l} X = (6.77\% - \text{reporate}) - (6.94\% - \text{libor}) \\ = (\text{libor} - \text{repo}) - (6.94 \% - 6.77 \%) \\ = (\text{libor} - \text{repo}) - \text{Swap spread} \\ = 20 - 17 \\ = 3 \text{basis points per annum on \$250 million, or \$75K per annum.}^{3} \\ \end{array}
 $$
 
 LTCM's assessment of this trade was the following: First, the trade represented nearly a "pure" arbitrage, in which the Fund would make a little money if it held the position to maturity. This was actually the worst-case outcome provided that the firm had the capital and the patience to maintain the position, and provided also that the Treasury bonds could be financed throughout at an average rate no worse than Libor - 20. (By itself, the 3 basis point net spread would be insufficient to warrant taking a position. Since the Fund would actually incur a  $1\%$  haircut on the financing of the Treasury bond, the spread represented only a  $3\%$  return on working capital.)
@@ -98,9 +93,7 @@ LTCM's believed that the primary reason for the swap spread being so narrow in e
 
 LTCM considered the 17 basis point swap spread to be at a temporary low, and expected it to widen. The firm began buying Treasury bonds, and paying fixed versus receiving libor on swaps.[4] Between January and April, 1997, LTCM built the position to an exposure of  \$5 million per basis point of swap spread—a position size so that for each one basis point increase or decrease in the swap spread, the value of the bond position would increase or decrease relative to the value of the swap agreement by\$ 5 million. The overall position had a notional size of approximately \$5 billion,[5] and LTCM had been able to put it in place at an average swap spread of 18 basis points. By mid summer of 1997, the swap spread had widened considerably, and LTCM had been able to unwind the position during July-September at an average swap spread of 25 basis points, for a profit of about \$35 million.
 
-This trade is a good example of what LTCM considered to be an ideal trade: It had considerable option value related to excess spread volatility, and it made money on a hold-to-maturity basis assuming "normal" financing. Many of LTCM's trades had much higher expected hold-to-maturity profits than in this swap-spread example, although making money on a hold-to-maturity basis was not a requirement for LTCM to put on a trade. LTCM might expect to lose a little
-
-money on a hold-to-maturity basis provided there was a substantial probability of an eventual favorable spread change, which would allow LTCM to take the trade off early. And, as already mentioned, if the spread went the other way, LTCM would simply wait or do even more of the trade. Finally, in a market disruption event—which typically would result in a flight to liquidity—this particular trade would do well since it involved being long the liquid instrument.
+This trade is a good example of what LTCM considered to be an ideal trade: It had considerable option value related to excess spread volatility, and it made money on a hold-to-maturity basis assuming "normal" financing. Many of LTCM's trades had much higher expected hold-to-maturity profits than in this swap-spread example, although making money on a hold-to-maturity basis was not a requirement for LTCM to put on a trade. LTCM might expect to lose a little money on a hold-to-maturity basis provided there was a substantial probability of an eventual favorable spread change, which would allow LTCM to take the trade off early. And, as already mentioned, if the spread went the other way, LTCM would simply wait or do even more of the trade. Finally, in a market disruption event—which typically would result in a flight to liquidity—this particular trade would do well since it involved being long the liquid instrument.
 
 At times, LTCM was on the opposite side of the swap-spread trade—when the swap spread was especially wide. In this case, LTCM would enter into interest-rate swap agreements to receive fixed in return for paying Libor, and the firm would short-sell Treasury bonds. The short sale of Treasury bonds was effected through the use of so-called reverse repurchase agreements, or "reverse repos". In a reverse repo, the Fund would lend money to a counterparty collateralized by the bond LTCM wished to short. There was a normal five basis point bid-offer spread between repos and reverse repos. However, because LTCM wanted a particular bond as collateral, it would receive less than the general reverse repo rate on its loan, typically 15 basis points less. Having received the bond as collateral, LTCM would then sell it. The proceeds of the sale would fund the loan made to obtain the collateral in the first place.
 
@@ -156,15 +149,13 @@ LTCM structured its trades so as to require minimal, if any, initial outlay of c
 
 The  $100\%$  -financing and long-short structure of LTCM's trades had important implications for how the firm should think about leverage and risk management. First, since a fully-financed position had no explicit equity investment, it was not possible to work directly with measures such as return on equity. Second, risk could not be measured by the notional sizes of the positions. In particular, the risk of a long-short position depended entirely on the degree to which the profits on the long position could deviate from the profits on the short position. For example, a stand-alone position in twenty-year U.S. Treasury bonds exposed the investor to interest-rate risk as well as to other risk factors such as the liquidity of the particular instrument. A stand-alone position in a twenty-year interest-rate swap also exposed the investor to these risks. However, in the U.S. Treasury swap-spread trade--being long the Treasury bonds and paying fixed on the swaps--the exposure to interest-rate risk cancelled out, leaving LTCM with only the risk that the swap spread would narrow. In a long-short position, LTCM thus could isolate the risk to which it wished to be exposed, a risk which, in the abovementioned U.S. Treasury swap-spread example, the firm deemed to be small. Of course, a long-short position could be very risky when the risk of one leg was unrelated to the risk of the other.
 
-In general, LTCM measured risk in terms of the probability distribution of potential profits and losses. This included use of "value-at-risk" measures that were commonly employed by financial institutions. For example, on its  \$5 billion notional position in the U.S. Treasury swap spread trade, the Fund would make or lose about\$ 5 million for each basis point change in the swap spread. The firm expected the swap spread to widen to 23 basis points over twelve months, with a standard deviation of seven basis points. Thus, the expected profit on the trade to a one-year horizon was \$25 million, and the standard deviation was \$35 million.
+In general, LTCM measured risk in terms of the probability distribution of potential profits and losses. This included use of "value-at-risk" measures that were commonly employed by financial institutions. For example, on its  \$5 billion notional position in the U.S. Treasury swap spread trade, the Fund would make or lose about \$5 million for each basis point change in the swap spread. The firm expected the swap spread to widen to 23 basis points over twelve months, with a standard deviation of seven basis points. Thus, the expected profit on the trade to a one-year horizon was \$25 million, and the standard deviation was \$35 million.
 
 Important to LTCM's assessment of risk was the belief that as pricing discrepancies became more pronounced, trades based on these discrepancies would attract more capital from arbitrageurs and other investors, and thus the downside risk of a trade generally diminished as valuations became more extreme. Leveraged investors who did not require wide spreads to earn large profits usually would be first to exploit misvaluations. As spreads widened, unleveraged investors would start to commit capital. In the case of extreme misvaluations, issuers might find it attractive to increase the supply of the overvalued instrument in question.
 
 LTCM also employed economic stress testing which involved analyzing how the Fund's positions would perform if a low probability, high impact event occurred. For example, the Fund had many positions that would be affected by a breakup of the Economic and Monetary Union (EMU) that was scheduled to be completed on January 1, 1999 in Europe. LTCM would regularly estimate the profit and loss implications of such an event, and if the expected net outcome were a loss, it might restructure the positions to reduce the risk.
 
-In assessing risk, LTCM also analyzed how the profits of its various positions were correlated. At the margin, a position that was uncorrelated with the remainder of the portfolio contributed relatively little risk, and therefore could be held in larger size. Exhibit 3 illustrates how
-
-the risk of a portfolio increases with the number of positions, depending on the correlation between the profits of the individual positions. It considers the case of N positions each with the same standalone standard deviation of annual profits of  \$100 million. In the case of N perfectly correlated positions, the standard deviation of annual profits is\$ 100N million. At the margin, each position contributes \$100 million to the risk of the portfolio. In contrast, in the case of N uncorrelated positions, the standard deviation of annual profits is only \$100√N million. Here, the marginal risk contribution of the Nth position is much smaller. As shown in Exhibit 3, the  $10^{\text{th}}$  uncorrelated position increases the portfolio standard deviation by only \$16 million even though its standard deviation of profits would be \$100 million if held stand alone. $^{10}$
+In assessing risk, LTCM also analyzed how the profits of its various positions were correlated. At the margin, a position that was uncorrelated with the remainder of the portfolio contributed relatively little risk, and therefore could be held in larger size. Exhibit 3 illustrates how the risk of a portfolio increases with the number of positions, depending on the correlation between the profits of the individual positions. It considers the case of N positions each with the same standalone standard deviation of annual profits of  \$100 million. In the case of N perfectly correlated positions, the standard deviation of annual profits is \$100N million. At the margin, each position contributes \$100 million to the risk of the portfolio. In contrast, in the case of N uncorrelated positions, the standard deviation of annual profits is only \$100√N million. Here, the marginal risk contribution of the Nth position is much smaller. As shown in Exhibit 3, the  $10^{\text{th}}$  uncorrelated position increases the portfolio standard deviation by only \$16 million even though its standard deviation of profits would be \$100 million if held stand alone. $^{10}$
 
 LTCM measured risk over both a one-year horizon and a one-month horizon. Over long horizons, the firm viewed the prices of financial instruments as being determined by their fundamental value. Thus, the long-run risk of a position was determined mainly by the risk of changes in fundamental value. Over short horizons, the prices of financial instruments were also affected by traders' need to transact in a world of less than perfect liquidity. LTCM's estimates of short-term risk thus tended to be higher than long-run risk. For example, in the U.S. Treasury swap-spread trade, LTCM felt the monthly standard deviation was 4 basis points, which annualized to nearly 14 basis points. The difference between this and the 7 basis points mentioned earlier is due to the impact of the trading decisions of market participants. The firm viewed liquidity-related risk as being relatively short-lived (less than a year), and considered it mostly a source of opportunities.
 
@@ -182,11 +173,11 @@ In September, 1997, the Fund had a daily standard deviation of  \$45 million per
 
 While institutionally-defined leverage was not a particularly meaningful gauge of risk, external constituencies such as regulatory authorities and certain lenders and counterparties nevertheless monitored leverage as a measure of risk. Institutionally, leverage was defined as the ratio of total assets to equity capital, where the "assets" were primarily long positions in securities and reverse repos, and equity capital represented the difference between total assets and liabilities, where liabilities included all secured and unsecured obligations of the Fund including short positions. The market values of the contractual agreements appeared on the balance sheet as either assets or liabilities, depending on whether their values had become positive or negative to the Fund. (The notional amounts of contractuals and futures, on the other hand, were recorded off balance sheet and did not count in the calculation of leverage.)
 
-Consider, for example, an institution capitalized with  \$100 of equity, which is invested in cash. Suppose further that this institution purchases\$ 500 of 10-year U.S. Treasury bonds, 100% financed through a repo transaction. The institution's balance sheet would be as follows:
+Consider, for example, an institution capitalized with  \$100 of equity, which is invested in cash. Suppose further that this institution purchases \$500 of 10-year U.S. Treasury bonds, 100% financed through a repo transaction. The institution's balance sheet would be as follows:
 
 <table><tr><td colspan="4">Table 1</td></tr><tr><td>10-year U.S. Treasury bonds</td><td>\$500</td><td>Collateralized financing (repurchase agreement)</td><td>\$500</td></tr><tr><td>Cash</td><td>100</td><td>Equity</td><td>100</td></tr><tr><td>Total assets</td><td>\$600</td><td>Total liabilities</td><td>\$600</td></tr></table>
 
-This institution is leveraged 6:1. If, instead of purchasing the U.S. Treasury bonds financed at a floating rate (the repo rate), the institution enters into a swap to receive fixed and pay floating on a notional \(500 (an economically equivalent position in terms of interest rate exposure), the institution would have only cash and equity on its balance sheet, and its leverage ratio would be 1:1. Finally, if the institution with the balance sheet in Table 1 were to enter into an additional but offsetting position in which it sells short a comparable maturity U.S. Treasury bond (say, a 9.75 year maturity) that it borrows through a reverse repo transaction, its balance sheet would be as in Table 2:
+This institution is leveraged 6:1. If, instead of purchasing the U.S. Treasury bonds financed at a floating rate (the repo rate), the institution enters into a swap to receive fixed and pay floating on a notional \$500 (an economically equivalent position in terms of interest rate exposure), the institution would have only cash and equity on its balance sheet, and its leverage ratio would be 1:1. Finally, if the institution with the balance sheet in Table 1 were to enter into an additional but offsetting position in which it sells short a comparable maturity U.S. Treasury bond (say, a 9.75 year maturity) that it borrows through a reverse repo transaction, its balance sheet would be as in Table 2:
 
 Table 2  
 

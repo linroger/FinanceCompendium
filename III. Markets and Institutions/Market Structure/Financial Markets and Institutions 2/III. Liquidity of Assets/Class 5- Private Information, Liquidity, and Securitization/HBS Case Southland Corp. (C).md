@@ -1,8 +1,8 @@
 ---
 title: The Southland Corporation (C)
 parent_directory: Class 5- Private Information, Liquidity, and Securitization
-formatted: 2025-12-21 12:00:00 PM
-formatter_model: claude-sonnet-4-5-20251001
+formatted: 2025-12-21 09:15:00 AM
+formatter_agent: kimi-k2-turbo
 cli-tool: claude-code
 primary_tags:
   - leveraged buyout
@@ -13,14 +13,10 @@ secondary_tags:
   - 7-eleven
   - bondholder committee
   - prepackaged bankruptcy
-  - equity infusion
   - financial distress
   - cash flow crisis
   - debt service obligations
   - exchange offers
-cssclasses: academia
----
-cssclasses: academia
 ---
 
 # The Southland Corporation (C)
@@ -61,7 +57,7 @@ Southland's remaining  $50\%$  ownership interest in Citgo was sold for \$662 mi
 
 The success of Southland's leveraged buyout depended on an increase in sales and profitability. However, to obtain cash to service its debt, Southland substantially reduced its capital expenditures. Capital expenditures were approximately  \$111 million and\$ 76 million in 1988 and 1989, respectively, compared with an annual average of \$398 million in each of the four years immediately preceding the acquisition. This reduction limited Southland's ability to remodel existing stores or open or acquire new stores. Also, in early 1988, Southland canceled all planned advertising to conserve cash. Advertising began again in late 1988, and it was increased in 1989. As a result of these changes, Southland could not effectively compete with traditional and oil company convenience stores that were expanding.
 
-The leveraged buyout forecasted real sales growth of \(3\%\) per year for 10 years. During 1988 and 1989, sales were forecasted to grow to \(9,316\) million and \(9,196\) million, respectively. However, as Exhibit 1 reports, sales in 1988 were \(7,991 million, \(14\%\) below the LBO projection; in 1989, sales were \(8,352 million, \(9\%\) below the LBO projections. During the first six months of 1990, merchandise sales increased \(3.0\%\) per month while Southland experienced an annualized inflation rate of \(4.9\%\), resulting in negative real growth of \(1.9\%\). Profitability also lagged the LBO forecast. In 1989, EBITDA was \$464 million, \(15\%\) below the LBO forecast of \$549 million.
+The leveraged buyout forecasted real sales growth of \(3\%\) per year for 10 years. During 1988 and 1989, sales were forecasted to grow to \(9,316\) million and \(9,196\) million, respectively. However, as Exhibit 1 reports, sales in 1988 were \(7,991\) million, \(14\%\) below the LBO projection; in 1989, sales were \(8,352 million, \(9\%\) below the LBO projections. During the first six months of 1990, merchandise sales increased \(3.0\%\) per month while Southland experienced an annualized inflation rate of \(4.9\%\), resulting in negative real growth of \(1.9\%\). Profitability also lagged the LBO forecast. In 1989, EBITDA was \$464 million, \(15\%\) below the LBO forecast of \$549 million.
 
 Southland did not expect its future performance to reach the levels forecasted at the time of the LBO. Exhibit 4 shows that Southland's July 1990 forecasts were substantially less optimistic than those at the time of its LBO. The company predicted that its cash flow from operations during 1990 would be insufficient to conduct its business operations, meet its debt service obligations, and permit the level of investment in its business necessary to maintain competitiveness. Based on updated projections, Southland believed that it would violate its financial covenants during 1990. Furthermore, it forecasted that it would not have sufficient cash flow to start paying cash interest on its  $16.5\%$  senior subordinated discount notes in 1991.
 
@@ -129,7 +125,7 @@ Earnings from continuing operations and net earnings for the year ended December
 
 ${}^{d}$  Net earnings include earnings from discontinued operations and for the year ended December 31, 1989, an extraordinary charge of \$56,047,000 resulting from a debt exchange.
 
-eNet earnings include extraordinary tax benefits from utilization of net operating loss carryforwards of \(52,040,000 for the six-month period ended June 30, 1990.
+<sup>e</sup>Net earnings include extraordinary tax benefits from utilization of net operating loss carryforwards of \(52,040,000\) for the six-month period ended June 30, 1990.
 
 ${}^{f}$  Ratio of earnings to fixed charges is 2.15,1.93,and 1.32 for each of fiscal years 1985 and 1986 and for the first seven months ended July 31, 1987, respectively. Such ratios are computed by dividing (i) earnings from continuing operations before fixed charges and taxes by (ii) fixed charges (which consist of interest expense, amortization of debt expenses, capitalized interest, and rental expense, which is deemed to be representative of the interest factor).
 

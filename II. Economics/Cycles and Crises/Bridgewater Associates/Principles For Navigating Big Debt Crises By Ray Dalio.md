@@ -1,117 +1,61 @@
 ---
-aliases:
-- Big Debt Crises
-- Archetypal Big Debt Cycle
-tags: null
-key_concepts: null
+title: Principles For Navigating Big Debt Crises - Part 1: The Archetypal Big Debt Cycle
 parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
-cssclasses: academia
-title: 'Principles For Navigating Big Debt Crises - Part 1: The Archetypal Big Debt
-  Cycle'
-linter-yaml-title-alias: 'Principles For Navigating Big Debt Crises - Part 1: The
-  Archetypal Big Debt Cycle'
+formatted: 2025-12-21 09:11:28 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
 primary_tags:
-- debt cycle archetypal deflationary
-- rates dangerous currency dynamic
-- april 1921 inflation germany
-- home price gains
-- wealth depression normal recessions
-- principles navigating big debt
-- march 13 daily observations
-- mortgages rose quickly subprime
+  - big debt cycles
+  - debt crisis navigation
+  - archetypal debt cycle
+  - deflationary depressions
+  - inflationary depressions
+  - debt restructuring
+  - monetary policy
+  - fiscal policy
 secondary_tags:
-- march 13 subprime
-- currency weakness causes inflation
-- cycles debt crises
-- debt cycles existed long
-- debt crisis template archetypal
-- 1931 1932 federal reserve
-- debt cycle bubble
-- currency borrowing stronger currency
-- reinforcing wealth falls
-- consumption borrowed mortgages
-- economic conditions currency defense
-- amcs steps restructure debt
-- report rise bad mortgage
-- credit growth supervisors took
-- 1922 expectations reparation
-- money undermine demand currency
-- banks hoover administration
-- home loans sell investors
-- weakness money leaves
-- mortgages grabbing headlines
-- debts summarized situation march
-tags_extracted: '2025-12-18T00:05:35.069870'
+  - lehman brothers bankruptcy
+  - reserve primary fund
+  - treasury insurance program
+  - federal reserve liquidity
+  - asset backed commercial paper
+  - gold standard
+  - weimar republic
+  - great depression
+  - currency devaluation
+  - debt monetization
+cssclasses: academia
 ---
 
-Principles
+# Principles For Navigating Big Debt Crises - Part 1: The Archetypal Big Debt Cycle
 
-For Navigating
+By Ray Dalio
 
-BIG
+## Table of Contents
 
-DEBT
-
-CRISES
-
-RAY DALIO
-
-PART 1: THE ARCHETYPAL BIG DEBT CYCLE
-
-<toc>
-# Table of Contents
-
-Introduction 7
-
-Part 1: The Archetypal Big Debt Cycle 9
-
-How I Think about Credit and Debt 9
-
-The Template for the Archetypal Long-Term/Big
-
-Debt Cycle 13
-
-Our Examination of the Cycle 13
-
-The Phases of the Classic Deflationary Debt Cycle 16
-
-The Early Part of the Cycle 16
-
-The Bubble. 16
-
-The Top 21
-
-The "Depression" 23
-
-The "Beautiful Deleveraging" 32
-
-"Pushing on a String" 35
-
-Normalization 38
-
-InflationaryDepressions and Currency Crises 39
-
-The Phases of the Classic Inflationary Debt Cycle 41
-
-The Early Part of the Cycle 41
-
-The Bubble 42
-
-The Top and Currency Defense 45
-
-The Depression (Often When the Currency Is Let Go)…49
-
-Normalization 54
-
-The Spiral from a More Transitory Inflationary
-
-Depression to Hyperinflation 58
-
-War Economies 61
-
-In Summary 64
-
-</toc>
+### Introduction
+### Part 1: The Archetypal Big Debt Cycle
+#### How I Think about Credit and Debt
+#### The Template for the Archetypal Long-Term Debt Cycle
+#### Our Examination of the Cycle
+#### The Phases of the Classic Deflationary Debt Cycle
+##### The Early Part of the Cycle
+##### The Bubble
+##### The Top
+##### The Depression
+##### The Beautiful Deleveraging
+##### Pushing on a String
+##### Normalization
+#### Inflationary Depressions and Currency Crises
+#### The Phases of the Classic Inflationary Debt Cycle
+##### The Early Part of the Cycle
+##### The Bubble
+##### The Top and Currency Defense
+##### The Depression
+##### Normalization
+#### The Spiral from Transitory Inflationary Depression to Hyperinflation
+#### War Economies
+#### In Summary
 
 # Introduction
 
@@ -133,7 +77,7 @@ To be clear, I appreciate that different people have different perspectives, tha
 
 # The Archetypal Big Debt Cycle
 
-# How I Think about Credit and Debt
+## How I Think about Credit and Debt
 
 Since we are going to use the terms "credit" and "debt" a lot, I'd like to start with what they are and how they work.
 
@@ -147,7 +91,7 @@ In assessing this for society as a whole, one should consider the secondary/indi
 
 I want to be clear that credit/debt that produces enough economic benefit to pay for itself is a good thing. But sometimes the trade-offs are harder to see. If lending standards are so tight that they require a near certainty of being paid back, that may lead to fewer debt problems but too little development. If the lending standards are looser, that could lead to more development but could also create serious debt problems down the road that erase the benefits. Let's look at this and a few other common questions about debt and debt cycles.
 
-# How Costly Is Bad Debt Relative to Not Having the Spending That the Debt Is Financing?
+## How Costly Is Bad Debt Relative to Not Having the Spending That the Debt Is Financing?
 
 Suppose that you, as a policy maker, choose to build a subway system that costs 1 billion. You finance it with debt that you expect to be paid back from revenue, but the economics turn out to be so much worse than you expected that only half of the expected revenues come in. The debt has to be written down by 50 percent. Does that mean you shouldn't have built the subway?
 
@@ -155,11 +99,11 @@ Rephrased, the question is whether the subway system is worth 500 million more t
 
 To give you an idea of what that might mean for an economy as a whole, really bad debt losses have been when roughly 40 percent of a loan's value couldn't be paid back. Those bad loans amount to about 20 percent of all the outstanding loans, so the losses are equal to about 8 percent of total debt. That total debt, in turn, is equal to about 200 percent of income (e.g., GDP), so the shortfall is roughly equal to 16 percent of GDP. If that cost is "socialized" (i.e., borne by the society as a whole via fiscal and/or monetary policies) and spread over 15 years, it would amount to about 1 percent per year, which is tolerable. Of course, if not spread out, the costs would be intolerable. For that reason, I am asserting that the downside risks of having a significant amount of debt depends a lot on the willingness and the ability of policy makers to spread out the losses arising from bad debts. I have seen this in all the cases I have lived through and studied. Whether policy makers can do this depends on two factors: 1) whether the debt is denominated in the currency that they control and 2) whether they have influence over how creditors and debtors behave with each other.
 
-# Are Debt Crises Inevitable?
+## Are Debt Crises Inevitable?
 
 Throughout history only a few well-disciplined countries have avoided debt crises. That's because lending is never done perfectly and is often done badly due to how the cycle affects people's psychology to produce bubbles and busts. While policy makers generally try to get it right, more often than not they err on the side of being too loose with credit because the near-term rewards (faster growth) seem to justify it. It is also politically easier to allow easy credit (e.g., by providing guarantees, easing monetary policies) than to have tight credit. That is the main reason we see big debt cycles.
 
-# Why Do Debt Crises Come in Cycles?
+## Why Do Debt Crises Come in Cycles?
 
 I find that whenever I start talking about cycles, particularly big, long-term cycles, people's eyebrows go up; the reactions I elicit are similar to those I'd expect if I were talking about astrology. For that reason, I want to emphasize that I am talking about nothing more than logically-driven series of events that recur in patterns. In a market-based economy, expansions and contractions in credit drive economic cycles, which occur for perfectly logical reasons. Though the patterns are similar, the sequences are neither pre-destined to repeat in exactly the same ways nor to take exactly the same amount of time.
 
@@ -183,11 +127,11 @@ When borrowers cannot meet their debt service obligations to lending institution
 
 The two main long-term problems that emerge from these kinds of debt cycles are:
 
-NaN. The losses arising from the expected debt service payments not being made. When promised debt service payments can't be made, that can lead to either smaller periodic payments and/or the writing down of the value of the debt (i.e., agreeing to accept less than was owed.) If you were expecting an annual debt service payment of 4 percent and it comes in at 2 percent or 0 percent, there is that shortfall for each year, whereas if the debt is marked down, that year's loss would be much bigger (e.g., 50 percent).
+1. The losses arising from the expected debt service payments not being made. When promised debt service payments can't be made, that can lead to either smaller periodic payments and/or the writing down of the value of the debt (i.e., agreeing to accept less than was owed.) If you were expecting an annual debt service payment of 4 percent and it comes in at 2 percent or 0 percent, there is that shortfall for each year, whereas if the debt is marked down, that year's loss would be much bigger (e.g., 50 percent).
 
-NaN. The reduction of lending and the spending it was financing going forward. Even after a debt crisis is resolved, it is unlikely that the entities that borrowed too much can generate the same level of spending in the future that they had before the crisis. That has implications that must be considered.
+2. The reduction of lending and the spending it was financing going forward. Even after a debt crisis is resolved, it is unlikely that the entities that borrowed too much can generate the same level of spending in the future that they had before the crisis. That has implications that must be considered.
 
-# Can Most Debt Crises Be Managed so There Aren't Big Problems?
+## Can Most Debt Crises Be Managed so There Aren't Big Problems?
 
 Sometimes these cycles are moderate, like bumps in the road, and sometimes they are extreme, ending in crashes. In this study we examine ones that are extreme—i.e., all those in the last 100 years that produced declines in real GDP of more than 3 percent. Based on my examinations of them and the ways the levers available to policy makers work, I believe that it is possible for policy makers to manage them well in almost every case that the debts are denominated in a country's own currency. That is because the flexibility that policy makers have allows them to spread out the harmful consequences in such ways that big debt problems aren't really big problems. Most of the really terrible economic problems that debt crises have caused occurred before policy makers took steps to spread them out. Even the biggest debt crises in history (e.g., the 1930s Great Depression) were gotten past once the right adjustments were made. From my examination of these cases, the biggest risks are not from the debts themselves but from a) the failure of policy makers to do the right things, due to a lack of knowledge and/or lack of authority, and b) the political consequences of making adjustments that hurt some people in the process of helping others. It is from a desire to help reduce these risks that I have written this study.
 
@@ -197,19 +141,19 @@ The key to handling debt crises well lies in policy makers' knowing how to use t
 
 There are four types of levers that policy makers can pull to bring debt and debt service levels down relative to the income and cash flow levels that are required to service them:
 
-NaN. Austerity (i.e., spending less)
+1. Austerity (i.e., spending less)
 
-NaN. Debt defaults/restructuringings
+2. Debt defaults/restructurings
 
-NaN. The central bank "printing money" and making purchases (or providing guarantees)
+3. The central bank "printing money" and making purchases (or providing guarantees)
 
-NaN. Transfers of money and credit from those who have more than they need to those who have less
+4. Transfers of money and credit from those who have more than they need to those who have less
 
 Each one of their levers has different impacts on the economy. Some are inflationary and stimulate growth (e.g., "printing money"), while others are deflationary and help reduce debt burdens (e.g., austerity and defaults). The key to creating a "beautiful deleveraging" (a reduction in debt/income ratios accompanied by acceptable inflation and growth rates, which I explain later) lies in striking the right balance between them. In this happy scenario, debt-to-income ratios decline at the same time that economic activity and financial asset prices improve, gradually bringing the nominal growth rate of incomes back above the nominal interest rate.
 
 These levers shift around who benefits and who suffers, and over what amount of time. Policy makers are put in the politically difficult position of having to make those choices. As a result, they are rarely appreciated, even when they handle the debt crisis well.
 
-# The Template for the Archetypal Long-Term/Big Debt Cycle
+## The Template for the Archetypal Long-Term/Big Debt Cycle
 
 The template that follows is based on my examination of 48 big debt cycles, which include all of the cases that led to real GDP falling by more than 3 percent in large countries (which is what I will call a depression). For clarity, I divided the affected countries into two groups: 1) Those that didn't have much of their debt denominated in foreign currency and that didn't experience inflationary depressions, and 2) those that had a significant amount of their debt denominated in foreign currency and did experience inflationary depressions. Since there was about a 75 percent correlation between the amounts of their foreign debts and the amounts of inflation that they experienced (which is not surprising, since having a lot of their debts denominated in foreign currency was a cause of their depressions being inflationary), it made sense to group those that had more foreign currency debt with those that had inflationary depressions.
 
@@ -219,7 +163,7 @@ While the chart gives a good general picture, I should make clear that it is ina
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-06/9328bd35-1a8f-4849-b68e-a73f4551b5ba/8e8313aa78076b7bf0cf95508d4ce1a96b0432648b4d9733c3277de077466c8b.jpg)
 
-# Our Examination of the Cycle
+## Our Examination of the Cycle
 
 In developing the template, we will focus on the period leading up to the depression, the depression period itself, and the deleveraging period that follows the bottom of the depression. As there are two broad types of big debt crises—deflationary ones and inflationary ones (largely depending on whether a country has a lot of foreign currency debt or not)—we will examine them separately.
 
@@ -248,7 +192,7 @@ In this study we will examine big debt cycles that produce big debt crises, expl
 
 We will begin with deflationary depressions.
 
-# The Phases of the Classic Deflationary Debt Cycle
+## The Phases of the Classic Deflationary Debt Cycle
 
 The chart below illustrates the seven stages of an archetypal long-term debt cycle, by tracking the total debt of the economy as a percentage of the total income of the economy (GDP) and the total amount of debt service payments relative to GDP over a period of 12 years.
 
@@ -264,7 +208,7 @@ In the early part of the cycle, debt is not growing faster than incomes, even th
 
 In the first stage of the bubble, debts rise faster than incomes, and they produce accelerating strong asset returns and growth. This process is generally self-reinforcing because rising incomes, net-worths, and asset values raise borrowers' capacities to borrow. This happens because lenders determine how much they can lend on the basis of the borrowers' 1) projected income/cash flows to service the debt, 2) net worth/collateral (which rises as asset prices rise), and 3) their own capacities to lend. All of these rise together. Though this set of conditions is not sustainable because the debt growth rates are increasing faster than the incomes that will be required to service them, borrowers feel rich, so they spend more than they earn and buy assets at high prices with leverage. Here's one example of how that happens:
 
-Suppose you earn  \$50,000 a year and have a net worth of\$ 50,000. You have the capacity to borrow \$10,000 per year, so you could spend \$60,000 per year for a number of years, even though you only earn 50,000. For an economy as a whole, increased borrowing and spending can lead to higher incomes, and rising stock valuations and other asset values, giving people more collateral to borrow against. People then borrow more and more, but as long as the borrowing drives growth, it is affordable.
+Suppose you earn $50,000 a year and have a net worth of $50,000. You have the capacity to borrow $10,000 per year, so you could spend $60,000 per year for a number of years, even though you only earn 50,000. For an economy as a whole, increased borrowing and spending can lead to higher incomes, and rising stock valuations and other asset values, giving people more collateral to borrow against. People then borrow more and more, but as long as the borrowing drives growth, it is affordable.
 
 In this up-wave part of the long-term debt cycle, promises to deliver money (i.e., debt burdens) rise relative to both the supply of money in the overall economy and the amount of money and credit debtors have coming in (via incomes, borrowing, and sales of assets). This up-wave typically goes on for decades, with variations primarily due to central banks' periodic tightenings and easings of credit. These are short-term debt cycles, and a bunch of them generally add up to a long-term debt cycle.
 
@@ -441,7 +385,7 @@ While highly stimulative monetary policy is a critical part of a deleveraging, i
 - Support the solvency of systemically important institutions. The first step is usually to incentivize the private sector to address the problem, often by supporting mergers between failed banks and healthy banks and by regulatory pushes to issue more capital to the private sector. In addition, accounting adjustments can be made to reduce the immediate need for capital to maintain solvency, buying more time for the institutions to earn their way out of their problems.
 - Recapitalize/nationalize/cover losses of systemically important financial institutions. When the above approaches are insufficient to deal with the solvency problems of systemically important financial institutions, governments must step in to recapitalize failed banks. Moving to stabilize lenders and maintain the credit supply is critical to preventing a crisis from getting worse. Certain institutions are part of the plumbing of the system; one would hate to lose them even if they're not making money at the moment. It would be like losing a shipping port in a depression because the port goes broke. You want the port to continue to operate and ships to come in, so you have to protect it one way or another—whether through a nationalization, loans, or capital injections.
 
-# Debt Defaults/Restructurings
+## Debt Defaults/Restructurings
 
 Ultimately, the process of cleansing existing bad debts is critical for the future flow of money and credit and for a return to prosperity. The challenge for policy makers is to allow that process to work itself out in an orderly way that ensures economic and social stability. The best-managed cases are those in which policy makers a) swiftly recognize the magnitude of the credit problems; b) don't save every institution that is expendable, balancing the benefits of allowing broke institutions to fail and be restructured with the risks that such failures can have detrimental effects on other creditworthy lenders and borrowers; c) create or restore robust credit pipes that allow for future borrowing by creditworthy borrowers; and d) ensure acceptable growth and inflation conditions while the bad debts are being worked out. Longer term, the most important decision that policy makers have to make is whether they will change the system to fix the root causes of the debt problems or simply restructure the debts so that the pain is distributed over the population and over time so that the debt does not impose an intolerable burden.
 

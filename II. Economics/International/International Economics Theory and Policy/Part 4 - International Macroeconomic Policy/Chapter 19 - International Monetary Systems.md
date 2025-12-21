@@ -1,27 +1,27 @@
 ---
+title: "International Monetary Systems: A Historical Overview"
+parent_directory: "Part 4 - International Macroeconomic Policy"
+formatted: "2025-12-21 09:20:30 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- monetary policy autonomy question
-- fixed exchange rate arrangements
-- international monetary systems
-- 1970s eventually brought bretton
-- bretton woods period policy
+  - international monetary systems
+  - exchange rate regimes
+  - bretton woods system
+  - gold standard era
 secondary_tags:
-- exchange rate inflexibility bretton
-- theory speculative currency crises
-- external balance economy displaced
-- policy exchange rate stability
-- currency devalued level domestic
-- external constraints foreign exchange
-- disequilibrium countries pegged currencies
-- policies explain bretton
-- exchange rate policies change
-- 1914 world monetary order
-- euro likely policy coordination
-- exchange rate realignments fearing
-tags_extracted: '2025-12-18T00:54:22.608308'
+  - floating exchange rates
+  - monetary policy autonomy
+  - external balance goals
+  - internal balance goals
+  - currency crises
+  - macroeconomic policy coordination
+  - international payments imbalances
+  - foreign exchange intervention
+cssclasses: academia
 ---
 
-# INTERNATIONAL MONETARY SYSTEMS: A HISTORICAL OVERVIEW
+# International Monetary Systems: A Historical Overview
 
 In Chapters 17 and 18, we saw how a single country can use monetary, fiscal, and exchange rate policies to change the levels of employment and production within its borders. Although this analysis usually assumes that macroeconomic conditions in the rest of the world are not affected by the actions of the country we are studying, that assumption is not, in general, a valid one: Any change in the home country's real exchange rate automatically implies an opposite change in foreign real exchange rates, and any shift in overall domestic spending is likely to change domestic demand for foreign goods. Unless the home country is insignificantly small, developments within its borders affect macroeconomic conditions abroad and therefore complicate the task of foreign policy makers.
 
@@ -29,11 +29,9 @@ The inherent interdependence of open national economies has sometimes made it mo
 
 In an open economy, macroeconomic policy has two basic goals, internal balance (full employment with price stability) and external balance (avoiding excessive imbalances in international payments). Because a country cannot alter its international payments position without automatically causing an opposite change of equal magnitude in the payments position of the rest of the world, one country's pursuit of its macroeconomic goals inevitably influences how well other countries attain their goals. The goal of external balance therefore offers a clear illustration of how policy actions taken abroad may change an economy's position relative to the position its government prefers.
 
-Throughout the period since 1870, with its various international currency arrangements, how did countries try to attain internal and external balance, and
+Throughout the period since 1870, with its various international currency arrangements, how did countries try to attain internal and external balance, and how successful were they? Why did different international monetary systems prevail at different times? Did policy makers worry about the foreign repercussions of their actions, or did each adopt nationalistic measures that were self-defeating for the world economy as a whole? The answers to these questions depend on the international monetary system in effect at the time.
 
-how successful were they? Why did different international monetary systems prevail at different times? Did policy makers worry about the foreign repercussions of their actions, or did each adopt nationalistic measures that were self-defeating for the world economy as a whole? The answers to these questions depend on the international monetary system in effect at the time.
-
-# LEARNING GOALS
+## LEARNING GOALS
 
 After reading this chapter, you will be able to:
 
@@ -45,17 +43,15 @@ After reading this chapter, you will be able to:
 - Summarize how the monetary and fiscal policies of a large country such as the United States are transmitted abroad under floating exchange rates.
 - Discuss how the world economy has performed in recent years and what lessons the post-1973 experience teaches about the need for international policy coordination.
 
-# Macroeconomic Policy Goals in an Open Economy
+## Macroeconomic Policy Goals in an Open Economy
 
 In open economies, policy makers are motivated by the goals of internal and external balance. Simply defined, internal balance requires the full employment of a country's resources and domestic price level stability. External balance is attained when a country's current account is neither so deeply in deficit that the country may be unable to repay its foreign debts in the future nor so strongly in surplus that foreigners are put in that position.
 
 In practice, neither of these definitions captures the full range of potential policy concerns. Along with full employment and stability of the overall price level, for example, policy makers may have a particular domestic distribution of income as an additional internal target. Depending on exchange rate arrangements or other factors, policy makers may worry about swings in balance of payments accounts other than the current account. To make matters even more complicated, the line between external and internal goals can be fuzzy. How should one classify an employment target for export industries, for example, when export growth influences the economy's ability to repay its foreign debts?
 
-The simple definitions of internal and external balance given previously, however, capture the goals that most policy makers share regardless of the particular economic
+The simple definitions of internal and external balance given previously, however, capture the goals that most policy makers share regardless of the particular economic environment. We therefore organize our analysis around these definitions and discuss possible additional aspects of internal and external balance when they are relevant.
 
-environment. We therefore organize our analysis around these definitions and discuss possible additional aspects of internal and external balance when they are relevant.
-
-# Internal Balance: Full Employment and Price Level Stability
+## Internal Balance: Full Employment and Price Level Stability
 
 When a country's productive resources are fully employed and its price level is stable, the country is in internal balance. The waste and hardship that occur when resources are underemployed is clear. If a country's economy is "overheated" and resources are overemployed, however, waste of a different (though probably less harmful) kind occurs. For example, workers on overtime might prefer to work less and enjoy leisure, but their contracts require them to put in longer hours during periods of high demand. Machines worked more intensely than usual will tend to suffer more frequent breakdowns and to depreciate more quickly.
 
@@ -69,7 +65,7 @@ Theoretically, a perfectly predictable trend of rising or falling prices would n
 
 To avoid price level instability, therefore, the government must prevent large fluctuations in output, which are also undesirable in themselves. In addition, it must avoid inflation and deflation by ensuring that the money supply does not grow too quickly or too slowly.
 
-# External Balance: The Optimal Level of the Current Account
+## External Balance: The Optimal Level of the Current Account
 
 The notion of external balance is more difficult to define than internal balance because there are no unambiguous benchmarks like "full employment" or "stable prices" to apply to an economy's external transactions. Whether an economy's trade with the outside world poses macroeconomic problems depends on several factors, including the economy's particular circumstances, conditions in the outside world, and the institutional arrangements governing its economic relations with foreign countries. A country committed to fixing its exchange rate against a foreign currency, for example, may well adopt a different definition of external balance than a country whose currency floats.
 
@@ -91,7 +87,7 @@ At times, the external target is imposed from abroad rather than chosen by the d
 
 Problems with Excessive Current Account Surpluses An excessive current account surplus poses problems that are different from those posed by deficits. A surplus in the current account implies that a country is accumulating assets located abroad. Why are growing domestic claims to foreign wealth ever a problem? One potential reason stems from the fact that, for a given level of national saving, an increased current account surplus implies lower investment in domestic plant and equipment. (This follows from the national income identity,  $S = CA + I$ , which says that total domestic saving,  $S$ , is divided between foreign asset accumulation,  $CA$ , and domestic investment,  $I$ .) Several factors might lead policy makers to prefer that domestic saving be devoted to higher levels of domestic investment and lower levels of foreign investment. First, the returns on domestic capital may be easier to tax than those on assets located abroad. Second, an addition to the home capital stock may reduce domestic unemployment and therefore lead to higher national income than an equal addition to foreign assets. Finally, domestic investment by one firm may have beneficial technological spillover effects on other domestic producers that the investing firm does not capture.
 
-# CAN A COUNTRY BORROW FOREVER? THE CASE OF NEW ZEALAND
+## CAN A COUNTRY BORROW FOREVER? THE CASE OF NEW ZEALAND
 
 The small Pacific country of New Zealand (with a population of about 5 million) has run current account deficits every year for many years, as far back as the country's official statistics reach. As a result, its net debt to foreign lenders stands at around 50 percent of its national output. Yet lenders continue to extend credit and seem not to worry about repayment (in contrast to many cases that we will study later on). Is it possible for an indebted country to borrow year after year without going broke? Perhaps surprisingly the answer is yes—if it does not borrow too much.
 
@@ -176,7 +172,7 @@ Source: Statistics New Zealand.
 rate of New Zealand's nominal GDP was about 5 percent over 1992-2019, our previous formula suggests that at an interest rate of  $r = 6$  percent per year, the IIP-to-GDP ratio remains constant at 70 percent if on average New Zealand has an annual net export surplus equal to
 
 $$
-\begin{array}{l} \overline {{n x}} = - (r - g) i p_{0} = (. 0 6 -. 0 5) \times (. 7) \\ = . 0 1 \times . 7 = 0. 0 0 7, \\ \end{array}
+\begin{array}{l} \overline {{n x}} = - (r - g) i p_{0} = (0.06 - 0.05) \times (0.7) \\ = 0.01 \times 0.7 = 0.007, \\ \end{array}
 $$
 
 or 0.7 percent of GDP. But this number is safely below the average ratio of New Zealand's net exports to its GDP over the 1992-2019 period shown in the figure, which was 1.5 percent.[7]

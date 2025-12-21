@@ -1,37 +1,37 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: Appendix A
-linter-yaml-title-alias: Appendix A
+title: "Appendix A: Definitions and Theorems"
+parent_directory: "I. Foundations/Mathematics/Everything You Always Wanted to Know About Mathematics"
+formatted: "2025-12-21 09:15:00 AM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli-tool: "claude-code"
 primary_tags:
-- proper combinatorial argument
-- induction a.3.1 principle
-- some subsets
-- a.1 sets a.1.1
+  - mathematical definitions
+  - set theory
+  - number systems
+  - mathematical theorems
+  - combinatorial principles
 secondary_tags:
-- set builder notation
-- a.1.4 set
-- some sets
-- two different sets
-- finite sets if
-- other sets
-- a.1.4 power set
-- indexed set operations
-- any mathematical statement
-tags_extracted: '2025-12-18T17:56:25.850818'
-tags_method: max_quality_v1
+  - natural numbers
+  - integers
+  - rational numbers
+  - real numbers
+  - set builder notation
+  - subsets
+  - power sets
+  - mathematical induction
+  - cardinality
+  - functions
+  - relations
+  - graph theory
+  - combinatorics
+cssclasses: academia
 ---
 
-# Appendix A
+# Appendix A: Definitions and Theorems
 
-# Definitions and Theorems
+## A.1 Sets
 
-# A.1 Sets
-
-# A.1.1 Standard Sets
+### A.1.1 Standard Sets
 
 - The natural numbers are
 
@@ -39,7 +39,7 @@ $$
 \mathbb{N} = \{1, 2, 3, 4, 5, \ldots \}
 $$
 
-Note:  $0\notin \mathbb{N}$
+Note: $0 \notin \mathbb{N}$
 
 - For every  $n \in \mathbb{N}$ , the set  $[n]$  ("brackets  $n$ " ) is defined by
 
@@ -62,7 +62,7 @@ $$
 - The real numbers are denoted by  $\mathbb{R}$ . Every real number is either rational or irrational.  
 - The empty set is the set that has no elements. We write it as  $\varnothing$  or  $\{\}$ .
 
-# A.1.2 Set-Builder Notation
+### A.1.2 Set-Builder Notation
 
 - If  $U$  is a set and  $P(x)$  is some property that either does or does not hold for any given  $x$ , then we can always define a new set by writing
 
@@ -72,7 +72,7 @@ $$
 
 - This is called set-builder notation. It is essential to identify the universal set  $U$  and the property  $P(x)$ .
 
-# A.1.3 Elements and Subsets
+### A.1.3 Elements and Subsets
 
 - To say "  $x$  is an element of the set  $S$  " we write
 
@@ -121,7 +121,7 @@ This means  $S \subseteq T$  and  $S \neq T$ .
 - It is true that  $\varnothing \subseteq S$ , for any set  $S$ .  
 - It is true that  $S \subseteq S$ , for any set  $S$ .
 
-# A.1.4 Power Set
+### A.1.4 Power Set
 
 - Let  $S$  be a set. The power set of  $S$  is denoted by  $\mathcal{P}(S)$  and is defined by
 
@@ -133,7 +133,7 @@ That is,  $\mathcal{P}(S)$  is the set of all subsets of  $S$ .
 
 - It is true that  $\varnothing \in \mathcal{P}(S)$  and  $S \in \mathcal{P}(S)$ , for any set  $S$ .
 
-# A.1.5 Set Equality
+### A.1.5 Set Equality
 
 - To say "  $S$  and  $T$  are equal sets", we write  $S = T$ . This is defined by
 
@@ -159,7 +159,7 @@ Therefore,  $S = T$
 
 This is known as a double-containment argument.
 
-# A.1.6 Set Operations
+### A.1.6 Set Operations
 
 Suppose  $S, T, U$  are sets and  $S \subseteq U$  and  $T \subseteq U$ .
 
@@ -203,7 +203,7 @@ $$
 
 It is the set of all ordered pairs, where the first coordinate is an element of  $S$  and the second coordinate is an element of  $T$ .
 
-# A.1.7 Indexed Set Operations
+### A.1.7 Indexed Set Operations
 
 Suppose  $I$  is an index set and  $U$  is a universal set, and we have defined (for every  $i \in I$ ) some sets  $A_i \subseteq U$ .
 
@@ -223,7 +223,7 @@ $$
 
 It is the set of all elements  $x$  in the universal set such that  $x$  is an element of all of the indexed sets in the intersection.
 
-# A.1.8 Partition
+### A.1.8 Partition
 
 - Let  $S$  be a set. A partition of  $S$  is a collection of sets that are pairwise disjoint and whose union is  $S$ . That is, a partition is formed by an index set  $I$  and non-empty sets  $S_{i}$  (defined for every  $i \in I$ ) that satisfy:
 
@@ -231,9 +231,9 @@ $$
 \begin{array}{l} - \forall i \in I. S_{i} \neq \emptyset \\ - \forall i \in I. S_{i} \subseteq S \\ - \forall i, j \in I. i \neq j \Rightarrow S_{i} \cap S_{j} = \varnothing \\ - \bigcup_{i \in I} S_{i} = S \\ \end{array}
 $$
 
-# A.2 Logic
+## A.2 Logic
 
-# A.2.1 Statements and Propositions
+### A.2.1 Statements and Propositions
 
 - True and False are the only two truth values we consider.  
 - A mathematical statement (or logical statement) is a grammatically-correct sentence that has exactly one truth value.  
@@ -246,7 +246,7 @@ Define  $Q(x,y)$  to be "  $xy \leq \left( \frac{x + y}{2} \right)^2$ ", for eve
 
 - The Law of the Excluded Middle is our assumption that every statement is either True or False. It states that, when we have a statement  $P$ , we are guaranteed that either  $P$  is True or  $P$  is False, and only one of those cases holds.
 
-# A.2.2 Quantifiers
+### A.2.2 Quantifiers
 
 - To say "for every" or "for all" we use the universal quantifier  $\forall$  
 "  $\forall x\in S$  .  $P(x)$  " says that "For every element  $x\in S$  , the property  $P(x)$  holds true".  
@@ -256,7 +256,7 @@ Define  $Q(x,y)$  to be "  $xy \leq \left( \frac{x + y}{2} \right)^2$ ", for eve
 - When reading a quantified statement out loud, we say "such that" only after a  $\exists$  quantifier.  
 - We use "!" to indicate that existence is unique; that is, the claim " $\exists! x \in S$ .  $P(x)$ " says that "There exists an element  $x \in S$  with property  $P(x)$ , and there is exactly one such  $x$ ."
 
-# A.2.3 Connectives
+### A.2.3 Connectives
 
 Suppose  $P$  and  $Q$  are mathematical statements. They may be composed of variable propositions with quantifiers in front.
 
@@ -332,7 +332,7 @@ $$
 
 This means that  $P$  and  $Q$  have the same truth value, whatever that happens to be.
 
-# A.2.4 Logical Negation
+### A.2.4 Logical Negation
 
 - We use " $\neg$ " to indicate the logical negation of a statement.  
 - The statement  $\neg P$  has the opposite truth value from the statement  $P$ .  
@@ -380,7 +380,7 @@ $$
 
 We can read the statement left to right and negate each part.
 
-# A.2.5 Proof Strategies
+### A.2.5 Proof Strategies
 
 We use the phrase AFSOC to mean "assume for sake of contradiction".
 
@@ -474,9 +474,9 @@ Consider the first case, where  $P \wedge \neg Q$  holds. Find a contradiction.
 
 Consider the second case, where  $Q \wedge \neg P$  holds. Find a contradiction.
 
-# A.3 Induction
+## A.3 Induction
 
-# A.3.1 Principle of Specific Mathematical Induction
+### A.3.1 Principle of Specific Mathematical Induction
 
 - Theorem: Suppose that  $P(n)$  is a variable proposition that is defined for all  $n \in \mathbb{N}$ .
 
@@ -496,7 +496,7 @@ Induction Step: Prove that  $P(k + 1)$  holds.
 
 Conclusion: By induction,  $\forall n\in \mathbb{N}$ $P(n)$
 
-# A.3.2 Principle of Strong Mathematical Induction
+### A.3.2 Principle of Strong Mathematical Induction
 
 - Theorem: Suppose that  $P(n)$  is a variable proposition that is defined for all  $n \in \mathbb{N}$ .
 
@@ -518,7 +518,7 @@ Induction Step: Prove that  $P(k + 1)$  holds.
 
 Conclusion: By induction,  $\forall n\in \mathbb{N}$ $P(n)$
 
-# A.3.3 "Minimal Criminal" Argument
+### A.3.3 "Minimal Criminal" Argument
 
 - The second condition in the hypothesis of the Principle of Induction is a conditional statement, so we can prove it by contrapositive. The contrapositive says
 
@@ -540,7 +540,7 @@ Induction Step: Prove that  $\neg P(1) \lor \neg P(1) \lor \neg P(2) \lor \dots 
 
 Conclusion: By induction,  $\forall n\in \mathbb{N}$ $P(n)$
 
-# A.4 Relations
+## A.4 Relations
 
 - Let  $A, B$  be sets. A relation between  $A$  and  $B$  is a set of ordered pairs  $R \subseteq A \times B$ .
 
@@ -554,7 +554,7 @@ We say  $R$  is a relation between  $A$  and  $B$ .
 
 When  $A = B$ , we say  $R$  is a relation on the set  $A$ .
 
-# A.4.1 Properties of Relations
+### A.4.1 Properties of Relations
 
 Let  $A$  be a set and let  $R$  be a relation on  $A$ , i.e.  $R \subseteq A \times A$ .
 
@@ -592,7 +592,7 @@ $$
 
 (i.e. two elements related in both directions must be the same).
 
-# A.4.2 Equivalence Relations
+### A.4.2 Equivalence Relations
 
 Let  $A$  be a set and let  $R$  be a relation on  $A$ .
 
@@ -614,7 +614,7 @@ $$
 - Theorem: If  $R$  is an equivalence relation on  $A$ , then the equivalence classes (i.e. the elements of  $A / R$ ) form a partition of  $A$ .  
 - Theorem: If  $I$  is some index set and  $\{S_i \mid i \in I\}$  is a partition of  $A$ , then this corresponds to a unique equivalence relation on  $A$  defined by relating two elements of  $A$  if and only if they belong to the same part of the partition.
 
-# A.4.3 Modular Arithmetic
+### A.4.3 Modular Arithmetic
 
 # Congruence mod  $n$
 
@@ -674,7 +674,7 @@ $$
 
 Furthermore, if we define  $N = \prod_{i\in [r]}n_i$ , then all of the infinitely-many solutions  $Y$  to the system of congruences satisfy  $X\equiv Y\bmod N$ .
 
-# A.5 Functions
+## A.5 Functions
 
 - Let  $A, B$  be sets. Let  $f$  be a relation between  $A$  and  $B$ , so  $f \subseteq A \times B$ .
 
@@ -908,7 +908,7 @@ Find the inverse of  $f$
 - Show that  $f \circ F = \operatorname{Id}_B$ .  
 - Deduce that  $F = f^{-1}$ . (Since  $f$  has an inverse, it is therefore a bijection, as well.)
 
-# A.6 Cardinality
+## A.6 Cardinality
 
 # A.6.1 Definitions
 
@@ -984,7 +984,7 @@ Suppose there is a surjection  $f:A\to B$  . Then  $|A|\geq |B|$
 - $\mathcal{P}(\mathbb{Z})$  
 - The set of all infinite binary strings
 
-# A.7 Combinatorics
+## A.7 Combinatorics
 
 # A.7.1 Definitions
 
@@ -1083,7 +1083,7 @@ If a set  $S$  with  $|S| = n$  is partitioned into  $k$  disjoint subsets whose
 
 (That is, if we separate  $n$  objects into  $k$  piles, there must be one pile with at least  $\frac{n}{k}$  objects in it.)
 
-# A.8 Acronyms
+## A.8 Acronyms
 
 # A.8.1 General Phrases
 

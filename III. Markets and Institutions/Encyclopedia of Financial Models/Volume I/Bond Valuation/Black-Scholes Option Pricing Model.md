@@ -1,4 +1,27 @@
 
+---
+title: Black-Scholes Option Pricing Model
+parent_directory: Bond Valuation
+formatted: 2025-12-21 09:12:25 PM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - black-scholes model
+  - option pricing theory
+  - geometric brownian motion
+  - risk neutral valuation
+secondary_tags:
+  - option greeks
+  - delta hedging
+  - volatility modeling
+  - stochastic calculus
+  - arbitrage pricing
+  - derivative valuation
+  - continuous time finance
+  - martingale theory
+cssclasses: academia
+---
+
 # Black-Scholes Option Pricing Model
 
 SVETLOZAR T. RACHEV, PhD, DrSci
@@ -28,7 +51,7 @@ Figure 1 Possible Paths of the Stock Price Evolution over One Year with  $S_0 = 
 Furthermore, we know that stock returns exhibit random fluctuations called volatility. Let  $\sigma$  denote the unknown yearly rate of volatility. Here and below we have implicitly assumed that the expected return and the volatility of the stock are time independent. This assumption might be violated in practice. Formalizing our ideas about the stock price we come up with the following equation for the return of the stock in a small time interval of length  $\Delta t$ :
 
 $$
-\underbrace {\frac{S_{t + \Delta t} - S_{t}}{S_{t}}}_{\text{ur ni np er io d} [ t, t + \Delta t ]} = \mu \cdot \Delta t + \underbrace {\sigma \cdot \varepsilon_{t}^{\Delta t}}_{\text{"S to ch as ti cn oi se "}}
+\underbrace {\frac{S_{t + \Delta t} - S_{t}}{S_{t}}}_{\text{return period} [ t, t + \Delta t ]} = \mu \cdot \Delta t + \underbrace {\sigma \cdot \varepsilon_{t}^{\Delta t}}_{\text{"Stochastic noise"}}
 $$
 
 The stochastic noise  $\sigma \cdot \varepsilon_t^{\Delta t}$  should have the following properties:
@@ -91,7 +114,7 @@ C = S \Phi \left(d_{1}\right) - X e^{- r T} \Phi \left(d_{2}\right) \tag {2}
 $$ where
 
 
-$$ d_{1} = \frac{\ln (S / X) + (r + 0 . 5 \sigma^{2} T)}{\sigma \sqrt{T}} \tag {3}
+$$ d_{1} = \frac{\ln (S / X) + (r + 0.5 \sigma^{2} T)}{\sigma \sqrt{T}} \tag {3}
 $$
 
 $$ d_{2} = d_{1} - \sigma \sqrt{T} \tag {4}
@@ -99,37 +122,37 @@ $$ where
 
 
 $$
-\ln (\cdot) = \text{na tu ra l}
+\ln (\cdot) = \text{natural}
 $$
 
 $$
-C = \text{ca ll}
+C = \text{call}
 $$
 
 $$
-S = \text{cu rr en t}
+S = \text{current}
 $$
 
 $$
-X = \text{st ri ke}
+X = \text{strike}
 $$
 
-$$ r = \text{sh or t -t er m}
+$$ r = \text{short-term}
 $$
 
-$$ e = 2. 7 1 8 \text{(na tu ra la nt il og of 1)}
-$$
-
-$$
-\begin{array}{l} T = \text{ti me re ma in in gt ot he ex pi ra ti on da te} \\ \text{(me as ur ed as af ra ct io no fa ye ar)} \end{array}
+$$ e = 2.718 \text{(natural antilog of 1)}
 $$
 
 $$
-\sigma = \text{ex pe ct ed} \quad \text{re tu rn vo la ti ly fo rt he st oc k} \quad \text{(st an da rd} \quad \text{de vi at io no ft he st oc k} \quad \text{s} \quad \text{re tu rn in pe rc en tp er an nu m)}
+\begin{array}{l} T = \text{time remaining to the expiration date} \\ \text{(measured as a fraction of a year)} \end{array}
 $$
 
 $$
-\Phi (\cdot) = \begin{array}{l} \text{th ec um ul at iv ed is tr ib ut io nf un ct io n} \\ \text{of as ta nd ar dn or ma ld is tr ib ut io n} \end{array}
+\sigma = \text{expected} \quad \text{return volatility for the stock} \quad \text{(standard} \quad \text{deviation of the stock} \quad \text{s} \quad \text{return in percent per annum)}
+$$
+
+$$
+\Phi (\cdot) = \begin{array}{l} \text{the cumulative distribution function} \\ \text{of a standard normal distribution} \end{array}
 $$
 
 The option price derived from the Black-Scholes option pricing model is "fair" in the sense that if any other price existed in a market where all the assumptions of the Black-Scholes model are fulfilled, it would be possible to earn riskless arbitrage profits by taking an offsetting position in the underlying stock. That is, if the price of the call option in the market is higher than that derived from the Black-Scholes option pricing model, an investor could sell the call option and buy a certain number of shares in the underlying stock. If the reverse is true, that is, the market price of the call option is less than the "fair" price derived from the model, the investor could buy the call option and sell short a certain number of shares in the underlying stock. This process of hedging by taking a position in the underlying stock allows the investor to lock in the riskless arbitrage profit. The number of shares necessary to hedge the position changes as the factors that affect the option price change, so the hedged position must be changed constantly.
@@ -140,68 +163,68 @@ The option price derived from the Black-Scholes option pricing model is "fair" i
 To illustrate the Black-Scholes option pricing formula, assume the following values:
 
 $$
-\text{St ik ep ri ce} = \$ 4 5
+\text{Strike price} = \$ 45
 $$
 
 $$
-\text{Ti me} = 1 8 3 \text{da ys}
+\text{Time} = 183 \text{days}
 $$
 
 $$
-\text{Cu rr en ts to ck pr ic e} = \$ 4 7
+\text{Current stock price} = \$ 47
 $$
 
 $$
-\text{Ex pe ct ed} = \text{St an da rd}
+\text{Expected} = \text{Standard}
 $$
 
 $$
-= 25 \% \text{perannum}
+= 25 \% \text{per annum}
 $$
 
 $$
-\text{Risk -freerate} = 10 \% \text{perannum}
+\text{Risk-free rate} = 10 \% \text{per annum}
 $$
 
 In terms of the values in the formula:
 
 $$
-S = 4 7
+S = 47
 $$
 
 $$
-X = 4 5
+X = 45
 $$
 
 $$
-T = 0. 5 (1 8 3 \text{da ys} / 3 6 5, \text{ro un de d})
+T = 0.5 (183 \text{days} / 365, \text{rounded})
 $$
 
 $$
-\sigma = 0. 2 5
+\sigma = 0.25
 $$
 
-$$ r = 0. 1 0
+$$ r = 0.10
 $$
 
 Substituting these values into equations (3) and (4):
 
-$$ d_{1} = \frac{\ln (4 7 / 4 5) + (0 . 1 0 + 0 . 5 [ 0 . 2 5 ]^{2}) 0 . 5}{0 . 2 5 \sqrt{0 . 5}} = 0. 6 1 7 2
+$$ d_{1} = \frac{\ln (47 / 45) + (0.10 + 0.5 [ 0.25 ]^{2}) 0.5}{0.25 \sqrt{0.5}} = 0.6172
 $$
 
-$$ d_{2} = 0. 6 1 7 2 - 0. 2 5 \sqrt{0 . 5} = 0. 4 4 0 4 4 3
+$$ d_{2} = 0.6172 - 0.25 \sqrt{0.5} = 0.440443
 $$
 
 From a normal distribution table,
 
 $$
-\Phi (0. 6 1 7 2) = 0. 7 3 1 5 \quad \text{an d} \quad \Phi (0. 4 4 0 4) = 0. 6 7 0 2
+\Phi (0.6172) = 0.7315 \quad \text{and} \quad \Phi (0.4404) = 0.6702
 $$
 
 Then
 
 $$
-C = \$ 47(0.7315) - \$ 45(\mathrm{e}^{- (0.1 0) (0. 5)}) (0. 6 7 0 2) = \$ 5. 6 9
+C = \$ 47(0.7315) - \$ 45(\mathrm{e}^{- (0.10) (0.5)}) (0.6702) = \$ 5.69
 $$
 
 Table 1 shows the option value as calculated from the Black-Scholes option pricing model for different assumptions concerning (1) the standard deviation for the stock's return (that is, expected return volatility); (2) the risk-free rate; and (3) the time remaining to expiration. Notice that the option price varies directly with three
@@ -259,7 +282,7 @@ The impact of the parameters stock price, interest rate, time to maturity, and v
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/3690b8bd8e568a4d425c8a7bf7eb5045acb6b1bcdaef6270da4454cc14ed6df4.jpg)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/97259235534df529204a2016faefbe22888ed4dae73e1b8cbcdca09bdd29602b.jpg)
-Figure 3 Delta as a Function of the Parameters Note: The example is calculated for a one-month option with strike X = \100 and current stock price S = \$ 100 with an interest of 10\% per annum and a volatility of 20\% per annum.
+Figure 3 Delta as a Function of the Parameters Note: The example is calculated for a one-month option with strike X = $100 and current stock price S = $100 with an interest of 10\% per annum and a volatility of 20\% per annum.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/d59d0e02a220157efb16fae8d0bf554229ccfb5e4776622ec81c87638fe70603.jpg)
 
@@ -267,7 +290,7 @@ In this case, the value of the option equals its intrinsic value and therefore a
 
 For gamma, it is clear that the impact of a change in the price of the underlying is the highest if the option is at the money. If the option is far out or far in the money, we have  $C \approx 0$  or  $C \approx S$  and, therefore, the second derivative with respect to  $S$  will vanish.
 
-Below we will give a brief overview of the remaining sensitivity measures called theta, vega, and rho. Figure 4 visualizes the effect of the cur rent stock price on the Greeks gamma, theta, rho, and vega.
+Below we will give a brief overview of the remaining sensitivity measures called theta, vega, and rho. Figure 4 visualizes the effect of the current stock price on the Greeks gamma, theta, rho, and vega.
 
 
 # The Call Option Price and Time to Expiration: Theta
@@ -336,7 +359,7 @@ To derive an option pricing model, an assumption is needed about the way stock p
 
 # Risk-Free Interest Rate
 
-In deriving the Black-Scholes model, two assumptions were made about the risk-free inter est rate. First, it was assumed that the interest rates for borrowing and lending were the same. Second, it was assumed that the interest rate was constant and known over the life of the option. The first assumption is unlikely to hold because borrowing rates are higher than lending rates. The effect on the Black-Scholes model is that the option price will be bound between the call price derived from the model using the two interest rates. The model can handle the second assumption by replacing the risk-free rate over the life of the option by the geometric average of the period returns expected over the life of the option. Returns on short-term Treasury bills cannot be known with certainty over the long term. Only the expected return is known, and there is a variance around it. The effects of variable interest rates are considered in Merton (1973).
+In deriving the Black-Scholes model, two assumptions were made about the risk-free interest rate. First, it was assumed that the interest rates for borrowing and lending were the same. Second, it was assumed that the interest rate was constant and known over the life of the option. The first assumption is unlikely to hold because borrowing rates are higher than lending rates. The effect on the Black-Scholes model is that the option price will be bound between the call price derived from the model using the two interest rates. The model can handle the second assumption by replacing the risk-free rate over the life of the option by the geometric average of the period returns expected over the life of the option. Returns on short-term Treasury bills cannot be known with certainty over the long term. Only the expected return is known, and there is a variance around it. The effects of variable interest rates are considered in Merton (1973).
 
 
 # BLACK-SCHOLES MODEL APPLIED TO THE PRICING OF OPTIONS ON BONDS: IMPORTANCE OF ASSUMPTIONS
@@ -348,23 +371,23 @@ We know that there are coupon-paying bonds and zero-coupon bonds. In our illustr
 
 Strike price = 88.00
 
-Time remaining to expiration  $= 2$  years
+Time remaining to expiration $= 2$ years
 
-Current bond price  $= \$  83.96$
+Current bond price $= \$83.96$
 
-Expected return volatility  $=$  Standard deviation
+Expected return volatility $=$ Standard deviation
 
 $$
-= 10 \% \text{perannum}
+= 10 \% \text{per annum}
 $$
 
-Risk-free rate  $= 6\%$  per annum
+Risk-free rate $= 6\%$ per annum
 
-The Black-Scholes model would give an option value of  \$8.116. There is no reason to suspect that this value generated by the model is incorrect. However, let us change the problem slightly. Instead of a strike price of\$ 88, let us make the strike price \$100.25. The Black-Scholes option pricing model would give a fair value of \$2.79. Is there any reason to believe this is incorrect? Well, consider that this is a call option on a zero-coupon bond that will never have a value greater than its maturity value of \$100. Consequently, a call option with a strike price of \$100.25 must have a value of zero. Yet, the Black-Scholes option pricing model tells us that the value is 2.79! In fact, if we assume a higher expected volatility, the Black-Scholes model would give an even greater value for the call option.
+The Black-Scholes model would give an option value of  \$8.116. There is no reason to suspect that this value generated by the model is incorrect. However, let us change the problem slightly. Instead of a strike price of $88, let us make the strike price $100.25. The Black-Scholes option pricing model would give a fair value of $2.79. Is there any reason to believe this is incorrect? Well, consider that this is a call option on a zero-coupon bond that will never have a value greater than its maturity value of $100. Consequently, a call option with a strike price of $100.25 must have a value of zero. Yet, the Black-Scholes option pricing model tells us that the value is 2.79! In fact, if we assume a higher expected volatility, the Black-Scholes model would give an even greater value for the call option.
 
 Why is the Black-Scholes model off by so much in our illustration? The answer is that there are three assumptions underlying the Black-Scholes model that limit its use in pricing options on fixed income instruments.
 
-The first assumption is that the probability distribution for the underlying asset's prices assumed by the Black-Scholes model permits some probability—no matter how small—that the price can take on any positive value. But in the case of a zero-coupon bond, the price cannot take on a value above  \$100. In the case of a coupon bond, we know that the price cannot exceed the sum of the coupon payments plus the maturity value. For example, for a five-year 10\%$  coupon bond with a maturity value of 100, the price cannot be greater than \$150 (five coupon payments of \$10 plus the maturity value of 100). Thus, unlike stock prices, bond prices have a maximum value. The only way that a bond's price can exceed the maximum value is if negative interest rates are permitted. While there have been instances where negative interest rates have occurred outside the United States, users of option pricing models assume that this outcome cannot occur. Consequently, any probability distribution for prices assumed by an option pricing model that permits bond prices to be higher than the maximum bond value could generate nonsensical option prices. The Black-Scholes model does allow bond prices to exceed the maximum bond value (or, equivalently, assumes that interest rates can be negative).
+The first assumption is that the probability distribution for the underlying asset's prices assumed by the Black-Scholes model permits some probability—no matter how small—that the price can take on any positive value. But in the case of a zero-coupon bond, the price cannot take on a value above  \$100. In the case of a coupon bond, we know that the price cannot exceed the sum of the coupon payments plus the maturity value. For example, for a five-year 10\% coupon bond with a maturity value of 100, the price cannot be greater than $150 (five coupon payments of $10 plus the maturity value of 100). Thus, unlike stock prices, bond prices have a maximum value. The only way that a bond's price can exceed the maximum value is if negative interest rates are permitted. While there have been instances where negative interest rates have occurred outside the United States, users of option pricing models assume that this outcome cannot occur. Consequently, any probability distribution for prices assumed by an option pricing model that permits bond prices to be higher than the maximum bond value could generate nonsensical option prices. The Black-Scholes model does allow bond prices to exceed the maximum bond value (or, equivalently, assumes that interest rates can be negative).
 
 
 The second assumption of the Black-Scholes model is that the short-term interest rate is constant over the life of the option. Yet the price of an interest rate option will change as interest rates change. A change in the short-term interest rate changes the rates along the yield curve. Therefore, for interest rate options it is clearly inappropriate to assume that the short-term rate will be constant.

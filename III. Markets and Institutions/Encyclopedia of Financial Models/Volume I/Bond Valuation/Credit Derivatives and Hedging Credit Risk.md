@@ -1,4 +1,27 @@
 
+---
+title: Credit Derivatives and Hedging Credit Risk
+parent_directory: Volume I
+formatted: 2025-12-21 09:15:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - credit derivatives
+  - credit risk hedging
+  - merton model
+  - reduced form models
+secondary_tags:
+  - credit default swaps
+  - portfolio credit risk
+  - macroeconomic factors
+  - default probabilities
+  - counterparty risk
+  - enterprise risk management
+  - stress testing
+  - interest rate risk
+cssclasses: academia
+---
+
 # Credit Derivatives and Hedging Credit Risk
 
 DONALD R. VAN DEVENTER, PhD
@@ -9,8 +32,7 @@ Abstract: The credit crisis of 2007-2009 in the United States and Europe and the
 
 In this entry, we examine practical tools for hedging credit risk at both the transaction level and the portfolio level, focusing on the interaction between the credit modeling technologies and traded instruments that would allow one to mitigate credit risk. We start with a discussion linking credit modeling and credit portfolio management in a practical way. We then turn to the credit default swap market as a potential hedging tool. Finally, the state of the art is discussed: hedging transaction level and portfolio credit risk using hedges that involve macroeconomic factors that are traded in the marketplace.
 
-# CREDIT PORTFOLIO
-MODELING: WHAT'S THE HEDGE?
+## Credit Portfolio Modeling: What's the Hedge?
 
 One of the reasons that the popular value-at-risk (VaR) concept has been regarded as an incomplete risk management tool is that it provides little or no guidance on how to hedge if the VaR indicator of risk levels is regarded as too high. In a more subtle way, the same criticisms apply to many of the key modeling technologies that are popular in financial markets, like the copula approach to the simulation of credit portfolios. In this entry we summarize the virtues and the vices from a hedging perspective of both various credit modeling techniques and credit derivative instruments traded in the marketplace. One of the key issues that requires a lot of attention in credit portfolio modeling is the impact of the business cycle on default probabilities. Default probabilities rise and fall when the economy weakens and strengthens. This is both obvious and so subtle that almost all commercially available modeling technologies ignore it. It's easy to talk about it and hard to do.
 
@@ -22,7 +44,7 @@ Figures 1 and 2 show the cyclical rise and fall in 5-year reduced-form default p
 
 With this common knowledge as background, we begin with the hedging implications of the Merton model at the individual transaction and portfolio level (see Merton, 1974).
 
-# THE MERTON MODEL AND ITS VARIANTS: TRANSACTION-LEVEL HEDGING
+## The Merton Model and Its Variants: Transaction-Level Hedging
 
 As of this writing, every publicized commercial implementation of the Merton model or its variants has one principal assumption in common: The only random factor in the model is the "value of company assets." Regardless of the variety of Merton model used, all models of this type have the following attributes in common when the value of company assets rises:
 
@@ -62,7 +84,7 @@ There are a few more points that one needs to make about the Merton model and al
 
 These insights are not widely recognized by analysts who consider hedging using the Merton technology. Given the value of company assets, we can calculate the Merton hedge ratio directly with no need for a default probability estimate or a loss given default estimate. If instead we are given the Merton (or its variants) default probability, we do not know the hedge ratio without full disclosure of how the default probability was derived. Any failure to make this disclosure is a probable violation of the Basel II capital accords from the Basel Committee on Banking Supervision.
 
-# THE MERTON MODEL AND ITS VARIANTS: PORTFOLIO-LEVEL HEDGING
+## The Merton Model and Its Variants: Portfolio-Level Hedging
 
 One of the attractive things about the Merton model, in spite of the limitations mentioned above, is its simple intuition. We know that the basic businesses of Ford and General Motors are highly correlated, so it is a small logical step to think about how the assets of the two companies must be closely correlated. One has to make a very substantial set of additional assumptions if one wants to link the macroeconomic factors that drive correlated defaults to the value of company assets in the Merton framework or any of its one-factor commercial variants. Let's assume away those complexities and assume that we know the returns on the assets of Ford have a 0.25 correlation with the returns on the assets of General Motors. Note that the 0.25 correlation does not refer to
 
@@ -91,7 +113,7 @@ If one does link the value of company assets to macroeconomic factors, there is 
 
 What if we want to use the Merton/copula approach in spite of its role in recent losses? As Lando (2004) discusses, this is a large set of nontrivial analytical issues to deal with. Most importantly, moving to a multiperiod framework with random interest rates leads one immediately to the reduced form model approach, where it is much easier for the default probability models to be completely consistent within the valuation framework. We turn to that task now.
 
-# Reduced-Form Models: Transaction-Level Hedging
+## Reduced-Form Models: Transaction-Level Hedging
 
 One of the many virtues of the reduced form modeling approach is that it explicitly links factors driving default probabilities, like interest rates and other macroeconomic factors, to the default probabilities themselves. Just as important, the reduced form framework is a multiperiod, no-arbitrage valuation framework in a random interest rate context. Once we know the default probabilities and the factors driving them, credit spreads follow immediately, as does valuation. Valuation, even when there are embedded options, often comes in the form of analytical closed-form solutions. More complex options require numerical methods that are commonly used on Wall Street. The ability to stress test portfolio values and portfolio losses with respect to macro factor movements is now required by the European Central Bank and by U.S. bank regulators via two programs: the Comprehensive Capital Assessment Review and the Supervisory Capital Assessment Program. The later program, required of the top 19 U.S. financial institutions in 2009, mandated stress tests with respect to changes in home prices, real gross domestic product, and the unemployment rate.
 
@@ -102,7 +124,7 @@ These default-related jumps in value have two components. The first part is the 
 
 At the portfolio level, this is not necessary. We explain why next.
 
-# Reduced-Form Models: Portfolio-Level Hedging
+## Reduced-Form Models: Portfolio-Level Hedging
 
 One of the key conclusions of a properly specified reduced form model is that the default probabilities of each of  $N$  companies at a given point in time are independent, conditional on the values of the macroeconomic factors driving correlated defaults. That is, as long as none of the factors causing correlated default have been left out of the model, then by definition, given the value of these factors, default is independent. This is an insight of Jarrow, Lando, and Yu (2005).
 
@@ -113,7 +135,7 @@ This exercise needs to be done for a wide range of potential risk factor shifts,
 
 We turn now to commonly used credit-related derivative instruments and discuss what role they can play in a hedging program.
 
-# CREDIT DEFAULT SWAPS AND HEDGING
+## Credit Default Swaps and Hedging
 
 Credit default swaps in their purest form provide specific credit protection on a single issuer. They are particularly attractive when the small size of a portfolio (in terms of issuer names) or extreme concentrations in a portfolio rule out diversification as a vehicle for controlling the idiosyncratic risk associated with one portfolio name.
 
@@ -134,10 +156,7 @@ A more important concern with credit default swap hedging is the very thin tradi
 
 Given these low volumes, there is a serious risk of market manipulation that should give any potential hedger great concern.
 
-# PORTFOLIO- AND
-TRANSACTION-LEVEL
-HEDGING USING TRADED
-MACROECONOMIC INDICES
+## Portfolio- and Transaction-Level Hedging Using Traded Macroeconomic Indices
 
 The instantaneous probability of default can be specified as a linear function of one or more macroeconomic factors. An example is the case where the default intensity is a linear function of the random short-term rate of interest
 
@@ -228,12 +247,11 @@ If one takes this approach, total balance sheet credit hedging is very practical
 
 All of these benefits are critical to answer the key question of "What's the hedge?"
 
-# KEY POINTS
+## Key Points
 
 - It is not enough to know only the default risk of a counterparty. Over the full portfolio, a financial institution needs to know the answer to the question "What is the hedge?" if the measured credit risk is uncomfortably large.
 - The major U.S. (2007-2009) and Japanese (1990-2002) financial institutions required government bailouts in the trillions of dollars because of their inability to measure and hedge macro factor risks like those of home price movements and commercial real estate price movements.
-- The Merton model is a logical place to start thinking about how to hedge because of its simple structure and focus on the value of company assets.
-Unfortunately, for theoretical reasons alone, hedging in the Merton framework does not work for a company that is highly distressed. A perfect hedge could easily require a short position of more than  $100\%$  of the shares of outstanding common stock.
+- The Merton model is a logical place to start thinking about how to hedge because of its simple structure and focus on the value of company assets. Unfortunately, for theoretical reasons alone, hedging in the Merton framework does not work for a company that is highly distressed. A perfect hedge could easily require a short position of more than  $100\%$  of the shares of outstanding common stock.
 
 
 - The only practical and accurate approach to hedging credit risk is the reduced form modeling approach.
@@ -241,4 +259,3 @@ Unfortunately, for theoretical reasons alone, hedging in the Merton framework do
 - The reduced form approach explicitly links macro factors to both observable bond and CDS prices and to a historical default database. A similar approach links macro factors to credit spreads and recovery rates. The recovery on a mortgage that is in default is an example. Obviously, it depends on the value of the house that is collateral.
 - Delta hedging of aggregate portfolio exposure to these macro factors that drive credit risk is done in best practice enterprise-wide risk management software.
 - This modern application of stress testing, applied to a longer list of macro factors than interest rates alone, is not just theory. It is now mandated by the European Central Bank and U.S. regulatory authorities.
-

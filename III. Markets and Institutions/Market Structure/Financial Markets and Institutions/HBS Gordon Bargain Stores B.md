@@ -1,26 +1,35 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Gordon Bargain Stores, Inc. (B)"
+formatted: 2025-12-21 09:15:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+  - bankruptcy proceedings
+  - bank lending decisions
+  - credit risk management
+  - retail industry distress
+  - offset arrangements
+secondary_tags:
+  - workout loan strategies
+  - correspondent banking relationships
+  - trade creditor management
+  - inventory shrinkage issues
+  - merger negotiations
+  - liquidity crisis management
 cssclasses: academia
-title: GORDON BARGAIN STORES, INC. (B)
-linter-yaml-title-alias: GORDON BARGAIN STORES, INC. (B)
 ---
 
 # GORDON BARGAIN STORES, INC. (B)
 
 "Ben, despite all our discussion, I'm still not sure what we ought to do about Gordon. If, as you suggest, a bankruptcy is inevitable, it certainly does argue for us moving now to offset the balances in Gordon's deposit accounts against our loan. At the moment the deposit balances amount to \$8,625,000 against our loan outstandings of \$12,457,500. That's almost 70% of our exposure right in our hands. And, as you've said, Gordon may be pulling the balances down deliberately so that every day we sit without acting could cost us cold cash. If we let the balances slide away from us, and they do go into Chapter 11 bankruptcy, we stand to take a real bath on Gordon. And, goodness knows, Mr. Quinn is upset enough about the chargeoff outlook for 1984 apart from Gordon. I guess we'll have to leave the final decision up to him, but we sure need to have a solid recommendation for him, and the sooner the better. Tomorrow may be too late.
 
-"But what about the other banks? If we offset, and Gordon responds by a 'voluntary' bankruptcy, we can be cast as the villain who pulled the trigger on them. We come out with a lower net exposure than Steel City's  \$6,500,000 or Knickerbocker's\$ 4,312,500. Of course, they'll be upset. And Mr. Quinn knows he helped us bring them back in last January. What do we owe them here? After all, they're big boys and had all the facts we did when they decided to come in. Can we argue that they made an offset action inevitable when they decided not to extend the full lines Gordon obviously needed so desperately? And that we are simply recognizing the inevitability of a bankruptcy they clinched with their own actions?"
+"But what about the other banks? If we offset, and Gordon responds by a 'voluntary' bankruptcy, we can be cast as the villain who pulled the trigger on them. We come out with a lower net exposure than Steel City's  \$6,500,000 or Knickerbocker's \$4,312,500. Of course, they'll be upset. And Mr. Quinn knows he helped us bring them back in last January. What do we owe them here? After all, they're big boys and had all the facts we did when they decided to come in. Can we argue that they made an offset action inevitable when they decided not to extend the full lines Gordon obviously needed so desperately? And that we are simply recognizing the inevitability of a bankruptcy they clinched with their own actions?"
 
 "Even if they are a bit livid at us, how should we weigh their enmity against the dollars we save by offset. Wouldn't they think of themselves first and foremost if the tables were turned? Isn't our first obligation to ourselves, the Erie stockholders, even if it means a lot of unpleasantness for us personally?"
 
-"Of course, if we can't muster a good case for ourselves, offsetting could sour our whole relationship with Steel City and Knickerbocker and we are in several other participations with them and may need them for other
+ "Of course, if we can't muster a good case for ourselves, offsetting could sour our whole relationship with Steel City and Knickerbocker and we are in several other participations with them and may need them for other overline line deals. But we do have a lot more in our correspondent balances with them than they do with us. In the last analysis, if they get too nasty, I guess we could find new correspondents in New York and Pittsburgh.
 
-This case was prepared as the basis for class discussion and is not intended to illustrate either effective or ineffective handling of an administrative situation.
-
-overline line deals. But we do have a lot more in our correspondent balances with them than they do with us. In the last analysis, if they get too nasty, I guess we could find new correspondents in New York and Pittsburgh.
+ This case was prepared as the basis for class discussion and is not intended to illustrate either effective or ineffective handling of an administrative situation.
 
 "Another angle we ought not to overlook is that a Chapter 11 proceeding might be the best thing for Gordon in the long run. The shelter of the court will give them time to do the cutting back that just has to be done. Maybe they can work out a program of slimming down that, however painful short run, will be best for management and the shareholders over time.
 
@@ -28,9 +37,9 @@ overline line deals. But we do have a lot more in our correspondent balances wit
 
 Mr. George Farnham, a Vice President of the Erie State Bank in Cleveland, Ohio and the Account Officer for Gordon Bargain Stores, Inc., a chain of discount department stores (see HBS Case Services 9-288-058, "Gordon Bargain Stores, Inc. (A) for background) was talking to Mr. Ben Howard, Erie's "work-out" Loan Officer and a Senior Vice President, about Gordon's problem. "We must make a decision immediately," he continued, "This is the second day in a row that Gordon has missed its regular daily deposit. I'm afraid that they are making deposits to some other bank and using the balances in their account with us to pay their trade bills, so that we won't be able to offset against our loan, and thus close off their access to the cash. Considering the sizeable amounts which they owe to their suppliers, we will have no balances left in the account if we don't act quickly."
 
-It was now June 12, almost six months after a financial crisis for Gordon had been resolved with difficulty. Mr. Farnham, with the aid of top officers of his bank, had managed to persuade the officers of Knickerbocker National Bank in New York and the Steel City National Bank of Pittsburgh, to extend badly needed credit lines of \(8.625 million each for the seasonal borrowings of Gordon Bargain Stores, Inc. The credit lines carried a rate of prime plus \(1/2\%\) and "10 plus \(10\) balances. Borrowings were to be on a demand basis. Erie's correspondent balances were to count toward Knickerbocker's and Steel City's yields, as Gordon maintained all its operating accounts at the Cleveland bank, except for a regional depository account at the Appalachia Bank of Wheeling, West Virginia (see Exhibit 6 for a schedule of interest rates in the U.S. during the early 1980s).
+ It was now June 12, almost six months after a financial crisis for Gordon had been resolved with difficulty. Mr. Farnham, with the aid of top officers of his bank, had managed to persuade the officers of Knickerbocker National Bank in New York and the Steel City National Bank of Pittsburgh, to extend badly needed credit lines of \$8.625 million each for the seasonal borrowings of Gordon Bargain Stores, Inc. The credit lines carried a rate of prime plus $1/2\%$ and "10 plus $10$ balances. Borrowings were to be on a demand basis. Erie's correspondent balances were to count toward Knickerbocker's and Steel City's yields, as Gordon maintained all its operating accounts at the Cleveland bank, except for a regional depository account at the Appalachia Bank of Wheeling, West Virginia (see Exhibit 6 for a schedule of interest rates in the U.S. during the early 1980s).
 
-Both Joe Grant, an Assistant Vice President and Loan Officer at Knickerbocker, and Jack Foster, a Vice President and Loan Officer at Steel City, had originally rejected Gordon's request for credit, as the Company had suffered a loss in fiscal 1983 and projected only a break-even for fiscal 1984. The New York and Pittsburgh banks' representatives had felt that the Company's management was not dealing effectively with its problems; they felt strongly that the Kiddie-City division should be sold immediately or written off, and that several unprofitable Gordon stores should also be closed as soon as possible to stop their cash drain on the Company's operations. Mssrs. Foster and Grant agreed to come into the credit agreement only when Erie's senior management, facing potential exposure to Gordon above their legal lending limit of \$17.25 million, personally "went to bat"
+Both Joe Grant, an Assistant Vice President and Loan Officer at Knickerbocker, and Jack Foster, a Vice President and Loan Officer at Steel City, had originally rejected Gordon's request for credit, as the Company had suffered a loss in fiscal 1983 and projected only a break-even for fiscal 1984. The New York and Pittsburgh banks' representatives had felt that the Company's management was not dealing effectively with its problems; they felt strongly that the Kiddie-City division should be sold immediately or written off, and that several unprofitable Gordon stores should also be closed as soon as possible to stop their cash drain on the Company's operations. Messrs. Foster and Grant agreed to come into the credit agreement only when Erie's senior management, facing potential exposure to Gordon above their legal lending limit of \$17.25 million, personally "went to bat".
 
 for Gordon with top management of Knickerbocker and Steel City, both of which had long correspondent banking relationships with the Cleveland bank. The two banks' loan officers had finally agreed in late January to come in on a last-in-first-out basis, with the assurance of Mr. Jim Gordon, the Chairman of Gordon, that the Company would take steps immediately to close down its unprofitable operations. Mr. Farnham had breathed a sigh of relief, certain that with the new credit commitments, Gordon would be able to effect a turnaround and solve its problems with its trade suppliers who had been very nervous and had threatened to withdraw all credit. By the second week in March, the Company had drawn down \$25,187,500 of its bank lines; \$8.625 million, or all of the current portion of its \$14.375 million line at Erie (the other \$5.75 million of the commitment had been drawn down under a participation in a term loan extended to Gordon by the Mid-West Life Insurance Company); \$5.75 million, the total amount of its line from the Appalachia State Bank; \$6.5 million at Steel City and \$4,312,500 at Knickerbocker.
 
@@ -44,34 +53,32 @@ On May 28, Mr. Farnham received a phone call from Jack Foster of Steel City, sta
 
 On May 30, the officers of Gordon and representatives of all the senior creditors met at Knickerbocker's headquarters in New York. Both Messrs. Foster and Grant cited Mr. Gordon's loss of creditability, both with the banks and with the trade, as a result of his failure to take adequate and speedy remedial action. The two men felt that although they had come into the credit as a favor to Erie, they were in a considerably weaker position as lenders. Because Gordon maintained its major operating accounts with substantial balances at Erie, Erie could offset the balances against the outstanding loans. Knickerbocker and Steel City, on the other hand, held only Erie's correspondent balances. Mssrs. Foster and Grant requested, therefore, that a balance-sharing arrangement should be developed to ensure fairness among the banks. Mr. Farnham, however, refused to consider this until he could have more time to consult with Ben Howard, Erie's "work-out" Loan Officer. At the meeting, Jim Gordon, Gordon's Chairman, asked that the banks consider carefully the company's request for the additional funds, since if they were not forthcoming, he would have no other choice but to file for bankruptcy to give Gordon's management time to effect sales of stores and reorganize their efforts to operate on a profitable basis. Mr. Foster, however, again reiterated his opinion that the merger still had a "50-50" chance of going through.
 
-On June 6, Mr. Farnham received a call from Joe Grant at Knickerbocker, informing him that he and Mr. Foster had met further with Gordon officials and had decided not to disburse the additional funds. His chief concern was that the trade and the factors, which had been growing increase
-
-ingly nervous at the delay in payments, might withdraw enough support so as to endanger seriously the Company's future.
+ On June 6, Mr. Farnham received a call from Joe Grant at Knickerbocker, informing him that he and Mr. Foster had met further with Gordon officials and had decided not to disburse the additional funds. His chief concern was that the trade and the factors, which had been growing increasingly nervous at the delay in payments, might withdraw enough support so as to endanger seriously the Company's future.
 
 Mr. Farnham studied the rough balance sheet which Mr. Gordon had sketched out for him a few days before (see Exhibit 5). It just seemed that a company in Gordon's position was too strong to send into bankruptcy. Was bank debt really Gordon's only potential source of funds? Unfortunately, it did not seem as though more equity was a viable solution. With the troubles of the retailing industry compounding the Company's recent poor earnings performance, Gordon's stock price had plummeted to \$5 from a 1982 high of \$67.50. Mr. Farnham knew Jim Gordon was keenly conscious about the Company's stock price, as many of his friends had invested heavily in Gordon. He felt sure that Mr. Gordon would refuse to issue stock at this low price even if it were possible. In addition, the disclosure required by the SEC for a public offering could really blow the lid off the whole situation.
 
 On Wednesday, June 12, after having learned that the possible merger with Empire Stores had fallen through, and that Gordon had skipped two of its normal deposits, Mr. Farnham met with Ben Howard to discuss alternatives for action. Offsetting seemed to be the most extreme option, but he was unsure as to what were the possible alternatives. Should he try to pursue another possible merger partner? Should he try again to persuade Messrs. Grant and Foster to reconsider? Or would all this just be futile and waste valuable time, allowing Erie's position to deteriorate if Gordon's management were indeed trying to run down the balances?
 
-EXHIBIT 1  
+## EXHIBIT 1
 Income Statement for GORDON BARGAIN STORES, INC. (B)  
 
 <table><tr><td rowspan="2"></td><td colspan="4">For Fiscal Years Ended, January 31,</td><td>Actual</td><td rowspan="2">Projected</td></tr><tr><td>($ in Thousands)</td><td>1980</td><td>1981</td><td>1982</td><td>1983</td></tr><tr><td>Gross Sales</td><td>$229,800</td><td>$317,158</td><td>$372,510</td><td>$454,918</td><td>$504,378</td><td>$535,750</td></tr><tr><td>Less: Leased Dept. Sales</td><td>(8,845)</td><td>(11,685)</td><td>(12,518)</td><td>(13,300)</td><td>(13,093)</td><td>(13,250)</td></tr><tr><td>Net Sales</td><td>220,955</td><td>305,473</td><td>359,993</td><td>441,618</td><td>491,285</td><td>522,500</td></tr><tr><td>Cost of Goods Sold</td><td>161,320</td><td>221,645</td><td>260,415</td><td>337,523</td><td>385,268</td><td>400,000</td></tr><tr><td>Gross Profit</td><td>59,635</td><td>83,828</td><td>99,578</td><td>104,095</td><td>106,018</td><td>122,500</td></tr><tr><td>Operating Expenses</td><td>37,818</td><td>53,618</td><td>63,570</td><td>80,403</td><td>75,855</td><td>87,500</td></tr><tr><td>Lease Expense</td><td>7,665</td><td>9,775</td><td>13,325</td><td>21,750</td><td>26,743</td><td>25,000</td></tr><tr><td>Rental &amp; Other Income</td><td>1,308</td><td>1,470</td><td>2,350</td><td>2,570</td><td>2,888</td><td>2,500</td></tr><tr><td>Depreciation</td><td>1,740</td><td>2,435</td><td>3,203</td><td>4,183</td><td>4,990</td><td>5,000</td></tr><tr><td>Operating Profit</td><td>$13,720</td><td>$19,470</td><td>$21,830</td><td>$330</td><td>$1,318</td><td>$7,500</td></tr><tr><td>Interest Expense</td><td>623</td><td>1,170</td><td>953</td><td>1,588</td><td>5,120</td><td>4,000</td></tr><tr><td>Profit (Loss) Before Tax</td><td>$13,098</td><td>$18,300</td><td>$20,878</td><td>$(1,258)</td><td>$(3,803)</td><td>$3,500</td></tr><tr><td>Taxes (Credit)</td><td>5,880</td><td>8,535</td><td>10,005</td><td>(570)</td><td>(1,243)</td><td>(1,625)</td></tr><tr><td>Extraordinary Charge</td><td>0</td><td>0</td><td>0</td><td>(2,008)</td><td>0</td><td>0</td></tr><tr><td>NET INCOME (LOSS)</td><td>$7,218</td><td>$9,765</td><td>$10,873</td><td>$(2,695)</td><td>$(2,560)</td><td>$5,125</td></tr><tr><td>5% Stock Dividend</td><td>0</td><td>6,300</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Income Available for Common</td><td>$7,218</td><td>$3,465</td><td>$10,873</td><td>$(2,695)</td><td>$(2,560)</td><td>$5,125</td></tr><tr><td>Common Dividends</td><td>$1,543</td><td>$1,773</td><td>$2,305</td><td>$2,388</td><td>$1,780</td><td>$2,388</td></tr></table>
 
-EXHIBIT 2  
+## EXHIBIT 2  
 
 <table><tr><td rowspan="2"></td><td colspan="6">Balance Sheet for GORDON BARGAIN STORES, INC. (B)</td></tr><tr><td colspan="4">at January 31,</td><td>Actual</td><td>Projected</td></tr><tr><td>($ in Thousands)</td><td>1980</td><td>1981</td><td>1982</td><td>1983</td><td>1984</td><td>1984</td></tr><tr><td>Cash &amp; Marketable Securities</td><td>$2,863</td><td>$7,398</td><td>$7,795</td><td>$5,245</td><td>$6,995</td><td>$5,428</td></tr><tr><td>Accounts Receivable</td><td>823</td><td>1,083</td><td>1,795</td><td>1,380</td><td>1,798</td><td>2,090</td></tr><tr><td>Inventories</td><td>41,513</td><td>62,443</td><td>77,950</td><td>109,720</td><td>87,515</td><td>91,143</td></tr><tr><td>Recoverable Income Taxes</td><td>0</td><td>0</td><td>978</td><td>4,605</td><td>3,838</td><td>6,185</td></tr><tr><td>Total Current Assets</td><td>$45,198</td><td>$70,923</td><td>$88,518</td><td>$120,950</td><td>$100,145</td><td>$104,845</td></tr><tr><td>Gross Fixed Assets</td><td>22,845</td><td>31,878</td><td>42,215</td><td>53,108</td><td>57,862</td><td>57,432</td></tr><tr><td>Less:Accumulated Depreciation</td><td>5,875</td><td>8,905</td><td>12,100</td><td>15,960</td><td>11,061</td><td>19,367</td></tr><tr><td>Net Fixed Assets</td><td>16,970</td><td>22,973</td><td>30,115</td><td>37,148</td><td>38,505</td><td>38,065</td></tr><tr><td>Other Assets</td><td>3,290</td><td>3,125</td><td>4,200</td><td>5,985</td><td>4,825</td><td>6,273</td></tr><tr><td>Intangibles</td><td>365</td><td>4,638</td><td>4,640</td><td>785</td><td>0</td><td>783</td></tr><tr><td>TOTAL ASSETS</td><td>$65,823</td><td>$101,658</td><td>$127,473</td><td>$164,868</td><td>$143,475</td><td>$149,965</td></tr><tr><td>Accounts Payable</td><td>$13,095</td><td>$20,958</td><td>$18,580</td><td>$42,363</td><td>$15,008</td><td>$14,743</td></tr><tr><td>Current Portion L-T Debt</td><td>580</td><td>2,533</td><td>1,080</td><td>530</td><td>2,035</td><td>2,028</td></tr><tr><td>Notes Payable - Banks</td><td>1,090</td><td>560</td><td>503</td><td>1,875</td><td>14,375</td><td>14,813</td></tr><tr><td>Accrued Taxes</td><td>5,008</td><td>7,453</td><td>9,105</td><td>6,305</td><td>2,288</td><td>4,190</td></tr><tr><td>Other Accrued Expenses</td><td>1,630</td><td>2,945</td><td>3,045</td><td>3,815</td><td>4,370</td><td>3,293</td></tr><tr><td>Dividends Payable</td><td>413</td><td>463</td><td>605</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Total Current Liabilities</td><td>$21,815</td><td>$34,910</td><td>$32,918</td><td>$54,888</td><td>$38,075</td><td>$39,065</td></tr><tr><td>Scheduled Long-Term Debt</td><td>7,790</td><td>11,418</td><td>8,778</td><td>31,883</td><td>29,858</td><td>29,858</td></tr><tr><td>Deferred Income Taxes</td><td>1,240</td><td>1,358</td><td>1,835</td><td>335</td><td>1,970</td><td>338</td></tr><tr><td>Total Liabilities</td><td>$30,845</td><td>$47,685</td><td>$43,530</td><td>$87,105</td><td>$69,903</td><td>$69,260</td></tr><tr><td>Common Stock</td><td>5,875</td><td>6,628</td><td>10,980</td><td>11,055</td><td>11,053</td><td>11,048</td></tr><tr><td>Capital Surplus</td><td>8,918</td><td>25,468</td><td>42,518</td><td>41,345</td><td>41,498</td><td>41,558</td></tr><tr><td>Retained Earnings</td><td>20,185</td><td>21,878</td><td>30,445</td><td>25,363</td><td>21,023</td><td>28,100</td></tr><tr><td>Total Equity</td><td>34,978</td><td>53,973</td><td>83,943</td><td>77,763</td><td>73,573</td><td>80,705</td></tr><tr><td>TOTAL LIABAS AND EQUITY</td><td>$65,823</td><td>$101,658</td><td>$127,473</td><td>$164,868</td><td>$143,475</td><td>$149,965</td></tr></table>
 
-EXHIBIT 3  
+## EXHIBIT 3
 Funds Flow Statement for GORDON BARGAIN STORES, INC. (B)  
 
 <table><tr><td rowspan="2"></td><td colspan="5">For Fiscal Years Ended, January 31,</td></tr><tr><td>(€ in Thousands)</td><td>1981</td><td>1982</td><td>1983</td><td>Actual Projected</td></tr><tr><td colspan="6">Sources Of Funds:</td></tr><tr><td>NET INCOME (LOSS)</td><td>$9,765</td><td>$10,873</td><td>$(2,695)</td><td>$(2,560)</td><td>\$5,125</td></tr><tr><td>Depreciation Expense</td><td>2,435</td><td>3,203</td><td>4,183</td><td>4,990</td><td>5,000</td></tr><tr><td>Incr (Decr) Deferred Taxes</td><td>118</td><td>478</td><td>(1,500)</td><td>1,635</td><td>3</td></tr><tr><td>Funds from Operations</td><td>$12,318</td><td>$14,553</td><td>$(13)</td><td>$4,065</td><td>\$10,128</td></tr><tr><td>Incr (Decr) Scheduled LTD</td><td>3,628</td><td>(2,640)</td><td>23,105</td><td>(2,025)</td><td>(2,205)</td></tr><tr><td>Net Bk. Value of Ret. Assets</td><td>(680)</td><td>65</td><td>5,288</td><td>63</td><td>1,062</td></tr><tr><td>Proceeds from Sale of Common</td><td>11,003</td><td>21,403</td><td>(1,098)</td><td>150</td><td>205</td></tr><tr><td>Total Sources of Funds</td><td>$26,268</td><td>$33,380</td><td>$27,283</td><td>$2,253</td><td>\$9,370</td></tr><tr><td colspan="6">Uses Of Funds:</td></tr><tr><td>Fixed Capital Investment</td><td>$7,758</td><td>$10,410</td><td>$16,503</td><td>$6,410</td><td>\$6,980</td></tr><tr><td>Incr (Decr) Other Assets</td><td>(165)</td><td>1,075</td><td>1,785</td><td>(1,160)</td><td>288</td></tr><tr><td>Incr (Decr) Intangibles</td><td>4,273</td><td>3</td><td>(3,855)</td><td>(785)</td><td>(3)</td></tr><tr><td>Common Dividends</td><td>1,773</td><td>2,305</td><td>2,388</td><td>1,780</td><td>2,388</td></tr><tr><td>Total Uses of Funds</td><td>$13,638</td><td>$13,793</td><td>$16,820</td><td>$6,245</td><td>\$9,652</td></tr><tr><td>Incr (Decr) Working Capital</td><td>$12,630</td><td>$19,588</td><td>$10,463</td><td>$(3,993)</td><td>$(283)</td></tr><tr><td colspan="6">Changes In Components of Working Capital:</td></tr><tr><td>Incr (Decr) Cash &amp; Mkt Sec</td><td>$4,535</td><td>$398</td><td>$(2,550)</td><td>$1,750</td><td>\$183</td></tr><tr><td>Incr (Decr) Accts Receivable</td><td>260</td><td>713</td><td>(415)</td><td>418</td><td>710</td></tr><tr><td>Incr (Decr) Inventories</td><td>20,930</td><td>15,508</td><td>31,770</td><td>(22,206)</td><td>(18,578)</td></tr><tr><td>Incr (Decr) Recov Income Tax</td><td>0</td><td>978</td><td>3,628</td><td>(768)</td><td>1,580</td></tr><tr><td>Incr (Decr) Current Assets</td><td>$25,725</td><td>$17,595</td><td>$32,433</td><td>$(20,805)</td><td>$(16,105)</td></tr><tr><td>Incr (Decr) Accounts Payable</td><td>$7,863</td><td>$(2,378)</td><td>$23,783</td><td>$(27,355)</td><td>$(27,620)</td></tr><tr><td>Incr (Decr) Curr Portion LTD</td><td>1,953</td><td>(1,453)</td><td>(550)</td><td>1,505</td><td>1,498</td></tr><tr><td>Incr (Decr) Notes Payable</td><td>(530)</td><td>(58)</td><td>1,373</td><td>12,500</td><td>12,938</td></tr><tr><td>Incr (Decr) Accrued Taxes</td><td>2,445</td><td>1,653</td><td>(2,800)</td><td>(4,018)</td><td>(2,115)</td></tr><tr><td>Incr (Decr) Other Accruals</td><td>1,315</td><td>100</td><td>770</td><td>555</td><td>(523)</td></tr><tr><td>Incr (Decr) Dividend Payable</td><td>50</td><td>143</td><td>(605)</td><td>0</td><td>0</td></tr><tr><td>Incr (Decr) Current Liabs</td><td>$13,095</td><td>$(1,993)</td><td>$21,970</td><td>$(16,813)</td><td>$(15,823)</td></tr><tr><td>Incr (Decr) Working Capital</td><td>$12,630</td><td>$19,588</td><td>$10,463</td><td>$(3,993)</td><td>$(283)</td></tr></table>
 
-EXHIBIT 4  
+## EXHIBIT 4
 Projected Funds Flow Statement for GORDON BARGAIN STORES, INC. (B)  
 
 <table><tr><td colspan="6">For Fiscal Year Ended, January 31, 1985,</td></tr><tr><td>($ in Thousands)</td><td>First Quarter</td><td>Second Quarter</td><td>Third Quarter</td><td>Fourth Quarter</td><td>Full Year</td></tr><tr><td>Sources Of Funds:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NET INCOME (LOSS)</td><td>$(990)</td><td>$773</td><td>$778</td><td>$1,740</td><td>\$2,300</td></tr><tr><td>Depreciation Expense</td><td>1,323</td><td>1,323</td><td>1,323</td><td>1,323</td><td>5,130</td></tr><tr><td>Funds from Operations</td><td>$333</td><td>$2,095</td><td>$2,100</td><td>$3,063</td><td>\$7,590</td></tr><tr><td>Uses Of Funds:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Fixed Capital Investment</td><td>$0</td><td>$0</td><td>$575</td><td>$863</td><td>\$1,438</td></tr><tr><td>Payment of Long-Term Debt</td><td>1,948</td><td>28</td><td>33</td><td>30</td><td>2,038</td></tr><tr><td>Incr (Decr) Other Assets</td><td>183</td><td>(270)</td><td>125</td><td>253</td><td>290</td></tr><tr><td>Total Uses of Funds</td><td>$2,130</td><td>$(243)</td><td>$733</td><td>$1,145</td><td>\$3,765</td></tr><tr><td>Incr (Decr) Working Capital</td><td>$(1,798)</td><td>$2,338</td><td>$1,368</td><td>$1,918</td><td>\$3,825</td></tr><tr><td>Changes In Components of Working Capital:</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Incr (Decr) Cash &amp; Mkt Sec</td><td>$5,655</td><td>$(4,358)</td><td>$(1,128)</td><td>$2,070</td><td>\$2,240</td></tr><tr><td>Incr (Decr) Accts Receivable</td><td>2,475</td><td>2,125</td><td>(473)</td><td>(4,163)</td><td>(35)</td></tr><tr><td>Incr (Decr) Inventories</td><td>11,898</td><td>725</td><td>20,358</td><td>(48,570)</td><td>(15,590)</td></tr><tr><td>Incr (Decr) Recov Income Tax</td><td>(460)</td><td>(768)</td><td>(210)</td><td>0</td><td>(1,438)</td></tr><tr><td>Incr (Decr) Current Assets</td><td>$19,568</td><td>$(2,275)</td><td>$18,548</td><td>$(50,663)</td><td>$(14,823)</td></tr><tr><td>Incr (Decr) Accounts Payable</td><td>$20,893</td><td>$(7,633)</td><td>$16,818</td><td>$(37,415)</td><td>$(7,338)</td></tr><tr><td>Incr (Decr) Notes Payable</td><td>(1,438)</td><td>1,438</td><td>0</td><td>(14,375)</td><td>(14,375)</td></tr><tr><td>Incr (Decr) Accrued Taxes</td><td>0</td><td>0</td><td>555</td><td>1,740</td><td>2,295</td></tr><tr><td>Incr (Decr) Accruals</td><td>1,910</td><td>1,583</td><td>(193)</td><td>(2,530)</td><td>770</td></tr><tr><td>Incr (Decr) Current Liabs</td><td>$21,365</td><td>$(4,613)</td><td>$17,180</td><td>$(52,580)</td><td>$(18,648)</td></tr><tr><td>Incr (Decr) Working Capital</td><td>$(1,798)</td><td>$2,338</td><td>$1,368</td><td>$1,918</td><td>\$3,825</td></tr></table>
 
-# EXHIBIT 5
+## EXHIBIT 5
 
 GORDON BARGAIN STORES, INC. (B)
 
@@ -79,9 +86,9 @@ Position as of June 10, 1984
 
 (in millions of dollars)
 
-# ASSETS
+### ASSETS
 
-# LIABILITIES
+### LIABILITIES
 
 Cash \$27.8
 
@@ -91,9 +98,9 @@ Inventory 120.8
 
 Income Tax Refund 6.5
 
-# Current Assets \$158.0
+### Current Assets $158.0
 
-Accounts Payable \$63.3
+Accounts Payable $63.3
 
 Notes Payable 23.8
 
@@ -101,29 +108,27 @@ Accruals 7.3
 
 Curr Maturities on LTD 2.0
 
-# Current Liabilities \$96.3
+### Current Liabilities $96.3
 
-Fixed Assets \$36.5
+Fixed Assets $36.5
 
 Other 1.5
 
-# TOTAL ASSETS \$196.0
+### TOTAL ASSETS $196.0
 
-Long-Term Debt \$28.0
+Long-Term Debt $28.0
 
 Deferred Taxes 2.0
 
-# TOTAL LIABILITIES \$126.3
+### TOTAL LIABILITIES $126.3
 
-# TOTAL EQUITY \\(69.8
+### TOTAL EQUITY $(69.8)
 
-\$196.0
+$196.0
 
-#
+## EXHIBIT 6
 
-# EXHIBIT 6
-
-# GORDON BARGAIN STORES, INC. (B)
+## GORDON BARGAIN STORES, INC. (B)
 
 Selected Interest Rates in the U.S., 1981 through mid-1984
 

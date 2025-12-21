@@ -1,29 +1,26 @@
 ---
+title: "Fixed Exchange Rates and Foreign Exchange Intervention"
+parent_directory: "International Economics Theory and Policy"
+formatted: "2025-12-21 09:25:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- macroeconomic policies sterilized intervention
-- effect exchange rate monetary
-- exchange rate mechanism
-- policy fixed exchange rate
-- effect foreign exchange intervention
-- currency devalued economy equilibrium
+  - fixed exchange rates
+  - foreign exchange intervention
+  - balance of payments crises
+  - sterilized intervention
 secondary_tags:
-- money supply effects devaluation
-- exchange rate fiscal expansion
-- foreign exchange intervention affects
-- exchange rate monetary policy
-- stabilization policies fixed exchange
-- understand fixed exchange rates
-- intervention hold exchange rate
-- devaluation allows government
-- expansion money supply effects
-- exchange rate flexibility
-- caused devaluation proportional increase
-- fiscal policy affect
-- floating exchange rates governments
-- exchange rates macroeconomic policies
-- monetary policy influenced exchange
-- money supply explains fiscal
-tags_extracted: '2025-12-18T00:54:13.360532'
+  - central bank reserves
+  - monetary policy constraints
+  - fiscal policy effectiveness
+  - devaluation effects
+  - gold standard
+  - reserve currency system
+  - bimetallic standard
+  - gold exchange standard
+  - capital flight
+  - speculative attacks
+cssclasses: academia
 ---
 
 # FIXED EXCHANGE RATES AND FOREIGN EXCHANGE INTERVENTION
@@ -607,200 +604,5 @@ sterilized foreign exchange
 
 intervention, p. 548
 
-# PROBLEMS
 
-1. Show how an expansion in the central bank's domestic assets ultimately affects its balance sheet under a fixed exchange rate. How are the central bank's transactions in the foreign exchange market reflected in the balance of payments accounts?
-2. Do the exercises in problem 1 for an increase in government spending.
-3. Describe the effects of an unexpected devaluation on the central bank's balance sheet and on the balance of payments accounts.
-4. Explain why a devaluation improves the current account in this chapter's model. (Hint: Consider the  $XX$  curve developed in Chapter 17.)
-5. Can you think of reasons why a government might willingly sacrifice some of its ability to use monetary policy so that it can have more stable exchange rates?
-6. How does fiscal expansion affect the current account under a fixed exchange rate?
-7. Explain why temporary and permanent fiscal expansions do not have different effects under fixed exchange rates, as they do under floating exchange rates.
-8. Devaluation is often used by countries to improve their current accounts. Since the current account equals national saving less domestic investment, however (see Chapter 13), this improvement can occur only if investment falls, saving rises, or both. How might devaluation affect national saving and domestic investment?
-9. Using the  $DD-AA$  model, analyze the output and balance of payments effects of an import tariff under fixed exchange rates. What would happen if all countries in the world simultaneously tried to improve employment and the balance of payments by imposing tariffs?
-10. When a central bank devalues after a balance of payments crisis, it usually gains foreign reserves. Can this financial inflow be explained using our model? What would happen if the market believed that another devaluation would occur in the near future?
-11. The Euro has become a reserve currency held by foreign central banks. Suppose that some of these banks held Euro reserves in the form of Euro notes kept in their vaults rather than in the form of government bonds. Would the international monetary adjustment mechanism be symmetric or asymmetric? Explain.
-
-12. "When domestic and foreign bonds are perfect substitutes, a central bank should be indifferent about using domestic or foreign assets to implement monetary policy." Discuss.
-13. To control the money supply and prevent inflation, the People's Bank of China (PBC), which is confronted with a permanent current account and capital account surpluses, uses mostly two tools to sterilize the foreign currency inflows: the variation of the Required Reserve Ratio (which obliges the banks to make a deposit to the Central Bank corresponding to a percentage of the credits they grant) and the selling of "Central Bank Bills." Elaborate and explain the pros and cons of each type of intervention.
-14. Use a diagram like Figure 18-7 to explain how a central bank can alter the domestic interest rate, while holding the exchange rate fixed, under imperfect asset substitutability.
-15. In this chapter's section on "Central Bank Intervention and the Money Supply," we analyzed how the sale of \(100 worth of its foreign assets affects the central bank's balance sheet. The assumption in that example was that the buyer of the foreign assets paid in the form of domestic currency cash. Suppose instead that the buyer pays with a check drawn on her account at Pecuniacorp, a private domestic bank. Using a balance sheet like the ones presented in the text, show how the transaction affects the central bank's balance sheet and the money supply.
-16. We observed in the text that "fixed" exchange-rate systems can result not in absolutely fixed exchange rates but in narrow bands within which the exchange rate can move. For example, the gold points (mentioned in footnote 18) produced such bands under a gold standard. (Typically those bands were on the order of plus or minus 1 percent of the "central" exchange parity.) To what extent would such bands for the exchange rate allow the domestic interest rate to move independently of a foreign rate? Show that the answer depends on the maturity or term of the interest rate. To help your intuition, assume plus or minus 1 percent bands for the exchange rate, and consider, alternatively, rates on three-month deposits, on six-month deposits, and on one-year deposits. With such narrow bands, would there be much scope for independence in 10-year loan rates?
-17. In a three-country world, a central bank fixes one exchange rate but lets the others float. Can it use monetary policy to affect output? Can it fix both exchange rates?
-18. In the Case Study on "The Demand for International Reserves," we asserted that except in the case of a reserve currency system, an attempt by all central banks simultaneously to raise their international reserve holdings through open-market sales of domestic assets could have a contractionary effect on the world economy. Explain by contrasting the cases of a gold standard-type system and a reserve currency system.
-19. If a country changes its exchange rate, the value of its foreign reserves, measured in the domestic currency, also changes. This latter change may represent a domestic currency gain or loss for the central bank. What happens when a country devalues its currency against the reserve currency? When it revalues? How might this factor affect the potential cost of holding foreign reserves? Make sure to consider the role of interest parity in formulating your answer.
-20. Analyze the result of a permanent devaluation by an economy caught in a liquidity trap of the sort described in Chapter 17.
-
-21. Recall our discussion of the Swiss franc's currency floor in the Case Study on "Can Markets Attack a Strong Currency? The Case of Switzerland." Also, recall the discussion of the liquidity trap in Chapter 17. Because Switzerland has been in a liquidity trap all the time it has defended its currency floor, does our discussion of liquidity trap theory in Chapter 17 suggest why Swiss inflation has not been raised by the SNB's heavy foreign exchange purchases?
-22. Again returning to the case of the Swiss franc currency floor, with Swiss interest rates at zero, what do you think would happen if currency speculators expected the Swiss franc to appreciate by more than the euro rate of interest?
-
-# FURTHER READINGS
-
-Graham Bird and Ramkishen Rajan. "Too Much of a Good Thing? The Adequacy of International Reserves in the Aftermath of Crises." World Economy 86 (June 2003), pp. 873-891. Accessible review of literature on the demand for international reserves.
-William H. Branson. "Causes of Appreciation and Volatility of the Dollar," in *The U.S. Dollar—Recent Developments, Outlook, and Policy Options*. Kansas City: Federal Reserve Bank of Kansas City, 1985, pp. 33-52. Develops and applies a model of exchange rate determination with imperfect asset substitutability.
-Barry Eichengreen. Exorbitant Privilege: The Rise and Fall of the Dollar and the Future of the International Monetary System. New York: Oxford University Press, 2011. A comprehensive historical perspective on the dollar's special status.
-Milton Friedman. "Bimetallism Revisited." Journal of Economic Perspectives 4 (Fall 1990), pp. 85-104. A fascinating reconsideration of economists' assessments of the dual silver-gold standard.
-Karl Habermeier, Annamaria Kokenyne, Romain Veyrune, and Harald Anderson. "Revised System for the Classification of Exchange Rate Arrangements." IMF Working Paper WP/09/211, September 2009. Explains how the International Monetary Fund classifies countries' diverse systems of exchange-rate determination.
-Owen F. Humpage. "Institutional Aspects of U.S. Intervention." Federal Reserve Bank of Cleveland Economic Review 30 (Quarter 1, 1994), pp. 2-19. How the U.S. Treasury and Federal Reserve coordinate foreign exchange intervention.
-Ethan Iletzki, Carmen M. Reinhart, and Kenneth S. Rogoff. "Exchange Arrangements Entering the 21st Century: Which Anchor Will Hold?" Quarterly Journal of Economics 134 (May 2019), pp. 599-646. Detailed chronicle of data tracking the evolution of exchange rate arrangements.
-Olivier Jeanne. Currency Crises: A Perspective on Recent Theoretical Developments. Princeton Special Papers in International Economics 20. International Finance Section, Department of Economics, Princeton University, March 2000. Recent thinking on speculative crises and attacks.
-Robert A. Mundell. "Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates." Canadian Journal of Economics and Political Science 29 (November 1963), pp. 475-485. Classic account of the effects of monetary and fiscal policies under alternative exchange rate regimes.
-Michael Mussa. The Role of Official Intervention. Occasional Paper 6. New York: Group of Thirty, 1981. Discusses the theory and practice of central bank foreign exchange intervention under a dirty float.
-Maurice Obstfeld. "Models of Currency Crises with Self-Fulfilling Features." European Economic Review 40 (April 1996), pp. 1037-1048. More on the nature of balance of payments crises.
-Jonathan D. Ostry, Atish R. Ghosh, and Marcos Chamon. "Two Targets, Two Instruments: Monetary and Exchange Rate Policies in Emerging Market Economies." IMF Staff Discussion Note SDN/12/01 (February 2012). Describes joint management of monetary policy and the exchange rate in an emerging-market context where uncovered interest parity does not hold.
-Lucio Sarno and Mark P. Taylor. "Official Intervention in the Foreign Exchange Market: Is It Effective and, If So, How Does It Work?" Journal of Economic Literature 39 (September 2001), pp. 839-868. A useful survey on foreign exchange intervention.
-
-# Equilibrium in the Foreign Exchange Market with Imperfect Asset Substitutability
-
-This appendix develops a model of the foreign exchange market in which risk factors may make domestic currency and foreign currency assets imperfect substitutes, so that UIP does not hold. The model gives rise to a risk premium that can separate the expected rates of return on domestic and foreign assets.
-
-# Demand
-
-Because individuals dislike risky situations in which their wealth may vary greatly from day to day, they decide how to allocate wealth among different assets by looking at the riskiness of the resulting portfolio as well as at the expected return the portfolio offers. Someone who puts her wealth entirely into British pounds, for example, may expect a high return, but the wealth can be wiped out if the pound unexpectedly depreciates. A more sensible strategy is to invest in several currencies even if some have lower expected returns than the pound and thus reduce the impact on wealth of bad luck with any one currency. By spreading risk among several currencies, an individual can reduce the variability of her wealth.
-
-Considerations of risk make it reasonable to assume that an individual's demand for interest-bearing domestic currency assets increases when the interest they offer  $(R)$  rises relative to the domestic currency return on foreign currency assets  $[R^{*} + (E^{e} - E) / E]$ . Put another way, an individual will be willing to increase the riskiness of her portfolio by investing more heavily in domestic currency assets only if she is compensated by an increase in the relative expected return on those assets.
-
-We summarize this assumption by writing individual  $i$ 's demand for domestic currency bonds,  $B_{i}^{d}$ , as an increasing function of the rate-of-return difference between domestic and foreign bonds,
-
-$$
-B_{i}^{d} = B_{i}^{d} \left[ R - R^{*} - \left(E^{e} - E\right) / E \right].
-$$
-
-Of course,  $B_{i}^{d}$  also depends on other factors specific to individual  $i$ , such as her wealth and income. The demand for domestic currency bonds can be negative or positive, and in the former case, individual  $i$  is a net borrower in the home currency, that is, a supplier of domestic currency bonds.
-
-To find the aggregate private demand for domestic currency bonds, we need only add up individual demands  $B_{i}^{d}$  for all individuals  $i$  in the world. This summation gives the aggregate demand for domestic currency bonds,  $B^{d}$ , which is also an increasing function of the expected rate-of-return difference in favor of domestic currency assets. Therefore,
-
-$$
-\begin{array}{l} \text{De ma nd} = B^{d} \left[ R - R^{*} - \left(E^{e} - E\right) / E \right] \\ = \text{su m} i \\ \end{array}
-$$
-
-Since some private individuals may be borrowing, and therefore supplying bonds,  $B^{d}$  should be interpreted as the private sector's net demand for domestic currency bonds.
-
-# Supply
-
-Since we are interpreting  $B^{d}$  as the private sector's net demand for domestic currency bonds, the appropriate supply variable to define market equilibrium is the net supply of domestic currency bonds to the private sector, that is, the supply of bonds that are not the liability of any private individual or firm. Net supply therefore equals the value of domestic currency government bonds held by the public,  $B$ , less the value of domestic currency assets held by the central bank,  $A$ :
-
-$$
-\mathrm{Su pp ly} = B - A.
-$$
-
-$A$  must be subtracted from  $B$  to find the net supply of bonds because purchases of bonds by the central bank reduce the supply available to private investors. (More generally, we would also subtract from  $B$  domestic currency assets held by foreign central banks.)
-
-# Equilibrium
-
-The risk premium,  $\rho$ , is determined by the interaction of supply and demand. We define the risk premium as
-
-$$
-\rho = R - R^{*} - (E^{e} - E) / E,
-$$
-
-that is, as the expected return difference between domestic and foreign bonds (the deviation from UIP). We can therefore write the private sector's net demand for domestic currency bonds as an increasing function of  $\rho$ . Figure 18A1-1 shows this relationship by drawing the demand curve for domestic currency bonds with a positive slope.
-
-The bond supply curve is vertical at  $B - A^{1}$  because the net supply of bonds to the market is determined by decisions of the government and central bank and is independent of the risk premium. Equilibrium occurs at point 1 (at a risk premium of  $\rho^{1}$ ), where the private sector's net demand for domestic currency bonds equals the net supply. Notice that for given values of  $R, R^{*}$ , and  $E^{e}$ , the equilibrium shown in the diagram can also be viewed as determining the exchange rate, since  $E = E^{e} / (1 + R - R^{*} - \rho)$ .
-
-# FIGURE 18A1-1
-
-# The Domestic Bond Supply and the Foreign Exchange Risk Premium under Imperfect Asset Substitutability
-
-An increase in the supply of domestic currency bonds that the private sector must hold raises the risk premium on domestic currency assets.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/52971ed2-f993-4611-9c28-dd416948cd16/fcadfea0b1747aac7013f14e2b34d79deb8fa1dc11076be78968464f746c4beb.jpg)
-
-Figure 18A1-1 also shows the effect of a central bank sale of domestic assets that lowers its domestic asset holdings to  $A^2 < A^1$ . This sale raises the net supply of domestic currency bonds to  $B - A^2$  and shifts the supply curve to the right. The new equilibrium occurs at point 2, at a risk premium of  $\rho^2 > \rho^1$ . Similarly, an increase in the domestic currency government debt,  $B$ , would raise the risk premium.
-
-The model therefore establishes that the risk premium is an increasing function of  $B - A$ , just as we assumed in the discussion of sterilized intervention that led to equation (18-3).
-
-You should recognize that our discussion of risk premium determination is an oversimplification in a number of ways, not least because of the assumption that the home country is small, so that all foreign variables can be taken as given. In general, however, actions taken by foreign governments may also affect the risk premium, which of course can take negative as well as positive values. That is, policies or events that make foreign bonds progressively riskier will eventually make investors willing to hold domestic currency bonds at an expected rate of return below that on foreign currency bonds.
-
-One way to capture this possibility would be to generalize equation (18-3) in the text and express the risk premium instead as
-
-$$
-\rho = \rho (B - A, B^{*} - A^{*}),
-$$
-
-where  $B^{*} - A^{*}$  is the net stock of foreign currency bonds that the public must hold. In this extended formulation, a rise in  $B - A$  still raises  $\rho$ , but a rise in  $B^{*} - A^{*}$  causes  $\rho$  to fall by making foreign bonds relatively riskier.
-
-# The Timing of Balance of Payments Crises
-
-In the text, we modeled a balance of payments crisis as a sudden loss of confidence in the central bank's promise to hold the exchange rate fixed in the future. As previously noted, a currency crisis often is not the result of arbitrary shifts in market sentiment, contrary to what exasperated policy makers embroiled in crises often contend. Instead, an exchange rate collapse can be the inevitable result of government policies inconsistent with maintaining a fixed exchange rate permanently. In such cases, simple economic theory may allow us to predict the date of a crisis through a careful analysis of the government policies and the market's rational response to them.[27]
-
-It is easiest to make the main points using the assumptions and notations of the monetary approach to the balance of payments (as developed in Appendix 3 to this chapter) and the monetary approach to the exchange rate (Chapter 16). To simplify, we will assume that output prices are perfectly flexible and that output is constant at its full-employment level. We will also assume that market participants have perfect foresight concerning the future.
-
-The precise timing of a payments crisis cannot be determined independently of government policies. In particular, we have to describe not only how the government is behaving today, but also how it plans to react to future events in the economy. Two assumptions about official behavior are made: (1) The central bank is allowing the stock of central bank domestic credit,  $A$ , to expand steadily, and will do so forever. (2) The central bank is currently fixing the exchange rate at the level  $E^0$  but will allow the exchange rate to float freely forever if its foreign reserves,  $F^{*}$ , ever fall to zero. Furthermore, the authorities will defend  $E^0$  to the bitter end by selling foreign reserves at that price as long as they have any to sell.
-
-The problem with the central bank's policies is that they are inconsistent with maintaining a fixed exchange rate indefinitely. The monetary approach suggests that foreign reserves will fall steadily as domestic assets continually rise. Eventually, therefore, reserves will have to run out and the fixed exchange rate  $E^0$  will have to be abandoned. In fact, speculators will force the issue by mounting a speculative attack and buying all of the central bank's reserves while reserves are still at a positive level.
-
-We can describe the timing of this crisis with the help of a definition and a diagram. The shadow floating exchange rate at time  $t$ , denoted  $E_{t}^{S}$ , is the exchange rate that would prevail at time  $t$  if the central bank held no foreign reserves, allowed the currency to float, but continued to allow domestic credit to grow over time. We know from the monetary approach that the result would be a situation of ongoing inflation in which  $E_{t}^{S}$  trends upward over time in proportion to the domestic credit growth rate. The upper
-
-panel of Figure 18A2-1 shows this upward trend in the shadow floating rate, together with the level  $E^0$  at which the exchange rate is initially pegged. The time  $T$  indicated on the horizontal axis is defined as the date on which the shadow exchange rate reaches  $E^0$ .
-
-The lower panel of the figure shows how reserves behave over time when domestic credit is steadily growing. (An increase in reserves is a move down from the origin along the vertical axis.) We have shown the path of reserves as a kinked curve that falls gradually until time  $T$ , at which point reserves drop in a single stroke to zero. This precipitous reserve loss (of size  $F_T^*$ ) is the speculative attack that forces the end of the fixed exchange rate, and we now argue that such an attack must occur precisely at time  $T$  if asset markets are to clear at each moment.
-
-We are assuming that output  $Y$  is fixed, so reserves will fall over time at the same rate that domestic credit grows, as long as the domestic interest rate  $R$  (and thus the demand for domestic money) doesn't change. What do we know about the behavior of the interest rate? We know that while the exchange rate is convincingly fixed,  $R$  will equal the foreign interest rate  $R^*$  because no depreciation is expected. Thus, reserves fall gradually over time, as shown in Figure 18A2-1, as long as the exchange rate remains fixed at  $E^0$ .
-
-Imagine now that reserves first hit zero at a time such as  $T'$ , which is later than time  $T$ . Our shadow exchange rate  $E^S$  is defined as the equilibrium floating rate that prevails
-
-# FIGURE 18A2-1
-
-# How the Timing of a Balance of Payments Crisis Is Determined
-
-The market stages a speculative attack and buys the remaining foreign reserve stock  $F_{T}^{*}$  at time  $T$ , which is when the shadow floating exchange rate  $E_{t}^{S}$  just equals the precollapse fixed exchange rate  $E^{0}$ .
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/52971ed2-f993-4611-9c28-dd416948cd16/47a24df143f5432fd7b65514bf645f1fb2be6adcb46e6c099f76bbd7d54116ae.jpg)
-
-when foreign reserves are zero, so if reserves first hit zero at time  $T'$ , the authorities abandon  $E^0$  forever and the exchange rate jumps immediately to the higher level  $E_{T'}^S$ . There is something wrong with this "equilibrium," however: Each market participant knows that the home currency will depreciate very sharply at time  $T'$  and will try to profit by buying foreign reserves from the central bank, at the lower price  $E^0$ , just an instant before  $T'$ . Thus the central bank will lose all of its reserves before  $T'$ , contrary to our assumption that reserves first hit zero at  $T'$ . So we have not really been looking at an equilibrium after all.
-
-Do we get to an equilibrium by assuming instead that speculators buy out the official reserve stock at a time like  $T''$  that is earlier than time  $T$ ? Again the answer is no, as you can see by considering the choices facing an individual asset holder. He knows that if central bank reserves reach zero at time  $T''$ , the currency will appreciate from  $E^0$  to  $E_{T''}^S$  as the central bank leaves the foreign exchange market. It therefore will behoove him not to join any speculative attack that pushes reserves to zero at time  $T''$ ; in fact, he would prefer to sell as much foreign currency as possible to the central bank just before time  $T''$  and then buy it back at the lower market-determined price that would prevail after a crisis. Since every market participant would find it in his or her interest to act in this way, however, a speculative attack simply can't occur before time  $T$ . No speculator would want to buy central bank reserves at the price  $E^0$ , knowing that an immediate discrete capital loss was at hand.
-
-Only if foreign reserves hit zero precisely at time  $T$  are asset markets continually in equilibrium. As noted above, time  $T$  is defined by the condition
-
-$$
-E_{T}^{S} = E^{0},
-$$
-
-which states that if reserves suddenly drop to zero at time  $T$ , the exchange rate remains initially at its pegged level, and only subsequently floats upward.
-
-The absence of any foreseen initial jump in the exchange rate, either upward or downward, removes the opportunities for arbitrage (described above) that prevent speculative attacks at times like  $T'$  or  $T''$ . In addition, the money market remains in equilibrium at time  $T$ , even though the exchange rate doesn't jump because two factors offset each other exactly. As reserves drop sharply to zero, the money supply falls. We also know that at the moment the fixed exchange rate is abandoned, people will expect the currency to begin depreciating over time. The domestic interest rate  $R$  will therefore move upward to maintain interest parity, reducing real money demand in line with the fall in the real money supply.
-
-We have therefore tied down the exact date on which a balance of payments crisis forces the authorities off the fixed exchange rate. Note once again that in our example, a crisis must occur at some point because profligate monetary policies make one inevitable. The fact that a crisis occurs while the central bank's foreign reserves are still positive might suggest to superficial observers that ill-founded market sentiment is leading to a premature panic. This is not the case here. The speculative attack we have analyzed is the only outcome that does not confront market participants with arbitrage opportunities.[28] However, there are alternative self-fulfilling crisis models in which attacks can occur even when the exchange rate could have been sustained indefinitely in the absence of an attack.
-
-# The Monetary Approach to the Balance of Payments
-
-The close link discussed in Chapter 18 between a country's balance of payments and its money supply suggests that fluctuations in central bank reserves can be thought of as the result of changes in the money market. This method of analyzing the balance of payments is called the monetary approach to the balance of payments. The monetary approach was developed in the 1950s and 1960s by the International Monetary Fund's research department under Jacques J. Polak, and by Harry G. Johnson, Robert A. Mundell, and their students at the University of Chicago.[29]
-
-The monetary approach can be illustrated through a simple model linking the balance of payments to developments in the money market. To begin, recall that the money market is in equilibrium when the real money supply equals real money demand, that is, when
-
-$$
-M^{s} / P = L (R, Y).
-$$
-
-Now let  $F^{*}$  denote the central bank's foreign assets (measured in domestic currency) and  $A$  its domestic assets (domestic credit). If  $\mu$  is the money multiplier that defines the relation between total central bank assets  $(F^{*} + A)$  and the money supply, then
-
-$$
-M^{s} = \mu (F^{*} + A).
-$$
-
-The change in central bank foreign assets over any time period,  $\Delta F^{*}$ , equals the balance of payments (for a nonreserve currency country). By combining the preceding two equations, we can express the central bank's foreign assets as
-
-$$
-F^{*} = (1 / \mu) P L (R, Y) - A.
-$$
-
-If we assume that  $\mu$  is a constant, the balance of payments surplus is
-
-$$
-\Delta F^{*} = (1 / \mu) \Delta [ P L (R, Y) ] - \Delta A.
-$$
-
-The last equation summarizes the monetary approach. The first term on its right-hand side reflects changes in nominal money demand and tells us that, all else equal, an increase in money demand will bring about a balance of payments surplus and an accompanying increase in the money supply that maintains money market equilibrium. The second term in the balance of payments equation reflects supply factors in the money market. An increase in domestic credit raises money supply relative to money demand, all else equal: So the balance of payments must go into deficit to reduce the money supply and restore money market equilibrium.
-
-Because the balance of payments equals the sum of the current and (nonreserve) financial account surpluses (see Chapter 13), much of the economics literature that
-
-appeared before the monetary approach was developed explained balance of payments movements as the result of current or financial account changes. An important contribution of the monetary approach was to stress that in many situations, balance of payments problems result directly from imbalances in the money market, and that a policy solution that relies on monetary policy is therefore most appropriate. A large balance of payments deficit may be the result of excessive domestic credit creation, for example. Even though this balance of payments deficit will generally involve both a current account deficit and a positive private financial account balance, it would be misleading to view it as fundamentally due to an exogenous fall in relative world demand for domestic goods or assets.
-
-There are many realistic cases, however, in which a balance of payments analysis based on the monetary approach is roundabout and possibly misleading as a guide to policy. Suppose, for example, that a temporary fall in foreign demand for domestic products does occur. This change will cause a fall in the current account and in the balance of payments, but these effects can be counteracted (when rigid capital account restrictions are not in place) by a temporary expansionary fiscal policy.
-
-Because output and thus money demand fall, the monetary approach also predicts that a balance of payments deficit will result from a fall in export demand. It would be wrong, however, for policy makers to conclude that because the balance of payments deficit is associated with a fall in money demand, a contraction of domestic credit is the best response. If the central bank were to restrict domestic credit to improve the balance of payments, unemployment would remain high and might even rise.
-
-While the monetary approach is an extremely useful analytical tool, it must be applied with caution in seeking solutions to macroeconomic problems. It is most useful for formulating solutions to policy problems that are a direct result of shifts in domestic money demand or supply.
 

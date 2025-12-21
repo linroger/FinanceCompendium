@@ -1,24 +1,25 @@
 ---
+title: Price Levels and the Exchange Rate in the Long Run
+parent_directory: International Economics Theory and Policy
+formatted: 2025-12-21 09:15:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- real exchange rate theory
-- long run exchange rates
-- long run trends causes
-- countries labor relative capital
-- countries purchasing power parity
+  - purchasing power parity
+  - real exchange rates
+  - monetary approach
+  - law one price
+  - international price levels
 secondary_tags:
-- exchange rates relative ppp
-- exchange rates theory relationship
-- labor greater rich countries
-- intensive relative tradables labor
-- explain purchasing power parity
-- level inflation affect exchange
-- reason exchange rate changes
-- supply currencies influenced rates
-- ppp implies international differences
-- agents influence exchange rates
-- wage countries international difference
-- currencies does affect long
-tags_extracted: '2025-12-18T00:53:33.429721'
+  - exchange rate determination
+  - inflation interest rates
+  - trade barriers nontradables
+  - fisher effect
+  - relative purchasing power
+  - price level differences
+  - nominal real exchange
+  - international monetary policy
+cssclasses: academia
 ---
 
 # PRICE LEVELS AND THE EXCHANGE RATE IN THE LONG RUN
@@ -29,27 +30,44 @@ We have seen that exchange rates depend on interest rates and expectations about
 
 The model of long-run exchange rate behavior that we develop in this chapter provides the framework that actors in asset markets use to forecast future exchange rates. Because the expectations of these agents influence exchange rates immediately, however, predictions about long-run movements in exchange rates are important even in the short run. We therefore will draw heavily on this chapter's conclusions when we begin our study in Chapter 17 of short-run interactions between exchange rates and output.
 
-In the long run, national price levels play a key role in determining both interest rates and the relative prices at which countries' products are traded. A theory of how national price levels interact with exchange rates is thus central to understanding why exchange rates can change dramatically over periods of several years. We begin our analysis by discussing the theory of purchasing power parity (PPP), which explains movements in the exchange rate between two countries' currencies by changes in the countries' price levels. Next, we examine reasons why PPP may fail to give accurate long-run predictions and show how the theory must sometimes be modified to account for supply
+In the long run, national price levels play a key role in determining both interest rates and the relative prices at which countries' products are traded. A theory of how national price levels interact with exchange rates is thus central to understanding why exchange rates can change dramatically over periods of several years. We begin our analysis by discussing the theory of purchasing power parity (PPP), which explains movements in the exchange rate between two countries' currencies by changes in the countries' price levels. Next, we examine reasons why PPP may fail to give accurate long-run predictions and show how the theory must sometimes be modified to account for supply or demand shifts in countries' output markets. Finally, we look at what our extended PPP theory predicts about how changes in money and output markets affect exchange and interest rates.
 
-or demand shifts in countries' output markets. Finally, we look at what our extended PPP theory predicts about how changes in money and output markets affect exchange and interest rates.
-
-# LEARNING GOALS
+## Learning Goals
 
 After reading this chapter, you will be able to:
 
 - Explain the purchasing power parity theory of exchange rates and the theory's relationship to international goods-market integration.
 - Describe how monetary factors such as ongoing price level inflation affect exchange rates in the long run.
-Discuss the concept of the real exchange rate.
+- Discuss the concept of the real exchange rate.
 - Understand factors that affect real exchange rates and relative currency prices in the long run.
 - Explain the relationship between international real interest rate differences and expected changes in real exchange rates.
 
-# The Law of One Price
+## The Law of One Price
 
-To understand the market forces that might give rise to the results predicted by the purchasing power parity theory, we discuss first a related but distinct proposition known as the law of one price. The law of one price states that in competitive markets free of transportation costs and official barriers to trade (such as tariffs), identical goods sold in different countries must sell for the same price when their prices are expressed in terms of the same currency. For example, if the dollar/pound exchange rate is  \$1.50 per pound, a sweater that sells for\$ 45 in New York must sell for £30 in London. The dollar price of the sweater when sold in London is then ( \$1.50 per pound) × (£30 per sweater) =\$ 45 per sweater, the same as its price in New York.
+```d2
+direction: right
+
+US Market: United States {
+  shape: rectangle
+  sweater_price: Sweater: $45
+}
+
+UK Market: United Kingdom {
+  shape: rectangle
+  sweater_price: Sweater: £30
+}
+
+Exchange Rate: E = $1.50/£
+
+US Market -> Exchange Rate: Convert to £
+Exchange Rate -> UK Market: Convert to $
+```
+
+To understand the market forces that might give rise to the results predicted by the purchasing power parity theory, we discuss first a related but distinct proposition known as the law of one price. The law of one price states that in competitive markets free of transportation costs and official barriers to trade (such as tariffs), identical goods sold in different countries must sell for the same price when their prices are expressed in terms of the same currency. For example, if the dollar/pound exchange rate is $1.50 per pound, a sweater that sells for $45 in New York must sell for £30 in London. The dollar price of the sweater when sold in London is then ($1.50 per pound) × (£30 per sweater) = $45 per sweater, the same as its price in New York.
 
 Let's continue with this example to see why the law of one price must hold when trade is free and there are no transport costs or other trade barriers. If the dollar/pound exchange rate were  \$1.45 per pound, you could buy a sweater in London by converting$ 43.50 (= $1.45 per pound × £30) into £30 in the foreign exchange market. Thus, the dollar price of a sweater in London would be only  \$43.50. If the same sweater were selling for\$ 45 in New York, U.S. importers and British exporters would have an incentive to buy sweaters in London and ship them to New York, pushing the London price up and the New York price down until prices were equal in the two locations. Similarly, at an exchange rate of \$1.55 per pound, the dollar price of sweaters in London would be  $46.50 (=$ 1.55 per pound × £30), \$1.50 more than in New York. Sweaters would be shipped from west to east until a single price prevailed in the two markets.
 
-The law of one price is a restatement, in terms of currencies, of a principle that was important in the trade theory portion of this book: When trade is open and costless, identical goods must trade at the same relative prices regardless of where they are sold. We remind you of that principle here because it provides one link between the domestic prices of goods and exchange rates. We can state the law of one price formally as follows: Let  $P_{\mathrm{US}}^i$  be the dollar price of good  $i$  when sold in the United States,  $P_{\mathrm{E}}^i$  the corresponding euro price in Europe. Then the law of one price implies that the dollar price of good  $i$  is the same wherever it is sold.
+The law of one price is a restatement, in terms of currencies, of a principle that was important in the trade theory portion of this book: When trade is open and costless, identical goods must trade at the same relative prices regardless of where they are sold. We remind you of that principle here because it provides one link between the domestic prices of goods and exchange rates. We can state the law of one price formally as follows: Let $P_{\mathrm{US}}^i$ be the dollar price of good $i$ when sold in the United States, $P_{\mathrm{E}}^i$ the corresponding euro price in Europe. Then the law of one price implies that the dollar price of good $i$ is the same wherever it is sold.
 
 $$
 P_{\mathrm{US}}^{i} = \left(E_{\$ / \in}\right) \times \left(P_{\mathrm{E}}^{i}\right).
@@ -61,16 +79,41 @@ $$
 E_{\$ / \in} = P_{\mathrm{US}}^{i} / P_{\mathrm{E}}^{i}.
 $$
 
-# Purchasing Power Parity
+## Purchasing Power Parity
+
+```d2
+direction: down
+
+PPP Theory: Purchasing Power Parity {
+  shape: hexagon
+  style.fill: "#e3f2fd"
+}
+
+Price Levels: National Price Levels {
+  US: P_US = $200/basket
+  Europe: P_E = €160/basket
+}
+
+Exchange Rate: E = P_US/P_E {
+  calculation: $200/€160 = $1.25/€
+}
+
+PPP Theory -> Price Levels
+Price Levels -> Exchange Rate
+
+note: "Exchange rate adjusts to equalize purchasing power across countries" {
+  near: bottom-center
+}
+```
 
 The theory of purchasing power parity states that the exchange rate between two countries' currencies equals the ratio of the countries' price levels. Recall from Chapter 15 that the domestic purchasing power of a country's currency is reflected in the country's price level, the money price of a reference basket of goods and services. The PPP theory therefore predicts that a fall in a currency's domestic purchasing power (as indicated by an increase in the domestic price level) will be associated with a proportional currency depreciation in the foreign exchange market. Symmetrically, PPP predicts that an increase in the currency's domestic purchasing power will be associated with a proportional currency appreciation.
 
 The basic idea of PPP was put forth in the writings of 19th-century British economists, among them David Ricardo (the originator of the theory of comparative advantage). Gustav Cassel, a Swedish economist writing in the early 20th century, popularized PPP by making it the centerpiece of a theory of exchange rates. While there has been much controversy about the general validity of PPP, the theory does highlight important factors behind exchange rate movements.
 
-To express the PPP theory in symbols, let  $P_{\mathrm{US}}$  be the dollar price of a reference commodity basket sold in the United States and  $P_{\mathrm{E}}$  the euro price of the same basket in Europe. (Assume for now that a single basket accurately measures money's purchasing power in both countries.) Then PPP predicts a dollar/euro exchange rate of
+To express the PPP theory in symbols, let $P_{\mathrm{US}}$ be the dollar price of a reference commodity basket sold in the United States and $P_{\mathrm{E}}$ the euro price of the same basket in Europe. (Assume for now that a single basket accurately measures money's purchasing power in both countries.) Then PPP predicts a dollar/euro exchange rate of
 
 $$
-E_{\S / \in} = P_{\mathrm{US}} / P_{\mathrm{E}}. \tag {16-1}
+E_{\$ / \in} = P_{\mathrm{US}} / P_{\mathrm{E}}. \tag{16-1}
 $$
 
 If, for example, the reference commodity basket costs \$200 in the United States and €160 in Europe, PPP predicts a dollar/euro exchange rate of \$1.25 per euro (\$200 per basket/€160 per basket). If the U.S. price level were to triple (to \$600 per basket), so would the dollar price of a euro: PPP would imply an exchange rate of \$3.75 per euro (= \$600 per basket/€160 per basket).
@@ -85,7 +128,7 @@ we get an alternative interpretation of PPP. The left side of this equation is t
 
 Equivalently, the right side of the last equation measures the purchasing power of a dollar when exchanged for euros and spent in Europe. PPP therefore holds when, at going exchange rates, every currency's domestic purchasing power is always the same as its foreign purchasing power.
 
-# The Relationship between PPP and the Law of One Price
+## The Relationship between PPP and the Law of One Price
 
 Superficially, the statement of PPP given by equation (16-1) looks like the law of one price, which says that  $E_{\mathbb{S}/\mathbb{E}} = P_{\mathrm{US}}^{i} / P_{\mathrm{E}}^{i}$  for any commodity  $i$ . There is a difference between PPP and the law of one price, however: The law of one price applies to individual
 
@@ -95,7 +138,7 @@ If the law of one price holds true for every commodity, of course, PPP must hold
 
 Even when the law of one price fails to hold for each individual commodity, the argument goes, prices and exchange rates should not stray too far from the relation predicted by PPP. When goods and services become temporarily more expensive in one country than in others, the demands for its currency and its products fall, pushing the exchange rate and domestic prices back in line with PPP. The opposite situation of relatively cheap domestic products leads, analogously, to currency appreciation and price level inflation. PPP thus asserts that even when the law of one price is not literally true, the economic forces behind it will help eventually to equalize a currency's purchasing power in all countries.
 
-# Absolute PPP and Relative PPP
+## Absolute PPP and Relative PPP
 
 The statement that exchange rates equal relative price levels [equation (16-1)] is sometimes referred to as absolute PPP. Absolute PPP implies a proposition known as relative PPP, which states that the percentage change in the exchange rate between two currencies over any period equals the difference between the percentage changes in national price levels. Relative PPP thus translates absolute PPP from a statement about price and exchange rate levels into one about price and exchange rate changes. It asserts that prices and exchange rates change in a way that preserves the ratio of each currency's domestic and foreign purchasing powers.
 
@@ -111,17 +154,7 @@ where  $\pi_t$  denotes an inflation rate [that is,  $\pi_t = (P_t - P_{t-1}) / 
 
 In practice, national governments do not take pains to compute the price level indexes they publish using an internationally standardized basket of commodities. Absolute PPP makes no sense, however, unless the two baskets whose prices are compared in equation (16-1) are the same. (There is no reason to expect different commodity baskets to sell for the same price!) The notion of relative PPP therefore comes in handy when we have to rely on government price level statistics to evaluate PPP. It makes logical sense to compare percentage exchange rate changes to inflation differences, as above, even when countries base their price level estimates on product baskets that differ in coverage and composition.
 
-Relative PPP is important also because it may be valid even when absolute PPP is not. Provided the factors causing deviations from absolute PPP are more or less stable over time, percentage changes in relative price levels can still approximate percentage changes in exchange rates.
-
-# A Long-Run Exchange Rate Model Based on PPP
-
-When combined with the framework of money demand and supply that we developed in Chapter 15, the assumption of PPP leads to a useful theory of how exchange rates and monetary factors interact in the long run. Because factors that do not influence money supply or money demand play no explicit role in this theory, it is known as the monetary approach to the exchange rate. The monetary approach is this chapter's first step in developing a general long-run theory of exchange rates.
-
-We think of the monetary approach as a long-run and not a short-run theory because it does not allow for the price rigidities that seem important in explaining short-run macroeconomic developments, in particular departures from full employment. Instead, the monetary approach proceeds as if prices can adjust right away to maintain full employment as well as PPP. Here, as in Chapter 15, when we refer to a variable's "long-run" value, we mean the variable's equilibrium value in a hypothetical world of perfectly flexible output and factor market prices.
-
-There is actually considerable controversy among macroeconomists about the sources of apparent price level stickiness, with some maintaining that prices and wages only appear rigid and in reality adjust immediately to clear markets. To an economist of the aforementioned school, this chapter's models would describe the short-run behavior of an economy in which the speed of price level adjustment is so great that no significant unemployment ever occurs.
-
-# The Fundamental Equation of the Monetary Approach
+### The Fundamental Equation of the Monetary Approach
 
 To develop the monetary approach's predictions for the dollar/euro exchange rate, we will assume that in the long run, the foreign exchange market sets the rate so that PPP holds [see equation (16-1)]:
 
@@ -161,7 +194,7 @@ The monetary approach leads to a result familiar from Chapter 15, that the long-
 
 At the end of Chapter 14, we warned that no account of how a change in interest rates affects the exchange rate is complete until we specify exactly why interest rates have changed. This point explains the apparent contradiction in our findings about interest and exchange rates. To resolve the puzzle, however, we must first examine more closely how monetary policies and interest rates are connected in the long run.
 
-# Ongoing Inflation, Interest Parity, and PPP
+## Ongoing Inflation, Interest Parity, and PPP
 
 In Chapter 15, we saw that a permanent increase in the level of a country's money supply ultimately results in a proportional rise in its price level but has no effect on the long-run values of the interest rate or real output. While the conceptual experiment of a one-time, stepwise money supply change is useful for thinking about the long-run effects of money, it is not very realistic as a description of actual monetary policies. More plausibly, the monetary authorities choose a growth rate for the money supply, say, 5, 10, or 50 percent per year and then allow money to grow gradually, through incremental but frequent increases. What are the long-run effects of a policy that allows the money supply to grow smoothly forever at a positive rate?
 
@@ -203,7 +236,7 @@ $$
 
 If, as PPP predicts, currency depreciation is expected to offset the international inflation difference (so that the expected dollar depreciation rate is  $\pi_{\mathrm{US}}^e - \pi_{\mathrm{E}}^e$ ), the interest rate difference must equal the expected inflation difference.
 
-# The Fisher Effect
+## The Fisher Effect
 
 Equation (16-5) gives us the long-run relationship between ongoing inflation and interest rates that we need to explain the monetary approach's predictions about how interest rates affect exchange rates. The equation tells us that all else equal, a rise in a country's expected inflation rate will eventually cause an equal rise in the interest rate that deposits of its currency offer. Similarly, a fall in the expected inflation rate will eventually cause a fall in the interest rate.
 
@@ -365,9 +398,7 @@ All data should be treated with caution. The ICP report comes with the following
 
 Countries with significant non-observed economies may have an underestimated GDP. For such reasons, GDP measurement is not uniform across all countries.
 
-PPPs based on prices of services are not as precise for those based on prices of services. This is
-
-largely because services such as health and housing would have greater error components.
+PPPs based on prices of services are not as precise for those based on prices of services. This is largely because services such as health and housing would have greater error components.
 
 While PPPs represent the overall price level of an economy, they do not capture differences in prices within the economy.
 
@@ -377,7 +408,7 @@ The final caveat is that PPPs should not be equated to equilibrium exchange rate
 
 Change in the relative prices of basket components, however, can cause relative PPP to fail tests that are based on official price indexes. For example, a rise in the relative price of fish would raise the dollar price of a Japanese government reference commodity basket relative to that of a U.S. government basket, simply because fish take up a larger share of the Japanese basket. Relative price changes could lead to PPP violations like those shown in Figure 16-2 even if trade were free and costless.
 
-# PPP in the Short Run and in the Long Run
+## PPP in the Short Run and in the Long Run
 
 The factors we have examined so far in explaining the PPP theory's poor empirical performance can cause national price levels to diverge even in the long run, after all prices have had time to adjust to their market-clearing levels. As we discussed in Chapter 15, however, many prices in the economy are sticky and take time to adjust fully. Departures from PPP may therefore be even greater in the short run than in the long run.
 
@@ -387,9 +418,9 @@ You might suspect that short-run price stickiness and exchange rate volatility h
 
 Recent research suggests that short-run deviations from PPP such as those due to volatile exchange rates die away over time, with only half the effect of a temporary departure from PPP remaining after four years.[13] Even when these temporary PPP deviations are removed from the data, however, it still appears that the cumulative effect of certain long-run trends causes predictable departures from PPP for many countries. The Case Study titled "Why Price Levels Are Lower in Poorer Countries" discusses one of the major mechanisms behind such trends.
 
-# CASE STUDY
+## CASE STUDY
 
-# Why Price Levels Are Lower in Poorer Countries
+### Why Price Levels Are Lower in Poorer Countries
 
 Research on international price level differences has uncovered a striking empirical regularity: When expressed in terms of a single currency, countries' price levels are positively related to the level of real income per capita. In other words, a dollar, when converted to local currency at the market exchange rate, generally goes much further in a poor country than in a rich one. Figure 16-3 illustrates the relation between price levels and income, with each dot representing a different country.
 
@@ -406,17 +437,48 @@ Source: Penn World Table, version 9.1.
 
 in a week, but there may be a significant scope for productivity differences across countries in the manufacture of traded goods like personal computers.
 
-An alternative theory that attempts to explain the lower price levels of poor countries was put forth by Jagdish Bhagwati of Columbia University and by Irving Kravis of the University of Pennsylvania and Robert Lipsey of the City University of New York.[15] The Bhagwati-Kravis-Lipsey view relies on differences in endowments of capital and labor rather than productivity differences, but it also predicts that the relative price of nontradables increases as real per capita income increases. Rich countries have high capital-labor ratios, while poor countries have more
+An alternative theory that attempts to explain the lower price levels of poor countries was put forth by Jagdish Bhagwati of Columbia University and by Irving Kravis of the University of Pennsylvania and Robert Lipsey of the City University of New York.[15] The Bhagwati-Kravis-Lipsey view relies on differences in endowments of capital and labor rather than productivity differences, but it also predicts that the relative price of nontradables increases as real per capita income increases. Rich countries have high capital-labor ratios, while poor countries have more labor relative to capital. Because rich countries have higher capital-labor ratios, the marginal productivity of labor is greater in rich countries than in poor countries, and the former will therefore have a higher wage level than the latter.[16] Nontradables, which consist largely of services, are naturally labor-intensive relative to tradables. Because labor is cheaper in poor countries and is used intensively in producing nontradables, nontradables also will be cheaper there than in the rich, high-wage countries. Once again, this international difference in the relative price of nontradables suggests that overall price levels, when measured in a single currency, should be higher in rich countries than in poor countries.
 
-labor relative to capital. Because rich countries have higher capital-labor ratios, the marginal productivity of labor is greater in rich countries than in poor countries, and the former will therefore have a higher wage level than the latter.[16] Nontradables, which consist largely of services, are naturally labor-intensive relative to tradables. Because labor is cheaper in poor countries and is used intensively in producing nontradables, nontradables also will be cheaper there than in the rich, high-wage countries. Once again, this international difference in the relative price of nontradables suggests that overall price levels, when measured in a single currency, should be higher in rich countries than in poor countries.
-
-# Beyond Purchasing Power Parity: A General Model of Long-Run Exchange Rates
+## Beyond Purchasing Power Parity: A General Model of Long-Run Exchange Rates
 
 Why devote so much discussion to the purchasing power parity theory when it is fraught with exceptions and apparently contradicted by the data? We examined the implications of PPP so closely because its basic idea of relating long-run exchange rates to long-run national price levels is a very useful starting point. The monetary approach presented previously, which assumed PPP, is too simple to give accurate predictions about the real world, but we can generalize it by taking account of some of the reasons why PPP predicts badly in practice. In this section, we do just that.
 
 The long-run analysis that follows continues to ignore short-run complications caused by sticky prices. An understanding of how exchange rates behave in the long run is, as mentioned earlier, a prerequisite for the more complicated short-run analysis that we undertake in the next chapter.
 
-# The Real Exchange Rate
+## The Real Exchange Rate
+
+```d2
+direction: right
+
+Nominal_Exchange_Rate: Nominal Exchange Rate {
+  shape: rectangle
+  label: E = Price of foreign currency in domestic terms
+}
+
+Domestic_Price_Level: Domestic Price Level {
+  shape: rectangle
+  label: P_domestic
+}
+
+Foreign_Price_Level: Foreign Price Level {
+  shape: rectangle
+  label: P_foreign
+}
+
+Real_Exchange_Rate: Real Exchange Rate {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+  label: q = (E × P_foreign) / P_domestic
+}
+
+Nominal_Exchange_Rate -> Real_Exchange_Rate
+Domestic_Price_Level -> Real_Exchange_Rate
+Foreign_Price_Level -> Real_Exchange_Rate
+
+note: "Real exchange rate measures relative purchasing power across countries" {
+  near: bottom-center
+}
+```
 
 As the first step in extending the PPP theory, we define the concept of a real exchange rate. The real exchange rate between two countries' currencies is a broad summary measure of the prices of one country's goods and services relative to the other country's. It is natural to introduce the real exchange rate concept at this point because the major prediction of PPP is that real exchange rates never change, at least not permanently. To extend our model so that it describes the world more accurately, we need to examine systematically the forces that can cause dramatic and permanent changes in real exchange rates.
 
@@ -450,21 +512,19 @@ Our convention for describing real depreciations and appreciations of the dollar
 
 Equation (16-6) makes it easy to see why the real exchange rate can never change when relative PPP holds. Under relative PPP, a 10 percent rise in  $E_{\$/ \in}$ , for instance, would always be exactly offset by a 10 percent fall in the price level ratio  $P_{\mathrm{E}} / P_{\mathrm{US}}$ , leaving  $q_{\$/ \in}$  unchanged.
 
-# Demand, Supply, and the Long-Run Real Exchange Rate
+## Demand, Supply, and the Long-Run Real Exchange Rate
 
 It should come as no surprise that in a world where PPP does not hold, the long-run values of real exchange rates—just like other relative prices that clear markets—depend on demand and supply conditions. Since a real exchange rate tracks changes in the relative price of two countries' expenditure baskets, however, conditions in both countries matter. Changes in countries' output markets can be complex, and we do not want to digress into an exhaustive (and exhausting) catalogue of the possibilities. We focus instead on two specific cases that are both easy to grasp and important in practice for explaining why the long-run values of real exchange rates can change.
 
 1. A change in world relative demand for American products. Imagine total world spending on American goods and services rises relative to total world spending on European goods and services. Such a change could arise from several sources—for example, a shift in private U.S. demand away from European goods and toward American goods; a similar shift in private foreign demand toward American goods; or an increase in U.S. government demand falling primarily on U.S. output. Any increase in relative world demand for U.S. products causes an excess demand for them at the previous real exchange rate. To restore equilibrium, the relative price of American output in terms of European output will therefore have to rise: The relative prices of U.S. nontradables will rise, and the prices of tradables produced in the United States, and consumed intensively there, will rise relative to the prices
 
-# STICKY PRICES AND THE LAW OF ONE PRICE: EVIDENCE FROM SCANDINAVIAN DUTY-FREE SHOPS
+### STICKY PRICES AND THE LAW OF ONE PRICE: EVIDENCE FROM SCANDINAVIAN DUTY-FREE SHOPS
 
 Sticky nominal prices and wages are central to macroeconomic theories, but just why might it be difficult for money prices to change from day to day as market conditions change? One reason is based on the idea of "menu costs." Menu costs could arise from several factors, such as the actual costs of printing new price lists and catalogs. In addition, firms may perceive a different type of menu cost due to their customers' imperfect information about competitors' prices. When a firm raises its price, some customers will shop around elsewhere and find it convenient to remain with a competing seller even if all sellers have raised their prices. In the presence of these various types of menu costs, sellers will often hold prices constant after a change in market conditions until they are certain the change is permanent enough to make incurring the costs of price changes worthwhile.[19]
 
 If there were truly no barriers between two markets with goods priced in different currencies, sticky prices would be unable to survive in the face of an exchange rate change. All buyers would simply flock to the market where a good had become cheapest. But when some trade impediments exist, deviations from the law of one price do not induce unlimited arbitrage, so it is feasible for sellers to hold prices constant despite exchange rate changes. In the real world, trade barriers appear to be significant, widespread, and often subtle in nature.
 
-Apparently, arbitrage between two markets may be limited even when the physical distance between them is zero, as a surprising study of pricing behavior in Scandinavian duty-free outlets shows. Swedish economists Marcus Asplund and Richard Friberg
-
-studied pricing behavior in the duty-free stores of two Scandinavian ferry lines whose catalogs quote the prices of each good in several currencies for the convenience of customers from different countries.[20] Since it is costly to print the catalogs, they are reissued with revised prices only from time to time. In the interim, however, fluctuations in exchange rates induce multiple, changing prices for the same good. For example, on the Birka Line of ferries between Sweden and Finland, prices were listed in both Finnish markka and Swedish kronor between 1975 and 1998, implying that a relative depreciation of the markka would make it cheaper to buy cigarettes or vodka by paying markka rather than kronor.
+Apparently, arbitrage between two markets may be limited even when the physical distance between them is zero, as a surprising study of pricing behavior in Scandinavian duty-free outlets shows. Swedish economists Marcus Asplund and Richard Friberg studied pricing behavior in the duty-free stores of two Scandinavian ferry lines whose catalogs quote the prices of each good in several currencies for the convenience of customers from different countries.[20] Since it is costly to print the catalogs, they are reissued with revised prices only from time to time. In the interim, however, fluctuations in exchange rates induce multiple, changing prices for the same good. For example, on the Birka Line of ferries between Sweden and Finland, prices were listed in both Finnish markka and Swedish kronor between 1975 and 1998, implying that a relative depreciation of the markka would make it cheaper to buy cigarettes or vodka by paying markka rather than kronor.
 
 Despite such price discrepancies, Birka Line was always able to do business in both currencies—passengers did not rush to buy at the lowest price. Swedish passengers, who held relatively large quantities of their own national currency, tended to buy at the krona prices, whereas Finnish customers tended to buy at the markka prices.
 
@@ -488,7 +548,7 @@ The long-run equilibrium real exchange rate equates world relative demand to the
 
 The diagram easily illustrates how changes in world markets affect the real exchange rate. Suppose world gasoline prices fall, making American sport-utility vehicles more desirable for people everywhere. This change would be a rise in world relative demand for American goods and would shift  $RD$  to the right, causing  $q_{\$/ \in}$  to fall (a real dollar appreciation against the euro). Suppose the United States improves its health-care system, reducing illness throughout the American workforce. If workers are able to produce more goods and services in an hour as a result, the rise in U.S. productivity shifts  $RS$  to the right, causing  $q_{\$/ \in}$  to rise (a real dollar depreciation against the euro).
 
-# Nominal and Real Exchange Rates in Long-Run Equilibrium
+## Nominal and Real Exchange Rates in Long-Run Equilibrium
 
 We now pull together what we have learned in this chapter and Chapter 15 to show how long-run nominal exchange rates are determined. One central conclusion is that changes in national money supplies and demands give rise to the proportional long-run movements in nominal exchange rates and international price level ratios predicted by the relative purchasing power parity theory. Demand and supply shifts in national output markets, however, cause nominal exchange rate movements that do not conform to PPP.
 
@@ -524,7 +584,7 @@ In the chapters that follow, we will appeal to this section's general long-run e
 
 about the current account, for example, can have a big impact on the exchange rate. The long-run exchange rate model of this section will provide the anchor for market expectations, that is, the framework market participants use to forecast future exchange rates on the basis of information at hand today.
 
-# International Interest Rate Differences and the Real Exchange Rate
+## International Interest Rate Differences and the Real Exchange Rate
 
 Earlier in this chapter, we saw that relative PPP, when combined with interest parity, implies that international interest rate differences equal differences in countries' expected inflation rates. Because relative PPP does not hold true in general, however, the relation between international interest rate differences and national inflation rates is likely to be more complex in practice than that simple formula suggests. Despite this complexity, economic policy makers who hope to influence exchange rates, as well as private individuals who wish to forecast them, cannot succeed without understanding the factors that cause countries' interest rates to differ.
 
@@ -556,7 +616,7 @@ In general, however, the dollar/euro interest difference is the sum of two compo
 
 that PPP (when combined with interest parity) would suggest. If, in addition, everyone knows that output demand and supply trends will make the dollar depreciate against the euro in real terms at a rate of 1 percent per year, the international interest spread will actually be 6 percent.
 
-# Real Interest Parity
+## Real Interest Parity
 
 Economics makes an important distinction between nominal interest rates, which are rates of return measured in monetary terms, and real interest rates, which are rates of return measured in real terms, that is, in terms of a country's output. Because real rates of return often are uncertain, we usually will refer to expected real interest rates. The interest rates we discussed in connection with the interest parity condition and the determinants of money demand were nominal rates, for example, the dollar return on dollar deposits. But for many other purposes, economists need to analyze behavior in terms of real rates of return. No one who is thinking of investing money, for example, could make a decision knowing only that the nominal interest rate is 15 percent. The investment would be quite attractive at zero inflation but dramatically unattractive if inflation were bounding along at 100 percent per year!24
 
@@ -588,7 +648,7 @@ Expected real interest rates are the same in different countries when relative P
 
 Do such real interest differences imply unnoticed profit opportunities for international investors? Not necessarily. A cross-border real interest difference does imply that residents of two countries perceive different real rates of return on wealth. Nominal interest parity tells us, however, that any given investor expects the same real return on domestic and foreign currency assets. Two investors residing in different countries need not calculate this single real rate of return in the same way if relative PPP does not link the prices of their consumption baskets, but there is no way either can profit from their disagreement by shifting funds between currencies.
 
-# SUMMARY
+## SUMMARY
 
 - The purchasing power parity theory, in its absolute form, asserts that the exchange rate between countries' currencies equals the ratio of their price levels, as measured by the money prices of a reference commodity basket. An equivalent statement of PPP is that the purchasing power of any currency is the same in any country. Absolute PPP implies a second version of the PPP theory, relative PPP, which predicts that percentage changes in exchange rates equal differences in national inflation rates.
 - A building block of the PPP theory is the law of one price, which states that under free competition and in the absence of trade impediments, a good must sell for a single price regardless of where in the world it is sold. Proponents of the PPP theory often argue, however, that its validity does not require the law of one price to hold for every commodity.

@@ -1,24 +1,25 @@
 ---
+title: "Money, Interest Rates, and Exchange Rates"
+parent_directory: "Part 3 - Exchange Rates and Open-Economy Macroeconomics"
+formatted: "2025-12-21 09:20:00 AM"
+formatter_model: "grok-code-fast-1"
+cli-tool: "opencode"
 primary_tags:
-- currencies similarly permanent
-- money supply causes proportional
-- monetary influences exchange rate
-- long run money supply
-- testing long run theories
+  - money supply causes proportional
+  - currencies similarly permanent
+  - monetary influences exchange rate
+  - long run money supply
 secondary_tags:
-- exchange rates chapter 14
-- study exchange rate determination
-- countries change money supply
-- determinants currency exchange rate
-- chapter theories determinants money
-- future exchange rates depend
-- monetary factors influence output
-- country money supply affect
-- model links exchange rates
-- exchange rate given expectations
-- equilibrium rate interaction money
-- money markets rates determined
-tags_extracted: '2025-12-18T00:53:18.914878'
+  - study exchange rate determination
+  - countries change money supply
+  - determinants currency exchange rate
+  - future exchange rates depend
+  - monetary factors influence output
+  - model links exchange rates
+  - exchange rate given expectations
+  - equilibrium rate interaction money
+  - money markets rates determined
+cssclasses: academia
 ---
 
 # MONEY, INTEREST RATES, AND EXCHANGE RATES
@@ -550,52 +551,6 @@ money supply, p. 419
 
 price level, p. 422
 short run, p. 427
-
-# PROBLEMS
-
-1. Suppose there is a reduction in aggregate real money demand, that is, a negative shift in the aggregate real money demand function. Trace the short- and long-run effects on the exchange rate, interest rate, and price level.
-2. How would you expect a fall in a country's population to alter its aggregate money demand function? Would it matter if the fall in population were due to a fall in the number of households or to a fall in the size of the average household?
-3. The velocity of money,  $V$ , is defined as the ratio of real GNP to real money holdings,  $V = Y / (M / P)$  in this chapter's notation. Use equation (15-4) to derive an expression for velocity and explain how velocity varies with changes in  $R$  and in  $Y$ . (Hint: The effect of output changes on  $V$  depends on the elasticity of aggregate
-
-money demand with respect to real output, which economists believe to be less than unity.) What is the relationship between velocity and the exchange rate?
-
-4. What is the short-run effect on the exchange rate of an increase in domestic real GNP, given expectations about future exchange rates?
-
-5. Does our discussion of money's usefulness as a medium of exchange and unit of account suggest reasons why some currencies become vehicle currencies for foreign exchange transactions? (The concept of a vehicle currency was discussed in Chapter 14.)
-
-6. If a currency reform has no effects on the economy's real variables, why do governments typically institute currency reforms in connection with broader programs aimed at halting runaway inflation? (There are many instances in addition to the Turkish case mentioned in the text. Other examples include Israel's switch from the pound to the shekel, Argentina's switches from the peso to the austral and back to the peso, and Brazil's switches from the cruzeiro to the cruzado, from the cruzado to the cruzeiro, from the cruzeiro to the cruzeiro real, and from the cruzeiro real to the real, the current currency, which was introduced in 1994.)
-
-7. Between 1980 and 2005, Ghana experienced some periods of high inflation and periods of less high inflation. Some key macroeconomic data on the evolution of economic and financial variables are listed (the exchange rate is expressed using the Ghanaian local currency, the cedi with the U.S. dollar). Answer the following:
-
-GDP growth, Money growth, Exchange rate, and Inflation
-
-<table><tr><td>YEAR</td><td>GDP growth</td><td>Money growth</td><td>Exchange Rate</td><td>Inflation</td></tr><tr><td>1980</td><td>-0.47</td><td>33.80</td><td>2.75</td><td>50.07</td></tr><tr><td>1981</td><td>-3.50</td><td>51.32</td><td>2.75</td><td>116.50</td></tr><tr><td>1982</td><td>-6.92</td><td>23.34</td><td>2.75</td><td>22.30</td></tr><tr><td>1983</td><td>-4.56</td><td>40.21</td><td>8.83</td><td>122.87</td></tr><tr><td>1984</td><td>8.64</td><td>53.62</td><td>35.99</td><td>39.66</td></tr><tr><td>1985</td><td>5.09</td><td>46.17</td><td>54.37</td><td>10.30</td></tr><tr><td>1986</td><td>5.20</td><td>47.94</td><td>89.20</td><td>24.57</td></tr><tr><td>1987</td><td>4.80</td><td>53.33</td><td>153.73</td><td>39.82</td></tr><tr><td>1988</td><td>5.63</td><td>46.28</td><td>202.3</td><td>31.36</td></tr><tr><td>1989</td><td>5.09</td><td>54.67</td><td>270.00</td><td>25.22</td></tr><tr><td>1990</td><td>3.33</td><td>13.30</td><td>326.33</td><td>37.26</td></tr><tr><td>1991</td><td>5.28</td><td>39.08</td><td>367.83</td><td>18.03</td></tr><tr><td>1992</td><td>3.88</td><td>52.28</td><td>437.09</td><td>10.06</td></tr><tr><td>1993</td><td>4.85</td><td>33.50</td><td>649.06</td><td>24.96</td></tr><tr><td>1994</td><td>3.30</td><td>52.57</td><td>659.71</td><td>24.87</td></tr><tr><td>1995</td><td>4.11</td><td>43.17</td><td>1200.43</td><td>59.46</td></tr><tr><td>1996</td><td>4.60</td><td>39.20</td><td>1637.23</td><td>46.56</td></tr><tr><td>1997</td><td>4.20</td><td>44.09</td><td>2050.17</td><td>27.89</td></tr><tr><td>1998</td><td>4.70</td><td>17.49</td><td>2314.15</td><td>14.62</td></tr><tr><td>1999</td><td>4.41</td><td>25.42</td><td>2669.30</td><td>12.41</td></tr><tr><td>2000</td><td>3.69</td><td>54.24</td><td>5455.06</td><td>25.19</td></tr><tr><td>2001</td><td>4.00</td><td>31.69</td><td>7170.76</td><td>32.91</td></tr><tr><td>2002</td><td>4.50</td><td>48.85</td><td>7932.70</td><td>14.82</td></tr><tr><td>2003</td><td>5.20</td><td>34.23</td><td>8677.37</td><td>26.67</td></tr><tr><td>2004</td><td>5.60</td><td>27.44</td><td>9004.63</td><td>12.62</td></tr><tr><td>2005</td><td>5.90</td><td>9.35</td><td>9072.54</td><td>15.12</td></tr></table>
-
-Source: WDI, World Bank
-
-a. When you look at these statistics could you observe a relationship between money supply, price level, and exchange rate?
-
-b. Calculate the percent changes in the general price level and price of the Ghana cedi from 1994 to 1996. How do these compare to each other and to the percent increase in the money supply? What relationship do you observe between the variation of exchange rate and the inflation rate?
-c. Some research has found a correlation between the price of crude oil in the world market, the exchange rate, and the effects of political election in Ghana. Could you explain the relationship between these variables?
-
-8. Following is a table of some inflation-targeting countries and the years in which they adopted the practice:
-
-<table><tr><td>Country</td><td>Year of Adoption</td></tr><tr><td>New Zealand</td><td>1990</td></tr><tr><td>Chile</td><td>1991</td></tr><tr><td>Canada</td><td>1991</td></tr><tr><td>Israel</td><td>1991</td></tr><tr><td>Sweden</td><td>1993</td></tr><tr><td>Finland</td><td>1993</td></tr><tr><td>Australia</td><td>1994</td></tr><tr><td>Brazil</td><td>1999</td></tr><tr><td>Mexico</td><td>1999</td></tr><tr><td>South Africa</td><td>2000</td></tr><tr><td>Indonesia</td><td>2005</td></tr></table>
-
-Go to the International Monetary Fund's most recent World Economic Outlook database (accessible directly or through www.imf.org) and collect the annual inflation rate series PCPIEPCH for these countries, starting in 1980. Then graph the data for each country using Excel or some other data analysis package. Just looking at the data, does inflation appear to behave differently after the adoption of inflation targeting?
-
-9. In our discussion of short-run exchange rate overshooting, we assumed real output was given. Assume instead that an increase in the money supply raises real output in the short run (an assumption that will be justified in Chapter 17). How does this affect the extent to which the exchange rate overshoots when the money supply first increases? Is it likely that the exchange rate undershoots? (Hint: In Figure 15-13a, allow the aggregate real money demand schedule to shift in response to the increase in output.)
-10. Figure 14-2 shows that Japan's short-term interest rates have had periods during which they are near or equal to zero. Is the fact that the yen interest rates shown never drop below zero a coincidence, or can you think of some reason why interest rates might be bounded below by zero?
-11. How might a zero interest rate complicate the task of monetary policy? (Hint: At a zero rate of interest, there is no advantage in switching from money to bonds.)
-12. As we observed in this chapter, central banks, rather than purposefully setting the level of the money supply, usually set a target level for a short-term interest rate by standing ready to lend or borrow whatever money people wish to trade at that interest rate. (When people need more money for a reason other than a change in the interest rate, the money supply therefore expands, and it contracts when they wish to hold less.)
-a. Describe the problems that might arise if a central bank sets monetary policy by holding the market interest rate constant. (First, consider the flexible-price
-
-case, and ask yourself if you can find a unique equilibrium price level when the central bank simply gives people all the money they wish to hold at the pegged interest rate. Then consider the sticky-price case.)
-
-b. Does the situation change if the central bank raises the interest rate when prices are high, according to a formula such as  $R - R_0 = a(P - P_0)$ , where  $a$  is a positive constant and  $P_0$  a target price level?
-c. Suppose the central bank's policy rule is  $R - R_0 = a(P - P_0) + u$ , where  $u$  is a random movement in the policy interest rate. In the overshooting model shown in Figure 15-14, describe how the economy would adjust to a permanent one-time unexpected fall in the random factor  $u$ , and say why. You can interpret the fall in  $u$  as an interest rate cut by the central bank and therefore as an expansionary monetary action. Compare your story with the one depicted in Figure 15-14.
-
-13. The West African CFA franc is the currency used by eight independent states in West Africa—Benin, Burkina Faso, Guinea-Bissau, Ivory Coast, Mali, Niger, Senegal, and Togo, which form a monetary union. Since 1999, the CFA has been strictly pegged to the euro (before which it was aligned to the French Franc) and is issued by the West African Central Bank. Go to World Economic Outlook database (accessible directly or through www.imf.org) and compare the inflation rate (average consumer price) for the Sub-Saharan group of countries with the inflation rate of the countries mentioned in this problem. Summarize your observations. How would you explain it?
 
 # FURTHER READINGS
 

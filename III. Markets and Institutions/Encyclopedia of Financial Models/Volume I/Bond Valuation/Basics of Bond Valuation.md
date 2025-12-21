@@ -1,11 +1,42 @@
 
+---
+title: "Basics of Bond Valuation"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume I/Bond Valuation"
+formatted: "2025-12-21 09:20:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - bond valuation
+  - present value
+  - discount rates
+  - arbitrage-free valuation
+  - spot rates
+  - term structure
+  - credit spreads
+  - arbitrage-free pricing
+secondary_tags:
+  - yield curve dynamics
+  - coupon bonds
+  - zero-coupon bonds
+  - cash flow discounting
+  - treasury strips
+  - bootstrapping method
+  - default risk
+  - liquidity risk
+  - embedded options
+  - par rates
+  - forward rates
+  - market efficiency
+cssclasses: academia
+---
+
 # Basics of Bond Valuation
 
 Abstract: The value of any financial asset is the present value of its expected future cash flows. To value a bond, one must be able estimate the bond's remaining cash flows and identify the appropriate discount rate(s). The traditional approach to bond valuation is to discount every cash flow with the same discount rate. Simply put, the relevant yield curve used in valuation is assumed to be flat. This approach permits opportunities for arbitrage. Alternatively, the arbitrage-free valuation approach starts with the premise that a bond should be viewed as a portfolio or package of zero-coupon bonds. Moreover, each of the bond's cash flows is valued using a unique discount rate that depends on the shape of the yield curve and when the cash flow is delivered in time. The relevant set of discount rates (that is, spot rates) is derived from the Treasury yield curve and when used to value risky bonds augmented with a spread.
 
 Valuation is the process of determining the fair value of a financial asset. In this entry, we will explain the general principles of bond valuation. Our focus will be on how to value option-free bonds (that is, bonds that are not callable, putable, or convertible). A special analytical framework is required to value more complex bond structures such as bonds that are callable or putable and mortgage-backed and certain asset-backed securities.
 
-# GENERAL PRINCIPLES OF BOND VALUATION
+## GENERAL PRINCIPLES OF BOND VALUATION
 
 The fundamental principle of valuation is that the value of any financial asset is equal to the present value of its expected future cash flows.
 
@@ -49,13 +80,13 @@ For each cash flow estimated, the same interest rate can be used to calculate th
 Once the expected (estimated) cash flows and the appropriate interest rate or interest rates that should be used to discount the cash flows are determined, the final step in the valuation process is to value the cash flows. The present value of an expected cash flow to be received  $t$  years from now using a discount rate  $i$  is:
 
 $$
-\text{Pr es en tv al ue}_{t} = \frac{\text{Ex pe ct ed ca sh fl ow in pe ri od}^{t}}{(1 + i)^{t}}
+\text{Present value}_{t} = \frac{\text{Expected cash flow in period}^{t}}{(1 + i)^{t}}
 $$
 
 The value of a financial asset is then the sum of the present value of all the expected cash flows. Specifically, assuming that there are  $N$  expected cash flows:
 
 $$
-\begin{array}{c} \text{Va lu e =P re se nt va lu e_{1} + P r e s e n t v a l u e_{2} + \cdots} \\ \hskip 1 4. 2 2 6 3 7 8 p t + \text{Pr es en tv al ue}_{N} \end{array}
+\begin{array}{c} \text{Value = Present value}_{1} + \text{Present value}_{2} + \cdots \\ + \text{Present value}_{N} \end{array}
 $$
 
 # Determining a Bond's Value
@@ -69,7 +100,7 @@ The adjustment for the discount rate is easy to accomplish but tricky to interpr
 We now have everything in place to value a semiannual coupon-paying bond. The present value of an annuity is equal to:
 
 $$
-\text{An nu it yp am em en t} \times \left[ \frac{1 - \frac{1}{(1 + r)^{\mathrm{no .o fy ea rs}}}}{r} \right]
+\text{Annuity payment} \times \left[ \frac{1 - \frac{1}{(1 + r)^{\mathrm{no. of years}}}}{r} \right]
 $$ where  $r$  is the annual discount rate.
 
 
@@ -78,7 +109,7 @@ Applying this formula to a semiannual-pay bond, the annuity payment is one half 
 Semiannual coupon payment
 
 $$
-\times \left[ \frac{1 - \frac{1}{(1 + i)^{\mathrm{no .o fy ea rs} \times 2}}}{i} \right]
+\times \left[ \frac{1 - \frac{1}{(1 + i)^{\mathrm{no. of years} \times 2}}}{i} \right]
 $$ where  $i$  is the semiannual discount rate  $(r / 2)$ . Notice that in the formula, for the number of periods we use the number of years multiplied by 2 since a period in our illustration is six months.
 
 
@@ -87,7 +118,7 @@ The present value of the maturity value is just the present value of a lump sum 
 Present value of the maturity value
 
 $$
-= \frac{\mathbb {S} 1 0 0}{(1 + i)^{\mathrm{No .o fy ea rs} \times 2}}
+= \frac{\$100}{(1 + i)^{\mathrm{No. of years} \times 2}}
 $$
 
 We will illustrate the calculation by valuing our 4-year,  $6\%$  coupon bond assuming that the relevant discount rate is  $7\%$ . The data are summarized below:
@@ -126,7 +157,7 @@ Finally, let's suppose that the discount rate is equal to the coupon rate. That 
 For a zero-coupon bond, there is only one cash flow—the repayment of principal at maturity. The value of a zero-coupon bond that matures  $N$  years from now is:
 
 $$
-\frac{\text{Ma tu ri ty va lu e}}{(1 + i)^{N \times 2}}
+\frac{\text{Maturity value}}{(1 + i)^{N \times 2}}
 $$ where  $i$  is the semiannual discount rate.
 
 
@@ -135,7 +166,7 @@ The expression presented above states that the price of a zero-coupon bond is si
 To illustrate, the value of a 10-year zero-coupon bond with a maturity value of  \$100 discounted at a 6.4\%$  interest rate is 53.2606, as presented below:
 
 $$
-\begin{array}{l} i = 0. 0 3 2 = (0. 0 6 4 / 2) \\ N = 1 0 \\ \frac{\mathbb {S} 1 0 0}{(1 . 0 3 2)^{1 0 \times 2}} = \mathbb {S} 5 3. 2 6 0 6 \\ \end{array}
+\begin{array}{l} i = 0.032 = (0.064 / 2) \\ N = 10 \\ \frac{\$100}{(1.032)^{10 \times 2}} = \$53.2606 \\ \end{array}
 $$
 
 # Valuing a Bond between Coupon Payments
@@ -148,13 +179,13 @@ In order to value a bond with a settlement date between coupon payments, we must
 
 Computing the Full Price When valuing a bond purchased with a settlement date between coupon payment dates, the first step is to determine the fractional periods between the settlement date and the next coupon date. Using the appropriate day count convention, this is determined as follows:
 
-$$ w \text{pe ri od s} = \frac{\text{Da ys be tw ee ns et tl em en td at e}}{\text{an dn ex tc ou po np ay me nt da te}}
+$$ w \text{periods} = \frac{\text{Days between settlement date}}{\text{and next coupon payment date}}
 $$
 
 Then the present value of each expected future cash flow to be received  $t$  periods from now using a discount rate  $i$  assuming the next coupon payment is  $w$  periods from now (settlement date) is:
 
 $$
-\text{Pr es en tv al ue}_{t} = \frac{\text{Ex pe ct ed ca sh fl ow}}{(1 + i)^{t - 1 + w}}
+\text{Present value}_{t} = \frac{\text{Expected cash flow}}{(1 + i)^{t - 1 + w}}
 $$ method." In the Street method, as can be seen in the previous expression, coupon interest is compounded over the fractional period  $w$ .
 
 Note for the first coupon payment subsequent to the settlement date,  $t = 1$  so the exponent is just  $w$ . This procedure for calculating the present value when a bond is purchased between coupon payments is called the "Street
@@ -169,15 +200,15 @@ To illustrate the calculation, suppose that a U.S. Treasury note maturing on Dec
 Then  $w$  is 0.2120 periods (39/184). The present value of each cash flow assuming that each is discounted at a  $4.9\%$  annual discount rate is
 
 $$
-\begin{array}{l} \text{Pe ri od 1 :P re se nt va lu e}_{1} = \frac{\mathbb {S} 2 . 1 8 7 5}{(1 . 0 2 4 5)^{0 . 2 1 2 0}} \\ = \$ 2. 1 7 6 1 \\ \end{array}
+\begin{array}{l} \text{Period 1: Present value}_{1} = \frac{\$2.1875}{(1.0245)^{0.2120}} \\ = \$2.1761 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \text{Pe ri od 2 :P re se nt va lu e}_{2} = \frac{\mathbb {S} 2 . 1 8 7 5}{(1 . 0 2 4 5)^{1 . 2 1 2 0}} \\ = \$ 2. 1 2 4 3 \\ \end{array}
+\begin{array}{l} \text{Period 2: Present value}_{2} = \frac{\$2.1875}{(1.0245)^{1.2120}} \\ = \$2.1243 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \text{Pe ri od 3 :P re se nt va lu e}_{3} = \frac{\mathbb {S} 1 0 2 . 1 8 7 5}{(1 . 0 2 4 5)^{2 . 2 1 2 0}} \\ = \$ 96.8498 \\ \end{array}
+\begin{array}{l} \text{Period 3: Present value}_{3} = \frac{\$102.1875}{(1.0245)^{2.2120}} \\ = \$96.8498 \\ \end{array}
 $$
 
 The sum of the present values of the cash flows is 101.1502. This price is referred to as the full price (or the dirty price).
@@ -202,7 +233,7 @@ $\mathrm{AI} =$  Semiannual coupon payment  $\times (1 - w)$
 Accordingly, using a 4.375 Treasury note with a settlement date of November 22, 2006, the portion of the next coupon payment that was accrued interest was:
 
 $$
-\begin{array}{l} \$ 2.1875 \times (1 - 0.7880) = \$ 1.7238 (\text{pe r} \$ 100 \text{of} \\ \text{pa rv al ue)} \\ \end{array}
+\begin{array}{l} \$2.1875 \times (1 - 0.7880) = \$1.7238 (\text{per} \$100 \text{of} \\ \text{par value)} \\ \end{array}
 $$
 
 Once we know the full price and the accrued interest, we can determine the clean price. The clean price is the price quoted in the market and represents the bond's value to the new bondholder. The clean price is computed as follows:
@@ -228,13 +259,13 @@ $\Rightarrow$  Price  $=$  Par value
 Coupon rate  $<$  Yield required by market
 
 $$
-\Rightarrow \text{Pr ic e} <   \text{Pa rv al ue (di sc ou nt)}
+\Rightarrow \text{Price} < \text{Par value (discount)}
 $$
 
 Coupon rate  $>$  Yield required by market
 
 $$
-\Rightarrow \text{Pr ic e} > \text{Pa rv al ue (pr em iu m)}
+\Rightarrow \text{Price} > \text{Par value (premium)}
 $$
 
 This agrees with what we found for the 4-year,  $6\%$  coupon bond:
@@ -263,7 +294,7 @@ With respect to the last property, we are assuming the bond is valued on its cou
 At the maturity date, the bond's value is equal to its par or maturity value. So, as a bond's maturity approaches, the price of a discount bond will rise to its par value and a premium bond will fall to its par value—a characteristic sometimes referred to as pull to par value.
 
 
-# ARBITRAGE-FREE BOND VALUATION
+## ARBITRAGE-FREE BOND VALUATION
 
 The traditional approach to valuation is to discount every cash flow of a fixed income security using the same interest or discount rate. The fundamental flaw of this approach is that it views each security as the same package of cash flows. For example, consider a 5-year U.S. Treasury note with a  $6\%$  coupon rate. The cash flows per  $\$100$ of par value would be 9 payments of  $\$3$ every six months and  $\$103$ ten 6-month periods from now. The traditional practice would discount every cash flow using the same discount rate regardless of when the cash flows are delivered in time and the shape of the yield curve. Finance theory tells us that any security should be thought of as a package or portfolio of zero-coupon bonds.
 
@@ -274,11 +305,11 @@ By viewing any security as a package of zero-coupon bonds, a consistent valuatio
 
 To implement the arbitrage-free approach it is necessary to determine the theoretical rate that the U.S. Treasury would have to pay on a zero-coupon Treasury security for each maturity. We say "theoretical" because other than U.S. Treasury bills, the Treasury does not issue zero-coupon bonds. Zero-coupon Treasuries are, however, created by dealer firms. The name given to the zero-coupon Treasury rate is the (Treasury) spot rate. Our next task is to explain how the Treasury spot rate can be calculated.
 
-# Theoretical Spot Rates
+## Theoretical Spot Rates
 
 The theoretical spot rates for Treasury securities represent the appropriate set of interest or discount rates that should be used to value default-free cash flows. A default-free theoretical spot rate can be constructed from the observed Treasury yield curve or par curve. We will begin our quest of how to estimate spot rates with the par curve.
 
-# Par Rates
+## Par Rates
 
 The raw material for all yield curve analysis is the set of yields on the most recently issued (that is, on-the-run) Treasury securities. The U.S. Treasury routinely issues 10 securities—the 1-month, 3-month, 6-month, and 1-year bills and the 2-, 3-, 5-, 7-, and 10-year notes, and a 30-year bond. These on-the-run Treasury issues are default risk-free and trade in one of the most liquid and efficient secondary markets in the world. Because of these characteristics, historically Treasury yields serve as a reference benchmark for risk-free rates which are used for pricing other securities. However, other benchmarks such as the swap curve are now used but the principles of valuation remain unchanged.
 
@@ -289,7 +320,7 @@ Deriving a par curve from a set of points starting with the yield on the 6-month
 
 In summary, a par rate is the average discount rate of many cash flows (those of a par bond) over many periods. This begs the question, "the average of what?" As we will see, par rates are complicated averages of the implied spot rates. Thus, in order to uncover the spot rates, we must find a method to "break apart" the par rates. There are several approaches that are used in practice. The approach that we describe below for creating a theoretical spot rate curve is called bootstrapping.
 
-# Bootstrapping the Spot Rate Curve
+## Bootstrapping the Spot Rate Curve
 
 Bootstrapping begins with the par curve. To illustrate bootstrapping, we will use the Treasury
 
@@ -317,7 +348,7 @@ Table 1. This security is a Treasury bill and is issued as a zero-coupon instrum
 The present value of the cash flows is then:
 
 $$
-\frac{1 . 7 5}{(1 + z_{1})^{1}} + \frac{1 . 7 5}{(1 + z_{2})^{2}} + \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}}
+\frac{1.75}{(1 + z_{1})^{1}} + \frac{1.75}{(1 + z_{2})^{2}} + \frac{101.75}{(1 + z_{3})^{3}}
 $$ where
 
 
@@ -327,13 +358,13 @@ $z_{3} =$  one-half the 1.5-year theoretical spot rate
 
 Since the 6-month spot rate is  $3\%$  and the 1-year spot rate is  $3.30\%$ , we know that:
 
-$$ z_{1} = 0. 0 1 5 0 \quad \text{an d} \quad z_{2} = 0. 0 1 6 5
+$$ z_{1} = 0.0150 \quad \text{and} \quad z_{2} = 0.0165
 $$
 
 We can compute the present value of the 1.5-year coupon Treasury security as:
 
 $$
-\begin{array}{l} \frac{1 . 7 5}{(1 + z_{1})^{1}} + \frac{1 . 7 5}{(1 + z_{2})^{2}} + \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}} = \frac{1 . 7 5}{(1 . 0 1 5)^{1}} \\ + \frac{1 . 7 5}{(1 . 0 1 6 5)^{2}} + \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}} \\ \end{array}
+\begin{array}{l} \frac{1.75}{(1 + z_{1})^{1}} + \frac{1.75}{(1 + z_{2})^{2}} + \frac{101.75}{(1 + z_{3})^{3}} = \frac{1.75}{(1.015)^{1}} \\ + \frac{1.75}{(1.0165)^{2}} + \frac{101.75}{(1 + z_{3})^{3}} \\ \end{array}
 $$
 
 Since the price of the 1.5-year coupon Treasury security is equal to its par value (see
@@ -341,7 +372,7 @@ Since the price of the 1.5-year coupon Treasury security is equal to its par val
 Table 1), the following relationship must hold
 
 $$
-\frac{1 . 7 5}{(1 . 0 1 5)^{1}} + \frac{1 . 7 5}{(1 . 0 1 6 5)^{2}} + \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}} = 1 0 0
+\frac{1.75}{(1.015)^{1}} + \frac{1.75}{(1.0165)^{2}} + \frac{101.75}{(1 + z_{3})^{3}} = 100
 $$
 
 If we had not been working with a par yield curve, the equation would have been set to the market price for the 1.5-year issue rather than par value.
@@ -351,7 +382,7 @@ Note we are treating the 1.5 year par bond as if it were a portfolio of three ze
 We can solve for the theoretical 1.5-year spot rate as follows:
 
 $$
-\begin{array}{l} 1. 7 2 4 1 + 1. 6 9 3 6 + \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}} = 1 0 0 \\ \frac{1 0 1 . 7 5}{(1 + z_{3})^{3}} = 9 6. 5 8 2 2 \\ (1 + z_{3})^{3} = \frac{1 0 1 . 7 5}{9 6 . 5 8 2 2} \\ (1 + z_{3})^{3} = 1. 0 5 3 5 1 \\ z_{3} = 0. 0 1 7 5 2 7 \\ = 1.7527 \% \\ \end{array}
+\begin{array}{l} 1.7241 + 1.6936 + \frac{101.75}{(1 + z_{3})^{3}} = 100 \\ \frac{101.75}{(1 + z_{3})^{3}} = 96.5822 \\ (1 + z_{3})^{3} = \frac{101.75}{96.5822} \\ (1 + z_{3})^{3} = 1.05351 \\ z_{3} = 0.017527 \\ = 1.7527\% \\ \end{array}
 $$
 
 Doubling this yield we obtain the bond-equivalent yield of  $3.5053\%$ , which is the theoretical 1.5-year spot rate. This is the rate that the market would apply to a 1.5-year zero-coupon Treasury security if, in fact, such a security existed. In other words, all Treasury cash flows to be received 1.5 years from now should be valued (that is, discounted) at  $3.5053\%$ .
@@ -366,31 +397,31 @@ Given the theoretical 1.5-year spot rate, we can obtain the theoretical 2-year s
 The present value of the cash flows is then:
 
 $$
-\frac{1 . 9 5}{(1 + z_{1})^{1}} + \frac{1 . 9 5}{(1 + z_{2})^{2}} + \frac{1 . 9 5}{(1 + z_{3})^{3}} + \frac{1 0 1 . 9 5}{(1 + z_{4})^{4}}
+\frac{1.95}{(1 + z_{1})^{1}} + \frac{1.95}{(1 + z_{2})^{2}} + \frac{1.95}{(1 + z_{3})^{3}} + \frac{101.95}{(1 + z_{4})^{4}}
 $$ where  $z_4 =$  one-half of the 2-year theoretical spot rate.
 
 
 Since the 6-month spot rate, 1-year spot rate, and 1.5-year spot rate are  $3.00\%$ ,  $3.30\%$ , and  $3.5053\%$ , respectively, then:
 
-$$ z_{1} = 0. 0 1 5 0 \quad z_{2} = 0. 0 1 6 5 \quad z_{3} = 0. 0 1 7 5 2 7
+$$ z_{1} = 0.0150 \quad z_{2} = 0.0165 \quad z_{3} = 0.017527
 $$
 
 Therefore, the present value of the 2-year coupon Treasury security is:
 
 $$
-\begin{array}{l} \frac{1 . 9 5}{(1 . 0 1 5 0)^{1}} + \frac{1 . 9 5}{(1 . 0 1 6 5)^{2}} + \frac{1 . 9 5}{(1 . 0 1 7 5 2 7)^{3}} \\ + \frac{1 0 1 . 9 5}{(1 + z_{4})^{4}} = 1 0 0 \\ \end{array}
+\begin{array}{l} \frac{1.95}{(1.0150)^{1}} + \frac{1.95}{(1.0165)^{2}} + \frac{1.95}{(1.017527)^{3}} \\ + \frac{101.95}{(1 + z_{4})^{4}} = 100 \\ \end{array}
 $$
 
 Since the price of the 2-year coupon Treasury security is equal to par, the following relationship must hold:
 
 $$
-\begin{array}{l} \frac{1 . 9 5}{(1 . 0 1 5 0)^{1}} + \frac{1 . 9 5}{(1 . 0 1 6 5)^{2}} + \frac{1 . 9 5}{(1 . 0 1 7 5 2 7)^{3}} \\ + \frac{1 0 1 . 9 5}{(1 + z_{4})^{4}} = 1 0 0 \\ \end{array}
+\begin{array}{l} \frac{1.95}{(1.0150)^{1}} + \frac{1.95}{(1.0165)^{2}} + \frac{1.95}{(1.017527)^{3}} \\ + \frac{101.95}{(1 + z_{4})^{4}} = 100 \\ \end{array}
 $$
 
 We can solve for the theoretical 2-year spot rate as follows:
 
 $$
-\begin{array}{l} \frac{1 0 1 . 9 5}{(1 + z_{4})^{4}} = 9 4. 3 4 0 7 \\ (1 + z_{4})^{4} = \frac{1 0 1 . 9 5}{9 4 . 3 4 0 7} \\ z_{4} = 0.019582 = 1.9582\% \\ \end{array}
+\begin{array}{l} \frac{101.95}{(1 + z_{4})^{4}} = 94.3407 \\ (1 + z_{4})^{4} = \frac{101.95}{94.3407} \\ z_{4} = 0.019582 = 1.9582\% \\ \end{array}
 $$
 
 Doubling this yield, we obtain the theoretical 2-year spot rate bond-equivalent yield of  $3.9164\%$ .
@@ -399,15 +430,15 @@ One can follow this approach sequentially to derive the theoretical 2.5-year spo
 
 Let us summarize to this point. We started with the par curve which is constructed using the adjusted yields from the on-the-run Treasuries. A par rate is the average discount rate of many cash flows over many periods. Specifically, par rates are complicated averages of spot rates. The spot rates are uncovered from par rates via bootstrapping. A spot rate is the average discount rate of a single cash flow over many periods. It appears that spot rates are also averages. Spot rates are averages of one or more forward rates.
 
-# Valuation Using Treasury Spot Rates
+## Valuation Using Treasury Spot Rates
 
 To illustrate how Treasury spot rates are used to compute the arbitrage-free value of a Treasury security, we will use the hypothetical Treasury spot rates shown in the fourth column of Table 2 to value an  $8\%$ , 10-year Treasury security. The present value of each period's cash flow is shown in the fifth column. The sum of the present values is the arbitrage-free value for the Treasury security. For the  $8\%$ , 10-year Treasury it is 107.0018.
 
-# Reason for Using Treasury Spot Rates
+## Reason for Using Treasury Spot Rates
 
 Thus far, we have simply asserted that the value of a Treasury security should be based on discounting each cash flow using the corresponding Treasury spot rate. But what if market participants value a security using just the yield for the on-the-run Treasury with a maturity equal to the maturity of the Treasury security being valued? Let's see why the value of a Treasury security should trade close to its arbitrage-free value.
 
-# Stripping and Arbitrage-Free Valuation
+## Stripping and Arbitrage-Free Valuation
 
 The key to the arbitrage-free valuation approach is the existence of the Treasury strips market. A dealer has the ability to take apart the cash flows of a Treasury coupon security (that is, strip the security) and create zero-coupon securities. These zero-coupon securities, called Treasury strips, can be sold to investors. At what interest rate or yield can these Treasury strips be sold to investors? They can be sold at the Treasury spot rates. If the market price of a Treasury security is less than its value using the arbitrage-free valuation approach, then a dealer can buy the Treasury security, strip it, and sell off the individual Treasury strips so as to generate greater proceeds than the cost of purchasing the Treasury security. The resulting profit is an arbitrage profit. Since as we will see, the value determined by using the Treasury spot rates does not allow for the generation of an arbitrage profit, this is referred to as an "arbitrage-free" approach.
 
@@ -429,7 +460,7 @@ When such situations occur, the dealer can purchase a package of Treasury strips
 
 The process of stripping and reconstituting ensures that the price of a Treasury issue will not depart materially (depending on transaction costs) from its arbitrage-free value.
 
-# Credit Spreads and the Valuation of Non-Treasury Securities
+## Credit Spreads and the Valuation of Non-Treasury Securities
 
 The Treasury spot rates can be used to value any default-free security. For a non-Treasury security, the theoretical value is not as easy to determine. The value of a non-Treasury security is found by discounting the cash flows by the Treasury spot rates plus a yield spread which reflects the additional risks (e.g., default risk, liquidity risks, the risk associated with any embedded options, and so on).
 

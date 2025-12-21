@@ -1,40 +1,37 @@
 ---
+title: "Reinforcement Learning"
+parent_directory: "Machine Learning"
+formatted: "2025-12-21 09:15:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- hybrid td algorithms
-- kernel classifiers
-- corticostriatal spike-timing-dependent plasticity
-- related ideas
-- eligibility trace version
-- 2.2 action-value methods
-- predicted returns
-- contents preface
-- reinforcement learning principles
+- reinforcement learning
+- markov decision processes
+- temporal difference learning
+- value functions
+- policy gradient methods
+- monte carlo methods
+- q-learning
+- dynamic programming
+- exploration exploitation
+- function approximation
 secondary_tags:
-- estimated transition probability
-- all such intermediate methods
-- all these action nodes
-- complex function approximators
-- learning processes
-- third machine learning paradigm
-- horizon tasks
-- classification tasks
-- deepmind's dqn
-- first action
-- reinforced behavior
-- careful reading
-- bias example
-- systems yearbook
-- larger behaving agent
-- digital simulation
-- improvement steps
-- associative, or contextual, bandit problems
-- rf algorithms
-- feature weights
-- early proponent
-- reward signal frames
-- numerous methods
-tags_extracted: '2025-12-18T17:55:54.162720'
-tags_method: max_quality_v1
+- trial and error learning
+- reward signals
+- optimal policies
+- sarsa algorithm
+- eligibility traces
+- actor critic methods
+- multi armed bandits
+- planning and learning
+- psychology of learning
+- neuroscience applications
+- game playing
+- robotics
+- autonomous agents
+- sequential decision making
+- stochastic optimization
+cssclasses: academia
 ---
 
 # Reinforcement Learning
@@ -293,15 +290,15 @@ $\overline{\mathrm{TD}}\overline{\mathrm{E}} (\mathbf{w})$  mean square temporal
 
 $\overline{\mathrm{RE}} (\mathbf{w})$  mean square return error (Section 11.6)
 
-# Chapter 1
+## Chapter 1
 
-# Introduction
+## Introduction
 
 The idea that we learn by interacting with our environment is probably the first to occur to us when we think about the nature of learning. When an infant plays, waves its arms, or looks about, it has no explicit teacher, but it does have a direct sensorimotor connection to its environment. Exercising this connection produces a wealth of information about cause and effect, about the consequences of actions, and about what to do in order to achieve goals. Throughout our lives, such interactions are undoubtedly a major source of knowledge about our environment and ourselves. Whether we are learning to drive a car or to hold a conversation, we are acutely aware of how our environment responds to what we do, and we seek to influence what happens through our behavior. Learning from interaction is a foundational idea underlying nearly all theories of learning and intelligence.
 
 In this book we explore a computational approach to learning from interaction. Rather than directly theorizing about how people or animals learn, we primarily explore idealized learning situations and evaluate the effectiveness of various learning methods. That is, we adopt the perspective of an artificial intelligence researcher or engineer. We explore designs for machines that are effective in solving learning problems of scientific or economic interest, evaluating the designs through mathematical analysis or computational experiments. The approach we explore, called reinforcement learning, is much more focused on goal-directed learning from interaction than are other approaches to machine learning.
 
-# 1.1 Reinforcement Learning
+### 1.1 Reinforcement Learning
 
 Reinforcement learning is learning what to do—how to map situations to actions—so as to maximize a numerical reward signal. The learner is not told which actions to take, but instead must discover which actions yield the most reward by trying them. In the most interesting and challenging cases, actions may affect not only the immediate reward but also the next situation and, through that, all subsequent rewards. These two characteristics—trial-and-error search and delayed reward—are the two most important distinguishing features of reinforcement learning.
 
@@ -327,7 +324,7 @@ One of the most exciting aspects of modern reinforcement learning is its substan
 
 Finally, reinforcement learning is also part of a larger trend in artificial intelligence back toward simple general principles. Since the late 1960s, many artificial intelligence researchers presumed that there are no general principles to be discovered, that intelligence is instead due to the possession of a vast number of special purpose tricks, procedures, and heuristics. It was sometimes said that if we could just get enough relevant facts into a machine, say one million, or one billion, then it would become intelligent. Methods based on general principles, such as search or learning, were characterized as "weak methods," whereas those based on specific knowledge were called "strong methods." This view is uncommon today. From our point of view, it was premature: too little effort had been put into the search for general principles to conclude that there were none. Modern artificial intelligence now includes much research looking for general principles of learning, search, and decision making. It is not clear how far back the pendulum will swing, but reinforcement learning research is certainly part of the swing back toward simpler and fewer general principles of artificial intelligence.
 
-# 1.2 Examples
+### 1.2 Examples
 
 A good way to understand reinforcement learning is to consider some of the examples and possible applications that have guided its development.
 
@@ -348,7 +345,7 @@ In all of these examples the agent can use its experience to improve its perform
 
 evolution—influences what is useful or easy to learn, but interaction with the environment is essential for adjusting behavior to exploit specific features of the task.
 
-# 1.3 Elements of Reinforcement Learning
+### 1.3 Elements of Reinforcement Learning
 
 Beyond the agent and the environment, one can identify four main subelements of a reinforcement learning system: a policy, a reward signal, a value function, and, optionally, a model of the environment.
 
@@ -364,7 +361,7 @@ the sequences of observations an agent makes over its entire lifetime. In fact, 
 
 The fourth and final element of some reinforcement learning systems is a model of the environment. This is something that mimics the behavior of the environment, or more generally, that allows inferences to be made about how the environment will behave. For example, given a state and action, the model might predict the resultant next state and next reward. Models are used for planning, by which we mean any way of deciding on a course of action by considering possible future situations before they are actually experienced. Methods for solving reinforcement learning problems that use models and planning are called model-based methods, as opposed to simpler model-free methods that are explicitly trial-and-error learners—viewed as almost the opposite of planning. In Chapter 8 we explore reinforcement learning systems that simultaneously learn by trial and error, learn a model of the environment, and use the model for planning. Modern reinforcement learning spans the spectrum from low-level, trial-and-error learning to high-level, deliberative planning.
 
-# 1.4 Limitations and Scope
+### 1.4 Limitations and Scope
 
 Reinforcement learning relies heavily on the concept of state—as input to the policy and value function, and as both input to and output from the model. Informally, we can think of the state as a signal conveying to the agent some sense of "how the environment is" at a particular time. The formal definition of state as we use it here is given by the framework of Markov decision processes presented in Chapter 3. More generally, however, we encourage the reader to follow the informal meaning and think of the state as whatever information is available to the agent about its environment. In effect, we assume that the state signal is produced by some preprocessing system that is nominally part of the agent's environment. We do not address the issues of constructing, changing, or learning the state signal in this book (other than briefly in Section 17.3). We take this approach not because we consider state representation to be unimportant, but in order to focus fully on the decision-making issues. In other words, our concern in this book is not with designing the state signal, but with deciding what action to take as a function of whatever state signal is available.
 
@@ -374,7 +371,7 @@ with skilled behavior even if they do not learn during their individual lifetime
 
 Our focus is on reinforcement learning methods that learn while interacting with the environment, which evolutionary methods do not do. Methods able to take advantage of the details of individual behavioral interactions can be much more efficient than evolutionary methods in many cases. Evolutionary methods ignore much of the useful structure of the reinforcement learning problem: they do not use the fact that the policy they are searching for is a function from states to actions; they do not notice which states an individual passes through during its lifetime, or which actions it selects. In some cases such information can be misleading (e.g., when states are misperceived), but more often it should enable more efficient search. Although evolution and learning share many features and naturally work together, we do not consider evolutionary methods by themselves to be especially well suited to reinforcement learning problems and, accordingly, we do not cover them in this book.
 
-# 1.5 An Extended Example: Tic-Tac-Toe
+### 1.5 An Extended Example: Tic-Tac-Toe
 
 To illustrate the general idea of reinforcement learning and contrast it with other approaches, we next consider a single example in more detail.
 
@@ -439,7 +436,7 @@ Exercise 1.4: Learning from Exploration Suppose learning updates occurred after 
 
 Exercise 1.5: Other Improvements Can you think of other ways to improve the reinforcement learning player? Can you think of any better way to solve the tic-tac-toe problem as posed?
 
-# 1.6 Summary
+### 1.6 Summary
 
 Reinforcement learning is a computational approach to understanding and automating goal-directed learning and decision making. It is distinguished from other computational approaches by its emphasis on learning by an agent from direct interaction with its environment, without requiring exemplary supervision or complete models of the environment. In our opinion, reinforcement learning is the first field to seriously address the computational issues that arise when learning from interaction with an environment in order to achieve long-term goals.
 
@@ -447,7 +444,7 @@ Reinforcement learning uses the formal framework of Markov decision processes to
 
 The concepts of value and value function are key to most of the reinforcement learning methods that we consider in this book. We take the position that value functions are important for efficient search in the space of policies. The use of value functions distinguishes reinforcement learning methods from evolutionary methods that search directly in policy space guided by evaluations of entire policies.
 
-# 1.7 Early History of Reinforcement Learning
+### 1.7 Early History of Reinforcement Learning
 
 The early history of reinforcement learning has two main threads, both long and rich, that were pursued independently before intertwining in modern reinforcement learning. One thread concerns learning by trial and error, and originated in the psychology of animal learning. This thread runs through some of the earliest work in artificial intelligence and led to the revival of reinforcement learning in the early 1980s. The second thread concerns the problem of optimal control and its solution using value functions and dynamic programming. For the most part, this thread did not involve learning. The two threads were mostly independent, but became interrelated to some extent around a
 
@@ -546,9 +543,9 @@ The next three chapters describe three fundamental classes of methods for solvin
 
 The remaining two chapters describe how these three classes of methods can be combined to obtain the best features of each of them. In one chapter we describe how the strengths of Monte Carlo methods can be combined with the strengths of temporal-difference methods via multi-step bootstrapping methods. In the final chapter of this part of the book we show how temporal-difference learning methods can be combined with model learning and planning methods (such as dynamic programming) for a complete and unified solution to the tabular reinforcement learning problem.
 
-# Chapter 2
+## Chapter 2
 
-# Multi-armed Bandits
+## Multi-armed Bandits
 
 The most important feature distinguishing reinforcement learning from other types of learning is that it uses training information that evaluates the actions taken rather than instructs by giving correct actions. This is what creates the need for active exploration, for an explicit search for good behavior. Purely evaluative feedback indicates how good the action taken was, but not whether it was the best or the worst action possible. Purely instructive feedback, on the other hand, indicates the correct action to take, independently of the action actually taken. This kind of feedback is the basis of supervised learning, which includes large parts of pattern classification, artificial neural networks, and system identification. In their pure forms, these two kinds of feedback are quite distinct: evaluative feedback depends entirely on the action taken, whereas instructive feedback is independent of the action taken.
 

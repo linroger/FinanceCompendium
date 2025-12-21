@@ -1,30 +1,31 @@
 ---
-aliases:
-- Universal Basic Income Primer
-tags: null
-key_concepts: null
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
-cssclasses: academia
 title: Primer on Universal Basic Income
-linter-yaml-title-alias: Primer on Universal Basic Income
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
+formatted: 2025-12-21 09:15:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
 primary_tags:
-- receipt life ubi isn
-- basic income ubi general
-secondary_tags:
 - universal basic income
-- unconditional cash transfers mean
-- ubi income earned
-- implement ubi united states
-tags_extracted: '2025-12-18T00:04:42.149670'
+- unconditional cash transfers
+- basic income policy
+- economic inequality reduction
+secondary_tags:
+- income redistribution mechanisms
+- welfare state reform
+- automation economic impact
+- poverty alleviation programs
+- social safety nets
+- cash transfer experiments
+cssclasses: academia
 ---
 
 # Primer on Universal Basic Income
 
 What is Universal Basic Income (UBI)? In general, UBI is a type of cash transfer that is:
 
-Universal: every citizen receives the transfer regardless of employment status or income.  
-o Unconditional: recipients have no restrictions on how they can spend the cash.  
-Basic: the amount will cover "basic needs" and will constitute a "living wage."  
+Universal: every citizen receives the transfer regardless of employment status or income.
+- Unconditional: recipients have no restrictions on how they can spend the cash.
+- Basic: the amount will cover "basic needs" and will constitute a "living wage."  
 Long-Term: the cash transfers will last for the long term, e.g. entirety of the receipt's life.
 
 UBI isn't an especially new idea; even Thomas Paine was an advocate. The idea gained traction and elicited debate in late 1960s (especially during the Nixon administration), but never really gained a foothold.
@@ -33,7 +34,7 @@ Where is UBI Receiving Policy Interest? Cities in Canada, Finland, the Netherlan
 
 Who are Prominent Supporters? Prominent supporters include Mark Zuckerberg, Elon Musk and Nobel winning economist Angus Deaton.<sup>vi</sup> Warren Buffet supports a related program, the negative income tax, originally popularized by Milton Friedman.<sup>vii</sup>
 
-# What are the Chief Points of Contention?
+## What are the Chief Points of Contention?
 
 Proponents argue that UBI will reduce inequality, direct money to where it is needed most because the person with the need is the best decision maker, avoid the bad incentives created by traditional welfare programs, distribute more money because the administrative overhead costs are less, encourage dynamism and risk taking in the economy, and offer an additional safety net for those who are seeing downward wage pressure from automation/globalization.
 
@@ -45,9 +46,7 @@ As UBI has never been implemented (unless you count the extremely generous payme
 
 We do, however, have the results from numerous experiments looking at the impact of unconditional direct cash transfers to poor households (i.e. no-strings transfers to cover basic needs for a period, but that weren't universal or long term), both in the developed and developing world. These include five experiments in the US and Canada conducted in the 1970s, as well as over 50 experiments in the developing world. Findings from these studies are regularly employed in debates on UBI.
 
-These studies show an improvement in recipient economic conditions and wellbeing, a modest decrease in work effort, and a tendency for recipients to spend the transfers productively. However, the usefulness of most of these studies is limited by the fact that the transfers ended after a short time period (2-3 years) and were only awarded to very poor households (not universal) – the studies were structured this way because they were more focused on testing unconditional cash transfers, rather than something closer to UBI. And the richest
-
-data comes from the developing world, so it is not clear how much can be extrapolated from the behavior of transfer recipients previously earning less than \$1.5 a day with citizens living in more prosperous economies.
+These studies show an improvement in recipient economic conditions and wellbeing, a modest decrease in work effort, and a tendency for recipients to spend the transfers productively. However, the usefulness of most of these studies is limited by the fact that the transfers ended after a short time period (2-3 years) and were only awarded to very poor households (not universal) – the studies were structured this way because they were more focused on testing unconditional cash transfers, rather than something closer to UBI. And the richest data comes from the developing world, so it is not clear how much can be extrapolated from the behavior of transfer recipients previously earning less than $1.5 a day with citizens living in more prosperous economies.
 
 Previous studies conducted on unconditional cash transfers and their differences to an ideal universal basic income experiment:
 
@@ -61,21 +60,21 @@ To further flesh out what the studies $^{xii}$  found:
 
 # Developed World Studies
 
-Positive effects on economic and general wellbeing. Treated households enjoyed better physical and mental health, educational performance, and homeownership rates.  
-○ A modest reduction in work effort. Primary earners worked about  $5 - 10\%$  less and were unemployed for longer stretches of time. The reduction in working hours was much larger for secondary and tertiary earners  $(15 - 30\%)$ , who devoted more time to child care and education.
+Positive effects on economic and general wellbeing. Treated households enjoyed better physical and mental health, educational performance, and homeownership rates.
+- A modest reduction in work effort. Primary earners worked about $5-10\%$ less and were unemployed for longer stretches of time. The reduction in working hours was much larger for secondary and tertiary earners $(15-30\%)$, who devoted more time to child care and education.
 
 # Developing World Studies
 
-o No decline, or an increase, in hours worked, greater employment participation, and improved employment outcomes. In the cases where hours worked declined, the attribution showed the reduction to be mainly in the elderly and dependents.  
-An increase in savings and investment, with recipient households investing a portion of the proceeds in income generating goods (livestock, agricultural productive assets etc.). Some studies also found that incomes after the transfers had ceased were higher than when they began.  
-No noticeable increase, and frequently a decline, in consumption towards "temptation goods" (e.g. alcohol, tobacco).  
-○ A general improvement in health, education, and female empowerment indicators, as well as a notable decline in child labor.
+- No decline, or an increase, in hours worked, greater employment participation, and improved employment outcomes. In the cases where hours worked declined, the attribution showed the reduction to be mainly in the elderly and dependents.
+- An increase in savings and investment, with recipient households investing a portion of the proceeds in income generating goods (livestock, agricultural productive assets etc.). Some studies also found that incomes after the transfers had ceased were higher than when they began.
+- No noticeable increase, and frequently a decline, in consumption towards "temptation goods" (e.g. alcohol, tobacco).
+- A general improvement in health, education, and female empowerment indicators, as well as a notable decline in child labor.
 
 # What would UBI cost if implemented in the US?
 
-Below we take a rough cut at estimating how much it would cost to implement UBI in the United States. We first look at what it would cost to pay every American citizen the current poverty threshold ( \$12,000 a year - an amount less than half what the Swiss proposed implementing in 2016). This would end up costing\$ 3.8 trillion (or  $21\%$  of GDP and  $78\%$  of all tax revenues and contributions for government social insurance).
+Below we take a rough cut at estimating how much it would cost to implement UBI in the United States. We first look at what it would cost to pay every American citizen the current poverty threshold ( \$12,000 a year - an amount less than half what the Swiss proposed implementing in 2016). This would end up costing $3.8 trillion (or $21\%$ of GDP and $78\%$ of all tax revenues and contributions for government social insurance).
 
-We next look at how much of this expenditure could be funded through scrapping existing social programs and replacing them with a UBI (as some proponents argue). We first imagine the highly unlikely scenario in which all social spending (excluding infrastructure spending and education, but includes almost all other government transfers to households including healthcare) is scrapped. This would free up about  $\sim 92\%$  of the funds needed to implement UBI. We subsequently imagine that only income support programs (disability, retirement & social security, welfare, and unemployment benefits) are axed. This would yield  $\sim 37\%$  of the required funding. Finally, excluding social security, retirement and disability from the list of replaceable programs leaves only  $11\%$  of the costs for a UBI of \$12,000 covered through replacing existing components of the welfare state.
+We next look at how much of this expenditure could be funded through scrapping existing social programs and replacing them with a UBI (as some proponents argue). We first imagine the highly unlikely scenario in which all social spending (excluding infrastructure spending and education, but includes almost all other government transfers to households including healthcare) is scrapped. This would free up about $\sim92\%$ of the funds needed to implement UBI. We subsequently imagine that only income support programs (disability, retirement & social security, welfare, and unemployment benefits) are axed. This would yield $\sim37\%$ of the required funding. Finally, excluding social security, retirement and disability from the list of replaceable programs leaves only $11\%$ of the costs for a UBI of $12,000 covered through replacing existing components of the welfare state.
 
 Finally, we imagine two scenarios in which the payouts of UBI are reduced depending on the income level of the receipt. For instance, in the first scenario, every  $of income earned will reduce UBI by 10 cents, meaning that if you make\$ 120,000 you will not receive a basic income, and if you make \$60,000 you will receive only half (i.e. \$6000). While this is technically not a Universal Basic Income, it may offer a compromise solution between securing the underlying goals of UBI and the constraints/concerns surrounding financing it. As you can see below, this reduces the cost of implementing UBI significantly. However, even using a steep slope, existing income support programs will fall short of fully financing UBI - and additional revenues will likely need to be raised.
 
@@ -99,10 +98,8 @@ Other than to provide every citizen in an economy with an income to meet basic n
 Directing Money to Where it is Needed Most: Traditional welfare transfers typically come with restrictions as to how the money can be spent (e.g. foods stamps). This means that administrators and policy makers end up having to make choices for individuals as to where income support would be most impactful in their lives and apply such direction across the board, with limited ability to tailor to individual circumstances. In contrast, UBI empowers the individual to decide how best to use the income transfer given their particular circumstances and needs.  
 - Minimizing Bad Incentives: UBI offers better incentives than more traditional welfare policies. Unlike unemployment benefits or income support, there is no disincentive against seeking better paying employment (as UBI will not be cut off as income rises – see appendix 1 for an illustration). Unlike the minimum wage, UBI should not make a set of workers prohibitively expensive for employers.  
 Supporting Economic Dynamism: UBI could support economic dynamism and innovation through encouraging people to take more risks, lowering the entry costs for entrepreneurship/accessing productivity enhancing skills, and encouraging workers to take the time to seek work better suited to their interests, aptitudes, and sense of fulfillment.  
-○ Distribute More Money By Reducing Administrative & Overhead Costs: UBI is also seen as a means to reduce/replace the large, bureaucratic, and inefficient welfare state with a simpler, more efficient, and less politically controversial safety net. This will reduce administrative and overhead costs, meaning that more money is actually distributed to those who need it as a percent of the welfare budget.  
-Protecting against Technological and Economic Disruption: UBI can assure many people a living wage as automation, artificial intelligence, and globalization puts downward pressure on wages. UBI would
-
-also provide greater economic freedom for dislocated workers, allowing them to invest in building new skills, rather than having to seek immediate (and likely lower paying) employment. Relatedly…
+- Distribute More Money By Reducing Administrative & Overhead Costs: UBI is also seen as a means to reduce/replace the large, bureaucratic, and inefficient welfare state with a simpler, more efficient, and less politically controversial safety net. This will reduce administrative and overhead costs, meaning that more money is actually distributed to those who need it as a percent of the welfare budget.  
+Protecting against Technological and Economic Disruption: UBI can assure many people a living wage as automation, artificial intelligence, and globalization puts downward pressure on wages. UBI would also provide greater economic freedom for dislocated workers, allowing them to invest in building new skills, rather than having to seek immediate (and likely lower paying) employment. Relatedly…
 
 Combating the Rise of Anti-Establishment and Populist Politics: The threat of anti-establishment politics has led some to advocate for UBI as a means of updating capitalism and sharing its spoils more equitably.  
 Compensating for Unpaid Work: Many socially valuable roles are not formally compensated in a market economy (e.g. raising a child) and are predominantly performed by women. UBI is seen as a means to begin to recognize, in monetary form, such roles, and rectify resulting imbalances in power, especially in the third world.  
@@ -111,7 +108,7 @@ Compensating for Unpaid Work: Many socially valuable roles are not formally comp
 Aside from philosophical arguments opposing redistribution or contesting any inherent right to a fixed income, opponents argue that UBI will hurt in:
 
 o Being Prohibitively Expensive: Opponents argue that implementing any meaningful universal basic income will be prohibitively expensive and unsustainable. For instance, the Swiss proposal of awarding each citizen about \$2700 a month would cost about 25% of GDP.<sup>xvi</sup> Critics further argue that the tax hikes necessary to adequately fund UBI will likely be a significant drag on growth. We go through some numbers for the US above.  
-$\mathrm{O}$  Reducing Work Ethic: Conservative critics argue that UBI will significantly reduce incentives to work and encourage people to work fewer hours and have longer stints in unemployment.  
+- Reducing Work Ethic: Conservative critics argue that UBI will significantly reduce incentives to work and encourage people to work fewer hours and have longer stints in unemployment.  
 
 - Redistributing Money Away From Those Who Need It Most: Depending on how it's done, UBI might act as a net transfer away from people currently on welfare receipts to those who already have jobs. While raising taxes to pay for UBI will likely lead to a net transfer away from the wealthiest, it might simultaneously reduce support to those who need it most.  
 - Redistributing Money Away from Providing What is Most Needed to Bad or Less Good Usage Unconditional cash transfers would mean that policy makers cannot try to ensure that the money provided is spent towards providing essentials (e.g. food stamps, social spending) versus less impactful or even harmful uses (e.g. people spending the transfers on "temptation goods" such as alcohol and tobacco).  

@@ -27,6 +27,70 @@ cssclasses: academia
 
 Leveraged buyouts (LBOs) are characterized by a high degree of debt ("leverage"). Exhibit 1 and Exhibit 2 show that over the past decade LBO debt was between  $50 - 70\%$  of total funding sources, and debt-to-EBITDA was between  $3.2x - 6.3x$ .
 
+```d2
+direction: down
+
+Common Equity: Common Equity {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+Preferred Equity: Preferred Equity {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+}
+
+Mezzanine Debt: Mezzanine Debt {
+  shape: rectangle
+  style.fill: "#fff8e1"
+  style.stroke: "#ffc107"
+}
+
+High-Yield Bonds: High-Yield Bonds {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+}
+
+Junior Debt: Junior Debt {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+}
+
+Institutional Tranche: Institutional Tranche {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+}
+
+Pro-Rata Tranche: Pro-Rata Tranche {
+  shape: rectangle
+  style.fill: "#e8eaf6"
+  style.stroke: "#3f51b5"
+}
+
+Senior Secured Debt: Senior Secured Debt
+
+Senior Secured Debt -> Institutional Tranche
+Senior Secured Debt -> Pro-Rata Tranche
+Junior Debt -> High-Yield Bonds
+Junior Debt -> Mezzanine Debt
+Common Equity -> Preferred Equity
+
+note: LBO Capital Structure Layers {
+  shape: page
+  style.fill: "#f5f5f5"
+  content: |
+    **Priority Order (Senior to Junior):**
+    1. Senior Secured Debt
+    2. Junior Debt
+    3. Equity
+}
+```
+
 The specifics of each capital structure vary case by case; however, in any given year, there is a great deal of similarity in the buyouts capital structure. These similarities exist because debt structure is mainly determined by the deal size and market conditions.<sup>a</sup> While smaller buyouts typically have simple capital structures and are primarily funded by banks, larger amounts of debt are typically financed by pooling multiple sources of institutional capital. (Exhibit 3 summarizes the mapping between sources of capital and the layers of capital structure.)
 
 This note focuses on the debt structure of larger buyouts at the deal closing. However, apart from debt, every LBO includes common equity and often equity-like facilities such as preferred equity. Equity holds the most junior position in the capital structure and has the residual claim on all of the firm's cash flows.
@@ -57,7 +121,7 @@ A leveraged loan package can contain several facilities. As with capital structu
 
 #### 2.1 Pro-rata Tranche
 
-The "pro-rata" tranche is comprised of facilities syndicated primarily to banks. This typically includes a revolving credit facility (RCF) and an amortizing term loan (TLa). A term loan is an installment loan, drawn at issuance for a specific purpose and canceled once it is repaid. An RCF acts like a corporate credit carda company can draw down on its RCF and pay back multiple times based on its needs up until the maturity of the line.  ${}^{f}$  RCF borrowers are charged a commitment fee for amounts not drawn down with the spread on the drawn portion of the line matching the spread on a TLa.  ${}^{g}$  Whereas term loan facilities are the core part of the financing of the buyout, RCFs are often used for working capital and periodic capital expenditure needs.
+The "pro-rata" tranche is comprised of facilities syndicated primarily to banks. This typically includes a revolving credit facility (RCF) and an amortizing term loan (TLa). A term loan is an installment loan, drawn at issuance for a specific purpose and canceled once it is repaid. An RCF acts like a corporate credit carda company can draw down on its RCF and pay back multiple times based on its needs up until the maturity of the line.<sup>f</sup> RCF borrowers are charged a commitment fee for amounts not drawn down with the spread on the drawn portion of the line matching the spread on a TLa.<sup>g</sup> Whereas term loan facilities are the core part of the financing of the buyout, RCFs are often used for working capital and periodic capital expenditure needs.
 
 Pricing of the pro-rata tranche factors in the broader customer relationship and the associated revenue stream. According to Ivashina and Kovner (2011), LBO firms' repeated interactions with banks create the opportunity to reduce the borrowing costs and improve the contractual terms more broadly. LBO firms that are roughly in the top  $15\%$  of the bank's repeat clients with cross-selling potential have over 17 basis point lower spread and 0.38 point higher maximum debt-to-EBITDA. From the private equity prospective, this could translate to a potential increase in equity returns of  $4\%$  to  $9\%$  (on a non-risk adjusted basis).<sup>h</sup>
 
@@ -97,7 +161,7 @@ As indicated in Exhibit 3, mezzanine was usually provided by one investor, often
 
 important type of a mezzanine financing that emerged was the "unitranche debt". Unitranche is an instrument with blended characteristics of a senior term loan and junior debt. It is meant to serve as a one-size-fits-all-investors solution, replacing both senior debt and junior debt with one instrument.
 
-Pricing of mezzanine is commonly based on a floating base rate, plus spread basis. Regularly, the cash-interest component of mezzanine is supplemented with a PIK component. $^{\mathrm{m}}$  Additionally, the terms of mezzanine debt can be sweetened with warrants, allowing the mezzanine investors to co-share in a possible equity upside of the private equity investor.
+Pricing of mezzanine is commonly based on a floating base rate, plus spread basis. Regularly, the cash-interest component of mezzanine is supplemented with a PIK component.<sup>m</sup> Additionally, the terms of mezzanine debt can be sweetened with warrants, allowing the mezzanine investors to co-share in a possible equity upside of the private equity investor.
 
 ## Geographic Differences: U.S. versus Europe
 
@@ -152,7 +216,7 @@ Source: Bank of America Merrill Lynch and Federal Reserve Bank of St. Louis.
 ## Appendix: Glossary of Often-used LBO Capital Structure Terms
 
 - Amend and Extend (A&E): Is a loan amendment that allows a company to extend its debt maturities, typically in exchange for a fee and an increase in spread. This type of amendment became popular in 2009.  
-- Club Deal: This is a smaller syndicated loan, which is only distributed among a group of relationship lenders, usually banks. Club Deals are common forms of financing for debt facilities of  $50-$ 150 million (maximum of up to \$300 million) in the U.S. and in Europe.  
+- Club Deal: This is a smaller syndicated loan, which is only distributed among a group of relationship lenders, usually banks. Club Deals are common forms of financing for debt facilities of $50-$150 million (maximum of up to \$300 million) in the U.S. and in Europe.  
 Collateralized loan obligations (Close): Close are special-purpose vehicles which are set up to hold and manage pools of leveraged loans.  
 - Market Flex: Depending on the investor demand, loan spread can be adjusted ("flexed") in the process of the loan syndication within specified limits. When the demand is lower than expected, more investors can be enticed to invest in the credit if spreads are increased or "flexed up". If the loan is oversubscribed, the spread would be automatically "flexed down".  
 - Staple Financing: This is a pre-arranged financing package added ("stapled") to an acquisition target. Typically the M&A advisor of the selling party offers the staple financing to the bidders in an acquisition. Staple financing ensures that the bidders have the financial capacity to complete the deal. It also provides indications for the leverage and pricing terms. Finally, staple financing also allows the M&A advisors to "double dip" in both advisory fees to the seller and lending fees to the buyer.  

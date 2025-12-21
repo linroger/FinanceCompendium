@@ -1,4 +1,32 @@
 
+---
+title: "Short-Rate Term Structure Models"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume III/Term Structure Modeling"
+formatted: "2025-12-21 09:15:00 AM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli_tool: "claude-code"
+primary_tags:
+  - short rate models
+  - term structure modeling
+  - interest rate derivatives
+  - stochastic rate processes
+secondary_tags:
+  - hull white model
+  - cox ingersoll ross
+  - arbitrage free pricing
+  - calibration methods
+  - multifactor models
+  - affine term structure
+  - jump diffusion models
+  - volatility skew
+  - swaption pricing
+  - zero coupon bonds
+  - forward rate agreements
+  - bond option valuation
+  - risk neutral pricing
+cssclasses: academia
+---
+
 # Short-Rate Term Structure Models
 
 ALEXANDER LEVIN, PhD
@@ -11,7 +39,7 @@ This entry introduces a family of models for stochastic behavior of interest rat
 
 # THE CONCEPT OF SHORT-RATE MODELING
 
-Why do we call interest rate models termstructure models? Aren't there too many rates for one model? The tree-based valuation ex amples found in many books and research papers show us that we can value an any-maturity bond and thereby reconstruct the entire term structure using only dynamics of one-period rate (see, for example, Davidson et al., 2003 [Chapter 12], and Fabozzi, 1994). Interest rate models operating with the short (one-period) rate  $r(t)$  as their main object are commonly referred to as "short-rate models." They are different by construction from so-called "forward rate models," such as the Heath-Jarrow-Morton model (Heath, Jarrow,
+Why do we call interest rate models termstructure models? Aren't there too many rates for one model? The tree-based valuation examples found in many books and research papers show us that we can value an any-maturity bond and thereby reconstruct the entire term structure using only dynamics of one-period rate (see, for example, Davidson et al., 2003 [Chapter 12], and Fabozzi, 1994). Interest rate models operating with the short (one-period) rate  $r(t)$  as their main object are commonly referred to as "short-rate models." They are different by construction from so-called "forward rate models," such as the Heath-Jarrow-Morton model (Heath, Jarrow,
 
 
 and Morton, 1992) or the Brace-Gatarek-Musiela model (Brace, Gatarek, and Musiela, 1997). Both types of interest rate modeling are designed to solve the same problems and are widely used for valuation of fixed income options and embedded option bonds, but operate with different objects. Unlike the short-rate modeling family, forward rate models employ and randomly evolve the entire forward curve of the short rate,  $f(t,T)$ , in which the  $t$  is time and  $T$  is the forward time, to which the short rate applies.
@@ -20,25 +48,48 @@ We restrict our attention solely to the short-rate modeling. This term does not 
 
 # The Arbitrage-Free Integrate Relationship
 
-Let us assume that we have a stochastic process, possibly multifactor, describing the short rate dynamics  $r(t)$ . Let us denote  $P_{T}(t)$  to be the market price observed at time  $t$  of a  $T$ -maturity zero-coupon bond; that is, a bond paying $1 at  $t + T$ . This price is exponential to the yield to maturity ("rate")  $r_{T}(t)$  of this bond:  $P_{T}(t) = \exp[-r_{T}(t)T]$ . However, we can use the arbitrage argument claiming that, once prices of instruments reflect rate expectations and risks, there should exist no advantage or disadvantage in investing in the zero-coupon bond over continuous reinvesting into the short rate. Hence, the same price should be equal to
+Let us assume that we have a stochastic process, possibly multifactor, describing the short rate dynamics  $r(t)$ . Let us denote  $P_{T}(t)$  to be the market price observed at time  $t$  of a  $T$ -maturity zero-coupon bond; that is, a bond paying $1 at $t + T$ . This price is exponential to the yield to maturity ("rate")  $r_{T}(t)$  of this bond:  $P_{T}(t) = \exp[-r_{T}(t)T]$ . However, we can use the arbitrage argument claiming that, once prices of instruments reflect rate expectations and risks, there should exist no advantage or disadvantage in investing in the zero-coupon bond over continuous reinvesting into the short rate. Hence, the same price should be equal to
 
 $$
 P_{T} (t) = E \left[ \exp \left[ - \int_{t}^{t + T} r (\tau) d \tau \right] \right]
 $$ where  $E$  denotes the arbitrage-free expectation.
 
-
 Equating these two expressions, we get
 
-$$ r_{T} (t) = - \frac{1}{T} L n E \left[ \exp \left[ - \int_{t}^{t + T} r (\tau) d \tau \right] \right] \tag {1}
+$$ r_{T} (t) = - \frac{1}{T} \ln E \left[ \exp \left[ - \int_{t}^{t + T} r (\tau) d \tau \right] \right] \tag {1}
 $$
 
 Formula (1) allows us to compute any-maturity zero-coupon rates via some expectation involving random behavior of the short rate. Of course, once we establish the entire zero-coupon curve, we can restore a yield for any other bond including a coupon-paying one. To compute the expectation in (1), we must know two things: stochastic equation (or equations) for  $r(\tau)$  and initial (time  $t$ ) conditions. The latter represents public information about the market at time  $t$  and includes every factor affecting the short rate. Therefore, it would be correct to state that an any-maturity rate can be recovered using only factors that determine the evolution of the short rate. In particular, if only one Brownian motion drives the short rate dynamics, it will define the entire yield curve as well.
+
+```d2
+direction: right
+
+Short Rate Process: Short Rate $r(t)$ {
+  shape: circle
+  style.fill: "#e3f2fd"
+}
+
+Yield Curve: Entire Yield Curve {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+}
+
+Short Rate Process -> Yield Curve: Determines via arbitrage-free expectation
+
+note: |md
+  **Arbitrage-Free Relationship:**
+  - Short rate process $r(t)$ drives all maturities
+  - Single stochastic factor → entire term structure
+  - Calibration ensures market consistency
+|
+```
+
 
 # Consistency with the Initial Yield Curve
 
 Let us apply the interrate relationship (1) to the initial point of time,  $t = 0$ :
 
-$$ r_{T} (0) = - \frac{1}{T} L n E \left[ \exp \left[ - \int_{0}^{T} r (\tau) d \tau \right] \right] \tag {2}
+$$ r_{T} (0) = - \frac{1}{T} \ln E \left[ \exp \left[ - \int_{0}^{T} r (\tau) d \tau \right] \right] \tag {2}
 $$
 
 The left-hand side of this formula is known from today's term structure of interest rates. Hence, the short rate dynamics  $r(t)$  must be such as to ensure (2) holds. In practical terms, adjusting a rate process to fit the initial yield curve is part of a more general task often termed "calibration." Without this necessary step, an interest rate model can't be used to value even simple, option-free bonds. Computation of expectation in formulas (1) and (2) can be done numerically or, in some models, analytically.
@@ -52,11 +103,11 @@ $$ o p t i o n = E \left[ g [ r (t) ] \exp \left[ - \int_{0}^{t} r (\tau) d \tau
 $$ where  $E$  denotes the same expectation as before.
 
 
-We may now demand that the short rate process  $r(t)$  produces options values (3) that match market prices. Most commonly, term structure models are calibrated to LIBOR caps, or European options on swaps (swaptions), or both. These are standard, widely traded European options. For example, a call option on a  $T$ -maturity swap will generate cash flow equal to  $g[r(t)] = A_T(t)[K - c_T(t)]^+$  where  $A$  denotes annuity,  $c$  denotes the swap rate, both measured at  $t$ , and superscript "+" indicates that only a positive value is taken. Another standard derivative is the LIBOR cap made of "caplets," that is, European calls on some relatively short rate. A  $T$ -maturity LIBOR caplet ( $T = 3$  months for standard caps) expiring at  $t$  pays  $[r_T(t) - K]^+$  at  $t + T$ . To recognize the time difference  $T$  between the caplet's expiry and the actual pay, we can move the payoff from  $t + T$  to  $t$  and express it as  $g[r(t)] = [r_T(t) - K]^+ / (1 + Tr_T(t)]$ . We then have to make sure that formula (3) yields correct values for the caplets. Note that the cap market does not usually quote caplets directly; however, their values can be assessed by bootstrapping.
+We may now demand that the short rate process  $r(t)$  produces options values (3) that match market prices. Most commonly, term structure models are calibrated to LIBOR caps, or European options on swaps (swaptions), or both. These are standard, widely traded European options. For example, a call option on a  $T$ -maturity swap will generate cash flow equal to  $g[r(t)] = A_T(t)[K - c_T(t)]^+$  where  $A$  denotes annuity,  $c$  denotes the swap rate, both measured at  $t$ , and superscript "+" indicates that only a positive value is taken. Another standard derivative is the LIBOR cap made of "caplets," that is, European calls on some relatively short rate. A  $T$ -maturity LIBOR caplet ( $T = 3$  months for standard caps) expiring at  $t$  pays  $[r_T(t) - K]^+$  at  $t + T$ . To recognize the time difference  $T$  between the caplet's expiry and the actual pay, we can move the payoff from  $t + T$  to  $t$  and express it as  $g[r(t)] = [r_T(t) - K]^+ / (1 + T r_T(t))$ . We then have to make sure that formula (3) yields correct values for the caplets. Note that the cap market does not usually quote caplets directly; however, their values can be assessed by bootstrapping.
 
-# SINGLE-FACTORSHORT-RATE MODELS
+# SINGLE-FACTOR SHORT-RATE MODELS
 
-In the this section, we describe several different single-factor models, which employ the short rate as the only factor. We also give some evidence on the relative performance of the models. For each of the models, we emphasize three key aspects: the model's formulation, its arbitrage-free calibration, and the interrate relationship that recovers the entire term structure contingent on the dynamics of the short rate.
+In this section, we describe several different single-factor models, which employ the short rate as the only factor. We also give some evidence on the relative performance of the models. For each of the models, we emphasize three key aspects: the model's formulation, its arbitrage-free calibration, and the interrate relationship that recovers the entire term structure contingent on the dynamics of the short rate.
 
 
 # The Hull-White/Vasicek Model
@@ -97,8 +148,7 @@ $$
 
 The function  $B_{T}$  of maturity  $T$  plays an important role in the HW model. It helps, for example, to link the short-rate volatility to the long-rate one and explicitly calibrate it to the market. If  $a = 0$ , this function becomes identical to 1, regardless the maturity  $T$ . This important special case allows for a pure parallel change in the entire curve (every point moves by the same amount). This particular specification can be suitable for standardized risk measurement tests.
 
-The HW model is a very tractable arbitrage-free model, which allows for the use of analytical solutions as well as Monte Carlo simulation. The volatility  $\sigma$  and mean reversion  $a$  can be analytically calibrated to European options on zero-coupon bonds. Most commonly, the HW model is calibrated to either a set of short-rate options (LIBOR caps) or swaptions. In the later case, very good approximations can be constructed (see Levin, 2001; Musiela and Rutkowski, 2000). The model's chief drawback is that it produces negative interest rates. However, with mean reversion, the effect of negative rates is reduced. The rate history of the 1990s and 2000s supports this type of formulation of a term structure model.
-
+The HW model is a very tractable arbitrage-free model, which allows for the use of analytical solutions as well as Monte Carlo simulation. The volatility  $\sigma$  and mean reversion  $a$  can be analytically calibrated to European options on zero-coupon bonds. Most commonly, the HW model is calibrated to either a set of short-rate options (LIBOR caps) or swaptions. In the latter case, very good approximations can be constructed (see Levin, 2001; Musiela and Rutkowski, 2000). The model's chief drawback is that it produces negative interest rates. However, with mean reversion, the effect of negative rates is reduced. The rate history of the 1990s and 2000s supports this type of formulation of a term structure model.
 
 # The Cox-Ingersoll-Ross Model
 
@@ -113,13 +163,11 @@ $$
 \frac{d b (t , T)}{d t} = a (t) b (t, T) - \frac{1}{2} \sigma^{2} (t) b^{2} (t, T) + 1 \tag {10}
 $$ subject to terminal condition  $b(T,T) = 0$ .
 
-
-If the mean reversion  $a$  and "CIR volatility"  $\sigma$  are constant (the "original CIR"), equation (10) allows for an explicit solution. In this case,  $b(t,T)$  is a function of  $T - t$  only, and  $B_{T}$  is appeared to be time-independent:
+If the mean reversion  $a$  and "CIR volatility"  $\sigma$  are constant (the "original CIR"), equation (10) allows for an explicit solution. In this case,  $b(t,T)$  is a function of  $T - t$  only, and  $B_{T}$  is proven to be time-independent:
 
 $$
 B_{T} = \frac{2 \left(e^{\gamma T} - 1\right)}{\left(\gamma T + a T\right) \left(e^{\gamma T} - 1\right) + 2 \gamma T} \tag {11}
 $$ where  $\gamma = \sqrt{a^2 + 2\sigma^2}$
-
 
 Without a mean reversion, this formula reduces to a more concise
 
@@ -156,8 +204,7 @@ $$
 \begin{array}{l} d r = \left[ 2 R^{\prime} \sqrt{r} - 2 a (r - R \sqrt{r}) + \sigma^{2} \right] d t \\ + 2 \sigma \sqrt{r} d z \tag {14} \\ \end{array}
 $$ where  $R'$  stands for  $dR / dt$ . The SqG model has an apparent similarity to the CIR model in that its volatility term is proportional to the square root of the short rate, too. However, comparing stochastic equations (14) and (9) we see that they have different drift terms.
 
-
-The SqG model has been studied by Beagle-hole and Tenney (1991), Jamshidian (1996), and Pelsser (1997), among others. The most notable fact established for the SqG model is that any zero-coupon rate  $r_T(t)$  is quadratic in  $x(t)$  that is linear in the short rate  $r(t)$  and its square root  $\sqrt{r(t)}$ :
+The SqG model has been studied by Beaglehole and Tenney (1991), Jamshidian (1996), and Pelsser (1997), among others. The most notable fact established for the SqG model is that any zero-coupon rate  $r_T(t)$  is quadratic in  $x(t)$  that is linear in the short rate  $r(t)$  and its square root  $\sqrt{r(t)}$ :
 
 $$
 \begin{array}{l} (T - t) r_{T} (t) = A (t, T) - B (t, T) \sqrt{r (t)} \\ - C (t, T) r (t) \tag {15} \\ \end{array}
@@ -169,16 +216,13 @@ $$
 A^{\prime} = B R^{\prime} + \sigma^{2} \left(\frac{1}{2} B^{2} + C\right) + a R B \tag {16a}
 $$ with  $A(T,T) = 0$
 
-
 $$
 B^{\prime} = a B - 2 C R^{\prime} - 2 a C R - 2 \sigma^{2} B C \tag {16b}
 $$ with  $B(T,T) = 0$
 
-
 $$
 C^{\prime} = 1 + 2 a C - 2 \sigma^{2} C^{2} \tag {16c}
 $$ with  $C(T,T) = 0$
-
 
 where, for brevity,  $A^{\prime}$  and the like denote derivatives with respect to time  $t$  and the dependence of all functions on  $t$  and  $T$  is omitted. Note that all the terminal conditions are set to zero. Indeed, once  $t$  is equal to  $T$ , both sides of the relationship (15) must become zero for any value of  $r$ ; this is possible if and only if functions  $A$ ,  $B$ , and  $C$  turn to zero. Much like in the CIR model, equation (16c) for the linear term's slope, this time denoted via  $C$ , is of a Riccati type (see Boyle, Tian, and Guan, 2002) and can be solved in a closed-end form. In fact, it is identical to already solved equation (10) except it operates with a doubled mean reversion and a doubled volatility. Other equations in (16) and calibration to the initial yield curve can be solved numerically.
 
@@ -218,7 +262,7 @@ $$
 \begin{array}{l} c (t, T) = \frac{A (t) - A (T) + [ B (t) - B (T) ] M (t)}{\sum_{i = 1}^{n} [ A (t_{i}) + B (t_{i}) M (t) ]} \\ r (t) = - \frac{A^{\prime} (t) + B^{\prime} (t) M (t)}{A (t) + B (t) M (t)} \tag {19} \\ \end{array}
 $$
 
-Hence, all coupon rates and the short rate are too rational functions of  $M(t)$ . If we select a positive martingale process  $M(t)$ ; for example, a lognormal one,  $dM = \sigma Mdz$ , then all rates will stay positive. Functions  $A(t)$  and  $B(t)$  can fit the initial term structure of rates and volatilities. (See Flesaker and Hughston, 1996, or James and Webber, 2000, for additional details.)
+Hence, all coupon rates and the short rate are also rational functions of  $M(t)$ . If we select a positive martingale process  $M(t)$ ; for example, a lognormal one,  $dM = \sigma Mdz$ , then all rates will stay positive. Functions  $A(t)$  and  $B(t)$  can fit the initial term structure of rates and volatilities. (See Flesaker and Hughston, 1996, or James and Webber, 2000, for additional details.)
 
 # Other Single-Factor Models
 
@@ -229,7 +273,6 @@ A predecessor to the HW model, the Ho-Lee model (HL model) was offered as a disc
 The Black-Derman-Toy model (BDT model) is a lognormal short-rate model with endogenously defined mean reversion term equal to  $\sigma'(t) / \sigma(t)$  (see Black, Derman, and Toy, 1990). This specification means that a constant volatility leads to a zero mean reversion; a growing short-rate volatility function  $\sigma(t)$  causes a negative mean reversion, thereby destabilizing the process. Once very popular in financial industry, BDT was replaced by the BK model; both of these models are now recognized as outdated.
 
 The Brennan-Schwartz model is a proportional volatility, mean-reverting, short-rate model (see Brennan and Schwartz, 1979). Introduced in 1979 as an equilibrium model, it has some similarity in its volatility specification to lognormal models; however, rates are not lognormally distributed.
-
 
 # Calibration Issues
 
@@ -249,15 +292,57 @@ $$
 
 Parameter  $\gamma$  is called constant elasticity of variance (CEV). For  $\gamma = 0$  we may have the HW model; for  $\gamma = 0.5$ , the CIR model or the SqG model; for  $\gamma = 1$ , the BK model. There exist no specific economic arguments supporting the  $r^{\gamma}$  functional form for volatility. Often, the CEV constant lies between 0 and 1, but it is not necessary.
 
+```d2
+direction: right
+
+CEV Models: CEV Model Family {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+}
+
+HW: Hull-White Model {
+  style.fill: "#4caf50"
+  label: γ = 0\nNormal rates
+}
+
+CIR: CIR Model {
+  style.fill: "#2196f3"
+  label: γ = 0.5\nPositive rates
+}
+
+SqG: Squared Gaussian {
+  style.fill: "#ff9800"
+  label: γ = 0.5\nQuadratic rates
+}
+
+BK: Black-Karasinski {
+  style.fill: "#f44336"
+  label: γ = 1\nLognormal rates
+}
+
+CEV Models -> HW
+CEV Models -> CIR
+CEV Models -> SqG
+CEV Models -> BK
+
+note: |md
+  **CEV Parameter γ:**
+  - Controls volatility elasticity
+  - γ = 0: Absolute volatility (HW)
+  - γ = 0.5: Square-root volatility (CIR/SqG)
+  - γ = 1: Proportional volatility (BK)
+  - Market favors γ ≈ 0 (normal)
+|
+```
+
 # Measuring Volatility Skew
 
-Blyth and Uglum (1999) linked the CEV constant to the volatility skew; that is, its dependence of the Black volatility (also called implied volatility) on the option's strike, found in the swaption market. They argue that market participants should track the Black volatility ac cording to the following simple formula:
+Blyth and Uglum (1999) linked the CEV constant to the volatility skew; that is, its dependence of the Black volatility (also called implied volatility) on the option's strike, found in the swaption market. They argue that market participants should track the Black volatility according to the following simple formula:
 
 
 $$
 \frac{\sigma_{K}}{\sigma_{F}} \approx \left(\frac{F}{K}\right)^{\frac{1 - \gamma}{2}} \tag {21}
 $$ where  $\sigma_{K}$  is the Black volatility for the option struck at  $K$ ,  $\sigma_{F}$  is the Black volatility for the "at-the-money" option struck at today's forward rate,  $F$ . Importantly, one can recover the best CEV constant to use in the model by simply measuring the observed skew.
-
 
 The skew measured for the 5-year option on the 10-year swap quoted for the period of 1998 to 2004 suggests  $\gamma = 0.14$  being optimal, on average. This means that the most suitable model lies between the HW model and the CIR/SqG model (Figure 1). It is also seen that low-struck options are traded with a close-to-normal volatility, while high-struck options are traded with a square-root volatility profile. This fact may be a combination of the "smile" effect discussed at the end of this entry and the broker commission demand. As shown a little further, the square-root volatility specification becomes very suitable in a low-rate environment.
 
@@ -271,8 +356,7 @@ To compare rate models, it is useful to design a market volatility index—a sin
 Figure 1 Implied Volatility Skew on 5-Year-into-10-Year Swap (1998-2004 Average)
 *Source of actual volatility: Bank of America; volatility for 200 bps ITM/OTM was not quoted.
 
-measure is model-specific; unlike some other volatility indexes, it is not a simple average of swaption volatilities. The internal analytics of each model, exact or approximate, are used to translate the short rate volatility constant into swaption volatilities used for calibration. Note that this constant-volatility, zero mean rever sion setup is employed only to define the index; it is not a recommended setup for pricing complex instruments.
-
+measure is model-specific; unlike some other volatility indexes, it is not a simple average of swaption volatilities. The internal analytics of each model, exact or approximate, are used to translate the short rate volatility constant into swaption volatilities used for calibration. Note that this constant-volatility, zero mean reversion setup is employed only to define the index; it is not a recommended setup for pricing complex instruments.
 
 Figure 3 depicts the history of three volatility indexes (sigmas) computed from the beginning of 2000 for the HW model, the BK model, and the squared Gaussian model. Each index is calibrated to the same family of equally weighted ATM swaptions on the 2-year swap and the 10-year swap with expirations ranging from 6 months to 10 years. We add for comparison a line for the 7-year rate level, and scale all four lines so that they start from 1.0.
 
@@ -285,8 +369,7 @@ Figure 3 Which Volatility Index Is Most Stable?
 
 Figure 3 strongly confirms the normalization of the interest rate market; the volatility index constructed for the HW model has gradually become the most stable one. For example, the swap rate plunged a good  $60\%$  between January 2000 and June 2003, but the HW volatility index barely changed. The two other models produced volatility indexes that looked mirror-reflective of the rate level (the lognormal model does by far the worst job). A similar observation applies to the 2007-2010 period.
 
-Interestingly enough, the SqG index was stable for most of 2003 and could handle the record-setting rate plunge. This confirms that the square root volatility pattern may outper form others when the rates are very low. These findings are consistent with the swaption skew measures we have discussed. This is not a coincidence at all. People who set the market for the ATM swaptions are the same ones who trade out-of- and in-the-money options.
-
+Interestingly enough, the SqG index was stable for most of 2003 and could handle the record-setting rate plunge. This confirms that the square root volatility pattern may outperform others when the rates are very low. These findings are consistent with the swaption skew measures we have discussed. This is not a coincidence at all. People who set the market for the ATM swaptions are the same ones who trade out-of- and in-the-money options.
 
 In the sections to follow we will discuss how to extend the short-rate modeling framework to multifactor models and jump-diffusion models, which are often constructed in so-called affine analytical form.
 
@@ -297,6 +380,49 @@ Let us consider a fixed income instrument that pays floating coupons indexed to 
 How much is this cap worth? Practically speaking, the curve's inversion is not so rare a phenomenon of the fixed income market. However, if the initial curve is steep, we will greatly undervalue the cap using any of the single-factor models described above. This example highlights the limitation of single-factor modeling: All rates change in unison. Instruments that contain "curve options," that is, asymmetric response to a curve's twist or butterfly moves, cannot be valued using single-factor term structures. Much more complex examples requiring multifactor modeling include American or Bermudan options, certain collateralized mortgage obligations (CMOs) that are much shorter or longer than the collateral itself.
 
 Mathematically, a two-factor normal model can be constructed in a fairly simple way. Suppose that, instead of having one auxiliary Gaussian variable  $x(t)$ , we have two,  $x_{1}(t)$  and  $x_{2}(t)$ , that follow linear stochastic differential equations:
+
+```d2
+direction: right
+
+Single Factor: Single-Factor Model {
+  shape: circle
+  style.fill: "#ffebee"
+  label: All rates\nperfectly correlated
+}
+
+Two Factors: Two-Factor Model {
+  shape: hexagon
+  style.fill: "#e8f5e9"
+}
+
+Short Rate: Short Rate Factor {
+  style.fill: "#2196f3"
+  label: Drives parallel shifts
+}
+
+Long Rate: Long Rate Factor {
+  style.fill: "#ff9800"
+  label: Drives curve twists
+}
+
+Yield Curve: Yield Curve {
+  shape: rectangle
+  style.fill: "#f3e5f5"
+}
+
+Single Factor -> Yield Curve: Limited flexibility
+Two Factors -> Short Rate
+Two Factors -> Long Rate
+Short Rate -> Yield Curve
+Long Rate -> Yield Curve
+
+note: |md
+  **Multifactor Advantage:**
+  - Independent factors allow curve shape changes
+  - Better pricing of curve options
+  - Captures yield curve dynamics more accurately
+|
+```
 
 $$
 \begin{array}{l} d x_{1} = - a_{1} (t) x_{1} d t + \sigma_{1} (t) d z_{1} \\ d x_{2} = - a_{2} (t) x_{2} d t + \sigma_{2} (t) d z_{2} \tag {22} \\ \end{array}
@@ -322,7 +448,6 @@ The new variable has increments  $dv$  mathematically uncorrelated to  $dr$ ; it
 Interestingly enough, all stable two-factor normal models having two real eigenvalues can be presented in the above-written form. Hull and White (1994) introduced a two-factor model that was designed in the form of a single-factor HW model for the short rate (factor 1) with a random long-term equilibrium rate (factor 2). Their approach draws on Brennan and Schwartz (1979). It is now clear that such an appeal to the financial meaning was unnecessary, and the general mathematical approach is as good or even better.
 
 If we transform  $x_{1}(t)$  and  $x_{2}(t)$  nonlinearly, we will get multifactor versions of other previously considered models. For example, we could define the short rate as  $r(t) = R(t)\exp [x_1(t) + x_2(t)]$ , thereby creating a two-factor lognormal model. As one would expect, these models inherit main properties of the single-factor parents, but add a greater freedom in changing the curve's shape and calibrating to volatility and correlation structures.
-
 
 # THE CONCEPT OF AFFINE MODELING
 
@@ -410,7 +535,7 @@ $$
 
 Notably, equation (27) defining function  $b(t,T)$  will coincide with previously discussed equation (24) if  $\gamma_{2} = 0$ . If we have a single-factor model, the linear relationship between long rates and the short rate will have a slope of  $b(t,t + T) / T$ . This slope, found for an affine diffusive model, won't change if we add jumps of factor-independent intensity and size. Hence, in such affine models, jumps and diffusions are equally propagated from the short rate to long rates. Knowing that actually observed long rates are chiefly diffusive and the short rate is notably jumpy, one can conclude that the jump-diffusive setting makes more practical sense within the frame of multifactor modeling.
 
-Using jump-diffusion models may be required when valuing options struck away from the current forward rate (that is, the ATM point). Aside from the volatility skew, option pricing features volatility smile, or simply an
+Using jump-diffusion models may be required when valuing options struck away from the current forward rate (that is, the ATM point). Aside from the volatility skew, option pricing features volatility smile, or simply an excessive convexity in  $\sigma_{K}$ .
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/66256f4b-1176-4bdd-adf3-458dec1636a0/d312637023ff4542b2e836340138feba8b1a53d837fc297903d315e8fe3c5f14.jpg)
 A. 1-month Expiration on Various Swap Tenors
@@ -419,7 +544,7 @@ A. 1-month Expiration on Various Swap Tenors
 B. 6-month Expiration on Various Swap Tenors
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/66256f4b-1176-4bdd-adf3-458dec1636a0/c38bcc18213e469dbfc2330c634deb03a12a2b042c30b7ad0fa28545fab54fd0.jpg)
-C. 2-year Expiration on Various Swap Tenors excessive convexity in  $\sigma_{K}$ . Revisiting Figure 1, one can notice that the actual dependence of volatility on the strike is more convex than even the optimal CEV model predicts. This is the smile effect, albeit fairly moderate for options on long rates. Smiles for options on shorter rates are very apparent, especially for short ex
+C. 2-year Expiration on Various Swap Tenors excessive convexity in  $\sigma_{K}$ . Revisiting Figure 1, one can notice that the actual dependence of volatility on the strike is more convex than even the optimal CEV model predicts. This is the smile effect, albeit fairly moderate for options on long rates. Smiles for options on shorter rates are very apparent, especially for short expirations.
 Figure 4 Daily Normalized Volatility Smile for Traded Swaptions (bp/day) Data are courtesy of Bear Stearns, January 2007.
 
 
@@ -450,7 +575,6 @@ Blyth, S., and Uglum, J. (1999). Rates of skew. Risk (July): 61-63.
 Boyle, P., Tian, W., and Guan, F. (2002). The Riccati equation in mathematical finance. Journal of Symbolic Computation 22, 3: 343-356.
 Brace, A., Gatarek, D., and Musiela, M. (1997). The market model of interest rate dynamics. Mathematical Finance 7: 127-155.
 Cox, J. C., Ingersoll, J. E., and Ross, S. A. (1985). A theory of the term structure of interest rates. Econometrica 53: 385-407.
-Cox, J.C., J.E. Ingersoll and S.A. Ross (1985). 'A Theory of the Term Structure of Interest Rates', Econometrica 53: 385-407.
 Dai, Q., and Singleton, K. (2000). Specification analysis of affine term structure models. Journal of Finance 55, 5: 1943-1978.
 Davidson, A., Sanders, A., Wolff, L., and Ching, A. (2003). Securitization: Structuring and Investment Analysis. Hoboken, NJ: John Wiley & Sons.
 Das, S. (2000). Interest rate modeling with jump-diffusion processes. In N. Jegadeesh and B. Tuckman (eds.), Advanced Fixed-Income Valuation Tools (pp. 162-189). Hoboken, NJ: John Wiley & Sons.
