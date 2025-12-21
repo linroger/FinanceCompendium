@@ -1,4 +1,11 @@
-# Common Stock
+---
+title: "Chapter 04 Common Stock"
+date: "2025-12-20"
+primary_tags: ["common stock", "equity securities", "stock markets", "trading mechanisms", "investment strategies"]
+secondary_tags: ["preferred stock", "nyse", "nasdaq", "otc markets", "third market", "fourth market", "electronic communications networks", "crossing networks", "order types", "market orders", "limit orders"]
+---
+
+# Chapter 04 Common Stock
 
 Frank J. Fabozzi, Ph.D., CFA
 
@@ -22,13 +29,13 @@ Association for Investment Management and Research
 
 In this chapter we will discuss the investment characteristics of common stock, explain the markets where common stock is traded, the arrangements made for the trading of common stock by retail (i.e., individual) and institutional investors, and review common stock portfolio strategies.
 
-# COMMON STOCK VERSUS PREFERRED STOCK
+## Common Stock versus Preferred Stock
 
 Common stocks are also called equity securities. Equity securities represent an ownership interest in a corporation. Holders of equity securities are entitled to the earnings of the corporation when those earnings are distributed in the form of dividends; they are also entitled to a pro rata share of the remaining equity in case of liquidation.
 
 Common stock is only one type of equity security. Another type is preferred stock. The key distinction between the two forms of equity securities is the degree to which their holders may participate in any distribution of earnings and capital and the priority given to each class in the distribution of earnings. Typically, preferred stockholders are entitled to a fixed dividend, which they receive before common stockholders may receive any dividends. Therefore, we refer to preferred stock as a senior corporate security, in the sense that preferred stock interests are senior to the interests of common stockholders. Preferred stock is discussed Chapter 12.
 
-# WHERE STOCK TRADING OCCURS
+## Where Stock Trading Occurs
 
 It is in the market for common stock through the trades they make that investors express their opinions about the economic prospects of a company. The aggregate of these trades provides the market consensus opinion about the price of the stock.
 
@@ -42,28 +49,7 @@ In the United States there are two national stock exchanges: (1) the New York St
 
 Coast Exchange) and Philadelphia. Regional exchanges primarily trade stocks from corporations based within their region.
 
-The major OTC market in the U.S. is NASDAQ (the National Association of Securities Dealers Automated Quotation System), which is owned and operated by the NASD (the National Association of Securities Dealers), although it is in the process of becoming independent. The NASD is a securities industry self-regulatory organization (SRO) that operates subject to the oversight of the Securities and Exchange Commission (SEC). NASDAQ is a national market. During 1998, NASDAQ and AMEX merged to form the NASDAQ-AMEX Market Group, Inc.
-
-The NYSE is the largest exchange in the U.S. with the shares of approximately 3,000 companies listed. The AMEX is the second largest national stock exchange in the U.S., with over 750 issues listed for trading. NASDAQ has a greater number of listed stocks but with much less market capitalization than the NYSE.
-
-According to the Securities Act of 1934, there are two categories of traded stocks. The first is exchange traded stocks (also called "listed" stocks). The second is OTC stocks which are also non-exchange traded stocks and are, thus, by inference, "non-listed." However, as we will describe later in this chapter, NASDAQ stocks have listing requirements (the NASDAQ National Market and the NASDAQ Small Capitalization Market). Thus, a more useful and practical categorization is as follows:
-
-1. Exchange listed stocks (national and regional exchanges)
-2. NASDAQ listed OTC stocks
-3. Non-NASDAQ OTC stocks
-
-We will focus on each of these markets later in this section.
-
-The four major types of markets on which stocks are traded are referred to as follows:
-
-■ First Market—trading on exchanges of stocks listed on an exchange
-■ Second Market—trading in the OTC market of stocks not listed on an exchange
-Third Market—trading in the OTC market of stocks listed on an exchange
-Fourth Market—private transactions between institutional investors who deal directly with each other without utilizing the services of a broker-dealer intermediary
-
-These types of markets are discussed in the following sections.
-
-# Exchanges
+## Exchanges
 
 Stock exchanges are formal organizations, approved and regulated by the SEC. They are comprised of "members" that use the exchange facilities and systems to exchange or trade "listed" stocks. These exchanges are physical locations where members assemble to trade. Stocks that are traded on an exchange are said to be listed stocks. That is, these stocks are individually approved for trading on the exchange by the exchange. To be listed, a company must apply and satisfy requirements established by the exchange for minimum capitalization, shareholder equity, average closing share price, and other criteria. Even after being listed, exchanges may delist a company's stock if it no longer meets the exchange requirements.
 
@@ -78,7 +64,7 @@ The second group of stocks are called dually listed stocks. The motivation of a 
 
 The regional stock exchanges compete with the NYSE for the execution of smaller trades. Major national brokerage firms have in recent years routed such orders to regional exchanges because of the lower cost they charge for executing orders or the better prices received.
 
-# The NYSE
+### The NYSE
 
 The NYSE is conducted as a centralized continuous auction market at a designated location on the trading floor, called a "post," with brokers representing their customers' buy and sell orders. A single specialist is the market maker for each stock. A member firm may be designated as a specialist for the common stock of more than one company, that is, several stocks can trade at the same post. But only one specialist is designated for the common stock of each listed company.
 
@@ -112,14 +98,14 @@ Specialists are responsible for balancing buy and sell orders at the opening of 
 
 If there is an imbalance between buy and sell orders either at the opening or during the trading day and the specialist cannot maintain a fair and orderly market, then they may, under restricted conditions, close the market in that stock (that is, discontinue trading) until they are able to determine a price at which there is a balance of buy and sell orders. Such closes of trading can occur either during the trading day or at the opening, which is more common, and can last for minutes or days. Closings of a day or more may occur when, for example, there is an acquisition of one firm by another or when there is an extreme announcement by the corporation (for this reason, many announcements are after the close of trading).
 
-# The Over-the-Counter Market
+## The Over-the-Counter Market
 
 The OTC market is called the market for "unlisted stocks." As explained earlier, while there are listing requirements for exchanges, there are also "listing requirements" for the NASDAQ National and Small Capitalization OTC markets, which are discussed in the following section. Nevertheless, exchange traded stocks are called "listed," and stocks traded on the OTC markets are called "unlisted."
 
 
 There are three parts of the OTC market—two under the aegis of NASD (the NASDAQ markets) and a third market for truly unlisted stocks, the non-NASDAQ OTC markets.
 
-# NASDAQ Stock Market
+### NASDAQ Stock Market
 
 Established in 1971, the NASDAQ stock market was developed as a wholly-owned subsidiary of the NASD. The NASD is the National Association of Securities Dealers, a self-regulatory organization (SRO) subject to oversight by the SEC. NASD, a private organization, represents and regulates the dealers in the OTC market.
 
@@ -137,7 +123,7 @@ Many stocks that qualify for listing on the NYSE remain on NASDAQ, including Mic
 
 The main responsibility of a NASDAQ NNM market maker is to post continuous two-sided quotes (bid and ask), which consist of a price and a size. Between 9:30 a.m. and 4:00 p.m. Eastern time, these quotes must be firm, which means that if any NASD member presents an order to a market maker, the market maker is obligated to trade at terms no worse than its quotes. Failure to do so constitutes "backing away," which can be subject to regulatory sanction.[1]
 
-# Other OTC Markets
+### Other OTC Markets
 
 While the NASDAQ stock markets are the major parts of the U.S. OTC markets, the vast majority of the OTC issues (about 8,000) do not trade on either of the two NASDAQ systems. There are two types of markets for these stocks. The securities traded on these markets are not listed, that is have no listing requirements. Thus, these two OTC markets are not "issuer services." Rather, they are "subscriber services"—that is, subscribers can make bids and offers for any stock not listed on exchanges or NASDAQ.
 
@@ -150,11 +136,11 @@ These two markets are subscriber markets only—that is, any subscriber can ente
 
 The OTCBB, however, tends to trade more active stocks than the Pink Sheets. OTCBB trades approximately the most active 4,000 stocks.
 
-# The Third Market
+## The Third Market
 
 A stock may be both listed on an exchange and also traded in the OTC market, called the third market. Like NASDAQ, the third market is a network of broker-dealers that aggregates quotation information and provides inter-participant order routing tools, but leaves order execution to market participants. Dealers that make markets in the third market operate under the regulatory jurisdiction of the NASD. While the third market is not owned by the NASD, market makers in the third market use some of the facilities provided by NASDAQ. When the NASD created NASDAQ in 1971, it included substantially similar functionality for third market listed trading, including the CQS (Consolidated Quotations Service) for third market quotes, and CTS for third market trades, which are discussed below.
 
-# Alternative Trading Systems—The Fourth Market
+## Alternative Trading Systems—The Fourth Market
 
 It is not necessary for two parties involved in a transaction to use an intermediary. That is, the services of a broker or a dealer are not required to execute a trade. The direct trading of stocks between two customers without the use of a broker is called the fourth market. This market grew for the same reasons as the third market—the excessively high minimum commissions established by the exchanges.
 
@@ -163,17 +149,17 @@ A number of proprietary alternative trading systems (ATSs), which comprise the f
 
 Broadly, there are two types of ATSs: electronic communications networks and crossing networks.
 
-# Electronic Communications Networks
+### Electronic Communications Networks
 
 Electronic communications networks (ECNs) are privately owned broker/ dealers that operate as market participants within the NASDAQ system. They display quotes that reflect actual orders and provide institutions and NASDAQ market makers with an anonymous way to enter orders. Essentially, an ECN is a limit order book that is widely disseminated and open for continuous trading to subscribers who may enter and access orders displayed on the ECN. ECNs offer transparency, anonymity, automated service, and reduced prices, and are therefore effective for handling small orders. ECNs are used to disseminate firm commitments to trade (firm bids or offers) to participants, or subscribers, which have typically either purchased or leased hardware for the operation of the ECN or have built a custom connection to the ECN. ECNs may also be linked into the NASDAQ marketplace via a quotation representing the ECN's best buy and sell quote. In general, ECNs use the internet to link buyers and sellers, bypassing brokers and trading floors.
 
-Since ECNs are part of the NASDAQ execution, their volume is counted as part of the NASDAQ volume. ECNs account for over  $30\%$  of NASDAQ trading in exchange trading.
+Since ECNs are part of the NASDAQ execution, their volume is counted as part of the NASDAQ volume. ECNs account for over 30\% of NASDAQ trading in exchange trading.
 
 Instinet (Institutional Networks Corporation), the first ECN, began operating in 1969, and continues to be a very large ECN in terms of activity. Instinet was acquired by Reuters Holdings in 1987. Instinet is an NASD member broker-dealer and trades both NASDAQ and exchange-listed stocks. Instinet was originally intended as a system through which institutional investors could cross trades, that is, a crossing network. However, market makers are now significant participants in Instinet. Instinet usage for NASDAQ securities, that is usage as an ECN, began to grow in the mid-1980s when market makers were allowed to subscribe.
 
 Since 1969, nine additional ECNs have been created: Island, Archipelago, REDI Book, Bloomberg Tradebook, BRASS Utility, Strike, Attain, NexTrade, and Market XT. Two of the ECNs, Archipelago and Island, have applied to the SEC to become exchanges.
 
-# Crossing Networks
+### Crossing Networks
 
 Systems have been developed that allow institutional investors to "cross" trades—that is, match buyers and sellers directly—typically via computer. Crossing networks are batch processes that aggregate orders for execution at prespecified times. Crossing networks provide anonymity and reduced cost, and are specifically designed to minimize a trading cost that we will describe later (market impact cost). They vary considerably in their approach to market structure, including the type of order information that can be entered by the subscriber and the amount of pre-trade transparency that is available to participants.
 
@@ -186,11 +172,11 @@ ITG Posit is more than a simple order-matching system. Rather, it matches the pu
 
 The AZX in Phoenix, which commenced trading in March 1992, has been an after-hours electronic marketplace where anonymous participants trade stocks via personal computers. This exchange provides a call auction market which accumulates bids and offers for a security and, at designated times, derives a single price that maximizes the number of shares to be traded. It now conducts call auctions at 9:30 a.m., 10:30 a.m., 12:30 p.m., 2:30 p.m., and 4:30 p.m. EST.[2]
 
-# TRADING MECHANICS
+## Trading Mechanics
 
 Next we describe the key features involved in trading stocks. Later in the chapter, we discuss trading arrangements (block trades and program trades) that developed specifically for coping with the trading needs of institutional investors.
 
-# Types of Orders and Trading Priority Rules
+### Types of Orders and Trading Priority Rules
 
 When an investor wants to buy or sell a share of common stock, the price and conditions under which the order is to be executed must be communicated to a broker. The simplest type of order is the market order, an order to be executed at the best price available in the market. If the stock is listed and traded on an organized exchange, the best price is assured by the exchange rule that when more than one order on the same side of the buy/sell transaction reaches the market at the same time, the order with the best price is given priority. Thus, buyers offering a higher price are given priority over those offering a lower price; sellers asking a lower price are given priority over those asking a higher price.
 

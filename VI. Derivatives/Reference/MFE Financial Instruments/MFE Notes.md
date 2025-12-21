@@ -1,13 +1,22 @@
 ---
-title: "MFE Notes: Options"
-aliases:
-  - Options
+title: MFE Notes: Options
 parent_directory: MFE Financial Instruments
-tags: []
-key_concepts: []
-cssclasses:
-  - academia
-linter-yaml-title-alias: Options
+formatted: 2025-12-20 08:05:00 PM
+formatter_model: opencode
+cli_tool: opencode
+primary_tags:
+  - options pricing
+  - put call parity
+  - option payoffs
+secondary_tags:
+  - american options
+  - european options
+  - intrinsic value
+  - time value
+  - bull spread
+  - bear spread
+  - butterfly spread
+cssclasses: academia
 ---
 
 # Options

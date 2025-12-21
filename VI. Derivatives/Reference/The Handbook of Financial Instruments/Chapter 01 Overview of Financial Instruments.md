@@ -1,6 +1,26 @@
-# Overview of
+---
+title: Overview of Financial Instruments
+parent_directory: The Handbook of Financial Instruments
+formatted: 2025-12-20 08:10:00 PM
+formatter_model: opencode
+cli_tool: opencode
+primary_tags:
+  - financial instruments
+  - debt instruments
+  - equity instruments
+secondary_tags:
+  - money market instruments
+  - bonds
+  - common stock
+  - preferred stock
+  - convertible bonds
+  - maturity
+  - coupon rate
+  - par value
+cssclasses: academia
+---
 
-# Financial Instruments
+# Overview of Financial Instruments
 
 Frank J. Fabozzi, Ph.D., CFA
 
@@ -29,7 +49,7 @@ In the case of a U.S. Treasury bond, the U.S. government (the issuer) agrees to 
 
 The common stock of Microsoft entitles the investor to receive dividends distributed by the company. The investor in this case also has a claim to a pro rata share of the net asset value of the company in case of liquidation of the company. The same is true of the common stock of Toyota Motor Corporation.
 
-# DEBT VERSUS EQUITY INSTRUMENTS
+## DEBT VERSUS EQUITY INSTRUMENTS
 
 Financial instruments can be classified by the type of claim that the holder has on the issuer. When the claim is for a fixed dollar amount, the financial instrument is said to be a debt instrument. The car loan, the U.S. Treasury bond, the Ford Motor Company bond, the city of Philadelphia bond, and the French government bond are examples of debt instruments requiring fixed payments.
 
@@ -39,7 +59,7 @@ Some securities fall into both categories in terms of their attributes. Preferre
 
 Another "combination" instrument is a convertible bond, which allows the investor to convert debt into equity under certain circumstances. Both debt instruments and preferred stock that pay fixed dollar amounts are called fixed-income instruments.
 
-# CHARACTERISTICS OF DEBT INSTRUMENTS
+## CHARACTERISTICS OF DEBT INSTRUMENTS
 
 As will become apparent, there are a good number of debt instruments available to investors. Debt instruments include loans, money market instruments, bonds, mortgage-backed securities, and asset-backed securities. In the chapters that follow, each will be described. There are features of debt instruments that are common to all debt instruments and they are described below. In later chapters, there will be a further discussion of these features as they pertain to debt instruments of particular issuers.
 

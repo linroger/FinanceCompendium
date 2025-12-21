@@ -1,8 +1,31 @@
 ---
-title: "Teaching Note 09 Corporate Securities Credit Derivatives"
-date: "2025-12-20"
-primary_tags: ["merton model", "credit spreads", "kmv model", "credit default swaps", "corporate debt"]
-secondary_tags: ["equity value", "debt value", "volatility of equity", "relative pricing", "warrants", "agency theory", "debt overhang", "expected default frequency", "distance to default", "credit derivatives market", "credit risk measurement", "credit event", "single name cds", "cds spread"]
+title: Teaching Note 09 Corporate Securities Credit Derivatives
+parent_directory: Lecture Notes
+formatted: 2025-12-20 07:40:00 PM
+formatter_model: opencode
+cli_tool: opencode
+primary_tags:
+  - merton model
+  - credit spreads
+  - kmv model
+  - credit default swaps
+  - corporate debt
+secondary_tags:
+  - equity value
+  - debt value
+  - volatility of equity
+  - relative pricing
+  - warrants
+  - agency theory
+  - debt overhang
+  - expected default frequency
+  - distance to default
+  - credit derivatives market
+  - credit risk measurement
+  - credit event
+  - single name cds
+  - cds spread
+cssclasses: academia
 ---
 
 # Teaching Note 09 Corporate Securities Credit Derivatives
@@ -13,20 +36,20 @@ The University of Chicago
 
 Booth School of Business
 
-## The Merton Model
+### The Merton Model
 
 ### Equity and Debt
 ### Credit Spreads
 ### Relative Pricing
-### Warrants
+#### Warrants
 ### Conflict of Interests between Equity and Bond Holders
 
-## Credit Risk Measurement: The KMV Model
-## Credit Derivatives
+### Credit Risk Measurement: The KMV Model
+### Credit Derivatives
 
 ### Credit Default Swaps
 
-## The Merton Model
+### The Merton Model
 
 - Today is $t = 0$ and consider a firm with current assets $V_{0}$.
 - Assume the firm's return on assets (ROA) between 0 and $T$ is log-normally distributed.
@@ -49,7 +72,7 @@ $$
 * $\Longrightarrow$ The debt holders take possession of the assets of the firm $\Longrightarrow$ their payoff is $V_{T}$.
 * $\Longrightarrow$ Equity holders get nothing.
 
-### The Merton Model - 2
+#### The Merton Model - 2
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/add872632c8a65d32491d0393801d8017443a7ce6c2fedc1d344191b89c8806d.jpg)
 
@@ -57,7 +80,7 @@ Debt holders Payoff at $T$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/649786a086c621236b79b04d85285f8db469355bc6062439d689f24923e4b46f.jpg)
 
-## The Merton Model - The Value of Equity
+#### The Merton Model - The Value of Equity
 
 - The payoff to equity holders is then the one of a call option
 
@@ -104,7 +127,7 @@ Volatility of Equity Returns versus Asset Value
 
 Volatility of Equity Returns versus Equity Value
 
-## The Merton Model - The Value of Debt
+#### The Merton Model - The Value of Debt
 
 - What is the value of defaultable debt in the model?
 - The payoff to debt holders is
@@ -131,7 +154,7 @@ $$
 
 - The value of debt is equal to the risk free debt $F e^{-r T}$ minus a put option, representing the (risk adjusted) expected losses due to the possibility that risky assets will not be sufficient to pay the debt at maturity.
 
-## Credit Spreads under the Merton Model
+### Credit Spreads under the Merton Model
 
 - We can then use the Merton's model to compute a corporate bond credit spread.
 - From the definition of yield to maturity $y$ for a corporate bond, we have the equality
@@ -164,7 +187,7 @@ Credit Spreads under the Merton Model
 
 - Issues: (A) They are small; (B) They converge to zero at $T \to 0$
 
-## The Merton Model - Extensions
+#### The Merton Model - Extensions
 
 - Many extensions of this basic model exist, including
 - Coupon bonds: The debt is not zero-coupon;
@@ -172,7 +195,7 @@ Credit Spreads under the Merton Model
 - Early Bankruptcy: There is a lower bound $V_{b}$ to assets so that if $V(t) < V_{b}$ the firm is bankrupt.
 - Unobservable $V(t)$: Investors may only rely on accounting measures to estimate $V(t)$: The default barrier could be closer than you think.
 
-## Relative Pricing of Junior and Senior Debt
+### Relative Pricing of Junior and Senior Debt
 
 - The Merton's model can be used also for relative pricing across different bond classes of the same issuer.
 - For example, suppose that a firm issues two bonds: one senior and one junior debt, with face value $F_{J}$ and $F_{S}$.
@@ -182,7 +205,7 @@ Table 1: Payoffs
 
 <table><tr><td></td><td>0 &lt; VT &lt; FS</td><td>FS &lt; VT &lt; FS + FJ</td><td>FS + FJ &lt; VT</td></tr><tr><td>Senior</td><td>VT</td><td>FS</td><td>FS</td></tr><tr><td>Junior</td><td>0</td><td>VT - FS</td><td>FJ</td></tr><tr><td>Equity</td><td>0</td><td>0</td><td>VT - (FS + FJ)</td></tr></table>
 
-### Relative Pricing of Junior and Senior Debt
+#### Relative Pricing of Junior and Senior Debt
 
 - That is, senior and junior debt and equity must satisfy
 
@@ -211,34 +234,34 @@ $$
 $$
 E_{0} = \mathrm{BSC}(V, F_{S} + F_{J}, r, T, \sigma)
 $$
-\mathrm {P a y o f f o f S e n i o r D e b t} = V - \max (V - F _ {S}, 0)
+\mathrm{Payoff\ of\ Senior\ Debt} = V - \max(V - F_{S}, 0)
 $$
 
 $$
-\mathrm {P a y o f f o r m e d} \mathrm {J u n i o r D e b t} = \max (V - F _ {S}, 0) - \max (V - (F _ {S} + F _ {J}), 0)
+\mathrm{Payoff\ of\ Junior\ Debt} = \max(V - F_{S}, 0) - \max(V - (F_{S} + F_{J}), 0)
 $$
 
 $$
-\mathrm {P a y o f f E q u i t y} = \max (V - (F _ {S} + F _ {J}), 0)
+\mathrm{Payoff\ Equity} = \max(V - (F_{S} + F_{J}), 0)
 $$
 
 - We have then have
 
 $$
-D _ {S, 0} = V - B S C (V, F _ {S}, r, T, \sigma)
+D_{S,0} = V - \mathrm{BSC}(V, F_{S}, r, T, \sigma)
 $$
 
 $$
-D _ {J, 0} = B S C (V, F _ {S}, r, T, \sigma) - B S C (V, F _ {S} + F _ {J}, r, T, \sigma)
+D_{J,0} = \mathrm{BSC}(V, F_{S}, r, T, \sigma) - \mathrm{BSC}(V, F_{S} + F_{J}, r, T, \sigma)
 $$
 
 $$
-E _ {0} = B S C (V, F _ {S} + F _ {J}, r, T, \sigma)
+E_{0} = \mathrm{BSC}(V, F_{S} + F_{J}, r, T, \sigma)
 $$
 
 - Next Figure plots $D_{J,0}$ and $D_{S,0}$ when $F_{S} = F_{J} = 100$.
 
-### Relative Pricing of Junior and Senior Debt
+#### Relative Pricing of Junior and Senior Debt
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/aaeadea1c86fc0c50cf211c93232e15f29447bcc22ed3ea3e812fc2fdccffa70.jpg)
 
@@ -247,7 +270,7 @@ Value of Senior and Junior Debt
 
 - Given these relationships, we can also look at the relationship between $D_{J,0}$ and $D_{S,0}$
 
-### Relative Pricing of Junior and Senior Debt
+#### Relative Pricing of Junior and Senior Debt
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/ea332b460712f468cb6926ff618401866104da736e2edbd6cfbc663056eb554c.jpg)
 
@@ -256,7 +279,7 @@ Junior vs. Senior Debt
 - This gives a measure of how Senior and Junior debt should be related.
 - It could help spotting misalignments of the two debt values.
 
-## Warrants
+### Warrants
 
 - Warrants are options issued by the firm on its own stock
 - The holder of the warrant has the right, but not the obligation, to purchase a given number $m$ of shares from the firm at the given strike price $K$ at maturity $T$.
@@ -277,7 +300,7 @@ $$
 \text{Value of warrants} = \frac{n}{n + m} \mathrm{BSC}\left(\frac{V_{0}}{n}, K, r, \sigma, T\right)
 $$
 
-## Bond and Equity Holders' Conflicts of Interest
+### Bond and Equity Holders' Conflicts of Interest
 
 - The Merton's model is at the basis of the agency theory of the firm, in which there is a natural conflict between equity holders and debt holders.
 
@@ -300,11 +323,11 @@ $$
 
 - The value of bonds must have gone down by the same amount $\Longrightarrow$ Bondholders dislike dividend payments.
 
-### Bond and Equity Holders' Conflicts of Interest
+#### Bond and Equity Holders' Conflicts of Interest
 
 - $\Longrightarrow$ If there are monitoring costs to check what equityholders do, bondholders require a higher premium because they take into account the incentive of equityholders to maximize their value. Unusual dividend payments can be taken care through bond covenants. But the choice of risky/safe projects is harder.
 
-## Leveraged Firms and Debt Overhang
+### Leveraged Firms and Debt Overhang
 
 - During crisis periods, such as the 2007/08 crisis, it is hard for firms to raise new equity capital.
 Why?
@@ -329,7 +352,7 @@ $$
 
 - Of course, the intuition is the same as for dividend cash payments: The Delta of the option is less than 1.
 
-## Credit Risk Measurement: KMV
+### Credit Risk Measurement: KMV
 
 - How can we compute the probability of default of a particular bond or entity?
 - Credit rating agencies provide credit rating to bonds, which provide (their) assessment of their probability of default.
@@ -339,7 +362,7 @@ $$
 
 - For instance, a BBB rated company has a probability .06% to move to AAA, .43% to AA, 6.5% to A, 84.27% to remain at BBB, 6% to move to BB, etc.
 
-### Credit Risk Measurement: KMV
+#### Credit Risk Measurement: KMV
 
 - KMV argues that credit ratings did not tell the whole story (they said so way before the crisis).
   - e.g. Bonds in the same credit rating class show different probabilities of default
@@ -350,7 +373,7 @@ Fig. 7. Distribution of the firm's assets value at maturity of the debt obligati
 
 (Figure from Choi, Galai, and Mark, "A comparative analysis of current credit risk models", Journal of Banking and Finance, 2000)
 
-# Credit Risk Measurement: KMV
+## Credit Risk Measurement: KMV
 
 - More specifically, they obtain
 
@@ -370,7 +393,7 @@ What are the unknowns?
 
 - They find empirically that $F = $ Short Term Debt + 1/2 Long Term Debt works well.
 
-### Credit Risk Measurement: KMV
+#### Credit Risk Measurement: KMV
 
 - The last two items are $V_{0}$ and $\sigma$.
 - What can we observe about a firm?
@@ -397,7 +420,7 @@ $$
 
 - We solve two equations in the two unknown $V_{0}$ and $\sigma$.
 
-### Credit Risk Measurement: KMV
+#### Credit Risk Measurement: KMV
 
 - Simple Example (KMV model is much more elaborate):
 - Enron market capitalization on May 30 1989 was 2.260 bil (from CRSP).
@@ -407,21 +430,21 @@ $$
 - Assume $T = 8$ years (long term debt).
 - Next two figures plot the value of equity and volatility of equity implied by the Merton model for various levels of current assets  $V_{0}$  and volatility  $\sigma$
 
-# Credit Risk Measurement: KMV
+## Credit Risk Measurement: KMV
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/8250e683a18e5b51721450cc5c6e148c49a2d9bc7821f223cf79a6e4638aca95.jpg)  
 Enron Corp Returns and Volatility
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/c723e7143337aca22547a3dd40bdcff8c2c7b84799429106dab81e2031905d11.jpg)
 
-# Credit Risk Measurement: KMV
+## Credit Risk Measurement: KMV
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/a0c6a343c88f2bc641bb4dd46f16578bfb9646d44139e69c6f91cfd5417c2b00.jpg)  
 Model implied value of equity
 
 - The plot shows a combination of  $V_{0}$  and  $\sigma$  that equates the model equity value to the market equity capitalization of 2.26 bil.
 
-# Credit Risk Measurement: KMV
+## Credit Risk Measurement: KMV
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/fbf48771-8083-4822-9cc1-70b4b77cdf6f/1e5169d71b10efbd0f99538b4d9fe82d21d63bb5be348dc3d68ee7203c6212e9.jpg)  
 Model implied volatility of equity
@@ -436,7 +459,7 @@ $$
 d_{2} = 2.69 \quad \text{and} \quad p_{T} = 36 \mathrm{bp}
 $$
 
-### Credit Risk Measurement: KMV
+#### Credit Risk Measurement: KMV
 
 - According to the transition table at the end of the case, a BBB company has 45 bp chance of defaulting.
 - KMV argues that the normal distribution is imperfect, especially because of the thin tails.
@@ -448,7 +471,7 @@ Fig. 17. Mapping of the "distance-to-default" into the "expected default frequen
 
 - For  $d_{2} = 2.69$  it looks on target.
 
-## The Credit Derivatives Market
+### The Credit Derivatives Market
 
 - Credit derivatives are securities whose payoff depend on a "credit event"
 - The credit event could be "default," change in the credit rating of the issuer, or change in credit spreads.
@@ -466,7 +489,7 @@ Figure 2. Breakdown by end users
 
 Source: Risk Magazine 2003 Credit Derivatives Survey.
 
-## Credit Derivatives
+### Credit Derivatives
 
 - Definition of Default: Any non-compliance with the exact specification of a contract.
 - The contracts generally involve three parties:

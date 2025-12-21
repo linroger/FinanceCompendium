@@ -1,4 +1,11 @@
-# Sources of Information for Investing in Common Stock
+---
+title: "Chapter 05 Sources of Information for Investing in Common Stock"
+date: "2025-12-20"
+primary_tags: ["financial information sources", "sec filings", "company disclosures", "annual reports", "proxy statements", "financial analysis"]
+secondary_tags: ["regulatory filings", "10k report", "10q report", "8k filing", "prospectus", "press releases", "letter to shareholders", "financial restatements", "accounting standards"]
+---
+
+# Chapter 05 Sources of Information for Investing in Common Stock
 
 Pamela P. Peterson, Ph.D., CFA
 
@@ -18,7 +25,7 @@ There is a wealth of financial information about companies available to financia
 
 A key source of information in analyzing the earnings of a company as well as its economic well-being is provided in various financial reports required to be published by the company. In this chapter we look at these reports and other sources of information.
 
-# SOURCES OF FINANCIAL INFORMATION
+## Sources of Financial Information
 
 There are many sources of information available to analysts. One source of information is the company itself, preparing documents for regulators and distribution to shareholders. Another source is information prepared by government agencies that compile and report information about industries and the economy. Still another source is information prepared by financial service firms that compile, analyze, and report financial and other information about the company, the industry, and the economy.
 
@@ -43,7 +50,7 @@ EXHIBIT 5.1 Federal Regulation of Securities and Markets in the United States
 
 <table><tr><td>Law</td><td>Description</td></tr><tr><td>Securities Act of 1933</td><td>Regulates new offerings of securities to the public; requires the filing of a registration statement containing specific information about the issuing corporation and prohibits fraudulent and deceptive practices related to security offers.</td></tr><tr><td>Securities and Exchange Act of 1934</td><td>Establishes the Securities and Exchange Commission (SEC) to enforce securities regulations and extends regulation to the secondary markets.</td></tr><tr><td>Investment Company Act of 1940</td><td>Gives the SEC regulatory authority over publicly held companies that are in the business of investing and trading in securities.</td></tr><tr><td>Investment Advisers Act of 1940</td><td>Requires registration of investment advisors and regulates their activities.</td></tr><tr><td>Federal Securities Act of 1964</td><td>Extends the regulatory authority of the SEC to include the over-the-counter securities markets.</td></tr></table>
 
-# INFORMATION PREPARED BY THE COMPANY
+## Information Prepared by the Company
 
 Documents prepared by a company can be divided into two groups:
 
@@ -52,7 +59,7 @@ Documents prepared by a company can be divided into two groups:
 
 Though both types of documents provide financial and related information about the company, the documents prepared for regulators differ from those prepared for shareholders in terms of the depth of information and form of presentation.
 
-# Disclosures Required by Regulatory Authorities
+### Disclosures Required by Regulatory Authorities
 
 Companies whose stock is traded in public markets are subject to a number of securities laws that require specific disclosures. Several of these securities laws are described briefly in Exhibit 5.1. Publicly traded companies are required by securities laws to disclose information through filings with the SEC. The SEC, a federal agency that administers federal securities laws, established by the Securities and Exchange Act of 1934, carries out the following activities:
 
@@ -64,7 +71,7 @@ Oversees the self-regulation of the securities industry by the stock exchanges a
 
 The publicly traded company must make a number of periodic and occasional filings with the SEC. In addition, major shareholders and executives must make periodic and occasional filings. A number of these filings are described in Exhibit 5.2 and in more detail in the following sections.
 
-# 10-K and 10-Q Filings
+### 10-K and 10-Q Filings
 
 The 10-K is an annual report required by Section 13 of the Securities and Exchange Act of 1934. The 10-K filing contains the information provided in the annual report plus additional requirements, such as the management discussion and analysis (MDA), and must be filed within 90 days after close of a corporation's fiscal year.
 
@@ -98,7 +105,7 @@ In addition to the specific information, the MDA should include any other inform
 
 The MDA provides a discussion of risks, trends, and uncertainties that pertain to the company and is a useful device for management to explain the financial results in terms of the company's strategies, recent actions (e.g., mergers), and the company's competitors. The MDA also provides information that may help reconcile previous years' financial results with the current year's. Form 10-Q must be filed within 45 days after close of a corporation's fiscal quarter. This filing is similar to the 10-K, yet there is much less detailed information.
 
-# Proxy Statements
+### Proxy Statements
 
 In addition to the financial statement and management discussion information available in the periodic 10-Q and 10-K filings, useful non-financial information is available in proxy statements. The proxy statement notifies designated classes of shareholders of matters to be voted upon at a shareholders' meeting. The proxy statement provides an array of information on issues such as:
 
@@ -123,7 +130,7 @@ The 195,000 expenditure in 1990 by Occidental Petroleum to finance a book about 
 In 1990, an Executive Vice-President of W. R. Grace and Chief Executive Officer of the subsidiary, National Medical Care, consented to the entry of a misdemeanor finding and to the payment of a fine for his importation of skins of endangered species in violation of federal law.[2]
 ■ Mr. Goldston, the president and chief executive officer and a director of the Einstein Noah Bagel Corporation was also employed by Boston Chicken "to undertake various special projects for Boston Chicken." Following this arrangement, Mr. Goldston became Vice Chairman of the Board and a director of Boston Chicken. It is comforting that "Boston Chicken has agreed to structure Mr. Goldston's future projects so that his employment with Boston Chicken will not interfere with his duties" with Einstein Noah Bagel.
 
-# 8-K Filing
+### 8-K Filing
 
 The 8-K statement is an occasional filing that provides useful information about the company that is not generally found in the financial statements. The 8-K statement is filed by a company if there is a significant event. The specific events that require filing this statement are:
 
@@ -139,11 +146,11 @@ On June 3, 1996, Discovery Zone, Inc. (the "Registrant") was informed by its ind
 
 In addition, any other event that the company deems important to shareholders may be reported using an 8-K filing. Because 8-K filings are triggered by major company events, it is useful for the analyst to keep abreast of any such filings for the companies that they follow.
 
-# Registration Statement and Prospectus
+### Registration Statement and Prospectus
 
 When a corporation offers a new security to the public, the SEC requires that the corporation prepare and file a registration statement. The registration statement presents financial statement data, along with detailed information about the new security. A condensed version of this statement, called a prospectus, is made available to potential investors.
 
-# Documents Distributed to Shareholders
+## Documents Distributed to Shareholders
 
 The objective of financial reporting is to "provide information that is useful to present and potential investors and creditors and other users in making rational investment, credit, and similar decisions."[4] With that objective in mind, the financial reports prepared and distributed by the company should assist users in assessing "the amounts, timing and uncertainty of prospective net cash inflows of the enterprise."5 Therefore, the financial reports to shareholders are not simply a presentation of the basic financial statements—the balance sheet, the income statement, and the statement of cash flows—but also communicate additional non-financial information, such as information about the relevant risks and uncertainties of the company. To that end, recent changes in accounting standards have broadened the extent and type of the information presented within the financial statements and in notes to the financial statements. For example, companies are now required to disclose risks and uncertainties related to their operations, how they use estimates in the preparation of financial statements, and the vulnerability of the company to geographic and customer concentrations.6
 
@@ -155,7 +162,7 @@ Because of the wide latitude that companies have in presenting the information t
 
 In addition to the annual and quarterly reports, companies provide information through press releases using commercial wire services such as PR Newswire (www.prnewswire.com), Business Wire (www.businesswire.com), First Call (www.firstcall.com), or Dow Jones (bis.dowjones.com). The wire services then distribute this information to print and Internet mediums. The information provided in press releases includes earnings, dividend, new product, and acquisition announcements.
 
-# Letter to Shareholders
+### Letter to Shareholders
 
 The letter to shareholders included in the annual and quarterly reports is sometimes dismissed by analysts and investors as unimportant because the management discussion analysis in the 10-K and shareholder report provides more detailed information. Moreover, management has less flexibility in preparing the MDA. If management is found to materially mislead investors in the MDA, SEC action can be taken. In contrast, no action will be taken by the SEC if the chief executive officer's letter to shareholders—typically prepared by the firm's investor relations or public relations staff—is optimistic despite the financial difficulties currently facing the firm.
 
@@ -170,7 +177,7 @@ Now let's look at what was said in the MDA in the 1983 10-K for this company. Th
 
 For a more recent example, consider the perspectives on operating profit used in PepsiCo. Inc.'s 1997 annual report and 10-K. Factually correct data can be presented in both the annual report and the 10-K, but interpreted with different emphasis. In PepsiCo Inc.'s annual report's Letter from the Chairman,
 
-"In snacks and beverages—called 'continuing operations in the financial pages'—our operating profit grew  $30\%$  and earnings per share grew  $62\%$ . Operating profit margins improved by almost three percentage points."
+"In snacks and beverages—called 'continuing operations in the financial pages'—our operating profit grew 30\% and earnings per share grew 62\%. Operating profit margins improved by almost three percentage points."
 
 A  $30\%$  increase in operating profits is quite impressive. In the MDA of the 10-K, a slightly different—and slightly less “rosy”—reading of the data is presented, with the  $30\%$  increase in reported profit and only a  $13\%$  increase in ongoing operations' profit:
 
@@ -180,11 +187,11 @@ A  $30\%$  increase in operating profits is quite impressive. In the MDA of the 
 
 In 1997, reported operating profit increased  \$622 million. Ongoing operating profit increased\$ 336 million reflecting segment operating profit growth of \$392 million or 14\%, partially offset by a \$56 million or 32\% increase in unallocated expenses. The increase in segment operating profit primarily reflects the volume gains and lower raw material costs in worldwide Beverages. The increase in unallocated expenses relates to higher corporate expenses and foreign exchange losses in 1997 compared to gains in 1996." (PepsiCo Inc. 1997 10-K, p. 13)
 
-And although the operating profit margin improved from  $10.0\%$  to  $12.7\%$  (the "almost three percentage points"), using data that is presented in both the annual report and the 10-K, the analyst can calculate that 1997's margin was lower than 1995's margin of  $13.7\%$ .
+And although the operating profit margin improved from 10.0\% to 12.7\% (the "almost three percentage points"), using data that is presented in both the annual report and the 10-K, the analyst can calculate that 1997's margin was lower than 1995's margin of 13.7\%.
 
 The point is that the analyst may find the letter to shareholders interesting. However, the MDA may identify where potential problems may exist, while the letter to shareholders may present a more rosy picture of the future prospects of the firm.
 
-# Issues in Using Financial Statement Data
+## Issues in Using Financial Statement Data
 
 There are a number of issues that should be considered in using the financial statement data provided in company and quarterly reports. We will look at these issues in the chapters to follow. For now, here are just three such issues:
 

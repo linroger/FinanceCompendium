@@ -1,3 +1,10 @@
+---
+title: "Chapter 02 Fundamentals of Investing"
+date: "2025-12-20"
+primary_tags: ["fundamentals of investing", "investment objectives", "asset classes", "risk measures", "portfolio strategy"]
+secondary_tags: ["individual investors", "institutional investors", "asset allocation", "total risk", "systematic risk", "inflation risk", "credit risk", "liquidity risk", "exchange rate risk", "interest rate risk", "portfolio construction", "performance evaluation"]
+---
+
 # Fundamentals of Investing
 
 Frank J. Fabozzi, Ph.D., CFA
@@ -10,7 +17,7 @@ Yale University
 
 In this chapter the fundamentals of investing will be reviewed. We will explain these fundamentals in terms of the phases that are involved in investing. These phases include: setting investment objectives, establishing an investment policy, selecting a portfolio strategy, constructing a portfolio, and evaluating performance.
 
-# SETTING INVESTMENT OBJECTIVES
+## Setting Investment Objectives
 
 The investment process begins with a thorough analysis of the investment objectives of the entity whose funds are being invested. These entities can be classified as individual investors and institutional investors.
 
@@ -28,7 +35,7 @@ Endowments and foundations
 
 In general we can classify institutional investors into two broad categories—those that must meet contractually specified liabilities and those that do not. We refer to those in the first category as institutions with "liability-driven objectives" and those in the second category as institutions with "non-liability-driven objectives." Some institutions have a wide range of investment products that they offer investors, some of which are liability-driven and others that are non-liability driven.
 
-# ESTABLISHING AN INVESTMENT POLICY
+## Establishing an Investment Policy
 
 Once the investment objectives are identified, an investor must then establish policy guidelines to satisfy the investment objectives. Setting policy begins with the asset allocation decision. That is, a decision must be made as to how the investor's funds should be distributed among asset classes. In making the asset allocation decision, investors will look at the risk and return characteristics of the asset classes in which they may invest and the correlation between the returns of each asset class. We define what is meant by an asset class and the notion of risk in the sections to follow.
 
@@ -40,7 +47,7 @@ Client constraints
 Regulatory constraints
 Accounting and tax issues
 
-# Asset Classes
+### Asset Classes
 
 From the perspective of a U.S. investor, the convention today is to refer to the following as traditional asset classes:
 
@@ -128,11 +135,11 @@ EXHIBIT 2.1 Benchmark Indexes for Common Stock Asset Classes
 
 Fortunately, there is an investment vehicle that can be used to obtain exposure to asset classes in a cost-effective manner. The vehicle is an investment company, more popularly referred to as a mutual fund. This investment vehicle is the subject of Chapter 21. For now, what is important to understand is that there are mutual funds that invest primarily in specific asset classes. Such mutual funds offer investors the opportunity to gain exposure to asset classes without having expertise in the management of the individual securities in that asset class and by investing a sum of money that, in the absence of a mutual fund, would not allow the investor to acquire a sufficient number of individual assets to obtain the desired exposure.
 
-# Risks Associated with Investing
+### Risks Associated with Investing
 
 There are various measures of risk. We will describe each of them here.
 
-# Total Risk
+#### Total Risk
 
 The dictionary defines risk as "hazard, peril, exposure to loss or injury." With respect to investments, investors have used a variety of definitions to describe risk. Today, the most commonly accepted definition of risk is one that involves a well-known statistical measure known as the variance. Specifically, investors quantify risk in terms of the variance of an asset's expected return. The variance of a random variable is a measure of the dispersion of the possible outcomes around the expected value. In the case of an asset's return, the variance is a measure of the dispersion of the possible outcomes for the return around the expected return.
 
@@ -163,20 +170,20 @@ The relationship between the movement in the price of an asset and the market ca
 
 The second product is the ratio of the amount of systematic risk relative to the total risk. This ratio is called the coefficient of determination or  $R$ -squared. This ratio varies from 0 to 1. A value of 0.8 for a portfolio means that  $80\%$  of the variation in the return of the portfolio is explained by movements in the market. For individual assets, this ratio is typically low because there is a good deal of unsystematic risk. However, through diversification the ratio increases as unsystematic risk is reduced (see Exhibit 2.2).
 
-# Inflation or Purchasing Power Risk
+#### Inflation or Purchasing Power Risk
 
-Inflation risk or purchasing power risk arises because of the variation in the value of an asset's cash flows due to inflation, as measured in terms of purchasing power. For example, if an investor purchases an asset that produces an annual return of  $5\%$  and the rate of inflation is  $3\%$ , the purchasing power of the investor has not increased by  $5\%$ . Instead, the investor's purchasing power has increased by  $2\%$ . Inflation risk is the risk that the investor's return from the investment in an asset will be less than the rate of inflation.
+Inflation risk or purchasing power risk arises because of the variation in the value of an asset's cash flows due to inflation, as measured in terms of purchasing power. For example, if an investor purchases an asset that produces an annual return of $5\%$ and the rate of inflation is $3\%$, the purchasing power of the investor has not increased by $5\%$. Instead, the investor's purchasing power has increased by $2\%$. Inflation risk is the risk that the investor's return from the investment in an asset will be less than the rate of inflation.
 
 Common stock is viewed as having little inflation risk. For all but inflation protection bonds, an investor is exposed to inflation risk by investing in fixed-rate bonds because the interest rate the issuer promises to make is fixed for the life of the issue.
 
-# Credit Risk
+#### Credit Risk
 
 An investor who purchases a security not guaranteed by the U.S. government is viewed as being exposed to credit risk. This risk is defined as the risk that the issuer will fail to satisfy the terms of the obligation with respect to the timely payment of interest and repayment of the amount borrowed thereby forcing the issuer into bankruptcy. All investors in a bankrupt entity (common stockholders and bondholders) will realize a decline in the value of their security as a result of bankruptcy.
 
 In the case of bonds, investors gauge the credit risk of an entity by looking at the credit ratings assigned to issues by rating companies, popularly referred to as rating agencies. There are three rating agencies in the United States: Moody's Investors Service, Inc., Standard & Poor's Corporation, and Fitch. These ratings are discussed in Chapter 11.
 
 
-# Liquidity Risk
+#### Liquidity Risk
 
 When an investor wants to sell an asset, he or she is concerned whether the price that can be obtained from dealers is close to the true value of the asset. For example, if recent trades in the market for a particular asset have been between \$40 and \$40.50 and market conditions have not changed, an investor would expect to sell the asset in that range.
 
@@ -184,17 +191,19 @@ Liquidity risk is the risk that the investor will have to sell an asset below it
 
 Liquidity risk is also important for portfolio managers that must mark to market positions periodically. For example, the manager of a mutual fund is required to report the market value of each holding at the end of each business day. This means accurate price information must be available. Some assets do not trade frequently and are therefore difficult to price.
 
-# Exchange Rate or Currency Risk
+#### Exchange Rate or Currency Risk
 
 An asset whose payments are not in the domestic currency of the investor has unknown cash flows in the domestic currency. The cash flows in the investor's domestic currency are dependent on the exchange rate at the time the payments are received from the asset. For example, suppose an investor's domestic currency is the U.S. dollar and that the investor purchases an asset whose payments are in euros. If the euro depreciates relative to the U.S. dollar at the time a euro payment is received, then fewer U.S. dollars will be received.
 
 The risk of receiving less of the domestic currency than is expected at the time of purchase when an asset makes payments in a currency other than the investor's domestic currency is called exchange rate risk or currency risk.
 
-# Risks for Bonds
+#### Risks for Bonds
 
 There are systematic risks that affect bond returns in addition to those described above. They include interest rate risk, call/prepayment risk, and reinvestment risk.
 
-Interest Rate Risk The price of a bond changes as interest rates change. Specifically, price moves in the opposite direction to the change in inter est rates. That is, if interest rates increase, the price of a bond will decline; if interest rates decrease, the price of a bond will increase. This is the reason a bond will sell above its par value (i.e., sell at a premium) or below its par value (i.e., sell at a discount). The risk that the price of a bond or bond portfolio will decline when interest rates increase is called interest rate risk.
+##### Interest Rate Risk
+
+The price of a bond changes as interest rates change. Specifically, price moves in the opposite direction to the change in interest rates. That is, if interest rates increase, the price of a bond will decline; if interest rates decrease, the price of a bond will increase. This is the reason a bond will sell above its par value (i.e., sell at a premium) or below its par value (i.e., sell at a discount). The risk that the price of a bond or bond portfolio will decline when interest rates increase is called interest rate risk.
 
 
 The sensitivity of the price of a bond to changes in interest rates depends on the following factors:
@@ -211,17 +220,14 @@ All other factors being constant, the lower the level of interest rates, the gre
 
 Consequently, the price of a zero-coupon bond with a long maturity is highly sensitive to changes in interest rates. The price sensitivity is even greater in a low interest rate environment than in a high interest rate environment. For money market instruments, since their maturity is less than one year, the price is not very sensitive to changes in interest rates.
 
-The price sensitivity of a bond to changes in interest rates can be estimated. This measure is called the duration of a bond. Duration is the approximate percentage change in the price of a bond for a 100-basis-point change in interest rates. For example, if a bond has a duration of 8, this means that for a 100-basis-point change in interest rates, the price will change by approximately  $8\%$ . For a 50-basis-point change in interest rates, the price of this bond would change by approximately  $4\%$ .
+The price sensitivity of a bond to changes in interest rates can be estimated. This measure is called the duration of a bond. Duration is the approximate percentage change in the price of a bond for a 100-basis-point change in interest rates. For example, if a bond has a duration of 8, this means that for a 100-basis-point change in interest rates, the price will change by approximately $8\%$. For a 50-basis-point change in interest rates, the price of this bond would change by approximately $4\%$.
 
-Given the price of a bond and its duration, the dollar price change can be estimated. For example if our bond with a duration of 8 has a price of  \$90,000, the price will change by about 8\%$  for a 100-basis-point change in interest rates and therefore dollar price change will be about 7,200 (8\% times \$90,000). For a 50-basis-point change, the price would change by about \$3,600.
-
-The concept of duration applies to a bond portfolio also. For example, if an investor has a bond portfolio with a duration of 6 and the market value of the portfolio is 1 million, this means that a change in interest rates of 100 basis points will change the value of the portfolio by approximately  $6\%$  and therefore the value of the portfolio will change by approximately \$60,000. For a 25-basis-point change in interest rates, the portfolio's value will change by approximately 1.5\%$  and the portfolio's value will change by approximately \15,000.
-
+Given the price of a bond and its duration, the dollar price change can be estimated. For example if our bond with a duration of 8 has a price of \$90,000, the price will change by about 8\% for a 100-basis-point change in interest rates and therefore dollar price change will be about 7,200 (8\% times \$90,000). For a 50-basis-point change, the price would change by about \$3,600.
 
 How is duration computed? First, two prices are computed. One is based on an increase in interest rates and the second is based on a decrease in interest rates. Duration is then computed as follows:
 
 $$
-\text {D u r a t i o n} = \frac {\text {P r i c e i f r a t e s d e c r e a s e - P r i c e i f r a t e s i n c r e a s e}}{2 \times \text {I n i t i a l p r i c e} \times \text {C h a n g e i n r a t e s i n d e c i m a l f o r m}}
+\text{Duration} = \frac{\text{Price if rates decrease - Price if rates increase}}{2 \times \text{Initial price} \times \text{Change in rates in decimal form}}
 $$
 
 Typically, interest rates fluctuate up and down by an amount less than 50 basis points. But regardless of the rate change used, the interpretation is still that it is the approximate percentage price change for a 100-basis-point change in rates.
@@ -233,11 +239,15 @@ The second limitation of duration is that it is a good approximation for small c
 The third limitation has to do with the duration of a portfolio. In computing the duration of the portfolio, first the duration of each bond in the portfolio is computed. Then a weighted average of the duration of the bonds in the portfolio is computed to get the portfolio duration. The limitation comes about because it is assumed that the interest rate for all maturities change by the same number of basis points. So, if a portfolio has a 2-year, a 10-year, and a 20-year bond, when using a portfolio's duration it is assumed that the 2-year, 10-year, and 20-year bonds change by the same number of basis points. This assumption is commonly referred to as the "parallel yield curve assumption."
 
 
-Call/Prepayment Risk A bond may include a provision that allows the issuer to retire or call all or part of the issue before the maturity date. From the investor's perspective, there are three disadvantages to call provisions. First, the cash flow pattern of a callable bond is not known with certainty because it is not known when the bond will be called. Second, because the issuer is likely to call the bonds when interest rates have dropped below the bond's coupon rate, the investor is exposed to reinvestment risk; this is risk that the investor will have to reinvest the proceeds when the bond is called at interest rates lower than the bond's coupon rate. Finally, the price appreciation potential of a bond will be reduced relative to an otherwise comparable bond without a call provision. Because of these three disadvantages faced by the investor, a callable bond is said to expose the investor to call risk. The same disadvantages apply to mortgage-backed and asset-backed securities where the borrower can prepay. In this case the risk is referred to as prepayment risk.
+##### Call/Prepayment Risk
 
-Reinvestment Risk Reinvestment risk is the risk that proceeds available for reinvestment must be reinvested at a lower interest rate than the instrument that generated the proceeds. In addition to reinvestment risk when investing in a callable or prepayable bond, reinvestment risk occurs when an investor purchases a bond and relies on the yield of that bond as a measure of return potential. This point we be discussed later.
+A bond may include a provision that allows the issuer to retire or call all or part of the issue before the maturity date. From the investor's perspective, there are three disadvantages to call provisions. First, the cash flow pattern of a callable bond is not known with certainty because it is not known when the bond will be called. Second, because the issuer is likely to call the bonds when interest rates have dropped below the bond's coupon rate, the investor is exposed to reinvestment risk; this is risk that the investor will have to reinvest the proceeds when the bond is called at interest rates lower than the bond's coupon rate. Finally, the price appreciation potential of a bond will be reduced relative to an otherwise comparable bond without a call provision. Because of these three disadvantages faced by the investor, a callable bond is said to expose the investor to call risk. The same disadvantages apply to mortgage-backed and asset-backed securities where the borrower can prepay. In this case the risk is referred to as prepayment risk.
 
-# SELECTING A PORTFOLIO STRATEGY
+##### Reinvestment Risk
+
+Reinvestment risk is the risk that proceeds available for reinvestment must be reinvested at a lower interest rate than the instrument that generated the proceeds. In addition to reinvestment risk when investing in a callable or prepayable bond, reinvestment risk occurs when an investor purchases a bond and relies on the yield of that bond as a measure of return potential. This point will be discussed later.
+
+## Selecting a Portfolio Strategy
 
 Given the investment objectives and the investment policy, the investor must then develop a portfolio strategy. Portfolio strategies can be classified as either active or passive.
 
@@ -249,11 +259,11 @@ Given the choice among active or passive management, which should be selected? T
 
 The most common passive strategy is indexing. In indexing, the investor designs a portfolio so that it will replicate the performance of the index.
 
-# CONSTRUCTING THE PORTFOLIO
+## Constructing the Portfolio
 
 Once a portfolio strategy is selected, the next step is to select the specific financial instruments to be included in the portfolio. In the discussion to follow, we will refer to financial instruments as "securities." This requires an evaluation of each security and the creation of an efficient portfolio. An efficient portfolio is one that provides the greatest expected return for a given level of risk, or equivalently, the lowest risk for a given expected return.
 
-# Constructing an Indexed Portfolio
+### Constructing an Indexed Portfolio
 
 As just mentioned, an investor who pursues the most popular form of a passive strategy, indexing, will assemble a portfolio that attempts to match the performance of the index. In theory, it is quite simple to do. An investor can purchase every security in the index. The amount purchased of a particular security should be equal to the percentage of that security in the index.
 
@@ -261,11 +271,11 @@ For example, consider the S&P 500. As the name indicates, there are 500 companie
 
 
 $$
-\mathrm{Microsoft} = \frac{\mathbb{S}315,924}{\mathbb{S}10,079,000} = 3.13\%
+\text{Microsoft} = \frac{\$315,924}{\$10,079,000} = 3.13\%
 $$
 
 $$
-\text{Johnson} \& \text{Johnson} = \frac {\mathbb {S} 186,798}{\mathbb {S} 10,079,000} = 1.85 \%
+\text{Johnson \& Johnson} = \frac{\$186,798}{\$10,079,000} = 1.85\%
 $$
 
 Suppose an investor had  \$10 million to invest on February 28, 2002. The dollar amount invested in Microsoft and Johnson & Johnson to match the index would have been\$ 315,000 and 185,000, respectively.
@@ -277,7 +287,7 @@ For individuals, index replication is typically not accomplished by buying indiv
 For institutional investors, even with a large amount of funds to invest, the portfolio manager still faces the problem of transaction costs and unavailability of certain securities. There are trading arrangements that have been developed in some markets that allow for more efficient execution of trades so as to minimize transaction costs and therefore the likelihood that the indexed portfolio will underperform the index. For common stock, these trading arrangements are described in Chapter 4. In the case of unavailable securities or a universe of securities so large that it is impractical to acquire all the securities in the index, there are methodologies that can be used to minimize the risk of not matching the index. We'll discuss this further below.
 
 
-# Constructing an Active Portfolio
+### Constructing an Active Portfolio
 
 In an active strategy, an investor is seeking to outperform the index or, in the case of liability-driven institutional investors, earn a higher return than a liability that it must pay. The construction of an active portfolio begins with an analysis of the factors that have historically determined the return on the index. Once these factors are identified, then the index can be decomposed into these factors or, more specifically, a risk profile of the index can be identified based on these factors.
 
@@ -285,7 +295,7 @@ Active management involves a deliberate decision by the portfolio manager to cre
 
 For an indexing strategy, in contrast, this approach involves creating a portfolio with a profile that matches the risk profile (i.e., matching the factors) of the index. This mitigates the problem mentioned earlier of having to buy all the securities in the index.
 
-# Techniques for Selecting Securities in an Active Strategy
+### Techniques for Selecting Securities in an Active Strategy
 
 Portfolio construction involves assessing the exposure of individual securities to the factors. In addition, an expected return is required to construct a portfolio. The expected return can be obtained subjectively without any formal analysis (a "hunch"), by using technical analysis, or by using financial models. Technical analysis is explained in Chapter 4. Here we will discuss financial models. These include:
 
@@ -325,7 +335,7 @@ Multi-Factor Asset Pricing Models Multi-factor asset pricing models are models t
 
 For each risk factor a market price is estimated. The product of the factor beta and the market price of risk for that factor summed over all the factors is then the risk premium. The expected return is then equal to the risk-free rate plus the risk premium.
 
-# EVALUATING PERFORMANCE
+## Evaluating Performance
 
 Periodically the investor must assess the performance of the portfolio and therefore the portfolio strategy. This process begins with calculating the return realized over the investment period. The procedure for calculating the realized return is described in Chapter 3. The realized return is then compared to the return on the benchmark. The benchmark can be a market index or a minimum return established by a liability. The comparison will allow the investor to determine whether the portfolio outperformed, matched, or underperformed the benchmark.
 
