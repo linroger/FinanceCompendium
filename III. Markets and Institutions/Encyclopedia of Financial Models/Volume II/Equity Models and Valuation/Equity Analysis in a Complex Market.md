@@ -162,7 +162,6 @@ Table 3 Market Sensitivities of Monthly Returns to Value-Related Variables
 
 <table><tr><td>Variable</td><td>Naïve</td><td>(t-stat.)</td><td>Pure</td><td>(t-stat.)</td></tr><tr><td>DDM</td><td>0.06</td><td>(5.4)</td><td>0.04</td><td>(5.6)</td></tr><tr><td>B/P</td><td>-0.10</td><td>(-6.2)</td><td>-0.01</td><td>(-0.8)</td></tr><tr><td>Yield</td><td>-0.08</td><td>(-7.4)</td><td>-0.03</td><td>(-3.5)</td></tr></table> cient in the first column indicates that a portfolio with a one-standard-deviation exposure to DDM value will tend to outperform by  $0.06\%$  when the market rises by  $1.00\%$  and to underperform by a similar margin when the market falls by  $1.00\%$ . The coefficient for pure returns to DDM is similar. Whether their returns are measured in pure or naïve form, stocks with high DDM values tend to behave procyclically.
 
-
 High B/P appears to be a better indicator of a defensive stock. It has a regression coefficient of  $-0.10$  in naïve form. In pure form, however, B/P is virtually uncorrelated with market movements; pure B/P signals neither an aggressive nor a defensive stock. B/P as naively measured apparently picks up the effects of truly defensive variables, such as high yield.
 
 The value investor in search of a defensive posture in uncertain market climates should consider moving toward high yield. The regression coefficients for both naïve and pure returns to high yield indicate significant negative market sensitivities. Stocks with high yields may be expected to lag in up markets but to hold up relatively well during general market declines.
@@ -187,13 +186,11 @@ Figure 5 Forecast Response of Small Size to Macroeconomic Shocks
 
 These examples serve to illustrate that the use of numerous, finely defined fundamental variables can provide a rich representation of the complexity of security pricing. The model can be even more finely tuned, however, by including variables that capture such subtleties as the effects of investor psychology, possible non linearities in variable-return relationships, and security transaction costs.
 
-
 ## Additional Complexities
 
 In considering possible variables for inclusion in a model of stock price behavior, the investor should recognize that pure stock returns are driven by a combination of economic fundamentals and investor psychology. That is, economic fundamentals such as interest rates, industrial production, and inflation can explain much, but by no means all, of the systematic variation in returns. Psychology, including investors' tendency to overreact, their desire to seek safety in numbers, and their selective memories, also plays a role in security pricing.
 
 What's more, the modeler should realize that the effects of different variables, fundamental and otherwise, can differ across different types of stocks. The value sector, for example, includes more financial stocks than the growth sector. Investors may thus expect value stocks in general to be more sensitive than growth stocks to changes in interest rate spreads.
-
 
 Psychologically based variables such as short-term overreaction and price correction also seem to have a stronger effect on value than on growth stocks. Earnings surprises and earnings estimate revisions, by contrast, appear to be more important for growth than for value stocks. Thus, Google shares can take a nosedive when earnings come in a penny under expectations, whereas Duke Energy shares remain unmoved even by fairly substantial departures of actual earnings from expectations.
 
@@ -215,7 +212,6 @@ To maximize implementation of the model's insights, the portfolio construction p
 Consider a commercially available portfolio optimizer that recognizes only a subset of the variables in the valuation model. Risk reduction using such an optimizer will reduce the portfolio's exposures only along the dimensions the optimizer recognizes. As a result, the portfolio is likely to wind up more exposed to those variables recognized by the model, but not the optimizer, and less exposed to those variables common to both the model and the optimizer.
 
 Imagine an investor who seeks low-P/E stocks that analysts are recommending for purchase, but who uses a commercial optimizer that incorporates a P/E factor but not analyst recommendations. The investor is likely to wind up with a portfolio that has a less-than-optimal level of exposure to low P/E and a greater-than-optimal level of exposure to analyst purchase recommendations. Optimization using all relevant variables ensures a portfolio whose risk and return opportunities are balanced in accordance with the model's insights. Furthermore, the use of more numerous variables allows portfolio risk to be more finely tuned.
-
 
 Insofar as the investment process, both stock selection and portfolio construction, is model-driven, it is more adaptable to electronic trading venues. This should benefit the investor in several ways. First, electronic trading is generally less costly, with lower commissions, market impact, and opportunity costs. Second, it allows real-time monitoring, which can further reduce trading costs. Third, an automated trading system can take account of more factors, including the urgency of a particular trade and market conditions, than individual traders can be expected to bear in mind.
 

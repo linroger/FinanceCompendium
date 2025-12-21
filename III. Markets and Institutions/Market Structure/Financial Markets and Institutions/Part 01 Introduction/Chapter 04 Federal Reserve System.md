@@ -1,15 +1,26 @@
 ---
-aliases:
-  - "Federal Reserve System"
-tags:
-key_concepts:
-parent_directory: "III. Markets and Institutions/Market Structure/Financial Markets and Institutions/Part 01 Introduction"
-cssclasses: academia
 title: "Chapter 04: Federal Reserve System"
-linter-yaml-title-alias: "Chapter 04: Federal Reserve System"
+parent_directory: "Part 01 Introduction"
+formatted: "2025-12-21 10:45:00 AM"
+formatter_model: "claude-haiku-4-5-20251001"
+cli-tool: "claude-code"
+primary_tags:
+  - "federal reserve system"
+  - "monetary policy tools"
+  - "central banking"
+  - "open market operations"
+  - "discount window"
+secondary_tags:
+  - "federal open market committee"
+  - "reserve requirements"
+  - "federal funds rate"
+  - "money supply"
+  - "interest rate targeting"
+  - "balance sheet operations"
+cssclasses: academia
 ---
 
-# Organization of the Federal Reserve System www.newyorkfed.org
+## Organization of the Federal Reserve System www.newyorkfed.org
 
 The Federal Reserve System is divided into 12 Federal Reserve districts that are the "operating arms" of the central banking system (see Figure 4-1). Each district has one main Federal Reserve Bank, some of which also have branches in other cities within the district (identified in Figure 4-1). In addition to carrying out the functions for the central banking system as a whole, each Reserve bank acts as a depository institution for the banks in its district. In terms of total assets, the three largest Federal Reserve Banks are the New York, San Francisco, and Richmond banks. As of December 2018, these three banks hold over 74 percent of the total assets (discussed later) of the Federal Reserve System. The Federal Reserve Bank of New York (FRBNY) is generally considered the most important of the Federal Reserve Banks because so many of the largest U.S. and international banks are located in the New York district. Further, the Federal Reserve's Trading Desk, which (as discussed below) carries out all the open market purchases for the Federal Reserve, is located at the FRBNY.
 
@@ -40,7 +51,7 @@ www.occ.treas.gov
 
 Federal Reserve Banks operate as nonprofit organizations. They generate income primarily from three sources: (1) interest earned on government securities acquired in the course of Federal Reserve open market transactions (see below), (2) interest earned on reserves that banks are required to deposit at the Fed (see reserve requirements below), and (3) fees from the provision of payment and other services to member depository institutions.
 
-# Board of Governors of the Federal Reserve System
+## Board of Governors of the Federal Reserve System
 
 The Board of Governors of the Federal Reserve (also called the Federal Reserve Board) is a seven-member board headquartered in Washington, DC. Each member is appointed by the president of the United States and must be confirmed by the Senate. Board members serve a nonrenewable 14-year term. Board members are often individuals with PhD degrees in economics and/or an extensive background in economic research and political service, particularly in the area of banking. Board members' terms are staggered so that one term expires every other January. The president designates two members of the board to be the chair and vice chair for four-year terms. The board usually meets several times per week. As they carry out their duties, members routinely confer with officials of other government agencies, representatives of banking industry groups, officials of central banks of other countries, members of Congress, and academics.
 
@@ -52,25 +63,19 @@ The chair of the Federal Reserve Board, currently Jerome Powell, often advises t
 
 www.occ.treas.gov www.fdic.gov
 
-# Federal Open Market Committee (FOMC)
+## Federal Open Market Committee (FOMC)
 
-The major monetary policy-making body of the Federal Reserve System.
+### open market operations
 
-# open market operations
-
-Purchases and sales of U.S. government and federal agency securities by the Federal Reserve.
-
-# Federal Open Market Committee
+## Federal Open Market Committee
 
 The Federal Open Market Committee (FOMC) is the major monetary policy-making body of the Federal Reserve System. As alluded to earlier, the FOMC consists of the seven members of the Federal Reserve Board of Governors, the president of the Federal Reserve Bank of New York, and the presidents of four other Federal Reserve Banks (on a rotating basis). The chair of the Board of Governors is also the chair of the FOMC. The FOMC is required to meet at least four times each year in Washington, DC. However, eight regularly scheduled meetings have been held each year since 1980.
 
 The main responsibilities of the FOMC are to formulate policies to promote full employment, economic growth, price stability, and a sustainable pattern of international trade. The FOMC seeks to accomplish this by setting guidelines regarding open market operations. Open market operations—the purchase and sale of U.S. government and federal agency securities—is the main policy tool that the Fed uses to achieve its monetary targets (although the operations themselves are normally carried out by traders at the Federal Reserve Bank of New York, as discussed below). The FOMC also sets ranges for the growth of the monetary aggregates, sets the federal funds rate (see below), and directs operations of the Federal Reserve in foreign exchange markets (see Chapter 9). In addition, although reserve requirements and the discount rate are not specifically set by the FOMC, their levels are monitored and guided by the FOMC. Associated with each meeting of the FOMC is the release of the Beige Book. The Beige Book summarizes information on current economic conditions by Federal Reserve district. Information included in the Beige Book is drawn from reports from bank directors, interviews with key business leaders, economists, market experts, and other sources. Meetings of the FOMC are some of the most closely watched economic meetings in the world. As the FOMC formulates and implements monetary policy, its actions affect not only the U.S. economy, but economies worldwide.
 
-# Functions Performed by Federal Reserve Banks
+## Functions Performed by Federal Reserve Banks
 
-As part of the Federal Reserve System, Federal Reserve Banks (FRBs) perform multiple functions. These include assistance in the conduct of monetary policy; supervision and regulation of member banks and other large financial institutions; consumer protection; and the provision of services such as new currency issue, check clearing, wire transfer, and research services to the federal government, member banks, or the general public. We summarize these functions in Table 4-1. The In the News box in this section describes how the Federal Reserve provided extraordinary services in many of these areas in response to the recent financial crisis.
-
-# TABLE 4-1 Functions Performed by the Federal Reserve Banks
+### TABLE 4-1 Functions Performed by the Federal Reserve Banks
 
 Assistance in the conduct of monetary policy—Federal Reserve Bank presidents serve on the Federal Open Market Committee (FOMC). FRBs set and change discount rates.
 
@@ -88,21 +93,9 @@ Wire transfer services—FRBs and their member banks are linked electronically t
 
 Research services—each FRB has a staff of professional economists who gather, analyze, and interpret economic data and developments in the banking sector in their district and economywide.
 
-# The Financial Crisis: Toward an Explanation and Policy Response
+## The Financial Crisis: Toward an Explanation and Policy Response
 
-In the first half of 2007, as the extent of declining home prices became apparent, banks and other financial market participants started to reassess the value of mortgages and mortgage-backed securities that they owned, especially those in the subprime segment of the housing market. The autumn of 2007 saw increasing strains in a number of market segments, including asset-backed commercial paper, and banks also began to exhibit a reluctance to lend to one another for terms much longer than overnight. This reluctance was reflected in a dramatic rise in the London Interbank Offered Rate (LIBOR) at most maturities greater than overnight. LIBOR is a measure of the rates at which international banks make dollar loans to one another. Since that initial disruption, financial markets have remained in a state of high volatility, with many interest rate spreads at historically high levels.
-
-In response to this turbulence, the Fed and the federal government have taken a series of dramatic steps. As 2007 came to a close, the Federal Reserve Board announced the creation of a Term Auction Facility (TAF), in which fixed amounts of term funds are auctioned to depository institutions against any collateral eligible for discount window loans. So while the TAF substituted an auction mechanism for the usual fixed interest rate, this facility can be seen essentially as an extension of more conventional discount window lending. In March 2008, the New York Fed provided term financing to facilitate the purchase of Bear Stearns by JPMorgan Chase through the creation of a facility that took a set of risky assets off the company's balance sheet. That month, the board also announced the creation of the Term Securities Lending Facility (TSLF), swapping Treasury securities on its balance sheet for less liquid private securities held in the private sector, and the Primary Dealer Credit Facility (PDCF). These actions, particularly the latter, represented a significant expansion of the federal financial safety net by making available a greater amount of central bank credit, at prices unavailable in the market, to institutions (the primary dealers) beyond those banks that typically borrow at the discount window… .
-
-In the fall of 2008, financial markets worldwide experienced another round of heightened volatility and historic changes: Lehman Brothers filed for Chapter 11 bankruptcy protection; investment banking companies Goldman Sachs and Morgan Stanley successfully submitted applications to become bank holding companies; Bank of America purchased Merrill Lynch; Wells Fargo acquired Wachovia; PNC Financial Services Group purchased National City Corporation; and the American International Group received significant financial assistance from the Federal Reserve and the Treasury Department. On the policy front, the Federal Reserve announced the creation of several new lending facilities—including the Asset-Backed Commercial Paper Money Market Mutual Fund Liquidity Facility (AMLF), the Commercial Paper Funding Facility (CPFF), the Money Market Investor Funding Facility (MMIFF), and the Term Asset-Backed Securities Loan Facility (TALF), the last of which became operational in March
-
-2009. The TALF was designed to support the issuance of asset-backed securities collateralized by student loans, auto loans, credit card loans, and loans guaranteed by the Small Business Administration, while also expanding the TAF and the TSLF. The creation of these programs resulted in a tremendous expansion of the Federal Reserve's balance sheet. Furthermore, Congress passed the Troubled Asset Relief Program (TARP) to be administered by the Treasury Department. And in February 2009, the president signed the American Recovery and Reinvestment Act, a fiscal stimulus program of roughly 789 billion…
-
-Much of the public policy response to turmoil in financial markets over the two years took the form of expanded lending by the Fed and central banks in other countries. The extension of credit to financial institutions has long been one of the tools available to a central bank for managing the supply of money—specifically, bank reserves—to the economy. Indeed, discount window lending by the 12 Reserve Banks was the primary means for affecting the money supply at the time the Fed was created. Over time, open market operations, in which the Fed buys and sells securities in transactions with market participants, have become the main tool for managing the money supply. Lending has become a relatively little-used tool, mainly accessed by banks with occasional unexpected flows into or out of their Fed reserve accounts late in the day. If such banks were to seek funding in the market, they would likely have to pay above-normal rates for a short-term (overnight) loan.
-
-continued
-
-# The Financial Crisis: Toward an Explanation and Policy Response
+## The Financial Crisis: Toward an Explanation and Policy Response
 
 In this way, the discount window became a tool for dampening day-to-day fluctuations in the federal funds rate. In 2006, average weekly lending by the Reserve Banks through the discount window was 59 million.
 
@@ -110,11 +103,9 @@ Since the outset of the widespread market disruptions in the summer of 2007, the
 
 Source: Aaron Steelman and John A. Weinberg, Federal Reserve Bank of Richmond Annual Report 2008, April 2009.
 
-# discount rate
+### discount rate
 
-The interest rate on loans made by Federal Reserve Banks to financial institutions.
-
-# discount window
+### discount window
 
 The facility through which Federal Reserve Banks issue loans to financial institutions.
 
@@ -148,31 +139,15 @@ Source: Federal Reserve Website, "Payment Systems," December 2019, https://www.f
 
 Research Services. Each Federal Reserve Bank has a staff of professional economists who gather, analyze, and interpret economic data and developments in the banking sector as well as the overall economy. These research projects are often used in the conduct of monetary policy by the Federal Reserve. Research papers are freely accessible to the public, are of very high quality, and are quite readable. This makes them one of the best resources for economists, investors, FI managers, and any other individual interested in the operations and performance of the financial system.
 
-# Balance Sheet of the Federal Reserve
+## Balance Sheet of the Federal Reserve
 
-Table 4-3 shows the balance sheet for the Federal Reserve System for various years from 2007 through 2018. The conduct of monetary policy by the Federal Reserve involves changes in the assets and liabilities of the Federal Reserve System, which are reflected
+### reserves
 
-TABLE 4-3 Balance Sheet of the Federal Reserve (in billions of dollars)
+### monetary base
 
-<table><tr><td>Assets</td><td>2007</td><td>2008</td><td>2010</td><td>2013</td><td>2016</td><td>2018</td><td>Percentage of Total, 2018</td></tr><tr><td>U.S. official reserve assets</td><td>$ 34.2</td><td>$ 35.7</td><td>$ 37.0</td><td>$ 34.5</td><td>$ 30.5</td><td>$ 31.80</td><td>0.8\%</td></tr><tr><td>SDR certificates</td><td>2.2</td><td>2.2</td><td>5.2</td><td>5.2</td><td>5.2</td><td>5.20</td><td>0.1</td></tr><tr><td>Treasury currency</td><td>38.7</td><td>38.7</td><td>43.5</td><td>45.0</td><td>47.6</td><td>49.80</td><td>1.2</td></tr><tr><td>Federal Reserve float</td><td>-0.0</td><td>-1.5</td><td>-1.4</td><td>-0.6</td><td>-0.0</td><td>-0.80</td><td>0.0</td></tr><tr><td>Interbank loans</td><td>48.6</td><td>559.7</td><td>0.2</td><td>0.0</td><td>0.1</td><td>0.10</td><td>0.0</td></tr><tr><td>Security repurchase agreements</td><td>46.5</td><td>80.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.00</td><td>0.0</td></tr><tr><td>U.S. Treasury securities</td><td>740.6</td><td>475.9</td><td>1,021.5</td><td>1,796.0</td><td>2,461.6</td><td>2,338.00</td><td>55.2</td></tr><tr><td>U.S. government agency securities</td><td>0.0</td><td>19.7</td><td>1,139.6</td><td>1,143.4</td><td>1,780.4</td><td>1,644.60</td><td>38.8</td></tr><tr><td>Miscellaneous assets</td><td>40.5</td><td>1,060.2</td><td>207.6</td><td>220.3</td><td>216.8</td><td>167.40</td><td>4.0</td></tr><tr><td>Total assets</td><td>$951.3</td><td>$2,270.6</td><td>$2,453.2</td><td>$3,243.8</td><td>$4,542.2</td><td>$4,236.00</td><td>100.0\%</td></tr><tr><td colspan="8">Liabilities and Equity</td></tr><tr><td>Depository institution reserves</td><td>$ 20.8</td><td>$ 860.0</td><td>$ 968.1</td><td>$1,790.4</td><td>$1,977.2</td><td>$1,556.00</td><td>36.7\%</td></tr><tr><td>Vault cash of commercial banks</td><td>55.0</td><td>57.7</td><td>52.7</td><td>59.7</td><td>74.2</td><td>82.00</td><td>1.9</td></tr><tr><td>Deposits due to federal government</td><td>16.4</td><td>365.7</td><td>340.9</td><td>79.4</td><td>333.7</td><td>402.40</td><td>9.5</td></tr><tr><td>Deposits due to government agencies</td><td>1.7</td><td>21.1</td><td>13.5</td><td>20.2</td><td>31.1</td><td>38.50</td><td>0.9</td></tr><tr><td>Currency outside banks</td><td>773.9</td><td>832.2</td><td>930.0</td><td>1,117.3</td><td>1,350.8</td><td>1,637.20</td><td>38.6</td></tr><tr><td>Security repurchase agreements</td><td>44.0</td><td>88.4</td><td>59.7</td><td>105.5</td><td>712.4</td><td>304.00</td><td>7.2</td></tr><tr><td>Miscellaneous liabilities</td><td>2.5</td><td>3.4</td><td>35.3</td><td>16.2</td><td>23.3</td><td>81.70</td><td>1.9</td></tr><tr><td>Federal Reserve Bank stock</td><td>18.5</td><td>21.1</td><td>26.5</td><td>27.6</td><td>29.5</td><td>32.30</td><td>0.8</td></tr><tr><td>Equity</td><td>18.5</td><td>21.0</td><td>26.5</td><td>27.5</td><td>10.0</td><td>101.90</td><td>2.4</td></tr><tr><td>Total liabilities and equity</td><td>$951.3</td><td>$2,270.6</td><td>$2,453.2</td><td>$3,243.8</td><td>$4,542.2</td><td>$4,236.00</td><td>100.0\%</td></tr></table>
+### required reserves
 
-Source: Federal Reserve Board, "Financial Accounts of the United States - Z.1," Monetary Authority, December 2019, p. L.109, https://www.federalreserve.gov
-
-6. A second major wire transfer service is the Clearing House Interbank Payments System (CHIPS). CHIPS operates as a private network, independent of the Federal Reserve. At the core of the CHIPS system are approximately 50 large U.S. and foreign banks acting as correspondent banks for smaller domestic and international banks in clearing mostly international transactions in dollars.
-
-# reserves
-
-Depository institutions' vault cash plus reserves deposited at Federal Reserve Banks.
-
-# monetary base
-
-Currency in circulation and reserves (depository institution reserves and vault cash of commercial banks) held by the Federal Reserve. Also referred to as money base.
-
-# required reserves
-
-Reserves the Federal Reserve requires banks to hold.
-
-# excess reserves
+### excess reserves
 
 Additional reserves banks choose to hold.
 

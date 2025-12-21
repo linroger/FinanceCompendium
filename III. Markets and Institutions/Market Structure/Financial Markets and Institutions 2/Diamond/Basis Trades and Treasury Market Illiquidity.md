@@ -1,16 +1,17 @@
 ---
 title: Basis Trades and Treasury Market Illiquidity
 parent_directory: Diamond
-formatted: 2025-12-21 11:09:25 PM
-formatter_model: grok-code-fast-1
+formatted: 2025-12-21 10:30:35 PM
+formatter_model: claude-sonnet-4
 cli_tool: opencode
 primary_tags:
   - treasury basis trades
   - market illiquidity
-  - hedge fund risks
   - federal reserve intervention
-  - cheapest-to-deliver treasury
+  - march treasury illiquidity
 secondary_tags:
+  - hedge fund risks
+  - cheapest-to-deliver treasury
   - repo market financing
   - futures convergence
   - margin requirements
@@ -18,9 +19,14 @@ secondary_tags:
   - implied repo rate
   - basis trade profitability
   - margin call stress
-  - risk neutral pricing
-  - bond option valuation
   - interest rate parity
+  - hedge fund participation
+  - regulatory leverage limits
+  - cheapest-to-deliver premium
+  - margin call pressure
+  - repo rate disconnect
+  - basis trade losses
+  - liquidity provision
 cssclasses: academia
 ---
 
@@ -34,25 +40,9 @@ Basis trading is a form of near-arbitrage between the cash and futures prices of
 
 A variety of data sources and market commentaries have documented the rising popularity of basis trading among relative value hedge funds. Office of Financial Research (OFR) internal data also provide evidence of this. If the hedge funds undertaking these trades are large and highly leveraged, this may further magnify the associated potential systemic risks. Indeed, the pervasive illiquidity in March 2020 led to large losses at relative value hedge funds engaged in basis trades. Such funds significantly unwound their positions as a result. This has led regulators and market observers to speculate that stress in basis trades may have added to stress in Treasury markets. However, the evidence casts doubt on this conclusion. Specifically, we find that the Treasuries that were most likely to have been directly affected by losses on the basis trade actually became more valuable during March 2020.
 
-Views and opinions are those of the authors and do not necessarily represent the views of the Office of Financial Research, the
+Views and opinions are those of the authors and do not necessarily represent the views of the Office of Financial Research, the U.S. Department of the Treasury, or the Board of Governors of the Federal Reserve System. OFR briefs may be quoted without additional permission.
 
-U.S. Department of the Treasury, or the Board of Governors of the Federal Reserve System. OFR briefs may be quoted without
-
-additional permission.
-
-In this brief, we first describe the mechanics of basis
-
-trades and the determinants of their returns. We also
-
-provide evidence on their size and possible importance in Treasury markets. We then detail how the
-
-returns to basis trades are compensation for exposure
-
-to substantial margin and rollover risks, and highlight
-
-the relationships that arise between the basis, the yield on Treasury bills, the repo rate, and the federal funds
-rate. We conclude with a discussion of the March 2020
-Treasury illiquidity episode and a discussion of potential risks associated with basis trades in the future. [2]
+In this brief, we first describe the mechanics of basis trades and the determinants of their returns. We also provide evidence on their size and possible importance in Treasury markets. We then detail how the returns to basis trades are compensation for exposure to substantial margin and rollover risks, and highlight the relationships that arise between the basis, the yield on Treasury bills, the repo rate, and the federal funds rate. We conclude with a discussion of the March 2020 Treasury illiquidity episode and a discussion of potential risks associated with basis trades in the future. [2]
 
 The analysis uses the OFR's collection of cleared repo data, which began in October 2019. However, remaining data gaps limit visibility into basis trading: specifically, we do not have high-frequency or precise data on hedge funds' balance sheets or data on their substantial borrowing in the uncleared bilateral portions of the repo market. Increasing transparency would improve the abilities of financial regulators to monitor the risks of this trade. Careful monitoring is warranted to determine to what extent margin calls and rollover risk on basis trades may lead to market disruptions and potential hedge fund defaults.
 
@@ -62,29 +52,13 @@ The basis trade relies on a relationship between the cash Treasury market, where
 
 Basis trades are three-legged trades that span crucial financial markets: cash Treasury markets, Treasury futures markets, and repo markets. As we show, basis trades use long cash Treasury positions and short futures positions to construct a payoff that, absent financing risks and other frictions, would be a net position similar to a Treasury bill. (In futures markets, long positions are a bet prices will go up; short positions are a bet prices will go down.) One immediate difference between the return on a basis trade and the return on a bill is the possible variation margin on the futures position. (Futures traders make variation margin payments when the value of cash and collateral in their accounts falls below set margin levels.) More importantly, basis traders generally finance the long cash position in the repo market, which exposes the basis trade to rollover and liquidity risks. The return on basis trade is thus equivalent to a synthetic bill plus a risk premium.
 
-This risk premium is positive on average but can vary
-
-significantly and can turn negative during times of
-
-stress in funding markets. We discuss the sources of
-
-this premium below.
+This risk premium is positive on average but can vary significantly and can turn negative during times of stress in funding markets. We discuss the sources of this premium below.
 
 In a simple form of the basis trade, at date 0, an investor
 
 purchases a Treasury note in the cash market for a price $P$, and simultaneously opens a short position in a Treasury note future at a price $F$. This short futures position promises delivery of a Treasury note at date $T$.
 
-Because the basis is typically narrow, investors leverage
-
-the trade by financing the purchase of the cash Treasury note through a repo loan at an interest rate $r$ using the note as collateral. At date $T$, the investor takes the note
-
-returned from the repo contract and delivers it into the
-
-futures contract, receiving $F$, and using a portion of the
-
-futures payment to settle the repo debt. The profit from
-
-this trade is:
+Because the basis is typically narrow, investors leverage the trade by financing the purchase of the cash Treasury note through a repo loan at an interest rate $r$ using the note as collateral. At date $T$, the investor takes the note returned from the repo contract and delivers it into the futures contract, receiving $F$, and using a portion of the futures payment to settle the repo debt. The profit from this trade is:
 
 $F - P(1+r) \times [T]$
 
@@ -96,17 +70,7 @@ and futures prices must be equal because on that date
 a trader can buy a Treasury in the cash market and
 immediately deliver it into the futures market.
 
-The profitability of basis trades is summarized by the
-
-implied repo rate (IRR), which is the repo rate at which
-
-the profit on the basis trade would be zero. The IRR is
-
-closely related to the yield on a Treasury bill because
-
-the cash flows from the basis trade replicate those from
-
-a Treasury bill maturing on the futures delivery date.
+The profitability of basis trades is summarized by the implied repo rate (IRR), which is the repo rate at which the profit on the basis trade would be zero. The IRR is closely related to the yield on a Treasury bill because the cash flows from the basis trade replicate those from a Treasury bill maturing on the futures delivery date.
 
 OFR Brief Series | 20-01 July 2020 | Page 2
 
@@ -167,11 +131,7 @@ University of Chicago Booth School of Business, Office of Financial
 
 Research
 
-The IRR therefore comprises the return to a bill plus a
-
-premium for risk, and closely tracks the return on an
-
-actual bill (see **Figure 3** ). [3]
+The IRR therefore comprises the return to a bill plus a premium for risk, and closely tracks the return on an actual bill (see **Figure 3** ). [3]
 
 When the IRR is greater than the actual repo rate,
 
@@ -193,29 +153,9 @@ University of Chicago Booth School of Business, Office of Financial
 
 Research
 
-the IRR and the repo rate. Buying the basis while
+the IRR and the repo rate. Buying the basis while borrowing in the repo market amounts to a bet that futures prices will converge to cash prices at a rate faster than the repo rate. Traders can also "sell the basis," by selling a Treasury in the cash market, and opening a long position in the futures market, while securing the Treasury through repo lending. Selling the basis amounts to a bet that futures prices will converge to cash prices at a rate slower than the repo rate. The bet is desirable when the actual repo rate is greater than the IRR, or when the trader is closing an existing position from buying the basis. Because the futures price and the cash price of the Treasury are known to the basis trader, provided the basis trader also knows the repo rate, profits on these bets at delivery are guaranteed.
 
-borrowing in the repo market amounts to a bet that
-
-futures prices will converge to cash prices at a rate faster
-
-than the repo rate. Traders can also "sell the basis," by
-
-selling a Treasury in the cash market, and opening a
-
-long position in the futures market, while securing
-
-the Treasury through repo lending. Selling the basis amounts to a bet that futures prices will converge to cash prices at a rate slower than the repo rate. The bet is desirable when the actual repo rate is greater than the IRR, or when the trader is closing an existing position from buying the basis. Because the futures price and the cash price of the Treasury are known to the basis trader, provided the basis trader also knows the repo rate, profits on these bets at delivery are guaranteed.
-
-The basis trade does not, however, constitute true
-
-arbitrage or offer risk-free profits. Several risks drive a
-
-wedge between the profitability of the basis trade and
-
-the yield on a Treasury bill and thus create potential
-
-consequences for financial stability.
+The basis trade does not, however, constitute true arbitrage or offer risk-free profits. Several risks drive a wedge between the profitability of the basis trade and the yield on a Treasury bill and thus create potential consequences for financial stability.
 
 ## Risks of Basis Trades
 
@@ -233,271 +173,38 @@ trade is not a risk-free strategy. Among the risks basis
 
 traders face:
 
-**Rollover risk:** Financing costs are an important
-source of risk for basis traders. The long position in
-the Treasury note is largely financed by borrowing in
-the repo market. One option for this financing is to
-enter into short-term — possibly overnight — repo
-trades. Interest rates on overnight repo are often
-lower than on term repo given the same collateral.
-However, rolling repo borrowing over daily exposes
-the trader to the possibility of rates rising before the
-trade is complete, which would require the trader to
-post additional collateral to secure the same amount
+**Rollover risk:** Financing costs are an important source of risk for basis traders. The long position in the Treasury note is largely financed by borrowing in the repo market. One option for this financing is to enter into short-term — possibly overnight — repo trades. Interest rates on overnight repo are often lower than on term repo given the same collateral. However, rolling repo borrowing over daily exposes the trader to the possibility of rates rising before the trade is complete, which would require the trader to post additional collateral to secure the same amount of financing. If the trader is already highly leveraged, it may be difficult to raise more capital without selling assets, possibly at discounted or fire-sale prices. Such liquidity-driven sales could push prices down in other markets, instigating further margin calls and a liquidity spiral. We note, however, that traders may manage this risk by financing through repo with a term matched to the expiration of the futures contract, rather than through overnight funding. More granular data would be needed to determine the length of financing basis traders employ.
 
-of financing. If the trader is already highly leveraged,
-it may be difficult to raise more capital without selling
-assets, possibly at discounted or fire-sale prices. Such
-liquidity-driven sales could push prices down in other
-markets, instigating further margin calls and a liquidity
-spiral. We note, however, that traders may manage this
-risk by financing through repo with a term matched
-to the expiration of the futures contract, rather than
-through overnight funding. More granular data would
-be needed to determine the length of financing basis
-traders employ.
-
-**Margin risk:** When Treasury note futures prices rise,
-the trader going long the basis will have to make variation margin payments on the short futures contract.
-
-When Treasury cash prices also rise, these margin
-
-payments will be offset by the increased collateral
-
-value of the long Treasury note held. However, when
-
-Treasury note futures and cash prices diverge, as can occur in times of illiquidity, the increase in collateral value may not be enough to meet the variation margin requirement. The basis trader must make a sudden cash outlay to meet their margin call.
+**Margin risk:** When Treasury note futures prices rise, the trader going long the basis will have to make variation margin payments on the short futures contract. When Treasury cash prices also rise, these margin payments will be offset by the increased collateral value of the long Treasury note held. However, when Treasury note futures and cash prices diverge, as can occur in times of illiquidity, the increase in collateral value may not be enough to meet the variation margin requirement. The basis trader must make a sudden cash outlay to meet their margin call.
 
 **Leverage and default risk:** The high leverage of many
 basis traders compounds the risks they face. Repo
-contracts with Treasury collateral allow borrowers to
+contracts with Treasury collateral allow borrowers to obtain extremely high leverage because haircuts are so
+small. A haircut is a discount on the value of an asset pledged as collateral. As a simple rule, the maximum leverage obtainable for a given security as collateral
+is the inverse of the haircut. Treasuries typically have haircuts of around 2 percent. At this level, traders
+could in principle achieve 50-to-1 leverage. For highly leveraged traders, small changes in margin requirements or the cost of financing could lead to large cash outlays, and in the worst-case scenario could lead to outright failure.
 
-obtain extremely high leverage because haircuts are so
-small. A haircut is a discount on the value of an asset
-pledged as collateral. As a simple rule, the maximum
-leverage obtainable for a given security as collateral
-is the inverse of the haircut. Treasuries typically have
-haircuts of around 2 percent. At this level, traders
-could in principle achieve 50-to-1 leverage. For highly
-leveraged traders, small changes in margin requirements or the cost of financing could lead to large cash
+Deviations of Basis Trade Returns From Bill Returns
 
-outlays, and in the worst-case scenario could lead to outright failure.
+Deviations of the IRR from the return on Treasury bills reflect the risks basis trades face. In the absence of rollover risk and margin requirements, the first two legs of the basis trade would be equivalent to a Treasury bill. In this case, the return on the basis should be the same as the return on that bill. Therefore, one way to assess the extent of risks the basis trade faces at any given time is to examine deviations of the return on the basis trade from the return on the bill.
 
-Deviations of Basis Trade Returns From Bill
+In particular, in times of relative illiquidity and high balance sheet costs, the implied repo rate has deviated significantly from the rate of return on bills. One example of these deviations occurred directly following the collapse of Lehman Brothers in 2008 (see **Figure 4** ). Immediately after that collapse, as liquidity dried
 
-Returns
+up in financial markets, implied repo rates fell across contracts. The IRR decline reflected a flight to safety in Treasury markets. Treasury bill rates fell less, in part due to the natural constraint of the zero lower bound. This deviation persisted for several months. It reflected relatively slow-moving capital in the wake of hits to balance sheets of intermediaries during the crisis, as well as general concerns over counterparty risk. Note in this case that traders that were long the basis would have profited from the basis narrowing and turning negative.
 
-Deviations of the IRR from the return on Treasury
+This pattern in 2008 is indicative of a more general rule that returns on basis trades tend to depart from bill returns during times of stress. In general, deviations of the return on basis trades from returns on Treasuries have reflected the costs of liquidity provision, that is, the willingness of financial institutions to take on the margin risk and rollover risk that basis trades entail.
 
-bills reflect the risks basis trades face. In the absence
+One way to summarize the costs of liquidity provision in Treasury repo markets is the difference between the repo rate and the federal funds rate. Because Treasury repo rates reflect a willingness to accept Treasuries as collateral, whereas lending in the federal funds market is uncollateralized, differences in Treasury repo and federal funds rates will partly reflect balance sheet constraints that make accepting Treasuries more or less costly. **Figure 5** shows deviations of basis trade return
 
-of rollover risk and margin requirements, the first two
-legs of the basis trade would be equivalent to a Treasury
-bill. In this case, the return on the basis should be the
-same as the return on that bill. Therefore, one way to
-assess the extent of risks the basis trade faces at any
-given time is to examine deviations of the return on the
-basis trade from the return on the bill.
-
-In particular, in times of relative illiquidity and high
-
-balance sheet costs, the implied repo rate has deviated significantly from the rate of return on bills. One
-
-example of these deviations occurred directly following
-
-the collapse of Lehman Brothers in 2008 (see **Figure**
-
-**4** ). Immediately after that collapse, as liquidity dried
-
-up in financial markets, implied repo rates fell across
-
-contracts. The IRR decline reflected a flight to safety
-
-in Treasury markets. Treasury bill rates fell less, in
-
-part due to the natural constraint of the zero lower
-
-bound. This deviation persisted for several months.
-
-It reflected relatively slow-moving capital in the wake
-
-of hits to balance sheets of intermediaries during the
-crisis, as well as general concerns over counterparty
-risk. Note in this case that traders that were long the
-basis would have profited from the basis narrowing and
-turning negative.
-
-This pattern in 2008 is indicative of a more general rule
-
-that returns on basis trades tend to depart from bill
-
-returns during times of stress. In general, deviations of
-
-the return on basis trades from returns on Treasuries
-
-have reflected the costs of liquidity provision, that is,
-
-the willingness of financial institutions to take on the
-
-margin risk and rollover risk that basis trades entail.
-
-One way to summarize the costs of liquidity provision
-
-in Treasury repo markets is the difference between the
-
-repo rate and the federal funds rate. Because Treasury
-
-repo rates reflect a willingness to accept Treasuries as
-
-collateral, whereas lending in the federal funds market
-
-is uncollateralized, differences in Treasury repo and
-
-federal funds rates will partly reflect balance sheet
-
-constraints that make accepting Treasuries more or less
-
-costly. **Figure 5** shows deviations of basis trade return
-
-for five-year and two-year contracts from bill yields,
-
-along with the spread between the repo rate and federal
-
-funds rate. Deviations of the basis trade return from the
-
-Figure 4. Basis Trade Returns During the 2007-09
-
-Financial Crisis (percent)
-
-6
-
-4
-
-2
-
-0
-
- - 2
-
-Jan May Sep Jan May Sep Jan May Sep Jan
-
-07 07 07 08 08 08 09 09 09 10
-
-Note: Data are one-week moving averages. Implied repo rates
-
-use the futures contract with the second-to-nearest delivery date.
-
-Sources: Bloomberg Finance L.P., Center for Research in Security Prices/
-
-University of Chicago Booth School of Business, Office of Financial
-
-Research
-
-Figure 5. Deviations of the Basis Trade Return from the Bill Return and the Cost of Note Funding (percentage
-
-points)
-
-**2.0**
-
-**1.5**
-
-**1.0**
-
-**0.5**
-
-**0.0**
-
-**-0.5**
-
-1.0
-
-0.8
-
-0.6
-
-0.4
-
-0.2
-
-0.0
-
-- 0.2
-
-2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020
-
-Note: Data are 14-day moving averages of the spread of the implied repo rate for futures contract with the second-to-nearest delivery
-
-date over the yield for an equivalent maturity Treasury bill for two-year and five-year Treasury futures and the spread of the GCF
-
-Treasury repo index over the effective federal funds rate.
-
-Sources: Federal Reserve Bank of New York Effective Federal Funds Rate, DTCC GCF Repo Index, Bloomberg Finance L.P., Center for Research in Security
-
-Prices/University of Chicago Booth School of Business, Office of Financial Research
-
-OFR Brief Series | 20-01 July 2020 | Page 5
-
-bill yield constitute a liquidity premium in basis trades,
-
-because basis traders will require compensation for the
-
-risks incurred in financing their Treasury holdings
-
-until the delivery date. These risks should be correlated
-
-with the spread between the actual repo rate and the
-
-federal funds rate. When Treasuries are more expensive
-
-to finance, the excess returns on the basis must be high
-
-enough in equilibrium to induce basis traders to hold
-
-these Treasuries until delivery. Therefore, the excess
-
-return on the basis closely follows the costs of financing
-
-a note, as represented by the spread of the repo rate over
-
-the federal funds rate.
+for five-year and two-year contracts from bill yields, along with the spread between the repo rate and federal funds rate. Deviations of the basis trade return from the bill yield constitute a liquidity premium in basis trades, because basis traders will require compensation for the risks incurred in financing their Treasury holdings until the delivery date. These risks should be correlated with the spread between the actual repo rate and the federal funds rate. When Treasuries are more expensive to finance, the excess returns on the basis must be high enough in equilibrium to induce basis traders to hold these Treasuries until delivery. Therefore, the excess return on the basis closely follows the costs of financing a note, as represented by the spread of the repo rate over the federal funds rate.
 
 ## Implementing Basis Trades
 
-Understanding sources of risk for basis trades and
+Understanding sources of risk for basis trades and where stress can manifest requires understanding the technical details of implementing these trades. In particular, only certain futures contracts and Treasury notes are used in basis trading. On any given
 
-where stress can manifest requires understanding the
+date, there is just one Treasury security that basis traders want to own for each contract to make a particular deal as profitable as possible, called the "cheapest-to-deliver" Treasury. Treasury futures are exchanged on the Chicago Board of Trade (CBOT) and cleared by CME Clearing. Treasury note futures are offered by CBOT quarterly and require physical delivery. Each quarter, CBOT offers contracts for two-year, five-year, and 10-year Treasury notes as well as Treasury bonds. [4]
 
-technical details of implementing these trades.
-
-In particular, only certain futures contracts and
-
-Treasury notes are used in basis trading. On any given
-
-date, there is just one Treasury security that basis traders
-
-want to own for each contract to make a particular deal
-
-as profitable as possible, called the "cheapest-to-deliver" Treasury. Treasury futures are exchanged on
-
-the Chicago Board of Trade (CBOT) and cleared by
-
-CME Clearing. Treasury note futures are offered by
-
-CBOT quarterly and require physical delivery. Each
-
-Figure 6. Structure of the Bilateral Repo Market
-
-quarter, CBOT offers contracts for two-year, five-year,
-
-and 10-year Treasury notes as well as Treasury bonds. [4]
-
-Only a certain basket of Treasuries can be delivered
-
-into each of these futures contracts, with limits on this
-
-deliverable basket determined by the maturity of the
-
-note relative to the delivery date of the contract and the
+Only a certain basket of Treasuries can be delivered into each of these futures contracts, with limits on this deliverable basket determined by the maturity of the note relative to the delivery date of the contract and the
 
 original maturity of the note at issuance. [5] For instance,
 the deliverable basket for the two-year CBOT contract
@@ -799,13 +506,7 @@ generally borrow early in the day relative to sponsored
 
 lenders. Because much of sponsored borrowing uses
 
-cash from sponsored lenders, sponsored borrowing
-
-creates additional liquidity risk for sponsors. The fact
-
-that sponsored borrowing rates are in general above
-
-interdealer rates highlights a potential for imperfect pass-through of liquidity-boosting interventions by the Federal Reserve to the borrowing rates of hedge funds, adding an additional layer of liquidity risk to hedge fund basis trades.
+cash from sponsored lenders, sponsored borrowing creates additional liquidity risk for sponsors. The fact that sponsored borrowing rates are in general above interdealer rates highlights a potential for imperfect pass-through of liquidity-boosting interventions by the Federal Reserve to the borrowing rates of hedge funds, adding an additional layer of liquidity risk to hedge fund basis trades.
 
 If hedge funds are actively basis trading, we would expect them to disproportionally hold the cheapest-to-deliver Treasury notes. **Figure 10** shows hedge
 
@@ -855,110 +556,18 @@ Reasons for Rising Hedge Fund Treasury
 
 Positions
 
-Participation by hedge funds in basis trades requires
+Participation by hedge funds in basis trades requires those funds to hold securities until they roll. The primary source of demand for Treasury futures is from unlevered asset managers, such as mutual funds, insurance funds, and pension funds. By holding these securities until they roll contracts, hedge funds provide liquidity by using repo leverage to purchase Treasuries.
 
-those funds to hold securities until they roll. The
+While the exact reason for increases in volume in hedge fund basis trades is unclear, possibilities include:
 
-primary source of demand for Treasury futures is
+**1. Declining foreign demand for Treasuries.** Since 2015, foreign holdings of Treasuries have been declining as a share of total Treasuries outstanding. Weakened demand for Treasury coupon securities from foreign investors, combined with increased amounts of Treasuries outstanding, may have pushed down the relative prices of notes and bonds, making the basis trade more attractive to hedge funds.
 
-from unlevered asset managers, such as mutual funds,
+**2. Regulatory costs of holding Treasuries for banks.** Hedge funds and other proprietary traders are not explicitly limited to maximum leverage ratios in the same way banks are. Standards imposed after the 2007-09 financial crisis put direct leverage limits on banking institutions, typically requiring a capital-to-asset ratio of at least 5 percent, which implies a maximum leverage ratio of 20 to 1. [7] Hedge fund leverage is constrained only by the haircuts on the collateral, and for Treasury securities haircuts are typically around 2 percent. This implies a maximum leverage ratio for hedge funds of 50 to 1.
+Because the basis trade profits from tiny differences in spreads, high leverage is necessary to make the trade worthwhile. Basis trade activity may therefore have migrated from banks to hedge funds and other less-regulated traders because leverage limits made the basis trade unprofitable for banks. Anecdotal evidence supports this; the _Financial Times_ has reported that many of the lead traders executing these trades at banks have left to join hedge funds. [8]
 
-insurance funds, and pension funds. By holding these
-
-securities until they roll contracts, hedge funds provide
-
-liquidity by using repo leverage to purchase Treasuries.
-
-While the exact reason for increases in volume in hedge
-
-fund basis trades is unclear, possibilities include:
-
-**1. Declining foreign demand for Treasuries.** Since
-
-2015, foreign holdings of Treasuries have been
-
-declining as a share of total Treasuries outstanding. Weakened demand for Treasury coupon
-
-securities from foreign investors, combined with
-
-increased amounts of Treasuries outstanding, may
-
-have pushed down the relative prices of notes and
-
-bonds, making the basis trade more attractive to
-
-hedge funds.
-
-**2. Regulatory costs of holding Treasuries for banks.**
-
-Hedge funds and other proprietary traders are not
-
-explicitly limited to maximum leverage ratios in the
-
-same way banks are. Standards imposed after the
-
-2007-09 financial crisis put direct leverage limits
-
-  on banking institutions, typically requiring a capital-to-asset ratio of at least 5 percent, which implies
-a maximum leverage ratio of 20 to 1. [7] Hedge fund
-leverage is constrained only by the haircuts on the
-collateral, and for Treasury securities haircuts are
-typically around 2 percent. This implies a maximum leverage ratio for hedge funds of 50 to 1.
-Because the basis trade profits from tiny differences
-in spreads, high leverage is necessary to make the
-trade worthwhile. Basis trade activity may therefore
-have migrated from banks to hedge funds and other
-less-regulated traders because leverage limits made
-the basis trade unprofitable for banks. Anecdotal
-evidence supports this; the _Financial Times_ has
-reported that many of the lead traders executing
-these trades at banks have left to join hedge funds. [8]
-
-**3. Increasing segmentation in the bills market.**
-
-Regulatory reforms may have made it more difficult
-
-for unlevered funds to hold longer-term Treasuries
-
-and may have led to a natural source of demand for
-
-long futures positions in Treasuries. As a result, segmentation may have increased in the Treasury market, which would lead simultaneously to a higher
-
-disconnect between bond and bill returns and to
-
-demand for short Treasury note futures.
-
-It is difficult to determine which of these possible
-
-causes is most likely and, in equilibrium, they are all
-
-reinforcing. However, all three explanations would
-
-have resulted in increased costs associated with longerterm Treasuries for regulated or unlevered participants
-
-relative to levered and unregulated participants such
-
-as hedge funds. This relative change in the costs of
-
-holding Treasuries for hedge funds and unlevered
-
-participants would in turn have made the basis trade
-
-more desirable for hedge funds and have led to a reallocation of Treasuries from traditional holders to relative
-
-value hedge funds. This is consistent with the generally
-
-higher return on basis trades relative to bills seen in the
-
-latter part of **Figure 5** .
-
-The exposures implicit in Treasury basis trades are
-
-similar to those that have led to problems for hedge
-
-OFR Brief Series | 20-01 July 2020 | Page 10
-
-funds in the past. Long-Term Capital Management (LTCM), for instance, was a highly leveraged relative value hedge fund whose failure nearly led to a financial crisis in 1998 when the spreads they were betting on diverged further than fund managers expected. LTCM suffered because it was highly exposed to liquidity and flight-to-safety risks for which it was poorly hedged. While the introduction of central counterparties and cleared repo markets may have reduced some of the risks that LTCM faced, modern relative value hedge funds are more plentiful, larger, and continue to be highly leveraged.
+**3. Increasing segmentation in the bills market.** Regulatory reforms may have made it more difficult for unlevered funds to hold longer-term Treasuries and may have led to a natural source of demand for long futures positions in Treasuries. As a result, segmentation may have increased in the Treasury market, which would lead simultaneously to a higher disconnect between bond and bill returns and to demand for short Treasury note futures.
+It is difficult to determine which of these possible causes is most likely and, in equilibrium, they are all reinforcing. However, all three explanations would have resulted in increased costs associated with longer-term Treasuries for regulated or unlevered participants relative to levered and unregulated participants such as hedge funds. This relative change in the costs of holding Treasuries for hedge funds and unlevered participants would in turn have made the basis trade more desirable for hedge funds and have led to a reallocation of Treasuries from traditional holders to relative value hedge funds. This is consistent with the generally higher return on basis trades relative to bills seen in the latter part of **Figure 5** .
+The exposures implicit in Treasury basis trades are similar to those that have led to problems for hedge funds in the past. Long-Term Capital Management (LTCM), for instance, was a highly leveraged relative value hedge fund whose failure nearly led to a financial crisis in 1998 when the spreads they were betting on diverged further than fund managers expected. LTCM suffered because it was highly exposed to liquidity and flight-to-safety risks for which it was poorly hedged. While the introduction of central counterparties and cleared repo markets may have reduced some of the risks that LTCM faced, modern relative value hedge funds are more plentiful, larger, and continue to be highly leveraged.
 
 ## Basis Trades and March 2020 Treasury Market Illiquidity
 
@@ -1072,36 +681,11 @@ than cash prices (see **Figure 16** ). This widened the basis, leading to furthe
 
 The imperfect nature of pass-through within repo
 
-markets may also have contributed to the losses on
-
-basis positions. **Figure 17** illustrates the pass-through
-
-of federal funds rate target changes onto the repo rates
-for sections of the DVP market. Spreads between repo
-rates and the federal funds rate target widened in the
-first two weeks of March 2020. At the same time, the
-spread between the sponsored borrowing rate — the
-rate at which hedge funds borrow in DVP — and
-interdealer rates was at the widest level seen since the
-OFR repo data collection began. While this may be in
-part a sign of sponsors' concerns over intraday liquidity
-provision to their borrowers, the highest rates were
-concentrated among hedge funds, suggesting that their
-leverage may have been a concern.
+markets may also have contributed to the losses on basis positions. **Figure 17** illustrates the pass-through of federal funds rate target changes onto the repo rates for sections of the DVP market. Spreads between repo rates and the federal funds rate target widened in the first two weeks of March 2020. At the same time, the spread between the sponsored borrowing rate — the rate at which hedge funds borrow in DVP — and interdealer rates was at the widest level seen since the OFR repo data collection began. While this may be in part a sign of sponsors' concerns over intraday liquidity provision to their borrowers, the highest rates were concentrated among hedge funds, suggesting that their leverage may have been a concern.
 
 In combination, Treasury illiquidity and imperfect
 
-repo pass-through led to a large disconnect between
-
-the implied repo rate and Treasury bill yields across
-
-contracts. The IRR followed the bill rate until early
-
-March, and then began to depart (see **Figure 18** ).
-
-This departure began as the bill rate rapidly moved
-
-below the DVP sponsored borrowing rate and these
+repo pass-through led to a large disconnect between the implied repo rate and Treasury bill yields across contracts. The IRR followed the bill rate until early March, and then began to depart (see **Figure 18** ). This departure began as the bill rate rapidly moved below the DVP sponsored borrowing rate and these
 
 Figure 14. Maintenance Margin on Futures
 
@@ -1249,36 +833,13 @@ These facts alone do not suggest any feedback effects from stress in the basis t
 
 This premium for deliverable Treasuries runs counter to the narrative that sales of the basis directly harmed Treasury liquidity. If selling pressure from relative value hedge funds had significantly harmed Treasury liquidity, we might expect the price of the cheapest-to-deliver securities to have fallen relative to comparable securities as dealers accumulated large net exposure to these specific Treasuries. That the premium rose suggests that any selling pressure was offset by the
 
-liquidity that the basis trade provides and the link it
+liquidity that the basis trade provides and the link it establishes to futures markets. [11] This link may have become particularly valuable during the general flight to liquidity during March, and reduced pressure on dealers purchasing the cheapest-to-deliver.
 
-establishes to futures markets. [11] This link may have
-
-become particularly valuable during the general flight
-
-to liquidity during March, and reduced pressure on
-
-dealers purchasing the cheapest-to-deliver.
-
-As a result, while the general evidence points to sales
-
-of the basis by hedge funds during March, we do not
-find conclusive evidence that these sales in turn caused
-greater illiquidity in the Treasury market. While many
-
-of the risks of this trade seem to have materialized,
-evidence of spillovers into Treasury liquidity and shortterm funding disruptions are limited. However, it is
-worth noting that had liquidity not returned to the
-Treasury market when it did, and had repo rates not
-fallen, the consequences for relative value hedge funds
-could have been much worse.
+As a result, while the general evidence points to sales of the basis by hedge funds during March, we do not find conclusive evidence that these sales in turn caused greater illiquidity in the Treasury market. While many of the risks of this trade seem to have materialized, evidence of spillovers into Treasury liquidity and short-term funding disruptions are limited. However, it is worth noting that had liquidity not returned to the Treasury market when it did, and had repo rates not fallen, the consequences for relative value hedge funds could have been much worse.
 
 Effect of Federal Reserve Actions
 
-Timely intervention by the Federal Reserve may have
-
-been crucial for limiting the extent of hedge fund losses
-
-in the basis trade and in preventing broader spillovers.
+Timely intervention by the Federal Reserve may have been crucial for limiting the extent of hedge fund losses in the basis trade and in preventing broader spillovers.
 
 Note: Spread is the yield on a similar maturity nondeliverable
 
@@ -1467,52 +1028,11 @@ Federal Reserve.
 
 [6427f16a-1d05-11ea-97df-cc63de1d73f4.](https://www.ft.com/content/6427f16a-1d05-11ea-97df-cc63de1d73f4)
 
-9 Sales from these foreign official accounts may
+9 Sales from these foreign official accounts may have had particular importance for Treasury market illiquidity. Primary dealers are required to make "reasonable" markets for sales of Treasuries by these accounts. Additionally, the funds from these sales seem to have been invested in significant part in the Federal Reserve's foreign repo pool, which effectively removes reserves from the system, potentially making repo financing of Treasuries more expensive
 
-have had particular importance for Treasury
+10 There are two ways to reduce futures exposure: for contracts maturing in March, hedge funds may have simply not rolled over into the June contract. For contracts maturing after March, hedge funds would have to take on offsetting long positions.
 
-market illiquidity. Primary dealers are required
-
-to make "reasonable" markets for sales of
-
-Treasuries by these accounts. Additionally,
-
-the funds from these sales seem to have been
-
-invested in significant part in the Federal
-
-Reserve's foreign repo pool, which effectively
-
-removes reserves from the system, potentially
-
-making repo financing of Treasuries more
-
-expensive
-
-10 There are two ways to reduce futures exposure:
-
-for contracts maturing in March, hedge funds
-
-may have simply not rolled over into the June
-
-contract. For contracts maturing after March,
-
-hedge funds would have to take on offsetting
-
-long positions.
-
-11 It is possible that in order to keep basis trades
-
- - pen while meeting margin calls, hedge funds
-may have sold Treasuries other than the cheapest-to-deliver, thus contributing to the lower
-price of other securities. It is difficult to reject
-this possibility without more detailed data on
-hedge funds' Treasury holdings. However, even
-in this case the willingness of hedge funds to
-sell other Treasuries to keep their basis trades
-
- - pen would still indicate excess demand for the
-trade.
+11 It is possible that in order to keep basis trades open while meeting margin calls, hedge funds may have sold Treasuries other than the cheapest-to-deliver, thus contributing to the lower price of other securities. It is difficult to reject this possibility without more detailed data on hedge funds' Treasury holdings. However, even in this case the willingness of hedge funds to sell other Treasuries to keep their basis trades open would still indicate excess demand for the trade.
 
 12 See for instance Stephen Spratt, "How a
 

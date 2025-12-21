@@ -447,13 +447,13 @@ $$
 $$ where
 
 
-${}_{1}{R}_{N} =$  Actual  $N$  -period rate today (i.e.,the first day of year 1)
+${}_{1}R_{N} =$ Actual $N$-period rate today (i.e., the first day of year 1)
 
-$N =$  Term to maturity,  $N = 1,2,\dots ,4,\dots$
+$N =$ Term to maturity, $N = 1,2,\dots,4,\dots$
 
-${}_{1}{R}_{1} =$  Actual current one-year rate today
+${}_{1}R_{1} =$ Actual current one-year rate today
 
-$E(i r_{1}) =$  Expected one-year rates for years,  $i = 2,3,4,\dots ,N$  in the future
+$E({}_{i}r_{1}) =$ Expected one-year rates for years, $i = 2,3,4,\dots,N$ in the future
 
 Notice that uppercase interest rate terms,  ${}_{1}R_{t}$ , are the actual current interest rates on securities purchased today with a maturity of  $t$  years. Lowercase interest rate terms,  ${}_{t}r_{1}$ , are estimates of future one-year interest rates starting  $t$  years into the future.
 

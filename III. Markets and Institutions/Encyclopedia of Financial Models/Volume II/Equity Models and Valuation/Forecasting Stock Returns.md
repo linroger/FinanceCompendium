@@ -185,21 +185,21 @@ $$ r_{t} - r_{f t} = \alpha_{i} + \beta_{i} \left[ r_{M t} - r_{f t} \right] + e
 $$ where
 
 
-$$ r_{t} = \text{re tu rn on th es to ck in mo nt h} t
+$$ r_{t} = \text{return on the stock in month } t
 $$
 
-$$ r_{f t} = \text{th er is k -f re er at ei nm on th} t
-$$
-
-$$
-\begin{array}{c} r_{M t} = \text{th er et au n} \\ \text{S \&P 50 0)} \end{array}
-$$
-
-$$ e_{t} = \text{th e} \quad \text{er ro r} \quad \text{te rm} \quad \text{fo r} \quad \text{th e} \quad \text{st oc k} \quad \text{in} \quad \text{mo nt h} \quad t
+$$ r_{f t} = \text{the risk-free rate in month } t
 $$
 
 $$
-\begin{array}{l} \alpha \text{an d} \beta = \text{pa ra me te rs fo rt he st oc kt ob ee st im at ed by th er eg re ss io nm od el} \\ t = \text{mo nt h} (t = 1, 2, \dots , T) \\ \end{array}
+\begin{array}{c} r_{M t} = \text{the return on} \\ \text{S\&P 500} \end{array}
+$$
+
+$$ e_{t} = \text{the error term for the stock in month } t
+$$
+
+$$
+\begin{array}{l} \alpha \text{ and } \beta = \text{parameters for the stock to be estimated by the regression model} \\ t = \text{month } (t = 1, 2, \dots , T) \\ \end{array}
 $$
 
 The above model says that the conditional expectation of a stock's return at time  $t$  is proportional to the excess return of the market index at time  $t$ . This means that to predict the stock return at time  $T + 1$ , the portfolio manager must know the excess return of the market index at time  $T + 1$ , which is, of course, unknown at time  $T + 1$ . Predictions would be possible only if a portfolio manager could predict the excess return of the market index at time  $T + 1$  (i.e.,  $r_{MT + 1} - r_{fT + 1}$ ).
@@ -212,7 +212,7 @@ $$ where
 
 
 $$
-\begin{array}{l} r_{t} = \text{re tu rn on th es to ck in mo nt h} t \\ r_{f t} = \text{th er is k -f re er at ei nm on th} t \\ \begin{array}{c} r_{F N, t} = \text{th e} \\ \text{mo nt h} t \end{array} \text{on} \quad \text{fa ct or} \quad N \quad \text{in} \\ e_{t} = \text{th e} \quad \text{er ro r} \quad \text{te rm} \quad \text{fo r} \quad \text{th e} \quad \text{st oc ki n} \quad \text{mo nt h} \quad t \\ \end{array}
+\begin{array}{l} r_{t} = \text{return on the stock in month } t \\ r_{f t} = \text{the risk-free rate in month } t \\ \begin{array}{c} r_{F N, t} = \text{the return in} \\ \text{month } t \end{array} \text{ on factor } N \\ e_{t} = \text{the error term for the stock in month } t \\ \end{array}
 $$
 
 $\alpha$  and  $\beta_{FN}$  s  $=$  parameters for the stock to be estimated by the regression model
@@ -299,7 +299,7 @@ Hence, whether the random walk assumption is in fact the benchmark model of pric
 - If stock prices or returns follow a strict random walk, the mean, variance, and higher moments are all unpredictable.
 - The statistical-based predictive return models used by portfolio managers make conditional forecasts of expected returns using the current information set: past prices, company information, and financial market information. These models are classified as regressive models, linear autoregressive models, dynamic factor models, and hidden-variable models.
 
-# NOTES
+## NOTES
 
 1. See Bernstein (2008).
 2. The contributions of Bachelier are too exhaustive (and technical) to describe here. In addition to his study of the behavior of prices, his work in the area of random walks predated Albert Einstein's study of Brownian motion in physics by five years. His work in option pricing theory predated the well-known Black-Scholes option pricing model by 73 years.
@@ -319,7 +319,7 @@ Hence, whether the random walk assumption is in fact the benchmark model of pric
 15. For a discussion of the analysis of causality in VAR models, see Fabozzi, Focardi, and Kolm (2006b).
 16. Hamilton (1989).
 
-# REFERENCES
+## REFERENCES
 
 Bachelier, L. (1900). Théorie de la spéculation. Annales Scientifiques de l'École Normale Supérieure 3, 17: 21-86.
 

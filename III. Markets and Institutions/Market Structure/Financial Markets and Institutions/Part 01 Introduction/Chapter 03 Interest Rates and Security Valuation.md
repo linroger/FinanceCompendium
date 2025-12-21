@@ -192,13 +192,13 @@ $$
 
 Once a  $PV$  is calculated, market participants then compare this present value with the current market price  $(\overline{P})$  at which the security is trading in a financial market. If the current market price of the security  $(\overline{P})$  is less than its fair value  $(PV)$ , the security is currently undervalued. The market participant would want to buy more of this security at its current price. If the current market price of the security is greater than its present value, the security is overvalued. The market participant would not want to buy this security at its current price. If the present value of the security equals its current market price, the security is said to be fairly priced given its risk characteristics. In this case,  $PV$  equals  $\overline{P}$ .
 
-# CALCULATOR HINTS
+### Calculator Hints
 
 $$
 \begin{array}{l} N = 4 \\ I = 1 1. 2 5 \\ P M T = 1 0 0 \\ F V = 9 6 0 \\ C P T P V = 9 3 5. 3 1 \\ \end{array}
 $$
 
-# EXAMPLE 3-1 Application of Required Rate of Return
+### EXAMPLE 3-1 Application of Required Rate of Return
 
 A Walmart bond you purchased two years ago for \$890 is now selling for \$925. The bond paid \$100 per year in coupon interest on the last day of each year (the last payment made today). You intend to hold the bond for four more years and project that you will be able to sell it at the end of year 4 for \$960. You also project that the bond will continue paying 100 in interest per year. Given the risk associated with the bond, its required rate of return (r) over the next four years is 11.25 percent. Accordingly, the bond's fair present value is:
 

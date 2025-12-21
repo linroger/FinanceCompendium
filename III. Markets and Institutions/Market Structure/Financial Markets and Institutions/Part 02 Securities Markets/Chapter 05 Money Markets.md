@@ -1,11 +1,26 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Money Markets"
+parent_directory: "Part 02 Securities Markets"
+formatted: "2025-12-21 10:31:25 AM"
+formatter_model: "claude-opus-4-5-20251101"
+cli_tool: "claude-code"
+primary_tags:
+  - money market instruments
+  - treasury bills
+  - federal funds
+  - commercial paper
+  - negotiable certificates of deposit
+  - banker's acceptances
+secondary_tags:
+  - discount yields
+  - bond equivalent yields
+  - repurchase agreements
+  - eurodollar market
+  - london interbank offered rate
+  - money market participants
+  - treasury bill auctions
+  - federal reserve operations
 cssclasses: academia
-title: money markets
-linter-yaml-title-alias: money markets
 ---
 
 Definition of Money Markets: Chapter Overview
@@ -68,13 +83,13 @@ Appendix 5B: Creation of a Banker's Acceptance
 
 (Appendixes 5A and 5B available through Connect or your course instructor)
 
-# money markets
+# Money Markets
 
 Markets that trade debt securities or instruments with maturities of less than one year.
 
 In this chapter, we present an overview of money markets. We define and review the various money market instruments that exist, the new issue and secondary market trading process for each, and the market participants trading these securities. We also look at international money markets and instruments, taking a particularly close look at the Euro markets.
 
-# MONEY MARKETS
+## Money Markets
 
 LG 5-1
 
@@ -86,7 +101,7 @@ The forgone interest cost from the holding of cash balances when they are receiv
 
 The risk of late or nonpayment of principal or interest.
 
-# DO YOU UNDERSTAND?
+## Do You Understand?
 
 1. What the three characteristics common to money market securities are?
 2. Why it is difficult for individual investors to be involved in the initial sale of a money market security?
@@ -99,11 +114,11 @@ Second, money market instruments have low default risk; the risk of late or nonp
 
 Finally, money market securities must have an original maturity of one year or less. Recall from Chapter 3 that the longer the maturity of a debt security, the greater is its interest rate risk and the higher is its required rate of return. Given that adverse price movements resulting from interest rate changes are smaller for short-term securities, the short-term maturity of money market instruments helps lower the risk that interest rate changes will significantly affect the security's market value and price.
 
-# YIELDS ON MONEY MARKET SECURITIES
+## Yields on Money Market Securities
 
 For many of the money market securities discussed below, returns are measured and quoted in a manner that does not allow them to be evaluated using the time value of money equations. For example, some securities interest rates or returns are based on a 360-day year, while others are based on a 365-day year. It is therefore inappropriate to compare annual interest rates on the various money market securities as well as on short-term and long-term securities without adjusting their interest rates for differences in the securities' characteristics.
 
-# Bond Equivalent Yields
+### Bond Equivalent Yields
 
 The bond equivalent yield,  $i_{be}$ , is the quoted nominal, or stated, yield on a security. From Chapters 2 and 3, the bond equivalent yield is the rate used to calculate the present value of an investment. For money market securities, the bond equivalent yield is the product of the periodic rate and the number of periods in a year. It is calculated as follows:
 
@@ -129,7 +144,7 @@ E A R = \left(1 + \frac{i_{b e}}{3 6 5 / n}\right)^{3 6 5 / n} - 1
 
 $$
 
-# EXAMPLE 5-1 Calculation of EAR on a Money Market Security
+**Example 5-1 Calculation of EAR on a Money Market Security**
 
 Suppose you can invest in a money market security that matures in 75 days and offers a 3 percent nominal annual interest rate (i.e., bond equivalent yield). The effective annual interest return on this security is:
 
@@ -159,7 +174,7 @@ There are several features of a discount yield that make it difficult to compare
 $$ i_{b e} = i_{d} \times \frac{P_{f}}{P_{0}} \times \frac{3 6 5}{3 6 0}
 $$
 
-# EXAMPLE 5-2 Comparison of Discount Yield, Bond Equivalent Yield, and EAR
+**Example 5-2 Comparison of Discount Yield, Bond Equivalent Yield, and EAR**
 
 Suppose you can purchase a  $1 million Treasury bill that is currently selling on a discount basis (i.e., with no explicit interest payments) at 98 \frac{1}{2}$  percent of its face value. The T-bill is 140 days from maturity (when the 1 million will be paid). Depending on the setting in which you are interested, any one of the following three yields or interest rates could be appropriate:
 
@@ -195,7 +210,7 @@ E A R = \left[ 1 + i_{b e} / (3 6 5 / n) \right]^{3 6 5 / n} - 1
 
 $$
 
-# EXAMPLE 5-3 Comparison of Single-Payment Yield, Bond Equivalent Yield, and EAR
+**Example 5-3 Comparison of Single-Payment Yield, Bond Equivalent Yield, and EAR**
 
 Suppose you can purchase a 1 million negotiable CD that is currently 105 days from maturity. The CD has a quoted annual interest rate of 4.16 percent for a 360-day year. The bond equivalent yield is calculated as:
 
@@ -208,13 +223,13 @@ $$
 E A R = [ 1 + (0.04218) / (365 / 105) ]^{365 / 105} - 1 = 4.282 \%
 $$
 
-# DO YOU UNDERSTAND?
+## Do You Understand?
 
 3. What characteristics of a discount yield prevent it from being directly compared to a bond equivalent yield?
 
 Table 5-1 lists various money market instruments and their quoted interest rates, as reported in The Wall Street Journal for December 31, 2019 (www.wsj.com/market-data/bonds/ moneyrates). Current market rates (as well as data on stocks, bonds, foreign exchange, and other securities) can also be found at Bloomberg's website, www.bloomberg.com/markets/ rates-bonds. As we proceed with the discussion of the various money market instruments, pay particular attention to the convention used to state returns in the various money markets. For example, Treasury bill rates are stated as discount yields and use a 360-day year. Commercial paper and banker's acceptance yields are also quoted as discount yields. Federal funds, repurchase agreements, and negotiable certificates of deposit are stated on a single-payment yield basis. Differences in the convention used to calculate yields must be considered particularly when comparing returns across various securities.
 
-# MONEY MARKET SECURITIES
+## Money Market Securities
 
 # LG5-2
 
@@ -236,7 +251,7 @@ TABLE 5-3 Money Market Instruments Outstanding, 1990 and 2019 (in billions of do
 
 Source: Federal Reserve Bank of St. Louis website, "FRED Economic Data," https://fred.stlouisfed.org
 
-# Treasury Bills
+### Treasury Bills
 
 # Treasury bills (T-bills)
 
@@ -300,7 +315,7 @@ Table 5-5 lists T-bill rates as quoted in The Wall Street Journal for trading on
 $$ i_{\mathrm{T -b il l}, d} = \frac{P_{f} - P_{0}}{P_{f}} \times \frac{3 6 0}{n}
 $$
 
-# EXAMPLE 5-4 Calculating a Treasury Bill Asked Discount Yield
+**Example 5-4 Calculating a Treasury Bill Asked Discount Yield**
 
 Suppose that you purchase the T-bill maturing on March 26, 2020, for  \$9,961.87. The T-bill matures 90 days after the quote date, December 27, 2019, and has a face value of\$ 10,000. The T-bill's Asked discount yield is calculated as:
 
@@ -345,7 +360,7 @@ Treasury bill bid and ask data are representative over-the-counter quotations as
 
 Source: The Wall Street Journal Online, December 27, 2019, www.wsj.com
 
-# EXAMPLE 5-5 Calculation of Treasury Bill Price from a Wall Street Journal Quote
+**Example 5-5 Calculation of Treasury Bill Price from a Wall Street Journal Quote**
 
 From Table 5-5, the asked (or discount) yield on the T-bill maturing on June 11, 2020 (or 167 days from the quote date, December 27, 2019), is 1.528 percent. The T-bill price for these T-bills is calculated as:
 
@@ -370,7 +385,7 @@ Short-term funds transferred between financial institutions, usually for a perio
 
 The interest rate for borrowing fed funds.
 
-# Federal Funds
+### Federal Funds
 
 Federal funds (fed funds) are short-term loans between financial institutions, usually for a period of one day. For example, commercial banks trade fed funds in the form of excess reserves held at their local Federal Reserve Bank. That is, one commercial bank may be short of reserves, requiring it to borrow excess reserves from another bank that has a surplus. The institution that borrows fed funds incurs a liability on its balance sheet, "federal funds purchased," while the institution that lends the fed funds records an asset, "federal funds sold." The overnight (or one day) interest rate in the interbank lending market is the federal funds rate. The fed funds rate is a function of the supply and demand for federal funds among financial institutions and the effects of the Federal Reserve's trading through the FOMC (as discussed in Chapter 4).
 
@@ -378,7 +393,7 @@ One of the primary risks of the interbank lending system is that the borrowing b
 
 Federal Funds Yields. Federal funds (fed funds) are single-payment loans—they pay interest only once, at maturity. Further, fed funds transactions take the form of short-term (mostly overnight) unsecured loans. Quoted interest rates on fed funds,  $i_{ff,sp}$ , assume a 360-day year. Therefore, to compare interest rates on fed funds with other securities such as Treasury bills, the quoted fed funds interest rate must be converted into a bond equivalent rate or yield,  $i_{ff,be}$ .
 
-# EXAMPLE 5-6 Conversion of Federal Funds Rate of Interest to a Bond Equivalent Rate
+**Example 5-6 Conversion of Federal Funds Rate of Interest to a Bond Equivalent Rate**
 
 From Table 5-1, the overnight fed funds rate on December 31, 2019, was 1.47 percent. The conversion of the fed funds rate to a bond equivalent rate is calculated as follows:
 
@@ -412,7 +427,7 @@ Figure 5-3 illustrates a fed funds transaction. For example, a bank that finds i
 
 An agreement involving the sale of securities by one party to another with a promise to repurchase the securities at a specified price and on a specified date.
 
-# Repurchase Agreements
+### Repurchase Agreements
 
 A repurchase agreement (repo or RP) is an agreement involving the Purchase of securities by one party (the repo buyer) to another party, (the repo seller) with a promise to sell the securities at a specified price and on a specified date in the future. Most repurchase agreements are collateralized, with the seller holding securities to back the transaction. The repo buyer acquires title to the securities for the term of the agreement. Thus, a repurchase agreement is essentially a collateralized fed funds loan. One-day maturity repos are called overnight repos and repos with longer maturities are called term repos. The securities used most often as collateral in repos are U.S. Treasury securities (e.g., T-bills) and government agency securities (e.g., Fannie Mae). Collateral pledged in a repurchase agreement has a "haircut" applied, which means the loan is slightly smaller than the market value of securities pledged. This haircut reflects the underlying risk of the collateral and protects the repo buyer against a change in the value of the collateral. Haircuts are specific to classes of collateral. For example, a U.S. Treasury bill might have one haircut rate, a government agency
 
@@ -453,7 +468,7 @@ $P_{0} =$  Selling price of the securities
 
 $n =$  Number of days until the repo matures
 
-# EXAMPLE 5-7 Calculation of a Yield on a Repurchase Agreement
+**Example 5-7 Calculation of a Yield on a Repurchase Agreement**
 
 Suppose a bank enters a repurchase agreement in which it agrees to buy fed funds from one of its correspondent banks at a price of  \$10,000,000, with the promise to sell these funds back at a price of$ 10,000,291.67 ($10,000,000 plus interest of \$291.67) after five days. The yield on this repo to the bank is calculated as follows:
 
@@ -462,7 +477,7 @@ $$
 
 Because of their common use as a source of overnight funding and the fact that repos are essentially collateralized fed fund transactions, the Federal Reserve generally classifies federal funds and repurchase agreements together in its statistical data. Together, these amounted to more than 4.1 trillion outstanding in 2019 (see Table 5-3). Some notable differences exist, however, between repurchase agreements and fed funds. For example, repurchase agreements are less liquid than fed funds since they can only be arranged after an agreed upon type of collateral is posted (i.e., repos are hard to arrange at the close of the banking day, whereas fed funds can be arranged at very short notice, even a few minutes). Further, nonbanks are more frequent users of repurchase agreements.
 
-# Commercial Paper
+### Commercial Paper
 
 # commercial paper
 
@@ -523,7 +538,7 @@ $$ and when converted to a bond equivalent yield:
 $$ i_{c p, b e} = \frac{P_{f} - P_{0}}{P_{0}} \times \frac{3 6 5}{n}
 $$
 
-# EXAMPLE 5-8 Calculation of the Yield on Commercial Paper
+**Example 5-8 Calculation of the Yield on Commercial Paper**
 
 Suppose an investor purchases 95-day commercial paper with a par value of \$1,000,000 for a price of \$990,023. The discount yield (d) on the commercial paper is calculated as:
 
@@ -548,7 +563,7 @@ A bank-issued, fixed maturity, interest-bearing time deposit that specifies an i
 
 An instrument in which the holder at maturity receives the principal and interest.
 
-# Negotiable Certificates of Deposit
+### Negotiable Certificates of Deposit
 
 A negotiable certificate of deposit (CD) is a bank-issued time deposit that specifies an interest rate and maturity date and is negotiable (i.e., salable) in the secondary market. As of 2016, there were over  \$1.86 trillion of negotiable CDs outstanding. A negotiable CD is a bearer instrument—whoever holds the CD when it matures receives the principal and interest. A negotiable CD can be traded any number of times in secondary markets; therefore, the original buyer is not necessarily the owner at maturity.[11] Negotiable CDs have denominations that range from$ 100,000 to $10 million; \$1 million is the most common denomination. The large denominations make negotiable CDs too large for most individuals to buy. However, negotiable CDs are often purchased by money market mutual funds (see Chapter 17), which pool funds of individual investors and allow this group to indirectly purchase negotiable CDs. Negotiable CD maturities range from two weeks to one year, with most having a maturity of one to four months.
 
@@ -564,7 +579,7 @@ The mechanics of the secondary market are similar to those of the primary market
 
 Negotiable CD Yields. Negotiable CD rates are negotiated between the bank and the CD buyer. Large, well-known banks can offer CDs at slightly lower rates than smaller, less well-known banks. This is due partly to the lower perceived default risk and greater marketability of well-known banks and partly to the belief that larger banks are often "too big to fail"—regulators will bail out troubled large banks and protect large depositors beyond the explicit (250,000) deposit cap under the current FDIC insurance program (see Chapter 13). As mentioned earlier, negotiable CDs are single-payment securities. Thus, interest rates on negotiable CDs are generally quoted using a 360-day year.
 
-# EXAMPLE 5-9 Calculation of the Secondary Market Yield on a Negotiable CD
+**Example 5-9 Calculation of the Secondary Market Yield on a Negotiable CD**
 
 A bank has issued a six-month, 1 million negotiable CD with a 0.72 percent quoted annual interest rate (iCD, sp). The bond equivalent yield on the CD is:
 
@@ -608,7 +623,7 @@ $$
 
 A time draft payable to a seller of goods, with payment guaranteed by a bank.
 
-# Banker's Acceptances
+### Banker's Acceptances
 
 A banker's acceptance is a time draft payable to a seller of goods, with payment guaranteed by a bank. Banker's acceptances make up an increasingly small part of the money markets. As a result, beginning in June 2002, banker's acceptance levels are included in the commercial paper levels and no longer differentiated from commercial paper. Time drafts issued by a bank are orders for the bank to pay a specified amount of money to the bearer of the time draft on a given date.
 
@@ -619,7 +634,7 @@ Because banker's acceptances are payable to the bearer at maturity, they can be 
 
 Only the largest U.S. banks are active in the banker's acceptance market. Because the risk of default is very low (essentially an investor is buying a security that is fully backed by commercial bank guarantees), interest rates on banker's acceptances are low. Specifically, there is a form of double protection underlying banker's acceptances that reduces their default risk. Since both the importer and the importer's bank must default on the transaction before the investor is subject to risk, the investor is also protected by the value of the goods imported to which he or she now has a debtor's claim—the goods underlying the transaction can be viewed as collateral. Like T-bills and commercial paper, banker's acceptances are sold on a discounted basis.
 
-# DO YOU UNDERSTAND?
+## Do You Understand?
 
 4. How Treasury bills are first issued?
 5. What federal funds are?
@@ -632,7 +647,7 @@ Only the largest U.S. banks are active in the banker's acceptance market. Becaus
 
 Having reviewed the different money market securities, it should be obvious that the different securities have a number of characteristics in common: large denominations, low default risk, and short maturities. It should also be noted that these securities are quite different in terms of their liquidity. For example, Treasury bills have an extensive secondary market. Thus, these money market securities can be converted into cash quickly and with little loss in value. Commercial paper, on the other hand, has no organized secondary market. These securities cannot be converted into cash quickly unless resold to the original dealer/underwriter, and conversion may involve a relatively higher cost. Federal funds also have no secondary market trading, since they are typically overnight loan transactions and are not intended as investments to be held beyond very short horizons (thus, the lack of a secondary market is inconsequential). Indeed, longer-horizon holders simply roll over their holdings. Bank negotiable CDs also can be traded on secondary markets, but in recent years trading has been relatively inactive, as most negotiable CDs are being bought by "buy and hold" oriented money market mutual funds, as are banker's acceptances.
 
-# MONEY MARKET PARTICIPANTS
+## Money Market Participants
 
 LG 5-4
 
@@ -642,15 +657,15 @@ TABLE 5-6 Money Market Participants
 
 <table><tr><td>Instrument</td><td>Principal Issuer</td><td>Principal Investor</td></tr><tr><td>Treasury bills</td><td>U.S. Treasury</td><td>Federal Reserve System Commercial banks Mutual funds Brokers and dealers Other financial institutions Corporations Individuals</td></tr><tr><td>Federal funds</td><td>Commercial banks</td><td>Commercial banks</td></tr><tr><td>Repurchase agreements</td><td>Federal Reserve System Commercial banks Brokers and dealers Other financial institutions</td><td>Federal Reserve System Commercial banks Mutual funds Brokers and dealers Other financial institutions Corporations</td></tr><tr><td>Commercial paper</td><td>Commercial banks Other financial institutions Corporations</td><td>Brokers and dealers Mutual funds Corporations Other financial institutions Individuals</td></tr><tr><td>Negotiable CDs</td><td>Commercial banks</td><td>Brokers and dealers Mutual funds Corporations Other financial institutions Individuals</td></tr><tr><td>Banker&#x27;s acceptances</td><td>Commercial banks</td><td>Commercial banks Brokers and dealers Corporations</td></tr></table>
 
-# The U.S. Treasury
+### The U.S. Treasury
 
 The U.S. Treasury raises significant amounts of funds in the money market when it issues T-bills. T-bills are the most actively traded of the money market securities. T-bills allow the U.S. government to raise money to meet unavoidable short-term expenditure needs prior to the receipt of tax revenues. Tax receipts are generally concentrated around quarterly dates, but government expenditures are more evenly distributed over the year.
 
-# The Federal Reserve
+### The Federal Reserve
 
 The Federal Reserve is a key (arguably the most important) participant in the money markets. The Federal Reserve holds T-bills (as well as T-notes and T-bonds) to conduct open market transactions—purchasing T-bills when it wants to increase the money supply and selling T-bills when it wants to decrease the money supply. The Federal Reserve often uses repurchase agreements and reverse repos to temporarily smooth interest rates and the money supply. Moreover, the Fed targets the federal funds rate as part of its overall monetary policy strategy, which can in turn affect other money market rates. Finally, the Fed operates the discount window, which it can use to influence the supply of bank reserves to commercial banks and ultimately the demand for and supply of fed funds and repos.
 
-# Commercial Banks
+### Commercial Banks
 
 Commercial banks are the most diverse group of participants in the money markets. As Table 5-6 shows, banks participate as issuers and/or investors of almost all money market www.ustreas.gov
 
@@ -659,11 +674,11 @@ instruments discussed above. For example, banks are the major issuers of negotia
 
 The importance of banks in the money markets is driven in part by their need to meet reserve requirements imposed by regulation. For example, during periods of economic expansion, heavy loan demand can produce reserve deficiencies for banks (i.e., their actual reserve holdings are pushed below the minimums required by regulation). Additional reserves can be obtained by borrowing fed funds from other banks, engaging in a repurchase agreement, selling negotiable CDs, or selling commercial paper.[12] Conversely, during contractionary periods, many banks have excess reserves that they can use to purchase Treasury securities, trade fed funds, engage in reverse repos, and so on.
 
-# Money Market Mutual Funds
+### Money Market Mutual Funds
 
 Money market mutual funds purchase large amounts of money market securities and sell shares in these pools based on the value of their underlying (money market) securities (see Chapter 17). In doing so, money market mutual funds allow small investors to invest in money market instruments. In October 2019 money market mutual funds had 3.96 trillion invested in short-term financial securities—such as repurchase agreements, negotiable CDs, open market paper (mostly commercial paper), and U.S. government securities. Money market mutual funds provide an alternative investment opportunity to interest-bearing deposits at commercial banks.[13]
 
-# Brokers and Dealers
+### Brokers and Dealers
 
 Brokers' and dealers' services are important to the smooth functioning of money markets. We have alluded to various categories of brokers and dealers in this chapter. First are the 24 primary government security dealers. This group of participants plays a key role in marketing new issues of Treasury bills (and other Treasury securities). Primary government securities dealers also make the market in Treasury bills, buying securities from the Federal Reserve when they are issued and selling them in the secondary market. Secondary market transactions in the T-bill markets are transacted in the trading rooms of these primary dealers. These dealers also assist the Federal Reserve when it uses the repo market to temporarily increase or decrease the supply of bank reserves available.
 
@@ -672,7 +687,7 @@ The second group of brokers and dealers are money and security brokers. Some of 
 The third group of brokers and dealers are the thousands of brokers and dealers who act as intermediaries in the money markets by linking buyers and sellers of money market securities (see Chapter 16). These brokers and dealers often act as the intermediaries for smaller investors who do not have sufficient funds to invest in primary issues of money market securities or who simply want to invest in the money markets.
 
 
-# Corporations
+### Corporations
 
 Nonfinancial and financial corporations raise large amounts of funds in the money markets, primarily in the form of commercial paper. Because corporate cash inflows rarely equal their cash outflows, they often invest their excess cash funds in money market securities, especially T-bills, repos, commercial paper, negotiable CDs, and banker's acceptances.
 
@@ -692,7 +707,7 @@ Since finance companies are not banks and cannot issue deposits, they raise larg
 
 Individual investors participate in the money markets through direct investments in these securities (e.g., negotiable CDs) or through investments in money market mutual funds, which contain a mix of all types of money market securities.
 
-# INTERNATIONAL ASPECTS OF MONEY MARKETS
+## International Aspects of Money Markets
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/8d04a5ac-85cd-4263-9695-9d761733496f/2197a91290aa45a11009bcf4916c25bdc7a911c4becc0277fa7d135baa43b231.jpg)
 
@@ -722,7 +737,7 @@ Note from Table 5-7 that foreign investments in U.S. money market securities inc
 
 Because of the importance of the U.S. dollar relative to other currencies, many international financial contracts call for payment in U.S. dollars—the U.S. dollar is still the major international medium of exchange (62 percent of the world's currency reserves are held in U.S. dollars as of September 2019). As a result, foreign governments and businesses have historically held a store of funds (deposits) denominated in dollars outside of the United States. Further, U.S. corporations conducting international trade often hold U.S. dollar deposits in foreign banks overseas to facilitate expenditures and purchases. These dollar-denominated deposits held offshore in U.S. bank branches overseas and in other (foreign) banks are called Eurodollar deposits (Eurodollar CDs) and the market in which they trade is called the Eurodollar market. Eurodollars may be held by governments, corporations, and individuals from anywhere in the world and are not directly subject to U.S. bank
 
-# DO YOU UNDERSTAND?
+## Do You Understand?
 
 13. What the major U.S. money market securities held by foreign investors are?
 
@@ -786,7 +801,7 @@ Working groups convened by regulators in the most used LIBOR currencies have alr
 
 Dollar-denominated deposits in non-U.S. banks.
 
-# DO YOU UNDERSTAND?
+## Do You Understand?
 
 14. What the relation is between the federal funds rate and the LIBOR?
 15. Which currencies most international money market instruments are issued in?
@@ -809,11 +824,11 @@ rate from the U.S. CD rate. Indeed, in 2007, the average rate paid on three-mont
 
 Eurocommercial Paper. Eurocommercial paper (Euro-CP) is an unsecured, short-term loan issued by a bank or corporation in the international money market, denominated in a currency that differs from the domestic currency of the market where the paper is issued. An example would be Eurodollar commercial paper denominated in U.S. dollars but issued in the Japanese debt market with a short time remaining until maturity. The Eurocommercial paper rate is generally benchmarked to the Euro Overnight Index Average (EONIA). According to the CMP Portal, there were  \$523.2 billion Eurocommercial paper outstanding and\$ 435.9 billion Eurodollar certificates of deposit outstanding as of December 31, 2019.
 
-# SUMMARY
+## Summary
 
 In this chapter, we reviewed money markets, which are markets that trade debt securities with original maturities of one year or less. The need for money markets arises because cash receipts do not always coincide with cash expenditures for individuals, corporations, and government units. Because holding cash involves an opportunity cost, holders of excess cash invest these funds in money market securities. We looked at the various money market securities available to short-term investors and the major borrowers and issuers of each. We also outlined the processes by which each of these securities are issued and traded in secondary markets. We concluded the chapter by examining international issues involving money markets, taking a particular look at Euro money markets.
 
-# QUESTIONS
+## Questions
 
 1. What are the three characteristics common to money market securities? (LG 5-1)
 2. What is the difference between a discount yield and a bond equivalent yield? Which yield is used for Treasury bill quotes? (LG 5-1)
@@ -837,7 +852,7 @@ In this chapter, we reviewed money markets, which are markets that trade debt se
 19. Describe the issues regarding the validity of the LIBOR rate before and during the financial crisis. (LG 5-5)
 20. What are Eurodollar CDs and Eurocommercial paper? (LG 5-5)
 
-# PROBLEMS
+## Problems
 
 1. What is the discount yield, bond equivalent yield, and effective annual return on a 1 million Treasury bill that currently sells at 99.375 percent of its face value and is 65 days from maturity? (LG 5-2)
 

@@ -1,7 +1,7 @@
 ---
 title: "Discounted Cash Flow Methods for Equity Valuation"
 parent_directory: "Equity Models and Valuation"
-formatted: "2025-12-21 10:30:00 AM"
+formatted: "2025-12-21 10:35:00 AM"
 formatter_model: "claude-sonnet-4-5-20250929"
 cli_tool: "claude-code"
 primary_tags:
@@ -397,7 +397,7 @@ Value of operations = Present value of expected future FCF + Present value of no
 Based on a  $10.84\%$  cost of capital, a  $\$ 49$ million FCF in 20Y2, and a  $5 \%$ growth rate, the value of XYZ's operations as of December 31, 20Y2 (terminal value) is forecasted to be  $\$ 880.99$ million:
 
 $$
-\begin{array}{l} \text{Te rm in al va lu e} = \frac{\S 4 9 (1 + 0 . 0 5)}{(0 . 1 0 8 4 - 0 . 0 5 0)} \\ = \frac{\mathbb {S} 5 1 . 4 5}{(0 . 1 0 8 4 - 0 . 0 5)} = \mathbb {S} 8 8 0. 9 9 \\ \end{array}
+\begin{array}{l} \text{Terminal value} = \frac{\$49(1 + 0.05)}{(0.1084 - 0.050)} \\ = \frac{\$51.45}{(0.1084 - 0.05)} = \$880.99 \\ \end{array}
 $$
 
 This 880.99 million figure is called the company's terminal or horizon value, because it is the value at the end of the forecast period. Moreover, this is the amount that XYZ could expect to receive if it sold its operating assets on December 31, 20Y2.
@@ -445,13 +445,13 @@ $= ($ 17.00 + $85.00 + $170.00) - ($17.00 - $43.00) = 212.00.
 5. Line 5 shows NOPAT, or net operating profit after taxes. Note that EBIT is operating earnings before taxes, while NOPAT is operating earnings after taxes. Therefore, NOPAT = EBIT (I - T). With 20X9 EBIT of \$85 as shown in Table 5 and a tax rate of 40\%, NOPAT as projected for 20X9 is \$51 million:
 
 $$
-\mathrm{NO PA T} = \mathrm{EB IT} (1 - T) = \ 8 5 (1. 0 - 0. 4) = \ 5 1 \text{mi ll io n}.
+\mathrm{NOPAT} = \mathrm{EBIT} (1 - T) = 85 (1.0 - 0.4) = 51 \text{million}.
 $$
 
 6. Although XYZ's operating assets are projected to produce \$51 million of after-tax profits in 20X9, the company must invest \$69 million in new assets in 20X9. Therefore, the FCF for 20X9, shown on Line 7, is a negative 18 million:
 
 $$
-\text{FC Fi n} 2 0 \times 9 = \$ 5 1 - \$ 6 9 = - \$ 1 8. 0 0 \text{mi ll on (ne ga ti ve)}
+\text{FCF}_{2009} = $51 - $69 = -$18.00 \text{million (negative)}
 $$
 
 $$
