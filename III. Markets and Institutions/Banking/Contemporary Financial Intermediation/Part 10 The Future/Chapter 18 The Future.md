@@ -1,14 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Chapter 18 The Future"
+parent_directory: "Part 10 The Future"
+primary_tags:
+  - banking industry evolution
+  - financial technology disruption
+  - regulatory change drivers
+  - customer preference shifts
+  - fintech innovation
+secondary_tags:
+  - payment system transformation
+  - peer to peer lending
+  - blockchain technology
+  - cryptocurrency adoption
+  - investment banking challenges
+  - shadow banking expansion
+  - digital banking platforms
+  - sustainability in finance
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: claude-3-5-sonnet-20241022
+cli_tool: opencode
 cssclasses: academia
-title: GLOSSARY OF TERMS
-linter-yaml-title-alias: GLOSSARY OF TERMS
 ---
 
-# GLOSSARY OF TERMS
+# Chapter 18 The Future
 
 Conglomerate Discount The amount by which the price of a conglomerate trades at is lower than the sum of the prices at which its individual divisions would trade as stand-alone businesses.
 
@@ -18,7 +32,7 @@ SIFI Systemically important financial institution. This refers to institutions w
 
 OTC Over The Counter.
 
-# INTRODUCTION
+## INTRODUCTION
 
 Your intellectual curiosity and patience are rewarded. The closing chapter, one of conjecture and surmise, is at hand. Though predictions about the future of banking maybe unavoidable, they are also often fraught with drama. With provocative titles like, "The Banks of Tomorrow: Think Google and Facebook" or "Banks Need to Take on Amazon and Google or Die,"[2] scribblers raise the specter of existential threats. Overlooked is the possibility that banks of the future may look neither like Google and Facebook nor like contemporary banks. New kinds of intermediaries may emerge with the capability to eclipse existing banks as well as extant social media paragons.
 
@@ -26,7 +40,7 @@ In this chapter, we begin with a discussion of the main drivers for change in th
 
 While changes in customer preferences and payments technology may most directly affect retail banking, we will argue that major developments can be expected in corporate and investment banking as well.
 
-# CHANGE DRIVERS
+## CHANGE DRIVERS
 
 Public regulation, technology, and customer preferences are perhaps most disruptive and can be seen as the primary forces of change. Chapters 15 and 16 explained how the Great Recession led to a major expansion of regulation. This trend toward more intrusive governmental regulation is likely to continue with structural implications for the banking industry. Information technology is reshaping the financial services industry too. Shifts from credit and debit cards to mobile and digital means of payment are already in evidence. Social media and the internet create new challenges for extant business models as they reduce the cost of information and encourage its dissemination in unpredictable ways. Technology disaggregates the value chain and introduces new players, processes, and products. As this happens, new externalities and risks are likely
 
@@ -37,7 +51,7 @@ to emerge, encouraging the development of new types of governmental regulations,
 
 Apart from regulation and information technology, we see a third force for change in the financial landscape - evolving customer preferences. Consumers desire empowerment and more control over their finances. Social media affect the process by which customers are engaged, and want to be reached. A more detailed discussion of each of these forces follows. Figure 18.1 displays the various forces. While information technology, regulation and customer preferences are identified as the key forces driving change, Figure 18.1 also recognizes the importance of privacy concerns and globalization. We discuss privacy concerns - particularly surrounding the use of data - in the following section on regulation. Globalization is not a force that is discussed explicitly, but obviously has an impact on the structure of the industry and the effectiveness of nation-based regulation. Geo-political developments (from Russia, Middle-East to concerns about foreign ownership of domestic assets) may impact the degree of globalization in the years to come as well as cross-border financial flows and the international scope of financial institutions.
 
-# Regulation
+## Regulation
 
 Recent legislation in Europe, the United States and the rest of the world has empowered public regulators at the expense of shareholders and management (private interests). This incursion was responsive to:
 
@@ -52,9 +66,7 @@ Following is a discussion of each.
 
 One aspect of the Great Recession that caught regulators by surprise was the violence with which shocks in one part of the financial system were transmitted to others. The subprime mortgage crisis in the United States – triggered a worldwide trauma. As we saw in Chapter 17, financial institutions and markets are increasingly integrated within and across national boundaries. Interconnectedness, globalization, and the proliferation of financial claims slowed a bit during the 2007–2009 financial crisis, but are likely to reassert their full force. Therefore, we expect financial system contagion to not only continue in the future, but possibly even become more pronounced.
 
-Intrafinancial sector linkages can be expected to mushroom as well. The linkages of shadow banks – which mostly escaped regulatory oversight prior to the 2007–2009 crisis – to other parts of the financial system may have been motivated
-
-by the economic demands of the system (including regulatory arbitrage), have also promoted opacity and fragility. In particular, the regulatory costs faced by legacy depository institutions spur the development of the shadow financial system that, in turn, renders regulation less effective. Not only will central banks need to track more voluminous flows of information that involve both traditional financial institutions as well as shadow banking and other forms of market-based finance, but they will need a better understanding of what all of these information flows imply about systemic risk. The effectiveness of the regulatory response (see Chapters 15 and 16) is still unclear.
+Intrafinancial sector linkages can be expected to mushroom as well. The linkages of shadow banks – which mostly escaped regulatory oversight prior to the 2007–2009 crisis – to other parts of the financial system may have been motivated by the economic demands of the system (including regulatory arbitrage), have also promoted opacity and fragility. In particular, the regulatory costs faced by legacy depository institutions spur the development of the shadow financial system that, in turn, renders regulation less effective. Not only will central banks need to track more voluminous flows of information that involve both traditional financial institutions as well as shadow banking and other forms of market-based finance, but they will need a better understanding of what all of these information flows imply about systemic risk. The effectiveness of the regulatory response (see Chapters 15 and 16) is still unclear.
 
 # Complexity of Regulations
 
@@ -74,7 +86,7 @@ Privacy is yet another public policy concern. Ongoing initiatives across the wor
 
 These various concerns suggest an evolving regulatory landscape that will have a major impact on the financial services industry of the future. The ultimate financial system design will depend upon how the tension between private and public interests is resolved. Will the struggle between Wall Street and Main Street abate, or will the public backlash against the financial services industry continue? The intrusiveness of public regulation will depend on how the industry is publicly perceived and on this score there is quite a bit of fence mending that lies ahead for the global financial services industry.
 
-# Technology
+## Technology
 
 Information technology is the great enabler. Markets and institutions have become more integrated, and financial innovations have proliferated, particularly those that enhance the tradability of assets and the transfer of risks that previously resided on the balance sheets of financial institutions. Also, distribution channels, payments systems, and more generally the way the financial services sector provides services and interacts with potential customers, are all affected by information technology. This more fluid landscape creates regulatory challenges and reshapes the business of banking. Several related questions follow:
 
@@ -87,7 +99,7 @@ Information technology is the great enabler. Markets and institutions have becom
 
 We will address these questions later in the chapter.
 
-# Customer Preferences
+## Customer Preferences
 
 The rise of social media and the sought immediacy of consumer gratification will have implications for financial services firms. The digital and mobile economy alters customer service expectations and affects the way customers perceive their financial institution. The ability to effect transactions online instantaneously has not only made the multiday delays of traditional providers annoying anachronisms, but also made the interaction between bank and customers more anonymous. It also made it easier for customers to change providers and "shop around" for the best deal.
 
@@ -99,7 +111,7 @@ Banks feel the pressure to connect to society, and be responsive to environmenta
 
 Building trust will be paramount. Transparency in the operations of financial institutions will be expected. To be successful, banks will need a better understanding of their customers and to tailor product offerings accordingly. To achieve this, banks will need a greater service ethic and show true commitment to their clientele. A profound change in banking culture and compensation practices will be required.
 
-# Interrelationships Between Drivers for Change
+## Interrelationships Between Drivers for Change
 
 The drivers for change are interrelated. For example, parts of social media that play a role in shaping customer behavior (and possibly customer preferences) are products of information technology. And technology may facilitate regulatory arbitrage, evoking a regulatory response. Social media may also elevate systemic risks through herding behavior that leads
 
@@ -120,7 +132,7 @@ FIGURE 18.2 Banks and Sustainability.
 
 to bank runs, bubbles, and manias. Change drivers all have a level of unpredictability that elevates uncertainty about the future of banking.
 
-# INITIATIVES THAT ARE CHANGING THE LANDSCAPE
+## INITIATIVES THAT ARE CHANGING THE LANDSCAPE
 
 The proliferation of web-based services and data-processing capabilities is changing the financial services landscape. Major changes are evident in distribution systems and the way financial institutions interact with their clientele. In addition, there are new disruptive players on the periphery with business models that challenge existing practices and institutions.
 
@@ -168,7 +180,7 @@ in which case we have a public Blockchain, as Bitcoin has. A large number of par
 
 What this highlights is that blockchain technology has wide applications that go far beyond cryptocurrencies. For the financial sector the many potential applications of blockchain (and other new technologies that might come about) could well define the future financial services architecture.
 
-# Investment Banking, Trading, and Exchanges
+## Investment Banking, Trading, and Exchanges
 
 Much of the discussion thus far has involved commercial and retail banking. However, major changes in financial markets and investment banking are envisioned as well. Investment banks play an important role in bringing capital users and capital providers together. These banks are primarily engaged in public and private offerings of debt and equity claims and also maintain secondary markets in these securities thereby augmenting liquidity. In the run up to the Great Recession, investment banks were very active in securitizing home mortgages and in making a market for OTC derivatives, two of the financial instruments assigned greatest culpability. But this was not all: their trading activities across the board mushroomed.
 
@@ -180,7 +192,7 @@ Another uncertainty comes from the demand side for investment banking services. 
 
 Investment banks' role in IPOs and secondary offerings also might be challenged by the internet-based platforms discussed earlier. If investors are easily reached and mobilized with targeted direct communication, one could envision a smaller role for investment banks, or at least one that makes them less indispensable and costly.[12] Historically, however, investment banks have been adroit in moving from one business opportunity to another. Hence, rumors of their demise may be premature, and the competitive dynamics of the banking industry in relation to nonbank competitors have yet to unfold.
 
-# ARE BANKS DOOMED?
+## ARE BANKS DOOMED?
 
 What role will banks play in these developments? How will banks respond to payment solutions that Apple has enabled with its iPhones? Will we see an Apple Bank? These developments are not without risk for traditional banks. A major transition is going on in the industry, and the status quo may not be an option for incumbents.[13]
 
@@ -209,7 +221,7 @@ What will happen to the financial sector as a fraction of the economy at large? 
 
 There are, however, reasons to envision a potential decline. The internet and information technology have resulted in declines in the number of bank branches. Together with an increasing automation of back offices, this may well reduce employment in the financial services industry. Investment banking may mirror what has already happened in the market for legal services where online research has reduced the demand for junior lawyers. A degree of commoditization can be expected as well in financial services which may reduce overall profitability.
 
-# CONCLUSION
+## CONCLUSION
 
 The interaction of technology, public regulation, and customer preferences will radically reshape financial institutions of the future. While there is considerable uncertainty about details, few deny that the online digital revolution will revolutionize banking. The consequent reconfiguration of institutions will have implications for economic and financial stability, but the key issue is how society will be served.
 
@@ -217,7 +229,7 @@ Remember that the "real" economy is lubricated with elemental financial services
 
 The bigger picture is foretold by a colorful history. Advances in finance have moved steadily, inexorably from the physical to the virtual and from the simple to the complex. Flux and intangibility have been the companions of progress permitting finance to remain close to the center of economic activity while earning a not-so-modest profit for financiers. Ask the Mellons, Morgans, and Rothschilds.
 
-# REFERENCES
+## REFERENCES
 
 BIS, 2014. Payment, Settlement and Clearing in Various Countries. Updated September 2014, www.bis.org/cpmi/paysysinfo.htm.  
 Boyd, J.H., Gertler, M., 1994. Are banks dead? Or are the reports greatly exaggerated? Federal Reserve Bank Minneapolis Q. Rev. 18, 2-23.  

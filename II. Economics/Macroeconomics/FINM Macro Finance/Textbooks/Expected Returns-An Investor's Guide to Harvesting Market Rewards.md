@@ -1,22 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: Expected Returns-An Investor's Guide to Harvesting Market Rewards
+parent_directory: II. Economics/Macroeconomics/FINM Macro Finance/Textbooks
+formatted: 2025-12-21 08:45:00 PM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - expected returns
+  - investment strategies
+  - asset allocation
+  - risk premia
+secondary_tags:
+  - historical performance
+  - behavioral finance
+  - forward-looking indicators
+  - market efficiency
+  - portfolio management
+  - investment horizons
+  - risk management
 cssclasses: academia
-title: Expected Returns
-linter-yaml-title-alias: Expected Returns
 ---
 
-# Expected Returns
+# Expected Returns: An Investor's Guide to Harvesting Market Rewards
 
-An Investor's Guide to Harvesting Market Rewards
-
-# Expected Returns
-
-An Investor's Guide to Harvesting Market Rewards
-
-# Contents
+## Contents
 
 Foreword by Clifford Asness xi
 
@@ -83,7 +89,7 @@ PART I OVERVIEW, HISTORICAL RETURNS, AND ACADEMIC THEORIES 1
 7.2 Data mining and other "mirage" explanations 112
 7.3 Notes 115
 
-# PART II A DOZEN CASE STUDIES 117
+## PART II A DOZEN CASE STUDIES 117
 
 # 8 Equity risk premium 119
 
@@ -198,7 +204,7 @@ PART I OVERVIEW, HISTORICAL RETURNS, AND ACADEMIC THEORIES 1
 19.6 Time-varying premia for tail risk exposures 395
 19.7 Notes 396
 
-# PART III BACK TO BROADER THEMES 399
+## PART III BACK TO BROADER THEMES 399
 
 # 20 Endogenous return and risk: Feedback effects on expected returns 401
 
@@ -271,7 +277,7 @@ PART I OVERVIEW, HISTORICAL RETURNS, AND ACADEMIC THEORIES 1
 29.5 Institutional practices 513
 29.6 Notes 514
 
-# APPENDICES 515
+## APPENDICES 515
 
 # A World wealth 515
 
@@ -299,13 +305,13 @@ B.6 Miscellaneous other 524
 
 # Index 551
 
-# Foreword
+## Foreword
 
 The first time I met Antti Ilmanen I thought he was insane. I was right. But, I was to discover quickly he was insane in a good way. The incident in question was at a new Ph.D. student mixer, about as exciting as it sounds, where seconds after being introduced to Antti he asked me "who do you rate in the top-five academics in finance and why?" He had his own answers on a set of Post-it notes. By the way, Antti has become famous for these Post-it notes. Suffice it to say if he consults the Post-its, and says you said something 17 years ago that turned out to be disproved in the latest Journal of Finance paper, just assume he's right and move on.
 
-Getting back to my story, he couldn't understand how I couldn't name five. Truth be told I probably could have named maybe three academics in total, and as to justifying my choices with "why?", I was stuck at zero. I had not chosen finance because, like Antti, I was already obsessed with it. I chose it as my dad, a lawyer, forbade me to go to law school, I had some mild ability at mathematics, I recognized that finance might be both intellectually interesting and provide a good living, and finally I chose a Ph.D. as being a professor seemed like a nice life (little did I know the Sirens of Wall Street would soon call me away …) Antti looked at me with a "what the heck are you doing in the Ph.D. program" confused stare, and I politely ran away from the very intense, very finance-obsessed young Finn. Now,  $20+$  years later, and after countless similar incidents, I no longer run away (he finds me anyway), but he's still intense and obsessed with finance. Over the years, and specifically through this book, those traits of his have made us all better off.
+Getting back to my story, he couldn't understand how I couldn't name five. Truth be told I probably could have named maybe three academics in total, and as to justifying my choices with "why?", I was stuck at zero. I had not chosen finance because, like Antti, I was already obsessed with it. I chose it as my dad, a lawyer, forbade me to go to law school, I had some mild ability at mathematics, I recognized that finance might be both intellectually interesting and provide a good living, and finally I chose a Ph.D. as being a professor seemed like a nice life (little did I know the Sirens of Wall Street would soon call me away …) Antti looked at me with a "what the heck are you doing in the Ph.D. program" confused stare, and I politely ran away from the very intense, very finance-obsessed young Finn. Now, $20+$ years later, and after countless similar incidents, I no longer run away (he finds me anyway), but he's still intense and obsessed with finance. Over the years, and specifically through this book, those traits of his have made us all better off.
 
-One more aside before my foreword begins in earnest. I briefly considered not writing this foreword in protest or as a rearguard action. Antti gives away a lot in this book. Perhaps few true secrets (though there are some!), as this is more a textbook than original research. But he makes much of what has become called "quantitative finance" easily (OK,  $300+$  dense pages, in original format, of "easily") accessible in one place. Long term, that can't be good for people like me who make their livings from this stuff being at least a bit secret. But being skilled at game theory I quickly determined that if I didn't write the foreword somebody else would, so refusal would not accomplish much. With that strategy shot down, I very fleetingly considered having him killed, but this seemed to entail too much "tail risk" (see Chapters 15 and 19) and, anyway, is at least somewhat morally ambiguous. Besides, Antti's just the type to have stashed a Post-it at his lawyer with a note "in the event of my untimely …" So in the end I decided to smile and write the foreword, and just resolve to work harder (along with many others at my firm and others throughout the field) to give Antti material for a sequel  $20+$  years from now!
+One more aside before my foreword begins in earnest. I briefly considered not writing this foreword in protest or as a rearguard action. Antti gives away a lot in this book. Perhaps few true secrets (though there are some!), as this is more a textbook than original research. But he makes much of what has become called "quantitative finance" easily (OK, $300+$ dense pages, in original format, of "easily") accessible in one place. Long term, that can't be good for people like me who make their livings from this stuff being at least a bit secret. But being skilled at game theory I quickly determined that if I didn't write the foreword somebody else would, so refusal would not accomplish much. With that strategy shot down, I very fleetingly considered having him killed, but this seemed to entail too much "tail risk" (see Chapters 15 and 19) and, anyway, is at least somewhat morally ambiguous. Besides, Antti's just the type to have stashed a Post-it at his lawyer with a note "in the event of my untimely …" So in the end I decided to smile and write the foreword, and just resolve to work harder (along with many others at my firm and others throughout the field) to give Antti material for a sequel $20+$ years from now!
 
 Now let's talk about the title subject.
 
@@ -353,7 +359,7 @@ The information set forth herein has been obtained or derived from sources belie
 
 Dedicated to Rory Byrne, in memoriam
 
-# Acknowledgments
+## Acknowledgments
 
 I have been a student of expected asset returns for over 20 years while wearing many different hats: buy-side bond portfolio manager in the Finnish central bank, Ph.D. scholar at the University of Chicago (UofC), bond research analyst at Salomon Brothers, sell-side strategist and prop trader at Salomon/Citigroup, and hedge fund trader and strategist at Brevan Howard. I have also advised various institutional investors on their long-term investment strategies—most regularly for Norway's sovereign wealth fund in semiannual expert panel meetings. It is mainly this last experience that has inspired this book.
 
@@ -375,13 +381,13 @@ A most emphatic thank-you goes to Laurence Siegel, Knut Kjaer, Matti Ilmanen, an
 
 Finally, I thank my family, the source of the most precious expected and realized returns. The family in Finland: My mother and siblings as well as my late father who taught me the love of reading through example and who urged me to read in a way that advances my knowledge systematically ("try to position each new piece of knowledge in its correct place in the star sky"). My Nordic background and values likely helped counterbalance any free market ideology picked up at UofC or material interests in a banking and hedge fund career. And the family in Bad Homburg: My rocks, dear Annette as well as Kukka and Akseli, I am hugely grateful for your understanding during this long project. I just hope I can be as supportive when it is your turn.
 
-# Abbreviations and acronyms
+## Abbreviations and acronyms
 
 <table><tr><td>AM</td><td>Arithmetic Mean</td></tr><tr><td>ATM</td><td>At The Money (option)</td></tr><tr><td>AUM</td><td>Assets Under Management</td></tr><tr><td>BEI</td><td>Break-Even Inflation</td></tr><tr><td>BF</td><td>Behavioral Finance</td></tr><tr><td>B/P</td><td>Book/Price, book-to-market ratio</td></tr><tr><td>BRP</td><td>Bond Risk Premium, term premium</td></tr><tr><td>B-S</td><td>Black-Scholes</td></tr><tr><td>C-P BRP</td><td>Cochrane-Piazzesi Bond Risk Premium</td></tr><tr><td>CAPM</td><td>Capital Asset Pricing Model</td></tr><tr><td>CAY</td><td>Consumption wealth ratio</td></tr><tr><td>CB</td><td>Central Bank</td></tr><tr><td>CCW</td><td>Covered Call Writing</td></tr><tr><td>CDO</td><td>Collateralized Debt Obligation</td></tr><tr><td>CDS</td><td>Credit Default Swap</td></tr><tr><td>CF</td><td>Cash Flow</td></tr><tr><td>CFNAI</td><td>Chicago Fed National Activity Index</td></tr><tr><td>CFO</td><td>Chief Financial Officer</td></tr><tr><td>CMD</td><td>Commodity (futures)</td></tr><tr><td>CPIyoy</td><td>Consumer Price Inflation year on year</td></tr><tr><td>CRB</td><td>Commodity Research Bureau</td></tr><tr><td>CRP</td><td>Credit Risk Premium (over Treasury bond)</td></tr><tr><td>CRRA</td><td>Constant Relative Risk Aversion</td></tr><tr><td>CTA</td><td>Commodity Trading Advisor</td></tr><tr><td>DDM</td><td>Dividend Discount Model</td></tr><tr><td>DJ CS</td><td>Dow Jones Credit Suisse</td></tr><tr><td>DMS</td><td>Dimson-Marsh-Staunton</td></tr><tr><td>D/P</td><td>Dividend/Price (ratio), dividend yield</td></tr><tr><td>DR</td><td>Diversification Return</td></tr><tr><td>E( )</td><td>Expected (conditional expectation)</td></tr><tr><td>EMH</td><td>Efficient Markets Hypothesis</td></tr><tr><td>E/P</td><td>Earnings/Price ratio, earnings yield</td></tr><tr><td>EPS</td><td>Earnings Per Share</td></tr></table>
 
 <table><tr><td>ERP</td><td>Equity Risk Premium</td></tr><tr><td>ERPB</td><td>Equity Risk Premium over Bond (Treasury)</td></tr><tr><td>ERPC</td><td>Equity Risk Premium over Cash (Treasury bill)</td></tr><tr><td>F</td><td>Forward price or futures price</td></tr><tr><td>FF</td><td>Fama-French</td></tr><tr><td>FI</td><td>Fixed Income</td></tr><tr><td>For</td><td>Fund of Funds</td></tr><tr><td>FX</td><td>Foreign eXchange</td></tr><tr><td>G</td><td>Growth rate</td></tr><tr><td>GARCH</td><td>Generalized AutoRegressive Conditional Heteroskedasticity</td></tr><tr><td>GC</td><td>General Collateral repo rate (money market interest rate)</td></tr><tr><td>GDP</td><td>Gross Domestic Product</td></tr><tr><td>GM</td><td>Geometric Mean, also compound annual return</td></tr><tr><td>GP</td><td>General Partner</td></tr><tr><td>GSCI</td><td>Goldman Sachs Commodity Index</td></tr><tr><td>H</td><td>Holding-period return</td></tr><tr><td>HF</td><td>Hedge Fund</td></tr><tr><td>HFR</td><td>Hedge Fund Research</td></tr><tr><td>HML</td><td>High Minus Low, a value measure, also VMG</td></tr><tr><td>HNWI</td><td>High Net Worth Individual</td></tr><tr><td>HPA</td><td>House Price Appreciation (rate)</td></tr><tr><td>HY</td><td>High Yield, speculative-rated debt</td></tr><tr><td>IG</td><td>Investment Grade (rated debt)</td></tr><tr><td>ILLIQ</td><td>Measure of a stock's illiquidity: average absolute daily return over a month divided by dollar volume</td></tr><tr><td>IPO</td><td>Initial Public Offering</td></tr><tr><td>IR</td><td>Information Ratio</td></tr><tr><td>IRP</td><td>Inflation Risk Premium</td></tr><tr><td>ISM</td><td>Business confidence index</td></tr><tr><td>ITM</td><td>In The Money (option)</td></tr><tr><td>JGB</td><td>Japanese Government Bond</td></tr><tr><td>K-W BRP</td><td>Kim-Wright Bond Risk Premium</td></tr><tr><td>LIBOR</td><td>London InterBank Offered Rate, a popular bank deposit rate</td></tr><tr><td>LP</td><td>Limited Partner</td></tr><tr><td>LSV</td><td>Lakonishok-Shleifer-Vishny</td></tr><tr><td>LtA</td><td>Limits to Arbitrage</td></tr><tr><td>LTCM</td><td>Long-Term Capital Management</td></tr><tr><td>MA</td><td>Moving Average</td></tr><tr><td>MBS</td><td>(fixed rate, residential) Mortgage-Backed Securities</td></tr><tr><td>MIT-CRE</td><td>MIT Center for Real Estate</td></tr><tr><td>MOM</td><td>Equity MOMentum proxy</td></tr><tr><td>MSCI</td><td>Morgan Stanley Capital International</td></tr><tr><td>MU</td><td>Marginal Utility</td></tr><tr><td>NBER</td><td>National Bureau of Economic Research</td></tr><tr><td>NCREIF</td><td>National Council of Real Estate Investment Fiduciaries</td></tr><tr><td>OAS</td><td>Option-Adjusted (credit) Spread</td></tr><tr><td>OTM</td><td>Out of The Money (option)</td></tr><tr><td>P</td><td>Price</td></tr><tr><td>P/B</td><td>Price/Book (valuation ratio)</td></tr><tr><td>P/E</td><td>Price/Earnings (valuation ratio)</td></tr><tr><td>PE</td><td>Private Equity</td></tr><tr><td>PEH</td><td>Pure Expectations Hypothesis</td></tr><tr><td>PT</td><td>Prospect Theory</td></tr><tr><td>r</td><td>Excess return</td></tr><tr><td>R</td><td>Real (rate)</td></tr><tr><td>RE</td><td>Real Estate</td></tr><tr><td>REITs</td><td>Real Estate Investment Trusts</td></tr><tr><td>RWH</td><td>Random Walk Hypothesis</td></tr><tr><td>S</td><td>Spot price, spot rate</td></tr><tr><td>SBRP</td><td>Survey-based Bond Risk Premium</td></tr><tr><td>SDF</td><td>Stochastic Discount Factor</td></tr><tr><td>SMB</td><td>Small Minus Big, size premium proxy</td></tr><tr><td>SR</td><td>Sharpe Ratio</td></tr><tr><td>SWF</td><td>Sovereign Wealth Fund</td></tr><tr><td>TED</td><td>Treasury-Eurodollar (deposit) rate spread in money markets</td></tr><tr><td>TIPS</td><td>Treasury Inflation-Protected Securities, real bonds</td></tr><tr><td>UIP</td><td>Uncovered Interest Parity (hypothesis)</td></tr><tr><td>VaR</td><td>Value at Risk</td></tr><tr><td>VC</td><td>Venture Capital</td></tr><tr><td>VIX</td><td>A popular measure of the implied volatility of S&amp;P 500 index options</td></tr><tr><td>VMG</td><td>Value Minus Growth, equity value premium proxy</td></tr><tr><td>WDRA</td><td>Wealth-Dependent Risk Aversion</td></tr><tr><td>X</td><td>Cash flow</td></tr><tr><td>Y</td><td>Yield</td></tr><tr><td>YC</td><td>Yield Curve (steepness), term spread</td></tr><tr><td>YTM</td><td>Yield To Maturity</td></tr><tr><td>YTW</td><td>Yield To Worst</td></tr></table>
 
-# Disclaimer
+## Disclaimer
 
 Antti Ilmanen is a Senior Portfolio Manager at Brevan Howard, one of Europe's largest hedge fund managers.
 
@@ -391,9 +397,9 @@ The information and opinions contained in this document are for information and 
 
 This book does not constitute or form part of any offer to issue or sell, or any solicitation of any offer to subscribe or purchase, any shares or any other interests nor shall it or the fact of its distribution form the basis of, or be relied on in connection with, any contract thereof. This book is not intended to constitute, and should not be construed as, investment advice.
 
-# Part I
+## Part I
 
-# Overview, historical returns, and academic theories
+## Overview, historical returns, and academic theories
 
 1. Introduction
 2. Whetting the appetite: Historical averages and forward-looking returns
@@ -504,8 +510,8 @@ Why should you think twice before using historical returns as forecasts of futur
 
 These concerns notwithstanding, this book presents extensive evidence of long-run realized returns, when possible covering 50-to-100-year histories. Several main findings are familiar to most readers:
 
-- Stock markets have outperformed fixed income markets during the past century in all countries studied. The compound average real return for global equities between 1900 and 2009 is  $5.4\%$ , which is  $3.7\%$  ( $4.4\%$ ) higher than that of long-term government bonds (short-dated Treasury bills). Stocks' outperformance over bonds is  $0.5\%$  to  $0.8\%$  higher for the U.S. than globally and was even more pronounced before the negative returns in 2000s. The experience of the current investor generation has buried the myth that stocks always beat bonds over 20-year or 30-year horizons. (This myth was never true. Many exceptions to it occurred outside the U.S. in the 20th century and inside the U.S. during the 19th century.)
-- Among fixed income markets, long-term bonds have outperformed short-dated bonds by  $0.5\%$  to  $1\%$  and credit-risky corporate bonds have outperformed comparable government bonds by  $0.3\%$  to  $1\%$  (low end for investment-grade bonds, high end for high-yield bonds). More surprisingly, the reward for bearing interest rate risk or credit risk is most consistent at short maturities. At the back end of the yield curve and at the low end of the credit spectrum there has been scant long-run benefit for additional risk taking.
+- Stock markets have outperformed fixed income markets during the past century in all countries studied. The compound average real return for global equities between 1900 and 2009 is $5.4\%$, which is $3.7\%$ ($4.4\%$) higher than that of long-term government bonds (short-dated Treasury bills). Stocks' outperformance over bonds is $0.5\%$ to $0.8\%$ higher for the U.S. than globally and was even more pronounced before the negative returns in 2000s. The experience of the current investor generation has buried the myth that stocks always beat bonds over 20-year or 30-year horizons. (This myth was never true. Many exceptions to it occurred outside the U.S. in the 20th century and inside the U.S. during the 19th century.)
+- Among fixed income markets, long-term bonds have outperformed short-dated bonds by $0.5\%$ to $1\%$ and credit-risky corporate bonds have outperformed comparable government bonds by $0.3\%$ to $1\%$ (low end for investment-grade bonds, high end for high-yield bonds). More surprisingly, the reward for bearing interest rate risk or credit risk is most consistent at short maturities. At the back end of the yield curve and at the low end of the credit spectrum there has been scant long-run benefit for additional risk taking.
 - Illiquid assets have tended to offer moderately higher long-run returns than their liquid peers. Part of corporate bonds' excess returns over Treasuries reflects the liquidity disadvantage of corporates, and the same appears true for small-cap stocks over large-cap stocks. Evidence across asset classes is more ambiguous because various reporting biases may overstate published private equity and hedge fund returns. Moreover, average return differences can reflect premia for various risks and not just for illiquidity; disentangling the determinants is quite hard.
 
 Other findings are less widely known:
@@ -751,9 +757,9 @@ Source notes. Although I make some references in the main text, I leave most of 
 
 Books closest to this work are Ibbotson–Brinson (1993), Siegel (1994), and Dimson–Marsh–Staunton (2002). This book is intended for professional investors and assumes much prior knowledge. For professionals wanting to learn about institutions, products, and analytical tools in diverse investment markets, I recommend the various handbooks edited or written by Frank Fabozzi. For retail investors, I recommend William Bernstein (2002, 2009), John Kay (2008), and Malkiel–Ellis (2010). Among finance textbooks, I recommend Bodie–Kane–Marcus (2008) for MBA level and Cochrane (2005a) for Ph.D. level, while the history of the interaction between academic and practitioner finance is best covered in Peter Bernstein's books Capital Ideas and Capital Ideas Evolving.
 
-# 2
+## 2
 
-# Whetting the appetite: Historical averages and forward-looking returns
+## Whetting the appetite: Historical averages and forward-looking returns
 
 - I present some historical performance statistics for major asset classes and investment strategies, but I also highlight the pitfalls in using such data.
 - Average returns across asset classes seem positively related to volatility and illiquidity. Bearing duration risk and emerging market risk were exceptionally well rewarded during the past 20 years, equity risk not.
@@ -943,9 +949,9 @@ Sources: Robert Shiller's website, Kenneth French's website.
 
 Source notes. This chapter's topics are discussed in more detail later in the book. The various works by Roger Ibbotson and Elroy Dimson, as well as their co-authors, are the best reference sources on historical returns.
 
-# 3
+## 3
 
-# The historical record: The past 20 years in a longer perspective
+## The historical record: The past 20 years in a longer perspective
 
 - Any historical snapshot is sample specific. I try to put the experience of the 1990s-2000s in a longer perspective.
 - Between 1990 and 2009, duration risk was well rewarded, credit and equity risk were not. Emerging Latin American equities, venture capital, and small-cap value stocks earned the highest average returns. Equity assets had modest SRs compared with various fixed income assets as well as active funds and strategies. Front-end Treasuries had the highest SRs.

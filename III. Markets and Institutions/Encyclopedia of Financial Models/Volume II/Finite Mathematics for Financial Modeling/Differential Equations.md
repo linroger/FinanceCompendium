@@ -1,22 +1,42 @@
 
+---
+title: "Differential Equations"
+parent_directory: III. Markets and Institutions/Encyclopedia of Financial Models/Volume II/Finite Mathematics for Financial Modeling
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - differential equations
+  - financial modeling
+  - mathematical functions
+  - ordinary derivatives
+secondary_tags:
+  - partial derivatives
+  - ordinary differential equations
+  - partial differential equations
+  - stochastic differential equations
+  - numerical solutions
+  - nonlinear dynamics
+  - laplace transforms
+  - finite difference methods
+cssclasses: academia
+---
+
 # Differential Equations
 
-SERGIO M. FOCARDI, PhD
+**SERGIO M. FOCARDI, PhD**
 
-Partner, The Intertek Group
+**Partner, The Intertek Group**
 
-FRANK J. FABOZZI, PhD, CFA, CPA
+**FRANK J. FABOZZI, PhD, CFA, CPA**
 
-Professor of Finance, EDHEC Business School
+**Professor of Finance, EDHEC Business School**
 
-Abstract: In financial modeling, the goal is to be able to represent the problem at hand as a mathematical function. In a mathematical function, the dependent variable depends on one or more variables that are referred to as independent variables. In standard calculus, there are two basic operations with mathematical functions: differentiation and integration. The differentiation operation leads to derivatives. When a mathematical function has only one independent variable, then the derivative is referred to as an ordinary derivative. Typically in financial applications, the independent variable is time. The derivative of a mathematical function that has more than one independent variable (one of which is typically time) is called a partial derivative. A differential equation is an equation that contains derivatives. When it contains only an ordinary derivative, it is referred to as an ordinary differential equation; when the differential equation contains partial derivatives, the differential equation is called a partial differential equation.
+**Abstract:** In financial modeling, the goal is to be able to represent the problem at hand as a mathematical function. In a mathematical function, the dependent variable depends on one or more variables that are referred to as independent variables. In standard calculus, there are two basic operations with mathematical functions: differentiation and integration. The differentiation operation leads to derivatives. When a mathematical function has only one independent variable, then the derivative is referred to as an ordinary derivative. Typically in financial applications, the independent variable is time. The derivative of a mathematical function that has more than one independent variable (one of which is typically time) is called a partial derivative. A differential equation is an equation that contains derivatives. When it contains only an ordinary derivative, it is referred to as an ordinary differential equation; when the differential equation contains partial derivatives, the differential equation is called a partial differential equation.
 
 In nontechnical terms, differential equations are equations that express a relationship between a function and one or more derivatives (or differentials) of that function. The highest order of derivatives included in a differential equation is referred to as its order. In financial modeling, differential equations are used to specify the laws governing the evolution of price distributions, deriving solutions to simple and complex options, and estimating term structure models. In most applications in finance, only first- and second-order differential equations are found.
 
-Differential equations are classified as ordinary differential equations and partial differential equations depending on the type of derivatives included in the differential equation. When there is only an ordinary derivative (i.e., a derivative of a mathematical function with only one independent variable), the differential equation is called an ordinary differential equation. For differential equations where there are partial derivatives (i.e., a derivative of a mathematical function with more than one independent variable), then the differential equation is called a partial differential equation. Typically in differential equations, one of the independent variables is time. A differential equation may have a derivative of a mathematical function where one or more of the independent variables is a random variable or a
-
-
-stochastic process. In such instances, the differential equation is referred to as a stochastic differential equation.
+Differential equations are classified as ordinary differential equations and partial differential equations depending on the type of derivatives included in the differential equation. When there is only an ordinary derivative (i.e., a derivative of a mathematical function with only one independent variable), the differential equation is called an ordinary differential equation. For differential equations where there are partial derivatives (i.e., a derivative of a mathematical function with more than one independent variable), then the differential equation is called a partial differential equation. Typically in differential equations, one of the independent variables is time. A differential equation may have a derivative of a mathematical function where one or more of the independent variables is a random variable or a stochastic process. In such instances, the differential equation is referred to as a stochastic differential equation.
 
 The solutions to a differential equation or system of differential equations can be as simple as explicit formulas. When an explicit formula is not possible to obtain, various numerical methods can be used to approximate a solution. Even in the absence of an exact solution, properties of solutions of a differential equation can be determined. A large number of properties of differential equations have been established over the last three centuries. This entry provides only a brief introduction to the concept of differential equations and their properties, limiting our discussion to the principal concepts. We do not cover stochastic differential equations.
 
@@ -30,7 +50,7 @@ $$ equates to zero a linear relationship between an unknown function  $Y(x)$ , i
 There are two broad types of differential equations: ordinary differential equations and partial differential equations. Ordinary differential equations are equations or systems of equations involving only one independent variable. Another way of saying this is that ordinary differential equations involve only total derivatives. In contrast, partial differential equations are differential equations or systems of equations involving partial derivatives. That is, there is more than one independent variable.
 
 
-# ORDINARY DIFFERENTIAL EQUATIONS
+## ORDINARY DIFFERENTIAL EQUATIONS
 
 In full generality, an ordinary differential equation (ODE) can be expressed as the following relationship:
 
@@ -43,29 +63,29 @@ $$
 Y^{(n)} (x) = G [ x, Y (x), Y^{(1)} (x), \ldots , Y^{(n - 1)} (x) ]
 $$
 
-# Order and Degree of an ODE
+### Order and Degree of an ODE
 
 A differential equation is classified in terms of its order and its degree. The order of a differential equation is the order of the highest derivative in the equation. For example, the above differential equation is of order  $n$  since the highest order derivative is  $Y^{(n)}(x)$ . The degree of a differential equation is determined by looking at the highest derivative in the differential equation. The degree is the power to which that derivative is raised.
 
 For example, the following ordinary differential equations are first-degree differential equations of different orders:
 
 $$
-\begin{array}{l} Y^{(1)} (x) - 1 0 Y (x) + 4 0 = 0 \quad (\text{or de r} 1) \\ \begin{array}{c} 4 Y^{(3)} (x) + Y^{(2)} (x) + Y^{(1)} (x) - 0. 5 Y (x) + 1 0 0 = 0 \\ \text{(or de r3)} \end{array} \\ \end{array}
+\begin{array}{l} Y^{(1)} (x) - 10 Y (x) + 40 = 0 \quad (\text{or der 1}) \\ \begin{array}{c} 4 Y^{(3)} (x) + Y^{(2)} (x) + Y^{(1)} (x) - 0.5 Y (x) + 100 = 0 \\ \text{(or der 3)} \end{array} \\ \end{array}
 $$
 
 The following ordinary differential equations are of order 3 and fifth degree:
 
 $$
-\begin{array}{l} 4 [ Y^{(3)} (x) ]^{5} + [ Y^{(2)} (x) ]^{2} + Y^{(1)} (x) - 0. 5 Y (x) \\ + 1 0 0 = 0 \\ \end{array}
+\begin{array}{l} 4 [ Y^{(3)} (x) ]^{5} + [ Y^{(2)} (x) ]^{2} + Y^{(1)} (x) - 0.5 Y (x) \\ + 100 = 0 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} 4 [ Y^{(3)} (x) ]^{5} + [ Y^{(2)} (x) ]^{3} + Y^{(1)} (x) - 0. 5 Y (x) \\ + 1 0 0 = 0 \\ \end{array}
+\begin{array}{l} 4 [ Y^{(3)} (x) ]^{5} + [ Y^{(2)} (x) ]^{3} + Y^{(1)} (x) - 0.5 Y (x) \\ + 100 = 0 \\ \end{array}
 $$
 
 When an ordinary differential equation is of the first degree, it is said to be a linear ordinary differential equation.
 
-# Solution to an ODE
+### Solution to an ODE
 
 Let's return to the general ODE. A solution of this equation is any function  $y(x)$  such that:
 
@@ -107,7 +127,7 @@ The coupling of differential equations with initial conditions embodies the noti
 
 In the twentieth century, the notion of universal determinism was challenged twice in the physical sciences. First in the 1920s the development of quantum mechanics introduced the so-called indeterminacy principle which established explicit bounds to the precision of measurements. Later, in the 1970s, the development of nonlinear dynamics and chaos theory showed how arbitrarily small initial differences might become arbitrarily large: The flapping of a butterfly's wings in the southern hemisphere might cause a tornado in the northern hemisphere.
 
-# SYSTEMS OF ORDINARY DIFFERENTIAL EQUATIONS
+## SYSTEMS OF ORDINARY DIFFERENTIAL EQUATIONS
 
 Differential equations can be combined to form systems of differential equations. These are sets of differential conditions that must be satisfied simultaneously. A first-order system of differential equations is a system of the following type:
 
@@ -171,7 +191,7 @@ $$
 
 Substituting this expression for  $y_{1}$  into the previous system,  $y_{2},\ldots ,y_{n}$  can be computed.
 
-# CLOSED-FORM SOLUTIONS OF ORDINARY DIFFERENTIAL EQUATIONS
+## CLOSED-FORM SOLUTIONS OF ORDINARY DIFFERENTIAL EQUATIONS
 
 Let's now consider the methods for solving two types of common differential equations: equations with separable variables and equations of linear type. Let's start with equations with separable variables. Consider the equation
 
@@ -396,7 +416,7 @@ In the case of boundary conditions, one cannot write a direct recursive scheme; 
 
 
 $$
-\left\{ \begin{array}{l} f (\Delta x) = f_{0} + \delta \Delta x \\ f (2 \Delta x) = 2 f (\Delta x) - (1 + k (\Delta x)^{2}) f_{0} \\ f (3 \Delta x) = 2 f (2 \Delta x) - (1 + k (\Delta x)^{2}) f (\Delta x) \\ \cdot \\ \cdot \\ \cdot \\ f_{1 0 0 0} = 2 f (9 9 9 \Delta x) - (1 + k (\Delta x)^{2}) f (9 9 8 \Delta x) \end{array} \right.
+\left\{ \begin{array}{l} f (\Delta x) = f_{0} + \delta \Delta x \\ f (2 \Delta x) = 2 f (\Delta x) - (1 + k (\Delta x)^{2}) f_{0} \\ f (3 \Delta x) = 2 f (2 \Delta x) - (1 + k (\Delta x)^{2}) f (\Delta x) \\ \cdot \\ \cdot \\ \cdot \\ f_{1000} = 2 f (999 \Delta x) - (1 + k (\Delta x)^{2}) f (998 \Delta x) \end{array} \right.
 $$
 
 This is a system of 1,000 equations in 1,000 unknowns. Solving the system we compute the entire solution. In this system two equations, the first and the last, are linked to boundary values; all other equations are transfer equations that express the dynamics (or the law) of the system. This is a general feature of boundary value problems. We will encounter it again when discussing numerical solutions of partial differential equations.

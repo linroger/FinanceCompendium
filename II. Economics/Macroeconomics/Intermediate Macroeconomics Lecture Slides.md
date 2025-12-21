@@ -1,12 +1,26 @@
 ---
-aliases:
-  - Introduction
-tags:
-key_concepts:
-parent_directory: "[[Macroeconomics]]"
+title: "Intermediate Macroeconomics Lecture Slides"
+parent_directory: "Macroeconomics"
+formatted: "2025-12-21 08:15:00 PM"
+formatter_model: "grok-code-fast-1"
+cli-tool: "opencode"
+primary_tags:
+  - intermediate macroeconomics
+  - macroeconomic theory
+  - economic growth
+  - inflation analysis
+secondary_tags:
+  - unemployment dynamics
+  - business cycles
+  - fiscal policy
+  - monetary policy
+  - production functions
+  - cobb douglas model
+  - economic recessions
+  - financial crises
+  - international trade
+  - economic development
 cssclasses: academia
-title: Lecture 1 - Introduction
-linter-yaml-title-alias: Lecture 1 - Introduction
 ---
 
 # Lecture 1 Introduction
@@ -15,11 +29,11 @@ Macroeconomics (Quantitative) Econ 101B
 
 University of California, Berkeley
 
-# State of the Economy Today
+## State of the Economy Today
 - How is the U.S economy doing right now?
 a) Very well, better than average b) About average
 c) Not well, less well than average d) Terribly
-# Unemployment Rate
+## Unemployment Rate
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/60cdfbd4fadd4147b99c1744e9b2a627862401628d66fc0256c540fea8895e80.jpg)
 
@@ -31,7 +45,7 @@ FRED
 
 Source: U.S. Bureau of Labor Statistics via FRED®
 
-# Unemployment Rate – Long View
+## Unemployment Rate – Long View
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/d74118ccf2d81334de8bdbc5e8c4f9eae0918a86b2eaef251a7195d39be09c04.jpg)
 
@@ -49,19 +63,19 @@ Source: U.S. Bureau of Labor Statistics via FRED®
 
 Source: BLS and Petrosky-Nadeau and Zhang (2020)
 
-# Real GDP Growth
+## Real GDP Growth
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/6cf0754c1af01e92ba4e81199f4f4a9d9fc25050c6f95da9c33a6fde559cc812.jpg)
 
 Source: U.S. Bureau of Economic Analysis via FRED®
 
-# Real GDP
+## Real GDP
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/7e6d8a8c9e151dce99be476edb41b4e38dc2b68e184a54b154ec8609e689198a.jpg)
 
 Source: U.S. Bureau of Economic Analysis via FRED®
 
-# Core CPI Inflation
+## Core CPI Inflation
 
 (less food and energy)
 
@@ -73,7 +87,7 @@ Consumer Price Index for All Urban Consumers: All Items Less Food and Energy in 
 
 Source: U.S. Bureau of Labor Statistics via FRED®
 
-# Core CPI Inflation – Longer View
+## Core CPI Inflation – Longer View
 
 FRED -Consumer Price Index for All Urban Consumers: All Items Less Food and Energy in U.S. City Average
 
@@ -81,7 +95,7 @@ FRED -Consumer Price Index for All Urban Consumers: All Items Less Food and Ener
 
 Source: U.S. Bureau of Labor Statistics via FRED®
 
-# Core CPI Level
+## Core CPI Level
 
 FRED -Consumer Price Index for All Urban Consumers: All Items Less Food and Energy in U.S. City Average
 
@@ -89,11 +103,11 @@ FRED -Consumer Price Index for All Urban Consumers: All Items Less Food and Ener
 
 Source: U.S. Bureau of Labor Statistics via FRED®
 
-# Real Wage Growth
+## Real Wage Growth
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/efe223f36d87c44464202e17cd59ea9e33527edd9a2cd6e6c1afc3d3df3f0a05.jpg)
 
-# Monetary and Fiscal Policy
+## Monetary and Fiscal Policy
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/720f6906e3f4db85ef902ce4ad845154f368c6b521340bcf58e9e90868a02b79.jpg)
 
@@ -103,13 +117,13 @@ Source: Board of Governors of the Federal Reserve System (US) via FRED®
 
 Sources: Federal Reserve Bank of St. Louis; U.S. Office of Management and Budget via FRED®
 
-# State of the Economy Today
+## State of the Economy Today
 - Unemployment pretty low
 - Middling GDP growth
 - Inflation back down to low level
 - Strong real wage growth
 Economy is doing very well
-# Gaining Perspective
+## Gaining Perspective
 
 One goal of the class:
 
@@ -120,7 +134,7 @@ One goal of the class:
 - Long run economic growth / Differences in income across countries
 - Inflation / Hyperinflation
 - Financial crises
-# Great Recession
+## Great Recession
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/80a0622fa137c82d6bc6724c4d4ec7fa84395258f9d8db7da484eeb2eb152ad8.jpg)
 
@@ -128,7 +142,7 @@ Thousands
 
 Change in Employment
 
-# Unemployment Rate
+## Unemployment Rate
 
 Seasonally Adjusted
 
@@ -138,18 +152,18 @@ Unemployment Rate, SA (Seasonally Adjusted),  $16+$  non-institutionalized popul
 
 Source: Bureau of Labor Statistics, Current Population Survey (CPS).
 
-# Policy Response
+## Policy Response
 - Federal Reserve lowered interest rates to zero
 - Bush/Obama administrations passed large "fiscal stimulus" bills
 - Massive increase of federal deposit insurance
 Lehman Brothers let go bankrupt
 Large Wall Street ``bailouts' (Fannie Mae, Freddy Mac, AIG, big banks)
-# State of Macro Knowledge
+## State of Macro Knowledge
 - Krugman (2009):
 - How did economists get it so wrong? (i.e., how could we let this happen?)
 - "mistook beauty, clad in impressive-looking mathematics, for truth"
 - "blindness of the very possibility of catastrophic failures in a market economy."
-# Great Recession vs. Great Depression
+## Great Recession vs. Great Depression
 - Christina Romer (Chair, CEA, 2009-2010): "I feel strongly that the shocks that hit the U.S. economy last fall [fall of 2008] were at least as large as those in 1929."
 - Household wealth:
 -17\% in 2008 vs -3\% in 1929
@@ -157,13 +171,13 @@ Large Wall Street ``bailouts' (Fannie Mae, Freddy Mac, AIG, big banks)
 338bp in Dec-2008 vs. 219bp in Dec-1930
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/4e8a91d385447f4a71edd7707a7e1f452a5b39a763b3b01459407d3795239b57.jpg)
 U.S. GDP during Great Depression
-# U.S. Unemployment
+## U.S. Unemployment
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/7fdabd050da5a99043f9b3caf54f940d3e830025cb871ce5220ab7bb4751e9b6.jpg)
 
 \% of labor force
 
-# The State of Macro
+## The State of Macro
 
 Romer, Sep 24 2009:
 
@@ -171,7 +185,7 @@ Romer, Sep 24 2009:
 
 - Krugman, Sep 6 2009:
 "It's hard to believe now, but not long ago economists were congratulating themselves over the success of their field."
-# Ben Bernanke at Milton Friedman's  $90^{\mathrm{th}}$ Birthday Celebration
+## Ben Bernanke at Milton Friedman's  $90^{\mathrm{th}}$ Birthday Celebration
 
 "I would like to say to Milton and Anna: Regarding the Great Depression. You're right, we did it. We're very sorry. But thanks to you, we won't do it again."
 
@@ -183,7 +197,7 @@ Chairman of Federal Reserve Board, 2006-2014
 
 November 8 2002
 
-# Key Questions about Recessions/Crises
+## Key Questions about Recessions/Crises
 
 Why do they happen?
 
@@ -198,7 +212,7 @@ What we do about them?
 Fiscal policy
 - Does it make sense to use fiscal stimulus? What kind?
 - Does it make sense to "bail out" banks? How? Why?
-# Economic Growth
+## Economic Growth
 
 GDP per person
 
@@ -218,7 +232,7 @@ GDP Growth in China. Source: Chang, Wang, Wiong (BPEA 2025)
 
 Consumption Growth in China. Source: Nakamura, Steinsson, Liu (2016)
 
-# GDP per capita
+## GDP per capita
 
 This data is adjusted for inflation and differences in living costs between countries.
 
@@ -236,43 +250,7 @@ Note: This data is expressed in international-\$ at 2021 prices.
 
 OurWorldinData.org/economic-growth | CC BY
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/76588966c940bad1248e4565e49d2e7a1ed3003184594c7ea89de219283e57ae.jpg)
-
-Download
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/5eb321629ec5fe99c6d36200519066a6eef04e4180d1d79c71461cd9e4af7766.jpg)
-
-Share
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/df3a13d2-4589-4162-8046-0acf25cecbff/c93bfbe4343cf653bb06afddc7b8d68b3d735724b1d48aa96c9381290c2cdf6c.jpg)
-
-Enter full-screen
-
-# Long Term Growth
-# Robert Lucas (1988):
-- Per capita growth for period 1960-80:
-- India:  $1.4\%$  (doubles every 50 years)
-- Egypt:  $3.4\%$  (doubles every 21 years)
-- Indonesia:  $7.5\%$  (doubles every 9 years)
-- "Is there some action a government of India could take that would lead the Indian economy to grow like Indonesia's or Egypt's?"
-- "The consequences for human welfare involved in questions like these are simply staggering: Once one starts to think about them, it is hard to think about anything else."
-# Growth of Per Capita Real GDP in India
-
-1960-1980
-
-1.4\%
-
-1980-2000
-
-3.4\%
-
-2000-2019
-
-5.2\%
-
-Source: Penn World Tables 10.1
-
-# GDP per capita
+## GDP per capita
 
 This data is adjusted for inflation and differences in living costs between countries.
 

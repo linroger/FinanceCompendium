@@ -1,11 +1,9 @@
 ---
-aliases: Trade, Endowments, and the Income Distribution
-tags: null
-key_concepts: null
-parent_directory: '[[Globalization Lecture Notes Full]]'
-cssclasses: academia
 title: 'Chapter 4: Trade, Endowments, and the Income Distribution'
-linter-yaml-title-alias: Trade, Endowments, and the Income Distribution
+parent_directory: '[[Globalization Lecture Notes Full]]'
+formatted: 2025-12-21 07:57:25 PM
+formatter_model: claude-sonnet-4-5-20241221
+cli_tool: claude-code
 primary_tags:
 - skill economy time answer
 - equation international trade good
@@ -25,16 +23,16 @@ secondary_tags:
 - trade theory consistent gravity
 - production consumptions improving terms
 - trade wages direction freer
-tags_extracted: '2025-12-18T00:30:09.459259'
+cssclasses: academia
 ---
 
 # Chapter 4
 
-# Trade, Endowments, and the Income Distribution
+## Trade, Endowments, and the Income Distribution
 
 The dispersion of incomes within countries has risen steadily over the past five or six decades. Today, more than half of the worldwide income inequality is due to the within-country income disparities. At no time since the last World War has the average within-country disparity been larger. Although the within-country income disparity has risen on average around the world, in countries such as Brazil, China, Germany, India, and Mexico it has actually come down and dropped markedly. In contrast, income inequality within Japan, Russia, and South Africa has increased. In the United Kingdom and the United States the inequality in incomes jumped up drastically even before the Great Recession. Rising inequality is a concern because it is often related to increasing poverty, and inequality can coincide with political conflict and a high crime rate. Numerous economic changes can affect income inequality, including a nation's technical progress, innovation, and the perpetual shift in people's tastes and demands. Can globalization explain why income inequality widens in some regions and narrows elsewhere?
 
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter you should be able to:
 
@@ -48,9 +46,9 @@ L04 Understand why two or more mobile factors of production generate a curved pr
 
 L05 List the components of the gravity equation of trade and connect them to Heckscher-Ohlin trade theory.
 
-# 4.1 Comparative Advantage in the Heckscher-Ohlin Model
+## 4.1 Comparative Advantage in the Heckscher-Ohlin Model
 
-The Heckscher-Ohlin model is a classical model of trade that many economists today use as a complement, or as an alternative, to the Ricardian trade model. The theory offers a novel explanation for the origins of globalization. If sectors use identical technologies everywhere in the world, perhaps because production knowledge has spread globally, then it is possible that the Ricardian explanation for trade based on technology misses important aspects. In the Heckscher-Ohlin model, trade depends upon a combination of economic forces: a country's resources such as skilled labor, the character of the industries, and how intensely they each use those resources. By contrast, in the Ricardian model trade patterns are simply the result of countryand industry-specific technologies that yield a certain labor productivity.
+The Heckscher-Ohlin model is a classical model of trade that many economists today use as a complement, or as an alternative, to the Ricardian trade model. The theory offers a novel explanation for the origins of globalization. If sectors use identical technologies everywhere in the world, perhaps because production knowledge has spread globally, then it is possible that the Ricardian explanation for trade based on technology misses important aspects. In the Heckscher-Ohlin model, trade depends upon a combination of economic forces: a country's resources such as skilled labor, the character of the industries, and how intensely they each use those resources. By contrast, in the Ricardian model trade patterns are simply the result of country- and industry-specific technologies that yield a certain labor productivity.
 
 Having studied the first wave of globalization, the Swedish economic historian Eli Heckscher 1919 first outlined the model (translated as Eli F. Heckscher 1991) and his doctoral student Bertil Ohlin 1924 formalized its setup (translated as Bertil Ohlin 1991). The pattern of trade in their time motivated their thinking: Global trade flows coming from the "new world" (the Americas and Oceania) as well as parts of Asia and Africa brought products derived from natural resources. In exchange, Europe and parts of North America shipped their labor-intensive manufactured goods. Bertil Ohlin introduced the idea this way (Harry Flam and M. June Flanders 1991, p. 90):
 
@@ -58,7 +56,7 @@ Australia has a small population and an abundant supply of land…. Land is cons
 
 While the relative abundance of land drove trade patterns during the first global century from around 1820 until the First World War, labor skills are a decisive resource in our second global century that began after the Second World War and persists today. To understand the Heckscher-Ohlin model, let's consider a modern variation with two types of labor: high-skilled engineers  $H$  and low-skilled laborers  $L$ . The different pay for skills is a main source of income dispersion.
 
-# Factor Endowments: Country Characteristics
+## Factor Endowments: Country Characteristics
 
 Every country has a supply of human resources, which are referred to as an endowment. Other factor endowments include a country's physical capital and arable land. These resources are factors of production and used to generate output. Suppose there are two countries. The home country is endowed with a number  $H$  of engineers and a number  $L$  of laborers. The foreign economy, which is marked with an asterisk, is endowed with  $H^{*}$  engineers and  $L^{*}$  laborers. A factor endowment is a country characteristic. We say a country is relatively abundant in a factor if the country is relatively well endowed with that factor. Stated more concretely, we define a relatively abundant endowment:
 
@@ -84,7 +82,7 @@ Figure 4.1 shows endowments of human capital per worker (measured in years of sc
 
 A country's human capital appears to be closely associated with its income per worker. The right panel of the figure shows countries in the order of their GDP per worker at the turn of the millennium: the United States with the highest income per worker, and China with the lowest. Some high-income countries such as France and Japan have more physical capital per worker than the United States. But their average schooling is below that in the United States and presumably more closely associated with their lower per-capita incomes. While endowments of capital and land appear to vary in many ways among the lower-income countries such as South Korea, Chile, Mexico, India and China, schooling per worker among these countries is systematically lower the smaller is their per-capita income. In short, there might be a close connection between schooling and incomes across countries. Our main interest in this chapter, however, is the distribution of incomes within countries, and for that matter we need to know more about the sectors in which the economies specialize and how much schooling the sectors demand.
 
-# Factor Intensities: Sector Characteristics
+## Factor Intensities: Sector Characteristics
 
 Let's consider two sectors on the demand side for the factors of production.. As before, we assume that every sector produces with constant returns to scale. However, in contrast to the Ricardian trade model, every sector now combines two factors of production in the production process. Constant returns to scale now mean that when a sector doubles the inputs of both factors of production, then output doubles. Likewise, when the sector triples both factor inputs, then its output triples. Conversely, when a sector cuts both factor inputs in half, then its output drops by half. However, when the sector doubles only one factor input, then output less than doubles. When the sector cuts only one factor input in half, then output shrinks by less than half.
 
@@ -96,23 +94,23 @@ When the variable  $H_{i}$  or  $L_{i}$  does carry a subscript, then the variab
 
 High-skilled engineers in each country earn the wage  $w_{H}$ , and low-skilled laborers earn the wage  $w_{L}$ . Workers are mobile across sectors within a country, but every factor is trapped within its country's borders. In other words, workers can move from sector to sector within each country but not move from country to country. In equilibrium, high-skilled workers in any sector all earn the same wage  $w_{H}$  as the high-skilled workers employed in another sector. Low-skilled laborers also earn the same wage  $w_{L}$  no matter in which sector they are employed. If any sector were to pay a higher wage, the worker would switch employment. In equilibrium, when no worker wants to switch jobs, each skill group of workers must therefore earn the same wage.
 
-Heckscher and Olin theorized that the combined country characteristics (factor endowments) and sector characteristics (factor intensities) are a driving force of globalization and trade. To isolate this force of globalization, let's assume every sector  $i$  produces its output  $Q_{i}$  with identical technology everywhere in the world. In other words, there are no technological differences across countries.
+Heckscher and Ohlin theorized that the combined country characteristics (factor endowments) and sector characteristics (factor intensities) are a driving force of globalization and trade. To isolate this force of globalization, let's assume every sector  $i$  produces its output  $Q_{i}$  with identical technology everywhere in the world. In other words, there are no technological differences across countries.
 
 Sectors do differ between each other in terms of their production technology and therefore their factor intensities  $H_{i} / L_{i}$ . A crucial variable in our analysis will be the ratio of earnings of these production factors,  $w_{H} / w_{L}$ . We therefore assign a name to this factor price ratio:  $w_{H} / w_{L}$  is the skill premium. The skill premium measures the higher earnings high-skilled workers command compared to low-skilled workers' earnings.
 
 How factors are best combined depends on the sector and on the country. How can we then regard factor intensity as a sector characteristic? As so often in trade theory, only relative characteristics matter. In the case of Heckscher—Ohlin trade theory, when we compare sectors to each other, one sector needs to be more intensive in a production factor than the other. Concretely, for each of the countries in our example, let's assume that for any given skill premium  $w_{H} / w_{L}$ , the manufacturing sector exhibits a stronger high-skilled intensity than the agriculture sector so that
 
 $$
-H_{M} / L_{M} > H_{A} / L_{A} \quad \text{fo ra ny} \quad w_{H} / w_{L}.
+H_{M} / L_{M} > H_{A} / L_{A} \quad \text{for any} \quad w_{H} / w_{L}.
 $$
 
 Given this assumption, the manufacturing sector needs relatively more engineers per laborer, whereas the agriculture sector needs relatively more laborers per engineer.
 
 We now have all the ingredients in place that make up the basic Heckscher-Ohlin model and we can start to derive the main insights. There are several important predictions of this model, and theorems summarize those predictions. Each theorem is a result that inevitably follows from the fundamentals of the model (as listed here). First, the Heckscher-Ohlin theorem (about the Heckscher-Ohlin model) states how factor abundance and the sectors' factor intensities predict trade flows. Second, you will see how changing trade flows and product prices translate back into a country's income distribution because they affect the production factors' earnings in the Heckscher-Ohlin model; this is the Stolper-Samuelson theorem. Third, you will get to know how migration relates to trade and factor earnings in the model; that is what the Rybczynski theorem covers. In the next chapter, you will finally see under what conditions the Heckscher-Ohlin model predicts that factor earnings around the world will become more similar to each other (the Factor Price Equalization theorem). One model, four theorems.
 
-# Comparative Advantage
+## Comparative Advantage
 
-# Fundamentals.
+### Fundamentals.
 
 Key force: Differences in factor intensities and endowments (identical sector technologies across countries)
 
@@ -140,19 +138,19 @@ The Ricardian trade model uses a single variable to describe everything about co
 
 However, the sectors differ with regard to the extra output they get out of the additional input of a skill group. The manufacturing sector gets a relatively stronger boost in output from the additional employment of engineers, whereas the agricultural sector gets a relatively stronger boost in output from the additional employment of laborers. As a consequence, when the country that is relatively abundant in engineers is still in autarky, its price of manufactured goods will be relatively low. Similarly, when the country that is relatively abundant in laborers is still closed, its agricultural goods price will be relatively low. In general, the relative product prices in autarky reflect a country's opportunity cost. So the country abundant in engineers, for example, has a low opportunity cost in the engineering-intensive good and therefore a comparative advantage in the engineering-intensive sector (manufacturing by our convention). In short, when there are two factors of production, two sectors with constant returns to scale, and two countries, then each country exports the goods whose production makes relatively intensive use of the country's abundant factor.
 
-# 4.2 Income Inequality and the Stolper-Samuelson Theorem
+## 4.2 Income Inequality and the Stolper-Samuelson Theorem
 
 With the Heckscher-Ohlin theorem in place, and the predictions for the pattern of trade known, Wolfgang F. Stolper and Paul A. Samuelson (1941) set out to look inside an economy that joins global trade in goods. How does globalization of the world product markets translate back into employment and earnings inside the economy? In other words, how does global product trade affect income inequality within a country? Their answer is an important finding about the Heckscher-Ohlin model, so important that it received a name of its own: the Stolper-Samuelson theorem.
 
 Following Stolper and Samuelson's footsteps, let's investigate the distributional effects of trade in goods on the factor prices within a country. The factor price is the pay of a factor, such as the wage earned by labor in our example. For this purpose, we need to find out where the factors of production get employed when the market for them is in equilibrium. Engineers split between agriculture and manufacturing, and so do the laborers:
 
 $$
-H_{A} + H_{M} = H \quad \text{an d} \quad L_{A} + L_{M} = L.
+H_{A} + H_{M} = H \quad \text{and} \quad L_{A} + L_{M} = L.
 $$
 
 This is the factor allocation to sectors in the home economy. (In the foreign economy,  $H_A^* + H_M^* = H^*$  and  $L_A^* + L_M^* = L^*$ .)
 
-# The Edgeworth Box
+### The Edgeworth Box
 
 An Edgeworth box (or Edgeworth production box) is a convenient graphical tool used to show how factors are allocated in an economy. In our application, the Edgeworth box is a rectangle whose sides show the factor endowments of an economy (the country characteristics) and whose split of the factors between the two sectors (agriculture and manufacturing) demonstrates how intensely the factors are used (the sector characteristics). Here is how the frame of an Edgeworth box is built. Let's draw a box for the home economy and start with one of the two sectors, say agriculture. In the origin of a diagram with two axes, agriculture employs no high-skilled workers ( $H_A = 0$ ) and no low-skilled workers ( $L_A = 0$ ). The left panel of Figure 4.2 shows this starting point in the lower-left corner. As we move to the right on the horizontal axis, low-skilled employment in agriculture increases. As we move up on the vertical axis high-skilled employment in agriculture increases. How far can we move at most? The maximum employment of low-skilled workers in agriculture is reached when the entire factor endowment of the home economy  $L$  works in agriculture ( $L_A = L$ ). Similarly, the largest possible employment of high-skilled labor in agriculture is the high-skill endowment ( $H_A = H$ ). The left panel of Figure 4.2 depicts those employment limits with dashed lines.
 
@@ -176,7 +174,7 @@ $$
 
 The size of the frame does not matter for an economy's comparative advantage but instead its absolute advantage. Only the shape of the frame matters for the economy's comparative advantage. If the diagonal of the frame is steeper at home than abroad then the home economy is relatively abundant in the factor on the vertical axis  $(H)$ . Factor abundance alone, however, is not enough to establish comparative advantage. As you have learnt from the Heckscher-Ohlin theorem, the factor abundance (the country characteristic) needs to be combined with factor intensities (the sector characteristics) to determine comparative advantage.
 
-# Labor Allocation
+### Labor Allocation
 
 Now that we have drawn the frame of the Edgeworth box (the country characteristic), we can turn to employment in the two sectors. In our example, we are assuming that the agricultural sector is less high-skill intensive than manufacturing. In other words, relatively fewer highly skilled workers are needed to produce agricultural goods than are needed to produce manufactured goods. This means that there must be a ranking of the sectors
 
@@ -194,7 +192,7 @@ In the Edgeworth box, being less high-skill intensive than the economy-wide aver
 
 The slope of each employment arrow shows the relative high-skill intensity used by the sector (for a given skill premium  $w_{H} / w_{L}$  in the background). The employment arrow for agriculture is flatter than the diagonal  $(H_{A} / L_{A} < H / L)$ , and the diagonal is flatter than the employment arrow for manufacturing  $(H / L < H_{M} / L_{M})$ . In other words, the diagram in Figure 4.3 adheres to our assumption that manufacturing is more high-skill intensive than agriculture is.
 
-# Labor Market Outcomes after Improving Terms of Trade
+### Labor Market Outcomes after Improving Terms of Trade
 
 In our two-sector example, a country's terms of trade are the price of the country's exported good divided by the price of the country's imported good on the world market: ToT =  $P_{\text{Exportgood}} / P_{\text{Importgood}}$ . We say the terms of trade improve when they increase because, under higher terms of trade, a country can afford more imports for any given volume of goods it exports. We are now ready to analyze how a change in the terms of trade translates into the incomes of the country's residents. Under improving terms of trade, the economy as a whole can afford more imports for consumption. But can every resident afford more consumption?
 
@@ -236,7 +234,7 @@ The motorcycle plant places a high value on high-skilled engineers, so at the ol
 
 The inevitable conclusion from this example, and our analysis of the Edgeworth box, is that the labor market will only get to a new equilibrium if all sectors end up with a relatively higher proportion of the scarce factor on their payroll. How can it be that both the agricultural sector and the manufacturing sector accept a lower high-skill intensity in the new equilibrium? In an equilibrium, every decision maker must be happy with his or her current choice. Under what factor-market condition does neither sector want to change its high-skill intensity? The answer is when the relative wage paid to the two types of workers has changed just enough. For an employer to demand relatively more low-skilled workers in the new equilibrium, their relative labor cost must have fallen. Put the other way, for an employer to be happy with a smaller proportion of high-skilled workers in the new equilibrium, the skill premium  $w_{H} / w_{L}$  must have gone up. Nice. Using the Edgeworth box, we have just proven a cornerstone proposition of classic trade theory called the Stolper-Samuelson theorem (Stolper and Samuelson 1941).
 
-# Strong and Weak Forms of the Stolper-Samuelson Theorem
+### Strong and Weak Forms of the Stolper-Samuelson Theorem
 
 In its weak form, the Stolper-Samuelson theorem states :
 
@@ -266,7 +264,7 @@ $$
 
 If the price of the manufactured good increases relatively more than the price of the agricultural good, then the factor that is intensively used in manufacturing experiences a wage increase that is stronger than the increase in both product prices. This is an improvement of the factor's real income, which in our example is the real income of the engineers. The consumption of all goods just became more affordable for them. Regardless of which sector a worker from the country's relatively abundant factor is employed, she gains in real terms. In contrast, the factor that is intensively used in agriculture sees less of a wage increase or a stronger fall than the price change in either product. The real income of the country's relatively scarce factor (low-skilled labor in our example) therefore declines because the  $w_{L}$  wage now affords less consumption of both goods. Again, regardless of which sector a worker from the country's relatively scarce factor is employed, his real income declines.
 
-# Trade-Induced Changes of Within-Country Inequality and Poverty
+### Trade-Induced Changes of Within-Country Inequality and Poverty
 
 The Stolper-Samuelson theorem shows that, when there is more than one factor of production, the overall gains from trade do not accrue equally to different skill groups in an economy. In the two-sector and two-factor case, the relatively scarce factor loses in real terms. However, there are gains from trade for the economy as a whole when the economy specializes following its comparative advantage. The gains to the winners must therefore exceed the losses of the losers. The gains are merely unevenly distributed.
 
@@ -291,7 +289,7 @@ How do these predictions hold up in the data? The right panel of Figure 4.6 plot
 
 Another way to assess the Stolper-Samuelson theorem is to look how support for globalization varies between political groups in society and over time. We should expect prospective losers from trade (the scarce factors) to oppose further globalization, while prospective winners (the abundant factors) should be supporters of trade integration. Great Britain did not engage in free trade at the start of the first global century, which lasted from around 1820 to 1913. Instead, the nation's Corn Laws, passed in 1815, imposed tariffs so high on grain that food imports were essentially shut out of Britain. The proposed repeal of the Corn Laws in 1846 pitted the British owners of land against the British merchants and laborers, who supported the tariff cuts. These political positions were as the Stolper-Samuelson theorem predicts: Land was relatively more abundant among Britain's trade partners, the Americas and British colonies, so that landowners were the relatively scarce factor in Britain and therefore opponents of globalization. Free trade, however, was ultimately embraced following the repeal of the Corn Laws. In contrast, trade was widely opposed in the "new world", where the relatively scarce factors held the political majority. At the end of the 19th century, the United States was a comparably protectionist country with high tariffs on imports. The Stolper-Samuelson predicts for the Americas and British colonies that free trade would benefit landowners, because land was relatively abundant compared to the "old world." Laborers and merchants, who were relatively scarce factors in the Americas, would lose and free trade would worsen income inequality.
 
-# Think Twice about Convention: Declining Inequality among the Most Unequal
+### Think Twice about Convention: Declining Inequality among the Most Unequal
 
 In an influential study in 1994, Adrian Wood (1994) argued that so-called North-South trade between industrialized countries "in the North" and developing countries "in the South" had a far larger impact on labor markets than earlier studies had found. Wood argued that, in the industrialized economies of the North, especially in North America and Europe, globalization in the second half of the 20th century had depressed the relative demand for unskilled workers as the Heckscher-Ohlin trade theory predicts. In economies with flexible labor markets, such as in the United States, the skill premium consequently widened, and the real incomes of low-skilled workers suffered. In Western Europe, where labor markets are less flexible, wages fell by less, but unemployment went up. Wood (1994) called on Northern governments to take action, not through protectionism against free trade, but through education and training to increase the supply of skilled labor and reduce the skill premium.
 
@@ -302,7 +300,7 @@ However, as the chapter opening noted, since the turn of this century, some of t
 
 As for the first explanation, López-Calva and Lustig argue that the returns to schooling have declined and shrunk the skill premium. Why? Some studies find that the skill premium fell because of an increase in the supply of more educated workers as school attendance rose. Other studies attribute the shrinking skill premium to a shift in demand away from skilled labor. When it comes to labor demand, , the Heckscher-Ohlin trade theory may indeed be a plausible explanation for why income inequality is declining in these countries if Latin American economies are relatively scarce in skilled labor.
 
-# Trade-Induced Changes of Factor Intensities
+### Trade-Induced Changes of Factor Intensities
 
 Changes in the political support for free trade and observed shifts in within-country inequality are two ways to check the Heckscher-Ohlin trade theory. There is a more direct test. The Edgeworth boxes showed you that after an economy opens up to trade, its factor intensities move in the same direction in all sectors of the economy. As globalization shifts a country's terms of trade in its favor, all sectors must increase the intensity of their use of the relatively scarce factor. For example, if Brazil is a relatively low-skill abundant country compared to its trading partners, then the Stolper-Samuelson theorem predicts that the skill premium will decline when the economy opens up to freer trade. In addition, all sectors in Brazil will more intensively employ highly-skilled workers because their relative wage falls (the skill premium they receive declines).
 
@@ -330,7 +328,7 @@ After Brazil's trade reforms took full effect in 1990, the schooling level rose 
 
 In summary, the workforce adjustment in Brazil's economy after the large-scale trade liberalization of 1990 is consistent with the predictions of the Heckscher-Ohlin trade theory. If Brazil has a comparative advantage in manufacturing industries that heavily rely on skilled blue-collar occupations, then employment in skilled blue-collar occupations expands (the Heckscher-Ohlin theorem). As a consequence, the skilled blue-collar occupations employ more workers with relatively little schooling. So the demand for workers with relatively little schooling increases and the skill premium falls (the Stolper-Samuelson theorem). As the skill premium declines, all occupations end up employing a larger proportion of workers with relatively much schooling.
 
-# 4.3 Migration and the Rybczynski Theorem
+## 4.3 Migration and the Rybczynski Theorem
 
 The trade of goods is as globalized today as it ever was. The world is less globalized when it comes to migration, however. The share of foreign-born residents in large countries of the "new world" is lower than it used to be a century ago, though there are more migrants in "old" Europe than there used to be.[9] What is the consequence of migration in a globalized world with free trade in goods? How does the skill premium change, what happens to employment, and which economic activities shrink or expand?
 
@@ -345,9 +343,7 @@ Figure 4.8: Increase in Labor Endowment under Free Final Goods Trade
 
 Rybczynski Theorem. Suppose there are two sectors, two countries, and two factors that are mobile between sectors but not countries, and the sectors differ in terms of their factor intensities whereas the countries differ in terms of their factor abundance. If the endowment of one factor increases, then the output of the sector that relatively intensely uses the factor expands, and the output of the other sector contracts under free final-goods trade and incomplete specialization. Product prices, factor prices and factor intensities remain unchanged.
 
-Essentially the Rybczynski theorem tells us that migration doesn't affect factor prices and the proportions of factor inputs. It merely changes the location of production. But that does not change the income the factors earn because the final goods still sell at the same prices worldwide, and the factor prices also remain the same. The sector that intensely uses the migrating factor will shrink in the country from which the factor migrated and expand in the country to which the factor migrated.
-
-# Migration and the Proof of the Rybczynski Theorem
+### Migration and the Proof of the Rybczynski Theorem
 
 The proof of the Rybczynski theorem is intuitive. Figure 4.8 shows the graphical derivation when low-skilled labor migrates. The upper panel is an Edgeworth box for the home economy with the factor-market in equilibrium when final goods are being freely traded. The shape of the Edgeworth box reflects relative factor abundance (the country characteristic). A relatively wide Edgeworth box (a flatter diagonal in the home country than in the foreign country) means that the home country is relatively abundant in the  $L$  factor (on the horizontal axis). The relevant sector feature in the
 
@@ -387,7 +383,7 @@ David Card (2009) cautions, however, that properly grouping workers by their ski
 The Heckscher-Ohlin model is based on the assumption that technologies do not differ across countries and do not change with locally available skills. Ethan Lewis (2011) shows in a comprehensive study that, over the past three decades, U.S. manufacturing plants invested heavily in automated machinery, and these investments happened mostly in metropolitan areas that did not receive much immigration of low-skilled labor. In other words, employers in locations where low-skilled labor is relatively scarce because there is not much immigration, tend to put more automation technology in place to perform the low-skill tasks. An interesting implication of this finding is that immigration might only have a small impact on wages not necessarily because the Rybczynski theorem is the best explanation, but because the capital cost of investing in automated machinery is relatively constant and that keeps the wages of low-skilled workers largely unchanged in firms that don't automate.
 
 
-# Change of Perspective: Dear Swedes, Please Migrate or Trade
+### Change of Perspective: Dear Swedes, Please Migrate or Trade
 
 About 55 million Europeans migrated to North and South America and Australia (Timothy J. Hatton and Jeffrey G. Williamson 1998) between 1850 and 1914. The Swedish economist Knut Wicksell welcomed the mass emigration of his fellow Swedes. Wicksell thought that emigration from the Swedish countryside would end rural poverty in the country. He predicted that the departure of low-skilled workers would provide them with better incomes at the new destinations. At these new destinations the low-skilled Swedish workers were relatively scarce compared to the abundant amount of land there. Consequently, they would receive high wages, while their left-behind former co-workers with low skills would also see their wages rise as the pool of low-skilled workers shrank in Sweden. Sounds good, doesn't it?
 
@@ -512,12 +508,12 @@ $$
 
 The Hechscher-Ohlin model delivers the gravity equation.
 
-# A Test of the Heckscher-Ohlin Model Using the Gravity-Based Comparative Advantage (GCA) Measure
+## A Test of the Heckscher-Ohlin Model Using the Gravity-Based Comparative Advantage (GCA) Measure
 
 We now have everything in place to subject the Heckscher-Ohlin model to a final test. Does the interaction of endowments (the country characteristics) with factor intensities (the sector characteristics) explain an economy's comparative advantage? We have two measures of comparative advantage. First, we have the Balassa measure of Revealed Comparative Advantage (RCA), which summarizes the relative export specialization of a sector:
 
 $$
-R C A_{i}^{\mathrm{Co un tr y}} \equiv \frac{X_{i}^{\mathrm{Co un tr y}} / \sum_{k} X_{k}^{\mathrm{Co un tr y}}}{X_{i}^{\mathrm{Wo rl d}} / \sum_{k} X_{k}^{\mathrm{Wo rl d}}}.
+R C A_{i}^{\mathrm{Country}} \equiv \frac{X_{i}^{\mathrm{Country}} / \sum_{k} X_{k}^{\mathrm{Country}}}{X_{i}^{\mathrm{World}} / \sum_{k} X_{k}^{\mathrm{World}}}.
 $$
 
 The RCA is found by dividing the share of a sector's exports in a given country by the country's total exports, and then dividing the sector's worldwide exports by total exports worldwide. The revealed comparative advantage measure equals 1 if the sector's trade share in a country is identical to that in the rest of the world.
@@ -525,7 +521,7 @@ The RCA is found by dividing the share of a sector's exports in a given country 
 Second, we can extract  $Y_{Si}$  from the estimated gravity equation for all countries and define the gravity-based comparative advantage measure (GCA) as
 
 $$
-G C A_{i}^{\text{Co un tr yS}} \equiv \frac{Y_{S i} / \sum_{k} Y_{S k}}{\sum_{C} Y_{C i} / \sum_{C} \sum_{k} Y_{C k}}.
+G C A_{i}^{\text{Country}} \equiv \frac{Y_{S i} / \sum_{k} Y_{S k}}{\sum_{C} Y_{C i} / \sum_{C} \sum_{k} Y_{C k}}.
 $$
 
 The upside of the GCA measure is that it removes the effect geography has on the revealed comparative advantage: Gravity estimation purges the trade flow component  $Y_{Si}$  of destination market's size and distance.
@@ -534,7 +530,7 @@ Let's test how well the Heckscher-Ohlin model explains comparative advantage. To
 
 The left panel of Figure 4.11 plots the Balassa RCA measure against the industry-country skill intensity-abundance interaction, and the right panel plots the GCA measure against the interaction. The association between GCA and the intensity-abundance interaction is a bit closer than the association between the RCA and the interaction is.[13] But there is considerable dispersion of comparative advantage around the fitted line. One reason for this dispersion is that differences in technology also matter for comparative advantage, as you already know from the Ricardian model in previous chapters. The GCA data points are less dispersed than the RCA data points are because the GCA measure removes the "lucky" gravity effects industries experience by being nearby attractive destination markets. In both panels of Figure 4.11, the line through the points shows that there is a clear positive relationship between comparative advantage and the key explanatory variable of the Heckscher-Ohlin model. A relatively skill intensive industry in a relatively skill abundant country commands a revealed comparative advantage in terms of its exports.
 
-# Summary
+## Summary
 
 The Heckscher-Ohlin trade model offers a novel explanation for the origins of globalization. If sectors use identical technologies everywhere in the world, perhaps because production knowledge has spread globally, then the Ricardian explanation for trade based on technology is less valuable and might even be brushed aside. What alternative force can generate comparative advantage? Country characteristics and sector characteristics. The combination of the country characteristics (differences
 
@@ -556,15 +552,15 @@ It is then a short step to an answer for the second theme how globalization happ
 
 The third theme asks, should there be globalization? From an economist's analytic perspective, the answer is still a clear yes. If every economy specializes according to its comparative advantage, then the average resident in every country will be better off with trade. But individual residents are not the average resident, and the Stolper-Samuelson theorem for the Heckscher-Ohlin model in its strong form predicts that a worker's answer to the question should there be globalization? will depend on the worker's skill group. Regardless of the sector of employment, workers that have a country's relatively abundant skills will receive higher real incomes when the economy opens to free trade. Workers with the relatively abundant skill will therefore support globalization. However, workers that have the country's relatively scarce skill will suffer a drop in real incomes from free trade and therefore oppose globalization, no matter which sector employs them. Since the average resident is better off, the winners from globalization can fully compensate the losers, for example through government programs, receive the scarce factor's support for globalization, and secure the gains from globalization. Market forces alone will not equitably distribute the gains from trade, but it is still advantageous for the country to globalize.
 
-# Key Terms
+## Key Terms
 
 <table><tr><td>Takeaway</td><td>Description, Formula or Graph</td><td>Where to Go</td></tr><tr><td>Endowment</td><td>The given amount of a factor of production in an economy. The home country is relatively abundant in factor H in terms of the L factor if H/L &gt; H* &gt; L* (relatively scarce in factor H if H/L &lt; H* &gt; L*).</td><td></td></tr><tr><td>Intensity</td><td>The relative demand of a factor by a sector. Sector i uses the H factor relatively intensively relative to the L factor, and compared to sector x, if Hi/Li &gt; Hx/Lx for any skill premiumwH/wL.</td><td></td></tr><tr><td>Factor price</td><td>The pay for the services of a factor of production per unit. Examples are the wage of labor, the rental price of arable land, and the rental price of physical capital. (Factor income is the product of the factor price times the employed units of the factor of production.)</td><td></td></tr><tr><td>Skill premium</td><td>The ratio of one skill group's factor price in terms of another skill group's price. The skill premium of the H factor in terms of the L factor is wH/wL. When there are factors of production other than skill groups, then the general term is factor price ratio.</td><td></td></tr><tr><td>Heckscher-Ohlin theorem</td><td>If there are two factors of production, two sectors with constant returns to scale, and two countries, then a country exports the product whose production intensively uses the country's abundant factor and imports the product that itensively uses the country's scarce factor.</td><td></td></tr><tr><td>Edgeworth box</td><td>A rectangular-framed diagram that depicts how an economy allocates factors. The sides of the frame show the factor endowments of one economy (the country characteristics). The origins in the lower-left and upper-right corner correspond to zero employment for the sector in that origin. Any interior point shows a possible factor allocation so that the two sectors have some employment and production (the sector characteristics).</td><td></td></tr><tr><td>Employment arrow</td><td>An arrow (a ray) starting from a sector's origin in the lower-left or upper-right corner of the Edgeworth box and ending with its tip in the interior equilibrium point. The slope of an employment arrow reflects the factor's intensity (the sector characteristic) on the vertical axis in terms of the factor on the horizontal axis. There is no unemployment in classic trade theory, so the two sectors' employment arrows must touch each other's tips at the interior equilibrium point.</td><td></td></tr><tr><td>Stolper-Samuelson theorem</td><td>Weak form: If there are two factors of production and two sectors with constant returns to scale then an increase in the relative domestic price of a product increases the relative income of the factor used relatively intensively in the production of that product. Strong form: If there are two factors of production and two sectors with constant returns to scale then an increase in the relative domestic price of a product unambiguously raises the real income of the factor used relatively intensively in the production of that product.</td><td></td></tr><tr><td>Inequality</td><td>The dispersion of real income within a country and across countries typically measured by an index, such as the Theil or Gini index, which are higher the more concentrated income is in few hands. The Theil index can be used to add up within-country and between-country income inequality to determine global inequality. The Gini index is mostly used to measure within-country inequality.</td><td></td></tr><tr><td>Poverty</td><td>A person's condition if her or his real income drops to a level that makes the basic means to participate in society unaffordable. Contrary to income inequality, which measures relative incomes, poverty is based on the absolute level of real income. Since 2005, the World Bank has placed the line of extreme poverty at an income of US1.25 a day and uses a purchasing power adjustment to make a dollar comparable across countries.</td><td></td></tr><tr><td>Rybczynski theorem</td><td>If there are two factors of production, two sectors with constant returns to scale and two countries, then an increase in the endowment of a factor (for example because of immigration of the factor) increases the output of the sector that relatively intensely uses the factor, and reduces the other sector's output, under free final-goods trade and incomplete specialization. Product prices, factor prices, and factor intensities remain unchanged.</td><td></td></tr><tr><td>Incomplete specialization</td><td>A situation in classic trade models with more than one factor of production and two sectors that results in each sector producing in both countries under free trade</td><td></td></tr><tr><td>Freight factor</td><td>The proportional increase in the final price PDi of any good i delivered to destination D, due to the good's transport cost, over the good i's price PSI at the factory gate in the source country S: dSD = PDi/PSi. If the transport costs are 10 percent of the good's price at the producer's factory gate, then the freight factor is 110 percent.</td><td></td></tr></table>
 
-# Assessments
+## Assessments
 
-# Concept Checks
+## Concept Checks
 
-# Comparative Advantage in the Heckscher-Ohlin Model
+## Comparative Advantage in the Heckscher-Ohlin Model
 
 C1.1. Explain how the Heckscher-Ohlin trade theory uses country characteristics and sector characteristics to determine an economy's comparative advantage. If one economy is larger than another but has the same relative endowments, what will its comparative advantage be? Suppose the opportunity costs differ between countries. If a country doubles the number of its residents, but the proportion of skills in the population remains constant, how will the patterns of specialization change?
 
@@ -574,7 +570,7 @@ C1.3. Brazil and Venezuela refine oil and manufacture airplanes. Brazil is high-
 
 C1.4. There are two factors of production, arable land and physical capital. Agriculture intensively uses land but employs some capital. Manufacturing intensively uses capital but employs some land. If there are two countries with different relative endowments of land and capital, which country will export agricultural products? Will the country's terms of trade after opening to trade be larger or smaller than the country's opportunity cost of agricultural produce in terms of manufactures? Will the other country's terms of trade after opening to trade be larger or smaller than that country's opportunity cost of manufactures in terms of agricultural produce? Will there be gains from trade? Suppose one country has both less capital and less land than the other country. Will there be trade?
 
-# Income Inequality and the Stolper-Samuelson Theorem
+## Income Inequality and the Stolper-Samuelson Theorem
 
 C2.1. Suppose the global trade of final agricultural goods  $A$  and final manufactured goods  $M$  results in the same relative price paid for them in every open economy worldwide. If every industry in the world has the same production function, as in the Heckscher-Ohlin model, why is the intensity of the factor inputs the same in all industries worldwide?
 
@@ -596,7 +592,7 @@ C2.9. There are two industries and two fully mobile factors of production, labor
 
 C2.10. Consider the Heckscher-Ohlin model for a small open economy. There are two factors of production, land  $T$  and labor  $L$ , and two sectors, food  $F$  and computers  $C$ . The home country is relatively abundantly endowed with labor. In a small open economy, local shocks to do not affect the prices of final goods. Consider the Edgeworth box in Figure 4.13I. Which sector is relatively labor intensive? Suppose the home country accumulates more labor and more land, but in a balanced way so that the relative land endowment per worker  $\bar{T} / \bar{L}$  remains constant. Extend the Edgeworth box to reflect the new endowment levels of the home economy. If the prices of final goods remain constant, do the economy's factor prices change? Depict the new vectors of factor inputs for the two industries. How can you determine their slopes from the factor prices?
 
-# Migration and the Rybczynski Theorem
+## Migration and the Rybczynski Theorem
 
 C3.1. There are two countries that trade freely with each other, two sectors (agriculture and manufacturing), and two factors of production (low-skilled and high-skilled labor). Take the perspective of a country that loses low-skilled workers to emigration. You may use Figure 4.8 in the text reversely to derive your answers to the following questions. As low-skilled workers emigrate, how does the skill premium  $w_{H} / w_{L}$  change if both countries trade final goods freely? How does the intensity of skilled workers employed  $H_{i} / L_{i}$  in each sector  $i$  (agriculture  $i = A$  and manufacturing  $i = M$ ) change with emigration? How does total employment in the two sectors change with emigration?
 
@@ -604,7 +600,7 @@ C3.2. There are two trading countries, two industries, and two factors of produc
 
 C3.3. There are two countries: Home (no asterisk) and Foreign (asterisk). There are two industries: food (F) and computers (C). And there are two factors of production: land  $T$  and labor  $L$ . The pair of Edgeworth boxes in Figure 4.13H depicts the factor markets for the home country in the upper-right Edgeworth box and the factor markets for the foreign country in the lower-left Edgeworth box. Suppose the home country's Edgeworth box depicts the equilibrium under free trade. Which industry is relatively land intensive? Which country is relatively land abundant? Which country exports computers? Complete the foreign country's Edgeworth box (lower-left box) under free trade. Combine the arrows to depict worldwide computer and worldwide food production under free trade (as if there were only one location and one arrow for each industry). If the world had no borders so that land and labor could migrate freely, would global production be different? Why?
 
-# Curved Production Possibilities and Incomplete Specialization
+## Curved Production Possibilities and Incomplete Specialization
 
 C4.1. The diagram in Figure 4.14N depicts Mexico's and California's production possibilities and the relative price of computers and roses in the world market. The triangle connecting the two points labeled  $W_{\mathrm{CA}}$  and the triangle connecting the two points labeled  $W_{\mathrm{MEX}}$  are identical in size. Do the trade lines have a slope of  $p_{\mathrm{roses}} / p_{\mathrm{computers}}$  or the converse? Show Mexico's consumption and production of computers in the diagram. Is Mexico a net exporter of computers? Show California's consumption and production of roses in the diagram. Is California a net exporter of roses? What is Mexico's trade balance? Which country gains from free trade? Why? (Note: A version of this question can also be found in concept check C3.3 in Chapter 14, where a similar graph is interpreted in terms of comparative advantage in international capital markets.)
 
@@ -614,7 +610,7 @@ C4.3. Be warned, this question requires your knowledge of an indifference curve 
 
 C4.4. Consider an economy in autarky and two sectors of production as well as two sectors that differ in their factor intensities. Depict a curved production possibility frontier and place a production and a consumption point in autarky. Pick one sector as the economy's sector with a comparative advantage, and open the economy to free trade. Depict a production mix and a consumption mix that is consistent with the economy's opening. Compared to the export good's opportunity costs in autarky, is the relative price of the export good larger or smaller than before free trade? Is it justified to think of complete trade liberalization as an equivalent to improving terms of trade?
 
-# The Heckscher-Ohlin Model and the Gravity Equation
+## The Heckscher-Ohlin Model and the Gravity Equation
 
 C5.1. Use a production possibility frontier (PPF) diagram for the Heckscher-Ohlin model with two countries, two sectors, and two production factors (such as in the right panel of Figure 4.10). Draw the PPF of both countries on the same diagram. Compare the rays reflecting the product mixes and the rays reflecting the consumption choice to show that
 
@@ -625,7 +621,7 @@ $$ for a country  $S$  and a sector  $i$  that relatively intensively uses the p
 
 C5.2. The freight factor from a source country  $S$  to a destination country  $D$  is  $d_{SD} = d_S d_D$ . Shipping from the source country to every good's global supply pool costs a freight factor  $d_S$  and the consumer withdrawing the goods from the supply pool costs a freight factor of  $d_D$ . Explain why shipping costs are symmetric in this case,  $d_{SD}$  equals  $d_{DS}$ . What is the final price  $P_{Di}$  at the destination country  $D$  in terms of  $d_S$ ,  $d_D$  and the factory gate price in the source country  $P_{Si}$ ? If the law of one price holds, so that  $P_{Si} = P_{Di}$ , how do  $d_S$  and  $d_D$  have to be related?
 
-# Questions
+## Questions
 
 Q.1. Consider the home country, which has a small open economy. There are two factors of production: capital earning the rental rate  $r$  and labor earning the wage  $w$ ; and two sectors: cars (C) and food (F). Car manufacturing is relatively capital intensive. The home country is relatively capital abundant. Which industry is the home country's export industry? Why? What are the home country's terms of trade:  $P_{C} / P_{F}$  or  $P_{F} / P_{C}$ ? Use the empty Edgeworth box in Figure 4.13K to answer the following questions. Depict a possible equilibrium in the Edgeworth box of Figure 4.13K. Suppose the country's terms of trade worsen. Which sector shrinks, and which expands? State the Stolper-Samuelson Theorem (in a form of your liking). How does the factor price ratio (the wage- rental ratio)  $w / r$  change when the terms of trade worsen? How does the capital intensity change in the car industry? How does the food intensity change in the car industry? Depict the new equilibrium in the Edgeworth box of Figure 4.13K.
 Q.2. Consider Chile, a country abundant in high-skilled labor compared to its Latin American trading partners. The depicted Edgeworth box in Figure 4.12B is relatively wider for Chile's trading partners. There are two sectors, rose growing  $(R)$  and computer manufacturing  $(C)$ . There are two factors of production, high-skilled labor  $(H)$  and low-skilled labor  $(L)$ . Which industry is high-skilled labor intensive? Which is low-skilled labor intensive? The diagram depicts Chile in autarky. Suppose Chile dismantles all trade barriers with its trading partners. Which Chilean industry will expand and which will shrink? Draw the new equilibrium on the diagram. How does the relative employment of high-skilled and low-skilled workers change in the rose-growing industry versus computer manufacturing? Determine how the wages of high-skilled and low-skilled workers must change. Does income inequality increase in Chile? Does poverty necessarily increase in the country?
@@ -658,13 +654,13 @@ Figure 4.12: Graphs Accompanying Concept Checks and Questions
 
 Q.8. This question is a variation of the earlier concept check C3.3. There are two countries: Home (no asterisk) and Foreign (asterisk). There are two sectors: food (F) and computers (C). There are two factors of production: land  $T$  earning a land rent  $r$  and labor  $L$  earning a wage  $w$ . The pair of Edgeworth boxes in Figure 4.14O depicts the factor markets for the home country in the lower-left Edgeworth box and the factor markets for the foreign country in the upper-right Edgeworth box. Suppose the home country's Edgeworth box depicts the equilibrium under free trade. Which sector is relatively labor intensive? Which country is relatively labor abundant? Which country exports food? Complete the foreign country's Edgeworth box (upper-right box) under free trade. Combine the arrows to depict worldwide food and worldwide computer production under free trade (as if there were only one location and one arrow for each sector). If the world had no borders so that land could move freely and labor could be offshored at no cost, would global production be different? Why?
 
-# Empirical Exercises
+## Empirical Exercises
 
 E.1. This exercise asks you to compute two alternative measures of skill intensity by industry. Go to the webpage http://www.nber.org/data/nberces5809.html and download from the National Bureau of Economic Research (NBER) its latest edition of the NBER-CEs Manufacturing Industry Database for the United States, using the version with the SIC industry classification (459 four-digit 1987 SIC industries). Create a new industry identifier by chopping off the first two digits from the four-digit SIC codes. You can find descriptive titles for these 20 SIC two-digit industries at URL econ.ucsd.edu/muendler/book. Construct the  $H_{i} / L_{i}$  ratios by industry for the year 2009 as in the text on page 132 (using the variables prode and emp). Now compute the mean wage by industry in 2009 (using the variables pay and emp). How closely are the industries' mean wages and their  $H_{i} / L_{i}$  ratios related? To assess their association, you can compute a correlation coefficient, or a rank correlation coefficient, or a slope coefficient from an ordinary least square regression. (If you choose to compute all three, how do they compare?)
 E.2. Go to URL econ.ucsd.edu/muendler/book, download the combined CEPII-WTF bilateral trade data and extract the Mahakitsiri (2012) skill endowment measure. For the common countries in Table 3.1 and Figure 3.4 of the preceding Chapter 3, assess how their relative manufacturing productivities in 2005 and their relative manufacturing wages in 2011 relate to the Mahakitsiri (2012) skill endowment measure.
 E.3. Go to URL econ.ucsd.edu/muendler/book, download the combined CEPII-WTF bilateral trade data, and extract the variables for RCA, GCA, the Groningen Growth and Development Centre producer price data (as in Figure 3.11 in the preceding Chapter 3), and the Mahakitsiri (2012) skill intensity and skill endowment measures. Find the correlation between the GGDC producer price data and the Mahakitsiri (2012) skill intensity and skill endowment measure. The run a regression of RCA on the GGDC producer price data and the Mahakitsiri (2012) skill intensity and skill endowment measure. Finally, run a regression of GCA on the GGDC producer price data and the Mahakitsiri (2012) skill intensity and skill endowment measure. What have you learned?
 
-# Further Readings
+## Further Readings
 
 Autor, David H., Lawrence F. Katz, and Melissa S. Kearney. 2008. "Trends in U.S. Wage Inequality: Revising the Revisionists." Review of Economics and Statistics, 90(2): 300-323.
 Card, David. 2009. "Richard T. Ely Lecture: Immigration and Inequality." *American Economic Review*, 99(2): 1-21.

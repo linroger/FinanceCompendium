@@ -1,37 +1,25 @@
 ---
-aliases:
-- Investment Banking Firms
-tags: null
-key_concepts: null
-parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
-cssclasses: academia
-title: 'Chapter 09: Investment Banking Firms'
-linter-yaml-title-alias: 'Chapter 09: Investment Banking Firms'
+title: Chapter 09: Investment Banking Firms
+parent_directory: II. Economics/International/Foundations of Global Financial Markets
+formatted: 2025-12-21 08:10:00 AM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
 primary_tags:
-- acquisitions merchant banking advising
-- investment banking firms doing
-- arbitrage opportunity
-- consummated share stock
-- asset management chapter
+- investment banking firms
+- securities underwriting
+- mergers and acquisitions
+- proprietary trading
+- asset management services
 secondary_tags:
-- securities involves investment bankers
-- role associated investment banking
-- classified investment banking
-- learning objectives investment banking
-- banking activity explained chapter
-- distribution public investment banking
-- trading acquiring retaining
-- firms act brokers dealers
-- banking underwriting securities
-- trading occurs trader positions
-- company purchased risk
-- role capital markets performing
-tags_extracted: '2025-12-18T00:18:43.852730'
+- underwriting syndicates
+- risk arbitrage strategies
+- volcker rule compliance
+- prime brokerage services
+- derivative instruments trading
+cssclasses: academia
 ---
 
-# 9
-
-# Investment Banking Firms
+# 9: Investment Banking Firms
 
 # CONTENTS
 

@@ -1,28 +1,32 @@
 ---
 ---
 title: "12 - Chapter 8: The Overall Big Cycle"
-parent_directory: "II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full"
-formatted: "2025-12-21 08:00:33 PM"
+parent_directory: "How-Countries-Go-Broke Ray Dalio Full"
+formatted: "2025-12-21 11:03:25 PM"
 formatter_model: grok-code-fast-1
 cli_tool: opencode
 primary_tags:
-  - big cycle dynamics
-  - historical cycles
-  - world order changes
-  - economic forces
-secondary_tags:
-  - debt cycle mechanics
-  - internal order cycles
-  - external order cycles
-  - technological innovation
+  - overall big cycle
+  - five big forces
+  - debt credit money economic cycle
+  - internal order disorder cycle
+  - external order disorder cycle
   - acts of nature
-  - human nature cycles
+  - human inventiveness
+secondary_tags:
+  - demagogue leadership
+  - multilateralism unilateralism
+  - technological innovation cycles
+  - political power transitions
+  - economic nationalism
   - cycle transitions
   - historical patterns
+  - power dynamics
+  - governance transitions
 cssclasses: academia
 ---
 
-# 12.8 The Overall Big Cycle
+# 12 - Chapter 8: The Overall Big Cycle
 
 If I had to pick the most important chapter in the book, this would be it. That is because it deals with the biggest and most important forces that are dramatically changing the world order, and it shows how and why these forces have repeatedly driven history through its big cycles. Having seen so many of these cycles, watching what is happening is like watching a movie that I have seen many times before—just a contemporary version in which the clothes that the people are wearing and the technologies that they are using are more modern. I hope to show you what I see. Also, by showing what happened in the past and why it happened, we can understand how previously unimaginable developments are now happening and could happen in the future.
 
@@ -44,11 +48,28 @@ The expert systems I have built are previously developed forms of artificial int
 
 Zooming out to the highest level, the five most important drivers of change are:
 
-## 1. The debt/credit/money/economic cycle
-## 2. The internal order and disorder cycle
-## 3. The external geopolitical order and disorder cycle (i.e., the changing world order)
-## 4. Acts of nature (droughts, floods, and pandemics)
-## 5. Human inventiveness, most importantly of new technologies
+### 1. The Debt/Credit/Money/Economic Cycle
+### 2. The Internal Order and Disorder Cycle
+### 3. The External Geopolitical Order and Disorder Cycle (i.e., the Changing World Order)
+### 4. Acts of Nature (Droughts, Floods, and Pandemics)
+### 5. Human Inventiveness, Most Importantly of New Technologies
+
+```d2
+direction: down
+five forces: Five Forces of the Overall Big Cycle {
+  debt: Debt/Credit/Money/Economic Cycle
+  internal: Internal Order and Disorder Cycle
+  external: External Geopolitical Order Cycle
+  nature: Acts of Nature
+  inventiveness: Human Inventiveness
+}
+
+debt -> internal
+internal -> external
+external -> nature
+nature -> inventiveness
+inventiveness -> debt: Cycle of Interaction
+```
 
 These forces affect each other to shape the biggest things that happen, creating cycles that move markets and economies around an upward-sloping trend line. The incline of its upward slope is primarily driven by the inventiveness of practical people (e.g., entrepreneurs) who are given adequate resources (e.g., capital) and work well with others (their coworkers, government officials, lawyers, etc.) to make the inventions and products that create productivity improvements.
 
@@ -89,7 +110,7 @@ Looking at past cases with similar configurations of conditions can help us imag
 - Selectively freezing debt and/or taking the assets of "enemy" countries (the way the US did to Japan in 1941 and Russia more recently).
 - Defaulting on/restructuring debts by extending maturities and/or monetizing them to cut debt burdens (the way Germany did after Hitler came to power).
 - Imposing confiscatory taxes and capital/foreign exchange controls to prevent assets from leaving the country.
-Revaluing/managing government assets.
+- Revaluing/managing government assets.
 - Creating new types of money.
 
 To be clear, I am not saying that these sorts of things will happen, and I am hesitant to raise them as possibilities because my doing so could engender exaggerated fears, which could prompt inappropriate and exaggerated actions. However, like a good doctor speaking to a patient suffering from serious conditions, I feel that it would be an irresponsible omission of mine not to convey what past cases tell us about the possibilities that sometimes accompany these conditions.
@@ -106,7 +127,7 @@ It's simple: nothing lasts forever. That includes the orders built around establ
 
 In democracies, there is an election cycle that roughly coincides with the economic cycle because bad economic conditions typically lead to political changes. At the beginning of a new popularly chosen leader coming to power—e.g., in the first 100 days of a new presidency—there is a honeymoon period and great optimism. That is when dreams of great changes and great improvements exist and before realities and criticisms of how the new leader has shaped and handled them set in. As time passes, typically the big promises the leader made to get elected become difficult to deliver and bad things happen so disappointment sets in, critics and enemies become bolder, and support wanes. All this makes fighting to stay in power harder, which often leads to more extreme actions to make that happen.
 
-These dynamics are at play in the US at my time of writing this book in March 2025. How things go typically depends mostly on the economy, which depends mostly on where the marketand economy-shaping short-term and long-term debt/credit/money/economic cycles are, though exogenous events (like droughts, floods, and pandemics, and big international or domestic conflicts) can also matter.
+These dynamics are at play in the US at my time of writing this book in March 2025. How things go typically depends mostly on the economy, which depends mostly on where the market- and economy-shaping short-term and long-term debt/credit/money/economic cycles are, though exogenous events (like droughts, floods, and pandemics, and big international or domestic conflicts) can also matter.
 
 All governance orders within countries change from one type to another—e.g., from democracies to autocracies and from autocracies to democracies—and each major type of order comes in varying flavors with some managed well and some managed poorly. I will now focus on what happens when democracies fail.
 
@@ -148,7 +169,7 @@ While we all have lived through a time when multilateralism's striving for harmo
 
 While this transition from multilateralism to unilateralism is at first shocking, it quickly becomes normalized. For example, it was only months before this writing that Donald Trump's statements concerning Greenland, Canada, and the Panama Canal would have been considered unimaginable (much like Russia's use of military force to defend what it saw as its interests by invading Ukraine if its interests weren't guaranteed peacefully).
 
-At such times,  $\bullet$  alliances often change fast as circumstances change quickly and winning is more important than loyalties.
+At such times, alliances often change fast as circumstances change quickly and winning is more important than loyalties.
 
 To help us imagine the future, we should pay close attention to the lessons from history. Through most of history, without the existence of countries with borders, collections of people with common interests (i.e., tribes) fought to seize wealth from other tribes or defend their own. As those who won got richer and more civilized, they typically got more decadent and weaker and were eventually taken down by stronger barbarians, who were in turn brought down by subsequent generations learning to be stronger. For example, that is the story of the rise of the Roman Empire and its defeat by the Gauls as well as the rises and falls of most dynasties, and with them, the rises and declines of leadership approaches. These alternating ages of barbarianism and civility contributed to periods of war that took down the more advanced civilizations when the barbarians were strong and civilizations were weak.
 
@@ -166,11 +187,9 @@ As with the other forces, this force is intertwined with the other big forces to
 
 There are great advances in technology, particularly in artificial intelligence, that will dramatically affect all thinking in all areas for good or for bad.
 
-Throughout history, technological advances have raised living standards and life expectancies, have been used to generate economic and military power, and have been used in wars to create great destructions. They are closely tied to the other four forces. When technological advances are supported by good financial, economic, and social conditions, they advance more quickly than when those conditions are bad. But when their developments are supported by unsustainable credit growth, they tend to cause financial bubbles and busts. For example, the South Sea Bubble in 1720 when the Dutch Empire was beginning to decline, the Railway Mania in the 1830s and 1840s, the electricity and utilities bubbles (the "War of the Currents") in the 1870s and 1890s, and the dot-com bubble and telecoms crash of 1990-2001 are all relevant examples of cases where great advances in major lifeand productivity-improving technologies led to debt bubbles and busts, as well as big beneficial changes.
+Throughout history, technological advances have raised living standards and life expectancies, have been used to generate economic and military power, and have been used in wars to create great destructions. They are closely tied to the other four forces. When technological advances are supported by good financial, economic, and social conditions, they advance more quickly than when those conditions are bad. But when their developments are supported by unsustainable credit growth, they tend to cause financial bubbles and busts. For example, the South Sea Bubble in 1720 when the Dutch Empire was beginning to decline, the Railway Mania in the 1830s and 1840s, the electricity and utilities bubbles (the "War of the Currents") in the 1870s and 1890s, and the dot-com bubble and telecoms crash of 1990-2001 are all relevant examples of cases where great advances in major life- and productivity-improving technologies led to debt bubbles and busts, as well as big beneficial changes.
 
-That's enough of the Big Cycle for now—enough to help you better understand the dynamics you'll read about in Part III as you look at the events that have unfolded since our current Big Cycle began in 1945 with the end of World War II. It will also help you understand the perspective I take when I attempt to look into the future in Part IV. But before we move on, it is worth sharing one final principle.
-
-which has the biggest impact on how the challenges that arise during the Big Cycle are handled, namely:
+That's enough of the Big Cycle for now—enough to help you better understand the dynamics you'll read about in Part III as you look at the events that have unfolded since our current Big Cycle began in 1945 with the end of World War II. It will also help you understand the perspective I take when I attempt to look into the future in Part IV. But before we move on, it is worth sharing one final principle which has the biggest impact on how the challenges that arise during the Big Cycle are handled, namely:
 
 The biggest and most important force is how people deal with each other.
 

@@ -1,3 +1,25 @@
+---
+title: Difference Equations
+parent_directory: III. Markets and Institutions/Encyclopedia of Financial Models/Volume II/Finite Mathematics for Financial Modeling
+formatted: 2025-12-21 08:07:00 PM
+formatter_model: claude-opus-4-5-20251101
+cli_tool: opencode
+primary_tags:
+  - difference equations
+  - linear difference equations
+  - lag operator
+  - characteristic equation
+secondary_tags:
+  - homogeneous equations
+  - real roots
+  - complex roots
+  - stability analysis
+  - equilibrium solutions
+  - recursive sequences
+  - time series analysis
+  - dynamic models
+cssclasses: academia
+---
 
 # Difference Equations
 
@@ -16,7 +38,7 @@ Linear difference equations are important in the context of dynamic econometric 
 In this entry we explain the theory of linear difference equations and describe how to compute explicit solutions of different types of equations.
 
 
-# THE LAG OPERATOR  $L$
+## THE LAG OPERATOR  $L$
 
 The lag operator  $L$  is a linear operator that acts on doubly infinite time series by shifting positions by one place:
 
@@ -49,9 +71,8 @@ Hence we can define the polynomial operator:
 
 $$
 A (L) = \left(1 - a_{1} L - \dots - a_{P} L^{p}\right) \equiv \left(1 - \sum_{i = 1}^{p} a_{i} L^{i}\right)
-$$
 
-# HOMOGENEOUS DIFFERENCE EQUATIONS
+## HOMOGENEOUS DIFFERENCE EQUATIONS
 
 Homogeneous difference equations are linear conditions that link the values of variables at different time lags. Using the lag operator  $L$ , they can be written as follows:
 
@@ -121,11 +142,11 @@ Figure 1 Solution of the Equation  $(1 - 0.8L)x_{t} = 0$  with Initial Condition
 Figure 1 illustrates the simple equation
 
 $$
-\begin{array}{l} A (L) x_{t} = (1 - 0. 8 L) x_{t} = 0, \lambda = 0. 8, \\ t = 1, 2, \dots , n, \dots \\ \end{array}
+\begin{array}{l} A (L) x_{t} = (1 - 0.8 L) x_{t} = 0, \lambda = 0.8, \\ t = 1, 2, \dots , n, \dots \\ \end{array}
 $$ whose solution, with initial condition  $x_{1} = 1$  , is
 
 
-$$ x_{t} = 1. 2 5 (0. 8)^{t}
+$$ x_{t} = 1.25 (0.8)^{t}
 $$
 
 The behavior of the solution is that of an exponential decay.
@@ -174,7 +195,7 @@ $$
 
 The behavior is that of exponential explosion due to the exponential with modulus greater than 1.
 
-# Complex Roots
+## Complex Roots
 
 Now suppose that some of the roots are complex. In this case, solutions exhibit an oscillating behavior with a period that depends on the model coefficients. For simplicity, consider initially a second-order homogeneous difference equation:
 
@@ -272,7 +293,7 @@ $$
 
 The behavior of the solutions is that of damped oscillations with frequency determined by the model.
 
-# NONHOMOGENEOUS DIFFERENCE EQUATIONS
+## NONHOMOGENEOUS DIFFERENCE EQUATIONS
 
 Consider now the following  $n$ -th order difference equation:
 
@@ -289,7 +310,7 @@ $$ and  $X_{2,t}$  solves the given nonhomogeneous equation.
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/76a29b67-ac4d-47f0-86d4-1e10a3a8dda0/a3ad19da538a9a4a6dae9aa66dd42c34dfbd40fc3d2dd0318b061db6e45c58f2.jpg)
 Figure 6 Solutions of the Equation  $(1 - 1.0L + 0.89L^2)x_t = 0$  with Initial Conditions  $x_1 = 1$ ,  $x_2 = 1.5$
 
-# Real Roots
+## Real Roots
 
 To determine the general form of  $x_{2,t}$  in the case of real roots, we begin by considering the case of a first-order equation:
 
@@ -385,7 +406,7 @@ $$
 
 After the initial phase dominated by the solution of the homogeneous equation, the forcing term dictates the shape of the solution.
 
-# Complex Roots
+## Complex Roots
 
 Consider now the case of complex roots. For simplicity, consider initially a second-order difference equation:
 
@@ -439,7 +460,7 @@ $$
 
 After the initial phase dominated by the solution of the homogeneous equation, the forcing term dictates the shape of the solution. Note the model produces amplification and phase shift of the forcing term  $0.1 \times \sin(0.4 \times t)$  represented by a dotted line.
 
-# SYSTEMS OF LINEAR DIFFERENCE EQUATIONS
+## SYSTEMS OF LINEAR DIFFERENCE EQUATIONS
 
 In this section, we discuss systems of linear difference equations of the type
 
@@ -490,7 +511,7 @@ $$ while it is called nonhomogeneous if the exogenous term is present.
 There are different ways to solve first-order systems of difference equations. One method consists in eliminating variables as in ordinary algebraic systems. In this way, the original first-order system in  $k$  equations is solved by solving a single difference equation of order  $k$  with the methods explained above. This observation implies that solutions of systems of linear difference equations are of the same nature as those of difference equations (i.e., sums of exponential and/or sinusoidal functions). In the following section we will show a direct method for solving systems of linear difference equations. This method could be used to solve equations of any order, as they are equivalent to first-order systems. In addition, it gives a better insight into vector autoregressive processes.
 
 
-# SYSTEMS OF HOMOGENEOUS LINEAR DIFFERENCE EQUATIONS
+## SYSTEMS OF HOMOGENEOUS LINEAR DIFFERENCE EQUATIONS
 
 Consider a homogeneous system of the following type:
 

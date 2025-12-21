@@ -1,25 +1,24 @@
 ---
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 14_LOOKING_BACK
+title: 14 Looking Back
+parent_directory: How-Countries-Go-Broke Ray Dalio Full
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- two big cycles
-- analogous ways
+  - big cycles history
+  - historical economic cycles
+  - economic cycles analysis
 secondary_tags:
-- 14lookingback looking back
-- roughly the last two centuries
-- looking back
-- last 180 years
-tags_extracted: '2025-12-18T18:03:09.854251'
-tags_method: max_quality_v1
+  - last two centuries
+  - historical parallels
+  - economic history
+  - cycle patterns
+  - economic change drivers
+  - governance order changes
+cssclasses: academia
 ---
 
-# 14_LOOKING_BACK
-## LOOKING
-
-### BACK
+# 14 Looking Back
 
 As explained, watching what is now happening is like watching a movie that I have seen many times before but set in different countries at different times because all of these Big Cycles transpire in analogous ways. In the previous chapters, I described how that classic movie typically transpires. In this part of the book, I will show you the most important cases of it transpiring over the last 180 years, which covers two Big Cycles in the US, China, Japan, and the wider world. That way, in just about 100 pages, you will be able to get a comprehensive review of roughly the last two centuries, see these Big Cycles transpire, and compare them with the Big Cycle template I previously described in Parts I and II.
 
@@ -39,4 +38,4 @@ To emphasize the importance of the big things, I describe them in a simplified w
 
 As you read these descriptions of history, please remember that this timeless and universal template has been working in essentially the same way for thousands of years in all countries, driven by the same basic and logical cause/effect relationships that will be clear to you if you don't get too focused on the details.
 
-### CHAPTER 9
+## Chapter 9

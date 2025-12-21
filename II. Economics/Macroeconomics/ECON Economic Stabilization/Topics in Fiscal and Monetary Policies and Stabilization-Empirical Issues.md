@@ -1,25 +1,37 @@
 ---
-aliases:
-  - Topics in Fiscal and Monetary Policies and Stabilization - Empirical Issues
-tags:
-key_concepts:
-parent_directory: "[[ECON Economic Stabilization]]"
-cssclasses: academia
 title: "Topics in Fiscal and Monetary Policies and Stabilization: Empirical Issues"
-linter-yaml-title-alias: "Topics in Fiscal and Monetary Policies and Stabilization: Empirical Issues"
+parent_directory: II. Economics/Macroeconomics/ECON Economic Stabilization
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+  - taylor rule
+  - discretionary monetary policy
+  - high employment budget surplus
+  - automatic fiscal stabilizers
+  - debt sustainability analysis
+secondary_tags:
+  - federal funds rate
+  - inflation targeting
+  - countercyclical policy
+  - fiscal policy effectiveness
+  - zero lower bound
+  - budget deficits
+  - economic stabilization
+cssclasses: academia
 ---
 
 # Topics in Fiscal and Monetary Policies and Stabilization: Empirical Issues
 
-Introduction
+## Introduction
 
 In this module we will study various empirical aspects of fiscal and monetary policies. The first two sections include an empirical examination of discretionary monetary and fiscal policies. The following section discusses limits to stimulative monetary and fiscal policies, a topic of increasing importance in the United States and around the world over the past decade or longer. The final section of the module deals with automatic fiscal stabilizers.
 
-# A. Discretionary Monetary Policy Actions
+## A. Discretionary Monetary Policy Actions
 
 We start by discussing the Taylor Rule, the empirical link between monetary policy actions and the business cycle. This rule should be viewed as an approximation to actual monetary policy decision making in the United States over the past 40 years or so; it is worth emphasizing that actual policy does not always follow the Taylor rule.
 
-Taylor Rule:  $\mathrm{FFR}_{\mathrm{t}} = \mathrm{r}^{*} + \pi_{\mathrm{t}} + .5(\pi - \pi^{*})_{\mathrm{t}} + .5[(\mathrm{y} - \mathrm{y}^{*}) / \mathrm{y}^{*}]_{\mathrm{t}}$
+Taylor Rule: $\mathrm{FFR}_{\mathrm{t}} = \mathrm{r}^{*} + \pi_{\mathrm{t}} + .5(\pi - \pi^{*})_{\mathrm{t}} + .5[(\mathrm{y} - \mathrm{y}^{*}) / \mathrm{y}^{*}]_{\mathrm{t}}$
 
 In this specification, FFR denotes the nominal or market federal funds rate;  $y^{*}$  denotes the target level of real GDP (think of this as the natural or potential level of GDP),  $\pi^{*}$  denotes the target rate of price inflation (currently 2% per annum in the United States), and  $r^{*}$  the long-run or equilibrium (or "natural" or "neutral") level of the real interest rate (estimated currently to be less than 1% per annum). [The real interest rate is defined as the nominal or market interest rate minus the expected rate of price inflation, which for this discussion is assumed equal to the actual rate of inflation.]
 
@@ -27,11 +39,9 @@ Under the Taylor rule, the Fed manipulates the federal funds rate (FFR), the nom
 
 For example, the FFR is increased if the percentage output gap gets larger (i.e., as output rises further above trend or target); this is the sense in which monetary policy attempts to be countercyclical with respect to fluctuations in real output and thus to "lean against the wind" (interest rates rise which reduces the interest-rate-sensitive components of aggregate demand). Also the FFR is changed if inflation deviates from target. For example, the FFR is increased if inflation rises above its target value; again this illustrates that the Fed attempts to lean against the wind. Note the very close similarity to the theoretical monetary rule in module 2. [To make the connection appear even closer, we can subtract the inflation rate from both sides of the above Taylor rule converting the left hand side from the nominal funds rate to the real funds rate ( $r = \text{FFR} - \pi$ ).]
 
-Leaning against the wind policy has implications for the relationship between the real federal funds rate and  $\mathbf{r}^*$ . In the case where both inflation and output are less than their respective target
+Leaning against the wind policy has implications for the relationship between the real federal funds rate and $r^*$. In the case where both inflation and output are less than their respective target values (as might result from a negative aggregate demand shock), the Fed would set $r < r^*$ according to the Taylor Rule. This is called expansionary or stimulative policy. Conversely, where both inflation and output exceed their respective target values (perhaps due to a positive demand shock), the Fed would set $\mathrm{r} > \mathrm{r}^*$ and this would be called restrictive policy.
 
-values (as might result from a negative aggregate demand shock), the Fed would set  $\mathrm{r} < \mathrm{r}^*$  according to the Taylor Rule. This is called expansionary or stimulative policy. Conversely, where both inflation and output exceed their respective target values (perhaps due to a positive demand shock), the Fed would set  $\mathrm{r} > \mathrm{r}^*$  and this would be called restrictive policy.
-
-The appropriate stance of monetary policy is more difficult if output is less than its target and inflation greater than its target (as might result from a negative aggregate supply shock). The Fed often has struggled with what to do in such a situation. The Taylor rule gives explicit instructions in this case for policymakers to plug in the exact values for the inflation and output gaps and set the FFR accordingly; one possibility is for the Fed to raise the real rate such that  $r > r^*$  which would lead to a reduction in inflation but a reduction in output as well, an unpleasant tradeoff to policymakers.
+The appropriate stance of monetary policy is more difficult if output is less than its target and inflation greater than its target (as might result from a negative aggregate supply shock). The Fed often has struggled with what to do in such a situation. The Taylor rule gives explicit instructions in this case for policymakers to plug in the exact values for the inflation and output gaps and set the FFR accordingly; one possibility is for the Fed to raise the real rate such that $r > r^*$ which would lead to a reduction in inflation but a reduction in output as well, an unpleasant tradeoff to policymakers.
 
 Implementation of the Taylor Rule is difficult in practice because there are several measures of price inflation from which the Fed can choose (such as the total vs. core measures of inflation); and because it has to utilize a statistical estimate of potential GDP (since potential GDP is never actually observed); and because empirical coefficient values for the inflation and output gap terms must be chosen.
 
@@ -39,13 +49,11 @@ The Taylor rule usually is expressed in terms of contemporaneous values on infla
 
 Also, the formal math structure of the Taylor rule, as well as our theoretical policy rule above, does not allow for a period of recognition and deliberation and hence suggests that policy moves are automatically taken in response to gaps. In reality, monetary policy is not "automatic" but rather has a "discretionary" element in the sense that decisions are the result of careful deliberation, followed by a vote, before the Federal funds rate is changed.
 
-For a numerical example using the Taylor Rule, suppose initially that the output and inflation gaps are zero, in which case the Fed would set the nominal funds rate at its desired long run value,  $\mathrm{r}^* + \pi^*$ . Substituting in reasonable values of  $0.5\%$  for  $\mathrm{r}^*$  and  $2\%$  for  $\pi^*$  implies that the Fed would set the nominal funds rate at  $2.5\%$  per annum (FFR =  $0.5\% + 2\% + 0 + 0$ ). If there was an inflationary shock, the authorities would raise the funds rate by 1.5 times the change in the inflation rate (to confirm this, take the derivative,  $\mathrm{dFFR} / \mathrm{d}\pi$ , for a given output gap, and show that it equals 1.5). Again starting from equilibrium, a 1 percentage point rise in  $\pi$  would lead to an increase in the nominal funds rate from  $2.5\%$  to  $4.0\%$  per annum. This implies that the real funds rate would increase from  $0.5\%$  to  $1.0\%$  as inflation rises.
+For a numerical example using the Taylor Rule, suppose initially that the output and inflation gaps are zero, in which case the Fed would set the nominal funds rate at its desired long run value, $\mathrm{r}^* + \pi^*$. Substituting in reasonable values of $0.5\%$ for $\mathrm{r}^*$ and $2\%$ for $\pi^*$ implies that the Fed would set the nominal funds rate at $2.5\%$ per annum (FFR = $0.5\% + 2\% + 0 + 0$). If there was an inflationary shock, the authorities would raise the funds rate by 1.5 times the change in the inflation rate (to confirm this, take the derivative, $\mathrm{dFFR} / \mathrm{d}\pi$, for a given output gap, and show that it equals 1.5). Again starting from equilibrium, a 1 percentage point rise in $\pi$ would lead to an increase in the nominal funds rate from $2.5\%$ to $4.0\%$ per annum. This implies that the real funds rate would increase from $0.5\%$ to $1.0\%$ as inflation rises.
 
 The coefficient levels of 0.5 were inferred by Taylor from properties of large models of the time, though later research has shown that larger response coefficients (especially on the inflation term) would make the rule even more stabilizing.
 
-By plugging historical values of the right-hand-side variables into the Taylor equation, it can be seen that the equation generates a path for the funds rate that tracks the actual path relatively
-
-well; that is, the Taylor rule seems to explain actual monetary policy behavior fairly well, at least from the late 1980s. Taylor uses his rule to show that in the 1965-1979 period, the time of accelerating inflation in the U.S., policy was too easy (in the sense that the FFR demanded by his equation for that period exceeded the FFR actually chosen by the Fed) and in the 1981-1985 period policy was too tight. Orphanides shows that Taylor's results become muddled when the actual (real time) data that were available to policymakers at the time are inserted into the rule (as opposed to inserting heavily-revised current estimates of the data of that period).
+By plugging historical values of the right-hand-side variables into the Taylor equation, it can be seen that the equation generates a path for the funds rate that tracks the actual path relatively well; that is, the Taylor rule seems to explain actual monetary policy behavior fairly well, at least from the late 1980s. Taylor uses his rule to show that in the 1965-1979 period, the time of accelerating inflation in the U.S., policy was too easy (in the sense that the FFR demanded by his equation for that period exceeded the FFR actually chosen by the Fed) and in the 1981-1985 period policy was too tight. Orphanides shows that Taylor's results become muddled when the actual (real time) data that were available to policymakers at the time are inserted into the rule (as opposed to inserting heavily-revised current estimates of the data of that period).
 
 Specifically, Orphanides' results suggest that monetary policy makers in these earlier periods followed a sensible lean-against-the-wind strategy but had bad estimates of the right-hand-side variables (in particular, their estimate of real potential GDP in the 1965-1979 period was too large) and hence made bad policy decisions.
 
@@ -79,11 +87,11 @@ the cyclical adjustment term is:  $\mathrm{T}^{\mathrm{n}}(\mathrm{Y}_{\mathrm{p
 
 For example, if  $\mathrm{Y} < \mathrm{Y}_{\mathrm{p}}$  (think of the economy as being in a recession), then actual net taxes are less than net taxes evaluated at potential GDP and thus the actual budget surplus is less than the high-employment surplus. Indeed the high-employment surplus originally was developed to teach policymakers intent on balancing the actual budget that there was no need to cut spending or raise taxes during a recession if policymakers would simply keep the high-employment surplus in balance (make certain you understand this point). Failure to appreciate this point would lead policymakers to raise taxes and cut government spending during recessions to balance the actual budget; of course, these actions would produce an even deeper recession (by shifting the IS and AD curves to the left).
 
-Period-to-period changes in the dollar value of the cyclically-adjusted budget surplus obviously do not reflect business-cycle swings in economic activity (hence the name "cyclically-adjusted" deficit) but do reflect several other factors, such as the impact of legislative policy actions (i.e. discretionary policy actions), the impact of demographic influences (like retirement of the baby boomers) on social security and Medicare outlays, and the impact of changes in interest rates on interest payments on Treasury debt. Although the HEB thus is capturing several "non-fiscal-policy" factors, it is viewed as a reasonable measure of the stance of discretionary fiscal policy. Loosely speaking, any of the non-interest-rate factors that increase (reduce) the cyclically-adjusted budget surplus shift the IS curve to the left (right), rather than capturing movements along the curve. (Arguably, a change in interest rates is a better reflection of monetary policy than fiscal policy and so interest payments on Treasury debt sometimes are excluded from the
+Period-to-period changes in the dollar value of the cyclically-adjusted budget surplus obviously do not reflect business-cycle swings in economic activity (hence the name "cyclically-adjusted" deficit) but do reflect several other factors, such as the impact of legislative policy actions (i.e. discretionary policy actions), the impact of demographic influences (like retirement of the baby boomers) on social security and Medicare outlays, and the impact of changes in interest rates on interest payments on Treasury debt. Although the HEB thus is capturing several "non-fiscal-policy" factors, it is viewed as a reasonable measure of the stance of discretionary fiscal policy. Loosely speaking, any of the non-interest-rate factors that increase (reduce) the cyclically-adjusted budget surplus shift the IS curve to the left (right), rather than capturing movements along the curve. (Arguably, a change in interest rates is a better reflection of monetary policy than fiscal policy and so interest payments on Treasury debt sometimes are excluded from the cyclically-adjusted budget surplus measure.)
 
 Let's consider some practical applications of these principles. For example, if policymakers tried to offset the increase in the budget deficit resulting from the contracting economy during the financial crisis recession of 2008-2009, they would have raised taxes (or cut spending) about  $2\%$  of GDP according to CBO estimates; this is a very large amount and would have deepened the recession. Evidently having learned the main lesson of the HEB--not to cut spending or increases taxes during a recession--fiscal policymakers were willing to let the size of the deficit take a backseat to the plunge in real economic activity in the U.S. in 2008 and, more recently, in 2020; indeed huge deficit-increasing stimulus was enacted in response to the deep recessions associated with the 2008 financial crisis and the 2020 corona virus pandemic.
 
-# C. Limits to Stimulative Discretionary Fiscal Policies
+## C. Limits to Stimulative Discretionary Fiscal Policies
 
 In module 3, Friedman's model demonstrated that getting the right timing and magnitude for either stimulative or restrictive policy were difficult and hence posed limits to policy. In this section we examine practical quantitative limits related to the magnitude of stimulative fiscal policy, a topic of growing importance in the United States and abroad. We have briefly discussed the limits to discretionary monetary policy imposed by the zero lower bound on the federal funds rate; my course on monetary economics (Econ 111) discusses this in more detail.
 
@@ -95,7 +103,7 @@ At some point, it appears that bond market investors will punish countries that 
 
 To answer such a question, it is standard to focus on the level of government debt relative to the size of the economy (i.e., to GDP). From above we know that  $\Delta D_{t} / D_{t-1} = P / D_{t-1} + i$ . Let  $g$  be the growth rate of nominal GDP (\$Y). Subtract  $g$  from both sides and we get:  $\Delta D_{t} / D_{t-1} - g = P / D_{t-1} + i - g$ . The left hand side is the growth rate of the debt/GDP ratio. For example, it is positive if and only if:  $P > (g - i)D_{t-1}$ , i.e., if and only if  $P$  is larger than the right hand side. Here are some standard debt dynamic properties.
 
-(i) If GDP is growing faster than government debt, then the ratio of debt to GDP  $(\mathrm{D} / \mathbb{S}\mathrm{Y} = \mathrm{d})$  is declining since the numerator of  $\mathrm{D} / \mathbb{S}\mathrm{Y}$  is growing slower than the denominator.  
+(i) If GDP is growing faster than government debt, then the ratio of debt to GDP  $(\mathrm{D} / \mathrm{Y} = \mathrm{d})$  is declining since the numerator of  $\mathrm{D} / \mathrm{Y}$  is growing slower than the denominator.  
 (ii) For the case of  $\mathrm{P} = 0$ ,  $\Delta \mathrm{D}_{\mathrm{t}} / \mathrm{D}_{\mathrm{t -1}} - \mathrm{g} = \mathrm{i} - \mathrm{g}$ . Thus the debt-GDP ratio declines if  $\mathrm{g} > \mathrm{i}$  (and of course it increases if  $\mathrm{g} < \mathrm{i}$ ). If the primary deficit is zero  $(\mathrm{P} = 0)$  the increase in the level of debt from one period to the next  $(\Delta \mathrm{D}_{\mathrm{t}})$  is interest payments on previously accumulated debt because all other government outlays exactly equal tax receipts if  $\mathrm{P} = 0$ ; think of interest outlays as being financed by issuing new government debt. Equivalently, in this case the growth rate of debt equals the interest rate  $(\Delta \mathrm{D}_{\mathrm{t}} / \mathrm{D}_{\mathrm{t -1}} = \mathrm{i})$ .  
 (iii) It is reasonable to conclude that debt declines as a share of GDP, if interest rates on government debt are low enough and the primary deficit is not too large. To keep the debt ratio from declining when  $\mathrm{g} > \mathrm{i}$ , there must be a large enough primary deficit. We know that:  $\Delta \mathrm{D}_{\mathrm{t}} / \mathrm{D}_{\mathrm{t -1}} - \mathrm{g} = \mathrm{P} / \mathrm{D}_{\mathrm{t -1}} + \mathrm{i} - \mathrm{g}$ . Thus the debt/GDP ratio increases if and only if:  $\mathrm{P} > (\mathrm{g} - \mathrm{i}) \mathrm{D}_{\mathrm{t -1}}$ , i.e., if and only if  $\mathrm{P}$  is larger than the right hand side.  
 (iv) (Technical point: If the primary deficit,  $\mathrm{P}$ , is larger than that minimal amount  $[= (\mathrm{g -i})\mathrm{D}_{\mathrm{i -1}}]$  but fixed as a share of GDP, debt will rise as a share of GDP until it plateaus at a new higher equilibrium level,  $\mathrm{d}^{*}$ : the formula is  $\mathrm{d}^{*} = \mathrm{D} / \mathrm{\$Y} = \mathrm{p} / (\mathrm{g -i})$  where  $\mathrm{p} = \mathrm{P} / \mathrm{\$Y}$ . For a proof, see Chapter 22 of the Blanchard textbook.)
@@ -106,9 +114,7 @@ Of course the huge corona-virus fiscal packages will increase the primary defici
 
 To date in early 2022, investors have not reacted adversely to such a rise and demand much higher Treasury interest rates with a consequent large negative impact on the economy. But, is there an upper limit on the size of discretionary U.S. fiscal policy with its implications for government debt before it has a significantly adverse effect on the economy?
 
-The usual answer is that high and rising budget deficits and debt will eventually lead to
-
-an increase in interest rates or to an increase in taxes (or reduction in government spending) for the sake of fiscal "responsibility;" in either case, economic growth would be adversely affected. However, in the current environment there may not be such an adverse effect in the near term--meaning the next five to ten years--because:
+The usual answer is that high and rising budget deficits and debt will eventually lead to an increase in interest rates or to an increase in taxes (or reduction in government spending) for the sake of fiscal "responsibility;" in either case, economic growth would be adversely affected. However, in the current environment there may not be such an adverse effect in the near term--meaning the next five to ten years--because:
 
 i) investors know that the U.S. Treasury has never defaulted, which will help to keep Treasury interest rates low  
 ii) investors know that with low Treasury interest rates the debt ratio will stabilize, albeit at a historically high level (so long as  $g$  continues to exceed i: see point (iv) above  
@@ -116,7 +122,7 @@ iii) current long-term Treasury interest rates are at historically low levels su
 iv) the rate of return on non-Treasury assets faced by investors is estimated by some economists to not be very high at this time, so that there is not much incentive for worldwide investors to switch from Treasuries to other assets (thereby raising Treasury interest rates). [Low rates of return in general could be a result of a substantial amount of "excess" saving worldwide; several economists have argued this is true empirically. Under more normal circumstances, using saving to finance increases in government debt leaves less saving to finance physical capital accumulation, i.e., government debt "crowds out" physical capital, leading to less future output (because output depends on both labor and physical capital inputs). But with excess worldwide saving, this crowding out, to the extent it takes place, is not very costly in terms of future output. Put another way, excess saving implies a low rate of return on physical capital, i.e., a low opportunity cost of using the saving to finance government debt accumulation.]  
 v) Going further into the future, the CBO estimates that debt will rise to more than 200 percent of GDP by mid-century reflecting the rapid projected growth of social security and Medicare spending. Between now and then, it is possible that adverse macroeconomic effects will be felt especially if there is less "excess" saving in the future.
 
-# D. Automatic or Built-in Fiscal Stabilizers
+## D. Automatic or Built-in Fiscal Stabilizers
 
 Certain taxes and expenditures respond very quickly to swings in real economic activity. For example, increases in wages will boost the taxes withheld from paychecks as well as social insurance contributions (i.e., payroll taxes) within a matter of a few weeks. In addition, an increase in profits will boost taxes paid by corporations with only a short lag. These responses are "built-in" to the existing structure of individual, payroll, and corporate taxes in the United States. On the spending side, unemployment insurance benefits respond to changes in the employment status of workers in a matter of a few weeks. Under the current structure, workers are entitled to 26 weeks of benefits after becoming unemployed. Moreover, when the national unemployment rate has risen above a critical value, benefits are automatically extended another 13 weeks. Together the components of government taxes and spending that respond quickly to economic activity, within the structure of existing law, are known as the "automatic fiscal stabilizers."
 
@@ -138,11 +144,9 @@ v. An exogenous shock on the supply side (such as an increase in the price of oi
 
 We now are in a position to see how the automatic fiscal stabilizers relate to the discussion of policy effectiveness in the Friedman model of module 3. In the case of fiscal policy, P captures both discretionary policy actions and the automatic stabilizers impact on GDP.
 
-However the automatic stabilizers are more likely to work better than discretionary fiscal actions
+However the automatic stabilizers are more likely to work better than discretionary fiscal actions because the timing must be better. The correlation between  $X$  and  $P$ ,  $\rho_{\mathrm{xp}}$ , is algebraically smaller (i.e., closer to -1 in value) for automatic stabilizers than for discretionary fiscal policy actions. This is because (i) with automatic stabilizers there is no recognition lag by Congress and (ii) there is no implementation lag. Moreover, both automatic and discretionary fiscal policies involve the same outside lags. For example, taxes fall at the same instant as GDP in the case of automatic stabilizers but require recognition and implementation time for discretionary actions. [Think about whether the automatic stabilizers or discretionary policy actions have better magnitude.]
 
-because the timing must be better. The correlation between  $X$  and  $P$ ,  $\rho_{\mathrm{xp}}$ , is algebraically smaller (i.e., closer to -1 in value) for automatic stabilizers than for discretionary fiscal policy actions. This is because (i) with automatic stabilizers there is no recognition lag by Congress and (ii) there is no implementation lag. Moreover, both automatic and discretionary fiscal policies involve the same outside lags. For example, taxes fall at the same instant as GDP in the case of automatic stabilizers but require recognition and implementation time for discretionary actions. [Think about whether the automatic stabilizers or discretionary policy actions have better magnitude.]
-
-# FRBUS estimates of impact of the automatic fiscal stabilizers
+## FRBUS estimates of impact of the automatic fiscal stabilizers
 
 FRBUS is a large macro-econometric model developed at the Federal Reserve Board. The model specifies taxes as a function of income, but in simulations of the impact of the automatic stabilizers, a counterfactual tax structure is incorporated in which taxes are independent of income (i.e., taxes, in effect, become "lump-sum").
 

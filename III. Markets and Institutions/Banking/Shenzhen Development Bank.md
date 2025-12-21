@@ -1,3 +1,21 @@
+---
+title: "Shenzhen Development Bank"
+parent_directory: "III. Markets and Institutions/Banking"
+formatted: 2025-12-21 08:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+   - shenzhen development bank
+   - china banking sector
+   - private equity investment
+secondary_tags:
+   - foreign investment china
+   - bank restructuring
+   - newbridge capital
+   - chinese financial institutions
+cssclasses: academia
+---
+
 LIJIN YUHAI XUAN X.B. (XIAO-BING) BAI
 
 # Shenzhen Development Bank
@@ -12,15 +30,15 @@ Less than a year ago, in June 2002, following initial due diligence and negotiat
 
 Amid a frenzy of media speculation over the reason for the public falling-out between Newbridge and SDB, Shan and his deal team must devise an action plan to revive and renegotiate the transaction as soon as possible or decide to give up pursuing the deal altogether.
 
-# China's Banking Sector
+## China's Banking Sector
 
-# Sector Growth
+## Sector Growth
 
 Over the past decade, China's banking sector has experienced tremendous growth, driven by a strong underlying economy with an average annual GDP growth of \(8.1\%\) from 1996 to 2002. Within the same period, total loans and total deposits in the banking industry grew approximately \(13.6\%\) and \(16.4\%\) per annum, respectively (see Exhibit 1 for loan and deposit growths in China's banking sector).<sup>4</sup> From 1999 to 2002, Asian banks had an average loan growth at a compounded annual growth rate (CAGR) of \(9.6\%\) while China banks grew at \(14.9\%\).[a5] Such a fast growth in China's banking sector was also attributed to the country's imbalanced credit markets that were dominated by bank financing. As domestic corporate stock and bond markets remained considerably underdeveloped, banks have long assumed the role as the primary source of financing for most large Chinese companies. At the same time, due to high instability in the domestic stock market and restricted access to broad investment products, demand and time deposits at banks remained the primary investment vehicles for both corporate and retail customers. By the end of 2002, total deposits with financial institutions amounted to RMB17.1Tr (US\(2.1Tr), dominating both the bond market outstanding balance (RMB2.9Tr or US\)338Bn) and the stock market capitalization (RMB3.8Tr or US\)459Bn) seem minuscule by comparison.<sup>b6</sup>
 
 In particular, the retail banking segment, driven by a strong growth in personal disposal income, presented the most impressive opportunities. The consumer loan market, initiated in the mid 1990s, had a robust growth momentum at a CAGR of  $129\%$  from 1997 to 2002, significantly higher than the commercial loan growth rate of  $12\%$  within the same period. Mortgage loans were the main impetus behind China's exploding consumer credit market, accounting for approximately  $80\%$  of the consumer credit market in China from 1997 to 2002. This consumer credit market boom afforded China's middle classes an escalation in wealth, enabling them to upgrade their homes and speculate in real estate.[7] In 2002, the private mortgage loan market in China remained relatively small compared to other Asian markets (see Exhibit 2 for mortgage as a percentage of GDP and total loans in Asian countries). Other loan segments considered to have high growth potentials were auto loans and credit cards. China's private automobile ownership increased at a CAGR of  $22.3\%$  from 5.3 million units in 1999 to 9.7 million units in 2002. From 2000 to 2002, China's auto loan market mushroomed from US $2.3Bn to US$ 13.9Bn, with an impressive CAGR of  $146\%$ . While credit card loans in China only had an approximate market size of US\$0.1Bn in 2002, that market was anticipated to see the greatest future growth momentum, to eventually arrive at US\$16Bn in 2010.[8]
 
-# Regulatory Framework
+## Regulatory Framework
 
 Before April 2003, all banking institutions were regulated by China's central bank, the People's Bank of China (PBOC). The China Banking Regulatory Commission (CBRC) was established in April 2003 with the primary responsibility to regulate domestic banking institutions. PBOC's duty was to devise and implement monetary policies. CBRC focused on developing a reliable supervisory and regulatory foundation, fortifying risk-based management of the banking sector, improving the corporate governance of domestic banks, as well as executing policies in accordance with the
 
@@ -30,7 +48,7 @@ China's banking industry was dominated by four large state-owned commercial bank
 
 The government response was a general trend of deregulating the industry and affording individual banks greater autonomy to facilitate their operating more independently. For example, PBOC's relaxed restrictions on acceptable rates enabled bank lending rates to become more market-driven.<sup>c</sup> Furthermore, in 2004, oversight of new products was transitioned from PBOC to the more flexible CBRC, whereas prior to 2002, any new financial product or service required approval from the central bank. Deregulation was further evidenced as an increasing number of new product launches received approval just by notifying authorities as opposed to the rigmaroles involved in the original official notification process. In addition, the government was encouraging more transparency and accuracy in bank filings, pushing non-performing loan (NPL) disclosure and classification to be more in accordance with international practices. In 2002, PBOC had mandated every bank to adopt the international five-grade classification standard (normal, special mention, substandard, doubtful, loss), as opposed to the less transparent four-grade system (pass, overdue, idle, and bad loan) previously used in China. More stringent rules were also adopted for calculating risk-weighted assets.<sup>11</sup>
 
-# Competitive Landscape
+## Competitive Landscape
 
 China's banking authorities imposed clear geographical and operational restrictions for financial institutions, and enforced even stricter restrictions on foreign institutions. In terms of geographic scope, both state banks and joint-stock banks were permitted to operate on a nationwide basis. In contrast, city commercial banks and credit cooperatives were generally limited to the city, town or village with which they had an affiliation. No one individual financial institution was allowed to offer a host of financial services across banking, asset management, securities, trust or insurance.[d]
 
@@ -40,7 +58,7 @@ Development Area in Shanghai, and is closely partnered with Citibank. Bank of Co
 
 Meanwhile, foreign banks could only operate in major cities designated by the regulators, and were not permitted to offer RMB-denominated retail banking services to Chinese citizens. Yet, the overall industry trend was veering toward a gradual opening to foreign direct investment. As a result of WTO's mandate to liberalize the economy, China lifted all restrictions on foreign banks' involvement in foreign-currency business in China upon its accession to the WTO. Furthermore, after China's accession to WTO, each year foreign banks would be granted access to new cities or provinces in which they would be allowed to conduct RMB business. As of December 2006, there would be no geographic constraints imposed on foreign banks to engage in RMB business.[12]
 
-# Urgent Challenges
+## Urgent Challenges
 
 China's banking sector had long been plagued by poor corporate governance and risk management. Most banks weren't sufficiently independent, and therefore, under the instructions from the central or local government, granted an enormous amount of policy loans to underperforming state-owned enterprises. Provincial bank branches operated on a quasi-standalone basis with close ties to local governments, resulting in weak head office control. Credit officers didn't have clear authorization and credit limits. Frequently, one local credit officer can grant a large loan to his or her favored customer without internal check and balance. Moreover, state-owned banks had poor incentive systems. There were significant constraints in implementing compensation arrangements with greater flexibility and competitiveness, thereby diminishing employee motivation and potentially prompting inappropriate or even illegal behaviors, e.g., lending to non-qualified borrowers with poor creditworthiness for personal rewards. Consequently, Chinese banks amassed an exorbitant amount of NPLs. In 2002, Standard & Poor's (S&P) estimated the NPL to gross loan ratio of China's banking system at  $50\%$ , which more than doubled the ratio of  $24\%$  reported by the government.[13]
 
@@ -52,7 +70,7 @@ recovery of collateral, adequate standards of disclosure, and the protection of 
 
 In light of the challenges in China's banking sector, in the late 1990s, the central government initiated an overhaul of state banks to resolve specific legacy issues. The central government injected a very substantial amount of new capital into the state banks to write off NPLs and buttress their balance sheets. For example, in 2003, Bank of China (BOC) and China Construction Bank (CCB) received an infusion of US\$45Bn to enhance their capital adequacy. In addition, asset management companies were set up to purchase problematic assets from state banks and to sell the re-packaged deficient loans at a discount to domestic and foreign investors. The responsibility of making policy loans was transferred from state banks to three policy banks.[16]
 
-# Shenzhen Development Bank
+## Shenzhen Development Bank
 
 SDB was China's fifteenth largest commercial bank, and had a nationwide banking license. It was founded in 1987 through the combination of local credit cooperatives, and started business in Shenzhen, a special economic zone in the southern province of Guangdong. SDB expanded its banking franchise over the years to the rest of Guangdong as well as other developed coastal regions. In 1991, SDB became the first publicly listed bank in China, trading on the Shenzhen Stock Exchange. As of December 31, 2002, SDB had total assets of RMB165Bn (US\$20Bn), gross loans outstanding of RMB84Bn (US\$10Bn), and a network consisting of 225 branches nationwide (see Exhibit 6 for SDB's selected historical financials).[17]
 
@@ -60,9 +78,9 @@ SDB was involved in the traditional commercial and retail banking businesses mos
 
 As of December 31, 2002, SDB had a per share price of RMB10.32 and market cap of US\$2,465MM. About 72.4% of SDB's shares outstanding were traded shares held by the public, and the remaining 27.6% were held by other government controlled entities in the form of "legal person shares" or state-owned shares, which cannot be traded on the exchange (see Exhibit 7 for the shareholding structure of SDB).<sup>e</sup>
 
-# TPG Newbridge Capital
+## TPG Newbridge Capital
 
-# Pioneer in Asia Private Equity
+### Pioneer in Asia Private Equity
 
 Founded in 1994 by the Texas Pacific Group (TPG) and Blum Capital Partners, Newbridge was among the first private equity firms dedicated to Asian investments. David Bonderman, founder of TPG, and Richard Blum, founder of Blum Capital, both served on the seven-member Asian investment group of Newbridge.[19]
 
@@ -70,7 +88,7 @@ Newbridge started slowly in China in the mid 1990s. At the time, it was impossib
 
 By the end of the decade, Newbridge had established three offices in Asia including Hong Kong, Shanghai, and Singapore. At the end of 1999, Newbridge purchased a  $51\%$  stake in Korea First Bank (KFB) and became the first foreign owner of a South Korean bank. After the acquisition led by Weijian Shan, Newbridge reshuffled KFB's management team, restructured its balance sheet, and significantly improved the quality of its loan portfolio and its operating performance. With its successful experience in KFB and its strong expertise in financial institutions, Newbridge was actively looking for other investment opportunities in the banking sector in the region.[20]
 
-# Weijian Shan
+### Weijian Shan
 
 Weijian Shan, a Beijing native, is known for his tenacity and perseverance, attributes which helped him succeed in turning around his personal life and building a formidable professional career. During the Cultural Revolution in China in the 1960s, Shan was banished to the Gobi Desert at the age of fifteen. For the next six years, he performed hard manual labor on a farm during the day and studied on his own at night. Reflecting upon the experience in the desert, Shan remarks, "When you have a job in the Gobi with absolutely no hope and no future, you learn to be patient."[21]
 
@@ -78,11 +96,11 @@ With patience, Shan persisted and persevered. After the Culture Revolution, he w
 
 Starting in 1999, he led the acquisition and turnaround of KFB. The success of the KFB investment, as well as Shan's extensive business experience and connections among the local business community, policymakers, and academics, earned him an international reputation as one of the leading experts in banking and private equity investing in Asia.[23]
 
-# SDB at a Crossroad
+### SDB at a Crossroad
 
 SDB was among China's eleven joint-stock banks with national banking licenses and one of the four listed commercial banks in the Chinese stock market in 2002. Located in the Pearl River Delta, one of China's most dynamic economic regions, SDB had experienced fast loan growth driven by the region's economic boom. However, SDB was a government-controlled bank and therefore had the same legacy issues as other state-owned banks. The bank was mismanaged by government officers and encumbered by massive low-quality loans which resulted in high NPLs, an under-capitalized balance sheet, and disappointing profitability. In an effort to reform the bank, the Shenzhen government indicated in 2000 that it would sell down its stake in the bank, and incorporate foreign capital and professional management. In 2001, the mayor of Shenzhen submitted a report to the State Council seeking support for the sale of the stakes controlled by the government-affiliated entities. The State Council responded favorably to the idea. In the same year, the Shenzhen government decided to sell to foreign strategic investors the shares held by Shenzhen City Investment Management Co., Shenzhen International Trust & Investment Co., Shenzhen Labor and Social Security Bureau, and Shenzhen City Construction Development (Group) Co. The four sellers jointly held an  $18.2\%$  stake of SDB in the form of non-tradable legal person shares.[24]
 
-# A Valued Franchise25
+### A Valued Franchise
 
 At the end of 2002, SDB had total gross loans of US \$10.2Bn and total deposits of US\$ 13.7Bn. The loan portfolio consisted of corporate loans (73.4%), discounted bills (23.5%), and retail loans (3.1%). As for the deposit base, 85.5% were corporate deposits and the remaining 14.5% were retail deposits. The corporate banking division, which mainly covered the southern and eastern regions in China, accounted for the lion's share of SDB's business. Bill discounting is a flexible form of short-term financing for trading transactions. SDB discounted bills endorsed by other banks or major companies that met certain credit criteria. SDB's retail banking efforts were quite limited and lagged behind other joint-stock banks in terms of both size and growth. The bulk of SDB's retail banking business was in residential mortgages. Its other retail banking businesses included auto financing and credit cards. Among the 14 joint-stock banks in China in 2002, SDB was ranked  $10^{\text{th}}$  and  $14^{\text{th}}$  in terms of market share in the loan and deposit markets, respectively.
 
@@ -92,7 +110,7 @@ To monitor its loan quality, SDB classified the loans into five categories based
 
 value of the collateral, the length of overdue payments, and the creditworthiness of the guarantor. A loan can be upgraded or downgraded from one category to another based on the change in its credit risk, and the reserve ratio is adjusted accordingly. The annual increase in total loan reserves is categorized as loan provisions or credit costs in the income statement to be deducted from operating profits. Two important asset quality measures that bank managers and analysts pay close attention to are the NPL ratio (NPL/Gross Loan) and the NPL coverage ratio (LLR/NPL). A lower NPL ratio indicates a better quality of the loan portfolio, while a higher NPL coverage ratio suggests more conservative provisioning for potential credit losses.
 
-# A Falling Angel
+### A Falling Angel
 
 Credit risk management had always been the most critical challenge for SDB's entire risk management system, which directly impacted its business portfolio, operating performance, and operational efficiency.[26] The lack of a systematic credit policy and a well-defined authorization and approval mechanism, coupled with a poor organizational design of the credit functions, had resulted in ineffectiveness in credit monitoring and control and slow responsiveness to the market conditions. In addition, SDB's affiliation with the Shenzhen government meant that SDB was often obligated to provide financing for a range of municipal projects, and many of SDB's major shareholders were also its own borrowers. These conflicts of interests further hampered independent management and decision-making, and exacerbated asset quality problems at SDB.[27]
 
@@ -104,9 +122,9 @@ new equity in order to maintain the appropriate financial leverage and meet capi
 
 SDB's poor credit management resulted in substantial loan quality troubles. Simultaneously, the bank didn't generate sufficient retained earnings from the low-profitability lending operations. Consequently, SDB had a severely under-capitalized balance sheet while experiencing aggressive loan growth at a  $53\%$  CAGR from 2000 to 2002. The bank had an equity-to-asset ratio of  $2.6\%$  as of December 2002, a capitalization level substantially lower than those of international peers.[35] In commercial banking, regulators and managers use the capital adequacy ratio (CAR) to monitor a bank's capitalization. CAR is calculated as total capital over risk-weighted assets of the bank. Total capital is the sum of tier 1 capital (equity and retained earnings) and tier 2 capital (subordinated debt and reserves). Risk-weighted assets are total assets of the bank net of possible losses based on the quality of different types of assets. Banks have to manage their CARs above the minimum level required by the government to ensure sufficient solvency. SDB's official CAR declined from  $10.6\%$  in December 2001 to  $9.5\%$  in December 2002, still above the Chinese regulatory floor of  $8\%$ . But if CBRC were to promulgate new guidelines on capital adequacy in the next few years and impose more stringent requirements on the calculation of capital adequacy for domestic banking institutions in agreement with the Basel Accord, an international standard for capital adequacy of commercial banks, then SDB's tier 1 and total CAR ratios might potentially be significantly lower than the new regulatory floors. In such a case, SDB would have to raise a large amount of capital to meet the new regulatory requirements. As a consequence, any stake Newbridge has in SDB might potentially be diluted by large capital infusions.
 
-# Seal the Deal
+### Seal the Deal
 
-# A Disfavored Sale
+#### A Disfavored Sale
 
 Initial market reaction to the potential government stake sell-down at SDB was lukewarm. Aiming to bring to SDB the best management practices and expertise in banking, the Shenzhen government was primarily looking for long-term foreign strategic investors.[36] While a few foreign financial institutions realized the growth potential in China's banking sector by investing in joint-stock and city commercial banks since 2001, most foreign financial entities still viewed the China banking industry as a high-risk market for strategic investment due to its rampant legacy NPLs, large equity holes, and significantly unstable regulatory system. As summarized by Moody's and Fitch, most investors argued that the positions of Chinese banks were far more precarious than the government's official statistics and audited company financials revealed.[37]
 
@@ -116,7 +134,7 @@ system, reshuffle the management team, or make any critical turnaround decisions
 
 Another type of potential buyers for SDB's stake were financial investors. Generally, financial investors care more about liquidity issues than do strategic buyers. Although SDB was one of four listed banks in the domestic stock market, the non-tradable nature of SDB's stake for sale could be a big concern for financial investors. In particular, there was no specific timetable to convert non-tradable shares into tradable ones. In addition, financial investors typically pay more attention to the financial performance of their investment targets. In comparing SDB with other listed and private joint-stock banks based on historical financial benchmarks, SDB was not considered a financially sound investment candidate.[40] In fact, SDB was rated among the lowest in all public Chinese banks on almost all measures of operating performance and financial strength by China Chengxin International Credit Rating Co. (CCXI)[41] (see Exhibit 9 for SDB's selected historical financial ratios and Exhibit 10 for benchmarking SDB against other listed and private joint-stock banks).
 
-# Values in Disguise
+#### Values in Disguise
 
 Back to 2001, private equity was still a rare concept in China, and no private equity investment had yet been made in the highly regulated banking sector. Most completed private equity deals in China were small in size and of growth capital investment in nature as opposed to the big control-type buyouts. However, with successful turnaround experience in KFB in South Korea and some of the other transactions completed in China at the time, Weijian Shan and Newbridge were actively seeking investment opportunities in China's emerging private equity market.[42]
 
@@ -132,7 +150,7 @@ With support from the Shenzhen government, Shan and his team initiated a process
 
 Another important issue for Newbridge was raising capital. SDB was under-capitalized, and would require additional capital if new capital adequacy guidelines based on stricter NPL reserve standards were to be put into place. Under such circumstances, SDB would need to raise equity capital via rights offerings, public share issuances, or private placements. Each capital raising alternative would have a potential dilution effect on Newbridge's stake in SDB. Raising capital was also subject to market conditions and, more importantly, government approval. Any uncertainty in SDB's ability to raise additional capital in time would pose an immediate threat to SDB's continuing its operation.
 
-# Pay the Right Price
+#### Pay the Right Price
 
 SDB was one of four listed banks in the domestic stock market. All the four banking stocks had outperformed the market index in the past two years, likely due to the popularity of the growth story in the banking sector (see Exhibit 12 for banking stock performance against market performance and Exhibit 13 for comparable company valuations). The price of SDB's tradable shares in the public stock market can be a starting point for the bank's valuation. However, Newbridge must take into consideration some other factors when valuing the SDB stake on sale. First, compared with stock markets in developed countries, the Chinese stock market was considered an immature emerging market, consisting largely of unsophisticated retail investors. The domestic stock market was highly speculative and volatile. Stock valuations in China on a growth-adjusted basis were in general significantly higher than those in the same sector in more mature markets, largely because the limited supplies of listed companies cannot meet the huge demand for stock investments from local retail investors who were eager to switch their bank savings to the stock market for higher returns. Second, the SDB stake from the four sellers consisted of non-tradable legal person shares, which did not have a liquid public market for share transfer. The government planned to permit the conversion of legal person shares into tradable shares but did not launch any timetable for the conversion plan yet. At exit, Newbridge would have to sell its legal person stake to a buyer through the private market, subject to government approval. In addition, Newbridge agreed with the Shenzhen government for a five-year lock-up period after the purchase of the stake. Finally, the  $18\%$  stake on sale can make Newbridge the single largest shareholder of SDB and provide Newbridge effective control of the bank. Newbridge can appoint 8 out of the 15 board seats and install new management team. A significant control premium in the valuation would be justified because it was almost impossible for any foreign investor to own over  $20\%$  stake in a Chinese bank.
 
@@ -142,7 +160,7 @@ In June 2002, Newbridge and SDB signed a binding framework agreement. The four s
 
 to the approval of all relevant government entities. If successful, Newbridge's investment in SDB would be the first foreign-control investment in China's banking sector and private equity market.
 
-# A Tough Call
+### A Tough Call
 
 After the deal was announced in September 2002, the transitional management committee was soon established and started working with the existing management team at SDB. Now, eight months later, SDB, in a surprise move, unilaterally renounced the management contract and dissolved the management committee. Speculation over the reason for the public falling-out soon ran rampant. It was suggested that since SDB's share price had gone up significantly after the Newbridge deal was announced, the current management team argued that SDB was highly undervalued by the "greedy" Newbridge investors and pointed out that there were other parties willing to pay more.[61] Moreover, some entrenched managers acting on personal considerations might have resisted the deal and sought other potential bidders who were more likely to keep the existing management team.[62] Indeed, Chinatrust Commercial Bank, one of the largest commercial banks in Taiwan, emerged as a potential bidder with a higher offer.[63] Lastly, top government officials who were key backers of the deal might have been replaced, adding to the uncertainty.[64]
 
@@ -224,7 +242,7 @@ Exhibit 13 Comparable Company Valuation
 Source: Compiled from China Stock Market & Accounting Research Database (CSMAR); Goldman Sachs Research, October 6, 2004, January 5, 2005; Morgan Stanley Research August 16, September 30, 2004; CICC Research, March 4, 2004.  
 ${}^{a}$  Based on average daily market value in April 2003.
 
-# Endnotes
+## Endnotes
 
 <sup>1</sup> "China's Patient Crusader," The Economist, May 14, 2005, http://www.economist.com/printed/ displayStory.cfm?story_id=3960876, accessed on August 11, 2009.  
 $^{2}$  Yue, Bingqing, "Newbridge Acquiring Shenzhen Development Bank" (in Chinese), Sohu Business at Sohu.com, September 25, 2003, http://business.sohu.com/55/96/article213639655.shtml, accessed on August 11, 2009.  

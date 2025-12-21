@@ -1,25 +1,25 @@
 ---
+title: Statistics 110 Intro to Probability Lecture Notes
+parent_directory: I. Foundations/Statistics
+formatted: 2025-12-21 08:02:25 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
-- (random walk
-- random variable
-- 9/21/115 lecture
-- ', observation'
-- probability lectures
+  - probability theory
+  - random variables
+  - statistical inference
+  - bayesian methods
+  - discrete distributions
 secondary_tags:
-- 10/3/1110 lecture
-- bayesian inference
-- 11/4/1121 lecture
-- all the probabilities
-- equal likelihood
-- simple random sample
-- 11/7/11 example
-- direct proof
-- following questions
-- any proof
-- wang university
-- any random variable
-tags_extracted: '2025-12-18T18:00:56.397296'
-tags_method: max_quality_v1
+  - binomial distribution
+  - conditional probability
+  - expectation theory
+  - markov chains
+  - sampling methods
+  - probability axioms
+  - independence concepts
+  - distribution functions
+cssclasses: academia
 ---
 
 # Statistics 110—Intro to Probability
@@ -63,7 +63,7 @@ Lecture 31: 11/18/1127
 Lecture 32: 11/21/11. 28  
 Lecture 33: 11/28/11. 29
 
-# Introduction
+## Introduction
 
 Statistics 110 is an introductory statistics course offered at Harvard University. It covers all the basics of probability—counting principles, probabilistic events, random variables, distributions, conditional probability, expectation, and Bayesian inference. The last few lectures of the course are spent on Markov chains.
 
@@ -71,13 +71,13 @@ These notes were partially live-TEXed—the rest were TEXed from course videos�
 
 Feel free to email me at mxawng@gmail.com with any comments.
 
-# Acknowledgments
+## Acknowledgments
 
 In addition to the course staff, acknowledgment goes to Zev Chonoles, whose online lecture notes (http://math.uchicago.edu/~chonoles/expository-notes/) inspired me to post my own. I have also borrowed his format for this introduction page.
 
 The page layout for these notes is based on the layout I used back when I took notes by hand. The  $\mathrm{LATEX}$  styles can be found here: https://github.com/mxw/latex-custom.
 
-# Copyright
+## Copyright
 
 Copyright © 2011 Max Wang.
 
@@ -90,7 +90,7 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 
 See http://creativecommons.org/licenses/by-nc-sa/4.0/ for the license details.
 
-# Lecture 2 — 9/2/11
+## Lecture 2 — 9/2/11
 
 Definition 2.1. A sample space  $S$  is the set of all possible outcomes of an experiment.
 
@@ -128,7 +128,7 @@ Theorem 2.6 (Sampling Table). The number of subsets of size  $k$  chosen from a 
 
 <table><tr><td></td><td>ordered</td><td>unordered</td></tr><tr><td>replacement</td><td>nk</td><td>(n+k-1/k)</td></tr><tr><td>no replacement</td><td>n!/(n-k)!</td><td>(n/k)</td></tr></table>
 
-# Lecture 3 — 9/7/11
+## Lecture 3 — 9/7/11
 
 Proposition 3.1. The number of ways to choose  $k$  elements from a set of order  $n$ , with replacement and where order doesn't matter, is
 
@@ -169,7 +169,7 @@ Definition 3.2. A probability space consists of a sample space  $S$  along with 
 1.  $P(\emptyset) = 0$ ,  $P(S) = 1$  
 2.  $P(\bigcup_{n = 1}^{\infty}A_n) = \sum_{n = 1}^{\infty}P(A_n)$  if the  $A_{n}$  are disjoint
 
-# Lecture 4 — 9/9/11
+## Lecture 4 — 9/9/11
 
 Example (Birthday Problem). The probability that at least two people among a group of  $k$  share the same birthday, assuming that birthdays are evenly distributed across the 365 standard days, is given by
 
@@ -298,7 +298,7 @@ $$
 P (A | B) = \frac{P (B | A) P (A)}{P (B)}
 $$
 
-# Lecture 6 — 9/14/11
+## Lecture 6 — 9/14/11
 
 Theorem 6.1 (Law of Total Probability). Let  $S$  be a sample space and  $A_{1},\ldots ,A_{n}$  a partition of  $S$ . Then
 
@@ -342,7 +342,7 @@ $$
 
 and hence we do not have conditional independence.
 
-# Lecture 7 — 9/16/11
+## Lecture 7 — 9/16/11
 
 Example (Monty Hall Problem). Suppose there are three doors, behind two of which are goats and behind one of which is a car. Monty Hall, the game show host, knows the contents of each door, but we, the player, do not, and have one chance to choose the car. After choosing a door, Monty then opens one of the two remaining doors to reveal a goat (if both remaining doors have goats, he chooses with equal probability). We are then given the option to change our choice—should we do so?
 
@@ -382,7 +382,7 @@ $$
 
 In this example,  $C$  is the confounder.
 
-# Lecture 8 — 9/19/11
+## Lecture 8 — 9/19/11
 
 Definition 8.1. A one-dimensional random walk models a (possibly infinite) sequence of successive steps along the number line, where, starting from some position  $i$ , we have a probability  $p$  of moving  $+1$  and a probability  $q = 1 - p$  of moving  $-1$ .
 

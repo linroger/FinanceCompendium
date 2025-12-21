@@ -153,11 +153,60 @@
   - System equations: Fixed `\alpha_ {1} + \alpha_ {2}` → `\alpha_{1} + \alpha_{2}`, `\sigma_ {P} ^ {2}` → `\sigma_{P}^{2}`
   - Risk-free return equations: Fixed `R _ {F}` → `R_{F}` throughout
 
+### Chunk 14 Processing Complete (lines 6501-7000) - ✓ Complete
+**Corrections Made:**
+- Fixed LaTeX spaced text commands in equations 5.77-5.81 and beyond:
+  - `A = \sigma_ {1} ^ {2}` → `A = \sigma_{1}^{2}`
+  - `\mathrm {B}` → `\mathrm{B}`
+  - `C = \sigma_ {1} ^ {2} \mu_ {2} ^ {2}` → `C = \sigma_{1}^{2} \mu_{2}^{2}`
+  - `\mu - R _ {F}` → `\mu - R_{F}` (removed extra spaces)
+  - `\alpha_ {1} = \frac {\lambda}{\Delta}` → `\alpha_{1} = \frac{\lambda}{\Delta}` (removed extra spaces)
+  - Fixed all spaced subscripts and superscripts throughout the chunk
+  - Corrected spacing in complex array equations and budget constraints
+
+### Key Phrases Extracted (with relevance scores):
+- "efficient frontier" (3) - primary candidate
+- "tangent portfolio" (3) - primary candidate
+- "risk free asset" (2) - secondary candidate
+- "portfolio optimization" (2) - secondary candidate
+- "lagrangian multiplier" (2) - secondary candidate
+
+### Issues Skipped (Ambiguous):
+- None found in this chunk - all formatting issues were clear LaTeX spacing problems
+
+### Chunk Status: ✓ Complete
+
+### Chunk 15 Processing Complete (lines 7001-7500) - ✓ Complete
+**Corrections Made:**
+- Fixed LaTeX spaced text commands in equations 5.98-5.113:
+  - `U = E [ \mu (x) ]` → `U = E[\mu(x)]` (removed extra spaces in expectations)
+  - `U \left(\sigma_ {P}, \mu_ {P}\right)` → `U(\sigma_{P}, \mu_{P})` (removed spaces in function arguments)
+  - `\left\{ \begin{array}{l} \mu (\sigma ; \bar {\mu})` → `\left\{ \begin{array}{l} \mu(\sigma; \bar{\mu})` (cleaned array formatting)
+  - `\max  _ {w _ {1}, \dots , w _ {N}}` → `\max_{w_{1}, \dots, w_{N}}` (fixed max operator formatting)
+  - `\mathrm {d} \Psi` → `\mathrm{d} \Psi` (fixed differential operator)
+  - `R _ {i} = F _ {i} + \beta_ {i} R _ {m}` → `R_{i} = F_{i} + \beta_{i} R_{m}` (fixed subscripts)
+  - `F _ {i} = f _ {i} + e _ {i}` → `F_{i} = f_{i} + e_{i}` (fixed subscripts)
+  - `E \left(e _ {i}\right) = 0` → `E(e_{i}) = 0` (removed extra spaces)
+  - `C o v \left(e _ {i}; R _ {m}\right)` → `Cov(e_{i}; R_{m})` (fixed covariance notation)
+  - `\mu_ {\mathrm {i}} = \mathrm {f} _ {\mathrm {i}} + \beta_ {\mathrm {i}} \mu_ {\mathrm {m}}` → `\mu_{i} = f_{i} + \beta_{i} \mu_{m}` (cleaned complex expressions)
+
+### Key Phrases Extracted (with relevance scores):
+- "optimal portfolio choice" (3) - primary candidate
+- "utility maximization" (3) - primary candidate
+- "indifference curves" (2) - secondary candidate
+- "single index model" (3) - primary candidate
+- "market beta coefficient" (2) - secondary candidate
+
+### Issues Skipped (Ambiguous):
+- None found in this chunk - all formatting issues were clear LaTeX spacing problems
+
+### Chunk Status: ✓ Complete
+
 ## Next Steps
-- Continue with Chunk 14 (lines 6501-7000)
+- Continue with Chunk 16 (lines 7501-8000)
 - Fix remaining LaTeX spaced text commands throughout the document
 - Remove duplicate section headers as they appear
-- Total estimated chunks remaining: ~16
+- Total estimated chunks remaining: ~14
 
 ## Document Frontmatter Status
 The document already has valid YAML frontmatter with comprehensive tags:

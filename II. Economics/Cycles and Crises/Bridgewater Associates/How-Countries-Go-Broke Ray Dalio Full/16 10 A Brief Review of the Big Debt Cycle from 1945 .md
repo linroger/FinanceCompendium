@@ -1,29 +1,22 @@
 ---
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 16_10_A_Brief_Review_of_the_Big_Debt_Cycle_from_1945_
+title: 16.10 A Brief Review of the Big Debt Cycle from 1945
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
 primary_tags:
-- us treasury
-- 10-year nominal bond yield
-- big cycle way
-- monetary policy phases
+- big debt cycle
+- post world war ii
+- debt burden analysis
+- monetary policy regimes
 secondary_tags:
-- current big debt cycle
-- previously explained debt/credit template
-- some brief deleveragings
-- own big debt cycles
-- unexpected developments
-- classic big debt cycles
-- last 100 years
-- debt market
-- year rate
-tags_extracted: '2025-12-18T18:03:29.840796'
-tags_method: max_quality_v1
+- treasury bond yields
+- central bank balance sheet
+- inflation expectations
+- government debt service
+- yield curve dynamics
+- credit spreads
+cssclasses: academia
 ---
 
-# 16_10_A_Brief_Review_of_the_Big_Debt_Cycle_from_1945_
+# 16.10 A Brief Review of the Big Debt Cycle from 1945
 ## A BRIEF REVIEW OF
 
 ### THE BIG DEBT CYCLE
@@ -159,5 +152,3 @@ GOVT DEBT LEVEL (\% GDP)
 In the rest of Part III, I am going to take you through the complete Big Debt Cycle for the US since 1945 because the US dollar was and still is the dominant reserve currency that most transactions were and still are denominated in and most savings are in, before diving into China's and Japan's Big Debt Cycles in Chapters 15 and 16. To me, the US over the last 80 years, Japan after its bubble bursting, and the other cases I have looked at are all classic Big Debt Cycles that are operating in the previously described ways that are important for investors and policymakers in all countries to understand. This is especially true now that some of them are encountering the late stages of Big Debt Cycles in their own countries and they will likely experience serious consequences from their own Big Debt Cycles, as well as the US's Big Debt Cycle and its implications for US dollar assets and liabilities.
 
 We will now look at what has happened through the phases of the long-term debt cycle. To make clear how events have transpired relative to the previously explained debt/credit template, I will divide the post-1945 period into four phases signifying the four main monetary regimes that have driven the debt/credit dynamic since 1945. We will begin in 1945 because that is when the new monetary, geopolitical, and, in many cases, domestic political orders began.
-
-### CHAPTER 11

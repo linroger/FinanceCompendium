@@ -1,23 +1,24 @@
 ---
-aliases: International Economics Theory and Policy
-tags: null
-key_concepts: null
-parent_directory: '[[International]]'
-cssclasses: academia
-title: 'International Economics: Theory and Policy'
-linter-yaml-title-alias: International Economics Theory and Policy
+title: International Economics Theory and Policy
+parent_directory: International
+formatted: 2025-12-21 08:00:25 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
-- advantage ricardian model
-- global economy export
+  - international trade theory
+  - exchange rate determination
+  - macroeconomic policy coordination
 secondary_tags:
-- policy international trade theory
-- international economics theory
-tags_extracted: '2025-12-18T00:48:30.782211'
+  - balance of payments
+  - international capital markets
+  - trade policy instruments
+  - political economy trade
+cssclasses: academia
 ---
 
 # International Economics: Theory and Policy
 
-# PART 1 International Trade Theory 36
+## PART 1 International Trade Theory 36
 
 2 World Trade: An Overview 36
 3 Labor Productivity and Comparative Advantage: The Ricardian Model 50
@@ -27,14 +28,14 @@ tags_extracted: '2025-12-18T00:48:30.782211'
 7 External Economies of Scale and the International Location of Production 177
 8 Firms in the Global Economy: Export and Foreign Sourcing Decisions and Multinational Enterprises 196
 
-# PART 2 International Trade Policy 242
+## PART 2 International Trade Policy 242
 
 9 The Instruments of Trade Policy 242
 10 The Political Economy of Trade Policy 276
 11 Trade Policy in Developing Countries 313
 12 Controversies in Trade Policy 327
 
-# PART 3 Exchange Rates and Open-Economy Macroeconomics 350
+## PART 3 Exchange Rates and Open-Economy Macroeconomics 350
 
 13 National Income Accounting and the Balance of Payments 350
 14 Exchange Rates and the Foreign Exchange Market: An Asset Approach 381
@@ -49,7 +50,7 @@ Index 804
 
 Preface 19
 
-# 1 Introduction 27
+## 1 Introduction 27
 
 What Is International Economics About? 29
 

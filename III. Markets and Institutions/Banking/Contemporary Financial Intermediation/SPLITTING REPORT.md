@@ -1,11 +1,18 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Contemporary Financial Intermediation - Document Splitting Report"
+parent_directory: "III. Markets and Institutions/Banking/Contemporary Financial Intermediation"
+formatted: 2025-12-21 08:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - document splitting
+  - financial intermediation
+  - textbook organization
+secondary_tags:
+  - content management
+  - file organization
+  - academic resources
 cssclasses: academia
-title: Contemporary Financial Intermediation - Document Splitting Report
-linter-yaml-title-alias: Contemporary Financial Intermediation - Document Splitting Report
 ---
 
 # Contemporary Financial Intermediation - Document Splitting Report

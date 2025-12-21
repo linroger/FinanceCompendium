@@ -102,19 +102,19 @@ Table 1 provides a cross-sectional snapshot of the population of agency resident
 
 The population consists of just over a million individual MBS pools, which together comprise $7.7 trillion of home mortgage debt. Almost all of this debt consists of fixed-rate mortgages (FRMs), mainly in the form of 30-year FRMs ($6.5 trillion of the total). For Fannie, Freddie, and Ginnie multi-issuer pools, around 95% of the pool balances are deliverable in the "to-be-announced" (TBA) market, which is the primary venue for agency MBS trading (see section 5).
 
-Strikingly,  $42\%$  of the outstanding balance reflects pools with an age of one year or less. $^{7}$  This is an unusually high percentage, due to a record refinancing wave and home price boom in 2020 that resulted in around \$4 trillion of mortgage originations (Fuster et al., 2021). Even so, nearly a quarter of the total unpaid balance comprises pools with an age exceeding 5 years. This diversity of vintages is also evident in the distribution of coupons (the rate of interest paid to investors). About  $45\%$  of the universe consists of MBS pools with a coupon of  $2.5\%$  or lower — these are the typical coupons into which new mortgages would be securitized, reflecting recent record-low mortgage rates. But there is still a substantial population of much higher coupons, with  $18\%$  of the total unpaid balance reflecting coupons of  $4\%$  or higher. Borrowers represented in these pools would almost surely benefit substantially from refinancing, but for one reason or another have failed to do so (see, e.g., Keys et al., 2016 for discussion.)
+Strikingly, $42\%$ of the outstanding balance reflects pools with an age of one year or less. $^{7}$ This is an unusually high percentage, due to a record refinancing wave and home price boom in 2020 that resulted in around $4 trillion of mortgage originations (Fuster et al., 2021). Even so, nearly a quarter of the total unpaid balance comprises pools with an age exceeding 5 years. This diversity of vintages is also evident in the distribution of coupons (the rate of interest paid to investors). About $45\%$ of the universe consists of MBS pools with a coupon of $2.5\%$ or lower — these are the typical coupons into which new mortgages would be securitized, reflecting recent record-low mortgage rates. But there is still a substantial population of much higher coupons, with $18\%$ of the total unpaid balance reflecting coupons of $4\%$ or higher. Borrowers represented in these pools would almost surely benefit substantially from refinancing, but for one reason or another have failed to do so (see, e.g., Keys et al., 2016 for discussion.)
 
-Pool size also varies widely. The bottom 10 percent of the universe consists of pools with an outstanding balance of  \$5 million or below, while the top 10 percent has a balance exceeding\$ 20 billion. This dispersion reflects differences in original issue amount as well as the fact that many older pools have partially or almost completely paid down.
+Pool size also varies widely. The bottom 10 percent of the universe consists of pools with an outstanding balance of $5 million or below, while the top 10 percent has a balance exceeding $20 billion. This dispersion reflects differences in original issue amount as well as the fact that many older pools have partially or almost completely paid down.
 
-Pool size is much larger for Ginnie Mae multi-issuer pools than for the other categories. Prepayment speed — a primary driver of security value — is also very heterogeneous across pools. The median three-month prepayment speed, measured by the conditional prepayment rate (CPR), is  $27.8\%$ , but the 5th and 95th percentiles are  $2.6\%$  and  $52.6\%$  respectively. Section 4.2 discusses the drivers of prepayments.
+Pool size is much larger for Ginnie Mae multi-issuer pools than for the other categories. Prepayment speed — a primary driver of security value — is also very heterogeneous across pools. The median three-month prepayment speed, measured by the conditional prepayment rate (CPR), is $27.8\%$, but the 5th and 95th percentiles are $2.6\%$ and $52.6\%$ respectively. Section 4.2 discusses the drivers of prepayments.
 
 To sum up, Table 1 shows that there is substantial heterogeneity and fragmentation within the agency MBS universe, which consists of more than a million unique individual pools. Even so, trading arrangements have evolved to facilitate a liquid, well-functioning secondary market, with trading concentrated in a small number of forward contracts, as we discuss in section 5.
 
-# 2.4 International MBS markets
+## 2.4 International MBS markets
 
 Outside the US, securitization is also used as a form of secondary market mortgage finance around the world, including China, continental Europe, Canada, the United Kingdom, and Australia.
 
-Some countries share features of the US mortgage finance system. For example, the Danish model is similar in many respects to agency securitization, as discussed by Berg et al. (2018). Mortgages in Denmark are originated by a small number of specialist mortgage banks, which then issue bonds with cash flows matching the borrowers' payments. The mortgage bank retains the loan on balance sheet, however, and bears the credit risk if the borrower defaults. In this sense, Danish mortgage banks play a role similar to Fannie Mae and Freddie Mac. Another example is the Canadian model, which features a significant role for government guarantees, with the public sector insuring all mortgages with a downpayment of less than  $20\%$ . There is an active market for securitizing these government-insured loans, with payments to investors guaranteed by the Canada Mortgage and Housing Corporation, a government agency also similar in some ways to Fannie Mae and Freddie Mac (Mordel and Stephens, 2015).
+Some countries share features of the US mortgage finance system. For example, the Danish model is similar in many respects to agency securitization, as discussed by Berg et al. (2018). Mortgages in Denmark are originated by a small number of specialist mortgage banks, which then issue bonds with cash flows matching the borrowers' payments. The mortgage bank retains the loan on balance sheet, however, and bears the credit risk if the borrower defaults. In this sense, Danish mortgage banks play a role similar to Fannie Mae and Freddie Mac. Another example is the Canadian model, which features a significant role for government guarantees, with the public sector insuring all mortgages with a downpayment of less than $20\%$. There is an active market for securitizing these government-insured loans, with payments to investors guaranteed by the Canada Mortgage and Housing Corporation, a government agency also similar in some ways to Fannie Mae and Freddie Mac (Mordel and Stephens, 2015).
 
 In most other countries, however, securitizations more closely resemble nonagency MBS, with credit risk being borne by capital market investors.<sup>8</sup> Standard and Poor's (2021) provides an overview of market conditions for credit-sensitive MBS around the
 
@@ -122,7 +122,7 @@ globe.
 
 Covered bonds are a distinct but related form of capital market mortgage financing, and are popular in many European countries.<sup>9</sup> Covered bonds are debt instruments that finance a "cover pool" of ring-fenced assets. The bond investor has exclusive recourse to the asset pool in case of default, with further recourse to the issuer's other assets if needed (see Berg et al. 2018). Unlike securitization, the cover pool is pledged as collateral for the bonds but remains on the issuer's balance sheet, and mortgage prepayment and default therefore do not typically affect the payments to investors. The US does not have an active covered bond market, in part because banks have access to funding collateralized by mortgages through the Federal Home Loan Bank system (Bernanke, 2009).
 
-# 3 Security design
+## 3 Security design
 
 Aside from the underlying mortgage type (residential or commercial) and the presence or absence of a government-backed credit guarantee, MBS also differ in terms of how cash flows from the mortgages are allocated to investors.
 
@@ -136,7 +136,7 @@ In the nonagency market, structured securities are used to allocate credit risk 
 
 In the CMBS market, the most junior tranches are typically retained by the "special servicer" (or "B-piece buyer") who is also responsible for negotiating work-outs for delinquent loans. B-piece buyers therefore have strong incentives to carefully assess the credit risk of the underlying loans before entering a deal, and are considered the gate-keepers in the CMBS market (Ashcraft et al., 2019). Wong (2018), however, finds evidence that the dual role of B-piece buyers as both investor and servicer leads to conflicts of interest with senior bondholders during workouts.
 
-# 3.1 Process of securitization
+## 3.1 Process of securitization
 
 How are MBS actually produced? We here provide a brief overview for residential agency MBS pools, following Fuster et al. (2013). See Bhattacharya et al. (2008) for a broader discussion that also covers nonagency securities.
 
@@ -148,11 +148,11 @@ There are then two ways for the securitization to take place. In a "lender swap"
 
 Fannie Mae and Freddie Mac also conduct "whole loan conduit" or "cash window" transactions in which they purchase loans directly from originators (typically smaller ones), pool these loans themselves, and sell the issued MBS in the secondary market. The trade-off for originators is that the pricing obtained at the cash window is typically worse, but the originator obtains liquidity immediately and does not face the risk of not being able to assembling enough loans for a pool.[12] There is no cash window for Ginnie Mae MBS, because these pools are issued by private financial institutions rather than Ginnie Mae itself.
 
-# 4 Risks to MBS investing, prepayment, and the OAS
+## 4 Risks to MBS investing, prepayment, and the OAS
 
 MBS yields significantly exceed yields on risk-free securities reflecting the risks associated with investing in MBS. We review these risks and then discuss prepayments, both their measurement and their modeling. Finally, we delve more deeply into the valuation of agency MBS through option-adjusted spreads (OAS).
 
-# 4.1 Risks to MBS investing
+## 4.1 Risks to MBS investing
 
 Risks to MBS investing can be grouped into four main categories: duration, prepayment, credit and liquidity.
 
@@ -176,13 +176,13 @@ after the financial crisis were indeed underwater on their mortgages, Low (2021)
 
 - liquidity for private-label MBS is quite limited, but for agency MBS the TBA forward market provides a high level of trading liquidity as well as funding liquidity through the execution of dollar rolls (see section 5).
 
-# 4.2 Measuring and modeling prepayments
+## 4.2 Measuring and modeling prepayments
 
 We now turn to a more detailed discussion of prepayment risk, the most salient of these four risks for agency MBS. For a given borrower, prepayment often involves paying down the entire loan balance. Such an event only marginally reduces the overall MBS pool balance though, because each pool is backed by many loans. Prepayment is measured by the single monthly mortality (SMM), which is the fraction of an MBS balance prepaid in a month relative to the remaining scheduled principal balance, and by the conditional prepayment rate (CPR) which is simply the SMM expressed at an annual rate.
 
 The blue line in the top panel of Figure 2 plots the time series of CPR for the aggregate universe of 30-year fixed-rate agency MBS. Aggregating balances hides pool-specific prepayment variation, which is significant as shown earlier in Table 1. But even the aggregate prepayment rate exhibits very wide variation, ranging from a CPR of about 55 percent during the 2003 refinancing wave to a low of about 10 percent in 2008. The dashed red line is the "moneyness" of the mortgage universe, which is the difference between the average interest rate on the universe of outstanding mortgages and the current market mortgage rate. When the moneyness of the universe increases, refinancing becomes more attractive and prepayments therefore rise. Even so, similar levels of moneyness in 2003 and 2008 led to very different prepayment outcomes. A much greater degree of heterogeneity also exists at the level of specific pools. Prepayment modeling attempts to explain this variation and to predict prepayments.
 
-# 4.2.1 Modelling prepayments
+## 4.2.1 Modelling prepayments
 
 The academic literature considers structural and rational models of mortgage prepayment (e.g., Stanton, 1995), but practitioners rely on reduced-form statistical prepayment models. $^{16}$  These models do not assume rational borrower behavior but use information
 
@@ -192,7 +192,7 @@ Explanatory variables in prepayment models can be logically grouped into those r
 
 The refinancing channel exhibits the greatest variation over time and across pools. The key variable used in modeling it is a pool's moneyness: when moneyness is positive, a borrower can lower their rate and monthly payment by refinancing—in other words, the borrower's prepayment option is "in-the-money" (ITM). Negative moneyness, instead, means that refinancing (or selling the home and buying another) would increase the rate paid—the borrower's option is "out-of-the-money."
 
-# 4.2.2 Prepayment vs moneyness: the "S-curve"
+## 4.2.2 Prepayment vs moneyness: the "S-curve"
 
 The bottom panel of Figure 2 plots average prepayment rates as a function of moneyness in a monthly panel of MBS indexed by coupon rate and year of origination. Reflecting the shape of the relationship, this is known as an "S-curve." While prepayments rise with moneyness, on average, they never come close to reaching 100 percent.[18] This reflects the fact that many borrowers fail to refinance when it is in their monetary interest to do so (Keys et al., 2016). In addition, the S-curve bends down as pools become deeply ITM, reflecting the so-called "burnout effect" — over time, an ITM mortgage pool becomes less responsive to interest rates because the borrowers most sensitive to the refinancing incentive have already exited.
 
@@ -202,7 +202,7 @@ For instance, when interest rates hit multi-year lows, refinancing for given lev
 
 Heterogeneity in refinancing across pools also reflects differences in creditworthiness as measured by credit scores and LTVs, and loan size due to the fixed costs involved in refinancing. State-level policies also matter (e.g., New York's mortgage recording tax).
 
-# 4.3 The OAS and risks to investing in agency MBS
+## 4.3 The OAS and risks to investing in agency MBS
 
 We use the option-adjusted spread (OAS) to delve further into the risks associated with agency MBS. The OAS is the most popular metric to assess agency MBS valuations and risk premia. As shown by Boyarchenko et al. (2019), the OAS is equal to the average expected excess returns over the lifetime of the security.[19] Formally, the OAS is the constant spread to baseline rates that sets the expected discounted value of cash flows equal to the security's market price after accounting for prepayments:
 
@@ -232,7 +232,7 @@ Large positive average OAS over time and across securities suggest that MBS inve
 
 In the time series, Boyarchenko et al. (2019) further show that risk factors unrelated to prepayment, such as liquidity or changes in the perceived strength of the implicit federal government guarantee on the agencies, are important drivers of the average OAS. For example, the non-prepayment component in the OAS co-moves with spreads on other agency debt and corporate securities, reflecting shared risk factors.
 
-# 4.4 Supply Effects and Fed Quantitative Easing
+## 4.4 Supply Effects and Fed Quantitative Easing
 
 The supply of MBS — which is affected by the net volume of new issuance as well as Fed MBS purchases that reduce the net supply available to private investors — is also positively related to the non-prepayment component of OAS. As an indication of these effects, the OAS turned negative during QE3 and QE4 when the Fed purchased large quantities of agency MBS (see grey bars in Figure 3, left panel). Consistent with this fact, event studies using high-frequency data find that announcements of new Fed MBS purchases are
 
@@ -240,7 +240,7 @@ associated with significant declines in MBS yields and OAS (Gagnon et al., 2011;
 
 Other research investigates the broader financial and macroeconomic effects of the Federal Reserve's MBS purchases. For example, Di Maggio et al. (2020) find that Fed QE significantly boosted refinancing activity and as a result, led to higher aggregate consumption. Beraja et al. (2019) show that the effectiveness of QE and monetary policy more generally depends on the distribution of home equity, because insufficient equity reduces the ability of borrowers to refinance.
 
-# 5 Trading
+## 5 Trading
 
 Most agency RMBS trading occurs through the to-be-announced or "TBA" forward market. The key feature of a TBA trade is that the seller does not specify exactly which pools will be delivered at settlement. Instead, the buyer and seller agree on six trade parameters: the agency, coupon, maturity, price, face value, and settlement month, and any combination of pools satisfying the parameters and SIFMA good delivery guidelines can be delivered at settlement.[24]
 
@@ -258,15 +258,15 @@ Specified pool trading also includes agency MBS pools that for various reasons a
 
 RMBS, also trade on an individual basis.
 
-# 5.1 Evidence on trading activity and liquidity
+## 5.1 Evidence on trading activity and liquidity
 
-Table 2 presents trading volume statistics based on TRACE data aggregated by SIFMA. Agency residential MBS trading activity dwarfs the other segments of the market, with  \$288bn of daily trading volume, compared to\$ 2.7bn for CMBS and only \$0.5bn for nonagency RMBS. This reflects  \$261bn of TBA trading (about 90% of the agency RMBS total), followed by a smaller but still very significant\$ 25.4bn of specified pool trades and \$1.4bn of agency CMOs.
+Table 2 presents trading volume statistics based on TRACE data aggregated by SIFMA. Agency residential MBS trading activity dwarfs the other segments of the market, with $288bn of daily trading volume, compared to $2.7bn for CMBS and only $0.5bn for nonagency RMBS. This reflects $261bn of TBA trading (about 90% of the agency RMBS total), followed by a smaller but still very significant $25.4bn of specified pool trades and $1.4bn of agency CMOs.
 
 Estimated trading costs are also significantly lower in the TBA market. Bessembinder et al. (2013) estimate one-way trading costs of only 1 basis point (bp) for TBAs, compared to 40bp for specified pools, and 39bp for nonagency MBS. Gao et al. (2017) find that TBA liquidity has positive spillover effects on the specified pool market — trading costs are lower for specified pools that are TBA eligible and for spec pool trades close to TBA settlement dates. Huh and Kim (2020) trace out the broader effects of TBA liquidity using a TBA-eligibility cutoff at the national conforming loan limit. TBA eligibility is estimated to reduce mortgage rates by 7-28bp, and to spur refinancing activity.
 
 Table 2 also compares MBS trading volume to activity in other US fixed income markets. TBA activity is lower than in the Treasury market, but trading volume is more than six times higher than in the corporate bond market, despite the larger stock of corporate bonds outstanding. Trading activity is even lower for municipal bonds, agency debt and asset backed securities, and Bessembinder et al. (2020) further show that TBA trading costs are much lower than for these other markets.[28]
 
-# 6 Economic effects of MBS and mortgage securitization
+## 6 Economic effects of MBS and mortgage securitization
 
 What are the broader economic effects of MBS markets and mortgage securitization? A sizeable academic literature has studied different aspects of this question and also high-
 
@@ -282,7 +282,7 @@ Securitization may also affect mortgage contract design. Fuster and Vickery (201
 
 In turn, the popularity of prepayable FRMs has broader consequences for financial markets and the transmission of monetary policy. In particular, several studies argue that "convexity hedging" flows lead to important interactions between the MBS market and the Treasury yield curve (Hanson, 2014; Malkhozov et al., 2016; Hanson et al., 2021). Furthermore, the fact that US borrowers need to refinance to benefit from a drop in market interest rates means there is much less direct transmission of monetary policy to household balance sheets than in a system with adjustable-rate mortgages (e.g. Campbell, 2013; Di Maggio et al., 2017). Transmission is further blunted by the limited ability of mortgage originators to increase origination capacity during periods of peak demand; instead, originators tend to earn high markups during such periods (Fuster et al., 2013, 2017, 2021).
 
-# 7 Directions for future research
+## 7 Directions for future research
 
 The MBS market was a relatively neglected research topic prior to the 2008 financial crisis, but the literature has grown rapidly in the years since. Rich loanand security-level datasets are now available to researchers, and the introduction of TRACE data for structured products in 2011 provides new opportunities to study MBS microstructure and liquidity. We end this paper by highlighting some topics that we believe present opportunities for future research.
 

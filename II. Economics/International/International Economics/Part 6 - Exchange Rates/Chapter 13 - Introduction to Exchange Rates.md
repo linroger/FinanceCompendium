@@ -1,29 +1,24 @@
 ---
-aliases:
-- Introduction to Exchange Rates and the Foreign Exchange Market
-tags: null
-key_concepts: null
-parent_directory: Part 6 - Exchange Rates
-cssclasses: academia
 title: Chapter 13 - Introduction to Exchange Rates and the Foreign Exchange Market
-linter-yaml-title-alias: Chapter 13 - Introduction to Exchange Rates and the Foreign
-  Exchange Market
+parent_directory: Part 6 - Exchange Rates
+formatted: 2025-12-21 08:05:25 PM
+formatter_model: claude-3-5-sonnet-20241022
+cli_tool: claude-code
 primary_tags:
-- trading dollars euros
-- international trade influencing prices
-- depreciating falling value
-- oscar wilde importance
+  - exchange rate definitions
+  - foreign exchange market
+  - currency appreciation depreciation
+  - bilateral exchange rates
 secondary_tags:
-- introduction exchange rates foreign
-- foreign exchange market chapter
-- criticize activities foreign exchange
-- roiling world currency market
-- dollar terms make george
-- rates arbitrage ensures trade
-- york considering trading dollars
-- rate 2003 euro purchased
-- dollars traded day economic
-tags_extracted: '2025-12-18T00:40:05.562131'
+  - spot exchange rates
+  - arbitrage mechanisms
+  - interest rate parity
+  - foreign exchange interventions
+  - multilateral exchange rates
+  - effective exchange rates
+  - exchange rate regimes
+  - fixed floating rates
+cssclasses: academia
 ---
 
 # Introduction to Exchange Rates and the Foreign Exchange Market
@@ -36,24 +31,11 @@ The people who benefit from roiling the world currency market are speculators an
 
 Paul O'Neill, U.S. Secretary of the Treasury, 2002
 
-# E
-
-very few years, George, an American, takes a vacation in Paris. To make
-
-purchases in Paris, he buys foreign currency, or foreign exchange. He can purchase euros, the currency used in France, by trading his U.S. dollars for euros in the market for foreign exchange at the prevailing market exchange rate. In 2003, 1 euro could be purchased for  \$ 1.10, so the \$ 100 he spent on a night at the hotel cost him \$ 110 in U.S. currency. In 2007, 1 euro cost \$ 1.32, so each night at the same hotel (where the room price hadn't changed) made a \$ 132 dent in his vacation budget. In 2012, the cost of 1 euro had fallen back a little to \$ 1.25: not as high as in 2007, but still expensive enough in dollar terms to make George think about vacationing in northern California, where he might find equally good hotels, restaurants, fine food, and wine at prices that were more affordable.
+Every few years, George, an American, takes a vacation in Paris. To make purchases in Paris, he buys foreign currency, or foreign exchange. He can purchase euros, the currency used in France, by trading his U.S. dollars for euros in the market for foreign exchange at the prevailing market exchange rate. In 2003, 1 euro could be purchased for  \$ 1.10, so the \$ 100 he spent on a night at the hotel cost him \$ 110 in U.S. currency. In 2007, 1 euro cost \$ 1.32, so each night at the same hotel (where the room price hadn't changed) made a \$ 132 dent in his vacation budget. In 2012, the cost of 1 euro had fallen back a little to \$ 1.25: not as high as in 2007, but still expensive enough in dollar terms to make George think about vacationing in northern California, where he might find equally good hotels, restaurants, fine food, and wine at prices that were more affordable.
 
 Tourists like George are not the only people affected by exchange rates. Exchange rates affect large flows of international trade by influencing the prices in different currencies of the imported goods and services we buy and the exported goods and services we sell. Foreign exchange also facilitates massive flows of international investment, which include the direct investments made by multinationals in overseas firms as well as the stock and bond trades made by individual investors and fund managers seeking to diversify their portfolios.
 
-Individual foreign exchange transactions are far removed from deep macroeconomic and political consequences. In the aggregate, however, activity in the foreign
-
-1 Exchange Rate Essentials
-2 Exchange Rates in Practice
-3 The Market for Foreign Exchange
-4 Arbitrage and Spot Exchange Rates
-5 Arbitrage and Interest Rates
-6 Conclusions
-
-exchange market can be responsible for "sensational" events (and we are not being ironic as was Oscar Wilde in the chapter opening quote) and can arouse strong passions (Paul O'Neill is only one of many to criticize the activities of foreign exchange traders). In the foreign exchange market, trillions of dollars are traded each day and the economic implications of shifts in the market can be dramatic. In times of crisis, the fates of nations and their leaders seem to hang, in part, on the state of the currency market. Why is that so?
+Individual foreign exchange transactions are far removed from deep macroeconomic and political consequences. In the aggregate, however, activity in the foreign exchange market can be responsible for "sensational" events (and we are not being ironic as was Oscar Wilde in the chapter opening quote) and can arouse strong passions (Paul O'Neill is only one of many to criticize the activities of foreign exchange traders). In the foreign exchange market, trillions of dollars are traded each day and the economic implications of shifts in the market can be dramatic. In times of crisis, the fates of nations and their leaders seem to hang, in part, on the state of the currency market. Why is that so?
 
 In this chapter, we begin to study the nature and impact of activity in the foreign exchange market. We first survey exchange rate basics: the key definitions of exchange rates and related concepts. We then examine the evidence to see how exchange rates behave in the real world and establish some basic facts about exchange rate behavior that require explanation. We next look at the workings of the foreign exchange market, including the role of private participants, as well as interventions by governments. Finally, we look in detail at how foreign exchange markets work, and we emphasize two key market mechanisms: arbitrage and expectations.
 
@@ -72,9 +54,7 @@ It is common practice to quote the prices of items traded, whether goods or asse
 
 The usual way to quote the price of foreign currency is no different: units of home currency per unit of foreign currency. Confusion may arise because the price then depends on the perspective of the observer. Consider the dollar–euro exchange rate. For the U.S. citizen, who is accustomed to prices expressed as $ /unit, the price of a foreign currency (say, the euro) is in terms of $ /€. For someone in the Eurozone, however, the convention is to quote prices as €/unit, so €/ $ would be the natural choice.
 
-To avoid confusion, we must specify which country is the home country and which is foreign. Throughout the remaining chapters of this book, when we refer to a par-
-
-ticular country's exchange rate, we will quote it in terms of units of home currency per unit of foreign currency. For example, Denmark's exchange rate with the Eurozone is quoted as Danish krone per euro (or kr/€).
+To avoid confusion, we must specify which country is the home country and which is foreign. Throughout the remaining chapters of this book, when we refer to a particular country's exchange rate, we will quote it in terms of units of home currency per unit of foreign currency. For example, Denmark's exchange rate with the Eurozone is quoted as Danish krone per euro (or kr/€).
 
 From now on, \( E_{1/2} \) will denote the exchange rate in units of country 1 currency per unit of country 2 currency; it is the rate at which country 1's currency can be exchanged for one unit of country 2's currency. For example, \( E_{\$ /\epsilon} \) is the U.S. exchange rate (against the euro) in U.S. dollars per euro. In our previous example, \( E_{\$ /\epsilon} \) was \( 1.15 \, \text{\\(}/\epsilon \).
 
@@ -92,28 +72,27 @@ ONE YEAR PREVIOUSLY</td></tr><tr><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td
 The four bold entries in this table correspond to the dollar–euro exchange rate. On December 31, 2012, for example, the euro was quoted at  \$ 1.318 per euro. According to our definition, this is the price from the U.S. perspective and it is sometimes called the American terms. Conversely, the dollar is quoted at \$ 0.759 per dollar, the European terms.
 
 We write these exchange rates using mathematical symbols as follows, with care given to the explicit expression of the relevant units:
-$ $
 
-E_{\mathrm{S} / \epsilon} = 1. 3 1 8 = \mathrm{U .S .}
+$$
+E_{\mathrm{S}/\epsilon} = 1.318 = \mathrm{U.S.}
+$$
 
-$ $
+$$
+E_{\epsilon/\mathbb{S}} = 0.759 = \text{Eurozone}
+$$
 
-$ $
+Just as there is complete equivalence when we express the relative price of coffee and dollars at $10 \, \text{\$/lb}$ or $0.1 \, \text{lb/}\$$, the price of the euro in terms of dollars always equals the reciprocal (or inverse) of the price of dollars in terms of euros. Hence,
 
-E_{\epsilon / \mathbb {S}} = 0. 7 5 9 = \text{Eu ro zo ne}
+$$
+E_{\$/ \epsilon} = \frac{1}{E_{\epsilon / \$}}
+$$
 
-$ $
-Just as there is complete equivalence when we express the relative price of coffee and dollars at  $ 10 \, \text{$ /lb} $ or $ 0.1 \, \text{lb}/ $, the price of the euro in terms of dollars always equals the reciprocal (or inverse) of the price of dollars in terms of euros. Hence, $ $
-
-E_{\S / \epsilon} = \frac{1}{E_{\epsilon / \S}}
-
-$ $
 In our example,
-$ \$
 
-1. 3 1 8 = \frac{1}{0 . 7 5 9}
+$$
+1.318 = \frac{1}{0.759}
+$$
 
-$ $
 Similar calculations and notations apply to any pair of currencies.
 
 # Appreciations and Depreciations
@@ -154,15 +133,15 @@ In the previous example, we would describe these changes as follows:
 
 In 2011, at time t, the dollar value of the euro was E $ /€,t = $ 1.298.
  In 2012, at time t+1, the dollar value of the euro was E $ /€, t+1 = $ 1.318.
-The change in the dollar value of the euro was  $ \Delta E_{\mathbb{S} / \mathbb{E},t} = 1.318 - 1.298 = +\ $ 0.020 \$ The percentage change was $ \Delta E_{\mathbb{S} / \epsilon ,t} / E_{\mathbb{S} / \epsilon ,t} = +0.020 / 1.298 = +1.54\% $ Thus, the euro appreciated against the dollar by $ 1.54\% $ .
+The change in the dollar value of the euro was $\Delta E_{\mathbb{S}/\mathbb{E},t} = 1.318 - 1.298 = +\$0.020$. The percentage change was $\Delta E_{\mathbb{S}/\epsilon,t} / E_{\mathbb{S}/\epsilon,t} = +0.020 / 1.298 = +1.54\%$. Thus, the euro appreciated against the dollar by $1.54\%$.
 
 Similarly, over the same year:
 
-In 2011, at time t, the euro value of the dollar was €1.770.
-In 2012, at time  $ t + 1 $, the euro value of the dollar was $ E_{\epsilon / \mathbb{S}, t + 1} = \epsilon 0.759 $ .
-The change in the euro value of the dollar was \(\Delta E_{\in /\\) ,t} = 0.759 - 0.770 = -\epsilon 0.011\)
-The percentage change was  $ \Delta E_{\epsilon / \mathbb{S}, t} / E_{\epsilon / \mathbb{S}, t} = -0.011 / 0.770 = -1.43\% $ .
-Thus, the dollar depreciated against the euro by  $ 1.43\% $ .
+In 2011, at time $t$, the euro value of the dollar was €1.770.
+In 2012, at time $t + 1$, the euro value of the dollar was $E_{\epsilon/\mathbb{S}, t + 1} = €0.759$.
+The change in the euro value of the dollar was $\Delta E_{\epsilon/\mathbb{S},t} = 0.759 - 0.770 = -€0.011$.
+The percentage change was $\Delta E_{\epsilon/\mathbb{S},t} / E_{\epsilon/\mathbb{S},t} = -0.011 / 0.770 = -1.43\%$.
+Thus, the dollar depreciated against the euro by $1.43\%$.
 
 Note that the size of one country's appreciation (here  $ 1.54\% $) does not exactly equal the size of the other country's depreciation (here $ 1.43\% $ ). For small changes, however, the opposing movements are approximately equal. For example, if the
 
@@ -184,17 +163,17 @@ $ $
 Trade-weighted average of bilateral nominal exchange rate changes
 
 Many discussions among policy makers and within the financial press focus on the effective exchange rate. An especially contentious topic in the last decade has been the path of the United States' effective exchange rate, shown in Figure 13-1. Since 2002,
-$ $
-
+$$
 D = \left(\frac{1}{a} - \frac{1}{b}\right) / \left(\frac{1}{a}\right) = \left(1 - \frac{a}{b}\right) = \left(\frac{b - a}{b}\right).
+$$
 
-$ $
-Symmetrically, the foreign currency was initially worth  $ a $ units of home currency but is now worth $ b $. Thus, the size of the appreciation $ A $ of the foreign currency is $ $
+Symmetrically, the foreign currency was initially worth $a$ units of home currency but is now worth $b$. Thus, the size of the appreciation $A$ of the foreign currency is
 
+$$
 A = \frac{(b - a)}{a} = \frac{b}{a} D
+$$
 
-$ $
-Thus, the percentage appreciation  $ A $ will be approximately equal to the percentage depreciation $ D $ when $ b / a $ is close to 1, which is when $ b $ is approximately equal to $ a $ , that is, when the change in the exchange rate is small.
+Thus, the percentage appreciation $A$ will be approximately equal to the percentage depreciation $D$ when $b / a$ is close to 1, which is when $b$ is approximately equal to $a$, that is, when the change in the exchange rate is small.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/47e893bc9086d123ef69e25596c129ab822015f849ab99ba12a72b1517977be0.jpg)
 Foreign currency baskets per U.S. dollar (Jan 2002 = 100)
@@ -206,7 +185,7 @@ Effective Exchange Rates: Change in the Value of the U.S. Dollar, 2002-2012 The 
 
 Source: U.S. Federal Reserve.
 
-the U.S. dollar has steadily fallen in value against a basket of other currencies. It lost quite a lot of value against many well-known major currencies, such as the euro, the pound sterling, the Canadian dollar, and the Swiss franc. But on average, the weakening of the dollar was not as pronounced when measured against all U.S. trading partners. The simple reason for this was the fact that Japan and China, along with several other developing countries in Asia, sought to peg or control their exchange rates to limit their appreciation against the dollar. Thus, in the figure the downward trend for the broad basket of currencies is not as steep as that for the basket of seven major currencies.
+The U.S. dollar has steadily fallen in value against a basket of other currencies. It lost quite a lot of value against many well-known major currencies, such as the euro, the pound sterling, the Canadian dollar, and the Swiss franc. But on average, the weakening of the dollar was not as pronounced when measured against all U.S. trading partners. The simple reason for this was the fact that Japan and China, along with several other developing countries in Asia, sought to peg or control their exchange rates to limit their appreciation against the dollar. Thus, in the figure the downward trend for the broad basket of currencies is not as steep as that for the basket of seven major currencies.
 
 # Example: Using Exchange Rates to Compare Prices in a Common Currency
 
@@ -224,13 +203,11 @@ Scenario 1 In the first column, the Hong Kong suit costs HK \$ 30,000 and the ex
 
 Scenario 2 Moving to the next column, the Hong Kong dollar has depreciated against the pound compared with scenario 1: it takes more HK $ (16 instead of 15) to buy £1. In contrast, the U.S. dollar has appreciated against the pound: it takes fewer dollars (1.9 instead of 2.0) to buy £1. At the new exchange rates, the cost of the New York tux has gone up to £2,105 (4,000/1.9), and the Hong Kong tux has fallen to £1,875 (30,000/16). Hong Kong now has the lowest price.
 
-Scenario 3 Compared with scenario 1, the Hong Kong dollar has appreciated: it takes fewer \(HK to buy \)1 (14 instead of 15), and the price of the Hong Kong tax has risen to \(2,143\) (30,000/14). The U.S. dollar, on the other hand, has depreciated: it takes more dollars (2.1 instead of 2) to buy \)1. With the dollar's depreciation, New York now has the best price of \(1,905\) (4,000/2.1).
+Scenario 3 Compared with scenario 1, the Hong Kong dollar has appreciated: it takes fewer HK\$ to buy £1 (14 instead of 15), and the price of the Hong Kong tux has risen to £2,143 (30,000/14). The U.S. dollar, on the other hand, has depreciated: it takes more dollars (2.1 instead of 2) to buy £1. With the dollar's depreciation, New York now has the best price of £1,905 (4,000/2.1).
 
 Scenario 4 In this case, compared with scenario 1, the pound has depreciated against both of the other currencies, and they have each appreciated against the pound. It takes fewer Hong Kong dollars (14 instead of 15) and fewer U.S. dollars (1.9 instead of 2.0) to buy £1. Now London has the bargain price of £2,000 and the other cities have higher prices.
 
-This example illustrates a key point. We assumed that while exchange rates may change, the prices of goods in each country are fixed in the short run (in domestic-
-
-currency terms). An economist would say the prices are sticky in the short run, and, as we see later, this is not an unreasonable assumption. Given that assumption, changes in exchange rates will cause changes in the common-currency prices of goods from different countries.
+This example illustrates a key point. We assumed that while exchange rates may change, the prices of goods in each country are fixed in the short run (in domestic-currency terms). An economist would say the prices are sticky in the short run, and, as we see later, this is not an unreasonable assumption. Given that assumption, changes in exchange rates will cause changes in the common-currency prices of goods from different countries.
 
 Generalizing The same logic applies to any exchange rate. All else equal, when the prices of goods are constant in each country, the following conclusions will apply:
 
@@ -252,7 +229,7 @@ Economists group different patterns of exchange rate behavior into categories kn
 
 For example, earlier in the book we saw data for two of the most talked about exchange rates in the world today: the U.S. dollar-euro and the Chinese yuan-U.S. dollar rates. The dollar-euro rate fluctuated considerably and was said to be floating; the yuan-dollar rate held steady or changed very slowly and was said to be fixed.
 
-However, the "fixed versus floating" classification is not without its problems. First, to determine whether a regime is fixed or floating, we have to decide where we draw the line between "narrow" and "wide" fluctuations. One rule of thumb is to use the size of annual variations (say, within  $ \pm 2\% $ or $ \pm 1\% $ ) as the sign of a fixed regime. Second, "fixed versus floating" is only a very broad description of exchange rate regimes. In reality, the distinctions are not so cut and dried. Fixed and floating provide important benchmarks throughout this book and deliver great insights, but we sometimes need more precise ways of describing intermediate regimes, as the following application illustrates.
+However, the "fixed versus floating" classification is not without its problems. First, to determine whether a regime is fixed or floating, we have to decide where we draw the line between "narrow" and "wide" fluctuations. One rule of thumb is to use the size of annual variations (say, within $\pm 2\%$ or $\pm 1\%$) as the sign of a fixed regime. Second, "fixed versus floating" is only a very broad description of exchange rate regimes. In reality, the distinctions are not so cut and dried. Fixed and floating provide important benchmarks throughout this book and deliver great insights, but we sometimes need more precise ways of describing intermediate regimes, as the following application illustrates.
 
 # Application
 
@@ -328,7 +305,7 @@ Exchange Rate Regimes of the World To move beyond specific examples, Figure 13-4
 
 The classification covers 179 economies for the year 2010, and regimes are ordered from the most rigidly fixed to the most freely floating. The first 51 countries are those
 
-$ ^{5} $ Carmen M. Reinhart and Kenneth S. Rogoff, 2004, "The Modern History of Exchange Rate Arrangements: A Reinterpretation," Quarterly Journal of Economics, 119(1), 1-48. $ ^{6} $  Up until 2008 the IMF provided an unofficial classification based on observed exchange rate behavior. Most economists prefer this type of classification to the often misleading official classifications that were based on countries' official policy announcements. For example, as we saw in Figure 13-3, Thailand pegged to the dollar before the 1997 crisis, even though official statements denied this and the Thai authorities claimed the baht was floating. On unofficial or de facto classifications, see Carmen M. Reinhart and Kenneth S. Rogoff, 2004, "The Modern History of Exchange Rate Arrangements: A Reinterpretation," Quarterly Journal of Economics, 119(1), 1-48. Jay C. Shambaugh, 2004, "The Effect of Fixed Exchange Rates on Monetary Policy," Quarterly Journal of Economics, 119(1), 301-352. Eduardo Levy Yeyati and Federico Sturzenegger, 2005, "Classifying Exchange Rate Regimes: Deeds vs. Words," European Economic Review, 49(6), 1603-1635.
+$^{5}$ Carmen M. Reinhart and Kenneth S. Rogoff, 2004, "The Modern History of Exchange Rate Arrangements: A Reinterpretation," Quarterly Journal of Economics, 119(1), 1-48. $^{6}$ Up until 2008 the IMF provided an unofficial classification based on observed exchange rate behavior. Most economists prefer this type of classification to the often misleading official classifications that were based on countries' official policy announcements. For example, as we saw in Figure 13-3, Thailand pegged to the dollar before the 1997 crisis, even though official statements denied this and the Thai authorities claimed the baht was floating. On unofficial or de facto classifications, see Carmen M. Reinhart and Kenneth S. Rogoff, 2004, "The Modern History of Exchange Rate Arrangements: A Reinterpretation," Quarterly Journal of Economics, 119(1), 1-48. Jay C. Shambaugh, 2004, "The Effect of Fixed Exchange Rates on Monetary Policy," Quarterly Journal of Economics, 119(1), 301-352. Eduardo Levy Yeyati and Federico Sturzenegger, 2005, "Classifying Exchange Rate Regimes: Deeds vs. Words," European Economic Review, 49(6), 1603-1635.
 
 # Figure 13-4
 
@@ -351,15 +328,15 @@ The forex market is not an organized exchange: each trade is conducted "over the
 
 # The Spot Contract
 
-The simplest forex transaction is a contract for the immediate exchange of one currency for another between two parties. This is known as a spot contract because it happens "on the spot." Accordingly, the exchange rate for this transaction is often called the spot exchange rate. In this book, the use of the term "exchange rate" always refers to the spot rate. Spot trades are now essentially riskless: technology permits settlement for most trades in real time, so that the risk of one party failing to deliver on its side of the transaction (default risk or settlement risk) is essentially zero. $ ^{8} $
+The simplest forex transaction is a contract for the immediate exchange of one currency for another between two parties. This is known as a spot contract because it happens "on the spot." Accordingly, the exchange rate for this transaction is often called the spot exchange rate. In this book, the use of the term "exchange rate" always refers to the spot rate. Spot trades are now essentially riskless: technology permits settlement for most trades in real time, so that the risk of one party failing to deliver on its side of the transaction (default risk or settlement risk) is essentially zero. $^{8}$
 
 Most of our personal transactions in the forex market are small spot transactions via retail channels, but this represents just a tiny fraction of the activity in the forex market each day. The vast majority of trading involves commercial banks in major financial centers around the world. But even there the spot contract is the
 
-most common type of trade and appears in almost  $ 90\% $  of all forex transactions, either on its own as a single contract or in trades where it is combined with other forex contracts.
+most common type of trade and appears in almost $90\%$ of all forex transactions, either on its own as a single contract or in trades where it is combined with other forex contracts.
 
 # Transaction Costs
 
-When individuals buy a little foreign currency through a retail channel (such as a bank), they pay a higher price than the midrange quote typically seen in the press; and when they sell, they are paid a lower price. The difference or spread between the "buy at" and "sell for" prices may be large, perhaps  $ 2\% $ to $ 5\% $. These fees and commissions go to the many middlemen that stand between the person on the street and the forex market. But when a big firm or a bank needs to exchange millions of dollars, the spreads and commissions are very small. Spreads are usually less than $ 0.1\% $, and for actively traded major currencies, they are approximately $ 0.01\% $ to $ 0.03\% $ .
+When individuals buy a little foreign currency through a retail channel (such as a bank), they pay a higher price than the midrange quote typically seen in the press; and when they sell, they are paid a lower price. The difference or spread between the "buy at" and "sell for" prices may be large, perhaps $2\%$ to $5\%$. These fees and commissions go to the many middlemen that stand between the person on the street and the forex market. But when a big firm or a bank needs to exchange millions of dollars, the spreads and commissions are very small. Spreads are usually less than $0.1\%$, and for actively traded major currencies, they are approximately $0.01\%$ to $0.03\%$.
 
 Spreads are an important example of market frictions or transaction costs. These frictions create a wedge between the price paid by the buyer and the price received by the seller. Although spreads are potentially important for any microeconomic analysis of the forex market, macroeconomic analysis usually proceeds on the assumption that, in today's world of low-cost trading, the transaction-cost spreads in markets are so low for the key investors
 
@@ -407,7 +384,7 @@ The key actors in the forex market are the traders. Most forex traders work for 
 
 For example, suppose Apple Computer Inc. has sold €1 million worth of computers to a German distributor and wishes to receive payment for them in U.S. dollars (with the spot rate at \$ 1.30 per euro). The German distributor informs its commercial bank, Deutsche Bank, which then debits €1 million from the distributor's bank account. Deutsche Bank then sells the €1 million bank deposit in the forex market in exchange for a \$ 1.3 million deposit and credits that \$ 1.3 million to Apple's bank in the United States, which, in turn, deposits \$ 1.3 million into Apple's account.
 
-This is an example of interbank trading. This business is highly concentrated: about  $ 75\% $  of all forex market transactions globally are handled by just 10 banks, led by names such as Deutsche Bank, UBS, Citigroup, HSBC, and Barclays. The vast majority of forex transactions are profit-driven interbank trades, and it is the exchange rates for these trades that underlie quoted market exchange rates. Consequently, we focus on profit-driven trading as the key force in the forex market that affects the determination of the spot exchange rate.
+This is an example of interbank trading. This business is highly concentrated: about $75\%$ of all forex market transactions globally are handled by just 10 banks, led by names such as Deutsche Bank, UBS, Citigroup, HSBC, and Barclays. The vast majority of forex transactions are profit-driven interbank trades, and it is the exchange rates for these trades that underlie quoted market exchange rates. Consequently, we focus on profit-driven trading as the key force in the forex market that affects the determination of the spot exchange rate.
 
 Other actors are increasingly participating directly in the forex market. Some corporations may trade in the market if they are engaged in extensive transactions either to buy inputs or sell products in foreign markets. It may be costly for them to do this, but by doing so, they can bypass the fees and commissions charged by commercial banks. Similarly, some nonbank financial institutions such as mutual fund companies may invest so much overseas that they can justify setting up their own forex trading operations.
 
@@ -417,7 +394,7 @@ We have so far described the forex market in terms of the private actors. Our di
 
 At one extreme, it is possible for a government to try to completely control the market by preventing its free operation, by restricting trading or movement of forex, or by allowing the trading of forex only through government channels. Policies of this kind are a form of capital control, a restriction on cross-border financial transactions. In the wake of the 1997 Asian exchange rate crisis, for example, the Malaysian government temporarily imposed capital controls, an event that prompted Prime Minister Mahathir Mohamad to declare that "currency trading is unnecessary, unproductive and totally immoral. It should be stopped, it should be made illegal." In more recent years, capital controls have been seen in countries such as China, Argentina, Iceland, and Cyprus.
 
-Capital controls are never  $ 100\% $  successful, however. Illegal trades will inevitably occur and are almost impossible to stop. The government may set up an official market for foreign exchange and issue a law requiring people to buy and sell in that market at officially set rates. But illicit dealings can persist "on the street" in black markets or parallel markets where individuals may trade at exchange rates determined by market forces and not set by the government. For example, in Italy in the 1930s, the Mussolini regime set harsh punishments for trading in foreign currency that gradually rose to include the death penalty, but trading still continued on the black market.
+Capital controls are never $100\%$ successful, however. Illegal trades will inevitably occur and are almost impossible to stop. The government may set up an official market for foreign exchange and issue a law requiring people to buy and sell in that market at officially set rates. But illicit dealings can persist "on the street" in black markets or parallel markets where individuals may trade at exchange rates determined by market forces and not set by the government. For example, in Italy in the 1930s, the Mussolini regime set harsh punishments for trading in foreign currency that gradually rose to include the death penalty, but trading still continued on the black market.
 
 A less drastic action taken by government authorities is to let the private market for forex function but to fix or control forex prices in the market through intervention, a job typically given to a nation's central bank.
 
@@ -437,13 +414,15 @@ If no such profit opportunities exist, there will be no arbitrage; the market is
 
 # Arbitrage With Two Currencies
 
-Suppose you trade dollars and pounds for a bank with branches in New York and London. You can electronically transfer the funds cost free between the two branch locations. Forex trading commissions are the same in each city and so small as to be negligible. Suppose the exchange rate in New York is  $ E_{£/\mathbb{S}}^{\mathrm{N.Y.}} = £0.50 $ per dollar, in London $ E_{£/\mathbb{S}}^{\mathrm{London}} = £0.55 $  per dollar. Can you make a profit for the bank?
+Suppose you trade dollars and pounds for a bank with branches in New York and London. You can electronically transfer the funds cost free between the two branch locations. Forex trading commissions are the same in each city and so small as to be negligible. Suppose the exchange rate in New York is $E_{£/\mathbb{S}}^{\mathrm{N.Y.}} = £0.50$ per dollar, in London $E_{£/\mathbb{S}}^{\mathrm{London}} = £0.55$ per dollar. Can you make a profit for the bank?
 
 Yes. You can buy \$ 1 for £0.50 in New York and sell it for £0.55 in London for an instant, riskless profit. Indeed, everyone would buy in New York and sell in London.
 
-In general, one of the three outcomes can occur in the forex market. The spot rate can be higher in London:  $ E_{£/\mathbb{S}}^{\mathrm{N.Y.}} < E_{£/\mathbb{S}}^{\mathrm{London}} $; the spot rate can be higher in New York: $ E_{£/\mathbb{S}}^{\mathrm{N.Y.}} > E_{£/\mathbb{S}}^{\mathrm{London}} $; or the spot rate can be the same in both locations: $ E_{£/\mathbb{S}}^{\mathrm{N.Y.}} = E_{£/\mathbb{S}}^{\mathrm{London}} $. Arbitrage occurs in the first two cases. Only in the last case, in which spot rates are equal, does no arbitrage occur. Hence, the no-arbitrage condition for spot rates is $ $
+In general, one of the three outcomes can occur in the forex market. The spot rate can be higher in London: $E_{£/\mathbb{S}}^{\mathrm{N.Y.}} < E_{£/\mathbb{S}}^{\mathrm{London}}$; the spot rate can be higher in New York: $E_{£/\mathbb{S}}^{\mathrm{N.Y.}} > E_{£/\mathbb{S}}^{\mathrm{London}}$; or the spot rate can be the same in both locations: $E_{£/\mathbb{S}}^{\mathrm{N.Y.}} = E_{£/\mathbb{S}}^{\mathrm{London}}$. Arbitrage occurs in the first two cases. Only in the last case, in which spot rates are equal, does no arbitrage occur. Hence, the no-arbitrage condition for spot rates is
 
-E_{\underline {{\mathcal {Y}}} / \underline {{S}}}^{\mathrm{N .Y .}} = E_{\underline {{\mathcal {Y}}} / \underline {{S}}}^{\mathrm{Lo nd on}}
+$$
+E_{£/\mathbb{S}}^{\mathrm{N.Y.}} = E_{£/\mathbb{S}}^{\mathrm{London}}
+$$
 
 $ $
 Figure 13-6 shows the no-arbitrage condition. Following both sets of arrows (AB and ACDB), we see that on each path we start with a dollar and end up with pounds, but we are indifferent between these paths only when the end result is identical. This situation would be an equilibrium, in which no arbitrage is possible.
@@ -454,7 +433,7 @@ FIGURE 13-6
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/63c001f8190135b184581f7404787241f4992ef710d2029ee41389572cb735d3.jpg)
 Arbitrage and Spot Rates Arbitrage ensures that the trade of currencies in New York along the path AB occurs at the same exchange rate as via London along path ACDB. At B the pounds received must be the same. Regardless of the route taken to get to B,  $ E_{E / S}^{N.Y.} = E_{E / S}^{London} $ .
 
-everyone buying dollars in New York and selling them in London would bid up the spot rate in New York from  $ 20.50 $ and would bid down the spot rate in London from $ \mathbb{L}0.55 $ . This process would continue until the prices converged, arbitrage ceased, and equilibrium was reached. In forex markets, these adjustments happen nearly instantaneously, whether in the high-tech electronics markets of world financial centers or in the markets on street corners in the developing world.
+everyone buying dollars in New York and selling them in London would bid up the spot rate in New York from $0.50$ and would bid down the spot rate in London from $0.55$. This process would continue until the prices converged, arbitrage ceased, and equilibrium was reached. In forex markets, these adjustments happen nearly instantaneously, whether in the high-tech electronics markets of world financial centers or in the markets on street corners in the developing world.
 
 # Arbitrage With Three Currencies
 
@@ -465,16 +444,18 @@ The same logic that we just applied to transactions between two currencies can a
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/3e3af88178f2c6c41347c8170c063cc04c77298d780cdb675b746452dde17e10.jpg)
 AP Photo/Aijaz Rahi
 
-For example, suppose euros can be obtained at \( E_{\epsilon/\mathbb{S}} = \epsilon 0.8 \) per dollar, and pounds can be obtained at \( E_{\epsilon/\mathbb{C}} = \epsilon 0.7 \) per euro. Starting with \(1, you can obtain 0.8 euros, and with those 0.8 euros, you can obtain \(0.7 \times 0.8\) pounds. Thus, setting aside the negligibly small commissions, the resulting pound-dollar exchange rate on the combined trade is \( E_{\epsilon/\mathbb{C}} \times E_{\epsilon/\mathbb{S}} = 0.7 \times 0.8 = 0.56 \) pounds per dollar. If, say, the exchange rate on the direct trade from dollars to pounds is a less favorable \( E_{\epsilon/\mathbb{S}} = 0.5 \), we can trade \(1 for \)0.56 via the euro, and then trade the £0.56 for \$ 1.12 by way of a direct trade (because \(1.12 = 0.56/0.5\)), a riskless profit of 12 cents.
+For example, suppose euros can be obtained at $E_{\epsilon/\mathbb{S}} = €0.8$ per dollar, and pounds can be obtained at $E_{£/\epsilon} = £0.7$ per euro. Starting with $1, you can obtain 0.8 euros, and with those 0.8 euros, you can obtain $0.7 \times 0.8$ pounds. Thus, setting aside the negligibly small commissions, the resulting pound-dollar exchange rate on the combined trade is $E_{£/\epsilon} \times E_{\epsilon/\mathbb{S}} = 0.7 \times 0.8 = 0.56$ pounds per dollar. If, say, the exchange rate on the direct trade from dollars to pounds is a less favorable $E_{£/\mathbb{S}} = 0.5$, we can trade $1 for $0.56 via the euro, and then trade the £0.56 for $1.12 by way of a direct trade (because $1.12 = 0.56/0.5$), a riskless profit of 12 cents.
 
-In general, three outcomes are again possible. The direct trade from dollars to pounds has a better rate:  $ E_{\varepsilon/\mathbb{S}} > E_{\varepsilon/\mathbb{C}}E_{\varepsilon/\mathbb{S}} $; the indirect trade has a better rate: $ E_{\varepsilon/\mathbb{S}} < E_{\varepsilon/\mathbb{C}}E_{\varepsilon/\mathbb{S}} $; or the two trades have the same rate and yield the same result: $ E_{\varepsilon/\mathbb{S}} = E_{\varepsilon/\mathbb{C}}E_{\varepsilon/\mathbb{S}} $. Only in the last case are there no profit opportunities. This no-arbitrage condition can be written in two ways: $ $
+In general, three outcomes are again possible. The direct trade from dollars to pounds has a better rate: $E_{£/\mathbb{S}} > E_{£/\epsilon}E_{\epsilon/\mathbb{S}}$; the indirect trade has a better rate: $E_{£/\mathbb{S}} < E_{£/\epsilon}E_{\epsilon/\mathbb{S}}$; or the two trades have the same rate and yield the same result: $E_{£/\mathbb{S}} = E_{£/\epsilon}E_{\epsilon/\mathbb{S}}$. Only in the last case are there no profit opportunities. This no-arbitrage condition can be written in two ways:
 
-\underbrace{E_{\ell / \mathbb{S}}}_{\substack{\text{Direct}\\ \text{exchangerate}}} = E_{\ell /\epsilon}E_{\epsilon /\mathbb{S}} = \underbrace{\frac{E_{\ell / \epsilon}}{E_{\mathbb{S} / \epsilon}}}_{\substack{\text{Crossrate}}}
+$$
+\underbrace{E_{£/\mathbb{S}}}_{\substack{\text{Direct}\\ \text{exchangerate}}} = E_{£/\epsilon}E_{\epsilon/\mathbb{S}} = \underbrace{\frac{E_{£/\epsilon}}{E_{\mathbb{S}/\epsilon}}}_{\substack{\text{Crossrate}}}
+$$
 
 $ $
 The right-hand expression, a ratio of two exchange rates, is called a cross rate. Examine the units carefully and notice how the two € cancel out. This no-arbitrage condition applies to all currency combinations and is illustrated by the paths AB and ACB in Figure 13-7 (you can see why it is called triangular arbitrage).
 
-The cross rate formula is very convenient. It means that we do not need to keep track of the exchange rate of every currency at all times. For example, if we know the exchange rates against, say, the dollar, for every currency, then for any pair of currencies A and B we can use the dollar rates of each currency and the cross rate formula to work out the rate at which the two currencies will trade:  $ E_{A / B} = E_{A / \mathbb{S}} / E_{B / \mathbb{S}} $ . In practice, this is how most exchange rates are calculated.
+The cross rate formula is very convenient. It means that we do not need to keep track of the exchange rate of every currency at all times. For example, if we know the exchange rates against, say, the dollar, for every currency, then for any pair of currencies A and B we can use the dollar rates of each currency and the cross rate formula to work out the rate at which the two currencies will trade: $E_{A/B} = E_{A/\mathbb{S}}/E_{B/\mathbb{S}}$. In practice, this is how most exchange rates are calculated.
 
 Forex traders at their desks in London and money changers on the street in Kabul.
 
@@ -488,7 +469,7 @@ The study of cross rates is not a meaningless exercise because the vast majority
 
 The vast majority of the world's currencies trade directly with only one or two of the major currencies, such as the dollar, euro, yen, or pound, and perhaps a few other currencies from neighboring countries. This is not too surprising. After all, to take some obscure examples, how often does somebody want to trade a Kenyan shilling for a Paraguayan guarani? Or a Mauritanian ouguiya for a Tongan pa'anga? These are small, far-apart countries between which there is very little international trade or investment. It is hard to find counterparties for forex trade in these currencies—so hard that the costs of trading become prohibitive. And there is no need to bear these costs because, to continue our example, Kenya, Paraguay, Mauritania, and Tonga conduct a lot of business in major currencies such as the U.S. dollar, so individuals always have the option to engage in a triangular trade at the cross rate to convert shillings to dollars to guaranis (or ouguiyas to dollars to pa'angas), all for a reasonable commission.
 
-When a third currency, such as the U.S. dollar, is used in these transactions, it is called a vehicle currency because it is not the home currency of either of the parties involved in the trade. Market data illustrate the importance of vehicle currencies. According to the 2010 survey data from the Bank for International Settlements, the most common vehicle currency is the U.S. dollar, which appears on one side of  $ 85\% $ of all global trades. The euro is next, playing a role in $ 39\% $ of all trades (many of them with the U.S. dollar). The yen appears in $ 19\% $ of all trades and the British pound in $ 13\% $ .
+When a third currency, such as the U.S. dollar, is used in these transactions, it is called a vehicle currency because it is not the home currency of either of the parties involved in the trade. Market data illustrate the importance of vehicle currencies. According to the 2010 survey data from the Bank for International Settlements, the most common vehicle currency is the U.S. dollar, which appears on one side of $85\%$ of all global trades. The euro is next, playing a role in $39\%$ of all trades (many of them with the U.S. dollar). The yen appears in $19\%$ of all trades and the British pound in $13\%$.
 
 # 5 Arbitrage and Interest Rates
 

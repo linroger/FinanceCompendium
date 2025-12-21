@@ -1,7 +1,7 @@
 ---
 title: "Chapter 01: Introduction"
 parent_directory: International Economics Theory and Policy
-formatted: 2025-12-21 07:10:00 AM
+formatted: 2025-12-21 08:05:00 AM
 formatter_model: grok-code-fast-1
 cli_tool: opencode
 primary_tags:

@@ -6574,21 +6574,21 @@ $$
 By placing:
 
 $$
-A = \sigma_ {1} ^ {2} + \sigma_ {2} ^ {2} - 2 \rho \sigma_ {1} \sigma_ {2};
+A = \sigma_{1}^{2} + \sigma_{2}^{2} - 2 \rho \sigma_{1} \sigma_{2};
 $$
 
 $$
-\mathrm {B} = \sigma_ {1} ^ {2} \mu_ {2} + \sigma_ {2} ^ {2} \mu_ {1} - \rho \sigma_ {1} \sigma_ {2} (\mu_ {1} + \mu_ {2});
+\mathrm{B} = \sigma_{1}^{2} \mu_{2} + \sigma_{2}^{2} \mu_{1} - \rho \sigma_{1} \sigma_{2} (\mu_{1} + \mu_{2});
 $$
 
 $$
-C = \sigma_ {1} ^ {2} \mu_ {2} ^ {2} + \sigma_ {2} ^ {2} \mu_ {1} ^ {2} - 2 \rho \sigma_ {1} \sigma_ {2} \mu_ {1} \mu_ {2}
+C = \sigma_{1}^{2} \mu_{2}^{2} + \sigma_{2}^{2} \mu_{1}^{2} - 2 \rho \sigma_{1} \sigma_{2} \mu_{1} \mu_{2}
 $$
 
 And replacing it, we have:
 
 $$
-\mu - R _ {F} = \frac {\lambda}{\Delta} \left(\mathrm {A R} _ {\mathrm {F}} ^ {2} - 2 \mathrm {B R} _ {F} + \mathrm {C}\right)
+\mu - R_{F} = \frac{\lambda}{\Delta} \left(\mathrm{A} R_{F}^{2} - 2 \mathrm{B} R_{F} + \mathrm{C}\right)
 $$
 
 # 5.2 Efficient Frontier
@@ -6596,13 +6596,13 @@ $$
 and remembering that:
 
 $$
-\lambda = \frac {\sigma^ {2}}{\mu - R _ {F}}
+\lambda = \frac{\sigma^{2}}{\mu - R_{F}}
 $$
 
 and substituting, we have:
 
 $$
-\begin{array}{l} \mu - R _ {F} = \frac {\sigma^ {2}}{(\mu - R _ {F})} \frac {1}{\Delta} \left(\mathrm {A R} _ {\mathrm {F}} ^ {2} - 2 \mathrm {B R} _ {F} + \mathrm {C}\right) \\ \left(\mu - R _ {F}\right) ^ {2} = \frac {\sigma^ {2}}{\Delta} \left(\mathrm {A R} _ {\mathrm {F}} ^ {2} - 2 \mathrm {B R} _ {F} + \mathrm {C}\right) \\ \left(\mu - R _ {F}\right) ^ {2} = \sigma^ {2} \frac {\mathrm {A R} _ {\mathrm {F}} ^ {2} - 2 \mathrm {B R} _ {F} + \mathrm {C}}{\Delta} \\ \mu - R _ {F} = \pm \sqrt {\sigma^ {2} \frac {\mathrm {A R} _ {\mathrm {F}} ^ {2} - 2 \mathrm {B R} _ {F} + \mathrm {C}}{\Delta}} \\ \mu = R _ {F} \pm \sigma \sqrt {\frac {\mathrm {A R} _ {\mathrm {F}} ^ {2} - 2 \mathrm {B R} _ {F} + \mathrm {C}}{\Delta}} \tag {5.81} \\ \end{array}
+\begin{array}{l} \mu - R_{F} = \frac{\sigma^{2}}{(\mu - R_{F})} \frac{1}{\Delta} \left(\mathrm{A} R_{F}^{2} - 2 \mathrm{B} R_{F} + \mathrm{C}\right) \\ \left(\mu - R_{F}\right)^{2} = \frac{\sigma^{2}}{\Delta} \left(\mathrm{A} R_{F}^{2} - 2 \mathrm{B} R_{F} + \mathrm{C}\right) \\ \left(\mu - R_{F}\right)^{2} = \sigma^{2} \frac{\mathrm{A} R_{F}^{2} - 2 \mathrm{B} R_{F} + \mathrm{C}}{\Delta} \\ \mu - R_{F} = \pm \sqrt{\sigma^{2} \frac{\mathrm{A} R_{F}^{2} - 2 \mathrm{B} R_{F} + \mathrm{C}}{\Delta}} \\ \mu = R_{F} \pm \sigma \sqrt{\frac{\mathrm{A} R_{F}^{2} - 2 \mathrm{B} R_{F} + \mathrm{C}}{\Delta}} \tag{5.81} \\ \end{array}
 $$
 
 Equation (5.81) is the equation of the efficient frontier (Saltari 2011).
@@ -6635,19 +6635,19 @@ Based on this condition, it is possible to estimate the expected return and the 
 Remembering that:
 
 $$
-\alpha_ {1} = \frac {\lambda}{\Delta} \left[ \sigma_ {2} ^ {2} \left(\mu_ {1} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {2} - R _ {F}\right) \right]
+\alpha_{1} = \frac{\lambda}{\Delta} \left[ \sigma_{2}^{2} \left(\mu_{1} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{2} - R_{F}\right) \right]
 $$
 
 and
 
 $$
-\alpha_ {2} = \frac {\lambda}{\Delta} \left[ \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {1} - R _ {F}\right) \right]
+\alpha_{2} = \frac{\lambda}{\Delta} \left[ \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{1} - R_{F}\right) \right]
 $$
 
 and adding the two equations, we have:
 
 $$
-\alpha_ {1} + \alpha_ {2} = \frac {\lambda}{\Delta} \left[ \sigma_ {2} ^ {2} \left(\mu_ {1} - R _ {F}\right) + \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {2} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {1} - R _ {F}\right) \right]
+\alpha_{1} + \alpha_{2} = \frac{\lambda}{\Delta} \left[ \sigma_{2}^{2} \left(\mu_{1} - R_{F}\right) + \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{2} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{1} - R_{F}\right) \right]
 $$
 
 # 5.2 Efficient Frontier
@@ -6655,7 +6655,7 @@ $$
 and therefore:
 
 $$
-\alpha_ {1} + \alpha_ {2} = \frac {\lambda}{\Delta} \left[ \sigma_ {2} ^ {2} \left(\mu_ {1} - R _ {F}\right) + \sigma_ {1} ^ {2} \left(\mu_ {2} - R _ {F}\right) - \rho \sigma_ {1} \sigma_ {2} \left(\mu_ {2} - R _ {F} + \mu_ {1} - R _ {F}\right) \right]
+\alpha_{1} + \alpha_{2} = \frac{\lambda}{\Delta} \left[ \sigma_{2}^{2} \left(\mu_{1} - R_{F}\right) + \sigma_{1}^{2} \left(\mu_{2} - R_{F}\right) - \rho \sigma_{1} \sigma_{2} \left(\mu_{2} - R_{F} + \mu_{1} - R_{F}\right) \right]
 $$
 
 $$
@@ -6663,41 +6663,41 @@ $$
 $$
 
 $$
-\alpha_ {1} + \alpha_ {2} = \frac {\lambda}{\Delta} \left[ \sigma_ {2} ^ {2} \mu_ {1} - \sigma_ {2} ^ {2} R _ {F} + \sigma_ {1} ^ {2} \mu_ {2} - \sigma_ {1} ^ {2} R _ {F} - \rho \sigma_ {1} \sigma_ {2} (\mu_ {1} + \mu_ {2}) + \rho \sigma_ {1} \sigma_ {2} 2 R _ {F} \right]
+\alpha_{1} + \alpha_{2} = \frac{\lambda}{\Delta} \left[ \sigma_{2}^{2} \mu_{1} - \sigma_{2}^{2} R_{F} + \sigma_{1}^{2} \mu_{2} - \sigma_{1}^{2} R_{F} - \rho \sigma_{1} \sigma_{2} (\mu_{1} + \mu_{2}) + \rho \sigma_{1} \sigma_{2} 2 R_{F} \right]
 $$
 
 $$
-\alpha_ {1} + \alpha_ {2} = \frac {\lambda}{\Delta} \left[ \sigma_ {2} ^ {2} \mu_ {1} + \sigma_ {1} ^ {2} \mu_ {2} - \rho \sigma_ {1} \sigma_ {2} (\mu_ {1} + \mu_ {2}) - R _ {f} \left(\sigma_ {1} ^ {2} + \sigma_ {2} ^ {2} - 2 \rho \sigma_ {1} \sigma_ {2}\right) \right]
+\alpha_{1} + \alpha_{2} = \frac{\lambda}{\Delta} \left[ \sigma_{2}^{2} \mu_{1} + \sigma_{1}^{2} \mu_{2} - \rho \sigma_{1} \sigma_{2} (\mu_{1} + \mu_{2}) - R_{f} \left(\sigma_{1}^{2} + \sigma_{2}^{2} - 2 \rho \sigma_{1} \sigma_{2}\right) \right]
 $$
 
 Remembering that:
 
 $$
-\begin{array}{l} A = \sigma_ {1} ^ {2} + \sigma_ {2} ^ {2} - 2 \rho \sigma_ {1} \sigma_ {2} \\ B = \sigma_ {1} ^ {2} \mu_ {2} + \sigma_ {2} ^ {2} \mu_ {1} - \rho \sigma_ {1} \sigma_ {2} (\mu_ {1} + \mu_ {2}) \\ \alpha_ {1} + \alpha_ {2} = 1 \\ \end{array}
+\begin{array}{l} A = \sigma_{1}^{2} + \sigma_{2}^{2} - 2 \rho \sigma_{1} \sigma_{2} \\ B = \sigma_{1}^{2} \mu_{2} + \sigma_{2}^{2} \mu_{1} - \rho \sigma_{1} \sigma_{2} (\mu_{1} + \mu_{2}) \\ \alpha_{1} + \alpha_{2} = 1 \\ \end{array}
 $$
 
 and replacing it, we have:
 
 $$
-1 = \frac {\lambda}{\Delta} (B - A R _ {F})
+1 = \frac{\lambda}{\Delta} (B - A R_{F})
 $$
 
 Therefore, it is possible to obtain the value of the Lagrangian multiplier  $(\lambda)$  for the portfolio  $T$  as follows:
 
 $$
-\lambda = \frac {\Delta}{B - A R _ {F}}
+\lambda = \frac{\Delta}{B - A R_{F}}
 $$
 
 Substituting  $\lambda$  in the equation, we have:
 
 $$
-\mu - R _ {F} = \frac {\lambda}{\Delta} \left(A R _ {F} ^ {2} - 2 B R _ {F} + C\right)
+\mu - R_{F} = \frac{\lambda}{\Delta} \left(A R_{F}^{2} - 2 B R_{F} + C\right)
 $$
 
 and therefore the expected return of the tangent portfolio  $(\mu_T)$  is equal to:
 
 $$
-\mu_ {T} - R _ {F} = \frac {1}{\Delta} \frac {\Delta}{B - A R _ {F}} \left(A R _ {F} ^ {2} - 2 B R _ {F} + C\right)
+\mu_{T} - R_{F} = \frac{1}{\Delta} \frac{\Delta}{B - A R_{F}} \left(A R_{F}^{2} - 2 B R_{F} + C\right)
 $$
 
 and therefore:
@@ -7011,13 +7011,13 @@ It is important to note that the expected utility must be defined on the basis o
 Assuming that the investor invests in a time  $t$  in the portfolio  $P$  consisting of assets  $a_0, a_1, a_2, \ldots, a_n$ . Assuming that the investor is characterized by the utility function  $\mu(x)$ . Assuming that the value of the portfolio in a future period  $s$  is equal to  $A_P$ . The investor's choice is based on the maximization of the expected utility in a time  $s$ , as follows:
 
 $$
-U = E [ \mu (x) ] = E [ \mu \left(A _ {P}\right) ] \tag {5.98}
+U = E[\mu(x)] = E[\mu(A_{P})] \tag{5.98}
 $$
 
 If the utility function is quadratic or the expected returns follow a normal distribution (so that there is coherence between the utility function criterion and the mean-variance criterion), the expected utility can be expressed as function of the portfolio's standard deviation  $(\sigma_P)$  and its expected return  $(\mu_P)$ , as follows:
 
 $$
-U \left(\sigma_ {P}, \mu_ {P}\right) \tag {5.99}
+U(\sigma_{P}, \mu_{P}) \tag{5.99}
 $$
 
 Therefore, the expected utility is increasing function of the portfolio's expected return  $(\mu_P)$  and it is decreasing function of its standard deviation  $(\sigma_P)$ .
@@ -7025,7 +7025,7 @@ Therefore, the expected utility is increasing function of the portfolio's expect
 In the plane  $(\sigma_P, \mu_P)$  it is possible to introduce lines corresponding to the same fixed level of the expected utility  $\bar{\mu}$ , as follows (Castellani et al. 2005):
 
 $$
-U \left(\sigma_ {P}, \mu_ {P}\right) = \bar {\mu} \quad \sigma \geq 0 \tag {5.100}
+U(\sigma_{P}, \mu_{P}) = \bar{\mu} \quad \sigma \geq 0 \tag{5.100}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/87fea16b-33f6-43ec-8056-5ef3565ac4c2/fd47ddbc6f5ed2a65c07239f572742d425ab775eb15ae14d48997c66451ad0b6.jpg)
@@ -7042,7 +7042,7 @@ Investors with a different level of risk aversion, and therefore with a differen
 Using  $\mu (\sigma ;\bar{\mu})$  to denote the function that explicitly expresses the indifference curve according to the investor's expected utility  $\bar{\mu}$ , the abscissa of the point  $\sigma$  of the maximum utility is uniquely determined as the system solution in two equations in variables  $\sigma$  and  $\bar{\mu}$ , as follows (Castellani et al. 2005):
 
 $$
-\left\{ \begin{array}{l} \mu (\sigma ; \bar {\mu}) = i + \pi_ {M} \sigma \\ \frac {\partial \mu (\sigma ; \bar {\mu})}{\partial \sigma} = \pi_ {M} \end{array} \right. \tag {5.101}
+\left\{ \begin{array}{l} \mu(\sigma; \bar{\mu}) = i + \pi_{M} \sigma \\ \frac{\partial \mu(\sigma; \bar{\mu})}{\partial \sigma} = \pi_{M} \end{array} \right. \tag{5.101}
 $$
 
 The first equation defines the tangent condition between the indifference curve and the efficient line. The second equation indicates that the indifference curve has to have the same slope as the indifference line, in the tangent point.
@@ -7050,7 +7050,7 @@ The first equation defines the tangent condition between the indifference curve 
 The problem can be formalized in a matrix form as follows (Cesari 2012b):
 
 $$
-\left\{ \begin{array}{l} \max  _ {w _ {1}, \dots , w _ {N}} \Psi \binom {+} {\mu_ {p}}; \sigma_ {p} ^ {2} \\ \mu_ {p} = \alpha^ {\prime} \mu \\ \sigma_ {p} ^ {2} = \alpha^ {\prime} \Sigma \alpha \\ \alpha^ {\prime} \mathbf {1} = 1 \end{array} \right. \tag {5.102}
+\left\{ \begin{array}{l} \max_{w_{1}, \dots, w_{N}} \Psi \binom{+}{\mu_{p}}; \sigma_{p}^{2} \\ \mu_{p} = \alpha^{\prime} \mu \\ \sigma_{p}^{2} = \alpha^{\prime} \Sigma \alpha \\ \alpha^{\prime} \mathbf{1} = 1 \end{array} \right. \tag{5.102}
 $$
 
 The first equation is the function of indirect utility.
@@ -7058,7 +7058,7 @@ The first equation is the function of indirect utility.
 For calculation of the indifference curves, the differential of the utility function must be defined (Cesari 2012b):
 
 $$
-\mathrm {d} \Psi = \frac {\partial \Psi}{\partial \mu_ {p}} d \mu_ {p} + \frac {\partial \Psi}{\partial \sigma_ {p}} d \sigma_ {p} = 0 \tag {5.103}
+\mathrm{d} \Psi = \frac{\partial \Psi}{\partial \mu_{p}} d \mu_{p} + \frac{\partial \Psi}{\partial \sigma_{p}} d \sigma_{p} = 0 \tag{5.103}
 $$
 
 It is equal to zero, and therefore the utility level does not change, so:
@@ -7069,7 +7069,7 @@ It is equal to zero, and therefore the utility level does not change, so:
 Fig. 5.18 The efficient frontier and the indifference curve
 
 $$
-\frac {d \mu_ {p}}{d \sigma_ {p}} = \frac {- \frac {\partial \Psi}{\partial \sigma_ {p}}}{\frac {\partial \Psi}{\partial \mu_ {p}}} > 0 \tag {5.104}
+\frac{d \mu_{p}}{d \sigma_{p}} = \frac{-\frac{\partial \Psi}{\partial \sigma_{p}}}{\frac{\partial \Psi}{\partial \mu_{p}}} > 0 \tag{5.104}
 $$
 
 Positivity of the marginal rate of substitution, identifies the trade-off between the portfolio's expected return and its standard deviation for a defined investor with preference  $\Psi$ . Consequently, if the portfolio risk increases, it can only be accepted with an increase in the expected return  $(\mu_p)$ .
@@ -7099,7 +7099,7 @@ The model is based on empirical evidence: usually, when the market increases, as
 Formally, the i-th asset's expected return  $(R_{i})$  can be defined as follows (Elton et al. 2013):
 
 $$
-R _ {i} = F _ {i} + \beta_ {i} R _ {m} \tag {5.105}
+R_{i} = F_{i} + \beta_{i} R_{m} \tag{5.105}
 $$
 
 where:
@@ -7118,7 +7118,7 @@ Therefore, Eq. (5.105) divides the asset's expected return in two parts:
 The component  $F_{i}$  can be divided in two parts, as follows:
 
 $$
-F _ {i} = f _ {i} + e _ {i} \tag {5.106}
+F_{i} = f_{i} + e_{i} \tag{5.106}
 $$
 
 where:
@@ -7135,7 +7135,7 @@ The component  $e_i$  is a random variable. The opinion on it usually reflects t
 On the basis of Eq. (5.106), Eq. (5.105) we have (Elton et al. 2013):
 
 $$
-R _ {i} = f _ {i} + \beta_ {i} R _ {m} + e _ {i} \tag {5.107}
+R_{i} = f_{i} + \beta_{i} R_{m} + e_{i} \tag{5.107}
 $$
 
 where both  $e_i$  that  $R_{m}$  are random variables.
@@ -7145,23 +7145,23 @@ The Single Index Model is based on a set of parameters (Elton et al. 2013).
 The standard equation is defined by Eq. (5.107) as follows:
 
 $$
-R _ {i} = f _ {i} + e _ {i} + \beta_ {i} R _ {m} \quad f o r i = 1, 2, 3, \dots , N
+R_{i} = f_{i} + e_{i} + \beta_{i} R_{m} \quad for i = 1, 2, 3, \dots, N
 $$
 
 By construction, the mean of  $e_i$  is equal to:
 
 $$
-E \left(e _ {i}\right) = 0 \quad f o r i = 1, 2, 3, \dots , N \tag {5.108}
+E(e_{i}) = 0 \quad for i = 1, 2, 3, \dots, N \tag{5.108}
 $$
 
 By definition, the variances of  $e_i$  and  $R_m$  are equal to:
 
 $$
-E \left[ e _ {i} - E \left(e _ {i}\right) \right] ^ {2} = E \left(e _ {i} - 0\right) ^ {2} = E \left(e _ {i}\right) ^ {2} = \sigma_ {e _ {i}} ^ {2} \quad f o r i = 1, 2, 3, \dots , N \tag {5.109}
+E[e_{i} - E(e_{i})]^{2} = E(e_{i} - 0)^{2} = E(e_{i})^{2} = \sigma_{e_{i}}^{2} \quad for i = 1, 2, 3, \dots, N \tag{5.109}
 $$
 
 $$
-E \left(R _ {m} - \mu_ {m}\right) ^ {2} = \sigma_ {R _ {m}} ^ {2} \tag {5.110}
+E(R_{m} - \mu_{m})^{2} = \sigma_{R_{m}}^{2} \tag{5.110}
 $$
 
 There are two main baseline assumptions:
@@ -7169,7 +7169,7 @@ There are two main baseline assumptions:
 Assumption 1 there is no correlation between  $e_i$  and  $R_m$  (for  $i = 1,2,3,\ldots,N$ ). Therefore, we have:
 
 $$
-\begin{array}{l} C o v \left(e _ {i}; R _ {m}\right) = E \left[ \left(e _ {i} - E \left(e _ {i}\right)\right) \left(R _ {m} - E \left(R _ {m}\right)\right) \right] = E \left[ e _ {i} \left(R _ {m} - E \left(R _ {m}\right)\right) \right] \\ = E \left[ e _ {i} \left(R _ {m} - \mu_ {m}\right) \right] = 0 \tag {5.111} \\ \end{array}
+\begin{array}{l} Cov(e_{i}; R_{m}) = E[(e_{i} - E(e_{i}))(R_{m} - E(R_{m}))] = E[e_{i}(R_{m} - E(R_{m}))] \\ = E[e_{i}(R_{m} - \mu_{m})] = 0 \tag{5.111} \\ \end{array}
 $$
 
 Therefore, the assumption ensures that the two variables  $(e_i$  and  $R_{m})$  are independent among them. Specifically, the accuracy of the equation to describe the asset's return is independent from the index's return.
@@ -7177,7 +7177,7 @@ Therefore, the assumption ensures that the two variables  $(e_i$  and  $R_{m})$ 
 Assumption 2 each asset is only correlated to the market index representing the common factor. It implies non-correlation between the random elements (residual) of the assets  $(e_i$  and  $e_j$  for each  $i$ -th and  $j$ -th asset). Therefore, the covariance between the residuals of i-th asset and j-th asset (for  $i = 1,2,3,\dots,N$  and  $j = 1,2,3,\dots,N$ ) are equal to zero, as follows:
 
 $$
-E \left[ \left(e _ {i} - \mu_ {e _ {i}}\right) \left(e _ {j} - \mu_ {e _ {j}}\right) \right] = E \left(e _ {i} e _ {j}\right) = 0 \tag {5.112}
+E[(e_{i} - \mu_{e_{i}})(e_{j} - \mu_{e_{j}})] = E(e_{i} e_{j}) = 0 \tag{5.112}
 $$
 
 Therefore, the assumption ensures that the returns of the assets are connected with the market index's returns only, and not among them. Consequently, the returns of all assets move in the same direction because they move with the same common factor as represented by the market index, not because they are related among them. The assumption implies that the only reason assets vary together is because of common movement with the market index.
@@ -7189,13 +7189,13 @@ On the basis of these assumptions, it is possible to estimate the expected retur
 The i-th asset's expected return  $(R_{i})$  is equal to (Elton et al. 2013):
 
 $$
-\begin{array}{l} R _ {i} = f _ {i} + e _ {i} + \beta_ {i} R _ {m} \rightarrow E (R _ {i}) = E \left(f _ {i} + e _ {i} + \beta_ {i} R _ {m}\right)\rightarrow E (R _ {i}) \\ = E \left(f _ {i}\right) + E \left(e _ {i}\right) + E \left(\beta_ {i} R _ {m}\right) \\ \end{array}
+\begin{array}{l} R_{i} = f_{i} + e_{i} + \beta_{i} R_{m} \rightarrow E(R_{i}) = E(f_{i} + e_{i} + \beta_{i} R_{m}) \rightarrow E(R_{i}) \\ = E(f_{i}) + E(e_{i}) + E(\beta_{i} R_{m}) \\ \end{array}
 $$
 
 Considering that  $f_{i}$  and  $\beta_{i}$  are constant, and  $E(e_{i}) = 0$ , we have:
 
 $$
-\begin{array}{l} E \left(R _ {i}\right) = f _ {i} + \beta_ {i} E \left(R _ {m}\right) \\ E \left(R _ {i}\right) = f _ {i} + \beta_ {i} E \left(R _ {m}\right) \leftrightarrow \mu_ {\mathrm {i}} = \mathrm {f} _ {\mathrm {i}} + \beta_ {\mathrm {i}} \mu_ {\mathrm {m}} \tag {5.113} \\ \end{array}
+\begin{array}{l} E(R_{i}) = f_{i} + \beta_{i} E(R_{m}) \\ E(R_{i}) = f_{i} + \beta_{i} E(R_{m}) \leftrightarrow \mu_{i} = f_{i} + \beta_{i} \mu_{m} \tag{5.113} \\ \end{array}
 $$
 
 # 5.5 Single Index Model

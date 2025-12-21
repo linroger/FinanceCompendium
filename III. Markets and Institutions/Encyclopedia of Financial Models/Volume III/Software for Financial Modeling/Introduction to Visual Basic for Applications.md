@@ -1,4 +1,25 @@
 
+---
+title: Introduction to Visual Basic for Applications
+parent_directory: Encyclopedia of Financial Models/Volume III/Software for Financial Modeling
+formatted: 2025-12-21 08:05:00 PM
+formatter_model: claude-sonnet-4-5-20241022
+cli-tool: opencode
+primary_tags:
+  - visual basic applications
+  - excel programming finance
+  - spreadsheet automation
+  - financial modeling vba
+secondary_tags:
+  - macro recording excel
+  - user defined functions
+  - vba control flow
+  - financial calculations vba
+  - black scholes vba
+  - monte carlo simulation
+cssclasses: academia
+---
+
 # Introduction to Visual Basic for Applications
 
 DESSISLAVA A. PACHAMANOVA, PhD
@@ -27,13 +48,13 @@ We are trying to create the layout shown in Figure 2. First, enter the text in c
 
 Let us record the entries and the calculations as a macro. To record a macro, click on Record Macro in the Developer tab. Delete the default name Macro 1, and replace it with something more meaningful, for example, ReturnCalc. Click OK. Once the macro recorder is on, do the following:
 
-1. Enter  $= \left(\mathrm{B}3 - \mathrm{B}2\right) / \mathrm{B}2$  in cell C3 (this will compute the return for time period 1-2).
+1. Enter $=(\mathrm{B}3-\mathrm{B}2)/\mathrm{B}2$ in cell C3 (this will compute the return for time period 1-2).
 2. With the cursor in cell C3, enter Ctrl-C to copy the contents of cell C3, move the cursor to cell C4, and enter Ctrl-V to paste. This will fill cells C4 with the formula for computing the return between times 2 and 3.
 3. Highlight cells C3-C4, right-click, select Format Cells | Number | Percentage | Decimal Points 2 to format the returns as percentages.
 4. Click on cell D3, enter = (1+C3). Then right-click, select Format Cells | Number | Number | Decimal Points 2 to format the contents of the cell as a number.
 5. Click on cell D4, enter = D3* (1+C4).
 6. Type Total Return in cell C5.
-7. Enter  $= \mathrm{D4 -1}$  in cell D5 to compute the total return over the five periods.
+7. Enter $=\mathrm{D4}-1$ in cell D5 to compute the total return over the five periods.
 8. Highlight cells C5:D5. Right-click, then select Format Cells | Border. Select the double-line, then click the upper line of the cell in the Border window to make the double-line appear. Click OK.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/f56b2146-2a3e-454e-b6f0-d79cc2db7528/be2918be526fc9ddd9a1d1fc13ce63aa71cc06351a41df4c8aae611a197efda6.jpg)
@@ -56,7 +77,7 @@ Behind the scenes, Excel recorded VBA code with instructions that tell Excel wha
 6'
 7'
 8 Range("C3").Select
-9 ActiveCell.FormulaR1C1 = "=" (RC[-1]-R[-1]C[-1])/R[-1]C[-1"]
+9 ActiveCell.FormulaR1C1 = "=(RC[-1]-R[-1]C[-1])/R[-1]C[-1]"
 10 Range("C3").Select
 11 Selection.Copy
 12 Range("C4").Select
@@ -64,15 +85,15 @@ Behind the scenes, Excel recorded VBA code with instructions that tell Excel wha
 14 Range("C3:C4").Select
 15 Selection.NumberFormat = "0.00"
 16 Range("D3").Select
-17 ActiveCell.FormulaR1C1 = " = 1+RC[-1]"
+17 ActiveCell.FormulaR1C1 = "=1+RC[-1]"
 18 Range("D3").Select
 19 Selection.NumberFormat = "0.00"
 20 Range("D4").Select
-21 ActiveCell.FormulaR1C1 = " = R[-1]C*(1+RC[-1])"
+21 ActiveCell.FormulaR1C1 = "=R[-1]C*(1+RC[-1])"
 22 Range("C5").Select
 23 ActiveCell.FormulaR1C1 = "Total return"
 24 Range("D5").Select
-25 ActiveCell.FormulaR1C1 = " = R[-1]C-1"
+25 ActiveCell.FormulaR1C1 = "=R[-1]C-1"
 26 Range("D5").Select
 27 SelectionStyle = "Percent"
 28 Selection.NumberFormat = "0.00"
@@ -502,20 +523,20 @@ The value for  $\Phi (d)$  can be found in Excel by using the built-in formula  
 
 To illustrate the Black-Scholes option pricing formula, assume the following values:
 
-Current stock price  (S_0) = \50
+Current stock price (S_0) = $50
 
 Strike price (K) = 52
 
-Time remaining to expiration  $(T) = 183$  days  $= 0.5$  years (183 days/365, rounded)
+Time remaining to expiration (T) = 183 days = 0.5 years (183 days/365, rounded)
 
-Stock return volatility  $(\sigma) = 0.25$  (25\%)
+Stock return volatility (σ) = 0.25 (25%)
 
-Short-term risk-free interest rate  $= 0.10$ $(10\%)$
+Short-term risk-free interest rate = 0.10 (10%)
 
 Plugging into the formula, we obtain
 
 $$
-\begin{array}{l} d_{1} = \frac{\ln (5 0 / 5 2) + (0 . 1 0 - 0 + 0 . 2 5^{2} / 2) \cdot 0 . 5}{0 . 2 5 \cdot \sqrt{0 . 5}} = 0. 1 5 0 2 \\ d_{2} = 0. 1 5 0 2 - 0. 2 5 \cdot \sqrt{0 . 5} = - 0. 0 2 6 8 \\ \Phi (0. 1 5 0 2) = 0. 5 5 9 7 \\ \Phi (- 0. 0 2 6 8) = 0. 4 8 9 3 \\ C = 5 0 \cdot 1 \cdot 0. 5 5 9 7 - 5 2 \cdot e^{- 0. 1 0 \cdot 0. 5} \cdot 0. 4 8 9 3 = \$ 3. 7 9 \\ \end{array}
+\begin{array}{l} d_{1} = \frac{\ln (50 / 52) + (0.10 - 0 + 0.25^{2} / 2) \cdot 0.5}{0.25 \cdot \sqrt{0.5}} = 0.1502 \\ d_{2} = 0.1502 - 0.25 \cdot \sqrt{0.5} = -0.0268 \\ \Phi (0.1502) = 0.5597 \\ \Phi (-0.0268) = 0.4893 \\ C = 50 \cdot 1 \cdot 0.5597 - 52 \cdot e^{-0.10 \cdot 0.5} \cdot 0.4893 = \$3.79 \\ \end{array}
 $$
 
 Next, we provide the code of a VBA function that computes the price of a European call option with the Black-Scholes formula.

@@ -1,54 +1,41 @@
 ---
-aliases:
-- Overview of Risks and Their Management
-tags: null
-key_concepts: null
-parent_directory: '[[II. Economics/International/Foundations of Global Financial Markets]]'
-cssclasses: academia
-title: 'Chapter 10: Overview of Risks and Their Management'
-linter-yaml-title-alias: 'Chapter 10: Overview of Risks and Their Management'
+title: "Chapter 10: Overview of Risks and Their Management"
+parent_directory: "II. Economics/International/Foundations of Global Financial Markets"
+formatted: "2025-12-21 08:02:48 PM"
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- risks include credit risk
-- general categories financial risk
-- analysis derives credit score
-- broadening instruments risk management
-- theory practice distinction risk
-- risk market instruments controlling
+  - financial risk management
+  - investment risk
+  - funding risk
+  - systemic financial risk
+  - credit risk
 secondary_tags:
-- 10 overview risks management
-- financing risk systemic financial
-- systemic financial risk
-- different types funding risk
-- scoring models credit risk
-- idiosyncratic risk financial risk
-- financial risk management involves
-- difference systematic risk idiosyncratic
-- risk diversifiable risk
-- credit analysis use different
-- investors access credit analysis
-- instruments reallocate financial risks
-- credit risk reinvestment risk
-- providers formulating credit scoring
-- finance technology transfer risk
-- financial market financial innovation
-tags_extracted: '2025-12-18T00:18:56.557734'
+  - price risk
+  - reinvestment risk
+  - inflation risk
+  - liquidity risk
+  - foreign exchange risk
+  - leverage risk
+  - timing risk
+cssclasses: academia
 ---
 
-# 10
+## 10
 
-# Overview of Risks and Their Management
+## Overview of Risks and Their Management
 
-# CONTENTS
+### CONTENTS
 
-# Learning Objectives
+## Learning Objectives
 
-# Defining Risk
+## Defining Risk
 
 Risk versus Uncertainty
 
 Systematic Risk versus Idiosyncratic Risk
 
-# Financial Risk Management
+## Financial Risk Management
 
 Identifying Financial Risks
 
@@ -56,13 +43,7 @@ Quantifying Risks
 
 Evaluating How to Deal With Each Identified Risk
 
-Retained risk
-
-Risk neutralization
-
-Risk transfer
-
-# Investment Risk
+## Investment Risk
 
 Credit Risk
 
@@ -126,13 +107,13 @@ Read any publication dealing with a topic in finance, and undoubtedly you will s
 
 In this chapter, we provide an overview of the different types of financial risk that will be referred to throughout this book and the general principles of managing risk, referred to as "risk management." This chapter covers a wide range of topics, some of which were mentioned earlier in this book and some of which will be taken up in more detail in later chapters.
 
-# Defining Risk
+## Defining Risk
 
 There is no shortage of definitions of risk. The word "risk" is derived from the Italian verb riscare, which means "to dare." In Chinese, risk or venture (fēng xiǎn) is expressed as two symbols, the first meaning danger and the second meaning opportunity. In everyday parlance, risk is often viewed as something that is negative, such as a danger, a hazard, or a loss. But we know that some risks lead to economic gains, whereas others have purely negative consequences. For example, although the purchase of a lottery ticket involves an action that results in the risk of losing an amount equal to the cost of the ticket, it potentially has a substantial monetary reward. In contrast, the risk of death or injury from a random shooting is a purely negative consequence.
 
 Businesses recognize that accepting risk is necessary to obtain the competitive advantage that leads to the generation of profits. Introducing a new product or expanding production facilities involves both return and risk. When a business is exposed to an event that can cause a shortfall to a targeted financial measure or value, this is a financial risk that it faces. The financial measure or value could be some measure of the company's profit, such as earnings per share or return on the amount invested by the company's owners. The financial goals for households are monetary objectives, such as accumulating a target dollar amount from saving and investing to purchase a car or home, financing the costs of a child's college education, or funding retirement at some target age. When seeking to achieve financial goals, households must accept the risk associated with the financial assets in which they invest and the risks associated with the investment strategies that they employ.
 
-# Risk versus Uncertainty
+## Risk versus Uncertainty
 
 When formulating theories about how assets are valued in the financial market, the assumption made is that when facing risk, investors pursue plausible decision rules to select assets. Theories in corporate finance likewise assume that when facing risk, management will follow rules that are plausible as it makes key financial decisions that have an impact on the firm's value. The rules that are applied in decision making by both investors and managers are based on their beliefs regarding the set of outcomes that can result from a decision. In formulating those beliefs about outcomes, theories in finance assume that investors and managers can draw on probabilities to quantify the risk associated with outcomes.
 
@@ -146,7 +127,7 @@ In practice, is the distinction between risk and uncertainty made by Knight and 
 
 More recently, Nassim Taleb has popularized the term black swan event to characterize a high-impact, hard-to-predict, and rare event that is beyond the realm of normal expectations based on historical events in financial markets, technology, and the sciences. In the context of financial markets, a "high-impact event" means that the event has a large monetary impact. Basically, a black swan event is a surprise to the decision maker and after the event has occurred, the failure to consider such an event is inappropriately rationalized. Linking this to Knightian uncertainty, black swan events are presumed not to exist.
 
-Systematic Risk versus Idiosyncratic Risk
+## Systematic Risk versus Idiosyncratic Risk
 
 In the study of financial markets, one of the key issues covered in this book is asset pricing. To determine the fair value of an asset and how an asset's value will change over time, the factors that drive (i.e., affect) asset valuation must be determined. Because the factors affect asset valuation, they are referred to as "risk factors." However, for simplicity in our discussion here, we will refer to them as simply "factors."
 
@@ -154,24 +135,24 @@ Because the factors are assumed to affect the valuation of all assets in an asse
 
 In chapter 14, we review theories about the pricing of assets. These theories tell us that in markets that operate efficiently when pricing assets, investors should only be compensated for accepting systematic risks. In other words, assets price only systematic risks. The reason is that, according to one of the major theories in finance, idiosyncratic risk can be eliminated through the proper selection of assets so as to create a diversified portfolio. In contrast, one cannot eliminate systematic risks by creating a diversified portfolio. Hence, systematic risks are referred to as nondiversifiable risks, and idiosyncratic risk is referred to as diversifiable risk.
 
-# Financial Risk Management
+## Financial Risk Management
 
 Financial risk management involves the following activities: identifying financial risks,
 
 - quantifying each identified risk, and
 - evaluating how to deal with each identified risk.
 
-# Identifying Financial Risks
+### Identifying Financial Risks
 
 Not all risks faced by households, financial entities, and businesses are easy to identify. Some risks, unfortunately, are identified only after a financial problem or financial crisis occurs. The three general categories of financial risk that businesses, financial entities, and households face are (1) investment risk, (2) funding risk, and (3) systemic financial risk. We describe each of these risks in later sections of this chapter.
 
-# Quantifying Risks
+### Quantifying Risks
 
 Not all risks can be quantified. In finance, financial metrics have been used to quantify many of the risks described later in this chapter. These metrics draw on concepts in the fields of probability and statistics. This is the principal reason that it is critical for students interested in the study of finance to have a strong background in probability and statistics.
 
 All models used in finance to measure risk are based on assumptions and estimated parameters. Some market observers argue that it was the failure of risk models used for quantifying risk of financial institutions that resulted in the 2008-2009 global financial crisis. This is why it is critical to understand the underlying assumptions of the risk measures and models discussed throughout this book. The Knight-Keynes distinction between risk and uncertainty should always be kept in mind when using and applying a risk measure when managing financial risk.
 
-Evaluating How to Deal With Each Identified Risk
+## Evaluating How to Deal With Each Identified Risk
 
 Once the relevant risks are identified, corporate and household risk management involves evaluating how to deal with each risk. This is the risk retention decision, because it involves determining which risks to retain. The choices for dealing with each risk are:
 
@@ -206,7 +187,7 @@ Asset securitization is not the only type of capital market instrument for trans
 
 P&C companies are concerned with catastrophic events that can cause major losses. For example, the heavy rainfalls in France at the beginning of June 2016 resulted in insured losses that were expected to be as much as €600 million (U.S.682 million). It is estimated that more than 1,000 natural catastrophes occurred in 2015, resulting in overall insured losses of 31 billion.5 To transfer the risk of such catastrophes to investors willing to accept this insurance risk by potentially earning a higher interest rate, P&C companies created catastrophe bonds (nicknamed "cat bonds"). The payoff to an investor in a cat bond depends on whether a qualifying catastrophe or event occurs. If it does, the bondholders will lose part or all of the principal they invested, and the P&C company that issued the cat bond can use the funds not paid to bondholders to recoup some or all of the losses from the event.
 
-# Investment Risk
+## Investment Risk
 
 In very general terms, investment risk refers to the likelihood that an investment or an investment strategy will have a performance outcome that is less than what the investor expected. In the general category of investment risk are various types of risk that can result in below-expected performance. These risks include credit risk,
 
@@ -215,7 +196,7 @@ price risk, reinvestment risk,
 - inflation risk, liquidity risk, and
 - foreign exchange-rate risk.
 
-# Credit Risk
+## Credit Risk
 
 Credit risk is a major risk in the financial system. This type of risk encompasses many forms of risk, and there is no standard definition as to what it means.
 

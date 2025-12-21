@@ -1,4 +1,23 @@
 
+---
+title: "Introduction to Financial Model Building with MATLAB"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume III/Software for Financial Modeling"
+formatted: 2025-12-21 08:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - matlab modeling
+  - financial modeling
+  - quantitative finance
+secondary_tags:
+  - portfolio optimization
+  - option pricing
+  - matrix operations
+  - statistical analysis
+  - data visualization
+cssclasses: academia
+---
+
 # Introduction to Financial Model Building with MATLAB
 
 DESSISLAVA A. PACHAMANOVA, PhD
@@ -33,7 +52,7 @@ It is worth noting that most of the financial toolboxes require installation of 
 
 Another tool of interest to those who use Windows and Microsoft Excel extensively as the platform for their applications is Spreadsheet Link EX. Spreadsheet Link EX enables the manipulation of Microsoft Excel worksheets from within MATLAB and using MATLAB functions from within Excel. This is a useful toolbox that allows powerful MATLAB capabilities to be accessed through a familiar interface.
 
-This entry provides brief pointers to important aspects of modeling in MATLAB. We discuss basic array construction and operations, func tions and scripts, as well as graphs. We also provide examples of MATLAB code for portfolio optimization schemes and for pricing a European call option by simulation.
+This entry provides brief pointers to important aspects of modeling in MATLAB. We discuss basic array construction and operations, functions and scripts, as well as graphs. We also provide examples of MATLAB code for portfolio optimization schemes and for pricing a European call option by simulation.
 
 
 When readers try to implement such routines themselves, they may find it useful to know that the MATLAB manual and online help contain abundant information and examples. Detailed documentation is also provided in MATLAB itself. For example, typing help at the prompt in MATLAB lists all major topics. Type help name of function at the prompt or in the box in the Help dialog box to access the documentation on that function in MATLAB. If unsure of which help topic is relevant, click on the button with question mark ( ) in MATLAB's top menu. It provides richer search options.
@@ -58,7 +77,7 @@ To call MATLAB's editor in order to create or edit M-files, select Desktop > Edi
 
 # BASIC OPERATIONS AND MATRIX ARRAY CONSTRUCTION
 
-# Basic Mathematical Operations
+## Basic Mathematical Operations
 
 MATLAB can perform many kinds of different mathematical operations, such as addition  $(+)$ , multiplication  $(^{\star}$  or . $^{\star}$ ), square root (sqrt or sqrtm), and power  $(^{\wedge})$ . These commands can be entered at the command prompt. For example, typing
 
@@ -79,7 +98,7 @@ $$ does not result in any visible output in the command window. However, MATLAB 
 
 
 $$
-\gg \text{Ex pr is si on Va lu e} = 3^{*} \operatorname{sq rt} (4) + 1 5;
+\gg \text{ExpressionValue} = 3^{*} \operatorname{sqrt} (4) + 15;
 $$
 
 Then, typing ExpressionValue at the command prompt, you get
@@ -89,7 +108,7 @@ Then, typing ExpressionValue at the command prompt, you get
 ExpressionValue = 21
 ```
 
-# Constructing Vectors and Matrices
+## Constructing Vectors and Matrices
 
 As mentioned earlier, MATLAB's core data structures are vectors and matrices. For example, the command
 
@@ -129,7 +148,7 @@ You can also "stack" matrices and vectors. For example,
 >>Y=[X; X] Y = 2 3 4 6 1 2 3 4 5 6 7 8
 ```
 
-# Basic Array Operations
+## Basic Array Operations
 
 To transpose an array A, use the command transpose (A) or  $\mathbb{A}^{\prime}$ . This operation converts a horizontal vector into a vertical one and vice versa, and flips the elements of a matrix that contains real numbers in its entries around the diagonal, keeping the diagonal entries the same.
 

@@ -1,28 +1,21 @@
 ---
-aliases:
-- From 1865 to 1945 in a Tiny Nutshell
-tags: null
-key_concepts: null
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
-  Ray Dalio Full
-cssclasses: academia
-title: '15 - Chapter 9: From 1865 to 1945 in a Tiny Nutshell'
+title: 15.9 From 1865 to 1945 in a Tiny Nutshell
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
 primary_tags:
-- very brief, eight-page chapter
-- classic domestic and international cycles
-- new orders
+- big debt cycles
+- world order changes
+- economic history
 secondary_tags:
-- classic big debt cycles
-- monetary, political, and geopolitical orders
-- boom/bust cycles
-- big cycle
-- next major war
-- big increases
-tags_extracted: '2025-12-18T18:03:19.138611'
-tags_method: max_quality_v1
+- civil war aftermath
+- industrial revolution
+- world war dynamics
+- monetary policy evolution
+- geopolitical conflicts
+- debt restructuring
+cssclasses: academia
 ---
 
-# 15_9_From_1865_to_1945_in_a_Tiny_Nutshell
+# 15.9 From 1865 to 1945 in a Tiny Nutshell
 ## FROM 1865 TO 1945
 
 ### IN A TINY NUTSHELL
@@ -47,7 +40,7 @@ It was all classic.
 
 From 1870 to 1914, with the war over and debt burdens reduced, the Second Industrial Revolution productivity miracle began.
 
-Classically, debtand equity-financed great technological investment booms led to great economic advances, big wealth and values gaps, and then bubbles and busts that led to great internal conflicts. At the same time, similar conditions around the world led to newly powerful countries challenging both the established powers and the established world order, which eventually led to war.
+Classically, debt and equity-financed great technological investment booms led to great economic advances, big wealth and values gaps, and then bubbles and busts that led to great internal conflicts. At the same time, similar conditions around the world led to newly powerful countries challenging both the established powers and the established world order, which eventually led to war.
 
 The technological advances that accompanied this great productivity boom were in railroads that opened up and linked the Western and Eastern US; steel production that was used to build bridges, skyscrapers, and railroads; electricity (e.g., Thomas Edison's invention of the light bulb and revolutionary improvements in electricity distribution); Alexander Graham Bell's invention of the telephone; oil production that fueled these advances; and the invention and broad distribution of the automobile. As always, big wealth gaps appeared as the great new inventions that were turned into great new products made those who came up with them and commercialized them very rich. The rich were increasingly resented (they were then called "robber barons") for their business tactics and their lavishness (this era was called the Gilded Age), which led to classic left/right class conflicts developing in the early 20th century.
 
@@ -63,7 +56,7 @@ I won't go into the blow-by-blow of it, but I will say that it led to the world 
 
 In Russia, the World War I period brought conflict between the rich monarchy (who wanted to keep its wealth and privileges) and the poor masses (who were angry and wanted more). This led to civil war and the dramatic change in the domestic order to become Marxist-communist. Russia then created the Soviet Union in 1922 by taking over Ukraine, Belarus, and parts of Central Asia. Japan, which had allied itself with the winners of the war, became the leading power in Asia.
 
-### At the end of the war in 1918, a big pandemic happened.
+At the end of the war in 1918, a big pandemic happened.
 
 After all that, the winners got together to determine what the new world order would look like. In this case, it was clear that the world was becoming more interconnected due to advances in transportation and communications. World War I was the first truly global versus regional war, so naturally the question of how world governance should work arose for the first time. As described in the last chapter, President Wilson aspired to create an orderly world that would in some ways replicate a US style of representative governance. That led to the formation of the League of Nations, which failed at preventing the next major war. We still haven't figured out how world governance could advance beyond fighting to determine who gets what they want.
 
@@ -82,9 +75,9 @@ Through a series of actions, President Franklin D. Roosevelt outlawed the privat
 This wasn't the only significant change in monetary policy or radical approach to a debt issue that occurred during the period covered in this chapter. Many more countries went broke (i.e., defaulted on or significantly devalued their debts in the ways I've reviewed) between 1865 and 1945 than I can describe here, but I can give you a partial list:
 
 - The US leaving the gold standard during and devaluing money after the Civil War
-Several countries, in addition to the US, leaving the gold standard and devaluing money in the Great Depression
-Weimar Germany restructuring its Treaty of Versailles debts
-China and Russia repudiating past debts
+- Several countries, in addition to the US, leaving the gold standard and devaluing money in the Great Depression
+- Weimar Germany restructuring its Treaty of Versailles debts
+- China and Russia repudiating past debts
 - China abandoning the silver standard in favor of paper currency in 1935
 - Greece debasing its coinage, causing it to be expelled from an early European currency union (1908)
 
@@ -95,5 +88,3 @@ As is classic, in the 1930s there were those of the hard right (fascists) and th
 As previously explained and covered much more completely in Principles for Dealing with the Changing World Order and elsewhere in my writings, in the period leading up to World War II, nations around the world employed all the classic maneuvers and developments that precede military wars. These include economic warfare, freezing of financial assets, and military buildups. Once the war began (with Germany's attack on Poland in 1939 and Japan's attack on Pearl Harbor in 1941), all the usual war developments unfolded, such as using conventional weapons and the secret development and then usage of powerful new weapons that won the war. Then the unconditional surrenders of the losers led to meetings of the winners and new monetary, internal political, and external geopolitical orders. The spoils of war went to the winning Allies and the penalties of losing were handed out to the Axis powers as laid out in the Treaty of Versailles. As always, these decisions reshaped the world order and had implications for decades to come.
 
 We will next look in greater detail at what happened after the end of World War II until my writing of this book in March 2025. While I will frame the evolution of the cycle in the context of the Big Debt Cycle, showing how the Big Debt Cycle went through its various monetary regimes, I will also show how it combined with the other four forces to shape the Overall Big Cycle.
-
-### CHAPTER 10

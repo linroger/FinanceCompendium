@@ -1,15 +1,32 @@
 ---
-aliases:
-  - Further Issues in Bank Lending
-tags:
-key_concepts:
-parent_directory: Contemporary Financial Intermediation
+title: "Further Issues in Bank Lending"
+parent_directory: III. Markets and Institutions/Banking/Contemporary Financial Intermediation/Part 04 On Balance Sheet Banking Activities
+formatted: 2025-12-21 08:02:00 AM
+formatter_model: obsidian-formatting-agent
+cli-tool: claude-code
+primary_tags:
+  - bank lending practices
+  - loan pricing mechanisms
+  - credit rationing theory
+  - relationship banking
+  - loan default restructuring
+secondary_tags:
+  - profit margin assessment
+  - benchmark lending rates
+  - compensating balances
+  - loan default risk
+  - institutional costs
+  - adverse selection
+  - moral hazard
+  - long-term relationships
+  - private information
+  - spot lending decisions
 cssclasses: academia
-title: Chapter 08 - Further Issues in Bank Lending
-linter-yaml-title-alias: Chapter 08 - Further Issues in Bank Lending
 ---
 
-# GLOSSARY OF TERMS
+# Further Issues in Bank Lending
+
+## GLOSSARY OF TERMS
 
 Discount Window A facility, often referred to as lender of last resort, where banks can borrow short term from the Federal Reserve to meet their liquidity needs, normally using Treasury securities as collateral. The interest rate charged for these advances, a tool of monetary policy, is called the "discount rate."
 
@@ -27,15 +44,15 @@ Console Bond A bond with an infinite maturity, that is, one that promises a perp
 
 Credit Crunch Precipitous reduction in the availability of credit.
 
-# INTRODUCTION
+## INTRODUCTION
 
 In Chapter 7 we examined informational problems in lending and how these problems are addressed through the design of loan contracts. In this chapter, we continue our discussion of loan transactions and extend it to cover a variety of issues such as the initial pricing of loans and adjustments in contractual terms that take place after the loan is made. While Chapter 7 was concerned mainly with static issues in lending, this chapter is concerned mainly with dynamic issues. We begin the next section with a discussion of how profit margins are assessed and how loans are priced. In the section that follows, we examine the reason for possible price rigidities in loan contracts and credit rationing. The bank's optimal lending process is described in the next section. We then explore the economic incentives for banks and borrowers to develop long-term relationships. This is followed with a discussion of loan default and restructuring. A case study is presented to help illustrate the concepts.
 
-# LOAN PRICING AND PROFIT MARGINS: GENERAL REMARKS
+## LOAN PRICING AND PROFIT MARGINS: GENERAL REMARKS
 
 In this section, we discuss how banks assess the profitability of loans and how these are priced. We begin our discussion with an analysis of the assessment of profit margins. This is followed by a discussion of benchmark lending rates, after which we discuss compensating balances. We conclude the section with an analysis of the link between default risk and bank profit margins.
 
-# Assessing Profit Margins
+### Assessing Profit Margins
 
 To assess the profit margin of a loan, a bank should first determine its sources of income from lending. These are (a) the interest on the loan, (b) noninterest fee income on the loan, and (c) income from fees charged for services the borrower
 
@@ -43,7 +60,7 @@ purchases due to the lending relationship. As for (b), there are many sources of
 
 After assessing the income from the loan, the bank should compute the expenses incurred to generate that income. These expenses include processing costs, salaries, postage, advertising and other marketing expenses, occupancy expenses, and other loan-servicing costs. Finally, the bank should compute the costs of funding the loan. These costs include the cost of demand and time deposit and nondeposit funds supporting the loan, as well as the costs of servicing deposits. Having assessed income expenses and costs, the bank can calculate its profit on the loan as shown in Table 8.1.
 
-# Benchmark or Reference Lending Rates
+### Benchmark or Reference Lending Rates
 
 Our previous discussion of profit margins did not explain how a particular loan interest rate itself should be determined. In practice, banks set the interest rates on loans by relating them to a benchmark or reference interest rate. A commonly used reference rate is the prime interest rate. Traditionally, the prime rate was the interest rate posted by the bank for short and intermediate maturity loans for its most creditworthy customers, usually corporations with "blue-chip" credit ratings.
 
@@ -59,13 +76,13 @@ TABLE 8.1 The Profit Equation
 
 <table><tr><td>Income</td><td>Expenses</td><td>COST of Funds = Profit</td></tr><tr><td>Loan interest</td><td>Loan-processing costs</td><td>Cost of demand deposits</td></tr><tr><td>Noninterest fee income</td><td>Salaries</td><td>Cost of time deposits</td></tr><tr><td>Income from bank services</td><td>Postage</td><td>Cost of nondeposit funds</td></tr><tr><td></td><td>Advertising and marketing occupancy costs</td><td>Servicing costs</td></tr></table>
 
-# Compensating Balances
+### Compensating Balances
 
 Increased competition in banking in recent years has reduced the use of "compensating balances." Nevertheless, some banks still require minimum average deposit balances (known as compensating balances) as partial compensation for bank loans and other bank services. The bank's compensation results from not paying interest (or paying below-market interest) on compensating balances.
 
 Compensating balances frequently are used with loan commitments or lines of credit. They can be viewed as raising the effective loan rate. Although compensating balances requirements are usually stated as percentages of the dollar amounts of credit lines, many arrangements require the deposit of additional balances when credit lines are activated or used. Nominal loan rates are quoted in terms of the loan principal. If a borrower must use a part of the loan to meet compensating balances requirements, the effective loan rate on the funds available for the borrower's use will exceed the stated rate because the borrower is paying loan interest on funds committed to remain in his deposit account. This means that a bank can increase effective loan rates by simply increasing compensating balance requirements and leaving its prime rate unchanged. In other words, given the fact that the prime rate affects the bank's entire schedule of lending rates, the bank may respond to changes in market interest rates by leaving the prime unchanged but changing nonprice loan terms – maturities, collateral requirements, or compensating balance requirements – so that effective lending rates can be selectively altered.
 
-# The Relationship Between Lending Profit and Default Risk
+### The Relationship Between Lending Profit and Default Risk
 
 How should a bank set the interest rate on a loan? In the previous chapter, we made the simplifying assumption that each loan is priced to yield zero expected profit to the bank. As mentioned earlier, this is a representation of perfect competition among lenders. Such prices should only be viewed as minimal, however, since loan markets are imperfectly competitive. Thus, loans will be priced so that banks earn profits. The question is: How should the price of the loan be related to its riskiness? We will show that, because of agency problems, banks may price loans so that riskier borrowers are charged less than safer borrowers on a risk-adjusted basis.
 
@@ -108,11 +125,11 @@ The intuition is as follows. A high-risk borrower has riskier projects than a lo
 
 The management implication is obvious. Banks may wish to refocus their attention on the low-risk, low-spread borrowers. Deposit insurance has distorted these incentives and induced banks to pursue riskier investments than would otherwise be optimal. Moreover, to the extent that riskier borrowers are less well known, the intermediation rents that banks can earn from servicing these borrowers may also be greater. This too creates incentives for banks to pursue riskier borrowers. It turns out that the incentive effects of interest rates influence the overall allocation of credit, not just the pricing of loans. This is an issue we examine in the section on credit rationing.
 
-# The Mathematics of Loan Pricing
+## The Mathematics of Loan Pricing
 
 Having provided the basic background for loan pricing, we now develop the mathematics behind how loan processes are determined. It turns out that bank loan pricing has a close relationship to the principles of capital budgeting used by non-financial firms.
 
-# The Basic Components in the Loan Pricing Equation
+### The Basic Components in the Loan Pricing Equation
 
 The bank would like to set the price of the loan so as to have  $\mathrm{NPV} \geq 0$  to the bank. To ensure  $\mathrm{NPV} \geq 0$ , the expected loan revenues must exceed the bank's "cost of funds" plus the "institutional costs" of making the loan, that is.
 

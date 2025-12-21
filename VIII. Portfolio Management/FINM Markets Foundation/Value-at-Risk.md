@@ -1,22 +1,24 @@
 ---
 title: "Topic 3 - Value at Risk"
 parent_directory: "FINM Markets Foundation"
-formatted: "2025-12-21 08:00:00 AM"
+formatted: "2025-12-21 08:15:00 AM"
 formatter_model: "grok-code-fast-1"
 cli-tool: "opencode"
 primary_tags:
   - value at risk
+  - conditional value at risk
   - risk measurement
   - portfolio risk management
-secondary_tags:
-  - conditional value at risk
   - historical simulation
   - monte carlo simulation
-  - volatility modeling
-  - risk backtesting
+secondary_tags:
   - normal distribution
+  - lognormal distribution
   - extreme value theory
   - quantile regression
+  - volatility modeling
+  - risk backtesting
+  - t-distribution
 cssclasses: academia
 ---
 
@@ -60,87 +62,247 @@ prices = pd.read_excel(LOADFILE,sheet_name='prices').set_index('Date')
 FREQ = 252
 ```
 
-$$\newcommand{\E}{E}$$
+$$
 
-$$\newcommand{\rbar}{\bar{r}}$$
+\newcommand{\E}{E}
 
-$$\newcommand{\rvec}{\boldsymbol{r}}$$
+$$
 
-$$\newcommand{\rvecbar}{\boldsymbol{\bar{r}}}$$
+$$
 
-$$\newcommand{\Ntime}{N}$$
+\newcommand{\rbar}{\bar{r}}
 
-$$\newcommand{\Nt}{N}$$
+$$
 
-$$\newcommand{\rmat}{\boldsymbol{R}}$$
+$$
 
-$$\newcommand{\riskmeasure}{\varrho}$$
+\newcommand{\rvec}{\boldsymbol{r}}
 
-$$\newcommand{\wt}{w}$$
+$$
 
-$$\newcommand{\Nassets}{K}$$
+$$
 
-$$\newcommand{\muvec}{\boldsymbol{\mu}}$$
+\newcommand{\rvecbar}{\boldsymbol{\bar{r}}}
 
-$$\newcommand{\onevecNt}{\boldsymbol{1}_{\Ntime\times 1}}$$
+$$
 
-$$\newcommand{\covest}{\hat{\boldsymbol{\Sigma}}}$$
+$$
 
-$$\newcommand{\meanest}{\hat{\mu}}$$
+\newcommand{\Ntime}{N}
 
-$$\newcommand{\meanestvec}{\hat{\boldsymbol{\mu}}}$$
+$$
 
-$$\newcommand{\covmat}{\boldsymbol{\Sigma}}$$
+$$
 
-$$\newcommand{\rf}{r_f}$$
+\newcommand{\Nt}{N}
 
-$$\newcommand{\VaR}{\text{VaR}}$$
+$$
 
-$$\newcommand{\VaRqtau}{\VaR_{q,\tau}}$$
+$$
 
-$$\newcommand{\pnlVaR}{\pnl^{\VaR}}$$
+\newcommand{\rmat}{\boldsymbol{R}}
 
-$$\newcommand{\pnlVaRqtau}{\pnl^{\VaR_{q,\tau}}}$$
+$$
 
-$$\newcommand{\rVaR}{r^{\VaR}}$$
+$$
 
-$$\newcommand{\rVaRqtau}{r^{\VaR_{q,\tau}}}$$
+\newcommand{\riskmeasure}{\varrho}
 
-$$\newcommand{\loss}{L}$$
+$$
 
-$$\newcommand{\Pr}{\mathbb{P}}$$
+$$
 
-$$\newcommand{\quant}{q}$$
+\newcommand{\wt}{w}
 
-$$\newcommand{\port}{\Pi}$$
+$$
 
-$$\newcommand{\pnl}{\Gamma}$$
+$$
 
-$$\newcommand{\cdf}{\Phi}$$
+\newcommand{\Nassets}{K}
 
-$$\newcommand{\pdf}{\phi}$$
+$$
 
-$$\newcommand{\zscore}{\texttt{z}}$$
+$$
 
-$$\newcommand{\cdfz}{\cdf_{\zscore}}$$
+\newcommand{\muvec}{\boldsymbol{\mu}}
 
-$$\newcommand{\pdfz}{\pdf_{\zscore}}$$
+$$
 
-$$\newcommand{\rlog}{\texttt{r}}$$
+$$
 
-$$\newcommand{CVaR}{\text{CVaR}}$$
+\newcommand{\onevecNt}{\boldsymbol{1}_{\Ntime\times 1}}
 
-$$\newcommand{CVaRqtau}{\CVaR_{q,\tau}}$$
+$$
 
-$$\newcommand{\pnlCVaR}{\pnl^\CVaR}$$
+$$
 
-$$\newcommand{\pnlCVaRqtau}{\pnl^{\CVaR_{q,\tau}}}$$
+\newcommand{\covest}{\hat{\boldsymbol{\Sigma}}}
 
-$$\newcommand{\rCVaR}{r^\CVaR}$$
+$$
 
-$$\newcommand{\rCVaRqtau}{r^{\CVaR_{q,\tau}}}$$
+$$
 
-# Value at Risk (VaR)
+\newcommand{\meanest}{\hat{\mu}}
+
+$$
+
+$$
+
+\newcommand{\meanestvec}{\hat{\boldsymbol{\mu}}}
+
+$$
+
+$$
+
+\newcommand{\covmat}{\boldsymbol{\Sigma}}
+
+$$
+
+$$
+
+\newcommand{\rf}{r_f}
+
+$$
+
+$$
+
+\newcommand{\VaR}{\text{VaR}}
+
+$$
+
+$$
+
+\newcommand{\VaRqtau}{\VaR_{q,\tau}}
+
+$$
+
+$$
+
+\newcommand{\pnlVaR}{\pnl^{\VaR}}
+
+$$
+
+$$
+
+\newcommand{\pnlVaRqtau}{\pnl^{\VaR_{q,\tau}}}
+
+$$
+
+$$
+
+\newcommand{\rVaR}{r^{\VaR}}
+
+$$
+
+$$
+
+\newcommand{\rVaRqtau}{r^{\VaR_{q,\tau}}}
+
+$$
+
+$$
+
+\newcommand{\loss}{L}
+
+$$
+
+$$
+
+\newcommand{\Pr}{\mathbb{P}}
+
+$$
+
+$$
+
+\newcommand{\quant}{q}
+
+$$
+
+$$
+
+\newcommand{\port}{\Pi}
+
+$$
+
+$$
+
+\newcommand{\pnl}{\Gamma}
+
+$$
+
+$$
+
+\newcommand{\cdf}{\Phi}
+
+$$
+
+$$
+
+\newcommand{\pdf}{\phi}
+
+$$
+
+$$
+
+\newcommand{\zscore}{\texttt{z}}
+
+$$
+
+$$
+
+\newcommand{\cdfz}{\cdf_{\zscore}}
+
+$$
+
+$$
+
+\newcommand{\pdfz}{\pdf_{\zscore}}
+
+$$
+
+$$
+
+\newcommand{\rlog}{\texttt{r}}
+
+$$
+
+$$
+
+\newcommand{CVaR}{\text{CVaR}}
+
+$$
+
+$$
+
+\newcommand{CVaRqtau}{\CVaR_{q,\tau}}
+
+$$
+
+$$
+
+\newcommand{\pnlCVaR}{\pnl^\CVaR}
+
+$$
+
+$$
+
+\newcommand{\pnlCVaRqtau}{\pnl^{\CVaR_{q,\tau}}}
+
+$$
+
+$$
+
+\newcommand{\rCVaR}{r^\CVaR}
+
+$$
+
+$$
+
+\newcommand{\rCVaRqtau}{r^{\CVaR_{q,\tau}}}
+
+$$
+
+## Value at Risk (VaR)
 
 ## Definition
 
@@ -158,9 +320,9 @@ and $\port$ is the value of the portfolio.
 
 This says that…
 
-* there is a probability of $\quant$
-* that over a horizon of $\tau$ days
- * the portfolio PnL will be less than $\pnlVaRqtau$.
+- there is a probability of $\quant$
+- that over a horizon of $\tau$ days
+- the portfolio PnL will be less than $\pnlVaRqtau$.
 
 $$\Pr\left(\loss_{t,t+\tau} > L^{\VaRqtau}\right)  = \quant$$
 
@@ -356,7 +518,7 @@ Suppose there are 100 potential outcomes ("states").
 * In almost every state, the return is simply 
 $$r_{s,i}=r_{s,j} = \frac{s-50}{100}$$
 * The only exception is
-$$r_{i,(5)} = -.45, r_{j,(5)} = -.46\$$
+$$r_{i,(5)} = -.45, r_{j,(5)} = -.46$$
 
 $$r_{i,(4)} = -.46, r_{j,(4)} = -.45\$$
 
@@ -372,7 +534,7 @@ $$r_p^{\VaR_{.05}} = -.455$$
 
 The VaR is sensitive to the ordering around the specified quantile.
 
-* If two series do not share the timing of the returns around the $\quant$ threshold may happen. 
+* If two series do not share the timing of the returns around the $\quant$ threshold, this issue may arise. 
 * For instance, suppose we are looking at the worst-case scenario, and their worst and second-worst dates are swapped.
 
 ### Callback
@@ -450,7 +612,7 @@ GARCH looks a lot like EWMA, but note that
 The Hit Test is a common way of backtesting a VaR methodology.
 
 * It checks historically what the daily VaR would have been, given the information known at that time. It compares this to the actual performance for the day.
-* If the VaR is working well, then the day-t loss should only exceed the day-$t$ $\pnl^{\VaR_{\quant,1}}$ with a probability of $\quant.$
+* If the VaR is working well, then the day-t loss should only exceed the day-t $\pnl^{\VaR_{\quant,1}}$ with a probability of $\quant.$
 * But what if future market environment is very different than past environment with which fit test was run? Many VaR models looked okay before the 2007-2008 crisis hit!
 
 ```python
@@ -614,7 +776,7 @@ Advantages of historical simulation
 This approach estimates a cdf of losses nonparametrically by assuming the subsample frequency reflects the actual probabilities.
 
 * Thus, the estimated cdf can have any shape, based on the historic observations.
-* The two main advantages here are the ease of implementation and the flexibility in not assuming a probability distribution, (such as the normal,) ex-ante.
+ * The two main advantages here are the ease of implementation and the flexibility in not assuming a probability distribution (such as the normal) ex-ante.
 
 ## Disadvantages of Historical Simulation
 
@@ -672,4 +834,4 @@ Thus, Extreme Value Theory seeks distributions **only** for the extreme values o
 
 ## Quantile Regression
 
-Empically try to estimate the quantiles using some conditioning information, rather than the direct approach discussed above.
+Empirically try to estimate the quantiles using some conditioning information, rather than the direct approach discussed above.

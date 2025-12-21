@@ -1,8 +1,8 @@
 ---
 title: "Bid, Ask and Transaction Prices in a Specialist Market with Heterogeneously Informed Traders"
 parent_directory: "III. Liquidity of Assets/Class 5- Private Information, Liquidity, and Securitization"
-formatted: 2025-12-21 04:45:00 PM
-formatter_model: claude-sonnet-4
+formatted: 2025-12-21 04:05:00 PM
+formatter_model: claude-sonnet-4-5-20251001
 cli-tool: claude-code
 primary_tags:
    - bid ask spreads
@@ -104,17 +104,17 @@ Investors, upon arriving at the market and hearing the bid and ask, maximize exp
 Putting the utility functions and information structures together, the optimal decision of an investor arriving at time  $t$ , given bid  $B$  and ask  $A$  is given by
 
 $$
-\text{bu y} \quad \text{if } \quad Z_{t} > A,
+\text{buy} \quad \text{if } \quad Z_{t} > A,
 $$
 
 $$
-\text{se ll} \quad \text{if } \quad Z_{t} <   B,
+\text{sell} \quad \text{if } \quad Z_{t} <   B,
 $$
 
 where  $Z_{t}$  is given by
 
 $$
-Z_{t} = \rho_{t} \mathrm{E} [ V | F_{t} ] = \rho_{t} (1 - U_{t}) \mathrm{E} [ V | H_{t}, J_{t}, A, B ] + \rho_{t} U_{t} \mathrm{E} [ V | H_{t}, A, B ], \tag {1}
+Z_{t} = \rho_{t} \mathrm{E} [ V | F_{t} ] = \rho_{t} (1 - U_{t}) \mathrm{E} [ V | H_{t}, J_{t}, A, B ] + \rho_{t} U_{t} \mathrm{E} [ V | H_{t}, A, B ], \tag{1}
 $$
 
 where  $U_{t}$  is one if the individual arriving at  $t$  is uninformed and zero otherwise.
@@ -122,13 +122,13 @@ where  $U_{t}$  is one if the individual arriving at  $t$  is uninformed and zer
 Given the above behavior of the market participants, the specialist chooses bid and ask prices. Let the information available to the specialist at time  $t$  be represented by  $S_{t}$ . Assuming anonymity, the specialist cannot know when the bid and ask prices are set whether the next customer will be an insider or an outsider. Given the investors' behavior, the information available to the specialist at time  $t$ ,  $S_{t}$ , and bid and ask prices  $B$  and  $A$ , the specialist's expected profit from an arrival at time  $t$  is
 
 $$
-\mathrm{E} \left[ (A - V) I_{\{Z_{t} > A \}} + (V - B) I_{\{Z_{t} <   B \}} \mid S_{t} \right], \tag {2}
+\mathrm{E} \left[ (A - V) I_{\{Z_{t} > A \}} + (V - B) I_{\{Z_{t} <   B \}} \mid S_{t} \right], \tag{2}
 $$
 
 where  $I_{\{Z_t > A\}}$  and  $I_{\{Z_t < B\}}$  are, respectively, the indicator functions of the events  $\{Z_t > A\}$  and  $\{Z_t < B\}$ , i.e.,  $I_{\{Z_t > A\}}$  is one if the event  $\{Z_t > A\}$  occurs; otherwise it is zero. The expression, (2), may be rewritten as
 
 $$
-\begin{array}{l} \left(A - \mathrm{E} \left[ V \mid S_{t}, Z_{t} > A \right]\right) \mathrm{P} \left\{Z_{t} > A \mid S_{t} \right\} \\ - \left(B - \mathrm{E} \left[ V \mid S_{t}, Z_{t} <   B \right]\right) \mathrm{P} \left\{Z_{t} <   B \mid S_{t} \right\}, \tag {3} \\ \end{array}
+\begin{array}{l} \left(A - \mathrm{E} \left[ V \mid S_{t}, Z_{t} > A \right]\right) \mathrm{P} \left\{Z_{t} > A \mid S_{t} \right\} \\ - \left(B - \mathrm{E} \left[ V \mid S_{t}, Z_{t} <   B \right]\right) \mathrm{P} \left\{Z_{t} <   B \mid S_{t} \right\}, \tag{3} \\ \end{array}
 $$
 
 where  $\operatorname{E}[\cdot|\cdot]$  is the (conditional) expectation operator derived from the probability measure  $\mathbf{P}$ .
@@ -146,7 +146,7 @@ General existence of such functions would be difficult to show, since it involve
 the publicly available information  $H_{t}$ , then  $A_{t}$  and  $B_{t}$  are given by
 
 $$
-\begin{array}{l} A_{t} = \inf  \left\{a: a \geq \mathrm{E} \left[ V \mid H_{t}, Z_{t} > a \right] \right\}, \tag {4'} \\ B_{t} = \sup  \left\{b: b <   \mathrm{E} \left[ V \mid H_{t}, Z_{t} <   b \right] \right\}. \\ \end{array}
+\begin{array}{l} A_{t} = \inf  \left\{a: a \geq \mathrm{E} \left[ V \mid H_{t}, Z_{t} > a \right] \right\}, \tag{4'} \\ B_{t} = \sup  \left\{b: b <   \mathrm{E} \left[ V \mid H_{t}, Z_{t} <   b \right] \right\}. \\ \end{array}
 $$
 
 Our notion of equilibrium requires that the specialist not regret, ex post, any trade that he is obliged to make. For example, suppose that an investor arrives at time  $t$  and buys at the ask. After the trade, the information available to the specialist is  $S_{t}$  and the event that  $Z_{t}$  exceeded the ask. The specialist will update his expectation of  $V$  given this new bit of information, the probability that the trader was informed (given the past history) and the likelihood of a purchase given that he is informed. As long as the amount the specialist received was greater than or equal to this revised expectation, he does not regret the trade. Thus, the ask defined above is a reservation price. We assume that (unmodelled) competition drives the quoted ask to this reservation level.
@@ -205,7 +205,7 @@ Let  $T_{k}$  be the times at which trades occur. The above discussion shows tha
 $S_{k}$  and  $H_{k}$  by  $S_{k} = S_{T_{k}}^{+}$  and  $H_{k} = H_{T_{k}}^{+}$ . (Also, any process subscripted with a  $k$  will be understood to be the value of the process at time  $T_{k}$ .) If the  $k$ th trade takes place at the ask at time  $t$ , i.e., there is an arrival at time  $t$  and  $Z_{t}$  exceeds  $A_{t}$ , then the transaction price will be the ask price, which in this event is equal to the revised expectation of  $V$  given this event. Similarly, if there is a trade at the bid, the transaction price is the bid price which in this case is also the revised expectation of  $V$  given this (different) event. Mathematically, the transaction price is given by  $A_{k}I_{\{Z_{k} > A_{k}\}} + B_{k}I_{\{Z_{k} < B_{k}\}}$ . This is, by definition, equal to
 
 $$
-\mathrm{E} \left[ V \mid S_{T_{k}}, Z_{T_{k}} > A_{T_{k}} \right] I_{\left\{Z_{T_{k}} > A_{T_{k}} \right\}} + \mathrm{E} \left[ V \mid S_{T k}, Z_{T k} <   B_{T k} \right] I_{\left\{Z_{T_{k}} <   B_{T_{k}} \right\}}. \tag {5}
+\mathrm{E} \left[ V \mid S_{T_{k}}, Z_{T_{k}} > A_{T_{k}} \right] I_{\left\{Z_{T_{k}} > A_{T_{k}} \right\}} + \mathrm{E} \left[ V \mid S_{T k}, Z_{T k} <   B_{T k} \right] I_{\left\{Z_{T_{k}} <   B_{T_{k}} \right\}}. \tag{5}
 $$
 
 But (5) is just  $\operatorname{E}[V|S_{T_k^+}] = \operatorname{E}[V|S_k]$ . This observation allows us to write the  $k$ th transaction price as  $p_k = \operatorname{E}[V|S_k]$ , as long as  $k$  trades take place (i.e., as long as  $T_k$  is less than  $T_0$ ). Thus, if  $N$  trades actually takes place, then  $p_1, \ldots, p_N$  are the prices at which trades occur. Notice, however, that  $p_{N+1}$  is also well defined, and represents some intermediate value between the bid and ask prices at the end of the trading period. If one thinks in terms of computing returns based on daily data, this use of an imaginary transactions price is not far from the way CRSP calculations are done for days in which there is no trade. The specification of  $H_t^+$  from the preceding paragraph implies that  $p_k$  is measurable with respect to  $H_k$  which allows us to prove the following proposition:
@@ -245,13 +245,13 @@ hence the total spread is  $\Psi + 2c$ . Some straightforward calculations show 
 The variance of the price change is given by the following:  $\theta^2 + (\Psi / 2)^2 + c\Psi + 2c^2$ , where  $\theta^2$  is the variance of public information arriving exogenously between trades. Let  $\beta$  be the proportion of the spread due to transaction costs; i.e.,  $\beta = 2c / (\Psi + 2c)$ . Then the correlation coefficient,  $R$ , is given by the following:
 
 $$
-R = - \beta / \left(\delta + \beta^{2}\right), \tag {6}
+R = - \beta / \left(\delta + \beta^{2}\right), \tag{6}
 $$
 
 where  $\delta = 1 + (2\theta / (\Psi + 2c))^2$ . The correlation coefficient thus moves toward zero if the proportion of the spread due to informational asymmetries increases. We can invert (6) to get the proportional of the spread due to trading costs as a function of the correlation coefficient and  $\delta$  (a measure of how much public information arrives relative to the spread),
 
 $$
-\beta = \left(- 1 + \left(1 - 4 \delta R^{2}\right)^{1 / 2}\right) / 2 R. \tag {7}
+\beta = \left(- 1 + \left(1 - 4 \delta R^{2}\right)^{1 / 2}\right) / 2 R. \tag{7}
 $$
 
 Unfortunately, (7) alone does not define a useful statistic since in general  $\delta$  will not be known. It does suggest the possibility that transaction data might be used to find a measure of informational asymmetry.
@@ -471,13 +471,13 @@ Let the proportion of insiders in the trading population be designated by the pa
 It is clear that with our standing assumptions and in the absence of adverse selection the price would be the expected value  $E$ . Suppose that the ask price is set at  $A$  (where  $A < 11$ ) and that the next trader is an insider who wants to buy at that price. Then the specialist will lose  $11 - A$  to the insider. The event just described will occur with probability  $\alpha \pi$ , since the event that the buyer is an insider is independent of the value of  $V$ . The probability that a liquidity trader will buy at an ask price of  $A$  is precisely the probability that the preference parameter  $\rho$  exceeds  $A / E$ , which in the inelastic case is 0.5 and in the uniform case is  $1 - A / (2E)$ . So the specialist's break-even condition in the inelastic case is the linear equation (in  $A$ ),
 
 $$
-\alpha \pi (1 1 - A) = 0. 5 (1 - \alpha) (A - E), \tag {8}
+\alpha \pi (11 - A) = 0.5 (1 - \alpha) (A - E), \tag{8}
 $$
 
 and in the uniform case is the quadratic equation,
 
 $$
-\alpha \pi (1 1 - A) = (1 - \alpha) [ 1 - A / (2 E) ] (A - E), \tag {9}
+\alpha \pi (11 - A) = (1 - \alpha) [ 1 - A / (2 E) ] (A - E), \tag{9}
 $$
 
 provided  $A \leq 2E$ . The smaller root of the quadratic equation is the relevant one here, since the ask price is the lowest price at which the specialist breaks even.
@@ -485,19 +485,19 @@ provided  $A \leq 2E$ . The smaller root of the quadratic equation is the releva
 A similar argument shows that the bid price for the inelastic case solves the linear equation
 
 $$
-\alpha (1 - \pi) (B - 1) = 0. 5 (1 - \alpha) (E - B), \tag {10}
+\alpha (1 - \pi) (B - 1) = 0. 5 (1 - \alpha) (E - B), \tag{10}
 $$
 
 while the bid price for the uniform case is the larger root of the quadratic equation
 
 $$
-\alpha (1 - \pi) (B - 1) = (1 - \alpha) [ B / (2 E) ] (E - B). \tag {11}
+\alpha (1 - \pi) (B - 1) = (1 - \alpha) [ B / (2 E) ] (E - B). \tag{11}
 $$
 
 We have described how the specialist in this model determines a bid and ask price as a function of the parameter  $\alpha$  and his beliefs  $\pi$ . To complete the description of his dynamic behavior, it only remains to show how  $\pi$  changes as a result of market behavior. We let  $\pi^{+}$  denote the posterior beliefs of the specialist after a trade has just occurred. These posterior beliefs also serve as the prior beliefs for determining the bid and ask prices for the next trader.  $\pi^{+}$  is determined from Bayes' Theorem using the formula
 
 $$
-\left[ \pi^{+} / (1 - \pi^{+}) \right] = \left[ \pi / (1 - \pi) \right] F a c t o r,
+\left[ \pi^{+} / (1 - \pi^{+}) \right] = \left[ \pi / (1 - \pi) \right] Factor,
 $$
 
 where  $Factor$  is the likelihood ratio whose numerator is the probability of the trader's action given that  $V = 11$  and whose denominator is the probability of the action given  $V = 1$ . Note that  $Factor$  may depend on the action taken, the bid price, the ask price,  $\pi$  and  $\alpha$ , as well as on the model used - uniform or inelastic.
@@ -507,7 +507,7 @@ For any given model and any value of the parameter  $\alpha$ , the endogenous va
 Let us say that "nearly all of the insider information has been assimilated in the prices" when we reach the point where  $\pi/(1-\pi) < 1/Odds$  when  $V$  is low or  $\pi/(1-\pi) > Odds$  when  $V$  is high. For the case of perfectly inelastic demand, one can show<sup>8</sup> that the expected number of trades that must take place before nearly all information is revealed is approximately<sup>9</sup>
 
 $$
-\frac{\log \left(O d d s\right) + \left(1 - \pi_{0}\right) \log \left(\pi_{0} / \left(1 - \pi_{0}\right)\right)}{\alpha \log \left(\left(1 + \alpha\right) / (1 - \alpha)\right)}. \tag {12}
+\frac{\log \left(O d d s\right) + \left(1 - \pi_{0}\right) \log \left(\pi_{0} / \left(1 - \pi_{0}\right)\right)}{\alpha \log \left(\left(1 + \alpha\right) / (1 - \alpha)\right)}. \tag{12}
 $$
 
 For small values of  $\alpha$ , (12) is approximately proportioned to  $1 / \alpha^2$ . Also for small values of  $\alpha$  and for any  $\pi$ , the size of the spread determined in (8) and (10) is approximately proportional to  $\alpha$ . Thus, the effect of doubling  $\alpha$  from, say, 0.1 to 0.2 is roughly to double the spread at each level of  $\pi$  and to divide by four the time taken until nearly all insider information has been assimilated in prices.
@@ -531,7 +531,7 @@ Of course, by choosing  $\rho$ , the liquidity parameter, to be uniformly distri
 The model discussed in the previous section is based on a particular normalization of reservation prices that was mathematically convenient. This normalization took the form of the specialist having a  $\rho$  of one, while the median of the  $\rho$ 's of the traders was one. Another normalization that is of economic interest is the following: the reservation price of an individual arriving at time  $t$  is  $Z_{t}^{*}$  given by  $Z_{t}^{*} = \exp (r_{t}(T_{0} - t))Z_{t}$  where  $Z_{t}$  is as defined in the previous section, and  $T_{0}$  is the time of the informational event. The parameter  $r_t$  may arise from other unmodeled market opportunities and depends only on time, not on any personal characteristics. The zero profit condition for the specialist now becomes a zero excess return condition and may be stated as (if solutions exist):
 
 $$
-A_{t}^{*} = \exp \left(- r_{t} \left(T_{0} - t\right)\right) \mathrm{E} \left[ V \mid S_{t}^{*}, Z_{t}^{*} > A_{t}^{*} \right], \tag {13}
+A_{t}^{*} = \exp \left(- r_{t} \left(T_{0} - t\right)\right) \mathrm{E} \left[ V \mid S_{t}^{*}, Z_{t}^{*} > A_{t}^{*} \right], \tag{13}
 $$
 
 $$
@@ -575,7 +575,7 @@ On the other hand, it is easy to see that the existence of a bid-ask spread is l
 of the return that can be realized long-term is
 
 $$
-\begin{array}{l} \mathrm{E}_{t} \left[ \left(\frac{V}{A_{t}^{*}}\right) \right] = \mathrm{E}_{t} \left[ \left(\frac{p_{t}^{*}}{A_{t}^{*}} \frac{p_{t + \tau}^{*}}{p_{t}^{*}} \dots \frac{p_{t + n \tau}^{*}}{p_{t + (n - 1) \tau}^{*}} \frac{V}{p_{t + n \tau}^{*}}\right) \right] \\ = \mathbf {E}_{t} \left[ \left(\frac{p_{t}^{*}}{A_{t}^{*}}\right) \left(\frac{p_{t + \tau}^{*}}{p_{t}^{*}} \dots \frac{p_{t + n \tau}^{*}}{p_{t + (n - 1) \tau}^{*}} \frac{V}{p_{t + n \tau}^{*}}\right) \right] \\ = \mathbf {E}_{t} \left[ \left(\frac{p_{t}}{A_{t}}\right) \left(\frac{p_{t + \tau}^{*}}{p_{t}^{*}} \dots \frac{p_{t + n \tau}^{*}}{p_{t + (n - 1) \tau}^{*}} \frac{V}{p_{t + n \tau}^{*}}\right) \right]. \tag {14} \\ \end{array}
+\begin{array}{l} \mathrm{E}_{t} \left[ \left(\frac{V}{A_{t}^{*}}\right) \right] = \mathrm{E}_{t} \left[ \left(\frac{p_{t}^{*}}{A_{t}^{*}} \frac{p_{t + \tau}^{*}}{p_{t}^{*}} \dots \frac{p_{t + n \tau}^{*}}{p_{t + (n - 1) \tau}^{*}} \frac{V}{p_{t + n \tau}^{*}}\right) \right] \\ = \mathbf {E}_{t} \left[ \left(\frac{p_{t}^{*}}{A_{t}^{*}}\right) \left(\frac{p_{t + \tau}^{*}}{p_{t}^{*}} \dots \frac{p_{t + n \tau}^{*}}{p_{t + (n - 1) \tau}^{*}} \frac{V}{p_{t + n \tau}^{*}}\right) \right] \\ = \mathbf {E}_{t} \left[ \left(\frac{p_{t}}{A_{t}}\right) \left(\frac{p_{t + \tau}^{*}}{p_{t}^{*}} \dots \frac{p_{t + n \tau}^{*}}{p_{t + (n - 1) \tau}^{*}} \frac{V}{p_{t + n \tau}^{*}}\right) \right]. \tag{14} \\ \end{array}
 $$
 
 Since  $p_t \leq A_t$ , the above expected return is less than the observed return. If  $T_0 - t$  is large, however, then  $(p_t / A_t)^{1 / T_0 - t}$  will be close to one, and the long-term per period mean return will be close to the observed (from the transaction price sequence) per period return.

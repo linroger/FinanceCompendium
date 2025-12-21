@@ -1,9 +1,9 @@
 ---
 title: Chapter 3 Comparative Advantage, Competitiveness, and the Terms of Trade
 parent_directory: Globalization Lecture Notes Full
-formatted: 2025-12-21 07:56:25 PM
-formatter_model: grok-code-fast-1
-cli-tool: opencode
+formatted: 2025-12-21 08:00:00 AM
+formatter_model: obsidian-formatting-agent
+cli-tool: claude-code
 primary_tags:
   - comparative advantage principles
   - terms of trade dynamics
@@ -55,14 +55,14 @@ Once economies are open to free trade, the relative world price of one good in t
 The terms of trade (ToT) are a ratio of product prices on the world market. If there are only two sectors, then the terms of trade are the price of a country's exported good divided by the price of the country's imported good on the world market:
 
 $$
-\mathrm{To T} = P_{\text{Ex po rt go od}} / P_{\text{Im po rt go od}}.
+\mathrm{ToT} = P_{\text{Export good}} / P_{\text{Import good}}.
 $$
 
 If there are only two economies, then one economy's terms of trade are the inverse of the other economy's terms of trade. Take the example with California and Mexico as trading partners, and avocados and motorcycles as the two sectors. California's terms of trade are  $P_M / P_A$  if it exports motorcycles, and Mexico's terms of trade are  $P_A / P_M$  if Mexico exports avocados. With only two economies, each one imports the other's exports.
 
 We can generalize this example. For convenience, let's label the two economies in our example "home" (we) and "foreign*" (the foreign economy includes the globalized countries in the rest of the world). The main economic sectors for global trade are agriculture (avocado growers in the example) and manufacturing (motorcycle makers). Figure 3.1 shows the production possibility frontiers (PPFs) of the home economy and the foreign economy (Foreign*), and the two sectors, agriculture and manufacturing. The PPF of each economy is a black line. The slope of the line equals the economy's opportunity cost. If an economy is closed, consumers can at most afford choices on the economy's PPF as shown in panel (a) of Figure 3.1. When economists refer to a closed economy—that is, one that does not engage in global trade—they refer to the economy as being in a state of autarky. An economy in autarky relies on its own resources (that is literally what the Greek word autarky means).
 
-# Fundamentals.
+## Fundamentals
 
 Key force: Differences in technology (constant labor productivity by local sector)
 
@@ -73,213 +73,10 @@ Key force: Differences in technology (constant labor productivity by local secto
 - Countries: 2 (Home and Foreign*)
 - Perfect competition, transportation costs: 0
 - Constant returns to scale
-Balanced trade
+- Balanced trade
 - Contracts perfectly enforceable
 
-People have better consumption choices in an open economy than in autarky. To show this, let's begin by looking at panel (b) of Figure 3.1. The green international trade lines in the graph have a slope that equals the relative equilibrium price of the manufactured good and the agricultural good:  $P_{M} / P_{A}$ . (The price of the manufactured good is in the numerator because the good is on the horizontal axis.) Therefore, the slope of each green international trade line is equal to the terms of trade for the home economy. Consumers can afford any consumption choice on their economy's green trade line, and those are better than on the economy's production possibility frontier.
-
-The home economy specializes in the manufactured good. The rest of the world exports the agricultural good to the home economy, so the terms of trade for the foreign* economy are equal to the inverse of the slope of the international trade line  $(P_A / P_M)$ . In general, the slope of the international trade line reflects the terms of trade if the horizontal-axis good is exported, and shows the inverse of the terms of trade if the horizontal-axis good is imported. Under free trade, the resulting exchange of goods forms two identical red triangles that connect the production point of each economy with its consumption choice. The horizontal side of the home economy's red triangle measures the Home manufacturing exports (home production of manufactures exceeds home consumption of manufactures) and the equally large horizontal side of the foreign* economy's red triangle represents the foreign* manufacturing imports (foreign consumption of manufactures exceeds foreign manufacturing output). Similarly, the vertical sides of the red triangles measure the home agricultural imports and the equally large foreign* agricultural exports. Trade is balanced under the prevailing terms of trade along the green international trade line: the value of a country's exports equals the value of its imports.
-
-Figure 3.1: The Production Possibilities of Two Economies and Their Terms of Trade
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/aaffc86de9f1b25de3154d96aa050d5cd221fc625a218fba4e820bac2e871c19.jpg)
-
-Slopes of the Home PPF and the Foreign PPF* are the opportunity costs of the good on the horizontal axis in terms of the good on the vertical axis in both panels (a) and (b). Under free trade in panel (b), each country's green international trade line starts from the country's production point (complete specialization). The relative price of each country's export good exceeds that in autarky, placing the international trade lines above PPF and PPF*. Under free trade in (b), each country's possible consumption choices are anywhere on the country's green international trade line (its consumption possibilities); an example is a green point on the ray from the origin. The exchange of goods forms two identical red triangles, with Home manufacturing exports equal to Foreign manufacturing imports on the horizontal sides and Home agricultural imports equal to Foreign agricultural exports on the vertical side.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/7eafd781a4b9ff3909966a9b76f92b646d09d4d9a4a721fc946372ec1fca4780.jpg)
-
-# The Great Doubling
-
-Now suppose the Great Doubling gradually happens. Take the perspective of an already globalized home country. For such a home country the Great Doubling means that the rest of the world becomes more populous because more economies open their doors to trade. The rest of the world's labor force now includes workers in the newly globalized countries. From the home economy's point of view,  $L^{*}$  therefore increases and pushes the labor ratio  $L^{*} / L$  between the two economies up, while  $L$  stays the same. To make matters clear and simple, let's consider a slight increase in  $L^{*}$  as the Great Doubling gets under way.
-
-Suppose the newly globalized countries use production technologies like the other economies abroad. What will the expansion in the global labor force do to the opportunity cost of producing the manufactured good in the rest of the world? Well, nothing if the Great Doubling is just an expansion of the workforce with no productivity change. The opportunity cost are equal to the slope of the PPF, and the PPF changes position but it does not change slope. The foreign economy's PPF makes a parallel shift to the right. Figure 3.2 shows the move of the foreign PPF as it changes from the initial dotted line to the new solid line. In our Ricardian trade model differences in technology, and therefore opportunity costs, are given by a constant labor productivity (the inverse of the fixed per-unit labor requirements) in each economy, regardless of the size of that economy's workforce. If the per-unit labor requirements do not change, then the slope of the PPF stays the same, and therefore the opportunity costs remain the same.
-
-Figure 3.2: Population Growth and the Terms of Trade
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/8792c4144fd2808b5009d1ecee3b31669b43af43065fa71d5af707c4e38a2253.jpg)
-
-All dotted lines are the same as the solid lines in Figure 3.1. Growth of the foreign population  $L^{*}$  shifts the foreign PPF* right (in parallel to the dotted PPF* before), shown in panel (a). The Home PPF is unchanged in panel (b). Additional foreign supply of agricultural goods raises the relative world price  $P_{M} / P_{A}$  and makes the international trade lines steeper (compared to the dotted international trade lines before) for both economies in panels (a) and (b). Relatively cheaper agricultural produce raises the ray of consumption choices (compared to the dotted ray before) because consumers demand relatively more agricultural produce. The exchange of goods forms two new but again identical red triangles, and both countries's residents can afford better consumption choices than before.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/345e0cda7b5cc8886917efe986055cbe6be814f4227a5e6763205d0195b289b5.jpg)
-
-As a consequence, when the foreign labor force expands while the home labor force remains the same, the specialization pattern does not change in a world with two sectors: The home economy still completely specializes in manufacturing and the rest of the world in agriculture. The reason is that opportunity costs do not change. But the rest of the world now gets to supply a larger quantity of its exported good  $Q_{A}$  on the world market. What will that do to world prices? In competitive markets, relatively larger supplies of a good drive down the relative price of the good. In other words  $P_{A} / P_{M}$  drops, and the inverse price ratio  $P_{M} / P_{A}$  rises. Figure 3.2 depicts the increase in  $P_{M} / P_{A}$  with steeper green international trade lines for both economies, Home and Foreign*.
-
-As the supply of the agricultural good expands and its relative price drops, consumers around the world also demand relatively more of it. The ray of consumption choices shows consumers' preferred combinations of the agricultural good relative to the manufactured good at a given relative price. Recall our convention from Chapter 2 that, as consumers grow richer and richer, they move along a given ray of consumption choices and demand combinations of the two products that lie further to the right and up in the graph. Consumers purchase fixed proportions of the goods at any given relative price. For example, consumers spend 30 percent of their expenditures on avocados at any level of income, and 70 percent on motorcycles. If consumers demand 86 avocados and one motorcycle initially, then they demand 172 avocados and two motorcycles after their budgets double, and 344 avocados and 4 motorcycles after incomes double again—as long as relative prices stay the same. It is a different matter, however, when the relative prices change. Suppose the relative price of avocados falls. Then, if consumers keep an expenditure share of 30 percent for avocados, they will consume more avocados per motorcycle after the avocado price drops. As the relative price of avocados comes down, consumers may in fact want to raise their expenditure share of avocados, say to 40 percent. In that case they will consume even more avocados per motorcycle after the avocado price drops. Therefore, the ray of consumption choices from the origin turns upwards.[2]
-
-Should residents in the home economy welcome the Great Doubling? The answer is a clear yes: The terms of trade are turning in the home economy's favor. The home economy's exports used to fetch a lower relative price  $P_{M} / P_{A}$  in terms of its imports, and these terms of trade are going up. The home economy's residents can therefore afford consumption choices (on or below the new solid international trade line in green) that were not affordable before (above the old dotted international trade line in green). The home consumers switch their consumption point to the upper green dot in panel (b) of Figure 3.2. If a consumer switches choices, and the choice set is larger than before, we can infer that the consumer must be better off after the change. The consumer reveals a stronger preference for the new consumption choice. If the new choice were not better, then the consumer would keep the old choice.
-
-What about residents abroad, who have been newly integrated into the global economy? Are they better off? The answer is also a clear yes. Had their economy abroad remained in autarky, then they would be confined to consumption along their PPF* in panel (a) of Figure 3.2, which lies inside the consumption possibilities on the green international trade line. The latecomers' gains from trade may not be as large, however, as the gains for the early globalizers. While the black PPF shifts out in parallel and in proportion to the size of the newly globalized workforce, the green international trade line swings inward as the latecomers turn their own terms of trade against themselves (the foreigners' terms of trade  $P_A / P_M$  fall). Nonetheless, all participating economies gain overall.
-
-# Productivity Changes
-
-Globalization can take many forms. We treated the Great Doubling above as an expansion of the rest of the world's workforce and assumed that the newly globalized entrants into global trade have the same production technology as the previously globalized rest of the world. What if globalization is driven by productivity change abroad? Productivity growth reduces the unit labor requirements of output. Suppose the rest of the world experiences such productivity growth.
-
-Once the world is globalized, production and consumption are as depicted in panel (a) of Figure 3.3 with the light dotted lines. A productivity increase in agriculture means that the foreign* economy requires less labor input per agricultural output, so  $a_A^*$  falls. What happens to the foreign* economy's production possibilities as a result? The frontier turns. As  $a_A^*$  falls, the maximum amount of agricultural output  $L^* / a_A^*$  the foreign economy can produce increases. For example, if it now takes only 6 minutes of labor per avocado to produce one, instead of 12 minutes of labor needed before, then the total labor supply of  $L^* = 1,800,000$  worker hours in the foreign economy produces  $L^* / a_A^* = 1,800,000 / .1 = 18,000,000$  avocados, instead of only 9 million before. Figure 3.3 shows the resulting turn of the foreign economy's PPF.
-
-In the new equilibrium, the relative price of the agricultural product  $P_A / P_M$  on the world market must be lower than before. Why? In competitive markets, producers do not get to pocket the proceeds from a productivity change as profits. Instead the product's price falls. Take Mexico's avo
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/6237e9823b058d9357b54c0c14299bc94f561331a823db21e77e9d418e1a3688.jpg)
-
-(a) Foreign* Agricultural Productivity Growth
-
-All dotted lines are the same as the solid lines in Figure 3.1. Growth of foreign agricultural productivity raises  $L^{*} / a_{A}^{*}$  (because it lowers  $a_{A}^{*}$ ) and turns the foreign PPF* upwards as panel (a) shows. The Home PPF is unchanged. Additional foreign supply of agricultural goods raises the relative world price  $P_{M} / P_{A}$  and makes the international trade lines steeper (compared to the dotted international trade lines before) for both economies. Relatively cheaper agricultural produce raises the ray of consumption choices in panel (b), compared to the dotted ray before, because consumers demand relatively more agricultural produce. The exchange of goods forms two new but again identical red triangles, and both countries' residents can afford better consumption choices than before.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/aa5ed0faf3fd0b120b75ce399a4005e9e731658cff51666d29449cea6a478cbd.jpg)
-
-Figure 3.3: Productivity Changes and the Terms of Trade
-
-(b) Exchange of Goods and Consumption cados as an example. If Mexican avocado growers become more productive, the production cost per avocado falls. Suppose that initially no avocado grower lowers the price of avocados. Then there is a strong incentive for one avocado grower to cut the price of its avocados just a little. This will eat up some revenues. However, the first grower that does cut its price slightly will take over the entire avocado market because no consumer will purchase avocados from anyone else. Aware of this fact, all avocado growers will try to prevent losing market share by lowering their prices. In competitive equilibrium, only one price will prevail. At this price, no undercutting is viable anymore: The price of an avocado exactly equals the cost of producing it  $P_A = a_A^* w^*$ , where  $w^*$  is the wage paid to Mexican workers.
-
-When the foreign* economy's agricultural productivity improves, the home economy's terms of trade rise and its welfare increases. With free trade an economy shares a part of its export productivity growth with the economies it trades with, through changing terms of trade. Specifically, the economy that improves its export sector's productivity worsens the terms of trade for itself while improving the terms of trade for the economies to which it ships those exports.
-
-This benefit-sharing effect is not particular to globalization. Similar price changes occur inside of an economy between sectors, too. Think of an economy with only two groups of inhabitants: barbers and bakers. Suppose that improved baking technologies make it possible for each baker to turn out two loaves of bread in an hour instead of only one loaf. Each barber, however, still takes an hour for a haircut. What will happen to the price of haircuts relative to loaves of bread? Haircuts will become more expensive because the additional supply of bread loaves depresses their price. If the relative price of haircuts compared to bread loaves doubles, then the bakers will see no return at all on their additional output. The bakers will be just as well off as before, whereas the barbers will reap all the benefits from the baking productivity improvements.
-
-We can also make this comparison in our Ricardian diagram and conclude that, as an economy grows more productive in its export sector, its terms of trade will worsen. Conversely, its terms of trade will improve if instead the economies from which it buys goods become more productive in their export sectors. However, no matter how badly the terms of trade turn against an exporting economy, some gains from trade typically remain because its consumption possibilities are greater than they are in autarky.
-
-An economy's terms of trade measure how favorable world market conditions are for the exchange of its goods. If an economy commands a relatively high price for its exports, then it can afford a relatively large quantity of imports per export. So an economy's welfare and that of its consumers is naturally related to the terms of trade. The relationship is not a simple one, however. As you have learned, a country's welfare can still improve while its terms of trade drop. That happens, for example, when a country's productivity growth in the export sector benefits its own residents but, through dropping terms of trade, also improves the well-being of residents abroad. Conversely, a country's terms of trade can increase while its welfare declines as a result of import tariffs, a scenario we will look at in Chapter 7 on trade restrictions).
-
-# Change of Perspective: Globalization, Really
-
-To people and to scholars in the social sciences other than economics, our notion of globalization based on comparative advantage is bound to appear narrow. Anthony Giddens (1990, Ch. II, ebook edition loc. 911 of 2506), a sociologist and former director of the London School of Economics and Political Science, defined globalization as "the intensification of worldwide social relations which link distant localities in such a way that local happenings are shaped by events occurring many miles away and vice versa." Giddens views interactions between governments of nation states and the world military order as important separate forces of globalization, in addition to the world capitalist economy and the global division of labor, which this book explores. Manuel Castells (2010), professor emeritus of sociology and urban planning at UC Berkeley, views globalization as part of the emerging "network society." To him, globalization is the process by which human activity becomes organized in interactive networks that function on a planetary scale in real time.[4]
-
-In his critical introduction to globalization Jan Aart Scholte (2005), a political scientist and scholar of international studies at the University of Warwick in the United Kingdom, discerns four main uses of the word globalization, but does not find them broad enough to be helpful for a social scientist. First, Scholte argues that the "the g-word" (globalization) is often just another word for internationalization, namely when the term globalization is used simply to describe the extent of today's international trade and capital flows. Second, Scholte sees the term globalization as another word for market liberalization, which means that governments remove themselves from regulating or restricting movements across borders. Our hypothetical shift from autarky to free trade would be a case in point, or more realistically the political changes that made the Great
-
-Doubling happen. Third, Scholte lists the use of the word globalization in the sense of what he calls universalization—by which Scholte means the spread of objects such as cell phones or business suits around the world as well as the dissemination of experiences such as social media, curry dinners or management practices across the globe. Upcoming chapters cover trade in tasks and services, the flow of ideas, and the transfer of managerial expertise, all issues that belong to universalization.
-
-Those three meanings of the word globalization reach as far as this textbook can take you. Scholte observes a fourth common meaning of globalization: globalization as "westernization"—broadly understood as the spread of cultural norms, which are said to threaten existing cultures as if globalization were a form of colonization. Scholte considers each one of these four notions to be too narrow. Regarding globalization as "westernization" he writes that "it is by no means clear that globalization is intrinsically imperialist, given that there are emancipatory global social movements as well as exploitative global processes" (Scholte 2005, Ch. 2, ebook edition p. 58 of 492). Instead, Scholte (2005, Ch. 2, ebook edition p. 49 of 492) argues, globalization only offers meaningful insight when understood in broad geographic and sociological terms at the same time. Globalization to him means the spread of worldwide "connectivity … across multiple areas of social life, including communications, travel, production, markets, money, finance, organizations, military, ecology, health, law and consciousness." Except for health (the spread of diseases and cures), the military (the projection of power abroad) and consciousness, this book offers much of that coverage. When it comes to consciousness, Scholte analyzes how globalization fosters the formation of what he calls "nonterritorial identities." In other words, with the global spread of communication and social media, people start to perceive themselves as a part of global communities beyond the past "national identities [that] involved attachment to a particular homeland" (Scholte 2005, Ch. 7, ebook edition p. 239 of 492). For example, these people may relate more closely to their religion, political convictions, racial identities, or professions.
-
-An emerging field of economics investigates the origins of cultural conventions and identities and how they relate to trade and technology. In a study of international trade across the Mediterranean Sea in medieval time, for instance, Avner Grief (1993) documents how the Maghribi merchants from North Africa differed from Genoese merchants in Italy. Both networks of merchants faced the severe problem that neither the handling of traded goods in foreign ports nor payments could be monitored, and information took long to travel in letters on ships. The lack of oversight opened many opportunities for foreign traders to cheat. The Maghribi merchants built a code of conduct by which a misbehaving trader abroad would be sanctioned by all other merchants in the network, whereas the Genoese merchants chose the convention that only the individual cheated merchant would discipline a misbehaving trader. Using game theory (a mathematical tool to model strategic behavior) Grief (1993) showed that both the Maghribi and the Genoese conventions were stable arrangements (so-called Nash equilibria). In turn, Avner Grief (1994) argues that the different trade relations influenced societies, resulting in a more collectivist culture among the Maghribi and a more individualist culture in Genoa.
-
-Exploring the relation between technology and culture, a recent study by Alberto F. Alesina, Paola Giuliano and Nathan Nunn (2013) shows that societies today whose ancestors used to engage in plough agriculture in the past tend to have less participation of women in the workplace, in management positions, and in politics, and are more likely to report attitudes that reflect the belief that men and women are less equal. The researchers' argument is that the plough required upper-body strength that men could muster more easily, so that comparative advantage confined women more frequently to household work and this experience shaped lasting gender attitudes. Researchers in this fledgling area of economics are ready to admit, however, that much research work lies ahead to understand the exact connections between economics, culture and identity (Nathan Nunn 2012).
-
-# 3.2 Measures of Competitiveness
-
-Productivity is closely related to competitiveness. But both productivity and competitiveness are concerned with absolute advantage and therefore one step removed from comparative advantage. Competitiveness can still be a useful concept.
-
-A commonly used term in the study of industries is the concept of sectoral competitiveness. We say a sector is highly competitive if it is highly productive compared to the same sector elsewhere. Similarly, we can call an economy as a whole competitive if its sectors are productive on average.[5]
-
-# Sectoral Competitiveness
-
-A sector's labor productivity is the inverse of the sector's per-unit labor requirement. We can use this measure to gauge the competitiveness of the same sector in different countries. Economists like to use labor productivity as a measure of competitiveness because it arguably relates to the average resident's economic well-being. To see this idea at work, consider Table 3.1, which compares the labor productivity in the agricultural and manufacturing sectors of various countries.
-
-Mexico has suffered continually widening labor productivity gaps in both agriculture and manufacturing relative to the United States. India and South Korea, in contrast, have steadily narrowed their industries' labor productivity gaps with the United States. South Korea exhibits the arguably most impressive change. The country's manufacturing labor productivity was just one-quarter of that in the United States in 1975. By 2005, it was two-thirds of that in the United States—a level of manufacturing competitiveness comparable to that in European countries. South Korea is now a member of the OECD (Organisation for Economic Co-operation and Development), a club of developed countries.
-
-Single-industry comparisons document a sector's absolute advantage. They do not help us predict trade flows. When the United States, Canada and Mexico signed the North American Free Trade Agreement in 1994, some people forecast that Mexico would become an exporter of agricultural products to the United States. Instead, the United States has become a net exporter of agricultural products to Mexico. This should not be a surprise, as an analysis of comparative advantage in Table 3.1 shows. The opportunity cost of manufactures in terms of agricultural goods was  $12.3 / 26.1 = 0.47 = a_M^* /a_A^*$  in Mexico in 1995, which is far lower than the ratio of  $1 / 1 = a_{M} / a_{A}$  in the United States under the standardization. Mexico had a comparative advantage in manufacturing in 1995 compared to the United States.
-
-Table 3.1: Manufacturing and Agricultural Labor Productivity Relative to the United States
-
-<table><tr><td rowspan="2">(in percent)</td><td colspan="4">Agriculture</td><td colspan="4">Manufacturing</td></tr><tr><td>1975</td><td>1985</td><td>1995</td><td>2005</td><td>1975</td><td>1985</td><td>1995</td><td>2005</td></tr><tr><td>North America</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>United States</td><td>100.0</td><td>100.0</td><td>100.0</td><td>100.0</td><td>100.0</td><td>100.0</td><td>100.0</td><td>100.0</td></tr><tr><td>Mexico</td><td>12.2</td><td>18.2</td><td>14.6</td><td>12.3</td><td>38.7</td><td>42.6</td><td>32.9</td><td>26.1</td></tr><tr><td>South America</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Chile</td><td>4.8</td><td>7.2</td><td>23.1</td><td>25.1</td><td>13.4</td><td>20.5</td><td>29.0</td><td>37.2</td></tr><tr><td>Asia</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>India</td><td>2.4</td><td>2.8</td><td>4.1</td><td>3.8</td><td>7.0</td><td>7.5</td><td>7.7</td><td>8.1</td></tr><tr><td>Japan</td><td>22.2</td><td>28.0</td><td>37.4</td><td>33.8</td><td>67.8</td><td>82.3</td><td>78.2</td><td>71.1</td></tr><tr><td>South Korea</td><td>11.0</td><td>21.0</td><td>43.3</td><td>31.3</td><td>26.4</td><td>38.2</td><td>55.0</td><td>63.0</td></tr><tr><td>Europe</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>France</td><td>45.5</td><td>65.8</td><td>112.7</td><td>88.3</td><td>68.1</td><td>78.5</td><td>80.3</td><td>66.8</td></tr><tr><td>United Kingdom</td><td>65.4</td><td>68.6</td><td>111.5</td><td>77.0</td><td>56.3</td><td>68.7</td><td>76.5</td><td>68.8</td></tr></table>
-
-Sources: Groningen Growth and Development Centre 10-Sector Database (Bart Van Ark 1996, Marcel P. Timmer and Gaaitzen J. de Vries 2009); value added adjusted for purchasing power parity using the Penn World Table 7.1 (Alan Heston, Robert Summers and Bettina Aten 2012).
-
-# Economy-Wide Competitiveness
-
-Many countries' residents and governments place special emphasis on economy-wide competitiveness. Saudi Arabia, for instance, founded the Saudi Arabian General Investment Authority (SAGIA) at the turn of the century. SAGIA is responsible for improving the country's competitiveness and generating employment for its growing young population. One of the agency's goals is to improve the country's business environment and attract foreign companies. How attractive a country is to foreign companies is viewed as a measure of its economic competitiveness. Many aspects can make an economy's business environment promising: The economic and political stability of the country, the education of the local labor force, the presence of important suppliers or investors, and the time it takes to set up a new business, are among them. How can a country improve its economy-wide competitiveness? Good infrastructure typically results in low energy, telecommunications, and transportation costs, and raises economy-wide labor productivity. The efficiency of ports and airports facilitates international trade. A reliable legislative and judicial environment enables business success, as do the quality and transparency of the public administration. An effective justice system guarantees property rights and the enforcement of contracts, on which business relationships build. A predictable public administration fosters long-term planning, thus contributing to economy-wide labor productivity and competitiveness.
-
-The World Economic Forum in Switzerland annually publishes a global competitiveness report that attempts to measure the competitiveness of 144 countries based on these and similar criteria. The World Bank compiles related data in its annual Doing Business report on 183 countries.
-
-In our model, a country's economy-wide competitiveness is reflected in the size of its production possibilities and therefore the position of its PPF. When all sectors improve their labor productivity jointly, the position of the PPF shifts outward with no change in its slope. The country's residents see their well-being improve because they can afford larger consumption bundles. Comparative advantage, in contrast, is only determined by the slope of the PPF and independent of the frontier's position. So much for the graphical representation of competitiveness and comparative advantage. Let's compute some numbers.
-
-One simple measure of economy-wide competitiveness is the average productivity of the economy's sectors. To compute the average, we need to sum up the various goods it produces (motorcycles and avocados in our example). A typical convention in economics is to use the relative prices of the goods as weights. That is how GDP is calculated. Lets determine Mexico's competitiveness in autarky. One motorcycle is worth 300 avocados in autarky. So, the labor productivity of Mexican avocado growers is  $1 / a_{A} = 5$  avocados per hour. The labor productivity of Mexican motorcycle makers is  $1 / a_{M} = 1 / 60$  motorcycles per hour. So under autarky prices,  $1 / a_{M} = 1 / 60$  motorcycles per hour  $= 5$  avocados per hour. In other words, Mexico's overall competitiveness in terms of avocados is 5 avocados per hour. Given its labor endowment of 1.8 million work hours, if 5 avocados per hour can be produced, that means Mexico's corresponding GDP size is 9 million avocados (1.8 million hours times 5 avocados per hour).
-
-# Cross-Country Wage Gaps and Competitiveness
-
-A country's economy-wide competitiveness matters for its residents' prosperity. An alternative way to compare prosperity in a Ricardian trade model is to use the residents' wages. Concretely, we can define the cross-country wage ratio between the Home and Foreign* economies as
-
-$$
-\omega = w / w^{*}.
-$$
-
-We call this variable the wage gap.
-
-Figure 3.4 shows the manufacturing labor compensation in several countries relative to the United States, as reported by the U.S. Bureau of Labor Statistics (BLS). The BLS computes comparable manufacturing labor costs across countries and over time by including the worker's wage as well as employer-paid taxes and employer-paid social-security contributions. Wage gaps around the world are substantial. Hourly manufacturing labor costs in Northern Europe, including France and Germany, exceed those in the United States both in 1997 and 2011. South Korea's manufacturing labor costs are only half of those in the United States in 2011, and Mexico's are less than one-fifth. The gaps remain remarkably stable over the period.
-
-Using the Ricardian two-sector model, we can express the wage gap as a function of labor productivity and the terms of trade:
-
-$$
-\omega = w / w^{*} = \frac{a_{A}^{*}}{a_{M}} \frac{P_{M}}{P_{A}}.
-$$
-
-We can express the wage gap this way because the price of a good equals its unit production cost under perfect competition so that  $P_A = a_A^* w^*$  and  $w^* = P_A / a_A^*$  (and similarly for the manufactured
-
-Figure 3.4: Hourly Manufacturing Compensation Relative to the United States
-
-(a) 1997
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/eebd0124367179cacedc3853cd57bfd99ce702e6830cf444735aaf9cc9ca05b3.jpg)
-
-Source: U.S. Bureau of Labor Statistics 2013 (www.bls.gov/news/release/ichcc.t01.htm accessed 4/21/2013). Note: Hourly compensation costs in manufacturing divided by those in the United States.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/55cb2a6f3aedb0f01bdd8f76079d7223f649cc15a4903e678390caa0dbe9e30f.jpg)
-
-(b) 2011 good made at home). One interpretation of this gap is that for given terms of trade, higher productivity in the home economy widens the wage gap  $\omega$ . If you prefer a more formal statement: for given world prices  $P_A$  and  $P_M$ , a lower per-unit labor requirement in the home country's export sector  $a_M$  results in a higher cross-country wage ratio  $\omega = w / w^*$ .
-
-However, as you have learned, the terms of trade change with a productivity change. Under free trade, a drop in Mexico's per-unit labor requirement  $a_A^*$  to produce an agricultural product (a labor productivity increase) usually results in a decline in Mexico's terms of trade  $P_A / P_M$  that is, the relative world price of the agricultural good on the world market drops. But suppose, for example, that the decline in the terms of trade is as strong as the drop in the per-unit labor requirement of the exported good  $(P_A / P_M$  drops as much as  $a_A^*$  drops). Then the relative well-being between Mexico and the foreign countries it is trading with will be unchanged?–at least as far as the wage gap goes. That is, the wage gap  $\omega = w / w^{*}$  remains the same because the product of  $a_{A}^{*}$  with  $P_M / P_A$  is unchanged when the individual changes offset each other.
-
-Typically the decline in the terms of trade will not be as strong as the original drop in the per-unit labor requirement:  $P_A / P_M$  usually drops a little when  $a_A^*$  drops a lot. So, the Mexican economy will close the wage gap with California despite a decline in its terms of trade: the wage gap  $\omega = w / w^*$  falls.
-
-The wage gap is larger the stronger a country's economy-wide competitiveness is, making its residents more prosperous on average.
-
-Table 3.2: Top Exports and Comparative Advantage
-
-<table><tr><td></td><td>Top sales good</td><td>Top RCA good</td><td>Top sales good</td><td>Top RCA good</td></tr><tr><td></td><td colspan="2">Brazil</td><td colspan="2">South Korea</td></tr><tr><td></td><td>Iron ore &amp; concentrate</td><td>Iron ore &amp; concentrate</td><td>Electric machinery</td><td>Optical instruments</td></tr><tr><td>Local share in country&#x27;s exports</td><td>14\%</td><td>14\%</td><td>17\%</td><td>5\%</td></tr><tr><td>Global share in worldwide exports</td><td>0.6\%</td><td>0.6\%</td><td>8\%</td><td>0.5\%</td></tr><tr><td>Comparative advantage (RCA)</td><td>22.6</td><td>22.6</td><td>2.1</td><td>8.9</td></tr><tr><td></td><td colspan="2">China</td><td colspan="2">United Kingdom</td></tr><tr><td></td><td>Office machines</td><td>Silk</td><td>Road vehicles</td><td>Alcoholic beverages</td></tr><tr><td>Local share in country&#x27;s exports</td><td>13\%</td><td>0.02\%</td><td>9\%</td><td>2\%</td></tr><tr><td>Global share in worldwide exports</td><td>4\%</td><td>0.003\%</td><td>7\%</td><td>0.4\%</td></tr><tr><td>Comparative advantage (RCA)</td><td>3.2</td><td>7.7</td><td>1.2</td><td>4.1</td></tr><tr><td></td><td colspan="2">Mexico</td><td colspan="2">United States</td></tr><tr><td></td><td>Road vehicles</td><td>Television receivers</td><td>Electric machinery</td><td>Maize, unmilled</td></tr><tr><td>Local share in country&#x27;s exports</td><td>15\%</td><td>8\%</td><td>8\%</td><td>1\%</td></tr><tr><td>Global share in worldwide exports</td><td>7\%</td><td>0.7\%</td><td>8\%</td><td>0.2\%</td></tr><tr><td>Comparative advantage (RCA)</td><td>2.0</td><td>11.1</td><td>1.0</td><td>6.5</td></tr></table>
-
-Sources: Robert C. Feenstra, Robert E. Lipsey, Haiyan Deng, Alyson C. Ma and Hengyong Mo (2005, Revision 2, 2011) WTF trade data based on COMTRADE (2008), prepared as in Gordon H. Hanson, Nelson Lind and Marc-Andreas Muendler (2015).
-
-Notes: The Balassa measure of Revealed Comparative Advantage (RCA) is a summary index based on a double comparison, dividing an industry's local export share in a single country's exports by the industry's global export share in worldwide exports.
-
-# 3.3 Many Industries: The Dornbusch-Fischer-Samuelson Model
-
-Our analysis has been limited to just two sectors. It is time to consider more than two industries. What are a country's most successful export goods?
-
-Table 3.2 offers answers. It presents top export goods under two different rankings. One ranking considers a product's share in a country's overall exports ("top sales") and the other ranking uses a measure of comparative advantage ("top RCA," which stands for top revealed comparative advantage). Road vehicles and electric machinery are top products when it comes to their sales share in several countries' overall exports. Vehicles take the top sales spot in the United Kingdom and Mexico, for example. Exports in South Korea and the United States are strongly concentrated in electric machines. One reason for those sales concentrations is that clients worldwide demand a lot of cars and demand a lot of electric machines. As Table 3.2 shows, road vehicles and electric machinery in fact have a global share of 7 and 8 percent of all worldwide exports—accounting together for more than one in seven exports worldwide. The share of car exports from the United Kingdom and the share of electric machinery exports from the United States are not much above those goods' global shares in exports. This similarity suggests that those two industries are not really more successful in the United Kingdom and the United States than on world average. We should judge export success by a better measure. In what industries are exports concentrated beyond an industry's "fair" worldwide share?
-
-The Balassa measure of Revealed Comparative Advantage (RCA) is an index that relates a local industry's sales share to the industry's global fair share. Recall from Chapter 2 that the RCA measure is based on precisely such a double comparison. To compute the RCA index, we first find the numerator: an industry's local share in a single country's exports (dividing the industry's exports in a given country by the country's total exports). We then find the RCA denominator: the industry's global fair share in worldwide exports (dividing the industry's worldwide exports by the grand total of all exports in the world). The double comparison in the RCA index is complete after we divide the industry's local export share in the numerator by the industry's global fair share in the denominator. Table 3.2 shows that division, too. For electric machinery exported from the United States, the local export share is 8 percent, while the global fair share is also 8 percent. The resulting revealed comparative advantage measure for electric machinery from the United States therefore equals 1. At that value, the United States has neither a comparative advantage in electric machinery nor a comparative disadvantage. The RCA index exceeds 1 if the country's industry exhibits a revealed comparative advantage. Iron ore from Brazil is an extreme example of comparative advantage: the local export share for iron ore from Brazil exceeds the global fair share by a factor of approximately 23. (The numbers in Table 3.2 are rounded, so 22.6 is not exactly the same as 14 divided by 0.6.)
-
-In most countries the most successful export good, that is the good with the highest revealed comparative advantage, is typically not the good with the most local export sales. Except for the case of iron ore in Brazil, the top RCA goods are quite different from the top sales goods in Table 3.2. China's top RCA good is silk (not computers). Even though silk sales do not account for a large share of China's exports, silk worldwide accounts for an even smaller share of global exports, so China actually has a revealed comparative advantage in silk. Mexico's strongest comparative advantage is in TV sets (not vehicles), South Korea's is in optical instruments (not electric machines). Britain's strongest comparative advantage is in making alcoholic beverages (whiskey and not cars). The top U.S. comparative advantage good is unmilled maize (and not electric machinery). Under this comparative advantage perspective it may not be a surprise that Mexican corn farmers have a tough time competing against U.S. farmers under the North American Free Trade Agreement (NAFTA). But then U.S. TV manufacturers will have a tough time competing against Mexican TV makers.
-
-As globalization progresses, which production activities will remain in the home economy and which industries will shift abroad?
-
-# A Three-Industry Model
-
-Let's start by comparing three industries: avocados, motorcycles, and computers. Suppose the per-unit labor requirements in California and Mexico are:
-
-<table><tr><td></td><td colspan="3">Productivity gaps</td></tr><tr><td></td><td>California</td><td>Mexico</td><td>ai*/ai</td></tr><tr><td>Avocados</td><td>aA= .18</td><td>aA* = .20</td><td>10/9</td></tr><tr><td>Computers</td><td>aC= 4.5</td><td>aC* = 100</td><td>50/9</td></tr><tr><td>Motorcycles</td><td>aM= 18</td><td>aM* = 60</td><td>30/9</td></tr></table>
-
-It takes 4.5 hours to produce a computer in California and 10 hours to make a computer in Mexico. It is still the case in this example that California has an absolute advantage in every activity. California's
-
-Figure 3.5: Productivity Gaps Across Three Industries in Two Economies
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/cd0268a411d2fed12f630d43faaa295b9ea78dedd113600c62798d1c27fd1289.jpg)
-
-Panel (a) plots the productivity gaps  $a_{i}^{*} / a_{i}$  by industry  $i$  in declining order so that Home has a stronger comparative advantage in industries to the left and more of a comparative disadvantage in industries to the right. Panel (b) introduces the wage gap between the two economies. If an industry's production cost is lower at home than in the foreign* economy ( $a_{i}w < a_{i}^{*}w^{*}$ ) then the industry locates in the home economy. Equivalently  $i$  locates at home if the industry's productivity gap exceeds the cross-country wage gap  $a_{i}^{*} / a_{i} > \omega$ . The condition is satisfied for computers and motorcycles.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/06f366c5f548cb7e6d33a97a13d4a9cfa93697bce261d4d5eee14fc2b8914441.jpg) industries are more competitive than Mexico's.
-
-How can we figure out comparative advantage? The principle of comparative advantage requires that we make a double comparison, both between industries and between countries. Up to now, we used to begin by computing opportunity costs between industries within a country. With three industries, opportunity costs are ugly to compute because they are now the cost of one good in terms of the other two. We can make life simple by turning around the order of the two comparisons and start within every industry, comparing between countries. The final column of the table does just that: It computes the ratio between the per-unit labor requirement for making a good in Mexico and the per-unit labor requirement for making the same good in California. Industry by industry, the cross-country labor requirement ratios in the final column measure the relative resource use, or productivity gaps, between the two economies. Then we need to perform the second part of the double comparison and compare between industries. In other words, we need to rank the industries by their productivity gaps in the final column. As you look across the rows from avocados to computers to motorcycles, you will see that avocados have the lowest productivity gap of  $10/9$ , motorcycles rank second with a productivity gap of  $30/9$ , and computers rank highest with a productivity gap  $50/9$ .
-
-Trade and specialization at the extremes is quick to pin down. In which industry does California have the strongest comparative advantage? The answer is in the industry in which Mexico has the highest relative per-unit labor requirement: computers. The computer industry has the widest productivity gap between California and Mexico (the top labor requirement ratio) of  $50/9$ . In which industry does Mexico have the strongest comparative advantage? The avocado industry, which has the lowest productivity gap  $(10/9)$ .
-
-Every country needs to export at least one good under free global trade, so we can directly infer that Mexico will still be an avocado exporter. California will now be a computer exporter. These two industries are at the extremes in the ranking. What can we say about the motorcycle industry, which lies between the two extremes? Will Mexico or California be a motorcycle manufacturer? That depends on the cross-country wage ratio (the wage gap)  $\omega = w / w^{*}$ .
-
-Suppose global demand is such that the world trade equilibrium results in a wage gap of  $\omega = 3$ . Will Mexico put California's motorcycle industry out of business, or will it be the other way around? A motorcycle made in Mexico has a unit production cost of  $a_{M}^{*}w^{*} = 60w^{*}$ , whereas a motorcycle made in California has a unit production cost  $a_{M}w = 18w$ . Motorcycle manufacturing is therefore less costly in California if
-
-$$ a_{M} w = 1 8 w <   6 0 w^{*} = a_{M}^{*} w^{*} \qquad \mathrm{or eq ui va le nt ly} \qquad \omega = \frac{w}{w^{*}} = 3 <   \frac{3 0}{9} = \frac{a_{M}^{*}}{a_{M}}.
-$$
-
-The equivalence follows because we can divide both sides of the first inequality by  $w^*$  and by  $a_M$  (two positive numbers). Under perfect global competition, goods are produced where they are the cheapest to make. At a wage gap of  $\omega = 3$ , motorcycle manufacturing is indeed less costly in California. In general, if the cross-country wage gap  $\omega = w / w^*$  is smaller than the cross-country productivity gap  $a_i^* / a_i$  in industry  $i$  is, then good  $i$  will be produced at home under free trade.
-
-Panel (a) of Figure 3.5 shows the productivity gaps by industry for avocados, motorcycles, and computers. Panel (b) also depicts the wage gap between the two economies. All industries with productivity gaps that exceed the wage gap locate in the home economy and go out of business abroad. All industries with productivity gaps narrower than the wage gap locate in the foreign economy and go out of business at home. The chain of comparative advantage is
-
-$$
-\frac{a_{C}^{*}}{a_{C}} > \frac{a_{M}^{*}}{a_{M}} > \omega > \frac{a_{A}^{*}}{a_{A}}.
-$$
-
-The wage gap breaks the chain between motorcycles and avocados in the sense that computers and motorcycles are made exclusively in California, whereas avocados are exclusively grown in Mexico. There continues to be complete specialization in a Ricardian model with three industries: Every industry produces in only one location.
-
-With several goods, it is crucial to find the dividing line between comparative advantage and disadvantage (the goods between which the chain breaks). How can we know where to place the divide? Making that determination is actually easier when there are many industries rather than just a handful of them.
-
-# Fundamentals.
+## Fundamentals
 
 Key force: Differences in technology (constant labor productivity by local industry)
 
@@ -290,10 +87,10 @@ Key force: Differences in technology (constant labor productivity by local indus
 - Countries: 2 (Home and rest of world Foreign*)
 - Perfect competition, transportation costs: 0
 - Constant returns to scale
-Balanced trade
+- Balanced trade
 - Contracts perfectly enforceable
 
-# A Many-Industry Model
+## A Many-Industry Model
 
 We can generalize from three to many industries with little extra effort. The key is to use a convenient comparative advantage measure for many industries. As Rudiger Dornbusch, Stanley Fischer and Paul A. Samuelson (1977) first showed, a helpful measure of comparative advantage is the productivity gap of every industry  $i$  after the industry is ranked in terms of the productivity gap compared to all other industries in the home country. Since the productivity gap will be so important, let's define a new variable  $A(i)$  and use it as a shorthand from now on:
 
@@ -305,7 +102,7 @@ When there are many industries, the steps from one productivity gap to the next 
 
 Let's be more specific and also give industries with wide productivity gaps low-level labels—just as we did when we depicted the industry with the strongest comparative advantage first in the three-industry case (Figure 3.5). Industry 0, with  $A(0) = a^{*}(0) / a(0)$ , is the industry with the largest productivity gap. That is, industry 0 is the industry with the strongest comparative advantage in the home economy. Silk might take the zero spot if China were the home economy, and unmilled maize might occupy this zero spot in the United States as the home economy. Let's give industries with narrow productivity gaps high-level labels. For example,  $A(1) = a^{*}(1) / a(1)$  is the narrowest productivity gap, and so we label its industry 1. It is the industry with the weakest comparative advantage in the home economy. Using this labeling convention, we can pick any two industries (the one at  $s = .413$ , say, and the one at .762) and know that the one with the low-level label has a stronger comparative advantage in the home economy than the one with the high-level label.
 
-# Cross-Country Productivity Gaps
+## Cross-Country Productivity Gaps
 
 Once we adopt this labeling convention, we can call the ordered productivity gaps by what they measure: comparative advantage  $A(i) = a^{*}(i) / a(i)$ . Productivity gaps alone show a single productivity comparison, or absolute advantage, for an industry between countries. However, after we have ordered our industries with labels, the ranking from the highest productivity gap to the lowest productivity gap allows us to make a second comparison across industries within a single economy. In short, as we move from left to right in Figure 3.6, we go from the industry with the strongest comparative advantage to the one with the weakest comparative advantage in the home economy. The  $A(i)$  schedule gradually slopes downward. We do not really know the  $A(i)$  curve's exact shape, there could be flat parts, there could be vertical downward drops, but there cannot be any points where
 
@@ -319,7 +116,7 @@ Panel (a) plots the productivity gaps  $A(i) = a^{*}(i) / a(i)$  by industry  $i
 
 Consider any good  $i$ . The home country produces good  $i$  if its unit production cost is lower than abroad. Otherwise the home country's industry  $i$  goes out of business, and the foreign country produces good  $i$ . Concretely, the home country produces good  $i$  if
 
-$$ a (i) \cdot w \leq a^{*} (i) \cdot w^{*} \quad \text{or eq ui va le nt ly} \quad \omega = \frac{w}{w^{*}} \leq A (i).
+$$ a (i) \cdot w \leq a^{*} (i) \cdot w^{*} \quad \text{or equivalently} \quad \omega = \frac{w}{w^{*}} \leq A (i).
 $$
 
 Because we labeled industries so that those with the strongest comparative have low labels, starting at zero, there is a range of goods between 0 and a cutoff industry  $I$  getting produced at home. At the cutoff we have  $\omega = A(I)$ , so the good  $I$  could just be produced abroad or at home. This international division of labor, and the location of industries, is depicted in panel (a) of Figure 3.6. Industries between  $I$  and 1 exclusively locate in the foreign* economy.
@@ -336,7 +133,7 @@ $$
 Then divide the former equation by the latter equation to find
 
 $$
-\frac{w L}{w^{*} L^{*}} = \frac{i}{1 - i} \qquad \text{or eq ui va le nt ly} \qquad \omega = \frac{i}{1 - i} \frac{L^{*}}{L}.
+\frac{w L}{w^{*} L^{*}} = \frac{i}{1 - i} \qquad \text{and} \qquad \omega = \frac{i}{1 - i} \frac{L^{*}}{L}.
 $$
 
 The solution states that, under balanced trade, the cross-country wage premium  $w / w^{*}$  (the wage gap) that the home country's workers command is large if there is a wide range of industries  $i$  that are located at home. Why? When many industries locate at home, they bring a large share of global consumption expenditures to the home economy and thus increase the home economy's national income relative to the national income generated abroad. For example, if 40 percent of the industries locate at home and 60 percent abroad, then  $i / (1 - i) = 0.40 / 0.60 = 2 / 3$ . As a consequence, national income  $wL$  at home relative to national income abroad  $w^{*}L^{*}$  must also be split 2-to-3:  $(wL) / (w^{*}L^{*}) = i / (1 - i) = 2 / 3$ , and therefore  $\omega = (2 / 3)(L^{*} / L)$ .
@@ -345,7 +142,7 @@ Step three. Plot the wage gap function under balanced trade  $\omega = [i / (1 -
 
 Dornbusch-Fischer-Samuelson Trade. If there are many industries, two countries, and one factor that is mobile between industries but not countries, and industries differ in productivity, then each country will completely specialize in the industries with a comparative advantage (with productivity gaps that exceed the wage gap) and both countries gain from trade.
 
-# The Great Doubling, Revisited
+## The Great Doubling, Revisited
 
 With the equilibrium wage gap derived, we are now prepared to return to the main question of this chapter. What happens to the location of industries and a globalized economy's well-being under the Great Doubling? There is China's shift to market capitalism since the 1980s, the collapse of the Soviet Union and socialist bloc countries in 1989, India's participation in global trade since the 1990s, and finally Russia's membership in the WTO in 2012: Each of these changes resulted in an increase in the foreign workforce from  $L^{*}$  to some new  $L^{*^{\prime}}$ . Each expansion of the globalized labor force
 
@@ -367,13 +164,13 @@ What happens to the well-being of domestic workers following the Great Doubling?
 
 What happened with China, the Soviet Union, and India when they first globalized? For them, we need to draw a graph similar to panel (b) of Figure 3.7 and depict the outcome after globalization. Prior to first globalization, in contrast, these economies produced the entire range of goods themselves (autarky). The model predicts that China, the Soviet Union and India lose a range of industries upon opening to global trade: The industries with a comparative disadvantage locate elsewhere and their goods are imported to China, the Soviet Union and India after trade opening. Because the production cost of those goods is lower elsewhere, importing those goods raises the local residents' well-being. Moving from autarky to trade increases the well-being of an economy because there are gains to be made from trading.
 
-# Population Change In An Open Economy
+## Population Change In An Open Economy
 
 Note that a country that is already globalized and experiences slower population growth than its trading partners will see its real income per capita—that is the affordability of goods per resident—increase (see Concept Check C3.6, which walks you through the derivation of this result). By contrast, a globalized country with faster population growth than its trading partners will see its real income per capita decline. To offset the adverse effect that fast population growth has on the per-capita consumption of the country's residents, the country will need to improve its economy-wide competitiveness. Then real income per capita can increase.
 
 The link between population size and trade also helps explain why small open countries such as Luxembourg, Singapore, and Switzerland are among the countries with the highest incomes per capita in the world year after year, typically ahead of the United States, Japan, Germany, and other large industrialized countries and often even ahead of small open oil exporters such as Brunei, Qatar or Norway. A country with a relatively small population  $L$  faces a high  $L^{*} / L$  ratio. As you can infer from panel (b) of Figure 3.7, a country facing a high  $L^{*} / L$  ratio will specialize in a narrow range of highly productive industries that generate high per-capita incomes for its residents. "Small is beautiful" advocates may have a point after all.
 
-# Productivity Changes, Revisited
+## Productivity Changes, Revisited
 
 The Ricardian model with many industries equips us with the tools to trace changes in competitiveness. Suppose a technology improvement increases the foreign economy's labor productivity so that  $a_{i}^{*}$  drops in all industries abroad by the same percentage. This is an improvement in economy-wide competitiveness abroad. As a consequence, the productivity gaps  $A(i) = a_{i}^{*} / a_{i}$  among all of these industries fall proportionally. Figure 3.8 shows the resulting proportional downward shift in the  $A(i)$  schedule to  $A'(i)$ .
 
@@ -397,7 +194,7 @@ What happens to the real income per capita earned by domestic workers after prod
 
 What happens to foreign residents' well-being? Despite their worsening terms of trade, foreigners' welfare also improves with their productivity growth (see Concept Check C3.7, which walks you through the derivation of that result). The foreign residents share only a part of their benefits from productivity growth with their trading partners in the home economy. Foreigners do not end up transferring all the benefits of growth to the home country's residents.
 
-# Deindustrialization
+## Deindustrialization
 
 There is much concern with deindustrialization around the world. Deindustrialization is the loss of manufacturing employment in a country relative to its total employment or the loss of manufacturing value added relative to a country's GDP. Interestingly, the concern seems rampant in countries with widely differing per-capita incomes and development—countries ranging from Brazil and China to France, Germany, Japan, South Korea, and the United States. The ubiquity of the concern makes you wonder if a force other than globalization is driving deindustrialization. If globalization were the driver, then we should see industries relocate from one country to another like our Ricardian model with many industries showed. Industries would not go out of business everywhere at the same time, but the widespread fear of deindustrialization suggests that manufacturing activity is on a simultaneous decline across countries.
 
@@ -413,7 +210,7 @@ Source: OECD STAN Database 2012. 17 manufacturing industries consistently define
 
 Upcoming chapters will address foregone benefits such as these when industries locate elsewhere.[10]
 
-# Evidence on Specialization After The Great Doubling
+## Evidence on Specialization After The Great Doubling
 
 As you have seen, Ricardian trade theory predicts that previously globalized economies will specialize in a narrower set of industries under the Great Doubling. Workers will move to the comparative advantage industries that stay at their location and expand. How do these prediction hold up?
 
@@ -423,7 +220,7 @@ In the small open economies of Denmark and South Korea, the share of their respe
 
 In the process, the textiles and apparel industry dropped out of the top four in the United States and France, as production in this industry relocated elsewhere, and furniture manufacturing was pushed out of the top four in Denmark and South Korea. In their place, the machinery and equipment manufacturing industry entered the top-four list in the United States, the chemical and pharmaceutical industry joined the top four in France and Denmark, while the metal products industry made it to top-four status in South Korea. A common feature of these changes is that more labor intensive industries with relatively lower labor productivity drop from the leading industry list in these previously globalized economies. The economy of the Czech Republic became initially more diversified when it integrated into the global economy between 1995 and 2005. As it moved on to join the club of high-income OECD countries, it lost the textiles industry from its top four industries while motor vehicle manufacturing moved into its top four list. As Ricardian theory predicts, all five economies further concentrate employment in their top industries.
 
-# Think Twice about Convention: The Good, the Bad, and the Ugly—or Trade, Pollution, and Sweatshops
+## Think Twice about Convention: The Good, the Bad, and the Ugly—or Trade, Pollution, and Sweatshops
 
 The global economy depends on specialization and the division of labor across countries and industries. But not all industries, firms, and countries may end up specializing in desirable activities. What if the forces of globalization drive a country towards activities that tend to degrade its environment? What if a country ends up attracting sweatshops that show little regard for safety standards? The textiles industry in Bangladesh is often regarded to have particularly unsafe workplaces. In 2013, Rana Plaza near the city of Dhaka in Bangladesh, a multi story building that hosted five garment factories, collapsed and killed more than 1,100 workers. A Bangladeshi government panel found that the owners of the building had violated local building codes, while authorities failed to enforce the regulations.[11]
 
@@ -719,7 +516,7 @@ Figure 3.11: Graphs Accompanying Concept Checks and Discussion Questions
 
 F: Concept check C3.5
 
-# Further Readings
+## Further Readings
 
 Amiti, Mary, and Caroline Freund. 2010. "The Anatomy of China's Export Growth." In *China's Growing Role in World Trade*, ed. Robert C. Feenstra and Shang-Jin Wei, Chapter 1, 35-56. Chicago: University of Chicago Press.
 
@@ -733,7 +530,7 @@ Nunn, Nathan. 2012. "Culture and the Historical Process." Economic History of De
 
 Redding, Stephen J. 2008. "Empirical Approaches to International Trade." In The New Palgrave Dictionary of Economics. 2nd ed., ed. Steven N. Durlauf and Lawrence E. Blume. Palgrave Macmillan.
 
-# Mathematical Appendix 3.I: Home Welfare Change when the Foreign Population Grows in the Dornbusch-Fischer-Samuelson Model
+## Mathematical Appendix 3.I: Home Welfare Change when the Foreign Population Grows in the Dornbusch-Fischer-Samuelson Model
 
 There are three ranges of goods to look at when considering how affordable the goods are to the home economy's residents before and after foreign population growth. Panel (b) of Figure 3.7 shows those three ranges. In the lower range, from  $i = 0$  to  $i = I'$ , goods are produced in the home economy both before and after the Great Doubling. In this range, the new wage in the home economy  $w'$  after the Great Doubling affords as much consumption as before because the ratio between the new wage and these goods' new prices remains the same as the wage-price ratio before the Great Doubling:
 
@@ -746,7 +543,7 @@ The wage-price ratio of a good  $i$  is equal to the good's productivity because
 In the middle range, between  $I'$  and  $I$ , industries switch their production locations from the home economy to the foreign economy. The ratio between the new wage and these goods' new prices is higher than before the Great Doubling. To see this, note that the new price is equal to  $P_i' = a_i^* w^{*'}$  under perfect competition, so the new wage-price ratio can be expressed as  $w'/P_i' = \omega'/a_i^*$ , and that is larger than the wage-price ratio before:
 
 $$
-\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w^{\prime}}{a_{i}^{*} w^{* \prime}} = \frac{\omega^{\prime}}{a_{i}^{*}} > \frac{1}{a_{i}} = \frac{w}{P_{i}} \quad \text{in th er an ge be tw ee ni =I^{\prime} a n d i = I}
+\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w^{\prime}}{a_{i}^{*} w^{* \prime}} = \frac{\omega^{\prime}}{a_{i}^{*}} > \frac{1}{a_{i}} = \frac{w}{P_{i}} \quad \text{in the range between} i = I^{\prime} \text{and} i = I
 $$ because the wage gap exceeds the productivity gap  $\omega' > A(i)$  for goods that are foreign made. In other words, in this range goods have become more affordable for home residents with the Great Doubling.
 
 
@@ -754,13 +551,13 @@ In the upper range from  $i = I$  to  $i = 1$ , goods are produced in the foreig
 
 $$
 
-\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w^{\prime}}{a_{i}^{*} w^{* \prime}} = \frac{\omega^{\prime}}{a_{i}^{*}} > \frac{\omega}{a_{i}^{*}} = \frac{w}{a_{i} w^{*}} = \frac{w}{P_{i}} \quad \text{in th er an ge fr om} i = I \text{to} i = 1
+\frac{w^{\prime}}{P_{i}^{\prime}} = \frac{w^{\prime}}{a_{i}^{*} w^{* \prime}} = \frac{\omega^{\prime}}{a_{i}^{*}} > \frac{\omega}{a_{i}^{*}} = \frac{w}{a_{i} w^{*}} = \frac{w}{P_{i}} \quad \text{in the range from} i = I \text{to} i = 1
 
 $$ because  $\omega' > \omega$  in the new equilibrium after the Great Doubling.
 
 In summary, in two out of three ranges the goods have become more affordable for home residents with the Great Doubling and in one range the goods stayed as affordable as before. Overall, the increase in the foreign labor supply under the Great Doubling increased the home economy's wellbeing. As a result, the home country's residents are better off even though a range of industries in the economy relocated abroad. The international division of labor raises the home residents' welfare.
 
-# Mathematical Appendix 3.II: Home Welfare Change when Foreign Productivity Grows in the Dornbusch-Fischer-Samuelson Model
+## Mathematical Appendix 3.II: Home Welfare Change when Foreign Productivity Grows in the Dornbusch-Fischer-Samuelson Model
 
 There are three ranges of goods to look at when considering how affordable the goods are for home residents before and after foreign productivity grows. Panel (b) of Figure 3.8 shows the three ranges. In the lower range (between  $i = 0$  to  $i = I'$ ) goods are produced in the home economy both before and after the improvement in foreign productivity. In this range, the new wage  $w'$  affords as much consumption as before because domestic productivity does not change, and the new wage-price ratio remains the same as the wage-price ratio before:
 
@@ -787,7 +584,7 @@ In summary, in two out of three ranges, the goods have become more affordable fo
 
 The following Mathematical Appendix 3.III proves that the home economy's terms of trade improve.
 
-# Mathematical Appendix 3.III: Changes to the Terms of Trade in the Dornbusch-Fischer-Samuelson Model
+## Mathematical Appendix 3.III: Changes to the Terms of Trade in the Dornbusch-Fischer-Samuelson Model
 
 There are many industries now, so we need to broaden the definition of the terms of trade.
 
@@ -821,7 +618,7 @@ Now let's see how the ToT respond due to changes that originate in the middle ra
 
 Industry switching in the middle range therefore has a clear effect on the ratio of the average per-unit labor requirements: The ratio increases. The reason is that the foreign productivity growth pushes up the ToT denominator because the industries that remain at home have relatively larger productivity gaps than the industries that leave, so the average productivity gap is now larger. Conversely, the foreign productivity growth pushes down the ToT numerator because a broader range of industries including some with relatively smaller productivity gaps is being averaged. Taking the effects from all three ranges of goods together, foreign productivity growth raises the home country's terms of trade.
 
-# Mathematical Appendix 3.IV: Real Income in the Dornbusch-Fischer-Samuelson Model
+## Mathematical Appendix 3.IV: Real Income in the Dornbusch-Fischer-Samuelson Model
 
 In this appendix we will derive the change in real income per capita for residents of the home country after the productivity declines at home. We will look at three ranges of goods to analyze the affordability of goods for home residents before and after. In the lower range (from  $i = 0$  to  $i = I'$ ) goods are produced in the home country both before and after the home productivity decline. In this range, the new wage  $w'$  affords less consumption than before because domestic labor productivity falls and the new wage-price ratio drops below the previous wage-price ratio:
 
@@ -891,7 +688,7 @@ $$ because there is no productivity change in the foreign economy.
 
 Taken together, foreign residents are also worse off when their trading partner, the home country, experiences a productivity decline.
 
-# Statistical Online Supplement 3.S1: Gravity-based Comparative Advantage
+## Statistical Online Supplement 3.S1: Gravity-based Comparative Advantage
 
 The gravity equation allows us to isolate the comparative advantage component from the trade flows. After we estimate the gravity equation, we can statistically remove from the trade flows the components that are best explained by geography or the market characteristics of the destinations to which the products were exported—that is characteristics over which a source economy's industry has no control. That way we can truly look at how competitive the industries in the source country are. The Balassa measure of revealed comparative advantage (RCA) is quick to compute but imprecise because it does not accomplish this isolation of the source economy's industrial competitiveness.
 
@@ -927,11 +724,11 @@ Figure 3.12: Revealed Comparative Advantage, Gravity-Based Comparative Advantage
 Note: Axes drawn to logarithmic scale. Revealed and gravity-based comparative advantage are computed for all countries in the world, using 13 industries.
 
 
-# Statistical Online Supplement 3.S2: Gravity Estimation
+## Statistical Online Supplement 3.S2: Gravity Estimation
 
 There are many uses of the gravity equation. Two of the most common ones are (i) to assess the relevance of specific country characteristics and specific types of barriers to trade in select industries; and (ii) to estimate the pure source-country component of trade flows not related to destination-market characteristics and trade barriers.
 
-# The Relevance of Country Characteristics and Trade Barriers
+## The Relevance of Country Characteristics and Trade Barriers
 
 The gravity specification by Tinbergen (1962) and Pöyhönen (1963) is an example of the first gravity application used to assess country characteristics and trade barriers and their impact on bilateral trade. We want to estimate
 
@@ -953,7 +750,7 @@ $$ where the new constant  $b_{i} = \ln B_{i}$ , and  $e_{SDi}$  is an error ter
 
 The linear specification also makes it easy to include more variables in the gravity equation. Empirical economists often add variables such as the population of a country in addition to its GDP, geographic barriers to trade besides distance including indicators for landlocked countries or for country pairs with no common border, and human barriers to trade such as common language between the two countries or legal differences and tariffs between the two countries. After estimating an ordinary least squares (OLS) regression, one can then test, industry by industry, which trade barriers or country characteristics matter (because their coefficients are statistically significantly different than zero) or which are the strongest predictors.
 
-# Estimation of the Pure Source-Country Component in Trade Flows
+## Estimation of the Pure Source-Country Component in Trade Flows
 
 Suppose you want to assess the export success of an industry in a country that is not explained by favorable destination-market conditions or geographic circumstances. For this purpose, you can estimate
 
@@ -987,7 +784,7 @@ You can now use  $Y_{Si} = \exp \{y_{Si}\}$  to construct the GCA measure. Or, y
 
 For sample STATA code, see URL econ.ucsd.edu/muendler/book.
 
-# Empirical Exercises for the Online Supplement
+## Empirical Exercises for the Online Supplement
 
 E.1. Go to URL econ.ucsd.edu/muendler/book. Download the combined CEPII-WTF bilateral trade, geography and national income data for 2006, and estimate the gravity equation following the steps in the Statistical Online Supplement 3.S.
 
@@ -996,13 +793,13 @@ E.2. Go to URL econ.ucsd.edu/muendler/book. Download the prepared extract from t
 1990-2010 (296 observations) to show that
 
 $$
-\ln N_{2} O p. c. = -. 0 6 6 \ln \text{Op en ne ss} p. c. +. 1 2 2 \ln G D P p. c. + \text{Co un tr y}
+\ln N_2O p.c. = -0.066 \ln \text{Openness} p.c. + 0.122 \ln GDP p.c. + \text{Country}
 $$ where the numbers in brackets below coefficients are standard errors. Similarly, use the 133 countries with information on carbon dioxide emissions covered from 1960-2010 (4,616 observations) to show that
 
 
 $$
 
-\ln C O_{2} p. c. = \frac{. 1 4 8}{(. 0 2 7)} \ln \text{Op en ne ss} p. c. - \frac{. 1 6 4}{(. 0 2 7)} \ln G D P p. c. + \text{Co un tr y} + \text{Ye ar}
+\ln CO_2 p.c. = \frac{0.148}{(0.027)} \ln \text{Openness} p.c. - \frac{0.164}{(0.027)} \ln GDP p.c. + \text{Country} + \text{Year}
 
 $$
 

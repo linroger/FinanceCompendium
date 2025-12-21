@@ -1,7 +1,7 @@
 ---
 title: Case Study of Bear Stearns
 parent_directory: Class 7-CP, Repo, and the Crisis
-formatted: 2025-12-21 11:03:25 PM
+formatted: 2025-12-21 4:05:00 PM
 formatter_model: claude-sonnet-4-5-20251001
 cli_tool: claude-code
 primary_tags:
@@ -18,7 +18,7 @@ secondary_tags:
 cssclasses: academia
 ---
 
-# Case Study of Bear Sterns
+# Case Study of Bear Stearns
 
 From a forthcoming book:
 
@@ -42,21 +42,17 @@ Ironically, it is through its Asset Management that came the losses that would h
 
 ## Subprime and high leverage puts Bear Stearns funds under pressure
 
-In the years 2000s, Bear Stearns Asset Management, created in 1985, had become a large player in CDOs via two highly leveraged mortgage hedge funds worth USD 18bn, the High-Grade Structured Credit Strategies Fund (2003) and the High-Grade Structured Credit Strategies
+In the years 2000s, Bear Stearns Asset Management, created in 1985, had become a large player in CDOs via two highly leveraged mortgage hedge funds worth USD 18bn, the High-Grade Structured Credit Strategies Fund (2003) and the High-Grade Structured Credit Strategies Enhanced Leverage Fund (2006). These funds delivered a steady result attracting institutional investors. Part of the performance of the fund came from the high leverage and the use of complex derivatives: for every $10 invested, the funds would receive $1 from investors and borrow $9 in the market. Investors therefore faced an exposure to the housing market at ten times their initial investment. Leverage was made available at very attractive conditions through the repo market, further increasing the return on the portfolio.
 
-Enhanced Leverage Fund (2006). These funds delivered a steady result attracting institutional investors. Part of the performance of the fund came from the high leverage and the use of complex derivatives: for every  \$10 invested, the funds would receive\$ 1 from investors and borrow \$9 in the market. Investors therefore faced an exposure to the housing market at ten times their initial investment. Leverage was made available at very attractive conditions through the repo market, further increasing the return on the portfolio.
-
-The leverage on these funds even reached 35x invested assets. "The thesis behind the fund was that the structured credit markets offered yield over and above what their ratings suggested they should offer,"<sup>2</sup> BSAM Fund Manager Ralph Cioffi was reported saying. Leverage in the funds was achieved through repo (repurchase agreements), enable a counterparty to borrow a security from another one and for a given period of time. The flows are as follows: Bear Stearns would borrow to purchase CDOs and pledge as collateral other CDO tranches, accelerating the losses in the system when the cracks would appear in the housing market. With this boost from more additional risk taking, a CDO achieved a return between  $15\%$  and  $23\%$  annually, a level well in excess of a traditional mortgage, but this level did not raise any suspicion.
+The leverage on these funds even reached 35x invested assets. "The thesis behind the fund was that the structured credit markets offered yield over and above what their ratings suggested they should offer,"<sup>2</sup> BSAM Fund Manager Ralph Cioffi was reported saying. Leverage in the funds was achieved through repo (repurchase agreements), enabling a counterparty to borrow a security from another one and for a given period of time. The flows are as follows: Bear Stearns would borrow to purchase CDOs and pledge as collateral other CDO tranches, accelerating the losses in the system when the cracks would appear in the housing market. With this boost from more additional risk taking, a CDO achieved a return between  $15\%$  and  $23\%$  annually, a level well in excess of a traditional mortgage, but this level did not raise any suspicion.
 
 Size of repo business in Bear Stearns balance-sheet
 
-(USDmn) 2007 % Assets
-
-Securities purchased under agreements to resell 27,878 7%
-
-Securities received as collateral 15,599 4%
-
-Securities borrowed 82,245 21%
+| Item | USDmn | % Assets |
+|------|-------|----------|
+| Securities purchased under agreements to resell | 27,878 | 7% |
+| Securities received as collateral | 15,599 | 4% |
+| Securities borrowed | 82,245 | 21% |
 
 Source: Bear Stearns 10K filings 2007
 
@@ -66,7 +62,7 @@ The return of the two funds started to suffer in 2006 as the housing market star
 
 Given the size of its exposure, compounded by the leverage in the fund, Bear Stearns options to face this confidence crisis were limited. Bear Stearns managers initially tried to sell the most risky securities, but this only depressed the price of what were already illiquid assets, harming the performance of the funds even further. They had no other alternative but to convince investors to remain in the fund.
 
-The CDO business had become an important component of Bear Stearns business model and could be easily reverse and despite obvious signs that the housing bubble was beginning to burst, Bear Stearns even continued to build its exposure to subprime market in the years 2006-7. Selling CDO tranches had become more and more difficult and instead they were repackaged into "CDO-square" with a guarantee from a monoline insurer. This strategy may have bought Bear Stearns a bit of time buy time, but at the cost of an increase in the risk profile. Despite claims from Bear Stearns executives that the drop in housing market would be temporary, they had to face the reality that it was deteriorating very fast.
+The CDO business had become an important component of Bear Stearns business model and could be easily reversed and despite obvious signs that the housing bubble was beginning to burst, Bear Stearns even continued to build its exposure to subprime market in the years 2006-7. Selling CDO tranches had become more and more difficult and instead they were repackaged into "CDO-square" with a guarantee from a monoline insurer. This strategy may have bought Bear Stearns a bit of time, but at the cost of an increase in the risk profile. Despite claims from Bear Stearns executives that the drop in housing market would be temporary, they had to face the reality that it was deteriorating very fast.
 
 Confidence evaporated and investors and securities lenders were becoming more and more concerned with the losses to come. The link between the funds and Bear Stearns presented a real danger and their underperformance was starting to affect directly Bear Stearns credit standing and reputation, threatening its access to repo markets. Given the high dependence on external financing for Bear Stearns own operations, it was crucial to remain a creditworthy counterparty and preserve its relationships with the major trading counterparties.
 
@@ -85,7 +81,7 @@ What the collapse of Bear Stearns' funds revealed to the market was the highly u
 
 Bear Stearns' repo counterparties started to take a closer look at the exact value of the fund and the value of the collateral posted by Bear Stearns as early as May 2007. Loss of confidence in the quality of the assets produced a similar effect as a bank run: fearing losses, counterparties such as Goldman, Lehman, JP Morgan and Citigroup stopped providing the liquidity to the funds, accelerating the losses and leading to a liquidity crisis.
 
-As shown on the chart below, concerns on the quality of the assets (1) has counterparties requiring different assets as collateral and return of their cash in securities lending transactions (2), adding to the pressure on liquidity and forcing sale of assets at a loss, sending the prices of the assets down even further (3) and leaving Bear Stearns with no other choice but to freeze the redemption in the funds (4)
+As shown on the chart below, concerns on the quality of the assets (1) had counterparties requiring different assets as collateral and return of their cash in securities lending transactions (2), adding to the pressure on liquidity and forcing sale of assets at a loss, sending the prices of the assets down even further (3) and leaving Bear Stearns with no other choice but to freeze the redemption in the funds (4)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/a76fbc7c-933c-486a-9a10-f073c199b654/3beca8b85986c5f3c4562b0282452b5c4ddf7ec97daa5fdb81c8bdaa18f365c2.jpg)
 
@@ -105,9 +101,43 @@ Moody's downgrading of 15 mortgage-backed securities issued by Bear Stearns Alt-
 - reassignment of swaps with Bear Stearns to other banks  
 - cancellation of banking lines (USD500mn pulled by a single bank on March  $11^{th}$ )
 
-At this point, Bear Stearns was starting to run out of cash and the Fed, conscious of the damages for other securities firms that a collapse of Bear Stearns would create responded through an extraordinary lending of USD 200bn, the Term Securities Lending Facility designed to give breathing space to the repo market and restore confidence. Bear Stearns with only USD 2bn of liquidity left on  $13^{\text{th}}$  March received a USD 12.9bn lifeline form the Fed through JP Morgan the next day. JP Morgan ended buying Bear Stearns for USD 10 per share and as part of the transaction, USD 29.97bn worth of Bear Stearns troubled assets were transferred into a vehicle called Maiden Lane LLC owned by the Fed, to which JP Morgan had extended USD 1.15bn of subordinated debt.
+At this point, Bear Stearns was starting to run out of cash and the Fed, conscious of the damages for other securities firms that a collapse of Bear Stearns would create responded through an extraordinary lending of USD 200bn, the Term Securities Lending Facility designed to give breathing space to the repo market and restore confidence. Bear Stearns with only USD 2bn of liquidity left on  $13^{\text{th}}$  March received a USD 12.9bn lifeline from the Fed through JP Morgan the next day. JP Morgan ended buying Bear Stearns for USD 10 per share and as part of the transaction, USD 29.97bn worth of Bear Stearns troubled assets were transferred into a vehicle called Maiden Lane LLC owned by the Fed, to which JP Morgan had extended USD 1.15bn of subordinated debt.
 
-The fall of Bear Stearns not only directly put into question the weaknesses and risk behind the investment banking model as it developed in the 2000s, but also increased the fragility of the financial system when repo market shuts and counterparty risk rises. Pressure on liquidity can start a vicious circle when asset liquidations exacerbates their valuations and increases the losses.
+The fall of Bear Stearns not only directly put into question the weaknesses and risk behind the investment banking model as it developed in the 2000s, but also increased the fragility of the financial system when repo market shut and counterparty risk rises. Pressure on liquidity can start a vicious circle when asset liquidations exacerbates their valuations and increases the losses.
+
+```d2
+direction: right
+
+housing_bubble_burst: Housing Bubble Burst {
+  style.fill: "#ff6b6b"
+}
+
+fund_losses: Fund Losses {
+  style.fill: "#ffa726"
+}
+
+confidence_loss: Loss of Confidence {
+  style.fill: "#fb8c00"
+}
+
+liquidity_crisis: Liquidity Crisis {
+  style.fill: "#ef5350"
+}
+
+fed_intervention: Fed Intervention {
+  style.fill: "#66bb6a"
+}
+
+jp_morgan_buyout: JP Morgan Buyout {
+  style.fill: "#4caf50"
+}
+
+housing_bubble_burst -> fund_losses: Triggered losses in hedge funds
+fund_losses -> confidence_loss: Investors and counterparties lost confidence
+confidence_loss -> liquidity_crisis: Repo counterparties withdrew funding
+liquidity_crisis -> fed_intervention: Fed provided emergency lending
+fed_intervention -> jp_morgan_buyout: Enabled sale to JP Morgan
+```
 
 ## Lessons to be drawn from this case study:
 

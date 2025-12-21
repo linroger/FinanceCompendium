@@ -1,18 +1,31 @@
 ---
-tags:
-key_concepts:
-parent_directory:
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2/Federal Reserve Funding Facilities
 cssclasses: academia
 title: Primary Market Corporate Credit Facility
+formatted: 2025-12-21 08:00:45 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+- primary market corporate credit facility
+- federal reserve funding
+- corporate bond purchases
+secondary_tags:
+- treasury equity investment
+- special purpose vehicle
+- eligible corporate issuers
+- investment grade rating
+- syndicated loan purchases
+- facility pricing structure
+- program termination conditions
 ---
 
 # Primary Market Corporate Credit Facility
 
-Effective July 28,  $2020^{1}$
+Effective July 28, $2020^{1}$
 
-Facility: The Primary Market Corporate Credit Facility ("Facility") will serve as a funding backstop for corporate debt issued by eligible issuers. Under the Facility, the Federal Reserve Bank of New York ("Reserve Bank") will commit to lend to a special purpose vehicle ("SPV") on a recourse basis. The SPV will (i) purchase qualifying bonds as the sole investor in a bond issuance; and (ii) purchase portions of syndicated loans or bonds at issuance. The Reserve Bank will be secured by all the assets of the SPV. The Department of the Treasury will make a  \$75 billion equity investment in the SPV to support both the Facility and the Secondary Market Corporate Credit Facility ("SMCCF"). The initial allocation of the equity will be\$ 50 billion toward the Facility and \$25 billion toward the SMCCF. The combined size of the Facility and the SMCCF will be up to \$750 billion.
+Facility: The Primary Market Corporate Credit Facility ("Facility") will serve as a funding backstop for corporate debt issued by eligible issuers. Under the Facility, the Federal Reserve Bank of New York ("Reserve Bank") will commit to lend to a special purpose vehicle ("SPV") on a recourse basis. The SPV will (i) purchase qualifying bonds as the sole investor in a bond issuance; and (ii) purchase portions of syndicated loans or bonds at issuance. The Reserve Bank will be secured by all the assets of the SPV. The Department of the Treasury will make a \$75 billion equity investment in the SPV to support both the Facility and the Secondary Market Corporate Credit Facility ("SMCCF"). The initial allocation of the equity will be \$50 billion toward the Facility and \$25 billion toward the SMCCF. The combined size of the Facility and the SMCCF will be up to \$750 billion.
 
-# Eligible Assets:
+## Eligible Assets
 
 Eligible corporate bonds as sole investor. The Facility may purchase eligible corporate bonds as the sole investor in a bond issuance. Eligible corporate bonds must meet each of the following criteria at the time of bond purchase by the Facility: (i) issued by an eligible issuer; and (ii) have a maturity of 4 years or less.
 
@@ -36,7 +49,7 @@ Limits per Issuer: Issuers may approach the Facility to refinance outstanding de
 
 The maximum amount of instruments that the Facility and the SMCCF combined will purchase with respect to any eligible issuer is capped at 1.5 percent of the combined potential size of the Facility and the SMCCF.
 
-# Pricing:
+## Pricing
 
 Eligible corporate bonds as sole investor. Pricing will be issuer-specific, informed by market conditions, plus a 100 bps facility fee. Pricing also will be subject to minimum and maximum spreads over yields on comparable maturity U.S. Treasury securities, and such spread caps and floors will vary based on an eligible issuer's credit rating as of the date on which the Facility makes a purchase.
 

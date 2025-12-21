@@ -133,7 +133,7 @@ $$
 
 The portfolio VaR is derived from the distribution of  $r_p$ . The three approaches vary in the assumptions they make.
 
-# The Approach of RiskMetrics
+## The Approach of RiskMetrics
 
 The approach of RiskMetrics Group is centered on the assumption that asset returns have a multivariate normal distribution. Under this assumption, the distribution of the portfolio return is also normal. Therefore, in order to calculate the portfolio VaR, we only have to calculate the expected return of  $r_p$  and the standard deviation of  $r_p$ . The 99\% VaR will appear as the negative of the 1\% quantile of the  $N(Er_p, \sigma_{r_p}^2)$  distribution.
 
@@ -179,7 +179,7 @@ Note that  $q_{0.99}$  is a quantity independent of the portfolio composition; i
 
 The approach of RiskMetrics can be extended for other types of distributions. Lamantia et al. (2006a) and Lamantia et al. (2006b) provide such extensions and comparisons for Student's  $t$  and stable distributions.
 
-# The Historical Method
+## The Historical Method
 
 The historical method does not impose any distributional assumptions; the distribution of portfolio returns is constructed from historical data. Hence, sometimes the historical simulation method is called a nonparametric method. For example, the  $99\%$  daily VaR of the portfolio return is computed as the negative of the empirical  $1\%$  quantile of the observed daily portfolio returns. The observations are collected from a predetermined time window such as the most recent business year.
 
@@ -190,7 +190,7 @@ While the historical method seems to be more general as it is free of any distri
 
 3. It is not reliable for estimation of VaR at very high confidence levels. A sample of one year of daily data contains 250 observations, which is a rather small sample for the purpose of the  $99\%$  VaR estimation.
 
-# The Hybrid Method
+## The Hybrid Method
 
 The hybrid method is a modification of the historical method in which the observations are not regarded as IID but certain weights are assigned to them depending on how close they are to the present. The weights are determined using the exponential smoothing algorithm. The exponential smoothing accentuates the most recent observations and seeks to take into account the time-varying volatility phenomenon.
 
@@ -208,7 +208,7 @@ $$ where  $0 < \lambda < 1$ , and  $c = \frac{1 - \lambda}{1 - \lambda^k}$  is a
 
 Generally, the hybrid approach is appropriate for VaR estimation of heavy-tailed time series. It overcomes, to some degree, the first and the second deficiency of the historical method but it is also not reliable for VaR estimation of very high confidence levels.
 
-# The Monte Carlo Method
+## The Monte Carlo Method
 
 In contrast to the historical method, the Monte Carlo method requires specification of a statistical model for asset returns. The statistical model is multivariate, hypothesizing both the behavior of the asset returns on a stand-alone basis and their dependence. For instance, the multivariate normal distribution assumes normal distributions for the asset returns viewed on a stand-alone basis and describes the dependencies by means of the covariance matrix. The multivariate model can also be constructed by specifying explicitly the one-dimensional distributions of the asset returns, and their dependence through a copula function.
 
@@ -249,7 +249,7 @@ The true merits of the Monte Carlo method can only be realized when the portfoli
 
 While it may seem a straightforward approach, the practical implementation is a very challenging endeavor from both the software development and financial modeling points of view. The portfolios of big financial institutions often contain products that require yield curve modeling, development of fundamental and statistical factor models, and, on top of that, a probabilistic model capable of describing the heavy tails of the risk-driving factor returns, the autocorrelation, clustering of the volatility, and the dependence between these factors. Processing large portfolios is related to manipulation of colossal data structures, which requires excellent skills of software developers in order to be efficiently performed.
 
-# BACK-TESTING OF VaR
+## BACK-TESTING OF VaR
 
 If we adopt VaR for analysis of portfolio exposure, then a reasonable question is whether the VaR calculated according to any of the methods discussed in the previous section is realistic. Suppose that we calculate the  $99\%$  daily portfolio VaR. This means that according to our assumption for the portfolio return (payoff) distribution, the portfolio loses more than the  $99\%$  daily VaR with  $1\%$  probability. The question is whether this estimate is correct; that is, does the portfolio really lose more than this amount with  $1\%$  probability? This question can be answered by back-testing of VaR.
 
@@ -278,14 +278,14 @@ where  $N$  is the number of indicator-type events,  $\epsilon$  is the tail pro
 
 Note that the statistical test based on the back-testing of VaR at a certain tail probability cannot answer the question if the distributional assumptions for the risk-driving factors are correct in general. For instance, if the portfolio contains only common stocks, then we presume a probabilistic model for stocks returns. By back-testing the  $99\%$  daily VaR of portfolio return, we verify if the probabilistic model is adequate for the  $1\%$  quantile of the portfolio return distribution; that is, we are back-testing if a certain point in the left tail of the portfolio return distribution is sufficiently accurately modeled. This should not be confused with statistical tests such as the Kolmogorov test or the Kolmogorov-Smirnov test, which concern accepting or rejecting a given distributional hypothesis.
 
-# COHERENT RISK MEASURES
+## COHERENT RISK MEASURES
 
 Even though VaR has an intuitive interpretation and has been widely adopted as a risk measure, it does not always satisfy the important property that the VaR of a portfolio should not exceed the sum of the VaRs of the portfolio positions. This means that VaR is not always capable of representing the diversification effect.
 
 This fact raises an important question. Can we find a set of desirable properties that a risk measure should satisfy? An answer is given by Artzner et al. (1998). They provide an axiomatic definition of a functional, which they call a coherent risk measure. The axioms follow with remarks given below each axiom. We denote the risk measure by the functional  $\rho(X)$  assigning a real-valued number to a random variable. Usually, the random variable  $X$  is interpreted as a random payoff and the motivation for the axioms in Artzner et al. (1998) follows this interpretation. In the remarks below each axiom, we provide an alternative interpretation, which holds if  $X$  is interpreted as random return.
 
 
-# The Monotonicity Property
+## The Monotonicity Property
 
 Monotonicity  $\rho (Y)\leq \rho (X),$ if  $Y \geq X$  in almost sure sense
 
@@ -299,7 +299,7 @@ $$
 $$ where  $I_A$  is the initial investment in opportunity A and  $I_B$  is the initial investment in opportunity B. If the initial investment  $I_A$  is much larger than  $I_B$ , then  $\mathrm{Payoff}(X) > \mathrm{Payoff}(Y)$  irrespective of the inequality  $Y > X$ . In effect, investment A may seem less risky than investment B in terms of payoff but in terms of return, the converse may hold.
 
 
-# The Positive Homogeneity Property
+## The Positive Homogeneity Property
 
 Positive Homogeneity  $\rho (0) = 0$ $\rho (\lambda X) = \lambda \rho (X)$ for all  $X$  and all  $\lambda >0$
 
@@ -314,7 +314,7 @@ $$
 $$ where  $h = I_0 / (I_0 + C)$  is a positive constant. The axiom positive homogeneity property implies that  $\rho(X) = h\rho(Y)$ ; that is, the risk of the new portfolio will be the risk of the portfolio without the cash but scaled by  $h$ .
 
 
-# The Subadditivity Property
+## The Subadditivity Property
 
 Subadditivity  $\rho(X + Y) \leq \rho(X) + \rho(Y)$ , for all  $X$  and  $Y$
 
@@ -330,7 +330,7 @@ $$ where  $\lambda \in [0,1]$ . If  $X$  and  $Y$  describe random returns, then
 
 convexity property that is behind the diversification effect that we expect in the case of  $X$  and  $Y$  denoting random returns.
 
-# The Invariance Property
+## The Invariance Property
 
 Invariance  $\rho (X + C) = \rho (X) - C,$ for all  $X$  and  $C\in \mathbb{R}$
 
@@ -367,7 +367,7 @@ According to the discussion in the previous section, VaR is not a coherent risk 
 
 An example of a coherent risk measure is the Average Value-at-Risk (AVaR), defined as the average of the VaRs that are larger than the VaR at a given tail probability  $\epsilon$ . The accepted notation is  $AVaR_{\epsilon}(X)$  in which  $\epsilon$  stands for the tail probability level. A larger family of coherent risk measures is the family of spectral risk measures, which includes the AVaR as a representative. The spectral risk measures are defined as weighted averages of VaRs.
 
-# KEY POINTS
+## KEY POINTS
 
 - VaR is defined as the minimum level of loss at a given, sufficiently high confidence level for a predefined time horizon.
 
@@ -381,14 +381,14 @@ An example of a coherent risk measure is the Average Value-at-Risk (AVaR), defin
 
 - Three approaches for portfolio VaR calculation that are used in practice are the Risk-Metrics approach, the historical method approach, and the Monte Carlo approach.
 
-# NOTES
+## NOTES
 
 1. A boxplot, or a box-and-whiskers diagram, is a convenient way of depicting several statistical characteristics of the sample. The size of the box equals the difference between the third and the first quartile (75\% quantile-25\% quantile), also known as the interquartile range. The line in the box corresponds to the median of the data (50\% quantile). The lines extending out of the box are called whiskers and each of them is long up to 1.5 times the interquartile range. All observations outside the whiskers are labeled outliers and are depicted by a plus sign.
 
 
 2. This label can be found in Föllmer and Schied (2002).
 
-# REFERENCES
+## REFERENCES
 
 Artzner, P., Delbaen, F., Eber, J.-M., and Heath, D. (1998). Coherent measures of risk. Math. Fin. 6: 203-228.
 

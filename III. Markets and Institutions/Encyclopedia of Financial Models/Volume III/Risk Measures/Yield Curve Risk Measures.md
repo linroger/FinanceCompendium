@@ -44,16 +44,16 @@ Suppose that the following two Treasury portfolios are constructed. The first po
 The dollar duration of the bullet portfolio is 6.49821. Recall that dollar duration is a measure of the dollar price sensitivity of a security or a portfolio. The dollar duration of the barbell is the weighted average of the dollar duration of the two Treasury securities in the portfolio and is computed below:
 
 $$
-0. 5 1 8 6 (4. 2 1 1 2 2) + 0. 4 8 1 4 (9. 8 9 6 8 1) = 6. 9 4 8 2 1
+0.5186(4.21122) + 0.4814(9.89681) = 6.94821
 $$
 
 The dollar duration of the barbell is equal to the dollar duration of the bullet. In fact, the barbell portfolio was designed to produce this result.
 
-Duration is just a first approximation of the change in price resulting from a change in in terest rates. The convexity measure provides a second approximation. The dollar convexity measure of the two portfolios is not equal. The dollar convexity measure of the bullet portfolio is 31.09724. The dollar convexity measure of the barbell is a weighted average of the dollar convexity measure of the two Treasury securities in the portfolio. That is,
+Duration is just a first approximation of the change in price resulting from a change in interest rates. The convexity measure provides a second approximation. The dollar convexity measure of the two portfolios is not equal. The dollar convexity measure of the bullet portfolio is 31.09724. The dollar convexity measure of the barbell is a weighted average of the dollar convexity measure of the two Treasury securities in the portfolio. That is,
 
 
 $$
-0. 5 1 8 6 (1 0. 6 7 9 1 2) + 0. 4 8 1 4 (7 3. 6 3 7 3 7) = 4 0. 9 8 6 5 8
+0.5186(10.67912) + 0.4814(73.63737) = 40.98658
 $$
 
 Thus, the bullet has a dollar convexity measure that is less than that of the barbell portfolio. Below is a summary of the dollar duration and dollar convexity of the two portfolios:
@@ -106,7 +106,7 @@ In Table 4, the nonparallel shift assumes that for a change in C's yield, the yi
 
 The key point here is that looking at duration or convexity tells us little about performance over some investment horizon because performance depends on the magnitude of the change in yields and how the yield curve shifts.
 
-# CASH-FLOW DISTRIBUTION ANALYSIS VERSUS A BENCHMARK
+## CASH-FLOW DISTRIBUTION ANALYSIS VERSUS A BENCHMARK
 
 The most straightforward approach to assessing a portfolio's risk exposure to yield curve shifts is by looking at the distribution of the present value of the cash flows for the portfolio being managed versus a benchmark. The benchmark will be either a bond index or a liability structure. The steps are as follows:
 
@@ -128,7 +128,7 @@ Another difficulty in the implementation process is the allocation of cash flows
 
 Despite its simplicity, the cash-flow distribution analysis is commonly used as a measure of yield curve risk for index fund managers (see Volpert, 2000).
 
-# KEY RATE DURATION
+## KEY RATE DURATION
 
 One approach to measure yield curve risk is to change the yield for a particular maturity of the yield curve and determine the sensitivity of a security or portfolio to this change, holding all other yields constant. The sensitivity of the change in value to a particular change in yield is called rate duration. There is a rate duration for every point on the yield curve. Consequently, there is not one rate duration, but a vector of durations representing each maturity on the yield curve. The total change in value if all rates change by the same number of basis points is simply the duration of a security or portfolio to a parallel shift in rates.
 
@@ -153,20 +153,19 @@ Table 5 Valuation of 5-Year  $6 \%$  Coupon Bond Using Spot Rates
 To compute the key rate duration of the 5-year bond, we must select some key rates. We assume the key rates are 0.5, 3, and 5 years. To compute the 0.5-year key rate duration, we shift the 0.5-year rate upwards by 20 basis points and adjust the neighboring spot rates between 0.5 and 3 years as described earlier. (The choice of 20 basis points is arbitrary.) Figure 2 shows the initial spot curve and the spot curve after the 0.5-year key rate and neighboring rates are shifted. The next step is to compute the bond's new value as a result of the shift. This calculation is shown in Table 6. The bond's value to the shift is 107.30. To estimate the 0.5-year key rate duration, we divide the percentage change in the bond's price as a result of the shift in the spot curve by the change in the 0.5-year key rate. Accordingly, we employ the following formula:
 
 $$
-\text{Ke yr at ed ur at io n} = \frac{P_{0} - P_{1}}{P_{0} (\Delta y)}
+\text{Key rate duration} = \frac{P_{0} - P_{1}}{P_{0}(\Delta y)}
 $$ where
 
-
 $$
-P_{0} = \text{th eb on d 's va lu eu si ng th ei ni ti al sp ot}
-$$
-
-$$
-\begin{array}{l} P_{1} = \text{th eb on d 's va lu ea ft er th es hi ft in th e} \\ \text{sp ot cu rv e} \end{array}
+P_{0} = \text{the bond's value using the initial spot}
 $$
 
 $$
-\Delta y = \text{sh if t}
+\begin{array}{l} P_{1} = \text{the bond's value after the shift in the} \\ \text{spot curve} \end{array}
+$$
+
+$$
+\Delta y = \text{shift}
 $$
 
 Substituting in numbers from our illustration presented above, we can compute the 0.5-year
@@ -180,21 +179,21 @@ Figure 2 Graph of the Initial Spot Curve and the Spot Curve after the 0.5-Year K
 
 
 $$
-P_{0} = 1 0 7. 3 2
+P_{0} = 107.32
 $$
 
 $$
-P_{1} = 1 0 7. 3 0
+P_{1} = 107.30
 $$
 
 $$
-\Delta y = 0. 0 0 2
+\Delta y = 0.002
 $$
 
-0.5-year key rate duration  $= \frac{107.32 - 107.30}{107.32(0.002)}$
+0.5-year key rate duration $= \frac{107.32 - 107.30}{107.32(0.002)}$
 
 $$
-= 0. 0 9 3 2
+= 0.0932
 $$
 
 To compute the 3-year key rate duration, we repeat this process. We shift the 3-year rate by 20 basis points and adjust the neighboring spot rates as described earlier. Figure 3 shows the initial spot curve and the spot curve after the 3-year key rate and neighboring rates are shifted. Note that in this case the only two spot rates that do not change are the 0.5-year and the
@@ -208,14 +207,14 @@ Figure 4 Graph of the Initial Spot Curve and the Spot Curve after the 5-Year Key
 5-year key rates. Then, we compute the bond's new value as a result of the shift. The bond's postshift value is 107.25 and the calculation appears in Table 7. Accordingly, the 3-year key rate duration is computed as follows:
 
 $$
-\begin{array}{l} 3 - \text{ye ar ke yr at ed ur at io n} = \frac{1 0 7 . 3 2 - 1 0 7 . 2 5}{1 0 7 . 3 2 (0 . 0 0 2)} \\ = 0. 3 2 6 1 \\ \end{array}
+\begin{array}{l} 3\text{-year key rate duration} = \frac{107.32 - 107.25}{107.32(0.002)} \\ = 0.3261 \\ \end{array}
 $$
 
 The final step is to compute the 5-year key duration. We shift the 5-year rate by 20 basis points and adjust the neighboring spot rates. Figure 4 presents a graph of the initial spot curve and the spot curve after the 5-year key rate and neighboring rates are shifted. The bond's postshift value is 106.48 and the calculation appears in Table 8. Accordingly, the 5-year key rate duration is computed as follows:
 
 
 $$
-\begin{array}{l} 5 \text{ye ar ke yr at ed ur at io n} = \frac{1 0 7 . 3 2 - 1 0 6 . 4 8}{1 0 7 . 3 2 (0 . 0 0 2)} \\ = 3. 9 1 3 5 \\ \end{array}
+\begin{array}{l} 5\text{-year key rate duration} = \frac{107.32 - 106.48}{107.32(0.002)} \\ = 3.9135 \\ \end{array}
 $$
 
 Table 7 Valuation of the 5-Year  $6 \%$  Coupon Bond After 3-Year Key Rate and Neighboring Spot Rates Change
@@ -232,7 +231,7 @@ As a result, it is useful to think of a set of key rate durations as a decomposi
 
 Key rate durations are most useful when comparing two (or more) bond portfolios that have approximately the same duration. If the spot curve is flat and experiences a parallel shift, these two bond portfolios can be expected to experience approximately the same percentage change in value. However, the performance of the two portfolios will generally not be the same for a nonparallel shift in the spot curve. The key rate duration profile of each portfolio will give the portfolio manager some clues about the relative performance of the two portfolios when the yield curve changes shape and slope.
 
-# SLOPE ELASTICITY MEASURE
+## SLOPE ELASTICITY MEASURE
 
 The slope elasticity measure, introduced by Schumacher, Dektar, and Fabozzi (1994) for managing the yield curve risk of portfolios of collateralized mortgage obligation bonds, also looks at the sensitivity of a position or portfolio to changes in the slope of the yield curve. They define the yield curve slope as the spread between the 30-year on-the-run Treasury yield and the 3-month Treasury bill yield (that is, basically the longest and the shortest points on the Treasury yield curve).
 
@@ -249,7 +248,7 @@ The slope elasticity is then the average of the slope elasticity for the two sce
 
 A bond or bond portfolio that benefits when the yield curve flattens is said to have positive slope elasticity; a bond or a bond portfolio that benefits when the yield curve steepens is said to have negative slope elasticity. The definition of yield curve risk follows from that of slope elasticity. It is defined as the exposure of the bond to changes in the slope of the yield curve.
 
-# YIELD CURVE RESHAPING DURATION
+## YIELD CURVE RESHAPING DURATION
 
 Yield curve reshaping duration, introduced by Klaffky, Ma, and Nozari (1992), focuses on three points on the yield curve: 2-year, 10-year, and 30-year, and the spread between the 10-year and 2-year issues and the spread between the 30-year and 10-year issues. The former spread is referred to as the short end of the yield curve, and the latter spread the long end of the yield curve. Klaffky, Ma, and Nozari refer to the sensitivity of a portfolio to changes in the short end of the yield curve as short-end duration (SEDUR) and to changes in the long end of the yield curve as long-end duration (LEDUR). These concepts, however, are applicable to other points on the yield curve.
 
@@ -277,7 +276,7 @@ $$
 
 For an illustration, see Fabozzi (1999).
 
-# ANALYSIS OF LIKELY YIELD CURVE SHIFTS
+## ANALYSIS OF LIKELY YIELD CURVE SHIFTS
 
 While key rate duration is a useful measure for identifying the exposure of a portfolio to different potential shifts in the yield curve, it is difficult to employ this approach to yield curve risk in hedging a portfolio. An alternative approach is to investigate how yield curves have changed historically and incorporate typical yield curve change scenarios into the hedging process. This approach of using likely yield curve changes obtained from principal component analysis has been suggested by Richard and Gord (1997), Golub and Tilman (1997), and Axel and Vankudre (2000).
 
@@ -289,9 +288,7 @@ Empirically, studies have found that yield curve changes are not parallel. Rathe
 - For a nonparallel shift in the yield curve, duration and convexity may not provide adequate information about the risk exposure to changes in interest rates.
 - Yield curve risk is the exposure of a portfolio to a change in the shape of the yield curve. There are several approaches that have been proposed for measuring a portfolio's yield curve risk.
 - A simple approach to measuring yield curve risk, an approach commonly used by index managers, is an analysis of the cash flow distribution of a portfolio relative to a benchmark.
-
-
-Key rate duration measures how changes in Treasury yields at different points on the spot rate curve affect the value of a bond.
+- Key rate duration measures how changes in Treasury yields at different points on the spot rate curve affect the value of a bond.
 - Slope elasticity looks at the sensitivity of a position or portfolio to changes in the slope of the yield curve and is defined as the approximate negative percentage change in a bond's price resulting from a 100-basis-point change in the slope of the curve.
 - Yield curve reshaping duration decomposes the yield curve into a short end and a long end. The sensitivity of a portfolio to changes in the short end of the yield curve is called short-end duration (SEDUR) and to changes in the long end of the yield curve is called long-end duration (LEDUR).
 - Using principal component analysis, a portfolio manager can determine likely yield curve shifts and use those shifts to assess the exposure of a portfolio to yield curve risk.

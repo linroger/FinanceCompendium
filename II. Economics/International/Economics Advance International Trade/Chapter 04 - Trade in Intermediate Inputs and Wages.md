@@ -1,11 +1,23 @@
 ---
+title: Chapter 4 Trade in Intermediate Inputs and Wages
+parent_directory: Economics Advance International Trade
+formatted: 2025-12-21 08:20:00 AM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
 primary_tags:
-- trade intermediate inputs wages
-- empiricalexercise chapter4
+  - trade intermediate inputs
+  - wage inequality globalization
+  - heckscher ohlin model
+  - factor price equalization
+  - outsourcing production sharing
 secondary_tags:
-- relative wages international trade
-- inputs wages early 1980s
-tags_extracted: '2025-12-18T00:14:24.713743'
+  - relative wages changes
+  - stolper samuelson effects
+  - factor content trade
+  - immigration wage impacts
+  - skill premium increases
+  - production fragmentation
+cssclasses: academia
 ---
 
 # Chapter 4: Trade in Intermediate Inputs and Wages

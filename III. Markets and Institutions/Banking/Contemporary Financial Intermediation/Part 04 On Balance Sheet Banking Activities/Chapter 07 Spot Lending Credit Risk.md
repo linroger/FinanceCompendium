@@ -1,15 +1,25 @@
 ---
-aliases:
-  - Spot Lending Credit Risk
-tags:
-key_concepts:
-parent_directory: Contemporary Financial Intermediation
+title: "Chapter 07 - Spot Lending Credit Risk"
+parent_directory: "III. Markets and Institutions/Banking/Contemporary Financial Intermediation/Part 04 On Balance Sheet Banking Activities"
+formatted: "2025-12-21 08:06:33 PM"
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - credit risk analysis
+  - bank lending practices
+  - loan portfolio management
+  - commercial banking assets
+secondary_tags:
+  - transaction loans
+  - working capital loans
+  - term loans
+  - credit analysis techniques
+  - loan covenants
+  - collateral requirements
 cssclasses: academia
-title: Chapter 07 - Spot Lending Credit Risk
-linter-yaml-title-alias: Chapter 07 - Spot Lending Credit Risk
 ---
 
-# GLOSSARY OF TERMS
+## GLOSSARY OF TERMS
 
 Loan The extension of credit via a typically untraded and illiquid debt contract.
 
@@ -55,15 +65,15 @@ Discriminant Analysis A statistical technique used to identify the factors most 
 
 The Glass-Steagall Act An act passed by Congress in 1933 to separate commercial and investment banking in the United States. It prohibits commercial banks from engaging in securities underwriting and other investment banking activities as well as the activities of insurance companies.
 
-# INTRODUCTION
+## INTRODUCTION
 
 For many commercial bankers, lending is the heart of the business. Loans dominate asset holdings and account for a large share of revenues and costs. Lending takes place in both spot and forward credit markets. We begin here with a discussion of spot lending.
 
 The purpose of this chapter is to explore the asset side of the bank's balance sheet. We begin in the next section with a brief review of the most prominent assets on a bank's balance sheet. The following section explains what we mean by lending, and the difference between loans and securities. We also discuss how these assets are purchased. The structure of loan agreements is discussed in a subsequent section. This is followed by a section that discusses the major informational problems in loan contracts and the importance of (perceived) loan performance for the determination of a bank's stock price. The next section examines credit analysis. Our emphasis is on the economic underpinnings of the various traditional factors considered in credit analysis. In particular, we relate these economic underpinnings to the informational problems pervasive in loan contracting. In the section that follows, we turn to sources of credit information. We consider both internal sources within the bank and external sources such as financial information agencies. In the next section, we take up analysis of borrower's financial statements. We follow it up with a section on the examination of loan covenants. Our focus is on the why of each covenant. A case study follows the concluding section.
 
-# DESCRIPTION OF BANK ASSETS
+## DESCRIPTION OF BANK ASSETS
 
-# Trends in the Composition of Bank Assets
+### Trends in the Composition of Bank Assets
 
 There are three basic types of assets on a bank's balance sheet: loans, marketable securities, and cash. (See Figure 7.1). Before we discuss each of these in detail, we will briefly review recent trends in the composition of bank-asset portfolios.
 
@@ -88,9 +98,9 @@ FIGURE 7.4 Commercial Bank Loans 2001-2011 (Source: June Call Report Data, and C
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/c41d355f-e7c3-4cfc-b661-bc5ac69057be/e632bd55757a010142a6f55a07c42bc8f68fdd212da6a1622e7ab3040363b578.jpg)  
 FIGURE 7.5 Small Business Loans 2001-2011 (Source: June Call Report Data, and Cole, 2012).
 
-As a consequence of the financial crisis, the Federal Deposit Insurance Corporation (FDIC) closed more than 100 banks during 2009, something that had not happened since 1992. Moreover, during 2009-2011, a total of 397 banks failed. The consequences for bank lending to small businesses were severe. It has been documented that during 2008-2011, small-business lending in the United States declined by  \$116 billion, or almost \(18\%$  from \)659 billion to only \$543 billion³ (see Figures 7.4 and 7.5).
+As a consequence of the financial crisis, the Federal Deposit Insurance Corporation (FDIC) closed more than 100 banks during 2009, something that had not happened since 1992. Moreover, during 2009-2011, a total of 397 banks failed. The consequences for bank lending to small businesses were severe. It has been documented that during 2008-2011, small-business lending in the United States declined by  \$116 billion, or almost $18\%$ from $659 billion to only $543 billion³ (see Figures 7.4 and 7.5).
 
-# Types of Bank Loans
+### Types of Bank Loans
 
 We will first discuss business loans, often referred to as C&I loans, which fall into four main categories.
 

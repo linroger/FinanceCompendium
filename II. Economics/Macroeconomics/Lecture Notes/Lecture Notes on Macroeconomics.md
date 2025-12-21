@@ -1,128 +1,143 @@
 ---
-parent_directory:
-tags:
-key_concepts:
-aliases:
+title: Lecture Notes on Macroeconomics
+parent_directory: Lecture Notes
+formatted: 2025-12-21 08:10:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - macroeconomic theory
+  - money and prices
+  - economic fluctuations
+  - nominal rigidities
+  - general equilibrium
+secondary_tags:
+  - quantity theory of money
+  - baumol-tobin model
+  - seigniorage
+  - hyperinflation
+  - keynesian economics
+  - walrasian equilibrium
+  - aggregate supply
+  - aggregate demand
+  - business cycles
 cssclasses: academia
-title: Lecture Notes On Macroeconomics
-linter-yaml-title-alias: Lecture Notes On Macroeconomics
 ---
 
-# Lecture Notes On Macroeconomics
+# Lecture Notes on Macroeconomics
 
 ## Contents
 
-## 1 Money And Prices
+## 1 Money and Prices
 
-1.1 Definitions 2
+### 1.1 Definitions
 
-1.1.1 Prices 2
-1.1.2 Money 2
+#### 1.1.1 Prices
+#### 1.1.2 Money
 
-1.2 The History of Money 3
+### 1.2 The History of Money
 
-1.3 The Demand for Money 4
+### 1.3 The Demand for Money
 
-1.3.1 The Baumol-Tobin Model of Money Demand 4
+#### 1.3.1 The Baumol-Tobin Model of Money Demand
 
-1.4 Money in Dynamic General Equilibrium 6
+### 1.4 Money in Dynamic General Equilibrium
 
-1.4.1 Discrete Time 7
-1.4.2 Continuous Time 10
-1.4.3 Solving the Model 13
+#### 1.4.1 Discrete Time
+#### 1.4.2 Continuous Time
+#### 1.4.3 Solving the Model
 
-1.5 The optimum quantity of money 14
-1.5.1 The Quantity Theory of Money 14
-1.6 Seigniorage, Hyperinflation and the Cost of Inflation 16
-1.7 Problems 21
+### 1.5 The Optimum Quantity of Money
+#### 1.5.1 The Quantity Theory of Money
+### 1.6 Seigniorage, Hyperinflation and the Cost of Inflation
+### 1.7 Problems
 
-## 2 Nominal Rigidities And Economic Fluctuations
+## 2 Nominal Rigidities and Economic Fluctuations
 
-2.1 Old Keynesian Economics: The Neoclassical Synthesis 28
+### 2.1 Old Keynesian Economics: The Neoclassical Synthesis
 
-2.1.1 Open Economy 31
-2.1.2 Aggregate Supply 33
+#### 2.1.1 Open Economy
+#### 2.1.2 Aggregate Supply
 
-2.2 Disequilibrium Economics 36
+### 2.2 Disequilibrium Economics
 
-2.2.1 Setup 36
-2.2.2 The Walrasian Benchmark Case 37
-2.2.3 Exogenously Fixed Price 38
-2.2.4 Exogenously Fixed Nominal Wage 39
-2.2.5 Both prices and wages inflexible 39
-2.2.6 Analysis of this model 40
+#### 2.2.1 Setup
+#### 2.2.2 The Walrasian Benchmark Case
+#### 2.2.3 Exogenously Fixed Price
+#### 2.2.4 Exogenously Fixed Nominal Wage
+#### 2.2.5 Both Prices and Wages Inflexible
+#### 2.2.6 Analysis of This Model
 
-2.3 Imperfect Information Models 41
+### 2.3 Imperfect Information Models
 
-2.4 New Keynesian Models 43
+### 2.4 New Keynesian Models
 
-2.4.1 Contracting Models 43
-2.4.2 Predetermined Wages 44
-2.4.3 Fixed Wages 47
+#### 2.4.1 Contracting Models
+#### 2.4.2 Predetermined Wages
+#### 2.4.3 Fixed Wages
 
-2.5 Imperfect Competition and New Keynesian Economics 50
+### 2.5 Imperfect Competition and New Keynesian Economics
 
-2.5.1 Macroeconomic Effects of Imperfect Competition 50
+#### 2.5.1 Macroeconomic Effects of Imperfect Competition
 
-2.5.2 Imperfect competition and costs of changing prices 51
-2.5.3 Dynamic Models 56
+#### 2.5.2 Imperfect Competition and Costs of Changing Prices
+#### 2.5.3 Dynamic Models
 
-2.6 Evidence and New Directions 57
-2.7 Problems 58
+### 2.6 Evidence and New Directions
+### 2.7 Problems
 
 ## 3 Macroeconomic Policy
 
-3.1 Rules v. Discretion 66
+### 3.1 Rules vs. Discretion
 
-3.1.1 The Traditional Case For Rules 66
-3.2 The Modern Case For Rules: Time Consistency 68
-3.2.1 Fischer's Model of the Benevolent, Dissembling Government 68
-3.2.2 Monetary Policy and Time Inconsistency 72
-3.2.3 Reputation 75
+#### 3.1.1 The Traditional Case for Rules
+### 3.2 The Modern Case for Rules: Time Consistency
+#### 3.2.1 Fischer's Model of the Benevolent, Dissembling Government
+#### 3.2.2 Monetary Policy and Time Inconsistency
+#### 3.2.3 Reputation
 
-3.3 The Lucas Critique 77
-3.4 Monetarist Arithmetic: Links Between Monetary and Fiscal Policy 79
-3.5 Problems 80
+### 3.3 The Lucas Critique
+### 3.4 Monetarist Arithmetic: Links Between Monetary and Fiscal Policy
+### 3.5 Problems
 
 ## 4 Investment
 
-4.1 The Classical Approach 87
-4.2 Adjustment Costs and Investment: $q$ Theory 88
+### 4.1 The Classical Approach
+### 4.2 Adjustment Costs and Investment: q Theory
 
-4.2.1 The Housing Market: After Mankiw and Weil and Poterba 91
+#### 4.2.1 The Housing Market: After Mankiw and Weil and Poterba
 
-4.3 Credit Rationing 93
-4.4 Investment and Financial Markets 95
+### 4.3 Credit Rationing
+### 4.4 Investment and Financial Markets
 
-4.4.1 The Effects of Changing Cashflow 97
-4.4.2 The Modigliani-Miller Theorem 98
+#### 4.4.1 The Effects of Changing Cash Flow
+#### 4.4.2 The Modigliani-Miller Theorem
 
-4.5 Banking Issues: Bank Runs, Deposit Insurance and Moral Hazard 99
-4.6 Investment Under Uncertainty and Irreversible Investment 103
-4.6.1 Investment Under Uncertainty 107
-4.7 Problems: 109
+### 4.5 Banking Issues: Bank Runs, Deposit Insurance and Moral Hazard
+### 4.6 Investment Under Uncertainty and Irreversible Investment
+#### 4.6.1 Investment Under Uncertainty
+### 4.7 Problems
 
 ## 5 Unemployment And Coordination Failure
 
-5.1 Efficiency wages, or why the real wage is too high 117
+### 5.1 Efficiency Wages, or Why the Real Wage Is Too High
 
-5.1.1 Solow model 118
-5.1.2 The Shapiro-Stiglitz shirking model 118
-5.1.3 Other models of wage rigidity 120
+#### 5.1.1 Solow Model
+#### 5.1.2 The Shapiro-Stiglitz Shirking Model
+#### 5.1.3 Other Models of Wage Rigidity
 
-5.2 Search 120
+### 5.2 Search
 
-5.2.1 Setup 121
-5.2.2 Steady State Equilibrium 122
+#### 5.2.1 Setup
+#### 5.2.2 Steady State Equilibrium
 
-5.3 Coordination Failure and Aggregate Demand Externalities 123
+### 5.3 Coordination Failure and Aggregate Demand Externalities
 
-5.3.1 Model set-up 123
-5.3.2 Assumptions 125
-5.3.3 Definitions 126
-5.3.4 Propositions 126
+#### 5.3.1 Model Set-Up
+#### 5.3.2 Assumptions
+#### 5.3.3 Definitions
+#### 5.3.4 Propositions
 
-5.4 Problems 127
+### 5.4 Problems
 
 ## Continuous-Time Dynamic Optimization
 
@@ -153,14 +168,12 @@ In the stochastic-trend case, it may be more appropriate in some instances to st
 
 We will cover the following topics in this course:
     - Money and Prices: In Ec 207, although you may have occasionally referred to variables denominated in dollars, the fact that transactions required a medium of exchange wasn't mentioned, and played no role in any of the analyses you went through. This section will define what money is (which turns out to be less obvious a question than one might immediately think), describe theories of money demand, and describe the long-run behavior of money and the price level.
-    - Nominal Rigidities and Economic Fluctuations. The previous section was merely a prelude to this section, in a way. In the RBC section of 207, you saw some explanations for why output and unemployment fluctuated around their trend values (loosely speaking): variations in technology and in tastes for leisure. In this section of the course you will see other explanations. They all center around the notion that prices and wages may be inflexible, and thus do not move rapidly enough to clear the markets for goods or labor. This is an idea which dates back to the foundations of macroeconomics, with the writings of Keynes. Over the years, in response to problems fitting the model to empirical data and theoretical challenges, people have made Keynes' thinking more mathematically precise. Many of the same conclusions remain. This section will essentially present these models as they developed historically. Along the way, we will need to think about how firms set prices and wages and about the macroeconomic implications of imperfect competition.
+    - Nominal Rigidities and Economic Fluctuations: The previous section was merely a prelude to this section, in a way. In the RBC section of 207, you saw some explanations for why output and unemployment fluctuated around their trend values (loosely speaking): variations in technology and in tastes for leisure. In this section of the course you will see other explanations. They all center around the notion that prices and wages may be inflexible, and thus do not move rapidly enough to clear the markets for goods or labor. This is an idea which dates back to the foundations of macroeconomics, with the writings of Keynes. Over the years, in response to problems fitting the model to empirical data and theoretical challenges, people have made Keynes' thinking more mathematically precise. Many of the same conclusions remain. This section will essentially present these models as they developed historically. Along the way, we will need to think about how firms set prices and wages and about the macroeconomic implications of imperfect competition.
     - Macroeconomic Policy: Given an understanding of what causes economic fluctuations, here we consider what policy can and should do about them. We focus on whether policy should consist of adherence to (simple, but possibly contingent) rules or should be permitted to vary at the policymaker's discretion.
-    - Investment: Investment is the most volatile components of real GDP, and is an important part to any serious theory of business cycles, as well as growth. We will consider various theories of investment and also how imperfections in financial markets may affect real economic outcomes
+    - Investment: Investment is the most volatile components of real GDP, and is an important part to any serious theory of business cycles, as well as growth. We will consider various theories of investment and also how imperfections in financial markets may affect real economic outcomes.
     - Unemployment and Coordination Failure: We will conclude with a consideration of several important kinds of macroeconomic models. We first consider several reasons why the labor market fails to clear fully. We will then think about models in which agents are searching for something- a job, the best price, etc. These turn out to be important for determining the average rate of unemployment. Next, we turn to models involving coordination failure- that is, models in which all individuals would be better off if they were allowed to coordinate among themselves. These models are important for some theories of economic fluctuations.
 
-## Chapter 1
-
-## Money And Prices
+## Chapter 1: Money and Prices
 
 In Ec 207, there was scant reference to the fact that transactions needed a medium of exchange to be carried out. The only references to money came in the few cases where you were presented economic data denominated in some currency. In this part of the course, we will see why it may have been acceptable to ignore money, and look at the long-run relationship between money and prices.
 

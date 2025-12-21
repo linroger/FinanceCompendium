@@ -1,3 +1,22 @@
+---
+title: "Using the Lattice Model to Value Bonds with Embedded Options, Floaters, Options, and Caps/Floors"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume I/Bond Valuation"
+formatted: 2025-12-21 08:35:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+   - lattice model valuation
+   - embedded options bonds
+   - interest rate derivatives
+   - binomial tree pricing
+secondary_tags:
+   - callable bonds valuation
+   - putable bonds valuation
+   - floating rate bonds
+   - caps and floors
+   - option adjusted spread
+cssclasses: academia
+---
 
 # Using the Lattice Model to Value Bonds with Embedded Options, Floaters, Options, and Caps/Floors
 
@@ -15,7 +34,7 @@ The valuation of bonds with embedded options proceeds in the same fashion as in 
 In the case of a call option, the call will be made when the present value (PV) of the future cash flows is greater than the call price at the node where the decision to exercise is being made. Effectively, the following calculation is made:
 
 $$
-V_{t} = \operatorname{Mi n} [ \text{Ca ll Pr ic e}, \text{PV (Fu tu re Ca sh Fl ow s)} ]
+V_{t} = \operatorname{Min} [ \text{Call Price}, \text{PV (Future Cash Flows)} ]
 $$ where  $V_{t}$  represents the PV of future cash flows at the node. This operation is performed at each node where the bond is eligible for call.
 
 
@@ -48,7 +67,7 @@ Figure 2 Valuing a Callable Bond with Four Years to Maturity, a Coupon Rate of  
 Figure 3 Highlighting Nodes in Years 2 and 3 for a Callable Bond: (a) Nodes Where the Call Option Is Not Exercised and (b) Selected Nodes Where the Call Option Is Exercised
 
 
-$V_{t} = \mathrm{Max}$  [Put Price, PV(Future Cash Flows)]
+$V_{t} = \mathrm{Max}$ [Put Price, PV(Future Cash Flows)]
 
 Figure 4 is analogous to Figure 3. It shows the binomial tree with the values based on whether or not the investor exercises the put option at each node. The bond is putable any time after the first year at par. The value of the bond is 105.327. Note that the value is greater than the value of the corresponding option-free bond.
 
@@ -72,13 +91,13 @@ Consider a floating-rate bond with a coupon indexed to the 1-year rate (the refe
 Using the same valuation method as before, we can find the value at each node. Recall the value of the bond is 100 (par) at the end of year 4. Consider  $N_{HLL}$ .
 
 $$
-\begin{array}{l} N_{H L L} = \frac{1}{2} \left[ \frac{1 0 0 + 6 . 4 1 6}{1 . 0 6 1 6 6} + \frac{1 0 0 + 6 . 4 1 6}{1 . 0 6 1 6 6} \right] \\ = 1 0 0. 2 3 5 \\ \end{array}
+\begin{array}{l} N_{HLL} = \frac{1}{2} \left[ \frac{100 + 6.416}{1.06166} + \frac{100 + 6.416}{1.06166} \right] \\ = 100.235 \\ \end{array}
 $$
 
 Stepping back one period
 
 $$
-\begin{array}{l} N_{L L} = \frac{1}{2} \left[ \frac{1 0 0 . 2 3 5 + 4 . 9 4 5 8}{1 . 0 4 6 9 5 8} + \frac{1 0 0 . 2 3 8 + 4 . 9 4 5 8}{1 . 0 4 6 9 5 8} \right] \\ = 1 0 0. 4 6 5 \\ \end{array}
+\begin{array}{l} N_{LL} = \frac{1}{2} \left[ \frac{100.235 + 4.9458}{1.046958} + \frac{100.238 + 4.9458}{1.046958} \right] \\ = 100.465 \\ \end{array}
 $$
 
 Following this same procedure, we arrive at the price of 100.893. How would this change if the interest rate on the bond were capped?
@@ -93,7 +112,7 @@ $$
 As a result of the cap, the value of the bond in the upper nodes at  $t = 3$  falls below par. For example,
 
 $$
-N_{H H H} = \frac{1}{2} \left[ \frac{1 0 0 + 7 . 2 5}{1 . 0 9 1 9 8 7} + \frac{1 0 0 + 7 . 2 5}{1 . 0 9 1 9 8} \right] = 9 8. 2 1 5
+N_{HHH} = \frac{1}{2} \left[ \frac{100 + 7.25}{1.091987} + \frac{100 + 7.25}{1.09198} \right] = 98.215
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/da844dc241448254fe7dbe496bab9cf45baa40e63825e8730cdab1c1f0a356ca.jpg)

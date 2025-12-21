@@ -147,7 +147,7 @@ $$
 
 where  $\alpha_{KF}$  is the share of the economy's capital supply that is used in production of  $F$ , etc.,  $\alpha_{KF} > \alpha_{LF}$  and  $\alpha_{KC} < \alpha_{LC}$  because of the greater capital intensity of  $F$  production.
 
-# Goods Prices and Factor Prices
+## Goods Prices and Factor Prices
 
 The factor-price equations (5P-10) and (5P-11) may be solved together to express factor prices as the outcome of goods prices (these solutions make use of the fact that  $\theta_{LF} = 1 - \theta_{KF}$  and  $\theta_{LC} = 1 - \theta_{KC}$ ):
 
@@ -217,7 +217,7 @@ In particular, if  $K$  rises with  $L$  remaining constant, output of  $F$  wil
 
 Although for graphical purposes it is easiest to express world equilibrium as an equality between relative supply and relative demand, for a mathematical treatment, it is preferable to use an alternative formulation. This approach focuses on the conditions of equality between supply and demand of either one of the two goods, cloth and food. It does not matter which good is chosen because equilibrium in the cloth market implies equilibrium in the food market and vice versa.
 
-To see this condition, let  $Q_{C}, Q_{c}^{*}$  be the output of cloth in Home and Foreign, respectively;  $D_{C}, D_{C}^{*}$  the quantity demanded in each country; and corresponding variables with an  $F$  subscript the food market. Also, let  $p$  be the price of cloth relative to that of food.
+To see this condition, let  $Q_{C}, Q_{C}^{*}$  be the output of cloth in Home and Foreign, respectively;  $D_{C}, D_{C}^{*}$  the quantity demanded in each country; and corresponding variables with an  $F$  subscript the food market. Also, let  $p$  be the price of cloth relative to that of food.
 
 In all cases, world expenditure will be equal to world income. World income is the sum of income earned from sales of cloth and sales of food; world expenditure is the sum of purchases of cloth and purchases of food. Thus the equality of income and expenditure may be written
 
@@ -275,7 +275,7 @@ $$
 d V^{*} = Q_{C}^{*} d p. \tag {6P-7}
 $$
 
-# Income, Prices, and Utility
+## Income, Prices, and Utility
 
 Each country is treated as if it were one individual. The tastes of the country can be represented by a utility function depending on consumption of cloth and food:
 
@@ -339,7 +339,7 @@ $$
 
 The term in brackets is the value of exports; the term in parentheses is the percentage change in the terms of trade. The expression therefore says that the real income gain from a given percentage in terms of trade change is equal to the percentage change in the terms of trade multiplied by the initial value of exports. If a country is initially exporting  \$100 billion and its terms of trade improve by 10 percent, the gain is equivalent to a gain in national income of\$ 10 billion.
 
-# Supply, Demand, and the Stability of Equilibrium
+## Supply, Demand, and the Stability of Equilibrium
 
 In the market for cloth, a change in the relative price will induce changes in both supply and demand.
 
@@ -355,9 +355,9 @@ $$
 
 The demand side is more complex. A change in  $p$  will lead to both income and substitution effects. These effects are illustrated in Figure 6P-1. The figure shows an economy that initially faces a relative price indicated by the slope of the line  $VV^0$ . Given this relative price, the economy produces at point  $Q^0$  and consumes at point  $D^0$ . Now suppose the relative price of cloth rises to the level indicated by the slope of  $VV^2$ . If there were no increase in utility, consumption would shift to  $D^1$ , which would involve an unambiguous fall in consumption of cloth. There is also, however, a change in the economy's real income; in this case, because the economy is initially a net exporter of cloth, real income rises. This change leads to consumption at  $D^2$  rather than  $D^1$ , and this income effect tends to raise consumption of cloth. Analyzing the effect of change in  $p$  on demand requires taking account of both the substitution effect, which is the change in consumption that would take place if real income were held constant, and the income effect, which is the additional change in consumption that is the consequence of the fact that real income changes.
 
-# FIGURE 6P-1
+### FIGURE 6P-1
 
-# Consumption Effects of a Price Change
+### Consumption Effects of a Price Change
 
 A change in relative prices produces both income and substitution effects.
 
@@ -405,9 +405,9 @@ Inspection of equation (6P-23') reveals the factors determining whether or not e
 
 In what follows, it will be assumed that equation (6P-24) holds, so that the equilibrium of the world economy is in fact stable.
 
-# Effects of Changes in Supply and Demand
+## Effects of Changes in Supply and Demand
 
-# The Method of Comparative Statics
+## The Method of Comparative Statics
 
 To evaluate the effects of changes in the world economy, a method known as comparative statics is applied. In each of the cases considered in the text, the world economy is subjected to some change that will lead to a change in the world relative price of cloth. The first step in the method of comparative statics is to calculate the effect of the change in the world economy on the excess supply of cloth at the original  $p$ . This change is denoted by  $dES|_p$ . Then the change in the relative price needed to restore equilibrium is calculated by
 
@@ -423,7 +423,7 @@ $$
 d y = d y \mid_{p} + \left(Q_{C} - D_{C}\right) d p. \tag {6P-26}
 $$
 
-# Economic Growth
+### Economic Growth
 
 Consider the effect of growth in the Home economy. As pointed out in the text, by growth we mean an outward shift in the production possibility frontier. This change will lead to changes in both cloth and food output at the initial relative price  $p$ ; let  $dQ_{C}$ ,  $dQ_{F}$  be these changes in output. If growth is strongly biased, one or the other of these changes may be negative, but because production possibilities have expanded, the value of output at the initial  $p$  must rise:
 
@@ -471,7 +471,7 @@ Now, this country did not grow, in the usual sense, because the value of output 
 
 growth is sufficiently small, however, it will not outweigh the welfare loss from the fall in  $p$ . Therefore, sufficiently biased growth can leave the growing country worse off.
 
-# A Transfer of Income
+### A Transfer of Income
 
 We now describe how a transfer of income (say as foreign aid) affects the terms of trade. Suppose Home makes a transfer of some of its income to Foreign. Let the amount of the transfer, measured in terms of food, be  $da$ . What effect does this aid have on the terms of trade?
 
@@ -501,7 +501,7 @@ Similar algebra will reveal correspondingly that a transfer cannot make the reci
 
 An intuitive explanation of this result is the following. Suppose  $p$  were to rise sufficiently to leave Home as well off as it would be if it made no transfer and to leave Foreign no better off as a result of the transfer. Then there would be no income effects on demand in the world economy. But the rise in price would produce both increased output of cloth and substitution in demand away from cloth, leading to an excess supply that would drive down the price. This result demonstrates that a  $p$  sufficiently high to reverse the direct welfare effects of a transfer is above the equilibrium  $p$ .
 
-# A Tariff
+### A Tariff
 
 Suppose Home places a tariff on imports, imposing a tax equal to the fraction  $t$  of the price. Then for a given world relative price of cloth  $p$ , Home consumers and producers will face an internal relative price  $\overline{p} = p / (1 + t)$ . If the tariff is sufficiently small, the internal relative price will be approximately equal to
 
@@ -553,7 +553,7 @@ $$
 
 This expression shows that a tariff unambiguously improves the terms of trade of the country that imposes it.
 
-# The Monopolistic Competition Model
+### The Monopolistic Competition Model
 
 We want to consider the effects of changes in the size of the market on equilibrium in a monopolistically competitive industry. Each firm has the total cost relationship
 
@@ -631,7 +631,7 @@ $$
 
 This shows that the scale of each individual firm also increases with the size of the market.
 
-# Risk Aversion and International Portfolio Diversification
+## Risk Aversion and International Portfolio Diversification
 
 This postscript develops a model of international portfolio diversification by risk-averse investors. The model shows that investors generally care about the risk as well as the return of their portfolios. In particular, people may hold assets whose expected returns are lower than those of other assets if this strategy reduces the overall riskiness of their wealth.
 
@@ -655,7 +655,7 @@ $$
 q U (C_{1}) + (1 - q) U (C_{2}).
 $$
 
-# An Analytical Derivation of the Optimal Portfolio
+### An Analytical Derivation of the Optimal Portfolio
 
 After the state 1 and state 2 consumption levels given by (20P-1) and (20P-2) are substituted into the expected utility function above, the investor's decision problem can be expressed as follows: Choose the portfolio share  $\alpha$  to maximize expected utility,
 
@@ -687,7 +687,7 @@ For the analysis above to make sense, neither of the assets can yield a higher r
 
 To be definite, we therefore assume that  $H_{1} > F_{1}$  and  $H_{2} < F_{2}$ , so that the Home asset does better in state 1 but does worse in state 2. This assumption is now used to develop a diagrammatic analysis that helps illustrate additional implications of the model.
 
-# A Diagrammatic Derivation of the Optimal Portfolio
+### A Diagrammatic Derivation of the Optimal Portfolio
 
 Figure 20P-1 shows indifference curves for the expected utility function described by  $qU(C_1) + (1 - q)U(C_2)$ . The points in the diagram should be thought of as contingency plans showing the level of consumption that will occur in each state of nature. The preferences represented apply to these contingent consumption plans rather than to consumption of different goods in a single state of nature. As with standard indifference curves, however, each curve in the figure represents a set of contingency plans for consumption with which the investor is equally satisfied.
 
@@ -695,9 +695,9 @@ To compensate the investor for a reduction of consumption in state  $1(C_{1})$ ,
 
 Equations (20P-1) and (20P-2) imply that by choosing the portfolio division given by  $\alpha$ , the investor also chooses her consumption levels in the two states of nature. Thus, the problem of choosing an optimal portfolio is equivalent to the problem of optimally choosing the contingent consumption levels  $C_1$  and  $C_2$ . Accordingly, the indifference curves in Figure 20P-1 can be used to determine the optimal portfolio for
 
-# FIGURE 20P-1
+### FIGURE 20P-1
 
-# Indifference Curves for Uncertain Consumption Levels
+### Indifference Curves for Uncertain Consumption Levels
 
 The indifference curves are sets of state-contingent consumption plans with which the individual is equally happy. The budget line describes the trade-off between state 1 and state 2 consumption that results from portfolio shifts between Home and Foreign assets.
 
@@ -721,7 +721,7 @@ where  $\phi = (H_{1} - F_{1}) / (F_{2} - H_{2})$  and  $Z = W\times (H_1F_2 - H
 
 To interpret  $\phi$  as the market trade-off between state 2 and state 1 consumption (that is, as the price of state 2 consumption in terms of state 1 consumption), suppose the investor shifts one unit of her wealth from the Home to the Foreign asset. Since the Home asset has the higher payoff in state 1, her net loss of state 1 consumption is  $H_{1}$  less the Foreign asset's state 1 payoff,  $F_{1}$ . Similarly, her net gain in state 2 consumption is  $F_{2} - H_{2}$ . To obtain additional state 2 consumption of  $F_{2} - H_{2}$ , the investor
 
-# FIGURE 20P-2
+### FIGURE 20P-2
 
 # Maximizing Expected Utility
 

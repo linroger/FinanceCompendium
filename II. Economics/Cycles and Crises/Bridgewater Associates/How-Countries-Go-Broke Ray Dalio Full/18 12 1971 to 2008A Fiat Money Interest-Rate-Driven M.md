@@ -1,32 +1,29 @@
 ---
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 18_12_1971_to_2008A_Fiat_Money_Interest-Rate-Driven_M
+title: 18 12 1971 to 2008A Fiat Money Interest-Rate-Driven M
+parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full
+formatted: 2025-12-21 08:05:00 AM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
 primary_tags:
-- rate changes
-- last two short-term debt cycles
-- most important differences
-- early 1980s
+- fiat monetary system
+- interest rate driven policy
+- debt monetization cycles
+- stagflation dynamics
+- monetary policy shifts
 secondary_tags:
 - mp1 monetary era
-- 1979-82 monetary policy changes
-- declining inflation
-- debt/economic crises
-- cpi inflation rate
-- 1970s interest rates
-- immediate inflationary effects
-- classic debt busts
-- (i.e., inflation
-tags_extracted: '2025-12-18T18:03:52.970596'
-tags_method: max_quality_v1
+- 1979-82 tightening cycle
+- paul volcker leadership
+- reaganomics impact
+- commodity price bubbles
+- emerging market crises
+- dot-com bubble burst
+- global financial crisis
+- quantitative easing transition
+cssclasses: academia
 ---
 
-# 18_12_1971_to_2008A_Fiat_Money_Interest-Rate-Driven_M
-## 1971 TO 2008—
-
-### A FIAT MONEY, INTEREST-RATE-DRIVEN MONETARY POLICY
+# 12: 1971 to 2008—A Fiat Money, Interest-Rate-Driven Monetary Policy
 
 The August 1971 breakdown of the monetary system changed the value of money and how the system worked—i.e., the gold-linked system was replaced by a fiat monetary system in which central banks stimulated and restrained debt/credit/ money growth by changing interest rates. I call this type of monetary system (i.e., one in which fiat currencies are managed via interest rate changes) Monetary Policy 1 (MP1). I make these distinctions between types of monetary policy because they work very differently, and it is important to understand these differences. The most important differences between MP0 and MP1 are that in an MP1 monetary system a) the amount of money and credit provided by lender-creditors to borrower-debtors is primarily driven by the cost of money (i.e., interest rates) and b) it is not restrained by the link to hard currency (e.g., to gold). Because the amount of money and credit was unrestrained and because the world's central banker (the Fed) wanted to accommodate what happened, this change in policy led to a very classic combination of economic stagnation and inflation, which was called stagflation.
 

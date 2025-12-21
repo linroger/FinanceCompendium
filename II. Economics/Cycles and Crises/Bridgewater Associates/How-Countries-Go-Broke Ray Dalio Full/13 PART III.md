@@ -15,4 +15,3 @@ cssclasses: academia
 ---
 
 # 13 Part III
-## PART III

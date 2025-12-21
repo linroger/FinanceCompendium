@@ -1,29 +1,25 @@
 ---
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 17_11_1945_to_1971A_Linked_ie_Hard_Monetary_System
+title: 17 11 1945 to 1971A Linked ie Hard Monetary System
+parent_directory: How-Countries-Go-Broke Ray Dalio Full
+formatted: 2025-12-21 08:05:25 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- f. kennedy
-- real money
-- prior world order
 - bretton woods system
+- monetary policy 0
+- gold linked currency
+- reserve currency decline
 secondary_tags:
-- bretton woods
-- current big cycle
-- new world monetary system
-- changing world order
-- designated hard asset
-- big cycle
-- hard asset
-- bretton woods agreement
-- gold-linked mp0 system
-tags_extracted: '2025-12-18T18:03:41.068614'
-tags_method: max_quality_v1
+- world war ii aftermath
+- cold war dynamics
+- debt cycle management
+- currency devaluation
+- central bank reserves
+- balance of payments
+cssclasses: academia
 ---
 
-# 17_11_1945_to_1971A_Linked_ie_Hard_Monetary_System
+# 17 11 1945 to 1971A Linked ie Hard Monetary System
 ## 1945 TO 1971—
 
 ### A LINKED (I.E., HARD)
@@ -38,9 +34,7 @@ A Monetary Policy 0 system looks like most prior monetary systems that existed t
 
 The gold-linked MP0 system set up at Bretton Woods lasted until 1971, during which time dollars, which were then considered like checks with no intrinsic value, were exchangeable for gold, which was considered the real money, at a fixed exchange rate. Other currencies were exchangeable for dollars at agreed-upon and changeable rates. During this 27-year period, there were five short-term debt/economic cycles, which were wiggles around an uptrend in debt relative to incomes during this period. I will now describe how this period unfolded, including what happened with all five of the big forces.
 
-Like all prior monetary systems, the system set up at Bretton Woods had its own particular characteristics. In this case, because the US had about two-thirds of the world's gold, which was held by the
-
-US Treasury, the dollar became the world's reserve currency. Other countries had their own currencies, so to get gold from the US central bank, they had to buy dollars and then use those dollars to buy the gold. Only countries' central banks were allowed to buy gold; individuals were prohibited from buying gold with their paper money. In fact, in the US and most other countries, it was illegal for citizens to own gold because governments wanted people to save in debt assets in order to build the credit system and they didn't want debt assets to have to compete with gold.
+Like all prior monetary systems, the system set up at Bretton Woods had its own particular characteristics. In this case, because the US had about two-thirds of the world's gold, which was held by the US Treasury, the dollar became the world's reserve currency. Other countries had their own currencies, so to get gold from the US central bank, they had to buy dollars and then use those dollars to buy the gold. Only countries' central banks were allowed to buy gold; individuals were prohibited from buying gold with their paper money. In fact, in the US and most other countries, it was illegal for citizens to own gold because governments wanted people to save in debt assets in order to build the credit system and they didn't want debt assets to have to compete with gold.
 
 This system was created for the United States and the countries that wanted to join it, and the US wanted to let others in. The UK became a subordinate power in this new world order because its financial and other powers were weakened by the war, while the United States became much richer because it entered the war late. The Soviet Union opted out of the Bretton Woods agreement and had its own monetary system and ways of doing things that were independent of the US-dominated system.
 
@@ -62,9 +56,7 @@ In the 1960s, there was also a big geopolitical swing in the relationship betwee
 
 During this 1945-71 period, the US overspent and financed that overspending by borrowing, especially in the 1960s on the Vietnam War and the "war on poverty," so its paper-money promises to give real money (gold) far exceeded what it had in its central bank. That mattered a lot, though it didn't seem to at the time because the bad finances grew slowly until they led to the blowup. You see, early in the 1950s and 1960s, most countries were happy to accept these "paper" dollars in return for their goods and services because they wanted to accumulate dollars as savings. As a result, the US could overspend liberally. Also over those years, other countries, especially Germany and Japan, gradually recovered from their big losses from the war and became competitive economically, which led the US balance of payments to worsen. In the late 1960s, one could see the US and the UK having runs on their central banks because holders of paper money turned it in to get the real money (gold), so the US central bank's reserves of gold steadily declined.
 
-You might recall the following principle: $\odot$ During times when
-
-There is too much debt relative to the quantity of money that is needed to service debts. The need to either increase the amount of money that exists and/or cut the amount of debt there is leads governments to break their promises and do some combination of a) raising the amount of money and credit, b) reducing the amount of debt (e.g., by restructuring it), and/or c) preventing the free-market ownership and movement of the hard money (e.g., gold). At such times, there is a run away from bad money to good money that the government wants to stop. This often leads to prohibiting good money from being freely held and freely moved.
+You might recall the following principle: During times when there is too much debt relative to the quantity of money that is needed to service debts. The need to either increase the amount of money that exists and/or cut the amount of debt there is leads governments to break their promises and do some combination of a) raising the amount of money and credit, b) reducing the amount of debt (e.g., by restructuring it), and/or c) preventing the free-market ownership and movement of the hard money (e.g., gold). At such times, there is a run away from bad money to good money that the government wants to stop. This often leads to prohibiting good money from being freely held and freely moved.
 
 Seeing the US central bank running out of real money (gold), Charles de Gaulle, the French president at the time, openly called for a reform of the monetary system in 1965. Other holders of paper dollars caught on, and the run accelerated. The US spending and deficits didn't slow down, so the run on the US central bank ended like most such central bank runs end. For previously described reasons, the selling of the debt drove interest rates up and the currency down at the same time as the economy weakened. The US central bank did not have enough real money (gold) in the bank to meet its obligations to exchange it for the paper money at the promised price.
 
@@ -72,6 +64,4 @@ On the night of Sunday, August 15, 1971, President Nixon went on television and 
 
 Because I had never experienced a currency devaluation before, I was ignorant about how they work. That led me to study history, which led me to find out that, in 1933, President Roosevelt had done the exact same thing (default on the promise to allow people with dollars to exchange them for gold at the promised exchange rate) for the exact same reason (the US had created more promises for gold than it had in gold, and it was running out of gold and money during a bank run), which had the exact same effect (the devaluation, big market rallies in stocks and gold). The only real difference from Nixon was that Roosevelt made the announcement on the radio, not television, which wasn't common yet.
 
-In both cases, de-linking the currency meant the central government didn't have to deliver the real money, and it freed central bankers to create a lot of money and credit. This made it easier to handle the debts and stimulate the economy, leading equity, gold, and commodity prices to rise and the economy to pick up. That's when I learned that when central banks create a lot of money and credit, the value of money and credit goes down and the price of most things goes up. I realized that these moves were classic cases of "hard" currency (gold-linked) exchange rate systems breaking down, leading to the devaluations of the money and debt. Once I saw this happen in these two cases, I saw that it happened throughout history in almost all such cases, and I learned the principle that  $\bullet$  when there is a big debt problem that is intolerably painful, central banks will "print money" and distribute it to make it easier for debtors to pay their debts, which will devalue the money and debt relative to other assets. That helped me make a lot of money and avoid a lot of painful losses.
-
-### CHAPTER 12
+In both cases, de-linking the currency meant the central government didn't have to deliver the real money, and it freed central bankers to create a lot of money and credit. This made it easier to handle the debts and stimulate the economy, leading equity, gold, and commodity prices to rise and the economy to pick up. That's when I learned that when central banks create a lot of money and credit, the value of money and credit goes down and the price of most things goes up. I realized that these moves were classic cases of "hard" currency (gold-linked) exchange rate systems breaking down, leading to the devaluations of the money and debt. Once I saw this happen in these two cases, I saw that it happened throughout history in almost all such cases, and I learned the principle that when there is a big debt problem that is intolerably painful, central banks will "print money" and distribute it to make it easier for debtors to pay their debts, which will devalue the money and debt relative to other assets. That helped me make a lot of money and avoid a lot of painful losses.

@@ -1,40 +1,35 @@
 ---
-aliases: Intermediate Input Trade and Offshoring
-tags: null
-key_concepts: null
-parent_directory: '[[Globalization Lecture Notes Full]]'
-cssclasses: academia
-title: 'Chapter 6: Intermediate Input Trade and Offshoring'
-linter-yaml-title-alias: Intermediate Input Trade and Offshoring
+title: Chapter 6 Intermediate Input Trade and Offshoring
+parent_directory: Globalization Lecture Notes Full
+formatted: 2025-12-21 08:00:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
 primary_tags:
-- drink final consumption
-- global supply chain coffee
-- foreign sourced intermediate inputs
-- incomes let start coffee
+- intermediate input trade
+- offshoring production stages
+- global supply chains
+- trade in tasks
 secondary_tags:
-- trade offshoring just cup
-- explain trade intermediate
-- coffee developed countries roughly
-- harvest beans coffee traded
-- stages intermediate production offshoring
-- goods exported
-- assumptions classic trade theory
-- offshoring costs
-- higher growers countries theory
-tags_extracted: '2025-12-18T00:30:14.992409'
+- comparative advantage
+- factor intensities
+- contracting costs
+- value added chains
+- production fragmentation
+- skill intensity ranking
+- task specialization
+- coffee supply chain
+cssclasses: academia
 ---
 
-# Chapter 6
-
-# Intermediate Input Trade and Offshoring
+# Chapter 6: Intermediate Input Trade and Offshoring
 
 If you just had a cup of coffee, you are not alone. Every day, consumers around the world drink an estimated 1.5 billion cups of coffee. Three-hundred million cups are served daily just in the United States. In many regards, coffee is today's most ubiquitous global good. How does the coffee from distant farms end up in your cup? How does the global supply chain for coffee connect, and what does its organization imply for the distribution of the gains from the trade and people's incomes?
 
 Let's start with the coffee growers. Millions of farmers, mostly in developing countries, prepare the crop and harvest the beans. Coffee is the third-most traded agricultural commodity after wheat and corn. The farmers' incomes and those of many economies depend on the price of the beans, which is mainly determined on commodity exchanges in London and New York.
 
-Global traders acquire the beans from farmers or their cooperatives at the world market price set on the exchanges. The traders then screen, sort, and store the raw beans, and sell them on to roasters. The roasters finally blend, roast, grind and package the coffee, mostly in developed countries. Roughly three-quarters of the value added in your cup accrues between a seaport near you and the retail shelve at your supermarket, or the espresso machine at your favorite café.
+Global traders acquire the beans from farmers or their cooperatives at the world market price set on the exchanges. The traders then screen, sort, and store the raw beans, and sell them on to roasters. The roasters finally blend, roast, grind and package the coffee, mostly in developed countries. Roughly three-quarters of the value added in your cup accrues between a seaport near you and the retail shelf at your supermarket, or the espresso machine at your favorite café.
 
-# Learning Objectives
+## Learning Objectives
 
 After reading this chapter you should be able to:
 
@@ -46,7 +41,7 @@ LO3 Describe how tasks can be ranked by contracting costs, demonstrate why cost 
 
 LO4 Present examples of global supply arrangements and assess their organization.
 
-# 6.1 The Global Integration of Production
+## 6.1 The Global Integration of Production
 
 Trade is not as simple as David Ricardo's example of exchanging Portuguese wine for English cloth. Today, the trade of final consumer goods accounts only for a fraction of international shipments. Increasingly industries trade half-finished products, components, and intermediate services, which enter later production stages elsewhere. English fertilizer goes into Portuguese vineyards, and Portuguese pigments are used to dye English cloth. The supply chain itself has become global.
 
@@ -60,7 +55,7 @@ There are many descriptions for trade in components, half-finished products, and
 
 Offshoring and outsourcing. A common, and precise, term to describe the global integration of production is offshoring. Offshoring is the procurement of intermediate inputs from abroad. Offshoring thus characterizes a production stage by its location: outside a country's borders, not within. Intermediate production steps can be located offshore (abroad) or onshore (at home).
 
-Unfortunately, the same phenomenon is sometimes also called outsourcing. But in microeconomics and industrial organization the term outsourcing has been reserved for a long time to mean something completely different. The conventional notion of outsourcing relates to the make-or-buy
+Unfortunately, the same phenomenon is sometimes also called outsourcing. But in microeconomics and industrial organization the term outsourcing has been reserved for a long time to mean something completely different. The conventional notion of outsourcing relates to the make-or-buy decision that a firm makes for the production of its output. If a production stage is not kept in-house (within the firm) but is sent to another firm to perform, then it is said to be outsourced.
 
 Table 6.1: Offshoring and Outsourcing
 
@@ -74,7 +69,7 @@ Of course, there still is trade in final products. We should therefore not repla
 
 The two approaches to offshoring in this chapter differ in their view of the key force for offshoring. In one view, the fundamental driving force for offshoring is the varying requirement of labor skills for different production stages. The main point of the analysis then is to figure out where the different production stages locate given local skill supply. In another view, the fundamental force behind offshoring is the contracting cost for the performed tasks. The main issue then becomes which production factor gets to pocket the contracting cost savings. The two approaches have contrary con sequences for earnings inequality.
 
-# Think Twice about Convention: Offshoring is Virtual Migration
+## Think Twice about Convention: Offshoring is Virtual Migration
 
 Why bother with production stages and contracting costs? Sure, we need to bring factors from abroad into local production. In other words, we have to allow inputs to be contracted from abroad. Isn't that enough? What if we were to think of offshoring simply as "virtual migration" of foreign labor in the Heckscher-Ohlin model? Imagine work can be "beamed" at no extra cost around the globe, just as easily as information can be sent over electronic networks. This virtual labor is used in final production at the home location. If virtual labor were all there is to offshoring, we would have the answers ready. You have seen them in Chapter 4 when we discussed migration.
 
@@ -84,7 +79,7 @@ What happens as offshore labor starts to virtually migrate into home production?
 
 Probably not. In the model, wages equalize around the world, so the "virtual migrants" earn the same wage everywhere and the location of production activities is not determined. Where production stages end up is a matter of chance. In practice, the location of manufacturing activities appears to be more systematic. Take the coffee supply chain. The blending and roasting stages are typically located in consumer countries where wages and labor productivity tend to be higher than in the growers' countries. Theory should do better in matching that pattern, which is common in food and beverage industries. One idea is to model production stages explicitly and to allow blending and roasting to be more intensive in skilled labor than coffee growing. Consumer countries tend to be more abundant in skilled labor. Another idea is to discern between different tasks and allow contracting the tasks to be more or less costly at a distance. Blending, for instance, involves much tacit knowledge about both coffee qualities and consumer tastes, and is arguably difficult to contract offshore. This chapter takes on both ideas in turn.
 
-# 6.2 Offshoring Production Stages
+## 6.2 Offshoring Production Stages
 
 A natural way to broaden classic trade theory is to bring in individual production stages. Feenstra and Hanson (1996) carry out such a theoretical analysis. They let production stages differ in the intensity of labor skill requirements and show that offshoring then has strong implications for income inequality within each economy. The basic mechanism is perhaps best conveyed by a fact, and by a joke that MIT and Harvard students are said to tell about each other.
 
@@ -92,9 +87,9 @@ First the fact: When U.S. residents sold used cars on a large scale to Mexico af
 
 Now to the joke: MIT students claim that when their underperforming classmates drop out and move over to Harvard University, then the grade point averages at both schools rise. For this claim to be true, of course, the MIT students must presume that the underperforming students, on average, outperform the Harvard students. Harvard students seem to tell the same joke about their classmates who dropout and transfer to MIT. The explanation behind the used-car puzzle and the joke is essentially the same as the explanation for the income effects from offshoring: When offshoring occurs, then the average production stage in both the "inshoring" and the "offshoring" economy becomes more skill intensive. As a result, the gap between wages paid to high-skilled and to low-skilled people widens within every economy.
 
-Much of the concern with offshoring and inequality relates to the relative incomes of high-skilled versus low-skilled workers. For the remainder of the chapter, let us therefore consider high-skilled labor  $H$  and low-skilled labor  $L$  as our two factors of production. There are many production stages  $s$ . Each production stage requires a different combination of high-skilled labor and low-skilled la
+Much of the concern with offshoring and inequality relates to the relative incomes of high-skilled versus low-skilled workers. For the remainder of the chapter, let us therefore consider high-skilled labor  $H$  and low-skilled labor  $L$  as our two factors of production. There are many production stages  $s$ . Each production stage requires a different combination of high-skilled labor and low-skilled labor.
 
-# Fundamentals.
+### Fundamentals
 
 - Key force: Factor intensities of production stages and endowments (interact production-stage and country characteristics)
 - Factors of production: 2 (high-skilled labor  $H$  and low-skilled labor  $L$ )
@@ -105,7 +100,7 @@ Much of the concern with offshoring and inequality relates to the relative incom
 - Perfect competition, transport costs: 0 (Law of One Price)
 - Constant returns to scale
 - Balanced trade (exports pay for imports)
-- Contracts perfectly enforceable bor. A high  $H(s) / L(s)$  ratio means that the stage  $s$  is high-skill intensive. Other stages require a low
+- Contracts perfectly enforceable. A high  $H(s) / L(s)$  ratio means that the stage  $s$  is high-skill intensive. Other stages require a low
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/1fd6b76f-5310-4b84-80ba-17c551880803/29ef655db864cb69d7dc215e4cfc21b1a6eba2b003b313f843a2fb59da10a1ad.jpg)
 
@@ -123,7 +118,8 @@ The left panel of Figure 6.1 shows the stages of production on the horizontal ax
 
 In a conventional Heckscher-Ohlin framework, the wage ratio  $w_{H} / w_{L}$  is typically the same everywhere, even if productivity differences between countries result in different wages around the world. We have seen examples in Chapters 4 and 5. No longer here, in the presence of multiple production stages. Suppose the home economy is more abundantly endowed with high-skilled labor than the rest of the world. If this is the case, then it will be relatively less expensive to hire high-skilled labor in the home economy than it will be in the foreign economy, and
 
-$$ w_{H} / w_{L} <   w_{H}^{*} / w_{L}^{*}.
+$$
+w_{H} / w_{L} < w_{H}^{*} / w_{L}^{*}.
 $$
 
 As a consequence, when a final-goods assembler (such as a blender and roaster of coffee, for example) looks at the cost of intermediate inputs, the assembler finds the cost to increase relatively fast from one stage to the next in the offshore economy. As assembly moves from left (low-skill intensive) to right (high-skill intensive) in Figure 6.1, the cost of high-skilled labor goes up sharply in the foreign economy, where  $w_{H}^{*} / w_{L}^{*}$  is high. In contrast, when the same assembler looks at intermediate-input suppliers that produce in the home economy, the production cost starts at a higher level but increases more slowly when moving from low-skill to high-skill intensive stages because  $w_{H} / w_{L}$  is relatively low.
@@ -148,15 +144,15 @@ In the model, what will happen to relative wages of the workers in the two count
 
 Let's relate our new insights back to the Heckscher-Ohlin model when only final goods are being traded (as in Chapters 4 and 5). The Stolper-Samuelson Theorem tells us that an economy's relatively abundant factor strictly gains from free trade in final goods whereas the relatively scarce factor strictly loses in real terms when the economy opens up. Suppose the home economy is relatively abundant in high-skilled labor. Then opening to free trade will raise the real income of the high-skilled domestic workers and widen the income gap between them and low-skilled domestic workers. In contrast, high-skilled labor the relatively scarce factor offshore. Free final-goods trade will therefore lower the real income of the high-skilled workers abroad and narrow the income gap between them and low-skilled workers there. The classic Heckscher-Ohlin model with two factors and two goods therefore predicts that free trade worsen income inequality in developed economies but shrinks the income gap in developing countries. In contrast, trade in intermediate inputs across multiple production stages in this Chapter completely overturns the prediction for low-skilled workers in developing countries. In other words, offshoring now predicts rising income inequality everywhere, including in developing countries. Over the past decades, income inequality went up indeed in many developing countries.
 
-# 6.3 Trade in Tasks
+## 6.3 Trade in Tasks
 
 So far, we have treated all workers with a given skill level as if they performed identical tasks on their jobs. That is unrealistic. Workers with the same training, such as economics majors say, perform different tasks on their jobs—ranging from client or supplier communication, to analysis or quality control, to planning or supervision. Do tasks matter for trade? Workers' efforts enter a production function, a classic economist might argue, their effort ultimately generates a tradable output, and that is that.
 
 Well, here are two examples. First think of doormen. Even though the tasks of a doorman may not require much schooling or extensive training, his job cannot be offshored. Now think of radiologists, who undergo a great deal of schooling and training. Radiology images can easily be sent around the globe and displayed remotely. That in fact is what increasingly happens; it is called teleradiology. Clinics and hospitals are taking the images and transmitting them to radiologists in countries with lower labor costs. In short, whether or not a job is easily offshored need not be related to the skills and education associated with it. In fact, examples like these have raised the concern that commonly well-paid jobs, and relatively well educated workers, may come under particular pressure from offshoring. Tasks matter.
 
-Researchers have identified a number of job features that may make it especially inexpensive to offshore a task. If the information to execute a task can be written down ("codified") in a set of instructions that are easy to follow, then the task should be relatively easy to offshore (Edward E. Leamer and Michael Storper 2001). Similarly, if a task involves many "routine" actions, then it should also be
+Researchers have identified a number of job features that may make it especially inexpensive to offshore a task. If the information to execute a task can be written down ("codified") in a set of instructions that are easy to follow, then the task should be relatively easy to offshore (Edward E. Leamer and Michael Storper 2001). Similarly, if a task involves many "routine" actions, then it should also be relatively easy to offshore (Frank Levy and Richard J. Murnane 2004). Grossman and Rossi-Hansberg worked out some striking implications of this type of trade at varying contracting costs.
 
-# Fundamentals.
+### Fundamentals
 
 Key force: Varying offshoring costs by task (industry and country characteristics for goods)
 
@@ -246,7 +242,7 @@ What happens in the market for radiologists? All domestic radiologists remain em
 
 Overall, we now have three theoretical predictions as to how offshoring will affect the labor market. First, if there were only a single production stage and virtual migration were costless, then no factor price would change. This is the case of virtual migration from the think-twice box on page 172 above. Second, if there are multiple production stages but trading intermediate inputs is costless, then we are in the world of the Feenstra and Hanson model and can expect inequality to increase everywhere in the world at both onshore and offshore locations. Workers in the home economy with the training important for high-skill intensive production stages are least likely to see their jobs off shored, and gain. Third, if there is only a single production stage and industries can perfectly price discriminate in terms of the contracting costs they pay for the tasks they offshore, then we are in the world of the Grossman and Rossi-Hansberg model for trade in tasks. The workers whose occupations are most susceptible to offshoring gain from the cost savings that their industries generate. Taken together, it is unclear which workers should fear offshoring. The empirical evidence on offshoring that researchers have uncovered to date does not offer a clear conclusion either.
 
-# Think Twice about Convention: Comparative Advantage and All That
+### Think Twice about Convention: Comparative Advantage and All That
 
 Have you noticed that not once in this chapter has the principle of comparative advantage come up? Are we finally rid of comparative advantage and all that? Economic research into the trade of intermediate inputs and offshoring has left us with a range of predictions, and apparently little common ground. So, if we want to find out what really happens when intermediate tasks are offshored, we may need to round up the two usual suspects: opportunity cost and comparative advantage.
 
@@ -256,9 +252,9 @@ Then there is offshoring of production stages that differ in skill intensity. Op
 
 Finally there is trade in tasks under varying offshoring costs. For the home economy, tasks up to the cutoff task are provided from offshore. We could also say, up to the cutoff task, the opportunity cost of  $H$ -employment is lower in the offshore economy. Or say, up to the cutoff task, the  $H^*$  workforce in the offshore economy has a comparative advantage in the respective tasks. From the cutoff onwards,  $H$  labor in the onshore economy has a comparative advantage. In short, the two usual suspects—opportunity cost and comparative advantage—still lurk behind the pattern of specialization, or its absence.
 
-# 6.4 Global Supply Chains
+### 6.4 Global Supply Chains
 
-# Sequential supply chains
+#### Sequential supply chains
 
 The coffee supply chain, from growing to processing to final packaging, offers insight into what one could call the sequential supply chain. Some economists also refer to this type of supply chain as a "snake"—envisaging the main material as it slithers from raw form to final stage. One essential ingredient, the coffee bean, undergoes a series of transformations until it is made into the final product. Prices at different stages of a sequential supply chain show how value added builds up.
 
@@ -288,13 +284,13 @@ Table 6.2: Coffee Exports and Re-Exports
 
 Source: International Coffee Organization 2011, millions of  $60\mathrm{-kg}$  bags in 2008.
 
-# Change of Perspective: The Coffee Paradox
+### Change of Perspective: The Coffee Paradox
 
 Benoit Daviron and Stefano Ponte (2005) argue that a Coffee Paradox characterizes the global supply chain for coffee. A coffee boom in industrialized countries goes hand in hand with a coffee crisis in producing countries. Daviron and Ponte offer unconventional explanations for this divergence. They partly agree with a wide-held view that the 1989 breakdown of the ICA—an agreement among coffee-growing and consuming countries that allowed the growers to impose quotas on the amount of coffee exported—accelerated coffee production and thus depressed coffee prices. Daviron and Ponte also agree that the widening price gap between green beans and final coffee products results from an oligopoly market where a few dominant roasters capture large profits. The authors argue, however, that the oligopoly has arisen for a deeper reason: Marketing by companies such as Folgers, Sara Lee, and their competitors affects people's consumption habits and leads to a certain disassociation from the actual product. In other words, the quality of the original beans, where and how they are grown, doesn't affect consumers much. Instead brand names drive consumer behavior.
 
 How can coffee-bean growing countries break away from commodity trade and into the market for brands where most of the value added to a product is earned? Daviron and Ponte say growers need to market the quality attributes of the coffee beans they produce and label the beans by their geographic origin. In other words, Daviron and Ponte want coffee producers to become more like wine growers and whiskey distillers—but not for the occasional drink, rather for up to 1.5 billion cups of coffee a day.
 
-# Dispersed supply rings
+#### Dispersed supply rings
 
 Coffee processing is arguably not a representative example for the manufacturing sector as a whole. When it comes to high-tech products such as iPads or airplanes, for instance, a better image than that of a supply chain may be one of dispersed supply rings. Think of the Boeing 737 family of airplanes. The 737 model has been one of the workhorse products in the airplane manufacturing industry for almost half a century. After the first flight of a 737 in 1967, it took more than two decades for a serious competitor to emerge: the A320 by Airbus, which was first flown in 1988. Generations of 737 models have carried about 12 billion passengers, and a 737 still takes off somewhere in the world every five seconds (Chris Brady 2012).
 
@@ -304,7 +300,7 @@ The latest 737 family member—the 737-900ER, where ER stands for extended range
 
 Global supply arrangements are forming at different speeds around the world. Robert C. Johnson and Guillermo Noguera (2012a) document that, on a worldwide average, today less than three-quarters of exports stem from the countries' own value added. The remainder is due to intermediate inputs from other countries. There is considerable variation between regions. The homemade value of a dollar of products exported from an East Asian country is only about 66 cents. In contrast, the figure is 84 cents for North and South America. In this regard, long supply chains appear to be especially important for Asia's exports. In other words, a lot of the value of an East Asian country's products is added in another country, which may be in East Asia or elsewhere. If the formation of global supply chains is indeed akin to another industrial revolution, its progress will depend on an economy's logistical integration with the rest of the world and the spread of communication technology. Geographic proximity to existing manufacturing supply chains facilitates a region's participation in intermediate-input trade. Asia's head start in building manufacturing supply networks will bind the region's exports more closely together than elsewhere. For services supply chains, geographic proximity will matter less, and the expansion of modern communication infrastructure can arguably propel economies into distant supply chains.
 
-# Summary
+### Summary
 
 A novel and vital characteristic of recent globalization is the emergence of global supply chains and the offshore production of intermediate inputs. The production process from scratch to final good is now frequently broken into globally dispersed stages. The possibility of shifting production stages across country borders offers a new rationale as to why economies globalize.
 
@@ -322,11 +318,11 @@ Key Terms
 
 <table><tr><td>Takeaway</td><td>Description, Formula or Graph</td><td>Where to Go</td></tr><tr><td>Value added</td><td>The value of an output less the value of its intermediate inputs. (the production factors labor, land and capital create value added and are paid out of value added; capital receives the remainder after subtracting the wage bill and land rent from value added.)</td><td></td></tr><tr><td>Homemade value added</td><td>The value of an output less the value of its foreign-sourced intermediate inputs. (The part of value added created by production factors at home.)</td><td></td></tr><tr><td>Global supply chain</td><td>A supply chain dispersed across countries. The supply chain is a production process in stages. One stage provides the intermediate inputs to the next stage, up to the final assembly of a product.</td><td></td></tr><tr><td>Offshoring</td><td>The procurement of intermediate inputs from abroad.</td><td></td></tr><tr><td>Outsourcing</td><td>The shift of a production stage from within a firm (in-house) to a separate supplier (arm's length).</td><td></td></tr><tr><td>Virtual migration</td><td>A way of looking at offshoring whereby contracting foreign labor from a distance is no more costly than hiring workers domestically.</td><td></td></tr><tr><td>Rybczynski Theorem</td><td>A proposition in classic trade theory (for two factors, two goods, and two countries) that holds that an increase of one factor's endowment raises the output of the industry that relatively intensely uses the factor, and reduces the output of the other industry, under free final-goods trade and incomplete specialization. Product prices, factor prices, and factor intensities remain unchanged.</td><td></td></tr><tr><td>Production stages</td><td>Production stages s are characterized by skill intensity H(s)/L(s) and ranked from lowest to highest; below a unique H/L threshold, all stages are offshored.</td><td></td></tr><tr><td>Trade in tasks</td><td>A specific form of offshoring whereby the contracting costs for intermediate production steps abroad vary with the nature of the contracted tasks.</td><td></td></tr><tr><td>TFP</td><td>Total factor productivity. A multiplier that scales up the production function as a whole, raising the efficiency of all factors of production jointly. A change in the TFP parameter is called Hicks neutral technological change.</td><td></td></tr><tr><td>Wage gap</td><td>Cross-country wage ratio: ω = wL/wL* = wH/wH* = A/A* &gt; 1</td><td></td></tr><tr><td>Offshoring cost</td><td>Offshoring cost schedule ranks tasks j from lowest to highest offshoring cost (example τ(j) = τ0 + τ · j); below unique cutoff task J, all tasks are offshored.</td><td></td></tr><tr><td>Sequential supply chain</td><td>A supply chain in which one essential ingredient undergoes a series of transformations until it is made into the final product. Coffee is an example.</td><td></td></tr><tr><td>Dispersed supply rings</td><td>A supply chain in which the final product emerges from a ring (tier) of inputs, which in turn emerge from preceding rings ( tiers) of inputs. There is no single essential ingredient. The production stages are centers of rings and combine inputs from the ring, which in turn hosts centers of further rings of preceding production stages. The airplane is an example.</td><td></td></tr></table>
 
-# Assessments
+## Assessments
 
-# Concept checks
+### Concept Checks
 
-# Global integration of production
+#### Global Integration of Production
 
 C1.1. Why is it plausible that different authors refer to the same phenomenon of offshoring as global integration of production or disintegration of production?
 
@@ -336,7 +332,7 @@ C1.3. For every dollar of exports shipped to the offshore economy, the home coun
 
 C1.4. For every dollar of exports shipped to the offshore economy, the home country uses 50 cents in intermediate inputs imported from that economy. However, the homemade value added of the exports is 67 cents per dollar. How can this be?
 
-# Offshoring of production stages
+#### Offshoring of Production Stages
 
 C2.1. Explain how offshoring intermediate production stages that require different skill levels can simultaneously increase the demand for relatively more skilled workers both onshore and offshore.
 
@@ -346,7 +342,7 @@ C2.3. There are two countries, North (no asterisk) and South (asterisk), and a c
 
 C2.4. Consider the range of production activities as depicted in Figure 6.4D, ordered from zero to one by their skill intensity, where 0 is the least skill intensive and 1 is the most skill intensive activity. Some production stages, up to a certain threshold, are offshored and performed in developing countries. The remainder are performed in developed, onshore economies. Suppose the cost of production in the onshore economies increases. How does the offshoring threshold shift? What happens to the average skill intensity in offshore production? What happens to the average skill intensity in onshore economies? How does the wage ratio between skilled and unskilled labor change in the offshore economy? How does it change in the onshore economy?
 
-# Trade in tasks
+#### Trade in Tasks
 
 C3.1. There is only a single production stage but offshore labor can be contracted with trade in tasks. Trade in tasks affects the distribution of incomes within trading countries. Explain whether, and how, trade in tasks may overturn the Stolper-Samuelson Theorem that you know from trade in final goods.
 
@@ -358,7 +354,7 @@ C3.3. There are two economies, Onshore (no asterisk) and Offshore (asterisk). Ea
 
 C3.4. There are two economies, Onshore (no asterisk) and Offshore (asterisk). In each of these two economies there are two industries  $X$  and  $Y$ , and there are two factors of production: land  $T$  (earning a land rent  $r$ ) and labor  $L$  (earning a wage  $w$ ). Some of the labor tasks can be offshored. The  $T$ -factor (land) cannot be offshored. There is free trade in final goods as in the Heckscher-Ohlin model. Industry  $X$  is land intensive and industry  $Y$  is labor intensive. Suppose the onshore economy is more productive than the offshore economy by a factor of  $A / A^{*} > 1$ . When contracted offshore, a task  $j$  costs  $\tau(j) = \tau_{0} + \tau \cdot j$ . Suppose  $J$  tasks are being offshored. Use the diagram in Figure 6.5E to answer the following questions. Consider a terms-of-trade shock that increases the relative price of goods sold by the  $X$  industry so that  $P_{X} / P_{Y}$  rises. Recall the Stolper-Samuelson Theorem and infer what happens to the wagerental ratio  $w / r$  in the onshore economy and to  $w^{*} / r^{*}$  in the offshore economy. What happens to the cross-country wage gap  $\omega = w / w^{*}$ ? What happens to the pattern of task trade and the cutoff task  $J$ ? How do cost-savings from offshoring change with the terms-of-trade shock? What are the profits of producers in industries  $X$  and  $Y$  before and after the terms-of-trade shock?
 
-# Global supply chains
+#### Global Supply Chains
 
 C4.1. Discuss the distinctive characteristics of sequential supply chains versus dispersed supply rings. How can value added be tracked in a sequential supply chain? How can value added be tracked across dispersed supply rings? Statistical agencies track the shipments of output from one industry to another, or an industry to itself, with so-called input-output matrices. These input-output matrices show that a considerable fraction of most industry's output gets reused as an intermediate input into the same industry's production. Can this production-for-self occur in a sequential supply chain? Can it occur in a dispersed supply rings?
 
@@ -366,7 +362,7 @@ C4.2. List three reasons why world markets for agricultural products are differe
 
 C4.3. How do you expect the skill intensities of intermediate production stages and the offshoring costs of various tasks to affect the evolution of the coffee supply chain and the evolution of dispersed supply rings in the aircraft manufacturing industry? How do you expect geographic proximity and communication costs to affect sequential supply chains and dispersed supply rings across the world?
 
-# Discussion questions
+## Discussion Questions
 
 Q.1. Be warned, this is a mathematical question. It follows up on the two concept checks C1.3 and C1.4, and illustrates the approximate computations for the homemade value added to exports. There are two countries, each of them exports 1 unit of a unique product to the other country and acquires a fraction  $\mu < 1$  of its exports as an intermediate input from the other country. Suppose the supply chain is infinitely long because the countries ping-pong intermediate inputs back and forth to each other repeatedly. Explain why, looking only at the final production stage, each country has a share  $1 - \mu$  of homemade value-added in its exports. Look one stage back, and the share really is  $1 - \mu (1 - \mu)$ . Look two stages back and the share really is  $1 - \mu [1 - \mu (1 - \mu)]$ , and so forth. Show that the infinite ping-pong game results in value added equal to the infinite sum  $1 - \mu + \mu^2 - \mu^3 + \ldots = \sum_{n=0}^{\infty} (-1)^n \mu^n$ . Go to URL http://www.wolframalpha.com/input/?i=geometric+series and have the web page compute the solution of this geometric series for you. (If you prefer to work out the solution yourself, show that the infinite sum can be rewritten compactly as  $(1 - \mu) \sum_{n=0}^{\infty} \mu^{2n}$ . The known solution to the summation term is  $\sum_{n=0}^{\infty} \mu^{2n} = 1 / (1 - \mu^2)$ .) Does the country's share of homemade value added account for all of the preceding stages. Is this value larger or smaller than if you account for the final stage only? If so, by how much?
 
@@ -378,11 +374,11 @@ Q.4. There are two economies, Onshore (no asterisk) and Offshore (asterisk). Eac
 
 Q.5. There are two economies, Onshore (no asterisk) and Offshore (asterisk). Each economy has two industries,  $X$  and  $Y$ , and two factors of production: land  $T$  and labor  $L$ . Some labor tasks can be offshored. The  $T$ -factor (land) cannot be offshored. There is free trade in final goods as in the Heckscher-Ohlin model. Suppose the onshore economy is more productive than the offshore economy by a factor of  $A / A^{*} > 1$ . When contracted offshore, a task,  $j$ , costs  $\tau(j)$ . The tasks are ordered by their offshoring costs  $\tau(j)$  from  $j = 0$  to  $j = 1$  so that  $\tau(j)$  weakly increases with  $j$ , as the step function in Figure 6.5F shows. In the initial equilibrium,  $J$  tasks are being offshored. Now suppose the cross-country wage gap  $\omega = A / A^{*}$  widens. When the  $\omega$  line moves off a horizontal segment of the  $\tau(j)$  step function, does the cutoff task change? Do  $r$ ,  $r^{*}$ , and  $w^{*}$  change if there is free trade in final goods? Does  $w$  change if there is free trade in final goods? When the  $\omega$  line moves along a vertical segment of the  $\tau(j)$  step function, does the cutoff task change? Do  $r$ ,  $r^{*}$ , and  $w^{*}$  change if there is free trade in final goods? Does  $w$  change if there is free trade in final goods?
 
-# Data exercises
+## Data Exercises
 
 E.1. Consider the Theil index of global income inequality and its between and within decompositions by Bourguignon and Morrisson (2002), as depicted in Figure 6.5H. Evaluate whether the following statements about trade theory are true, false, or indeterminate. Explain your answer. (1) Classic trade models (Ricardian or Heckscher-Ohlin) explain the increase in income inequality between countries during the first era of globalization (from 1880 to 1950). (2) The Heckscher-Ohlin model explains the drop in inequality within countries during the period of de-globalization (between the World Wars) if high-skill abundant countries have a greater share of the world's income. (3) The Heckscher-Ohlin model explains the small increase in inequality within countries during the second era of globalization (from 1950 to 1990) if high-skill abundant countries have a greater share world's income. (4) Offshoring of intermediate production stages explains the small increase in inequality within countries during the second era of globalization (from 1950 to 1990).
 
-# Further Readings
+## Further Readings
 
 Author, David H., Frank Levy, and Richard J. Murnane. 2003. "The Skill Content of Recent Technological Change: An Empirical Exploration." Quarterly Journal of Economics, 118(4): 1279-1333.
 
@@ -444,7 +440,7 @@ H: Data exercise E.1
 
 Figure 6.5: Graphs Accompanying Concept Checks and Discussion Questions
 
-# Mathematical Appendix 6.I: Unique Threshold in the Feenstra-Hanson Model
+### Mathematical Appendix 6.I: Unique Threshold in the Feenstra-Hanson Model
 
 There is a unique threshold production stage in the Feenstra-Hanson model. All production stages below the threshold locate offshore. Above the threshold, all production stages are onshore.
 
@@ -468,7 +464,7 @@ $$
 
 As the right panel of Figure 6.6 shows, the threshold  $\hat{s}$  shifts to the right when  $\bar{\tau}$  drops and  $c^*(s)$  falls for every  $s$ .
 
-# Mathematical Appendix 6.II: General Offshoring Cost Schedule for Task Trade
+### Mathematical Appendix 6.II: General Offshoring Cost Schedule for Task Trade
 
 Recall our task-trade discussion from section 6.3. In this appendix we make one change: We adopt a more general offshoring cost function  $\tau(j)$  that weakly increases in  $j$ . Weakly increasing means  $\tau(j)$ can have flat parts where the offshoring cost does not change for a range of tasks but  $\tau(j)$  must not decline at any point. The only offshorable production factor is  $H$  as in the main text.
 
