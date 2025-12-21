@@ -1,36 +1,45 @@
 ---
-parent_directory:
 title: "Fundamental Analytics Base Rates: an Outside View on Analyst Forecasts"
-tags:
-aliases:
-parent_folder: Class 9-Bailouts and Bank Failures
-subfolder:
-key_concepts:
+parent_directory: "Class 9-Bailouts and Bank Failures"
+formatted: 2025-12-21 05:30:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+   - analyst forecast bias
+   - base rates methodology
+   - forecasting psychology
+secondary_tags:
+   - mean reversion analysis
+   - profitability decomposition
+   - cross-sectional base rates
+   - time-series base rates
+   - inside vs outside view
+   - quant fundamental integration
+   - return on capital analysis
 cssclasses: academia
-linter-yaml-title-alias: "Fundamental Analytics Base Rates: an Outside View on Analyst Forecasts"
 ---
 
 # Fundamental Analytics Base Rates: an Outside View on Analyst Forecasts
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/8bc390e3-b2d5-4db7-a81a-c2da367580c1/110a7cd5759143816e32320070f1c4cf93799b4367d08bc920156179ec5f945d.jpg)
 
-# Active equity investing relies on forecasts
+## Active equity investing relies on forecasts
 
 Fundamental equity analysis requires forecasts. The short-term "trading" approach requires accurate non-consensus forecasts of EPS or other near-term catalysts. The longer-term "investing" approach requires forecasts of the entire growth path of the drivers of intrinsic value. Company and industry expertise are essential for both.
 
-# Even forecasts made by industry experts are prone to bias
+## Even forecasts made by industry experts are prone to bias
 
 Over the years, leading psychologists have documented with remarkable consistency a number of biases to which human-made forecasts are prone. One of these is the tendency of forecasters to ignore the a priori likelihood of outcomes based on simple statistics – the so-called "base rates". Another is to overlook the statistical reality that many of the metrics we need to forecast "revert to the mean" over time.
 
-# Quant augments Fundamental
+## Quant augments Fundamental
 
 We argue that the forecast accuracy of fundamental analysts can benefit greatly from a modest injection of quant perspective. We introduce the concept of base rates and discuss how a context-agnostic, data-driven "outside view" can act as a simple sanity check on the industry expert's situation-specific "inside view". Quant and Fundamental don't have to be two completely separate paradigms - they can augment each other.
 
-# What we cover in this report
+## What we cover in this report
 
 After discussing some prominent examples of forecast bias, we revisit the framework that governs fundamental value creation to identify the value drivers of interest. We then illustrate the calculation of various base rates for these drivers and offer guidance on how analysts can combine the inside and outside views. We conclude with a brief discussion of the research that shows analysts still dominate algorithms when it comes to forecasting, arguing nonetheless that they should pay more attention to base rates.
 
-# Equities
+## Equities
 
 Global
 
@@ -144,11 +153,9 @@ Although "Consensus EPS" has some widely acknowledged shortcomings – for examp
 
 Estimating intrinsic value requires the analyst to forecast not only the near-term realisations of a company's EPS, but all subsequent realisations as well. In other words, intrinsic value needs a forecast of the entire future earnings growth path, including the long-term, steady-state to which that path is likely to converge. To keep the earnings forecasts honest, the model also requires multi-period forecasts for non-EPS value drivers like cash flow from operations, capital expenditures, and dividend payments.
 
-Whereas the short-term, non-consensus EPS forecast approach has a very clear catalyst event – the company's next earnings announcement – in the intrinsic value approach the catalyst tends to be much fuzzier. The speed with which the
+Whereas the short-term, non-consensus EPS forecast approach has a very clear catalyst event – the company's next earnings announcement – in the intrinsic value approach the catalyst tends to be much fuzzier. The speed with which the company's share price moves towards the analyst's estimate of intrinsic value will depend on how sharply subsequent realisations of the various value drivers update market expectations. Here, the focus is not on short-term noise but on getting the long-term growth path right.
 
 Approaches to active equity investing range from short-term catalyst forecasting to long-term intrinsic value estimation, with various hybrid approaches in between. Either way, industry expert forecasts are needed.
-
-company's share price moves towards the analyst's estimate of intrinsic value will depend on how sharply subsequent realisations of the various value drivers update market expectations. Here, the focus is not on short-term noise but on getting the long-term growth path right.
 
 # Scenario forecasting, testable propositions and Bayesian updating
 

@@ -422,9 +422,7 @@ as **planned amortization class (PAC) bonds**, occurs because of a principal
 
 repayment schedule that must be satisfied. PAC bond-holders take priority
 
-over all other classes in the CMO issue in receiving principal payments from
-the underlying collateral. The greater certainty of the cash flow for the PAC
-bonds comes at the expense of the non-PAC classes, called the **support or companion bonds**. These bonds absorb the prepayment risk. Because PAC
+over all other classes in the CMO issue in receiving principal payments from the underlying collateral. The greater certainty of the cash flow for the PAC bonds comes at the expense of the non-PAC classes, called the **support or companion bonds**. These bonds absorb the prepayment risk. Because PAC
 bonds have protection against both extension risk and contraction risk, they
 are said to provide **two-sided prepayment protection** .
 
@@ -703,9 +701,7 @@ with a 9% coupon. The mortgage payments from the underlying mortgage
 
 pool were distributed to Class B-1 and Class B-2, so that both classes
 
-received an equal amount of the principal, but Class B-1 received one-third
-
-- f the interest payments, whereas Class B-2 received two-thirds.
+received an equal amount of the principal, but Class B-1 received one-third of the interest payments, whereas Class B-2 received two-thirds.
 
 In a subsequent issue, Fannie Mae distributed the cash flow from the
 
@@ -721,9 +717,7 @@ whereas Class A-2 was allotted only 1% of the principal payments.
 
 In early 1987, stripped MBSs began to be issued that allocated all the
 
-interest to one class (called the _interest-only_ - r IO class) and all the principal
-
-to the other class (called the _principal-only_ - r PO class). The IO class
+interest to one class (called the _interest-only_ or IO class) and all the principal to the other class (called the _principal-only_ or PO class). The IO class
 
 receives no principal payments. IO and PO securities are also referred to as
 
@@ -747,9 +741,7 @@ by PO investors determines the yield realized. In the extreme case, if all
 
 home owners in the underlying mortgage pool decide to prepay their loans
 
-immediately, PO investors will realize the \$225 million immediately. At the
-
-- ther extreme, if all home owners decide to remain in their homes for 30
+immediately, PO investors will realize the \$225 million immediately. At the other extreme, if all home owners decide to remain in their homes for 30
 years and make no prepayments, the \$225 million will be spread out over 30
 years, which would result in a lower yield for PO investors.
 
@@ -771,11 +763,7 @@ are made, less dollar interest will be received as the outstanding principal
 
 declines. In fact, if prepayments are too fast, the IO investor may not recover
 
-the amount paid for the IO security. The unique aspect of an IO security is
-
-_same_
-
-that its price changes in the direction as the change in interest rates.
+the amount paid for the IO security. The unique aspect of an IO security is the same: that its price changes in the direction as the change in interest rates.
 
 Moreover, as in the case of the PO security, its price is highly responsive to a
 
@@ -806,15 +794,7 @@ firms.
 
 At one time, the private-label RMBS market was classified into two
 
-sectors, the prime sector and the subprime sector. The distinction was based
-
-- n the type of borrowers in the pool of mortgage loans. As explained in
-
-chapter 29, mortgage loans can be classified as prime loans and subprime
-
-loans. The latter are loans made to borrowers with an impaired credit history
-
-- r when the loan is not a first lien on the property. The convention in the
+sectors, the prime sector and the subprime sector. The distinction was based on the type of borrowers in the pool of mortgage loans. As explained in chapter 29, mortgage loans can be classified as prime loans and subprime loans. The latter are loans made to borrowers with an impaired credit history or when the loan is not a first lien on the property. The convention in the
 RMBS market was to classify prime deals as private-label RMBSs but
 subprime deals as consumer loans, referred to as mortgage-related ABSs.
 Subprime deals include home equity loans and manufactured housing loans.
@@ -875,9 +855,7 @@ structure, (2) excess spread, (3) overcollateralization, and (4) monoline
 
 insurance. We describe these forms briefly here. These same forms of credit
 
-enhancement are used by corporations in the creation of ABS structures to
-
-- btain funding, as covered in chapter 27.
+enhancement are used by corporations in the creation of ABS structures to obtain funding, as covered in chapter 27.
 
 When commercial rating agencies assign a rating to the tranches in a
 
@@ -885,9 +863,7 @@ private-label CMO, they look at the credit risk associated with a tranche.
 
 Basically, that analysis begins by looking at the credit quality of the
 
-underlying pool of mortgage loans. For example, a pool of loans can consist
-
-- f prime borrowers or subprime borrowers. Obviously, one would expect
+underlying pool of mortgage loans. For example, a pool of loans can consist of prime borrowers or subprime borrowers. Obviously, one would expect
 that a pool consisting of prime borrowers would have fewer expected losses
 as a percentage of the dollar amount of the loan pool compared to a pool
 consisting of subprime borrowers. Given the credit quality of the borrowers
@@ -942,9 +918,7 @@ senior tranche. For example, if over the life of this private-label CMO, the
 
 losses are less than \$5 million, only tranche X7 will realize a loss. If the loss
 
-is, say, \$15 million, tranches X7, X6, and X5 will realize total losses and the
-
-- ther tranches no losses.
+is, say, \$15 million, tranches X7, X6, and X5 will realize total losses and the other tranches no losses.
 
 Note a few points about this structure. First, the credit enhancement for
 
@@ -1046,9 +1020,7 @@ In keeping with the history of financial innovation bashing, there have
 
 been overreactions, misinformation, and widely differing viewpoints
 
-regarding this crisis. Some market observers saw it as the inevitable bursting
-
-- f the "housing bubble" that had characterized the housing market in prior
+regarding this crisis. Some market observers saw it as the inevitable bursting of the "housing bubble" that had characterized the housing market in prior
 years. Others viewed it as the product of unsavory practices by mortgage
 lenders who deceived subprime borrowers into purchasing homes they could
 not afford. Moreover, specific mortgage designs, such as hybrid loans, which
@@ -1106,9 +1078,7 @@ an important and legitimate way for the financial markets to function more
 
 efficiently today than in the past. It is not a smoke-and-mirrors financial
 
-structure that fraudulent companies have used to hide the true nature of their
-
-- perations. Although sometimes complex, real securitization generally takes
+structure that fraudulent companies have used to hide the true nature of their operations. Although sometimes complex, real securitization generally takes
 
 place in regulated debt markets and with the participation of sophisticated
 
@@ -1120,13 +1090,8 @@ guarantees. Each of these entities has a unique role to play that helps
 
 produce a balanced—but not a riskless—result.
 
-Credit rating agencies (CRAs) were also viewed by some market
-
-- bservers as having contributed in a major way to the crisis. To aid investors
-when comparing the relative credit risk of securities, issuers generally ask
-
-- ne or more CRAs to assign a credit rating to the securitization. Although no
-- ne, not even the rating agencies, can always accurately predict the
+Credit rating agencies (CRAs) were also viewed by some market observers as having contributed in a major way to the crisis. To aid investors
+when comparing the relative credit risk of securities, issuers generally ask one or more CRAs to assign a credit rating to the securitization. Although no one, not even the rating agencies, can always accurately predict the
 performance of a bond over time, the agencies' long-term track record is
 solid. As explained in chapter 5 credit ratings are opinions about future
 performance. CRAs are not asset managers. They provide an initial
@@ -1296,7 +1261,7 @@ _Statistical Techniques_ (New York: McGraw-Hill, 2006), chapter 21.
 23. Robert Steel, speech delivered at the American Securitization Forum Annual Conference, Las
 [Vegas, February 5, 2008, http://www.ustreas.gov/press/releases/hp808.htm.](http://www.ustreas.gov/press/releases/hp808.htm)
 
-# **`31`**
+## **`31`**
 
 ```
 Commercial Real Estate Markets
@@ -1388,11 +1353,7 @@ mortgage debt;
    - the structural features of a CMBS deal; and
    - the investors in the commercial real estate market.
 
-The real estate market includes residential properties and commercial
-
-properties. **Residential real estate** includes oneto four-family properties
-
-and is the subject of chapter 30. **Commercial real estate** is incomeproducing properties. The major commercial property types are multifamily
+The real estate market includes residential properties and commercial properties. **Residential real estate** includes one- to four-family properties and is the subject of chapter 30. **Commercial real estate** is income-producing properties. The major commercial property types are multifamily
 
 housing, apartment buildings, office buildings, industrial properties
 
@@ -1458,9 +1419,7 @@ investing, we should consider the categories rather than accepting the
 
 traditional reasons for the role of commercial real estate. These traditional
 
-reasons were historically based only on the private equity and ignore not
-
-- nly the other three categories available to investors but also the factors that
+reasons were historically based only on the private equity and ignore not only the other three categories available to investors but also the factors that
 affect returns.
 
 ```
@@ -1477,15 +1436,11 @@ different ways to expected and unexpected events.
 
 2. generate absolute returns that well exceed the risk-free rate.
 3. hedge against unexpected inflation or deflation.
-4. build a part of a portfolio that is a reasonable reflection of the
-
-   - verall investment universe.
+4. build a part of a portfolio that is a reasonable reflection of the overall investment universe.
 
 5. generate strong cash flows to the portfolio. [2]
 
-Several studies have attempted to determine whether these reasons
-
-- ffered for investing in real estate can be supported empirically. [3]
+Several studies have attempted to determine whether these reasons offered for investing in real estate can be supported empirically. [3]
 Investigating these alleged reasons empirically has been difficult. Even
 what is a simple part of the empirical investigation—calculating market
 returns for equities and fixed income securities—is controversial in the real
@@ -1503,15 +1458,9 @@ Portfolio Diversifier and Risk Reducer
 
 Several studies find that the correlations between real estate and stocks, real
 
-estate and bonds, and real estate and cash suggest that real estate can play a
-
-significant role in a mixed-asset portfolio. [4] Recall the underlying principle
-
-- f portfolio diversification and risk reduction as set forth by Markowitz and
+estate and bonds, and real estate and cash suggest that real estate can play a significant role in a mixed-asset portfolio. [4] Recall the underlying principle of portfolio diversification and risk reduction as set forth by Markowitz and
 explained in chapter 13. When two imperfectly related assets (i.e., having a
-correlation coefficient less than 1.0) are included in a portfolio, there is an
-
-- pportunity to construct a portfolio that has a higher expected return at each
+correlation coefficient less than 1.0) are included in a portfolio, there is an opportunity to construct a portfolio that has a higher expected return at each
 level of risk, or equivalently, to reduce risk for a given level of expected
 
 return. The risk is the portfolio's standard deviation. When the expected
@@ -1565,9 +1514,7 @@ Real estate is considered by some observers to be an inflation hedge for the
 
 following reason: If the inflation rate exceeds the expected inflation rate,
 
-then the returns on real estate will compensate for the surprise, helping
-
-- ffset the negative response to excess inflation of other assets in the
+then the returns on real estate will compensate for the surprise, helping offset the negative response to excess inflation of other assets in the
 portfolio. The question is whether this reason can be empirically supported.
 
 Let's begin with the relationship of real estate returns. The relationship
@@ -1621,9 +1568,7 @@ Reasonable Reflection of the Investment Universe
 
 It is argued that real estate belongs in a balanced investment portfolio,
 
-because this asset class is an important part of the investment universe. The
-
-- mission of real estate from a portfolio is fundamentally an investor's view
+because this asset class is an important part of the investment universe. The omission of real estate from a portfolio is fundamentally an investor's view
 that real estate will perform less well than is implied by the market-driven
 relative prices. Even if some allocation is made to real estate, capital market
 theory suggests that any allocation that is less than real estate's overall
@@ -1636,11 +1581,7 @@ Strong Cash Flows
 
 ```
 
-Investor needs vary for regular distributions of cash. Investors whose
-
-- bjective is the maximization of total return relative to a benchmark return
-
-find the need for strong cash flows to be less important than do investors
+Investor needs vary for regular distributions of cash. Investors whose objective is the maximization of total return relative to a benchmark return find the need for strong cash flows to be less important than do investors
 
 who need cash to satisfy current and near-term liabilities. For the latter
 
@@ -1827,9 +1768,7 @@ distributing earnings to shareholders as a REIT does.
 
 Equity REITs can be classified as diversified REITs, sector REITs, and
 
-specialty REITs. As the name suggests, a **diversified REIT** invests in a mix
-
-- f property types. **Sector REITs** are restricted to holdings of specific major
+specialty REITs. As the name suggests, a **diversified REIT** invests in a mix of property types. **Sector REITs** are restricted to holdings of specific major
 
 sectors of the real estate market, such as office REITs, industrial REITs,
 
@@ -1933,9 +1872,7 @@ performance. For example, in the United States, the most popular REIT
 
 indexes are the MSCI US REIT index, the Dow Jones U.S. Real Estate
 
-Index, and the Dow Jones U.S. Select REIT Index. Three indexes are based
-
-- n German REITs that have been developed by the Deutsche Borse
+Index, and the Dow Jones U.S. Select REIT Index. Three indexes are based on German REITs that have been developed by the Deutsche Borse
 (Germany's major stock exchange): RX REIT All Share Index, which
 includes all German REITs listed on the Prime Standard and the General
 
@@ -2030,8 +1967,7 @@ identifies the following issues associated with investing in nontraded
 
 REITs:
 
-    - _**.**_
-**Lack of liquidity** Nontraded REITs are illiquid investments, which
+    - **Lack of liquidity** Nontraded REITs are illiquid investments, which
 mean that they cannot be sold readily in the market. Instead, investors
 generally must wait until the non-traded REIT lists its shares on an
 exchange or liquidates its assets to achieve liquidity. These liquidity
@@ -2045,8 +1981,7 @@ discretion of the REIT without notice. Redemption programs also may
 require that shares be redeemed at a discount, meaning investors lose
 part of their investment if they redeem their shares.
 
-    - _**.**_
-**High fees** Nontraded REITs typically charge high upfront fees to
+    - **High fees** Nontraded REITs typically charge high upfront fees to
 compensate a firm or individual selling the investment and to lower
 their offering and organizational costs.… In addition to the high
 upfront fees, nontraded REITs may have significant transaction costs,

@@ -1,7 +1,7 @@
 ---
 title: Securitized banking and the run on repo
 parent_directory: Class 7-CP, Repo, and the Crisis
-formatted: 2025-12-21 5:10:00 PM
+formatted: 2025-12-21 5:15:00 PM
 formatter_model: claude-sonnet-4
 cli_tool: opencode
 primary_tags:
@@ -88,11 +88,7 @@ We argue that the financial crisis that began in August 2007 was a systemic even
 
 To perform our analysis, we use two novel data sets, one with information on 392 securitized bonds and related assets, including many classes of asset-backed securities (ABSs), collateralized debt obligations (CDOs), and credit default swaps (CDSs) and the other repo rates and repo haircuts. Using these data, we are able to provide a new perspective on the contagion in this crisis. In our exposition, we use this term "contagion" specifically to mean the spread of the crisis from subprime housing assets to non-subprime assets that have no direct connection to the housing market. In fact, we argue that to explain the crisis requires explaining why the spreads on non-subprime related asset classes rose dramatically.
 
-To provide background for our analysis, we illustrate the differences between traditional banking and securitized banking in Figs. 1 and 2. Fig. 1 provides the classic picture of the financial intermediation of mortgages by the traditional-banking system. In Step A, depositors transfer money to the bank, in return for a checking or savings account from which withdrawals can be made at any time. In Step B, the bank loans these funds to a borrower, who promises to repay through a mortgage on the property. The bank then holds this mortgage on its
-
-**Footnote continued:**
-
-activity and as a crucial source of the collateral used to raise funds in repo transactions. Other banking terms such as "wholesale banking," "shadow banking," and "investment banking" have broader connotations and do not completely encompass our definition of securitized banking. The closest notion to our definition of securitized banking is the model of "unstable banking" proposed by Shleifer and Vishny (2009).
+To provide background for our analysis, we illustrate the differences between traditional banking and securitized banking in Figs. 1 and 2. Fig. 1 provides the classic picture of the financial intermediation of mortgages by the traditional-banking system. In Step A, depositors transfer money to the bank, in return for a checking or savings account from which withdrawals can be made at any time. In Step B, the bank loans these funds to a borrower, who promises to repay through a mortgage on the property. The bank then holds this mortgage on its activity and as a crucial source of the collateral used to raise funds in repo transactions. Other banking terms such as "wholesale banking," "shadow banking," and "investment banking" have broader connotations and do not completely encompass our definition of securitized banking. The closest notion to our definition of securitized banking is the model of "unstable banking" proposed by Shleifer and Vishny (2009).
 
 2 The clearinghouse private money was a claim on the coalition of banks, not a liability of any individual bank. By broadening the backing for the claim, the clearinghouse made the claim safer, a kind of insurance. Gorton (1985) and Gorton and Mullineaux (1987) discuss the clearinghouse response to panics. Also, see Gorton and Huang (2006).
 
@@ -105,12 +101,12 @@ balance sheet, along with other non-mortgage loans made to retail and commercial
 
 Traditional-banking runs, for the most part, were ended in United States after the Great Depression, owing to a combination of influences, including enhanced discount window lending by the Federal Reserve and the introduction of deposit insurance. Deposit insurance removes any incentive for insured depositors to withdraw their funds, but larger insured banks cannot offer insured depositors to non retail depositors (including sovereign wealth funds, mutual funds, and cash-rich companies). One solution to this problem is the securitized-banking system illustrated in Fig. 2, which takes large deposits from investors (Step 1) and then intermediates these deposits to mortgage borrowers (Steps 2 and 3) and other debtors.
 
-Step 1 in Fig. 2 is an analogue to Step A from Fig. 1, with one important difference. In the traditional-banking system shown in Fig. 1, the deposits are insured by the government. To achieve similar protection in Step 1 of Fig. 2, the investor receives collateral from the bank. In practice, this deposit-collateral transaction takes the form of a repo agreement: the investor buys some asset (i.e., the collateral) from the bank for  \$X, and the bank agrees to repurchase the same asset some time later (perhaps the next day) for\$ Y. The percentage  $(Y - X) / X$  is the repo rate, and is analogous to the interest rate on a bank deposit.
+Step 1 in Fig. 2 is an analogue to Step A from Fig. 1, with one important difference. In the traditional-banking system shown in Fig. 1, the deposits are insured by the government. To achieve similar protection in Step 1 of Fig. 2, the investor receives collateral from the bank. In practice, this deposit-collateral transaction takes the form of a repo agreement: the investor buys some asset (i.e., the collateral) from the bank for $X$, and the bank agrees to repurchase the same asset some time later (perhaps the next day) for $Y$. The percentage $(Y - X)/X$ is the repo rate, and is analogous to the interest rate on a bank deposit.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/bb662ad9-3c13-41f3-8359-5b617643e660/8bde8aa838a3ae93df08e0261a62262a4feae1db9e32d59f3ecf8ad578d523f8.jpg)  
 Fig. 2. Securitized banking.
 
-Typically, the total amount of the deposit will be some amount less than the value of the underlying asset, with the difference called a haircut. For example, if an asset has a market value of  \$100 and a bank sells it for\$ 80 with an agreement to repurchase it for \$88, then we would say that the repo rate is 10% [=(88-80)/80] and the haircut is 20% (100-80/100). If the bank defaults on the promise to repurchase the collateral, then the investor has the right to terminate the agreement and keep or sell the collateral.
+Typically, the total amount of the deposit will be some amount less than the value of the underlying asset, with the difference called a haircut. For example, if an asset has a market value of $100$ and a bank sells it for $80$ with an agreement to repurchase it for $88$, then we would say that the repo rate is 10% [=(88-80)/80] and the haircut is 20% (100-80/100). If the bank defaults on the promise to repurchase the collateral, then the investor has the right to terminate the agreement and keep or sell the collateral.
 
 Turning next to the lower right corner of Fig. 2, we show how the second part of the intermediation differs from traditional banking. In Fig. 1, the bank did the work of underwriting the loan itself. In Fig. 2, the bank outsources this function to a direct lender. Such lenders grew to prominence in the most recent housing boom, with a specialization of underwriting loans to be held for only a short time before being sold to banks. Much has been written about potential conflicts in this separation of the loan decision from the source of finance, but that is not our topic here. In principle, there is no reason that this separation must necessarily lead to poor underwriting, and in any event such problems do not imply anything about contagion or systemic events.
 
@@ -118,7 +114,7 @@ Another key component of securitized banking is in the securitization itself: th
 
 Fig. 3 summarizes the relations between the main elements of traditional and securitized banking. The familiar elements of traditional banking are reserves, deposit insurance, interest rates on deposits, and the holding of loans on balance sheet. Bank solvency is promoted by requiring a fraction of deposits to be held in reserve, and in emergencies these reserves can be replenished by borrowing from the central bank. The analogue in securitized banking is the repo haircut, which forces banks to keep some fraction of their assets in reserve when they borrow money through repo markets. Deposit insurance is a promise made by the government to pay depositors in the event of default. The analogue in securitized banking is collateral. A bank in need of cash can raise deposit rates to
 
-# Traditional banking
+### Traditional Banking
 
 (1) Reserves
 
@@ -135,7 +131,7 @@ Can be raised to attract deposits when reserves are low
 
 (4) Loans held on balance sheet
 
-# Securitized banking
+### Securitized Banking
 
 (1) Haircuts
 
@@ -159,17 +155,17 @@ attract it; the analogues for securitized banking are the repo rates. Finally, t
 
 The run on repo is depicted in Fig. 4, which plots a haircut index from 2007 to 2008. The details of this index are explained in Section 4; for now, just think of the index as an average haircut for collateral used in repo transactions, not including US treasury securities. This index rises from zero in early 2007 to nearly  $50\%$  at the peak of the crisis in late 2008. During this time period, several classes of assets were stopped entirely from being used as collateral, an unprecedented event that is equivalent to a haircut of  $100\%$ .
 
-To see how the increase in haircuts can drive the banking system to insolvency, take as a benchmark a repo market size of, for example,  \$10 trillion. With zero haircuts, this is the amount of financing that banks can achieve in the repo markets. When the weighted-average haircut reaches, say, \(20\%$ , then banks have a shortage of \)2 trillion. In the crisis, some of this amount was raised early on by issuing new securities. But, this fell far short of what was needed. Furthermore, selling the underlying collateral drives asset prices down, which then reinforces the cycle: lower prices, less collateral, more concerns about solvency, and ever increasing haircuts.
+To see how the increase in haircuts can drive the banking system to insolvency, take as a benchmark a repo market size of, for example,  \$10 trillion. With zero haircuts, this is the amount of financing that banks can achieve in the repo markets. When the weighted-average haircut reaches, say, 20\%, then banks have a shortage of $2$ trillion. In the crisis, some of this amount was raised early on by issuing new securities. But, this fell far short of what was needed. Furthermore, selling the underlying collateral drives asset prices down, which then reinforces the cycle: lower prices, less collateral, more concerns about solvency, and ever increasing haircuts.
 
 In addition to repo, other short-term debt experienced runs. There were runs, in particular, on asset-backed commercial paper programs and structured investment vehicles. Papers that consider the runs on asset-backed commercial paper programs during the crisis include Covitz, Liang, and Suarez (2009) and Carey, Correa, and Kotter (2009). Aside from asset-backed commercial paper, the commercial paper of financial firms, the predominant issuers of corporate short-term commercial paper also saw withdrawals when investors refused to reinvest as
 
 the paper came due; see Kacperczyk and Schnabl (2010).4 Also important was the run on money market funds following the failure of Lehman Brothers, as explained by The Investment Company Institute (2009). In summary, all short-term debt markets were vulnerable during the crisis. In this paper, we focus on the repo market because of its large size. Also, repo is secured by collateral that can be "rehypothecated," which means that a depositor of cash in the bank takes physical possession of bond collateral and then can reuse that collateral. So, the collateral has a money multiplier. When haircuts rise, the money multiplier works in reverse, causing a massive deleveraging process. This does not happen for unsecured short-term debt.
 
-This paper and those mentioned above are part of a rapidly growing literature that tries to empirically show what happened during the crisis. Aside from runs the financial crisis is complicated in many other dimensions. Studies have been made of the breakdown of various arbitrage relations, perhaps due to counterparty risk and attendant funding problems, e.g., Coffey, Hrung, and Sarkar (2009), Gorton (2010), Baba and Packer (2009), Stanton and Wallace (2009), Fontana (2009), and Fender and Scheicher (2009). Other research looks at counterparty risk and liquidity, e.g., Arora, Gandhi, and Longstaff (2009), Schwarz (2009), and Singh and Aitken (2009). Other papers discuss the international dimensions of the crisis, and compare the crisis to previous crises, e.g., Eichengreen, Mody, Nedeljkovic, and Sarno (2009) and Reinhart and Rogoff (2008). Ivashina and Scharfstein (2008) look at bank lending during the crisis. The real effects of the crisis are also important to consider, as do e.g., Almeida, Campello, and Laranjeira (2009) and Campello, Giabona, Graham, and Harvey (2009). Many other papers look at subprime mortgages, rating agencies, auction rate securities, short selling prohibitions, and so on, so the above list is far from being complete.[5]
+This paper and those mentioned above are part of a rapidly growing literature that tries to empirically show what happened during the crisis. Aside from runs, the financial crisis is complicated in many other dimensions. Studies have been made of the breakdown of various arbitrage relations, perhaps due to counterparty risk and attendant funding problems, e.g., Coffey, Hrung, and Sarkar (2009), Gorton (2010), Baba and Packer (2009), Stanton and Wallace (2009), Fontana (2009), and Fender and Scheicher (2009). Other research looks at counterparty risk and liquidity, e.g., Arora, Gandhi, and Longstaff (2009), Schwarz (2009), and Singh and Aitken (2009). Other papers discuss the international dimensions of the crisis, and compare the crisis to previous crises, e.g., Eichengreen, Mody, Nedeljkovic, and Sarno (2009) and Reinhart and Rogoff (2008). Ivashina and Scharfstein (2008) look at bank lending during the crisis. The real effects of the crisis are also important to consider, as do e.g., Almeida, Campello, and Laranjeira (2009) and Campello, Giabona, Graham, and Harvey (2009). Many other papers look at subprime mortgages, rating agencies, auction rate securities, short selling prohibitions, and so on, so the above list is far from being complete.[5]
 
 The remainder of the paper is organized as follows. In Section 2, we provide institutional background for our analysis, with a discussion of the growth of securitized banking, using subprime mortgages as the case study. We use this case study to provide more detail for Step 4 in Fig. 2 and to explain the mechanics of securitization and the repo market.
 
-In Section 3, we introduce and explain the two main state variables used in the paper: the ABX index—which proxies for fundamentals in the subprime mortgage market and the LIB Is, which is the spread between the LIBOR (London Inter Bank Offered Rate, for unsecured interbank borrowing) and the rate on an overnight interest swap (Is) a proxy for the risk-free rate. In our analysis the LIB-OIS spread acts primarily as a proxy for counterparty risk in the banking system. We then plot
+In Section 3, we introduce and explain the two main state variables used in the paper: the ABX index—which proxies for fundamentals in the subprime mortgage market and the LIB-OIS, which is the spread between the LIBOR (London Inter Bank Offered Rate, for unsecured interbank borrowing) and the rate on an overnight interest swap (OIS) a proxy for the risk-free rate. In our analysis the LIB-OIS spread acts primarily as a proxy for counterparty risk in the banking system. We then plot
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/bb662ad9-3c13-41f3-8359-5b617643e660/948151612ab0fbd56de6c8210f56ddbb4bef70cf5df0f6424c1bd076a14a4cdd.jpg)  
 Fig. 4. The repo-haircut index. The repo-haircut index is the equally weighted average haircut for all nine asset classes = included in Table 2, Panel D.
@@ -184,11 +180,11 @@ securitized assets and related derivatives. These increased spreads are equivale
 
 Section 6 reviews our arguments and concludes the paper. Appendix A defines some of the paper's terminology that could be unfamiliar for some readers and also includes descriptions for each of the asset classes of securitized bonds that are used in our empirical analysis. Appendix B gives more detail on the data construction.
 
-# 2. Institutional background
+## 2. Institutional Background
 
 This section discusses the main institutional features that intersected in the crisis: the subprime mortgage market (Section 2.1), securitization (Section 2.2), and repo finance (Section 2.3).
 
-# 2.1. The subprime mortgage market
+### 2.1. The Subprime Mortgage Market
 
 The opportunity for home ownership for all Americans has been a long-standing national goal. This goal was behind the origins of modern housing finance during the
 
@@ -198,7 +194,7 @@ The subprime mortgage market is a financial innovation, aimed at providing housi
 
 The innovation was a success, if measured in terms of originations. In the years 2001-2006, a total of about \(2.5 trillion of subprime mortgages were originated.[7] Almost half of this total came in 2005 and 2006, a large portion of which was likely refinancings of previous mortgages.
 
-# 2.2. Securitization
+### 2.2. Securitization
 
 An important part of the subprime mortgage innovation was how the mortgages were financed. In 2005 and 2006, about  $80\%$  of the subprime mortgages were financed via securitization, that is, a mortgage was sold in as part of a residential mortgage-backed security (RMBS), which involves pooling thousands of mortgages together, selling the pool to a special purpose vehicle (SPV) which finances their purchase by issuing investment-grade securities (i.e., bonds with ratings in the categories of AAA, AA, A, and BBB) with different seniority (called tranches) in the capital markets. Securitization does not involve public issuance of equity in the SPV. SPVs are bankruptcy remote in the sense that the originator of the underlying loans cannot claw back those assets if the originator goes bankrupt. Also, the SPV is designed so that it cannot go bankrupt.[8]
 
@@ -224,7 +220,7 @@ With each level of securitization, the SPV often combines many lower rated (BBB,
 
 collateral: essentially, there is not enough AAA debt in the world to satisfy demand, so the banking system set out to manufacture the supply. As emphasized by Gorton (2010), it can be difficult to pierce the veil of a CDO and learn exactly what lies behind each tranche. This opacity was a fundamental part of precrisis securitization and was not limited to subprime-based assets.[10]
 
-# 2.3. The repo market
+### 2.3. The Repo Market
 
 A repurchase agreement (or repo) is a financial contract used by market participants as a financing method to meet short-term liquidity needs.[11] A repurchase agreement is a two-part transaction. The first part is
 
@@ -261,7 +257,7 @@ Notably, commercial banks did not rely heavily on repo. The amount of securities
 
 For every repo, the other side of the transaction is a reverse repo. This raises the issue of double counting of both repo and reverse repo. The issue concerns whether the relevant number is gross repo or net repo for financial firms. For example, a dealer bank that lent money via repo to a hedge fund (which provides the dealer bank with a bond as collateral) and then borrowed against that bond from another dealer bank would have a net of zero (ignoring the haircuts). But, in a run the depositors want their cash bank and the dealer bank cannot instantaneously get the cash back from the hedge fund. (This would be possible in a clearinghouse arrangement.) So, it would seem that gross repo borrowing is the relevant number. It is not known how much of the demand for repo comes from outside the banking system, i.e., are most of the depositor/ lender end users nonbanks? The extent of this issue is unclear as there are no data on the extent of involvement in repo from nonfinancial firms and only financial firms have been counted, estimated, or surveyed. At least anecdotally, many nonfinancial firms' treasury departments (e.g., Westinghouse, IBM, Microsoft) invest in repo as do institutional investors.
 
-# 3. State variables: the ABX indices and the LIB-OIS spread
+## 3. State Variables: The ABX Indices and the LIB-OIS Spread
 
 This section introduces the key state variables of the paper. Section 3.1 discusses the ABX indices, which are proxies for fundamentals of the subprime market.
 
@@ -273,7 +269,7 @@ Merrill Lynch (ML) did not list Financial instruments owned. Instead, ML listed 
 
 Section 3.2 discusses the LIB-OIS spread, which is a proxy for fears about bank solvency. In Section 3.3, we plot these two state variables against the time line of the crisis.
 
-# 3.1. Subprime fundamentals and the ABX indices
+### 3.1. Subprime Fundamentals and the ABX Indices
 
 With respect to the housing market, the fundamentals essentially are housing prices and changes in housing prices. Subprime mortgages are very sensitive to housing prices, as shown by Gorton (2010). How was information about the fundamentals in the subprime mortgage market revealed to market participants? No secondary markets for the securities are related to subprime (mortgage-backed securities, collateralized debt obligations). But, in the beginning of 2006, the growth in the subprime securitization market led to the creation of several subprime-related indices. Specifically, dealer banks launched the ABX.HE (ABX) index in January 2006. The ABX index is a credit derivative that references 20 equally weighted subprime RMBS tranches. Subindices are linked to a basket of subprime bonds with specific ratings: AAA, AA, A, BBB and BBB-. Each subindex references the 20 subprime RMBS bonds with the rating level of the subindex. Every six months the indices are reconstituted based on a preidentified set of rules, and a new vintage of the index and subindices are issued.[16]
 
@@ -283,7 +279,7 @@ price indices, such as the Standard and Poor's (S&P) Case-Shiller Indices, are c
 
 In this paper, we focus on the BBB ABX tranche of the first vintage of the ABX in 2006, which is representative of the riskier levels of subprime securitization. We refer to this tranche of the 2006-1 issue simply as ABX. In the next subsection, we show how the ABX evolved during the crisis and compare this evolution with deterioration in the interbank markets.
 
-# 3.2. The interbank market and the LIB-OIS spread
+### 3.2. The Interbank Market and the LIB-OIS Spread
 
 Our proxy for the state of the interbank market and, in particular, the repo market is the spread between three-month LIBOR and the overnight index swap rate, which we call the LIB-OIS spread. LIBOR is the rate paid on unsecured interbank loans, cash loans in which the borrower receives an agreed amount of money either at call or for a given period of time, at an agreed interest rate. These loans are not traded. Basically, a cash-rich bank deposits money with a cash-poor bank for a period of time. The rate on such a deposit is LIBOR, which is the interest rate at which banks are willing to lend cash to other financial institutions in size. The British Bankers' Association (BBA) London interbank offered rate fixings are calculated by taking the average of a survey of financial institutions operating in the London interbank market.[18] The BBA publishes daily fixings for LIBOR deposits of maturities up to a year.
 
@@ -302,7 +298,7 @@ that there is counterparty risk, that is, Bank 1 worries that Bank 2 will defaul
 
 Ideally, we would like to use the LIB-OIS as a pure measure of counterparty risk in the banking system. Schwarz (2009) shows that this interpretation is too narrow and that the LIB-OIS reflects both counterparty risk and market-liquidity risk. In Section 5.5, we use the Schwarz data to divide the LIB-OIS into counterparty and liquidity risk, and we find that the counterparty component drives the vast majority of our results, and the liquidity component has no explanatory power. Thus, in discussing the empirical results, we refer to LIB-OIS as a proxy for counterparty risk, with the evidence for this interpretation given in Section 5.5.
 
-# 3.3. A time number line for the crisis
+### 3.3. A Timeline for the Crisis
 
 In Fig. 8, we show the ABX and LIB-OIS spreads. For the ABX, we use the 2006-1 BBB tranche in all cases. The time period is from January 1, 2007 through December 25, 2008. During the full period, the ABX makes a steady rise, whereas the LIB-OIS shows two jumps, in August 2007 and September 2008. These months are not particularly special for the ABX. Furthermore, the LIB-OIS recovers some ground at the end of 2008, while the ABX spread continues to grow. It is difficult to explain why the LIB-OIS spikes occur at these times, and we are not attempting an explanation here. Instead, these figures are intended only to illustrate that the spikes are not concurrent with major changes in the ABX.
 
@@ -316,7 +312,7 @@ The ABX spread continued its steady rise in the first half of 2008, going from 3
 
 In the second half of 2008, the full force of the panic hit asset markets, financial institutions, and the real economy. The ABX spread continued its steady rise, with prices of pennies on the dollar and spreads near 9,000 bps by the end of the period. The LIB-OIS, after a period of stability in the early summer, began to rise in early September, and then passed the 100 bps threshold for the first time on the September 15 bankruptcy filing of Lehman Brothers. The subsequent weeks heralded near collapse of the interbank market, with the LIB-OIS peaking at 364 bps on October 10, before falling back to 128 bps by the end of 2008.
 
-# 4. Data
+## 4. Data
 
 Our data come from dealer banks, which observe market prices and convert these prices into spreads. The conversion of prices into spreads involves models of default timing and recovery amounts, and we are not privy to these models. However, one indication of the quality of the data is they were the source for marking-to-market the books of some major financial institutions. The data set contains 392 series of spreads on structured products, credit derivative indices, and a smaller set of single-company credit derivatives. In each case, the banks capture the on-the-run bond or tranche, which would be the spreads of interest to market participants. Fixed-rate bond spreads are spreads to Treasuries and floating-rate spreads are to LIBOR. Appendix B contains a brief discussion of spread calculation.
 
@@ -377,11 +373,11 @@ The last row in Panel E gives summary data for the repo-rate index and the repo-
 
 index is always equal to the average haircut on all nine of the asset classes, with  $100\%$  rates included in this average if the asset class disappears.
 
-# 5. Empirical tests
+## 5. Empirical Tests
 
 In this section we examine the data more formally to determine which state variables drive the spreads on the various asset classes, and on repo. In addition, we empirically examine the determinants of repo haircuts. The goal is to provide some understanding of the mechanism that could result in a small amount of subprime risk having very large impacts on the spreads of completely unrelated asset classes. This is what must be explained to understand the crisis.
 
-# 5.1. Methodology and basic tests
+### 5.1. Methodology and Basic Tests
 
 We want to test whether the spreads on US non-subprime-related asset classes (AAA tranches) move with our state variables for the subprime market (ABX) and for interbank counterparty risk (LIB-OIS). For each asset, we want to estimate
 
@@ -413,7 +409,7 @@ Some preliminary regression results are given in Table 3. Panel A shows the resu
 
 Panel B of Table 3 addresses the global aspects of the crisis. Panel B covers non-US non-subprime related asset classes, the same ones displayed in Panel C of Table 2. All of these asset classes are significantly affected by LIB-OIS, but not by the ABX.
 
-# 5.2. Credit spreads for all categories and tranches
+### 5.2. Credit Spreads for All Categories and Tranches
 
 Table 3 focuses on a subset of the available asset categories, a subset that we think is of particular interest but nevertheless is a subset. Table 4 summarizes the  $F$ -tests for the joint significance of the changes in LIB-OIS, for the full set of asset categories, broken down into the following categories: subprime-related, US; non-subprime-related; non-US non-subprime-related; financial firms (CDS spreads); and industrial firms (CDS spreads). The table has three panels, corresponding to the whole period from January 4, 2007 to January 29, 2009, and sub-periods. We also performed similar  $F$ -tests for the ABX and lags on all asset categories. These results are not tabulated, because there is nothing of interest to show overall, changes in the ABX are no better than noise at predicting changes in spreads.
 
@@ -423,7 +419,7 @@ Table 3
 
 Credit spreads regression results.
 
-For each bond  $i$ , we estimate Eq. (2) using weekly data from January 4, 2007 to January 29, 2009,  $\Delta$ LIB-OIS is the percentage change of the spread between the 3-month LIBOR and the Overnight Index Swap (Is).  $\Delta$ ABX is the parentage change of the index at period  $t$ .  $\Delta$ Is is the Overnight Index Swap.  $\Delta r - 10$  is the change in yield on the 10-year Treasury, with its square given by  $(\Delta r - 10)^{2}$ .  $\Delta$ Slope is the change in 10-year minus 2-year Treasury yields.  $\Delta$ VIX is the change in implied volatility of Standard and Poor 500, and  $\Delta$ S&P is the return on S&P 500.  $t$ -statistics are given in parentheses below the coefficient estimates. The last two rows report  $F$ -statistics and  $p$ -values for the key state variables. The null hypothesis of the LIB-OIS  $F$ -test is that the sum of all coefficients of  $\Delta$ LIB-OIS and its lags is zero. The null hypothesis of the ABX  $F$ -test is the sum of all coefficients of  $\Delta$ ABX and its lags is zero. Panel A shows the results of six US non-subprime assets and Panel B shows the results of six non-US non-subprime assets.
+For each bond  $i$ , we estimate Eq. (2) using weekly data from January 4, 2007 to January 29, 2009,  $\Delta$ LIB-OIS is the percentage change of the spread between the 3-month LIBOR and the Overnight Index Swap (Is).  $\Delta$ ABX is the percentage change of the index at period $t$.  $\Delta$ Is is the Overnight Index Swap.  $\Delta r - 10$  is the change in yield on the 10-year Treasury, with its square given by  $(\Delta r - 10)^{2}$ .  $\Delta$ Slope is the change in 10-year minus 2-year Treasury yields.  $\Delta$ VIX is the change in implied volatility of Standard and Poor 500, and  $\Delta$ S&P is the return on S&P 500.  $t$ -statistics are given in parentheses below the coefficient estimates. The last two rows report  $F$ -statistics and  $p$ -values for the key state variables. The null hypothesis of the LIB-OIS  $F$ -test is that the sum of all coefficients of  $\Delta$ LIB-OIS and its lags is zero. The null hypothesis of the ABX  $F$ -test is the sum of all coefficients of  $\Delta$ ABX and its lags is zero. Panel A shows the results of six US non-subprime assets and Panel B shows the results of six non-US non-subprime assets.
 
 Panel A: US non-subprime asset classes  
 Credit spreads  
@@ -451,7 +447,7 @@ Table 5 presents the  $F$  test results divided by rating category. Assets in al
 
 percentages that are significantly positive for the whole period are  $28\%$ ,  $55\%$ , and  $53\%$ , respectively. For A and BBB, this is about equally divided between the two subperiods.
 
-# 5.3. Repo spreads
+### 5.3. Repo Spreads
 
 In a world with known and certain values for collateral and no transactions costs for selling collateral, repo rates should be equal to the risk-free rate, and spreads would be zero. A lender/depositor would have no fear of default, because the collateral could be freely seized and sold.
 
@@ -493,7 +489,7 @@ Volatility uses absolute differences, and not percentage differences, because pe
 
 We estimate Eq. (3) for all five classes of collateral that have data available to construct the VOL measure.[27] The regression results for these five classes are shown in Table 6. The final rows show the results of the  $F$ -tests for the joint significance of LIB-OIS (Test 1), the ABX (Test 2) and VOL changes (Test 3). These tests show that the changes in repo spreads are significantly related to the change in LIB-OIS for all five categories, with almost all of the effect coming in the contemporaneous period.
 
-For each class of securitized bonds, we estimate Eq. (3) using weekly data from January 4, 2007 to January 29, 2009. ΔLIB-OIS is the percentage change of the spread between the 3-month, London Interbank Offered Rate (LIBOR) and the overnight index swap (Is). ΔABX is the parentage change of the (ABX) index at period  $t$ . ΔOIS is the Overnight Index Swap.  $\Delta r - 10$  is the change in yield on the 10-year Treasury, with its square given by  $(\Delta r - 10)^2$ . ΔSlope is the change in 10-year minus 2-year Treasury yields. ΔVIX is the change in implied volatility of S&P 500, and ΔS&P is the return on (S&P) 500.  $t$ -statistics are given in parentheses below the coefficient estimates. The last two rows report  $F$ -statistics and  $p$ -values for the key state variables. The null hypothesis of the LIB-OIS  $F$ -test is that the sum of all coefficients of ΔLIB-OIS and its lags is zero. The null hypothesis of the ABX  $F$ -test is the sum of all coefficients of ΔABX and its lags is zero. The null hypothesis of the VOL  $F$ -test is the sum of all coefficients of VOL and its lags is zero.
+For each class of securitized bonds, we estimate Eq. (3) using weekly data from January 4, 2007 to January 29, 2009. ΔLIB-OIS is the percentage change of the spread between the 3-month, London Interbank Offered Rate (LIBOR) and the overnight index swap (Is). ΔABX is the percentage change of the (ABX) index at period $t$. ΔOIS is the Overnight Index Swap.  $\Delta r - 10$  is the change in yield on the 10-year Treasury, with its square given by  $(\Delta r - 10)^2$ . ΔSlope is the change in 10-year minus 2-year Treasury yields. ΔVIX is the change in implied volatility of S&P 500, and ΔS&P is the return on (S&P) 500.  $t$ -statistics are given in parentheses below the coefficient estimates. The last two rows report  $F$ -statistics and  $p$ -values for the key state variables. The null hypothesis of the LIB-OIS  $F$ -test is that the sum of all coefficients of ΔLIB-OIS and its lags is zero. The null hypothesis of the ABX  $F$ -test is the sum of all coefficients of ΔABX and its lags is zero. The null hypothesis of the VOL  $F$ -test is the sum of all coefficients of VOL and its lags is zero.
 
 Table 6 Repo spreads regression results.  
 
@@ -501,7 +497,7 @@ Table 6 Repo spreads regression results.
 
 Changes in repo spreads are not significantly related to changes in the ABX or VOL or to any of the other control variables. Thus, just as we found for credit spreads in our earlier analysis, the state variable for bank-counterparty risk is the only significant correlate with repo spreads.
 
-# 5.4. Repo haircuts
+### 5.4. Repo Haircuts
 
 It seems natural that banks would have to raise repo spreads to attract funds. But, higher rates do not by
 
@@ -521,7 +517,7 @@ The key finding here is that both repo spreads and repo haircuts rose during the
 
 LIB-OIS. Instead, all of these things happened at the same time, and it is not possible to disentangle the exact causes.
 
-# 5.5. LIB-OIS: counterparty risk or market-liquidity risk?
+### 5.5. LIB-OIS: Counterparty Risk or Market-Liquidity Risk?
 
 Our results show a strong correlation between the LIB-OIS and both credit spreads and repo rates, and we have interpreted the LIB-OIS as a proxy for counterparty risk. However, Schwarz (2009) demonstrates that, during the early stages of the crisis, the LIB-OIS was driven at least as much by market-liquidity risk as by counterparty risk. We can use the Schwarz data and methods to decompose the LIB-OIS relations for part of our sample period. For these tests, we use the Schwarz credit-tiering measure, which represents the average spread in overnight borrowing rates between high-risk and low-risk banks.[29] As shown in Schwarz (2009), this measure can be thought of as a proxy for counterparty risk, and it explains some (but not most) of the variation in LIB-OIS from January 1, 2007 through April 30, 2008, the last date that her series is available.
 
@@ -529,7 +525,7 @@ In our first set of tests, we replace the  $\Delta$ LIB-OIS variables in Eqs. (2
 
 In our second set of tests, we employ a two-step procedure. We first regress LIB-OIS on the credit-tiering measure and use the point estimate of the coefficient from this regression to decompose LIB-OIS into a credit-predicted variable and a residual, and into weekly changes for both of those components. The residual here would include market liquidity and any other unexplained portions of LIB-OIS. We then replace  $\Delta$ LIB-OIS with these two components—predicted and residual, in Eqs. (2)-(4). We find that the credit-predicted component performs much better than the residual for predicting credit spreads and repo rates. For example, for the 176 non-subprime related US bond spreads, the credit-predicted component is significant 35 times at the  $1\%$  level and an additional 31 times at the  $5\%$  level. In contrast, the residual is never significant for these bonds at the  $1\%$  level, and only four times at the  $5\%$  level less than would be expected by chance. Thus, for the early part of the crisis, it seems that the counterparty-risk component of LIB-OIS is much more important for our results than is the market-liquidity component.
 
-For each class of securitized bonds, we estimate Eq. (7) using weekly data from January 4, 2007 to January 29, 2009, ΔLIB-OIS is the percentage change of the spread between the three -month London Interbank Offered Rate (LIBOR) and the Overnight Index Swap (Is). ΔABX is the parentage change of the ABX index at period  $t$ . ΔOIS is the Overnight Index Swap.  $\Delta r - 10$  is the change in yield on the ten-year Treasury, with its square given by  $(\Delta r - 10)^2$ .  $\Delta$  Slope is the change in 10-year minus 2-year Treasury yields.  $\Delta$  VIX is the change in implied volatility of S&P 500, and  $\Delta$  S&P is the return on (S&P) 500.  $t$ -statistics are given in parentheses below the coefficient estimates. The last two rows report  $F$ -statistics and  $p$ -values for the key state variables. The null hypothesis of the LIB-OIS  $F$ -test is that the sum of all coefficients of ΔLIB-OIS and its lags is zero. The null hypothesis of the ABX  $F$ -test is the sum of all coefficients of ΔABX and its lags is zero. The null hypothesis of the VOL  $F$ -test is the sum of all coefficients of VOL and its lags is zero.
+For each class of securitized bonds, we estimate Eq. (7) using weekly data from January 4, 2007 to January 29, 2009, ΔLIB-OIS is the percentage change of the spread between the three -month London Interbank Offered Rate (LIBOR) and the Overnight Index Swap (Is). ΔABX is the percentage change of the ABX index at period $t$. ΔOIS is the Overnight Index Swap.  $\Delta r - 10$  is the change in yield on the ten-year Treasury, with its square given by  $(\Delta r - 10)^2$ .  $\Delta$  Slope is the change in 10-year minus 2-year Treasury yields.  $\Delta$  VIX is the change in implied volatility of S&P 500, and  $\Delta$  S&P is the return on (S&P) 500.  $t$ -statistics are given in parentheses below the coefficient estimates. The last two rows report  $F$ -statistics and  $p$ -values for the key state variables. The null hypothesis of the LIB-OIS  $F$ -test is that the sum of all coefficients of ΔLIB-OIS and its lags is zero. The null hypothesis of the ABX  $F$ -test is the sum of all coefficients of ΔABX and its lags is zero. The null hypothesis of the VOL  $F$ -test is the sum of all coefficients of VOL and its lags is zero.
 
 Table 7 Haircut regression results.  
 
@@ -537,7 +533,7 @@ Table 7 Haircut regression results.
 
 Overall, these results support the interpretation of LIB-OIS as a proxy for counterparty risk in our results.
 
-# 6. Conclusion
+## 6. Conclusion
 
 How did problems in the subprime mortgages cause a systemic event? Our answer is that there was a run in the repo market. The location and size of subprime risks held by counterparties in the repo market were not known and led to fear that liquidity would dry up for collateral, in particular non-subprime related collateral. Public shocks causing expected future spread volatility led to increases in the repo haircuts, which is tantamount to massive withdrawals from the banking system.
 
@@ -545,7 +541,7 @@ The banking system has changed, with securitized banking playing an increasing r
 
 After August 2007, the securitized-banking model was under pressure, with small equity bases stretched by increasing haircuts on high-grade collateral. We see evidence of this pressure in the co-movement of spreads on a wide variety of AAA and AA credits. This pressure contributed to the forced rescue of Bear Stearns in March 2008 and the failure of Lehman Brothers in September 2008. The second systemic event and run on repo occurred with the failure of Lehman. In this second event, we see parallels to 19th century banking crises, with a famine of liquidity leading to significant premia on even the safest of assets.
 
-# Appendix A. Glossary of key terms and asset classes
+## Appendix A. Glossary of Key Terms and Asset Classes
 
 This glossary provides definitions for all terms given in bold in the body of the paper and all asset classes listed in Table 2. For the latter group, we include the panel location of that variable in parenthesis following the definition (e.g., Panel A).
 
@@ -649,7 +645,7 @@ Unpriced CDO or CLO. All tranches of CDO and CLO securitized bonds that do not h
 
 VIX. The VIX index is a measure of the volatility of the S&P index, produced by and traded on the Chicago Board of Trade. The new version of the index, introduced in 2003, is based on the options prices of the broader S&P 500 index. Its square approximates the conditional risk-neutral expectation of the annualized return variance over the next 30 calendar days and thus the corresponding variance swap rate. See Carr and Wu (2006) (Table 2—Panel E).
 
-# Appendix B. The spread data
+## Appendix B. The Spread Data
 
 Spreads are not a common variable of analysis for financial economists, who prefer to focus on returns. As a practical matter, however, interest rate risk is frequently hedged, leaving credit risk as the focus. Credit spreads isolate the risk of default and the recovery rate. Thus, when assessing fixed income securities, investors focus on spreads as a common measure for determining how much
 
@@ -667,7 +663,7 @@ where \(P\) is the price of the floating rate note (FRN) per \\(100 face value; 
 
 The formula shows that if the quoted margin is equal to the discount margin, then the second term is zero and the FRN is valued at par. If the current price of the floater differs from par, then the discount margin is nonzero. The discount margin assumes that the cash flows over the remaining life of the bond are determined by the current reference rate value. The margin is selected so that the present value of the cash flows is equal to the security's price. The discount margin is a measure that is similar to yield-to-maturity for fixed rate instruments. It expresses the price of an FRN relative to the current LIBOR level. See Fabozzi and Mann (2000).
 
-# References
+## References
 
 Acharya, V., Gale, D., Yorulmazer, T., 2009. Rollover Risk and Market Freezes. Unpublished Working Paper, New York University, New York.  
 Adrian, T., Shin, H., 2008. Liquidity, monetary policy, and financial cycles. Current Issues in Economics and Finance 40, 1.  

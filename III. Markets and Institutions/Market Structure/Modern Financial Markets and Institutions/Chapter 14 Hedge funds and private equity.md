@@ -502,7 +502,7 @@ There is an added danger in trying to attract institutional investors into what 
 
 Source: Financial Times, 6 August 2010, p. 29. Reprinted with permission.
 
-In a 2011 survey conducted by Deutsche Bank 55 per cent of hedge fund investors said they preferred to allocate money to onshore UCITS hedge fund vehicles rather than offshore funds. Indeed, over the 2011-2012 period it is anticipated that more than 400 billion will flow into UCITS hedge funds, more than for traditional offshore hedge funds.
+In a 2011 survey conducted by Deutsche Bank 55 per cent of hedge fund investors said they preferred to allocate money to onshore UCITS hedge fund vehicles rather than offshore funds. Indeed, over the 2011-2012 period it is anticipated that more than $400 billion will flow into UCITS hedge funds, more than for traditional offshore hedge funds.
 
 While the lure of being able to invest in a (expected-to-be) lucrative hedge fund has attracted considerable investment, results have not always been as expected, see Exhibit 14.14. It is reported that hedge fund UCITS vehicles returned just 4.1 per cent in 2010 far below the average gain for standard offshore hedge funds of about 10 per cent.
 
@@ -514,7 +514,7 @@ While the lure of being able to invest in a (expected-to-be) lucrative hedge fun
 
 # By Sam Jones
 
-BlueCrest Capital, Europe's third-largest hedge fund, is to liquidate a  $630\mathrm{m}$  (\$399m) fund that it launched last year.
+BlueCrest Capital, Europe's third-largest hedge fund, is to liquidate a $630m ($399m) fund that it launched last year.
 
 The BlueCrest BlueTrend Ucits fund was an onshore version of the firm's successful computer-driven 9bn BlueTrend fund.
 
@@ -548,7 +548,7 @@ Marshall Wace, one of Europe's largest hedge funds, will today unveil plans to l
 
 The move marks a rekindling of a trend popular among top-tier hedge funds at the height of the boom to list versions of their restricted, proprietary strategies on stock exchanges.
 
-The Marshall Wace vehicle, expected to raise  $500\mathrm{m}$  (\$307m), will be structured as an ETF, the first such structure of its kind, and unlike a closed-ended listing will be able to grow in size according to investor demand.
+The Marshall Wace vehicle, expected to raise $500m ($307m), will be structured as an ETF, the first such structure of its kind, and unlike a closed-ended listing will be able to grow in size according to investor demand.
 
 The fund, to be named Marshall Wace Tops Global Alpha, will be listed on both the London and Frankfurt exchanges and will track an index designed to mirror the holdings of the six existing Marshall Wace Tops funds, proprietary hedge fund strategies currently only available to institutions and wealthy individuals.
 

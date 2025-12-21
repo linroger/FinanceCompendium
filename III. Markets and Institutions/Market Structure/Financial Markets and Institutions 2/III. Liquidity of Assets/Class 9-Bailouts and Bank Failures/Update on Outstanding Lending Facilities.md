@@ -1,13 +1,20 @@
 ---
-parent_directory:
-title: Update On Outstanding Lending Facilities
-tags:
-aliases:
-parent_folder: Class 9-Bailouts and Bank Failures
-subfolder:
-key_concepts:
+title: "Update on Outstanding Lending Facilities"
+parent_directory: "Class 9-Bailouts and Bank Failures"
+formatted: 2025-12-21 05:10:00 PM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
+primary_tags:
+   - federal reserve lending facilities
+   - primary dealer credit facility
+   - commercial paper funding facility
+   - money market mutual fund liquidity facility
+secondary_tags:
+   - covid-19 emergency lending
+   - federal reserve section 13(3)
+   - liquidity backstop programs
+   - term asset-backed securities loan facility
 cssclasses: academia
-linter-yaml-title-alias: Update On Outstanding Lending Facilities
 ---
 
 # Update On Outstanding Lending Facilities

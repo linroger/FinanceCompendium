@@ -1,67 +1,54 @@
 ---
-aliases:
-- Currency Derivatives
-tags: null
-key_concepts: null
+title: "Chapter 13: Currency Derivatives"
 parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 13: Currency Derivatives'
-linter-yaml-title-alias: 'Chapter 13: Currency Derivatives'
+formatted: 2025-12-21 05:16:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: claude-code
 primary_tags:
-- swap market forward futures
-- currency futures options contracts
-- value spot rate 40
-- differences currency forward
-- growth derivative markets 13
+  - currency derivatives
+  - futures options swaps
+  - hedging speculation
+  - option pricing models
 secondary_tags:
-- chapter 13 currency derivatives
-- hedging purposes 13 symmetry
-- 13 differences options futures
-- option pricing formula 13
-- option sterling assume
-- exchange traded 13 exchange
-- chance option exercised value
-- options swaps intrinsic time
-- distinguishing characteristics swap market
-- relationship determinants currency option
-- formula let consider dollar
-- versus forward contract hedging
-tags_extracted: '2025-12-18T01:33:48.160751'
+  - exchange traded contracts
+  - over the counter markets
+  - covered interest parity
+  - garman kohlhagen formula
+  - intrinsic time value
+  - counterparty risk
+  - margin requirements
+  - mark to market
+cssclasses: academia
 ---
 
 # CHAPTER 13
 
-## CURRENCY DERIVATIVES: FUTURES, OPTIONS AND)SWAPS
+## Currency Derivatives: Futures, Options and Swaps
 
 CHAPTER OUTLINE
 
 13.1 Introduction
 
-13.2 !e growth of derivative markets
+13.2 The growth of derivative markets
 13.3 Exchange-traded futures and options contracts
 13.4 Currency futures and currency forwards
 13.5 Open interest and reversing trades
-13.6 !e use of currency futures for hedging purposes
-
-13.7
-!e symmetry of profit/losses on futures/forward positions
-13.8 !e pricing of currency futures
+13.6 The use of currency futures for hedging purposes
+13.7 The symmetry of profit/losses on futures/forward positions
+13.8 The pricing of currency futures
 13.9 Currency options
 13.10 A currency option versus a forward contract for hedging
 13.11 A currency option versus a forward for speculating
-13.12 !e role of option contracts
-
-13.13
-Differences between options and futures contracts
-13.14 !e pricing of currency options
+13.12 The role of option contracts
+13.13 Differences between options and futures contracts
+13.14 The pricing of currency options
 13.15 Intrinsic value and time value
-
-13.16 !e distribution of the option premium between time and intrinsic value
-13.17 !e Garman and Kohlhagen option-pricing formula
-13.18 A numerical example of the Garman–Kohlhagen formula
+13.16 The distribution of the option premium between time and intrinsic value
+13.17 The Garman and Kohlhagen option-pricing formula
+13.18 A numerical example of the Garman-Kohlhagen formula
 13.19 Problems with the currency option-pricing formula
-13.20 !e OTC market in options
-13.21 !e swaps market
+13.20 The OTC market in options
+13.21 The swaps market
 13.22 Potential currency swap scenarios
 13.23 A currency swap agreement
 13.24 Distinguishing characteristics of the swap market from the forward and futures markets
@@ -73,66 +60,37 @@ Appendix
 
 Since the early 1970s there has been an enormous growth in the use of what is known as derivative instruments.
 
-In this chapter we look at three types of derivative contracts: futures, options and swaps. !e aim of the
+In this chapter we look at three types of derivative contracts: futures, options and swaps. The aim of the chapter is to introduce the reader to the basic features. In particular, we will emphasize how the contracts can be used for both speculative and hedging purposes and the advantages and disadvantages of the various contracts. We also look at basic formulae governing the appropriate pricing of futures and options contracts.
 
-chapter is to introduce the reader to the basic features. In particular, we will emphasize how the contracts
-
-can be used for both speculative and hedging purposes and the advantages and disadvantages of the various
-
-contracts. We also look at basic formulae governing the appropriate pricing of futures and options contracts.
-
-International Finance
-
-Standardized financial futures and options contracts are traded on organized exchanges. !ey were first traded
-
-- n the Chicago Board Options Exchange (CBOE) in the early 1970s, and in 1982 London opened the London
-International Financial Futures Exchange (LIFFE) which in 2001 was merged with the Amsterdam, Paris, Belgian
-and Lisbon Exchanges and is now called the Intercontinental Exchange - ICE Futures Europe. Since then Euronext
-has also merged with the Lisbon Stock Exchange. A significant amount of trading in foreign currency options is
-done outside of the major exchanges in what is known as the 'over-the-counter' (OTC) market in which banks and
-
-- ther financial institutions design contracts tailor-made to meet the specific needs of their corporate clients. !e
-swaps market is an OTC market with swaps between two parties being arranged on a tailor-made basis.
+Standardized financial futures and options contracts are traded on organized exchanges. They were first traded on the Chicago Board Options Exchange (CBOE) in the early 1970s, and in 1982 London opened the London International Financial Futures Exchange (LIFFE) which in 2001 was merged with the Amsterdam, Paris, Belgian and Lisbon Exchanges and is now called the Intercontinental Exchange - ICE Futures Europe. Since then Euronext has also merged with the Lisbon Stock Exchange. A significant amount of trading in foreign currency options is done outside of the major exchanges in what is known as the 'over-the-counter' (OTC) market in which banks and other financial institutions design contracts tailor-made to meet the specific needs of their corporate clients. The swaps market is an OTC market with swaps between two parties being arranged on a tailor-made basis.
 
 13.2 THE GROWTH OF DERIVATIVE MARKETS
 
-!e phenomenal growth of trading in these derivative instruments has been one of the most important
+The phenomenal growth of trading in these derivative instruments has been one of the most important developments in international financial markets over the last three decades. The 1980s witnessed an astonishing growth of futures and options markets and this trend has continued into the twenty-first century as shown in Table 13.1.
 
-developments in international financial markets over the last three decades. !e 1980s witnessed an
+There are numerous reasons for the rapid growth of futures and options markets, which include:
 
-astonishing growth of futures and options markets and this trend has continued into the twenty-first century
+1. The volatility of foreign exchange markets following the collapse of the Bretton Woods system of fixed exchange rates (see Chapter 11), combined with the fact that greater freedom of movement of capital internationally has created a large demand on the part of companies, investors, fund managers and the like for a means to cope with the greater volatility and risk.
 
-as shown in Table 13.1.
+2. Futures and options markets enable traders to take speculative positions on price movements for a low initial cash payment, known as the initial margin.
 
-!ere are numerous reasons for the rapid growth of futures and options markets, which include:
+**Table 13.1** The growth of exchange traded futures and options contracts
 
-!e volatility of foreign exchange markets following the collapse of the Bretton Woods system of fixed
-
-exchange rates (see Chapter 11), combined with the fact that greater freedom of movement of capital
-
-internationally has created a large demand on the part of companies, investors, fund managers and
-
-the like for a means to cope with the greater volatility and risk.
-
-2. Futures and options markets enable traders to take speculative positions on price movements for a
-
-low initial cash payment, known as the initial margin.
-
-**Table 13.1** !e growth of exchange traded futures and options contracts
-
-|Turnoveroffuturescontractstradedoninternationalexchanges<br>(Numbersofcontractsinmillions)|Col2|Col3|Col4|Col5|Col6|Col7|Col8|
+| **Instruments** | **1990** | **1995** | **2000** | **2005** | **2010** | **2015** | **2019** |
 |---|---|---|---|---|---|---|---|
-|**Instruments**|**1990**|**1995**|**2000**|**2005**|**2010**|**2015**|**2019**|
-|Interest rate|199.4|576.0|770.5|2093.6|2524.3|2702.9|3306.8|
-|Currency|28.9|96.9|41.0|145.9|2206.4|2212.3|2516.7|
-|Equity index|36.4|115.2|189.4|862.3|2285.3|2803.8|4193.5|
-|**All Markets**|264.7|778.1|1007.9|3101.8|7016.0|7719.0|10017.0|
-|**Turnover of options traded on international exchanges**<br>**(Numbers of contracts in millions)**|**Turnover of options traded on international exchanges**<br>**(Numbers of contracts in millions)**|**Turnover of options traded on international exchanges**<br>**(Numbers of contracts in millions)**|**Turnover of options traded on international exchanges**<br>**(Numbers of contracts in millions)**|**Turnover of options traded on international exchanges**<br>**(Numbers of contracts in millions)**|**Turnover of options traded on international exchanges**<br>**(Numbers of contracts in millions)**|**Turnover of options traded on international exchanges**<br>**(Numbers of contracts in millions)**|**Turnover of options traded on international exchanges**<br>**(Numbers of contracts in millions)**|
-|**Instruments**|**1990**|**1995**|**2000**|**2005**|**2010**|**2015**|**2019**|
-|Interest rate|54.0|101.3|106.4|429.1|650.9|573.6|977.7|
-|Currency|18.7|23.1|7.0|19.6|55.1|457.5|1310.0|
-|Equity index|108.9|181.0|274.0|3115.9|5080.6|3919.5|6434.3|
-|**All Markets**|181.6|305.4|387.4|3564.6|5786.6|4950.6|8722|
+| Interest rate | 199.4 | 576.0 | 770.5 | 2093.6 | 2524.3 | 2702.9 | 3306.8 |
+| Currency | 28.9 | 96.9 | 41.0 | 145.9 | 2206.4 | 2212.3 | 2516.7 |
+| Equity index | 36.4 | 115.2 | 189.4 | 862.3 | 2285.3 | 2803.8 | 4193.5 |
+| **All Markets** | 264.7 | 778.1 | 1007.9 | 3101.8 | 7016.0 | 7719.0 | 10017.0 |
+
+**Turnover of options traded on international exchanges (Numbers of contracts in millions)**
+
+| **Instruments** | **1990** | **1995** | **2000** | **2005** | **2010** | **2015** | **2019** |
+|---|---|---|---|---|---|---|---|
+| Interest rate | 54.0 | 101.3 | 106.4 | 429.1 | 650.9 | 573.6 | 977.7 |
+| Currency | 18.7 | 23.1 | 7.0 | 19.6 | 55.1 | 457.5 | 1310.0 |
+| Equity index | 108.9 | 181.0 | 274.0 | 3115.9 | 5080.6 | 3919.5 | 6434.3 |
+| **All Markets** | 181.6 | 305.4 | 387.4 | 3564.6 | 5786.6 | 4950.6 | 8722 |
 
 _Source_ : GlobalInvestorGroup.com.
 
@@ -154,72 +112,27 @@ contracts are guaranteed by the exchange on which they are traded.
 
 Exchange-traded currency futures and options contracts were traditionally sold in a central exchange by an
 
-- pen outcry system. Under this system, traders congregate around a 'pit' on the trading $oor of the exchange,
+open outcry system. Under this system, traders congregate around a 'pit' on the trading floor of the exchange,
 and contracts are bought and sold at prices within hearing distance of all other traders. Once a contract price
-is agreed, the traders fill out trading slips which are then matched by the exchange clearing house. Once the
-clearing house confirms the deal, a futures or options contract is in existence and the contract is guaranteed
-by the exchange. !is means that if one of the parties fails to fulfil its obligations, then the exchange will
-assume the defaulting party's obligations. Effectively the exchange removes counterparty risk; the only credit
-risk involved is that of the exchange. !ese days, however, most exchanges are switching to computer-based
-trading systems.
+is agreed, the traders fill out trading slips which are then matched by the exchange clearing house. Once the clearing house confirms the deal, a futures or options contract is in existence and the contract is guaranteed by the exchange. This means that if one of the parties fails to fulfil its obligations, then the exchange will assume the defaulting party's obligations. Effectively the exchange removes counterparty risk; the only credit risk involved is that of the exchange. These days, however, most exchanges are switching to computer-based trading systems.
 
-One of the major advantages of exchange-traded futures and options contracts is that the exchange
-
-guarantees every contract, thus relieving the gaining party of the risk of default by the losing party and the
-
-need to evaluate the creditworthiness of the counterparty. To limit its exposure, exchange regulations require
-
-that each counterparty to a futures contract and the seller (writer) of an option contract makes an initial
-
-deposit with the exchange known as the 'initial margin' (this is usually between 2 and 10% of the value of the
-
-contract). Once the contract involves a party making a loss greater than the initial margin, further deposits
-
-are required on a daily basis from the losing party, known as the 'variation margin', to re$etc the potential
-
-loss associated with the contract. !e 'marking to market', that is, calculation of variation margins, is carried
-
-- ut at the end of each day on the basis of the settlements price (usually the closing price). !e other party
-has its profit position credited to its margin account. Since all potential losses have to be paid for on a daily
-basis this limits the exposure of the exchange. In the rare event that a trader were to fail to settle a margin
-payment, the exchange has the right to close the trader's position by taking an offsetting contract limiting
-its potential exposure to that trader's position. A further means by which the exchange limits its exposure
-is that dealing is restricted to members of the exchange who are usually representatives of well-established
-financial institutions. !e exchange protects itself by careful selection of authorized traders and by imposing
-high membership requirements and standards. !e exchange also constantly monitors members' positions. In
-addition, an exchange will maintain a large clearing fund to meet unforeseen circumstances.
+One of the major advantages of exchange-traded futures and options contracts is that the exchange guarantees every contract, thus relieving the gaining party of the risk of default by the losing party and the need to evaluate the creditworthiness of the counterparty. To limit its exposure, exchange regulations require that each counterparty to a futures contract and the seller (writer) of an option contract makes an initial deposit with the exchange known as the 'initial margin' (this is usually between 2 and 10% of the value of the contract). Once the contract involves a party making a loss greater than the initial margin, further deposits are required on a daily basis from the losing party, known as the 'variation margin', to reflect the potential loss associated with the contract. The 'marking to market', that is, calculation of variation margins, is carried out at the end of each day on the basis of the settlements price (usually the closing price). The other party has its profit position credited to its margin account. Since all potential losses have to be paid for on a daily basis this limits the exposure of the exchange. In the rare event that a trader were to fail to settle a margin payment, the exchange has the right to close the trader's position by taking an offsetting contract limiting its potential exposure to that trader's position. A further means by which the exchange limits its exposure is that dealing is restricted to members of the exchange who are usually representatives of well-established financial institutions. The exchange protects itself by careful selection of authorized traders and by imposing high membership requirements and standards. The exchange also constantly monitors members' positions. In addition, an exchange will maintain a large clearing fund to meet unforeseen circumstances.
 
 13.4 CURRENCY FUTURES AND CURRENCY FORWARDS
 
-A currency futures contract is an agreement between two counterparties to exchange a specified amount
-
-- f two currencies at a given date in the future at a predetermined exchange rate. As such, they are basically
-standardized forward contracts of the kind that we examined in Chapter 1. For example, a currency futures
-contract may specify &125,000 per contract is being bought or sold. With a forward contract, the amount to
-be exchanged is negotiable between the two parties; for example, the two parties can agree to buy/sell, say,
-&122,000 forward.
+A currency futures contract is an agreement between two counterparties to exchange a specified amount of two currencies at a given date in the future at a predetermined exchange rate. As such, they are basically standardized forward contracts of the kind that we examined in Chapter 1. For example, a currency futures contract may specify €125,000 per contract is being bought or sold. With a forward contract, the amount to be exchanged is negotiable between the two parties; for example, the two parties can agree to buy/sell, say, €122,000 forward.
 
 313
 
 International Finance
 
-Table 13.2 shows a hypothetical dollar–euro (&125,000) contract offered by the Chicago Mercantile
-
-Exchange (CME). !e CME also offers a number of currency contracts, including dollar–Australian dollar
-
-(A\$100,000), dollar–Canadian dollar (C\$100,000), dollar–Mexican peso (500,000 pesos), dollar–sterling
-
-(£62,500) and dollar–yen (¥12.5 million). !e contract specifies the amount of currency to be exchanged, the
-
-exchange on which the contract is traded, the delivery date and the process for delivery.
+Table 13.2 shows a hypothetical dollar–euro (€125,000) contract offered by the Chicago Mercantile Exchange (CME). The CME also offers a number of currency contracts, including dollar–Australian dollar (A\$100,000), dollar–Canadian dollar (C\$100,000), dollar–Mexican peso (500,000 pesos), dollar–sterling (£62,500) and dollar–yen (¥12.5 million). The contract specifies the amount of currency to be exchanged, the exchange on which the contract is traded, the delivery date and the process for delivery.
 
 One party agrees to sell the currency (go short) and the other party agrees to purchase the currency (go
 
-long). Despite their high degree of similarity there are some practical differences between currency forward
+long). Despite their high degree of similarity there are some practical differences between currency forward and futures contracts – summarized in Table 13.3.
 
-and futures contracts – summarized in Table 13.3.
-
-!e main differences are:
+The main differences are:
 
 1. A currency futures contract is a standardized notional agreement between two counterparties to
 
@@ -233,14 +146,14 @@ the two parties.
 
 exchange being made directly between two parties.
 
-**Table 13.2** Dollar per euro futures contracts &125,000
+**Table 13.2** Dollar per euro futures contracts €125,000
 
-|Col1|Openingprice|Settlementprice|Change|High|Low|Estimatedvolume|Openinterest|
+| Contract | Opening Price | Settlement Price | Change | High | Low | Estimated Volume | Open Interest |
 |---|---|---|---|---|---|---|---|
-|June|1.2538|1.2518|0.0008|1.2610|1.2495|275,700|381,450|
-|Sept|1.2550|1.2528|0.0010|1.2613|1.2505|800|4,300|
+| June | 1.2538 | 1.2518 | -0.0008 | 1.2610 | 1.2495 | 275,700 | 381,450 |
+| Sept | 1.2550 | 1.2528 | -0.0010 | 1.2613 | 1.2505 | 800 | 4,300 |
 
-_Note_ : !e hypothetical spot exchange rate is \$1.2520.
+*Note*: The hypothetical spot exchange rate is \$1.2520.
 
 _Source_ : Hypothetical data.
 

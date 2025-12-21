@@ -136,7 +136,7 @@ An exchange rate is the price of one currency (the base currency) expressed in t
 
 Therefore if the exchange rate between the US dollar and the pound is  \mathrm{US\1.60 = £1.00}  this means that  £1.00  will cost  \mathrm{US\1.60} . Taking the reciprocal,  \mathrm{US\1.00}  will cost 62.50 pence. The standardised forms of expression are:
 
-US$/£:1.60 or
+US\$/£:1.60 or
 
 US1.60/£ or
 
@@ -155,13 +155,13 @@ US1.5988/£ 'middle rate'
 So if you wished to purchase US1 million the cost would be:
 
 $$
-\frac{\mathbb {S} 1 , 0 0 0 , 0 0 0}{1 . 5 9 8 6} = £ 6 2 5, 5 4 7
+\frac{\$1,000,000}{1.5986} = £625,547
 $$
 
 However, if you wished to sell US1 million you would receive:
 
 $$
-\frac{\mathbb {S} 1 , 0 0 0 , 0 0 0}{1 . 5 9 9 0} = £ 6 2 5, 3 9 1
+\frac{\$1,000,000}{1.5990} = £625,391
 $$
 
 The foreign exchange dealers are transacting with numerous buyers and sellers every day and they make a profit on the difference between the bid price and offer price (the bid/offer spread). In the above example if a dealer sold US \$1 million and bought US\$ 1 million with a bid/offer spread of 0.04 of a cent, a profit of £625,547 - £625,391 = £156 is made.
@@ -222,7 +222,7 @@ Exhibit 12.6 Currency rates from the FT 13/14 November 2010
 
 Source: Financial Times, 13/14 November 2010. Reprinted with permission.
 
-# Worked example 12.2 Covering in the forward market
+## Worked Example 12.2 Covering in the Forward Market
 
 Suppose that on 12 November 2010 a UK exporter sells goods to a customer in France invoiced at €5,000,000. Payment is due three months later. With the spot rate of exchange at €1.1787/£ (see Exhibit 12.6) the exporter, in deciding to sell the goods, has in mind a sales price of:
 
@@ -253,7 +253,7 @@ $$ regardless of the way in which the spot exchange rate moves over the three mo
 
 In February the transactions in Exhibit 12.7 take place.
 
-# Exhibit 12.7 Example of the forward market
+## Exhibit 12.7 Example of the Forward Market
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/57572792ffbc7ef2fc4914e0140f0a5fc90735e6effb0195c95a61cced2da60b.jpg)
 
@@ -261,7 +261,7 @@ From the outset (in November) the exporter knew the amount to be received in Feb
 
 Covering in the forward market is a form of insurance which leads to greater certainty – and certainty has a value. For many companies it is vital that they have this certainty about income and expenditure; they cannot afford to leave things and hope they will turn out satisfactorily.
 
-# Settlement
+## Settlement
 
 The vast sums of money traded every working day across the world mean that banks are exposed to the risk that they may irrevocably pay over currency to a counterparty before they receive another currency in return because settlement systems are operating in different time zones. A bank could fail after receiving one leg of its foreign exchange trades but before paying the other leg – this is called Herstatt risk after Bankhaus Herstatt, a German bank, which failed in 1974 with 620 million of unsettled trades (where one side of the trade has paid but the other side has not). In this case the crisis was due to the time difference between Europe and the US; Bankhaus Herstatt received its dollar payments in Frankfurt, but ceased trading before the reciprocal payment could be made in New York. Its failure caused panic and gridlock in the FX markets, which took weeks to unravel.
 
@@ -273,7 +273,7 @@ Over 50 per cent of global FX trading uses multi-lateral netting, where the nett
 
 CME in Chicago offers guaranteed clearing and settlement through its own clearing service CME ClearPort, and claims never to have had any defaults in 100 years of trading.
 
-# Cross exchange rates
+## Cross Exchange Rates
 
 The major currencies of the world, US dollar, euro, pound and Swiss franc are easily exchangeable directly into other currencies. Some currency pairs are traded much less frequently and so the market is thin and illiquid, which usually means costly. For example, the Philippines peso and the United Arab Emirates dirham would see little trade and so a company exporting from the Philippines to UAE receiving dirhams would have difficulty obtaining quotation for a good rate of exchange. The traditional way of dealing with this was to exchange the dirhams into one of the major currencies, usually the US dollar, and then to exchange the dollars for pesos. Thus most currency rates are quoted in terms of the US dollar primarily, rather than against the 170 other currencies in the world – it simply becomes too cumbersome to quote all the possible two-currency rates and so the rate against the US dollar is set as the benchmark. Of course, today a single bank will be able to offer a service of quoting both the dirham:dollar and the peso:dollar rates, in which case it is not necessary to bother with the exchange to and from dollars, but merely to quote the rates and, if the client likes them, for the bank to transact dirhams for pesos.
 
@@ -284,7 +284,7 @@ Thus the Philippines peso and the UAE dirham are both cross currencies because t
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/be97f58d9500fb75bab7b4c2f9fddefb9331c9549f285db17ec472e1aca62f15.jpg)
 Exhibit 12.8 Example of a cross-rate
 
-# Exchange rate regimes
+## Exchange Rate Regimes
 
 # Fixed FX regimes
 

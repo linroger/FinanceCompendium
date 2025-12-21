@@ -1,15 +1,16 @@
 ---
 title: The Value of the Financial System
 parent_directory: Modern Financial Markets and Institutions
-formatted: 2025-12-21 04:58:25 PM
-formatter_model: grok-code-fast-1
+formatted: 2025-12-21 05:15:00 PM
+formatter_model: claude-sonnet-4-5-20250929
 cli_tool: opencode
 primary_tags:
   - financial system overview
   - market instruments institutions
-  - economic growth channels
   - financial intermediation
+  - asset transformation
 secondary_tags:
+  - economic growth channels
   - bond market impacts
   - equity market dynamics
   - money market operations
@@ -20,6 +21,7 @@ secondary_tags:
   - market liberalization
   - primary secondary markets
   - exchange traded OTC
+  - risk transformation
 cssclasses: academia
 ---
 
@@ -179,7 +181,7 @@ So great is the wave of listings that Hong Kong is on track for the second year 
 
 But as Hong Kong stock prices surge to within striking distance of their 2009 peak, sucking in more and more investors, there are concerns among some fund managers that the market is getting too hot.
 
-So far this year some 53 companies have raised a combined  \$23.9bn from IPOs in Hong Kong, according to data from Dealoric. That figure dwarfs the\$ 10.7bn raised in New York and 7bn in London.
+So far this year some 53 companies have raised a combined \$23.9bn from IPOs in Hong Kong, according to data from Dealoric. That figure dwarfs the \$10.7bn raised in New York and 7bn in London.
 
 With AIG alone set to raise at least 13.9bn from the listing of AIA, its Asian business, Hong Kong is now on track to trump its rivals Shanghai and Shenzhen in terms of deal volume in 2010.
 
@@ -197,13 +199,13 @@ Yet Mongolian Mining Corp and other foreign issuers still make up only a fractio
 
 Boshiwa, a children's clothing retailer likened to Mothercare of the UK, is a good example. The Chinese company, which raised  $320\mathrm{m}$  in Hong Kong in September, saw its shares rocket 41 per cent on their trading debut last week. On Wednesday, shares in Boshiwa were trading at a price of 72 times last year's earnings.
 
-China is clearly rebalancing the economy away from one that is predominantly export and manufacturing-driven towards a more domestic consumption-driven one, said Kester Ng, JPMorgan's co-head of equity capital and derivatives markets for Asia. "Companies that
+China is clearly rebalancing the economy away from one that is predominantly export and manufacturing-driven towards a more domestic consumption-driven one, said Kester Ng, JPMorgan's co-head of equity capital and derivatives markets for Asia. "Companies that are linked to the Chinese consumption theme have done really well."
 
 IPOs
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/9c534055feb15f941da9cfa4299d7a7c6a76cd8f0d6ead23a4cd103e0062bd56.jpg)
 
-Value of new listings, year to date (\$bn) are linked to the Chinese consumption theme have done really well." This point has not been lost on Chinese companies themselves.
+Value of new listings, year to date (\$bn) This point has not been lost on Chinese companies themselves.
 
 Source: Thomson Reuters Datastream; Dealogic
 
@@ -250,7 +252,7 @@ In the US financial market activity is split between a number of centres, with N
 
 Note that while Hong Kong and Singapore are highly ranked in terms of having the right infrastructure and attractiveness for financial services to grow, as we saw in the Z/Yen survey, they still have a relatively small share of world activity in most categories. Japan, France and Germany have more activity than the Asian centres in a number of segments.
 
-# World without money or financial institutions
+## World without money or financial institutions
 
 Let us imagine how financial transactions began in the distant past, when things were much simpler.
 
@@ -334,7 +336,7 @@ Volume transformation Many institutions gather small amounts of money from numer
 
 Apart from the banks and building societies, unit trusts are important here. It is uneconomic for an investor with, say, €50 per month, who wants to invest in shares, to buy small quantities periodically, due to the charges and commissions levied. Unit trusts gather together hundreds of individuals' monthly savings and invest them in a broad range of shares, thereby exploiting economies in transaction costs.
 
-# Intermediaries' economies of scale
+## Intermediaries' economies of scale
 
 An intermediary, such as a bank, is able to accept lending to (and investing in shares of) companies at a relatively low rate of return because of the economies of scale enjoyed compared with the primary investor. These economies of scale include:
 
@@ -344,7 +346,7 @@ An intermediary, such as a bank, is able to accept lending to (and investing in 
 
 The reduced information costs, convenience and passed-on benefits from the economies of operating on a large scale mean that primary investors are motivated to place their savings with intermediaries. The effect of the financial intermediaries and markets are shown in Exhibit 1.13, where the flow of funds from savings to investment is increased.
 
-# Payment mechanisms
+## Payment mechanisms
 
 Another important role for financial intermediaries is to facilitate the transfer of money. Over time, money in the form of coins and notes has become a less useful means of transacting business. When larger sums are involved, it is simply not practical to use cash. During the twentieth century cheques became the most commonly used means of payment for individuals throughout the world, while companies used cheques, bills of exchange or bankers' acceptances to facilitate trade payments (see Chapter 5). Towards the end of the century, however, the electronic age brought innovation in the field of payments, so that now cheques are virtually redundant – in many countries, supermarkets and other stores no longer accept cheques as a form of payment, insisting on cash or debit or credit cards. In parts of Europe, including Germany, cheque usage has already been phased out and this was due to happen in the UK by 2018. However there is considerable resistance to this, as electronic payments are not always the best solution, especially for small traders and so there was a reprise for the UK cheque.
 
@@ -368,7 +370,9 @@ The financial services sector has grown rapidly in the post-war period. It now r
 
 London has historically been the most important financial centre, ideally positioned at the heart of the British Empire and the industrialised world. London is open for business when the rest of Europe is active and when the Asian markets are still operating at the end of their trading day and the US is starting its working day. New York is London's biggest rival and overtakes London in many regards, e.g. size of the domestic bond and equity markets, but there is no doubt that London is the foremost financial centre in many areas. See Exhibit 1.14 for some statistical highlights.
 
-# Exhibit 1.14 City of London's position in international finance and business services o  $70 \%$  of all eurobond turnover traded in London
+## Exhibit 1.14 City of London's position in international finance and business services
+
+- $70\%$ of all eurobond turnover traded in London
 
 o 450 billion of worldwide premium insurance income in the UK o 112 million metal contracts per annum traded in London
 
@@ -580,9 +584,9 @@ There is an old joke about financial service firms: they just shovel money from 
 
 This chapter has tried to convey the importance of financial services to the people of a nation. These arguments are increasingly being accepted. For example, India has recently recognised the centrality of modern financial services to permit fast economic growth – see Exhibit 1.19.
 
-# Exhibit 1.19
+## Exhibit 1.19
 
-# Singh commits India to reform plan
+### Singh commits India to reform plan
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/b74ad0798fdab6cf3aad56be771300cb9dfdea296657859f1a276de4fc6b51bf.jpg)
 
@@ -600,7 +604,7 @@ His comments seek to dispel investor anxiety over previously agreed financial re
 
 Some senior bankers consider India's largely state-owned banking system as severely underdeveloped. Kalpana Morparia, the chief executive of banking group JPMorgan in India, described the reach of India's financial system as "appalling", with low numbers of bank account holders and stunted credit extension. She said India has a "long way to go" to reach its goal of 9 per cent economic growth and that it had to take steps to expand its financial sector.
 
-# Exhibit 1.19 continued
+### Exhibit 1.19 continued
 
 Mention of insurance and pension reforms was omitted in a budget statement shortly after the election, and senior cabinet ministers have said consensus within the ruling coalition is lacking over the immediate reform agenda.
 
@@ -612,7 +616,7 @@ Source: Financial Times, 9 November 2009, p. 12. Reprinted with permission.
 
 This chapter has given an introduction to the world of the financial system. Subsequent chapters expand on each sector.
 
-# Key points and concepts
+## Key points and concepts
 - Money markets deal in short-term debt securities – wholesale borrowing and lending for less than one year until they mature.
 Bond markets handle longer-term debt securities issued by corporations, governments, local authorities and so on. There is usually a secondary market.
 Equity markets trade in shares (equities) on a stock market. Firms raise finance by issuing shares. Usually investors can buy/sell in a secondary market.
@@ -670,7 +674,7 @@ The risk takers:
 - private equity funds – invest in companies not quoted on a stock exchange;
 - hedge funds – wide variety of investment or speculative strategies largely outside regulators' control.
 
-# References and further reading
+## References and further reading
 
 To keep up to date and reinforce knowledge gained by reading this chapter, I recommend the Financial Times and The Economist.
 
@@ -690,9 +694,9 @@ Vaitilingam, R. (2010) The Financial Times Guide to using the Financial Pages, 6
 
 Good introductory source of information. Clear and concise.
 
-# Websites
+## Websites
 
-# Websites for statistics
+### Websites for statistics
 
 Association of British Insurers www.abi.org.uk
 
@@ -718,7 +722,7 @@ World Federation of Exchanges www.world-exchanges.org
 
 World Trade Organization www.wto.org
 
-# Websites for information
+### Websites for information
 
 Alternative Investment Management Association: the hedge fund industry's global, not-for-profit trade association www.aima.org
 
@@ -742,11 +746,11 @@ Securities Industry and Financial Markets Association www.sifma.org
 
 The Banker: provides global financial information www.thebanker.com
 
-# Video presentations
+### Video presentations
 
 Financial services company chief executives and other senior people describe and discuss policy and other aspects of their businesses in interviews, documentaries and webcasts at Cantos.com. (www.cantos.com) – these are free to view.
 
-# Case study recommendations
+### Case study recommendations
 
 See www.pearsoned.co.uk/arnold for case study synopses.
 
@@ -760,7 +764,7 @@ The Japanese Financial System: From Postwar to the New Millennium (2001) Author:
 - YES BANK: Mainstreaming Development into Indian Banking (2010) Authors: Michael Chu and Namrata Arora. Harvard Business School.
 China's Financial Markets: 2007 (2009) Authors: Li Jin and Bingxing Huo. Harvard Business School.
 
-# Self-review questions
+## Self-review questions
 
 1 What is the difference between money markets and bond markets?
 
@@ -796,28 +800,4 @@ China's Financial Markets: 2007 (2009) Authors: Li Jin and Bingxing Huo. Harvard
 
 17 What are hedge funds?
 
-# Questions and problems
 
-1 Describe some of the ways by which financial centres are judged and explain London's position as a leading financial centre.
-
-2 The company you work for needs to raise financing for a big expansion. Describe some of the markets it could make use of to raise finance.
-
-3 Discuss the relationship between economic growth and the development of a financial sector.
-
-4 Why has an increasing share of household savings been channelled through financial intermediaries?
-
-5 Briefly describe the main types of financial institutions and explain their function.
-
-6 You have £30,000 to put into savings. Discuss, with examples, some of the different risk-spreading investment schemes you could invest in.
-
-# Assignments
-
-1 Review all the financial services you or your firm purchase. Try to establish a rough estimate of the cost of using each financial intermediary and write a balanced report considering whether you or your firm should continue to pay for that service.
-
-2 Examine the annual report and accounts of three banks and three stockbrokers. Write a report explaining the services they provide to customers and the differences between them.
-
-# Web-based exercises
-
-1 Go to the London Stock Exchange website and download statistics on the number of new share issues over the last five years. Write a report, with graphics including a chart showing the amounts of money that were raised for companies, both UK based and overseas.
-
-2 Go to the European Central Bank website to obtain data to allow you to show the volume of bank lending over the last five years. Write a report linking the lending volumes to the pattern of economic growth and other factors impinging on the appetite for borrowing/lending.

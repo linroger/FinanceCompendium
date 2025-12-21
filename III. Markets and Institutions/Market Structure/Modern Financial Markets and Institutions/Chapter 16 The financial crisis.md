@@ -1,23 +1,27 @@
 ---
-aliases:
-  - The financial crisis
-tags:
-key_concepts:
-parent_directory: Modern Financial Markets and Institutions
+title: "The Financial Crisis"
+parent_directory: "Modern Financial Markets and Institutions"
+formatted: 2025-12-21 05:08:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+  - financial crisis
+  - credit crisis
+  - banking crisis
+  - subprime mortgage
+  - regulatory failure
 cssclasses: academia
-title: "Chapter 16: The financial crisis"
-linter-yaml-title-alias: "Chapter 16: The financial crisis"
 ---
 
-# The financial crisis
+# The Financial Crisis
 
-# LEARNING OUTCOMES
+## LEARNING OUTCOMES
 
 Understanding the financial crisis is important for us all, so that we learn the lessons from the mistakes of others. By the end of this chapter the reader should be able to: explain, with examples, why it is wrong to rely simple-mindedly on complex mathematics and economic modelling when making financial decisions. Knowledge of history and knowledge of people are more important than algebra in finance;
 
 describe and illustrate the concept of reflexivity which can lead markets to far-from-equilibrium states;
 
-■ discuss the various complex derivative instruments that contributed to the crisis by obscuring from view the real risks individual banks were taking, and to which the whole system was exposed. These range from collateralised debt obligations to structured investment vehicles; provide a description of the stages of the financial crisis itself and the way in which events in the markets driven by exuberance, greed, fear and panic overwhelmed the key players;
+- discuss the various complex derivative instruments that contributed to the crisis by obscuring from view the real risks individual banks were taking, and to which the whole system was exposed. These range from collateralised debt obligations to structured investment vehicles; provide a description of the stages of the financial crisis itself and the way in which events in the markets driven by exuberance, greed, fear and panic overwhelmed the key players;
 
 explain the key insights we ought to always remember about markets and institutions.
 
@@ -25,7 +29,7 @@ This is a difficult chapter to write. It would have been easy if all I had to do
 
 While I will still provide the highlights of the crisis, so you will learn what happened to Lehman Brothers, Northern Rock, etc., they will be set in the much wider context of people factors. There are two aspects to this: (i) people behaving in irrational ways, and (ii) people behaving in entirely rational ways from their perspective, given their incentives, but which result in a stupid/irrational outcome for the system as a whole.
 
-# The autistic mathematicians and the autistic financial economists
+## The autistic mathematicians and the autistic financial economists
 
 The financial centres of the world hire thousands of people every year who are great at maths and mathematical economics. Some have degrees in engineering or physics, others in pure mathematics, economics or even rocket science. They are highly respected, usually have PhDs and can bambozzle you with their mastery of algebraic formulae and mental gymnastics. The pity is that they are applying their skills to an area of intellectual endeavour, called finance, which is not fundamentally mathematical. As the great investors, such as Warren Buffett and Peter Lynch, both with decades of experience, tell us, all the mathematics you need was picked up at school by the time you were 14.[2] They may be exaggerating to make a point, but what the mathophiles are failing to appreciate is that finance is a multifaceted discipline, in which the largest contribution is from the study of human psychology: humans acting in rational and irrational ways as individuals, and humans acting in groups in rational and irrational ways.
 
@@ -45,11 +49,11 @@ Maths, it has to be acknowledged, is a useful tool, but only one tool among many
 
 Here I provide two brief examples of the over-reliance on simplistic models to make billion (or trillion) dollar decisions. You may detect a few more instances later in the chapter where models fail to capture the complex of human-driven decision making as I run through the events of 2007 and 2008.
 
-# Example 16.1 Modelling default rates on securitised loans and bonds
+## Example 16.1 Modelling default rates on securitised loans and bonds
 
 David Li wrote a paper that was published in the Journal of Fixed Income in 2000. This was very influential because it provided a neat model for pricing CDOs. These are explained in much more detail later, but for now you need to know that they are a kind of securitised bond (see Chapter 6), with the security being provided by debts owed, usually mortgage debt. Thus the holders of mortgage-based CDOs ultimately receive a return from the repayment of monthly mortgage amounts and borrowers redeeming their mortgages. I say 'ultimately' because CDOs were often (mostly) constructed from other securitised bonds, which get their income from mortgage payers.
 
-The right to receive this flow of income needed to be valued, so that the holders, which were generally banks as well as some other financial institutions, could value their assets and estimate profits made over a period. The value of debt owed to you depends on the likelihood of the borrowers defaulting. David Li provided a formula useful for estimating CDO value without having to establish the likelihood of repayment from each of the thousands of mortgage payers. His short cut was to use the market prices of credit default swaps, CDSs (see Chapter 11) and the prices of bonds, that relate to that CDO. Now that investment bankers had a quick and easy way of valuing CDOs they could really go to town selling them and holding them on their balance sheets. From virtually nothing in 2000 the market grew to issue over  \$550 billion of CDOs per year by 2006, and had more than\$ 4,700 billion outstanding (for comparison, UK annual GDP is around \$2,000 billion and the total balance sheet capital of any nation's banks are far less). The CDS market was also boosted from under \$1,000 billion of outstanding CDSs in 2000 to over 62,000 billion in 2007 (more than the output of goods and services for the entire world for one year).
+The right to receive this flow of income needed to be valued, so that the holders, which were generally banks as well as some other financial institutions, could value their assets and estimate profits made over a period. The value of debt owed to you depends on the likelihood of the borrowers defaulting. David Li provided a formula useful for estimating CDO value without having to establish the likelihood of repayment from each of the thousands of mortgage payers. His short cut was to use the market prices of credit default swaps, CDSs (see Chapter 11) and the prices of bonds, that relate to that CDO. Now that investment bankers had a quick and easy way of valuing CDOs they could really go to town selling them and holding them on their balance sheets. From virtually nothing in 2000 the market grew to issue over \$550 billion of CDOs per year by 2006, and had more than \$4,700 billion outstanding (for comparison, UK annual GDP is around \$2,000 billion and the total balance sheet capital of any nation's banks are far less). The CDS market was also boosted from under \$1,000 billion of outstanding CDSs in 2000 to over 62,000 billion in 2007 (more than the output of goods and services for the entire world for one year).
 
 It was not just the investment banks that adopted the formula; bond investors took comfort from it when deciding how much to invest, as did commercial banks from around the world who piled into US CDOs to obtain the high yield they were offering. Even more worrying, the rating agencies and the financial regulators used the model.
 
@@ -61,7 +65,7 @@ Why did the credit rating agencies rate CDOs at low default risk, despite the ob
 
 To be fair to David Li, he did try to warn people that it was false reassurance to assume that correlations on default were always going to remain the same as they had been in the benign conditions of the late 1990s and early 2000s: 'Very few people understand the essence of the model … The most dangerous part is when people believe everything coming out of it.'[5] As so often with these models the originators provide plenty of warnings and provisos, but somehow the bankers and other followers tend to ignore them or fail to understand the subtleties.
 
-# Example 16.2 Modelling daily value at risk
+## Example 16.2 Modelling daily value at risk
 
 Banks hold a very wide range of assets, from corporate loans to complicated derivatives, and they bear a number of obligations. Senior managers of banks can lose track as to the extent to which the firm as a whole is exposed to risk. One division might be building up large holdings of bonds while another is selling credit default swaps, and yet another is packaging up mortgage bonds and selling CDOs. Perhaps what one division is doing will offset the risk that another is taking on. On the other hand, it might be that risk is merely compounded by the combination of positions. Each day the mix of assets and liabilities changes and therefore the risk exposure changes.
 
@@ -69,7 +73,7 @@ Back in the 1990s some bankers thought it would be a good idea to produce a sing
 
 So, how does a bank calculate VaR estimates? They need some numbers and some assumptions. One assumption often made is that returns on a security (share, derivative, bond, etc.) follow a particular distribution. The usual assumption is the normal distribution where there is a large clustering of probabilities of returns around the average expected return and then very small probabilities of the extremes ('thin tails'). Also, the distribution of possible outturns is symmetrical about the mean - there is the same chance of being, say, £3 million above the average expected return as being £3 million below it - see Exhibit 16.1 for a normal distribution of probabilities, a bell-shaped symmetrical curve. The usual source of data, whether combined with a normal distribution assumption or not, is a long time series of an historical data set of daily return data for the securities - then the mathematicians assume that this represents the future distribution of returns. Another important source of information is the calculation of the extent to which asset returns move together. Then it is assumed that these correlations remain true for future estimations.
 
-Exhibit 16.1 shows a possible output from using VaR. On the right-hand side the return numbers increase but the probability of earning those high returns decreases significantly the further we move away from the average expected return. The probabilities for returns below average are symmetrical with those above average in this case where we assume 'normality'. (If we used real past return data the distribution may not be quite normal and the maths for calculating the confidence level becomes more complicated, but it can still be handled. Skewed distribution just creates more fun for the mathematicians.) You can read off the 99 per cent chance of not losing more than the amount marked by the red line. If the red line is at  \$100 million then one day out of 100 we would lose more than\$ 100m, in theory.
+Exhibit 16.1 shows a possible output from using VaR. On the right-hand side the return numbers increase but the probability of earning those high returns decreases significantly the further we move away from the average expected return. The probabilities for returns below average are symmetrical with those above average in this case where we assume 'normality'. (If we used real past return data the distribution may not be quite normal and the maths for calculating the confidence level becomes more complicated, but it can still be handled. Skewed distribution just creates more fun for the mathematicians.) You can read off the 99 per cent chance of not losing more than the amount marked by the red line. If the red line is at \$100 million then one day out of 100 we would lose more than \$100m, in theory.
 
 A key assumption is that the past data has a very close bearing on the future probabilities. Even using the normality method you need past data to estimate the size of the various probabilities. So, you might gather data from the previous three or five years. If unusual/infrequent events are not present in that dataset you might be missing some extreme positive or negative possibilities.
 
@@ -95,7 +99,7 @@ Being 'established' is not the same as being best suited to the task. They are b
 
 Once faith in VaR had evaporated those lending to banks became afraid that the risk metrics they publicly announced under-reported their real exposure. They took the action that you or I would take when told that borrowers might default on what they owe: stop lending any more and try to call in old loans. The problem is the entire banking system was a complex web of loans to each other and once confidence had gone the whole system collapsed. Notice the key words here are not quantifiable – 'afraid', 'confidence' – these fuzzy things are just as important to understand about finance as the maths, if not more so.
 
-# Reflexivity
+## Reflexivity
 
 George Soros is the most famous and the most respected of the hedge fund managers, who made a fortune for himself and the backers of his Quantum Fund. However, his first love and abiding passion is economic philosophy. Indeed, it is his understanding of the importance of human thought on market prices that made him and his investors so much money. At the heart of his ideas is reflexivity in markets, in which the behaviour of market prices results from a two-way feedback mechanism with participants (e.g. investors) moving prices and fundamentals in response to their (faulty) perceptions, and their perceptions, in turn, formed by market movements and fundamentals. Knowledge of this human tendency can help identify bubbles and irrational downward spirals.
 
@@ -119,7 +123,7 @@ First element: influencing market prices.
 
 Second element: influencing the fundamentals those prices are supposed to reflect.
 
-# Classical economics
+## Classical economics
 
 The Enlightenment view of the world is that reality lies there, passively waiting to be discovered. Reason acts as a searchlight to illuminate that reality. Thus, there is a separation between, on the one hand, people's thoughts and understanding of the world and, on the other, the object. The thinking agents cannot influence the underlying reality. Thus in natural science we can explain and predict the course of events with reasonable certainty.
 
@@ -135,13 +139,13 @@ When we move away from the physical sciences we frequently encounter a problem. 
 
 Another example: It is thought that the markets are on the look-out for a recession looming over the horizon, that they anticipate it. Soros takes a different viewpoint, believing that it is more correct to say that markets help to precipitate recessions; that:
 
-1 Markets are always biased in one direction or another.
+1. Markets are always biased in one direction or another.
 
-2 Markets can influence the events they anticipate.
+2. Markets can influence the events they anticipate.
 
 For example, it would be difficult to argue that the reaction of the financial markets to news coming out of the US residential mortgage market in 2008 did not influence events to take us into recession.
 
-# Soros' paradigm
+## Soros' paradigm
 
 So, the widely held paradigm that financial markets tend toward equilibrium is both false and misleading. Soros contends that, first, financial markets never reflect underlying reality accurately and, second, occasionally, these distortions affect the fundamentals that market prices are supposed to reflect. These ideas provide profound insight into both the setting of prices and the movement of underlyings. Market participants' misconceptions, misunderstandings and misjudgments affect market prices and, more importantly, market prices affect the fundamentals.
 
@@ -179,7 +183,7 @@ Example of an act of the manipulative function that failed to achieve the outcom
 
 The outcome was the exact opposite of what he intended: He wanted to demonstrate American supremacy and garner political support in the process; but he caused a precipitous decline in American power and influence and lost political support in the process.[15]
 
-# Bubbles
+## Bubbles
 
 Soros sees bubbles as consisting of two components:
 

@@ -1,30 +1,26 @@
 ---
 title: "Review of the Federal Reserve's Supervision and Regulation of Silicon Valley Bank"
 parent_directory: Class 9-Bailouts and Bank Failures
-formatted: 2025-12-21 05:05:00 AM
+formatted: 2025-12-21 05:30:00 AM
 formatter_model: obsidian-formatting-agent
 cli-tool: claude-code
 primary_tags:
   - federal reserve supervision
   - silicon valley bank failure
-  - banking regulation review
+  - banking regulation reform
+  - deposit insurance crisis
 secondary_tags:
   - interest rate risk management
   - liquidity risk oversight
-  - governance and controls
-  - enhanced prudential standards
-  - tailoring framework review
-  - bank holding company regulation
-  - supervisory rating systems
-  - capital and liquidity requirements
-  - stress testing protocols
-  - incentive compensation programs
-  - rapid bank growth risks
-  - uninsured deposit vulnerabilities
-  - technology sector banking
-  - venture capital financing
-  - market risk assessment
-  - regulatory transition periods
+  - uninsured deposits
+  - bank capital requirements
+  - supervisory stress testing
+  - contingent funding plan
+  - liquidity stress testing
+  - federal reserve discount window
+  - repurchase agreement facility
+  - economic value of equity
+  - regulatory capital requirements
 cssclasses: academia
 ---
 
@@ -1056,9 +1052,7 @@ Supervisory engagement with SVBFG in January and February 2023 occurred through 
 
 Supervisors had limited interaction with SVBFG management about the proposed restructuring prior to the events of March 8 and after. After the public announcement on March 8, the DST increased the frequency of communication as SVBFG provided updates on its rapidly evolving liquidity situation. Supervisors focused on the potential for the firm to pledge additional collateral to the FHLB or the discount window, but SVBFG's inadequate preparedness to access contingent funding sources likely contributed to the failure of the bank on the morning of Friday, March 10.
 
-The acute liquidity stress on March 9 was far beyond historical precedents for how quickly a large financial institution can fail. Still, weaknesses in SVBFG's preparedness for a contingent liquidity
-
-event may have contributed to SVBFG's inability to access contingent funding sources in a time of need. SVBFG was not able to monetize (immediately raise funds against) its investment securities. SVBFG had not arranged for enough access to repo funding and had not signed up for the Federal Reserve's Standing Repurchase Agreement facility. SVBFG had limited collateral pledged to the Federal Reserve's discount window, had not conducted test transactions, and was not able to move securities collateral quickly from its custody bank or the FHLB to the discount window. While contingent funding may not have been able to prevent the failure of the bank after the historic run on the bank, the lack of preparedness may have contributed to how quickly it failed.
+The acute liquidity stress on March 9 was far beyond historical precedents for how quickly a large financial institution can fail. Still, weaknesses in SVBFG's preparedness for a contingent liquidity event may have contributed to SVBFG's inability to access contingent funding sources in a time of need. SVBFG was not able to monetize (immediately raise funds against) its investment securities. SVBFG had not arranged for enough access to repo funding and had not signed up for the Federal Reserve's Standing Repurchase Agreement facility. SVBFG had limited collateral pledged to the Federal Reserve's discount window, had not conducted test transactions, and was not able to move securities collateral quickly from its custody bank or the FHLB to the discount window. While contingent funding may not have been able to prevent the failure of the bank after the historic run on the bank, the lack of preparedness may have contributed to how quickly it failed.
 
 # Conclusions
 

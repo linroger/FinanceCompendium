@@ -491,20 +491,20 @@ Notwithstanding the inherent limitations on the use of historical data in estima
 dilution. In particular, assuming that a receivables pool is stable and revolving, credit losses may be estimated through the following relationship:
 
 $$
-E (L o s s) \approx \frac{W P x L x B A}{T U}
+E(\text{Loss}) \approx \frac{WP \times L \times BA}{TU}
 $$
 
 where:
 
-[ E(Loss) = \frac{the\ expected\ losses\ attributable\ to\ credit\ defaults\ in\ a\ Seller's\ receivables\ portfolio}{(during\ a\ single\ writeoff\ interval)} ]
+where $E(\text{Loss})$ is the expected losses attributable to credit defaults in a Seller's receivables portfolio during a single writeoff interval.
 
-$WP =$  the lesser of numbers of days a receivable must have aged either before it is written off under the Seller's normal credit policy or before it would fail to qualify as an eligible receivable under the liquidity facility (the "writeoff interval")
+$WP$ = the lesser of numbers of days a receivable must have aged either before it is written off under the Seller's normal credit policy or before it would fail to qualify as an eligible receivable under the liquidity facility (the "writeoff interval")
 
-$L =$  the adjusted loss-to-liquidation ratio, calculated without reference to losses attributable to dilution
+$L$ = the adjusted loss-to-liquidation ratio, calculated without reference to losses attributable to dilution
 
-$BA =$  the outstanding balance of the Seller's receivables portfolio
+$BA$ = the outstanding balance of the Seller's receivables portfolio
 
-$TU =$  the turnover interval for the receivables, expressed in days.
+$TU$ = the turnover interval for the receivables, expressed in days.
 
 Similarly, losses attributable to dilution may be estimated through the following relationship:
 

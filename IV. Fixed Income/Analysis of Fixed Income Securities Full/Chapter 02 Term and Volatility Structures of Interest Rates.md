@@ -1,11 +1,14 @@
 ---
 title: Chapter 02 - Term and Volatility Structures of Interest Rates
+parent_directory: Analysis of Fixed Income Securities Full
+formatted: 2025-12-21 05:20:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
 primary_tags:
   - term structure models
   - yield curve analysis
   - volatility surface
   - interest rate derivatives
-  - fixed income securities
 secondary_tags:
   - treasury yield curve
   - forward rate curve
@@ -23,12 +26,6 @@ secondary_tags:
   - curve flattening
   - swaption pricing
 cssclasses: academia
-parent_directory: Fixed Income
-key_concepts:
-  - term structure of interest rates
-  - volatility term structure
-  - yield curve construction
-  - forward rate derivation
 ---
 
 # Chapter 2: Term and Volatility Structures of Interest Rates

@@ -1,45 +1,24 @@
 ---
-title: Chapter 05 - Interest Rate Swaps
+title: "Chapter 5: Interest Rate Swaps"
+parent_directory: "IV. Fixed Income/Analysis of Fixed Income Securities Full"
+formatted: "2025-12-21 05:20:00 AM"
+formatter_model: "claude-sonnet-4"
+cli_tool: "claude-code"
 primary_tags:
-  - interest_rate_swaps
-  - forward_rate_agreements
-  - zero_coupon_swaps
-  - swap_valuation
-  - comparative_advantage
-  - basis_risk
-  - cross_currency_swaps
-  - credit_default_swaps
-  - swap_pricing
-  - swap_execution
+  - interest rate swaps
+  - swap valuation
+  - comparative advantage
+  - forward rate agreements
+  - zero coupon swaps
 secondary_tags:
-  - fixed_vs_floating_rates
-  - swap_intermediaries
-  - swap_margins
-  - swap_clearing
-  - interest_rate_derivatives
-  - basis_swaps
-  - currency_swaps
-  - swap_maturity_matching
-  - swap_spreads
-  - swap_quotes
-  - swap_market_makers
-  - swap_book_builders
-  - swap_settlement
-  - swap_trading_conventions
-  - swap_risk_management
-  - swap_hedging
-  - swap_speculation
-  - swap_arbitrage
-  - swap_duration
-  - swap_convexity
-  - swap_volatility
-  - swap_correlation
-  - swap_structuring
-  - swap_trading_desk
-  - swap_portfolio_management
-  - swap_accounting
-  - swap_regulation
-  - central_clearing_counterparties
+  - fixed vs floating rates
+  - swap pricing
+  - basis risk
+  - swap intermediaries
+  - interest rate derivatives
+  - swap margins
+  - swap clearing
+  - central clearing counterparties
 cssclasses: academia
 ---
 

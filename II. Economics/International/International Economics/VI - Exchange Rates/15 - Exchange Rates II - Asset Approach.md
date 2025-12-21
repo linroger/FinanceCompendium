@@ -207,7 +207,7 @@ If  $TB < 0$ , imports are greater than imports and we say a country has a trade
 
 In 2012, the United States had a trade deficit because exports  X  were 2,184 billion and imports  M  were 2,744 billion. Thus its trade balance was equal to -560 billion.
 
-# From GDP to GNI: Accounting for Trade in Factor Services
+### From GDP to GNI: Accounting for Trade in Factor Services
 
 Trade in factor services occurs when, say, the home country is paid income by a foreign country as compensation for the use of labor, capital, and land owned by home entities but in service in the foreign country. We say the home country is exporting factor services to the foreign country and receiving factor income in return.
 
@@ -225,7 +225,7 @@ $$
 
 In 2012 the United States received income payments from foreigners  $EX_{FS}$  of \$782 billion and made income payments to foreigners  $IM_{FS}$  of \$539 billion, so the net factor income from abroad NFIA was +243 billion.
 
-# APPLICATION
+### APPLICATION
 
 # Celtic Tiger or Tortoise?
 
@@ -303,13 +303,13 @@ Source: World Bank, World Development Indicators.
 
 In general, economists and policy makers prefer to use GNDI to measure national income. Why? GDP is not a true measure of income because, unlike GNI, it does not include net factor income from abroad. GNI is not a perfect measure either because it leaves out international transfers. GNDI is a preferred measure because it most closely corresponds to the resources available to the nation's households, and national welfare depends most closely on this accounting measure.
 
-# What the National Economic Aggregates Tell Us
+### What the National Economic Aggregates Tell Us
 
 We have explained all the international flows shown in Figure 16-2 and have developed three key equations that link the important national economic aggregates in an open economy:
 
 To get from GNE to GDP, we add TB (Equation 16-1).
 
-# HEADLINES
+### HEADLINES
 
 # Are Rich Countries "Stingy" with Foreign Aid?
 
@@ -386,7 +386,7 @@ U.S. Gross National Expenditure and Its Components, 1990-2012 The figure shows c
 
 Source: U.S. Bureau of Economic Analysis, NIPA Table 1.1.5, using the NIPA definition of the United States, which excludes U.S. territories. Data revised as of March 28, 2013.
 
-# FIGURE 16-6
+### FIGURE 16-6
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/9f86624994275b040b5256c03ec19994d2c4d3a9feada1d3d3d1e388a9d2db5b.jpg)
 
@@ -423,7 +423,7 @@ $S$  is less than  $I$  if and only if  $CA$  is negative, or in deficit.
 
 These last two equations give us two ways of interpreting the current account, and tell us something important about a nation's economic condition. A current account deficit measures how much a country spends in excess of its income or—equivalently—how it saves too little relative to its investment needs. (A current account surplus means the opposite.) We can now understand the widespread use of the current account deficit in the media as a measure of how a country is "spending more than it earns" or "saving too little" or "living beyond its means."
 
-# APPLICATION
+### APPLICATION
 
 # Global Imbalances
 
@@ -435,7 +435,7 @@ These trends reflect the recent history of the industrialized countries. The U.S
 
 The current account identity tells us that  $CA$  equals  $S$  minus  $I$ . Thus, investment and saving trends have a predictable impact on the current accounts of industrial countries. Because saving fell more than investment in the United States, the current account moved sharply into deficit, a trend that was only briefly slowed in the early 1990s. By 2003-05 the U.S. current account was at a record deficit level close to  $-6\%$  of U.S. GDP, only to fall later in the Great Recession. In Japan, saving fell less than investment, so the opposite happened: a very big current account surplus opened up in the 1980s and 1990s, which closed recently. In the euro area and other industrial regions, the difference between saving and investment has been fairly steady, so their current accounts have been closer to balance.
 
-# FIGURE 16-7
+### FIGURE 16-7
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/b9a361d90d33350e070f43ec30a8f0bed9d5c12d26bd11d4fe6b84b6b8eb58b7.jpg)
 (a) United States
@@ -471,7 +471,7 @@ $$
 
 Private saving can be a positive number, but if the private sector consumption exceeds after-tax disposable income, then private saving is negative. (Here, the private sector includes households and private firms, which are ultimately owned by households.)
 
-# FIGURE 16-8
+### FIGURE 16-8
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/2cb0e1c51a955f512f1f21c601969d448be3564de1c4df2f6cc4727d1db23363.jpg)
 (a) Private Saving,  $S_{p}$
@@ -529,7 +529,7 @@ A second reason why the current account might move independently of saving (publ
 
 Finally, Figure 16-9 shows global trends in saving, investment, and the current account for advanced countries, emerging and developing economies, and the world economy since 1980. Because the U.S. economy accounts for a large part of the world economy, in aggregate, the industrial countries have shifted into current account deficit over this period, a trend that has been offset by a shift toward current account surplus in the developing countries. The industrialized countries all followed a trend of declining investment and saving ratios, but the developing countries saw the opposite
 
-# FIGURE 16-9
+### FIGURE 16-9
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/e757a0ae8066dd4bb28489ceddd455d54e4bbbc90bdf2cee49ee9101959a4e6f.jpg)
 (a) Advanced Countries
@@ -706,7 +706,7 @@ Thus, whenever a transaction generates a credit somewhere in the BOP account, it
 
 It might not be obvious where the offsetting item is, but it must exist somewhere if the accounts have been measured properly. As we shall see shortly, this is a big "if": mismeasurement can sometimes be an important issue.
 
-# SIDE BAR
+### SIDE BAR
 
 # The Double-Entry Principle in the Balance of Payments
 
@@ -798,7 +798,7 @@ U.S. Balance of Payments and Its Components, 1990-2012 The figure shows the curr
 
 Source: U.S. Bureau of Economic Analysis, ITA Table 1, using the ITA definition of the United States, which includes U.S. territories. Data revised, and preliminary for 2012, as of March 14, 2013.
 
-# 4 External Wealth
+## 4 External Wealth
 
 The measurement of a nation's income flow is not the only important economic variable that must be adapted to the open-economy environment. Economists and policy makers, and the general public, also care about a nation's stock of wealth. And so, probably, do you.
 
@@ -889,7 +889,7 @@ External wealth data tell us the net credit or debit position of a country with 
 
 What drives external wealth? The current account told us about the imbalances in a country's external flows of goods, services, factor services, and income. The balance of payments accounts told us how these imbalances require offsetting financial flows of assets between countries. Countries with a current account surplus (deficit) must be net buyers (sellers) of assets. This buying and selling of assets has implications for external wealth. An increase in a country's external wealth results from every net import of assets; conversely, a decrease in external wealth results from every net export of assets. In addition, countries can experience capital gains or losses on their external assets and liabilities that cause changes in external wealth. All of these changes are summarized in the statement of a country's net international investment position.
 
-# 5 Conclusions
+## 5 Conclusions
 
 The science of macroeconomics would be impossible without data, and the vast majority of the data we employ emerge from the efforts of official statisticians around the world. Despite all the statistical discrepancies, and even the occasional errors of omission and commission (see Side Bar: Beware of Greeks Bearing Statistics), we would be lost without these measures of macroeconomic activity.
 
@@ -897,7 +897,7 @@ This chapter has illustrated some important accounting concepts and has highligh
 
 In the remainder of the book, we make extensive use of the concepts introduced in this chapter to develop theories that explore the global macroeconomic links between nations.
 
-# SIDE BAR
+### SIDE BAR
 
 # Beware of Greeks Bearing Statistics
 
@@ -908,7 +908,7 @@ It is important, but rather sad, to note that when it comes to national statisti
 - Argentina. After its 2001 crisis, a new populist government took over but faced problems with high and persistent inflation. To "solve" this problem, the government "reorganized" its official statistical bureau, which then started publishing much lower, and highly suspicious, inflation data. Lower inflation also helped the government avoid larger costs of indexed benefits and allowed the government to claim it had solved the inflation problem. Few believed these published data were true.
 - China. In the 2005 International Comparison Program by the World Bank, the estimate of China's yuan price level came in much higher than had been expected. This had various implications: dividing nominal yuan income by the price level made China look quite a bit poorer. And higher prices made China's real exchange rate less undervalued, or even overvalued. Since poorer countries usually have lower price levels, both of these impacts had the effect of making China's exchange rate look more fairly valued, given its standard of living. This came about at a time when China was under considerable political pressure to appreciate its currency. But skeptics doubted whether the data were totally plausible, because the change in the yuan price level since the previous ICP was much larger than that implied by China's own official inflation data over the same period.
 
-# KEY POINTS
+### KEY POINTS
 
 1. National flows of expenditure, product, income, and wealth, and international flows of goods, services, income, and assets, together measure important aspects of a country's economic performance and describe its economy's relationship to economies in the rest of the world. The records kept in the national income and product accounts, the balance of payments account, and the net international investment position track these data.
 
@@ -944,7 +944,7 @@ In a closed economy,  $GNE = GDP = GNI = GNDI$ .
 12. External wealth is a measure of a country's credit or debt position versus the rest of the world. It equals external assets—rest of world (ROW) assets owned by home—minus external liabilities (home assets owned by ROW). The net export (import) of assets lowers (raises) a country's external wealth. External wealth is one part of a country's total wealth.
 13. External wealth can change for one of two reasons: the export or import of assets (called financial flows) or changes in the value of existing assets due to capital gains or losses (called valuation effects). Both of these channels affect net external wealth.
 
-# KEY TERMS national income and product accounts, p. 568
+### KEY TERMS national income and product accounts, p. 568
 
 
 balance of payments accounts, p. 568 gross national expenditure (GNE), p. 568
@@ -987,12 +987,7 @@ BOPdebit,p.591
 (net) borrower, p. 594 external wealth  $(W)$  , p. 596
 
 
-net creditor, p. 597 netdebtor,p.597
-
-
-# PROBLEMS
-
-1. Below is a partial table of the OECD's 2004 ranking of member countries based on their GDP per capita. Compute the ratio of GNI to GDP in each case. What does this imply about net factor income from abroad in each country? Compute the GNI rankings of these countries. Are there any major differences between the GDP and GNI rankings? What do these differences imply? Indicate?
+net creditor, p. 597 netdebtor,p.597 of the OECD's 2004 ranking of member countries based on their GDP per capita. Compute the ratio of GNI to GDP in each case. What does this imply about net factor income from abroad in each country? Compute the GNI rankings of these countries. Are there any major differences between the GDP and GNI rankings? What do these differences imply? Indicate?
 
 <table><tr><td></td><td></td><td>GDP per Person</td><td>GNI per Person</td></tr><tr><td>1</td><td>Luxembourg</td><td>$64,843</td><td>$53,299</td></tr><tr><td>2</td><td>Norway</td><td>$41,880</td><td>$42,062</td></tr><tr><td>3</td><td>United States</td><td>$39,660</td><td>$39,590</td></tr><tr><td>4</td><td>Ireland</td><td>$36,536</td><td>$31,151</td></tr><tr><td>5</td><td>Switzerland</td><td>$34,740</td><td>$37,638</td></tr><tr><td>6</td><td>Netherlands</td><td>$33,571</td><td>$34,527</td></tr><tr><td>7</td><td>Iceland</td><td>$33,271</td><td>$31,897</td></tr><tr><td>8</td><td>Austria</td><td>$33,235</td><td>$32,843</td></tr><tr><td>9</td><td>Australia</td><td>$32,643</td><td>$31,462</td></tr><tr><td>10</td><td>Canada</td><td>$32,413</td><td>$31,751</td></tr><tr><td>11</td><td>Denmark</td><td>$32,335</td><td>$32,232</td></tr><tr><td>12</td><td>Belgium</td><td>$31,985</td><td>$31,675</td></tr><tr><td>13</td><td>United Kingdom</td><td>$31,780</td><td>$32,470</td></tr><tr><td>14</td><td>Sweden</td><td>$31,072</td><td>$31,007</td></tr><tr><td>15</td><td>Germany</td><td>$29,916</td><td>$28,732</td></tr><tr><td>16</td><td>Finland</td><td>$29,833</td><td>$30,361</td></tr><tr><td>17</td><td>Japan</td><td>$29,173</td><td>$29,739</td></tr><tr><td>18</td><td>France</td><td>$29,006</td><td>$29,287</td></tr><tr><td>19</td><td>Italy</td><td>$27,744</td><td>$27,586</td></tr><tr><td>20</td><td>Greece</td><td>$27,691</td><td>$27,412</td></tr><tr><td>21</td><td>Spain</td><td>$26,018</td><td>$25,672</td></tr><tr><td>22</td><td>New Zealand</td><td>$24,834</td><td>$23,205</td></tr><tr><td>23</td><td>Slovenia</td><td>$21,527</td><td>$21,268</td></tr><tr><td>24</td><td>Korea</td><td>$20,723</td><td>$20,771</td></tr><tr><td>25</td><td>Czech Republic</td><td>$19,426</td><td>$18,314</td></tr><tr><td>26</td><td>Portugal</td><td>$19,324</td><td>$19,029</td></tr><tr><td>27</td><td>Hungary</td><td>$16,519</td><td>$15,548</td></tr><tr><td>28</td><td>Slovak Republic</td><td>$14,651</td><td>$14,708</td></tr><tr><td>29</td><td>Poland</td><td>$13,089</td><td>$12,511</td></tr><tr><td>30</td><td>Mexico</td><td>$10,145</td><td>$9,989</td></tr><tr><td>31</td><td>Turkey</td><td>$7,212</td><td>$7,186</td></tr></table>
 
@@ -1066,17 +1061,9 @@ g. What were end-2003 U.S. external liabilities? If  $5\%$  of these liabilities
 h. What were end-2003 U.S. external assets? If  $65\%$  of these assets were subject to a  $10\%$  exchange rate appreciation, what increase in U.S. external wealth resulted?
 i. Using the answers to parts (g) and (h), what was the 2004 U.S. valuation effect due to exchange rate changes according to your rough calculation? Is it close to the BEA figure in part (f)?
 
-# NET WORK
+### APPENDIX TO CHAPTER 16
 
-Go to the UN website and find out what the Millennium Development Goals are (http://www.un.org/millenniumgoals). Go to the Gleneagles summit website and examine the promises made (http://www.g8.gov.uk/). Use the Web to check up on how well these G8 promises were kept, such as the UN goal of  $0.7\%$  of GDP in official development assistance, the promise to eradicate export subsidies, and the aim to double aid by 2010. (Hint: Do an Internet search for sites such as Oxfam or the Jubilee Debt Campaign, or look for the World Bank Tools for Monitoring the Millennium Development Goals.)
-
-# NET WORK
-
-Use the Web to locate the official macroeconomic statistics for your country. (In the United States, go to http://www.bea.gov.) Find the latest annual data corresponding to the measures discussed in this section. Was your country's GDP higher or lower than its GNE? Why? Was your country's GNI higher or lower than its GDP? Why? What about GNDI—was your country a net giver or net receiver of transfers?
-
-# APPENDIX TO CHAPTER 16
-
-# External Wealth and Total Wealth
+### External Wealth and Total Wealth
 
 In this chapter, we studied external wealth, but individuals and countries care about their total wealth. How does external wealth relate to total wealth?
 

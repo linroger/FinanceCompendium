@@ -1,27 +1,24 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: CHAPTER 2
-linter-yaml-title-alias: CHAPTER 2
+title: Chapter 2 - The Balance of Payments
+parent_directory: International Finance Full chapters
+formatted: 2025-12-21 11:30:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
-- economy te foreign
-- balance surplus means country
-- international finance balance payments
-- foreign trade multiplier analysis
+  - balance of payments
+  - international transactions
+  - current account
+  - capital account
 secondary_tags:
-- country balance payments statistics
-- analysing country balance payments
-- resident country purposes balance
-- open economy multiplier increases
-- concepts balance payments disequilibrium
-- essential balance payments analysis
-- equilibrium open economy important
-- balance payments pen economy
-- transactions balance payments meant
-tags_extracted: '2025-12-18T01:30:04.421791'
+  - balance of payments accounting
+  - international investment position
+  - open economy identities
+  - foreign exchange reserves
+  - trade balance
+  - current account deficit
+  - capital flows
+  - foreign direct investment
+cssclasses: academia
 ---
 
 # CHAPTER 2
@@ -37,9 +34,9 @@ CHAPTER OUTLINE
 2.4 Balance of payments accounting and accounts
 2.5 An overview of the sub-accounts in the balance of payments
 2.6 Recording of transactions in the balance of payments
-2.7 What is meant by a balance of payments surplus or de!cit?
-2.8 Te net international investment position and the balance of payments
-2.9 Do the United States current account de!cits matter?
+2.7 What is meant by a balance of payments surplus or deficit?
+2.8 The net international investment position and the balance of payments
+2.9 Do the United States current account deficits matter?
 
 2.10 Some open economy identities
 2.11 Open economy multipliers
@@ -47,79 +44,19 @@ CHAPTER OUTLINE
 
 2.1 INTRODUCTION
 
-In this chapter we will look at one of the most important economic indicators for policy-makers in an
+In this chapter we will look at one of the most important economic indicators for policy-makers in an open economy, namely the balance of payments. What is happening to a country's balance of payments then captures the news headlines and can become the focus of attention. A good or bad set of figures can have an influential effect on the exchange rate and can lead policy-makers to change the content of their economic policies. Deficits may lead to the government raising interest rates or reducing public expenditure in order to reduce expenditure on imports. Indeed, for a country with a fixed exchange rate and persistent deficits there could be a speculative attack on the country forcing it to devalue its currency. Alternatively, deficits may lead to calls for protection against foreign imports or capital controls to defend the exchange rate.
 
-- pen economy, namely the balance of payments. What is happening to a country's balance of payments
-
--,en captures the news headlines and can become the focus of attention. A good or bad set of !gures
-can have an influential e$etc on the exchange rate and can lead policy-makers to change the content of
-their economic policies. De!cits may lead to the government raising interest rates or reducing public
-expenditure in order to reduce expenditure on imports. Indeed, for a country with a !xed exchange rate
-and persistent de!cits there could be a speculative attack on the country forcing it to devalue its currency.
-Alternatively, de!cits may lead to calls for protection against foreign imports or capital controls to defend
-the exchange rate.
-
-Before considering various policy options that may be devised to deal with perceived problems in the
-
-balance of payments, we need to consider in some detail exactly what the balance of payments !gures are
-
-and what is meant by the notion of a balance of payments surplus or de!cit. In this chapter, we shall look
-
-at what is contained in the balance of payments statistics, how they are compiled and various possible
-
-economic interpretations of the statistics. We will also look at how the current account of the balance
-
-- f payments can be interpreted within the framework of the national income accounts and the e$ects of
-changes in governments' expenditure and exports on the national income and balance of payments in an
-
-- pen economy.
+Before considering various policy options that may be devised to deal with perceived problems in the balance of payments, we need to consider in some detail exactly what the balance of payments figures are and what is meant by the notion of a balance of payments surplus or deficit. In this chapter, we shall look at what is contained in the balance of payments statistics, how they are compiled and various possible economic interpretations of the statistics. We will also look at how the current account of the balance of payments can be interpreted within the framework of the national income accounts and the effects of changes in governments' expenditure and exports on the national income and balance of payments in an open economy.
 
 International Finance
 
 2.2 WHAT IS THE BALANCE OF PAYMENTS?
 
-Te balance of payments is a statistical record of all the economic transactions between residents of the
+The balance of payments is a statistical record of all the economic transactions between residents of the reporting country and residents of the rest of the world during a given time period. The usual reporting period for all the statistics included in the accounts is a year. However, some of the statistics that make up the balance of payments are published on a more regular monthly and quarterly basis. Without question the balance of payments is one of the most important statistical statements for any country. It reveals how many goods and services the country has been exporting and importing and whether the country has been borrowing from or lending money to the rest of the world. In addition, whether or not the central monetary authority (usually the central bank) has added to or reduced its reserves of foreign currency is reported in the statistics.
 
-reporting country and residents of the rest of the world during a given time period. Te usual reporting
+A key definition that needs to be resolved at the outset is that of a domestic and foreign resident. It is important to note that citizenship and residency are not necessarily the same thing from the viewpoint of the balance of payments statistics. The term 'residents' comprises individuals, households, firms and the public authorities. There are some problems that arise with respect to the definition of a resident, for example multinational corporations are by definition resident in more than one country. For the purposes of balance of payments reporting, the subsidiaries of a multinational are treated as being a resident in the country in which they are located, even if their shares are not actually owned by domestic residents. Another problem concerns the treatment of international organizations such as the International Monetary Fund (IMF), the World Bank, the United Nations, the European Commission and so forth. These institutions are treated as being foreign residents even though they may actually be located in the reporting country. For example, although the IMF is located in Washington, contributions by the US government to the Fund are included in the US balance of payments statistics because they are regarded as transactions with a foreign resident. Tourists are regarded as being foreign residents if they stay in the reporting country for less than a year.
 
-period for all the statistics included in the accounts is a year. However, some of the statistics that make up
-
-the balance of payments are published on a more regular monthly and quarterly basis. Without question
-
-the balance of payments is one of the most important statistical statements for any country. It reveals how
-
-many goods and services the country has been exporting and importing and whether the country has been
-
-borrowing from or lending money to the rest of the world. In addition, whether or not the central monetary
-
-authority (usually the central bank) has added to or reduced its reserves of foreign currency is reported in
-
-the statistics.
-
-A key de!nition that needs to be resolved at the outset is that of a domestic and foreign resident. It is
-
-important to note that citizenship and residency are not necessarily the same thing from the viewpoint
-
-- f the balance of payments statistics. Te term 'residents' comprises individuals, households, !rms and
-the public authorities. Tere are some problems that arise with respect to the de!nition of a resident, for
-example multinational corporations are by de!nition resident in more than one country. For the purposes
-
-- f balance of payments reporting, the subsidiaries of a multinational are treated as being a resident in the
-country in which they are located, even if their shares are not actually owned by domestic residents. Another
-problem concerns the treatment of international organizations such as the International Monetary Fund
-(IMF), the World Bank, the United Nations, the European Commission and so forth. Tese institutions are
-treated as being foreign residents even though they may actually be located in the reporting country. For
-example, although the IMF is located in Washington, contributions by the US government to the Fund are
-included in the US balance of payments statistics because they are regarded as transactions with a foreign
-resident. Tourists are regarded as being foreign residents if they stay in the reporting country for less than
-
-a year.
-
-Te criterion for a transaction to be included in the balance of payments is that it must involve a transaction
-
-between a resident of the reporting country and a resident of the rest of the world. Purchases and sales between
-
-residents of the same country are excluded.
+The criterion for a transaction to be included in the balance of payments is that it must involve a transaction between a resident of the reporting country and a resident of the rest of the world. Purchases and sales between residents of the same country are excluded.
 
 2.3 COLLECTION, REPORTING AND PRESENTATION OF THE BALANCE OF PAYMENTS
 
@@ -147,49 +84,15 @@ National Statistics.
 
 The Balance of Payments
 
-Tere is no unique method governing the presentation of balance of payments statistics and there can be
+There is no unique method governing the presentation of balance of payments statistics and there can be considerable variations in the presentations of different national authorities. However, the IMF provides a set of guidelines for the compilation of balance of payments statistics published in its _Balance of Payments Manual_. In addition, the Fund publishes the balance of payments statistics of all its member countries in a standardized format facilitating intercountry comparisons. These are presented in two publications – the _Balance of Payments Statistics Yearbook_ and _International Financial Statistics_.
 
-considerable variations in the presentations of di$erent national authorities. However, the IMF provides a
-
-set of guidelines for the compilation of balance of payments statistics published in its _Balance of Payments_
-
-_Manual_ . In addition, the Fund publishes the balance of payments statistics of all its member countries in
-
-a standardized format facilitating intercountry comparisons. Tese are presented in two publications – the
-
-_Balance of Payments Statistics Yearbook_ and _International Financial Statistics_ .
-
-In the USA, the value of exports and imports is compiled on a monthly basis and likewise in the UK. Te
-
-monthly !gures are subject to later revision and two sets of statistics are published: the seasonally adjusted
-
-!gure and the unadjusted !gure. Te seasonally adjusted !gures correct the balance of payments !gures for
-
-the e$etc of seasonal factors to reveal underlying trends.
+In the USA, the value of exports and imports is compiled on a monthly basis and likewise in the UK. The monthly figures are subject to later revision and two sets of statistics are published: the seasonally adjusted figure and the unadjusted figure. The seasonally adjusted figures correct the balance of payments figures for the effect of seasonal factors to reveal underlying trends.
 
 2.4 BALANCE OF PAYMENTS ACCOUNTING AND ACCOUNTS
 
-An important point about a country's balance of payments statistics is that in an accounting sense it always
+An important point about a country's balance of payments statistics is that in an accounting sense it always balances. This is because it is based upon the principle of double-entry bookkeeping. Each transaction between a domestic and foreign resident has two sides to it, a receipt and a payment, and both of these are recorded in the balance of payments statistics. Each receipt of currency from residents of the rest of the world is recorded as a credit item (a plus in the accounts), while each payment to residents of the rest of the world is recorded as a debit (a minus in the accounts).
 
-balances. Tis is because it is based upon the principle of double-entry bookkeeping. Each transaction between
-
-a domestic and foreign resident has two sides to it, a receipt and a payment, and both of these are recorded in
-
-the balance of payments statistics. Each receipt of currency from residents of the rest of the world is recorded
-
-as a credit item (a plus in the accounts), while each payment to residents of the rest of the world is recorded
-
-as a debit (a minus in the accounts).
-
-Before considering some examples of how di$erent types of economic transactions between domestic and
-
-foreign residents get recorded in the balance of payments, we need to consider the various sub-accounts that
-
-make up the balance of payments. Te statistics are divided into three main sections: the current account, the
-
-capital and financial account, and the settlements account. Te reason for dividing the balance of payments
-
-into these three main parts is that the current account items refer to income flows, the capital and financial
+Before considering some examples of how different types of economic transactions between domestic and foreign residents get recorded in the balance of payments, we need to consider the various sub-accounts that make up the balance of payments. The statistics are divided into three main sections: the current account, the capital and financial account, and the settlements account. The reason for dividing the balance of payments into these three main parts is that the current account items refer to income flows, the capital and financial
 
 account records changes in the assets and liabilities of the private sector and non-central-bank public sector,
 

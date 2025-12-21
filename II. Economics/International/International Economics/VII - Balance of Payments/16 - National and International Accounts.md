@@ -86,7 +86,7 @@ When we study an economy as it evolves over time, we are taking a dynamic approa
 
 In this section, we use changes in an open economy's external wealth to derive the key constraint that limits its borrowing in the long run: the long-run budget constraint (LRBC). The LRBC tells us precisely how and why a country must, in the long run, "live within its means." A country's ability to adjust its external wealth through borrowing and lending provides a buffer against economic shocks, but the LRBC places limits on the use of this buffer.
 
-To develop some intuition, let's look at a simple household analogy. This year (year 0) you borrow  \$100,000 from the bank at an interest rate of 10\%$  annually. You have no other wealth and inflation is zero. Once you borrow the 100,000, consider two possible different ways in which you can deal with your debt each year.
+To develop some intuition, let's look at a simple household analogy. This year (year 0) you borrow \$100,000 from the bank at an interest rate of 10\% annually. You have no other wealth and inflation is zero. Once you borrow the 100,000, consider two possible different ways in which you can deal with your debt each year.
 
 Case 1 A debt that is serviced. Every year you pay the  $10\%$  interest due on the principal amount of the loan, 10,000, but you never pay any principal. At the
 
@@ -129,7 +129,7 @@ $$
 
 This equation presents an important and intuitive result: it shows that wealth at the end of a period is the sum of two terms. The trade balance this period captures the addition to wealth from net exports (exports minus imports). Wealth at the end of last period times  $(1 + r^{*})$  captures the wealth from last period plus the interest earned on that wealth. The examples in the following sections will help us understand the changes in a country's external wealth and the role that the trade balance plays here.
 
-# The Budget Constraint in a Two-Period Example
+## The Budget Constraint in a Two-Period Example
 
 We first put these ideas to work in a simplified two-period example. Suppose we start in year 0, so  $N = 0$ . Suppose further that a country has some initial external wealth from year  $-1$  (an inheritance from the past), and can borrow or lend in the present period (year 0). We also impose the following limit: by the end of year 1, the country must pay off what it has borrowed from other countries and must call in all loans it has made to other countries. That is, the country must end year 1 with zero external wealth.
 
@@ -175,7 +175,7 @@ $$
 
 This expression for the LRBC says that a debtor country must have future trade balances that are positive in present value terms so that they offset the country's initially negative wealth. Conversely, a creditor country must have future trade balances that are negative in present value terms so that they offset the country's initially positive wealth. The LRBC plays an important role in our analysis of how countries can lend or borrow because it imposes a condition that rules out choices that would lead to exploding positive or negative external wealth.
 
-# A Long-Run Example: The Perpetual Loan
+## A Long-Run Example: The Perpetual Loan
 
 The following example helps us understand the long-run budget constraint and we can apply it to various cases that we visit in the rest of the chapter. It shows us how countries that take out an initial loan must make payments to service that loan in the future.
 
@@ -221,7 +221,7 @@ $$
 
 This example, which we will often revisit later in this chapter, shows the stream of interest payments on a perpetual loan (i.e., an interest-only loan or, equivalently, a sequence of loans for which only the principal is refinanced or rolled over every year). If the amount loaned by the creditor is  \$2,000 in year 0, and this principal amount is outstanding forever, then the interest that must be paid each year to service the debt is 5\%$  of 2,000, or 100. Under these conditions, wherein the loan payments are always fully serviced, the present value of the future interest payments equals the value of the amount loaned in year 0 and the LRBC is satisfied.
 
-# Implications of the LRBC for Gross National Expenditure and Gross Domestic Product
+## Implications of the LRBC for Gross National Expenditure and Gross Domestic Product
 
 In economics, a budget constraint always tells us something about the limits to expenditure, whether for a person, firm, or government. The LRBC is no different—it tells us that in the long run, a country's national expenditure (GNE) is limited by how much it produces (GDP).
 
@@ -508,17 +508,17 @@ As of March 2013, the countries with the biggest sovereign wealth funds were Chi
 
 Most observers believe it is likely that sovereign wealth funds will continue to grow in size, and that their use will spread to other countries (see Headlines: Copper-Bottomed Insurance). It is interesting that, despite having a legitimate economic rationale, these funds may generate international tensions, as they already have, by attempting to acquire politically sensitive equity and FDI assets from advanced countries.
 
-# 3 Gains from Efficient Investment
+## 3 Gains from Efficient Investment
 
 Suppose an economy has opened up, and is taking full advantage of the gains from consumption smoothing. Has it completely exploited the benefits of financial globalization? The answer is no, because openness delivers gains not only on the consumption side but also on the investment side by improving a country's ability to augment its capital stock and take advantage of new production opportunities.
 
-# The Basic Model
+## The Basic Model
 
 To illustrate these investment gains, we must refine the model we have been using by abandoning the assumption that output can be produced using only labor. We now assume that producing output requires labor and capital, which is created over time by investing output. When we make this change, the long-run budget constraint in
 
-# HEADLINES
+### HEADLINES
 
-# Copper-Bottomed Insurance
+#### Copper-Bottomed Insurance
 
 Many developing countries experience output volatility. Sovereign wealth funds can buffer these shocks, as recent experience in Chile has shown.
 
@@ -570,13 +570,7 @@ $$
 
 The LRBC will hold if and only if the present value of output  $Q$  equals the present value of expenditure  $(C + I)$ .
 
-Using this modified LRBC, we now study investment and consumption decisions in two cases:
-
-A closed economy, in which external borrowing and lending are not possible, the trade balance is zero in all periods, and the LRBC is automatically satisfied
-
-An open economy, in which borrowing and lending are possible, the trade balance can be more or less than zero, and we must verify that the LRBC is satisfied
-
-# Efficient Investment: A Numerical Example and Generalization
+## Efficient Investment: A Numerical Example and Generalization
 
 Let's start with a country that has output of 100, consumption  $C$  of 100, no investment, a zero trade balance, and zero external wealth. If that state persisted, the LRBC would be satisfied, just as it was in the prior numerical example with consumption smoothing. This outcome describes the optimal path of consumption in both the closed and open economies when output is constant and there are no shocks, that is, nothing happens here that makes the country want to alter its output and consumption.
 
@@ -632,7 +626,7 @@ Marginal product of capital
 
 This is a standard formula for the optimal or efficient level of investment and may look familiar from other courses in economics. Firms will take on investment projects as long as the marginal product of capital (MPK) is at least as great as the real interest rate.
 
-# Summary: Make Hay While the Sun Shines
+## Summary: Make Hay While the Sun Shines
 
 In an open economy, firms borrow and repay to undertake investment that maximizes the present value of output. Households also borrow and lend to smooth consumption, but these borrowing and lending decisions are separate from those of firms.
 
@@ -640,9 +634,9 @@ When investing, an open economy sets its MPK equal to the world real rate of int
 
 Proverbially, financial openness helps countries to "make hay while the sun shines"—and, in particular, to do so without having to engage in a trade-off against the important objective of consumption smoothing. The lesson here has a simple household analogy. Suppose you find a great investment opportunity. If you have no financial dealings with the outside world, you would have to sacrifice consumption and save to finance the investment.
 
-# APPLICATION
+## APPLICATION
 
-# Delinking Saving from Investment
+## Delinking Saving from Investment
 
 The story of the Norwegian oil boom provides a good illustration of our theory about investment and financial openness. North Sea oil was discovered in the 1960s, but the mass exploitation of this resource was unprofitable because cheap and plentiful supplies of oil were being produced elsewhere, primarily in the Persian Gulf. Then came the first "oil shock" in the early 1970s, when the cartel of Oil Producing and Exporting Countries (OPEC) colluded to raise world oil prices dramatically, a shock that was (correctly) viewed as permanent. At these higher oil prices, it suddenly made sense to exploit North Sea oil. Starting in the early 1970s, oil platforms, pipelines, refineries, and terminals were sprouting offshore and along the coast of Norway, causing its capital stock to permanently increase in response to a new productive investment opportunity.
 
@@ -662,7 +656,7 @@ Source: Alan M. Taylor, 2002, "A Century of Current Account Dynamics," Journal o
 
 tion had advanced furthest, the estimated value of  $\beta$  is 0.26, meaning that  $26\%$  of each additional dollar saved tended to be invested in the same country; in a sample of all developed countries with a somewhat lower level of financial integration, the estimate of  $\beta$  is 0.39; and in a sample of emerging markets, where financial integration was lower still, the estimate of  $\beta$  is 0.67.[13] These data thus indicate that financially open countries seem to have a greater ability to unlink saving and investment, in that they have a much lower "savings retention" measure  $\beta$ .
 
-# Can Poor Countries Gain from Financial Globalization?
+## Can Poor Countries Gain from Financial Globalization?
 
 Our analysis shows that if the world real interest rate is  $r^*$  and a country has investment projects for which the marginal product of capital MPK exceeds  $r^*$ , then the country should borrow from the rest of the world to finance investment in these projects. Keep this conclusion in mind as we now examine an enduring question in international macroeconomics: Why doesn't more capital flow to poor countries?
 
@@ -683,7 +677,7 @@ M P K = \frac{\Delta q}{\Delta k} = \underbrace {\theta A k^{\theta - 1}}_{\subs
 
 $$
 
-# FIGURE 17-7
+### FIGURE 17-7
 
 (a) Identical Production Functions in Rich and Poor Countries
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/346951acae6a84b926bfe07b807d40c7d39d16952a39fb1165d7ff9584b34ca6.jpg)
@@ -758,9 +752,9 @@ This means that Mexico's production function and MPK curves are lower than those
 
 The measured MPK differentials in the augmented model do not seem to indicate a major failure of global capital markets to allocate capital efficiently. But the augmented model has very different implications for convergence. Mexico would borrow only enough to move from point  $C$  to point  $D$ , where its MPK equals  $r^*$ . This investment would raise its output per worker a little, but it would still be far below that of the United States.
 
-# APPLCATION
+# APPLICATION
 
-# A Versus  $k$
+### A Versus $k$
 
 In our previous calculations, we found that Mexico did not have a high level of MPK relative to the United States. Hence, we would not expect large flows of capital into Mexico but would expect Mexico to remain relatively poor even with access to global financial markets.
 
@@ -1024,10 +1018,6 @@ World Bank, p. 644 diversification, p. 647
 
 home bias, p. 652
 
-# PROBLEMS
-
-1. Using the notation from the text, answer the following questions. You may assume that net labor income from abroad is zero, there are no capital gains on external wealth, and there are no unilateral transfers.
-
 a. Express the change in external wealth  $(\Delta W_0)$  at the end of period 0 as a function of the economy's trade balance  $(TB)$ , the real interest rate (a constant  $r^*$ ), and initial external wealth  $(W_{-1})$ .
 b. Using (a), write an expression for the stock of external wealth at the end of period 0  $(W_0)$ . This should be written as a function of the economy's trade balance  $(TB_0)$ , the real interest rate, and initial external wealth  $(W_{-1})$ .
 c. Using (a) and (b), write an expression for the stock of external wealth at the end of period 1  $(W_{1})$ . This should be written as a function of the economy's trade balance  $(TB)$  each period, the real interest rate, and initial external wealth  $(W_{-1})$ .
@@ -1114,7 +1104,7 @@ b. Two more states of world appear: Armageddon (A) and Utopia (U). Each happens 
 
 Compare your answers to parts (a) and (b), and consider the optimal portfolio choices. Does diversification eliminate consumption risk in each case? Explain.
 
-# NET WORK
+## NET WORK
 
 1. Go the BEA website (bea.gov). Find the latest annual balance of payments data for the United States.
 
@@ -1126,9 +1116,9 @@ c. Divide (1) by (3) and then divide (2) by (4) to find the implied rates of int
 
 2. To learn more about the aid debate, download some of the conflicting arguments made by two prominent figures: Jeffrey Sachs and William Easterly (search: sachs easterly). See, for example, their "Foreign Aid Face Off" in the Los Angeles Times (latimes.com, April 30, 2006, and May 7, 2006). See also Nicholas Kristof, "Aid: Can It Work?" New York Review of Books, October 5, 2006. After weighing all these arguments, do you feel more or less optimistic about what aid can achieve?
 
-# APPENDIX TO CHAPTER 17
+## APPENDIX TO CHAPTER 17
 
-# Common Versus Idiosyncratic Shocks
+### Common Versus Idiosyncratic Shocks
 
 In reality, home and foreign incomes will not have a perfect inverse correlation as we have assumed in the text. Let us generalize a bit more for our two countries, and focus on capital income.
 
@@ -1160,7 +1150,7 @@ FIGURE 17-A1
 
 Capital income
 
-# Portfolio Diversification and Capital Income: Undiversifiable
+### Portfolio Diversification and Capital Income: Undiversifiable
 
 Risks We take the example from Table 17-6 and Figure 17-9, and we add a common "global" shock to each country. With probability  $50\%$ , each country experiences a five-unit increase in capital income, and with probability  $50\%$  experiences a five-unit decrease in capital income. Holding half of the world portfolio reduces but does not eliminate capital income risk entirely because the global shock is an undiversifiable risk for the world as a whole.
 

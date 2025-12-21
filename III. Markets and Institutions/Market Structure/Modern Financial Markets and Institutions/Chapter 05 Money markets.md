@@ -442,7 +442,7 @@ Sorted by: Auction date in ascending order
 
 If we take the 26-week T-bill which was auctioned on 22 February 2011 below its par value at 99.921639, we can work out the following figures:
 
-# Example 4 US Treasury bill issue
+**Example 4 US Treasury bill issue**
 
 To calculate the discount yield,  $d$ , on the 26-week US T-bill sold on 24 February 2011 at a discount price of 99.921639:
 
@@ -453,13 +453,13 @@ $$
 To calculate the purchase price of the same bill:
 
 $$
-\begin{array}{l} P u r c h a s e P r i c e = \text{Fa ce Va lu e} \times \left[ 1 - \left(\frac{\text{Di sc ou nt} \times \text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}}\right) \right] \\ \text{Pu rc ha se Pr ic e} = 1 0 0 \times \left[ 1 - \left(\frac{0 . 0 0 1 5 5 \times 1 8 2}{3 6 0}\right) \right] = £ 9 9. 9 2 1 6 3 9 \\ \end{array}
+\begin{array}{l} \text{Purchase Price} = \text{Face Value} \times \left[ 1 - \left(\frac{\text{Discount} \times \text{Days to Maturity}}{\text{Days in Year}}\right) \right] \\ \text{Purchase Price} = 100 \times \left[ 1 - \left(\frac{0.00155 \times 182}{360}\right) \right] = £99.921639 \\ \end{array}
 $$
 
 To calculate the actual investment rate of return (bond equivalent yield, bey) from this bill, a 365-day year is used (because a 360-day year would underestimate the return – we use a 366-day year in leap years):
 
 $$
-\begin{array}{l} \text{be y} = \frac{\text{Fa ce Va lu e -P ur ch as eP ri ce}}{\text{Pu rc ha se Pr ic e}} \times \frac{\text{Da ys in Ye ar}}{\text{Da ys to Ma tu ri ty}} \times 1 0 0 \\ \mathrm{bey} = \frac{100 - 99.921639}{99.921639}\times \frac{365}{182}\times 100 = 0.157276\% \text{perannum} ^{11} \\ \end{array}
+\begin{array}{l} \text{bey} = \frac{\text{Face Value - Purchase Price}}{\text{Purchase Price}} \times \frac{\text{Days in Year}}{\text{Days to Maturity}} \times 100 \\ \mathrm{bey} = \frac{100 - 99.921639}{99.921639}\times \frac{365}{182}\times 100 = 0.157276\% \text{per annum}^{11} \\ \end{array}
 $$
 
 $$
@@ -471,24 +471,24 @@ Another example:
 You invested for three months and received a 'simple' annual yield of 3 per cent. This is an annual rate that does not allow for compounding over the year, i.e. interest received on interest added after each quarter is ignored. The effective annual rate is:
 
 $$
-\left[ 1 + \frac{0 . 0 3}{4 / 1} \right]^{4 / 1} - 1 \times 1 0 0 = 3. 0 3 3 9
+\left[ 1 + \frac{0.03}{4/1} \right]^{4/1} - 1 \times 100 = 3.0339
 $$
 
 Thus, you receive an extra 0.0339 per cent because after three months you reinvest the maturity amount including interest from the first investment in an identical investment for the remaining nine months. And do the same after six months and nine months. Thus, you receive interest on interest received of 0.0339 per cent. This is, of course, assuming identical investments every three months. While this is unrealistic, at least the EAR provides a gauge of the 'true' annual rate offered on short-term securities.
 
-# The inverse relation between bill prices and interest rates
+## The inverse relation between bill prices and interest rates
 
 Say you bought a money market instrument with a maturity of six months. Presumably you were willing to pay the price you did because at that price the instrument offers the same rate of return as other instruments with the same level of risk and time to maturity. Now, imagine that two weeks later interest rates on five-and-a-half-month instruments being issued at that time suddenly shoot up (perhaps there has been a loss in confidence throughout the system, or a great increase in the supply of instruments occurs). Now there are securities being issued that offer any buyer a much higher rate of return to maturity than your bill. In the secondary market for your instrument potential buyers are unwilling to pay the price they did only a few days ago because such a high price equals a low discount-from-maturity value and a low effective interest rate. Now that there are alternative investments around that offer much higher interest rates, the discount on your bill will grow larger as the price people are willing to pay falls (people sell yours and buy alternatives), until the rate of return is the same as other instruments in the market.
 
 Thus we see the inverse relation between prices of money market securities in the secondary market and the effective interest rate to maturity: a rise in bill prices means interest rates fall; a fall in bill prices causes interest rates to rise.
 
-# Central banks
+## Central banks
 
 Central banks are crucial to the working of a number of the money markets. One of the roles of a central bank is to keep the wheels of the financial world moving. They issue money (bank notes and coins), help set the domestic base rate of interest and maintain the stability of the financial system through open market operations, i.e. the buying or selling of money market securities to even out the liquidity in the economy. In the UK, the Bank of England sets the key benchmark interest rate for short-term lending by banks, often called the base rate. The European Central Bank based in Frankfurt performs a similar role for short-term euro lending, and in the US the Federal Reserve sets the federal funds rate.
 
 Central banks exert control over their domestic banks, insisting that banks hold a deposit with them. They may deliberately keep banks short of liquidity and thereby reduce the amount of money available, which has the effect of increasing interest rates. Alternatively, they may release more liquidity into the markets, causing interest rates to fall. There is much more on the role of central banks in Chapter 7.
 
-# Commercial paper
+## Commercial paper
 
 Commercial paper (CP) is an unsecured short-term instrument of debt, issued primarily by corporations to help with financing their accounts receivables (debtor), inventories (stock) and meeting short-term cash needs, but can also be issued by banks and municipalities. The issue and purchase of commercial paper is one means by which the largest commercial organisations can avoid paying a bank intermediary a middleman fee for linking borrower and lender, e.g. corporations can avoid borrowing through loans from a bank and go direct to the financial market lenders.
 
@@ -508,7 +508,7 @@ Although any one issue of commercial paper is short term, it is possible to use 
 
 Because it is a short-term source of funds it is best to use CP to finance operating expenses or current assets, such as accounts receivable (debtors) or inventories. It would be dangerous to use it to finance fixed assets, such as machinery or land and buildings, because it has to be paid back in a matter of days. While roll-over is often possible, it is by no means guaranteed and many companies have been caught out by relying too much on expecting to roll over.
 
-# US commercial paper (USCP)
+## US commercial paper (USCP)
 
 The largest commercial paper market in the world, by far, is the US, distantly followed by Japan, Canada, France, the UK and other developed economies. Reuters reports that the commercial paper market in the US peaked in August 2007 to a total of  \$2,200 billion when the credit crisis happened. By mid-February 2011, the total had dropped to\$ 1,041 billion. To put this in perspective, the output of all Americans in one year (gross domestic product) is around \$14,000 billion. Of the issuance in February 2011, \$355.8 billion was US asset-backed commercial paper (ABCP), i.e.
 
@@ -518,11 +518,11 @@ According to US law, because its maturity is less than 270 days, commercial pape
 
 The commercial paper market can be very influential in corporate life. For example, in 2005, Standard & Poor's downgraded the commercial paper of Ford and General Motors, making their commercial paper unattractive to investors and thus increasing the cost of financing to these companies, and reducing the global confidence in both the companies and their products. This contributed to their financial crisis in 2009, when General Motors was forced into bankruptcy.
 
-# Eurocommercial paper (Euro-CP)
+## Eurocommercial paper (Euro-CP)
 
 This is paper which is issued and placed outside the jurisdiction of the country in whose currency it is denominated. So an American corporation might issue commercial paper denominated in Japanese yen outside the control of the Japanese authorities, and this is classified as Eurocommercial paper. The most common denominations are euros, US dollars and GB pounds.
 
-# Example 5 Commercial paper
+**Example 5 Commercial paper**
 
 A dealer buys  \$2 million worth of Eurodollar commercial paper from a borrowing company with a 60-day maturity at a discounted price of\$ 1,994,874. For Eurodollar (and most other Eurocurrency deals) interest is calculated using the 360-day count convention.
 
@@ -540,13 +540,13 @@ $$
 
 Exhibit 5.8 describes how badly the CP market was hit by the loss of confidence in financial institutions in 2008.
 
-# Exhibit 5.8
+## Exhibit 5.8
 
-# Life returns to short-term lending market
+### Life returns to short-term lending market
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/1b3ed2c0e54fb0d9e6061da222b2f02c59bea4c1a08d33451888ded0321a9691.jpg)
 
-# Paul J Davies
+### Paul J Davies
 
 Commercial paper is a crucial source of short-term funding for companies, banks and other borrowers as they manage their weekly or monthly operations and cash flows.
 
@@ -568,7 +568,7 @@ The asset-backed CP market, which was at the centre of the fears over Sivs and c
 
 Source: Financial Times, 10 January 2009, p. 25. Reprinted with permission.
 
-# Credit ratings
+## Credit ratings
 
 Firms often pay to have their bonds and short-term borrowing instruments rated by specialist credit-rating organisations. The rating given is an evaluation made by the rating agency of the firm's ability to repay its debt and will affect the interest rate on the debt instruments. Standard & Poor's, Moody's and Fitch Ratings are the three most important credit-rating companies. Each uses slightly different terminology for their rating system - see Exhibit 5.9.
 
@@ -576,9 +576,9 @@ Many government-issued securities have an insignificant risk of default. We woul
 
 The highest ratings (AAA for long-term bonds and P-1, A-1+ and F1+ for short-term borrowing) indicate that the capacity to repay interest and principal is extremely strong; the lower ratings (B, Cs and Ds) indicate that there is an increased likelihood of default. Debt rated BB has speculative characteristics, but it is not as likely to default as debt rated CC, which has some protection but there are significant uncertainties and major risks with it. The top part of the table shows the ratings regarded as investment grade. This is important because many
 
-# Exhibit 5.9
+## Exhibit 5.9
 
-# Credit rating systems
+### Credit rating systems
 
 <table><tr><td colspan="2">Moody&#x27;s</td><td colspan="2">Standard &amp; Poor&#x27;s</td><td colspan="2">Fitch Ratings</td><td rowspan="2" colspan="2"></td></tr><tr><td>Long term</td><td>Short term</td><td>Long term</td><td>Short term</td><td>Long term</td><td>Short term</td></tr><tr><td>Aaa</td><td rowspan="6">P-1</td><td>AAA</td><td rowspan="4">A-1+</td><td>AAA</td><td rowspan="4">F1+</td><td>Prime</td><td rowspan="10">Investment grade securities</td></tr><tr><td>Aa1</td><td>AA+</td><td>AA+</td><td rowspan="3">High grade</td></tr><tr><td>Aa2</td><td>AA</td><td>AA</td></tr><tr><td>Aa3</td><td>AA-</td><td>AA-</td></tr><tr><td>A1</td><td>A+</td><td rowspan="2">A-1</td><td>A+</td><td rowspan="2">F1</td><td rowspan="3">Upper medium grade</td></tr><tr><td>A2</td><td>A</td><td>A</td></tr><tr><td>A3</td><td rowspan="2">P-2</td><td>A-</td><td rowspan="2">A-2</td><td>A-</td><td rowspan="2">F2</td></tr><tr><td>Baa1</td><td>BBB+</td><td>BBB+</td><td rowspan="3">Lower medium grade</td></tr><tr><td>Baa2</td><td rowspan="2">P-3</td><td>BBB</td><td rowspan="2">A-3</td><td>BBB</td><td rowspan="2">F3</td></tr><tr><td>Baa3</td><td>BBB-</td><td>BBB-</td></tr><tr><td>Ba1</td><td rowspan="12">Not Prime</td><td>BB+</td><td rowspan="6">B</td><td>BB+</td><td rowspan="6">B</td><td>Somewhat speculative</td><td rowspan="12">Non-investment grade, high-yield or &#x27;junk&#x27; securities</td></tr><tr><td>Ba2</td><td>BB</td><td>BB</td><td>Speculative</td></tr><tr><td>Ba3</td><td>BB-</td><td>BB-</td><td></td></tr><tr><td>B1</td><td>B+</td><td>B+</td><td rowspan="3">Highly speculative</td></tr><tr><td>B2</td><td>B</td><td>B</td></tr><tr><td>B3</td><td>B-</td><td>B-</td></tr><tr><td>Caa</td><td>CCC+</td><td rowspan="3">C</td><td rowspan="3">CCC</td><td rowspan="3">C</td><td>Substantial risks</td></tr><tr><td>Ca</td><td>CCC</td><td>Extremely speculative</td></tr><tr><td>C</td><td>CCC-</td><td>In default with little prospect for discovery</td></tr><tr><td>/</td><td rowspan="3">D</td><td rowspan="3">D</td><td>DDD</td><td rowspan="3">D</td><td rowspan="3">In default</td></tr><tr><td>/</td><td>DD</td></tr><tr><td>/</td><td>D</td></tr></table> institutional investors are permitted to invest only in investment-grade bonds and short-term instruments. The difference in yield between the different grades in the investment-grade group can be as little as 30 basis points, but this can rise dramatically at times of financial trauma, e.g. in early 2009.
 
@@ -590,7 +590,7 @@ The rating and re-rating of bonds and short-term instruments is followed with gr
 
 It has been suggested that during the run-up to the financial crisis of 2008 the credit-rating agencies gave unduly high ratings to loans that were shaky. The agencies were widely regarded as financial watchdogs, and investors have relied on their ratings of public companies and securities to gauge risk and make investment decisions, yet too many of their highly rated investments proved to be risky and speculative.
 
-# Repos
+## Repos
 
 A repo is a way of borrowing for a few days using a sale and repurchase agreement in which securities are sold for cash at an agreed price with a promise to buy back the securities at a specified (higher) price at a future date. The interest on the agreement is the difference between the initial sale price and the agreed buy-back, and because the agreements are usually collateralised (secured) by government-backed securities such as Treasury bills, the interest rate is lower than a typical unsecured loan from a bank. While collateral back-up for the lender is usually provided by the borrower handing over very safe government-issued securities, other very safe securities might be used. If the borrower defaults on its obligations to buy back on maturity, the lender can hold on to or sell the securities.
 
@@ -598,16 +598,16 @@ Repos (RPs) are used very regularly by banks and other financial institutions to
 
 The best way to understand the repo market is through an example - see Example 6.
 
-# Example 6 A repo using actual data
+**Example 6 A repo using actual data**
 
 A high-street bank needs to borrow £6 million for 14 days. It agrees to sell a portfolio of its financial assets, in this case government bonds, to a lender for £6 million. An agreement is drawn up (a repo) by which the bank agrees to repurchase the portfolio 14 days later for £6,001,219.73. The extra sum of £1,219.73 represents the interest on £6 million over 14 days at an annual rate of 0.53 per cent. The calculation is:
 
 $$
-\text{In te rs t} = \text{Se ll in gP ri ce} \times \text{In te rs tR at e} \times \frac{\text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}}
+\text{Interest} = \text{Selling Price} \times \text{Interest Rate} \times \frac{\text{Days to Maturity}}{\text{Days in Year}}
 $$
 
 $$
-\text{In te rs t} = 6, 0 0 0, 0 0 0 \times \frac{0 . 5 3}{1 0 0} \times \frac{1 4}{3 6 5} = £ 1, 2 1 9. 7 3
+\text{Interest} = 6,000,000 \times \frac{0.53}{100} \times \frac{14}{365} = £1,219.73
 $$
 
 The term for repos is usually between 1 and 14 days, but can be up to a year and occasionally there is no end date – this is called an open repo.
@@ -624,23 +624,23 @@ Exhibit 5.10 Repo rates in February 2011
 
 Source: www.bbalibor.com
 
-# Example 7 A repo using actual data
+**Example 7 A repo using actual data**
 
 A company owning £20 million worth of Treasury bills wishes to raise cash on 28 February 2011 and enters into an agreement to sell the bills and buy them back in one week's time. The agreed buy-back price would be £20 million plus the accrued interest. The annual rate of interest on 28 February for a one-week repo is shown in Exhibit 5.10 as 0.52167 per cent.
 
 $$
-\text{Bu y -b ac kP ri ce} = \text{Se ll in gP ri ce} + \left(\text{Se ll in gP ri ce} \times \text{In te rs tR at e} \times \frac{\text{Da ys to Ma tu ri ty}}{\text{Da ys in Ye ar}}\right)
+\text{Buy-back Price} = \text{Selling Price} + \left(\text{Selling Price} \times \text{Interest Rate} \times \frac{\text{Days to Maturity}}{\text{Days in Year}}\right)
 $$
 
 $$
-\text{Bu y -b ac kP ri ce} = 2 0, 0 0 0, 0 0 0 + \left(2 0, 0 0 0, 0 0 0 \times \frac{0 . 5 2 1 6 7}{1 0 0} \times \frac{7}{3 6 5}\right) = £ 2 0, 0 0 2, 0 0 0. 9
+\text{Buy-back Price} = 20,000,000 + \left(20,000,000 \times \frac{0.52167}{100} \times \frac{7}{365}\right) = £20,002,000.9
 $$
 
-# Haircuts
+## Haircuts
 
 Although the securities bought and sold are generally considered safe collateral for the lender of the cash, there is always the danger that the price of the bills, etc. may fluctuate during the period of the agreement to the detriment of the buyer. Therefore it is common practice to impose a haircut on the collateral, where the seller receives the amount of cash secured on the collateral less a margin (the haircut). If the haircut is 0.075 per cent in Example 7, the seller would receive £19,985,000 in return for £20 million worth of securities, and the repo interest is applied only to the lesser amount. The buyer (lender) pays out £19,985,000, but has securities worth £20 million, and receives interest on the amount of cash lent – see Example 8.
 
-# Example 8 A repo with a haircut
+**Example 8 A repo with a haircut**
 
 Using the figures from Example 7, the buy-back price can then be calculated:
 

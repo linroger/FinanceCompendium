@@ -1,62 +1,34 @@
 ---
-aliases:
-- Purchasing Power Parity Theory
-tags: null
-key_concepts: null
+title: Chapter 6: Purchasing Power Parity Theory
 parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 6: Purchasing Power Parity Theory'
-linter-yaml-title-alias: 'Chapter 6: Purchasing Power Parity Theory'
+formatted: 2025-12-21 05:15:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: opencode
 primary_tags:
-- goods conversely theory applicable
-- relative ppp ppp
-- goods arbitrage role international
-- chapter purchasing power parity
+  - purchasing power parity
+  - exchange rate determination
+  - law of one price
+  - international arbitrage
 secondary_tags:
-- ppp theory law price
-- ppp hypothesis exchange rates
-- theory floating exchange rate
-- according absolute ppp yen
-- undervaluation currencies relation ppp
-- explaining divergences ppp
-- ppp tradable goods equivalent
-- absolute ppp weaker variation
-- currency measurement prices equal
-tags_extracted: '2025-12-18T01:31:56.855854'
+  - absolute ppp
+  - relative ppp
+  - tradable goods
+  - price indices
+  - exchange rate deviations
+cssclasses: academia
 ---
 
-# CHAPTER 6
+# Chapter 6: Purchasing Power Parity Theory
 
-## PURCHASING POWER PARITY THEORY AND FLOATING EXCHANGE RATE EXPERIENCE
+## Introduction
 
-CHAPTER OUTLINE
-
-6.1 Introduction
-
-6.2 PPP theory and the law of one price
-6.3 Absolute and relative PPP
-
-6.4 A generalized version of PPP
-6.5 Measurement problems in testing for PPP
-6.6 Empirical evidence on PPP
-6.7 Summary of the empirical evidence for PPP
-6.8 Explaining the poor performance of PPP theory
-6.9 Te Balassa–Samuelson model
-
-6.10 Per capita income levels, the relative sizes of economies and the importance of PPP estimates
-6.11 Conclusions
-
-6.1 INTRODUCTION
-
-In Chapter 1, we looked at what exactly the foreign exchange market is, introduced a number of di$ering
-
-exchange rate concepts and examined a simple current account model of exchange rate determination. In
+In Chapter 1, we looked at what exactly the foreign exchange market is, introduced a number of different exchange rate concepts and examined a simple current account model of exchange rate determination. In
 
 this chapter we will look at one of the earliest and simplest models of exchange rate determination known
 
 as purchasing power parity (PPP) theory. An understanding of PPP is essential to the study of international
 
-!nance. PPP theory has been advocated as a satisfactory model of exchange rate determination in its own
+finance. PPP theory has been advocated as a satisfactory model of exchange rate determination in its own
 
 right, and provides a point of reference for the long-run exchange rate in many of the modern exchange rate
 
@@ -70,11 +42,11 @@ does not provide an adequate explanation of some of the observed features of flo
 
 the possible explanations for the failure of PPP are then discussed.
 
-6.2 PPP THEORY AND THE LAW OF ONE PRICE
+## PPP Theory and the Law of One Price
 
 PPP is generally attributed to Gustav Cassell's writings in the 1920s, although its intellectual origins date back
 
-to the writings of the nineteenth-century British economist David Ricardo. Te basic concept underlying PPP
+to the writings of the nineteenth-century British economist David Ricardo. The basic concept underlying PPP
 
 theory is that arbitrage forces will lead to the equalization of goods prices internationally, once the prices of
 
@@ -86,15 +58,15 @@ International Finance
 
 _The law of one price_
 
-Te law of one price simply states that, in the presence of a competitive market structure and the absence of
+The law of one price simply states that, in the presence of a competitive market structure and the absence of
 
-transport costs and other barriers to trade, identical products which are sold in di$erent markets will sell at
+transport costs and other barriers to trade, identical products which are sold in different markets will sell at
 
 the same price when expressed in terms of a common currency.
 
-Te law of one price is based on the idea of perfect goods arbitrage. Arbitrage occurs where economic
+The law of one price is based on the idea of perfect goods arbitrage. Arbitrage occurs where economic
 
-agents exploit price di$erences so as to provide a riskless pro!t. For example, if a car costs ¥3,000,000 in
+agents exploit price differences so as to provide a riskless profit. For example, if a car costs ¥3,000,000 in
 
 Japan (the domestic economy) and the identical model costs \$30,000 in the USA (the foreign economy),
 
@@ -116,27 +88,17 @@ Japanese residents will not buy US cars while US residents will buy Japanese car
 
 the foreign exchange market to its PPP value of ¥100/\$1.
 
-Te proponents of PPP argue that the exchange rate must adjust to ensure that the law of one price, which
+The proponents of PPP argue that the exchange rate must adjust to ensure that the law of one price, which applies only to individual goods, also holds internationally for identical _bundles_ of goods.
 
-applies only to individual goods, also holds internationally for identical _bundles_ - f goods.
+## Absolute and Relative PPP
 
-6.3 ABSOLUTE AND RELATIVE PPP
-
-PPP theory comes in two forms: one is based on a strict interpretation of the law of one price and is termed
-
-'absolute PPP', while the other is a 'weaker' variation known as 'relative PPP'. We shall !rst examine the
-
-absolute version of the theory and then consider the relative version.
+PPP theory comes in two forms: one is based on a strict interpretation of the law of one price and is termed 'absolute PPP', while the other is a 'weaker' variation known as 'relative PPP'. We shall first examine the absolute version of the theory and then consider the relative version.
 
 _Absolute PPP_
 
-Te absolute version of PPP holds that if one takes a bundle of goods in one country and compares the price
+The absolute version of PPP holds that if one takes a bundle of goods in one country and compares the price
 
-- f that bundle with an identical bundle of goods sold in a foreign country, converted by the exchange rate into
-a common currency of measurement, then the prices will be equal. For example, if a bundle of goods costs
-\$100 in the US (foreign economy) and the same bundle costs ¥10,000 in Japan (domestic economy), then the
-exchange rate de!ned as yen per dollar will be ¥10,000/$100 = ¥100/$1. Algebraically, the absolute version of
-PPP can be stated as:
+of that bundle with an identical bundle of goods sold in a foreign country, converted by the exchange rate into a common currency of measurement, then the prices will be equal. For example, if a bundle of goods costs \$100 in the US (foreign economy) and the same bundle costs ¥10,000 in Japan (domestic economy), then the exchange rate defined as yen per dollar will be ¥10,000/$100 = ¥100/$1. Algebraically, the absolute version of PPP can be stated as:
 
 _P_
 
@@ -144,18 +106,9 @@ _S_ = (6.1)
 
 _P*_
 
-where _S_ is the exchange rate de!ned as domestic currency units per unit of foreign currency, _P_ is the price of
+where _S_ is the exchange rate defined as domestic currency units per unit of foreign currency, _P_ is the price of a bundle of goods expressed in the domestic currency, and _P_* is the price of an identical bundle of goods in the foreign country expressed in terms of the foreign currency.
 
-a bundle of goods expressed in the domestic currency, and _P_ - is the price of an identical bundle of goods in
-
-the foreign country expressed in terms of the foreign currency.
-
-According to absolute PPP, a rise in the home price level relative to the foreign price level will lead to a
-
-proportional depreciation of the home currency against the foreign currency. In our example, if the price
-
-- f the Japanese bundle rises to ¥12,000 while the price of the US bundle remains at \$100, then according to
-absolute PPP the yen will depreciate to ¥120/\$1.
+According to absolute PPP, a rise in the home price level relative to the foreign price level will lead to a proportional depreciation of the home currency against the foreign currency. In our example, if the price of the Japanese bundle rises to ¥12,000 while the price of the US bundle remains at \$100, then according to absolute PPP the yen will depreciate to ¥120/\$1.
 
 128
 
@@ -163,71 +116,21 @@ Purchasing Power Parity Theory and Floating Exchange Rate Experience
 
 _Relative PPP_
 
-Te absolute version of PPP is, even proponents of the theory generally acknowledge, unlikely to hold precisely
+The absolute version of PPP is, even proponents of the theory generally acknowledge, unlikely to hold precisely because of the existence of transport costs, imperfect information and the distorting effects of tariff and nontariff barriers to trade.
 
-because of the existence of transport costs, imperfect information and the distorting e$ects of tari$ and nontari$ barriers to trade.
+Nonetheless, it is argued that a weaker form of PPP known as relative PPP can be expected to hold even in the presence of such distortions. Put simply, the relative version of PPP theory argues that the exchange rate will adjust by the amount of the inflation differential between two economies. Algebraically this is expressed as:
 
-Nonetheless, it is argued that a weaker form of PPP known as relative PPP can be expected to hold even
+%Δ _S_ %Δ _P_ - %Δ _P_* = (6.2)
 
-in the presence of such distortions. Put simply, the relative version of PPP theory argues that the exchange
+where %Δ _S_ is the percentage change in the exchange rate, %Δ _P_ is the domestic inflation rate, and %Δ _P_* is the foreign inflation rate.
 
-rate will adjust by the amount of the inflation di$erential between two economies. Algebraically this is
+According to the relative version of PPP, if the inflation rate in Japan is 5% whilst that in the United States is 2%, the yen exchange rate should be expected to depreciate by approximately 3% against the dollar. The absolute version of PPP does not have to hold for this to be the case. For example, the exchange rate may be ¥100/\$1 while the Japanese bundle of goods costs ¥12,000 and the US bundle of identical goods costs \$100, so that absolute PPP does not hold (this requires a rate of ¥120/\$1). But if Japanese prices go up 5% to ¥12,600 and the US bundle goes up 2% to \$102, the relative version of PPP predicts the yen will depreciate 3% to ¥103/\$1 (even though absolute PPP requires ¥123.53/$1 = ¥12,600/$102).
 
-expressed as:
+## A Generalized Version of PPP
 
-%�� _S_ %� _P_           - %� _P_           - (6.2)
+One of the major problems with PPP theory, as we have so far examined it, is that it suggests that PPP holds for all types of goods. However, a more generalized version of PPP that provides some useful insights makes a distinction between traded and non-traded goods. Traded goods are susceptible to the rigours of international competition, be they exports or import-competing industries such as most manufactured goods. Non-traded goods are those that cannot be traded internationally at a profit, such as houses and certain services such as a haircut or restaurant food.
 
-where %/ _S_ is the percentage change in the exchange rate, %/ _P_ is the domestic inflation rate, and %/ _P_ - is the
-
-foreign inflation rate.
-
-According to the relative version of PPP, if the inflation rate in Japan is 5% whilst that in the United States
-
-is 2%, the yen exchange rate should be expected to depreciate by approximately 3% against the dollar. Te
-
-absolute version of PPP does not have to hold for this to be the case. For example, the exchange rate may be
-
-¥100/\$1 while the Japanese bundle of goods costs ¥12,000 and the US bundle of identical goods costs \$100, so
-
-that absolute PPP does not hold (this requires a rate of ¥120/\$1). But if Japanese prices go up 5% to ¥12,600
-
-and the US bundle goes up 2% to \$102, the relative version of PPP predicts the yen will depreciate 3% to
-
-¥103/\$1 (even though absolute PPP requires ¥123.53/$1 = ¥12,600/$102).
-
-6.4 A GENERALIZED VERSION OF PPP
-
-One of the major problems with PPP theory, as we have so far examined it, is that it suggests that PPP holds
-
-for all types of goods. However, a more generalized version of PPP that provides some useful insights makes a
-
-distinction between traded and non-traded goods. Traded goods are susceptible to the rigours of international
-
-competition, be they exports or import-competing industries such as most manufactured goods. Non-traded
-
-goods are those that cannot be traded internationally at a pro!t, such as houses and certain services such as a
-
-haircut or restaurant food.
-
-Te point of the traded/non-traded goods distinction is that on _a priori_ grounds PPP is more likely to hold
-
-for traded than for non-traded goods. Tis is because the price of traded goods will tend to be kept in line by
-
-international competition, while the price of non-traded goods will be determined predominately by domestic
-
-supply and demand considerations. For example, if a car costs ¥3,000,000 in Japan and \$30,000 in the USA,
-
-arbitrage will tend to keep the yen–dollar rate at ¥100/\$1. However, if the price of a house costs ¥40,000,000
-
-in Japan and \$250,000 in the USA and the exchange rate is ¥100/\$1, arbitrage forces do not easily come into
-
-play (unless fed-up Japanese citizens emigrate to America pushing up US house prices and lowering Japanese
-
-prices). Similarly, if a haircut costs ¥4,000 in Japan but \$30 in the USA and the exchange rate is ¥100/\$1, then
-
-¥1,000 could be saved, though only insane people in Japan would travel to the USA for a haircut knowing that
-
-they can 'save' ¥1,000, because of the time and transport costs involved.
+The point of the traded/non-traded goods distinction is that on _a priori_ grounds PPP is more likely to hold for traded than for non-traded goods. This is because the price of traded goods will tend to be kept in line by international competition, while the price of non-traded goods will be determined predominately by domestic supply and demand considerations. For example, if a car costs ¥3,000,000 in Japan and \$30,000 in the USA, arbitrage will tend to keep the yen–dollar rate at ¥100/\$1. However, if the price of a house costs ¥40,000,000 in Japan and \$250,000 in the USA and the exchange rate is ¥100/\$1, arbitrage forces do not easily come into play (unless fed-up Japanese citizens emigrate to America pushing up US house prices and lowering Japanese prices). Similarly, if a haircut costs ¥4,000 in Japan but \$30 in the USA and the exchange rate is ¥100/\$1, then ¥1,000 could be saved, though only insane people in Japan would travel to the USA for a haircut knowing that they can 'save' ¥1,000, because of the time and transport costs involved.
 
 We will now consider the importance of the tradables/non-tradables distinction for PPP when aggregate
 

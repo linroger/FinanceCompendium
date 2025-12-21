@@ -1,32 +1,26 @@
 ---
-aliases:
-- Latin American Debt Crisis
-tags: null
-key_concepts: null
+---
+title: Chapter 15 Latin American Debt Crisis
 parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 15: Latin American Debt Crisis'
-linter-yaml-title-alias: 'Chapter 15: Latin American Debt Crisis'
+formatted: 2025-12-21 05:17:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
 primary_tags:
-- crisis management phase factors
-- developing countries servicing debts
-- 15 latin american debt
-- indebted middle income countries
-- latin american debt crisis
+  - latin american debt crisis
+  - debt crisis management
+  - severely indebted middle income countries
+  - developing country borrowing
+  - international debt relief
 secondary_tags:
-- chapter 15 latin american
-- debtors located latin america
-- latin american countries
-- lending latin american countries
-- debt crisis management overall
-- income developing countries 15
-- income countries simics argentina
-- initially placed debtor countries
-- debt crisis chapter outline
-- strategy avoidance financial crisis
-- debt crisis 15 10
-- crisis international banking averted
-tags_extracted: '2025-12-18T01:37:52.443522'
+  - simics
+  - debt servicing
+  - sovereign debt
+  - international banking crisis
+  - brady plan
+  - debt restructuring
+  - emerging markets
+cssclasses: academia
+---
 ---
 
 # CHAPTER 15
@@ -35,41 +29,36 @@ tags_extracted: '2025-12-18T01:37:52.443522'
 
 CHAPTER OUTLINE
 
-15.1 Introduction
+## 15.1 Introduction
 
-15.2 !e lowand middle-income developing countries
-15.3 Characteristics of typical middle-income developing countries
-15.4 !e economics of developing country borrowing
+## 15.2 The low and middle-income developing countries
+## 15.3 Characteristics of typical middle-income developing countries
+## 15.4 The economics of developing country borrowing
 
-15.5
-Different types of capital in$ows into developing countries
-15.6 Measures of indebtedness
+## 15.5 Different types of capital inflows into developing countries
+## 15.6 Measures of indebtedness
 
-15.7 Background and origins of the debt crisis
-15.8 !e emergence of the debt crisis
-15.9 !e Mexican moratorium
+## 15.7 Background and origins of the debt crisis
+## 15.8 The emergence of the debt crisis
+## 15.9 The Mexican moratorium
 
-15.10 !e dimensions of the debt crisis
+## 15.10 The dimensions of the debt crisis
 
-15.11 A supply and demand framework for analysing the debt crisis
-15.12 !e economics of default
+## 15.11 A supply and demand framework for analysing the debt crisis
+## 15.12 The economics of default
 
-15.13 !e role and viewpoints of the actors in the debt crisis
-15.14 !e management of the debt crisis
-15.15 An overall evaluation of debt crisis management
-15.16 Post-Brady Plan crises in three of the countries
-15.17 Conclusions
+## 15.13 The role and viewpoints of the actors in the debt crisis
+## 15.14 The management of the debt crisis
+## 15.15 An overall evaluation of debt crisis management
+## 15.16 Post-Brady Plan crises in three of the countries
+## 15.17 Conclusions
 
 15.1 INTRODUCTION
 
 On 12 August 1982, the Mexican government announced that it could not meet its forthcoming debt repayments
 
 - n its \$80 billion of outstanding debt to international banks. !is was the first sign of the Latin American debt
-crisis. Soon a(er the Mexican announcement, a number of other developing countries announced that they
-too were facing severe di'culty in meeting forthcoming repayments. !roughout the 1980s and 1990s and
-the early part of the new century the problems faced by developing countries in servicing their debts has been
-
-- ne of the major international policy issues. Granting debt relief has recently also become a major policy issue.
+crisis. Soon after the Mexican announcement, a number of other developing countries announced that they too were facing severe difficulty in meeting forthcoming repayments. Throughout the 1980s and 1990s and the early part of the new century the problems faced by developing countries in servicing their debts has been one of the major international policy issues. Granting debt relief has recently also become a major policy issue.
 
 !e debt crisis encompassed a wide set of countries from low-income developing nations to middleincome countries. In this chapter, we concentrate primarily upon four countries that were classified by the
 

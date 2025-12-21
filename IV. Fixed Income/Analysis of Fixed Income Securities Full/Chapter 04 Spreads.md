@@ -1,3 +1,25 @@
+---
+title: "Chapter 4: Spreads"
+parent_directory: "Analysis of Fixed Income Securities Full"
+formatted: "2025-12-21 05:15:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
+primary_tags:
+  - "option adjusted spread"
+  - "credit spread analysis"
+  - "yield spread measures"
+  - "liquidity spread models"
+secondary_tags:
+  - "z spread calculation"
+  - "libor spread dynamics"
+  - "cds bond basis"
+  - "spread duration metrics"
+  - "basis swap analysis"
+  - "discount margin"
+  - "spread convexity"
+cssclasses: academia
+---
+
 # Chapter 4: Spreads
 
 ## 4.1 Introduction
@@ -57,7 +79,7 @@ As we can see now, static OAS is just to fill the gap between the zero Treasury 
 
 We should note that it is possible for OAS to be negative. For example, an embedded put option can generate a negative OAS.
 
-Finally, we should note that today's OAS is different what is discussed here. Today's OAS is computed after considering all possible optionalities (e.g. put and call) and risks (e.g. credit and liquidity). Apparently these optionalities and risks must be evaluated via models. Hence, today's OAS is a trading indicator. In other words, after considering all optionalities and risks, if there is a positive OAS, then it indicates that the bond is too cheap (buy indication). Otherwise (a negative OAS), then the bond is too expensive (sell (or short-sell) indication.
+Finally, we should note that today's OAS is different from what is discussed here. Today's OAS is computed after considering all possible optionalities (e.g. put and call) and risks (e.g. credit and liquidity). Apparently these optionalities and risks must be evaluated via models. Hence, today's OAS is a trading indicator. In other words, after considering all optionalities and risks, if there is a positive OAS, then it indicates that the bond is too cheap (buy indication). Otherwise (a negative OAS), then the bond is too expensive (sell (or short-sell) indication.
 
 ### 4.2.2 With Model
 
@@ -65,7 +87,7 @@ We use the Ho-Lee model for interest rate risk, Jarrow-Turnbull model for credit
 
 <See Excel>.
 
-Our example is a callable Treasury. A 3-year, 7\% coupon bond is priced at \100.25 (no accrued interest so the quoted price is 100:08). In this case, we can calculate the OAS. This OAS is a static one that can be easily computed off today's yield curve, as follows:
+Our example is a callable Treasury. A 3-year, 7\% coupon bond is priced at $100.25 (no accrued interest so the quoted price is 100:08). In this case, we can calculate the OAS. This OAS is a static one that can be easily computed off today's yield curve, as follows:
 
 **Table 4.2: Ho-Lee Model (yield curve)**
 
@@ -77,9 +99,9 @@ Our example is a callable Treasury. A 3-year, 7\% coupon bond is priced at \100.
 
 The spread can be solved to be $0.4603\%$ (or 46 basis points). As this spread is added to the yields, the sum of PVs will be precisely 100.25.
 
-Note that in this case the OAS reflects only liquidity and trading noise – which is regarded as a trading opportunity. If the OAS is positive, then the bond is underpriced and it is a good buy. Reversely, if the OAS is negative, then the bond is a good sell.
+Note that in this case the OAS reflects only liquidity and trading noise – which is regarded as a trading opportunity. If the OAS is positive, then the bond is underpriced and it is a good buy. Conversely, if the OAS is negative, then the bond is a good sell.
 
-A 3-year callable bond pays an 8.5\% coupon (it must be higher than the straight bond in order to compensate the call option) and is priced at \$99.5 (no accrued interest). The first call date is at year 2 (so only year 2 and year 3 can be called) and the call price is \$108.
+A 3-year callable bond pays an 8.5\% coupon (it must be higher than the straight bond in order to compensate the call option) and is priced at $99.5 (no accrued interest). The first call date is at year 2 (so only year 2 and year 3 can be called) and the call price is $108.
 
 **Table 4.3: Ho-Lee Model**
 
@@ -89,7 +111,7 @@ A 3-year callable bond pays an 8.5\% coupon (it must be higher than the straight
 | 2 | 3 | 96.9331 | 106.7549 | 117.6670 | | 96.9331 | 106.7549 | 108.5 |
 | 3 | 4 | 108.5 | 108.5 | 108.5 | 108.5 | | | |
 
-The OAS solved is $0.0462\%$ (or 4.62 basis points). As emphasized before, this OAS is in addition to the call option value. We can see the comparable $8\%$ straight bond has a value of \$105.35 under the same OAS. Hence the option value is \$5.85. In other words, for the callable bond selling at 99.5, it contains an OAS of 25.66 bps and also an option value of 5.85.
+The OAS solved is $0.0462\%$ (or 4.62 basis points). As emphasized before, this OAS is in addition to the call option value. We can see the comparable $8\%$ straight bond has a value of $105.35 under the same OAS. Hence the option value is $5.85. In other words, for the callable bond selling at 99.5, it contains an OAS of 25.66 bps and also an option value of 5.85.
 
 The following table (Table 4.4) presents the calculations of the yields with and without OAS. The left panel contains yields directly from the HL model. The right panel are added by OAS. Discount factors (discrete) are computed then from the OAS-added yields. These discount factors are used to discount cash flows (coupons and principal).
 
@@ -133,11 +155,11 @@ One may question that if $Z$ spread is the same as static OAS then why would any
 
 LIBOR is introduced in Chapter 2. The LIBOR rates that are quoted are: 1-week, 1-month, 2-month, 3-month, 6-month, and 1-year.
 
-Note that LIBOR are regarded as risk-free rate in this case. However, we know that it is not in that these are lending (offer) rates among commercial banks in London. Nevertheless, for the sake of convenience, they are adopted as risk-free. Another argument (historically only) is that A-rated banks borrow funds at LIBOR and as a result to those banks, LIBOR is risk-free.
+Note that LIBOR are regarded as risk-free rate in this case. However, we know that it is not in that these are lending (offer) rates among commercial banks in London. Nevertheless, for the sake of convenience, they are adopted as risk-free. Another argument (historically only) is that A-rated banks borrow funds at LIBOR and as a result, to those banks, LIBOR is risk-free.
 
 A LIBOR spread refers to corporate bonds that pay floating coupons indexed to LIBOR, that is LIBOR and an added spread, symbolized as $L + s$. As an index for the floating coupons, LIBOR here is commonly referred to as the 3-month LIBOR.
 
-The spread is purely meant as a credit spread, i.e. an extra coupon compensating a default likelihood. This is because upon default, investors will not receive the principal back (known as loss given default, or LGD) and hence at normal times the coupon a a bit higher.
+The spread is purely meant as a credit spread, i.e. an extra coupon compensating a default likelihood. This is because upon default, investors will not receive the principal back (known as loss given default, or LGD) and hence at normal times the coupon is a bit higher.
 
 ### 4.3.1 Floating Rate Corporate Bond
 
@@ -155,7 +177,7 @@ The diagram clearly depicts how each future LIBOR can be replaced with the prope
 
 - $L_1 = f(0,1/4,1/2)$
 - $L_2 = f(0,3/4,1)$
-- $L_{2n} = f\left(0, 2n - ^{1/4}, 2n\right)$
+- $L_{2n} = f\left(0, 2n - \frac{1}{4}, 2n\right)$
 
 $$ P = \frac{\frac{f(0, 1/4, 1/2) + s_0}{2}}{\left(1 + \frac{y}{2}\right)} + \frac{\frac{f(0, 1/2, 3/4) + s_0}{2}}{\left(1 + \frac{y}{2}\right)^2} + \dots + \frac{1 + \frac{f(0, 2n - 1/4, 2n) + s_0}{2}}{\left(1 + \frac{y}{2}\right)^{2n}} \tag{4.3} $$
 
@@ -291,7 +313,7 @@ The results are $4.8775\%$ and $9.8352\%$ for the 5-year and 1-year bonds respec
 
 ### 4.4.3 Spread Duration and Spread 01
 
-Spread duration can be defined as the same way as interest rate duration introduced in Chapter 3 as:
+Spread duration can be defined the same way as interest rate duration introduced in Chapter 3 as:
 
 **Table 4.9: Par Spread Example**
 

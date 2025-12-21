@@ -33,6 +33,32 @@ In the remainder of this book we present a series of policy proposals, each of w
 
 # WHAT HAPPENED IN THE WORLD FINANCIAL CRISIS?
 
+```d2
+direction: right
+
+2007: {
+  label: 2007
+  aug: BNP Paribas suspends\nmortgage fund redemptions
+  sep: Northern Rock collapses\n(UK bank failure)
+}
+
+2008: {
+  label: 2008
+  feb: Auction rate securities\nmarket fails
+  mar: Bear Stearns rescued\nby J.P. Morgan + Fed
+  sep: {
+    label: September Crisis
+    week1: Fannie Mae & Freddie Mac\nplaced in conservatorship
+    sep15: Lehman Brothers files\nfor bankruptcy
+    sep16: AIG rescued by government
+    sep17: Reserve Primary Fund "breaks the buck"
+  }
+  oct: TARP enacted\nBank bailout begins
+}
+
+2007 -> 2008: Crisis Escalates
+```
+
 ## The Prelude
 
 The first symptoms of the World Financial Crisis appeared in the summer of 2007, as a result of losses on mortgage backed securities. For example, in August, BNP Paribas suspended the redemption of shares in three funds that had invested in these securities, and American Home Mortgage Investment Corp. declared bankruptcy. Mortgage related losses continued throughout the fall, and indicators of stress in the financial system, including the interest rates that banks charge each other, were unusually high. Despite huge injections of liquidity by the U.S. Federal Reserve and the European Central Bank, financial institutions began to hoard cash, and interbank lending declined. Northern Rock was unable to refinance its maturing debt and the firm collapsed in September 2007, becoming the first bank failure in the United Kingdom in over 100 years.
@@ -123,6 +149,32 @@ Economists will argue about the events of the World Financial Crisis for years t
 
 The Crisis revealed a number of serious problems with our financial system. Some had been in the background all along, others did not appear until the Crisis. In this book we emphasize four categories of problems: conflicts of interest, known to economists as agency problems; the difficulty of applying standard bankruptcy procedures to financial institutions; the emergence of a modern form of bank runs; and the inadequacy of the regulatory structure, which had not kept up with recent financial innovation. (In fact, much innovation served to escape regulations.)
 
+```d2
+direction: right
+
+agency_problems: {
+  label: Conflicts of Interest\n(Agency Problems)
+  content: Traders vs Shareholders\nExecutives vs Shareholders\nShareholders vs Creditors\nSociety vs Private Owners
+}
+
+bankruptcy_problems: {
+  label: Bankruptcy Procedures
+  content: Disorderly liquidation costly\nFire sales depress prices\nKnowledge loss\nInterconnected failures
+}
+
+modern_bank_runs: {
+  label: Modern Bank Runs
+  content: Short-term funding vulnerability\nRepos and commercial paper\nPrime brokerage withdrawals\nRun on shadow banking
+}
+
+regulatory_gaps: {
+  label: Regulatory Inadequacy
+  content: Innovation outpaced regulation\nFragmented oversight\nSystemic risk ignored\nToo-big-to-fail incentives
+}
+
+agency_problems -> bankruptcy_problems -> modern_bank_runs -> regulatory_gaps: Interconnected Problems
+```
+
 # Conflicts of Interest: Agency Problems
 
 Conflicts of interest that cannot be resolved easily by contracts or markets occur throughout the economy, but they can be particularly harmful in the financial system. There are several reasons. First, many financial transactions and contracts involve a principal, such as an investor or shareholder, asking a trader, manager, or other agent to act on his or her behalf. Second, most financial transactions involve highly uncertain future payoffs, and in many transactions one party is better informed about the payoffs than the other. Third, the high volatility of the future payoffs often makes it hard to assess whether the outcome of a financial transaction is due to the agent's efforts or luck. And fourth, the sums involved can be huge.
@@ -199,17 +251,13 @@ Most observers agree that the strong run-up and subsequent sharp decline in the 
 
 Some argue that the run-up before the Crisis was driven by investors who knowingly accepted unusually low expected returns, and they offer several possible reasons why. First, there was a surge of savings in emerging countries, driven by a combination of rapid economic growth and demographics. Perhaps because of a desire to accumulate foreign reserves in the aftermath of the Asia crisis of 1997-98, much of this wealth was invested in developed markets. Second, financial markets were unusually tranquil during 2003 to 2006. With low volatility, investors may have settled for a low risk premium. Third, influenced by fears of a Japanese-style deflation resulting from the market downturn of 2000-2001 and by a belief that they should not try to use monetary policy to counteract rising asset prices, central bankers in the United States maintained a loose monetary policy throughout the period.[17] And from this rational view of investors, the plunge in asset prices that accompanied the Crisis was caused by bad news about future cash flows, unexpected increases in the returns required by investors, or both.
 
-Others suggest a more direct explanation. The high prices before the Crisis were driven by an irrational belief that prices would continue to rise, and the collapse of asset prices was the inevitable result of this mistake. Whatever
-
-the explanation, the sharp drop in asset prices both contributed to and was a symptom of the Crisis.
+Others suggest a more direct explanation. The high prices before the Crisis were driven by an irrational belief that prices would continue to rise, and the collapse of asset prices was the inevitable result of this mistake. Whatever the explanation, the sharp drop in asset prices both contributed to and was a symptom of the Crisis.
 
 Other commentators argue that the financial system became vulnerable because many market participants assessed risks inappropriately during the period leading up to the World Financial Crisis. Consumers, banks, and investors in general underestimated the risk of house price declines, increasing the prices they were willing to pay for real estate, the credit they were willing to extend, and the valuations of banks that extended such credit. Banks put much weight on the recent past when they estimated value at risk, which led them to conclude that the level of risk was low and that there was little downside to having high leverage. Other market participants did not fully appreciate that high liquidity was suppressing volatility and that the process might reverse, with liquidity decreasing and volatility increasing.
 
 More generally, the high level of financial innovation, driven in part by the declining cost of information technology, made it hard for risk assessment to keep pace with the evolving financial system.[18] The benign environment of the credit boom exacerbated this problem by tempting financial institutions to underinvest in risk management.
 
-U.S. policymakers also contributed to the severity of the Crisis by pushing Fannie Mae and Freddie Mac to increase the availability of mortgage funding to borrowers with questionable ability to repay their mortgages. As a result of this pressure, both agencies relaxed their standards for the mortgages they purchased and guaranteed. The demand
-
-for homes by borrowers who qualified for mortgages because of these lower standards pushed up prices, and the default by many of them during the recession contributed to the drop in home prices.
+U.S. policymakers also contributed to the severity of the Crisis by pushing Fannie Mae and Freddie Mac to increase the availability of mortgage funding to borrowers with questionable ability to repay their mortgages. As a result of this pressure, both agencies relaxed their standards for the mortgages they purchased and guaranteed. The demand for homes by borrowers who qualified for mortgages because of these lower standards pushed up prices, and the default by many of them during the recession contributed to the drop in home prices.
 
 The panic and run in the fall of 2008 remain the central distinguishing features of the World Financial Crisis. Asset prices have risen and fallen before, and the world economy has borne large financial losses many times without such a severe economic outcome. Conversely, losses from completely different underlying sources—commercial real estate or perhaps sovereign defaults—could cause a similar catastrophe if they again provoke too-big-to-fail chaos or runs.
 

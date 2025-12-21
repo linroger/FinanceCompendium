@@ -1,10 +1,32 @@
+---
+title: "Chapter 8: Other Swaps"
+parent_directory: "Analysis of Fixed Income Securities Full"
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - variance swaps
+  - volatility swaps
+  - forward variance swaps
+  - swap valuation
+  - derivatives pricing
+secondary_tags:
+  - asset volatility
+  - risk management
+  - financial derivatives
+  - hedging strategies
+  - market volatility
+  - swap contracts
+cssclasses: academia
+---
+
 # Chapter 8: Other Swaps
 
-# 8.1 Variance Swap
+## 8.1 Variance Swap
 
 As its name suggests, a variance swap (or var swap) exchanges one variance measure for another. Usually it is the implied variance swapping for actual variance. Since implied variance reflects an expected variance of the future (for a given tenor), variance swaps can be regarded as expected views versus actual results.
 
-# Investopedia
+## Investopedia
 
 Similar to a plain vanilla swap, one of the two parties involved in the transaction will pay an amount based upon the actual variance of price changes of the underlying asset. The other party will pay a fixed amount, called the strike, specified at the start of the contract. The strike is typically set at the onset to make the net present value (NPV) of the payoff zero.
 
@@ -23,12 +45,16 @@ Buyers and seller of volatility swaps should know that any significant jumps in 
 According to Bossu and Wasserstein (2016), a term sheet is given in Figure 8.1. The floating leg of the swap pays a historically calculated variance:
 
 $$
-\sigma^{2} = \frac{1 0 , 0 0 0 \times 2 5 2 \times \sum_{i = 1}^{n_{A}} r_{i}^{2}}{n_{E}}
-$$ where
+\sigma^{2} = \frac{10,000 \times 252 \times \sum_{i = 1}^{n_{A}} r_{i}^{2}}{n_{E}}
+$$
 
+where
 
-$$ r_{i}^{2} = \ln {\frac{V_{i}}{V_{i - 1}}}
-$$ and  $n_A$  is the actual number of trading days,  $n_E$  is the expected number of trading days,  $V_0$  is the closing level of the index on the trade date, and  $V_i$  is the closing level of the on date  $i$ .
+$$
+r_{i}^{2} = \ln {\frac{V_{i}}{V_{i - 1}}}
+$$
+
+and  $n_A$  is the actual number of trading days,  $n_E$  is the expected number of trading days,  $V_0$  is the closing level of the index on the trade date, and  $V_i$  is the closing level of the on date  $i$ .
 
 
 The fixed leg pays a fixed amount  $K$ .
@@ -44,7 +70,7 @@ These sample terms reflect current market practices. In particular:
 4. The notional is specified in volatility terms (here €50,000 per 'vega' or volatility point.) The true notional of the trade, called variance notional or variance units, is given as:
 
 $$
-\mathrm{Va ri an ce No ti on al} = \frac{\mathrm{Ve ga No ti on al}}{2 K}
+\mathrm{Variance Notional} = \frac{\mathrm{Vega Notional}}{2 K}
 $$
 
 With this convention, if realized volatility is 1 point above the strike at maturity, the payoff will approximately be equal to the vega Notional.
@@ -58,7 +84,7 @@ The vega notional = variance notional × 2K
 The P&L of a long variance swap can be calculated as:
 
 $$
-P \& L = N_{\mathrm{ve ga}} \left(\frac{\sigma^{2} - K^{2}}{2 K}\right) = N_{\mathrm{va ri an ce}} \left(\sigma^{2} - K^{2}\right)
+P \& L = N_{\mathrm{vega}} \left(\frac{\sigma^{2} - K^{2}}{2 K}\right) = N_{\mathrm{variance}} \left(\sigma^{2} - K^{2}\right)
 $$
 
 When the realized variance is close to the strike, the P&L is close to the difference between implied variance and realized variance multiplied by the vega notional.
@@ -67,7 +93,7 @@ The variance swap payout, expressed in vega notional, is locally linear around t
 
 For a vega notional of €100k, a gain of €500k is expressed as a profit of 5 Vegas (i.e. 5 times the vega notional).
 
-# 8.1.1 Volatility Swap
+### 8.1.1 Volatility Swap
 
 The fair strike of a variance swap is slightly higher than that of a volatility swap. This is to compensate for the fact that variance is convex in volatility, as illustrated in Exhibit 2 in the next page. Identical strikes for the two instruments would otherwise lead to an arbitrage.
 
@@ -77,20 +103,26 @@ Figure 8.2: Variance vs. Volatility Swap
 
 Intuitively, the difference in fair strikes is related to the volatility of volatility: the higher the 'vol of vol', the more expensive the convexity effect of variance. This phenomenon is clearly observed when the implied volatility skew is steep, as skew accounts for the empirical fact that volatility is non constant. In fact, the fair strike of variance is often in line with the implied volatility of the  $30\%$  delta put.
 
-# 8.1.2 Forward Starting Variance Swap
+### 8.1.2 Forward Starting Variance Swap
 
 Forward-starting variance swaps can be synthesized with a calendar spread of two spot-starting variance swaps, with appropriate notionals. This is because the variance formula is designed to be perfectly additive. Taking annualization into account, we can indeed write:
 
 $$
-3 \times \mathrm{Re al iz ed}_{3 Y} = \mathrm{Re al iz ed}_{1 Y} + 2 \times \mathrm{Fo rw ar dR ea li ze d}_{1 Y \times 2 Y}
-$$ where  $\mathrm{Realized}_{1Y}$  is the future 1-year realized volatility,  $\mathrm{Realized}_{3Y}$  is the future 3-year realized volatility, and Forward Realized $_{1Y\times 2Y}$  is the future 2-year realized volatility starting in 1 year.
+3 \times \mathrm{Realized}_{3 Y} = \mathrm{Realized}_{1 Y} + 2 \times \mathrm{Forward Realized}_{1 Y \times 2 Y}
+$$
+
+where  $\mathrm{Realized}_{1Y}$  is the future 1-year realized volatility,  $\mathrm{Realized}_{3Y}$  is the future 3-year realized volatility, and Forward Realized $_{1Y\times 2Y}$  is the future 2-year realized volatility starting in 1 year.
 
 
 Thus, for a given forward variance notional, we must adjust the spot variance notionals as follows:
 
-$$ \text{VarianceNotional}_{1Y} = \frac{1 \times \text{ForwardVarianceNotional}_{1Y \times 2Y}}{2} $$
+$$
+\text{VarianceNotional}_{1Y} = \frac{1 \times \text{ForwardVarianceNotional}_{1Y \times 2Y}}{2}
+$$
 
-$$ \text{VarianceNotional}_{3Y} = \frac{3 \times \text{ForwardVarianceNotional}_{1Y \times 2Y}}{2} $$
+$$
+\text{VarianceNotional}_{3Y} = \frac{3 \times \text{ForwardVarianceNotional}_{1Y \times 2Y}}{2}
+$$
 
 The resulting implicit fair strike for the forward variance swap is:
 
@@ -101,19 +133,19 @@ $$
 For example, with  $K_{1\mathrm{Y}\mathrm{var}} = 18.5$  and  $K_{1\mathrm{Y}\mathrm{var}} = 19.5$ , the fair strike of a 2-year variance swap starting in 1 year would be:
 
 $$
-\sqrt{\frac{3 \times 1 9 . 5^{2} - 1 \times 1 8 . 5^{2}}{2}} \approx 2 0
+\sqrt{\frac{3 \times 19.5^{2} - 1 \times 18.5^{2}}{2}} \approx 20
 $$
 
 The corresponding replication strategy for a long €h100,000 forward vega notional position (equivalent to 2,500 forward variance units) would be to buy $3 \times 2,500 / 2 = 3,750$ variance units of the 3-year variance swap and sell $2,500 / 2 = 1,250$ variance units of the 1-year.
 
-# 8.1.3 S&P 500 Variance Futures http://cfe.cboe.com/education/finaleuromoneyvarpaper.pdf
+### 8.1.3 S&P 500 Variance Futures http://cfe.cboe.com/education/finaleuromoneyvarpaper.pdf
 
 
 The CBOE variance futures contracts offer an alternative to variance swaps. They provide an opportunity to gain the same exposure to variance as their OTC counterpart. These products trade on the CBOE Futures Exchange with quarterly expirations and are listed under the futures symbols VT (for three-month variance) and VA (for 12-month variance). Per its contract specifications, the price of a CBOE variance futures contract at maturity is identical to the settlement value for a variance swap under the realisation that N prices map to N-1 yields.
 
 The contract multiplier for the CBOE variance future contracts is US \$50 per futures point change. Thus, at the beginning of the realised variance observation period, trading a single variance futures contract is equivalent to trading a US\$50 variance notional variance swap. This identity does not hold once the contract enters its observation period, because the denominator of the futures contract remains fixed throughout the period. For example, trading a 12-month variance contract half way through its observation period is equivalent to trading a US\$25 variance notional with six months to expiration.
 
-# 8.2 Total Return Swap
+## 8.2 Total Return Swap
 
 Total return swap, or TRS (especially in Europe), or total rate of return swap, or TRORS, or Cash Settled Equity Swap is a financial contract that transfers both the credit risk and market risk of an underlying asset.
 
@@ -122,7 +154,7 @@ By Moorad Choudhry (http://www.yieldcurve.com/Mktresearch/LearningCurve/TRS.pdf)
 A total return swap (TRS), sometimes known as a total rate of return swap or TR swap, is an agreement between two parties that exchanges the total return from a financial asset between them. This is designed to transfer the credit risk from one party to the other. It is one of the principal instruments used by banks and other financial instruments to manage their credit risk exposure, and as such is a credit derivative. They are used as credit risk management tools, and also as synthetic repo instruments for funding purposes. One definition of a TRS is given in Francis et al. (1999), which states that a TRS is a swap agreement in which the total return of a bank loan or credit-sensitive security is exchanged for some other cash flow, usually tied to Libor or some other loan or credit-sensitive security.
 
 
-# 8.3 Index Swap
+## 8.3 Index Swap
 
 Wikipedia:
 
@@ -136,7 +168,7 @@ The only index used for writing property derivative contracts in the UK are the 
 - NPI Property Type Total Return Swap
 Similar products on IPD in U.K
 
-# 8.4 Inflation Swap
+## 8.4 Inflation Swap
 
 An inflation swap is a contract used to transfer inflation risk from one party to another through an exchange of fixed cash flows. In an inflation swap, one party pays a fixed rate cash flow on a notional principal amount while the other party pays a floating rate linked to an inflation index, such as the Consumer Price Index (CPI). The party paying the floating rate pays the inflation adjusted rate multiplied by the notional principal amount. Usually, the principal does not change hands. Each cash flow comprises one leg of the swap.
 
@@ -156,7 +188,7 @@ Figure 8.3: Inflation Swap (JPM)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/e78d3a421e5d514b1229bfd7ce394b28d39579ed15280f7e4419b56d7c364c86.jpg)
 Source: Bloomberg and J.P. Morgan Asset Management.
 
-# 8.4.1 Year-on-Year Inflation Swap
+### 8.4.1 Year-on-Year Inflation Swap
 
 Each year, at time  $T_{i}$
 
@@ -196,7 +228,7 @@ $\iota(T_i)$  is the inflation at time of the flow  $i$  (time  $T_i$ )
 
 $\iota (T_M)$  is the inflation at maturity date (time  $T_{M}$ )
 
-# 8.4.2 Zero Coupon Inflation Swap
+### 8.4.2 Zero Coupon Inflation Swap
 
 At time  $T_{M} = \mathrm{M}$  years
 
@@ -236,7 +268,7 @@ Like every debt contract, a zero coupon inflation swap is subject to the risk of
 
 Other financial instruments that can be used to hedge against inflation risk are real yield inflation swaps, price index inflation swaps, Treasury Inflation Protected Securities (TIPS), municipal and corporate inflation-linked securities, inflation-linked certificates of deposit, and inflation-linked savings bonds.
 
-# 8.5 Equity Swap
+## 8.5 Equity Swap
 
 Equity swaps originally refer to exchange physical assets (e.g. real estate). It stemmed from an old business tradition "buy-and-lease-back" which allows the company not to list the equipment/property on their balancesheet. Such a practice gradually grew into swaps and now with a digital world often it refers to just exchange of two streams of cash flows.
 
@@ -263,9 +295,9 @@ Since swaps are customizable based on what two parties agree to, there are many 
 
 One can view equity swaps as financing the purchase of an equity index (via e.g. LIBOR). Such swaps are popular for those investors who want run a positive (or negative) carry trade.
 
-# 8.6 Commodity Swap
+## 8.6 Commodity Swap
 
-# Investopedia:
+### Investopedia:
 
 A commodity swap is a type of derivative contract where two parties agree to exchange cash flows dependent on the price of an underlying commodity. A commodity swap is usually used to hedge against price swings in the market for a commodity, such as oil and livestock. Commodity swaps allow for the producers of a commodity and consumers to lock in a set price for a given commodity.
 
@@ -283,7 +315,7 @@ In addition to fixed-floating swaps, there is another type of commodity swap, ca
 In general, the purpose of commodity swaps is to limit the amount of risk for a given party within the swap. A party that wants to hedge their risk against the volatility of a particular commodity price will enter into a commodity swap and agree, based on the contract set forth, to accept a particular price, one that they will either pay or receive throughout the course of the agreement. Airline companies are heavily dependent on fuel for their operations. Swings in the price of oil can be particularly challenging for their businesses, so an airline company may enter into a commodity swap agreement to reduce their exposure to any volatility in the oil markets.
 
 
-# Example
+### Example
 
 As an example, assume that Company X needs to purchase 250,000 barrels of oil each year for the next two years. The forward prices for delivery on oil in one year and two years are  \$50 per barrel and\$ 51 per barrel. Also, the one-year and two-year zero-coupon bond yields are 2\% and 2.5\%. Two scenarios can happen: paying the entire cost upfront or paying each year upon delivery.
 

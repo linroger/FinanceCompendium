@@ -48,9 +48,9 @@ In this model, defaultable debt is the only form of insurance a country can get,
 
 The net result of the shifts in loan supply and demand is a new equilibrium at point 5. If loan supply moves left/up and loan demand moves right, the lending rate will definitely increase. The net effect on the amount of debt is ambiguous, however, and depends on whether the demand shift is larger than the supply shift. If the supply effect dominates, the country will end up with less debt, higher-risk premiums, and more frequent defaults—the very characteristics we see in emerging markets as compared with advanced countries.
 
-# APPLICATION
+## APPLICATION
 
-# The Costs of Default
+## The Costs of Default
 
 Our model of default, like many others, relies on punishment costs to give debtors an incentive to repay. Is this realistic? How big are the costs? Defaulters do not get away scot-free, and to see why, we consider evidence from a Bank of England study and other research.[25]
 
@@ -80,53 +80,23 @@ Vicious Circles in Twin and Triple Crises The chart shows that in developing cou
 
 Source: Based on Bianca De Paoli, Glenn Hoggarth, and Victoria Saporta, 2006, "Costs of Sovereign Default," Bank of England Quarterly Bulletin, Fall.
 
-# TABLE 22-1
+## TABLE 22-1
 
 Costs of Sovereign Defaults, 1970-2000 Output losses can be very large after a default, as measured by deviation from trends. While a default-only crisis may be short and not costly, the more common twin and triple crises last much longer and have very high costs.
 
-# Type of Crisis
-
-# Number of Crises
-
-# Average Length (years)
-
-# Mean Cost per Year (\% of GDP)
-
-Default only
-
-4
-
--1.0
-
-Default and exchange rate crisis
-
-13
-
-10.3
-
-Default and banking crisis
-
-7
-
-13.2
-
-Triple crisis
-
-21
-
-21.7
-
-All crises
-
-45
-
-15.1 other case, there is either a twin default/exchange rate crisis (13 cases), a twin default/ banking crisis (7 cases), or a triple default/exchange rate/banking crisis (21 cases). In all these other cases (more than  $90\%$  of defaults), the output losses associated with the crisis are significant, measured by deviation from trend output growth: on average, around  $15\%$  of GDP per year for eight years. That is a large cost, even if comparisons with normal trends may be misleading, because it is difficult to estimate the costs that the countries would have faced had they not defaulted.[30]
+| Type of Crisis | Number of Crises | Average Length (years) | Mean Cost per Year (% of GDP) |
+| :------------- | :--------------- | :-------------------- | :--------------------------- |
+| Default only | 4 | -1.0 | |
+| Default and exchange rate crisis | 13 | 10.3 | |
+| Default and banking crisis | 7 | 13.2 | |
+| Triple crisis | 21 | 21.7 | |
+| All crises | 45 | 15.1 | | other case, there is either a twin default/exchange rate crisis (13 cases), a twin default/ banking crisis (7 cases), or a triple default/exchange rate/banking crisis (21 cases). In all these other cases (more than  $90\%$  of defaults), the output losses associated with the crisis are significant, measured by deviation from trend output growth: on average, around  $15\%$  of GDP per year for eight years. That is a large cost, even if comparisons with normal trends may be misleading, because it is difficult to estimate the costs that the countries would have faced had they not defaulted.[30]
 
 Source: Bianca De Paoli, Glenn Hoggarth, and Victoria Saporta, 2006, "Costs of Sovereign Default," Bank of England Quarterly Bulletin, Fall.
 
 To sum up, if financial penalties and legal action provide insufficient motives for repayment, there is reason to believe that many other costs of default exist that provide enough incentive for contingent debt repayment.
 
-# Conclusion
+## Conclusion
 
 We have developed a simple model in which sovereign debt is a contingent claim that will not be paid in hard times. In equilibrium borrowers obtain consumption-smoothing via debt (a form of insurance against volatile consumption levels) at a price—the risk premium—that compensates lenders for default risk. The model is too simple to capture all aspects of the default problem, such as the tendency of borrowing to move in volatile cycles, and the scope for contagion and "animal spirits" in this asset market as in any other.
 
@@ -136,9 +106,9 @@ How did advanced countries eventually find a way to avoid these outcomes? Our mo
 
 Every few years, in a tranquil time, some expert predicts that there will not be any more sovereign defaults. They can't be taken very seriously. History does suggest that many of the deep and intertwined underlying political-economy problems can be solved, but it may take an awfully long time for countries to overcome these impediments and emerge from the serial default club.[31]
 
-# APPLICATION
+## APPLICATION
 
-# The Argentina Crisis of 2001-2002
+## The Argentina Crisis of 2001-2002
 
 In this section we focused on the problem of default. But we also emphasized (as in Figure 22-14) the feedback mechanisms at work in twin and triple crisis situations in which default crises, exchange rate crises, and banking crises may simultaneously occur. Just as in the case of self-fulfilling exchange rate crises (explained in the chapter on crises), these "vicious circles" may lead to self-fulfilling twin and triple crises where, as the economist Guillermo Calvo puts it, "If investors deem you unworthy, no funds will be forthcoming and, thus, unworthy you will be." In general, theory and empirical work suggest that bad fundamentals only make the problem of self-fulfilling crises worse, and disentangling the two causes can be difficult, leading to ongoing controversy over who or what is to blame for any given crisis. The Argentina crisis of 2001-02 dramatically illustrates these problems.[32]
 
@@ -172,7 +142,7 @@ Argentina's policies were inconsistent. When the government chose a fixed exchan
 
 Postscript As of 2007, there had been no major crisis since 2001, world economic conditions had been fairly benign, and many countries had built up large exchange reserves. This led many observers to call into question the need for the IMF, given its perceived failings in the 1997-2001 crises, and the small size of its lending capabilities in the face of growing private sector financial flows. On the other hand, international economic crises have been around for a very long time, so to more seasoned observers, it seemed a little premature for some to be calling for dismantling the only emergency service we have (see Headlines: Is the IMF "Pathetic"?). They were proved right when during and after the global financial crisis in 2008, the IMF was called to the scene of many macroeconomic accidents, including in several so-called advanced countries, to provide rescue funding.
 
-# 4 The Global Macroeconomy and the 2007-2013 Crisis
+## 4 The Global Macroeconomy and the 2007-2013 Crisis
 
 The Global Financial Crisis of 2007-09 and the associated Great Recession constitute one of the most significant global macroeconomic events of modern history. Even now, when the full implications are as yet unclear, we may anticipate that when these times are assessed by economic historians in the distant future, they will probably rank in the memory not far behind such momentous events as the 1930s Great Depression. And already, looking only to the very near future, in terms of the economic damage created, the current recessions will not be forgotten quickly by our generation of households, firms, banks, or governments, all of whom have been affected by the downturn, and many of whom have endured serious suffering.
 
@@ -180,13 +150,13 @@ In this section of the chapter, we look at the crisis using the tools of interna
 
 Macroeconomists have much to learn from the crisis. Some key macro-financial and policy issues have been known about since the early 1800s, but they had been ignored or forgotten by many economists, and more future research is likely to focus on these important issues.
 
-# Backdrop to the Crisis
+## Backdrop to the Crisis
 
 Several features of the precrisis global economy can help us understand some of the calamitous events that were to follow. Keep in mind, however, that the benefits of hindsight should not cause us to underestimate the difficulties observers had in
 
-# HEADLINES
+## HEADLINES
 
-# Is the IMF "Pathetic"?
+## Is the IMF "Pathetic"?
 
 The IMF is the closest thing to a global lender of last resort. When times are calm, it may be tempting to think of abolishing the institution. As this precrisis column pointed out, to have done so would have been a remarkably complacent idea.
 
@@ -234,7 +204,7 @@ On the EM side, at the broadest level, economists understand the dramatic increa
 
 Looking back on those bleak times and on the inability of private capital markets or multilateral agencies such as the IMF to offer financial help that was both constructive and sufficient, many EM policy makers reached two key conclusions. First, they knew that they did not want to be the next Suharto, the Indonesian president humiliated by having to do the bidding of the IMF in exchange for funding; and they knew that to avoid being put in that position, they would have to take responsibility for their own financial security and, instead of relying on access to borrowed funds, would instead have to build up a war chest of liquid savings that could be drawn down in the event of a crisis.
 
-# FIGURE 22-15
+## FIGURE 22-15
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/e837791448d7e014d551b86b5760690533306be11ed12d5ba97cb893fa79177f.jpg)
 
@@ -264,7 +234,7 @@ Unfortunately, such an outcome, often assumed in theory, is not guaranteed in pr
 
 The view that the DM world could absorb these savings and put them to good use, and do so at ever higher levels of debt, depended on a particularly presumptive, some might say arrogant, view that despite the lessons from emerging economies, somehow the developed economies were "different." The DM optimists' argument could be summed up along
 
-# FIGURE 22-16
+## FIGURE 22-16
 
 Credit aggregates relative to GDP  $(\%)$  average for 14 developed markets
 
@@ -289,11 +259,11 @@ Many other observers see widespread evidence of market failure, in which irratio
 
 Summary History shows that economies based on financial capitalism have experienced banking crises throughout the modern era. This is true whether one is speaking of developed markets or emerging markets, with the possible exception of a brief interlude of calm during the financially repressed post-1945 era, as shown in Figure 22-17. However, as the financial sector was deregulated in the last three or four decades, it regrouped and expanded, and we have once again found ourselves in what is, to the economic historian, if not the economist, a very familiar place characterized by periodic episodes of financial instability. With some success, policy makers mitigated some of these shocks, but after credit and leverage grew to unprecedented levels, there came a shock so large that it defied control and sent the world economy into the most severe slump since the 1930s Great Depression.
 
-# Panic and the Great Recession
+## Panic and the Great Recession
 
 In 2007 the Global Financial Crisis started to unfold quickly from a set of potential risks into a massive catastrophe that would wreak havoc on the global economy for the next several years (see the timeline in Table 22-2).
 
-# FIGURE 22-17
+## FIGURE 22-17
 
 Fraction of countries in group experiencing a banking crisis  $(\%)$
 
@@ -319,7 +289,7 @@ A curious side effect of the crisis was the effect on the dollar and the unusual
 
 The End of the World Was Nigh It took until March 2009 for the collapse of U.S. stock markets to end (the S&P 500 Index hit a low point of 666). By this time three of the big five U.S. specialist investment banks had failed or been taken over and a 700 billion bank recapitalization scheme had been created by the U.S. Treasury in fits and starts during the last days of the Bush administration and the first days of the Obama administration. Confidence in the ability of the economic and financial situation to recover was low, to put it mildly. Bank recapitalization projects took shape in other countries, too (the United Kingdom took the lead on this front), and a greater sense of calm was restored by the April 2009 G-20 summit in London, at which a united front of global leaders pledged greater support and cooperation. Fiscal policy makers had by then stepped in with large-scale stimulus plans in most countries (see Table 22-3) and monetary policy had been eased everywhere, in many countries all the way down
 
-# TABLE 22-3
+## TABLE 22-3
 
 Discretionary Fiscal Policies in the Great Recession After the crisis, as output growth slowed or turned negative, many countries increased government spending or cut taxes to try to provide additional macroeconomic stimulus. The table shows data on discretionary fiscal stimulus measures for the G-20 taken in 2008–10 relative to a 2007 baseline, as a percent of GDP.
 
@@ -355,7 +325,7 @@ Europe As the crisis wore on, and recovery started, the full extent of the shock
 
 In Ireland large property booms went bust and the banking system was at risk of collapse. All these potential losses were rather hastily absorbed by the government in September 2008, but their eventual size grew to about half of GDP in late 2010 and the necessary fiscal adjustment, already austere, had to be tightened even further. Despite these efforts, Ireland was seen by markets to be at an elevated risk of default. The use of monetary policy to boost the economy was not an option: the Irish had joined the euro and could pull no policy lever but the one marked "fiscal," which was hard in reverse. By 2009 real GDP had fallen by  $13\%$  from its 2007 peak
 
-# FIGURE 22-19
+## FIGURE 22-19
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/9e5aa6e9c8c0939456fd76ea5934b73735b48c8d379c23aa0f7901ba32018243.jpg)
 
@@ -409,7 +379,7 @@ Almost all of the advanced economies emerged from the crisis with still historic
 
 We should hope that the world will discover how or if some of the conditions that helped shape the crisis might be avoided in the future. Can better financial regulation prevent damaging credit booms? Can improved bankruptcy procedures help countries deal with failing banks quickly and with less damage to the economy or the taxpayer? Can more EM economies find alternative insurance mechanisms, or else accumulate an adequate level of reserves? Can the Eurozone develop a more stable political and economic architecture than the half-built structure currently in place? Will global imbalances persist at the levels seen in the last decade, or will they moderate either through smooth market adjustments, or in response to more direct policy activism?
 
-# Conclusion: Lessons for Macroeconomics
+## Conclusion: Lessons for Macroeconomics
 
 The above description of the global financial crisis and its aftermath is necessarily incomplete. The event itself is far from over, and it represents a massive shock to the world economy, both economically and politically. Its full repercussions will unfold over many years and are impossible to predict with certainty.
 
@@ -419,7 +389,7 @@ The scope of policy objectives will have to be carefully scrutinized to determin
 
 Lastly, the challenges will require new evidence to guide theory and refute or confirm hypotheses. Financial shocks of the kind we have just witnessed are rare events. For the purposes of empirical study, a sample of comparable episodes can be found, but only if one looks deep into economic history. The calm and prosperity of the world economy from the mid-1980s up to 2007, the so-called Great Moderation, lulled many into thinking that we had entered a new era, in which "this time is different"; it turned out to be an illusion. Greater attention to the lessons of economic history might have counteracted some of that complacent and naïve thinking. In the end, economists and policy makers face the task of better linking aggregate economic outcomes to financial conditions, a task that will surely take economic research down some new and interesting paths. There is much work to do.
 
-# KEY POINTS
+## KEY POINTS
 
 1. Purchasing power parity does not hold between rich and poor countries, in either relative or absolute form. Prices of goods are systematically higher in rich countries. As countries become relatively richer, we can therefore expect their price levels to rise and, hence, their real exchange rates to appreciate. Exchange rate forecasts (real and nominal) need to be adjusted accordingly, as do judgments as to whether a country's exchange rate is underor overvalued.
 2. The Balassa-Samuelson theory explains price differences across countries as a result of differences in the wage (labor) costs embodied in nontraded goods. It assumes that nontraded goods have zero (or small) productivity differences. Under those assumptions, large differences in traded goods productivity are associated with large differences in income per capita, wages, and the prices of nontraded goods.
@@ -430,7 +400,7 @@ Lastly, the challenges will require new evidence to guide theory and refute or c
 7. Before 2008, large capital flows from EM to DM created global imbalances, and some similar imbalances could be found within the DM world. Some of these flows ended up financing unsustainable private or public consumption or failed housing investments in certain DM econ omies (United States, Britain, Ireland, Spain, etc.) and as the malinvestment contaminated balance sheets of banks globally the stage was set for the Global Financial Crisis.
 8. The subsequent Great Recession saw contractions in aggregate demand and credit, and ballooning government debts and deficits in many DM countries. The financial crisis now created a fiscal problem, and in some cases, brought governments to a near-insolvent position, in some cases necessitating rescue packages (the euro periphery). EM economies bounced back quickly, but the DM economies had a deep slump, making the global recovery weak and doubtful.
 
-# KEY TERMS trade cost, p. 861
+## KEY TERMS trade cost, p. 861
 
 no-arbitrage band, p. 861
 
@@ -458,7 +428,7 @@ too-easy monetary policy, p. 909 failure of regulation and supervision. p. 909
 
 government failure, p. 909 market failure, p. 910
 
-# PROBLEMS
+## PROBLEMS
 
 1. (PPP) Richland and Poorland each have two industries: traded TVs and nontraded house maintenance. The world price of TVs is R$100 (R$ = Richland dollar). Assume for now that the exchange rate is R1 = 1 PP (PP = Poorland peso) and that prices are flexible. It takes 1 day for a worker in each country to visit and maintain 1 house. It takes 1 day for a Richland worker to make a TV, and 4 days for a Poorland worker.
 

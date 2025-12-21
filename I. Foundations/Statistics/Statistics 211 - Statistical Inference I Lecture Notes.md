@@ -1,30 +1,24 @@
 ---
+title: "Statistics 211: Statistical Inference I Lecture Notes"
+parent_directory: "Statistics"
+formatted: "2025-12-21 05:25:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
-- next class
-- some considerations
-- 6.2 fisher information
-- point and interval estimation
-- (complete class theorem
-- likelihood estimation
+  - statistical inference
+  - maximum likelihood estimation
+  - hypothesis testing
+  - bayesian inference
 secondary_tags:
-- empirical bayes
-- frequentist and bayesian decision analysis
-- minimal sufficiency
-- 1.1 class overview
-- 20.3 bayesian decision analysis
-- fisher information
-- likelihood ratio statistic
-- composite hypothesis
-- ancillary statistic
-- some hypothesis test
-- 7.2 method
-- predictive inference
-- relative fisher information
-- second method
-- frequentist coverage
-- (least favorable sequence
-tags_extracted: '2025-12-18T18:01:14.096257'
-tags_method: max_quality_v1
+  - frequentist methods
+  - likelihood ratio tests
+  - confidence intervals
+  - decision theory
+  - empirical bayes
+  - sufficiency principles
+  - ancillarity
+  - point estimation
+cssclasses: academia
 ---
 
 # Statistics 211: Statistical Inference I

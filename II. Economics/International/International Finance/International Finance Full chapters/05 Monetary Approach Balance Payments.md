@@ -1,59 +1,51 @@
 ---
-aliases:
-- Monetary Approach Balance Payments
-tags: null
-key_concepts: null
+title: The Monetary Approach to the Balance of Payments
 parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 5: Monetary Approach Balance Payments'
-linter-yaml-title-alias: 'Chapter 5: Monetary Approach Balance Payments'
+formatted: 2025-12-21 05:15:00 PM
+formatter_model: claude-sonnet-4-5-20250929
+cli-tool: claude-code
 primary_tags:
-- money positive function domestic
-- quantity theory money basis
-- stable demand money function
-- exchange rates monetary approach
+  - monetary approach balance payments
+  - quantity theory money
+  - money demand function
+  - exchange rate determination
+  - balance payments disequilibrium
 secondary_tags:
-- monetary approach balance payments
-- chapter simple monetary model
-- demand nominal money balances
-- postulate monetary approach
-- equilibrium monetary
-- mind monetary model referring
-- money balances greater reason
-- monetarists use quantity theory
-- monetary approach argues devaluation
-tags_extracted: '2025-12-18T01:31:35.148124'
+  - purchasing power parity
+  - aggregate demand supply
+  - money supply reserves
+  - devaluation effects
+  - fixed floating exchange rates
+  - monetarist theory
+cssclasses: academia
 ---
 
 # CHAPTER 5
 
 ## THE MONETARY APPROACH TO THE BALANCE OF PAYMENTS
 
-CHAPTER OUTLINE
+## Chapter Outline
 
-5.1 Introduction
+### 5.1 Introduction
 
-5.2 A simple monetary model
-5.3 Te monetarist concept of balance of payments disequilibrium
-5.4 Te e$ects of a devaluation
+### 5.2 A Simple Monetary Model
+### 5.3 The Monetarist Concept of Balance of Payments Disequilibrium
+### 5.4 The Effects of a Devaluation
 
-5.5 A monetary exchange rate equation
-5.6 A money supply expansion under !xed exchange rates
+### 5.5 A Monetary Exchange Rate Equation
+### 5.6 A Money Supply Expansion Under Fixed Exchange Rates
 
-5.7
-A money supply expansion under floating exchange rates
-5.8 Te e$ects of an increase in income under !xed exchange rates
+### 5.7 A Money Supply Expansion Under Floating Exchange Rates
+### 5.8 The Effects of an Increase in Income Under Fixed Exchange Rates
 
-5.9
-Te e$ects of an increase in income under floating exchange rates
-5.10 An increase in foreign prices under !xed exchange rates
+### 5.9 The Effects of an Increase in Income Under Floating Exchange Rates
+### 5.10 An Increase in Foreign Prices Under Fixed Exchange Rates
 
-5.11
-An increase in foreign prices under floating exchange rates
-5.12 Implications of the monetary approach
-5.13 Empirical evidence on the monetary approach
-5.14 Criticisms of the monetary approach
-5.15 Conclusions
+### 5.11 An Increase in Foreign Prices Under Floating Exchange Rates
+### 5.12 Implications of the Monetary Approach
+### 5.13 Empirical Evidence on the Monetary Approach
+### 5.14 Criticisms of the Monetary Approach
+### 5.15 Conclusions
 
 5.1 INTRODUCTION
 
@@ -90,7 +82,7 @@ will then summarize the policy implications of the monetary approach and conside
 
 from the Keynesian model examined in Chapter 4.
 
-5.2 A SIMPLE MONETARY MODEL
+## 5.2 A Simple Monetary Model
 
 Tere are three key assumptions that underlie the monetary model; these are a stable money demand function,
 
@@ -319,7 +311,7 @@ _R_ 2. Tis, too, has the e$etc of raising the money stock from _M_ 1 to _M_ 2 an
 
 the money supply schedule _M_ s1 from point A to point B.
 
-5.3 THE MONETARIST CONCEPT OF BALANCE OF PAYMENTS DISEQUILIBRIUM
+## 5.3 The Monetarist Concept of Balance of Payments Disequilibrium
 
 Te monetarists view balance of payments surpluses and de!cits as monetary flow due to stock disequilibrium
 
@@ -422,7 +414,7 @@ AD
 
 International Finance
 
-5.4 THE EFFECTS OF A DEVALUATION
+## 5.4 The Effects of a Devaluation
 
 Te monetary approach argues that a devaluation can only have an a$etc on the balance of payments by
 
@@ -495,7 +487,7 @@ de!cit or surplus in the balance of payments which continues only until equilibr
 
 market via reserve changes.
 
-5.5 A MONETARY EXCHANGE RATE EQUATION
+## 5.5 A Monetary Exchange Rate Equation
 
 Before we compare and contrast the e$ects of various shocks under !xed and floating exchange rates we need
 

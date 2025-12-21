@@ -1,7 +1,7 @@
 ---
 title: "18 - Balance of Payments II - Output and Policies"
 parent_directory: "VII - Balance of Payments"
-formatted: "2025-12-21 05:15:00 AM"
+formatted: "2025-12-21 05:20:00 AM"
 formatter_model: "kimi-k2-turbo"
 cli-tool: "claude-code"
 primary_tags:
@@ -68,9 +68,7 @@ Why do some countries choose to fix and others to float? Why do they change thei
 
 In previous chapters, we have examined the workings of the economy under fixed and floating exchange rates. One advantage of understanding the workings of these regimes in such detail is that we are now in a position to address a perennially important macroeconomic policy question: What is the best exchange rate regime choice for a given country at a given time? In this section, we explore the pros and cons of fixed and floating exchange rates by combining the models we have developed with additional theory and evidence. We begin with an application about Germany and Britain in the early 1990s. This story highlights the choices policy makers face as they choose between fixed exchange rates (pegs) and floating exchange rates (floats).
 
-# APPLICATION
-
-# Britain and Europe: The Big Issues
+### APPLICATION: Britain and Europe: The Big Issues
 
 One way to begin to understand the choice between fixed and floating regimes is to look at countries that have sometimes floated and sometimes fixed and to examine their reasons for switching. In this case study, we look at the British decision to switch from an exchange rate peg to floating in September 1992.
 
@@ -88,7 +86,7 @@ A Shock in Germany With the scene set, our story begins with a threat to the ERM
 
 The next chapter in the story involves the Bundesbank's response to the German government's expansionary fiscal policy. The Bundesbank was afraid that the boom in German output might cause an increase in German rates of inflation, and it wanted
 
-# FIGURE 19-2
+#### FIGURE 19-2
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/cd7468b8c97c7d2544ace918877c71407b699c9360327586c9e3efe155ccd417.jpg)
 
@@ -122,7 +120,7 @@ What Happened Next? In September 1992, after an economic slowdown and after cons
 
 Did Britain make the right choice? In Figure 19-3, we compare the economic performance of Britain with that of France, a large European Union economy that
 
-# FIGURE 19-3
+#### FIGURE 19-3
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/552632208f6e32504d9db4be120c24a37d118bec2b37c604d038c616b52e9c17.jpg)
 
@@ -168,7 +166,7 @@ Trade is the clearest example of an activity that volatile exchange rates might 
 
 The lesson: the greater the degree of economic integration between markets in the home country and the base country, the greater will be the volume of transactions between the two, and the greater will be the benefits the home country gains from fixing its exchange rate with the base country. As integration rises, the efficiency benefits of having a fixed exchange rate increase.
 
-# Economic Similarity and the Costs of Asymmetric Shocks
+### Economic Similarity and the Costs of Asymmetric Shocks
 
 A fixed exchange rate can lead to costs when one country experiences a country-specific shock or asymmetric shock that is not shared by the other country.
 
@@ -182,7 +180,7 @@ Real-world situations are more complex. Countries are not identical and shocks m
 
 - The lesson: if there is a greater degree of economic similarity between the home country and the base country (that is, if they face more symmetric shocks and fewer asymmetric shocks), then the economic stabilization costs to home of fixing its exchange rate to the base are smaller. As economic similarity rises, the stability costs of having a fixed exchange rate decrease.
 
-# Simple Criteria for a Fixed Exchange Rate
+### Simple Criteria for a Fixed Exchange Rate
 
 We can now set out a theory of exchange rate regime choice by considering the net benefits (benefits minus the costs) of pegging versus floating. Our discussions about integration and similarity have shown the following:
 
@@ -210,9 +208,7 @@ The key prediction of our theory is this: pairs of countries above the FIX line 
 
 In a moment, we develop and apply this theory further. But first, let's see if there is evidence to support the theory's two main assumptions: Do fixed exchange rates deliver trade gains through integration? Do they impose stability costs by limiting monetary policy options?
 
-# APPLICATION
-
-# Do Fixed Exchange Rates Promote Trade?
+### APPLICATION: Do Fixed Exchange Rates Promote Trade?
 
 The single most powerful argument for a fixed exchange rate is that it may boost trade by eliminating trade-hindering costs. The idea is an old one. In 1878, the United States had yet to re-adopt the gold standard following the Civil War. Policy makers were debating whether going back on gold made sense, and J. S. Moore, a U.S. Treasury official testifying before Congress, was questioned on the subject:
 
@@ -238,7 +234,7 @@ FIGURE 19-5
 
 Volume of trade, relative to a floating exchange rate regime
 
-# Do Fixed Exchange Rates Promote Trade?
+#### Do Fixed Exchange Rates Promote Trade?
 
 The chart shows one study's estimates of the impact on trade volumes of various types of fixed exchange rate regimes, relative to a floating exchange rate regime. Indirect pegs were found to have a small but statistically insignificant impact on trade, but trade increased under a direct peg by  $21\%$ , and under a currency union by  $38\%$ , as compared with floating.
 
@@ -252,9 +248,7 @@ Statistical methods can be used to detect how large price differences must be be
 
 Economists have also studied convergence in the prices of individual goods. For example, several studies focused on Europe have looked at the prices of various goods in different countries (e.g., retail prices of cars and TV sets, and the prices of Marlboro cigarettes in duty-free shops). These studies showed that higher exchange rate volatility is associated with larger price differences between locations. In particular, while price gaps still remain for many goods, the "in" countries (members of the ERM and now the Eurozone) saw prices converge much more than the "out" countries.[9]
 
-# APPLICATION
-
-# Do Fixed Exchange Rates Diminish Monetary Autonomy and Stability?
+### APPLICATION: Do Fixed Exchange Rates Diminish Monetary Autonomy and Stability?
 
 Probably the single most powerful argument against a fixed exchange rate is provided by the trilemma. An economy that unilaterally pegs to a foreign currency sacrifices its monetary policy autonomy.
 
@@ -312,13 +306,11 @@ its interest rate, it spreads economic pain to those countries pegging to it, bu
 
 We began the chapter by emphasizing two key factors that influence the choice of fixed versus floating rate regimes: economic integration (market linkages) and economic similarity (symmetry of shocks). Other factors can play a role, however, and in this section, we explore some benefits of a fixed exchange rate regime that can be particularly important in emerging markets and developing countries.
 
-# Fiscal Discipline, Seigniorage, and Inflation
+### Fiscal Discipline, Seigniorage, and Inflation
 
 One common argument in favor of fixed exchange rate regimes in developing countries is that an exchange rate peg prevents the government from printing money to finance government expenditure. Under such a financing scheme, the central bank is called upon to monetize the government's deficit (i.e., give money to the government in exchange for debt). This process increases the money supply and leads to high inflation. The source of the government's revenue is, in effect, an inflation tax (called seigniorage) levied on the members of the public who hold money (see Side Bar: The Inflation Tax).
 
-# SIDE BAR
-
-# The Inflation Tax
+#### SIDE BAR: The Inflation Tax
 
 How does the inflation tax work? Consider a situation in which a country with a floating exchange rate faces a constant budget deficit and is unable to finance this deficit through domestic or foreign borrowing. To cover the deficit, the treasury department calls on the central bank to "monetize" the deficit by purchasing an amount of government bonds equal to the deficit.
 
@@ -331,7 +323,7 @@ What is the inflation tax worth to the government? It can spend the extra money 
 The amount that the inflation tax transfers from household to the government is called seigniorage, which can be written as
 
 $$
-\underbrace {\text{Seigniorage}}_{\text{Inflation tax}} = \underset {\text{Tax rate}} {\pi} \times \underset {\text{Tax base}} {\frac{M}{P}} = \pi \times L (r^{*} + \pi) Y
+\underbrace{\text{Seigniorage}}_{\text{Inflation tax}} = \underbrace{\pi}_{\text{Tax rate}} \times \underbrace{\frac{M}{P}}_{\text{Tax base}} = \pi \times L(r^{*} + \pi) Y
 $$
 
 The two terms are often viewed as the tax rate (here, the inflation rate  $\pi$ ) and the tax base (the thing being taxed; here, real money balances  $M / P = L$ ). The first term rises as inflation  $\pi$  rises, but the second term goes to zero as  $\pi$  gets large because if inflation becomes very high, people try to hold almost no money, that is, real money demand given by  $L(i) = L(r^{*} + \pi)Y$  falls to zero.
@@ -354,7 +346,7 @@ We may conclude that as long as monetary policy is guided by some kind of nomina
 
 The lesson: Fixed exchange rates are neither necessary nor sufficient to ensure good inflation performance in many countries. In developing countries beset by high inflation, an exchange rate peg may be the only credible anchor.
 
-# Liability Dollarization, National Wealth, and Contractionary Depreciations
+### Liability Dollarization, National Wealth, and Contractionary Depreciations
 
 As we learned in the balance of payments chapter, exchange rate changes can have a big effect on a nation's wealth. External assets and liabilities are never entirely denominated in local currency, so movements in the exchange rate can affect their value. For developing countries and emerging markets afflicted by the problem of liability dollarization, the wealth effects can be large and destabilizing, providing another argument for fixing the exchange rate.
 
@@ -363,13 +355,13 @@ Suppose there are just two countries and two currencies, Home and Foreign. Home 
 The value of Home's dollar external assets and liabilities can be expressed in pesos as  $EA_{F}$  and  $EL_{F}$ , respectively, using an exchange rate conversion. Hence, the Home country's total external wealth is the sum total of assets minus liabilities expressed in local currency:
 
 $$
-W = \underbrace {(A_{H} + E A_{F})}_{\text{As se ts}} - \underbrace {(L_{H} + E L_{F})}_{\text{Li ab il it ie s}}
+W = \underbrace{(A_{H} + E A_{F})}_{\text{Assets}} - \underbrace{(L_{H} + E L_{F})}_{\text{Liabilities}}
 $$
 
 Now suppose there is a small change  $\Delta E$  in the exchange rate, all else equal. This does not affect the values of  $A_H$  and  $L_H$ , but it does change the values of  $EA_F$  and  $EL_F$  expressed in pesos. We can express the resulting change in national wealth as
 
 $$
-\Delta W = \underbrace {\Delta E}_{\text{Change in}} \times \underbrace {[ A_{F} - L_{F} ]}_{\text{Net international}} \tag {19-1}
+\Delta W = \underbrace{\Delta E}_{\text{Change in exchange rate}} \times \underbrace{[A_{F} - L_{F}]}_{\text{Net foreign currency position}} \tag{19-1}
 $$
 
 The expression is intuitive and revealing. After a depreciation  $(\Delta E > 0)$ , the wealth effect is positive if Foreign currency assets exceed Foreign currency liabilities (the net dollar position in brackets is positive) and negative if Foreign currency liabilities exceed Foreign currency assets (the net dollar position in brackets is negative).
@@ -426,7 +418,7 @@ Foreign Currency Denominated Debt and the Costs of Crises This chart shows the c
 
 Source: Michele Cavallo, Kate Kisselev, Fabrizio Perri, and Nouriel Roubini, "Exchange Rate Overshooting and the Costs of Floating," Federal Reserve Bank of San Francisco Working Paper Series, Working Paper 2005-07, May 2005.
 
-# TABLE 19-2
+#### TABLE 19-2
 
 Measures of "Original Sin" Only a few developed countries can issue external liabilities denominated in their own currency. In the financial centers and the Eurozone, the fraction of external liabilities denominated in foreign currency is less than  $10\%$ . In the remaining developed countries, it averages about  $70\%$ . In developing countries, external liabilities denominated in foreign currency are close to  $100\%$  on average.
 
@@ -450,7 +442,7 @@ If developing countries cannot avoid currency mismatches, they must try to cope 
 
 The lesson: in countries that cannot borrow in their own currency, floating exchange rates are less useful as a stabilization tool and may be destabilizing. Because this outcome applies particularly to developing countries, they will prefer fixed exchange rates to floating exchange rates, all else equal.
 
-# Summary
+### Summary
 
 We began the chapter by emphasizing the two key factors that influence the choice of fixed versus floating rate regimes: economic integration (market linkages) and economic similarity (symmetry of shocks). But we now see that many other factors can affect the benefits of fixing relative to floating.
 
@@ -474,7 +466,7 @@ Throughout this chapter, we have assumed that a country pegs unilaterally to a c
 
 Are these problems serious? And can a better arrangement be devised? In this section, we show that cooperative arrangements may be the answer. We study two kinds of cooperation. One form of cooperation is based on mutual agreement and compromise between center and noncenter countries on the setting of interest rates. The other form of cooperation is based on mutual agreements about adjustments to the levels of the fixed exchange rates themselves.
 
-# Cooperative and Noncooperative Adjustments to Interest Rates
+### Cooperative and Noncooperative Adjustments to Interest Rates
 
 Figure 19-11, panel (a), illustrates the possibility of policy conflict between center and noncenter countries. Suppose that Home, which is the noncenter country, experiences an adverse demand shock, but Foreign, the center country, does not. We have studied this case before in the previous chapter: the Home IS curve shifts left and the Home LM curve then must shift up to maintain the peg and ensure that the Home interest rate  $i$  is unchanged and equal to  $i^{*}$ .
 
@@ -482,7 +474,7 @@ We now assume that these shifts have already occurred, and we start the analysis
 
 Because this is a unilateral peg, only Foreign, the center country, has monetary policy autonomy and the freedom to set nominal interest rates. Home is in recession (its output  $Y_{1}$  is below its desired output  $Y_{0}$ ), but Foreign has its desired output. If Foreign makes no policy concession to help Home out of its recession, this would be the noncooperative outcome. There would be no burden sharing between the two countries: Home is the only country to suffer.
 
-# FIGURE 19-11
+#### FIGURE 19-11
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/1f807f15d4e846dd39e7691a88e97af370c3a881b85d534f74f8f4d6f008af29.jpg)
 
@@ -510,7 +502,7 @@ For example, consider the European ERM, which was effectively a set of unilatera
 
 Our main conclusion is that, in practice, the center country in a reserve currency system has tremendous autonomy, which it may be unwilling to give up, thus making cooperative outcomes hard to achieve consistently.
 
-# Cooperative and Noncooperative Adjustments to Exchange Rates
+### Cooperative and Noncooperative Adjustments to Exchange Rates
 
 We have studied interest rate cooperation. Is there scope for cooperation in other ways? Yes. Countries may decide to adjust the level of the fixed exchange rate. Such an adjustment is (supposedly) a "one-shot" jump or change in the exchange rate at a particular time, which for now we assume to be unanticipated by investors. Apart from that single jump, at all times before and after the change, the exchange rate is left fixed and Home and Foreign interest rates remain equal.
 
@@ -528,7 +520,7 @@ Now suppose that in a cooperative arrangement, Home devalues against the dollar 
 
 Why might this kind of cooperation work? Home and Foreign could agree that Home would devalue a little (but not too much) so that both countries would jointly feel the pain. Some other time, when Foreign has a nasty shock, Home would "repay" by feeling some of Foreign's pain.
 
-# FIGURE 19-12
+#### FIGURE 19-12
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/a04e21b3835413e08a02dc279c9b24259adf1bd44e4b0effceb255c00638468f.jpg)
 
@@ -556,9 +548,7 @@ This finding brings us to the main drawback of admitting noncooperative adjustme
 
 Cooperation may be most needed to sustain a fixed exchange rate system with adjustable pegs, so as to restrain beggar-thy-neighbor devaluations. But can it work? Consider continental Europe since World War II, under both the Bretton Woods system and the later European systems such as ERM (which predated the euro). A persistent concern of European policy makers in this period was the threat of beggar-thy-neighbor devaluations. For example, the British pound and the Italian lira devalued against the dollar and later the German mark on numerous occasions from the 1960s to the 1990s. Although some of these peg adjustments had the veneer of official multilateral decisions, some (like the 1992 ERM crisis) occurred when cooperation broke down.
 
-# APPLICATION
-
-# The Gold Standard
+### APPLICATION: The Gold Standard
 
 Our analysis in this section has focused on the problems of policy conflict in a reserve currency system in which there is one center country issuing a currency (e.g., the dollar or euro) to which all other noncenter countries peg. As we know from Figure 19-1, this is an apt description of most fixed exchange rate arrangements at the present time and going back as far as World War II. A key issue in such systems is the asymmetry between the center country, which retains monetary autonomy, and the noncenter countries, which forsake it.
 
@@ -594,7 +584,89 @@ A vast diversity of exchange rate arrangements have been used throughout history
 
 To try to better understand the international monetary experience and how we got to where we are today, we now apply what we have learned in the book so far. In particular, we rely on the trilemma, which tells us that countries cannot simultaneously meet the three policy goals of a fixed exchange rate, capital mobility, and monetary policy autonomy. With the feasible policy choices thus set out, we draw on the ideas of this chapter about the costs and benefits of fixed and floating regimes to try to understand why various countries have made the choices they have at different times.
 
-# The Rise and Fall of the Gold Standard
+```d2
+# The Impossible Trinity (Trilemma) Visualization
+# Shows the three policy goals that countries cannot achieve simultaneously
+
+direction: right
+
+# The three goals
+fixed_exchange: Fixed Exchange Rate {
+  shape: hexagon
+  style.fill: "#4CAF50"
+  style.stroke: "#2E7D32"
+}
+
+capital_mobility: Capital Mobility {
+  shape: hexagon
+  style.fill: "#2196F3"
+  style.stroke: "#0D47A1"
+}
+
+monetary_autonomy: Monetary Policy Autonomy {
+  shape: hexagon
+  style.fill: "#FF9800"
+  style.stroke: "#E65100"
+}
+
+# The three possible corners (choose any two)
+corner1: "Corner 1\nFixed Rate + Capital Controls\n(Sacrifice Monetary Autonomy)" {
+  shape: rectangle
+  style.fill: "#E8F5E9"
+  style.stroke: "#4CAF50"
+}
+
+corner2: "Corner 2\nFixed Rate + Monetary Autonomy\n(Sacrifice Capital Mobility)" {
+  shape: rectangle
+  style.fill: "#E3F2FD"
+  style.stroke: "#2196F3"
+}
+
+corner3: "Corner 3\nCapital Mobility + Monetary Autonomy\n(Sacrifice Fixed Rate)" {
+  shape: rectangle
+  style.fill: "#FFF3E0"
+  style.stroke: "#FF9800"
+}
+
+# Connections showing the trade-offs
+fixed_exchange -> corner1: "With capital controls"
+fixed_exchange -> corner2: "With monetary autonomy"
+capital_mobility -> corner1: "With fixed rate"
+capital_mobility -> corner3: "With monetary autonomy"
+monetary_autonomy -> corner2: "With fixed rate"
+monetary_autonomy -> corner3: "With capital mobility"
+
+# Central impossible triangle
+impossible: "Impossible Trinity\nCannot achieve all three simultaneously" {
+  shape: triangle
+  style.fill: "#FFEBEE"
+  style.stroke: "#C62828"
+}
+
+fixed_exchange -- capital_mobility
+capital_mobility -- monetary_autonomy
+monetary_autonomy -- fixed_exchange
+
+# Real-world examples
+examples: Examples {
+  style.fill: "#F5F5F5"
+  style.stroke: "#9E9E9E"
+
+  china: "China: Corner 1\n(Fixed rate, capital controls)" {
+    near: corner1
+  }
+
+  eurozone: "Eurozone: Corner 2\n(Fixed rates, monetary autonomy)" {
+    near: corner2
+  }
+
+  usa: "USA: Corner 3\n(Float, full capital mobility)" {
+    near: corner3
+  }
+}
+```
+
+### The Rise and Fall of the Gold Standard
 
 As we saw in Figure 19-1, the history of international monetary arrangements from 1870 to 1939 was dominated by one story: the rise and fall of the gold standard regime. In 1870 about  $15\%$  of countries were on gold, rising to about  $70\%$  in 1913 and almost  $90\%$  during a brief period of resumption in the 1920s. But by 1939, only about  $25\%$  of the world was pegged to gold. What happened? The analysis in this chapter provides insights into one of the grand narratives of economic history.[20]
 
@@ -624,7 +696,7 @@ In the language of the trilemma, with its three solutions or "corners," the 1930
 
 Figure 19-13 shows these outcomes. To sum up: although many other factors were important, trade gains and an absence of (or political indifference to) stability costs helped bring the gold standard into being before 1914; reduced trade gains and stability costs that were higher (or more politically relevant) help explain the ultimate demise of the gold standard in the interwar period.
 
-# Bretton Woods to the Present
+### Bretton Woods to the Present
 
 The international monetary system of the 1930s was chaotic. Near the end of World War II, allied economic policy makers gathered in the United States, at Bretton Woods, New Hampshire, to try to ensure that the postwar economy fared better. The architects of the postwar order, notably Harry Dexter White and John Maynard Keynes, constructed a system that preserved one key tenet of the gold standard
 
@@ -632,19 +704,15 @@ The international monetary system of the 1930s was chaotic. Near the end of Worl
 
 FIGURE 19-13
 
-# Policy choice
-
-# Capital controls
+#### Policy choice: Capital controls
 
 Sacrifice goal 2 to attain 3 and 1
 
-# Policy goal 3
+#### Policy goal 3
 
 Monetary policy autonomy
 
-# Policy choice
-
-# Floating exchange rate
+#### Policy choice: Floating exchange rate
 
 Sacrifice goal 1 to attain 2 and 3
 
@@ -690,7 +758,7 @@ However, other factors affect the trade-off, especially in emerging markets and 
 
 Finally, we examined exchange rate systems in theory and in practice. Over the years, fixed rate systems such as the gold standard and the Bretton Woods system have come and gone, with collapses driven, at least in part, by failures of cooperation. That leaves us today with no real international monetary "system" at all, but rather many countries, and occasionally groups of countries, pursuing their own interests and trying to make the best choice of regime given their particular circumstances. As this chapter has shown, there may be good reasons why "one size fits all" will never apply to exchange rate regimes.
 
-# KEY POINTS
+## KEY POINTS
 
 1. A wide variety of exchange rate regimes have been in operation throughout history to the present.
 2. The benefits for the home country from a fixed exchange rate include lower transaction costs and increased trade, investment, and migration with the base or center country.
@@ -701,7 +769,7 @@ Finally, we examined exchange rate systems in theory and in practice. Over the y
 
 1930s, increased isolationism, economic instability, and political realignments undermined the gold standard. After 1945 and up to the late 1960s, the Bretton Woods system of fixed dollar exchange rates was feasible, with strict controls on capital mobility, and was attractive as long as U.S. policies were not at odds with the rest of the world. Since 1973 different countries and groups of countries have gone their own way, and exchange rate regimes reflect the sovereign choice of each country.
 
-# KEY TERMS gold standard, p. 715
+## KEY TERMS
 
 base currency, p. 718 center currency, p. 718
 
@@ -715,7 +783,7 @@ cooperative arrangements, p. 740 devaluation, p. 743
 
 revaluation, p. 743 beggar-thy-neighbor policy, p. 745
 
-# PROBLEMS
+## PROBLEMS
 
 1. Using the IS-LM-FX model, illustrate how each of the following scenarios affects the home country. Compare the outcomes when the home country has a fixed exchange rate with the outcomes when the home currency floats.
 
@@ -764,10 +832,10 @@ c. If the peso depreciates to 1.2 pesos per dollar, what is the change in Home's
 
 b. In the longer run, freer trade causes the countries to follow their comparative advantage and specialize in producing very different types of goods. Does the rise in specialization make Home more or less likely to peg its currency to the Foreign currency? Why?
 
-# NET WORK
+## NET WORK
 
 Visit the International Monetary Fund's website (http://www.imf.org) and locate the latest classification of exchange rate regimes in all countries around the world. How many countries are fixing and how many are floating?
 
-# NETWORK
+## NETWORK
 
 Find the photo of the 20 gold coin on page 746 and the specifications in its caption. Calculate the U.S. dollar price of 1 ounce of gold under the pre-1913 gold standard. Now use the Internet to find details, including gold content, of a British gold sovereign coin worth £1 in the same era. Calculate the British pound price of 1 ounce of gold under the pre-1913 gold standard. Now compute the implied pound-dollar exchange rate. Check your answer against the value given in the text.

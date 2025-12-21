@@ -1,13 +1,22 @@
 ---
-parent_directory:
 title: Illiquid Banks, Financial Stability, and Interest Rate Policy
-tags:
-aliases:
-parent_folder: Financial Markets and Institutions
-subfolder:
-key_concepts:
+parent_directory: Financial Markets and Institutions 2
+formatted: 2025-12-21 05:15:00 AM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - financial stability analysis
+  - interest rate policy
+  - bank liquidity management
+  - central bank intervention
+secondary_tags:
+  - demand deposit contracts
+  - systemic financial risk
+  - monetary policy effects
+  - banking sector fragility
+  - macroeconomic stabilization
+  - lender of last resort
 cssclasses: academia
-linter-yaml-title-alias: Illiquid Banks, Financial Stability, and Interest Rate Policy
 ---
 
 # Illiquid Banks, Financial Stability, and Interest Rate Policy
@@ -40,9 +49,7 @@ Once households have deposited their initial endowment and projects have been st
 
 As households withdraw deposits to satisfy consumption needs, banks will have to call in loans to long gestation projects in order to generate the resources to pay them. The real interest rate will rise to equate the household demand for consumption goods and the supply of these goods from terminated projects. Thus greater consumption demand will lead to higher real rates and more projects being terminated. It also leads to lower bank net worth because the bank's loans pay off only in the long run and thus fall in value as real interest rates rise, while the bank's liabilities, that is, demandable deposits, do not fall in value. Eventually, if the rate rises enough, the bank may have negative net worth and experience runs, which are destructive of value because all manner of projects, including those viable at prevailing interest rates, are terminated.
 
-The fundamental problem is that demandable deposits are noncontingent promises of liquidity, which are costly to service when the aggregate demand for liquidity is high. We show in Section III that these contacts are constrained efficient given the frictions described there. A key friction is the banker's inability to commit his human capital, an agency problem that explains why bank contracts must be demandable at all times so that the banker does not renegotiate households down (see Diamond and Rajan 2001). A second friction that interacts with the first is that it takes time to observe, verify, and implement contractual contingencies flowing from the aggregate state. If demandable contracts are to be state contingent, however, their terms will need to be adjusted instantaneously whenever the state becomes known to significant segments of the depositors, for a delay will cause informed depositors to run whenever they anticipate a reduction in face value. Frequent
-
-changes in state and delays in contractual adjustments can explain why we do not see state-contingent demandable claims.<sup>1</sup>
+The fundamental problem is that demandable deposits are noncontingent promises of liquidity, which are costly to service when the aggregate demand for liquidity is high. We show in Section III that these contacts are constrained efficient given the frictions described there. A key friction is the banker's inability to commit his human capital, an agency problem that explains why bank contracts must be demandable at all times so that the banker does not renegotiate households down (see Diamond and Rajan 2001). A second friction that interacts with the first is that it takes time to observe, verify, and implement contractual contingencies flowing from the aggregate state. If demandable contracts are to be state contingent, however, their terms will need to be adjusted instantaneously whenever the state becomes known to significant segments of the depositors, for a delay will cause informed depositors to run whenever they anticipate a reduction in face value. Frequent changes in state and delays in contractual adjustments can explain why we do not see state-contingent demandable claims.<sup>1</sup>
 
 Even if a social planner cannot overcome the frictions that lead to the use of deposit contracts, there may be room for improvement if the planner can use government powers that are not available to the private sector to restore useful state contingency. The planner could, for example, expropriate household endowments at date 1 through a uniform (across households) tax after seeing the state, and transfer the proceeds to the bank. This would make the bank's resources state contingent, which would help it avoid suboptimal bank runs and liquidation.
 
@@ -62,9 +69,9 @@ In sum, then, even while central banks have become more credible on fighting inf
 
 The rest of the paper is as follows. In Section I, we lay out the basic model, in Section II, we solve it, and in Section III we describe the frictions that make demand deposits part of an optimal mechanism. In Section IV, we consider macroeconomic intervention on interest rates and its effect on ex ante choice of deposit level and asset liquidity. We then conclude.
 
-# I. The Framework
+## I. The Framework
 
-# A. Agents, Endowments, Technology, Preferences
+### A. Agents, Endowments, Technology, Preferences
 
 Consider an economy with risk-neutral entrepreneurs and bankers and risk-averse households, over three dates, 0, 1, and 2. Each household is
 
@@ -72,15 +79,9 @@ initially endowed with a unit of good at date 0. Households can invest their ini
 
 Each entrepreneur has a project, which requires the investment of a unit of goods at date 0. The project produces an uncertain amount  $\tilde{Y}_2$  in goods at date 2 if it is not liquidated, with the realization becoming known at date 1. The amount  $\tilde{Y}_2$  is distributed uniformly over the range  $[0, \tilde{Y}_2]$ . The project produces  $X_1$  at (or after) date 1 if the project is liquidated, where  $X_1$  is greater than the return on storage. Storage is a one-period constant returns to scale investment available to entrepreneurs and bankers each period. Entrepreneurs have no goods to begin with, and the demand from entrepreneurs looking for funds at date 0 is greater than household supply. Households maximize their expected utility of consumption,  $E(\log C_1 + \log C_2)$ . Risk-neutral entrepreneurs and bankers maximize  $E(C_1 + C_2)$ .
 
-# B. Financing Entrepreneurs
+### B. Financing Entrepreneurs
 
-Since entrepreneurs have no endowments, they need to borrow to invest. Each entrepreneur can borrow from a banker who has, or can acquire during the course of lending, knowledge about an alternative, but less effective, way to run the project. The banker's specific knowledge allows him to generate  $\gamma Y_{2}$  from a project that has just matured, with  $\gamma \leq 1$ . Once a banker has lent, no one else (including other bankers) can learn this alternative way to run the project.
-
-Because there are more entrepreneurs than households, not all projects are funded. Banks will lend only if entrepreneurs promise to repay the maximum possible for a loan,  $\bar{Y}_2$ , on demand. If the entrepreneur fails to pay on demand, he can make a counteroffer to the bank. If that offer is rejected, the bank takes over the project and either harvests the date 2 cash flow  $\gamma Y_2$  or liquidates the project. All financial contracts
-
-are in real terms—we assume that the central bank has achieved a credible commitment to price level stability.
-
-# C. Financing Banks
+### C. Financing Banks
 
 Since bankers have no resources initially, they have to raise them from households. But households have no collection skills, so how do banks commit to repaying households? By issuing deposits of face value  $D$ , repayable on demand. In our previous work (Diamond and Rajan 2001), we argued that the demandable nature of deposit contracts introduces a collective action problem for depositors that makes them run to demand repayment whenever they anticipate that the banker cannot, or will not, pay the promised amount. Because bankers will lose all rents when their bank is run, they will repay the promised amount on deposits whenever they can. Later we will detail plausible frictions that explain why demandable deposits are the optimal contract.
 
@@ -88,43 +89,23 @@ Deposit financing introduces rigidity into the bank's required repayments. Ex an
 
 We assume that each bank lends to enough entrepreneurs that the distribution of  $\tilde{Y}_2$  among the entrepreneurs it finances matches the aggregate distribution of entrepreneurs and there is no aggregate uncertainty about projects. Because the date 0 endowment is scarce relative to projects, banks will compete to offer the most attractive promised deposit payment  $D$  to households per unit of endowment deposited (henceforth, all values will be per unit of endowment). Since this is the face value repaid on a unit of good deposited, it is also the date 0 gross promised deposit interest rate. The time line is shown in figure 1.
 
-# II. Solving the Basic Model
+## II. Solving the Basic Model
 
-In what follows, we will start by solving the bank's decision vis-à-vis entrepreneurs at date 1, then the households' consumption and withdrawal decisions, and, finally, the bank's date 0 decision on what level of deposit repayment  $D$  to offer to maximize household willingness to deposit.
+### Date 0
 
-# Date 0
+### Date 1
 
-Banks offer deposit terms and entrepreneurs offer loan repayment terms.
-
-Households get initial   
-endowment and deposit in banks.   
-Banks lend to entrepreneurs.
-
-# Date 1
-
-Uncertainty over states, household date-2 endowments, and project outcomes revealed. Households get date-1 endowment, decide withdrawals, and consumption. Banks decide what projects to liquidate.
-
-# Date 2
-
-Projects mature, loans repaid, and deposits fully withdrawn from banks. All agents consume.
+### Date 2
 
 FIG. 1.-Time line
 
-# A. Bank Decisions Vis-à-Vis Entrepreneurs
+#### A. Bank Decisions Vis-à-Vis Entrepreneurs
 
 Let us start our analysis at date 1, once uncertainty is revealed. Let the gross interest rate (total promised return on date 2 for a unit deposit on date 1) households demand in state  $s$  for redepositing between dates 1 and 2 be  $r_{12}^{s}$ . Through much of the paper, we will focus on the situation where the date 1 interest rate exceeds the return on storage, but storage is easily handled. The bank can get  $X_{1}$  at date 1 if the project is liquidated. The maximum it can collect from an entrepreneur with project realization  $Y_{2}$  is  $\gamma Y_{2}$  at date 2, and this determines how much the entrepreneur can commit to pay at date 1. So the bank liquidates projects with  $X_{1} > \gamma Y_{2} / r_{12}^{s}$ , that is, projects with  $Y_{2} < Y_{2}^{s} = (r_{12}^{s}X_{1}) / \gamma$  and continues projects with  $Y_{2} \geq Y_{2}^{s}$  in return for a promised payment of  $\gamma Y_{2}$ . Liquidated entrepreneurs get nothing, while entrepreneurs who are continued retain  $(1 - \gamma)Y_{2}$ . The present value of the bank's assets at date 1 (before withdrawals) is  $(1 / \bar{Y}_{2})\int_{0}^{\bar{Y}_{3}}X_{1}dY_{2} + (1 / \bar{Y}_{2})\int_{\bar{Y}_{2}}^{\bar{Y}_{3}}(\gamma Y_{2} / r_{12}^{s})dY_{2}$ , which is easily shown to fall in  $r_{12}^{s}$ .
 
-# B. Household Decisions
+#### B. Household Decisions
 
-Once uncertainty is revealed at date 1, households decide how much they want to withdraw and consume so as to maximize their expected utility of consumption. If they anticipate that the bank will not be able to meet its obligations, they will collectively run on the bank, in which case all projects will be liquidated to pay households. We assume initially that households can coordinate on a Pareto preferred Nash equilibrium and thus rule out other, panic-based, runs (it will turn out that interest rate policy can help eliminate panics). We start by considering situations where the bank will meet its obligations.
-
-When a household does not withdraw all its deposit, its utility is maximized when the marginal rate of substitution between consumption at dates 1 and 2 is equal to the prevailing deposit rate,  $r_{12}^s$ , that is, when  $[U'(C_1)] / [U'(C_2)] = C_2 / C_1 = r_{12}^s$ . If household  $H$  (with high date 2 en
-
-dowment) withdraws amount  $w_{1}^{H,s}$  at date 1 then  $C_2^{H,s} / C_1^{H,s} = [e_2^H + (D - w_1^{H,s})r_{12}^s] / [e_1 + w_1^{H,s}]$ . A similar expression can be derived for household  $L$  with low date 2 endowment. For both households to have an equal marginal rate of substitution (and deposit at a common rate  $r_{12}^s$ ), it must be that  $H$  households withdraw more so that  $w_{1}^{H,s} > w_{1}^{L,s}$ .
-
-LEMMA 1. If  $r_{12}^{s} \geq e_{2}^{H} / (e_{1} - D)$ , both households leave all their money in the bank at date 1. If  $e_{2}^{H} / (e_{1} - D) > r_{12}^{s} > e_{2}^{H} / (e_{1} + D)$ , neither household withdraws fully from the banking system, but the  $H$  household withdraws more than the  $L$  household. If  $e_{2}^{H} / (e_{1} + D) \geq r_{12}^{s} > e_{2}^{L} / (e_{1} + D)$ , the  $H$  household withdraws fully, while the  $L$  household maintains some deposits. If  $e_{2}^{L} / (e_{1} + D) \geq r_{12}^{s}$ , both households withdraw fully.
-
-# C. Equilibrium
+#### C. Equilibrium
 
 Assume first that the bank can repay depositors without failing. In equilibrium, markets for goods at date 1 and date 2 have to clear. At date 1, goods are produced when banks liquidate projects. Because all banks have the same distribution of projects and will liquidate projects with  $Y_{2} < Y_{2}^{s} = r_{12}^{s}X_{1} / \gamma$ , date 1 liquidation proceeds are  $1 / \bar{Y}_2\int_0^{\bar{Y}_2^3}X_1dY_2 = [r_{12}^s (X_1)^2 ] / \gamma \bar{Y}_2$ . Because this should equal the goods consumed by withdrawing households, it must be that
 
@@ -151,30 +132,9 @@ Proof. See Appendix.
 
 Since  $H$  households have more date 2 endowment than  $L$  households, at any given interest rate they will consume (weakly) more at date 1 and, hence, will withdraw more. This means that total withdrawals will (weakly) increase in the fraction  $\theta^s$  of high endowment households, which means that the interest rate and liquidation will have to increase to equilibrate the market. Because the present value of the bank's assets decreases with  $r_{12}^s$  while the value of its deposit liabilities does not, its net worth decreases with  $\theta^s$ . Note that all these implications would also hold if households differed, not in their date 2 endowments, but in their date 1 endowments, with  $H$  households receiving a lower date 1 endowment (facing poor current conditions) and, again, expecting higher growth in marginal utility. Much of past analysis has followed Diamond and Dybvig (1983) and focused on adverse liquidity shocks that are tantamount to poor current conditions, but it is useful to remember that because consumption and interest rates depend on anticipated consumption growth, exuberant views of the future could be equally problematic from the perspective of demands for liquidity. We will focus on this latter aspect through the paper.
 
-# D. Bank Fragility and the Ex Ante Choice of Deposit Rate
+### D. Bank Fragility and the Ex Ante Choice of Deposit Rate
 
-Let us now examine each bank's choice at date 0 of the promised payment  $D$  to offer for a deposit of a unit of good. Since the market is competitive and household endowment is scarce relative to entrepreneurs' projects, price-taking banks will have to offer a  $D$  that maximizes household utility, given the properly anticipated future interest rates and actions of households, banks, and entrepreneurs.
-
-So long as the bank is not run in any state, a higher  $D$  makes households wealthier and better off. But the bank's net worth also falls by corollary 1, and for a given  $D$ , is lower in a state with higher  $\theta^s$ . When  $D$  is high enough that the bank's net worth is completely eroded in a state, the bank is run in that state—which means all projects are liquidated to generate funds to pay depositors, even though at the prevailing interest rate, some deserve to be continued. Runs are costly precisely because
-
-depositors withdraw money independent of consumption needs or the prevailing rate. Because a depositor's place in line is random, each running household gets  $D$  with probability  $X_{1} / D$  and 0 with probability  $1 - (X_{1} / D)$ .
-
-Let  $D^{\mathrm{Max}}(s)$  be the promised payment above which a run will be precipitated in state  $s$ . From our discussion above,  $D^{\mathrm{Max}}$  falls in  $s$ . If deposit repayments could be state contingent, then at date 0, the bank would offer to pay  $D^{\mathrm{Max}}(s)$  in state  $s$  at date 1. But if state-contingent demandable deposit contracts are not possible (for reasons explained in Sec. III), promised payments will have to be fixed at date 0.
-
-At date 0, the bank will choose the fixed promised payment to be among the set of  $D^{\mathrm{Max}}(s)$  where  $s \in \{\underline{s}, \dots, \bar{s}\}$ .<sup>4</sup> If the promised payment is optimally set at  $D^{\mathrm{Max}}(s^{*})$ , it will be because the bank sees a net loss in household expected utility from having a run in state  $s^{*}$  (in addition to the run in all states  $s > s^{*}$ ) by setting the promised payment higher at  $D = D^{\mathrm{Max}}(s^{*} - 1)$ , even though expected payments to households will be higher in all states  $s < s^{*}$ . This then is the basic trade-off banks face in setting  $D$  higher—commit to paying more in the less optimistic, lower-aggregate-consumption-growth states but have costly runs in more optimistic states. The higher the probability of state  $s$ , and the more costly the run, the less the desire to push  $D$  higher from  $D^{\mathrm{Max}}(s)$  to  $D^{\mathrm{Max}}(s - 1)$ . By contrast, the higher the probability of less optimistic states,  $\sum_{s=1}^{s-1} p_s$ , and the higher the increase in payout in those states,  $D^{\mathrm{Max}}(s - 1) - D^{\mathrm{Max}}(s)$ , the greater the incentive to push  $D$  higher. Let  $D^{\mathrm{Max}}(s^{*})$  be the promised deposit payout that maximizes ex ante household utility. We have lemma 2.
-
-LEMMA 2. Consider an increase in the probability of state  $s^* + k$  accompanied by an equal decrease in the probability of state  $s^* - j + k$ , where  $j$  and  $k$  are both positive integers and  $j > k$ —that is, a rightward shift in probabilities from a state less optimistic than  $s^*$  to one more optimistic. Expected household utility from lower promised deposit payments  $\{D^{\mathrm{Max}}(s^* + 1) \ldots, D^{\mathrm{Max}}(\bar{s})\}$  increases relative to expected utility from the old optimal  $D^{\mathrm{Max}}(s^*)$ , while expected utility from higher promised deposit payments,  $\{D^{\mathrm{Max}}(s^* + k - j) \ldots, D^{\mathrm{Max}}(s^* - 1)\}$ , decreases. If the probability of states  $\{\underline{s}, \dots, s^* + k - j - 1\}$  is small, the new bank-determined optimal promised payment will (weakly) decrease. Similarly, a leftward shift in probabilities will lead promises to (weakly) increase.
-
-Proof. See Appendix.
-
-The lemma suggests that higher probability weights on high consumption growth states, where liquidity is expected to be tight and
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/240d11a2-189b-49d2-8ca0-508652214807/c20270fa4f7953893fefddc5409a522c81d8664fd41b0fe17f5351b4c2969792.jpg)  
-FIG. 2.-Deposit promises for different intervention regimes
-
-interest rates high, will tend to push optimal promised payments lower. The implication is that in the absence of intervention by the authorities, banks will be more cautious about promising to supply liquidity when liquidity is scarce and the interest rate is likely to increase. Promised deposit payments are not procyclical because competition forces banks to internalize the cost of runs to their depositors.
-
-# E. Example with Comparative Statics
+### E. Example with Comparative Statics
 
 Consider an economy with two future states, low  $(\underline{s})$  and high  $(\bar{s})$ . Let  $e_1 = 0.65$ ,  $e_2^L = 0.8$ ,  $e_2^H = 2.5$ ,  $X_1 = 0.95$ ,  $\underline{Y}_2 = 0.0$ ,  $\bar{Y}_2 = 3.5$ ,  $\gamma = 0.9$ ,  $\theta^{\bar{s}} = 0.6$ , and  $\theta^s = 0.3$ . Let  $D$  be set at the maximum deposit face value with no run in either state,  $D^{\mathrm{Max}}(\bar{s})$ , which is 1.039. In the  $\bar{s}$  state, the interest rate  $r_{12}^{\bar{s}}$  is 2.15,  $H$  households withdraw 0.77, while  $L$  households withdraw 0.38. In the  $\underline{s}$  state, the interest rate  $r_{12}^s$  is 1.89, the  $H$  households withdraw 0.85, while  $L$  households withdraw 0.41. Now set  $D$  higher at  $D^{\mathrm{Max}}(\underline{s}) = 1.088$ . The bank is run in the  $\bar{s}$  state, while in the  $\underline{s}$  state, the interest rate is 1.94, the  $H$  households withdraws 0.86 while the  $L$  households withdraw 0.43.
 
@@ -184,7 +144,7 @@ with  $D$  set lower at 1.039. Note from figure 4 that the expected utility of p
 
 In sum, then, in a competitive environment, the banking system can lever up to the point where it will fail with some probability when a significant fraction of households become exuberant about the future (or pessimistic about the present). Exuberance creates more pressure for current consumption, which the economy may be too illiquid to provide. Consequently, real interest rates rise to restore equilibrium, and projects are curtailed. The more levered the banking system is to begin with, the more projects are liquidated, and higher the likelihood of systemic bank failures.
 
-# III. Optimal Contracts
+## III. Optimal Contracts
 
 Our analysis thus far takes demand deposits as given. Demand deposits allow depositors a choice of state-contingent amounts to withdraw, but in a way that could exacerbate banking system stress—deposits are firm promises of liquidity that are extremely costly to deliver when the overall demand for liquidity is high. Could the bank (or any other institution in the economy) offer contracts with better properties than deposit contracts? This section lists a set of frictions where demand deposit contracts are part of an optimal mechanism to implement constrained optimal allocations—the bank cannot do any better.
 
@@ -206,21 +166,15 @@ Could household claims be directly contingent on household type? Again, not if t
 
 In sum then, the limited commitment by the banker, slow adjustment to the state, and the unverifiability of household types all imply that the demand deposit contract is the constrained optimal contract in the absence of intervention by a social planner with powers not possessed by the private sector.
 
-# IV. Macroeconomic Intervention
+## IV. Macroeconomic Intervention
 
 We have just seen that demand deposits entailing runs are the constrained efficient contract. We now examine how a government or planner that has the ability to tax household endowments can help (or hurt), taking as given the form of the deposit contract, although allowing the bank to change its promised payments in anticipation of intervention.
 
 <sup>6</sup> If the deposit face value is set at the lowest possible desired future state-contingent present value, all revaluations would be up. But in that case, the banker would be able to negotiate depositors down to a state-contingent contract that promises a utility equivalent to the utility depositors get from the lowest state-contingent face value. To promise utility higher than this, the banker would have to set the initial face value higher than the lowest future state-contingent value (the state-contingent contract is renegotiation proof only if the utility the depositor obtains from withdrawing immediately equals the expected utility from the state-contingent payments). The face value will therefore have to be reduced in some situations.
 
-# A. The Purpose of Intervention
+### A. The Purpose of Intervention
 
-Assume initially that the planner (perhaps elected by households) wants to maximize expected household utility, subject to meeting a minimum threshold utility for the producers (the banks and entrepreneurs). If that threshold is low, the planner can be termed household friendly, which is the case we will focus on in much of this section—the detailed planner problem is laid out in the Appendix. Later, we will examine what happens when the planner might become producer friendly—when she maximizes the expected utility of producers subject to a low minimum threshold utility for households. In either case, we will assume that the planner wants to avoid the indiscriminate liquidation of entrepreneurs—the characteristic of a run—and therefore always wants to prevent runs ex post.
-
-The bank "works" thus far because the rigidity of demand deposits commits the banker ex ante to pay out. However, if a social planner intervenes in a specific bank when depositors run because the bank is insolvent, she will be unable to commit to not intervene when they run because the banker is being opportunistic. Indeed, the banker is disciplined by the collective action problem inherent in demand deposits (i.e., no depositor internalizes the destruction in value, hence the threat of a run is credible), which will be undone because the social planner will internalize the externalities that depositors ignore. The bank will no longer be able to promise more than the collateral value of its assets, and the banker will collect rents ex post. In addition, ex ante, the banker will be pressured by competition to offset the effects of the anticipated ex post intervention. He will increase the bank's commitments by promising to pay depositors even more, making everyone worse off.
-
-This is why it is helpful to constrain the extent to which the planner can intervene ex post, for example, by limiting him to making loans only to solvent banks. Indeed, to limit intervention to the minimum needed, this constraint will need to be accompanied by small (nonpecuniary) penalties imposed on borrowings by banks from the planner. We now elaborate.
-
-# B. Bailouts by the Social Planner without Commitment
+### B. Bailouts by the Social Planner without Commitment
 
 We assume the following:
 
@@ -249,7 +203,7 @@ THEOREM 2. If the social planner can tax households and transfer to banks, limit
 
 If the social planner is anticipated to intervene maximally ex post, ex ante promises by the banker do not affect the degree of intervention. A cap on  $D$  would then only preserve rents for bankers and make households worse off. Even if the social planner were to set  $D$ , anticipating her own intervention ex post she would favor the higher  $D$ .
 
-# C. Arm's Length Central Bank Lending to Banks
+### C. Arm's Length Central Bank Lending to Banks
 
 Could constraints on the social planner's ability to intervene ex post improve matters? One alternative is to allow the social planner to only make loans, not grants, with tax proceeds and only at a market interest rate (the equilibrium deposit rate) to banks that will be solvent at those rates. This could be accomplished by requiring that lending be contingent on simultaneous voluntary lending by households. We will see that small direct loans may be ineffective, but that larger loans can lower economy-wide interest rates and effectively bring insolvent (at the higher no-intervention rate) banks back to solvency. However, while arm's length lending can eliminate direct holdup by banks, banks can still obtain rents if the planner is anticipated to intervene heavily, so we may need to constrain the planner even more.
 
@@ -271,63 +225,13 @@ set at  $D^{\mathrm{Max}}(s)$  and the central bank does not intervene than if i
 
 Proof. See Appendix.
 
-# D. Interest Rate Equilibria and Interest Rate Intervention
+### D. Interest Rate Equilibria and Interest Rate Intervention
 
-Unfortunately, even under arm's length lending, the household-friendly central bank may be coerced by market expectations to lower the interest rate below the level that makes the banks just solvent, leaving rents for the banker at the expense of households. This is because interest rates are endogenous and depend on the extent to which the central bank is anticipated to intervene. Specifically, suppose all believe that the central bank will tax and lend the entire date 1 household endowment even if this is more than needed to restore solvency. The deposit market will then clear at interest rates that are the lowest feasible given anticipated central bank intervention, and the central bank will have to fulfill expectations or see banks run. Each banker will enjoy rents (because the bank is more than solvent at that low rate).
+### E. Discussion of Ex Post Intervention
 
-Put differently, if excess intervention is anticipated (multiple equilibria are now possible based on the extent to which intervention is anticipated), households will lend at a commensurate low rate so long as the central bank is expected to lend the necessary quantity to make that rate the equilibrium. Each banker has an implicit threat to suffer a run by not attracting sufficient deposits to meet withdrawals if the central bank does not come through.[11] The central bank's rule that it lends only at the market rate to solvent banks will not suffice to commit it to be household friendly. The banker gets a rent that rises as the equilibrium interest rate falls, even though bankers, who are price takers in the deposit market, make no explicit threats.
+### F. Ex Ante Promises
 
-If, however, the central bank introduces a small nonpecuniary cost,
-
-11 Since  $b_1^s \leq e_1$ , the lowest feasible interest rate is the maximum of the storage rate and the interest that would prevail without such a floor and with  $b_1^s = e_1$ . The latter interest rate is obtained by solving
-
-$$
-\frac{e_{2}^{L} + b_{1}^{s} r_{1 2}^{s , i} + (D - w_{1}^{L , s , i}) r_{1 2}^{s , i}}{e_{1} - b_{1}^{s} + w_{1}^{L , s , i}} = r_{1 2}^{s, i}
-$$
-
-and
-
-$$
-\theta^{s} D + (1 - \theta^{s}) w_{1}^{L, s, i} = \frac{r_{1 2}^{s , i} (X_{1})^{2}}{\gamma \tilde {Y}_{2}} + b_{1}^{s}
-$$
-
-for  $\{r_{12}^{s,i},w_1^{L,s,i}\}$  if there is a solution with  $w_{1}^{L,s,i} < D$  or solving
-
-$$
-D = \frac{r_{1 2}^{s , i} (X_{1})^{2}}{\gamma \bar {Y}_{2}} + b_{1}^{s}
-$$
-
-for  $r_{12}^{s,i}$  if there is not. In the first case, the social planner's intervention does not force the interest rate so low that the  $L$  household withdraws totally from the system; in the latter case, it does.
-
-$\delta$ , of borrowing every additional dollar from it, over and above the market-established deposit rate, the unique ex post equilibrium will be the rate preferred by the household-friendly central bank.[12] Here is why.
-
-Banks are price takers in the deposit market, and given the discrete additional nonpecuniary cost of borrowing from the central bank, will always prefer to exhaust the deposit market before turning to the central bank. So if banks are solvent without intervention, the equilibrium interest rate bid for deposits will be the no-intervention market clearing rate, and no banks will borrow from the central bank. Intuitively, if the equilibrium deposit rate were any lower, thus requiring some borrowing from the central bank, a banker would have the incentive to deviate and bid the deposit rate up rather than pay the higher all-in cost for central bank loans.
-
-Following similar logic, the equilibrium deposit rate when banks are insolvent in the absence of intervention is the rate at which they are just solvent, and each bank will borrow just enough from the central bank to bridge the gap in its funding needs. Even though banks have to borrow from the central bank and incur the nonpecuniary cost, no bank can substitute for central bank funds by raising the rate it pays depositors, for it will become insolvent and not attract any deposits.
-
-LEMMA 5. Let solvent banks be able to borrow from the central bank, with bankers paying a nonpecuniary markup  $\delta$  to the private market deposit rate. If banks are solvent at the no-intervention rate, the interest rate that will be bid on deposits will be the no-intervention equilibrium interest rate and no funds will be borrowed from the central bank. If banks are insolvent at the no-intervention rate and the central bank can borrow and lend endowments to lower interest rates enough to rescue them, the interest rate that will be bid on deposits will be the maximum rate that renders banks just solvent, and bankers will enjoy no rents.
-
-# E. Discussion of Ex Post Intervention
-
-We saw that the key to intervening without undoing the private commitment inherent in demand deposits is to require that the central bank only make arm's length loans, not grants, to solvent banks. This however, can result in a multiplicity of equilibria, some of which result in excess intervention and additional rents for the banks. The central bank can, however, eliminate multiplicity and ensure that the unique equilibrium is the household-friendly one where it lowers rates only if the banks are insolvent and, even so, only to the point at which banks are just solvent.
-
-It does this by creating a small additional nonpecuniary cost for bankers of borrowing every additional dollar from the central bank. This ensures that banks exhaust the private deposit market before they turn to the central bank.
-
-Bagehot's dictum to central banks, to lend freely but at a penal rate—which presumably means lending at a pecuniary markup to the market rate—achieves only some of what our nonpecuniary penalty achieves. If the system is solvent without central bank intervention, banks will indeed bid the deposit rate up to the no-intervention equilibrium rate, for the reasons described above. However, if the system is insolvent without intervention, there will be no equilibrium in which the central bank can restore solvency. Here is why: suppose there is one. This will entail some bank borrowing from the central bank. But any bank will have an incentive to deviate, pay a little more in the deposit market, and substitute entirely for central bank borrowing. This means that the deposit rate will be driven up to the point where a bank will be just solvent if it can get sufficient funds from the deposit market at that rate to meet its needs. But if this is the equilibrium deposit rate, there will be insufficient funds in the private deposit market at that rate for all banks, so banks will have to borrow some funds from the central bank at the penal rate. This, however, will render them insolvent.[13] Arm's length lending by the central bank with a nonpecuniary penalty results in effective interest rate intervention, allowing it to implement the ex post socially optimal household-friendly policy.
-
-# F. Ex Ante Promises
-
-Let us turn finally to how anticipation of interest rate intervention will affect date 0 promises. If the banker knows that the central bank will drive rates lower, he has an incentive to set promised payments higher to attract depositors. There is an externality here. Each banker sets deposit rates considering only the benefits their depositors will get from higher promised payments—equally, in choosing a higher offered payment, depositors ignore the effect of the increased promise on the loans they, as taxpayers, will have to provide to the bank in the future, because
-
-loans to a specific bank are small when averaged across all taxpayers. Of course, when every bank does this, the cost to the taxpayer, aggregated across all banks, is high.
-
-Let  $D^{\mathrm{Max}}(s)$  be the maximum deposit promises the bank can service at date 1 without a run in state  $s$  if the central bank is anticipated to reduce the rate to the lowest possible level. Clearly  $D^{\mathrm{Max}}(s) \geq D^{\mathrm{Max}}(s)$ . The promised deposit payment depends on how the central bank determines date 1 rates. One possibility is that the central bank sees every bank as too important to fail. If so, the unique equilibrium is that every bank will choose the same  $D^{\mathrm{Max}}(s^{*}) \in \{D^{\mathrm{Max}}(s), \dots, D^{\mathrm{Max}}(s)\}$  to maximize expected household utility, taking equilibrium central bank intervention as given. The central bank will not be able to prevent runs for  $s > s^{*}$ , the central bank will intervene maximally to just keep the system solvent if  $s = s^{*}$ , while it will intervene less to keep the system solvent (or not intervene at all if the system is solvent) if  $s < s^{*}$ .
-
-Another possibility is that the central bank will intervene to lower rates only if sufficient banks pick deposit levels that would render them insolvent if interest rates are not reduced (a "too many to fail," or strategic complementarity response). In that case, multiple equilibria are possible for promised deposit payments, one of which is the too important to fail level. This possibility is also emphasized in both Acharya and Yorulmazer (2007) and Farhi and Tirole (2012).
-
-In contrast to the situation with ex post bailouts, the ex ante socially optimal promised deposit payment, anticipating interest rate intervention, is (weakly) lower than what would be set by banks if they know they are too important to fail. The central bank not only internalizes the cost to households of ex post intervention but also, because the extent of the intervention varies with the promised deposit payment, it would set deposit promises lower than would the market. Indeed, following lemma 4, the central bank would never set promised payments outside the interval  $[D^{\mathrm{Max}}(\bar{s}), D^{\mathrm{Max}}(\underline{s})]$ , though because runs are averted, it would set it (weakly) higher than the no-intervention level.
-
-# G. Example (Continued)
+### G. Example (Continued)
 
 First, consider the effects of central bank arm's length lending with no penalty (this case is termed "unconstrained lending" in the figures). Market expectations can now drive outcomes. If the central bank is expected to borrow  $e_1$  and lend to the maximum extent possible to banks, competitive banks will promise even more at date 0. If the probability of state  $\bar{s}$  is below 0.017 (see the solid line in fig. 2) banks choose  $D = D^{\mathrm{Max}I}(\underline{s}) = 1.16$ , which ensures that even the authorities cannot tax and lend enough to save the banking system in the state  $\bar{s}$ . Clearly, as figure 3 suggests, the households are worse off (than with no interven-
 
@@ -345,7 +249,7 @@ has to impose an additional nonpecuniary penalty reduces bank incentives to set 
 
 In figures 2-4, we also plot the promised deposit payments, household utility, and producer utility under interest rate intervention when the central bank rather than the banker sets promised deposit payments up front. Deposit promises are (weakly) higher than with no intervention, but lower than with unconstrained lending. Because payouts are effectively more state contingent than with no intervention, household expected utility goes up (see fig. 3). Finally, because interest rate intervention allows better state contingency and higher ex ante promises, producer rents are typically lower than with no interest rate intervention (see fig. 4).
 
-# H. Producer-Friendly Central Bank
+### H. Producer-Friendly Central Bank
 
 Thus far, we have assumed that the central bank is household friendly—it maximizes household utility provided a (low) minimum threshold utility is met for producers. What if the central bank could become producer-friendly at date 1—for example, if it is leaned on by producer-friendly politicians?
 
@@ -355,75 +259,23 @@ date 1 rate possible, which both banks and entrepreneurs prefer. However, if res
 
 Ex ante though, a permanently producer-friendly central bank, unlike the household-friendly central bank in similar circumstances, will want to curb ex ante bank liquidity promises drastically, since it recognizes that higher promises result in higher date 1 liquidation and higher rates that entrepreneurs and banks dislike.[14] Thus it might try to reduce deposit promises through some kind of ex ante leverage limit or, equivalently, a capital requirement. In our model, such regulations could hurt households. However, there are many ways banks can hide liquidity promises—raising funding through off-balance sheet vehicles that come back on balance sheet in times of stress, for example. If the extent of ex ante promises is hard to observe, ex ante regulation may not be effective. We now describe one more way ex ante liquidity promises may be hard to regulate before suggesting a potential resolution.
 
-# V. Improving Ex Ante Incentives
+## V. Improving Ex Ante Incentives
 
-# A. Ex Ante Liquidity Choice
+### A. Ex Ante Liquidity Choice
 
-Regulating bank liabilities alone may be ineffective because banks may react to expectations of low rates by reducing the liquidity of their assets. To see this, consider an extension of the model focusing on the liquidity of the bank's portfolio.
+### B. Intervention to Raise Rates
 
-Let the liquidity of a project portfolio be given by a factor  $Z \geq 1$ , whereby portfolios pay  $Y_{2} / Z$  in goods at date 2 if the project is not liquidated, and  $ZX_{1}$  at (or after) date 1 if the project is liquidated. Thus more liquid portfolios have a greater liquidation value, while sacrificing long-run returns. Suppose that the bank has a choice between two assets with liquidity  $Z_{1}$  and  $Z_{2}$ , respectively, with  $Z_{1} < Z_{2}$ . Suppose that the liquid asset is preferred by households as of date 0. This will
+### C. Discussion
 
-be true if the unconditional probability of being a high type is large and  $e_2^H$  is large (implying a high value of consumption on date 1). Given  $D$ , how do date 1 rates affect liquidity choice?
+### D. Generalizations and Possible Extensions
 
-A banker will choose the liquidity of his portfolio, taking future state-contingent interest rates as given, to maximize his residual claim. The total value (at date 1) of the bank's assets in state  $s$  is
-
-$$
-\frac{Z}{\bar {Y}_{2}} \left[ \int_{0}^{Y_{2} (r_{1 2}^{*})} X_{1} d Y_{2} + \frac{\gamma}{Z r_{1 2}^{s}} \int_{Y_{2} (r_{1 2}^{*})}^{\bar {Y}_{2}} Y_{2} d Y_{2} \right] \equiv V_{1} (r_{1 2}^{s}, Z).
-$$
-
-It is easily seen that  $\partial V_1 / \partial r_{12}^S\partial Z > 0$ , that is, a higher prospective date 1 interest rate makes it more valuable to have a more liquid project portfolio.
-
-After refinancing deposits and meeting withdrawals at date 1, the date 2 value of the banker's claim is  $E[\max \{r_{12}^{S}(V_{1}(r_{12}^{S}, Z) - D), 0\}]$  and the banker chooses  $Z$  to maximize it. It is easily shown that there is an interest rate  $r_{12}^{IC}$  whereby the banker prefers, ex post, the portfolio with asset liquidity  $Z_{1}$  in state  $s$  iff  $r_{12}^{S} < r_{12}^{IC}$ . As a result, anticipated rate reductions that reduce interest rates below  $r_{12}^{IC}$  in a sufficient number of states will cause banks to choose the more illiquid portfolio with  $Z = Z_{1}$ .
-
-Even interventions that merely reduce interest rates to prevent bank insolvency can cause banks to prefer to be illiquid. The intuition is as follows. As we have seen, intervention causes banks to set  $D$  higher. A higher  $D$  reduces the maximum interest rate at which the bank is solvent. By reducing interest rates in high  $\theta$  states to make the bank just solvent (zero equity value), the authorities make the value of the banker's claim depend only on the low interest rates states where the bank's residual value is substantial. The banker chooses ex ante liquidity to maximize value only conditional on the low  $\theta$  states where his stake is in the money, and if this occurs primarily when  $r_{12}^{S} < r_{12}^{IC}$ , the banker will choose lower liquidity than if there was no intervention and, in anticipation,  $D$  was set lower.
-
-The broader point is that more illiquid assets effectively increase a bank's claim on date 1 liquidity, much as deposit promises do. We have already argued that deposit promises may be hard to regulate. The liquidity of assets may be even harder to regulate (the fraction of liquid cash on a bank's balance sheet is easy to monitor but it is only a small part of its overall liquidity position). This then suggests that concerned central banks should focus on altering bank incentives through ex post actions. Fortunately, they have an additional tool: raising rates.
-
-# B. Intervention to Raise Rates
-
-The central bank can raise rates by essentially reversing the earlier mechanism to reduce rates; if (i) it can sell claims against date 2 taxes (i.e., sell government bonds) and transfer the receipts to households at date 1, (ii) it taxes household endowments at date 2 to repay bonds, (iii) the no-intervention date 1 equilibrium interest rate is low enough (and date 2 endowments different enough) that at least the  $H$  household withdraws its deposits entirely from the banking system in the absence of intervention.
-
-This intervention works as follows. Because the marginal rate of substitution of the  $H$  household, prior to intervention, is higher than the pre-intervention market interest rate (which is why  $H$  households withdraw all deposits),  $H$  households would fully consume any additional date 1 resources they are given. By contrast,  $L$  households would not change consumption if the interest rate did not change. But this would mean that overall consumption would be higher than without intervention, which would require a higher market interest rate to clear the date 1 goods market and draw forth the necessary amount of liquidation. So it must be that in the new postintervention equilibrium, the interest rate is higher,  $L$  households consume less at date 1 than in the no-intervention equilibrium (so that their new marginal rate of substitution equals the higher interest rate), while  $H$  households consume more.
-
-LEMMA 6. If the prevailing no-intervention equilibrium has  $w_{1}^{H,s} = D$ , then the central bank selling bonds to the bank (or  $L$  households) and paying the collected resources to households (with date 2 repayment of bonds financed by date 2 taxes on households) will increase the interest rate, decrease bank net worth, and increase project liquidation.
-
-Households are better off when rates that can be increased are indeed increased, because it both improves the payoff to depositing as well as narrows the gap between marginal rates of substitution across households, thus making the interest rate a better measure of the representative household's marginal rate of substitution. Ex post, only a household-friendly central bank can be relied upon to raise rates when feasible (the producer-friendly central bank will not do so). Ex ante, if the household-friendly central bank is expected to raise rates sometimes when the system is solvent, the banking system will make lower promises of liquidity, holding more liquid assets or reducing the promises it makes to depositors. This will move the system toward the central bank's social optimum.
-
-# C. Discussion
-
-Summarizing our analysis, a central bank that promises to cut interest rates conditional on stress or that is biased toward low interest rates favoring entrepreneurs and banks will induce banks to promise higher payouts or take more illiquid projects. This in turn can make the illiquidity crisis more severe and require a greater degree of intervention, a view reminiscent of the Austrian theory of cycles. According to this theory (Rothbard 2008, 11) the conditions for a crisis are put in place because "businessmen were misled by bank credit inflation to invest too much in higher-order capital goods [i.e., illiquid investment projects that take a long time to mature]… . Businessmen were led to this error by the credit expansion and its tampering with the free-market rate of interest."
-
-Bank credit inflation is, in turn, caused by an extremely accommodative central bank. The immediate trigger for the crisis is that (Rothbard 2008, 11) "new money percolates downwards from the business borrowers to the factors of production in wages, rents, and interest… . People will rush to spend the higher incomes … and demand will shift from the higher to the lower orders [i.e., from long dated capital projects to consumption goods]. Capital goods industries will find that their investments have been in error… . Higher orders of production have turned out to be wasteful, and the malinvestment must be liquidated."
-
-While the Austrian view seems to rely on banks that are excessively optimistic, our model can produce crises with rational optimizing banks. The point we make is quite general and transcends the specifics of the model. Private sector actions, such as financing with ex ante fragile demandable debt, have a purpose. The prospect of government intervention to prevent great societal losses can not only influence those actions—a point that is well understood in the literature—but also undermine their purpose. In order to prevent an escalating, and ultimately unproductive, sequence of anticipated intervention and response, authorities may want to commit to much more constrained intervention that respects the private sector purpose—for instance, undirected interest rate intervention may dominate more direct recapitalizations or lender of last resort loans to banks.
-
-However, even with undirected interest rate intervention, competitive banks may have an incentive to make excessive promises of liquidity—either by promising depositors too much or by lending to excessively illiquid projects—because they do not internalize the costs of the intervention to taxpayers. Ex ante regulation to prevent such promises may not be effective. This is why central banks may want to offset the incentive effects of their inevitable and politically irresistible need to
-
-reduce rates when the banking system is in trouble (a form of time inconsistency identified by Bagehot [1873]) by raising rates more quickly when they have the economic and political space to do so in normal times. Indeed, a central bank that is constituted to be household friendly in the context of our model will have the incentive to do so. Developing such credibility may require shielding the central bank from producer influences.
-
-# D. Generalizations and Possible Extensions
-
-The specifics of our model can be generalized. The authorities need not force households to lend their endowment; any tax that households cannot avoid will do. For instance, expansionary interest rate policy by the central bank could be thought of as a combination of a seigniorage tax and lending to banks (offset eventually by contractionary policy). Alternatively, the authorities could simply cut back public spending temporarily (which effectively reduces household endowments) to generate the resources to lend to banks, and these cutbacks could be reversed in the future when banks repay loans. Similarly, policies to raise rates could involve additional spending at date 1, financed by government bond issuances, and cutbacks in the future. All these interventions are a combination of what is traditionally monetary and fiscal policy, because we focus not just on central bank actions but also where they get real resources from.
-
-Also, the nature of bank moral hazard can be altered (see Diamond 2004). Instead of renegotiating down debt claims by threatening to withdraw its human capital, the bank can threaten to take, or actually take, actions that undermine the ability of investors to collect from it—for instance, by choosing low portfolio liquidity. The model can then be interpreted as including the shadow financial system (not just banks), where illiquid assets are funded by short-term debt other than demand deposits.
-
-We could also ask why the government does not simply hand over claims at date 0 on taxable household endowments to the households, so that they can trade and write contingent contracts, so as to replicate some version of optimal interest rate policy with full commitment. One reason is that the government needs to retain future taxation authority to stop very bad things from happening—for instance, to stop panics or finance military defense to deter invasions. In the current model, the central bank's ability to conduct interest rate policy eliminates the possibility of sunspot-based panic runs. This is much like deposit insurance in the Diamond and Dybvig (1983) model with no uncertainty, where taxation is off the equilibrium path and the state usually retains some unused taxation authority so that it can prevent runs. Also, taxing
-
-all future endowment all of the time would lead to unneeded distortions and would also give households the incentive to hide endowments from the government. Finally, fixed costs of intervention would again suggest intervening only when the benefits are high rather than all the time.
-
-We have assumed throughout the paper that household endowments are independent of lending activity. An important extension would be to relate future endowments to the fraction of long dated projects that are allowed to continue, as in Diamond and Rajan (2005). On the one hand, project liquidation would reduce future household endowments and thus moderate the immediate demand for consumption. On the other hand, to the extent that liquidation set off financial panics as in Diamond and Dybvig (1983), it could create its own momentum for liquidity.
-
-# E. The Financial Crisis of 2008-9
+### E. The Financial Crisis of 2008-9
 
 Ours is not intended as a model of the world financial crisis of 2008-9 (see Diamond and Rajan [2005, 2009] for more direct analysis). However, the perverse effects of anticipated low interest rates that we focus on do help us understand the build-up of illiquidity and leverage that contributed to the 2008-9 crisis. Indeed, there has been empirical work discussing the responsibility of low short-term interest rates in the United States from 2003 to 2006 (which were persistently below the level suggested by some versions of the Taylor rule), as well as the "Greenspan Put" (which we interpret as promising to maintain the low interest rates if the financial system comes under ex post stress) for the crisis (see Ioannidou, Ongen, and Peydró 2009; Maddaloni and Peydro 2010).
 
-# VI. Conclusion
+## VI. Conclusion
 
-Our analysis shows why the structure of banks may necessitate ex post interest rate intervention, which may be better than the alternatives, but anticipation of persistently low short-term interest rates can lead to socially excessive short-term leverage and incentives to hold excessively illiquid assets relative to social optima. Even if regulatory liquidity and capital requirements constrain bank actions ex ante, unregulated parts of the financial system could benefit by setting up special vehicles that replicated bank structures. Rather than relying on ex ante regulation of banks, central banks may want to improve financial sector incentives to curtail promises of liquidity by raising interest rates in normal times more than strictly warranted by market conditions—central banks may need an additional form of credibility than just being averse to inflation. While our entire model is couched in terms of real goods, we hope in
-
-future work to describe monetary implications, as well as explore the dynamic implications.
-
-# Appendix
+## Appendix
 
 Why Demand Deposits Are the Constrained Optimal Contract
 
@@ -441,9 +293,7 @@ $$
 
 This is a standard problem equivalent to optimal competitive consumption, production, and risk sharing with complete markets (subject to the ability to commit to make payments). It is easily shown that the solution to this maximization problem is to equate the marginal utilities of each type of household in each state. Thus  $V_{1}^{H,s} = V_{1}^{L,s}$  and  $V_{2}^{H,s} = V_{2}^{L,s} - (e_{2}^{H} - e_{2}^{L})$ . So we achieve perfect risk sharing. Also it is optimal to choose  $Y^{s}$  such that the marginal rate of transformation of date 2 consumption to date 1 consumption goods, which equals  $\gamma Y^{s} / X_{1}$ , is equated to the common marginal rate of substitution of the households. We refer to the solution as the first-best allocation.
 
-We impose a number of additional constraints that prevent the planner from
-
-achieving this outcome. To see how these will work, we add constraints in sequence.
+We impose a number of additional constraints that prevent the planner from achieving this outcome. To see how these will work, we add constraints in sequence.
 
 (A1) Assume, as in Diamond and Rajan (2001), that only the bank can collect the loan, and the banker can threaten credibly at any point in time to not collect the loans he has made unless the households agree to a lower value of payments.
 
@@ -607,7 +457,7 @@ $$
 
 because if the bank is just solvent after withdrawals, the present value of the bank  $= (1 - \theta)(D - w_{1}^{L,s}) + t < D - w_{1}^{L,s} + t$ . What about the  $H$  household? With lower  $D$ , and compensation for taxes at a rate that is less than its marginal rate of substitution, it is worse off. So households are worse off if  $D$  is set above  $D^{\mathrm{Max}}(s)$  and the planner intervenes to restore solvency.
 
-# References
+## References
 
 Acharya, Viral, and Tanjul Yorulmazer. 2007. "Too Many to Fail: An Analysis of Time-Inconsistency in Bank Closure Policies." J. Financial Intermediation 16 (1): 1-31.  
 Allen, Franklin, Elena Carletti, and Douglas Gale. 2009. "Interbank Market Liquidity and Central Bank Intervention." J. Monetary Econ. 56 (July): 639-52.  

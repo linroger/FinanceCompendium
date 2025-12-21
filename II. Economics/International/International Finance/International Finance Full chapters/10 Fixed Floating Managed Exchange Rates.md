@@ -1,61 +1,50 @@
 ---
-aliases:
-- Fixed Floating Managed Exchange Rates
-tags: null
-key_concepts: null
-parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 10: Fixed Floating Managed Exchange Rates'
-linter-yaml-title-alias: 'Chapter 10: Fixed Floating Managed Exchange Rates'
+title: "Chapter 10: Fixed Floating Managed Exchange Rates"
+parent_directory: "International Finance Full chapters"
+formatted: 2025-12-21 05:15:00 PM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
 primary_tags:
-- floating look economic rationale
-- exchange rate flexibility chapter
-- determining choice exchange rate
+  - exchange rate regimes
+  - fixed exchange rates
+  - floating exchange rates
 secondary_tags:
-- floating managed exchange rates
-- exchange rate regimes case
-- single currency optimal
-- currency area theory attempts
-- compared xed exchange rates
-- designed limit exchange rate
-tags_extracted: '2025-12-18T01:33:05.791872'
+  - managed floating
+  - optimum currency area
+  - balance of payments
+  - monetary autonomy
+  - exchange rate stability
+  - international trade
+  - macroeconomic policy
+cssclasses: academia
 ---
 
-# CHAPTER 10
+# Chapter 10: Fixed Floating Managed Exchange Rates
 
-## FIXED, FLOATING AND MANAGED EXCHANGE RATES
+## Fixed, Floating and Managed Exchange Rates
 
 CHAPTER OUTLINE
 
-10.1 Introduction
+## 10.1 Introduction
 
-10.2 Te case for !xed exchange rates
+## 10.2 The case for fixed exchange rates
 
-10.3
-Te case for floating exchange rates
-10.4
-Te modern evaluation of !xed and flexible exchange rate regimes
-10.5 Speci!cation of the objective function
-10.6 Te model
+## 10.3 The case for floating exchange rates
+## 10.4 The modern evaluation of fixed and flexible exchange rate regimes
+## 10.5 Specification of the objective function
+## 10.6 The model
 
-10.7 Determining equilibrium
-10.8 Money demand shock
-10.9 Aggregate demand shock
-10.10 Aggregate supply shock
+## 10.7 Determining equilibrium
+## 10.8 Money demand shock
+## 10.9 Aggregate demand shock
+## 10.10 Aggregate supply shock
 
-10.11
-Managed floating
-10.12 Conclusions
+## 10.11 Managed floating
+## 10.12 Conclusions
 
 10.1 INTRODUCTION
 
-Prior to the move to generalized floating in 1973, the adoption of floating exchange rates had long been
-
-advocated by eminent economists such as Milton Friedman (1953), Egon Sohmen (1961) and Harry Johnson
-
-(1969). However, the experience with floating rates has not been the panacea that many advocates had
-
-presupposed, and this has led many economists to propose schemes designed to limit exchange rate flexibility.
+Prior to the move to generalized floating in 1973, the adoption of floating exchange rates had long been advocated by eminent economists such as Milton Friedman (1953), Egon Sohmen (1961) and Harry Johnson (1969). However, the experience with floating rates has not been the panacea that many advocates had presupposed, and this has led many economists to propose schemes designed to limit exchange rate flexibility.
 
 In this chapter, we will examine the traditional and more recent arguments for and against !xed and floating
 
@@ -109,107 +98,30 @@ where 19 of its member countries with 19 di$erent currencies have formed the eur
 
 has one currency, the euro, to serve those 19 countries. What is the optimum number of countries that
 
-should join the euro and what criteria should be used to evaluate the suitability of a prospective member
+should join the euro and what criteria should be used to evaluate the suitability of a prospective member for joining the euro? Indeed, is a single currency optimal only for one country, a group of countries or all countries of the world? Determining a set of criteria to determine which countries should participate
 
-for joining the euro? Indeed, is a single currency optimal only for one country, a group of countries or
-
-all countries of the world? Determining a set of criteria to determine which countries should participate
-
-in a monetary union has been the subject matter of optimal currency area theory. In the literature on
-
-the subject there is no single set of criteria which is generally agreed upon, and for excellent surveys the
-
-reader is referred to Tavlas (1993) and Bayoumi and Eichengreen (1994). Nonetheless, it is worthwhile
-
-to review briefly some of the criteria that have been suggested for determining which countries should
+in a monetary union has been the subject matter of optimal currency area theory. In the literature on the subject there is no single set of criteria which is generally agreed upon, and for excellent surveys the reader is referred to Tavlas (1993) and Bayoumi and Eichengreen (1994). Nonetheless, it is worthwhile to review briefly some of the criteria that have been suggested for determining which countries should
 
 join a monetary union:
 
-   - **Degree of factor mobility internationally.** Mundell (1961) proposed that the higher the degree
-	 - f factor mobility between countries, then the more bene!cial a monetary union would be
-between them. Te rationale behind this criterion is that if a country is in a monetary union
-and faces a fall in demand for its goods, which pushes its balance of payments into de!cit, high
-capital mobility will enable it to !nance its de!cit more easily without the need for an exchange
-rate depreciation. In addition, high labour mobility will mean that de!cit regions can deflate
-their economies without fear of a large increase in unemployment since labour can migrate to
+   - **Degree of factor mobility internationally.** Mundell (1961) proposed that the higher the degree of factor mobility between countries, then the more beneficial a monetary union would be between them. The rationale behind this criterion is that if a country is in a monetary union and faces a fall in demand for its goods, which pushes its balance of payments into deficit, high capital mobility will enable it to finance its deficit more easily without the need for an exchange rate depreciation. In addition, high labour mobility will mean that deficit regions can deflate their economies without fear of a large increase in unemployment since labour can migrate to other countries within the union. Conversely, if factor mobility is low, then an exchange rate depreciation is required to eliminate the deficit and maintain employment levels, and hence a monetary union would be undesirable.
 
-	 - ther countries within the union. Conversely, if factor mobility is low, then an exchange rate
-depreciation is required to eliminate the de!cit and maintain employment levels, and hence a
-monetary union would be undesirable.
+   - **Degree of financial integration.** This is connected with the degree of factor mobility mentioned above, but is specifically concerned with the ability of a country to gain access to external finance. If a country has a high degree of financial integration with other countries, then it will be more able to finance its deficits and be less dependent on exchange rate changes. A small variation in its interest rates will attract the necessary capital flows to finance imbalances. If countries are financially integrated then a single currency is a more feasible option than in the absence of such integration.
+   - **Degree of openness.** McKinnon (1963) has argued that the more open the economy, as measured by the size of its tradables relative to its non-tradables sector, the more profitable it is to join a currency union. The rationale is that if the economy has a large tradables sector it will be much more vulnerable to inflation from a depreciating currency and unemployment from an appreciating currency and therefore the less desirable the exchange rate changes will be. Indeed, the more important that trade is for the country, the more potential it will have to benefit from the introduction of a single currency with its major trading partners. Also, the more open the economy is, the higher are the adjustment costs associated with changes in the exchange rate.
 
-   - **Degree of $nancial integration.** Tis is connected with the degree of factor mobility
-mentioned above, but is speci!cally concerned with the ability of a country to gain access to
-external !nance. If a country has a high degree of !nancial integration with other countries,
-then it will be more able to !nance its de!cits and be less dependent on exchange rate
-changes. A small variation in its interest rates will attract the necessary capital flows to !nance
-imbalances. If countries are !nancially integrated then a single currency is a more feasible
+   - **Degree of product diversification.** Kenen (1969) has suggested that the more diversified a country's range of exports and imports, the more it will benefit from monetary union. A diversified economy means less variability in its export earnings and import expenditure and more stability for its balance of payments. Accordingly, there will be less need to resort to exchange rate changes. If, however, it has only a few export products it may experience much greater variability in its export earnings and will be more dependent upon exchange rate changes to maintain external equilibrium.
 
-	 - ption than in the absence of such integration.
-   - **Degree of openness.** McKinnon (1963) has argued that the more open the economy, as
-measured by the size of its tradables relative to its non-tradables sector, the more pro!table it
-is to join a currency union. Te rationale is that if the economy has a large tradables sector it
-will be much more vulnerable to inflation from a depreciating currency and unemployment
-from an appreciating currency and therefore the less desirable the exchange rate changes will
-be. Indeed, the more important that trade is for the country, the more potential it will have to
+   - **Degree of similarity of inflation rates.** The idea underlying this criterion is fairly straightforward. If countries have similar inflation rates then PPP theory suggests that there is no need for exchange rate changes and hence a monetary union is more feasible, whereas if the countries have widely divergent propensities to inflate, then floating exchange rates become necessary to ensure that the relatively high inflation countries maintain their international competitiveness.
 
-230
-
-Fixed, Floating and Managed Exchange Rates
-
-bene!t from the introduction of a single currency with its major trading partners. Also, the
-
-more open the economy is, the higher are the adjustment costs associated with changes in the
-
-exchange rate.
-
-   - **Degree of product diversi$cation.** Kenen (1969) has suggested that the more diversi!ed
-a country's range of exports and imports, the more it will bene!t from monetary union. A
-diversi!ed economy means less variability in its export earnings and import expenditure and
-more stability for its balance of payments. Accordingly, there will be less need to resort to
-exchange rate changes. If, however, it has only a few export products it may experience much
-greater variability in its export earnings and will be more dependent upon exchange rate
-changes to maintain external equilibrium.
-
-   - **Degree of similarity of inflation rates.** Te idea underlying this criterion is fairly
-straightforward. If countries have similar inflation rates then PPP theory suggests that there is
-no need for exchange rate changes and hence a monetary union is more feasible, whereas if the
-countries have widely divergent propensities to inflate, then floating exchange rates become
-necessary to ensure that the relatively high inflation countries maintain their international
-competitiveness.
-
-Even if we ignore numerous criticisms that can be made of the individual criteria – see the surveys by
-
-Tower and Willett (1976), Ishiyama (1975) and Goodhart (1975, ch. 15) – it is clear that emphasizing
-
-  - ne particular factor is hardly sufficient grounds for justifying monetary union. What happens if two
-countries score well under one of the criteria and poorly on all the others? An index of the various
-criteria might o$er a better solution, but there is plenty of scope for disagreement over the appropriate
-weight to assign to each of the criteria and then the total index value that would justify membership
-
-  - f a monetary union. Goodhart (1975) emphasized that the need for a high degree of social cohesion
-appears to be a crucial determinant of the size of a single currency area in the real world rather than any
-clear-cut economic criteria. In summary, the optimal currency area literature addresses an interesting
-question but the various criteria that have been suggested are far from conclusive.
+Even if we ignore numerous criticisms that can be made of the individual criteria – see the surveys by Tower and Willett (1976), Ishiyama (1975) and Goodhart (1975, ch. 15) – it is clear that emphasizing one particular factor is hardly sufficient grounds for justifying monetary union. What happens if two countries score well under one of the criteria and poorly on all the others? An index of the various criteria might offer a better solution, but there is plenty of scope for disagreement over the appropriate weight to assign to each of the criteria and then the total index value that would justify membership of a monetary union. Goodhart (1975) emphasized that the need for a high degree of social cohesion appears to be a crucial determinant of the size of a single currency area in the real world rather than any clear-cut economic criteria. In summary, the optimal currency area literature addresses an interesting question but the various criteria that have been suggested are far from conclusive.
 
 **10.2 THE CASE FOR FIXED EXCHANGE RATES**
 
-Te case for !xed exchange rates usually has two sides to it: on the one hand there are some positive arguments
-
-in its favour of !xed exchange rates; and on the other hand there are arguments against floating exchange
-
-rates. One needs to be careful with this approach because arguments against floating exchange rates are not
-
-necessarily arguments in favour of !xed rates: they may well constitute arguments for some degree of exchange
-
-rate management rather than for !xed parities. In this spirit, let us consider both the positive arguments in
-
-favour of !xed rates and the argument against floating rates.
+The case for fixed exchange rates usually has two sides to it: on the one hand there are some positive arguments in its favour of fixed exchange rates; and on the other hand there are arguments against floating exchange rates. One needs to be careful with this approach because arguments against floating exchange rates are not necessarily arguments in favour of fixed rates: they may well constitute arguments for some degree of exchange rate management rather than for fixed parities. In this spirit, let us consider both the positive arguments in favour of fixed rates and the argument against floating rates.
 
 _Fixed exchange rates promote international trade and investment_
 
-Te proponents of !xed exchange rates argue that !xed parities provide the best environment for the conduct
-
-- f international trade and investment. It is argued that, just as a single currency is the best means of promoting
+The proponents of fixed exchange rates argue that fixed parities provide the best environment for the conduct of international trade and investment. It is argued that, just as a single currency is the best means of promoting
 economic activity at the national level, !xed exchange rates are the best means of promoting international
 
 231

@@ -61,15 +61,15 @@ How do trade costs affect arbitrage? If you were considering trying to make an a
 
 Formally, the ratio of the prices in the two locations can be written in proportional terms as $q = EP^{*} / P$. As we learned in our study of long-run exchange rates, for any basket of goods, $q$ is also known as the real exchange rate of the home country. Thus, if $P = \$100$ and $EP^{*} = \$110$, then this relative price ratio would be $(110 / 100) = 1.1$.
 
-As we have just seen, arbitrage from Home to Foreign is profitable only if the Foreign price is higher than the Home price adjusted for the trade cost, which requires  $q = EP^{*} / P > 1 + c$ . Conversely, arbitrage the other way is profitable only if the Home price is sufficiently higher than the Foreign price, with  $1 / q = P / (EP^{*}) > 1 + c$ .
+As we have just seen, arbitrage from Home to Foreign is profitable only if the Foreign price is higher than the Home price adjusted for the trade cost, which requires $q = EP^{*} / P > 1 + c$. Conversely, arbitrage the other way is profitable only if the Home price is sufficiently higher than the Foreign price, with $1 / q = P / (EP^{*}) > 1 + c$.
 
-Thus, if  $q$  is below  $1 + c$ , there will be no arbitrage from Home to Foreign. And if  $q$  is above  $1 / (1 + c)$ , there will be no arbitrage from Foreign to Home. So we have shown that, taking trade costs into account, the no arbitrage condition for market equilibrium is
+Thus, if $q$ is below $1 + c$, there will be no arbitrage from Home to Foreign. And if $q$ is above $1 / (1 + c)$, there will be no arbitrage from Foreign to Home. So we have shown that, taking trade costs into account, the no arbitrage condition for market equilibrium is
 
 $$
-\frac{1}{1 + c} \leq \underbrace {\frac{E P^{*}}{P}}_{\leq 1 + c}
+\frac{1}{1 + c} \leq \underbrace{\frac{E P^{*}}{P}}_{\leq 1 + c}
 $$
 
-Real exchange rate  $q$
+Real exchange rate $q$
 
 Let's look at what this condition implies for various levels of trading costs.
 
@@ -304,7 +304,7 @@ Panel (a) shows that in many months the high interest being paid on the Australi
 
 To sum up, the carry trade strategy was subject to a good deal of volatility, and over the decade from the start of 1992 to the end of 2001, the highs and lows canceled each other out in the long run. On November 1, 2001, for example, the average return on this carry trade was virtually zero. Cumulative interest since 1992 on the two currencies expressed in yen was virtually the same, about  $13\%$ . Over that period, 100 yen placed in either currency at the start would have been worth 113 yen by the end.
 
-What happened after that date? Subsequent trends again caused the value of Australian investment to pull ahead, as can be seen in panel (a) by the mostly positive returns registered month after month from 2002 to 2006. By June 2007
+What happened after that date? Subsequent trends again caused the value of Australian investment to pull ahead, as can be seen in panel (a) by the mostly positive returns registered month after month from 2002 to 2006. By June 2007 cumulative profits were well over ¥100.
 
 # FIGURE 22-4
 
@@ -318,11 +318,9 @@ What happened after that date? Subsequent trends again caused the value of Austr
 
 Carry Trades In the 1990s and 2000s, the yen had a lower interest rate than many other currencies. Carry trades borrow in low-yield yen to invest in higher-yield currencies like the Australian dollar. Such trades can be profitable for long periods, but dramatic reversals, though rare, can quickly undermine profits.
 
-Sources: oanda.com and econstats.com.
+Sources: oanda.com and econstats.com. The reason? As panel (b) shows, the yen persistently weakened against the Australian dollar over this five-year period (by about 6\% to 7\% per year), reinforcing the interest differential (about 6\% to 7\% also) rather than offsetting it. Adding up, from 2002 to 2006 the cumulative return on the carry trade was about 15\% per year! Would that trend continue or was there to be another sudden swing resulting from yen appreciation? As we can see, another wipeout came along in 2008. This question brings us to a consideration of the role of risk in the forex market.
 
-cumulative profits were well over ¥100. The reason? As panel (b) shows, the yen persistently weakened against the Australian dollar over this five-year period (by about 6\% to 7\% per year), reinforcing the interest differential (about 6\% to 7\% also) rather than offsetting it. Adding up, from 2002 to 2006 the cumulative return on the carry trade was about 15\% per year! Would that trend continue or was there to be another sudden swing resulting from yen appreciation? As we can see, another wipeout came along in 2008. This question brings us to a consideration of the role of risk in the forex market.
-
-Investors face very real risks in this market. Suppose you put up  \$1,000 of your own capital and borrow\$ 19,000 in yen from a bank. You now have 20 times your capital, a ratio, or leverage, of 20 (not uncommon). Then you play the carry trade, investing the \$20,000 in the Australian dollar. It takes only a 5\% loss on this trade to wipe you out: 5\% of \$20,000 eats all your capital. And without that margin to back you up, the bank bids you goodbye. As we have seen, losing 5\% in a month is quite possible, as is losing 10\% or even 15\%.
+Investors face very real risks in this market. Suppose you put up \$1,000 of your own capital and borrow \$19,000 in yen from a bank. You now have 20 times your capital, a ratio, or leverage, of 20 (not uncommon). Then you play the carry trade, investing the \$20,000 in the Australian dollar. It takes only a 5\% loss on this trade to wipe you out: 5\% of \$20,000 eats all your capital. And without that margin to back you up, the bank bids you goodbye. As we have seen, losing 5\% in a month is quite possible, as is losing 10\% or even 15\%.
 
 For policy makers and market participants, the broader fear is that while big losses for households would be bad enough, big losses at large, high-leverage financial institutions could have damaging spillover effects in the global macroeconomy. For example, in June 2007, Jim O'Neill, Goldman Sachs chief global economist, said investment firms had been caught on the wrong side of huge bets against the Japanese yen: "There has been an amazing amount of leverage on currency markets that has nothing to do with real economic activity. I think there are going to be dead bodies around when this is over. The yen carry trade has reached  $5\%$  of Japan's GDP. This is enormous and highly risky, as we are now seeing."7 Days later Steven Pearson, chief currency strategist at HBOS bank, said, "A sizeable reversal at some point is highly likely, but the problem with that statement is the 'at some point' bit, because carry trades make money steadily over long periods of time."8
 
@@ -366,13 +364,13 @@ One reason Japan's homemakers can move markets is that they hold the purse strin
 
 A tiny fraction of this has flowed into risky investments like online currency accounts. Most of these accounts involve margin trading, in which investors place a cash deposit with a brokerage that allows them to borrow up to 20 or even 100 times their holdings for trading.
 
-The practice has been popular not only because it vastly raises the level
+The practice has been popular not only because it vastly raises the level of potential profits, but also because it allowed wives to trade at home, said Hiroshi Takao, chief operating officer of TokyoForex, an online trading firm.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/87ac7c88-4759-4566-9a91-062430ca92dd/dcb414ab21d7778a8087400f2489da683e25853c49b262138760d4b0b874e34a.jpg)
 
 Ko Sasaki/The New York Times
 
-"FX Beauties" founder Mayumi Torii of potential profits, but also because it allowed wives to trade at home, said Hiroshi Takao, chief operating officer of TokyoForex, an online trading firm.
+"FX Beauties" founder Mayumi Torii
 
 The housewife-traders were so secretive that many market analysts did not realize how widespread the trend had become until this summer, when the police arrested a Tokyo housewife accused of failing to pay 1.1 million in taxes on her foreign exchange earnings… .
 
@@ -410,7 +408,7 @@ Source: Hong Kong Monetary Authority and econstats.com.
 
 of approximately  $300\%$  of the (base) money supply. Short of dollarization, this was considered about the most bulletproof peg around.
 
-Nonetheless, in late 1997 investors started to fear that Hong Kong might suffer the same fate as other Asian economies. Expecting a future depreciation of the Hong Kong dollar, they started to demand a currency premium. At its peak, the Hong Kong interest rate rose almost 20 percentage points per year above the U.S. interest rate in late October, and the spread exceeded 5 percentage points for over three weeks.. However, the expected depreciation never happened. The Hong Kong dollar's peg to the U.S. dollar survived. Investors may have been reasonable to fear a crisis and demand a premium beforehand (ex ante), but after the fact (ex post), these unrealized expectations became realized profits. As a result, there was a lot of money to be made from the carry trade for those willing to park their money in Hong Kong dollars during all the fuss.
+Nonetheless, in late 1997 investors started to fear that Hong Kong might suffer the same fate as other Asian economies. Expecting a future depreciation of the Hong Kong dollar, they started to demand a currency premium. At its peak, the Hong Kong interest rate rose almost 20 percentage points per year above the U.S. interest rate in late October, and the spread exceeded 5 percentage points for over three weeks. However, the expected depreciation never happened. The Hong Kong dollar's peg to the U.S. dollar survived. Investors may have been reasonable to fear a crisis and demand a premium beforehand (ex ante), but after the fact (ex post), these unrealized expectations became realized profits. As a result, there was a lot of money to be made from the carry trade for those willing to park their money in Hong Kong dollars during all the fuss.
 
 Should you always bet on a peg to hold in a crisis? No. Figure 22-5, panel (b), shows data for Argentina from 1991 to 2001. This includes the period of looming crisis for the Argentine economy in 2001, as the likelihood of default and depreciation grew. The country was in fiscal trouble with an ailing banking sector. It no longer had the ability to borrow in world capital markets and was about to be cut off from International Monetary Fund assistance. A recession was deepening. All of this was raising the pressure on the government to use monetary policy for purposes other than maintaining the peg. Investors began to demand a huge currency-plus-default premium on Argentine peso deposits to compensate them for the risk of a possible depreciation and/or banking crisis. Peso interest rates at one point were more than  $25\%$  above the U.S. interest rate. But in this case, investors' fears were justified: in December 2000 to January 2001 the Argentine government froze bank deposits, imposed capital controls, and the peg broke. The peso's value plummeted, and soon the exchange rate exceeded three pesos to the dollar, erasing more than two-thirds of the U.S. dollar value of peso deposits. In retrospect, the precrisis interest differentials had been too small: the carry traders who gambled and left their money in peso deposits eventually lost their shirts.
 
@@ -429,7 +427,7 @@ Peso problems: a man hammers on the door of a bank in a protest over frozen acco
 Do carry trade profits disprove UIP? To explore this question further, let us rewrite Equation (22-3), which calculates expected profits, by replacing expected or ex ante values of the exchange rate with actual or ex post realized values.
 
 $$
-\text{Ac tu al pr of it} = \underbrace {i_{F}}_{\substack {\text{In te rs tr at e} \\ \text{on fo rg in cu rr en cy}}} + \underbrace {\frac{\Delta E_{H / F}}{E_{H / F}}}_{\substack {\text{Ac tu al ra te of de pr ec ia ti on} \\ \text{of th eh om ec ur re nc y}}} - \underbrace {i_{H}}_{\substack {\text{In te rs tr at e} \\ \text{on ho me cu rr en cy}}} (2 2 - 4)
+\text{Actual profit} = \underbrace {i_{F}}_{\substack {\text{Interest rate} \\ \text{on foreign currency}}} + \underbrace {\frac{\Delta E_{H / F}}{E_{H / F}}}_{\substack {\text{Actual rate of depreciation} \\ \text{of the home currency}}} - \underbrace {i_{H}}_{\substack {\text{Interest rate} \\ \text{on home currency}}} \tag{22-4}
 $$
 
 Note the one subtle difference: the disappearance of the superscript " $e,$ " which denoted expectations of future exchange rate depreciation. This expression can be computed only after the fact: although interest rates are known in advance, the future exchange rate is not. We know actual profits only after the investment strategy has run its course.
@@ -437,7 +435,7 @@ Note the one subtle difference: the disappearance of the superscript " $e,$ " wh
 Thus, the sole difference between actual and expected profits is a forecast error that corresponds to the difference between actual depreciation and expected depreciation. (Again, the importance of exchange rate forecasts is revealed!) This forecast error is the difference between Equation (22-3) and Equation (22-4), that is,
 
 $$
-\text{Fo re ca st} = \binom {\text{Ac tu al}} {\text{pr of it}} - \binom {\text{Ex pe ct ed}} {\text{pr of it}} = \frac{\Delta E_{H / F}}{E_{H / F}} - \frac{\Delta E_{H / F}^{e}}{E_{H / F}} \tag {22-5}
+\text{Forecast error} = \binom {\text{Actual}} {\text{profit}} - \binom {\text{Expected}} {\text{profit}} = \frac{\Delta E_{H / F}}{E_{H / F}} - \frac{\Delta E_{H / F}^{e}}{E_{H / F}} \tag{22-5}
 $$
 
 Armed with this way of understanding unexpected profits, we can now confront an important and controversial puzzle in international macroeconomics: What can the behavior of this forecast error tell us about UIP and the workings of the forex market? One way to attack that question is to study expected and actual profits side by side to see the size of the forecast error and its pattern of behavior.
@@ -446,7 +444,7 @@ Expected Profits On the one hand, strictly speaking, UIP itself says nothing abo
 
 On the 45-degree line, these two terms are equal, and expected profits will be zero, according to Equation (22-3). As in several studies of this sort, on average, the data are aligned close to, but not exactly on, the 45-degree line, so they are not wildly inconsistent with UIP. The line-of-best-fit slope is close to 1. But the survey data are probably prone to error and cover only some (but not all) of the traders in the market. Even using formal statistical tests, it is difficult to reject UIP based on shaky evidence of this sort. The hypothesis that UIP holds can typically survive this kind of test.
 
-Actual Profits On the other hand, we know that actual profits are made. It is enlightening to see exactly how they are made by replacing the expected depreciation in panel (a) with actual depreciation, after the fact, or ex post. This change is made in
+Actual Profits On the other hand, we know that actual profits are made. It is enlightening to see exactly how they are made by replacing the expected depreciation in panel (a) with actual depreciation, after the fact, or ex post. This change is made in panel (b), which, to be consistent, shows actual profits for the same currencies over the same period.
 
 # FIGURE 22-6
 
@@ -468,8 +466,6 @@ Notes: Line of best fit is through the origin. Data shown are monthly for the Ge
 
 Source: From Menzie Chinn and Jeffrey A. Frankel, "Survey Data on Exchange Rate Expectations: More Currencies, More Horizons, More Tests," in W. Allen and D. Dickinson, eds., 2002, Monetary Policy, Capital Flows and Financial Market Developments in the Era of Financial Globalisation: Essays in Honour of Max Fry (London: Routledge), pp. 145-167.
 
-panel (b), which, to be consistent, shows actual profits for the same currencies over the same period.
-
 The change is dramatic. There are plenty of observations not on the 45-degree line, indicating that profits and losses were made in some periods. Even more striking, the line of best fit has a slope of about 0.2. This means that for every  $1\%$  of interest differential in favor of the foreign currency, we would expect only a  $0.2\%$  appreciation of the home currency, on average, leaving a profit of  $0.8\%$ . At larger interest differentials, the line of best fit means even larger profits. (Some studies find zero, or even negative slopes, implying even bigger profits!)
 
 The UIP Puzzle A finding that profits can be made needs careful handling. On its own, this need not imply a violation of UIP: random profits could arise due to variation about a zero mean. However, looking at actual profits, the pattern of the deviations from the 45-degree line is systematic. The slope of the best-fit line is well below 1, indicating, for example, that when the interest differential is high, actual depreciation is typically less than expected and less than the interest differential. In other words, on average, the carry trade (borrowing in the low-yield currency to invest in the high-yield currency) is profitable. Actual profits are risky, but they appear to be forecastable.
@@ -488,7 +484,7 @@ Limits to arbitrage arguments can also be applied in the world of finance. But h
 
 Trade Costs Are Small It is tempting but ultimately not fruitful to look for the same kinds of frictions that we saw in goods markets. Conventional trade costs in financial markets are simply too small to have an effect that is large enough to explain the puzzle. There are bid-ask spreads between currencies, and there may be other technical trading costs, for example, associated with when a forex trade is placed during the day and which financial markets are open. But none of these frictions provides a sufficient explanation for the forecastable profits and the market's inefficiency.
 
-There is also the problem that if one wishes to make a very large transaction, especially in a less liquid currency, the act of trading itself may have an adverse impact on the exchange rate and curtail profitable trades. For example, an order for  \$1 billion of more liquid yen is more easily digested by the market than an order for\$ 1 billion of less liquid New Zealand dollars. But again, this possibility is not likely to explain the UIP puzzle because investors can avert such a situation by breaking their trades up into small pieces and spreading them out over time. So even though these trading costs are real, they may not be large enough to offset the very substantial profits we have seen.
+There is also the problem that if one wishes to make a very large transaction, especially in a less liquid currency, the act of trading itself may have an adverse impact on the exchange rate and curtail profitable trades. For example, an order for \$1 billion of more liquid yen is more easily digested by the market than an order for \$1 billion of less liquid New Zealand dollars. But again, this possibility is not likely to explain the UIP puzzle because investors can avert such a situation by breaking their trades up into small pieces and spreading them out over time. So even though these trading costs are real, they may not be large enough to offset the very substantial profits we have seen.
 
 If trading costs are the sole limit to arbitrage, there is still a puzzle. We must look elsewhere.
 

@@ -1,8 +1,8 @@
 ---
 title: Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press - Part 2 (pages 501-1000)
 parent_directory: Frank J. Fabozzi - Frank J. Jones - Foundations of Global Financial Markets and Institutions (the MIT Press)-the MIT Press
-formatted: 2025-12-21 05:05:00 AM
-formatter_model: grok-code-fast-1
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: claude-sonnet-4
 cli_tool: opencode
 primary_tags:
   - interest rate structure
@@ -1276,7 +1276,7 @@ determined for _f_ is the market's consensus for the six-month rate six months
 
 from now. A future interest rate calculated from either the spot rates or the
 
-yield curve is called a **forward rate** - r an **implied forward rate** .
+ yield curve is called a **forward rate** or an **implied forward rate** .
 
 Similarly, borrowers need to understand what a forward rate is. For
 
@@ -1316,9 +1316,9 @@ preceding notation, here is what the notation means:
 
 NotationInterpretation for the Forward Rate
 
-1 _[f]_ 12 six-month (1-period) forward rate beginning six years (12 periods) from now
+ 1 _[f]_ 12 six-month (1-period) forward rate beginning six years (12 periods) from now
 
-2 _[f]_ 8 - ne-year (2-period) forward rate beginning four years (8 periods) from now
+2 _[f]_ 8 one-year (2-period) forward rate beginning four years (8 periods) from now
 
 6 _[f]_ 4 three-year (6-period) forward rate beginning two years (4 periods) from now
 
@@ -1400,7 +1400,7 @@ _f_ 9 = 0.062830.
 
 By investing the \$58.48 at the six-month spot rate of 4% (8% on a bondequivalent basis) and reinvesting at the foregoing forward rates, the number
 
-- f dollars accumulated at the end of five years will be
+of dollars accumulated at the end of five years will be
 
 \$58.48(1.04)(1.043)(1.05098)(1.051005)(1.05177)(1.056945)(1.069310)
 

@@ -1,28 +1,24 @@
 ---
-aliases:
-- Portfolio Balance Model
-tags: null
-key_concepts: null
-parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 8: Portfolio Balance Model'
-linter-yaml-title-alias: 'Chapter 8: Portfolio Balance Model'
+---
+title: "Portfolio Balance Model"
+parent_directory: II. Economics/International/International Finance/International Finance Full chapters
+formatted: 2025-12-21 05:13:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- portfolios implications exchange rate
-- balance model domestic rate
-- current account model following
-- international finance features model
+  - portfolio balance model
+  - exchange rate determination
+  - risk premium
+  - asset substitutability
 secondary_tags:
-- fxos domestic foreign bonds
-- portfolio balance model concept
-- risk holding foreign bond
-- omo fxo exchange rate
-- foreign rates equal exchange
-- risk sole currency risk
-- foreign bonds causes disequilibrium
-- models assume domestic foreign
-- shown figure fxo exchange
-tags_extracted: '2025-12-18T01:32:45.641530'
+  - foreign exchange operations
+  - open market operations
+  - sterilized interventions
+  - currency risk
+  - country risk
+  - monetary policy
+cssclasses: academia
+---
 ---
 
 # CHAPTER 8
@@ -33,30 +29,28 @@ CHAPTER OUTLINE
 
 8.1 Introduction
 
-8.2 Te concept of a risk premium
-8.3 Di$erent types of risk
+8.2 The concept of a risk premium
+8.3 Different types of risk
 8.4 A portfolio balance model
 8.5 Derivation of the asset demand functions
 
 8.6 Equilibrium of the model
-8.7 Te e$ects of an FXO
+8.7 The effects of an FXO
 
-8.8 Te e$ects of an OMO
+8.8 The effects of an OMO
 
-8.9 Te e$ects of an SFXO
+8.9 The effects of an SFXO
 
 8.10 A comparison of an FXO, OMO and SFXO
-8.11 Te dynamics of the model
-8.12 Te e$ects of a change in risk perceptions
-8.13 Money versus bond-!nanced !scal expansion
-8.14 Te risk premium, imperfect and perfect substitutability
+8.11 The dynamics of the model
+8.12 The effects of a change in risk perceptions
+8.13 Money versus bond-financed fiscal expansion
+8.14 The risk premium, imperfect and perfect substitutability
 8.15 Conclusions
 
 8.1 INTRODUCTION
 
-Te monetary models of exchange rate determination make the crucial assumption that domestic and foreign
-
-bonds are perfect substitutes. Tis implies that the expected yields on domestic and foreign bonds are equalized.
+The monetary models of exchange rate determination make the crucial assumption that domestic and foreign bonds are perfect substitutes. This implies that the expected yields on domestic and foreign bonds are equalized.
 
 In e$ect, apart from their currency of denomination, domestic and foreign bonds are regarded by international
 
@@ -64,50 +58,17 @@ investors as the same. As we saw in Chapter 7, however, the portfolio balance mo
 
 monetary models because it allows for the possibility that international investors may regard domestic and
 
-foreign bonds as having di$erent characteristics other than their currency of denomination. In particular,
+foreign bonds as having different characteristics other than their currency of denomination. In particular, they might for various reasons regard one of the bonds as being more risky than the other. This being the case they will generally require a higher expected return on the bond that is considered more risky to compensate for the additional risk it entails.
 
-they might for various reasons regard one of the bonds as being more risky than the other. Tis being the case
+Allowing for domestic and foreign bonds to have different characteristics is potentially very important because operations that influence the exchange rate affect the composition of domestic and foreign bonds in agents' portfolios in different ways. In this chapter we will use the portfolio balance model to examine three operations that are commonly used to influence the exchange rate:
 
-they will generally require a higher expected return on the bond that is considered more risky to compensate
+1. An open market operation (OMO) which is defined as an exchange of domestic money base for domestic bonds or vice versa.
 
-for the additional risk it entails.
+2. A foreign exchange operation (FXO) which is an exchange of domestic money for foreign bonds or vice versa. Such foreign exchange market intervention affects the domestic money supply and is termed a non-sterilized intervention in the foreign exchange market.
 
-Allowing for domestic and foreign bonds to have di$erent characteristics is potentially very important
+3. A sterilized foreign exchange operation (SFXO) which is an exchange of domestic bonds for foreign bonds or vice versa, leaving the domestic money base unchanged.
 
-because operations that influence the exchange rate a$etc the composition of domestic and foreign bonds in
-
-agents' portfolios in di$erent ways. In this chapter we will use the portfolio balance model to examine three
-
-- perations that are commonly used to influence the exchange rate:
-
-1. An open market operation (OMO) which is de!ned as an exchange of domestic money base for
-
-domestic bonds or vice versa.
-
-International Finance
-
-2. A foreign exchange operation (FXO) which is an exchange of domestic money for foreign bonds
-
-	- r vice versa. Such foreign exchange market intervention a$ects the domestic money supply and is
-termed a non-sterilized intervention in the foreign exchange market.
-
-3. A sterilized foreign exchange operation (SFXO) which is an exchange of domestic bonds for foreign
-
-bonds or vice versa, leaving the domestic money base unchanged.
-
-Te interesting thing about an SFXO is that it represents the di$erence between an OMO and FXO. An
-
-expansionary FXO means that the authorities purchase foreign bonds with domestic money, which means
-
-that the public holds more money and less foreign bonds. If the authorities decide they wish to keep the
-
-money supply at its original level they can conduct a contractionary monetary policy by selling domestic
-
-bonds to the public so that the money held by the public returns to its original level. If they conduct such a
-
-sterilization operation, the net e$etc is that the public holds fewer foreign bonds and more domestic bonds
-
-with the money supply unchanged.
+The interesting thing about an SFXO is that it represents the difference between an OMO and FXO. An expansionary FXO means that the authorities purchase foreign bonds with domestic money, which means that the public holds more money and less foreign bonds. If the authorities decide they wish to keep the money supply at its original level they can conduct a contractionary monetary policy by selling domestic bonds to the public so that the money held by the public returns to its original level. If they conduct such a sterilization operation, the net effect is that the public holds fewer foreign bonds and more domestic bonds with the money supply unchanged.
 
 In the monetary models the only thing that matters for the exchange rate is the money supply in relation to
 
@@ -139,13 +100,7 @@ e$ects on the risk premium. Finally, we consider some of the dynamic features of
 
 Te distinguishing feature of the portfolio balance model is that investors no longer regard domestic and
 
-foreign bonds as perfect substitutes. Tis being the case the expected returns on the two assets no longer have
-
-to be equal. In other words, the UIP condition which was a key condition in the monetary models generally
-
-no longer holds. For example, if investors are risk-averse and regard domestic bonds as being relatively risky
-
-as compared to foreign bonds, they will require a higher expected return on domestic bonds than foreign.
+foreign bonds as perfect substitutes. This being the case the expected returns on the two assets no longer have to be equal. In other words, the UIP condition which was a key condition in the monetary models generally no longer holds. For example, if investors are risk-averse and regard domestic bonds as being relatively risky as compared to foreign bonds, they will require a higher expected return on domestic bonds than foreign.
 
 Tis additional expected return on the relatively risky as compared to the less risky bond is known as the 'risk
 
@@ -346,17 +301,7 @@ they must be perfect substitutes.
 
 8.4 A PORTFOLIO BALANCE MODEL
 
-Te portfolio balance model of exchange rates was pioneered by Branson (1976, 1984), Branson et al. (1977),
-
-Branson and Henderson (1985) and Kouri (1976) and has been subsequently modi!ed and extended in various
-
-directions by Obstfeld (1980), Girton and Henderson (1977), Allen and Kenen (1980) and Kenen (1982). Te
-
-model we shall look at is based upon Branson (1976) and Kouri (1976). Tis model is a simple version of many
-
-portfolio balance models because it utilizes the assumption of static exchange rate expectations; that is, the
-
-exchange rate is not expected to change. Te _Es_ ˙ expression in equation (8.1) is assumed to be zero.
+The portfolio balance model of exchange rates was pioneered by Branson (1976, 1984), Branson et al. (1977), Branson and Henderson (1985) and Kouri (1976) and has been subsequently modified and extended in various directions by Obstfeld (1980), Girton and Henderson (1977), Allen and Kenen (1980) and Kenen (1982). The model we shall look at is based upon Branson (1976) and Kouri (1976). This model is a simple version of many portfolio balance models because it utilizes the assumption of static exchange rate expectations; that is, the exchange rate is not expected to change. The _Es_ ˙ expression in equation (8.1) is assumed to be zero.
 
 In the model outlined we assume that domestic prices and output are !xed following a policy disturbance.
 

@@ -1074,10 +1074,7 @@ e. Assume forex market equilibrium is given by  $i = ([1 / E] - 1) + 0.10$ , whe
 9. Assume that initially the IS curve is given by
 
 $$
-I S_{1}: Y = 1 2 - 1. 5 T - 3 0 i + 2 G
-$$ and that the price level  $P$  is 1, and the LM curve is given by
-
-
+LM_{1}: M = Y(1 - i)
 $$
 
 L M_{1}: M = Y (1 - i)

@@ -128,9 +128,7 @@ Loss severities have also worsened in the last few months, rising to  $63\%$  ac
 
 Rapidly falling prepayments (Figure 3) are evidence of a dearth of refinancing opportunities for borrowers.
 
-The scarcity results from a tight credit market and little or no homeowner equity. Originally high LTV ratios have further increased with declining home prices. Despite the possibility of a modest recovery in the housing environment over the next few years, Moody's expects subprime borrowers to be subject to prolonged refinancing limitations due to negative equity and lack of available credit. As the expected life of a subprime loan is extended, the likelihood of default is expected to
-
-similarly grow as life event risk increases with the passage of time. Moody's analysis indicates that, without intervention,  $72\%$  of all remaining 2006vintage subprime loans (both current and delinquent) would eventually default. A large component of this  $72\%$  is comprised of loans that are already seriously delinquent.
+The scarcity results from a tight credit market and little or no homeowner equity. Originally high LTV ratios have further increased with declining home prices. Despite the possibility of a modest recovery in the housing environment over the next few years, Moody's expects subprime borrowers to be subject to prolonged refinancing limitations due to negative equity and lack of available credit. As the expected life of a subprime loan is extended, the likelihood of default is expected to similarly grow as life event risk increases with the passage of time. Moody's analysis indicates that, without intervention,  $72\%$  of all remaining 2006vintage subprime loans (both current and delinquent) would eventually default. A large component of this  $72\%$  is comprised of loans that are already seriously delinquent.
 
 When we last updated subprime loss figures in September, 2008, we generalized that our expected case corresponded to:
 
@@ -324,7 +322,7 @@ Utilizing the resulting figure as the expected future default rate would imply t
 
 Finally, the cumulative loss projection (as a percent of original balance) is equal to  $32\%$  (Row AE). This equals the sum of current realized losses (Row G,  $6\%$ ), projected pipeline losses (Row W,  $21\%$ ), projected future first lien losses (Row AD,  $5\%$ ) and expected future second lien losses (Row E *  $90\%$ ,  $0.9\%$ ).
 
-# Modification Adjustment
+## Modification Adjustment
 
 Continuing with the previous example, figure 7 below presents how Moody's will adjust the previously described analysis to account for the estimated benefit derived from of large-scale modification.
 
@@ -342,7 +340,7 @@ attributable to principal reductions are then added (row U) to the adjusted loss
 
 The resulting total projected losses for the 2005, 2006 and 2007 vintages are summarized in Figure 8. We continue to observe a material difference in expected cumulative loss by vintage, and anticipate substantially larger losses for late 2006 and early 2007 than for deals securitized earlier.
 
-In Moody's updated projections, the 2005 vintage will ultimately lose an average of  $13\%$  of original securitized balance, corresponding to an additional loss of  $36\%$  of the outstanding balance. 2006 vintage subprime pools will ultimately lose an average of  $30\%$  of the original securitized balance, corresponding to an additional loss of  $45\%$  of the outstanding balance. Subprime pools issued in 2007 pools will on average lose  $36\%$  of original balance, an additional  $42\%$  of the outstanding collateral balance.
+In Moody's updated projections, the 2005 vintage will ultimately lose an average of  $13\%$  of original securitized balance, corresponding to an additional loss of  $36\%$  of the outstanding balance. 2006 vintage subprime pools will ultimately lose an average of  $30\%$  of the original securitized balance, corresponding to an additional loss of  $45\%$  of the outstanding balance. Subprime pools issued in 2007 will on average lose  $36\%$  of original balance, an additional  $42\%$  of the outstanding collateral balance.
 
 A number of factors will influence the extent to which ultimate losses differ from Moody's updated projections. Loss severities will depend in part on whether home price depreciation proceeds ahead of or behind Moody's expectation as well as the speed of the foreclosure and liquidation process. Future default frequencies will likely be influenced by broad economic factors such as unemployment. Further economic decline would hasten the pace of new defaults, while a strong rebound might dampen it. And, among the largest uncertainties, the willingness of the government to directly intervene in the housing and/or securitization markets could have substantial impact on the ultimate outcome.
 
@@ -374,7 +372,7 @@ As general guidance to subprime RMBS ratings at the lower end of Moody's scale, 
 
 In addition to its linear projections based on a pool's past performance, Moody's supplemented its delinquency projections with a loan-level collateral-based approach. The performance-based and collateral-based projections are weighted in a pool's ultimate delinquency projection as of the projection date. The collateral-based approach incorporates loan characteristics such as borrower FICO, CLTV, loan type and purpose, and level of documentation as well as an estimate on home price appreciation (HPA) in order to project the likelihood that a loan will default over the projection period.
 
-# Data Sample and Variables
+## Data Sample and Variables
 
 Moody's compiled loan-level collateral and performance data for loans included in subprime transactions issued in 2005, 2006 and 2007. We apportioned the overall loan population into six subgroups by period of half-yearly origination (1H2005-2H2007).
 
@@ -392,13 +390,13 @@ Updated CLTV = Origination CLTV * Origination Median Home Price/Current Median H
 
 Median home prices were obtained from Moody's Economy.com at an MSA level.
 
-# Analytical Approach and Results
+## Analytical Approach and Results
 
 Moody's developed a logistic regression to quantify the historical relationship of a loan's characteristics with its probability of default. The dependent variable, State of Default, was set equal to 1 if the loan has defaulted and 0 if it has not defaulted between the time of origination and late 2008. For this purpose, Moody's defines a defaulted loan as one that is 60 or more days delinquent, in foreclosure or REO, in bankruptcy, or charged-off.
 
 Moody's found that all of the variables were statistically significant for the subgroups. The impacts of key variables such as FICO and Updated CLTV were consistent across vintages. The impacts of other variables, however, were moderately different across origination periods. Moody's believes that differences in origination practices across vintages are driving these differences in the observed results.
 
-# Projecting Roll Rates on Non-Delinquent Loans
+## Projecting Roll Rates on Non-Delinquent Loans
 
 The final step in the analysis is to transform the default likelihoods obtained from the regression output into 12-month roll-rates to default for non-delinquent loans.
 
@@ -410,7 +408,7 @@ Moody's projects the default likelihood of each non-delinquent loan by applying 
 
 The above analysis was only used for first lien loans. For second lien loans, Moody's assumes harsher default likelihood and did not utilize the above analysis.
 
-# Calculating Loss Severity Using Forward-Looking HPA Forecast
+## Calculating Loss Severity Using Forward-Looking HPA Forecast
 
 Moody's applied Updated LTVs and general assumptions regarding the costs of maintenance and liquidation (10% of the current home price), interest (10%), taxes and insurance (7%), and gross proceeds (70% of projected property value) to defaulted loans in order to calculate loan loss severities:
 

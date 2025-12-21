@@ -1,69 +1,60 @@
 ---
-aliases:
-- International Monetary System
-tags: null
-key_concepts: null
-parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 11: International Monetary System'
-linter-yaml-title-alias: 'Chapter 11: International Monetary System'
+title: "Chapter 11: International Monetary System"
+parent_directory: "International Finance Full chapters"
+formatted: "2025-12-21 05:15:00 PM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
 primary_tags:
-- financial integration holds governments
-- bretton woods 11 features
-- effective tax
-- currency turmoil crises post
-- capital movements undesirable tax
+  - "bretton woods system"
+  - "international monetary system"
+  - "exchange rate regimes"
+  - "currency crises"
+  - "financial architecture reform"
 secondary_tags:
-- international monetary chapter outline
-- studied chapter bretton woods
-- reform international monetary 11
-- 11 brief history bretton
-- caused panic international investors
-- financial markets likely tax
-- tax prevent stabilizing
-- did bretton woods break
-- exchange rate systems cause
-- debate reform international financial
-- international finance interesting point
-- avoid breakdown international monetary
-tags_extracted: '2025-12-18T01:33:21.728275'
+  - "fixed exchange rates"
+  - "floating exchange rates"
+  - "imf role"
+  - "world bank"
+  - "european monetary system"
+  - "oil shocks impact"
+  - "plaza accord"
+  - "louvre accord"
+cssclasses: academia
 ---
 
-# CHAPTER 11
-
-## THE INTERNATIONAL MONETARY SYSTEM
+# Chapter 11: International Monetary System
 
 CHAPTER OUTLINE
 
 11.1 Introduction
 
-11.2 !e Bretton Woods system
-11.3 Features of the system
-11.4 A brief history of the Bretton Woods system
-11.5 Why did the Bretton Woods system break down?
-11.6 !e post-Bretton Woods era
-11.7 !e Jamaica Conference of 1976
+11.2 The Bretton Woods System
+11.3 Features of the System
+11.4 A Brief History of the Bretton Woods System
+11.5 Why Did the Bretton Woods System Break Down?
+11.6 The Post-Bretton Woods Era
+11.7 The Jamaica Conference of 1976
 
-11.8 !e Snake and the EMS
+11.8 The Snake and the EMS
 
-11.9 !e second oil shock
+11.9 The Second Oil Shock
 
-11.10 !e dazzling dollar, 1980–85
+11.10 The Dazzling Dollar, 1980–85
 11.11 From Plaza to Louvre and beyond
 11.12 Currency turmoil and crises post-1990
 
 11.13
-!e effects of the credit crunch
+The Effects of the Credit Crunch
 11.14
-!e effects of the eurozone crisis
+The Effects of the Eurozone Crisis
 11.15
-!e effects of the coronavirus crisis
-11.16 !e present exchange rate system
-11.17 !e bipolar view of the international monetary system: which exchange rate regime is best?
+The Effects of the Coronavirus Crisis
+11.16 The Present Exchange Rate System
+11.17 The Bipolar View of the International Monetary System: Which Exchange Rate Regime Is Best?
 11.18 Reform of the international monetary system
-11.19 !e Williamson target zone proposal
-11.20 !e McKinnon global monetary target proposal
-11.21 !e Tobin foreign exchange tax proposal
+11.19 The Williamson Target Zone Proposal
+11.20 The McKinnon Global Monetary Target Proposal
+11.21 The Tobin Foreign Exchange Tax Proposal
 
 11.22
 Reform of the international financial architecture
@@ -71,19 +62,7 @@ Reform of the international financial architecture
 
 11.1 INTRODUCTION
 
-!e international monetary system is broadly defined as the set of conventions, rules, procedures and
-
-institutions that govern the conduct of financial relations between nations. In this chapter we look in some
-
-detail at the development of the post-Second World War international monetary system. An understanding of
-
-the historical, institutional and economic developments that have occurred since the end of the Second World
-
-War are an essential background to the study of international finance. Many of the proposals for reform of the
-
-international monetary system have been based upon the desire to avoid the problems and mistakes of the
-
-past. !ere are many facets of the post-war system that merit attention and that are studied in this chapter.
+The international monetary system is broadly defined as the set of conventions, rules, procedures and institutions that govern the conduct of financial relations between nations. In this chapter we look in some detail at the development of the post-Second World War international monetary system. An understanding of the historical, institutional and economic developments that have occurred since the end of the Second World War are an essential background to the study of international finance. Many of the proposals for reform of the international monetary system have been based upon the desire to avoid the problems and mistakes of the past. There are many facets of the post-war system that merit attention and that are studied in this chapter.
 
 Among these are the Bretton Woods system and its eventual breakdown, the move to $oating exchange rates,
 
@@ -91,19 +70,9 @@ International Finance
 
 the economic events of the 1970s including two oil shocks, and the economic policy divergences of the 1980s.
 
-!e setting-up of the European Monetary System (EMS), leading eventually to the achievement on 1 January
+The setting-up of the European Monetary System (EMS), leading eventually to the achievement on 1 January 1999 of Economic and Monetary Union in Europe, is probably the most significant event to occur in the evolution of the international monetary system since the breakdown of the Bretton Woods system.
 
-1999 of Economic and Monetary Union in Europe, is probably the most significant event to occur in the
-
-evolution of the international monetary system since the breakdown of the Bretton Woods system.
-
-!e 1990s witnessed considerable currency turmoil, which firstly a%icted developed economies with
-
-speculative attacks launched against a number of EMS currencies including the British pound, the Italian
-
-lira and the Spanish peseta. !e EMS crisis was followed by a series of currency and financial crises which
-
-a%icted emerging market economies. In 1994–95 Mexico suffered what has become known as the 'tequila
+The 1990s witnessed considerable currency turmoil, which firstly afflicted developed economies with speculative attacks launched against a number of EMS currencies including the British pound, the Italian lira and the Spanish peseta. The EMS crisis was followed by a series of currency and financial crises which afflicted emerging market economies. In 1994–95 Mexico suffered what has become known as the 'tequila
 
 crisis', but this proved to be merely a taster for the currency and financial turmoil that was to follow. In July
 

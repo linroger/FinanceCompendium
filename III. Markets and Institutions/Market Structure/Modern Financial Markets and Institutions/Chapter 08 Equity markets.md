@@ -99,7 +99,7 @@ Preference shares are part of shareholders' funds but are not equity share capit
 - High cost of capital The higher risk attached to the annual returns and capital cause preference shareholders to demand a higher level of return than debt holders.
 - Dividends are not tax deductible Tax is payable on the firm's profit before the deduction of the preference dividend (as it is for ordinary share dividends). In contrast, interest has to be paid whether or not a profit is made. This cost is regarded as a legitimate expense reducing taxable profit – see Exhibit 8.2. Both firms have raised £1m, but Company A sold bonds yielding 8 per cent, Company B sold preference shares offering a dividend yield of 8 per cent.
 
-# Types of preference shares
+## Types of preference shares
 
 There are a number of variations on the theme of preference shares. Here are some additional features:
 
@@ -107,7 +107,7 @@ There are a number of variations on the theme of preference shares. Here are som
 - Participating As well as the fixed payment, the dividend may be increased if the company has high profits. (Usually the additional payment is a proportion of any ordinary dividend declared.)
 - Redeemable These have a finite life, at the end of which the initial capital investment will be repaid.
 
-# Exhibit 8.2 The effect of the tax deductibility of interest and the non-tax deductibility of preference share dividends
+## Exhibit 8.2 The effect of the tax deductibility of interest and the non-tax deductibility of preference share dividends
 
 <table><tr><td></td><td>Company A
 Raised £1m by selling bonds yielding 8\%</td><td>Company B
@@ -119,7 +119,7 @@ Company A has a lower tax bill because its bond interest is used to reduce taxab
 - Convertibles These can be converted at the holder's request into ordinary shares at specific dates and on pre-set terms (for example, one ordinary share for every two preference shares). These shares often carry a lower dividend yield since there is the attraction of a potentially large capital gain.
 - Variable rate A variable dividend is paid. The rate may be linked to general interest rates, e.g. LIBOR, or to some other variable factor.
 
-# Some unusual types of shares
+## Some unusual types of shares
 
 In addition to ordinary shares and preference shares there are other, more unusual, types of shares.
 
@@ -127,9 +127,9 @@ Non-voting shares or reduced voting shares are sometimes issued by family-contro
 
 Deferred ordinary shares rank lower than ordinary shares for an agreed rate of dividend, so in a poor year the ordinary holders might get their payment while deferred ordinary holders receive nothing.
 
-# Exhibit 8.3
+## Exhibit 8.3
 
-# Facebook signals future IPO with dual-class stock
+## Facebook signals future IPO with dual-class stock
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/dbf338589f28f2b53a1be1440eecff5318ec6da89135195f487a0caf8e5a57ea.jpg)
 
@@ -411,7 +411,7 @@ Optiver
 
 Société Générale UBS
 
-# BATS only shareholders
+## BATS only shareholders
 
 Dave Cummings
 
@@ -433,7 +433,7 @@ European share trading volumes
 
 *Ceased trading July 2010
 
-# Exhibit 8.10 continued to reach profitability (although Mr Haynes says Chi-X has been operationally profitable in the seven consecutive months up to July).
+## Exhibit 8.10 continued to reach profitability (although Mr Haynes says Chi-X has been operationally profitable in the seven consecutive months up to July).
 
 Step one in consolidation of the MTF's took place this year when the LSE bought Turquoise, another bank-backed venture that launched after Chi-X.
 
@@ -445,9 +445,9 @@ Source: Financial Times, 25 August 2010, p. 18. Reprinted with permission.
 
 The proliferation of trading venues means that prices are increasingly being set for shares in a number of different places. In 2007, Rolls-Royce's shares were publicly traded in one place; now it is bought and sold on 14 platforms. This raises the difficulty of maintaining the quality of high transparency in trades required to promote trust in the market process. While the prices on the different platforms track one another, only those traders with very sophisticated systems for seeing the trades going through each of the 14 venues can know what is going on and whether there are opportunities to buy or sell quickly when discrepancies in prices make it worthwhile. This benefits linked-up traders who can act fast, but this is at the expense of ordinary investors. The splitting of trading between so many platforms has also led to concern that the important quality of liquidity is being lost. In response the EU and country regulators have listened to the voices calling for a 'consolidated tape' which would list all the bid and offer prices from all venues, throughout Europe at least - see Exhibit 8.11.
 
-# Exhibit 8.11
+## Exhibit 8.11
 
-# Europe set for overhaul of rules on share dealing
+## Europe set for overhaul of rules on share dealing
 
 FT
 
@@ -473,21 +473,21 @@ Three years ago, shares in the FTSE 100 were largely traded on the London Stock 
 
 "Fragmentation of transparency information, if not addressed properly, raises concerns because it could undermine the overarching transparency objective in Mifid, and may
 
-# Recommendations by the Committee of European Securities Regulators
+## Recommendations by the Committee of European Securities Regulators
 
-# Market data
+### Market data
 
 Create a single point of access to post-trade market data, in a so-called 'consolidated tape.' Regulators to impose a publicly-run solution if that does not happen within about two years
 
 Force down the cost of post-trade data by insisting that exchanges and other venues make available preand post-trade data separately. Currently they are bundled together, meaning data in Europe can cost up to 10 times more than in the US
 
-# Trading venues
+### Trading venues
 
 Upstart trading venues – known as 'multilateral trading facilities' – that have been competing with national exchanges to be brought in line with the way established exchanges are regulated
 
 Banks that operate trade matching facilities known as 'crossing networks', where large orders are done out of the public eye, to be required to publish the number, value and volume of transactions
 
-# Trading behaviour
+### Trading behaviour
 
 Electronic messages used by traders to convey information to certain market participants about buying and selling interest in a share – known as 'indications of interest, or 'IOIs' – to be treated as normal orders and made public to the whole market
 
@@ -499,9 +499,9 @@ It also suggested new rules to tighten up on dark pools operated by banks and ad
 
 Yet there is urgency to address issues such as lack of transparency in market data.
 
-Regulators on both sides of the Atlantic are already concerned that
+Regulators on both sides of the Atlantic are already concerned that the unfettered growth of competition is damaging investor trust in market structures.
 
-# Fragmented trading
+## Fragmented trading
 
 Daily market share Equities (turnover)
 
@@ -509,7 +509,7 @@ London (FTSE 100)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/d4482dd5146cda9b773cf5d849c5922dfdd7b457ef339a067115e6ef404435dd.jpg)
 
-Europe (ex UK) the unfettered growth of competition is damaging investor trust in market structures.
+Europe (ex UK)
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/f777c2d9a92506177a234a469ee3df26bf85bbd2723226e9270af2d375d3b4eb.jpg)
 
@@ -521,9 +521,9 @@ The MTFs themselves have responded to the need for their customers to have acces
 
 Serious concerns have been raised about the lower level of regulation on MTFs. Regulators require the main national markets to employ a team of people to survey trades every day to ensure that the market is not being abused. MTFs are not required to do this. Xavier Rolet, CEO of the LSE at the time of writing, and other traditional stock exchange chiefs have complained of an 'uneven playing field' because they have to bear the costly regulatory burden (according to Mr Rolet, the LSE has 150 regulatory staff compared with Chi-X's five and it pays about €5 million p.a. in regulatory fees compared with Chi-X's £125,000). Exhibit 8.13 describes the dangers of fragmentation.
 
-# Exhibit 8.12
+## Exhibit 8.12
 
-# BATS in 'smart order' move
+## BATS in 'smart order' move
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/a272e38e0e29b22fbf194588c3e77ab7119a0789d331669d2a3b69a0e6a1e30c.jpg)
 
@@ -547,9 +547,9 @@ Like Nasdaq OMX Europe, BATS Europe will charge a fee for its smart order routin
 
 Source: Financial Times, 25 January 2010, p. 19. Reprinted with permission.
 
-# Exhibit 8.13
+## Exhibit 8.13
 
-# Multiple venues leave Europe 'open to abuse'
+## Multiple venues leave Europe 'open to abuse'
 
 Jeremy Grant
 
@@ -585,9 +585,9 @@ He singles out "front-running", where a broker, knowing a client has a large buy
 
 Joost van der Does de Willebois, chairman of Euronext Amsterdam, the Dutch segment of NYSE Euronext, says Euronext has long been required by regulators to maintain a "market integrity unit" of surveillance staff to monitor markets - not a requirement for MTFs. "We would argue that Mifid has created an unlevel playing field for which we have good evidence. It all
 
-# Exchanges and trading platforms
+## Exchanges and trading platforms
 
-# Dark pools
+## Dark pools
 
 Venues (\% share of total trading in each equity)
 
@@ -801,9 +801,9 @@ The US has over 40 dark pools in operation, with about half that number in Europ
 
 The lit pools on the normal national exchanges, where prices, bid-offer spreads and offered sizes are visible to every member of the public, contribute to transparency and the price discovery process – see later in this chapter. The problem with the proliferation of trading venues and dispersed order flow is the fragmentation of trading in a company's shares resulting in poorer liquidity on any one platform. Market regulators are trying to improve matters – see Exhibit 8.18.
 
-# Exhibit 8.18
+## Exhibit 8.18
 
-# Call to make 'dark pools' trades public
+## Call to make 'dark pools' trades public
 
 FT
 
@@ -835,9 +835,9 @@ Source: Financial Times, 28 October 2010, p. 33. Reprinted with permission.
 
 Exhibit 8.19 discusses the level of suspicion concerning dark pools and high-frequency traders.
 
-# Exhibit 8.19
+## Exhibit 8.19
 
-# Trust in dark pools is dented
+## Trust in dark pools is dented
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/2f0664a7287cf3a610b672d379706d6bfaa163017f1de398136960a81cc5f02a.jpg)
 
@@ -853,7 +853,7 @@ Yet last week it emerged that slivers of information had leaked out of two dark 
 
 The information - contained in certain data feeds - gave enough clues to anyone who was interested about what orders certain large - although unnamed - participants had sitting in those pools. Traders could then place trades on the public exchanges - on which
 
-# Trust in European dark pools was shaken last week
+### Trust in European dark pools was shaken last week
 
 European dark pool market share*, \% (May 2010) dark pools often base their bid-offer spreads - in the hope of profiting, trading experts say.
 
@@ -869,7 +869,7 @@ But the latest development in dark pools shows trust is in equally short supply 
 
 The sudden withdrawal of trades from the two platforms also raises questions over the role of high
 
-# Exhibit 8.19 continued frequency trading in dark pools. Hitherto such traders, who seek to profit from minute changes in prices between trading venues, were assumed to operate only on exchanges and MTFs. But some suspect that they may be picking off trades in dark pools without the original poster of the order knowing.
+## Exhibit 8.19 continued frequency trading in dark pools. Hitherto such traders, who seek to profit from minute changes in prices between trading venues, were assumed to operate only on exchanges and MTFs. But some suspect that they may be picking off trades in dark pools without the original poster of the order knowing.
 
 Joe Saluzzi, co-head of equity trading at Themis Trading, a US securities firm, says participants have to ask whether some HFTs are actually "predatory" in dark pools, by taking advantage of information they are not supposed to have. "People are going to say they thought they were able to trade, cloaked and anonymously, but now I am supporting a multi-million dollar industry called high-frequency trading," he says.
 
@@ -883,17 +883,17 @@ Rob McGrath, head of trading, Americas at Schroders, says his firm can protect i
 
 Source: Financial Times, 26 May 2010. Reprinted with permission.
 
-# The London Stock Exchange
+## The London Stock Exchange
 
 We will now concentrate on describing UK markets, although the principal features tend to be found in all stock exchanges.
 
-# A short history of the LSE
+### A short history of the LSE
 
 Capital markets go back a long time. In the late Middle Ages securities very much like modern shares were issued and traded in the Italian city states, as were government bonds. The demand from investors in British companies to be able to buy and sell shares led to the creation of a market in London. At first this was very informal – holders of financial securities (e.g. shares) would meet at known places, especially coffee-houses, in the ancient part of London known as the City (the 'Square Mile' that the Romans built a wall around, just to the north-west of the Tower of London). Early in the nineteenth century the Stock Exchange developed a set of rules and procedures designed to enable investors to buy and sell shares with ease and to minimise the risk of fraud or unfairness.
 
 Astonishing as it may seem given today's push for mergers of a number of national exchanges, in the heady days of the industrial boom times – especially the expansion in railways – in the second half of the nineteenth century, 15 stock markets were formed in England (Liverpool, Manchester, Huddersfield, Nottingham, Leicester, Bradford, Oldham, Hull, Bristol, Birmingham, Leeds, Newcastle, York, Halifax and Sheffield), five in Scotland (Glasgow, Edinburgh, Aberdeen, Dundee and Greenock) and three in Wales (Cardiff, Swansea and Newport). The boom times did not last, however, and survival for many of these exchanges was brief. Some continued on until the 1970s but either merged with the LSE or faded away. Modern communications meant that share trading could be conducted hundreds of miles from the company's base or the shareholders, and London amassed more and more trade, killing off the regional exchanges. There is, however, a move towards bringing back local stock exchanges to give local companies access to equity finance. Investbx was formed in 2007 in Birmingham with the aim of helping small to medium businesses raise capital for growth, although it has yet to take off.
 
-# 'Big Bang'
+### 'Big Bang'
 
 Before the 'Big Bang' in 1986, brokers and other market service providers organised share and other security trading such that there was little competition, commission rates were kept high and trading was done on a face-to-face basis. It became clear in the 1970s and 1980s that the LSE was losing trade to overseas stock markets. For the LSE to remain competitive in the modern world, changes had to happen.
 
@@ -901,11 +901,11 @@ Before the 'Big Bang' in 1986, brokers and other market service providers organi
 
 The market makers and brokers quickly passed into the hands of large financial conglomerates. Commission fell sharply for large orders (from 0.4 per cent to around 0.2 per cent of the value traded). However, private clients (investors buying small quantities of shares on their own account) saw an initial slight rise in commission because this sector had previously been subsidised by the fees charged to the institutions. Brokers started to specialise. Some would offer the traditional service of advice and dealing, whereas others would offer a no-frills dealing-only service. This 'execution-only' service is now very cheap.
 
-# Recent moves
+### Recent moves
 
 After centuries of being an organisation owned and run by its members, in 2001 the LSE became a public limited company with its shares traded on a secondary market. It has come a long way from its clubby days. In 2004 the Stock Exchange moved from its historic site in Old Broad Street to Paternoster Square near St Paul's Cathedral. The exchange toyed with the idea of moving out of the City but decided that its identity was tied too closely to the Square Mile to move outside, and the proximity of other professionals in the same area was too convenient.
 
-# Variety of securities traded
+### Variety of securities traded
 
 The LSE is a marketplace for many other types of financial securities besides shares - see Exhibit 8.20.
 
@@ -915,7 +915,7 @@ Exhibit 8.20 Variety of financial instruments sold on the London Stock Exchange
 
 There are four types of fixed-interest securities traded in London: government bonds, local authority bonds, corporate bonds and Eurobonds. As well as long-term bonds the LSE trades medium-term notes and specialised types of bond such as those that are convertible into shares. Specialist securities, such as warrants and covered warrants, are normally bought and traded by a few investors who are particularly knowledgeable in investment matters (warrants are a type of derivative security and are discussed in Chapter 9).
 
-# Depositary receipts
+### Depositary receipts
 
 There has been a rapid development of a market in **depository receipts**. These are certificates that can be bought and sold, and represent evidence of ownership of a company's shares held by a depository. Their purpose is to allow investments in foreign companies without the rigmarole of going through all necessary checks and regulations. Thus, an Indian company's shares could be packaged in, say, groups of five by a depository (usually a bank) which then sells a certificate representing a bundle of shares. The depository receipt can be denominated in a currency other than the corporation's domestic currency and dividends can be received in the currency of the depository receipt (say, pounds) rather than the currency of the original shares (say, rupees). These are attractive securities for sophisticated international investors because they may be more liquid and more easily traded than the underlying shares.
 
@@ -923,9 +923,9 @@ The investment bank J.P. Morgan created the first American Depositary Receipt (A
 
 DRs have been very useful as a means for companies in emerging countries (such as Kazakhstan, Brazil or India) to raise capital from the developed world's exchanges. However, emerging nations have developed to such an extent that they now have wealthy investors looking to invest in the developed world – see Exhibit 8.21.
 
-# Exhibit 8.21
+## Exhibit 8.21
 
-# EM bourses hunt western blue chips
+## EM bourses hunt western blue chips
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/764765f988cd2a0b4b28c23aa83b4dc340fd0e0015abf1a3cd929d2cb71bde7e.jpg)
 
@@ -963,7 +963,7 @@ Depositary receipt trading volumes By exchange or market. H1 2010 (\$bn) looking
 
 Source: Financial Times, 9 August 2010. Reprinted with permission.
 
-# The LSE primary market
+## The LSE primary market
 
 Through its primary market in listed securities, the LSE has succeeded in encouraging large sums of money to flow annually to firms wanting to invest and grow. On its different markets, it has quoted (at 28 February 2011) 2,650 companies with a total market value of £4,153,960 million. The vast majority of these companies raised funds by selling shares, bonds or other financial instruments through the LSE either when they first floated or by issuing further shares in subsequent years (e.g. through a rights issue – see Chapter 9). There are 1,178 companies on the Exchange's market for smaller and younger companies, the Alternative Investment Market (AIM), which started in 1995. These companies, too, have raised precious funds to allow growth. The Main Market (MM) includes 318 listings for companies registered outside the UK, and 86 listings for TechMARK companies, which specialise in innovative technology and healthcare – see Exhibit 8.22. Within the Main Market there are additional small markets for specialist funds (SFM – specialist investment funds such as hedge funds, private equity funds, and certain emerging market and specialist property funds, seeking admission to a public market in London, can use this market to target institutional, professional and highly knowledgeable investors) and professional securities (PSM – this is where depositary receipts are quoted and traded).
 
@@ -987,15 +987,15 @@ Exhibit 8.24 Distribution of UK companies by equity market value, February 2011
 
 Source: London Stock Exchange factsheets.
 
-# The secondary markets
+## The secondary markets
 
 There is a huge amount of shareholder-to-shareholder trading. In a typical month, more than 12 million bargains (trades between buyers and sellers) are struck between investors in shares on the LSE, worth over £200 billion. The size of bargains varies enormously, from £500 trades by private investors to hundreds of millions by the major funds.
 
 The secondary market turnover exceeds the primary market sales. Indeed, the amount raised in the primary equity market in a year is about the same as the value of shares that trade hands daily in the secondary market. This high level of activity ensures a liquid market, enabling shares to change ownership speedily, at low cost and without large movements in price – one of the main objectives of a well-run exchange.
 
-# How stock exchanges work
+## How stock exchanges work
 
-# Types of trading
+### Types of trading
 
 Traditionally, shares were traded between two traders, face to face. A few stock exchanges around the world still have a place where buyers and sellers (or at least their representatives) meet to trade. For example, the NYSE continues to make some use of a large trading floor with thousands of face-to-face deals taking place every working day (open outcry trading). This is the traditional image of a stock market, and if television reporters have a story about what is going on in the world's security markets, they often show an image of traders rushing around, talking quickly amid a flurry of small slips of paper on the NYSE trading floor. Most trading now, however, is done silently in front of banks of computers, with deals being completed in nano-seconds. The stress levels for those dealing remain as high, if not higher, than ever, as now a slight mistake with a finger on a keyboard can cause mayhem.
 
@@ -1205,7 +1205,7 @@ To meet these societal needs stock markets have evolved through their history, n
 
 Euronext. To provide some competition for the national monopolies we have seen the growth of alternative trading platforms such as multilateral trading facilities and dark pools. At the same time technological innovation has changed the method of trading shares so that it is now very much built around sophisticated computer systems that can handle millions of transactions in a day, and can complete thousands of trades in less than the time it takes to blink. We have also seen the amazing growth of stock markets in Asia, to the point where they are a serious challenge to the old centres of equity finance in Europe and North America. Indeed, it is a fairly safe prediction to say that many Asian markets will come to be at least as great as London and New York in the next few years. This makes sense: every society needs equity investors to assist growth through the mobilisation of savings into productive use; and every investor would prefer to have the liquidity that is offered by stock markets than have the difficulty of finding a buyer should they need to sell.
 
-# Key points and concepts
+## Key points and concepts
 - Shares were first issued as a way of raising large amounts of risk capital for a venture from numerous investors, each being offered a share of profits.
 - Ordinary shares represent part ownership of a company. There is no obligation to pay a dividend or redeem shares.
 Limited liability restricts the amount of responsibility that a shareholder has for a company's debts.
@@ -1283,7 +1283,7 @@ Ownership of UK shares -
 - There has been a large decrease in individual shareholders caused by investors putting money into collective investment instead.
 - There has been a big increase in foreign investment in UK and European shares.
 
-# References and further reading
+## References and further reading
 
 Credit Suisse Global investment Returns Yearbook.
 
@@ -1313,7 +1313,7 @@ Vaitilingam, R. (2010) The Financial Times Guide to using the Financial Pages, 6
 
 Good introductory source of information. Clear and concise.
 
-# Websites
+## Websites
 
 ADVFN. Financial data www.advfn.com
 
@@ -1355,11 +1355,11 @@ Yahoo Finance. Financial data www.yahoofinance.com
 
 World Federation of Exchanges www.world-exchanges.org
 
-# Video presentations
+## Video presentations
 
 Chief executives and other senior people describe and discuss policy including the benefits of stock markets in interviews, documentaries and webcasts at Cantos.com. (www.cantos.com) – these are free to view.
 
-# Case study recommendations
+## Case study recommendations
 
 See www.pearsoned.co.uk/arnold for case study synopses.
 
@@ -1371,7 +1371,7 @@ Freeport-McMoRan: Financing an Acquisition (2009) Author: David Stowell. Kellogg
 Note on Depositary Receipts (2004) Author: Walter Kuemmerle. Harvard Business School.
 Cross-Border Listings and Depositary Receipts (2004) Author: Mithir Desai. Harvard Business School.
 
-# Self-review questions
+## Self-review questions
 
 1 What is equity capital? Explain the advantages to the firm of raising capital this way. What are the disadvantages?
 
@@ -1427,7 +1427,7 @@ Cross-Border Listings and Depositary Receipts (2004) Author: Mithir Desai. Harva
 
 27 What is CREST?
 
-# Questions and problems
+## Questions and problems
 
 1 You have been asked by the prospective directors of a shortly to be established business what is meant by ordinary shares, preference shares and debt capital. Further, you have been asked to provide a brief explanation of their relative advantages and disadvantages as sources of funds to expand the business. Write an essay to assist these managers.
 
@@ -1447,13 +1447,13 @@ Cross-Border Listings and Depositary Receipts (2004) Author: Mithir Desai. Harva
 
 9 Frame-up plc is considering a flotation on the Main Market of the London Stock Exchange. The managing director has asked you to produce a 1,000-word report explaining the advantages of such a move.
 
-# Assignments
+## Assignments
 
 1 Analyse a company you know well in the following way. If it is already quoted on a stock market try to discover the cost of being there and write a report weighing up the advantages and disadvantages of maintaining a quotation. If its shares are not quoted on a market write a report weighing up the advantages and disadvantages of joining a market given its circumstances.
 
 2 Examine a company you know well to discover the extent to which it obtains its finance from ordinary shares, preference shares or debt capital. Write a report and explain the merits and problems with each of these forms of finance and recommend action on the balance of finance if you think it is needed.
 
-# Web-based exercises
+## Web-based exercises
 
 1 Go to the statistical section of the website of the London Stock Exchange, www.londonstockexchange. com. Compile a report describing the money raised on the market from investors in the primary market in each of the past twelve months. Describe the benefits these companies might gain.
 

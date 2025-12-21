@@ -1,3 +1,24 @@
+---
+title: "Chapter 11: Other Credit Derivatives"
+parent_directory: Analysis of Fixed Income Securities Full
+formatted: 2025-12-21 05:20:00 PM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - credit derivatives
+  - default baskets
+  - collateralized debt obligations
+  - credit linked notes
+secondary_tags:
+  - credit default swaps
+  - spread options
+  - principal protected notes
+  - convertible bonds
+  - securities lending
+  - commercial mortgage backed securities
+cssclasses: academia
+---
+
 # Chapter 11: Other Credit Derivatives
 
 # 11.1 Introduction
@@ -24,7 +45,7 @@ The default basket contract is a correlation play. If all bonds default independ
 
 Default baskets usually contain only a handful of bonds (if the portfolio is large, then the default basket is not an efficient way to hedge). For example, assume a portfolio of 5 bonds. To gain the perfect default protection, the owner of the portfolio can purchase individual CDS contracts. Say each spread is $s_1$ to $s_5$. And the total premium paid is: $\sum_{i=1}^n s_i N_i$ where $N_i$ is the notional of the $i$-th bond.
 
-This can be very expensive if bonds are high yield. Hence, investors of such portfolios will seek a cheaper alternative. Realistically, not all bonds will default at the same time. In other words, buying all individual CDS is not cost effective. It would ideal to just buy the protection of the first bond that defaults. The others will likely not default (although their prices might be heavily influenced) and still can be sold back to the market.
+This can be very expensive if bonds are high yield. Hence, investors of such portfolios will seek a cheaper alternative. Realistically, not all bonds will default at the same time. In other words, buying all individual CDS is not cost effective. It would be ideal to just buy the protection of the first bond that defaults. The others will likely not default (although their prices might be heavily influenced) and still can be sold back to the market.
 
 The 1st to default basket contract (FTD) is a CDS contract that pays principal minus recovery on whichever bond that defaults first in the contract period. The probability of this happening, for a given period (say 1 year), is:
 
@@ -133,13 +154,13 @@ Principal protected notes are also known as guaranteed linked notes.
 
 A principal protected note (PPN) is a structured finance product that guarantees a rate of return of at least the principal amount invested, as long as the note is held to maturity. A PPN is structured as a zero-coupon bond – a bond that makes no interest payment until it matures – and an option with a payoff that is linked to an underlying asset, index, or benchmark. Based on the performance of the linked asset, index or benchmark, the payoff will vary. For example, if the payoff is linked to an equity index, such as Russell 2000, and the index rises 30%, the investor will receive the full 30% gain. In effect, the principal protected securities promise to return an investor's principal, at the time of maturity, with the added gain from the index's performance if that index trades within a certain range.
 
-A downside to principal protected notes is that the guarantee of principal is subject to the creditworthiness of the issuer or guarantor. Therefore, the prospect of a guaranteed return is not entirely accurate in the event that if the issuer goes bankrupt and defaults on all or most of its payments, including the repayment of investors' principal investment, the investor would lose their principal. Since these products are essentially unsecured debt, investors fall below the tier of secured creditors.
+A downside to principal protected notes is that the guarantee of principal is subject to the creditworthiness of the issuer or guarantor. Therefore, the prospect of a guaranteed return is not entirely accurate in the event that the issuer goes bankrupt and defaults on all or most of its payments, including the repayment of investors' principal investment, the investor would lose their principal. Since these products are essentially unsecured debt, investors fall below the tier of secured creditors.
 
 Furthermore, investors must hold these notes until maturity in order to receive the full payout. Since these notes can have long-term maturities, PPN investments may be costly for investors who have to tie up their funds for long periods of time in addition to paying any imputed interest accrued on the notes every year. Early withdrawals may be subject to withdrawal charges and partial withdrawals may reduce the amount available upon a full surrender.
 
 # Limitations
 
-The dark side of principal protected notes was put to light after the collapse of Lehman Brothers and the inception of the 2008 credit crisis. Lehman brothers had issued many of these notes and brokers were pushing it in the portfolios of their clients who had little to no knowledge of these products. The returns on PPNs were more complicated than was presented on the surface to clients. For example, for an investor in one of these notes to earn the return of the index that was linked to the payoff of the note, as well as get the principal back, the small print may state that the index cannot fall 25% or more from its level at the date of issuance. Neither can it rise more than 27% above that level. If the index exceeds those levels during the holding period, the investors receive only their principal back.
+The dark side of principal protected notes was put to light after the collapse of Lehman Brothers and the inception of the 2008 credit crisis. Lehman Brothers had issued many of these notes and brokers were pushing it in the portfolios of their clients who had little to no knowledge of these products. The returns on PPNs were more complicated than was presented on the surface to clients. For example, for an investor in one of these notes to earn the return of the index that was linked to the payoff of the note, as well as get the principal back, the small print may state that the index cannot fall 25% or more from its level at the date of issuance. Neither can it rise more than 27% above that level. If the index exceeds those levels during the holding period, the investors receive only their principal back.
 
 
 An investor that does not want to deal with the complications of individual PPN securities may opt for principal protected funds. Principal protected funds are money managed funds that consist mostly of principal protected notes structured to protect an investor's principal. The returns on these funds are taxed as ordinary income rather than capital gains or tax-advantaged dividends. Furthermore, fees that are charged by the fund are used to fund the derivative positions used to guarantee the principal returns and minimize risk.
@@ -152,18 +173,13 @@ Provided the reference entity experiences no credit event during the life of the
 
 During the life of the note the investor will also have received regular interest payments, (coupons).
 
-Should the reference entity experience a credit event this triggers redemption of the CLN. But instead of receiving the principal amount originally invested, the investor receives a bond issued by the reference entity. The value of the bond will be worth less than the principal invested.
+Should the reference entity experience a credit event, this triggers redemption of the CLN. But instead of receiving the principal amount originally invested, the investor receives a bond issued by the reference entity. The value of the bond will be worth less than the principal invested.
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/b397d43aa10f2cfc8ca3ecda13b38a244726ebe5b8b002d38d18f4d373d225a0.jpg)
-Figure 11.1: Credit Linked Note
+![Figure 11.1: Credit Linked Note Structure](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/b397d43aa10f2cfc8ca3ecda13b38a244726ebe5b8b002d38d18f4d373d225a0.jpg)
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/c91cda1003e578b2349e65a851b1793a2eb526d806f5f1d9cdbee8d22858fa00.jpg)
-Figure 11.2: Credit Linked Note
+![Figure 11.2: Credit Linked Note Cash Flows](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/c91cda1003e578b2349e65a851b1793a2eb526d806f5f1d9cdbee8d22858fa00.jpg)
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/c0b1a5a74c2871d3312a16adf0dca7e1090ee1e0b910e5ab2c30c6c1aea9f20c.jpg)
-Figure 11.3: Credit Linked Note
-
-USE MORE FROM https://www.barbicanconsulting.co.uk/cln
+![Figure 11.3: Credit Linked Note Risk Profile](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/c0b1a5a74c2871d3312a16adf0dca7e1090ee1e0b910e5ab2c30c6c1aea9f20c.jpg)
 
 # 11.7 Convertible Bonds
 
@@ -188,7 +204,7 @@ Understanding Forced Conversion
 
 Forced conversions occur with convertible securities. Convertible security investments can turn into another form, such as shares of the underlying stock. Convertible bonds or convertible preferred stock are examples of some common convertible securities.
 
-In the case of convertible bonds, the security pays a coupon payment of a fixed amount at regular intervals until the bond reaches maturity. It carries a specific price at which conversion into stock may happen. In most cases, the holder of convertible securities has the right to determine when and if to convert. The bond's originator can typically turn whenever they choose after the conversion date. The same is not true if the issuer has included a forced conversion call feature into the bond.
+In the case of convertible bonds, the security pays a coupon payment of a fixed amount at regular intervals until the bond reaches maturity. It carries a specific price at which conversion into stock may happen. In most cases, the holder of convertible securities has the right to determine when and if to convert. The bond's originator can typically convert whenever they choose after the conversion date. The same is not true if the issuer has included a forced conversion call feature into the bond.
 
 
 Companies issuing the securities sometimes want the ability to force the investor's hand and make them hold the underlying product. To do this, they will add a call feature that allows the company to redeem the bonds based on specific criteria. Frequently, bonds are callable when they are at or near the conversion price. The calculation of the conversion price is at the time of the issue and is a ratio. This ratio, located in the bond's indenture or the security's prospectus, outlines the situations for making the call. For called securities, the investor will receive the return of capital or common stock in an amount equal to the initial investment.
@@ -197,7 +213,7 @@ Example of a Bond Conversion
 
 The conversion ratio, also called the conversion premium, would determine how many shares will change. Shown as a ratio or as a price, it is specific to the bond.
 
-If a bond has a ratio of 45:1, it means the 1000 bond equals 45 shares of the underlying. You may see this rate listed as a percentage premium, such as 5-percent. This premium means the investor who converts into shares at the market price when they bought the bond, plus a 5\% premium. That market price could be different than the current price for the underlying.
+If a bond has a ratio of 45:1, it means the $1000 bond equals 45 shares of the underlying. You may see this rate listed as a percentage premium, such as 5 percent. This premium means the investor who converts into shares at the market price when they bought the bond, plus a 5\% premium. That market price could be different than the current price for the underlying.
 
 Companies will execute a forced conversion to eliminate debt. In this case, bond debt converts to equity. After a forced conversion, the company will issue additional shares, which dilutes the value of those already in the marketplace.
 

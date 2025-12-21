@@ -67,7 +67,7 @@ Typically, a central bank might insist that, say, 10 per cent of the amount depo
 
 The monetary base described above is often referred to as M0, which is a very extreme form of narrow money, i.e. defining what money is in a very narrow way. Banks can use this base to create broad money, which is a multiple of the monetary base. The definitions of broad money vary from country to country, but generally include money that is held in the form of a current (checking) account or deposit account, and some money market instruments. These broad money aggregates often have names such as M3 or M4. You can see why it is difficult to define money because banks can 'create money'. This is illustrated through Exhibit 7.1.
 
-# Exhibit 7.1 Money creation – the credit multiplier
+## Exhibit 7.1 Money creation – the credit multiplier
 
 Assume that all banks in a monetary system are required to keep 20 per cent of deposits as reserves. Bank A has \$100 million of deposits from customers. Because it is sticking to the reserve requirement (required by both the central bank and its own prudential reserves policy) it lends out only \$80 million and keeps 20 million as cash or in its account with the central bank (assume no vault cash for simplicity).
 
@@ -75,7 +75,7 @@ Bank A's opening balance sheet
 
 <table><tr><td>Assets</td><td></td><td>Liabilities</td><td></td></tr><tr><td>Reserves</td><td>$20m</td><td>Deposits</td><td>$100m</td></tr><tr><td>Loans</td><td>80m</td><td></td><td></td></tr></table>
 
-# Exhibit 7.1 Continued
+## Exhibit 7.1 Continued
 
 Now if deposits in Bank A are increased by $5 million the position changes. Deposits rise to $105 million and reserves rise to $25 million as the additional $5 million is initially held as reserves at the central bank.
 
@@ -99,7 +99,7 @@ The credit multiplier is a reciprocal of the reserve ratio, which in this case $
 
 Remember: the creator of the monetary base is the central bank because it has a monopoly on the issuance of currency. If it has control over this then it can strongly influence the broader money supply (including deposits at banks) through the reserves requirements. So, once the system has settled down from the injection of a new deposit, it will be fairly stable – little money creation or removal.
 
-Let us think about where the initial deposit put into Bank A might have come from. If it came from a customer who withdrew it from another bank, the example is null and void because while Bank A benefits from the  \$5 million deposit, the other bank, Bank X, sees a reduction in its reserves at the central bank by an equal amount. It can now lend less than it could before because it has to rebuild its reserves. Thus the stimulus effect of Bank A's deposit is exactly offset by the removal of money from the system by Bank X. If, however, the\$ 5 million came from the central bank purchasing Treasury bills from an investor who then put the newly created cash received into his account with Bank A, we have new money coming into the system and we can expect something like the credit multiplier effect shown above. The central bank is the only player here who can create money out of thin air and pump it into the system if the system is at equilibrium.
+Let us think about where the initial deposit put into Bank A might have come from. If it came from a customer who withdrew it from another bank, the example is null and void because while Bank A benefits from the $5 million deposit, the other bank, Bank X, sees a reduction in its reserves at the central bank by an equal amount. It can now lend less than it could before because it has to rebuild its reserves. Thus the stimulus effect of Bank A's deposit is exactly offset by the removal of money from the system by Bank X. If, however, the $5 million came from the central bank purchasing Treasury bills from an investor who then put the newly created cash received into his account with Bank A, we have new money coming into the system and we can expect something like the credit multiplier effect shown above. The central bank is the only player here who can create money out of thin air and pump it into the system if the system is at equilibrium.
 
 Thus, despite commercial banks' ability to create money on the way to equilibrium, there is a limit to the amount that the system as a whole can go up to because for every dollar, pound, euro, etc. created there has to be a fraction held as a cash reserve. It is the central bank that controls the total volume of monetary base (reserves at the central bank plus cash in circulation and at deposit-taking institutions) and so the broader aggregates of money have an upper limit. Small changes in the monetary base can have a large impact on the amount of broad money in the system and so we often refer to the monetary base as high-powered money. It is the monetary base that central banks target to influence money supply, interest rates, inflation and economic output.
 
@@ -108,7 +108,7 @@ Central banks have three major tools they use to increase or decrease the money 
 - discount rate changes;
 - reserve requirement ratio changes.
 
-# Open market operations
+## Open market operations
 
 This is the most important tool of monetary policy in most countries today. Open market operations means the buying and selling of government securities (Treasury bills and bonds) in the normal trading markets on a day-to-day basis. In purchasing government securities the central bank creates money to hand it over to those selling. It issues currency notes or it writes a cheque in the name of the owner. When the cheque is drawn on, the central bank just creates an amount of credit for itself to satisfy the buyer – money from thin air. When the central bank sells government securities, the purchasers draw on their money in the banking system which leads to a lowering of reserves.
 
@@ -118,13 +118,13 @@ Bank A. Lending out just enough to attain minimum reserve ratio
 
 <table><tr><td>Assets</td><td></td><td>Liabilities</td><td></td></tr><tr><td>Reserves</td><td>$21m</td><td>Deposits</td><td>$105m</td></tr><tr><td>Loans</td><td>84m</td><td></td><td></td></tr></table>
 
-The central bank wants to inject money into the financial system and lower interest rates. It offers to buy billions of dollars of government securities. One of the customers of Bank A sells \$6 million of securities to the central bank. The central bank sends money to the customer of Bank A who deposits the newly created money (an electronic record rather than cash) in Bank A. Bank A adds this \$6 million to its reserve account at the central bank. Now Bank A's balance sheet looks like this.
+The central bank wants to inject money into the financial system and lower interest rates. It offers to buy billions of dollars of government securities. One of the customers of Bank A sells $6 million of securities to the central bank. The central bank sends money to the customer of Bank A who deposits the newly created money (an electronic record rather than cash) in Bank A. Bank A adds this $6 million to its reserve account at the central bank. Now Bank A's balance sheet looks like this.
 
 Bank A balance sheet after an injection of 6m
 
 <table><tr><td>Assets</td><td></td><td>Liabilities</td><td></td></tr><tr><td>Reserves</td><td>$27m</td><td>Deposits</td><td>$111m</td></tr><tr><td>Loans</td><td>84m</td><td></td><td></td></tr></table>
 
-Bank A has a very high reserve level relative to its deposits, $\27\mathrm{m} \div \$111\mathrm{m} = 24.3$ per cent. The managers will want to employ the surplus money above that needed to maintain the target reserve ratio (20 per cent) to earn higher interest by lending it, thus new money flows into the financial system. If the central bank wanted to drain money from the system through open market operations it would sell government securities to investors, which reduces the amount held by banks in their reserve accounts at the central bank or reduces vault cash. This would curb lending and raise interest rates.
+Bank A has a very high reserve level relative to its deposits, $27m \div $111m = 24.3$ per cent. The managers will want to employ the surplus money above that needed to maintain the target reserve ratio (20 per cent) to earn higher interest by lending it, thus new money flows into the financial system. If the central bank wanted to drain money from the system through open market operations it would sell government securities to investors, which reduces the amount held by banks in their reserve accounts at the central bank or reduces vault cash. This would curb lending and raise interest rates.
 
 Central banks tend to use Treasury securities to conduct open market operations because the secondary market in these securities is very liquid and a large volume of these securities held by dealers and investors, meaning that the market can absorb a large number of buy and sell transactions. The main method used is a repurchase agreement – a repo – in which the central bank purchases securities with a prior agreement to sell them back to the counterparty after, say, 24 hours, 7 days or 14 days. The difference between the buying and selling price provides the effective interest rate. If the central bank wanted to drain money it would engage in a reverse repo (there is more on repos in Chapter 5).
 
@@ -132,7 +132,7 @@ Repos and reverse repos are, by their nature, temporary interventions because th
 
 What you need to bear in mind is that every day banks trade surplus reserves with each other. Banks always have an incentive to lend – even if only for 24 hours – if they find themselves with too many reserves. Each day there will be dozens of other banks that find themselves temporarily below the reserve level they need and so they willingly borrow in the interbank market.
 
-# The supply and demand of reserves
+## The supply and demand of reserves
 
 The main target for central banks is usually the overnight (24-hour) interest rate on loans of reserves from one bank to another. In the US this is the federal funds rate in the Eurozone it is the overnight repo rate in euros, and in the UK it is the overnight sterling repo rate. Switzerland opts for the Swiss franc LIBOR target rate.
 
@@ -154,7 +154,7 @@ So far we have discussed dynamic open market operations, that is, where the cent
 
 When the central bank wants to change short-term interest rates it can often do so merely by announcing its new target rate and threatening to undertake open market operations to achieve it rather than actually intervening. The money market participants know that if they do not immediately move to the new rate they will find difficulties. For example, if the central bank shifts to target an interest rate lower than previously (i.e. it will lend on the repo market at a new lower rate) then anyone wanting to borrow will be foolish to borrow at a higher rate. Conversely, if the central bank announces a new higher target rate, anyone wanting to lend will be foolish to accept a lower rate than the central bank's target, because it stands ready to trade at its stated rate.
 
-# Discount rate changes
+## Discount rate changes
 
 There is an option for banks to borrow additional reserves from the central bank – this is discount window borrowing. So, if Bank A is temporarily short of reserves it could ask the central bank to simply create additional reserves and add them to its account at the central bank. There is thus an increase in reserves in the financial system and an increase in the money supply. Furthermore, Bank A could borrow from the central bank's discount window even if it was not short of reserves. It could then lend the money to businesses and individuals or lend the additional reserves to other banks in the money markets (e.g. repo).
 
@@ -176,7 +176,7 @@ Exhibit 7.5 Discount window lending down, the point of intersection with the dem
 
 A few decades ago adjusting the discount rate was the main way in which many central banks effected monetary policy, but the problem with this approach became increasingly apparent. It is difficult to predict the quantity of discount rate borrowing that will occur if the discount rate is raised or lowered, and so it is difficult to accurately change the money supply. Today changes in the discount rate are used to signal to the market that the central bank would like to see higher or lower interest rates: a raising indicates that tighter monetary conditions are required with higher interest rates throughout; lowering it indicates that looser, more expansionary monetary conditions are seen as necessary. Discount rate borrowing is used by generally sound banks in normal market conditions on a short-term basis, typically overnight, at a rate above the normal open market target rate. But, given the higher interest rate, it is used sparingly. Companies in real trouble, unable to borrow in the money markets and experiencing severe liquidity problems, may have to pay an even higher interest rate than the discount rate to borrow from the central bank.
 
-# Reserve requirement ratio changes
+## Reserve requirement ratio changes
 
 The power to change the reserve requirement ratio is a further tool used by central banks to control a nation's money supply. A decrease in the reserve requirement ratio means that banks do not need to hold as much money at the central bank or in vault cash and so they are able to lend out a greater percentage of their deposits, thus increasing the supply of money. The new loans result in consumption or investment in the economy, which raises inflows into other banks in the financial system and the credit multiplier effect takes hold, as illustrated in Exhibit 7.1. The process of borrowing and depositing in the banking system continues until deposits have grown sufficiently such that the new reserve amounts permit just the right amount of deposits – the target reserve ratio is reached.
 
@@ -186,15 +186,15 @@ Conversely, a decrease in the required ratio leads to a decrease in the quantity
 
 The main drawback to using changes in the reserve ratio is that it is difficult to make many frequent small adjustments because to do so would be disruptive to the banking system (a sudden rise can cause liquidity problems for banks with low excess reserves). Open market operations, however, can be used every day to cope with fluctuations in monetary conditions.
 
-# Exhibit 7.6 A change in required reserves shifts the demand curve
+## Exhibit 7.6 A change in required reserves shifts the demand curve
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/3523d6900304b3108dc883c4ba97209f62e5a1ebd60a90e2a26c2f100c0ec1cc.jpg)
 
 Exhibit 7.7 discusses the raising of reserves in China to bear down on inflation.
 
-# Exhibit 7.7
+## Exhibit 7.7
 
-# HK and China act to control inflation
+## HK and China act to control inflation
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/66956340a3e11f2b737fc20aa4935c899f2ca62188a46078d8378e0753aab311.jpg)
 
@@ -214,11 +214,11 @@ Separately, the Hong Kong Monetary Authority, the territory's de facto central b
 
 Source: Financial Times, 20 November 2010, p. 8. Reprinted with permission.
 
-# Averaging reserves
+## Averaging reserves
 
 The leading central banks usually do not require that reserves are a fixed percentage of deposits every day. Instead they insist on the average reserve ratio over a month being above a particular level. Thus, banks are permitted to go below the designated ratio for a number of days in the month, but will have to make up for this on other days. This allows a bank more flexibility because there are bound to be days when there is a large outflow (e.g. when millions of people pay their tax bills), which can be followed by a gradual rebuilding of reserves by borrowing from other financial institutions (or the central bank) over the following week or so.
 
-# How monetary policy impacts the economy
+## How monetary policy impacts the economy
 
 The actions of the central bank are designed to have a significant impact on the key economic variables. These relationships are shown in Exhibit 7.8. If the central bank believes that the economy needs to expand at a faster rate (while not unleashing high inflation), it can follow the pink route (selecting the most appropriate monetary tool). Lower interest rates encourage consumers to borrow and businesses to invest. If, however, it looks as though it is already expanding too fast to achieve the required inflation rate, the central bank can rein it in by following the purple route in which interest rates rise, money supply falls and people and businesses spend less.
 
@@ -246,13 +246,13 @@ Having said this, it is important to avoid focusing excessively on inflation in 
 
 Many financial systems have a hierarchy of objectives whereby price stability is set as the primary objective. Then, so long as that is achieved, the other objectives can be aimed at. The US is going through a debate about its goals at the time of writing. The Federal Reserve is supposed to balance out high growth, maximum employment and stable prices, but policy makers are considering a switch to a hierarchy with inflation prioritised – see Exhibit 7.9.
 
-# Exhibit 7.9
+## Exhibit 7.9
 
-# Bernanke moves closer to formal inflation target
+## Bernanke moves closer to formal inflation target
 
 FT
 
-# Robin Harding
+## Robin Harding
 
 Ben Bernanke's road to an explicit inflation objective for the Federal Reserve has been a long one and he has still not reached the end of it.
 
@@ -268,7 +268,7 @@ Mr Bernanke has been pressing for a clear inflation goal since he became Fed cha
 
 Additional reporting by Chris Giles in London and Edward Luce in Boston
 
-# The independence of central banks
+## The independence of central banks
 
 An important question for a government to decide is the degree of freedom it gives its central bank to conduct monetary policy. Is it to be conducted by the central bank's own experts or should elected politicians have the ultimate say on whether interest rates should rise or fall?
 
@@ -279,12 +279,12 @@ There are two types of independence:
 
 Instrument independence is common, but goal independence is rare. The US central bank, the Fed, has both types of independence – politicians do not control the Board of Governors nor the purse strings of the Fed (although they can influence the appointment of some board members). The European Central Bank has an extraordinary degree of independence. The member country governments of the Eurosystem are not permitted to instruct the ECB. The Maastricht Treaty, which established the monetary union, states that the long-term goal of the ECB is price stability, but does not specify what that means, leaving it up to the Executive Board members to decide the target inflation rate. And, of course, the ECB has control over the tools it uses. Furthermore, whereas the US system can be changed by new legislation (if the politicians change the law they can establish control over the Fed), this is more difficult in the Eurozone, because the Eurosystem's charter can be altered only by a revision of the Maastricht Treaty, which requires consent of all the signatory countries. In 1997, the Bank of England was given a high degree of instrument independence to decide when and how to raise or lower interest rates (prior to that the Chancellor of the Exchequer had ultimate control). However, the government can in extreme economic circumstances overrule the Bank for a limited period. The inflation goal is still established by the Chancellor.
 
-# The advantages of independence
+## The advantages of independence
 - Political control can lead to higher inflation It is argued that politicians often have a short-term perspective driven by the need to impress voters before the next election. This may mean sacrificing a stable price level to achieve immediate improvements in unemployment, growth or house mortgage rates. The populace, also often short-sighted, sees the immediate improvement, but does not grasp the long-term damage wrought when inflation takes off in the low interest rate environment. It is only a year or so later that they suffer the effects of economic instability and the need to bring down inflation. A politically insulated central bank is more likely to take decisions which are beneficial over the long run, even if they cause a little pain now. Thus, instead of politically motivated booms just before elections and busts after them, we see a more stable pattern of growth and inflation.
 - Reduced temptation to support government spending The central bank regularly buys and sells bonds and Treasury bills previously issued by the government to influence the interest rates banks are charging each other when borrowing to top up their reserves. It is another step to start buying government instruments direct when the government wishes to expand its spending. In buying them the central bank will create new money which the government will put into the economy when it buys new bridges, for instance, or pays out more in social security. This can be dangerously inflationary. It is what Zimbabwe did in the 2000s – resulting in inflation of millions of percent per year.
 - Politicians lack expertise Central bank employees have much more skill in this area than the average politician, or even the above-average politician.
 
-# The disadvantages of independence
+## The disadvantages of independence
 - **Undemocratic** The central bank makes important decisions that affect everyone and yet it is in the control of people who are not accountable at the ballot box. Politicians control fiscal policy (government spending and taxation); perhaps they should also control monetary policy so that the two can be better coordinated. But would such consolidating of the levers of economic power really bring about a better result?
 - Central banks fail from time to time In the early 1930s central banks failed to put money into the financial system at crucial moments. They also failed to analyse and act upon the build-up to the 2008 crisis, in particular the excessive borrowing and rise in asset (e.g. house) prices. Are these failures of independence? Were there wiser political voices outside the central bank anticipating problems and calling for robust countervailing action? I can't speak of the 1930s politicians, but my memory of 2006 and 2007 is not peppered with smart politicians' warnings of doom.
 
@@ -292,9 +292,9 @@ Some academic research has investigated the correlation between independence and
 
 Political independence is so highly prized by Eurozone policy makers that there was a storm in 2010 when the ECB was persuaded to purchase European government bonds to help the financial rescue of Greece in May and to try to avoid one in Portugal and Spain in December. Even though this did not put more money into the financial system because the ECB sold other securities to offset the potential monetary boost, it was seen as bestowing a favour on a few countries by propping up their bond markets – see Exhibit 7.10.
 
-# Exhibit 7.10
+## Exhibit 7.10
 
-# Bank's U-turn stokes concern over political interference
+## Bank's U-turn stokes concern over political interference
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/74e20456eed64573a461cbb26e72b564ef069f09d53ea44a63b00071ea692da8.jpg)
 
@@ -328,19 +328,19 @@ That strictly monetary focus of the programme could have helped Mr Trichet persu
 
 Source: Financial Times, 11 May 2010, p. 8. Reprinted with permission.
 
-# Quantitative easing
+## Quantitative easing
 
 In extreme circumstances a central bank may find that interest rates have been reduced to the lowest level they could go and yet still economic activity does not pick up. People are so shocked by the crisis – increased chance of unemployment, lower house prices, lower business profits – that they cut their consumption and investment regardless of being able to borrow at very low interest rates. This happened in 2009 and 2010. Annualised short-term interest rates in Eurozone countries were less than 1 per cent, in the UK they were 0.5 per cent and in the US they were between 0 per cent and 0.25 per cent. Clearly, low short-term interest rates were not enough to get the economy moving, even with the additional boost of government deficit spending to the extent that up to one-eighth of all spending was from government borrowing.
 
 In response another policy tool was devised: quantitative easing. This involves the central bank electronically creating money ('printing money') which is then used to buy assets from investors in the market. Thus pension funds, insurance companies, non-financial firms, etc. can sell assets, mostly long-term government bonds (but can include mortgage-backed securities and corporate bonds), and their bank accounts are credited with newly created money. This raises bank reserves, allowing more lending in the economy. Furthermore, the increased demand for government bonds raises their prices and lowers interest rates along the yield curve. In the UK the BoE bought £200 billion of such assets during 2009 and 2010. The Fed bought \$1,750 billion bonds (mostly mortgage-backed and government), then ran a second round (called QE2) in 2010-2011 of \$600 billion. There is much discussion about the effectiveness and dangers of quantitative easing – see Exhibit 7.11.
 
-# Exhibit 7.11
+## Exhibit 7.11
 
-# The Fed is right to turn on the tap
+## The Fed is right to turn on the tap
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/294b053beaf41137b04e6e71c96f97f745df286f84da4a4908159151cf458ef3.jpg)
 
-# Martin Wolf
+## Martin Wolf
 
 The sky is falling, scream the hysterics: the Federal Reserve is pouring forth dollars in such quantities that they will soon be worthless. Nothing could be further from the truth. As in Japan, the policy known as "quantitative easing" is far more likely to prove ineffective than lethal. It is a leaky hose, not a monetary Noah's Flood.
 
@@ -352,7 +352,7 @@ Treasury securities by the end of the second quarter of 2011, a pace of about 75
 
 Ben Bernanke, the Fed chairman, gave the rationale in a speech last month. He pointed out that US unemployment is far above any reasonable estimate of equilibrium. Moreover, prospective economic growth makes it unlikely that this will change over the course of 2011. This is bad enough, but what makes it worse is that underlying inflation has fallen close to
 
-# Exhibit 7.11 continued
+## Exhibit 7.11 continued
 
 1 per cent, in spite of the expansion of the Fed's balance sheet, over which so many tears were shed. Expectations of inflation were well anchored, he added, but that might change once deflation gripped. Given the slack, that might not be far away.
 
@@ -500,7 +500,7 @@ The regulators frequently face a difficult decision. For example, in 2008 Bear S
 
 Governments and regulators are grappling with the problem of having so many banks that are too big to fail. Should we break them up into smaller units so that each individual unit can go bust without any systemic/domino effect? Should we tax them more because of the costs they impose on society? Should we impose very high capital reserve ratios and liquidity reserve ratios (and make them even higher for the most risky activities) to reduce the likelihood of liquidation? Should we introduce living wills, whereby banks have to report regularly to the authorities on how they would put into effect an orderly winding down of the business as well as how they would plan for recovery in a crisis?[6] – see Exhibit 7.14.
 
-# Banks' survival rates should improve with living wills
+## Banks' survival rates should improve with living wills
 
 FT
 
@@ -512,7 +512,7 @@ But, if anything, the handling of the current financial crisis has reinforced to
 
 We propose the use of living wills to curtail too-big-to-fail, perhaps even thereby allowing systemically important banks, such as Citigroup, Goldman Sachs or Barclays, to fail or, at least, to be unwound. The aim is to put in place, ex ante, conditions that would allow a wider range of options beyond having the whole bank rescued.
 
-# In the recent banking crisis, the authorities, almost without exception, acted purely on the basis of narrow national interest
+## In the recent banking crisis, the authorities, almost without exception, acted purely on the basis of narrow national interest
 
 Living wills can play a vital role in the post-crisis world. Take the definition of a systemically important financial intermediary (SIFI). The need for special treatment of such SIFIs plays, for example, a central role in the recently enacted Dodd-Frank financial reform act in the US. But we do not know how to distinguish between a SIFI and an intermediary that is not a SIFI, and we suspect that the distinction between what is systemic, and what is not, will be fluid, varying over time depending on conditions. The fuzzy outlines of the definition of "systemic" are likely to force upon regulatory authorities more discre tionary decisions than either they, or the regulated, will find comfortable.
 
@@ -520,13 +520,13 @@ What we do know, however, is that the set of systemic financial intermediaries o
 
 What are the key elements of such living wills? First, there should be discussions between the senior management of a bank and its supervisors about requiring a cross-border SIFI to simplify its often opaque structure, particularly to facilitate it being wound down in a really serious crisis. But before that stage may be reached, the living will will also require the bank to make contingent funding and de-risking plans to recover. Next, if that should fail, credible resolution plans should be drawn up to keep a bank alive, if needed. In the case of international banks, these plans could include a burden sharing mechanism for central banks (liquidity support) and ministries of finance (capital support). The burden sharing should be agreed on an institution by institution basis. Third, a bankruptcy scenario might help to bring possible shortcomings in deposit guarantee schemes and inconsistencies between insolvency regimes to the forefront of attention before the event pressurising the authorities (including lawmakers) to tackle such inconsistencies occurs.
 
-# Countries should dig into the legal nitty-gritty and design a common and credible cross-border insolvency regime
+## Countries should dig into the legal nitty-gritty and design a common and credible cross-border insolvency regime
 
 But we believe that living wills, though an essential future component of a satisfactory global financial system, will not be enough by themselves. In addition, there needs to be a common insolvency framework, should (parts of) an institution need to be put into liquidation. A major barrier, at present, is the patchwork of different legal structures, controlling such insolvencies, in all such countries. The insolvency procedure for international banks is currently a nightmare for depositors, creditors, and shareholders, but a paradise for insolvency lawyers.
 
 Could we not take this opportunity to devise, introduce and enact identical laws in all major countries? There are precedents; the acceptance in the law of many countries of the close-out netting clauses of an International Swaps and Derivatives Association master agreement for settling outstanding derivative contracts in the event of one of the parties' failure to make a payment or bankruptcy is one.
 
-# Exhibit 7.14 continued
+## Exhibit 7.14 continued
 
 Even so, countries should dig into the legal nitty-gritty and design a common and credible cross-border insolvency regime for systemic banks, that is if countries really want to curtail the current too big - or, too complex - to fail practice. Charles Goodhart is emeritus professor of banking and finance at the London School of Economics. This piece was coauthored by Dirk Schoenmaker,
 
@@ -536,9 +536,9 @@ Source: Financial Times, 10 August 2010, p. 30. Reprinted with permission.
 
 The too big to fail problem is particularly acute with an international bank made up of branches (where capital and liquid assets are kept in a single country) rather than a collection of self-sufficient subsidiaries – see Exhibit 7.15.
 
-# Exhibit 7.15
+## Exhibit 7.15
 
-# Multinationals weigh up Turner proposals
+## Multinationals weigh up Turner proposals
 
 FT
 
@@ -562,7 +562,7 @@ Antonio Horta-Osorio, chief executive of Abbey National, conceded the stand-alon
 
 Source: Financial Times, 3 November 2009, p. 20. Reprinted with permission.
 
-# Bank supervision
+## Bank supervision
 
 It is important that an authority investigates and approves the appointment of those who operate banks and continues monitoring and surveillance to ensure they are operated well. This is bank supervision or prudential supervision. Banks can be powerful money-grabbing tools in the hands of crooks. They can also be a temptation to over-ambitious entrepreneurs who may see a large pot of (depositors') money that could be used to invest in speculative ventures. Thus, the authorities (often central banks) license or charter all banks (and other deposit-taking institutions) to ensure that they are run by fit and proper persons. In this way any proposal for a new bank is scrutinised, as are the controllers of the bank. The regulator then requires regular reports and makes regular visits to the banks to ensure that there is compliance with the safety rules. This usually includes aspects shown in Exhibit 7.16.
 
@@ -572,7 +572,7 @@ If, on examination, a bank performs badly on any of the CAMELS factors, the regu
 
 It is not always the case that the central bank acts as the main supervisor of banks. In the UK, the Financial Services Authority is the primary bank supervisor until 2013 when responsibility (apart from consumer protection aspects) will be handed over to the BoE.
 
-# Capital and liquidity adequacy
+## Capital and liquidity adequacy
 
 Banks know that they would be foolish to lend out all the money they take as deposits. It makes sense to have self-imposed rules on what proportion to keep in cash and what proportion to keep in short-term securities (e.g. money market instruments) that could fairly quickly be turned into cash. However, banks are foolish from time to time and are tempted away from the rational path and therefore need externally imposed rules to prevent them from stepping over the line that takes them into imprudent territory. Holding cash and short-term lending is usually less profitable than long-term lending and so ambitious bankers, looking to boost profits, sometimes transfer more of their resources to long-term lending, leaving only a small buffer of cash or near-cash to meet immediate extraordinary cash outflows should, say, large numbers of depositors insist on a return of their money. In other words, they take excessively high liquidity risk.
 
@@ -582,11 +582,11 @@ Thus, it is possible for a bank to look good on a liquidity perspective – plen
 
 I remember an impassioned debate in 2008 as one bank after another called on their central banks for funds. The managers would declare that the only issue facing them was a short-term decline in cash balances: they had grown used to drawing loans from the money market on a daily basis and suddenly these were now closed. At first the central banks agreed and supplied the needed cash. There were sceptical voices in the press saying that the loss of bank assets, as households found they could not repay their mortgages and as corporate loans turned sour (particularly those lent to property developers), meant that the buffer of capital was diminishing by the day, to the point where many banks were headed towards negative equity territory. We witnessed a rapid morphing from a liquidity crisis into a bank solvency crisis. As the economy spiralled downwards it became plain for all to see that there was going to be such a volume of loan impairments and financial instrument counterparty defaults that banks desperately needed more equity capital injected into them to widen the gap between assets and liabilities to a safe level.
 
-# A safe reserve level
+## A safe reserve level
 
 The questions regulators have grappled with for many decades are: what is a safe level for capital reserves? And what is a safe level for liquidity reserves? If we look at capital reserves first we can start our thinking by recognising that some assets held by a bank have little or no risk of default. Obviously, as cash has no risk of default there is no need to keep a capital buffer for this asset. Some types of loans made by banks, e.g. lending to the German, UK or US governments, have some degree
 
-# Exhibit 7.16 The CAMELS method of bank inspection
+## Exhibit 7.16 The CAMELS method of bank inspection
 
 <table><tr><td></td><td>Examples of questions considered</td></tr><tr><td>C Capital adequacy</td><td>Does it have sufficient equity capital for the amount of lending it is doing?Are management prepared to obtain additional capital?</td></tr><tr><td>A Asset quality</td><td>Are the assets held too risky?Is there good diversification?Are there sound processes/systems for controlling risk (e.g. staff are abiding by prudent policies and have limits of the risk exposure they can create)?Is there sufficient provision for bad debts? (The bank examiner can force a write-off)</td></tr><tr><td>M Management</td><td>is the quality of its management good?Honest and competent at identifying, measuring, monitoring and controlling risk?Are there adequate controls and internal information flows?Good controls to prevent fraud?</td></tr><tr><td>E Earnings</td><td>Are earnings stable at a reasonably high level?Is the source of earnings high quality?</td></tr><tr><td>L Liquidity</td><td>Does the bank hold sufficient reserves?Are there plenty of assets that can be converted to cash quickly without serious loss of value?Does the bank have good access to money market loans?</td></tr><tr><td>S Sensitivity to market risk</td><td>Are management processes good for coping with interest rate risk, exchange rate risk, equity market risk and commodity risk?Is the bank particular sensitive to these risks?</td></tr></table> of risk of default but this is very small. Lending to a manufacturer, however, usually has a fairly high level of default. It is clear that we need different amounts of capital depending on the asset category. Thus, the total of all unsecured corporate loans a bank holds might need to be backed up with, say, 8 per cent of the balance sheet value composed of capital, whereas the loans to local government lending needs to be backed up with only, say, 1.6 per cent of the value in the form of capital.
 
@@ -600,7 +600,7 @@ Exhibit 7.17 A bank's capital risk weighting
 
 Total capital required: £13,100m × 0.08 = £1,048 million Thus, bank assets must exceed bank liabilities by £1,048 million to withstand the possibility of a substantial proportion becoming bad loans.
 
-# Basel I
+## Basel I
 
 Capital reserve levels are not just national affairs because banking is international. The 'banker to the central banks' is the Bank for International Settlements, based in Basel, Switzerland. The central bankers gathered together in the 1980s to discuss setting minimum solvency standards applicable to any bank from a member country of the Basel committee. Now the 'Basel rules' have been adopted in more than 100 countries.
 
@@ -618,7 +618,7 @@ One half of capital had to be tier 1 (4 per cent of risk-weighted assets), but t
 
 Banks regarded as being undercapitalised under the Basel rules might have been seized by national authorities in the worst case. However, it was more likely that the country's regulator insisted will insist on guiding them back to health, which could include rights issues to raise more equity capital, asset sales, subsidiary sales and the sacking of executives.
 
-# Basel II
+## Basel II
 
 In the late 1990s regulators and bankers concluded that the Basel I rules were too simplistic because they took broad categories of loan and insisted that the same risk weight apply to each. Thus, when any bank from an Organisation for Economic Cooperation and Development (OECD) country borrowed, the lending was regarded as having the same risk weighting (i.e. 20 per cent) as for all other OECD banks, regardless of whether it was a US bank or from a more risky country. The risk weighting for this type of loan was much lower than lending to multinational corporations whose loans were often given a 100 per cent weight, yet most observers would agree that many multinationals are safer borrowers than some banks in some OECD countries. Another bone of contention was that Basel I did not properly differentiate between a loan to a company with a AAA credit rating and one to a company with a much lower rating – they all carried the same weight. This led to a form of regulatory arbitrage in which, within a category (same risk weight), banks mostly could be tempted to lend to the riskiest clients because this paid the highest interest without requiring any more capital than a low-risk low-interest-rate loan.
 
@@ -628,7 +628,7 @@ Also, there are a number of off-balance-sheet assets (and liabilities) for which
 
 Unfortunately, Basel II was not a success. Surprise, surprise, once the banks were able to use their own valuation and risk models to influence the regulatory capital level, the amount they held fell. Well, you see, bankers were so smart that they had diversified away much of the risk, or they had bought insurance so that if a loan went bad the insurer paid up. Lower risk, therefore lower risk weighting. Perfect. Except they forgot to account for the possibility of asset returns all going down together (so much for diversification) or for the insurers/derivative counterparties going bust and not paying out.
 
-# Basel III
+## Basel III
 
 Basel II was rapidly overtaken by events: the financial crisis revealed that many banks had not been cautious enough in setting their capital and liquidity reserves. The regulatory framework simply did not work. The rules were complicated, carefully calculated from detailed formulae, but as with so much in finance, the answers were precisely wrong rather than roughly right. Only five days before Lehman's went bust it had a tier 1 capital ratio of 11 per cent. There was far too much optimism, far too much faith in the reported market value of assets, and far too little recognition of the possibility that the new-fangled financial instruments can lose value overnight and that, when they do so, many banks experience knock-on effects and they all collapse together in an enmeshed mass. Banks had moved so far away from simple deposit taking and lending into weird and dangerous securities that it was difficult for the regulators to keep up. Banks would deliberately structure an obligation so that it could be granted a low risk weighting, even though the bankers knew that the real exposure was high. For example, if you took a group of mortgages that had a risk weighting of 50 per cent and converted it into securitised bonds with a AAA rating, you could sell them to other investors, taking them off the balance sheet. You could then replace the asset by buying other banks' AAA-rated mortgage-backed bonds and you no longer needed to hold much capital reserve for them. Risk just seemed to disappear from the system. There is more on the crisis in Chapter 16.
 
@@ -666,9 +666,9 @@ Those undertaking risky activities, especially trading financial instruments suc
 
 These new rules are to be phased in over the period until the end of 2018. For 2013-2015 the minimum (simply to operate as a bank) is to be gradually raised to 4.5 per cent of risk-weighted assets. In the four years after 2015 the conservation buffer will be phased in on top of the minimum until the full 7 per cent is reached. This seems a leisurely timetable, but many central banks have already signalled that they expect their banks to achieve the targets much faster than this - see Exhibit 7.19.
 
-# Exhibit 7.19
+## Exhibit 7.19
 
-# Basel III rules behind StanChart capital raising
+## Basel III rules behind StanChart capital raising
 
 Patrick Jenkins
 
@@ -700,7 +700,7 @@ That is important in a world where local regulators are demanding more of a focu
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/1d80cd0ec8a1ff728d7c84f3f04c10032b9e44257f475748a0aa35647ec0774f.jpg)
 
-# Bank's capital positions
+## Bank's capital positions
 
 Market capitalisation (latest)
 
@@ -712,7 +712,7 @@ Equity capital raised
 
 Since start of banking crisis
 
-# HSBC
+## HSBC
 
 £118.7bn
 
@@ -720,7 +720,7 @@ Since start of banking crisis
 
 £13.2bn
 
-# Santander
+## Santander
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/acc31feca4694587ea59cc467d10761dc36bb1462a42a059345fffe7080796c7.jpg)
 
@@ -730,7 +730,7 @@ Since start of banking crisis
 
 €7.2bn
 
-# Lloyds Banking Group
+## Lloyds Banking Group
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/d919d9cbac9d45dab6bbb5b56e7ad053cc81bbe28a6c1e67a0acabd1c5772ecc.jpg)
 
@@ -740,7 +740,7 @@ Since start of banking crisis
 
 £35.3bn
 
-# Standard Chartered
+## Standard Chartered
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/7391b1b62409d04b31d2b70b28f7dc9c4ce147e465f257ee6f70dacf623827ab.jpg)
 
@@ -752,7 +752,7 @@ Since start of banking crisis
 
 Including £3.3bn announced Oct13
 
-# Barclays
+## Barclays
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/d7d5946566667e90a8fe2ea14d70007eb82148f95b1edac5620d7485e5d102bf.jpg)
 
@@ -762,7 +762,7 @@ Including £3.3bn announced Oct13
 
 £4.0bn
 
-# Royal Bank of Scotland
+## Royal Bank of Scotland
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/1603257df14d1574ababe3f22c85ca4a321e2e5052ee63ab8f0bfa846550e22c.jpg)
 
@@ -796,9 +796,9 @@ Some countries have already been explicit in stating that they will go further t
 
 The Basel III rules are already resulting in shifts in banks' balance sheets - see Exhibit 7.20.
 
-# Exhibit 7.20
+## Exhibit 7.20
 
-# Basel rules spark mitigation drives
+## Basel rules spark mitigation drives
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/260c3b8a4b7cabb0fc0762d06c03adb6e54788137445b0074a84a011607e1e84.jpg)
 
@@ -814,7 +814,7 @@ Over the third-quarter results season, most leading banks disclosed projections 
 
 But by mitigating - selling off or otherwise reducing the amount of riskier assets held - most banks also believe that they can limit
 
-# Exhibit 7.20 continued the impact of the reforms without significantly harming earnings.
+## Exhibit 7.20 continued the impact of the reforms without significantly harming earnings.
 
 Some of the easiest ways for banks to reduce their RWAs is to shut down or limit their exposure to business lines that will attract a higher risk weighting, such as so-called correlation trading, structured credit and asset securitisation.
 
@@ -830,7 +830,7 @@ McKinsey also argues that banks can cut their requirements by using more sophist
 
 Source: Financial Times, 16 November 2010, p. 21. Reprinted with permission.
 
-# Basel III on liquidity risk
+## Basel III on liquidity risk
 
 Basel III also deals with liquidity – the ability to pay out cash on deposit withdrawals and other outflows of cash while satisfying loan commitments and other obligations. Liquidity management consists of two parts:
 
@@ -845,13 +845,13 @@ The current direction of travel is much more focused on macro-prudential regulat
 
 There are many sceptical voices concerned that the capital requirements under Basel III still leave the taxpayer vulnerable to picking up the pieces after another banking crisis - see Exhibit 7.21.
 
-# Exhibit 7.21
+## Exhibit 7.21
 
-# Basel: the mouse that did not roar
+## Basel: the mouse that did not roar
 
-# FT
+## FT
 
-# Martin Wolf
+## Martin Wolf
 
 To celebrate the second anniversary of the fall of Lehman, the mountain of Basel has laboured mightily and brought forth a mouse. Needless to say, the banking industry will insist the mouse is a tiger about to gobble up the world economy. Such special pleading – of which this pampered industry is a master – should be ignored: withdrawing incentives for reckless behaviour is not a cost to society; it is costly to the beneficiaries. The latter must not be confused with the former. The world needs a smaller and safer banking industry. The defect of the new rules is that they will fail to deliver this.
 
@@ -889,7 +889,7 @@ Quarters from start of implementation
 
 Return on equity in UK financial sector  $(\%)$ few facts: first, both the economy and the financial system have just survived a near death experience; second, the costs of the crisis include millions of unemployed and tens of trillions of dollars in lost output, as the Bank of England's Andy Haldane has argued; third, governments rescued the financial system by socialising its risks; finally, the financial industry is the only one with limitless access to the
 
-# Exhibit 7.21 continued public purse and is, as a result, by far the most subsidised in the world.
+## Exhibit 7.21 continued public purse and is, as a result, by far the most subsidised in the world.
 
 It is necessary to go back to first principles in assessing the alleged costs of higher capital (and liquidity) requirements.
 
@@ -917,9 +917,9 @@ martin.wolf@ft.com
 
 Source: Financial Times, 15 September 2010, p. 13. Reprinted with permission.
 
-# Other activities of central banks
+## Other activities of central banks
 
-# Banker to the government and national debt management
+## Banker to the government and national debt management
 
 Central banks usually act as their government's banker. They hold the government's bank account and provide services such as deposit holding. As taxes go in, the account balance rises, but as the government pays private contractors, its account at the central bank will be debited, while the commercial banker to the contractor will see an uplift in its central bank account.
 
@@ -927,11 +927,11 @@ It may also administer the national debt, raising money by selling Treasury bill
 
 In normal circumstances the central bank will not lend to the government by buying its bonds, but extreme situations have seen a relaxation of that policy - see Exhibit 7.22.
 
-# Trichet lands a 'cunning' blow
+## Trichet lands a 'cunning' blow
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/2be9ce01ab6e8143a4ca9c935f924af2b764b6a61d847c63fb794000a31df18b.jpg)
 
-# Ralph Atkins
+## Ralph Atkins
 
 Like a boxer wanting more power for his punch, the European Central Bank is trying a new tactic to combat the eurozone crisis: moving to catch financial markets unawares.
 
@@ -967,25 +967,25 @@ ECB bond weekly purchases (€bn) whelming majority" of the 22-strong governing 
 
 Source: Financial Times, 3 December 2010, p. 6. Reprinted with permission.
 
-# Currency issue
+## Currency issue
 
 Central banks control the issue of bank notes and often control the issue of coins.8 Notes are issued to commercial banks as they demand them, but in return their reserves at the central bank are surrendered. It is important that the central bank has a monopoly over deciding the size of the issue because excess amounts can result in high inflation, while too little can inhibit the economy. In the past, if the economy grew in nominal terms by 6 per cent the central bank would generally issue a further 6 per cent of notes to keep up with the needs of commerce. However, in recent times this relationship has become more complicated as we increasingly use electronic funds transfer rather than cash.
 
 In addition to increasing the volume of notes the central bank stands ready to replace bank-knots that are wearing out.
 
-# Smooth functioning of the payments system
+## Smooth functioning of the payments system
 
 A central bank may run some or all of the payment systems in an economy, such as cheque clearing and for electronic transactions. Those systems it does not run it may oversee as a regulator.
 
-# Currency reserve control
+## Currency reserve control
 
 Countries find it prudent to hold a reserve of gold and foreign currencies at their central banks. This can be useful as rainy day money and for intervening in the foreign exchange markets, e.g. using the foreign currency to buy the home currency, thereby increasing demand for it and raising its exchange rate. Even countries that permit a floating exchange rate (see Chapter 12) may want to smooth out sharp day-to-day fluctuations.
 
-# Coordination with other central banks and international bodies
+## Coordination with other central banks and international bodies
 
 We have already discussed one form of international cooperation (on solvency and liquidity rules) under the auspices of the BIS at Basel. The BIS also acts as a kind of banker to the central banks. It helps in the transfer of money from one central bank to another and keeps a proportion of the central banks' reserves. Central banks also work with the International Monetary Fund. For example, they worked together on the bail-out of the Irish government in 2010/2011. Another international economic and financial point of discussion and coordination is the regular G20 meetings – gatherings of finance ministers, presidents and prime ministers of the 20 leading economies. Central bankers have a significant input in terms of preparing for the meetings and then may help with the process of implementing agreements.
 
-# Bank of England
+## Bank of England
 
 The Bank of England is more than 300 years old. Despite its name it is the central bank for the whole of the UK. Originally it was mainly used as the government's bank which raised borrowed money for its master. In Victorian times it was granted a monopoly on the issue of new banknotes and was used to rescue individual banks and the banking system. It also managed the nation's foreign currency and gold reserves.
 
@@ -1003,9 +1003,9 @@ The BoE is responsible for the overall stability of the banking system as a whol
 
 Monetary policy is decided by the Monetary Policy Committee (MPC), which consists of the Governor, his two deputies, the Bank's chief economist and director for markets and four outside experts. These experts are drawn from the academic community as well as the world of business (particularly banks). Also, they can and have been non-UK citizens, with expertise being the over riding consideration. The MPC meets each month to decide on the short-term interest rate target. The BoE staff then engage in open market operations in the money market to move the market rates to the desired target. If the inflation rate falls below 1 per cent or rises above 3 per cent then the Governor has to write a letter to the Chancellor of the Exchequer explaining why – see Exhibit 7.23.
 
-# Exhibit 7.23
+## Exhibit 7.23
 
-# Inflation rise sees King rebuked
+## Inflation rise sees King rebuked
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/6ef002c13e81ba757ca778e6098177358e505263a7f9e71df7a907eda2f308ba.jpg)
 
@@ -1027,7 +1027,7 @@ In his response to the governor, Mr Osborne urged the Bank to "remain vigilant t
 
 Source: Financial Times, 19 May 2010, p. 1. Reprinted with permission
 
-# European Central Bank
+## European Central Bank
 
 The ECB, given responsibility for monetary policy in 1999, is part of the European System of Central Banks (ESCB) (Eurosystem). The National Central Banks (NCBs) were not discarded but remain important parts of the regulatory system. The ECB and the ESCB control monetary policy for those countries that are members of the European Monetary Union, the Eurozone. The governors of each of the 17 NCBs each have a vote on the Governing Council which makes decisions on monetary policy. Each of the NCBs became independent from both the European Commission and the governments of the individual states when the ESCB was established, if they were not already independent.
 
@@ -1039,7 +1039,7 @@ The ECB insists that banks hold a sum equivalent to 2 per cent of the amount hel
 
 As well as monetary policy, including the issuance of banknotes, the ECB is responsible for the conduct of foreign exchange operations and holds and manages the official reserves (gold and currency) of the Eurozone countries. It also promotes the smooth working of payment systems. Prudential supervision of financial institutions is a responsibility of the NCBs, as are payment mechanisms and the stability of their national financial systems.
 
-# The US Federal Reserve
+## The US Federal Reserve
 
 The Americans have a heightened fear of centralised power and as a consequence emphasise the need for checks and balances in society. One manifestation of their mistrust was the failure of the nineteenth-century experiments with establishing central banks because the public mistrusted such a nationwide system, especially if it could be manipulated by Wall Street money men. Thus for much of the nineteenth and the early part of the twentieth century there was no central bank to act as lender of last resort should banks' reserves get uncomfortably low. As a result there were regular runs on banks and hundreds of bank collapses. The 1907 crisis brought so many bank failures and massive losses to depositors that a consensus was finally reached to create a central bank, which was established in 1913.
 
@@ -1055,13 +1055,13 @@ The chairman and his team have some other duties: advising the nation's presiden
 
 representing the country in international negotiations on economic matters.
 
-# Concluding comments
+## Concluding comments
 
 In 2010 and 2011 countries all over Europe leaned heavily on the expertise and power of their central banks to bail them out of deep economic difficulties. Their banks were in crisis as the financial markets lost faith in the ability of them or their governments to repay money borrowed through bonds. The European Central Bank and the national central banks of the Eurozone had two years previously slashed interest rates to historic lows and in so doing probably saved the continent from a 1930s-style Depression. This was still not enough to restore the banking system to health and so a raft of additional measures was implemented by the central banks, including raising the deposit insurance limit to reassure depositors and acting as lender of last resort to a number of banks (the Irish banks, for example, borrowed €130 billion from the ECB when no one else would lend). In the UK, we had a massive quantitative easing programme to lower long-term interest rates and boost bank reserves to encourage lending. While these emergency measures were effective in keeping the patient alive, thought was also given to the long-term health of the financial system. Thus we had the Basel tightening of the capital and liquidity reserve ratios.
 
 For most people the technical-sounding tools used by central bankers seem arcane and boring when we hear about them on the evening news. Yet if it wasn't for the vigilance and forward planning of these organisations we would have suffered a much worse fate as a result of the financial crisis. The financial world would have become a wasteland as bank after bank fell, and many important functions such as the mobilisation of savings for productive use would have taken decades to recover. It is vital that we continue to develop ways of strengthening the financial system through better regulation, rules on reserves and controlling the power of over-mighty universal banks. Clearly, the regime central banks put in place prior to 2008 was inadequate – we must do better in the future, for all our sakes.
 
-# Key points and concepts
+## Key points and concepts
 - Monetary policy: managing the amount of money in an economy and the interest rates in that economy.
 Required reserves: a bank's reserves of cash that a central bank insists are deposited with it.
 Excess reserves: additional reserves held by a commercial bank above those held at the central bank.
@@ -1102,7 +1102,7 @@ The disadvantages of independence are:
 - Too big to fail: large banks, which have numerous interbank and other borrowings and derivative transactions, could pose a threat to the entire system should they fail. These are the banks that pose a systemic risk. Increasingly policymakers are using the phrase 'Sifi, systemically important financial institutions'. Partial solutions include breaking banks into smaller units, taxing them more because of the costs they impose on society, imposing very high capital reserve ratios and liquidity reserve ratios, introducing living wills (banks have to report regularly to the authorities on how they would put into effect an orderly winding down of the business as well as how they would plan for recovery in a crisis).
 - Bank supervision or prudential supervision: an authority investigates and approves the appointment of those who operate banks and continues monitoring and surveillance to ensure they are operated well.
 
-# The CAMELS method of bank inspection:
+## The CAMELS method of bank inspection:
 
 Capital adequacy;
 
@@ -1151,7 +1151,7 @@ In the US there are 12 Federal Reserve banks, one for each region of the country
 
 - The Board of Governors of the Federal Reserve System based in Washington has seven members which are all on the Federal Open Market Committee (FOMC) which decides open market operations. The FOMC also includes the presidents of the New York Fed and four other regional Feds. The Board sets reserve requirements and shares the responsibility with the regional Reserve Banks for discount rate policy.
 
-# References and further reading
+## References and further reading
 
 To keep up to date and reinforce knowledge gained by reading this chapter I can recommend the following publications: Financial Times, The Economist, Bank of England Quarterly Bulletin and Bank for International Settlements Quarterly Review (www.bis.org).
 
@@ -1199,7 +1199,7 @@ Siklos, P. L. (2008) 'No single definition of central bank independence is right
 
 We do find strong evidence that several core elements of … CBI (central bank independence) do reduce inflation'.
 
-# Websites
+## Websites
 
 Bank of England www.bankofengland.co.uk
 
@@ -1227,18 +1227,18 @@ Suomen Pankki (Finland's central bank) www.suomenpankki.fi
 
 Sveriges Riksbank (Sweden's central bank) www.riksbank.com
 
-# Video presentations
+## Video presentations
 
 Bank chief executives and other senior people describe and discuss policy and other aspects of banking in interviews, documentaries and webcasts at Cantos.com. (www.cantos.com) – these are free to view.
 
-# Case study recommendations
+## Case study recommendations
 
 See www.pearsoned.co.uk/arnold for case study synopses. Also see Harvard University: http://hbsp.harvard.edu/product/cases
 
 - Bank Failure in Jamaica (2006) Author: Jenifer Daley. Richard Ivey School of Business, University of Western Ontario. Available on Harvard Case Study website.
 - Basel III: An Evaluation of New Banking Regulations (2010) Authors: David Blaylock and David Conklin. Richard Ivey School of Business, University of Western Ontario. Available on Harvard Case Study website.
 
-# Self-review questions
+## Self-review questions
 
 1 What do you understand by the term monetary policy?
 
@@ -1260,38 +1260,4 @@ See www.pearsoned.co.uk/arnold for case study synopses. Also see Harvard Univers
 
 10 What is macro-prudential and micro-prudential supervision of banks?
 
-# Questions and problems
 
-1 Describe and illustrate the credit multiplier.
-
-2 Describe and explain the way in which central banks use open market operations, discount lending and changing the bank reserve requirement levels to influence the economy.
-
-3 'The safety and soundness of the financial system relies to a large extent on the action of the central banks.' Explain this statement and illustrate the ways in which central banks improve safety and soundness.
-
-4 Argue the case for and against the political independence of central banks.
-
-5 'I think there should be no back-up to prevent a bank from failing or to protect depositors if it does fail. Let the market decide these things. People should be careful about where they deposit their money. Riskier institutions will have to offer greater rates of return. We do not need a nanny state.' Explain your reasons for agreeing or disagreeing with these statements.
-
-6 The CAMELS system is a popular list for regulators. Explain what it is and its importance.
-
-7 Describe and explain the importance of the following in the context of central banking:
-
-(a) banker to the national government;
-
-(b) issue of currency;
-
-(c) functioning of payment systems;
-
-(d) lender of last resort.
-
-8 The Basel Accords have had a great impact on the banking industry. Describe these and explain their significance to the ordinary person.
-
-9 Compare and contrast structures and decision-making powers of the Federal Reserve, the European System of Central Banks and the Bank of England.
-
-10 Use supply and demand curves to illustrate how a central bank conducts monetary policy using open market operations, a discount window and altering reserve levels.
-
-# Web-based exercises
-
-1 Visit the websites of the European Central Bank, the Federal Reserve and the Bank of England and gather statistics on inflation rates and short-term interest rates over the past ten years. Write a report explaining how monetary policy is implemented in these three economic areas and comment on the relative success of these central banks in achieving their declared goals.
-
-Explore the dozen or so websites listed above to gather evidence on the monetary policy tools that these central banks have used over the past five years. Write a report describing the methods that have been employed. Include tables of popularity of method.

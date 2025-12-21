@@ -55,186 +55,139 @@ cssclasses: academia
 
 All rights reserved. No part of this book may be reproduced in any form by any electronic or mechanical means (including photocopying, recording, or information storage and retrieval) without permission in writing from the publisher.
 
-This book was set in Times Roman by Westchester Publishing Services. Printed and bound in the
+This book was set in Times Roman by Westchester Publishing Services. Printed and bound in the United States of America.
 
-United States of America.
+## Library of Congress Cataloging-in-Publication Data
 
-Library of Congress Cataloging-in-Publication Data
+**Names:** Fabozzi, Frank J., author. | Jones, Frank Joseph, author.
 
-Names: Fabozzi, Frank J., author. | Jones, Frank Joseph, author.
+**Title:** Foundations of global financial markets and institutions / Frank J. Fabozzi and Frank J. Jones ; with Francesco A. Fabozzi and Steven V. Mann.
 
-Title: Foundations of global financial markets and institutions / Frank J. Fabozzi and Frank J. Jones ;
+**Other titles:** Foundations of financial markets and institutions
 
-with Francesco A. Fabozzi and Steven V. Mann.
+**Description:** Fifth edition. | Cambridge, MA : MIT Press, [2019] | Earlier editions published as: Foundations of financial markets and institutions. | Includes bibliographical references and index.
 
-Other titles: Foundations of financial markets and institutions
+**Identifiers:** LCCN 2018026996 | ISBN 9780262039543 (hardcover : alk. paper)
 
-Description: Fifth edition. | Cambridge, MA : MIT Press, [2019] | Earlier editions published as:
+**Subjects:** LCSH: Finance. | Financial institutions.
 
-Foundations of financial markets and institutions. | Includes bibliographical references and index.
+**Classification:** LCC HG173 .F29 2019 | DDC 332.1—dc22
 
-Identifiers: LCCN 2018026996 | ISBN 9780262039543 (hardcover : alk. paper)
+**[LC record available at https://lccn.loc.gov/2018026996](https://lccn.loc.gov/2018026996)**
 
-Subjects: LCSH: Finance. | Financial institutions.
-
-Classification: LCC HG173 .F29 2019 | DDC 332.1—dc22
-
-[LC record available at https://lccn.loc.gov/2018026996](https://lccn.loc.gov/2018026996)
+## Dedication
 
 To the memory of my sister, Lucy Fabozzi.
 
-- FJF
+— FJF
 
 To my wife, Sally.
 
-- FJJ
+— FJJ
 
-Contents
-    Preface
-    Acknowledgments
-    Overview of the Book
-I Financial Markets and Players
-    1  Introduction
-    2  Role of Governments in Financial Markets
-    3  Financial Institutions, Financial Intermediaries, and Asset Management Firms
-    4  Overview of Private Market Participants
-    5  Credit Rating Agencies and Their Role in Financial Markets
-    6  Depository Institutions: Activities and Characteristics
-    7  Central Banks
-    8  Insurance Companies
-    9  Investment Banking Firms
-II    Understanding Risks and Asset Pricing
-    10 Overview of Risks and Their Management
-    11  Properties and Pricing of Financial Assets
-    12  Return Distributions, Risk Measures, and Risk-Return Ratios
-    13  Portfolio Selection Theory
-    14  Asset Pricing Theories
-III Interest Rates, Interest Rate Risk, and Credit Risk
-    15  The Theory of Interest Rates
-    16  The Structure of Interest Rates
-IV   Primary and Secondary Markets
-    17  Primary Markets
-    18  Secondary Markets
-    19 The Foreign Exchange Market
-V   Global Government Debt Markets
-    20  Sovereign Debt Markets
-    21  Subnational (Municipal) Government Debt Markets
-VI   Corporate Funding Markets
-    22  The Structure and Trading Venues of the Equity Market
-    23 U.S. Common Stock Market: Pricing Efficiency, Trading, and Investment
-      Strategies
-    24  Non-U.S. Equity Markets
-    25  Global Short-Term Funding and Investing Markets
-    26  Corporate Debt Markets
-    27  Market for Asset-Backed Securities
-    28 Financing Market for Small, Medium-Sized, and Entrepreneurial Enterprises
-VII  Real Estate Markets
-    29  The Residential Mortgage Market
-    30  Residential Mortgage-Backed Securities Market
-    31  Commercial Real Estate Markets
-VIII  Collective Investment Vehicles and Financial Derivatives Markets
-    32 Market for Collective Investment Vehicles
-    33  Financial Futures Markets
-    34  Options Markets
-    35  Pricing Futures and Options Contracts
-    36  Applications of Futures and Options Contracts
-    37 Over-the-Counter Interest Rate Derivatives: Forward Rate Agreements, Swaps,
-      Caps, and Floors
-    38  Market for Foreign Exchange Derivatives
-    39  Market for Credit Risk Transfer Vehicles
-    Index
-List of Figures
-```
+## Table of Contents
 
-**`Figure 1.1`** **Classification of global financial markets.**
+- Preface
+- Acknowledgments
+- Overview of the Book
 
-**`Figure 8.1`** **Insurance/savings/retirement vehicles.**
+### Part I: Financial Markets and Players
+- 1 Introduction
+- 2 Role of Governments in Financial Markets
+- 3 Financial Institutions, Financial Intermediaries, and Asset Management Firms
+- 4 Overview of Private Market Participants
+- 5 Credit Rating Agencies and Their Role in Financial Markets
+- 6 Depository Institutions: Activities and Characteristics
+- 7 Central Banks
+- 8 Insurance Companies
+- 9 Investment Banking Firms
 
-**`Figure 12.1`** **Negative (top panel) and positive (bottom panel) skewed probability**
+### Part II: Understanding Risks and Asset Pricing
+- 10 Overview of Risks and Their Management
+- 11 Properties and Pricing of Financial Assets
+- 12 Return Distributions, Risk Measures, and Risk-Return Ratios
+- 13 Portfolio Selection Theory
+- 14 Asset Pricing Theories
 
-**distributions.**
+### Part III: Interest Rates, Interest Rate Risk, and Credit Risk
+- 15 The Theory of Interest Rates
+- 16 The Structure of Interest Rates
 
-**`Figure 12.2`** **Normal (Gaussian) probability distribution;** _σ_ **denotes the standard deviation.**
+### Part IV: Primary and Secondary Markets
+- 17 Primary Markets
+- 18 Secondary Markets
+- 19 The Foreign Exchange Market
 
-**`Figure 12.3`** **Difference between a standard normal distribution and a distribution with high**
+### Part V: Global Government Debt Markets
+- 20 Sovereign Debt Markets
+- 21 Subnational (Municipal) Government Debt Markets
 
-**excess kurtosis.**
+### Part VI: Corporate Funding Markets
+- 22 The Structure and Trading Venues of the Equity Market
+- 23 U.S. Common Stock Market: Pricing Efficiency, Trading, and Investment Strategies
+- 24 Non-U.S. Equity Markets
+- 25 Global Short-Term Funding and Investing Markets
+- 26 Corporate Debt Markets
+- 27 Market for Asset-Backed Securities
+- 28 Financing Market for Small, Medium-Sized, and Entrepreneurial Enterprises
 
-**`Figure 12.4`** **S&P 500 monthly returns plotted against a normal distribution: (a) S&P 500**
-**monthly returns from 1970 to 2015; (b) S&P 500 monthly returns from 1980 to 2015; (c) S&P**
-**500 monthly returns from 1990 to 2015.**
+### Part VII: Real Estate Markets
+- 29 The Residential Mortgage Market
+- 30 Residential Mortgage-Backed Securities Market
+- 31 Commercial Real Estate Markets
 
-**`Figure 12.5`** **DAX returns plotted against a normal distribution, 1991–2015: (a) DAX monthly**
-**returns; (b) DAX daily returns.**
+### Part VIII: Collective Investment Vehicles and Financial Derivatives Markets
+- 32 Market for Collective Investment Vehicles
+- 33 Financial Futures Markets
+- 34 Options Markets
+- 35 Pricing Futures and Options Contracts
+- 36 Applications of Futures and Options Contracts
+- 37 Over-the-Counter Interest Rate Derivatives: Forward Rate Agreements, Swaps, Caps, and Floors
+- 38 Market for Foreign Exchange Derivatives
+- 39 Market for Credit Risk Transfer Vehicles
 
-**`Figure 12.6`** **Nikkei 225 returns plotted against a normal distribution, 1990–2015: (a) Nikkei**
-**225 monthly returns; (b) Nikkei 225 daily returns.**
+- Index
 
-**`Figure 12.7`** **FTSE 100 returns plotted against a normal distribution, 1990–2015: (a) FTSE**
-**100 monthly returns; (b) FTSE 100 daily returns.**
-
-**`Figure 12.8`** **Illustration of the value-at-risk (VaR) measure.**
-
-**`Figure 13.1`** **Feasible and efficient portfolios for assets 1 and 2.**
-
-**`Figure 13.2`** **Feasible and efficient portfolios with more than two assets.**
-
-**`Figure 13.3`** **Selection of the optimal portfolio.**
-
-**`Figure 13.4`** **Selection of the optimal portfolio with different indifference curves (utility**
-**function).**
-
-**`Figure 14.1`** **The capital market line.**
-
-**`Figure 14.2`** **Systematic and unsystematic portfolio risk.**
-
-**`Figure 14.3`** **Graphical depiction of the market model.**
-
-**`Figure 14.4`** **The security market line.**
-
-**`Figure 15.1`** **Indifference curve between current and future consumption.**
-
-**`Figure 15.2`** **Representation of opportunity locus in the loan market (the market line).**
-
-**`Figure 15.3`** **Family of indifference curves and the market line.**
-
-**`Figure 15.4`** **Supply curve for loans.**
-
-**`Figure 15.5`** **Opportunity locus from investment (transformation curve or production**
-**function).**
-
-**`Figure 15.6`** **Measuring the profit from investing.**
-
-**`Figure 15.7`** **Profit maximization point.**
-
-**`Figure 15.8`** **Profit maximization and the cost line.**
-
-**`Figure 15.9`** **Transformation curve imposed on current and future consumption graph.**
-
-**`Figure 15.10`** **Measuring investment and profit from investment.**
-
-**`Figure 15.11`** **Optimal investment and borrowing decisions.**
-
-**`Figure 15.12`** **Market equilibrium.**
-
-**`Figure 15.13`** **Change in** _**I**_ **,** _**S**_ **, and** _**R**_ **if investment function increases.**
-
-**`Figure 15.14`** **Change in** _**I**_ **,** _**S**_ **, and** _**R**_ **if saving function increases.**
-
-**`Figure 15.15`** **Equilibrium in Keynes's market for money.**
-
-**`Figure 16.1`** **Three hypothetical yield curves.**
-
-**`Figure 16.2`** **Two alternative one-year investments.**
-
-**`Figure 22.1`** **Structure of U.S. stock markets.**
-
-**`Figure 22.2`** **U.S. equity trading venues.**
-
-**`Figure 24.1`** **The Chinese stock market and exchanges: (a): structure of the Chinese stock**
-**market; (b) Chinese stock exchanges; (c) Chinese stock indexes.**
-
-**`Figure 30.1`** **Creation of a mortgage pass-through security.**
+## List of Figures
+- Figure 1.1: Classification of global financial markets
+- Figure 8.1: Insurance/savings/retirement vehicles
+- Figure 12.1: Negative (top panel) and positive (bottom panel) skewed probability distributions
+- Figure 12.2: Normal (Gaussian) probability distribution; σ denotes the standard deviation
+- Figure 12.3: Difference between a standard normal distribution and a distribution with high excess kurtosis
+- Figure 12.4: S&P 500 monthly returns plotted against a normal distribution: (a) S&P 500 monthly returns from 1970 to 2015; (b) S&P 500 monthly returns from 1980 to 2015; (c) S&P 500 monthly returns from 1990 to 2015
+- Figure 12.5: DAX returns plotted against a normal distribution, 1991–2015: (a) DAX monthly returns; (b) DAX daily returns
+- Figure 12.6: Nikkei 225 returns plotted against a normal distribution, 1990–2015: (a) Nikkei 225 monthly returns; (b) Nikkei 225 daily returns
+- Figure 12.7: FTSE 100 returns plotted against a normal distribution, 1990–2015: (a) FTSE 100 monthly returns; (b) FTSE 100 daily returns
+- Figure 12.8: Illustration of the value-at-risk (VaR) measure
+- Figure 13.1: Feasible and efficient portfolios for assets 1 and 2
+- Figure 13.2: Feasible and efficient portfolios with more than two assets
+- Figure 13.3: Selection of the optimal portfolio
+- Figure 13.4: Selection of the optimal portfolio with different indifference curves (utility function)
+- Figure 14.1: The capital market line
+- Figure 14.2: Systematic and unsystematic portfolio risk
+- Figure 14.3: Graphical depiction of the market model
+- Figure 14.4: The security market line
+- Figure 15.1: Indifference curve between current and future consumption
+- Figure 15.2: Representation of opportunity locus in the loan market (the market line)
+- Figure 15.3: Family of indifference curves and the market line
+- Figure 15.4: Supply curve for loans
+- Figure 15.5: Opportunity locus from investment (transformation curve or production function)
+- Figure 15.6: Measuring the profit from investing
+- Figure 15.7: Profit maximization point
+- Figure 15.8: Profit maximization and the cost line
+- Figure 15.9: Transformation curve imposed on current and future consumption graph
+- Figure 15.10: Measuring investment and profit from investment
+- Figure 15.11: Optimal investment and borrowing decisions
+- Figure 15.12: Market equilibrium
+- Figure 15.13: Change in I, S, and R if investment function increases
+- Figure 15.14: Change in I, S, and R if saving function increases
+- Figure 15.15: Equilibrium in Keynes's market for money
+- Figure 16.1: Three hypothetical yield curves
+- Figure 16.2: Two alternative one-year investments
+- Figure 22.1: Structure of U.S. stock markets
+- Figure 22.2: U.S. equity trading venues
+- Figure 24.1: The Chinese stock market and exchanges: (a) structure of the Chinese stock market; (b) Chinese stock exchanges; (c) Chinese stock indexes
+- Figure 30.1: Creation of a mortgage pass-through security
 
 **`Figure 30.2`** **Graphical depiction of 100 PSA.**
 
@@ -439,7 +392,7 @@ Preface
 
 ```
 
-The first edition of this book, published in 1994, was written by Frank Fabozzi and Franco Modigliani, the 1985 recipient of the Nobel Memorial Prize in Economic Sciences. In the Preface to the first edition, they wrote that the prior 30 years had been a time of profound, indeed revolutionary, change in the financial markets and institutions of the world. The hallmarks of that change were innovation, globalization, and deregulation. Since 1994, those forces have actually gathered more strength, and the financial landscape continues to undergo large and visible changes around the globe. Their purpose in writing the book was to instruct students about this fascinating revolution. They described the wide array of financial instruments that are now available for investing, funding operations, and
+The first edition of this book, published in 1994, was written by Frank Fabozzi and Franco Modigliani, the 1985 recipient of the Nobel Memorial Prize in Economic Sciences. In the Preface to the first edition, they wrote that the prior 30 years had been a time of profound, indeed revolutionary, change in the financial markets and institutions of the world. The hallmarks of that change were innovation, globalization, and deregulation. Since 1994, those forces have actually gathered more strength, and the financial landscape continues to undergo large and visible changes around the globe. Their purpose in writing the book was to instruct students about this fascinating revolution. They described the wide array of financial instruments that are now available for investing, funding operations, and managing risk.
 
 The table on pages xix–xxi compares the fourth edition to this new edition. The overriding emphasis when revising the book was to make it more global centric—hence the addition of the word "Global" in the book's new title. Consequently, the U.S. financial market is still covered in considerable detail, but we describe non-U.S. financial markets as well. For practical reasons, it is not possible for us to include a detailed discussion of every country's financial market. Instead, we show how the financial markets of other countries may be similar to or differ significantly from that of the U.S. market.
 
@@ -487,7 +440,7 @@ markets, the attributes of financial assets, and the link between financial
 
 markets and the real economy. Chapter 2 (a new chapter) explains the role
 
-- f governments in financial markets. Trying to understand the attributes of
+- of governments in financial markets. Trying to understand the attributes of
 financial instruments without a thorough understanding of those who
 participate (the "players") in the financial market makes little sense.
 Understanding why private market participants actively buy certain types of
@@ -540,37 +493,13 @@ theories in finance, and there is considerable debate as to whether these
 
 theories correctly describe the way investors should construct an investment
 
-portfolio (i.e., portfolio theory) and how assets should be priced (i.e., asset
+portfolio (i.e., portfolio theory) and how assets should be priced (i.e., asset pricing theory).
 
-pricing theory).
+Chapter 12, which describes return distributions and risk measures, is a new chapter to this book. The four principal topics covered in the chapter are the different types of distributions that financial asset returns can follow,
 
-Chapter 12, which describes return distributions and risk measures, is a
+different measures of dependence between asset returns, attributes of portfolio risk measures, and alternative ratios of reward to risk. This chapter
 
-new chapter to this book. The four principal topics covered in the chapter
-
-are the different types of distributions that financial asset returns can follow,
-
-different measures of dependence between asset returns, attributes of
-
-portfolio risk measures, and alternative ratios of reward to risk. This chapter
-
-precedes the chapters on portfolio theory and asset pricing, because the
-
-material presented is necessary to understand those theories and (just as
-
-important) the limitations of those theories. Although the topics draw on
-
-basic concepts in statistics, the coverage is at an elementary level. There are
-
-three important takeaways from chapter 12. The first is that substantial
-
-empirical evidence from real-world markets indicates that return
-
-distributions for financial assets do not follow the normal distribution, as
-
-assumed in much of finance theory. In fact, some market commentators
-
-believe that the failure of many financial models reported during the Great
+precedes the chapters on portfolio theory and asset pricing, because the material presented is necessary to understand those theories and (just as important) the limitations of those theories. Although the topics draw on basic concepts in statistics, the coverage is at an elementary level. There are three important takeaways from chapter 12. The first is that substantial empirical evidence from real-world markets indicates that return distributions for financial assets do not follow the normal distribution, as assumed in much of finance theory. In fact, some market commentators believe that the failure of many financial models reported during the Great
 
 Recession of 2008–2009 is the result of relying on the assumption that
 
@@ -594,10 +523,7 @@ available, and these measures affect the reward/risk ratios that should be
 
 used by investors when constructing portfolios.
 
-```
-Part III: Interest Rates, Interest Rate Risk, and Credit Risk
-
-```
+## Part III: Interest Rates, Interest Rate Risk, and Credit Risk
 
 The structure of interest rates and interest rate and credit risks are the
 
@@ -634,10 +560,7 @@ different economic theories that have been offered to explain the term
 
 structure of interest rates are described.
 
-```
-Part IV: Primary and Secondary Markets
-
-```
+## Part IV: Primary and Secondary Markets
 
 The three chapters in part IV first cover the fundamentals of primary
 
@@ -655,10 +578,7 @@ Chapter 19 is a new chapter in the book. In the previous edition, this topic
 
 was covered in the chapter on foreign exchange derivatives.
 
-```
-Part V: Global Government Debt Markets
-
-```
+## Part V: Global Government Debt Markets
 
 In the previous edition of the book, two chapters covered the government
 
@@ -739,7 +659,7 @@ properties. Residential real estate includes oneto four-family properties.
 
 Chapter 29 describes the residential mortgage market where homeowners
 
-- btain funding to purchase a home and the types of mortgage loans. The
+obtain funding to purchase a home and the types of mortgage loans. The
 pooling of residential mortgage loans to create a residential mortgagebacked security is the subject of chapter 30. In that chapter, agency
 residential mortgage-backed securities and residential private-label
 mortgage-backed securities are described. Also described in that chapter are
@@ -1080,9 +1000,7 @@ Their value bears no relation to the form, physical or otherwise, in which
 
 these claims are recorded.
 
-Financial assets are intangible assets. For financial assets, the typical
-
-benefit or value is a claim to future cash. With one exception (real estate,
+Financial assets are intangible assets. For financial assets, the typical benefit or value is a claim to future cash. With one exception (real estate,
 
 which is a tangible asset), this book deals with the various types of financial
 
@@ -1094,9 +1012,7 @@ them. Throughout this book, we use the terms "financial asset," **financial**
 
 The entity that has agreed to make future cash payments is called the
 
-**issuer** - f the financial asset; the owner of the financial asset is referred to as
-
-the **investor** . Here are just seven examples of financial assets:
+**issuer** of the financial asset; the owner of the financial asset is referred to as the **investor**. Here are just seven examples of financial assets:
 
 a loan by Bank of America (investor) to an individual
 
@@ -1116,23 +1032,9 @@ a share of common stock issued by Honda Motor Company, a Japanese
 
 automotive company
 
-In the case of the car loan, the terms of the loan establish that over time,
+In the case of the car loan, the terms of the loan establish that over time, the borrower must make specified payments to the Bank of America. The payments include repayment of the amount borrowed plus interest. The cash flow for this asset is made up of the specified payments that the borrower must make.
 
-the borrower must make specified payments to the Bank of America. The
-
-payments include repayment of the amount borrowed plus interest. The
-
-cash flow for this asset is made up of the specified payments that the
-
-borrower must make.
-
-In the case of a U.S. Treasury bond, the U.S. government (the issuer)
-
-agrees to pay the investor the bond interest payments every six months until
-
-the bond matures, and then at the maturity date, repay the amount
-
-borrowed. The same is true for the bonds issued by AT&T, the City of New
+In the case of a U.S. Treasury bond, the U.S. government (the issuer) agrees to pay the investor the bond interest payments every six months until the bond matures, and then at the maturity date, repay the amount borrowed. The same is true for the bonds issued by AT&T, the City of New
 
 York, and the German government. In the case of AT&T, the issuer is a
 
@@ -1171,7 +1073,7 @@ fixed payments.
 
 An **equity instrument** (also called a **residual claim** ) obligates the issuer
 
-- f the financial asset to pay the holder an amount based on earnings, if
+of the financial asset to pay the holder an amount based on earnings, if
 approved by the board of directors, after holders of debt instruments have
 been paid. Common stock is an example of an equity instrument. A
 partnership share in a business is another example.
@@ -1241,9 +1143,7 @@ Directly related to the notion of price is the expected return on a
 financial asset. Given the expected cash flow of a financial asset and its
 
 price, we can determine its expected rate of return. For example, if the price
-
-- f a financial asset is \$100, and its only cash flow is \$105 one year from
-now, then its expected return would be 5%.
+of a financial asset is \$100, and its only cash flow is \$105 one year from now, then its expected return would be 5%.
 
 The type of financial asset, whether debt instrument or equity
 
@@ -1295,7 +1195,7 @@ examples in this chapter. The first is the risk attached to the potential
 
 purchasing power of the expected cash flow. This is called **purchasing**
 
-**power risk** - r **inflation risk** . The second is the risk that the issuer or
+**power risk** or **inflation risk**. The second is the risk that the issuer or
 
 borrower will default on the obligation. This is called **credit risk**, or more
 
@@ -1305,9 +1205,7 @@ assets whose cash flow is not denominated in U.S. dollars, there is the risk
 
 that the exchange rate will change adversely, resulting in fewer U.S. dollars.
 
-This risk is referred to as - r .
-
-**foreign-exchange risk** **currency risk**
+This risk is referred to as **foreign-exchange risk** or **currency risk**.
 
 ```
 Financial Assets versus Tangible Assets
@@ -1485,10 +1383,10 @@ Second, financial markets provide a mechanism for an investor to sell a
 
 financial asset. Because of this ability, it is said that a financial market
 
-- ffers **liquidity**, an attractive feature when circumstances either force or
+offers **liquidity**, an attractive feature when circumstances either force or
 motivate an investor to sell a financial asset. In the absence of liquidity, the
 
-- wner would be forced to hold a debt instrument until it matures and an
+owner would be forced to hold a debt instrument until it matures and an
 
 equity instrument until the company is either voluntarily or involuntarily
 

@@ -43,7 +43,7 @@ JSTOR is a not-for-profit service that helps scholars, researchers, and students
 
 Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at https://about.jstor.org/terms
 
-# Bank Runs, Deposit Insurance, and Liquidity
+## Bank Runs, Deposit Insurance, and Liquidity
 
 Douglas W. Diamond
 
@@ -169,7 +169,7 @@ $$
 
 where  $f_{j}$  is the number of withdrawals' deposits serviced before agent  $j$  as a fraction of total demand deposits;  $f$  is the total number of demand deposits withdrawn. Let  $w_{j}$  be the fraction of agent  $j$ 's deposits that he attempts to withdraw at  $T = 1$ . The consumption from deposit proceeds, per unit of deposit of a type 1 agent, is thus given by  $w_{j}V_{1}(f_{j},r_{1})$ , while the total consumption, from deposit proceeds, per unit of deposit of a type 2 agent is given by  $w_{j}V_{1}(f_{j},r_{1}) + (1 - w_{j})V_{2}(f, r_{1})$ .
 
-# Equilibrium Decisions
+## Equilibrium Decisions
 
 The demand deposit contract can achieve the full-information optimal risk sharing as an equilibrium. (By equilibrium, we will always
 

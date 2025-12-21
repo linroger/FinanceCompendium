@@ -282,12 +282,12 @@ Nonperforming assets at the holding company level, which totaled  \$653 million 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/8960a782c8bfa508545b9996ceaa350e7e52617419cb1ea3910c2545f3ff1db9.jpg)  
 Source:OCC
 
-In all, \(1.2 billion in nonperforming assets were added in 1982, bringing them up to nearly \(6\%\) of the total loan portfolio.
+In all, $1.2 billion in nonperforming assets were added in 1982, bringing them up to nearly \(6\%\) of the total loan portfolio.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/4c6fa59e1229886d873dccf4f177c0fa1d484cadeadb362071e460a64e004e32.jpg)  
 Source: OCC
 
-Continental's net loan losses reached \(371 million by December 1982, nearly a fivefold increase over the previous year's losses. Despite an improving economy in 1983, many of Continental's borrowers continued to experience difficulties and Continental's losses remained high.
+Continental's net loan losses reached $371 million by December 1982, nearly a fivefold increase over the previous year's losses. Despite an improving economy in 1983, many of Continental's borrowers continued to experience difficulties and Continental's losses remained high.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/67194422-6ff0-41fc-80f2-cb3b2297a24f/123fb3a8be85fea5dd7c7726d42617ccb41601088ac353aaa56edb81d56a146a.jpg)  
 Source: Call Reports
@@ -324,7 +324,7 @@ The collapse of Penn Square and the energy industry forced Continental's managem
 
 The Formal Agreement, signed on March 14, 1983, primarily covered asset and liability management, loan administration, and funding. It required the bank to continue to implement and maintain stronger policies and procedures designed to improve performance. In addition to quarterly progress reports regarding compliance with the terms of the Agreement, Continental was also required to report periodically to this Office on its criticized assets, funding, and earnings.
 
-In April 1983, OCC examiners visited Continental to review the first quarter financial results. nonperforming assets, at \(2.02 billion, were higher than anticipated by the bank, but market acceptance had improved and premiums on funding instruments had declined.
+In April 1983, OCC examiners visited Continental to review the first quarter financial results. nonperforming assets, at $2.02 billion, were higher than anticipated by the bank, but market acceptance had improved and premiums on funding instruments had declined.
 
 Continental submitted the first quarterly compliance report required by the Formal Agreement to this office in May 1983. It indicated that appropriate actions required by the Agreement were being taken by the bank.
 
@@ -352,7 +352,7 @@ Later that month, market confidence in Continental slipped even further as rumor
 
 OCC examiners established an onsite presence in Continental's trading rooms in Chicago and London on May 10 to more closely monitor the bank's rapidly deteriorating funding situation. Initial reports from OCC examiners indicated that major providers of overnight and term funds were failing to renew their holdings of the liabilities of the bank and Continental Illinois Corp. The bank was forced to prepay the deposits in Eurodollar and domestic markets and seek replacement of the CD funding in the domestic market. Because other funding sources were not available, the bank resorted to borrowings from the Federal Reserve Bank of Chicago.
 
-From May 12 - 14, a safety net of 16 banks put together a \$4.5 million line of credit for Continental. But, by May 15, the safety net began to unwind due to a heightened lack of confidence. The Comptroller and staff held meetings on May 16 and 17 with Continental, other money center banks, and regulatory agencies in Chicago, New York, and Washington to consider alternatives. These meetings resulted in the formation of the "temporary assistance package".
+From May 12 - 14, a safety net of 16 banks put together a $4.5 billion line of credit for Continental. But, by May 15, the safety net began to unwind due to a heightened lack of confidence. The Comptroller and staff held meetings on May 16 and 17 with Continental, other money center banks, and regulatory agencies in Chicago, New York, and Washington to consider alternatives. These meetings resulted in the formation of the "temporary assistance package".
 
 Under the temporary assistance plan publicly announced on May 17, Continental received a  \$2 billion subordinated loan for the period necessary to develop permanent sources of funds. The loan was evidenced by a demand subordinated note;\$ 1.5 billion was provided by the FDIC, with the balance provided by a group of seven major U.S. banks. In addition, a consortium of 28 banks provided Continental with a \$5.5 billion standby line of credit. By virtue of this capital injection, the FDIC in effect provided assurance that Continental's would not be resolved through a pay-off of insured depositors. It, therefore, also provided assurance that the funds of all depositors, both insured and uninsured, were thereby fully protected.
 

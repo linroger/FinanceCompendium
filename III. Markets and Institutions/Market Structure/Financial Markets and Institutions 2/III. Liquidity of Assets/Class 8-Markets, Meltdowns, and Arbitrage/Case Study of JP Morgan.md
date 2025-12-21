@@ -128,7 +128,7 @@ The is trend continued and while the portfolio may be qualified as "risk neutral
 
 Total \$525 million loss
 
-By the end of February, losses at the SCP had increased by  \$69 million$ ^{12}\. At the end of March 2012, the mark-to-market loss on the portfolio was already at USD $718mn. Further worsening of the situation and worsening rumors following articles by the Wall Street Journal and Bloomberg left no other option to the management but to file an 8-K report containing information about the first quarter result on 13 April 2012 followed by a conference call.
+By the end of February, losses at the SCP had increased by \$69 million$^{12}$. At the end of March 2012, the mark-to-market loss on the portfolio was already at USD $718mn. Further worsening of the situation and worsening rumors following articles by the Wall Street Journal and Bloomberg left no other option to the management but to file an 8-K report containing information about the first quarter result on 13 April 2012 followed by a conference call.
 
 Mark-to market losses of the SCP (2012)
 

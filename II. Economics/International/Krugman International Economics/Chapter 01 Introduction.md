@@ -1,32 +1,41 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Chapter 01 Introduction"
+parent_directory: "Krugman International Economics"
+formatted: 2025-12-21 01:15:00 PM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+   - international economics
+   - trade theory
+   - international trade
+secondary_tags:
+   - gains from trade
+   - balance of payments
+   - exchange rate determination
+   - international policy coordination
+   - international capital market
 cssclasses: academia
-title: 1 Introduction 27
-linter-yaml-title-alias: 1 Introduction 27
 ---
 
-# 1 Introduction 27
+# Chapter 01 Introduction
 
-What Is International Economics About? 29
+## What Is International Economics About?
 
-The Gains from Trade 30
+## The Gains from Trade
 
-The Pattern of Trade 31
+## The Pattern of Trade
 
-How Much Trade? 31
+## How Much Trade?
 
-Balance of Payments 32
+## Balance of Payments
 
-Exchange Rate Determination 33
+## Exchange Rate Determination
 
-International Policy Coordination 33
+## International Policy Coordination
 
-The International Capital Market. 34
+## The International Capital Market
 
-International Economics: Trade and Money 35
+## International Economics: Trade and Money
 
-# PART 1 International Trade Theory 36
+## Part 1: International Trade Theory
 

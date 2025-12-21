@@ -1,28 +1,30 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: CHAPTER 3
-linter-yaml-title-alias: CHAPTER 3
+title: Elasticity and Absorption Approaches to the Balance of Payments
+parent_directory: International Finance
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: obsidian-formatting-agent
+cli_tool: claude-code
 primary_tags:
-- balance payments empirical evidence
-- deficit elasticity absorption approaches
-- elasticity exchange rate
+  - elasticity approach
+  - absorption approach
+  - balance of payments
+  - marshall-lerner condition
+  - devaluation effects
 secondary_tags:
-- elasticity approach balance payments
-- chapter elasticity absorption
-- devaluation pass effect
-- price elasticity demand imports
-- necessary elasticity condition devaluation
-- domestic output domestic absorption
-tags_extracted: '2025-12-18T01:30:25.321117'
+  - import demand elasticity
+  - export demand elasticity
+  - j-curve effect
+  - pass-through effect
+  - current account adjustment
+  - exchange rate policy
+  - international trade elasticities
+  - fiscal policy impacts
+  - national income effects
+  - absorption vs elasticity models
+cssclasses: academia
 ---
 
-# CHAPTER 3
-
-## ELASTICITY AND ABSORPTION APPROACHES TO THE BALANCE OF PAYMENTS
+# Elasticity and Absorption Approaches to the Balance of Payments
 
 CHAPTER OUTLINE
 
@@ -38,64 +40,19 @@ CHAPTER OUTLINE
 3.8 A synthesis of the elasticity and absorption approaches
 3.9 Conclusions
 
-3.1 INTRODUCTION
+## 3.1 Introduction
 
-In the opening two chapters we have introduced the exchange rate and the balance of payments. In this
+In the opening two chapters we have introduced the exchange rate and the balance of payments. In this chapter, we will investigate the relationship between the exchange rate and the balance of payments. In particular, we shall be studying two models that investigate the impact of exchange rate changes on the current account position of a country. These two approaches are popularly known as the 'elasticity approach' and the 'absorption approach'. Both models were designed to tackle one of the most important questions in international economics – will a devaluation (or depreciation) of the exchange rate lead to a reduction of a current account deficit? The answer to this question is of crucial importance because if an exchange rate change cannot be relied upon to ensure adjustment of the current account, then policy-makers will have to rely on other instruments to improve the position.
 
-chapter, we will investigate the relationship between the exchange rate and the balance of payments. In
-
-particular, we shall be studying two models that investigate the impact of exchange rate changes on the
-
-current account position of a country. Tese two approaches are popularly known as the 'elasticity approach'
-
-and the 'absorption approach'. Both models were designed to tackle one of the most important questions in
-
-international economics – will a devaluation (or depreciation) of the exchange rate lead to a reduction of
-
-a current account de!cit? Te answer to this question is of crucial importance because if an exchange rate
-
-change cannot be relied upon to ensure adjustment of the current account, then policy-makers will have to
-
-rely on other instruments to improve the position.
-
-We will start the chapter by examining the impact of exchange rate changes according to the elasticity
-
-approach which looks at the impact of exchange rate changes, assuming domestic and foreign prices are
-
-!xed. Tis is followed by an analysis of the absorption model which examines the e$ects of the exchange rate
-
-in terms of its impact on domestic income and spending. We will conclude by analysing the similarities and
-
-di$erences between the two models. For simplicity, throughout this chapter we shall ignore the complications
-
-- f unilateral transfers and interest, pro!t and dividends on the current account balance and concentrate on
-the export and import of goods and services. _Troughout this chapter, the exchange rate is defined as domestic_
-_currency units per unit of foreign currency, so that a devaluation/depreciation of the currency is represented by_
-_a rise in the exchange rate_ .
+We will start the chapter by examining the impact of exchange rate changes according to the elasticity approach which looks at the impact of exchange rate changes, assuming domestic and foreign prices are fixed. This is followed by an analysis of the absorption model which examines the effects of the exchange rate in terms of its impact on domestic income and spending. We will conclude by analysing the similarities and differences between the two models. For simplicity, throughout this chapter we shall ignore the complications of unilateral transfers and interest, profit and dividends on the current account balance and concentrate on the export and import of goods and services. _Throughout this chapter, the exchange rate is defined as domestic currency units per unit of foreign currency, so that a devaluation/depreciation of the currency is represented by a rise in the exchange rate_.
 
 International Finance
 
-3.2 THE ELASTICITY APPROACH TO THE BALANCE OF PAYMENTS
+## 3.2 The Elasticity Approach to the Balance of Payments
 
-Te elasticity approach to the balance of payments provides an analysis of what happens to the current
+The elasticity approach to the balance of payments provides an analysis of what happens to the current account balance when a country devalues its currency. The analysis was pioneered by Alfred Marshall (1923) and Abba Lerner (1944), and later extended by Joan Robinson (1937) and Fritz Machlup (1939). At the outset, the model makes some simplifying assumptions: it focuses on demand conditions and assumes that the supply elasticities for the domestic export good and foreign import good are perfectly elastic, so that changes in demand volumes have no effect on prices. In effect, these assumptions mean that domestic and foreign prices are fixed so that changes in relative prices are caused by changes in the nominal exchange rate.
 
-account balance when a country devalues its currency. Te analysis was pioneered by Alfred Marshall (1923)
-
-and Abba Lerner (1944), and later extended by Joan Robinson (1937) and Fritz Machlup (1939). At the outset,
-
-the model makes some simplifying assumptions: it focuses on demand conditions and assumes that the supply
-
-elasticities for the domestic export good and foreign import good are perfectly elastic, so that changes in
-
-demand volumes have no e$ect on prices. In e$etc, these assumptions mean that domestic and foreign prices
-
-are !xed so that changes in relative prices are caused by changes in the nominal exchange rate.
-
-Te central message of the elasticity approach is that there are two direct e$ects of a devaluation on the
-
-current balance, one of which works to reduce a de!cit, whilst the other actually contributes to making the
-
-de!cit worse than before. Let us consider these two e$ects in some detail.
+The central message of the elasticity approach is that there are two direct effects of a devaluation on the current balance, one of which works to reduce a deficit, whilst the other actually contributes to making the deficit worse than before. Let us consider these two effects in some detail.
 
 Te current account balance, when expressed in terms of the domestic currency, is given by:
 
@@ -241,23 +198,9 @@ _CA_
 
 d _S_
 
-Equation (3.8) is known as the Marshall–Lerner condition and states that, starting from a position of
+Equation (3.8) is known as the Marshall–Lerner condition and states that, starting from a position of equilibrium in the current account, a devaluation will improve the current account, that is, d _CA_ /d _S_ > 0 only if the sum of the foreign elasticity of demand for exports and the home country elasticity of demand for imports is greater than unity; that is, (_η_x_ + _η_m_) > 1. If the sum of these two elasticities is less than unity, then a devaluation will lead to a deterioration of the current account.
 
-equilibrium in the current account, a devaluation will improve the current account, that is, d _CA_ /d _S_ - 0 only
-
-if the sum of the foreign elasticity of demand for exports and the home country elasticity of demand for
-
-imports is greater than unity; that is, ( _x_ + ( _m_ >1. If the sum of these two elasticities is less than unity, then a
-
-devaluation will lead to a deterioration of the current account.
-
-Te economic explanation of this result is illustrated in Table 3.1 which shows the pre-devaluation and
-
-three possible post-devaluation scenarios. Before devaluation the sterling–dollar exchange rate is £0.6667/\$1
-
-(\$1.5/£1), whereas a,er the devaluation it is £0.80/$1 ($1.25/£1). Te price of one unit of UK exports is £1 and
-
-the price of one unit of US exports is \$5.
+The economic explanation of this result is illustrated in Table 3.1 which shows the pre-devaluation and three possible post-devaluation scenarios. Before devaluation the sterling–dollar exchange rate is £0.6667/\$1 (\$1.5/£1), whereas after the devaluation it is £0.80/\$1 (\$1.25/£1). The price of one unit of UK exports is £1 and the price of one unit of US exports is \$5.
 
 Tere are two e$ects in play once a currency is devalued:
 
@@ -350,7 +293,7 @@ give an additional boost to export revenues (when demand is inelastic). Similarl
 foreign imports will have the e$ect of reducing the foreign currency price of imports, thus lowering import
 expenditure. Both these e$ects are absent under the in!nite supply elasticities we have assumed.
 
-3.3 EMPIRICAL EVIDENCE ON IMPORT AND EXPORT DEMAND ELASTICITIES
+## 3.3 Empirical Evidence on Import and Export Demand Elasticities
 
 Te possibility that a devaluation may lead to a worsening rather than an improvement in the balance of
 
@@ -541,7 +484,7 @@ lead to higher wage costs as workers seek compensation for higher import prices,
 
 lead to a rise in export prices, reducing the competitive advantage of the devaluation.
 
-3.4 THE PASS-THROUGH EFFECT OF A DEPRECIATION OR APPRECIATION
+## 3.4 The Pass-Through Effect of a Depreciation or Appreciation
 
 In the preceding analysis, we have assumed that a 10% depreciation/devaluation will lead to a rise in price of
 
@@ -607,7 +550,7 @@ depreciation is increasingly passed on over time, this will tend to raise import
 
 initial deterioration of the J-curve.
 
-3.5 THE ABSORPTION APPROACH
+## 3.5 The Absorption Approach
 
 One of the major defects of the elasticity approach is that it is based upon the assumption that all other things
 
@@ -680,7 +623,7 @@ states of an economy: below full employment, so that income may rise; and full e
 
 income cannot rise.
 
-3.6 THE EFFECTS OF A DEVALUATION ON NATIONAL INCOME
+## 3.6 The Effects of a Devaluation on National Income
 
 Clearly a relevant question if the economy is at less than full employment is whether a devaluation is likely to
 
@@ -758,7 +701,7 @@ But income changes are only one of the factors influencing the current account: 
 
 to consider is the impact on direct absorption.
 
-3.7 THE EFFECTS OF A DEVALUATION ON DIRECT ABSORPTION
+## 3.7 The Effects of a Devaluation on Direct Absorption
 
 For the moment, let us assume that the net e$ect of a devaluation on income is zero. Tis being the case, we
 
@@ -939,7 +882,7 @@ concentrate on raising income while constraining absorption.
 
 International Finance
 
-3.8 A SYNTHESIS OF THE ELASTICITY AND ABSORPTION APPROACHES
+## 3.8 A Synthesis of the Elasticity and Absorption Approaches
 
 Initially, it was believed that the absorption approach was an alternative to the elasticities approach; the
 
@@ -971,7 +914,7 @@ the sum of elasticities needs to be somewhat greater than the unity value derive
 
 Tus, the absorption approach is relevant to the elasticity approach.
 
-3.9 CONCLUSIONS
+## 3.9 Conclusions
 
 We have seen that the absorption approach, like the elasticity approach, does not provide an unambiguous
 

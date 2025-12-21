@@ -35,7 +35,7 @@ cssclasses: academia
 
 Much of what financial markets and institutions do is related to raising finance for companies. This chapter will help orientate you in the world of equity finance raising for stock market quoted companies. By the end of the chapter you should be able to: explain the processes involved in a company joining a stock market to have its shares traded in a regulated market for the first time. This includes describing the role of various financial advisers and institutions;
 
-- outline the main ongoing regulations for a company quoted on the London Stock Exchange, including disclosure of price-sensitive information, reporting profits and other accounts, restrictions on directors and the corporate governance regulations;
+■ outline the main ongoing regulations for a company quoted on the London Stock Exchange, including disclosure of price-sensitive information, reporting profits and other accounts, restrictions on directors and the corporate governance regulations;
 
 - demonstrate understanding of the figures presented in the financial pages for shares and share indices; run through the main considerations for rights issues, placings, open offers, vendor placings, scrip issues, share splits, warrants, share buy-backs and special dividends.
 
@@ -63,7 +63,7 @@ Many firms consider the stresses and the costs worthwhile because listing brings
 
 All companies obtaining a full MM listing must ensure that at least 25 per cent of their share capital is in public hands, so that the shares are capable of being traded actively on the market. The Indian markets adopted the same 25 per cent rule in 2010 - see Exhibit 9.2.
 
-### Exhibit 9.2
+#### Exhibit 9.2
 
 ### India flotation demand set to hit valuations
 
@@ -107,21 +107,21 @@ When a corporate broker is employed as a sponsor the two roles can be combined. 
 
 Shortly before the flotation the sponsor will have the task of advising on the best price to ask for the shares, and, at the time of flotation, the sponsor will usually underwrite the issue. Most new issues are underwritten because the correct pricing of a new issue of shares is extremely difficult. If the price is set too high, demand will be less than supply and not all the shares will be taken up. The company is usually keen to know that it will receive the expected money from the issue so that it can plan ahead. To make sure it sells the shares it buys a kind of insurance called **underwriting**. In return for a fee the underwriter guarantees to buy the proportion of the issue not taken up by the market. An investment bank sponsoring the issue will usually charge a fee of 2-4 per cent of the issue proceeds and then pays part of that fee, say 1.25-3.0 per cent of the issue proceeds, to sub-underwriters (usually large financial institutions such as pension funds and banks), which each agree to buy a certain number of shares if called on to do so. In most cases the underwriters do not have to purchase any shares because the general public are keen to take them up. However, occasionally they receive a shock and have to buy large quantities.
 
-# Legal expenses
+## Legal expenses
 
 All legal requirements in the flotation preparation and in the information displayed in the prospectus must be observed. Lawyers prepare the 'verification' questions which are used to confirm that every statement in the prospectus can be justified as fact. Directors bear the ultimate responsibility for the truthfulness of the documents. Examples of other legal issues are directors' contracts, changes to the articles of association, re-registering the company as a public limited company (rather than a limited company which is not able to offer its shares to the wider public), underwriting agreements and share option schemes.
 
-### Accounting
+#### Accounting
 
 The reporting accountant in a flotation has to be different from the company's existing auditors, but can be a separate team in the same firm.
 
 The accountant will be asked by the sponsor to prepare a detailed report on the firm's financial controls, track record, financing and forecasts (the 'long form' report). Not all of this information will be included in the prospectus but it does serve to reassure the sponsor that the company is suitable for flotation. Accountants may also have a role in tax planning from both the company's viewpoint and that of its shareholders. They also investigate working capital requirements. The UKLA insists that companies show that they have enough working capital for current needs and for at least the next 12 months.
 
-### Registrar
+#### Registrar
 
 The record on the ownership of shares is maintained by registrars as shares are bought and sold. Registrars keep the company's register and issue share certificates. There are about two dozen major registrars linked up to CREST through which they are required to electronically adjust their records of ownership of company shares within two hours of a trade taking place.
 
-### Listing fees
+#### Listing fees
 
 Listing fees are charged by stock markets for admission to listing, followed by annual charges, graduated according to the size of the company. See Exhibit 9.3 for LSE fees.
 
@@ -129,17 +129,17 @@ Exhibit 9.3 London Stock Exchange listing fees 2011
 
 <table><tr><td>Main Market admission fees</td><td>£</td></tr><tr><td>Minimum (under £5m capitalisation)</td><td>6,708</td></tr><tr><td>Maximum (over £500m capitalisation)</td><td>388,173</td></tr><tr><td>Main Market annual fees</td><td>UK</td></tr><tr><td>Minimum (under £50m capitalisation)</td><td>4,410</td></tr><tr><td>Maximum (over £500m capitalisation)</td><td>43,470</td></tr><tr><td></td><td>International</td></tr><tr><td>Minimum (under £25m capitalisation)</td><td>6,773</td></tr><tr><td>Maximum (over £1,025m capitalisation)</td><td>21,634</td></tr><tr><td>AIM admission fees</td><td></td></tr><tr><td>Minimum (under £5m capitalisation)</td><td>6,720</td></tr><tr><td>Maximum (over £250m capitalisation)</td><td>75,810</td></tr><tr><td>AIM annual fee</td><td>5,350</td></tr></table>
 
-### Printing, advertising, public relations, etc.
+#### Printing, advertising, public relations, etc.
 
 Public relations and advertising companies are used to influence investors and persuade them to buy the shares. Although the shares are underwritten, and therefore there is a guarantee that they will all be sold, albeit maybe at a lower price than the offer price, it is a huge relief to all concerned if the public response is favourable and the shares are sold to investors. It demonstrates public confidence in the company and shows that the listing was justified, and the sponsors can gauge investor appetite accurately.
 
-### Prospectus
+#### Prospectus
 
 To create a stable market and encourage investors to place their money with companies the UKLA tries to minimise the risk of investing by ensuring that the firms which obtain a quotation abide by high standards; this includes producing a well-crafted prospectus. The prospectus ('listing particulars') is designed to inform potential shareholders about the company. This may contain far more information about the firm than it has previously dared to put into the public domain. The prospectus acts as a marketing tool as the firm attempts to persuade investors to apply for shares.
 
 The content and accuracy of this vital document are the responsibility of the directors. Contained within it must be three years of audited accounts, details of indebtedness and a statement as to the adequacy of working capital. Statements by experts are often required: valuers may be needed to confirm the current value of property, engineers may be needed to state the viability of processes or machinery and accountants may be needed to comment on the profit figures. All major contracts entered into in the past two years will have to be detailed and a description of the risks facing the firm provided. Any persons with a shareholding of more than 3 per cent have to be named. A mass of operational data is also required, ranging from an analysis of sales by geographical area and type of activity, to information on research and development and significant investments in other companies.
 
-### Methods of issue
+#### Methods of issue
 
 The sponsor will look at the motives for wanting a quotation, at the amount of money that is to be raised, at the history and reputation of the firm, and will then advise on the best method of issuing the shares. There are various methods, ranging from a full-scale offer for sale to a relatively simple introduction. The final choice often rests on the costs of issue, which can vary considerably. Here are the main options:
 
@@ -147,7 +147,7 @@ The sponsor will look at the motives for wanting a quotation, at the amount of m
 - Introductions These do not raise any new money for the company. If the company's shares are already quoted on another stock exchange or there is a wide spread of shareholders, with more than 25 per cent of the shares in public hands, the Exchange permits a company to be 'introduced' to the market. This method may allow companies trading on AIM to move up to the Main Market or foreign corporations to gain a London listing. This is the cheapest method of flotation since there are no underwriting costs and relatively small advertising expenditures.
 - Placing In a placing, shares are offered to the public but the term 'public' is narrowly defined. Instead of engaging in advertising to the population at large, the sponsor or broker handling the issue sells the shares to institutions it is in contact with, such as pension and insurance funds. The costs of this method are considerably lower than those of an offer for sale. There are lower publicity costs and legal costs. A drawback of this method is that the spread of shareholders is going to be more limited. To alleviate this problem the Stock Exchange insists on a large number of places holding shares after the new issue. A generation ago the most frequently used method of new issue was the offer for sale. This ensured a wide spread of share ownership and thus a more liquid secondary market. It also permitted all investors to participate in new issues. Placings were permitted only for small offerings (< £15m) when the costs of an offer for sale would have been prohibitive. Today any size of new issue can be placed. As this method is much cheaper and easier than an offer for sale, companies have naturally switched to placings so there are now few offers for sale. Placings are normally carried out by sponsors and brokers, but, as Exhibit 9.4 shows, companies can do their own.
 
-# Exhibit 9.4
+### Exhibit 9.4
 
 # Growing groups turn to inventive fundraising methods
 
@@ -522,7 +522,7 @@ Shallow local roots can also deepen into a substantial presence, as proved by SA
 <table><tr><td>British Petroleum</td><td colspan="2">Shell
 Transport &amp; Trading</td><td>GEC</td><td>ICI</td><td>Marks and Spencer</td></tr><tr><td>7.4</td><td colspan="2">6.3</td><td>4.9</td><td>3.9</td><td>2.8</td></tr><tr><td>BAT Industries</td><td>Glaxo</td><td>BTR</td><td colspan="2">Beecham</td><td>Grand Metropolitan</td></tr><tr><td>2.6</td><td>2.6</td><td>2.2</td><td colspan="2">2.2</td><td>2.0</td></tr></table>
 
-## Mining sector has grown …
+### Mining sector has grown …
 
 Basic materials* sector \% share of FTSE 100 index
 
@@ -536,7 +536,7 @@ Top 10 miners 2010 Market capitalisation (£bn)
 
 * includes mining and chemicals
 
-## … while industrial companies have waned
+### … while industrial companies have waned
 
 Top 10 industrial companies 1984
 
@@ -554,13 +554,13 @@ Industrials** sector
 
 It now employs about 30-40 at its London head office and about 480 in the UK overall. But Graham Mackay, chief executive, recalls a very different set-up initially: "When we first came to list it was three of us and a filing cabinet."
 
-# Interactive graphic: www. ft.com/ftse100
+## Interactive graphic: www. ft.com/ftse100
 
 Source: Financial Times, 1 June 2010. Reprinted with permission.
 
 The FTSE 100 rose significantly in its first 16 years, but has done poorly since 2000 – it has not even matched inflation (see Exhibit 9.16).
 
-Exhibit 9.16 Performance of FTSE 100 from its inception to 2011
+### Exhibit 9.16 Performance of FTSE 100 from its inception to 2011
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/d2fd690043f7c6cbfd900ed27b67d419ff5fee8b011bec0338e44438146f4741.jpg)
 
@@ -568,7 +568,7 @@ Source: Yahoo Finance.
 
 The FTSE manages thousands of different indices and has offices all over the world. Furthermore, there are many other agencies calculating indices, the most important of which are shown in Exhibit 9.17.
 
-Exhibit 9.17 Important stock market indices
+### Exhibit 9.17 Important stock market indices
 
 <table><tr><td>UK Indices</td><td colspan="2">Non-UK indices</td></tr><tr><td>FTSE 100</td><td>NASDAQ Comp</td><td>US</td></tr><tr><td>FTSE 250</td><td>Dow Jones</td><td>US</td></tr><tr><td>FTSE 350</td><td>S&amp;P 500</td><td>US</td></tr><tr><td>FTSE All-Share</td><td>FTSE MIB</td><td>Italy</td></tr><tr><td>FTSE AIM All-Share</td><td>Xetra DAX</td><td>Germany</td></tr><tr><td>FTSE SmallCap</td><td>DJ Eurostoxx 50</td><td>Eurozone</td></tr><tr><td>FTSE All-Small</td><td>CAC 40</td><td>France</td></tr><tr><td></td><td>AEX</td><td>Netherlands</td></tr><tr><td></td><td>BEL20</td><td>Belgium</td></tr><tr><td></td><td>PSI General</td><td>Portugal</td></tr><tr><td></td><td>Nikkei 225</td><td>Tokyo</td></tr><tr><td></td><td>Hang Seng</td><td>Hong Kong</td></tr><tr><td></td><td>ASX All Ordinaries</td><td>Australia</td></tr><tr><td></td><td>FTSEurofirst100</td><td>Europe</td></tr><tr><td></td><td>FTSE All World</td><td>World</td></tr></table>
 
@@ -588,13 +588,13 @@ FTSE All-Small This combines companies in the FTSE SmallCap with those in the FT
 
 These indices are shown daily in the Financial Times - see Exhibit 9.18.
 
-# Rights issues
+## Rights issues
 
 In addition to, or as an alternative to, floating on a stock market, which usually involves raising finance by selling shares to a new group of shareholders, a company may raise finance by making a rights issue, in which existing shareholders are invited to pay for new shares in proportion to their present holdings.
 
 This is a very popular method of raising new funds, especially if the company does not want or is unable to finance through borrowing. It is easy and relatively cheap (compared with new issues). Directors are not required to seek the prior consent of shareholders, and the London Stock Exchange will intervene in larger issues only (to adjust the timing so that the market does not suffer from too many issues in one period).
 
-# Pre-emption rights
+## Pre-emption rights
 
 The UK has particularly strong traditions and laws concerning pre-emption rights. These require that a company raising new equity capital by selling shares must first offer those shares to the existing shareholders. The owners of the company are entitled to subscribe for the new shares in proportion to their existing holding, which enables them to maintain the influence of their existing percentage ownership of the company – the only difference is that each slice of the company cake is bigger because it is part of a larger financial asset. The importance of pre-emption rights across Europe and much of the rest of the world is discussed in Exhibit 9.19.
 
@@ -604,7 +604,7 @@ Produced in conjunction with the Faculty and Institute of Actuaries
 
 UK SERIES www.ft.com/equities
 
-Exhibit 9.18
+### Exhibit 9.18
 
 FTSE ACTUARIES SHARE INDICES
 
@@ -628,7 +628,7 @@ yield\%</td><td>Cover</td><td>P/E ratio</td><td>Xd
 adj</td><td>Total
 Return</td></tr><tr><td>Oil &amp; Gas (24)</td><td>9285.1</td><td>-1.0</td><td>8404.44</td><td>9374.82</td><td>9353.19</td><td>8867.70</td><td>2.35</td><td>1.11</td><td>38.43</td><td>67.05</td><td>6409.60</td></tr><tr><td>Oil &amp; Gas Producers (17)</td><td>8767.9</td><td>-1.0</td><td>7936.32</td><td>8853.42</td><td>8834.25</td><td>8470.77</td><td>2.39</td><td>1.06</td><td>39.54</td><td>65.81</td><td>6246.17</td></tr><tr><td>Oil Equipment Services (5)</td><td>25541.6</td><td>-0.8</td><td>23119.19</td><td>25742.70</td><td>25606.06</td><td>16980.25</td><td>1.20</td><td>3.76</td><td>22.20</td><td></td><td>16292.26</td></tr><tr><td>Basic Materials (32)</td><td>8020.4</td><td>-1.5</td><td>7259.74</td><td>8139.26</td><td>8243.07</td><td>7028.43</td><td>1.44</td><td>7.84</td><td>8.82</td><td>21.54</td><td>6741.35</td></tr><tr><td>Chemicals (7)</td><td>7514.9</td><td>-0.3</td><td>6802.19</td><td>7535.09</td><td>7483.62</td><td>5277.02</td><td>1.84</td><td>2.64</td><td>20.66</td><td>12.67</td><td>5786.24</td></tr><tr><td>Forestry &amp; Paper (1)</td><td>6711.3</td><td>+0.4</td><td>6074.76</td><td>6681.88</td><td>6670.13</td><td>5169.20</td><td>2.95</td><td>3.29</td><td>10.28</td><td></td><td>5941.49</td></tr><tr><td>Industrial Metals &amp; Mining (3)</td><td>8684.5</td><td>-1.2</td><td>7860.87</td><td>8792.26</td><td>8884.20</td><td>6883.29</td><td>0.40</td><td>8.56</td><td>28.97</td><td></td><td>7016.18</td></tr><tr><td>Mining (21)</td><td>25213.2</td><td>-1.5</td><td>22821.90</td><td>25604.44</td><td>25955.39</td><td>22307.92</td><td>1.42</td><td>8.21</td><td>8.56</td><td>69.95</td><td>11020.33</td></tr><tr><td>Industrials (113)</td><td>3128.1</td><td>-0.1</td><td>2831.42</td><td>3130.30</td><td>3125.21</td><td>2614.53</td><td>2.51</td><td>2.26</td><td>17.59</td><td>1.40</td><td>2731.29</td></tr><tr><td>Construction &amp; Materials (10)</td><td>4211.8</td><td>-0.5</td><td>3812.35</td><td>4231.77</td><td>4198.49</td><td>3553.57</td><td>3.90</td><td>1.78</td><td>14.37</td><td>7.22</td><td>3574.30</td></tr><tr><td>Aerospace &amp; Defence (10)</td><td>3417.4</td><td>+0.4</td><td>3093.26</td><td>3404.47</td><td>3401.39</td><td>3464.66</td><td>3.46</td><td>1.93</td><td>14.96</td><td>0.35</td><td>3141.43</td></tr><tr><td>General Industrials (6)</td><td>2663.3</td><td>-</td><td>2410.67</td><td>2664.36</td><td>2649.78</td><td>1918.92</td><td>2.62</td><td>2.45</td><td>15.56</td><td>1.96</td><td>2454.89</td></tr><tr><td>Electronic &amp; Electrical Equipment (12)</td><td>3772.4</td><td>-0.2</td><td>3414.59</td><td>3779.81</td><td>3739.39</td><td>1971.17</td><td>1.90</td><td>2.38</td><td>22.09</td><td>7.71</td><td>2984.38</td></tr><tr><td>Industrial Engineering (13)</td><td>7017.0</td><td>-0.8</td><td>6351.53</td><td>7076.73</td><td>7068.91</td><td>4714.92</td><td>2.30</td><td>2.50</td><td>17.46</td><td>4.45</td><td>7270.98</td></tr><tr><td>Industrial Transportation (9)</td><td>3301.3</td><td>+0.1</td><td>2988.22</td><td>3298.13</td><td>3239.66</td><td>2975.34</td><td>3.79</td><td>1.59</td><td>16.55</td><td></td><td>2299.60</td></tr><tr><td>Support Services (53)</td><td>4412.1</td><td>-0.1</td><td>3993.67</td><td>4415.97</td><td>4419.49</td><td>3723.17</td><td>1.97</td><td>2.56</td><td>19.77</td><td>1.21</td><td>3921.26</td></tr><tr><td>Consumer Goods (35)</td><td>10300.1</td><td>+0.6</td><td>9323.20</td><td>10234.76</td><td>10265.96</td><td>9851.07</td><td>3.50</td><td>2.09</td><td>13.69</td><td>89.20</td><td>6228.62</td></tr><tr><td>Automobiles &amp; Parts (1)</td><td>4997.7</td><td>+1.3</td><td>4523.74</td><td>4933.02</td><td>4909.05</td><td>2895.57</td><td>2.40</td><td>3.99</td><td>10.46</td><td></td><td>4023.86</td></tr><tr><td>Beverages (4)</td><td>9257.1</td><td>+0.7</td><td>8379.10</td><td>9191.86</td><td>9169.35</td><td>8352.27</td><td>2.75</td><td>1.87</td><td>19.42</td><td>64.14</td><td>5589.28</td></tr></table>
 
-# Knowing your rights is a serious issue
+## Knowing your rights is a serious issue
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/6abd8904993f3eaf05f33dea5758d73240ee299a5fca25d460e25a6237dc0a15.jpg)
 
@@ -640,7 +640,7 @@ Many countries impose rules on share issues, forcing companies to tell existing 
 
 Last year 1,012 companies across the world raised 196.3bn via rights issues, according to Dealoric, the data provider. Three-quarters of this sum was raised in Europe.
 
-Just over 100 UK companies raised  \$65.2bn in 2009 and 245 continental European companies\$ 82.8bn, says Dealoric. This accounts for about two-thirds of all cash calls in the region.
+Just over 100 UK companies raised  \$65.2bn in 2009 and 245 continental European companies \$82.8bn, says Dealoric. This accounts for about two-thirds of all cash calls in the region.
 
 But few shareholders elsewhere take these rights more seriously than those in the UK, where protections have developed over centuries to stop managers transferring wealth from the owners of companies to new investors.
 
@@ -680,7 +680,7 @@ That said, the UK's rights issue process has not gone unchallenged. US bankers h
 
 The pre-emption concept is gaining ground in other jurisdictions. In Japan, pre-emption rights issues were almost unknown. But as struggling companies last year found they needed to raise equity in more flexible ways, calls for share issues that protect shareholder rights have gained support, from the Tokyo stock exchange, among others.
 
-# An example
+## An example
 
 Take the case of the imaginary listed company Swell plc with 100 million shares in issue. It wants to raise £25 million for expansion but does not want to borrow the money. Its existing shares are quoted on the stock market at  $120\mathrm{p}$ , so the new rights shares will have to be issued at a lower price to appeal to shareholders because there is a risk of the market price falling in the period between the announcement and the purchasing of new shares. The offer must remain open for shareholders to get their applications in for at least two weeks (ten working days).
 
@@ -690,7 +690,7 @@ If the market price before the issue is 120p, valuing the entire company at £12
 
 An alternative way of calculating the ex-rights price is as follows:
 
-# Ex-rights price
+### Ex-rights price
 
 <table><tr><td>Four existing shares at a price of 120p</td><td></td><td>480p</td></tr><tr><td>One new share for cash at 100p</td><td>+</td><td>100p</td></tr><tr><td>Value of five shares</td><td>=</td><td>580p</td></tr><tr><td>Value of one share ex-rights 580p/5</td><td></td><td>116p</td></tr></table>
 
@@ -700,7 +700,7 @@ Shareholders have experienced a decline in the price of their old shares from 12
 
 When the press talks glibly of a rights offer being 'very attractively priced for shareholders', they are generally talking nonsense. Whatever the size of the discount, the same value will be removed from the old shares to leave the shareholder no worse or better off. Logically, value cannot be handed over to the shareholders from the size of the discount decision. Shareholders own all the company's shares before and after the rights issue – they can't hand value to themselves without also taking value from themselves. Of course, if the prospects for the company's profits rise because it can now make capital expenditures, leading to dominant market positions, then the value of shares will rise – for both the old and the new shares. But this is value creation that has nothing to do with the level of the discount.
 
-# What if a shareholder does not want to take up the rights?
+## What if a shareholder does not want to take up the rights?
 
 As owners of the firm all shareholders must be treated in the same way. To make sure that shareholders do not lose out because they are unwilling or unable to buy more shares the law requires that shareholders have a third choice, other than to buy or not buy the new shares. This is to sell the rights on to someone else on the stock market (selling the rights nil paid). Indeed, so deeply enshrined are pre-emption rights that even if the shareholder does nothing the company will sell his rights to the new shares on his behalf and send the proceeds to him. Thus, the shareholder is compensated for the fact that their shareholding has been diluted by the increased number of shares in issue.
 
@@ -709,12 +709,12 @@ Take the case of the impoverished Sid, who is unable to find the necessary  $£2
 The value of a right on one old share in Swell is this theoretical market value of a share ex-rights less the subscription price divided by the number of old shares required to purchase one new share:
 
 $$
-\frac{1 1 6 \mathrm{p} - 1 0 0 \mathrm{p}}{4} = 4 \mathrm{p}
+\frac{116 \mathrm{p} - 100 \mathrm{p}}{4} = 4 \mathrm{p}
 $$
 
 In the case of the Lloyds issue (see Exhibit 9.20) those shareholders who did not take up the new shares received  $18.5\mathrm{p}$  for each share declined.
 
-# Exhibit 9.20
+### Exhibit 9.20
 
 # Strong response to Lloyds cash call
 
@@ -744,41 +744,41 @@ A number of institutional investors divided the "rump" of remaining shares. Bank
 
 Source: Financial Times, 15 December 2009, p. 20. Reprinted with permission.
 
-# Ex-rights and cum-rights
+## Ex-rights and cum-rights
 
 Old shares bought in the stock market which are designated cum-rights carry with them to the new owner the right to subscribe for the new shares in the rights issue. After a cut-off date the shares go ex-rights, which means that any purchaser of old shares will not have the right to the new shares; that right remains with the former shareholder.
 
-# Discounts
+## Discounts
 
 It does not matter greatly whether Swell raises £25 million on a one-for-four basis at 100p or on a one-for-three basis at 75p per share, or on some other basis (see Exhibit 9.21).
 
-Exhibit 9.21 Comparison of different rights bases
+### Exhibit 9.21 Comparison of different rights bases
 
 <table><tr><td>Rights basis</td><td>Number of new shares (m)</td><td>Price of new shares (p)</td><td>Total raised (£m)</td></tr><tr><td>1 for 4</td><td>25</td><td>100</td><td>25</td></tr><tr><td>1 for 3</td><td>33.3</td><td>75</td><td>25</td></tr><tr><td>1 for 2</td><td>50</td><td>50</td><td>25</td></tr><tr><td>1 for 1</td><td>100</td><td>25</td><td>25</td></tr></table>
 
 Whatever the basis of the rights issue, the company will receive £25 million and shareholders will see the price of their old shares decrease, but this will be exactly offset by the value of the rights on the new shares. However, the ex-rights price changes according to the basis of the rights issue – see Exhibit 9.22.
 
-Exhibit 9.22 Ex-rights prices for different rights issue bases
+### Exhibit 9.22 Ex-rights prices for different rights issue bases
 
 <table><tr><td>Original shares</td><td></td><td>New shares</td><td></td><td></td><td>Total</td><td></td><td></td><td>Ex-rights price</td><td></td></tr><tr><td>4 shares @ 120p</td><td>480p</td><td>1 share @ 100p</td><td>+</td><td>100p</td><td>Value of 5 shares</td><td>=</td><td>580p</td><td>Value of 1 share (580/5)</td><td>116p</td></tr><tr><td>3 shares @ 120p</td><td>360p</td><td>1 share @ 75p</td><td>+</td><td>75p</td><td>Value of 4 shares</td><td>=</td><td>435p</td><td>Value of 1 share (435/4)</td><td>108.75p</td></tr><tr><td>2 shares @ 120p</td><td>240p</td><td>1 share @ 50p</td><td>+</td><td>50p</td><td>Value of 3 shares</td><td>=</td><td>290p</td><td>Value of 1 share 290/3)</td><td>96.67p</td></tr><tr><td>1 share @ 120p</td><td>120p</td><td>1 share @ 25p</td><td>+</td><td>25p</td><td>Value of 2 shares</td><td>=</td><td>145p</td><td>Value of 1 share (145/2)</td><td>72.5p</td></tr></table>
 
 If Swell chose the one-for-one basis this would be regarded as a deep-discounted rights issue. With an issue of this sort there is only a minute probability that the market price will fall below the rights offer price and therefore there is almost complete certainty that the offer will be taken up. It seems reasonable to suggest that the underwriting service provided by the institutions is largely redundant here and that the firm can make a significant saving. Yet a large majority of all rights issues are underwritten, usually involving between 100 and 400 sub-underwriters, with fees for all the professionals involved.
 
-# Placings, open offers and clawback
+## Placings, open offers and clawback
 
 Some companies argue that the lengthy procedures and expense associated with rights issues (e.g. the time and trouble it takes to get a prospectus prepared and approved by the UKLA) frustrate directors' efforts to take advantage of opportunities in a timely fashion. Firms in the US have much more freedom to bypass pre-emption rights. They are able to sell blocks of shares to securities houses for distribution elsewhere in the market. This is fast and has low transaction costs. If this were permitted in the UK there would be a concern for existing shareholders: they could experience a dilution of their voting power and/or the shares could be sold at such a low price that a portion of the firm is handed over to new shareholders too cheaply. The UK authorities have produced a compromise, under which firms must obtain shareholders' approval through a special resolution (a majority of 75 per cent of those voting) at the company's annual general meeting, or at an extraordinary general meeting to waive the pre-emption right. Even then the shares must not be sold to outside investors at more than a 5 per cent or 10 per cent discount to the share price. While the maximum discount for MM companies under the listing rules is 10 per cent, the Association of British Insurers' guidelines are for a maximum of 5 per cent. This is an important condition. It does not make any difference to existing shareholders if new shares are offered at a deep discount to the market price as long as they are offered to them. If external investors get a discount there is a transfer of value from the current shareholders to the new.
 
 In placings, new shares of companies already listed are sold directly to a narrow group of external investors. The institutions, as existing shareholders, have produced guidelines to prevent abuse, which normally allow a placing of only a small proportion of the company's capital (a maximum of 5 per cent in a single year, and no more than 7.5 per cent is to be added to the company's equity capital over a rolling three-year period) in the absence of a clawback. Under clawback, existing shareholders have the right to reclaim the shares as though they were entitled to them under a rights issue. They can buy them at the price they were offered to the external investors. With a clawback the issue becomes an 'open offer'. Under an open offer companies can increase their share capital by between 15 per cent and 18 per cent. Beyond that the investors (e.g. Association of British Insurers) prefer a rights issue. The major difference compared with a rights issue is that if they do not exercise this clawback right they receive no compensation for any reduction in the price of their existing shares – there are no nil-paid rights to sell.
 
-# Vendor placing
+### Vendor placing
 
 If a company wishes to pay for an asset such as a subsidiary of another firm or an entire company with newly issued shares, but the vendor does not want to hold the shares, the purchaser could arrange for the new shares to be bought by institutional investors for cash. In this way the buyer gets the asset, the vendor (e.g. shareholders in the target company in a merger or takeover) receive cash and the institutional investor makes an investment. There is usually a clawback arrangement for a vendor placing (if the issue is more than 10 per cent of market capitalisation of the acquirer). Again, the price discount can be no more than 5 per cent or 10 per cent of the current share price.
 
-# Bought deal
+### Bought deal
 
 Instead of selling shares to investors, companies are sometimes able to make an arrangement with a securities house whereby it buys all the shares being offered for cash. The securities house then sells the shares on to investors included in its distribution network, hoping to make a profit on the deal. Securities houses often compete to buy a package of shares from the company, with the highest bidder winning. The securities houses take the risk of being unable to sell the shares for at least the amount that they paid. Bought deals are limited by the 5 per cent or 10 per cent preemption rules.
 
-# Scrip issues, scrip dividends, splits and consolidation
+## Scrip issues, scrip dividends, splits and consolidation
 
 Scrip issues do not raise new money: a company simply gives all shareholders more shares in proportion to their existing holdings. The value of each shareholding does not change because the share price drops in proportion to the additional shares. They are also known as capitalisation issues or bonus issues. The purpose is to make shares more attractive by bringing down the price. British investors are thought to consider a share price of £10 and above as less attractive than one in single figures. So a company with shares trading at £15 on the market might distribute two 'free' shares for every one held – a two-for-one scrip issue. Since the amount of money in the firm and its economic potential are constant, the share price will theoretically fall to £5. Scrip issues are often regarded as indicating confidence in future earnings increases. If this new optimism is expressed in the share price it may not fall as much as theory would suggest. However, many people are sceptical about the benefits of scripts, especially in light of the transaction costs.
 
@@ -790,7 +790,7 @@ A 'share split' (stock split) means that the nominal value of each share is redu
 
 If the share price goes too low, say 15p, companies may decide to pursue consolidation of shares. This is the opposite of a split: the number of shares is reduced and the nominal value of each remaining share rises. If the nominal (par) value is 5p the company could consolidate on the basis of five shares for one. A 25p nominal share would replace five 5p nominal shares and the new share would then trade in the market at  $5 \times 15\mathrm{p} = 75\mathrm{p}$  (or slightly more if investors are more attracted to shares within a 'normal' price range).
 
-# Share buy-backs and special dividends
+## Share buy-backs and special dividends
 
 Occasionally directors conclude that the company has too much equity capital and that it would be appropriate to hand back some of the cash to shareholders. It could be that the company is able to generate higher returns on each remaining share by borrowing more to reduce the number of shares by self-purchase. It could be that the directors think the shares are undervalued, and by reducing the quantity on the market the price will rise. It could be that the directors are aware of the tendency of companies to squander surplus cash on value-destroying mergers, and they want to avoid the temptation.
 
@@ -800,17 +800,17 @@ It is necessary for companies to ask shareholders' permission to buy back shares
 
 A second possible approach to returning surplus funds is to pay a special dividend. This is the same as the normal dividend, but bigger and paid on a one-off basis.
 
-# Warrants
+## Warrants
 
 Warrants give the holder the right to subscribe for a specified number of shares at a fixed price during or at the end of a specified time period. If a company has shares currently trading at £3 it might choose to sell warrants, each of which grants the holder the right to buy a share in the company at, say, £4 over the next five years. If by the fifth year the share price has risen to £6 the warrant holders could exercise their rights and then sell the shares immediately, gaining £2 per share, which is likely to be a considerable return on the original warrant price of a few pence. Warrants are frequently attached to bonds, and make the bond more attractive because the investor benefits from a relatively safe (but low) income on the bond if the firm performs in a mediocre fashion, but if the firm does very well and the share price rises significantly the investor will participate in some of the extra returns through the 'sweetener' or 'equity kicker' provided by the warrant.
 
 There is no requirement for investors to hold warrants until exercised or they expire. There is an active secondary market on the London Stock Exchange.
 
-# Concluding comments
+## Concluding comments
 
 Raising money for a company by selling shares is a complicated business. There are so many factors to be properly coordinated. There are numerous legal issues, regulations to be observed, the marketing of the shares to potential investors and the underwriting process to organise, to name but a few. It may seem that the financial institutions guiding firms earn outlandish fees, but it must be admitted that they do provide considerable social benefit.
 
-# Key points and concepts
+## Key points and concepts
 - London Stock Exchange's Main Market is the most heavily regulated UK exchange.
 - The Alternative Investment Market (AIM) is the lightly regulated exchange designed for small, young companies.
 $\bullet$  PLUS provides a share trading facility for companies, less costly than the LSE.
@@ -875,7 +875,7 @@ Share price Earnings per share
 Dividend yield:
 
 $$
-\frac{\text{Di vi de nd pe rs ha re}}{\text{Sh ar ep ri ce}} \times 1 0 0
+\frac{\text{Dividend per share}}{\text{Share price}} \times 100
 $$
 
 Dividend cover:
@@ -999,11 +999,11 @@ Wall Street Journal www.wsj.com
 
 Yahoo Finance. Financial data www.yahoofinance.com
 
-# Video presentations
+## Video presentations
 
 Chief executives and other senior people describe and discuss policy and aspects of raising equity capital in interviews, documentaries and webcasts at Cantos.com. (www.cantos.com) – these are free to view.
 
-# Case study recommendations
+## Case study recommendations
 
 See www.pearsoned.co.uk/arnold for case study synopses. Also see Harvard University: http://hbsp.harvard.edu/product/cases
 
@@ -1012,12 +1012,12 @@ Rosneft's Initial Public Offering (A) (2007) Authors: Lena Chua Booth, Michael H
 - Is a Share Buyback Right for Your Company? (2001) Author: Justin Pettit. Harvard Business Review, April. Available at Harvard Case Study Website.
 - Case Technology Limited: A Chinese IPO in Singapore (2005) Authors: Nigel Goodwin and Larry Wynant. Nanyang Business School Singapore. Available at Harvard Case Study Website.
 - Bertelsmann: The Ownership Question (2006) Authors: Frederic A. Neumann and Josep Tâpies. IESE Business School. Available at Harvard Case Study Website.
-Warburg Pincus and emgs: The IPO Decision (A) (2008) Authors: Felda Hardymon and Ann Leamon. Harvard Business School.
+- Warburg Pincus and emgs: The IPO Decision (A) (2008) Authors: Felda Hardymon and Ann Leamon. Harvard Business School.
 - Granite Apparel: Funding an Expansion (2010) Authors: Ken Mark, James E. Hatch and Larry Wynant. Richard Ivey School of Business. Available at Harvard Case Study Website.
-Note on IPO Share Allocation (2010) Authors: Claire Megat Raffaelli, Mark Leslie and Michael E. Marks. Stanford Graduate School of Business. Available at Harvard Case Study Website.
+- Note on IPO Share Allocation (2010) Authors: Claire Megat Raffaelli, Mark Leslie and Michael E. Marks. Stanford Graduate School of Business. Available at Harvard Case Study Website.
 - TRX, Inc.: Initial Public Offering (2008) Authors: Susan Chaplinsky, Kensai Morita and Xing Zeng. Darden, University of Pennsylvania.
 
-# Self-review questions
+## Self-review questions
 
 1 What equity markets can companies list their shares on in the UK?
 
@@ -1063,7 +1063,7 @@ Note on IPO Share Allocation (2010) Authors: Claire Megat Raffaelli, Mark Leslie
 
 22 What are (a) buy-backs (b) special dividends?
 
-# Questions and problems
+## Questions and problems
 
 1 Discuss the differences between floating on the Main Market and the Alternative Investment Market, noting the relative advantages and disadvantages.
 
@@ -1105,13 +1105,13 @@ Note on IPO Share Allocation (2010) Authors: Claire Megat Raffaelli, Mark Leslie
 
 14 If par values are not something to do with golf, public to private is not something to do with sexual modesty and a pathfinder prospectus is not something to do with scouting, what are they? Explain the context in which these terms are used.
 
-# Assignments
+## Assignments
 
 1 Consider the equity base of your company, or one you are familiar with. Write a report outlining the options available should the firm need to raise further equity funds. Also consider if preference share capital should be employed.
 
 2 Obtain newspaper articles discussing the run up to the flotation of a company and during the subsequent few months. Also obtain the flotation prospectus of the company. Write a case study that includes a discussion of the procedures leading to the float, the timetable, the advisers, the regulations and director restrictions.
 
-# Web-based exercises
+## Web-based exercises
 
 1 From the London Stock Exchange website, choose a company which listed on the Main Market in 2008, and write a report on its progress to date. Examine the company announcements over the past few years and then comment on the extent and nature of its directors' 'continuing obligations'.
 

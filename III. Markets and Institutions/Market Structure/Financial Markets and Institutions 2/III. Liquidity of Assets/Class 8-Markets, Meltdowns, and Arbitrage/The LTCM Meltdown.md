@@ -1,21 +1,25 @@
 ---
 title: "Class Note 13: The LTCM Meltdown"
 parent_directory: "Class 8-Markets, Meltdowns, and Arbitrage"
-formatted: 2025-12-21 01:05:00 PM
-formatter_model: grok-code-fast-1
+formatted: 2025-12-21 05:15:00 PM
+formatter_model: claude-sonnet-4
 cli-tool: opencode
 primary_tags:
-  - long term capital management
-  - limits to arbitrage
-  - performance based arbitrage
+   - long term capital management
+   - limits to arbitrage
+   - performance based arbitrage
+   - liquidity risk
 secondary_tags:
-  - hedge fund meltdown
-  - liquidity risk
-  - margin calls crisis
-  - noise trader model
-  - bank run analogy
-  - russian default impact
-  - forced liquidation
+   - hedge fund meltdown
+   - margin calls crisis
+   - noise trader model
+   - bank run analogy
+   - russian default impact
+   - forced liquidation
+   - arbitrage opportunities
+   - risk neutral pricing
+   - short term arbitrage
+   - front running problem
 cssclasses: academia
 ---
 
@@ -107,12 +111,12 @@ $$
 (1 - q) (100 / 80) D_{1} + q (0).
 $$
 
-The last term,  $\mathbf{q}(0)$  is zero because, if he loses money, he is out of business.
+The last term, $\mathbf{q}(0)$ is zero because, if he loses money, he is out of business.
 
-If the PBA arb waits until date 2 to invest, he won't lose assets under management, but with probability 1-q, the profit opportunity goes away. The expected value of date 3 assets under management if he waits to invest at date 2 it then:
+If the PBA arb waits until date 2 to invest, he won't lose assets under management, but with probability 1-q, the profit opportunity goes away. The expected value of date 3 assets under management if he waits to invest at date 2 is then:
 
 $$
-\mathrm{q} (1 0 0 / 7 0) \mathrm{D}_{1} + (1 - \mathrm{q}) \mathrm{D}_{1}.
+\mathrm{q} (100 / 70) \mathrm{D}_{1} + (1 - \mathrm{q}) \mathrm{D}_{1}.
 $$
 
 The PBA arb invests at date 1 when:
@@ -126,7 +130,7 @@ $$
 $$
 
 $$
-\text{or in ge ne ra li f} q <   \frac{p_{2} (V - p_{1})}{p_{1} (V - p_{2}) + p_{2} V}.
+\text{or in general if} q <   \frac{p_{2} (V - p_{1})}{p_{1} (V - p_{2}) + p_{2} V}.
 $$
 
 Thus, arcs subject to PBA are averse to profitable long-term bets that might go against them.
@@ -137,9 +141,9 @@ Table 1: Current and future prices:
 
 <table><tr><td>Date</td><td>Price If Noise trade occurs at date 2 (probability = q)</td><td>Price If Revert To True Value (“News trade” at date 2) (probability = 1-q)</td></tr><tr><td>1</td><td>80</td><td></td></tr><tr><td>2</td><td>70</td><td>100</td></tr><tr><td>3</td><td>100</td><td>100</td></tr></table>
 
-On date 2, any arbs that see the opportunity will invest in it, so long as  $p_2 < 100$ . But that need not prevent the market from being out of line at date 2. The arbs who see the date 2 opportunity have limited access to capital, and as a result they will not push the price all the way to 100, despite being a pure arbitrage. Remember that it is not obvious to all that this is an arbitrage opportunity.
+On date 2, any arbs that see the opportunity will invest in it, so long as $p_2 < 100$. But that need not prevent the market from being out of line at date 2. The arbs who see the date 2 opportunity have limited access to capital, and as a result they will not push the price all the way to 100, despite being a pure arbitrage. Remember that it is not obvious to all that this is an arbitrage opportunity.
 
-The prices in table 1 already reflect the activities of arbs. We will assume that  $q = 0.25$  for some examples, and for other examples we assume  $q = 0.5$ . For both values, no arb subject to PBA will trade at date 1 ( $q > 0.15$ ), but non-PBA arbs will trade at date 1 ( $q < 0.58$ ).
+The prices in table 1 already reflect the activities of arbs. We will assume that $q = 0.25$ for some examples, and for other examples we assume $q = 0.5$. For both values, no arb subject to PBA will trade at date 1 ($q > 0.15$), but non-PBA arbs will trade at date 1 ($q < 0.58$).
 
 ### II.C.
 
@@ -155,7 +159,7 @@ $$
 \begin{array}{l} \mathrm{q} (100/70) + (1 - \mathrm{q}) (1) = \mathrm{q} (1 + 3/7) + (1 - \mathrm{q}) 1 = \mathrm{q} (3/7) + 1 \\ = 0.25 (3/7) + 1 = 1.0525 \text{(for} q = 0.25) \\ \end{array}
 $$
 
-The twoperiod return of the long-term fund (assuming that it raises no new capital at date 2, so it can't scale up its bet if the price goes down at date 2),
+The two-period return of the long-term fund (assuming that it raises no new capital at date 2, so it can't scale up its bet if the price goes down at date 2),
 
 $$
 100/80 = 1.25.
@@ -167,9 +171,7 @@ The problem arose when they lost so much money that they faced margin calls. For
 
 Let us modify the notion that LTCM will not lose funds under management, to assume instead that they will lose them only if their loss is very large (defined below). If LTCM assumed that their losses would not be "very large", this would not affect the position that they take. And if they (and others like them) did get such a loss, it would push down the price as they were forced to liquidate.
 
-A large unanticipated price drop would result in a meltdown (forced liquidation). A meltdown causes an even larger price drop when the arbs (LTCM in particular)
-
-liquidate. Normally, the trades of arbs are a stabilizing force, offsetting the trades of noise traders who would push the price further below 100. When there is a meltdown, this reverses. Instead of being a stabilizing force, the arbs further destabilize the price by joining the selling.
+A large unanticipated price drop would result in a meltdown (forced liquidation). A meltdown causes an even larger price drop when the arbs (LTCM in particular) liquidate. Normally, the trades of arbs are a stabilizing force, offsetting the trades of noise traders who would push the price further below 100. When there is a meltdown, this reverses. Instead of being a stabilizing force, the arbs further destabilize the price by joining the selling.
 
 To evaluate this further, we need to think about price formation. This gets a bit complicated, and we will just follow Shelifer-Vishny.
 
@@ -181,7 +183,7 @@ $$
 
 We could allow for arb trades in addition to news trades, but in normal circumstances, news trades from many investors who see the mis-pricing will be sufficient to remove arbitrage opportunities.
 
-Let us assume that LTCM already had established a position in the trade before date 1 (because of past mis-pricing), and was long 20 units. Thus if LTCM was not long 20 units, the price would be lower by 20. Arbs who are subject to PBA would not trade before date 2. (In practice, other arbs sometimes copied LTCM, so there might be some others who each took smaller positions in the same bets as LTCM. We will ignore this.) The prices in back in table 1 include the efforts of various arbs. If they were not present, the date 1 and 2 prices would be lower, in part because of liquidity differences, in part because of "noise trader" selling.
+Let us assume that LTCM already had established a position in the trade before date 1 (because of past mis-pricing), and was long 20 units. Thus if LTCM was not long 20 units, the price would be lower by 20. Arbs who are subject to PBA would not trade before date 2. (In practice, other arbs sometimes copied LTCM, so there might be some others who each took smaller positions in the same bets as LTCM. We will ignore this.) The prices in table 1 include the efforts of various arbs. If they were not present, the date 1 and 2 prices would be lower, in part because of liquidity differences, in part because of "noise trader" selling.
 
 Table 2 shows the impact of the arcs. Before date 1, LTCM had a position of 20. On date 1, the price is 80. The price would have dropped on that date, but LTCM bought 5 more, offsetting selling of 5 by noise traders on date 1. There is further noise trade on date 2 with probability q. If the noise trade occurs at date 2 it is noise trader selling of 25. This is partly offset by added buying of 5 more units by LTCM, and buying of 10 units
 
@@ -191,7 +193,7 @@ Table 2: Trades by arbs and noise traders that produce prices in table 1.
 
 <table><tr><td colspan="2"></td><td colspan="6">If Noise Trade Occurs At Date 2</td><td rowspan="2"></td><td colspan="2">If News trade at date 2</td></tr><tr><td>Date</td><td>Price</td><td>Noise trade occurs at 1, and with prob. q At 2</td><td>Ltem Trade</td><td>Ltem Position</td><td>Other Arb Trade</td><td>Other Arb Position</td><td>Total Order Imbalance</td><td>News Trade (Prob 1-q)</td><td>Reverted Price If News Trade</td></tr><tr><td>0</td><td>80</td><td></td><td></td><td>20</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>80</td><td>-5</td><td>+5</td><td>25</td><td>0</td><td>0</td><td>0</td><td></td><td></td><td></td></tr><tr><td>2</td><td>70</td><td>-25</td><td>+5</td><td>30</td><td>+10</td><td>10</td><td>-10</td><td>Or</td><td>+20</td><td>100</td></tr><tr><td>3</td><td>100</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-Suppose instead that things play out differently on and after date 1. The Russian default causes panic selling at date 1 by noise traders, when LTCM already has a position of 20. The noise trade at 1 is now  $-30$ . If this loss is large enough to force LTCM out immediately at date 1, forcing them to sell 20 at date 1, look at the meltdown in table 3:
+Suppose instead that things play out differently on and after date 1. The Russian default causes panic selling at date 1 by noise traders, when LTCM already has a position of 20. The noise trade at 1 is now $-30$. If this loss is large enough to force LTCM out immediately at date 1, forcing them to sell 20 at date 1, look at the meltdown in table 3:
 
 Table 3: A meltdown after the Russian default, if LTCM must liquidate immediately  
 
@@ -201,13 +203,13 @@ The panic from the Russian crisis would make the price fall by 30 (from 80 to 50
 
 In practice, LTCM was careful to get some advanced assurance from margin lenders not to force immediate margin calls. As a result, they had some time to meet the calls. We can interpret this as meaning that they are not forced out at date 1, but can wait until date 2 to sell. If the news trade were to arrive on date 2 (which happens with
 
-probability 1-q), they could avoid liquidating their position. However, with probability q, the noise trade of  $-25$  comes in at date 2, and LTCM would be forced to sell on date 2.
+probability 1-q), they could avoid liquidating their position. However, with probability q, the noise trade of $-25$ comes in at date 2, and LTCM would be forced to sell on date 2.
 
 Suppose that LTCM could delay liquidation until date 2, and it could still buy 5 at date 1 to seek a profit. Then the prices after the Russian default would be those shown in table 4.
 
 Table 4: A delayed meltdown if LTCM can wait to liquidate:  
 
-<table><tr><td colspan="8">If Noise Trade Occurs At At Date 2</td><td colspan="2">If News trade at t=2</td></tr><tr><td>Date</td><td>Price</td><td>Noise Trade Occurs At 1, And With Prob q At 2</td><td>LTCM Trade</td><td>LTCM Position</td><td>Other Arb Trade</td><td>Other Arb Position</td><td>Total Order Imbalance</td><td>News Trade (Occurs With Prob q at date 2)</td><td>Reverted Price If News Trade</td></tr><tr><td>0</td><td>80</td><td></td><td></td><td>20</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>55</td><td>-30</td><td>+5</td><td>25</td><td>0</td><td>0</td><td>-25</td><td></td><td></td></tr><tr><td>2</td><td>15</td><td>-25</td><td>-25</td><td>0</td><td>+10</td><td>10</td><td>-40</td><td>Or</td><td>+20</td></tr><tr><td>3</td><td>100</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td colspan="8">If Noise Trade Occurs At Date 2</td><td colspan="2">If News trade at date 2</td></tr><tr><td>Date</td><td>Price</td><td>Noise Trade Occurs At 1, And With Prob q At 2</td><td>LTCM Trade</td><td>LTCM Position</td><td>Other Arb Trade</td><td>Other Arb Position</td><td>Total Order Imbalance</td><td>News Trade (Occurs With Prob q at date 2)</td><td>Reverted Price If News Trade</td></tr><tr><td>0</td><td>80</td><td></td><td></td><td>20</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>55</td><td>-30</td><td>+5</td><td>25</td><td>0</td><td>0</td><td>-25</td><td></td><td></td></tr><tr><td>2</td><td>15</td><td>-25</td><td>-25</td><td>0</td><td>+10</td><td>10</td><td>-40</td><td>Or</td><td>+20</td></tr><tr><td>3</td><td>100</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 Let us compute the expected price change from date 1 to 2. With probability q, there is a noise trade that forces it down to 15, because LTCM is forced out. With probability 1-q, there is a news trade, that pushes the price up to 75 (and then LTCM is not forced out). The expected price change is then:
 
@@ -215,7 +217,7 @@ $$
 \mathrm{q} (15 - 55) + (1 - \mathrm{q}) (75 - 55) = 20 - \mathrm{q} (60)
 $$
 
-For  $q = .25$ , this is  $+5$ , but for  $q = 0.5$ , it is  $-10$ . Let's assume  $q = 0.5$ , and we will learn something about the front running problem faced by LTCM.
+For $q = 0.25$, this is $+5$, but for $q = 0.5$, it is $-10$. Let's assume $q = 0.5$, and we will learn something about the front running problem faced by LTCM.
 
 When the expected price change from date 1 to 2 is negative, any trader who knows that he or she must sell on date 2 will instead sell on date 1. Further, if not subject to PBA, it will be profitable to short on date 1 so long as the expected price change is negative. If some of this trade occurs, it will further reduce the date 1 price. We will examine this in homework 5.
 

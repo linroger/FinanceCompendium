@@ -1,16 +1,24 @@
 ---
-parent_directory:
-title: Douglas W. Diamond
-tags:
-aliases:
-parent_folder: Financial Markets and Institutions
-subfolder:
-key_concepts:
+title: Reputation Acquisition in Debt Markets
+parent_directory: III. Markets and Institutions/Market Structure/Financial Markets and Institutions 2
+formatted: 2025-12-21 12:00:00 PM
+formatter_model: claude-haiku-4-5-20251001
+cli-tool: claude-code
+primary_tags:
+  - reputation acquisition
+  - debt markets
+  - moral hazard
+secondary_tags:
+  - adverse selection
+  - credit history
+  - borrower types
+  - project selection
+  - interest rate dynamics
+  - reputation effects
 cssclasses: academia
-linter-yaml-title-alias: Douglas W. Diamond
 ---
 
-# Douglas W. Diamond
+# Reputation Acquisition in Debt Markets
 
 University of Chicago
 
@@ -47,6 +55,74 @@ The value of a good reputation rises over time, as does the cost of a default. T
 The balance of the paper is organized as follows: Section II describes the setup of the model. Section III outlines the borrowing and lending arrangements each period and studies the one-period horizon. Sections IV and V provide analysis of the details of the model's equilibrium. Section IV derives optimal project choice for given interest rates and interest rates for given project choice. Section V analyzes the endgame, the periods near the horizon. Section VI presents a special case of the model to make the main points about what determines the evolution of reputation effects over time. Section VII generalizes the characterization to the general model. Section VIII concludes the paper.
 
 # II. The Basic Model: Technology, Endowments, and Preferences
+
+```d2
+direction: right
+
+G: Type G Borrowers {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+G -> Safe: Always select safe project
+Safe: Safe Project {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+Safe -> G_return: Return $G
+G_return: $G {
+  shape: circle
+}
+
+B: Type B Borrowers {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+}
+
+B -> Risky_B: Always select risky project
+Risky_B: Risky Project {
+  shape: rectangle
+  style.fill: "#ffebee"
+  style.stroke: "#f44336"
+}
+Risky_B -> Success_B: Success (prob $\Pi_B$)
+Risky_B -> Failure_B: Failure (prob $1 - \Pi_B$)
+Success_B -> B_return: Return $B
+B_return: $B {
+  shape: circle
+}
+Failure_B -> Zero_B: Return 0
+Zero_B: 0 {
+  shape: circle
+}
+
+BG: Type BG Borrowers {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+}
+
+BG -> Choice: Choose between safe or risky
+Choice -> Safe_BG: Safe Project
+Choice -> Risky_BG: Risky Project
+Safe_BG -> G_return_BG: Return $G
+G_return_BG: $G {
+  shape: circle
+}
+Risky_BG -> Success_BG: Success (prob $\Pi$)
+Risky_BG -> Failure_BG: Failure (prob $1 - \Pi$)
+Success_BG -> B_return_BG: Return $B
+B_return_BG: $B {
+  shape: circle
+}
+Failure_BG -> Zero_BG: Return 0
+Zero_BG: 0 {
+  shape: circle
+}
+```
 
 All borrowers and lenders are risk neutral. Lenders receive an endowment of inputs each period, and each has access to a constant returns to scale technology for storing endowment within a period, converting it to a consumption good at the end of a period. This
 
@@ -453,9 +529,7 @@ PROPOSITION 3. For any fixed date  $\tau < \infty$ , there exists a horizon  $T 
 
 The reason a period of reputation acquisition in which risky projects are selected may be necessary is the same as with  $f_{\mathrm{BG}} = 0$ : type BG's are pooled together with type B's, which leads to high initial interest rates. If there were very few type B's, then the initial interest rates would be low, near  $r$ , because rates are low under the conjecture that type BG's choose safe projects. The many type B's lead to high initial rates for all borrowers that imply a lower present value of rents in the future, weakening the cementing force of a valuable reputation.
 
-It is the type B's in the initial pool of borrowers that cause reputation initially to be too weak: adverse selection prevents immediate reputation effects. The consequences of a weak initial reputation de
-
-pend on the large number of type BG's. The larger is  $f_{\mathrm{BG}}$ , the larger is the difference between the interest rate  $r_t^g$  that occurs if type BG's choose safe projects and  $r_t^b$ , the rate that occurs when they choose risky projects.
+It is the type B's in the initial pool of borrowers that cause reputation initially to be too weak: adverse selection prevents immediate reputation effects. The consequences of a weak initial reputation depend on the large number of type BG's. The larger is  $f_{\mathrm{BG}}$ , the larger is the difference between the interest rate  $r_t^g$  that occurs if type BG's choose safe projects and  $r_t^b$ , the rate that occurs when they choose risky projects.
 
 # A. A Summary of Comparative Statics
 
@@ -547,6 +621,6 @@ Merton, Robert C. "On the Cost of Deposit Insurance When There Are Surveillance 
 Milgrom, Paul, and Roberts, John. "Predation, Reputation, and Entry Deterrence." J. Econ. Theory 27 (August 1982): 280-312.  
 Smith, Clifford W., Jr., and Warner, Jerold B. "On Financial Contracting: An Analysis of Bond Covenants." J. Financial Econ. 7 (June 1979): 117-61.  
 Spatt, Chester. "Credit Reputation Equilibrium and the Theory of Credit Markets." Manuscript. Pittsburgh: Carnegie-Mellon Univ., May 1983.  
-Stiglitz, Joseph E., and Weiss, Andrew. "Credit Rationing in Markets with Imperfect Information." A.E.R. 71 (June 1981): 393-410.  
-Incentive Effects of Terminations: Applications to the Credit and Labor Markets." A.E.R. 73 (December 1983): 912-27.  
+Stiglitz, Joseph E., and Weiss, Andrew. "Credit Rationing in Markets with Imperfect Information." A.E.R. 71 (June 1981): 393-410.
+—. "Incentive Effects of Terminations: Applications to the Credit and Labor Markets." A.E.R. 73 (December 1983): 912-27.  
 Townsend, Robert M. "Optimal Contracts and Competitive Markets with Costly State Verification." J. Econ. Theory 21 (October 1979): 265-93.

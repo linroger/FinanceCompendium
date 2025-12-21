@@ -71,93 +71,88 @@ List of technical notes . xvi
 
 Preface . xvii
 
-# Chapter 1. Introduction
+## Chapter 1: Introduction
 
-1.1 Exchange-traded markets 2
-1.2 Over-the-counter markets 3
-1.3 Forward contracts 6
-1.4 Futures contracts 8
-1.5 Options 9
-1.6 Types of traders 11
-1.7 Hedgers 12
-1.8 Speculators 14
-1.9 Arbitrageurs 17
-1.10 Dangers 17
+1.1 Exchange-traded markets
+1.2 Over-the-counter markets
+1.3 Forward contracts
+1.4 Futures contracts
+1.5 Options
+1.6 Types of traders
+1.7 Hedgers
+1.8 Speculators
+1.9 Arbitrageurs
+1.10 Dangers
 
-Summary 19
+## Summary
 
-Further reading 19
+## Further reading
 
-Short concept questions 19
+## Short concept questions
 
-Practice questions 20
+## Practice questions
 
-# Chapter 2. Futures markets and central counterparties 24
+## Chapter 2: Futures markets and central counterparties
 
-2.1 Background 24
-2.2 Specification of a futures contract 26
-2.3 Convergence of futures price to spot price 28
-2.4 The operation of margin accounts 29
-2.5 OTC markets 32
-2.6 Market quotes 35
-2.7 Delivery 38
-2.8 Types of traders and types of orders 39
-2.9 Regulation 40
-2.10 Accounting and tax 41
-2.11 Forward vs. futures contracts 42
+### 2.1 Background
+### 2.2 Specification of a futures contract
+### 2.3 Convergence of futures price to spot price
+### 2.4 The operation of margin accounts
+### 2.5 OTC markets
+### 2.6 Market quotes
+### 2.7 Delivery
+### 2.8 Types of traders and types of orders
+### 2.9 Regulation
+### 2.10 Accounting and tax
+### 2.11 Forward vs. futures contracts
 
-Summary 43
+**Summary**
 
-Further reading 44
+**Further reading**
 
-Short concept questions 45
+**Short concept questions**
 
-Practice questions 45
+## Chapter 3: Hedging strategies using futures
 
-# Chapter 3. Hedging strategies using futures 48
+3.1 Basic principles
+3.2 Arguments for and against hedging
+3.3 Basis risk
+3.4 Cross hedging
+3.5 Stock index futures
+3.6 Stack and roll
 
-3.1 Basic principles 48
-3.2 Arguments for and against hedging 50
-3.3 Basis risk 53
-3.4 Cross hedging 57
+## Summary
 
-3.5 Stock index futures 62
-3.6 Stack and roll 67
+## Further reading
 
-Summary 68
+## Short concept questions
 
-Further reading 70
+## Practice questions
 
-Short concept questions 71
+## Appendix: Capital asset pricing model
 
-Practice questions 71
+## Chapter 4: Interest rates
 
-Appendix: Capital asset pricing model 74
+### 4.1 Types of rates
+### 4.2 Reference rates
+### 4.3 The risk-free rate
+### 4.4 Measuring interest rates
+### 4.5 Zero rates
+### 4.6 Bond pricing
+### 4.7 Determining zero rates
+### 4.8 Forward rates
+### 4.9 Forward rate agreements
+### 4.10 Duration
+### 4.11 Convexity
+### 4.12 Theories of the term structure of interest rates
 
-# Chapter 4. Interest rates 76
+**Summary**
 
-4.1 Types of rates 76
-4.2 Reference rates 77
-4.3 The risk-free rate 79
-4.4 Measuring interest rates 79
-4.5 Zero rates 82
-4.6 Bond pricing 83
-4.7 Determining zero rates 84
-4.8 Forward rates 87
-4.9 Forward rate agreements 88
-4.10 Duration 90
-4.11 Convexity 94
-4.12 Theories of the term structure of interest rates 95
+**Further reading**
 
-Summary 97
+**Short concept questions**
 
-Further reading 98
-
-Short concept questions 98
-
-Practice questions 99
-
-# Chapter 5. Determination of forward and futures prices 102
+## Chapter 5: Determination of forward and futures prices
 
 5.1 Investment assets vs. consumption assets 102
 5.2 Short selling 103

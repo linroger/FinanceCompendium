@@ -1,32 +1,20 @@
 ---
-aliases:
-- Empirical Evidence FX Rates
-tags: null
-key_concepts: null
-parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 9: Empirical Evidence FX Rates'
-linter-yaml-title-alias: 'Chapter 9: Empirical Evidence FX Rates'
+title: "Chapter 9: Empirical Evidence FX Rates"
+parent_directory: "International Finance Full chapters"
+formatted: "2025-12-21 05:30:00 AM"
+formatter_model: "claude-sonnet-4-5-20251001"
+cli_tool: "opencode"
 primary_tags:
-- observable macroeconomic fundamentals deviating
-- crucial modelling exchange rate
-- efficient market hypothesis summary
-- foreign exchange market
-- unanticipated exchange rate movements
+  - exchange market efficiency
+  - empirical evidence
+  - foreign exchange rates
+  - efficient market hypothesis
 secondary_tags:
-- exchange market efficiency empirical
-- international finance empirical modelling
-- expectation exchange rate change
-- exchange rate movements probability
-- exchange rate behaviour te
-- empirical tests exchange rate
-- evidence forward exchange rate
-- theories exchange rate determination
-- monetarist models assume portfolio
-- foreign exchange market theoretical
-- conventional exchange rate models
-- modelling exchange rate expectations
-tags_extracted: '2025-12-18T01:33:00.998712'
+  - exchange rate models
+  - forecasting analysis
+  - rational expectations
+  - risk premium
+cssclasses: academia
 ---
 
 # CHAPTER 9
@@ -48,8 +36,8 @@ Summary of !ndings on exchange market efficiency
 9.6 Empirical tests of exchange rate models
 9.7 Exchange rate models: a forecasting analysis
 9.8 Explaining the poor results of exchange rate models
-9.9 Te 'news' approach to modelling exchange rates
-9.10 Te longer-run predictability of exchange rate movements
+9.9 The 'news' approach to modelling exchange rates
+9.10 The longer-run predictability of exchange rate movements
 9.11 Modelling exchange rate expectations
 9.12 Empirical tests of di$erent expectations mechanisms
 9.13 Alternative approaches to modelling exchange rates: the role of chartists and fundamentalists
@@ -59,7 +47,7 @@ Summary of !ndings on exchange market efficiency
 
 We have so far considered the exchange rate literature from a predominately theoretical viewpoint, but the
 
-exchange rate !eld has also been rich in empirical research. Apart from investigations into the validity of PPP
+exchange rate field has also been rich in empirical research. Apart from investigations into the validity of PPP
 
 theory which we examined in Chapter 6, empirical research on exchange rates has addressed three other key
 
@@ -90,17 +78,17 @@ International Finance
 
 9.2 WHAT IS AN EFFICIENT MARKET?
 
-Following Eugene Fama (1970, p. 383), an efficient market is conventionally de!ned as one 'in which prices
+Following Eugene Fama (1970, p. 383), an efficient market is conventionally defined as one 'in which prices
 
-always "fully reflect" available information'. In the speci!c application to the foreign exchange market this
+always "fully reflect" available information'. In the specific application to the foreign exchange market this
 
 implies that market participants use all relevant available information bearing on the appropriate value of the
 
 exchange rate to produce a set of exchange rates – spot and forward – that does not provide an opportunity for
 
-unusual _ex ante_ pro!t opportunities. In other words, unusual pro!t cannot be made by speculators who make
+unusual _ex ante_ profit opportunities. In other words, unusual profit cannot be made by speculators who make
 
-exchange rate forecasts on a similar information set. In connection with this broad de!nition, there are two
+exchange rate forecasts on a similar information set. In connection with this broad definition, there are two
 
 key concerns. Is new information instantaneously and fully reflected in the exchange rate? What is relevant
 

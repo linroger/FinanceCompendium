@@ -74,7 +74,7 @@ This issue is important as LTCM's failure has been widely ascribed to its use of
 
 This paper is structured as follows. Section 1 first presents an overview of the LTCM saga. As the fund was highly leveraged, the key issue was the choice of the appropriate capital base. LTCM failed because it did not have enough equity capital to ride out the turbulence of 1998. Section 2 reviews how Value at Risk can be used to assess the capital base needed to support a leveraged portfolio. This leads into the risk management practices of LTCM, which are analyzed in Section 3. In effect, LTCM used the tools of portfolio optimization to structure its portfolio, leveraging it by a factor of 25 to take advantage of so-called "arbitrage" trades.
 
-This application, however, is fraught with danger. VAR has been primarily developed to measure and control risks. Optimizing a portfolio risk/return profile and using the resulting
+This application, however, is fraught with danger. VAR has been primarily developed to measure and control risks. Optimizing a portfolio risk/return profile and using the resulting VAR
 
 VAR to measure risk leads to serious optimization biases, which are illustrated in Section 4. Section 5 also shows that the nature of the bets taken by LTCM was singularly unidirectional. Finally, the last section provides some concluding comments.
 
@@ -96,7 +96,7 @@ long swap-government spreads, long mortgage-backed securities versus short gover
 
 The problem with such strategies is that they generate tiny profits, so that leverage has to be used to create attractive returns. To control risk, the target ceiling risk level was set to the volatility of an unleveraged position in U.S. equities (and the fund was advertised to investors as such). In essence, positions were obtained by an optimization with a constraint on volatility (with presumably some additional constraints such as the liquidity and concentration of positions). Thus, leverage had to be quite large, unusually so, as LTCM ended up with four times the asset size of the next largest hedge fund.
 
-Initially, the new venture was eminently profitable. Capital grew from  \$1 billion to more than\$ 7 billion by 1997. The firm was charging lofty fees consisting of an annual charge of 2% of capital plus 25% of profits. By comparison, other hedge funds charge a 1% fixed fee and 20% of profits; the typical mutual fund fee is about 1.41%. By 1997, total fees had grown to about \$1.5 billion. LTCM's 16 partners had invested roughly \$1.9 billion of their own money in the fund.
+Initially, the new venture was eminently profitable. Capital grew from  \$1 billion to more than \$7 billion by 1997. The firm was charging lofty fees consisting of an annual charge of 2% of capital plus 25% of profits. By comparison, other hedge funds charge a 1% fixed fee and 20% of profits; the typical mutual fund fee is about 1.41%. By 1997, total fees had grown to about \$1.5 billion. LTCM's 16 partners had invested roughly \$1.9 billion of their own money in the fund.
 
 Much has been said about LTCM's positions in the press. LTCM's balance sheet was about \$125 billion. This represents the total assets of the fund, most of it borrowed.6 Compared to equity of about \$5 billion only, this represents an astonishing leverage ratio of 25-to-1.
 
@@ -136,7 +136,7 @@ So, LTCM returned \$2.7 billion of capital to investors in 1997 while keeping to
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/9c78fbc8-d03c-4709-835e-e4f04de86bd2/80e241c2ee3772ff9c392d0fd409e874a8ab8510d8de014c8182f910bb6c52d7.jpg)  
 FIGURE 3 LTCM Leverage and Asset Growth
 
-Unfortunately, this also increased the risks. Troubles began in May and June of 1998. A downturn in the mortgage-backed securities market led to a 16 percent loss in LTCM's capital, which dropped from  $4.7 to$ 4.0 billion, thereby increasing leverage from 28 to 31.
+Unfortunately, this also increased the risks. Troubles began in May and June of 1998. A downturn in the mortgage-backed securities market led to a 16 percent loss in LTCM's capital, which dropped from  $4.7 to \$4.0 billion, thereby increasing leverage from 28 to 31.
 
 Then came August 17. Russia announced that its was "restructuring" its bond payments—de facto defaulting on its debt. This bombshell led to a reassessment of credit and sovereign risks across all financial markets. Credit spreads, risk premia, and liquidity spreads jumped up sharply. Stock markets dived. LTCM lost \$550 million on August 21 alone. Swap spreads, which usually never moved by more than a couple of basis points every day, had moved by 21 basis points.
 
@@ -196,7 +196,7 @@ This interpretation of VAR also helps to determine the appropriate confidence le
 
 The bank can then set the VAR confidence level in relation to the desired credit rating. This is illustrated in Table 1, which reports the relationship between the credit ratings supplied by a rating agency, Moody's, and their historical one-year default probabilities. The last columns report the equity coverage, measured as the number of annual standard deviations necessary to achieve the desired credit rating.
 
-As an example, assume the market risk is such that the daily standard deviation of profits and losses is  \$100 million. As will be seen later, this was probably a good description of LTCM's risk profile. Assuming 252 trading days, this translates into an annual number of\$ 1.6 billion. How much capital should the bank set aside to achieve an Aa2 credit rating? The table shows that, if the distribution of losses is normally distributed, the required amount of equity is 3.5 times \$1.6 billion, or \$5.6 billion. If the bank estimates that the distribution of losses has fatter tails then the normal distribution, it could select the multiplier from a Student-t distribution, with six degrees of freedom, for example. In this case, the required amount of equity is higher, at \$12.5 billion. This is much more than LTCM's \$4.7 billion in capital.
+As an example, assume the market risk is such that the daily standard deviation of profits and losses is  \$100 million. As will be seen later, this was probably a good description of LTCM's risk profile. Assuming 252 trading days, this translates into an annual number of \$1.6 billion. How much capital should the bank set aside to achieve an Aa2 credit rating? The table shows that, if the distribution of losses is normally distributed, the required amount of equity is 3.5 times \$1.6 billion, or \$5.6 billion. If the bank estimates that the distribution of losses has fatter tails then the normal distribution, it could select the multiplier from a Student-t distribution, with six degrees of freedom, for example. In this case, the required amount of equity is higher, at \$12.5 billion. This is much more than LTCM's \$4.7 billion in capital.
 
 (Multiples of Annual Standard Deviation Assuming Various Distributions)
 
@@ -296,7 +296,7 @@ TABLE 2 Portfolio Optimization with Two Assets
 
 <table><tr><td>Optimal Portfolio</td><td colspan="2">Return and Risk</td></tr><tr><td>Initial Equity</td><td>$1</td><td>$4,700m</td></tr><tr><td>Expected return (monthly)</td><td>3.1%</td><td>\$145m</td></tr><tr><td>Volatility of return (monthly)</td><td>8.1%</td><td>\$382m</td></tr><tr><td>Expected return (annual)</td><td>37.0%</td><td>\$1,740m</td></tr><tr><td>Volatility of return (annual)</td><td>28.1%</td><td>\$1,322m</td></tr><tr><td>Volatility of return (daily)</td><td>1.8%</td><td>\$83m</td></tr><tr><td>Ratio of equity to SD</td><td>12.31</td><td></td></tr></table>
 
-# 5 The Problem with Portfolio Optimization
+## 5 The Problem with Portfolio Optimization
 
 "In theory, LTCM will look anywhere for a correlation-provided the markets are liquid enough to construct trades and hedges."
 
@@ -347,7 +347,7 @@ Observations(T)</td><td colspan="4">Number of Assets (N)</td></tr><tr><td>10</td
 
 Source: Adapted from Ju and Pearson (1999). The table reports the mean ratio of true VAR to estimated VAR assuming that the trader knows the true covariance matrix and maximizes expected return subject to a constraint on VAR. These numbers are independent of the true covariance matrix. Because the trader may not know the true matrix, these numbers represent worst-case estimates of the bias. The exponential model uses 100 data points and a decay factor of 0.94.
 
-# 6 LTCM's Risk Profile
+## 6 LTCM's Risk Profile
 
 "The lesson in this was … Panic was good for business."
 
@@ -391,7 +391,7 @@ FIGURE 12 Distribution of LTCM's Monthly Returns
 
 LTCM liked to compare itself to a Wall Street investment bank, like Salomon Brothers, which was leveraged by the same amount, about 25 times. This comparison is faulty for a number of reasons. First, bank portfolios are more diversified across risk factors. They deal with fixed income markets, currencies, equities, and commodities. Second, brokers' trading activities actually benefit from increased volatility, as volatile markets generate greater trading volume and revenues. This provides a natural hedge against increases in volatility and furthermore allows them to manage their inventory dynamically. Finally, investment banks can have access to fresh funds much faster than any hedge fund.
 
-# 7 Conclusion
+## 7 Conclusion
 
 "The fact that (modern financial engineering) failed does not mean that the science of risk management is wrong-headed; just that it is still an imperfect art in a world where the past holds lessons but provides few reliable precedents."
 

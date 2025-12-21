@@ -1,6 +1,32 @@
+---
+title: Chapter 9: Exchange Traded Derivatives
+parent_directory: Analysis of Fixed Income Securities Full
+formatted: 2025-12-21 05:20:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: opencode
+primary_tags:
+  - exchange traded derivatives
+  - treasury bond futures
+  - eurodollar futures
+  - futures pricing
+  - interest rate derivatives
+secondary_tags:
+  - cheapest to deliver
+  - conversion factor
+  - quality option
+  - timing options
+  - futures options
+  - delivery options
+  - marking to market
+  - convexity adjustment
+  - term structure models
+  - risk neutral valuation
+cssclasses: academia
+---
+
 # Chapter 9: Exchange Traded Derivatives
 
-# 9.1 Introduction
+## 9.1 Introduction
 
 Exchange traded interest rate derivatives have provided a great way for investors (institutions) to hedge short and long term interest rate risks. Thanks to exchanges, these derivatives are very liquid and provide great hedges and investment opportunities. Some of these derivatives (e.g. T bond futures) are even much more liquid than their underlying assets.
 
@@ -14,13 +40,13 @@ Earlier attempts between the two exchanges to reach a merger agreement had been 
 
 More history about CME-CBOT merger and ICE can be found on the website.
 
-# 9.2 T Bond Futures
+## 9.2 T Bond Futures
 
 T bond/note futures are futures contracts written on U.S. Treasury bonds/notes. Similar to commodity futures contracts, actual T bonds/notes will be delivered. Also similar to commodity futures, several delivery options are present. One of such options is a quality option. In commodities, goods are not so easy to control their quality when they are harvested (due to weather, pests, etc.) and as a result, exchanges must allow the short side the flexibility to deliver whatever quality upon delivery. To avoid any loss for the buy side, exchanges then allow more (or less) quantity for lower (or higher) quality of the goods. There are also timing options (again due to the uncertainty of harvest) to allow the short side to delivery successfully.
 
 T bond and T note futures have similar flexibilities. But given that T bond futures are more liquid and those delivery flexibilities are more valuable, the discuss of this section limits to T bond futures, although those flexibilities apply to T note futures as well.
 
-# 9.2.1 Delivery Process
+### 9.2.1 Delivery Process
 
 T bond futures are traded on CBOT/CME in Chicago. It is a physically delivered contract (i.e. at the settlement day of the futures contract, an actual Treasury note or bond must be delivered at the futures price). To facilitate delivery, any bond that is at least 15 years to first call or maturity can be used for delivery. Hence the futures contract is not on a specified bond, but rather on a basket of bonds. Currently there are more than 2 dozens of such Treasury bonds that can be chosen for delivery.
 
@@ -44,7 +70,7 @@ However, in the last 7 business days (as Figure 9.1 demonstrates), the futures m
 
 For the rest of the delivery month, there are two sections of each day, the accrued interest period and the wild card period. For a regular futures trading day i between 7:20 a.m. and 2 p.m. Chicago time, both bond and futures markets are open simultaneously. The futures market closes at 2 p.m. but there is no official closing time for the bond market. Since the short has till 8 p.m. to make the delivery decision, the wild card period is defined over 3 p.m.  $(u_{i})$  to 8 p.m.  $(u_{i} + h)$  Eastern time.
 
-# 9.2.2 Quotes
+### 9.2.2 Quotes
 
 Similar to the underlying T bond quotes, T bond futures are quoted by clean price. The long side of the futures contract will have to pay: quoted futures price × conversion factor + accrued interest
 
@@ -57,12 +83,12 @@ $$ \text{dirtyprice} = \text{clean} + \text{accrued} $$ where the accrued intere
 The delivery profit (or loss) is the difference of the two. Note that if the bond is purchased the same date as the settlement date (i.e. delivery date) of the futures contract, then the accrued interests on both sides are equal.
 
 $$
-\text{qu ot ed fu tu re sp ri ce} \times \text{co nv en si on fa ct or -q uo te db on dp ri ce} \tag {9.1}
+\text{quoted future price} \times \text{conversion factor - quoted bond price} \tag {9.1}
 $$
 
-This situation happens in the first 17 (roughly) days of the delivery month where both futures and bonds are traded (and hence the settlement date is the same as the purchase date). However, in the last 7 days, the futures contracts are not traded and the settlement date is fixed but the purchase date of the bond will vary. (Note the in the conversion factor calculation, this is ignored.)
+This situation happens in the first 17 (roughly) days of the delivery month where both futures and bonds are traded (and hence the settlement date is the same as the purchase date). However, in the last 7 days, the futures contracts are not traded and the settlement date is fixed but the purchase date of the bond will vary. (Note that in the conversion factor calculation, this is ignored.)
 
-# 9.2.3 Quality Option and Conversion Factor
+### 9.2.3 Quality Option and Conversion Factor
 
 As explained earlier, the quality option gives the short side of the futures contract a flexibility to deliver the cheapest of dozens of T bonds. To overcome such unfairness, CBOT/CME adopts the same practice of the commodity futures and allow for a conversion factor to trade quality of the delivery (T bond) for the futures price received by the short side. That is, a lower quality bond is accompanied by lower a futures price. In other words, the exchange hopes to eliminate the quality option.
 
@@ -72,7 +98,7 @@ The conversion factor can be computed easily by the following process:
 
 1. round the time to maturity down to the nearest quarter,
 2. use 6% (or semi-annual 3%) to discount to the next coupon date, $^{1}$
-3. use 1.4889% ($= \sqrt{1.03} - 1$) to discount for any quarter left (simply divide the above result by $\sqrt{1.03}$
+3. use 1.4889% ($= \sqrt{1.03} - 1$) to discount for any quarter left (simply divide the above result by $\sqrt{1.03}$)
 
 # 4. (natural) round the result to 4 digits
 
@@ -108,7 +134,7 @@ where $\Phi = 0.8021$. Note that the conversion factors stay the same regardless
 
 CBOT (later merged into CME in 2007) has decided that beginning with the March 2000 contract, Treasury futures will equalize the deliverable bonds by pricing them to a 6% yield. All that means is that the same rule applies relative to the  $6\%$  yield level: When yields are below 6%, the cheapest-to-deliver bond will have a short duration; when they are above 6%, a long-duration bond will be cheapest to deliver.
 
-# 9.2.4 CTD Bond
+### 9.2.4 CTD Bond
 
 If the conversion factor did the job, then the quality option would have been eliminated and the futures price would be the same regardless of which bond is delivered.
 
@@ -118,11 +144,11 @@ In other words, the futures price traded today is a function of which bond is ex
 
 Besides the CTD bond today, traders also consider the Second CTD bond in that while small there is still a chance that the second cheapest will become the first cheapest in the near future. Hence they follow the second cheapest closely as well and adjust the futures price accordingly (not as much as the first cheapest). To be really comprehensive, traders consider the third CTD bond. But the likelihood for the third cheapest to become the first cheapest is really small.
 
-# Jone's Extreme Duration Rule
+## Jone's Extreme Duration Rule
 
 To monitor the first, second, and third CTD bonds, Robert Jones provides a simple rule of thumb, known as the extreme duration rule.2 He proves that the cheapest bond is the shortest-duration bond. However, the proof is valid under flat yield curve (the only situation where yield has meaning). Under a stochastic environment, his argument is an approximation.
 
-# Exchange Option Idea
+## Exchange Option Idea
 
 A more accurate method than Jone's duration rule is the exchange option idea. We can think of the futures contract is written on the CTD bond today but is accompanied by an exchange option that allows the trader to switch to another bond should that bond becomes the cheapest on settlement.
 
@@ -151,7 +177,7 @@ In the case of Treasuries, unfortunately, this result does not hold exactly. Fir
 
 Nevertheless, this idea is widely used in practice due to its simplicity and empirically it has shown certain reliability. This idea clearly includes the likelihood of second CTD bond to become the first cheapest. One can extend this idea to exchange option on multiple assets so even the third CTD bond today can be included.
 
-# Option on Min/Max
+## Option on Min/Max
 
 Clearly, the exchange option model does not do a perfect job. It can take care of the second cheapest to deliver but when the volatility is large and the probability of the third cheapest to suddenly becomes the cheapest increases, then the exchange option model will miss some option value.
 
@@ -165,7 +191,7 @@ Note that the probability for the third cheapest to become the cheapest is reall
 
 The dry spell refers to the 1994-1999 period where the only deliverable option is the 11¼% 2015 bond, which had been the shortest duration bond for the period. It has not changed for the entire duration of 5 years.
 
-# 9.2.5 Timing options
+### 9.2.5 Timing Options
 
 As described in Figure 9.1, there are three periods for timing option. The first and also most valuable option is the last week (7 business days) of the delivery month. This is the period where the futures market is closed but bonds are still traded. As a result, the short side of the futures contract can wait for the best moment to buy the bond and make the delivery and make a profit:
 
@@ -178,9 +204,9 @@ Then, there is a 6 hour window (from 3 to 9) that futures market is closed and b
 
 Lastly is the daily normal day time window when both futures and bonds are traded. In this window, there is no possibility of arbitrage as one can easily buy or sell bonds (and reverse in futures) should any discrepancies exist. This is known as the accrued-interest timing option for the sake of the possibility of any discrepancy in two accrued interests. Other than liquidity, this option has no real economic value.
 
-# 9.3 Valuation of T Bond Futures
+## 9.3 Valuation of T Bond Futures
 
-In this section, I shall demonstrate in details how each method of valuation (i.e. computing futures price) is carried out. We first must notice that futures price is not the price of the futures contract, but rather the price to be paid in the future in order to exchange for the underlying asset (in our case a Treasury bond).
+In this section, I shall demonstrate in detail how each method of valuation (i.e. computing futures price) is carried out. We first must notice that futures price is not the price of the futures contract, but rather the price to be paid in the future in order to exchange for the underlying asset (in our case a Treasury bond).
 
 The classical risk-neutral pricing theory states that the futures price is the risk-neutral expectation of future asset price as:
 
@@ -214,7 +240,7 @@ $$ \Phi(t) = \hat{\mathbb{E}}_t\left[\min_j \left\{\frac{\Pi_j(T_f)}{q_j}\right\
 
 However, there are timing options! Hence discounting is necessary and will complicate the computation. I will discuss this later with a proper interest rate model.
 
-# 9.3.1 Cost of Carry
+### 9.3.1 Cost of Carry
 
 An industry popular method without employing a complex interest rate model is the cost-of-carry (CoC) method. This method is standard in commodity futures contracts. The standard CoC method assumes that there is an arbitrage between the underlying spot and its futures. If the futures price is too high relative to spot, then anyone can sell the futures and buy the spot, store the commodity till settlement date, and then make the delivery. Hence the futures price can never exceed the spot price and its "cost of carry". If the reverse is true (i.e. futures price is too low), usually it is not easy to short-sell the spot (not easy to short-sell commodities) and hence the arbitrage is not as easy.
 
@@ -232,7 +258,7 @@ Clearly, this method is very crude. First it ignores the probability of the othe
 
 mini HW
 
-# 9.3.2 Using the Exchange Option Model
+### 9.3.2 Using the Exchange Option Model
 
 As shown in equation (9.2), we can implement this "Black-Scholes" type equation by simply assuming the coupon bonds (CTD and next CTD) follow a log-normal distribution with a constant volatility. Given that there is no discounting in the formula, one can easily obtain an option value and subtract it from the futures price without the option, i.e. equations (9.2) and (9.5):
 
@@ -247,20 +273,20 @@ Given that we are over-estimating the futures price for bond Y and subtracting t
 
 mini HW
 
-# 9.3.3 Using an Interest Rate Model
+### 9.3.3 Using an Interest Rate Model
 
 It is quite straightforward to use a lattice model such as he Ho-Lee model to evaluate the quality options and all the timing options.
 
 For notation and symbols used here, please refer back to Chapter 1. In addition,
 
-$$ a_{i} (t) = \text{ac cr ue di nt er es to ft he it hb on d}
+$$ a_{i} (t) = \text{accrued interest of the i-th bond}
 $$
 
 $q_{i} =$  conversion factor of the ith bond
 
 $Q_{i}(t) =$  quoted coupon bond price of the ith bond
 
-$\Phi(t) = \text{quotedfuturespricewithalldeliveryoptions}$
+$\Phi(t) = \text{quoted futures price with all delivery options}$
 
 $\Phi^{*}(t) =$  futures price with the quality option and continuous marking to market
 
@@ -268,7 +294,7 @@ $\Phi^{**}(t) =$  futures price with the quality option at the absence of contin
 
 Note that the transaction price of a coupon bond is the quoted price plus the accrued interest. In other words, for the  $i$ -th coupon bond in the delivery set for the futures contract,  $Q_{i}(t) = \Pi(t, \underline{T}; c_{i}) - a_{i}(t)$  where  $\Pi(t, \underline{T}; c_{i})$  is the coupon bond notation defined in Notation that has the coupon and maturity of the  $i$ -th bond. Also note that  $\Phi(t)$  is the quoted futures price of the cheapest-to-deliver bond. The actual futures price needs to be adjusted by the conversion factor and the accrued interest of the cheapest-to-deliver bond.
 
-# 9.3.4 Quality Option under no Marking to Market
+### 9.3.4 Quality Option under No Marking to Market
 
 The above evaluation of the quality is correct only if marking to market is applied continuously throughout the life of the futures contract. Unfortunately, in the last 7 business days of the delivery month, the futures market is not open and the futures contract is not marked to market. The futures price used for settlement in this period is the last settlement price at the beginning of the 7-day period. Since the futures price is already determined, the actual payoff at the last delivery day,  $\mathrm{T}$ , is not necessarily 0. The short can actually gain or lose. To avoid arbitrage, the futures price at the beginning of the 7-day period should be set so that the expected present value of payoffs at maturity is 0. Under this circumstance, the futures price at the beginning of the 7-day period is a forward price, not a futures price. Formally, label the futures price as  $\Phi^{**}(v)$  to represent the futures price at the beginning of the end-of-month period,  $v$ , should be so set that:
 
@@ -292,7 +318,7 @@ $$
 $$ where  $K_{i}^{**} = (q_{1} - q_{i})\Phi^{**}(v)$ . Note that  $\Psi_{1}(v) = \tilde{\mathbb{E}}_{v}^{(T)}[Q_{1}(T)]$  is the forward price of the first bond. The interpretation of this result is similar to that of (9.6), except that the risk neutral measure is replaced by the forward measure and the futures price becomes the forward price. However, unlike (9.6), the futures price at time  $v$  has no easy solution, because it appears on both sides of the equation. This futures price has to be solved recursively using a numerical method. In a lattice framework suggested by Boyle (1989), we first choose an initial value for the futures price at time  $v$ , calculate payoffs at various states at maturity  $T$ , and then work backwards along the lattice. We adjust the futures price until the discounted payoff computed from the lattice is 0. Once the futures price at time  $v$  is set, we can then travel back along the lattice and use the risk neutral probabilities till the end of the last wild card period,  $u_{n} + h$ . Then the similar procedure for the end-of-month period is repeated for the last wild card period to arrive at the futures price at the beginning of the wild card period  $u_{n}$ . Again, the risk neutral expectation is taken at  $u_{n-1} + h$  and a recursive search is to compute the futures price at  $u_{n-1}$ . The process is repeated until the delivery month is over. Since the futures price becomes a forward price which cannot be obtained without a recursive search. The search for the "forward price" takes place at every node at all the times (i.e.,  $u_{1}, u_{2}, \dots, u_{n}, v$ ). As a result, to compute the futures price with the quality option is prohibitively expensive.
 
 
-# 9.3.5 Timing Options
+### 9.3.5 Timing Options
 
 Besides the quality option, there are three timing options embedded in the Treasury bond futures price. The most valuable one is the end-of-month (EOM) timing option. Without the EOM timing option, we know that the futures price should be set according to (9.5). With the EOM timing option, deliveries can occur any time in the end-of-month period as long as the current delivery payoff is more than the present value of the expected payoff. This is similar to the early exercise decision of an American option. There is no closed-form solution to compute American option prices. Precisely as Boyle (1989) has observed, the pricing of quality and timing options would need a lattice model.
 
@@ -308,13 +334,13 @@ $$
 Therefore, the futures price in the period where both markets are open must be less than the cheapest-to-deliver bond price to avoid arbitrage. On the other hand, if the futures price is lower, one can long futures and short spot but the delivery will not occur because the short position of the futures contract will lose money if he makes a delivery. Consequently, the delivery will be postponed and there is no arbitrage profit to be made. If the futures price is always less than the cheapest-to-deliver bond price (adjusted by its conversion factor), the delivery payoff now is negative as opposed to 0 at the end. As a result, the short will never deliver until the last day. Consequently, the accrued interest timing option has no value. We restate this result in the following proposition.
 
 
-# Proposition.
+## Proposition.
 
 The accrued interest timing option without the wild card and end-of-month options has no value. The existence of the other timing options will lower the current futures price, further reducing the incentive for the short to deliver early. We state this result in the following Corollary.
 
 □
 
-# Corollary.
+## Corollary.
 
 The accrued interest timing option with the end-of-month options has no value.
 
@@ -324,7 +350,7 @@ While the accrued interest timing option is worthless, the wild card timing opti
 
 The modeling of the wild card period requires a very fine grid. To model the wild card option properly, we need at least two steps in each wild card period to allow for early exercise. As a result, it requires a minimum of four steps per day. Given that practically the wild card option has very little value due to the next-day marking-to-market, we will not evaluate the wild card option in this chapter.
 
-# 9.4 T Bond Futures Options
+## 9.4 T Bond Futures Options
 
 Given the complexity of the T bond futures, their options are even more difficult to evaluate. As a result, the numerical lattice used for T bond futures in the previous section, will be used for T bond futures options. Chen and Yeh (2002) have provided closed-form upper bonds for these options. A quick sketch is given below. The basic idea is that we use futures-style options as upper bounds of American option bounds.
 
@@ -343,7 +369,7 @@ $$ whichever is larger where  $\delta(t, s)$  represents the discount factor fro
 
 
 $$
-\hat {\mathbb {E}}_{T - 2 \Delta t} [ \delta (T - 2 \Delta t, T - \Delta t) \max  \{\hat {\mathbb {E}}_{T - \Delta t} [ \delta (T - \Delta t, T) X (T) ], X (T - \Delta t) \} ] \quad (9. 1 4)
+\hat {\mathbb {E}}_{T - 2 \Delta t} [ \delta (T - 2 \Delta t, T - \Delta t) \max  \{\hat {\mathbb {E}}_{T - \Delta t} [ \delta (T - \Delta t, T) X (T) ], X (T - \Delta t) \} ] \quad (9.14)
 $$ or the intrinsic value:
 
 
@@ -363,17 +389,17 @@ $$
 
 As a result, as long as we can show that  $\hat{\mathbb{E}}_t[X(T)] > X(t)$  for all  $t$ , then  $\hat{\mathbb{E}}_t[X(T)]$  is an upper bound of the American value. The result will hold in continuous time as  $\Delta t$  reaches a limit.
 
-# 9.5 Ultra T Bond Futures (and Options)
+## 9.5 Ultra T Bond Futures (and Options)
 
 In 2015, the CME Group (former CBOT and CME) introduced a new T bond futures contract known as Ultra T bond futures. The key feature distinguishing the Ultra T-Bond from the existing T-Bond futures contract is the relatively narrow range of deliverable securities. The deliverable basket for Ultra T-Bond futures comprises cash Treasury bonds with at least 25 years of remaining term to maturity. By comparison, deliverable securities for the existing T-Bond contract are bonds with remaining terms to maturity of 15 years or more.
 
-# 9.6 Eurodollar Futures
+## 9.6 Eurodollar Futures
 
 Eurodollar futures are futures contracts settled on LIBOR. A three-month LIBOR is a money market account rate that can be translated a discount bond as:
 
 $$ L = 4\left(\frac{1}{P(t, t + 1/4)} - 1\right) \tag{9.18} $$
 
-# 9.6.1 Quote
+### 9.6.1 Quote
 
 The Eurodollar futures quotes can be converted to the futures price as:
 
@@ -382,7 +408,7 @@ $$ \Phi^{\text{ED}} = 100 - \frac{100 - \text{QFP}}{4} \tag{9.19} $$
 where QFP is quoted futures price.
 
 
-# 9.6.2 Delivery
+### 9.6.2 Delivery
 
 The delivery of Eurodollar futures is cash equal to:
 
@@ -397,7 +423,7 @@ $$
 
 ED futures are cash settled and hence no delivery options to be evaluated.
 
-# 9.6.3 Pricing
+### 9.6.3 Pricing
 
 Recall that the futures price is the risk-neutral expectation of the underlying payoff. Hence, ED futures price must be:
 
@@ -410,7 +436,7 @@ Please be reminded that  $\Phi(t, T, T + 1/4) = \hat{\mathbb{E}}[P(T, T + 1/4)]$
 
 We can use the simple Vasicek or CIR model to evaluate ED futures or lattice models like the Ho-Lee model to evaluate ED futures.
 
-# 9.7 Euro Dollar Futures Options
+## 9.7 Euro Dollar Futures Options
 
 These options are quite straight for evaluate. Given that the underlying futures have no complex embedded options, the same lattice used for ED futures can be used for options. One can also work out the closed-form formula under the Vasicek model (CIR model is more difficult) but note that the option is written on the reciprocal of the zero coupon bond as opposed to the zero coupon bond.
 
@@ -423,7 +449,7 @@ $$ which is a put option on bond.
 
 Note that if the bond price is log-normally distributed, so is its reciprocal. Hence, a similar formula to the Vasicek bond option formula can be derived.
 
-# 9.8 Relationship between Futures and Forward Prices
+## 9.8 Relationship between Futures and Forward Prices
 
 We do not have a specific place to discuss forward contracts. Rather, forward contracts are discussed in various places when they are relevant. Here we address very important characteristics of forward contracts and how they are different/similar from/to futures contracts.
 

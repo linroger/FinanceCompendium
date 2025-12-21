@@ -88,7 +88,7 @@ The stated aim of the Dodd-Frank Act is "to promote the financial stability of t
 
 ## The New Regulatory Environment and the Financial Stability Oversight Council
 
-Prior to the passage of the Dodd-Frank Act, the U.S. financial regulatory system was extremely fractured and had no regulator responsible for monitoring systemic risk. There were five major regulatory authorities who oversaw financial institutions: the Office of the Comptroller of the Currency (OCC) which regulated national banks, the Federal Reserve Board (Fed), which oversaw bank holding companies  $(\mathrm{BHCs})^2$  and state member banks,3 the Federal Deposit Insurance Corporation (FDIC), which was responsible for banks that were not Fed members as well as all banks covered by deposit insurance, the Office of Thrift Supervision (OTS), which regulated savings and loan associations and thrifts, and finally state regulators that oversaw state chartered banks. The Dodd-Frank Act attempts to streamline banking regulation by eliminating the OTS and transferring its powers to the OCC, Fed, and FDIC, while giving the Fed expanded oversight powers.
+Prior to the passage of the Dodd-Frank Act, the U.S. financial regulatory system was extremely fractured and had no regulator responsible for monitoring systemic risk. There were five major regulatory authorities who oversaw financial institutions: the Office of the Comptroller of the Currency (OCC) which regulated national banks, the Federal Reserve Board (Fed), which oversaw bank holding companies (BHCs) and state member banks, the Federal Deposit Insurance Corporation (FDIC), which was responsible for banks that were not Fed members as well as all banks covered by deposit insurance, the Office of Thrift Supervision (OTS), which regulated savings and loan associations and thrifts, and finally state regulators that oversaw state chartered banks. The Dodd-Frank Act attempts to streamline banking regulation by eliminating the OTS and transferring its powers to the OCC, Fed, and FDIC, while giving the Fed expanded oversight powers.
 
 As a result of the Dodd-Frank Act, the Fed will wield the most oversight power, and it is now the explicit responsibility of the Fed to "identify, measure, and monitor risks to the financial stability of the United States."4 In line with this objective, the Fed will now be the regulator for certain nonbank financial institutions (i.e., insurance companies, investment banks, and broker-dealers) that are determined to be systemically important and their subsidiaries in the same manner and to the same extent as if they were a BHC. Additionally, the Fed is required to establish prudential standards that include:
 
@@ -101,9 +101,7 @@ As a result of the Dodd-Frank Act, the Fed will wield the most oversight power, 
 
 Of important note for BHCs and any other company that controls an insured depository institution, the act now requires them to serve as a source of strength for their depository institution subsidiaries. This essentially means that parent companies now will be liable for a subsidiary that is experiencing financial difficulty and can no longer let it fail with no consequences to the parent.
 
-Probably the most drastic change to the regulatory environment comes in the form of the Financial Stability Oversight Council (FSOC), tasked with being a system-wide regulator. The FSOC has three purposes. First, it is tasked with identifying risks to the financial stability of the United States from both financial and nonfinancial organizations. Specifically, it will monitor the financial system for systemic risk and will determine which institutions pose a significant risk to it; it will therefore be subject to regulation by the Fed. Second, the FSOC is charged with promoting market discipline by eliminating expectations that there will be another bailout. Finally, the FSOC must respond to emerging financial threats, whether by imposing
-
-more stringent leverage limits or forcing large institutions to divest some of their holdings if they pose a grave threat.
+Probably the most drastic change to the regulatory environment comes in the form of the Financial Stability Oversight Council (FSOC), tasked with being a system-wide regulator. The FSOC has three purposes. First, it is tasked with identifying risks to the financial stability of the United States from both financial and nonfinancial organizations. Specifically, it will monitor the financial system for systemic risk and will determine which institutions pose a significant risk to it; it will therefore be subject to regulation by the Fed. Second, the FSOC is charged with promoting market discipline by eliminating expectations that there will be another bailout. Finally, the FSOC must respond to emerging financial threats, whether by imposing more stringent leverage limits or forcing large institutions to divest some of their holdings if they pose a grave threat.
 
 The FSOC also has broad supervisory authority over financial institutions. It has the power to monitor, investigate, assess risks to the financial system, and collect information from BHCs and nonbank financial institutions. Also, the FSOC will continue to perform stress tests on the largest financial institutions to ensure that they have adequate capital in the event of another financial crisis. Finally, the FSOC will work with other regulators to recommend enhanced capital, liquidity, and risk management standards for systemically important financial firms.
 
@@ -177,9 +175,7 @@ Much of the financial crisis of 2008-09 was blamed on unchecked asset securitiza
 
 The Orderly Liquidation Authority (OLA) is another major regulatory change introduced by the Dodd-Frank Act and is designed to address the problem of too big to fail. While the exact resolution process is not laid out in the legislation, the act does provide the framework for liquidation by the FDIC of institutions that pose systemic risk. Many observers see the OLA as an alternative to but not an outright prohibition of bailouts, as regulators are still allowed to implement generalized programs to help large financial institutions through TARP. Large institutions must periodically submit plans for rapid and orderly shutdown if they were to go under in order to expedite the process should such an event occur. The key to the OLA is that regulators can seize any financial company whose failure threatens the financial system and quickly pay off secured creditors while imposing losses on shareholders as well as unsecured creditors. This process already existed for banks but can now be applied to nonbank financial companies such as Lehman Brothers or AIG. Of important note, liquidation is now required for all firms put into receivership. The process of FDIC liquidation under the OLA is shown in Exhibit 2.
 
-In order to pay for the resolution of failed financial firms, the Dodd-Frank Act creates the Orderly Liquidation Fund. The fund will be an FDIC-managed fund to be used in the event of a liquidation that is not covered by the FDIC or SIPC (essentially for nonbank financial institutions). The purpose of the fund is to provide funding for the windup of failed firms so that taxpayers will not have to bear any of the losses from liquidation. Instead any losses will be the responsibility of the financial sector and will be recovered through
-
-assessments or clawbacks from creditors as necessary. The fund will be capitalized over 5 to 10 years through a series of risk-based assessment fees (similar to deposit insurance) on any eligible financial company, which is defined as any BHC with assets greater than $50 billion and any nonbank financial company supervised by the Fed (basically, any systemically important financial firm). To the extent that any company covered by the fund has a negative net worth, the FDIC will charge special assessments to the financial sector. Exhibit 2 lays out the factors used in determining these assessments.
+In order to pay for the resolution of failed financial firms, the Dodd-Frank Act creates the Orderly Liquidation Fund. The fund will be an FDIC-managed fund to be used in the event of a liquidation that is not covered by the FDIC or SIPC (essentially for nonbank financial institutions). The purpose of the fund is to provide funding for the windup of failed firms so that taxpayers will not have to bear any of the losses from liquidation. Instead any losses will be the responsibility of the financial sector and will be recovered through assessments or clawbacks from creditors as necessary. The fund will be capitalized over 5 to 10 years through a series of risk-based assessment fees (similar to deposit insurance) on any eligible financial company, which is defined as any BHC with assets greater than $50 billion and any nonbank financial company supervised by the Fed (basically, any systemically important financial firm). To the extent that any company covered by the fund has a negative net worth, the FDIC will charge special assessments to the financial sector. Exhibit 2 lays out the factors used in determining these assessments.
 
 Finally, the Fed and the FDIC do retain some emergency powers under the OLA provision. The Fed may still implement an emergency lending program, but it must be broad-based and not meant to aid a failing company, and must be approved by the secretary of the treasury. Additionally, the collateral for any loans must be sufficient to protect taxpayers from losses.[11] The FDIC is also limited in the guarantees it can make on the debt of banks that it regulates. It can guarantee the debt of solvent insured banks on a broad basis, if they meet the following requirements:
 
@@ -189,9 +185,9 @@ The president and Congress must approve the guarantee.
 
 Ultimately, the Fed and FDIC are severely limited in their ability to aid a failing firm on an individual basis. After the Dodd-Frank Act, FDIC receivership appears to be the exclusive route for a failing firm.
 
-# Exhibit 1
+## Exhibit 1
 
-# The Dodd-Frank Act and Its Impact
+### The Dodd-Frank Act and Its Impact
 
 Basic Trust Preferred Issuance
 
@@ -199,11 +195,11 @@ Basic Trust Preferred Issuance
 
 Data source: http://www.sec.gov/edgar.shtml.
 
-# Exhibit 2 The Dodd-Frank Act and Its Impact
+## Exhibit 2: The Dodd-Frank Act and Its Impact
 
 Orderly Liquidation Authority
 
-# FDIC Liquidation
+### FDIC Liquidation
 
 - Will ensure that shareholders do not receive payment until after all other claims and the Orderly Liquidation Fund are paid in full.  
 - Will ensure that unsecured creditors bear losses in accordance with the priority of claims; subordinated debt and equity holders will not be enriched.  
@@ -212,7 +208,7 @@ Orderly Liquidation Authority
 Secured creditors can be bailed out.  
 - Will have the discretion to draw a distinction between creditors, and additional payments can be made in situations where it maximizes the value of the firm or enables it to continue essential operations.
 
-# Assessment Fees
+### Assessment Fees
 
 - Under certain conditions, assessments may be extended to regulated banks and other financial institutions (that normally wouldn't be subject to the assessments).  
 - Severity of the fees can be adjusted on an as-needed basis depending on economic conditions, the relative size and value of a firm, and other similar factors.  
@@ -220,25 +216,23 @@ Secured creditors can be bailed out.
 
 Economic conditions (higher assessments during favorable conditions)
 - Whether an institution is an insured depository institution, an SIPC member, an insured credit union, or an insurance company
-Strength of the company's balance sheet (both on- and off-sheet assets)
-Relevant market share
 - Potential exposure to sudden calls on liquidity precipitated by economic distress
-The amount, maturity, volatility, and stability of the company's liabilities, including the degree of reliance on short-term funding
-- Stability and variety of sources of funding  
-Company's importance as a source of funding for households, businesses, and governments and as a source of liquidity for the financial system  
-The extent that assets are managed and not owned and the extent to which ownership of managed assets is diffuse  
-The amount, categories, and concentrations of liabilities (onand off-balance sheet)
+- The amount, maturity, volatility, and stability of the company's liabilities, including the degree of reliance on short-term funding
+- Stability and variety of sources of funding
+- Company's importance as a source of funding for households, businesses, and governments and as a source of liquidity for the financial system
+- The extent that assets are managed and not owned and the extent to which ownership of managed assets is diffuse
+- The amount, categories, and concentrations of liabilities (on- and off-balance sheet)
 
-# Exhibit 2 (continued)
+### Exhibit 2 (continued)
 
-# Miscellaneous Provisions
+## Miscellaneous Provisions
 
-# Rating Agencies
+### Rating Agencies
 
 - The act increases internal controls, requires greater transparency of procedures and methodologies, provides the SEC with greater authority over the rating agencies, and provides investors with a private right of action.  
 Rating agencies are required to establish "look-back" procedures that are meant to limit conflicts of interest for persons who have worked for both the rating agency and the company being rated.
 
-# Durbin Amendment—Debit Card Fees
+### Durbin Amendment—Debit Card Fees
 
 - Limits the interchange fees that banks can charge merchants for processing debit card transactions.  
 - Issuers can only charge swipe fees that are "reasonable and proportional to the actual cost" of processing—specific regulation is forthcoming.  
@@ -249,7 +243,7 @@ Rating agencies are required to establish "look-back" procedures that are meant 
 Essentially just transfers revenue from financial institutions to merchants (with no net benefit to consumers).  
 Banks may end up charging fees to consumers for debit cards to make up for the revenue hit.
 
-# Expansion
+### Expansion
 
 - The act immediately relaxes interstate branching restrictions by allowing banks to establish branches in any state that would allow the establishment of a branch by a state bank chartered in that state.
 
@@ -260,7 +254,7 @@ This is the key to enabling M&A activity.
 The BHC must be well-capitalized and well-managed.  
 The resulting institution must be well-capitalized and well-managed.
 
-# Deposit Insurance
+### Deposit Insurance
 
 - The deposit insurance coverage limit has been permanently raised to $250,000 and unlimited coverage for noninterest bearing transaction accounts has been extended for two years.
 
@@ -281,18 +275,18 @@ The basis for calculating premiums was previously deposits less tangible equity.
 Institutions with less than $10 billion in assets are exempted from the cost of the increase.  
 This means that the largest institutions will bear the cost of this increase.
 
-# Covered Transactions Restrictions
+#### Covered Transactions Restrictions
 
 - The act expands the definition of "covered transactions" (transaction between a bank and its affiliates) under §23A of the Federal Reserve Act to include credit exposure on derivatives transactions, securities lending, borrowing transactions, as well as the acceptance of affiliate-issued debt obligations as collateral for a loan or an extension of credit.
-- Currently, transactions with one affiliate cannot exceed  $10\%$  of capital or  $20\%$  of capital for transactions with all affiliates.  
-$\bigcirc$  Clarifies that collateral must be maintained at all times for covered transactions, rather than only at the time of the transaction.  
+- Currently, transactions with one affiliate cannot exceed $10\%$ of capital or $20\%$ of capital for transactions with all affiliates.
+- Clarifies that collateral must be maintained at all times for covered transactions, rather than only at the time of the transaction.
 It does allow for certain permitted activities:
 
-- Purchasing, selling, acquiring, or disposing of U.S. government or agency securities and state, municipal and other political subdivision obligations.  
-Purchasing, selling, acquiring, or disposing of securities in connection with underwriting or market-making type activities.  
+- Purchasing, selling, acquiring, or disposing of U.S. government or agency securities and state, municipal and other political subdivision obligations.
+Purchasing, selling, acquiring, or disposing of securities in connection with underwriting or market-making type activities.
 - Risk-mitigating hedging transactions designed to reduce specific risks.
 
-# Fair Value Accounting
+#### Fair Value Accounting
 
 - The proposed (but not yet adopted) FASB rule would require banks to mark-to-market loan portfolios.  
 - Some analysts say this will lead to increased earnings volatility while others have expressed concern over the feasibility of marking-to-market with illiquid loan portfolios.

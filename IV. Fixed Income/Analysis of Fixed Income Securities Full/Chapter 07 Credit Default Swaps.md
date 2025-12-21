@@ -1,6 +1,25 @@
 # Chapter 7: Credit Default Swap
+---
+title: "Chapter 7: Credit Default Swaps"
+parent_directory: IV. Fixed Income/Analysis of Fixed Income Securities Full
+formatted: 2025-12-21 05:20:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - credit default swaps
+  - credit derivatives
+  - default risk
+secondary_tags:
+  - cds spreads
+  - credit events
+  - loss given default
+  - probability of default
+cssclasses: academia
+---
 
-# 7.1 Introduction
+# Chapter 7: Credit Default Swaps
+
+## 7.1 Introduction
 
 Credit default swap (CDS) is one of the greatest Wall Street innovations in history. For the first time, investors can transfer unwanted credit risk at a price. Conversely, for those who seek yield enhancements, it provides an additional vehicle.
 
@@ -16,7 +35,7 @@ According to ISDA, a credit event can be one of the following:
 There are two main building blocks for the evaluation of CDS: probability of default (PD) and loss given default (LGD) which is also known as 1 minus recovery. There are two streams of models for the evaluation of CDS: reduced form models and structural models. The former assumes sudden defaults and the latter assumes gradual defaults. As a result, reduced form models assume a Poisson jump process for defaults and structural models assume firm value falling below a default threshold.
 
 
-# 7.2 The Contract
+## 7.2 The Contract
 
 It is a swap (follows swap convention) and yet it does not quite follow the swap conventions. Its floating leg is one payment and furthermore probabilistic. Its fixed leg is quarterly (not semi-annually). Figure 7.1 demonstrates the payments of the two legs of a CDS contract.
 
@@ -25,31 +44,31 @@ The fixed leg payments are similar to a standard fixed-floating swap. The floati
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/f28a2f9bc3db962f1d50a09177c645cab772d29b09993a196cc93d3abe9e8b46.jpg)
 Figure 7.1: Two Legs of CDS
 
-# 7.2.1 CDS spread
+### 7.2.1 CDS spread
 
 $$ s(t, T_n) = \frac{\sum_{i=1}^{n} P(t, T_i) [Q(t, T_{i-1}) - Q(t, T_i)]}{\sum_{i=1}^{n} P(t, T_i) Q(t, T_i)} \tag{7.1} $$
 
-# 7.2.2 CDS as a Perfect Hedge to Corporate Floaters
+### 7.2.2 CDS as a Perfect Hedge to Corporate Floaters
 
 That is why the fixed payment is called "spread".
 
-# 7.2.3 CDS as a Put Option
+### 7.2.3 CDS as a Put Option
 
 But there is a big difference. Put options also carry market risk (CDS also do but relatively much smaller).
 
-# 7.2.4 CDS as an Insurance Policy
+### 7.2.4 CDS as an Insurance Policy
 
 That is why the fixed payment is called premium. Note that put options are like insurance policies and price is also called premium.
 
-# 7.2.5 CDS as short Credit (Bond)
+### 7.2.5 CDS as short Credit (Bond)
 
 CDS is not a perfect hedge to fixed rate corporate bonds, but close enough.
 
-# 7.3 Bootstrapping
+## 7.3 Bootstrapping
 
 Please see my Global Risk Management: A Quantitative Guide lecture notes Chapters 13–15
 
-# 7.4 Big Bang
+## 7.4 Big Bang
 
 After the Big Bang, single-name CDS follow the index quoting convention and hence no longer is a pure swap contract.
 
@@ -69,7 +88,7 @@ Figure 7.3: After the Big Bang
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/50a83d59-0129-4701-a939-9f0396f0b64f/e47ecad725309fb1f2a62b29de1af5c9488d2b04e0841a1a54cee9642a1bd2ec.jpg)
 Figure 7.4: After the Big Bang
 
-# 7.4.1 Upfront, Running Spread, and Par Spread
+### 7.4.1 Upfront, Running Spread, and Par Spread
 
 There are two running spreads: 100 basis points and 500 basis points for high grade and high yield respectively.
 
@@ -90,7 +109,7 @@ Running spread is not informative as it is a contractual spread. Hence it is sti
 
 See Excel for an example
 
-# 7.5 Recovery
+## 7.5 Recovery
 
 Recovery value determines the protection leg value of a CDS. In case of a cash settled CDS, this amount is usually set at  40%  to reflect the average recovery rate of senior unsecured bonds and  15%  to reflect the average recovery of junior unsecured bonds.
 
@@ -98,11 +117,11 @@ However, in the case of physically settled CDS, an actual bond is delivered and 
 
 In this section, we focus on the recovery impact of the CDS contract. In addition to estimating a recovery value, various recovery clauses can also heavily impact the evaluation of CDS contracts.
 
-# 7.5.1 Cash versus Physical Settlement
+### 7.5.1 Cash versus Physical Settlement
 
 Although it is more difficult to transact, the majority of the CDS contracts are physically settled. In other words, an actual bond needs to be delivered upon default of the company. When CDS was first introduced in early/mid 90's, CDS contracts were primarily written on actual bonds, known as issue-based CDS. These CDS contracts were mainly issued by those banks that actually owned bonds and would like to hedge their default risks. The other side (yield enhancement) of the contract was investment banks, hedge funds, or trading houses who made a profit from a positive carry (just like their other positive carry deals).
 
-# 7.5.2 Distressed Bond Market
+### 7.5.2 Distressed Bond Market
 
 There is no clear definition for distressed debts. In the most severe case, a debt is in distress because its company is in default. Nevertheless, many high yield (a.k.a. junk) bonds that are at the brink of default are also targets for those distressed bond investors.
 
@@ -148,7 +167,7 @@ Figure 7.7: Sizes of Distressed Debts
 
 "In recent years, the largest individual vehicle was Blackstone's latest GSO Capital Solutions fund, which gathered more than 7 billion in 2018. Other top players in the market include recent funds raised by Apollo Global Management and Clearlake Capital."
 
-# 7.5.3 Cheapest to Deliver Option
+### 7.5.3 Cheapest to Deliver Option
 
 As in the T bond futures contracts, CDS contracts also embed a CTD option. The contractual description of the CTD in CDS is similar to the that in T bond futures. Basically, the short side of the CDS contract can choose any bond of the given name to deliver, hence leaving the option for the short side to deliver the cheapest bond.
 
@@ -160,12 +179,12 @@ Figure 7.8: High Yield Debts
 Source: Bank of America Merrill Lynch as of 31 December 2016
 
 
-# 7.5.4 Restructuring Clauses https://www.bis.org/publ/qtrpdf/r_qt0503h.pdf
+### 7.5.4 Restructuring Clauses
 
 
 Since the original ISDA agreement in 1999, there have been six general categories of credit events under which payments from the protection seller to the protection buyer can be mandated: bankruptcy, failure to pay, repudiation/moratorium, obligation acceleration, obligation default and restructuring. In practice, the three principal credit events for corporate borrowers are bankruptcy, failure to pay and restructuring.
 
-# Full restructuring (FR)
+#### Full restructuring (FR)
 
 The full-restructuring clause was the standard contract term in the 1999 ISDA credit derivatives definitions. Under this contract option, any restructuring event qualifies as a credit event (and any bond of maturity up to 30 years is deliverable). The problems with this arrangement became clear in 2000, when the bank debt of Conseco Finance, restructured to include increased coupons and new guarantees, and thus not disadvantageous to holders of the previous debt, still constituted a credit event and triggered payments under the ISDA guidelines.
 
@@ -175,28 +194,28 @@ Figure 7.9: Distressed Debts
 
 Some banks delivered long-dated bonds to profit from buying discounted lower-priced bonds and receiving par value in return, which was perceived as a distortion of the CDS market.
 
-# Modified restructuring (MR, introduced in 2001)
+#### Modified restructuring (MR, introduced in 2001)
 
 In 2001, to limit the scope of opportunistic behaviour by sellers in the event of restructuring agreements that did not cause loss, ISDA published a modified restructuring clause. While restructuring agreements still counted as credit events, the clause limited the deliverable obligations to those with a maturity of 30 months or less after the termination date of the CDS contract. Under this contract option, any restructuring event (except restructuring of bilateral loans) qualifies as a credit event.
 
-# Modified-modified restructuring (MMR, introduced in 2003)
+#### Modified-modified restructuring (MMR, introduced in 2003)
 
 In 2003, a further modification of the modified restructuring clause was introduced, in response to the perception on the part of some market participants (particularly in Europe) that the modified restructuring had been too severe in its limitation of deliverable obligations. Under the modified-modified restructuring term, the remaining maturity of deliverable assets must be shorter than 60 months for restructured obligations and 30 months for all other obligations.
 
-# No restructuring (NR)
+#### No restructuring (NR)
 
 Under this contract option, all restructuring events are excluded under the contract as "trigger events". The advantage to this contract is that so-called "soft" credit events under restructuring that do not constitute a true loss for the protection buyers, but still might encourage opportunistic behaviour on their part, are ruled out. In August 2002, JPMorgan Chase announced that it would no longer include restructuring clauses in its non-sovereign CDS contracts used for hedging purposes (see CGFS (2003)). In addition, some of the most popular CDS indices in North America (for instance, the DJ.CDX.NA.IG and DJ.CDX.NA.HY indices) are traded under the no-restructuring definition.
 
-# 7.6 Sovereign CDS https://www.bondvigilantes.com/blog/2010/02/25/sovereign-cds-qa/
+## 7.6 Sovereign CDS
 
 
 Credit Default Swaps (CDS) are contracts made by two market participants to either increase or reduce credit exposure to an entity – in this case a sovereign nation rather than a company. Quoted in basis points per year, a CDS price indicates the cost per year to either buy or sell exposure to the possibility of a sovereign defaulting or restructuring. Selling protection means you receive the premium every year of the contract but bear the risk of capital losses in the event of default; buying protection means that you pay the premium but will receive a payment equivalent to the losses suffered by bond holders in the event of default or restructuring. In other words sovereign CDS behave a little like insurance contracts – you can take the role of the insurer, or be insured.
 
-# 7.7 CDO CDS
+## 7.7 CDO CDS
 
 CDO CDS refer to the securitized notes in a CDO (collateralized debt obligations). These CDOs are known as synthetic CDOs (which are different from cash CDOs) in which both assets and liabilities are CDS.
 
-# 7.8 Capital Structure Arbitrage
+## 7.8 Capital Structure Arbitrage
 
 CDS not only provides a tool to transfer credit risk, it also facilitate arbitrage trading and bridge the debt and equity markets.
 
@@ -211,13 +230,13 @@ Choices of structural models:
 - Madan-Unal (hybrid)
 - CreditGrades™ (hybrid)
 
-# 7.8.1 CDS versus Put
+### 7.8.1 CDS versus Put
 
 The rationale here is that CDS is like a put option on the company's stock. As the company's credit risk increases, CDS spread widens and the put option value goes up. Upon default, the put option pays the strike (as the company's stock is worthless) and CDS pays one minus recovery. Hence, if we choose the number of shares of the put option so that the payout upon default is equal to the notional times one minus recovery, people believe that the two must be equivalent.
 
 However, such arbitrage is not perfect. Although the payouts upon default are equal, today's investment amounts are not. In other words, it is not a 0-cost arbitrage. The main reason is that put options also carry equity risk (i.e. volatility) and CDS do not. Hence, they are fundamentally different securities. They become closely related to each other when a company is near default. As a result, such an arbitrage might work well for risky companies and not well for good quality companies.
 
-# 7.8.2 CDS versus Stock
+### 7.8.2 CDS versus Stock
 
 The rationale here is that CDS is a bond. If the bond spread is equivalent to the CDS spread, then buying a bond is equivalent to shorting a CDS. Credit structural models argue that the equity of a firm is a (compound) call option and hence the liabilities are a covered call (or put). As a result, the difference between the corporate debt value and the risk-free debt value is the CDS spread.
 

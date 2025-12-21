@@ -1,125 +1,47 @@
 ---
-aliases:
-- Modern Exchange Rate Models
-tags: null
-key_concepts: null
+title: Modern Exchange Rate Models
 parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 7: Modern Exchange Rate Models'
-linter-yaml-title-alias: 'Chapter 7: Modern Exchange Rate Models'
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20241022
+cli-tool: claude-code
 primary_tags:
-- rate determination flexible price
-- exchange rate determination assets
-- monetary models provide explanation
-- monetary exchange rate model
-- monetary policy role
+  - exchange rate determination
+  - monetary models theory
+  - flexible price monetary model
+  - sticky price monetary model
+  - portfolio balance models
+cssclasses: academia
 secondary_tags:
-- determinant exchange rates
-- exchange rate depends
-- money supply exchange rate
-- output induced monetary
-- exchange rate theory explicitly
-- dornbusch 1976a monetary model
-- dornbusch model foreign rate
-- markets equilibrium exchange rate
-- parity te monetary models
-- exchange rate equation synthesizes
-- exchange rate frankel
-- monetary shock does
-tags_extracted: '2025-12-18T01:32:40.206389'
+  - uncovered interest parity
+  - dornbusch sticky price model
+  - frankel real interest differential
+  - money supply shocks
+  - capital market integration
+  - exchange rate overshooting
+  - goods market equilibrium
+  - money market equilibrium
+  - imperfect asset substitutability
+  - international capital flows
+  - exchange rate volatility
+  - monetary policy transmission
+  - interest rate differentials
+  - foreign exchange markets
+  - international finance theory
 ---
 
-# CHAPTER 7
+# Modern Exchange Rate Models
 
-## MODERN MODELS OF EXCHANGE RATE DETERMINATION
+## Modern Models of Exchange Rate Determination
 
-CHAPTER OUTLINE
+### 7.1 Introduction
 
-7.1 Introduction
+The PPP theory outlined in Chapter 6 is far from a satisfactory explanation of observed exchange rate behaviour. In particular, it is very much concerned with goods arbitrage and has nothing to say about capital movements internationally. During the post-Second World War era there has been an enormous growth of capital markets, meaning that it is possible for international investors to switch huge amounts of money out of one currency into another very speedily. This being the case, speculators will tend to move their money between currencies based on the expected rate of return of one currency compared to another. What people expect to happen to the exchange rate will be a crucial part in determining which currencies to buy and sell—if a currency is expected to depreciate, then agents will tend to switch out of that currency and into those currencies that they expect to appreciate. In this chapter, we will look at some more recent and sophisticated exchange rate models that have been developed in an attempt to model exchange rate behaviour more successfully.
 
-7.2 Uncovered interest rate parity
-7.3 Te monetary models of exchange rate determination
+The common thread to the models that we will analyse in this chapter is that they all emphasize the important role of relative money supplies in explaining the exchange rate. The monetary models start from the observation that the exchange rate is the price of one money in terms of another. However, the monetary models go beyond this simple observation to argue that exchange rate movements can be explained by changes in the supply and demand for national money stocks. There are a variety of models put forward by monetarists to explain exchange rate behaviour and we will deal with three of the most important versions in this chapter: the 'flexible-price' monetary model, the 'sticky-price' monetary model and the 'real-interest-rate-differential' model. These models make an assumption that domestic and foreign bonds are perfect substitutes; and there has developed a brand of models known as portfolio balance models that allow for differences in riskiness between domestic and foreign bonds. We shall spend some time looking at the implications of imperfect asset substitutability between domestic and foreign bonds through a more general model that allows for a portfolio balance effect.
 
-7.4
-Te flexible-price monetary model
-7.5 Te Dornbusch sticky-price monetarist model
-7.6 A simple explanation of the Dornbusch model
-7.7 A formal explanation of the Dornbusch model
-7.8 Derivation of the goods-market equilibrium schedule
-7.9 Derivation of the money-market equilibrium schedule
-7.10 A money supply expansion and exchange rate 'overshooting'
-7.11 Importance of the sticky-price monetary model
-7.12 Te Frankel real-interest-rate-di$erential model
+### 7.2 Uncovered Interest Rate Parity
 
-7.13 Implications of the monetary views of exchange rate determination
-7.14 Allowing for imperfect substitutability between domestic and foreign bonds
-7.15 A synthesis portfolio balance model
-7.16 Te importance of the portfolio balance model
-7.17 Conclusions
-
-7.1 INTRODUCTION
-
-Te PPP theory outlined in Chapter 6 is far from a satisfactory explanation of observed exchange rate behaviour.
-
-In particular, it is very much concerned with goods arbitrage and has nothing to say about capital movements
-
-internationally. During the post-Second World War era there has been an enormous growth of capital markets,
-
-meaning that it is possible for international investors to switch huge amounts of money out of one currency
-
-into another very speedily. Tis being the case, speculators will tend to move their money between currencies
-
-based on the expected rate of return of one currency compared to another. What people expect to happen
-
-to the exchange rate will be a crucial part in determining which currencies to buy and sell%– if a currency is
-
-expected to depreciate, then agents will tend to switch out of that currency and into those currencies that they
-
-expect to appreciate. In this chapter, we will look at some more recent and sophisticated exchange rate models
-
-that have been developed in an attempt to model exchange rate behaviour more successfully.
-
-Te common thread to the models that we will analyse in this chapter is that they all emphasize the
-
-important role of relative money supplies in explaining the exchange rate. Te monetary models start from
-
-the observation that the exchange rate is the price of one money in terms of another. However, the monetary
-
-International Finance
-
-models go beyond this simple observation to argue that exchange rate movements can be explained by changes
-
-in the supply and demand for national money stocks. Tere are a variety of models put forward by monetarists
-
-to explain exchange rate behaviour and we will deal with three of the most important versions in this chapter:
-
-the 'flexible-price' monetary model, the 'sticky-price' monetary model and the 'real-interest-rate-di$erential’
-
-model. Tese models make an assumption that domestic and foreign bonds are perfect substitutes; and there
-
-has developed a brand of models known as portfolio balance models that allow for di$erences in riskiness
-
-between domestic and foreign bonds. We shall spend some time looking at the implications of imperfect asset
-
-substitutability between domestic and foreign bonds through a more general model that allows for a portfolio
-
-balance e$etc.
-
-7.2 UNCOVERED INTEREST RATE PARITY
-
-Since international investors can quickly and easily switch out of domestic bonds into foreign bonds and vice
-
-versa, the exchange rate can be viewed as a relative asset price. Te fundamental characteristic of an asset
-
-price is that its present value will be largely influenced by its expected rate of return. Imagine the case of an
-
-international investor who has the option of investing his or her money in euro denominated bonds or US
-
-bonds of similar risk and maturity. If he or she regards the bonds as equally risky and can switch between
-
-the two assets instantaneously, the only di$erence between the bonds is their currency of denomination and
-
-possibly the interest rate attached to them. Tere will be two factors that international investors will bear in
+Since international investors can quickly and easily switch out of domestic bonds into foreign bonds and vice versa, the exchange rate can be viewed as a relative asset price. The fundamental characteristic of an asset price is that its present value will be largely influenced by its expected rate of return. Imagine the case of an international investor who has the option of investing his or her money in euro denominated bonds or US bonds of similar risk and maturity. If he or she regards the bonds as equally risky and can switch between the two assets instantaneously, the only difference between the bonds is their currency of denomination and possibly the interest rate attached to them. There will be two factors that international investors will bear in
 
 mind when considering which to purchase: the rates of interest on eurozone bonds and US bonds, and what
 

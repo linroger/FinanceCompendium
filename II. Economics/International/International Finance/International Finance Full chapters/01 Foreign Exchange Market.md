@@ -1,34 +1,38 @@
 ---
 title: The Foreign Exchange Market
+parent_directory: International Finance Full chapters
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-haiku-4-5-20251001
+cli_tool: claude-code
 primary_tags:
-  - foreign_exchange_market
-  - exchange_rate_definitions
-  - spot_exchange_rates
-  - forward_exchange_rates
-  - currency_trading
+   - foreign exchange market
+   - exchange rate definitions
+   - spot exchange rates
+   - forward exchange rates
+   - currency trading
 secondary_tags:
-  - bid_offer_spread
-  - cross_currency_arbitrage
-  - financial_centre_arbitrage
-  - nominal_exchange_rate
-  - real_exchange_rate
-  - effective_exchange_rate
-  - vehicle_currency
-  - us_dollar_trading
-  - central_bank_intervention
-  - foreign_exchange_brokers
-  - commercial_banks_fx
-  - retail_clients_fx
-  - forward_contracts
-  - spot_contracts
-  - currency_depreciation
-  - currency_appreciation
-  - exchange_rate_regimes
-  - fx_market_participants
-  - currency_pairs
-  - cross_rates
-  - bid_rate
-  - offer_rate
+   - bid offer spread
+   - cross currency arbitrage
+   - financial centre arbitrage
+   - nominal exchange rate
+   - real exchange rate
+   - effective exchange rate
+   - vehicle currency
+   - us dollar trading
+   - central bank intervention
+   - foreign exchange brokers
+   - commercial banks fx
+   - retail clients fx
+   - forward contracts
+   - spot contracts
+   - currency depreciation
+   - currency appreciation
+   - exchange rate regimes
+   - fx market participants
+   - currency pairs
+   - cross rates
+   - bid rate
+   - offer rate
 cssclasses: academia
 ---
 
@@ -40,7 +44,7 @@ CHAPTER OUTLINE
 
 1.1 Introduction
 
-1.2 Exchange rate de!nitions
+1.2 Exchange rate definitions
 1.3 Characteristics and participants of the foreign exchange market
 1.4 Arbitrage in the foreign exchange market
 1.5 Te spot and forward exchange rates
@@ -53,7 +57,7 @@ CHAPTER OUTLINE
 
 1.1 INTRODUCTION
 
-When studying open economies that trade with one another, there is a major di $ erence in the transactions between domestic and foreign residents as compared to those between residents of the same country; namely, that di $ ering national currencies are usually involved. A US importer will generally have to pay a Japanese exporter in yen, a German exporter in euros and a British exporter in pounds. For this reason, the US importer will have to buy these currencies with dollars in what is known as the foreign exchange market. Te foreign exchange market is not a single physical place; rather it is de!ned as a market where the various national currencies are bought and sold. Exactly what factors determine how much domestic currency has to be given in exchange to obtain a unit of foreign currency, the behaviour of exchange rates and the impact of exchange rate changes on the economy is one of the major !elds of study in international economics and is the subject matter of later chapters of this book.
+When studying open economies that trade with one another, there is a major di $ erence in the transactions between domestic and foreign residents as compared to those between residents of the same country; namely, that di $ ering national currencies are usually involved. A US importer will generally have to pay a Japanese exporter in yen, a German exporter in euros and a British exporter in pounds. For this reason, the US importer will have to buy these currencies with dollars in what is known as the foreign exchange market. Te foreign exchange market is not a single physical place; rather it is defined as a market where the various national currencies are bought and sold. Exactly what factors determine how much domestic currency has to be given in exchange to obtain a unit of foreign currency, the behaviour of exchange rates and the impact of exchange rate changes on the economy is one of the major !elds of study in international economics and is the subject matter of later chapters of this book.
 
 In this chapter, we look at some preliminary issues and examine the various participants in the foreign exchange market and the basic forces that operate in it. We then examine the basic determinants of exchange rate behaviour. We proceed to examine various exchange rate definitions and their economic significance. We then look at the basic operational differences between fixed and floating exchange rate regimes. The chapter finishes by examining the relationship between the spot and forward exchange rate.
 
@@ -88,7 +92,7 @@ International Finance
 |Other|17.9|18.6|20.0|21.2|21.1|18.9|17.2|15.9|13.8|
 |Total|100|100|100|100|100|100|100|100|100|
 
-_Note_ : Te above are net !gures having been adjusted to allow for double counting.
+_Note_ : The above are net figures having been adjusted to allow for double counting.
 
 _Source_ : Bank for International Settlements.
 
@@ -100,7 +104,7 @@ The Foreign Exchange Market
 
 1.2 EXCHANGE RATE DEFINITIONS
 
-Te exchange rate is simply the price of one currency in terms of another, and there are two methods of expressing it:
+The exchange rate is simply the price of one currency in terms of another, and there are two methods of expressing it:
 
 1. Foreign currency units per unit of the domestic currency: taking the pound sterling as the domestic currency, on 16 December 2020 approximately \ $ 1.35 was required to obtain one pound, that is,
 
@@ -170,7 +174,7 @@ Easily the most heavily traded currency is the US dollar which is known as a veh
 
 The Foreign Exchange Market
 
-**Figure 1.1** Te organization of the foreign exchange market the dollar is so heavily traded it is usually cheaper for a French foreign exchange dealer wanting Mexican pesos to first purchase US%dollars with euros and then sell the dollars to purchase pesos rather than directly purchase the pesos with euros. The main participants in the foreign exchange market can be categorized as follows:
+**Figure 1.1** The organization of the foreign exchange market the dollar is so heavily traded it is usually cheaper for a French foreign exchange dealer wanting Mexican pesos to first purchase US dollars with euros and then sell the dollars to purchase pesos rather than directly purchase the pesos with euros. The main participants in the foreign exchange market can be categorized as follows:
 
 - **Retail clients.** Tese are made up of businesses, international investors, multinational corporations and the like who need foreign exchange for the purposes of operating their businesses. Normally, they do not directly purchase or sell foreign currencies themselves; rather they operate by placing buy/sell
 
@@ -499,11 +503,11 @@ International Finance
 
 Since the adoption of floating exchange rates in 1973 there has developed an exciting new set of theories attempting to explain exchange rate behaviour, generally known as the modern asset-market approach to exchange rate determination. We shall be looking in some detail at these theories in Chapters 7–9. For the time being, we shall look at a simple model of exchange rate determination which was widely used prior to the development of these new theories. Despite its shortcomings the model serves as a useful introduction to exchange rate determination and is a prerequisite for the understanding of Chapters
 
-1–6 of this book. Te basic tenet of the model is that the exchange rate (the price) of a currency can be analysed like any other price by a resort to the tools of supply and demand. Te exchange rate of the pound will be determined by the intersection of the supply and demand for pounds on the foreign exchange market.
+1–6 of this book. The basic tenet of the model is that the exchange rate (the price) of a currency can be analysed like any other price by a resort to the tools of supply and demand. Te exchange rate of the pound will be determined by the intersection of the supply and demand for pounds on the foreign exchange market.
 
 _The demand for foreign exchange_
 
-Te demand for pounds in the foreign exchange market is a derived demand; that is, the pounds are not demanded because they have an intrinsic value in themselves, but rather because of what they can buy.
+The demand for pounds in the foreign exchange market is a derived demand; that is, the pounds are not demanded because they have an intrinsic value in themselves, but rather because of what they can buy.
 
 Table 1.8 shows the derivation of a hypothetical demand for pounds schedule with respect to changes in the exchange rate. As the pound appreciates against the dollar, that is, moves from \ $ 1.20/£1 towards \ $ 1.50/£1, the price of the UK export to US importers increases, which leads to a lower quantity of exports and with it a reduced demand for pounds. Hence, the demand curve ( _D_ ) for pounds which is depicted in Figure 1.4 slopes down from le, to right.
 

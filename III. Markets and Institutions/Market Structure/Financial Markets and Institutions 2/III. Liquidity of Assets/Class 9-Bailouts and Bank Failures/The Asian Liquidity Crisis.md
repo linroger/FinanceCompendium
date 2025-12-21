@@ -27,6 +27,20 @@ To the finance industry, the term liquidity refers loosely to the how easily, qu
 - trade prices are close to arrival price, where arrival price denotes the generally perceived market value when a position change begins, and  
 - position changes can be completed in a short amount of time.
 
+```d2
+direction: right
+
+liquidity: Liquidity Factors {
+  counterparties: Counterparties
+  prices: Trade Prices
+  time: Execution Time
+}
+
+liquidity.counterparties -> liquidity: Easy to find
+liquidity.prices -> liquidity: Close to arrival price
+liquidity.time -> liquidity: Short time
+```
+
 ## Attractiveness Of Liquidity
 
 For any two assets with similar probability distributions, but differing liquidity, it is more desirable to hold a position in the more liquid one. Both direct and indirect trading costs are lower, the position can be scaled up to employ more capital, and risk is lower.
@@ -36,7 +50,7 @@ For any two assets with similar probability distributions, but differing liquidi
 This latter point is not immediately obvious. To understand it consider a position we believe has 1-year profit distributed approximately as a gaussian with mean $\mu_t > 0$.
 
 $$
-P L_{t + 1} \sim N (\mu_{t}, s)
+PL_{t + 1} \sim N (\mu_{t}, s)
 $$
 
 ### Risk of Illiquidity: Asset Distribution
@@ -47,23 +61,23 @@ $$
 V_{t + 1} \sim N (V_{t}, \sigma)
 $$
 
-Let's also assume a positive correlation  $\rho$  between  $V$  and  $\mu$ . We want to exit if we have some  $t$  where  $\mu_t < 0$ .
+Let's also assume a positive correlation $\rho$ between $V$ and $\mu$. We want to exit if we have some $t$ where $\mu_t < 0$.
 
 ### Risk of Illiquidity: MtM Correlation
 
-The daily mark to market  $\Delta V = V_{t + 1} - V_t$  has the same correlation with  $\mu_{t + 1}$ , so since  $\rho >0$
+The daily mark to market $\Delta V = V_{t + 1} - V_t$ has the same correlation with $\mu_{t + 1}$, so since $\rho >0$
 
 $$
-\operatorname{Pr ob} \left(\Delta V <   0 \mid \mu <   0\right) > 0. 5
+\operatorname{Prob} \left(\Delta V < 0 \mid \mu < 0\right) > 0.5
 $$
 
 showing we will tend to want to exit after losses.
 
-In the case of high liquidity, our losses will be  $\Delta V$  because we can exit immediately. For low liquidity, we may have worse to come.
+In the case of high liquidity, our losses will be $\Delta V$ because we can exit immediately. For low liquidity, we may have worse to come.
 
 ### Risk of Illiquidity: PL Distribution
 
-Even if  $\rho = 0$ , the tail of our PL distribution arises from the single gaussian with standard deviation  $\sigma$ . But if, say, exit takes two days, then for some proportion of our original position, the PL is distributed as  $N(0,\sigma \sqrt{2})$
+Even if $\rho = 0$, the tail of our PL distribution arises from the single gaussian with standard deviation $\sigma$. But if, say, exit takes two days, then for some proportion of our original position, the PL is distributed as $N(0,\sigma \sqrt{2})$
 
 A more rigorous treatment in continuous time can be found in Almgren and Chriss.
 

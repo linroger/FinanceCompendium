@@ -1,4 +1,32 @@
-# Chapter 1 Cleanup Summary
+---
+title: Chapter 01 Cleanup Summary
+parent_directory: Analysis of Fixed Income Securities Full
+formatted: 2025-12-21 11:03:25 PM
+formatter_model: claude-sonnet-4-5-20241022
+cli-tool: claude-code
+primary_tags:
+  - fixed income analysis
+  - bond pricing corrections
+  - mathematical formatting fixes
+  - table restructuring improvements
+  - daycount convention updates
+cssclasses: academia
+secondary_tags:
+  - grammar corrections applied
+  - latex equation fixes
+  - yield curve calculations
+  - forward rate derivations
+  - accrued interest calculations
+  - treasury securities formatting
+  - corporate bond terminology
+  - mortgage backed securities
+  - credit rating groups
+  - excel function formatting
+  - figure caption updates
+  - exercise question improvements
+---
+
+# Chapter 01 Cleanup Summary
 
 ## Comprehensive Review and Corrections Applied
 

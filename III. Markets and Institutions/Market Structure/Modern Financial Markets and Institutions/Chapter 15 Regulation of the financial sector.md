@@ -1,17 +1,32 @@
 ---
-aliases:
-  - Regulation of the financial sector
-tags:
-key_concepts:
-parent_directory: Modern Financial Markets and Institutions
-cssclasses: academia
 title: "Chapter 15: Regulation of the financial sector"
-linter-yaml-title-alias: "Chapter 15: Regulation of the financial sector"
+parent_directory: Modern Financial Markets and Institutions
+primary_tags:
+  - financial regulation
+  - regulatory frameworks
+  - prudential supervision
+  - market stability
+  - consumer protection
+secondary_tags:
+  - asymmetric information
+  - moral hazard
+  - agency capture
+  - compliance costs
+  - regulatory arbitrage
+  - financial supervision
+  - systemic risk
+  - capital requirements
+  - liquidity standards
+  - market conduct
+cssclasses: academia
+formatted: 2025-12-21 05:20:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 ---
 
-# Regulation of the financial sector
+# Chapter 15: Regulation of the financial sector
 
-# LEARNING OUTCOMES
+## LEARNING OUTCOMES
 
 By the end of this chapter the reader should be able to:
 
@@ -37,19 +52,19 @@ Supervision Monitoring the position and behaviour of individual firms, and enfor
 
 For our purposes we will assume that the word regulation covers supervision as well.
 
-# Why regulate?
+### Why regulate?
 
 Financial regulation is expensive. It cost hundreds of millions, even billions, to pay for regulators to carry out their tasks in a modern economy. There are further billions to be paid by the banks, insurance companies and other financial service firms in compliance costs, i.e. putting in place systems and training to ensure that staff behave according to the rules. These additional costs are likely to be passed on to clients. Then there are the potential losses because new organisations that are keen to provide a financial service are put off entering the industry by the costs and time of obtaining a license from the regulator and the subsequent monitoring – perhaps society loses much innovatory and competitive fizz as a result. Exhibit 15.1 gives us some idea of the costs.
 
 So, given the costs, a fundamental question is: why do we bother with regulation? This section presents some ideas to answer that question.
 
-# Asymmetric information
+### Asymmetric information
 
 Asymmetric information is one of the forms of market failure in financial services in which the market participants will drive the industry to a sub-optimal outcome if left to their own devices. The other two reasons for intervention, also forms of market failure – contagion and monopoly/ oligopoly – are discussed later.
 
-# Exhibit 15.1
+### Exhibit 15.1
 
-# Oversight of banks costs US far more than EU
+### Oversight of banks costs US far more than EU
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/faaab42184d73a26e2f2463799521c746361a0e06848cd8467c67abdd29bfe33.jpg)
 
@@ -59,7 +74,7 @@ The US spends more than six times as much to supervise banks and other credit in
 
 The various federal and state agencies that supervise banks in the US spent  \$4.4bn on 18,000 frontline employees in 2009-10, while the 27 EU nations spent\$ 2.2bn on 10,000 employees, according to analysis by the Oliver Wyman consultancy.
 
-The US spend  $1m per$ 1bn of banking revenues, compared with 150,000 in the EU.
+The US spend  $1m per $1bn of banking revenues, compared with 150,000 in the EU.
 
 The costs cover day-to-day supervision of the system for safety and soundness as well as consumer protection and conduct issues.
 
@@ -81,7 +96,7 @@ Asymmetric information manifests itself in a number of ways: reducing safety and
 
 We will now look at each of these in turn.
 
-# Safety and soundness
+## Safety and soundness
 
 Consumers are frequently unable to assess the safety and soundness of a financial institution or the products it provides. They simply do not have the time or the expertise to evaluate whether the organisation is taking too much risk with their money. An example here is the flood of money that went into Icelandic Banks in the mid-2000s. Large numbers of savers from all over Europe were attracted by the high interest rates offered on deposit accounts. Little did they know that the accumulated bank deposits were lent out to high risk ventures with only small amounts being retained as a safety buffer. The managers of these banks were tempted by the higher interest rates they could charge on the more risky lending, producing large short term (apparent) profits and therefore large bonuses. Regulators are supposed to conduct prudential bank regulation (discussed in Chapters 2 and 7) to protect consumers from unsound bank policies and actions. They clearly failed in the case of the Icelandic banks, so after their collapse the authorities (governments in this case) were forced to guarantee all deposits, which is an expensive way to protect depositors. They are now much keener on ensuring banks are managed for safety and soundness.
 
@@ -93,7 +108,7 @@ Other questions in this area are: How sound is the stock broker who holds your s
 
 Safety and soundness concerns arise not only in the relationship between financial service providers and consumers but also in the trading that takes place between financial intermediaries, for example, interbank lending and borrowing, trading in the foreign exchange market or derivatives trading all involve a degree of counterparty risk.
 
-# Conflicts of interest
+## Conflicts of interest
 
 Conflicts of interest arise when a person or institution has a number of objectives (interests) and is free to choose which receives the most emphasis, when one of them might have the potential to corrupt the motivation to act. The choice made may not be one that would suit the consumer because it might be tainted by the self-interest of the financial service provider. But the consumer is unable to see the extent of the bias due to asymmetric information. Take, for example, an independent financial advisor who is supposed to advise a client on the best home for their savings but who is tempted by the large commission paid by a unit trust company to push the client into their product.
 
@@ -105,15 +120,15 @@ Conflicts of interest can lead to the misuse of information, the providing of fa
 - False An example of false information dissemination can arise when auditing firms also supply a client company with management consulting services (e.g. advice on tax, management systems, strategy). The latter services can result in fees that are many times what they receive from the audit. Client companies may pressure auditors by threatening to move their consulting custom to another firm if they do not see things their way. In accounting much judgement is required about issues such as the value of a non-current asset or the likelihood of a customer debt being paid. There is therefore wriggle-room for putting a positive gloss on profits and balance sheet strength. This can easily tip over into false information in the sense of, while being within the letter of the accounting rules, it breaks the spirit. A similar conflict was said to have occurred when credit rating agencies were accused of being too generous in rating the chance of default of bonds issued by many banks and special purpose vehicles set up to receive interest from US sub-prime mortgages in securitisation deals in the mid-2000s (see Chapter 6). The issuing company pays for the rating but the consumers of that information are the bond investors, hence the conflict of interest. The rating agencies were accused of trying to attract future rating mandates by being less than unbiased. They defended themselves vigorously saying that they cannot afford to be seen as anything other than impartial and objective if their ratings are to be taking seriously. They stand to lose their entire business franchise if they cannot be relied upon by bond buyers. Thus they have a high degree of self-policing. If bond-buyer faith in the rating agencies did ever seriously decline there would be a danger of a much reduced flow of funds to companies and therefore lower wealth in society. Exhibit 15.2 describes the consequences flowing from an analyst providing false information.
 - Biased An example of biased information arises in a badly organised investment bank which while issuing research reports and advising investors on good bond purchases also arranges a bond issue by a client company. A great deal of effort goes into understanding the company when arranging a bond issue, and the information generated may be useful to the research team supplying analysis to investors. However, the issuing firm would like to sell the bonds at
 
-# Exhibit 15.2
+## Exhibit 15.2
 
-# Analyst fined over misleading message
+## Analyst fined over misleading message
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/bc421e727e03bcec5b070ae8c9f796f03a01cb0846f85784eea4fd58c2d0819a.jpg)
 
-# By Brooke Masters
+## By Brooke Masters
 
-A former MF Global analyst has been fined  $\S 50,000$  for sending clients and colleagues a "misleading and inaccurate" instant message that appeared to contain inside information about a UK-listed company.
+A former MF Global analyst has been fined  $50,000$  for sending clients and colleagues a "misleading and inaccurate" instant message that appeared to contain inside information about a UK-listed company.
 
 The Financial Services Authority said trading in shares of Enterprise Inns more than trebled and the price rose more than 4 per cent in the two hours after Christopher Gower sent his message, entitled "Hot off the press" to 14 clients and a message group of 60 colleagues.
 
@@ -131,7 +146,7 @@ Angele Hayes, partner at Mayer Brown, the law firm, said: "This case emphasises 
 
 The FSA brought a similar case in 2006 against Sean Pignatelli, a
 
-Credit Suisse equity salesman. He was fined  $\pm 20,000$  for passing on what appeared to be inside information about US-listed Boston Scientific.
+Credit Suisse equity salesman. He was fined  $20,000$  for passing on what appeared to be inside information about US-listed Boston Scientific.
 
 In 2008, the regulator warned in a newsletter that it was concerned about the spread of rumours and urged regulated firms to set out their policies about passing on information and do more training of their staff. It warned last year about leaks.
 
@@ -149,13 +164,13 @@ Many conflicts of interest are not exploited even in the absence of regulation b
 
 Financial markets present opportunities to make large profits over short periods of time; this is especially the case if a trusted professional lacks moral fibre. While the majority of people in the financial sector are honourable and of high integrity, such a honey pot is bound to attract greedy knaves who are clever enough to dream up a range of chicanery.
 
-# Incompetence
+## Incompetence
 
 Consumers often receive poor service due to incompetence. This may be bad advice because of the inattention or ignorance of a financial adviser – see Exhibit 15.3 for an example. There may be incompetence in managing a client's funds or their business interests. In financial services incompetence can continue undetected for years. For example, in the handling of pension fund money, the manager will render the service of investing to supply pensions decades after the savers have injected funds into the scheme. It may only be after retirement that it is revealed whether it will meet the financial needs of the retirees.
 
-# Exhibit 15.3
+### Exhibit 15.3
 
-# Barclays hit with record fine
+### Barclays hit with record fine
 
 By Brooke Masters and Sharlene Goff in London
 
@@ -181,15 +196,15 @@ The financial crisis has led regulators around the world to focus more closely o
 
 Source: Financial Times, 19 January 2011, p. 17. Reprinted with permission.
 
-# Contagion
+## Contagion
 
 In some financial sectors, say banking, the failure of a company may lead to the failure of others leading to instability in the whole system. This is called contagion risk. As we have seen following the collapse of Lehman Brothers in 2008 contagion can have very serious consequences for the economic health of a nation as well as for consumers of financial products. If a domino effect takes hold, where one bank's failure (or perceived likely failure) to meet its obligations to other banks or clients, leads to more bank collapses and further losses it can ruin the entire system, possibly taking us down into a 1930s-style depression. Economists would describe this as an example of an 'externality' in which the social cost of failure exceeds the private cost.
 
 The damage caused by spreading contagion is so bad that it is well worth the effort to ensure individual banks are unlikely to collapse by regulating the amount of capital and liquid assets they hold. It is also worth insisting that they write and continuously update 'living wills' so that they can be revived or closed down in an orderly way without fatally wounding other banks should they run into trouble. (Living wills are discussed in Chapter 7.) It is also advisable to insist that none is either too big to fail (i.e. the government cannot contemplate letting it go into bankruptcy) or 'too big to save', where no government can raise enough money to save it. Exhibit 15.4 describes the US regulator's tightening of scrutiny to reduce contagion risk, which stretches to insurers and hedge funds.
 
-# Exhibit 15.4
+### Exhibit 15.4
 
-# Regulators increase scrutiny of US banks
+### Regulators increase scrutiny of US banks
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/36049f58f48ffdf1483194feb0baa19c22fcbfac00afc3dbd1ab10f4df62a2d0.jpg)
 
@@ -223,7 +238,7 @@ Stricter oversight in the US is part of an overhaul of global financial rules th
 
 Source: Financial Times, 11 August 2010, p. 13. Reprinted with permission.
 
-# Monopoly/oligopoly
+## Monopoly/oligopoly
 
 Many markets will, if left to their own devices, tend towards a structure where one or a few firms exert undue market power over product pricing. Consumers need protection against monopolistic/oligopolistic exploitation.
 
@@ -231,9 +246,9 @@ There are many forces encouraging movement towards monopoly in financial service
 
 Where natural monopoly makes sense there is even more need to regulate to avoid abuse by over-charging. Where the benefit of lowering the cost of production by reducing the industry structure to a single firm or a handful of suppliers is roughly balanced by the social loss from ceding pricing power to the producers, there is a case for regulators to insist on a certain minimum number of players or maximum market shares for any one provider.
 
-# The dangers to watch out for in a regulatory system
+## The dangers to watch out for in a regulatory system
 
-# Moral hazard
+## Moral hazard
 
 The mere presence of regulation can cause moral hazard, which is:
 
@@ -241,25 +256,25 @@ The presence of a safety net encourages adverse behaviour (e.g. carelessness).
 
 Thus regulation can be counterproductive, in that, if consumers believe that they will be bailed out by the government if thing go wrong they will be tempted to take higher risk. Why not place your money in a deposit account offering an unrealistically high interest rate? The bank may go bust but your deposit is safe. Why not pay into a savings scheme offered by an insurance company offering a guarantee of doubling your money over four years? If the company fails you can insist on the government/regulatory fund making good on the promise. In this way irresponsible, badly managed and crooked banks and other financial institutions survive, drawing society's scarce resources away from more productive investment.
 
-# Agency capture
+## Agency capture
 
 Agency capture occurs when those that are supposed to be regulated take some control of the regulatory process. Then the regulation is modified to suit the interests of the producers rather than the consumers. For example, under Basel II (see Chapter 7) the large banks managed to persuade the regulators that it would be sensible for capital requirements to be set in the mould of the banks' own internal risk models. Many people say that the banks were too influential in lowering capital limits, manipulating the rules on risk-weighting assets and in using their own models. This helped to precipitate the 2008 crisis as banks were found to have taken too much risk.
 
 The regulated firms usually have far more financial interest in the activities of regulators than consumers; and so they apply themselves to persuading their overseers to relax their constraints. In many cases the people working in the regulatory organisation are paid significantly less than the financial service high flyers, and they can sometimes be intimidated or outsmarted. Furthermore, many of the more senior regulators have come from the industry they are now regulating and therefore share many of their attitudes and values. Also, they may expect to return to work in the industry following their stint as policemen; they may thus avoid offending potential future employers.
 
-# Excessive compliance cost
+## Excessive compliance cost
 
 The cost to regulated firms of adhering to the rules will usually result in raised fees, lower return or some other penalty for consumers because the institution is likely to pass the additional burden through to clients.
 
-# Stifling innovation and growth
+## Stifling innovation and growth
 
 The requirements to be licensed and the additional costs of subsequent compliance can impose such a bureaucratic load that few or no firms dare to enter the industry. Thus, inefficient monopolies are sustained and oligopolies with implicit cartel-type arrangements persist in over-charging consumers because they are not challenged by new entrants.
 
 The poor level of innovation and competition in Indian's banking system is of great concern to the government that has for so long promoted state-owned banks as the way forward - see Exhibit 15.5. But India has to be careful about allowing industrial conglomerates to take control of banks and then use the money within for their own purposes.
 
-# Exhibit 15.5
+### Exhibit 15.5
 
-# RBI set to decide on shape of banking
+### RBI set to decide on shape of banking
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/98426201a25345be41e84272a1594de8f59e3c433ad94352769d0c1b327d4073.jpg)
 
@@ -299,9 +314,9 @@ Source: Financial Times, 6 January 2011, p. 22. Reprinted with permission.
 
 The regulatory obstacles to establishing a financial service firm are thought to be damaging the UK's international standing as well as reducing competition – see Exhibit 15.6.
 
-# Exhibit 15.6
+### Exhibit 15.6
 
-# FSA's delays for new businesses spark City fears
+### FSA's delays for new businesses spark City fears
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/27b73208a0e45fbe574352a81bffc054373b64b034762e0ced97bf91b0688763.jpg)
 
@@ -339,11 +354,11 @@ The added regulator burden, they say, is one of a growing number of factors lead
 
 Source: Financial Times, 11 October 2010, p. 3. Reprinted with permission.
 
-# Types of regulation
+## Types of regulation
 
 A key question, once you have accepted the need for regulation, is: who should carry out the task? We have three possibilities: the industry itself, government or a government agency.
 
-# By the industry itself
+## By the industry itself
 
 Self-regulation has a number of advantages. The people within the industry have a clear need to preserve its high reputation. If the public image of a sector of financial services is badly damaged then confidence can evaporate along with the desire to place money in the hands of those in that industry. Not only does it become embarrassing to admit that you are member of that tainted service sector at dinner parties (just ask investment bankers!) but jobs might be lost in their thousands.
 
@@ -355,11 +370,11 @@ The arguments against self-regulation include the suspicion that the institution
 
 Self-regulatory organisations are usually dependent on funding from the industry itself to function, which could encourage it to be more favourably disposed towards the producer rather than the consumer.
 
-# By the government
+## By the government
 
 There are many cases where self-regulation is clearly not sufficient to maintain the integrity of the financial system and so governments are compelled to intervene by providing a regulatory structure. However, there is a danger here. Governments realise that they will be criticised if there is a financial scandal but will not receive much praise if a series of scandals is avoided. They can therefore have a tendency to err on the side of heavy regulation to reduce even small risks of failure. This will raise the cost to producers and consumers unreasonably. Also governments tend to be less agile than industry self-regulators in responding to new developments and tricks of the morally challenged.
 
-# By a government agency
+## By a government agency
 
 This is designed to capture the best elements of the other two options. An organisation is established by the government, but the government does not control its day-to-day activities, nor intervene in its decisions. Instead of government bureaucrats the agency is run by a group of experts with longstanding industry experience. The government establishes the guiding principles and goals but then stands back to avoid being tempted to meddle because of some political motivation. The government may, however, provide legislative back-up to ensure that the agency has strong powers, e.g. the right to prosecute insider dealers in a criminal court or the right to fine firms caught disobeying the rules.
 
@@ -369,7 +384,7 @@ Even though former practitioners are in charge, they have a statutory framework 
 
 On the downside, the agency route can be a lot more expensive than self-regulation by the industry.
 
-# International competitiveness
+## International competitiveness
 
 Prior to the 2008 financial crisis there was much comment among those informed about financial matters concerning the problem of competitive laxity in regulation. That is, financial centres that try to impose strict rules find that financial institutions respond not by tightening their systems and raising probity, but by moving operations to a different jurisdiction, where the rules are looser. This sort of regulatory arbitrage is still very much on the minds of regulators and politicians today as they try to make the systems in their countries more robust. As soon as they announce that they will impose an extra rule to make things fairer and safer the cry goes up from the banks and others that they will lose out to overseas competitors who do not have to obey that rule. Furthermore, given that they will be at a competitive disadvantage, they, too, might have to move abroad. The danger is that the regulators and politicians around the globe each back down in turn in the face of this pressure.
 
@@ -377,9 +392,9 @@ One solution is to stand up to the banks, etc. and say, 'If you want to do very 
 
 Exhibit 15.7 describes the shift to de-emphasise the UK regulator's role as a champion of the City, and a greater emphasis on prudential regulation. Exhibit 15.8 is a letter published in the  $FT$  from experienced practitioners who are fully aware of the importance of fair dealing and ethical behaviour to sustain a financial centre. Exhibit 15.9 sums up the core elements of regulation. See also Exhibits 15.10 - 15.12.
 
-# Exhibit 15.7
+### Exhibit 15.7
 
-# Regulator to soften focus on keeping City's edge
+### Regulator to soften focus on keeping City's edge
 
 FT
 
@@ -407,9 +422,9 @@ George Osborne, shadow chancellor, speaking at the ABI earlier in the day, had c
 
 Source: Financial Times, 10 June 2009, p. 2. Reprinted with permission.
 
-# Exhibit 15.8
+### Exhibit 15.8
 
-# Bringing back the City's rock-solid reputation
+### Bringing back the City's rock-solid reputation
 
 From Sir John Craven, Mr Rupert Hambro and others
 
@@ -447,7 +462,7 @@ Source: Financial Times, 3 November
 
 2009, p. 12. Reprinted with permission.
 
-# Regulation of UK financial services
+## Regulation of UK financial services
 
 Now that we have covered the basic principles lying behind regulation we will look at the example of the UK to illustrate the range of responsibilities typically given to regulators.
 
@@ -457,9 +472,9 @@ In 2013 the FSA will split in two. The main body, the Financial Conduct Authorit
 
 The Bank of England previously had the responsibility together with the FSA and the Treasury of ensuring the systemic safety of the banking system; that is, setting rules on capital and liquidity reserves for banks across the sector as a whole and imposing other rules to reduce contagion risk. Following the 2008 financial crisis it was thought wise to concentrate this macro-prudential regulation in the hands of one regulator together with the micro-prudential regulation of individual banks (and other finance businesses), rather than have the 'triplite' approach where people in the Bank of England, Treasury and the FSA are not quite clear which of them should be taking charge when a systemic threat arises – as was the case up to 2008. The additional consideration is that these systemically important institutions might need access to central bank funding in an emergency and so it is best if they are regulated by the Bank.
 
-# Exhibit 15.9 The core elements of regulation
+### Exhibit 15.9 The core elements of regulation
 
-# Licensing
+## Licensing
 
 Is a person fit and proper to manage a provider?
 
@@ -467,13 +482,13 @@ Only those who have met the standards required (integrity, honesty, capability) 
 
 Training schemes and qualifications are encouraged by regulators to raise standards
 
-# Disclosure and monitoring
+## Disclosure and monitoring
 
 Disclosure of information about the operations of the financial firm and on-going monitoring may reveal whether a conflict of interest exists, whether risk management procedures are sound, whether the managers are competent and the institution is run with integrity.
 
 This may involve off-site analysis of information provided and on-site inspections by the regulator
 
-# Prudential limits
+## Prudential limits
 
 Examples:
 
@@ -483,7 +498,7 @@ Pension funds to have sufficient funds to meet commitments.
 
 Whether securities firms are in a sound financial condition
 
-# Fair trading on exchanges
+## Fair trading on exchanges
 
 A fair treatment of traders, particularly retail investors.
 
@@ -497,13 +512,13 @@ Prices of trades to be published.
 
 Issuers of securities to provide prospectus and financial statements (see Chapter 9)
 
-# Exposure limits e.g. no single borrower to account for more than  $10 \%$  of a bank's loans
+## Exposure limits e.g. no single borrower to account for more than  $10 \%$  of a bank's loans
 
-# Penalties
+## Penalties
 
 In the event of non-compliance penalties may be imposed: e.g. fines, de-licensing, imprisonment, banning directors from the industry. For less serious offences a private warning or public censure may be sufficient
 
-# Mandatory information provisions and consumer education
+## Mandatory information provisions and consumer education
 
 Customers should obtain the right information at the right time to help them make a decision.
 
@@ -511,7 +526,7 @@ Financial products/services to be clearly explained including risks, potential r
 
 Regulators often accept a responsibility to educate and foster financial literacy. This is to reduce the need for more heavy handed regulation
 
-# Restricting activities
+## Restricting activities
 
 Prohibiting certain firms from a line of business or prohibiting a particular combination of financial services within the same organisation or a ban on anyone from engaging in the activity, e.g. no mortgage lending without proof of borrower's income.
 
@@ -521,7 +536,7 @@ Chinese Walls between them. Or insisting on separately capitalised group compani
 
 Anti-monopoly provisions restrict activity/prices
 
-# Duty of care
+## Duty of care
 
 Prescribing appropriate financial institution behaviour to avoid harm to customers.
 
@@ -533,13 +548,13 @@ Eliminating unfair terms in contracts.
 
 A firm must protect client assets while it holds them on behalf of the client - e.g. ringfencing them - see Exhibit 15.12
 
-# Complaints handling and compensation
+## Complaints handling and compensation
 
 Put systems in place to assist consumers pursuing a complaint against a firm and to secure recompense.
 
 Provide compensation if a firm is bust, e.g. bank deposit insurance
 
-# China starts crackdown on insider trading
+### China starts crackdown on insider trading
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/23975d2bc1869bd92b904c89726db4d203f5ea13c20f781b53c1b90a3f493a5b.jpg)
 
@@ -575,9 +590,9 @@ Liu Jipeng, an economics professor at the China University of Political Science 
 
 Source: Financial Times, 25 November 2010, p. 34. Reprinted with permission.
 
-# Exhibit 15.11
+### Exhibit 15.11
 
-# FSA sinks talons into Eagle with £2.8m fine
+### FSA sinks talons into Eagle with £2.8m fine
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/01b66091e9aafec2ab17d9e339069905e664527db0deb370db392d0662d9b9b3.jpg)
 
@@ -609,9 +624,9 @@ He said: "Market manipulation cases are much harder to prosecute than insider de
 
 Source: Financial Times, 21 May 2010, p. 16. Reprinted with permission.
 
-# Exhibit 15.12
+### Exhibit 15.12
 
-# FSA fines two City brokers for not ringfencing clients' money
+### FSA fines two City brokers for not ringfencing clients' money
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/a11da77c410f6ed493590bd517af68d4e97a799585fcbd4a9133a225096e930f.jpg)
 
@@ -677,7 +692,7 @@ While pursuing these objectives the regulator makes it clear that it is not remo
 
 The FSA/FCA also has powers over unregulated firms and persons regarding breaches of money laundering regulations and short selling. In addition, it has the power to prosecute unauthorised firms or persons carrying on regulated activities. Its market abuse powers are very strong - see Exhibit 15.14 for an example.
 
-# Broker fined for 'market abuse' in FSA commodities crackdown
+### Broker fined for 'market abuse' in FSA commodities crackdown
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/e662a3574e3f9299ae43c6d0c9617bc75645359d14298535c20ce168f0ebe1c5.jpg)
 
@@ -697,9 +712,9 @@ Source: Financial Times, 3 June 2010, p. 17. Reprinted with permission.
 
 The FSA/FCA has a budget of over £450 million per year and employs more than 3,000 well-paid staff. The amount each of the 29,000 regulated firms pays depends on its size and the type of business it undertakes. The minimum fee of £844 in 2011 was paid by 43 per cent of those businesses. The FSA/FCA also receives money from financial penalties imposed on errant firms (raising about 10–20 per cent of its budget). Exhibit 15.15 describes the anger felt by many in the financial service sector about the high level of charges. Solvency II is a strengthening in the capital reserves and risk management standards for all EU medium and large-sized life insurance companies. It is designed to reduce the chance of consumer loss or market disruption in insurance due to the firm experiencing a large decline in asset values (e.g. the share market declining by 40 per cent or more, or a large rise in bond defaults), say because of another financial shock like that in 2008.
 
-# Exhibit 15.15
+### Exhibit 15.15
 
-# Insurance industry says watchdog's fees 'unjustified'
+### Insurance industry says watchdog's fees 'unjustified'
 
 FT
 
@@ -725,11 +740,11 @@ Source: Financial Times, 12 April 2010, p. 4. Reprinted with permission.
 
 The introduction of a single super-regulator for a country was unusual when in 2001 the FSA was given powers over several areas of financial services (it was set up in 1997 with a more limited remit). However, the advantages of a unified approach are well recognised today and many countries (e.g. Japan, Germany and Sweden) have a super-regulator for their financial sectors. Increasingly, financial institutions provide a wide range of services and so a unified approach to regulation is needed. This allows greater insight into the firm's practices and avoidance of the problem of financial activities falling between the cracks of separate regulator's responsibilities. Also, there are economies of scale in investigation and monitoring (having six different regulators visiting a firm and asking similar questions is clearly inefficient for the regulated and the regulator).
 
-# Authorisation
+## Authorisation
 
 All firms or individuals offering financial advice, products or services in the UK must be authorised by the FSA/FCA. Engaging in a regulated activity without authorisation can result in a two-year prison sentence. The FSA insists on high standards when assessing for authorisation. These require competence, financial soundness and fair treatment of customers. Firms are authorised to carry out specific activities, e.g. giving financial advice only, or managing a client's money in a fund, or stockbrokering.
 
-# Monitoring
+## Monitoring
 
 Even after initial approval, firms cannot relax as the FSA/FCA continues to monitor adequacy of management, financial resources and internal systems and controls. It also insists that any information provided to investors is clear, fair and not misleading. If firms fail to meet these standards they can be fined or even stopped from doing business. The FSA/FCA also works closely with the criminal authorities and uses civil and criminal powers. The following are some of the rules it enforces:
 
@@ -748,9 +763,9 @@ The FSA/FCA emphasises broad principles rather than its rules. The problem with 
 
 Following the financial crisis the FSA became much less 'light-touch' and much more intrusive - see Exhibit 15.16. There is a danger that London will lose the goodwill and openness that exists between the regulated and the regulator, and end up with a more antagonistic US-type of relationship where lawyers are to the fore.
 
-# Exhibit 15.16
+### Exhibit 15.16
 
-# FSA's new approach ruffles feathers
+### FSA's new approach ruffles feathers
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/eadd840023a69d64c6e7cf68d1b67b9ae75165cda2a1c2e9aee2043a2b3ee014.jpg)
 
@@ -806,7 +821,7 @@ Some observers wonder if the FSA is setting itself too hard a task.
 
 Source: Financial Times, 20 July 2009, p. 21. Reprinted with permission.
 
-# Consumer complaints
+## Consumer complaints
 
 There are three steps a person with a grievance can take.
 
@@ -827,7 +842,7 @@ If the FOS finds in the complainant's favour it can order a firm to pay compensa
 
 3 Go to court Litigation is often expensive, time-consuming and frustrating, and so should only be contemplated as a last resort. A relatively fast and informal service is provided by the small claims track or the small claims court (maximum claim in England £5,000, Northern Ireland £2,000 and Scotland £3,000). The complainant does not need a solicitor, and court fees are low. The complainant may not even have to attend the court as judges can make judgements on the paper evidence.
 
-# Compensation
+## Compensation
 
 The complaint steps described in the last section are all well and good if the firm that has behaved badly is still in existence. But what if it is defunct? The Financial Services Compensation Scheme (FSCS) can compensate consumers (and small companies) if an authorised company is unable to pay money it owes. Note that if a consumer does business with a firm not authorised by the FSA/FCA, e.g. an offshore company, they are not covered by FSCS or the complaints procedure.
 
@@ -835,9 +850,9 @@ The FSCS service is free for the consumer and small business. It covers investme
 
 In order to compensate victims of mis-selling or other malpractice the FSCS raises money from the financial service firms via a regular annual levy supplemented by additional levies in years of high compensation payouts, and this can be very costly for them – see Exhibit 15.17. Examples of some of the charges for the Keydata compensation: Brewin Dolphin paid £6m, IG Group paid £4 million and Charles Stanley £2.6 million. No wonder they were upset! – but, at least the compensation helps maintain the image of fairness to customers.
 
-# Exhibit 15.17
+### Exhibit 15.17
 
-# Fund managers to foot Keydata bill
+### Fund managers to foot Keydata bill
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/a66270212873448a268adf663be1d3bd6949f2d234cdd82849dda2f3d326aff0.jpg)
 
@@ -865,7 +880,7 @@ The Investment Management Association, the trade body for fund managers, said th
 
 Source: Financial Times, 23 January 2011, p. 34. Reprinted with permission.
 
-# Regulation of markets
+## Regulation of markets
 
 Financial markets need high-quality regulation in order to induce investors to place their trust in them. There must be safeguards against unscrupulous and incompetent operators. There must be an orderly operation of the markets, fair dealing and integrity. However, the regulations should not be so restrictive as to stifle innovation and prevent the markets from being competitive internationally. London's financial markets have a unique blend of law, self-regulation and custom to regulate and supervise their members' activities.
 
@@ -873,7 +888,7 @@ The FSA/FCA supervises exchanges, clearing houses and settlement houses. It also
 
 The LSE, in partnership with the FSA/FCA, also requires companies to disseminate all information that could significantly affect their share prices. It insists on timely and accurate director statements to the stock market so that there is not a false market in the company's shares – see Exhibit 15.19.
 
-# Insider dealers face sentence in long-running FSA case
+### Insider dealers face sentence in long-running FSA case
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/fffdf351d97f1b860f31dbd14401bfd1fc81d5abb62f9a913ca8cc9a67211ba9.jpg)
 
@@ -907,9 +922,9 @@ But Nicholas Dean QC, prosecuting, told the court that before Mr Littlewood met 
 
 Source: Financial Times, 2 February 2011, p. 3. Reprinted with permission.
 
-# Exhibit 15.19
+### Exhibit 15.19
 
-# FSA to probe profit warnings
+### FSA to probe profit warnings
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/226fbf53ea1954420f2e79e9114e20dec5cf9651d54397a055d5ccf78171c959.jpg)
 
@@ -933,7 +948,7 @@ The FSA's inquiries have led to an increase in cases referred to its enforcement
 
 Source: Financial Times, 5 January 2009, p. 1. Reprinted with permission.
 
-# Regulation of companies
+## Regulation of companies
 
 If you invest in a company by buying its shares or bonds, you have a right to receive information about that company, and to expect that there are laws and other pressures to discourage the management from going astray and acting against your interests.
 
@@ -941,9 +956,9 @@ There are various checks and balances in the corporate world, the most important
 
 The Office of Fair Trading and the Competition Commission investigate, rule on and enforce remedies with regard to anti-competitive behaviour - see Exhibit 15.20 for an example of their impact on financial services.
 
-# Exhibit 15.20
+### Exhibit 15.20
 
-# RBS fine sets cost on 'cosy and rotten practices'
+### RBS fine sets cost on 'cosy and rotten practices'
 
 FT
 
@@ -969,9 +984,9 @@ Source: Financial Times, 31 March 2010, p. 3. Reprinted with permission.
 
 A free press has a very important role in ferreting out and reporting foul play, poor service, incompetence and chicanery. The pensions regulator (discussed in Chapter 4) also has quite an impact on financial services – see Exhibit 15.21 for an example.
 
-# Exhibit 15.21
+### Exhibit 15.21
 
-# Regulator sets sights on pension fund risks
+### Regulator sets sights on pension fund risks
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/c3025a6226b46a1548b10fa4b8bd4336d607b594cec4996773a55ad5d5388ee6.jpg)
 
@@ -995,7 +1010,7 @@ Mr Norgrove said that despite cash injections from employers, defined benefit sc
 
 Source: Financial Times, 7 December 2010, p. 1. Reprinted with permission.
 
-# Fraud and money laundering
+## Fraud and money laundering
 
 Fraud costs the UK economy an estimated £38 billion annually, equivalent to £765 for every adult member of the population. The FSA/FCA is one of several UK organisations that investigates and responds to suspicions of fraud. The City of London Police is, however, the 'National Lead
 
@@ -1019,7 +1034,7 @@ The Serious Fraud Office (SFO) investigates and prosecutes serious or complex fr
 
 If a suspected fraud is likely to give rise to widespread public concern, be complex and thus require specialist knowledge to investigate, or be international in scope, then the SFO is likely to be the organisation that tackles it. While much of its work is financial service related the majority is not, for example it investigated whether BAE Systems had been involved in corruption (bribes to Saudi officials) when selling arms to Saudi Arabia in the £43 billion Al Yamamah deal. Exhibit 15.22 describes a successful SFO prosecution for fraud.
 
-# Two found guilty in Torex fraud case
+### Two found guilty in Torex fraud case
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/5c51efb317bf47b056fc56ada0f1431f3b8736ca9146d3c038d442f486982d19.jpg)
 
@@ -1047,7 +1062,7 @@ Source: Financial Times, 20 January 2011, p. 20. Reprinted with permission.
 
 Money laundering is concealing the source of illegally obtained money. It is the process of changing money obtained from crimes, such as drug trafficking, into a form that appears to be legitimate. The process often involves multiple international transactions across currencies and financial institutions in order to obscure the source. To combat money laundering the UK regulators require that any bank, share broker or other financial firm being asked to open an account for a person or company has to verify the customer's identity. Even solicitors carrying out house conveyancing are required to see purchasers' forms of identity, such as passports, driving licence and utility bills (even if they have known the client for years and asked for the same documents only months before for an earlier transaction!). Financial firms are also required to look out for suspicious transactions and report them. The FSA/FCA penalises firms that lack adequate systems and controls to detect and report money laundering. There are some people within the finance industry who help money launderers, using their contacts and knowledge about jurisdictions abroad where policing is lax. Criminal investigators are tasked with tracking them down. Suspected money laundering is reported to the Serious Organised Crime Agency (SOCA), which is assisted by other investigating agencies such as the police. The City of London Police also have a major role here.
 
-# European Union regulation
+## European Union regulation
 
 As well as national financial service regulation we have another layer for the countries in the European Union. Only a brief overview can be provided here. We will concentrate on the basic principles that the EU legislators are applying and look at a few examples of the pan-European rules that have already been introduced.
 
@@ -1093,9 +1108,9 @@ In addition to agreeing to abide by directives, occasionally the EU states agree
 
 There is now a college of national supervisors – the European System of Financial Supervisors. Under this, three authorities, focused on different aspects of financial services, were created in 2011:
 
-# Exhibit 15.23
+### Exhibit 15.23
 
-# EU sets new pay practices in stone
+### EU sets new pay practices in stone
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/ae62e16cf8df00b5b4aba6343098a6eb4f0c646f4c9fe882f1a98e3087e149d1.jpg)
 
@@ -1137,9 +1152,9 @@ In addition to these three, a new EU body, the European Systemic Risk Board (ESR
 
 Many people, particularly in the City of London, think that too much control over financial services and markets is being granted to pan-European regulators, who may not fully understand the needs of a financial centre like the City and who may have political agendas (e.g. to grab business from London) – see Exhibit 15.24.
 
-# Exhibit 15.24
+### Exhibit 15.24
 
-# Traders fear threat of political agendas
+### Traders fear threat of political agendas
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/7d26ae29e70668482ef33548b2bbfe28e421b34bff7d83b3a48f06bb06f3e6a8.jpg)
 
@@ -1177,7 +1192,7 @@ That means City institutions and their advisers will need to keep a close watch 
 
 Source: Financial Times, 5 January 2011, p. 6. Reprinted with permission.
 
-# Global regulation
+## Global regulation
 
 Following the financial crisis in 2008 there is much more enthusiasm within the policy-making classes for supra-national regulation, or, at least, coordination of regulatory rules. A good example of rules being set on a global scale (or at least for most of the world) is the Basel Committee's rules on bank capital reserves and liquidity rules - see Chapter 7.
 
@@ -1185,7 +1200,7 @@ To gain help from the International Monetary Fund, a country must open markets t
 
 There are a number of international organisations established by the relevant industry itself to promote higher standards of behaviour. For example, the International Swap and Derivatives Association (ISDA) is a global financial trade association for the world's major institutions that deal in privately negotiated derivatives.[14] Its purpose is to identify and reduce the sources of risk in the derivatives business. It sets standards for members, writes standardised contracts that members are encouraged to use, comments on netting and collateral arrangements, promotes sound risk management practices, and advances the understanding and treatment of derivatives and risk management.
 
-# Some gaps in the system?
+## Some gaps in the system?
 
 One major problem is overcoming the political obstacles to effective international regulation. There is always a temptation for the country that would like to build up its financial service sector to race to the bottom, because footloose financial institutions are attracted by 'lightness of regulation' and will move. Thus regulatory arbitrage will always be with us, with some aspects of finance moving to the least regulated jurisdiction. Hence the need for robust international agreements on minimum standards. The problem is that each country examines a proposal for a tighter rule in the light of an assessment of the impact on its competitiveness. The intention of the national policy makers too often seems to be 'to find a regulatory regime that crimps competitors more than one's own companies'. Hence the slowness in achieving worldwide (or G20) agreement on issues as diverse as bankers' bonuses (the new US rules are more flexible than the EU ones) or banning investment banks from proprietary trading (the US is strict, other countries less so, leaving loopholes).
 
@@ -1205,11 +1220,11 @@ Thus we face the problem that the regulators are busy constructing a strong Magi
 
 The Financial Stability Board has begun looking at shadow banking, and various governments and national regulators are starting to draw up lists of non-banks that might pose a systemic risk. But we are currently, 2011, only at the talking stage. The Federal Reserve Board has put together a chart showing the players in shadow banking – see www.ft.com/shadowbanks.
 
-# Concluding comments
+## Concluding comments
 
 It is a constant battle to maintain high levels of integrity and competence in the financial service sector. It is a battle that will never be completely won. Some people, even highly paid people (viz. investment bankers in 2007), will regularly come up with new ways of losing other people's money through stupidity, greed or chicanery. Despite this pessimistic conclusion we have to acknowledge that we have come a long way in making this vital economic sector reasonably safe for savers and businesses. The financial crisis showed that there are many issues that were not properly dealt with in the past. And so we are currently going through a period of toughening up the controls to avoid risks to consumers and the taxpayer. This is being done on an international scale with an unprecedented degree of cooperation and coordination between the national regulators, as they recognise the potential to miss malpractice in nationally focused systems. We certainly live in interesting times when it comes to regulation. Much will change over the next few years, and where the balance between light-touch and strict control will fall we cannot yet tell. But at least as you hear the debate on TV and read the newspapers over the next few years you will, having read this chapter, understand the core principles and issues around which it revolves.
 
-# Key points and concepts
+## Key points and concepts
 - Compliance costs: putting in place systems and training to ensure that financial service staff behave according to the regulations.
 - Asymmetric information occurs when one party in a negotiation or relationship is not in the same position as other parties, being ignorant of, or unable to observe, some information which is essential to the contracting and decision-making process. Managers and other employees of financial service companies have an information set that is often superior to that of the clients. This can lead to exploitation, for example, buyers of a financial product are unable to assess the true risk and return. Asymmetric information can lead to:
 - Reduced safety and soundness for the consumer or a financial market counterparty, e.g. insufficient surplus of assets over liabilities to be able to cover their obligations, concentration risk or bad management of client's stock broker accounts, pension funds and collective investment vehicles.

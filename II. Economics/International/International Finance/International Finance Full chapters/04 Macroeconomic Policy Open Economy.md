@@ -1,36 +1,29 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: CHAPTER 4
-linter-yaml-title-alias: CHAPTER 4
+title: "04 Macroeconomic Policy Open Economy"
+parent_directory: "International Finance Full chapters"
+formatted: "2025-12-21 05:10:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- open economy equilibrium model
-- policy floating exchange rates
-- international capital markets
-- macroeconomic policy internal
-- raise rates hong
+  - macroeconomic policy open economy
+  - mundell fleming model
+  - internal external balance
+  - fixed floating exchange rates
+  - balance payments equilibrium
 secondary_tags:
-- external balance monetary policy
-- adjustment monetary scal policy
-- policies impact open economy
-- exchange rates influence
-- monetary policy perfect capital
-- exchange rates contrast scal
-- monetary policy achieve internal
-- open economy derivation bp
-- open economy fundamental di
-- capital inflow policy
-- policies hand policies devaluation
-- sa sy 80 macroeconomic
-tags_extracted: '2025-12-18T01:30:58.911514'
+  - is lm bp analysis
+  - fiscal monetary policy effectiveness
+  - capital mobility impact
+  - swan diagram
+  - expenditure changing policies
+  - expenditure switching policies
+  - perfect capital mobility
+  - effective market classification
+  - international finance
+cssclasses: academia
 ---
 
-# CHAPTER 4
-
-## MACROECONOMIC POLICY IN AN OPEN ECONOMY
+# 04 Macroeconomic Policy Open Economy
 
 CHAPTER OUTLINE
 
@@ -54,7 +47,7 @@ Internal and external balance under floating exchange rates
 4.14 Limitations of the Mundell–Fleming model
 4.15 Conclusions
 
-4.1 INTRODUCTION
+## 4.1 Introduction
 
 In Chapter 3 we looked at some of the fundamental identities for an open economy and considered the
 
@@ -92,7 +85,7 @@ extremes. Te choice between these two regimes is the focus of analysis in Chapte
 
 concentrate upon how !scal and monetary policy operate under both regimes.
 
-4.2 THE PROBLEM OF INTERNAL AND EXTERNAL BALANCE
+## 4.2 The Problem of Internal and External Balance
 
 To appreciate the development of the post-war literature on open economies, readers need to bear in mind
 
@@ -248,7 +241,7 @@ there is no role for international capital movements that were an increasingly i
 
 Mundell–Fleming model to which we now turn attempts to integrate such features into a formal openeconomy macroeconomic model.
 
-4.3 THE MUNDELL–FLEMING MODEL
+## 4.3 The Mundell–Fleming Model
 
 Tis model owes its origins to papers published by James Fleming (1962) and Robert Mundell (1962 and 1963).
 
@@ -264,7 +257,7 @@ by using what is known as IS-LM-BP analysis (investment–savings, liquidity pre
 
 - f payments). Firstly, we derive the IS, LM and BP schedules that provide the framework for the analysis.
 
-4.4 DERIVATION OF THE IS SCHEDULE FOR AN OPEN ECONOMY
+## 4.4 Derivation of the IS Schedule for an Open Economy
 
 Te IS curve for an open economy shows various combinations of the level of output ( _Y_ ) and the rate of interest
 
@@ -392,7 +385,7 @@ Tis is because higher levels of income generate higher levels of leakages requir
 
 generate increased investment and maintain equality of injections and leakages.
 
-4.5 DERIVATION OF THE LM SCHEDULE FOR AN OPEN ECONOMY
+## 4.5 Derivation of the LM Schedule for an Open Economy
 
 Te LM schedule shows various combinations of the level of income and rate of interest for which the money
 
@@ -498,7 +491,7 @@ with money-market equilibrium. Other such derivations can be done, and by joinin
 levels require relatively large transaction balances which for a given money supply can only be drawn out of
 speculative balances by a relatively high interest rate.
 
-4.6 DERIVATION OF THE BP SCHEDULE FOR AN OPEN ECONOMY
+## 4.6 Derivation of the BP Schedule for an Open Economy
 
 Te balance of payments schedule shows di$erent combinations of rates of interest and income that are
 
@@ -660,7 +653,7 @@ that ensures current account balance. Between these two extremes, that is, when 
 
 BP schedule, we say that capital is imperfectly mobile.
 
-4.7 EQUILIBRIUM OF THE MODEL
+## 4.7 Equilibrium of the Model
 
 Figure 4.5 depicts all three schedules intersecting through a common point. Te BP schedule is steeper than
 
@@ -722,7 +715,7 @@ IS and LM schedules intersect to the right of the BP schedule, which means that 
 
 and/or the interest rate _r_ 2 is too low, inducing an overall balance of payments de!cit.
 
-4.8 FACTORS SHIFTING THE IS–LM–BP SCHEDULES
+## 4.8 Factors Shifting the IS–LM–BP Schedules
 
 In the analysis of the rest of this chapter we need to consider how changes in the exchange rate and monetary
 
@@ -788,7 +781,7 @@ Bearing in mind these shi, factors we will proceed to look at how this toolkit c
 
 some key issues in the realm of open-economy macroeconomic policy.
 
-4.9 INTERNAL AND EXTERNAL BALANCE
+## 4.9 Internal and External Balance
 
 Te Swan diagram shows that authorities generally need as many instruments as they have targets and reveals
 
@@ -910,7 +903,7 @@ _r_ 2
 
 **Figure 4.7** A monetary expansion under !xed exchange rates
 
-4.10 INTERNAL AND EXTERNAL BALANCE UNDER FIXED EXCHANGE RATES
+## 4.10 Internal and External Balance under Fixed Exchange Rates
 
 A situation of !xed exchange rates and unemployment is depicted in Figure 4.8. Te economy is assumed
 
@@ -974,7 +967,7 @@ both internal and external balance without the need to change the exchange rate;
 
 independent instruments, monetary and !scal policy, and two targets.
 
-4.11 INTERNAL AND EXTERNAL BALANCE UNDER FLOATING EXCHANGE RATES
+## 4.11 Internal and External Balance under Floating Exchange Rates
 
 According to our analysis of the Swan diagram, by combining an exchange rate change with an expenditurechanging policy it is possible to achieve both internal and external balance. An interesting issue that we can
 
@@ -1095,7 +1088,7 @@ Hence a !scal expansion can, according to the degree of international capital mo
 
 exchange rate depreciation or an exchange rate appreciation.
 
-4.12 A SMALL OPEN ECONOMY WITH PERFECT CAPITAL MOBILITY
+## 4.12 A Small Open Economy with Perfect Capital Mobility
 
 One prominent feature of the post-Second World War international monetary system has been the increasing
 
@@ -1281,7 +1274,7 @@ to international capital markets is essential to the longer-term process of econ
 and will have to raise or lower their interest rates if the Federal Reserve changes US short-term interest
 rates, regardless of the state of their economies, should they wish to maintain their !xed exchange rate.
 
-4.13 THE PRINCIPLE OF EFFECTIVE MARKET CLASSIFICATION
+## 4.13 The Principle of Effective Market Classification
 
 While Tinbergen's instruments–targets rule shows us that we generally need two instruments to achieve
 
@@ -1416,7 +1409,7 @@ governing the behaviour of an economy. Tis includes, amongst others, the degree 
 marginal propensities to save and import, the income and interest elasticity of demand for money, the price
 elasticity of demand for imports and exports, and the responsiveness of investment to interest rate variations.
 
-4.14 LIMITATIONS OF THE MUNDELL–FLEMING MODEL
+## 4.14 Limitations of the Mundell–Fleming Model
 
 Te IS–LM–BP model has been one of the major policy models underlying economic policy formulation
 
@@ -1503,7 +1496,7 @@ world, the political process means that the degree of flexibility to adjust econ
 
 International Finance
 
-4.15 CONCLUSIONS
+## 4.15 Conclusions
 
 In this chapter we have illustrated some important aspects concerning the conduct of economic policy in
 

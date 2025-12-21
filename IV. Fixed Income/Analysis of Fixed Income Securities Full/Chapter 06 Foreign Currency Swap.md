@@ -1,3 +1,22 @@
+---
+title: "Chapter 6: Foreign Currency Swap"
+parent_directory: "Analysis of Fixed Income Securities Full"
+formatted: "2025-12-21 05:35:00 AM"
+formatter_model: "claude-sonnet-4-5-20251001"
+cli_tool: "opencode"
+primary_tags:
+  - foreign currency swaps
+  - exchange rate theory
+  - interest rate parity
+  - purchasing power parity
+secondary_tags:
+  - fx forwards
+  - triangular arbitrage
+  - quanto risk premium
+  - fx options
+cssclasses: academia
+---
+
 # Chapter 6: Foreign Currency Swap
 
 ## 6.1 Introduction
@@ -57,7 +76,7 @@ If Brazil prints a lot of money, then the price of oranges (given same productiv
 
 The exchange rate between apples versus oranges is known as the "real" exchange rate and the one between dollar and real is "nominal" exchange rate. As seen, the nominal rate includes inflation. This is parallel to the argument between nominal versus real interest rates.
 
-So far, we assume that the productivity of the two nations is same. One can add different productivity levels to the analysis. Let B be more productive than A. Imagine B invents a machine that can double the production of oranges (to 400 oranges). So easily, B can use 200 oranges to trade for 100 apples with A. But A's productivity does not change; so for A to produce 200 apples A will have to work double shifts. So clearly, the qualify of life for B is twice as good as for A. In other words, B's purchasing power is twice as A's. While the nominal exchange rate is 1:2, the real exchange rate is 1:1.
+So far, we assume that the productivity of the two nations is same. One can add different productivity levels to the analysis. Let B be more productive than A. Imagine B invents a machine that can double the production of oranges (to 400 oranges). So easily, B can use 200 oranges to trade for 100 apples with A. But A's productivity does not change; so for A to produce 200 apples A will have to work double shifts. So clearly, the quality of life for B is twice as good as for A. In other words, B's purchasing power is twice as A's. While the nominal exchange rate is 1:2, the real exchange rate is 1:1.
 
 ### 6.2.2 Triangular Relationship
 

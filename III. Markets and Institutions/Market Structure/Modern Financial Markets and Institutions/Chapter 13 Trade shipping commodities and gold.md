@@ -19,7 +19,7 @@ secondary_tags:
 cssclasses: academia
 ---
 
-# Trade, shipping, commodities and gold
+# Chapter 13: Trade, shipping, commodities and gold
 
 ## LEARNING OUTCOMES
 
@@ -53,9 +53,7 @@ Exhibit 13.2 describes two extreme approaches to payments for exports. The follo
 
 #### 1 Documentary letters of credit
 
-These are issued by financial institutions, normally banks. In return for reassurance (evidence) that all the documents needed for the goods to be exported and imported, documents showing actual shipment of the goods ('bills of lading' - see below) and official licences, etc. are present and correct, the exporter receives full payment from the importer's bank. Obviously, the importer needs to make the arrangement with its bank beforehand and will later reimburse the bank the sum transferred to the exporter. Thus, once shipment has occurred exporters are able to receive
-
-Exhibit 13.1 Exports and imports of merchandise and services, 1980-2009 payment for their goods in their own country from a bank, $^{1}$  even before the goods arrive at their destination. It is an important stipulation that the exporter will receive payment from the importer's bank regardless of the ability of the buyer to pay, thus the importer's bank has substituted its credit standing for that of the importer.
+These are issued by financial institutions, normally banks. In return for reassurance (evidence) that all the documents needed for the goods to be exported and imported, documents showing actual shipment of the goods ('bills of lading' - see below) and official licences, etc. are present and correct, the exporter receives full payment from the importer's bank. Obviously, the importer needs to make the arrangement with its bank beforehand and will later reimburse the bank the sum transferred to the exporter. Thus, once shipment has occurred exporters are able to receive payment for their goods in their own country from a bank, $^{1}$  even before the goods arrive at their destination. It is an important stipulation that the exporter will receive payment from the importer's bank regardless of the ability of the buyer to pay, thus the importer's bank has substituted its credit standing for that of the importer.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2fde9b36-2cff-4924-bde9-385c6eb1f001/85eabb177802c5103584ed0d60f0d472ee1dd4b071e2f8be2c98d6674dba7364.jpg)
 
@@ -85,7 +83,7 @@ Open account trading leaves the exporter open to more risk because goods are shi
 
 Less risk
 
-# 2 Bills of exchange and banker's acceptances
+## 2 Bills of exchange and banker's acceptances
 
 Bills of exchange and banker's acceptances were explained in Chapter 5. They are legal documents detailing the amount owing with a promise to pay on the due date. Bills of exchange are drawn up by the exporter (more usually its bank) and then signed by the importer which commits it to paying a sum of money on the due date which may be immediate (a sight draft) or say 90 days later (a time draft).
 
@@ -95,15 +93,15 @@ To provide greater security for an exporter a similar document to pay a sum of m
 
 Documents are usually handled by both the exporter's and importer's banks on their behalf to provide both professionalism and reassurance to the other side. The risk to the importer of receiving goods from the exporter of lower quality than those stated in the documents remains. Trading using bills of exchange and banker's acceptances is more expensive than prepayment or open account trading, but less expensive than documentary letters of credit.
 
-# 3 Forfaiting
+## 3 Forfaiting
 
 If an exporter holds a series of promissory notes (indicating acceptance of an obligation to pay in the future) from the importer guaranteeing that it will pay amounts at say six-monthly intervals over the next four years then this series of rights can be sold to a forbaiting company at a discount. The forfaiter then assumes responsibility for collecting the debts as they fall due. Because the forfaiter pays for the notes straightaway the exporter now has finance for production. For additional safety the promissory notes are usually guaranteed by the importer's bank. The forfaiter may keep the notes until payment is due, or they may sell them on in the financial markets. The exporter receives guaranteed payment for their goods less the fee/discount charged by the forbaiting company. The importer obtains extended credit. Forfaiting deals are large transactions of a value in excess of  $250,000$  and are non-recourse, i.e. the exporter will not be called on by the forfaiter to make up the difference should an importer or its bank fail to pay. Forfaiters are usually part of large banks.
 
-# 4 Factoring
+## 4 Factoring
 
 Factoring was dealt with in Chapter 3. In return for a fee, factors agree to collect customer credit payments that are due to a company. The company receives immediately say 80 per cent of its outstanding trade debtor balance from the factor, with the remainder handed over when the factor receives full payment of the debt from the importer. Factors charge fees and interest on outstanding balances. Companies are able to take advantage of the advanced receipt of cash, and the risk of non-payment is negated because the factor usually takes on the risk of failure of the importer to pay. A disadvantage may be that the factor could adopt aggressive tactics to get paid by the importer which may damage relationships with a customer. Factors work with other factors in relevant countries who help with assessing the importer's creditworthiness and the handling of the collection of payments.
 
-# 5 Insurance and guarantees
+## 5 Insurance and guarantees
 
 While there can be no absolute guarantee that trading will proceed smoothly, there are checks and arrangements that trading companies can make to ensure that trading transactions are as well-organised and legally watertight as possible. An exporting company will perform checks on the creditworthiness of their customers, looking into their financial history for any evidence of problems and making sure that they are a bona fide trading company in their own country. Furthermore, international shipments are generally insured because of the vulnerability of the goods to damage or complete loss should say a ship sink or a container be lost overboard. Marine insurance, which will cover fire, collision, sinking, etc., is discussed later in the chapter and in Chapter 4.
 
@@ -113,9 +111,7 @@ Political risk can occur if the government of the importing country changes rule
 
 # Foreign exchange risk
 
-An important consideration for any company operating across borders is the risk that currency exchange rates might move adversely. The risk that shifts in exchange rates could turn a profitable transaction into a loss can be dealt with by hedging in the financial markets. Thus, a UK company expecting to receive 20 million Mexican pesos in 3 months' time can alleviate the uncertainty of what that will be worth in pounds by arranging a financial transaction which will hedge against FX fluctuations. Various types of FX hedging are explained in Chapter 12.
-
-# Shipping
+## Shipping
 
 A broad definition of shipping includes all types of transport overseas, whether by air, sea, railway or road. However, we will concentrate here on ocean-going ships. Air transport, although potentially much quicker, is expensive, and limited in the weight or category it can carry – it is simply not economic to move oil or iron ore by air, for example. Rail and road transport works better over short distance routes connected by land, but much of modern trade is over thousands of miles and so sea transport is usually cheaper. Ships can be adapted to carry any commodity. Exhibit 13.3 shows the types of various sea-going vessels and the weight they carry. Advances in technology, particularly in the field of refrigeration, have led to the increase in the amount of container ships in use, from a mere 10,290 tonnes in 1980 to nearly 17 times that amount 30 years later in 2010.
 
@@ -293,7 +289,7 @@ Source: www.lr.org
 
 Things have changed from the time when each seafaring country had its own merchant navy. Shipping has developed into an international industry, with many ships registered under flags of convenience, i.e. registered in countries where restrictions are lax regarding the nationality of the owners and crews. So a Korean-built Panamanian-registered ship owned by a Norwegian shipping company and crewed by Filipinos could be financed through the London office of an American bank. Many financing deals are carried out in London regardless of where the ship or its owners are based. Because of its concentration of expertise in terms of legal, arbitration, insurance, ship broking, financing and shipping derivatives London remains the major shipping centre of the world. English law has become the favoured choice for shipping contracts.
 
-# Commodities
+## Commodities
 
 Commodities are physical goods which can be stored (i.e they are not immediately perishable), can be accurately measured and are generally fungible (they are interchangeable), thus one tonne of sugar is very much like another tonne of sugar (of the same grade). They can be soft (affected by the climate) or hard such as copper or silver.
 
@@ -749,7 +745,7 @@ Carbon is traded in a 'cap-and-trade' system. With cap-and-trade, companies are 
 
 Carbon is traded in metric tonnes of  $\mathrm{CO}_{2}$  (carbon dioxide). More than 90 per cent of trade takes place in London. Standardised contracts are traded on exchanges, with OTC trading also prevalent. Trading in 2009 was over 120 billion, and most experts expect the figure to increase substantially in the future.
 
-# Gold
+## Gold
 
 Gold is used in a host of manufacturing processes. It is the only yellow metal and the only one that never rusts or tarnishes; it is indestructible and non-reactive. It can be alloyed with other metals to give it different properties. It has high conductivity, making it an essential component of many electrical and electronic devices. Its non-reactive behaviour makes it useful in various medical procedures.
 
@@ -975,32 +971,4 @@ Cargill (A) (2007) Authors: Ray A. Goldberg and José Miguel Porraz. Harvard Bus
 
 20 How is gold traded in London?
 
-# Questions and problems
 
-1 What are the different methods by which trading companies can pay for imported goods, and what are the advantages and disadvantages of each method? Include a description of the role of financial institutions in reducing risk for importers and exporters.
-
-2 Who are the members of the Baltic Exchange? Describe and explain the advantages to society of the activities of the Baltic Exchange.
-
-3 Describe the Lloyd's Register and explain its significance and importance.
-
-4 Describe and explain the role of commodity exchanges in promoting economic growth.
-
-5 Describe the market for gold in London.
-
-# Assignments
-
-1 Consider a company you know well that engages in trade internationally. Describe the ways in which it uses financial tools to reduce the risk associated with making or receiving payments such as documentary letters of credit, bills of exchange, forbaiting or factoring. Also consider insurance for overseas trading.
-
-2 For a company you know well that charters ships to transport its goods, investigate and then write a report on the stages in the process of reaching a deal with shipowners.
-
-3 If your company purchases (or sells) commodities that are traded on international markets, investigate and describe in a report the processes it goes through to obtain (sell) them. Also evaluate alternative sources of supply and the role that regulated exchanges might have in reducing the risk associated with your firm's procurement of commodities.
-
-# Web-based exercises
-
-1 Go to the Baltic Exchange website and write a report on the trends in its freight indices over the past 10 years. Describe the components of the indices and comment on their value for those needing to hedge future freight rates.
-
-2 From the CME Group website, write a report on soybean contracts, and make a chart of recent prices. Comment on the volatility of the prices. Illustrate how this market might be used by a farmer and a food manufacturer to hedge future prices.
-
-3 Using the internet, write a report on the purpose of carbon trading and how the market operates.
-
-4 Download the gold fixing prices for the past 30 years. Write a report on any pattern you observe between the price of gold and economic upheavals.

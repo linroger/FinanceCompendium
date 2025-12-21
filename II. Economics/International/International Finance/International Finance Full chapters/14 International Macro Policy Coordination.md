@@ -1,84 +1,78 @@
 ---
-aliases:
-- International Macro Policy Coordination
-tags: null
-key_concepts: null
+title: "Chapter 14: International Macro Policy Coordination"
 parent_directory: International Finance Full chapters
-cssclasses: academia
-title: 'Chapter 14: International Macro Policy Coordination'
-linter-yaml-title-alias: 'Chapter 14: International Macro Policy Coordination'
+formatted: 2025-12-21 05:16:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
 primary_tags:
-- monetary policy coordination negligible
-- international macroeconomic policy coordination
-- interdependence economies reason
-- international coordination country equilibrium
-- chapter 14 international macroeconomic
+   - international macroeconomic policy coordination
+   - monetary policy coordination
+   - fiscal policy coordination
+   - exchange rate coordination
+   - policy interdependence
 secondary_tags:
-- benefits international policy coordination
-- international policy coordination dependent
-- case international macroeconomic
-- model employed coordinating countries
-- agreement successful international macroeconomic
-- coordination membership bretton
-- gains international monetary policy
-- monetary union imf oecd
-- exchange rate means coordination
-- potential gains monetary cooperation
-- economy macroeconomic noem models
-- global coordination european monetary
-tags_extracted: '2025-12-18T01:34:02.442154'
+   - game theory coordination
+   - hamada diagram
+   - nash equilibrium
+   - stackelberg equilibrium
+   - bretton woods system
+   - imf coordination
+   - oecd coordination
+   - gains from coordination
+   - obstacles to coordination
+   - spillover effects
+cssclasses: academia
 ---
 
-# CHAPTER 14
+# Chapter 14: International Macro Policy Coordination
 
-## INTERNATIONAL MACROECONOMIC POLICY COORDINATION
+## International Macroeconomic Policy Coordination
 
-CHAPTER OUTLINE
+## Chapter Outline
 
 14.1 Introduction
 
 14.2 What is meant by international policy coordination?
 14.3 Why does the need for international policy coordination arise?
 
-14.4
-!e benefits from international policy coordination
+14.4 The benefits from international policy coordination
 14.5 A game theory demonstration of the gains from coordination
 
-14.6
-Other potential benefits from coordination
-14.7
-!e potential for coordination to make countries worse off
-14.8
-Estimates of the benefits and losses from international policy coordination
+14.6 Other potential benefits from coordination
+14.7 The potential for coordination to make countries worse off
+14.8 Estimates of the benefits and losses from international policy coordination
 14.9 Problems and obstacles to international policy coordination
 14.10 Conclusions
 
-14.1 INTRODUCTION
+## 14.1 Introduction
 
 For the majority of this text, we have confined our analysis to the study of a small open economy. By definition
 
-the policy measures taken by such an economy have no significant impact upon its trading partners. !e small
+the policy measures taken by such an economy have no significant impact upon its trading partners. The small
 
 economy assumption is useful in that it makes it plausible to ignore possible reactions to its policies from
 
-trading partners. In the real world, however, the actions taken by one country will o(en have significant effects
+trading partners. In the real world, however, the actions taken by one country will often have significant effects
 
-upon its trading partners. !is means that the countries are interdependent and policy measures adopted by
+upon its trading partners. This means that the countries are interdependent and policy measures adopted by
 
-- ne of the economies may provoke a reaction from its trading partners that can reinforce, weaken or even
-- ffset its policy. Where such interdependence exists it is frequently argued that countries should consider
-coordinating their macroeconomic policies to avert the possibility of con$ict and improve their positions as
+one of the economies may provoke a reaction from its trading partners that can reinforce, weaken or even
+
+offset its policy. Where such interdependence exists it is frequently argued that countries should consider
+
+coordinating their macroeconomic policies to avert the possibility of conflict and improve their positions as
+
 compared to pursuing unilateral policies.
 
 In this chapter, we shall look at some of the major issues raised by the topic of international macroeconomic
 
-policy coordination. !ese issues include: what is meant by coordination of economic policies? Why does the
+policy coordination. These issues include: what is meant by coordination of economic policies? Why does the
 
 need for international policy coordination arise? Is coordination always superior to non-coordination? What
 
 are the obstacles that prevent greater international coordination?
 
-14.2 WHAT IS MEANT BY INTERNATIONAL POLICY COORDINATION?
+## 14.2 What is Meant by International Policy Coordination?
 
 'International policy coordination' is a very loose term and is sometimes used interchangeably with the word
 
@@ -102,9 +96,9 @@ examples of cooperation.
 
 International policy coordination is primarily about some form of cooperative relationship between the
 
-policy-makers/authorities of two or more nations. !us, international policy coordination does not directly
+policy-makers/authorities of two or more nations. Thus, international policy coordination does not directly
 
-involve the private sector _per se_ . As we shall see, this latter point is important because an arrangement made
+involve the private sector _per se_. As we shall see, this latter point is important because an arrangement made
 
 between national authorities might be undermined by a suspicious private sector. To provide an operational
 
@@ -166,7 +160,7 @@ targeting.
 
 International Macroeconomic Policy Coordination
 
-14.3 WHY DOES THE NEED FOR INTERNATIONAL POLICY COORDINATION ARISE?
+## 14.3 Why Does the Need for International Policy Coordination Arise?
 
 Coordination of macroeconomic and exchange rate policies would not be necessary if exchange rate changes
 
@@ -258,7 +252,7 @@ well-known models of the international economy (this approach is further discuss
 
 **section 14.8** ).
 
-14.4 THE BENEFITS FROM INTERNATIONAL POLICY COORDINATION
+## 14.4 The Benefits from International Policy Coordination
 
 When one talks about the benefits to be derived from international policy coordination these will be dependent
 
@@ -468,7 +462,7 @@ the same set of preferences. Indeed, this point is illustrated in the Hamada dia
 
 governments have different points of bliss.
 
-14.5 A GAME THEORY DEMONSTRATION OF THE GAINS FROM COORDINATION
+## 14.5 A Game Theory Demonstration of the Gains from Coordination
 
 !e Stackleberg and Nash solutions illustrated by the Hamada diagram are demonstrations of the results of
 

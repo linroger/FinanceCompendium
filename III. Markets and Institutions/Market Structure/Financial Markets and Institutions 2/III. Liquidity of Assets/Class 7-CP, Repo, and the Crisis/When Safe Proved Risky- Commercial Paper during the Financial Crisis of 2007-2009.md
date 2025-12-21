@@ -136,7 +136,7 @@ Corporate commercial paper is issued by nonfinancial businesses. In January 2007
 
 Historically, commercial paper issuers used the proceeds from issuance to cover their short-term financing needs for working capital and inventory. Over time, many issuers started rolling over maturing commercial paper at regular frequencies, thus effectively financing a constant share of their activities via commercial paper. Kahl, Shivdasani, and Wang (2008) estimate that, on average, commercial paper borrowing represents 36 percent of investment outlays among commercial paper issuers.
 
-# Demand Side of Commercial Paper
+## Demand Side of Commercial Paper
 
 Money market funds and mutual funds are the main investors in commercial paper. In January 2007, money market funds and mutual funds owned commercial paper worth $767 billion, or 31.4 percent of the market, according to the Federal Reserve Flow of Funds data. Other important investor classes were foreign investors ($299 billion), state and local governments ($205 billion), funding corporations ($198 billion), and nonfinancial corporate businesses ($109 billion). Individual households own little commercial paper directly, but they own commercial paper indirectly through their ownership of money market funds and mutual funds.
 
@@ -154,9 +154,9 @@ As of January 2007, there were 473 taxable money market funds holding assets wor
 
 Most large money market funds are geared towards institutional investors. A study by Moody's Investor Service (2007a) shows that in January 2007, the largest 15 institutional prime funds accounted for a total of $459 billion worth of assets. Institutional prime funds hold a large number of different money market instruments, and money market funds are therefore considered well diversified. Nevertheless, money market funds are highly exposed to risks in the financial industry as whole. Assets originated by the financial industry—measured as the total of financial commercial paper, structured securities, bank obligations, and repurchase agreements—accounted for 91.4 percent of money market fund assets.
 
-# Commercial Paper during the Financial Crises
+## Commercial Paper during the Financial Crises
 
-# Commercial Paper and Financial Crises in Historical Perspective
+## Commercial Paper and Financial Crises in Historical Perspective
 
 Although the commercial paper market is generally a stable source of financing, periodically there have been large and sudden declines in its size. The most prominent example is the Penn Central failure (for discussion, see
 
@@ -166,7 +166,7 @@ After the Penn Central failure, and largely as a result of it, corporate commerc
 
 Similar episodes of declines in the size of commercial paper market have occurred since Penn Central. Typically in such cases, a single commercial paper issuer experiences a negative shock which reduces investors' confidence in other commercial paper issuers. The common element of such episodes is that they appear suddenly and lead to large, usually temporary contractions in the market size. For example, the failure of the energy company Enron in 2001 raised concerns about the quality of financial reporting and led to a sharp decline in outstanding corporate commercial paper. However, an important difference between all such episodes and the financial crisis of 2007-2009 is that the former concerned the corporate commercial paper market rather than the financial or the asset-backed commercial paper market.
 
-# Collapse of the Asset-backed Commercial Paper Market
+## Collapse of the Asset-backed Commercial Paper Market
 
 The decline in the asset-backed commercial paper market was triggered by the crisis in the subprime mortgage market. Although delinquencies on subprime mortgages had been rising through most of 2006, the financial crisis showed its first clear signs only in summer 2007. On July 31, 2007, two Bear Stearns's hedge funds that had invested in subprime mortgages filed for bankruptcy. A third Bear Stearns's hedge fund suspended investors' redemptions. In the following week, more news about delinquencies in subprime mortgages hit the market. On August 7, 2007, BNP Paribas halted withdrawals from its three investment funds and suspended calculation of their net asset values.
 
@@ -200,11 +200,9 @@ outstanding. Hence, most of the investment losses due to the fall in asset price
 
 Figures 1, 2, and 3 also illustrate that the events of August 2007 had little effect on issuers of financial and corporate commercial paper. Those issuers continued rolling over commercial paper at customary rates. For example, the spread of financial commercial paper over the federal funds rate remained at negative one basis point in the year before and the year after the crisis. The amount of non-asset-backed commercial paper outstanding remained stable at $980 billion in the year after the crisis.
 
-# Lehman's Bankruptcy
+## Lehman's Bankruptcy
 
-The second major negative shock in the commercial paper market was the default of Lehman Brothers. In September 2008, many investors were surprised to learn that the Reserve Primary Fund—one of the largest money market funds with more than $65 billion of assets under management—owned more than $785 million of Lehman's commercial paper. The founder of the Reserve Primary Fund—Bruce Bent—who had been one of the pioneers of the money market industry, had publicly expressed the view that money market funds should not invest in commercial paper because it was too risky. In line with this view, until September 2005, the Reserve Primary Fund stated in its filings with the Securities
-
-and Exchange Commission that the fund did not invest in commercial paper. This commitment was abandoned in later filings and, from 2006 onwards, the Reserve Primary Fund began acquiring significant amounts of commercial paper to boost its performance (Stecklow and Gullappalli, 2008).
+The second major negative shock in the commercial paper market was the default of Lehman Brothers. In September 2008, many investors were surprised to learn that the Reserve Primary Fund—one of the largest money market funds with more than $65 billion of assets under management—owned more than $785 million of Lehman's commercial paper. The founder of the Reserve Primary Fund—Bruce Bent—who had been one of the pioneers of the money market industry, had publicly expressed the view that money market funds should not invest in commercial paper because it was too risky. In line with this view, until September 2005, the Reserve Primary Fund stated in its filings with the Securities and Exchange Commission that the fund did not invest in commercial paper. This commitment was abandoned in later filings and, from 2006 onwards, the Reserve Primary Fund began acquiring significant amounts of commercial paper to boost its performance (Stecklow and Gullappalli, 2008).
 
 The revelation of the Reserve Fund's exposure to Lehman's bankruptcy triggered an immediate run on the fund. On September 16, 2008, the Reserve Primary Fund was forced to pay out  \$10.8 billion in redemptions and faced about\$ 28 billion of further withdrawal requests. The run quickly spread to other money market funds with commercial paper holdings. Our analysis based on iMoneyNet data shows that, within a week, institutional investors reduced their investments in money market funds by more than \$172 billion. To stop the run on money market funds, on September 19, 2008, the U.S. Department of the Treasury announced a temporary deposit insurance covering all money market investments. This announcement stopped the run on money market funds, and redemption requests promptly receded.
 
@@ -212,7 +210,7 @@ Nonetheless, investors interpreted the Lehman's bankruptcy as a signal that comm
 
 Money market funds were a leading force in the decline of the commercial paper market. Even though money market fund investments were considered safe because of the newly introduced deposit insurance, money market funds themselves decided to reduce their holdings of commercial paper. As shown in Figure 4, within one month after Lehman's bankruptcy, commercial paper holdings fell from 24.2 to 16.9 percent of money market funds' assets. To offset the decrease in commercial paper holdings, money market funds expanded their holdings of Treasuries and agency debt from 36.7 to 44.5 percent of asset holdings. This drastic change in asset holdings is often described as flight-to-quality—that is, an episode during which risk-averse investors, such as money market funds, only want to hold assets of highest quality, such as government debt.
 
-# To the Rescue: Federal Reserve Interventions
+## To the Rescue: Federal Reserve Interventions
 
 Both the collapse of the asset-backed commercial paper market and Lehman's bankruptcy triggered immediate responses by policymakers. The responses were largely motivated by concerns about the effect of the commercial paper market on
 
@@ -240,17 +238,15 @@ approximately \$150 billion worth of purchases. Over time, AMLF lowered its purc
 
 On October 7, 2008, the Federal Reserve announced that, in addition to buying through AMLF, it would purchase three-month commercial paper directly from eligible issuers through the Commercial Paper Funding Facility (CPFF). Only U.S. issuers of commercial paper, including U.S. issuers with a foreign parent, were eligible to sell commercial paper to this facility. The interest rate on corporate and financial commercial paper was the three-month overnight indexed swap rate—a standard measure of borrowing costs in money markets—plus 200 basis points. Likewise, the interest rate on asset-backed commercial paper was the overnight indexed swap rate plus 300 basis points.
 
-As shown in Figure 5, CPFF started purchasing commercial paper on October 26, 2008. The impact of these purchases on the size and spreads of the commercial paper market is immediately apparent in Figure 1 and Figure 3. The value of financial commercial paper outstanding came back to its pre-crisis level. Also, the spreads on all types of commercial paper significantly decreased. By the end of 2008, the total value of commercial paper purchased under the CPFF program equaled $335 billion dollars, out of which one-third was asset-backed commercial paper. As a result, the Federal Reserve was the single largest buyer of commercial paper (Federal Reserve Bank of New York, 2008). Initially, the program only
-
-purchased assets with maturities over 15 days; then after January 2009, it expanded to shorter-maturity assets. Also, like with AMLF, the value of assets purchased under CPFF has been gradually declining and reached about $40 billion dollars in October 2009, as shown in Figure 5.
+As shown in Figure 5, CPFF started purchasing commercial paper on October 26, 2008. The impact of these purchases on the size and spreads of the commercial paper market is immediately apparent in Figure 1 and Figure 3. The value of financial commercial paper outstanding came back to its pre-crisis level. Also, the spreads on all types of commercial paper significantly decreased. By the end of 2008, the total value of commercial paper purchased under the CPFF program equaled $335 billion dollars, out of which one-third was asset-backed commercial paper. As a result, the Federal Reserve was the single largest buyer of commercial paper (Federal Reserve Bank of New York, 2008). Initially, the program only purchased assets with maturities over 15 days; then after January 2009, it expanded to shorter-maturity assets. Also, like with AMLF, the value of assets purchased under CPFF has been gradually declining and reached about $40 billion dollars in October 2009, as shown in Figure 5.
 
 On October 21, 2008, the Federal Reserve announced another lending program—the Money Market Investor Funding Facility (MMIFF)—intended to complement AMLF. Similar to AMLF, the new program was supposed to provide non-recourse loans to money market funds. The main difference was that it was restricted to money market instruments other than asset-backed commercial paper, such as certificates of deposit, bank notes, and financial and corporate commercial paper. The New York Fed began funding eligible money market instruments under this program on November 24, 2008. However, the facility never took off and, as of October 2009, it had not provided a single loan to money market funds.
 
-# Why Did the Commercial Paper Market Collapse?
+## Why Did the Commercial Paper Market Collapse?
 
 We discuss three possible explanations for the collapse of the commercial paper market: substitution to other sources of financing, adverse selection, and institutional constraints faced by money market funds. These explanations are not mutually exclusive, and we present evidence in favor of each of the explanations.
 
-# Substitution to Other Sources of Financing
+## Substitution to Other Sources of Financing
 
 One possible reason for the decline in commercial paper is that buyers of commercial paper, such as money market funds, learned during the financial crisis that commercial paper was riskier than they initially thought and therefore they revised upwards their expectations about the likelihood of commercial paper's default. For example, investors learned that asset-backed commercial paper was collateralized by assets for which liquidity in the secondary market could suddenly disappear. With Lehman's bankruptcy, investors in commercial paper learned that even large financial institutions could collapse overnight, causing the default of supposedly safe commercial paper. As a result, investors required higher return to compensate them for bearing more risk, which substantially raised the cost of commercial paper funding.
 
@@ -262,7 +258,7 @@ In the period following Lehman's bankruptcy in September 2008, the situation was
 
 The effect on corporate commercial paper was less severe. Still some issuers switched to alternative long-term financing, mostly as a response to growing uncertainty regarding the commercial paper market. For example, on March 3, 2009, Coca Cola announced that it had sold $0.9 billion of five-year and $1.35 billion of ten-year notes to repay its maturing commercial paper. In the process, it agreed to pay 4.875 percent to replace short-term debt with an average yield of 0.41 percent. This swap amounted to about $48 million in extra annual interest on every $1 billion borrowed and used to replace commercial paper. Similarly, in February 2009, the largest U.S. health insurer by enrollment—WellPoint—sold $1 billion of five-year and ten-year notes at rates as high as 7 percent to repay its commercial paper with an average yield of about 2 percent. Also, General Electric Co. cut its financing arm's commercial paper borrowing by about a third, to $60 billion, as part of a plan to reduce its overall debt (Keogh, Detrixhe, and Coppola, 2009). Overall, the substitution to other debt market instruments can explain a fair share of the decline in commercial paper funding, but probably not all of it.
 
-# Adverse Selection
+## Adverse Selection
 
 During the financial crisis, many issuers found themselves unable to issue any commercial paper at all, regardless of the interest rate offered. For example, during the decline in asset-backed commercial paper, Moody's Investor Services (2007b) reported that "programs [conducts] found it difficult or impossible to issue commercial paper" and that "issuing paper at longer maturities was unavailable."
 
@@ -274,7 +270,7 @@ It is surely plausible that adverse selection can explain some of the decline in
 
 In comparison, preliminary results using data on commercial paper outstanding around Lehman's bankruptcy suggest that adverse selection was more important in 2008. In our own work, we find that financial institutions with large drops in their share prices continued to issue commercial paper after Lehman's bankruptcy, while financial institutions with stable share prices reduced or stopped issuing commercial paper. Assuming that the decline in share prices is a good proxy for a financial institution's unobserved quality, this finding suggests that adverse selection may have amplified the decline in commercial paper outstanding in 2008.
 
-# Institutional Constraints
+## Institutional Constraints
 
 Money market funds are supposed to invest only in low-risk securities, and once a security no longer fits into that category, money market funds stop buying that security. This kind of constraint offers an alternative explanation for the decline in commercial paper holdings by a group of institutional investors. Moreover, if other investors face fixed costs of entry into a given market—for example, because they have to invest in technology and personnel to manage commercial paper investments—then a decrease in demand by money market funds may not be offset by demand from other investors.
 
@@ -282,7 +278,7 @@ Before the financial crisis, many investors in money market funds paid little at
 
 Overall, the decline in commercial paper from 2007 to 2009 probably arose because the financial crisis triggered a reassessment of the riskiness of commercial paper, which then prompted issuers to substitute to other sources of financing. Adverse selection and institutional constraints probably amplified this effect. More research needs to be done to quantify the importance and the interactions of these explanations.
 
-# Conclusion
+## Conclusion
 
 The commercial paper market has long been viewed as a bastion of high liquidity and low risk. But twice during the financial crisis of 2007-2009, the commercial paper market nearly dried up and ceased being perceived as a safe haven. Major interventions by the Federal Reserve, including large outright purchases of commercial paper, were eventually used to support both issuers of and investors in commercial paper.
 
@@ -294,7 +290,7 @@ rate spreads on asset-backed commercial paper are still at their historical high
 
 ■ We would like to thank David Author, Charles Jones, Andrei Shleifer, Timothy Taylor, and especially Jeremy Stein for helpful discussions and suggestions.
 
-# References
+## References
 
 Acharya, Viral, and Philipp Schnabl. 2009. "Do Global Banks Spread Global Imbalances? The Case of Asset-Backed Commercial Paper during the Financial Crisis of 2007-09." http://imf.org/external/np/res/seminars/2009/arc/pdf/acharya.pdf.  
 Acharya, Viral, Philipp Schnabl, and Gustavo Suarez. 2009. "Securitization without Risk Transfer." http://www.richmondfed.org/conferences_and_events/research/2009/pdf/suarez_paper.pdf.  
@@ -314,23 +310,19 @@ Hahn, Thomas, Timothy Cook, and Robert Laroche. 1993. "Commercial Paper." Chapte
 Kacperczyk, Marcin, Clemens Sialm, and Lu Zheng. 2005. "On the Industry Concentration of Actively Managed Equity Mutual Funds." Journal of Finance, 60(4): 1983-2011.  
 Kacperczyk, Marcin, Stijn Van Nieuwerburgh, and Laura Veldkamp. 2009. "Attention Allocation over the Business Cycle." NBER Working Paper 15450.  
 Kahl, Matthias, Anil Shivdasani, and Yihui Wang. 2008. "Do Firms Use Commercial Paper to Enhance Financial Flexibility?" Available at SSRN: http://ssrn.com/abstract=1120068.  
-Keogh, Bryan, John Detrixhe, and Gabrielle Coppola. 2009. "Coca-Cola Flees Commercial
-
-Paper for Safety in Bonds." Bloomberg, March 17.  
+Keogh, Bryan, John Detrixhe, and Gabrielle Coppola. 2009. "Coca-Cola Flees Commercial Paper for Safety in Bonds." Bloomberg, March 17.  
 Mollenkamp, Carrick, Mark Whitehouse, Jon Hilsenrath, and Ianthe Dugan. 2009. "Lehman's Denise Triggered Cash Crunch around Globe—Decision to Let Firm Fail Marked a Turning Point in Crisis." Wall Street Journal, September 29.  
 Moody's Investor Service. 2003. The Fundamentals of Asset-Backed Commercial Paper. Special Report.  
 Moody's Investor Service. 2007a. "Portfolio Management Activities of Large Prime Institutional Money Market Funds." Special Report.  
 Moody's Investor Service. 2007b. "2007 Review and 2008 Outlook: US Asset-Backed Commercial Paper." Special Report.  
-Philippon, Thomas, and Philipp Schnabl. 2009. "Efficient Recapitalization." NBER Work-
-
-ing Paper 14929.  
+Philippon, Thomas, and Philipp Schnabl. 2009. "Efficient Recapitalization." NBER Working Paper 14929.  
 Saunders, Anthony, and Marcia Cornett. 2008. Financial Institutions Management: A Risk Management Approach. New York: McGraw-Hill.  
 Standard and Poor's. 2009. "S&P Commercial Paper Index." FactSheet  
 U.S. Department of Treasury. 2008. "Treasury Announces Temporary Guarantee Program for Money Market Funds." Press Release, September 29.  
 Stocklow, Steve, and Diya Gullapalli. 2008. "A Money-Fund Manager's Fateful Shift." Wall Street Journal, December 8. http://online.wsj.com/article/SB122869788400386907.html.  
 Stigum, Marcia, and Anthony Crescenzi. 2007. Stigum's Money Market,  $4^{\text{th}}$  edition. New York: McGraw-Hill.
 
-# This article has been cited by:
+## This article has been cited by:
 
 1. Riccardo De Blasis, Luca Galati, Alexander Webb, Robert I. Webb. 2023. Intelligent design: stablecoins (in)stability and collateral during market turbulence. Financial Innovation 9:1.. [Crossref]  
 2. Karen Y. Jang. 2023. The effect of the Money Market Mutual Fund Liquidity Facility (MMLF) on corporate short-term borrowing costs. Journal of Financial Research 46:3, 605-629. [Crossref]  

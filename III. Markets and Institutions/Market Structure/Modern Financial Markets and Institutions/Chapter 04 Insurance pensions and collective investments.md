@@ -181,7 +181,7 @@ The International Underwriting Association is the world's largest organisation f
 
 Protection and Indemnity (P & I) Clubs (often called Marine P & I Clubs) have been in existence for over 140 years and offer protection and indemnity (insurance) in respect of third-party liabilities and expenses arising from owning or operating ships. They do not cover the actual ships or their cargoes, but do cover third-party risks such as collision, pollution, injury to or loss of life of passengers or crew members, and a long list of others. They are run on a mutual basis (owned by members and not run for profit), although there has recently been a trend towards demutualisation and the provision of insurance cover with fixed premiums.
 
-# Lloyd's
+## Lloyd's
 
 Edward Lloyd is believed to have opened his coffee house in Tower Street, London in 1688, and it soon became a meeting place for people with interests in shipping. In 1769 a group of underwriters and brokers moved to other premises, naming them 'New Lloyds Coffee House'. When these premises became too small, the group of 79 each put in £100 and leased and became joint owners of what was henceforth called Lloyd's of London or just Lloyd's. Business, and the expertise of the underwriters and brokers, grew, and in 1871 an Act of Parliament gave Lloyd's authority to acquire property and enact byelaws. Lloyd's had become an established business institution not only in British society but throughout the trading world.
 
@@ -227,7 +227,7 @@ Money has to be kept in reserve and invested in safe and easily liquidated finan
 
 The article in Exhibit 4.13 shows where the money held in each of these three funds was invested and discusses the current debate about the temptation to invest in less liquid and more risky securities to obtain higher returns.
 
-# Exhibit 4.10 The players at Lloyds
+### Exhibit 4.10 The players at Lloyds
 
 # Members of Lloyds
 
@@ -268,9 +268,9 @@ Establishes standards
 
 Source:IFSL (www.thecityUK.com).
 
-# Exhibit 4.11
+### Exhibit 4.11
 
-# High-net-worth investors keen to sign up as Names
+#### High-net-worth investors keen to sign up as Names
 
 # FT
 
@@ -374,7 +374,7 @@ Mr Osborne reports some agents have ventured into property funds in the past six
 
 Luke Savage, finance director of Lloyd's, which manages the central fund, says just 2 per cent of agents' assets are invested in equities, compared to equity exposure of 10-15 per cent for continental European insurers. "We feel very comfortable having slightly less sparkling performance in return for not putting our members at risk," he says.
 
-# Pensions
+## Pensions
 
 At the end of one's working life, retirement beckons, but how is life financed after retirement? For most people, the answer is some type of pension. While many countries do provide a basic state pension, this usually needs topping up by means of a supplementary pension to give a reasonable quality of life.
 
@@ -706,7 +706,7 @@ In the case of pension funds, it advises that institutional shareholders' primar
 
 The four trade associations listed above keep an eye on corporate management and make recommendations on how institutional investors should vote on issues such as the size of directors' pay. These tend to be widely supported by institutions and often result in the target company changing its decision.
 
-# Collective investment
+## Collective investment
 
 The idea of collective investment (pooled funds) has been around since about 1800. Its concept is simple: money from a group of people is gathered together and put into a range of investments. This reduces the risk of total loss for all contributors by enabling them to invest in a far wider range of investments than they could individually.
 

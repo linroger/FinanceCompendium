@@ -1,3 +1,26 @@
+---
+title: "Chapter 10: OTC Derivatives"
+parent_directory: "Analysis of Fixed Income Securities Full"
+formatted: "2025-12-21 05:30:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - over the counter derivatives
+  - caps and floors
+  - swaptions
+  - interest rate derivatives
+secondary_tags:
+  - equity linked notes
+  - credit linked notes
+  - convertible bonds
+  - vasicek model
+  - jamshidian theorem
+  - volatility calibration
+  - bond put options
+  - coupon bond options
+cssclasses: academia
+---
+
 # Chapter 10: OTC Derivatives
 
 # 10.1 Introduction
@@ -47,7 +70,7 @@ $$ d = \frac{\ln F - \ln X + V/2}{\sqrt{V}} = \frac{0.9324 - 0.9524 + 0.36/2}{0.
 $$ d - \sqrt{V} = -0.25 $$
 
 $$
-C = \frac{1}{1 . 0 5} 1. 0 5 [ 0. 9 5 2 4 N (0. 2 5) - 0. 9 3 2 4 N (- 0. 3 5) ] = 0. 2 3
+C = \frac{1}{1.05} 1.05 [ 0.9524 N (0.25) - 0.9324 N (-0.35) ] = 0.23
 $$
 
 A cap is a limitation on the borrower that at each payment date he cannot charge the market rate if the market rate is higher than the contractual cap rate. Hence, we can write the cap payoff as a series of rate call to be received at the end of period  $j$ .
@@ -76,10 +99,10 @@ $$ and the cap value is:
 
 
 $$
-V_{\text{ca p}} = \sum_{j = 1}^{n} \pi_{j} \tag {10.4}
+V_{\text{cap}} = \sum_{j = 1}^{n} \pi_{j} \tag {10.4}
 $$
 
-Equation (10.3) is a standard option on the zero-coupon bond and hence has closed-form solutions if certain term structure models are adopted. For example, both Vacicek and Cox-Ingersoll-Ross models have closed-form solutions to the zero coupon bond option. Using the Vasicek model, $^{1}$ we can write the formula for a caplet as:2
+Equation (10.3) is a standard option on the zero-coupon bond and hence has closed-form solutions if certain term structure models are adopted. For example, both Vacicek and Cox-Ingersoll-Ross models have closed-form solutions to the zero coupon bond option. Using the Vasicek model,[^1] we can write the formula for a caplet as:[^2]
 
 
 $$
@@ -111,7 +134,7 @@ $$ and
 
 
 $$
-V_{\text{fl oo r}} = \sum_{j = 1}^{n} \zeta_{j} \tag {10.9}
+V_{\text{floor}} = \sum_{j = 1}^{n} \zeta_{j} \tag {10.9}
 $$
 
 Under the Vasicek model we can write each floorlet  $\xi_{j}$  as follows:3
@@ -125,7 +148,7 @@ Note that usually lenders do not charge an upfront free for the cap and vice ver
 Note that the spread is computed as:
 
 $$
-V_{\text{sp re ad}} = \tau \times s \times \sum_{j = 1}^{n} P (t, T_{j}) \tag {10.11}
+V_{\text{spread}} = \tau \times s \times \sum_{j = 1}^{n} P (t, T_{j}) \tag {10.11}
 $$ and hence by equating the value of the spread payments with the value of the cap, we solve for the spread as follows:
 
 
@@ -352,7 +375,7 @@ $$
 (which is also a cap). From equation (10.21) we solve for
 
 $$
-K_{2} = \Psi (t, T_{1}, T_{2}) = \frac{0 . 9 4 9 4}{0 . 9 8 0 7} = 0. 9 6 8 1
+K_{2} = \Psi (t, T_{1}, T_{2}) = \frac{0.9494}{0.9807} = 0.9681
 $$
 
 Then by (10.19):
@@ -384,7 +407,7 @@ $$
 From equation (10.21) we solve for
 
 $$
-K_{3} = \Psi (t, T_{1}, T_{3}) = \frac{0 . 9 1 6 0}{0 . 9 8 0 7} = 0. 9 3 4 0
+K_{3} = \Psi (t, T_{1}, T_{3}) = \frac{0.9160}{0.9807} = 0.9340
 $$ and
 
 
@@ -435,7 +458,7 @@ Figure 10.5: Swaption Volatility Surface; March 15, 2017
 
 # 10.4 Other Derivatives
 
-There are a large number of OTC fixed income derivatives. In fact, most of the fixed income derivatives are traded over the counter. Besides the swaps and swap-tions introduced in previous and this chapters, there are three notable categories of contracts:
+There are a large number of OTC fixed income derivatives. In fact, most of the fixed income derivatives are traded over the counter. Besides the swaps and swaptions introduced in previous and this chapters, there are three notable categories of contracts:
 
 1. Equity-linked contracts
 2. Credit-linked contracts
@@ -458,7 +481,7 @@ Equity-linked notes can also use different structures and features. Some will us
 
 The labor force participation rate is a measure of an economy's active workforce. The formula for the number is the sum of all workers who are employed or actively seeking employment divided by the total noninstitutionalized, civilian working-age population.
 
-The U.S. labor participation rate stood at 61.4% as of July 2020, according to the federal Bureau of Labor Statistics, which publishes updates monthly.1 The monthly figures have hovered around 63% since 2013, after a sharp decline in the wake of the Great Recession. It remains to be seen what the effect will be of 10 million newly unemployed Americans in just two weeks thanks to the Covid-19 pandemic.
+The U.S. labor participation rate stood at 61.4% as of July 2020, according to the federal Bureau of Labor Statistics, which publishes updates monthly.[^1] The monthly figures have hovered around 63% since 2013, after a sharp decline in the wake of the Great Recession. It remains to be seen what the effect will be of 10 million newly unemployed Americans in just two weeks thanks to the Covid-19 pandemic.
 
 # Convertible Bonds
 

@@ -72,7 +72,7 @@ Exhibit 11.1 Call options on AstraZeneca shares, 17 December 2010
 
 Source: Financial Times, 18/19 December 2010. Reprinted with permission.
 
-So, what do the figures mean? If you wished to obtain the right to buy 1,000 shares on or before late January 2011, $^{2}$  at an exercise price of  $3000\mathrm{p}$ , you would pay a premium of  $\mathbb{£}410$  ( $1,000 \times 41\mathrm{p}$ ). If you wished to keep your option to purchase open for another month you could select the February call. But this right to insist that the writer sells the shares at the fixed price of  $3000\mathrm{p}$  on or before a date in late February will cost another  $\mathbb{£}115$  (the total premium payable on one option contract =  $\mathbb{£}525$ ). This extra  $\mathbb{£}115$  represents additional time value. Time value arises because of the potential for the market price of the underlying to change in a way that creates intrinsic value.
+So, what do the figures mean? If you wished to obtain the right to buy 1,000 shares on or before late January 2011, $^{2}$  at an exercise price of  $3000\mathrm{p}$ , you would pay a premium of  $\mathbb{\pounds}410$  ( $1,000 \times 41\mathrm{p}$ ). If you wished to keep your option to purchase open for another month you could select the February call. But this right to insist that the writer sells the shares at the fixed price of  $3000\mathrm{p}$  on or before a date in late February will cost another  $\mathbb{\pounds}115$  (the total premium payable on one option contract =  $\mathbb{\pounds}525$ ). This extra  $\mathbb{\pounds}115$  represents additional time value. Time value arises because of the potential for the market price of the underlying to change in a way that creates intrinsic value.
 
 The intrinsic value of an option is the payoff that would be received if the underlying were at its current level when the option expires. In this case, there is currently (17 December 2010) no intrinsic value because the right to buy is at  $3000\mathrm{p}$  whereas the share price is  $2941\mathrm{p}$ . However, if you look at a call option with an exercise price of  $2900\mathrm{p}$  then the right to buy at  $2900\mathrm{p}$  has intrinsic value because if you purchased at  $2900\mathrm{p}$  by exercising the option, thereby obtaining 1,000 shares, you could immediately sell at  $2941\mathrm{p}$  in the share market: intrinsic value  $= 41\mathrm{p}$  per share, or £410 for 1,000 shares. The longer the time over which the option is exercisable, the greater the chance that the price will move to give intrinsic value – this explains the higher premiums on more distant expiry options. Time value is the amount by which the option premium exceeds the intrinsic value.
 
@@ -109,7 +109,7 @@ Profit and loss if one 2900 February call option contract (for 1,000 shares) in 
 
 The holder of the call option will not exercise unless the share price is at least  $2900\mathrm{p}$ : at a lower price it will be cheaper to buy the 1,000 shares on the stock market. Break-even does not occur until a price of  $3001.5\mathrm{p}$  because of the need to cover the cost of the premium  $(2900\mathrm{p} + 101.5\mathrm{p})$ . However, at higher prices the option value increases, penny for penny, with the share price. Also the downside risk is limited to the size of the option premium.
 
-# Call option writers
+## Call option writers
 
 The returns position for the writer of a call option in AstraZeneca can also be presented in a diagram (see Exhibit 11.5). With all these examples note that there is an assumption that the position is held to expiry.
 
@@ -119,7 +119,7 @@ If the market price is less than the exercise price (2900p) in February the opti
 
 Profit and loss to a call option writer of one 2900 February call option contract (for 1,000 shares) in AstraZeneca on 17 December 2010
 
-# An example of an option-writing strategy
+## An example of an option-writing strategy
 
 Joe has a portfolio of shares worth £100,000 and is confident that while the market will go up steadily over time it will not rise over the next few months. He has a strategy of writing out-of-the-money (i.e. no intrinsic value) call options and pocketing premiums on a regular basis. Today (17 December 2010) Joe has written one option on February calls in AstraZeneca for an exercise price of 2900p (current share price 2941p). In other words, Joe is committed to delivering (selling) 1,000 shares at any time between 17 December 2010 and near the end of February 2011 for a price of £29 at the insistence of the person who bought the call. This could be very unpleasant for Joe if the market price rises to, say, £33. Then the option holder will require Joe to sell shares worth £33,000 to him/her for only £29,000.
 
@@ -127,11 +127,11 @@ However, Joe is prepared to take this risk for two reasons. First he receives th
 
 Some speculators engage in uncovered (naked) option writing. It is possible to lose a multiple of your current resources if you write many option contracts and the price moves against you. Imagine that Joe had only £20,000 in savings and entered the options market by writing 40 AstraZeneca February 2011 2900 calls receiving a premium of £1.015 × 40 × 1,000 = £40,600. If the price moves to £33 Joe has to buy shares for £33 and then sell them to the option holders for £29, a loss of £4 per share: £4 × 40 × 1,000 = £160,000. Despite receiving the premiums Joe has wiped out his savings.
 
-# Liffe share options
+## Liffe share options
 
 The Financial Times lists more than 50 companies' shares in which options are traded – see Exhibit 11.6, which shows some option prices for 17 December 2010, including that of AstraZeneca. This table is a cut down version of the data available at www.euronext.com, where over 250 company options are traded through the day. Also a wider variety of strike prices is shown at www.euronext.com than the Financial Times can accommodate.
 
-# Put options
+## Put options
 
 A put option gives the holder the right, but not the obligation, to sell a specific quantity of shares on or before a specified date at a fixed exercise price.
 
@@ -569,7 +569,7 @@ Alfredo Robledo, the Milan chief prosecutor, sounded almost tentative in his sum
 
 "It is [at] a delicate stage," he said of the investigation process he has been spearheading for the past three years into the circumstances of the bond issue and an accompanying swaps transaction that is at the centre of the fraud allegations.
 
-It suggests a level of defiance, or brinkmanship, among all the parties involved: on the part of the city, that its accusation that it has been hurt to the tune of at least  $\in 56\mathrm{m}$  and possibly more, can be proven; and on the part of the banks that no fraud was committed and that the case is baseless.
+It suggests a level of defiance, or brinkmanship, among all the parties involved: on the part of the city, that its accusation that it has been hurt to the tune of at least  €56m  and possibly more, can be proven; and on the part of the banks that no fraud was committed and that the case is baseless.
 
 The four banks insisted on Wednesday that their employees did nothing wrong. JPMorgan said they acted "with the highest degree of professionalism and entirely appropriately", a sentiment echoed by the others.
 
@@ -579,7 +579,7 @@ The transaction, on the face of it, was a fairly straightforward one. The city h
 
 Eurozone interest rates went against the city almost from the start. When it issued the bonds the European Central Bank's variable rate tender interest rate was 2 per cent. It climbed to 4 per cent by the middle of 2007, around the time that Mr Robledo began his investigation, and is now 4.25 per cent.
 
-There are two main charges against the banks and the indi viduals. The first is that the banks misrepresented to the city the financial benefits of the debt restructuring exercise, of which the bond issue and the swaps agreement were part.
+There are two main charges against the banks and the individuals. The first is that the banks misrepresented to the city the financial benefits of the debt restructuring exercise, of which the bond issue and the swaps agreement were part.
 
 The second is that the banks were not transparent in explaining the terms and conditions of the swaps agreement, and that the city incurred €56m of hidden costs as a result of it, on top of the fees - which by some estimates are around €50m - the city paid for the deal.
 
@@ -589,15 +589,15 @@ The Bank of Italy estimates that local authorities may be exposed to about €1b
 
 Source: Financial Times, 19 March 2010, p. 35. Reprinted with permission.
 
-# The relationship between FRAs and swaps
+## The relationship between FRAs and swaps
 
 If a corporation buys (or sells) a sequence of LIBOR-based FRAs stretching over, say, two years, in which each of the three-month periods making up that two years is covered by an FRA then we have an arrangement similar to a two-year swap. The company has made a series of commitments to pay or receive differences between the FRA agreed rate and the prevailing spot rate at three-month intervals. For example, Colston plc has a loan for £100 million. This is a floating-rate liability. Interest is set at three-month LIBOR every three months over its two-year life. So, every three months, whatever the rate that London banks are charging for three-month loans to each other is to be charged to Colston.
 
-Thus the company is vulnerable to interest rate rises. The current time is June 20x1 and spot LIBOR rate is set at 5.09 per cent. This is the annualised rate that Colston will pay for the next three months (it will pay one-quarter of this for three-month borrowing). To lock in a rate for the next rollover date, i.e. in September, the company could buy (in June) an FRA set at LIBOR for the three months starting in September and ending in December (a  $3 \times 6$  forward rate agreement). This FRA is priced at 5.71 per cent. The amount covered can be exactly £100 million because FRA arrangements are flexible to suit the client, being an over-the-counter market. The £100 million is known as the notional amount.
+Thus the company is vulnerable to interest rate rises. The current time is June 20x1 and spot LIBOR rate is set at 5.09 per cent. This is the annualised rate that Colston will pay for the next three months (it will pay one-quarter of this for three-month borrowing). To lock in a rate for the next rollover date, i.e. in September, the company could buy (in June) an FRA set at LIBOR for the three months starting in September and ending in December (a  $3\times6$  forward rate agreement). This FRA is priced at 5.71 per cent. The amount covered can be exactly £100 million because FRA arrangements are flexible to suit the client, being an over-the-counter market. The £100 million is known as the notional amount.
 
-The FRA buyer (Colston) has technically agreed to deliver to the FRA seller 5.71 per cent (see Exhibit 11.20). In return the FRA seller will pay Colston whatever is the spot rate for LIBOR in September. Of course, it would be inefficient to have these two payments made when only one payment (the difference between the two rates) is needed. So, if LIBOR is 5.71 per cent in September no payment is made by either side. However, if LIBOR in September resets at 6.2 per cent Colston will receive a settlement cash flow of 0.49 per cent, or 49 basis points, on £100 million for the three-month period. Thus a payment of £122,500 is received ( $£100\mathrm{m} \times 0.0049 \times 3/12)$  from the FRA seller.[17]
+The FRA buyer (Colston) has technically agreed to deliver to the FRA seller 5.71 per cent (see Exhibit 11.20). In return the FRA seller will pay Colston whatever is the spot rate for LIBOR in September. Of course, it would be inefficient to have these two payments made when only one payment (the difference between the two rates) is needed. So, if LIBOR is 5.71 per cent in September no payment is made by either side. However, if LIBOR in September resets at 6.2 per cent Colston will receive a settlement cash flow of 0.49 per cent, or 49 basis points, on £100 million for the three-month period. Thus a payment of £122,500 is received ( $\pounds 100\mathrm{m} \times 0.0049 \times 3/12)$  from the FRA seller.[17]
 
-# Exhibit 11.20 FRA arrangements
+## Exhibit 11.20 FRA arrangements
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/3507a548a8638f0387a54a4d7c6d6a7be2c63f0aefe65d15db0415b25add95ce.jpg)
 
@@ -607,7 +607,7 @@ FRAs are priced at-the-money, i.e. the current rate in the market for future LIB
 
 Colston has locked in the interest rate it will pay for the three months September to December, but what about the other months of the two-year loan commitment? It could enter a series of FRAs for each of the remaining rollover dates. The rates that would be set are shown in Exhibit 11.21.
 
-# Exhibit 11.21 FRA prices for the next two years
+## Exhibit 11.21 FRA prices for the next two years
 
 <table><tr><td>Time</td><td>Libor rate quoted in June 20x1 for three-month periods starting at various dates over next two years</td></tr><tr><td>June 20x1 (Spot)</td><td>5.09</td></tr><tr><td>Sept. 20x1</td><td>5.71</td></tr><tr><td>Dec. 20x1</td><td>6.05</td></tr><tr><td>Mar. 20x2</td><td>6.42</td></tr><tr><td>June 20x2</td><td>6.70</td></tr><tr><td>Sept. 20x2</td><td>6.98</td></tr><tr><td>Dec. 20x2</td><td>7.06</td></tr><tr><td>Mar. 20x3</td><td>7.18</td></tr></table>
 
@@ -623,7 +623,7 @@ Using FRAs in this way Colston knows how much it has to pay out over the next tw
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/bb14b8f3437bf9fad29f2e52aef0bcce0b60b3e30eab2958022931b0b39901e1.jpg)
 
-# Credit default swap (CDS)
+## Credit default swap (CDS)
 
 Until the early 1990s once a lender to a company had assumed the risk of loss through default or a similar 'credit event' (failure of the borrower to abide by the agreement) there was little that they could do except wait to see if the borrower paid all the interest and principal on time, as agreed at the outset. In other words, the lender retained all the credit risk and could not pass any of it on to others more willing to bear it. Today, however, we have an enormous market in the selling and buying of protection against default (the total notional amount outstanding on credit default swap contracts exceeds the total amount of debt in the world!).
 
@@ -631,11 +631,11 @@ Under a credit default swap, the seller of protection receives a regular fee (us
 
 Thus the payment from the buyer of credit protection is a regular amount but the payment the other way, from protection seller to buyer, is a contingent payment depending on whether there is a credit event - see Exhibit 11.24.
 
-# Exhibit 11.24
+## Exhibit 11.24
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/ace49a30-8fe7-4f5f-a9f2-8797893f186a/908e86ff80d6f02e5a89c70089bb43df98e3e405dc7a6be6249df96dad07bfe9.jpg)
 
-# Worked example 11.4 Credit default swap
+## Worked example 11.4 Credit default swap
 
 A pension fund manager has bought £20 million (nominal value) of bonds from a software company, Appsoft. He is concerned that at some point over the life of the bonds the company will fail to meet its obligations – there will be a credit event. Even though this is unlikely the manager needs to make absolutely sure that he is protected on the downside. He thus consults one of the organisations that provide CDS prices (e.g. www_markit.com) to gain an idea of the amount he would have to pay for the years of protection. The prices on this website only give a general indication because they report only deals struck by one dealer sometime the previous day. To obtain a more precise cost he will need to contact dealers.
 
@@ -655,7 +655,7 @@ Reference obligation:  $7 \%$  2020 subordinated bonds
 
 Calculation amount: £20 million
 
-# Settlement and credit events
+## Settlement and credit events
 
 Most CDSs are physically settled which means that when a credit event occurs the protection buyer will deliver debt assets of the reference entity to the protection seller. In return the protection seller pays their par value (£20 million in the case Appsoft). The bonds or loans delivered do not have to be the specified reference obligation, but they cannot be subordinated (higher risk) to it - Appsoft might have issued some other bonds which the pension fund manager chooses to deliver instead of the bond acting as the reference obligation. Once the settlement process is triggered the CDS quarterly premiums paid by the protection buyer cease.
 
@@ -671,7 +671,7 @@ So far we have skipped over what we mean by a credit event. The following are th
 
 We have focused on the use of CDS when you have an underlying credit exposure to hedge. However, most trades are 'naked CDS', i.e. the protection buyer or seller does not hold a debt in the reference entity. These naked positions have been criticised by politicians for exacerbating the financial crisis – see Exhibit 11.26. The role of CDSs in the 2008 crisis is covered in Chapter 16.
 
-# Exhibit 11.26
+## Exhibit 11.26
 
 # Naked truth about the villain of Europe
 
@@ -737,13 +737,13 @@ Although it might have some of the intended consequences, by damping rapid incre
 
 Source: Financial Times, 15 March 2010, p. 3. Reprinted with permission.
 
-# Concluding comments
+## Concluding comments
 
 In the hands of the ill-informed and the reckless derivatives can be very dangerous financial instruments. This was proved with a vengeance by the banking sector in 2008 when it became apparent that many people were given power to gain derivative exposure without anyone in the organisation really understanding the nature of the risks they were taking on. They had seen other bankers gain large bonuses and wanted some of the action for themselves, whether or not they understood the potential for things to go wrong. And after all, the mathematicians in the bank said that their models told them that it was very unlikely there would be a serious problem. They had collected data for the prior three years or so and the statistics showed that rarely does the market move so dramatically that a serious loss is incurred. The data said that hardly anyone defaults on sub-prime mortgages, for example. The problem is that mathematicians usually lack the wider and longer-term perspective of someone who has studied financial markets and really understands the nature of the risks when humans are involved.
 
 Hopefully, this chapter has helped you down the road of knowledge, so that you will not repeat the mistakes of others.
 
-# Key points and concepts
+## Key points and concepts
 - An option is a contract giving one party the right, but not the obligation, to buy (call option) or sell (put option) a financial instrument, commodity or some other underlying asset, at a given price, at or before a specified date.
 The writer of a call option is obligated to sell the agreed quantity of the underlying at some time in the future at the insistence of the option purchaser (holder). A writer of a put is obligated to buy.
 - American-style options can be exercised at any time up to the expiry date whereas European-style options can only be exercised on a predetermined future date.
@@ -767,7 +767,7 @@ In a currency swap the two parties exchange interest obligations (or receipts) a
 - Most CDSs are physically settled: when a credit event occurs the protection buyer will deliver debt assets of the reference entity to the protection seller in return for the cash payout.
 A minority of CDSs are cash settled: the recovery value on the debt is found and the protection seller pays the difference between that and the par value of the reference obligation.
 
-# Appendix 11.1 Option pricing
+## Appendix 11.1 Option pricing
 
 This appendix describes the factors that influence the market value of a call option on a share. The principles apply to the pricing of other options. The complex mathematics associated with option pricing will be avoided because of their unsuitability for an introductory text. Interested readers are referred to the references and further reading list later in this chapter.
 
@@ -787,7 +787,7 @@ $s =$  standard deviation of the share price
 
 $\mathrm{e} =$  mathematical fixed constant: 2.718 …
 
-# The factors affecting option value
+### The factors affecting option value
 
 # 1 Options have a minimum value of zero
 

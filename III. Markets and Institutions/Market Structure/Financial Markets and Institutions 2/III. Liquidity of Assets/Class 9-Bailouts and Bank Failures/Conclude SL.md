@@ -1,19 +1,23 @@
 ---
 title: "Class 9 - The Two Central Principles Underpinning Our Individual Recommendations"
 parent_directory: "Class 9-Bailouts and Bank Failures"
-formatted: 2025-12-21 05:30:00 AM
+formatted: 2025-12-21 05:05:35 PM
 formatter_model: grok-code-fast-1
 cli_tool: opencode
 primary_tags:
-  - financial regulation principles
-  - systemic risk management
-  - bailout prevention
+   - systemic risk management
+   - bailout prevention
+   - financial regulation principles
 secondary_tags:
-  - central bank oversight
-  - capital requirements
-  - compensation holdbacks
-  - living wills
-  - regulatory reforms
+   - capital requirements
+   - compensation holdbacks
+   - living wills
+   - regulatory reforms
+   - central bank oversight
+   - crisis prevention
+   - systemic regulation
+   - financial stability
+   - taxpayer protection
 cssclasses: academia
 ---
 
@@ -37,9 +41,7 @@ Rather than relying only on shareholders to discipline the risk-taking tendencie
 
 Acknowledging that some financial firms will encounter problems, Chapters 7 and 8 propose better mechanisms for stabilizing or liquidating struggling firms. Chapter 7 argues for a new hybrid debt instrument that would expedite the recapitalization of banks at no cost to taxpayers: banks would issue this debt before a crisis and, if a pre-specified trigger were breached during a systemic crisis, the debt would automatically convert into equity. In this way, bondholders would bear the costs of failure when they should, rather than benefit from government bailouts or threaten the system with bankruptcies.
 
-Although such recapitalizations would help firms avoid failure, they would not save every distressed firm. Accordingly, Chapter 8 argues that that each systemically impor
-
-tant financial institution should be required to create and maintain for regulators a "living will" (subject to regular review) that highlights key complexities of its organizational and financing structure and lays out a plan for how it could be legally dismantled if it fails.
+Although such recapitalizations would help firms avoid failure, they would not save every distressed firm. Accordingly, Chapter 8 argues that that each systemically important financial institution should be required to create and maintain for regulators a "living will" (subject to regular review) that highlights key complexities of its organizational and financing structure and lays out a plan for how it could be legally dismantled if it fails.
 
 The World Financial Crisis, and specifically the failure of Lehman Brothers, revealed some important technical weaknesses in the financial system, specifically in the market for credit default swaps and the standard arrangements for prime brokerage, that contributed to the chaotic environment of late 2008. In Chapters 9 and 10 we suggest reforms of CDS clearing mechanisms and the structure of prime brokerage to address these technical vulnerabilities.
 
@@ -53,9 +55,7 @@ How would the World Financial Crisis have played out had all our policy proposal
 
 ### The Buildup to the Crisis
 
-We recommend that central banks assume the role of systemic regulator, empowered to "understand trends and emerging risks in the financial industry" and then "design and implement financial regulations with a systemic focus" (Chapter 2). We do not recommend that the systemic regulator should try to identify asset price bubbles. In fact, financial economists argue about whether reliable identification of bubbles is even possible in real time. However, dangerous buildups of leverage in the financial system, which sometimes accompany rising asset prices, are clearly an appropriate object of concern for regulators. Thus, it is likely that a systemic regulator would have devoted attent
-
-tion to the risks of historically unprecedented increases in residential real estate prices that were central to the World Financial Crisis.
+We recommend that central banks assume the role of systemic regulator, empowered to "understand trends and emerging risks in the financial industry" and then "design and implement financial regulations with a systemic focus" (Chapter 2). We do not recommend that the systemic regulator should try to identify asset price bubbles. In fact, financial economists argue about whether reliable identification of bubbles is even possible in real time. However, dangerous buildups of leverage in the financial system, which sometimes accompany rising asset prices, are clearly an appropriate object of concern for regulators. Thus, it is likely that a systemic regulator would have devoted attention to the risks of historically unprecedented increases in residential real estate prices that were central to the World Financial Crisis.
 
 Many central bankers were in fact keenly watching real estate and related derivatives in the years before the Crisis erupted. They did little, but as systemic regulators they would have had a responsibility to act. For example, a systemic focus on increasing leverage during the boom might have led to tangible actions that would have limited the origination of high-risk mortgages. More broadly, mandated annual "risk of the financial system" reports highlighting the risk to the financial system from unexpected decreases in housing prices (Chapter 3) might have induced more prudent choices among other regulators, financial firms, and home builders and buyers. This is a specific example of the potential benefit of risk reporting to improve public understanding of financial risks (Chapter 4).
 
@@ -69,9 +69,7 @@ The Securities and Exchange Commission, Bear Stearns' main regulator, was not up
 
 Our recommendations could have helped in three respects. First, from the perspective of the safety of the financial system, Bear Stearns was seriously undercapitalized. Public accounts of its demise emphasize the disagreement within the firm over whether to raise new equity or reduce risk.<sup>2</sup> Our proposals on capital rules (Chapter 5) would have forced Bear Stearns (and all other securities dealers) to have had more capital in the months and years leading up to the crisis. Our regulatory hybrid securities (Chapter 7) could also have been issued by Bear Stearns and converted in time to reduce its interest payments and debt overhang problems during this difficult time.
 
-Second, our proposal for compensation holdbacks (Chapter 6) would have provided an additional buffer against tax
-
-payer losses when Bear Stearns failed. It might also have changed the discussions within the firm about whether to cut risk exposure and raise capital during the early stages of the World Financial Crisis. In the five years before it was absorbed by J.P. Morgan, Bear Stearns paid over  \$17 billion in employee compensation and benefits. Our proposal for compensation holdbacks might have set aside\$ 2 billion or more of this total.<sup>3</sup> In the Bear Stearns rescue, the Federal Reserve provided J.P. Morgan protection against losses on roughly \$30 billion of Bear Stearns' hard-to-value securities. This guarantee was structured so that the Fed had a senior loan against the assets of \$28.8 billion and J.P. Morgan had a junior loan of \$1.15 billion. As of December 31, 2009, the fair-market value of these securities had fallen to \$27.2 billion. Thus, compensation holdbacks would have materially reduced the Fed's risk on this loan.
+Second, our proposal for compensation holdbacks (Chapter 6) would have provided an additional buffer against taxpayer losses when Bear Stearns failed. It might also have changed the discussions within the firm about whether to cut risk exposure and raise capital during the early stages of the World Financial Crisis. In the five years before it was absorbed by J.P. Morgan, Bear Stearns paid over  \$17 billion in employee compensation and benefits. Our proposal for compensation holdbacks might have set aside\$ 2 billion or more of this total.<sup>3</sup> In the Bear Stearns rescue, the Federal Reserve provided J.P. Morgan protection against losses on roughly \$30 billion of Bear Stearns' hard-to-value securities. This guarantee was structured so that the Fed had a senior loan against the assets of \$28.8 billion and J.P. Morgan had a junior loan of \$1.15 billion. As of December 31, 2009, the fair-market value of these securities had fallen to \$27.2 billion. Thus, compensation holdbacks would have materially reduced the Fed's risk on this loan.
 
 At the time of Bear Stearns' takeover, its employees were estimated to have held more than 30 percent of its outstanding shares. Thus, Bear Stearns seems to have satisfied the often heard corporate-governance proposal for improving the incentives of executives by making employees hold their firm's shares. As we explain in Chapter 6, however, the key compensation issue from the perspective of systemic risk is not better aligning the incentives of managers with shareholders' incentives. Managers who receive stock become more aligned with stockholders, but this does not align them with society.
 
@@ -107,9 +105,7 @@ Most important, had our proposals been in place and understood, expectations of 
 
 AIG's regulators were ill-equipped to understand the workings of AIG Financial Products, the subsidiary that wrote the derivatives that played a critical role in AIG's problems. AIG's financing crisis arose because many of its derivative contracts forced it to post large amounts of additional collateral if its credit ratings from Moody's and Standard and Poor's were downgraded. When AIG's ratings were downgraded in September 2008 in the wake of Lehman's failure, AIG was required to post more than  \$13 billion in collateral. Although failure to post the collateral would have meant AIG was in default on its contracts, it was not able to raise funds quickly enough to do so. AIG had written more than\$ 375 billion in credit default swaps, including \$70 billion on CDOs, and was a significant counterparty to many of the financial system's most important firms. Its default would have led to significant losses for many of them. To prevent AIG's default, authorities rescued the firm the day after Lehman's bankruptcy.
 
-A systemic regulator armed with the information and tools we propose could in many ways have helped AIG, taxpayers, and the overall financial system. Because of AIG's size, it would have faced substantially higher capital requirements as it grew in the years preceding the crisis (Chapter 5). Our proposed information infrastructure would have revealed its burgeoning unhedged CDS positions—information that, in turn, could have triggered the systemic regulator to initiate risk-control conversations with AIG management long before the fateful Lehman bankruptcy (Chapter 3). The regulators overseeing AIG Financial Products had no reason to consider how a failure of AIG would affect its counterparties, but a systemic regulator would have been responsible for assessing the firm's interactions with other systemically important institutions. AIG's living will would have discussed obvious distress scenarios—one of which likely would have been a rating-agency downgrade (Chapter 8). Compensation holdbacks might have
-
-raised the incentive of key AIG managers to limit the firm's growing risk (Chapter 6). Finally, by giving AIG an incentive to use and clear standardized CDS contracts, our recommendations would have reduced AIG's systemic importance (Chapter 9). A March 2010 estimate by the Congressional Budget Office puts the taxpayer cost of rescuing AIG at \$36 billion. Our proposals would have substantially reduced this amount.
+A systemic regulator armed with the information and tools we propose could in many ways have helped AIG, taxpayers, and the overall financial system. Because of AIG's size, it would have faced substantially higher capital requirements as it grew in the years preceding the crisis (Chapter 5). Our proposed information infrastructure would have revealed its burgeoning unhedged CDS positions—information that, in turn, could have triggered the systemic regulator to initiate risk-control conversations with AIG management long before the fateful Lehman bankruptcy (Chapter 3). The regulators overseeing AIG Financial Products had no reason to consider how a failure of AIG would affect its counterparties, but a systemic regulator would have been responsible for assessing the firm's interactions with other systemically important institutions. AIG's living will would have discussed obvious distress scenarios—one of which likely would have been a rating-agency downgrade (Chapter 8). Compensation holdbacks might have raised the incentive of key AIG managers to limit the firm's growing risk (Chapter 6). Finally, by giving AIG an incentive to use and clear standardized CDS contracts, our recommendations would have reduced AIG's systemic importance (Chapter 9). A March 2010 estimate by the Congressional Budget Office puts the taxpayer cost of rescuing AIG at \$36 billion. Our proposals would have substantially reduced this amount.
 
 The net impact our recommendations would have made in the World Financial Crisis will always be uncertain and debatable. However, it seems reasonable to conclude that with these measures in place, many of the central features of the Crisis would have played out differently, with less damage to the overall financial system, lower cost to taxpayers, and perhaps better outcomes for key firms as well.
 
