@@ -1,16 +1,20 @@
 ---
+title: Chapter 7: Import Tariffs and Dumping
+parent_directory: Economics Advance International Trade
+formatted: 2025-12-21 10:00:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- exogenously imposed exporting firms
-- tariffs dumping various reasons
-- import tariffs trade policies
+  - import tariffs
+  - dumping
 secondary_tags:
-- competition exports albeit subsidies
-- tariffs countries temporarily escape
-- protection antidumping provision wto
-- anti dumping duties
-- clause tariffs countries
-- tariffs quotas situations markets
-tags_extracted: '2025-12-18T00:14:53.836062'
+  - antidumping duties
+  - escape clause tariffs
+  - bertrand duopoly
+  - terms of trade effect
+  - reciprocal dumping
+  - anti dumping duties
+cssclasses: academia
 ---
 
 # Chapter 7: Import Tariffs and Dumping
@@ -23,11 +27,9 @@ policy, whereby it gives an advantage to importing firms that leads to a welfare
 
 Following this, we turn to a discussion of dumping. We suggest that this phenomena can be viewed as a natural attempt of imperfectly competitive firms to enter each others markets, as in the "reciprocal dumping" model of Brander (1981) and Brander and Krugman (1983). As such, it is likely to bring gains to consumers through lower prices. These gains will be offset by the use of anti-dumping duties, especially since these duties must be treated as endogenous: their application will depend on the prices charged by the exporting firms. Exporting firms will have an incentive to raise their prices even if there is only a threat of antidumping duties being imposed, and to raise them even further if the duties are actually imposed. For these reasons, consumer and social losses due to antidumping actions are particularly high. We review empirical work by Prusa (1991, 1992), Staiger and Wolak (1996) and Blonigen and Haynes (2002), who estimate the price and quantity effects of antidumping actions.
 
-# Tariffs Under the Gatt/wto
+## Tariffs Under the GATT/WTO
 
-For member countries of the WTO the use of tariffs or quotas is allowed under some circumstances. For example, Article XIX of the GATT (see Table 6.1), called the "escape clause," allows for the temporary use of protection when domestic industries are experiencing unusual import competition. In order for the articles of GATT to have legal standing in its member countries, they must be reflected in a set of trade laws within each country. In the
-
-United States, Article XIX was incorporated into Title II, Section 201 of the Trade Act of 1974, which states in part that:
+For member countries of the WTO the use of tariffs or quotas is allowed under some circumstances. For example, Article XIX of the GATT (see Table 6.1), called the "escape clause," allows for the temporary use of protection when domestic industries are experiencing unusual import competition. In order for the articles of GATT to have legal standing in its member countries, they must be reflected in a set of trade laws within each country. In the United States, Article XIX was incorporated into Title II, Section 201 of the Trade Act of 1974, which states in part that:
 
 Title II, RELIEF FROM INJURY CAUSED BY IMPORT COMPETITION Section 201. INVESTIGATION BY INTERNATIONAL TRADE COMMISSION
 
@@ -49,13 +51,11 @@ Source: Hansen and Prusa (1995)
 
 As an alternative to the escape clause, firms can file for import protection under the antidumping provision of the WTO, which is Article VI (see Table 6.1). This provision has been incorporated into Title VII of U.S. trade laws, where Section 303 deals with "countervailing duties" and Section 731 deals with "antidumping duties." Countervailing duties are applied to offset foreign subsidies that lower the price of the foreign export good in the home market. Antidumping deals with cases where it is believed that a foreign firm is selling goods in the home (i.e. importing) market at either a lower price than in its own market, or if there is no foreign price to observe, then at less than its average costs of production. The cases filed in the United States under each of these provisions are also shown in Table 7.1, and it can be seen that the number of these vastly exceeds escape clause cases.
 
-Over 1980-1988, there were more than 400 antidumping cases files in the U.S., and of these, about 150 were rejected and another 150 had duties levied. In order to have duties applies, a case must first go to the Department of Commerce (DOC), which rules on whether imports have occurred as "less than fair value," i.e. below the price or average costs in its own market. These rulings were positive in  $94\%$  of cases during this period (Hansen and Prusa, 1995, p. 300). The case is then brought before the ITC, which must rule on whether imports have caused "material injury" to the domestic industry (defined as "harm that is not inconsequential,
-
-immaterial, or unimportant'). This criterion is much easier to meet than the "substantial cause of serious injury" provision of Section 201, and as a result, the ITC more frequently rules in favor of antidumping duties. Furthermore, the application of duties does not require the additional approval of the President. These legal factors explain the much greater use of antidumping than the escape clause in the United States, and it is also becoming more commonly used in other countries, as described by Prusa (2001).
+Over 1980-1988, there were more than 400 antidumping cases files in the U.S., and of these, about 150 were rejected and another 150 had duties levied. In order to have duties applies, a case must first go to the Department of Commerce (DOC), which rules on whether imports have occurred as "less than fair value," i.e. below the price or average costs in its own market. These rulings were positive in $94\%$ of cases during this period (Hansen and Prusa, 1995, p. 300). The case is then brought before the ITC, which must rule on whether imports have caused "material injury" to the domestic industry (defined as "harm that is not inconsequential, immaterial, or unimportant"). This criterion is much easier to meet than the "substantial cause of serious injury" provision of Section 201, and as a result, the ITC more frequently rules in favor of antidumping duties. Furthermore, the application of duties does not require the additional approval of the President. These legal factors explain the much greater use of antidumping than the escape clause in the United States, and it is also becoming more commonly used in other countries, as described by Prusa (2001).
 
 There is a surprising third category of antidumping cases shown in Table 7.1: of the roughly 400 cases in the U.S. over this period, about 100 or one-quarter of these were withdrawn prior to a ruling by the ITC. What are we to make of these cases? Prusa (1991, 1992) describes how U.S. antidumping law actually permits the U.S. firms to withdraw its case, and then acting through an intermediary at the DOC, agree with the foreign firm on the level of prices and market shares! This type of communication between two American firms would be illegal under U.S. anti-trust law, of course, but is exempted from prosecution in anti-dumping cases under the so-called Noerr-Pennington doctrine. As we would expect, these withdrawn cases result in a significant increase in market prices, with losses for consumers, as will be discussed at the end of the chapter.
 
-# Social Welfare
+## Social Welfare
 
 In the previous chapter we were careful to allow for heterogeneous consumers, and considered systems of lump-sum transfers or commodity taxes and subsidies such that everyone could be better off (Pareto gains from trade). It will now be convenient to adopt a simpler measure of overall social welfare, without worrying about whether every individual is better off or not. To construct this we need to have a method to "add up" the utilities of consumers. This will be achieved by assuming that every individual has a quasi-linear utility function, given by
 
@@ -89,7 +89,7 @@ The second line of (7.3) follows by noting that  $\mathrm{y -d(p) =m}$  and comb
 
 We will be discussing each of the terms on the last line of (7.3) throughout this chapter, but note here the similarity between these terms and those derived in the previous chapter. The first term on the last line of (7.3) can be interpreted as the efficiency cost of the tariff, much like the term  $t^{1'}(m^1 - m^0)$  in chapter 6; the second term is the effect of the tariff on the foreign price  $p^*$ , or the terms of trade effect, like  $(p^{*0} - p^{*1})'m^0$  in chapter 6; and the third term reflects the change in industry output times the price-cost margin, like  $(p - \widetilde{p})'(y - y^a)$  in chapter 6. This third term reflects the fact that with imperfect competition there is a gap between the price or consumer valuation of a product, and the marginal costs to firms. This distortion due to monopolistic pricing creates an efficiency loss, and any increase in domestic output will therefore offset that loss and serve to raise welfare.
 
-# Perfect Competition, Small Country
+## Perfect Competition, Small Country
 
 Holding  $\mathfrak{p}^*$  fixed, we already argued in the previous chapter that "free trade is better than restricted trade for a small country." In other words, the optimal tariff is zero. We now provide a more direct demonstration of this result, and also show how the welfare loss due to a tariff can be measured. Under perfect competition profits are maximized when  $\mathfrak{p} = \mathrm{C}'(\mathfrak{y})$ , so the final term in (7.3) is zero. When world prices are fixed and domestic prices given by  $\mathfrak{p} = \mathfrak{p}^* + \mathfrak{t}$ , then  $\mathrm{dp}^*/\mathrm{dt} = 0$  and  $\mathrm{dp}/\mathrm{dt} = 1$ . Using these various relations in (7.3), we readily obtain:
 
@@ -125,7 +125,7 @@ $$
 
 The final expression in (7.7) is negative since the tariff reduces imports, so the welfare loss equals one-half times the increase in price times the change in imports. This loss is illustrated in Figure 7.1. In panel (a) we show the domestic demand curve D and supply curve S, together with the constant world price  $\mathfrak{p}^*$ . Under free trade, domestic demand is at  $c_0$  and supply at  $y_0$ , so imports are  $\mathrm{m}_0 = \mathrm{c}_0 - \mathrm{y}_0$ . This is shown in panel (b), which graphs the import demand curve  $\mathrm{M} = \mathrm{D} - \mathrm{S}$ . We can think of the fixed world price  $\mathfrak{p}^*$  as establishing a horizontal export supply curve X, which intersects M at the equilibrium imports  $\mathrm{m}_0$ .
 
-With the import tariff of t, the export supply curve shifts up to  $\mathrm{X} + \mathrm{t}$  in panel (b), leading to the equilibrium domestic price of  $\mathfrak{p} = \mathfrak{p}^{*} + \mathfrak{t}$ . Thus, the domestic price increases by the full amount of the tariff. In panel (a), this leads to reduced demand of  $c_{1}$  and increased supply of  $y_{1}$ . The change in welfare in Figure 7.1(a) can be decomposed as:  $-(a + b + c + d)$  consumer surplus loss + (a) producer surplus gain + (c) tariff revenue = - (b+d), which is always negative. Area (b+d) is the deadweight loss of the tariff, and also shown as the triangle under the import demand curve in panel (b). The area (d) is interpreted as the consumer surplus loss for those units no
+With the import tariff of t, the export supply curve shifts up to  $\mathrm{X} + \mathrm{t}$  in panel (b), leading to the equilibrium domestic price of  $\mathfrak{p} = \mathfrak{p}^{*} + \mathfrak{t}$ . Thus, the domestic price increases by the full amount of the tariff. In panel (a), this leads to reduced demand of  $c_{1}$  and increased supply of  $y_{1}$ . The change in welfare in Figure 7.1(a) can be decomposed as:  $-(a + b + c + d)$  consumer surplus loss + (a) producer surplus gain + (c) tariff revenue = - (b+d), which is always negative. Area (b+d) is the deadweight loss of the tariff, and also shown as the triangle under the import demand curve in panel (b). The area (d) is interpreted as the consumer surplus loss for those units no longer purchased (i.e.  $c_0 - c_1$ ), while the area (b) is interpreted as the increase in marginal costs (along the supply curve) for the extra units produced (i.e.  $y_1 - y_0$ ).
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/c3567f68b318be293e3656f7530427f465b9d7acb96a8704c4e49f1465330187.jpg)
 (a) Domestic market
@@ -141,8 +141,6 @@ Figure 7.2: Large Country
 Figure 7.1: Small Country
 (b) Import market
 
-longer purchased (i.e.  $c_0 - c_1$ ), while the area (b) is interpreted as the increase in marginal costs (along the supply curve) for the extra units produced (i.e.  $y_1 - y_0$ ).
-
 So we see that the deadweight loss of the tariff can be measured by a triangle under the import demand curve. Since both the height and the base of the triangle depend on the tariff, the area of the triangle itself is of the second-order of smalls for a small tariff, i.e. the deadweight loss in (7.7) depends on the square of the tariff. Notice that we can re-write (7.7) to measure the deadweight loss as a fraction of import expenditure:
 
 $$
@@ -151,7 +149,7 @@ $$
 
 For example, with a  $10\%$  tariff and an import demand elasticity of 2, the deadweight loss relative to import expenditure will be  $1\%$ . As is typical for triangle calculations, we see that the deadweight loss is quite small for moderate tariffs. This fact has led many researchers to conclude that a formula like (7.7') does not capture the inefficiencies present in import substitution regimes. We will be investigating some reasons why the deadweight loss of trade restrictions may well be greater than (7.7'). This can occur if foreign firms anticipate the tariffs, as with antidumping duties (discussed later in this chapter), or if quotas are used instead of tariffs (discussed in the next chapter), or due to the effect of tariffs on decreasing the variety of import products available. This latter effect has been emphasized by Feenstra (1992) and Romer (1994). Both authors provide simple formulas to compute welfare losses due to a reduction in import varieties, and these are much greater than (7.7'). In addition, Feenstra (1988b) and Klenow and Rodríguez-Clare (1997) provide estimates of the welfare gain due to new import varieties, which can be substantial.
 
-# Perfect Competition, Large Country
+## Perfect Competition, Large Country
 
 For a large country, we suppose that the world price of imports depends on the tariff chosen, which is written as  $\mathfrak{p}^* (\mathfrak{t})$ . Generally, we define the terms of trade as the price of a country's exports divided by the price of its imports, so that a fall in the import price  $\mathfrak{p}^*$  is an improvement in the terms of trade. We will argue a tariff leads to such an improvement in the terms of trade under perfect competition, as we assume in this section. In the next section we will examine the sign of this derivative under foreign monopoly.
 
@@ -213,7 +211,7 @@ Think about the foreign price  $\mathfrak{p}^*$  as being chosen strategically b
 
 of the tariff: if domestic prices rise by less than the tariff, so that  $\mathrm{dp} / \mathrm{dt} < 1$ , this means that foreign exporters have absorbed part of the tariff,  $\mathrm{dp}^* / \mathrm{dt} < 0$ , which is a terms of trade gain. The smaller the pass-through of the tariff, the larger the optimal tariff from (7.12). The nice feature of this formula is that it puts the emphasis on the pricing decisions made by foreign exporters, which is entirely appropriate. We analyze this decision of foreign firms next.
 
-# Foreign Monopoly
+## Foreign Monopoly
 
 We turn now to the case of a single foreign exporter, selling into the home market. The idea that this firm does not have any competitors in the home market is not very realistic: tariffs are designed to protect domestic firms, and if there are none, we would not expect a tariff! So the assumption of a foreign monopolist should be thought of as a simplification. Our analysis of this case follows Brander and Spencer (1984a,b).
 
@@ -296,7 +294,7 @@ $$
 
 Using the fact that  $\mathrm{dx} / \mathrm{d}\tau < 0$ , we see that  $\mathrm{dp}^* / \mathrm{d}\tau < 0$  when  $\eta'(x) < 0$ , meaning that the elasticity of demand increases as consumption of the importable falls. In that case the tariff leads to a fall in the price-cost margin set by the foreign exporter, so that  $\mathfrak{p}^*$  falls, which is a terms of trade gains for the importer. Thus, we summarize our results with:
 
-# Theorem (Brander and Spencer, 1984a,b)
+## Theorem (Brander and Spencer, 1984a,b)
 
 When the home country imports from a foreign monopolist with constant marginal costs, then:
 
@@ -305,7 +303,7 @@ When the home country imports from a foreign monopolist with constant marginal c
 
 Notice that the condition the  $\eta'(x) < 0$  in part (b) is identical to the assumption on the elasticity of demand used by Krugman (1979), as discussed at the beginning of chapter 5. This case applies for linear or concave demand curves, and more generally, any curve that is "less convex" than a constant-elasticity demand curve.
 
-# Cournot Duopoly
+## Cournot Duopoly
 
 Let us now introduce a domestic firm that is competing with the foreign firm in the domestic market. We will have to specify the strategic variables chosen by the firms, and will assume Cournot competition in quantities in this section, and Bertrand competition in prices in the next. To avoid covering too many cases, we will focus on specific tariff with Cournot competition, and the ad valorem tariff with Bertrand competition. To preview our results in this section, we confirm the finding of Helpman and Krugman (1989, section 6.1) that a positive tariff is very likely to be the optimal policy under Cournot duopoly.
 
@@ -389,7 +387,7 @@ $$
 
 This very simple expression is the alternative to (7.3) when profits are identically zero. For small tariffs, the final term vanishes, so the change in welfare depends on a comparison of the first two terms. It is immediate that welfare of the importing country increases for a small tariff if and only if  $\mathrm{dp} / \mathrm{dt} < \mathrm{m} / \mathrm{d}(\mathrm{p})$ . The interpretation of this condition is that the pass-through of the tariff to domestic prices must be less than the import share  $\mathrm{m} / \mathrm{d}(\mathrm{p})$ . Thus, having a terms of trade gain due to the tariff (meaning that  $\mathrm{dp} / \mathrm{dt} < 1$ ) is no longer sufficient to obtain a welfare improvement; instead, we must have  $\mathrm{dp} / \mathrm{dt} < \mathrm{m} / \mathrm{d}(\mathrm{p})$ . We will be reviewing estimates of the pass-through later in the chapter, and it is not unusual to find that  $50 - 75\%$  of a tariff is reflected in the import price. Under Cournot competition and free entry, this would be welfare improving (due to tariff revenue raised) only in an industry where the import share exceeds this magnitude.
 
-# Bertrand Duopoly
+## Bertrand Duopoly
 
 We turn next to the case of Bertrand competition between the home and foreign firm, where they are choosing prices as strategic variables. If the domestic and imported good are perfect substitutes, as we assumed in the previous section, then Bertrand competition leads to marginal cost pricing. To avoid this case, we will suppose that the domestic and import good are imperfect substitutes, with the price of the import good denoted by  $p$  and the domestic good by  $q$ .
 
@@ -463,7 +461,7 @@ relative strength of these effects. It turns out that if the increase in domesti
 
 The finding that domestic output may rise due to the tariff depends on our maintained assumption that total expenditure I on the import and domestic products is constant. This would apply, for example, with a Cobb-Douglas utility function between an aggregate of the products  $(\mathrm{d}, \mathrm{d}^{*})$  and all other goods in the economy, but would not be true otherwise. Generally, total expenditure on the import and domestic products can rise or fall due to the tariff, and the latter case could lead to a fall in domestic output and a welfare loss. So the "profit shifting" motive for import protection is not that robust, as we also found under Cournot competition. Instead, the terms of trade motive for tariffs becomes the best indicator of gain or loss for the importing country. Under our assumptions that the elasticity of demand is increasing in price or decreasing in quantity, there is a term of trade gain for the importer, and the optimal tariff is positive for that reason. Conversely, with constant elasticities of demand the optimal tariff is zero. Finally, in the somewhat unusual case where the elasticity of demand is decreasing in price or increasing in quantity, then an import subsidy is optimal.
 
-# Tariffs on Japanese Truck and Motorcycles
+## Tariffs on Japanese Truck and Motorcycles
 
 We have found that with imperfect competition, a terms of trade argument for a tariff is likely but not guaranteed. The "strategic" response of foreign firms in adjusting their price  $p^*$  then becomes an interesting empirical question. Feenstra (1989) provides some empirical evidence on this for two U.S. tariffs initially applied during the early 1980s: a  $25\%$  tariff on imports of compact trucks, coming from Japan; and a temporary, declining tariff beginning at  $45\%$  on imports of heavyweight motorcycles from Japan. The history of how these tariffs came to be applied is itself an important lesson in trade policy.
 
@@ -473,17 +471,15 @@ Accordingly, in June 1980 the United Automobile Workers applied to the ITC for p
 
 With this negative determination, several congressmen from mid-western states continued to pursue import limits by other means. For cars imported for Japan, this protection took the form of a "voluntary" restraint on the quantity of imports, as described in the next chapter. For trucks imported from Japan, however, another form of protection was available. During the 1970s, Japan had exported an increasing number of compact trucks to the U.S., most as cab/chassis with some final assembly needed. These were classified as "parts of trucks," which carried a tariff rate of  $4\%$ , whereas "complete or unfinished trucks" carried a tariff rate of  $25\%$ . That unusually high tariff was a result of the "Chicken War" between the U.S. and West Germany in 1962. At that time, Germany joined the European Economic Community (EEC), and was required to adjust its external tariffs to match those of the other EEC countries. This resulted in an increase in its tariff on poultry, which was imported from the United States. In retaliation, the U.S. increased its tariffs on "complete or unfinished trucks" and other products, so the  $25\%$  tariff on trucks became a permanent item of the U.S. tariff code. With prodding from the Congress, in 1980 the U.S. Customs Service announced that effective August 21 import lightweight cab/chassis would be reclassified as complete trucks. This raised the tariff rates on nearly all Japanese trucks from  $4\%$  to  $25\%$ , which remains in effect today.[10]
 
-A second increase in tariffs occurred during the 1980s on heavyweight motorcycles (i.e. over 700 cc displacement), produced by Harley-Davidson. That company also applied to the ITC for Section 201 protection, in 1983. It was being impacted not so much by the U.S. recession, as from a long period of lagging productivity combined with intense competition from Japanese producers. Two of these (Honda and Kawasaki) had plants in the U.S. and also imported, whereas two others (Suzuki and Yamaha) produced and exported from Japan. In the
-
-early 1980s, these firms were engaged in global price war that spilled over into the U.S. market. As a result, inventories of imported heavyweight cycles rose dramatically in the United States: the ITC estimated that inventories as of September 1982 exceeded actual U.S. consumption during January – September of that year (USITC, 1983, p. 13).
+A second increase in tariffs occurred during the 1980s on heavyweight motorcycles (i.e. over 700 cc displacement), produced by Harley-Davidson. That company also applied to the ITC for Section 201 protection, in 1983. It was being impacted not so much by the U.S. recession, as from a long period of lagging productivity combined with intense competition from Japanese producers. Two of these (Honda and Kawasaki) had plants in the U.S. and also imported, whereas two others (Suzuki and Yamaha) produced and exported from Japan. In the early 1980s, these firms were engaged in global price war that spilled over into the U.S. market. As a result, inventories of imported heavyweight cycles rose dramatically in the United States: the ITC estimated that inventories as of September 1982 exceeded actual U.S. consumption during January – September of that year (USITC, 1983, p. 13).
 
 From our description of Section 201 at the beginning of the chapter, recall that protection can be recommended if increased imports are a "substantial cause of serious injury, or threat thereof, to the domestic industry." The very high level of inventories held by Japanese producers was judged by the ITC to be a threat to the domestic industry, and protection was indeed granted. This protection took the form of a five-year declining tariff schedule:  $45\%$  effective April 16, 1983, and then declining annually to  $35\%$ ,  $20\%$ ,  $15\%$  and  $10\%$ , and scheduled to end in April 1988.[11] In fact, Harley-Davidson petitioned the ITC to end the tariff early, after the  $15\%$  rate expired in 1987, by which time it had cut costs and introduced new and very popular products, so profitability had been restored.
 
 U.S. imports of compact trucks and heavyweight cycles from Japan provide ideal industry cases to study the pass-though of the tariffs to U.S. prices. We are especially interested in whether Japanese producers absorbed part of the tariff, which would be a terms of trade gain for the United States, or whether they fully passed it through to U.S. prices. There are few studies of the pass-through of tariffs, but many studies of the pass-through of exchange rates, i.e. the response of import prices to change in the value of the exporter's currency. Most studies at either the aggregate or disaggregate level suggest that the pass-through of exchange rates is less
 
-than complete, and averages about 0.6 (Goldberg and Knetter, 1997, p. 1250), though this depends on the industry being studied. $^{12}$  We will argue below that the pass-through of tariffs and exchange rates ought to be "symmetric" in a given industry, and will test this hypothesis for trucks and motorcycles. In addition, we will include U.S. import of Japanese cars before the VER in our sample, though for that product we will only estimate the pass-through of the exchange rate.
+than complete, and averages about 0.6 (Goldberg and Knetter, 1997, p. 1250), though this depends on the industry being studied. $^{12}$ We will argue below that the pass-through of tariffs and exchange rates ought to be "symmetric" in a given industry, and will test this hypothesis for trucks and motorcycles. In addition, we will include U.S. import of Japanese cars before the VER in our sample, though for that product we will only estimate the pass-through of the exchange rate.
 
-# Estimating the Terms of Trade Effect
+## Estimating the Terms of Trade Effect
 
 To obtained an estimating equation, let us begin with the first-order condition of a typical foreign exporter, in (7.28a), where we treat foreign marginal costs  $C^*$  as constant, and re-write this as  $c^*$ , in the foreign currency. We need to convert this to the domestic currency using an expected exchange rate  $e$ , so we re-write (7.28a) as:
 
@@ -523,7 +519,7 @@ Table 7.2: Regressions for Japanese Imported Products Dependent Variable - Impor
 
 <table><tr><td></td><td>Cars</td><td>Trucks</td><td>Cycles (consumption)</td><td>Cycles (shipments)</td><td>Cycles (pooled)</td></tr><tr><td>Period:</td><td>74.1-81.1</td><td>77.1-87.1</td><td>78.1-84.4</td><td>78.1-87.1</td><td>78.1-87.1</td></tr><tr><td rowspan="2">c*st</td><td>0.44*</td><td>0.28*</td><td>0.29</td><td>0.80</td><td>0.45*</td></tr><tr><td>(0.11)</td><td>(0.06)</td><td>(0.26)</td><td>(0.72)</td><td>(0.21)</td></tr><tr><td rowspan="2">c*Tst-1</td><td>0.32*</td><td>0.14*</td><td>0.17*</td><td>-0.042</td><td>0.10</td></tr><tr><td>(0.04)</td><td>(0.03)</td><td>(0.10)</td><td>(0.28)</td><td>(0.09)</td></tr><tr><td rowspan="2">c*Tst-2</td><td>0.17*</td><td>0.06</td><td>0.12</td><td>-0.34</td><td>-0.031</td></tr><tr><td>(0.08)</td><td>(0.050)</td><td>(0.15)</td><td>(0.57)</td><td>(0.16)</td></tr><tr><td rowspan="2">c*Tst-3</td><td>-0.01</td><td>0.05</td><td>0.12</td><td>-0.083</td><td>0.042</td></tr><tr><td>(0.05)</td><td>(0.03)</td><td>(0.08)</td><td>(0.23)</td><td>(0.087)</td></tr><tr><td rowspan="2">c*Tst-4</td><td>-0.21*</td><td>0.10</td><td>0.19</td><td>0.72</td><td>0.32</td></tr><tr><td>(0.10)</td><td>(0.08)</td><td>(0.23)</td><td>(0.82)</td><td>(0.22)</td></tr><tr><td rowspan="2">Exchange ratea</td><td>0.71*</td><td>0.63*</td><td>0.89*</td><td>1.05*</td><td>0.89*</td></tr><tr><td>(0.10)</td><td>(0.08)</td><td>(0.36)</td><td>(0.56)</td><td>(0.22)</td></tr><tr><td rowspan="2">Tariff</td><td>-</td><td>0.57*</td><td>0.95*</td><td>1.39*</td><td>1.13*</td></tr><tr><td>-</td><td>(0.14)</td><td>(0.22)</td><td>(0.30)</td><td>(0.16)</td></tr><tr><td rowspan="2">U.S. price</td><td>1.00</td><td>0.03</td><td>0.68</td><td>1.14</td><td>0.57</td></tr><tr><td>(0.93)</td><td>(0.40)</td><td>(0.60)</td><td>(2.17)</td><td>(0.59)</td></tr><tr><td rowspan="2">German price</td><td>0.08</td><td>-</td><td>0.06</td><td>0.12</td><td>0.06</td></tr><tr><td>(0.09)</td><td>-</td><td>(0.11)</td><td>(0.23)</td><td>(0.11)</td></tr><tr><td rowspan="2">Income</td><td>-0.03</td><td>-0.03</td><td>-0.23</td><td>-0.23</td><td>0.02</td></tr><tr><td>(0.12)</td><td>(0.06)</td><td>(1.69)</td><td>(0.65)</td><td>(0.01)</td></tr><tr><td>N, Kb</td><td>29, 9</td><td>41, 9</td><td>28, 13</td><td>37, 13</td><td>65, 13</td></tr><tr><td>R2</td><td>0.988</td><td>0.989</td><td>0.907</td><td>0.769</td><td>0.833</td></tr><tr><td>Durbin-Watson</td><td>2.43</td><td>1.75</td><td>2.73</td><td>1.69</td><td>-</td></tr></table>
 
-# Notes:
+## Notes
 
 *Significant at the 95% level with conventional t-test. Standard errors are in parentheses.
 a Sum of coefficients for  $\ln (c_{t}^{*}s_{t - i})$  ,  $i = 0,1,\ldots ,4$  , where  $c_{t}^{*}$  is an aggregate of foreign factor prices, and  $s_{t - i}$  is the spot exchange rate (\$/yen).
@@ -541,7 +537,7 @@ How should we assess the efficacy of the tariff in these two products? The tarif
 
 improved products later offered by Harley-Davidson (which were emulated by its Japanese rivals), the temporary tariff may well have contributed to long-run welfare gains for consumers. In contrast, the compact trucks introduced by American firms after the tariff were quite similar to the existing Japanese models, and brought little additional welfare gain (Feenstra, 1988b).
 
-# Infant Industry Protection
+## Infant Industry Protection
 
 Our discussion of the motorcycle tariff in the U.S. suggests a case where protection may have allowed the domestic industry to avoid bankruptcy. Without arguing that this was definitely the case, let us use this as a possible example of “infant industry” protection. Theoretically, infant industry protection is said to occur when a tariff in one period leads to a sufficient increase in output, and therefore a reduction in future costs, that the firm survives, whereas otherwise it would not. This is a very old idea, dating back to Hamilton (1791), List (1856) and Mill (1909). An essential assumption of the infant industry argument is that the firm needs to earn positive profits each period to avoid bankruptcy. That is, there must be some reason that the capital market does not allow the industry to cover current losses by borrowing against future profits. A model of infant industry protection is developed by Dasgupta and Stiglitz (1988), and more recent treatment is in Melitz (2002). A historical example to the U.S. steel rail industry is provided by Head (1994).
 
@@ -549,7 +545,7 @@ An infant industry is an example of declining marginal costs, i.e. when the futu
 
 "strategic" trade policies. Krugman (1984) uses a model of declining marginal costs to argue that import promotion might act as export promotion: that protecting an import industry today might turn it into an export industry tomorrow. This intriguing idea is investigated for the production of random access memory chips by Baldwin and Krugman (1988a), and further empirical work would be desirable.
 
-# Dumping
+## Dumping
 
 If there is a case to be made for infant industry protection, whereby an increase in the import price allows a firm to survive, then the reverse should also be true: a decrease in the import prices might lead a firm to shut down. This would be an example of “predatory dumping,” whereby a foreign exporter would lower its prices in anticipation of driving rivals in the domestic country out of business. A model of predatory dumping is developed by Hartigan (1996), and like the infant industry argument, it relies on a capital market imperfection that prevents the home firm from surviving a period of negative profits.
 
@@ -559,7 +555,7 @@ In his classic list of reasons for dumping, Jacob Viner referred to "long-run" o
 
 emphasizing demand uncertainty and excess capacity, leading to dumping. But subsequent literature has focused on a simpler framework without uncertainty, where dumping is a natural occurrence under imperfect competition as oligopolists enter each other's markets. This is demonstrated in the next section, using the "reciprocal dumping" model of Brander (1981) and Brander and Krugman (1983).
 
-# Reciprocal Dumping
+## Reciprocal Dumping
 
 To model the oligopolistic competition between foreign and domestic firms, we return again to the Cournot model used earlier in the chapter, but now allow for a number of firms  $N$  in the home country and  $N^*$  abroad. The home firms sell  $y_i$  in the home market and export  $y_i^*$ ,  $i = 1, \dots, N$ , while the foreign firms sell  $x_j$  in the home country and  $x_j^*$  in their own local market,  $j = 1, \dots, N^*$ . The equilibrium price in the home market will be denoted by  $p(z)$ , where  $z = \sum_{i=1}^{N} y_i + \sum_{j=1}^{N^*} x_j$ , and the foreign price is  $p^*(z^*)$ , where  $z^* = \sum_{i=1}^{N} y_i^* + \sum_{j=1}^{N^*} x_j^*$ .
 
@@ -626,16 +622,16 @@ sales in each county exceed imports (due to the assumption of equal marginal cos
 Notice that the solutions for  $\mathbf{N}$  and  $\mathbf{N}^*$  from (7.41) are not guaranteed to be positive, though this occurs if each firm sells more in its local market than in its export market,  $(\mathrm{y /z}) > (\mathrm{y}^* / \mathrm{z}^*)$  and  $(\mathrm{x}^* / \mathrm{z}^*) > (\mathrm{x /z})$ . To determine when this will be the case, let us make the simplifying assumption that the elasticity of demand is equal in the two markets,  $\eta = \eta^*$ . Then we can substitute the market shares from the first-order conditions (7.38) and (7.39) into (7.41), and use  $\eta = \eta^*$  to obtain:
 
 $$
-N = \frac{\eta}{D} \left(\frac{c T}{p} - \frac{c}{p^{*}}\right) > 0 \text{if an do nl yi f} p / T <   p^{*} \tag {7.42a}
+N = \frac{\eta}{D} \left(\frac{c T}{p} - \frac{c}{p^{*}}\right) > 0 \text{if and only if} p / T <   p^{*} \tag {7.42a}
 $$
 
 $$
-N^{*} = \frac{\eta}{D} \left(\frac{c T}{p^{*}} - \frac{c}{p}\right) > 0 \text{if an do nl yi f} p^{*} / T <   p. \tag {7.42b}
+N^{*} = \frac{\eta}{D} \left(\frac{c T}{p^{*}} - \frac{c}{p}\right) > 0 \text{if and only if} p^{*} / T <   p. \tag {7.42b}
 $$
 
 Thus, we have obtained the following result:
 
-# Theorem (Weinstein, 1992; Feenstra, Markusen and Rose, 1998)
+## Theorem (Weinstein, 1992; Feenstra, Markusen and Rose, 1998)
 
 When the elasticities of demand and marginal costs of production are equal across countries, and firms in both countries are selling in both markets, then reciprocal dumping necessarily occurs:  $\mathrm{p} / \mathrm{T} < \mathrm{p}^*$  and  $\mathrm{p}^* / \mathrm{T} < \mathrm{p}$ .
 
@@ -643,7 +639,19 @@ Remarkably, reciprocal dumping is guaranteed whenever the firms are selling in b
 
 grows. As  $\mathbf{N}^*$  grows, the equilibrium price  $p^*$  in the foreign market falls. For a sufficiently high number of foreign firms, the inequality  $p / T < p^*$  becomes an equality, and at this point the number of domestic firms from (7.42a) is zero: import competition has eliminated the domestic industry. However, note from (7.42b) that we still have  $p^*/T < p$ , so that the foreign firms are dumping into the domestic market. Thus, even when the number of firm in one country has grown large enough to eliminate competition in the other, unilateral dumping still occurs.
 
-# Welfare Effect of Trade
+```d2
+direction: right
+home_country: Home Country
+foreign_country: Foreign Country
+home_firm: Home Firm
+foreign_firm: Foreign Firm
+home_firm -> home_country: Local Sales
+foreign_firm -> foreign_country: Local Sales
+home_firm -> foreign_country: Export (dumping)
+foreign_firm -> home_country: Export (dumping)
+```
+
+## Welfare Effect of Trade
 
 This model of reciprocal dumping is an alternative explanation for "intra-industry" trade, which we studied in chapter 5 under a monopolistic competition model. In that case, we argued that trade would bring extra gains, due to the increased variety of products and also economies of scale. But in the Cournot model we are studying, the firms are selling a homogeneous product so that there are no gains due to product variety, but instead losses due to wasted transportation costs in "cross hauling." On the other hand, trade brings a reduction in the exercise of monopoly power, due to the competition introduced from foreign firms. So this raises the question of which effect dominates: the social loss due to wasted transportation, or the social gain due to reduced monopoly power?
 
@@ -656,13 +664,13 @@ foreign firm will indeed sell to the home market. $^{18}$  Suppose that imports 
 
 However, with free entry of firms in both countries, Brander and Krugman argue that global welfare necessary improves due to free trade. The welfare function with multiple firms is  $\mathrm{W(p,L +tm +N\pi)}$ , where  $\pi$  is the profits of each home firm, but with profits equal to zero this becomes  $\mathrm{W(p,L +tm)}$ . Furthermore, comparing autarky and free trade we have zero tariff revenue in each case, so welfare is just  $\mathrm{W(p,L)}$ . Thus, welfare will rise going from autarky to free trade if and only if the import price falls. Brander and Krugman argue that this is indeed the case: with import competition, prices unambiguously fall, so welfare in both countries improves. The fall in prices is also reflected in a fall in average costs (since price equals average costs from zero profits), which implies the output of each firm increases going from autarky to free trade. So similar to the monopolistic competition model of chapter 5, we have that trade brings gains due to the exercise of economies of scale. But unlike the monopolistic competition model, these gains come despite the fact that trade is intrinsically wasteful due to the homogeneous product and transportation costs.
 
-# Impact of Anti-Dumping Duties
+## Impact of Anti-Dumping Duties
 
 Suppose that instead of comparing global welfare under free trade and autarky, we instead consider the effect of an anti-dumping duty imposed by one country. When the number of firms is fixed at, say, one in each country, this corresponds to the case of Cournot duopoly analyzed earlier in the chapter. We found there that a small duty was likely to improve the terms of trade for the importing country, and may also contribute to an efficiency gain through increasing the output of the home firm. For both reasons, a small tariff was welfare improving for the importer. Should we think of anti-dumping duties in the same way?
 
 The answer is no. Rather than leading to an improvement in the terms of trade, the application of anti-dumping law can often lead to a worsening of the terms of trade and a welfare loss for the importing country. To understand this, we need to review the administration of these laws in the United States. As discussed by Staiger and Wolak (1994), antidumping actions go through several distinct phases: an initial investigation by the DOC, which determines whether or not the imported product is being sold at "less than fair value;" followed by an initial investigation by the ITC to determine whether or not the domestic industry is "materially injured;" followed by a final determination of both agencies; followed by the application of duties if both findings are affirmative and the case is not withdrawn; and then also an annual administrative review in cases where duties are imposed (Blonigen and Haynes, 2002). Let us consider how each of these stages affects prices.
 
-# Initial Investigation
+## Initial Investigation
 
 In the first stage of an investigation, which we call period 1, the DOC compares the prices of imported products with their prices (or costs) abroad. This calculation involves comparing the f.o.b. price received by the foreign exporter, which we denote by  $p_1 / T$ , with their
 
@@ -672,13 +680,13 @@ Notice that the duty applied in period 2 depends on the price charged by the exp
 
 There is evidence that this investigation stage of dumping actions does indeed lead to an impact on imports, though this is often measured by the effect on quantities rather than prices. Using a sample of all antidumping cases in the United States from 1980-85, Staiger and Wolak (1992) find that the initiation of an investigation has a substantial impact on imports, reducing them by about one-half as much as that would have occurred under duties. The implication is that import prices must increase, leading to a loss for the importer.
 
-# Withdrawal of Cases
+## Withdrawal of Cases
 
 While the DOC finds evidence of "pricing at less than fair value" in most cases, the ITC rules in favor of "material injury" in only about one-half of the cases it considers. Thus, of some 400 cases in the U.S. during 1980-88, about 150 were rejected by the ITC and another 150 had
 
 duties levied. As shown in Table 7.1, the remaining 100 cases or one-quarter of the total were withdrawn prior to a ruling by the ITC. As described by Prusa (1991, 1992), in these cases the U.S. firms can negotiate with the foreign firm on the level of prices and market shares. Prusa finds that withdrawals have about the same impact on reducing import quantity as do actual duties, which is also found by Staiger and Wolak (1992). Again, the implication is that import prices would rise, with a direct welfare loss for the importing country.
 
-# Continuing Investigations
+## Continuing Investigations
 
 Consider now the case where an anti-dumping duty has been imposed, and denote the period 2 import price (inclusive of duty) by  $p_2$ . Suppose that there is an administrative review to re-calculate the amount of duty imposed in period 3. In calculating dumping margins during the administrative review, the DOC removes the tariff from the import price  $p_2$ , and also removes any transport costs, obtaining  $p_2 / [T(1 + \tau_2)]$  as the f.o.b. price for the foreign exporter. This is compared to the exporters home price of  $p^*$  to determine whether the foreign firm is continuing in its practice of "pricing at less than fair value." Whenever  $p_2 / [T(1 + \tau_2)] < p^*$ , then duties of  $(1 + \tau_3) = p^* / [p_2 / T(1 + \tau_2)] > 1$  are imposed in period 3.
 
@@ -698,7 +706,7 @@ From a welfare point of view, this result very likely violates the criterion for
 
 importer. This occurs because the duties being imposed are treated by the exporter as endogenous, and create an incentive to raise prices so as to avoid the duties.
 
-# Conclusions
+## Conclusions
 
 Since this chapter has covered a large number of different models, a summary is appropriate. Consider tariffs that are exogenously imposed, such as under the escape clause provision of the GATT/WTO. In general, this will have three welfare effects on the importing country: (a) a deadweight loss; (b) a terms of trade effect; (c) a reduction in the monopoly distortion if the output of home firms increase (without leading to inefficient entry). The deadweight loss always harms the importer, but is of the second-order of smalls for a small tariff. The change in the output of home firms, sometimes referred to as a "profit shifting" effect, is of ambiguous sign and cannot be relied upon to generate gains for the importer. Accordingly, the best indicator of the welfare impact of small tariffs is the terms of trade effect.
 
@@ -713,67 +721,4 @@ What can prevent a country from attempting to move the terms of trade in its fav
 while allowing for exceptions in specific circumstances. The linkage was made explicit in the recent Section 201 protection to the steel industry in the U.S., where the Bush administration hoped to secure additional votes for "fast track" authority.[23] So Article XIX of the GATT and Section 201 of U.S. trade law need to be assessed in a broader political-economy context of securing industry support for free trade. Given that these provisions are used rarely, and only temporarily, they can be viewed as rather effective.
 
 The same is not true of the anti-dumping provisions of GATT. As we have argued, the GATT definition of dumping will apply in many markets subject to imperfect competition, and there has been an increasingly widespread use of the dumping provisions. The anti-dumping duties that are imposed must be treated as endogenous: they depend on the prices chosen by the exporter prior to, and during, the dumping action. This creates an incentive for exporter to raise their prices before dumping duties are imposed, and to raise them even further before an administrative review of the dumping case. These actions correspond to a terms of trade loss for the importer, as indicated by the empirical evidence of Blonigen and Haynes (2002). This can also be reflected in an increase in the price of import-competing products, of course, so the anti-dumping duties act so as to promote more collusive behavior. Gallaway, et al (1999) estimate the combined welfare cost of anti-dumping and countervailing duty legislation in the U.S. to be some \$4 billion in 1993. In the next chapter, we will also find that import quotas can lead to more collusive behavior among firms, so that along with anti-dumping legislation, these must be judged as very costly policies.
-
-# Problems
-
-7.1 Derive the optimal specific tariff from (7.12) in the case where there is a single foreign firm, and the demand curve  $\mathrm{d}(\mathrm{p})$  is linear.
-7.2 Derive conditions under which the Cournot reaction curves in Figure 7.4 are both downward sloping.
-7.3 By totally differentiating the equilibrium condition (7.22), show that:
-
-(a)  $\mathrm{dy} / \mathrm{dt} > 0$  provided that  $\mathrm{p}'(\mathrm{x} + \mathrm{y}) + \mathrm{yp}''(\mathrm{x} + \mathrm{y}) < 0$ ;
-(b) The total change in home profits  $\pi$  due to the tariff is positive.
-
-7.4 In this problem we derive the properties of the elasticities used with Bertrand competition.
-
-(a) First review problem 1.2 of chapter 1, and show that if a function  $y = f(v)$  is homogeneous of degree  $\alpha$ , meaning that for all  $\lambda > 0$ ,  $f(\lambda v) = \lambda^{\alpha} f(v)$ , then its first derivative is homogeneous of degree  $\alpha - 1$ .
-(b) Thus, if demand  $\mathrm{d}(\mathrm{p},\mathrm{q},\mathrm{I})$  is homogeneous of degree zero in  $(\mathfrak{p},\mathfrak{q},\mathfrak{I})$ , then  $\mathrm{d_q(p,q,I)}$  is homogeneous of degree minus one. Use this to show that  $\eta (\mathrm{p},\mathrm{q},\mathrm{I}) = \mathrm{qd_q(p,q,I)} / \mathrm{d(p,q,I)}$  is homogeneous of degree zero in  $(\mathfrak{p},\mathfrak{q},\mathfrak{I})$ .
-(c) Now assume that the income elasticity is unity, so that demand is written as  $\mathrm{d}(\mathrm{p},\mathrm{q},\mathrm{I}) = \phi (\mathrm{p},\mathrm{q})\mathrm{I}$ . Show that the elasticity  $\eta$  does not depend on I. Therefore, show that the elasticity  $\eta$  can be written as a function of  $\mathbf{q} / \mathbf{p}$ .
-
-7.5 Using the results from problem 7.4, assume that  $\eta^{*'}(\mathrm{p} / \mathrm{q}) > 0$  and  $\eta'(\mathrm{q} / \mathrm{p}) > 0$ .
-
-(a) Then by differentiating the first-order conditions (7.28), show that the reaction curves  $p = r^{*}(q, \tau)$  and  $q = r(p)$  both slope upwards, as shown in Figure 7.6, with elasticities less than unity.
-(b) Also compute the elasticity of the foreign reaction curve  $\mathfrak{p} = \mathfrak{r}^{*}(\mathfrak{q},\tau)$  with respect to  $\tau$ .
-(c) Use the results in (a) and (b) to solve for the total change in  $\mathbf{q}$  and  $\mathfrak{p}$  due to the tariff.
-
-7.6 (a) Output of the home firm is  $y = d(q,p,I)$ . Use the fact that  $d(q,p,I)$  is homogeneous of degree zero in  $(q,p,I)$  to show that  $d_q q + d_p p + d_I I = 0$ . Then use the assumption that the income elasticity of demand is unity to show that  $d_p p / d = (\eta - 1)$ .
-
-(b) Using (a), compute the total change in home output  $y = d(q, p, I)$  as  $p$  increases along the home reaction curve. Show that output increases if  $0 < q\eta' / p\eta < (\eta - 1)^2$ .
-
-7.7 Under Bertrand competition, show that foreign profits fall due to the tariff when  $\eta^{*'}(p/q) > 0$  and  $\eta'(q/p) > 0$ .
-
-7.8 Consider the problem of an exporting firm facing the threat of an anti-dumping duty. Given the period 1 import price chosen by the exporting firm, the duty imposed in period 2 equals  $(1 + \tau_{2}) = p^{*} / p_{1}$  whenever  $p_1 < p^*$ . This tariff is imposed with probability  $\theta$ , and conversely, with probability (1- $\theta$ ) there will be no duty. Denote the value of period 2 profits when the duty is imposed by  $\pi_2^*(\tau_2)$ , where from problem 7.7 we have that  $\pi_2^*(\tau_2) < 0$ . Let  $\pi_2^*(0)$  denote the maximized value of period 2 profits for the foreign firm in the case of zero duty. Then the period 1 problem can be stated as:
-
-$$
-\max_{p_{1}} \pi^{*} \left(p_{1}, q_{1}\right) + \delta \left[ \theta \pi_{2}^{*} \left(\tau_{2}\right) + (1 - \theta) \pi_{2}^{*} (0) \right] \quad \text{s .t .} \quad \left(1 + \tau_{2}\right) = p^{*} / p_{1}. \tag {7.44}
-$$
-
-We suppose that the home firm chooses  $q_1$ , under Bertrand competition. Derive the first-order conditions for the home and foreign firms, and show that the threatened duty leads to an increase in the foreign price  $p_1$ .
-
-# Empirical Exercise
-
-In this exercise, you are asked to reproduce some of the empirical results from Feenstra (1989).
-
-To complete the exercise, the files "cars.csv, trucks.csv, cycon.csv, cyship.csv, cpool.csv"
-
-should be stored in the directory: c:\Empirical_Exercise\Chapter_7/. Each of these can be used
-
-in STATA programs "cars.do, trucks.do, cycon.do, cyship.do, cpool.do"
-
-to create a dataset with the variables described in "Documentation_Chp7.doc." Use these "do"
-
-programs to answer the following:
-
-7.1 Replicate Table 7.2, i.e., run the specifications of (7.34) without imposing the tests of
-
-symmetry or homogeneity. Duplicate all of the coefficients that are reported in this table, except
-
-the Durbin-Watson statistics.
-
-7.2 Then replicate Feenstra's Table 7.2 by imposing the tests of homogeneity and symmetry,
-
-shown in (7.35a) and (7.35b). Instead of conducting the Wald test, as done in Feenstra (1989),
-
-instead conduct the analogous F-test. Do you accept or reject the hypotheses of symmetry and
-
-homogeneity?
 

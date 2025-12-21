@@ -1,31 +1,17 @@
 ---
-parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
 title: 'Lecture 2: Multiperiod Models and Trees'
-tags: null
-aliases:
-- Multiperiod Models and Trees
-parent_folder: Lecture Notes
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: 'Lecture 2: Multiperiod Models and Trees'
+parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
+formatted: 2025-12-21 06:02:00 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-- period models
-- many arbitrage pricing problems
-- trading periods
-- continuous rebalancing
+  - multiperiod models
+  - trees
 secondary_tags:
-- trees introduction models
-- introduction models
-- multiperiod market
-- pricing problems
-- trading period
-- arbitrage pricing
-- 2-period market
-- stronger hypothesis
-- every multiperiod market
-tags_extracted: '2025-12-18T17:57:50.521006'
-tags_method: max_quality_v1
+  - arbitrage pricing
+  - risk neutral pricing
+  - binary market
+cssclasses: academia
 ---
 
 # LECTURE 2: MULTIPERIOD MODELS AND TREES
@@ -97,6 +83,23 @@ did at  $t = 0$ , and at time  $t = 2$  one will know still more, but, generally
 The set of market scenarios may be visualised as a tree of depth  $T$ . The various events that might occur in period 1 are represented by branches emanating from a root node. For each of these branches  $\beta$ , the various events that might occur in the market in period 2, given that  $\beta$  occurred in period 1, may be represented by more branches emanating from the end of  $\beta$ , and so on. At the end of each branch, we place a vertex (also called a node); the nodes of the tree (or alternatively the unique downward paths from the root to the nodes) represent partial, or incomplete scenarios. The terminal nodes – those at depth  $T$  – represent the different possible market scenarios. Thus, the set  $\Omega$  of all possible market scenarios is just the set of all terminal nodes. Since there is a one-to-one correspondence between the set of terminal nodes and the set of downward paths from the root to terminal nodes, we may also visualize  $\Omega$  as the set of all such downward paths.
 
 In most uses of multiperiod models in derivative security pricing, the branches are used to represent the different possible price vectors of the traded assets  $A^j$  at the end of the next trading period. For instance, if there is only one risky asset STOCK, then at each node  $\nu$  of the tree there is one branch emanating from  $\nu$  for each possible share price of STOCK at the next trading time  $t$ . See section 4 below for a simple, concrete example.
+
+```d2
+direction: right
+root: t=0
+period1_up: + (t=1)
+period1_down: - (t=1)
+period2_up_up: ++ (t=2)
+period2_up_down: +- (t=2)
+period2_down_up: -+ (t=2)
+period2_down_down: -- (t=2)
+root -> period1_up
+root -> period1_down
+period1_up -> period2_up_up
+period1_up -> period2_up_down
+period1_down -> period2_down_up
+period1_down -> period2_down_down
+```
 
 Trading Strategies and Arbitrages. A pure trading strategy in the assets  $A^1, A^2, \ldots, A^K$  is a rule (function)  $\phi$  that assigns to each nonterminal node of the tree  $\Omega$  an asset  $A^j$ . The value  $\phi(t) = \phi(t; \omega)$  determines which of the assets one will hold during the time period from  $t$  to  $t + 1$ . The strategy is called pure because it requires the trader using it to put his/her entire fortune into a single asset  $A^j$  at each time  $t$ . Observe that the number of pure trading strategies is  $K^M$ , where  $M$  is the number of nonterminal nodes of the tree. The share price of a pure trading strategy  $\phi$  at time  $t$  under scenario  $\omega$  is defined inductively as follows:
 
@@ -440,31 +443,3 @@ $$
 
 This is a form of the famous Black-Scholes formula. It is surprisingly accurate for call options that are "at or near the money". Later in the course, we shall discuss the Black-Scholes formula in greater depth.
 
-# 8. PROBLEMS
-
-In the following problems, all markets are assumed to be arbitrage-free, and to contain a riskless asset (called BOND), with riskless rate of return  $r$ .
-
-1. Numeraire Invariance. Prove Proposition 1 in the notes.
-2. A Cross-Currency Option. Consider a one-period market in which the following assets are traded: (i) a riskless asset DOLLARACCOUNT, with rate of return  $r$ ; and (ii) a risky (from the point of view of a dollar investor) asset EUROACCOUNT. The time  $t = 0$  "share" prices of DOLLARACCOUNT and EUROACCOUNT are both 1. There are two market scenarios,  $\omega_{1}$  and  $\omega_{2}$ . The time  $t = 1$  share price of EUROACCOUNT in scenario  $\omega_{i}$  is  $S_{E}(\omega_{i})$ , with  $S_{E}(\omega_{1}) < S_{E}(\omega_{2})$ ; the time  $t = 1$  share price of DOLLARACCOUNT is  $e^{r}$ .
-
-NOTE: The assets DOLLARACCOUNT and EUROACCOUNT are "money market" accounts that invest in treasury notes of short duration. The interest rates on these accounts are fixed in advance (that is, there is no uncertainty about the return rates). The reason that the asset EUROACCOUNT is risky is that the exchange rate between EUROS and DOLLARS at  $t = 1$  is subject to uncertainty.
-
-(a) Prove that, if the market is arbitrage-free, then  $S_{E}(\omega_{1}) \leq e^{r} < S_{E}(\omega_{2})$ .  
-(b) Consider a contract CALL that gives the holder the right to exchange 1 share of EUROACCOUNT for 1 share of DOLLARACCOUNT at time  $t = 1$ . What is the  $t = 0$  arbitrage price of this contract?  
-(c) Explain how to replicate CALL in the assets EUROACCOUNT and DOLLARACCOUNT.
-
-3. Put-Call Parity. Consider a single-period market with a risky asset STOCK, a CALL option with strike  $K$ , and a PUT option with strike  $K$ . Show that there is a replicating portfolio in the assets STOCK and CALL for the asset PUT. Deduce a formula for the  $t = 0$  market price of PUT in terms of the  $t = 0$  market prices of STOCK and CALL.
-4. Stocks with Dividends. Consider a  $T$ -period market with a riskless asset BOND whose rate of return is  $r = 0$ . Let STOCK be a risky asset that, at each  $t = 1,2,\ldots,T$ , pays a dividend of  $\delta S_t$  shares of BOND, where  $1 > \delta > 0$  is a fixed constant and  $S_t$  is the current share price of STOCK. Let  $\pi$  be an equilibrium distribution for the market.
-
-(a) Show that
-
-$$
-S_{0} = (1 + \delta)^{T} \sum_{\omega \in \Omega} \pi(\omega) S_{T}(\omega),
-$$
-
-where the sum is over all possible market scenarios  $\omega$ .
-
-(b) What is the forward price  $F_{0}$  of asset STOCK? (NOTE: The forward contract is an agreement made at  $t = 0$  for a BUYER to pay  $F_{0}$  shares of BOND at  $t = T$  in exchange for one share of STOCK.)
-
-5. Buying on the Installment Plan. Let  $\mathcal{M}$  be a  $T-$  period market with two risky assets,  $A^1$  and  $A^2$ , and a riskless asset BOND with rate of return  $r$ . At time  $t = 0$ , GEORGE and WARREN<sup>2</sup> agree to the following deal: At each time  $t = 1, 2, \ldots, T$ , GEORGE will deliver to WARREN  $m$  shares of asset  $A^2$ , and in return WARREN will deliver to GEORGE one share of  $A^1$  at termination  $t = T$ . The amount  $m$  is constant, and fixed at time  $t = 0$ ; it is not scenario-dependent. What must  $m$  be in order that neither party to the agreement has an arbitrage?
-6. Let  $\mathcal{M}$  be a homogeneous,  $T$ -period binary market with a risky asset STOCK whose share price follows equations (26)-(27) of the notes. Assume that the market  $\mathcal{M}$  has a riskless asset BOND with rate of return  $r = 0$ . Consider a contract FLOOR that pays the BUYER one share of BOND at every time  $t = 1,2,\ldots,T$  when the share price of STOCK is below its initial value  $S_0$ . What is the arbitrage price of one FLOOR at time  $t = 0$ ?

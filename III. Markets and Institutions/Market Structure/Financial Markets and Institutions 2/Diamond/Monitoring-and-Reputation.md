@@ -1,14 +1,32 @@
 ---
+title: Monitoring and Reputation: The Choice between Bank Loans and Directly Placed Debt
 parent_directory: Diamond
-title: "Monitoring and Reputation: The Choice between Bank Loans and Directly Placed Debt"
-tags:
-aliases:
-  - Monitoring and Reputation
-parent_folder: Diamond
-subfolder:
-key_concepts:
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
+primary_tags:
+  - monitoring and reputation
+  - bank loan demand
+  - moral hazard
+  - financial intermediation
+  - debt market structure
+secondary_tags:
+  - credit ratings
+  - information asymmetry
+  - lender incentives
+  - borrower reputation
+  - delegated monitoring
+  - equilibrium actions
+  - monitoring incentives
+  - reputation effects
+  - cheap effective monitoring
+  - lender borrower relationships
+  - sequential equilibrium
+  - game theoretic refinements
+  - credit market dynamics
+  - bank loan intermediation
+  - debt contract theory
 cssclasses: academia
-linter-yaml-title-alias: "Monitoring and Reputation: The Choice between Bank Loans and Directly Placed Debt"
 ---
 
 # Monitoring and Reputation: The Choice between Bank Loans and Directly Placed Debt

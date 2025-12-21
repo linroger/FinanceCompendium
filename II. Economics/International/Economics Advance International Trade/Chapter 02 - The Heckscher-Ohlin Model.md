@@ -2,24 +2,67 @@
 title: "The Heckscher-Ohlin Model"
 parent_directory: "II. Economics/International/Economics Advance International Trade"
 formatted: "2025-12-21 10:00:00 AM"
-formatter_model: "kimi-k2-turbo"
-cli-tool: "claude-code"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
-- heckscher-ohlin model
-- factor endowments theory
-- international trade patterns
-- factor price equalization
+  - heckscher-ohlin model
+  - factor endowments theory
 secondary_tags:
-- comparative advantage
-- leontief paradox
-- factor content of trade
-- technological differences
-- trade empirical tests
-- stolper-samuelson theorem
+  - factor price equalization
+  - stolper-samuelson theorem
+  - factor content of trade
+  - leontief paradox
 cssclasses: academia
 ---
 
 # Chapter 2: The Heckscher-Ohlin Model
+
+```d2
+direction: right
+
+# World endowment box
+world: World Endowment Box {
+  shape: rectangle
+  style.fill: "#f0f0f0"
+}
+
+# Country endowments
+country1: Country 1\n(Labor abundant) {
+  near: bottom-left
+}
+
+country2: Country 2\n(Capital abundant) {
+  near: top-right
+}
+
+# Diagonal line
+diagonal: Consumption Points {
+  shape: line
+  style.stroke-dash: 5
+}
+
+# Factor trade
+labor_export: Labor Export {
+  shape: arrow
+  style.stroke: blue
+}
+
+capital_export: Capital Export {
+  shape: arrow
+  style.stroke: red
+  direction: left
+}
+
+# Connections
+world -> country1
+world -> country2
+country1 -> diagonal: Consumption Point
+country2 -> diagonal: Consumption Point
+country1 -> labor_export: Exports labor
+capital_export -> country1: Imports capital
+country2 -> capital_export: Exports capital
+labor_export -> country2: Imports labor
+```
 
 We begin this chapter by describing the Heckscher-Ohlin model with two countries, two goods, and two factors (or the  $2 \times 2 \times 2$  model). This formulation is often called the Heckscher-Ohlin-Samuelson (HOS) model, based on the work of Paul Samuelson who developed a mathematical model from the original insights of Eli Heckscher and Bertil Ohlin. The goal of that model is to predict the pattern of trade in goods between the two countries, based on their differences in factor endowments. Following this, we present the multi-good, multi-factor extension that is associated with the work of Vanek (1968), and is often called the Heckscher-Ohlin-Vanek (HOV) model. As we shall see, in this latter formulation we do not attempt to keep track of the trade pattern in individual goods, but instead, compute the "factor content" of trade, i.e. the amounts of labor, capital, land, etc. embodied in the exports and imports of a country.
 

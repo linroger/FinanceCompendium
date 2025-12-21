@@ -1,4 +1,33 @@
 
+---
+title: "Structural Models in Credit Risk Modeling"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume I/Bond Valuation"
+formatted: 2025-12-21 11:00:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
+primary_tags:
+  - structural credit risk models
+  - merton model
+  - first passage models
+  - default correlation
+secondary_tags:
+  - liquidation process models
+  - state dependent models
+  - asset value dynamics
+  - credit spreads
+  - recovery rates
+  - bankruptcy costs
+  - stochastic interest rates
+  - jump processes
+  - business cycle
+  - rating agencies
+  - cyclical default correlation
+  - contagion effects
+  - factor models
+  - liquidity process models
+cssclasses: academia
+---
+
 # Structural Models in Credit Risk Modeling
 
 ABEL ELIZALDE, PhD
@@ -50,7 +79,7 @@ $$ d V_{t} = r V_{t} d t + \sigma_{V} V_{t} d W_{t} \tag {1}
 $$ where  $\sigma_{V}$  is the (relative) asset volatility and  $W_{t}$  is a Brownian motion.10
 
 
-The payoffs to equityholders and bondholders at time  $T$  under the assumptions of this model are respectively,  $\max \{V_T - D,0\}$  and  $V_{T} - E_{T}$ , that is,
+The payoffs to equityholders and bondholders at time  $T$  under the assumptions of this model are respectively,  $\max \{V_T - D, 0\}$  and  $V_{T} - E_{T}$ , that is,
 
 $$
 E_{T} = \max  \left\{V_{T} - D, 0 \right\} \tag {2}
@@ -91,7 +120,7 @@ The main advantage of Merton's model is that it allows us to directly apply the 
 
 One problem of Merton's model is the restriction of default time to the maturity of the debt, ruling out the possibility of an early default, no matter what happens with the firm's value before the maturity of the debt. If the firm's value falls down to minimal levels before the maturity of the debt but it is able to recover and meet the debt's payment at maturity, the default would be avoided in Merton's approach.
 
-Another handicap of the model is that the usual capital structure of a firm is much more complicated than a simple zero-coupon bond. Geske (1977, 1979) considers the debt structure of the firm as a coupon bond, in which each coupon payment is viewed as a compound option and a possible cause of default. At each coupon payment, the shareholders have the option either to make the payment to bondholders,[11] obtaining the right to control the firm until the next coupon, or to not make the payment, in which case the firm defaults. Geske also extends the model to consider character istics such as sinking funds, safety covenants, debt subordination, and payout restrictions.
+Another handicap of the model is that the usual capital structure of a firm is much more complicated than a simple zero-coupon bond. Geske (1977, 1979) considers the debt structure of the firm as a coupon bond, in which each coupon payment is viewed as a compound option and a possible cause of default. At each coupon payment, the shareholders have the option either to make the payment to bondholders,[11] obtaining the right to control the firm until the next coupon, or to not make the payment, in which case the firm defaults. Geske also extends the model to consider characteristics such as sinking funds, safety covenants, debt subordination, and payout restrictions.
 
 
 The assumption of a constant and flat term structure of interest rates is another major criticism the model has received. Jones et al. (1984, p. 624) suggest that "there exists evidence that introducing stochastic interest rates, as well as taxes, would improve the model's performance." Stochastic interest rates allow us to introduce correlation between the firm's asset value and the short rate, and have been considered, among others, by Ronn and Verma (1986), Kim, Ramaswamy, and Sundaresan (1993), Nielsenet al. (1993), Longstaff and Schwartz (1995), Briys and de Varenne (1997), and Hsu, Sa-Requejo, and Santa-Clara (2004).
@@ -119,9 +148,11 @@ Using the properties of the Brownian motion  $W_{t}$ , in particular the reflect
 
 $$
 \begin{array}{l} P [ \tau \leq T \mid \tau > t ] = \Phi (h_{1}) + \exp \left\{2 \left(r - \frac{\sigma_{V}^{2}}{2}\right) \right. \\ \left. \ln \left(\frac{K}{V_{t}}\right) \frac{1}{\sigma_{V}^{2}} \right\} \Phi \left(h_{2}\right) \tag {10} \\ \end{array}
+$$
+\begin{array}{l} P [ \tau \leq T \mid \tau > t ] = \Phi (h_{1}) + \exp \left\{2 \left(r - \frac{\sigma_{V}^{2}}{2}\right) \right. \\ \left. \ln \left(\frac{K}{V_{t}}\right) \frac{1}{\sigma_{V}^{2}} \right\} \Phi \left(h_{2}\right) \tag {10} \\ \end{array}
 $$ where
 
-
+\begin{array}{l} h_{1} = \frac{\ln \left(\frac{K}{e^{r (T - t)} V_{t}}\right) + \frac{\sigma_{V}^{2}}{2} (T - t)}{\sigma_{V} \sqrt{T - t}} (11) \\ h_{2} = h_{1} - \sigma_{V} \sqrt{T - t} (12) \\ \end{array}
 $$
 \begin{array}{l} h_{1} = \frac{\ln \left(\frac{K}{e^{r (T - t)} V_{t}}\right) + \frac{\sigma_{V}^{2}}{2} (T - t)}{\sigma_{V} \sqrt{T - t}} (11) \\ h_{2} = h_{1} - \sigma_{V} \sqrt{T - t} (12) \\ \end{array}
 $$
@@ -163,7 +194,7 @@ Hsu, Saá-Requejo, and Santa-Clara (2004) consider both the case of independence
 
 # Drawbacks and Extensions
 
-The principal drawback of FPM is the analytical complexity that they introduce, which is increased if we consider stochastic interest rates or endogenous default thresholds. This mathe matical complexity makes it difficult to obtain closed form expressions for the value of the firm's equity and debt, or even for the default probability, forcing us to make use of numerical procedures.
+The principal drawback of FPM is the analytical complexity that they introduce, which is increased if we consider stochastic interest rates or endogenous default thresholds. This mathematical complexity makes it difficult to obtain closed form expressions for the value of the firm's equity and debt, or even for the default probability, forcing us to make use of numerical procedures.
 
 
 The empirical testing of FPM and structural models in general has not been very successful.18 Eom, Helwege, and Huang (2003), who carry out an empirical analysis of five models (Merton, Geske, Leland and Toft, Longstaff and Schwartz, and Collin-Dufresne and Goldstein), conclude that (p. 502)
@@ -180,7 +211,7 @@ The same characteristics of the structural models that imply the predictability 
 
 Essentially, two ways out of the predictability effects of structural models have been proposed in the literature. The predictability of default comes from the assumption of investors' perfect knowledge of the firm's asset value and default threshold. In practice, it is not possible to deduce from the capital structure of the firm neither the value of the firm  $V_{t}$ , its volatility  $\sigma_{V}$ , nor the level of the default threshold. If we consider incomplete information about either the firm value process, the default threshold (or both), investors can only infer a distribution function for these processes, which makes defaults impossible to predict. These considerations can be found, among others, in Duffie and Lando (2001), Giesecke (2005), and Jarrow and Protter (2004).
 
-The second way consists in incorporating jumps in the dynamics of the firm value, which implies that the asset value of the firm can suddenly drop, reducing drastically the distance of default (between the asset value and default threshold), or even causing a default if the drop is sufficiently high. Thus, default is not a predictable event anymore, the default probabilities for short maturities do not tend to zero, and so the credit spreads generated. Zhou (1997, 2001a) and Hilberink and Rogers (2002) deal with structural models in which the firm's asset value incorporates a jump component. While Zhou extends the Longstaff and Schwartz (1995) model considering a lognormally distributed jump component, Hilberink and Rogers (2002) opt for an extension of Leeland (1994) and Leland and Toft (1996) using Levy processes, which only allow for down ward jumps in the firm's value. Both models avoid the problem of default predictability implying positive credit spreads for short maturities. Another characteristic of jump models is that they convert the recovery payment at default in a random variable, since the value of the firm can drop suddenly below the default threshold, whereas if the firm's value follows a diffusion process without jumps, the value of the firm at default, that is, what bondholders get, is always equal to the default threshold because of the continuity of the firm's value path.
+The second way consists in incorporating jumps in the dynamics of the firm value, which implies that the asset value of the firm can suddenly drop, reducing drastically the distance of default (between the asset value and default threshold), or even causing a default if the drop is sufficiently high. Thus, default is not a predictable event anymore, the default probabilities for short maturities do not tend to zero, and so the credit spreads generated. Zhou (1997, 2001a) and Hilberink and Rogers (2002) deal with structural models in which the firm's asset value incorporates a jump component. While Zhou extends the Longstaff and Schwartz (1995) model considering a lognormally distributed jump component, Hilberink and Rogers (2002) opt for an extension of Leland (1994) and Leland and Toft (1996) using Levy processes, which only allow for downward jumps in the firm's value. Both models avoid the problem of default predictability implying positive credit spreads for short maturities. Another characteristic of jump models is that they convert the recovery payment at default in a random variable, since the value of the firm can drop suddenly below the default threshold, whereas if the firm's value follows a diffusion process without jumps, the value of the firm at default, that is, what bondholders get, is always equal to the default threshold because of the continuity of the firm's value path.
 
 
 Fouque, Sircar and Solna (2006) consider the effect of introducing stochastic volatility in FPM, finding that it increases short-term spreads.
@@ -203,6 +234,8 @@ $$
 
 Since the value of the equity is a function of time and of the value of the assets,  $E_{t} = f(V_{t},t)$ , we can apply Ito's lemma to get
 
+$$
+\begin{array}{l} d E_{t} = \left[ \frac{\delta f (V_{t} , t)}{\delta t} + \frac{\delta f (V_{t} , t)}{\delta V_{t}} V_{t} r \right. \\ \left. + \frac{1}{2} \frac{\delta^{2} f (V_{t} , t)}{(\delta V_{t})^{2}} (V_{t} \sigma_{V})^{2} \right] d t \\ + \frac{\delta f (V_{t} , t)}{\delta V_{t}} V_{t} \sigma_{V} d W_{t} \tag {19} \\ \end{array}
 $$
 \begin{array}{l} d E_{t} = \left[ \frac{\delta f (V_{t} , t)}{\delta t} + \frac{\delta f (V_{t} , t)}{\delta V_{t}} V_{t} r \right. \\ \left. + \frac{1}{2} \frac{\delta^{2} f (V_{t} , t)}{(\delta V_{t})^{2}} (V_{t} \sigma_{V})^{2} \right] d t \\ + \frac{\delta f (V_{t} , t)}{\delta V_{t}} V_{t} \sigma_{V} d W_{t} \tag {19} \\ \end{array}
 $$
@@ -278,7 +311,7 @@ The author derives closed form solutions for different claims such as equity, di
 Galai, Raviv, and Wiener (2005) represent a step forward in the refinement of LPM, proposing a model extending and including the two previous ones. They argue that in the two previous models, the only thing that matters for a firm to be liquidated is the amount of time it spends in financial distress (either successively or cumulatively), but they fail to (p. 5) "capture the following two common features of bankruptcy procedures: (i) Recent distress events may have a greater effect on the decision to liquidate a firm's assets than old distress events....(ii) Severe distress events may have greater effect on the decision to liquidate a firm than mild distress events." To account for such two stylized facts, the authors propose a structural model in which a firm is liquidated when a state variable representing the cumulative weighted time period spent by the firm in distress exceeds  $d$ . At each time, the cumulative weighted time period is computed as a weighted average of the total time spent by the firm in distress, weighted by (1) how far away in the past such distress occurred and (2) how severe was such a distress, where distress severity is measured as an increasing function of  $\max \{0,K - V\}$ .
 
 
-Galai, Raviv, and Wiener's model has as special cases models such as Merton (1974), Black and Cox (1976), Leland (1994), Fan and Sundaresan (2001), François and Morellec (2004), and Moraux (2004). As a consequence it represents a general general LPM so far. They solve the model numerically using Monte Carlo simulation based on Parisian options and Parisian contracts techniques to value debt and equity. They provide a very intuitive comparison of the liquidation mechanics in their general model with François and Morellec's and Moraux's ones, showing that Moraux's cumulative liquidation procedure (B) has too strong memory because far-away distress periods have the same impact on liquidation triggering as current ones.
+Galai, Raviv, and Wiener's model has as special cases models such as Merton (1974), Black and Cox (1976), Leland (1994), Fan and Sundaresan (2001), François and Morellec (2004), and Moraux (2004). As a consequence it represents a general LPM so far. They solve the model numerically using Monte Carlo simulation based on Parisian options and Parisian contracts techniques to value debt and equity. They provide a very intuitive comparison of the liquidation mechanics in their general model with François and Morellec's and Moraux's ones, showing that Moraux's cumulative liquidation procedure (B) has too strong memory because far-away distress periods have the same impact on liquidation triggering as current ones.
 
 Although theoretically very appealing, LPM have not, unlike FPM, been empirically tested, and remains a field for future research.
 

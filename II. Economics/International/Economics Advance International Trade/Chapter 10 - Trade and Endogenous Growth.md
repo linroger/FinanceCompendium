@@ -1,13 +1,25 @@
 ---
+title: "Chapter 10: Trade and Endogenous Growth"
+parent_directory: "Economics Advance International Trade"
+formatted: "2025-12-21 10:15:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- goods flows knowledge empirically
-- endogenous growth link trade
+  - trade and growth
+  - endogenous growth theory
+  - productivity measurement
+  - immiserizing growth
 secondary_tags:
-- chapter 10 trade endogenous
-- trade growth long question
-- growth terms trade
-- ricardo developed dynamic model
-tags_extracted: '2025-12-18T00:15:12.796940'
+  - total factor productivity
+  - markups and competition
+  - knowledge spillovers
+  - product variety
+  - technology diffusion
+  - international trade
+  - economic convergence
+  - research and development
+  - monopolistic competition
+cssclasses: academia
 ---
 
 # Chapter 10: Trade and Endogenous Growth
@@ -156,6 +168,46 @@ imports. If this elasticity is less than unity, i.e. foreign demand is inelastic
 Immiserizing growth occurs if and only if (10.11) holds. Necessary conditions for this are that either: (a) the foreign demand for imports is inelastic, or (b) growth reduces the output of the importable good (at constant prices).
 
 Condition (a) is not surprising, since having inelastic demand for a product is the same condition that would permit farmers to be worse off after a bumper crop, as in the example given in introductory economics textbooks. What is more surprising is that immiserizing growth can occur even when foreign demand is not inelastic, but this requires that condition (b) hold, i.e. that growth reduces the output of the importable good. We know from the Rybczynski Theorem that this condition would hold in the two-by-two model if the factor used intensively in exports has grown. So this is one scenario when immiserizing growth can occur. Are there others?
+
+```d2
+direction: right
+
+ppf_old: PPF (old) {
+  shape: curve
+  label: Original Production Possibility Frontier
+}
+
+ppf_new: PPF (new) {
+  shape: curve
+  label: Shifted PPF after growth
+}
+
+production_b: B {
+  label: Production point B (old)
+  near: ppf_old
+}
+
+consumption_c: C {
+  label: Consumption point C (old)
+  near: ppf_old
+}
+
+consumption_c_prime: C' {
+  label: Consumption C' (without terms of trade change)
+  near: ppf_new
+}
+
+consumption_c_double_prime: C'' {
+  label: Consumption C'' (with terms of trade fall - immiserizing growth)
+  near: ppf_new
+}
+
+note: Immiserizing Growth {
+  shape: text
+  label: When growth causes terms of trade to fall,\nconsumption can be worse than before growth
+}
+```
+
 
 Findlay and Grubert (1959) answer this question in the affirmative. They considered Hick's neutral technological progress in good 1. To demonstrate the effects of this, we work with the GDP function, defined as:
 
@@ -512,7 +564,7 @@ cost function defined over the inputs within the set I. Then the ratio  $c(\math
 
 # Theorem (Feenstra, 1994)
 
-Assume that  $\mathrm{I} = \mathrm{I}_{\mathrm{t -1}}\cap \mathrm{I}_{\mathrm{t}}\neq \emptyset$  , and that the inputs are cost-minimizing. Then for  $\sigma >1$  ..
+Assume that  $\mathrm{I} = \mathrm{I}_{\mathrm{t -1}}\cap \mathrm{I}_{\mathrm{t}}\neq \emptyset$  , and that the inputs are cost-minimizing. Then for  $\sigma >1$
 
 $$
 \frac{c \left(p_{t} , I_{t}\right)}{c \left(p_{t - 1} , I_{t - 1}\right)} = \left(\frac{\lambda_{t} (I)}{\lambda_{t - 1} (I)}\right)^{1 / (\sigma - 1)} \prod_{i \in I} \left(\frac{p_{i t}}{p_{i t - 1}}\right)^{w_{i} (I)} \tag {10.45}
@@ -562,80 +614,5 @@ In particular, it seems that the differences in per-capita GDP across countries,
 
 for trade patterns only if it is extended to incorporate such technology differences. What is the source of these? The endogenous growth model in this chapter has economy-wide increasing returns to scale, whereby larger countries create more inputs and are thereby more productive. It seems to me that we have not yet related this potential explanation for country productivity differences to the implied productivity differences arising from the HO model. Could it be the case that large countries (measured inclusive of proximity to neighbors) are the most productive due to their input variety, and that this productivity also accounts for their trade patterns? Addressing this question is one area for further research.
 
-# Problems
 
-10.1 In the two-good, two-factor model with constant prices, suppose that good 1 experiences Hicks-neutral technological progress, i.e.  $y_{1} = A_{1}f_{1}(L_{1},K_{1})$ , with  $A_{1}$  rising. Also assume that good 1 is labor intensive. Then write down the zero-profit and full-employment conditions for the economy, and use the Jone's algebra to show the following:
-
-(a)  $\hat{\mathbf{w}} >\hat{\mathbf{A}}_1 > 0 > \hat{\mathbf{r}}$
-(b)  $\hat{\mathrm{y}}_1 > \hat{\mathrm{A}}_1 > 0 > \hat{\mathrm{y}}_2$
-
-Note: Part (b) is rather tricky, so you may not get all of it. If you understand why it is tricky, that is good enough.
-
-10.2 Let us adopt a translog functional form for the GDP function in (10.12), extended to include many outputs:
-
-$$
-\begin{array}{l} \ln G = \alpha_{0} + \sum_{i = 1}^{N} \alpha_{i} \ln \left(A_{i} p_{i}\right) + \sum_{k = 1}^{M} \beta_{k} \ln V_{k} + \frac{1}{2} \sum_{i = 1}^{N} \sum_{j = 1}^{N} \gamma_{i j} \ln \left(A_{i} p_{i}\right) \ln \left(A_{j} p_{j}\right) \\ + \frac{1}{2} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \sum_{\ell = 1}^{\mathrm{M}} \delta_{\mathrm{k} \ell} \ln \mathrm{V}_{\mathrm{k}} \ln \mathrm{V}_{\ell} + \sum_{\mathrm{i} = 1}^{\mathrm{N}} \sum_{\mathrm{k} = 1}^{\mathrm{M}} \phi_{\mathrm{ik}} \ln \left(\mathrm{A}_{\mathrm{i}} \mathrm{p}_{\mathrm{i}}\right) \ln \mathrm{V}_{\mathrm{k}}. \\ \end{array}
-$$
-
-Differentiating this with respect to  $\ln p_i$ , we obtain the output share equations,
-
-$$
-\mathrm{s_{i}} = \alpha_{\mathrm{i}} + \sum_{\mathrm{j} = 1}^{\mathrm{N}} \gamma_{\mathrm{ij}} \ln (\mathrm{A_{j} p_{j}}) + \sum_{\mathrm{k} = 1}^{\mathrm{M}} \phi_{\mathrm{ik}} \ln \mathrm{V_{k}}, \quad \mathrm{i =1 , . . . ,N}.
-$$
-
-where  $\mathrm{s_i =p_iy_i /G}$  is the share of each output in GDP.
-
-(a) Write the quantity of each output as  $\ln y_{i} = \ln (s_{i}G / p_{i})$ . Differentiate this with respect to  $\ln p_{i}$  and obtain an expression for the output elasticity  $(\partial \ln y_{i} / \partial \ln p_{i})$ . What restriction on the translog parameters must hold for this elasticity to be positive?
-
-(b) Write the quantity of each output as  $\ln y_{i} = \ln (s_{i}G / p_{i})$ . Differentiate this with respect to  $\ln A_{i}$  and obtain an expression for the "Rybczynski-like" elasticity ( $\partial \ln y_{i} / \partial \ln A_{i}$ ). If the restrictions in (a) are satisfied, then what can we say about the magnitude of this elasticity?
-
-10.3 Consider the problem of maximizing (10.18) subject to (10.19), where for convenience we set  $t = 0$ . Write this as the Lagrangian,
-
-$$
-\begin{array}{l} \int_{0}^{\infty} \mathrm{e}^{- \rho \tau} [ \ln \mathrm{E} (\tau) - \ln \mathrm{P} (\tau) ] \mathrm{d} \tau + \lambda \left\{\int_{0}^{\infty} \mathrm{e}^{- \mathrm{R} (\tau)} \mathrm{w} (\tau) \mathrm{Ld} \tau + \mathrm{A} (t) - \int_{0}^{\infty} \mathrm{e}^{- \mathrm{R} (\tau)} \mathrm{E} (\tau) \mathrm{d} \tau \right\} \\ = \int_{t}^{\infty} \left\{e^{- \rho \tau} [ \ln E (\tau) - \ln P (\tau) ] d \tau + e^{- R (\tau)} \lambda [ w (\tau) L - E (\tau) ] \right\} d \tau + \lambda B (t), \\ \end{array}
-$$
-
-where in the second line we bring the Lagrange multiplier inside the integral. The expression inside the integral must be maximized at every point in time. So differentiate this expression with respect to  $\mathrm{E}(\tau)$  to obtain the first-order condition (10.20).
-
-10.4 Consider a central planner who chooses the time-path of output to maximize utility. This problem can be written as,
-
-$$
-\max_{\mathrm{Y} (\tau)} \int_{t}^{\infty} \mathrm{e}^{- \rho (\tau - t)} \ln \mathrm{Y} (\tau) \mathrm{d} \tau ,
-$$
-
-subject to,
-
-$$
-\mathrm{Y} = \mathrm{N}^{\sigma / (\sigma - 1)} \mathrm{x} = \mathrm{N}^{1 / (\sigma - 1)} \mathrm{X} \quad \text{an d} \quad \mathrm{L} = \mathrm{X} + \alpha (\dot {\mathrm{N}} / \mathrm{N}),
-$$
-
-where  $\mathrm{X} \equiv \mathrm{Nx}$  and the constraints are the production function (10.17) along with the full-employment condition (10.26). Let us restrict our attention to steady-state solutions where  $\mathrm{N}(\tau) = \mathrm{N}(t)\mathrm{e}^{\mathrm{g}(\tau - t)}$ . Substituting this equation along with the constraints into the
-
-objective function, and differentiate it with respect to  $g$  to compute the socially optimal growth rate  $g^*$  of new products. Show that  $g^* > g^a$ , and interpret this result.
-
-10.5 Let us solve for the limiting values of the growth rates in (10.35),
-
-$$
-\mathrm{g} = \left(\frac{\mathrm{L}}{\alpha \sigma}\right) - \left(\frac{\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm{R}} - \left(\frac{\dot {\mathrm{w}}}{\mathrm{w}}\right) \right], \quad \mathrm{an d ,} \quad \mathrm{g}^{*} = \left(\frac{\mathrm{L}^{*}}{\alpha \sigma}\right) - \left(\frac{\sigma - 1}{\sigma}\right) \left[ \dot {\mathrm{R}} - \left(\frac{\dot {\mathrm{w}}^{*}}{\mathrm{w}^{*}}\right) \right].
-$$
-
-To do so, we use the share of world expenditure devoted to the products of the home country, which is  $s = p_y y / (E + E^*)$ , and the share devoted to products of the foreign country, which is  $s^* = p_y^* y^* / (E + E^*)$ , with  $s + s^* = 1$ . In the absence of trade in intermediate inputs, each final good is assembled entirely from inputs produced in the same country. The price of home inputs is  $p_i = w\sigma / (\sigma - 1)$ , so it follows that  $p_y y = p_i X = w\sigma X / (\sigma - 1) = w\sigma (L - \alpha g) / (\sigma - 1)$ , where in the last equality we make use of the home full-employment condition,  $L = X + \alpha g$ . Therefore, the expenditure share on home products can be written as,  $s = w\sigma (L - \alpha g) / [(E + E^*)(\sigma - 1)]$ . Taking logs and differentiating, we obtain:
-
-$$
-\frac{\dot {\mathrm{s}}}{\mathrm{s}} = \frac{\dot {\mathrm{w}}}{\mathrm{w}} - \frac{\dot {\mathrm{g}}}{(\mathrm{L} - \alpha \mathrm{g})} - \left[ \frac{\dot {\mathrm{E}}}{\mathrm{E}} \left(\frac{\mathrm{E}}{\mathrm{E} + \mathrm{E}^{*}}\right) + \frac{\dot {\mathrm{E}}^{*} \left(\frac{\mathrm{E}^{*}}{\mathrm{E} + \mathrm{E}^{*}}\right)}{\mathrm{E}^{*} \left(\frac{\mathrm{E}^{*}}{\mathrm{E} + \mathrm{E}^{*}}\right)} \right].
-$$
-
-Using (10.20), the expression in brackets on the right equals  $\dot{\mathbf{R}} -\boldsymbol {\rho}$ . It follows that the home and foreign real interest rates are,
-
-$$
-\dot {R} - \frac{\dot {w}}{w} = \rho - \frac{\dot {s}}{s} - \frac{\dot {g}}{(L - \alpha g)}, \quad \text{an d ,} \quad \dot {R} - \frac{\dot {w}^{*}}{w^{*}} = \rho - \frac{\dot {s}^{*}}{s^{*}} - \frac{\dot {g}^{*}}{(L^{*} - \alpha g^{*})}.
-$$
-
-(a) The fact that the home country is developing more products than abroad means that
-
-$\lim_{t \to \infty} s = 1$ . What does this imply about the limiting value of the home real interest rate?
-
-Therefore, what is the limiting value of the home growth rate?
-
-(b) Since  $\lim_{t\to \infty}s = 1$ , then  $\lim_{t\to \infty}s^* = 0$ . What can we say about the limiting values of the foreign real interest rate, and the foreign growth rate?
 

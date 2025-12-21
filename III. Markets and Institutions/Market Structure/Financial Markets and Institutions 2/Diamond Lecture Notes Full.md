@@ -1,17 +1,31 @@
 ---
-aliases:
-  - Borrower-Lender Conflicts and Debt Contracts
-tags:
-key_concepts:
+title: Class Note 1: Borrower-Lender Conflicts and Debt Contracts
 parent_directory: Financial Markets and Institutions 2
+formatted: 2025-12-21 09:58:25 PM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - borrower lender conflicts
+  - debt contract incentives
+  - financial intermediation
+  - monitoring delegation
+secondary_tags:
+  - asset substitution theory
+  - capital budgeting decisions
+  - agency problems
+  - liquidation threats
+  - covenant enforcement
+  - bank asset services
+  - delegated monitoring
+  - diversification benefits
 cssclasses: academia
-title: "Class Note 1: Borrower-Lender Conflicts and Debt Contracts"
-linter-yaml-title-alias: "Class Note 1: Borrower-Lender Conflicts and Debt Contracts"
 ---
 
-# Class Note 1
+# Borrower-Lender Conflicts and Debt Contracts
 
-# Borrower-Lender conflicts and implied agency problems.
+## Class Note 1
+
+### Borrower-Lender conflicts and implied agency problems.
 
 The amount of leverage has an impact on the incentives of someone who maximizes the value of the residual equity claim. This "asset substitution theory" is a popular theory of capital structure, but it is not too plausible for large firms. It makes the most sense for owner managed firms, where the manager is the stockholder. If the owner and manager differ, one needs to examine the manager's incentive contract to learn his/her incentives. We will see later that the owner's and manager's incentives are naturally aligned for nearly insolvent firms and for some financial institutions that have government deposit insurance.
 
@@ -19,9 +33,9 @@ The example illustrates how divided ownership of different parts of the cash flo
 
 Debt holders own the lower tail of the distribution of firm value, and equity owners the upper tail. This is the cause of the conflict of interest because some decisions hurt the lower tail and help the upper tail (and can help or hurt the overall value of the firm).
 
-# 1. No debt
+#### 1. No debt
 
-Two projects, the riskier one also has a lower expected return. Each has only two possible outcomes, one if a depression (D), one if prosperity (P). The probability of each outcome is  $\frac{1}{2}$ . Each project requires the an initial outlay of \$800.
+Two projects, the riskier one also has a lower expected return. Each has only two possible outcomes, one if a depression (D), one if prosperity (P). The probability of each outcome is $\frac{1}{2}$. Each project requires an initial outlay of \$800.
 
 <table><tr><td>Project</td><td>Value in D</td><td>Value in P</td><td>Expected value</td><td>Expected return</td></tr><tr><td>1</td><td>500</td><td>1500</td><td>1000</td><td>200/800 = 25%</td></tr><tr><td>2</td><td>0</td><td>1551</td><td>775.5</td><td>-24.5/800 = -3.06%</td></tr></table>
 
@@ -29,11 +43,11 @@ We could get fancy and use the states model to take account of the positive "bet
 
 Clearly, project 1 is the best investment. An owner-managed firm with no debt would select it, since all require the same initial outlay.
 
-# 2. What about a firm with debt with face \$600 in place?
+#### 2. What about a firm with debt with face \$600 in place?
 
 The fixed payment of \$600 is a sunk cost. If the firm is going to default, then it does not care "how big" the default is. It wants to make more when not in default.
 
-# Cash flows to equity when debt of \$600 is in place
+#### Cash flows to equity when debt of \$600 is in place
 
 <table><tr><td>Project #</td><td>Cash flow if D</td><td>Cash flow if P</td><td>Expected value</td></tr><tr><td>1</td><td>0</td><td>1500-600=900</td><td>450</td></tr><tr><td>2</td><td>0</td><td>1551-600=951</td><td>475.5</td></tr></table>
 
@@ -46,34 +60,30 @@ What is the debt capacity of the firm? What is the highest face value, F, that t
 The borrower's equity payoff from Project 1 with debt of face F is:
 
 $$
-\begin{array}{l} 1 \frac{1}{2} (1 5 0 0 - F) + \frac{1}{2} (5 0 0 - F) = 1 0 0 0 - F \quad (\text{fo r} F \leq 5 0 0) \\ 1 \frac{1}{2} (1 5 0 0 - F) + \frac{1}{2} (0) \quad (\text{fo r} F \text{be tw ee n} 5 0 0 \text{an d} 1 5 0 0), \\ 0 \text{fo r} F > 1 5 0 0. \\ \end{array}
+\begin{array}{l} \frac{1}{2} (1500 - F) + \frac{1}{2} (500 - F) = 1000 - F \quad (\text{for } F \leq 500) \\ \frac{1}{2} (1500 - F) + \frac{1}{2} (0) \quad (\text{for } F \text{ between } 500 \text{ and } 1500), \\ 0 \text{ for } F > 1500. \\ \end{array}
 $$
 
 The borrower's equity payoff from Project 2 with debt of face F is:
 
 $$
-\begin{array}{l} 1 / 2 (1 5 5 1 - F) + 1 / 2 (0) \quad (f o r F <   1 5 5 1) \\ 0 \quad (\text{fo r} F > 1 5 5 1) \\ \end{array}
+\begin{array}{l} \frac{1}{2} (1551 - F) + \frac{1}{2} (0) \quad (\text{for } F < 1551) \\ 0 \quad (\text{for } F > 1551) \\ \end{array}
 $$
 
 The debt capacity must be less than 500, because if the firm will certainly default in Depression, all that matters is what it is worth in Prosperity.
 
-For  $F < 500$ , Project 1 is preferred for all  $F$  that satisfy  $1000 - F \geq \frac{1}{2}(1551 - F)$ , which solves out to  $F \leq 449$ . As a result, 449 is the debt capacity in face value.
+For $F < 500$, Project 1 is preferred for all $F$ that satisfy $1000 - F \geq \frac{1}{2}(1551 - F)$, which solves out to $F \leq 449$. As a result, 449 is the debt capacity in face value.
 
-Suppose lenders require an expected return of  $r$  for investing in any security of the firm. If the firm issued debt with face value 448 debt, it would choose project 1, and then the debt could raise up to  $\frac{448}{1 + r}$ . (Project 1 is also selected for face 449, because the borrower will not hurt the lender if it does not help himself.) If the firm issued debt with face  $F > 449$ , it would lead to project 2 and raise  $\frac{\frac{1}{2}F + \frac{1}{2}(0)}{1 + r}$ .
+Suppose lenders require an expected return of $r$ for investing in any security of the firm. If the firm issued debt with face value 448 debt, it would choose project 1, and then the debt could raise up to $\frac{448}{1 + r}$. (Project 1 is also selected for face 449, because the borrower will not hurt the lender if it does not help himself.) If the firm issued debt with face $F > 449$, it would lead to project 2 and raise $\frac{\frac{1}{2}F + \frac{1}{2}(0)}{1 + r}$.
 
 Risky debt (debt with a positive probability of bankruptcy) distorts capital budgeting decisions. It provides incentives to make tradeoffs between cash in bankruptcy and not in bankruptcy that differ from the ones that maximize the value of the firm.
 
-The potential bondholders will require a high enough interest rate to give themselves a competitive rate of return, for example  $10\%$ . Thus, any reductions in the value of the capital budgeting program of the firm will come out of the owner's pockets. If the firm selected too high a leverage ratio, it would be giving itself a perverse incentive contract. It would not do this in
-
-the first place, if it had alternatives. Thus, we might not expect a firm to choose a capital structure with as much debt as our example if it faced an unobservable choice between these projects.
+The potential bondholders will require a high enough interest rate to give themselves a competitive rate of return, for example  $10\%$ . Thus, any reductions in the value of the capital budgeting program of the firm will come out of the owner's pockets. If the firm selected too high a leverage ratio, it would be giving itself a perverse incentive contract. It would not do this in the first place, if it had alternatives. Thus, we might not expect a firm to choose a capital structure with as much debt as our example if it faced an unobservable choice between these projects.
 
 This leaves us with some unanswered questions:
 
-AHow can these bad effects of debt be reduced?
-
-BHow do bank asset services help reduce these bad effects?
-
-CIf debt is so bad, why is it so common, especially for smaller firms?
+- How can these bad effects of debt be reduced?
+- How do bank asset services help reduce these bad effects?
+- If debt is so bad, why is it so common, especially for smaller firms?
 
 Why not use another financial contract?
 
@@ -83,14 +93,14 @@ Beginning with question a, we examine problems with bond covenants, contractual 
 
 - Enforcement requires effort and monitoring of the borrower. Without substantial monitoring, the contract cannot depend on anything except the grossest public information.
 
--If not all contingencies are spelled out, contracts must be renegotiated over time. This too requires the lender to have lots of information about the borrower's situation.
+- If not all contingencies are spelled out, contracts must be renegotiated over time. This too requires the lender to have lots of information about the borrower's situation.
 
--If the lender is not one individual, but many small bondholders, the covenants can be difficult to enforce. There can be either duplication of effort if each lender monitors the situation carefully, or more likely, a "free rider" problem, where none of the small bondholders find it worthwhile to bother to monitor. Without monitoring, covenants will not be renegotiated or contain much detail. If there is no monitoring, covenants will be written contingent only on the grossest public information.
+- If the lender is not one individual, but many small bondholders, the covenants can be difficult to enforce. There can be either duplication of effort if each lender monitors the situation carefully, or more likely, a "free rider" problem, where none of the small bondholders find it worthwhile to bother to monitor. Without monitoring, covenants will not be renegotiated or contain much detail. If there is no monitoring, covenants will be written contingent only on the grossest public information.
 
 - This gives an advantage to having a single lender, rather than many lenders. We will see that this is a part of the argument why asset services of banks and other intermediaries are important.
 - The US Federal Trust Indenture Act prohibits majority voting to restructure debt contracts that reduce principal or interest or extend the debt maturity. A  $100\%$  vote required to change these "key covenants." Thus, even if public bondholders had the information, they probably could not use it. Changes to other covenants in bonds require a 2/3 vote in dollar value, and  $50\%$  measured in the fraction of bondholders (not weighted by dollar value).
 
-# Class Note 2 Debt contracts due to the lack of information: Debt as a promise and a threat
+## Class Note 2 Debt contracts due to the lack of information: Debt as a promise and a threat
 
 This is our initial view of the role of debt in corporate control. This is simple but abstract. This will not be our only view of this issue.
 
@@ -491,7 +501,7 @@ need to be liquidated in this case, because the face value of the bank's debt mu
 
 Suppose the banker monitored not one loan, but a diversified portfolio of loans. A very simple way to show the value of diversification is to examine the two-loan bank.
 
-In particular, suppose the banker monitors loans of two borrowers, whose returns are independently distributed but are otherwise just like that of the single borrower (each loan has a .8 probability of returning 1.4 and .2 probability of returning 1). The banker attracts 2 (\(2 million) in "deposits" from 20,000 investors and lends it out to two different borrowers.
+In particular, suppose the banker monitors loans of two borrowers, whose returns are independently distributed but are otherwise just like that of the single borrower (each loan has a 0.8 probability of returning 1.4 and 0.2 probability of returning 1). The banker attracts 2 (\$2 million) in "deposits" from 20,000 investors and lends it out to two different borrowers.
 
 The banker gives each borrower a debt contract with face F ( $F million) and collects F when the borrower has 1.4 and monitors to collect 1 when the borrower has 1. As a result, the banker does not need to use costly liquidation to enforce his loan contract with either borrower. The banker issues deposits that are like publicly-traded debt: the bank is liquidated whenever it pays less than face value to any investor. This is the best contract because it requires no monitoring by the 20,000 small investors. Let B denote the face value of bank deposits per loan, implying that the two-loan bank has total deposits of 2B, and each 0.0001 (\$ 100) deposit has face value  $\frac{1}{10,000}$  B.
 
@@ -499,14 +509,13 @@ Suppose the banker monitors both loans. If both borrowers pay if full, the bank 
 
 receive 2F. If one defaults but not the other, the bank will receive  $1 + F$ . If both default, the bank will receive 1 from each, or 2. The diversification from having two borrowers borrow from the bank will reduce agency costs. The distribution of payments to the bank, if the banker monitors, is:
 
-<table><tr><td>Payment</td><td>Probability</td><td>Probability that 
-Payment ≥ this value</td><td>Explanation</td></tr><tr><td>2F</td><td>.64 [P²]</td><td>.64</td><td>both pay F</td></tr><tr><td>F+1</td><td>.32 [2(P)(1-P)]</td><td>.96</td><td>one pays F, one 1</td></tr><tr><td>2</td><td>.04 [(1-P)²]</td><td>1.00</td><td>both pay 1</td></tr></table>
+<table><tr><td>Payment</td><td>Probability</td><td>Probability that Payment ≥ this value</td><td>Explanation</td></tr><tr><td>2F</td><td>0.64 [P²]</td><td>0.64</td><td>both pay F</td></tr><tr><td>F+1</td><td>0.32 [2(P)(1-P)]</td><td>0.96</td><td>one pays F, one 1</td></tr><tr><td>2</td><td>0.04 [(1-P)²]</td><td>1.00</td><td>both pay 1</td></tr></table>
 
-Assume that liquidating the bank yields nothing to depositors or to the banker, similar to the liquidation of borrowing firms. The bank has total face value of deposits of 2B. If the bank must be liquidated when it collects face value of F from one borrower and 1 from the other, it will be liquidated whenever at least one loan defaults, and there will be no possible savings in costs of financial distress. Alternatively, if the bank can and will pay its deposits when exactly one loan defaults, it defaults only when both loans default, and can reduce the probability of liquidation to  $0.04 = (1 - \mathrm{P})^2$ . To examine when payment of all deposits is possible when just one loan defaults, the total payment received by all depositors will be 2B with probability .96 and 0 with probability .04. The expected payment is .96(2)B. The initial capital needed to make two loans is 2 ( \$2 million), and it requires a 5% expected rate of return, implying that .96(2)B = 2(1.05), or 2 B = 2.1875 is the promised payment to 2 (\$ 2 million) in deposits. Equivalently, let the promised interest rate on bank deposits be  $r_B$ , then from 2B  $= 2(1 + r_B) = 2(1.09375)$  the promised interest rate on the bank deposit is  $9.375\%$ .
+Assume that liquidating the bank yields nothing to depositors or to the banker, similar to the liquidation of borrowing firms. The bank has total face value of deposits of 2B. If the bank must be liquidated when it collects face value of F from one borrower and 1 from the other, it will be liquidated whenever at least one loan defaults, and there will be no possible savings in costs of financial distress. Alternatively, if the bank can and will pay its deposits when exactly one loan defaults, it defaults only when both loans default, and can reduce the probability of liquidation to $0.04 = (1 - P)^2$. To examine when payment of all deposits is possible when just one loan defaults, the total payment received by all depositors will be 2B with probability 0.96 and 0 with probability 0.04. The expected payment is 0.96(2)B. The initial capital needed to make two loans is 2 ( \$2 million), and it requires a 5% expected rate of return, implying that .96(2)B = 2(1.05), or 2 B = 2.1875 is the promised payment to 2 (\$ 2 million) in deposits. Equivalently, let the promised interest rate on bank deposits be  $r_B$ , then from 2B  $= 2(1 + r_B) = 2(1.09375)$  the promised interest rate on the bank deposit is  $9.375\%$ .
 
 If the bank is to be able to pay 2.1875 when one loan defaults (paying 1) and the other does not default (paying F), then  $1 + F$  must be at least 2.1875, and the face value of each loan must satisfy  $F \geq 1.1875$ . If the bank made loans with this face value, it could avoid liquidation with probability .96. In summary, if the bank monitors its loans, it will have the cash and the incentives to pay bank deposits in full with probability .96 so long as  $F \geq 1.1875$ , or the interest rate on bank loans is at least  $18.75\%$ .
 
-# Will the bank monitor?
+### Will the bank monitor?
 
 Without monitoring, the bank would not be able to offer to take 1 when only 1 is available, and would instead liquidate the borrower's asset. Monitoring provides no benefit to the banker when all loans pay in full (monitoring is not needed to force a borrower to pay F) nor when all loans default (because the bank fails and is liquidated). If the banker obtains nothing whenever at least one loan defaults, there will be no incentive to monitor. An incentive to
 
@@ -528,9 +537,9 @@ This works out to a total expected payment of 0.122 (\(122,000), or (.19).64 +
 
 $= 0.0608$
 
-The delegation cost per borrower, D, equals the cost of financial distress of the bank or .04(1)=.04, plus control rent to the banker of .0608, or a total of 0.1008. All parties are better off with the banker as delegated monitor. The borrower prefers to borrow at  $18.875\%$  from the bank, versus  $31.25\%$  direct. The investors get a  $5\%$  expected return in either situation. The banker is happy with any claim with an expected payment above  \$400, and ends up with an expected payment of\$ 122,000.
+The delegation cost per borrower, D, equals the cost of financial distress of the bank or 0.04(1)=0.04, plus control rent to the banker of 0.0608, or a total of 0.1008. All parties are better off with the banker as delegated monitor. The borrower prefers to borrow at $18.875\%$ from the bank, versus $31.25\%$ direct. The investors get a $5\%$ expected return in either situation. The banker is happy with any claim with an expected payment above \$400, and ends up with an expected payment of \$122,000.
 
-# Summary of Financial Intermediation and Diversification
+## Summary of Financial Intermediation and Diversification
 
 We considered three types of contracting arrangements:
 
@@ -540,7 +549,7 @@ We considered three types of contracting arrangements:
 
 Diversification within the intermediary works to make option 3 work by reducing the liquidation cost of providing the bank an incentive to repay small investors. To simplify, we use an example where the diversification from a bank making only two loans was sufficient to give the bank reduced delegation costs. However, it is more generally true that diversification allows financial intermediation to provide low cost delegated monitoring. The law of large numbers implies that if the bank gets sufficiently diversified across independent loans with expected repayments in excess of the face value of bank deposits, then the chance that it defaults on its deposits gets arbitrarily close to zero. In the limit of a perfectly diversified bank, the bank would never default and would face no liquidation costs. In addition, the control rent needed to provide incentives to monitor approaches zero. The delegation cost for the bank approaches zero, and the only cost of intermediation is the (unavoidable) cost of monitoring. Competitive and fully-diversified intermediation would drive borrowers' expected cost of capital down to  $5.02\%$ . In the limit of perfect diversification, the face value of bank debt approaches F= 1.06275 which is the solution to .8F + .2(1)= 1.0502; it gives the bank a  $5\%$  expected return after covering the 0.0002 (\$200) cost of monitoring. This is too strong because in practice the default risk of borrowers is not independent, but is positively correlated, and because the number of loans in the bank's portfolio is limited.
 
-# Mathematical Appendix: The General Case for monitoring versus not monitoring.
+## Mathematical Appendix: The General Case for monitoring versus not monitoring.
 
 If you don't like math, don't read this. It is not required. Some students like to see more generally what is making things work. This year I have yielded to these requests. Do not memorize these as formulae-- they will rot your brain.
 

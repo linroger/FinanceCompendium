@@ -1,15 +1,32 @@
 ---
-aliases:
-  - Interest Rate Risk
-tags:
-key_concepts:
-parent_directory: Contemporary Financial Intermediation
-cssclasses: academia
 title: Chapter 05 - Interest Rate Risk
-linter-yaml-title-alias: Chapter 05 - Interest Rate Risk
+parent_directory: Part 03 Identification and Management of Major Banking Risks
+formatted: 2025-12-21 10:15:00 AM
+formatter_model: claude-sonnet-4
+cli-tool: claude-code
+primary_tags:
+  - interest rate risk
+  - duration analysis
+  - term structure
+  - convexity hedging
+  - yield curve dynamics
+secondary_tags:
+  - asset liability management
+  - immunization strategy
+  - forward rates
+  - spot rates
+  - bond valuation
+  - maturity transformation
+  - interest rate volatility
+  - banking risks
+  - financial intermediation
+  - risk management
+  - balance sheet hedging
+  - capital adequacy
+cssclasses: academia
 ---
 
-# GLOSSARY OF TERMS
+## Glossary of Terms
 
 Zero-coupon bonds Bonds that pay no coupon, so that the entire repayment to bondholders is at maturity.
 
@@ -19,13 +36,13 @@ Immunization The act of insulating the institution from interest rate risk.
 
 Basis point One hundredth of a percent.
 
-# INTRODUCTION
+## Introduction
 
 In this chapter, we take a deep dive into interest rate risk. Our focus is on how it is measured and how it is managed by financial institutions. Since the concept of interest rate risk is used in conjunction with fixed-income instruments, we begin with a review of how fixed-income instruments (like loans and bonds) are valued. Then we analyze the term structure of interest rates and discuss how the term structure is determined under certainty and uncertainty. This is followed by a discussion of duration and convexity. These concepts are basic to the notion of interest rate risk, so it is important to understand them before we discuss interest rate risk in detail, which we do next. Selected interest rate risk-management techniques are subsequently examined. A case study is provided to illustrate some practical issues in interest rate risk management.
 
-# THE TERM STRUCTURE OF INTEREST RATES
+## The Term Structure of Interest Rates
 
-# Review of Fixed-Income Valuation
+### Review of Fixed-Income Valuation
 
 What is the current value of a  \$250 riskless cash flow to be received in 1 year? We solve this problem by using the principle of riskless arbitrage. In particular, to prevent riskless arbitrage – which is essential in an efficient capital market – the price of this riskless cash flow in equilibrium must be related to the prices of other riskless instruments. In particular, suppose we observe that a U.S. government bond that promises\$ 100 in 1 year is currently trading at \$94.56. From this, we can deduce that the implicit 1-year return on riskless instruments is 5.75% (since $94.56 [1 + 0.0575] = $100). Thus, we should be currently willing to pay $250/[1.0575] = $236.41 for the riskless promise to receive \$250 in 1 year.
 
@@ -43,7 +60,7 @@ which yields  $i_1^1 = 6.75\%$ . That is, the two-period rate of  $6.25\%$  is t
 
 <table><tr><td>0</td><td>1</td><td>2</td></tr><tr><td>|</td><td>|</td><td>|</td></tr><tr><td>Cash flow</td><td>$250</td><td>$250</td></tr><tr><td>Discount rate</td><td>5.75%</td><td>6.25%</td></tr><tr><td>Present value at t = 0</td><td>$236.41</td><td>$221.45</td></tr></table>
 
-# The Yield Curve
+### The Yield Curve
 
 What we have seen above is that interest rates on debt instruments of different maturities are related through investors' expectations about future interest rates. A useful concept for this discussion is yield to maturity (YTM), which is defined as the internal rate of return that equates the present value of the future cash flows from a bond to the current market price of the bond. The annual two-period yield of  $i_{o}^{2} = 6.25\%$  that we derived above on a U.S. government bond is a YTM. The relationships among the yields on different bonds are summarized by the term structure of interest rates. We define the term structure of interest rates (or the yield curve) as the relationship between the YTM and the length of time to maturity for debt instruments of identical default risk characteristics. It is critical to equalize the default risk of the bonds whose yields we are comparing. For simplicity, we will confine our attention to bonds without default risk. Thus, the YTM on a bond with  $m$  periods to maturity is defined as the annualized equivalent discount rate at which the cash flows from the bond must be discounted  $m$  periods to arrive at its market price. Figures 5.2 and 5.3 show two different yield curves, each describing the yields of bonds that are identical, except in maturity. The yield curve in Figure 5.2 is for U.S. Treasuries and is upward sloping. It is the "on the run" curve, in which the implicit zero-coupon yield curve is interpolated from full-coupon bond prices. The yield curve in Figure 5.3 is for German
 
@@ -58,7 +75,7 @@ government securities. It is cup shaped. For shorter maturities, this yield curv
 
 What determines the shape of the yield curve? For simplicity, we will examine this question first in a world of perfect certainty. Uncertainty will be dealt with subsequently. In both cases, we assume that a financial market equilibrium precludes riskless arbitrage.
 
-# Yield Curve Determination Under Certainty
+### Yield Curve Determination Under Certainty
 
 # The Basic Model
 
@@ -168,7 +185,7 @@ $$
 
 Notice that the geometric mean of  $5\%$ ,  $9.03809\%$ , and  $16.25469\%$  equals the current 3-year yield of  $10\%$ . Likewise, the geometric mean of  $5\%$  and  $9.03809\%$  equals the current 2-year yield of  $7\%$ . In addition, the geometric mean of the current 2-year yield of  $7\%$  and the 1-year rate 2 years hence of  $16.25469\%$  will equal the current 3-year-rate of  $10\%$ . Thus, all possible 3-year investment strategies should produce identical returns. Our analysis so far has proceeded under the assumption of certainty. We now introduce uncertainty about future interest rates.
 
-# THE LURE OF INTEREST RATE RISK AND ITS POTENTIAL IMPACT
+## The Lure of Interest Rate Risk and Its Potential Impact
 
 As we saw in our earlier examples, yields of bonds of different maturities can be different. In Figure 5.1 we depicted a case in which the 1-year yield is  $5.75\%$  and the 2-year annual yield is  $6.25\%$ . That is, if we buy the 1-year bond at date 0 and hold it until date 1, we get a return of  $5.75\%$  and if we buy the 2-year bond at date 0 and hold it until maturity at date 2, it will give us a return of  $6.25\%$  per year. The difference in returns,  $6.25\% - 5.75\% = 0.5\%$ , is called the term premium. We may define an  $m$ -period term premium as the difference between the expected return on holding for one period of a bond with maturity  $m + 1$  periods at the time of purchase and the return on a bond of a one-period maturity. If term premiums are positive, then longer-term bonds should have higher expected returns. In a world of certainty, the term premium reflects simply investors' expectation that future interest rates will be higher than current rates. But in a world of uncertainty – in which interest rates fluctuate randomly – the term premium has two components: one reflecting expected changes in future interest rates, and the other reflecting a premium demanded by risk-averse investors for bearing the risk (in holding longer maturity bonds) that future changes in interest rates will deviate from what is expected (this can be viewed as a premium for bearing interest rate risk).
 
@@ -247,7 +264,7 @@ $$
 \left.\frac{\Delta P}{P}\right|_{\Delta i = -0.0001} = 0.09\%
 $$
 
-# DURATION
+## Duration
 
 # The Inappropriateness of Maturity for Coupon-Paying Bonds
 
@@ -437,7 +454,7 @@ What this means is that if yields increase, the bank's equity value declines (re
 
 A bank can alter its degree of immunization by changing the durations of its assets and liabilities. It can do this in two ways: on-balance sheet and off-balance sheet. On-balance sheet initiatives include making new types of loans, seeking new liabilities, and changing its capital structure. Off-balance sheet initiatives include repurchase agreements, futures, options, and swaps (we will discuss these in a later chapter).
 
-# CONVEXITY
+## Convexity
 
 If a bank is interested in protecting its net worth against unexpected interest rate changes, duration matching can help; matching terms to maturity cannot do this unless all investments are of the zero-coupon variety. Suppose now that a bank is immunized and yields subsequently change. Does the bank remain immunized? The answer is no. The reason is that duration is an approximation. In fact, it is a linear approximation of a nonlinear relationship between prices and yields. We can see this with an example.
 
@@ -476,7 +493,7 @@ There are two important implications of convexity for banks:
 1. Duration immunization is a dynamic process since asset and liability durations change as yields change.  
 2. If the bank's asset portfolio is more convex than its liability portfolio, then properly done duration immunization never hurts the bank in the sense that the error associated with duration being an approximation tends to understate the value of the bank's equity.
 
-# INTEREST RATE RISK
+## Interest Rate Risk
 
 # How Interest Rate Risk Can Affect a Financial Institution's Net Worth
 
@@ -522,11 +539,11 @@ Why should banks and other depository institutions be more risk tolerant than ot
 
 The upshot of this discussion is not that an asset transformer should not take interest rate risk, but rather that such risk must be carefully assessed and managed.
 
-# CONCLUSION
+## Conclusion
 
 This chapter has examined interest rate risk and its role in the bank's overall risk exposure. Next to credit risk, this has been the most important source of risk for banks historically. Interest rate risk is linked to the term structure of interest rates. Our analysis of the term structure both under certainty and uncertainty shows how yield and maturity are related. In both the certainty and uncertainty cases, the concept of riskless arbitrage plays a key role. Further, our analysis shows that the risk in holding a bond is more appropriately assessed in terms of its duration rather than its term to maturity. The definition of duration and the examination of its relevance in measuring the price volatility of bonds indicate how coupon-paying bonds should be analyzed. We also examined the concept of convexity and measures of interest rate risk exposure.
 
-# CASE STUDY: EGGLESTON STATE BANK
+## Case Study: Eggleston State Bank
 
 # Introduction
 
@@ -586,30 +603,9 @@ EXHIBIT F Likely Interest Rate Scenarios
 
 <table><tr><td colspan="4">(Scenario Names)</td></tr><tr><td></td><td>Good</td><td>Bad</td><td>Ugly</td></tr><tr><td>Probability</td><td>0.5</td><td>0.3</td><td>0.2</td></tr><tr><td colspan="4">U.S. Govt. Securities</td></tr><tr><td>Bills</td><td>11.00%</td><td>9.00%</td><td>12.00%</td></tr><tr><td>Notes</td><td>10.00%</td><td>10.00%</td><td>13.00%</td></tr><tr><td>Bonds</td><td>9.00%</td><td>11.00%</td><td>14.00%</td></tr><tr><td colspan="4">Other Govt. Securities</td></tr><tr><td>Municipal securities</td><td>9.25%</td><td>11.75%</td><td>15.25%</td></tr><tr><td colspan="4">Corporate Bonds</td></tr><tr><td>Lockheed</td><td>9.75%</td><td>10.75%</td><td>13.75%</td></tr><tr><td colspan="4">Loans</td></tr><tr><td>Short-term individual</td><td>13.25%</td><td>11.25%</td><td>14.25%</td></tr><tr><td>Short-term business</td><td>12.25%</td><td>10.25%</td><td>13.25%</td></tr><tr><td>Medium-term business</td><td>10.50%</td><td>10.5%</td><td>13.75%</td></tr><tr><td>Long-term business</td><td>9.80%</td><td>10.75%</td><td>13.75%</td></tr><tr><td>Home mortgages</td><td>9.00%</td><td>11.50%</td><td>14.50%</td></tr></table>
 
-# Review Questions
 
-1. What is the term structure of interest rates?  
-2. Under certainty, if the term structure is determined to preclude riskless arbitrage, what is the relationship between the yields on bonds of different maturities and why?  
-3. What is duration and why is it a more valid metric to consider for coupon-paying bonds than maturity? What is the relation between duration and price volatility for bonds with the same maturity?  
-4. What is convexity? Discuss its potential usefulness in evaluating bonds.  
-5. Discuss the pros and cons of duration mismatching for a depository institution.
 
-Suppose there are three zero-coupon bonds, identical in all respects except maturity. Each bond has a face value of  \$1000. One of them matures a year from now and is currently selling at\$ 855.66. Another matures 2 years from now and is currently selling at \$835.33. The third matures 3 years from now and is currently selling at \$775.85. Compute the YTM for each of the three bonds, plot the yield curve (assuming that you can interpolate smoothly), and compute the available forward rates.
-
-6. The annualized YTM on a single-period pure discount bond is 12% and that on a two-period pure discount bond is 10.45%. There are two bonds. One is a two-period, pure discount bond that promises a balloon payment of \$1200 at maturity. The other is a bond that will pay a coupon of \$100 one period hence, and a coupon of \$100 plus a balloon payment of \$1000 two periods hence. Compute the duration of these bonds and their possible price changes prior to maturity.  
-7. Given below is an excerpt from a conversation between two people. Provide a critique.
-
-Moderator: So, what do you people think? Will we ever really understand what happened to the American banking industry well enough to know what should be done?
-
-Appleton: Well, I think banks and S&Ls were simply victims of the environment. We had an inverted yield curve – long rates were lower than short rates – for a while and this made it difficult for financial institutions to reap their normal profits from asset transformation; you know, I've never believed in the expectations hypothesis. It's a theoretical nicety with no practical relevance. Of course, the increased interest rate volatility didn't help. As if this wasn't enough, there was an enormous increase in competition, both domestic and international. These institutions must have felt like they were being squeezed by a powerful vise.
-
-Moderator: By the way, Alex, I'll give you another reason not to like the expectations hypothesis - it's also wrong.
-
-Appleton: I didn't know that. Are you sure? In any case, it's good to know you agree with me, Mike. But frankly, I'm surprised. Knowing how you and Beth feel about this, I thought I'd get more of an argument.
-
-Moderator: Well, cheer up, Alex. My agreement with you is only partial. I agree that depository financial institutions faced a tough environment during the last 15 years or so. But I also think they could have managed their risks more intelligently. For example, they could have reduced the duration gaps in their asset and liability portfolios and made use of contemporary immunization techniques to hedge their interest rate risks. Like some of the investment banking houses, they could have been more innovative in brokerage activities, so that the resulting fee income would have made banks less dependent on the riskier asset transformation activities. Just look at the profits earned by some investment bankers who stripped Treasuries and sold zeros (pure discount bonds) like CATS (Certificates of Accrual of Treasury Securities) and TIGRS (Treasury Investment Growth Receipts). No, Alex! The real story runs much deeper than your "passive victims of the environment" explanation. I think banks and S&Ls exploited the system and ripped off taxpayers.
-
-# REFERENCES
+## References
 
 Durham, B.J., 2014. More on U.S. Treasury Term Premiums: Spot and Expected Measures. Federal Reserve Bank of New York, Staff Reports, no 658, revised.  
 Fisher, I., Weil, R.L., 1971. Coping with the risk of interest rate fluctuations. J. Bus. 44, 408-431.  
@@ -617,8 +613,4 @@ Holland, K., 1990. Capital: NCNB loses big bet on long-term rates. Am. Banker, 2
 Ingersoll, J.E., Skeleton, J., Weil, R.L., 1978. Duration forty years later. J. Financ. Quant. Anal. 13, 627-650.  
 Macaulay, F., 1938. The Movements of Interest Rates, Bond Yields, and Stock Prices in the United States Since 1856. National Bureau of Economic Research, New York.
 
-# Liquidity Risk
 
-"Everything that can be counted does not necessarily count; everything that counts cannot necessarily be counted."
-
-Albert Einstein

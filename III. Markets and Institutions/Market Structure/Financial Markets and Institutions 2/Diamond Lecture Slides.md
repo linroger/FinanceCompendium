@@ -157,7 +157,7 @@ Face value of 600 exceeds the debt capacity of the firm, because it removes ince
 
 What is the debt capacity of the firm? What is the highest face value, F, that the borrower prefers project 1?
 
-The borrower's equity payoff from Project 1 with debt of face  $\mathbf{F}$  is:
+The borrower's equity payoff from Project 1 with debt of face $\mathbf{F}$ is:
 
 $$
 \frac{1}{2} (1500 - F) + \frac{1}{2} (500 - F) = 1000 - F
@@ -191,11 +191,11 @@ $$
 
 The debt capacity must be less than 500, because if the firm will certainly default in Depression, all that matters is what it is worth in prosperity.
 
-For  $F < 500$ , Project 1 is preferred for all  $F$  that satisfy  $1000 - F \geq \frac{1}{2}(1551 - F)$ , which solves out to  $F \leq 449$ . As a result, 449 is the debt capacity in face value.
+For $F < 500$, Project 1 is preferred for all $F$ that satisfy $1000 - F \geq \frac{1}{2}(1551 - F)$, which solves out to $F \leq 449$. As a result, 449 is the debt capacity in face value.
 
 # Debt Pricing
 
-Suppose lenders require an expected return of  $r$  for investing in any security of the firm.
+Suppose lenders require an expected return of $r$ for investing in any security of the firm.
 
 If the firm issued debt with face value 448 debt, it would choose project 1, and then the debt could raise up to  $\frac{448}{1 + r}$ . (Project 1 is also selected for face 449, because the borrower will not hurt the lender if it does not help himself.)
 

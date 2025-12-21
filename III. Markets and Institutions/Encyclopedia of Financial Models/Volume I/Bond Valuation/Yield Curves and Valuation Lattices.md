@@ -1,4 +1,25 @@
 
+---
+title: "Yield Curves and Valuation Lattices"
+parent_directory: "Bond Valuation"
+formatted: "2025-12-21 10:15:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
+primary_tags:
+  - yield curves
+  - valuation lattices
+  - interest rate models
+  - binomial tree
+secondary_tags:
+  - arbitrage free
+  - lattice calibration
+  - embedded options
+  - bond valuation
+  - recursive valuation
+  - spot rates
+cssclasses: academia
+---
+
 # Yield Curves and Valuation Lattices
 
 Abstract: The complication in valuing bonds with embedded options and option-type derivatives is that cash flows depend on interest rates in the future. Academicians and practitioners have attempted to capture this interest rate uncertainty through various models, often designed as one- or two-factor processes. These models attempt to capture the stochastic behavior of rates. In practice, these elegant mathematical models must be implemented numerically in order to be useful. One such model is a single factor model that assumes a stationary variance, or volatility.
@@ -13,7 +34,7 @@ Regardless of the underlying assumptions, each model shares a common restriction
 
 In this entry we will demonstrate how a lattice is used to value an option-free bond. The model is also used to value bonds with embedded options, floating-rate securities with option-type derivatives, bond options, and swaptions.
 
-# THE INTEREST RATE LATTICE
+## THE INTEREST RATE LATTICE
 
 In our illustration, we represent the lattice as a binomial tree, the simplest lattice form. Figure 1 provides an example of a binomial interest rate tree, which consists of a number of "nodes" and "legs." Each leg represents a one-year interval over time. A simplifying assumption of one-year intervals is made to illustrate the key principles. The methodology is the same for smaller time periods. In fact, in practice the selection of the length of the time period is critical, but we need not be concerned with this nuance here.
 
@@ -49,16 +70,15 @@ Figure 2 Four-Year Binomial Interest Rate Tree with 1-Year Rates*
 
 So, for example, if  $r_{2,LL}$  is  $4.6958\%$ , and assuming once again that  $\sigma$  is  $10\%$ , then
 
-$$ r_{2,HH} = 4.6958\% (e^{4\times 0.10}) = 7.0053\%
-$$ and
+$$ r_{2,HH} = 4.6958\% (e^{4\times 0.10}) = 7.0053\% $$
 
+and
 
-$$ r_{2,HL} = 4.6958\% (e^{2\times 0.10}) = 5.7354\%
-$$
+$$ r_{2,HL} = 4.6958\% (e^{2\times 0.10}) = 5.7354\% $$
 
 This relationship between rates holds for each point in time. Figure 2 shows the interest rate tree using this notation.
 
-# Determining the Value at a Node
+## Determining the Value at a Node
 
 In general, to get a security's value at a node we follow the fundamental rule for valuation: The value is the present value of the expected cash flows. The appropriate discount rate to use for cash flows one year forward is the 1-year rate at the node where we are computing the value. Now there are two present values in this case: the present value of the cash flows in the state where the 1-year rate is the higher rate, and one where it is the lower rate state. We have assumed that the probability of both outcomes is equal. Figure 3 provides an illustration for a node assuming that the 1-year rate is  $r^*$  at the node where the valuation is sought and letting:
 
@@ -91,7 +111,7 @@ $$
 \mathrm{Va lu ea ta no de} = \frac{1}{2} \left[ \frac{V_{H} + C}{(1 + r^{*})} + \frac{V_{L} + C}{(1 + r^{*})} \right]
 $$
 
-# CALIBRATING THE LATTICE
+## CALIBRATING THE LATTICE
 
 We noted above the importance of the no-arbitrage condition that governs the construction of the lattice. To assure this condition holds, the lattice must be calibrated to the current par yield curve, a process we demonstrate here. Ultimately, the lattice must price optionless par bonds at par.
 
@@ -144,7 +164,7 @@ Figure 7 The 1-Year Rates for Year 2 Using the 3-Year  $4.7\%$  On-the-Run Issue
 
 r_{2,LL}, which will produce the desired result is 4.6958\%. The corresponding rates r_{2,HL} and r_{2,HH} would be 5.7354\% and 7.0053\%, respectively. To verify that these are the correct 1-year rates two years from now, work backwards from the four nodes at the right of the tree in Figure 7. For example, the value in the box at N_{HH} is found by taking the value of \104.7 at the two nodes to its right and discounting at 7.0053\%. The value is \97.846. Similarly, the value in the box at N_{HL} is found by discounting \104.70 by 5.7354\% and at N_{LL} by discounting at 4.6958\%.
 
-# USING THE LATTICE FOR VALUATION
+## USING THE LATTICE FOR VALUATION
 
 To illustrate how to use the lattice for valuation purposes, consider a  $6.5\%$  option-free bond with four years remaining to maturity. Since this bond is option-free, it is not necessary to use the lattice model to value it. All that is necessary to obtain an arbitrage-free value for this bond is to discount the cash flows using the spot rates obtained from bootstrapping the yield curve shown in Table 1. (All calculations are highly sensitive to the number of decimal places chosen.) The spot rates are as follows:
 
@@ -159,7 +179,7 @@ Figure 8 Binomial Interest Rate Tree for Valuing up to a 4-Year Bond for Issuer 
 
 The lesson here can be applied to more complex instruments, those with option features that require the lattice-based process for proper valuation and derivatives such as swaptions. Regardless of the security or derivative to be valued, the generation of the lattice follows the same no-arbitrage principles outlined here. Subsequently, cash flows are determined at each node, the recursive valuation process undertaken to arrive at fair values. Hence, a single lattice and a valuation process prove to be robust means for obtaining fair values for a wide variety of fixed income instruments.
 
-# KEY POINTS
+## KEY POINTS
 
 - The complication in valuing bonds with embedded options and option-type derivatives is that cash flows depend on interest rates in the future.
 - In practice, several interest rate models have been employed to construct an interest rate lattice. In each case, interest rates can realize one of several possible levels when we move from one period to the next. There are binomial lattices (two possible rates in the next period), trinomial lattices (three possible rates in the next period), and even more complex models that allow more than three possible rates in the next period.
@@ -171,7 +191,7 @@ Figure 9 Valuing an Option-Free Bond with Four Years to Maturity and a Coupon Ra
 - The lattice framework uses an arbitrage-free interest rate lattice or tree to generate the cash flows over the life of the financial instrument and then to determine the present value of the cash flow. The present value of the cash flow is then the fair value of the financial instrument.
 - The lattice must be constructed so as to be consistent with (that is, calibrated to) the observed market value of an on-the-run option-free issue.
 
-# NOTE
+## NOTE
 
 1. For an extensive discussion of the application to the valuation of embedded options in bonds see Kalotay, Williams, and Fabozzi (1993), and for the application to interest rate swaptions see Fabozzi and Buetow (2000).
 

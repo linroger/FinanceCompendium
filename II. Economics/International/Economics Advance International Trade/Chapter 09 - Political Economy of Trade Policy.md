@@ -1,20 +1,27 @@
 ---
+title: "Chapter 9 - Political Economy of Trade Policy"
+parent_directory: Economics Advance International Trade
+formatted: 2025-12-21 10:20:00 AM
+formatter_model: grok-code-fast-1
+cli-tool: opencode
 primary_tags:
-- countries autarky argument path
-- chapter political economy trade
-- multilateral free trade question
-- welfare determining trade policy
+  - political economy trade
+  - median voter model
+  - protection for sale
+  - regional trade agreements
+  - multilateral free trade
 secondary_tags:
-- bilateral free trade assumed
-- sequential regional multilateral agreements
-- multilateral agreement median voters
-- free trade assumed veto
-- country block multilateral
-- policies politically motivated tariffs
-- voter country benefits bilateral
-- free trade models
-- trade agreements versus multilateral
-tags_extracted: '2025-12-18T00:15:10.647134'
+  - tariff wars
+  - gatt principles
+  - reciprocity nondiscrimination
+  - income inequality effects
+  - endogenous lobbies
+  - china foreign investment
+  - trade policy models
+  - interest group influence
+  - trade barriers
+  - welfare weights
+cssclasses: academia
 ---
 
 # Chapter 9 – Political Economy of Trade Policy
@@ -27,7 +34,7 @@ Another importance principle of GATT is the "most favored nation" (MFN) provisio
 
 We conclude the chapter with an application of political economy to a non-democratic setting: the People's Republic of China. In this case the special interest groups do not take the form of well-funded lobbying groups as in the U.S., but rather, include the large state-owned industries and the smaller but growing private industries, as well as foreign firms. The distribution of these firms is very uneven across provinces. China's recent entry into the WTO came only after regional concerns in China about the impact of import competition were overruled. We argue that the regional variation towards openness (as evidenced by the inflow of foreign firms), combined with the variation in location of state-owned firms, can be used to identify the political weights given to the various interest groups. We present the results of Branstetter and Feenstra (2002), which show how the Grossman-Helpman framework can be applied in this setting.
 
-# Median Voter Model
+## Median Voter Model
 
 Used in many applications, the median voter model presumes that policies are established by majority vote. Provided that preferences are "single peaked" over the policy being voted upon (i.e. each person has a unique maximum), then it follows that the policy adopted will maximize the utility of the median voter. In the application to trade policy we assume that the policy is an import tariff or subsidy. The optimal tariff for the median voter will depend on the production structure in the economy, and for simplicity in this section we assume the two-by-two Heckscher-Ohlin (HO) model (Mayer, 1984, also considers other structures). Then we will show that if the median voter owns a lower capital/labor ratio than overall for the economy, and imports are labor-intensive, the economy will have a positive import tariff.
 
@@ -97,7 +104,7 @@ In their estimates, Dutt and Mitra confirm these signs of  $\alpha_{1}$  and  $\
 
 This confirmation of the median voter model seems at odds with its first prediction, that tariffs should be positive in advanced countries importing labor-intensive goods, but negative in developing economies importing capital-intensive goods. As we have mentioned, import subsidies are rarely observed. Fernandez and Rodrik (1991) provide one explanation for the "anti-trade" bias of nearly all countries. Specifically, they argue that even if policies are determined by majority vote, when individuals do not know whether they will be included among the gainers or losers, there is a tendency for voters to prefer the status quo. This occurs even in a model where everyone is perfectly informed about the aggregate gains and losses in each industry, but cannot predict their individual returns. Therefore, there is a tendency to apply tariffs to offset import competition and preserve the status-quo income distribution. This can help to reconcile the positive tariffs observed in most countries with the median voter model, and the logic of Fernandez and Rodrik holds equally well in other models, as well.
 
-# Protection for Sale
+## Protection for Sale
 
 The median voter model assumes that policies are determined by majority vote. This is an overly simplified description of representative democracies where the electorate votes for legislators, who then determine the policies. In such settings the policies chosen will be jointly influenced by votes, voice, and dollars from the campaign contribution of lobbying groups. The second model we consider, due to Grossman and Helpman (1994), proposes an elegant solution to the problem of how the government simultaneously considers the contributions of numerous lobbies, as well as consumer welfare, in determining trade policy.[2]
 
@@ -227,7 +234,7 @@ Gawande and Bandyopadhyay (2000) extend the Grossman-Helpman model to allow for 
 
 There have been a number of other empirical applications of the Grossman-Helpman model, including McCalman (2000) who applies it to Australia, Grether et al (2002) who apply it to Mexico, and Mitra et al (2002) who apply it to Turkey. Rather than describe these, we shall explore other theoretical extensions of the "protection for sale" model.
 
-# Endogenous Lobbies
+## Endogenous Lobbies
 
 In the description of Grossman and Helpman's model above, we treated the existence of the lobbies as exogenous. This is a limitation, of course, and in reality we would expect lobbies to form when their potential returns are sufficiently high or costs of organizing are sufficiently
 
@@ -281,7 +288,7 @@ In Figure 9.1, where the cost of organizing lobbies is increasing, the induced i
 
 In Figure 9.2, by contrast, the cost of organizing lobbies is constant. In that case the increase in the number of lobbies from  $\mathfrak{n}_0$  to  $\mathfrak{n}_0'$  is just equal to the rightward shift of the NB schedule, so that  $\mathrm{dn_o /n_o} = -\mathrm{d}\lambda_{\mathrm{k}} / \lambda_{\mathrm{k}}$  and  $\mathrm{n_o}\lambda_{\mathrm{k}}$  is unchanged in equilibrium. Therefore the trade policies from (9.17) are also unchanged. We see that the overall impact of income inequality on protection is very sensitive to the structure of lobbying costs  $C(\mathrm{n_o})$ , which could reflect a wide range of legal and political features in a country. It would be difficult, then, to predict the effects of changes in income distribution on protection either within or across countries. This finding makes it all the more remarkable that in the median voter model, discussed earlier, Dutt and Mitra (2002) find a systematic (though non-monotonic) relationship between trade barriers and inequality. Obtaining such time-series or cross-country empirical results from the "protection for sale" model would be more difficult. That model is ideally suited, however, to explaining cross-industry trade protection, as we have already discussed.
 
-# Two-Country Model
+## Two-Country Model
 
 In the median voter model and the “protection for sale” model of Grossman and Helpman (1994), the governments treats the international price  $\mathfrak{p}^*$  as fixed. But what if instead the country is large, so that its tariffs affect the terms of trade? Obtaining a terms of trade gain creates an additional reason to use tariffs. In a two-country model, both countries would have this incentive, and we could conjecture that they would both end up with tariffs higher than those we solved for above. Bagwell and Staiger (1999, 2002) argue that this creates an important role for international institutions such as the GAT/WTO: to offset or eliminate the incentive to manipulate the terms of trade.
 
@@ -365,7 +372,7 @@ whose boundaries are defined by the iso-curves of  $\widetilde{G}(\tau, \tau^*)$
 
 We have shown, therefore, that the Nash equilibrium does not lie on the efficiency frontier. This is the first-half of the following result:
 
-# Theorem (Bagwell and Staiger, 1999; Grossman and Helpman, 1995a)
+## Theorem (Bagwell and Staiger, 1999; Grossman and Helpman, 1995a)
 
 (a) The Nash equilibrium is not efficient;
 (b) The political optimum is efficient.
@@ -408,7 +415,7 @@ When countries are not symmetric in size, however, the situation is more complic
 
 Bagwell and Staiger, as well as Grossman and Helpman (1995a), discuss various bargaining mechanisms that might enable the two countries to still agree on the political optimum at point A, or some other point on the efficiency locus. Bagwell and Staiger (1999, 2002) further discuss how many other principles of GATT – including nondiscrimination – can be understood as being efficient. The reader is to refer to their work for further details, which provides a quite general economic justification for GATT rules.[12]
 
-# Regional Trade Agreements
+## Regional Trade Agreements
 
 Another foundation of GATT is the MFN principle of nondiscrimination. Recall that this principle is embodied in Article I (see Table 6.1). This principle is violated, however, by Article XXIV, which allows for customs unions and free trade areas in some circumstances. That raises the question of whether allowing for such regional trade agreements conflicts with the overall GATT goal of multilateral tariff reductions. Bhagwati (1993) has suggested that this question can be broken into two distinct issues: the "static impact effect" of regionalism, which is the
 
@@ -456,7 +463,7 @@ Now let us ask whether countries 1 and 2, which are both better off from bilater
 
 above  $\mathrm{k}^{12}$ , so that  $\mathrm{k}^{\mathrm{w}} > \mathrm{k}^{\mathrm{a2}}$  in Figure 9.7, then it is possible that both countries gain. Checking the other cases, if  $\mathrm{k}^{\mathrm{w}}$  is slightly below  $\mathrm{k}^{12}$ , then country 2 would gain moving from bilateral to multilateral, but country 1 would lose; while if  $\mathrm{k}^{\mathrm{w}}$  is much below  $\mathrm{k}^{12}$ , so that  $\mathrm{k}^{\mathrm{w}} < \mathrm{k}^{\mathrm{b1}}$ , then it is possible that both countries gain. In all cases, we see that countries 1 and 2 cannot both lose in the move from bilateral to multilateral free trade. Therefore, we have proved part (a) of the following:
 
-# Theorem (Levy, 1999)
+## Theorem (Levy, 1999)
 
 (a) Under the 2x2 Heckscher-Ohlin production structure, if the median voters in both countries gain from bilateral free trade, then at least one country must gain from multilateral free trade;
 (b) Allowing for product variety under monopolistic competition, it is possible that the median voters in both countries gain going from autarky to bilateral free trade, or from autarky to multilateral free trade, but lose going from bilateral to multilateral free trade.
@@ -471,7 +478,7 @@ Finally, we need to check whether our initial assumption – that country 1 and 
 
 despite the fact that multilateral free trade can bring gains as compared to autarky, we have found that it can bring losses as compared to bilateral free trade. In this situation, the bilateral agreement would prevent multilateral free trade from being pursued: it would indeed be a stumbling block rather than a stepping stone. This demonstrates part (b) of the theorem, and the general concern expressed by Bhagwati that regional trade agreements may inhibit the pursuit of multilateral free trade.[14]
 
-# Political Economy of Foreign Investment in China
+## Political Economy of Foreign Investment in China
 
 All of the applications in the chapter so far have been to economies governed by direct democracy (with the median voter determining the optimal policy) or representative democracy (where voters elect representatives who then determine policies). Grossman and Helpman (2001) present a general formulation of democratic political systems where special interests exert an influence on policies. We conclude this chapter with an application of their framework to a non-democratic system – the People's Republic of China. The motivation for this application is much the same as in Goldberg and Maggi (1999): to use the observed levels of some policy instrument or outcome to “reveal” the weights given by the government to various interest groups. In the case of China, import tariffs have (until recently) been bound at relatively high and inflexible levels, so that policy instrument cannot be used. Instead, we examine the policies towards foreign investment, as indicated by the entry of foreign firms into various provinces, to infer the weights in the government’s objective function.
 

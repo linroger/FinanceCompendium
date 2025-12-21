@@ -1,12 +1,35 @@
 ---
-aliases:
-  - The Details of Debt Contracts and Bankruptcy
-tags:
-key_concepts:
+title: The Details of Debt Contracts and Bankruptcy
 parent_directory: Financial Markets and Institutions 2
+formatted: 2025-12-21 10:25:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
+primary_tags:
+  - debt contract details
+  - bankruptcy reorganization
+  - capital structure choice
+  - financial intermediation
+  - securitization structures
+  - liquidity mechanisms
+  - financial panics
+  - government bailouts
+secondary_tags:
+  - bond covenants
+  - loan agreements
+  - trustee roles
+  - distressed debt investing
+  - crisis restructuring
+  - credit risk ratings
+  - banking asset services
+  - run on institutions
+  - stable coin failures
+  - federal reserve actions
+  - lehman brothers collapse
+  - long term capital management
+  - subprime securitization crisis
+  - continental bank run
+  - money market fund runs
 cssclasses: academia
-title: "1. The Details of Debt Contracts and Bankruptcy"
-linter-yaml-title-alias: "1. The Details of Debt Contracts and Bankruptcy"
 ---
 
 # 1. The details of debt contracts and bankruptcy:.
@@ -108,6 +131,34 @@ Payoffs to equity
 Payoffs to manager (possibly if tied to debt or equity)  
 Tax Payments  
 Control over corporate decisions
+
+```d2
+direction: right
+
+capital_structure: Capital Structure Choice {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+}
+
+consequences: Consequences {
+  shape: rectangle
+  style.fill: "#fff3e0"
+}
+
+default_prob: Probability of Default
+equity_payoffs: Payoffs to Equity
+manager_payoffs: Payoffs to Manager
+tax_payments: Tax Payments
+control_decisions: Control over Decisions
+
+capital_structure -> consequences
+
+consequences -> default_prob
+consequences -> equity_payoffs
+consequences -> manager_payoffs
+consequences -> tax_payments
+consequences -> control_decisions
+```
 
 - Does it matter who owns a firm's debt or equity?
 
@@ -1038,7 +1089,7 @@ Banker gets .64(2f-2B) + .32(1+f-2B)=
 = .64(2.38 - 2.1875) + .32(2.19 - 2.1875)
 
 $$
-\begin{array}{l} = 0. 1 2 4 > \mathrm{co st} \\ = (2 (. 0 0 0 2) = 0. 0 0 0 4) \\ \end{array}
+\begin{array}{l} = 0.124 > \mathrm{cost} \\ = (2 \times 0.0002) = 0.0004 \\ \end{array}
 $$
 
 # Further Diversification
@@ -1519,13 +1570,13 @@ It is not known which investors will be early or late. As of date 0, each invest
 - Each investor is risk averse and has the constant utility function  $U(c) = -1/c$  or equivalently,
 
 $$
-U (c) = 1 1 0 - 1 0 0 / c,
+U(c) = 110 - 100/c,
 $$
 
 Expected utility of holding the illiquid asset is:
 
 $$
-\begin{array}{l} 0. 2 5 \left[ 1 1 0 - 1 0 0 / 1 \right] + 0. 7 5 \left[ 1 1 0 - 1 0 0 / 2 \right] \\ = 4 7. 5. \\ \end{array}
+\begin{array}{l} 0.25[110 - 100/1] + 0.75[110 - 100/2] \\ = 47.5. \\ \end{array}
 $$
 
 # If it existed, each investor would prefer this more liquid asset
@@ -1566,7 +1617,7 @@ A risk averse utility function
 - If 32 assets are liquidated, then 68 will remain until  $T = 2$ , when they will be worth 2 each. If on that date, there remain 75 depositors, each will receive:
 
 $$
-\frac{[ 1 0 0 - 3 2 ] \quad 2}{7 5} = \frac{[ 6 8 ] \quad 2}{7 5} = 1. 8 1 3 > 1. 2 8
+\frac{[100-32]2}{75} = \frac{[68]2}{75} = 1.813 > 1.28
 $$
 
 # If you expect 25 to withdraw, you get:
@@ -1946,7 +1997,7 @@ In other words, the investors in CP are big institutional investors with some sh
 CP pays no coupons, it just pays face value at maturity. If you buy \$10M face value of CP from GE Capital (the biggest issuer, by the way) maturing on April 18 (i.e., 30-day paper), then you will get \$10M on 4/18. It is therefore issued and traded at a discount, and when traders quote prices to each other, they talk in terms of discount rates, just like Tbills. So again if we call the face value F, then number of days to maturity n, and the discount rate d, then the price P is
 
 $$
-P = F - (d / 1 0 0) (n / 3 6 0) F
+P = F - (d/100)(n/360)F
 $$
 
 So for example, if the discount rate for the \(10M of GECC paper is \(2.63\%\), then the price is
@@ -2088,7 +2139,7 @@ To see the effect of PBA, let us compare it with a benchmark of the case of some
 If the non PBA investor invests at date 1, the value at date 3 is 100 for sure, so if the investor invests  $\mathrm{D}_1$  at date 1, the date 3 value is:
 
 $$
-(1 0 0 / 8 0) \mathrm{D}_{1} \mathrm{or}
+(100/80)D_{1}
 $$
 
 in general
@@ -2100,7 +2151,7 @@ $$
 If instead the non PBA investor waits until date 2 to invest (and just holds T-bills yielding  $0\%$  initially), then the price will be 70 or 100 (with prob q and 1-q respectively). When the price drops to 70, the non PBA investor will buy  $\mathrm{D}_1$  units, and when the price is 100, the investor will continue to hold T-bills. The expected date 3 value of waiting until date 2 to take a position is:
 
 $$
-[ \mathrm{q} (1 0 0 / 7 0) + (1 - \mathrm{q}) 1 ] \mathrm{D}_{1} \quad \mathrm{or},
+[q(100/70) + (1-q)1]D_{1} \quad or,
 $$
 
 in general
@@ -2112,7 +2163,7 @@ $$
 The non PBA investor will go ahead and invest at date 1 when it gives a larger expected value of assets, or:
 
 $$
-\begin{array}{l} 1 0 0 / 8 0 \geq q (1 0 0 / 7 0) + (1 - q), o r \\ \mathrm{q <7 /1 2 =0 .5 8} \\ \end{array}
+100/80 \geq q(100/70) + (1-q), or \\ q < 7/12 = 0.58
 $$
 
 or in general:  $q \leq \frac{p_2(V - p_1)}{p_1(V - p_2)}$ .
@@ -2132,17 +2183,17 @@ If the PBA arb waits until date 2 to invest, he won't lose assets under manageme
 The expected value of date 3 assets under management if he waits to invest at date 2 it then:
 
 $$
-\mathrm{q} (1 0 0 / 7 0) \mathrm{D}_{1} + (1 - \mathrm{q}) \mathrm{D}_{1}.
+q(100/70)D_{1} + (1-q)D_{1}.
 $$
 
 The PBA arb invests at date 1 when:
 
 $$
-(1 - q) (1 0 0 / 8 0) \geq q (1 0 0 / 7 0) + (1 - q) \quad \mathrm{or}
+(1-q)(100/80) \geq q(100/70) + (1-q) \quad or
 $$
 
 $$
-q <   7 / 4 7 = 0. 1 5
+q < 7/47 = 0.15
 $$
 
 or in general if  $q < \frac{p_2(V - p_1)}{p_1(V - p_2) + p_2V}$ .
@@ -2170,13 +2221,13 @@ Suppose that at date 1 there are PBA funds and your long-term fund. The PBA fund
 # The two-period expected return of a PBA fund is:
 
 $$
-\begin{array}{l} \mathrm{q} (1 0 0 / 7 0) + (1 - \mathrm{q}) (1) = \mathrm{q} (1 + 3 / 7) + (1 - \mathrm{q}) 1 = \mathrm{q} (3 / 7) + 1 \\ = 0. 2 5 (3 / 7) + 1 = 1. 0 5 2 5 (\mathrm{fo r} \mathrm{q} = 0. 2 5) \\ \end{array}
+\begin{array}{l} q(100/70) + (1-q)(1) = q(3/7) + 1 = 0.25(3/7) + 1 = 1.0525 (for q=0.25) \\ \end{array}
 $$
 
 The twoperiod return of the long-term fund (assuming that it raises no new capital at date 2, so it can't scale up its bet if the price goes down at date 2),
 
 $$
-1 0 0 / 8 0 = 1. 2 5.
+100/80 = 1.25.
 $$
 
 The ability to lock in the funds for the long term allows the fund to take different bets in markets with less competition. This is part of the story behind the establishment of LTCM. Their reputation was so strong that they could get money locked in.
@@ -2224,7 +2275,7 @@ Table 4: A delayed meltdown if LTCM can wait to liquidate:
 Expected price change from date 1 to 2. With probability q, a noise trade forces it down to 15, because LTCM is forced out. With probability 1-q, there is a news trade, that pushes the price up to 75 (and then LTCM is not forced out). The expected price change is then:
 
 $$
-q (1 5 - 5 5) + (1 - q) (7 5 - 5 5) = 2 0 - q (6 0)
+q(15-55) + (1-q)(75-55) = 20 - q(60)
 $$
 
 For  $q = .25$ , this is  $+5$ , but for  $q = 0.5$ , it is  $-10$ . Let's assume  $q = 0.5$ , and we learn something about the front running problem faced by LTCM.
@@ -2392,16 +2443,16 @@ The flexibility of OTC derivatives increase opportunities for "optimization" wit
 
 Probably the easiest way to be introduced to repos is through an example. Suppose I have a security with a market value of  $V$ , say  $\$ 1M$ . You and I can enter into the following agreement (Bilateral Repo):
 
-- Today, I sell you my security for  $V - m$ . Say  $\$ 1M-$ 50K =  $950K$  
-$\circ$  We would refer to  $m / V, 5 \%$  in this case, as the margin, or haircut  
+- Today, I sell you my security for $V - m$. Say $\$1M - $50K = $950K$  
+$\circ$ We would refer to $m/V, 5\%$ in this case, as the margin, or haircut  
 - Today, I also agree to repurchase the security tomorrow for  
-$\circ V - m$ , i.e. the amount I sold it to you for, plus  
-$\circ$  Interest on  $V - m$  at a negotiated rate, say  $1 \%$  /year
+$\circ V - m$, i.e. the amount I sold it to you for, plus  
+$\circ$ Interest on $V - m$ at a negotiated rate, say $1\%$/year
 
-So the interest would be  $\$ 950\mathrm{K}(1 / 360)(1\%) = \$ 26.38$  
+So the interest would be $\$950K(1/360)(1\%) = \$26.38$  
 This is how interest is calculated in this case: the loan amount \((\\) 950\mathrm{K})\) times the number of days divided by 360 (1/360) times the annual rate (1%)
 
-$0$ So tomorrow, I am supposed to pay you  $\$ 950,026.38$ , and you are supposed to give me my security back
+$0$ So tomorrow, I am supposed to pay you $\$950,026.38$, and you are supposed to give me my security back
 
 Here are the key things to notice about this transaction
 
@@ -2416,11 +2467,11 @@ Lending money, on which you get interest
 
 - If I default on my obligation to repurchase the security, then you can try to make yourself whole by selling the security.
 
-Since the security was originally worth  $5 \%$ more than the loan, it will be sufficient to make you whole unless its value dropped by more than  $5 \%$ during that day
+Since the security was originally worth $5\%$ more than the loan, it will be sufficient to make you whole unless its value dropped by more than $5\%$ during that day
 
 - If you default on your obligation to sell the security back to me for the negotiated price of \$950,026.38, then I keep that amount
 
-Since the security was worth more than the loan amount, I am losing money in this situation unless the security's value dropped by more than  $5\%$ , in which case I'm better off with the cash than the security
+Since the security was worth more than the loan amount, I am losing money in this situation unless the security's value dropped by more than $5\%$, in which case I'm better off with the cash than the security
 
 So you can think of a repo as collateralized borrowing of cash – I am borrowing against the value of my security by simultaneously selling it and contracting to repurchase it tomorrow (or, instead of tomorrow, whatever other day we agree upon).
 
@@ -2440,8 +2491,8 @@ Repos are fundamental to how institutions engaged in securities trading and deal
 
 O Albert gives me the security  
 $\mathrm{O}$  I pass it on to Bob  
-Bob gives me the  $\$ 950$ K  
- \(0.1\%\) I add \(\$ 50\)K out of my own pocket to the \(\$ 950\)K, and give the \(\$ 50\)K+\(950\)K=\(1M to Albert
+Bob gives me the $\$950$K  
+ \(0.1\%\) I add \(\$50\)K out of my own pocket to the \(\$950\)K, and give the \(\$50\)K+\(950\)K=\(1M to Albert
 
 - At this point, Albert is out of the picture. He's delivered his security and gotten his \$1M, so he's all done. My remaining relationship is with Bob, from whom I'm borrowing money at 1%
 
@@ -2450,15 +2501,15 @@ The next day, let's say I want to sell the security to Charles, who's offering \
 Bob gives me the security  
 I pass it on to Charles  
 
-- Charles gives me the  $\$ 1.1$ M  
-- Out of the  $\$ 1.1$ M, I pay  $\$ 950,026.38$ to Bob
+- Charles gives me the $\$1.1$M  
+- Out of the $\$1.1$M, I pay $\$950,026.38$ to Bob
 
-\(\circ\) Which leaves me with \(1.1 \mathrm{M} - \\) 950,026.38 = \$ 149,973.62\)  
-$\circ$  So my net profit it is  $\\( {149},{973.62} - \$  {50},{000} = \$ {99},{973.62} \)
+\(\circ\) Which leaves me with \(1.1M - 950,026.38 = $149,973.62\)  
+$\circ$ So my net profit it is $${149,973.62} - ${50,000} = ${99,973.62}$$
 
 Notice that, as long as Bob and I end our repo according to the contract, Bob is not exposed at all to the value of the security. The rise (or fall) of its market value accrues completely to me.
 
-Notice also that the margin I negotiate with Bob is what determines how much cash of my own I need to do this transaction. With a  $5 \%$ margin, I'm paying in only  $5 \%$ of the purchase price
+Notice also that the margin I negotiate with Bob is what determines how much cash of my own I need to do this transaction. With a 5\% margin, I'm paying in only 5\% of the purchase price
 
 # Run on the Repo Market
 
@@ -2466,17 +2517,17 @@ If you are lending money in a repo transaction, the margin is what's protecting 
 
 - If you think this scenario is highly unlikely, then maybe you wouldn't require any margin at all. But as you start getting worried about your counterparty, or about the risk of the security, then you start requiring more margin
 
-Let's say the security in our example is a subprime mortgage-backed security, and you get a little anxious about these. So you decide that  $5 \%$ margin isn't enough; now you want  $10 \%$ .
+Let's say the security in our example is a subprime mortgage-backed security, and you get a little anxious about these. So you decide that 5\% margin isn't enough; now you want 10\%.
 
-- So when I return to you tomorrow to repurchase the security as contracted, and I ask you if we can do it again, you say "Sure, as long as we increase the margin to  $10\%$ "  
-- 10% margin on a \$1M security is \$100K. So this means I have to pay in \$50K more
+- So when I return to you tomorrow to repurchase the security as contracted, and I ask you if we can do it again, you say "Sure, as long as we increase the margin to 10\%"
+- 10\% margin on a \$1M security is \$100K. So this means I have to pay in \$50K more
 
 What if I don't have \$50K more? Then I can't do the repo with you, and if everybody else demands 10%, then I'll just have to sell the security today, even if there's no ready buyer for it.
 
 So let's say I sell the security, and I don't get a good price, say \$960K rather than \$1M. Now everybody else doing repos of that security are going to be affected, because the lenders will say "this security is now apparently worth $960K, not $1M. So now, I'm willing to loan only ($960K)(90%)=$864K against it"
 
 - That is, they are marking the security to market
-- So everybody else borrowing against it now has to not only put up the  $10 \%$ margin, but they also have to pay even more cash to cover this decrease in the marktomarket value of the security  
+- So everybody else borrowing against it now has to not only put up the 10\% margin, but they also have to pay even more cash to cover this decrease in the marktomarket value of the security  
 - Some of them won't have this much cash, and will be forced to sell  
 - These forced sales will push the mark-to-market value down even more, and force even more investors to sell, and so on  
 - Lenders are likely to respond to the increased risk of the securities by increasing margin, which increases the stresses on investors even more
@@ -2490,8 +2541,8 @@ Repo Haircuts, Various Structured Asset Classes, 2005-2008
 
 Notice that Margins are zero until the summer of 2007
 
-- Then they start ramping up and up, with margin on subprime eventually reaching  $100\%$ 
-- The  $-$  then the  $-$  they start ramping up and up, with margin on subprime eventually reaching  $100\%$ .
+- Then they start ramping up and up, with margin on subprime eventually reaching 100\%
+- The - then the - they start ramping up and up, with margin on subprime eventually reaching 100\%.
 
 Meaning, we won't lend a dime against subprime collateral.
 
@@ -2507,11 +2558,11 @@ This graph is from paper by Gary Gorton and Andrew Metrick, "Securitized banking
 
 Much of the repo that occurs is what is called tri-party repo. All this means is that a third party gets involved as follows. Suppose I want to do the repo described above, and suppose Bob wants to do it too, but I don't trust Bob and he doesn't trust me. Suppose also, though, that we both trust JP Morgan. Then we could both do repo with JP Morgan:
 
-- I do the same repo as above, except now the other side of the trade isn't Bob , it's JP Morgan, and the interest rate isn't  $1 \%$ , it's  $1.25 \%$  
-Bob does the same repo as above, except now the other side of the trade isn't me, it's JP Morgan, and the interest rate isn't  $1 \%$ , it's  $0.75 \%$  
-- So now I'm paying  $0.25 \%$ more interest, but what I get for that is more security: I am less worried that my counterparty will default on its obligation to sell me the security back at the prearranged price  
-- And Bob is getting  $0.25\%$  less interest, but he also gets more security: he is less worried that his counterparty will default on its obligation to buy the security back at the prearranged price  
-- JP Morgan makes the spread of  $1.25\% - 0.75\% = 0.50\%$  in exchange for bearing our counterparty risk.  
+- I do the same repo as above, except now the other side of the trade isn't Bob, it's JP Morgan, and the interest rate isn't 1\%, it's 1.25\%  
+Bob does the same repo as above, except now the other side of the trade isn't me, it's JP Morgan, and the interest rate isn't 1\%, it's 0.75\%  
+- So now I'm paying 0.25\% more interest, but what I get for that is more security: I am less worried that my counterparty will default on its obligation to sell me the security back at the prearranged price  
+- And Bob is getting 0.25\% less interest, but he also gets more security: he is less worried that his counterparty will default on its obligation to buy the security back at the prearranged price  
+- JP Morgan makes the spread of 1.25\% - 0.75\% = 0.50\% in exchange for bearing our counterparty risk.  
 - The haircuts do not adjust quickly in this market (they did not change at all in 2008), so if required haircuts go up, say for a borrower who might default on
 
 a repo, that borrower will get shut out of the tri-party repo market. This happened to Lehman and Bear Stearns.
@@ -2571,7 +2622,7 @@ Source: FR Y-9C and Call Report.
 
 Extremely Rapid Growth!
 
-It crossed from being lightly regulated because assets were under  \$100 bn to more stringently regulated after crossing\$ 100bn
+It crossed from being lightly regulated because assets were under \$100bn to more stringently regulated after crossing \$100bn
 
 # Silicon Valley Bank
 
@@ -2740,7 +2791,7 @@ Each had speculative attacks on them (George Soros in the 1992 event),
 - Only Luna.  
 - A right to convert each Terra to \$1 market value of Luna.  
 - But there is nothing backing Luna!  
-- If everyone will swap TerraUSD for Luna and the market value of Luna will be less than all the TerraUSD, the value of TerraUSD will drop below \(1.
+- If everyone will swap TerraUSD for Luna and the market value of Luna will be less than all the TerraUSD, the value of TerraUSD will drop below $1.
 
 # What is the value of Luna alone?
 
@@ -2775,13 +2826,13 @@ VS-T
 - There is a lower value of value of Terra and Luna together if Terra is not a stable coin.  
 - A coin that is not a stable coin is Bitcoin.  
 - Call the value if TerraUSD is not a stable coin (is Unstable), VU<VS, the value if a stable coin.  
-- Example:  $10 = \mathrm{VU} < \mathrm{VS} = 30$ .
+- Example: $10 = VU < VS = 30$.
 
 # Suppose that no run is expected
 
 - Case A (no run)  
 - Suppose everyone expects TerraUSD to survive, be worth \$1 and be stable, and T<VS the value if it persists as a stable coin.  
-- In this case the value of Luna (equity) is  $VS - T = 30 - 25 = 5 > 0$ .
+- In this case the value of Luna (equity) is VS - T = 30 - 25 = 5 > 0.
 
 # Suppose that no run is expected
 
@@ -2794,8 +2845,8 @@ One may convert Terra to Luna at  \$1, but would have no reason to do so once th
 # Suppose that a run is expected
 
 - Case B: A forecast Run.  
-- The value of Terra satisfies  $T = 25 > V U = 10$ .  
-- If a runs happens, the value of Luna is zero because it would be VU-T=10-25=-15<0, apart from limited liability.  
+- The value of Terra satisfies T = 25 > VU = 10.  
+- If a runs happens, the value of Luna is zero because it would be VU - T = 10 - 25 = -15 < 0, apart from limited liability.  
 - Instead, the TerraUSD as a whole is worth VU=10<T=25.
 
 # A run where all convert Terra
@@ -2803,7 +2854,7 @@ One may convert Terra to Luna at  \$1, but would have no reason to do so once th
 - In a run, all who hold Terra want to convert to Luna, and the stable coin Terra will not persist.  
 - Terra will drop in value to VU, Luna will be worth zero.  
 - There will be run on Terra because will become an unstable coin.  
-- There is not real collateral in Luna if  $T > V U = 10$ .
+- There is not real collateral in Luna if T > VU = 10.
 
 # Self-fulfilling Prophecies
 

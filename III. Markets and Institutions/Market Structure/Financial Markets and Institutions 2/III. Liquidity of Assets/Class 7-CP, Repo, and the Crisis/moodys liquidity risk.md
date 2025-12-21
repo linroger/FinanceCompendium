@@ -1,21 +1,21 @@
 ---
 title: "Moody's Approach to Assessing Liquidity Risk Insurance"
 parent_directory: "Class 7-CP, Repo, and the Crisis"
-formatted: 2025-12-21 12:15:00 PM
-formatter_model: claude-sonnet-4
-cli_tool: opencode
+formatted: "2025-12-21 10:10:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-   - liquidity risk analysis
-   - commercial paper ratings
-   - alternate liquidity provisions
-   - moody's rating methodology
+  - liquidity risk analysis
+  - commercial paper ratings
+  - alternate liquidity provisions
+  - moody's rating methodology
 secondary_tags:
-   - cashflow analysis
-   - stress scenario testing
-   - contingency funding plans
-   - bank backstop facilities
-   - systemic risk assessment
-   - confidence sensitivity
+  - cashflow analysis
+  - stress scenario testing
+  - contingency funding plans
+  - bank backstop facilities
+  - systemic risk assessment
+  - confidence sensitivity
 cssclasses: academia
 ---
 
@@ -190,7 +190,7 @@ Once we have the framework of all baseline cashflow giving effect to all short-t
 
 This analysis considers both issuer-specific factors and possible broad market disruptions, the strengths and the vulnerabilities of the issuer's cashflow, and the likelihood that a particular issuer would be affected to a particular degree of stress severity consistent with our case-by-case approach.
 
-Our analysis tests the issuer's ability to cover its cash needs by testing its ability to cover both direct and contingent obligations under scenarios with increasing degrees of stress. Assumptions may include: no ability to issue commercial paper for an extended period (10 days, 30 days, or permanent for lower-rated or highly confidence sensitive issuers), partial funding  $(50\%)$  or no funding under bank facilities, no access, or limited access to securitization markets, no access or limited access to other sources of external funding, a reduction or elimination of trade credit resulting in an increased need to use cash for trade or contingencies; and the deferral of sales of equity or assets.
+Our analysis tests the issuer's ability to cover its cash needs by testing its ability to cover both direct and contingent obligations under scenarios with increasing degrees of stress. Assumptions may include: no ability to issue commercial paper for an extended period (10 days, 30 days, or permanent for lower-rated or highly confidence sensitive issuers), partial funding (50\%)  or no funding under bank facilities, no access, or limited access to securitization markets, no access or limited access to other sources of external funding, a reduction or elimination of trade credit resulting in an increased need to use cash for trade or contingencies; and the deferral of sales of equity or assets.
 
 There is no formulaic linkage between the outcome of the stress case analysis and the perceived adequacy of the issuer's liquidity risk insurance. Moody's analysis considers the severity of the assumptions relative to each issuer's individual circumstances, including differences in confidence sensitivity and the ability to access internal and external sources of liquidity in a reasonable stress scenario.
 

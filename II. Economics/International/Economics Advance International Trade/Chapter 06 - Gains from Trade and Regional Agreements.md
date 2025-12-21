@@ -1,20 +1,29 @@
 ---
+---
+title: "Chapter 6: Gains from Trade and Regional Agreements"
+parent_directory: "Economics Advance International Trade"
+formatted: "2025-12-21 09:59:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
-- continent applying optimal tariffs
-- irrelevant transportation costs continents
-- regional agreements continents welfare
-- gains group countries marginal
+  - gains from trade
+  - regional trade agreements
+  - Pareto gains
+  - lump sum transfers
+  - commodity taxes subsidies
 secondary_tags:
-- free trade pareto gains
-- regional trade agreements theory
-- welfare global free trade
-- trade equilibrium includes lump
-- agreement continent transportation costs
-- krugman example world divided
-- imperfect competition larger country
-- tariffs regional free trade
-- gains principle possible commodity
-tags_extracted: '2025-12-18T00:14:49.403401'
+  - trade creation diversion
+  - customs unions
+  - free trade areas
+  - welfare compensation principle
+  - imperfect competition
+  - increasing returns scale
+  - optimal tariffs
+  - terms of trade effects
+  - trade adjustment assistance
+  - monopolistic competition
+cssclasses: academia
+---
 ---
 
 # Chapter 6: Gains from Trade and Regional Agreements
@@ -96,7 +105,7 @@ Because customs unions and free trade areas involve only partial elimination of 
 Our discussion of lump sum transfers follows Dixit and Norman (1980, pp. 76-78). We want to distinguish the various consumers in the economy, so we index them by  $h = 1, \dots, H$ . We will suppose that individual  $h$  has the increasing and quasi-concave utility function  $u^h(c^h, v^h)$ , where  $c^h$  is the N-dimensional vector of consumption, and  $v^h$  is the M-dimensional vector of factor supplies. Under autarky, each consumer maximizes utility subject to the budget constraint,
 
 $$
-p^{a^{\prime}} c^{h a} \leq w^{a^{\prime}} v^{h a}, \tag {6.1}
+p^{a^{\prime}} c^{h a} \leq w^{a^{\prime}} v^{h a} \tag{6.1}
 $$
 
 where  $\mathbf{p}^{\mathrm{a}}$  is the autarky vector of commodity prices, and  $\mathbf{w}^{\mathrm{a}}$  is the autarky vector of factor prices. The resulting utility for each consumer is  $\mathbf{u}^{\mathrm{h}}(\mathbf{c}^{\mathrm{ha}},\mathbf{v}^{\mathrm{ha}})$ .
@@ -104,7 +113,7 @@ where  $\mathbf{p}^{\mathrm{a}}$  is the autarky vector of commodity prices, and
 Summing over all consumption and factor supplies, the total output in the economy is therefore  $\sum_{\mathrm{h} = 1}^{\mathrm{H}}\mathrm{c}^{\mathrm{ha}} = \mathrm{y}^{\mathrm{a}}$ , and the total factor inputs are  $\sum_{\mathrm{h} = 1}^{\mathrm{H}}\mathrm{v}^{\mathrm{ha}} = \mathrm{v}^{\mathrm{a}}$ . Of course, the point  $(\mathrm{y}^{\mathrm{a}},\mathrm{v}^{\mathrm{a}})$  must be feasible for producers, and also optimal at the prices  $(\mathrm{p}^{\mathrm{a}},\mathrm{w}^{\mathrm{a}})$ . We will assume that the technology for the economy is subject to constant returns to scale. This means that the payments to factors are exactly equal to the revenue collected, so that profits in the economy are,
 
 $$
-\mathrm{p^{a} \Delta y^{a} - w^{a} \Delta v^{a} = 0}.
+\mathrm{p^{a} \Delta y^{a} - w^{a} \Delta v^{a} = 0}
 $$
 
 We now consider the free trade equilibrium, which includes a system of lump-sum taxes or transfers from the government to each individual. We will let  $\mathbf{R}^{\mathrm{h}}$  denote the transfer to each individual h, so that  $\mathbf{R}^{\mathrm{h}} < 0$  is a lump-sum tax. Then the total revenue collected by the
@@ -114,13 +123,13 @@ government is  $-\sum_{h=1}^{H} R^h$ , and we will need to establish that this i
 Denote the equilibrium commodity and factor prices under free trade by  $(\mathfrak{p},\mathfrak{w})$ . With each individual receiving the transfer  $\mathbf{R}^{\mathrm{h}}$ , the budget constraint is:
 
 $$
-p^{\prime} c^{h} \leq w^{\prime} v^{h} + R^{h}. \tag {6.2}
+p^{\prime} c^{h} \leq w^{\prime} v^{h} + R^{h} \tag{6.2}
 $$
 
 We want to choose a pattern of transfers that allows each individual to be as well off as they were in autarky. To this end, consider the following system:
 
 $$
-R^{h} = \left(p - p^{a}\right)^{\prime} c^{h a} - \left(w - w^{a}\right)^{\prime} v^{h a}. \tag {6.3}
+R^{h} = \left(p - p^{a}\right)^{\prime} c^{h a} - \left(w - w^{a}\right)^{\prime} v^{h a} \tag{6.3}
 $$
 
 To interpret this, if a price for a commodity rises going from autarky to free trade, the government will subsidize each individual by the price rise times their autarky consumption. Conversely, if the earnings of a factor rises going from autarky to free trade, the government will tax each individual by the wage increase times their autarky factor supply. The goal of this transfer system is to ensure that all individuals can still afford their autarky choices  $(\mathrm{c}^{\mathrm{ha}}, \mathrm{v}^{\mathrm{ha}})$ . To see that this is indeed the case, substitute these autarky choices into the budget constraint (6.2), and make use of (6.3), to obtain:
@@ -136,7 +145,7 @@ This result can also be seen from Figure 6.1. We illustrate there the indifferen
 Let us now sum up the transfers, and reverse its sign, to obtain total government revenue:
 
 $$
-\begin{array}{l} - \sum_{h = 1}^{H} R^{h} = (p^{a} - p)^{\prime} \sum_{h = 1}^{H} c^{h a} - (w^{a} - w)^{\prime} \sum_{h = 1}^{H} v^{h a} \\ = \left(\mathrm{p}^{\mathrm{a}} - \mathrm{p}\right)^{\prime} \mathrm{y}^{\mathrm{a}} - \left(\mathrm{w}^{\mathrm{a}} - \mathrm{w}\right)^{\prime} \mathrm{v}^{\mathrm{a}} \\ = \left(\mathrm{p}^{\mathrm{a}^{\prime}} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\mathrm{a}^{\prime}} \mathrm{v}^{\mathrm{a}}\right) - \left(\mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\prime} \mathrm{v}^{\mathrm{a}}\right) \\ = - \left(\mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\prime} \mathrm{v}^{\mathrm{a}}\right) \\ \geq - \left(\mathrm{p}^{\prime} \mathrm{y} - \mathrm{w}^{\prime} \mathrm{v}\right) = 0, \tag {6.4} \\ \end{array}
+\begin{array}{l} - \sum_{h = 1}^{H} R^{h} = (p^{a} - p)^{\prime} \sum_{h = 1}^{H} c^{h a} - (w^{a} - w)^{\prime} \sum_{h = 1}^{H} v^{h a} \\ = \left(\mathrm{p}^{\mathrm{a}} - \mathrm{p}\right)^{\prime} \mathrm{y}^{\mathrm{a}} - \left(\mathrm{w}^{\mathrm{a}} - \mathrm{w}\right)^{\prime} \mathrm{v}^{\mathrm{a}} \\ = \left(\mathrm{p}^{\mathrm{a}^{\prime}} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\mathrm{a}^{\prime}} \mathrm{v}^{\mathrm{a}}\right) - \left(\mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\prime} \mathrm{v}^{\mathrm{a}}\right) \\ = - \left(\mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\prime} \mathrm{v}^{\mathrm{a}}\right) \\ \geq - \left(\mathrm{p}^{\prime} \mathrm{y} - \mathrm{w}^{\prime} \mathrm{v}\right) = 0 \tag{6.4} \\ \end{array}
 $$
 
 where the second line follows by using  $\sum_{h=1}^{H} c^{ha} = y^a$  and  $\sum_{h=1}^{H} v^{ha} = v^a$ , the third line follows by rearranging terms, and the fourth line follows because autarky profits are zero as in (6.2). The expression  $(p' y^a - w' v^a)$  in the fourth line shows the value of profits under free trade if producers chose the feasible but non-optimal point  $(y^a, v^a)$ , which will be less than profits at
@@ -152,7 +161,7 @@ the optimal point  $(\mathbf{y},\mathbf{v})$ , and these profits are zero from c
 Therefore, we see that  $-\sum_{h=1}^{H} R^h \geq 0$ , so this system does not cost the government anything: the lump-sum taxes collected from those gaining from trade are more than enough to cover the losses to those harmed by trade. No one is harmed by the move to free trade, and there will generally be gains of two sorts: the consumption gains shown in Figure 6.1 from consuming at a point different from autarky; and the efficiency gains that arise when the value of output ( $p'y - w'v$ ) is strictly greater than ( $p'y^a - w'v^a$ ), so that the inequality on the last line of (6.4) is strict. To understand this source of gains, consider a special case where the factor supplies chosen by consumers do not change, so that the total factor inputs  $\overline{v}$  are fixed. Then we have that  $w'v^a = w' \overline{v} = p'y$ , so that the revenue collected by the government in (6.4) is:
 
 $$
-- \sum_{\mathrm{h} = 1}^{\mathrm{H}} \mathrm{R}^{\mathrm{h}} = - \left(\mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\prime} \mathrm{v}^{\mathrm{a}}\right) = \mathrm{p}^{\prime} \mathrm{y} - \mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}}. \tag {6.4'}
+ - \sum_{\mathrm{h} = 1}^{\mathrm{H}} \mathrm{R}^{\mathrm{h}} = - \left(\mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}} - \mathrm{w}^{\prime} \mathrm{v}^{\mathrm{a}}\right) = \mathrm{p}^{\prime} \mathrm{y} - \mathrm{p}^{\prime} \mathrm{y}^{\mathrm{a}} \tag{6.4'}
 $$
 
 In Figure 6.2, for example, suppose that the autarky equilibrium is at point A and the free trade production point at B. Then the revenue collected by the government is exactly the difference between the value of production at these points (with prices p), or the difference between the two budget lines that are drawn. With this revenue given back to consumers, they enjoy gains for that reason in addition to the consumption gains illustrated in Figure 6.1.
@@ -172,7 +181,7 @@ on goods at  $(\mathfrak{p}^{\mathrm{a}} - \mathfrak{p})$ , and the vector of co
 Next, we check the government budget. The revenue collected from this system of commodity taxes and subsidies equals:
 
 $$
-\left(p^{a} - p\right)^{\prime} \sum_{h = i}^{H} c^{h a} - \left(w^{a} - w\right)^{\prime} \sum_{h = i}^{H} v^{h a} = \left(p^{a} - p\right)^{\prime} y^{a} - \left(w^{a} - w\right)^{\prime} v^{a}. \tag {6.5}
+\left(p^{a} - p\right)^{\prime} \sum_{h = i}^{H} c^{h a} - \left(w^{a} - w\right)^{\prime} \sum_{h = i}^{H} v^{h a} = \left(p^{a} - p\right)^{\prime} y^{a} - \left(w^{a} - w\right)^{\prime} v^{a} \tag{6.5}
 $$
 
 Notice that this is identical to the expression in (6.4), and is therefore non-negative for exactly the same reasons. As we discussed in (6.4') and Figure 6.2, this expression is strictly positive whenever there are efficiency gains from having producers face free trade rather than autarky prices. If this is the case, then the government redistributes this revenue back to consumers as a "poll subsidy" (i.e. an equal amount to each person). In that way, all consumers receive more than their autarky utility level, and Pareto gains from trade are achieved!
@@ -224,7 +233,7 @@ More generally, our setup allows for a change in tariffs abroad simultaneously w
 Our argument will follow the earlier discussion of lump-sum compensation quite closely. In the initial situation, we suppose that consumers maximize utility subject to their budget constraints,
 
 $$
-p^{0} \mathrm{c}^{\mathrm{h} 0} \leq w^{0} \mathrm{v}^{\mathrm{h} 0} + \left(t^{0} \mathrm{m}^{0}\right) / H, \tag {6.6}
+p^{0} \mathrm{c}^{\mathrm{h} 0} \leq w^{0} \mathrm{v}^{\mathrm{h} 0} + \left(t^{0} \mathrm{m}^{0}\right) / H \tag{6.6}
 $$
 
 where  $\mathfrak{p}^0$  is the autarky vector of commodity prices,  $\mathbf{w}^{0}$  is the autarky vector of factor prices, and we include the redistributed tariff revenue  $t^{0},\mathrm{m}^{0} / \mathrm{H}$ , where  $\mathrm{H}$  is the number of consumers. The resulting utility for each consumer is  $\mathbf{u}^{\mathrm{h}}(\mathbf{c}^{\mathrm{h0}},\mathbf{v}^{\mathrm{h0}})$ .
@@ -234,7 +243,7 @@ Summing over all consumption and factor supplies, the total consumption in the e
 After the tariff reform, domestic prices change to  $p^1 = p^{*1} + t^1$ , and the revenue collected from the trade tax/subsidies becomes  $t^{1'}m^1$ . We denote the transfer to consumers by  $R^h$ , which may differ from just the revenue  $t^{1'}m^1$ . The budget constraint for consumers is,
 
 $$
-p^{1} \mathrm{c}^{\mathrm{h}} \leq w^{1} \mathrm{v}^{\mathrm{h}} + R^{\mathrm{h}}. \tag {6.7}
+p^{1} \mathrm{c}^{\mathrm{h}} \leq w^{1} \mathrm{v}^{\mathrm{h}} + R^{\mathrm{h}} \tag{6.7}
 $$
 
 Our goal is to identify conditions under which the government can compensate individuals for the change in prices, and at the same time, balance the government budget. Using a similar system of lump-sum transfers that we considered earlier, this can be achieved by:
@@ -244,7 +253,7 @@ Our goal is to identify conditions under which the government can compensate ind
 When the prices change from  $\mathbf{p}^0 = \mathbf{p}^{*0} + \mathbf{t}^0$  to  $\mathbf{p}^1 = \mathbf{p}^{*1} + \mathbf{t}^1$ , suppose that the government transfers the following amount to each individual:
 
 $$
-R^{h} = \left(p^{1} - p^{0}\right)^{\prime} c^{h 0} - \left(w^{1} - w^{0}\right)^{\prime} v^{h 0} + \left(t^{0}, m^{0}\right) / H. \tag {6.8}
+R^{h} = \left(p^{1} - p^{0}\right)^{\prime} c^{h 0} - \left(w^{1} - w^{0}\right)^{\prime} v^{h 0} + \left(t^{0}, m^{0}\right) / H \tag{6.8}
 $$
 
 Provided that  $(\mathfrak{p}^{*0} - \mathfrak{p}^{*1})'\mathfrak{m}^0 +\mathfrak{t}^{1'}(\mathfrak{m}^1 -\mathfrak{m}^0)\geq 0$ , then no individual is worse off and the government budget is balanced.
@@ -509,24 +518,4 @@ These two starkly different results suggest that the pattern and level of transp
 
 costs are high) is called “unnatural.” Frankel confirms that “natural” trading areas are more likely to lead to world welfare gains than “unnatural” areas. However, it turns out that having regional agreements within continents is not always welfare improving, and the case where these “natural” areas fail to lead to world gains is called “supernatural.” This brief summary is meant to suggest that the impact of regional trade agreements – in theory or in practice – is still a wide open area for research, and we shall return to this topic in chapter 9.
 
-# Problems
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-10/e92518f5-4cf8-4c58-a165-b17ce17987b7/be25bbb9619632e96b9663a3a1f1197ba9e6c6ab727f7f17bb36b02a04a01c0a.jpg)
-Figure 6.4
-
-In earlier chapters, our only demonstration of the gains from trade has been a diagram like Figure 6.4, where we show the indifference curves  $\phi$  being lifted off the PPF due to free trade. The question is: should we think of these indifference curves as applying to single "representative" consumer, or is there some other interpretation that allows for consumers who differ in their utility functions? The following results are due to Samuelson (1956), and give a precise interpretation to the indifference curves shown.
-
-Suppose that we have H consumers with utility functions  $\mathbf{u}^{\mathrm{h}}(\mathbf{c}^{\mathrm{h}})$ ,  $\mathrm{h =1,\dots,H}$ , where we ignore individual supplies of factors for simplicity. We assume that these are increasing and quasi-concave. Further, suppose that we have a social welfare function  $\mathrm{W(u^{1},\ldots,u^{H})}$ , which is non-decreasing and quasi-concave. Then Samuelson defined the social utility function as:
-
-$$
-\phi (c) = \max_{c^{h} \geq 0} W [ u^{1} \left(c^{1}\right), \dots , u^{H} \left(c^{H}\right) ] \quad \text{st .} \quad \sum_{h = 1}^{H} c^{h} \leq c. \tag {6.21}
-$$
-
-Thus, this social utility function takes the total amount of consumption goods available, c, and allocates it across individuals so as to maximize social welfare. This allocation is a form of "lump sum" transfers, where we are physically allocating the goods (though the outcome would be similar if we used lump sum transfers of income instead).
-
-Samuelson argued that we could think of the indifference curves in Figure 6.4 as being iso-curves of the function  $\phi$ , so moving to a higher indifference curve due to trade (as illustrated) means that social welfare has indeed increased.
-
-To further understand Samuelson's approach, answer the following:
-
-6.1 The fact that we are moving from a welfare level of  $\phi_1$  in Figure 6.4 to  $\phi_2$  due to the opening of trade proves that some person(s) utility must have increased, but it does not prove that everyone's utility has increased. Can you think of a special form for the welfare function W that will ensure that when  $\phi$  goes up, then everyone's utility must go up as well? [This social welfare function is used by Chipman (1987, p. 528), for example.]
 

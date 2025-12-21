@@ -1,14 +1,9 @@
 ---
+title: "Lectures 3 & 4: Martingales"
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
-title: 'Lectures 3 & 4: Martingales'
-tags: null
-aliases:
-- Martingales
-parent_folder: Lecture Notes
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: 'Lectures 3 & 4: Martingales'
+formatted: "2025-12-21 10:05:00 AM"
+formatter_model: claude-sonnet-4-5-20251001
+cli_tool: claude-code
 primary_tags:
 - modern probability
 - martingales introduction
@@ -24,23 +19,22 @@ secondary_tags:
 - expected value
 - all martingales
 - arbitrage-free market
-tags_extracted: '2025-12-18T17:57:55.335887'
-tags_method: max_quality_v1
+cssclasses: academia
 ---
 
 # LECTURES 3 AND 4: MARTINGALES
 
-# 1. INTRODUCTION
+## 1. Introduction
 
 In an arbitrage-free market, the share price of any traded asset at time  $t = 0$  is the expected value, under an equilibrium measure, of its discounted price at market termination  $t = T$ . We shall see that the discounted share price at any time  $t \leq T$  may also be computed by an expectation; however, this expectation is a conditional expectation, given the information about the market scenario that is revealed up to time  $t$ . Thus, the discounted share price process, as a (random) function of time, has the property that its value at any time  $t$  is the conditional expectation of the value at a future time given information available at  $t$ . A stochastic process with this property is called a martingale.
 
 The theory of martingales (initiated by JOSEPH DOOB, following earlier work of PAUL LÉvy) is one of the central themes of modern probability. In discrete-time finance, the importance of martingales stems largely from the Optional Stopping Formula, which (a) places fundamental constraints on (discounted) share price processes, and (b) provides a computational tool of considerable utility.
 
-# 2. FILTERATIONS OF PROBABILITY SPACES
+## 2. Filtrations of Probability Spaces
 
 Filtrations. In a multiperiod market, information about the market scenario is revealed in stages. Some events may be completely determined by the end of the first trading period, others by the end of the second, and others not until the termination of all trading. This suggests the following classification of events: for each  $t \leq T$ ,
 
-(1)  $\mathcal{F}_t = \{\text{alleventsdeterminedinthefirst } t \text{ tradingperiods}\}.$
+(1) $\mathcal{F}_t = \{\text{all events determined in the first } t \text{ trading periods}\}.$
 
 The finite sequence  $(\mathcal{F}_t)_{0\leq t\leq T}$  is a filtration of the space  $\Omega$  of market scenarios. In general, a filtration of a set  $\Omega$  (not necessarily finite) is defined to be a collection  $\mathcal{F}_t$ , indexed by a time parameter  $t$  (time may be either discrete or continuous), such that
 
@@ -91,11 +85,11 @@ Equivalently,  $\mathcal{F}_t$  consists of the events whose indicator functions
 
 Exercise: Show that, for the  $T$ -period binary market with the natural filtration, there is a one-to-one correspondence between adapted processes and functions on the nodes of the binary tree that represents the market.
 
-# 3. SELF-FINANCING PORTFOLIOS
+## 3. Self-Financing Portfolios
 
 Dynamic Portfolios. Consider a  $T$ -period market  $\mathcal{M}$  with traded assets  $A^1, A^2, \ldots, A^K$ . Denote by  $S_t^A(\omega)$  the share price of asset  $A$  at time  $t$  under market scenario  $\omega$ . Generally, a trader will hold not just a single asset, but a portfolio consisting of shares (possibly short) of each of the traded assets  $A^j$ ; moreover, the trader may adjust his/her portfolio as time progresses, in a manner that is scenario-dependent. Such a timeand scenario-dependent
 
-portfolio is called a dynamic, or dynamically rebalanced, portfolio. If  $\theta_t^A (\omega)$  denotes the number of shares of asset  $A$  held in a dynamically rebalanced portfolio during the tth trading period (that is, during the period following completion of trading at time  $t$  until the beginning of trading at time  $t + 1$ ) under scenario  $\omega$ , then the sequence  $(\theta_t^A)_{0\leq t\leq T}$  must be adapted to the natural filtration. A dynamic portfolio will be called bounded if each of the random variables  $\theta_t^A$  is bounded. Note that in markets with only finitely many scenarios, all dynamic portfolios are bounded.
+portfolio is called a dynamic, or dynamically rebalanced, portfolio. If $\theta_t^A (\omega)$ denotes the number of shares of asset $A$ held in a dynamically rebalanced portfolio during the tth trading period (that is, during the period following completion of trading at time $t$ until the beginning of trading at time $t + 1$) under scenario $\omega$, then the sequence $(\theta_t^A)_{0\leq t\leq T}$ must be adapted to the natural filtration. A dynamic portfolio will be called bounded if each of the random variables $\theta_t^A$ is bounded. Note that in markets with only finitely many scenarios, all dynamic portfolios are bounded.
 
 Self-Financing Portfolios. The total value of the portfolio  $\theta$  after rebalancing at time  $t$ , in scenario  $\omega$ , is
 
@@ -119,11 +113,11 @@ A dynamically rebalanced portfolio satisfying (6) is called self-financing, beca
 
 Exercise: Show that, in a  $T$ -period market with only finitely many market scenarios, every self-financing portfolio is a linear combination of pure trading strategies (as defined in Lecture 2), and every linear combination of pure trading strategies is a self-financing portfolio.
 
-# 4. MARTINGALES
+## 4. Martingales
 
 Let  $(\Omega, \mathcal{F}, P)$  be a probability space and  $(\mathcal{F}_t)_{0 \leq t \leq T}$  or  $(\mathcal{F}_t)_{0 \leq t < \infty}$  a filtration by sub- $\sigma$ -algebras of  $\mathcal{F}$ . An adapted sequence  $X_t$  of integrable random variables is defined to be a
 
-martingale if  $E(X_{t + 1}|\mathcal{F}_t) = X_t\forall t$  
+martingale if $E(X_{t + 1}|\mathcal{F}_t) = X_t \forall t$  
 
 - submartingale if  $E(X_{t + 1}|\mathcal{F}_t) \geq X_t \forall t$ .  
 - supermartingale if  $E(X_{t + 1}|\mathcal{F}_t) \leq X_t \forall t$ .
@@ -142,7 +136,7 @@ $$
 E X_{t} = E X_{0} \quad \forall t \geq 0. \tag{8}
 $$
 
-# Simple Examples
+### Simple Examples
 
 (1) Let  $X$  be any integrable random variable. Then the sequence  $X_{t}$  defined by  $X_{t} = E(X|\mathcal{F}_{t})$  is a martingale, by the Tower Property of conditional expectation. For finite filtrations  $(\mathcal{F}_t)_{0\leq t\leq T}$  of finite probability spaces, these are the only martingales (EXERCISE: Prove this.)  
 (2) Let  $Y_{1}, Y_{2}, \ldots$  be a sequence of independent, identically distributed random variables such that  $EY_{t} = 0$ , and let  $(\mathcal{F}_t)_{0 \leq t < \infty}$  be the natural filtration. Then the sequence  $X_{t} = \sum_{j=1}^{t} Y_{j}$  is a martingale. This follows easily from the Independence Law for conditional expectation.  
@@ -176,7 +170,7 @@ $$
 
 Useful special cases: (a)  $\varphi(x) = x^2$ , and (b)  $\varphi(x) = \exp\{\theta x\}$ .
 
-# 5. DISCOUNTED PRICE PROCESSES AS MARTINGALES
+## 5. Discounted Price Processes as Martingales
 
 The principal (but not the only) reason that the notion of a martingale is of importance in the theory of finance is that discounted price processes in arbitrage-free markets are martingales. Let  $\mathcal{M}$  be a  $T$ -period market,  $\Omega$  the (not necessarily finite) set of market scenarios, and  $(\mathcal{F}_t)_{0\leq t\leq T}$  the natural filtration. Assume that  $\mathcal{M}$  has a riskless asset with riskless rate of return  $r$  per trading period.4
 
@@ -216,9 +210,9 @@ $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/7d93709e-5283-4d4f-b5c7-9692f34b6b47/8a0dc9b471ea202b7a1ded7fe2c3931438055031caa365ddeddfffa714b509d2.jpg)
 
-# 6. MARTINGALE TRANSFORMS
+## 6. Martingale Transforms
 
-The price process of a self-financing, dynamically rebalanced portfolio in a discrete-time multiperiod market with a risk-neutral probability measure  $P$  is a special kind of process, called a martingale transform. In general, a dynamically rebalanced portfolio holds, during any trading period, a certain number of shares (possibly zero) of each traded asset  $A$  in the market. The number  $\theta_t^A$  of shares of asset  $A$  held between times  $t$  and  $t + 1$  must be a function only of the market information available up to time  $t$ ; that is,  $\theta_t^A$  must be  $\mathcal{F}_t -$  measurable, where  $(\mathcal{F}_t)_{0\leq t\leq T}$  is the natural filtration for the market. If the portfolio is self-financing, then the fluctuation in the value of the portfolio between the end of trading at time  $t$  until the beginning of tradiong at  $t + 1$  is
+The price process of a self-financing, dynamically rebalanced portfolio in a discrete-time multiperiod market with a risk-neutral probability measure  $P$  is a special kind of process, called a martingale transform. In general, a dynamically rebalanced portfolio holds, during any trading period, a certain number of shares (possibly zero) of each traded asset  $A$  in the market. The number  $\theta_t^A$  of shares of asset  $A$  held between times  $t$  and  $t + 1$  must be a function only of the market information available up to time  $t$ ; that is,  $\theta_t^A$  must be  $\mathcal{F}_t -$  measurable, where  $(\mathcal{F}_t)_{0\leq t\leq T}$  is the natural filtration for the market. If the portfolio is self-financing, then the fluctuation in the value of the portfolio between the end of trading at time $t$ until the beginning of trading at $t + 1$ is
 
 $$
 V_{t+1}^{\theta} - V_{t}^{\theta} = \sum_{A} \theta_{t} \left(S_{t+1}^{A} - S_{t}^{A}\right), \tag{13}
@@ -254,7 +248,7 @@ $$
 
 which gives the cumulative change in the value of the portfolio due to fluctuations in the share price of  $A$ , is a martingale transform. Therefore, by Proposition 1, it is a martingale. By the definition of a self-financing portfolio,  $V_{t}^{\theta}$  is the initial value  $V_{0}^{\theta}$  plus the sum of the values  $V_{t}^{\theta ,A}$  over all assets  $A$ . Since the sum of martingales is a martingale, it follows that the value process  $(V_{t}^{\theta})_{0\leq t\leq T}$  is a martingale.
 
-# 7. OPTIONAL STOPPING
+## 7. Optional Stopping
 
 The cornerstone of martingale theory is Doob's *Optional Stopping Theorem*. This states, roughly, that "stopping" a martingale at a random time  $\tau$  does not alter the expected "payoff", provided the decision about when to stop is based solely on information available
 
@@ -284,7 +278,7 @@ Proof. Homework problem. (Identify the appropriate predictable sequence  $Y_{n}$
 
 The Optional Stopping Theorem now follows from Conservation of Expectation (8).
 
-# 8. EXAMPLE: THE GAMBLER'S RUIN PROBLEM
+## 8. Example: The Gambler's Ruin Problem
 
 The Game. Two gamblers, FATS and SLIM, play the following game: FATS repeatedly tosses a fair coin. After each toss that comes up H, SLIM pays FATS one dollar. After each toss that comes up T, FATS pays SLIM one dollar. The game continues until either one or the other gambler runs out of money. If FATS starts with $A and SLIM starts with $B,
 
@@ -345,7 +339,7 @@ $$
 \boxed {E \tau = A B} \tag {25}
 $$
 
-# 9. THE MARTINGALE REPRESENTATION THEOREM AND HEDGING
+## 9. The Martingale Representation Theorem and Hedging
 
 In a market with a risk-neutral probability measure, where the riskless rate of return is  $r = 0$ , the value process of every bounded, self-financing portfolio is a martingale. Thus, it seems a natural question to ask is this: How does one characterize the set of all martingales? To answer this in general is too ambitious a goal; however, in the important special case of the homogeneous, binary,  $T$ -period market  $\mathcal{M}$ , we may give a complete answer.
 
@@ -415,7 +409,7 @@ $$
 
 Notice that the common value of the fractions on the two sides of (33) depends only on  $\omega_{1}\omega_{2}\ldots \omega_{t}$ , so the definition of  $\beta_{t}$  is valid. The relation (29) is now evident.
 
-# 10. APPENDIX: CONDITIONAL EXPECTATION
+## 10. Appendix: Conditional Expectation
 
 Let  $(\Omega, \mathcal{F}, P)$  be a probability space and let  $\mathcal{G}$  be a  $\sigma$ -algebra such that  $\mathcal{G} \subset \mathcal{F}$ .
 
@@ -475,7 +469,7 @@ $$
 
 With the exception of the Jensen inequality (7) and the Independence Law (4), all of these properties may be proved easily, using only Theorem 5. You should try to check as many as you can. The Independence Law is not difficult to establish for filtrations of finite probability spaces, but proof in general requires some facts from measure theory.
 
-# 11. PROBLEMS
+## 11. Problems
 
 1. Bonds. A (zero-coupon) bond with maturity M is a contract that pays the owner \$1 at the maturity date M. Consider a T-period market in which bonds of all maturities M = 1, 2, …, T are traded; denote by B_t,M = B_t,M(ω) the price (in dollars) at time t of one maturity-M bond.
 

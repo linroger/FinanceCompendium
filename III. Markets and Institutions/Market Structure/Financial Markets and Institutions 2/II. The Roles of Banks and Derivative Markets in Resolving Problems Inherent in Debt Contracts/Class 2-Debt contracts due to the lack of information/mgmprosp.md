@@ -118,7 +118,7 @@ The following is a brief summary of some of the terms of the offering. For a mor
 
 <table><tr><td>Issuer</td><td>MGM MIRAGE</td></tr><tr><td>Notes offered</td><td>\$750,000,000 aggregate principal amount of 7.625% senior notes due January 15, 2017.</td></tr><tr><td>Maturity</td><td>The notes mature on January 15, 2017.</td></tr><tr><td>Interest payment dates</td><td>January 15 and July 15 of each year after the date of issuance of the notes commencing July 15, 2007.</td></tr><tr><td>Guarantees</td><td>The notes will be unconditionally guaranteed, jointly and severally, on a senior basis by substantially all of our wholly owned U.S. subsidiaries except for U.S. holding companies of our foreign subsidiaries.</td></tr><tr><td>Ranking</td><td>The notes and guarantees will be general unsecured senior obligations of MGM MIRAGE and each guarantor, respectively, and will rank equally with or senior to all existing or future indebtedness of MGM MIRAGE and each guarantor, respectively. See “Description of the Notes — Ranking.”</td></tr><tr><td>Optional redemption</td><td>We may redeem the notes in whole or in part at any time prior to their maturity at the redemption price described in the section “Description of the Notes — Optional Redemption.”</td></tr><tr><td>Covenants</td><td>The indenture contains covenants that, among other things, will limit our ability and, in certain instances, the ability of our subsidiaries to: · incur liens on assets to secure debt; · enter into certain sale and lease–back transactions; and · merge or consolidate with another company or sell substantially all assets.</td></tr><tr><td colspan="2">These covenants are subject to a number of important qualifications and exceptions. See “Description of the Notes — Additional Covenants of MGM MIRAGE.”</td></tr><tr><td>Use of proceeds</td><td>We estimate that the net proceeds from this offering will be approximately \$746 million. We intend to use the proceeds to repay a portion of the outstanding amount under our \$7.0 billion senior credit facility and for general corporate purposes.</td></tr><tr><td>Risk factors</td><td>See “Risk Factors” and the other information in this prospectus supplement for a discussion of the factors you should carefully consider before deciding to invest in the notes.</td></tr></table>
 
-# RISK FACTORS
+## RISK FACTORS
 
 Before you invest in the notes, you should be aware that investment in the notes carries various risks, including those described below as well as those beginning on page 12 of our Annual Report on Form 10-K for the year ended December 31, 2005. We urge you to carefully consider these risk factors, together with all of the other information included and incorporated by reference in this prospectus supplement and accompanying prospectus, before you decide to invest in the notes.
 
@@ -156,15 +156,15 @@ We, meaning only MGM MIRAGE, have no operations of our own and derive all of our
 
 We may require you to dispose of your notes or redeem your notes if any gaming authority finds you unsuitable to hold them or in order to otherwise comply with any gaming laws to which we or any of our subsidiaries are or may become subject, as more fully described in the sections entitled "Regulation and Licensing" and "Description of the Notes — Mandatory Disposition Pursuant to Gaming Laws."
 
-# An active trading market may not develop for these notes.
+## An active trading market may not develop for these notes.
 
 Prior to this offering, there was no public market for the notes. We have been informed by the underwriters that they intend to make a market in the notes after we complete this offering. However, the underwriters may cease their market making activities at any time. In addition, the liquidity of the trading market in these notes, and the market price quoted for these notes, may be adversely affected by changes in the overall market for these types of securities and by changes in our financial performance or prospects or in the prospects for companies in our industry generally. As a result, you cannot be sure that an active trading market will develop for these notes.
 
-# USE OF PROCEEDS
+## USE OF PROCEEDS
 
 We plan to use the net proceeds from the offering of these notes (approximately \$746 million after commissions and offering expenses) to repay a portion of the outstanding amount under our \$7.0 billion credit facility and for general corporate purposes. The \$7.0 billion credit facility matures on October 3, 2011 and bears interest (6.5% as of November 30, 2006) based upon the bank reference rate plus an applicable margin ranging from 0.00% to 0.375% or reserve adjusted LIBOR rate plus an applicable margin ranging from 0.375% to 1.375%. As of November 30, 2006, there was approximately \$5.1 billion outstanding under the \$7.0 billion credit facility.
 
-# RATIO OF EARNINGS TO FIXED CHARGES
+## RATIO OF EARNINGS TO FIXED CHARGES
 
 The following table sets forth our ratio of earnings to fixed charges for the periods indicated:
 
@@ -172,7 +172,7 @@ The following table sets forth our ratio of earnings to fixed charges for the pe
 
 Earnings consist of income from continuing operations before income taxes and fixed charges, adjusted to exclude capitalized interest. Fixed charges consist of interest, whether expensed or capitalized, amortization of debt discounts, premiums and issuance costs, and our proportionate share of interest cost of unconsolidated affiliates.
 
-# REGULATION AND LICENSING
+## REGULATION AND LICENSING
 
 The gaming industry is highly regulated, and we must maintain our licenses and pay gaming taxes to continue our operations. Each of our casinos is subject to extensive regulation under the laws, rules and regulations of the jurisdiction where it is located. These laws, rules and regulations generally concern the responsibility, financial stability and character of the owners, managers, and persons with financial interest in the gaming operations. Violations of laws in one jurisdiction could result in disciplinary action in other jurisdictions.
 
@@ -200,7 +200,7 @@ To date, we have obtained all gaming licenses necessary for the operation of our
 
 The foregoing is only a summary of the applicable regulatory requirements. For a more detailed description of the applicable regulatory requirements, including requirements under gaming laws and our certificate of incorporation, see "Description of Regulation and Licensing" filed as Exhibit 99 to our Annual Report on Form 10-K for the year ended December 31, 2005.
 
-# DESCRIPTION OF THE NOTES
+## DESCRIPTION OF THE NOTES
 
 You can find the definitions of certain terms used in this description under the subheading "— Certain Definitions." In this description, the words "MGM MIRAGE," "we," "us" and "our" refer only to the single corporation MGM MIRAGE, a Delaware corporation, and not to any of its Subsidiaries.
 
@@ -536,7 +536,7 @@ the original aggregate principal amount of  \$200 million and (iii) Mirage Resor
 
 "Treasury Securities" mean any obligations issued or guaranteed by the United States government or any agency thereof.
 
-# UNDERWRITING
+## UNDERWRITING
 
 Subject to the terms and conditions of an underwriting agreement among us, the subsidiary guarantors and the underwriters, we have agreed to sell to the underwriters, and the underwriters have agreed to purchase from us, the principal amount of the notes set forth opposite its name in the table below.
 
@@ -656,11 +656,11 @@ Las Vegas, Nevada 89109
 
 (702) 693-7120
 
-# USE OF PROCEEDS
+## USE OF PROCEEDS
 
 Except as otherwise provided in the applicable prospectus supplement, we expect to use the net proceeds from the sale of the securities for general corporate purposes, which may include reducing our outstanding indebtedness, increasing our working capital, acquisitions and capital expenditures. Additional information on the use of net proceeds from the sale of securities offered by this prospectus may be set forth in the applicable prospectus supplement or other offering material relating to such offering. If the net proceeds from a specific offering will be used to repay indebtedness, the applicable prospectus supplement or other offering material will describe the relevant terms of the debt to be repaid.
 
-# RATIO OF EARNINGS TO FIXED CHARGES
+## RATIO OF EARNINGS TO FIXED CHARGES
 
 The following table sets forth our ratio of earnings to fixed charges for the periods indicated:
 

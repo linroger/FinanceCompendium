@@ -1,7 +1,7 @@
 ---
 title: Specific Factors and Income Distribution
 parent_directory: International Economics Theory and Policy
-formatted: 2025-12-21 08:15:00 AM
+formatted: 2025-12-21 10:00:00 AM
 formatter_model: claude-sonnet-4
 cli_tool: claude-code
 primary_tags:
@@ -21,7 +21,7 @@ secondary_tags:
 cssclasses: academia
 ---
 
-# SPECIFIC FACTORS AND INCOME DISTRIBUTION
+# Specific Factors and Income Distribution
 
 As we saw in Chapter 3, international trade can be mutually beneficial to the nations engaged in it. Yet throughout history, governments have protected sectors of the economy from import competition. Even before the recent spurt in protectionism under the Trump administration (see the box in this chapter for more details), the United States limited imports of apparel, textiles, sugar, ethanol, and dairy products, among many other commodities. During presidential reelection cycles, punitive tariffs are often imposed on import of goods produced in key political swing states.<sup>1</sup> If trade is such a good thing for the economy, why is there opposition to its effects? To understand the politics of trade, it is necessary to look at the effects of trade not just on a country as a whole but on the distribution of income within that country.
 
@@ -306,7 +306,7 @@ $D_{F} - Q_{F}$  is the economy's food imports, the amount by which its consumpt
 
 Figure 4-11 illustrates two important features of the budget constraint for a trading economy. First, the slope of the budget constraint is minus  $P_C / P_F$ , the relative price of cloth. The reason is that consuming one less unit of cloth saves the economy  $P_C$ ; this is enough to purchase  $P_C / P_F$  extra units of food. In other words, one unit of cloth can be exchanged on world markets for  $P_C / P_F$  units of food. Second, the budget constraint is tangent to the production possibility frontier at the chosen production point (shown as point 2 here). Thus, the economy can always afford to consume what it produces.
 
-# FIGURE 4-11
+#### Figure 4-11
 
 # Budget Constraint for a Trading Economy and Gains from Trade
 
@@ -324,7 +324,7 @@ The fundamental reason why trade potentially benefits a country is that it expan
 
 That everyone could gain from trade unfortunately does not mean that everyone actually does. In the real world, the presence of losers as well as winners from trade is one of the most important reasons why trade is not free.
 
-# The Political Economy of Trade: A Preliminary View
+## The Political Economy of Trade: A Preliminary View
 
 Trade often produces losers as well as winners. This insight is crucial to understanding the considerations that actually determine trade policy in the modern world economy. Our specific factors model informs us that those who stand to lose most from trade (at least in the short run) are the immobile factors in the import-competing sector. In the real world, this includes not only the owners of capital but also a portion of the labor force in those importing-competing sectors. Some of those workers (especially lower-skilled workers) have a hard time transitioning from the import-competing sectors (where trade induces reductions in employment) to export sectors (where trade induces increases in employment). Some suffer unemployment spells as a result. In the United States, workers in the import-competing sectors earn wages substantially below the average wage, and those workers earning the lowest wage face the highest risk of separation from their current employer due to import competition. (For example, the average wage of production workers in the apparel sector in 2019 was 25 percent below the average wage for all production workers.) One result of this disparity in wages is widespread sympathy for the plight of those workers and, consequently, for restrictions on apparel imports. The gains that more affluent consumers would realize if more imports were allowed and the associated increases in employment in the export sectors (which hire, on average, relatively higher-skilled workers) do not matter as much.
 
@@ -340,7 +340,7 @@ counterweight, especially given the aggregate gains from trade. Many trade restr
 
 Most economists, while acknowledging the effects of international trade on income distribution, believe it is more important to stress the overall potential gains from trade than the possible losses to some groups in a country. Economists do not, however, often have the deciding voice in economic policy, especially when conflicting interests are at stake. Any realistic understanding of how trade policy is determined must look at the actual motivations of that policy.
 
-# The Politics of Trade Protection
+## The Politics of Trade Protection
 
 It is easy to see why groups that lose from trade lobby their governments to restrict trade and protect their incomes. You might expect those who gain from trade would lobby as strongly as those who lose from it, but this is rarely the case. In the United States and most other countries, those who want trade limited are more effective politically than those who want it extended. Typically, those who gain from trade in any particular product are a much less concentrated, informed, and organized group than those who lose.
 
@@ -373,7 +373,7 @@ The highlighted years are recession years, as determined by the National Bureau 
 
 Source: U.S. Bureau of Economic Analysis for imports and U.S. Bureau of Labor Studies for unemployment.
 
-# CASE STUDY
+## Case Study
 
 # U.S. Manufacturing Employment and Chinese Import Competition
 
@@ -394,7 +394,7 @@ Manufacturing employment is measured as a percent of total U.S. non-farm employm
 
 9 percent since 2010. Over this time period, the U.S. manufacturing sector was still producing the same quantity of goods, but it was achieving those production levels with fewer and fewer workers.[14] The dotted line shows the forecasted manufacturing employment share after 1980 using only the data points before 1980 (a linear fit of the employment share from 1960 to 1980). Thus, if in 1980 we had predicted the share of U.S. employment in manufacturing for 2010—based on its decline from 1960 to 1980—we would have predicted an employment share of 8.8 percent: almost exactly what the actual employment share was in 2010. But during the two decades from 1960 to 1980, imports from China were virtually nil. Figure 4-13 highlights the explosive growth of those imports (measured relative to total U.S. manufacturing production) later on, which was especially strong after 2001 when China joined the World Trade Organization (WTO). It is therefore hard to make the case that the decline in the U.S. manufacturing share down to 8.8 percent in 2010 was driven by the growth in Chinese imports. After all, this is exactly what we had predicted for this share back in 1980 when the United States had virtually no trading relationship with China. We also see the impact of the Trump administration's trade war with China, resulting in the sharp decrease in imports for 2019 (U.S. exports to China decreased by an even bigger percentage following the Chinese retaliation against U.S. exports). We discuss this trade war in more detail in the following box. In any event, neither the increase in Chinese imports prior to the trade war nor the subsequent decrease has changed the stabilization in the share of U.S. manufacturing employment, which started in 2010.
 
-# THE TRUMP TRADE WAR
+## The Trump Trade War
 
 As we discussed, the job losses from import competition are much more visible—and much more directly connected with trade policy—than the jobs gains from trade in other sectors. This generates substantial political pressure to protect the affected import-competing sectors, even if this leads to aggregate losses. As we discussed in the introduction to this chapter, several newly elected U.S. presidents have bowed to this pressure. But this protection was awarded sparingly to just a few of the hardest-hit
 

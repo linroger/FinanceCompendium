@@ -1,27 +1,47 @@
 ---
 title: Money Market Mutual Fund Liquidity Facility
 parent_directory: Class 6-Bank Runs
-formatted: 2025-12-21 10:30:00 AM
-formatter_model: kimi-k2-turbo
-cli_tool: claude-code
+formatted: 2025-12-21 11:15:00 AM
+formatter_model: grok-code-fast-1
+cli_tool: opencode
 primary_tags:
-  - money market funds
-  - liquidity facility
-  - federal reserve
-  - financial crisis
-  - asset backed securities
+  - money market mutual funds
+  - federal reserve liquidity facility
 secondary_tags:
-  - commercial paper
-  - credit protection
-  - treasury support
-  - regulatory capital
+  - eligible collateral assets
+  - treasury credit protection
+  - regulatory capital treatment
   - non-recourse lending
-  - collateral valuation
-  - advance maturity
+  - asset-backed commercial paper
 cssclasses: academia
 ---
 
 # Money Market Mutual Fund Liquidity Facility
+
+```d2
+direction: right
+
+funds: Money Market Funds {
+  shape: rectangle
+}
+
+borrower: Eligible Borrower {
+  shape: rectangle
+}
+
+fed: Federal Reserve Bank {
+  shape: rectangle
+}
+
+treasury: Treasury (ESF) {
+  shape: rectangle
+}
+
+funds -> borrower: Sell eligible assets\n(Treasuries, ABCP, etc.)
+borrower -> fed: Pledge collateral\nReceive advance
+fed -> borrower: Provide liquidity loan
+treasury -> fed: Credit protection\n($10B guarantee)
+```
 
 Facility: To provide liquidity to Money Market Mutual Funds ("Funds"), the Federal Reserve Bank of Boston ("Reserve Bank") will lend to eligible borrowers, taking as collateral certain types of assets purchased by the borrower from Funds.
 
@@ -30,7 +50,7 @@ Timing: The Facility will open on March 23, 2020. The Facility will generally ta
 1. If purchased after March 23, 2020, is pledged concurrently with the borrowing; or
 2. If purchased on or after March 18, 2020, but on or before March 23, 2020, is pledged expeditiously starting on March 23, 2020.
 
-For negotiable certificates of deposit and variable rate demand notes, a borrower may purchase these assets on or after March 23, 2020, and pledge them on or after March 25, 2020.1
+For negotiable certificates of deposit and variable rate demand notes, a borrower may purchase these assets on or after March 23, 2020, and pledge them on or after March 25, 2020.$^{1}$
 
 Borrower Eligibility: All U.S. depository institutions, U.S. bank holding companies (parent companies incorporated in the United States or their U.S. broker-dealer subsidiaries), or U.S. branches and agencies of foreign banks are eligible to borrow under the Facility.
 
@@ -42,7 +62,7 @@ Eligible Collateral: Collateral that is eligible for pledge under the Facility m
 
 1. U.S. Treasuries & Fully Guaranteed Agencies;
 2. Securities issued by U.S. Government Sponsored Entities;
-3. Asset-backed commercial paper, unsecured commercial paper, or a negotiable certificate of deposit that is issued by a U.S. issuer, $^{2}$ and that has a short-term rating at the time purchased from the Fund or pledged to the Reserve Bank in the top rating category (e.g., not lower than A1, F1, or P1, as applicable) from at least two major nationally recognized statistical rating organizations ("NRSRO") or, if rated by only one major NRSRO, is rated within the top rating category by that NRSRO;
+3. Asset-backed commercial paper, unsecured commercial paper, or a negotiable certificate of deposit that is issued by a U.S. issuer, $^2$ and that has a short-term rating at the time purchased from the Fund or pledged to the Reserve Bank in the top rating category (e.g., not lower than A1, F1, or P1, as applicable) from at least two major nationally recognized statistical rating organizations ("NRSRO") or, if rated by only one major NRSRO, is rated within the top rating category by that NRSRO;
 4. U.S. municipal short-term debt (excluding variable rate demand notes) that:
 
    - Has a maturity that does not exceed 12 months; and

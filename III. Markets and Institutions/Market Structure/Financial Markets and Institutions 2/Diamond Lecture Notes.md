@@ -1,9 +1,6 @@
 ---
 title: Class Note 1 Borrower-Lender Conflicts and Debt Contracts
 parent_directory: Financial Markets and Institutions 2
-formatted: 2025-12-21 08:35:00 AM
-formatter_model: claude-3-7-sonnet-20250219
-cli_tool: opencode
 primary_tags:
    - borrower lender conflicts
    - debt contracts
@@ -103,7 +100,7 @@ Beginning with question a, we examine problems with bond covenants, contractual 
 - This gives an advantage to having a single lender, rather than many lenders. We will see that this is a part of the argument why asset services of banks and other intermediaries are important.
 - The US Federal Trust Indenture Act prohibits majority voting to restructure debt contracts that reduce principal or interest or extend the debt maturity. A  $100\%$  vote required to change these "key covenants." Thus, even if public bondholders had the information, they probably could not use it. Changes to other covenants in bonds require a 2/3 vote in dollar value, and  $50\%$  measured in the fraction of bondholders (not weighted by dollar value).
 
-## Class Note 2 Debt contracts due to the lack of information: Debt as a promise and a threat
+### Class Note 2 Debt contracts due to the lack of information: Debt as a promise and a threat
 
 This is our initial view of the role of debt in corporate control. This is simple but abstract. This will not be our only view of this issue.
 
@@ -559,7 +556,7 @@ If you don't like math, don't read this. It is not required. Some students like 
 
 This appendix briefly generalizes the example given above. The derivation is only sketched because the details are provided with the example given above.
 
-# Publicly traded debt without monitoring
+## Publicly traded debt without monitoring
 
 Debt uses the threat of liquidation to get the borrower to pay. Recall that the realized payoff of the project is  $V$  (either  $V = H$  or  $V = L$ ), and that the probability that  $V = H$  is  $P$ . The lenders will get an expected repayment of:  $Pf$  if  $f$  is between  $H$  and  $L$ , or  $f$ , if  $f$  does not exceed  $L$ . This implies that the lowest face value,  $f$ , that provides an expected repayment of  $1 + r$  is given by:
 

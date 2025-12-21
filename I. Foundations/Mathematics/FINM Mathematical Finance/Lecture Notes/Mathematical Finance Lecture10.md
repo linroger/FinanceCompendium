@@ -1,14 +1,6 @@
 ---
 parent_directory: I. Foundations/Mathematics/FINM Mathematical Finance/Lecture Notes
 title: 'Lecture 10: Change of Measure and the Girsanov Theorem'
-tags: null
-aliases:
-- Change of Measure and the Girsanov Theorem
-parent_folder: Lecture Notes
-subfolder: null
-key_concepts: null
-cssclasses: academia
-linter-yaml-title-alias: 'Lecture 10: Change of Measure and the Girsanov Theorem'
 primary_tags:
 - brownian motion
 - continuous paths
@@ -20,17 +12,16 @@ secondary_tags:
 - very special probability measures
 - nearly all probability measures
 - girsanov's theorem
-tags_extracted: '2025-12-18T17:57:44.186528'
-tags_method: max_quality_v1
+cssclasses: academia
 ---
 
 # LECTURE 10: CHANGE OF MEASURE AND THE GIRSANOV THEOREM
 
-# 1. INTRODUCTION
+## 1. INTRODUCTION
 
 The Cameron-Martin theorem, which has figured prominently in the developments of the last several lectures, is the most important special case of the far more general Girsanov theorem, which is our next topic of discussion. Like the Cameron-Martin theorem, the Girsanov theorem relates the Wiener measure  $P$  to different probability measures  $Q$  on the space of continuous paths by giving an explicit formula for the likelihood ratios between them. But whereas the Cameron-Martin theorem deals only with very special probability measures, namely those under which paths are distributed as Brownian motion with (constant) drift, the Girsanov theorem applies to nearly all probability measures  $Q$  such that  $P$  and  $Q$  are mutually absolutely continuous.
 
-# 2. EXPONENTIAL MARTINGALES
+## 2. EXPONENTIAL MARTINGALES
 
 Let  $\{W_t\}_{0 \leq t < \infty}$  be a standard Brownian motion under the probability measure  $P$ , and let  $(\mathcal{F}_t)_{0 \leq t < \infty}$  be the associated Brownian filtration. Recall that under  $P$ , for any scalar  $\theta \in \mathbb{R}$ , the process  $Z_\theta(t) = \exp \left\{\theta W_t - \theta^2 t / 2\right\}$  is a martingale with respect to  $(\mathcal{F}_t)_{0 \leq t < \infty}$ . These martingales provide the likelihood ratios used to build the probability measures  $\bar{P}_\theta$  described in the Cameron-Martin theorem.
 
@@ -58,7 +49,7 @@ We shall only prove this in the special case where the process  $\theta_{s}$  is
 
 First Proof. Because the function  $\theta_t$  is nonrandom, the random variable  $\int_0^t \theta_s \, dW_s$  is normally distributed with mean 0 and variance  $\int_0^t \theta_s^2 \, ds$ . Similarly, for any  $s < t$ , the random variable
 
-$\int_s^t\theta_u dW_u$  is normally distributed and independent of the  $\sigma$ -algebra  $\mathcal{F}_s$ . Consequently, for any  $s < t$ ,
+$\int_s^t\theta_u dW_u$ is normally distributed and independent of the $\sigma$-algebra $\mathcal{F}_s$. Consequently, for any $s < t$,
 
 $$
 \begin{array}{l} E \left(\exp \left\{\int_{0} ^{t} \theta_{u} d W _{u} \right\} \mid \mathcal{F}_{s}\right) = \exp \left\{\int_{0} ^{s} \theta_{u} d W _{u} \right\} E \left(\exp \left\{\int_{s} ^{t} \theta_{u} d W _{u} \right\} \mid \mathcal{F}_{s}\right) \\ = \exp \left\{\int_{0} ^{s} \theta_{u} d W _{u} \right\} E \exp \left\{\int_{s} ^{t} \theta_{u} d W _{u} \right\} \\ = \exp \left\{\int_{0} ^{s} \theta_{u} d W _{u} \right\} \exp \left\{\int_{s} ^{t} \theta_{u} ^{2} d u / 2 \right\}. \\ \end{array}
@@ -92,7 +83,7 @@ $$
 
 It follows that  $Z(t)$  is an  $L^2$  martingale, provided that for each  $T < \infty$  the process  $Z(t)\mathbf{1}\{t\leq T\}$  is in the class  $\mathcal{H}^2$ . This is easily checked (EXERCISE!) when the integrand  $\theta_{s}$  is nonrandom and continuous, using (for instance) the fact that  $Y_{t}$  has a normal distribution.
 
-# 3. THE GIRSANOV THEOREM
+## 3. THE GIRSANOV THEOREM
 
 Let  $\{\theta_t\}$  be an adapted process satisfying the hypotheses of Novikov's Proposition, and let  $Z(t)$  be defined by (1). By relation (3), for each  $T > 0$  the random variable  $Z(T)$  is a likelihood ratio: that is, the formula
 
@@ -100,7 +91,7 @@ $$
 Q (F) = E_{P} (Z (T) \mathbf{1}_{F}) \tag{5)
 $$
 
-defines a new probability measure on  $(\Omega, \mathcal{F})$ . Girsanov's theorem describes the distribution of the stochastic process  $\{W(t)\}_{t \geq 0}$  under this new probability measure. Define
+defines a new probability measure on $(\Omega, \mathcal{F})$. Girsanov's theorem describes the distribution of the stochastic process $\{W(t)\}_{t \geq 0}$ under this new probability measure. Define
 
 $$
 \tilde{W} (t) = W (t) - \int_{0} ^{t} \theta_{s} d s \tag(6)
@@ -112,7 +103,7 @@ This encompasses as a special case the Cameron-Martin Theorem proved earlier. It
 
 The proof of Girsanov's theorem is given in the appendix.
 
-# 4. FOREIGN EXCHANGE REVISITED
+## 4. FOREIGN EXCHANGE REVISITED
 
 In the previous lecture, we considered perhaps the simplest model of foreign exchange, in which the exchange rate between currencies (for definiteness, the U. S. dollar and the British pound sterling) follows a geometric Brownian motion with constant drift, and the riskless assets in each of the two currencies have constant (but not necessarily equal) rates of return. These assumptions are not always realistic, especially in problems involving contracts with maturities longer than a few months. Here, we shall investigate a more general model, in which the rates of return on the riskless assets and the volatility of the exchange rate process are time-varying, but nonrandom. Thus, it is assumed that the exchange rate  $Y_{t}$  (defined to be the number of British pounds that one dollar will buy at time  $t$ ) obeys a stochastic differential equation of the form
 
@@ -120,7 +111,7 @@ $$
 d Y_{t} = \mu_{t} Y_{t} d t + \sigma_{t} Y_{t} d W_{t}, \tag(7)
 $$
 
-where both the drift  $\mu_t$  and the volatility  $\sigma_t$  are continuous but nonrandom functions of  $t$ . Furthermore, the riskless assets US MONEYMARKET and UK MONEY MARKET for dollar and pound-sterling investors, reported in units of dollars and British pounds, respectively, have share prices  $A_t$  and  $B_t$  that satisfy the ordinary differential equations
+where both the drift $\mu_t$ and the volatility $\sigma_t$ are continuous but nonrandom functions of $t$. Furthermore, the riskless assets US MONEYMARKET and UK MONEY MARKET for dollar and pound-sterling investors, reported in units of dollars and British pounds, respectively, have share prices $A_t$ and $B_t$ that satisfy the ordinary differential equations
 
 $$
 d A_{t} = r_{A} (t) A_{t} d t \quad \text{and} \tag(8)
@@ -186,7 +177,7 @@ $$
 
 is, under  $Q_{A}$ , a standard Brownian motion.
 
-# 5. ABSOLUTE CONTINUITY AND EVENTS OF PROBABILITY ZERO
+## 5. ABSOLUTE CONTINUITY AND EVENTS OF PROBABILITY ZERO
 
 Lemma 1. Let  $P$  and  $Q$  be mutually absolutely continuous probability measures on a measure space  $(\Omega, \mathcal{F})$ , that is, there is a positive random variable  $Y(= dQ / dP)$  such that for every event  $F \in \mathcal{F}$ ,
 
@@ -222,7 +213,7 @@ $$
 P_{0} \left(H_{t}\right) = 1 \quad \text{where} H_{t} := \left\{\lim_{n \rightarrow \infty} Q V \left(W; \mathcal{D}_{n} [ 0, t ]\right) = t \right\}. \tag(19)
 $$
 
-Here  $QV(X, \Pi)$  denotes the quadratic variation of the process  $X(s)$  relative to the partition  $\Pi$ , and  $\mathcal{D}_n[0, t]$  is the  $n$ th dyadic partition of the interval  $[0, t]$ ; thus,
+Here $QV(X, \Pi)$ denotes the quadratic variation of the process $X(s)$ relative to the partition $\Pi$, and $\mathcal{D}_n[0, t]$ is the $n$th dyadic partition of the interval $[0, t]$; thus,
 
 $$
 Q V (W; \mathcal{D}_{n} [ 0, t ]) = \sum_{k = 1} ^{2 ^{n} t} \{W (k / 2 ^{n}) - W ((k - 1) / 2 ^{n}) \} ^{2}.
@@ -252,33 +243,7 @@ By Lemma 1, the same is true for any probability measure  $Q$  such that  $P_0$ 
 
 These observations explain, at least in part, why dollar investors and pound-sterling investors may have different "opinions" about the drift term in the exchange rate process (or, more generally, about the drift term in the stochastic differential equation for any tradeable asset) but must agree on the volatility process. The volatility process is always (at least in principle) observable, by the quadratic variation laws, but drift processes are not.
 
-# 6. EXERCISES
-
-1. Time-varying short rates and volatility. Let  $S_{t}$  be the share price at time  $t$  of a risky asset STOCK. Suppose that  $S_{t}$  obeys a stochastic differential equation of the form
-
-$$
-d S_{t} = \mu_{t} S_{t} d t + \sigma_{t} S_{t} d W_{t} \tag {23}
-$$
-
-where  $\mu_t$  and  $\sigma_t$  are continuous but nonrandom functions of time  $t$ . Suppose also that the market has a riskless asset MONEYMARKET whose share price  $B_t$  obeys the ordinary differential equation
-
-$$
-d B_{t} = r_{t} B_{t} d t, \tag {24}
-$$
-
-where the "short rate"  $r_t$  is again a continuous but nonrandom function of  $t$ .
-
-(A) Solve the differential equations (23) and (24).  
-(B) Prove that, under any risk-neutral measure,  $\mu_t = r_t$ .  
-(C) Find a formula for the arbitrage price of a European CALL option on STOCK with strike price  $K$  and expiration  $T$ . HINT: Your answer should be of the same form as the Black-Scholes formula. The quantities
-
-$$
-\int_{0}^{T} r_{t} d t \quad \text{an d} \quad \int_{0}^{T} \sigma_{t}^{2} d t
-$$
-
-should figure prominently in the answer.
-
-# 7. APPENDIX: PROOF OF THE GIRSANOV THEOREM
+## 7. APPENDIX: PROOF OF THE GIRSANOV THEOREM
 
 Given the Novikov theorem (Theorem 1), the Girsanov theorem is nothing more than a routine calculation. To show that the process  $\tilde{W}_t$ , under  $Q$ , is a standard Wiener process, it suffices to show that it has independent, normally distributed increments with the correct variances. For this, it suffices to show that the joint moment generating function (under  $Q$ ) of the increments
 

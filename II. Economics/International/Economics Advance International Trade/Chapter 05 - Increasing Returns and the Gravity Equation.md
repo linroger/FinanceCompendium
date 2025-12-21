@@ -9,6 +9,8 @@ primary_tags:
 - monopolistic competition model
 - gravity equation derivation
 - Canada US free trade
+- gravity equation applications
+- home market effect
 secondary_tags:
 - Krugman love variety approach
 - CES utility function
@@ -16,7 +18,15 @@ secondary_tags:
 - scale effect firms
 - bilateral trade patterns
 - OECD trade dispersion
-- Helpman theorem specialization
+- Helpman dispersion index
+- border effects gravity
+- multilateral resistance indexes
+- fixed effects estimation
+- economic geography
+- Krugman theorem
+- Davis Weinstein test
+- business groups trade
+- Anderson van Wincoop estimation
 cssclasses: academia
 ---
 
@@ -273,9 +283,7 @@ Canada-U.S. trade. Let us make the realistic assumption that the U.S. is 10 time
 - So internal trade went up by 5.5 times (from  $10\%$  to  $55\%$ ), cross-border down by one-half (from  $90\%$  to  $45\%$ ), and so internal trade has increased by 11 times more than cross-border trade
 - If we ask what has happened in the U.S., it used to export  $10\%$  of its output to Canada, and now it exports only  $5\%$ . So internal trade has risen from  $90\%$  to  $95\%$  of output – a modest change – while external trade has fallen in half. We conclude that cross-state trade has increased by slightly more than 2 times cross-border trade.
 
-We can see from this example that comparing cross-state trade to cross-border trade for the U.S. (a large country) gives a reasonable estimate of the true border effect (which was a factor of one-half), but that comparing cross-provincial trade with cross-border trade for Canada (a small country) gives a really exaggerated estimate of the border effect. To avoid this bias, we need to re-derive the gravity equation while introducing trade barriers (such as transport costs or tariffs) right from the start. This means that prices differ across countries. Anderson (1979) was the first to derive the gravity equation while taking into account these "price effects." Estimating the resulting equation still presents a challenge, however, and we shall discuss three approaches: the use of prices indexes to measure the price effects in the gravity equation, as in Bergstrand (1985,1989) and Baier and Bergstrand (2001); the use of estimated border effects to measure the
-
-price effects, as in Anderson and van Wincoop (2001); and the use of fixed effects to account for the price effects, as in Harrigan (1996), Hummels (1999), Redding and Venables (2000) and others. Our derivation of the gravity equation follows Redding and Venables.
+We can see from this example that comparing cross-state trade to cross-border trade for the U.S. (a large country) gives a reasonable estimate of the true border effect (which was a factor of one-half), but that comparing cross-provincial trade with cross-border trade for Canada (a small country) gives a really exaggerated estimate of the border effect. To avoid this bias, we need to re-derive the gravity equation while introducing trade barriers (such as transport costs or tariffs) right from the start. This means that prices differ across countries. Anderson (1979) was the first to derive the gravity equation while taking into account these "price effects." Estimating the resulting equation still presents a challenge, however, and we shall discuss three approaches: the use of prices indexes to measure the price effects in the gravity equation, as in Bergstrand (1985,1989) and Baier and Bergstrand (2001); the use of estimated border effects to measure the price effects, as in Anderson and van Wincoop (2001); and the use of fixed effects to account for the price effects, as in Harrigan (1996), Hummels (1999), Redding and Venables (2000) and others. Our derivation of the gravity equation follows Redding and Venables.
 
 # Border Effects in the Gravity Model
 
@@ -461,9 +469,7 @@ $$
 \ln (\mathrm{X}^{\mathrm{ij}} / \mathrm{Y}^{\mathrm{i}} \mathrm{Y}^{\mathrm{j}}) = \rho (1 - \sigma) \ln \mathrm{d}^{\mathrm{ij}} + (1 - \sigma) \tau^{\mathrm{ij}} + \ln (\tilde {\mathrm{P}}^{\mathrm{i}})^{\sigma - 1} + \ln (\tilde {\mathrm{P}}^{\mathrm{j}})^{\sigma - 1} + (1 - \sigma) \varepsilon_{\mathrm{ij}}. \tag {5.36}
 $$
 
-The dependent variable on the left is bilateral trade relative to the product of GDP's. On the right we have distance between regions i and j, followed by all other border effects  $(1 - \sigma)\tau^{\mathrm{ij}}$ , and then the multilateral resistance terms  $(\widetilde{\mathbf{P}}^{\mathrm{i}})^{\sigma - 1}$ . These terms can be solved from (5.32)
-
-once we know the transportation costs  $\mathrm{T}^{\mathrm{ij}} = \mathrm{T}^{\mathrm{ji}}$ . The transport costs, in turn, are obtained from (5.29) using the estimated value of  $\rho(1 - \sigma)\ln \mathrm{d}^{\mathrm{ij}} + (1 - \sigma)\tau^{\mathrm{ij}}$ , which comes from (5.36). The estimation of this system must be custom programmed to minimize the sum of squared residuals in (5.36), while simultaneously using (5.29) to obtain the values of  $\mathrm{T}^{\mathrm{ij}} = \mathrm{T}^{\mathrm{ji}}$  at each iteration, and with these, solving for the multilateral resistance terms  $(\widetilde{\mathrm{P}}^{\mathrm{i}})^{\sigma-1}$  from (5.32).
+The dependent variable on the left is bilateral trade relative to the product of GDP's. On the right we have distance between regions i and j, followed by all other border effects  $(1 - \sigma)\tau^{\mathrm{ij}}$ , and then the multilateral resistance terms  $(\widetilde{\mathbf{P}}^{\mathrm{i}})^{\sigma - 1}$ . These terms can be solved from (5.32) once we know the transportation costs  $\mathrm{T}^{\mathrm{ij}} = \mathrm{T}^{\mathrm{ji}}$ . The transport costs, in turn, are obtained from (5.29) using the estimated value of  $\rho(1 - \sigma)\ln \mathrm{d}^{\mathrm{ij}} + (1 - \sigma)\tau^{\mathrm{ij}}$ , which comes from (5.36). The estimation of this system must be custom programmed to minimize the sum of squared residuals in (5.36), while simultaneously using (5.29) to obtain the values of  $\mathrm{T}^{\mathrm{ij}} = \mathrm{T}^{\mathrm{ji}}$  at each iteration, and with these, solving for the multilateral resistance terms  $(\widetilde{\mathrm{P}}^{\mathrm{i}})^{\sigma-1}$  from (5.32).
 
 To perform this estimation, we need to be more specific about the form of the border effects  $(1 - \sigma)\tau^{ij}$  in (5.36). Recall that in McCallum's (1995) gravity equation in (5.20), we introduced an indicator variable  $\delta^{\mathrm{ij}}$  that equaled unity for trade between two Canadian provinces, and zero otherwise. Anderson and van Wincoop instead work with an indicator variable that is  $(1 - \delta^{\mathrm{ij}})$ , or unity for trade between the U.S. and Canada, and zero otherwise. Introducing the coefficient  $\gamma$  on this variable, we replace  $(1 - \sigma)\tau^{\mathrm{ij}}$  with  $\gamma(1 - \delta^{\mathrm{ij}})$  in (5.36) and also use the coefficient  $\alpha = \rho(1 - \sigma)$  on distance, to obtain:
 
@@ -487,9 +493,7 @@ $$
 
 For example, consider intra-Canadian trade, where  $\delta^{ij} = 1$  so the first term on the right of (5.38) vanishes. Anderson and van Wincoop find that (5.38) equals 4.3, meaning that intra-Canadian trade is 4.3 times larger with the border effects than without. $^{13}$  In addition, for the United States, Anderson and van Wincoop find that intra-U.S. trade is 1.05 times larger with the border effects than without. Finally, they find that cross-border trade is 0.41 times smaller with the border effects than without. All these numbers are computed from the ratio on the right of (5.38), averaged across the provinces or states in Canada or the U.S., as appropriate. With intra-Canadian trade being 4.3 times higher due to the border effect, and cross-border trade being 0.41 times smaller, it is immediate that intra-Canadian trade is  $4.3 / 0.41 = 10.5$  times higher than cross-border trade. This estimate is shown near the bottom of column (4) in Table 5.2, along with its standard error. The analogous calculation for the U.S. shows that intra-American trade is  $1.05 / 0.41 = 2.6$  times higher than cross-border trade, which is again shown at the bottom of column (4).
 
-These estimates show how small economies, such as Canada, have a much larger impact of the border effects. This is consistent with our numerical example earlier in the chapter, and
-
-indeed, the estimates of border effects obtained by Anderson and van Wincoop (10.5 and 2.6) are nearly the same as in our simple numerical example. Furthermore, these estimates have the following special property. The geometric mean of the border effects is  $(10.5\cdot 2.6)^{1 / 2} = 5.2$
+These estimates show how small economies, such as Canada, have a much larger impact of the border effects. This is consistent with our numerical example earlier in the chapter, and indeed, the estimates of border effects obtained by Anderson and van Wincoop (10.5 and 2.6) are nearly the same as in our simple numerical example. Furthermore, these estimates have the following special property. The geometric mean of the border effects is  $(10.5\cdot 2.6)^{1 / 2} = 5.2$
 
 Notice that this is the same as what we obtain by taking the exponent of the coefficient on the cross-border indicator variable (in absolute value),  $e^{1.65} = 5.2$ . So the geometric mean of the Canada and U.S. border effects, computing using formula (5.38), turns out to be identical to what we obtain by just using the cross-border indicator variable! This is no coincidence, and we provide a proof of this simple relation in the Appendix to this chapter. This result means that using cross-border indicator variable is a completely valid way to infer the average impact of the border on intranational relative to international trade.
 
@@ -513,9 +517,7 @@ It is also interesting that the average border effect of 4.7 is nearly the same 
 
 The fixed effect approach has been used by Rose and van Wincoop (2001) to estimate the impact of monetary unions on international trade. They include an indicator variable that is unity if the two countries belong to a monetary union, and interpret its coefficient of  $\hat{\gamma} = 0.86$  as a consistent estimate of the average impact of monetary unions on trade. This interpretation is valid (based on a multi-country extension of the Lemma in the Appendix). Surprisingly, they find that monetary unions increase trade by  $e^{\hat{\gamma}} = 2.36$ , or more than doubling trade on average between union members relative to non-union members. The actual mechanism by which monetary unions lead to such a large increase in trade remains quite unclear. Results like this have led Obstfeld and Rogoff (2001) to identify large border effects from the gravity equations as the cause of the "six major puzzles in international macroeconomics."
 
-The fixed effect method has also been used by Redding and Venables (2000) to determine wages across countries. They do not rely on symmetric transportation costs, or the above theorem of Anderson and van Wincoop, but instead work directly from the gravity equation in (5.26). In their approach, the differentiated product is used as both consumer goods
-
-and as intermediate inputs to production. Thus, proximity to trading partners affects a country's ability to export the differentiated good, and import the differentiated inputs: both of these activities will impact wages. Redding and Venables show the fixed effects of the gravity equation are directly related to equilibrium wages. In other words, the economic geography of a country – measured by its distance from and access to trading partners – determines its wages and hence its standard of living.
+The fixed effect method has also been used by Redding and Venables (2000) to determine wages across countries. They do not rely on symmetric transportation costs, or the above theorem of Anderson and van Wincoop, but instead work directly from the gravity equation in (5.26). In their approach, the differentiated product is used as both consumer goods and as intermediate inputs to production. Thus, proximity to trading partners affects a country's ability to export the differentiated good, and import the differentiated inputs: both of these activities will impact wages. Redding and Venables show the fixed effects of the gravity equation are directly related to equilibrium wages. In other words, the economic geography of a country – measured by its distance from and access to trading partners – determines its wages and hence its standard of living.
 
 In the next section, we turn to another question of economic geography that has to do with the location of firms. Specifically, as we consider regions or countries of differing size, will the higher demand in large areas serve to attract more firms? Since each product is produced by only one firm in our model, asking about the location of firms is the same as asking about how many products  $\mathbf{N}^{\mathrm{i}}$  each country produces. We address this in the next section, using a simplified framework where wages are constant and equal across countries.
 
@@ -579,9 +581,7 @@ $$
 \hat {\mathrm{N}}^{1} = \frac{\phi^{2 2}}{\left(\phi^{2 2} - \phi^{2 1}\right)} \hat {\mathrm{L}}^{1} > \hat {\mathrm{L}}^{1} > 0 \quad \text{an d} \quad \hat {\mathrm{N}}^{2} = \frac{- \phi^{1 2}}{| \Phi |} <   0. \tag {5.47}
 $$
 
-Thus, the number of products in the larger country will grow by more than the increase in country size, while those in the smaller country will shrink. Because consumption  $c^{\mathrm{ij}}$  and prices
-
-$\mathbf{p}^{\mathrm{ij}}$  are both fixed, then exports  $\mathbf{X}^{\mathrm{ij}} = \mathbf{N}^{\mathrm{i}}\mathbf{p}^{\mathrm{ij}}\mathbf{c}^{\mathrm{ij}}$  from each country to the other will change in proportion to the number of products. Thus, with  $\mathbf{N}^{1}$  growing and  $\mathbf{N}^{2}$  falling, country 1 will become a net exporter of the differentiated good to country 2,  $\mathbf{X}^{21} > \mathbf{X}^{12}$  (where trade is balanced overall through flows of the homogeneous good). Summarizing these results, we have:
+Thus, the number of products in the larger country will grow by more than the increase in country size, while those in the smaller country will shrink. Because consumption  $c^{\mathrm{ij}}$  and prices $\mathbf{p}^{\mathrm{ij}}$  are both fixed, then exports  $\mathbf{X}^{\mathrm{ij}} = \mathbf{N}^{\mathrm{i}}\mathbf{p}^{\mathrm{ij}}\mathbf{c}^{\mathrm{ij}}$  from each country to the other will change in proportion to the number of products. Thus, with  $\mathbf{N}^{1}$  growing and  $\mathbf{N}^{2}$  falling, country 1 will become a net exporter of the differentiated good to country 2,  $\mathbf{X}^{21} > \mathbf{X}^{12}$  (where trade is balanced overall through flows of the homogeneous good). Summarizing these results, we have:
 
 # Theorem (Krugman, 1980)
 

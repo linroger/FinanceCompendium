@@ -1,31 +1,19 @@
 ---
-aliases: null
-tags: null
-key_concepts: null
-parent_directory: null
-cssclasses: academia
-title: 'Trade and Technology: The Ricardian Model'
-linter-yaml-title-alias: 'Trade and Technology: The Ricardian Model'
+title: "Trade and Technology: The Ricardian Model"
 primary_tags:
-- disadvantage goods represent foreign
-- cloth exported wine industry
-- comparative advantage producing wheat
-- advantage country produce labor
 - ricardian model trade
+- comparative advantage theory
+- trade equilibrium determination
 secondary_tags:
-- export wine exchange cloth
-- england exported cloth exchange
-- differences countries focus ricardian
-- trade benefit country ricardo
-- cloth wine portugal marginal
-- foreign wheat cloth industries
-- cloth country require labour
-- time advantageous export wine
-- relative price wheat foreign
-- comparative advantage good lower
-- country comparative advantage wine
-- china comparative advantage apparel
-tags_extracted: '2025-12-18T00:31:57.561182'
+- absolute advantage concepts
+- technology differences trade
+- international trade patterns
+- export supply curves
+- import demand curves
+- terms of trade
+- gains from trade
+- international prices solving
+cssclasses: academia
 ---
 
 # Trade and Technology: The Ricardian Model
@@ -34,30 +22,22 @@ England exported cloth in exchange for wine, because, by so doing her industry w
 
 It would therefore be advantageous for Portugal to export wine in exchange for cloth. This exchange might even take place, notwithstanding that the commodity imported by Portugal could be produced there with less labour than in England.
 
-David Ricardo, On the Principles of Political Economy and Taxation, 1821
+David Ricardo, *On the Principles of Political Economy and Taxation*, 1821
 
 Comparative advantage is the best example of an economic principle that is undeniably true yet not obvious to intelligent people.
 
-Paul Samuelson, "The Way of an Economist," 1969 ick any manufactured product, and you will most likely find that it is traded among a number of countries. Let's choose snowboards as an example. In 2012 the United States imported (i.e., purchased from other countries) 33.3 million of snowboards from 18 different countries; Table 2-1 identifies the 12 countries with the highest dollar amount of snowboard sales to the United States.
+Paul Samuelson, "The Way of an Economist," 1969
+
+Pick any manufactured product, and you will most likely find that it is traded among a number of countries. Let's choose snowboards as an example. In 2012 the United States imported (i.e., purchased from other countries) 33.3 million of snowboards from 18 different countries; Table 2-1 identifies the 12 countries with the highest dollar amount of snowboard sales to the United States.
 
 
-At the top of the list in Table 2-1 is China, exporting (i.e., selling to another country) more than  \$19 million worth of snowboards to the United States. The second largest exporter to the United States is Austria, selling just over\$ 10 million in 2012. These two countries sell considerably more than the next country on the list,
-
-1 Reasons for Trade
-
-2 Ricardian Model
-
-3 Determining the Pattern of International Trade
-
-4 Solving for International Prices
-
-5 Conclusions
+At the top of the list in Table 2-1 is China, exporting (i.e., selling to another country) more than $19 million worth of snowboards to the United States. The second largest exporter to the United States is Austria, selling just over $10 million in 2012. These two countries sell considerably more than the next country on the list,
 
 <table><tr><td colspan="2">TABLE 2-1</td><td></td><td></td><td></td></tr><tr><td colspan="5">U.S. Imports of Snowboards, 2012</td></tr><tr><td>Rank</td><td>Country</td><td>Value of Imports ($ thousands)</td><td>Quantity of Snowboards (thousands)</td><td>Average Price ($/board)</td></tr><tr><td>1</td><td>China</td><td>19,560</td><td>400.6</td><td>49</td></tr><tr><td>2</td><td>Austria</td><td>10,479</td><td>93.6</td><td>112</td></tr><tr><td>3</td><td>Taiwan</td><td>2,108</td><td>46.5</td><td>45</td></tr><tr><td>4</td><td>Canada</td><td>362</td><td>23.2</td><td>16</td></tr><tr><td>5</td><td>Tunisia</td><td>337</td><td>2.0</td><td>171</td></tr><tr><td>6</td><td>Spain</td><td>285</td><td>1.9</td><td>151</td></tr><tr><td>7</td><td>Switzerland</td><td>42</td><td>0.2</td><td>226</td></tr><tr><td>8</td><td>Netherlands</td><td>42</td><td>0.3</td><td>159</td></tr><tr><td>9</td><td>Slovenia</td><td>27</td><td>0.2</td><td>121</td></tr><tr><td>10</td><td>Italy</td><td>24</td><td>0.2</td><td>140</td></tr><tr><td>11</td><td>Poland</td><td>16</td><td>0.1</td><td>155</td></tr><tr><td>12</td><td>France</td><td>15</td><td>0.1</td><td>126</td></tr><tr><td>13–18</td><td>All other countries</td><td>46</td><td>1.2</td><td>40</td></tr><tr><td></td><td>Total</td><td>33,343</td><td>570</td><td>58</td></tr><tr><td colspan="5">Source: U.S. Department of Commerce and the U.S. International Trade Commission.</td></tr></table>
 
-Taiwan (which sold  \$2 million of snowboards to the United States). The fourth largest exporter in 2012 was Canada, selling\$ 362,000 of snowboards to the United States.
+Taiwan (which sold $2 million of snowboards to the United States). The fourth largest exporter in 2012 was Canada, selling $362,000 of snowboards to the United States.
 
-Then, a group consisting of mostly European countries—Spain, Switzerland, the Netherlands, Slovenia, Italy, Poland and France, as well as Tunisia, a country on the north coast of Africa that is a former colony of France—sold between  \$15,000 and\$ 337,000 each to the United States. Another six countries (the Czech Republic, Mexico, Hong Kong, Australia, Germany, and Japan), sold smaller amounts. This rather long list of countries raises a question: With all the manufacturing capability in the United States, why does it purchase snowboards from these countries at all instead of producing them domestically?
+Then, a group consisting of mostly European countries—Spain, Switzerland, the Netherlands, Slovenia, Italy, Poland and France, as well as Tunisia, a country on the north coast of Africa that is a former colony of France—sold between $15,000 and $337,000 each to the United States. Another six countries (the Czech Republic, Mexico, Hong Kong, Australia, Germany, and Japan), sold smaller amounts. This rather long list of countries raises a question: With all the manufacturing capability in the United States, why does it purchase snowboards from these countries at all instead of producing them domestically?
 
 The first chapters of this book look at various reasons why countries trade goods with one another. These reasons include:
 
@@ -95,7 +75,7 @@ Proximity is only a partial explanation for trade patterns. As you can see in Ta
 
 Geography includes the natural resources (such as land and minerals) found in a country, as well as its labor resources (labor of various education and skill levels) and capital (machinery and structures). A country's resources are often collectively called its factors of production, the land, labor, and capital used to produce goods and services. In the next two chapters, we study how the resources of a country influence its trade patterns and how trade leads to economic gains or losses for different factors of production.
 
-In some cases, a country can export a good without having any advantage in the natural resources needed to produce it. One example is "icewine," which is a type of wine invented in Germany but now also produced in the Niagara Falls region of Canada and the United States (see Side Bar: Can Comparative Advantage Be Created? The Case of "Icewine"). Neither Taiwan nor Mexico has many mountains with ski resorts, so what explains their exports of snowboards? A hint is provided by noticing that the wholesale price of a snowboard purchased by the United States from these countries is very low: Taiwan sold snowboards to the United States for  \$45 and Mexico's wholesale price was just\$ 13. These prices are very low compared with the highest-priced countries shown, which are Switzerland (\$226), Tunisia (\$171), the Netherlands (\$159), and Poland (\$155). The low prices from Taiwan and Mexico indicate that the snowboards they sell to the United States are either lower-quality or unfinished boards imported into the United States for further processing. This type of trade in unfinished goods is an example of offshoring, a process in which a company spreads its production activities across several countries and trades semifinished products among them. The snowboards coming into the United States from Mexico (at \$13) and Canada (at \$16) are probably semifinished.
+In some cases, a country can export a good without having any advantage in the natural resources needed to produce it. One example is "icewine," which is a type of wine invented in Germany but now also produced in the Niagara Falls region of Canada and the United States (see Side Bar: Can Comparative Advantage Be Created? The Case of "Icewine"). Neither Taiwan nor Mexico has many mountains with ski resorts, so what explains their exports of snowboards? A hint is provided by noticing that the wholesale price of a snowboard purchased by the United States from these countries is very low: Taiwan sold snowboards to the United States for $45 and Mexico's wholesale price was just $13. These prices are very low compared with the highest-priced countries shown, which are Switzerland ($226), Tunisia ($171), the Netherlands ($159), and Poland ($155). The low prices from Taiwan and Mexico indicate that the snowboards they sell to the United States are either lower-quality or unfinished boards imported into the United States for further processing. This type of trade in unfinished goods is an example of offshoring, a process in which a company spreads its production activities across several countries and trades semifinished products among them. The snowboards coming into the United States from Mexico (at \$13) and Canada (at \$16) are probably semifinished.
 
 # Absolute Advantage
 
@@ -417,13 +397,9 @@ Foreign Import Demand Curve In Foreign we will again focus on the wheat market a
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/9e6f6cc4de3e7a0eaaa7f174335653644c287954fc476647aec23dbea3237b9a.jpg)
 
-1. Foreign imports 0-50 bushels of wheat at a relative price of 1 and …
-
 (b) Foreign Import Demand for Wheat
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/66a27d490218c415b83cd63a1b12c8c74981244b9fbbd125f5c3b85dae6472e2.jpg)
-
-2… .60 bushels of wheat at a relative price of  $\frac{2}{3}$ .
 
 Foreign Import Demand Panel (a) repeats Figure 2-6, showing the Foreign trade equilibrium with production at point  $B^{*}$  and consumption at point  $C^{*}$ . Panel (b) shows Foreign import demand for wheat. When the relative price of wheat is 1, Foreign will import any amount of wheat between 0 and 50 bushels, along the segment  $A^{*'}B^{*'}$  of the Foreign import demand curve. For relative prices below 1, Foreign imports more than 50 bushels, along the segment  $B^{*'}C^{*'}$ . For example, at the relative price of  $\frac{2}{3}$ , Foreign imports 60 bushels of wheat.
 
@@ -538,84 +514,4 @@ export supply curve, p. 47 import demand curve, p. 47
 
 terms of trade, p. 51
 
-# PROBLEMS
 
-1. At the beginning of the chapter, there is a brief quotation from David Ricardo; here is a longer version of what Ricardo wrote:
-
-England may be so circumstanced, that to produce the cloth may require the labour of 100 men for one year; and if she attempted to make the wine, it might require the labour of 120 men for the same time… . To produce the wine in Portugal, might require only the labour of 80 men for one year, and to produce the cloth in the same country, might require the labour of 90 men for the same time. It would therefore be advantageous for her to export wine in exchange for cloth. This exchange might even take place, notwithstanding that the commodity imported by Portugal could be produced there with less labour than in England.
-
-Suppose that the amount of labor Ricardo describes can produce 1,000 yards of cloth or 1,000 bottles of wine, in either country. Then answer the following: a. What is England's marginal product of labor in cloth and in wine, and what is Portugal's marginal product of labor in cloth and in wine? Which country has absolute advantage in cloth, and in wine, and why?
-
-b. Use the formula  $P_W / P_C = MPL_C / MPL_W$  to compute the no-trade relative price of wine in each country. Which country has comparative advantage in wine, and why?
-
-2. Suppose that each worker in the Home country can produce three cars or two TVs. Assume that Home has four workers.
-
-a. Graph the production possibilities frontier for the Home country.
-
-b. What is the no-trade relative price of cars at Home?
-
-3. Suppose that each worker in the Foreign country can produce two cars or three TVs. Assume that Foreign also has four workers.
-
-a. Graph the production possibilities frontier for the Foreign country.
-
-b. What is the no-trade relative price of cars in Foreign?
-
-c. Using the information provided in Problem 2 regarding Home, in which good does Foreign have a comparative advantage, and why?
-
-4. Suppose that in the absence of trade, Home consumes nine cars and two TVs, while Foreign consumes two cars and nine TVs. Add the indifference curve for each country to the figures in Problems 2 and 3. Label the production possibilities frontier (PPF), indifference curve  $(U_{1})$ , and the no-trade equilibrium consumption and production for each country.
-5. Now suppose the world relative price of cars is  $P_{C} / P_{TV} = 1$ .
-
-a. In what good will each country specialize? Briefly explain why.
-
-b. Graph the new world price line for each country in the figures in Problem 4, and add a new indifference curve  $(U_{2})$  for each country in the trade equilibrium.
-
-c. Label the exports and imports for each country. How does the amount of Home exports compare with Foreign imports?
-
-d. Does each country gain from trade? Briefly explain why or why not.
-
-6. Answer the following questions using the information given by the accompanying table:
-
-<table><tr><td></td><td>Home Country</td><td>Foreign Country</td><td>Absolute Advantage</td></tr><tr><td>Number of bicycles produced per hour</td><td>4</td><td>2</td><td>?</td></tr><tr><td>Number of snowboards produced per hour</td><td>6</td><td>8</td><td>?</td></tr><tr><td>Comparative advantage</td><td>?</td><td>?</td><td></td></tr></table> a. Complete the table for this problem in the same manner as Table 2-2.
-
-b. Which country has an absolute advantage in the production of bicycles? Which country has an absolute advantage in the production of snowboards?
-
-c. What is the opportunity cost of bicycles in terms of snowboards at Home? What is the opportunity cost of bicycles in terms of snowboards in Foreign?
-
-d. Which product will Home export, and which product does Foreign export? Briefly explain why.
-
-7. Assume that Home and Foreign produce two goods, TVs and cars, and use the information below to answer the following questions:
-
-In the No-Trade Equilibrium
-
-<table><tr><td colspan="2">Home Country</td><td colspan="2">Foreign Country</td></tr><tr><td>WageTV = 12</td><td>WageC = ?</td><td>Wage*TV = ?</td><td>WageC = 6</td></tr><tr><td>MPLTV = 2</td><td>MPLC = ?</td><td>MPL*TV = ?</td><td>MPLC = 1</td></tr><tr><td>PTV = ?</td><td>PC = 4</td><td>PTV = 3</td><td>PC = ?</td></tr></table> a. What is the marginal product of labor for TVs and cars in the Home country? What is the no-trade relative price of TVs at Home?
-
-b. What is the marginal product of labor for TVs and cars in the Foreign country? What is the no-trade relative price of TVs in Foreign?
-
-c. Suppose the world relative price of TVs in the trade equilibrium is  $P_{TV} / P_C = 1$ . Which good will each country export? Briefly explain why.
-
-d. In the trade equilibrium, what is the real wage at Home in terms of cars and in terms of TVs? How do these values compare with the real wage in terms of either good in the no-trade equilibrium?
-
-e. In the trade equilibrium, what is the real wage in Foreign in terms of TVs and in terms of cars? How do these values compare with the real wage in terms of either good in the no-trade equilibrium?
-
-f. In the trade equilibrium, do Foreign workers earn more or less than those at Home, measured in terms of their ability to purchase goods? Explain why.
-
-8. Why do some low-wage countries, such as China, pose a threat to manufacturers in industrial countries, such as the United States, whereas other low-wage countries, such as Haiti, do not?
-
-Answer Problems 9 to 11 using the chapter information for Home and Foreign.
-
-9. a. Suppose that the number of workers doubles in Home. What happens to the Home PPF and what happens to the no-trade relative price of wheat?
-b. Suppose that there is technological progress in the wheat industry such that Home can produce more wheat with the same amount of labor. What happens to the Home PPF, and what happens to the relative price of wheat? Describe what would happen if a similar change occurred in the cloth industry.
-10. a. Using Figure 2-5, show that an increase in the relative price of wheat from its world relative price of  $\frac{2}{3}$  will raise Home's utility.
-b. Using Figure 2-6, show that an increase in the relative price of wheat from its world relative price of  $\frac{2}{3}$  will lower Foreign's utility. What is Foreign's utility when the world relative price reaches 1, and what happens in Foreign when the world relative price of wheat rises above that level?
-
-11. (This is a harder question.) Suppose that the Home country is much larger than the Foreign country. For example, suppose we double the number of workers at Home from 25 to 50. Then Home is willing to export up to 100 bushels of wheat at its no-trade price of  $P_W / P_C = \frac{1}{2}$  rather than 50 bushels of wheat as shown in Figure 2-11. In the following, we draw a new version of Figure 2-11, with the larger Home country.
-
-a. From this figure, what is the new world relative price of wheat (at point  $D$ )?
-
-b. Using this new world equilibrium price, draw a new version of the trade equilibrium in Home and in Foreign, and show the production point and consumption point in each country.
-
-c. Are there gains from trade in both countries? Explain why or why not.
-
-12. Using the results from Problem 11, explain why the Ricardian model predicts that Mexico would gain more than the United States when the two countries signed the North American Free Trade Agreement, establishing free trade between them.
-
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/60861111-a690-431a-80eb-af541ac27095/3cbd7ee0e080c680f98c15c21473375eb25b78c9f1aebbc797be34ac970e2c05.jpg)

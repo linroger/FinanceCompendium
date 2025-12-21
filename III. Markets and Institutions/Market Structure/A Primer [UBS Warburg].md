@@ -62,18 +62,18 @@ This document is intended to be a reference manual for the calculation of common
 
 This document will be maintained online and any changes will be posted to our website at www.ubswarburg.com/research/gvg.
 
-# What Is a Multiple?
+## What Is a Multiple?
 
 A valuation multiple is simply an expression of market value relative to a key statistic that is assumed to relate to that value. To be useful, that statistic – whether earnings, cash flow or some other measure – must bear a logical relationship to the market value observed; to be seen, in fact, as the driver of that market value.
 
-# Two basic types: enterprise and equity multiples
+### Two Basic Types: Enterprise and Equity Multiples
 
 There are two basic types of multiple - enterprise value and equity:
 
 - Enterprise multiples express the value of an entire enterprise – the value of all claims on a business – relative to a statistic that relates to the entire enterprise, such as sales or EBIT.  
 Equity multiples, by contrast, express the value of shareholders' claims on the assets and cash flow of the business. An equity multiple therefore expresses the value of this claim relative to a statistic that applies to shareholders only, such as earnings (the residual left after payments to creditors, minority shareholders and other non-equity claimants).
 
-# Advantages/Disadvantages of Multiples
+## Advantages/Disadvantages of Multiples
 
 Disadvantages. There are a number of criticisms levied against multiples, but in the main these can be summarised as:
 
@@ -104,7 +104,7 @@ Table 1: Advantages and Disadvantages of Valuation Multiples
 
 Source: UBS Warburg
 
-# Enterprise versus Equity Multiples
+## Enterprise versus Equity Multiples
 
 In the table below we have summarised the relative advantages of using enterprise value (EV) versus equity multiples and vice versa. For more details please see page 25 below.
 
@@ -114,7 +114,7 @@ Table 2: Enterprise Value versus Equity Multiples
 
 Source: UBS Warburg
 
-# Why Multiples Vary
+## Why Multiples Vary
 
 There are four primary reasons why multiples can vary:
 
@@ -123,13 +123,13 @@ Accounting differences
 Fluctuations in cash flow or profit (ie they are unrepresentative of the future)  
 Mispricing
 
-# 1. Differences in the Quality of the Business
+### Differences in the Quality of the Business
 
 All things equal, higher-quality businesses deserve higher valuation multiples. This is another way of saying that there are qualitative differences in the fundamental underlying drivers of valuation, such as quality of management, available investment opportunities, strategy and branding. These can be distilled down to four quantitative valuation drivers: return on capital, cost of capital, growth and duration of growth.
 
 As investors, we are interested in how to allow for differences in these value drivers. How much is growth worth? What is the impact of a change in return on capital? We consider these issues in Target Valuation Multiples, starting on page 13.
 
-# 2. Accounting Differences
+### Accounting Differences
 
 Differences in accounting policies that do not affect cash flow do not affect value. But accounting policy differences do affect profit multiples and, as a result, differences in multiples can paint a misleading picture of relative valuation.
 
@@ -145,7 +145,7 @@ Source: UBS Warburg
 
 Since both companies have identical cash earnings they have the same value and should trade at the same share price (same number of shares assumed). This implies an earnings multiple of  $25\mathrm{x}$  for Company B. But it clearly would be wrong to conclude that Company A is cheaper than Company B. In fact, there is no information content whatsoever in the difference between the two multiples.
 
-# Accounting differences are not a trivial issue
+#### Accounting Differences Are Not a Trivial Issue
 
 There are many different factors that cause differences in profit measurement; a recent study comparing US GAAP with international accounting standards identified over 250 such differences. Not all of these affect profit measurement, and many would not have a material effect, but accounting differences are clearly not a trivial issue. However, it appears that a few key issues dominate – depreciation, goodwill (and other aspects of business combinations), provisioning and deferred tax, to name some of the most important.
 
@@ -154,7 +154,7 @@ While it is virtually impossible to completely eliminate the impact of different
 - Restate accounting data to a common format  
 Focus on key statistics that are less affected by accounting differences
 
-# Restating Accounting Data
+#### Restating Accounting Data
 
 In Table 4 below we examine some of the adjustments to accounting data that can be made to ensure greater data comparability.
 
@@ -173,13 +173,13 @@ Some accounting statistics are more comparable than others…
 
 …but most are incomplete or subjective in other ways and should be used with care
 
-# Focus on Key Statistics Less Affected by Accounting Differences
+#### Focus on Key Statistics Less Affected by Accounting Differences
 
 Since it is not possible to eliminate all accounting differences, investors and analysts should also seek to use valuation statistics that are least likely to be distorted by accounting. This essentially means focusing more on cash flow, rather than profit data, and where profit measures are used, taking them from higher up the income statement. However, keep in mind that there is a danger that key aspects of company performance can be missed when this is done; these statistics should be interpreted with care and preferably not in isolation.
 
 - Cash flow: The advantage of cash flow as a basis for valuation is that, when calculated properly, it is entirely independent of accounting methodology. The problem, though, is that, particularly on a historical basis, cash flow naturally varies and a single year's cash flow is not necessarily a good basis for predicting the future. This is mitigated by using forecast cash flows since this volatility diminishes, but even so cash flow is more suited to DCF valuations than to performance measures and valuation multiples.
 
-# OpFCF is not perfect but is our preferred approach to improving comparability
+##### OpFCF Is Not Perfect but Is Our Preferred Approach to Improving Comparability
 
 Revenue: Revenue has often been advocated as a suitable basis for analysis and valuation on the grounds that it is largely comparable across different accounting systems. There are two problems with this:
 
@@ -194,7 +194,7 @@ A crucial failing of EBITDA, however, is that it ignores the very real costs of 
 
 OpFCF = EBITDA - maintenance capex - maintenance increase/(decrease) in net working capital. 'Maintenance capex' is the amount an analyst estimates must be spent on fixed assets to maintain the profitability and competitive position of the company in real terms. It is cash-based, forward-looking and unaffected by accounting, unlike the related depreciation charge. OpFCF is, therefore, a more relevant measure to use in analysis and valuation, although less reliable due to the estimations required (see page 32).
 
-# 3. Fluctuations in Profits
+### Fluctuations in Profits
 
 Multiples are only meaningful if the profit statistic used is representative of the future. Profit fluctuations can have a substantial impact on multiples. Consider a company that has a steady earnings trend but takes a one-off restructuring charge:
 
@@ -229,7 +229,7 @@ Chart 2: General Motors
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2433722d-0268-4e0d-912c-deddef6c655e/09db3d0ba9b26d4451b93a20eb3911cef856e2804726b97ce8284d1b6610f4fb.jpg)  
 Source: Primark Datasstream
 
-# Dealing with Profit Fluctuations
+#### Dealing with Profit Fluctuations
 
 A multiple is only meaningful if the profit on which it is based is indicative of future profit potential. Where this is not the case, one should:
 
@@ -238,11 +238,11 @@ use forecast rather than historical profits.
 
 If current/subsequent years' profits are still unrepresentative of the longer term, then one should (a) use normalised profit or cash flow; or (b) consider using 'forward-priced' multiples. We discuss forward-priced multiples below.
 
-# 4. Mispricing
+### Mispricing
 
 If differences in multiples are not fully explained by differences in business quality, accounting differences or profit fluctuations, then the stock may simply be mispriced. It is the analyst's task to identify mispricing; the analyst's skill is in distinguishing between differences arising from underlying fundamentals – and therefore justified – and those arising from mispricing.
 
-# Choosing the Pricing Date
+## Choosing the Pricing Date
 
 Which pricing date should one use when calculating a multiple? There are three valid alternative prices that can be used in multiples – historical, current and forward. In practice a fourth, partial-forward approach is applied to enterprise values, but is less than ideal.
 
@@ -272,13 +272,11 @@ Source: UBS Warburg
 
 Note: Standard enterprise value multiples that appear in UBS Warburg research reports are historically priced for historical periods and partially-forward priced for forecast periods.
 
-# Section 2
-
 # Target Valuation Multiples
 
 Multiples are primarily used for relative comparisons: for a stock relative to its historical trend, relative to other companies, relative to its sector, and so forth. But it is also possible to derive a 'fair' or target multiple.
 
-# What Is a Target Multiple?
+## What Is a Target Multiple?
 
 A target multiple is the maximum multiple (of earnings, EBITDA, etc) that you could pay, given certain underlying value drivers, $^4$  and receive a fair return on your investment. 'Fair return' in this context means your required return on either equity or capital, depending on which measure you are applying.
 
@@ -314,7 +312,7 @@ Chart 5: UBS Warburg Global Valuation Group Target Multiple Calculator
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2433722d-0268-4e0d-912c-deddef6c655e/c322e9e659377057d4fb7c4ef01730cd9f1f2623b3834dfa3220198fc4d034cc.jpg)  
 Source: UBS Warburg
 
-# Single-stage Target Multiples
+## Single-stage Target Multiples
 
 We have summarised key multiples and their underlying formulas below. A derivation of the key formulas can be found in the Appendix.
 
@@ -333,7 +331,7 @@ Note: ROIC and ROE = incremental post-tax return on incremental total investment
 
 More realism is introduced by using a two-stage approach
 
-# Two-stage Target Multiples
+## Two-stage Target Multiples
 
 The assumption in the formulas above that value-adding growth will continue into perpetuity is suspect. Competitive pressures and the size effect invariably check growth rates. To cope with this, we can use a two-stage model, constituting:
 
@@ -358,7 +356,7 @@ All things equal, finite growth means a lower multiple than in the perpetual-gro
 
 Two-stage formulas are used in the Global Valuation Group (GVG) target multiple model. The derivation of the two-stage formula can be found in the Appendix.
 
-# Examples
+## Examples
 
 - Simple model, no value added: Suppose you are in investor with a required return on equity (cost of equity) of  $10\%$ , contemplating investing in a company with a return on equity of  $10\%$  and a growth rate of  $5\%$  into perpetuity. There is no value added (that is, the company does not generate any surplus return above your cost of equity), and therefore the rate of growth is irrelevant. This investment is identical to a bond paying  $10\%$  in perpetuity, and the maximum you would pay is  $(1/.10)$  or  $10x$  the coupon. The fair PE multiple is  $10x$  regardless of the company's growth rate.
 - Simple model, value added: Now consider a company with a return on equity of  $12\%$  and a growth rate of  $5\%$  to perpetuity. Because the company generates a return above your cost of equity, you will pay a higher PE ratio; the higher the growth rate, the more value added and the higher the PE you will pay. The fair PE ratio in this instance is:
@@ -411,7 +409,7 @@ Although the growth rate has fallen, even this lower growth adds value (12.5x - 
 
 What should be apparent is that different valuation approaches using similar assumptions should give the same answer. A multiple-based valuation approach is simply another way of formulating a discounted cash flow valuation, where the same assumptions are used in both.
 
-# Assumptions Used in Target Multiple Formulas
+## Assumptions Used in Target Multiple Formulas
 
 The assumptions used in these formulas must be given careful thought to ensure that they are consistent. The user should also be aware of the limitations of these formulas.
 
@@ -431,7 +429,7 @@ Efficiency gains can be a valuable source of growth
 
 - Growth period: The estimated period over which the initial growth rate and the excess return on capital are expected to persist. In the simpler version of the model, it is assumed that at the end of the initial growth period the excess return on capital changes to zero (in the GVG target multiple model this can be modified in the two-stage model for which value is added in both stages).
 
-# The Effect of Growth on Value
+## The Effect of Growth on Value
 
 If asked which value driver has the greatest impact on multiples, analysts and investors are likely to answer 'growth'. This is broadly true, but the impact of growth depends on its source and nature. There are several different sources of growth and each will have a different effect on value creation and thus share prices.
 
@@ -481,17 +479,15 @@ Chart 6: Effect of Different Sources of Growth on the PE Ratio
 Source: UBS Warburg  
 Note: Assumes perpetual growth arising from: (1) perpetual efficiency gains = the long-term growth rate; (2) and (5) reinvestment at a  $3\%$  premium/discount to COE; (3) reinvestment at COE; (4) inflationary growth only
 
-# Section 3
-
 # Using Valuation Multiples
 
-# Relative Valuation - Observed Multiple versus Comparable
+## Relative Valuation - Observed Multiple versus Comparable
 
 There are several ways one can apply multiples in valuation. The common approach is to compare the current multiple to a historical multiple measured at a comparable point in the business cycle and macroeconomic environment. An alternate approach is to compare current multiples to those of other companies, a sector or a market, and compare the current spread between them to a historical spread.
 
 Where is the current multiple relative to a 'fair' or target multiple?
 
-# Relative Valuation - Observed Multiple versus Target Multiple
+## Relative Valuation - Observed Multiple versus Target Multiple
 
 However, one can also compare a stock's current multiple to a calculated fair or target multiple. At different points in the business cycle the 'fair' and observed multiples are likely to differ. In Chart 7 below, the current multiple cycles around the fair multiple, with the multiple at any point in the cycle mean-reverting over time to the long-term fair multiple. A simple investment strategy would be to sell when the current multiple is above the fair multiple and buy when it is below.
 
@@ -501,7 +497,7 @@ Source: UBS Warburg
 
 Multiples are commonly plotted relative to growth or return on capital
 
-# Linking Multiples and Value Drivers
+## Linking Multiples and Value Drivers
 
 A more common way to look at multiples is to plot them relative to various value drivers. The most frequent comparisons are multiples versus growth in an underlying statistic and multiples to return on capital.
 
@@ -535,7 +531,7 @@ Source: UBS Warburg
 
 Multiple to interest rate: A less common approach is to compare a yield measure with interest rates or the cost of capital. The earnings yield ratio is the most commonly used of this type of comparison. Another approach is to compare a multiple to the reciprocal of the cost of capital, eg PE:(1/cost of equity) or EV/NOPLAT:(1/WACC).
 
-# Choosing the Right Multiple
+## Choosing the Right Multiple
 
 This is a matter of individual judgement and common sense. Multiples used should be relevant and useful and result in the least overlap. Economy of effort is also important: there is an inevitable trade-off between cost/time involved in adjusting multiples and improved comparability. We recommend that multiples be tested for statistical significance, using at least one business cycle of time-series data.
 
@@ -551,11 +547,9 @@ Chart 12: European Telecom Sector – 'babycoms' – EV/OpFCF
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2433722d-0268-4e0d-912c-deddef6c655e/4ff9e34a3287951bb3d6125b311e6e7117c9119fb610832757708cb9b553d357.jpg)  
 Source: UBS Warburg
 
-# Section 4
+## Enterprise Value Multiples
 
-The right to an enterprise's cash flow or the value of claims on that cash flow
-
-# Enterprise Value Multiples What Is Enterprise Value?
+### What Is Enterprise Value?
 
 - Enterprise value or EV is the cost of buying the right to the whole of an enterprise's core cash flow.  
 It is equal to the estimated value of the operations of an enterprise as represented by the value of the various claims on cash flow and profit.  
@@ -581,7 +575,7 @@ Chart 14: Enterprise Value Typology
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-05/2433722d-0268-4e0d-912c-deddef6c655e/7e9f11ee0d8ebf218c00eeb153144aaf5eb01d215f2484ad4b09f0025cd43638.jpg)  
 Source: UBS Warburg
 
-# Why Use Enterprise Value Multiples?
+## Why Use Enterprise Value Multiples?
 
 As summarised in Table 2 above, there are a number of reasons for using enterprise rather than equity multiples.
 
@@ -611,7 +605,7 @@ Less distorted by non-core assets: EV multiples allow the exclusion of non-core 
 
 As a result, enterprise value multiples are more comparable among companies than equity multiples.
 
-# Potential Problems in Calculating EV
+## Potential Problems in Calculating EV
 
 A number of potential problems arise in the calculation of enterprise value.<sup>6</sup>
 
@@ -620,19 +614,19 @@ Is enterprise value measured at market values?
 Does net debt reflect seasonal variations and changes in group composition?  
 Have non-operating and non-core assets been treated correctly?
 
-# 1. Completeness
+### Completeness
 
 Enterprise value should include all claims on the company, not just market capitalisation and net debt. This includes claims relating to deemed debt (provisions having the characteristics of interest-bearing debt, such as unfunded pension liabilities), options, preferred shareholdings and minority interests.
 
-# 2. Use of Market Values
+### Use of Market Values
 
 Enterprise value should include the value of claims at market, not book values. Debt should be adjusted to reflect market value. Minority shares in a subsidiary should be quoted at market value; otherwise a valuation multiple should be applied to earnings or net assets. Quoted options should be valued at market and, where unquoted, at fair value ideally, or as a minimum at intrinsic value.
 
-# 3. Seasonality
+### Seasonality
 
 EV should reflect an average level of debt which is adjusted to reflect seasonal variations and for changes in the composition of the group. This is important, as net debt is usually the largest component of EV after market capitalisation, and using the stated balance sheet amount can result in large errors.
 
-# 4. Treatment of Non-operating and Non-core Assets
+### Treatment of Non-operating and Non-core Assets
 
 Non-operating assets are investments and other activities that do not form part of the firm's trading (day-to-day business) operations. Non-core assets include non-operating and any other trading activities that are so different in nature that failure to exclude them from core EV would seriously distort multiples. Income produced by non-core assets is not part of core EBIT.
 
@@ -669,13 +663,13 @@ Non-core assets include both non-operating assets plus any trading operations de
 
 The multiple denominator must represent a flow to all claimants
 
-# Enterprise Value Multiples
+### Enterprise Value Multiples
 
 There are many different enterprise value multiples that can be calculated, depending on the circumstances. What is most important is that the denominator represent a flow to all claimants on enterprise cash flow.
 
 Adjustments should be made to both enterprise value and the denominator where necessary (and possible) to ensure that apples are being compared with apples.
 
-# EV/Sales
+### EV/Sales
 
 Definition: Core EV/sales.
 
@@ -720,7 +714,7 @@ Benchmarkcompany operating margin
 
 where the target company is the one being valued.
 
-# EV/EBITDA
+### EV/EBITDA
 
 Definition: Core EV/earnings before associates, interest, tax, depreciation, amortisation, non-cash changes in provisions and before reported exceptional items.
 
@@ -761,7 +755,7 @@ Most useful where comparables' depreciation policies are similar
 
 EV/EBITDA cannot be used when current cash flow is negative. Use normalised EBITDA, or a forward multiple, instead.
 
-# EV/EBIT
+### EV/EBIT
 
 Definition: Core EV/core earnings before goodwill amortisation (but after amortisation of other intangibles), associates, interest and taxes. It is stated pre reported exceptional or extraordinary items.
 
@@ -787,7 +781,7 @@ Note that the goodwill adjustment does not apply to financial statements reporte
 
 NOPLAT is often stated after adjustments to better reflect economic profit
 
-# EV/NOPLAT
+### EV/NOPLAT
 
 Definition: Core EV/normal operating profit less adjusted tax.
 
@@ -805,7 +799,7 @@ Formula: \frac{E V}{N O P L A T} = \frac{R O I C - g}{R O I C \times (W A C C - 
 
 EV/NOPLAT is equivalent to a degeared PE
 
-# EV/OpFCF
+### EV/OpFCF
 
 Definition: Core EV/operating free cash flow (OpFCF). ROIC is calculated using OpFCF in the numerator.
 
@@ -834,7 +828,7 @@ EV/OpFCF is preferable to EV/EBITDA for comparing companies within a sector, or 
 - Operating free cash flow is a smoothed measure of free cash flow to the firm, for which historical figures can be highly volatile. Because of this, multiples using OpFCF can be easier to interpret than those using free cash flow.  
 This multiple cannot be used when current cash flow is negative. Use normalised OpFCF or a forward-priced multiple instead.
 
-# EV/Enterprise Free Cash Flow
+### EV/Enterprise Free Cash Flow
 
 Definition: Core EV/normalised after-tax core enterprise free cash flow (or FCF, also known as free cash flow to the firm). ROIC is calculated using after-tax FCF in the numerator.
 
@@ -888,7 +882,7 @@ Items included in EV and capital must be consistent
 
 - Cash flow is better used - in fact is essential - in a discounted cash flow valuation because multi-period cash flow is used instead of a point estimate. We prefer the use of a smoothed cash flow figure such as OpFCF, provided the assumptions underlying the calculation are sensible.
 
-# EV/Invested Capital
+### EV/Invested Capital
 
 Definition: core EV/invested capital.
 
@@ -916,7 +910,7 @@ Differences in per-unit profitability will determine differences in valuation
 
 - Items included in invested capital or total capital employed must be consistent with items included in enterprise value.
 
-# EV/Capacity Measure
+### EV/Capacity Measure
 
 Definition: Core EV/units of capacity (such as tonnes of cement capacity) or another revenue-generating unit (such as subscribers).
 
@@ -936,21 +930,19 @@ $$
 \frac{\text{EV}}{\text{To nn e}} = \frac{. 1 2 -. 0 3}{. 1 2 (. 1 0 -. 0 3)} \times \text{US} \$ 1 0 = 1 0. 7 \times \text{US} \$ 1 0 = \text{US} \$ 1 0 7 \text{pe rt on ne}
 $$
 
-# Section 5
+### Equity Multiples
 
-# Equity Multiples
-
-# What Are Equity Multiples?
+## What Are Equity Multiples?
 
 An equity multiple, as the name suggests, is the expression of the market value of equityholders' stake in an enterprise, relative to a key statistic relating to that value.
 
-# Equity multiples reflect residual claims
+### Equity Multiples Reflect Residual Claims
 
 As we have noted earlier, the statistic must relate to the value being measured. Since shareholders are subordinate to all other claimants of the cash flow and assets of a business, any statistic used in an equity multiple must be one that represents residual profit, cash flow, assets or another residual measure. All senior claims must have been deducted first.
 
-# Equity Multiples
+#### Equity Multiples
 
-# Price/Earnings
+### Price/Earnings
 
 Definition: Current market capitalisation/net income attributable to common shareholders or alternatively, price per share/attributable earnings per share.
 

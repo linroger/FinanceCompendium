@@ -1,9 +1,23 @@
 ---
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Accumulation Opportunity In Electronic Mkt
+parent_directory: FINM Quantitative Trading Strategies
+formatted: 2025-12-21 10:15:00 AM
+formatter_model: kimi-k2-turbo
+cli-tool: claude-code
+primary_tags:
+  - accumulation algorithms
+  - vwap participation
+  - cryptocurrency trading
+  - high frequency trading
+secondary_tags:
+  - btc usd trading
+  - eth btc trading
+  - eth usd trading
+  - trading simulation
+  - participation rate
+  - transaction costs
+  - market microstructure
+cssclasses: academia
 ---
 
 # Accumulation Opportunity In Electronic Mkt
