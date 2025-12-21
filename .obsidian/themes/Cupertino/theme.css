@@ -67,6 +67,9 @@ body,
   --surface-glass-strong: color-mix(in srgb, var(--liquid-glass-background) 85%, var(--liquid-glass-tint));
   --surface-glass-weak: color-mix(in srgb, var(--liquid-glass-background) 55%, var(--liquid-glass-tint));
   --surface-border: var(--liquid-glass-border);
+  --modal-panel-background: color-mix(in srgb, var(--background-primary) 96%, var(--liquid-glass-background));
+  --modal-panel-sidebar-background: color-mix(in srgb, var(--background-secondary) 94%, var(--liquid-glass-background));
+  --modal-scrim-color: rgba(0, 0, 0, 0.24);
   --divider-color: var(--background-modifier-border);
   --tab-container-background: var(--surface-content);
 }
@@ -113,6 +116,7 @@ body,
   --liquid-glass-border: rgba(0, 0, 0, 0.08);
   --liquid-glass-background: rgba(255, 255, 255, 0.6);
   --liquid-glass-tint: rgba(255, 255, 255, 0.7);
+  --modal-scrim-color: rgba(0, 0, 0, 0.18);
   --blur-xs: blur(4px);
   --blur-s: blur(8px);
   --blur-m: blur(16px);
@@ -171,6 +175,7 @@ body,
   --liquid-glass-border: rgba(255, 255, 255, 0.1);
   --liquid-glass-background: rgba(255, 255, 255, 0.12);
   --liquid-glass-tint: rgba(255, 255, 255, 0.08);
+  --modal-scrim-color: rgba(0, 0, 0, 0.36);
   --blur-xs: blur(6px);
   --blur-s: blur(12px);
   --blur-m: blur(20px);
@@ -1019,7 +1024,10 @@ body:not(.is-mobile).mod-macos.is-translucent .modal {
   animation: modalInTranslucent var(--anim-duration-moderate) var(--anim-motion-cupertino) forwards;
 }
 body:not(.is-mobile) .modal-bg {
-  opacity: 0 !important;
+  background-color: var(--modal-scrim-color);
+  opacity: 1 !important;
+  backdrop-filter: var(--blur-xs);
+  -webkit-backdrop-filter: var(--blur-xs);
 }
 body:not(.is-mobile) .modal {
   box-shadow: var(--shadow-s);
@@ -1330,12 +1338,14 @@ body.is-tablet .prompt-input {
 }
 
 .modal.mod-sidebar-layout {
-  backdrop-filter: none;
-  background-color: var(--mobile-sidebar-background, var(--background-secondary));
+  background-color: var(--modal-panel-background);
+  border: 1px solid var(--surface-border);
+  backdrop-filter: var(--blur-s);
+  -webkit-backdrop-filter: var(--blur-s);
 }
 .modal.mod-sidebar-layout .vertical-tab-header {
-  border-inline-end: none;
-  background-color: unset;
+  border-inline-end: 1px solid var(--divider-color);
+  background-color: var(--modal-panel-sidebar-background);
   position: relative;
 }
 .modal.mod-sidebar-layout .horizontal-tab-nav-item,
@@ -1345,7 +1355,7 @@ body.is-tablet .prompt-input {
 }
 .modal.mod-sidebar-layout .horizontal-tab-content,
 .modal.mod-sidebar-layout .vertical-tab-content {
-  background-color: transparent;
+  background-color: var(--modal-panel-background);
   scrollbar-gutter: stable;
 }
 .modal.mod-sidebar-layout .setting-item {
@@ -1442,6 +1452,9 @@ body:not(.is-phone) .modal.mod-sidebar-layout .installed-plugins-container .sett
 
 body.is-mobile .modal.mod-sidebar-layout {
   background-color: var(--mobile-sidebar-background);
+  border: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 body.is-mobile .modal.mod-sidebar-layout:is(.theme-light .modal.mod-sidebar-layout) {
   --interactive-normal: var(--background-primary);
@@ -3490,7 +3503,7 @@ body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-android:not(.android
 }
 
 body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-mobile) .modal.mod-sidebar-layout:not(.mod-community-modal) {
-  background-color: var(--background-primary);
+  background-color: var(--modal-panel-background);
 }
 body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-mobile) .modal.mod-sidebar-layout:not(.mod-community-modal) .horizontal-tab-nav-item,
 body:is(.liquid-glass-off, :not(.liquid-glass-off)):not(.is-mobile) .modal.mod-sidebar-layout:not(.mod-community-modal) .vertical-tab-nav-item {
