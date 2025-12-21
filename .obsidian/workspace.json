@@ -11,14 +11,13 @@
             "id": "f415a2f46a27c8d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "VII. Corporate Finance/Valuation/Lecture Notes/Lectures on Valuation and Security Analysis.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "Lectures on Valuation and Security Analysis"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           },
           {
@@ -244,6 +243,8 @@
   },
   "active": "f415a2f46a27c8d6",
   "lastOpenFiles": [
+    "VII. Corporate Finance/Valuation/Lecture Notes/Lectures on Valuation and Security Analysis.md",
+    "Untitled.base",
     "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/8. Credit Modeling and Credit Derivatives.md",
     "VII. Corporate Finance/Valuation/Valuation- Measuring and Managing the Value of Companies Full/chapters/Chapter 27 - Cross-Border Valuation.md",
     "Untitled.md",
@@ -278,8 +279,6 @@
     "II. Economics/International/International Economics/International Economics Full.md",
     "I. Foundations/Financial Engineering Course Lecture Notes/Solving Black Scholes Differential Equation.md",
     "I. Foundations/Machine Learning/Reinforcement Learning from Human Feedback.md",
-    "I. Foundations/Financial Engineering Course Lecture Notes/Lecture Notes/10. Other Topics in Quantitative Finance.md",
-    "logs/a2378a76-6f18-4469-aaa2-237ea375c676/notification.json",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415224136376.png",
     "Attachments/Lecture Note 1 Introduction To Fixed Income Securities-20240415223856802.png"
   ]
