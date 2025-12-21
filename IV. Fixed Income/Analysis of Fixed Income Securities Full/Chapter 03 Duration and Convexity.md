@@ -26,40 +26,41 @@ cssclasses: academia
 
 # Chapter 3: Duration and Convexity
 
+## 3.1 Introduction
+
+Duration and convexity are very close to delta and gamma in option. It is first and second order derivatives of the bond price (or any fixed income security) with respect to a specific interest rate (or a collection of interest rates). Depending on which interest rate(s) chosen, we have different durations and convexities. This lesson introduces various duration and convexity calculations and how to use them. Finally, we shall talk about a very simple idea of immunization.
+
 ## Duration and Convexity Visualization
 
 ```d2
 # Duration and Convexity Concepts
-duration_convexity: {
-  label: "Duration and Convexity Concepts"
-  style: {fill: "#e3f2fd", border-radius: 10}
+duration: {
+  label: "Duration\n(First Derivative)"
+  style: {fill: "#e8f5e8"}
 
-  duration: {
-    label: "Duration\n(First Derivative)"
-    style: {fill: "#e8f5e8"}
-    duration_types: {
-      label: "Types:\n• Macaulay Duration\n• Modified Duration\n• Effective Duration\n• Key Rate Duration"
-      style: {fill: "#f3e5f5"}
-    }
+  types: {
+    label: "Types:\n• Macaulay Duration\n• Modified Duration\n• Effective Duration\n• Key Rate Duration"
+    style: {fill: "#f3e5f5"}
   }
-
-  convexity: {
-    label: "Convexity\n(Second Derivative)"
-    style: {fill: "#fff3e0"}
-    convexity_types: {
-      label: "Types:\n• Macaulay Convexity\n• Dollar Convexity\n• Effective Convexity"
-      style: {fill: "#e1f5fe"}
-    }
-  }
-
-  bond_price: {
-    label: "Bond Price Sensitivity"
-    style: {fill: "#f1f8e9"}
-  }
-
-  duration -> bond_price: {label: "Measures first-order sensitivity"}
-  convexity -> bond_price: {label: "Measures second-order sensitivity"}
 }
+
+convexity: {
+  label: "Convexity\n(Second Derivative)"
+  style: {fill: "#fff3e0"}
+
+  types: {
+    label: "Types:\n• Macaulay Convexity\n• Dollar Convexity\n• Effective Convexity"
+    style: {fill: "#e1f5fe"}
+  }
+}
+
+bond_price: {
+  label: "Bond Price Sensitivity"
+  style: {fill: "#f1f8e9"}
+}
+
+duration -> bond_price: {label: "Measures first-order sensitivity"}
+convexity -> bond_price: {label: "Measures second-order sensitivity"}
 
 # Price-Yield Relationship
 price_yield: {
@@ -109,13 +110,10 @@ hedging: {
   barbell_trade -> immunization
 }
 
-duration_convexity -> price_yield: {label: "Relationship"}
+duration -> price_yield: {label: "Relationship"}
+convexity -> price_yield: {label: "Relationship"}
 price_yield -> hedging: {label: "Applications"}
 ```
-
-## 3.1 Introduction
-
-Duration and convexity are very close to delta and gamma in option. It is first and second order derivatives of the bond price (or any fixed income security) with respect to a specific interest rate (or a collection of interest rates). Depending on which interest rate(s) chosen, we have different durations and convexities. This lesson introduces various duration and convexity calculations and how to use them. Finally, we shall talk about a very simple idea of immunization.
 
 Recall equation (1.2) in Chapter 1 which will be used in our first part of the chapter as a demonstration. In that equation, the discount periods are integers. There is no yearfraction which is the reality when we compute the duration and convexity of an actual case.
 
