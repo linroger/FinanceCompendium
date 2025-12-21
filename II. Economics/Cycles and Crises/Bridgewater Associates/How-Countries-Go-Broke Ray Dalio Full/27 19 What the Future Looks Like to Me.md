@@ -1,35 +1,26 @@
 ---
-tags: null
-key_concepts: null
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke
-  Ray Dalio Full
-cssclasses: academia
-title: 'Chapter 27.19: What the Future Looks Like to Me'
-aliases:
-- What the Future Looks Like to Me
+title: "What the Future Looks Like to Me"
+parent_directory: "II. Economics/Cycles and Crises/Bridgewater Associates/How-Countries-Go-Broke Ray Dalio Full"
+formatted: "2025-12-21 08:40:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
 primary_tags:
-- future believe
-- political parties country say
-- measures internal political conflicts
-- knowing possible timeless
-- future early investment
+  - future forecasting principles
+  - political conflict dynamics
+  - economic cycle predictions
 secondary_tags:
-- 2719whatthefuturelooksliketome future looks
-- predestined future looks like
-- political splits country deep
-- effect dynamics future
-- average global levels political
-- principles navigating big debt
-- strong conflicts people
-- polarization 1900 global political
-- political polarization index
-- populist conflicts hard right
-- history extreme factionalism
-- domestic international politics unstable
-tags_extracted: '2025-12-18T00:02:54.445289'
+  - cause effect relationships
+  - ai decision systems
+  - internal order cycles
+  - external order cycles
+  - reserve currency changes
+  - populism rise patterns
+  - education opportunity gaps
+  - conflict resolution paths
+cssclasses: academia
 ---
 
-# 27_19_What_the_Future_Looks_Like_to_Me
+# What the Future Looks Like to Me
 ## WHAT THE FUTURE LOOKS LIKE TO ME
 
 In this chapter, I try to look into the future using my measures of where things now stand and my principles about how changes occur, which are based on what I think are the most important cause/effect relationships. I expect that you will find this chapter very controversial, very interesting, and very valuable.
@@ -38,9 +29,7 @@ In this chapter, I try to look into the future using my measures of where things
 
 is an adage I learned early in my investment career. It has stuck with me ever since because it has repeatedly proven
 
-true. I know that whatever success I have had has been more due to my knowing how to deal with what I don't know than
-
-with anything I do know. So I will begin by explaining a bit about how I bet on the future."
+true. I know that whatever success I have had has been more due to my knowing how to deal with what I don't know than with anything I do know. So I will begin by explaining a bit about how I bet on the future."
 
 ### BETTING ON THE FUTURE
 
@@ -66,6 +55,23 @@ Now that I have that explanation out of the way, I will tell you what I conjectu
 
 You now know how I believe monetary orders, domestic political governance orders, and international orders evolve, break down, and transition driven by the five big forces I've outlined earlier and won't repeat here. I use my Big Cycle template and my indicators to show me where we are in these cycles and anticipate what will happen, and to make investments, I convert this conceptual template into a much more specific analytical decision-making system. I will use these concepts to convey where I think things stand and what I expect.
 
+```d2
+big_cycle: The Big Cycle Stages {
+  direction: right
+  stage1: Stage 1\nNew World Order After War
+  stage2: Stage 2\nRising Economic Strength
+  stage3: Stage 3\nPeak of Strength & Arrogance
+  stage4: Stage 4\nDeclining Strength & Indebtedness
+  stage5: Stage 5\nConflict & Change
+  
+  stage1 -> stage2: Rise
+  stage2 -> stage3: Peak
+  stage3 -> stage4: Decline
+  stage4 -> stage5: Crisis
+  stage5 -> stage1: Reset
+}
+```
+
 I will start with my big-picture summary of how I see things as of my writing in March 2025:
 
 ## 1. The US and the existing world order are about 80 years into, which is about $90 - 95\%$ through, the Big Cycle that began in 1945. The Big Cycle is like the human life cycle.
@@ -88,6 +94,42 @@ By my measures, this is where all of the major powers now are—i.e., they are o
 Let's now look a bit more closely at each of the five forces and what's happening with them, using as a guide some of the principles I shared earlier in this book. I will focus mostly on the United
 
 States because it is the most important country by most measures, and its changes will have the biggest effects on what will happen to the world, though the other G7 countries and China all are in similar positions and intertwined in this Big Cycle, and all countries will be affected by them, while also affecting what happens. It's also worth noting that, along with all of what you read from here, there is the demographic force to reckon with. This will lead to a lot of older people who won't be working and will be expensive to support (because of healthcare costs) at the same time that the workforce will be shrinking, so that only a small percentage of people will be truly productive.
+
+```d2
+five_forces: The Five Big Forces Driving Change {
+  debt: Debt/Money Force {
+    shape: hexagon
+    style.fill: "#ffcccc"
+  }
+  domestic: Domestic Order/Disorder {
+    shape: hexagon
+    style.fill: "#ccffcc"
+  }
+  international: International Order/Disorder {
+    shape: hexagon
+    style.fill: "#ccccff"
+  }
+  nature: Acts of Nature {
+    shape: hexagon
+    style.fill: "#ffffcc"
+  }
+  technology: Technology/Productivity Force {
+    shape: hexagon
+    style.fill: "#ffccff"
+  }
+  
+  debt -> big_cycle: Drives
+  domestic -> big_cycle: Drives
+  international -> big_cycle: Drives
+  nature -> big_cycle: Drives
+  technology -> big_cycle: Drives
+  
+  big_cycle: Big Cycle Dynamics {
+    shape: circle
+    style.fill: "#f0f0f0"
+  }
+}
+```
 
 ## 1. The Debt/Money Force
 

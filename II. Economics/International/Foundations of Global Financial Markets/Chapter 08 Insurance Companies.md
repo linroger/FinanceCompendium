@@ -497,9 +497,9 @@ As will be explained throughout this book, many of the financial risks faced by 
 
 The area of finance in which publicly issued securities are used as a substitute for traditional insurance policies is referred to as insurance-based investment banking. Two examples help illustration how the public markets (here the bond market) can be used to circumvent traditional insurance.
 
-For our first example, consider the operator of Tokyo Disneyland, Oriental Land Company. In 1999, the company issued  \$200 million of bonds to insure against the risk of a Tokyo earthquake. We have already discussed earlier cat bonds issued by a P&C insurer or reinsurers, which were the first such bonds issued by a noninsurance company. There were two issues of five-year bonds sold with a maturity value of\$ 100 million each. For investors in the first bond issue, the entire principal and interest would be lost if an earthquake occurred. The proceeds would then be used by Oriental Land to repair damages to the park resulting from the earthquake. Investors would pay off the holders of the second bond issue in full, even if an earthquake occurred. However, the maturity of the bond issue would increase from five years to 8.5 years if there were an earthquake. This second bond issue basically provided Oriental Land with emergency funding for 3.5 years should that entity have any difficulty obtaining financing. Thus, not only were investors in the bond market providing earthquake protection, they were also providing future financing protection.
+For our first example, consider the operator of Tokyo Disneyland, Oriental Land Company. In 1999, the company issued $200 million of bonds to insure against the risk of a Tokyo earthquake. We have already discussed earlier cat bonds issued by a P&C insurer or reinsurers, which were the first such bonds issued by a noninsurance company. There were two issues of five-year bonds sold with a maturity value of $100 million each. For investors in the first bond issue, the entire principal and interest would be lost if an earthquake occurred. The proceeds would then be used by Oriental Land to repair damages to the park resulting from the earthquake. Investors would pay off the holders of the second bond issue in full, even if an earthquake occurred. However, the maturity of the bond issue would increase from five years to 8.5 years if there were an earthquake. This second bond issue basically provided Oriental Land with emergency funding for 3.5 years should that entity have any difficulty obtaining financing. Thus, not only were investors in the bond market providing earthquake protection, they were also providing future financing protection.
 
-For our second example, consider the use of securities by the Fédération Internationale de Football Association (FIFA) to provide protection against acts of terrorism that might have canceled the 2002 World Cup competition in Asia. Because of the terrorist attacks on the World Trade Center in New York City, on the Pentagon in Washington, DC, and in midair over Pennsylvania on September 11, 2001, insurance for events canceled as a result of acts of terrorism was becoming difficult to obtain. The insurance company that was supposed to provide cancellation insurance, AXA, decided against providing the insurance because of the attacks on September 11, 2001. Without the cancellation policy, the 2002 World Cup could not take place. To resolve this problem, FIFA, working with the investment banking firm Credit Suisse First Boston, created and then issued in September a bond (referred to as a "cancellation bond") that would be sold in the bond market, thereby transferring terrorism risk to investors in the financial market. The amount of the bonds issued was 260 million.
+For our second example, consider the use of securities by the Fédération Internationale de Football Association (FIFA) to provide protection against acts of terrorism that might have canceled the 2002 World Cup competition in Asia. Because of the terrorist attacks on the World Trade Center in New York City, on the Pentagon in Washington, DC, and in midair over Pennsylvania on September 11, 2001, insurance for events canceled as a result of acts of terrorism was becoming difficult to obtain. The insurance company that was supposed to provide cancellation insurance, AXA, decided against providing the insurance because of the attacks on September 11, 2001. Without the cancellation policy, the 2002 World Cup could not take place. To resolve this problem, FIFA, working with the investment banking firm Credit Suisse First Boston, created and then issued in September a bond (referred to as a "cancellation bond") that would be sold in the bond market, thereby transferring terrorism risk to investors in the financial market. The amount of the bonds issued was $260 million.
 
 # Key Points
 - In general, insurance companies bear risk from parties who wish to avert risk by transferring it to the insurance companies. The party seeking to transfer the risk pays an insurance premium to the insurance company. Insurance companies pay the insured if and when the insured event occurs.
@@ -529,51 +529,6 @@ For our second example, consider the use of securities by the Fédération Inter
 - For P&C insurers, catastrophic risk encompasses the potential damages associated with natural disasters (for example, hurricanes, windstorms, and earthquakes). For life insurers, the catastrophic risks are extreme mortality risk and longevity risk, depending on the life insurance product.
 - In addition to reinsuring, insurers have created insurance-linked securities to transfer risk through securitization from insurers to the investing public. These bonds include catastrophe bonds and catastrophe mortality bonds.
 - Insurance-based investment banking involves the creation of bonds that can be used in lieu of traditional insurance by those seeking insurance.
-
-# Questions
-
-1. Why are insurance companies referred to as "risk bearers"?
-2. With respect to insurance companies, what is meant by the "underwriting process"?
-3. What are the major sources of revenue for an insurance company?
-4. How are the profits of an insurance company determined?
-5. How do the portfolios of life and health insurance companies differ from those of P&C insurance companies?
-6. The following quote is from a publication by the law firm of Paul/Weiss:
-
-Worldwide, banks and insurance companies have made a compelling case for operating in a more integrated manner than had historically been the case. Bancassurance has been an extremely successful business model in Europe, and banks and insurers are eager to repeat this success story in Asia.[20]
-
-What is Bancassurance?
-
-7. In the bank insurance model, what types of arrangements can be made between an insurer and a bank?
-8. Comment on the following statement: "All insurance activities pose no threat of systemic risk."
-9. New York Life, the largest mutual life insurance company in the United States (as well as one of the 100 largest U.S. corporations), explains on its website why it has not converted to a stock company:
-
-The question really comes down to this: What's in the best interests of our policyholders and the company—remaining a mutual or becoming a stock company? The answer for us is absolutely clear: Being a mutual allows us to maintain our focus on serving our policyholders by delivering high performing whole life insurance policies through the best-trained financial professionals in the industry. Over the years we've made innovations in our products and investments in our people to ensure that we'll continue to meet the long-term needs and requirements of our policyholders. We believe this approach is in the best interests of both our clients and our company—today and for the years ahead.[21] a. What is the difference between a stock and a mutual insurance company?
-
-b. Explain why you agree or disagree with the arguments put forth by New York Life for not converting to a stock company.
-
-10. What problems are associated with the current state-based system of government regulation in the United States?
-11. Why should a purchaser of life insurance be concerned about the credit rating of his or her insurance company?
-12. What are term insurance, whole life insurance, variable life insurance, and universal life insurance?
-13. a. What is a guaranteed investment contract (GIC)?
-
-b. Does a GIC carry a "guarantee" like that carried by a government obligation?
-
-14. What is the statutory surplus, and why is it an important measure for an insurance company?
-15. What is meant by an insurance company reinsuring its liabilities?
-16. Whose liabilities are harder to predict, those of life and health insurers or those of P&C insurers? Explain why.
-17. In an article in Forbes, the following statement appeared, contrasting the management of stock insurance companies and mutual insurance companies:
-
-With their survival on the line, publicly traded insurers are scrambling for cash by cutting dividends and issuing new shares (diluting existing investors), begging regulators for a relaxation of capital requirements and lobbying Washington for a cut of the 700 billion Wall Street bailout. Their mutually owned rivals haven't asked for a dime. Their statutory surpluses (the regulatory counterpart to book value) have held steady or even increased. Some are announcing plans to pay out near-record dividends to policyholders.[22]
-
-What message is being conveyed in this statement, and how does it relate to the principal-agent problem?
-
-18. What type of strategies have insurers employed to deal with catastrophic risk?
-19. For what type of investment product are life insurers concerned with longevity risk?
-20. The following statement is from an article by Christopher Kampa and Paul Siegert:
-
-Insurance-linked securities, once considered to be an alternative form of risk transfer, have become a mainstream method of transferring risk from insurers to the capital markets. With greater attention being paid to risk at the institutional level and the search for portfolio diversification at the investment level, insurance-linked securities seem poised to further facilitate the convergence between the capital and insurance markets.[23]
-
-Why do such products as insurance-linked securities represent the convergence of capital markets and insurance markets?
 
 1. Patricia Born, William M. Gentry, W. Kip Viscusi, and Richard J. Zeckhauser, "Organizational Form and Insurance Company Performance: Stocks versus Mutuals," in The Economics of Property-Casualty Insurance, ed. David F. Bradford (Chicago: University of Chicago Press, 1998), chap. 6, 168-192.
 2. Most whole life insurance policies pay death benefits when one specified insured dies. An added dimension of whole life policies insures two people (usually a married couple) jointly and pays the death benefit not when the first person dies but when the second person (usually the surviving spouse) dies. This type of policy is called "survivorship insurance" or "second-to-die insurance." The survivorship feature can be added to standard cash value whole life, universal life, and variable universal life policies. Thus, each of the four policies in table 8.2 could also be written on a survivorship basis. Survivorship insurance is typically sold for estate planning purposes.

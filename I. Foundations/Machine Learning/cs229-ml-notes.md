@@ -1,101 +1,92 @@
 ---
+title: "Machine Learning - Stanford CS229 Notes"
 parent_directory: Machine Learning
-title: Machine Learning - Stanford CS229 Notes
-tags: null
-aliases:
-- CS229 Machine Learning
-- Stanford Machine Learning Notes
-cssclasses: academia
+formatted: 2025-12-21 08:40:00 AM
+formatter_model: claude-3-5-sonnet-20241022
+cli_tool: claude-code
 primary_tags:
-- specific algorithm
-- backpropagation algorithm
-- vector-valued inputs
-- other examples
-- feature deletions
-- problem sets
-- covariance noise
+  - machine learning
+  - supervised learning
+  - linear regression
+  - logistic regression
+  - neural networks
+  - support vector machines
+  - unsupervised learning
 secondary_tags:
-- gaussian discriminant analysis
-- optional reading
-- support machine
-- weak-learning algorithm
-- value function approximation
-- gradient descent algorithm
-- 10.2 backpropagation
-- all the inequalities
-- few examples
-- other gradient-based optimizers
-- likelihood estimation
-- smallest training error
-- intermediate step
-- other strategies
-- each model times
-- prediction example
-- few algebraic manipulations
-- estimated transition probabilities
-- any vector
-tags_extracted: '2025-12-18T17:56:09.180062'
-tags_method: max_quality_v1
+  - gradient descent
+  - maximum likelihood
+  - bias variance tradeoff
+  - regularization
+  - cross validation
+  - gaussian discriminant analysis
+  - kernel methods
+  - principal components analysis
+  - expectation maximization
+  - reinforcement learning
+  - markov decision processes
+  - backpropagation algorithm
+  - stochastic gradient descent
+cssclasses: academia
 ---
 
 # Machine Learning
 
 Stanford, California
 
-# Contents
+## Contents
 
 Acknowledgments viii
 
-# Part I Supervised Learning 11 Linear Regression 3
+## Part I Supervised Learning 11 Linear Regression 3
 
-1.1 Least mean squares(LMS) algorithm 4  
-1.2 The normal equations 8  
-1.2.1 Matrix derivatives 9  
-1.2.2 Least squares revisited 9  
-1.3 Probabilistic interpretation 11  
-1.4 Locally weighted linear regression 13  
-2 Classification and Logistic Regression 16  
-2.1 Logistic regression 16  
-2.2 Digression: The perceptron learning algorithm 19  
-2.3 Another algorithm for maximizing  $\ell(\theta)$  20  
-3 Generalized Linear Models 22  
+1.1 Least mean squares(LMS) algorithm 4
+1.2 The normal equations 8
+1.2.1 Matrix derivatives 9
+1.2.2 Least squares revisited 9
+1.3 Probabilistic interpretation 11
+1.4 Locally weighted linear regression 13
+2 Classification and Logistic Regression 16
+2.1 Logistic regression 16
+2.2 Digression: The perceptron learning algorithm 19
+2.3 Another algorithm for maximizing  $\ell(\theta)$  20
+3 Generalized Linear Models 22
 3.1 The exponential family 22
 
-3.2 Constructing GLMs 24  
-3.2.1 Ordinary Least Squares 25  
-3.2.2 Logistic Regression 26  
+3.2 Constructing GLMs 24
+3.2.1 Ordinary Least Squares 25
+3.2.2 Logistic Regression 26
 3.2.3 Softmax Regression 26
 
-# Part II Generative Learning Algorithms 31
+## Part II Generative Learning Algorithms 31
 
-4 Gaussian discriminant analysis 32  
-4.1 The Gaussian Discriminant Analysis model 34  
-4.2 Discussion: GDA and logistic regression 36  
-5 Naive Bayes 38  
-5.1 Laplace smoothing 41  
+4 Gaussian discriminant analysis 32
+4.1 The Gaussian Discriminant Analysis model 34
+4.2 Discussion: GDA and logistic regression 36
+5 Naive Bayes 38
+5.1 Laplace smoothing 41
 5.2 Event models for text classification 43
 
-# Part III Kernel Methods 46
+## Part III Kernel Methods 46
 
-6 Kernel methods 46  
-6.1 Feature maps 46  
-6.2 LMS(least mean squares) with features 47  
-6.3 LMS with the kernel trick 47  
+6 Kernel methods 46
+6.1 Feature maps 46
+6.2 LMS(least mean squares) with features 47
+6.3 LMS with the kernel trick 47
 6.4 Properties of kernels 51
 
-# Part IV Support Vector Machines 57
+## Part IV Support Vector Machines 57
 
-7 Support vector machines 57  
+7 Support vector machines 57
 7.1 Margins: Intuition 57
 
-7.2 Notation 58  
-7.3 Functional and geometric margins 59  
-7.4 The optimal margin classifier 61  
-7.5 Lagrange duality(optional reading) 62  
-7.6 Optimal margin classifiers 65  
-7.7 Regularization and the non-separable case(optional reading) 69  
-7.8 The SMO algorithm(optional reading) 70  
-7.8.1 Coordinate ascent 71  
+7.2 Notation 58
+7.3 Functional and geometric margins 59
+7.4 The optimal margin classifier 61
+7.5 Lagrange duality(optional reading) 62
+7.6 Optimal margin classifiers 65
+7.7 Regularization and the non-separable case(optional reading) 69
+7.8 The SMO algorithm(optional reading) 70
+7.8.1 Coordinate ascent 71
 7.9 SMO 71
 
 # Part V Deep Learning 75
@@ -113,48 +104,48 @@ Acknowledgments viii
 10.3 Multi-layer neural networks 92  
 11 Vectorization Over Training Examples 95
 
-# Part VI Regularization and Model Selection 98
+## Part VI Regularization and Model Selection 98
 
-12 Cross validation 98  
-13 Feature Selection 100  
-14 Bayesian statistics and regularization 103  
-15 Some calculations from bias variance 105  
-16 Bias-variance and error analysis 108  
-16.1 The bias-variance tradeoff 108  
-16.2 Error analysis 110  
-16.3 Ablative analysis 111  
+12 Cross validation 98
+13 Feature Selection 100
+14 Bayesian statistics and regularization 103
+15 Some calculations from bias variance 105
+16 Bias-variance and error analysis 108
+16.1 The bias-variance tradeoff 108
+16.2 Error analysis 110
+16.3 Ablative analysis 111
 16.3.1 Analyze your mistakes 112
 
-# Part VII Unsupervised Learning 114
+## Part VII Unsupervised Learning 114
 
-17 The  $k$ -means Clustering Algorithm 114  
+17 The  $k$ -means Clustering Algorithm 114
 18 Mixtures of Gaussians and the EM Algorithm 115
 
-# Part VIII The EM Algorithm 119
+## Part VIII The EM Algorithm 119
 
-19 Jensen's inequality 119  
-20 The EM algorithm 120  
+19 Jensen's inequality 119
+20 The EM algorithm 120
 20.1 Other interpretation of ELBO 126
 
-21 Mixture of Gaussians revisited 126  
+21 Mixture of Gaussians revisited 126
 22 Variational inference and variational auto-encoder 128
 
-Part IX Factor Analysis 133
+## Part IX Factor Analysis 133
 
-23 Restrictions of  $\Sigma$  134  
-24 Marginals and conditionals of Gaussians 135  
-25 The factor analysis model 136  
+23 Restrictions of  $\Sigma$  134
+24 Marginals and conditionals of Gaussians 135
+25 The factor analysis model 136
 26 EM for factor analysis 138
 
-Part X Principal Components Analysis 142
+## Part X Principal Components Analysis 142
 
-Part XI Independent Components Analysis 147
+## Part XI Independent Components Analysis 147
 
-27 ICA ambiguities 148  
-28 Densities and linear transformations 149  
+27 ICA ambiguities 148
+28 Densities and linear transformations 149
 29 ICA algorithm 150
 
-Part XII Reinforcement Learning and Control 154
+## Part XII Reinforcement Learning and Control 154
 
 30 Markov decision processes 155  
 31 Value iteration and policy iteration 158

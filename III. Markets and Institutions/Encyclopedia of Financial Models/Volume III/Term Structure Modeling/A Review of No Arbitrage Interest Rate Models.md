@@ -1,4 +1,26 @@
 
+---
+title: "A Review of No Arbitrage Interest Rate Models"
+parent_directory: "Encyclopedia of Financial Models/Volume III/Term Structure Modeling"
+formatted: "2025-12-21 08:45:00 PM"
+formatter_model: "obsidian-formatting-agent"
+cli_tool: "claude-code"
+primary_tags:
+  - no arbitrage pricing
+  - interest rate models
+  - hull white model
+  - trinomial lattice
+secondary_tags:
+  - binomial lattice
+  - mean reversion
+  - interest rate volatility
+  - effective duration
+  - option adjusted spread
+  - stochastic differential equations
+  - short rate modeling
+cssclasses: academia
+---
+
 # A Review of No Arbitrage Interest Rate Models
 
 GERALD W. BUETOW, Jr., PhD, CFA
@@ -539,7 +561,7 @@ $$ b_{n} = \prod_{\substack{j = 1\\ j\neq n}}^{2i - 1}(1 + r_{j,i}\tau)
 $$ for  $n = 1,\dots ,2i - 1$  and then repeat the process. In these derivations  $P_{i} = 1 / (1 + R_{i}\tau)^{i}$  is the discount factor given by the spot rates (zero curve).
 
 
-# The Hull and White Lattice
+## The Hull and White Lattice
 
 We now briefly outline the Hull and White methodology for generating HW and BK trinomial lattices. The Hull and White methodology uses
 
@@ -564,17 +586,17 @@ $$ q_{3} = \frac{1}{6} + \frac{(j_{k})^{2} \phi^{2} \tau^{2} - (j_{k}) \phi \tau
 $$ for the up, middle, and down moves at  $r_{j,k}$ , respectively, since this matches the expected change and variance of the short rate over the next time period. However, as they point out, these probabilities must remain positive. In order to do this they "prune" the upper and lower branches of their lattice at the level  $j$  that keeps these probabilities positive. Since  $q_{2}$  is the only one that can become negative they require the following
 
 
-$$ j <   \frac{\sqrt{6}}{3 \phi \tau} \approx \frac{0 . 8 1 6}{\phi \tau}
+$$ j <   \frac{\sqrt{6}}{3 \phi \tau} \approx \frac{0.816}{\phi \tau}
 $$
 
 At this maximum value of  $j$ , Hull and White apply a different branching procedure with different probabilities in order to "prune" the lattice. However, as they point out, using this value of  $j$  can lead to computational problems so they actually use the first  $j$  satisfying
 
-$$ j_{k} > \frac{3 - \sqrt{6}}{3 \phi \tau} \approx \frac{0 . 1 8 4}{\phi \tau}
+$$ j_{k} > \frac{3 - \sqrt{6}}{3 \phi \tau} \approx \frac{0.184}{\phi \tau}
 $$
 
 This leads to a reduction in the spread of the rates.
 
-# COMPARATIVE STUDY OF THE NUMERICAL SOLUTIONS
+## COMPARATIVE STUDY OF THE NUMERICAL SOLUTIONS
 
 In this section a comparison between the methodologies is presented. In particular, we look at the effects of mean reversion and local volatility on the drift and the spread in the short rates. We present numerical results for the term structures, volatility, and mean reversion in Table 1. The table also includes the bond information for use later.
 
@@ -584,8 +606,25 @@ We first consider the original term structure with no mean reversion for the HL 
 
 Table 1 Input Information
 
-<table><tr><td>Original TS</td><td>Volatility</td><td>Mean
-Reversion</td></tr><tr><td>6.20\%</td><td>10.00\%</td><td>5\%</td></tr><tr><td>6.16\%</td><td>10.00\%</td><td></td></tr><tr><td>6.15\%</td><td>9.00\%</td><td></td></tr><tr><td>6.09\%</td><td>9.00\%</td><td></td></tr><tr><td>6.02\%</td><td>8.00\%</td><td></td></tr><tr><td>6.02\%</td><td>8.00\%</td><td></td></tr><tr><td>6.01\%</td><td>7.00\%</td><td></td></tr><tr><td>6.01\%</td><td>7.00\%</td><td></td></tr><tr><td>6.00\%</td><td>7.00\%</td><td></td></tr><tr><td>6.01\%</td><td>7.00\%</td><td></td></tr><tr><td colspan="3">Bond Information for ED, EC, and OAS</td></tr><tr><td colspan="2">Call Price (Regular Callable)</td><td>\$102.50</td></tr><tr><td colspan="2">Put Price (Regular Putable)</td><td>\$95.00</td></tr><tr><td colspan="2">Annual Coupon ($ per $100)</td><td>6.00</td></tr><tr><td colspan="2">Time Option Starts (years from now)</td><td>1</td></tr></table> a. The Ho-Lee Interest Rate Lattice
+| Original TS | Volatility | Mean Reversion |
+|-------------|------------|----------------|
+| 6.20% | 10.00% | 5% |
+| 6.16% | 10.00% |  |
+| 6.15% | 9.00% |  |
+| 6.09% | 9.00% |  |
+| 6.02% | 8.00% |  |
+| 6.02% | 8.00% |  |
+| 6.01% | 7.00% |  |
+| 6.01% | 7.00% |  |
+| 6.00% | 7.00% |  |
+| 6.01% | 7.00% |  |
+
+| Bond Information for ED, EC, and OAS |  |  |
+|--------------------------------------|----|----|
+| Call Price (Regular Callable) |  | \$102.50 |
+| Put Price (Regular Putable) |  | \$95.00 |
+| Annual Coupon ($ per $100) |  | 6.00 |
+| Time Option Starts (years from now) |  | 1 | a. The Ho-Lee Interest Rate Lattice
 
 
 <table><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>136.31\%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td>85.20\%</td><td>101.50\%</td><td>98.42\%</td><td>116.31\%</td></tr><tr><td></td><td></td><td></td><td></td><td>54.99\%</td><td>69.85\%</td><td>81.50\%</td><td>78.42\%</td><td>96.31\%</td><td></td></tr><tr><td></td><td></td><td></td><td>41.49\%</td><td>34.99\%</td><td>49.85\%</td><td>61.50\%</td><td>58.42\%</td><td>76.31\%</td><td></td></tr><tr><td></td><td>17.05\%</td><td>28.93\%</td><td>21.49\%</td><td>29.85\%</td><td>45.20\%</td><td>41.50\%</td><td>38.42\%</td><td>56.31\%</td><td></td></tr><tr><td>6.20\%</td><td>-2.95\%</td><td>8.93\%</td><td>1.49\%</td><td>25.20\%</td><td>21.50\%</td><td>18.42\%</td><td>18.42\%</td><td>36.31\%</td><td></td></tr><tr><td></td><td></td><td>-11.07\%</td><td>-18.51\%</td><td>-5.01\%</td><td>5.20\%</td><td>1.50\%</td><td>-1.58\%</td><td>16.31\%</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>-10.15\%</td><td>-14.80\%</td><td>-18.50\%</td><td>-21.58\%</td><td>-3.69\%</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>-30.15\%</td><td>-34.80\%</td><td>-38.50\%</td><td>-41.58\%</td><td>-23.69\%</td><td></td></tr><tr><td>Time in Years</td><td>0.0</td><td>1.0</td><td>2.0</td><td>3.0</td><td>4.0</td><td>5.0</td><td>6.0</td><td>7.0</td><td>8.0</td></tr></table> b. The Hull-White Trinomial Interest Rate Lattice Using the HW Method with No Mean Reversion
@@ -628,7 +667,7 @@ Table 3 Effective Duration and Effective Convexity Results
 
 <table><tr><td>Shift==&gt;</td><td colspan="2">-500 bp</td><td colspan="2">-250 bp</td><td colspan="2">Current</td><td colspan="2">250 bp</td><td colspan="2">500 bp</td></tr><tr><td>Model/Structure</td><td>Eff.Duration</td><td>Eff.Convexity</td><td>Eff.Duration</td><td>Eff.Convexity</td><td>Eff.Duration</td><td>Eff.Convexity</td><td>Eff.Duration</td><td>Eff.Convexity</td><td>Eff.Duration</td><td>Eff.Convexity</td></tr><tr><td>Ho Lee</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Callable Bond</td><td>3.72119</td><td>-31.15230</td><td>3.62427</td><td>10.51371</td><td>3.43354</td><td>9.58153</td><td>4.19081</td><td>-6.18888</td><td>4.18588</td><td>12.92063</td></tr><tr><td>Putable Bond</td><td>6.48070</td><td>55.51213</td><td>5.96968</td><td>26.45835</td><td>4.82856</td><td>41.73014</td><td>4.33750</td><td>17.68955</td><td>3.52379</td><td>15.98202</td></tr><tr><td>BDT</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Callable Bond</td><td>0.98815</td><td>0.97643</td><td>0.96433</td><td>0.92992</td><td>5.72746</td><td>-100.52077</td><td>6.97619</td><td>31.91884</td><td>6.59872</td><td>29.24115</td></tr><tr><td>Putable Bond</td><td>8.15290</td><td>41.20380</td><td>7.75444</td><td>37.88876</td><td>6.94320</td><td>136.25219</td><td>0.91997</td><td>0.84634</td><td>0.89929</td><td>0.80871</td></tr><tr><td>KWF</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Callable Bond</td><td>0.98815</td><td>0.97643</td><td>0.96433</td><td>0.92992</td><td>5.48099</td><td>-8.70115</td><td>6.90354</td><td>18.94888</td><td>6.59875</td><td>29.22747</td></tr><tr><td>Putable Bond</td><td>8.15311</td><td>41.26110</td><td>7.75438</td><td>37.97492</td><td>6.02987</td><td>132.82680</td><td>0.91997</td><td>0.84634</td><td>0.89929</td><td>0.80871</td></tr><tr><td>HW-HW</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Callable Bond</td><td>3.35706</td><td>5.81085</td><td>3.24446</td><td>8.80890</td><td>3.33140</td><td>9.55382</td><td>3.46677</td><td>-9.19552</td><td>4.65946</td><td>14.99510</td></tr><tr><td>Putable Bond</td><td>5.82483</td><td>23.71025</td><td>5.33913</td><td>20.81987</td><td>4.79375</td><td>17.78372</td><td>4.14647</td><td>14.50538</td><td>3.30034</td><td>10.76225</td></tr><tr><td>BK-HW</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Callable Bond</td><td>0.98815</td><td>0.97643</td><td>0.96433</td><td>0.92992</td><td>5.21624</td><td>-77.28716</td><td>6.93694</td><td>31.17366</td><td>6.56855</td><td>28.88729</td></tr><tr><td>Putable Bond</td><td>8.09134</td><td>40.58931</td><td>7.70100</td><td>37.39723</td><td>6.79269</td><td>72.05773</td><td>0.91997</td><td>0.84634</td><td>0.89929</td><td>0.80871</td></tr></table>
 
-# Comparison of the Models Using Common Risk and Value Metrics
+### Comparison of the Models Using Common Risk and Value Metrics
 
 Here we contrast the effective duration, effective convexity, and the option-adjusted spread (OAS) for 10-year callable and putable bonds each with a one-year delay on the embedded option. The information in Table 1 is used for the analysis. We computed the effective duration for the original term structures shown in Table 1 using a yield change of 25 basis points. The original term structure is then shifted up and down in a parallel manner by  $\pm 250$  basis points and by  $\pm 500$  basis points, respectively. In other words, we computed the effective duration at five different term structure levels using a yield change of 25 basis points.
 
@@ -637,7 +676,7 @@ Table 3 presents the effective duration and convexity results for the two securi
 
 Table 4 presents the OAS results. We used a market price that is  $3\%$  below the model price for the OAS computation. They are consistent with the results in Table 3. Note that the normal models produce OAS values larger than any of the lognormal models. This is due to the distributional differences and the property of allowing very low and negative interest rates. Clearly, normal models are not desirable when evaluating securities with embedded options.[8]
 
-# APPENDIX
+## APPENDIX
 
 In this appendix we outline how to obtain equations (41) and (42). For equation (41) we use Figure 1. For equation (42) we use Figure 2.
 
@@ -721,7 +760,7 @@ $$
 
 Equation (A7) is also solved for  $\theta_{2}$  using the bisection method. We now proceed as in the binomial lattice case to generate the no arbitrage equation for  $\theta_{i}$  given in equation (42).
 
-# KEY POINTS
+## KEY POINTS
 
 - Interest rates are commonly modeled using stochastic differential equations.
 - One-factor models use a stochastic differential equation to represent the short rate and two-factor models use a stochastic differential equation for both the short rate and the long rate.
@@ -734,7 +773,7 @@ Equation (A7) is also solved for  $\theta_{2}$  using the bisection method. We n
 - Both the end user and the developer must be aware of these properties in order to properly implement and interpret any results from the models.
 - Even with calibration the models can produce different results. Calibration reduces the differences across the models but does not eliminate them.
 
-# NOTES
+## NOTES
 
 1. Ho and Lee (1986).
 2. Kalotay, Williams, and Fabozzi (1993).
@@ -746,7 +785,7 @@ Equation (A7) is also solved for  $\theta_{2}$  using the bisection method. We n
 7. See Fabozzi, Buetow, and Johnson (2012) for more details on the behavior of putable and callable bonds.
 8. Details of these phenomena are provided in Buetow, Hanke, and Fabozzi (2001).
 
-# REFERENCES
+## REFERENCES
 
 Backus, D., Foresi, S., and Telmer, C. (2001). Affine term structure models and the forward premium anomaly. Journal of Finance 56: 279-304.
 Black, F., Derman, E., and Toy, W. (1990). A one factor model of interest rates and its application to the Treasury bond options. *Financial Analyst Journal* 46: 33-39.

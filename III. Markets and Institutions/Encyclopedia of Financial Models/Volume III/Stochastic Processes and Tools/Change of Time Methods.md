@@ -127,11 +127,11 @@ One of the applications of change of time method is to value variance, volatilit
 
 In this section, we apply the change of time method to get the Black-Scholes formula and to obtain an explicit option pricing formula for a mean-reverting asset.
 
-# Change of Time Method
+## Change of Time Method
 
 In this section we give a brief description of the change of time method for the martingales and stochastic differential equations. Throughout this entry we consider  $(\Omega, \mathcal{F}, \mathcal{F}_t, P)$  to be a probability space with a right continuous filtration  $(\mathcal{F}_t)_{t \geq 0}$
 
-# Change of Time Method in Martingale Setting
+### Change of Time Method in Martingale Setting
 
 In this section, we describe the change of time method for a martingale  $M(t)\in \mathcal{M}_2^{c,loc}$  the space of local square integrable continuous martingales.13
 
@@ -148,7 +148,7 @@ $$
 M (t) = W (<   M > (t))
 $$
 
-# Change of Time Method in a Stochastic Differential Equation Setting
+### Change of Time Method in a Stochastic Differential Equation Setting
 
 We consider the following generalization of the previous results to an SDE of the following form (without a drift)
 
@@ -197,7 +197,7 @@ $$
 \phi_{t}^{- 1} = \int_{0}^{t} a^{2} (X (0) + \tilde {W} (\phi_{s}^{- 1}) d s
 $$
 
-# Examples: Solutions of Some SDEs
+### Examples: Solutions of Some SDEs
 
 1. Solution for Ornstein-Uhlenbeck (OU) Process Using Change of Time.
 
@@ -237,11 +237,11 @@ $$
 
 The above theorem may also be applied to solve the Cox-Ingersoll-Ross (1985) equation, mean-reversion equation for commodity price (Pilipovic, 1997) and geometric Brownian motion equation (Black-Scholes, 1973).
 
-# Black-Scholes Formula by Change of Time Method
+## Black-Scholes Formula by Change of Time Method
 
 Let  $(\Omega, \mathcal{F}, \mathcal{F}_t, P)$  be a probability space with a sample space  $\Omega$ ,  $\sigma$ -algebra of Borel sets  $\mathcal{F}$  and probability  $P$ . The filtration  $\mathcal{F}_t, t \in [0, T]$  is the natural filtration of a standard Brownian motion  $W_t, t \in [0, T]$ , and  $\mathcal{F}_T = \mathcal{F}$ .
 
-# Black-Scholes Formula
+### Black-Scholes Formula
 
 The well-known Black-Scholes (1973) formula states if we have  $(B, S)$ -security market consisting of riskless asset  $B(t)$  with interest rate  $r$  as a constant
 
@@ -266,7 +266,7 @@ $$
 \Phi (y) := \frac{1}{\sqrt{2 \pi}} \int_{- \infty}^{y} e^{- \frac{x^{2}}{2}} d x \tag {5}
 $$
 
-# Solution of SDE for Geometric Brownian Motion using Change of Time Method
+### Solution of SDE for Geometric Brownian Motion using Change of Time Method
 
 The solution of equation (2) has the following look:
 
@@ -284,7 +284,7 @@ $$
 \phi_{t} = \sigma^{- 2} \int_{0}^{t} [ S (0) + \tilde {W} (s) ]^{- 2} d s
 $$
 
-# Black-Scholes Formula by Change of Time Method
+## Black-Scholes Formula by Change of Time Method
 
 In a risk-neutral world the dynamic of stock price  $S(t)$  has the following look:
 
@@ -356,7 +356,7 @@ $$
 $$ where  $y_{\pm}$  and  $\Phi (y)$  are defined in (4) and (5).
 
 
-# Explicit Option Pricing Formula for Mean-Reverting Asset Model (MRAM) by Change of Time Method
+## Explicit Option Pricing Formula for Mean-Reverting Asset Model (MRAM) by Change of Time Method
 
 In this section, we consider a risky asset  $S_{t}$  following the mean-reverting stochastic process given by the following stochastic differential equation
 
@@ -364,7 +364,7 @@ $$ d S_{t} = a \left(L - S_{t}\right) d t + \sigma S_{t} d W_{t} \tag {15}
 $$ where  $W_{t}$  is an  $\mathcal{F}_t$ -measurable one-dimensional standard Wiener process,  $\sigma > 0$  is the volatility, constant  $L$  is called the long-term mean of the process, to which it reverts over time, and  $a > 0$  measures the "strength" of mean reversion. We find explicit solution of the equation (15) using the change of time method, give some properties of the mean-reverting asset  $S_{t}$ , and present an explicit option pricing formula for the European call option for this mean-reverting asset model of commodity price.
 
 
-# Explicit Solution of SDE for MRAM
+### Explicit Solution of SDE for MRAM
 
 Equation
 
@@ -387,11 +387,11 @@ V_{t} := e^{a t} (S_{t} - L)
 $$ and theorem above.
 
 
-# Explicit Option Pricing Formula for European Call Option under Risk-Neutral Measure
+### Explicit Option Pricing Formula for European Call Option under Risk-Neutral Measure
 
 In this section, we are going to obtain an explicit option pricing formula for a European call option under risk-neutral measure  $P^{*}$  using the change of time method.
 
-# Mean-Reverting Risk-Neutral Asset Model
+#### Mean-Reverting Risk-Neutral Asset Model
 
 Consider the model given by (15)
 
@@ -416,7 +416,7 @@ $$ and  $\lambda \in R$  is a market price of risk, which follows from the Girsa
 
 Now, we are going to apply our method of changing of time to the model (16) to obtain the explicit option pricing formula.
 
-# Explicit Solution for Mean-Reverting Risk-Neutral Asset Model
+#### Explicit Solution for Mean-Reverting Risk-Neutral Asset Model
 
 Applying the above results to our model (16) we obtain the explicit solution (19) for our risk-neutral model (16). The explicit solution for the risk-neutral model given by (16) has the following look
 
@@ -436,7 +436,7 @@ $$
 $$ where  $a^*$  and  $L^{*}$  are defined in (17).
 
 
-# Explicit Option Pricing Formula for European Call Option under Risk-Neutral Measure
+### Explicit Option Pricing Formula for European Call Option under Risk-Neutral Measure
 
 The payoff function  $f_{T}$  for the European call option equals
 
@@ -480,7 +480,7 @@ $$
 $$ and above-mentioned results.
 
 
-# Connection with Black-Scholes Result:  $L^{*} = 0$  and  $a^{*} = -r$  and Black-Scholes formula follows!
+## Connection with Black-Scholes Result:  $L^{*} = 0$  and  $a^{*} = -r$  and Black-Scholes formula follows!
 
 If  $L^{*} = 0$  and  $a^* = -r$  then we obtain from (22)
 
@@ -513,7 +513,7 @@ In this way, we can see that the option pricing formula in (22) for the mean-rev
 The results of this section may be also used to model and price variance and volatility swaps in energy and commodity markets for assets with stochastic volatility that are described by a continuous-time mean-reverting GARCH model; see Swishchuk (2010a).
 
 
-# KEY POINTS
+## KEY POINTS
 
 - The main idea of the change of time method is to change time from  $t$  to a nonnegative process  $T(t)$  with nondecreasing sample paths (e.g., subordinator).
 - Many Lévy processes may be written as time-changed Brownian motion.
@@ -522,7 +522,7 @@ The results of this section may be also used to model and price variance and vol
 - Using change of time, we can get an option pricing formula for an asset following geometric Brownian motion such as the Black-Scholes formula.
 - Using change of time, we can get an explicit option pricing formula for an asset following the mean-reverting process, such as continuous-time GARCH process.
 
-# NOTES
+## NOTES
 
 1. Swishchuk (2007) and Swishchuk (2008c).
 2. Madan et al. (1990).

@@ -1,5 +1,9 @@
 ---
-title: HBS A Strategic Perspective on Bankruptcy
+title: "HBS A Strategic Perspective on Bankruptcy"
+parent_directory: "II. The Roles of Banks and Derivative Markets in Resolving Problems Inherent in Debt Contracts/Class 2-Debt contracts due to the lack of information"
+formatted: "2025-12-21 08:45:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli-tool: "claude-code"
 primary_tags:
   - corporate bankruptcy
   - chapter 11 reorganization
@@ -22,7 +26,6 @@ secondary_tags:
   - corporate control
   - vulture investors
 cssclasses: academia
-parent_directory: Class 2-Debt contracts due to the lack of information
 ---
 
 BILL GEORGE
@@ -37,7 +40,7 @@ For the managers of a company with obligations to claimholders that exceed its a
 
 Over the five-year span that began in 2007, 619 public companies in the U.S. representing more than \$2.0 trillion in combined assets entered Chapter 11 bankruptcy proceedings (see Exhibit 1).<sup>1</sup> While fifteen years earlier managers had reluctance to damage their reputations by taking a company into bankruptcy,<sup>2</sup> it is now a more frequent path for companies in financial distress. Nevertheless, reorganizing the obligations and operations of a distressed company remains a time-consuming, complex process with uncertain timelines, numerous hazards, and unknown outcomes.
 
-# The Challenges of Reorganizing under the Bankruptcy Code
+## The Challenges of Reorganizing under the Bankruptcy Code
 
 The proximate cause of bankruptcy, and the most reliable warning flag to stakeholders, is a company's inability to pay debts because of a disruption in cash flow. This scenario is usually preceded by visible signals that may include changes in financing conditions or the competitive landscape, problems in product development processes, disruptions to sales and customer relationships, or a sudden flood of tort litigation.
 
@@ -75,7 +78,7 @@ Social cost When management attempts to shed its obligations to improve a compan
 
 The exercise of the most drastic restructuring tools has consequences for firms and for the social compact on which the conduct of business rests. Firms and institutions alike face the long-term loss of goodwill with the public and regulators. This arises in part because of the frequency with which court-supervised restructurings have been perceived as tactics used to circumvent obligations to customers (e.g., product liability), employees (e.g., contracts, pensions, health care) and the public (e.g., environmental cleanups). While the stigma of a court-supervised restructuring may be less severe today among executives and boards of directors, the stain persists among other stakeholders in a firm.
 
-# Two Different Paths
+## Two Different Paths
 
 While in-court and out-of-court reorganizations face the same sources of uncertainty, the differences in their treatment yield sharply contrasting paths and outcomes:
 
@@ -88,7 +91,7 @@ Exhibit 1 Largest Public Bankruptcies by Revenues (before 2012)
 
 Source: New Generation Research, The 2012 Bankruptcy Yearbook & Almanac,  $22^{\mathrm{nd}}$  ed. (Quincy: 2012), p. 56.
 
-# Exhibit 2 Outline of Events in a Business Bankruptcy
+## Exhibit 2 Outline of Events in a Business Bankruptcy
 
 - A company comes into a situation of present or perceived future financial distress. Usually, the company incurs excessive losses, or expects future losses, from causes including poor sales, mismanagement, excessive debt, lawsuits and product liability, fraud, labor costs and labor disturbances, etc.  
 - The company defaults on its debt or otherwise appears to be incapable of continuing to meet its obligations.  
@@ -104,7 +107,7 @@ Source: New Generation Research, The 2012 Bankruptcy Yearbook & Almanac,  $22^{\
 
 Source: Compiled by casewrit from New Generation Research, "Outline of Events in a Business Bankruptcy," pp. 501-502, in The 2012 Bankruptcy Yearbook & Almanac, 22nd ed. (Quincy: 2012).
 
-# Exhibit 3 Hierarchy of Claims in Chapter 11
+## Exhibit 3 Hierarchy of Claims in Chapter 11
 
 1. Secured claims  
 2. Superpriority claims (e.g., debtor-in-possession financing)
@@ -125,7 +128,7 @@ h. Unsecured claims based on commitments to a federal depository institutions re
 
 Source: Stuart C. Gilson, 2009, Creating Value through Corporate Restructuring, p. 63, Wiley, 2010.
 
-# Endnotes
+## Endnotes
 
 <sup>1</sup> New Generation Research, The 2012 Bankruptcy Yearbook & Almanac, 22<sup>nd</sup> ed. (Quincy: 2012), p. 32. This note considers only filings under Chapter 11 of the Code-i.e., filings with the intent to reorganize a business. Filings under Chapter 7 of the Code (filings with intent to liquidate) and substantially similar filings do not pose the same operating questions for management. (See Exhibit 2.)
 <sup>2</sup> Robert I. Sutton and Anita L. Callahan, "The Stigma of Bankruptcy: Spoiled Organizational Image and Its Management," Academy of Management Journal, Vol. 30, No. 3 (September 1987): 405-436; Gregg Wirth, "Dancing with the Devil: Bankruptcy Pays Off," Journal of Business Strategy (November/December 1995), p. 54.  

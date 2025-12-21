@@ -6,7 +6,6 @@ primary_tags:
 - international trade patterns
 - industrial location theory
 - economies of scale trade
-- comparative advantage dynamics
 secondary_tags:
 - specialized suppliers clustering
 - labor market pooling
@@ -15,9 +14,9 @@ secondary_tags:
 - historical contingency trade
 - dynamic increasing returns
 - economic geography principles
-- infant industry protection
+- infant industry argument
 - interregional trade forces
-- market structure implications
+- learning curve effects
 cssclasses: academia
 ---
 
@@ -266,7 +265,7 @@ The learning curve shows that unit cost is lower the greater the cumulative outp
 
 the effect on costs of the experience gained through production. When costs fall with cumulative production over time rather than with the current rate of production, this is referred to as a case of dynamic increasing returns.
 
-Like ordinary external economies, dynamic external economies can lock in an initial advantage or head start in an industry. In Figure 7-6, the learning curve  $L$  is that of a country that pioneered an industry, while  $L^{*}$  is that of a country that has lower input costs—say, lower wages—but less production experience. Provided the first country has a sufficiently large head start, the potentially lower costs of the second country may not allow the second country to enter the market. For example, suppose the first country has a cumulative output of  $Q_{L}$  units, giving it a unit cost of  $C_{1}$ , while the second country has never produced the good. Then the second country will have an initial start-up cost,  $C_{0}^{*}$ , that is higher than the current unit cost,  $C_{1}$ , of the established industry.
+Like ordinary external economies, dynamic external economies can lock in an initial advantage or head start in an industry. In Figure 7-6, the learning curve $L$ is that of a country that pioneered an industry, while $L^{*}$ is that of a country that has lower input costs—say, lower wages—but less production experience. Provided the first country has a sufficiently large head start, the potentially lower costs of the second country may not allow the second country to enter the market. For example, suppose the first country has a cumulative output of $Q_{L}$ units, giving it a unit cost of $C_{1}$, while the second country has never produced the good. Then the second country will have an initial start-up cost, $C_{0}^{*}$, that is higher than the current unit cost, $C_{1}$, of the established industry.
 
 Dynamic scale economies, like external economies at a point in time, potentially justify protectionism. Suppose a country could have low enough costs to produce a good for export if it had more production experience, but given the current lack of experience, the good cannot be produced competitively. Such a country might increase its long-term welfare either by encouraging the production of the good by a subsidy or by protecting it from foreign competition until the industry can stand on its own feet. The argument for temporary protection of industries to enable them to gain experience is known as the infant industry argument; this argument has played an important role in debates over the role of trade policy in economic development. We will discuss the infant industry argument at greater length in Chapter 10, but for now, we simply note that situations like that illustrated in Figure 7-6 are just as hard to identify in practice as those involving nondynamic increasing returns.
 

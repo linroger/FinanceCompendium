@@ -293,44 +293,47 @@ is equivalent to $\mathbf{P}|_{\mathcal{F}_t}$ for all $t\geq 0$. Moreover, the 
 
 The change of measure using Theorem 2 is referred to as the Esscher transform. The most general theorem of change of measure for Lévy processes is given by the following theorem (see Sato, 1999):
 
-Theorem 3. Suppose a process  $X = (X_{t})_{t\geq 0}$  has Lévy triplets  $(\sigma^2,\nu ,\gamma)$  and  $(\tilde{\sigma}^2,\tilde{\nu},\tilde{\gamma})$  under measures  $\mathbf{P}$  and  $\mathbf{Q}$ , respectively.
+**Theorem 3.** Suppose a process $X = (X_{t})_{t\geq 0}$ has Lévy triplets $(\sigma^2,\nu,\gamma)$ and $(\tilde{\sigma}^2,\tilde{\nu},\tilde{\gamma})$ under measures $\mathbf{P}$ and $\mathbf{Q}$, respectively.
 
-1. In the case where  $\sigma^2\neq 0$  and  $\tilde{\sigma}^2\neq 0$ $\mathbf{P}|_{\mathcal{F}_t}$  and  $\mathbf{Q}|_{\mathcal{F}_t}$  are equivalent for all  $t > 0$  if and only if the Lévy triplets satisfy
-
-
-$$
-\sigma^{2} = \tilde {\sigma}^{2} > 0 \tag {2}
-$$ and
-
+1. In the case where $\sigma^2\neq 0$ and $\tilde{\sigma}^2\neq 0$, $\mathbf{P}|_{\mathcal{F}_t}$ and $\mathbf{Q}|_{\mathcal{F}_t}$ are equivalent for all $t > 0$ if and only if the Lévy triplets satisfy
 
 $$
-\int_{- \infty}^{\infty} \left(e^{\psi (x) / 2} - 1\right)^{2} v (d x) <   \infty \tag {3}
-$$ where  $\psi (x) = \ln \left(\frac{d\bar{\nu}}{dv}\right)$ .
-
-
-2. In the case where  $\sigma^2 = \tilde{\sigma}^2 = 0$ ,  $\mathbf{P}|_{\mathcal{F}_t}$  and  $\mathbf{Q}|_{\mathcal{F}_t}$  are equivalent for all  $t \geq 0$  if and only if the Lévy triplets satisfy (3) and
-
-$$
-\tilde {\gamma} - \gamma = \int_{| x | \leq 1} x (\tilde {v} - v) (d x) \tag {4}
+\sigma^{2} = \tilde{\sigma}^{2} > 0 \tag{2}
 $$
 
-When  $\mathbf{P}$  and  $\mathbf{Q}$  are equivalent, the Radon-Nikodym derivative is
+and
 
 $$
-\left. \frac{d \mathbf {Q}}{d \mathbf {Q}} \right|_{\mathcal {F}_{t}} = e^{\xi t}
-$$ where  $\xi = (\xi_{t})_{t\geq 0}$  is a Lévy process with Lévy triplet  $(\sigma_{\xi}^{2},\nu_{\xi},\gamma_{\xi})$  given by
-
-
-$$
-\left\{ \begin{array}{l} \sigma_{\xi}^{2} = \sigma^{2} \eta^{2} \\ v_{\xi} = v \circ \psi^{- 1} \\ \gamma_{\xi} = - \frac{\sigma^{2} \eta^{2}}{2} - \int_{- \infty}^{\infty} \left(e^{y} - 1 - y 1_{| y | \leq 1}\right) v \xi (d y) \end{array} \right. \tag {5}
-$$ and  $\eta$  is such that
-
-
-$$
-\tilde {\gamma} - \gamma - \int_{| x | \leq 1} x (\tilde {v} - v) (d x) = \left\{ \begin{array}{l l} \sigma^{2} \eta & i f \sigma > 0 \\ 0 & i f \sigma = 0 \end{array} \right.
+\int_{-\infty}^{\infty} \left(e^{\psi(x)/2} - 1\right)^{2} v(dx) < \infty \tag{3}
 $$
 
-# Change of Measure in Tempered Stable Processes
+where $\psi(x) = \ln\left(\frac{d\bar{\nu}}{dv}\right)$.
+
+2. In the case where $\sigma^2 = \tilde{\sigma}^2 = 0$, $\mathbf{P}|_{\mathcal{F}_t}$ and $\mathbf{Q}|_{\mathcal{F}_t}$ are equivalent for all $t \geq 0$ if and only if the Lévy triplets satisfy (3) and
+
+$$
+\tilde{\gamma} - \gamma = \int_{|x| \leq 1} x (\tilde{v} - v)(dx) \tag{4}
+$$
+
+When $\mathbf{P}$ and $\mathbf{Q}$ are equivalent, the Radon-Nikodym derivative is
+
+$$
+\frac{d\mathbf{Q}}{d\mathbf{P}}|_{\mathcal{F}_{t}} = e^{\xi t}
+$$
+
+where $\xi = (\xi_{t})_{t\geq 0}$ is a Lévy process with Lévy triplet $(\sigma_{\xi}^{2},\nu_{\xi},\gamma_{\xi})$ given by
+
+$$
+\left\{ \begin{array}{l} \sigma_{\xi}^{2} = \sigma^{2} \eta^{2} \\ \nu_{\xi} = \nu \circ \psi^{-1} \\ \gamma_{\xi} = -\frac{\sigma^{2} \eta^{2}}{2} - \int_{-\infty}^{\infty} \left(e^{y} - 1 - y 1_{|y| \leq 1}\right) \nu_{\xi}(dy) \end{array} \right. \tag{5}
+$$
+
+and $\eta$ is such that
+
+$$
+\tilde{\gamma} - \gamma - \int_{|x| \leq 1} x (\tilde{v} - v)(dx) = \left\{ \begin{array}{l l} \sigma^{2} \eta & \text{if } \sigma > 0 \\ 0 & \text{if } \sigma = 0 \end{array} \right.
+$$
+
+## Change of Measure in Tempered Stable Processes
 
 In this section, we present the change of measure for six tempered stable processes: the classical tempered stable (CTS) process, Kim-Rachev tempered stable (KRTS) process, modified tempered stable (MTS) process, normal tempered stable (NTS) process, and rapidly decreasing tempered stable (RDTs) process. The six processes are defined as follows:
 
@@ -345,159 +348,178 @@ If we take a special parameter  $C$  defined by
 
 $$
 C = \left(\Gamma (2 - \alpha) \left(\lambda_{+}^{\alpha - 2} + 2 \lambda_{-}^{\alpha - 2}\right)\right)^{- 1} \tag {6}
-$$ and  $m = 0$  then  $E[X_{t}] = 0$  and  $\mathrm{V}(X_t) = t$ . In this case,  $X$  is called the standard CTS process with parameters  $(\alpha, \lambda_{+}, \lambda_{-})$ .
+$$ and $m = 0$ then $E[X_t] = 0$ and $\mathrm{V}(X_t) = t$. In this case, $X$ is called the standard CTS process with parameters $(\alpha, \lambda_{+}, \lambda_{-})$.
 
 
-- A Lévy process  $(X_{t})_{t\geq 0}$  is referred to as the generalized tempered stable (GTS) process if the characteristic function of  $X_{t}$  is given by
-
-$$
-\begin{array}{l} \phi_{X_{t}} (u) = \exp (i u m t - i u t \Gamma (1 - \alpha) \left(C_{+} \lambda_{+}^{\alpha_{+} - 1} \right. \\ - C_{-} \lambda_{-}^{\alpha_{- - 1}}) \\ + t C_{+} \Gamma (- \alpha_{+}) \left(\left(\lambda_{+} - i u\right)^{\alpha_{+}} - \lambda_{+}^{\alpha_{+}}\right) \\ + t C_{-} \Gamma (- \alpha_{-}) ((\lambda_{-} + i u)^{\alpha_{-}} - \lambda_{-}^{\alpha_{-}})), \tag {7} \\ \end{array}
-$$ where  $\alpha_{+},\alpha_{-}\in (0,1)\cup (1,2),C_{+},C_{-},\lambda_{+},\lambda_{-} > 0$  , and  $m\in \mathbb{R}$  . If we substitute
-
+- A Lévy process $(X_t)_{t\geq 0}$ is referred to as the generalized tempered stable (GTS) process if the characteristic function of $X_t$ is given by
 
 $$
-C_{+} = \frac{p \lambda_{+}^{2 - \alpha_{+}}}{\Gamma (2 - \alpha_{+})}, \quad C_{-} = \frac{(1 - p) \lambda_{-}^{2 - \alpha_{-}}}{\Gamma (2 - \alpha_{-})} \tag {8}
-$$ where  $p\in (0,1)$  , and  $m = 0$  then  $E[X_{t}] = 0$  and  $V(X_{t}) = t$  . In this case,  $X$  is called the standard GTS process with parameters  $(\alpha_{+},\alpha_{-},\lambda_{+},\lambda_{-},p)$
-
-
-- Let  $\alpha \in (0,2) \setminus \{1\}$ ,  $k_{+}, k_{-}, r_{+}, r_{-} > 0$ ,  $p_{+}, p_{-} \in \{p > -\alpha \mid p \neq -1, p \neq 0\}$ , and  $m \in \mathbb{R}$ . A Lévy process  $(X_{t})_{t \geq 0}$  is referred to as the Kim-Rachev (KR) process if the characteristic function of  $X_{t}$  is given by
-
-$$
-\begin{array}{l} \phi_{X_{i}} (u) = \exp (i u m t - i u t \Gamma (1 - \alpha) \\ \times \left(\frac{k_{+} r_{+}}{p_{+} + 1} - \frac{k_{-} r_{-}}{p_{-} + 1}\right) \\ + t k_{+} H (i u; \alpha , r_{+}, p_{+}) \\ + t k_{-} H (- i u; \alpha , r_{-}, p_{-})) \\ \end{array}
-$$ where
-
-
-$$
-H (x; \alpha , r, p) = \frac{\Gamma (- \alpha)}{p} (_ {2} F_{1} (p, - \alpha ; 1 + p; r x) - 1)
-$$ where  ${}_{2}F_{1}$  is the hypergeometric function. If  $p_{+}$  and  $p_{-}$  approach to the infinite, then the
-
-
-KR process converges to the CTS process. If we substitute
-
-$$ k_{+} = C \frac{\alpha + p_{+}}{r_{+}^{\alpha}}
+\phi_{X_t}(u) = \exp(i u m t - i u t \Gamma(1 - \alpha)(C_{+} \lambda_{+}^{\alpha_{+} - 1} - C_{-} \lambda_{-}^{\alpha_{-} - 1}) + t C_{+} \Gamma(-\alpha_{+})((\lambda_{+} - i u)^{\alpha_{+}} - \lambda_{+}^{\alpha_{+}}) + t C_{-} \Gamma(-\alpha_{-})((\lambda_{-} + i u)^{\alpha_{-}} - \lambda_{-}^{\alpha_{-}})), \tag{7}
 $$
 
-$$ k_{-} = C \frac{\alpha + p_{-}}{r_{-}^{\alpha}}
-$$ where
-
+where $\alpha_{+},\alpha_{-} \in (0,1)\cup (1,2), C_{+}, C_{-}, \lambda_{+}, \lambda_{-} > 0$, and $m \in \mathbb{R}$. If we substitute
 
 $$
-C = \frac{1}{\Gamma (2 - \alpha)} \left(\frac{\alpha + p_{+}}{2 + p_{+}} r_{+}^{2 - \alpha} + \frac{\alpha + p_{-}}{2 + p_{-}} r_{-}^{2 - \alpha}\right) - 1 \tag {9}
-$$ and  $m = 0$  then  $E[X_{t}] = 0$  and  $\mathrm{V}(X_t) = t$ . In this case,  $X$  is called the standard KRTS process with parameters  $(\alpha, r_{+}, r_{-}, p_{+}, p_{-})$ .
-
-
-- Let  $\alpha \in (0,2) \setminus \{1\}$ ,  $C, \lambda_{+}, \lambda_{-} > 0$ , and  $m \in \mathbb{R}$ . A Lévy process  $(X_{t})_{t \geq 0}$  is referred to as the modified tempered stable (MTS) process if the characteristic function of  $X_{t}$  is given by
-
-$$
-\begin{array}{l} \phi X_{t} (u) = \exp (i u m t + t C \left(G_{R} (u; \alpha , C, \lambda_{+}) \right. \\ + G_{R} (u; \alpha , C, \lambda_{-})) \\ + i u t C \left(G_{I} (u; \alpha , \lambda_{+}) - G_{I} (u; \alpha , \lambda_{-}))\right) \\ \end{array}
-$$ where for  $u\in \mathbb{R}$
-
-
-$$
-\begin{array}{l} G_{R} (x; \alpha , \lambda) = 2^{- \frac{\alpha + 3}{2}} \sqrt{\pi} \Gamma \left(- \frac{\alpha}{2}\right) \\ \times \left(\left(\lambda^{2} + x^{2}\right)^{\frac{\alpha}{2}} - \lambda^{\alpha}\right) \\ \end{array}
-$$ and
-
-
-$$
-\begin{array}{l} G_{I} (x; \alpha , \lambda) = 2^{- \frac{\alpha + 1}{2}} \Gamma \left(\frac{1 - \alpha}{2}\right) \lambda^{\alpha - 1} \\ \times \left[ _ 2 F_{1} \left(1, \frac{1 - \alpha}{2}; \frac{3}{2}; - \frac{x^{2}}{\lambda^{2}}\right) - 1 \right] \\ \end{array}
+C_{+} = \frac{p \lambda_{+}^{2 - \alpha_{+}}}{\Gamma(2 - \alpha_{+})}, \quad C_{-} = \frac{(1 - p) \lambda_{-}^{2 - \alpha_{-}}}{\Gamma(2 - \alpha_{-})} \tag{8}
 $$
 
-If we substitute
+where $p \in (0,1)$, and $m = 0$ then $E[X_t] = 0$ and $V(X_t) = t$. In this case, $X$ is called the standard GTS process with parameters $(\alpha_{+},\alpha_{-},\lambda_{+},\lambda_{-},p)$.
+
+
+- Let $\alpha \in (0,2) \setminus \{1\}$, $k_{+}, k_{-}, r_{+}, r_{-} > 0$, $p_{+}, p_{-} \in \{p > -\alpha \mid p \neq -1, p \neq 0\}$, and $m \in \mathbb{R}$. A Lévy process $(X_t)_{t\geq 0}$ is referred to as the Kim-Rachev (KR) process if the characteristic function of $X_t$ is given by
 
 $$
-C = 2^{\frac{\alpha + 1}{2}} \left(\sqrt{\pi} \Gamma \left(1 - \frac{\alpha}{2}\right) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)\right)^{- 1} \tag {10}
-$$ and  $m = 0$  then  $E[X_{t}] = 0$  and  $V(X_{t}) = t$ . In this case,  $X$  is called the standard MTS process with parameters  $(\alpha ,\lambda_{+},\lambda_{-})$ .
+\phi_{X_t}(u) = \exp(i u m t - i u t \Gamma(1 - \alpha)(\frac{k_{+} r_{+}}{p_{+} + 1} - \frac{k_{-} r_{-}}{p_{-} + 1}) + t k_{+} H(i u; \alpha, r_{+}, p_{+}) + t k_{-} H(-i u; \alpha, r_{-}, p_{-})),
+$$
 
-
-- Let  $\alpha \in (0,2), C, \lambda > 0, |\beta| < \lambda$ , and  $m \in \mathbb{R}$ . A Lévy process  $(X_{t})_{t \geq 0}$  is referred to as the normal tempered stable (NTS) process if the characteristic function of  $X_{t}$  is given by
-
+where
 
 $$
-\begin{array}{l} \phi X_{t} (u) = \exp \left(i u m t + i u t 2^{- \frac{\alpha + 1}{2}} C \sqrt{\pi} \Gamma \left(- \frac{\alpha}{2}\right) \right. \\ \times \alpha \beta (\lambda^{2} - \beta^{2})^{\frac{\alpha}{2} - 1} + 2^{- \frac{\alpha + 1}{2}} t C \sqrt{\pi} \Gamma \left(- \frac{\overline {{\alpha}}}{2}\right) \\ \times \left(\left(\lambda^{2} - (\beta + i u)^{2}\right)^{\frac{\alpha}{2}} - \left(\lambda^{2} - \beta^{2}\right)^{\frac{\alpha}{2}}\right) \\ \end{array}
+H(x; \alpha, r, p) = \frac{\Gamma(-\alpha)}{p} ({}_{2}F_{1}(p, -\alpha; 1 + p; r x) - 1)
+$$
+
+where ${}_{2}F_{1}$ is the hypergeometric function. If $p_{+}$ and $p_{-}$ approach infinity, then the KR process converges to the CTS process. If we substitute
+
+$$
+k_{+} = C \frac{\alpha + p_{+}}{r_{+}^{\alpha}}, \quad k_{-} = C \frac{\alpha + p_{-}}{r_{-}^{\alpha}}
+$$
+
+where
+
+$$
+C = \frac{1}{\Gamma(2 - \alpha)}(\frac{\alpha + p_{+}}{2 + p_{+}} r_{+}^{2 - \alpha} + \frac{\alpha + p_{-}}{2 + p_{-}} r_{-}^{2 - \alpha}) - 1 \tag{9}
+$$
+
+and $m = 0$ then $E[X_t] = 0$ and $\mathrm{V}(X_t) = t$. In this case, $X$ is called the standard KRTS process with parameters $(\alpha, r_{+}, r_{-}, p_{+}, p_{-})$.
+
+
+- Let $\alpha \in (0,2) \setminus \{1\}$, $C, \lambda_{+}, \lambda_{-} > 0$, and $m \in \mathbb{R}$. A Lévy process $(X_t)_{t\geq 0}$ is referred to as the modified tempered stable (MTS) process if the characteristic function of $X_t$ is given by
+
+$$
+\phi X_t(u) = \exp(i u m t + t C (G_R(u; \alpha, C, \lambda_{+}) + G_R(u; \alpha, C, \lambda_{-})) + i u t C (G_I(u; \alpha, \lambda_{+}) - G_I(u; \alpha, \lambda_{-})))
+$$
+
+where for $u \in \mathbb{R}$
+
+$$
+G_R(x; \alpha, \lambda) = 2^{-\frac{\alpha + 3}{2}} \sqrt{\pi} \Gamma(-\frac{\alpha}{2}) \left((\lambda^{2} + x^{2})^{\frac{\alpha}{2}} - \lambda^{\alpha}\right)
+$$
+
+and
+
+$$
+G_I(x; \alpha, \lambda) = 2^{-\frac{\alpha + 1}{2}} \Gamma(\frac{1 - \alpha}{2}) \lambda^{\alpha - 1} [ {}_{2} F_{1}(1, \frac{1 - \alpha}{2}; \frac{3}{2}; -\frac{x^{2}}{\lambda^{2}}) - 1 ]
 $$
 
 If we substitute
 
 $$
-\begin{array}{l} C = 2^{\frac{\alpha + 1}{2}} \left(\sqrt{\pi} \Gamma \left(- \frac{\alpha}{2}\right) \alpha \left(\lambda^{2} - \beta^{2}\right)^{\frac{\alpha}{2} - 2} \right. \\ \times \left(\alpha \beta^{2} - \lambda^{2} - \beta^{2}\right)\left. \right)^{- 1} \tag {11} \\ \end{array}
-$$ and  $m = 0$  then  $E[X_{t}] = 0$  and  $V(X_{t}) = t$ . In this case,  $X$  is called the standard NTS process with parameters  $(\alpha, \lambda, \beta)$ .
+C = 2^{\frac{\alpha + 1}{2}} (\sqrt{\pi} \Gamma(1 - \frac{\alpha}{2}) (\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}))^{-1} \tag{10}
+$$
+
+and $m = 0$ then $E[X_t] = 0$ and $V(X_t) = t$. In this case, $X$ is called the standard MTS process with parameters $(\alpha, \lambda_{+}, \lambda_{-})$.
 
 
-- Let  $\alpha \in (0,2) \setminus \{1\}$ ,  $C, \lambda_{+}, \lambda_{-} > 0$ , and  $m \in \mathbb{R}$ . A Lévy process  $(X_{t})_{t \geq 0}$  is referred to as the rapidly decreasing tempered stable (RDTS) process if the characteristic function of  $X_{t}$  is given by
+- Let $\alpha \in (0,2), C, \lambda > 0, |\beta| < \lambda$, and $m \in \mathbb{R}$. A Lévy process $(X_t)_{t\geq 0}$ is referred to as the normal tempered stable (NTS) process if the characteristic function of $X_t$ is given by
 
 $$
-\begin{array}{l} \phi_{X_{t}} (u) = \exp (i u m t + t C (G (i u; \alpha , \lambda_{+}) \\ + G (- i u; \alpha , \lambda_{-}))) \\ \end{array}
-$$ where
+\phi X_t(u) = \exp(i u m t + i u t 2^{-\frac{\alpha + 1}{2}} C \sqrt{\pi} \Gamma(-\frac{\alpha}{2}) \alpha \beta (\lambda^{2} - \beta^{2})^{\frac{\alpha}{2} - 1} + 2^{-\frac{\alpha + 1}{2}} t C \sqrt{\pi} \Gamma(-\frac{\alpha}{2}) ((\lambda^{2} - (\beta + i u)^{2})^{\frac{\alpha}{2}} - (\lambda^{2} - \beta^{2})^{\frac{\alpha}{2}}))
+$$
 
+If we substitute
 
 $$
-\begin{array}{l} G (x; \alpha , \lambda) \\ = 2^{- \frac{\alpha}{2} - 1} \lambda^{\alpha} \Gamma \left(- \frac{\alpha}{2}\right) \left(M \left(- \frac{\alpha}{2}, \frac{1}{2}; \frac{x^{2}}{2 \lambda^{2}}\right) - 1\right) \\ + 2^{- \frac{\alpha}{2} - \frac{1}{2}} \lambda^{\alpha - 1} x \Gamma \left(\frac{1 - \alpha}{2}\right) \\ \times \left(M \left(\frac{1 - \alpha}{2}, \frac{3}{2}; \frac{x^{2}}{2 \lambda^{2}}\right) - 1\right) \\ \end{array}
-$$ and  $M$  is the confluent hypergeometric function. See Andrews (1998). If we take a special parameter  $C$  defined by
+C = 2^{\frac{\alpha + 1}{2}} (\sqrt{\pi} \Gamma(-\frac{\alpha}{2}) \alpha (\lambda^{2} - \beta^{2})^{\frac{\alpha}{2} - 2} (\alpha \beta^{2} - \lambda^{2} - \beta^{2}))^{-1} \tag{11}
+$$
 
+and $m = 0$ then $E[X_t] = 0$ and $V(X_t) = t$. In this case, $X$ is called the standard NTS process with parameters $(\alpha, \lambda, \beta)$.
+
+
+- Let $\alpha \in (0,2) \setminus \{1\}$, $C, \lambda_{+}, \lambda_{-} > 0$, and $m \in \mathbb{R}$. A Lévy process $(X_t)_{t\geq 0}$ is referred to as the rapidly decreasing tempered stable (RDTS) process if the characteristic function of $X_t$ is given by
 
 $$
-C = 2^{\frac{\alpha}{2}} \left(\Gamma \left(1 - \frac{\alpha}{2}\right) \left(\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}\right)\right)^{- 1} \tag {12}
-$$ and  $m = 0$  then  $E[X_{t}] = 0$  and  $V(X_{t}) = t$ . In this case,  $X$  is called the standard RDTS process with parameters  $(\alpha, \lambda_{+}, \lambda_{-})$ .
+\phi_{X_t}(u) = \exp(i u m t + t C (G(i u; \alpha, \lambda_{+}) + G(-i u; \alpha, \lambda_{-})))
+$$
+
+where
+
+$$
+G(x; \alpha, \lambda) = 2^{-\frac{\alpha}{2} - 1} \lambda^{\alpha} \Gamma(-\frac{\alpha}{2}) (M(-\frac{\alpha}{2}, \frac{1}{2}; \frac{x^{2}}{2 \lambda^{2}}) - 1) + 2^{-\frac{\alpha}{2} - \frac{1}{2}} \lambda^{\alpha - 1} x \Gamma(\frac{1 - \alpha}{2}) (M(\frac{1 - \alpha}{2}, \frac{3}{2}; \frac{x^{2}}{2 \lambda^{2}}) - 1)
+$$
+
+and $M$ is the confluent hypergeometric function. See Andrews (1998). If we take a special parameter $C$ defined by
+
+$$
+C = 2^{\frac{\alpha}{2}} (\Gamma(1 - \frac{\alpha}{2}) (\lambda_{+}^{\alpha - 2} + \lambda_{-}^{\alpha - 2}))^{-1} \tag{12}
+$$
+
+and $m = 0$ then $E[X_t] = 0$ and $V(X_t) = t$. In this case, $X$ is called the standard RDTS process with parameters $(\alpha, \lambda_{+}, \lambda_{-})$.
 
 
-The six tempered stable processes are pure jump Lévy processes with Lévy triplet  $(0, \nu, \gamma)$ , where  $\gamma = m - \int_{|x| > 1} x\nu(dx)$  and Lévy measures are presented in Table 1.
+The six tempered stable processes are pure jump Lévy processes with Lévy triplet $(0, \nu, \gamma)$, where $\gamma = m - \int_{|x| > 1} x \nu(dx)$ and Lévy measures are presented in Table 1.
 
 Table 1 Lévy Measures for Tempered Stable Processes
 
 <table><tr><td colspan="2">Lévy Measure v(dx)</td></tr><tr><td>CTS</td><td>C(e-λ+x/x1+α)1x&gt;0 + e-λ-|x|/|x|1+α1x&lt;0)dx</td></tr><tr><td>GTS</td><td>(C+e-λ+x/x1+α+)1x&gt;0 + C- e-λ-|x|/|x|1+α-)1x&lt;0)dx</td></tr><tr><td>MTS</td><td>(C+(λ+x)α+1/2Kα+1/2(λ+x)/x1+α1x&gt;0 + C-(λ-|x|)α+1/2Kα+1/2(λ-|x|)/|x|1+α1x&lt;0)dx</td></tr><tr><td>NTS</td><td>Ceβx(λ|x|)α+1/2Kα+1/2(λ|x|)/|x|1+α)dx</td></tr><tr><td>KRTS</td><td>(k+r-p+1/x1+α) ∫0r+e-x/ssα+p+1ds 1x&gt;0 + k-r-p-|x|1+α ∫0r-er-x/ssα+p-1ds 1x&lt;0)dx</td></tr><tr><td>RDTS</td><td>(C+e-λ+x2/2/x1+α)1x&gt;0 + C- e-λ-|x|/2/x|1+α1x&lt;0)dx</td></tr></table>
 
-Let  $X = (X_{t})_{t\geq 0}$  be one tempered stable process among the six tempered stable processes. Then  $E[X_{t}] = mt$  and  $X$  has stationary and independent increments. Therefore, we have
+Let $X = (X_t)_{t\geq 0}$ be one tempered stable process among the six tempered stable processes. Then $E[X_t] = mt$ and $X$ has stationary and independent increments. Therefore, we have
 
 $$
-\begin{array}{l} E \left[ X_{T} \mid \mathcal {F}_{t} \right] = E \left[ X_{T} - X_{t} \mid \mathcal {F}_{t} \right] + X_{t} \\ = E \left[ X_{T - t} \right] + X_{t} = m (T - t) + X_{t} \\ \end{array}
-$$ and hence  $X$  is a martingale when  $m = 0$ .
-
-
-The properties of tempered stable processes change under the change of measure using the Esscher transform. For example, let a process  $X = (X_{t})_{t\geq 0}$  be a symmetric CTS process under measure  $P$  (that is  $\lambda_{+} = \lambda_{-} = \lambda$ ). Then the Lévy measure  $\nu(dx)$  of  $X$  is given by
-
-$$
-\nu (d x) = C \left(\frac{e^{- \lambda x}}{x^{1 + \alpha}} 1_{x > 0} + \frac{e^{- \lambda | x |}}{| x |^{1 + \alpha}} 1_{x <   0}\right) d x
+E[X_T|\mathcal{F}_t] = E[X_T - X_t|\mathcal{F}_t] + X_t = E[X_{T-t}] + X_t = m(T - t) + X_t
 $$
 
-Since we have  $\int_{|x|\geq 1}e^{\theta x}\nu (dx) < \infty$  for some real number  $\theta$  with  $-\lambda \leq \theta \leq \lambda$ , we can define a measure  $\mathbf{Q}$  equivalent to  $\mathbf{P}$  such that
+and hence $X$ is a martingale when $m = 0$.
+
+
+The properties of tempered stable processes change under the change of measure using the Esscher transform. For example, let a process $X = (X_t)_{t\geq 0}$ be a symmetric CTS process under measure $P$ (that is $\lambda_{+} = \lambda_{-} = \lambda$). Then the Lévy measure $\nu(dx)$ of $X$ is given by
 
 $$
-\mathbf {Q} (A) |_{\mathcal {F} t} = \int_{A} e^{\theta X_{t} - l (\theta) t} d \mathbf {P}, \quad A \in \mathcal {F}_{t}
-$$ where
-
-
-$$
-\begin{array}{l} l (\theta) = \log E_{\mathrm{P}} \left[ e^{\theta X_{1}} \right] = C \Gamma (- \alpha) ((\lambda - \theta)^{\alpha} \\ + (\lambda + \theta)^{\alpha} - 2 \lambda^{\alpha}) \\ \end{array}
+\nu(dx) = C \left(\frac{e^{-\lambda x}}{x^{1 + \alpha}} 1_{x > 0} + \frac{e^{-\lambda |x|}}{|x|^{1 + \alpha}} 1_{x < 0}\right) dx
 $$
 
-Moreover, the Lévy measure  $\tilde{\nu} (dx)$  of  $X$  under  $\mathbf{Q}$  is given by
+Since we have $\int_{|x|\geq 1} e^{\theta x} \nu(dx) < \infty$ for some real number $\theta$ with $-\lambda \leq \theta \leq \lambda$, we can define a measure $\mathbf{Q}$ equivalent to $\mathbf{P}$ such that
 
 $$
-\begin{array}{l} \tilde {v} (d x) = e^{\theta x} v (d x) \\ = C \left(\frac{e^{- (\lambda - \theta) x}}{x^{1 + \alpha}} 1_{x > 0} + \frac{e^{- (\lambda + \theta) | x |}}{| x |^{1 + \alpha}} 1_{x <   0}\right) d x \\ \end{array}
+\mathbf{Q}(A)|_{\mathcal{F}_t} = \int_{A} e^{\theta X_t - l(\theta) t} d\mathbf{P}, \quad A \in \mathcal{F}_t
 $$
 
-By the same argument, we discuss the relation between the symmetric MTS and NTS process. That is, let a process  $X = (X_{t})_{t\geq 0}$  be a symmetric MTS process under measure  $\mathbf{P}$ . Then the Lévy measure  $\nu(dx)$  of  $X$  is given by
+where
 
 $$
-\nu (d x) = C (\lambda | x |)^{\frac{\alpha + 1}{2}} K_{\frac{\alpha + 1}{2}} (\lambda | x |) d x
+l(\theta) = \log E_{\mathbf{P}}[e^{\theta X_1}] = C \Gamma(-\alpha) ((\lambda - \theta)^{\alpha} + (\lambda + \theta)^{\alpha} - 2\lambda^{\alpha})
 $$
 
-Since we have  $\int_{|x|\geq 1}e^{-\beta x}\nu (dx) < \infty$  for some real number  $\beta$  with  $-\lambda \leq \beta \leq \lambda$ , we can define a measure  $\mathbf{Q}$  equivalent to  $\mathbf{P}$  such that
+Moreover, the Lévy measure $\tilde{\nu}(dx)$ of $X$ under $\mathbf{Q}$ is given by
 
 $$
-\mathbf {Q} (A) |_{\mathcal {F}_{t}} = \int_{A} e^{- \beta X_{t} - l (- \beta) t} d \mathbf {P}, \quad A \in \mathcal {F}_{t},
-$$ where
-
-
-$$
-\begin{array}{l} l (x) = \log E_{\mathbf {P}} \left[ e^{x X_{1}} \right] \\ = C 2^{- \frac{\alpha + 1}{2}} \sqrt{\pi} \Gamma \left(- \frac{\alpha}{2}\right) \left(\left(\lambda^{2} + x^{2}\right)^{\frac{\alpha}{2}} - \lambda^{\alpha}\right) \\ \end{array}
+\tilde{\nu}(dx) = e^{\theta x} \nu(dx) = C \left(\frac{e^{-(\lambda - \theta) x}}{x^{1 + \alpha}} 1_{x > 0} + \frac{e^{-(\lambda + \theta) |x|}}{|x|^{1 + \alpha}} 1_{x < 0}\right) dx
 $$
 
-Moreover, the Lévy measure  $\tilde{\nu} (dx)$  of  $X$  under  $\mathbf{Q}$  is given by
+By the same argument, we discuss the relation between the symmetric MTS and NTS process. That is, let a process $X = (X_t)_{t\geq 0}$ be a symmetric MTS process under measure $\mathbf{P}$. Then the Lévy measure $\nu(dx)$ of $X$ is given by
 
 $$
-\tilde {\nu} (d x) = e^{- \beta x} \nu (d x) = C e^{- \beta x} (\lambda | x |)^{\frac{\alpha + 1}{2}} K_{\frac{\alpha + 1}{2}} (\lambda | x |) d x
-$$ which is the Lévy measure for the NTS process.
+\nu(dx) = C (\lambda |x|)^{\frac{\alpha + 1}{2}} K_{\frac{\alpha + 1}{2}}(\lambda |x|) dx
+$$
+
+Since we have $\int_{|x|\geq 1} e^{-\beta x} \nu(dx) < \infty$ for some real number $\beta$ with $-\lambda \leq \beta \leq \lambda$, we can define a measure $\mathbf{Q}$ equivalent to $\mathbf{P}$ such that
+
+$$
+\mathbf{Q}(A)|_{\mathcal{F}_t} = \int_{A} e^{-\beta X_t - l(-\beta) t} d\mathbf{P}, \quad A \in \mathcal{F}_t
+$$
+
+where
+
+$$
+l(x) = \log E_{\mathbf{P}}[e^{x X_1}] = C 2^{-\frac{\alpha + 1}{2}} \sqrt{\pi} \Gamma(-\frac{\alpha}{2}) ((\lambda^{2} + x^{2})^{\frac{\alpha}{2}} - \lambda^{\alpha})
+$$
+
+Moreover, the Lévy measure $\tilde{\nu}(dx)$ of $X$ under $\mathbf{Q}$ is given by
+
+$$
+\tilde{\nu}(dx) = e^{-\beta x} \nu(dx) = C e^{-\beta x} (\lambda |x|)^{\frac{\alpha + 1}{2}} K_{\frac{\alpha + 1}{2}}(\lambda |x|) dx
+$$
+
+which is the Lévy measure for the NTS process.
 
 
 Table 2 Condition for Equivalent between P and Q

@@ -1,11 +1,33 @@
 
+---
+title: Basic Principles of Bayesian Analysis
+parent_directory: Encyclopedia of Financial Models
+formatted: 2025-12-21 08:42:00 AM
+formatter_model: claude-sonnet-4-5-thinking
+cli_tool: claude-code
+primary_tags:
+- bayesian statistical methods
+- likelihood function concepts
+- probability updating mechanisms
+- statistical inference approaches
+secondary_tags:
+- poisson distribution applications
+- normal distribution modeling
+- bayes theorem applications
+- binomial probability estimation
+- prior posterior distributions
+- model selection techniques
+- classification algorithms
+cssclasses: academia
+---
+
 # Basic Principles of Bayesian Analysis
 
 
 
 Abstract: One of the basic mechanisms of learning is assimilating the information arriving from the external environment and then updating the existing knowledge base with that information. This mechanism lies at the heart of the Bayesian framework. A Bayesian decision maker learns by revising beliefs in light of the new data that become available. From the Bayesian point of view, probabilities are interpreted as degrees of belief. Therefore, the Bayesian learning process consists of revising probabilities. Contrast this with the way probability is interpreted in the classical (frequentist) statistical theory—as the relative frequency of occurrence of an event in the limit, as the number of observations goes to infinity. Bayes' theorem provides the formal means of putting that mechanism into action; it is a simple expression combining the knowledge about the distribution of the model parameters and the information about the parameters contained in the data.
 
-Quantitative financial models describe in mathematical terms the relationships between financial random variables through time and/or across assets. The fundamental assumption is that the model relationship is valid independent of the time period or the asset class under consideration. Financial data contain both meaningful information and random noise. An adequate financial model not only extracts optimally the relevant information from the his torical data but also performs well when tested with new data. The uncertainty brought about by the presence of data noise makes imperative the use of statistical analysis as part of the process of financial model building, model evaluation, and model testing.
+Quantitative financial models describe in mathematical terms the relationships between financial random variables through time and/or across assets. The fundamental assumption is that the model relationship is valid independent of the time period or the asset class under consideration. Financial data contain both meaningful information and random noise. An adequate financial model not only extracts optimally the relevant information from the historical data but also performs well when tested with new data. The uncertainty brought about by the presence of data noise makes imperative the use of statistical analysis as part of the process of financial model building, model evaluation, and model testing.
 
 
 Statistical analysis is employed from the vantage point of either of the two main statistical philosophical traditions—frequentist and Bayesian. An important difference between the two lies with the interpretation of the concept of probability. As the name suggests, advocates of frequentist statistics adopt a frequentist interpretation: The probability of an event is the limit of its long-run relative frequency (i.e., the frequency with which it occurs as the amount of data increases without bound). Strict adherence to this interpretation is not always possible in practice. When studying rare events, for instance, large samples of data may not be available and in such cases proponents of frequentist statistics resort to theoretical results. The Bayesian view of the world is based on the subjectivist interpretation of probability: Probability is subjective, a degree of belief that is updated as information or data are acquired.
@@ -15,7 +37,7 @@ The concept of subjective probability is derived from arguments for rationality 
 
 Closely related to the concept of probability is that of uncertainty. Proponents of the frequentist approach consider the source of uncertainty to be the randomness inherent in realizations of a random variable. The probability distributions of variables are not subject to uncertainty. In contrast, Bayesian statistics treats probability distributions as uncertain and subject to modification as new information becomes available. Uncertainty is implicitly incorporated by probability updating. The probability beliefs based on the existing knowledge base take the form of the prior probability.
 
-The posterior probability represents the updated beliefs. Since the beginning of the last century, when quantitative methods and models became a mainstream tool to aid in un derstanding financial markets and formulating investment strategies, the framework applied in finance has been the frequentist approach. The term frequentist usually refers to the Fisherian philosophical approach named after Sir Ronald Fisher.
+The posterior probability represents the updated beliefs. Since the beginning of the last century, when quantitative methods and models became a mainstream tool to aid in understanding financial markets and formulating investment strategies, the framework applied in finance has been the frequentist approach. The term frequentist usually refers to the Fisherian philosophical approach named after Sir Ronald Fisher.
 
 
 Strictly speaking, "Fisherian" has a broader meaning as it includes not only frequentist statistical concepts such as unbiased estimators, hypothesis tests, and confidence intervals, but also the maximum likelihood estimation framework pioneered by Fisher. Only in the last two decades has Bayesian statistics started to gain greater acceptance in financial modeling, despite its introduction about 250 years ago by Thomas Bayes, a British minister and mathematician. It has been the advancements of computing power and the development of new computational methods that has fostered the growing use of Bayesian statistics in finance.
@@ -83,10 +105,10 @@ The Poisson distribution is employed in the context of finance (most often, but 
 Suppose we are interested in examining the annual number of defaults of North American corporate bond issuers and we have gathered a sample of data for the period from 1986 through 2005. Assume that these corporate defaults occur according to a Poisson distribution. Denoting the 20 observations by  $x_{1}, x_{2}, \ldots, x_{20}$ , we write the likelihood function for the Poisson parameter  $\theta$  (the average rate of defaults) as
 
 $$
-\begin{array}{l} L \left(\theta \mid x_{1}, x_{2}, \dots , x_{2 0}\right) = \prod_{i = 1}^{2 0} p \left(X = x_{i} \mid \theta\right) = \prod_{i = 1}^{2 0} \frac{\theta^{x_{i}}}{x_{i} !} e^{- \theta} \\ = \frac{\theta^{\sum_{i = 1}^{2 0} x_{i}}}{\prod_{i = 1}^{2 0} x_{i} !} e^{- 2 0 \theta} \tag {4} \\ \end{array}
+\begin{array}{l} L \left(\theta \mid x_{1}, x_{2}, \dots , x_{20}\right) = \prod_{i = 1}^{20} p \left(X = x_{i} \mid \theta\right) = \prod_{i = 1}^{20} \frac{\theta^{x_{i}}}{x_{i} !} e^{- \theta} \\ = \frac{\theta^{\sum_{i = 1}^{20} x_{i}}}{\prod_{i = 1}^{20} x_{i} !} e^{- 20 \theta} \tag {4} \\ \end{array}
 $$
 
-It is often customary to retain in the expressions for the likelihood function and the probability distributions only the terms that contain the unknown parameter(s); that is, we get rid of the terms that are constant with respect to the pa rameter(s). Thus, (4) could be written as
+It is often customary to retain in the expressions for the likelihood function and the probability distributions only the terms that contain the unknown parameter(s); that is, we get rid of the terms that are constant with respect to the parameter(s). Thus, (4) could be written as
 
 
 $$
@@ -117,14 +139,14 @@ Note: The graph on the left represents the mass function of the Poisson random v
 Suppose we have gathered daily dollar return data on the MSCI-Germany Index for the period January 2, 1998, through December 31, 2003 (a total of 1,548 returns), and we assume that the daily return is normally distributed. Then, given the realized index returns (denoted by  $y_{1}, y_{2}, \ldots, y_{1548}$ ), the likelihood function for the parameters  $\mu$  and  $\sigma$  is written in the following way:
 
 $$
-\begin{array}{l} L \left(\mu , \sigma \mid y_{1}, y_{2}, \dots , y_{1 5 4 8}\right) \\ = \prod_{i = 1}^{1 5 4 8} f (y_{i}) \\ = \left(\frac{1}{\sqrt{2 \pi} \sigma}\right)^{1 5 4 8} e^{- \sum_{i = 1}^{1 5 4 8} \frac{(y_{i} - \mu)^{2}}{2 \sigma^{2}}} \\ \propto \sigma^{- 1 5 4 8} e^{- \sum_{i = 1}^{1 5 4 8} \frac{\left(y_{i} - \mu\right)^{2}}{2 \sigma^{2}}} \tag {7} \\ \end{array}
+\begin{array}{l} L \left(\mu , \sigma \mid y_{1}, y_{2}, \dots , y_{1548}\right) \\ = \prod_{i = 1}^{1 5 4 8} f (y_{i}) \\ = \left(\frac{1}{\sqrt{2 \pi} \sigma}\right)^{1548} e^{- \sum_{i = 1}^{1548} \frac{(y_{i} - \mu)^{2}}{2 \sigma^{2}}} \\ \propto \sigma^{- 1 5 4 8} e^{- \sum_{i = 1}^{1 5 4 8} \frac{\left(y_{i} - \mu\right)^{2}}{2 \sigma^{2}}} \tag {7} \\ \end{array}
 $$
 
 We again implicitly assume that the MSCI-Germany index returns are independently and identically distributed (IID), that is, each daily return is a realization from a normal distribution with the same mean and standard deviation.
 
 In the case of the normal distribution, since the likelihood is a function of two arguments, we can visualize it with a three-dimensional surface as in Figure 2. It is also useful to plot the so-called contours of the likelihood, which we obtain by "slicing" the shape in Figure 2 horizontally at various levels of the likelihood.
 
-Each contour corresponds to a pair of parameter values (and the respective likelihood value). In Figure 3, for example, we could observe that the pair  $(\mu, \sigma) = (-0.23e - 3, 0.31e - 3)$ , with a likelihood value of 0.6, is more likely than the pair  $(\mu, \sigma) = (0.096e - 3, 0.33e - 3)$ , with a likelihood value of 0.1, since the corresponding likelihood is larger.
+Each contour corresponds to a pair of parameter values (and the respective likelihood value). In Figure 3, for example, we could observe that the pair  $(\mu, \sigma) = (-0.23e-3, 0.31e-3)$ , with a likelihood value of 0.6, is more likely than the pair  $(\mu, \sigma) = (0.096e - 3, 0.33e - 3)$ , with a likelihood value of 0.1, since the corresponding likelihood is larger.
 
 # BAYES' THEOREM
 
@@ -168,7 +190,7 @@ $$ and
 
 
 $$
-P (E^{c}) = 0. 6
+P (E^{c}) = 0.6
 $$
 
 Suppose further that the manager's analysis suggests that the probability a target company's PFCF has been more than three times lower than the sector average for the past three years is  $75\%$  while the probability that a nontarget company has been having that low of a PFCF for the past three years is  $35\%$ :
@@ -179,13 +201,13 @@ $$ and
 
 
 $$
-P (D \mid E^{c}) = 0. 3 5
+P (D \mid E^{c}) = 0.35
 $$
 
 If a bidder does appear on the scene, what is the chance that the targeted company had been detected by the manager's screen? To answer this question, the manager needs to update the prior probability  $P(E)$  and compute the posterior probability  $P(E \mid D)$ . Applying (8), we obtain
 
 $$
-\begin{array}{l} P (E \mid D) = \frac{0 . 7 5 \times 0 . 4}{0 . 7 5 \times 0 . 4 + 0 . 3 5 \times 0 . 6} \\ \approx 0. 5 9 \tag {9} \\ \end{array}
+\begin{array}{l} P (E \mid D) = \frac{0.75 \times 0.4}{0.75 \times 0.4 + 0.35 \times 0.6} \\ \approx 0. 5 9 \tag {9} \\ \end{array}
 $$
 
 After taking into account the company's persistently low PFCF, the probability of a takeover increases from  $40\%$  to  $59\%$ .
@@ -268,7 +290,7 @@ $$ where  $n$  is the sample size (the number of trade-by-trade price changes; a
 
 
 $$
-L (\theta \mid X = 1 7 6) = \theta^{1 7 6} (1 - \theta)^{5 5 6 6 7 - 1 7 6} \tag {11}
+L (\theta \mid X = 176) = \theta^{176} (1 - \theta)^{55667 - 176} \tag {11}
 $$
 
 We would like to combine that information with our prior belief about what the probability of a consecutive price increase is. We denote the prior distribution of an unknown parameter  $\theta$  by  $\pi (\theta)$ , the posterior distribution of  $\theta$  by  $\pi (\theta |data)$ , and the likelihood function by  $L(\theta |data)$ .
@@ -296,7 +318,7 @@ $$ p (\theta \mid x) = \frac{L (\theta \mid x) \pi (\theta)}{f (x)} \tag {13}
 $$ where  $f(x)$  is the unconditional (marginal) distribution of the random variable  $X$ , given by
 
 
-$$ f (x) = \int L (\theta \mid x) \pi (x) \mathrm{d} \theta \tag {14}
+$$ f (x) = \int L (\theta \mid x) \pi (\theta) \mathrm{d} \theta \tag {14}
 $$
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-29/dfb71bd1-5f41-4321-b6ab-8e2a5e20500e/ff5fa807986a8272a5c1c527b3602a23619db8f64ae5f44f3ff971a1725bc90e.jpg)
@@ -318,7 +340,7 @@ Let us see what the posterior distribution for  $\theta$  is under each of the t
 1. The posterior of  $\theta$  under the uniform prior scenario is written as
 
 $$
-\begin{array}{l} \pi (\theta \mid x) \propto L (\theta \mid x) \times 1 \\ \propto \theta^{1 7 6} (1 - \theta)^{5 5 6 6 7 - 1 7 6} \\ = \theta^{1 7 7 - 1} (1 - \theta)^{5 5 4 9 2 - 1} \tag {16} \\ \end{array}
+\begin{array}{l} \pi (\theta \mid x) \propto L (\theta \mid x) \times 1 \\ \propto \theta^{1 7 6} (1 - \theta)^{5 5 6 6 7 - 1 7 6} \\ = \theta^{177 - 1} (1 - \theta)^{55492 - 1} \tag {16} \\ \end{array}
 $$ where the first  $\alpha$  refers to omitting the marginal data distribution term in (14), while the second  $\alpha$  refers to omitting the constant term from the likelihood function.
 
 
@@ -327,14 +349,14 @@ The expression  $\theta^{177 - 1}(1 - \theta)^{55492 - 1}$  above resembles the 
 2. The beta distribution is the conjugate prior distribution for the binomial parameter  $\theta$ . This means that the posterior distribution of  $\theta$  is also a beta distribution (of course, with updated parameters):
 
 $$
-\begin{array}{l} \pi (\theta \mid x) \propto L (\theta \mid x) \pi (\theta) \\ \propto \theta^{1 7 6} (1 - \theta)^{5 5 6 6 7 - 1 7 6} \theta^{1. 6 - 1} (1 - \theta)^{7 8. 4 - 1} \\ = \theta^{1 7 7. 6 - 1} (1 - \theta)^{5 5 5 6 9. 4 - 1} \tag {17} \\ \end{array}
+\begin{array}{l} \pi (\theta \mid x) \propto L (\theta \mid x) \pi (\theta) \\ \propto \theta^{176} (1 - \theta)^{55667 - 176} \theta^{1.6 - 1} (1 - \theta)^{78.4 - 1} \\ = \theta^{177.6 - 1} (1 - \theta)^{55569.4 - 1} \tag {17} \\ \end{array}
 $$ where again we omit any constants with respect to  $\theta$ . As expected, we can recognize the expression in the last line above as the kernel of a beta distribution with parameters  $\alpha = 177.6$  and  $\beta = 55569.4$ .
 
 
 Finally, we might want to obtain a single number as an estimate of  $\theta$ . In the classical (frequentist) setting, the usual estimator of  $\theta$  is the maximum likelihood estimator (the value maximizing the likelihood function in (11)), which happens to be the sample proportion  $\widehat{\theta}$ :
 
 $$
-\widehat {\theta} = \frac{1 7 6}{5 5 6 6 7} = 0. 0 0 3 1 6 \tag {18}
+\widehat {\theta} = \frac{176}{55667} = 0.00316 \tag {18}
 $$ or  $0.316\%$ .
 
 
@@ -342,12 +364,12 @@ In the Bayesian setting, one possible estimate of  $\theta$  is the posterior me
 
 
 $$
-\widetilde {\theta}_{U} = \frac{1 7 7}{1 7 7 + 5 5 4 9 2} = 0. 0 0 3 1 8
+\widetilde {\theta}_{U} = \frac{177}{177 + 55492} = 0.00318
 $$ or  $0.318\%$ , while the posterior mean of  $\theta$  under the beta prior scenario is
 
 
 $$
-\widetilde {\theta}_{B} = \frac{1 7 7 . 6}{1 7 7 . 6 + 5 5 5 6 9 . 4} = 0. 0 0 3 1 9
+\widetilde {\theta}_{B} = \frac{177.6}{177.6 + 55569.4} = 0.00319
 $$ or  $0.319\%$ .
 
 

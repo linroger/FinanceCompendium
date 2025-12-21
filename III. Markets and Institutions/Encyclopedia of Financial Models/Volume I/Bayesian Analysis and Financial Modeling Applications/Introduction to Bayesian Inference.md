@@ -2,6 +2,23 @@
 
 
 
+---
+title: Introduction to Bayesian Inference
+parent_directory: Volume I/Bayesian Analysis and Financial Modeling Applications
+primary_tags:
+- bayesian inference
+- prior distributions
+- posterior analysis
+secondary_tags:
+- bayesian statistics
+- parameter estimation
+- predictive inference
+- conjugate priors
+- noninformative priors
+- hypothesis testing
+cssclasses: academia
+---
+
 Abstract: Bayesian inference is the process of arriving at estimates of the model parameters reflecting the blending of information from different sources. Most commonly, two sources of information are considered: prior knowledge or beliefs and observed data. The discrepancy (or lack thereof) between them and their relative strength determines how far away the resulting Bayesian estimate is from the corresponding classical estimate. Along with the point estimate, which most often is the posterior mean, in the Bayesian setting one has available the whole posterior distribution, allowing for a richer analysis.
 
 In this entry, we focus on the essentials of Bayesian inference. Formalizing the practitioner's knowledge and intuition into prior distributions is a key part of the inferential process. Especially when the data records are not abundant, the choice of prior distributions can influence greatly posterior conclusions. After presenting an overview of some approaches to prior specification, we focus on the elements of posterior analysis. Posterior and predictive results can be summarized in a few numbers, as in the classical statistical approach, but one could also easily examine and draw conclusions about all other aspects of the posterior and predictive distributions of the (functions of the) parameters.
@@ -12,7 +29,7 @@ In this entry, we focus on the essentials of Bayesian inference. Formalizing the
 The prior distribution for the model parameters is an integral component of the Bayesian inference process. The updated (posterior) beliefs are the result of the trade-off between the prior and data distributions. The continuous form of Bayes' theorem is:
 
 
-$$ p (\theta \mid \mathcal {Y}) \propto L (\theta \mid \mathcal {Y}) \pi (\theta) \tag {1}
+$$ p (\theta \mid \mathcal {Y}) \propto L (\theta \mid \mathcal {Y}) \pi (\theta) \tag{1}
 $$ where
 
 
@@ -46,12 +63,12 @@ Prior beliefs are informative when they modify substantially the information con
 Usually, when we think about the average value that a random variable takes, we have the typical value in mind. Therefore, we hold beliefs about the median of the distribution rather than its mean. This distinction does not matter in the case of symmetric distributions, since then the mean and the median coincide. However, when the distribution we selected is not symmetric, care must be taken to ensure that the prior parameter values reflect our beliefs. Formulating beliefs about the spread of the distribution is less intuitive. The easiest way to do so is to ask ourselves questions such as, for instance: Which value of the random variable do a quarter of the observations fall below/above? Denoting the random variable by  $X$ , the answers to these questions give us the following probability statements:
 
 $$
-P (X <   x_{0. 2 5}) = 0. 2 5
+$P(X < x_{0.25}) = 0.25$
 $$ and
 
 
 $$
-P (X > x_{0. 7 5}) = 0. 2 5
+$P(X > x_{0.75}) = 0.25$
 $$ where  $x_{0.25}$  and  $x_{0.75}$  are the values we have subjectively determined and are referred to as the first and third quartiles of the distribution, respectively. Other similar probability statements
 
 
@@ -60,7 +77,7 @@ can be formulated, depending on the prior beliefs.
 As an example, suppose that we model the behavior of the monthly returns on some financial asset and the normal distribution,  $\mathrm{N}(\mu ,\sigma^2)$  (along with the assumption that the returns are independently and identically distributed), describes their dynamics well. Assume for now that the variance is known,  $\sigma^2 = \sigma^{2*}$ , and thus we only need to specify a prior distribution for the unknown mean parameter,  $\mu$ . We believe that a symmetric distribution is an appropriate choice and go for the simplicity of a normal prior:
 
 $$
-\mu \sim \mathrm{N} (\eta , \tau^{2}) \tag {2}
+\mu \sim \mathrm{N} (\eta , \tau^{2}) \tag{2}
 $$ where  $\eta$  is the prior mean and  $\tau^2$  is the prior variance of  $\mu$ ; to fully specify  $\mu$ 's prior, we need to (subjectively) determine their values. We believe that the typical monthly return is around  $1\%$ , suggesting that the median of  $\mu$ 's distribution is  $1\%$ . Therefore, we set  $\eta$  to  $1\%$ . Further, suppose we (subjectively) estimate that there is about a  $25\%$  chance that the average monthly return is less than  $0.5\%$  (i.e.,  $\mu_{0.25} = 0.5\%$ ). Then, using the tabulated cumulative probability values of the standard normal distribution, we find that the implied variance,  $\tau^2$ , is approximately equal to  $0.74^2$ . Our choice for the prior distribution of  $\mu$  is thus  $\pi(\mu) = \mathrm{N}(1, 0.74^2)$ .
 
 
@@ -72,7 +89,7 @@ Most often, the noninformative prior is chosen to be either a uniform (flat) den
 
 
 $$
-\pi (\mu) \propto 1 \tag {3}
+\pi (\mu) \propto 1 \tag{3}
 $$
 
 The noninformative distribution for a scale parameter,  $\sigma$  (defined on the interval  $(0,\infty)$ ) is
@@ -295,24 +312,24 @@ Let us denote the return data by the  $n \times 1$  vector  $\boldsymbol{r} = (r
 $n = 12$ . We assume that the sampling (data) distribution is normal,  $R \sim \mathrm{N}(\mu, \sigma^2)$ . Combining the normal likelihood and the noninformative improper prior, we obtain for the posterior distribution of  $\mu$
 
 $$
-\begin{array}{l} p (\mu \mid r, \sigma^{2} = 1) \propto (2 \pi)^{- n / 2} \exp \left(- \frac{\sum_{i = 1}^{n} \left(r_{i} - \mu\right)^{2}}{2}\right) \\ \propto \exp \left(- \frac{n (\mu - \hat {\mu})^{2}}{2}\right) \tag {21} \\ \end{array}
+\begin{array}{l} p (\mu \mid r, \sigma^{2} = 1) \propto (2 \pi)^{- n / 2} \exp \left(- \frac{\sum_{i = 1}^{n} \left(r_{i} - \mu\right)^{2}}{2}\right) \\ \propto \exp \left(- \frac{n (\mu - \hat {\mu})^{2}}{2}\right) \tag{21} \\ \end{array}
 $$ where  $\hat{\mu}$  is the sample mean as given in (8). Therefore, the posterior of  $\mu$  is a normal distribution with mean  $\hat{\mu}$  and variance  $1 / n$ . As expected, the data completely determine the posterior distributions for both data samples, since we assumed prior ignorance about  $\mu$ .
 
 
 When a normal prior for  $\mu$ ,  $\mathrm{N}(\eta, \tau^2)$ , is asserted, the posterior can be shown to be normal as well. In the generic case, for an arbitrary data variance  $\sigma^2$ , we have
 
 $$
-\begin{array}{l} p (\mu \mid r, \sigma^{2}) = (2 \pi \sigma^{2})^{- n / 2} \exp \left(- \frac{\sum_{i = 1}^{n} (r_{i} - \mu)^{2}}{\sigma^{2}}\right) \\ \times (2 \pi \tau^{2})^{- 1 / 2} \exp \left(- \frac{(\mu - \eta)^{2}}{2 \tau^{2}}\right) \\ \propto \exp \left(- \frac{\left(\mu - \mu^{*}\right)^{2}}{2 \tau^{2 *}}\right) \tag {22} \\ \end{array}
+\begin{array}{l} p (\mu \mid r, \sigma^{2}) = (2 \pi \sigma^{2})^{- n / 2} \exp \left(- \frac{\sum_{i = 1}^{n} (r_{i} - \mu)^{2}}{\sigma^{2}}\right) \\ \times (2 \pi \tau^{2})^{- 1 / 2} \exp \left(- \frac{(\mu - \eta)^{2}}{2 \tau^{2}}\right) \\ \propto \exp \left(- \frac{\left(\mu - \mu^{*}\right)^{2}}{2 \tau^{2 *}}\right) \tag{22} \\ \end{array}
 $$ where the posterior mean,  $\mu^{*}$  , is
 
 
 $$
-\mu^{*} = \hat {\mu} \frac{\frac{n}{\sigma^{2}}}{\frac{n}{\sigma^{2}} + \frac{1}{\tau^{2}}} + \eta \frac{\frac{1}{\tau^{2}}}{\frac{n}{\sigma^{2}} + \frac{1}{\tau^{2}}} \tag {23}
+\mu^{*} = \hat {\mu} \frac{\frac{n}{\sigma^{2}}}{\frac{n}{\sigma^{2}} + \frac{1}{\tau^{2}}} + \eta \frac{\frac{1}{\tau^{2}}}{\frac{n}{\sigma^{2}} + \frac{1}{\tau^{2}}} \tag{23}
 $$ and the posterior variance,  $\tau^{2*}$ , is
 
 
 $$
-\tau^{2^{*}} = \frac{1}{\frac{n}{\sigma^{2}} + \frac{1}{\tau^{2}}} \tag {24}
+\tau^{2^{*}} = \frac{1}{\frac{n}{\sigma^{2}} + \frac{1}{\tau^{2}}} \tag{24}
 $$
 
 Notice that the posterior mean is a weighted average of the sample mean,  $\hat{\mu}$ , and the prior mean,  $\eta$ . The quantities  $1 / \sigma^2$  and  $1 / \tau^2$  have self-explanatory names: data precision and prior precision, respectively. The higher the precision, the more concentrated the distribution around its mean value.[22] Let us see how the information trade-off between the data and the prior is reflected in the values of the posterior parameters.
@@ -324,7 +341,7 @@ In the case of the noninformative, proper prior,  $\tau = 10^6$ . The rightmost 
 
 Consider how the posterior is affected when informativeness of the prior is increased, as in the third prior scenario. Figure 1 helps visualize the posterior trade-off for the long and short data samples, respectively. The smaller the amount of observed data, the larger the influence of the prior on the posterior (the "closer" the posterior to the prior).
 
-# KEY POINTS
+# Key Points
 
 - The degree of posterior information trade-off has two determinants: strength of the prior information and amount of historical data available.
 - Informative prior beliefs can modify substantially the information content of the observed data.

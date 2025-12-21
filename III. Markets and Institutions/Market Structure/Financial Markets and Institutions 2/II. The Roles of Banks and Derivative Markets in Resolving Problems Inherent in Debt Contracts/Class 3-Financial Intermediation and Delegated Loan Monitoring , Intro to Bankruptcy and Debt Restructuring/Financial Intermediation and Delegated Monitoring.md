@@ -86,7 +86,7 @@ It might appear that the assumption that  $y = 0$  is a possible outcome of the 
 The optimal contract maximizes the risk neutral entrepreneur's expected return, given a minimum expected return to lenders of  $R$ . Let the function  $\phi$ , from the non-negative reals to the non-negative reals, be the non-pecuniary penalty function, which depends on  $z$ , the payment to lenders selected by the entrepreneur. Assume that if the entrepreneur is indifferent between several values of  $z$ , he chooses the one preferred by the lender. The optimal contract with penalties  $\phi^{*}(\cdot) \geq 0$  solves<sup>1</sup>
 
 $$
-\max_{\phi (\cdot)} E_{\tilde {y}} \left[ \max_{z \in [ 0, \tilde {y} ]} \tilde {y} - z - \phi (z) \right] \tag {1a}
+\max_{\phi(\cdot)} E_{\tilde {y}} \left[ \max_{z \in [ 0, \tilde {y} ]} \tilde {y} - z - \phi (z) \right] \tag {1a}
 $$
 
 Subject to  $z\in \arg \max_{z\in [0,y]}y - z - \phi (z)$  (1b)

@@ -51,14 +51,14 @@ For the remainder of this entry, we will use the following notation:
 
 - $S_{t}$: value of underlying variable (price, interest rate, index level, etc.) at time $t$.
 - $S_{t + 1}$: value of underlying variable (price, interest rate, etc.) at time $t + 1$.
--  $\omega_{t}$ : a random error term observed at time  $t$ . (For the applications in this entry, it will follow a normal distribution with mean equal to 0 and standard deviation equal to  $\sigma$ .)
--  $\varepsilon_{t}$ : a realization of a normal random variable with mean equal to 0 and standard deviation equal to 1 at time  $t$ .
+- $\omega_{t}$: a random error term observed at time $t$. (For the applications in this entry, it will follow a normal distribution with mean equal to 0 and standard deviation equal to $\sigma$.)
+- $\varepsilon_{t}$: a realization of a normal random variable with mean equal to 0 and standard deviation equal to 1 at time $t$.
 
 # BINOMIAL TREES
 
-Binomial trees (also called binomial lattices) provide a natural way to model the dynamics of a random process over time. The initial value of the security  $S_0$  (at time 0) is known. The length of a time period,  $\Delta t$ , is specified before the tree is built. (The symbol  $\Delta$  is often used to denote difference. The notation  $\Delta t$  therefore means time difference, i.e., length of one time period.)
+Binomial trees (also called binomial lattices) provide a natural way to model the dynamics of a random process over time. The initial value of the security $S_0$ (at time 0) is known. The length of a time period, $\Delta t$, is specified before the tree is built. (The symbol $\Delta$ is often used to denote difference. The notation $\Delta t$ therefore means time difference, i.e., length of one time period.)
 
-The binomial tree model assumes that at the next time period, only two values are possible for the price, that is, the price may go up with probability  $p$  or down with probability  $(1 - p)$ . Usually, these values are represented as multiples of the price at the beginning of the period. The factor  $u$  is used for an up movement, and  $d$  is used for a down movement. For example, the two prices at the end of the first time period are  $u \cdot S_0$  and  $d \cdot S_0$ . If the tree is recombining, there will be three possible prices at the end of the second time period:  $u^2 \cdot S_0$ ,  $u \cdot d \cdot S_0$ , and  $d^2 \cdot S_0$ . Proceeding in a similar manner, we can build the tree in Figure 2.
+The binomial tree model assumes that at the next time period, only two values are possible for the price, that is, the price may go up with probability $p$ or down with probability $(1 - p)$. Usually, these values are represented as multiples of the price at the beginning of the period. The factor $u$ is used for an up movement, and $d$ is used for a down movement. For example, the two prices at the end of the first time period are $u \cdot S_0$ and $d \cdot S_0$. If the tree is recombining, there will be three possible prices at the end of the second time period: $u^2 \cdot S_0$, $u \cdot d \cdot S_0$, and $d^2 \cdot S_0$. Proceeding in a similar manner, we can build the tree in Figure 2.
 
 The binomial tree model may appear simple, because, given a current price, it only allows for two possibilities for the price at each time period. However, if the length of the time period is small, it is possible to represent a wide range of values for the price after only a few steps. To see this, notice that each step in the tree can be thought of as a Bernoulli trial—it is a "success" with probability  $p$  and a "failure" with probability  $(1 - p)$ . (One can think of the Bernoulli random variable as the numerical coding of the outcome of a coin toss, where one outcome is considered a "success" and one outcome is considered a "failure." The Bernoulli random variable takes the value 1 ("success") with probability  $p$  and the value of 0 ("failure") with probability  $1 - p$ . Note that the definition of success and failure here is arbitrary, because
 
@@ -68,7 +68,7 @@ Figure 2 Example of a Binomial Tree
 
 an increase in price is not always desirable, but we define them in this way for the example's sake.)
 
-After  $n$  steps, each particular value for the price will be reached by realizing  $k$  successes and  $(n - k)$  failures, where  $k$  is a number between 0 and  $n$ . The probability of reaching each value for the price after  $n$  steps will be
+After $n$ steps, each particular value for the price will be reached by realizing $k$ successes and $(n - k)$ failures, where $k$ is a number between 0 and $n$. The probability of reaching each value for the price after $n$ steps will be
 
 $$
 P (k \text{su cc es se s}) = \frac{n !}{k ! (n - k) !} p^{k} (1 - p)^{n - k}

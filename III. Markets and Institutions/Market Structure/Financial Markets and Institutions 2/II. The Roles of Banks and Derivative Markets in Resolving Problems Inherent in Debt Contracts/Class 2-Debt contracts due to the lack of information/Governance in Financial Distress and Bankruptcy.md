@@ -1,42 +1,45 @@
 ---
-parent_directory: Class 2-Debt contracts due to the lack of information
-title: "Class 2: Governance in Financial Distress and Bankruptcy"
-tags:
-aliases:
-  - Governance in Financial Distress and Bankruptcy
-parent_folder: Class 2-Debt contracts due to the lack of information
-subfolder:
-key_concepts:
+title: Governance in Financial Distress and Bankruptcy
+parent_directory: Financial Markets and Institutions 2
+formatted: 2025-12-21 08:40:00 AM
+formatter_model: claude-3-7-sonnet-20250219
+cli_tool: opencode
+primary_tags:
+  - financial distress governance
+  - bankruptcy law economics
+  - creditor control rights
+  - shareholder creditor conflicts
+  - chapter 11 reorganizations
+secondary_tags:
+  - distressed firm management
+  - board fiduciary duties
+  - senior lender influence
+  - junior creditor activism
+  - bankruptcy venue choice
+  - judicial decision making
+  - absolute priority deviations
+  - debtor possession financing
 cssclasses: academia
 ---
 
 # Governance in Financial Distress and Bankruptcy
 
-# Kenneth M. Ayotte
-
-Northwestern University School of Law
-
-357 E. Chicago Ave, Chicago IL 60611
-
+**Kenneth M. Ayotte**  
+Northwestern University School of Law  
+357 E. Chicago Ave, Chicago IL 60611  
 k-ayotte@law.northwestern.edu
 
-# Edith S. Hotchkiss
-
-Boston College
-
-Fulton Hall Room 330, Chestnut Hill MA 02467
-
+**Edith S. Hotchkiss**  
+Boston College  
+Fulton Hall Room 330, Chestnut Hill MA 02467  
 hotchkis@bc.edu
 
-# Karin S. Thorburn
-
-Norwegian School of Economics
-
-Helleveien 30, 5045 Bergen, Norway
-
+**Karin S. Thorburn**  
+Norwegian School of Economics  
+Helleveien 30, 5045 Bergen, Norway  
 karin.thorburn@nhh.no
 
-# Abstract
+## Abstract
 
 This chapter provides a survey of law, economics, and finance scholarship at the intersection of corporate governance and financial distress. In financial distress, both inside and outside of bankruptcy court, formal and informal control rights are paramount. Thus, we organize our review around the major constituencies that exercise control rights in distressed firms: shareholders, managers and boards; senior and junior creditors; and the law, courts and judges. Broadly, our review suggests that an understanding of the incentives of these constituencies is crucial to explaining outcomes. Our review also documents the paradigm shift in the bankruptcy literature, away from the "safe haven" view of Chapter 11 as a slow, manager and shareholder-controlled reorganization process. Chapter 11 case outcomes are increasingly steered by sophisticated activist investors, generating faster resolutions that are more creditor-controlled. We suggest some directions for future research in light of these developments.
 
@@ -49,7 +52,7 @@ Governance of a financially distressed firm is a complicated interplay of formal
 
 In this chapter, we describe the framework that determines when and how control rights are exercised, and the empirical evidence that gives us a description of how the governance of the distressed firm evolves. In the U.S., which is the primary focus of our analysis, Chapter 11 is the end game that influences the behavior of firms even prior to a default. As such, we first provide some brief background on the key provisions of Chapter 11 that are important to our understanding of the firm's governance. We then examine in turn the role of each of the firm's main constituencies who influence a potential restructuring.
 
-# I. Overview of the Legal Environment
+## I. Overview of the Legal Environment
 
 From a governance perspective, one of the crucial features of a Chapter 11 filing is that the debtor remains in possession; in other words, the debtor's pre-bankruptcy managers can continue to manage the firm through the reorganization process. Allowing management to stay in control is thought to provide continuity and removes a disincentive to delay filing until the last minute.<sup>1</sup> The bankruptcy court can remove management in favor of a trustee, but such appointments are rare in practice and tend to occur only in cases of fraud or extreme mismanagement. Bankruptcy law does not, however, deprive the debtor's board of directors of the power to replace management, and managerial turnover in and around bankruptcy is commonplace.
 
@@ -67,17 +70,15 @@ clear of liens and other obligations, such as product liability claims, that mig
 
 Given the many parties that exercise control rights in distress, we will proceed by analyzing theory and evidence regarding the influence of each of the major constituencies in turn. In Section II, we summarize the relevant literature on shareholders, managers, and boards. Sections III and IV discuss senior and junior creditors, respectively. Section V discusses the role of law, courts, and judges, and concludes with some brief suggestions for future research.
 
-# II. Shareholders, Managers and Boards
+## II. Shareholders, Managers and Boards
 
-# II.a. The role of shareholders
+### II.a. The role of shareholders
 
 As the firm becomes financially distressed, shareholders are increasingly "out of the money," raising two important governance concerns. First, to the extent that equity still has control rights, do equity holders (or management acting on their behalf) take actions to preserve their option-like value, perhaps at the expense of the ultimately recoverable firm value? Second, when does (or should) equity lose its control rights, and what role do equity holders have in a restructuring when that does occur?
 
-# Actions that benefit "out of the money" equity
+#### Actions that benefit "out of the money" equity
 
-A number of theoretical papers warn that the limited liability feature of equity provides incentives for excessive risk taking when the firm is distressed, particularly prior to a bankruptcy filing (these include Aghion, Hart and Moore (1992), White (1996), and Hart (2000)). Paying
-
-dividends to the equity holders of an already highly levered firm could also be viewed as symptomatic of this conflict (Hotchkiss, Smith and Stromberg, 2012).
+A number of theoretical papers warn that the limited liability feature of equity provides incentives for excessive risk taking when the firm is distressed, particularly prior to a bankruptcy filing (these include Aghion, Hart and Moore (1992), White (1996), and Hart (2000)). Paying dividends to the equity holders of an already highly levered firm could also be viewed as symptomatic of this conflict (Hotchkiss, Smith and Stromberg, 2012).
 
 Empirical evidence of this behavior has been elusive, and it may be the case that there are other factors which mitigate these incentives. For example, Eckbo and Thorburn (2003) suggest that the potential for managers to be rehired when a firm exits bankruptcy could limit incentives for risk shifting. They examine a sample of 170 bankruptcies in Sweden (between 1988 and 1991) where, unlike the U.S., the CEO loses control of the firm upon filing, a trustee is appointed, and the firm is auctioned. Income losses to CEOs of bankrupt firms are very large, indicating the personally costly nature of the filing. However, by investing conservatively, the CEO increases the probability that he/she will be rehired by the restructured firm. Other researchers have noted that restrictive loan or bond covenants could also limit risk shifting behavior. Gormley and Matsa (2011) suggest that the agency problem between risk-averse managers and risk-seeking equity holders may explain the relative scarcity of risk-seeking in distress. Consistent with this idea, they find evidence that managers whose firms are exposed to carcinogen liability are more likely to acquire cash-rich firms in unrelated industries to reduce bankruptcy risk.
 
@@ -93,7 +94,7 @@ generate large operating losses, ultimately ending in its liquidation 22 months 
 
 More generally, larger sample evidence on this type of behavior is difficult to produce. In their same study of 31 distressed HLTs, Andrade and Kaplan (1998) find no evidence of risk shifting or asset substitution, which they define as large investments in unusually risky capital expenditures, projects, or acquisitions. Overall, it remains somewhat debatable whether management engages in riskier investment on behalf of equity holders, or whether they act more conservatively as the firm becomes distressed.
 
-# Equity control rights
+#### Equity control rights
 
 Outside Chapter 11, shareholder control is subject to two limitations. The first stems from the shifting fiduciary obligations of the board of directors, since those fiduciary responsibilities expand to include the creditors of the company once the firm is near insolvency (Branch, 2000). The second limitation stems from the rights of creditors if the firm either violates covenants in its debt agreements or defaults on a contractual payment. We discuss each of these in turn in Section II.c. and Section III below.
 
@@ -103,7 +104,7 @@ determine entitlements. The delay inherent in confirming a cramdown plan can giv
 
 Evidence for shareholder bargaining power can be found in the prevalence of deviations from priority toward equity, especially in the early days of the Bankruptcy Code. For example, Eberhart, Moore and Roenfeldt (1990), Franks and Torous (1989), and Betker (1995) find that these deviations are common. Most recently, though, for a sample of 626 bankruptcy reorganizations between 1980 and 2005, Bharath, Panchapegesan and Werner (2010) document a substantial decline in the frequency of deviations from the absolute priority rule (APR). Indeed, in 2000-2005, absolute priority is violated in only  $22\%$  of their sample cases, in contrast to  $75\%$  of cases in the 1980s. They also find that deviations from priority in favor of equity are more likely when management has greater shareholdings, providing greater incentive to act in equity's interest. Each of these empirical studies examines firms that were publicly registered companies prior to their bankruptcy; in private companies where management has a greater or even  $100\%$  stake, management has more incentive to act in behalf of equity interests. At the other extreme, even when management has no economic ties to equity, deviations from absolute priority may reflect the desire to reach a consensual plan outcome more quickly by paying equity holders their "nuisance" value.
 
-# II.b. The role of managers
+### II.b. The role of managers
 
 Since management has the ability to stay in control even as a debtor in possession in Chapter 11, it is important to understand how their incentives, and therefore actions, are likely to be affected by financial distress. Early discussion of the merits of the Chapter 11 system included criticism that the process was too protective of incumbent management, allowing them to retain
 
@@ -117,7 +118,7 @@ dollars), or three times the typical annual compensation. To the extent that fin
 
 Given the complicated interplay of formal and informal control rights in bankruptcy, it remains an open empirical question: whose interests does management actually represent when a firm is distressed? There are reasons to expect management to be aligned with different constituencies depending on the circumstances of the case. When management has a large equity ownership stake prior to default, it has an incentive to preserve that value by pursuing equity's interests in a restructuring. On the other hand, management's loyalties may shift to the group that will control the company subsequent to the reorganization. For example, Gilson, Hotchkiss, and Ruback (2000) argue that sometimes management will form a coalition with senior creditors when it is likely that this group will control the company subsequent to a restructuring. At the other end of the capital structure, new owners that contribute equity to an emerging firm may choose to keep the incumbent management in place (Gilson, Hotchkiss and Ruback, 2000), similar to the behavior documented by Eckbo and Thorburn (2003).
 
-# II.c. The role of the board
+### II.c. The role of the board
 
 In non-distressed settings, much of the discussion of the role of the board in our post-Sarbanes Oxley environment involves whether boards are effective monitors, and how best to populate the board with insider vs. independent members. Much of that discussion becomes to some degree of secondary importance when the firm is distressed. Key questions involving the board become: where do their fiduciary duties lie if the firm is insolvent (and how is insolvency
 
@@ -139,11 +140,11 @@ have shifted, populating the board while the firm is in the midst of a restructu
 
 One source of new board members is investors who aim to have a longer term stake in the restructured company, often gaining control of the restructured firm. This type of active "vulture" investor is studied by Hotchkiss and Mooradian (1997). While some distressed investors aim to passively gain from increases in value of the claims they hold, many become active in governance on the firm's board (while some ultimately gain control of the firm and/or assume management positions). They find that vultures join boards of  $27\%$  of the firms in their sample of 288 firms defaulting on public debt between 1980 and 1993, and retain these positions for at least one year post-restructuring for more than half of their sample.
 
-# III. Senior secured creditors
+## III. Senior secured creditors
 
 While equity holder value maximization is consistent with maximizing the total value of the non-distressed firm, senior creditors may prefer a less risky strategy that preserves the value of their claims. Thus, if senior lenders are in control, they may induce the firm to implement a suboptimal investment and financial policy. On the other hand, if the firm is deeply insolvent, senior creditors may in fact be the residual claimants, and as such promote firm value maximization. Chapter 11 determines the relative bargaining power of the different claimholders. Since voluntary out-of-court workouts are negotiated under the threat of bankruptcy filing, the outcome is substantially influenced by the allocation of control rights in Chapter 11. In this section, we survey studies of senior lender control over the firm in financial distress and bankruptcy.
 
-# III.a. Senior lender control in financial distress
+### III.a. Senior lender control in financial distress
 
 As discussed above, managerial turnover rates increase when the firm performs poorly. Interestingly, a large fraction of these management changes are initiated by senior lenders. In Gilson's (1989) study of 381 public firms that experience large stock price declines in 1979-1984, one-fifth of the management departures are initiated by bank lenders. While creditors do not own equity, they are able to force management changes by threatening shareholders with bankruptcy or to petition to the court to have a trustee appointed.
 
@@ -173,7 +174,7 @@ Gilson (1997) examines leverage changes for 108 firms that file for Chapter 11 o
 
 Overall, the evidence indicates that senior creditors play an active role in corporate governance and the restructuring of distressed firms outside of bankruptcy
 
-# III.b. Senior lender control rights in bankruptcy
+### III.b. Senior lender control rights in bankruptcy
 
 Once a firm files for Chapter 11, pre-bankruptcy secured lenders can no longer enforce the rights triggered by loan covenant violations, due to bankruptcy's automatic stay. Nevertheless, banks and other secured lenders have become more adept in controlling a firm's activity before and during the bankruptcy. Pre-bankruptcy lines of credit can limit the borrower's access to cash to fund operations, putting the lender in control of the timing of a filing. Lenders can take a security interest in a debtor's entire asset base, leaving less free assets available for other potential lenders and hence, limiting a borrower's liquidity. Once in bankruptcy, debtor-in-possession loans also increasingly dictate the outcomes of bankruptcy cases in direct and indirect ways. These important trends were first brought to light in the law literature (Skeel 2003, 2004; Baird and Rasmussen 2002, 2006; Warren and Westbrook 2003). The evidence in this early literature is largely anecdotal, documenting these trends through a small number of high-profile examples.
 
@@ -199,7 +200,7 @@ It appears that bank lenders also could play an important role when firms are au
 
 Woo (2011) argues that banks recently are driven by financial regulations and regulatory policy to push their bankrupt borrowers to sell assets rather than reorganize under Chapter 11. Specifically, rules related to concentration risk and capital adequacy make it costly for banks to take new debt and equity claims in the restructured firm. For a sample of 285 US construction and development loans in 11/2007-12/2008, Woo finds that banks with a higher loan concentration as more likely to obtain relief from the automatic stay to pursue foreclosure. To the extent the assets are sold at fire-sales prices, this could lead to a suboptimal allocation of corporate assets.
 
-# IV. Junior creditors
+## IV. Junior creditors
 
 Junior and senior creditors may have conflicting interests in bankruptcy. Since the distribution of claims under the reorganization plan is closely tied to the value of the firm, this conflict primarily involves the valuation of the firm. Junior unsecured claims are generally widely held and therefore often suffer from a coordination problem. However, these claims as well as senior debt claims are commonly acquired and consolidated by hedge funds and other distressed investors, who become major players in the restructuring of the distressed firm.
 
@@ -219,7 +220,7 @@ The valuation of the bankrupt firm plays an integral role for the distribution o
 
 Lemmon, Ma and Tashjian (2009) examine the impact of labor unions on the restructuring of the distressed firm. For a sample of 505 firms filing for Chapter 11 in 1991-2004, they show that Chapter 11 is effective in reorganizing the capital structure of financially distressed firms, allowing them to emerge, while redeploying the assets of economically distressed firms into other uses. Among the firms that successfully reorganize, firms that are unionized reduce their work force by 9 percent less than nonunionized firms, controlling for other factors. With an average employment reduction of 25 percent in their sample, this difference is meaningful, suggesting that labor unions maintain substantial bargaining power in Chapter 11 and influence the restructuring outcome.
 
-# V. Law, Courts, and Judges
+## V. Law, Courts, and Judges
 
 Though the various economic stakeholders analyzed above (shareholders, managers, and creditors) largely control the firm in distress, these control rights are limited in important ways by formal law and courts. The empirical evidence documented above suggests that the bankruptcy process has become faster and more creditor-controlled. Instead of the traditional reorganization—a restructuring of the claims of the going-concern within its existing corporate shell--a majority of Chapter 11 cases are going-concern sales or piece-meal liquidation sales (Ayotte and Morrison 2009). Some have suggested that in this new environment, bankruptcy judges have become no more than de-facto auctioneers (Buccola and Keller 2010), while others have proclaimed these developments as the end of bankruptcy (Baird and Rasmussen 2002).
 
@@ -227,7 +228,7 @@ Notwithstanding these important developments that would seem to de-emphasize the
 
 The financial crisis brought about a new set of questions from a policy perspective involving the interaction of governance and financial distress. The Chapter 11 filing of Lehman Brothers in September 2008 raised important questions about the suitability of bankruptcy law for resolving distress in a systemically important financial firm. The Chrysler and General Motors cases have raised issues of government control and priority in "managed" bankruptcies, and exposed controversies regarding the "363 sale" as a substitute for traditional reorganization.
 
-# V.a. Venue and Chapter Choice
+### V.a. Venue and Chapter Choice
 
 A debtor filing for bankruptcy in the U.S. typically has a choice of several venues in which to file its bankruptcy petition, which include the district of the debtor's principal place of business, and the district that includes the company's state of incorporation.<sup>8</sup> This menu of options has led to patterns whereby one venue becomes the preferred "forum of choice" for debtors that seek to file outside their home district. In the 1980's, the Southern District of New York (SDNY) was the preferred forum of choice, but Delaware became the dominant forum in the 1990s. In the last decade, Delaware and SDNY have shared prominence. Scholars have tried to determine the reasons why companies choose certain venues and the consequences of these choices; i.e. whether venue choice produces a "race to the top" or a "race to the bottom".
 
@@ -245,7 +246,7 @@ In addition to choosing venue, debtors (and sometimes, creditors) choose the cha
 
 under which Chapter 7, Chapter 11, and Chapter 13 filings might occur. Bris, Welch and Zhu (2006) take on these challenges and present evidence against the notion that Chapter 11 is a slower, more costly means of reallocating assets than Chapter 7. Controlling for non-random selection into a chapter, they find that asset value is preserved less in Chapter 7, and time spent in bankruptcy is not significantly shorter in Chapter 7 once self-selection into a chapter is taken into account.
 
-# V.b. Judges
+### V.b. Judges
 
 Framing the bankruptcy judge's decision problem as a real option/optimal stopping problem has proven fruitful in the small business bankruptcy context as well. Morrison (2007) analyzes a sample of 95 Chapter 11 filings in the Northern District of Illinois in 1998. The study finds, contrary to received wisdom, that judges generally make quick shutdown decisions of non-viable firms by dismissing cases or converting them to Chapter 7. Over 70 percent of shutdowns occurred within six months of the bankruptcy petition. The time to shutdown, moreover, is positively correlated with proxies for uncertainty about going-concern value, consistent with judicial maximization of the real option.
 
@@ -253,7 +254,7 @@ As noted above in the venue choice literature, establishing causal effects of co
 
 increase the probability of shutdown and weaken post-bankruptcy performance of reorganized firms.
 
-# V.c. The Rise of Section 363 and the Fire Sale Problem
+### V.c. The Rise of Section 363 and the Fire Sale Problem
 
 As noted above, while the substance of the Bankruptcy Code itself has changed little since its inception in 1978, corporate reorganization practice has changed dramatically. The rise of the 363 sale as an alternative to a traditional reorganization, and the willingness of bankruptcy courts to approve them, has been the subject of criticism. LoPucki and Doherty (2007) analyze a sample of 363 sales and traditional reorganizations of the largest public companies in bankruptcy, and find that recovery rates in reorganization cases are substantially higher. They suggest that this is indication of a fire sale bias in 363 sales, and conclude that permissive treatment of 363 sales is driven by the desire of courts to attract bankruptcy cases. LoPucki and Doherty (2007) do not address the endogeneity of the sale/reorganization decision, however, except through pre-bankruptcy controls for performance, such as EBITDA/Assets.
 
@@ -263,7 +264,7 @@ The literature highlights several reasons why fire sale problems may arise. Shle
 
 best use. LoPucki and Doherty (2007) find examples of buyers in 363 sales hiring prebankruptcy managers, and suggest this reflects a conflict of interest. $^{11}$  Ayotte and Skeel (2006) raise the concern that DIP lenders are sometimes asset purchasers in 363 sales. $^{12}$  Ayotte and Morrison (2009) find evidence that quick sales can be driven by secured creditor control, even when lenders are disconnected from buyers. They show that sales are most likely relative to reorganizations when secured creditors are over-secured. Over-secured creditors should have the strongest preference for an immediate sale over a longer reorganization: delay poses a downside risk if firm value declines, and little to no upside since the creditor's recovery is capped at the value of its claim. Finally, as noted above, Woo (2011) provides theory and evidence that regulatory capital requirements based on portfolio concentration risk give secured lenders incentive to prefer liquidation over reorganization, even when the value of the secured creditor's claim is higher under reorganization.
 
-# The Auto Bankruptcies
+#### The Auto Bankruptcies
 
 The controversy over 363 sales reached new heights in the wake of the Chrysler and GM bankruptcies in 2009. Both companies used the 363 sale mechanism to reorganize their capital structures. The Chrysler 363 sale generated the most discussion in the academic literature due to the distribution of value: secured creditors received \(2 billion in cash in exchange for their secured claims, for a recovery of only 29 cents on the dollar. Chrysler (unsecured) employee benefit claimants received debt and stock in the new Chrysler. In this sense, the outcome can be seen as a deviation from priority: some unsecured claims received value, while secured claims were not paid in full.
 
@@ -273,11 +274,11 @@ Though the Chrysler case generated important questions about the proper use of 3
 
 related event days up to and including the date of the bankruptcy filing. But they do not find any relative differences in bond price reactions to any legal events after the filing.
 
-# Suggestions for future research
+#### Suggestions for future research
 
 These recent bankruptcy developments provide many open avenues for future research. The most interesting questions, moreover, can benefit from theory and empirical evidence combined with detailed institutional and legal knowledge. For example, the increasing use of Chapter 11 as an auction mechanism presents interesting theoretical questions. When should courts approve of auctions in lieu of traditional reorganizations, given the prevalence of creditor control and the potential fire sale problem? What incentive effects are created by protections afforded to pre-arranged bidders in the auction, so called "stalking horse" bidders? Empirically, how much variation is observed in auction procedures across cases, and what effects do these variations have on outcomes? Critical vendor payments, credit bidding, and claims trading are all important issues in bankruptcy that give rise to similar questions. Research on these questions can benefit from the expertise of both economists and legal scholars.
 
-# References
+## References
 
 Adler, Barry .E., 2010, "A Reassessment Of Bankruptcy Reorganization After Chrysler and General Motors" American Bankruptcy Institute Law Review, 18, 305.  
 Adler, Barry E., Vedran Capkun, and Lawrence A. Weiss, 2006, "Destruction of value in the new era of Chapter 11," New York University, working paper.  

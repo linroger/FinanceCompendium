@@ -1,4 +1,30 @@
 
+---
+title: "Stochastic Integrals"
+parent_directory: "Stochastic Processes and Tools"
+formatted: "2025-12-21 08:40:00 PM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
+primary_tags:
+  - "stochastic integrals"
+  - "stochastic calculus"
+  - "brownian motion"
+  - "ito calculus"
+  - "stochastic differential equations"
+secondary_tags:
+  - "continuous time finance"
+  - "mathematical finance"
+  - "probability theory"
+  - "stochastic processes"
+  - "financial mathematics"
+  - "ito isometry"
+  - "stratonovich integral"
+  - "filtration theory"
+  - "quadratic variation"
+  - "levy processes"
+cssclasses: academia
+---
+
 # Stochastic Integrals
 
 SERGIO M. FOCARDI, PhD
@@ -11,7 +37,7 @@ Professor of Finance, EDHEC Business School
 
 Abstract: Calculus is an important tool because it provides two key ideas for financial modeling: (1) the concept of instantaneous rate of change, and (2) a framework and rules for linking together quantities and their instantaneous rates of change. Calculus made the concept of infinitely small quantities precise with the notion of limit. If the rate of change can get arbitrarily close to a definite number by making the time interval sufficiently small, that number is the instantaneous rate of change. The instantaneous rate of change is the limit of the rate of change when the length of the interval gets infinitely small. This limit is referred to as the derivative of a function, or simply derivative. Starting from this definition and with the help of a number of rules for computing a derivative, it was shown that the instantaneous rate of change of a number of functions can be explicitly computed as a closed formula. The process of computing a derivative, referred to as differentiation, solves the problem of finding the steepness of the tangent to a curve; the process of integration solves the problem of finding the area below a given curve. A key result of calculus is the discovery that integration and derivation are inverse operations: Integrating the derivative of a function yields the function itself. Standard calculus deals with deterministic functions. As such, there are limits as to the application of integration of determinist functions to financial modeling such as pricing contingent claims. The major application of integration to financial modeling involves stochastic integrals. An understanding of stochastic integrals is needed to understand an important tool in contingent claims valuation: stochastic differential equations.
 
-In elementary calculus, integration is an operation performed on single, deterministic functions; the end product is another single, deterministic function. Integration defines a process of cumulation: The integral of a function represents the area below the function. However, the usefulness of deterministic functions in financial modeling is limited. Given the amount of uncertainty, few laws in finan cial theory can be expressed through them. It is necessary to adopt an ensemble view, where the path of economic variables must be considered a realization of a stochastic process, not a deterministic path. We must therefore move from deterministic integration to stochastic integration. In doing so we have to define how to cumulate random shocks in a continuous-time environment. These concepts require rigorous
+In elementary calculus, integration is an operation performed on single, deterministic functions; the end product is another single, deterministic function. Integration defines a process of cumulation: The integral of a function represents the area below the function. However, the usefulness of deterministic functions in financial modeling is limited. Given the amount of uncertainty, few laws in financial theory can be expressed through them. It is necessary to adopt an ensemble view, where the path of economic variables must be considered a realization of a stochastic process, not a deterministic path. We must therefore move from deterministic integration to stochastic integration. In doing so we have to define how to cumulate random shocks in a continuous-time environment. These concepts require rigorous
 
 
 definition. In this entry, we define the concept and the properties of stochastic integration. Based on the concept of stochastic integration, an important tool used in financial modeling, stochastic differential equations can be understood.
@@ -31,7 +57,7 @@ The solution of this differential equation tells us how the bank account cumulat
 However, if the rate is not deterministic but is subject to volatility—that is, at any instant the rate is  $f(t)$  plus a random disturbance—then the bank account evolves as a stochastic process. That is to say, the bank account might follow any of an infinite number of different paths: Each path cumulates the rate  $f(t)$  plus the random disturbance. In a sense that will be made precise in this entry and with an understanding of stochastic differential equations, we must solve the following equation:
 
 $$
-\frac{d y}{y} = f (t) d t \text{pl us ra nd om di st ru ba nc e}
+\frac{d y}{y} = f (t) d t \text{plus random disturbance}
 $$
 
 Here is where stochastic integration comes into play: It defines how the stochastic rate process is transformed into the stochastic account process. This is the direct stochastic integration approach.
@@ -42,7 +68,7 @@ Similar reasoning applies to stock and derivative price processes. In continuous
 
 Following some remarks on the informal intuition behind stochastic integrals, we proceed to define Brownian motions and outlines the formal mathematical process through which stochastic integrals are defined. A number of properties of stochastic integrals are then established. After introducing stochastic integrals informally, we go on to define more rigorously the mathematical process for defining stochastic integrals.
 
-# THE INTUITION BEHIND STOCHASTIC INTEGRALS
+## THE INTUITION BEHIND STOCHASTIC INTEGRALS
 
 Let's first contrast ordinary integration with stochastic integration. A definite integral
 
@@ -179,7 +205,7 @@ Whose definition—Ito's or Stratonovich's—is preferable? Note that neither ca
 
 We have just outlined the definition of stochastic integrals leaving aside mathematical details and rigor. The following two sections will make the above process mathematically rigorous and will discuss the question of anticipation of information. While these sections are a bit technical and might be skipped by those not interested in the mathematical details of stochastic calculus, they explain a number of concepts that are key to the modern development of finance theory.
 
-# BROWNIAN MOTION DEFINED
+## BROWNIAN MOTION DEFINED
 
 The previous section introduced Brownian motion informally as the limit of a simple random walk when the step size goes to zero. This section defines Brownian motion formally. The term "Brownian motion" is due to the Scottish botanist Robert Brown who in 1828 observed that pollen grains suspended in a liquid move irregularly. This irregular motion was later explained by the random collision of the molecules of the liquid with the pollen grains. It is therefore natural to represent Brownian motion as a continuous-time stochastic process that is the limit of a discrete random walk.
 
@@ -187,7 +213,7 @@ Let's now formally define Brownian motion and demonstrate its existence. Let's f
 
 In this probabilistic representation of the economy, time-variable economic quantities—such as interest rates, security prices or cash flows as well as aggregate quantities such as economic output—are represented as stochastic processes  $X_{t}(\omega)$ . In particular, the price and dividend of each stock are represented as two stochastic processes  $S_{t}(\omega)$  and  $d_{t}(\omega)$ .
 
-Stochastic processes are time-dependent random variables defined over the set  $\Omega$ . It is critical to define stochastic processes so that there is no anticipation of information, that is, at time  $t$  no process depends on variables that will be realized later. Anticipation of information is possible only within a deterministic framework. However the space  $\Omega$  in itself does not contain any coherent specification of time. If we asso ciate random variables  $X_{t}(\omega)$  to a time index without any additional restriction, we might incur the problem of anticipation of information. Consider, for instance, an arbitrary family of time-indexed random variables  $X_{t}(\omega)$  and suppose that, for some instant  $t$ , the relationship  $X_{t}(\omega) = X_{t + 1}(\omega)$  holds. In this case there is clearly anticipation of information as the value of the variable  $X_{t + 1}(\omega)$  at time  $t + 1$  is known at an earlier time  $t$ . All relationships that lead to anticipation of information must be treated as deterministic.
+Stochastic processes are time-dependent random variables defined over the set  $\Omega$ . It is critical to define stochastic processes so that there is no anticipation of information, that is, at time  $t$  no process depends on variables that will be realized later. Anticipation of information is possible only within a deterministic framework. However the space  $\Omega$  in itself does not contain any coherent specification of time. If we associate random variables  $X_{t}(\omega)$  to a time index without any additional restriction, we might incur the problem of anticipation of information. Consider, for instance, an arbitrary family of time-indexed random variables  $X_{t}(\omega)$  and suppose that, for some instant  $t$ , the relationship  $X_{t}(\omega) = X_{t + 1}(\omega)$  holds. In this case there is clearly anticipation of information as the value of the variable  $X_{t + 1}(\omega)$  at time  $t + 1$  is known at an earlier time  $t$ . All relationships that lead to anticipation of information must be treated as deterministic.
 
 
 The formal way to specify in full generality the evolution of time and the propagation of information without anticipation is through the concept of filtration. The concept of filtration is based on identifying all events that are known at any given instant. It is the propagation of information assuming that it is possible to associate to each moment  $t$  a  $\sigma$ -algebra of events  $\mathfrak{I}_t \subset \mathfrak{I}$  formed by all events that are known prior to or at time  $t$ . It is assumed that events are never "forgotten," that is, that  $\mathfrak{I}_t \subset \mathfrak{I}_s$ , if  $t < s$ . An increasing sequence of  $\sigma$ -algebras, each associated to the time at which all its events are known, represents the propagation of information. This sequence (called a filtration) is typically indicated as  $\mathfrak{I}_t$ .
@@ -207,7 +233,7 @@ $B_0(\omega) = 0$
 -  $\mathrm{B}_t(\omega)$  is adapted to the filtration  $\mathfrak{J}_t$ .
 - The increments  $B_{t}(\omega) - B_{s}(\omega)$  are independent and normally distributed with variance  $(t - s)$  and zero mean.
 
-The above conditions state that the standard Brownian motion is a stochastic process that starts at zero, has continuous paths and normally distributed increments whose variance grows linearly with time. Note that in the last condition the increments are independent of the  $\sigma$ -algebra  $\mathfrak{S}_S$  and not of the previous values of the process. As noted above, this is because any single realization of the process has probability zero and it is therefore impossible to use the standard concept of conditional proba bility: Conditioning must be with respect to a  $\sigma$ -algebra  $\mathfrak{I}_S$ . Once this concept has been firmly established, one might speak loosely of independence of the present values of a process from its previous values. It should be clear, however, that what is meant is independence with respect to a  $\sigma$ -algebra  $\mathfrak{I}_S$ .
+The above conditions state that the standard Brownian motion is a stochastic process that starts at zero, has continuous paths and normally distributed increments whose variance grows linearly with time. Note that in the last condition the increments are independent of the  $\sigma$ -algebra  $\mathfrak{S}_S$  and not of the previous values of the process. As noted above, this is because any single realization of the process has probability zero and it is therefore impossible to use the standard concept of conditional probability: Conditioning must be with respect to a  $\sigma$ -algebra  $\mathfrak{I}_S$ . Once this concept has been firmly established, one might speak loosely of independence of the present values of a process from its previous values. It should be clear, however, that what is meant is independence with respect to a  $\sigma$ -algebra  $\mathfrak{I}_S$ .
 
 
 Note also that the filtration  $\mathfrak{S}_t$  is an integral part of the above definition of the Brownian motion. This does not mean that, given any probability space and any filtration, a standard Brownian motion with these characteristics exists. For instance, the filtration generated by a discrete-time continuous-state random walk is insufficient to support a Brownian motion. The definition states only that we call a one-dimensional standard Brownian motion a mathematical object (if it exists) made up of a probability space, a filtration, and a time dependent random variable with the properties specified in the definition.
@@ -274,7 +300,7 @@ $$
 Figure 1 illustrates 100 realizations of a Brownian motion approximated as a random walk. The exhibit clearly illustrates that the standard deviation grows with the square root of the time as the variance grows linearly with time. In fact, as illustrated, most paths remain confined within a parabolic region.
 
 
-# PROPERTIES OF BROWNIAN MOTION
+## PROPERTIES OF BROWNIAN MOTION
 
 The paths of a Brownian motion are rich structures with a number of surprising properties. It can be demonstrated that the paths of a canonical Brownian motion, though continuous, are nowhere differentiable. It can also be demonstrated that they are fractals of fractal dimension  $3/2$ . The fractal dimension is a concept that measures quantitatively how a geometric object occupies space. A straight line has fractal dimension one, a plane has fractal dimension two, and so on. Fractal objects might also have intermediate dimensions. This is the case, for example, of the path of a Brownian motion, which is so jagged that, in a sense, it occupies more space than a straight line.
 
@@ -294,7 +320,7 @@ Let's consider a one-dimensional standard Brownian motion. If we wait a sufficie
 The distribution of the time to the first passage through zero of a Brownian motion is not Gaussian. In fact, the probability of a very long waiting time before the first return to zero is much higher than in a normal distribution. It is a fat-tailed distribution in the sense that it has more weight in the tail regions than a normal distribution. The distribution of the time to the first passage through zero of a Brownian motion is an example of how fat-tailed distributions can be generated from Gaussian variables.
 
 
-# STOCHASTIC INTEGRALS DEFINED
+## STOCHASTIC INTEGRALS DEFINED
 
 Let's now go back to the definition of stochastic integrals, starting with one-dimensional stochastic integrals. Suppose that a probability space  $(\Omega, \mathfrak{I}, P)$  equipped with a filtration  $\mathfrak{I}_t$  is given. Suppose also that a Brownian motion  $B_t(\omega)$  adapted to the filtration  $\mathfrak{I}_t$  is given. We will define Ito integrals following the three-step procedure outlined earlier in this entry. We have just completed the first step defining Brownian motion. The second step consists in defining the Ito integral for elementary functions.
 
@@ -406,7 +432,7 @@ $$
 E \left[ \left(\int_{S}^{T} f (t, \omega) d B_{t} (\omega)\right)^{2} \right] = E \left[ \int_{S}^{T} f (t, \omega)^{2} d t \right]
 $$
 
-# SOME PROPERTIES OF ITO STOCHASTIC INTEGRALS
+## SOME PROPERTIES OF ITO STOCHASTIC INTEGRALS
 
 Suppose that  $f, g \in \Phi(S, T)$  and let  $0 < S < U < T$ . It can be demonstrated that the following properties of Ito stochastic integrals hold:
 
@@ -446,7 +472,7 @@ $$
 
 The last two properties show that, after performing stochastic integration, deterministic terms might appear.
 
-# KEY POINTS
+## KEY POINTS
 
 - Stochastic integration provides a coherent way to represent that instantaneous uncer tainty (or volatility) cumulates over time. It is thus fundamental to the representation of financial processes such as interest rates, security prices, or cash flows as well as aggregate quantities such as economic output.
 
@@ -458,13 +484,13 @@ The last two properties show that, after performing stochastic integration, dete
 - Step 2 consists in defining stochastic integrals for elementary functions as the sums of the products of the elementary functions multiplied by the increments of the Brownian motion.
 - Step 3 extends this definition to any function through approximating sequences.
 
-# NOTES
+## NOTES
 
 1. The publications of Stratonovich can be found in Romanovski (2007).
 2. A history of stochastic integrations and financial mathematics is provided by Jarrow and Protter (2004). For a more detailed discussion of stochastic integration, see Protter (1990).
 3. The set of conditions defining a Brownian motion can be more parsimonious. If a process has stationary, independent increments and continuous paths a.s. it must have normally distributed increments. A process with stationary independent increments and with paths that are continuous to the right and limited to the left (the cadlag functions) is called a Levy process.
 
-# REFERENCES
+## REFERENCES
 
 Ito, K. (1951). On stochastic differential equations. Memoirs, American Mathematical Society 4: 1-51.
 Jarrow, R., and Protter, P. (2004). A short history of stochastic integration and mathematical finance: The early years, 1880-1970. IMS Lecture Notes Monograph 45: 1-17.

@@ -1,34 +1,24 @@
 ---
-aliases:
-- Monetary Policy 3 and Modern Monetary Theory
-tags: null
-key_concepts: null
-parent_directory: II. Economics/Cycles and Crises/Bridgewater Associates
-cssclasses: academia
-title: It's Time to Look More Carefully at "Monetary Policy 3 (MP3)" and "Modern Monetary
-  Theory (MMT)"
-linter-yaml-title-alias: It's Time to Look More Carefully at "Monetary Policy 3 (MP3)"
-  and "Modern Monetary Theory (MMT)"
+title: "It's Time to Look More Carefully at 'Monetary Policy 3 (MP3)' and 'Modern Monetary Theory (MMT)'"
+parent_directory: "II. Economics/Cycles and Crises/Bridgewater Associates"
+formatted: 2025-12-21 08:45:00 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: claude-code
 primary_tags:
-- quantitative easing ineffective achieving
-- world globalized 1930s debt
-- look carefully monetary policy
-- modern monetary theory mmt
-- fiscal policy work differently
+  - monetary policy 3
+  - modern monetary theory
+  - fiscal monetary coordination
+  - quantitative easing limits
+  - debt monetization
 secondary_tags:
-- monetary policy mp3 study
-- monetary policy new type
-- economics especially monetary fiscal
-- differently future focus monetary
-- countries example japan 1930s
-- freeing monetary policy
-- japan depression began
-- policy create money
-- debt problems expensive currency
-- policy deficits monetized contemporary
-- collapse currency eventually led
-- fed action 1930s smaller
-tags_extracted: '2025-12-18T00:03:52.556916'
+  - economic stimulation
+  - central bank independence
+  - inflation targeting
+  - reserve currency countries
+  - automatic stabilizers
+  - wealth tax proposals
+  - guaranteed jobs program
+cssclasses: academia
 ---
 
 # It's Time to Look More Carefully at "Monetary Policy 3 (MP3)" and "Modern Monetary Theory (MMT)"
@@ -118,7 +108,7 @@ So far, negative rates haven't flowed through to households much. Central banks 
 
 Central banks could be given control over changing income tax rates or sales tax rates, perhaps within a band. They could then use it as an additional countercyclical lever to manage the economy, lowering taxes in recessions (pairing it with money printing) and raising taxes in good times.
 
-$\mathrm{O}$  Printing money and doing direct cash transfers to households (i.e., helicopter money). When we refer to helicopter money, we mean directing money into the hands of spenders of money to get them to spend (e.g., US veterans' bonus during the Great Depression, Imperial China).
+- Printing money and doing direct cash transfers to households (i.e., helicopter money). When we refer to helicopter money, we mean directing money into the hands of spenders of money to get them to spend (e.g., US veterans' bonus during the Great Depression, Imperial China).
 
 - How that money is directed could take different forms—the basic variants are a) to either direct the same amounts to everyone or to aim for some degree of helping one or more groups over others (e.g., to the poorer more than to the rich), and b) to provide this money either as one-offs or over time (perhaps as a universal basic income). These variants could be paired with an incentive to spend it—like the money disappearing if not spent within a year.  
 - The money could be directed to specific investment accounts (like retirement, education, or accounts earmarked for small business investments) to target it toward socially desirable spending/investment.  

@@ -1,5 +1,5 @@
 ---
-title: "Class Note 1: Borrower-Lender Conflicts and Debt Contracts"
+title: Class Note 1 Borrower-Lender Conflicts and Debt Contracts
 parent_directory: Financial Markets and Institutions 2
 formatted: 2025-12-21 08:35:00 AM
 formatter_model: claude-3-7-sonnet-20250219
@@ -553,7 +553,7 @@ We considered three types of contracting arrangements:
 
 Diversification within the intermediary works to make option 3 work by reducing the liquidation cost of providing the bank an incentive to repay small investors. To simplify, we use an example where the diversification from a bank making only two loans was sufficient to give the bank reduced delegation costs. However, it is more generally true that diversification allows financial intermediation to provide low cost delegated monitoring. The law of large numbers implies that if the bank gets sufficiently diversified across independent loans with expected repayments in excess of the face value of bank deposits, then the chance that it defaults on its deposits gets arbitrarily close to zero. In the limit of a perfectly diversified bank, the bank would never default and would face no liquidation costs. In addition, the control rent needed to provide incentives to monitor approaches zero. The delegation cost for the bank approaches zero, and the only cost of intermediation is the (unavoidable) cost of monitoring. Competitive and fully-diversified intermediation would drive borrowers' expected cost of capital down to  $5.02\%$ . In the limit of perfect diversification, the face value of bank debt approaches F= 1.06275 which is the solution to .8F + .2(1)= 1.0502; it gives the bank a  $5\%$  expected return after covering the 0.0002 (\$200) cost of monitoring. This is too strong because in practice the default risk of borrowers is not independent, but is positively correlated, and because the number of loans in the bank's portfolio is limited.
 
-# Mathematical Appendix: The General Case for monitoring versus not monitoring.
+### Mathematical Appendix: The General Case for monitoring versus not monitoring
 
 If you don't like math, don't read this. It is not required. Some students like to see more generally what is making things work. This year I have yielded to these requests. Do not memorize these as formulae-- they will rot your brain.
 
@@ -999,7 +999,7 @@ provide incentives to monitor approaches zero. The delegation cost for the bank 
 
 The general message is that diversification allows banks to transform monitored debt into unmonitored debt, delegating the monitoring to bankers. The banks' organizational form minimizes the sum of monitoring and financial distress costs.
 
-# Policy Implications
+## Policy Implications
 
 There are important implications of this view of intermediaries. Because there are costs of bank failure, and there are incentive benefits from the bank receiving the profit derived from its monitoring, banks can increase their value by hedging or avoiding risks that they cannot control or reduce via monitoring. For example, monitoring can do nothing to influence the level of riskless interest rates. Thus, there is no incentive reason for the bank to bear general interest rate risk. The bank's high leverage means that a small loss might force a costly default. Hedging of interest rate risk is desirable, through futures markets or interest rate swaps, because it can remove risks that have no incentive value to bank managers. Banks rely on diversification to eliminate the risks of being very highly levered. Unless a risk is intimately related to their monitoring task, banks should avoid risks that are not diversifiable unless the bank can remove the risk from its balance sheet through another (swap or futures) transaction.
 
@@ -1007,11 +1007,11 @@ Diversification makes bank deposits much safer than bank loans, and in the limit
 
 is large enough to have several competing, well-diversified intermediaries, the increased diversification from geographical deregulation may reduce managerial moral hazard and help eliminate the need for high future bank profits (high charter value) to provide good incentives to bankers. If this is correct, banks and similar financial intermediaries will be more stable in the future than in recent experience in the United States.
 
-# 4. CONCLUSIONS
+## 4. CONCLUSIONS
 
 The purpose of this article is to clarify the roles of debt and diversification in the financial engineering that is banking. Debt has several roles related to financial intermediation. The right to liquidate on default provides any outside lender with power over the borrower, inducing the borrower to repay the debt. This power is limited by the borrower's right to repay the debt in full and remove the lender's liquidation rights. However, liquidation is potentially inefficient. If the lender cannot monitor the borrower's business, then the lender should liquidate whenever there is a default, no matter what the cause. If the lender can monitor the situation, then the ability to selectively remove the threat to liquidate in return for a concession from the borrower can provide power over the borrower without using inefficient liquidation. Financial intermediaries such as banks can centralize costly monitoring and avoid the duplication of effort of the monitoring of borrowers by small investors. Banks monitor debt (loan) contracts, and issue unmonitored debt (deposit) contracts. Diversification is the financial-engineering technology that makes monitoring of deposit contracts unnecessary when monitoring of loan contracts is necessary. This allows banks to deliver delegated monitoring. Debt, monitoring, and diversification are the keys to understanding the link between financial intermediation and delegated monitoring.
 
-# REFERENCES
+## REFERENCES
 
 Bhattacharya, Sudipto, and Anjan V. Thakor. "Contemporary Banking Theory," Journal of Financial Intermediation, vol. 3 (October 1993), pp. 2-50.  
 Boyd, John H., and Edward C. Prescott. "Financial Intermediary-Coalitions," Journal of Economic Theory, vol. 38 (April 1986), pp. 211-32.  
@@ -1031,9 +1031,9 @@ Townsend, Robert M. "Optimal Contracts and Competitive Markets with Costly State
 Williamson, Stephen D. "Costly Monitoring, Loan Contracts, and Equilibrium Credit Rationing," Quarterly Journal of Economics, vol. 102 (February 1987), pp. 135-45.  
 Winton, Andrew. "Costly State Verification and Multiple Investors: The Role of Seniority," Review of Financial Studies, vol. 8 (Spring 1995), pp. 91-123.
 
-# Class note 9 BID and ASK PRICES WITH ADVERSE SELECTION/PRIVATE INFORMATION Based on The Only Game in Town, and Glosten-Milgrom.
+## Class note 9 BID and ASK PRICES WITH ADVERSE SELECTION/PRIVATE INFORMATION Based on The Only Game in Town, and Glosten-Milgrom
 
-# I. The Setup:
+### I. The Setup
 
 1. Two types of trader: informed and liquidity (can lump the "misinformed" of The Only Game in Town together with the uninformed). All traders and market makers are risk neutral, so there is no risk premium.
 
@@ -1122,9 +1122,9 @@ If the first trade were a buy (at the ask of  $\frac{3}{4}$ ), then  $\frac{3}{4
 - Private information implies that buying or selling a security will move the price, even if you have no information and the market is competitive.  
 - Market efficiency is consistent with the ability to make money by trading if you have private information (but it is often difficult to tell if you have information that is really private!).
 
-# Class Note 10 Liquidity and liquidity Management
+## Class Note 10 Liquidity and liquidity Management
 
-# I. An Overview of Liquidity Management
+### I. An Overview of Liquidity Management
 
 A common measure of the liquidity of an asset is the % of its true value one can obtain from a quick "forced" sale. Adverse selection issues and special asset services (such as monitoring of special information about the borrower) can make assets illiquid. An illiquid asset is, roughly, one with a large bid-ask spread. This is only rough because illiquidity also implies that one expects to get a better price if one has time to wait until the asset is sold (i.e., a bigger bid-ask spread for quick sales or (in the case of assets which mature, for sales before maturity).
 
@@ -1192,7 +1192,7 @@ Chicago Booth, Business 35202, Douglas Diamond
 
 Extra Class note to read before Fremont Financial
 
-# Addressing Risk with Securitization Design
+## Addressing Risk with Securitization Design
 
 A securitization is a trust: a legal entity with assets but not employees. It makes no judgments, but rather just follows a flow chart. Servicing the assets requires some judgment, but servicing is subcontracted to an outside firm that does have employees.
 
@@ -1222,7 +1222,7 @@ Let's look at a large, representative securitization to see this in action. Cons
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-11-30/98287042-82d6-415f-98b5-0f347af6d1c3/e7608eacddde9507066a5e29211fbc3475f9fd63aa9f9baced627005859bc716.jpg)
 
-# HYUNDAI
+### HYUNDAI
 
 \$774,000,000
 
@@ -1454,9 +1454,9 @@ Douglas W. Diamond
 
 Business 35202
 
-# Class Note 12 – Commercial Paper*
+## Class Note 12 – Commercial Paper*
 
-# Overview -
+### Overview
 
 What is Commercial Paper? What is its significance?  
 How are CP prices quoted?  
@@ -1795,9 +1795,9 @@ A money fund can invest only in Tier-1 and Tier-2, and can invest only  $1\%$  o
 - So the investment of money funds in Tier-2 paper is limited to  $5\%$  of their total assets. This holds down demand for Tier-2 paper  
 - This is part of why demand goes down abruptly when paper is downgraded
 
-# University of Chicago
+## University of Chicago
 
-# Booth School of Business
+### Booth School of Business
 
 Financial Markets and Institutions
 
@@ -1957,9 +1957,9 @@ Essentially, this is complete deposit insurance for these deposits
 - The program was extended to September  $18^{\text{th}}$  2009. This program succeeded in stopping the run.  
 - New regulations of MMF were put into place, but more are probably on the way. Prime money market funds experienced runs again in March 2020, and got a new government/ Federal Reserve lending program to stop it.
 
-# Class note 13: The LTCM meltdown
+## Class note 13: The LTCM meltdown
 
-# I. Introduction
+### I. Introduction
 
 To understand Long Term Capital Management's (LTCM) meltdown, note that they were taking liquidity risk in two ways. First, they were long less liquid assets and short more liquid assets that provided almost the same cash flows. For example, they were long the 29.5 year off the run treasury and short the 30 year on the run treasury bond. Second, they took large margined positions. They were subject to the liquidity risk of a margin call where they would be forced to close out the position. If they faced liquidation losses from unwinding positions, and if their capital was sufficiently impaired to make losses to lenders possible, they could have a "run" as lenders foreclose in anticipation of other lenders foreclosing.
 
@@ -1983,9 +1983,9 @@ Because not everyone sees the opportunity today, it is quite possible that not e
 
 Because outside investors and lenders do not know the ability or see the models of hedge fund managers, they will limit the amount of capital that they provide to managers. Investors and lenders do see their ex-post performance and use it to estimate the ability of managers. This is the reason for arbitrageurs' limited access to capital and for things that work like margin calls after a loss. Shelifer and Vishny call it performance based arbitrage ("PBA"). If an arbitraguer ("arb") loses money, then outsiders reduce their estimate of the quality of the arb's analysis, and pull out funds or force him or her to liquidate positions (or, if the outsider is a lender, force margin calls). This note examines how limits on the amount of capital that an arb can raise, and these possible future losses of capital under management, can influence the bets that an arb will place. We examine a very simple version of this: investors will pull all funds under management out whenever there is a loss. More generally, the amount of capital available would be a function of the extent of the loss, but we can see the main point with the more extreme assumption that if the arb loses any money at all, he loses all assets under management. This simplifies the analysis because the arb will just choose whether to invest at date 1 or date 2, instead of choosing the fraction of funds to invest at each date.
 
-# II.
+### II.
 
-# An Example
+#### An Example
 
 Consider two assets that will be identical on date 3, but it is not clear yet that they are identical. On date 3, asset A will be worth 100 units of asset B. If A is not selling for 100 times the price of B, there is a long-term arbitrage opportunity.
 

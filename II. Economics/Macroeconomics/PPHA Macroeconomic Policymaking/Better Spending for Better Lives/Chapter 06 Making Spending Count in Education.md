@@ -1,7 +1,7 @@
 ---
 title: "Chapter 06 Making Spending Count in Education"
 parent_directory: "Better Spending for Better Lives"
-formatted: "2025-12-21 08:35:00 AM"
+formatted: "2025-12-21 08:40:00 AM"
 formatter_model: "kimi-k2-turbo"
 cli_tool: "claude-code"
 primary_tags:

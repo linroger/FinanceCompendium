@@ -1,20 +1,25 @@
 ---
+title: "Controversies in Trade Policy"
+parent_directory: "Part 2 - International Trade Policy"
+formatted: "2025-12-21 08:55:00 AM"
+formatter_model: "grok-code-fast-1"
+cli_tool: "opencode"
 primary_tags:
-- workers themes response economists
-- theory international trade
-- problem arguments activist trade
-- controversies trade policy seen
+  - trade policy controversies
+  - strategic trade policy
+  - globalization effects
+  - labor standards debate
+  - environmental trade policy
 secondary_tags:
-- controversies international trade
-- trade policy arguments
-- curve growing concern globalization
-- role disputes international trade
-- effects globalization debate played
-- response economists developing country
-- chapter describes controversies international
-- difficult discussion globalization really
-- wto globalization environment concerns
-tags_extracted: '2025-12-18T00:52:50.910677'
+  - activist trade arguments
+  - high technology industries
+  - anti globalization movement
+  - world trade organization
+  - carbon tariffs dispute
+  - trade shocks communities
+  - pollution havens
+  - environmental kuznets curve
+cssclasses: academia
 ---
 
 # CONTROVERSIES IN TRADE POLICY

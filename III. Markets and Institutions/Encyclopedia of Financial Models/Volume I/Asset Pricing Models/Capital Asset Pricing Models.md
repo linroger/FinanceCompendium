@@ -2,23 +2,26 @@
 ---
 title: "Capital Asset Pricing Models"
 parent_directory: "Encyclopedia of Financial Models/Volume I/Asset Pricing Models"
-formatted: "2025-12-21 12:15:00 PM"
+formatted: "2025-12-21 08:45:00 PM"
 formatter_model: "obsidian-formatting-agent"
 cli_tool: "claude-code"
 primary_tags:
   - capital asset pricing model
   - market portfolio theory
   - beta coefficient
-  - risk return tradeoffs
+  - two beta trap
 secondary_tags:
-  - mean variance analysis
+  - risk return tradeoffs
   - sharpe lintner model
+  - sharpe single index model
+  - market portfolio beta
+  - mean variance analysis
   - roy capital asset pricing
   - systematic risk
-  - security market line
-  - portfolio efficiency
-  - arbitrage pricing
-  - asset valuation
+  - beta1963 vs beta1964
+  - covariance structure
+  - efficient portfolio index
+  - value weighted index
 cssclasses: academia
 ---
 
@@ -117,11 +120,8 @@ Probably no other part of financial theory has been subject to more confusion, b
 
 Confusion 1. Failure to distinguish between the following two statements:
 
-The market is efficient in that each participant has correct beliefs and uses them to their advantage.
-
-and
-
-The market portfolio is a mean-variance efficient portfolio.
+- The market is efficient in that each participant has correct beliefs and uses them to their advantage.
+- The market portfolio is a mean-variance efficient portfolio.
 
 Confusion 2. Belief that equation (5) shows that CAPM investors get paid for bearing "market risk." That this view—held almost universally until quite recently—is in error is easily demonstrated by examples in which securities have the same covariance structure but different excess returns.
 
@@ -156,15 +156,13 @@ Assumption  $4^{\prime}$ . Equation (6) is the only constraint on the investor's
 
 As noted earlier, a negative  $X_{i}$  is interpreted as a short position; but this is clearly a quite unrealistic model of real-world short constraints. Equation (6) would permit any investor to deposit \$1,000 with a broker, sell short \$1,000,000 worth of one security, and buy long 1,001,000 worth of another security.
 
-In addition to CAPM Conclusion 1, Assumptions 1 through 4 imply CAPM Conclusion 2: In equilibrium, excess returns are proportional to betas, as in equation (5). This CAPM
+In addition to CAPM Conclusion 1, Assumptions 1 through 4 imply CAPM Conclusion 2: In equilibrium, excess returns are proportional to betas, as in equation (5). This CAPM conclusion is the basis for the CAPM's prescriptions for risk adjustment and asset valuation.
 
 Table 1 Expected Returns and Standard Deviations for Three Hypothetical Securitiesa
 
 <table><tr><td>Security</td><td>Expected Return</td><td>Standard Deviation</td></tr><tr><td>1</td><td>0.15\%</td><td>0.18\%</td></tr><tr><td>2</td><td>0.10\%</td><td>0.12\%</td></tr><tr><td>3</td><td>0.20\%</td><td>0.30\%</td></tr></table>
 
 ${}^{a}$  Security returns are uncorrelated.
-
-conclusion is the basis for the CAPM's prescriptions for risk adjustment and asset valuation.
 
 Since a Roy CAPM world may or may not have a risk-free asset, Assumptions 1-3 plus Assumption  $4^{\prime}$  cannot imply CAPM Conclusion 2. These assumptions do, however, imply the following:
 
@@ -181,7 +179,7 @@ CAPM Conclusions 1 and 2 (or  $2^{\prime}$ ) do not follow from Assumptions 1, 2
 Assumptions 1 through 3 are assumed in this example. Rather than Assumption 4 or Assumption  $4^{\prime}$ , the example assumes that the investor can choose any portfolio that meets the following constraints:
 
 $$
-X_{1} + X_{2} + X_{3} = 1. 0 \tag {8a}
+X_{1} + X_{2} + X_{3} = 1.0 \tag {8a}
 $$ and
 
 
@@ -264,13 +262,21 @@ $$
 
 Table 2 Betas versus Portfolio P
 
-<table><tr><td>Security</td><td>Percent in P</td><td>covi,P = PiVi</td><td>betai,P</td></tr><tr><td>1</td><td>0.70\%</td><td>0.0227</td><td>0.52</td></tr><tr><td>2</td><td>-0.25</td><td>-0.0036</td><td>-0.08</td></tr><tr><td>3</td><td>0.55</td><td>0.0495</td><td>1.12</td></tr></table>
+| Security | Percent in P | cov<sub>i,P</sub> = P<sub>i</sub>V<sub>i</sub> | β<sub>i,P</sub> |
+|----------|--------------|---------------------------------------------|----------------|
+| 1 | 0.70% | 0.0227 | 0.52 |
+| 2 | -0.25 | -0.0036 | -0.08 |
+| 3 | 0.55 | 0.0495 | 1.12 |
 
 Note:  $\operatorname{var}\left( P\right)  = {0.0440};{\text{beta}}_{i,P} = {\operatorname{cov}}_{i,P}/\operatorname{var}\left( P\right)$  .
 
-Table 3 Betas versus Portfolio  $M$
+Table 3 Betas versus Portfolio $M$
 
-<table><tr><td>Security</td><td>Percent in M</td><td>covi,M=Miv</td><td>betai,M</td></tr><tr><td>1</td><td>0.30</td><td>0.0097</td><td>0.36</td></tr><tr><td>2</td><td>0.19</td><td>0.0027</td><td>0.10</td></tr><tr><td>3</td><td>0.51</td><td>0.0459</td><td>1.71</td></tr></table>
+| Security | Percent in M | cov<sub>i,M</sub> = M<sub>i</sub>V<sub>i</sub> | β<sub>i,M</sub> |
+|----------|--------------|---------------------------------------------|----------------|
+| 1 | 0.30 | 0.0097 | 0.36 |
+| 2 | 0.19 | 0.0027 | 0.10 |
+| 3 | 0.51 | 0.0459 | 1.71 |
 
 Note:  $\operatorname{var}(M) = 0.0268$ ;  $\operatorname{beta}_{i,M} = \operatorname{cov}_{i,M} / \operatorname{var}(M)$ .
 
@@ -306,7 +312,7 @@ This characterization of efficient sets remains true if limited borrowing is all
 
 It also remains true when short selling is permitted but is subject to Reg T or a similar constraint (see Jacobs, Levy, and Markowitz, 2005).
 
-# CAPM INVESTORS DO NOT GET PAID FOR BEARING RISK
+## CAPM INVESTORS DO NOT GET PAID FOR BEARING RISK
 
 Recall that if the SL-CAPM assumptions are made, then a stock's beta (regression against the market portfolio) is proportional to its excess return, as shown in equation (5). Markowitz shows that this does not imply that CAPM investors are paid to bear risk (see Markowitz, 2008).
 
@@ -315,17 +321,17 @@ This is most easily seen if we assume that risks are uncorrelated. (CAPM should 
 According to equation (10), the beta of  $r_i$  against  $r_M$  is
 
 $$
-\beta_{i} = \frac{\operatorname{Co va ri an ce} \left(r_{i} , r^{M}\right)}{\operatorname{Va ri an ce} \left(r^{M}\right)}
+\beta_{i} = \frac{\operatorname{Covariance} \left(r_{i} , r^{M}\right)}{\operatorname{Variance} \left(r^{M}\right)}
 $$
 
 Therefore, equation (5) holds if and only if we also have
 
-$$ e_{i} = \tilde {b} \operatorname{co va ri an ce} \left(r_{i}, r^{M}\right) \tag {11}
+$$ e_{i} = \tilde {b} \operatorname{covariance} \left(r_{i}, r^{M}\right) \tag {11}
 $$ where
 
 
 $$
-\tilde {b} = b / \operatorname{Va r} \left(r^{M}\right)
+\tilde {b} = b / \operatorname{Var} \left(r^{M}\right)
 $$
 
 In other words, excess return is proportional to  $\beta_{i}$  if and only if it is proportional to the covariance between  $r_i$  and  $r^M$ .
@@ -355,14 +361,14 @@ Now let us consider where the linear relationship in equation (5), or (11), come
 
 Thus, in the uncorrelated case, the relationship between beta and excess return in equation (5) results from the security with higher excess return (per unit variance) being a larger part of the market portfolio. The beta in equation (5) is the regression of  $r_i$  against the market portfolio and, in the uncorrelated case, the only security in the market portfolio with which it is correlated is itself.
 
-When returns are correlated, the formula for the covariance between security return and market portfolio return is more complicated, but the basic principle is the same. For example, if two securities have the same covariance structure, the one with the higher expected return will constitute a larger share of the market portfolio—despite the presence in the market portfolio of securities with which it is correlated—and hence have its own re turns more correlated with returns on the market portfolio.
+When returns are correlated, the formula for the covariance between security return and market portfolio return is more complicated, but the basic principle is the same. For example, if two securities have the same covariance structure, the one with the higher expected return will constitute a larger share of the market portfolio—despite the presence in the market portfolio of securities with which it is correlated—and hence have its own returns more correlated with returns on the market portfolio.
 
 
-# THE "TWO BETA" TRAP
+## THE "TWO BETA" TRAP
 
 Two distinct meanings of the word "beta" are used in modern financial theory. These meanings are sufficiently alike for people to converse—some with one meaning in mind, some with the other—without realizing they are talking about two different things. The meanings are sufficiently different, however, that one can validly derive diametrically opposite conclusions depending on which one is used. The net result of all this can be like an Abbott and Costello vaudeville comedy routine with portfolio theory rather than baseball as its setting. This is what Markowitz (1984) calls the two beta trap. Below we first review the background of the two betas and then tabulate propositions that are true for one concept and false for the other.
 
-# Beta1963
+## Beta<sub>1963</sub>
 
 Sharpe's single-index (or one-factor) model of covariance introduced in 1963 assumes that the returns of different securities are correlated with each other because each is dependent on some underlying systematic factor (see Sharpe, 1963). This can be written as
 
@@ -400,20 +406,20 @@ Sharpe (1963) tested equation (13) as an explanation of how security returns ten
 
 We refer to the beta coefficient in equation (13) as "beta<sub>1963</sub>" since it is the subject of Sharpe's 1963 article. We contrast the properties of this beta with that of the beta that arises from the Sharpe-Lintner CAPM. The latter we will refer to as "beta<sub>1964</sub>" since it is the subject of Sharpe (1964).
 
-# Beta1964
+## Beta<sub>1964</sub>
 
 We noted that the SL-CAPM makes various assumptions about the world, including that all investors are mean-variance efficient, have the same beliefs, and can lend or borrow all they want at the same "risk-free" interest rate. Note, however, one assumption that the SL-CAPM does not make it that the covariances among securities satisfy equation (13). On the contrary, the assumptions it makes concerning covariances are quite general. They are consistent with equation (13) but do not require it. They are also consistent with the existence of industry factors as noted by King, or other sources of systematic risk such as those identified by Rosenberg.
 
 
-As previously noted, the beta that appears in the CAPM relationship of equation (5) (which we now refer to as  $\beta_{1964}$ ) is the regression of the  $i$ th security's return against the return on the market portfolio. This is defined whether or not the covariance structure is generated by the single-factor model of equation (13). Equation (5) is an assertion about the expected return of a security and how it relates to the regression of the security's return against the marketportfolio return. Unlike equation (13), it is not an assertion about how security returns covary.
+As previously noted, the beta that appears in the CAPM relationship of equation (5) (which we now refer to as  $\beta_{1964}$ ) is the regression of the  $i$ th security's return against the return on the market portfolio. This is defined whether or not the covariance structure is generated by the single-factor model of equation (13). Equation (5) is an assertion about the expected return of a security and how it relates to the regression of the security's return against the market portfolio return. Unlike equation (13), it is not an assertion about how security returns covary.
 
 One source of confusion between beta $_{1963}$  and beta $_{1964}$  is that William Sharpe presented each of them. Sharpe, however, has never been confused on this point. In particular, when explaining beta $_{1964}$  he emphasizes that he derived it without assuming equation (13).
 
-# Propositions about Betas
+## Propositions about Betas
 
 Table 4 lists various propositions about betas and indicates whether they are true or false for beta $_{1963}$  or beta $_{1964}$ . The first column presents each proposition, the second indicates whether the proposition is true or false for beta $_{1963}$ , and the third column indicates the same for beta $_{1964}$ . Most of the propositions in Table 4 are true for one of the betas and false for the other.
 
-# Proposition 1
+### Proposition 1
 
 Because of the definition of a regression beta in general, both  $\beta_{1963}$  and  $\beta_{1964}$  equal
 
@@ -424,13 +430,21 @@ $$ for some random variable  $R$ . In the case of  $\mathrm{beta}_{1963}$ ,  $R$
 
 Table 4 Propositions about Beta
 
-<table><tr><td></td><td>β1963</td><td>β1964</td></tr><tr><td>1. The βi of theith security equals cov(ri,R)/V(R) for some random variable R.</td><td>T</td><td>T</td></tr><tr><td>2. R is &quot;observable&quot;; specifically, it may be computed exactly from security returns (ri) and market values (Xi).</td><td>F</td><td>T</td></tr><tr><td>3. R is a value-weighted average of the (ri).</td><td>F</td><td>T</td></tr><tr><td>4. An index I that estimates R should ideally be weighted by a combination of (1/VUi) and (βi/Vi). Unfortunately, the βi and Ui needed to determine these weights are unobservable.</td><td>T</td><td>F</td></tr><tr><td>5. If ideal weights are not used, then equal weights are &quot;not bad&quot; in computing I; specifically, nonoptimum weights can be compensated for by increased sample size.</td><td>T</td><td>F</td></tr><tr><td>6. Essentially, all that is important in computing I is to have a large number of securities; it is not necessary to have a large fraction of all securities.</td><td>T</td><td>F</td></tr><tr><td>7. The ideally weighted index is an efficient portfolio.</td><td>F</td><td>T</td></tr></table>
+| Proposition | β<sub>1963</sub> | β<sub>1964</sub> |
+|------------|----------------|----------------|
+| 1. The β<sub>i</sub> of the i-th security equals cov(r<sub>i</sub>,R)/V(R) for some random variable R. | T | T |
+| 2. R is "observable"; specifically, it may be computed exactly from security returns (r<sub>i</sub>) and market values (X<sub>i</sub>). | F | T |
+| 3. R is a value-weighted average of the (r<sub>i</sub>). | F | T |
+| 4. An index I that estimates R should ideally be weighted by a combination of (1/V<sub>Ui</sub>) and (β<sub>i</sub>/V<sub>i</sub>). Unfortunately, the β<sub>i</sub> and U<sub>i</sub> needed to determine these weights are unobservable. | T | F |
+| 5. If ideal weights are not used, then equal weights are "not bad" in computing I; specifically, nonoptimum weights can be compensated for by increased sample size. | T | F |
+| 6. Essentially, all that is important in computing I is to have a large number of securities; it is not necessary to have a large fraction of all securities. | T | F |
+| 7. The ideally weighted index is an efficient portfolio. | F | T |
 
-# Proposition 2
+### Proposition 2
 
 Equation (15) implies that  $F$  cannot be observed exactly no matter how many securities are used to estimate it, provided that no security has a zero variance of  $u_{i}$ . In contrast, portfolio  $M$  in equation (2) is observable, at least in principle, if only we are diligent enough to measure each  $X_{i}^{M}$  in the market. Thus, the assertion that  $R$  is observable is true in principle for beta<sub>1964</sub> and false for beta<sub>1963</sub>.
 
-# Propositions 3 and 4
+### Propositions 3 and 4
 
 One source of confusion about the two betas concerns whether an index estimating  $R$  should be "value weighted"; that is, should the  $w_{i}$  used in computing an estimate of  $R$  from the  $r_i$  equal the  $X_{i}^{M}$ ? We have seen that in the case of beta<sub>1964</sub>:
 
@@ -443,11 +457,11 @@ In this case  $W_{i} = X_{i}^{M} =$  market-value weights.
 The answer is different in the case of beta $_{1963}$ . Ideally, we would like to eliminate the error term  $U$  from equation (14). Our index would be perfect if  $V_U = 0$ , provided of course  $B \neq 0$ . Nevertheless, as long as no security has  $V_{u_i} = 0$ , the perfect index cannot be achieved with a finite number of securities. Short of this, it might seem that the best to be wished is that  $V_U$  be a minimum. In this case,  $w_i$  would equal  $1 / V_{u_i}$ . The optimum choice of weights for estimating the underlying factor  $F$  is more complicated, depending also on  $\beta_{i} / V_{i}$  (see Markowitz, 1983) and more complicated still, since  $V_{u_i}$  and  $\beta_{i}$  are not known.
 
 
-# Proposition 5
+### Proposition 5
 
 The fifth proposition in Table 4 asserts that if ideal weights cannot be obtained, equal weights are good enough. In particular, an increase in the number of securities can compensate for nonoptimum weights. We have already seen that this proposition is false for  $\beta \alpha_{1964}$ . It is easily seen to be true for  $\beta \alpha_{1963}$  under mild restrictions on how fast the  $V_{u_i}$  increases as  $i$  increases.
 
-# Proposition 6
+### Proposition 6
 
 The next proposition asserts that all that is important in designing a good index is to have many securities, as opposed to having a large percentage of the population represented in the index. This proposition is true for  $I_{1963}$  and false for  $I_{1964}$ , as may be illustrated by two extreme examples.
 
@@ -456,11 +470,11 @@ First, suppose that there are only a few securities in the entire population, an
 
 At the other extreme, imagine that the sample is large but is a small percentage of the total population. For example, suppose  $N = 1,000$  out of 100,000 securities. Then  $I_{1963}$  will give a good reading for  $F$ , and therefore  $\beta_{1963}$ , but  $I_{1964}$  may lead to serious misestimates of  $\beta_{1964}$ . First, the covariance with  $I_{1964}$  of an asset not in this index will tend to be too low. Second, if the index contains more of certain kinds of assets than is characteristic of the entire population, then assets of this sort will tend to have a higher correlation with the index than with the true  $M$ , and assets of other sorts will tend to have lower correlations. More precisely, the covariance between return  $r_i$  and the market is a weighted average of the covariances  $\sigma_{ij}$  (including  $V_i = \sigma_{ii}$ ) weighted by market values. If the index chosen does not have approximately the same average  $\sigma_{ij}$  for a given  $i$ , the estimates of  $\beta_{i,1964}$  will be in error.
 
-# Proposition 7
+### Proposition 7
 
 This proposition asserts that the ideal index is an efficient portfolio. This is true for  $I_{1964}$  and false for  $I_{1963}$  since one of the conclusions of the SL-CAPM assumptions is that the market portfolio is efficient. In fact, the market portfolio is the only combination of risky assets that is efficient in this CAPM. All other efficient portfolios consist of either investment in the market portfolio plus lending at the risk-free rate, or of investment in the market portfolio financed in part by borrowing at the risk-free rate. On the other hand,  $\beta_{1963}$  has nothing to do with expected returns or market efficiency.
 
-# KEY POINTS
+## KEY POINTS
 
 - The two major conclusions of the Sharpe-Lintner CAPM are that (1) the market portfolio is a mean-variance efficient portfolio; and (2) the excess return of each security is proportional to its beta.
 

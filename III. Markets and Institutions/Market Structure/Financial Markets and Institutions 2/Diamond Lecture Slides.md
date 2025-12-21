@@ -22,7 +22,8 @@ cssclasses: academia
 - Strategic effects of debt. How much is too much?  
 - Bankruptcy & Reorganization: bargaining and strategy.  
 - Debt contract renegotiation.  
-- Debt exchange offers when bankruptcy is the alternative. Distressed Debt Investing (especially during a financial crisis).
+- Debt exchange offers when bankruptcy is the alternative
+- Distressed Debt Investing (especially during a financial crisis).
 - Capital structure is more than debt versus equity: it is a choice of source of funds: who holds and enforces the terms of securities that a firm issues.
 
 ## 2. How the Problems and Benefits of Debt Contracts Are Related to Banking
@@ -117,7 +118,7 @@ Control over corporate decisions
 
 - Does it matter who owns a firm's debt or equity?
 
-The publicsmall diffuse holders  
+The public small diffuse holders  
 Large individual investors  
 Large institutional investors = Financial Intermediaries  
 

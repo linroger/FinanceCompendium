@@ -1,25 +1,30 @@
 ---
 title: "FIRMS IN THE GLOBAL ECONOMY: EXPORT AND FOREIGN SOURCING DECISIONS AND MULTINATIONAL ENTERPRISES"
 parent_directory: "Part 1 - International Trade Theory"
-formatted: 2025-12-21 08:40:00 AM
+formatted: 2025-12-21 08:42:00 AM
 formatter_model: kimi-k2-turbo
 cli-tool: claude-code
 primary_tags:
   - monopolistic competition
   - internal economies scale
   - product differentiation
-  - intra-industry trade
   - multinational enterprises
 secondary_tags:
+  - intra-industry trade
+  - foreign direct investment
   - firm performance differences
   - export decisions
-  - foreign direct investment
   - horizontal FDI
   - vertical FDI
   - trade costs
   - dumping
   - offshoring
-  - outsourcing
+  - market size effects
+  - imperfect competition
+  - monopoly pricing
+  - marginal revenue
+  - economies of scale
+  - integrated markets
 cssclasses: academia
 ---
 
@@ -238,7 +243,9 @@ Figure 8-4 uses this information to show the effect of an increase in the size o
 Clearly, consumers would prefer to be part of a large market rather than a small one. At point 2, a greater variety of products is available at a lower price than at point 1.
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/2c56c2af88c93c5bc9c185bbe5ecc48876b5dead274eaced482934bd5c2bb127.jpg)
-FIGURE 8-4 Effects of a Larger Market
+## FIGURE 8-4
+
+### Effects of a Larger Market
 
 An increase in the size of the market allows each firm, other things equal, to produce more and thus have lower average cost. This is represented by a downward shift from  $CC_{1}$  to  $CC_{2}$ . The result is a simultaneous increase in the number of firms (and hence in the variety of goods available) and a fall in the price of each.
 
@@ -261,12 +268,12 @@ $$
 The average cost curve is therefore
 
 $$
-\mathrm{AC} = (7 5 0, 0 0 0, 0 0 0 / Q) + 5, 0 0 0.
+\mathrm{AC} = (750,000,000 / Q) + 5,000.
 $$
 
 Now suppose there are two countries, Home and Foreign. Home has annual sales of 900,000 automobiles; Foreign has annual sales of 1.6 million. The two countries are assumed, for the moment, to have the same costs of production.
 
-Figure 8-5a shows the  $PP$  and  $CC$  curves for the Home auto industry. We find that in the absence of trade, Home would have six automobile firms, selling autos at a price of \$10,000 each. (It is also possible to solve for  $n$  and  $P$  algebraically, as shown in the Mathematical Postscript to this chapter.) To confirm that this is the long-run equilibrium, we need to show that the pricing equation (8-10) is satisfied and that the price equals average cost.
+Figure 8-5a shows the  $PP$  and  $CC$  curves for the Home auto industry. We find that in the absence of trade, Home would have six automobile firms, selling autos at a price of $10,000 each. (It is also possible to solve for  $n$  and  $P$  algebraically, as shown in the Mathematical Postscript to this chapter.) To confirm that this is the long-run equilibrium, we need to show that the pricing equation (8-10) is satisfied and that the price equals average cost.
 
 Substituting the actual values of the marginal cost  $c$ , the demand parameter  $b$ , and the number of Home firms  $n$  into equation (8-10), we find
 
@@ -280,9 +287,9 @@ $$
 A C = (\$ 7 5 0, 0 0 0, 0 0 0 / 1 5 0, 0 0 0) + \$ 5, 0 0 0 = \$ 1 0, 0 0 0.
 $$
 
-Since the average cost of  \$10,000 per unit is the same as the price, all monopoly profits have been competed away. Thus six firms, selling each unit at a price of\$ 10,000, with each firm producing 150,000 cars, is the long-run equilibrium in the Home market.
+Since the average cost of $10,000 per unit is the same as the price, all monopoly profits have been competed away. Thus six firms, selling each unit at a price of $10,000, with each firm producing 150,000 cars, is the long-run equilibrium in the Home market.
 
-What about Foreign? By drawing the  $PP$  and  $CC$  curves [panel (b) in Figure 8-5], we find that when the market is for 1.6 million automobiles, the curves intersect at  $n = 8$ ,  $P = 8,750$ . That is, in the absence of trade, Foreign's market would support eight firms, each producing 200,000 automobiles, and selling them at a price of \$8,750. We can again confirm that this solution satisfies the equilibrium conditions:
+What about Foreign? By drawing the  $PP$  and  $CC$  curves [panel (b) in Figure 8-5], we find that when the market is for 1.6 million automobiles, the curves intersect at  $n = 8$ ,  $P = 8,750$ . That is, in the absence of trade, Foreign's market would support eight firms, each producing 200,000 automobiles, and selling them at a price of $8,750. We can again confirm that this solution satisfies the equilibrium conditions:
 
 $$
 P = \$ 8,750 = c + 1 / (b \times n) = \$ 5,000 + 1 / [ (1 / 30,000) \times 8 ] = \$ 5,000 + \$ 3,750,
@@ -300,11 +307,11 @@ Price per auto, in thousands of dollars
 Price per auto, in thousands of dollars
 (c) Integrated
 
-# FIGURE 8-5
+## FIGURE 8-5
 
 # Equilibrium in the Automobile Market
 
-(a) The Home market: With a market size of 900,000 automobiles, Home's equilibrium, determined by the intersection of the PP and CC curves, occurs with six firms and an industry price of \$10,000 per auto. (b) The Foreign market: With a market size of 1.6 million automobiles, Foreign's equilibrium occurs with eight firms and an industry price of \$8,750 per auto. (c) The combined market: Integrating the two markets creates a market for 2.5 million autos. This market supports 10 firms, and the price of an auto is only \$8,000.
+(a) The Home market: With a market size of 900,000 automobiles, Home's equilibrium, determined by the intersection of the PP and CC curves, occurs with six firms and an industry price of $10,000 per auto. (b) The Foreign market: With a market size of 1.6 million automobiles, Foreign's equilibrium occurs with eight firms and an industry price of $8,750 per auto. (c) The combined market: Integrating the two markets creates a market for 2.5 million autos. This market supports 10 firms, and the price of an auto is only $8,000.
 
 and
 
@@ -312,7 +319,7 @@ $$
 A C = (\$ 7 5 0, 0 0 0, 0 0 0 / 2 0 0, 0 0 0) + \$ 5, 0 0 0 = \$ 8, 7 5 0.
 $$
 
-Now suppose it is possible for Home and Foreign to trade automobiles costlessly with one another. This creates a new, integrated market [panel (c) in Figure 8-5] with total sales of 2.5 million. By drawing the  $PP$  and  $CC$  curves one more time, we find that this integrated market will support 10 firms, each producing 250,000 cars and selling them at a price of \$8,000. The conditions for profit maximization and zero profits are again satisfied:
+Now suppose it is possible for Home and Foreign to trade automobiles costlessly with one another. This creates a new, integrated market [panel (c) in Figure 8-5] with total sales of 2.5 million. By drawing the  $PP$  and  $CC$  curves one more time, we find that this integrated market will support 10 firms, each producing 250,000 cars and selling them at a price of $8,000. The conditions for profit maximization and zero profits are again satisfied:
 
 $$
 \begin{array}{l} P = 8, 0 0 0 = c + 1 / (b \times n) = 5, 0 0 0 + 1 / [ (1 / 3 0, 0 0 0) \times 1 0 ] \\ = \\( 5,000 + \\) 3,000, \\ \end{array}
@@ -334,7 +341,7 @@ TABLE 8-1 Hypothetical Example of Gains from Market Integration
 
 <table><tr><td></td><td>Home Market, before Trade</td><td>Foreign Market, before Trade</td><td>Integrated Market, after Trade</td></tr><tr><td>Industry output (# of autos)</td><td>900,000</td><td>1,600,000</td><td>2,500,000</td></tr><tr><td>Number of firms</td><td>6</td><td>8</td><td>10</td></tr><tr><td>Output per firm (# of autos)</td><td>150,000</td><td>200,000</td><td>250,000</td></tr><tr><td>Average cost</td><td>$10,000</td><td>$8,750</td><td>$8,000</td></tr><tr><td>Price</td><td>$10,000</td><td>$8,750</td><td>$8,000</td></tr></table>
 
-exchanges of similar goods. (2) Second, the example highlights two new channels for welfare benefits from trade. In the integrated market after trade, both Home and Foreign consumers benefit from a greater variety of automobile models (10 versus 6 or 8) at a lower price ( \$8,000 versus\$ 8,750 or \$10,000) as firms are able to consolidate their production destined for both locations and take advantage of economies of scale.[9]
+exchanges of similar goods. (2) Second, the example highlights two new channels for welfare benefits from trade. In the integrated market after trade, both Home and Foreign consumers benefit from a greater variety of automobile models (10 versus 6 or 8) at a lower price ($8,000 versus $8,750 or $10,000) as firms are able to consolidate their production destined for both locations and take advantage of economies of scale.[9]
 
 Empirically, is intra-industry trade relevant, and do we observe gains from trade in the form of greater product variety and consolidated production at lower average cost? The answer is yes.
 
@@ -515,7 +522,7 @@ Worldwide flows of FDI have significantly increased since the mid-1990s, though 
 
 Source: United Nations Conference on Trade and Development, World Investment Report, 2019.
 
-# Patterns of Foreign Direct Investment Flows around the World
+## Patterns of Foreign Direct Investment Flows around the World
 
 Figure 8-9 shows how the magnitude of worldwide FDI flows has evolved over the last 50 years. We first examine patterns for the world, where FDI flows must be balanced: Hence world inflows are equal to world outflows. We see that there was a massive increase in multinational activity in the mid- to late-1990s, when worldwide FDI flows more than quadrupled relative to world GDP. We also see that the growth rate of FDI is very uneven, with huge peaks and troughs. Those peaks and troughs correlate with the gyrations of stock markets worldwide (strongly dominated by fluctuations in the U.S. stock market) and the related waves of cross-border mergers and acquisitions (greenfield FDI is much more stable over time). The financial collapse in 2000 (the bursting of the dot-com bubble) and the most recent financial crisis in 2007–2009 also induced huge crashes in worldwide FDI flows. Fluctuations in FDI flows are also strongly influenced by changes in corporate tax policy. The U.S. “Tax Cuts and Jobs Act” enacted in 2017 strongly cut the corporate tax rate for U.S. multinationals. In response, those multinationals repatriated a substantial proportion of their foreign earnings, which led to a sharp reduction in the value of their foreign investments and a drop in the value of world FDI.
 
@@ -531,7 +538,7 @@ FDI flows are not the only way to measure the presence of multinationals in the 
 FDI outflows
 (billions of U.S. dollars)
 
-# FIGURE 8-10
+## FIGURE 8-10
 
 # Outward Foreign Direct Investment for Top 25 Countries, Yearly Average for 2017-2019 (billions of dollars)
 
@@ -543,13 +550,15 @@ added (sales minus purchased intermediate goods), and employment. Sales of FDI a
 
 However striking, this comparison is misleading and overstates the influence of multinationals because country GDP is measured in terms of value added: Intermediate goods used in final production are not double-counted in this GDP measure. On the other hand, the intermediate goods that one multinational sells to another are double-counted in the multinationals' sales totals (once in the sales of the producer of the intermediate goods and another time as part of the final value of the goods sold by the user of the intermediate goods). As a result, the appropriate comparison between multinationals and GDPs should be based on value added. (See the box on "Whose Trade Is It?" in the next section for a further discussion of this important measurement issue.) Since value added by multinationals is roughly 20 percent of their total sales, using this metric reduces the contribution of the largest 100 multinationals to around 2 percent of world GDP. This percentage is still nonnegligible, but not as eye-catching as the measure based on total sales.
 
-# CASE STUDY
+## CASE STUDY
 
-# COVID-19 and Foreign Direct Investment Flows around the World
+### COVID-19 and Foreign Direct Investment Flows around the World
 
 Figure 8-11 shows how the magnitude of worldwide FDI flows has evolved over the last 30 years. We first examine patterns for the world, where FDI flows must be balanced: Hence world inflows are equal to world outflows. We see that there was a massive increase in multinational activity in the mid- to late-1990s, when worldwide FDI flows more than quintupled and then again in the early 2000s. We also see that the growth rate of FDI is very uneven, with huge peaks and troughs. Significant world financial and currency events during this period, not all of which having affected adversely FDI flows, include the asset price bubble in Japan (1986-2003), the ERM crisis of the early 1990s (that led to the Black Wednesday of 16th September, 1992, when the United Kingdom was forced to withdraw the pound sterling from the ERM), the early 1990s world recession, the savings and loan crisis of the 1990s in the United States, the Finnish and Swedish banking crises of the 1990s, the 1994 speculative peso crisis in Mexico, the 1997 Asian financial crisis, the 1998 Russian financial crisis, the economic crisis in Argentina (1998-2002), the dot-com crisis and the late 2000s world financial crisis. Among the above, the early 1990s ERM crisis and the worldwide recession, the Argentinian crisis and the financial collapse in 2000 (the burst of the dotcom bubble) and the most recent financial crisis in 2007-2009 seem to have induced slowdowns or huge crashes in worldwide FDI flows. Global FDI flows rose modestly in 2019 at \$1.54 trillion, following the sizable decline registered in 2017 and again in 2018, when they plummeted to below-average levels.
 
-FIGURE 8-11 Global FDI inflows, 1990-2018
+## FIGURE 8-11
+
+### Global FDI inflows, 1990-2018
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/9f6937ddc1666597e3f5f68e3279122a97c8208131d98effd2c4e1869cb89a51.jpg)
 Source: United Nations Conference on Trade and Development, World Investment Report, 2015.
 
@@ -561,7 +570,9 @@ Other measures of the presence of multinational firms in the world economy are b
 
 As of June 2020, the crisis caused by the COVID-19 pandemic is expected to have an immediate impact on FDI amount: the physical closure of places of business to contain the spread of the virus causes immediate delays in the implementation of investment projects. Progress on several greenfield projects and many mergers and acquisitions is also temporarily suspended.
 
-FIGURE 8-12 FDI Outflows, Top 20 Home Economies, 2018 and 2019 (Billions of Dollars)
+## FIGURE 8-12
+
+### FDI Outflows, Top 20 Home Economies, 2018 and 2019 (Billions of Dollars)
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/47fd30dbe95a15c214e18703e21e79a3bc824793c3d5c5d8d7e7dcd9b55bd815.jpg)
 Source: United Nations Conference on Trade and Development, World Investment Report, 2020.
 
@@ -571,11 +582,11 @@ Consequently, developing economies are expected to see a further decrease in FDI
 
 Source: United Nations Conference on Trade and Development, World Investment Report, and UNTAD data https:// unctadstat.unctad.org/wds/TableViewer/tableView.aspx
 
-# Foreign Direct Investment and Foreign Sourcing Decisions
+## Foreign Direct Investment and Foreign Sourcing Decisions
 
 We now apply the model we developed to analyze the firms' export decisions to additional decisions regarding their operations in a global marketplace. Firms may choose to invest in foreign production sites located closer to their foreign customers; in other words to engage in horizontal FDI. On the purchasing side, firms may choose to source some of their intermediate inputs in Foreign locations. This is vertical FDI whenever the firms take an ownership stake in their foreign suppliers. (We discuss later the additional firm decision to integrate with its suppliers.)
 
-# The Horizontal FDI Decision
+### The Horizontal FDI Decision
 
 As we previously mentioned, firms have an incentive to locate a production facility near their foreign customers in order to avoid the high trade costs associated with exports to that foreign destination. On the other hand, there are also increasing returns to scale in production. As a result, it is not cost effective to replicate the production process too many times and operate facilities that produce too little output to take advantage of those increasing returns. This is called the proximity-concentration trade-off for FDI. Empirical evidence on the extent of FDI across sectors strongly confirms the relevance of this trade-off: FDI activity is concentrated in sectors where trade costs are high (such as the automobile industry); however, when increasing returns to scale are important and average plant sizes are large, one observes higher export volumes relative to FDI. Empirical evidence also shows that there is an even stronger sorting pattern for FDI at the firm level within industries: Multinationals tend to be substantially larger and more productive than non-multinationals in the same country. Even when one compares multinationals to the subset of exporting firms in a country, one still finds a large size and productivity differential in favor of the multinationals.
 
@@ -587,7 +598,7 @@ This leads to a scale cutoff for FDI. This cutoff summarizes the proximity-conce
 
 on its performance measure. A firm with low enough cost  $c_{i}$  will want to sell more than  $Q$  units to foreign customers. The most cost-effective way to do this is to build an affiliate in Foreign and become a multinational. Some firms with intermediate cost levels will still want to serve customers in Foreign, but their intended sales  $Q$  are low enough that exports, rather than FDI, will be the most cost-effective way to reach those customers.
 
-# The Foreign Sourcing Decision
+### The Foreign Sourcing Decision
 
 A firm's decision to break up its production chain and move parts of that chain to a foreign supplier will also involve a trade-off between per-unit and fixed costs—so the scale of the firm's activity will again be a crucial element determining this outcome. When it comes to foreign sourcing, the key cost saving is not related to the shipment of goods across borders; rather, it involves production cost differences for the parts of the production chain that are being moved. As we previously discussed, those cost differences stem mostly from comparative advantage forces.
 
@@ -599,7 +610,7 @@ And again, there is overwhelming empirical support for this prediction regarding
 
 export—because both of those activities involve a trade-off in favor of a larger scale. And amongst this selected subset of firms, the largest and most productive are overwhelmingly multinationals. For the world as a whole, multinationals are responsible for 80 percent of all trade flows.
 
-# The Outsourcing Decision: Make or Buy
+### The Outsourcing Decision: Make or Buy
 
 Our discussion of multinationals up to this point has neglected an important motive. We discussed the location motive for production facilities that leads to multinational formation. However, we did not discuss why the parent firm chooses to own the affiliate in that location and operate as a single multinational firm. This is known as the internalization motive.
 
@@ -615,7 +626,7 @@ Much progress has been made in recent research formalizing those trade-offs. Thi
 
 independent contractual relationship with those suppliers abroad. $^{31}$  Developing those theories is beyond the scope of this text; ultimately, many of those theories also boil down to different trade-offs between production cost savings and the fixed cost of moving parts of the production process abroad.
 
-# WHOSE TRADE IS IT?
+## WHOSE TRADE IS IT?
 
 When a U.S. consumer purchases the new (at the time of writing) iPhone 11 Pro Max from Apple, this transaction is recorded as a \(490 import from China (where the iPhone is assembled and tested). That is the total manufacturing cost of this unit. Of course, this consumer will pay much more than that for the phone (the unsubsidized price ranges between \)1,100–\$1,450). This difference is not a pure profit for Apple as it covers the cost of Apple's U.S. workforce involved in the marketing, design, and engineering for the phone (Apple employs over 50,000 nonretail workers in addition to the 26,000 workers in their retail stores).<sup>32</sup> Given the dozens of millions of iPhones bought by U.S. consumers, the \)490 per phone import price represents tens of billions of dollars' worth of imports from China that contributes to
 
@@ -638,9 +649,9 @@ can then be converted from gross value (the way they are typically reported) to 
 
 In a world where production chains increasingly stretch around the world, measures of bilateral trade deficits based on standard trade flows (at gross value) are quickly losing their relevance.
 
-# CASE STUDY
+## CASE STUDY
 
-# Shipping Jobs Overseas? Offshoring and Labor Market Outcomes in Germany
+### Shipping Jobs Overseas? Offshoring and Labor Market Outcomes in Germany
 
 When a company offshores part of its production chain abroad, it is then importing an intermediate good or service. For example, a company may import a part, component, or even an entire assembled product; or it may import business services by using accountants and/or call centers located abroad. As we discuss in the next section, the overall effects of trade in such intermediates are very similar to the trade in final goods that we have focused on up to now. Yet, when it comes to the effects of offshoring on employment, there is one additional dimension: The lower price of the imported intermediates not only benefits a firm's owners and their consumers, it also benefits the firm's remaining workers—because the lower price induces firms to increase their purchases of intermediates, which improves the productivity of the remaining workers.[37] This productivity effect also induces the offshoring firm to hire additional workers dedicated to the remaining parts of the production process.
 
@@ -652,7 +663,7 @@ Results from a vast, micro data set (1991-2000) representing 2 percent of German
 
 Given all these facts on the impact of offshoring for employment, the view that offshoring simply amounts to "shipping jobs overseas" is misleading. True, when a firm based in Germany, Canada, or the United States moves a call center to India, or moves the assembly of its product to China, then some specific jobs that used to be performed in the United States are now performed in India or China. However, the evidence shows that in terms of overall employment, those jobs are replaced by other ones in the origin countries: some related to the expansion effect at the offshoring firms and others by firms providing intermediate goods and services to firms located abroad (in shoring). Yet, just as with other forms of trade, trade in intermediates has substantial consequences for the distribution of income. Those call center or manufacturing workers displaced by offshoring are often not the ones who are hired by the expanding firms. Their plight is not made any easier by the gains that accrue to other workers. We discuss these overall welfare consequences in the next section.
 
-# Consequences of Multinationals and Foreign Outsourcing
+## Consequences of Multinationals and Foreign Outsourcing
 
 Earlier in this chapter, we mentioned that internal economies of scale, product differentiation, and performance differences across firms combined to deliver some new channels for the gains from trade: Increased product variety and higher industry performance as firms move down their average cost curve and production is concentrated in the larger, more productive firms. What are the consequences for welfare of the expansion in multinational production and outsourcing?
 
@@ -662,7 +673,7 @@ We can therefore predict similar welfare consequences for the case of multinatio
 
 Yet some of the most visible effects of multinationals and offshoring more generally occur in the short run, as some firms expand employment while others reduce employment in response to increased globalization. In Chapter 4, we described the substantial costs associated with involuntary worker displacements linked to inter-industry trade (especially for lower-skilled workers). The costs associated with displacements linked to offshoring are just as severe for workers with similar characteristics. As we argued in Chapter 4, the best policy response to this serious concern is still to provide an adequate safety net to unemployed workers without discriminating based on the economic force that induced their involuntary unemployment. Policies that impede firms' abilities to relocate production and take advantage of these cost differences may prevent these short-run costs for some, but they also forestall the accumulation of long-run economy-wide gains.
 
-# SUMMARY
+## SUMMARY
 
 Trade need not be the result of comparative advantage. Instead, it can result from increasing returns or economies of scale, that is, from a tendency of unit costs to be lower with larger output. Economies of scale give countries an incentive to specialize and trade even in the absence of differences between countries in their resources or technology. Economies of scale can be internal (depending on the size of the firm) or external (depending on the size of the industry).
 Economies of scale internal to firms lead to a breakdown of perfect competition; models of imperfect competition must be used instead to analyze the consequences of increasing returns at the level of the firm. An important model of this kind is the monopolistic competition model, which is widely used to analyze models of firms and trade.
@@ -678,7 +689,7 @@ investment (FDI). One alternative is to outsource those parts of the production 
 
 - Multinational firms and firms that outsource parts of production to foreign countries take advantage of cost differences across production locations. This is similar to models of comparative advantage where production at the level of the industry is determined by differences in relative costs across countries. The welfare consequences are similar as well: There are aggregate gains from increased multinational production and outsourcing, but also changes in the income distribution that leaves some people worse off.
 
-# KEY TERMS
+## KEY TERMS
 
 antidumping duty, p. 220
 
@@ -717,116 +728,4 @@ oligopoly,p.201
 product differentiation, p. 200 pure monopoly, p. 198
 
 vertical FDI, p. 223
-
-# PROBLEMS
-
-1. In perfect competition, firms set price equal to marginal cost. Why can't firms do this when there are internal economies of scale?
-2. Suppose the two countries we considered in the numerical example on pages 208-212 were to integrate their automobile market with a third country and a fourth country, which have an annual market for 2 million and 1 million automobiles, respectively. Find the number of firms, the output per firm, and the price per automobile in the new integrated market after trade.
- 3. Suppose that fixed costs for a firm in the automobile industry (start-up costs of factories, capital equipment, and so on) are \$7.5 billion and that variable costs are equal to \$20,000 per finished automobile. Because more firms increase competition in the market, the market price falls as more firms enter an automobile market or specifically, P = 20,000 + 200 > n, where n represents the number of firms in a market. Assume that the initial size of the U.S. and the European automobile markets are 400 million and 650 million people, respectively.
-
-a. Calculate the equilibrium number of firms in the U.S. and European automobile markets without trade.
-b. What is the equilibrium price of automobiles in the United States and Europe if the automobile industry is closed to foreign trade?
-
-c. Now suppose the United States decides on free trade in automobiles with Europe. The trade agreement with the Europeans adds 533 million consumers to the automobile market, in addition to the 300 million in the United States. How many automobile firms will there be in the United States and Europe combined? What will be the new equilibrium price of automobiles?
-d. Why are prices in the United States different in (c) and (b)? Are consumers better off with free trade? In what ways?
-
-4. Go back to the model with firm performance differences in a single integrated market (pp. 214-216). Now assume a new technology becomes available. Any firm can adopt the new technology, but its use requires an additional fixed-cost investment. The benefit of the new technology is that it reduces a firm's marginal cost of production by a given amount.
-
-a. Could it be profit maximizing for some firms to adopt the new technology but not profit maximizing for other firms to adopt that same technology? Which firms would choose to adopt the new technology? How would they be different from the firms that choose not to adopt it?
-b. Now assume there are also trade costs. In the new equilibrium with both trade costs and technology adoption, firms decide whether to export and also whether to adopt the new technology. Would exporting firms be more or less likely to adopt the new technology relative to nonexporters? Why?
-
-5. In the chapter, we described a situation where dumping occurs between two symmetric countries. Briefly describe how things would change if the two countries had different sizes.
-
-a. How would the number of firms competing in a particular market affect the likelihood that an exporter to that market would be accused of dumping? (Assume the likelihood of a dumping accusation is related to the firm's price difference between its domestic price and its export price: the higher the price difference, the more likely the dumping accusation.)
-b. Would a firm from a small country be more or less likely to be accused of dumping when it exports to a large country (relative to a firm from the large country exporting to the small country)?
-
-6. Which of the following are foreign direct investments?
-
-a. A Chinese company pays \$6.49 million for a stake in the Hilton.
-b. A Russian businessman buys \$44 billion on FOREX.
-c. An American company buys another American company; stockholders in the bought U.S. company sell their shares on FOREX.
-d. A Turkish company builds a factory in Ethiopia and manages the factory as a contractor to the Turkish government.
-
-7. For each of the following, specify whether the foreign direct investment is horizontal or vertical; in addition, describe whether that investment represents an FDI inflow or outflow from the countries that are mentioned.
-
-a. Vodafone (a U.K.-based company) plans to improve its network and services in Romania after the results in this market lagged behind other countries.
-b. General Electric (an American company) buys Alstom (another American company) energy assets.
-
-c. Exxon (an American company) plans the construction of new delayed coker unit in Belgium.
-d. Petro China (a Chinese company) plans to invest in global oil and natural gas assets in a venture in Western Australia.
-
-8. If there are internal economies of scale, why would it ever make sense for a firm to produce the same good in more than one production facility?
-9. Most firms in the apparel and footwear industries choose to outsource production to countries where labor is abundant (primarily, Southeast Asia and the Caribbean)—but those firms do not integrate with their suppliers there. On the other hand, firms in many capital-intensive industries choose to integrate with their suppliers. What could be some differences between the labor-intensive apparel and footwear industries on the one hand and capital-intensive industries on the other hand that would explain these choices?
-10. Consider the example of industries in problem 9. What would those choices imply for the extent of intra-firm trade across industries? That is, in what industries would a greater proportion of trade occur within firms?
-
-# FURTHER READINGS
-
-Pol Antras. Global Production: Firms, Contracts, and Trade Structure. Princeton, NJ: Princeton University Press, 2015. An excellent reference book on the theory and empirics of offshoring, outsourcing, and global value chains.
-Andrew B. Bernard, J. Bradford Jensen, Stephen J. Redding, and Peter K. Schott. "Firms in International Trade." Journal of Economic Perspectives 21 (Summer 2007), pp. 105-130. A nontechnical description of empirical patterns of trade at the firm level that focuses on U.S. firms.
-Andrew B. Bernard, J. Bradford Jensen, and Peter K. Schott. "Importers, Exporters, and Multinationals: A Portrait of Firms in the US that Trade Goods," in T. Dunne, J. B. Jensen, and M. J. Roberts, eds. *Producer Dynamics: New Evidence from Micro Data*. Chicago: University of Chicago Press, 2009. A nontechnical description of empirical patterns of trade at the firm level that focuses on U.S. firms and multinationals operating in the United States.
-Robert Feenstra. "Integration of Trade and Disintegration of Production in the Global Economy." Journal of Economic Perspectives 12 (Fall 1998), pp. 32-50. A description of how the supply chain has been broken up into many processes that are then performed in different locations.
-Gordon Hanson, Raymond Mataloni, and Matthew Slaughter. "Vertical Production Networks in Multinational Firms." Review of Economics and Statistics 87 (March 2005), pp. 664-678. An empirical description of vertical FDI patterns based on multinationals operating in the United States.
-Keith Head. *Elements of Multinational Strategy*. New York: Springer, 2007. A textbook focused on multinationals.
-Elhanan Helpman. "Trade, FDI, and the Organization of Firms." Journal of Economic Literature 44 (September 2006), pp. 589-630. A technical survey of recent research on models that incorporate firm performance differences and on multinationals and outsourcing.
-Elhanan Helpman. Understanding Global Trade. Cambridge, MA: Harvard University Press, 2011. A nontechnical book that covers both comparative advantage theories of trade and more recent theories of trade based on the firm.
-
-Elhanan Helpman and Paul R. Krugman. *Market Structure and Foreign Trade*. Cambridge: MIT Press, 1985. A technical presentation of monopolistic competition and other models of trade with economies of scale.
-J. Bradford Jensen. *Global Trade in Services: Fear, Facts, and Offshoring*. Washington, DC: Peterson Institute for International Economics, 2011. A nontechnical book focusing on the effects of increased trade in services for the U.S. economy.
-James Markusen. "The Boundaries of Multinational Enterprises and the Theory of International Trade." Journal of Economic Perspectives 9 (Spring 1995), pp. 169-189. A nontechnical survey of models of trade and multinationals.
-Thierry Mayer and Gianmarco I. P. Ottaviano. "The Happy Few: The Internationalisation of European Firms: New Facts Based on Firm-Level Evidence." Intereconomics 43 (May/June 2008), pp. 135-148.
-Marc J. Melitz and Daniel Trefler. "Gains from Trade When Firms Matter." Journal of Economic Perspectives 26 (2012), pp. 91-118. A nontechnical survey that develops the monopolistic competition model with performance differences across firms in greater detail than in this chapter. The paper also contains a detailed description of the associated evidence for Canadian firms following implementation of the Canada-U.S. Free Trade Agreement.
-
-# Determining Marginal Revenue
-
-In our exposition of monopoly and monopolistic competition, we found it useful to have an algebraic statement of the marginal revenue faced by a firm given the demand curve it faced. Specifically, we asserted that if a firm faces the demand curve
-
-$$
-Q = A - B \times P, \tag{8A-1}
-$$
-
-its marginal revenue is
-
-$$
-M R = P - (1 / B) \times Q. \tag{8A-2}
-$$
-
-In this appendix, we demonstrate why this is true.
-
-Notice first that the demand curve can be rearranged to state the price as a function of the firm's sales rather than the other way around. By rearranging (8A-1), we get
-
-$$
-P = (A / B) - (1 / B) \times Q. \tag{8A-3}
-$$
-
-The revenue of a firm is simply the price it receives per unit multiplied by the number of units it sells. Letting  $R$  denote the firm's revenue, we have
-
-$$
-R = P \times Q = [ (A / B) - (1 / B) \times Q ] \times Q. \tag{8A-4}
-$$
-
-Let us next ask how the revenue of a firm changes if it changes its sales. Suppose the firm decides to increase its sales by a small amount,  $dX$ , so that the new level of sales is  $Q = Q + dQ$ . Then the firm's revenue after the increase in sales,  $R$ , will be
-
-$$
-\begin{array}{l} R^{\prime} = P^{\prime} \times Q^{\prime} = [ (A / B) - (1 / B) \times (Q + d Q) ] \times (Q + d Q) \\ = \left[ (A / B) - (1 / B) \times Q \right] \times Q + \left[ (A / B) - (1 / B) \times Q \right] \times d Q \\ - (1 / B) \times Q \times d Q - (1 / B) \times (d Q)^{2}. \tag{8A-5} \\ \end{array}
-$$
-
-Equation (8A-5) can be simplified by substituting in from (8A-1) and (8A-4) to get
-
-$$
-R^{\prime} = R + P \times d Q - (1 / B) \times Q \times d Q - (1 / B) \times (d Q)^{2}. \tag{8A-6}
-$$
-
-When the change in sales  $dQ$  is small, however, its square  $(dQ)^2$  is very small (e.g., the square of 1 is 1, but the square of 1/10 is 1/100). So for a small change in  $Q$ , the last term in (8A-6) can be ignored. This gives us the result that the change in revenue from a small change in sales is
-
-$$
-R^{\prime} = R = [ P - (1 / B) \times Q ] \times d Q. \tag{8A-7}
-$$
-
-So the increase in revenue per unit of additional sales—which is the definition of marginal revenue—is
-
-$$
-M R = \left(R^{\prime} - R\right) / d Q = P - (1 / B) \times Q,
-$$
-
-which is just what we asserted in equation (8A-2).
 

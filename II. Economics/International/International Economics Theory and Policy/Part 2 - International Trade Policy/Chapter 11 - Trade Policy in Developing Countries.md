@@ -1,11 +1,24 @@
 ---
+title: "Trade Policy in Developing Countries"
+parent_directory: "II. Economics/International/International Economics Theory and Policy/Part 2 - International Trade Policy"
+formatted: "2025-12-21 08:40:00 AM"
+formatter_model: "obsidian-formatting-agent"
 primary_tags:
-- economic policy difference countries
-- trade policy objectives specifying
+  - trade policy developing countries
+  - import substituting industrialization
+  - infant industry argument
+  - export led growth strategy
+  - asian economic miracle
 secondary_tags:
-- trade policies economic development
-- analyzed instruments trade policy
-tags_extracted: '2025-12-18T00:52:39.001554'
+  - economic development policies
+  - protectionism developing nations
+  - comparative advantage theory
+  - international trade liberalization
+  - manufacturing sector promotion
+  - foreign investment regulation
+  - market oriented reforms
+  - economic growth convergence
+cssclasses: academia
 ---
 
 # TRADE POLICY IN DEVELOPING COUNTRIES
@@ -14,7 +27,7 @@ So far, we have analyzed the instruments of trade policy and its objectives with
 
 Why are some countries so much poorer than others? Why have some countries that were poor a generation ago succeeded in making dramatic progress while others have not? These are deeply disputed questions, and to try to answer them—or even to describe at length the answers that economists have proposed over the years—would take us outside the scope of this book. What we can say, however, is that changing views about economic development have had a major role in determining trade policy.
 
-For about 30 years after World War II, trade policies in many developing countries were strongly influenced by the beliefs that the key to economic development was the creation of a strong manufacturing sector and that the best way to create that manufacturing sector was to protect domestic manufacturers from international competition. The first part of this chapter describes the rationale for this strategy of import-substituting industrialization as well as the critiques of that strategy that became increasingly common after about 1970 and the emergence
+For about 30 years after World War II, trade policies in many developing countries were strongly influenced by the beliefs that the key to economic development was the creation of a strong manufacturing sector and that the best way to create that manufacturing sector was to protect domestic manufacturers from international competition. The first part of this chapter describes the rationale for this strategy of import-substituting industrialization as well as the critiques of that strategy that became increasingly common after about 1970 and the emergence of a new conventional wisdom that stressed the virtues of free trade.
 
 TABLE 11-1 Gross Domestic Product Per Capita, 2019 (dollars, adjusted for differences in price levels)
 
@@ -29,7 +42,7 @@ Finally, while economists have debated the reasons for persistent large income g
 After reading this chapter, you will be able to:
 
 - Recapitulate the case for protectionism as it has been historically practiced in developing countries and discuss import-substitution-led industrialization and the "infant industry" argument.
-Summarize the basic ideas behind "economic dualism" and its relationship to international trade.
+- Summarize the basic ideas behind "economic dualism" and its relationship to international trade.
 - Discuss the recent economic history of the Asian countries, such as China and India, and detail the relationship between their rapid economic growth and their participation in international trade.
 
 # Import-Substituting Industrialization
@@ -84,11 +97,11 @@ After the Soviet Union collapse in 1991, various countries gained their independ
 
 By 2000, Lithuania was involved with over 160 countries in economic relations. One of the Lithuania's transition goals was reorientation of trade away from the former Soviet Union and toward the West. Accession to the WTO helped Lithuania in further reorientation of its trade relation away from Russia and other CIS countries, helping it to increase its trade at a time of fragile economic stability. On the other hand, by becoming a WTO member Lithuania had to take steps toward market-based agriculture policies. Lithuania could not avoid the European Union (EU) agriculture disciplines and therefore had to reduce domestic agriculture subsidies by 20 percent over five years and remove agricultural export subsidies. This process demonstrated that Lithuania was preparing for EU accession in 2004. The accession process was followed by the adoption of the EU common trade policy, which included all trade agreements concluded between the EU and third countries.[2] A number of these policies together with trade liberalization in Lithuania and other smaller EU countries helped to boost exports. Membership in WTO and EU accession assured investors some stability to enter the market. In 1995, Lithuanian export was 53 percent of GDP—and much of that was trade with Russia, which negatively affected Lithuania during the Russian financial crisis in 1998. This was an expensive lesson indicating that dependency on such an unpredictable economy was risky. In 2015, exports grew up to 76 percent of GDP and their main partner became the EU. Lithuanian companies also became more oriented toward international trade and the international market, because this increases their yield, increases internationalization, provides higher return on investments, creates new jobs, and influences the growth of economy.
 
-The export-led strategy is supported in underdeveloped economics with insufficient capital and technology and narrow markets. The deregulation of the industry, international investment and trade has resulted in a greater number of new domestic
+The export-led strategy is supported in underdeveloped economies with insufficient capital and technology and narrow markets. The deregulation of the industry, international investment and trade has resulted in a greater number of new domestic
 
 <table><tr><td>TABLE 11-2</td><td colspan="5">Lithuanian Export (Percentage of GDP)</td></tr><tr><td></td><td>1995</td><td>2000</td><td>2005</td><td>2010</td><td>2015</td></tr><tr><td>Export, % of GDP</td><td>53</td><td>43</td><td>59</td><td>68</td><td>76</td></tr></table>
 
-and foreign competitors. It increased competition in the local market and reduced opportunities for the domestic companies to sell within the country, being forced to search for other distribution methods in foreign countries.<sup>3</sup> Consequently, today Lithuania's international trade through export has helped people in the country obtain economic welfare to improve their life conditions. Extensions of markets also help promote income growth per capita (from  $2,169 in 1995 to$ 14,172 in 2015). For small countries, the export-led strategy provides opportunities for growth. However, one negative aspect of this strategy is it is highly dependent upon exports. Countries such as Lithuania are too small to be devoted to serving only their own small domestic market (in case of import substitution strategy). Despite having small geographical areas, small populations, and little market, export-led strategy helps small countries obtain large-scale economic profit. However, most of the countries in the world are implementing this export-led strategy, causing enormous competition not only for high productivity in developed countries but also with other developing countries. International competition is tough and exports are certain to decline.
+and foreign competitors. It increased competition in the local market and reduced opportunities for the domestic companies to sell within the country, being forced to search for other distribution methods in foreign countries.<sup>3</sup> Consequently, today Lithuania's international trade through export has helped people in the country obtain economic welfare to improve their life conditions. Extensions of markets also help promote income growth per capita (from $2,169 in 1995 to $14,172 in 2015). For small countries, the export-led strategy provides opportunities for growth. However, one negative aspect of this strategy is it is highly dependent upon exports. Countries such as Lithuania are too small to be devoted to serving only their own small domestic market (in case of import substitution strategy). Despite having small geographical areas, small populations, and little market, export-led strategy helps small countries obtain large-scale economic profit. However, most of the countries in the world are implementing this export-led strategy, causing enormous competition not only for high productivity in developed countries but also with other developing countries. International competition is tough and exports are certain to decline.
 
 # Results of Favoring Manufacturing: Problems of Import-Substituting Industrialization
 
@@ -96,7 +109,7 @@ Import-substituting industrialization began to lose favor when it became clear t
 
 Why didn't import-substituting industrialization work the way it was supposed to? The most important reason seems to be that the infant industry argument is not as universally valid as many people had assumed. A period of protection will not create a competitive manufacturing sector if there are fundamental reasons why a country lacks a comparative advantage in manufacturing. Experience has shown that the reasons for failure to develop often run deeper than a simple lack of experience with manufacturing. Poor countries lack skilled labor, entrepreneurs, and managerial competence and have problems of social organization that make it difficult for these countries to maintain reliable supplies of everything from spare parts to electricity. These problems may not be beyond the reach of economic policy, but they cannot be solved by trade policy: An import quota can allow an inefficient manufacturing sector to survive, but it cannot directly make that sector more efficient. The infant industry argument is that, given the temporary shelter of tariffs or quotas, the manufacturing industries of less-developed nations will learn to be efficient. In practice, this is not always, or even usually, true.
 
-With import substitution failing to deliver the promised benefits, attention turned to the costs of the policies used to promote industry. On this issue, a growing body of evidence showed that the protectionist policies of many less-developed countries badly distorted incentives. Part of the problem was that many countries used excessively complex methods to promote their infant industries. That is, they used elaborate and often overlapping import quotas, exchange controls, and domestic content rules instead of simple tariffs. It is often difficult to determine how much protection an administrative
+With import substitution failing to deliver the promised benefits, attention turned to the costs of the policies used to promote industry. On this issue, a growing body of evidence showed that the protectionist policies of many less-developed countries badly distorted incentives. Part of the problem was that many countries used excessively complex methods to promote their infant industries. That is, they used elaborate and often overlapping import quotas, exchange controls, and domestic content rules instead of simple tariffs. It is often difficult to determine how much protection an administrative regulation is actually providing, and studies show that the degree of protection is often both higher and more variable across industries than the government intended.
 
 <table><tr><td>TABLE 11-3</td><td>Effective Protection of Manufacturing
 in Some Developing Countries (percent)</td></tr><tr><td>Mexico (1960)</td><td>26</td></tr><tr><td>Philippines (1965)</td><td>61</td></tr><tr><td>Brazil (1966)</td><td>113</td></tr><tr><td>Chile (1961)</td><td>182</td></tr><tr><td>Pakistan (1963)</td><td>271</td></tr><tr><td colspan="2">Source: Bela Balassa, The Structure of Protection in Developing
@@ -132,9 +145,8 @@ But trade liberalization, like import substitution, was intended as a means to a
 The answer is that the picture is mixed. Growth rates in Brazil and other Latin American countries have actually been slower since the trade liberalization of the late 1980s than they were during import-substituting industrialization. India, on the other hand, has experienced an impressive acceleration of growth—but as we'll see in the next
 
 ![](https://cdn-mineru.openxlab.org.cn/result/2025-12-07/f1fd977d-0ee5-48f0-b5f0-9e2e3dc44c2d/0198fd099741b17cd9c3325dac513d77e657d7fe290cbbb3a0fe84a90e1432dc.jpg)
-Exports as a percentage of GDP
 
-# FIGURE 11-2
+FIGURE 11-2
 
 # The Growth of Developing-Country Trade
 
@@ -142,7 +154,7 @@ Beginning in the 1980s, many developing countries began shifting away from impor
 
 Source: http://data.worldbank.org/indicator/NE.EXP.GNFS.ZS, http://data.worldbank.org/indicator/NE.IMP.GNFS.ZS
 
-section of this chapter, there is intense dispute about how much of that acceleration can be attributed to trade liberalization.
+In the next section of this chapter, there is intense dispute about how much of that acceleration can be attributed to trade liberalization.
 
 In addition, there is growing concern about rising inequality in developing countries. In Latin America at least, the switch away from import-substituting industrialization seems to have been associated with declining real wages for blue-collar workers, even as earnings of highly skilled workers have risen.
 
@@ -188,13 +200,9 @@ India, with a population of more than 1.1 billion people, is the world's second-
 
 Yet a generation ago, India was a very minor player in world trade. In part this was because the country's economy performed poorly in general: Until about 1980, India eked out a rate of economic growth—sometimes mocked as the "Hindu rate of growth"—that was only about 1 percentage point higher than population growth.
 
-This slow growth was widely attributed to the stifling effect of bureaucratic restrictions. Observers spoke of a "license Raj": Virtually any kind of business initiative required hard-to-get government permits, which placed a damper on investment and innovation. And India's sluggish economy
+This slow growth was widely attributed to the stifling effect of bureaucratic restrictions. Observers spoke of a "license Raj": Virtually any kind of business initiative required hard-to-get government permits, which placed a damper on investment and innovation. And India's sluggish economy participated little in world trade. After the country achieved independence in 1948, its leaders adopted a particularly extreme form of import-substituting industrialization as the country's development strategy: India imported almost nothing that it could produce domestically, even if the domestic product was far more expensive and of lower quality than what could be bought abroad. High costs, in turn, crimped exports. So India was a very "closed" economy. In the 1970s, imports and exports averaged only about 5 percent of GDP, close to the lowest levels of any major nation.
 
-participated little in world trade. After the country achieved independence in 1948, its leaders adopted a particularly extreme form of import-substituting industrialization as the country's development strategy: India imported almost nothing that it could produce domestically, even if the domestic product was far more expensive and of lower quality than what could be bought abroad. High costs, in turn, crimped exports. So India was a very "closed" economy. In the 1970s, imports and exports averaged only about 5 percent of GDP, close to the lowest levels of any major nation.
-
-Then everything changed. India's growth accelerated dramatically: GDP per capita, which had risen at an annual rate of only 1.3 percent from 1960 to 1980, has grown at close to 4 percent annually since 1980. And India's participation in world trade surged as tariffs were brought down and import quotas were removed. In short, India has become a high-performance economy. It's still a very poor
-
-country, but it is rapidly growing richer and has begun to rival China as a focus of world attention.
+Then everything changed. India's growth accelerated dramatically: GDP per capita, which had risen at an annual rate of only 1.3 percent from 1960 to 1980, has grown at close to 4 percent annually since 1980. And India's participation in world trade surged as tariffs were brought down and import quotas were removed. In short, India has become a high-performance economy. It's still a very poor country, but it is rapidly growing richer and has begun to rival China as a focus of world attention.
 
 The big question, of course, is why India's growth rate has increased so dramatically. That question is the subject of heated debate among economists. Some have argued that trade liberalization, which allowed India to participate in the global economy, was crucial.[5] Others point
 
@@ -216,26 +224,9 @@ appropriability, p. 315
 
 developing countries, p. 313
 
-imperfect capital
+imperfect capital markets, p. 315
 
-markets,p.315
-
-import-substituting industrial
-
-ization,p.316
-
-# PROBLEMS
-
-1. Which countries appear to have benefited the most from international trade during the last few decades? What policies do these countries seem to have in common? Does their experience lend support for the infant industry argument or help to argue against it?
-2. Why do you think the problems with the infant industry argument are criticized by many economists? Explain why the example of Asian countries creates controversies in this matter.
- 3. Country A currently imports solar panels at \$30,000 each. The government is using only 10 percent of the program as domestic content, exporting clean energy to neighboring countries. Country B imports solar panels also at \$25,000 each, but uses 70 percent of the program as domestic content. If both countries produced solar panels home, the costs would have reached \$25,000 for country A and \$20,000 for country B, but there would have been an initial shakedown period during which solar panels would cost \$35,000 for country A to produce and \$40,000 for country B to produce.
-
-a. Suppose each country must go through a shakedown period of high costs on its own, before accessing any financial support from abroad. Under what circumstances would the existence of the initial high costs justify infant industry protection?
-b. Now suppose that both countries bring infant industry argument for protecting this industry. Explain which country will be successful in preserving this argument and why.
-
-4. From Figure 11-3, we observe that South Korea, China, and India experienced major changes in their economic policies during the 1960s. What would account for the differences in their development paths?
-
-5. What were some of the reasons for the decline in the import-substituting industrialization strategy in favor of a strategy that promotes open trade?
+import-substituting industrialization, p. 316
 
 # FURTHER READINGS
 

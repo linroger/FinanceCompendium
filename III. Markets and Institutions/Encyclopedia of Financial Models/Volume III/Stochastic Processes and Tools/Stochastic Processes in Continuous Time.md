@@ -1,23 +1,48 @@
 
+---
+title: "Stochastic Processes in Continuous Time"
+parent_directory: "III. Markets and Institutions/Encyclopedia of Financial Models/Volume III/Stochastic Processes and Tools"
+formatted: 2025-12-21 11:30:00 AM
+formatter_model: kimi-k2-turbo
+cli_tool: claude-code
+primary_tags:
+  - stochastic processes
+  - continuous time processes
+  - brownian motion
+  - levy processes
+  - tempered stable processes
+secondary_tags:
+  - poisson processes
+  - jump diffusion
+  - gamma processes
+  - inverse gaussian processes
+  - variance gamma processes
+  - alpha stable processes
+  - time changed processes
+  - mathematical finance
+  - probability theory
+cssclasses: academia
+---
+
 # Stochastic Processes in Continuous Time
 
-SVETLOZAR T. RACHEV, PhD, Dr Sci
+## Authors
 
+SVETLOZAR T. RACHEV, PhD, Dr Sci  
 Frey Family Foundation Chair-Professor, Department of Applied Mathematics and Statistics, Stony Brook University, and Chief Scientist, FinAnalytica
 
-YOUNG SHIN KIM, PhD
-
+YOUNG SHIN KIM, PhD  
 Research Assistant Professor, School of Economics and Business Engineering, University of Karlsruhe and KIT
 
-MICHELE LEONARDO BIANCHI, PhD
-
+MICHELE LEONARDO BIANCHI, PhD  
 Research Analyst, Specialized Intermediaries Supervision Department, Bank of Italy
 
-FRANK J. FABOZZI, PhD, CFA, CPA
-
+FRANK J. FABOZZI, PhD, CFA, CPA  
 Professor of Finance, EDHEC Business School
 
-Abstract: The dynamic of a financial asset's returns and prices can be expressed using a deterministic process if there is no uncertainty about its future behavior, or with a stochastic process in the more likely case when the value is uncertain. Stochastic processes in continuous time are the most used tool to explain the dynamics of a financial asset's returns and prices. They are the building blocks with which to construct financial models for portfolio optimization, derivatives pricing, and risk management. Continuous-time processes allow for more elegant theoretical modeling compared to discrete-time models and many results proven in probability theory can be applied to obtain a simple evaluation method.
+## Abstract
+
+The dynamic of a financial asset's returns and prices can be expressed using a deterministic process if there is no uncertainty about its future behavior, or with a stochastic process in the more likely case when the value is uncertain. Stochastic processes in continuous time are the most used tool to explain the dynamics of a financial asset's returns and prices. They are the building blocks with which to construct financial models for portfolio optimization, derivatives pricing, and risk management. Continuous-time processes allow for more elegant theoretical modeling compared to discrete-time models and many results proven in probability theory can be applied to obtain a simple evaluation method.
 
 In 1900, the father of modern option pricing theory, Louis Bachelier, proposed using Brownian motion for modeling stock market prices. There are several reasons why Brownian motion is a popular process. First, Brownian motion is the milestone of the theory of stochastic processes.
 
@@ -39,7 +64,6 @@ $$
 \begin{array}{l} V (X (\omega))_{t} = \lim_{n \rightarrow \infty} \sum_{k = 1}^{n} | X_{t k / n} (\omega) - X_{t (k - 1) / n} (\omega) |, \\ \forall t > 0 \\ \end{array}
 $$ is finite (infinite) for almost every  $\omega \in \Omega$ .
 
-
 - The characteristic function of the stochastic process  $X = (X_{t})_{t\geq 0}$  on  $\mathbb{R}$  is defined as the function  $\phi :\mathbb{R}\to \mathbb{C}$
 
 
@@ -47,7 +71,7 @@ $$
 \phi_{X_{t}} (u) = E \left[ e^{i u X_{t}} \right]
 $$
 
-# POISSON PROCESS
+## POISSON PROCESS
 
 Consider a process  $N = (N_{t})_{t\geq 0}$  derived by a Poisson distribution with parameter  $\lambda$  as follows:
 
@@ -70,7 +94,7 @@ $$ then it can be proven that the process  $(N_{t})_{t\geq 0}$  is the Poisson p
 
 The Poisson process is a fundamental example of a stochastic process with discontinuous trajectories, and a building block for constructing more complex jump processes.
 
-# Compounded Poisson Process
+### Compounded Poisson Process
 
 The process  $X = (X_{t})_{t\geq 0}$  is referred to as a compounded Poisson process if  $X$  is defined by
 
@@ -91,7 +115,7 @@ $$
 
 Moreover, if  $f$  is given by the probability density function of the normal distribution, then  $X$  is referred to as a jump diffusion process.
 
-# PURE JUMP PROCESS
+## PURE JUMP PROCESS
 
 Consider a process  $X^{x} = (X_{t}^{x})_{t\geq 0}$  for a given real number  $x$  such that
 
@@ -167,7 +191,7 @@ $$ where  $\phi_{z_t}(u)$  is the characteristic function of  $Z_{t}$  for  $t >
 
 If  $t = 1$ , then we obtain the purely non-Gaussian infinitely divisible random variable. In fact, there is a one-to-one correspondence between a purely non-Gaussian infinitely divisible random variable and a pure jump process.
 
-# Gamma Process
+### Gamma Process
 
 Consider the gamma distribution with parameter  $(c,\lambda)$ . Since the gamma distribution is a purely non-Gaussian infinitely divisible distribution, we can define a pure jump process  $G = (G_{t})_{t\geq 0}$  such that  $G_{1}\sim \mathrm{Gamma}(c,\lambda)$ . By equation (3), the characteristic function  $\phi_{G_t}$  of  $G_{t}$  is given by
 
@@ -177,7 +201,7 @@ $$
 
 In this case, the process  $G$  is referred to as the gamma process with parameter  $(\lambda, c)$ . The sample path of the gamma process is non-decreasing, since the gamma distribution is supported only on the positive real line. When we take  $c = 1$  of the gamma process, the process is referred to as an exponential process.
 
-# Inverse Gaussian Process
+### Inverse Gaussian Process
 
 Consider the inverse Gaussian distribution with parameter  $(c,\lambda)$ . Since the inverse Gaussian distribution is also a purely non-Gaussian infinitely divisible distribution, we can define a pure jump process  $X = (X_{t})_{t\geq 0}$  such that  $X_{1}\sim IG(c,\lambda)$ . By equation (3), the characteristic function  $\phi_{X_t}$  of  $X_{t}$  is given by
 
@@ -187,7 +211,7 @@ $$
 
 In this case, the process  $X$  is referred to as the inverse Gaussian (IG) process with parameter  $(c, \lambda)$ . The sample path of the gamma process is nondecreasing, since the inverse Gaussian distribution is supported only on the positive real line.
 
-# Variance Gamma Process
+### Variance Gamma Process
 
 The variance gamma process is an infinitely divisible distribution. Thus we can define pure jump processes  $X = (X_{t})_{t\geq 0}$  such that  $X_{1}\sim VG(C, \lambda_{+},\lambda_{-})$ . By equation (3), the characteristic function  $\phi_{X_t}$  of  $X_{t}$  is given by
 
@@ -197,7 +221,7 @@ $$
 
 In this case, the process  $X$  is referred to as the variance gamma (VG) process with parameter  $(C,\lambda_{+},\lambda_{-})$ .
 
-# $\alpha$  -Stable Process
+### $\alpha$-Stable Process
 
 The pure jump process  $X = (X_{t})_{t\geq 0}$  is referred to as the  $\alpha$  -stable process with parameters  $(\alpha ,\sigma ,\beta ,\mu)$  if  $X_{1}$  is an  $\alpha$  -stable random variable, that is,  $X_{1}\sim S_{\alpha}(\sigma ,\beta ,\mu)$  . By equation (3), the characteristic function  $\phi_{X_t}$  of  $X_{t}$  is given by
 
@@ -221,7 +245,7 @@ $$
 $$ we conclude that the  $\alpha$ -stable process has finite variation if  $\alpha < 1$  and the infinite variation if  $\alpha \geq 1$ .
 
 
-# Tempered Stable Process
+### Tempered Stable Process
 
 The pure jump process  $X = (X_{t})_{t\geq 0}$  is referred to as the tempered stable process if  $X_{1}$  is the tempered stable random variable.
 
@@ -253,7 +277,7 @@ Table 1 Characteristic Exponents of Tempered Stable Processes
 <table><tr><td>Process</td><td>ψxt(u) = log φxt(u)</td></tr><tr><td>CTS</td><td>iumt - iutCΓ(1 - α)(λ+α-1 - λ-α-1) +tCΓ(-α)((λ+ - iu)α - λ+α + (λ- + iu)α - λ-)</td></tr><tr><td>GTS</td><td>iumt - iutΓ(1 - α)(C+λ+α-1 - C-λ-α-1) +tC+Γ(-α+)((λ+ - iu)α+ - λ+) + tC-Γ(-α-)((λ- + iu)α- - λ-))</td></tr><tr><td>MTS</td><td>iumt + tC(GR(u; α, λ+)+GR(u; α, λ-)) + iutC(GI(u; α, λ+)-GI(u; α, λ-)) where GR(x; α, λ) = 2-α+3/2√πΓ(-α/2) ((λ2 + x2)α/2 - λα) and GI(x; α, λ) = 2-α+1/2Γ(1 - α/2) λα-1[2F1(1, 1 - α/2; 3/2; -x2/λ2) - 1]</td></tr><tr><td>NTS</td><td>iumt - iut2-α-1/2C√πΓ(1 - α/2)β(λ2 - β2)α/2-1 +t2-α+1/2C√πΓ(-α/2) ((λ2 - (β + iu)2)α/2 - (λ2 - β2)α/2)</td></tr><tr><td>NIG</td><td>iumt - iutcβ/√λ2 - tc(√λ2 - (β + iu)2 - √λ2 - β2)</td></tr><tr><td>KRTS</td><td>iumt - iutΓ(1 - α)(k+ r+ p+1 - k-r- p+1) +tk+H(iu; α, r+, p+) + tk-H(-iu; α, r-, p-) where H(x; α, r, p) = Γ(-α)/p(2F1(p, -α; 1 + p; rx) - 1)</td></tr><tr><td>RDTS</td><td>iumt + tC(Giu; α, λ+) + G(-iu; α, λ-)) where G(x; α, λ) = 2-α/2-1λαΓ(-α/2)(M(-α/2, 1/2; x2/2λ2) - 1) +2-α/2-1/2λα-1xΓ(1 - α/2)(M(1 - α/2, 3/2; x2/2λ2) - 1)</td></tr></table> tempered stable process has infinite activity, and has finite variation if  $\alpha < 1$  and infinite variation if  $\alpha \geq 1$ , as explained in Carr et al. (2002), Kim (2005), and Kim et al. (2008 and 2010).
 
 
-# BROWNIAN MOTION
+## Brownian Motion
 
 In this section, we will discuss Brownian motion by means of an example. We begin with a short summary of the most important and defining properties of a standard Brownian motion  $W = (W_{t})_{t\geq 0}$
 
@@ -355,7 +379,7 @@ Moreover, the distribution of  $X_{t}^{(k)}$  will approach the normal distribut
 
 In the context of financial applications, there are two main variants of the standard Brownian motion which have to be mentioned: the arithmetic and the geometric Brownian motion. Both are obtained as a function of the standard Brownian motion.
 
-# Arithmetic Brownian Motion
+### Arithmetic Brownian Motion
 
 Given a Brownian motion  $(W_{t})_{t\geq 0}$  and two real constants  $\mu$  and  $\sigma$ , the arithmetic Brownian motion  $(X_{t})_{t\geq 0}$  is obtained as:
 
@@ -365,7 +389,7 @@ $$
 
 The process  $(X_{t})_{t\geq 0}$  consists of the sum of a purely deterministic linear trend function  $\mu t$  and a rescaled Brownian motion  $\sigma W_{t}$ . The latter has the property that at time  $t$ ,  $\sigma W_{t}$  is normally distributed with mean 0 and variance  $\sigma^2 t$ . The paths will therefore randomly jitter around the deterministic trend with a variance proportional to the point in time  $t$  under consideration. The arithmetic Brownian motion is a simple but popular model for financial asset returns.
 
-# Geometric Brownian Motion
+### Geometric Brownian Motion
 
 Given a Brownian motion  $(W_{t})_{t\geq 0}$ , two real constants  $\mu$  and  $\sigma$ , and a starting value  $S_0 > 0$ , the geometric Brownian motion  $(S_{t})_{t\geq 0}$  is obtained as:
 
@@ -379,7 +403,7 @@ $$
 E [ S_{t} / S_{0} ] = e^{\mu t + \frac{1}{2} \sigma^{2} t}
 $$
 
-# TIME-CHANGED BROWNIAN MOTION
+## Time-Changed Brownian Motion
 
 If a pure jump process process  $T = (T_{t})_{t\geq 0}$  is nondecreasing, that is,  $T_{t}\geq 0$  a.s. for  $t > 0$ , and  $T_{t}\geq T_{s}$  a.s. for  $s\leq t$ , then the process  $T$  is referred to as the subordinator or intrinsic time process. Intuitively, it can be thought of as the cumulative trading volume process for a financial asset which measures the cumulative volume of all the transitions up to physical time  $t$  (Rachev and Mittnik, 2000).
 
@@ -425,7 +449,7 @@ The time-changed Brownian motion construction is well known from the theory of s
 
 Although the representation via Brownian subordination is a nice property, we do not know a general constructive method to find the process  $T_{t}$  such that  $X_{t} = \mu T_{t} + \sigma W_{T_{t}}$ . This means that given a semimartingale  $X_{t}$ , the time process  $T_{t}$  is not always of known form. Thus, this approach can be applied only for some particular Lévy processes.
 
-# Variance Gamma Process
+### Variance Gamma Process
 
 By considering the gamma process as the subordinator of the Brownian motion, we obtain the VG process. That is, the VG process is defined by  $X = (X_{t})_{t\geq 0}$  with
 
@@ -452,7 +476,7 @@ C = c
 $$ we obtain the form given by (6).
 
 
-# Normal Inverse Gaussian Process
+### Normal Inverse Gaussian Process
 
 By considering the inverse Gaussian process as the subordinator of the Brownian motion, we obtain the NIG process.
 
@@ -480,7 +504,7 @@ $$ c = \sqrt{2} k \sigma
 $$ we obtain the NIG process with parameter  $(c, \lambda, \beta, \frac{c\beta}{\sqrt{\lambda^2 - \beta^2}})$ .
 
 
-# Normal Tempered Stable Process
+### Normal Tempered Stable Process
 
 Assume Lévy measure  $\nu$  is equal to
 
@@ -541,7 +565,7 @@ $$ we obtain the NTS process with parameter  $(\alpha, C, \lambda, \beta, m)$  w
 $$ m = - 2^{- \frac{\alpha + 1}{2}} C \sqrt{\pi} \Gamma \left(\frac{\alpha}{2}\right) \beta (\lambda^{2} - \beta^{2})^{\frac{\alpha}{2} - 1}
 $$
 
-# LEVY PROCESS
+## LEVY PROCESS
 
 A stochastic process  $X = (X_{t})_{t\geq 0}$  is called a Lévy process if the following five conditions are satisfied:
 
@@ -571,7 +595,7 @@ $$ where  $\phi_{\sigma W_t}(u)$  is the characteristic function of  $N(0,\sigma
 
 if  $X = (X_{t})_{t\geq 0}$  is a Lévy process, then for any  $t\geq 0$ ,  $X_{t}$  is an infinitely divisible random variable. Conversely, if  $Y$  is an infinitely divisible random variable, then there exists uniquely a Lévy process  $(X_{t})_{t\geq 0}$  such that  $X_{1} = Y$ , as proved by Sato (1999, p. 38).
 
-# KEY POINTS
+## KEY POINTS
 
 - Continuous-time stochastic processes are the building block of financial modeling and they are usually used to explain the uncertain behavior of financial assets. Some results of probability theory can be usefully applied to financial derivatives pricing and risk management.
 - Given any infinitely divisible random variable  $X_1$ , it is possible to define a stochastic process with independent and stationary increments such that for all  $t > s$ , the increment  $X_t - X_s$  has characteristic function  $\exp((t - s)\log \phi_{X_1}(u))$ . These processes are known as Lévy processes.
@@ -580,7 +604,7 @@ if  $X = (X_{t})_{t\geq 0}$  is a Lévy process, then for any  $t\geq 0$ ,  $X_{
 - The Poisson process is a fundamental example of a stochastic process with discontinuous trajectories, and a building block for constructing more complex jump processes.
 - Pure jump processes include also the gamma process, the inverse Gaussian process, the variance gamma process, the  $\alpha$ -stable process, and the tempered stable process.
 
-# REFERENCES
+## REFERENCES
 
 Carr, P., Geman, H., Madan, D., and Yor, M. (2002). The fine structure of asset returns: An empirical investigation. Journal of Business 75, 2: 305-332.
 Cont, R., and Tankov, P. (2004). Financial Modelling with Jump Processes. Boca Raton: CRC Press.

@@ -1,41 +1,24 @@
 ---
-parent_directory: Machine Learning
 title: CS229 - Machine Learning Lecture Notes
-tags: null
-aliases:
-- CS229 Lecture Notes
-- Machine Learning Lecture Notes
-cssclasses: academia
+parent_directory: Machine Learning
+formatted: "2025-12-21 08:45:00 AM"
+formatter_model: "kimi-k2-turbo"
+cli_tool: "claude-code"
 primary_tags:
-- 5-th degree
-- existing training algorithms
-- other gradient-based optimizers
-- vector-valued inputs
-- optional reading
-- multivariate gaussian distribution
-- best approximation
+  - machine learning fundamentals
+  - supervised learning algorithms
+  - linear regression models
+  - gradient descent optimization
+  - maximum likelihood estimation
 secondary_tags:
-- 4.1 gaussian discriminant analysis
-- corresponding word embeddings
-- backpropagation algorithm
-- gradient descent algorithm
-- likelihood estimation
-- support machine
-- prediction example
-- value approximation section
-- large training and test errors
-- conv2d s
-- most commonly used model
-- any vector
-- 6.7 regularization
-- joint likelihood
-- significantly smaller variance
-- three derived features
-- each model times
-- elementary differentiable functions
-- real-world problems
-tags_extracted: '2025-12-18T17:55:15.304707'
-tags_method: max_quality_v1
+  - classification problems
+  - logistic regression
+  - neural networks
+  - regularization techniques
+  - model selection methods
+  - bias variance tradeoff
+  - cross validation
+cssclasses: academia
 ---
 
 # CS229 Lecture Notes
@@ -221,9 +204,9 @@ function  $h$  is called a hypothesis. Seen pictorially, the process is therefor
 
 When the target variable that we're trying to predict is continuous, such as in our housing example, we call the learning problem a regression problem. When  $y$  can take on only a small number of discrete values (such as if, given the living area, we wanted to predict if a dwelling is a house or an apartment, say), we call it a classification problem.
 
-# Chapter 1
+## Chapter 1
 
-# Linear regression
+### Linear regression
 
 To make our housing example more interesting, let's consider a slightly richer dataset in which we also know the number of bedrooms in each house:
 
@@ -237,9 +220,7 @@ $$
 h_{\theta} (x) = \theta_{0} + \theta_{1} x_{1} + \theta_{2} x_{2}
 $$
 
-Here, the  $\theta_{i}$ 's are the parameters (also called weights) parameterizing the space of linear functions mapping from  $\mathcal{X}$  to  $\mathcal{Y}$ . When there is no risk of
-
-confusion, we will drop the  $\theta$  subscript in  $h_{\theta}(x)$ , and write it more simply as  $h(x)$ . To simplify our notation, we also introduce the convention of letting  $x_0 = 1$  (this is the intercept term), so that
+Here, the  $\theta_{i}$ 's are the parameters (also called weights) parameterizing the space of linear functions mapping from  $\mathcal{X}$  to  $\mathcal{Y}$ . When there is no risk of confusion, we will drop the  $\theta$  subscript in  $h_{\theta}(x)$ , and write it more simply as  $h(x)$ . To simplify our notation, we also introduce the convention of letting  $x_0 = 1$  (this is the intercept term), so that
 
 $$
 h (x) = \sum_{i = 0}^{d} \theta_{i} x_{i} = \theta^{T} x,
@@ -255,7 +236,7 @@ $$
 
 If you've seen linear regression before, you may recognize this as the familiar least-squares cost function that gives rise to the ordinary least squares regression model. Whether or not you have seen it previously, let's keep going, and we'll eventually show this to be a special case of a much broader family of algorithms.
 
-# 1.1 LMS algorithm
+### 1.1 LMS algorithm
 
 We want to choose  $\theta$  so as to minimize  $J(\theta)$ . To do so, let's use a search algorithm that starts with some "initial guess" for  $\theta$ , and that repeatedly changes  $\theta$  to make  $J(\theta)$  smaller, until hopefully we converge to a value of  $\theta$  that minimizes  $J(\theta)$ . Specifically, let's consider the gradient descent algorithm, which starts with some initial  $\theta$ , and repeatedly performs the update:
 
@@ -265,9 +246,7 @@ $$
 
 (This update is simultaneously performed for all values of  $j = 0, \ldots, d$ .) Here,  $\alpha$  is called the learning rate. This is a very natural algorithm that repeatedly takes a step in the direction of steepest decrease of  $J$ .
 
-In order to implement this algorithm, we have to work out what is the partial derivative term on the right hand side. Let's first work it out for the
-
-case of if we have only one training example  $(x,y)$ , so that we can neglect the sum in the definition of  $J$ . We have:
+In order to implement this algorithm, we have to work out what is the partial derivative term on the right hand side. Let's first work it out for the case where we have only one training example  $(x,y)$ , so that we can neglect the sum in the definition of  $J$ . We have:
 
 $$
 \begin{array}{l} \frac{\partial}{\partial \theta_{j}} J (\theta) = \frac{\partial}{\partial \theta_{j}} \frac{1}{2} (h_{\theta} (x) - y)^{2} \\ = 2 \cdot \frac{1}{2} (h_{\theta} (x) - y) \cdot \frac{\partial}{\partial \theta_{j}} (h_{\theta} (x) - y) \\ = \left(h_{\theta} (x) - y\right) \cdot \frac{\partial}{\partial \theta_{j}} \left(\sum_{i = 0}^{d} \theta_{i} x_{i} - y\right) \\ = \left(h_{\theta} (x) - y\right) x_{j} \\ \end{array}

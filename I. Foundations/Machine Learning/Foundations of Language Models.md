@@ -61,6 +61,25 @@ The content presented here is part of a comprehensive introductory resource on n
 
 We would like to thank the students in our laboratory and all our friends who have shared with us their views on large language models and helped with corrections of errors in writing. In particular, we wish to thank Weiqiao Shan, Yongyu Mu, Chenglong Wang, Kaiyan Chang, Yuchun Fan, Hang Zhou, Chuanhao Lv, Xinyu Liu, Tao Zhou, Huiwen Bao, Tong Zheng, Junhao Ruan, Yingfeng Luo, Yuzhang Wu, and Yifu Huo.
 
+```d2
+book_structure: Book Structure {
+  preface: Preface
+  chapter1: Chapter 1\nPre-training
+  chapter2: Chapter 2\nGenerative Models
+  chapter3: Chapter 3\nPrompting
+  chapter4: Chapter 4\nAlignment
+  chapter5: Chapter 5\nInference
+  bibliography: Bibliography
+  
+  preface -> chapter1
+  chapter1 -> chapter2
+  chapter2 -> chapter3
+  chapter3 -> chapter4
+  chapter4 -> chapter5
+  chapter5 -> bibliography
+}
+```
+
 $a$  variable  
 a row vector or matrix
 

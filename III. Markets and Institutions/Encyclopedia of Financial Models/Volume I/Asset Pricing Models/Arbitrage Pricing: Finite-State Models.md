@@ -22,6 +22,39 @@ Partner, The Intertek Group
 
 Professor of Finance, EDHEC Business School
 
+```d2
+direction: right
+
+arbitrage_concept: Arbitrage Principle {
+  shape: rectangle
+  style.fill: "#e8f5e9"
+  style.stroke: "#4caf50"
+}
+
+law_one_price: Law of One Price {
+  shape: rectangle
+  style.fill: "#fff3e0"
+  style.stroke: "#ff9800"
+}
+
+complete_market: Complete Market {
+  shape: rectangle
+  style.fill: "#e3f2fd"
+  style.stroke: "#2196f3"
+}
+
+state_prices: State Price Vectors {
+  shape: rectangle
+  style.fill: "#fce4ec"
+  style.stroke: "#e91e63"
+}
+
+arbitrage_concept -> law_one_price: "implies"
+law_one_price -> complete_market: "enables"
+complete_market -> state_prices: "determines"
+state_prices -> arbitrage_concept: "eliminates"
+```
+
 Abstract: Arbitrage in its most basic form involves the simultaneous buying and selling of an asset at two different prices in two different markets. In real-world financial markets, arbitrage opportunities rarely, if ever, exist. Less obvious arbitrage opportunities exist in situations where a package of assets can be assembled that have a payoff (return) that is identical to an asset that is priced differently. A market is said to be a complete market if an arbitrary payoff can be replicated by a portfolio. The most fundamental principle in asset pricing theory is the absence of arbitrage opportunities.
 
 The principle of absence of arbitrage or the no-arbitrage principle is perhaps the most fundamental principle of finance theory. In the presence of arbitrage opportunities, there is no trade-off between risk and returns because it is possible to make unbounded risk-free gains. The principle of absence of arbitrage is fundamental for understanding asset valuation in a competitive market. This entry discusses arbitrage pricing in a finite-state, discrete-time setting. However, it is important to note that there are well-known limits to arbitrage, first identified by Shleifer and Vishny (1997), resulting from restrictions imposed on rational traders and, as a result, pricing inefficiencies may exist for a period of time.
@@ -591,7 +624,7 @@ $$
 $$
 
 $$
-\begin{array}{l} (5 5. 5 \times 0. 5 + 0. 5 \times 8) \times \pi_{A_{1, 1}} + (7 1 \times 0. 5 \\ + 0. 5 \times 1 5) \times \pi_{A_{2, 1}} - 7 3. 2 \times \pi_{A_{1, 0}} = 0 \\ \end{array}
+\begin{array}{l} (55.5 \times 0.5 + 0.5 \times 8) \times \pi_{A_{1,1}} + (71 \times 0.5 \\ + 0.5 \times 15) \times \pi_{A_{2,1}} - 73.2 \times \pi_{A_{1,0}} = 0 \\ \end{array}
 $$
 
 $$
@@ -816,7 +849,8 @@ $$ holds. In fact we can write the following:
 
 
 $$
-\begin{array}{l} S_{A_{1, 0}}^{i} = S_{0}^{i} (1) = S_{0}^{i} (2) = S_{0}^{i} (3) = S_{0}^{i} (4) \\ = \frac{1}{\pi_{A_{1 0}}} \left\{ \begin{array}{c} p_{1} [ \pi_{1} (1) d_{1}^{i} (1) + \pi_{2} (1) d_{2}^{i} (1) ] \\ \hskip 1 4. 2 2 6 3 7 8 p t + p_{2} [ \pi_{1} (2) d_{1}^{i} (2) + \pi_{2} (2) d_{2}^{i} (2) ] \\ \hskip 1 4. 2 2 6 3 7 8 p t + p_{3} [ \pi_{1} (3) d_{1}^{i} (3) + \pi_{2} (3) d_{2}^{i} (3) ] \\ \hskip 1 4. 2 2 6 3 7 8 p t + p_{4} [ \pi_{1} (4) d_{1}^{i} (4) + \pi_{2} (4) d_{2}^{i} (4) ] \end{array} \right\} \\ = p_{1} \left[ \frac{\pi_{1} (1) R_{0 , 1}}{\pi_{A_{1 , 0}}} \frac{d_{1}^{i} (1)}{R_{0 , 1}} + \frac{\pi_{2} (1) R_{0 , 2}}{\pi_{A_{1 , 0}}} \frac{d_{2}^{i} (1)}{R_{0 , 2}} \right] \\ + p_{2} \left[ \frac{\pi_{1} (2) R_{0 , 1}}{\pi_{A_{1 , 0}}} \frac{d_{1}^{i} (2)}{R_{0 , 1}} + \frac{\pi_{2} (2) R_{0 , 2}}{\pi_{A_{1 , 0}}} \frac{d_{2}^{i} (2)}{R_{0 , 2}} \right] \\ + p_{3} \left[ \frac{\pi_{1} (3) R_{0 , 1}}{\pi_{A_{1 , 0}}} \frac{d_{1}^{i} (3)}{R_{0 , 1}} + \frac{\pi_{2} (3) R_{0 , 2}}{\pi_{A_{1 , 0}}} \frac{d_{2}^{i} (3)}{R_{0 , 2}} \right] \\ + p_{4} \left[ \frac{\pi_{1} (4) R_{0 , 1}}{\pi_{A_{1 , 0}}} \frac{d_{1}^{i} (4)}{R_{0 , 1}} + \frac{\pi_{2} (4) R_{0 , 2}}{\pi_{A_{1 , 0}}} \frac{d_{2}^{i} (4)}{R_{0 , 2}} \right] \\ = p_{1} \left\{\frac{\pi_{1} (1) R_{0 , 1}}{\pi_{A_{1 , 0}}} \frac{d_{1}^{i} (1)}{R_{0 , 1}} \frac{1}{\pi_{1 1}} \left[ \frac{p_{1}}{p_{1} + p_{2}} \pi_{2} (1) R_{1, 2} \right. \right. \\ \left. \left. + \frac{p_{2}}{p_{1} + p_{2}} \pi_{2} (2) R_{1, 2} \right] \right\} \\ + p_{2} \left\{\frac{\pi_{1} (2) R_{0 , 1}}{\pi_{A_{1 , 0}}} \frac{d_{1}^{i} (2)}{R_{0 , 1}} \frac{1}{\pi_{2 1}} \left[ \frac{p_{1}}{p_{1} + p_{2}} \pi_{2} (1) R_{1, 2} \right. \right. \\ \left. \left. + \frac{p_{2}}{p_{1} + p_{2}} \pi_{2} (2) R_{1, 2} \right] \right\} \\ + p_{3} \left\{\frac{\pi_{1} (3) R_{0 , 1}}{\pi_{A_{1 , 0}}} \frac{d_{1}^{i} (3)}{R_{0 , 1}} \frac{1}{\pi_{3 1}} \left[ \frac{p_{3}}{p_{3} + p_{4}} \pi_{2} (3) R_{1, 2} \right. \right. \\ \left. \left. + \frac{p_{4}}{p_{3} + p_{4}} \pi_{2} (4) R_{1, 2} \right] \right\} \\ \end{array}
+\begin{array}{l} S_{A_{1,0}}^{i} = S_{0}^{i}(1) = S_{0}^{i}(2) = S_{0}^{i}(3) = S_{0}^{i}(4) \\ = \frac{1}{\pi_{A_{1,0}}} \left\{ p_{1} [\pi_{1}(1) d_{1}^{i}(1) + \pi_{2}(1) d_{2}^{i}(1)] \right. \\ + p_{2} [\pi_{1}(2) d_{1}^{i}(2) + \pi_{2}(2) d_{2}^{i}(2)] \\ + p_{3} [\pi_{1}(3) d_{1}^{i}(3) + \pi_{2}(3) d_{2}^{i}(3)] \\ \left. + p_{4} [\pi_{1}(4) d_{1}^{i}(4) + \pi_{2}(4) d_{2}^{i}(4)] \right\} \\ = p_{1} \left[ \frac{\pi_{1}(1) R_{0,1}}{\pi_{A_{1,0}}} \frac{d_{1}^{i}(1)}{R_{0,1}} + \frac{\pi_{2}(1) R_{0,2}}{\pi_{A_{1,0}}} \frac{d_{2}^{i}(1)}{R_{0,2}} \right] \\ + p_{2} \left[ \frac{\pi_{1}(2) R_{0,1}}{\pi_{A_{1,0}}} \frac{d_{1}^{i}(2)}{R_{0,1}} + \frac{\pi_{2}(2) R_{0,2}}{\pi_{A_{1,0}}} \frac{d_{2}^{i}(2)}{R_{0,2}} \right] \\ + p_{3} \left[ \frac{\pi_{1}(3) R_{0,1}}{\pi_{A_{1,0}}} \frac{d_{1}^{i}(3)}{R_{0,1}} + \frac{\pi_{2}(3) R_{0,2}}{\pi_{A_{1,0}}} \frac{d_{2}^{i}(3)}{R_{0,2}} \right] \\ + p_{4} \left[ \frac{\pi_{1}(4) R_{0,1}}{\pi_{A_{1,0}}} \frac{d_{1}^{i}(4)}{R_{0,1}} + \frac{\pi_{2}(4) R_{0,2}}{\pi_{A_{1,0}}} \frac{d_{2}^{i}(4)}{R_{0,2}} \right] \\ = p_{1} \left\{ \frac{\pi_{1}(1) R_{0,1}}{\pi_{A_{1,0}}} \frac{d_{1}^{i}(1)}{R_{0,1}} \frac{1}{\pi_{11}} \left[ \frac{p_{1}}{p_{1} + p_{2}} \pi_{2}(1) R_{1,2} \right. \right. \\ \left. \left. + \frac{p_{2}}{p_{1} + p_{2}} \pi_{2}(2) R_{1,2} \right] \right\} \\ + p_{2} \left\{ \frac{\pi_{1}(2) R_{0,1}}{\pi_{A_{1,0}}} \frac{d_{1}^{i}(2)}{R_{0,1}} \frac{1}{\pi_{21}} \left[ \frac{p_{1}}{p_{1} + p_{2}} \pi_{2}(1) R_{1,2} \right. \right. \\ \left. \left. + \frac{p_{2}}{p_{1} + p_{2}} \pi_{2}(2) R_{1,2} \right] \right\} \\ + p_{3} \left\{ \frac{\pi_{1}(3) R_{0,1}}{\pi_{A_{1,0}}} \frac{d_{1}^{i}(3)}{R_{0,1}} \frac{1}{\pi_{31}} \left[ \frac{p_{3}}{p_{3} + p_{4}} \pi_{2}(3) R_{1,2} \right. \right. \\
+\end{array}
 $$
 
 $$
@@ -926,7 +960,7 @@ Suppose that there is more than one risky asset, for example two risky assets, i
 
 
 $$
-\begin{array}{l} S_{t}^{1} = \frac{q_{1} u S_{t}^{1} + q_{2} u S_{t}^{1} + q_{3} u S_{t}^{1} + q_{4} u S_{t}^{1}}{1 + r} \\ S_{t}^{2} = \frac{q_{1} u S_{t}^{2} + q_{3} u S_{t}^{2} + q_{2} u S_{t}^{2} + q_{4} u S_{t}^{2}}{1 + r} \\ \end{array}
+\begin{array}{l} S_{t}^{1} = \frac{q_{1} u S_{t}^{1} + q_{2} u S_{t}^{1} + q_{3} d S_{t}^{1} + q_{4} d S_{t}^{1}}{1 + r} \\ S_{t}^{2} = \frac{q_{1} u S_{t}^{2} + q_{2} d S_{t}^{2} + q_{3} u S_{t}^{2} + q_{4} d S_{t}^{2}}{1 + r} \\ \end{array}
 $$
 
 A third equation is provided by the fact that probabilities must sum to 1. The fourth condition, however, is missing. The model is incomplete.
