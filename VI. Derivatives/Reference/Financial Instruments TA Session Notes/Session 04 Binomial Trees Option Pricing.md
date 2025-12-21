@@ -1,18 +1,28 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
-cssclasses: academia
 title: Binomial Trees and Option Pricing
-linter-yaml-title-alias: Binomial Trees and Option Pricing
+parent_directory: Financial Instruments TA Session Notes
+formatted: 2025-12-20 11:03:25 PM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - binomial trees
+  - option pricing
+  - risk neutral valuation
+  - dynamic replication
+secondary_tags:
+  - capm
+  - at-the-money options
+  - comparative statics
+  - pharmaceutical stocks
+  - systematic risk
+cssclasses: academia
 ---
 
 # Binomial Trees and Option Pricing
 
-# 1. Binomial Trees in Pharmaceuticals
+## 1. Binomial Trees in Pharmaceuticals
 
-# 1.1. Parameters
+### 1.1. Parameters
 
 1. Let  $i$  denote a pharmaceutical company
 2. Stock price at maturity  $t = T$ :  $S_{T,i} \in \{S_d, S_u\}$
@@ -31,7 +41,7 @@ b. Increase scenario:  $1 - q$
 5. Annualized risk-free interest rate (continuously compounded):  $r^f$
 6. Annualized expected excess return (annually compounded):  $\mathbb{E}[R^m] - r^f$
 
-# 1.2. CAPM
+### 1.2. CAPM
 
 1. Let  $R_{i}$  denote the expected return on the stock of pharmaceutical company
 2. Note  $R_{i}$  is a random variable because stock price  $S_{T,i} \in \{S_d, S_u\}$  at maturity  $t = T$  is a random variable, and so the realization of  $R$  depends on the realization of  $S_{T}$ .
@@ -53,7 +63,7 @@ $$
 
 5. Note  $\mathbb{E}[R_i]$  varies (linearly) with  $\beta_{i}$
 
-# 1.3. Stock Valuation at Inception
+### 1.3. Stock Valuation at Inception
 
 1. The stock price  $S_{0,i}$  at inception  $t = 0$  is equal to the expected discounted stock price at maturity  $t = T$ .
 2. Expected stock price at maturity  $t = T$  (i.e., the mean of the random variable  $S_{T,i}$ ).
@@ -68,7 +78,7 @@ $$
 (1 + \mathbb {E} [ R _ {i} ]) \cdot S _ {0, i} = \mathbb {E} \big [ S _ {T, i} \big ]
 $$
 
-# 1.4. At-the-Money Option Under Dynamic Replication
+### 1.4. At-the-Money Option Under Dynamic Replication
 
 1. An at-the-money ("ATM") call option features a strike price  $K_{i}$  equal to the current spot stock price  $S_{0}$  at inception  $t = 0$ , i.e.  $K_{i} = S_{0,i}$
 2. Payoff from option at maturity  $t = T$  depends on realized stock price  $S_{T,i}$  at maturity.
@@ -101,7 +111,7 @@ $$
 V _ {T, i} ^ {D R} \big (S _ {T, i} \big) = \left\{ \begin{array}{l l} \Delta_ {i, 0} \cdot S _ {d} + \exp \big (r ^ {f} \big) \cdot B _ {0} & S _ {T, i} = S _ {d} \\ \Delta_ {i, 0} \cdot S _ {u} + \exp \big (r ^ {f} \big) \cdot B _ {0} & S _ {T, i} = S _ {u} \end{array} \right.
 $$
 
-# 1.5. At-the-Money Option Under Risk Neutral Methodology
+### 1.5. At-the-Money Option Under Risk Neutral Methodology
 
 1. Risk neutral probability: The probability such that the risky asset (stock) yields an expected (gross) return equal to that of the risk-free asset (bond).
 

@@ -1,13 +1,21 @@
 ---
-parent_directory:
-title: Financial Instruments Observations about CDS
-tags:
-aliases:
-parent_folder: Lecture Notes
-subfolder:
-key_concepts:
+title: "Financial Instruments: Observations About CDS"
+parent_directory: "Financial Instruments Lecture Notes"
+formatted: "2025-12-20 6:05:00 PM"
+formatter_model: "claude-sonnet-4"
+cli-tool: "opencode"
+primary_tags:
+  - credit default swaps
+  - cds market structure
+  - sovereign credit risk
+secondary_tags:
+  - single name cds
+  - multi name cds
+  - cds indexes
+  - credit spreads
+  - default risk
+  - counterparty risk
 cssclasses: academia
-linter-yaml-title-alias: Financial Instruments Observations about CDS
 ---
 
 # Financial Instruments Observations about CDS
@@ -18,21 +26,21 @@ The University of Chicago
 
 Booth School of Business
 
-# Types of CDS, Quantities
+## Types of CDS, Quantities
 
-# Types
+### Types
 
 - Single-name CDS: single reference entity such as a corporation or sovereign  
 - Multi-name CDS: cover defaults in a reference portfolio such as a basic credit default swap or a CDS index (typically an index of commonly negotiated single-name CDS)
 
-# Quantities:
+### Quantities
 
 - From BIS (2021): \$8.5 trillion notional at end of 2020. 1.5% of notional of all global derivatives.  
 - GFC likely reduced size we see even today  
-- $62\%$  now with central counterparties that act like exchanges.  
-- Increased size of sovereign CDS since GFC:  $4\%$  of total notional in 2007 to  $14\%$  in 2020.
+- $62\%$ now with central counterparties that act like exchanges.
+- Increased size of sovereign CDS since GFC: $4\%$ of total notional in 2007 to $14\%$ in 2020.
 
-# CDS Market
+## CDS Market
 
 From Bomfim (2022), "Credit Default Swaps," Finance and Economics Discussion Series, Federal Reserve
 
@@ -45,16 +53,16 @@ Spec purp: Special-purpose vehicle, special-purpose corporation, or special-purp
 Sec prod: Securitized products  
 Ref Entity: Reference Entity
 
-# Sovereign Crises
+## Sovereign Crises
 
 - Italy:
 
-![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/0eb328ab-bf38-4117-b0c1-5fefdefb4783/9d6009b208ed630ce04256140ce589f001207bc114941a1bc388820d1bc7d0de.jpg)  
+![](https://cdn-mineru.openxlab.org.cn/result/2025-12-02/0eb328ab-bf38-4117-b0c1-5fefdefb4783/9d6009b208ed630ce04256140ce589f001207bc114941a1bc388820d1bc7d0de.jpg)
 Figure 2: SOVEREIGN CDS CURVE, ITALY
 
-- Russia: 10-year CDS:  $2.54\%$  on 1/31/2022 to  $4.04\%$  on 02/28/2022. Spike for 5-year CDS:  $8.94\%$  on 2/24/2022.
+- Russia: 10-year CDS: $2.54\%$ on 1/31/2022 to $4.04\%$ on 02/28/2022. Spike for 5-year CDS: $8.94\%$ on 2/24/2022.
 
-# CDS Indexes
+## CDS Indexes
 
 A nice discussion of indexes is here.
 

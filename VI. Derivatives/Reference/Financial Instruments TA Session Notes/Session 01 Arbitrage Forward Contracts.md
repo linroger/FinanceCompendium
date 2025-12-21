@@ -1,11 +1,20 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+title: "Arbitrage Opportunity Accounting Forward Contracts for Exchange Rate Securities"
+parent_directory: "Financial Instruments TA Session Notes"
+formatted: "2025-12-20 06:07:00 PM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli_tool: "opencode"
+primary_tags:
+   - forward contracts arbitrage
+   - currency forward pricing
+   - interest rate parity
+secondary_tags:
+   - exchange rate forwards
+   - no arbitrage pricing
+   - synthetic forward rate
+   - covered interest arbitrage
+   - forward contract valuation
 cssclasses: academia
-title: Arbitrage Opportunity Accounting Forward Contracts for Exchange Rate Securities
-linter-yaml-title-alias: Arbitrage Opportunity Accounting Forward Contracts for Exchange Rate Securities
 ---
 
 # Arbitrage Opportunity Accounting Forward Contracts for Exchange Rate Securities
@@ -15,13 +24,13 @@ Step 1: Compare the quoted forward rate  $F_{q}$  (data) with the synthetic no-a
 1. Formula for synthetic no-arbitrage forward rate.
 
 $$
-F _ {0, T} = M _ {0} \cdot \exp [ ([ r _ {\$} - r _ {\epsilon} ]) \cdot T ]
+F_{0,T} = M_{0} \cdot \exp[(r_{\$} - r_{\epsilon}) \cdot T]
 $$
 
 2. Suppose quoted forward rate  $F_{q}$  is less than synthetic no-arbitrage forward rate  $F_{0,T}$ .
 
 $$
-F _ {q} <   F _ {0, T}
+F_{q} < F_{0,T}
 $$
 
 Step 2: Determine the short position and the long position for the forward contracts that leverage the arbitrage opportunity.
@@ -36,13 +45,13 @@ Step 3: Determine profit and loss from fulfilling short position obligation and 
 5. Long position obligation: Pay  $F_{q}$  USD to buy 1 EUR at maturity  $t = T$ .
 
 $$
-L o s s _ {T} (\mathbb {S}) = F _ {q}
+\text{Loss}_{T}(\$) = F_{q}
 $$
 
 6. Short position obligation: Sell 1 EUR at maturity  $t = T$ . To obtain 1 EUR at maturity  $t = T$ , borrow the present value equivalent, namely  $\exp(-r_{\epsilon} \cdot T)$  EUR, at inception  $t = 0$ .
 
 $$
-G a i n _ {0} (\epsilon) = \exp (- r _ {\epsilon} \cdot T)
+\text{Gain}_{0}(\epsilon) = \exp(-r_{\epsilon} \cdot T)
 $$
 
 Step 4: Determine the counteracting investment strategy at inception  $t = 0$  that ensures profit or loss at inception  $t = 0$  is equal to zero.
@@ -50,13 +59,13 @@ Step 4: Determine the counteracting investment strategy at inception  $t = 0$  t
 1. To offset borrowing  $\exp (-r_{\epsilon} \cdot T)$  EUR at inception  $t = 0$ , invest  $\exp (-r_{\epsilon} \cdot T) \cdot M_0$  USD at the USD interest rate  $r_{\mathbb{S}}$ .
 
 $$
-L o s s _ {0} (\mathbb {S}) = \exp (- r _ {\epsilon} \cdot T) \cdot M _ {0}
+\text{Loss}_{0}(\$) = \exp(-r_{\epsilon} \cdot T) \cdot M_{0}
 $$
 
 2. The investment strategy above ensures profit or loss is zero at inception  $t = T$ .
 
 $$
-\begin{array}{l} P r o f i t _ {0} (\mathbb {S}) = G a i n _ {0} (\mathbb {E}) \cdot M _ {0} - L o s s _ {0} (\mathbb {S}) \\ = \exp (- r _ {\epsilon} \cdot T) \cdot M _ {0} - \exp (- r _ {\epsilon} \cdot T) \cdot M _ {0} \\ = 0 \\ \end{array}
+\begin{array}{l} \text{Profit}_{0}(\$) = \text{Gain}_{0}(\epsilon) \cdot M_{0} - \text{Loss}_{0}(\$) \\ = \exp(-r_{\epsilon} \cdot T) \cdot M_{0} - \exp(-r_{\epsilon} \cdot T) \cdot M_{0} \\ = 0 \\ \end{array}
 $$
 
 Step 5: Given the investment strategy at inception  $t = 0$ , determine the profit or loss at maturity  $t = T$ .
@@ -64,7 +73,7 @@ Step 5: Given the investment strategy at inception  $t = 0$ , determine the prof
 1. USD investment at  $t = 0$  generates proceeds at maturity  $t = T$ .
 
 $$
-\begin{array}{l} G a i n _ {T} (\$) = \underbrace {\left[ \exp \left(- r _ {\epsilon} \cdot T\right) \cdot M _ {0} \right]} _ {\text {U S D I n v e s t m e n t}} \cdot \underbrace {\exp \left(r _ {\$} \cdot T\right)} _ {\text {R e t u r n}} \\ = \exp ([ r _ {\$} - r _ {\epsilon} ] \cdot T) \cdot M _ {0} \\ \end{array}
+\begin{array}{l} \text{Gain}_{T}(\$) = \underbrace{[\exp(-r_{\epsilon} \cdot T) \cdot M_{0}]}_{\text{USD Investment}} \cdot \underbrace{\exp(r_{\$} \cdot T)}_{\text{Return}} \\ = \exp([r_{\$} - r_{\epsilon}] \cdot T) \cdot M_{0} \\ \end{array}
 $$
 
 2. Use the 1 EUR obtained at maturity  $t = T$  from the long position on the forward contract to repay the borrowed EUR at inception  $t = 0$ .
@@ -76,5 +85,5 @@ $$
 3. Evaluate profit or loss at maturity  $t = T$ .
 
 $$
-\begin{array}{l} P r o f i t _ {T} (\mathbb {S}) = G a i n _ {T} (\mathbb {S}) - L o s s _ {T} (\mathbb {S}) \\ = \exp ([ r _ {\$} - r _ {\epsilon} ] \cdot T) \cdot M _ {0} - F _ {q} \\ = F _ {0, T} - F _ {q} \\ > 0 \\ \end{array}
+\begin{array}{l} \text{Profit}_{T}(\$) = \text{Gain}_{T}(\$) - \text{Loss}_{T}(\$) \\ = \exp([r_{\$} - r_{\epsilon}] \cdot T) \cdot M_{0} - F_{q} \\ = F_{0,T} - F_{q} \\ > 0 \\ \end{array}
 $$

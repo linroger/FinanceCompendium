@@ -256,3 +256,74 @@ Zimmerman, T. "The Great Subprime Meltdown," Journal of Structured Finance, Fall
 8.22. Suppose that mezzanine tranches of the ABS CDOs, similar to those in Figure 8.3, are resecuritized to form what is referred to as a "CDO squared." As in the case of tranches created from ABSs in Figure 8.3,  $65\%$  of the principal is allocated to a AAA tranche,  $25\%$  to a BBB tranche, and  $10\%$  to the equity tranche. How high does the loss percentage have to be on the underlying assets for losses to be experienced by a AAA-rated tranche that is created in this way? (Assume that every portfolio of assets that is used to create ABSs experiences the same loss rate.)
 
 Before moving on to discuss how options and other more complex derivatives are valued, we consider various price adjustments that have become important in derivatives markets. These are the credit valuation adjustment (CVA), the debit (or debt) valuation adjustment (DVA), the funding valuation adjustment (FVA), the margin valuation adjustment (MVA), and the capital valuation adjustment (KVA). Collectively the adjustments are known as XVAs. Some of the adjustments have a stronger theoretical basis than others. As we shall see, financial economists have no problem with CVA and DVA, but have reservations about FVA, MVA, and KVA.
+
+## D2 Diagrams for Securitization Concepts
+
+### ABS Structure and Tranching
+```d2
+# Asset-Backed Security Structure
+originator: "Originator\n(Bank/Lender)"
+special_purpose_vehicle: "Special Purpose Vehicle\n(Trust/Entity)"
+investors: "Investors\n(Buy ABS Tranches)"
+
+mortgage_pool: "Mortgage Pool\n(\$100M Principal)"
+senior_tranche: "Senior Tranche\n(\$80M, AAA, LIBOR+60bp)"
+mezzanine_tranche: "Mezzanine Tranche\n(\$15M, BBB, LIBOR+250bp)"
+equity_tranche: "Equity Tranche\n(\$5M, unrated, LIBOR+2000bp)"
+
+originator -> mortgage_pool: "Sells mortgages\nto SPV"
+mortgage_pool -> special_purpose_vehicle: "Asset pool\nfor securitization"
+special_purpose_vehicle -> senior_tranche: "Creates tranches\nwith different risk/return"
+special_purpose_vehicle -> mezzanine_tranche: "Creates tranches\nwith different risk/return"
+special_purpose_vehicle -> equity_tranche: "Creates tranches\nwith different risk/return"
+senior_tranche -> investors: "Sold to investors"
+mezzanine_tranche -> investors: "Sold to investors"
+equity_tranche -> investors: "Sold to investors"
+```
+
+### Waterfall Structure for Cash Flows
+```d2
+# Waterfall Distribution of Cash Flows
+cash_flows: "Cash Flows from\nMortgage Pool"
+principal_waterfall: "Principal Waterfall\nDistribution"
+interest_waterfall: "Interest Waterfall\nDistribution"
+
+principal_waterfall -> senior_prin: "Senior Tranche First\n(\$80M cap)"
+principal_waterfall -> mezzanine_prin: "Mezzanine Second\n(\$15M cap)"
+principal_waterfall -> equity_prin: "Equity Last\n(\$5M cap)"
+
+interest_waterfall -> senior_int: "Senior Interest First\nLIBOR+60bp"
+interest_waterfall -> mezzanine_int: "Mezzanine Second\nLIBOR+250bp"
+interest_waterfall -> equity_int: "Equity Last\nLIBOR+2000bp"
+
+cash_flows -> principal_waterfall
+cash_flows -> interest_waterfall
+```
+
+### ABS CDO Structure
+```d2
+# ABS CDO (Collateralized Debt Obligation) Structure
+abs_pools: "Multiple ABS Pools\n(Mezzanine Tranches)"
+cdo_structure: "CDO Structure"
+cdo_senior: "CDO Senior Tranche\n(65%, AAA, LIBOR+X)"
+cdo_mezzanine: "CDO Mezzanine Tranche\n(25%, BBB, LIBOR+Y)"
+cdo_equity: "CDO Equity Tranche\n(10%, unrated, LIBOR+Z)"
+
+abs_pools -> cdo_structure: "Pool mezzanine tranches"
+cdo_structure -> cdo_senior: "Top tranche\nMost protected"
+cdo_structure -> cdo_mezzanine: "Middle tranche\nModerate risk"
+cdo_structure -> cdo_equity: "Bottom tranche\nHighest risk/reward"
+```
+
+### Risk Distribution in Tranching
+```d2
+# Risk Distribution Across Tranches
+loss_absorption: "Loss Absorption\nby Tranche Priority"
+senior_loss: "Senior Tranche\nAbsorbs losses last\n(Protected up to 20%)"
+mezzanine_loss: "Mezzanine Tranche\nAbsorbs losses second\n(Protected up to 5%)"
+equity_loss: "Equity Tranche\nAbsorbs losses first\n(First 5% of losses)"
+
+loss_absorption -> equity_loss: "First 5% absorbed by equity"
+loss_absorption -> mezzanine_loss: "Next 15% absorbed by mezzanine"
+loss_absorption -> senior_loss: "Beyond 20% affects senior tranche"
+```

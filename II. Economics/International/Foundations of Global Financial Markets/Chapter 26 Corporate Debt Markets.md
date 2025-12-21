@@ -28,6 +28,11 @@ secondary_tags:
   - call provisions
   - sinking fund provisions
   - payment in kind bonds
+  - bankruptcy proceedings
+  - absolute priority rule
+  - chapter 11 reorganization
+  - corporate debt restructuring
+  - lease financing transactions
   - leveraged buyout financing
   - absolute priority rule
   - chapter 11 bankruptcy
@@ -42,10 +47,6 @@ cssclasses: academia
 ## Learning Objectives
 
 ## Bank Loans
-
-### 
-
-#### 
 
 ## Corporate Bonds
 
@@ -522,11 +523,11 @@ b. What is the difference between a Chapter 7 and a Chapter 11 bankruptcy filing
 26. Traditionally, the Yankee and Canadian bonds are considered part of the corporate bond market. These issues include dollar-denominated bonds issued in the United States by sovereign governments, local governments, and non-U.S. corporations.
 27. From our discussion of the various debt instruments in chapter 25, it can be seen that the word "notes" is used to describe a variety of instruments, such as medium-term notes. The use of the term "notes" here is as a market convention distinguishing notes and bonds on the basis of the number of years to maturity at the time the security is issued.
 28. In a hostile takeover, the targeted firm's management resists the merger or acquisition.
-29. See, for example, Edward I. Altman, "Measuring Corporate Bond Mortality and Performance," Journal of Finance 44, no. 4 (1989): 909–922; Edward I. Altman, "Research Update: Mortality Rates and Losses, Bond Rating Drift" (unpublished study prepared for a workshop sponsored by Merrill Lynch Merchant Banking Group, "High Yield Sales and Trading," New York, 1989); Edward I. Altman and Scott A. Nammacher, *Investing in Junk Bonds* (New York: John Wiley & Sons, 1987); Paul Asquith, David W. Mullins, Jr., and Eric D. Wolff, "Original Issue High-Yield Bonds: Aging Analysis of Defaults, Exchanges, and Calls," *Journal of Finance* 44 (1989): 923–952; 1989); Marshall Blume and Donald Keim, "Realized Returns and Defaults on Lower-Grade Bonds," *Financial Analysts Journal*, July/August 1987, 26–33; Bond Investors Association, "Bond Investors Association Issues Definitive Corporate Default Statistics," press release, August 15, 1989; Gregory T. Hradsky and Robert D. Long, "High-Yield Default Losses and the Return Performance of Bankrupt Debt," *Financial Analysts Journal* 45, no. 4 (1989): 38–49; "Historical Default Rates of Corporate Bond Issuers 1970–1988," Moody's Special Report, July 1989; "High-Yield Bond Default Rates," Standard & Poor's Creditweek, August 7, 1989, 21–23; David Wyss, Christopher Probyn, and Robert de Angelis, "The Impact of Recession on High-Yield Bonds," mimeo (Washington, DC: Alliance for Capital Access, 1989); and the 1984-1989 issues of High Yield Market Report: Financing America's Futures (New York and Beverly Hills: Drexel Burnham Lambert).
+29. See, for example, Edward I. Altman, "Measuring Corporate Bond Mortality and Performance," Journal of Finance 44, no. 4 (1989): 909–922; Edward I. Altman, "Research Update: Mortality Rates and Losses, Bond Rating Drift" (unpublished study prepared for a workshop sponsored by Merrill Lynch Merchant Banking Group, "High Yield Sales and Trading," New York, 1989); Edward I. Altman and Scott A. Nammacher, *Investing in Junk Bonds* (New York: John Wiley & Sons, 1987); Paul Asquith, David W. Mullins, Jr., and Eric D. Wolff, "Original Issue High-Yield Bonds: Aging Analysis of Defaults, Exchanges, and Calls," *Journal of Finance* 44 (1989): 923–952; Marshall Blume and Donald Keim, "Realized Returns and Defaults on Lower-Grade Bonds," *Financial Analysts Journal*, July/August 1987, 26–33; Bond Investors Association, "Bond Investors Association Issues Definitive Corporate Default Statistics," press release, August 15, 1989; Gregory T. Hradsky and Robert D. Long, "High-Yield Default Losses and the Return Performance of Bankrupt Debt," *Financial Analysts Journal* 45, no. 4 (1989): 38–49; "Historical Default Rates of Corporate Bond Issuers 1970–1988," Moody's Special Report, July 1989; "High-Yield Bond Default Rates," Standard & Poor's Creditweek, August 7, 1989, 21–23; David Wyss, Christopher Probyn, and Robert de Angelis, "The Impact of Recession on High-Yield Bonds," mimeo (Washington, DC: Alliance for Capital Access, 1989); and the 1984-1989 issues of High Yield Market Report: Financing America's Futures (New York and Beverly Hills: Drexel Burnham Lambert).
 
 7. The default rates cited here are based on the issuer-weighted recovery rates obtained from Exhibit 32 in Moody's Investors Service, "Corporate Default and Recovery Rates, 1982-2010," February 28, 2011.
 8. The average corporate debt recovery rates by lien position provided here are based on post-default trading prices and on issuer-weighted recovery rates obtained from Exhibit 7 in Moody's Investors Service, "Corporate Default and Recovery Rates, 1982-2010."
-9. See "Asia's Corporate Bond Markets—Large Differences, Close Cooperation Needed," Revue-Banque France, May 19, 2014. Available at http://www revue-banque.fr/banque-investissement-marches-gestion-actifs/article/asia-corporate-bond-markets-large-differences-c.
+9. See "Asia's Corporate Bond Markets—Large Differences, Close Cooperation Needed," Revue-Banque France, May 19, 2014. Available at http://www.revue-banque.fr/banque-investissement-marches-gestion-actifs/article/asia-corporate-bond-markets-large-differences-c.
 10. "Asia's Corporate Bond Markets—Large Differences, Close Cooperation Needed."
 11. As explained on the official website of the European Union, a regulation is a binding legislative act that applies to all EU members. In contrast, a directive establishes a goal for EU member states but leaves to the individual members how to accomplish that goal. For more on the European Union's regulations and directives concerning the bond market, see http://europa.eu/eu-law/decision-making/legal-acts/index_en.htm.
 12. Wang Huaiyu, "An International Comparison of Insolvency Laws," in Legal & Institutional Reforms of Asian Insolvency Systems (Paris: Organisation for Economic Co-Operation and Development, 2006), available at https://www.oecd.org/china/38182541.pdf.

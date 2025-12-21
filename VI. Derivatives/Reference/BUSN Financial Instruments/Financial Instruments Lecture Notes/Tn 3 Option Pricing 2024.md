@@ -1,20 +1,23 @@
 ---
-parent_directory:
-title: Financial Instruments
-tags:
-aliases:
-parent_folder: Financial Instruments Lecture Notes
-subfolder:
-key_concepts:
+title: "Teaching Note 3: Introduction to Options"
+parent_directory: "Financial Instruments Lecture Notes"
+formatted: "2025-12-20 06:05:00 PM"
+formatter_model: "claude-sonnet-4-5-20250929"
+cli_tool: "opencode"
+primary_tags:
+  - option pricing
+  - put call parity
+  - option payoffs
+secondary_tags:
+  - hedging with options
+  - no arbitrage bounds
+  - option combinations
+  - slope restrictions
+  - convexity restrictions
 cssclasses: academia
-linter-yaml-title-alias: Financial Instruments
 ---
 
-# Financial Instruments
-
-# Teaching Note 3
-
-# Introduction to Options
+# Teaching Note 3: Introduction to Options
 
 John Heaton
 
@@ -22,32 +25,32 @@ The University of Chicago
 
 Booth School of Business
 
-# 1. Options
+## 1. Options
 
-1.1 Options Payoffs  
-1.2 Put Call Parity  
-1.3 Hedging with Options  
-1.4 No Arbitrage Bounds  
-1.5 Options' Combinations  
-1.6 Slope and Convexity Restrictions
+### 1.1 Options Payoffs
+### 1.2 Put Call Parity
+### 1.3 Hedging with Options
+### 1.4 No Arbitrage Bounds
+### 1.5 Options' Combinations
+### 1.6 Slope and Convexity Restrictions
 
 # Options
 
-- A European option gives its holder the right, but not the obligation, to buy (call) or sell (put) a prespecified security or commodity for a prespecified price at a prespecified date.  
-- Since the holder of the option has a right, but not the obligation to exercise, the option has always a non-negative value to the option holder.  
+- A European option gives its holder the right, but not the obligation, to buy (call) or sell (put) a prespecified security or commodity for a prespecified price at a prespecified date.
+- Since the holder of the option has a right, but not the obligation to exercise, the option has always a non-negative value to the option holder.
 - Differently from forwards, futures and swaps, there is an exchange of money when two parties enter in an option contract.
 - The option buyer pays the option premium to the option seller (sometimes called "option writer").
-- In exchange of the option premium (received at 0), the seller of the option takes on the obligation to deliver the underlying security at maturity  $T$ , if requested by the option buyer.  
+- In exchange of the option premium (received at 0), the seller of the option takes on the obligation to deliver the underlying security at maturity $T$, if requested by the option buyer.
 - An American option is the same, but exercise can occur any time before maturity.
 
 # Call Option Payoff
 
 - For instance, stock options have:
-- Underlying  $= S$  = stock price; Prespecified price  $= K$  = strike price; Prespecified date  $= T$  = maturity date.
+- Underlying $= S$ = stock price; Prespecified price $= K$ = strike price; Prespecified date $= T$ = maturity date.
 - How is the payoff of a call option determined?
-- If at  $T$ ,  $S_T < K$  the option buyer has the choice between  
-* Buy the stock in the market at  $S_{T}$  
-* Buy the stock from the option seller for  $K > S_{T}$  
+- If at $T$, $S_T < K$ the option buyer has the choice between  
+* Buy the stock in the market at $S_{T}$
+* Buy the stock from the option seller for $K > S_{T}$  
 $\Longrightarrow$  Walk away from the contract is optimal
 
 - If at  $T$ ,  $S_T > K$  the option buyer has the choice between

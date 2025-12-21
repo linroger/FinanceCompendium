@@ -1,13 +1,28 @@
 ---
-parent_directory:
-title: I General Overview
-tags:
-aliases:
-parent_folder: 2024 Financial Instruments
-subfolder:
-key_concepts:
+title: Financial Instruments Handbook Full
+parent_directory: Reference
+formatted: 2025-12-20 6:05:00 PM
+formatter_model: claude-sonnet-4
+cli_tool: opencode
+primary_tags:
+  - structured financial products
+  - interest rate derivatives
+  - equity linked instruments
+  - foreign exchange products
+secondary_tags:
+  - zero coupon bonds
+  - coupon bonds
+  - floating rate notes
+  - interest rate swaps
+  - forward rate agreements
+  - convertible bonds
+  - barrier options
+  - currency linked bonds
+  - replication techniques
+  - valuation methods
+  - term structure models
+  - risk management
 cssclasses: academia
-linter-yaml-title-alias: I General Overview
 ---
 
 <toc>
@@ -36,23 +51,14 @@ linter-yaml-title-alias: I General Overview
 3.20 Barrier Notes 45
 3.21 Fixed/Floating Rate Bonds with Put Option 47
 3.22 Annex - Product Replication Overview 48
-
 4 PRODUCTS OF EQUITIES DERIVATIVES 50
-
 4.1 Convertible Bonds 50
-
 4.2 High-Yield Products 54
-
 4.2.1 Introduction 54
-
 4.2.3 Cash-or-Share Bonds-Various Currencies 59
-
 4.2.4 High-Yield Index Bonds 61
-
 4.2.5 High-Yield Basket Bonds 63
-
 4.2.6 High-Yield Lookback Bonds 66
-
 4.3 Capital-Guaranteed Products 68
 4.3.1 Introduction 68
 4.3.2 European Call Options 69
@@ -65,63 +71,34 @@ linter-yaml-title-alias: I General Overview
 4.4 Annex 107
 4.4.1 Valuating Basket Options 107
 4.4.2 Options and Currencies 109
-
 5 PRODUCTS OF FOREIGN CURRENCIES 110
-
 5.1 Foreign Currency Bonds 110
-
 5.2 Dual Currency Bonds 111
-
 5.3 Reverse Dual Currency Bonds 112
-
 5.4 Dual Redemption Bonds 113
-
 5.5 Foreign Currency Dual Redemption Bonds 115
-
 5.6 Step-Up/Step-Down Dual Redemption Bonds 117
-
 5.7 Appearing Dual Redemption Bonds 118
-
 5.8 Callable Digital Deposits 120
-
 5.9 Multistep Callable Digital Deposits 122
-
 5.10 FX-Linked Barrier Notes 124
-
 5.11 FX Barrier Ranges 127
-
 5.12 Callable FX-linked Foreign Currency Coupon Bonds 129
-
 5.13 Dual Currency-Linked Bonds 131
-
 5.14 Triple Currency-Linked Bonds 133
-
 5.15 Variable Redemption Bonds 135
-
 5.16 Range Variable Redemption Bonds 137
-
-5.17 Dual Currency Variable Redemption Bonds 140
-
+5.16 Dual Currency Variable Redemption Bonds 140
 5.18 Knock-out/Knock-in Variable Redemption Bonds 144
-
 5.19 FX-Linked Zero Coupon Bonds with Caps 145
-
 5.20 Cumulated FX-Linked Zero Coupon Bonds with Call Options 148
-
 5.21 Asian FX-Linked Zero Coupon Bonds 150
-
 5.22 Currency Basket Bonds with Call Options 152
-
 5.23 Currency Basket Bonds with Caps and Floors 155
-
-5.24Annex-Product Replication Overview 158
-
+5.24 Annex-Product Replication Overview 158
 6 GLOSSARY AND LITERATURE 161
-
 6.1 Glossary 161
-
 6.2 Literature 164
-
 </toc>
 
 # I General Overview
@@ -150,7 +127,7 @@ At the end of the handbook a glossary of the most important concepts and referen
 
 The replication techniques presented here are designed to serve as examples for treating composite products pursuant to Article 22e Austrian Banking Act (Bankwesengesetz BWG) for determining the regulatory capital requirement according to Article 22h BWG and for reporting interest rate risk statistics according to Part $B_{2}$ of the monthly balance sheet return (Article 74 paragraphs 1 and 4 BWG).
 
-# The Following Conventions Apply:
+## The Following Conventions Apply:
 
 (1) In the case of stock options, a unit of the underlying asset (a share, a unit of the index) invariably serves as the imputed unit of trading. While this will mostly differ from the actual unit of trading, the valuation process will thus be easier to understand.
 

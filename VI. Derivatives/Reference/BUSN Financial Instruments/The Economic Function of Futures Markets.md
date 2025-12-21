@@ -1,11 +1,27 @@
 ---
-aliases:
-tags:
-key_concepts:
-parent_directory:
+---
+title: The Economic Function of Futures Markets
+parent_directory: BUSN Financial Instruments
+formatted: 2025-12-20 11:03:25 AM
+formatter_model: claude-sonnet-4-5-20250929
+cli_tool: opencode
+primary_tags:
+  - futures markets
+  - commodity storage
+  - implicit loan markets
+  - carrying charges
+secondary_tags:
+  - hedging operations
+  - risk aversion theory
+  - supply of storage
+  - backwardation spreads
+  - clearinghouses
+  - margin requirements
+  - arbitrage trading
+  - term structure
+  - inventory control
+  - commodity dealers
 cssclasses: academia
-title: The economic function of futures markets
-linter-yaml-title-alias: The economic function of futures markets
 ---
 
 --- title: Jeffrey C. Williams   The Economic Function Of Futures Markets Cambridge University Press (1986)
@@ -33,86 +49,7 @@ subfolder: key_concepts:
 - An introduction to futures markets cssclasses: academia
 ---
 
-The economic function of futures markets
-
-# The economic function of futures markets
-<toc>
-# Contents
-
-# Preface page vii
-
-1 An introduction to futures markets 1
-
-1.1 Clearinghouses 4
-1.2 Margin money 10
-1.3 The spreads among futures prices 16
-1.4 The importance of spreads to futures markets 20
-1.5 The behavior of spreads 22
-1.6 Spreads and storage 33
-1.7 An outline of the remaining chapters 38
-
-2 Equivalent ways to borrow and lend commodities 41
-
-2.1 Implicit markets 42
-2.2 The equilibrium relationship for loan markets 48
-2.3 Methods of lending shares of stock 50
-2.4 Loan markets for commodities 55
-2.5 Repurchase agreements, straddles, and spreads 60
-2.6 Hedging 65
-2.7 Basis trading 70
-2.8 Futures markets as implicit loan markets 74
-
-3 Futures markets and risk aversion 77
-
-3.1 The dominance of the perspective of risk aversion 79
-3.2 The theory of normal backwardation 81
-3.3 A critique of the theory of normal backwardation 84
-3.4 The portfolio theory of hedging 90
-3.5 Misconceptions in the portfolio theory of hedging 92
-3.6 Not hedging as a response to risk aversion 100
-3.7 The risk of lifting a hedge 103
-3.8 Basis risk 106
-3.9 Conclusion: Risk-averse dealers' use of futures markets 109 vi
-
-# Contents
-
-4 The demand to borrow commodities 111
-
-4.1 Pure storage and speculative storage 112
-4.2 The transactions demand for inventories 115
-4.3 The precautionary demand for inventories 118
-4.4 Market parlance and inventory control theory 124
-4.5 The demand for accessibility 127
-4.6 The explanation of spreads 130
-4.7 The demand for accessibility and the supply of storage 137
-4.8 The reasons for borrowing commodities 142
-
-5 The contribution of futures markets 150
-
-5.1 The demand for access in general equilibrium 151
-5.2 Warehouse receipts and grain banks 154
-5.3 The economic function of futures markets 156
-5.4 Futures markets and forward markets 162
-5.5 Futures markets and organized markets 168
-5.6 Transactional reasons for implicit loan markets 171
-5.7 Legal reasons for implicit loan markets 174
-
-6 The optimal number of futures markets 180
-
-6.1 The number of economically justifiable markets 182
-6.2 The number of trading locations 189
-6.3 The number of grades 198
-6.4 The number of months within a year actively traded 204
-6.5 The number of years ahead actively traded 209
-6.6 Comparison with other explanations 220
-6.7 Summary: Economically justifiable futures markets 228
-
-7 Conclusion: The economic function of futures markets 230
-
-7.1 The role of risk 230
-7.2 Tests of the various theories 232
-7.3 A stylized representation of the function of futures markets 236
-</toc>
+# The Economic Function of Futures Markets
 
 The recent boom in futures trading has sparked in turn a surge in books on speculation in futures contracts, on the historical patterns in commodity prices, and on the mechanics of futures trading. I hope with this book to contribute something different. I have not tried to set up a system that would predict the prices for different delivery dates and locations but have instead concentrated on explaining the patterns among them. I have done so by connecting these patterns to general economic principles rather than by taking an empirical approach. The reader should not expect, therefore, to find interviews with processors and commodity dealers, nor surveys of the ways they use futures markets. Still, I hope it is clear that these handlers of commodities remain the centerpiece of my study, because they, rather than speculators or brokers, have the greatest effect on the patterns in prices and on the viability of futures markets.
 

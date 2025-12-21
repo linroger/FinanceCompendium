@@ -355,7 +355,7 @@ $$
 
 Therefore, point $A^*$ is positioned on the segment $A_1A_2$. If the utility function $U(w)$ is concave, for $w = w^*$ the function has an ordinate $(U(w^*))$ that is greater than the point $A^*$ ordinate that is $(U^*)$. It is because the curve is positioned above the segment $A_1A_2$, and therefore $p_1U(w_1) + (1 - p_1)U(w_2) < U[p_1w_1 + (1 - p_1)w_2]$.
 
-In (Part B) of Fig. 4.2, the coordinates of the point $A_1$ are $(w_1; U(w_1))$, while the coordinates of the point $A_2$ are $(w_2; U(w_2))$.
+In (Part B) of Fig. 4.2, the coordinates of the point $A_1$ are $(w_1, U(w_1))$, while the coordinates of the point $A_2$ are $(w_2, U(w_2))$.
 
 Considering the probability distribution $(p)$, and associating the portability $p_1$ to the realization of $A_1$ and the probability $(1 - p_1)$ to the realization of $A_2$, the coordinates of the point $A^*$ on the segment $A_1A_2$ are:
 
@@ -438,7 +438,7 @@ Therefore, in the case of risk seeking, the utility function is:
 In the case of risk neutral (or indifferent to risk), the second derivative of the utility function is equal to zero $(U''(w) = 0)$. In this case we have:
 
 $$
-\mathrm{E} [ \mathrm{U} (\mathrm{w}) ] = \mathrm{U} [ \mathrm{E} (\mathrm{w}) ] \tag{4.21}
+E[U(w)] = U[E(w)] \tag{4.21}
 $$
 
 Assuming that the random variable $(w)$ can assume two values, $w_1$ and $w_2$, with probability $p_1$ and $(1 - p_1)$ respectively. The $E[U(w)]$ and $U[E(w)]$ can be explicated as follows:
@@ -446,7 +446,7 @@ Assuming that the random variable $(w)$ can assume two values, $w_1$ and $w_2$, 
 In this case, $U(w) = a + bw$ with $b > 0$. The utility function is unique unless it has a linear transformation. Therefore, we have $a = 0$ and $b = 1$. Therefore, $U(w) = w$ and consequently:
 
 $$
-\mathrm{p}_1 \mathrm{U} \left(\mathrm{w}_1\right) + \left(1 - \mathrm{p}_1\right) \mathrm{U} \left(\mathrm{w}_2\right) = \mathrm{U} \left[ \mathrm{p}_1 \mathrm{w}_1 + \left(1 - \mathrm{p}_1\right) \mathrm{w}_2 \right] \tag{4.22}
+p_1 U(w_1) + (1 - p_1) U(w_2) = U[p_1 w_1 + (1 - p_1) w_2] \tag{4.22}
 $$
 
 Equation (4.22) implies the linearity of the function $U(w)$ in all of the domain $D$, as shown in Fig. 4.4.
@@ -471,7 +471,7 @@ Having defined the relationship between utility function $U(w)$ and the risk beh
 The Absolute Risk Aversion (ARA) $(\lambda)$ is defined by the ratio between the first and second derivative of the utility function $(U(.))$ as defined in the current monetary wealth $(w_0)$ (it is a monetary amount) so that $U(w_0)$, as follows:
 
 $$
-\lambda_{\left(\mathrm{w}_0\right)} = - \frac{\mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)} \tag{4.23}
+\lambda_{(w_0)} = -\frac{U''(w_0)}{U'(w_0)} \tag{4.23}
 $$
 
 The coefficient $\lambda_{\mathrm{(w_0)}}$ measures the concavity of the utility function $(\mathrm{U}(\mathrm{w}_0))$ in the point $\mathbf{w}_0$. It is the Arrow (1970)-Pratt (1964) that measures the absolute (local) risk aversion. The measure of risk aversion is defined as "local" because it is a function of the initial level of wealth. The larger $\lambda_{\mathrm{(w_0)}}$, the greater the degree of risk aversion.
@@ -481,7 +481,7 @@ The first derivative is always positive (function increasing), while the second 
 - risk aversion: the utility function $(\mathrm{U}(\mathrm{w}_0))$ is concave. Consequently, the coefficient $\lambda_{(\mathrm{w}_0)}$ is positive:
 
 $$
-\lambda_{\left(\mathrm{w}_0\right)} = - \frac{\left(- \mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)\right)}{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)} = \frac{\mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)} > 0 \quad \forall \mathrm{w}_0 \in \mathrm{D} \tag{4.24}
+\lambda_{(w_0)} = -\frac{(-U''(w_0))}{U'(w_0)} = \frac{U''(w_0)}{U'(w_0)} > 0 \quad \forall w_0 \in D \tag{4.24}
 $$
 
 The coefficient $\lambda_{\mathrm{(w_0)}}$ is always positive. It increases as the second derivative increases and therefore with an increase in the absolute risk aversion of the investor;
@@ -489,7 +489,7 @@ The coefficient $\lambda_{\mathrm{(w_0)}}$ is always positive. It increases as t
 - risk lover: the utility function $(\mathrm{U}(\mathrm{w}_0))$ is convex. Consequently, the coefficient $\lambda_{(\mathrm{w}_0)}$ is negative:
 
 $$
-\lambda_{\left(\mathrm{w}_0\right)} = - \frac{\left(+ \mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)\right)}{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)} = - \frac{\mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)} < 0 \quad \forall \mathrm{w}_0 \in \mathrm{D} \tag{4.25}
+\lambda_{(w_0)} = -\frac{(+U''(w_0))}{U'(w_0)} = -\frac{U''(w_0)}{U'(w_0)} < 0 \quad \forall w_0 \in D \tag{4.25}
 $$
 
 Therefore, the higher the coefficient $\lambda_{(w_0)}$, the higher the absolute risk aversion of the investor.
@@ -509,13 +509,13 @@ $$
 We have:
 
 $$
-\lambda_{\left(\mathrm{w}_0\right)}^{\mathrm{V}} = - \frac{\mathrm{V}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{V}^{\prime} \left(\mathrm{w}_0\right)} = - \frac{\mathrm{a U}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{a U}^{\prime} \left(\mathrm{w}_0\right)} = - \frac{\mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)} = \lambda_{\left(\mathrm{w}_0\right)}^{\mathrm{U}} \tag{4.26}
+\lambda_{(w_0)}^V = -\frac{V''(w_0)}{V'(w_0)} = -\frac{aU''(w_0)}{aU'(w_0)} = -\frac{U''(w_0)}{U'(w_0)} = \lambda_{(w_0)}^U \tag{4.26}
 $$
 
 The inverse of the Absolute Risk Aversion is defined Absolute Risk Tolerance (ART) $(\tau)$. Formally, it is equal to:
 
 $$
-\tau_{\left(w_0\right)} = \frac{1}{\lambda_{\left(w_0\right)}} = - \frac{U^{\prime} \left(w_0\right)}{U^{\prime \prime} \left(w_0\right)} \tag{4.27}
+\tau_{(w_0)} = \frac{1}{\lambda_{(w_0)}} = -\frac{U'(w_0)}{U''(w_0)} \tag{4.27}
 $$
 
 Therefore, the higher the absolute risk aversion of the investor, the lower the absolute risk tolerance, and also, the lower the absolute risk aversion of the investor, the higher the absolute risk tolerance.
@@ -533,7 +533,7 @@ $$
 The Relative Risk Aversion (RRA) $(\rho)$ based on the current monetary wealth $(w_0)$ (it is monetary amount), is defined as follows:
 
 $$
-\rho_{\left(\mathrm{w}_0\right)} = - \mathrm{w}_0 \frac{\mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)} \tag{4.28}
+\rho_{(w_0)} = -w_0 \frac{U''(w_0)}{U'(w_0)} \tag{4.28}
 $$
 
 The coefficient $\rho_{\left(\mathrm{w}_0\right)}$ is expressed in the same unit of wealth measure $(\mathrm{w}_0)$. It also implies stabilization of the coefficient $\lambda_{\left(\mathrm{w}_0\right)}$.
@@ -543,7 +543,7 @@ As in the case of the coefficient $\lambda_{\mathrm{(w_0)}}$, the first derivati
 - risk aversion: the utility function $(\mathrm{U}(\mathrm{w}_0))$ is concave in all dominions (D). Consequently, the coefficient $\rho_{(\mathrm{w}_0)}$ is positive:
 
 $$
-\rho_{\left(\mathrm{w}_0\right)} = - \mathrm{w}_{\mathrm{o}} \frac{\left(- \mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)\right)}{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)} = \mathrm{w}_{\mathrm{o}} \frac{\mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{U}_{\prime} \left(\mathrm{w}_0\right)} > 0 \quad \forall \mathrm{w}_0 \in \mathbf{D} \tag{4.29}
+\rho_{(w_0)} = -w_0 \frac{(-U''(w_0))}{U'(w_0)} = w_0 \frac{U''(w_0)}{U'(w_0)} > 0 \quad \forall w_0 \in D \tag{4.29}
 $$
 
 The coefficient $\rho_{\left(\mathrm{w}_0\right)}$ is always positive. It increases with an increase in the second derivative and therefore with an increase in the relative risk aversion of the investor. Generally, $\lambda_{\left(\mathrm{w}_0\right)}$ and $\rho_{\left(\mathrm{w}_0\right)}$ are measures of how the investor's risk preferences change with changes in wealth around the initial "local" level of wealth.
@@ -551,7 +551,7 @@ The coefficient $\rho_{\left(\mathrm{w}_0\right)}$ is always positive. It increa
 - risk lover: the utility function $(\mathrm{U}(\mathrm{w}_0))$ is convex in all dominions (D). Consequently, the coefficient $\rho_{(\mathrm{w}_0)}$ is negative:
 
 $$
-\rho_{\left(\mathrm{w}_0\right)} = - \mathrm{w}_{\mathrm{o}} \frac{\left(+ \mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)\right)}{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)} = - \mathrm{w}_{\mathrm{o}} \frac{\mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)} < 0 \quad \forall \mathrm{w}_0 \in \mathrm{D} \tag{4.30}
+\rho_{(w_0)} = -w_0 \frac{(+U''(w_0))}{U'(w_0)} = -w_0 \frac{U''(w_0)}{U'(w_0)} < 0 \quad \forall w_0 \in D \tag{4.30}
 $$
 
 Therefore, the higher the coefficient $\rho_{(w_0)}$, the higher the relative risk aversion of the investor.
@@ -571,13 +571,14 @@ $$
 We have:
 
 $$
-\rho_{\left(\mathrm{w}_0\right)}^{\mathrm{V}} = - \mathrm{w}_{\mathrm{o}} \frac{\mathrm{V}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{V}^{\prime} \left(\mathrm{w}_0\right)} = - \mathrm{w}_{\mathrm{o}} \frac{\mathrm{a U}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{a U}^{\prime} \left(\mathrm{w}_0\right)} = - \mathrm{w}_{\mathrm{o}} \frac{\mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)}{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)} = \rho_{\left(\mathrm{w}_0\right)}^{\mathrm{U}} \tag{4.31}
+\rho_{(w_0)}^V = -w_0 \frac{V''(w_0)}{V'(w_0)} = -w_0 \frac{aU''(w_0)}{aU'(w_0)} = -w_0 \frac{U''(w_0)}{U'(w_0)} = \rho_{(w_0)}^U \tag{4.31}
 $$
 
 The inverse of Relative Risk Aversion is defined Relative Risk Tolerance (RRT) $(\mathcal{T})$ as follows:
 
 $$
-\mathcal{T}_{\left(\mathrm{w}_0\right)} = \frac{1}{\rho_{\left(\mathrm{w}_0\right)}} = - \frac{1}{\mathrm{w}_0} \frac{\mathrm{U}^{\prime} \left(\mathrm{w}_0\right)}{\mathrm{U}^{\prime \prime} \left(\mathrm{w}_0\right)} \tag{4.32}
+\mathcal{T}_{(w_0)} = \frac{1}{\rho_{(w_0)}} = -\frac{1}{w_0} \frac{U'(w_0)}{U''(w_0)} \tag{4.32}
+$$
 $$
 
 Therefore, the higher the relative risk aversion of the investor, the lower the relative risk tolerance, and in the same way, the lower the relative risk aversion of the investor, the higher the relative risk tolerance. Therefore, the higher the coefficient $T_{(w_0)}$, the higher the relative risk tolerance of the investor.
@@ -607,7 +608,7 @@ Among all of the utility functions that can be used, some of them can be defined
 The function can be defined as follows:
 
 $$
-\mathrm{U} (\mathrm{w}) = \mathrm{a} + \mathrm{b w} \quad \mathrm{b} > 0 \tag{4.33}
+U(w) = a + bw \quad b > 0 \tag{4.33}
 $$
 
 where $a$ is an arbitrary constant.
@@ -615,7 +616,7 @@ where $a$ is an arbitrary constant.
 The first derivative is always positive and therefore the function is always increasing. Indeed:
 
 $$
-\mathrm{U}^{\prime} (\mathrm{w}) = \mathrm{b}
+U'(w) = b
 $$
 
 The second derivative is equal to zero. It implies that there is no concavity and then the investor is risk neutral.
@@ -627,27 +628,27 @@ Therefore, it implies that the risk neutral is equivalent to the linear utility 
 The function can be defined as follows:
 
 $$
-\mathrm{U} (\mathrm{w}) = \frac{1}{a} w^a \quad a < 1; a \neq 0; w > 0 \tag{4.34}
+U(w) = \frac{1}{a} w^a \quad a < 1; a \neq 0; w > 0 \tag{4.34}
 $$
 
 The first and second derivatives are the following:
 
 $$
-\mathrm{U}^{\prime} (\mathrm{w}) = \frac{1}{a} a w^{a - 1} = w^{a - 1}
+U'(w) = \frac{1}{a} a w^{a - 1} = w^{a - 1}
 $$
 
 $$
-\mathrm{U}^{\prime \prime} (\mathrm{w}) = (\mathrm{a} - 1) w^{a - 2}
+U''(w) = (a - 1) w^{a - 2}
 $$
 
 The absolute risk aversion $(\lambda_{(\mathrm{w})})$ and the relative risk aversion $(\rho_{(\mathrm{w})})$ are the following:
 
 $$
-\lambda_{(\mathrm{w})} = - \frac{\mathrm{U}^{\prime \prime} (\mathrm{w})}{\mathrm{U}^{\prime} (w)} = - \left[ \frac{(\mathrm{a} - 1) w^{a - 2}}{w^{a - 1}} \right] = - \left[ \frac{(\mathrm{a} - 1) w^{a - 1} w^{- 1}}{w^{a - 1}} \right] = - \left[ \frac{\mathrm{a} - 1}{w} \right] = \frac{1 - a}{w}
+\lambda_{(w)} = -\frac{U''(w)}{U'(w)} = -\left[ \frac{(a - 1) w^{a - 2}}{w^{a - 1}} \right] = -\left[ \frac{(a - 1) w^{a - 1} w^{-1}}{w^{a - 1}} \right] = -\left[ \frac{a - 1}{w} \right] = \frac{1 - a}{w}
 $$
 
 $$
-\rho_{(\mathrm{w})} = - \mathrm{w} \frac{\mathrm{U}^{\prime \prime} (w)}{\mathrm{U}^{\prime} (w)} = - w \left(\frac{\mathrm{a} - 1}{w}\right) = 1 - a
+\rho_{(w)} = -w \frac{U''(w)}{U'(w)} = -w \left(\frac{a - 1}{w}\right) = 1 - a
 $$
 
 Therefore, the absolute risk aversion $(\lambda_{(\mathrm{w})})$ decreases as wealth (w) increases. The relative risk aversion $(\rho_{(\mathrm{w})})$ is independent of the level of wealth (w) and therefore it is constant. For this reason, this function is classified according to function groups CRRA.
@@ -655,7 +656,7 @@ Therefore, the absolute risk aversion $(\lambda_{(\mathrm{w})})$ decreases as we
 Also by considering that:
 
 $$
-\ln \left[ U^{\prime} (w) \right] = \ln \left[ w^{a - 1} \right] = (a - 1) \ln [ w ]
+\ln[U'(w)] = \ln[w^{a - 1}] = (a - 1) \ln[w]
 $$
 
 the $(a - 1)$ can be considered as the elasticity of marginal utility with respect to wealth.
@@ -665,7 +666,7 @@ the $(a - 1)$ can be considered as the elasticity of marginal utility with respe
 The function can be defined as follows:
 
 $$
-\mathrm{U} (\mathrm{w}) = \mathrm{a} \ln w + b \quad w > 0; a, b \text{ arbitrary constants} \tag{4.35}
+U(w) = a \ln w + b \quad w > 0; a, b \text{ arbitrary constants} \tag{4.35}
 $$
 
 The basic assumption is that the increase in utility is directly proportional with wealth $(w)$ increases and it is inversely proportional to initial wealth.
@@ -673,17 +674,17 @@ The basic assumption is that the increase in utility is directly proportional wi
 The first and second derivatives are the following:
 
 $$
-\mathrm{U}^{\prime} (\mathrm{w}) = \mathrm{a} \frac{1}{w} = a w^{- 1}
+U'(w) = a \frac{1}{w} = a w^{-1}
 $$
 
 $$
-\mathrm{U}^{\prime \prime} (\mathrm{w}) = \mathrm{a} (- 1) w^{- 2} = - a w^{- 2}
+U''(w) = a(-1) w^{-2} = -a w^{-2}
 $$
 
 The absolute risk aversion $(\lambda_{(\mathrm{w})})$ and the relative risk aversion $(\rho_{(\mathrm{w})})$ are the following:
 
 $$
-\lambda_{(\mathrm{w})} = - \frac{\mathrm{U}^{\prime \prime} (\mathrm{w})}{\mathrm{U}^{\prime} (w)} = - \left[ \frac{- a w^{- 2}}{a w^{- 1}} \right] = w^{- 1} = \frac{1}{w}
+\lambda_{(w)} = -\frac{U''(w)}{U'(w)} = -\left[ \frac{-a w^{-2}}{a w^{-1}} \right] = w^{-1} = \frac{1}{w}
 $$
 
 Therefore, the absolute risk aversion $(\lambda_{(\mathrm{w})})$ decreases as wealth (w) increases. The Relative Risk Aversion $(\rho_{(\mathrm{w})})$ is independent on the level of wealth (w) and therefore it is constant. For this reason, this function is classified according to function groups CRRA.
@@ -693,26 +694,26 @@ Therefore, the absolute risk aversion $(\lambda_{(\mathrm{w})})$ decreases as we
 The function can be defined as follows:
 
 $$
-\mathrm{U} (\mathrm{w}) = \mathrm{a} \left(1 - e^{- \frac{w}{a}}\right) \quad a > 0 \tag{4.36}
+U(w) = a \left(1 - e^{-\frac{w}{a}}\right) \quad a > 0 \tag{4.36}
 $$
 
 This is a superiorly limited exponential function. The parameter $\underline{a}$ is the upper extremity and therefore it represents the maximum potentiality. Indeed, the function for $\mathrm{U(w)} = a$ has a horizontal asymptote:
 
 $$
-\begin{array}{l}
-\lim_{w \rightarrow + \infty} [ U (w) ] = \lim_{w \rightarrow + \infty} \left[ a \left(1 - e^{- \frac{w}{a}}\right)\right] = a \left(1 - e^{- \infty}\right) \\
-= \mathrm{a} \left(1 - \frac{1}{e^{\infty}}\right) = \mathrm{a} (1 - 0) = a \\
-\end{array}
+\begin{aligned}
+\lim_{w \to +\infty} [U(w)] &= \lim_{w \to +\infty} \left[ a \left(1 - e^{-\frac{w}{a}}\right)\right] = a \left(1 - e^{-\infty}\right) \\
+&= a \left(1 - \frac{1}{e^{\infty}}\right) = a (1 - 0) = a
+\end{aligned}
 $$
 
 The first and second derivatives are the following:
 
 $$
-\mathrm{U}^{\prime} (\mathrm{w}) = \mathrm{a} \left(- \left(- \frac{1}{a}\right) e^{- \frac{w}{a}}\right) = \mathrm{a} \left(\frac{1}{a} e^{- \frac{w}{a}}\right) = e^{- \frac{w}{a}}
+U'(w) = a \left(-\left(-\frac{1}{a}\right) e^{-\frac{w}{a}}\right) = a \left(\frac{1}{a} e^{-\frac{w}{a}}\right) = e^{-\frac{w}{a}}
 $$
 
 $$
-\mathrm{U}^{\prime \prime} (\mathrm{w}) = \left(- \frac{1}{a}\right) e^{- \frac{\mathrm{w}}{a}}
+U''(w) = \left(-\frac{1}{a}\right) e^{-\frac{w}{a}}
 $$
 
 The absolute risk aversion $(\lambda_{(\mathrm{w})})$ and the relative risk aversion $(\rho_{(\mathrm{w})})$ are the following:
